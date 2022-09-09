@@ -10,18 +10,30 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
+
 
 --> CODESET cancer:1 atrial-fibrillation:1 coronary-heart-disease:1 heart-failure:1 hypertension:1 peripheral-arterial-disease:1 stroke:1 tia:1 
 --> CODESET diabetes:1 peptic-ulcer-disease:1 rheumatoid-arthritis:1 epilepsy:1 multiple-sclerosis:1 parkinsons:1 eating-disorders:1 anxiety:1 depression:1 
 --> CODESET schizophrenia-psychosis:1 bipolar:1 chronic-kidney-disease:1 asthma:1 copd:1 
+
 
 -- Create a table for the first diagnosis of cancer===================================================================================================================================
 IF OBJECT_ID('tempdb..#CancerAll') IS NOT NULL DROP TABLE #CancerAll;
@@ -31,7 +43,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'cancer' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'cancer' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#CancerFirst') IS NOT NULL DROP TABLE #CancerFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -49,7 +61,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'atrial-fibrillation' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'atrial-fibrillation' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#AFFirst') IS NOT NULL DROP TABLE #AFFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -67,7 +79,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'coronary-heart-disease' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'coronary-heart-disease' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#CHDFirst') IS NOT NULL DROP TABLE #CHDFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -85,7 +97,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'heart-failure' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'heart-failure' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#HFFirst') IS NOT NULL DROP TABLE #HFFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -104,7 +116,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#HypertensionFirst') IS NOT NULL DROP TABLE #HypertensionFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -122,7 +134,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'peripheral-arterial-disease' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'peripheral-arterial-disease' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PADFirst') IS NOT NULL DROP TABLE #PADFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -141,7 +153,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'stroke' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'stroke' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#StrokeFirst') IS NOT NULL DROP TABLE #StrokeFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -160,7 +172,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'tia' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'tia' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#TIAFirst') IS NOT NULL DROP TABLE #TIAFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -179,7 +191,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#DiabetesFirst') IS NOT NULL DROP TABLE #DiabetesFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -198,7 +210,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'peptic-ulcer-disease' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'peptic-ulcer-disease' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PUDFirst') IS NOT NULL DROP TABLE #PUDFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -217,7 +229,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'rheumatoid-arthritis' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'rheumatoid-arthritis' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#RAFirst') IS NOT NULL DROP TABLE #RAFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -236,7 +248,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'epilepsy' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'epilepsy' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#EpilepsyFirst') IS NOT NULL DROP TABLE #EpilepsyFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -255,7 +267,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'multiple-sclerosis' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'multiple-sclerosis' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#MSFirst') IS NOT NULL DROP TABLE #MSFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -274,7 +286,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'parkinsons' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'parkinsons' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#ParkinsonsFirst') IS NOT NULL DROP TABLE #ParkinsonsFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -293,7 +305,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'eating-disorders' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'eating-disorders' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#EatingDisordersFirst') IS NOT NULL DROP TABLE #EatingDisordersFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -312,7 +324,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'anxiety' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'anxiety' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#AnxietyFirst') IS NOT NULL DROP TABLE #AnxietyFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -331,7 +343,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'depression' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'depression' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#DepressionFirst') IS NOT NULL DROP TABLE #DepressionFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -350,7 +362,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'schizophrenia-psychosis' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'schizophrenia-psychosis' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#SchizophreniaFirst') IS NOT NULL DROP TABLE #SchizophreniaFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -370,7 +382,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bipolar' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bipolar' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#BipolarFirst') IS NOT NULL DROP TABLE #BipolarFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -389,7 +401,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'chronic-kidney-disease' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'chronic-kidney-disease' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#CKDFirst') IS NOT NULL DROP TABLE #CKDFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -408,7 +420,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'asthma' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'asthma' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#AsthmaFirst') IS NOT NULL DROP TABLE #AsthmaFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -427,7 +439,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'copd' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'copd' AND Version = 1)
-);
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#COPDFirst') IS NOT NULL DROP TABLE #COPDFirst;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
@@ -488,5 +500,5 @@ SELECT * FROM #COPDFirst;
 -- Create the final table============================================================================================================================
 SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EventDate AS [Date] 
 FROM #Table
-WHERE YEAR(EventDate) >= 2019;
+WHERE YEAR(EventDate) >= 2019 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 

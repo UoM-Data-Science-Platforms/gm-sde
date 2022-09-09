@@ -14,14 +14,25 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 --> CODESET nsaids:1
 --> CODESET heart-failure:1
@@ -31,7 +42,10 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
 -- Create a table of all patients ======================================================================================================================
 -- All IDs of patients
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsID FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #PatientsID 
+FROM [RLS].vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
 IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
@@ -39,13 +53,11 @@ CREATE TABLE #Dates (
   d DATE,
   PRIMARY KEY (d)
 )
-DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
 
-WHILE ( @dStart < @dEnd )
+WHILE ( @StartDate < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  INSERT INTO #Dates (d) VALUES( @StartDate )
+  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
@@ -61,6 +73,7 @@ FROM #PatientsID, #Time;
 -- Drop some tables
 DROP TABLE #PatientsID
 DROP TABLE #Dates
+DROP TABLE #Time
 
 
 -- Create HF tables================================================================================================================================================
@@ -73,7 +86,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'heart-failure' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'heart-failure' AND Version = 1)
 )
-AND EventDate >= @StartDate;
+AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 -- Delete duplicates
 IF OBJECT_ID('tempdb..#HF') IS NOT NULL DROP TABLE #HF;
@@ -172,7 +185,8 @@ SELECT [Year], Month, CCG, GPPracticeCode AS GPPracticeId,
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
-GROUP BY [Year], [Month], CCG, GPPracticeCode;
+GROUP BY [Year], [Month], CCG, GPPracticeCode
+ORDER BY [Year], [Month], CCG, GPPracticeCode;
 
 
 

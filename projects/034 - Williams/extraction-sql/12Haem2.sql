@@ -1,27 +1,36 @@
 ﻿--+---------------------------------------------------------------------------+
---¦ People with a drop of ≥10 ml/minute in eGFR compared with previous result ¦
+--¦ Patients with a recorded haemoglobin                                      ¦
 --+---------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
--- OUTPUT: Data with the following fields
+-- OUTPUT: Data of patients with a recorded haemoglobin
 -- Year (YYYY)
 -- Month (1-12)
 -- CCG (can be an anonymised id for each CCG)
 -- GPPracticeId
--- NumberOfDroppedEGFRs (integer) The number of unique patients for this year, month, ccg and practice who received an eGFR that was ≥10 ml/minute lower than their previous reading
--- NumberOfSubsequentEGFRs (integer) The number of unique patients for this year, month, ccg and practice who received an eGFR that was not their first ever reading.
+-- NumberOfHaem (integer) The number of patients with a recorded haemoglobin 
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -63,7 +72,7 @@ CREATE TABLE #codesreadv2 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
-VALUES ('egfr',1,'451E.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451E.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451G.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451G.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451K.',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.00',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.00',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres')
+VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423C.',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423C.00',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423B.',NULL,'Haemoglobin abnormal'),('haemoglobin',1,'423B.00',NULL,'Haemoglobin abnormal')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -78,7 +87,7 @@ CREATE TABLE #codesctv3 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
-VALUES ('egfr',1,'X70kK',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'X70kL',NULL,'Cr51- EDTA clearance - GFR'),('egfr',1,'X90kf',NULL,'With GFR'),('egfr',1,'XaK8y',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'XaMDA',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'XaZpN',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres')
+VALUES ('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -92,8 +101,7 @@ CREATE TABLE #codessnomed (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codessnomed
-VALUES ('egfr',1,'1011481000000105',NULL,'eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1011491000000107',NULL,'eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1020291000000106',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'1107411000000104',NULL,'eGFR (estimated glomerular filtration rate) by laboratory calculation'),('egfr',1,'241373003',NULL,'Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)'),('egfr',1,'262300005',NULL,'With glomerular filtration rate'),('egfr',1,'737105002',NULL,'GFR (glomerular filtration rate) calculation technique'),('egfr',1,'80274001',NULL,'Glomerular filtration rate (observable entity)'),('egfr',1,'996231000000108',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin')
+
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -192,7 +200,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following code sets injected: egfr v1
+-- >>> Following code sets injected: haemoglobin v1
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
@@ -302,51 +310,67 @@ LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
 
--- Create eGFR tables======================================================================================================================================
--- All eGFR reading records
-IF OBJECT_ID('tempdb..#eGFR') IS NOT NULL DROP TABLE #eGFR;
-SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, Value, Units
-INTO #eGFR
+-- Haemoglobin tables=======================================================================================================================================================
+-- Create a table of all patients with haemoglobin values after the start date
+IF OBJECT_ID('tempdb..#Haemoglobin') IS NOT NULL DROP TABLE #Haemoglobin;
+SELECT FK_Patient_Link_ID, MONTH(EventDate) AS Month, YEAR(EventDate) AS Year, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, Value, Units
+INTO #Haemoglobin
 FROM [RLS].[vw_GP_Events]
 WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND Version = 1)
-);
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'haemoglobin' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'haemoglobin' AND Version = 1)
+)
+AND EventDate >= @StartDate AND EventDate < @EndDate AND Value IS NOT NULL AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
--- Only select eGFR as number
-IF OBJECT_ID('tempdb..#eGFRConvert') IS NOT NULL DROP TABLE #eGFRConvert;
+-- Only select haemoglobin values as number
+IF OBJECT_ID('tempdb..#HaemoglobinConvert') IS NOT NULL DROP TABLE #HaemoglobinConvert;
 SELECT *, TRY_CONVERT(NUMERIC (18,5), [Value]) AS Value_new
-INTO #eGFRConvert
-FROM #eGFR
+INTO #HaemoglobinConvert
+FROM #Haemoglobin
 WHERE UPPER([Value]) NOT LIKE '%[A-Z]%';
 
--- Only select eGFR values > 0 and <= 300, no conversion needed (PI approved)
-IF OBJECT_ID('tempdb..#eGFRFinal') IS NOT NULL DROP TABLE #eGFRFinal;
-SELECT FK_Patient_Link_ID, EventDate, Value_new
-INTO #eGFRFinal
-FROM #eGFRConvert
-WHERE Value_new IS NOT NULL AND Value_new > 0 AND Value_new <= 300;
+-- Convert different value units into g/L
+UPDATE
+#HaemoglobinConvert
+SET
+Value_new = Value_new * 10
+WHERE
+Units = 'g(hb)/dL';
+
+UPDATE
+#HaemoglobinConvert
+SET
+Value_new = Value_new * 10
+WHERE
+Units = 'g/dL';
+
+UPDATE
+#HaemoglobinConvert
+SET
+Value_new = Value_new * 10
+WHERE
+Units = 'gm/dl';
+
+-- Create a final table with an unique row for each ID, year, month with min values of haemoglobin of that month
+IF OBJECT_ID('tempdb..#HaemoglobinFinal') IS NOT NULL DROP TABLE #HaemoglobinFinal; 
+SELECT FK_Patient_Link_ID, Year, Month, MIN(Value_new) AS Haemoglobin_values
+INTO #HaemoglobinFinal
+FROM #HaemoglobinConvert
+WHERE Value_new > 0 AND Value_new <= 300 AND 
+	  (Units = 'g(hb)/dL' OR Units = 'g/dl' OR Units = 'g/L' OR Units = 'g/L (115-165) L' OR Units = 'gm/dl' OR Units = 'gm/L' OR Units = 'mmol/l')
+GROUP BY FK_Patient_Link_ID, Year, Month;
 
 -- Drop some tables to clear space
-DROP TABLE #eGFR
-DROP TABLE #eGFRConvert
+DROP TABLE #Haemoglobin
+DROP TABLE #HaemoglobinConvert
 
 
--- Create a table of all eGFR and their previous readings=========================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT FK_Patient_Link_ID, EventDate, Value_new, YEAR(EventDate) AS [Year], MONTH(EventDate) AS [Month],
-	   LAG (Value_new) OVER (PARTITION  BY FK_Patient_Link_ID ORDER BY EventDate) AS Value_previous, 
-	   Value_new - LAG (Value_new) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate) AS Difference_eGFR,
-	   CASE WHEN LAG (Value_new) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate) IS NULL THEN 'Y' ELSE 'N' END AS First_reading
-INTO #Table
-FROM #eGFRFinal
-
-
--- Create a table of all patients with GP events after the start date with all months from Jan 2019 till the current month=====================================================
+-- Create a table of all patients with GP events after the start date with all months from Jan 2019 till May 2022 (COPI)=====================================================
 -- All IDs of patients with GP events after the start date
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
 SELECT DISTINCT FK_Patient_Link_ID
-INTO #PatientsID FROM [RLS].[vw_GP_Events];
+INTO #PatientsID FROM [RLS].[vw_GP_Events]
+WHERE EventDate >= @StartDate AND EventDate < @EndDate AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
 IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
@@ -354,13 +378,11 @@ CREATE TABLE #Dates (
   d DATE,
   PRIMARY KEY (d)
 )
-DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
 
-WHILE ( @dStart < @dEnd )
+WHILE ( @StartDate < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  INSERT INTO #Dates (d) VALUES( @StartDate )
+  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
@@ -379,34 +401,19 @@ DROP TABLE #Dates
 DROP TABLE #Time
 
 
--- Merge with CCG and GP practice ID================================================================================================================================================
--- Several egFR before 2019 will be missed in this table but it doesnt affect the final counts
-IF OBJECT_ID('tempdb..#TableCount') IS NOT NULL DROP TABLE #TableCount;
-SELECT a.FK_Patient_Link_ID, a.[Year], a.[Month], 
-	   p.EventDate, p.Value_new, p.Value_previous, p.Difference_eGFR, p.First_reading, gp.GPPracticeCode, gp.CCG
-INTO #TableCount
-FROM #PatientsAll a
-LEFT OUTER JOIN #PatientPracticeAndCCG gp ON a.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #Table p ON a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND a.[Year] = p.[Year] AND a.[Month] = p.[Month];
+-- Merge table=================================================================================================================================================================
+-- Merge all information
+IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+SELECT P.FK_Patient_Link_ID, p.[Year], p.[Month], gp.GPPracticeCode, gp.CCG, h.Haemoglobin_values
+INTO #Table
+FROM #PatientsAll p
+LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = GP.FK_Patient_Link_ID
+LEFT OUTER JOIN #HaemoglobinFinal h ON p.FK_Patient_Link_ID = h.FK_Patient_Link_ID AND p.[Year] = h.[Year] AND p.[Month] = h.[Month];
 
-
--- Count for the final table================================================================================================================================================
--- Group into an unique row for each patients in each month
-IF OBJECT_ID('tempdb..#TableFinal') IS NOT NULL DROP TABLE #TableFinal;
-SELECT FK_Patient_Link_ID, [Year], [Month], CCG, GPPracticeCode, MIN(Difference_eGFR) AS Difference_eGFR_min, MAX(First_reading) AS First_reading_max
-INTO #TableFinal
-FROM #TableCount
-GROUP BY FK_Patient_Link_ID, [Year], [Month], CCG, GPPracticeCode;
-
--- Count
-IF OBJECT_ID('tempdb..#eGFRNotFirstPerMonth') IS NOT NULL DROP TABLE #eGFRNotFirstPerMonth;
-SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
-	   SUM(CASE WHEN Difference_eGFR_min <= -10 THEN 1 ELSE 0 END) AS NumberOfDroppedEGFRs,
-	   SUM(CASE WHEN First_reading_max = 'N' THEN 1 ELSE 0 END) AS NumberOfSubsequentEGFRs
-INTO #eGFRNotFirstPerMonth
-FROM #TableFinal
-WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
-GROUP BY [Year], [Month], CCG, GPPracticeCode;
-
-
-
+-- Count for the final table
+SELECT Year, Month, CCG, GPPracticeCode AS GPPracticeId, 
+	   SUM(CASE WHEN Haemoglobin_values IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfHaem
+FROM #Table
+WHERE Year IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+GROUP BY [Year], [Month], CCG, GPPracticeCode
+ORDER BY [Year], [Month], CCG, GPPracticeCode;

@@ -15,14 +15,25 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
+
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
@@ -196,9 +207,37 @@ INTO #AdmissionTypes FROM (
 ) sub;
 -- 523477 rows	523477 rows
 -- 00:00:16		00:00:45
+--┌───────────────────────┐
+--│ Patient GP encounters │
+--└───────────────────────┘
+
+-- OBJECTIVE: To produce a table of GP encounters for a list of patients.
+-- This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured.
+-- This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+-- ASSUMPTIONS:
+--	- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- Also takes parameters:
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+--  - start-date: string - (YYYY-MM-DD) the date to count encounters from.
+--  - end-date: string - (YYYY-MM-DD) the date to count encounters to.
 
 
--- Count GP encouters each month (this script was provided by the PI)======================================================================================================================
+-- OUTPUT: A temp table as follows:
+-- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- EncounterDate - date the patient had a GP encounter
+
+
+-- Create a table with all GP encounters ========================================================================================================
+
+IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
 SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #CodingClassifier
 FROM SharedCare.Reference_Coding
@@ -221,16 +260,6 @@ AND (
 );
 
 INSERT INTO #CodingClassifier
-SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '8H2%'
-	or MainCode like '8H[1-3]%'
-	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
-);
-
-INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 FROM SharedCare.Reference_Coding
 WHERE CodingType='ReadCodeV2'
@@ -240,32 +269,15 @@ AND (
 	or MainCode like '9N3A%'
 );
 
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '7%'
-	or MainCode like '8H[1-3]%'
-	or MainCode like '9N%' 
-);
-
 -- Add the equivalent CTV3 codes
 INSERT INTO #CodingClassifier
 SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
-INSERT INTO #CodingClassifier
-SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
+
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
 
 -- Add the equivalent EMIS codes
@@ -276,75 +288,46 @@ WHERE (
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
 );
 INSERT INTO #CodingClassifier
-SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
-);
-INSERT INTO #CodingClassifier
 SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
 );
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND PK_Reference_Coding_ID != -1)
-);
 
 -- All above takes ~30s
 
--- Below is split up, because doing it without the date filter led to 
--- an out of memory exception.
+IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
+CREATE TABLE #GPEncounters (
+	FK_Patient_Link_ID BIGINT,
+	EncounterDate DATE
+);
 
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2019-01-01'
-AND EventDate < '2019-02-01'
---2,242,912 records in 4m21
-
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
-INTO #Encounters
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2019-01-01'
-AND EventDate < '2020-01-01';
--- 26,573,504 records, 6m26
-
-INSERT INTO #Encounters
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2020-01-01'
-AND EventDate < '2021-01-01';
--- 21,971,922 records, 5m28
-
-INSERT INTO #Encounters
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2021-01-01'
-AND EventDate < '2022-01-01';
--- 25,879,476 records, 5m23
-
-INSERT INTO #Encounters
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2022-01-01'
-AND EventDate < '2023-01-01';
---5,488,868 records, 18m 54
+BEGIN
+  IF 'F'='true'
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM [RLS].[vw_GP_Events]
+    WHERE 
+      FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2019-01-01' AND '2022-06-01'
+  ELSE 
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM [RLS].[vw_GP_Events]
+    WHERE 
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2019-01-01' AND '2022-06-01'
+  END
 
 
 -- Numbers of GP encounter=========================================================================================================================================
 -- All GP encounters
 IF OBJECT_ID('tempdb..#GPEncounter') IS NOT NULL DROP TABLE #GPEncounter;
-SELECT DISTINCT FK_Patient_Link_ID, EntryDate,
-	   YEAR (EntryDate) AS [Year], MONTH (EntryDate) AS [Month], DAY (EntryDate) AS [Day]
+SELECT DISTINCT FK_Patient_Link_ID, EncounterDate,
+	   YEAR (EncounterDate) AS [Year], MONTH (EncounterDate) AS [Month], DAY (EncounterDate) AS [Day]
 INTO #GPEncounter
-FROM #Encounters;
+FROM #GPEncounters;
 
 -- Count the number of GP encounters for each month
 IF OBJECT_ID('tempdb..#GPEncounterFinal') IS NOT NULL DROP TABLE #GPEncounterFinal;
@@ -361,7 +344,7 @@ SELECT DISTINCT FK_Patient_Link_ID, AdmissionDate,
 	   YEAR (AdmissionDate) AS [Year], MONTH (AdmissionDate) AS [Month], DAY (AdmissionDate) AS [Day]
 INTO #UnplannedAdmission
 FROM #AdmissionTypes
-WHERE AdmissionType = 'Unplanned';
+WHERE AdmissionType = 'Unplanned' AND AdmissionDate < @EndDate;
 
 -- Count unplanned admission for each month
 IF OBJECT_ID('tempdb..#UnplannedAdmissionFinal') IS NOT NULL DROP TABLE #UnplannedAdmissionFinal;
@@ -373,7 +356,10 @@ GROUP BY FK_Patient_Link_ID, [Year], [Month];
 
 -- Create a table with all patients ===============================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsID FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #PatientsID 
+FROM [RLS].vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
 IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
@@ -381,13 +367,11 @@ CREATE TABLE #Dates (
   d DATE,
   PRIMARY KEY (d)
 )
-DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
 
-WHILE ( @dStart < @dEnd )
+WHILE ( @StartDate < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  INSERT INTO #Dates (d) VALUES( @StartDate )
+  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
@@ -407,15 +391,15 @@ DROP TABLE #Time
 
 -- Find patients who had unplanned admission within 10 days from GP encouter=============================================================================
 IF OBJECT_ID('tempdb..#TableMerge') IS NOT NULL DROP TABLE #TableMerge;
-SELECT p.FK_Patient_Link_ID, g.EntryDate, u.AdmissionDate
+SELECT p.FK_Patient_Link_ID, g.EncounterDate, u.AdmissionDate
 INTO #TableMerge
 FROM #PatientsID p
 LEFT OUTER JOIN #GPEncounter g ON p.FK_Patient_Link_ID = g.FK_Patient_Link_ID 
 LEFT OUTER JOIN #UnplannedAdmission u ON p.FK_Patient_Link_ID = u.FK_Patient_Link_ID
-WHERE u.AdmissionDate <= DATEADD(DAY, 10, g.EntryDate) AND u.AdmissionDate >= g.EntryDate;
+WHERE u.AdmissionDate <= DATEADD(DAY, 10, g.EncounterDate) AND u.AdmissionDate >= g.EncounterDate;
 
 IF OBJECT_ID('tempdb..#TableAdmissionAfterGP') IS NOT NULL DROP TABLE #TableAdmissionAfterGP;
-SELECT DISTINCT FK_Patient_Link_ID, YEAR(EntryDate) AS [Year], MONTH(EntryDate) AS [Month], 'Y' AS AdmissionAfterGP
+SELECT DISTINCT FK_Patient_Link_ID, YEAR(EncounterDate) AS [Year], MONTH(EncounterDate) AS [Month], 'Y' AS AdmissionAfterGP
 INTO #TableAdmissionAfterGP
 FROM #TableMerge;
 
@@ -432,14 +416,14 @@ LEFT OUTER JOIN #GPEncounterFinal e ON p.FK_Patient_Link_ID = e.FK_Patient_Link_
 LEFT OUTER JOIN #TableAdmissionAfterGP t ON p.FK_Patient_Link_ID = t.FK_Patient_Link_ID AND p.[Year] = t.[Year] AND p.[Month] = t.[Month];
 
 -- Count
-IF OBJECT_ID('tempdb..#UnplannedAdmissions') IS NOT NULL DROP TABLE #UnplannedAdmissions;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM (CASE WHEN AdmissionAfterGP = 'Y' THEN 1 ELSE 0 END) AS NumberOfUnplannedAdmissionsFollowingEncounter,
 	   SUM (NumberOfGPEncounter) AS NumberOfGPEncounter,
 	   SUM (NumberOfUnplannedAdmissions) AS NumberOfUnplannedAdmissions
-INTO #UnplannedAdmissions
 FROM #Table
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
-GROUP BY [Year], [Month], CCG, GPPracticeCode;
+	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
+GROUP BY [Year], [Month], CCG, GPPracticeCode
+ORDER BY [Year], [Month], CCG, GPPracticeCode;
 
 

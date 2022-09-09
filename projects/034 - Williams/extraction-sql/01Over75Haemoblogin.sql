@@ -1,26 +1,39 @@
 ﻿--+---------------------------------------------------------------------------+
---¦ Haemoglobin <100g/L                                                       ¦
+--¦ People >75 years old with haemoglobin <100 g/L or ferritin <15 ng/ml      ¦
 --+---------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
--- OUTPUT: Data with one row for each time a patient has a haemoglobin value <100
+-- OUTPUT: Data with the following fields
 -- Year (YYYY)
 -- Month (1-12)
 -- CCG (can be an anonymised id for each CCG)
 -- GPPracticeId
--- NumberOfHaem (integer) The number of patients with a recorded haemoglobin 
+-- NumberOfOver75WithLowHaem (integer) The number of over 75s with a haemoglobin <100 or a ferritin <15 in this year, month and for this ccg and gp
+-- NumberOfOver75s (integer) The number of over 75s for this year, month, ccg and gp
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
+
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -62,6 +75,8 @@ CREATE TABLE #codesreadv2 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
+VALUES ('ferritin',1,'42d4.',NULL,'Plasma ferritin level'),('ferritin',1,'42d4.00',NULL,'Plasma ferritin level'),('ferritin',1,'42R41',NULL,'Ferritin level low'),('ferritin',1,'42R4100',NULL,'Ferritin level low'),('ferritin',1,'42R42',NULL,'Serum ferritin normal'),('ferritin',1,'42R4200',NULL,'Serum ferritin normal'),('ferritin',1,'42R43',NULL,'Serum ferritin high'),('ferritin',1,'42R4300',NULL,'Serum ferritin high'),('ferritin',1,'42R4.',NULL,'Serum ferritin'),('ferritin',1,'42R4.00',NULL,'Serum ferritin');
+INSERT INTO #codesreadv2
 VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423C.',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423C.00',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423B.',NULL,'Haemoglobin abnormal'),('haemoglobin',1,'423B.00',NULL,'Haemoglobin abnormal')
 
 INSERT INTO #AllCodes
@@ -76,6 +91,8 @@ CREATE TABLE #codesctv3 (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
+INSERT INTO #codesctv3
+VALUES ('ferritin',1,'XaItW',NULL,'Plasma ferritin level'),('ferritin',1,'42R41',NULL,'Ferritin level low'),('ferritin',1,'42R42',NULL,'Serum ferritin normal'),('ferritin',1,'42R4200',NULL,'Serum ferritin normal'),('ferritin',1,'XaIRQ',NULL,'Serum ferritin high'),('ferritin',1,'X76t9',NULL,'Ferritin level'),('ferritin',1,'XE24r',NULL,'Serum ferritin level');
 INSERT INTO #codesctv3
 VALUES ('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level')
 
@@ -191,7 +208,100 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: haemoglobin v1
+-- >>> Following code sets injected: ferritin v1
 
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
 --└───────────────────────────────────────┘
@@ -303,14 +413,14 @@ LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 -- Haemoglobin tables=======================================================================================================================================================
 -- Create a table of all patients with haemoglobin values after the start date
 IF OBJECT_ID('tempdb..#Haemoglobin') IS NOT NULL DROP TABLE #Haemoglobin;
-SELECT FK_Patient_Link_ID, MONTH(EventDate) AS Month, YEAR(EventDate) AS Year, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, Value, Units
+SELECT FK_Patient_Link_ID, MONTH(EventDate) AS [Month], YEAR(EventDate) AS [Year], FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, Value, Units
 INTO #Haemoglobin
 FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'haemoglobin' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'haemoglobin' AND Version = 1)
 )
-AND EventDate >= @StartDate AND Value IS NOT NULL;
+AND EventDate >= @StartDate AND EventDate < @EndDate AND Value IS NOT NULL;
 
 -- Only select haemoglobin values as number
 IF OBJECT_ID('tempdb..#HaemoglobinConvert') IS NOT NULL DROP TABLE #HaemoglobinConvert;
@@ -319,7 +429,7 @@ INTO #HaemoglobinConvert
 FROM #Haemoglobin
 WHERE UPPER([Value]) NOT LIKE '%[A-Z]%';
 
--- Convert different value units into g/L
+-- Convert different value units into g/L (PI approved the conversions)
 UPDATE
 #HaemoglobinConvert
 SET
@@ -342,25 +452,61 @@ WHERE
 Units = 'gm/dl';
 
 -- Create a final table with an unique row for each ID, year, month with min values of haemoglobin of that month
+-- PI agreed about only keeping haemoglobin values > 0, not null and <= 300 g/L from some specific units
 IF OBJECT_ID('tempdb..#HaemoglobinFinal') IS NOT NULL DROP TABLE #HaemoglobinFinal; 
-SELECT FK_Patient_Link_ID, Year, Month, MIN(Value_new) AS Haemoglobin_values
+SELECT FK_Patient_Link_ID, [Year], [Month], MIN(Value_new) AS Haemoglobin_values -- select min value forquickly counting later
 INTO #HaemoglobinFinal
 FROM #HaemoglobinConvert
 WHERE Value_new > 0 AND Value_new <= 300 AND 
 	  (Units = 'g(hb)/dL' OR Units = 'g/dl' OR Units = 'g/L' OR Units = 'g/L (115-165) L' OR Units = 'gm/dl' OR Units = 'gm/L' OR Units = 'mmol/l')
-GROUP BY FK_Patient_Link_ID, Year, Month;
+GROUP BY FK_Patient_Link_ID, [Year], [Month];
 
 -- Drop some tables to clear space
 DROP TABLE #Haemoglobin
 DROP TABLE #HaemoglobinConvert
 
 
--- Create a table of all patients with GP events after the start date with all months rom Jan 2019 till the current month=====================================================
+-- Ferritin tables==========================================================================================================================================================
+-- Create a table of all patients with ferritin values after the start date
+IF OBJECT_ID('tempdb..#Ferritin') IS NOT NULL DROP TABLE #Ferritin;
+SELECT FK_Patient_Link_ID, MONTH(EventDate) AS [Month], YEAR(EventDate) AS [Year], FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, Value, Units
+INTO #Ferritin
+FROM [RLS].[vw_GP_Events]
+WHERE (
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'ferritin' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'ferritin' AND Version = 1)
+)
+AND EventDate >= @StartDate AND EventDate < @EndDate AND Value IS NOT NULL;
+
+-- Select only values as number
+IF OBJECT_ID('tempdb..#FerritinConvert') IS NOT NULL DROP TABLE #FerritinConvert;
+SELECT *, TRY_CONVERT(NUMERIC (18,5), [Value]) AS Value_new
+INTO #FerritinConvert
+FROM #Ferritin
+WHERE UPPER([Value]) NOT LIKE '%[A-Z]%';
+
+-- No conversion needed for ferritin values
+
+-- Create a final table with an unique row for each ID, year, month with min values of ferritin of that month
+-- PI agreed about only keeping ferritin values > 0, not null and <= 500 ng/mL from some specific units
+IF OBJECT_ID('tempdb..#FerritinFinal') IS NOT NULL DROP TABLE #FerritinFinal;
+SELECT FK_Patient_Link_ID, [Year], [Month], MIN(Value_new) AS Ferritin_values -- select min value forquickly counting later
+INTO #FerritinFinal
+FROM #FerritinConvert
+WHERE Value_new > 0 AND Value_new <= 500 AND (Units = 'mcg per litre' OR Units = 'mcg/l' OR Units = 'microg/L' OR Units = 'ng/mL' OR Units = 'ug/L')
+GROUP BY FK_Patient_Link_ID, [Year], [Month];
+
+-- Drop some tables to clear space
+DROP TABLE #Ferritin
+DROP TABLE #FerritinConvert
+
+
+-- Create a table of all patients with GP events after the start date with all months from Jan 2019 till May 2022 (COPI)=====================================================
 -- All IDs of patients with GP events after the start date
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientsID FROM [RLS].[vw_GP_Events]
-WHERE EventDate >= @StartDate;
+WHERE EventDate >= @StartDate AND EventDate < @EndDate AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
 IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
@@ -368,17 +514,15 @@ CREATE TABLE #Dates (
   d DATE,
   PRIMARY KEY (d)
 )
-DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
 
-WHILE ( @dStart < @dEnd )
+WHILE ( @StartDate < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  INSERT INTO #Dates (d) VALUES( @StartDate )
+  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
-SELECT DISTINCT YEAR(d) AS Year, MONTH(d) AS Month
+SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month]
 INTO #Time FROM #Dates
 
 -- Merge 2 tables
@@ -396,17 +540,20 @@ DROP TABLE #Time
 -- Merge table=================================================================================================================================================================
 -- Merge all information
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT P.FK_Patient_Link_ID, p.[Year], p.[Month], gp.GPPracticeCode, gp.CCG, h.Haemoglobin_values
+SELECT P.FK_Patient_Link_ID, p.[Year], p.[Month], (p.[Year] - y.YearOfBirth) AS Age, gp.GPPracticeCode, gp.CCG, h.Haemoglobin_values, f.Ferritin_values
 INTO #Table
 FROM #PatientsAll p
+LEFT OUTER JOIN #PatientYearOfBirth y ON p.FK_Patient_Link_ID = y.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = GP.FK_Patient_Link_ID
-LEFT OUTER JOIN #HaemoglobinFinal h ON p.FK_Patient_Link_ID = h.FK_Patient_Link_ID AND p.[Year] = h.[Year] AND p.[Month] = h.[Month];
+LEFT OUTER JOIN #HaemoglobinFinal h ON p.FK_Patient_Link_ID = h.FK_Patient_Link_ID AND p.[Year] = h.[Year] AND p.[Month] = h.[Month]
+LEFT OUTER JOIN #FerritinFinal f ON p.FK_Patient_Link_ID = f.FK_Patient_Link_ID AND p.[Year] = f.[Year] AND p.[Month] = f.[Month];
 
 -- Count for the final table
-IF OBJECT_ID('tempdb..#Haem') IS NOT NULL DROP TABLE #Haem;
-SELECT Year, Month, CCG, GPPracticeCode AS GPPracticeId, 
-	   SUM(CASE WHEN Haemoglobin_values IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfHaem
-INTO #Haem
+SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
+	   SUM(CASE WHEN Age > 75 AND (Haemoglobin_values < 100 OR Ferritin_values < 15) THEN 1 ELSE 0 END) AS NumberOfOver75WithLowHaem,
+	   SUM(CASE WHEN Age > 75 THEN 1 ELSE 0 END) AS NumberOfOver75s
 FROM #Table
-WHERE Year IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
-GROUP BY [Year], [Month], CCG, GPPracticeCode;
+WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL) 
+	    AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
+GROUP BY [Year], [Month], CCG, GPPracticeCode
+ORDER BY [Year], [Month], CCG, GPPracticeCode;

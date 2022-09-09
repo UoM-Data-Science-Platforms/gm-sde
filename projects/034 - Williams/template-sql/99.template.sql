@@ -63,11 +63,12 @@ FROM RLS.vw_Patient_GP_History;
 
 -- Merge with death date and CCG=========================================================================================================================================================================
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT h.FK_Patient_Link_ID, h.GPPracticeCode, h.StartDate, h.EndDate, l.DeathDate, c.CCG
+SELECT h.FK_Patient_Link_ID, h.GPPracticeCode, h.StartDate, h.EndDate, l.DeathDate, ccg.CcgName AS CCG
 INTO #Table
 FROM #GPHistory h
 LEFT OUTER JOIN [RLS].[vw_Patient_Link] l ON h.FK_Patient_Link_ID = l.PK_Patient_Link_ID
-LEFT OUTER JOIN #PatientPracticeAndCCG c ON h.FK_Patient_Link_ID =  c.FK_Patient_Link_ID;
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = h.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner; -- find CCG through GP Practice Code
 
 
 -- Update the table with death date information===========================================================================================================
@@ -115,7 +116,7 @@ GROUP BY h.FK_Patient_Link_ID, DateOfInterest, StartDate;
 -- Bring it all together into a table that shows which practice each person was at
 -- for each date of interest
 IF OBJECT_ID('tempdb..#PatientGPPracticesOnDate') IS NOT NULL DROP TABLE #PatientGPPracticesOnDate;
-SELECT h.FK_Patient_Link_ID, MAX(GPPracticeCode) AS GPPracticeCode, CCG, YEAR (DateOfInterest) AS Year, MONTH (DateOfInterest) AS Month, DAY(DateOfInterest) AS Day
+SELECT h.FK_Patient_Link_ID, MAX(GPPracticeCode) AS GPPracticeCode, MAX(CCG) AS CCG, YEAR (DateOfInterest) AS Year, MONTH (DateOfInterest) AS Month, DAY(DateOfInterest) AS Day
 INTO #PatientGPPracticesOnDate
 FROM #Table h
 INNER JOIN #FurthestEndDates f

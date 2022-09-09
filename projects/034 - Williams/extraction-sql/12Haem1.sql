@@ -1,27 +1,33 @@
 ﻿--+---------------------------------------------------------------------------+
---¦ People >75 years old with haemoglobin <100 g/L or ferritin <15 ng/ml      ¦
+--¦ Haemoglobin <100g/L                                                       ¦
 --+---------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 -- OUTPUT: Data with the following fields
--- Year (YYYY)
--- Month (1-12)
--- CCG (can be an anonymised id for each CCG)
--- GPPracticeId
--- NumberOfOver75WithLowHaem (integer) The number of over 75s with a haemoglobin <100 or a ferritin <15 in this year, month and for this ccg and gp
--- NumberOfOver75s (integer) The number of over 75s for this year, month, ccg and gp
+-- PatientId
+-- Date (YYYY/MM/DD)
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -204,7 +210,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'haemoglobin' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'haemoglobin' AND Version = 1)
 )
-AND EventDate >= @StartDate AND Value IS NOT NULL;
+AND EventDate >= @StartDate AND EventDate < @EndDate AND Value IS NOT NULL;
 
 -- Only select values as number
 IF OBJECT_ID('tempdb..#HaemoglobinConvert') IS NOT NULL DROP TABLE #HaemoglobinConvert;
@@ -237,9 +243,9 @@ Units = 'gm/dl';
 
 
 -- Create the final table================================================================================================================================
-IF OBJECT_ID('tempdb..#HaemLt100') IS NOT NULL DROP TABLE #HaemLt100;
 SELECT FK_Patient_Link_ID AS PatientId, EventDate AS Date
-INTO #HaemLt100
 FROM #HaemoglobinConvert
 WHERE Value_new > 0 AND Value_new < 100 AND 
-	  (Units = 'g(hb)/dL' OR Units = 'g/dl' OR Units = 'g/L' OR Units = 'g/L (115-165) L' OR Units = 'gm/dl' OR Units = 'gm/L' OR Units = 'mmol/l');
+      (Units = 'g(hb)/dL' OR Units = 'g/dl' OR Units = 'g/L' OR Units = 'g/L (115-165) L' OR Units = 'gm/dl' OR Units = 'gm/L' OR Units = 'mmol/l') AND
+      EventDate >= @StartDate AND EventDate < @EndDate AND
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);

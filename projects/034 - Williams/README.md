@@ -33,6 +33,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Patient GP encounters
 - Classify secondary admissions
 - GET practice and ccg for each patient
 - CCG lookup table
@@ -40,6 +41,32 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Patient GP encounters
+To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+_Assumptions_
+
+- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+	- FK_Patient_Link_ID - unique patient id
+	- EncounterDate - date the patient had a GP encounter
+```
+_File_: `query-patient-gp-encounters.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-gp-encounters.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-encounters.sql)
+
+---
 ### Classify secondary admissions
 To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
 
@@ -588,36 +615,31 @@ Code set for patients with a diagnosis of psychosis or schizophrenia.
 Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range (1.10% - 1.90%) 
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
+Here is a log for this code set. The prevalence range (1.10% - 1.90%)
 
-
-| Date       | Practice system 	| Population 	|   Patients from ID 	| Patient from code |
-| ---------- | ---------------- | ------------- | --------------------- | ----------------- |
-|2021-06-16  |	EMIS		| 2608685	|	46695 (1.79%)	|  46695 (1.79%)    |
-|2021-06-16  |	TPP		| 210985	|	28695 (1.10%)	|  28695 (1.10%)    |
-|2021-06-16  |	Vision		| 335010	|	49565 (1.90%)	|  49565 (1.90%)    |
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2021-06-16 | EMIS            | 2608685    | 46695 (1.79%)    | 46695 (1.79%)     |
+| 2021-06-16 | TPP             | 210985     | 28695 (1.10%)    | 28695 (1.10%)     |
+| 2021-06-16 | Vision          | 335010     | 49565 (1.90%)    | 49565 (1.90%)     |
 
 LINK: [https://github.com/rw251/.../conditions/schizophrenia-psychosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1)
 
-### Bipolar
+### Bipolar affective disorder
 
 Code set for patients with a diagnosis of bipolar.
 
 Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
-we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-Prevalence range: 0.28% - 0.54%
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%
 
-
-|    Date    | Practice system |  Population | Patients from ID | Patient from code |
-| ---------- | ----------------| ------------| ---------------- | ----------------- |
-| 2021-06-30 |	EMIS	       |  2608685    |	14087 (0.54%)   |   14087 (0.54%)   |
-| 2021-06-30 |	TPP	       |   210985    |    591 (0.28%)   |     591 (0.28%)   |
-| 2021-06-30 |	Vision	       |   335010    |   1608 (0.48%)   |    1608 (0.48%)   |
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2021-06-30 | EMIS            | 2608685    | 14087 (0.54%)    | 14087 (0.54%)     |
+| 2021-06-30 | TPP             | 210985     | 591 (0.28%)      | 591 (0.28%)       |
+| 2021-06-30 | Vision          | 335010     | 1608 (0.48%)     | 1608 (0.48%)      |
 
 LINK: [https://github.com/rw251/.../conditions/bipolar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1)
 
@@ -655,17 +677,17 @@ LINK: [https://github.com/rw251/.../conditions/copd/1](https://github.com/rw251/
 
 ### Allergy codes
 
-This list contains any code that indicates a diagnosis of an allergy.
+This list contains any code that indicates a diagnosis of an allergy or adverse reaction.
 Developed from https://getset.ga.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.16% - 4.17%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `7.28% - 10.15%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-04 | EMIS            | 2659647    |  110427 (4.15%)  |   110428 (4.15%) |
-| 2022-04-04 | TPP             | 212621     |   8859 (4.17%)   |    8863 (4.17%)  |
-| 2022-04-04 | Vision          | 341774     |   10792 (3.16%)  |    10792 (3.16%) |
+| 2022-08-18 | EMIS            | 2493056    |  232876 (9.34%)  |  252693 (10.15%) |
+| 2022-08-18 | TPP             | 198292     |   14321 (7.22%)  |    16214 (8.17%) |
+| 2022-08-18 | Vision          | 327521     |   23824 (7.27%)  |    23855 (7.28%) |
 LINK: [https://github.com/rw251/.../conditions/allergy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy/1)
 # Clinical code sets
 
@@ -27094,6 +27116,2404 @@ All code sets required for this analysis are listed here. Individual lists for e
 |allergy v1|ctv3|x05lt|Flixonase Allergy|
 |allergy v1|ctv3|x05se|Piriteze Allergy|
 |allergy v1|ctv3|66G4.|Allergy drug side effect|
+|allergy v1|ctv3|Xa1zr|ADR - Adverse drug reaction|
+|allergy v1|ctv3|Xa86E|Adverse reaction to premed|
+|allergy v1|ctv3|Xa5b9|Drug groups primarily affecting the cardiovascular system adverse reaction|
+|allergy v1|ctv3|Xa5da|Medicinal enzyme adverse reaction|
+|allergy v1|ctv3|Xa5dj|Chymotrypsin adverse reaction|
+|allergy v1|ctv3|Xa5di|Streptokinase streptodornase adverse reaction|
+|allergy v1|ctv3|Xa5dh|Hyaluronidase adverse reaction|
+|allergy v1|ctv3|Xa5dg|Deoxyribonuclease adverse reaction|
+|allergy v1|ctv3|Xa5df|Bromelains adverse reaction|
+|allergy v1|ctv3|Xa5de|Anistreplase adverse reaction|
+|allergy v1|ctv3|Xa5dd|Alteplase adverse reaction|
+|allergy v1|ctv3|Xa5dc|Urokinase adverse reaction|
+|allergy v1|ctv3|Xa5db|Streptokinase adverse reaction|
+|allergy v1|ctv3|Xa5dX|Antivaricose agent adverse reaction|
+|allergy v1|ctv3|Xa5dZ|Ethanolamine adverse reaction|
+|allergy v1|ctv3|Xa5dY|Sodium tetradecyl sulphate adverse reaction|
+|allergy v1|ctv3|Xa5cy|Vasodilator adverse reaction|
+|allergy v1|ctv3|Xa5dW|Betahistine adverse reaction|
+|allergy v1|ctv3|Xa5dU|Alpha blocking vasodilator adverse reaction|
+|allergy v1|ctv3|Xa5dV|Thymoxamine adverse reaction|
+|allergy v1|ctv3|Xa5dL|Peripheral/cerebral vasodilator adverse reaction|
+|allergy v1|ctv3|Xa5dT|Nicotinyl alcohol adverse reaction|
+|allergy v1|ctv3|Xa5dS|Naftidrofuryl adverse reaction|
+|allergy v1|ctv3|Xa5dR|Isoxsuprine adverse reaction|
+|allergy v1|ctv3|Xa5dQ|Inositol nicotinate adverse reaction|
+|allergy v1|ctv3|Xa5dP|Nicofuranose adverse reaction|
+|allergy v1|ctv3|Xa5dO|Cyclandelate adverse reaction|
+|allergy v1|ctv3|Xa5dN|Oxpentifylline adverse reaction|
+|allergy v1|ctv3|Xa5dM|Bamethan sulphate adverse reaction|
+|allergy v1|ctv3|Xa5d7|Nitrate vasodilator adverse reaction|
+|allergy v1|ctv3|Xa5dK|Pentaerythritol tetranitrate adverse reaction|
+|allergy v1|ctv3|Xa5dI|Isosorbide mononitrate adverse reaction|
+|allergy v1|ctv3|Xa5dJ|Modified release isosorbide mononitrate adverse reaction|
+|allergy v1|ctv3|Xa5dE|Isosorbide dinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dG|Oral isosorbide dinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dH|Modified release isosorbide dinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dF|Parenteral isosorbide dinitrate adverse reaction|
+|allergy v1|ctv3|Xa5d8|Glyceryl trinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dD|Glyceryl trinitrate spray adverse reaction|
+|allergy v1|ctv3|Xa5dC|Transdermal glyceryl trinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dB|Parenteral glyceryl trinitrate adverse reaction|
+|allergy v1|ctv3|Xa5d9|Oral glyceryl trinitrate adverse reaction|
+|allergy v1|ctv3|Xa5dA|Modified release GTN adverse reaction|
+|allergy v1|ctv3|Xa5d6|Dipyridamole adverse reaction|
+|allergy v1|ctv3|Xa5d5|Nicorandil adverse reaction|
+|allergy v1|ctv3|Xa5cz|Vasodilator antihypertensive drug adverse reaction|
+|allergy v1|ctv3|Xa5d4|Hydralazine adverse reaction|
+|allergy v1|ctv3|Xa5d3|Diazoxide adverse reaction|
+|allergy v1|ctv3|Xa5d2|Flosequinan adverse reaction|
+|allergy v1|ctv3|Xa5d1|Sodium nitroprusside adverse reaction|
+|allergy v1|ctv3|Xa5d0|Minoxidil adverse reaction|
+|allergy v1|ctv3|Xa5cs|Vasoconstrictor adverse reaction|
+|allergy v1|ctv3|Xa5ct|Ergot compound adverse reaction|
+|allergy v1|ctv3|Xa5cv|Ergot alkaloid adverse reaction|
+|allergy v1|ctv3|Xa5cx|Ergometrine adverse reaction|
+|allergy v1|ctv3|Xa5cw|Dihydroergotamine mesylate adverse reaction|
+|allergy v1|ctv3|Xa5cu|Co-dergocrine adverse reaction|
+|allergy v1|ctv3|Xa5ci|Cardiac inotropic agent adverse reaction|
+|allergy v1|ctv3|Xa5cp|Phosphodiesterase inhibitor adverse reaction|
+|allergy v1|ctv3|XaXhY|Phosphodiesterase-5 inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5cr|Milrinone adverse reaction|
+|allergy v1|ctv3|Xa5cq|Enoximone adverse reaction|
+|allergy v1|ctv3|Xa5cj|Cardiac glycoside adverse reaction|
+|allergy v1|ctv3|Xa5co|Ouabain adverse reaction|
+|allergy v1|ctv3|Xa5cn|Medigoxin adverse reaction|
+|allergy v1|ctv3|Xa5cm|Lanatoside C adverse reaction|
+|allergy v1|ctv3|Xa5cl|Digitoxin adverse reaction|
+|allergy v1|ctv3|Xa5ck|Digoxin adverse reaction|
+|allergy v1|ctv3|Xa5cO|Antihypertensive adverse reaction|
+|allergy v1|ctv3|XacIN|Aliskiren adverse reaction|
+|allergy v1|ctv3|XaJ8o|Angiotensin II receptor antagonist adverse reaction|
+|allergy v1|ctv3|Xa5ch|Rauwolfia antihypertensive adverse reaction|
+|allergy v1|ctv3|Xa5cg|Losartan adverse reaction|
+|allergy v1|ctv3|Xa5cf|Metirosine adverse reaction|
+|allergy v1|ctv3|Xa5cd|Ganglion-blocking drug adverse reaction|
+|allergy v1|ctv3|Xa5ce|Trimetaphan adverse reaction|
+|allergy v1|ctv3|Xa5cT|Angiotensin-converting-enzyme inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5cc|Perindopril adverse reaction|
+|allergy v1|ctv3|Xa5cb|Fosinopril adverse reaction|
+|allergy v1|ctv3|Xa5ca|Enalapril adverse reaction|
+|allergy v1|ctv3|Xa5cZ|Trandolapril adverse reaction|
+|allergy v1|ctv3|Xa5cY|Cilazapril adverse reaction|
+|allergy v1|ctv3|Xa5cX|Ramipril adverse reaction|
+|allergy v1|ctv3|Xa5cW|Quinapril adverse reaction|
+|allergy v1|ctv3|Xa5cV|Lisinopril adverse reaction|
+|allergy v1|ctv3|Xa5cU|Captopril adverse reaction|
+|allergy v1|ctv3|Xa5cP|Adrenergic neurone blocking drug adverse reaction|
+|allergy v1|ctv3|Xa5cS|Guanethidine adverse reaction|
+|allergy v1|ctv3|Xa5cR|Debrisoquine adverse reaction|
+|allergy v1|ctv3|Xa5cQ|Bethanidine adverse reaction|
+|allergy v1|ctv3|Xa5bj|Diuretic adverse reaction|
+|allergy v1|ctv3|Xa5cL|Carbonic anhydrase inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5cN|Acetazolamide adverse reaction|
+|allergy v1|ctv3|Xa5cM|Dichlorphenamide adverse reaction|
+|allergy v1|ctv3|Xa5cF|Thiazide-related diuretic adverse reaction|
+|allergy v1|ctv3|Xa5cK|Xipamide adverse reaction|
+|allergy v1|ctv3|Xa5cJ|Metolazone adverse reaction|
+|allergy v1|ctv3|Xa5cI|Mefruside adverse reaction|
+|allergy v1|ctv3|Xa5cH|Indapamide adverse reaction|
+|allergy v1|ctv3|Xa5cG|Chlorthalidone adverse reaction|
+|allergy v1|ctv3|Xa5cD|Mercurial diuretic adverse reaction|
+|allergy v1|ctv3|Xa5cE|Mersalyl adverse reaction|
+|allergy v1|ctv3|Xa5cB|Osmotic diuretic adverse reaction|
+|allergy v1|ctv3|Xa5cC|Mannitol adverse reaction|
+|allergy v1|ctv3|Xa5c4|Potassium sparing compound diuretic adverse reaction|
+|allergy v1|ctv3|Xa5cA|Triamterene and thiazide diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c9|Triamterene and loop diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c8|Spironolactone and thiazide diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c7|Spironolactone and loop diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c6|Amiloride and thiazide diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c5|Amiloride and loop diuretic adverse reaction|
+|allergy v1|ctv3|Xa5by|Potassium sparing diuretic adverse reaction|
+|allergy v1|ctv3|Xa5c3|Amiloride adverse reaction|
+|allergy v1|ctv3|Xa5c0|Aldosterone antagonists adverse reaction|
+|allergy v1|ctv3|Xa5c2|Spironolactone adverse reaction|
+|allergy v1|ctv3|Xa5c1|Potassium canrenoate adverse reaction|
+|allergy v1|ctv3|Xa5bz|Triamterene adverse reaction|
+|allergy v1|ctv3|Xa5bs|Loop diuretic adverse reaction|
+|allergy v1|ctv3|Xa5bx|Torasemide adverse reaction|
+|allergy v1|ctv3|Xa5bw|Piretanide adverse reaction|
+|allergy v1|ctv3|Xa5bv|Ethacrynic acid adverse reaction|
+|allergy v1|ctv3|Xa5bu|Bumetanide adverse reaction|
+|allergy v1|ctv3|Xa5bt|Frusemide adverse reaction|
+|allergy v1|ctv3|Xa5bk|Thiazide diuretic adverse reaction|
+|allergy v1|ctv3|Xa5br|Polythiazide adverse reaction|
+|allergy v1|ctv3|Xa5bq|Methyclothiazide adverse reaction|
+|allergy v1|ctv3|Xa5bp|Hydroflumethiazide adverse reaction|
+|allergy v1|ctv3|Xa5bo|Hydrochlorothiazide adverse reaction|
+|allergy v1|ctv3|Xa5bn|Cyclopenthiazide adverse reaction|
+|allergy v1|ctv3|Xa5bm|Chlorothiazide adverse reaction|
+|allergy v1|ctv3|Xa5bl|Bendroflumethiazide adverse reaction|
+|allergy v1|ctv3|Xa5bT|Antiarrhythmic drug adverse reaction|
+|allergy v1|ctv3|Xa5bi|Class IV antiarrhythmic adverse reaction|
+|allergy v1|ctv3|Xa5bg|Class III antiarrhythmic adverse reaction|
+|allergy v1|ctv3|Xa5bh|Amiodarone adverse reaction|
+|allergy v1|ctv3|Xa5be|Class II antiarrhythmic adverse reaction|
+|allergy v1|ctv3|Xa5bf|Bretylium adverse reaction|
+|allergy v1|ctv3|Xa5bV|Class I antiarrhythmic adverse reaction|
+|allergy v1|ctv3|Xa5bd|Tocainide adverse reaction|
+|allergy v1|ctv3|Xa5bc|Propafenone adverse reaction|
+|allergy v1|ctv3|Xa5bb|Procainamide adverse reaction|
+|allergy v1|ctv3|Xa5ba|Moracizine adverse reaction|
+|allergy v1|ctv3|Xa5bZ|Mexiletine adverse reaction|
+|allergy v1|ctv3|Xa5bY|Flecainide adverse reaction|
+|allergy v1|ctv3|Xa5bX|Quinidine adverse reaction|
+|allergy v1|ctv3|Xa5bW|Disopyramide adverse reaction|
+|allergy v1|ctv3|Xa5bU|Adenosine adverse reaction|
+|allergy v1|ctv3|Xa5bA|Lipid-lowering drug adverse reaction|
+|allergy v1|ctv3|Xa5bP|HMG COA reductase inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5bS|Pravastatin adverse reaction|
+|allergy v1|ctv3|Xa5bR|Fluvastatin adverse reaction|
+|allergy v1|ctv3|Xa5bQ|Simvastatin adverse reaction|
+|allergy v1|ctv3|Xa5bN|Fish oils adverse reaction|
+|allergy v1|ctv3|Xa5bO|Omega 3-marine triglycerides adverse reaction|
+|allergy v1|ctv3|Xa5bI|Clofibrate group adverse reaction|
+|allergy v1|ctv3|Xa5bM|Ciprofibrate adverse reaction|
+|allergy v1|ctv3|Xa5bL|Fenofibrate adverse reaction|
+|allergy v1|ctv3|Xa5bK|Clofibrate adverse reaction|
+|allergy v1|ctv3|Xa5bJ|Bezafibrate adverse reaction|
+|allergy v1|ctv3|Xa5bF|Anion exchange resins adverse reaction|
+|allergy v1|ctv3|Xa5bH|Cholestyramine adverse reaction|
+|allergy v1|ctv3|Xa5bG|Colestipol adverse reaction|
+|allergy v1|ctv3|Xa5bE|Acipimox adverse reaction|
+|allergy v1|ctv3|Xa5bD|Probucol adverse reaction|
+|allergy v1|ctv3|Xa5bC|Gemfibrozil adverse reaction|
+|allergy v1|ctv3|Xa5bB|Dextrothyroxine sodium adverse reaction|
+|allergy v1|ctv3|Xa5a8|Foods, vitamins, electrolytes and inorganic salts adverse reaction|
+|allergy v1|ctv3|Xa5b7|Fluoride adverse reaction|
+|allergy v1|ctv3|Xa5b8|Sodium fluoride adverse reaction|
+|allergy v1|ctv3|Xa5b6|Zinc adverse reaction|
+|allergy v1|ctv3|Xa5b5|Electrolyte anion adverse reaction|
+|allergy v1|ctv3|Xa5b2|Potassium adverse reaction|
+|allergy v1|ctv3|Xa5b4|Parenteral potassium adverse reaction|
+|allergy v1|ctv3|Xa5b3|Oral potassium adverse reaction|
+|allergy v1|ctv3|Xa5ax|Ion exchange resin adverse reaction|
+|allergy v1|ctv3|Xa5ay|Cation exchange resin adverse reaction|
+|allergy v1|ctv3|Xa5b1|Sodium polystyrene sulphonate adverse reaction|
+|allergy v1|ctv3|Xa5b0|Calcium polystyrene sulphonate adverse reaction|
+|allergy v1|ctv3|Xa5az|Sodium cellulose phosphate adverse reaction|
+|allergy v1|ctv3|Xa5ac|Vitamin products adverse reaction|
+|allergy v1|ctv3|Xa5aj|Water soluble vitamin adverse reaction|
+|allergy v1|ctv3|Xa5aw|Ascorbic acid adverse reaction|
+|allergy v1|ctv3|Xa5ak|Vitamin B group adverse reaction|
+|allergy v1|ctv3|Xa5av|Thiamine preparation adverse reaction|
+|allergy v1|ctv3|Xa5au|Pyridoxine preparation adverse reaction|
+|allergy v1|ctv3|Xa5at|Inositol adverse reaction|
+|allergy v1|ctv3|Xa5as|Vitamin B complex preps adverse reaction|
+|allergy v1|ctv3|Xa5ar|Nicotinamide adverse reaction|
+|allergy v1|ctv3|Xa5ao|Vitamin B12 preparation adverse reaction|
+|allergy v1|ctv3|Xa5aq|Cyanocobalamin adverse reaction|
+|allergy v1|ctv3|Xa5ap|Hydroxocobalamin adverse reaction|
+|allergy v1|ctv3|Xa5an|Folinic acid adverse reaction|
+|allergy v1|ctv3|Xa5am|Folic acid adverse reaction|
+|allergy v1|ctv3|Xa5al|Nicotinic acid adverse reaction|
+|allergy v1|ctv3|Xa5ae|Fat soluble vitamin adverse reaction|
+|allergy v1|ctv3|Xa5ai|Alpha-tocopheryl adverse reaction|
+|allergy v1|ctv3|Xa5ah|Vitamin K adverse reaction|
+|allergy v1|ctv3|Xa5ag|Vitamin D adverse reaction|
+|allergy v1|ctv3|Xa5af|Vitamin A adverse reaction|
+|allergy v1|ctv3|Xa5ad|Multivitamin and mineral preparations adverse reaction|
+|allergy v1|ctv3|Xa5ab|Oral rehydration salts adverse reaction|
+|allergy v1|ctv3|Xa5aa|Enteral and supplement feeds adverse reaction|
+|allergy v1|ctv3|Xa5aZ|Multiple electrolyte infusion adverse reaction|
+|allergy v1|ctv3|Xa5aV|Iodine compounds adverse reaction|
+|allergy v1|ctv3|Xa5aX|Iodophore adverse reaction|
+|allergy v1|ctv3|Xa5aY|Povidone iodine adverse reaction|
+|allergy v1|ctv3|Xa5aW|Iodine adverse reaction|
+|allergy v1|ctv3|Xa5aU|L-Carnitine adverse reaction|
+|allergy v1|ctv3|Xa5aM|Intravenous nutrition adverse reaction|
+|allergy v1|ctv3|Xa5aT|Intravenous nutrition (ready mixed) adverse reaction|
+|allergy v1|ctv3|Xa5aS|Intravenous nutrition (fats) adverse reaction|
+|allergy v1|ctv3|Xa5aR|Intravenous nutrition (carbohydrate) adverse reaction|
+|allergy v1|ctv3|Xa5aQ|Intravenous nutrition (amino acids) adverse reaction|
+|allergy v1|ctv3|Xa5aN|Supplementary preparations for parenteral nutrition adverse reaction|
+|allergy v1|ctv3|Xa5aP|Intravenous nutrition (vitamins) adverse reaction|
+|allergy v1|ctv3|Xa5aO|Intravenous nutrition (electrolytes/trace elements) adverse reaction|
+|allergy v1|ctv3|Xa5a9|Iron adverse reaction|
+|allergy v1|ctv3|Xa5aF|Ferrous salt adverse reaction|
+|allergy v1|ctv3|Xa5aL|Ferrous phosphate adverse reaction|
+|allergy v1|ctv3|Xa5aK|Ferrous sulphate adverse reaction|
+|allergy v1|ctv3|Xa5aJ|Ferrous succinate adverse reaction|
+|allergy v1|ctv3|Xa5aI|Ferrous glycine sulphate adverse reaction|
+|allergy v1|ctv3|Xa5aH|Ferrous gluconate adverse reaction|
+|allergy v1|ctv3|Xa5aG|Ferrous fumarate adverse reaction|
+|allergy v1|ctv3|Xa5aE|Iron sorbitol adverse reaction|
+|allergy v1|ctv3|Xa5aD|Compound iron preparations adverse reaction|
+|allergy v1|ctv3|Xa5aC|Sodium ironedetate adverse reaction|
+|allergy v1|ctv3|Xa5aB|Polysaccharide iron complex adverse reaction|
+|allergy v1|ctv3|Xa5aA|Iron and folic acid adverse reaction|
+|allergy v1|ctv3|Xa5ZN|Haematological agents adverse reaction|
+|allergy v1|ctv3|XacIP|Ticagrelor adverse reaction|
+|allergy v1|ctv3|XacIO|Prasugrel adverse reaction|
+|allergy v1|ctv3|Xa5a2|Haemostatic adverse reaction|
+|allergy v1|ctv3|Xa5a7|Aprotinin adverse reaction|
+|allergy v1|ctv3|Xa5a6|Collagen adverse reaction|
+|allergy v1|ctv3|Xa5a5|Tranexamic acid adverse reaction|
+|allergy v1|ctv3|Xa5a4|Thromboplastin adverse reaction|
+|allergy v1|ctv3|Xa5a3|Ethamsylate adverse reaction|
+|allergy v1|ctv3|Xa5Zn|Anticoagulant adverse reaction|
+|allergy v1|ctv3|Xa5Zw|Indirect acting anticoagulant adverse reaction|
+|allergy v1|ctv3|Xa5a0|Indanedione anticoagulant adverse reaction|
+|allergy v1|ctv3|Xa5a1|Phenindione adverse reaction|
+|allergy v1|ctv3|Xa5Zx|Coumarin anticoagulant adverse reaction|
+|allergy v1|ctv3|Xa5Zz|Warfarin adverse reaction|
+|allergy v1|ctv3|Xa5Zy|Nicoumalone adverse reaction|
+|allergy v1|ctv3|Xa5Zo|Direct acting anticoagulant adverse reaction|
+|allergy v1|ctv3|Xad9n|Rivaroxaban adverse reaction|
+|allergy v1|ctv3|Xad9m|Apixaban adverse reaction|
+|allergy v1|ctv3|Xa5Zu|Heparinoid adverse reaction|
+|allergy v1|ctv3|Xa5Zv|Danaparoid sodium adverse reaction|
+|allergy v1|ctv3|Xa5Zq|Heparin adverse reaction|
+|allergy v1|ctv3|Xa5Zt|Tinzaparin adverse reaction|
+|allergy v1|ctv3|Xa5Zs|Dalteparin adverse reaction|
+|allergy v1|ctv3|Xa5Zr|Enoxaparin adverse reaction|
+|allergy v1|ctv3|Xa5Zp|Ancrod adverse reaction|
+|allergy v1|ctv3|Xa5ZY|Blood derivative adverse reaction|
+|allergy v1|ctv3|Xa5Zb|Blood clotting factor adverse reaction|
+|allergy v1|ctv3|Xa5Zm|von Willebrand factor products adverse reaction|
+|allergy v1|ctv3|Xa5Zl|Factor XIII products adverse reaction|
+|allergy v1|ctv3|Xa5Zk|Factor XI products adverse reaction|
+|allergy v1|ctv3|Xa5Zj|Factor VIII by-passing fraction products adverse reaction|
+|allergy v1|ctv3|Xa5Zi|Factor VII concentrate products adverse reaction|
+|allergy v1|ctv3|Xa5Zh|Factor V concentrate products adverse reaction|
+|allergy v1|ctv3|Xa5Zg|Factor IX by-passing fraction products adverse reaction|
+|allergy v1|ctv3|Xa5Ze|Activated factor VII products adverse reaction|
+|allergy v1|ctv3|Xa5Zf|Acset adverse reaction|
+|allergy v1|ctv3|Xa5Zd|Factor IX fraction products adverse reaction|
+|allergy v1|ctv3|Xa5Zc|Factor VIII fraction products adverse reaction|
+|allergy v1|ctv3|Xa5Za|Antithrombin III adverse reaction|
+|allergy v1|ctv3|Xa5ZZ|Albumin solution adverse reaction|
+|allergy v1|ctv3|Xa5ZR|Plasma substitutes adverse reaction|
+|allergy v1|ctv3|Xa5ZX|Plasma protein solution adverse reaction|
+|allergy v1|ctv3|Xa5ZW|Perfluorochemical adverse reaction|
+|allergy v1|ctv3|Xa5ZV|Dextran adverse reaction|
+|allergy v1|ctv3|Xa5ZU|Pentastarch adverse reaction|
+|allergy v1|ctv3|Xa5ZT|Hetastarch adverse reaction|
+|allergy v1|ctv3|Xa5ZS|Gelatin adverse reaction|
+|allergy v1|ctv3|Xa5ZO|Erythropoietin adverse reaction|
+|allergy v1|ctv3|Xa5ZQ|Epoetin beta adverse reaction|
+|allergy v1|ctv3|Xa5ZP|Epoetin alfa adverse reaction|
+|allergy v1|ctv3|Xa5Wf|Hormones, synthetic substitutes and antagonists adverse reaction|
+|allergy v1|ctv3|Xa5ZD|Calcium regulating agent adverse reaction|
+|allergy v1|ctv3|Xa5ZJ|Calcium regulating hormone adverse reaction|
+|allergy v1|ctv3|Xa5ZK|Calcitonin adverse reaction|
+|allergy v1|ctv3|Xa5ZM|Calcitonin (pork) adverse reaction|
+|allergy v1|ctv3|Xa5ZL|Salcatonin adverse reaction|
+|allergy v1|ctv3|Xa5ZE|Biphosphonates adverse reaction|
+|allergy v1|ctv3|Xa5ZI|Disodium etidronate and calcium carbonate adverse reaction|
+|allergy v1|ctv3|Xa5ZH|Sodium clodronate adverse reaction|
+|allergy v1|ctv3|Xa5ZG|Disodium pamidronate adverse reaction|
+|allergy v1|ctv3|Xa5ZF|Disodium etidronate adverse reaction|
+|allergy v1|ctv3|Xa5Yn|Hypothalamic/pituitary hormone adverse reaction|
+|allergy v1|ctv3|Xa5ZA|Thyrotrophic hormone adverse reaction|
+|allergy v1|ctv3|Xa5ZC|Thyrotrophin adverse reaction|
+|allergy v1|ctv3|Xa5ZB|Protirelin adverse reaction|
+|allergy v1|ctv3|Xa5Z7|Somatrophic hormone adverse reaction|
+|allergy v1|ctv3|Xa5Z9|Growth hormone adverse reaction|
+|allergy v1|ctv3|Xa5Z8|Octreotide adverse reaction|
+|allergy v1|ctv3|Xa5Z4|Oxytocic hormone adverse reaction|
+|allergy v1|ctv3|Xa5Z6|Oxytocin and ergometrine adverse reaction|
+|allergy v1|ctv3|Xa5Z5|Oxytocin adverse reaction|
+|allergy v1|ctv3|Xa5Yw|Gonad regulating hormone adverse reaction|
+|allergy v1|ctv3|Xa5Z3|Leuprorelin adverse reaction|
+|allergy v1|ctv3|Xa5Z2|Gonadotrophic hormone adverse reaction|
+|allergy v1|ctv3|Xa5Z1|Triptorelin adverse reaction|
+|allergy v1|ctv3|Xa5Z0|Goserelin adverse reaction|
+|allergy v1|ctv3|Xa5Yz|Buserelin adverse reaction|
+|allergy v1|ctv3|Xa5Yy|Nafarelin adverse reaction|
+|allergy v1|ctv3|Xa5Yx|Gonadorelin adverse reaction|
+|allergy v1|ctv3|Xa5Yt|Corticotrophic hormone adverse reaction|
+|allergy v1|ctv3|Xa5Yv|Tetracosactrin adverse reaction|
+|allergy v1|ctv3|Xa5Yu|Corticotrophins adverse reaction|
+|allergy v1|ctv3|Xa5Yo|Antidiuretic hormone adverse reaction|
+|allergy v1|ctv3|Xa5Ys|Vasopressin adverse reaction|
+|allergy v1|ctv3|Xa5Yr|Terlipressin adverse reaction|
+|allergy v1|ctv3|Xa5Yq|Lypressin adverse reaction|
+|allergy v1|ctv3|Xa5Yp|Desmopressin adverse reaction|
+|allergy v1|ctv3|Xa5Yk|Thyroid agent adverse reaction|
+|allergy v1|ctv3|Xa5Ym|Thyroxine adverse reaction|
+|allergy v1|ctv3|Xa5Yl|Liothyronine adverse reaction|
+|allergy v1|ctv3|Xa5Yh|Ergoline drug adverse reaction|
+|allergy v1|ctv3|Xa5Yj|Quinagolide adverse reaction|
+|allergy v1|ctv3|Xa5Yi|Cabergoline adverse reaction|
+|allergy v1|ctv3|Xa5Xp|Sex hormones adverse reaction|
+|allergy v1|ctv3|Xa5Yg|Clomiphene adverse reaction|
+|allergy v1|ctv3|Xa5Yf|Oestrogen and progestogen preparation adverse reaction|
+|allergy v1|ctv3|Xa5YP|Oestrogen adverse reaction|
+|allergy v1|ctv3|Xa5Ye|Stilboestrol adverse reaction|
+|allergy v1|ctv3|Xa5Yd|Conjugated oestrogens adverse reaction|
+|allergy v1|ctv3|Xa5Yc|Oestriol adverse reaction|
+|allergy v1|ctv3|Xa5Yb|Ethinyloestradiol adverse reaction|
+|allergy v1|ctv3|Xa5Ya|Mestranol adverse reaction|
+|allergy v1|ctv3|Xa5YZ|Fosfestrol adverse reaction|
+|allergy v1|ctv3|Xa5YY|Polyestradiol phosphate adverse reaction|
+|allergy v1|ctv3|Xa5YX|Dienoestrol adverse reaction|
+|allergy v1|ctv3|Xa5YW|Quinestrol adverse reaction|
+|allergy v1|ctv3|Xa5YV|Quinestradol adverse reaction|
+|allergy v1|ctv3|Xa5YU|Piperazine oestrone sulphate adverse reaction|
+|allergy v1|ctv3|Xa5YQ|Oestradiol adverse reaction|
+|allergy v1|ctv3|Xa5YT|Topical oestradiol adverse reaction|
+|allergy v1|ctv3|Xa5YS|Oestradiol implant adverse reaction|
+|allergy v1|ctv3|Xa5YR|Oral oestradiol adverse reaction|
+|allergy v1|ctv3|Xa5YH|Androgen adverse reaction|
+|allergy v1|ctv3|Xa5YK|Testosterone adverse reaction|
+|allergy v1|ctv3|Xa5YO|Testosterone patch adverse reaction|
+|allergy v1|ctv3|Xa5YN|Oral testosterone adverse reaction|
+|allergy v1|ctv3|Xa5YM|Intramuscular testosterone adverse reaction|
+|allergy v1|ctv3|Xa5YL|Testosterone implant adverse reaction|
+|allergy v1|ctv3|Xa5YJ|Methyltestosterone adverse reaction|
+|allergy v1|ctv3|Xa5YI|Mesterolone adverse reaction|
+|allergy v1|ctv3|Xa5YG|Combined oral contraceptive adverse reaction|
+|allergy v1|ctv3|Xa5YA|Anti-androgens adverse reaction|
+|allergy v1|ctv3|Xa5YF|Cyproterone adverse reaction|
+|allergy v1|ctv3|Xa5YE|Cyproterone acetate and ethinyloestradiol adverse reaction|
+|allergy v1|ctv3|Xa5YD|Bicalutamide adverse reaction|
+|allergy v1|ctv3|Xa5YC|Flutamide adverse reaction|
+|allergy v1|ctv3|Xa5YB|Finasteride adverse reaction|
+|allergy v1|ctv3|Xa5Y9|Gestrinone adverse reaction|
+|allergy v1|ctv3|Xa5Y8|Danazol adverse reaction|
+|allergy v1|ctv3|Xa5Y7|Cyclofenil adverse reaction|
+|allergy v1|ctv3|Xa5Y1|Anabolic steroids adverse reaction|
+|allergy v1|ctv3|Xa5Y6|Stanozolol adverse reaction|
+|allergy v1|ctv3|Xa5Y5|Nandrolone adverse reaction|
+|allergy v1|ctv3|Xa5Y4|Oxymetholone adverse reaction|
+|allergy v1|ctv3|Xa5Y3|Drostanolone propionate adverse reaction|
+|allergy v1|ctv3|Xa5Y2|Tibolone adverse reaction|
+|allergy v1|ctv3|Xa5Xq|Progestogen adverse reaction|
+|allergy v1|ctv3|Xa5Y0|Medroxyprogesterone adverse reaction|
+|allergy v1|ctv3|Xa5Xz|Levonorgestrel adverse reaction|
+|allergy v1|ctv3|Xa5Xy|Ethynodiol diacetate adverse reaction|
+|allergy v1|ctv3|Xa5Xx|Norethisterone adverse reaction|
+|allergy v1|ctv3|Xa5Xw|Megestrol adverse reaction|
+|allergy v1|ctv3|Xa5Xv|Hydroxyprogesterone adverse reaction|
+|allergy v1|ctv3|Xa5Xu|Gestronol adverse reaction|
+|allergy v1|ctv3|Xa5Xt|Progesterone adverse reaction|
+|allergy v1|ctv3|Xa5Xs|Dydrogesterone adverse reaction|
+|allergy v1|ctv3|Xa5Xr|Allyloestrenol adverse reaction|
+|allergy v1|ctv3|Xa5XZ|Oral hypoglycaemic adverse reaction|
+|allergy v1|ctv3|Xa5Xo|Acarbose adverse reaction|
+|allergy v1|ctv3|Xa5Xn|Guar gum adverse reaction|
+|allergy v1|ctv3|Xa5Xl|Biguanide adverse reaction|
+|allergy v1|ctv3|Xa5Xm|Metformin adverse reaction|
+|allergy v1|ctv3|Xa5Xa|Sulphonylurea adverse reaction|
+|allergy v1|ctv3|Xa5Xk|Tolbutamide adverse reaction|
+|allergy v1|ctv3|Xa5Xj|Tolazamide adverse reaction|
+|allergy v1|ctv3|Xa5Xi|Glymidine adverse reaction|
+|allergy v1|ctv3|Xa5Xh|Gliquidone adverse reaction|
+|allergy v1|ctv3|Xa5Xg|Glipizide adverse reaction|
+|allergy v1|ctv3|Xa5Xf|Gliclazide adverse reaction|
+|allergy v1|ctv3|Xa5Xe|Glibornuride adverse reaction|
+|allergy v1|ctv3|Xa5Xd|Glibenclamide adverse reaction|
+|allergy v1|ctv3|Xa5Xc|Chlorpropamide adverse reaction|
+|allergy v1|ctv3|Xa5Xb|Acetohexamide adverse reaction|
+|allergy v1|ctv3|Xa5XM|Insulin adverse reaction|
+|allergy v1|ctv3|Xa5XU|Biphasic isophane insulin adverse reaction|
+|allergy v1|ctv3|Xa5XY|Mixtard insulin adverse reaction|
+|allergy v1|ctv3|Xa5XX|Pur-In-Mix insulin adverse reaction|
+|allergy v1|ctv3|Xa5XW|Initard insulin adverse reaction|
+|allergy v1|ctv3|Xa5XV|Humulin insulin adverse reaction|
+|allergy v1|ctv3|Xa5XT|Protamine zinc insulin adverse reaction|
+|allergy v1|ctv3|Xa5XS|Isophane insulin adverse reaction|
+|allergy v1|ctv3|Xa5XR|Insulin zinc suspension (crystalline) adverse reaction|
+|allergy v1|ctv3|Xa5XQ|Insulin zinc suspension (amorphous) adverse reaction|
+|allergy v1|ctv3|Xa5XP|Insulin zinc suspension adverse reaction|
+|allergy v1|ctv3|Xa5XO|Biphasic insulin adverse reaction|
+|allergy v1|ctv3|Xa5XN|Soluble neutral insulin adverse reaction|
+|allergy v1|ctv3|Xa5Wm|Corticosteroids adverse reaction|
+|allergy v1|ctv3|Xa5XK|Budesonide adverse reaction|
+|allergy v1|ctv3|Xa5XL|Topical budesonide adverse reaction|
+|allergy v1|ctv3|Xa5XJ|Triamcinolone adverse reaction|
+|allergy v1|ctv3|Xa5XF|Prednisolone adverse reaction|
+|allergy v1|ctv3|Xa5XG|Topical prednisolone adverse reaction|
+|allergy v1|ctv3|Xa5XI|Rectal prednisolone preparations adverse reaction|
+|allergy v1|ctv3|Xa5XH|Prednisolone drops adverse reaction|
+|allergy v1|ctv3|Xa5XE|Methylprednisolone adverse reaction|
+|allergy v1|ctv3|Xa5XB|Dexamethasone adverse reaction|
+|allergy v1|ctv3|Xa5XD|Topical compound dexamethasone preparation adverse reaction|
+|allergy v1|ctv3|Xa5XC|Topical dexamethasone adverse reaction|
+|allergy v1|ctv3|Xa5XA|Mometasone adverse reaction|
+|allergy v1|ctv3|Xa5X9|Fluticasone adverse reaction|
+|allergy v1|ctv3|Xa5X8|Fluocinolone adverse reaction|
+|allergy v1|ctv3|Xa5X7|Fludrocortisone adverse reaction|
+|allergy v1|ctv3|Xa5X6|Fluclorolone adverse reaction|
+|allergy v1|ctv3|Xa5X5|Diflucortolone adverse reaction|
+|allergy v1|ctv3|Xa5X4|Cortisone adverse reaction|
+|allergy v1|ctv3|Xa5X3|Clobetasone adverse reaction|
+|allergy v1|ctv3|Xa5X2|Clobetasol adverse reaction|
+|allergy v1|ctv3|Xa5X1|Beclomethasone adverse reaction|
+|allergy v1|ctv3|Xa5X0|Alclometasone adverse reaction|
+|allergy v1|ctv3|Xa5Wz|Halcinonide adverse reaction|
+|allergy v1|ctv3|Xa5Wy|Flurandrenolone adverse reaction|
+|allergy v1|ctv3|Xa5Wx|Fluocortolone adverse reaction|
+|allergy v1|ctv3|Xa5Ww|Fluocinonide adverse reaction|
+|allergy v1|ctv3|Xa5Wv|Desoxymethasone adverse reaction|
+|allergy v1|ctv3|Xa5Wu|Desonide adverse reaction|
+|allergy v1|ctv3|Xa5Wt|Flunisolide adverse reaction|
+|allergy v1|ctv3|Xa5Ws|Fluorometholone adverse reaction|
+|allergy v1|ctv3|Xa5Wr|Prednisone adverse reaction|
+|allergy v1|ctv3|Xa5Wo|Hydrocortisone adverse reaction|
+|allergy v1|ctv3|Xa5Wq|Topical compound hydrocortisone preparation adverse reaction|
+|allergy v1|ctv3|Xa5Wp|Topical hydrocortisone adverse reaction|
+|allergy v1|ctv3|Xa5Wn|Betamethasone adverse reaction|
+|allergy v1|ctv3|Xa5Wh|Antithyroid drug adverse reaction|
+|allergy v1|ctv3|Xa5Wk|Thiouracil antithyroid agent adverse reaction|
+|allergy v1|ctv3|Xa5Wl|Propylthiouracil adverse reaction|
+|allergy v1|ctv3|Xa5Wi|Thiourea antithyroid agent adverse reaction|
+|allergy v1|ctv3|Xa5Wj|Carbimazole adverse reaction|
+|allergy v1|ctv3|Xa5Wg|Glucagon adverse reaction|
+|allergy v1|ctv3|Xa5W3|Vaccine, immunoglobulins and antisera adverse reaction|
+|allergy v1|ctv3|Xa5Wb|Antisera adverse reaction|
+|allergy v1|ctv3|Xa5We|Diphtheria antitoxin adverse reaction|
+|allergy v1|ctv3|Xa5Wd|Botulism antitoxin adverse reaction|
+|allergy v1|ctv3|Xa5Wc|Clostridium botulinum adverse reaction|
+|allergy v1|ctv3|Xa5WC|Vaccines adverse reaction|
+|allergy v1|ctv3|Xa5Wa|Meningococcal polysaccharide vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WZ|Haemophilus influenzae Type B vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WY|Hepatitis A vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WX|Measles/mumps/rubella vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WU|Typhoid vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WW|Typhoid whole cell vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WV|Typhoid polysaccharide vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WT|Tetanus vaccines adverse reaction|
+|allergy v1|ctv3|Xa5WS|Smallpox vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WR|Rubella vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WQ|Rabies vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WP|Poliomyelitis vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WO|Pneumococcal vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WN|Pertussis vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WM|Mumps vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WJ|Influenza vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WL|Influenza surface antigen vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WK|Influenza split virion vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WI|Hepatitis B vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WE|Diphtheria vaccines adverse reaction|
+|allergy v1|ctv3|Xa5WH|Diphtheria, tetanus and pertussis vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WG|Diphtheria and tetanus vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WF|Diphtheria single antigen vaccine adverse reaction|
+|allergy v1|ctv3|Xa5WD|Anthrax vaccine adverse reaction|
+|allergy v1|ctv3|Xa5W4|Immunoglobulin products adverse reaction|
+|allergy v1|ctv3|Xa5WB|Varicella-zoster immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5WA|Tetanus immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5W9|Hepatitis B immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5W8|Anti-D (Rh) immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5W5|Human immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5W7|Intravenous immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5W6|Intramuscular immunoglobulin adverse reaction|
+|allergy v1|ctv3|Xa5RM|Anti-infectives adverse reaction|
+|allergy v1|ctv3|Xa5Vr|Pesticide adverse reaction|
+|allergy v1|ctv3|Xa5W0|Pyrethroid pesticides adverse reaction|
+|allergy v1|ctv3|Xa5W2|Permethrin adverse reaction|
+|allergy v1|ctv3|Xa5W1|Phenothrin adverse reaction|
+|allergy v1|ctv3|Xa5Vy|Organophosphate pesticide adverse reaction|
+|allergy v1|ctv3|Xa5Vz|Malathion adverse reaction|
+|allergy v1|ctv3|Xa5Vw|Chlorinated pesticide adverse reaction|
+|allergy v1|ctv3|Xa5Vx|Lindane adverse reaction|
+|allergy v1|ctv3|Xa5Vu|Carbamate pesticide adverse reaction|
+|allergy v1|ctv3|Xa5Vv|Carbaryl adverse reaction|
+|allergy v1|ctv3|Xa5Vt|Monosulfiram adverse reaction|
+|allergy v1|ctv3|Xa5Vs|Benzyl benzoate adverse reaction|
+|allergy v1|ctv3|Xa5Vd|Antimycobacterial agent adverse reaction|
+|allergy v1|ctv3|Xa5Vo|Antileprotic drug adverse reaction|
+|allergy v1|ctv3|Xa5Vq|Clofazimine adverse reaction|
+|allergy v1|ctv3|Xa5Vp|Dapsone adverse reaction|
+|allergy v1|ctv3|Xa5Ve|Antituberculous drug adverse reaction|
+|allergy v1|ctv3|Xa5Vn|Ethambutolol adverse reaction|
+|allergy v1|ctv3|Xa5Vl|Hydrazide antituberculosis drug adverse reaction|
+|allergy v1|ctv3|Xa5Vm|Isoniazid adverse reaction|
+|allergy v1|ctv3|Xa5Vg|Antibiotic antituberculosis drug adverse reaction|
+|allergy v1|ctv3|Xa5Vk|Rifabutin adverse reaction|
+|allergy v1|ctv3|Xa5Vj|Rifampicin adverse reaction|
+|allergy v1|ctv3|Xa5Vi|Cycloserine adverse reaction|
+|allergy v1|ctv3|Xa5Vh|Capreomycin adverse reaction|
+|allergy v1|ctv3|Xa5Vf|Pyrazinamide adverse reaction|
+|allergy v1|ctv3|Xa5VT|Antiprotozoal drug adverse reaction|
+|allergy v1|ctv3|Xa5Vb|Hydroxyquinoline antiprotozoal adverse reaction|
+|allergy v1|ctv3|Xa5Vc|Clioquinol adverse reaction|
+|allergy v1|ctv3|Xa5VZ|Dichloroacetamide antiprotozoal adverse reaction|
+|allergy v1|ctv3|Xa5Va|Diloxanide adverse reaction|
+|allergy v1|ctv3|Xa5VX|Diamidine antiprotozoal adverse reaction|
+|allergy v1|ctv3|Xa5VY|Pentamidine adverse reaction|
+|allergy v1|ctv3|Xa5VV|Antimony antiprotozoal adverse reaction|
+|allergy v1|ctv3|Xa5VW|Sodium stibogluconate adverse reaction|
+|allergy v1|ctv3|Xa5VU|Atovaquone adverse reaction|
+|allergy v1|ctv3|Xa5TH|Antibacterial drug adverse reaction|
+|allergy v1|ctv3|Xa5VS|Co-trimoxazole adverse reaction|
+|allergy v1|ctv3|Xa5VR|Chloramphenicol adverse reaction|
+|allergy v1|ctv3|Xa5VH|Tetracyclines group adverse reaction|
+|allergy v1|ctv3|Xa5VQ|Tetracycline adverse reaction|
+|allergy v1|ctv3|Xa5VP|Demeclocycline adverse reaction|
+|allergy v1|ctv3|Xa5VO|Chlortetracycline adverse reaction|
+|allergy v1|ctv3|Xa5VN|Compound tetracycline preparations adverse reaction|
+|allergy v1|ctv3|Xa5VM|Oxytetracycline adverse reaction|
+|allergy v1|ctv3|Xa5VL|Minocycline adverse reaction|
+|allergy v1|ctv3|Xa5VK|Lymecycline adverse reaction|
+|allergy v1|ctv3|Xa5VJ|Doxycycline adverse reaction|
+|allergy v1|ctv3|Xa5VI|Clomocycline sodium adverse reaction|
+|allergy v1|ctv3|Xa5V3|Sulphonamide adverse reaction|
+|allergy v1|ctv3|Xa5VG|Sulphacetamide adverse reaction|
+|allergy v1|ctv3|Xa5VF|Combined sulphonamides adverse reaction|
+|allergy v1|ctv3|Xa5VE|Silver sulphadiazine adverse reaction|
+|allergy v1|ctv3|Xa5VD|Mafenide adverse reaction|
+|allergy v1|ctv3|Xa5VC|Sulphaurea adverse reaction|
+|allergy v1|ctv3|Xa5VB|Sulphaguanidine adverse reaction|
+|allergy v1|ctv3|Xa5VA|Sulphafurazole adverse reaction|
+|allergy v1|ctv3|Xa5V9|Sulphadimidine adverse reaction|
+|allergy v1|ctv3|Xa5V8|Sulphadimethoxine adverse reaction|
+|allergy v1|ctv3|Xa5V7|Sulphadiazine adverse reaction|
+|allergy v1|ctv3|Xa5V6|Sulfametopyrazine adverse reaction|
+|allergy v1|ctv3|Xa5V5|Phthalylsulphathiazole adverse reaction|
+|allergy v1|ctv3|Xa5V4|Calcium sulphaloxate adverse reaction|
+|allergy v1|ctv3|Xa5Uz|Nitroimidazole adverse reaction|
+|allergy v1|ctv3|Xa5V2|Nimorazole adverse reaction|
+|allergy v1|ctv3|Xa5V1|Tinidazole adverse reaction|
+|allergy v1|ctv3|Xa5V0|Metronidazole adverse reaction|
+|allergy v1|ctv3|Xa5Ux|Monobactam adverse reaction|
+|allergy v1|ctv3|Xa5Uy|Aztreonam adverse reaction|
+|allergy v1|ctv3|Xa5Uw|Mandelic acid adverse reaction|
+|allergy v1|ctv3|Xa5Ut|Lincomycin and derivative adverse reaction|
+|allergy v1|ctv3|Xa5Uv|Lincomycin adverse reaction|
+|allergy v1|ctv3|Xa5Uu|Clindamycin adverse reaction|
+|allergy v1|ctv3|Xa5Us|Fosfomycin adverse reaction|
+|allergy v1|ctv3|Xa5Uq|Cephamycin adverse reaction|
+|allergy v1|ctv3|Xa5Ur|Cefoxitin adverse reaction|
+|allergy v1|ctv3|Xa5US|Cephalosporin adverse reaction|
+|allergy v1|ctv3|Xa5Uo|Fourth generation cephalosporin adverse reaction|
+|allergy v1|ctv3|Xa5Up|Cefpirome adverse reaction|
+|allergy v1|ctv3|Xa5Ue|Third generation cephalosporin adverse reaction|
+|allergy v1|ctv3|Xa5Un|Cefsulodin adverse reaction|
+|allergy v1|ctv3|Xa5Um|Ceftibuten adverse reaction|
+|allergy v1|ctv3|Xa5Ul|Ceftriaxone adverse reaction|
+|allergy v1|ctv3|Xa5Uk|Cefpodoxime adverse reaction|
+|allergy v1|ctv3|Xa5Uj|Cefodizime adverse reaction|
+|allergy v1|ctv3|Xa5Ui|Cefixime adverse reaction|
+|allergy v1|ctv3|Xa5Uh|Ceftizoxime adverse reaction|
+|allergy v1|ctv3|Xa5Ug|Ceftazidime adverse reaction|
+|allergy v1|ctv3|Xa5Uf|Cefotaxime adverse reaction|
+|allergy v1|ctv3|Xa5Ua|Second generation cephalosporin adverse reaction|
+|allergy v1|ctv3|Xa5Ud|Cephamandole adverse reaction|
+|allergy v1|ctv3|Xa5Uc|Cefuroxime adverse reaction|
+|allergy v1|ctv3|Xa5Ub|Cefaclor adverse reaction|
+|allergy v1|ctv3|Xa5UT|First generation cephalosporin adverse reaction|
+|allergy v1|ctv3|Xa5UZ|Latamoxef adverse reaction|
+|allergy v1|ctv3|Xa5UY|Cephradine adverse reaction|
+|allergy v1|ctv3|Xa5UX|Cephazolin adverse reaction|
+|allergy v1|ctv3|Xa5UW|Cephalothin adverse reaction|
+|allergy v1|ctv3|Xa5UV|Cephalexin adverse reaction|
+|allergy v1|ctv3|Xa5UU|Cefadroxil adverse reaction|
+|allergy v1|ctv3|Xa5UR|Carbapenem adverse reaction|
+|allergy v1|ctv3|Xa5UO|Polymyxins adverse reaction|
+|allergy v1|ctv3|Xa5UQ|Polymyxin B adverse reaction|
+|allergy v1|ctv3|Xa5UP|Colistin adverse reaction|
+|allergy v1|ctv3|Xa5To|Penicillin adverse reaction|
+|allergy v1|ctv3|Xa5UH|Combined penicillin preparation adverse reaction|
+|allergy v1|ctv3|Xa5UN|Ticarcillin and clavulanic acid adverse reaction|
+|allergy v1|ctv3|Xa5UM|Pivampicillin and pivmecillinam adverse reaction|
+|allergy v1|ctv3|Xa5UL|Piperacillin and tazobactam adverse reaction|
+|allergy v1|ctv3|Xa5UK|Co-fluampicil adverse reaction|
+|allergy v1|ctv3|Xa5UJ|Co-amoxiclav adverse reaction|
+|allergy v1|ctv3|Xa5UI|Ampicillin and cloxacillin adverse reaction|
+|allergy v1|ctv3|Xa5UG|Pivmecillinam adverse reaction|
+|allergy v1|ctv3|Xa5UF|Mecillinam adverse reaction|
+|allergy v1|ctv3|Xa5U9|Antipseudomonal penicillins adverse reaction|
+|allergy v1|ctv3|Xa5UE|Carfecillin adverse reaction|
+|allergy v1|ctv3|Xa5UD|Ticarcillin adverse reaction|
+|allergy v1|ctv3|Xa5UC|Azlocillin adverse reaction|
+|allergy v1|ctv3|Xa5UB|Piperacillin adverse reaction|
+|allergy v1|ctv3|Xa5UA|Temocillin adverse reaction|
+|allergy v1|ctv3|Xa5U0|Broad spectrum penicillins adverse reaction|
+|allergy v1|ctv3|Xa5U8|Talampicillin adverse reaction|
+|allergy v1|ctv3|Xa5U7|Bacampicillin adverse reaction|
+|allergy v1|ctv3|Xa5U6|Carbenicillin adverse reaction|
+|allergy v1|ctv3|Xa5U5|Pivampicillin adverse reaction|
+|allergy v1|ctv3|Xa5U4|Mezlocillin adverse reaction|
+|allergy v1|ctv3|Xa5U3|Ciclacillin adverse reaction|
+|allergy v1|ctv3|Xa5U2|Ampicillin adverse reaction|
+|allergy v1|ctv3|Xa5U1|Amoxycillin adverse reaction|
+|allergy v1|ctv3|Xa5Tw|Penicillinase-resistant penicillins adverse reaction|
+|allergy v1|ctv3|Xa5Tz|Methicillin adverse reaction|
+|allergy v1|ctv3|Xa5Ty|Flucloxacillin adverse reaction|
+|allergy v1|ctv3|Xa5Tx|Cloxacillin adverse reaction|
+|allergy v1|ctv3|Xa5Tp|Penicillinase-sensitive penicillins adverse reaction|
+|allergy v1|ctv3|Xa5Tv|Benzylpenicillin adverse reaction|
+|allergy v1|ctv3|Xa5Tu|Procaine penicillin adverse reaction|
+|allergy v1|ctv3|Xa5Tt|Phenoxymethylpenicillin adverse reaction|
+|allergy v1|ctv3|Xa5Ts|Phenethicillin adverse reaction|
+|allergy v1|ctv3|Xa5Tr|Benzathine penicillin adverse reaction|
+|allergy v1|ctv3|Xa5Tq|Benethamine penicillin adverse reaction|
+|allergy v1|ctv3|Xa5Tf|4-quinolones adverse reaction|
+|allergy v1|ctv3|Xa5Tn|Temafloxacin adverse reaction|
+|allergy v1|ctv3|Xa5Tm|Norfloxacin adverse reaction|
+|allergy v1|ctv3|Xa5Tl|Ofloxacin adverse reaction|
+|allergy v1|ctv3|Xa5Tk|Enoxacin adverse reaction|
+|allergy v1|ctv3|Xa5Tj|Ciprofloxacin adverse reaction|
+|allergy v1|ctv3|Xa5Ti|Nalidixic acid adverse reaction|
+|allergy v1|ctv3|Xa5Th|Cinoxacin adverse reaction|
+|allergy v1|ctv3|Xa5Tg|Acrosoxacin adverse reaction|
+|allergy v1|ctv3|Xa5Te|Fusidic acid adverse reaction|
+|allergy v1|ctv3|Xa5Td|Nitrofurazone adverse reaction|
+|allergy v1|ctv3|Xa5Tc|Mupirocin adverse reaction|
+|allergy v1|ctv3|Xa5Tb|Hexamine hippurate adverse reaction|
+|allergy v1|ctv3|Xa5Ta|Nitrofurantoin adverse reaction|
+|allergy v1|ctv3|Xa5TZ|Trimethoprim adverse reaction|
+|allergy v1|ctv3|Xa5TY|Teicoplanin adverse reaction|
+|allergy v1|ctv3|Xa5TX|Vancomycin adverse reaction|
+|allergy v1|ctv3|Xa5TW|Spectinomycin adverse reaction|
+|allergy v1|ctv3|Xa5TV|Sodium fusidate adverse reaction|
+|allergy v1|ctv3|Xa5TR|Macrolide adverse reaction|
+|allergy v1|ctv3|Xa5TU|Azithromycin adverse reaction|
+|allergy v1|ctv3|Xa5TT|Clarithromycin adverse reaction|
+|allergy v1|ctv3|Xa5TS|Erythromycin adverse reaction|
+|allergy v1|ctv3|Xa5TI|Aminoglycosides adverse reaction|
+|allergy v1|ctv3|Xa5TQ|Tobramycin adverse reaction|
+|allergy v1|ctv3|Xa5TP|Gentamicin adverse reaction|
+|allergy v1|ctv3|Xa5TO|Neomycin adverse reaction|
+|allergy v1|ctv3|Xa5TN|Framycetin adverse reaction|
+|allergy v1|ctv3|Xa5TM|Streptomycin adverse reaction|
+|allergy v1|ctv3|Xa5TL|Netilmicin adverse reaction|
+|allergy v1|ctv3|Xa5TK|Kanamycin adverse reaction|
+|allergy v1|ctv3|Xa5TJ|Amikacin adverse reaction|
+|allergy v1|ctv3|Xa5T7|Anthelmintics adverse reaction|
+|allergy v1|ctv3|Xa5TD|Benzimidazole anthelmintic adverse reaction|
+|allergy v1|ctv3|Xa5TG|Thiabendazole adverse reaction|
+|allergy v1|ctv3|Xa5TF|Albendazole adverse reaction|
+|allergy v1|ctv3|Xa5TE|Mebendazole adverse reaction|
+|allergy v1|ctv3|Xa5TC|Diethylcarbamazine adverse reaction|
+|allergy v1|ctv3|Xa5TB|Bephenium adverse reaction|
+|allergy v1|ctv3|Xa5TA|Niclosamide adverse reaction|
+|allergy v1|ctv3|Xa5T9|Pyrantel adverse reaction|
+|allergy v1|ctv3|Xa5T8|Piperazine adverse reaction|
+|allergy v1|ctv3|Xa5SM|Disinfectants and cleansers adverse reaction|
+|allergy v1|ctv3|Xa5T6|Hydrogen peroxide adverse reaction|
+|allergy v1|ctv3|Xa5T1|Disinfectant dye adverse reaction|
+|allergy v1|ctv3|Xa5T3|Triphenylmethane azo disinfectant dye adverse reaction|
+|allergy v1|ctv3|Xa5T5|Brilliant green adverse reaction|
+|allergy v1|ctv3|Xa5T4|Crystal violet adverse reaction|
+|allergy v1|ctv3|Xa5T2|Acridine azo disinfectant dye adverse reaction|
+|allergy v1|ctv3|Xa5Ss|Cationic surfactant adverse reaction|
+|allergy v1|ctv3|Xa5Sz|Quaternary quinolinium surfactant adverse reaction|
+|allergy v1|ctv3|Xa5T0|Dequalinium adverse reaction|
+|allergy v1|ctv3|Xa5Sx|Quaternary pyridinium surfactant adverse reaction|
+|allergy v1|ctv3|Xa5Sy|Cetylpyridinium adverse reaction|
+|allergy v1|ctv3|Xa5St|Quaternary ammonium surfactant adverse reaction|
+|allergy v1|ctv3|Xa5Sw|Domiphen adverse reaction|
+|allergy v1|ctv3|Xa5Sv|Benzalkonium adverse reaction|
+|allergy v1|ctv3|Xa5Su|Cetrimide adverse reaction|
+|allergy v1|ctv3|Xa5Sq|Borate adverse reaction|
+|allergy v1|ctv3|Xa5Sr|Boric acid adverse reaction|
+|allergy v1|ctv3|Xa5Sn|Biguanide disinfectant adverse reaction|
+|allergy v1|ctv3|Xa5Sp|Chlorhexidine hydrochloride and neomycin sulphate adverse reaction|
+|allergy v1|ctv3|Xa5So|Chlorhexidine adverse reaction|
+|allergy v1|ctv3|Xa5Sk|Amidine disinfectant adverse reaction|
+|allergy v1|ctv3|Xa5Sm|Dibromopropamidine isethionate adverse reaction|
+|allergy v1|ctv3|Xa5Sl|Propamidine isethionate adverse reaction|
+|allergy v1|ctv3|Xa5Sf|Aldehyde disinfectant adverse reaction|
+|allergy v1|ctv3|Xa5Sh|Formaldehyde and related compounds adverse reaction|
+|allergy v1|ctv3|Xa5Sj|Formaldehyde adverse reaction|
+|allergy v1|ctv3|Xa5Si|Noxythiolin adverse reaction|
+|allergy v1|ctv3|Xa5Sg|Glutaraldehyde adverse reaction|
+|allergy v1|ctv3|Xa5Sc|Alcoholic disinfectant adverse reaction|
+|allergy v1|ctv3|Xa5Sd|Alcohol products adverse reaction|
+|allergy v1|ctv3|Xa5Se|Industrial methylated spirit adverse reaction|
+|allergy v1|ctv3|Xa5SV|Phenolics adverse reaction|
+|allergy v1|ctv3|Xa5Sb|Phenol adverse reaction|
+|allergy v1|ctv3|Xa5SX|Chlorinated phenol disinfectant adverse reaction|
+|allergy v1|ctv3|Xa5Sa|Triclosan adverse reaction|
+|allergy v1|ctv3|Xa5SZ|Hexachlorophane adverse reaction|
+|allergy v1|ctv3|Xa5SY|Chloroxylenol adverse reaction|
+|allergy v1|ctv3|Xa5SW|Thymol adverse reaction|
+|allergy v1|ctv3|Xa5SU|Bismuth subnitrate and iodoform paste impregnated gauze adverse reaction|
+|allergy v1|ctv3|Xa5ST|Potassium permanganate adverse reaction|
+|allergy v1|ctv3|Xa5SS|Chlorinated solutions adverse reaction|
+|allergy v1|ctv3|Xa5SR|Sodium perborate adverse reaction|
+|allergy v1|ctv3|Xa5SQ|Hexetidine adverse reaction|
+|allergy v1|ctv3|Xa5SP|Polynoxylin adverse reaction|
+|allergy v1|ctv3|Xa5SO|Hydragaphen adverse reaction|
+|allergy v1|ctv3|Xa5SN|Acetic acid adverse reaction|
+|allergy v1|ctv3|Xa5SL|Anti-infective nasal preparations adverse reaction|
+|allergy v1|ctv3|Xa5SK|Lactobacill acidophil vaccine adverse reaction|
+|allergy v1|ctv3|Xa5S6|Antimalarial drug adverse reaction|
+|allergy v1|ctv3|Xa5SJ|Mepacrine adverse reaction|
+|allergy v1|ctv3|Xa5SI|Halofantrine adverse reaction|
+|allergy v1|ctv3|Xa5SG|Cinchona antimalarial adverse reaction|
+|allergy v1|ctv3|Xa5SH|Quinine adverse reaction|
+|allergy v1|ctv3|Xa5SE|Biguanide antimalarial adverse reaction|
+|allergy v1|ctv3|Xa5SF|Proguanil adverse reaction|
+|allergy v1|ctv3|Xa5S8|Aminoquinoline antimalarial adverse reaction|
+|allergy v1|ctv3|Xa5SD|Chloroquine adverse reaction|
+|allergy v1|ctv3|Xa5SC|[X]Hydroxychloroquine adverse reaction|
+|allergy v1|ctv3|Xa5SB|Mefloquine adverse reaction|
+|allergy v1|ctv3|Xa5SA|Primaquine adverse reaction|
+|allergy v1|ctv3|Xa5S9|Amodiaquine adverse reaction|
+|allergy v1|ctv3|Xa5S7|Pyrimethamine adverse reaction|
+|allergy v1|ctv3|Xa5Rm|Antiviral drug adverse reaction|
+|allergy v1|ctv3|Xa5S4|Idoxuridine adverse reaction|
+|allergy v1|ctv3|Xa5S5|Idoxuridine in dimethylsulphoxide adverse reaction|
+|allergy v1|ctv3|Xa5S3|Aciclovir adverse reaction|
+|allergy v1|ctv3|Xa5S2|Vidarabine adverse reaction|
+|allergy v1|ctv3|Xa5S1|Foscarnet adverse reaction|
+|allergy v1|ctv3|Xa5S0|Trifluorothymidine adverse reaction|
+|allergy v1|ctv3|Xa5Rz|Tribavirin adverse reaction|
+|allergy v1|ctv3|Xa5Ru|Interferons adverse reaction|
+|allergy v1|ctv3|Xa5Ry|Interferon-A-N1 adverse reaction|
+|allergy v1|ctv3|Xa5Rx|Interferon-A-2b adverse reaction|
+|allergy v1|ctv3|Xa5Rw|Interferon-A-2a adverse reaction|
+|allergy v1|ctv3|Xa5Rv|Human interferon gamma-1b adverse reaction|
+|allergy v1|ctv3|Xa5Rt|Valaciclovir adverse reaction|
+|allergy v1|ctv3|Xa5Rs|Zalcitabine adverse reaction|
+|allergy v1|ctv3|Xa5Rr|Didanosine adverse reaction|
+|allergy v1|ctv3|Xa5Rq|Famciclovir adverse reaction|
+|allergy v1|ctv3|Xa5Rp|Ganciclovir adverse reaction|
+|allergy v1|ctv3|Xa5Ro|Zidovudine adverse reaction|
+|allergy v1|ctv3|Xa5Rn|Inosine pranobex adverse reaction|
+|allergy v1|ctv3|Xa5RN|Antifungal drug adverse reaction|
+|allergy v1|ctv3|Xa5RY|Azole antifungal adverse reaction|
+|allergy v1|ctv3|Xa5Rj|Triazole antifungals adverse reaction|
+|allergy v1|ctv3|Xa5Rl|Itraconazole adverse reaction|
+|allergy v1|ctv3|Xa5Rk|Fluconazole adverse reaction|
+|allergy v1|ctv3|Xa5Ra|Imidazole antifungal adverse reaction|
+|allergy v1|ctv3|Xa5Ri|Miconazole adverse reaction|
+|allergy v1|ctv3|Xa5Rh|Ketoconazole adverse reaction|
+|allergy v1|ctv3|Xa5Rg|Sulconazole adverse reaction|
+|allergy v1|ctv3|Xa5Rf|Isoconazole adverse reaction|
+|allergy v1|ctv3|Xa5Re|Econazole adverse reaction|
+|allergy v1|ctv3|Xa5Rd|Tioconazole adverse reaction|
+|allergy v1|ctv3|Xa5Rc|Fenticonazole adverse reaction|
+|allergy v1|ctv3|Xa5Rb|Clotrimazole adverse reaction|
+|allergy v1|ctv3|Xa5RZ|Undecenoates adverse reaction|
+|allergy v1|ctv3|Xa5RT|Antibiotic antifungal adverse reaction|
+|allergy v1|ctv3|Xa5RX|Nystatin adverse reaction|
+|allergy v1|ctv3|Xa5RW|Natamycin adverse reaction|
+|allergy v1|ctv3|Xa5RV|Amphotericin adverse reaction|
+|allergy v1|ctv3|Xa5RU|Griseofulvin adverse reaction|
+|allergy v1|ctv3|Xa5RS|Amorolfine adverse reaction|
+|allergy v1|ctv3|Xa5RR|Tolnaftate adverse reaction|
+|allergy v1|ctv3|Xa5RQ|Nitrophenol adverse reaction|
+|allergy v1|ctv3|Xa5RP|Terbinafine adverse reaction|
+|allergy v1|ctv3|Xa5RO|Flucytosine adverse reaction|
+|allergy v1|ctv3|Xa5Qw|Adverse reaction to bases and inactive substances|
+|allergy v1|ctv3|Xa5RD|Viscosity modifier adverse reaction|
+|allergy v1|ctv3|Xa5RG|Cellulose-derived viscosity modifier adverse reaction|
+|allergy v1|ctv3|Xa5RL|Carmellose adverse reaction|
+|allergy v1|ctv3|Xa5RK|Hydroxypropylmethylcellulose adverse reaction|
+|allergy v1|ctv3|Xa5RJ|Hydroxyethylcellulose adverse reaction|
+|allergy v1|ctv3|Xa5RH|Hypromellose adverse reaction|
+|allergy v1|ctv3|Xa5RI|Hypromellose eye drops adverse reaction|
+|allergy v1|ctv3|Xa5RF|Carbomer-940 adverse reaction|
+|allergy v1|ctv3|Xa5RE|Polyvinyl alcohol adverse reaction|
+|allergy v1|ctv3|Xa5R4|Base adverse reaction|
+|allergy v1|ctv3|Xa5RC|Wool alcohol adverse reaction|
+|allergy v1|ctv3|Xa5RA|Silicone adverse reaction|
+|allergy v1|ctv3|Xa5RB|Dimethicone adverse reaction|
+|allergy v1|ctv3|Xa5R6|Paraffin adverse reaction|
+|allergy v1|ctv3|Xa5R9|Liquid paraffin adverse reaction|
+|allergy v1|ctv3|Xa5R8|Paraffin-white soft adverse reaction|
+|allergy v1|ctv3|Xa5R7|Paraffin-yellow soft adverse reaction|
+|allergy v1|ctv3|Xa5R5|Barrier preparation adverse reaction|
+|allergy v1|ctv3|Xa5R3|Lubricant adverse reaction|
+|allergy v1|ctv3|Xa5R1|Glycerol/glycol/macrogol adverse reaction|
+|allergy v1|ctv3|Xa5R2|Glycerol adverse reaction|
+|allergy v1|ctv3|Xa5Qx|Fixed oil adverse reaction|
+|allergy v1|ctv3|Xa5R0|Castor oil adverse reaction|
+|allergy v1|ctv3|Xa5Qz|Arachis oil adverse reaction|
+|allergy v1|ctv3|Xa5Qy|Olive oil adverse reaction|
+|allergy v1|ctv3|Xa5Qo|Miscellaneous topical preparations adverse reaction|
+|allergy v1|ctv3|Xa5Qv|Topical zinc adverse reaction|
+|allergy v1|ctv3|Xa5Qu|Ear wax removal preparation adverse reaction|
+|allergy v1|ctv3|Xa5Qt|Sucrose adverse reaction|
+|allergy v1|ctv3|Xa5Qs|Haemorrhoid preparation adverse reaction|
+|allergy v1|ctv3|Xa5Qr|Citrate adverse reaction|
+|allergy v1|ctv3|Xa5Qq|Circulatory topical preparations adverse reaction|
+|allergy v1|ctv3|Xa5Qp|Dimethyl-ether propane adverse reaction|
+|allergy v1|ctv3|Xa5Qg|Miscellaneous fluids and solutions adverse reaction|
+|allergy v1|ctv3|Xa5Qn|Cardioplegia solution adverse reaction|
+|allergy v1|ctv3|Xa5Qj|Dialysis fluid adverse reaction|
+|allergy v1|ctv3|Xa5Qm|Haemofiltration solution adverse reaction|
+|allergy v1|ctv3|Xa5Ql|Haemodialysis fluid adverse reaction|
+|allergy v1|ctv3|Xa5Qk|Peritoneal dialysis solution adverse reaction|
+|allergy v1|ctv3|Xa5Qi|Glycine adverse reaction|
+|allergy v1|ctv3|Xa5Qh|Sodium hyaluronate adverse reaction|
+|allergy v1|ctv3|Xa5Qc|Alternative medicines adverse reaction|
+|allergy v1|ctv3|Xa5Qf|Herbal medicine adverse reaction|
+|allergy v1|ctv3|Xa5Qe|Anthroposophical medicine adverse reaction|
+|allergy v1|ctv3|Xa5Qd|Homoeopathic medicine adverse reaction|
+|allergy v1|ctv3|Xa5Q8|Chelating agents and antidotes adverse reaction|
+|allergy v1|ctv3|Xa5QS|Chelating agent adverse reaction|
+|allergy v1|ctv3|Xa5Qb|Penicillamine adverse reaction|
+|allergy v1|ctv3|Xa5Qa|Trientine adverse reaction|
+|allergy v1|ctv3|Xa5QV|Edetate adverse reaction|
+|allergy v1|ctv3|Xa5QZ|Disodium edetate adverse reaction|
+|allergy v1|ctv3|Xa5QY|Trisodium edetate adverse reaction|
+|allergy v1|ctv3|Xa5QX|Sodium calciumedetate adverse reaction|
+|allergy v1|ctv3|Xa5QW|Dicobalt edetate adverse reaction|
+|allergy v1|ctv3|Xa5QU|Desferrioxamine adverse reaction|
+|allergy v1|ctv3|Xa5QT|Dimercaprol adverse reaction|
+|allergy v1|ctv3|Xa5Q9|Antidote adverse reaction|
+|allergy v1|ctv3|Xa5QP|Antidotes for pesticides adverse reaction|
+|allergy v1|ctv3|Xa5QR|Bentonite powder adverse reaction|
+|allergy v1|ctv3|Xa5QQ|Fullers earth powder adverse reaction|
+|allergy v1|ctv3|Xa5QO|Protamine adverse reaction|
+|allergy v1|ctv3|Xa5QL|Opioid antagonist adverse reaction|
+|allergy v1|ctv3|Xa5QN|Naloxone adverse reaction|
+|allergy v1|ctv3|Xa5QM|Naltrexone adverse reaction|
+|allergy v1|ctv3|Xa5QK|Hydrofluoric acid burn antidote adverse reaction|
+|allergy v1|ctv3|Xa5QI|Cholinesterase reactivator adverse reaction|
+|allergy v1|ctv3|Xa5QJ|Pralidoxime adverse reaction|
+|allergy v1|ctv3|Xa5QG|Benzodiazepine antagonist adverse reaction|
+|allergy v1|ctv3|Xa5QH|Flumazenil adverse reaction|
+|allergy v1|ctv3|Xa5QF|Mesna adverse reaction|
+|allergy v1|ctv3|Xa5QE|Digoxin specific antibody adverse reaction|
+|allergy v1|ctv3|Xa5QD|Sodium thiosulphate adverse reaction|
+|allergy v1|ctv3|Xa5QC|Sodium nitrite adverse reaction|
+|allergy v1|ctv3|Xa5QB|Charcoal activated adverse reaction|
+|allergy v1|ctv3|Xa5QA|Ipecacuanha adverse reaction|
+|allergy v1|ctv3|Xa5Pq|Drug groups primarily used in obstets, gynae. and urinary tract disorders adverse reaction|
+|allergy v1|ctv3|Xa5Q7|Terpenes adverse reaction|
+|allergy v1|ctv3|Xa5Pw|Prostaglandin adverse reaction|
+|allergy v1|ctv3|Xa5Q5|I series prostaglandin adverse reaction|
+|allergy v1|ctv3|Xa5Q6|Epoprostenol adverse reaction|
+|allergy v1|ctv3|Xa5Q2|F series prostaglandin adverse reaction|
+|allergy v1|ctv3|Xa5Q4|Carboprost adverse reaction|
+|allergy v1|ctv3|Xa5Q3|Dinoprost adverse reaction|
+|allergy v1|ctv3|Xa5Py|E series prostaglandin adverse reaction|
+|allergy v1|ctv3|Xa5Q1|Alprostadil adverse reaction|
+|allergy v1|ctv3|Xa5Q0|Gemeprost adverse reaction|
+|allergy v1|ctv3|Xa5Pz|Dinoprostone adverse reaction|
+|allergy v1|ctv3|Xa5Px|A series prostaglandin adverse reaction|
+|allergy v1|ctv3|Xa5Ps|Non-ionic surfactant adverse reaction|
+|allergy v1|ctv3|Xa5Pv|p-di-isobutylphenoxypolyethox. adverse reaction|
+|allergy v1|ctv3|Xa5Pu|Octoxinol adverse reaction|
+|allergy v1|ctv3|Xa5Pt|Nonoxinol adverse reaction|
+|allergy v1|ctv3|Xa5Pr|Mifepristone adverse reaction|
+|allergy v1|ctv3|Xa5PK|Drug groups primarily affecting the musculoskeletal system adverse reaction|
+|allergy v1|ctv3|Xa5Pn|Smooth muscle relaxant adverse reaction|
+|allergy v1|ctv3|Xa5Pp|Flavoxate adverse reaction|
+|allergy v1|ctv3|Xa5Po|Papaverine adverse reaction|
+|allergy v1|ctv3|Xa5Pk|Gold adverse reaction|
+|allergy v1|ctv3|Xa5Pm|Auranofin adverse reaction|
+|allergy v1|ctv3|Xa5Pl|Sodium aurothiomalate adverse reaction|
+|allergy v1|ctv3|Xa5PT|Skeletal muscle relaxant adverse reaction|
+|allergy v1|ctv3|Xa5Pj|Dantrolene adverse reaction|
+|allergy v1|ctv3|Xa5Pi|Methocarbamol adverse reaction|
+|allergy v1|ctv3|Xa5Ph|Carisoprodol adverse reaction|
+|allergy v1|ctv3|Xa5Pg|Baclofen adverse reaction|
+|allergy v1|ctv3|Xa5PU|Neuromuscular transmission drug adverse reaction|
+|allergy v1|ctv3|Xa5PX|Non-depolarising muscle relaxant adverse reaction|
+|allergy v1|ctv3|Xa5Pf|Rocuronium adverse reaction|
+|allergy v1|ctv3|Xa5Pe|Vecuronium adverse reaction|
+|allergy v1|ctv3|Xa5Pd|Tubocurarine adverse reaction|
+|allergy v1|ctv3|Xa5Pc|Pancuronium adverse reaction|
+|allergy v1|ctv3|Xa5Pb|Gallamine adverse reaction|
+|allergy v1|ctv3|Xa5Pa|Atracurium adverse reaction|
+|allergy v1|ctv3|Xa5PZ|Alcuronium adverse reaction|
+|allergy v1|ctv3|Xa5PY|Mivacurium adverse reaction|
+|allergy v1|ctv3|Xa5PV|Depolarising muscle relaxant adverse reaction|
+|allergy v1|ctv3|Xa5PW|Suxamethonium adverse reaction|
+|allergy v1|ctv3|Xa5PL|Drug for the treatment of gout adverse reaction|
+|allergy v1|ctv3|Xa5PR|Xanthine oxidase inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5PS|Allopurinol adverse reaction|
+|allergy v1|ctv3|Xa5PO|Uricosuric agent adverse reaction|
+|allergy v1|ctv3|Xa5PQ|Sulphinpyrazone adverse reaction|
+|allergy v1|ctv3|Xa5PP|Probenecid adverse reaction|
+|allergy v1|ctv3|Xa5PM|Colchicum alkaloid adverse reaction|
+|allergy v1|ctv3|Xa5PN|Colchicine adverse reaction|
+|allergy v1|ctv3|Xa5OX|Drug groups and agents primarily acting on the skin adverse reaction|
+|allergy v1|ctv3|Xa5PF|Retinoid adverse reaction|
+|allergy v1|ctv3|Xa5PJ|Isotretinoin adverse reaction|
+|allergy v1|ctv3|Xa5PI|Tretinoin adverse reaction|
+|allergy v1|ctv3|Xa5PH|Acitretin adverse reaction|
+|allergy v1|ctv3|Xa5PG|Etretinate adverse reaction|
+|allergy v1|ctv3|Xa5PD|Oral dermatological agent adverse reaction|
+|allergy v1|ctv3|Xa5PE|Gamolenic acid adverse reaction|
+|allergy v1|ctv3|Xa5OY|Topical dermatological preparation adverse reaction|
+|allergy v1|ctv3|Xa5PC|Silver nitrate adverse reaction|
+|allergy v1|ctv3|Xa5PB|Benzoyl peroxide adverse reaction|
+|allergy v1|ctv3|Xa5PA|Topical abrasive agent adverse reaction|
+|allergy v1|ctv3|Xa5P9|Topical salicylic acid adverse reaction|
+|allergy v1|ctv3|Xa5P8|Crotamiton adverse reaction|
+|allergy v1|ctv3|Xa5P7|Topical selenium adverse reaction|
+|allergy v1|ctv3|Xa5P5|Astringent adverse reaction|
+|allergy v1|ctv3|Xa5P6|Aluminium astringent adverse reaction|
+|allergy v1|ctv3|Xa5P3|Anionic surfactant adverse reaction|
+|allergy v1|ctv3|Xa5P4|Alkali metal soap adverse reaction|
+|allergy v1|ctv3|Xa5P2|Poultices adverse reaction|
+|allergy v1|ctv3|Xa5P1|Emollient adverse reaction|
+|allergy v1|ctv3|Xa5P0|Counter irritants adverse reaction|
+|allergy v1|ctv3|Xa5Oz|Collodion adverse reaction|
+|allergy v1|ctv3|Xa5Ox|Surgical tissue adhesive adverse reaction|
+|allergy v1|ctv3|Xa5Oy|Enbucrilate adverse reaction|
+|allergy v1|ctv3|Xa5Ov|Desloughing agents adverse reaction|
+|allergy v1|ctv3|Xa5Ow|Aserbine adverse reaction|
+|allergy v1|ctv3|Xa5Ou|Benzoic acid adverse reaction|
+|allergy v1|ctv3|Xa5Ot|Camouflaging preparations adverse reaction|
+|allergy v1|ctv3|Xa5Os|Sunscreening preparations adverse reaction|
+|allergy v1|ctv3|Xa5Or|Podophyllotoxin adverse reaction|
+|allergy v1|ctv3|Xa5Oq|Podophyllum resin adverse reaction|
+|allergy v1|ctv3|Xa5Op|Bromine complexes adverse reaction|
+|allergy v1|ctv3|Xa5Oo|Azelaic acid adverse reaction|
+|allergy v1|ctv3|Xa5On|Sulphur adverse reaction|
+|allergy v1|ctv3|Xa5Om|Calcipotriol adverse reaction|
+|allergy v1|ctv3|Xa5Ol|Ichthammol adverse reaction|
+|allergy v1|ctv3|Xa5Oh|Dithranol adverse reaction|
+|allergy v1|ctv3|Xa5Ok|Dithranol paste adverse reaction|
+|allergy v1|ctv3|Xa5Oj|Dithranol cream adverse reaction|
+|allergy v1|ctv3|Xa5Oi|Dithranol ointment adverse reaction|
+|allergy v1|ctv3|Xa5Og|Bufexamac adverse reaction|
+|allergy v1|ctv3|Xa5Od|Coal tar adverse reaction|
+|allergy v1|ctv3|Xa5Of|Coal tar bath preparations adverse reaction|
+|allergy v1|ctv3|Xa5Oe|Coal tar scalp preparations adverse reaction|
+|allergy v1|ctv3|Xa5Oc|Calamine adverse reaction|
+|allergy v1|ctv3|Xa5Ob|Dusting powders adverse reaction|
+|allergy v1|ctv3|Xa5Oa|Emollient bath additives adverse reaction|
+|allergy v1|ctv3|Xa5OZ|Urea creams adverse reaction|
+|allergy v1|ctv3|Xa5NN|Drug groups primarily affecting the respiratory system adverse reaction|
+|allergy v1|ctv3|Xa5OW|Adverse reaction to inhaled corticosteroids|
+|allergy v1|ctv3|Xa5OV|Bronchodilator preparations adverse reaction|
+|allergy v1|ctv3|Xa5OR|Xanthine adverse reaction|
+|allergy v1|ctv3|Xa5OU|Theophylline adverse reaction|
+|allergy v1|ctv3|Xa5OT|Choline theophyllinate adverse reaction|
+|allergy v1|ctv3|Xa5OS|Aminophylline adverse reaction|
+|allergy v1|ctv3|Xa5OH|Cough/decongestant preparation adverse reaction|
+|allergy v1|ctv3|Xa5OQ|Expectorant adverse reaction|
+|allergy v1|ctv3|Xa5OP|Proprietary decongestant adverse reaction|
+|allergy v1|ctv3|Xa5OI|Cough suppressant adverse reaction|
+|allergy v1|ctv3|Xa5OO|Compound cough suppressant adverse reaction|
+|allergy v1|ctv3|Xa5OK|Morphinian cough suppressant adverse reaction|
+|allergy v1|ctv3|Xa5ON|Pholcodine adverse reaction|
+|allergy v1|ctv3|Xa5OM|Noscapine adverse reaction|
+|allergy v1|ctv3|Xa5OL|Dextromethorphan hydrobromide adverse reaction|
+|allergy v1|ctv3|Xa5OJ|Isoaminile adverse reaction|
+|allergy v1|ctv3|Xa5Ne|Antiallergenic drug adverse reaction|
+|allergy v1|ctv3|Xa5OC|Cromoglycate and related antiallergenic adverse reaction|
+|allergy v1|ctv3|Xa5OG|Lodoxamide adverse reaction|
+|allergy v1|ctv3|Xa5OF|Ketotifen adverse reaction|
+|allergy v1|ctv3|Xa5OE|Sodium cromoglycate adverse reaction|
+|allergy v1|ctv3|Xa5OD|Nedocromil adverse reaction|
+|allergy v1|ctv3|Xa5Ng|H1 antihistamine adverse reaction|
+|allergy v1|ctv3|Xa5No|Sedating antihistamine adverse reaction|
+|allergy v1|ctv3|Xa5OB|Trimeprazine adverse reaction|
+|allergy v1|ctv3|Xa5OA|Triprolidine adverse reaction|
+|allergy v1|ctv3|Xa5O9|Pheniramine adverse reaction|
+|allergy v1|ctv3|Xa5O8|Phenindamine adverse reaction|
+|allergy v1|ctv3|Xa5O7|Mepyramine adverse reaction|
+|allergy v1|ctv3|Xa5O6|Hydroxyzine adverse reaction|
+|allergy v1|ctv3|Xa5O5|Diphenylpyraline adverse reaction|
+|allergy v1|ctv3|Xa5O4|Diphenhydramine adverse reaction|
+|allergy v1|ctv3|Xa5O3|Dimethindene adverse reaction|
+|allergy v1|ctv3|Xa5O2|Cyproheptadine adverse reaction|
+|allergy v1|ctv3|Xa5O1|Cinnarizine adverse reaction|
+|allergy v1|ctv3|Xa5O0|Chlorpheniramine adverse reaction|
+|allergy v1|ctv3|Xa5Nz|Brompheniramine adverse reaction|
+|allergy v1|ctv3|Xa5Ny|Azatadine adverse reaction|
+|allergy v1|ctv3|Xa5Nx|Promethazine adverse reaction|
+|allergy v1|ctv3|Xa5Nw|Antazoline adverse reaction|
+|allergy v1|ctv3|Xa5Nv|Meclozine hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5Nu|Dimenhydrinate adverse reaction|
+|allergy v1|ctv3|Xa5Nt|Cyclizine adverse reaction|
+|allergy v1|ctv3|Xa5Ns|Oxatomide adverse reaction|
+|allergy v1|ctv3|Xa5Nr|Mequitazine adverse reaction|
+|allergy v1|ctv3|Xa5Nq|Mebhydrolin adverse reaction|
+|allergy v1|ctv3|Xa5Np|Clemastine adverse reaction|
+|allergy v1|ctv3|Xa5Nh|Non-sedating antihistamine adverse reaction|
+|allergy v1|ctv3|Xa5Nn|Cetirizine adverse reaction|
+|allergy v1|ctv3|Xa5Nm|Azelastine adverse reaction|
+|allergy v1|ctv3|Xa5Nl|Loratadine adverse reaction|
+|allergy v1|ctv3|Xa5Nk|Acrivastine adverse reaction|
+|allergy v1|ctv3|Xa5Nj|Terfenadine adverse reaction|
+|allergy v1|ctv3|Xa5Ni|Astemizole adverse reaction|
+|allergy v1|ctv3|Xa5Nf|Topical antihistamine adverse reaction|
+|allergy v1|ctv3|Xa5NZ|Respiratory surfactant adverse reaction|
+|allergy v1|ctv3|Xa5Nd|Colfosceril adverse reaction|
+|allergy v1|ctv3|Xa5Nc|Pumactant adverse reaction|
+|allergy v1|ctv3|Xa5Nb|Phospholipid fraction adverse reaction|
+|allergy v1|ctv3|Xa5Na|Beractant adverse reaction|
+|allergy v1|ctv3|Xa5NV|Respiratory stimulant adverse reaction|
+|allergy v1|ctv3|Xa5NY|Doxapram adverse reaction|
+|allergy v1|ctv3|Xa5NX|Ethamivan adverse reaction|
+|allergy v1|ctv3|Xa5NW|Nikethamide adverse reaction|
+|allergy v1|ctv3|Xa5NP|Mucolytics adverse reaction|
+|allergy v1|ctv3|Xa5NU|Acetylcysteine adverse reaction|
+|allergy v1|ctv3|Xa5NT|Methylcysteine adverse reaction|
+|allergy v1|ctv3|Xa5NS|Carbocisteine adverse reaction|
+|allergy v1|ctv3|Xa5NR|Bromhexine hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5NQ|Tyloxapol adverse reaction|
+|allergy v1|ctv3|Xa5NO|Dornase alfa adverse reaction|
+|allergy v1|ctv3|Xa5LK|Drug groups primarily affecting the autonomic nervous system adverse reaction|
+|allergy v1|ctv3|Xa5My|Anticholinergic adverse reaction|
+|allergy v1|ctv3|Xa5Mz|Antimuscarinic adverse reaction|
+|allergy v1|ctv3|Xa5NM|Procyclidine adverse reaction|
+|allergy v1|ctv3|Xa5NL|Oxybutynin adverse reaction|
+|allergy v1|ctv3|Xa5NK|Oxitropium adverse reaction|
+|allergy v1|ctv3|Xa5NH|Orphenadrine adverse reaction|
+|allergy v1|ctv3|Xa5NJ|Orphenadrine citrate adverse reaction|
+|allergy v1|ctv3|Xa5NI|Orphenadrine hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5NG|Methixene adverse reaction|
+|allergy v1|ctv3|Xa5NF|Ipratropium adverse reaction|
+|allergy v1|ctv3|Xa5NE|Homatropine adverse reaction|
+|allergy v1|ctv3|Xa5ND|Glycopyrronium adverse reaction|
+|allergy v1|ctv3|Xa5NC|Cyclopentolate adverse reaction|
+|allergy v1|ctv3|Xa5NB|Benztropine adverse reaction|
+|allergy v1|ctv3|Xa5NA|Benzhexol adverse reaction|
+|allergy v1|ctv3|Xa5N9|Atropine adverse reaction|
+|allergy v1|ctv3|Xa5N7|Hyoscine adverse reaction|
+|allergy v1|ctv3|Xa5N8|Hyoscine hydrobromide adverse reaction|
+|allergy v1|ctv3|Xa5N6|Tropicamide adverse reaction|
+|allergy v1|ctv3|Xa5N5|Lachesine chloride adverse reaction|
+|allergy v1|ctv3|Xa5N4|Terodiline hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5N3|Emepronium bromide adverse reaction|
+|allergy v1|ctv3|Xa5N2|Biperiden adverse reaction|
+|allergy v1|ctv3|Xa5N1|Piperidolate hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5N0|Belladonna alkaloids adverse reaction|
+|allergy v1|ctv3|Xa5MH|Sympathomimetic adverse reaction|
+|allergy v1|ctv3|Xa5Mx|Xamoterol adverse reaction|
+|allergy v1|ctv3|Xa5Mw|Oxymetazoline adverse reaction|
+|allergy v1|ctv3|Xa5Mv|Ephedrine adverse reaction|
+|allergy v1|ctv3|Xa5Mu|Dopamine adverse reaction|
+|allergy v1|ctv3|Xa5Mt|Dipivefrine adverse reaction|
+|allergy v1|ctv3|Xa5Mn|Central alpha-adrenoceptor agonist adverse reaction|
+|allergy v1|ctv3|Xa5Ms|Lofexidine adverse reaction|
+|allergy v1|ctv3|Xa5Mr|Clonidine adverse reaction|
+|allergy v1|ctv3|Xa5Mq|Apraclonidine adverse reaction|
+|allergy v1|ctv3|Xa5Mo|Methyldopa adverse reaction|
+|allergy v1|ctv3|Xa5Mp|Methyldopa and diuretic adverse reaction|
+|allergy v1|ctv3|Xa5MT|Beta-adrenoceptor agonist adverse reaction|
+|allergy v1|ctv3|Xa5Mj|Isoprenaline adverse reaction|
+|allergy v1|ctv3|Xa5Mm|Parenteral isoprenaline adverse reaction|
+|allergy v1|ctv3|Xa5Ml|Inhaled isoprenaline adverse reaction|
+|allergy v1|ctv3|Xa5Mk|Oral isoprenaline adverse reaction|
+|allergy v1|ctv3|Xa5Mg|Selective beta-1 adrenoceptor stimulants adverse reaction|
+|allergy v1|ctv3|Xa5Mi|Dopexamine adverse reaction|
+|allergy v1|ctv3|Xa5Mh|Dobutamine adverse reaction|
+|allergy v1|ctv3|Xa5MU|Selective beta-2 adrenoceptor stimulants adverse reaction|
+|allergy v1|ctv3|Xa5Mf|Tulobuterol adverse reaction|
+|allergy v1|ctv3|Xa5Me|Terbutaline adverse reaction|
+|allergy v1|ctv3|Xa5Md|Ritodrine adverse reaction|
+|allergy v1|ctv3|Xa5Mc|Rimiterol adverse reaction|
+|allergy v1|ctv3|Xa5Mb|Reproterol adverse reaction|
+|allergy v1|ctv3|Xa5Ma|Orciprenaline adverse reaction|
+|allergy v1|ctv3|Xa5MZ|Fenoterol adverse reaction|
+|allergy v1|ctv3|Xa5MY|Bambuterol adverse reaction|
+|allergy v1|ctv3|Xa5MX|Salbutamol adverse reaction|
+|allergy v1|ctv3|Xa5MW|Salmeterol adverse reaction|
+|allergy v1|ctv3|Xa5MV|Pirbuterol adverse reaction|
+|allergy v1|ctv3|Xa5ML|Alpha-adrenoceptor agonist adverse reaction|
+|allergy v1|ctv3|Xa5MS|Xylometazoline adverse reaction|
+|allergy v1|ctv3|Xa5MR|Phenylephrine adverse reaction|
+|allergy v1|ctv3|Xa5MQ|Noradrenaline adverse reaction|
+|allergy v1|ctv3|Xa5MP|Naphazoline adverse reaction|
+|allergy v1|ctv3|Xa5MO|Methoxamine adverse reaction|
+|allergy v1|ctv3|Xa5MN|Metaraminol adverse reaction|
+|allergy v1|ctv3|Xa5MM|Oxedrine tartrate adverse reaction|
+|allergy v1|ctv3|Xa5MK|Pseudoephedrine adverse reaction|
+|allergy v1|ctv3|Xa5MJ|Phenylpropanolamine hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5MI|Isoetharine hydrochloride adverse reaction|
+|allergy v1|ctv3|Xa5M3|Parasympathomimetic adverse reaction|
+|allergy v1|ctv3|Xa5MG|Carbachol adverse reaction|
+|allergy v1|ctv3|Xa5MF|Bethanechol adverse reaction|
+|allergy v1|ctv3|Xa5M7|Anticholinesterase parasympathomimetic adverse reaction|
+|allergy v1|ctv3|Xa5ME|Neostigmine adverse reaction|
+|allergy v1|ctv3|Xa5MD|Pyridostigmine adverse reaction|
+|allergy v1|ctv3|Xa5MC|Edrophonium adverse reaction|
+|allergy v1|ctv3|Xa5MB|Ecothiopate adverse reaction|
+|allergy v1|ctv3|Xa5MA|Distigmine adverse reaction|
+|allergy v1|ctv3|Xa5M9|Demecarium adverse reaction|
+|allergy v1|ctv3|Xa5M8|Physostigmine adverse reaction|
+|allergy v1|ctv3|Xa5M6|Methacholine adverse reaction|
+|allergy v1|ctv3|Xa5M5|Acetylcholine chloride adverse reaction|
+|allergy v1|ctv3|Xa5M4|Pilocarpine adverse reaction|
+|allergy v1|ctv3|Xa5Lr|Calcium-channel blocker adverse reaction|
+|allergy v1|ctv3|Xa5M2|Verapamil adverse reaction|
+|allergy v1|ctv3|Xa5M1|Nicardipine adverse reaction|
+|allergy v1|ctv3|Xa5M0|Diltiazem adverse reaction|
+|allergy v1|ctv3|Xa5Lz|Amlodipine adverse reaction|
+|allergy v1|ctv3|Xa5Ly|Nimodipine adverse reaction|
+|allergy v1|ctv3|Xa5Lx|Lacidipine adverse reaction|
+|allergy v1|ctv3|Xa5Lw|Felodipine adverse reaction|
+|allergy v1|ctv3|Xa5Lv|Isradipine adverse reaction|
+|allergy v1|ctv3|Xa5Lu|Prenylamine adverse reaction|
+|allergy v1|ctv3|Xa5Lt|Nifedipine adverse reaction|
+|allergy v1|ctv3|Xa5Ls|Lidoflazine adverse reaction|
+|allergy v1|ctv3|Xa5Lq|Nicotine adverse reaction|
+|allergy v1|ctv3|Xa5Li|Alpha-adrenoceptor blocking drug adverse reaction|
+|allergy v1|ctv3|Xa5Lp|Terazosin adverse reaction|
+|allergy v1|ctv3|Xa5Lo|Prazosin adverse reaction|
+|allergy v1|ctv3|Xa5Ln|Phentolamine adverse reaction|
+|allergy v1|ctv3|Xa5Lm|Phenoxybenzamine adverse reaction|
+|allergy v1|ctv3|Xa5Ll|Indoramin adverse reaction|
+|allergy v1|ctv3|Xa5Lk|Doxazosin adverse reaction|
+|allergy v1|ctv3|Xa5Lj|Alfuzosin adverse reaction|
+|allergy v1|ctv3|Xa5LL|Beta-adrenoceptor blocking drug adverse reaction|
+|allergy v1|ctv3|Xa5LU|Non-cardioselective beta-blocker adverse reaction|
+|allergy v1|ctv3|Xa5Lh|Timolol adverse reaction|
+|allergy v1|ctv3|Xa5Lg|Sotalol adverse reaction|
+|allergy v1|ctv3|Xa5Lf|Propranolol adverse reaction|
+|allergy v1|ctv3|Xa5Le|Practolol adverse reaction|
+|allergy v1|ctv3|Xa5Ld|Penbutolol adverse reaction|
+|allergy v1|ctv3|Xa5Lc|Oxprenolol adverse reaction|
+|allergy v1|ctv3|Xa5Lb|Levobunolol adverse reaction|
+|allergy v1|ctv3|Xa5La|Labetalol adverse reaction|
+|allergy v1|ctv3|Xa5LZ|Carteolol adverse reaction|
+|allergy v1|ctv3|Xa5LY|Metipranolol adverse reaction|
+|allergy v1|ctv3|Xa5LX|Carvedilol adverse reaction|
+|allergy v1|ctv3|Xa5LW|Pindolol adverse reaction|
+|allergy v1|ctv3|Xa5LV|Nadolol adverse reaction|
+|allergy v1|ctv3|Xa5LM|Cardioselective beta-blocker adverse reaction|
+|allergy v1|ctv3|Xa5LT|Metoprolol adverse reaction|
+|allergy v1|ctv3|Xa5LS|Esmolol adverse reaction|
+|allergy v1|ctv3|Xa5LR|Celiprolol adverse reaction|
+|allergy v1|ctv3|Xa5LQ|Bisoprolol adverse reaction|
+|allergy v1|ctv3|Xa5LP|Betaxolol adverse reaction|
+|allergy v1|ctv3|Xa5LO|Atenolol adverse reaction|
+|allergy v1|ctv3|Xa5LN|Acebutolol adverse reaction|
+|allergy v1|ctv3|Xa5Im|Drug groups primarily affecting the central nervous system adverse reaction|
+|allergy v1|ctv3|Xa5LI|Alcohol metabolism modifier adverse reaction|
+|allergy v1|ctv3|Xa5LJ|Disulfiram adverse reaction|
+|allergy v1|ctv3|Xa5LC|Central stimulant adverse reaction|
+|allergy v1|ctv3|Xa5LG|Amphetamine group adverse reaction|
+|allergy v1|ctv3|Xa5LH|Dexamphetamine adverse reaction|
+|allergy v1|ctv3|Xa5LF|Prolintane adverse reaction|
+|allergy v1|ctv3|Xa5LE|Methylphenidate adverse reaction|
+|allergy v1|ctv3|Xa5LD|Pemoline adverse reaction|
+|allergy v1|ctv3|Xa5LA|Decarboxylase inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5LB|Selegiline adverse reaction|
+|allergy v1|ctv3|Xa5Ju|Sedative/neuroleptic adverse reaction|
+|allergy v1|ctv3|Xa5KZ|Neuroleptic adverse reaction|
+|allergy v1|ctv3|Xa5L9|Remoxipride adverse reaction|
+|allergy v1|ctv3|Xa5L8|Oxypertine adverse reaction|
+|allergy v1|ctv3|Xa5L2|Thioxanthene adverse reaction|
+|allergy v1|ctv3|Xa5L7|Flupenthixol adverse reaction|
+|allergy v1|ctv3|Xa5L6|Zuclopenthixol adverse reaction|
+|allergy v1|ctv3|Xa5L5|Zuclopenthixol decanoate adverse reaction|
+|allergy v1|ctv3|Xa5L4|Flupenthixol decanoate adverse reaction|
+|allergy v1|ctv3|Xa5L3|Chlorprothixene adverse reaction|
+|allergy v1|ctv3|Xa5Ko|Phenothiazine adverse reaction|
+|allergy v1|ctv3|Xa5L1|Trifluoperazine adverse reaction|
+|allergy v1|ctv3|Xa5L0|Prochlorperazine adverse reaction|
+|allergy v1|ctv3|Xa5Kz|Perphenazine adverse reaction|
+|allergy v1|ctv3|Xa5Ky|Thioridazine adverse reaction|
+|allergy v1|ctv3|Xa5Kx|Promazine adverse reaction|
+|allergy v1|ctv3|Xa5Kw|Pipothiazine adverse reaction|
+|allergy v1|ctv3|Xa5Kv|Chlorpromazine adverse reaction|
+|allergy v1|ctv3|Xa5Ku|Fluphenazine adverse reaction|
+|allergy v1|ctv3|Xa5Kt|Thiethylperazine adverse reaction|
+|allergy v1|ctv3|Xa5Ks|Fluphenazine enanthate adverse reaction|
+|allergy v1|ctv3|Xa5Kr|Fluphenazine decanoate adverse reaction|
+|allergy v1|ctv3|Xa5Kq|Pericyazine adverse reaction|
+|allergy v1|ctv3|Xa5Kp|Methotrimeprazine adverse reaction|
+|allergy v1|ctv3|Xa5Kl|Diphenylbutylpiperidine adverse reaction|
+|allergy v1|ctv3|Xa5Kn|Fluspirilene adverse reaction|
+|allergy v1|ctv3|Xa5Km|Pimozide adverse reaction|
+|allergy v1|ctv3|Xa5Kf|Butyrophenone adverse reaction|
+|allergy v1|ctv3|Xa5Kk|Haloperidol adverse reaction|
+|allergy v1|ctv3|Xa5Kj|Droperidol adverse reaction|
+|allergy v1|ctv3|Xa5Ki|Haloperidol decanoate adverse reaction|
+|allergy v1|ctv3|Xa5Kh|Trifluperidol adverse reaction|
+|allergy v1|ctv3|Xa5Kg|Benperidol adverse reaction|
+|allergy v1|ctv3|Xa5Ke|Tetrabenazine adverse reaction|
+|allergy v1|ctv3|Xa5Kd|Risperidone adverse reaction|
+|allergy v1|ctv3|Xa5Kc|Clozapine adverse reaction|
+|allergy v1|ctv3|Xa5Kb|Loxapine adverse reaction|
+|allergy v1|ctv3|Xa5Ka|Sulpiride adverse reaction|
+|allergy v1|ctv3|Xa5Jv|Sedative adverse reaction|
+|allergy v1|ctv3|Xa5KY|Chlormethiazole adverse reaction|
+|allergy v1|ctv3|Xa5KX|Buspirone adverse reaction|
+|allergy v1|ctv3|Xa5KT|Chloral sedative adverse reaction|
+|allergy v1|ctv3|Xa5KW|Triclofos sodium adverse reaction|
+|allergy v1|ctv3|Xa5KV|Dichloralphenazone adverse reaction|
+|allergy v1|ctv3|Xa5KU|Chloral hydrate adverse reaction|
+|allergy v1|ctv3|Xa5KR|Carbamate sedative adverse reaction|
+|allergy v1|ctv3|Xa5KS|Meprobamate adverse reaction|
+|allergy v1|ctv3|Xa5K7|Benzodiazepine sedative adverse reaction|
+|allergy v1|ctv3|Xa5KQ|Temazepam adverse reaction|
+|allergy v1|ctv3|Xa5KP|Lorazepam adverse reaction|
+|allergy v1|ctv3|Xa5KO|Diazepam adverse reaction|
+|allergy v1|ctv3|Xa5KN|Midazolam adverse reaction|
+|allergy v1|ctv3|Xa5KM|Prazepam adverse reaction|
+|allergy v1|ctv3|Xa5KL|Oxazepam adverse reaction|
+|allergy v1|ctv3|Xa5KK|Medazepam adverse reaction|
+|allergy v1|ctv3|Xa5KJ|Ketazolam adverse reaction|
+|allergy v1|ctv3|Xa5KI|Potassium clorazepate adverse reaction|
+|allergy v1|ctv3|Xa5KH|Clobazam adverse reaction|
+|allergy v1|ctv3|Xa5KG|Chlordiazepoxide adverse reaction|
+|allergy v1|ctv3|Xa5KF|Bromazepam adverse reaction|
+|allergy v1|ctv3|Xa5KE|Alprazolam adverse reaction|
+|allergy v1|ctv3|Xa5KD|Triazolam adverse reaction|
+|allergy v1|ctv3|Xa5KC|Nitrazepam adverse reaction|
+|allergy v1|ctv3|Xa5KB|Lormetazepam adverse reaction|
+|allergy v1|ctv3|Xa5KA|Loprazolam adverse reaction|
+|allergy v1|ctv3|Xa5K9|Flurazepam adverse reaction|
+|allergy v1|ctv3|Xa5K8|Flunitrazepam adverse reaction|
+|allergy v1|ctv3|Xa5K1|Barbiturate sedative adverse reaction|
+|allergy v1|ctv3|Xa5K6|Quinalbarbitone adverse reaction|
+|allergy v1|ctv3|Xa5K5|Amylobarbitone sodium adverse reaction|
+|allergy v1|ctv3|Xa5K4|Cyclobarbitone adverse reaction|
+|allergy v1|ctv3|Xa5K3|Butobarbitone adverse reaction|
+|allergy v1|ctv3|Xa5K2|Amylobarbitone adverse reaction|
+|allergy v1|ctv3|Xa5K0|Paraldehyde adverse reaction|
+|allergy v1|ctv3|Xa5Jz|Methyprylone adverse reaction|
+|allergy v1|ctv3|Xa5Jy|Chlormezanone adverse reaction|
+|allergy v1|ctv3|Xa5Jx|Zolpidem adverse reaction|
+|allergy v1|ctv3|Xa5Jw|Zopiclone adverse reaction|
+|allergy v1|ctv3|Xa5Jf|Antiepileptic adverse reaction|
+|allergy v1|ctv3|Xa5Jt|Clonazepam adverse reaction|
+|allergy v1|ctv3|Xa5Js|Ethosuximide adverse reaction|
+|allergy v1|ctv3|Xa5Jr|Phenytoin adverse reaction|
+|allergy v1|ctv3|Xa5Jq|Vigabatrin adverse reaction|
+|allergy v1|ctv3|Xa5Jp|Carbamazepine adverse reaction|
+|allergy v1|ctv3|Xa5Jl|Barbiturate antiepileptic adverse reaction|
+|allergy v1|ctv3|Xa5Jo|Primidone adverse reaction|
+|allergy v1|ctv3|Xa5Jn|Phenobarbitone adverse reaction|
+|allergy v1|ctv3|Xa5Jm|Methylphenobarbitone adverse reaction|
+|allergy v1|ctv3|Xa5Jk|Sodium valproate adverse reaction|
+|allergy v1|ctv3|Xa5Jj|Gabapentin adverse reaction|
+|allergy v1|ctv3|Xa5Ji|Piracetam adverse reaction|
+|allergy v1|ctv3|Xa5Jh|Lamotrigine adverse reaction|
+|allergy v1|ctv3|Xa5Jg|Beclamide adverse reaction|
+|allergy v1|ctv3|Xa5J2|Antidepressant drug adverse reaction|
+|allergy v1|ctv3|Xa5Je|Viloxazine adverse reaction|
+|allergy v1|ctv3|Xa5Jd|Trazodone adverse reaction|
+|allergy v1|ctv3|Xa5Ja|Tetracyclic antidepressant drug adverse reaction|
+|allergy v1|ctv3|XaXmt|Mirtazapine adverse reaction|
+|allergy v1|ctv3|Xa5Jc|Mianserin adverse reaction|
+|allergy v1|ctv3|Xa5Jb|Maprotiline adverse reaction|
+|allergy v1|ctv3|Xa5JT|Selective serotonin re-uptake inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5JZ|Fluvoxamine adverse reaction|
+|allergy v1|ctv3|Xa5JY|Fluoxetine adverse reaction|
+|allergy v1|ctv3|Xa5JX|Citalopram adverse reaction|
+|allergy v1|ctv3|Xa5JW|Nefazodone adverse reaction|
+|allergy v1|ctv3|Xa5JV|Paroxetine adverse reaction|
+|allergy v1|ctv3|Xa5JU|Sertraline adverse reaction|
+|allergy v1|ctv3|Xa5JS|Venlafaxine adverse reaction|
+|allergy v1|ctv3|Xa5JR|Tryptophan adverse reaction|
+|allergy v1|ctv3|Xa5JQ|Compound antidepressants adverse reaction|
+|allergy v1|ctv3|Xa5JK|Monoamine oxidase inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5JP|Moclobemide adverse reaction|
+|allergy v1|ctv3|Xa5JO|Tranylcypromine adverse reaction|
+|allergy v1|ctv3|Xa5JN|Isocarboxazid adverse reaction|
+|allergy v1|ctv3|Xa5JM|Iproniazid adverse reaction|
+|allergy v1|ctv3|Xa5JL|Phenelzine adverse reaction|
+|allergy v1|ctv3|Xa5J6|Tricyclic antidepressant drug adverse reaction|
+|allergy v1|ctv3|Xa5JJ|Protriptyline adverse reaction|
+|allergy v1|ctv3|Xa5JI|Imipramine adverse reaction|
+|allergy v1|ctv3|Xa5JH|Dothiepin adverse reaction|
+|allergy v1|ctv3|Xa5JG|Desipramine adverse reaction|
+|allergy v1|ctv3|Xa5JF|Clomipramine adverse reaction|
+|allergy v1|ctv3|Xa5JE|Amitriptyline adverse reaction|
+|allergy v1|ctv3|Xa5JD|Amoxapine adverse reaction|
+|allergy v1|ctv3|Xa5JC|Trimipramine adverse reaction|
+|allergy v1|ctv3|Xa5JB|Nortriptyline adverse reaction|
+|allergy v1|ctv3|Xa5JA|Lofepramine adverse reaction|
+|allergy v1|ctv3|Xa5J9|Iprindole adverse reaction|
+|allergy v1|ctv3|Xa5J8|Doxepin adverse reaction|
+|allergy v1|ctv3|Xa5J7|Butriptyline adverse reaction|
+|allergy v1|ctv3|Xa5J3|Lithium adverse reaction|
+|allergy v1|ctv3|Xa5J5|Lithium citrate adverse reaction|
+|allergy v1|ctv3|Xa5J4|Lithium carbonate adverse reaction|
+|allergy v1|ctv3|Xa5It|Dopaminergic drug used in parkinsonism adverse reaction|
+|allergy v1|ctv3|Xa5J1|Bromocriptine adverse reaction|
+|allergy v1|ctv3|Xa5J0|Pergolide adverse reaction|
+|allergy v1|ctv3|Xa5Iz|Lysuride adverse reaction|
+|allergy v1|ctv3|Xa5Iy|Apomorphine adverse reaction|
+|allergy v1|ctv3|Xa5Ix|Amantadine adverse reaction|
+|allergy v1|ctv3|Xa5Iw|Co-careldopa adverse reaction|
+|allergy v1|ctv3|Xa5Iv|Co-beneldopa adverse reaction|
+|allergy v1|ctv3|Xa5Iu|Levodopa adverse reaction|
+|allergy v1|ctv3|Xa5In|Centrally acting appetite suppressant adverse reaction|
+|allergy v1|ctv3|Xa5Is|Fenfluramine adverse reaction|
+|allergy v1|ctv3|Xa5Ir|Diethylpropion adverse reaction|
+|allergy v1|ctv3|Xa5Iq|Dexfenfluramine adverse reaction|
+|allergy v1|ctv3|Xa5Ip|Phentermine adverse reaction|
+|allergy v1|ctv3|Xa5Io|Mazindol adverse reaction|
+|allergy v1|ctv3|Xa5Hf|Antineoplastic/immunosuppressant/immunostimulant adverse reaction|
+|allergy v1|ctv3|Xa5Ij|Immunosuppressant adverse reaction|
+|allergy v1|ctv3|XaPRE|[X]Leflunomide adverse reaction|
+|allergy v1|ctv3|Xa5Il|Azathioprine adverse reaction|
+|allergy v1|ctv3|Xa5Ik|Cyclosporin adverse reaction|
+|allergy v1|ctv3|Xa5Ho|Antineoplastic adverse reaction|
+|allergy v1|ctv3|Xa5Ii|Dimethyl sulphoxide adverse reaction|
+|allergy v1|ctv3|Xa5Ie|Vinca alkaloid adverse reaction|
+|allergy v1|ctv3|Xa5Ih|Vindesine adverse reaction|
+|allergy v1|ctv3|Xa5Ig|Vincristine adverse reaction|
+|allergy v1|ctv3|Xa5If|Vinblastine adverse reaction|
+|allergy v1|ctv3|Xa5Ia|Oestrogen antagonist adverse reaction|
+|allergy v1|ctv3|Xa5Id|Formestane adverse reaction|
+|allergy v1|ctv3|Xa5Ic|Tamoxifen adverse reaction|
+|allergy v1|ctv3|Xa5Ib|Trilostane adverse reaction|
+|allergy v1|ctv3|Xa5IZ|Aminoglutethimide adverse reaction|
+|allergy v1|ctv3|Xa5IY|Fludarabine adverse reaction|
+|allergy v1|ctv3|Xa5IX|Paclitaxel adverse reaction|
+|allergy v1|ctv3|Xa5IW|Crisantaspase adverse reaction|
+|allergy v1|ctv3|Xa5IV|Razoxane adverse reaction|
+|allergy v1|ctv3|Xa5IU|Procarbazine adverse reaction|
+|allergy v1|ctv3|Xa5IT|Hydroxyurea adverse reaction|
+|allergy v1|ctv3|Xa5IS|Cisplatin adverse reaction|
+|allergy v1|ctv3|Xa5IR|Carboplatin adverse reaction|
+|allergy v1|ctv3|Xa5IQ|Amsacrine adverse reaction|
+|allergy v1|ctv3|Xa5IP|Etoposide adverse reaction|
+|allergy v1|ctv3|Xa5IH|Antimetabolite adverse reaction|
+|allergy v1|ctv3|Xa5IO|Fluorouracil adverse reaction|
+|allergy v1|ctv3|Xa5IN|Cytarabine adverse reaction|
+|allergy v1|ctv3|Xa5IM|Pentostatin adverse reaction|
+|allergy v1|ctv3|Xa5IL|Thioguanine adverse reaction|
+|allergy v1|ctv3|Xa5IK|Mercaptopurine adverse reaction|
+|allergy v1|ctv3|Xa5IJ|Methotrexate adverse reaction|
+|allergy v1|ctv3|Xa5II|Mercuric oxide adverse reaction|
+|allergy v1|ctv3|Xa5I7|Cytotoxic antibiotic adverse reaction|
+|allergy v1|ctv3|Xa5IG|Idarubicin adverse reaction|
+|allergy v1|ctv3|Xa5IF|Epirubicin adverse reaction|
+|allergy v1|ctv3|Xa5IE|Doxorubicin adverse reaction|
+|allergy v1|ctv3|Xa5ID|Mitozantrone adverse reaction|
+|allergy v1|ctv3|Xa5IC|Aclarubicin adverse reaction|
+|allergy v1|ctv3|Xa5IB|Plicamycin adverse reaction|
+|allergy v1|ctv3|Xa5IA|Mitomycin adverse reaction|
+|allergy v1|ctv3|Xa5I9|Bleomycin adverse reaction|
+|allergy v1|ctv3|Xa5I8|Dactinomycin adverse reaction|
+|allergy v1|ctv3|Xa5Hp|Alkylating drug adverse reaction|
+|allergy v1|ctv3|Xa5I5|Triazene antineoplastic adverse reaction|
+|allergy v1|ctv3|Xa5I6|Dacarbazine adverse reaction|
+|allergy v1|ctv3|Xa5I2|Nitrosurea adverse reaction|
+|allergy v1|ctv3|Xa5I4|Lomustine adverse reaction|
+|allergy v1|ctv3|Xa5I3|Carmustine adverse reaction|
+|allergy v1|ctv3|Xa5Hu|Nitrogen mustard derivative adverse reaction|
+|allergy v1|ctv3|Xa5I1|Mustine adverse reaction|
+|allergy v1|ctv3|Xa5I0|Estramustine adverse reaction|
+|allergy v1|ctv3|Xa5Hz|Melphalan adverse reaction|
+|allergy v1|ctv3|Xa5Hy|Ifosfamide adverse reaction|
+|allergy v1|ctv3|Xa5Hx|Ethoglucid adverse reaction|
+|allergy v1|ctv3|Xa5Hw|Cyclophosphamide adverse reaction|
+|allergy v1|ctv3|Xa5Hv|Chlorambucil adverse reaction|
+|allergy v1|ctv3|Xa5Ht|Thiotepa adverse reaction|
+|allergy v1|ctv3|Xa5Hs|Treosulfan adverse reaction|
+|allergy v1|ctv3|Xa5Hr|Busulphan adverse reaction|
+|allergy v1|ctv3|Xa5Hq|Mitobronitol adverse reaction|
+|allergy v1|ctv3|Xa5Hg|Immunostimulant adverse reaction|
+|allergy v1|ctv3|Xa5Hn|Levamisole adverse reaction|
+|allergy v1|ctv3|Xa5Hj|Colony stimulating factors adverse reaction|
+|allergy v1|ctv3|Xa5Hm|Filgrastim adverse reaction|
+|allergy v1|ctv3|Xa5Hl|Lenograstim adverse reaction|
+|allergy v1|ctv3|Xa5Hk|Molgramostim adverse reaction|
+|allergy v1|ctv3|Xa5Hi|Aldesleukin adverse reaction|
+|allergy v1|ctv3|Xa5Hh|Amifostine adverse reaction|
+|allergy v1|ctv3|Xa5HF|Anaesthetics and medical gases adverse reaction|
+|allergy v1|ctv3|Xa5HU|Local anaesthetic drug adverse reaction|
+|allergy v1|ctv3|Xa5He|Proxymetacaine adverse reaction|
+|allergy v1|ctv3|Xa5Hd|Procaine adverse reaction|
+|allergy v1|ctv3|Xa5Hc|Oxybuprocaine adverse reaction|
+|allergy v1|ctv3|Xa5Hb|Amethocaine adverse reaction|
+|allergy v1|ctv3|Xa5Ha|Benzocaine adverse reaction|
+|allergy v1|ctv3|Xa5HZ|Cocaine adverse reaction|
+|allergy v1|ctv3|Xa5HY|Lignocaine adverse reaction|
+|allergy v1|ctv3|Xa5HX|Prilocaine adverse reaction|
+|allergy v1|ctv3|Xa5HW|Cinchocaine adverse reaction|
+|allergy v1|ctv3|Xa5HV|Bupivacaine adverse reaction|
+|allergy v1|ctv3|Xa5HG|General anaesthetic drug adverse reaction|
+|allergy v1|ctv3|Xa5HN|Inhalational anaesthetics adverse reaction|
+|allergy v1|ctv3|Xa5HT|Desflurane adverse reaction|
+|allergy v1|ctv3|Xa5HS|Trichloroethylene adverse reaction|
+|allergy v1|ctv3|Xa5HR|Isoflurane adverse reaction|
+|allergy v1|ctv3|Xa5HQ|Halothane adverse reaction|
+|allergy v1|ctv3|Xa5HP|Ether, anaesthetic adverse reaction|
+|allergy v1|ctv3|Xa5HO|Enflurane adverse reaction|
+|allergy v1|ctv3|Xa5HH|Intravenous anaesthetics adverse reaction|
+|allergy v1|ctv3|Xa5HM|Methohexitone adverse reaction|
+|allergy v1|ctv3|Xa5HL|Thiopentone adverse reaction|
+|allergy v1|ctv3|Xa5HK|Propofol adverse reaction|
+|allergy v1|ctv3|Xa5HJ|Ketamine adverse reaction|
+|allergy v1|ctv3|Xa5HI|Etomidate adverse reaction|
+|allergy v1|ctv3|Xa5GH|Drug groups primarily affecting the gastrointestinal system adverse reaction|
+|allergy v1|ctv3|Xa5HA|Bile agent adverse reaction|
+|allergy v1|ctv3|Xa5HE|Chenodeoxycholic and ursodeoxycholic acid adverse reaction|
+|allergy v1|ctv3|Xa5HD|Ursodeoxycholic acid adverse reaction|
+|allergy v1|ctv3|Xa5HC|Dehydrocholic acid adverse reaction|
+|allergy v1|ctv3|Xa5HB|Chenodeoxycholic acid adverse reaction|
+|allergy v1|ctv3|Xa5H0|Antispasmodic adverse reaction|
+|allergy v1|ctv3|Xa5H9|Propantheline adverse reaction|
+|allergy v1|ctv3|Xa5H8|Poldine adverse reaction|
+|allergy v1|ctv3|Xa5H7|Pipenzolate adverse reaction|
+|allergy v1|ctv3|Xa5H6|Mepenzolate adverse reaction|
+|allergy v1|ctv3|Xa5H5|Dicyclomine adverse reaction|
+|allergy v1|ctv3|Xa5H4|Mebeverine adverse reaction|
+|allergy v1|ctv3|Xa5H3|Alverine adverse reaction|
+|allergy v1|ctv3|Xa5H2|Peppermint oil adverse reaction|
+|allergy v1|ctv3|Xa5H1|Hyoscine butylbromide adverse reaction|
+|allergy v1|ctv3|Xa5Gp|Laxative adverse reaction|
+|allergy v1|ctv3|Xa5Gz|Docusate adverse reaction|
+|allergy v1|ctv3|Xa5Gw|Anthraquinone laxative adverse reaction|
+|allergy v1|ctv3|Xa5Gy|Senna adverse reaction|
+|allergy v1|ctv3|Xa5Gx|Cascara adverse reaction|
+|allergy v1|ctv3|Xa5Gv|Bulk-forming laxative adverse reaction|
+|allergy v1|ctv3|Xa5Gu|Magnesium sulphate adverse reaction|
+|allergy v1|ctv3|Xa5Gt|Lactulose adverse reaction|
+|allergy v1|ctv3|Xa5Gs|Sodium picosulphate adverse reaction|
+|allergy v1|ctv3|Xa5Gr|Danthron adverse reaction|
+|allergy v1|ctv3|Xa5Gq|Bisacodyl adverse reaction|
+|allergy v1|ctv3|Xa5Gk|Antiemetic adverse reaction|
+|allergy v1|ctv3|Xa5Go|5-HT3-receptor antagonist adverse reaction|
+|allergy v1|ctv3|Xa5Gn|Metoclopramide adverse reaction|
+|allergy v1|ctv3|Xa5Gm|Domperidone adverse reaction|
+|allergy v1|ctv3|Xa5Gl|Nabilone adverse reaction|
+|allergy v1|ctv3|Xa5Gi|Motility stimulant adverse reaction|
+|allergy v1|ctv3|Xa5Gj|Cisapride adverse reaction|
+|allergy v1|ctv3|Xa5Gf|Antidiarrhoeal drug adverse reaction|
+|allergy v1|ctv3|Xa5Gh|Kaolin adverse reaction|
+|allergy v1|ctv3|Xa5Gg|Loperamide adverse reaction|
+|allergy v1|ctv3|Xa5Gc|Antacid adverse reaction|
+|allergy v1|ctv3|Xa5Ge|Aluminium hydroxide adverse reaction|
+|allergy v1|ctv3|Xa5Gd|Magnesium trisilicate adverse reaction|
+|allergy v1|ctv3|Xa5GY|5-aminosalicylic acid adverse reaction|
+|allergy v1|ctv3|Xa5Gb|Sulphasalazine adverse reaction|
+|allergy v1|ctv3|Xa5Ga|Olsalazine adverse reaction|
+|allergy v1|ctv3|Xa5GZ|Mesalazine adverse reaction|
+|allergy v1|ctv3|Xa5GX|Pancreatin adverse reaction|
+|allergy v1|ctv3|Xa5GI|Ulcer healing drug adverse reaction|
+|allergy v1|ctv3|Xa5GW|Pirenzepine adverse reaction|
+|allergy v1|ctv3|Xa5GV|Carbenoxolone adverse reaction|
+|allergy v1|ctv3|Xa5GS|Proton pump inhibitor adverse reaction|
+|allergy v1|ctv3|Xa5GU|Lansoprazole adverse reaction|
+|allergy v1|ctv3|Xa5GT|Omeprazole adverse reaction|
+|allergy v1|ctv3|Xa5GN|H2 receptor antagonist adverse reaction|
+|allergy v1|ctv3|Xa5GR|Ranitidine adverse reaction|
+|allergy v1|ctv3|Xa5GQ|Nizatidine adverse reaction|
+|allergy v1|ctv3|Xa5GP|Famotidine adverse reaction|
+|allergy v1|ctv3|Xa5GO|Cimetidine adverse reaction|
+|allergy v1|ctv3|Xa5GM|Misoprostol adverse reaction|
+|allergy v1|ctv3|Xa5GL|Liquorice adverse reaction|
+|allergy v1|ctv3|Xa5GK|Sucralfate adverse reaction|
+|allergy v1|ctv3|Xa5GJ|Bismuth chelate adverse reaction|
+|allergy v1|ctv3|Xa5G9|Diagnostic agent adverse reaction|
+|allergy v1|ctv3|Xa5GG|Diagnostic dye adverse reaction|
+|allergy v1|ctv3|Xa5GF|Allergen extract vaccine adverse reaction|
+|allergy v1|ctv3|Xa5GC|Contrast media adverse reaction|
+|allergy v1|ctv3|Xa5GE|Magnetic resonance imaging contrast media adverse reaction|
+|allergy v1|ctv3|Xa5GD|X-ray contrast media adverse reaction|
+|allergy v1|ctv3|Xa5GB|Radiopharmaceutical adverse reaction|
+|allergy v1|ctv3|Xa5GA|Tuberculin adverse reaction|
+|allergy v1|ctv3|Xa5FI|Analgesics and non-steroidal anti-inflammatory drug adverse reaction|
+|allergy v1|ctv3|Xa5Fl|Non-steroidal anti-inflammatory drug adverse reaction|
+|allergy v1|ctv3|Xa5G8|Tolmetin adverse reaction|
+|allergy v1|ctv3|Xa5G7|Tiaprofenic acid adverse reaction|
+|allergy v1|ctv3|Xa5G6|Tenoxicam adverse reaction|
+|allergy v1|ctv3|Xa5G5|Sulindac adverse reaction|
+|allergy v1|ctv3|Xa5G4|Piroxicam adverse reaction|
+|allergy v1|ctv3|Xa5G3|Phenylbutazone adverse reaction|
+|allergy v1|ctv3|Xa5G2|Oxyphenbutazone adverse reaction|
+|allergy v1|ctv3|Xa5G1|Nefopam adverse reaction|
+|allergy v1|ctv3|Xa5G0|Naproxen adverse reaction|
+|allergy v1|ctv3|Xa5Fz|Nabumetone adverse reaction|
+|allergy v1|ctv3|Xa5Fy|Mefenamic acid adverse reaction|
+|allergy v1|ctv3|Xa5Fx|Ketorolac adverse reaction|
+|allergy v1|ctv3|Xa5Fw|Ketoprofen adverse reaction|
+|allergy v1|ctv3|Xa5Fv|Indomethacin adverse reaction|
+|allergy v1|ctv3|Xa5Fu|Ibuprofen adverse reaction|
+|allergy v1|ctv3|Xa5Ft|Flurbiprofen adverse reaction|
+|allergy v1|ctv3|Xa5Fs|Fenoprofen adverse reaction|
+|allergy v1|ctv3|Xa5Fr|Fenbufen adverse reaction|
+|allergy v1|ctv3|Xa5Fq|Felbinac adverse reaction|
+|allergy v1|ctv3|Xa5Fp|Etodolac adverse reaction|
+|allergy v1|ctv3|Xa5Fo|Diclofenac adverse reaction|
+|allergy v1|ctv3|Xa5Fn|Azapropazone adverse reaction|
+|allergy v1|ctv3|Xa5Fm|Acemetacin adverse reaction|
+|allergy v1|ctv3|Xa5FJ|Analgesic adverse reaction|
+|allergy v1|ctv3|Xa5FO|Opioid analgesic adverse reaction|
+|allergy v1|ctv3|Xa5Fk|Levorphanol adverse reaction|
+|allergy v1|ctv3|Xa5Fj|Meptazinol adverse reaction|
+|allergy v1|ctv3|Xa5Fe|Pethidine analogue adverse reaction|
+|allergy v1|ctv3|Xa5Fi|Phenoperidine adverse reaction|
+|allergy v1|ctv3|Xa5Fh|Pethidine adverse reaction|
+|allergy v1|ctv3|Xa5Fg|Fentanyl adverse reaction|
+|allergy v1|ctv3|Xa5Ff|Alfentanil adverse reaction|
+|allergy v1|ctv3|Xa5Fd|Opium alkaloid adverse reaction|
+|allergy v1|ctv3|Xa5FW|Morphinan opioid adverse reaction|
+|allergy v1|ctv3|Xa5Fc|Morphine adverse reaction|
+|allergy v1|ctv3|Xa5Fb|Nalbuphine adverse reaction|
+|allergy v1|ctv3|Xa5Fa|Dihydrocodeine adverse reaction|
+|allergy v1|ctv3|Xa5FZ|Diamorphine adverse reaction|
+|allergy v1|ctv3|Xa5FY|Codeine adverse reaction|
+|allergy v1|ctv3|Xa5FX|Buprenorphine adverse reaction|
+|allergy v1|ctv3|Xa5FR|Methadone analogue adverse reaction|
+|allergy v1|ctv3|Xa5FV|Methadone adverse reaction|
+|allergy v1|ctv3|Xa5FU|Dipipanone adverse reaction|
+|allergy v1|ctv3|Xa5FT|Dextropropoxyphene adverse reaction|
+|allergy v1|ctv3|Xa5FS|Dextromoramide adverse reaction|
+|allergy v1|ctv3|Xa5FQ|Phenazocine adverse reaction|
+|allergy v1|ctv3|Xa5FP|Pentazocine adverse reaction|
+|allergy v1|ctv3|Xa5FK|Non-opioid analgesic adverse reaction|
+|allergy v1|ctv3|Xa5FM|Salicylate adverse reaction|
+|allergy v1|ctv3|Xa5FN|Aspirin adverse reaction|
+|allergy v1|ctv3|Xa5FL|Paracetamol adverse reaction|
+|allergy v1|ctv3|Xa5FH|Adverse reaction to over the counter drug|
+|allergy v1|ctv3|TJ...|Drugs, medicines and biological substances causing adverse effects in therapeutic use|
+|allergy v1|ctv3|XaKdb|Adverse reaction to drug primarily acting on nutrition|
+|allergy v1|ctv3|XaKda|Adverse reaction to drug acting on bone metabolism|
+|allergy v1|ctv3|XaIrr|Adverse reaction to bupropion|
+|allergy v1|ctv3|XE22D|Adverse reaction to analgesics, antipyretics and antirheumatics|
+|allergy v1|ctv3|XE22F|Adverse reaction to antirheumatic|
+|allergy v1|ctv3|X70yS|NSAID - Adverse reaction to non-steroidal anti-inflammatory drug|
+|allergy v1|ctv3|TJ5y1|Adverse reaction to mefenamic acid|
+|allergy v1|ctv3|TJ56z|Adverse reaction to antirheumatics NOS|
+|allergy v1|ctv3|TJ56A|Adverse reaction to auranofin|
+|allergy v1|ctv3|TJ569|Adverse reaction to sodium aurothiomalate|
+|allergy v1|ctv3|TJ568|Adverse reaction to piroxicam|
+|allergy v1|ctv3|TJ567|Adverse reaction to naproxen|
+|allergy v1|ctv3|TJ566|Adverse reaction to ketoprofen|
+|allergy v1|ctv3|TJ565|Adverse reaction to indomethacin|
+|allergy v1|ctv3|TJ564|Adverse reaction to flurbiprofen|
+|allergy v1|ctv3|TJ563|Adverse reaction to fenoprofen|
+|allergy v1|ctv3|TJ562|Adverse reaction to fenbufen|
+|allergy v1|ctv3|TJ561|Adverse reaction to diclofenac sodium|
+|allergy v1|ctv3|TJ560|Adverse reaction to ibuprofen|
+|allergy v1|ctv3|X70yR|Adverse reaction to analgesics|
+|allergy v1|ctv3|TJ5y0|Adverse reaction to pentazocine|
+|allergy v1|ctv3|TJ57z|Adverse reaction to non-narcotic analgesics NOS|
+|allergy v1|ctv3|TJ571|Adverse reaction to pyrabital|
+|allergy v1|ctv3|TJ57.|Adverse reaction to other non-narcotic analgesics|
+|allergy v1|ctv3|TJ55.|Adverse reaction to pyrazole derivative|
+|allergy v1|ctv3|TJ55z|Adverse reaction to pyrazole derivatives NOS|
+|allergy v1|ctv3|TJ551|Adverse reaction to aminophenazone|
+|allergy v1|ctv3|TJ550|Adverse reaction to phyenylbytazone|
+|allergy v1|ctv3|TJ54z|Adverse reaction to aromatic analgesics NOS|
+|allergy v1|ctv3|TJ542|Adverse reaction to acetanilide|
+|allergy v1|ctv3|TJ541|Adverse reaction to phenacetin|
+|allergy v1|ctv3|TJ540|Adverse reaction to paracetamol|
+|allergy v1|ctv3|TJ54.|Adverse reaction to aromatic analgesics NEC|
+|allergy v1|ctv3|TJ52z|Adverse reaction to opiates or related narcotics NOS|
+|allergy v1|ctv3|TJ527|Adverse reaction to pethidine hydrochloride|
+|allergy v1|ctv3|TJ526|Adverse reaction to levorphanol tartrate|
+|allergy v1|ctv3|TJ525|Adverse reaction to dipipanone hydrochloride|
+|allergy v1|ctv3|TJ524|Adverse reaction to dihydrocodeine tartrate|
+|allergy v1|ctv3|TJ523|Adverse reaction to dextromoramide|
+|allergy v1|ctv3|TJ522|Adverse reaction to codeine phosphate|
+|allergy v1|ctv3|TJ521|Adverse reaction to buprenorphine|
+|allergy v1|ctv3|TJ520|Adverse reaction to morphine salts|
+|allergy v1|ctv3|TJ52.|Adverse reaction to other opiates and related narcotics|
+|allergy v1|ctv3|TJ51.|Adverse reaction to methadone|
+|allergy v1|ctv3|TJ50.|Adverse reaction to diamorphine|
+|allergy v1|ctv3|X70yP|Adverse reaction to antipyretic|
+|allergy v1|ctv3|XE22E|Adverse reaction to salicylates|
+|allergy v1|ctv3|X70yQ|Adverse reaction to aspirin|
+|allergy v1|ctv3|TJ53.|Adverse reaction to aspirin|
+|allergy v1|ctv3|TJ5y.|Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics|
+|allergy v1|ctv3|TJ5z.|Adverse reaction to analgesics, anti-pyretics and anti-rheumatics NOS|
+|allergy v1|ctv3|TJ5yz|Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics NOS|
+|allergy v1|ctv3|TJ56.|Adverse reaction to non steroidal anti inflammatory drugs|
+|allergy v1|ctv3|TJ5..|Adverse reaction to antipyretics|
+|allergy v1|ctv3|X70yT|Adverse reaction to CNS depressants and anaesthetics|
+|allergy v1|ctv3|X70yV|Adverse reaction to anaesthetic|
+|allergy v1|ctv3|X70yW|Adverse reaction to general anaesthetic|
+|allergy v1|ctv3|X70yX|Adverse reaction to gaseous anaesthetic|
+|allergy v1|ctv3|TJ82z|Adverse reaction to gaseous anaesthetic NOS|
+|allergy v1|ctv3|TJ825|Adverse reaction to trichloroethylene|
+|allergy v1|ctv3|TJ824|Adverse reaction to enflurane|
+|allergy v1|ctv3|TJ823|Adverse reaction to isoflurane|
+|allergy v1|ctv3|TJ822|Adverse reaction to cyclopropane|
+|allergy v1|ctv3|TJ821|Adverse reaction to nitrous oxide|
+|allergy v1|ctv3|TJ820|Adverse reaction to ether|
+|allergy v1|ctv3|TJ82.|Adverse reaction to other gaseous anaesthetics|
+|allergy v1|ctv3|TJ81.|Adverse reaction to halothane|
+|allergy v1|ctv3|TJ84.|Adverse reaction to other general anaesthetics|
+|allergy v1|ctv3|TJ83.|Adverse reaction to intravenous anaesthetic|
+|allergy v1|ctv3|TJ83z|Adverse reaction to intravenous anaesthetic NOS|
+|allergy v1|ctv3|TJ834|Adverse reaction to propofol|
+|allergy v1|ctv3|TJ833|Adverse reaction to etomidate|
+|allergy v1|ctv3|TJ832|Adverse reaction to ketamine|
+|allergy v1|ctv3|TJ831|Adverse reaction to methohexitone sodium|
+|allergy v1|ctv3|TJ830|Adverse reaction to thiopentone sodium|
+|allergy v1|ctv3|TJ8y.|Adverse reaction to other local anaesthetics|
+|allergy v1|ctv3|TJ87.|Adverse reaction to spinal anaesthetic|
+|allergy v1|ctv3|TJ86.|Adverse reaction to peripheral nerve- and plexus-blocking anaesthetics|
+|allergy v1|ctv3|TJ85.|Adverse reaction to surface and infiltration anaesthetic|
+|allergy v1|ctv3|TJ85z|Adverse reaction to local anaesthetics NOS|
+|allergy v1|ctv3|TJ855|Adverse reaction to tetracaine|
+|allergy v1|ctv3|TJ854|Adverse reaction to procaine hydrochloride|
+|allergy v1|ctv3|TJ853|Adverse reaction to prilocaine hydrochloride|
+|allergy v1|ctv3|TJ852|Adverse reaction to bupivacaine hydrochloride|
+|allergy v1|ctv3|TJ851|Adverse reaction to lignocaine hydrochloride|
+|allergy v1|ctv3|TJ850|Adverse reaction to cocaine|
+|allergy v1|ctv3|X70yU|Adverse reaction to central nervous system depressant|
+|allergy v1|ctv3|TJ80.|Adverse reaction to central nervous system muscle-tone depressants|
+|allergy v1|ctv3|TJ80z|Adverse reaction to central nervous system muscle-tone depressants NOS|
+|allergy v1|ctv3|TJ802|Adverse reaction to methocarbamol|
+|allergy v1|ctv3|TJ801|Adverse reaction to mephenesin|
+|allergy v1|ctv3|TJ800|Adverse reaction to chlorphenesin|
+|allergy v1|ctv3|TJ7..|Adverse reaction to sedatives and hypnotics|
+|allergy v1|ctv3|TJ7z.|Adverse reaction to sedatvies and hypnotics, unspecified|
+|allergy v1|ctv3|TJ7zz|Adverse reaction to sedative or hypnotic NOS|
+|allergy v1|ctv3|TJ7z1|Adverse reaction to sedative NOS|
+|allergy v1|ctv3|TJ7z0|Adverse reaction to sleeping pill NOS|
+|allergy v1|ctv3|TJ7yz|Adverse reaction to other sedatives and hypnotics NOS|
+|allergy v1|ctv3|TJ7y3|Adverse reaction to carbamate|
+|allergy v1|ctv3|TJ7y2|Adverse reaction to avomine|
+|allergy v1|ctv3|TJ7y1|Adverse reaction to promethazine hydrochloride|
+|allergy v1|ctv3|TJ7y0|Adverse reaction to methyprylon|
+|allergy v1|ctv3|TJ7y.|Adverse reaction to other sedatives and hypnotics|
+|allergy v1|ctv3|TJ76.|Adverse reaction to mixed sedatives NEC|
+|allergy v1|ctv3|TJ75.|Adverse reaction to glutethimide group|
+|allergy v1|ctv3|TJ74.|Adverse reaction to methaqualone compound|
+|allergy v1|ctv3|TJ73.|Adverse reaction to bromine compound|
+|allergy v1|ctv3|TJ73z|Adverse reaction to bromine compounds NOS|
+|allergy v1|ctv3|TJ731|Adverse reaction to carbromal derivatives|
+|allergy v1|ctv3|TJ730|Adverse reaction to bromide|
+|allergy v1|ctv3|TJ72.|Adverse reaction to paraldehyde|
+|allergy v1|ctv3|TJ71.|Adverse reaction to chloral hydrate group|
+|allergy v1|ctv3|TJ71z|Adverse reaction to chloral hydrate group NOS|
+|allergy v1|ctv3|TJ713|Adverse reaction to chlormethiazole edisylate|
+|allergy v1|ctv3|TJ712|Adverse reaction to triclofos sodium|
+|allergy v1|ctv3|TJ711|Adverse reaction to dichloralphenazone|
+|allergy v1|ctv3|TJ710|Adverse reaction to chloral hydrate|
+|allergy v1|ctv3|TJ70.|Adverse reaction to barbiturate|
+|allergy v1|ctv3|TJ70z|Adverse reaction to barbiturate NOS|
+|allergy v1|ctv3|TJ705|Adverse reaction to quinalbarbitone|
+|allergy v1|ctv3|TJ704|Adverse reaction to phenobarbitone|
+|allergy v1|ctv3|TJ703|Adverse reaction to pentobarbitone|
+|allergy v1|ctv3|TJ702|Adverse reaction to butobarbitone|
+|allergy v1|ctv3|TJ701|Adverse reaction to barbitone|
+|allergy v1|ctv3|TJ700|Adverse reaction to amylobarbitone|
+|allergy v1|ctv3|TJ8z.|Adverse reaction to central nervous system depressants and anaesthetics NOS|
+|allergy v1|ctv3|X70yO|Adverse reaction to vaccine|
+|allergy v1|ctv3|Xaaiw|Adverse reaction to herpes zoster vaccine|
+|allergy v1|ctv3|Xaait|Adverse reaction to rotavirus vaccine|
+|allergy v1|ctv3|TJz..|Adverse reaction to drug NOS|
+|allergy v1|ctv3|TJKz.|Adverse reaction to vaccine or biological substance NOS|
+|allergy v1|ctv3|TJK6z|Adverse reaction to viral or rickettsial vaccine NOS|
+|allergy v1|ctv3|TJK8.|Adverse reaction to tetanus antitoxin|
+|allergy v1|ctv3|TJK7.|Adverse reaction to mixed viral-rickettsial and bacterial vaccines except combinations with a pertussis component|
+|allergy v1|ctv3|TJK61|Adverse reaction to rubella vaccine|
+|allergy v1|ctv3|TJK60|Adverse reaction to mumps vaccine|
+|allergy v1|ctv3|TJK6.|Adverse reaction to other viral and rickettsial vaccines|
+|allergy v1|ctv3|TJK5.|Adverse reaction to poliomyelitis vaccine|
+|allergy v1|ctv3|TJK4.|Adverse reaction to measles vaccine|
+|allergy v1|ctv3|TJK3.|Adverse reaction to yellow fever vaccine|
+|allergy v1|ctv3|TJK2.|Adverse reaction to typhus vaccine|
+|allergy v1|ctv3|TJK1.|Adverse reaction to rabies vaccine|
+|allergy v1|ctv3|TJK0.|Adverse reaction to smallpox vaccine|
+|allergy v1|ctv3|TJK..|Adverse reaction to other vaccines and biological substances|
+|allergy v1|ctv3|TJJ..|Adverse reaction to bacterial vaccines|
+|allergy v1|ctv3|TJJz.|Adverse reaction to mixed bacterial vaccines, excluding combinations with a pertussis component|
+|allergy v1|ctv3|TJJyz|Adverse reaction to other bacterial vaccine NOS|
+|allergy v1|ctv3|TJJy0|Adverse reaction to meningococcal vaccine|
+|allergy v1|ctv3|TJJy.|Adverse reaction to other bacterial vaccines|
+|allergy v1|ctv3|TJJ6.|Adverse reaction to pertussis vaccine, including combinations with a pertussis component|
+|allergy v1|ctv3|TJJ5.|Adverse reaction to diphtheria vaccine|
+|allergy v1|ctv3|TJJ4.|Adverse reaction to tetanus vaccine|
+|allergy v1|ctv3|TJJ3.|Adverse reaction to plague vaccine|
+|allergy v1|ctv3|TJJ2.|Adverse reaction to cholera vaccine|
+|allergy v1|ctv3|TJJ1.|Adverse reaction to typhoid and paratyphoid vaccines|
+|allergy v1|ctv3|TJJ1z|Adverse reaction to typhoid or paratyphoid vaccine NOS|
+|allergy v1|ctv3|TJJ11|Adverse reaction to paratyphoid vaccine|
+|allergy v1|ctv3|TJJ10|Adverse reaction to typhoid vaccine|
+|allergy v1|ctv3|TJJ0.|Adverse reaction to BCG vaccine|
+|allergy v1|ctv3|X70yM|Adverse reaction to anti-infective substance|
+|allergy v1|ctv3|X70yN|Adverse reaction to antiprotozoal drug|
+|allergy v1|ctv3|TJ15z|Adverse reaction to antiprotozoal drugs NOS|
+|allergy v1|ctv3|TJ153|Adverse reaction to metronidazole|
+|allergy v1|ctv3|TJ152|Adverse reaction to diloxanide furoate|
+|allergy v1|ctv3|TJ151|Adverse reaction to pentamidine isethionate|
+|allergy v1|ctv3|TJ150|Adverse reaction to emetine|
+|allergy v1|ctv3|TJ15.|Adverse reaction to other antiprotozoal drugs|
+|allergy v1|ctv3|TJ14.|Adverse reaction to antimalarials|
+|allergy v1|ctv3|TJ14z|Adverse reaction to antimalarials NOS|
+|allergy v1|ctv3|TJ145|Adverse reaction to cycloguanil|
+|allergy v1|ctv3|TJ144|Adverse reaction to quinine|
+|allergy v1|ctv3|TJ143|Adverse reaction to pyrimethamine|
+|allergy v1|ctv3|TJ142|Adverse reaction to proguanil hydrochloride|
+|allergy v1|ctv3|TJ141|Adverse reaction to primaquine|
+|allergy v1|ctv3|TJ140|Adverse reaction to chloroquine|
+|allergy v1|ctv3|TJ1zz|Adverse reaction to anti-infective NOS|
+|allergy v1|ctv3|TJ1z.|Adverse reaction to other and unspecified anti-infectives|
+|allergy v1|ctv3|TJ17.|Adverse reaction to antiviral drugs|
+|allergy v1|ctv3|TJ17z|Adverse reaction to antiviral drug NOS|
+|allergy v1|ctv3|TJ174|Adverse reaction to zidovudine|
+|allergy v1|ctv3|TJ173|Adverse reaction to vidarabine|
+|allergy v1|ctv3|TJ172|Adverse reaction to tribavirin|
+|allergy v1|ctv3|TJ171|Adverse reaction to inosine pranobex|
+|allergy v1|ctv3|TJ170|Adverse reaction to acyclovir|
+|allergy v1|ctv3|TJ16.|Adverse reaction to antihelminthics|
+|allergy v1|ctv3|TJ16z|Adverse reaction to antihelminthic NOS|
+|allergy v1|ctv3|TJ167|Adverse reaction to male fern oleoresin|
+|allergy v1|ctv3|TJ166|Adverse reaction to hexylresorcinol|
+|allergy v1|ctv3|TJ165|Adverse reaction to thiabenazole|
+|allergy v1|ctv3|TJ164|Adverse reaction to bephenium|
+|allergy v1|ctv3|TJ163|Adverse reaction to niclosamide|
+|allergy v1|ctv3|TJ162|Adverse reaction to pyrantel|
+|allergy v1|ctv3|TJ161|Adverse reaction to piperazine|
+|allergy v1|ctv3|TJ160|Adverse reaction to mebendazole|
+|allergy v1|ctv3|TJ12.|Adverse reaction to heavy metal anti-infectives|
+|allergy v1|ctv3|TJ12z|Adverse reaction to heavy metal anti-infectives NOS|
+|allergy v1|ctv3|TJ123|Adverse reaction to mercury compound|
+|allergy v1|ctv3|TJ122|Adverse reaction to lead compound|
+|allergy v1|ctv3|TJ121|Adverse reaction to bismuth compound|
+|allergy v1|ctv3|TJ120|Adverse reaction to antimony compound|
+|allergy v1|ctv3|TJ11.|Adverse reaction to arsenical anti-infectives|
+|allergy v1|ctv3|TJ1..|Adverse reaction to other anti-infectives|
+|allergy v1|ctv3|TJ07.|Adverse reaction to antineoplastic antibiotics|
+|allergy v1|ctv3|TJ07z|Adverse reaction to antineoplastic antibiotics NOS|
+|allergy v1|ctv3|TJ074|Adverse reaction to plicamycin|
+|allergy v1|ctv3|TJ073|Adverse reaction to mitomycin|
+|allergy v1|ctv3|TJ072|Adverse reaction to doxorubicin hydrochloride|
+|allergy v1|ctv3|TJ071|Adverse reaction to bleomycin|
+|allergy v1|ctv3|TJ070|Adverse reaction to actinomycin D|
+|allergy v1|ctv3|TJ0..|Adverse reaction to antibiotic|
+|allergy v1|ctv3|XM1Fr|Adverse reaction to macrolide group|
+|allergy v1|ctv3|TJ03z|Adverse reaction to macrolide NOS|
+|allergy v1|ctv3|TJ032|Adverse reaction to spiramycin|
+|allergy v1|ctv3|TJ031|Adverse reaction to oleandomycin|
+|allergy v1|ctv3|TJ030|Adverse reaction to erythromycin|
+|allergy v1|ctv3|TJ03.|Adverse reaction to erythromycin and other macrolides|
+|allergy v1|ctv3|TJ1z4|Adverse reaction to flucytosine|
+|allergy v1|ctv3|TJ1z3|Adverse reaction to hexamine|
+|allergy v1|ctv3|TJ1z2|Adverse reaction to nitrofurantoin|
+|allergy v1|ctv3|TJ1z1|Adverse reaction to nalidixic acid|
+|allergy v1|ctv3|TJ1z0|Adverse reaction to ciprofloxacin|
+|allergy v1|ctv3|TJ13.|Adverse reaction to quinolone and hydroxyquinoline derivatives|
+|allergy v1|ctv3|TJ13z|Adverse reaction to quinolone and hydroxyquinoline derivatives NOS|
+|allergy v1|ctv3|TJ131|Adverse reaction to diiodohydroxyquin|
+|allergy v1|ctv3|TJ130|Adverse reaction to chiniofon|
+|allergy v1|ctv3|TJ10.|Adverse reaction to sulphonamides|
+|allergy v1|ctv3|TJ10z|Adverse reaction to sulphonamide NOS|
+|allergy v1|ctv3|TJ105|Adverse reaction to sulphaurea|
+|allergy v1|ctv3|TJ104|Adverse reaction to sulphafurazole|
+|allergy v1|ctv3|TJ103|Adverse reaction to sulphamethoxazole|
+|allergy v1|ctv3|TJ102|Adverse reaction to sulphaguanidine|
+|allergy v1|ctv3|TJ101|Adverse reaction to sulphadimidine|
+|allergy v1|ctv3|TJ100|Adverse reaction to sulphadiazine|
+|allergy v1|ctv3|TJ0z.|Adverse reaction to antibiotic NOS|
+|allergy v1|ctv3|TJ0yz|Adverse reaction to other antibiotics NOS|
+|allergy v1|ctv3|TJ0yD|Adverse reaction to cotrimoxazole|
+|allergy v1|ctv3|TJ0yC|Adverse reaction to trimethoprim|
+|allergy v1|ctv3|TJ0yB|Adverse reaction to vancomycin|
+|allergy v1|ctv3|TJ0yA|Adverse reaction to polymyxin B sulphate|
+|allergy v1|ctv3|TJ0y9|Adverse reaction to sodium fusidate|
+|allergy v1|ctv3|TJ0y8|Adverse reaction to colistin|
+|allergy v1|ctv3|TJ0y7|Adverse reaction to lincomycin|
+|allergy v1|ctv3|TJ0y6|Adverse reaction to clindamycin|
+|allergy v1|ctv3|TJ0y5|Adverse reaction to tobramycin|
+|allergy v1|ctv3|TJ0y4|Adverse reaction to neomycin sulphate|
+|allergy v1|ctv3|TJ0y3|Adverse reaction to kanamycin|
+|allergy v1|ctv3|TJ0y2|Adverse reaction to framycetin sulphate|
+|allergy v1|ctv3|TJ0y1|Adverse reaction to amikacin|
+|allergy v1|ctv3|TJ0y0|Adverse reaction to gentamicin|
+|allergy v1|ctv3|TJ0y.|Adverse reaction to other antibiotics|
+|allergy v1|ctv3|TJ06.|Adverse reaction to antimycobacterial antibiotics|
+|allergy v1|ctv3|TJ18z|Adverse reaction to antimycobacterial drug NOS|
+|allergy v1|ctv3|TJ185|Adverse reaction to clofazimine|
+|allergy v1|ctv3|TJ184|Adverse reaction to dapsone|
+|allergy v1|ctv3|TJ183|Adverse reaction to para-aminosalicylic acid|
+|allergy v1|ctv3|TJ182|Adverse reaction to isoniazid|
+|allergy v1|ctv3|TJ181|Adverse reaction to ethionamide|
+|allergy v1|ctv3|TJ180|Adverse reaction to ethambutol|
+|allergy v1|ctv3|TJ18.|Adverse reaction to other antimycobacterial drugs|
+|allergy v1|ctv3|TJ06z|Adverse reaction to antimycobacterial antibiotic NOS|
+|allergy v1|ctv3|TJ064|Adverse reaction to streptomycin|
+|allergy v1|ctv3|TJ063|Adverse reaction to rifampicin|
+|allergy v1|ctv3|TJ062|Adverse reaction to pyrazinamide|
+|allergy v1|ctv3|TJ061|Adverse reaction to cycloserine|
+|allergy v1|ctv3|TJ060|Adverse reaction to capreomycin|
+|allergy v1|ctv3|TJ05.|Adverse reaction to cephalosporin group|
+|allergy v1|ctv3|TJ05z|Adverse reaction to cephalosporin NOS|
+|allergy v1|ctv3|TJ05B|Adverse reaction to cephradine|
+|allergy v1|ctv3|TJ05A|Adverse reaction to cephazolin|
+|allergy v1|ctv3|TJ059|Adverse reaction to cephamandole|
+|allergy v1|ctv3|TJ058|Adverse reaction to cephalothin|
+|allergy v1|ctv3|TJ057|Adverse reaction to cephalexin|
+|allergy v1|ctv3|TJ056|Adverse reaction to ceftizoxime|
+|allergy v1|ctv3|TJ055|Adverse reaction to ceftazidime|
+|allergy v1|ctv3|TJ054|Adverse reaction to cefsulodin sodium|
+|allergy v1|ctv3|TJ053|Adverse reaction to cefoxitin|
+|allergy v1|ctv3|TJ052|Adverse reaction to cefotaxime|
+|allergy v1|ctv3|TJ051|Adverse reaction to cefadroxil|
+|allergy v1|ctv3|TJ050|Adverse reaction to cefaclor|
+|allergy v1|ctv3|TJ04.|Adverse reaction to tetracycline group|
+|allergy v1|ctv3|TJ04z|Adverse reaction to tetracycline NOS|
+|allergy v1|ctv3|TJ047|Adverse reaction to oxytetracycline|
+|allergy v1|ctv3|TJ046|Adverse reaction to minocycline|
+|allergy v1|ctv3|TJ045|Adverse reaction to lymecycline|
+|allergy v1|ctv3|TJ044|Adverse reaction to doxycycline|
+|allergy v1|ctv3|TJ043|Adverse reaction to demeclocycline hydrochloride|
+|allergy v1|ctv3|TJ042|Adverse reaction to clomocycline sodium|
+|allergy v1|ctv3|TJ041|Adverse reaction to chlortetracycline hydrochloride|
+|allergy v1|ctv3|TJ040|Adverse reaction to tetracycline|
+|allergy v1|ctv3|TJ02.|Adverse reaction to chloramphenicol group|
+|allergy v1|ctv3|TJ02z|Adverse reaction to chloramphenicol group NOS|
+|allergy v1|ctv3|TJ021|Adverse reaction to thiamphenicol|
+|allergy v1|ctv3|TJ020|Adverse reaction to chloramphenicol|
+|allergy v1|ctv3|TJ01.|Adverse reaction to antifungal antibiotics|
+|allergy v1|ctv3|TJ01z|Adverse reaction to antifungal antibiotics NOS|
+|allergy v1|ctv3|TJ015|Adverse reaction to nystatin|
+|allergy v1|ctv3|TJ014|Adverse reaction to natamycin|
+|allergy v1|ctv3|TJ013|Adverse reaction to miconazole|
+|allergy v1|ctv3|TJ012|Adverse reaction to ketoconazole|
+|allergy v1|ctv3|TJ011|Adverse reaction to griseofulvin|
+|allergy v1|ctv3|TJ010|Adverse reaction to amphotericin|
+|allergy v1|ctv3|TJ00.|Adverse reaction to penicillins|
+|allergy v1|ctv3|TJ00z|Adverse reaction to penicillin NOS|
+|allergy v1|ctv3|TJ00G|Adverse reaction to pivmecillinam|
+|allergy v1|ctv3|TJ00F|Adverse reaction to mecillinam|
+|allergy v1|ctv3|TJ00E|Adverse reaction to ticarcillin|
+|allergy v1|ctv3|TJ00D|Adverse reaction to piperacillin|
+|allergy v1|ctv3|TJ00C|Adverse reaction to carfecillin sodium|
+|allergy v1|ctv3|TJ00B|Adverse reaction to carbenicillin|
+|allergy v1|ctv3|TJ00A|Adverse reaction to azlocillin|
+|allergy v1|ctv3|TJ009|Adverse reaction to talampicillin|
+|allergy v1|ctv3|TJ008|Adverse reaction to pivampicillin|
+|allergy v1|ctv3|TJ007|Adverse reaction to mezlocillin|
+|allergy v1|ctv3|TJ006|Adverse reaction to ciclacillin|
+|allergy v1|ctv3|TJ005|Adverse reaction to bacampicillin|
+|allergy v1|ctv3|TJ004|Adverse reaction to ampicillin|
+|allergy v1|ctv3|TJ003|Adverse reaction to amoxycillin|
+|allergy v1|ctv3|TJ002|Adverse reaction to flucloxacillin|
+|allergy v1|ctv3|TJ001|Adverse reaction to cloxacillin|
+|allergy v1|ctv3|TJ000|Adverse reaction to natural penicillins|
+|allergy v1|ctv3|TJHz.|Adverse reaction to drug or medicinal substance NOS|
+|allergy v1|ctv3|TJHyz|Adverse reaction to other drug or medicine NOS|
+|allergy v1|ctv3|TJHyy|Adverse reaction to diagnostic agents and kits NOS|
+|allergy v1|ctv3|TJHyx|Adverse reaction to contrast media used for diagnostic X-rays NOS|
+|allergy v1|ctv3|TJHy2|Adverse reaction to nicotine|
+|allergy v1|ctv3|TJHy1|Adverse reaction to tamoxifen|
+|allergy v1|ctv3|TJHy0|Adverse reaction to clomiphene|
+|allergy v1|ctv3|TJH4.|Adverse reaction to pharmaceutical excipients|
+|allergy v1|ctv3|TJH3.|Adverse reaction to alcohol deterrents|
+|allergy v1|ctv3|TJH2.|Adverse reaction to antidotes and chelating agents NEC|
+|allergy v1|ctv3|TJH1.|Adverse reaction to lipotropic drugs|
+|allergy v1|ctv3|TJH0.|Adverse reaction to dietetics|
+|allergy v1|ctv3|TJH..|Adverse reaction to other drugs and medicines|
+|allergy v1|ctv3|TJG00|Adverse reaction to neomycin|
+|allergy v1|ctv3|TJG..|Adverse reaction to drugs primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological and dental drugs|
+|allergy v1|ctv3|Xa9Dd|Adverse reaction to eye drugs|
+|allergy v1|ctv3|TJG5z|Adverse reaction to eye drugs NOS|
+|allergy v1|ctv3|TJG50|Adverse reaction to idoxuridine|
+|allergy v1|ctv3|TJG5.|Adverse reaction to eye anti-infectives and other eye drugs|
+|allergy v1|ctv3|TJGz.|Adverse reaction to skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs NOS|
+|allergy v1|ctv3|TJGy.|Adverse reaction to other skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs|
+|allergy v1|ctv3|TJG7.|Adverse reaction to dental drugs topically applied|
+|allergy v1|ctv3|TJG6.|Adverse reaction to anti-infective and other drugs and preparations for ear, nose and throat|
+|allergy v1|ctv3|TJG4.|Adverse reaction to keratolytics, keratoplastics and other hair treatment drugs and preparations|
+|allergy v1|ctv3|TJG3.|Adverse reaction to emollients, demulcents and protectants|
+|allergy v1|ctv3|TJG2.|Adverse reaction to local astringents and local detergents|
+|allergy v1|ctv3|TJG1.|Adverse reaction to antipruritics|
+|allergy v1|ctv3|TJG0.|Adverse reaction to local anti-infectives and anti-inflammatory drugs|
+|allergy v1|ctv3|XE22G|Local adverse reaction to neomycin|
+|allergy v1|ctv3|TJG0z|Adverse reaction to local anti-infective or anti-inflammatory drug NOS|
+|allergy v1|ctv3|TJF..|Adverse reaction to drugs primarily acting on the smooth and skeletal muscles and respiratory system|
+|allergy v1|ctv3|TJFz.|Adverse reaction to drugs primarily acting on the smooth or skeletal muscles or respiratory system|
+|allergy v1|ctv3|TJFy.|Adverse reaction to other respiratory system drugs|
+|allergy v1|ctv3|TJF7.|Adverse reaction to antiasthmatics|
+|allergy v1|ctv3|TJF7z|Adverse reaction to antiasthmatic NOS|
+|allergy v1|ctv3|TJF75|Adverse reaction to oxitropium|
+|allergy v1|ctv3|TJF74|Adverse reaction to sodium cromoglycate|
+|allergy v1|ctv3|TJF73|Adverse reaction to theophylline - asthma|
+|allergy v1|ctv3|TJF72|Adverse reaction to aminophylline|
+|allergy v1|ctv3|TJF71|Adverse reaction to ipratropium bromide|
+|allergy v1|ctv3|TJF70|Adverse reaction to salbutamol|
+|allergy v1|ctv3|TJF6.|Adverse reaction to anti-common cold drugs|
+|allergy v1|ctv3|TJF5.|Adverse reaction to expectorants|
+|allergy v1|ctv3|TJF5z|Adverse reaction to expectorants NOS|
+|allergy v1|ctv3|TJF51|Adverse reaction to ipecacuanha|
+|allergy v1|ctv3|TJF50|Adverse reaction to acetylcysteine|
+|allergy v1|ctv3|TJF4.|Adverse reaction to antitussives|
+|allergy v1|ctv3|TJF4z|Adverse reaction to antitussive NOS|
+|allergy v1|ctv3|TJF41|Adverse reaction to pipazethate hydrochloride|
+|allergy v1|ctv3|TJF40|Adverse reaction to dextromethorphan|
+|allergy v1|ctv3|TJF3.|Adverse reaction to other muscle drugs|
+|allergy v1|ctv3|TJF2.|Adverse reaction to skeletal muscle relaxants|
+|allergy v1|ctv3|TJF2z|Adverse reaction to skeletal muscle relaxant NOS|
+|allergy v1|ctv3|TJF24|Adverse reaction to suxamethonium|
+|allergy v1|ctv3|TJF22|Adverse reaction to tubocurarine|
+|allergy v1|ctv3|TJF21|Adverse reaction to gallamine triethiodide|
+|allergy v1|ctv3|TJF20|Adverse reaction to alcuronium|
+|allergy v1|ctv3|TJF1.|Adverse reaction to smooth muscle relaxants|
+|allergy v1|ctv3|TJF1z|Adverse reaction to smooth muscle relaxant NOS|
+|allergy v1|ctv3|TJF12|Adverse reaction to mebeverine|
+|allergy v1|ctv3|TJF11|Adverse reaction to orciprenaline|
+|allergy v1|ctv3|TJF10|Adverse reaction to adiphenine|
+|allergy v1|ctv3|TJF0.|Adverse reaction to oxytocic agents|
+|allergy v1|ctv3|TJF0z|Adverse reaction to oxytocic agent NOS|
+|allergy v1|ctv3|TJF02|Adverse reaction to oxytocin|
+|allergy v1|ctv3|TJF01|Adverse reaction to ergometrine|
+|allergy v1|ctv3|TJF00|Adverse reaction to prostaglandins|
+|allergy v1|ctv3|TJE73|Adverse reaction to sulphinpyrazone|
+|allergy v1|ctv3|TJE..|Adverse reaction to water, mineral and uric acid metabolism drugs|
+|allergy v1|ctv3|TJE7.|Adverse reaction to uric acid metabolism drugs|
+|allergy v1|ctv3|TJEz.|Adverse reaction to water, mineral or uric acid metabolism drug NOS|
+|allergy v1|ctv3|TJE7z|Adverse reaction to uric acid metabolism drug NOS|
+|allergy v1|ctv3|TJE72|Adverse reaction to probenecid|
+|allergy v1|ctv3|TJE71|Adverse reaction to allopurinol|
+|allergy v1|ctv3|TJE70|Adverse reaction to colchicine|
+|allergy v1|ctv3|TJE6.|Adverse reaction to other mineral salts NEC|
+|allergy v1|ctv3|TJE5.|Adverse reaction to electrolytic, caloric and water balance drugs|
+|allergy v1|ctv3|TJE4z|Adverse reaction to diuretic NOS|
+|allergy v1|ctv3|TJE46|Adverse reaction to mannitol|
+|allergy v1|ctv3|TJE45|Adverse reaction to triamterene|
+|allergy v1|ctv3|TJE44|Adverse reaction to spironolactone|
+|allergy v1|ctv3|TJE43|Adverse reaction to amiloride|
+|allergy v1|ctv3|TJE42|Adverse reaction to ethacrynic acid|
+|allergy v1|ctv3|TJE41|Adverse reaction to frusemide|
+|allergy v1|ctv3|TJE40|Adverse reaction to chlorthalidone|
+|allergy v1|ctv3|TJE4.|Adverse reaction to other diuretics|
+|allergy v1|ctv3|TJE3.|Adverse reaction to thiazides|
+|allergy v1|ctv3|TJE3z|Adverse reaction to thiazide NOS|
+|allergy v1|ctv3|TJE36|Adverse reaction to polythiazide|
+|allergy v1|ctv3|TJE35|Adverse reaction to methyclothiazide|
+|allergy v1|ctv3|TJE34|Adverse reaction to hydroflumethiazide|
+|allergy v1|ctv3|TJE33|Adverse reaction to hydrochlorothiazide|
+|allergy v1|ctv3|TJE32|Adverse reaction to cyclopenthiazide|
+|allergy v1|ctv3|TJE31|Adverse reaction to chlorothiazide|
+|allergy v1|ctv3|TJE30|Adverse reaction to bendroflumethiazide|
+|allergy v1|ctv3|TJE2.|Adverse reaction to carbonic acid anhydrase inhibitor|
+|allergy v1|ctv3|TJE2z|Adverse reaction to carbonic acid anhydrase inhibitor NOS|
+|allergy v1|ctv3|TJE21|Adverse reaction to dichlorphenamide|
+|allergy v1|ctv3|TJE20|Adverse reaction to acetazolamide|
+|allergy v1|ctv3|TJE1.|Adverse reaction to purine derivative diuretic|
+|allergy v1|ctv3|TJE1z|Adverse reaction to purine derivative diuretic NOS|
+|allergy v1|ctv3|TJE11|Adverse reaction to theophylline (diuretic)|
+|allergy v1|ctv3|TJE10|Adverse reaction to theobromine|
+|allergy v1|ctv3|TJE0.|Adverse reaction to mercurial diuretic|
+|allergy v1|ctv3|TJE0z|Adverse reaction to mercurial diuretics NOS|
+|allergy v1|ctv3|TJE03|Adverse reaction to mercurophylline|
+|allergy v1|ctv3|TJE02|Adverse reaction to mercaptomerin|
+|allergy v1|ctv3|TJE01|Adverse reaction to chlormerodrin|
+|allergy v1|ctv3|TJE00|Adverse reaction to mersalyl|
+|allergy v1|ctv3|TJD6z|Adverse reaction to emetics NOS|
+|allergy v1|ctv3|TJD..|Adverse reaction to drugs primarily affecting gastrointestinal system|
+|allergy v1|ctv3|TJDz.|Adverse reaction to drugs primarily affecting the gastrointestinal system NOS|
+|allergy v1|ctv3|TJDy.|Adverse reaction to other drugs primarily affecting the gastrointestinal system|
+|allergy v1|ctv3|TJD6.|Adverse reaction to emetic|
+|allergy v1|ctv3|TJD5.|Adverse reaction to antidiarrhoeal drug|
+|allergy v1|ctv3|TJD5z|Adverse reaction to antidiarrhoeal drugs NOS|
+|allergy v1|ctv3|TJD53|Adverse reaction to pectin|
+|allergy v1|ctv3|TJD52|Adverse reaction to loperamide|
+|allergy v1|ctv3|TJD51|Adverse reaction to diphenoxylate|
+|allergy v1|ctv3|TJD50|Adverse reaction to kaolin|
+|allergy v1|ctv3|TJD4.|Adverse reaction to digestant|
+|allergy v1|ctv3|TJD4z|Adverse reaction to digestants NOS|
+|allergy v1|ctv3|TJD42|Adverse reaction to pepsin|
+|allergy v1|ctv3|TJD41|Adverse reaction to papain|
+|allergy v1|ctv3|TJD40|Adverse reaction to pancreatin|
+|allergy v1|ctv3|TJD3z|Adverse reaction to other cathartics including intestinal atonia drugs NOS|
+|allergy v1|ctv3|TJD31|Adverse reaction to lactulose|
+|allergy v1|ctv3|TJD30|Adverse reaction to magnesium sulphate|
+|allergy v1|ctv3|TJD3.|Adverse reaction to other cathartics, including intestinal atonia drugs|
+|allergy v1|ctv3|TJD2.|Adverse reaction to emollient cathartic|
+|allergy v1|ctv3|TJD2z|Adverse reaction to emollient cathartic NOS|
+|allergy v1|ctv3|TJD20|Adverse reaction to dioctyl sodium sulphosuccinate|
+|allergy v1|ctv3|TJD1.|Adverse reaction to irritant cathartic|
+|allergy v1|ctv3|TJD1z|Adverse reaction to irritant cathartics NOS|
+|allergy v1|ctv3|TJD17|Adverse reaction to phenolphthalein|
+|allergy v1|ctv3|TJD16|Adverse reaction to senna|
+|allergy v1|ctv3|TJD15|Adverse reaction to glycerol|
+|allergy v1|ctv3|TJD14|Adverse reaction to fig|
+|allergy v1|ctv3|TJD13|Adverse reaction to danthron|
+|allergy v1|ctv3|TJD12|Adverse reaction to castor oil|
+|allergy v1|ctv3|TJD11|Adverse reaction to cascara|
+|allergy v1|ctv3|TJD10|Adverse reaction to bisacodyl|
+|allergy v1|ctv3|TJD0.|Adverse reaction to antacids and antigastric secretion drugs|
+|allergy v1|ctv3|TJD0z|Adverse reaction to antacids and antigastric secretion drugs NOS|
+|allergy v1|ctv3|TJD08|Adverse reaction to proton pump inhibitors|
+|allergy v1|ctv3|TJD07|Adverse reaction to H2 blockers|
+|allergy v1|ctv3|TJD06|Adverse reaction to sodium bicarbonate|
+|allergy v1|ctv3|TJD05|Adverse reaction to magaldrate|
+|allergy v1|ctv3|TJD04|Adverse reaction to hydrotalcite|
+|allergy v1|ctv3|TJD03|Adverse reaction to magnesium trisilicate|
+|allergy v1|ctv3|TJD02|Adverse reaction to magnesium carbonate|
+|allergy v1|ctv3|TJD01|Adverse reaction to alexitol sodium|
+|allergy v1|ctv3|TJD00|Adverse reaction to aluminium hydroxide|
+|allergy v1|ctv3|TJCz.|Adverse reaction to drug primarily affecting the cardiovascular system NOS|
+|allergy v1|ctv3|TJC9.|Adverse reaction to capillary-active drug|
+|allergy v1|ctv3|TJC9z|Adverse reaction to capillary-active drugs NOS|
+|allergy v1|ctv3|TJC91|Adverse reaction to adrenochrome derivative|
+|allergy v1|ctv3|TJC90|Adverse reaction to metaraminol|
+|allergy v1|ctv3|TJC8.|Adverse reaction to antivaricose drug|
+|allergy v1|ctv3|TJC8z|Adverse reaction to antivaricose drugs NOS|
+|allergy v1|ctv3|TJC81|Adverse reaction to zinc salt|
+|allergy v1|ctv3|TJC80|Adverse reaction to ethanolamine oleate|
+|allergy v1|ctv3|TJC6.|Adverse reaction to beta-blockers|
+|allergy v1|ctv3|TJC6z|Adverse reaction to beta-blockers NOS|
+|allergy v1|ctv3|TJC68|Adverse reaction to timolol|
+|allergy v1|ctv3|TJC67|Adverse reaction to sotalol|
+|allergy v1|ctv3|TJC66|Adverse reaction to oxprenolol|
+|allergy v1|ctv3|TJC65|Adverse reaction to nadolol|
+|allergy v1|ctv3|TJC64|Adverse reaction to metoprolol|
+|allergy v1|ctv3|TJC63|Adverse reaction to labetalol|
+|allergy v1|ctv3|TJC62|Adverse reaction to atenolol|
+|allergy v1|ctv3|TJC61|Adverse reaction to acebutolol|
+|allergy v1|ctv3|TJC..|Adverse reaction to drugs primarily affecting the cardiovascular system|
+|allergy v1|ctv3|Xa9Dc|Adverse reaction to vasodilator|
+|allergy v1|ctv3|TJC5z|Adverse reaction to vasodilators NOS|
+|allergy v1|ctv3|TJC54|Adverse reaction to papaverine|
+|allergy v1|ctv3|TJC53|Adverse reaction to hydralazine|
+|allergy v1|ctv3|TJC52|Adverse reaction to diazoxide|
+|allergy v1|ctv3|TJC51|Adverse reaction to isoxsuprine|
+|allergy v1|ctv3|TJC50|Adverse reaction to cyclandelate|
+|allergy v1|ctv3|TJC5.|Adverse reaction to other vasodilators|
+|allergy v1|ctv3|TJC4.|Adverse reaction to coronary vasodilator|
+|allergy v1|ctv3|TJC4z|Adverse reaction to coronary vasodilators NOS|
+|allergy v1|ctv3|TJC47|Adverse reaction to verapamil|
+|allergy v1|ctv3|TJC46|Adverse reaction to nifedipine|
+|allergy v1|ctv3|TJC45|Adverse reaction to prenylamine|
+|allergy v1|ctv3|TJC44|Adverse reaction to dipyridamole|
+|allergy v1|ctv3|TJC43|Adverse reaction to pentaerythritol tetranitrate|
+|allergy v1|ctv3|TJC42|Adverse reaction to isosorbide mononitrate|
+|allergy v1|ctv3|TJC41|Adverse reaction to isosorbide dinitrate|
+|allergy v1|ctv3|TJC40|Adverse reaction to glyceryl trinitrate|
+|allergy v1|ctv3|TJC7z|Adverse reaction to antihypertensives NOS|
+|allergy v1|ctv3|TJC79|Adverse reaction to ramipril|
+|allergy v1|ctv3|TJC78|Adverse reaction to enalapril|
+|allergy v1|ctv3|TJC77|Adverse reaction to captopril|
+|allergy v1|ctv3|TJC76|Adverse reaction to prazosin|
+|allergy v1|ctv3|TJC75|Adverse reaction to guanethidine|
+|allergy v1|ctv3|TJC74|Adverse reaction to debrisoquine|
+|allergy v1|ctv3|TJC73|Adverse reaction to bethanidine|
+|allergy v1|ctv3|TJC72|Adverse reaction to reserpine|
+|allergy v1|ctv3|TJC71|Adverse reaction to methyldopa|
+|allergy v1|ctv3|TJC70|Adverse reaction to clonidine|
+|allergy v1|ctv3|TJC7.|Adverse reaction to other antihypertensives|
+|allergy v1|ctv3|TJC3.|Adverse reaction to ganglion blocking drug|
+|allergy v1|ctv3|TJC3z|Adverse reaction to ganglion blockers NOS|
+|allergy v1|ctv3|TJC31|Adverse reaction to trimetaphan camsylate|
+|allergy v1|ctv3|TJC30|Adverse reaction to pentamethonium bromide|
+|allergy v1|ctv3|TJC2.|Adverse reaction to antilipaemic and anti-arteriosclerotic drugs|
+|allergy v1|ctv3|XaIro|Adverse reaction to statins|
+|allergy v1|ctv3|TJC2z|Adverse reaction to antilipaemic and antiarteriosclerotic drugs NOS|
+|allergy v1|ctv3|TJC25|Adverse reaction to pravastatin|
+|allergy v1|ctv3|TJC24|Adverse reaction to simvastatin|
+|allergy v1|ctv3|TJC23|Adverse reaction to nicotinic acid derivative|
+|allergy v1|ctv3|TJC22|Adverse reaction to bezafibrate|
+|allergy v1|ctv3|TJC21|Adverse reaction to clofibrate|
+|allergy v1|ctv3|TJC20|Adverse reaction to cholestyramine|
+|allergy v1|ctv3|TJC1.|Adverse reaction to cardiac glycoside|
+|allergy v1|ctv3|TJC1z|Adverse reaction to cardiac glycosides NOS|
+|allergy v1|ctv3|TJC12|Adverse reaction to lanatoside C|
+|allergy v1|ctv3|TJC11|Adverse reaction to digitoxin|
+|allergy v1|ctv3|TJC10|Adverse reaction to digoxin|
+|allergy v1|ctv3|TJC0.|Adverse reaction to cardiac rhythm regulator|
+|allergy v1|ctv3|TJC0z|Adverse reaction to cardiac rhythm regulator NOS|
+|allergy v1|ctv3|TJC03|Adverse reaction to quinidine|
+|allergy v1|ctv3|TJC02|Adverse reaction to propranolol|
+|allergy v1|ctv3|TJC01|Adverse reaction to procainamide|
+|allergy v1|ctv3|TJC00|Adverse reaction to practolol|
+|allergy v1|ctv3|TJB..|Adverse reaction to drugs primarily affecting autonomic nervous system|
+|allergy v1|ctv3|TJBz.|Adverse reaction to drug primarily affecting the autonomic nervous system NOS|
+|allergy v1|ctv3|TJB3.|Adverse reaction to sympatholytic|
+|allergy v1|ctv3|TJB3z|Adverse reaction to sympatholytic NOS|
+|allergy v1|ctv3|TJB32|Adverse reaction to tolazoline|
+|allergy v1|ctv3|TJB31|Adverse reaction to phentolamine mesylate|
+|allergy v1|ctv3|TJB30|Adverse reaction to phenoxybenzamine|
+|allergy v1|ctv3|TJB2.|Adverse reaction to sympathomimetic|
+|allergy v1|ctv3|TJB2z|Adverse reaction to sympathomimetic NOS|
+|allergy v1|ctv3|TJB23|Adverse reaction to isoprenaline sulphate|
+|allergy v1|ctv3|TJB22|Adverse reaction to ephedrine|
+|allergy v1|ctv3|TJB21|Adverse reaction to noradrenaline|
+|allergy v1|ctv3|TJB20|Adverse reaction to adrenaline, epinephrine|
+|allergy v1|ctv3|TJB1.|Adverse reaction to parasympatholytic and spasmolytic|
+|allergy v1|ctv3|TJB1z|Adverse reaction to parasympatholytic or spasmolytic NOS|
+|allergy v1|ctv3|TJB14|Adverse reaction to methixene|
+|allergy v1|ctv3|TJB13|Adverse reaction to benztropine|
+|allergy v1|ctv3|TJB12|Adverse reaction to hyoscine|
+|allergy v1|ctv3|TJB11|Adverse reaction to homatropine|
+|allergy v1|ctv3|TJB10|Adverse reaction to atropine|
+|allergy v1|ctv3|TJB0.|Adverse reaction to parasympathomimetic|
+|allergy v1|ctv3|TJB0z|Adverse reaction to parasympathomimetics NOS|
+|allergy v1|ctv3|TJB06|Adverse reaction to pilocarpine|
+|allergy v1|ctv3|TJB05|Adverse reaction to anticholinesterase|
+|allergy v1|ctv3|TJB04|Adverse reaction to acetylcholine|
+|allergy v1|ctv3|TJB03|Adverse reaction to pyridostigmine bromide|
+|allergy v1|ctv3|TJB02|Adverse reaction to neostigmine|
+|allergy v1|ctv3|TJB01|Adverse reaction to edrophonium chloride|
+|allergy v1|ctv3|TJB00|Adverse reaction to distigmine bromide|
+|allergy v1|ctv3|TJA..|Adverse reaction to central nervous system stimulant|
+|allergy v1|ctv3|TJAz.|Adverse reaction to central nervous system stimulants NOS|
+|allergy v1|ctv3|TJAy.|Adverse reaction to other central nervous system stimulants|
+|allergy v1|ctv3|TJA1.|Adverse reaction to opiate antagonist|
+|allergy v1|ctv3|TJA1z|Adverse reaction to opiate antagonists NOS|
+|allergy v1|ctv3|TJA12|Adverse reaction to naloxone|
+|allergy v1|ctv3|TJA11|Adverse reaction to nalorphine|
+|allergy v1|ctv3|TJA10|Adverse reaction to levallorphan|
+|allergy v1|ctv3|TJA0.|Adverse reaction to analeptic|
+|allergy v1|ctv3|TJA0z|Adverse reaction to analeptics NOS|
+|allergy v1|ctv3|TJA03|Adverse reaction to ethamivan|
+|allergy v1|ctv3|TJA02|Adverse reaction to doxapram|
+|allergy v1|ctv3|TJA01|Adverse reaction to lobeline|
+|allergy v1|ctv3|TJA00|Adverse reaction to nikethamide|
+|allergy v1|ctv3|TJ9..|Adverse reaction to psychotropic agent|
+|allergy v1|ctv3|TJ9z.|Adverse reaction to psychotropic agent NOS|
+|allergy v1|ctv3|TJ9y.|Adverse reaction to other psychotropic agent|
+|allergy v1|ctv3|TJ97.|Adverse reaction to psychostimulant|
+|allergy v1|ctv3|TJ97z|Adverse reaction to psychostimulant NOS|
+|allergy v1|ctv3|TJ972|Adverse reaction to dexamphetamine|
+|allergy v1|ctv3|TJ971|Adverse reaction to pemoline|
+|allergy v1|ctv3|TJ970|Adverse reaction to caffeine|
+|allergy v1|ctv3|TJ96.|Adverse reaction to hallucinogen|
+|allergy v1|ctv3|TJ96z|Adverse reaction to hallucinogen NOS|
+|allergy v1|ctv3|TJ965|Adverse reaction to psilocybin|
+|allergy v1|ctv3|TJ964|Adverse reaction to psilocin|
+|allergy v1|ctv3|TJ963|Adverse reaction to mescaline|
+|allergy v1|ctv3|TJ961|Adverse reaction to lysergide|
+|allergy v1|ctv3|TJ960|Adverse reaction to marihuana|
+|allergy v1|ctv3|TJ95z|Adverse reaction to tranquillisers NOS|
+|allergy v1|ctv3|TJ953|Adverse reaction to tetrabenazine|
+|allergy v1|ctv3|TJ952|Adverse reaction to chlormezanone|
+|allergy v1|ctv3|TJ951|Adverse reaction to meprobamate|
+|allergy v1|ctv3|TJ950|Adverse reaction to hydroxyzine|
+|allergy v1|ctv3|TJ95.|Adverse reaction to other tranquillisers|
+|allergy v1|ctv3|TJ94.|Adverse reaction to benzodiazepine-based tranquilliser|
+|allergy v1|ctv3|TJ94z|Adverse reaction to benzodiazepine-based tranquilliser NOS|
+|allergy v1|ctv3|TJ94C|Adverse reaction to clonazepam|
+|allergy v1|ctv3|TJ94B|Adverse reaction to oxazepam|
+|allergy v1|ctv3|TJ94A|Adverse reaction to medazepam|
+|allergy v1|ctv3|TJ949|Adverse reaction to lorazepam|
+|allergy v1|ctv3|TJ948|Adverse reaction to ketazolam|
+|allergy v1|ctv3|TJ947|Adverse reaction to clorazepate dipotassium|
+|allergy v1|ctv3|TJ946|Adverse reaction to clobazam|
+|allergy v1|ctv3|TJ945|Adverse reaction to chlordiazepoxide|
+|allergy v1|ctv3|TJ944|Adverse reaction to diazepam|
+|allergy v1|ctv3|TJ943|Adverse reaction to triazolam|
+|allergy v1|ctv3|TJ942|Adverse reaction to temazepam|
+|allergy v1|ctv3|TJ941|Adverse reaction to flurazepam|
+|allergy v1|ctv3|TJ940|Adverse reaction to nitrazepam|
+|allergy v1|ctv3|TJ93.|Adverse reaction to other major tranquilliser|
+|allergy v1|ctv3|TJ92.|Adverse reaction to butyrophenone-based tranquilliser|
+|allergy v1|ctv3|TJ92z|Adverse reaction to butyrophenone-based tranquillisers NOS|
+|allergy v1|ctv3|TJ922|Adverse reaction to trifluperidol|
+|allergy v1|ctv3|TJ921|Adverse reaction to spiperone|
+|allergy v1|ctv3|TJ920|Adverse reaction to haloperidol|
+|allergy v1|ctv3|TJ91.|Adverse reaction to phenothiazine-based tranquilliser|
+|allergy v1|ctv3|TJ91z|Adverse reaction to phenothiazine-based tranquillisers NOS|
+|allergy v1|ctv3|TJ916|Adverse reaction to thioridazine|
+|allergy v1|ctv3|TJ915|Adverse reaction to promazine|
+|allergy v1|ctv3|TJ914|Adverse reaction to prochlorperazine|
+|allergy v1|ctv3|TJ913|Adverse reaction to perphenazine|
+|allergy v1|ctv3|TJ912|Adverse reaction to pericyazine|
+|allergy v1|ctv3|TJ911|Adverse reaction to fluphenazine|
+|allergy v1|ctv3|TJ910|Adverse reaction to chlorpromazine|
+|allergy v1|ctv3|TJ90.|Adverse reaction to antidepressant|
+|allergy v1|ctv3|TJ90z|Adverse reaction to antidepressants NOS|
+|allergy v1|ctv3|TJ90J|Adverse reaction to oxypertine|
+|allergy v1|ctv3|TJ90H|Adverse reaction to tryptophan|
+|allergy v1|ctv3|TJ90G|Adverse reaction to flupenthixol|
+|allergy v1|ctv3|TJ90F|Adverse reaction to tranylcypromine|
+|allergy v1|ctv3|TJ90E|Adverse reaction to isocarboxazid|
+|allergy v1|ctv3|TJ90D|Adverse reaction to phenelzine|
+|allergy v1|ctv3|TJ90C|Adverse reaction to mianserin|
+|allergy v1|ctv3|TJ90B|Adverse reaction to maprotiline|
+|allergy v1|ctv3|TJ90A|Adverse reaction to trimipramine|
+|allergy v1|ctv3|TJ909|Adverse reaction to protriptyline|
+|allergy v1|ctv3|TJ908|Adverse reaction to nortriptyline|
+|allergy v1|ctv3|TJ907|Adverse reaction to lofepramine|
+|allergy v1|ctv3|TJ906|Adverse reaction to imipramine|
+|allergy v1|ctv3|TJ905|Adverse reaction to doxepin|
+|allergy v1|ctv3|TJ904|Adverse reaction to dothiepin|
+|allergy v1|ctv3|TJ903|Adverse reaction to desipramine|
+|allergy v1|ctv3|TJ902|Adverse reaction to clomipramine|
+|allergy v1|ctv3|TJ901|Adverse reaction to butriptyline|
+|allergy v1|ctv3|TJ900|Adverse reaction to amitriptyline|
+|allergy v1|ctv3|TJ8..|Adverse reaction to other central nervous system depressants and anaesthetics|
+|allergy v1|ctv3|TJ6..|Adverse reaction to anticonvulsants and anti-parkinsonism drugs|
+|allergy v1|ctv3|TJ6z.|Adverse reaction to anticonvulsant and antiparkinsonism drugs NOS|
+|allergy v1|ctv3|TJ64.|Adverse reaction to antiparkinsonism drug|
+|allergy v1|ctv3|TJ64z|Adverse reaction to antiparkinsonism drugs NOS|
+|allergy v1|ctv3|TJ645|Adverse reaction to biperiden|
+|allergy v1|ctv3|TJ644|Adverse reaction to orphenadrine|
+|allergy v1|ctv3|TJ643|Adverse reaction to selegiline|
+|allergy v1|ctv3|TJ642|Adverse reaction to benzhexol|
+|allergy v1|ctv3|TJ641|Adverse reaction to levodopa, L-dopa|
+|allergy v1|ctv3|TJ640|Adverse reaction to amantadine|
+|allergy v1|ctv3|TJ633|Adverse reaction to sodium valproate|
+|allergy v1|ctv3|TJ632|Adverse reaction to carbamazepine|
+|allergy v1|ctv3|TJ631|Adverse reaction to primidone|
+|allergy v1|ctv3|TJ630|Adverse reaction to beclamide|
+|allergy v1|ctv3|TJ63.|Adverse reaction to other anticonvulsant|
+|allergy v1|ctv3|TJ63z|Adverse reaction to anticonvulsants NOS|
+|allergy v1|ctv3|TJ62.|Adverse reaction to succinimide|
+|allergy v1|ctv3|TJ62z|Adverse reaction to succinimides NOS|
+|allergy v1|ctv3|TJ621|Adverse reaction to phensuximide|
+|allergy v1|ctv3|TJ620|Adverse reaction to ethosuximide|
+|allergy v1|ctv3|TJ61.|Adverse reaction to hydantoin derivative|
+|allergy v1|ctv3|TJ61z|Adverse reaction to hydantoin derivatives NOS|
+|allergy v1|ctv3|TJ610|Adverse reaction to phenytoin|
+|allergy v1|ctv3|TJ60.|Adverse reaction to oxazolidine derivative|
+|allergy v1|ctv3|TJ60z|Adverse reaction to oxazolidine derivatives NOS|
+|allergy v1|ctv3|TJ601|Adverse reaction to trimethadione|
+|allergy v1|ctv3|TJ600|Adverse reaction to paramethadione|
+|allergy v1|ctv3|TJ4..|Adverse reaction to agents primarily affecting blood constituents|
+|allergy v1|ctv3|TJ4z.|Adverse reaction to agent affecting blood constituents NOS|
+|allergy v1|ctv3|TJ4y0|Adverse reaction to macromolecular blood substitutes|
+|allergy v1|ctv3|TJ4y.|Adverse reaction to other agent affecting blood constituents|
+|allergy v1|ctv3|TJ4yz|Adverse reaction to other agent affecting blood constituents NOS|
+|allergy v1|ctv3|TJ47.|Adverse reaction to natural blood and blood products|
+|allergy v1|ctv3|TJ47z|Adverse reaction to blood or blood products NOS|
+|allergy v1|ctv3|TJ473|Adverse reaction to whole blood|
+|allergy v1|ctv3|TJ472|Adverse reaction to packed red cells|
+|allergy v1|ctv3|TJ471|Adverse reaction to human fibrinogen|
+|allergy v1|ctv3|TJ470|Adverse reaction to blood plasma|
+|allergy v1|ctv3|TJ46.|Adverse reaction to gamma globulin|
+|allergy v1|ctv3|TJ45.|Adverse reaction to anticoagulant antagonists|
+|allergy v1|ctv3|TJ45z|Adverse reaction to anticoagulant antagonist NOS|
+|allergy v1|ctv3|TJ452|Adverse reaction to tranexamic acid|
+|allergy v1|ctv3|TJ451|Adverse reaction to ethamsylate|
+|allergy v1|ctv3|TJ450|Adverse reaction to protamine sulphate|
+|allergy v1|ctv3|TJ44.|Adverse reaction to fibrinolytic drugs|
+|allergy v1|ctv3|TJ44z|Adverse reaction to fibrinolytic drugs NOS|
+|allergy v1|ctv3|TJ441|Adverse reaction to urokinase|
+|allergy v1|ctv3|TJ440|Adverse reaction to streptokinase|
+|allergy v1|ctv3|TJ43.|Adverse reaction to vitamin K|
+|allergy v1|ctv3|TJ43z|Adverse reaction to vitamin K NOS|
+|allergy v1|ctv3|TJ430|Adverse reaction to phytomenadione|
+|allergy v1|ctv3|TJ42.|Adverse reaction to anticoagulants|
+|allergy v1|ctv3|TJ42z|Adverse reaction to anticoagulants NOS|
+|allergy v1|ctv3|TJ423|Adverse reaction to phenindione|
+|allergy v1|ctv3|TJ422|Adverse reaction to nicoumalone|
+|allergy v1|ctv3|TJ421|Adverse reaction to warfarin sodium|
+|allergy v1|ctv3|TJ420|Adverse reaction to heparin|
+|allergy v1|ctv3|TJ41z|Adverse reaction to liver preparations and other antianaemic agents NOS|
+|allergy v1|ctv3|TJ412|Adverse reaction to folic acid|
+|allergy v1|ctv3|TJ411|Adverse reaction to cyanocobalamin|
+|allergy v1|ctv3|TJ410|Adverse reaction to hydroxocobalamin|
+|allergy v1|ctv3|TJ41.|Adverse reaction to liver preparations and other antianaemic agents|
+|allergy v1|ctv3|TJ40.|Adverse reaction to iron and iron compounds|
+|allergy v1|ctv3|TJ40z|Adverse reaction to iron and iron compounds NOS|
+|allergy v1|ctv3|TJ407|Adverse reaction to iron sorbitol injection|
+|allergy v1|ctv3|TJ406|Adverse reaction to iron dextran injection|
+|allergy v1|ctv3|TJ405|Adverse reaction to ferric salts|
+|allergy v1|ctv3|TJ404|Adverse reaction to ferrous succinate|
+|allergy v1|ctv3|TJ403|Adverse reaction to ferrous glycine sulphate|
+|allergy v1|ctv3|TJ402|Adverse reaction to ferrous gluconate|
+|allergy v1|ctv3|TJ401|Adverse reaction to ferrous fumarate|
+|allergy v1|ctv3|TJ400|Adverse reaction to ferrous sulphate|
+|allergy v1|ctv3|TJ3..|Adverse reaction to primarily systemic agents|
+|allergy v1|ctv3|Xa9Db|Adverse reaction to vitamins|
+|allergy v1|ctv3|TJ35z|Adverse reaction to vitamin NOS|
+|allergy v1|ctv3|TJ351|Adverse reaction to vitamin D|
+|allergy v1|ctv3|TJ350|Adverse reaction to vitamin A|
+|allergy v1|ctv3|TJ35.|Adverse reaction to vitamins NEC|
+|allergy v1|ctv3|Xa9Da|Adverse reaction to enzymes|
+|allergy v1|ctv3|TJ34z|Adverse reaction to enzymes NOS|
+|allergy v1|ctv3|TJ340|Adverse reaction to penicillamine|
+|allergy v1|ctv3|TJ34.|Adverse reaction to enzymes NEC|
+|allergy v1|ctv3|TJ3z.|Adverse reaction to systemic agent NOS|
+|allergy v1|ctv3|TJ33.|Adverse reaction to alkalising agents|
+|allergy v1|ctv3|TJ32.|Adverse reaction to acidifying agents|
+|allergy v1|ctv3|TJ31.|Adverse reaction to antineoplastic and immunosuppressive drugs|
+|allergy v1|ctv3|TJ31z|Adverse reaction to antineoplastic and immunosuppressive drugs NOS|
+|allergy v1|ctv3|TJ31S|Adverse reaction to cyclosporin|
+|allergy v1|ctv3|TJ31R|Adverse reaction to antilymphocyte immunoglobulin|
+|allergy v1|ctv3|TJ31Q|Adverse reaction to azathioprine|
+|allergy v1|ctv3|TJ31P|Adverse reaction to razoxane|
+|allergy v1|ctv3|TJ31N|Adverse reaction to procarbazine|
+|allergy v1|ctv3|TJ31M|Adverse reaction to mitozantrone|
+|allergy v1|ctv3|TJ31L|Adverse reaction to hydroxyurea|
+|allergy v1|ctv3|TJ31K|Adverse reaction to cisplatin|
+|allergy v1|ctv3|TJ31J|Adverse reaction to carboplatin|
+|allergy v1|ctv3|TJ31H|Adverse reaction to vincristine sulphate|
+|allergy v1|ctv3|TJ31G|Adverse reaction to vinblastine sulphate|
+|allergy v1|ctv3|TJ31F|Adverse reaction to etoposide|
+|allergy v1|ctv3|TJ31E|Adverse reaction to thioguanine|
+|allergy v1|ctv3|TJ31D|Adverse reaction to methotrexate|
+|allergy v1|ctv3|TJ31C|Adverse reaction to mercaptopurine|
+|allergy v1|ctv3|TJ31B|Adverse reaction to fluorouracil|
+|allergy v1|ctv3|TJ31A|Adverse reaction to cytarabine|
+|allergy v1|ctv3|TJ319|Adverse reaction to treosulfan|
+|allergy v1|ctv3|TJ318|Adverse reaction to thiotepa|
+|allergy v1|ctv3|TJ317|Adverse reaction to mustine hydrochloride|
+|allergy v1|ctv3|TJ316|Adverse reaction to melphalan|
+|allergy v1|ctv3|TJ315|Adverse reaction to lomustine|
+|allergy v1|ctv3|TJ314|Adverse reaction to estramustine phosphate|
+|allergy v1|ctv3|TJ313|Adverse reaction to cyclophosphamide|
+|allergy v1|ctv3|TJ312|Adverse reaction to chlorambucil|
+|allergy v1|ctv3|TJ311|Adverse reaction to carmustine|
+|allergy v1|ctv3|TJ310|Adverse reaction to busulphan|
+|allergy v1|ctv3|TJ30.|Adverse reaction to antiallergic and antiemetic drugs|
+|allergy v1|ctv3|TJ30z|Adverse reaction to antiallergic and antiemetic drugs NOS|
+|allergy v1|ctv3|TJ303|Adverse reaction to metoclopramide|
+|allergy v1|ctv3|TJ302|Adverse reaction to diphenylpyraline|
+|allergy v1|ctv3|TJ301|Adverse reaction to chlorpheniramine|
+|allergy v1|ctv3|TJ300|Adverse reaction to antihistamines|
+|allergy v1|ctv3|TJ2..|Adverse reaction to hormones and synthetic substitutes|
+|allergy v1|ctv3|TJ2z.|Adverse reaction to hormones and synthetic substances NOS|
+|allergy v1|ctv3|TJ28.|Adverse reaction to antithyroid agents|
+|allergy v1|ctv3|TJ28z|Adverse reaction to antithyroid agents NOS|
+|allergy v1|ctv3|TJ282|Adverse reaction to propylthiouracil|
+|allergy v1|ctv3|TJ281|Adverse reaction to iodine or iodide|
+|allergy v1|ctv3|TJ280|Adverse reaction to carbimazole|
+|allergy v1|ctv3|TJ27.|Adverse reaction to thyroid and thyroid derivatives|
+|allergy v1|ctv3|TJ27z|Adverse reaction to thyroid and thyroid derivatives NOS|
+|allergy v1|ctv3|TJ272|Adverse reaction to thyroglobulin|
+|allergy v1|ctv3|TJ271|Adverse reaction to thyroxine sodium|
+|allergy v1|ctv3|TJ270|Adverse reaction to liothyronine sodium|
+|allergy v1|ctv3|TJ26.|Adverse reaction to parathyroid and parathyroid derivatives|
+|allergy v1|ctv3|TJ26z|Adverse reaction to parathyroid and parathyroid derivatives NOS|
+|allergy v1|ctv3|TJ261|Adverse reaction to salcatonin|
+|allergy v1|ctv3|TJ260|Adverse reaction to calcitonin|
+|allergy v1|ctv3|TJ25.|Adverse reaction to posterior pituitary hormones|
+|allergy v1|ctv3|TJ25z|Adverse reaction to posterior pituitary hormone NOS|
+|allergy v1|ctv3|TJ253|Adverse reaction to terlipressin|
+|allergy v1|ctv3|TJ252|Adverse reaction to lypressin|
+|allergy v1|ctv3|TJ251|Adverse reaction to desmopressin|
+|allergy v1|ctv3|TJ250|Adverse reaction to vasopressin|
+|allergy v1|ctv3|TJ24.|Adverse reaction to anterior pituitary hormones|
+|allergy v1|ctv3|TJ24z|Adverse reaction to anterior pituitary hormone NOS|
+|allergy v1|ctv3|TJ243|Adverse reaction to somatotrophin, growth hormone|
+|allergy v1|ctv3|TJ242|Adverse reaction to follicle stimulating hormone, FSH|
+|allergy v1|ctv3|TJ241|Adverse reaction to chorionic gonadotrophin|
+|allergy v1|ctv3|TJ240|Adverse reaction to corticotrophin, ACTH|
+|allergy v1|ctv3|TJ23.|Adverse reaction to insulins and antidiabetic agents|
+|allergy v1|ctv3|TJ23z|Adverse reaction to insulins and antidiabetic agents NOS|
+|allergy v1|ctv3|TJ23B|Adverse reaction to glucagon|
+|allergy v1|ctv3|TJ23A|Adverse reaction to metformin hydrochloride|
+|allergy v1|ctv3|TJ239|Adverse reaction to tolbutamide|
+|allergy v1|ctv3|TJ238|Adverse reaction to tolazamide|
+|allergy v1|ctv3|TJ237|Adverse reaction to glymidine|
+|allergy v1|ctv3|TJ236|Adverse reaction to gliquidone|
+|allergy v1|ctv3|TJ235|Adverse reaction to glipizide|
+|allergy v1|ctv3|TJ234|Adverse reaction to gliclazide|
+|allergy v1|ctv3|TJ233|Adverse reaction to glibenclamide|
+|allergy v1|ctv3|TJ232|Adverse reaction to chlorpropamide|
+|allergy v1|ctv3|TJ231|Adverse reaction to acetohexamide|
+|allergy v1|ctv3|TJ230|Adverse reaction to insulins|
+|allergy v1|ctv3|TJ22.|Adverse reaction to ovarian hormones and synthetic substitutes|
+|allergy v1|ctv3|TJ22z|Adverse reaction to ovarian hormone or synthetic substitute NOS|
+|allergy v1|ctv3|TJ22y|Adverse reaction to unspecified oral contraceptive|
+|allergy v1|ctv3|TJ22x|Adverse reaction to combined oestrogens and progestogens|
+|allergy v1|ctv3|TJ22A|Adverse reaction to progesterone|
+|allergy v1|ctv3|TJ229|Adverse reaction to norethisterone|
+|allergy v1|ctv3|TJ228|Adverse reaction to medroxyprogesterone acetate|
+|allergy v1|ctv3|TJ227|Adverse reaction to hydroxyprogesterone hexanoate|
+|allergy v1|ctv3|TJ226|Adverse reaction to dydrogesterone|
+|allergy v1|ctv3|TJ225|Adverse reaction to allyloestrenol|
+|allergy v1|ctv3|TJ224|Adverse reaction to piperazine oestrone sulphate|
+|allergy v1|ctv3|TJ223|Adverse reaction to conjugated oestrogens|
+|allergy v1|ctv3|TJ222|Adverse reaction to oestriol|
+|allergy v1|ctv3|TJ221|Adverse reaction to oestradiol|
+|allergy v1|ctv3|TJ220|Adverse reaction to ethinyloestradiol|
+|allergy v1|ctv3|TJ21.|Adverse reaction to androgens and anabolic steroids|
+|allergy v1|ctv3|TJ21z|Adverse reaction to androgen or anabolic steroid NOS|
+|allergy v1|ctv3|TJ215|Adverse reaction to stanozolol|
+|allergy v1|ctv3|TJ214|Adverse reaction to nandrolone|
+|allergy v1|ctv3|TJ213|Adverse reaction to testosterone esters|
+|allergy v1|ctv3|TJ212|Adverse reaction to testosterone|
+|allergy v1|ctv3|TJ211|Adverse reaction to methyltestosterone|
+|allergy v1|ctv3|TJ210|Adverse reaction to mesterolone|
+|allergy v1|ctv3|TJ20.|Adverse reaction to adrenal cortical steroid|
+|allergy v1|ctv3|TJ20z|Adverse reaction to adrenal cortical steroid NOS|
+|allergy v1|ctv3|TJ208|Adverse reaction to triamcinolone|
+|allergy v1|ctv3|TJ207|Adverse reaction to prednisone|
+|allergy v1|ctv3|TJ206|Adverse reaction to prednisolone|
+|allergy v1|ctv3|TJ205|Adverse reaction to methylprednisolone|
+|allergy v1|ctv3|TJ204|Adverse reaction to hydrocortisone|
+|allergy v1|ctv3|TJ203|Adverse reaction to cortisone acetate|
+|allergy v1|ctv3|TJ202|Adverse reaction to dexamethasone|
+|allergy v1|ctv3|TJ201|Adverse reaction to betamethasone|
+|allergy v1|ctv3|TJ200|Adverse reaction to fludrocortisone acetate|
+|allergy v1|ctv3|XaQad|Adverse reaction to nebivolol|
+|allergy v1|ctv3|XaQac|Adverse reaction to carvedilol|
+|allergy v1|ctv3|XaQab|[X]Adverse reaction to bisoprolol|
+|allergy v1|ctv3|9G4..|Adverse drug reaction notif|
+|allergy v1|ctv3|XE1os|Adverse drug reaction NOS|
+|allergy v1|ctv3|XaDt1|[X]Topical hydrocortisone adverse reaction|
+|allergy v1|ctv3|XaEGk|[X]Teicoplanin adverse reaction|
+|allergy v1|ctv3|XaIRL|[X]Lipid-lowering drug adverse reaction|
+|allergy v1|ctv3|XaK3c|[X]Adverse reaction to caffeine|
+|allergy v1|ctv3|XaKJq|[X]Adverse reaction to pneumococcal vaccine|
 |allergy v1|emis|ESCTAL5|Allergy to tomato|
 |allergy v1|emis|^ESCTAL769611|Allergy to hazelnut|
 |allergy v1|emis|EMISNQAL32|Allergy to kiwi fruit|
@@ -27101,6 +29521,129 @@ All code sets required for this analysis are listed here. Individual lists for e
 |allergy v1|emis|ESCTAL5|Allergy to tomato|
 |allergy v1|emis|ESCTAL7|Allergy to pineapple|
 |allergy v1|emis|ESCTAL8|Allergy to pork|
+|allergy v1|emis|EMISNQAL5|Allergies and adverse reactions|
+|allergy v1|emis|^ESCTAD579670|Adverse reaction caused by losartan|
+|allergy v1|emis|^ESCTCA578106|Carbamazepine adverse reaction|
+|allergy v1|emis|^ESCTCA578261|Cardioselective beta-blocker adverse reaction|
+|allergy v1|emis|^ESCTCE578983|Cefotaxime adverse reaction|
+|allergy v1|emis|^ESCTDE579206|Dexamethasone adverse reaction|
+|allergy v1|emis|^ESCTDR579658|Drug reaction: ACE inhibitor|
+|allergy v1|emis|^ESCTLO578167|Lorazepam adverse reaction|
+|allergy v1|emis|^ESCTMI578741|Miconazole adverse reaction|
+|allergy v1|emis|^ESCTNO578043|Nortriptyline adverse reaction|
+|allergy v1|emis|^ESCTOE579336|Oestriol adverse reaction|
+|allergy v1|emis|^ESCTPA577698|Paracetamol adverse reaction|
+|allergy v1|emis|^ESCTTE578190|Tetrabenazine adverse reaction|
+|allergy v1|emis|^ESCTTI578289|Timolol adverse reaction|
+|allergy v1|emis|^ESCTAD780683|Adverse reaction caused by candesartan|
+|allergy v1|emis|^ESCTCE578959|Cefadroxil adverse reaction|
+|allergy v1|emis|^ESCTCO577890|Cocaine adverse reaction|
+|allergy v1|emis|^ESCTDO577809|Domperidone adverse reaction|
+|allergy v1|emis|^ESCTHY578399|Hyoscine adverse reaction|
+|allergy v1|emis|^ESCTHY578784|Hydroxychloroquine adverse reaction|
+|allergy v1|emis|^ESCTIR579468|Iron adverse reaction|
+|allergy v1|emis|^ESCTME579012|Metronidazole adverse reaction|
+|allergy v1|emis|^ESCTNO579270|Norethisterone adverse reaction|
+|allergy v1|emis|^ESCTPE578664|Penicillamine adverse reaction|
+|allergy v1|emis|^ESCTPY578777|Pyrimethamine adverse reaction|
+|allergy v1|emis|^ESCTTR579217|Triamcinolone adverse reaction|
+|allergy v1|emis|^ESCTVA578885|Vancomycin adverse reaction|
+|allergy v1|emis|ESCTAL2|Allergy to pollen|
+|allergy v1|emis|^ESCT1407604|Adverse reaction to diphtheria, pertussis, and tetanus vaccine|
+|allergy v1|emis|^ESCTAD350790|ADR - Adverse drug reaction|
+|allergy v1|emis|^ESCTBL577942|Bleomycin adverse reaction|
+|allergy v1|emis|^ESCT1270348|Dosulepin adverse reaction|
+|allergy v1|emis|^ESCTCL578153|Clobazam adverse reaction|
+|allergy v1|emis|^ESCTCL579004|Clindamycin adverse reaction|
+|allergy v1|emis|^ESCTGE577848|General anaesthetic drug adverse reaction|
+|allergy v1|emis|^ESCTHA578198|Haloperidol adverse reaction|
+|allergy v1|emis|^ESCTHY579525|Hydroxocobalamin adverse reaction|
+|allergy v1|emis|^ESCTME577810|Metoclopramide adverse reaction|
+|allergy v1|emis|^ESCTME577833|Mebeverine adverse reaction|
+|allergy v1|emis|^ESCTME577959|Methotrexate adverse reaction|
+|allergy v1|emis|^ESCTPI578925|Pivampicillin adverse reaction|
+|allergy v1|emis|^ESCTPR579180|Prednisone adverse reaction|
+|allergy v1|emis|^ESCTRI579099|Rifampicin adverse reaction|
+|allergy v1|emis|^ESCT1408371|Adverse reaction to influenza virus vaccine|
+|allergy v1|emis|^ESCTAD737571|Adverse reaction to mirtazapine|
+|allergy v1|emis|^ESCTAN577695|Analgesic adverse reaction|
+|allergy v1|emis|^ESCTCY579527|Cyanocobalamin adverse reaction|
+|allergy v1|emis|^ESCTDI577723|Diamorphine adverse reaction|
+|allergy v1|emis|^ESCTFE579476|Ferrous fumarate adverse reaction|
+|allergy v1|emis|^ESCTNY578728|Nystatin adverse reaction|
+|allergy v1|emis|^ESCTPE579667|Perindopril adverse reaction|
+|allergy v1|emis|^ESCTPR579212|Prednisolone adverse reaction|
+|allergy v1|emis|^ESCTAD473308|Adverse drug reaction notification|
+|allergy v1|emis|^ESCTCL578049|Clomipramine adverse reaction|
+|allergy v1|emis|^ESCTCO579340|Conjugated oestrogens adverse reaction|
+|allergy v1|emis|^ESCTKE577858|Ketamine adverse reaction|
+|allergy v1|emis|^ESCTLE811798|Leflunomide adverse reaction|
+|allergy v1|emis|^ESCT1407197|Adverse reaction to bacterial vaccine|
+|allergy v1|emis|^ESCT1407200|Adverse reaction to tuberculosis vaccine|
+|allergy v1|emis|^ESCTAM578921|Amoxicillin adverse reaction|
+|allergy v1|emis|^ESCTCO578951|Colistin adverse reaction|
+|allergy v1|emis|^ESCTHY578479|Hydroxyzine adverse reaction|
+|allergy v1|emis|^ESCTME578269|Metoprolol adverse reaction|
+|allergy v1|emis|^ESCTPI578939|Pivmecillinam adverse reaction|
+|allergy v1|emis|^ESCTTR579462|Tranexamic acid adverse reaction|
+|allergy v1|emis|^ESCTCE578977|Cefaclor adverse reaction|
+|allergy v1|emis|^ESCTCY578003|Cyclosporin adverse reaction|
+|allergy v1|emis|^ESCTDA579108|Dapsone adverse reaction|
+|allergy v1|emis|^ESCTHY691268|Hydrocortisone adverse reaction|
+|allergy v1|emis|^ESCTLA578090|Lamotrigine adverse reaction|
+|allergy v1|emis|^ESCTPR578223|Prochlorperazine adverse reaction|
+|allergy v1|emis|^ESCTSO578287|Sotalol adverse reaction|
+|allergy v1|emis|^ESCTTR578403|Trihexyphenidyl adverse reaction|
+|allergy v1|emis|EMISNQAD12|Adverse cutaneous reaction to acupuncture|
+|allergy v1|emis|^ESCTAD491157|Adverse reaction to local astringents and local detergents|
+|allergy v1|emis|^ESCTDO579060|Doxycycline adverse reaction|
+|allergy v1|emis|^ESCTER693109|Erythromycin adverse reaction|
+|allergy v1|emis|^ESCTFE579486|Ferrous sulphate adverse reaction|
+|allergy v1|emis|^ESCTLA578278|Labetalol adverse reaction|
+|allergy v1|emis|^ESCTME579210|Methylprednisolone adverse reaction|
+|allergy v1|emis|^ESCTSU579027|Sulphadiazine adverse reaction|
+|allergy v1|emis|^ESCTTE578169|Temazepam adverse reaction|
+|allergy v1|emis|^ESCT1276191|Sulphonamide adverse reaction|
+|allergy v1|emis|^ESCTCH578151|Chlordiazepoxide adverse reaction|
+|allergy v1|emis|^ESCTCH578786|Chloroquine adverse reaction|
+|allergy v1|emis|^ESCTDO578038|Doxepin adverse reaction|
+|allergy v1|emis|^ESCTFU578894|Fusidic acid adverse reaction|
+|allergy v1|emis|^ESCTLY579062|Lymecycline adverse reaction|
+|allergy v1|emis|^ESCTPR578217|Promazine adverse reaction|
+|allergy v1|emis|^ESCTST578871|Streptomycin adverse reaction|
+|allergy v1|emis|^ESCT1270349|Local anaesthetic drug adverse reaction|
+|allergy v1|emis|^ESCTBE578259|Beta-adrenoceptor blocking drug adverse reaction|
+|allergy v1|emis|^ESCTBU577719|Buprenorphine adverse reaction|
+|allergy v1|emis|^ESCTCE578961|Cephalexin adverse reaction|
+|allergy v1|emis|^ESCTCE578985|Ceftazidime adverse reaction|
+|allergy v1|emis|^ESCTCH578175|Chloral hydrate adverse reaction|
+|allergy v1|emis|^ESCTDI578165|Diazepam adverse reaction|
+|allergy v1|emis|^ESCTEP578384|Ephedrine adverse reaction|
+|allergy v1|emis|^ESCTIB490971|Ibuprofen adverse reaction|
+|allergy v1|emis|^ESCTME577961|Mercaptopurine adverse reaction|
+|allergy v1|emis|^ESCTME578859|Mebendazole adverse reaction|
+|allergy v1|emis|^ESCTMI577945|Mitomycin adverse reaction|
+|allergy v1|emis|^ESCTPR578104|Primidone adverse reaction|
+|allergy v1|emis|^ESCTQU578792|Quinine adverse reaction|
+|allergy v1|emis|^ESCTSA578357|Salbutamol adverse reaction|
+|allergy v1|emis|^ESCT1270347|Chlorphenamine adverse reaction|
+|allergy v1|emis|^ESCTAZ578881|Azithromycin adverse reaction|
+|allergy v1|emis|^ESCTCE578971|Cephradine adverse reaction|
+|allergy v1|emis|^ESCTDO578054|Dothiepin adverse reaction|
+|allergy v1|emis|^ESCTGL579241|Gliclazide adverse reaction|
+|allergy v1|emis|^ESCTLO578041|Lofepramine adverse reaction|
+|allergy v1|emis|^ESCTNE578185|Neuroleptic adverse reaction|
+|allergy v1|emis|^ESCT1407599|Vaccine adverse reaction|
+|allergy v1|emis|^ESCTAM578919|Amoxycillin adverse reaction|
+|allergy v1|emis|^ESCTCA579170|Carbimazole adverse reaction|
+|allergy v1|emis|^ESCTCH578213|Chlorpromazine adverse reaction|
+|allergy v1|emis|^ESCTCI578077|Citalopram adverse reaction|
+|allergy v1|emis|^ESCTOE579310|Oestradiol adverse reaction|
+|allergy v1|emis|^ESCTOX579064|Oxytetracycline adverse reaction|
+|allergy v1|emis|^ESCTPH578109|Phenytoin adverse reaction|
+|allergy v1|emis|^ESCTPR577860|Propofol adverse reaction|
+|allergy v1|emis|^ESCTSU692946|Suxamethonium adverse reaction|
+|allergy v1|emis|^ESCTTA577993|Tamoxifen adverse reaction|
 |allergy v1|readv2|14LY.00|Phosphodiesterase-5 inhibitor allergy|
 |allergy v1|readv2|SN5B.00|Allergy to stainless steel|
 |allergy v1|readv2|SN58.00|Food allergy|
@@ -27140,3 +29683,3468 @@ All code sets required for this analysis are listed here. Individual lists for e
 |allergy v1|readv2|9bJ4.00|Transfer-degraded drug allergy|
 |allergy v1|readv2|J432.12|Cow's milk allergy|
 |allergy v1|readv2|1Z4..00|Allergic reaction to drug|
+|allergy v1|readv2|TJ...00|Drugs, medicines and biological substances causing adverse effects in therapeutic use|
+|allergy v1|readv2|TJz..00|Adverse reaction to drug NOS|
+|allergy v1|readv2|TJK..00|Adverse reaction to other vaccines and biological substances|
+|allergy v1|readv2|TJKz.00|Adverse reaction to vaccine or biological substance NOS|
+|allergy v1|readv2|TJK8.00|Adverse reaction to tetanus antitoxin|
+|allergy v1|readv2|TJK7.00|Adverse reaction to mixed viral-rickettsial and bacterial vaccines except combinations with a pertussis component|
+|allergy v1|readv2|TJK6.00|Adverse reaction to other viral and rickettsial vaccines|
+|allergy v1|readv2|TJK6z00|Adverse reaction to viral or rickettsial vaccine NOS|
+|allergy v1|readv2|TJK6100|Adverse reaction to rubella vaccine|
+|allergy v1|readv2|TJK6000|Adverse reaction to mumps vaccine|
+|allergy v1|readv2|TJK5.00|Adverse reaction to poliomyelitis vaccine|
+|allergy v1|readv2|TJK4.00|Adverse reaction to measles vaccine|
+|allergy v1|readv2|TJK3.00|Adverse reaction to yellow fever vaccine|
+|allergy v1|readv2|TJK2.00|Adverse reaction to typhus vaccine|
+|allergy v1|readv2|TJK1.00|Adverse reaction to rabies vaccine|
+|allergy v1|readv2|TJK0.00|Adverse reaction to smallpox vaccine|
+|allergy v1|readv2|TJJ..00|Adverse reaction to bacterial vaccines|
+|allergy v1|readv2|TJJz.00|Adverse reaction to mixed bacterial vaccines, excluding combinations with a pertussis component|
+|allergy v1|readv2|TJJy.00|Adverse reaction to other bacterial vaccines|
+|allergy v1|readv2|TJJyz00|Adverse reaction to other bacterial vaccine NOS|
+|allergy v1|readv2|TJJy000|Adverse reaction to meningococcal vaccine|
+|allergy v1|readv2|TJJ6.00|Adverse reaction to pertussis vaccine, including combinations with a pertussis component|
+|allergy v1|readv2|TJJ5.00|Adverse reaction to diphtheria vaccine|
+|allergy v1|readv2|TJJ4.00|Adverse reaction to tetanus vaccine|
+|allergy v1|readv2|TJJ3.00|Adverse reaction to plague vaccine|
+|allergy v1|readv2|TJJ2.00|Adverse reaction to cholera vaccine|
+|allergy v1|readv2|TJJ1.00|Adverse reaction to typhoid and paratyphoid vaccines|
+|allergy v1|readv2|TJJ1z00|Adverse reaction to typhoid or paratyphoid vaccine NOS|
+|allergy v1|readv2|TJJ1100|Adverse reaction to paratyphoid vaccine|
+|allergy v1|readv2|TJJ1000|Adverse reaction to typhoid vaccine|
+|allergy v1|readv2|TJJ0.00|Adverse reaction to BCG vaccine|
+|allergy v1|readv2|TJH..00|Adverse reaction to other drugs and medicines|
+|allergy v1|readv2|TJHz.00|Adverse reaction to drug or medicinal substance NOS|
+|allergy v1|readv2|TJHy.00|Adverse reaction to other drugs and medicines|
+|allergy v1|readv2|TJHyz00|Adverse reaction to other drug or medicine NOS|
+|allergy v1|readv2|TJHyy00|Adverse reaction to diagnostic agents and kits NOS|
+|allergy v1|readv2|TJHyx00|Adverse reaction to contrast media used for diagnostic x-rays NOS|
+|allergy v1|readv2|TJHy200|Adverse reaction to nicotine|
+|allergy v1|readv2|TJHy100|Adverse reaction to tamoxifen|
+|allergy v1|readv2|TJHy011|Adverse reaction to clomifene|
+|allergy v1|readv2|TJHy000|Adverse reaction to clomiphene|
+|allergy v1|readv2|TJH4.00|Adverse reaction to pharmaceutical excipients|
+|allergy v1|readv2|TJH3.00|Adverse reaction to alcohol deterrents|
+|allergy v1|readv2|TJH2.00|Adverse reaction to antidotes and chelating agents NEC|
+|allergy v1|readv2|TJH1.00|Adverse reaction to lipotropic drugs|
+|allergy v1|readv2|TJH0.00|Adverse reaction to dietetics|
+|allergy v1|readv2|TJG..00|Adverse reaction to drugs primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological and dental drugs|
+|allergy v1|readv2|TJGz.00|Adverse reaction to skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs NOS|
+|allergy v1|readv2|TJGy.00|Adverse reaction to other skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs|
+|allergy v1|readv2|TJG7.00|Adverse reaction to dental drugs topically applied|
+|allergy v1|readv2|TJG6.00|Adverse reaction to anti-infective and other drugs and preparations for ear, nose and throat|
+|allergy v1|readv2|TJG5.00|Adverse reaction to eye anti-infectives and other eye drugs|
+|allergy v1|readv2|TJG5z00|Adverse reaction to eye drugs NOS|
+|allergy v1|readv2|TJG5000|Adverse reaction to idoxuridine|
+|allergy v1|readv2|TJG4.00|Adverse reaction to keratolytics, keratoplastics and other hair treatment drugs and preparations|
+|allergy v1|readv2|TJG3.00|Adverse reaction to emollients, demulcents and protectants|
+|allergy v1|readv2|TJG2.00|Adverse reaction to local astringents and local detergents|
+|allergy v1|readv2|TJG1.00|Adverse reaction to antipruritics|
+|allergy v1|readv2|TJG0.00|Adverse reaction to local anti-infectives and anti-inflammatory drugs|
+|allergy v1|readv2|TJG0z00|Adverse reaction to local anti-infective or anti-inflammatory drug NOS|
+|allergy v1|readv2|TJG0000|Adverse reaction to neomycin|
+|allergy v1|readv2|TJF..00|Adverse reaction to drugs primarily acting on the smooth and skeletal muscles and respiratory system|
+|allergy v1|readv2|TJFz.00|Adverse reaction to drugs primarily acting on the smooth or skeletal muscles or respiratory system|
+|allergy v1|readv2|TJFy.00|Adverse reaction to other respiratory system drugs|
+|allergy v1|readv2|TJF7.00|Adverse reaction to antiasthmatics|
+|allergy v1|readv2|TJF7z00|Adverse reaction to antiasthmatic NOS|
+|allergy v1|readv2|TJF7500|Adverse reaction to oxitropium|
+|allergy v1|readv2|TJF7411|Adverse reaction to sodium cromoglicate|
+|allergy v1|readv2|TJF7400|Adverse reaction to sodium cromoglycate|
+|allergy v1|readv2|TJF7300|Adverse reaction to theophylline (asthma)|
+|allergy v1|readv2|TJF7200|Adverse reaction to aminophylline|
+|allergy v1|readv2|TJF7100|Adverse reaction to ipratropium bromide|
+|allergy v1|readv2|TJF7000|Adverse reaction to salbutamol|
+|allergy v1|readv2|TJF6.00|Adverse reaction to anti-common cold drugs|
+|allergy v1|readv2|TJF5.00|Adverse reaction to expectorants|
+|allergy v1|readv2|TJF5z00|Adverse reaction to expectorants NOS|
+|allergy v1|readv2|TJF5100|Adverse reaction to ipecacuanha|
+|allergy v1|readv2|TJF5000|Adverse reaction to acetylcysteine|
+|allergy v1|readv2|TJF4.00|Adverse reaction to antitussives|
+|allergy v1|readv2|TJF4z00|Adverse reaction to antitussive NOS|
+|allergy v1|readv2|TJF4100|Adverse reaction to pipazethate hydrochloride|
+|allergy v1|readv2|TJF4000|Adverse reaction to dextromethorphan|
+|allergy v1|readv2|TJF3.00|Adverse reaction to other muscle drugs|
+|allergy v1|readv2|TJF2.00|Adverse reaction to skeletal muscle relaxants|
+|allergy v1|readv2|TJF2z00|Adverse reaction to skeletal muscle relaxant NOS|
+|allergy v1|readv2|TJF2400|Adverse reaction to suxamethonium|
+|allergy v1|readv2|TJF2300|Adverse reaction to tubocurarine|
+|allergy v1|readv2|TJF2200|Adverse reaction to tubocurarine|
+|allergy v1|readv2|TJF2100|Adverse reaction to gallamine triethiodide|
+|allergy v1|readv2|TJF2000|Adverse reaction to alcuronium|
+|allergy v1|readv2|TJF1.00|Adverse reaction to smooth muscle relaxants|
+|allergy v1|readv2|TJF1z00|Adverse reaction to smooth muscle relaxant NOS|
+|allergy v1|readv2|TJF1200|Adverse reaction to mebeverine|
+|allergy v1|readv2|TJF1100|Adverse reaction to orciprenaline|
+|allergy v1|readv2|TJF1000|Adverse reaction to adiphenine|
+|allergy v1|readv2|TJF0.00|Adverse reaction to oxytocic agents|
+|allergy v1|readv2|TJF0z00|Adverse reaction to oxytocic agent NOS|
+|allergy v1|readv2|TJF0200|Adverse reaction to oxytocin|
+|allergy v1|readv2|TJF0100|Adverse reaction to ergometrine|
+|allergy v1|readv2|TJF0000|Adverse reaction to prostaglandins|
+|allergy v1|readv2|TJE..00|Adverse reaction to water, mineral and uric acid metabolism drugs|
+|allergy v1|readv2|TJEz.00|Adverse reaction to water, mineral or uric acid metabolism drug NOS|
+|allergy v1|readv2|TJE7.00|Adverse reaction to uric acid metabolism drugs|
+|allergy v1|readv2|TJE7z00|Adverse reaction to uric acid metabolism drug NOS|
+|allergy v1|readv2|TJE7311|Adverse reaction to sulfinpyrazone|
+|allergy v1|readv2|TJE7300|Adverse reaction to sulphinpyrazone|
+|allergy v1|readv2|TJE7200|Adverse reaction to probenecid|
+|allergy v1|readv2|TJE7100|Adverse reaction to allopurinol|
+|allergy v1|readv2|TJE7000|Adverse reaction to colchicine|
+|allergy v1|readv2|TJE6.00|Adverse reaction to other mineral salts NEC|
+|allergy v1|readv2|TJE5.00|Adverse reaction to electrolytic, caloric and water balance drugs|
+|allergy v1|readv2|TJE4.00|Adverse reaction to other diuretics|
+|allergy v1|readv2|TJE4z00|Adverse reaction to diuretic NOS|
+|allergy v1|readv2|TJE4600|Adverse reaction to mannitol|
+|allergy v1|readv2|TJE4500|Adverse reaction to triamterene|
+|allergy v1|readv2|TJE4400|Adverse reaction to spironolactone|
+|allergy v1|readv2|TJE4300|Adverse reaction to amiloride|
+|allergy v1|readv2|TJE4211|Adverse reaction to etacrynic acid|
+|allergy v1|readv2|TJE4200|Adverse reaction to ethacrynic acid|
+|allergy v1|readv2|TJE4100|Adverse reaction to frusemide|
+|allergy v1|readv2|TJE4011|Adverse reaction to chlortalidone|
+|allergy v1|readv2|TJE4000|Adverse reaction to chlorthalidone|
+|allergy v1|readv2|TJE3.00|Adverse reaction to thiazides|
+|allergy v1|readv2|TJE3z00|Adverse reaction to thiazide NOS|
+|allergy v1|readv2|TJE3600|Adverse reaction to polythiazide|
+|allergy v1|readv2|TJE3500|Adverse reaction to methyclothiazide|
+|allergy v1|readv2|TJE3400|Adverse reaction to hydroflumethiazide|
+|allergy v1|readv2|TJE3300|Adverse reaction to hydrochlorothiazide|
+|allergy v1|readv2|TJE3200|Adverse reaction to cyclopenthiazide|
+|allergy v1|readv2|TJE3100|Adverse reaction to chlorothiazide|
+|allergy v1|readv2|TJE3000|Adverse reaction to bendrofluazide|
+|allergy v1|readv2|TJE2.00|Adverse reaction to carbonic acid anhydrase inhibitors|
+|allergy v1|readv2|TJE2z00|Adverse reaction to carbonic acid anhydrase inhibitor NOS|
+|allergy v1|readv2|TJE2100|Adverse reaction to dichlorphenamide|
+|allergy v1|readv2|TJE2000|Adverse reaction to acetazolamide|
+|allergy v1|readv2|TJE1.00|Adverse reaction to purine derivative diuretics|
+|allergy v1|readv2|TJE1z00|Adverse reaction to purine derivative diuretic NOS|
+|allergy v1|readv2|TJE1100|Adverse reaction to theophylline (diuretic)|
+|allergy v1|readv2|TJE1000|Adverse reaction to theobromine|
+|allergy v1|readv2|TJE0.00|Adverse reaction to mercurial diuretics|
+|allergy v1|readv2|TJE0z00|Adverse reaction to mercurial diuretics NOS|
+|allergy v1|readv2|TJE0300|Adverse reaction to mercurophylline|
+|allergy v1|readv2|TJE0200|Adverse reaction to mercaptomerin|
+|allergy v1|readv2|TJE0100|Adverse reaction to chlormerodrin|
+|allergy v1|readv2|TJE0000|Adverse reaction to mersalyl|
+|allergy v1|readv2|TJD..00|Adverse reaction to drugs primarily affecting gastrointestinal system|
+|allergy v1|readv2|TJDz.00|Adverse reaction to drugs primarily affecting the gastrointestinal system NOS|
+|allergy v1|readv2|TJDy.00|Adverse reaction to other drugs primarily affecting the gastrointestinal system|
+|allergy v1|readv2|TJD6.00|Adverse reaction to emetics|
+|allergy v1|readv2|TJD6z00|Adverse reaction to emetics NOS|
+|allergy v1|readv2|TJD5.00|Adverse reaction to antidiarrhoeal drugs|
+|allergy v1|readv2|TJD5z00|Adverse reaction to antidiarrhoeal drugs NOS|
+|allergy v1|readv2|TJD5300|Adverse reaction to pectin|
+|allergy v1|readv2|TJD5200|Adverse reaction to loperamide|
+|allergy v1|readv2|TJD5100|Adverse reaction to diphenoxylate|
+|allergy v1|readv2|TJD5000|Adverse reaction to kaolin|
+|allergy v1|readv2|TJD4.00|Adverse reaction to digestants|
+|allergy v1|readv2|TJD4z00|Adverse reaction to digestants NOS|
+|allergy v1|readv2|TJD4200|Adverse reaction to pepsin|
+|allergy v1|readv2|TJD4100|Adverse reaction to papain|
+|allergy v1|readv2|TJD4000|Adverse reaction to pancreatin|
+|allergy v1|readv2|TJD3.00|Adverse reaction to other cathartics, including intestinal atonia drugs|
+|allergy v1|readv2|TJD3z00|Adverse reaction to other cathartics including intestinal atonia drugs NOS|
+|allergy v1|readv2|TJD3100|Adverse reaction to lactulose|
+|allergy v1|readv2|TJD3000|Adverse reaction to magnesium sulphate|
+|allergy v1|readv2|TJD2.00|Adverse reaction to emollient cathartics|
+|allergy v1|readv2|TJD2z00|Adverse reaction to emollient cathartic NOS|
+|allergy v1|readv2|TJD2000|Adverse reaction to dioctyl sodium sulphosuccinate|
+|allergy v1|readv2|TJD1.00|Adverse reaction to irritant cathartics|
+|allergy v1|readv2|TJD1z00|Adverse reaction to irritant cathartics NOS|
+|allergy v1|readv2|TJD1700|Adverse reaction to phenolphthalein|
+|allergy v1|readv2|TJD1600|Adverse reaction to senna|
+|allergy v1|readv2|TJD1500|Adverse reaction to glycerol|
+|allergy v1|readv2|TJD1400|Adverse reaction to fig|
+|allergy v1|readv2|TJD1311|Adverse reaction to dantron|
+|allergy v1|readv2|TJD1300|Adverse reaction to danthron|
+|allergy v1|readv2|TJD1200|Adverse reaction to castor oil|
+|allergy v1|readv2|TJD1100|Adverse reaction to cascara|
+|allergy v1|readv2|TJD1000|Adverse reaction to bisacodyl|
+|allergy v1|readv2|TJD0.00|Adverse reaction to antacids and antigastric secretion drugs|
+|allergy v1|readv2|TJD0z00|Adverse reaction to antacids and antigastric secretion drugs NOS|
+|allergy v1|readv2|TJD0800|Adverse reaction to proton pump inhibitors|
+|allergy v1|readv2|TJD0700|Adverse reaction to H2 blockers|
+|allergy v1|readv2|TJD0600|Adverse reaction to sodium bicarbonate|
+|allergy v1|readv2|TJD0500|Adverse reaction to magaldrate|
+|allergy v1|readv2|TJD0400|Adverse reaction to hydrotalcite|
+|allergy v1|readv2|TJD0300|Adverse reaction to magnesium trisilicate|
+|allergy v1|readv2|TJD0200|Adverse reaction to magnesium carbonate|
+|allergy v1|readv2|TJD0100|Adverse reaction to alexitol sodium|
+|allergy v1|readv2|TJD0000|Adverse reaction to aluminium hydroxide|
+|allergy v1|readv2|TJC..00|Adverse reaction to drugs primarily affecting the cardiovascular system|
+|allergy v1|readv2|TJCz.00|Adverse reaction to drug primarily affecting the cardiovascular system NOS|
+|allergy v1|readv2|TJC9.00|Adverse reaction to capillary-active drugs|
+|allergy v1|readv2|TJC9z00|Adverse reaction to capillary-active drugs NOS|
+|allergy v1|readv2|TJC9100|Adverse reaction to adrenochrome derivatives|
+|allergy v1|readv2|TJC9000|Adverse reaction to metaraminol|
+|allergy v1|readv2|TJC8.00|Adverse reaction to antivaricose drugs|
+|allergy v1|readv2|TJC8z00|Adverse reaction to antivaricose drugs NOS|
+|allergy v1|readv2|TJC8100|Adverse reaction to zinc salts|
+|allergy v1|readv2|TJC8000|Adverse reaction to ethanolamine oleate|
+|allergy v1|readv2|TJC7.00|Adverse reaction to other antihypertensives|
+|allergy v1|readv2|TJC7z00|Adverse reaction to antihypertensives NOS|
+|allergy v1|readv2|TJC7900|Adverse reaction to ramipril|
+|allergy v1|readv2|TJC7800|Adverse reaction to enalapril|
+|allergy v1|readv2|TJC7700|Adverse reaction to captopril|
+|allergy v1|readv2|TJC7600|Adverse reaction to prazosin|
+|allergy v1|readv2|TJC7500|Adverse reaction to guanethidine|
+|allergy v1|readv2|TJC7400|Adverse reaction to debrisoquine|
+|allergy v1|readv2|TJC7300|Adverse reaction to bethanidine|
+|allergy v1|readv2|TJC7200|Adverse reaction to reserpine|
+|allergy v1|readv2|TJC7100|Adverse reaction to methyldopa|
+|allergy v1|readv2|TJC7000|Adverse reaction to clonidine|
+|allergy v1|readv2|TJC6.00|Adverse reaction to betablockers|
+|allergy v1|readv2|TJC6z00|Adverse reaction to betablockers NOS|
+|allergy v1|readv2|TJC6800|Adverse reaction to timolol|
+|allergy v1|readv2|TJC6700|Adverse reaction to sotalol|
+|allergy v1|readv2|TJC6600|Adverse reaction to oxprenolol|
+|allergy v1|readv2|TJC6500|Adverse reaction to nadolol|
+|allergy v1|readv2|TJC6400|Adverse reaction to metoprolol|
+|allergy v1|readv2|TJC6300|Adverse reaction to labetalol|
+|allergy v1|readv2|TJC6200|Adverse reaction to atenolol|
+|allergy v1|readv2|TJC6100|Adverse reaction to acebutolol|
+|allergy v1|readv2|TJC5.00|Adverse reaction to other vasodilators|
+|allergy v1|readv2|TJC5z00|Adverse reaction to vasodilators NOS|
+|allergy v1|readv2|TJC5400|Adverse reaction to papaverine|
+|allergy v1|readv2|TJC5300|Adverse reaction to hydralazine|
+|allergy v1|readv2|TJC5200|Adverse reaction to diazoxide|
+|allergy v1|readv2|TJC5100|Adverse reaction to isoxsuprine|
+|allergy v1|readv2|TJC5000|Adverse reaction to cyclandelate|
+|allergy v1|readv2|TJC4.00|Adverse reaction to coronary vasodilators|
+|allergy v1|readv2|TJC4z00|Adverse reaction to coronary vasodilators NOS|
+|allergy v1|readv2|TJC4700|Adverse reaction to verapamil|
+|allergy v1|readv2|TJC4600|Adverse reaction to nifedipine|
+|allergy v1|readv2|TJC4500|Adverse reaction to prenylamine|
+|allergy v1|readv2|TJC4400|Adverse reaction to dipyridamole|
+|allergy v1|readv2|TJC4311|Adverse reaction to pentaerithrityl tetranitrate|
+|allergy v1|readv2|TJC4300|Adverse reaction to pentaerythritol tetranitrate|
+|allergy v1|readv2|TJC4200|Adverse reaction to isosorbide mononitrate|
+|allergy v1|readv2|TJC4100|Adverse reaction to isosorbide dinitrate|
+|allergy v1|readv2|TJC4000|Adverse reaction to glyceryl trinitrate|
+|allergy v1|readv2|TJC3.00|Adverse reaction to ganglion blocking drugs|
+|allergy v1|readv2|TJC3z00|Adverse reaction to ganglion blockers NOS|
+|allergy v1|readv2|TJC3100|Adverse reaction to trimetaphan camsylate|
+|allergy v1|readv2|TJC3000|Adverse reaction to pentamethonium bromide|
+|allergy v1|readv2|TJC2.00|Adverse reaction to antilipaemic and anti-arteriosclerotic drugs|
+|allergy v1|readv2|TJC2z00|Adverse reaction to antilipaemic and antiarteriosclerotic drugs NOS|
+|allergy v1|readv2|TJC2500|Adverse reaction to pravastatin|
+|allergy v1|readv2|TJC2400|Adverse reaction to simvastatin|
+|allergy v1|readv2|TJC2300|Adverse reaction to nicotinic acid derivative|
+|allergy v1|readv2|TJC2200|Adverse reaction to bezafibrate|
+|allergy v1|readv2|TJC2100|Adverse reaction to clofibrate|
+|allergy v1|readv2|TJC2011|Adverse reaction to colestyramine|
+|allergy v1|readv2|TJC2000|Adverse reaction to cholestyramine|
+|allergy v1|readv2|TJC1.00|Adverse reaction to cardiac glycosides|
+|allergy v1|readv2|TJC1z00|Adverse reaction to cardiac glycosides NOS|
+|allergy v1|readv2|TJC1200|Adverse reaction to lanatoside C|
+|allergy v1|readv2|TJC1100|Adverse reaction to digitoxin|
+|allergy v1|readv2|TJC1000|Adverse reaction to digoxin|
+|allergy v1|readv2|TJC0.00|Adverse reaction to cardiac rhythm regulators|
+|allergy v1|readv2|TJC0z00|Adverse reaction to cardiac rhythm regulator NOS|
+|allergy v1|readv2|TJC0300|Adverse reaction to quinidine|
+|allergy v1|readv2|TJC0200|Adverse reaction to propranolol|
+|allergy v1|readv2|TJC0100|Adverse reaction to procainamide|
+|allergy v1|readv2|TJC0000|Adverse reaction to practolol|
+|allergy v1|readv2|TJB..00|Adverse reaction to drugs primarily affecting autonomic nervous system|
+|allergy v1|readv2|TJBz.00|Adverse reaction to drug primarily affecting the autonomic nervous system NOS|
+|allergy v1|readv2|TJB3.00|Adverse reaction to sympatholytics|
+|allergy v1|readv2|TJB3z00|Adverse reaction to sympatholytic NOS|
+|allergy v1|readv2|TJB3200|Adverse reaction to tolazoline|
+|allergy v1|readv2|TJB3100|Adverse reaction to phentolamine mesylate|
+|allergy v1|readv2|TJB3000|Adverse reaction to phenoxybenzamine|
+|allergy v1|readv2|TJB2.00|Adverse reaction to sympathomimetics|
+|allergy v1|readv2|TJB2z00|Adverse reaction to sympathomimetic NOS|
+|allergy v1|readv2|TJB2300|Adverse reaction to isoprenaline sulphate|
+|allergy v1|readv2|TJB2200|Adverse reaction to ephedrine|
+|allergy v1|readv2|TJB2100|Adverse reaction to noradrenalin|
+|allergy v1|readv2|TJB2000|Adverse reaction to adrenalin, epinephrine|
+|allergy v1|readv2|TJB1.00|Adverse reaction to parasympatholytics and spasmolytics|
+|allergy v1|readv2|TJB1z00|Adverse reaction to parasympatholytic or spasmolytic NOS|
+|allergy v1|readv2|TJB1400|Adverse reaction to methixene|
+|allergy v1|readv2|TJB1311|Adverse reaction to benzatropine|
+|allergy v1|readv2|TJB1300|Adverse reaction to benztropine|
+|allergy v1|readv2|TJB1200|Adverse reaction to hyoscine|
+|allergy v1|readv2|TJB1100|Adverse reaction to homatropine|
+|allergy v1|readv2|TJB1000|Adverse reaction to atropine|
+|allergy v1|readv2|TJB0.00|Adverse reaction to parasympathomimetics|
+|allergy v1|readv2|TJB0z00|Adverse reaction to parasympathomimetics NOS|
+|allergy v1|readv2|TJB0600|Adverse reaction to pilocarpine|
+|allergy v1|readv2|TJB0500|Adverse reaction to anticholinesterase|
+|allergy v1|readv2|TJB0400|Adverse reaction to acetylcholine|
+|allergy v1|readv2|TJB0300|Adverse reaction to pyridostigmine bromide|
+|allergy v1|readv2|TJB0200|Adverse reaction to neostigmine|
+|allergy v1|readv2|TJB0100|Adverse reaction to edrophonium chloride|
+|allergy v1|readv2|TJB0000|Adverse reaction to distigmine bromide|
+|allergy v1|readv2|TJA..00|Adverse reaction to central nervous system stimulants|
+|allergy v1|readv2|TJAz.00|Adverse reaction to central nervous system stimulants NOS|
+|allergy v1|readv2|TJAy.00|Adverse reaction to other central nervous system stimulants|
+|allergy v1|readv2|TJA1.00|Adverse reaction to opiate antagonists|
+|allergy v1|readv2|TJA1z00|Adverse reaction to opiate antagonists NOS|
+|allergy v1|readv2|TJA1200|Adverse reaction to naloxone|
+|allergy v1|readv2|TJA1100|Adverse reaction to nalorphine|
+|allergy v1|readv2|TJA1000|Adverse reaction to levallorphan|
+|allergy v1|readv2|TJA0.00|Adverse reaction to analeptics|
+|allergy v1|readv2|TJA0z00|Adverse reaction to analeptics NOS|
+|allergy v1|readv2|TJA0300|Adverse reaction to ethamivan|
+|allergy v1|readv2|TJA0200|Adverse reaction to doxapram|
+|allergy v1|readv2|TJA0100|Adverse reaction to lobeline|
+|allergy v1|readv2|TJA0000|Adverse reaction to nikethamide|
+|allergy v1|readv2|TJ9..00|Adverse reaction to psychotropic agents|
+|allergy v1|readv2|TJ9z.00|Adverse reaction to psychotropic agent NOS|
+|allergy v1|readv2|TJ9y.00|Adverse reaction to other psychotropic agent|
+|allergy v1|readv2|TJ97.00|Adverse reaction to psychostimulants|
+|allergy v1|readv2|TJ97z00|Adverse reaction to psychostimulant NOS|
+|allergy v1|readv2|TJ97211|Adverse reaction to dexamfetamine|
+|allergy v1|readv2|TJ97200|Adverse reaction to dexamphetamine|
+|allergy v1|readv2|TJ97100|Adverse reaction to pemoline|
+|allergy v1|readv2|TJ97000|Adverse reaction to caffeine|
+|allergy v1|readv2|TJ96.00|Adverse reaction to hallucinogens|
+|allergy v1|readv2|TJ96z00|Adverse reaction to hallucinogen NOS|
+|allergy v1|readv2|TJ96500|Adverse reaction to psilocybin|
+|allergy v1|readv2|TJ96400|Adverse reaction to psilocin|
+|allergy v1|readv2|TJ96300|Adverse reaction to mescaline|
+|allergy v1|readv2|TJ96200|Adverse reaction to marihuana|
+|allergy v1|readv2|TJ96100|Adverse reaction to lysergide, LSD|
+|allergy v1|readv2|TJ96000|Adverse reaction to cannabis|
+|allergy v1|readv2|TJ95.00|Adverse reaction to other tranquillisers|
+|allergy v1|readv2|TJ95z00|Adverse reaction to tranquillisers NOS|
+|allergy v1|readv2|TJ95300|Adverse reaction to tetrabenazine|
+|allergy v1|readv2|TJ95200|Adverse reaction to chlormezanone|
+|allergy v1|readv2|TJ95100|Adverse reaction to meprobamate|
+|allergy v1|readv2|TJ95000|Adverse reaction to hydroxyzine|
+|allergy v1|readv2|TJ94.00|Adverse reaction to benzodiazepine-based tranquillisers|
+|allergy v1|readv2|TJ94z00|Adverse reaction to benzodiazepine-based tranquilliser NOS|
+|allergy v1|readv2|TJ94C00|Adverse reaction to clonazepam|
+|allergy v1|readv2|TJ94B00|Adverse reaction to oxazepam|
+|allergy v1|readv2|TJ94A00|Adverse reaction to medazepam|
+|allergy v1|readv2|TJ94900|Adverse reaction to lorazepam|
+|allergy v1|readv2|TJ94800|Adverse reaction to ketazolam|
+|allergy v1|readv2|TJ94700|Adverse reaction to chlorazepate dipotassium|
+|allergy v1|readv2|TJ94600|Adverse reaction to clobazam|
+|allergy v1|readv2|TJ94500|Adverse reaction to chlordiazepoxide|
+|allergy v1|readv2|TJ94400|Adverse reaction to diazepam|
+|allergy v1|readv2|TJ94300|Adverse reaction to triazolam|
+|allergy v1|readv2|TJ94200|Adverse reaction to temazepam|
+|allergy v1|readv2|TJ94100|Adverse reaction to flurazepam|
+|allergy v1|readv2|TJ94000|Adverse reaction to nitrazepam|
+|allergy v1|readv2|TJ93.00|Adverse reaction to other major tranquillisers|
+|allergy v1|readv2|TJ92.00|Adverse reaction to butyrophenone-based tranquillisers|
+|allergy v1|readv2|TJ92z00|Adverse reaction to butyrophenone-based tranquillisers NOS|
+|allergy v1|readv2|TJ92200|Adverse reaction to trifluperidol|
+|allergy v1|readv2|TJ92100|Adverse reaction to spiperone|
+|allergy v1|readv2|TJ92000|Adverse reaction to haloperidol|
+|allergy v1|readv2|TJ91.00|Adverse reaction to phenothiazine-based tranquillisers|
+|allergy v1|readv2|TJ91z00|Adverse reaction to phenothiazine-based tranquillisers NOS|
+|allergy v1|readv2|TJ91600|Adverse reaction to thioridazine|
+|allergy v1|readv2|TJ91500|Adverse reaction to promazine|
+|allergy v1|readv2|TJ91400|Adverse reaction to prochlorperazine|
+|allergy v1|readv2|TJ91300|Adverse reaction to perphenazine|
+|allergy v1|readv2|TJ91200|Adverse reaction to pericyazine|
+|allergy v1|readv2|TJ91100|Adverse reaction to fluphenazine|
+|allergy v1|readv2|TJ91000|Adverse reaction to chlorpromazine|
+|allergy v1|readv2|TJ90.00|Adverse reaction to antidepressants|
+|allergy v1|readv2|TJ90z00|Adverse reaction to antidepressants NOS|
+|allergy v1|readv2|TJ90J00|Adverse reaction to oxypertine|
+|allergy v1|readv2|TJ90H00|Adverse reaction to tryptophan|
+|allergy v1|readv2|TJ90G11|Adverse reaction to flupentixol|
+|allergy v1|readv2|TJ90G00|Adverse reaction to flupenthixol|
+|allergy v1|readv2|TJ90F00|Adverse reaction to tranylcypromine|
+|allergy v1|readv2|TJ90E00|Adverse reaction to isocarboxazid|
+|allergy v1|readv2|TJ90D00|Adverse reaction to phenelzine|
+|allergy v1|readv2|TJ90C00|Adverse reaction to mianserin|
+|allergy v1|readv2|TJ90B00|Adverse reaction to maprotiline|
+|allergy v1|readv2|TJ90A00|Adverse reaction to trimipramine|
+|allergy v1|readv2|TJ90900|Adverse reaction to protriptyline|
+|allergy v1|readv2|TJ90800|Adverse reaction to nortriptyline|
+|allergy v1|readv2|TJ90700|Adverse reaction to lofepramine|
+|allergy v1|readv2|TJ90600|Adverse reaction to imipramine|
+|allergy v1|readv2|TJ90500|Adverse reaction to doxepin|
+|allergy v1|readv2|TJ90400|Adverse reaction to dothiepin|
+|allergy v1|readv2|TJ90300|Adverse reaction to desipramine|
+|allergy v1|readv2|TJ90200|Adverse reaction to clomipramine|
+|allergy v1|readv2|TJ90100|Adverse reaction to butriptyline|
+|allergy v1|readv2|TJ90000|Adverse reaction to amitriptyline|
+|allergy v1|readv2|TJ8..00|Adverse reaction to other central nervous system depressants and anaesthetics|
+|allergy v1|readv2|TJ8z.00|Adverse reaction to central nervous system depressants and anaesthetics NOS|
+|allergy v1|readv2|TJ8y.00|Adverse reaction to other local anaesthetics|
+|allergy v1|readv2|TJ87.00|Adverse reaction to spinal anaesthetics|
+|allergy v1|readv2|TJ86.00|Adverse reaction to peripheral nerve- and plexus-blocking anaesthetics|
+|allergy v1|readv2|TJ85.00|Adverse reaction to surface and infiltration anaesthetics|
+|allergy v1|readv2|TJ85z00|Adverse reaction to local anaesthetics NOS|
+|allergy v1|readv2|TJ85500|Adverse reaction to tetracaine|
+|allergy v1|readv2|TJ85400|Adverse reaction to procaine hydrochloride|
+|allergy v1|readv2|TJ85300|Adverse reaction to prilocaine hydrochloride|
+|allergy v1|readv2|TJ85200|Adverse reaction to bupivacaine hydrochloride|
+|allergy v1|readv2|TJ85100|Adverse reaction to lignocaine hydrochloride|
+|allergy v1|readv2|TJ85000|Adverse reaction to cocaine|
+|allergy v1|readv2|TJ84.00|Adverse reaction to other general anaesthetics|
+|allergy v1|readv2|TJ83.00|Adverse reaction to intravenous anaesthetics|
+|allergy v1|readv2|TJ83z00|Adverse reaction to intravenous anaesthetic NOS|
+|allergy v1|readv2|TJ83400|Adverse reaction to propofol|
+|allergy v1|readv2|TJ83300|Adverse reaction to etomidate|
+|allergy v1|readv2|TJ83200|Adverse reaction to ketamine|
+|allergy v1|readv2|TJ83100|Adverse reaction to methohexitone sodium|
+|allergy v1|readv2|TJ83011|Adverse reaction to thiopental sodium|
+|allergy v1|readv2|TJ83000|Adverse reaction to thiopentone sodium|
+|allergy v1|readv2|TJ82.00|Adverse reaction to other gaseous anaesthetics|
+|allergy v1|readv2|TJ82z00|Adverse reaction to gaseous anaesthetic NOS|
+|allergy v1|readv2|TJ82500|Adverse reaction to trichloroethylene|
+|allergy v1|readv2|TJ82400|Adverse reaction to enflurane|
+|allergy v1|readv2|TJ82300|Adverse reaction to isoflurane|
+|allergy v1|readv2|TJ82200|Adverse reaction to cyclopropane|
+|allergy v1|readv2|TJ82100|Adverse reaction to nitrous oxide|
+|allergy v1|readv2|TJ82000|Adverse reaction to ether|
+|allergy v1|readv2|TJ81.00|Adverse reaction to halothane|
+|allergy v1|readv2|TJ80.00|Adverse reaction to central nervous system muscle-tone depressants|
+|allergy v1|readv2|TJ80z00|Adverse reaction to central nervous system muscle-tone depressants NOS|
+|allergy v1|readv2|TJ80200|Adverse reaction to methocarbamol|
+|allergy v1|readv2|TJ80100|Adverse reaction to mephenesin|
+|allergy v1|readv2|TJ80000|Adverse reaction to chlorphenesin|
+|allergy v1|readv2|TJ7..00|Adverse reaction to sedatives and hypnotics|
+|allergy v1|readv2|TJ7z.00|Adverse reaction to sedatvies and hypnotics, unspecified|
+|allergy v1|readv2|TJ7zz00|Adverse reaction to sedative or hypnotic NOS|
+|allergy v1|readv2|TJ7z100|Adverse reaction to sedative NOS|
+|allergy v1|readv2|TJ7z000|Adverse reaction to sleeping pill NOS|
+|allergy v1|readv2|TJ7y.00|Adverse reaction to other sedatives and hypnotics|
+|allergy v1|readv2|TJ7yz00|Adverse reaction to other sedatives and hypnotics NOS|
+|allergy v1|readv2|TJ7y300|Adverse reaction to carbamate|
+|allergy v1|readv2|TJ7y200|Adverse reaction to avomine|
+|allergy v1|readv2|TJ7y100|Adverse reaction to promethazine hydrochloride|
+|allergy v1|readv2|TJ7y000|Adverse reaction to methyprylon|
+|allergy v1|readv2|TJ76.00|Adverse reaction to mixed sedatives NEC|
+|allergy v1|readv2|TJ75.00|Adverse reaction to glutethimide group|
+|allergy v1|readv2|TJ74.00|Adverse reaction to methaqualone compounds|
+|allergy v1|readv2|TJ73.00|Adverse reaction to bromine compounds|
+|allergy v1|readv2|TJ73z00|Adverse reaction to bromine compounds NOS|
+|allergy v1|readv2|TJ73100|Adverse reaction to carbromal derivatives|
+|allergy v1|readv2|TJ73000|Adverse reaction to bromide|
+|allergy v1|readv2|TJ72.00|Adverse reaction to paraldehyde|
+|allergy v1|readv2|TJ71.00|Adverse reaction to chloral hydrate group|
+|allergy v1|readv2|TJ71z00|Adverse reaction to chloral hydrate group NOS|
+|allergy v1|readv2|TJ71311|Adverse reaction to clomethiazole edisylate|
+|allergy v1|readv2|TJ71300|Adverse reaction to chlormethiazole edisylate|
+|allergy v1|readv2|TJ71200|Adverse reaction to triclofos sodium|
+|allergy v1|readv2|TJ71100|Adverse reaction to dichloralphenazone|
+|allergy v1|readv2|TJ71000|Adverse reaction to chloral hydrate|
+|allergy v1|readv2|TJ70.00|Adverse reaction to barbiturates|
+|allergy v1|readv2|TJ70z00|Adverse reaction to barbiturate NOS|
+|allergy v1|readv2|TJ70511|Adverse reaction to secobarbital|
+|allergy v1|readv2|TJ70500|Adverse reaction to quinalbarbitone|
+|allergy v1|readv2|TJ70411|Adverse reaction to phenobarbital|
+|allergy v1|readv2|TJ70400|Adverse reaction to phenobarbitone|
+|allergy v1|readv2|TJ70300|Adverse reaction to pentobarbitone|
+|allergy v1|readv2|TJ70211|Adverse reaction to butobarbital|
+|allergy v1|readv2|TJ70200|Adverse reaction to butabarbitone|
+|allergy v1|readv2|TJ70100|Adverse reaction to barbitone|
+|allergy v1|readv2|TJ70011|Adverse reaction to amobarbital|
+|allergy v1|readv2|TJ70000|Adverse reaction to amylobarbitone|
+|allergy v1|readv2|TJ6..00|Adverse reaction to anticonvulsants and anti-parkinsonism drugs|
+|allergy v1|readv2|TJ6z.00|Adverse reaction to anticonvulsant and antiparkinsonism drugs NOS|
+|allergy v1|readv2|TJ64.00|Adverse reaction to antiparkinsonism drugs|
+|allergy v1|readv2|TJ64z00|Adverse reaction to antiparkinsonism drugs NOS|
+|allergy v1|readv2|TJ64500|Adverse reaction to biperiden|
+|allergy v1|readv2|TJ64400|Adverse reaction to orphenadrine|
+|allergy v1|readv2|TJ64300|Adverse reaction to selegiline|
+|allergy v1|readv2|TJ64200|Adverse reaction to benzhexol|
+|allergy v1|readv2|TJ64100|Adverse reaction to levodopa, L-dopa|
+|allergy v1|readv2|TJ64000|Adverse reaction to amantadine|
+|allergy v1|readv2|TJ63.00|Adverse reaction to other anticonvulsants|
+|allergy v1|readv2|TJ63z00|Adverse reaction to anticonvulsants NOS|
+|allergy v1|readv2|TJ63300|Adverse reaction to sodium valproate|
+|allergy v1|readv2|TJ63200|Adverse reaction to carbamazepine|
+|allergy v1|readv2|TJ63100|Adverse reaction to primidone|
+|allergy v1|readv2|TJ63000|Adverse reaction to beclamide|
+|allergy v1|readv2|TJ62.00|Adverse reaction to succinimides|
+|allergy v1|readv2|TJ62z00|Adverse reaction to succinimides NOS|
+|allergy v1|readv2|TJ62100|Adverse reaction to phensuximide|
+|allergy v1|readv2|TJ62000|Adverse reaction to ethosuximide|
+|allergy v1|readv2|TJ61.00|Adverse reaction to hydantoin derivatives|
+|allergy v1|readv2|TJ61z00|Adverse reaction to hydantoin derivatives NOS|
+|allergy v1|readv2|TJ61000|Adverse reaction to phenytoin|
+|allergy v1|readv2|TJ60.00|Adverse reaction to oxazolidine derivatives|
+|allergy v1|readv2|TJ60z00|Adverse reaction to oxazolidine derivatives NOS|
+|allergy v1|readv2|TJ60100|Adverse reaction to trimethadione|
+|allergy v1|readv2|TJ60000|Adverse reaction to paramethadione|
+|allergy v1|readv2|TJ5..00|Adverse reaction to analgesics, antipyretics and antirheumatics|
+|allergy v1|readv2|TJ5..11|Adverse reaction to analgesics|
+|allergy v1|readv2|TJ5..12|Adverse reaction to antipyretics|
+|allergy v1|readv2|TJ5z.00|Adverse reaction to analgesics, anti-pyretics and anti-rheumatics NOS|
+|allergy v1|readv2|TJ5y.00|Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics|
+|allergy v1|readv2|TJ5yz00|Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics NOS|
+|allergy v1|readv2|TJ5y100|Adverse reaction to mefenamic acid|
+|allergy v1|readv2|TJ5y000|Adverse reaction to pentazocine|
+|allergy v1|readv2|TJ57.00|Adverse reaction to other non-narcotic analgesics|
+|allergy v1|readv2|TJ57z00|Adverse reaction to non-narcotic analgesics NOS|
+|allergy v1|readv2|TJ57100|Adverse reaction to pyrabital|
+|allergy v1|readv2|TJ56.00|Adverse reaction to antirheumatics|
+|allergy v1|readv2|TJ56.11|Adverse reaction to non steroidal anti inflammatory drugs|
+|allergy v1|readv2|TJ56z00|Adverse reaction to antirheumatics NOS|
+|allergy v1|readv2|TJ56A00|Adverse reaction to auranofin|
+|allergy v1|readv2|TJ56900|Adverse reaction to sodium aurothiomalate|
+|allergy v1|readv2|TJ56800|Adverse reaction to piroxicam|
+|allergy v1|readv2|TJ56700|Adverse reaction to naproxen|
+|allergy v1|readv2|TJ56600|Adverse reaction to ketoprofen|
+|allergy v1|readv2|TJ56511|Adverse reaction to indometacin|
+|allergy v1|readv2|TJ56500|Adverse reaction to indomethacin|
+|allergy v1|readv2|TJ56400|Adverse reaction to flurbiprofen|
+|allergy v1|readv2|TJ56300|Adverse reaction to fenoprofen|
+|allergy v1|readv2|TJ56200|Adverse reaction to fenbufen|
+|allergy v1|readv2|TJ56100|Adverse reaction to diclofenac sodium|
+|allergy v1|readv2|TJ56000|Adverse reaction to ibuprofen|
+|allergy v1|readv2|TJ55.00|Adverse reaction to pyrazole derivatives|
+|allergy v1|readv2|TJ55z00|Adverse reaction to pyrazole derivatives NOS|
+|allergy v1|readv2|TJ55100|Adverse reaction to aminophenazone|
+|allergy v1|readv2|TJ55000|Adverse reaction to phyenylbytazone|
+|allergy v1|readv2|TJ54.00|Adverse reaction to aromatic analgesics NEC|
+|allergy v1|readv2|TJ54z00|Adverse reaction to aromatic analgesics NOS|
+|allergy v1|readv2|TJ54200|Adverse reaction to acetanilide|
+|allergy v1|readv2|TJ54100|Adverse reaction to phenacetin|
+|allergy v1|readv2|TJ54000|Adverse reaction to paracetamol|
+|allergy v1|readv2|TJ53.11|Adverse reaction to aspirin|
+|allergy v1|readv2|TJ53.00|Adverse reaction to salicylates|
+|allergy v1|readv2|TJ52.00|Adverse reaction to other opiates and related narcotics|
+|allergy v1|readv2|TJ52z00|Adverse reaction to opiates or related narcotics NOS|
+|allergy v1|readv2|TJ52700|Adverse reaction to pethidine hydrochloride|
+|allergy v1|readv2|TJ52600|Adverse reaction to levorphanol tartrate|
+|allergy v1|readv2|TJ52500|Adverse reaction to dipipanone hydrochloride|
+|allergy v1|readv2|TJ52400|Adverse reaction to dihydrocodeine tartrate|
+|allergy v1|readv2|TJ52300|Adverse reaction to dextromoramide|
+|allergy v1|readv2|TJ52200|Adverse reaction to codeine phosphate|
+|allergy v1|readv2|TJ52100|Adverse reaction to buprenorphine|
+|allergy v1|readv2|TJ52000|Adverse reaction to morphine salts|
+|allergy v1|readv2|TJ51.00|Adverse reaction to methadone|
+|allergy v1|readv2|TJ50.00|Adverse reaction to heroin, diamorphine|
+|allergy v1|readv2|TJ4..00|Adverse reaction to agents primarily affecting blood constituents|
+|allergy v1|readv2|TJ4z.00|Adverse reaction to agent affecting blood constituents NOS|
+|allergy v1|readv2|TJ4y.00|Adverse reaction to other agent affecting blood constituents|
+|allergy v1|readv2|TJ4yz00|Adverse reaction to other agent affecting blood constituents NOS|
+|allergy v1|readv2|TJ4y000|Adverse reaction to macromolecular blood substitutes|
+|allergy v1|readv2|TJ47.00|Adverse reaction to natural blood and blood products|
+|allergy v1|readv2|TJ47z00|Adverse reaction to blood or blood products NOS|
+|allergy v1|readv2|TJ47300|Adverse reaction to whole blood|
+|allergy v1|readv2|TJ47200|Adverse reaction to packed red cells|
+|allergy v1|readv2|TJ47100|Adverse reaction to human fibrinogen|
+|allergy v1|readv2|TJ47000|Adverse reaction to blood plasma|
+|allergy v1|readv2|TJ46.00|Adverse reaction to gamma globulin|
+|allergy v1|readv2|TJ45.00|Adverse reaction to anticoagulant antagonists|
+|allergy v1|readv2|TJ45z00|Adverse reaction to anticoagulant antagonist NOS|
+|allergy v1|readv2|TJ45200|Adverse reaction to tranexamic acid|
+|allergy v1|readv2|TJ45111|Adverse reaction to etamsylate|
+|allergy v1|readv2|TJ45100|Adverse reaction to ethamsylate|
+|allergy v1|readv2|TJ45000|Adverse reaction to protamine sulphate|
+|allergy v1|readv2|TJ44.00|Adverse reaction to fibrinolytic drugs|
+|allergy v1|readv2|TJ44z00|Adverse reaction to fibrinolytic drugs NOS|
+|allergy v1|readv2|TJ44100|Adverse reaction to urokinase|
+|allergy v1|readv2|TJ44000|Adverse reaction to streptokinase|
+|allergy v1|readv2|TJ43.00|Adverse reaction to vitamin K|
+|allergy v1|readv2|TJ43z00|Adverse reaction to vitamin K NOS|
+|allergy v1|readv2|TJ43000|Adverse reaction to phytomenadione|
+|allergy v1|readv2|TJ42.00|Adverse reaction to anticoagulants|
+|allergy v1|readv2|TJ42z00|Adverse reaction to anticoagulants NOS|
+|allergy v1|readv2|TJ42300|Adverse reaction to phenindione|
+|allergy v1|readv2|TJ42200|Adverse reaction to nicoumalone|
+|allergy v1|readv2|TJ42100|Adverse reaction to warfarin sodium|
+|allergy v1|readv2|TJ42000|Adverse reaction to heparin|
+|allergy v1|readv2|TJ41.00|Adverse reaction to liver preparations and other antianaemic agents|
+|allergy v1|readv2|TJ41z00|Adverse reaction to liver preparations and other antianaemic agents NOS|
+|allergy v1|readv2|TJ41200|Adverse reaction to folic acid|
+|allergy v1|readv2|TJ41100|Adverse reaction to cyanocobalamin|
+|allergy v1|readv2|TJ41000|Adverse reaction to hydroxocobalamin|
+|allergy v1|readv2|TJ40.00|Adverse reaction to iron and iron compounds|
+|allergy v1|readv2|TJ40z00|Adverse reaction to iron and iron compounds NOS|
+|allergy v1|readv2|TJ40700|Adverse reaction to iron sorbitol injection|
+|allergy v1|readv2|TJ40600|Adverse reaction to iron dextran injection|
+|allergy v1|readv2|TJ40500|Adverse reaction to ferric salts|
+|allergy v1|readv2|TJ40400|Adverse reaction to ferrous succinate|
+|allergy v1|readv2|TJ40300|Adverse reaction to ferrous glycine sulphate|
+|allergy v1|readv2|TJ40200|Adverse reaction to ferrous gluconate|
+|allergy v1|readv2|TJ40100|Adverse reaction to ferrous fumarate|
+|allergy v1|readv2|TJ40000|Adverse reaction to ferrous sulphate|
+|allergy v1|readv2|TJ3..00|Adverse reaction to primarily systemic agents|
+|allergy v1|readv2|TJ3z.00|Adverse reaction to systemic agent NOS|
+|allergy v1|readv2|TJ35.00|Adverse reaction to vitamins NEC|
+|allergy v1|readv2|TJ35z00|Adverse reaction to vitamin NOS|
+|allergy v1|readv2|TJ35100|Adverse reaction to vitamin D|
+|allergy v1|readv2|TJ35000|Adverse reaction to vitamin A|
+|allergy v1|readv2|TJ34.00|Adverse reaction to enzymes NEC|
+|allergy v1|readv2|TJ34z00|Adverse reaction to enzymes NOS|
+|allergy v1|readv2|TJ34000|Adverse reaction to penicillamine|
+|allergy v1|readv2|TJ33.00|Adverse reaction to alkalising agents|
+|allergy v1|readv2|TJ32.00|Adverse reaction to acidifying agents|
+|allergy v1|readv2|TJ31.00|Adverse reaction to antineoplastic and immunosuppressive drugs|
+|allergy v1|readv2|TJ31z00|Adverse reaction to antineoplastic and immunosuppressive drugs NOS|
+|allergy v1|readv2|TJ31S11|Adverse reaction to ciclosporin|
+|allergy v1|readv2|TJ31S00|Adverse reaction to cyclosporin|
+|allergy v1|readv2|TJ31R00|Adverse reaction to antilymphocyte immunoglobulin|
+|allergy v1|readv2|TJ31Q00|Adverse reaction to azathioprine|
+|allergy v1|readv2|TJ31P00|Adverse reaction to razoxane|
+|allergy v1|readv2|TJ31N00|Adverse reaction to procarbazine|
+|allergy v1|readv2|TJ31M00|Adverse reaction to mitozantrone|
+|allergy v1|readv2|TJ31L00|Adverse reaction to hydroxyurea|
+|allergy v1|readv2|TJ31K00|Adverse reaction to cisplatin|
+|allergy v1|readv2|TJ31J00|Adverse reaction to carboplatin|
+|allergy v1|readv2|TJ31H00|Adverse reaction to vincristine sulphate|
+|allergy v1|readv2|TJ31G00|Adverse reaction to vinblastine sulphate|
+|allergy v1|readv2|TJ31F00|Adverse reaction to etoposide|
+|allergy v1|readv2|TJ31E11|Adverse reaction to tioguanine|
+|allergy v1|readv2|TJ31E00|Adverse reaction to thioguanine|
+|allergy v1|readv2|TJ31D00|Adverse reaction to methotrexate|
+|allergy v1|readv2|TJ31C00|Adverse reaction to mercaptopurine|
+|allergy v1|readv2|TJ31B00|Adverse reaction to fluorouracil|
+|allergy v1|readv2|TJ31A00|Adverse reaction to cytarabine|
+|allergy v1|readv2|TJ31900|Adverse reaction to treosulfan|
+|allergy v1|readv2|TJ31800|Adverse reaction to thiotepa|
+|allergy v1|readv2|TJ31700|Adverse reaction to mustine hydrochloride|
+|allergy v1|readv2|TJ31600|Adverse reaction to melphalan|
+|allergy v1|readv2|TJ31500|Adverse reaction to lomustine|
+|allergy v1|readv2|TJ31400|Adverse reaction to estramustine phosphate|
+|allergy v1|readv2|TJ31300|Adverse reaction to cyclophosphamide|
+|allergy v1|readv2|TJ31200|Adverse reaction to chlorambucil|
+|allergy v1|readv2|TJ31100|Adverse reaction to carmustine|
+|allergy v1|readv2|TJ31011|Adverse reaction to busulfan|
+|allergy v1|readv2|TJ31000|Adverse reaction to busulphan|
+|allergy v1|readv2|TJ30.00|Adverse reaction to antiallergic and antiemetic drugs|
+|allergy v1|readv2|TJ30z00|Adverse reaction to antiallergic and antiemetic drugs NOS|
+|allergy v1|readv2|TJ30300|Adverse reaction to metoclopramide|
+|allergy v1|readv2|TJ30200|Adverse reaction to diphenylpyraline|
+|allergy v1|readv2|TJ30100|Adverse reaction to chlorpheniramine|
+|allergy v1|readv2|TJ30000|Adverse reaction to antihistamines|
+|allergy v1|readv2|TJ2..00|Adverse reaction to hormones and synthetic substitutes|
+|allergy v1|readv2|TJ2z.00|Adverse reaction to hormones and synthetic substances NOS|
+|allergy v1|readv2|TJ28.00|Adverse reaction to antithyroid agents|
+|allergy v1|readv2|TJ28z00|Adverse reaction to antithyroid agents NOS|
+|allergy v1|readv2|TJ28200|Adverse reaction to propylthiouracil|
+|allergy v1|readv2|TJ28100|Adverse reaction to iodine or iodide|
+|allergy v1|readv2|TJ28000|Adverse reaction to carbimazole|
+|allergy v1|readv2|TJ27.00|Adverse reaction to thyroid and thyroid derivatives|
+|allergy v1|readv2|TJ27z00|Adverse reaction to thyroid and thyroid derivatives NOS|
+|allergy v1|readv2|TJ27200|Adverse reaction to thyroglobulin|
+|allergy v1|readv2|TJ27100|Adverse reaction to thyroxine sodium|
+|allergy v1|readv2|TJ27000|Adverse reaction to liothyronine sodium|
+|allergy v1|readv2|TJ26.00|Adverse reaction to parathyroid and parathyroid derivatives|
+|allergy v1|readv2|TJ26z00|Adverse reaction to parathyroid and parathyroid derivatives NOS|
+|allergy v1|readv2|TJ26100|Adverse reaction to salcatonin|
+|allergy v1|readv2|TJ26000|Adverse reaction to calcitonin|
+|allergy v1|readv2|TJ25.00|Adverse reaction to posterior pituitary hormones|
+|allergy v1|readv2|TJ25z00|Adverse reaction to posterior pituitary hormone NOS|
+|allergy v1|readv2|TJ25300|Adverse reaction to terlipressin|
+|allergy v1|readv2|TJ25200|Adverse reaction to lypressin|
+|allergy v1|readv2|TJ25100|Adverse reaction to desmopressin|
+|allergy v1|readv2|TJ25000|Adverse reaction to vasopressin|
+|allergy v1|readv2|TJ24.00|Adverse reaction to anterior pituitary hormones|
+|allergy v1|readv2|TJ24z00|Adverse reaction to anterior pituitary hormone NOS|
+|allergy v1|readv2|TJ24300|Adverse reaction to somatotrophin, growth hormone|
+|allergy v1|readv2|TJ24200|Adverse reaction to follicle stimulating hormone, FSH|
+|allergy v1|readv2|TJ24100|Adverse reaction to chorionic gonadotrophin|
+|allergy v1|readv2|TJ24000|Adverse reaction to corticotrophin, ACTH|
+|allergy v1|readv2|TJ23.00|Adverse reaction to insulins and antidiabetic agents|
+|allergy v1|readv2|TJ23z00|Adverse reaction to insulins and antidiabetic agents NOS|
+|allergy v1|readv2|TJ23B00|Adverse reaction to glucagon|
+|allergy v1|readv2|TJ23A00|Adverse reaction to metformin hydrochloride|
+|allergy v1|readv2|TJ23900|Adverse reaction to tolbutamide|
+|allergy v1|readv2|TJ23800|Adverse reaction to tolazamide|
+|allergy v1|readv2|TJ23700|Adverse reaction to glymidine|
+|allergy v1|readv2|TJ23600|Adverse reaction to gliquidone|
+|allergy v1|readv2|TJ23500|Adverse reaction to glipizide|
+|allergy v1|readv2|TJ23400|Adverse reaction to gliclazide|
+|allergy v1|readv2|TJ23300|Adverse reaction to glibenclamide|
+|allergy v1|readv2|TJ23200|Adverse reaction to chlorpropamide|
+|allergy v1|readv2|TJ23100|Adverse reaction to acetohexamide|
+|allergy v1|readv2|TJ23000|Adverse reaction to insulins|
+|allergy v1|readv2|TJ22.00|Adverse reaction to ovarian hormones and synthetic substitutes|
+|allergy v1|readv2|TJ22z00|Adverse reaction to ovarian hormone or synthetic substitute NOS|
+|allergy v1|readv2|TJ22y00|Adverse reaction to unspecified oral contraceptive|
+|allergy v1|readv2|TJ22x00|Adverse reaction to combined oestrogens and progestogens|
+|allergy v1|readv2|TJ22A00|Adverse reaction to progesterone|
+|allergy v1|readv2|TJ22900|Adverse reaction to norethisterone|
+|allergy v1|readv2|TJ22800|Adverse reaction to medroxyprogesterone acetate|
+|allergy v1|readv2|TJ22711|Adverse reaction to hydroxyprogesterone caproate|
+|allergy v1|readv2|TJ22700|Adverse reaction to hydroxyprogesterone hexanoate|
+|allergy v1|readv2|TJ22600|Adverse reaction to dydrogesterone|
+|allergy v1|readv2|TJ22500|Adverse reaction to allyloestrenol|
+|allergy v1|readv2|TJ22411|Adverse reaction to piperazine estrone sulphate|
+|allergy v1|readv2|TJ22400|Adverse reaction to piperazine oestrone sulphate|
+|allergy v1|readv2|TJ22300|Adverse reaction to conjugated oestrogens|
+|allergy v1|readv2|TJ22200|Adverse reaction to oestriol|
+|allergy v1|readv2|TJ22100|Adverse reaction to oestradiol|
+|allergy v1|readv2|TJ22011|Adverse reaction to ethinylestradiol|
+|allergy v1|readv2|TJ22000|Adverse reaction to ethinyloestradiol|
+|allergy v1|readv2|TJ21.00|Adverse reaction to androgens and anabolic steroids|
+|allergy v1|readv2|TJ21z00|Adverse reaction to androgen or anabolic steroid NOS|
+|allergy v1|readv2|TJ21500|Adverse reaction to stanozolol|
+|allergy v1|readv2|TJ21400|Adverse reaction to nandrolone|
+|allergy v1|readv2|TJ21300|Adverse reaction to testosterone esters|
+|allergy v1|readv2|TJ21200|Adverse reaction to testosterone|
+|allergy v1|readv2|TJ21100|Adverse reaction to methyltestosterone|
+|allergy v1|readv2|TJ21000|Adverse reaction to mesterolone|
+|allergy v1|readv2|TJ20.00|Adverse reaction to adrenal cortical steroids|
+|allergy v1|readv2|TJ20z00|Adverse reaction to adrenal cortical steroid NOS|
+|allergy v1|readv2|TJ20800|Adverse reaction to triamcinolone|
+|allergy v1|readv2|TJ20700|Adverse reaction to prednisone|
+|allergy v1|readv2|TJ20600|Adverse reaction to prednisolone|
+|allergy v1|readv2|TJ20500|Adverse reaction to methylprednisolone|
+|allergy v1|readv2|TJ20400|Adverse reaction to hydrocortisone|
+|allergy v1|readv2|TJ20300|Adverse reaction to cortisone acetate|
+|allergy v1|readv2|TJ20200|Adverse reaction to dexamethasone|
+|allergy v1|readv2|TJ20100|Adverse reaction to betamethasone|
+|allergy v1|readv2|TJ20000|Adverse reaction to fludrocortisone acetate|
+|allergy v1|readv2|TJ1..00|Adverse reaction to other anti-infectives|
+|allergy v1|readv2|TJ1z.00|Adverse reaction to other and unspecified anti-infectives|
+|allergy v1|readv2|TJ1zz00|Adverse reaction to anti-infective NOS|
+|allergy v1|readv2|TJ1z400|Adverse reaction to flucytosine|
+|allergy v1|readv2|TJ1z300|Adverse reaction to hexamine|
+|allergy v1|readv2|TJ1z200|Adverse reaction to nitrofuantoin|
+|allergy v1|readv2|TJ1z100|Adverse reaction to nalidixic acid|
+|allergy v1|readv2|TJ1z000|Adverse reaction to ciprofloxacin|
+|allergy v1|readv2|TJ18.00|Adverse reaction to other antimycobacterial drugs|
+|allergy v1|readv2|TJ18z00|Adverse reaction to antimycobacterial drug NOS|
+|allergy v1|readv2|TJ18500|Adverse reaction to clofazimine|
+|allergy v1|readv2|TJ18400|Adverse reaction to dapsone|
+|allergy v1|readv2|TJ18300|Adverse reaction to para-aminosalicylic acid|
+|allergy v1|readv2|TJ18200|Adverse reaction to isoniazid|
+|allergy v1|readv2|TJ18100|Adverse reaction to ethionamide|
+|allergy v1|readv2|TJ18000|Adverse reaction to ethambutol|
+|allergy v1|readv2|TJ17.00|Adverse reaction to antiviral drugs|
+|allergy v1|readv2|TJ17z00|Adverse reaction to antiviral drug NOS|
+|allergy v1|readv2|TJ17400|Adverse reaction to zidovudine|
+|allergy v1|readv2|TJ17300|Adverse reaction to vidarabine|
+|allergy v1|readv2|TJ17200|Adverse reaction to tribavirin|
+|allergy v1|readv2|TJ17100|Adverse reaction to inosine pranobex|
+|allergy v1|readv2|TJ17000|Adverse reaction to aciclovir|
+|allergy v1|readv2|TJ16.00|Adverse reaction to antihelminthics|
+|allergy v1|readv2|TJ16z00|Adverse reaction to antihelminthic NOS|
+|allergy v1|readv2|TJ16700|Adverse reaction to male fern oleoresin|
+|allergy v1|readv2|TJ16600|Adverse reaction to hexylresorcinol|
+|allergy v1|readv2|TJ16500|Adverse reaction to thiabenazole|
+|allergy v1|readv2|TJ16400|Adverse reaction to bephenium|
+|allergy v1|readv2|TJ16300|Adverse reaction to niclosamide|
+|allergy v1|readv2|TJ16200|Adverse reaction to pyrantel|
+|allergy v1|readv2|TJ16100|Adverse reaction to piperazine|
+|allergy v1|readv2|TJ16000|Adverse reaction to mebendazole|
+|allergy v1|readv2|TJ15.00|Adverse reaction to other antiprotozoal drugs|
+|allergy v1|readv2|TJ15z00|Adverse reaction to antiprotozoal drugs NOS|
+|allergy v1|readv2|TJ15300|Adverse reaction to metronidazole|
+|allergy v1|readv2|TJ15200|Adverse reaction to diloxanide furoate|
+|allergy v1|readv2|TJ15100|Adverse reaction to pentamidine isethionate|
+|allergy v1|readv2|TJ15000|Adverse reaction to emetine|
+|allergy v1|readv2|TJ14.00|Adverse reaction to antimalarials|
+|allergy v1|readv2|TJ14z00|Adverse reaction to antimalarials NOS|
+|allergy v1|readv2|TJ14500|Adverse reaction to cycloguanil|
+|allergy v1|readv2|TJ14400|Adverse reaction to quinine|
+|allergy v1|readv2|TJ14300|Adverse reaction to pyrimethamine|
+|allergy v1|readv2|TJ14200|Adverse reaction to proguanil hydrochloride|
+|allergy v1|readv2|TJ14100|Adverse reaction to primaquine|
+|allergy v1|readv2|TJ14000|Adverse reaction to chloroquine|
+|allergy v1|readv2|TJ13.00|Adverse reaction to quinolone and hydroxyquinoline derivatives|
+|allergy v1|readv2|TJ13z00|Adverse reaction to quinolone and hydroxyquinoline derivatives NOS|
+|allergy v1|readv2|TJ13100|Adverse reaction to diiodohydroxyquin|
+|allergy v1|readv2|TJ13000|Adverse reaction to chiniofon|
+|allergy v1|readv2|TJ12.00|Adverse reaction to heavy metal anti-infectives|
+|allergy v1|readv2|TJ12z00|Adverse reaction to heavy metal anti-infectives NOS|
+|allergy v1|readv2|TJ12300|Adverse reaction to mercury compound|
+|allergy v1|readv2|TJ12200|Adverse reaction to lead compound|
+|allergy v1|readv2|TJ12100|Adverse reaction to bismuth compound|
+|allergy v1|readv2|TJ12000|Adverse reaction to antimony compound|
+|allergy v1|readv2|TJ11.00|Adverse reaction to arsenical anti-infectives|
+|allergy v1|readv2|TJ10.00|Adverse reaction to sulphonamides|
+|allergy v1|readv2|TJ10z00|Adverse reaction to sulphonamide NOS|
+|allergy v1|readv2|TJ10500|Adverse reaction to sulphaurea|
+|allergy v1|readv2|TJ10400|Adverse reaction to sulphafurazole|
+|allergy v1|readv2|TJ10311|Adverse reaction to sulfamethoxazole|
+|allergy v1|readv2|TJ10300|Adverse reaction to sulphamethoxazole|
+|allergy v1|readv2|TJ10200|Adverse reaction to sulphaguanidine|
+|allergy v1|readv2|TJ10111|Adverse reaction to sulfadimidine|
+|allergy v1|readv2|TJ10100|Adverse reaction to sulphadimidine|
+|allergy v1|readv2|TJ10011|Adverse reaction to sulfadiazine|
+|allergy v1|readv2|TJ10000|Adverse reaction to sulphadiazine|
+|allergy v1|readv2|TJ0..00|Adverse reaction to antibiotics|
+|allergy v1|readv2|TJ0z.00|Adverse reaction to antibiotic NOS|
+|allergy v1|readv2|TJ0y.00|Adverse reaction to other antibiotics|
+|allergy v1|readv2|TJ0yz00|Adverse reaction to other antibiotics NOS|
+|allergy v1|readv2|TJ0yD00|Adverse reaction to cotrimoxazole|
+|allergy v1|readv2|TJ0yC00|Adverse reaction to trimethoprim|
+|allergy v1|readv2|TJ0yB00|Adverse reaction to vancomycin|
+|allergy v1|readv2|TJ0yA00|Adverse reaction to polymyxin B sulphate|
+|allergy v1|readv2|TJ0y900|Adverse reaction to sodium fusidate|
+|allergy v1|readv2|TJ0y800|Adverse reaction to colistin|
+|allergy v1|readv2|TJ0y700|Adverse reaction to lincomycin|
+|allergy v1|readv2|TJ0y600|Adverse reaction to clindamycin|
+|allergy v1|readv2|TJ0y500|Adverse reaction to tobramycin|
+|allergy v1|readv2|TJ0y400|Adverse reaction to neomycin sulphate|
+|allergy v1|readv2|TJ0y300|Adverse reaction to kanamycin|
+|allergy v1|readv2|TJ0y200|Adverse reaction to framycetin sulphate|
+|allergy v1|readv2|TJ0y100|Adverse reaction to amikacin|
+|allergy v1|readv2|TJ0y000|Adverse reaction to gentamicin|
+|allergy v1|readv2|TJ07.00|Adverse reaction to antineoplastic antibiotics|
+|allergy v1|readv2|TJ07z00|Adverse reaction to antineoplastic antibiotics NOS|
+|allergy v1|readv2|TJ07400|Adverse reaction to plicamycin|
+|allergy v1|readv2|TJ07300|Adverse reaction to mitomycin|
+|allergy v1|readv2|TJ07200|Adverse reaction to doxorubicin hydrochloride|
+|allergy v1|readv2|TJ07100|Adverse reaction to bleomycin|
+|allergy v1|readv2|TJ07000|Adverse reaction to actinomycin D|
+|allergy v1|readv2|TJ06.00|Adverse reaction to antimycobacterial antibiotics|
+|allergy v1|readv2|TJ06z00|Adverse reaction to antimycobacterial antibiotic NOS|
+|allergy v1|readv2|TJ06400|Adverse reaction to streptomycin|
+|allergy v1|readv2|TJ06300|Adverse reaction to rifampicin|
+|allergy v1|readv2|TJ06200|Adverse reaction to pyrazinamide|
+|allergy v1|readv2|TJ06100|Adverse reaction to cycloserine|
+|allergy v1|readv2|TJ06000|Adverse reaction to capreomycin|
+|allergy v1|readv2|TJ05.00|Adverse reaction to cephalosporin group|
+|allergy v1|readv2|TJ05z00|Adverse reaction to cephalosporin NOS|
+|allergy v1|readv2|TJ05B11|Adverse reaction to cefradine|
+|allergy v1|readv2|TJ05B00|Adverse reaction to cephradine|
+|allergy v1|readv2|TJ05A11|Adverse reaction to cefazolin|
+|allergy v1|readv2|TJ05A00|Adverse reaction to cephazolin|
+|allergy v1|readv2|TJ05900|Adverse reaction to cephamandole|
+|allergy v1|readv2|TJ05800|Adverse reaction to cephalothin|
+|allergy v1|readv2|TJ05711|Adverse reaction to cefalexin|
+|allergy v1|readv2|TJ05700|Adverse reaction to cephalexin|
+|allergy v1|readv2|TJ05600|Adverse reaction to ceftizoxime|
+|allergy v1|readv2|TJ05500|Adverse reaction to ceftazidime|
+|allergy v1|readv2|TJ05400|Adverse reaction to cefsulodin sodium|
+|allergy v1|readv2|TJ05300|Adverse reaction to cefoxitin|
+|allergy v1|readv2|TJ05200|Adverse reaction to cefotaxime|
+|allergy v1|readv2|TJ05100|Adverse reaction to cefadroxil|
+|allergy v1|readv2|TJ05000|Adverse reaction to cefaclor|
+|allergy v1|readv2|TJ04.00|Adverse reaction to tetracycline group|
+|allergy v1|readv2|TJ04z00|Adverse reaction to tetracycline NOS|
+|allergy v1|readv2|TJ04700|Adverse reaction to oxytetracycline|
+|allergy v1|readv2|TJ04600|Adverse reaction to minocycline|
+|allergy v1|readv2|TJ04500|Adverse reaction to lymecycline|
+|allergy v1|readv2|TJ04400|Adverse reaction to doxycycline|
+|allergy v1|readv2|TJ04300|Adverse reaction to demeclocycline hydrochloride|
+|allergy v1|readv2|TJ04200|Adverse reaction to clomocycline sodium|
+|allergy v1|readv2|TJ04100|Adverse reaction to chlortetracycline hydrochloride|
+|allergy v1|readv2|TJ04000|Adverse reaction to tetracycline|
+|allergy v1|readv2|TJ03.00|Adverse reaction to erythromycin and other macrolides|
+|allergy v1|readv2|TJ03z00|Adverse reaction to macrolide NOS|
+|allergy v1|readv2|TJ03300|Clarithromycin adverse reaction|
+|allergy v1|readv2|TJ03200|Adverse reaction to spiramycin|
+|allergy v1|readv2|TJ03100|Adverse reaction to oleandomycin|
+|allergy v1|readv2|TJ03000|Adverse reaction to erythromycin|
+|allergy v1|readv2|TJ02.00|Adverse reaction to chloramphenicol group|
+|allergy v1|readv2|TJ02z00|Adverse reaction to chloramphenicol group NOS|
+|allergy v1|readv2|TJ02100|Adverse reaction to thiamphenicol|
+|allergy v1|readv2|TJ02000|Adverse reaction to chloramphenicol|
+|allergy v1|readv2|TJ01.00|Adverse reaction to antifungal antibiotics|
+|allergy v1|readv2|TJ01z00|Adverse reaction to antifungal antibiotics NOS|
+|allergy v1|readv2|TJ01500|Adverse reaction to nystatin|
+|allergy v1|readv2|TJ01400|Adverse reaction to natamycin|
+|allergy v1|readv2|TJ01300|Adverse reaction to miconazole|
+|allergy v1|readv2|TJ01200|Adverse reaction to ketoconazole|
+|allergy v1|readv2|TJ01100|Adverse reaction to griseofulvin|
+|allergy v1|readv2|TJ01000|Adverse reaction to amphotericin|
+|allergy v1|readv2|TJ00.00|Adverse reaction to penicillins|
+|allergy v1|readv2|TJ00z00|Adverse reaction to penicillin NOS|
+|allergy v1|readv2|TJ00G00|Adverse reaction to pivmecillinam|
+|allergy v1|readv2|TJ00F00|Adverse reaction to mecillinam|
+|allergy v1|readv2|TJ00E00|Adverse reaction to ticarcillin|
+|allergy v1|readv2|TJ00D00|Adverse reaction to piperacillin|
+|allergy v1|readv2|TJ00C00|Adverse reaction to carfecillin sodium|
+|allergy v1|readv2|TJ00B00|Adverse reaction to carbenicillin|
+|allergy v1|readv2|TJ00A00|Adverse reaction to azlocillin|
+|allergy v1|readv2|TJ00900|Adverse reaction to talampicillin|
+|allergy v1|readv2|TJ00800|Adverse reaction to pivampicillin|
+|allergy v1|readv2|TJ00700|Adverse reaction to mezlocillin|
+|allergy v1|readv2|TJ00600|Adverse reaction to ciclacillin|
+|allergy v1|readv2|TJ00500|Adverse reaction to bacampicillin|
+|allergy v1|readv2|TJ00400|Adverse reaction to ampicillin|
+|allergy v1|readv2|TJ00311|Adverse reaction to amoxicillin|
+|allergy v1|readv2|TJ00300|Adverse reaction to amoxycillin|
+|allergy v1|readv2|TJ00200|Adverse reaction to flucloxacillin|
+|allergy v1|readv2|TJ00100|Adverse reaction to cloxacillin|
+|allergy v1|readv2|TJ00000|Adverse reaction to natural penicillins|
+|allergy v1|readv2|U60..11|[X]AR- Adverse reaction to drugs/medicines/biological substances|
+|allergy v1|readv2|U60K.11|[X] Adverse reaction to other vaccines and biological substances|
+|allergy v1|readv2|U60Kz11|[X] Adverse reaction to vaccine or biological substance NOS|
+|allergy v1|readv2|U60Kz12|[X] Adverse reaction to vaccine|
+|allergy v1|readv2|U60K311|[X] Adverse reaction to gamma globulin|
+|allergy v1|readv2|U60K312|[X] Adverse reaction to tetanus antitoxin|
+|allergy v1|readv2|U60K111|[X] Adverse reaction to typhus vaccine|
+|allergy v1|readv2|U60K011|[X] Adverse reaction to smallpox vaccine|
+|allergy v1|readv2|U60K012|[X] Adverse reaction to rabies vaccine|
+|allergy v1|readv2|U60K013|[X] Adverse reaction to yellow fever vaccine|
+|allergy v1|readv2|U60K014|[X] Adverse reaction to measles vaccine|
+|allergy v1|readv2|U60K015|[X] Adverse reaction to poliomyelitis vaccine|
+|allergy v1|readv2|U60K016|[X] Adverse reaction to mumps vaccine|
+|allergy v1|readv2|U60K017|[X] Adverse reaction to rubella vaccine|
+|allergy v1|readv2|U60J.11|[X] Adverse reaction to bacterial vaccines|
+|allergy v1|readv2|U60Jy11|[X] Adverse reaction to other bacterial vaccines|
+|allergy v1|readv2|U60Jy12|[X] Adverse reaction to meningococcal vaccine|
+|allergy v1|readv2|U60Jy13|[X] Adverse reaction to other bacterial vaccine NOS|
+|allergy v1|readv2|U60J811|[X]Adverse reaction to pneumococcal vaccine|
+|allergy v1|readv2|U60J711|[X] Adverse reaction to mixed bacterial vaccine, without pertussis|
+|allergy v1|readv2|U60J611|[X] Adverse reaction to pertussis vaccine, including combinations|
+|allergy v1|readv2|U60J511|[X] Adverse reaction to diphtheria vaccine|
+|allergy v1|readv2|U60J411|[X] Adverse reaction to tetanus vaccine|
+|allergy v1|readv2|U60J311|[X] Adverse reaction to plague vaccine|
+|allergy v1|readv2|U60J211|[X] Adverse reaction to cholera vaccine|
+|allergy v1|readv2|U60J111|[X] Adverse reaction to typhoid and paratyphoid vaccines|
+|allergy v1|readv2|U60J112|[X] Adverse reaction to typhoid vaccine|
+|allergy v1|readv2|U60J113|[X] Adverse reaction to paratyphoid vaccine|
+|allergy v1|readv2|U60J114|[X] Adverse reaction to typhoid or paratyphoid vaccine NOS|
+|allergy v1|readv2|U60J011|[X] Adverse reaction to BCG vaccine|
+|allergy v1|readv2|U60H.11|[X] Adverse reaction to other drugs and medicines|
+|allergy v1|readv2|U60H911|[X] Adverse reaction to drug or medicinal substance NOS|
+|allergy v1|readv2|U60H912|[X] Adverse reaction to drug NOS|
+|allergy v1|readv2|U60H811|[X] Adverse reaction to other drug or medicine NOS|
+|allergy v1|readv2|U60H711|[X] Adverse reaction to vitamins|
+|allergy v1|readv2|U60H712|[X] Adverse reaction to vitamin A|
+|allergy v1|readv2|U60H713|[X] Adverse reaction to vitamin NOS|
+|allergy v1|readv2|U60H611|[X] Adverse reaction to diagnostic agents and kits NOS|
+|allergy v1|readv2|U60H511|[X] Adverse reaction to contrast media for diagnostic X-rays NOS|
+|allergy v1|readv2|U60H411|[X] Adverse reaction to pharmaceutical excipients|
+|allergy v1|readv2|U60H311|[X] Adverse reaction to alcohol deterrents|
+|allergy v1|readv2|U60H211|[X] Adverse reaction to penicillamine|
+|allergy v1|readv2|U60H212|[X] Adverse reaction to antidotes and chelating agents NEC|
+|allergy v1|readv2|U60H111|[X] Adverse reaction to lipotropic drugs|
+|allergy v1|readv2|U60H011|[X] Adverse reaction to dietetics|
+|allergy v1|readv2|U60G.11|[X] Adverse reaction to skin, mucous membrane, eye, ENT and dental drug|
+|allergy v1|readv2|U60GA00|[X]Topical hydrocortisone adverse reaction|
+|allergy v1|readv2|U60G911|[X] Adverse reaction to skin, eye, ENT and dental drugs NOS|
+|allergy v1|readv2|U60G811|[X] Adverse reaction to other skin, eye, ENT and dental drugs|
+|allergy v1|readv2|U60G711|[X] Adverse reaction to dental drugs topically applied|
+|allergy v1|readv2|U60G611|[X] Adverse reaction to anti-infectives and other ENT drugs|
+|allergy v1|readv2|U60G511|[X] Adverse reaction to eye drugs|
+|allergy v1|readv2|U60G512|[X] Adverse reaction to eye drugs NOS|
+|allergy v1|readv2|U60G411|[X] Adverse reaction to keratolytics, keratoplastics and other hair drugs|
+|allergy v1|readv2|U60G311|[X] Adverse reaction to emollients, demulcents and protectants|
+|allergy v1|readv2|U60G211|[X] Adverse reaction to local astringents and local detergents|
+|allergy v1|readv2|U60G111|[X] Adverse reaction to antipruritics|
+|allergy v1|readv2|U60G011|[X] Adverse reaction to local anti-infectives and anti-inflammatories|
+|allergy v1|readv2|U60G012|[X] Adverse reaction to ketoconazole|
+|allergy v1|readv2|U60G013|[X] Adverse reaction to miconazole|
+|allergy v1|readv2|U60G014|[X] Local adverse reaction to neomycin|
+|allergy v1|readv2|U60G015|[X] Adverse reaction to natamycin|
+|allergy v1|readv2|U60G016|[X] Adverse reaction to bismuth compound|
+|allergy v1|readv2|U60G017|[X] Adverse reaction to betamethasone|
+|allergy v1|readv2|U60G018|[X] Adverse reaction to local anti-infective/inflammatory NOS|
+|allergy v1|readv2|U60G01B|[X]Adverse reaction to local anti-inflammatory drug|
+|allergy v1|readv2|U60G019|[X]Adverse reaction to local antifungal drug|
+|allergy v1|readv2|U60G01A|[X]Adverse reaction to local anti-infective drug|
+|allergy v1|readv2|U60F.11|[X] Adverse reaction to smooth/skeletal muscle and respiratory drugs|
+|allergy v1|readv2|U60F.12|[X] Adverse reaction smooth/skeletal muscle and respiratory system drug NOS|
+|allergy v1|readv2|U60F711|[X] Adverse reaction to other respiratory system drugs|
+|allergy v1|readv2|U60F611|[X] Adverse reaction to antiasthmatics|
+|allergy v1|readv2|U60F612|[X] Adverse reaction to salbutamol|
+|allergy v1|readv2|U60F613|[X] Adverse reaction to ipratropium bromide|
+|allergy v1|readv2|U60F614|[X] Adverse reaction to aminophylline|
+|allergy v1|readv2|U60F615|[X] Adverse reaction to theophylline - asthma|
+|allergy v1|readv2|U60F616|[X] Adverse reaction to sodium cromoglicate|
+|allergy v1|readv2|U60F617|[X] Adverse reaction to oxitropium|
+|allergy v1|readv2|U60F618|[X] Adverse reaction to theobromine|
+|allergy v1|readv2|U60F619|[X] Adverse reaction to theophylline|
+|allergy v1|readv2|U60F61A|[X] Adverse reaction to antiasthmatic NOS|
+|allergy v1|readv2|U60F511|[X] Adverse reaction to anti-common cold drugs|
+|allergy v1|readv2|U60F411|[X] Adverse reaction to expectorants|
+|allergy v1|readv2|U60F412|[X] Adverse reaction to acetylcysteine|
+|allergy v1|readv2|U60F413|[X] Adverse reaction to ipecacuanha|
+|allergy v1|readv2|U60F414|[X] Adverse reaction to expectorants NOS|
+|allergy v1|readv2|U60F311|[X] Adverse reaction to antitussives|
+|allergy v1|readv2|U60F312|[X] Adverse reaction to dextromethorphan|
+|allergy v1|readv2|U60F313|[X] Adverse reaction to pipazethate hydrochloride|
+|allergy v1|readv2|U60F314|[X] Adverse reaction to antitussive NOS|
+|allergy v1|readv2|U60F211|[X] Adverse reaction to other muscle drugs|
+|allergy v1|readv2|U60F212|[X] Adverse reaction to orciprenaline|
+|allergy v1|readv2|U60F111|[X] Adverse reaction to skeletal muscle relaxants|
+|allergy v1|readv2|U60F112|[X] Adverse reaction to alcuronium|
+|allergy v1|readv2|U60F113|[X] Adverse reaction to gallamine triethiodide|
+|allergy v1|readv2|U60F114|[X] Adverse reaction to tubocurarine|
+|allergy v1|readv2|U60F115|[X] Adverse reaction to tubocurare|
+|allergy v1|readv2|U60F116|[X] Adverse reaction to suxamethonium|
+|allergy v1|readv2|U60F117|[X] Adverse reaction to skeletal muscle relaxant NOS|
+|allergy v1|readv2|U60F011|[X] Adverse reaction to oxytocic agents|
+|allergy v1|readv2|U60F012|[X] Adverse reaction to prostaglandins|
+|allergy v1|readv2|U60F013|[X] Adverse reaction to ergometrine|
+|allergy v1|readv2|U60F014|[X] Adverse reaction to oxytocin|
+|allergy v1|readv2|U60F015|[X] Adverse reaction to oxytocic agent NOS|
+|allergy v1|readv2|U60E.11|[X] Adverse reaction to water/mineral/uric acid metabolism drugs|
+|allergy v1|readv2|U60E.12|[X] Adverse reaction water/mineral/uric acid metabolism drug NOS|
+|allergy v1|readv2|U60Ez11|[X] Adverse reaction to other mineral salts NEC|
+|allergy v1|readv2|U60E812|[X] Adverse reaction to colchicine|
+|allergy v1|readv2|U60E813|[X] Adverse reaction to allopurinol|
+|allergy v1|readv2|U60E814|[X] Adverse reaction to probenecid|
+|allergy v1|readv2|U60E815|[X] Adverse reaction to sulfinpyrazone|
+|allergy v1|readv2|U60E816|[X] Adverse reaction to uric acid metabolism drug NOS|
+|allergy v1|readv2|U60E811|[X] Adverse reaction to uric acid metabolism drugs|
+|allergy v1|readv2|U60E711|[X] Adverse reaction to parathyroid and parathyroid derivatives|
+|allergy v1|readv2|U60E712|[X] Adverse reaction to vitamin D|
+|allergy v1|readv2|U60E713|[X] Adverse reaction to calcitonin|
+|allergy v1|readv2|U60E714|[X] Adverse reaction to salcatonin|
+|allergy v1|readv2|U60E715|[X] Adverse reaction to parathyroid and parathyroid derivatives, NOS|
+|allergy v1|readv2|U60E611|[X] Adverse reaction to electrolytic/caloric/water balance drugs|
+|allergy v1|readv2|U60E511|[X] Adverse reaction to mercurial diuretic|
+|allergy v1|readv2|U60E512|[X] Adverse reaction to mersalyl|
+|allergy v1|readv2|U60E513|[X] Adverse reaction to chlormerodrin|
+|allergy v1|readv2|U60E514|[X] Adverse reaction to mercaptomerin|
+|allergy v1|readv2|U60E515|[X] Adverse reaction to mercurophylline|
+|allergy v1|readv2|U60E516|[X] Adverse reaction to mercurial diuretics NOS|
+|allergy v1|readv2|U60E517|[X] Adverse reaction to purine derivative diuretic|
+|allergy v1|readv2|U60E518|[X] Adverse reaction to purine derivative diuretic NOS|
+|allergy v1|readv2|U60E519|[X] Adverse reaction to other diuretics|
+|allergy v1|readv2|U60E51A|[X] Adverse reaction to chlortalidone|
+|allergy v1|readv2|U60E51B|[X] Adverse reaction to amiloride|
+|allergy v1|readv2|U60E51C|[X] Adverse reaction to spironolactone|
+|allergy v1|readv2|U60E51D|[X] Adverse reaction to triamterene|
+|allergy v1|readv2|U60E51E|[X] Adverse reaction to mannitol|
+|allergy v1|readv2|U60E51F|[X] Adverse reaction to diuretic NOS|
+|allergy v1|readv2|U60E411|[X] Adverse reaction to furosemide|
+|allergy v1|readv2|U60E412|[X] Adverse reaction to ethacrynic acid|
+|allergy v1|readv2|U60E311|[X] Adverse reaction to thiazides|
+|allergy v1|readv2|U60E312|[X] Adverse reaction to bendroflumethiazide|
+|allergy v1|readv2|U60E313|[X] Adverse reaction to chlorothiazide|
+|allergy v1|readv2|U60E314|[X] Adverse reaction to cyclopenthiazide|
+|allergy v1|readv2|U60E315|[X] Adverse reaction to hydrochlorothiazide|
+|allergy v1|readv2|U60E316|[X] Adverse reaction to hydroflumethiazide|
+|allergy v1|readv2|U60E317|[X] Adverse reaction to methyclothiazide|
+|allergy v1|readv2|U60E318|[X] Adverse reaction to polythiazide|
+|allergy v1|readv2|U60E319|[X] Adverse reaction to thiazide NOS|
+|allergy v1|readv2|U60E211|[X] Adverse reaction to carbonic acid anhydrase inhibitor|
+|allergy v1|readv2|U60E212|[X] Adverse reaction to acetazolamide|
+|allergy v1|readv2|U60E213|[X] Adverse reaction to dichlorphenamide|
+|allergy v1|readv2|U60E214|[X] Adverse reaction to carbonic acid anhydrase inhibitor NOS|
+|allergy v1|readv2|U60E011|[X] Adverse reaction to fludrocortisone acetate|
+|allergy v1|readv2|U60D.11|[X] Adverse reaction to gastrointestinal drugs|
+|allergy v1|readv2|U60Dz11|[X] Adverse reaction to gastrointestinal tract drugs NOS|
+|allergy v1|readv2|U60D811|[X] Adverse reaction to other gastrointestinal tract drugs|
+|allergy v1|readv2|U60D711|[X] Adverse reaction to emetic|
+|allergy v1|readv2|U60D712|[X] Adverse reaction to emetics NOS|
+|allergy v1|readv2|U60D611|[X] Adverse reaction to antidiarrhoeal drug|
+|allergy v1|readv2|U60D612|[X] Adverse reaction to kaolin|
+|allergy v1|readv2|U60D613|[X] Adverse reaction to diphenoxylate|
+|allergy v1|readv2|U60D614|[X] Adverse reaction to loperamide|
+|allergy v1|readv2|U60D615|[X] Adverse reaction to pectin|
+|allergy v1|readv2|U60D616|[X] Adverse reaction to antidiarrhoeal drugs NOS|
+|allergy v1|readv2|U60D511|[X] Adverse reaction to digestant|
+|allergy v1|readv2|U60D512|[X] Adverse reaction to pancreatin|
+|allergy v1|readv2|U60D513|[X] Adverse reaction to papain|
+|allergy v1|readv2|U60D514|[X] Adverse reaction to pepsin|
+|allergy v1|readv2|U60D515|[X] Adverse reaction to digestants NOS|
+|allergy v1|readv2|U60D411|[X] Adverse reaction to emollient cathartic|
+|allergy v1|readv2|U60D412|[X] Adverse reaction to glycerol|
+|allergy v1|readv2|U60D413|[X] Adverse reaction to dioctyl sodium sulphosuccinate|
+|allergy v1|readv2|U60D414|[X] Adverse reaction to emollient cathartic NOS|
+|allergy v1|readv2|U60D415|[X] Adverse reaction to other cathartics and intestinal atonia drugs|
+|allergy v1|readv2|U60D416|[X] Adverse reaction to magnesium sulphate|
+|allergy v1|readv2|U60D417|[X] Adverse reaction to other cathartics and intestinal atonia drugs NOS|
+|allergy v1|readv2|U60D311|[X] Adverse reaction to lactulose|
+|allergy v1|readv2|U60D211|[X] Adverse reaction to irritant cathartic|
+|allergy v1|readv2|U60D212|[X] Adverse reaction to bisacodyl|
+|allergy v1|readv2|U60D213|[X] Adverse reaction to cascara|
+|allergy v1|readv2|U60D214|[X] Adverse reaction to castor oil|
+|allergy v1|readv2|U60D215|[X] Adverse reaction to dantron|
+|allergy v1|readv2|U60D216|[X] Adverse reaction to fig|
+|allergy v1|readv2|U60D217|[X] Adverse reaction to senna|
+|allergy v1|readv2|U60D218|[X] Adverse reaction to phenolphthalein|
+|allergy v1|readv2|U60D219|[X] Adverse reaction to irritant cathartics NOS|
+|allergy v1|readv2|U60D111|[X] Adverse reaction to antacids and antigastric secretion drugs|
+|allergy v1|readv2|U60D112|[X] Adverse reaction to aluminium hydroxide|
+|allergy v1|readv2|U60D113|[X] Adverse reaction to alexitol sodium|
+|allergy v1|readv2|U60D114|[X] Adverse reaction to magnesium carbonate|
+|allergy v1|readv2|U60D115|[X] Adverse reaction to magnesium trisilicate|
+|allergy v1|readv2|U60D116|[X] Adverse reaction to hydrotalcite|
+|allergy v1|readv2|U60D117|[X] Adverse reaction to magaldrate|
+|allergy v1|readv2|U60D118|[X] Adverse reaction to sodium bicarbonate|
+|allergy v1|readv2|U60D119|[X] Adverse reaction to antacids and antigastric secretion drugs NOS|
+|allergy v1|readv2|U60C.11|[X] Adverse reaction to cardiovascular system drugs|
+|allergy v1|readv2|U60CC00|[X]Phosphodiesterase-5 inhibitor adverse reaction|
+|allergy v1|readv2|U60C900|[X]Lipid-lowering drug adverse reaction|
+|allergy v1|readv2|U60Cy11|[X] Adverse reaction to capillary-active drug|
+|allergy v1|readv2|U60Cy12|[X] Adverse reaction to adrenochrome derivative|
+|allergy v1|readv2|U60Cy13|[X] Adverse reaction to capillary-active drugs NOS|
+|allergy v1|readv2|U60Cy14|[X] Adverse reaction to cardiovascular system drug NOS|
+|allergy v1|readv2|U60C811|[X] Adverse reaction to antivaricose drug|
+|allergy v1|readv2|U60C812|[X] Adverse reaction to ethanolamine oleate|
+|allergy v1|readv2|U60C813|[X] Adverse reaction to zinc salt|
+|allergy v1|readv2|U60C814|[X] Adverse reaction to antivaricose drugs NOS|
+|allergy v1|readv2|U60C711|[X] Adverse reaction to vasodilator|
+|allergy v1|readv2|U60C712|[X] Adverse reaction to phenoxybenzamine|
+|allergy v1|readv2|U60C713|[X] Adverse reaction to cyclandelate|
+|allergy v1|readv2|U60C714|[X] Adverse reaction to nicotinic acid derivative|
+|allergy v1|readv2|U60C715|[X] Adverse reaction to phentolamine mesylate|
+|allergy v1|readv2|U60C716|[X] Adverse reaction to isoxsuprine|
+|allergy v1|readv2|U60C717|[X] Adverse reaction to tolazoline|
+|allergy v1|readv2|U60C718|[X] Adverse reaction to vasodilators NOS|
+|allergy v1|readv2|U60C611|[X] Adverse reaction to antilipaemic and anti-arteriosclerotic drugs|
+|allergy v1|readv2|U60C612|[X] Adverse reaction to colestyramine|
+|allergy v1|readv2|U60C613|[X] Adverse reaction to clofibrate|
+|allergy v1|readv2|U60C614|[X] Adverse reaction to bezafibrate|
+|allergy v1|readv2|U60C615|[X] Adverse reaction to simvastatin|
+|allergy v1|readv2|U60C616|[X] Adverse reaction to pravastatin|
+|allergy v1|readv2|U60C617|[X] Adverse reaction to antilipaemic and antiarteriosclerotic drugs NOS|
+|allergy v1|readv2|U60C511|[X] Adverse reaction to other antihypertensives|
+|allergy v1|readv2|U60C512|[X] Adverse reaction to hydralazine|
+|allergy v1|readv2|U60C513|[X] Adverse reaction to diazoxide|
+|allergy v1|readv2|U60C514|[X] Adverse reaction to clonidine|
+|allergy v1|readv2|U60C515|[X] Adverse reaction to methyldopa|
+|allergy v1|readv2|U60C516|[X] Adverse reaction to reserpine|
+|allergy v1|readv2|U60C517|[X] Adverse reaction to bethanidine|
+|allergy v1|readv2|U60C518|[X] Adverse reaction to debrisoquine|
+|allergy v1|readv2|U60C519|[X] Adverse reaction to guanethidine|
+|allergy v1|readv2|U60C51A|[X] Adverse reaction to antihypertensives NOS|
+|allergy v1|readv2|U60C411|[X] Adverse reaction to captopril|
+|allergy v1|readv2|U60C412|[X] Adverse reaction to enalapril|
+|allergy v1|readv2|U60C413|[X] Adverse reaction to ramipril|
+|allergy v1|readv2|U60C414|[X]Adverse reaction to lisinopril|
+|allergy v1|readv2|U60C311|[X] Adverse reaction to coronary vasodilator|
+|allergy v1|readv2|U60C312|[X] Adverse reaction to glyceryl trinitrate|
+|allergy v1|readv2|U60C313|[X] Adverse reaction to isosorbide dinitrate|
+|allergy v1|readv2|U60C314|[X] Adverse reaction to isosorbide mononitrate|
+|allergy v1|readv2|U60C315|[X] Adverse reaction to pentaerythritol tetranitrate|
+|allergy v1|readv2|U60C316|[X] Adverse reaction to dipyridamole|
+|allergy v1|readv2|U60C317|[X] Adverse reaction to prenylamine|
+|allergy v1|readv2|U60C318|[X] Adverse reaction to coronary vasodilators NOS|
+|allergy v1|readv2|U60C211|[X] Adverse reaction to cardiac rhythm regulator|
+|allergy v1|readv2|U60C212|[X] Adverse reaction to procainamide|
+|allergy v1|readv2|U60C213|[X] Adverse reaction to quinidine|
+|allergy v1|readv2|U60C214|[X] Adverse reaction to cardiac rhythm regulator NOS|
+|allergy v1|readv2|U60C111|[X] Adverse reaction to nifedipine|
+|allergy v1|readv2|U60C112|[X] Adverse reaction to verapamil|
+|allergy v1|readv2|U60C113|[X]Adverse reaction to amlodipine|
+|allergy v1|readv2|U60C011|[X] Adverse reaction to cardiac glycoside|
+|allergy v1|readv2|U60C012|[X] Adverse reaction to digoxin|
+|allergy v1|readv2|U60C013|[X] Adverse reaction to digitoxin|
+|allergy v1|readv2|U60C014|[X] Adverse reaction to lanatoside C|
+|allergy v1|readv2|U60C015|[X] Adverse reaction to cardiac glycosides NOS|
+|allergy v1|readv2|U60B.11|[X] Adverse reaction to autonomic nervous system drugs|
+|allergy v1|readv2|U60BB00|[X]Adverse reaction to nebivolol|
+|allergy v1|readv2|U60BA00|[X]Adverse reaction to carvedilol|
+|allergy v1|readv2|U60B900|[X]Adverse reaction to bisoprolol|
+|allergy v1|readv2|U60By11|[X] Adverse reaction to sympathomimetic|
+|allergy v1|readv2|U60By12|[X] Adverse reaction to sympathomimetic NOS|
+|allergy v1|readv2|U60By13|[X] Adverse reaction to autonomic nervous system drug NOS|
+|allergy v1|readv2|U60B811|[X] Adverse reaction to sympatholytic|
+|allergy v1|readv2|U60B812|[X] Adverse reaction to sympatholytic NOS|
+|allergy v1|readv2|U60B711|[X] Adverse reaction to betablockers|
+|allergy v1|readv2|U60B712|[X] Adverse reaction to propranolol|
+|allergy v1|readv2|U60B713|[X] Adverse reaction to practolol|
+|allergy v1|readv2|U60B714|[X] Adverse reaction to acebutolol|
+|allergy v1|readv2|U60B715|[X] Adverse reaction to atenolol|
+|allergy v1|readv2|U60B716|[X] Adverse reaction to labetolol|
+|allergy v1|readv2|U60B717|[X] Adverse reaction to metoprolol|
+|allergy v1|readv2|U60B718|[X] Adverse reaction to nadolol|
+|allergy v1|readv2|U60B719|[X] Adverse reaction to oxprenolol|
+|allergy v1|readv2|U60B71A|[X] Adverse reaction to sotalol|
+|allergy v1|readv2|U60B71B|[X] Adverse reaction to timolol|
+|allergy v1|readv2|U60B71C|[X] Adverse reaction to betablockers NOS|
+|allergy v1|readv2|U60B611|[X] Adverse reaction to prazosin|
+|allergy v1|readv2|U60B514|[X] Adverse reaction to isoprenaline sulphate|
+|allergy v1|readv2|U60B511|[X] Adverse reaction to adrenaline, epinephrine|
+|allergy v1|readv2|U60B512|[X] Adverse reaction to noradrenaline|
+|allergy v1|readv2|U60B513|[X] Adverse reaction to ephedrine|
+|allergy v1|readv2|U60B411|[X] Adverse reaction to metaraminol|
+|allergy v1|readv2|U60B311|[X] Adverse reaction to parasympatholytics and spasmolytics|
+|allergy v1|readv2|U60B312|[X] Adverse reaction to papaverine|
+|allergy v1|readv2|U60B313|[X] Adverse reaction to atropine|
+|allergy v1|readv2|U60B314|[X] Adverse reaction to smooth muscle relaxants|
+|allergy v1|readv2|U60B315|[X] Adverse reaction to homatropine|
+|allergy v1|readv2|U60B316|[X] Adverse reaction to adiphenine|
+|allergy v1|readv2|U60B317|[X] Adverse reaction to hyoscine|
+|allergy v1|readv2|U60B318|[X] Adverse reaction to mebeverine|
+|allergy v1|readv2|U60B319|[X] Adverse reaction to benzatropine|
+|allergy v1|readv2|U60B31A|[X] Adverse reaction to methixene|
+|allergy v1|readv2|U60B31B|[X] Adverse reaction to smooth muscle relaxant NOS|
+|allergy v1|readv2|U60B31C|[X] Adverse reaction to parasympatholytic or spasmolytic NOS|
+|allergy v1|readv2|U60B211|[X] Adverse reaction to ganglion blocking drug|
+|allergy v1|readv2|U60B212|[X] Adverse reaction to pentamethonium bromide|
+|allergy v1|readv2|U60B213|[X] Adverse reaction to trimetaphan camsylate|
+|allergy v1|readv2|U60B214|[X] Adverse reaction to ganglion blockers NOS|
+|allergy v1|readv2|U60B111|[X] Adverse reaction to parasympathomimetic|
+|allergy v1|readv2|U60B112|[X] Adverse reaction to acetylcholine|
+|allergy v1|readv2|U60B113|[X] Adverse reaction to pilocarpine|
+|allergy v1|readv2|U60B114|[X] Adverse reaction to parasympathomimetics NOS|
+|allergy v1|readv2|U60B011|[X] Adverse reaction to anticholinesterase|
+|allergy v1|readv2|U60B012|[X] Adverse reaction to distigmine bromide|
+|allergy v1|readv2|U60B013|[X] Adverse reaction to edrophonium chloride|
+|allergy v1|readv2|U60B014|[X] Adverse reaction to neostigmine|
+|allergy v1|readv2|U60B015|[X] Adverse reaction to pyridostigmine bromide|
+|allergy v1|readv2|U60A500|[X]Adverse reaction to caffeine|
+|allergy v1|readv2|U60A411|[X] Adverse reaction to central nervous system stimulant|
+|allergy v1|readv2|U60A412|[X] Adverse reaction to central nervous system stimulants NOS|
+|allergy v1|readv2|U60A311|[X] Adverse reaction to other central nervous system stimulants|
+|allergy v1|readv2|U60A111|[X] Adverse reaction to opiate antagonist|
+|allergy v1|readv2|U60A112|[X] Adverse reaction to levallorphan|
+|allergy v1|readv2|U60A113|[X] Adverse reaction to nalorphine|
+|allergy v1|readv2|U60A114|[X] Adverse reaction to naloxone|
+|allergy v1|readv2|U60A115|[X] Adverse reaction to opiate antagonists NOS|
+|allergy v1|readv2|U60A011|[X] Adverse reaction to analeptic|
+|allergy v1|readv2|U60A012|[X] Adverse reaction to nikethamide|
+|allergy v1|readv2|U60A013|[X] Adverse reaction to lobeline|
+|allergy v1|readv2|U60A014|[X] Adverse reaction to doxapram|
+|allergy v1|readv2|U60A015|[X] Adverse reaction to ethamivan|
+|allergy v1|readv2|U60A016|[X] Adverse reaction to analeptics NOS|
+|allergy v1|readv2|U60A017|[X] Adverse reaction to pemoline|
+|allergy v1|readv2|U609B00|[X]Sertraline adverse reaction|
+|allergy v1|readv2|U609A00|[X]Fluoxetine adverse reaction|
+|allergy v1|readv2|U609z11|[X] Adverse reaction to psychotropic agent|
+|allergy v1|readv2|U609z12|[X] Adverse reaction to hydroxyzine|
+|allergy v1|readv2|U609z13|[X] Adverse reaction to psychotropic agent NOS|
+|allergy v1|readv2|U609811|[X] Adverse reaction to chlormezanone|
+|allergy v1|readv2|U609812|[X] Adverse reaction to other psychotropic agent|
+|allergy v1|readv2|U609711|[X] Adverse reaction to psychostimulant|
+|allergy v1|readv2|U609713|[X] Adverse reaction to dexamfetamine|
+|allergy v1|readv2|U609714|[X] Adverse reaction to psychostimulant NOS|
+|allergy v1|readv2|U609712|[X] Adverse reaction to caffeine|
+|allergy v1|readv2|U609611|[X] Adverse reaction to hallucinogen|
+|allergy v1|readv2|U609612|[X] Adverse reaction to marijuana|
+|allergy v1|readv2|U609613|[X] Adverse reaction to lysergide|
+|allergy v1|readv2|U609614|[X] Adverse reaction to mescaline|
+|allergy v1|readv2|U609615|[X] Adverse reaction to psilocin|
+|allergy v1|readv2|U609616|[X] Adverse reaction to psilocybin|
+|allergy v1|readv2|U609617|[X] Adverse reaction to hallucinogen NOS|
+|allergy v1|readv2|U609511|[X] Adverse reaction to oxypertine|
+|allergy v1|readv2|U609512|[X] Adverse reaction to carbamate|
+|allergy v1|readv2|U609513|[X] Adverse reaction to other major tranquilliser|
+|allergy v1|readv2|U609514|[X] Adverse reaction to other tranquillisers|
+|allergy v1|readv2|U609515|[X] Adverse reaction to meprobamate|
+|allergy v1|readv2|U609516|[X] Adverse reaction to tetrabenazine|
+|allergy v1|readv2|U609517|[X] Adverse reaction to tranquillisers NOS|
+|allergy v1|readv2|U609411|[X] Adverse reaction to butyrophenone-based tranquilliser|
+|allergy v1|readv2|U609412|[X] Adverse reaction to haloperidol|
+|allergy v1|readv2|U609413|[X] Adverse reaction to spiperone|
+|allergy v1|readv2|U609414|[X] Adverse reaction to trifluperidol|
+|allergy v1|readv2|U609415|[X] Adverse reaction to flupentixol|
+|allergy v1|readv2|U609416|[X] Adverse reaction to butyrophenone-based tranquillisers NOS|
+|allergy v1|readv2|U609311|[X] Adverse reaction to phenothiazine-based tranquilliser|
+|allergy v1|readv2|U609312|[X] Adverse reaction to chlorpromazine|
+|allergy v1|readv2|U609313|[X] Adverse reaction to fluphenazine|
+|allergy v1|readv2|U609314|[X] Adverse reaction to pericyazine|
+|allergy v1|readv2|U609315|[X] Adverse reaction to perphenazine|
+|allergy v1|readv2|U609316|[X] Adverse reaction to prochlorperazine|
+|allergy v1|readv2|U609317|[X] Adverse reaction to promazine|
+|allergy v1|readv2|U609318|[X] Adverse reaction to thioridazine|
+|allergy v1|readv2|U609319|[X] Adverse reaction to phenothiazine-based tranquillisers NOS|
+|allergy v1|readv2|U60931A|[X] Adverse reaction to promethazine hydrochloride|
+|allergy v1|readv2|U609211|[X] Adverse reaction to antidepressant|
+|allergy v1|readv2|U609212|[X] Adverse reaction to tryptophan|
+|allergy v1|readv2|U609213|[X] Adverse reaction to antidepressants NOS|
+|allergy v1|readv2|U609111|[X] Adverse reaction to phenelzine|
+|allergy v1|readv2|U609112|[X] Adverse reaction to isocarboxazid|
+|allergy v1|readv2|U609113|[X] Adverse reaction to tranylcypromine|
+|allergy v1|readv2|U609011|[X] Adverse reaction to amitriptyline|
+|allergy v1|readv2|U609012|[X] Adverse reaction to butriptyline|
+|allergy v1|readv2|U609013|[X] Adverse reaction to clomipramine|
+|allergy v1|readv2|U609014|[X] Adverse reaction to desipramine|
+|allergy v1|readv2|U609015|[X] Adverse reaction to dosulepin|
+|allergy v1|readv2|U609016|[X] Adverse reaction to doxepin|
+|allergy v1|readv2|U609017|[X] Adverse reaction to imipramine|
+|allergy v1|readv2|U609018|[X] Adverse reaction to lofepramine|
+|allergy v1|readv2|U609019|[X] Adverse reaction to nortriptyline|
+|allergy v1|readv2|U60901A|[X] Adverse reaction to protriptyline|
+|allergy v1|readv2|U60901B|[X] Adverse reaction to trimipramine|
+|allergy v1|readv2|U60901C|[X] Adverse reaction to maprotiline|
+|allergy v1|readv2|U60901D|[X] Adverse reaction to mianserin|
+|allergy v1|readv2|U608411|[X] Adverse reaction to anaesthetic|
+|allergy v1|readv2|U608412|[X] Adverse reaction to general anaesthetic|
+|allergy v1|readv2|U60831A|[X] Adverse reaction to spinal anaesthetic|
+|allergy v1|readv2|U60831B|[X] Adverse reaction to other local anaesthetics|
+|allergy v1|readv2|U608311|[X] Adverse reaction to surface and infiltration anaesthetic|
+|allergy v1|readv2|U608312|[X] Adverse reaction to cocaine|
+|allergy v1|readv2|U608313|[X] Adverse reaction to lidocaine hydrochloride|
+|allergy v1|readv2|U608318|[X] Adverse reaction to local anaesthetics NOS|
+|allergy v1|readv2|U608319|[X] Adverse reaction peripheral nerve/plexus-blocking anaesthetic|
+|allergy v1|readv2|U608314|[X] Adverse reaction to bupivacaine hydrochloride|
+|allergy v1|readv2|U608317|[X] Adverse reaction to tetracaine|
+|allergy v1|readv2|U608315|[X] Adverse reaction to prilocaine hydrochloride|
+|allergy v1|readv2|U608316|[X] Adverse reaction to procaine hydrochloride|
+|allergy v1|readv2|U608211|[X] Adverse reaction to cyclopropane|
+|allergy v1|readv2|U608212|[X] Adverse reaction to ketamine|
+|allergy v1|readv2|U608213|[X] Adverse reaction to other general anaesthetics|
+|allergy v1|readv2|U608111|[X] Adverse reaction to intravenous anaesthetic|
+|allergy v1|readv2|U608112|[X] Adverse reaction to thiopental sodium|
+|allergy v1|readv2|U608113|[X] Adverse reaction to methohexitone sodium|
+|allergy v1|readv2|U608114|[X] Adverse reaction to etomidate|
+|allergy v1|readv2|U608115|[X] Adverse reaction to propofol|
+|allergy v1|readv2|U608116|[X] Adverse reaction to intravenous anaesthetic NOS|
+|allergy v1|readv2|U608011|[X] Adverse reaction to halothane|
+|allergy v1|readv2|U608012|[X] Adverse reaction to other gaseous anaesthetics|
+|allergy v1|readv2|U608013|[X] Adverse reaction to ether|
+|allergy v1|readv2|U608014|[X] Adverse reaction to nitrous oxide|
+|allergy v1|readv2|U608015|[X] Adverse reaction to isoflurane|
+|allergy v1|readv2|U608016|[X] Adverse reaction to enflurane|
+|allergy v1|readv2|U608017|[X] Adverse reaction to trichloroethylene|
+|allergy v1|readv2|U608018|[X] Adverse reaction to gaseous anaesthetic NOS|
+|allergy v1|readv2|U608019|[X] Adverse reaction to gaseous anaesthetic|
+|allergy v1|readv2|U607.11|[X] Adverse reaction to sedatives and hypnotics|
+|allergy v1|readv2|U607z11|[X] Adverse reaction to sedatives and hypnotics, unspecified|
+|allergy v1|readv2|U607z12|[X] Adverse reaction to sleeping pill NOS|
+|allergy v1|readv2|U607z13|[X] Adverse reaction to sedative NOS|
+|allergy v1|readv2|U607z14|[X] Adverse reaction to sedative or hypnotic NOS|
+|allergy v1|readv2|U607z15|[X] Adverse reaction to central nervous system depressant|
+|allergy v1|readv2|U607y11|[X] Adverse reaction to triclofos sodium|
+|allergy v1|readv2|U607y12|[X] Adverse reaction to clomethiazole edisylate|
+|allergy v1|readv2|U607y13|[X] Adverse reaction to methaqualone compound|
+|allergy v1|readv2|U607y14|[X] Adverse reaction to glutethimide group|
+|allergy v1|readv2|U607y15|[X] Adverse reaction to other sedatives and hypnotics|
+|allergy v1|readv2|U607y16|[X] Adverse reaction to methyprylon|
+|allergy v1|readv2|U607y17|[X] Adverse reaction to avomine|
+|allergy v1|readv2|U607y18|[X] Adverse reaction to other sedatives and hypnotics NOS|
+|allergy v1|readv2|U607511|[X] Adverse reaction to dichloralphenazone|
+|allergy v1|readv2|U607512|[X] Adverse reaction to mixed sedatives NEC|
+|allergy v1|readv2|U607411|[X] Adverse reaction to bromine compound|
+|allergy v1|readv2|U607412|[X] Adverse reaction to bromide|
+|allergy v1|readv2|U607413|[X] Adverse reaction to carbromal derivatives|
+|allergy v1|readv2|U607414|[X] Adverse reaction to bromine compounds NOS|
+|allergy v1|readv2|U607311|[X] Adverse reaction to paraldehyde|
+|allergy v1|readv2|U607211|[X] Adverse reaction to chloral hydrate group|
+|allergy v1|readv2|U607212|[X] Adverse reaction to chloral hydrate|
+|allergy v1|readv2|U607213|[X] Adverse reaction to chloral hydrate group NOS|
+|allergy v1|readv2|U607111|[X] Adverse reaction to benzodiazepine-based tranquilliser|
+|allergy v1|readv2|U607112|[X] Adverse reaction to nitrazepam|
+|allergy v1|readv2|U607113|[X] Adverse reaction to flurazepam|
+|allergy v1|readv2|U607114|[X] Adverse reaction to temazepam|
+|allergy v1|readv2|U607115|[X] Adverse reaction to triazolam|
+|allergy v1|readv2|U607116|[X] Adverse reaction to diazepam|
+|allergy v1|readv2|U607117|[X] Adverse reaction to chlordiazepoxide|
+|allergy v1|readv2|U607118|[X] Adverse reaction to clobazam|
+|allergy v1|readv2|U607119|[X] Adverse reaction to clorazepate dipotassium|
+|allergy v1|readv2|U60711A|[X] Adverse reaction to ketazolam|
+|allergy v1|readv2|U60711B|[X] Adverse reaction to lorazepam|
+|allergy v1|readv2|U60711C|[X] Adverse reaction to medazepam|
+|allergy v1|readv2|U60711D|[X] Adverse reaction to oxazepam|
+|allergy v1|readv2|U60711E|[X] Adverse reaction to clonazepam|
+|allergy v1|readv2|U60711F|[X] Adverse reaction to benzodiazepine-based tranquilliser NOS|
+|allergy v1|readv2|U607011|[X] Adverse reaction to barbiturate|
+|allergy v1|readv2|U607012|[X] Adverse reaction to amobarbital|
+|allergy v1|readv2|U607013|[X] Adverse reaction to barbitone|
+|allergy v1|readv2|U607014|[X] Adverse reaction to butobarbital|
+|allergy v1|readv2|U607015|[X] Adverse reaction to pentobarbitone|
+|allergy v1|readv2|U607016|[X] Adverse reaction to phenobarbital|
+|allergy v1|readv2|U607017|[X] Adverse reaction to quinalbarbitone|
+|allergy v1|readv2|U607018|[X] Adverse reaction to barbiturate NOS|
+|allergy v1|readv2|U606.11|[X] Adverse reaction to anticonvulsants and anti-parkinsonism drugs|
+|allergy v1|readv2|U606811|[X] Adverse reaction to CNS muscle-tone depressants|
+|allergy v1|readv2|U606812|[X] Adverse reaction to chlorphenesin|
+|allergy v1|readv2|U606813|[X] Adverse reaction to mephenesin|
+|allergy v1|readv2|U606814|[X] Adverse reaction to methocarbamol|
+|allergy v1|readv2|U606815|[X] Adverse reaction to CNS muscle-tone depressants NOS|
+|allergy v1|readv2|U606711|[X] Adverse reaction to antiparkinsonism drug|
+|allergy v1|readv2|U606712|[X] Adverse reaction to amantadine|
+|allergy v1|readv2|U606713|[X] Adverse reaction to levodopa, L-dopa|
+|allergy v1|readv2|U606714|[X] Adverse reaction to trihexyphenidyl|
+|allergy v1|readv2|U606715|[X] Adverse reaction to selegiline|
+|allergy v1|readv2|U606716|[X] Adverse reaction to orphenadrine|
+|allergy v1|readv2|U606717|[X] Adverse reaction to biperiden|
+|allergy v1|readv2|U606718|[X] Adverse reaction to antiparkinsonism drugs NOS|
+|allergy v1|readv2|U606719|[X] Adverse reaction to anticonvulsant or antiparkinsonism drug NOS|
+|allergy v1|readv2|U606611|[X] Adverse reaction to other anticonvulsant|
+|allergy v1|readv2|U606612|[X] Adverse reaction to beclamide|
+|allergy v1|readv2|U606613|[X] Adverse reaction to primidone|
+|allergy v1|readv2|U606614|[X] Adverse reaction to anticonvulsants NOS|
+|allergy v1|readv2|U606511|[X] Adverse reaction to sodium valproate|
+|allergy v1|readv2|U606411|[X] Adverse reaction to carbamazepine|
+|allergy v1|readv2|U60631A|[X] Adverse reaction to spinal anaesthetic|
+|allergy v1|readv2|U60631B|[X] Adverse reaction to other local anaesthetics|
+|allergy v1|readv2|U606311|[X] Adverse reaction to surface and infiltration anaesthetic|
+|allergy v1|readv2|U606312|[X] Adverse reaction to cocaine|
+|allergy v1|readv2|U606313|[X] Adverse reaction to lignocaine hydrochloride|
+|allergy v1|readv2|U606318|[X] Adverse reaction to local anaesthetics NOS|
+|allergy v1|readv2|U606319|[X] Adverse reaction peripheral nerve/plexus-blocking anaesthetic|
+|allergy v1|readv2|U606314|[X] Adverse reaction to bupivacaine hydrochloride|
+|allergy v1|readv2|U606317|[X] Adverse reaction to tetracaine|
+|allergy v1|readv2|U606315|[X] Adverse reaction to prilocaine hydrochloride|
+|allergy v1|readv2|U606316|[X] Adverse reaction to procaine hydrochloride|
+|allergy v1|readv2|U606211|[X] Adverse reaction to hydantoin derivative|
+|allergy v1|readv2|U606212|[X] Adverse reaction to phenytoin|
+|allergy v1|readv2|U606213|[X] Adverse reaction to hydantoin derivatives NOS|
+|allergy v1|readv2|U606111|[X] Adverse reaction to oxazolidine derivative|
+|allergy v1|readv2|U606112|[X] Adverse reaction to paramethadione|
+|allergy v1|readv2|U606113|[X] Adverse reaction to trimethadione|
+|allergy v1|readv2|U606114|[X] Adverse reaction to oxazolidine derivatives NOS|
+|allergy v1|readv2|U606011|[X] Adverse reaction to succinimide|
+|allergy v1|readv2|U606012|[X] Adverse reaction to ethosuximide|
+|allergy v1|readv2|U606013|[X] Adverse reaction to phensuximide|
+|allergy v1|readv2|U606014|[X] Adverse reaction to succinimides NOS|
+|allergy v1|readv2|U605.11|[X] Adverse reaction to analgesics, antipyretics, antirheumatics|
+|allergy v1|readv2|U605z11|[X] Adverse reaction to non-narcotic analgesics NOS|
+|allergy v1|readv2|U605z12|[X] Adverse reaction to analgesic, antipyretic, antirheumatic NOS|
+|allergy v1|readv2|U605611|[X] Adverse reaction to analgesics|
+|allergy v1|readv2|U605612|[X] Adverse reaction to phenylbytazone|
+|allergy v1|readv2|U605613|[X] Adverse reaction to aminophenazone|
+|allergy v1|readv2|U605614|[X] Adverse reaction to pyrazole derivatives NOS|
+|allergy v1|readv2|U605615|[X] Adverse reaction to other non-narcotic analgesics|
+|allergy v1|readv2|U605616|[X] Adverse reaction to pyrabital|
+|allergy v1|readv2|U605617|[X] Adverse reaction to pyrazole derivative|
+|allergy v1|readv2|U605618|[X] Adverse reaction to antipyretic|
+|allergy v1|readv2|U605619|[X] Adverse reaction to other analgesics, antipyretics, antirheumatics NOS|
+|allergy v1|readv2|U60561A|[X] Adverse reaction to other analgesics, antipyretics, anti-rheumatics|
+|allergy v1|readv2|U605511|[X] Adverse reaction to aromatic analgesics NEC|
+|allergy v1|readv2|U605512|[X] Adverse reaction to paracetamol|
+|allergy v1|readv2|U605513|[X] Adverse reaction to phenacetin|
+|allergy v1|readv2|U605514|[X] Adverse reaction to acetanilide|
+|allergy v1|readv2|U605515|[X] Adverse reaction to aromatic analgesics NOS|
+|allergy v1|readv2|U605411|[X] Adverse reaction to antirheumatic|
+|allergy v1|readv2|U605412|[X] Adverse reaction to sodium aurothiomalate|
+|allergy v1|readv2|U605413|[X] Adverse reaction to auranofin|
+|allergy v1|readv2|U605414|[X] Adverse reaction to antirheumatics NOS|
+|allergy v1|readv2|U605311|[X] Adverse reaction to non steroidal anti-inflammatory drug|
+|allergy v1|readv2|U605312|[X] Adverse reaction to indometacin|
+|allergy v1|readv2|U605313|[X] Adverse reaction to piroxicam|
+|allergy v1|readv2|U605314|[X] Adverse reaction to mefenamic acid|
+|allergy v1|readv2|U605315|[X] Adverse reaction to diclofenac sodium|
+|allergy v1|readv2|U605211|[X] Adverse reaction to ibuprofen|
+|allergy v1|readv2|U605212|[X] Adverse reaction to fenbufen|
+|allergy v1|readv2|U605213|[X] Adverse reaction to fenoprofen|
+|allergy v1|readv2|U605214|[X] Adverse reaction to flurbiprofen|
+|allergy v1|readv2|U605215|[X] Adverse reaction to ketoprofen|
+|allergy v1|readv2|U605216|[X] Adverse reaction to naproxen|
+|allergy v1|readv2|U605111|[X] Adverse reaction to salicylates|
+|allergy v1|readv2|U605112|[X] Adverse reaction to aspirin|
+|allergy v1|readv2|U605011|[X] Adverse reaction to diamorphine|
+|allergy v1|readv2|U605012|[X] Adverse reaction to methadone|
+|allergy v1|readv2|U605013|[X] Adverse reaction to other opiates and related narcotics|
+|allergy v1|readv2|U605014|[X] Adverse reaction to morphine salts|
+|allergy v1|readv2|U605015|[X] Adverse reaction to buprenorphine|
+|allergy v1|readv2|U605016|[X] Adverse reaction to codeine phosphate|
+|allergy v1|readv2|U605017|[X] Adverse reaction to dextromoramide|
+|allergy v1|readv2|U605018|[X] Adverse reaction to dihydrocodeine tartrate|
+|allergy v1|readv2|U605019|[X] Adverse reaction to dipipanone hydrochloride|
+|allergy v1|readv2|U60501A|[X] Adverse reaction to levorphanol tartrate|
+|allergy v1|readv2|U60501B|[X] Adverse reaction to pethidine hydrochloride|
+|allergy v1|readv2|U60501C|[X] Adverse reaction to opiates or related narcotics NOS|
+|allergy v1|readv2|U60501D|[X] Adverse reaction to pentazocine|
+|allergy v1|readv2|U604.11|[X] Adverse reaction to agents mainly affecting blood constituents|
+|allergy v1|readv2|U604y11|[X] Adverse reaction to other agent affecting blood constituents|
+|allergy v1|readv2|U604y12|[X] Adverse reaction to other agent affecting blood constituents NOS|
+|allergy v1|readv2|U604y13|[X] Adverse reaction to agent affecting blood constituents NOS|
+|allergy v1|readv2|U604711|[X] Adverse reaction to macromolecular blood substitutes|
+|allergy v1|readv2|U604611|[X] Adverse reaction to natural blood and blood products|
+|allergy v1|readv2|U604612|[X] Adverse reaction to blood plasma|
+|allergy v1|readv2|U604613|[X] Adverse reaction to human fibrinogen|
+|allergy v1|readv2|U604614|[X] Adverse reaction to packed red cells|
+|allergy v1|readv2|U604615|[X] Adverse reaction to whole blood|
+|allergy v1|readv2|U604616|[X] Adverse reaction to blood or blood products NOS|
+|allergy v1|readv2|U604511|[X] Adverse reaction to fibrinolytic drugs|
+|allergy v1|readv2|U604512|[X] Adverse reaction to streptokinase|
+|allergy v1|readv2|U604513|[X] Adverse reaction to urokinase|
+|allergy v1|readv2|U604514|[X] Adverse reaction to fibrinolytic drugs NOS|
+|allergy v1|readv2|U604311|[X] Adverse reaction to vitamin K|
+|allergy v1|readv2|U604312|[X] Adverse reaction to phytomenadione|
+|allergy v1|readv2|U604313|[X] Adverse reaction to vitamin K NOS|
+|allergy v1|readv2|U604314|[X] Adverse reaction to anticoagulant antagonists|
+|allergy v1|readv2|U604315|[X] Adverse reaction to protamine sulphate|
+|allergy v1|readv2|U604316|[X] Adverse reaction to etamsylate|
+|allergy v1|readv2|U604317|[X] Adverse reaction to tranexamic acid|
+|allergy v1|readv2|U604318|[X] Adverse reaction to anticoagulant antagonist NOS|
+|allergy v1|readv2|U604211|[X] Adverse reaction to anticoagulants|
+|allergy v1|readv2|U604212|[X] Adverse reaction to heparin|
+|allergy v1|readv2|U604213|[X] Adverse reaction to warfarin sodium|
+|allergy v1|readv2|U604214|[X] Adverse reaction to acenocoumarol|
+|allergy v1|readv2|U604215|[X] Adverse reaction to phenindione|
+|allergy v1|readv2|U604216|[X] Adverse reaction to anticoagulants NOS|
+|allergy v1|readv2|U604111|[X] Adverse reaction to liver preparations and other antianaemic agents|
+|allergy v1|readv2|U604112|[X] Adverse reaction to hydroxocobalamin|
+|allergy v1|readv2|U604113|[X] Adverse reaction to cyanocobalamin|
+|allergy v1|readv2|U604114|[X] Adverse reaction to folic acid|
+|allergy v1|readv2|U604115|[X] Adverse reaction to liver preparations and other antianaemic agent NOS|
+|allergy v1|readv2|U604011|[X] Adverse reaction to iron and iron compounds|
+|allergy v1|readv2|U604012|[X] Adverse reaction to ferrous sulphate|
+|allergy v1|readv2|U604013|[X] Adverse reaction to ferrous fumarate|
+|allergy v1|readv2|U604014|[X] Adverse reaction to ferrous gluconate|
+|allergy v1|readv2|U604015|[X] Adverse reaction to ferrous glycine sulphate|
+|allergy v1|readv2|U604016|[X] Adverse reaction to ferrous succinate|
+|allergy v1|readv2|U604017|[X] Adverse reaction to ferric salts|
+|allergy v1|readv2|U604018|[X] Adverse reaction to iron dextran injection|
+|allergy v1|readv2|U604019|[X] Adverse reaction to iron sorbitol injection|
+|allergy v1|readv2|U60401A|[X] Adverse reaction to iron and iron compounds NOS|
+|allergy v1|readv2|U603.11|[X] Adverse reaction to primarily systemic agents|
+|allergy v1|readv2|U603z11|[X] Adverse reaction to systemic agent NOS|
+|allergy v1|readv2|U603611|[X] Adverse reaction to enzymes|
+|allergy v1|readv2|U603612|[X] Adverse reaction to enzymes NOS|
+|allergy v1|readv2|U603511|[X] Adverse reaction to acidifying agents|
+|allergy v1|readv2|U603512|[X] Adverse reaction to alkalising agents|
+|allergy v1|readv2|U603411|[X] Adverse reaction to azathioprine|
+|allergy v1|readv2|U603412|[X] Adverse reaction to antilymphocyte immunoglobulin|
+|allergy v1|readv2|U603413|[X] Adverse reaction to ciclosporin|
+|allergy v1|readv2|U603311|[X] Adverse reaction to antineoplastic antibiotics|
+|allergy v1|readv2|U603312|[X] Adverse reaction to actinomycin D|
+|allergy v1|readv2|U603313|[X] Adverse reaction to busulfan|
+|allergy v1|readv2|U603314|[X] Adverse reaction to bleomycin|
+|allergy v1|readv2|U603315|[X] Adverse reaction to carmustine|
+|allergy v1|readv2|U603316|[X] Adverse reaction to chlorambucil|
+|allergy v1|readv2|U603317|[X] Adverse reaction to doxorubicin hydrochloride|
+|allergy v1|readv2|U603318|[X] Adverse reaction to mitomycin|
+|allergy v1|readv2|U603319|[X] Adverse reaction to cyclophosphamide|
+|allergy v1|readv2|U60331A|[X] Adverse reaction to plicamycin|
+|allergy v1|readv2|U60331B|[X] Adverse reaction to estramustine phosphate|
+|allergy v1|readv2|U60331C|[X] Adverse reaction to lomustine|
+|allergy v1|readv2|U60331D|[X] Adverse reaction to antineoplastic antibiotics NOS|
+|allergy v1|readv2|U60331E|[X] Adverse reaction to melphalan|
+|allergy v1|readv2|U60331F|[X] Adverse reaction to mustine hydrochloride|
+|allergy v1|readv2|U60331G|[X] Adverse reaction to thiotepa|
+|allergy v1|readv2|U60331H|[X] Adverse reaction to treosulfan|
+|allergy v1|readv2|U60331I|[X] Adverse reaction to etoposide|
+|allergy v1|readv2|U60331J|[X] Adverse reaction to antineoplastic and immunosuppressive drugs NOS|
+|allergy v1|readv2|U603111|[X] Adverse reaction to cytarabine|
+|allergy v1|readv2|U603112|[X] Adverse reaction to fluorouracil|
+|allergy v1|readv2|U603113|[X] Adverse reaction to mercaptopurine|
+|allergy v1|readv2|U603114|[X] Adverse reaction to methotrexate|
+|allergy v1|readv2|U603115|[X] Adverse reaction to tioguanine|
+|allergy v1|readv2|U603116|[X] Adverse reaction to vinblastine sulphate|
+|allergy v1|readv2|U603117|[X] Adverse reaction to vincristine sulphate|
+|allergy v1|readv2|U603118|[X] Adverse reaction to carboplatin|
+|allergy v1|readv2|U603119|[X] Adverse reaction to cisplatin|
+|allergy v1|readv2|U60311A|[X] Adverse reaction to hydroxyurea|
+|allergy v1|readv2|U60311B|[X] Adverse reaction to mitozantrone|
+|allergy v1|readv2|U60311C|[X] Adverse reaction to procarbazine|
+|allergy v1|readv2|U60311D|[X] Adverse reaction to rozoxane|
+|allergy v1|readv2|U603011|[X] Adverse reaction to antiallergic and antiemetic drugs|
+|allergy v1|readv2|U603012|[X] Adverse reaction to antihistamines|
+|allergy v1|readv2|U603013|[X] Adverse reaction to chlorphenamine|
+|allergy v1|readv2|U603014|[X] Adverse reaction to diphenylpyraline|
+|allergy v1|readv2|U603015|[X] Adverse reaction to metoclopramide|
+|allergy v1|readv2|U603016|[X] Adverse reaction to antiallergic and antiemetic drugs NOS|
+|allergy v1|readv2|U602.11|[X] Adverse reaction to hormones and synthetic substitutes|
+|allergy v1|readv2|U602911|[X] Adverse reaction to hormones and synthetic substances NOS|
+|allergy v1|readv2|U602811|[X] Adverse reaction to anterior pituitary hormones|
+|allergy v1|readv2|U602812|[X] Adverse reaction to corticotropin, ACTH|
+|allergy v1|readv2|U602813|[X] Adverse reaction to chorionic gonadotrophin|
+|allergy v1|readv2|U602814|[X] Adverse reaction to follicle stimulating hormone, FSH|
+|allergy v1|readv2|U602815|[X] Adverse reaction to somatotrophin, growth hormone|
+|allergy v1|readv2|U602816|[X] Adverse reaction to anterior pituitary hormone NOS|
+|allergy v1|readv2|U602817|[X] Adverse reaction to posterior pituitary hormones|
+|allergy v1|readv2|U602818|[X] Adverse reaction to vasopressin|
+|allergy v1|readv2|U602819|[X] Adverse reaction to desmopressin|
+|allergy v1|readv2|U60281A|[X] Adverse reaction to lypressin|
+|allergy v1|readv2|U60281B|[X] Adverse reaction to terlipressin|
+|allergy v1|readv2|U60281C|[X] Adverse reaction to posterior pituitary hormone, NOS|
+|allergy v1|readv2|U602711|[X] Adverse reaction to androgens and anabolic steroids|
+|allergy v1|readv2|U602712|[X] Adverse reaction to mesterolone|
+|allergy v1|readv2|U602713|[X] Adverse reaction to methyltestosterone|
+|allergy v1|readv2|U602714|[X] Adverse reaction to testosterone|
+|allergy v1|readv2|U602715|[X] Adverse reaction to testosterone esters|
+|allergy v1|readv2|U602716|[X] Adverse reaction to nandrolone|
+|allergy v1|readv2|U602717|[X] Adverse reaction to stanozolol|
+|allergy v1|readv2|U602718|[X] Adverse reaction to androgen or anabolic steroid NOS|
+|allergy v1|readv2|U602611|[X] Adverse reaction to tamoxifen|
+|allergy v1|readv2|U602511|[X] Adverse reaction to ovarian hormones + synthetic substitutes|
+|allergy v1|readv2|U602512|[X] Adverse reaction to ethinylestradiol|
+|allergy v1|readv2|U602513|[X] Adverse reaction to estradiol|
+|allergy v1|readv2|U602514|[X] Adverse reaction to estriol|
+|allergy v1|readv2|U602515|[X] Adverse reaction to conjugated oestrogens|
+|allergy v1|readv2|U602516|[X] Adverse reaction to piperazine estrone sulphate|
+|allergy v1|readv2|U602517|[X] Adverse reaction to allyloestrenol|
+|allergy v1|readv2|U602518|[X] Adverse reaction to dydrogesterone|
+|allergy v1|readv2|U602519|[X] Adverse reaction to hydroxyprogesterone hexanoate|
+|allergy v1|readv2|U60251A|[X] Adverse reaction to medroxyprogesterone acetate|
+|allergy v1|readv2|U60251B|[X] Adverse reaction to norethisterone|
+|allergy v1|readv2|U60251C|[X] Adverse reaction to progesterone|
+|allergy v1|readv2|U60251D|[X] Adverse reaction to combined oestrogens and progestogens|
+|allergy v1|readv2|U60251E|[X] Adverse reaction to ovarian hormone/synthetic substitute NOS|
+|allergy v1|readv2|U60251F|[X] Adverse reaction to clomifene|
+|allergy v1|readv2|U602411|[X] Adverse reaction to unspecified oral contraceptive|
+|allergy v1|readv2|U602311|[X] Adverse reaction to insulins and antidiabetic agents|
+|allergy v1|readv2|U602312|[X] Adverse reaction to insulins|
+|allergy v1|readv2|U602313|[X] Adverse reaction to acetohexamide|
+|allergy v1|readv2|U602314|[X] Adverse reaction to chlorpropamide|
+|allergy v1|readv2|U602315|[X] Adverse reaction to glibenclamide|
+|allergy v1|readv2|U602316|[X] Adverse reaction to gliclazide|
+|allergy v1|readv2|U602317|[X] Adverse reaction to glipzide|
+|allergy v1|readv2|U602318|[X] Adverse reaction to gliquidone|
+|allergy v1|readv2|U602319|[X] Adverse reaction to glymidine|
+|allergy v1|readv2|U60231A|[X] Adverse reaction to tolazamide|
+|allergy v1|readv2|U60231B|[X] Adverse reaction to tolbutamide|
+|allergy v1|readv2|U60231C|[X] Adverse reaction to metformin hydrochloride|
+|allergy v1|readv2|U60231D|[X] Adverse reaction to glucagon|
+|allergy v1|readv2|U60231E|[X] Adverse reaction to insulins and antidiabetic agents NOS|
+|allergy v1|readv2|U602211|[X] Adverse reaction to antithyroid agents|
+|allergy v1|readv2|U602212|[X] Adverse reaction to carbimazole|
+|allergy v1|readv2|U602213|[X] Adverse reaction to iodine / iodide|
+|allergy v1|readv2|U602214|[X] Adverse reaction to propylthiouracil|
+|allergy v1|readv2|U602215|[X] Adverse reaction to antithyroid agents NOS|
+|allergy v1|readv2|U602111|[X] Adverse reaction to thyroid and thyroid derivatives|
+|allergy v1|readv2|U602112|[X] Adverse reaction to liothyronine sodium|
+|allergy v1|readv2|U602113|[X] Adverse reaction to levothyroxine sodium|
+|allergy v1|readv2|U602114|[X] Adverse reaction to thyroglobulin|
+|allergy v1|readv2|U602115|[X] Adverse reaction to thyroid and thyroid derivatives NOS|
+|allergy v1|readv2|U602011|[X] Adverse reaction to adrenal cortical steroid|
+|allergy v1|readv2|U602012|[X] Adverse reaction to dexamethasone|
+|allergy v1|readv2|U602013|[X] Adverse reaction to cortisone acetate|
+|allergy v1|readv2|U602014|[X] Adverse reaction to hydrocortisone|
+|allergy v1|readv2|U602015|[X] Adverse reaction to methylprednisolone|
+|allergy v1|readv2|U602016|[X] Adverse reaction to prednisolone|
+|allergy v1|readv2|U602017|[X] Adverse reaction to prednisone|
+|allergy v1|readv2|U602018|[X] Adverse reaction to triamcinolone|
+|allergy v1|readv2|U602019|[X] Adverse reaction to adrenal cortical steroid NOS|
+|allergy v1|readv2|U601800|[X]Leflunomide adverse reaction|
+|allergy v1|readv2|U601700|[X]Hydroxychloroquine adverse reaction|
+|allergy v1|readv2|U601600|[X]Sulfasalazine adverse reaction|
+|allergy v1|readv2|U601z11|[X] Adverse reaction to anti-infective NOS|
+|allergy v1|readv2|U601z12|[X] Adverse reaction to anti-infective substance|
+|allergy v1|readv2|U601y11|[X] Adverse reaction to other anti-infectives|
+|allergy v1|readv2|U601y12|[X] Adverse reaction to arsenical anti-infectives|
+|allergy v1|readv2|U601y13|[X] Adverse reaction to heavy metal anti-infectives|
+|allergy v1|readv2|U601y14|[X] Adverse reaction to antimony compound|
+|allergy v1|readv2|U601y15|[X] Adverse reaction to lead compound|
+|allergy v1|readv2|U601y16|[X] Adverse reaction to mercury compound|
+|allergy v1|readv2|U601y17|[X] Adverse reaction to heavy metal anti-infectives NOS|
+|allergy v1|readv2|U601y18|[X] Adverse reaction to quinolone + hydroxyquinoline derivatives|
+|allergy v1|readv2|U601y19|[X] Adverse reaction to chiniofon|
+|allergy v1|readv2|U601y1A|[X] Adverse reaction to diiodohydroxyquin|
+|allergy v1|readv2|U601y1B|[X] Adverse reaction to quinolone + hydroxyquinoline derivatives NOS|
+|allergy v1|readv2|U601y1C|[X] Adverse reaction to metronidazole|
+|allergy v1|readv2|U601y1D|[X] Adverse reaction to other and unspecified anti-infectives|
+|allergy v1|readv2|U601y1E|[X] Adverse reaction to nalidixic acid|
+|allergy v1|readv2|U601y1F|[X] Adverse reaction to nitrofuantoin|
+|allergy v1|readv2|U601y1G|[X] Adverse reaction to methenamine|
+|allergy v1|readv2|U601y1H|[X] Adverse reaction to flucytosine|
+|allergy v1|readv2|U601y1I|[X] Adverse reaction to trimethoprim|
+|allergy v1|readv2|U601y1J|[X]Nitrofurantoin adverse reaction|
+|allergy v1|readv2|U601511|[X] Adverse reaction to antiviral drugs|
+|allergy v1|readv2|U601512|[X] Adverse reaction to acyclovir|
+|allergy v1|readv2|U601513|[X] Adverse reaction to inosine pranobex|
+|allergy v1|readv2|U601514|[X] Adverse reaction to ribavirin|
+|allergy v1|readv2|U601515|[X] Adverse reaction to vidarabine|
+|allergy v1|readv2|U601516|[X] Adverse reaction to zidovudine|
+|allergy v1|readv2|U601517|[X] Adverse reaction to antiviral drug NOS|
+|allergy v1|readv2|U601518|[X] Adverse reaction to idoxuridine|
+|allergy v1|readv2|U601411|[X] Adverse reaction to antihelminthics|
+|allergy v1|readv2|U601412|[X] Adverse reaction to mebendazole|
+|allergy v1|readv2|U601413|[X] Adverse reaction to piperazine|
+|allergy v1|readv2|U601414|[X] Adverse reaction to pyrantel|
+|allergy v1|readv2|U601415|[X] Adverse reaction to niclosamide|
+|allergy v1|readv2|U601416|[X] Adverse reaction to bephenium|
+|allergy v1|readv2|U601417|[X] Adverse reaction to thiabenazole|
+|allergy v1|readv2|U601418|[X] Adverse reaction to hexylresorcinol|
+|allergy v1|readv2|U601419|[X] Adverse reaction to male fern oleoresin|
+|allergy v1|readv2|U60141A|[X] Adverse reaction to antihelminthic NOS|
+|allergy v1|readv2|U601311|[X] Adverse reaction to other antiprotozoal drugs|
+|allergy v1|readv2|U601312|[X] Adverse reaction to antiprotozoal drug|
+|allergy v1|readv2|U601313|[X] Adverse reaction to emetine|
+|allergy v1|readv2|U601314|[X] Adverse reaction to pentamidine isethionate|
+|allergy v1|readv2|U601315|[X] Adverse reaction to diloxanide furoate|
+|allergy v1|readv2|U601316|[X] Adverse reaction to antiprotozoal drugs NOS|
+|allergy v1|readv2|U601211|[X] Adverse reaction to antimalarials|
+|allergy v1|readv2|U601212|[X] Adverse reaction to chloroquine|
+|allergy v1|readv2|U601213|[X] Adverse reaction to primaquine|
+|allergy v1|readv2|U601214|[X] Adverse reaction to proguanil hydrochloride|
+|allergy v1|readv2|U601215|[X] Adverse reaction to pyrimethamine|
+|allergy v1|readv2|U601216|[X] Adverse reaction to quinine|
+|allergy v1|readv2|U601217|[X] Adverse reaction to cycloguanil|
+|allergy v1|readv2|U601218|[X] Adverse reaction to antimalarials NOS|
+|allergy v1|readv2|U601111|[X] Adverse reaction to antimycobacterial antibiotics|
+|allergy v1|readv2|U601112|[X] Adverse reaction to cycloserine|
+|allergy v1|readv2|U601113|[X] Adverse reaction to pyrazinamide|
+|allergy v1|readv2|U601114|[X] Adverse reaction to rifampicin|
+|allergy v1|readv2|U601115|[X] Adverse reaction to streptomycin|
+|allergy v1|readv2|U601116|[X] Adverse reaction to antimycobacterial antibiotic NOS|
+|allergy v1|readv2|U601117|[X] Adverse reaction to other antimycobacterial drugs|
+|allergy v1|readv2|U601118|[X] Adverse reaction to ethambutol|
+|allergy v1|readv2|U601119|[X] Adverse reaction to ethionamide|
+|allergy v1|readv2|U60111A|[X] Adverse reaction to isoniazid|
+|allergy v1|readv2|U60111B|[X] Adverse reaction to para-aminosalicylic acid|
+|allergy v1|readv2|U60111C|[X] Adverse reaction to dapsone|
+|allergy v1|readv2|U60111D|[X] Adverse reaction to clofazimine|
+|allergy v1|readv2|U60111E|[X] Adverse reaction to antimycobacterial drug NOS|
+|allergy v1|readv2|U601011|[X] Adverse reaction to sulphonamides|
+|allergy v1|readv2|U601012|[X] Adverse reaction to sulphadiazine|
+|allergy v1|readv2|U601013|[X] Adverse reaction to sulphadimidine|
+|allergy v1|readv2|U601014|[X] Adverse reaction to sulphaguanidine|
+|allergy v1|readv2|U601015|[X] Adverse reaction to sulfamethoxazole|
+|allergy v1|readv2|U601016|[X] Adverse reaction to sulphafurazole|
+|allergy v1|readv2|U601017|[X] Adverse reaction to sulphaurea|
+|allergy v1|readv2|U601018|[X] Adverse reaction to sulphonamide NOS|
+|allergy v1|readv2|U600.11|[X] Adverse reaction to antibiotic|
+|allergy v1|readv2|U600800|[X]Teicoplanin adverse reaction|
+|allergy v1|readv2|U600z11|[X] Adverse reaction to antibiotic NOS|
+|allergy v1|readv2|U600y11|[X] Adverse reaction to capreomycin|
+|allergy v1|readv2|U600y12|[X] Adverse reaction to ciprofloxacin|
+|allergy v1|readv2|U600y13|[X] Adverse reaction to other antibiotics|
+|allergy v1|readv2|U600y14|[X] Adverse reaction to clindamycin|
+|allergy v1|readv2|U600y15|[X] Adverse reaction to lincomycin|
+|allergy v1|readv2|U600y16|[X] Adverse reaction to cotrimoxazole|
+|allergy v1|readv2|U600y17|[X] Adverse reaction to other antibiotics NOS|
+|allergy v1|readv2|U600711|[X] Adverse reaction to antifungal antibiotics|
+|allergy v1|readv2|U600712|[X] Adverse reaction to amphotericin|
+|allergy v1|readv2|U600713|[X] Adverse reaction to griseofulvin|
+|allergy v1|readv2|U600714|[X] Adverse reaction to nystatin|
+|allergy v1|readv2|U600715|[X] Adverse reaction to antifungal antibiotics NOS|
+|allergy v1|readv2|U600511|[X] Adverse reaction to gentamicin|
+|allergy v1|readv2|U600512|[X] Adverse reaction to amikacin|
+|allergy v1|readv2|U600513|[X] Adverse reaction to framycetin sulphate|
+|allergy v1|readv2|U600514|[X] Adverse reaction to kanamycin|
+|allergy v1|readv2|U600515|[X] Adverse reaction to colistin|
+|allergy v1|readv2|U600516|[X] Adverse reaction to neomycin sulphate|
+|allergy v1|readv2|U600517|[X] Adverse reaction to sodium fusidate|
+|allergy v1|readv2|U600518|[X] Adverse reaction to tobramycin|
+|allergy v1|readv2|U600519|[X] Adverse reaction to polymyxin B sulphate|
+|allergy v1|readv2|U60051A|[X] Adverse reaction to vancomycin|
+|allergy v1|readv2|U600411|[X] Adverse reaction to tetracycline group|
+|allergy v1|readv2|U600412|[X] Adverse reaction to tetracycline|
+|allergy v1|readv2|U600413|[X] Adverse reaction to chlortetracycline hydrochloride|
+|allergy v1|readv2|U600414|[X] Adverse reaction to clomocycline sodium|
+|allergy v1|readv2|U600415|[X] Adverse reaction to demeclocycline hydrochloride|
+|allergy v1|readv2|U600416|[X] Adverse reaction to doxycycline|
+|allergy v1|readv2|U600417|[X] Adverse reaction to lymecycline|
+|allergy v1|readv2|U600418|[X] Adverse reaction to minocycline|
+|allergy v1|readv2|U600419|[X] Adverse reaction to oxytetracycline|
+|allergy v1|readv2|U60041A|[X] Adverse reaction to tetracycline NOS|
+|allergy v1|readv2|U600311|[X] Adverse reaction to macrolide group|
+|allergy v1|readv2|U600312|[X] Adverse reaction to erythromycin|
+|allergy v1|readv2|U600313|[X] Adverse reaction to oleandomycin|
+|allergy v1|readv2|U600314|[X] Adverse reaction to spiramycin|
+|allergy v1|readv2|U600315|[X] Adverse reaction to macrolide NOS|
+|allergy v1|readv2|U600211|[X] Adverse reaction to chloramphenicol group|
+|allergy v1|readv2|U600212|[X] Adverse reaction to chloramphenicol|
+|allergy v1|readv2|U600213|[X] Adverse reaction to thiamphenicol|
+|allergy v1|readv2|U600214|[X] Adverse reaction to chloramphenicol group NOS|
+|allergy v1|readv2|U600111|[X] Adverse reaction to cephalosporin group|
+|allergy v1|readv2|U600112|[X] Adverse reaction to cefaclor|
+|allergy v1|readv2|U600113|[X] Adverse reaction to cefadroxil|
+|allergy v1|readv2|U600114|[X] Adverse reaction to cefotaxime|
+|allergy v1|readv2|U600115|[X] Adverse reaction to cefoxitin|
+|allergy v1|readv2|U600116|[X] Adverse reaction to cefsulodin sodium|
+|allergy v1|readv2|U600117|[X] Adverse reaction to ceftazidime|
+|allergy v1|readv2|U600118|[X] Adverse reaction to ceftizoxime|
+|allergy v1|readv2|U600119|[X] Adverse reaction to cefalexin|
+|allergy v1|readv2|U60011A|[X] Adverse reaction to cephalothin|
+|allergy v1|readv2|U60011B|[X] Adverse reaction to cephamandole|
+|allergy v1|readv2|U60011C|[X] Adverse reaction to cephazolin|
+|allergy v1|readv2|U60011D|[X] Adverse reaction to cefradine|
+|allergy v1|readv2|U60011E|[X] Adverse reaction to cephalosporin NOS|
+|allergy v1|readv2|U600011|[X] Adverse reaction to penicillins|
+|allergy v1|readv2|U600012|[X] Adverse reaction to natural penicillins|
+|allergy v1|readv2|U600013|[X] Adverse reaction to cloxacillin|
+|allergy v1|readv2|U600014|[X] Adverse reaction to flucloxacillin|
+|allergy v1|readv2|U600015|[X] Adverse reaction to amoxicillin|
+|allergy v1|readv2|U600016|[X] Adverse reaction to ampicillin|
+|allergy v1|readv2|U600017|[X] Adverse reaction to bacampicillin|
+|allergy v1|readv2|U600018|[X] Adverse reaction to ciclacillin|
+|allergy v1|readv2|U600019|[X] Adverse reaction to mezlocillin|
+|allergy v1|readv2|U60001A|[X] Adverse reaction to pivampicillin|
+|allergy v1|readv2|U60001B|[X] Adverse reaction to talampicillin|
+|allergy v1|readv2|U60001C|[X] Adverse reaction to azlocillin|
+|allergy v1|readv2|U60001D|[X] Adverse reaction to carbenicillin|
+|allergy v1|readv2|U60001E|[X] Adverse reaction to carfecillin sodium|
+|allergy v1|readv2|U60001F|[X] Adverse reaction to piperacillin|
+|allergy v1|readv2|U60001G|[X] Adverse reaction to ticarcillin|
+|allergy v1|readv2|U60001H|[X] Adverse reaction to mecillinam|
+|allergy v1|readv2|U60001I|[X] Adverse reaction to pivmecillinam|
+|allergy v1|readv2|U60001J|[X] Adverse reaction to penicillin NOS|
+|allergy v1|readv2|1Z3..00|Adverse reaction to drug|
+|allergy v1|readv2|1Z34.00|Anticoagulant adverse reaction|
+|allergy v1|readv2|1Z34100|Rivaroxaban adverse reaction|
+|allergy v1|readv2|1Z34000|Apixaban adverse reaction|
+|allergy v1|readv2|1Z33.00|Ticagrelor adverse reaction|
+|allergy v1|readv2|1Z32.00|Prasugrel adverse reaction|
+|allergy v1|readv2|1Z31.00|Aliskiren adverse reaction|
+|allergy v1|readv2|1Z30.00|Phosphodiesterase-5 inhibitor adverse reaction|
+|allergy v1|readv2|9G4..00|Adverse drug reaction notif|
+|allergy v1|readv2|SN52.11|Adverse drug reaction NOS|
+|allergy v1|snomed|62014003|Adverse reaction caused by drug (disorder)|
+|allergy v1|snomed|158058005|Adverse reaction caused by tetanus antitoxin|
+|allergy v1|snomed|218326006|Adverse reaction caused by antineoplastic antibiotics (disorder)|
+|allergy v1|snomed|218356002|Adverse reaction caused by sulphamethoxazole|
+|allergy v1|snomed|218361000|Adverse reaction to arsenical anti-infective|
+|allergy v1|snomed|218369003|Adverse reaction caused by chiniofon|
+|allergy v1|snomed|218370002|Adverse reaction caused by diiodohydroxyquin|
+|allergy v1|snomed|218379001|Adverse reaction caused by cycloguanil (disorder)|
+|allergy v1|snomed|218382006|Adverse reaction caused by emetine (disorder)|
+|allergy v1|snomed|218394002|Adverse reaction caused by hexylresorcinol (disorder)|
+|allergy v1|snomed|218395001|Adverse reaction caused by male fern oleoresin|
+|allergy v1|snomed|218406006|Adverse reaction caused by ethionamide|
+|allergy v1|snomed|218408007|Adverse reaction caused by para-aminosalicylic acid|
+|allergy v1|snomed|218416003|Adverse reaction caused by hexamine (disorder)|
+|allergy v1|snomed|218471002|Adverse reaction caused by follicle stimulating hormone (disorder)|
+|allergy v1|snomed|218475006|Adverse reaction caused by posterior pituitary hormones|
+|allergy v1|snomed|218481003|Adverse reaction caused by parathyroid and parathyroid derivatives (disorder)|
+|allergy v1|snomed|218488009|Adverse reaction caused by thyroglobulin (disorder)|
+|allergy v1|snomed|218498003|Adverse reaction caused by antihistamines (disorder)|
+|allergy v1|snomed|218533007|Adverse reaction caused by acidifying agent (disorder)|
+|allergy v1|snomed|218534001|Adverse reaction caused by alkalizing agents (disorder)|
+|allergy v1|snomed|218566006|Adverse reaction caused by phytomenadione|
+|allergy v1|snomed|218568007|Adverse reaction caused by fibrinolytic drugs (disorder)|
+|allergy v1|snomed|218572006|Adverse reaction caused by anticoagulant antagonists|
+|allergy v1|snomed|218580004|Adverse reaction caused by blood plasma|
+|allergy v1|snomed|218581000|Adverse reaction caused by human fibrinogen|
+|allergy v1|snomed|218582007|Adverse reaction caused by packed red cells|
+|allergy v1|snomed|218583002|Adverse reaction caused by whole blood (disorder)|
+|allergy v1|snomed|218586005|Adverse reaction caused by macromolecular blood substitutes|
+|allergy v1|snomed|218605001|Adverse reaction caused by phenacetin|
+|allergy v1|snomed|218606000|Adverse reaction caused by acetanilide|
+|allergy v1|snomed|218608004|Adverse reaction caused by pyrazole derivative|
+|allergy v1|snomed|218610002|Adverse reaction caused by aminophenazone (disorder)|
+|allergy v1|snomed|218613000|Adverse reaction caused by ibuprofen|
+|allergy v1|snomed|218614006|Adverse reaction caused by diclofenac sodium (disorder)|
+|allergy v1|snomed|218615007|Adverse reaction caused by fenbufen (disorder)|
+|allergy v1|snomed|218619001|Adverse reaction caused by ketoprofen|
+|allergy v1|snomed|218620007|Adverse reaction caused by naproxen|
+|allergy v1|snomed|218621006|Adverse reaction caused by piroxicam (disorder)|
+|allergy v1|snomed|218622004|Adverse reaction caused by sodium aurothiomalate (disorder)|
+|allergy v1|snomed|218626001|Adverse reaction caused by pyrabital|
+|allergy v1|snomed|218630003|Adverse reaction caused by mefenamic acid|
+|allergy v1|snomed|218634007|Adverse reaction caused by oxazolidine derivative (disorder)|
+|allergy v1|snomed|218635008|Adverse reaction caused by paramethadione (disorder)|
+|allergy v1|snomed|218636009|Adverse reaction caused by trimethadione (disorder)|
+|allergy v1|snomed|218638005|Adverse reaction caused by hydantoin derivative (disorder)|
+|allergy v1|snomed|218641001|Adverse reaction caused by succinimide|
+|allergy v1|snomed|218643003|Adverse reaction caused by phensuximide (disorder)|
+|allergy v1|snomed|218663005|Adverse reaction caused by barbitone (disorder)|
+|allergy v1|snomed|218665003|Adverse reaction caused by pentobarbitone|
+|allergy v1|snomed|218679006|Adverse reaction caused by bromide|
+|allergy v1|snomed|218680009|Adverse reaction to carbromal derivative|
+|allergy v1|snomed|218696007|Adverse reaction caused by central nervous system muscle-tone depressants|
+|allergy v1|snomed|218697003|Adverse reaction caused by chlorphenesin (disorder)|
+|allergy v1|snomed|218698008|Adverse reaction caused by mephenesin (disorder)|
+|allergy v1|snomed|218704008|Adverse reaction caused by nitrous oxide (disorder)|
+|allergy v1|snomed|218705009|Adverse reaction caused by cyclopropane (disorder)|
+|allergy v1|snomed|218718001|Adverse reaction caused by surface and infiltration anesthetic (disorder)|
+|allergy v1|snomed|218724007|Adverse reaction caused by tetracaine (disorder)|
+|allergy v1|snomed|218726009|Adverse reaction caused by peripheral nerve and plexus blocking anaesthetic|
+|allergy v1|snomed|218727000|Adverse reaction caused by spinal anesthetic (disorder)|
+|allergy v1|snomed|218764006|Adverse reaction caused by spiperone|
+|allergy v1|snomed|218790009|Adverse reaction caused by hallucinogen|
+|allergy v1|snomed|218791008|Adverse reaction caused by cannabis (disorder)|
+|allergy v1|snomed|218792001|Adverse reaction caused by lysergide (disorder)|
+|allergy v1|snomed|218794000|Adverse reaction caused by mescaline|
+|allergy v1|snomed|218795004|Adverse reaction caused by psilocin (disorder)|
+|allergy v1|snomed|218796003|Adverse reaction caused by psilocybin|
+|allergy v1|snomed|218799005|Adverse reaction caused by caffeine|
+|allergy v1|snomed|218808002|Adverse reaction caused by lobeline (disorder)|
+|allergy v1|snomed|218813003|Adverse reaction caused by levallorphan (disorder)|
+|allergy v1|snomed|218814009|Adverse reaction caused by nalorphine|
+|allergy v1|snomed|218829006|Adverse reaction caused by parasympatholytic and spasmolytic|
+|allergy v1|snomed|218842006|Adverse reaction caused by sympatholytic (disorder)|
+|allergy v1|snomed|218845008|Adverse reaction caused by tolazoline (disorder)|
+|allergy v1|snomed|218868004|Adverse reaction caused by ganglion blocking drug|
+|allergy v1|snomed|218869007|Adverse reaction caused by pentamethonium bromide (disorder)|
+|allergy v1|snomed|218903005|Adverse reaction caused by reserpine (disorder)|
+|allergy v1|snomed|218916005|Adverse reaction caused by capillary-active drug|
+|allergy v1|snomed|218924000|Adverse reaction caused by alexitol sodium|
+|allergy v1|snomed|218925004|Adverse reaction caused by magnesium carbonate (disorder)|
+|allergy v1|snomed|218927007|Adverse reaction caused by hydrotalcite|
+|allergy v1|snomed|218928002|Adverse reaction caused by magaldrate|
+|allergy v1|snomed|218929005|Adverse reaction caused by sodium bicarbonate|
+|allergy v1|snomed|218933003|Adverse reaction caused by irritant cathartic|
+|allergy v1|snomed|218938007|Adverse reaction caused by fig|
+|allergy v1|snomed|218941003|Adverse reaction caused by phenolphthalein|
+|allergy v1|snomed|218943000|Adverse reaction caused by emollient cathartic (disorder)|
+|allergy v1|snomed|218950001|Adverse reaction caused by digestant|
+|allergy v1|snomed|218951002|Adverse reaction caused by pancreatin (disorder)|
+|allergy v1|snomed|218952009|Adverse reaction caused by papain (disorder)|
+|allergy v1|snomed|218953004|Adverse reaction caused by pepsin|
+|allergy v1|snomed|218957003|Adverse reaction caused by diphenoxylate (disorder)|
+|allergy v1|snomed|218959000|Adverse reaction caused by pectin|
+|allergy v1|snomed|218961009|Adverse reaction caused by emetic (disorder)|
+|allergy v1|snomed|218968003|Adverse reaction caused by chlormerodrin (disorder)|
+|allergy v1|snomed|218969006|Adverse reaction caused by mercaptomerin (disorder)|
+|allergy v1|snomed|218970007|Adverse reaction caused by mercurophylline (disorder)|
+|allergy v1|snomed|218972004|Adverse reaction caused by purine derivative diuretic|
+|allergy v1|snomed|218973009|Adverse reaction caused by theobromine (disorder)|
+|allergy v1|snomed|219008007|Adverse reaction caused by drug primarily acting on the smooth and skeletal muscles and respiratory system|
+|allergy v1|snomed|219009004|Adverse reaction caused by oxytocic agents|
+|allergy v1|snomed|219015004|Adverse reaction caused by adiphenine (disorder)|
+|allergy v1|snomed|219019005|Adverse reaction caused by skeletal muscle relaxants|
+|allergy v1|snomed|219029003|Adverse reaction caused by pipazethate hydrochloride|
+|allergy v1|snomed|219031007|Adverse reaction caused by expectorant (disorder)|
+|allergy v1|snomed|219035003|Adverse reaction to anti-common cold drug|
+|allergy v1|snomed|219036002|Adverse reaction to antiasthmatic|
+|allergy v1|snomed|219050007|Adverse reaction to antipruritic|
+|allergy v1|snomed|219063001|Adverse reaction caused by lipotropic drugs|
+|allergy v1|snomed|219075006|Adverse reaction caused by bacterial vaccines (disorder)|
+|allergy v1|snomed|219076007|Adverse reaction caused by BCG vaccine|
+|allergy v1|snomed|219077003|Adverse reaction caused by typhoid and paratyphoid vaccines|
+|allergy v1|snomed|219079000|Adverse reaction caused by paratyphoid vaccine|
+|allergy v1|snomed|219082005|Adverse reaction caused by cholera vaccine|
+|allergy v1|snomed|219083000|Adverse reaction caused by plague vaccine|
+|allergy v1|snomed|219084006|Adverse reaction caused by tetanus vaccine (disorder)|
+|allergy v1|snomed|219085007|Adverse reaction caused by diphtheria vaccine (disorder)|
+|allergy v1|snomed|219088009|Adverse reaction caused by meningococcal vaccine (disorder)|
+|allergy v1|snomed|219094001|Adverse reaction caused by typhus vaccine|
+|allergy v1|snomed|219095000|Adverse reaction caused by yellow fever vaccine (disorder)|
+|allergy v1|snomed|219096004|Adverse reaction caused by measles vaccine (disorder)|
+|allergy v1|snomed|242060008|Adverse reaction caused by antipyretic (disorder)|
+|allergy v1|snomed|269722001|Adverse reaction caused by salicylate (disorder)|
+|allergy v1|snomed|269723006|Adverse reaction caused by antirheumatic (disorder)|
+|allergy v1|snomed|281647001|Adverse reaction|
+|allergy v1|snomed|282100009|Adverse reaction caused by substance (disorder)|
+|allergy v1|snomed|292038009|Adverse reaction caused by over the counter drug (disorder)|
+|allergy v1|snomed|292040004|Adverse reaction to analgesics|
+|allergy v1|snomed|292041000|Non-opioid analgesic adverse reaction (disorder)|
+|allergy v1|snomed|292042007|Adverse reaction caused by acetaminophen (disorder)|
+|allergy v1|snomed|292044008|Aspirin adverse reaction (disorder)|
+|allergy v1|snomed|292045009|Opioid analgesic adverse reaction (disorder)|
+|allergy v1|snomed|292046005|Adverse reaction to pentazocine|
+|allergy v1|snomed|292047001|Phenazocine adverse reaction (disorder)|
+|allergy v1|snomed|292048006|Methadone analog adverse reaction (disorder)|
+|allergy v1|snomed|292049003|Adverse reaction to dextromoramide|
+|allergy v1|snomed|292050003|Dextropropoxyphene adverse reaction (disorder)|
+|allergy v1|snomed|292051004|Adverse reaction to dipipanone|
+|allergy v1|snomed|292052006|Adverse reaction to methadone|
+|allergy v1|snomed|292053001|Morphinan opioid adverse reaction (disorder)|
+|allergy v1|snomed|292054007|Adverse reaction to buprenorphine|
+|allergy v1|snomed|292055008|Adverse reaction to codeine|
+|allergy v1|snomed|292056009|Adverse reaction to diamorphine|
+|allergy v1|snomed|292057000|Adverse reaction to dihydrocodeine|
+|allergy v1|snomed|292058005|Nalbuphine adverse reaction (disorder)|
+|allergy v1|snomed|292059002|Adverse reaction to morphine|
+|allergy v1|snomed|292060007|Opium alkaloid adverse reaction (disorder)|
+|allergy v1|snomed|292061006|Adverse reaction to pethidine|
+|allergy v1|snomed|292062004|Alfentanil adverse reaction (disorder)|
+|allergy v1|snomed|292063009|Fentanyl adverse reaction (disorder)|
+|allergy v1|snomed|292064003|Meperidine adverse reaction|
+|allergy v1|snomed|292065002|Phenoperidine adverse reaction (disorder)|
+|allergy v1|snomed|292066001|Meptazinol adverse reaction (disorder)|
+|allergy v1|snomed|292067005|Adverse reaction to levorphanol|
+|allergy v1|snomed|292069008|Acemetacin adverse reaction (disorder)|
+|allergy v1|snomed|292070009|Azapropazone adverse reaction (disorder)|
+|allergy v1|snomed|292071008|Diclofenac adverse reaction (disorder)|
+|allergy v1|snomed|292072001|Etodolac adverse reaction (disorder)|
+|allergy v1|snomed|292073006|Felbinac adverse reaction (disorder)|
+|allergy v1|snomed|292075004|Adverse reaction to fenoprofen|
+|allergy v1|snomed|292076003|Adverse reaction to flurbiprofen|
+|allergy v1|snomed|292078002|Adverse reaction to indomethacin|
+|allergy v1|snomed|292080008|Ketorolac adverse reaction (disorder)|
+|allergy v1|snomed|292082000|Nabumetone adverse reaction (disorder)|
+|allergy v1|snomed|292084004|Nefopam adverse reaction (disorder)|
+|allergy v1|snomed|292085003|Oxyphenbutazone adverse reaction (disorder)|
+|allergy v1|snomed|292086002|Phenylbutazone adverse reaction (disorder)|
+|allergy v1|snomed|292088001|Sulindac adverse reaction (disorder)|
+|allergy v1|snomed|292089009|Tenoxicam adverse reaction (disorder)|
+|allergy v1|snomed|292090000|Tiaprofenic acid adverse reaction (disorder)|
+|allergy v1|snomed|292091001|Tolmetin adverse reaction (disorder)|
+|allergy v1|snomed|292092008|Diagnostic agent adverse reaction (disorder)|
+|allergy v1|snomed|292093003|Tuberculin adverse reaction (disorder)|
+|allergy v1|snomed|292094009|Radiopharmaceutical adverse reaction (disorder)|
+|allergy v1|snomed|292095005|Contrast media adverse reaction (disorder)|
+|allergy v1|snomed|292096006|X-ray contrast media adverse reaction (disorder)|
+|allergy v1|snomed|292097002|MRI contrast media adverse reaction|
+|allergy v1|snomed|292098007|Allergen extract vaccine adverse reaction (disorder)|
+|allergy v1|snomed|292099004|Diagnostic dye adverse reaction (disorder)|
+|allergy v1|snomed|292100007|Drug groups primarily affecting gastrointestinal system adverse reaction|
+|allergy v1|snomed|292101006|Ulcer healing drug adverse reaction (disorder)|
+|allergy v1|snomed|292102004|Bismuth chelate adverse reaction (disorder)|
+|allergy v1|snomed|292103009|Sucralfate adverse reaction (disorder)|
+|allergy v1|snomed|292104003|Liquorice adverse reaction (disorder)|
+|allergy v1|snomed|292105002|Misoprostol adverse reaction (disorder)|
+|allergy v1|snomed|292106001|H2 receptor antagonist adverse reaction (disorder)|
+|allergy v1|snomed|292107005|Cimetidine adverse reaction (disorder)|
+|allergy v1|snomed|292108000|Famotidine adverse reaction (disorder)|
+|allergy v1|snomed|292109008|Nizatidine adverse reaction (disorder)|
+|allergy v1|snomed|292110003|Ranitidine adverse reaction (disorder)|
+|allergy v1|snomed|292111004|Proton pump inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|292112006|Omeprazole adverse reaction (disorder)|
+|allergy v1|snomed|292113001|Lansoprazole adverse reaction (disorder)|
+|allergy v1|snomed|292114007|Carbenoxolone adverse reaction (disorder)|
+|allergy v1|snomed|292115008|Pirenzepine adverse reaction (disorder)|
+|allergy v1|snomed|292118005|Mesalamine adverse reaction|
+|allergy v1|snomed|292120008|Olsalazine adverse reaction (disorder)|
+|allergy v1|snomed|292121007|Sulfasalazine adverse reaction (disorder)|
+|allergy v1|snomed|292122000|Antacid adverse reaction (disorder)|
+|allergy v1|snomed|292123005|Magnesium trisilicate adverse reaction (disorder)|
+|allergy v1|snomed|292124004|Aluminum hydroxide adverse reaction (disorder)|
+|allergy v1|snomed|292125003|Antidiarrheal drug adverse reaction (disorder)|
+|allergy v1|snomed|292126002|Loperamide adverse reaction (disorder)|
+|allergy v1|snomed|292127006|Kaolin adverse reaction (disorder)|
+|allergy v1|snomed|292128001|Motility stimulant adverse reaction (disorder)|
+|allergy v1|snomed|292129009|Cisapride adverse reaction (disorder)|
+|allergy v1|snomed|292130004|Antiemetic adverse reaction (disorder)|
+|allergy v1|snomed|292131000|Nabilone adverse reaction (disorder)|
+|allergy v1|snomed|292132007|Domperidone adverse reaction (disorder)|
+|allergy v1|snomed|292133002|Adverse reaction to metoclopramide|
+|allergy v1|snomed|292134008|5-Hydroxytryptamine-3-receptor antagonist adverse reaction|
+|allergy v1|snomed|292135009|Laxative adverse reaction (disorder)|
+|allergy v1|snomed|292136005|Bisacodyl adverse reaction (disorder)|
+|allergy v1|snomed|292137001|Dantron adverse reaction|
+|allergy v1|snomed|292138006|Sodium picosulfate adverse reaction (disorder)|
+|allergy v1|snomed|292139003|Lactulose adverse reaction (disorder)|
+|allergy v1|snomed|292140001|Magnesium sulfate adverse reaction (disorder)|
+|allergy v1|snomed|292141002|Bulk-forming laxative adverse reaction (disorder)|
+|allergy v1|snomed|292142009|Anthraquinone laxative adverse reaction (disorder)|
+|allergy v1|snomed|292143004|Cascara adverse reaction (disorder)|
+|allergy v1|snomed|292144005|Senna adverse reaction (disorder)|
+|allergy v1|snomed|292145006|Docusate adverse reaction (disorder)|
+|allergy v1|snomed|292146007|Antispasmodic adverse reaction (disorder)|
+|allergy v1|snomed|292147003|Hyoscine butylbromide adverse reaction (disorder)|
+|allergy v1|snomed|292148008|Peppermint oil adverse reaction (disorder)|
+|allergy v1|snomed|292149000|Alverine adverse reaction (disorder)|
+|allergy v1|snomed|292150000|Adverse reaction to mebeverine|
+|allergy v1|snomed|292151001|Dicycloverine adverse reaction|
+|allergy v1|snomed|292152008|Mepenzolate adverse reaction (disorder)|
+|allergy v1|snomed|292153003|Pipenzolate adverse reaction (disorder)|
+|allergy v1|snomed|292154009|Poldine adverse reaction (disorder)|
+|allergy v1|snomed|292155005|Propantheline adverse reaction (disorder)|
+|allergy v1|snomed|292156006|Bile agent adverse reaction (disorder)|
+|allergy v1|snomed|292157002|Chenodeoxycholic acid adverse reaction (disorder)|
+|allergy v1|snomed|292158007|Dehydrocholic acid adverse reaction (disorder)|
+|allergy v1|snomed|292159004|Ursodeoxycholic acid adverse reaction (disorder)|
+|allergy v1|snomed|292160009|Chenodeoxycholic and ursodeoxycholic acid adverse reaction (disorder)|
+|allergy v1|snomed|292161008|Anesthetics and medical gases adverse reaction (disorder)|
+|allergy v1|snomed|292162001|Adverse reaction to general anesthetic|
+|allergy v1|snomed|292163006|Adverse reaction to intravenous anesthetic|
+|allergy v1|snomed|292164000|Adverse reaction to etomidate|
+|allergy v1|snomed|292165004|Adverse reaction to ketamine|
+|allergy v1|snomed|292166003|Adverse reaction to propofol|
+|allergy v1|snomed|292167007|Thiopental adverse reaction|
+|allergy v1|snomed|292168002|Adverse reaction to methohexitone sodium|
+|allergy v1|snomed|292169005|Adverse reaction to gaseous anesthetic|
+|allergy v1|snomed|292170006|Adverse reaction to enflurane|
+|allergy v1|snomed|292171005|Adverse reaction to ether|
+|allergy v1|snomed|292172003|Adverse reaction to halothane|
+|allergy v1|snomed|292173008|Adverse reaction to isoflurane|
+|allergy v1|snomed|292174002|Adverse reaction to trichloroethylene|
+|allergy v1|snomed|292175001|Desflurane adverse reaction (disorder)|
+|allergy v1|snomed|292176000|Local anesthetic drug adverse reaction (disorder)|
+|allergy v1|snomed|292177009|Adverse reaction to bupivacaine hydrochloride|
+|allergy v1|snomed|292178004|Cinchocaine adverse reaction (disorder)|
+|allergy v1|snomed|292179007|Prilocaine adverse reaction (disorder)|
+|allergy v1|snomed|292180005|Lidocaine adverse reaction|
+|allergy v1|snomed|292181009|Adverse reaction to cocaine|
+|allergy v1|snomed|292182002|Benzocaine adverse reaction (disorder)|
+|allergy v1|snomed|292184001|Oxybuprocaine adverse reaction (disorder)|
+|allergy v1|snomed|292185000|Procaine adverse reaction (disorder)|
+|allergy v1|snomed|292186004|Proxymetacaine adverse reaction (disorder)|
+|allergy v1|snomed|292188003|Immunostimulant adverse reaction (disorder)|
+|allergy v1|snomed|292189006|Amifostine adverse reaction (disorder)|
+|allergy v1|snomed|292190002|Aldesleukin adverse reaction (disorder)|
+|allergy v1|snomed|292191003|Colony stimulating factors adverse reaction (disorder)|
+|allergy v1|snomed|292192005|Molgramostim adverse reaction (disorder)|
+|allergy v1|snomed|292193000|Lenograstim adverse reaction (disorder)|
+|allergy v1|snomed|292194006|Filgrastim adverse reaction (disorder)|
+|allergy v1|snomed|292195007|Levamisole adverse reaction (disorder)|
+|allergy v1|snomed|292196008|Antineoplastic adverse reaction (disorder)|
+|allergy v1|snomed|292197004|Alkylating drug adverse reaction (disorder)|
+|allergy v1|snomed|292198009|Mitobronitol adverse reaction (disorder)|
+|allergy v1|snomed|292199001|Adverse reaction to busulfan|
+|allergy v1|snomed|292200003|Adverse reaction to treosulfan|
+|allergy v1|snomed|292201004|Adverse reaction to thiotepa|
+|allergy v1|snomed|292202006|Nitrogen mustard derivative adverse reaction (disorder)|
+|allergy v1|snomed|292203001|Adverse reaction to chlorambucil|
+|allergy v1|snomed|292204007|Adverse reaction to cyclophosphamide|
+|allergy v1|snomed|292205008|Ethoglucid adverse reaction (disorder)|
+|allergy v1|snomed|292206009|Ifosfamide adverse reaction (disorder)|
+|allergy v1|snomed|292207000|Adverse reaction to melphalan|
+|allergy v1|snomed|292208005|Adverse reaction to estramustine phosphate|
+|allergy v1|snomed|292209002|Mechlorethamine adverse reaction|
+|allergy v1|snomed|292210007|Nitrosurea adverse reaction (disorder)|
+|allergy v1|snomed|292212004|Adverse reaction to carmustine|
+|allergy v1|snomed|292213009|Adverse reaction to lomustine|
+|allergy v1|snomed|292214003|Triazene antineoplastic adverse reaction (disorder)|
+|allergy v1|snomed|292215002|Dacarbazine adverse reaction (disorder)|
+|allergy v1|snomed|292216001|Cytotoxic antibiotic adverse reaction (disorder)|
+|allergy v1|snomed|292217005|Dactinomycin adverse reaction (disorder)|
+|allergy v1|snomed|292218000|Adverse reaction to bleomycin|
+|allergy v1|snomed|292220002|Adverse reaction to mitomycin|
+|allergy v1|snomed|292221003|Adverse reaction to plicamycin|
+|allergy v1|snomed|292222005|Aclarubicin adverse reaction (disorder)|
+|allergy v1|snomed|292223000|Adverse reaction to mitoxantrone|
+|allergy v1|snomed|292224006|Doxorubicin adverse reaction (disorder)|
+|allergy v1|snomed|292225007|Epirubicin adverse reaction (disorder)|
+|allergy v1|snomed|292226008|Idarubicin adverse reaction (disorder)|
+|allergy v1|snomed|292227004|Antimetabolite adverse reaction (disorder)|
+|allergy v1|snomed|292228009|Mercuric oxide adverse reaction (disorder)|
+|allergy v1|snomed|292229001|Adverse reaction to methotrexate|
+|allergy v1|snomed|292230006|Adverse reaction to mercaptopurine|
+|allergy v1|snomed|292231005|Tioguanine adverse reaction|
+|allergy v1|snomed|292232003|Pentostatin adverse reaction (disorder)|
+|allergy v1|snomed|292233008|Adverse reaction to cytarabine|
+|allergy v1|snomed|292234002|Adverse reaction to fluorouracil|
+|allergy v1|snomed|292235001|Adverse reaction to etoposide|
+|allergy v1|snomed|292236000|Amsacrine adverse reaction (disorder)|
+|allergy v1|snomed|292237009|Adverse reaction to carboplatin|
+|allergy v1|snomed|292238004|Adverse reaction to cisplatin|
+|allergy v1|snomed|292239007|Hydroxycarbamide adverse reaction|
+|allergy v1|snomed|292240009|Adverse reaction to procarbazine|
+|allergy v1|snomed|292241008|Adverse reaction to razoxane|
+|allergy v1|snomed|292242001|Crisantaspase adverse reaction (disorder)|
+|allergy v1|snomed|292243006|Paclitaxel adverse reaction (disorder)|
+|allergy v1|snomed|292244000|Fludarabine adverse reaction (disorder)|
+|allergy v1|snomed|292245004|Aminoglutethimide adverse reaction (disorder)|
+|allergy v1|snomed|292246003|Estrogen antagonist adverse reaction (disorder)|
+|allergy v1|snomed|292247007|Trilostane adverse reaction (disorder)|
+|allergy v1|snomed|292248002|Adverse reaction to tamoxifen|
+|allergy v1|snomed|292249005|Formestane adverse reaction (disorder)|
+|allergy v1|snomed|292250005|Vinca alkaloid adverse reaction (disorder)|
+|allergy v1|snomed|292251009|Vinblastine adverse reaction (disorder)|
+|allergy v1|snomed|292252002|Vincristine adverse reaction (disorder)|
+|allergy v1|snomed|292253007|Vindesine adverse reaction (disorder)|
+|allergy v1|snomed|292254001|Dimethyl sulfoxide adverse reaction (disorder)|
+|allergy v1|snomed|292255000|Immunosuppressant adverse reaction (disorder)|
+|allergy v1|snomed|292256004|Adverse reaction to ciclosporin|
+|allergy v1|snomed|292257008|Azathioprine adverse reaction (disorder)|
+|allergy v1|snomed|292258003|Drug groups primarily affecting central nervous system adverse reaction|
+|allergy v1|snomed|292259006|Centrally acting appetite suppressant adverse reaction (disorder)|
+|allergy v1|snomed|292260001|Mazindol adverse reaction (disorder)|
+|allergy v1|snomed|292261002|Phentermine adverse reaction (disorder)|
+|allergy v1|snomed|292262009|Dexfenfluramine adverse reaction (disorder)|
+|allergy v1|snomed|292263004|Diethylpropion adverse reaction (disorder)|
+|allergy v1|snomed|292264005|Fenfluramine adverse reaction (disorder)|
+|allergy v1|snomed|292265006|Dopaminergic drug used in parkinsonism adverse reaction (disorder)|
+|allergy v1|snomed|292266007|Adverse reaction to levodopa, L-dopa|
+|allergy v1|snomed|292267003|Benserazide + levodopa adverse reaction (disorder)|
+|allergy v1|snomed|292268008|Carbidopa + levodopa adverse reaction (disorder)|
+|allergy v1|snomed|292269000|Amantadine adverse reaction (disorder)|
+|allergy v1|snomed|292270004|Apomorphine adverse reaction (disorder)|
+|allergy v1|snomed|292272007|Lisuride adverse reaction|
+|allergy v1|snomed|292273002|Pergolide adverse reaction (disorder)|
+|allergy v1|snomed|292274008|Bromocriptine adverse reaction (disorder)|
+|allergy v1|snomed|292275009|Adverse reaction to antidepressant|
+|allergy v1|snomed|292276005|Lithium adverse reaction (disorder)|
+|allergy v1|snomed|292277001|Lithium carbonate adverse reaction (disorder)|
+|allergy v1|snomed|292278006|Lithium citrate adverse reaction (disorder)|
+|allergy v1|snomed|292279003|Tricyclic antidepressant drug adverse reaction (disorder)|
+|allergy v1|snomed|292280000|Adverse reaction to butriptyline|
+|allergy v1|snomed|292281001|Adverse reaction to doxepin|
+|allergy v1|snomed|292282008|Iprindole adverse reaction (disorder)|
+|allergy v1|snomed|292283003|Adverse reaction to lofepramine|
+|allergy v1|snomed|292284009|Adverse reaction to nortriptyline|
+|allergy v1|snomed|292285005|Adverse reaction to trimipramine|
+|allergy v1|snomed|292286006|Amoxapine adverse reaction (disorder)|
+|allergy v1|snomed|292287002|Amitriptyline adverse reaction (disorder)|
+|allergy v1|snomed|292288007|Adverse reaction to clomipramine|
+|allergy v1|snomed|292289004|Adverse reaction to desipramine|
+|allergy v1|snomed|292290008|Dosulepin adverse reaction|
+|allergy v1|snomed|292291007|Adverse reaction to imipramine|
+|allergy v1|snomed|292292000|Adverse reaction to protriptyline|
+|allergy v1|snomed|292293005|Monoamine oxidase inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|292294004|Adverse reaction to phenelzine|
+|allergy v1|snomed|292295003|Iproniazid adverse reaction (disorder)|
+|allergy v1|snomed|292296002|Adverse reaction to isocarboxazid|
+|allergy v1|snomed|292297006|Adverse reaction to tranylcypromine|
+|allergy v1|snomed|292298001|Moclobemide adverse reaction (disorder)|
+|allergy v1|snomed|292299009|Compound antidepressants adverse reaction (disorder)|
+|allergy v1|snomed|292300001|Adverse reaction to tryptophan|
+|allergy v1|snomed|292301002|Venlafaxine adverse reaction (disorder)|
+|allergy v1|snomed|292302009|Selective serotonin re-uptake inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|292303004|Sertraline adverse reaction (disorder)|
+|allergy v1|snomed|292304005|Paroxetine adverse reaction (disorder)|
+|allergy v1|snomed|292305006|Nefazodone adverse reaction (disorder)|
+|allergy v1|snomed|292306007|Citalopram adverse reaction (disorder)|
+|allergy v1|snomed|292307003|Fluoxetine adverse reaction (disorder)|
+|allergy v1|snomed|292308008|Fluvoxamine adverse reaction (disorder)|
+|allergy v1|snomed|292309000|Tetracyclic antidepressant drug adverse reaction (disorder)|
+|allergy v1|snomed|292310005|Adverse reaction to maprotiline|
+|allergy v1|snomed|292311009|Adverse reaction to mianserin|
+|allergy v1|snomed|292312002|Trazodone adverse reaction (disorder)|
+|allergy v1|snomed|292313007|Viloxazine adverse reaction (disorder)|
+|allergy v1|snomed|292314001|Antiepileptic adverse reaction (disorder)|
+|allergy v1|snomed|292315000|Adverse reaction to beclamide|
+|allergy v1|snomed|292316004|Lamotrigine adverse reaction (disorder)|
+|allergy v1|snomed|292317008|Piracetam adverse reaction (disorder)|
+|allergy v1|snomed|292318003|Gabapentin adverse reaction (disorder)|
+|allergy v1|snomed|292319006|Adverse reaction to sodium valproate|
+|allergy v1|snomed|292320000|Barbiturate antiepileptic adverse reaction (disorder)|
+|allergy v1|snomed|292322008|Methylphenobarbital adverse reaction|
+|allergy v1|snomed|292323003|Adverse reaction to phenobarbital|
+|allergy v1|snomed|292324009|Adverse reaction to primidone|
+|allergy v1|snomed|292325005|Adverse reaction to carbamazepine|
+|allergy v1|snomed|292326006|Vigabatrin adverse reaction (disorder)|
+|allergy v1|snomed|292327002|Adverse reaction to phenytoin|
+|allergy v1|snomed|292328007|Adverse reaction to ethosuximide|
+|allergy v1|snomed|292329004|Adverse reaction to clonazepam|
+|allergy v1|snomed|292331008|Sedative adverse reaction (disorder)|
+|allergy v1|snomed|292332001|Zopiclone adverse reaction (disorder)|
+|allergy v1|snomed|292333006|Zolpidem adverse reaction (disorder)|
+|allergy v1|snomed|292334000|Adverse reaction to chlormezanone|
+|allergy v1|snomed|292335004|Adverse reaction to methyprylon|
+|allergy v1|snomed|292336003|Adverse reaction to paraldehyde|
+|allergy v1|snomed|292337007|Barbiturate sedative adverse reaction (disorder)|
+|allergy v1|snomed|292338002|Adverse reaction to amobarbital|
+|allergy v1|snomed|292339005|Adverse reaction to butobarbital|
+|allergy v1|snomed|292340007|Cyclobarbitone adverse reaction (disorder)|
+|allergy v1|snomed|292341006|Amobarbital sodium adverse reaction|
+|allergy v1|snomed|292342004|Adverse reaction to secobarbital|
+|allergy v1|snomed|292343009|Adverse reaction to benzodiazepine-based tranquillizer|
+|allergy v1|snomed|292344003|Flunitrazepam adverse reaction (disorder)|
+|allergy v1|snomed|292345002|Adverse reaction to flurazepam|
+|allergy v1|snomed|292346001|Loprazolam adverse reaction (disorder)|
+|allergy v1|snomed|292347005|Lormetazepam adverse reaction (disorder)|
+|allergy v1|snomed|292348000|Adverse reaction to nitrazepam|
+|allergy v1|snomed|292349008|Adverse reaction to triazolam|
+|allergy v1|snomed|292350008|Alprazolam adverse reaction (disorder)|
+|allergy v1|snomed|292351007|Bromazepam adverse reaction (disorder)|
+|allergy v1|snomed|292352000|Adverse reaction to chlordiazepoxide|
+|allergy v1|snomed|292353005|Adverse reaction to clobazam|
+|allergy v1|snomed|292354004|Dipotassium clorazepate adverse reaction|
+|allergy v1|snomed|292355003|Adverse reaction to ketazolam|
+|allergy v1|snomed|292356002|Adverse reaction to medazepam|
+|allergy v1|snomed|292357006|Adverse reaction to oxazepam|
+|allergy v1|snomed|292358001|Prazepam adverse reaction (disorder)|
+|allergy v1|snomed|292359009|Midazolam adverse reaction (disorder)|
+|allergy v1|snomed|292360004|Adverse reaction to diazepam|
+|allergy v1|snomed|292361000|Adverse reaction to lorazepam|
+|allergy v1|snomed|292362007|Adverse reaction to temazepam|
+|allergy v1|snomed|292363002|Carbamate sedative adverse reaction (disorder)|
+|allergy v1|snomed|292364008|Adverse reaction to meprobamate|
+|allergy v1|snomed|292365009|Chloral sedative adverse reaction (disorder)|
+|allergy v1|snomed|292366005|Adverse reaction to chloral hydrate|
+|allergy v1|snomed|292367001|Adverse reaction to dichloralphenazone|
+|allergy v1|snomed|292368006|Triclofos sodium adverse reaction (disorder)|
+|allergy v1|snomed|292369003|Buspirone adverse reaction (disorder)|
+|allergy v1|snomed|292370002|Clomethiazole adverse reaction|
+|allergy v1|snomed|292371003|Neuroleptic adverse reaction (disorder)|
+|allergy v1|snomed|292372005|Sulpiride adverse reaction (disorder)|
+|allergy v1|snomed|292373000|Loxapine adverse reaction (disorder)|
+|allergy v1|snomed|292374006|Clozapine adverse reaction (disorder)|
+|allergy v1|snomed|292375007|Risperidone adverse reaction (disorder)|
+|allergy v1|snomed|292376008|Adverse reaction to tetrabenazine|
+|allergy v1|snomed|292377004|Butyrophenone adverse reaction (disorder)|
+|allergy v1|snomed|292378009|Benperidol adverse reaction (disorder)|
+|allergy v1|snomed|292379001|Adverse reaction to trifluperidol|
+|allergy v1|snomed|292380003|Haloperidol decanoate adverse reaction (disorder)|
+|allergy v1|snomed|292381004|Droperidol adverse reaction (disorder)|
+|allergy v1|snomed|292382006|Adverse reaction to haloperidol|
+|allergy v1|snomed|292383001|Diphenylbutylpiperidine adverse reaction (disorder)|
+|allergy v1|snomed|292384007|Pimozide adverse reaction (disorder)|
+|allergy v1|snomed|292385008|Fluspirilene adverse reaction (disorder)|
+|allergy v1|snomed|292386009|Phenothiazine adverse reaction (disorder)|
+|allergy v1|snomed|292387000|Levomepromazine adverse reaction|
+|allergy v1|snomed|292388005|Adverse reaction to pericyazine|
+|allergy v1|snomed|292389002|Fluphenazine decanoate adverse reaction (disorder)|
+|allergy v1|snomed|292390006|Fluphenazine enanthate adverse reaction (disorder)|
+|allergy v1|snomed|292391005|Thiethylperazine adverse reaction (disorder)|
+|allergy v1|snomed|292392003|Adverse reaction to fluphenazine|
+|allergy v1|snomed|292393008|Adverse reaction to chlorpromazine|
+|allergy v1|snomed|292394002|Pipotiazine adverse reaction|
+|allergy v1|snomed|292395001|Adverse reaction to promazine|
+|allergy v1|snomed|292396000|Adverse reaction to thioridazine|
+|allergy v1|snomed|292397009|Adverse reaction to perphenazine|
+|allergy v1|snomed|292398004|Adverse reaction to prochlorperazine|
+|allergy v1|snomed|292399007|Trifluoperazine adverse reaction (disorder)|
+|allergy v1|snomed|292400000|Thioxanthene adverse reaction (disorder)|
+|allergy v1|snomed|292401001|Chlorprothixene adverse reaction (disorder)|
+|allergy v1|snomed|292402008|Flupentixol decanoate adverse reaction|
+|allergy v1|snomed|292403003|Zuclopenthixol decanoate adverse reaction (disorder)|
+|allergy v1|snomed|292404009|Zuclopenthixol adverse reaction (disorder)|
+|allergy v1|snomed|292405005|Adverse reaction to flupentixol|
+|allergy v1|snomed|292406006|Adverse reaction to oxypertine|
+|allergy v1|snomed|292407002|Remoxipride adverse reaction (disorder)|
+|allergy v1|snomed|292408007|Decarboxylase inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|292409004|Adverse reaction to selegiline|
+|allergy v1|snomed|292410009|Adverse reaction to central nervous system stimulant|
+|allergy v1|snomed|292411008|Adverse reaction to pemoline|
+|allergy v1|snomed|292412001|Methylphenidate adverse reaction (disorder)|
+|allergy v1|snomed|292413006|Prolintane adverse reaction (disorder)|
+|allergy v1|snomed|292414000|Amfetamine group adverse reaction|
+|allergy v1|snomed|292415004|Dexamfetamine adverse reaction|
+|allergy v1|snomed|292416003|Alcohol metabolism modifier adverse reaction (disorder)|
+|allergy v1|snomed|292417007|Disulfiram adverse reaction (disorder)|
+|allergy v1|snomed|292418002|Drug groups primarily affecting autonomic nervous system adverse reaction|
+|allergy v1|snomed|292419005|Adverse reaction to beta-blockers|
+|allergy v1|snomed|292420004|Cardioselective beta-blocker adverse reaction (disorder)|
+|allergy v1|snomed|292421000|Adverse reaction to acebutolol|
+|allergy v1|snomed|292424008|Betaxolol adverse reaction (disorder)|
+|allergy v1|snomed|292425009|Bisoprolol adverse reaction (disorder)|
+|allergy v1|snomed|292426005|Celiprolol adverse reaction (disorder)|
+|allergy v1|snomed|292427001|Esmolol adverse reaction (disorder)|
+|allergy v1|snomed|292428006|Adverse reaction to metoprolol|
+|allergy v1|snomed|292429003|Non-cardioselective beta-blocker adverse reaction (disorder)|
+|allergy v1|snomed|292430008|Adverse reaction to nadolol|
+|allergy v1|snomed|292431007|Pindolol adverse reaction (disorder)|
+|allergy v1|snomed|292432000|Carvedilol adverse reaction (disorder)|
+|allergy v1|snomed|292433005|Metipranolol adverse reaction (disorder)|
+|allergy v1|snomed|292434004|Carteolol adverse reaction (disorder)|
+|allergy v1|snomed|292435003|Adverse reaction to labetalol|
+|allergy v1|snomed|292436002|Levobunolol adverse reaction (disorder)|
+|allergy v1|snomed|292437006|Adverse reaction to oxprenolol|
+|allergy v1|snomed|292438001|Penbutolol adverse reaction (disorder)|
+|allergy v1|snomed|292439009|Adverse reaction to practolol|
+|allergy v1|snomed|292440006|Propranolol adverse reaction (disorder)|
+|allergy v1|snomed|292441005|Adverse reaction to sotalol|
+|allergy v1|snomed|292442003|Adverse reaction to timolol|
+|allergy v1|snomed|292443008|Alpha-adrenoceptor blocking drug adverse reaction (disorder)|
+|allergy v1|snomed|292444002|Alfuzosin adverse reaction (disorder)|
+|allergy v1|snomed|292445001|Doxazosin adverse reaction (disorder)|
+|allergy v1|snomed|292446000|Indoramin adverse reaction (disorder)|
+|allergy v1|snomed|292447009|Adverse reaction to phenoxybenzamine|
+|allergy v1|snomed|292448004|Adverse reaction to phentolamine|
+|allergy v1|snomed|292449007|Prazosin adverse reaction (disorder)|
+|allergy v1|snomed|292450007|Terazosin adverse reaction (disorder)|
+|allergy v1|snomed|292451006|Nicotine adverse reaction (disorder)|
+|allergy v1|snomed|292452004|Calcium-channel blocker adverse reaction (disorder)|
+|allergy v1|snomed|292453009|Lidoflazine adverse reaction (disorder)|
+|allergy v1|snomed|292454003|Nifedipine adverse reaction (disorder)|
+|allergy v1|snomed|292455002|Prenylamine adverse reaction (disorder)|
+|allergy v1|snomed|292456001|Isradipine adverse reaction (disorder)|
+|allergy v1|snomed|292457005|Felodipine adverse reaction (disorder)|
+|allergy v1|snomed|292458000|Lacidipine adverse reaction (disorder)|
+|allergy v1|snomed|292459008|Nimodipine adverse reaction (disorder)|
+|allergy v1|snomed|292460003|Amlodipine adverse reaction (disorder)|
+|allergy v1|snomed|292461004|Diltiazem adverse reaction (disorder)|
+|allergy v1|snomed|292462006|Nicardipine adverse reaction (disorder)|
+|allergy v1|snomed|292463001|Verapamil adverse reaction (disorder)|
+|allergy v1|snomed|292465008|Adverse reaction to parasympathomimetic|
+|allergy v1|snomed|292466009|Adverse reaction to pilocarpine|
+|allergy v1|snomed|292467000|Acetylcholine chloride adverse reaction (disorder)|
+|allergy v1|snomed|292468005|Methacholine adverse reaction (disorder)|
+|allergy v1|snomed|292469002|Adverse reaction to anticholinesterase|
+|allergy v1|snomed|292470001|Physostigmine adverse reaction (disorder)|
+|allergy v1|snomed|292471002|Demecarium adverse reaction (disorder)|
+|allergy v1|snomed|292472009|Adverse reaction to distigmine|
+|allergy v1|snomed|292473004|Ecothiopate adverse reaction (disorder)|
+|allergy v1|snomed|292474005|Adverse reaction to edrophonium|
+|allergy v1|snomed|292475006|Adverse reaction to pyridostigmine|
+|allergy v1|snomed|292476007|Adverse reaction to neostigmine|
+|allergy v1|snomed|292477003|Bethanechol adverse reaction (disorder)|
+|allergy v1|snomed|292478008|Carbachol adverse reaction (disorder)|
+|allergy v1|snomed|292479000|Adverse reaction to sympathomimetic|
+|allergy v1|snomed|292480002|Isoetharine hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292481003|Phenylpropanolamine hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292482005|Pseudoephedrine adverse reaction (disorder)|
+|allergy v1|snomed|292483000|Alpha-adrenoceptor agonist adverse reaction (disorder)|
+|allergy v1|snomed|292484006|Oxedrine tartrate adverse reaction (disorder)|
+|allergy v1|snomed|292485007|Adverse reaction to metaraminol|
+|allergy v1|snomed|292486008|Methoxamine adverse reaction (disorder)|
+|allergy v1|snomed|292487004|Naphazoline adverse reaction (disorder)|
+|allergy v1|snomed|292488009|Norepinephrine adverse reaction (disorder)|
+|allergy v1|snomed|292489001|Phenylephrine adverse reaction (disorder)|
+|allergy v1|snomed|292490005|Xylometazoline adverse reaction (disorder)|
+|allergy v1|snomed|292491009|Beta-adrenoceptor agonist adverse reaction (disorder)|
+|allergy v1|snomed|292492002|Selective beta-2 adrenoceptor stimulants adverse reaction (disorder)|
+|allergy v1|snomed|292493007|Pirbuterol adverse reaction (disorder)|
+|allergy v1|snomed|292494001|Salmeterol adverse reaction (disorder)|
+|allergy v1|snomed|292495000|Adverse reaction to salbutamol|
+|allergy v1|snomed|292496004|Bambuterol adverse reaction (disorder)|
+|allergy v1|snomed|292497008|Fenoterol adverse reaction (disorder)|
+|allergy v1|snomed|292498003|Adverse reaction to orciprenaline|
+|allergy v1|snomed|292499006|Reproterol adverse reaction (disorder)|
+|allergy v1|snomed|292500002|Rimiterol adverse reaction (disorder)|
+|allergy v1|snomed|292501003|Ritodrine adverse reaction (disorder)|
+|allergy v1|snomed|292502005|Terbutaline adverse reaction (disorder)|
+|allergy v1|snomed|292503000|Tulobuterol adverse reaction (disorder)|
+|allergy v1|snomed|292504006|Selective beta-1 adrenoceptor stimulants adverse reaction (disorder)|
+|allergy v1|snomed|292505007|Dobutamine adverse reaction (disorder)|
+|allergy v1|snomed|292506008|Dopexamine adverse reaction (disorder)|
+|allergy v1|snomed|292507004|Adverse reaction to isoprenaline|
+|allergy v1|snomed|292508009|Oral isoprenaline adverse reaction (disorder)|
+|allergy v1|snomed|292509001|Inhaled isoprenaline adverse reaction (disorder)|
+|allergy v1|snomed|292510006|Parenteral isoprenaline adverse reaction (disorder)|
+|allergy v1|snomed|292511005|Central alpha-adrenoceptor agonist adverse reaction (disorder)|
+|allergy v1|snomed|292512003|Methyldopa adverse reaction (disorder)|
+|allergy v1|snomed|292513008|Methyldopa and diuretic adverse reaction (disorder)|
+|allergy v1|snomed|292514002|Apraclonidine adverse reaction (disorder)|
+|allergy v1|snomed|292515001|Clonidine adverse reaction (disorder)|
+|allergy v1|snomed|292516000|Lofexidine adverse reaction (disorder)|
+|allergy v1|snomed|292517009|Dipivefrine adverse reaction (disorder)|
+|allergy v1|snomed|292518004|Dopamine adverse reaction (disorder)|
+|allergy v1|snomed|292519007|Adverse reaction to ephedrine|
+|allergy v1|snomed|292520001|Oxymetazoline adverse reaction (disorder)|
+|allergy v1|snomed|292521002|Xamoterol adverse reaction (disorder)|
+|allergy v1|snomed|292522009|Anticholinergic adverse reaction (disorder)|
+|allergy v1|snomed|292523004|Antimuscarinic adverse reaction (disorder)|
+|allergy v1|snomed|292525006|Belladonna alkaloids adverse reaction (disorder)|
+|allergy v1|snomed|292526007|Piperidolate hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292527003|Adverse reaction to biperiden|
+|allergy v1|snomed|292528008|Emepronium bromide adverse reaction (disorder)|
+|allergy v1|snomed|292529000|Terodiline hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292530005|Lachesine chloride adverse reaction (disorder)|
+|allergy v1|snomed|292531009|Tropicamide adverse reaction (disorder)|
+|allergy v1|snomed|292532002|Adverse reaction to hyoscine|
+|allergy v1|snomed|292533007|Hyoscine hydrobromide adverse reaction (disorder)|
+|allergy v1|snomed|292534001|Atropine adverse reaction (disorder)|
+|allergy v1|snomed|292535000|Trihexyphenidyl adverse reaction|
+|allergy v1|snomed|292536004|Adverse reaction to benzatropine|
+|allergy v1|snomed|292537008|Cyclopentolate adverse reaction (disorder)|
+|allergy v1|snomed|292538003|Glycopyrronium adverse reaction (disorder)|
+|allergy v1|snomed|292539006|Adverse reaction to homatropine|
+|allergy v1|snomed|292540008|Adverse reaction to ipratropium|
+|allergy v1|snomed|292541007|Adverse reaction to methixene|
+|allergy v1|snomed|292542000|Adverse reaction to orphenadrine|
+|allergy v1|snomed|292543005|Orphenadrine hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292544004|Orphenadrine citrate adverse reaction (disorder)|
+|allergy v1|snomed|292545003|Adverse reaction to oxitropium|
+|allergy v1|snomed|292546002|Oxybutynin adverse reaction (disorder)|
+|allergy v1|snomed|292547006|Procyclidine adverse reaction (disorder)|
+|allergy v1|snomed|292548001|Drug groups primarily affecting respiratory system adverse reaction|
+|allergy v1|snomed|292549009|Dornase alfa adverse reaction (disorder)|
+|allergy v1|snomed|292550009|Mucolytics adverse reaction (disorder)|
+|allergy v1|snomed|292551008|Tyloxapol adverse reaction (disorder)|
+|allergy v1|snomed|292552001|Bromhexine hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292553006|Carbocisteine adverse reaction (disorder)|
+|allergy v1|snomed|292554000|Methylcysteine adverse reaction (disorder)|
+|allergy v1|snomed|292555004|Acetylcysteine adverse reaction (disorder)|
+|allergy v1|snomed|292556003|Respiratory stimulant adverse reaction (disorder)|
+|allergy v1|snomed|292557007|Adverse reaction to nikethamide|
+|allergy v1|snomed|292558002|Adverse reaction to ethamivan|
+|allergy v1|snomed|292559005|Adverse reaction to doxapram|
+|allergy v1|snomed|292560000|Respiratory surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292561001|Beractant adverse reaction (disorder)|
+|allergy v1|snomed|292562008|Phospholipid fraction adverse reaction (disorder)|
+|allergy v1|snomed|292563003|Pumactant adverse reaction (disorder)|
+|allergy v1|snomed|292564009|Colfosceril adverse reaction (disorder)|
+|allergy v1|snomed|292565005|Antiallergenic drug adverse reaction (disorder)|
+|allergy v1|snomed|292566006|Topical antihistamine adverse reaction (disorder)|
+|allergy v1|snomed|292567002|H1 antihistamine adverse reaction (disorder)|
+|allergy v1|snomed|292569004|Astemizole adverse reaction (disorder)|
+|allergy v1|snomed|292570003|Terfenadine adverse reaction (disorder)|
+|allergy v1|snomed|292571004|Acrivastine adverse reaction (disorder)|
+|allergy v1|snomed|292572006|Loratadine adverse reaction (disorder)|
+|allergy v1|snomed|292573001|Azelastine adverse reaction (disorder)|
+|allergy v1|snomed|292574007|Cetirizine adverse reaction (disorder)|
+|allergy v1|snomed|292576009|Clemastine adverse reaction (disorder)|
+|allergy v1|snomed|292577000|Mebhydrolin adverse reaction (disorder)|
+|allergy v1|snomed|292578005|Mequitazine adverse reaction (disorder)|
+|allergy v1|snomed|292579002|Oxatomide adverse reaction (disorder)|
+|allergy v1|snomed|292580004|Cyclizine adverse reaction (disorder)|
+|allergy v1|snomed|292581000|Dimenhydrinate adverse reaction (disorder)|
+|allergy v1|snomed|292582007|Meclozine hydrochloride adverse reaction (disorder)|
+|allergy v1|snomed|292583002|Antazoline adverse reaction (disorder)|
+|allergy v1|snomed|292584008|Promethazine adverse reaction (disorder)|
+|allergy v1|snomed|292585009|Azatadine adverse reaction (disorder)|
+|allergy v1|snomed|292586005|Brompheniramine adverse reaction (disorder)|
+|allergy v1|snomed|292587001|Chlorphenamine adverse reaction|
+|allergy v1|snomed|292588006|Cinnarizine adverse reaction (disorder)|
+|allergy v1|snomed|292589003|Cyproheptadine adverse reaction (disorder)|
+|allergy v1|snomed|292590007|Dimetindene adverse reaction|
+|allergy v1|snomed|292591006|Diphenhydramine adverse reaction (disorder)|
+|allergy v1|snomed|292592004|Adverse reaction to diphenylpyraline|
+|allergy v1|snomed|292593009|Adverse reaction to hydroxyzine|
+|allergy v1|snomed|292594003|Mepyramine adverse reaction (disorder)|
+|allergy v1|snomed|292595002|Phenindamine adverse reaction (disorder)|
+|allergy v1|snomed|292596001|Pheniramine adverse reaction (disorder)|
+|allergy v1|snomed|292597005|Triprolidine adverse reaction (disorder)|
+|allergy v1|snomed|292598000|Alimemazine adverse reaction|
+|allergy v1|snomed|292599008|Cromoglicate and related antiallergenic adverse reaction|
+|allergy v1|snomed|292600006|Nedocromil adverse reaction (disorder)|
+|allergy v1|snomed|292601005|Sodium cromoglicate adverse reaction|
+|allergy v1|snomed|292602003|Ketotifen adverse reaction (disorder)|
+|allergy v1|snomed|292603008|Lodoxamide adverse reaction (disorder)|
+|allergy v1|snomed|292604002|Cough/decongestant preparation adverse reaction (disorder)|
+|allergy v1|snomed|292605001|Cough suppressant adverse reaction (disorder)|
+|allergy v1|snomed|292606000|Isoaminile adverse reaction (disorder)|
+|allergy v1|snomed|292608004|Adverse reaction to dextromethorphan|
+|allergy v1|snomed|292609007|Noscapine adverse reaction (disorder)|
+|allergy v1|snomed|292610002|Pholcodine adverse reaction (disorder)|
+|allergy v1|snomed|292611003|Compound cough suppressant adverse reaction (disorder)|
+|allergy v1|snomed|292614006|Xanthine adverse reaction (disorder)|
+|allergy v1|snomed|292615007|Aminophylline adverse reaction (disorder)|
+|allergy v1|snomed|292616008|Choline theophyllinate adverse reaction (disorder)|
+|allergy v1|snomed|292617004|Adverse reaction to theophylline|
+|allergy v1|snomed|292618009|Bronchodilator preparations adverse reaction (disorder)|
+|allergy v1|snomed|292619001|Adverse reaction caused by inhaled corticosteroids (disorder)|
+|allergy v1|snomed|292620007|Drug groups and agents primarily acting on skin adverse reaction|
+|allergy v1|snomed|292621006|Topical dermatological preparation adverse reaction (disorder)|
+|allergy v1|snomed|292622004|Urea creams adverse reaction (disorder)|
+|allergy v1|snomed|292623009|Emollient bath additives adverse reaction (disorder)|
+|allergy v1|snomed|292624003|Dusting powders adverse reaction (disorder)|
+|allergy v1|snomed|292626001|Calamine adverse reaction (disorder)|
+|allergy v1|snomed|292627005|Coal tar adverse reaction (disorder)|
+|allergy v1|snomed|292628000|Coal tar scalp preparations adverse reaction (disorder)|
+|allergy v1|snomed|292629008|Coal tar bath preparations adverse reaction (disorder)|
+|allergy v1|snomed|292630003|Bufexamac adverse reaction (disorder)|
+|allergy v1|snomed|292631004|Dithranol adverse reaction (disorder)|
+|allergy v1|snomed|292632006|Dithranol ointment adverse reaction (disorder)|
+|allergy v1|snomed|292633001|Dithranol cream adverse reaction (disorder)|
+|allergy v1|snomed|292634007|Dithranol paste adverse reaction (disorder)|
+|allergy v1|snomed|292635008|Ichthammol adverse reaction (disorder)|
+|allergy v1|snomed|292636009|Calcipotriol adverse reaction (disorder)|
+|allergy v1|snomed|292637000|Sulfur adverse reaction (disorder)|
+|allergy v1|snomed|292638005|Azelaic acid adverse reaction (disorder)|
+|allergy v1|snomed|292639002|Bromine complexes adverse reaction (disorder)|
+|allergy v1|snomed|292640000|Podophyllum resin adverse reaction (disorder)|
+|allergy v1|snomed|292641001|Podophyllotoxin adverse reaction (disorder)|
+|allergy v1|snomed|292642008|Sunscreening preparations adverse reaction (disorder)|
+|allergy v1|snomed|292643003|Camouflaging preparations adverse reaction (disorder)|
+|allergy v1|snomed|292644009|Benzoic acid adverse reaction (disorder)|
+|allergy v1|snomed|292645005|Desloughing agents adverse reaction (disorder)|
+|allergy v1|snomed|292646006|Aserbine adverse reaction (disorder)|
+|allergy v1|snomed|292647002|Surgical tissue adhesive adverse reaction (disorder)|
+|allergy v1|snomed|292648007|Enbucrilate adverse reaction (disorder)|
+|allergy v1|snomed|292649004|Collodion adverse reaction (disorder)|
+|allergy v1|snomed|292650004|Counter irritants adverse reaction (disorder)|
+|allergy v1|snomed|292651000|Adverse reaction to emollient|
+|allergy v1|snomed|292652007|Poultices adverse reaction (disorder)|
+|allergy v1|snomed|292653002|Anionic surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292654008|Alkali metal soap adverse reaction (disorder)|
+|allergy v1|snomed|292655009|Astringent adverse reaction (disorder)|
+|allergy v1|snomed|292656005|Aluminum astringent adverse reaction (disorder)|
+|allergy v1|snomed|292657001|Topical selenium adverse reaction (disorder)|
+|allergy v1|snomed|292658006|Crotamiton adverse reaction (disorder)|
+|allergy v1|snomed|292659003|Topical salicylic acid adverse reaction (disorder)|
+|allergy v1|snomed|292660008|Topical abrasive agent adverse reaction (disorder)|
+|allergy v1|snomed|292661007|Benzoyl peroxide adverse reaction (disorder)|
+|allergy v1|snomed|292662000|Silver nitrate adverse reaction (disorder)|
+|allergy v1|snomed|292663005|Oral dermatological agent adverse reaction (disorder)|
+|allergy v1|snomed|292664004|Gamolenic acid adverse reaction (disorder)|
+|allergy v1|snomed|292665003|Retinoid adverse reaction (disorder)|
+|allergy v1|snomed|292666002|Etretinate adverse reaction (disorder)|
+|allergy v1|snomed|292667006|Acitretin adverse reaction (disorder)|
+|allergy v1|snomed|292668001|Tretinoin adverse reaction (disorder)|
+|allergy v1|snomed|292669009|Isotretinoin adverse reaction (disorder)|
+|allergy v1|snomed|292670005|Drug groups primarily affecting musculoskeletal system adverse reaction|
+|allergy v1|snomed|292671009|Drug for the treatment of gout adverse reaction (disorder)|
+|allergy v1|snomed|292672002|Colchicum alkaloid adverse reaction (disorder)|
+|allergy v1|snomed|292673007|Colchicine adverse reaction (disorder)|
+|allergy v1|snomed|292675000|Uricosuric agent adverse reaction (disorder)|
+|allergy v1|snomed|292676004|Probenecid adverse reaction (disorder)|
+|allergy v1|snomed|292677008|Sulfinpyrazone adverse reaction (disorder)|
+|allergy v1|snomed|292678003|Xanthine oxidase inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|292679006|Allopurinol adverse reaction (disorder)|
+|allergy v1|snomed|292681008|Neuromuscular transmission drug adverse reaction (disorder)|
+|allergy v1|snomed|292682001|Depolarizing muscle relaxant adverse reaction (disorder)|
+|allergy v1|snomed|292684000|Non-depolarizing muscle relaxant adverse reaction (disorder)|
+|allergy v1|snomed|292685004|Mivacurium adverse reaction (disorder)|
+|allergy v1|snomed|292686003|Alcuronium adverse reaction (disorder)|
+|allergy v1|snomed|292687007|Atracurium adverse reaction (disorder)|
+|allergy v1|snomed|292688002|Adverse reaction to gallamine|
+|allergy v1|snomed|292689005|Pancuronium adverse reaction (disorder)|
+|allergy v1|snomed|292690001|Adverse reaction to tubocurarine|
+|allergy v1|snomed|292691002|Vecuronium adverse reaction (disorder)|
+|allergy v1|snomed|292692009|Rocuronium adverse reaction (disorder)|
+|allergy v1|snomed|292693004|Baclofen adverse reaction (disorder)|
+|allergy v1|snomed|292694005|Carisoprodol adverse reaction (disorder)|
+|allergy v1|snomed|292695006|Methocarbamol adverse reaction (disorder)|
+|allergy v1|snomed|292696007|Dantrolene adverse reaction (disorder)|
+|allergy v1|snomed|292697003|Gold adverse reaction (disorder)|
+|allergy v1|snomed|292699000|Auranofin adverse reaction (disorder)|
+|allergy v1|snomed|292700004|Adverse reaction to smooth muscle relaxants|
+|allergy v1|snomed|292701000|Papaverine adverse reaction (disorder)|
+|allergy v1|snomed|292702007|Flavoxate adverse reaction (disorder)|
+|allergy v1|snomed|292704008|Mifepristone adverse reaction (disorder)|
+|allergy v1|snomed|292705009|Non-ionic surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292706005|Nonoxinol adverse reaction (disorder)|
+|allergy v1|snomed|292707001|Octoxinol adverse reaction (disorder)|
+|allergy v1|snomed|292708006|p-di-Isobutylphenoxypolyethoxyethanol adverse reaction|
+|allergy v1|snomed|292709003|Adverse reaction to prostaglandins|
+|allergy v1|snomed|292710008|A series prostaglandin adverse reaction (disorder)|
+|allergy v1|snomed|292711007|E series prostaglandin adverse reaction (disorder)|
+|allergy v1|snomed|292712000|Dinoprostone adverse reaction (disorder)|
+|allergy v1|snomed|292713005|Gemeprost adverse reaction (disorder)|
+|allergy v1|snomed|292714004|Alprostadil adverse reaction (disorder)|
+|allergy v1|snomed|292716002|F series prostaglandin adverse reaction (disorder)|
+|allergy v1|snomed|292717006|Dinoprost adverse reaction (disorder)|
+|allergy v1|snomed|292718001|Carboprost adverse reaction (disorder)|
+|allergy v1|snomed|292719009|I series prostaglandin adverse reaction (disorder)|
+|allergy v1|snomed|292720003|Epoprostenol adverse reaction (disorder)|
+|allergy v1|snomed|292721004|Terpenes adverse reaction (disorder)|
+|allergy v1|snomed|292722006|Chelating agents and antidotes adverse reaction (disorder)|
+|allergy v1|snomed|292723001|Antidote adverse reaction (disorder)|
+|allergy v1|snomed|292724007|Adverse reaction to ipecacuanha|
+|allergy v1|snomed|292725008|Charcoal activated adverse reaction (disorder)|
+|allergy v1|snomed|292726009|Sodium nitrite adverse reaction (disorder)|
+|allergy v1|snomed|292727000|Sodium thiosulfate adverse reaction (disorder)|
+|allergy v1|snomed|292729002|Digoxin specific antibody adverse reaction (disorder)|
+|allergy v1|snomed|292730007|Mesna adverse reaction (disorder)|
+|allergy v1|snomed|292731006|Benzodiazepine antagonist adverse reaction (disorder)|
+|allergy v1|snomed|292732004|Flumazenil adverse reaction (disorder)|
+|allergy v1|snomed|292733009|Cholinesterase reactivator adverse reaction (disorder)|
+|allergy v1|snomed|292734003|Pralidoxime adverse reaction (disorder)|
+|allergy v1|snomed|292735002|Hydrofluoric acid burn antidote adverse reaction (disorder)|
+|allergy v1|snomed|292736001|Adverse reaction to opiate antagonist|
+|allergy v1|snomed|292737005|Naltrexone adverse reaction (disorder)|
+|allergy v1|snomed|292738000|Adverse reaction to naloxone|
+|allergy v1|snomed|292739008|Adverse reaction to protamine sulfate|
+|allergy v1|snomed|292740005|Antidotes for pesticides adverse reaction (disorder)|
+|allergy v1|snomed|292741009|Fullers earth powder adverse reaction (disorder)|
+|allergy v1|snomed|292742002|Bentonite powder adverse reaction (disorder)|
+|allergy v1|snomed|292743007|Chelating agent adverse reaction (disorder)|
+|allergy v1|snomed|292744001|Dimercaprol adverse reaction (disorder)|
+|allergy v1|snomed|292745000|Desferrioxamine adverse reaction (disorder)|
+|allergy v1|snomed|292746004|Edetate adverse reaction (disorder)|
+|allergy v1|snomed|292747008|Dicobalt edetate adverse reaction (disorder)|
+|allergy v1|snomed|292748003|Sodium calcium edetate adverse reaction (disorder)|
+|allergy v1|snomed|292749006|Trisodium edetate adverse reaction (disorder)|
+|allergy v1|snomed|292750006|Disodium edetate adverse reaction (disorder)|
+|allergy v1|snomed|292751005|Trientine adverse reaction (disorder)|
+|allergy v1|snomed|292752003|Adverse reaction to penicillamine|
+|allergy v1|snomed|292754002|Homeopathic medicine adverse reaction|
+|allergy v1|snomed|292756000|Herbal medicine adverse reaction (disorder)|
+|allergy v1|snomed|292758004|Sodium hyaluronate adverse reaction (disorder)|
+|allergy v1|snomed|292759007|Glycine adverse reaction (disorder)|
+|allergy v1|snomed|292760002|Dialysis fluid adverse reaction (disorder)|
+|allergy v1|snomed|292761003|Peritoneal dialysis solution adverse reaction (disorder)|
+|allergy v1|snomed|292762005|Hemodialysis fluid adverse reaction (disorder)|
+|allergy v1|snomed|292763000|Hemofiltration solution adverse reaction (disorder)|
+|allergy v1|snomed|292764006|Cardioplegia solution adverse reaction (disorder)|
+|allergy v1|snomed|292766008|Dimethyl-ether propane adverse reaction (disorder)|
+|allergy v1|snomed|292767004|Circulatory topical preparations adverse reaction (disorder)|
+|allergy v1|snomed|292768009|Citrate adverse reaction (disorder)|
+|allergy v1|snomed|292769001|Hemorrhoid preparation adverse reaction (disorder)|
+|allergy v1|snomed|292770000|Sucrose adverse reaction (disorder)|
+|allergy v1|snomed|292771001|Ear wax removal preparation adverse reaction (disorder)|
+|allergy v1|snomed|292772008|Topical zinc adverse reaction (disorder)|
+|allergy v1|snomed|292774009|Fixed oil adverse reaction (disorder)|
+|allergy v1|snomed|292775005|Olive oil adverse reaction (disorder)|
+|allergy v1|snomed|292776006|Arachis oil adverse reaction (disorder)|
+|allergy v1|snomed|292777002|Castor oil adverse reaction (disorder)|
+|allergy v1|snomed|292778007|Glycerol/glycol/macrogol adverse reaction (disorder)|
+|allergy v1|snomed|292779004|Glycerol adverse reaction (disorder)|
+|allergy v1|snomed|292780001|Lubricant adverse reaction (disorder)|
+|allergy v1|snomed|292781002|Base adverse reaction (disorder)|
+|allergy v1|snomed|292783004|Paraffin adverse reaction (disorder)|
+|allergy v1|snomed|292784005|Paraffin-yellow soft adverse reaction (disorder)|
+|allergy v1|snomed|292785006|Paraffin-white soft adverse reaction (disorder)|
+|allergy v1|snomed|292786007|Liquid paraffin adverse reaction (disorder)|
+|allergy v1|snomed|292787003|Silicone adverse reaction (disorder)|
+|allergy v1|snomed|292788008|Dimethicone adverse reaction (disorder)|
+|allergy v1|snomed|292789000|Wool alcohol adverse reaction (disorder)|
+|allergy v1|snomed|292790009|Viscosity modifier adverse reaction (disorder)|
+|allergy v1|snomed|292791008|Polyvinyl alcohol adverse reaction (disorder)|
+|allergy v1|snomed|292792001|Carbomer-940 adverse reaction (disorder)|
+|allergy v1|snomed|292793006|Cellulose-derived viscosity modifier adverse reaction (disorder)|
+|allergy v1|snomed|292794000|Hydroxypropylmethylcellulose adverse reaction|
+|allergy v1|snomed|292795004|Hypromellose eye drops adverse reaction (disorder)|
+|allergy v1|snomed|292796003|Hydroxyethylcellulose adverse reaction (disorder)|
+|allergy v1|snomed|292798002|Carmellose adverse reaction (disorder)|
+|allergy v1|snomed|292799005|Anti-infectives adverse reaction (disorder)|
+|allergy v1|snomed|292800009|Adverse reaction to antifungal antibiotics|
+|allergy v1|snomed|292801008|Flucytosine adverse reaction (disorder)|
+|allergy v1|snomed|292802001|Terbinafine adverse reaction (disorder)|
+|allergy v1|snomed|292803006|Nitrophenol adverse reaction (disorder)|
+|allergy v1|snomed|292805004|Tolnaftate adverse reaction (disorder)|
+|allergy v1|snomed|292806003|Amorolfine adverse reaction (disorder)|
+|allergy v1|snomed|292808002|Adverse reaction to griseofulvin|
+|allergy v1|snomed|292809005|Amphotericin adverse reaction (disorder)|
+|allergy v1|snomed|292810000|Adverse reaction to natamycin|
+|allergy v1|snomed|292811001|Adverse reaction to nystatin|
+|allergy v1|snomed|292812008|Azole antifungal adverse reaction (disorder)|
+|allergy v1|snomed|292813003|Undecenoate adverse reaction|
+|allergy v1|snomed|292814009|Imidazole antifungal adverse reaction (disorder)|
+|allergy v1|snomed|292815005|Clotrimazole adverse reaction (disorder)|
+|allergy v1|snomed|292816006|Fenticonazole adverse reaction (disorder)|
+|allergy v1|snomed|292817002|Tioconazole adverse reaction (disorder)|
+|allergy v1|snomed|292818007|Econazole adverse reaction (disorder)|
+|allergy v1|snomed|292819004|Isoconazole adverse reaction (disorder)|
+|allergy v1|snomed|292820005|Sulconazole adverse reaction (disorder)|
+|allergy v1|snomed|292821009|Adverse reaction to ketoconazole|
+|allergy v1|snomed|292822002|Adverse reaction to miconazole|
+|allergy v1|snomed|292823007|Triazole antifungals adverse reaction (disorder)|
+|allergy v1|snomed|292824001|Fluconazole adverse reaction (disorder)|
+|allergy v1|snomed|292825000|Itraconazole adverse reaction (disorder)|
+|allergy v1|snomed|292826004|Adverse reaction to antiviral drugs|
+|allergy v1|snomed|292827008|Adverse reaction to inosine pranobex|
+|allergy v1|snomed|292828003|Adverse reaction to zidovudine|
+|allergy v1|snomed|292829006|Ganciclovir adverse reaction (disorder)|
+|allergy v1|snomed|292831002|Famciclovir adverse reaction (disorder)|
+|allergy v1|snomed|292832009|Didanosine adverse reaction (disorder)|
+|allergy v1|snomed|292833004|Zalcitabine adverse reaction (disorder)|
+|allergy v1|snomed|292834005|Valaciclovir adverse reaction (disorder)|
+|allergy v1|snomed|292835006|Interferons adverse reaction (disorder)|
+|allergy v1|snomed|292836007|Human interferon gamma-1b adverse reaction (disorder)|
+|allergy v1|snomed|292837003|Interferon-A-2a adverse reaction (disorder)|
+|allergy v1|snomed|292838008|Interferon-A-2b adverse reaction (disorder)|
+|allergy v1|snomed|292839000|Interferon-A-N1 adverse reaction (disorder)|
+|allergy v1|snomed|292840003|Ribavirin adverse reaction|
+|allergy v1|snomed|292841004|Trifluorothymidine adverse reaction (disorder)|
+|allergy v1|snomed|292842006|Foscarnet adverse reaction (disorder)|
+|allergy v1|snomed|292843001|Adverse reaction to vidarabine|
+|allergy v1|snomed|292844007|Aciclovir adverse reaction (disorder)|
+|allergy v1|snomed|292845008|Adverse reaction to idoxuridine|
+|allergy v1|snomed|292846009|Idoxuridine in dimethylsulfoxide adverse reaction (disorder)|
+|allergy v1|snomed|292847000|Adverse reaction to antimalarials|
+|allergy v1|snomed|292848005|Adverse reaction to pyrimethamine|
+|allergy v1|snomed|292849002|Aminoquinoline antimalarial adverse reaction (disorder)|
+|allergy v1|snomed|292850002|Amodiaquine adverse reaction (disorder)|
+|allergy v1|snomed|292851003|Adverse reaction to primaquine|
+|allergy v1|snomed|292852005|Mefloquine adverse reaction (disorder)|
+|allergy v1|snomed|292853000|Hydroxychloroquine adverse reaction (disorder)|
+|allergy v1|snomed|292854006|Adverse reaction to chloroquine|
+|allergy v1|snomed|292855007|Biguanide antimalarial adverse reaction (disorder)|
+|allergy v1|snomed|292856008|Adverse reaction to proguanil hydrochloride|
+|allergy v1|snomed|292857004|Cinchona antimalarial adverse reaction (disorder)|
+|allergy v1|snomed|292858009|Adverse reaction to quinine|
+|allergy v1|snomed|292859001|Halofantrine adverse reaction (disorder)|
+|allergy v1|snomed|292860006|Mepacrine adverse reaction (disorder)|
+|allergy v1|snomed|292861005|Lactobacill acidophil vaccine adverse reaction (disorder)|
+|allergy v1|snomed|292862003|Anti-infective nasal preparations adverse reaction (disorder)|
+|allergy v1|snomed|292863008|Disinfectants and cleansers adverse reaction (disorder)|
+|allergy v1|snomed|292864002|Acetic acid adverse reaction (disorder)|
+|allergy v1|snomed|292865001|Hydrargaphen adverse reaction|
+|allergy v1|snomed|292866000|Polynoxylin adverse reaction (disorder)|
+|allergy v1|snomed|292867009|Hexetidine adverse reaction (disorder)|
+|allergy v1|snomed|292868004|Sodium perborate adverse reaction (disorder)|
+|allergy v1|snomed|292869007|Chlorinated solutions adverse reaction (disorder)|
+|allergy v1|snomed|292870008|Potassium permanganate adverse reaction (disorder)|
+|allergy v1|snomed|292871007|Bismuth subnitrate and iodoform paste impregnated gauze adverse reaction (disorder)|
+|allergy v1|snomed|292872000|Phenolics adverse reaction (disorder)|
+|allergy v1|snomed|292873005|Thymol adverse reaction (disorder)|
+|allergy v1|snomed|292875003|Chloroxylenol adverse reaction (disorder)|
+|allergy v1|snomed|292876002|Hexachlorophene adverse reaction|
+|allergy v1|snomed|292877006|Triclosan adverse reaction (disorder)|
+|allergy v1|snomed|292878001|Phenol adverse reaction (disorder)|
+|allergy v1|snomed|292879009|Alcoholic disinfectant adverse reaction (disorder)|
+|allergy v1|snomed|292880007|Alcohol products adverse reaction (disorder)|
+|allergy v1|snomed|292881006|Industrial methylated spirit adverse reaction (disorder)|
+|allergy v1|snomed|292882004|Aldehyde disinfectant adverse reaction (disorder)|
+|allergy v1|snomed|292883009|Glutaraldehyde adverse reaction (disorder)|
+|allergy v1|snomed|292885002|Noxythiolin adverse reaction (disorder)|
+|allergy v1|snomed|292886001|Formaldehyde adverse reaction (disorder)|
+|allergy v1|snomed|292887005|Amidine disinfectant adverse reaction (disorder)|
+|allergy v1|snomed|292888000|Propamidine isethionate adverse reaction (disorder)|
+|allergy v1|snomed|292889008|Dibrompropamidine isethionate adverse reaction (disorder)|
+|allergy v1|snomed|292890004|Biguanide disinfectant adverse reaction (disorder)|
+|allergy v1|snomed|292891000|Chlorhexidine adverse reaction (disorder)|
+|allergy v1|snomed|292892007|Chlorhexidine hydrochloride and neomycin sulfate adverse reaction|
+|allergy v1|snomed|292893002|Borate adverse reaction (disorder)|
+|allergy v1|snomed|292894008|Boric acid adverse reaction (disorder)|
+|allergy v1|snomed|292895009|Cationic surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292896005|Quaternary ammonium surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292897001|Cetrimide adverse reaction (disorder)|
+|allergy v1|snomed|292898006|Benzalkonium adverse reaction (disorder)|
+|allergy v1|snomed|292899003|Domiphen adverse reaction (disorder)|
+|allergy v1|snomed|292900008|Quaternary pyridinium surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292901007|Cetylpyridinium adverse reaction (disorder)|
+|allergy v1|snomed|292902000|Quaternary quinolinium surfactant adverse reaction (disorder)|
+|allergy v1|snomed|292903005|Dequalinium adverse reaction (disorder)|
+|allergy v1|snomed|292904004|Disinfectant dye adverse reaction (disorder)|
+|allergy v1|snomed|292905003|Acridine azo disinfectant dye adverse reaction (disorder)|
+|allergy v1|snomed|292906002|Triphenylmethane azo disinfectant dye adverse reaction (disorder)|
+|allergy v1|snomed|292907006|Crystal violet adverse reaction (disorder)|
+|allergy v1|snomed|292908001|Brilliant green adverse reaction (disorder)|
+|allergy v1|snomed|292909009|Hydrogen peroxide adverse reaction (disorder)|
+|allergy v1|snomed|292910004|Adverse reaction to antihelminthics|
+|allergy v1|snomed|292911000|Adverse reaction to piperazine|
+|allergy v1|snomed|292912007|Adverse reaction to pyrantel|
+|allergy v1|snomed|292913002|Adverse reaction to niclosamide|
+|allergy v1|snomed|292914008|Bephenium adverse reaction (disorder)|
+|allergy v1|snomed|292915009|Diethylcarbamazine adverse reaction (disorder)|
+|allergy v1|snomed|292916005|Benzimidazole anthelmintic adverse reaction (disorder)|
+|allergy v1|snomed|292917001|Adverse reaction to mebendazole|
+|allergy v1|snomed|292918006|Albendazole adverse reaction (disorder)|
+|allergy v1|snomed|292919003|Tiabendazole adverse reaction|
+|allergy v1|snomed|292920009|Antibacterial drug adverse reaction (disorder)|
+|allergy v1|snomed|292921008|Aminoglycosides adverse reaction (disorder)|
+|allergy v1|snomed|292922001|Adverse reaction to amikacin|
+|allergy v1|snomed|292923006|Adverse reaction to kanamycin|
+|allergy v1|snomed|292924000|Netilmicin adverse reaction (disorder)|
+|allergy v1|snomed|292925004|Adverse reaction to streptomycin|
+|allergy v1|snomed|292927007|Adverse reaction to neomycin|
+|allergy v1|snomed|292929005|Adverse reaction to tobramycin|
+|allergy v1|snomed|292930000|Adverse reaction to macrolide group|
+|allergy v1|snomed|292933003|Clarithromycin adverse reaction (disorder)|
+|allergy v1|snomed|292934009|Azithromycin adverse reaction (disorder)|
+|allergy v1|snomed|292935005|Adverse reaction to sodium fusidate|
+|allergy v1|snomed|292936006|Spectinomycin adverse reaction (disorder)|
+|allergy v1|snomed|292937002|Adverse reaction to vancomycin|
+|allergy v1|snomed|292938007|Teicoplanin adverse reaction (disorder)|
+|allergy v1|snomed|292939004|Trimethoprim adverse reaction (disorder)|
+|allergy v1|snomed|292940002|Nitrofurantoin adverse reaction (disorder)|
+|allergy v1|snomed|292941003|Methenamine hippurate adverse reaction|
+|allergy v1|snomed|292942005|Mupirocin adverse reaction (disorder)|
+|allergy v1|snomed|292943000|Nitrofurazone adverse reaction (disorder)|
+|allergy v1|snomed|292944006|Fusidic acid adverse reaction (disorder)|
+|allergy v1|snomed|292945007|Adverse reaction to quinolone and hydroxyquinoline derivatives|
+|allergy v1|snomed|292946008|Acrosoxacin adverse reaction (disorder)|
+|allergy v1|snomed|292947004|Cinoxacin adverse reaction (disorder)|
+|allergy v1|snomed|292949001|Ciprofloxacin adverse reaction (disorder)|
+|allergy v1|snomed|292950001|Enoxacin adverse reaction (disorder)|
+|allergy v1|snomed|292951002|Ofloxacin adverse reaction (disorder)|
+|allergy v1|snomed|292952009|Norfloxacin adverse reaction (disorder)|
+|allergy v1|snomed|292953004|Temafloxacin adverse reaction (disorder)|
+|allergy v1|snomed|292954005|Adverse reaction to penicillins|
+|allergy v1|snomed|292955006|Penicillinase-sensitive penicillins adverse reaction (disorder)|
+|allergy v1|snomed|292956007|Benethamine penicillin adverse reaction (disorder)|
+|allergy v1|snomed|292957003|Benzathine penicillin adverse reaction (disorder)|
+|allergy v1|snomed|292958008|Phenethicillin adverse reaction (disorder)|
+|allergy v1|snomed|292959000|Phenoxymethylpenicillin adverse reaction (disorder)|
+|allergy v1|snomed|292960005|Procaine benzylpenicillin adverse reaction|
+|allergy v1|snomed|292961009|Benzylpenicillin adverse reaction (disorder)|
+|allergy v1|snomed|292962002|Penicillinase-resistant penicillins adverse reaction (disorder)|
+|allergy v1|snomed|292963007|Cloxacillin adverse reaction (disorder)|
+|allergy v1|snomed|292964001|Flucloxacillin adverse reaction (disorder)|
+|allergy v1|snomed|292965000|Methicillin adverse reaction (disorder)|
+|allergy v1|snomed|292966004|Broad spectrum penicillins adverse reaction (disorder)|
+|allergy v1|snomed|292967008|Amoxicillin adverse reaction|
+|allergy v1|snomed|292968003|Ampicillin adverse reaction (disorder)|
+|allergy v1|snomed|292969006|Ciclacillin adverse reaction (disorder)|
+|allergy v1|snomed|292970007|Mezlocillin adverse reaction (disorder)|
+|allergy v1|snomed|292971006|Adverse reaction to pivampicillin|
+|allergy v1|snomed|292972004|Carbenicillin adverse reaction (disorder)|
+|allergy v1|snomed|292973009|Bacampicillin adverse reaction (disorder)|
+|allergy v1|snomed|292974003|Adverse reaction to talampicillin|
+|allergy v1|snomed|292975002|Antipseudomonal penicillins adverse reaction (disorder)|
+|allergy v1|snomed|292976001|Temocillin adverse reaction (disorder)|
+|allergy v1|snomed|292977005|Piperacillin adverse reaction (disorder)|
+|allergy v1|snomed|292978000|Azlocillin adverse reaction (disorder)|
+|allergy v1|snomed|292979008|Adverse reaction to ticarcillin|
+|allergy v1|snomed|292980006|Carfecillin adverse reaction (disorder)|
+|allergy v1|snomed|292981005|Mecillinam adverse reaction (disorder)|
+|allergy v1|snomed|292982003|Adverse reaction to pivmecillinam|
+|allergy v1|snomed|292983008|Combined penicillin preparation adverse reaction (disorder)|
+|allergy v1|snomed|292984002|Ampicillin and cloxacillin adverse reaction (disorder)|
+|allergy v1|snomed|292985001|Amoxicillin + clavulanate potassium adverse reaction|
+|allergy v1|snomed|292986000|Ampicillin + floxacillin adverse reaction|
+|allergy v1|snomed|292987009|Piperacillin and tazobactam adverse reaction (disorder)|
+|allergy v1|snomed|292988004|Pivampicillin and pivmecillinam adverse reaction (disorder)|
+|allergy v1|snomed|292989007|Ticarcillin and clavulanic acid adverse reaction (disorder)|
+|allergy v1|snomed|292990003|Polymyxins adverse reaction (disorder)|
+|allergy v1|snomed|292991004|Adverse reaction to colistin|
+|allergy v1|snomed|292992006|Adverse reaction to polymyxin|
+|allergy v1|snomed|292993001|Carbapenem adverse reaction (disorder)|
+|allergy v1|snomed|292994007|Adverse reaction to cephalosporin group|
+|allergy v1|snomed|292995008|First generation cephalosporin adverse reaction (disorder)|
+|allergy v1|snomed|292996009|Adverse reaction to cefadroxil|
+|allergy v1|snomed|292997000|Adverse reaction to cefalexin|
+|allergy v1|snomed|292998005|Adverse reaction to cephalothin|
+|allergy v1|snomed|292999002|Cefazolin adverse reaction|
+|allergy v1|snomed|293000001|Adverse reaction to cefradine|
+|allergy v1|snomed|293001002|Latamoxef adverse reaction (disorder)|
+|allergy v1|snomed|293002009|Second generation cephalosporin adverse reaction (disorder)|
+|allergy v1|snomed|293003004|Adverse reaction to cefaclor|
+|allergy v1|snomed|293004005|Cefuroxime adverse reaction (disorder)|
+|allergy v1|snomed|293005006|Adverse reaction to cephamandole|
+|allergy v1|snomed|293006007|Third generation cephalosporin adverse reaction (disorder)|
+|allergy v1|snomed|293007003|Adverse reaction to cefotaxime|
+|allergy v1|snomed|293008008|Adverse reaction to ceftazidime|
+|allergy v1|snomed|293009000|Adverse reaction to ceftizoxime|
+|allergy v1|snomed|293010005|Cefixime adverse reaction (disorder)|
+|allergy v1|snomed|293011009|Cefodizime adverse reaction (disorder)|
+|allergy v1|snomed|293012002|Cefpodoxime adverse reaction (disorder)|
+|allergy v1|snomed|293013007|Ceftriaxone adverse reaction (disorder)|
+|allergy v1|snomed|293014001|Ceftibuten adverse reaction (disorder)|
+|allergy v1|snomed|293015000|Cefsulodin adverse reaction (disorder)|
+|allergy v1|snomed|293016004|Fourth generation cephalosporin adverse reaction (disorder)|
+|allergy v1|snomed|293017008|Cefpirome adverse reaction (disorder)|
+|allergy v1|snomed|293019006|Cephamycin adverse reaction (disorder)|
+|allergy v1|snomed|293020000|Adverse reaction to cefoxitin|
+|allergy v1|snomed|293021001|Fosfomycin adverse reaction (disorder)|
+|allergy v1|snomed|293023003|Adverse reaction to clindamycin|
+|allergy v1|snomed|293024009|Adverse reaction to lincomycin|
+|allergy v1|snomed|293025005|Mandelic acid adverse reaction (disorder)|
+|allergy v1|snomed|293026006|Monobactam adverse reaction (disorder)|
+|allergy v1|snomed|293027002|Aztreonam adverse reaction (disorder)|
+|allergy v1|snomed|293028007|Nitroimidazole adverse reaction (disorder)|
+|allergy v1|snomed|293029004|Adverse reaction to metronidazole|
+|allergy v1|snomed|293030009|Tinidazole adverse reaction (disorder)|
+|allergy v1|snomed|293031008|Nimorazole adverse reaction (disorder)|
+|allergy v1|snomed|293032001|Adverse reaction to sulfonamides|
+|allergy v1|snomed|293034000|Calcium sulfaloxate adverse reaction (disorder)|
+|allergy v1|snomed|293035004|Phthalylsulfathiazole adverse reaction (disorder)|
+|allergy v1|snomed|293036003|Sulfametopyrazine adverse reaction (disorder)|
+|allergy v1|snomed|293037007|Adverse reaction to sulfadiazine|
+|allergy v1|snomed|293038002|Sulfadimethoxine adverse reaction (disorder)|
+|allergy v1|snomed|293039005|Adverse reaction to sulfadimidine|
+|allergy v1|snomed|293040007|Adverse reaction to sulfafurazole|
+|allergy v1|snomed|293041006|Adverse reaction to sulfaguanidine|
+|allergy v1|snomed|293042004|Adverse reaction to sulfaurea|
+|allergy v1|snomed|293043009|Mafenide adverse reaction (disorder)|
+|allergy v1|snomed|293044003|Silver sulfadiazine adverse reaction (disorder)|
+|allergy v1|snomed|293046001|Sulfacetamide adverse reaction (disorder)|
+|allergy v1|snomed|293047005|Adverse reaction to tetracycline group|
+|allergy v1|snomed|293048000|Adverse reaction to clomocycline sodium|
+|allergy v1|snomed|293049008|Adverse reaction to doxycycline|
+|allergy v1|snomed|293050008|Adverse reaction to lymecycline|
+|allergy v1|snomed|293052000|Adverse reaction to oxytetracycline|
+|allergy v1|snomed|293053005|Compound tetracycline preparations adverse reaction (disorder)|
+|allergy v1|snomed|293054004|Adverse reaction to chlortetracycline hydrochloride|
+|allergy v1|snomed|293055003|Adverse reaction to demeclocycline|
+|allergy v1|snomed|293056002|Adverse reaction to tetracycline|
+|allergy v1|snomed|293057006|Adverse reaction to chloramphenicol|
+|allergy v1|snomed|293058001|Sulfamethoxazole + trimethoprim adverse reaction (disorder)|
+|allergy v1|snomed|293059009|Adverse reaction to antiprotozoal drug|
+|allergy v1|snomed|293060004|Atovaquone adverse reaction (disorder)|
+|allergy v1|snomed|293061000|Antimony antiprotozoal adverse reaction (disorder)|
+|allergy v1|snomed|293062007|Sodium stibogluconate adverse reaction (disorder)|
+|allergy v1|snomed|293063002|Diamidine antiprotozoal adverse reaction (disorder)|
+|allergy v1|snomed|293064008|Pentamidine adverse reaction (disorder)|
+|allergy v1|snomed|293065009|Dichloroacetamide antiprotozoal adverse reaction (disorder)|
+|allergy v1|snomed|293066005|Diloxanide adverse reaction (disorder)|
+|allergy v1|snomed|293067001|Hydroxyquinoline antiprotozoal adverse reaction (disorder)|
+|allergy v1|snomed|293068006|Clioquinol adverse reaction (disorder)|
+|allergy v1|snomed|293069003|Antimycobacterial agent adverse reaction (disorder)|
+|allergy v1|snomed|293070002|Anti-tuberculous drug reaction|
+|allergy v1|snomed|293071003|Adverse reaction to pyrazinamide|
+|allergy v1|snomed|293073000|Adverse reaction to capreomycin|
+|allergy v1|snomed|293074006|Adverse reaction to cycloserine|
+|allergy v1|snomed|293075007|Adverse reaction to rifampicin|
+|allergy v1|snomed|293076008|Rifabutin adverse reaction (disorder)|
+|allergy v1|snomed|293077004|Hydrazide antituberculosis drug adverse reaction (disorder)|
+|allergy v1|snomed|293078009|Adverse reaction to isoniazid|
+|allergy v1|snomed|293079001|Adverse reaction to ethambutol|
+|allergy v1|snomed|293080003|Antileprotic drug adverse reaction (disorder)|
+|allergy v1|snomed|293081004|Adverse reaction to dapsone|
+|allergy v1|snomed|293082006|Adverse reaction to clofazimine|
+|allergy v1|snomed|293083001|Pesticide adverse reaction (disorder)|
+|allergy v1|snomed|293084007|Benzyl benzoate adverse reaction (disorder)|
+|allergy v1|snomed|293085008|Monosulfiram adverse reaction (disorder)|
+|allergy v1|snomed|293086009|Carbamate pesticide adverse reaction (disorder)|
+|allergy v1|snomed|293087000|Carbaryl adverse reaction (disorder)|
+|allergy v1|snomed|293088005|Chlorinated pesticide adverse reaction (disorder)|
+|allergy v1|snomed|293089002|Lindane adverse reaction (disorder)|
+|allergy v1|snomed|293090006|Organophosphate pesticide adverse reaction (disorder)|
+|allergy v1|snomed|293091005|Malathion adverse reaction (disorder)|
+|allergy v1|snomed|293092003|Pyrethroid pesticides adverse reaction (disorder)|
+|allergy v1|snomed|293093008|Phenothrin adverse reaction (disorder)|
+|allergy v1|snomed|293094002|Permethrin adverse reaction (disorder)|
+|allergy v1|snomed|293095001|Vaccine, immunoglobulins and antisera adverse reaction (disorder)|
+|allergy v1|snomed|293096000|Immunoglobulin products adverse reaction (disorder)|
+|allergy v1|snomed|293097009|Human immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293098004|Intramuscular immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293099007|Intravenous immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293100004|Anti-D (Rh) immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293101000|Hepatitis B immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293102007|Tetanus immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293103002|Varicella-zoster immunoglobulin adverse reaction (disorder)|
+|allergy v1|snomed|293104008|Adverse reaction to immunisation|
+|allergy v1|snomed|293105009|Anthrax vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293107001|Diphtheria single antigen vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293108006|Diphtheria and tetanus vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293109003|Diphtheria, tetanus and pertussis vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293110008|Hepatitis B vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293112000|Influenza split virion vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293113005|Influenza surface antigen vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293114004|Mumps vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293115003|Pertussis vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293116002|Pneumococcal vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293117006|Poliomyelitis vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293118001|Rabies vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293119009|Rubella vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293120003|Smallpox vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293122006|Typhoid vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293123001|Typhoid polysaccharide vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293124007|Typhoid whole cell vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293125008|Measles/mumps/rubella vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293126009|Hepatitis A vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293127000|Haemophilus influenzae Type B vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293128005|Meningococcal polysaccharide vaccine adverse reaction (disorder)|
+|allergy v1|snomed|293129002|Antisera adverse reaction (disorder)|
+|allergy v1|snomed|293131006|Botulism antitoxin adverse reaction (disorder)|
+|allergy v1|snomed|293132004|Diphtheria antitoxin adverse reaction (disorder)|
+|allergy v1|snomed|293133009|Hormone, synthetic hormone substitute or hormone antagonist adverse reaction|
+|allergy v1|snomed|293135002|Adverse reaction to glucagon|
+|allergy v1|snomed|293136001|Adverse reaction to antithyroid agent|
+|allergy v1|snomed|293137005|Thiourea antithyroid agent adverse reaction (disorder)|
+|allergy v1|snomed|293138000|Adverse reaction to carbimazole|
+|allergy v1|snomed|293139008|Thiouracil antithyroid agent adverse reaction (disorder)|
+|allergy v1|snomed|293140005|Adverse reaction to propylthiouracil|
+|allergy v1|snomed|293141009|Corticosteroids adverse reaction (disorder)|
+|allergy v1|snomed|293142002|Adverse reaction to betamethasone|
+|allergy v1|snomed|293144001|Topical hydrocortisone adverse reaction (disorder)|
+|allergy v1|snomed|293145000|Topical compound hydrocortisone preparation adverse reaction (disorder)|
+|allergy v1|snomed|293146004|Adverse reaction to prednisone|
+|allergy v1|snomed|293147008|Fluorometholone adverse reaction (disorder)|
+|allergy v1|snomed|293148003|Flunisolide adverse reaction (disorder)|
+|allergy v1|snomed|293149006|Desonide adverse reaction (disorder)|
+|allergy v1|snomed|293150006|Desoximetasone adverse reaction|
+|allergy v1|snomed|293151005|Fluocinonide adverse reaction (disorder)|
+|allergy v1|snomed|293152003|Fluocortolone adverse reaction (disorder)|
+|allergy v1|snomed|293153008|Fludroxycortide adverse reaction|
+|allergy v1|snomed|293154002|Halcinonide adverse reaction (disorder)|
+|allergy v1|snomed|293155001|Alclometasone adverse reaction (disorder)|
+|allergy v1|snomed|293156000|Beclometasone adverse reaction|
+|allergy v1|snomed|293157009|Clobetasol adverse reaction (disorder)|
+|allergy v1|snomed|293158004|Clobetasone adverse reaction (disorder)|
+|allergy v1|snomed|293159007|Adverse reaction to cortisone acetate|
+|allergy v1|snomed|293160002|Diflucortolone adverse reaction (disorder)|
+|allergy v1|snomed|293161003|Fluclorolone adverse reaction (disorder)|
+|allergy v1|snomed|293162005|Adverse reaction to fludrocortisone acetate|
+|allergy v1|snomed|293163000|Fluocinolone adverse reaction (disorder)|
+|allergy v1|snomed|293164006|Fluticasone adverse reaction (disorder)|
+|allergy v1|snomed|293165007|Mometasone adverse reaction (disorder)|
+|allergy v1|snomed|293166008|Adverse reaction to dexamethasone|
+|allergy v1|snomed|293167004|Topical dexamethasone adverse reaction (disorder)|
+|allergy v1|snomed|293168009|Topical compound dexamethasone preparation adverse reaction (disorder)|
+|allergy v1|snomed|293169001|Adverse reaction to methylprednisolone|
+|allergy v1|snomed|293170000|Adverse reaction to prednisolone|
+|allergy v1|snomed|293171001|Topical prednisolone adverse reaction (disorder)|
+|allergy v1|snomed|293172008|Prednisolone drops adverse reaction (disorder)|
+|allergy v1|snomed|293173003|Rectal prednisolone preparations adverse reaction (disorder)|
+|allergy v1|snomed|293174009|Adverse reaction to triamcinolone|
+|allergy v1|snomed|293175005|Budesonide adverse reaction (disorder)|
+|allergy v1|snomed|293176006|Topical budesonide adverse reaction (disorder)|
+|allergy v1|snomed|293177002|Insulin adverse reaction (disorder)|
+|allergy v1|snomed|293178007|Soluble neutral insulin adverse reaction (disorder)|
+|allergy v1|snomed|293179004|Biphasic insulin adverse reaction (disorder)|
+|allergy v1|snomed|293180001|Insulin zinc suspension adverse reaction (disorder)|
+|allergy v1|snomed|293181002|Insulin zinc suspension (amorphous) adverse reaction (disorder)|
+|allergy v1|snomed|293182009|Insulin zinc suspension (crystalline) adverse reaction (disorder)|
+|allergy v1|snomed|293183004|Isophane insulin adverse reaction (disorder)|
+|allergy v1|snomed|293184005|Protamine zinc insulin adverse reaction (disorder)|
+|allergy v1|snomed|293185006|Biphasic isophane insulin adverse reaction (disorder)|
+|allergy v1|snomed|293186007|Humulin insulin adverse reaction (disorder)|
+|allergy v1|snomed|293190009|Oral hypoglycemic adverse reaction (disorder)|
+|allergy v1|snomed|293191008|Sulfonylurea adverse reaction (disorder)|
+|allergy v1|snomed|293192001|Acetohexamide adverse reaction (disorder)|
+|allergy v1|snomed|293193006|Adverse reaction to chlorpropamide|
+|allergy v1|snomed|293194000|Adverse reaction to glibenclamide|
+|allergy v1|snomed|293195004|Glibornuride adverse reaction (disorder)|
+|allergy v1|snomed|293196003|Adverse reaction to gliclazide|
+|allergy v1|snomed|293197007|Adverse reaction to glipizide|
+|allergy v1|snomed|293198002|Adverse reaction to gliquidone|
+|allergy v1|snomed|293199005|Adverse reaction to glymidine|
+|allergy v1|snomed|293200008|Adverse reaction to tolazamide|
+|allergy v1|snomed|293201007|Adverse reaction to tolbutamide|
+|allergy v1|snomed|293202000|Biguanide adverse reaction (disorder)|
+|allergy v1|snomed|293203005|Adverse reaction to metformin hydrochloride|
+|allergy v1|snomed|293204004|Guar gum adverse reaction (disorder)|
+|allergy v1|snomed|293205003|Acarbose adverse reaction (disorder)|
+|allergy v1|snomed|293206002|Sex hormones adverse reaction (disorder)|
+|allergy v1|snomed|293207006|Progestogen adverse reaction (disorder)|
+|allergy v1|snomed|293208001|Allylestrenol adverse reaction (disorder)|
+|allergy v1|snomed|293209009|Adverse reaction to dydrogesterone|
+|allergy v1|snomed|293210004|Adverse reaction to progesterone|
+|allergy v1|snomed|293211000|Gestonorone adverse reaction|
+|allergy v1|snomed|293212007|Hydroxyprogesterone adverse reaction (disorder)|
+|allergy v1|snomed|293213002|Megestrol adverse reaction (disorder)|
+|allergy v1|snomed|293214008|Adverse reaction to norethisterone|
+|allergy v1|snomed|293215009|Etynodiol diacetate adverse reaction|
+|allergy v1|snomed|293216005|Levonorgestrel adverse reaction (disorder)|
+|allergy v1|snomed|293217001|Medroxyprogesterone adverse reaction (disorder)|
+|allergy v1|snomed|293218006|Anabolic steroids adverse reaction (disorder)|
+|allergy v1|snomed|293219003|Tibolone adverse reaction (disorder)|
+|allergy v1|snomed|293220009|Drostanolone propionate adverse reaction (disorder)|
+|allergy v1|snomed|293221008|Oxymetholone adverse reaction (disorder)|
+|allergy v1|snomed|293222001|Adverse reaction to nandrolone|
+|allergy v1|snomed|293223006|Adverse reaction to stanozolol|
+|allergy v1|snomed|293224000|Cyclofenil adverse reaction (disorder)|
+|allergy v1|snomed|293225004|Danazol adverse reaction (disorder)|
+|allergy v1|snomed|293226003|Gestrinone adverse reaction (disorder)|
+|allergy v1|snomed|293227007|Anti-androgens adverse reaction (disorder)|
+|allergy v1|snomed|293228002|Finasteride adverse reaction (disorder)|
+|allergy v1|snomed|293229005|Flutamide adverse reaction (disorder)|
+|allergy v1|snomed|293230000|Bicalutamide adverse reaction (disorder)|
+|allergy v1|snomed|293231001|Cyproterone acetate and ethinylestradiol adverse reaction (disorder)|
+|allergy v1|snomed|293232008|Cyproterone adverse reaction (disorder)|
+|allergy v1|snomed|293233003|Combined oral contraceptive adverse reaction (disorder)|
+|allergy v1|snomed|293234009|Adverse reaction to androgen|
+|allergy v1|snomed|293236006|Adverse reaction to mesterolone|
+|allergy v1|snomed|293237002|Adverse reaction to methyltestosterone|
+|allergy v1|snomed|293238007|Adverse reaction to testosterone|
+|allergy v1|snomed|293239004|Testosterone implant adverse reaction (disorder)|
+|allergy v1|snomed|293240002|Intramuscular testosterone adverse reaction (disorder)|
+|allergy v1|snomed|293241003|Oral testosterone adverse reaction (disorder)|
+|allergy v1|snomed|293242005|Testosterone patch adverse reaction (disorder)|
+|allergy v1|snomed|293243000|Estrogen adverse reaction (disorder)|
+|allergy v1|snomed|293244006|Adverse reaction to estradiol|
+|allergy v1|snomed|293245007|Oral estradiol adverse reaction (disorder)|
+|allergy v1|snomed|293246008|Estradiol implant adverse reaction (disorder)|
+|allergy v1|snomed|293247004|Topical estradiol adverse reaction (disorder)|
+|allergy v1|snomed|293248009|Adverse reaction to piperazine estrone sulfate|
+|allergy v1|snomed|293249001|Quinestradol adverse reaction (disorder)|
+|allergy v1|snomed|293250001|Quinestrol adverse reaction (disorder)|
+|allergy v1|snomed|293251002|Dienestrol adverse reaction (disorder)|
+|allergy v1|snomed|293252009|Polyestradiol phosphate adverse reaction (disorder)|
+|allergy v1|snomed|293253004|Fosfestrol adverse reaction (disorder)|
+|allergy v1|snomed|293254005|Mestranol adverse reaction (disorder)|
+|allergy v1|snomed|293255006|Adverse reaction to ethinylestradiol|
+|allergy v1|snomed|293256007|Adverse reaction to estriol|
+|allergy v1|snomed|293257003|Adverse reaction to conjugated estrogens|
+|allergy v1|snomed|293258008|Diethylstilbestrol adverse reaction|
+|allergy v1|snomed|293259000|Estrogen and progestogen preparation adverse reaction (disorder)|
+|allergy v1|snomed|293260005|Clomifene adverse reaction|
+|allergy v1|snomed|293261009|Ergoline drug adverse reaction (disorder)|
+|allergy v1|snomed|293262002|Cabergoline adverse reaction (disorder)|
+|allergy v1|snomed|293263007|Quinagolide adverse reaction (disorder)|
+|allergy v1|snomed|293264001|Thyroid agent adverse reaction (disorder)|
+|allergy v1|snomed|293265000|Liothyronine adverse reaction (disorder)|
+|allergy v1|snomed|293266004|Thyroxine adverse reaction (disorder)|
+|allergy v1|snomed|293268003|Antidiuretic hormone adverse reaction (disorder)|
+|allergy v1|snomed|293269006|Adverse reaction to desmopressin|
+|allergy v1|snomed|293270007|Adverse reaction to lypressin|
+|allergy v1|snomed|293271006|Adverse reaction to terlipressin|
+|allergy v1|snomed|293274003|Corticotropins adverse reaction|
+|allergy v1|snomed|293275002|Tetracosactide adverse reaction|
+|allergy v1|snomed|293276001|Gonad regulating hormone adverse reaction (disorder)|
+|allergy v1|snomed|293277005|Gonadorelin adverse reaction (disorder)|
+|allergy v1|snomed|293278000|Nafarelin adverse reaction (disorder)|
+|allergy v1|snomed|293279008|Buserelin adverse reaction (disorder)|
+|allergy v1|snomed|293280006|Goserelin adverse reaction (disorder)|
+|allergy v1|snomed|293281005|Triptorelin adverse reaction (disorder)|
+|allergy v1|snomed|293282003|Adverse reaction to chorionic gonadotrophin|
+|allergy v1|snomed|293283008|Leuprorelin adverse reaction (disorder)|
+|allergy v1|snomed|293285001|Adverse reaction to oxytocin|
+|allergy v1|snomed|293286000|Oxytocin and ergometrine adverse reaction (disorder)|
+|allergy v1|snomed|293288004|Adverse reaction to growth hormone|
+|allergy v1|snomed|293289007|Octreotide adverse reaction (disorder)|
+|allergy v1|snomed|293292006|Protirelin adverse reaction (disorder)|
+|allergy v1|snomed|293293001|Thyrotrophin adverse reaction (disorder)|
+|allergy v1|snomed|293294007|Calcium regulating agent adverse reaction (disorder)|
+|allergy v1|snomed|293295008|Biphosphonates adverse reaction (disorder)|
+|allergy v1|snomed|293296009|Disodium etidronate adverse reaction (disorder)|
+|allergy v1|snomed|293297000|Disodium pamidronate adverse reaction (disorder)|
+|allergy v1|snomed|293298005|Sodium clodronate adverse reaction (disorder)|
+|allergy v1|snomed|293299002|Disodium etidronate and calcium carbonate adverse reaction (disorder)|
+|allergy v1|snomed|293300005|Calcium regulating hormone adverse reaction (disorder)|
+|allergy v1|snomed|293301009|Adverse reaction to calcitonin|
+|allergy v1|snomed|293302002|Calcitonin (salmon) adverse reaction|
+|allergy v1|snomed|293303007|Calcitonin (pork) adverse reaction (disorder)|
+|allergy v1|snomed|293304001|Hematological agents adverse reaction (disorder)|
+|allergy v1|snomed|293305000|Erythropoietin adverse reaction (disorder)|
+|allergy v1|snomed|293306004|Epoetin alfa adverse reaction (disorder)|
+|allergy v1|snomed|293307008|Epoetin beta adverse reaction (disorder)|
+|allergy v1|snomed|293308003|Plasma substitutes adverse reaction (disorder)|
+|allergy v1|snomed|293309006|Gelatin adverse reaction (disorder)|
+|allergy v1|snomed|293310001|Hetastarch adverse reaction (disorder)|
+|allergy v1|snomed|293311002|Pentastarch adverse reaction (disorder)|
+|allergy v1|snomed|293312009|Dextran adverse reaction (disorder)|
+|allergy v1|snomed|293313004|Perfluorochemical adverse reaction (disorder)|
+|allergy v1|snomed|293314005|Plasma protein solution adverse reaction (disorder)|
+|allergy v1|snomed|293315006|Blood derivative adverse reaction (disorder)|
+|allergy v1|snomed|293316007|Albumin solution adverse reaction (disorder)|
+|allergy v1|snomed|293317003|Antithrombin III adverse reaction (disorder)|
+|allergy v1|snomed|293318008|Blood clotting factor adverse reaction (disorder)|
+|allergy v1|snomed|293319000|Factor VIII fraction products adverse reaction (disorder)|
+|allergy v1|snomed|293320006|Factor IX fraction products adverse reaction (disorder)|
+|allergy v1|snomed|293321005|Activated factor VII products adverse reaction (disorder)|
+|allergy v1|snomed|293324002|Factor V concentrate products adverse reaction (disorder)|
+|allergy v1|snomed|293325001|Factor VII concentrate products adverse reaction (disorder)|
+|allergy v1|snomed|293326000|Factor VIII by-passing fraction products adverse reaction (disorder)|
+|allergy v1|snomed|293327009|Factor XI products adverse reaction (disorder)|
+|allergy v1|snomed|293328004|Factor XIII products adverse reaction (disorder)|
+|allergy v1|snomed|293329007|Factor VIII products adverse reaction|
+|allergy v1|snomed|293331003|Adverse reaction to anticoagulants|
+|allergy v1|snomed|293332005|Direct acting anticoagulant adverse reaction (disorder)|
+|allergy v1|snomed|293333000|Ancrod adverse reaction (disorder)|
+|allergy v1|snomed|293334006|Adverse reaction to heparin|
+|allergy v1|snomed|293335007|Enoxaparin adverse reaction (disorder)|
+|allergy v1|snomed|293336008|Dalteparin adverse reaction (disorder)|
+|allergy v1|snomed|293337004|Tinzaparin adverse reaction (disorder)|
+|allergy v1|snomed|293339001|Heparinoid adverse reaction (disorder)|
+|allergy v1|snomed|293340004|Danaparoid sodium adverse reaction (disorder)|
+|allergy v1|snomed|293341000|Indirect acting anticoagulant adverse reaction (disorder)|
+|allergy v1|snomed|293342007|Coumarin anticoagulant adverse reaction (disorder)|
+|allergy v1|snomed|293343002|Acenocoumarol adverse reaction|
+|allergy v1|snomed|293344008|Warfarin adverse reaction (disorder)|
+|allergy v1|snomed|293345009|Indanedione anticoagulant adverse reaction (disorder)|
+|allergy v1|snomed|293346005|Adverse reaction to phenindione|
+|allergy v1|snomed|293347001|Hemostatic adverse reaction (disorder)|
+|allergy v1|snomed|293348006|Adverse reaction to etamsylate|
+|allergy v1|snomed|293349003|Thromboplastin adverse reaction (disorder)|
+|allergy v1|snomed|293350003|Adverse reaction to tranexamic acid|
+|allergy v1|snomed|293351004|Collagen adverse reaction (disorder)|
+|allergy v1|snomed|293352006|Aprotinin adverse reaction (disorder)|
+|allergy v1|snomed|293354007|Iron adverse reaction (disorder)|
+|allergy v1|snomed|293355008|Iron and folic acid adverse reaction (disorder)|
+|allergy v1|snomed|293356009|Polysaccharide iron complex adverse reaction (disorder)|
+|allergy v1|snomed|293357000|Sodium feredetate adverse reaction|
+|allergy v1|snomed|293358005|Compound iron preparations adverse reaction (disorder)|
+|allergy v1|snomed|293359002|Iron sorbitol adverse reaction (disorder)|
+|allergy v1|snomed|293360007|Ferrous salt adverse reaction (disorder)|
+|allergy v1|snomed|293361006|Adverse reaction to ferrous fumarate|
+|allergy v1|snomed|293362004|Adverse reaction to ferrous gluconate|
+|allergy v1|snomed|293363009|Adverse reaction to ferrous glycine sulfate|
+|allergy v1|snomed|293364003|Adverse reaction to ferrous succinate|
+|allergy v1|snomed|293365002|Adverse reaction to ferrous sulfate|
+|allergy v1|snomed|293366001|Ferrous phosphate adverse reaction (disorder)|
+|allergy v1|snomed|293367005|Intravenous nutrition adverse reaction (disorder)|
+|allergy v1|snomed|293368000|Supplementary preparation for parenteral nutrition adverse reaction|
+|allergy v1|snomed|293369008|Adverse reaction to intravenous electrolytes and/or trace elements|
+|allergy v1|snomed|293370009|Intravenous nutrition (vitamins) adverse reaction (disorder)|
+|allergy v1|snomed|293371008|Intravenous nutrition (amino acids) adverse reaction (disorder)|
+|allergy v1|snomed|293372001|Intravenous nutrition (carbohydrate) adverse reaction (disorder)|
+|allergy v1|snomed|293373006|Intravenous nutrition (fats) adverse reaction (disorder)|
+|allergy v1|snomed|293374000|Intravenous nutrition (ready mixed) adverse reaction (disorder)|
+|allergy v1|snomed|293375004|L-Carnitine adverse reaction (disorder)|
+|allergy v1|snomed|293376003|Iodine compounds adverse reaction (disorder)|
+|allergy v1|snomed|293377007|Iodine adverse reaction (disorder)|
+|allergy v1|snomed|293378002|Iodophore adverse reaction (disorder)|
+|allergy v1|snomed|293379005|Povidone iodine adverse reaction (disorder)|
+|allergy v1|snomed|293380008|Multiple electrolyte infusion adverse reaction (disorder)|
+|allergy v1|snomed|293381007|Enteral and supplement feeds adverse reaction (disorder)|
+|allergy v1|snomed|293382000|Oral rehydration salts adverse reaction (disorder)|
+|allergy v1|snomed|293383005|Vitamin products adverse reaction (disorder)|
+|allergy v1|snomed|293384004|Multivitamin and mineral preparations adverse reaction (disorder)|
+|allergy v1|snomed|293385003|Fat soluble vitamin adverse reaction (disorder)|
+|allergy v1|snomed|293386002|Adverse reaction to vitamin A|
+|allergy v1|snomed|293387006|Adverse reaction to vitamin D|
+|allergy v1|snomed|293388001|Adverse reaction to vitamin K|
+|allergy v1|snomed|293389009|Alpha-tocopheryl adverse reaction (disorder)|
+|allergy v1|snomed|293390000|Water soluble vitamin adverse reaction (disorder)|
+|allergy v1|snomed|293391001|Vitamin B group adverse reaction (disorder)|
+|allergy v1|snomed|293392008|Nicotinic acid adverse reaction (disorder)|
+|allergy v1|snomed|293393003|Folic acid adverse reaction (disorder)|
+|allergy v1|snomed|293394009|Folinic acid adverse reaction (disorder)|
+|allergy v1|snomed|293395005|Vitamin B12 preparation adverse reaction (disorder)|
+|allergy v1|snomed|293396006|Adverse reaction to hydroxocobalamin|
+|allergy v1|snomed|293397002|Adverse reaction to cyanocobalamin|
+|allergy v1|snomed|293398007|Niacinamide adverse reaction|
+|allergy v1|snomed|293399004|Vitamin B complex preparation adverse reaction|
+|allergy v1|snomed|293400006|Inositol adverse reaction (disorder)|
+|allergy v1|snomed|293401005|Pyridoxine preparation adverse reaction (disorder)|
+|allergy v1|snomed|293402003|Thiamine preparation adverse reaction (disorder)|
+|allergy v1|snomed|293403008|Ascorbic acid adverse reaction (disorder)|
+|allergy v1|snomed|293404002|Ion exchange resin adverse reaction (disorder)|
+|allergy v1|snomed|293405001|Cation exchange resin adverse reaction (disorder)|
+|allergy v1|snomed|293406000|Sodium cellulose phosphate adverse reaction (disorder)|
+|allergy v1|snomed|293407009|Calcium polystyrene sulfonate adverse reaction (disorder)|
+|allergy v1|snomed|293408004|Sodium polystyrene sulfonate adverse reaction (disorder)|
+|allergy v1|snomed|293409007|Potassium adverse reaction (disorder)|
+|allergy v1|snomed|293410002|Oral potassium adverse reaction (disorder)|
+|allergy v1|snomed|293411003|Parenteral potassium adverse reaction (disorder)|
+|allergy v1|snomed|293412005|Electrolyte anion adverse reaction (disorder)|
+|allergy v1|snomed|293413000|Zinc adverse reaction (disorder)|
+|allergy v1|snomed|293414006|Fluoride adverse reaction (disorder)|
+|allergy v1|snomed|293415007|Sodium fluoride adverse reaction (disorder)|
+|allergy v1|snomed|293416008|Drug groups primarily affecting cardiovascular system adverse reaction|
+|allergy v1|snomed|293417004|Lipid-lowering drug adverse reaction (disorder)|
+|allergy v1|snomed|293418009|Dextrothyroxine sodium adverse reaction (disorder)|
+|allergy v1|snomed|293419001|Gemfibrozil adverse reaction (disorder)|
+|allergy v1|snomed|293420007|Probucol adverse reaction (disorder)|
+|allergy v1|snomed|293421006|Acipimox adverse reaction (disorder)|
+|allergy v1|snomed|293422004|Anion exchange resins adverse reaction (disorder)|
+|allergy v1|snomed|293423009|Colestipol adverse reaction (disorder)|
+|allergy v1|snomed|293424003|Adverse reaction to colestyramine|
+|allergy v1|snomed|293426001|Bezafibrate adverse reaction (disorder)|
+|allergy v1|snomed|293427005|Clofibrate adverse reaction (disorder)|
+|allergy v1|snomed|293428000|Fenofibrate adverse reaction (disorder)|
+|allergy v1|snomed|293429008|Ciprofibrate adverse reaction (disorder)|
+|allergy v1|snomed|293430003|Fish oils adverse reaction (disorder)|
+|allergy v1|snomed|293431004|Omega 3-marine triglycerides adverse reaction (disorder)|
+|allergy v1|snomed|293432006|3-Hydroxy-3-methylglutaryl coenzyme A reductase inhibitor adverse reaction|
+|allergy v1|snomed|293433001|Adverse reaction caused by simvastatin|
+|allergy v1|snomed|293434007|Adverse reaction caused by fluvastatin|
+|allergy v1|snomed|293435008|Adverse reaction caused by pravastatin|
+|allergy v1|snomed|293436009|Antiarrhythmic drug adverse reaction (disorder)|
+|allergy v1|snomed|293437000|Adenosine adverse reaction (disorder)|
+|allergy v1|snomed|293438005|Class I antiarrhythmic adverse reaction (disorder)|
+|allergy v1|snomed|293440000|Disopyramide adverse reaction (disorder)|
+|allergy v1|snomed|293441001|Quinidine adverse reaction (disorder)|
+|allergy v1|snomed|293442008|Flecainide adverse reaction (disorder)|
+|allergy v1|snomed|293443003|Mexiletine adverse reaction (disorder)|
+|allergy v1|snomed|293444009|Moracizine adverse reaction (disorder)|
+|allergy v1|snomed|293445005|Procainamide adverse reaction (disorder)|
+|allergy v1|snomed|293446006|Propafenone adverse reaction (disorder)|
+|allergy v1|snomed|293447002|Tocainide adverse reaction (disorder)|
+|allergy v1|snomed|293448007|Class II antiarrhythmic adverse reaction (disorder)|
+|allergy v1|snomed|293449004|Bretylium adverse reaction (disorder)|
+|allergy v1|snomed|293450004|Class III antiarrhythmic adverse reaction (disorder)|
+|allergy v1|snomed|293451000|Amiodarone adverse reaction (disorder)|
+|allergy v1|snomed|293452007|Class IV antiarrhythmic adverse reaction (disorder)|
+|allergy v1|snomed|293453002|Diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293454008|Thiazide diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293455009|Bendroflumethiazide adverse reaction|
+|allergy v1|snomed|293456005|Adverse reaction to chlorothiazide|
+|allergy v1|snomed|293457001|Adverse reaction to cyclopenthiazide|
+|allergy v1|snomed|293458006|Adverse reaction to hydrochlorothiazide|
+|allergy v1|snomed|293459003|Adverse reaction to hydroflumethiazide|
+|allergy v1|snomed|293460008|Adverse reaction to methyclothiazide|
+|allergy v1|snomed|293461007|Adverse reaction to polythiazide|
+|allergy v1|snomed|293462000|Loop diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293463005|Furosemide adverse reaction|
+|allergy v1|snomed|293464004|Bumetanide adverse reaction (disorder)|
+|allergy v1|snomed|293465003|Etacrynic acid adverse reaction|
+|allergy v1|snomed|293466002|Piretanide adverse reaction (disorder)|
+|allergy v1|snomed|293467006|Torasemide adverse reaction (disorder)|
+|allergy v1|snomed|293468001|Potassium sparing diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293469009|Triamterene adverse reaction (disorder)|
+|allergy v1|snomed|293470005|Aldosterone antagonists adverse reaction (disorder)|
+|allergy v1|snomed|293471009|Potassium canrenoate adverse reaction (disorder)|
+|allergy v1|snomed|293472002|Spironolactone adverse reaction (disorder)|
+|allergy v1|snomed|293473007|Amiloride adverse reaction (disorder)|
+|allergy v1|snomed|293474001|Potassium sparing compound diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293475000|Amiloride and loop diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293476004|Amiloride and thiazide diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293477008|Spironolactone and loop diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293478003|Spironolactone and thiazide diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293479006|Triamterene and loop diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293480009|Triamterene and thiazide diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293482001|Osmotic diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293483006|Mannitol adverse reaction (disorder)|
+|allergy v1|snomed|293484000|Mercurial diuretic adverse reaction (disorder)|
+|allergy v1|snomed|293485004|Mersalyl adverse reaction (disorder)|
+|allergy v1|snomed|293487007|Chlortalidone adverse reaction|
+|allergy v1|snomed|293488002|Indapamide adverse reaction (disorder)|
+|allergy v1|snomed|293489005|Mefruside adverse reaction (disorder)|
+|allergy v1|snomed|293490001|Metolazone adverse reaction (disorder)|
+|allergy v1|snomed|293491002|Xipamide adverse reaction (disorder)|
+|allergy v1|snomed|293492009|Adverse reaction to carbonic acid anhydrase inhibitor|
+|allergy v1|snomed|293493004|Adverse reaction to dichlorphenamide|
+|allergy v1|snomed|293494005|Acetazolamide adverse reaction (disorder)|
+|allergy v1|snomed|293495006|Antihypertensive adverse reaction (disorder)|
+|allergy v1|snomed|293496007|Adrenergic neurone blocking drug adverse reaction (disorder)|
+|allergy v1|snomed|293497003|Bethanidine adverse reaction (disorder)|
+|allergy v1|snomed|293498008|Debrisoquine adverse reaction (disorder)|
+|allergy v1|snomed|293499000|Guanethidine adverse reaction (disorder)|
+|allergy v1|snomed|293500009|Drug reaction: ACE inhibitor|
+|allergy v1|snomed|293501008|Captopril adverse reaction (disorder)|
+|allergy v1|snomed|293502001|Lisinopril adverse reaction (disorder)|
+|allergy v1|snomed|293503006|Quinapril adverse reaction (disorder)|
+|allergy v1|snomed|293504000|Ramipril adverse reaction (disorder)|
+|allergy v1|snomed|293505004|Cilazapril adverse reaction (disorder)|
+|allergy v1|snomed|293506003|Trandolapril adverse reaction (disorder)|
+|allergy v1|snomed|293507007|Enalapril adverse reaction (disorder)|
+|allergy v1|snomed|293508002|Fosinopril adverse reaction (disorder)|
+|allergy v1|snomed|293509005|Perindopril adverse reaction (disorder)|
+|allergy v1|snomed|293511001|Trimetaphan adverse reaction (disorder)|
+|allergy v1|snomed|293512008|Metirosine adverse reaction (disorder)|
+|allergy v1|snomed|293513003|Adverse reaction caused by losartan|
+|allergy v1|snomed|293514009|Rauwolfia antihypertensive adverse reaction (disorder)|
+|allergy v1|snomed|293515005|Cardiac inotropic agent adverse reaction (disorder)|
+|allergy v1|snomed|293516006|Cardiac glycoside adverse reaction (disorder)|
+|allergy v1|snomed|293517002|Digoxin adverse reaction (disorder)|
+|allergy v1|snomed|293518007|Digitoxin adverse reaction (disorder)|
+|allergy v1|snomed|293519004|Lanatoside C adverse reaction (disorder)|
+|allergy v1|snomed|293520005|Medigoxin adverse reaction (disorder)|
+|allergy v1|snomed|293521009|Ouabain adverse reaction (disorder)|
+|allergy v1|snomed|293522002|Phosphodiesterase inhibitor adverse reaction (disorder)|
+|allergy v1|snomed|293523007|Enoximone adverse reaction (disorder)|
+|allergy v1|snomed|293524001|Milrinone adverse reaction (disorder)|
+|allergy v1|snomed|293525000|Vasoconstrictor adverse reaction (disorder)|
+|allergy v1|snomed|293527008|Dihydroergocornine and dihydroergocristine and dihydroergocryptine adverse reaction|
+|allergy v1|snomed|293528003|Ergot alkaloid adverse reaction (disorder)|
+|allergy v1|snomed|293529006|Dihydroergotamine mesylate adverse reaction (disorder)|
+|allergy v1|snomed|293530001|Adverse reaction to ergometrine|
+|allergy v1|snomed|293531002|Vasodilator adverse reaction (disorder)|
+|allergy v1|snomed|293533004|Minoxidil adverse reaction (disorder)|
+|allergy v1|snomed|293534005|Sodium nitroprusside adverse reaction (disorder)|
+|allergy v1|snomed|293535006|Flosequinan adverse reaction (disorder)|
+|allergy v1|snomed|293536007|Diazoxide adverse reaction (disorder)|
+|allergy v1|snomed|293537003|Hydralazine adverse reaction (disorder)|
+|allergy v1|snomed|293538008|Nicorandil adverse reaction (disorder)|
+|allergy v1|snomed|293539000|Dipyridamole adverse reaction (disorder)|
+|allergy v1|snomed|293540003|Nitrate vasodilator adverse reaction (disorder)|
+|allergy v1|snomed|293542006|Glyceryl trinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293543001|Oral glyceryl trinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293544007|Modified release glyceryl trinitrate adverse reaction|
+|allergy v1|snomed|293545008|Parenteral glyceryl trinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293546009|Transdermal glyceryl trinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293547000|Glyceryl trinitrate spray adverse reaction (disorder)|
+|allergy v1|snomed|293548005|Isosorbide dinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293549002|Parenteral isosorbide dinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293550002|Oral isosorbide dinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293551003|Modified release isosorbide dinitrate adverse reaction (disorder)|
+|allergy v1|snomed|293552005|Isosorbide mononitrate adverse reaction (disorder)|
+|allergy v1|snomed|293553000|Modified release isosorbide mononitrate adverse reaction (disorder)|
+|allergy v1|snomed|293554006|Adverse reaction to pentaerithrityl tetranitrate|
+|allergy v1|snomed|293555007|Peripheral/cerebral vasodilator adverse reaction (disorder)|
+|allergy v1|snomed|293556008|Bamethan sulfate adverse reaction (disorder)|
+|allergy v1|snomed|293557004|Pentoxifylline adverse reaction|
+|allergy v1|snomed|293558009|Cyclandelate adverse reaction (disorder)|
+|allergy v1|snomed|293559001|Nicofuranose adverse reaction (disorder)|
+|allergy v1|snomed|293560006|Inositol nicotinate adverse reaction (disorder)|
+|allergy v1|snomed|293561005|Isoxsuprine adverse reaction (disorder)|
+|allergy v1|snomed|293562003|Naftidrofuryl adverse reaction (disorder)|
+|allergy v1|snomed|293563008|Nicotinyl alcohol adverse reaction (disorder)|
+|allergy v1|snomed|293565001|Moxisylyte adverse reaction|
+|allergy v1|snomed|293566000|Betahistine adverse reaction (disorder)|
+|allergy v1|snomed|293567009|Adverse reaction to antivaricose drug|
+|allergy v1|snomed|293568004|Sodium tetradecyl sulfate adverse reaction (disorder)|
+|allergy v1|snomed|293569007|Ethanolamine adverse reaction (disorder)|
+|allergy v1|snomed|293570008|Medicinal enzyme adverse reaction (disorder)|
+|allergy v1|snomed|293571007|Adverse reaction to streptokinase|
+|allergy v1|snomed|293572000|Adverse reaction to urokinase|
+|allergy v1|snomed|293573005|Alteplase adverse reaction (disorder)|
+|allergy v1|snomed|293574004|Anistreplase adverse reaction (disorder)|
+|allergy v1|snomed|293575003|Bromelains adverse reaction (disorder)|
+|allergy v1|snomed|293576002|Deoxyribonuclease adverse reaction (disorder)|
+|allergy v1|snomed|293577006|Hyaluronidase adverse reaction (disorder)|
+|allergy v1|snomed|293578001|Streptokinase streptodornase adverse reaction (disorder)|
+|allergy v1|snomed|293579009|Chymotrypsin adverse reaction (disorder)|
+|allergy v1|snomed|302982001|Adverse reaction caused by enzymes|
+|allergy v1|snomed|302985004|Adverse reaction caused by eye drug|
+|allergy v1|snomed|395215005|Adverse reaction caused by bupropion (disorder)|
+|allergy v1|snomed|402755003|Localized adverse reaction caused by administration of drug (disorder)|
+|allergy v1|snomed|402763002|Adverse cutaneous reaction to diagnostic procedure|
+|allergy v1|snomed|403750002|Adverse cutaneous reaction caused by herbal medicine (disorder)|
+|allergy v1|snomed|403751003|Adverse cutaneous reaction caused by chinese traditional herbal medicine|
+|allergy v1|snomed|403752005|Adverse cutaneous reaction caused by homeopathic medicine|
+|allergy v1|snomed|403753000|Adverse cutaneous reaction to acupuncture|
+|allergy v1|snomed|403754006|Adverse cutaneous reaction caused by aromatherapy (disorder)|
+|allergy v1|snomed|405811009|Adverse reaction caused by lead compound|
+|allergy v1|snomed|405812002|Adverse reaction caused by bismuth anti-infective compound (disorder)|
+|allergy v1|snomed|406434004|Thiamphenicol adverse reaction|
+|allergy v1|snomed|406447009|Adverse reaction caused by oleandomycin (disorder)|
+|allergy v1|snomed|406448004|Spiramycin adverse reaction|
+|allergy v1|snomed|407590002|Angiotensin II receptor antagonist adverse reaction|
+|allergy v1|snomed|408672009|Adverse reaction caused by viral vaccines (disorder)|
+|allergy v1|snomed|408673004|Adverse reaction caused by anterior pituitary hormone|
+|allergy v1|snomed|417055008|Adverse reaction caused by drug acting on bone metabolism (disorder)|
+|allergy v1|snomed|417229001|Adverse reaction caused by drug primarily acting on nutrition (disorder)|
+|allergy v1|snomed|417895009|Topical agent adverse reaction|
+|allergy v1|snomed|417902000|Adverse reaction caused by inorganic chemical|
+|allergy v1|snomed|417906002|Adverse reaction to hydrocortisone|
+|allergy v1|snomed|417959000|Topical protectant adverse reaction|
+|allergy v1|snomed|418211009|Clostridium botulinum toxin adverse reaction|
+|allergy v1|snomed|418328005|Nalidixic acid adverse reaction|
+|allergy v1|snomed|418370000|Atenolol adverse reaction|
+|allergy v1|snomed|418466007|Fibrate antihyperlipidaemic adverse reaction|
+|allergy v1|snomed|418505005|Mineralocorticoid adverse reaction|
+|allergy v1|snomed|418603006|Adverse reaction to minocycline|
+|allergy v1|snomed|418949004|Adverse reaction to suxamethonium|
+|allergy v1|snomed|419007000|Sulphonamide antibiotic adverse reaction|
+|allergy v1|snomed|419055000|Sulphonamide diuretic adverse reaction|
+|allergy v1|snomed|419056004|Adverse reaction to erythromycin|
+|allergy v1|snomed|419082008|Adverse reaction caused by oil (disorder)|
+|allergy v1|snomed|419253001|Adverse reaction caused by clopidogrel|
+|allergy v1|snomed|419287006|Para-aminophenol derivative adverse reaction|
+|allergy v1|snomed|419330004|Thyrotropin releasing factor adverse reaction|
+|allergy v1|snomed|419406002|Pharmaceutical fluid or solution adverse reaction|
+|allergy v1|snomed|419885006|Beta lactam adverse reaction|
+|allergy v1|snomed|419887003|Adverse reaction caused by blood or blood product (disorder)|
+|allergy v1|snomed|419901001|Adverse reaction to non-steroidal anti-inflammatory drug|
+|allergy v1|snomed|419914000|Anaesthetics adverse reaction|
+|allergy v1|snomed|419989001|Propionic acid derivative adverse reaction|
+|allergy v1|snomed|420059000|Adverse reaction caused by bone resorption inhibitor|
+|allergy v1|snomed|420094007|Gentamicin adverse reaction|
+|allergy v1|snomed|420113004|Influenza virus vaccine adverse reaction|
+|allergy v1|snomed|420179005|Adverse reaction caused by fatty acid (disorder)|
+|allergy v1|snomed|420187006|Adverse reaction caused by antiplatelet agent|
+|allergy v1|snomed|421530001|Adverse reaction caused by epinephrine|
+|allergy v1|snomed|429188006|Adverse reaction caused by oral contrast medium|
+|allergy v1|snomed|430136001|Adverse reaction caused by antiparkinsonism drug (disorder)|
+|allergy v1|snomed|430398007|Adverse reaction caused by barbiturate|
+|allergy v1|snomed|430400006|Adverse reaction caused by antidiabetic drug|
+|allergy v1|snomed|430427005|Adverse reaction caused by diphosphonate (disorder)|
+|allergy v1|snomed|434296004|Adverse reaction caused by intravenous diphosphonate|
+|allergy v1|snomed|438784000|Adverse reaction caused by pharmaceutical excipient (disorder)|
+|allergy v1|snomed|438806007|Adverse reaction caused by aromatic analgesic (disorder)|
+|allergy v1|snomed|439498003|Adverse reaction caused by mixed bacterial vaccine|
+|allergy v1|snomed|439591006|Adverse reaction caused by saluretic agent (disorder)|
+|allergy v1|snomed|440385001|Adverse reaction caused by ovarian hormone|
+|allergy v1|snomed|440643006|Adverse reaction caused by hypnotic AND/OR sedative (disorder)|
+|allergy v1|snomed|441858005|Infusion reaction caused by trastuzumab|
+|allergy v1|snomed|441940003|Adverse reaction caused by drug or medicament administered by infusion (disorder)|
+|allergy v1|snomed|442108004|Adverse reaction caused by rituximab administered by infusion (disorder)|
+|allergy v1|snomed|446994009|Adverse reaction caused by biological substance (disorder)|
+|allergy v1|snomed|448691006|Adverse reaction caused by phosphodiesterase 5 inhibitor|
+|allergy v1|snomed|449845006|Adverse reaction caused by mirtazapine|
+|allergy v1|snomed|698088001|Adverse reaction caused by dipyrone (disorder)|
+|allergy v1|snomed|698707001|Adverse reaction caused by coronary vasodilator (disorder)|
+|allergy v1|snomed|699017007|Adverse reaction caused by vaccine properly administered|
+|allergy v1|snomed|708809007|Adverse drug reaction resulting from treatment of disorder|
+|allergy v1|snomed|712950002|Adverse reaction to glutethimide (disorder)|
+|allergy v1|snomed|713228003|Adverse reaction to chewing gum additive|
+|allergy v1|snomed|714137003|Adverse reaction caused by toothpaste (disorder)|
+|allergy v1|snomed|714139000|Adverse reaction to food additive|
+|allergy v1|snomed|715181000|Adverse reaction caused by mouth rinse|
+|allergy v1|snomed|720665007|Adverse reaction caused by metoprolol succinate|
+|allergy v1|snomed|720666008|Adverse reaction caused by metoprolol tartrate|
+|allergy v1|snomed|720672008|Adverse reaction caused by telmisartan|
+|allergy v1|snomed|720673003|Adverse reaction caused by valsartan|
+|allergy v1|snomed|720674009|Adverse reaction caused by olmesartan|
+|allergy v1|snomed|720675005|Adverse reaction caused by irbesartan|
+|allergy v1|snomed|720676006|Adverse reaction caused by eprosartan|
+|allergy v1|snomed|720677002|Adverse reaction caused by candesartan|
+|allergy v1|snomed|720678007|Adverse reaction caused by azilsartan (disorder)|
+|allergy v1|snomed|720679004|Adverse reaction caused by cerivastatin|
+|allergy v1|snomed|720680001|Adverse reaction caused by pitavastatin (disorder)|
+|allergy v1|snomed|720681002|Adverse reaction caused by lovastatin (disorder)|
+|allergy v1|snomed|720682009|Adverse reaction caused by rosuvastatin (disorder)|
+|allergy v1|snomed|720683004|Adverse reaction caused by atorvastatin (disorder)|
+|allergy v1|snomed|723008008|Adverse reaction to injection of neurotoxin|
+|allergy v1|snomed|723653009|Adverse reaction caused by decongestant|
+|allergy v1|snomed|723941008|Adverse reaction to dermal and deep fillers|
+|allergy v1|snomed|723942001|Adverse reaction to chemical peel|
+|allergy v1|snomed|764443008|Chlorinated phenol adverse reaction (disorder)|
+|allergy v1|snomed|766054009|Adverse reaction caused by adrenochrome (disorder)|
+|allergy v1|snomed|766220004|Adverse reaction to methaqualone|
+|allergy v1|snomed|767013007|Adverse reaction caused by hypothalamic hormone|
+|allergy v1|snomed|338441000000101|Acset adverse reaction (disorder)|
+|allergy v1|snomed|367141000000103|Leflunomide adverse reaction|
+|allergy v1|snomed|956191000000105|Aliskiren adverse reaction|
+|allergy v1|snomed|1053601000000108|Nebivolol adverse reaction (disorder)|
+|allergy v1|snomed|956211000000109|Prasugrel adverse reaction|
+|allergy v1|snomed|956231000000101|Ticagrelor adverse reaction|
+|allergy v1|snomed|889571000000106|Adverse reaction to rotavirus vaccine|
+|allergy v1|snomed|889611000000102|Adverse reaction to herpes zoster vaccine|
+|allergy v1|snomed|985211000000107|Apixaban adverse reaction|
+|allergy v1|snomed|985231000000104|Rivaroxaban adverse reaction|
+|allergy v1|snomed|219051006|Adverse reaction to local astringents and local detergents (navigational concept)|
+|allergy v1|snomed|219052004|Adverse reaction to emollients, demulcents and protectants (navigational concept)|
+|allergy v1|snomed|219090005|Adverse reaction to mixed bacterial vaccines, excluding combinations with a pertussis component (navigational concept)|
+|allergy v1|snomed|219102006|Adverse reaction to mixed viral-rickettsial and bacterial vaccines except combinations with a pertussis component (navigational concept)|
+|allergy v1|snomed|292187008|Antineoplastic/immunosuppressant/immunostim adverse reaction (navigational concept)|
+|allergy v1|snomed|292703002|Drug groups primarily used obs, gyn.+ urinary tract dis adverse reaction (navigational concept)|
+|allergy v1|snomed|292753008|Alternative medicines adverse reaction (navigational concept)|
+|allergy v1|snomed|292755001|Anthroposophical medicine adverse reaction (navigational concept)|
+|allergy v1|snomed|292765007|Miscellaneous topical preparations adverse reaction (navigational concept)|
+|allergy v1|snomed|292773003|Adverse reaction to bases and inactive substances (navigational concept)|
+|allergy v1|snomed|292782009|Barrier preparation adverse reaction (navigational concept)|
+|allergy v1|snomed|293353001|Foods, vitamins, electrolytes inorganic salts adverse reaction (navigational concept)|
+|allergy v1|snomed|301825000|Adverse reaction to premedication (navigational concept)|
+|allergy v1|snomed|403755007|Adverse cutaneous reaction to alternative medical therapy (navigational concept)|
+|allergy v1|snomed|999000251000000109|Adverse reaction event simple reference set|
+|allergy v1|snomed|999000261000000107|Adverse reaction propensity simple reference set|
+|allergy v1|snomed|999001241000000101|Allergies and adverse reaction causative agent groups simple reference set|
+|allergy v1|snomed|999001391000000103|Allergy or adverse reaction event simple reference set|
+|allergy v1|snomed|999001401000000100|Allergy or adverse reaction propensity simple reference set|
+|allergy v1|snomed|95903000|Absence of drug reaction (finding)|
+|allergy v1|snomed|806801000000105|Blood product transfusion adverse reaction detected (finding)|
+|allergy v1|snomed|1098921000000109|History of adverse reaction to local anaesthetic (situation)|
+|allergy v1|snomed|1104531000000102|History of adverse reaction to vaccine (situation)|
+|allergy v1|snomed|385797002|Medication side effects prevention|
+|allergy v1|snomed|396081009|Manage medication side effects|
+|allergy v1|snomed|185100004|Yellow card drug reaction notification|
+|allergy v1|snomed|886921000000105|Allergies and adverse reactions|

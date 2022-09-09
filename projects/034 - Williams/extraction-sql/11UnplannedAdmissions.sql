@@ -11,15 +11,25 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 --┌───────────────────────────────┐
 --│ Classify secondary admissions │
@@ -88,17 +98,11 @@ INTO #AdmissionTypes FROM (
 -- 523477 rows	523477 rows
 -- 00:00:16		00:00:45
 
--- Create a table with all patients (ID)=========================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
-
--- >>> Ignoring following query as already injected: query-classify-secondary-admissions.sql
 
 -- Create the table of secondary admision===============================================================================================================
-IF OBJECT_ID('tempdb..#UnplannedAdmission') IS NOT NULL DROP TABLE #UnplannedAdmission;
 SELECT DISTINCT FK_Patient_Link_ID AS PatientId, AdmissionDate AS Date
-INTO #UnplannedAdmission
 FROM #AdmissionTypes
-WHERE YEAR (AdmissionDate) >= 2019 AND AdmissionType = 'Unplanned';
+WHERE AdmissionDate >= @StartDate AND AdmissionDate < @EndDate 
+      AND AdmissionType = 'Unplanned' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 
