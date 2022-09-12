@@ -42,7 +42,8 @@ LEFT JOIN SharedCare.Reference_Coding r on r.FK_Reference_SnomedCT_ID = V.FK_Ref
 IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
 SELECT FK_Patient_Link_ID, EventDate, SuppliedCode, gp.FK_Reference_SnomedCT_ID, gp.FK_Reference_Coding_ID,
 	case when s.Concept is null then c.Concept else s.Concept end as Concept,
-	case when s.FullDescription is null then c.FullDescription else s.FullDescription end as FullDescription
+	case when s.FullDescription is null then c.FullDescription else s.FullDescription end as FullDescription,
+	[Value] = [Value]--TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #DiagnosesAndSymptoms
 FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
@@ -55,19 +56,35 @@ WHERE ((SuppliedCode IN
 		gp.FK_Reference_SnomedCT_ID in (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE Concept IN ('pregnancy-preterm', 'pregnancy-postterm')))
 	AND gp.EventDate BETWEEN @StartDate AND @EndDate
 	AND s.FullDescription IS NOT NULL AND c.FullDescription IS NOT NULL
-	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND ([Value] not like '%[A-Z]%' OR [Value] IS NULL);
 
 
 -- PULL TOGETHER FOR FINAL TABLE
 -- USES MAX(FullDescription) TO GET OVER THE ISSUE OF MULTIPLE SIMILAR DESCRIPTIONS FOR THE SAME CODE
 
+IF OBJECT_ID('tempdb..#final') IS NOT NULL DROP TABLE #final;
 select 
 	PatientId = FK_Patient_Link_ID, 
 	EventDate, 
 	Concept, 
 	SuppliedCode,
-	MAX([FullDescription])
+	FK_Reference_Coding_ID,
+	[Value],
+	MAX([FullDescription]) as FullDescription
+into #final
 from #DiagnosesAndSymptoms
 where FK_Reference_Coding_ID <> '-1'
-group by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode
-order by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode
+group by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode, 	FK_Reference_Coding_ID, [Value]
+order by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode,	FK_Reference_Coding_ID, [Value]
+
+select 
+	f.PatientId,
+	EventDate,
+	Concept,
+	SnomedCode = rc.SnomedCT_ConceptID,
+	SuppliedCode = case when len(Term) < 3 then SuppliedCode + Term else SuppliedCode end, -- for Readcodes, add the term on the end
+	FullDescription = REPLACE(f.FullDescription, ',', '|'),
+	[Value]
+from #final f
+left join SharedCare.Reference_Coding rc on rc.PK_Reference_Coding_ID = f.FK_Reference_Coding_ID
