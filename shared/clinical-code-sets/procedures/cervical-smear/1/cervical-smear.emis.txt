@@ -1,4 +1,3 @@
-^ESCT1166760	Cervical cancer screening refused
 ^ESCT1192357	Cerv.smear - viral infl.unsp.
 ^ESCT1205542	Papanicolaou smear taken
 ^ESCT1205543	Cervical smear biopsy taken
@@ -36,16 +35,8 @@
 ^ESCTCE461381	Cervical smear: colposcopy needed
 ^ESCTCE461383	Cervical smear - cervical biopsy needed
 ^ESCTCE461384	Cervical smear: uterine curettage needed
-^ESCTCE473673	Cervical smear - First call
-^ESCTCE473675	Cervical smear - Second call
-^ESCTCE473677	Cervical smear - third call
-^ESCTCE473680	Cervical smear - First recall
-^ESCTCE473682	Cervical smear - Second recall
-^ESCTCE473684	Cervical smear - third recall
 ^ESCTCE551561	Cervical smear - viral inflammation unspecified
 ^ESCTCE558543	Cervical smear sample
-^ESCTCE597825	Cervical smear call
-^ESCTCE597826	Cervical smear recall
 ^ESCTCE722764	Cervical Papanicolaou smear positive for malignant neoplasm
 ^ESCTCE797918	Cervical cancer screening not done
 ^ESCTCE800584	Cervical cytology claim
@@ -53,15 +44,6 @@
 ^ESCTCE803550	Cervical cancer Papanicolaou smear screening declined
 ^ESCTCE825790	Cervical smear due date
 ^ESCTCE825962	Cervical smear test indicated but not done
-^ESCTCE827831	Cervical smear screening invitation SMS (short message service) text
-^ESCTCE827832	Cervical smear screening invitation text message
-^ESCTCE827834	Cervical smear screening invitation first text message
-^ESCTCE827835	Cervical smear screening invitation first SMS (short message service) text
-^ESCTCE827837	Cervical smear screening invitation second text message
-^ESCTCE827838	Cervical smear screening invitation second SMS (short message service) text
-^ESCTCE827840	Cervical smear screening invitation third text message
-^ESCTCE827841	Cervical smear screening invitation third SMS (short message service) text
-^ESCTCE845986	Cervical smear screening email invitation
 ^ESCTCY396669	Cytopathology procedure, preparation of smear, genital source
 ^ESCTCY803108	Cytological evidence of malignancy on cervical Papanicolaou smear
 ^ESCTDY721821	Dysplasia on cervical smear
@@ -87,21 +69,13 @@ EGTON441	Abnormal smear result
 EGTONCE1	Cervical smear specific infection
 EMISHGT60	Cx. smear: repeat 3 years
 EMISHGT61	Cx. smear: repeat 5 years
-EMISNQCE1	Cervical smear - suspend recall
 EMISNQCE17	Cervical smear repeat at 48 months
 EMISNQCE18	Cervical smear rejected by lab.: taken before recall period
-EMISNQCE20	Cervical smear screening invitation SMS text message sent
-EMISNQCE21	Cervical smear screening invitation first SMS text message sent
-EMISNQCE22	Cervical smear screening invitation second SMS text message sent
-EMISNQCE23	Cervical smear screening invitation third SMS text message sent
-EMISNQCE25	Cervical smear recall ceased due to age
 EMISNQCE31	Cervical smear report received
 EMISNQCX1	Cx. smear: repeat 2 years
 EMISNQHI29	High risk human papillomavirus (HPV) DNA test not done
 EMISNQHI30	High risk human papillomavirus (HPV) detected
 EMISNQHU16	Human papillomavirus self-sample test - inadequate specimen
-EMISNQHU17	Human papillomavirus self-sample test offered
-EMISNQHU18	Human papillomavirus self-sample test declined
 EMISNQHU19	Human papillomavirus self-sample test positive
 EMISNQHU20	Human papillomavirus self-sample test negative
 EMISNQIN119	Informed consent for cervical smear given
@@ -112,3 +86,10 @@ EMISNQSM13	Smear taker ID number
 EMISSCE1	Cervical smear adequacy
 EMISSCE2	Cervical smear adequate
 ESCTMI1	Microscopic examination of cervical Papanicolaou smear
+^ESCTCA550598	Cancer cervix - screening done
+^ESCTCI532420	CIN III - Cervical intraepithelial neoplasia grade III with severe dysplasia
+^ESCTCI570708	CIN I - Cervical intraepithelial neoplasia 1
+^ESCTCI570715	CIN 2 - Cervical intraepithelial neoplasia 2
+^ESCTMI570710	Mild dysplasia of cervix
+^ESCTMO570716	Moderate dysplasia of cervix
+^ESCTSA723008	Sampling of cervix for Papanicolaou smear

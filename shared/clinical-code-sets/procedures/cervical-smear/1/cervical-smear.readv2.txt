@@ -44,36 +44,6 @@
 4K29000	Cervical smear - borderline change in squamous cells
 4K27.00	Cervical smear:atrophic change
 4K22.00	Cervical smear: negative
-9O8..00	Cervical smear screen admin.
-9O8k.00	Cervical smear screening invitation short message service text
-9O8k200	Cervical smear screening invitation third short message service text
-9O8k100	Cervical smear screening invitation second short message service text
-9O8k000	Cervical smear screening invitation first short message service text
-9O8j.00	Never had cervical smear
-9O8i.00	Annual cervical smear required
-9O8h.00	Cervical smear screening appointment reminder
-9O8g.00	Cervical smear screening telephone invitation
-9O8f.00	Cervical smear screening verbal invitation
-9O8e.00	Cervical smear screening third letter
-9O8d.00	Cervical smear screening second letter
-9O8c.00	Cervical smear screening first letter
-9O8b.00	Cervical smear disclaimer sent
-9O8a.00	Cervical smear every 12 months for life
-9O8Z.00	Cervical smear admin. NOS
-9O8X.00	Cervical smear - suspend recall
-9O8W.00	Cervical smear to continue post hysterectomy
-9O8V.00	Place cervical smear taken
-9O8U.00	Cervical smear slide broken in transit
-9O8T.00	Cervical smear slide lost in transit
-9O8S.00	Cervical smear defaulter
-9O88.00	Cervical smear - recall delete
-9O87.00	Cervical smear - 3rd recall
-9O86.00	Cervical smear - 2nd recall
-9O85.00	Cervical smear - 1st recall
-9O84.00	Cervical smear - call deleted
-9O83.00	Cervical smear - 3rd call
-9O82.00	Cervical smear - 2nd call
-9O81.00	Cervical smear - 1st call
 685..00	Cervical neoplasia screening
 685..12	Cervical smear screen
 685M.00	Cervical smear overdue
@@ -152,3 +122,11 @@ R151.00	[D]Nonspecific abnormal Papanicolaou smear of other origin
 4K35.00	Cerv.smear - viral infl.unsp.
 4K35.11	Viral changes on cerv. smear
 6859.11	Cervical cytology examination
+K5513	Mild cervical dysplasia
+K551300	Mild cervical dysplasia
+K551311	Cervical intraepithelial neoplasia grade I
+K5514	Moderate cervical dysplasia
+K551400	Moderate cervical dysplasia
+K551411	Cervical intraepithelial neoplasia grade II
+ZV13E	[V]Personal history of cervical intraepithelial neoplasia, grade III
+ZV13E00	[V]Personal history of cervical intraepithelial neoplasia, grade III

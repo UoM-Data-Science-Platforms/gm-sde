@@ -35,11 +35,7 @@ Xaafj	Cervical smear - high grade dyskaryosis (severe)
 Xaafk	Cervical smear - high grade dyskaryosis with features of invasive squamous carcinoma
 Xaafo	Cervical smear - features of endocervical type glandular neoplasia
 Xaafp	Cervical smear - features of non-cervical type glandular neoplasia
-9O84.	Cervical smear - call deleted
 XaBSM	Cervical smear status
-9O88.	Cervical smear - recall delete
-9O8Q.	Cervical smear disclaimer received
-9O8S.	Cervical smear defaulter
 XaKRa	Cervical smear to continue post hysterectomy
 XaKb9	Cervical smear - suspend recall
 XaKbV	No cervical smear required - no uterus
@@ -57,37 +53,11 @@ XaLql	Cervical smear repeat at 36 months
 XaLqm	Cervical smear repeat at 60 months
 XaYWm	Cervical smear repeat at 48 months
 XaaMr	Cervical smear repeat at 24 months
-9O8T.	Cervical smear slide lost in transit
-9O8U.	Cervical smear slide broken in transit
-9O8Z.	Cervical smear admin. NOS
 XaIR2	Place cervical smear taken
-XaMJR	Cervical smear screening first letter
-XaMJS	Cervical smear screening second letter
-XaMJT	Cervical smear screening third letter
-XaMJU	Cervical smear screening verbal invitation
-XaMJV	Cervical smear screening telephone invitation
-XaPgi	Cervical smear screening appointment reminder
-9O81.	Cervical smear - 1st call
-XaBSK	Cervical smear call
-9O82.	Cervical smear - 2nd call
-9O83.	Cervical smear - 3rd call
-XaZJJ	Cervical smear screening invitation text message
-XagMY	Cervical smear screening email invitation
-XaZJK	Cervical smear screening invitation first text message
-XaZJL	Cervical smear screening invitation second short message service text
-XaZJM	Cervical smear screening invitation third text message
 4K2A.	Cervical smear - endocervical cells present
 XaJcW	Cervical smear transformation zone cells present
 XaYc0	Cervical smear pus cells present
 XaYc1	Cervical smear red blood cells present
-685E.	Cervical smear status unknown
-685F.	Cervical smear due
-XaFs3	Cervical smear refused
-XaIRD	Cervical smear overdue
-9O85.	Cervical smear - 1st recall
-XaBSL	Cervical smear recall
-9O86.	Cervical smear - 2nd recall
-9O87.	Cervical smear - 3rd recall
 4K29.	Cervical smear - borderline changes
 XaaU5	Cervical smear - borderline change in squamous cells
 XaaU6	Cervical smear - borderline change in endocervical cells
@@ -111,7 +81,6 @@ XaBYv	Cervical smear biopsy taken
 XaBj3	Abnormal cervical smear
 XaK29	Cervical smear not indicated
 XaLHO	Cervical smear information leaflet given
-XaLLO	Did not attend cervical smear
 XaLMV	Informed consent for cervical smear given
 XaYWX	Cervical smear test indicated but not done
 XaYeu	Cervical smear epithelial cells absent
@@ -149,15 +118,10 @@ XaZiD	Provision of information about cervical screening programme
 4K47.	Cx. smear: repeat 12 months
 4K48.	Cx. smear: colposcopy needed
 4K48.	Cx. smear: colposcopy needed
-6851.	Ca cervix screening - not offered
-6851.	Ca cervix screening - not offered
 6852.	Ca cervix screening - offered
 6852.	Ca cervix screening - offered
 6857.	Cervical smear non-responder
 6859.	Cervical cytology examination
-9O8..	Cervical cytology administration
-9O8..	Cervical smear screening administration
-9O8..	Cervical smear screening administration
 R150.	[D]Cervical smear - nonspecific abnormality
 R150.	[D]Nonspecific abnormal Papanicolaou cervical smear
 R150.	[D]Nonspecific abnormal Papanicolaou cervical smear
@@ -169,11 +133,6 @@ Xa1di	Smear NAD - no endocervical cells
 Xa8Pl	Cervical smear
 XE078	Papanicolau smear NEC
 XE078	Papanicolau smear NEC
-XE2Ao	Cerv. smear: action
-XE2Ao	Cervical smear - action needed
-XE2Ao	Cervical smear action &/or needed
-XE2Ao	Cervical smear action &/or needed
-XE2Ao	Smear, cerv.: action
 XE2JY	FP74 - cervical cytology claim
 XE2JY	FP74 - cervical cytology claim
 XM1Vr	Nuclear abnormality on smear
@@ -182,3 +141,26 @@ ZV762	[V]Routine cervical smear
 ZV762	[V]Screening for malignant neoplasm of cervix
 XaKd4	Cervical cytology test
 XaKd4	Cervical cytology test
+X77n4	Cervical intraepithelial neoplasia grade III with severe dysplasia
+X77n4	Cervical intraepithelial neoplasia grade III with severe dysplasia
+X77n4	CIN III - Cervical intraepithelial neoplasia grade III with severe dysplasia
+Xa3HD	Cervical intraepithelial neoplasia grade 1
+Xa3HD	Cervical intraepithelial neoplasia grade 1
+Xa3HD	Cervical intraepithelial neoplasia grade I
+Xa3HD	CIN I - Cervical intraepithelial neoplasia 1
+Xa3HD	Mild cervical dysplasia
+Xa3HD	Mild dysplasia of cervix
+Xa3HF	Cervical intraepithelial neoplasia grade 2
+Xa3HF	Cervical intraepithelial neoplasia grade 2
+Xa3HF	Cervical intraepithelial neoplasia grade II
+Xa3HF	CIN 2 - Cervical intraepithelial neoplasia 2
+Xa3HF	Moderate cervical dysplasia
+Xa3HF	Moderate dysplasia of cervix
+XaFs3	Cervical smear refused
+XaFs3	Cervical smear refused
+XaIRD	Cervical smear overdue
+XaIRD	Cervical smear overdue
+XaIyN	[V]Personal history of cervical intraepithelial neoplasia, grade III
+XaIyN	[V]Personal history of cervical intraepithelial neoplasia, grade III
+XE1TU	Ca cervix - screening done
+XE1TU	Ca cervix - screening done
