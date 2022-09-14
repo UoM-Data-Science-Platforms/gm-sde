@@ -69,10 +69,10 @@ This code set was created from getset.ga, using the following list from the PI o
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.9 - 15.9%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.9 - 15.7%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-09-08 | EMIS            |    2448237 |   316647 (12.9%) |    268688 (10.9%) |
-| 2022-09-08 | TPP             |     198144 |    31139 (15.7%) |     31696 (15.9%) |
-| 2022-09-08 | Vision          |     325732 |    44968 (13.8%) |     40043 (12.3%) |
+| 2022-09-14 | EMIS            |    2448321 |   316670 (12.9%) |    316920 (12.9%) |
+| 2022-09-14 | TPP             |     198113 |    31106 (15.7%) |     31971 (16.1%) |
+| 2022-09-14 | Vision          |     325847 |    45079 (13.8%) |     45098 (13.8%) |

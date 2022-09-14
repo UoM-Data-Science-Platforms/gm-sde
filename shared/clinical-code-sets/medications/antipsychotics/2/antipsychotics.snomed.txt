@@ -364,9 +364,6 @@
 395818000	Oxypertine
 395891007	Sulpiride
 702795007	Levosulpiride
-19009001	Lymphocyte antigen CD18 (substance)
-88983000	gp - Glycoprotein IIb/IIIa beta chain
-259949008	Lymphocyte antigen CDw29
 413482006	Substance with alpha-4 integrin receptor antagonist mechanism of action
 414805007	Natalizumab
 704256006	Vedolizumab (substance)
@@ -374,8 +371,6 @@
 372706001	Thioridazine
 312962006	Thioridazine retinopathy (disorder)
 133361000119101	Retinopathy caused by trifluoperazine (disorder)
-725327006	Cell positive for integrin alpha-E
-725329009	Cell positive for integrin beta-4
 406784005	Aripiprazole
 715182007	Aripiprazole lauroxil
 18869009	Chlorpromazine pigmentation (disorder)

@@ -532,7 +532,6 @@ dhe4.00	STEMETIL 12.5mg/1mL injection
 dhe3.00	STEMETIL 5mg/5mL syrup
 dhe2.00	*STEMETIL 25mg tablets
 dhe1.00	STEMETIL 5mg tablets
-dhd..00	*PERPHENAZINE [NO DRUGS HERE]
 dh2..00	CHLORPROMAZINE HCL [NAUSEA] [see dh2..]
 o58..00	*PERPHENAZINE [ANAESTHESIA]
 o58z.00	PERPHENAZINE 5mg/1mL injection
@@ -567,6 +566,15 @@ dj26.00	MORPHINE/COCAINE/CHLORPROMAZINE elixir
 dj24.00	DIAMORPHINE/COCAINE/CHLORPROMAZINE elixir
 o423.00	THALAMONAL 100micrograms injection
 o42w.00	FENTANYL + DROPERIDOL 100micrograms/5mg injection
-gd6..00	NORTRIPTYLINE HCL [ENURESIS - no drugs here]
 ds1..00	HALOPERIDOL [TICS, CHOREA] [see d47..]
 dhg2.00	VERTIGON 25mg tablets
+d481.	NOZINAN 25mg/1mL injection
+d483.	NOZINAN 25mg tablets
+d48y.	LEVOMEPROMAZINE 25mg/1mL injection
+d48z.	LEVOMEPROMAZINE 25mg tablets
+d4x2.	ASENAPINE 5mg sublingual tablets
+d4x4.	ASENAPINE 10mg sublingual tablets
+d84z.	TRANYLCYPROMINE 10mg tablets
+dw19.	*TRANQUILYN 5mg tablets
+dw1A.	*TRANQUILYN 10mg tablets
+dw1B.	*TRANQUILYN 20mg tablets

@@ -645,7 +645,6 @@ x02iZ	Melleril
 x03qI	Seroquel
 x02m5	Orap
 x02cS	Fentazin
-X80fX	Integrin beta 1 subunit
 x02hz	Loxapac
 x03dK	Kentace
 x05w0	Zaponex
@@ -669,17 +668,19 @@ dw1A.	Tranquilyn 10mg tablet
 dw1A.	Tranquilyn 10mg tablet
 dw1B.	Tranquilyn 20mg tablet
 dw1B.	Tranquilyn 20mg tablet
-X80fL	Beta chain of CD11 a, b and c
-X80fL	CD18 - Cluster of differentiation antigen 18
-X80fL	Cluster of differentiation antigen 18
-X80fL	Cluster of differentiation antigen 18
-X80fL	Integrin adhesion molecule family beta chain
-X80gC	CD61 - Cluster of differentiation antigen 61
-X80gC	Cluster of differentiation antigen 61
-X80gC	Cluster of differentiation antigen 61
-X80gC	Glycoprotein IIb/IIIa beta chain
-X80gC	gp - Glycoprotein IIb/IIIa beta chain
-X80gC	Integrin beta-3 beta chain
-X80gC	Vitronectin receptor beta chain
 XSFNe	Olanzapine level
 XSFNe	Olanzapine level
+d481.	Nozinan 25mg/1mL injection
+d481.	Nozinan 25mg/1mL injection
+d483.	Nozinan 25mg tablet
+d483.	Nozinan 25mg tablet
+d48y.	Levomepromazine hydrochloride 25mg/1mL injection
+d48y.	Levomepromazine hydrochloride 25mg/1mL injection
+d48y.	Methotrimeprazine hydrochloride 25mg/1mL injection
+d48z.	Levomepromazine maleate 25mg tablet
+d48z.	Levomepromazine maleate 25mg tablet
+d48z.	Methotrimeprazine maleate 25mg tablet
+d4x2.	ASENAPINE 5mg sublingual tablets
+d4x2.	ASENAPINE 5mg sublingual tablets
+d4x4.	ASENAPINE 10mg sublingual tablets
+d4x4.	ASENAPINE 10mg sublingual tablets
