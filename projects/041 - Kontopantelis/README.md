@@ -50,6 +50,7 @@ This project required the following reusable queries:
 - Secondary discharges
 - Define Cohort for RQ041: patients with biochemical evidence of CKD
 - Year of birth
+- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
 
@@ -525,6 +526,23 @@ A temp table as follows:
 _File_: `query-patient-year-of-birth.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
+### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:

@@ -2,8 +2,9 @@
 --│ Mental illness diagnoses and self-harm episodes    │
 --└────────────────────────────────────────────────────┘
 
--- REVIEW LOG:
---	
+----- RESEARCH DATA ENGINEER CHECK ------
+-- 25th August 2022 - George Tilston   --
+-----------------------------------------
 
 -- OUTPUT: Data with the following fields
 --  - Month (YYYY-MM)

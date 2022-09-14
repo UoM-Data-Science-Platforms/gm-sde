@@ -140,7 +140,7 @@ First you need to be authenticated.`);
 function getQueryContent(files) {
   store.files = files.map((file) => ({
     filename: file,
-    sql: fs.readFileSync(join(EXTRACTION_DIR, file), 'utf8'),
+    sql: fs.readFileSync(join(EXTRACTION_DIR, file), 'utf8').replace(/^\uFEFF/, ''),
   }));
 }
 
