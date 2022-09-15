@@ -201,8 +201,6 @@
 ^ESCTCY617690	Cyclobarbitone
 ^ESCTDE646847	Desoxyphenobarbital
 ^ESCTEM773210	Embryopathy caused by phenobarbital
-^ESCTFE533978	Fetal primidone syndrome
-^ESCTFO533979	Foetal primidone syndrome
 ^ESCTGA806448	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceuticals Ltd)
 ^ESCTME325452	Methylphenobarbital
 ^ESCTME325453	Mephobarbital

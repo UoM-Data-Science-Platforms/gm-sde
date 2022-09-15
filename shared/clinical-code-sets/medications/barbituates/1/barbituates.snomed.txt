@@ -75,7 +75,6 @@
 387252006	Methylphenobarbital (substance)
 387343004	Amylobarbitone sodium
 395755006	Butobarbitone
-254253000	Foetal primidone syndrome
 715431002	Phenobarbital embryopathy
 387448009	Thiopentone sodium
 412605006	Thiopental (substance)

@@ -668,8 +668,6 @@ dw1A.	Tranquilyn 10mg tablet
 dw1A.	Tranquilyn 10mg tablet
 dw1B.	Tranquilyn 20mg tablet
 dw1B.	Tranquilyn 20mg tablet
-XSFNe	Olanzapine level
-XSFNe	Olanzapine level
 d481.	Nozinan 25mg/1mL injection
 d481.	Nozinan 25mg/1mL injection
 d483.	Nozinan 25mg tablet

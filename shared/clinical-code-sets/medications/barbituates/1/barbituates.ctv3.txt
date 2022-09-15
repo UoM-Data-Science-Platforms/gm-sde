@@ -75,8 +75,6 @@ dna1.	Mysoline 250mg tablet
 d31f.	Soneryl 100mg tablet
 dna3.	MYSOLINE 50mg tablets
 dna3.	MYSOLINE 50mg tablets
-X78EQ	Fetal primidone syndrome
-X78EQ	Fetal primidone syndrome
 X796h	Phenobarbital - chemical
 X796h	Phenobarbital - chemical
 X796h	Phenobarbitone
