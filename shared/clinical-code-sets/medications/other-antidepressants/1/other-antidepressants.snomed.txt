@@ -94,7 +94,6 @@
 11143411000001100	Opizone 50mg tablets (Britannia Pharmaceuticals Ltd) (product)
 15457711000001104	Valdoxan 25mg tablets (Servier Laboratories Ltd) (product)
 15499111000001100	Agomelatine 25mg tablets (product)
-191260004	Pyridoxine-responsive sideroblastic anemia (disorder)
 20414111000001106	Adepend 50mg tablets (AOP Orphan Ltd) (product)
 35902911000001105	Ascorbic acid 500mg/5ml solution for injection ampoules (product)
 35914111000001102	Bupropion 150mg modified-release tablets (product)

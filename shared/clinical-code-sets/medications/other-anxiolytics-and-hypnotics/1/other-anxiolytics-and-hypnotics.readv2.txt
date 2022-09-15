@@ -65,5 +65,4 @@ d32..00	*METHYPRYLONE
 dC1..00	SODIUM OXYBATE
 dC1z.00	SODIUM OXYBATE 500mg/mL oral solution
 m347.00	DIPHENHYDRAMINE HYDROCHLORIDE 2% cream
-9Ngt.00	On melatonin for sleep disorder
 dic1.00	PARACETAMOL+PROMETHAZINE HYDROCHLORIDE 120mg/1.5mg/5mL colour free sugar free suspension

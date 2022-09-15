@@ -144,7 +144,6 @@
 387395007	Meprobamate
 386029006	gamma Hydroxybutyrate
 734726002	Melatonin agonist
-887881000000101	On melatonin for sleep disorder
 35896911000001100	Alimemazine 30mg/5ml oral solution (product)
 35897011000001101	Alimemazine 7.5mg/5ml oral solution (product)
 35931511000001104	Promethazine 25mg/1ml solution for injection ampoules (product)

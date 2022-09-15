@@ -71,7 +71,6 @@ dC1..	Sodium oxybate
 dC1z.	Sodium oxybate 500mg/mL oral solution
 XM0lA	Chloral hydrate
 m347.	Diphenhydramine hydrochloride 2% cream
-Xaag2	On melatonin for sleep disorder
 d3...	Barbiturates/methyprylone
 djg8.	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
 c8kx.	Alimemazine tartrate 10mg tablet
