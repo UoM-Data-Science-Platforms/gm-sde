@@ -166,7 +166,6 @@ IF OBJECT_ID('tempdb..#eGFRPerMonth') IS NOT NULL DROP TABLE #eGFRPerMonth;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN eGFR < 60 and CKD IS NULL THEN 1 ELSE 0 END) AS NumberOfUncodedCKD,
 	   SUM(CASE WHEN eGFR IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfEGFRs
-INTO #eGFRPerMonth
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'

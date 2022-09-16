@@ -53,7 +53,7 @@ INTO #TableCheck
 FROM #Table;
 
 -- Create the final table
-SELECT FK_Patient_Link_ID AS PatientID, EncounterDate AS Date
+SELECT FK_Patient_Link_ID AS PatientId, EncounterDate AS Date
 FROM #TableCheck
 WHERE Check_criteria = 'Y' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
       AND EncounterDate >= @StartDate AND EncounterDate < @EndDate;

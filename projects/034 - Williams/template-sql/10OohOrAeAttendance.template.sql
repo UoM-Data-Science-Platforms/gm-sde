@@ -32,9 +32,9 @@ INTO #Patients
 FROM #PatientsToInclude;
 
 
--- Create the final table==========================================================================================================================================
+-- Create the final table===========================jj===============================================================================================================
 -- No OOH data is available so this is only for A&E attendance
-SELECT DISTINCT FK_Patient_Link_ID AS PatientID, TRY_CONVERT(DATE, AttendanceDate) AS Date
+SELECT DISTINCT FK_Patient_Link_ID AS PatientId, TRY_CONVERT(DATE, AttendanceDate) AS Date
 FROM [RLS].[vw_Acute_AE]
 WHERE EventType = 'Attendance' AND TRY_CONVERT(DATE, AttendanceDate) >= @StartDate AND TRY_CONVERT(DATE, AttendanceDate) < @EndDate
       AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
