@@ -1,0 +1,84 @@
+^ESCT1178147	Product containing only zopiclone 7.5 mg/1 each oral tablet
+^ESCT1178148	Product containing only zolpidem hemitartrate 5 mg/1 each oral tablet
+^ESCT1181063	Product containing only zaleplon 5 mg/1 each oral capsule
+^ESCT1181363	Product containing only zopiclone 3.75 mg/1 each oral tablet
+^ESCT1187263	Product containing only zolpidem hemitartrate 10 mg/1 each oral tablet
+^ESCT1187264	Product containing only zaleplon 10 mg/1 each oral capsule
+^ESCT1203402	Zolpidem 12.5mg prolonged-release oral tablet
+^ESCT1203470	Zolpidem 6.25mg prolonged-release oral tablet
+^ESCT1205868	Zopiclone in oral dosage form
+^ESCT1205869	Product containing zopiclone in oral dosage form
+^ESCT1205870	Zolpidem in oral dosage form
+^ESCT1205871	Product containing zolpidem in oral dosage form
+^ESCT1207038	Zaleplon in oral dosage form
+^ESCT1207039	Product containing zaleplon in oral dosage form
+^ESCT1220634	Zolpidem
+^ESCT1220635	Zolpidem product
+^ESCT1221542	Zaleplon
+^ESCT1221543	Zaleplon product
+^ESCT1223316	Zopiclone
+^ESCT1223317	Zopiclone product
+^ESCT1223318	Product containing precisely zopiclone 7.5 milligram/1 each conventional release oral tablet
+^ESCT1223319	Product containing precisely zopiclone 3.75 milligram/1 each conventional release oral tablet
+^ESCT1223320	Zolpidem tartrate 5 mg oral tablet
+^ESCT1223321	Product containing precisely zolpidem tartrate 5 milligram/1 each conventional release oral tablet
+^ESCT1223322	Product containing precisely zolpidem tartrate 10 milligram/1 each conventional release oral tablet
+^ESCT1223323	Zolpidem tartrate 10 mg oral tablet
+^ESCT1223324	Zaleplon 5 mg oral capsule
+^ESCT1223325	Product containing precisely zaleplon 5 milligram/1 each conventional release oral capsule
+^ESCT1223326	Zaleplon 10 mg oral capsule
+^ESCT1223327	Product containing precisely zaleplon 10 milligram/1 each conventional release oral capsule
+^ESCT1386067	Zopiclone-containing product in oral dose form
+^ESCT1386068	Zolpidem-containing product in oral dose form
+^ESCT1386562	Zaleplon-containing product in oral dose form
+^ESCTPR406901	Product containing zolpidem
+^ESCTPR426808	Product containing zaleplon
+^ESCTPR609072	Product containing zopiclone
+^ESCTPR609074	Product containing zopiclone 7.5 mg/1 each oral tablet
+^ESCTPR609077	Product containing zopiclone 3.75 mg/1 each oral tablet
+^ESCTPR609080	Product containing zolpidem hemitartrate 5 mg/1 each oral tablet
+^ESCTPR609083	Product containing zolpidem hemitartrate 10 mg/1 each oral tablet
+^ESCTPR609088	Product containing zaleplon 5 mg/1 each oral capsule
+^ESCTPR609091	Product containing zaleplon 10 mg/1 each oral capsule
+^ESCTSO815835	Sonata 10mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTSO828638	Sonata 5mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTST860046	Stilnoct 10mg tablets (Sanofi)
+^ESCTST860111	Stilnoct 5mg tablets (Sanofi)
+^ESCTZA426807	Zaleplon
+^ESCTZA609086	Zaleplon 5mg capsules
+^ESCTZA609087	Zaleplon 5 mg/1 each oral capsule
+^ESCTZA609089	Zaleplon 10mg capsules
+^ESCTZA609090	Zaleplon 10 mg/1 each oral capsule
+^ESCTZA646458	Zaleplon
+^ESCTZI805190	Zimovane LS 3.75mg tablets (Sanofi)
+^ESCTZI826033	Zimovane 7.5mg tablets (Sanofi)
+^ESCTZO406900	Zolpidem
+^ESCTZO411787	Zolpidem measurement
+^ESCTZO609071	Zopiclone
+^ESCTZO609073	Zopiclone 7.5mg tablets
+^ESCTZO609075	Zopiclone 7.5 mg oral tablet
+^ESCTZO609076	Zopiclone 3.75mg tablets
+^ESCTZO609078	Zopiclone 3.75 mg oral tablet
+^ESCTZO609079	Zolpidem 5mg tablets
+^ESCTZO609081	Zolpidem hemitartrate 5 mg oral tablet
+^ESCTZO609082	Zolpidem 10mg tablets
+^ESCTZO609084	Zolpidem hemitartrate 10 mg oral tablet
+^ESCTZO647367	Zolpidem
+^ESCTZO656074	Zolpidem tartrate
+^ESCTZO656075	Zopiclone
+^ESCTZO721435	Zolpidem 5mg orally disintegrating tablet
+^ESCTZO721545	Zolpidem 10mg orally disintegrating tablet
+^ESCTZO725687	Zolpidem 10mg sublingual tablet
+^ESCTZO726057	Zolpidem 5mg sublingual tablet
+SOCA2921NEMIS	Sonata  Capsules  5 mg
+SOCA2922NEMIS	Sonata  Capsules  10 mg
+STTA24420EMIS	Stilnoct  Tablets  5 mg
+STTA30022EMIS	Stilnoct  Tablets  10 mg
+ZACA2918NEMIS	Zaleplon  Capsules  5 mg
+ZACA2920NEMIS	Zaleplon  Capsules  10 mg
+ZITA29570EMIS	Zimovane Ls  Tablets  3.75 mg
+ZITA9554BRIDL	Zimovane  Tablets  7.5 mg
+ZOTA24422EMIS	Zolpidem Tartrate  Tablets  5 mg
+ZOTA29572EMIS	Zopiclone  Tablets  3.75 mg
+ZOTA30024EMIS	Zolpidem Tartrate  Tablets  10 mg
+ZOTA9167BRIDL	Zopiclone  Tablets  7.5 mg

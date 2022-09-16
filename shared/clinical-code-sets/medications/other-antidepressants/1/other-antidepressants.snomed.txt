@@ -91,3 +91,18 @@
 741014002	Tryptophan hydroxylase inhibitor
 443311000124103	Lysine and tryptophan-free infant formula
 444231000124103	Lysine and tryptophan-free formula
+11143411000001100	Opizone 50mg tablets (Britannia Pharmaceuticals Ltd) (product)
+15457711000001104	Valdoxan 25mg tablets (Servier Laboratories Ltd) (product)
+15499111000001100	Agomelatine 25mg tablets (product)
+20414111000001106	Adepend 50mg tablets (AOP Orphan Ltd) (product)
+35902911000001105	Ascorbic acid 500mg/5ml solution for injection ampoules (product)
+35914111000001102	Bupropion 150mg modified-release tablets (product)
+36036711000001105	Ketamine 1g/10ml solution for injection vials (product)
+36036811000001102	Ketamine 200mg/20ml solution for injection vials (product)
+36036911000001107	Ketamine 500mg/10ml solution for injection vials (product)
+3650111000001105	Nalorex 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+3708811000001102	Optimax 500mg tablets (Merck Pharmaceuticals) (product)
+3987211000001108	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd) (product)
+3988711000001100	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd) (product)
+3990611000001105	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd) (product)
+703311000001108	Zyban 150mg modified-release tablets (GlaxoSmithKline) (product)

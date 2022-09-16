@@ -75,9 +75,20 @@
 387252006	Methylphenobarbital (substance)
 387343004	Amylobarbitone sodium
 395755006	Butobarbitone
-254253000	Foetal primidone syndrome
 715431002	Phenobarbital embryopathy
 387448009	Thiopentone sodium
 412605006	Thiopental (substance)
 387256009	Primaclone
 450321002	Thiopentone specific immunoglobulin E
+18455311000001101	Mysoline 50mg tablets (IS Pharmaceuticals Ltd) (product)
+204111000001102	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceutical Ltd) (product)
+35939211000001101	Phenobarbital 200mg/1ml solution for injection ampoules (product)
+3681311000001105	Soneryl 100mg tablets (Special Order) (product)
+3681911000001106	Sodium Amytal 200mg capsules (Special Order) (product)
+3682911000001100	Amobarbital sodium 200mg capsules (product)
+3709611000001105	Amytal 50mg tablets (Flynn Pharma) (product)
+3797411000001100	Sodium Amytal 60mg capsules (Special Order) (product)
+3840711000001103	Seconal Sodium 100mg capsules (Special Order) (product)
+4085511000001105	Seconal Sodium 50mg capsules (Special Order) (product)
+4548311000001102	Mysoline 250mg/5ml oral suspension (Zeneca Pharma) (product)
+87711000001100	Mysoline 250mg tablets (Acorus Therapeutics Ltd) (product)

@@ -1,1 +1,19 @@
 d7g..	Viloxazine hydrochloride
+daA..	Reboxetine
+daA1.	Reboxetine 4mg tablet
+daA2.	Edronax 4mg tablet
+x03nk	Edronax
+dw2t.	ATOMOXETINE 100mg capsules
+dw2t.	ATOMOXETINE 100mg capsules
+dw2u.	ATOMOXETINE 80mg capsules
+dw2u.	ATOMOXETINE 80mg capsules
+dw2v.	Atomoxetine 60mg capsule
+dw2v.	Atomoxetine 60mg capsule
+dw2w.	Atomoxetine 40mg capsule
+dw2w.	Atomoxetine 40mg capsule
+dw2x.	Atomoxetine 25mg capsule
+dw2x.	Atomoxetine 25mg capsule
+dw2y.	Atomoxetine 18mg capsule
+dw2y.	Atomoxetine 18mg capsule
+dw2z.	Atomoxetine 10mg capsule
+dw2z.	Atomoxetine 10mg capsule
