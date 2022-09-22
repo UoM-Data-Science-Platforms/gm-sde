@@ -39,42 +39,6 @@ FROM #PatientsToInclude;
 
 --> EXECUTE query-patient-practice-and-ccg.sql
 
--- Create a table of all patients ======================================================================================================================
--- All IDs of patients
-IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #PatientsID 
-FROM [RLS].vw_Patient
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-
--- All years and months from the start date
-IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
-CREATE TABLE #Dates (
-  d DATE,
-  PRIMARY KEY (d)
-)
-
-WHILE ( @StartDate < @EndDate )
-BEGIN
-  INSERT INTO #Dates (d) VALUES( @StartDate )
-  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
-END
-
-IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
-SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month], d
-INTO #Time FROM #Dates
-
--- Merge 2 tables
-IF OBJECT_ID('tempdb..#PatientsAll') IS NOT NULL DROP TABLE #PatientsAll;
-SELECT *
-INTO #PatientsAll
-FROM #PatientsID, #Time;
-
--- Drop some tables
-DROP TABLE #PatientsID
-DROP TABLE #Dates
-DROP TABLE #Time
-
 
 -- Create HF tables================================================================================================================================================
 -- All HF records from 2019
@@ -143,6 +107,46 @@ GROUP BY FK_Patient_Link_ID, [Year], [Month];
 -- Drop some tables
 DROP TABLE #NSAIDS
 DROP TABLE #NSAIDSEveryMonth
+
+
+-- Create a table of all patients ======================================================================================================================
+-- All IDs of patients
+IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #PatientsID 
+FROM [RLS].vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+
+-- All years and months from the start date
+IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
+CREATE TABLE #Dates (
+  d DATE,
+  PRIMARY KEY (d)
+)
+
+DECLARE @DateCounter DATE
+SET @DateCounter = @StartDate
+
+WHILE ( @DateCounter < @EndDate )
+BEGIN
+  INSERT INTO #Dates (d) VALUES( @DateCounter )
+  SELECT @DateCounter = DATEADD(MONTH, 1, @DateCounter )
+END
+
+IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
+SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month], d
+INTO #Time FROM #Dates
+
+-- Merge 2 tables
+IF OBJECT_ID('tempdb..#PatientsAll') IS NOT NULL DROP TABLE #PatientsAll;
+SELECT *
+INTO #PatientsAll
+FROM #PatientsID, #Time;
+
+-- Drop some tables
+DROP TABLE #PatientsID
+DROP TABLE #Dates
+DROP TABLE #Time
 
 
 -- Merge table=================================================================================================================================================================
