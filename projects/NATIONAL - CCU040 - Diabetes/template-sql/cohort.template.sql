@@ -16,20 +16,27 @@ FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
 WHERE CODE IN (/*--diabetes--*/)
 GROUP BY NHS_NUMBER_DEID;
 
--- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
-CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_DiabeticTypeIPatients
+-- Crystallize to a permanent table for improved performance later
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Cohort_DM
 AS
-SELECT NHS_NUMBER_DEID AS PatientId, MIN(DATE) AS FirstT1DiagnosisDate
-FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
-WHERE CODE IN (/*--diabetes-type-i--*/)
-GROUP BY NHS_NUMBER_DEID;
+SELECT * FROM global_temp.CCU040_Cohort_DM;
 
-CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_DiabeticType2Patients
-AS
-SELECT NHS_NUMBER_DEID AS PatientId, MIN(DATE) AS FirstT2DiagnosisDate
-FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
-WHERE CODE IN (/*--diabetes-type-ii--*/)
-GROUP BY NHS_NUMBER_DEID;
+--- SPLIT HERE ---
+
+-- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
+-- CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_DiabeticTypeIPatients
+-- AS
+-- SELECT NHS_NUMBER_DEID AS PatientId, MIN(DATE) AS FirstT1DiagnosisDate
+-- FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
+-- WHERE CODE IN (/*--diabetes-type-i--*/)
+-- GROUP BY NHS_NUMBER_DEID;
+
+-- CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_DiabeticType2Patients
+-- AS
+-- SELECT NHS_NUMBER_DEID AS PatientId, MIN(DATE) AS FirstT2DiagnosisDate
+-- FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
+-- WHERE CODE IN (/*--diabetes-type-ii--*/)
+-- GROUP BY NHS_NUMBER_DEID;
 
 -- Then get all the positive covid test patients (initially from
 -- the GDPPR data as we're replicating a study that only had access
@@ -42,6 +49,32 @@ WHERE CODE IN (/*--covid-test-positive--*/,
 /*--covid-other-positive--*/)
 AND DATE >= '2020-01-01'
 GROUP BY NHS_NUMBER_DEID;
+
+-- Make the table permanent for query performance
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR
+AS
+SELECT * FROM global_temp.CCU040_CovidPatientsFromGDPPR;
+
+--- SPLIT HERE ---
+
+-- Get the patient ids for the main cohort (diabetes + covid)
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Ids
+AS
+SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Cohort_DM
+INTERSECT
+SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR;
+
+--- SPLIT HERE ---
+
+-- Get the patient ids of people not in the cohort who may be matches for the main cohort
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Potential_Match_Ids
+AS
+SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR
+EXCEPT
+SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Ids;
+
+--- SPLIT HERE ---
+--
 /*
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -52,7 +85,84 @@ FROM #CovidPatients;*/
 %run ./CCU040_01-lsoa $date="2020-01-01"
 %run ./CCU040_01-townsend $date="2020-01-01"
 
--- Define the main cohort that will be matched
+--- SPLIT HERE ---
+
+CREATE TABLE IF NOT EXISTS dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort (
+  PatientId string,
+  Sex char(1),
+  YearOfBirth INT,
+  FirstCovidPositiveDate DATE
+);
+
+TRUNCATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort;
+
+INSERT INTO dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort
+SELECT PatientId, CASE WHEN SEX=1 THEN 'M' WHEN SEX=2 THEN 'F' ELSE 'U' END As Sex, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Ids);
+
+--- SPLIT HERE ---
+
+CREATE TABLE IF NOT EXISTS dars_nic_391419_j3w9t_collab.CCU040_Potential_Matches (
+  PatientId string,
+  Sex char(1),
+  YearOfBirth INT,
+  FirstCovidPositiveDate DATE
+);
+
+TRUNCATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Potential_Matches;
+
+INSERT INTO dars_nic_391419_j3w9t_collab.CCU040_Potential_Matches
+SELECT PatientId, CASE WHEN SEX=1 THEN 'M' WHEN SEX=2 THEN 'F' ELSE 'U' END As Sex, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Potential_Match_Ids);
+
+-- Define the main cohorts that will be matched
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Males
+AS
+SELECT PatientId, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Ids)
+AND SEX = 1;
+
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Females
+AS
+SELECT PatientId, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Main_Cohort_Ids)
+AND SEX = 2;
+
+--- SPLIT HERE ---
+
+-- Define the population of potential matches
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Potential_Matches_Males
+AS
+SELECT PatientId, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Potential_Match_Ids)
+AND SEX = 1;
+
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_Potential_Matches_Females
+AS
+SELECT PatientId, YEAR(DATE_OF_BIRTH) AS YearOfBirth, FirstCovidPositiveDate
+FROM dars_nic_391419_j3w9t_collab.CCU040_CovidPatientsFromGDPPR covid
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON PatientId = skin.NHS_NUMBER_DEID
+WHERE PatientId IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU040_Potential_Match_Ids)
+AND SEX = 2;
+
+--- SPLIT HERE ---
+
 CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_MainCohort
 AS
 SELECT
