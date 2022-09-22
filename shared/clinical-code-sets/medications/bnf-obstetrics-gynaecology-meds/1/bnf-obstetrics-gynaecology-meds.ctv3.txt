@@ -1,0 +1,108 @@
+ei58.	Zidovudine 50mg/5mL s/f oral solution
+eiQ1.	Zanamivir 5mg/blister disks+disk inhaler
+eg92.	Utinor 400mg tablets x6
+ecc4.	Trimethoprim 50mg/5mL s/f suspension
+ecc2.	Trimethoprim 200mg tablet
+ecc1.	Trimethoprim 100mg tablet
+eha1.	Terbinafine 250mg tablet
+eiX3.	Tamiflu 75mg capsule
+eiX7.	TAMIFLU 45mg capsules
+ec2l.	Septrin 480mg tablet
+ed6e.	Rifinah 150 tablet
+ebG4.	RIFAXIMIN 550mg tablets
+ed6p.	Rifampicin+isoniazid 300mg/150mg tablet
+eiQ2.	Relenza 5mg/blister disks+diskhaler
+ej76.	Quinine sulphate 300mg tablet
+ej75.	Quinine sulphate 200mg tablet
+ej71.	Quinine bisulphate 300mg tablet
+e157.	Phenoxymethylpenicillin 250mg/5mL oral solution
+e153.	Phenoxymethylpenicillin 250mg tablet
+e155.	Phenoxymethylpenicillin 125mg/5mL oral solution
+eiRy.	Palivizumab 50mg injection (pdr for recon)+solvent
+e782.	Oxytetracycline dihydrate 250mg tablet
+eiX1.	Oseltamivir 75mg capsule
+eiX8.	OSELTAMIVIR 45mg capsules
+eh71.	Nystatin 100,000units/mL oral suspension
+eh73.	Nystan 100,000units/mL oral suspension
+eg91.	Norfloxacin 400mg tablet
+eg11.	Nitrofurantoin 50mg tablet
+eg1y.	Nitrofurantoin 50mg capsule
+eg12.	Nitrofurantoin 100mg tablet
+eg1w.	Nitrofurantoin 100mg m/r capsule
+eg1z.	Nitrofurantoin 100mg capsule
+eiK9.	NEVIRAPINE 400mg m/r tablets
+e773.	Minocycline 100mg m/r capsule
+ef12.	Metronidazole 400mg tablet
+eq1z.	Mebendazole 100mg/5mL suspension
+eq1y.	Mebendazole 100mg chewable tablet
+ejB2.	Malarone tablet
+e335.	Magnapen capsule
+e76z.	Lymecycline 408mg capsule
+e92A.	Klaricid XL 500mg m/r tablet
+eh91.	Itraconazole 100mg capsule
+eh81.	Fluconazole 50mg capsule
+eh82.	Fluconazole 150mg capsule
+e22k.	Flucloxacillin 250mg/5mL oral solution
+e22j.	Flucloxacillin 125mg/5mL oral solution
+e22m.	Fluclomix 500 capsule
+ei94.	Famvir 125mg tablet
+ei95.	Famciclovir 750mg tablet
+e91C.	Erythroped P.I. 125mg/5mL sugar free suspension 140mL
+e91m.	Erythroped Forte 500mg/5mL suspension
+e91w.	Erythromycin 500mg/5mL suspension
+e91R.	Erythromycin 500mg/5mL s/f suspension
+e912.	Erythromycin 500mg tablet
+e91v.	Erythromycin 250mg/5mL suspension
+e91F.	Erythromycin 250mg/5mL s/f suspension
+e911.	Erythromycin 250mg e/c tablet
+e91L.	Erythromycin 250mg capsule
+e91u.	Erythromycin 125mg/5mL suspension
+e91E.	Erythromycin 125mg/5mL s/f suspension
+e91a.	Erymax 250mg e/c granules in capsule
+e758.	Doxycycline 100mg capsule
+e613.	Distaclor 250mg/5mL suspension
+eh84.	Diflucan 150mg capsule
+e112.	Crystapen 600mg injection (pdr for recon)
+ec11.	Co-trimoxazole 480mg tablet
+eb37.	Colomycin 2million units injection (pdr for recon)
+e33a.	Co-fluampicil 125mg/125mg/5mL elixir
+e31X.	Co-amoxiclav 400mg/57mg/5mL s/f suspension
+e31z.	Co-amoxiclav 250mg/62mg/5mL s/f suspension
+e31u.	Co-amoxiclav 250mg/125mg s/f dispersible tablet
+e31Q.	Co-amoxiclav 125mg/31mg/5mL s/f suspension
+e927.	Clarithromycin 500mg tablet
+e929.	Clarithromycin 500mg m/r tablet
+e92D.	Clarithromycin 250mg/5mL paediatric suspension
+e921.	Clarithromycin 250mg tablet
+e923.	Clarithromycin 125mg/5mL paediatric suspension
+eg64.	Ciproxin 500mg tablet
+eg69.	Ciprofloxacin 5g/100mL oral suspension
+e699.	Ceporex 500mg capsule
+e69g.	Ceporex 250mg/5mL syrup
+e696.	Cephalexin 250mg/5mL oral suspension
+e695.	Cephalexin 125mg/5mL oral suspension
+e625.	Cefadroxil 125mg/5mL suspension
+e61a.	Cefaclor 375mg m/r tablet
+e615.	Cefaclor 125mg/5mL suspension
+e61C.	Cefaclor 125mg/5mL s/f suspension
+e11w.	Benzylpenicillin 600mg injection (pdr for recon)
+e931.	Azithromycin 250mg capsule
+e31T.	Augmentin 625mg tablet
+e31h.	Augmentin 375mg tablet
+e31i.	Augmentin 375mg s/f dispersible tablet
+e31k.	Augmentin 125mg/31mg/5mL s/f suspension
+eik1.	ATRIPLA 600mg/200mg/245mg tablets
+e3zu.	Amoxycillin 250mg/5mL s/f oral suspension
+e3zn.	Amoxycillin 250mg/5mL oral suspension
+e3zk.	Amoxycillin 125mg/5mL s/f oral suspension
+e3zm.	Amoxycillin 125mg/5mL oral suspension
+e3zo.	Amoxycillin 125mg/1.25mL paediatric suspension
+e31a.	Amoxil SF 250mg/5mL s/f suspension
+e316.	Amoxil 500mg capsule
+e315.	Amoxil 250mg capsule
+e31b.	Amoxil 125mg/1.25mL paediatric suspension
+ei1o.	Acyclovir 800mg tablet
+ei1g.	Acyclovir 400mg/5mL suspension
+ei18.	Acyclovir 400mg tablet
+ei16.	Acyclovir 200mg/5mL s/f suspension
+ei15.	Acyclovir 200mg tablet

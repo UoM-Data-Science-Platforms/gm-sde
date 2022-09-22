@@ -1,0 +1,28 @@
+L03..00	Ectopic pregnancy
+7E19000	Removal of products of conception from fallopian tube
+L031200	Tubal abortion
+7E13300	Excision of ruptured ectopic tubal pregnancy
+584E.00	Antenatal ultrasound confirms ectopic pregnancy
+L03y200	Membranous pregnancy
+L031.00	Tubal pregnancy
+7E13100	Excision of ectopic ovarian pregnancy
+7E19011	Removal of ectopic pregnancy from fallopian tube
+L03y100	Cornual pregnancy
+L511.00	Maternal care for viable fetus in abdominal pregnancy
+L03z.00	Ectopic pregnancy NOS
+7E19012	Fimbrial extraction of tubal pregnancy
+L031000	Fallopian tube pregnancy
+L031z00	Tubal pregnancy NOS
+L03y000	Cervical pregnancy
+Lyu0000	[X]Other ectopic pregnancy
+L030.00	Abdominal pregnancy
+L03y.00	Other ectopic pregnancy
+L031100	Gravid fallopian tube rupture
+L032.00	Ovarian pregnancy
+L03yz00	Other ectopic pregnancy NOS
+Q014.00	Fetus or neonate affected by ectopic pregnancy
+Q014100	Fetus or neonate affected by abdominal ectopic pregnancy
+Q014300	Fetus or neonate affected by tubal ectopic pregnancy
+L03y300	Combined or heterotopic pregnancy
+Q014000	Fetus or neonate affected by unspecified ectopic pregnancy
+L03y500	Intraligamentous pregnancy

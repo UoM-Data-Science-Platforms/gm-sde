@@ -1,0 +1,240 @@
+^ESCT1178179	Product containing only moclobemide 300 mg/1 each oral tablet
+^ESCT1180360	Moclobemide 150mg tablets (Mylan) 30 tablet
+^ESCT1181395	Product containing only phenelzine 15 mg/1 each oral tablet
+^ESCT1181396	Product containing only isocarboxazid 10 mg/1 each oral tablet
+^ESCT1181991	Product containing only selegiline hydrochloride 10 mg/1 each oral tablet
+^ESCT1186425	Moclobemide 150mg tablets (Mylan)
+^ESCT1187297	Product containing only moclobemide 150 mg/1 each oral tablet
+^ESCT1187326	Product containing only selegiline hydrochloride 1.25 mg/1 each oral tablet
+^ESCT1187327	Product containing only selegiline hydrochloride 5 mg/1 each oral tablet
+^ESCT1187547	Product containing only selegiline hydrochloride 5 mg/1 each oral capsule
+^ESCT1188825	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1189547	Moclobemide 300mg tablets (Mylan)
+^ESCT1189548	Moclobemide 300mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1208104	Isocarboxazid in oral dosage form
+^ESCT1208105	Product containing isocarboxazid in oral dosage form
+^ESCT1208106	Moclobemide in oral dosage form
+^ESCT1208107	Product containing moclobemide in oral dosage form
+^ESCT1208684	Selegiline hydrochloride 2 mg/mL oral solution
+^ESCT1208685	Product containing precisely selegiline hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1215031	Selegiline 10mg/5ml oral solution
+^ESCT1217700	Isocarboxazid
+^ESCT1217701	Isocarboxazid product
+^ESCT1219779	Iproniazid
+^ESCT1219780	Product containing iproniazid
+^ESCT1219781	Iproniazid product
+^ESCT1223560	Phenelzine (as phenelzine sulfate) 15 mg oral tablet
+^ESCT1223561	Product containing precisely phenelzine (as phenelzine sulfate) 15 milligram/1 each conventional release oral tablet
+^ESCT1223562	Product containing precisely isocarboxazid 10 milligram/1 each conventional release oral tablet
+^ESCT1223564	Moclobemide
+^ESCT1223565	Moclobemide product
+^ESCT1223566	Product containing precisely moclobemide 150 milligram/1 each conventional release oral tablet
+^ESCT1223567	Product containing precisely moclobemide 300 milligram/1 each conventional release oral tablet
+^ESCT1223968	Product containing precisely selegiline hydrochloride 1.25 milligram/1 each conventional release oral tablet
+^ESCT1223969	Product containing precisely selegiline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223970	Product containing precisely selegiline hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1228243	Selegiline hydrochloride 5 mg/1 each oral capsule
+^ESCT1228244	Product containing precisely selegiline hydrochloride 5 milligram/1 each conventional release oral capsule
+^ESCT1228245	Selegiline hydrochloride 5 mg oral capsule
+^ESCT1250074	Tranylcypromine 10mg tablets (Advanz Pharma)
+^ESCT1250146	Tranylcypromine 10mg tablets (Advanz Pharma) 28 tablet
+^ESCT1268083	Manerix 300mg tablets (Mylan)
+^ESCT1268109	Manerix 150mg tablets (Mylan)
+^ESCT1268186	Manerix 150mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1268187	Manerix 300mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1274075	Phenelzine 15mg tablets (Special Order)
+^ESCT1274076	Phenelzine 15mg tablets 1 tablet
+^ESCT1274077	Phenelzine 15mg tablets (Special Order) 1 tablet
+^ESCT1376083	Phenelzine 15mg capsules 1 capsule
+^ESCT1376084	Phenelzine 15mg capsules (Special Order)
+^ESCT1376086	Phenelzine 15mg capsules (Special Order) 1 capsule
+^ESCT1376143	Moclobemide 300mg tablets (Imported)
+^ESCT1376144	Moclobemide 300mg tablets (Imported) 30 tablet
+^ESCT1376176	Phenelzine 15mg capsules
+^ESCT1376263	Phenelzine 15mg capsules 60 capsule
+^ESCT1376264	Phenelzine 15mg capsules (Imported)
+^ESCT1376265	Phenelzine 15mg capsules (Imported) 60 capsule
+^ESCT1377880	Iproniazid-containing product
+^ESCT1386995	Isocarboxazid-containing product in oral dose form
+^ESCT1386996	Moclobemide-containing product in oral dose form
+^ESCT1409474	Nardil 15mg tablets (Neon Healthcare Ltd)
+^ESCT1409975	Nardil 15mg tablets (Neon Healthcare Ltd) 100 tablet
+^ESCT1424931	Tranylcypromine 10mg tablets
+^ESCT1425708	Moclobemide 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425810	Moclobemide 150mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426479	Moclobemide 150mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426480	Moclobemide 300mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429389	Moclobemide 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429390	Moclobemide 150mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1429391	Moclobemide 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429392	Moclobemide 300mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1429680	Tranylcypromine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429681	Tranylcypromine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1436779	Manerix 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436952	Manerix 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437475	Manerix 150mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1437478	Manerix 300mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1437719	Moclobemide 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437720	Moclobemide 150mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437748	Moclobemide 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437749	Moclobemide 300mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1441208	Phenelzine 15mg tablets (Part VIIID Drug Tariff Special Order)
+^ESCT1441209	Phenelzine 15mg tablets (Part VIIID Drug Tariff Special Order) 1 tablet
+^ESCT1441231	Phenelzine 15mg capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1441232	Phenelzine 15mg capsules (Part VIIID Drug Tariff Special Order) 1 capsule
+^ESCTIP375131	Iproniazid
+^ESCTIP647153	Iproniazid
+^ESCTIS1084722	Isocarboxazid 10mg tablets (Ennogen Healthcare Ltd)
+^ESCTIS1084723	Isocarboxazid 10mg tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTIS298081	Isocarboxazid
+^ESCTIS609723	Isocarboxazid 10mg tablets
+^ESCTIS609725	Isocarboxazid 10 mg oral tablet
+^ESCTIS646682	Isocarboxazid
+^ESCTIS864018	Isocarboxazid 10mg tablets 56 tablet
+^ESCTIS864020	Isocarboxazid 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS864021	Isocarboxazid 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTIS864024	Isocarboxazid 10mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTIS864025	Isocarboxazid 10mg tablets (Alliance Pharmaceuticals Ltd) 56 tablet
+^ESCTIS864026	Isocarboxazid 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS864027	Isocarboxazid 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTIS951589	Isocarboxazid 20mg/5ml oral suspension 1 ml
+^ESCTIS951590	Isocarboxazid 20mg/5ml oral suspension (Special Order)
+^ESCTIS951591	Isocarboxazid 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS952160	Isocarboxazid 20mg/5ml oral suspension
+^ESCTMA801759	Manerix 300mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTMA819858	Manerix 150mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTMA856573	Manerix 150mg tablets (Meda Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMA856589	Manerix 300mg tablets (Meda Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1041683	Moclobemide 150mg tablets (Waymade Healthcare Plc)
+^ESCTMO1041686	Moclobemide 150mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMO1065988	Moclobemide 150mg tablets (DE Pharmaceuticals)
+^ESCTMO1065989	Moclobemide 150mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1065990	Moclobemide 300mg tablets (DE Pharmaceuticals)
+^ESCTMO1065991	Moclobemide 300mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1126805	Moclobemide 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1126806	Moclobemide 150mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMO609729	Moclobemide
+^ESCTMO609731	Moclobemide 150mg tablets
+^ESCTMO609733	Moclobemide 150 mg oral tablet
+^ESCTMO609734	Moclobemide 300mg tablets
+^ESCTMO609736	Moclobemide 300 mg oral tablet
+^ESCTMO655917	Moclobemide
+^ESCTMO804070	Moclobemide 150mg tablets (Sandoz Ltd)
+^ESCTMO814221	Moclobemide 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO818974	Moclobemide 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMO819974	Moclobemide 300mg tablets (Teva UK Ltd)
+^ESCTMO820898	Moclobemide 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO822891	Moclobemide 150mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMO827045	Moclobemide 150mg tablets (Teva UK Ltd)
+^ESCTMO831707	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO832153	Moclobemide 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO833935	Moclobemide 300mg tablets (Sandoz Ltd)
+^ESCTMO839310	Moclobemide 300mg tablets 30 tablet
+^ESCTMO847132	Moclobemide 150mg tablets 30 tablet
+^ESCTMO856566	Moclobemide 150mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856567	Moclobemide 150mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856569	Moclobemide 150mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856571	Moclobemide 150mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856578	Moclobemide 150mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856582	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTMO856584	Moclobemide 300mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856585	Moclobemide 300mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856587	Moclobemide 300mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856591	Moclobemide 300mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO871429	Moclobemide 150mg tablets (Mylan Ltd)
+^ESCTMO871431	Moclobemide 150mg tablets (Mylan Ltd) 30 tablet
+^ESCTMO874079	Moclobemide 300mg tablets (Mylan Ltd)
+^ESCTMO874080	Moclobemide 300mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO878874	Moclobemide 150mg tablets 100 tablet
+^ESCTMO878879	Moclobemide 300mg tablets 60 tablet
+^ESCTMO957369	Moclobemide 150mg/5ml oral suspension 1 ml
+^ESCTMO957372	Moclobemide 150mg/5ml oral suspension (Special Order)
+^ESCTMO957373	Moclobemide 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMO957376	Moclobemide 50mg/5ml oral suspension 1 ml
+^ESCTMO957379	Moclobemide 50mg/5ml oral suspension (Special Order)
+^ESCTMO957382	Moclobemide 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMO957558	Moclobemide 150mg/5ml oral suspension
+^ESCTMO957559	Moclobemide 50mg/5ml oral suspension
+^ESCTMO965570	Moclobemide 150mg tablets (Tillomed Laboratories Ltd)
+^ESCTMO965572	Moclobemide 150mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTMO965574	Moclobemide 300mg tablets (Tillomed Laboratories Ltd)
+^ESCTMO965575	Moclobemide 300mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTMO979672	Moclobemide 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979673	Moclobemide 150mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMO979674	Moclobemide 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979675	Moclobemide 300mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTNA801467	Nardil 15mg tablets (Kyowa Kirin Ltd)
+^ESCTNA855373	Nardil 15mg tablets (Kyowa Kirin Ltd) 100 tablet
+^ESCTPH284375	Phenelzine sulfate
+^ESCTPH284376	Phenelzine sulphate
+^ESCTPH609720	Phenelzine 15mg tablets
+^ESCTPH609722	Phenelzine 15 mg oral tablet
+^ESCTPH841883	Phenelzine 15mg tablets 100 tablet
+^ESCTPR298082	Product containing isocarboxazid
+^ESCTPR609721	Product containing phenelzine 15 mg/1 each oral tablet
+^ESCTPR609724	Product containing isocarboxazid 10 mg/1 each oral tablet
+^ESCTPR609730	Product containing moclobemide
+^ESCTPR609732	Product containing moclobemide 150 mg/1 each oral tablet
+^ESCTPR609735	Product containing moclobemide 300 mg/1 each oral tablet
+^ESCTPR610858	Product containing selegiline hydrochloride 1.25 mg/1 each oral tablet
+^ESCTPR610863	Product containing selegiline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR610866	Product containing selegiline hydrochloride 5 mg/1 each oral tablet
+^ESCTPR640105	Product containing selegiline hydrochloride 5 mg/1 each oral capsule
+^ESCTSE415449	Selegiline hydrochloride
+^ESCTSE610857	Selegiline 1.25mg oral lyophilisates sugar free
+^ESCTSE610859	Selegiline hydrochloride 1.25 mg oral tablet
+^ESCTSE610862	Selegiline 10mg tablets
+^ESCTSE610864	Selegiline hydrochloride 10 mg oral tablet
+^ESCTSE610865	Selegiline 5mg tablets
+^ESCTSE610867	Selegiline hydrochloride 5 mg oral tablet
+^ESCTSE640104	Selegiline hydrochloride 5 mg/1 each oral capsule
+^ESCTTR1119858	Tranylcypromine 10mg tablets (DE Pharmaceuticals)
+^ESCTTR1119859	Tranylcypromine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTR1128276	Tranylcypromine 10mg tablets (Teva UK Ltd)
+^ESCTTR1128277	Tranylcypromine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTTR395928	Tranylcypromine sulfate
+^ESCTTR395929	Transamine sulfate
+^ESCTTR395930	Tranylcypromine sulphate
+^ESCTTR395931	Transamine sulphate
+^ESCTTR809531	Tranylcypromine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR818452	Tranylcypromine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR828596	Tranylcypromine 10mg tablets (AMCo)
+^ESCTTR848195	Tranylcypromine 10mg tablets 28 tablet
+^ESCTTR856058	Tranylcypromine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR856060	Tranylcypromine 10mg tablets (AMCo) 28 tablet
+^ESCTTR856061	Tranylcypromine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+ISTA35606MGEMIS	Isocarboxazid  Tablets  10 mg (A.A.H. Pharm)
+ISTA35607MGEMIS	Isocarboxazid  Tablets  10 mg (Cambridge Labs)
+ISTA35608MGEMIS	Isocarboxazid  Tablets  10 mg (Unichem)
+ISTA5044	Isocarboxazid  Tablets  10 mg
+MATA23458EMIS	Manerix  Tablets  150 mg
+MATA26259EMIS	Manerix  Tablets  300 mg
+MATA3875	Marplan  Tablets  10 mg
+MOTA138300NEMIS	Moclobemide (Imported)  Tablets  300 mg
+MOTA23460EMIS	Moclobemide  Tablets  150 mg
+MOTA26261EMIS	Moclobemide  Tablets  300 mg
+MOTA36115MGEMIS	Moclobemide  Tablets  150 mg (Sandoz)
+MOTA36116MGEMIS	Moclobemide  Tablets  150 mg (A.A.H. Pharm)
+MOTA36117MGEMIS	Moclobemide  Tablets  150 mg (Kent Pharm)
+MOTA36118MGEMIS	Moclobemide  Tablets  150 mg (Teva UK)
+MOTA36119MGEMIS	Moclobemide  Tablets  150 mg (Unichem)
+MOTA36120MGEMIS	Moclobemide  Tablets  150 mg (Generics (UK))
+MOTA36121MGEMIS	Moclobemide  Tablets  300 mg (Kent Pharm)
+MOTA36122MGEMIS	Moclobemide  Tablets  300 mg (Teva UK)
+MOTA36123MGEMIS	Moclobemide  Tablets  300 mg (Unichem)
+MOTA36124MGEMIS	Moclobemide  Tablets  300 mg (A.A.H. Pharm)
+MOTA36125MGEMIS	Moclobemide  Tablets  300 mg (Sandoz)
+MOTA36126MGEMIS	Moclobemide  Tablets  300 mg (Generics (UK))
+NATA1940	Nardil  Tablets  15 mg
+PHCA137926NEMIS	Phenelzine  Capsules  15 mg
+PHCA138321NEMIS	Phenelzine (Imported)  Capsules  15 mg
+PHCA138322NEMIS	Phenelzine (Special Order)  Capsules  15 mg
+PHTA2226	Phenelzine  Tablets  15 mg
+SEOR34650EMIS	Selegiline Hydrochloride  Oral Lyophilisate  1.25 mg
+SESY25457EMIS	Selegiline Hydrochloride  Syrup  10 mg/5 ml
+SETA20490EMIS	Selegiline Hydrochloride  Tablets  10 mg
+SETA5373	Selegiline Hydrochloride  Tablets  5 mg
+TRTA2894	Tranylcypromine  Tablets  10 mg
+TRTA37310MGEMIS	Tranylcypromine  Tablets  10 mg (A.A.H. Pharm)
+TRTA37311MGEMIS	Tranylcypromine  Tablets  10 mg (Unichem)
+TRTA37312MGEMIS	Tranylcypromine  Tablets  10 mg (Goldshield)

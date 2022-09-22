@@ -1,0 +1,17 @@
+12D4.	Family history of hay fever
+14B1.	H/O: hay fever
+H170.	Allergic rhinitis due to pollens
+Hyu20	[X]Other seasonal allergic rhinitis
+k699.	Hay-Crom Hay Fever 2% eye drops 10mL
+k69A.	Hay-Crom Hay Fever 2% eye drops 13.5mL
+X00l8	Hay fever - other allergen
+X00l9	Hay fever - unspecified allergen
+X00lB	Perennial allergic rhinitis with seasonal variation
+X00Zj	Hay fever conjunctivitis
+x03h6	Hay-Crom Hay Fever 2% eye drops
+x0492	Hay-Crom Hay Fever
+X1020	Hay fever with asthma
+Xa0lX	Hay fever
+XE0Y5	Allergic rhinitis
+XE0Z5	(Allergic rhinitis: [NOS] or [perennial] or [seasonal]) or (vasomotor rhinitis)
+XE2QI	Allergic rhinitis due to pollens

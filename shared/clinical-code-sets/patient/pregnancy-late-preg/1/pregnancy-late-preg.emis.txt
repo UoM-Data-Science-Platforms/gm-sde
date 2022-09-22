@@ -1,0 +1,39 @@
+^ESCT1245368	O/E - VE - os=0-1cm dilated
+^ESCT1245369	O/E - VE - os=1-2cm dilated
+^ESCT1245370	O/E - VE - os=2-4cm dilated
+^ESCT1245372	O/E - VE - os=6-8cm dilated
+^ESCT1405968	Head of foetus not engaged
+^ESCT1405969	Head of fetus not engaged
+^ESCTAN462634	Antenatal 42 week examination
+^ESCTFA350905	Failure of fetal head to enter pelvic brim
+^ESCTFA350907	Failure of head to engage
+^ESCTFA350909	Failure of foetal head to enter pelvic brim
+^ESCTFE483276	Fetal or neonatal effect of maternal premature rupture of membrane
+^ESCTFO483278	Foetal or neonatal effect of maternal premature rupture of membrane
+^ESCTHE350904	Head not engaged
+^ESCTHE350906	Head free
+^ESCTHI350908	High head
+^ESCTOE456593	O/E - vaginal examination - os 0-1 cm dilated
+^ESCTOE456596	O/E - vaginal examination - os 1-2cm dilated
+^ESCTOE456599	O/E - vaginal examination - os 2-4 cm dilated
+^ESCTOE456605	O/E - vaginal examination - os 6-8cm dilated
+^ESCTON456588	On examination - vaginal examination - cervix ripe
+^ESCTON456590	On examination - vaginal examination - cervical dilatation
+^ESCTON456595	On examination - vaginal examination - os 0-1 cm dilated
+^ESCTON456598	On examination - vaginal examination - os 1-2cm dilated
+^ESCTON456601	On examination - vaginal examination - os 2-4 cm dilated
+^ESCTON456607	On examination - vaginal examination - os 6-8cm dilated
+^ESCTPO397830	Post term pregnancy
+^ESCTPO397832	Post-dates
+^ESCTPR260168	Premature labor
+^ESCTPR260169	Premature onset of labour
+^ESCTPR260170	Preterm labour
+^ESCTPR260171	Preterm labor
+^ESCTPR260172	Premature onset of labor
+^ESCTPR321241	PROM - Premature rupture of membranes
+^ESCTPR397831	Prolonged gestation
+^ESCTPR479870	Premature rupture of membranes, labor delayed by therapy
+^ESCTRU321239	Rupture of amniotic sac under 24 hours before onset of labor
+^ESCTRU321240	Rupture of amniotic sac under 24 hours before onset of labour
+^ESCTRU321242	Rupture of membranes prior to onset of labor
+^ESCTVA550520	Vaginal show

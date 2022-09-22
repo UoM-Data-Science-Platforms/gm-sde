@@ -1,0 +1,4 @@
+146D.00	H/O: manic depressive disorder
+212V.00	Bipolar affective disorder resolved
+ZV11111	[V]Personal history of manic-depressive psychosis
+ZV11112	[V]Personal history of manic-depressive psychosis

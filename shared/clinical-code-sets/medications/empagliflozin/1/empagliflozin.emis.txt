@@ -1,0 +1,52 @@
+^ESCT1258068	Empagliflozin 10mg tablets 30 tablet
+^ESCT1258071	Empagliflozin 25mg tablets 30 tablet
+^ESCT1265478	Empagliflozin 10mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265479	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265480	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCT1265481	Empagliflozin 25mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265482	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265483	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCT1265954	Empagliflozin 10mg / Linagliptin 5mg tablets
+^ESCT1265956	Empagliflozin 25mg / Linagliptin 5mg tablets
+^ESCT1276727	Empagliflozin 5mg / Metformin 1g tablets 60 tablet
+^ESCT1276729	Empagliflozin 12.5mg / Metformin 1g tablets 60 tablet
+^ESCTEM1073846	Empagliflozin 10mg tablets 28 tablet
+^ESCTEM1073853	Empagliflozin 25mg tablets 28 tablet
+^ESCTEM1074337	Empagliflozin 10mg tablets
+^ESCTEM1074338	Empagliflozin 25mg tablets
+^ESCTEM1120490	Empagliflozin 5mg / Metformin 850mg tablets 56 tablet
+^ESCTEM1120496	Empagliflozin 5mg / Metformin 1g tablets 56 tablet
+^ESCTEM1120504	Empagliflozin 12.5mg / Metformin 850mg tablets 56 tablet
+^ESCTEM1120513	Empagliflozin 12.5mg / Metformin 1g tablets 56 tablet
+^ESCTEM1121862	Empagliflozin 12.5mg / Metformin 1g tablets
+^ESCTEM1121863	Empagliflozin 12.5mg / Metformin 850mg tablets
+^ESCTEM1121864	Empagliflozin 5mg / Metformin 1g tablets
+^ESCTEM1121865	Empagliflozin 5mg / Metformin 850mg tablets
+^ESCTJA1073847	Jardiance 10mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJA1073848	Jardiance 10mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCTJA1073856	Jardiance 25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJA1073860	Jardiance 25mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCTSY1120491	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120493	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120498	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120499	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120507	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120509	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120514	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120516	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+EMTA133082NEMIS	Empagliflozin And Linagliptin  Tablets  10 mg + 5 mg
+EMTA133083NEMIS	Empagliflozin And Linagliptin  Tablets  25 mg + 5 mg
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+GLTA133085NEMIS	Glyxambi  Tablets  10 mg + 5 mg
+GLTA133086NEMIS	Glyxambi  Tablets  25 mg + 5 mg
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg

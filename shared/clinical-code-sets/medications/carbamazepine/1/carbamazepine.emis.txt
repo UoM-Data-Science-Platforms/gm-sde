@@ -1,0 +1,379 @@
+^ESCT1173692	Carbamazepine 100mg/5ml oral suspension sugar free (Sun Pharmaceuticals UK Ltd)
+^ESCT1173693	Carbamazepine 100mg/5ml oral suspension sugar free (Sun Pharmaceuticals UK Ltd) 300 ml
+^ESCT1178647	Carbagen SR 200mg tablets (Mylan)
+^ESCT1180019	Carbamazepine 200mg tablets (Mylan) 56 tablet 2 x 28 tablets
+^ESCT1180665	Carbagen 100mg tablets (Mylan) 28 tablet
+^ESCT1180666	Carbagen 100mg tablets (Mylan) 84 tablet
+^ESCT1181144	Product containing only carbamazepine 100 mg/1 each oral tablet
+^ESCT1181976	Product containing only carbamazepine 400 mg/1 each oral tablet
+^ESCT1183514	Carbagen SR 200mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1183519	Carbagen SR 400mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1184268	Carbamazepine 100mg tablets (Mylan)
+^ESCT1184271	Carbagen SR 400mg tablets (Mylan)
+^ESCT1184689	Carbagen 100mg tablets (Mylan) 56 tablet
+^ESCT1184690	Carbagen 400mg tablets (Mylan) 28 tablet
+^ESCT1185664	Carbamazepine 100mg tablets (Mylan) 500 tablet
+^ESCT1185667	Carbamazepine 200mg tablets (Mylan) 28 tablet
+^ESCT1185939	Carbamazepine 200mg tablets (Mylan)
+^ESCT1186693	Carbagen 100mg tablets (Mylan)
+^ESCT1186694	Carbagen 200mg tablets (Mylan) 84 tablet
+^ESCT1186695	Carbagen 400mg tablets (Mylan)
+^ESCT1186923	Carbamazepine 400mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1187318	Product containing only carbamazepine 200 mg/1 each oral tablet
+^ESCT1188752	Carbamazepine 100mg tablets (Mylan) 28 tablet
+^ESCT1188754	Carbamazepine 200mg tablets (Mylan) 500 tablet
+^ESCT1188755	Carbamazepine 400mg tablets (Mylan) 100 tablet
+^ESCT1189233	Carbamazepine 400mg tablets (Mylan)
+^ESCT1189413	Carbamazepine 100mg tablets (Mylan) 56 tablet 2 x 28 tablets
+^ESCT1189837	Carbagen 200mg tablets (Mylan)
+^ESCT1189838	Carbagen 200mg tablets (Mylan) 28 tablet
+^ESCT1189839	Carbagen 200mg tablets (Mylan) 56 tablet
+^ESCT1189840	Carbagen 400mg tablets (Mylan) 56 tablet
+^ESCT1223871	Product containing precisely carbamazepine 100 milligram/1 each conventional release oral tablet
+^ESCT1223872	Product containing precisely carbamazepine 200 milligram/1 each conventional release oral tablet
+^ESCT1223873	Product containing precisely carbamazepine 400 milligram/1 each conventional release oral tablet
+^ESCT1223874	Product containing precisely carbamazepine 125 milligram/1 each conventional release rectal suppository
+^ESCT1223875	Carbamazepine 125 mg rectal suppository
+^ESCT1223876	Carbamazepine 250 mg rectal suppository
+^ESCT1223877	Product containing precisely carbamazepine 250 milligram/1 each conventional release rectal suppository
+^ESCT1223878	Carbamazepine 200 mg chewable tablet
+^ESCT1223879	Product containing precisely carbamazepine 200 milligram/1 each conventional release chewable tablet
+^ESCT1223880	Product containing precisely carbamazepine 100 milligram/1 each conventional release chewable tablet
+^ESCT1223881	Carbamazepine 100 mg chewable tablet
+^ESCT1223882	Product containing precisely carbamazepine 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1223883	Carbamazepine 20 mg/mL oral suspension
+^ESCT1256219	Carbamazepine 100mg/5ml oral suspension sugar free (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256220	Carbamazepine 100mg/5ml oral suspension sugar free (Sun Pharmaceutical Industries Europe B.V.) 300 ml
+^ESCT1264206	Carbamazepine 200mg modified-release tablets
+^ESCT1264207	Carbamazepine 400mg modified-release tablets
+^ESCT1300936	Carbamazepine 400mg tablets (Medreich Plc)
+^ESCT1300937	Carbamazepine 400mg tablets (Medreich Plc) 56 tablet 4 x 14 tablets
+^ESCT1300938	Carbamazepine 200mg tablets (Medreich Plc)
+^ESCT1300939	Carbamazepine 200mg tablets (Medreich Plc) 84 tablet 6 x 14 tablets
+^ESCT1300940	Carbamazepine 100mg tablets (Medreich Plc)
+^ESCT1300941	Carbamazepine 100mg tablets (Medreich Plc) 84 tablet 6 x 14 tablets
+^ESCT1375005	Carbamazepine 100mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1375006	Carbamazepine 100mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd) 300 ml
+^ESCT1375007	Carbamazepine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375008	Carbamazepine 200mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1411455	Carbamazepine 100mg/5ml oral suspension sugar free (Accord Healthcare Ltd)
+^ESCT1411456	Carbamazepine 100mg/5ml oral suspension sugar free (Accord Healthcare Ltd) 300 ml
+^ESCT1425659	Carbamazepine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425674	Carbamazepine 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425711	Carbamazepine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425848	Carbamazepine 400mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1425880	Carbamazepine 200mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1426186	Carbamazepine 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426193	Carbamazepine 200mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426194	Carbamazepine 200mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426197	Carbamazepine 400mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426360	Carbamazepine 200mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426362	Carbamazepine 400mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426667	Carbamazepine 100mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426702	Carbamazepine 400mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1427194	Carbamazepine 400mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1429044	Carbamazepine 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429045	Carbamazepine 400mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429046	Carbamazepine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429047	Carbamazepine 100mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCTAR806735	Arbil MR 400mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAR824818	Arbil MR 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAR854677	Arbil MR 200mg tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTAR854850	Arbil MR 400mg tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA1001128	Carbamazepine 100mg tablets 56 tablet
+^ESCTCA1001129	Carbamazepine 100mg tablets (Mylan Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA1001193	Carbamazepine 200mg tablets (Mylan Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA1008413	Carbamazepine 400mg modified-release tablets 50 tablet
+^ESCTCA1020557	Carbamazepine 100mg/5ml oral suspension sugar free (Actavis UK Ltd)
+^ESCTCA1020558	Carbamazepine 100mg/5ml oral suspension sugar free (Actavis UK Ltd) 300 ml
+^ESCTCA1020676	Carbamazepine 100mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTCA1020677	Carbamazepine 200mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTCA1021171	Carbamazepine 100mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCA1021172	Carbamazepine 100mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTCA1023426	Carbamazepine 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1023427	Carbamazepine 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTCA1023428	Carbamazepine 200mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1023429	Carbamazepine 200mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTCA1023430	Carbamazepine 400mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1023431	Carbamazepine 400mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTCA1026605	Carbamazepine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA1038944	Carbamazepine 400mg modified-release tablets 60 tablet
+^ESCTCA1049256	Carbamazepine 100mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTCA1049257	Carbamazepine 100mg/5ml oral suspension sugar free (DE Pharmaceuticals) 300 ml
+^ESCTCA1058737	Carbamazepine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA1063186	Carbagen 100mg tablets (Mylan Ltd)
+^ESCTCA1063187	Carbagen 100mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA1063188	Carbagen 100mg tablets (Mylan Ltd) 56 tablet
+^ESCTCA1063189	Carbagen 100mg tablets (Mylan Ltd) 84 tablet
+^ESCTCA1063190	Carbagen 200mg tablets (Mylan Ltd)
+^ESCTCA1063191	Carbagen 200mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA1063192	Carbagen 200mg tablets (Mylan Ltd) 56 tablet
+^ESCTCA1063193	Carbagen 200mg tablets (Mylan Ltd) 84 tablet
+^ESCTCA1063194	Carbagen 400mg tablets (Mylan Ltd)
+^ESCTCA1063195	Carbagen 400mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA1063196	Carbagen 400mg tablets (Mylan Ltd) 56 tablet
+^ESCTCA1116950	Carbamazepine 100mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTCA1116951	Carbamazepine 100mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc) 300 ml
+^ESCTCA1153665	Carbamazepine 125mg suppositories (Essential Pharma Ltd)
+^ESCTCA1153666	Carbamazepine 125mg suppositories (Essential Pharma Ltd) 5 suppository
+^ESCTCA1153667	Carbamazepine 250mg suppositories (Essential Pharma Ltd)
+^ESCTCA1153668	Carbamazepine 250mg suppositories (Essential Pharma Ltd) 5 suppository
+^ESCTCA1154180	Carbamazepine 125mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1154181	Carbamazepine 125mg suppositories (Alliance Healthcare (Distribution) Ltd) 5 suppository
+^ESCTCA1154182	Carbamazepine 250mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1154183	Carbamazepine 250mg suppositories (Alliance Healthcare (Distribution) Ltd) 5 suppository
+^ESCTCA1158402	Carbamazepine 125mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTCA1158403	Carbamazepine 125mg suppositories (A A H Pharmaceuticals Ltd) 5 suppository
+^ESCTCA1161939	Carbamazepine 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1161940	Carbamazepine 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTCA1162223	Carbamazepine 50mg/5ml oral solution 1 ml
+^ESCTCA1162224	Carbamazepine 50mg/5ml oral solution (Special Order)
+^ESCTCA1162225	Carbamazepine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA1162228	Carbamazepine 50mg/5ml oral solution
+^ESCTCA610593	Carbamazepine 100mg tablets
+^ESCTCA610595	Carbamazepine 100 mg oral tablet
+^ESCTCA610596	Carbamazepine 200mg tablets
+^ESCTCA610598	Carbamazepine 200 mg oral tablet
+^ESCTCA610599	Carbamazepine 400mg tablets
+^ESCTCA610601	Carbamazepine 400 mg oral tablet
+^ESCTCA610606	Carbamazepine 125mg suppositories
+^ESCTCA610607	Carbamazepine 125mg suppository
+^ESCTCA610608	Carbamazepine 250mg suppositories
+^ESCTCA610609	Carbamazepine 250mg suppository
+^ESCTCA610610	Carbamazepine 200mg chewable tablets sugar free
+^ESCTCA610611	Carbamazepine 200mg chewable tablet
+^ESCTCA610612	Carbamazepine 100mg chewable tablets sugar free
+^ESCTCA610613	Carbamazepine 100mg chewable tablet
+^ESCTCA610614	Carbamazepine 100mg/5ml oral suspension sugar free
+^ESCTCA610615	Carbamazepine 100mg/5mL oral liquid
+^ESCTCA610616	Carbamazepine 100mg/5 mL suspension
+^ESCTCA801516	Carbamazepine 200mg tablets (Teva UK Ltd)
+^ESCTCA801549	Carbamazepine 400mg tablets (Mylan Ltd)
+^ESCTCA802676	Carbamazepine 400mg tablets (Teva UK Ltd)
+^ESCTCA805630	Carbamazepine 200mg tablets (Mylan Ltd)
+^ESCTCA806703	Carbamazepine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA808062	Carbamazepine 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA810655	Carbamazepine 100mg tablets (Teva UK Ltd)
+^ESCTCA812076	Carbagen SR 200mg tablets (Mylan Ltd)
+^ESCTCA812443	Carbamazepine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA813945	Carbamazepine 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA813972	Carbamazepine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA815164	Carbamazepine 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA819007	Carbamazepine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA819091	Carbamazepine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA819182	Carbamazepine 400mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA819584	Carbamazepine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA820432	Carbamazepine 100mg tablets (Mylan Ltd)
+^ESCTCA820666	Carbagen SR 400mg tablets (Mylan Ltd)
+^ESCTCA824314	Carbamazepine 200mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA825280	Carbamazepine 400mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA829084	Carbamazepine 200mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA834184	Carbamazepine 200mg tablets 84 tablet
+^ESCTCA835106	Carbamazepine 400mg tablets 100 tablet
+^ESCTCA837101	Carbamazepine 400mg tablets 28 tablet
+^ESCTCA840716	Carbamazepine 200mg modified-release tablets 56 tablet
+^ESCTCA846941	Carbamazepine 100mg tablets 500 tablet
+^ESCTCA846986	Carbamazepine 200mg tablets 500 tablet
+^ESCTCA847469	Carbamazepine 100mg tablets 84 tablet
+^ESCTCA847535	Carbamazepine 400mg tablets 56 tablet
+^ESCTCA847592	Carbamazepine 400mg modified-release tablets 56 tablet
+^ESCTCA847752	Carbamazepine 200mg tablets 28 tablet
+^ESCTCA848174	Carbamazepine 100mg/5ml oral suspension sugar free 300 ml
+^ESCTCA848301	Carbamazepine 100mg tablets 28 tablet
+^ESCTCA851106	Carbamazepine 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCA851109	Carbamazepine 100mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTCA851114	Carbamazepine 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851115	Carbamazepine 100mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA851120	Carbamazepine 100mg tablets (Mylan Ltd) 500 tablet
+^ESCTCA851128	Carbamazepine 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851135	Carbamazepine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCA851137	Carbamazepine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTCA851143	Carbamazepine 200mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCA851144	Carbamazepine 200mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTCA851159	Carbamazepine 200mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851162	Carbamazepine 200mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA851163	Carbamazepine 200mg tablets (Mylan Ltd) 500 tablet
+^ESCTCA851174	Carbamazepine 200mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851175	Carbamazepine 200mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTCA851183	Carbamazepine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCA851184	Carbamazepine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTCA851195	Carbamazepine 400mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCA851197	Carbamazepine 400mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTCA851200	Carbamazepine 400mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851206	Carbamazepine 400mg tablets (Mylan Ltd) 100 tablet
+^ESCTCA851212	Carbamazepine 400mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851221	Carbamazepine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA851493	Carbamazepine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCA854646	Carbagen SR 200mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA854662	Carbamazepine 200mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA854672	Carbamazepine 200mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA854840	Carbagen SR 400mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA854849	Carbamazepine 400mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA854851	Carbamazepine 400mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA859708	Carbamazepine 100mg chewable tablets sugar free 56 tablet
+^ESCTCA859718	Carbamazepine 200mg chewable tablets sugar free 56 tablet
+^ESCTCA865591	Carbamazepine 125mg suppositories 5 suppository
+^ESCTCA865594	Carbamazepine 250mg suppositories 5 suppository
+^ESCTCA868970	Carbamazepine 100mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTCA871016	Carbamazepine 200mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA871017	Carbamazepine 200mg modified-release tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTCA871018	Carbamazepine 400mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA871019	Carbamazepine 400mg modified-release tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTCA872399	Carbamazepine 400mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCA878355	Carbamazepine 400mg modified-release tablets 30 tablet
+^ESCTCA878360	Carbamazepine 100mg/5ml oral suspension sugar free 50 ml
+^ESCTCA905205	Carbamazepine 40mg/5ml oral suspension 1 ml
+^ESCTCA905206	Carbamazepine 40mg/5ml oral suspension (Special Order)
+^ESCTCA905209	Carbamazepine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905213	Carbamazepine 500mg/5ml oral suspension 1 ml
+^ESCTCA905214	Carbamazepine 500mg/5ml oral suspension (Special Order)
+^ESCTCA905215	Carbamazepine 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905484	Carbamazepine 40mg/5ml oral suspension
+^ESCTCA905486	Carbamazepine 500mg/5ml oral suspension
+^ESCTCA926893	Carbamazepine 200mg tablets 56 tablet
+^ESCTCA929920	Carbamazepine 200mg modified-release tablets 50 tablet
+^ESCTCA929931	Carbamazepine 100mg/5ml oral suspension sugar free 250 ml
+^ESCTCA948728	Carbamazepine 100mg/5ml oral suspension 1 ml
+^ESCTCA948730	Carbamazepine 100mg/5ml oral suspension (Special Order)
+^ESCTCA948733	Carbamazepine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA948735	Carbamazepine 100mg/5ml oral solution 1 ml
+^ESCTCA948736	Carbamazepine 100mg/5ml oral solution (Special Order)
+^ESCTCA948738	Carbamazepine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948741	Carbamazepine 10mg/5ml oral suspension 1 ml
+^ESCTCA948742	Carbamazepine 10mg/5ml oral suspension (Special Order)
+^ESCTCA948743	Carbamazepine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA948746	Carbamazepine 10mg/5ml oral solution 1 ml
+^ESCTCA948747	Carbamazepine 10mg/5ml oral solution (Special Order)
+^ESCTCA948748	Carbamazepine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948749	Carbamazepine 120mg/5ml oral suspension 1 ml
+^ESCTCA948752	Carbamazepine 120mg/5ml oral suspension (Special Order)
+^ESCTCA948753	Carbamazepine 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA948754	Carbamazepine 120mg/5ml oral solution 1 ml
+^ESCTCA948755	Carbamazepine 120mg/5ml oral solution (Special Order)
+^ESCTCA948756	Carbamazepine 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948757	Carbamazepine 200mg/5ml oral suspension 1 ml
+^ESCTCA948758	Carbamazepine 200mg/5ml oral suspension (Special Order)
+^ESCTCA948759	Carbamazepine 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA948760	Carbamazepine 200mg/5ml oral solution 1 ml
+^ESCTCA948761	Carbamazepine 200mg/5ml oral solution (Special Order)
+^ESCTCA948764	Carbamazepine 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948765	Carbamazepine 35mg/5ml oral suspension 1 ml
+^ESCTCA948766	Carbamazepine 35mg/5ml oral suspension (Special Order)
+^ESCTCA948767	Carbamazepine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA948770	Carbamazepine 35mg/5ml oral solution 1 ml
+^ESCTCA948771	Carbamazepine 35mg/5ml oral solution (Special Order)
+^ESCTCA948772	Carbamazepine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA949187	Carbamazepine 100mg/5ml oral solution
+^ESCTCA949188	Carbamazepine 100mg/5ml oral suspension
+^ESCTCA949189	Carbamazepine 10mg/5ml oral solution
+^ESCTCA949190	Carbamazepine 10mg/5ml oral suspension
+^ESCTCA949191	Carbamazepine 120mg/5ml oral solution
+^ESCTCA949192	Carbamazepine 120mg/5ml oral suspension
+^ESCTCA949193	Carbamazepine 200mg/5ml oral solution
+^ESCTCA949194	Carbamazepine 200mg/5ml oral suspension
+^ESCTCA949195	Carbamazepine 35mg/5ml oral solution
+^ESCTCA949196	Carbamazepine 35mg/5ml oral suspension
+^ESCTCA956020	Carbamazepine 100mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTCA956022	Carbamazepine 200mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTCA956024	Carbamazepine 400mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTCA960216	Carbamazepine 200mg modified-release tablets 30 tablet
+^ESCTCA963027	Carbamazepine 400mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA965194	Carbamazepine 400mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA973963	Carbamazepine 200mg modified-release tablets 60 tablet
+^ESCTCA990109	Carbamazepine 200mg tablets 100 tablet
+^ESCTEP808123	Epimaz 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEP809295	Epimaz 200mg tablets (Teva UK Ltd)
+^ESCTEP811324	Epimaz Retard 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEP820691	Epimaz Retard 400mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEP823507	Epimaz 400mg tablets (Teva UK Ltd)
+^ESCTEP851125	Epimaz 100mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTEP851166	Epimaz 200mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTEP851210	Epimaz 400mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTEP854656	Epimaz Retard 200mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet
+^ESCTEP854841	Epimaz Retard 400mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet
+^ESCTEP926894	Epimaz 200mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTEP926895	Epimaz 400mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTPR610594	Product containing carbamazepine 100 mg/1 each oral tablet
+^ESCTPR610597	Product containing carbamazepine 200 mg/1 each oral tablet
+^ESCTPR610600	Product containing carbamazepine 400 mg/1 each oral tablet
+^ESCTTE799567	Teril Retard 200mg tablets (Taro Pharmaceuticals (UK) Ltd)
+^ESCTTE808141	Tegretol Prolonged Release 200mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE816437	Tegretol 200mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE820814	Teril Retard 400mg tablets (Taro Pharmaceuticals (UK) Ltd)
+^ESCTTE820846	Tegretol Prolonged Release 400mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE821084	Tegretol 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE821329	Tegretol 400mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE823485	Tegretol 100mg/5ml liquid (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE851132	Tegretol 100mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTTE851133	Tegretol 100mg tablets (Novartis Pharmaceuticals UK Ltd) 500 tablet
+^ESCTTE851179	Tegretol 200mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTTE851213	Tegretol 400mg tablets (Novartis Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE854612	Tegretol 100mg/5ml liquid (Novartis Pharmaceuticals UK Ltd) 300 ml
+^ESCTTE854667	Tegretol Prolonged Release 200mg tablets (Novartis Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE854842	Tegretol Prolonged Release 400mg tablets (Novartis Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE855154	Teril Retard 200mg tablets (Taro Pharmaceuticals (UK) Ltd) 56 tablet
+^ESCTTE855550	Teril Retard 400mg tablets (Taro Pharmaceuticals (UK) Ltd) 56 tablet
+^ESCTTE859712	Tegretol 100mg Chewtabs (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE859714	Tegretol 100mg Chewtabs (Novartis Pharmaceuticals UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTTE859721	Tegretol 200mg Chewtabs (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE859725	Tegretol 200mg Chewtabs (Novartis Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE865592	Tegretol 125mg suppositories (Essential Pharma Ltd)
+^ESCTTE865593	Tegretol 125mg suppositories (Essential Pharma Ltd) 5 suppository
+^ESCTTE865595	Tegretol 250mg suppositories (Essential Pharma Ltd)
+^ESCTTE865596	Tegretol 250mg suppositories (Essential Pharma Ltd) 5 suppository
+ARM/12795NEMIS	Arbil Mr  M/R tablets  200 mg
+ARM/12796NEMIS	Arbil Mr  M/R tablets  400 mg
+CACH8954DLSEM	Carbamazepine  Chewtabs  100 mg
+CACH8955DLSEM	Carbamazepine  Chewtabs  200 mg
+CALI10618BRIDL	Carbamazepine  Sugar-free liquid  100 mg/5 ml
+CAM/15562NEMIS	Carbagen Sr  M/R tablets  200 mg
+CAM/15563NEMIS	Carbagen Sr  M/R tablets  400 mg
+CAM/37784MGEMIS	Carbamazepine  M/R tablets  200 mg (Unichem)
+CAM/37785MGEMIS	Carbamazepine  M/R tablets  200 mg (Kent Pharm)
+CAM/37786MGEMIS	Carbamazepine  M/R tablets  200 mg (A.A.H. Pharm)
+CAM/37787MGEMIS	Carbamazepine  M/R tablets  400 mg (Unichem)
+CAM/37788MGEMIS	Carbamazepine  M/R tablets  400 mg (Kent Pharm)
+CAM/37789MGEMIS	Carbamazepine  M/R tablets  400 mg (A.A.H. Pharm)
+CAM/6325NEMIS	Carbamazepine  M/R tablets  200 mg
+CAM/6326NEMIS	Carbamazepine  M/R tablets  400 mg
+CAOR23295NEMIS	Carbamazepine  Oral suspension  500 mg/5 ml
+CASU24183EMIS	Carbamazepine  Suppositories  125 mg
+CASU24184EMIS	Carbamazepine  Suppositories  250 mg
+CATA3285	Carbamazepine  Tablets  100 mg
+CATA3286	Carbamazepine  Tablets  200 mg
+CATA3287	Carbamazepine  Tablets  400 mg
+CATA34071MGEMIS	Carbamazepine  Tablets  100 mg (A.A.H. Pharm)
+CATA34072MGEMIS	Carbamazepine  Tablets  100 mg (Teva UK)
+CATA34073MGEMIS	Carbamazepine  Tablets  100 mg (Kent Pharm)
+CATA34074MGEMIS	Carbamazepine  Tablets  100 mg (Unichem)
+CATA34076MGEMIS	Carbamazepine  Tablets  100 mg (Generics (UK))
+CATA34077MGEMIS	Carbamazepine  Tablets  200 mg (Teva UK)
+CATA34079MGEMIS	Carbamazepine  Tablets  200 mg (Generics (UK))
+CATA34080MGEMIS	Carbamazepine  Tablets  200 mg (A.A.H. Pharm)
+CATA34081MGEMIS	Carbamazepine  Tablets  200 mg (Kent Pharm)
+CATA34082MGEMIS	Carbamazepine  Tablets  200 mg (Unichem)
+CATA34083MGEMIS	Carbamazepine  Tablets  400 mg (Generics (UK))
+CATA34084MGEMIS	Carbamazepine  Tablets  400 mg (Teva UK)
+CATA34086MGEMIS	Carbamazepine  Tablets  400 mg (A.A.H. Pharm)
+CATA34087MGEMIS	Carbamazepine  Tablets  400 mg (Unichem)
+CATA34088MGEMIS	Carbamazepine  Tablets  400 mg (Kent Pharm)
+CATA88721NEMIS	Carbagen  Tablets  100 mg
+CATA88722NEMIS	Carbagen  Tablets  200 mg
+CATA88723NEMIS	Carbagen  Tablets  400 mg
+EPM/15551NEMIS	Epimaz Retard  M/R tablets  200 mg
+EPM/15552NEMIS	Epimaz Retard  M/R tablets  400 mg
+EPTA35449EMIS	Epimaz  Tablets  100 mg
+EPTA35450EMIS	Epimaz  Tablets  200 mg
+EPTA35451EMIS	Epimaz  Tablets  400 mg
+TECH9560BRIDL	Tegretol Chewtabs  Chewable tablets  100 mg
+TECH9562BRIDL	Tegretol Chewtabs  Chewable tablets  200 mg
+TEM/12012NEMIS	Teril Retard  M/R tablets  200 mg
+TEM/12013NEMIS	Teril Retard  M/R tablets  400 mg
+TESU24179EMIS	Tegretol  Suppositories  125 mg
+TESU24180EMIS	Tegretol  Suppositories  250 mg
+TESY2787	Tegretol  Sugar-free liquid  100 mg/5 ml
+TETA2788	Tegretol  Tablets  100 mg
+TETA2789	Tegretol  Tablets  200 mg
+TETA2790	Tegretol  Tablets  400 mg
+TETA9540BRIDL	Tegretol Prolonged Release  M/R tablets  200 mg
+TETA9542BRIDL	Tegretol Prolonged Release  M/R tablets  400 mg

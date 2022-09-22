@@ -1,0 +1,46 @@
+d4s1.	Quetiapine 25mg tablet
+d4s2.	Quetiapine 100mg tablet
+d4s3.	Quetiapine 200mg tablet
+d4s5.	Seroquel 25mg tablet
+d4s6.	Seroquel 100mg tablet
+d4s7.	Seroquel 200mg tablet
+d4s9.	Seroquel 150mg tablet
+d4sa.	ZALURON XL 400mg m/r tablets
+d4sb.	BIQUELLE XL 50mg m/r tablets
+d4sB.	Seroquel 300mg tablet
+d4sc.	BIQUELLE XL 150mg m/r tablets
+d4sC.	SEROQUEL XL 50mg m/r tablets
+d4sd.	BIQUELLE XL 200mg m/r tablets
+d4sD.	SEROQUEL XL 200mg m/r tablets
+d4se.	BIQUELLE XL 300mg m/r tablets
+d4sE.	SEROQUEL XL 300mg m/r tablets
+d4sf.	BIQUELLE XL 400mg m/r tablets
+d4sF.	SEROQUEL XL 400mg m/r tablets
+d4sg.	MINTRELEQ XL 50mg m/r tablets
+d4sG.	SEROQUEL XL 150mg m/r tablets
+d4sh.	MINTRELEQ XL 150mg m/r tablets
+d4sH.	SONDATE XL 50mg m/r tablets
+d4si.	MINTRELEQ XL 200mg m/r tablets
+d4sI.	SONDATE XL 200mg m/r tablets
+d4sj.	MINTRELEQ XL 300mg m/r tablets
+d4sJ.	SONDATE XL 300mg m/r tablets
+d4sk.	MINTRELEQ XL 400mg m/r tablets
+d4sK.	SONDATE XL 400mg m/r tablets
+d4sN.	SEOTIAPIM XL 200mg m/r tablets
+d4sO.	SEOTIAPIM XL 300mg m/r tablets
+d4sP.	SEOTIAPIM XL 400mg m/r tablets
+d4ss.	QUETIAPINE 150mg m/r tablets
+d4sS.	EBESQUE XL 50mg m/r tablets
+d4st.	QUETIAPINE 400mg m/r tablets
+d4sT.	EBESQUE XL 200mg m/r tablets
+d4su.	QUETIAPINE 300mg m/r tablets
+d4sU.	EBESQUE XL 300mg m/r tablets
+d4sv.	QUETIAPINE 200mg m/r tablets
+d4sV.	EBESQUE XL 400mg m/r tablets
+d4sw.	QUETIAPINE 50mg m/r tablets
+d4sW.	ZALURON XL 50mg m/r tablets
+d4sx.	Quetiapine 300mg tablet
+d4sX.	ZALURON XL 150mg m/r tablets
+d4sY.	ZALURON XL 200mg m/r tablets
+d4sz.	Quetiapine 150mg tablet
+d4sZ.	ZALURON XL 300mg m/r tablets

@@ -1,0 +1,5 @@
+4434.	FSH level
+XE25J	FSH - Follicle stimulating hormone level
+4434.	Serum FSH level
+XaELZ	Plasma FSH level
+XM0lx	Serum follicle stimulating hormone level

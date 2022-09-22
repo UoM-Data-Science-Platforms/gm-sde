@@ -1,0 +1,5 @@
+Xa5gp	Pentostatin allergy
+Xa5q0	Nystatin allergy
+Xa5zt	Simvastatin allergy
+Xa5zu	Fluvastatin allergy
+Xa5zv	Pravastatin allergy

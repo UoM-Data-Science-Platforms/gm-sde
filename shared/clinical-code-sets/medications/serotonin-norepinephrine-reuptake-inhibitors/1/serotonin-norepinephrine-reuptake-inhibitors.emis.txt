@@ -1,0 +1,40 @@
+^ESCT1232604	Product containing precisely duloxetine (as duloxetine hydrochloride) 60 milligram/1 each gastro-resistant oral capsule
+^ESCT1232605	Duloxetine (as duloxetine hydrochloride) 60 mg gastro-resistant oral capsule
+^ESCT1232632	Product containing precisely duloxetine (as duloxetine hydrochloride) 30 milligram/1 each gastro-resistant oral capsule
+^ESCT1232633	Duloxetine (as duloxetine hydrochloride) 30 mg gastro-resistant oral capsule
+^ESCT1374363	Venlafaxine 75mg modified-release capsules
+^ESCT1374364	Venlafaxine 150mg modified-release capsules
+^ESCT1424916	Venlafaxine 50mg tablets
+^ESCT1424917	Venlafaxine 75mg tablets
+^ESCT1424919	Venlafaxine 37.5mg tablets
+^ESCTCY912084	Cymbalta 30mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+^ESCTCY912093	Cymbalta 60mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+^ESCTDU689973	Duloxetine 60mg gastro-resistant capsules
+^ESCTDU689974	Duloxetine 60mg gastro-resistant capsule
+^ESCTDU690383	Duloxetine 30mg gastro-resistant capsules
+^ESCTDU690384	Duloxetine 30mg gastro-resistant capsule
+^ESCTDU902351	Duloxetine 20mg gastro-resistant capsules
+^ESCTDU902352	Duloxetine 40mg gastro-resistant capsules
+^ESCTVE1013669	Venlafaxine 37.5mg modified-release tablets
+^ESCTVE977364	Venlafaxine 150mg modified-release tablets
+^ESCTVE977365	Venlafaxine 75mg modified-release tablets
+^ESCTVE981645	Venlafaxine 225mg modified-release tablets
+^ESCTYE902667	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+^ESCTYE902670	Yentreve 40mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+CYGA19400NEMIS	Cymbalta  Gastro-resistant Capsules  30 mg
+CYGA19401NEMIS	Cymbalta  Gastro-resistant Capsules  60 mg
+DUGA18736NEMIS	Duloxetine  Gastro-resistant Capsules  20 mg
+DUGA18738NEMIS	Duloxetine  Gastro-resistant Capsules  40 mg
+DUGA19397NEMIS	Duloxetine  Gastro-resistant Capsules  30 mg
+DUGA19398NEMIS	Duloxetine  Gastro-resistant Capsules  60 mg
+VEM/31438EMIS	Venlafaxine  M/R capsules  150 mg
+VEM/31439EMIS	Venlafaxine  M/R capsules  75 mg
+VEM/33582NEMIS	Venlafaxine  M/R tablets  75 mg
+VEM/33583NEMIS	Venlafaxine  M/R tablets  150 mg
+VEM/36232NEMIS	Venlafaxine  M/R tablets  225 mg
+VEM/48723NEMIS	Venlafaxine  M/R tablets  37.5 mg
+VETA26284EMIS	Venlafaxine  Tablets  37.5 mg
+VETA26285EMIS	Venlafaxine  Tablets  75 mg
+VETA26915EMIS	Venlafaxine  Tablets  50 mg
+YEGA18740NEMIS	Yentreve  Gastro-resistant Capsules  20 mg
+YEGA18741NEMIS	Yentreve  Gastro-resistant Capsules  40 mg

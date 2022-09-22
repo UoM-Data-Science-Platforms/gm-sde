@@ -7,7 +7,8 @@ const md = require('markdown-it')();
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
 const README_NAME = 'README';
-const REUSABLE_DIRECTORY = join(__dirname, '..', 'shared', 'Reusable queries for data extraction');
+const SHARED_DIRECTORY = join(__dirname, '..', 'shared');
+const REUSABLE_DIRECTORY = join(SHARED_DIRECTORY, 'Reusable queries for data extraction');
 const CODESET_MARKER = '[[[{{{(((CODESET_SQL)))}}}]]]';
 
 const includedSqlFiles = [];
@@ -15,6 +16,13 @@ const includedSqlFilesSoFar = {};
 let isProjectDirectory = false;
 
 const stitch = async (projectDirectory) => {
+  console.log('Moving analyst-guidance file...');
+  const readmeFirstFile = readFileSync(
+    join(SHARED_DIRECTORY, 'documents', 'analyst-guidance.md'),
+    'utf8'
+  );
+  writeFileSync(join(projectDirectory, 'scripts', 'analyst-guidance.md'), readmeFirstFile);
+
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
 
@@ -44,7 +52,7 @@ Stitching them together...
 `);
 
   // Generate sql to execute on server
-  await generateSql(projectDirectory, templates);
+  await generateSql(projectDirectory, projectName, templates);
 
   if (isProjectDirectory) {
     const readmeMarkdown = join(projectDirectory, `${README_NAME}.md`);
@@ -116,7 +124,7 @@ function warnIfNoTemplatesFound(project, templates) {
   }
 }
 
-async function generateSql(project, templates) {
+async function generateSql(project, projectName, templates) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const allCodeSets = {};
   for (const templateName of templates) {
@@ -152,6 +160,7 @@ async function generateSql(project, templates) {
     const readmeContent = generateProjectSupplementaryReadme({
       codeSets: flattenedCodeSets,
       includedSqlFiles: includedSqlFiles.reverse(),
+      projectName,
     });
     writeFileSync(join(project, `${README_NAME}.md`), disclaimer + about + readmeContent);
 

@@ -1,0 +1,13 @@
+d7g..00	VILOXAZINE HYDROCHLORIDE
+d7gz.00	*VILOXAZINE 50mg tablets
+d7g1.00	*VIVALAN 50mg tablets
+daA..00	REBOXETINE
+daA1.00	REBOXETINE 4mg tablets
+daA2.00	EDRONAX 4mg tablets
+dw2t.	ATOMOXETINE 100mg capsules
+dw2u.	ATOMOXETINE 80mg capsules
+dw2v.	ATOMOXETINE 60mg capsules
+dw2w.	ATOMOXETINE 40mg capsules
+dw2x.	ATOMOXETINE 25mg capsules
+dw2y.	ATOMOXETINE 18mg capsules
+dw2z.	ATOMOXETINE 10mg capsules

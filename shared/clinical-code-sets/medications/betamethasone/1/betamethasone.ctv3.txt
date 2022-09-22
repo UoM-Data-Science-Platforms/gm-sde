@@ -1,0 +1,5 @@
+fe11.	Betnelan 500mcg tablet
+fe12.	Betnesol 500mcg soluble tablet
+fe13.	Betnesol 4mg/1mL injection
+fe1y.	Betamethasone 500micrograms tablet
+fe1z.	Betamethasone 4mg/1mL injection

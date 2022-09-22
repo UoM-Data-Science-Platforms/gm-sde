@@ -1,0 +1,9 @@
+fg51.	Norethisterone 5mg tablet
+fg52.	Primolut-N 5mg tablet
+fg53.	Utovlan 5mg tablet
+fg56.	Micronor.HRT 1mg tablet
+fg57.	Norethisterone 1mg tablet
+ga51.	Micronor tablet
+ga52.	Noriday tablet 28CP
+ga5z.	Norethisterone 350mcg tablet
+ga61.	Noristerat 200mg/1mL oily injection

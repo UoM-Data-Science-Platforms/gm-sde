@@ -1,0 +1,147 @@
+36046511000001104	Imipramine 25mg/5ml oral solution
+968811000001101	Imipramine 25mg/5ml oral solution
+8545511000001101	Imipramine 25mg/5ml oral solution
+214311000001103	Tofranil 25mg/5ml syrup
+2357211000001103	Tofranil 25mg/5ml syrup
+8545711000001106	Imipramine 25mg/5ml oral solution
+8546011000001100	Imipramine 25mg/5ml oral solution
+321816001	Imipramine 10mg tablets
+990711000001105	Imipramine 10mg tablets
+1125611000001101	Imipramine 10mg tablets
+254311000001105	Imipramine 10mg tablets
+2377411000001101	Imipramine 10mg tablets
+424211000001100	Imipramine 10mg tablets
+2377611000001103	Imipramine 10mg tablets
+907411000001103	Imipramine 10mg tablets
+2378211000001101	Imipramine 10mg tablets
+2378311000001109	Imipramine 10mg tablets
+557411000001101	Imipramine 10mg tablets
+2378511000001103	Imipramine 10mg tablets
+2378611000001104	Imipramine 10mg tablets
+8150911000001106	Imipramine 10mg tablets
+8151011000001103	Imipramine 10mg tablets
+13411811000001101	Imipramine 10mg tablets
+13411911000001106	Imipramine 10mg tablets
+17932011000001100	Imipramine 10mg tablets
+17932111000001104	Imipramine 10mg tablets
+22057711000001109	Imipramine 10mg tablets
+22057811000001101	Imipramine 10mg tablets
+23947811000001101	Imipramine 10mg tablets
+23947911000001106	Imipramine 10mg tablets
+29877211000001105	Imipramine 10mg tablets
+29877311000001102	Imipramine 10mg tablets
+34438111000001109	Imipramine 10mg tablets
+34438211000001103	Imipramine 10mg tablets
+36512711000001104	Imipramine 10mg tablets
+36512811000001107	Imipramine 10mg tablets
+38997511000001106	Imipramine 10mg tablets
+38997611000001105	Imipramine 10mg tablets
+321817005	Imipramine 25mg tablets
+987311000001106	Imipramine 25mg tablets
+1299111000001103	Imipramine 25mg tablets
+1127611000001108	Imipramine 25mg tablets
+5424911000001108	Imipramine 25mg tablets
+569911000001107	Imipramine 25mg tablets
+2379411000001105	Imipramine 25mg tablets
+572011000001105	Imipramine 25mg tablets
+2379611000001108	Imipramine 25mg tablets
+3511000001100	Imipramine 25mg tablets
+2380011000001101	Imipramine 25mg tablets
+667611000001100	Imipramine 25mg tablets
+2380411000001105	Imipramine 25mg tablets
+2380511000001109	Imipramine 25mg tablets
+53511000001107	Tofranil 25mg tablets
+2381011000001105	Tofranil 25mg tablets
+709011000001108	Imipramine 25mg tablets
+2381511000001102	Imipramine 25mg tablets
+2381711000001107	Imipramine 25mg tablets
+8151111000001102	Imipramine 25mg tablets
+8151211000001108	Imipramine 25mg tablets
+9806411000001104	Imipramine 25mg tablets
+9806711000001105	Imipramine 25mg tablets
+17932211000001105	Imipramine 25mg tablets
+17934711000001108	Imipramine 25mg tablets
+22058011000001108	Imipramine 25mg tablets
+22058111000001109	Imipramine 25mg tablets
+23948011000001108	Imipramine 25mg tablets
+23948111000001109	Imipramine 25mg tablets
+29877411000001109	Imipramine 25mg tablets
+29877511000001108	Imipramine 25mg tablets
+34437911000001106	Imipramine 25mg tablets
+34438011000001108	Imipramine 25mg tablets
+36512911000001102	Imipramine 25mg tablets
+36513011000001105	Imipramine 25mg tablets
+38997711000001101	Imipramine 25mg tablets
+38997811000001109	Imipramine 25mg tablets
+39225211000001105	Imipramine 25mg tablets
+39225311000001102	Imipramine 25mg tablets
+8561111000001100	Imipramine 10mg/5ml oral liquid
+8541611000001100	Imipramine 10mg/5ml oral liquid
+8541711000001109	Imipramine 10mg/5ml oral liquid
+8541911000001106	Imipramine 10mg/5ml oral liquid
+8561211000001106	Imipramine 10mg/5ml oral liquid
+8542211000001109	Imipramine 10mg/5ml oral liquid
+8542311000001101	Imipramine 10mg/5ml oral liquid
+8542411000001108	Imipramine 10mg/5ml oral liquid
+8561311000001103	Imipramine 12.5mg/5ml oral liquid
+8542811000001105	Imipramine 12.5mg/5ml oral liquid
+8542911000001100	Imipramine 12.5mg/5ml oral liquid
+8543011000001108	Imipramine 12.5mg/5ml oral liquid
+8561411000001105	Imipramine 12.5mg/5ml oral liquid
+8543211000001103	Imipramine 12.5mg/5ml oral liquid
+8543411000001104	Imipramine 12.5mg/5ml oral liquid
+8543611000001101	Imipramine 12.5mg/5ml oral liquid
+8561511000001109	Imipramine 25mg/5ml oral suspension
+8546211000001105	Imipramine 25mg/5ml oral suspension
+8546511000001108	Imipramine 25mg/5ml oral suspension
+8546611000001107	Imipramine 25mg/5ml oral suspension
+12637511000001105	Imipramine 100mg/5ml oral liquid
+12597911000001102	Imipramine 100mg/5ml oral liquid
+12598011000001100	Imipramine 100mg/5ml oral liquid
+12598111000001104	Imipramine 100mg/5ml oral liquid
+12637411000001106	Imipramine 100mg/5ml oral liquid
+12598211000001105	Imipramine 100mg/5ml oral liquid
+12598311000001102	Imipramine 100mg/5ml oral liquid
+12598411000001109	Imipramine 100mg/5ml oral liquid
+12637711000001100	Imipramine 40mg/5ml oral liquid
+12598511000001108	Imipramine 40mg/5ml oral liquid
+12598611000001107	Imipramine 40mg/5ml oral liquid
+12598711000001103	Imipramine 40mg/5ml oral liquid
+12637611000001109	Imipramine 40mg/5ml oral liquid
+12598811000001106	Imipramine 40mg/5ml oral liquid
+12598911000001101	Imipramine 40mg/5ml oral liquid
+12599011000001105	Imipramine 40mg/5ml oral liquid
+15356411000001103	Imipramine 125mg/5ml oral liquid
+15350511000001101	Imipramine 125mg/5ml oral liquid
+15350611000001102	Imipramine 125mg/5ml oral liquid
+15350811000001103	Imipramine 125mg/5ml oral liquid
+15356311000001105	Imipramine 125mg/5ml oral liquid
+15351011000001100	Imipramine 125mg/5ml oral liquid
+15351111000001104	Imipramine 125mg/5ml oral liquid
+15351311000001102	Imipramine 125mg/5ml oral liquid
+16423411000001100	Imipramine 25mg/5ml oral solution sugar free
+16421911000001107	Imipramine 25mg/5ml oral solution sugar free
+16422011000001100	Imipramine 25mg/5ml oral solution sugar free
+16422111000001104	Imipramine 25mg/5ml oral solution sugar free
+16731611000001108	Imipramine 25mg/5ml oral solution sugar free
+16731711000001104	Imipramine 25mg/5ml oral solution sugar free
+17630311000001102	Imipramine 25mg/5ml oral solution sugar free
+17630411000001109	Imipramine 25mg/5ml oral solution sugar free
+18717511000001100	Imipramine 25mg/5ml oral solution sugar free
+18717611000001101	Imipramine 25mg/5ml oral solution sugar free
+21834911000001104	Imipramine 25mg/5ml oral solution sugar free
+21835011000001104	Imipramine 25mg/5ml oral solution sugar free
+22057411000001103	Imipramine 25mg/5ml oral solution sugar free
+22057511000001104	Imipramine 25mg/5ml oral solution sugar free
+22624911000001106	Imipramine 25mg/5ml oral solution sugar free
+22625011000001106	Imipramine 25mg/5ml oral solution sugar free
+24026811000001107	Imipramine 25mg/5ml oral solution sugar free
+24026911000001102	Imipramine 25mg/5ml oral solution sugar free
+26369111000001106	Imipramine 25mg/5ml oral solution sugar free
+26369411000001101	Imipramine 25mg/5ml oral solution sugar free
+27998911000001105	Imipramine 25mg/5ml oral solution sugar free
+27999011000001101	Imipramine 25mg/5ml oral solution sugar free
+28917111000001102	Imipramine 25mg/5ml oral solution sugar free
+28917211000001108	Imipramine 25mg/5ml oral solution sugar free
+37422211000001109	Imipramine 25mg/5ml oral solution sugar free
+37422311000001101	Imipramine 25mg/5ml oral solution sugar free

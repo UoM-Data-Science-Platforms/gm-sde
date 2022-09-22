@@ -1,0 +1,55 @@
+11474411000001104	Androstanolone 2.5% gel
+11474511000001100	Androstanolone 2.5% gel
+15863711000001109	Androstanolone 2.5% gel
+11474611000001101	Andractim 2.5% gel (Imported (France))
+11474711000001105	Andractim 2.5% gel (Imported (France))
+15863611000001100	Androstanolone 2.5% gel (Special Order)
+15863811000001101	Androstanolone 2.5% gel (Special Order)
+36029311000001101	Nandrolone 50mg/1ml solution for injection ampoules
+3879811000001103	Nandrolone 50mg/1ml solution for injection ampoules
+3880011000001109	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+3880311000001107	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+375797005	Oxandrolone 2.5mg tablets
+11506411000001109	Oxandrolone 2.5mg tablets
+15878011000001105	Oxandrolone 2.5mg tablets
+11506511000001108	Oxandrin 2.5mg tablets (Imported (Australia))
+11506611000001107	Oxandrin 2.5mg tablets (Imported (Australia))
+15878111000001106	Oxandrolone 2.5mg tablets (Special Order)
+15878211000001100	Oxandrolone 2.5mg tablets (Special Order)
+18119511000001103	Prasterone 10mg / Calcium carbonate 47mg tablets
+18113211000001103	Prasterone 10mg / Calcium carbonate 47mg tablets
+18113311000001106	Natrol DHEA 10mg tablets (Imported (United States))
+18113411000001104	Natrol DHEA 10mg tablets (Imported (United States))
+413957004	Prasterone 10mg tablets
+20921711000001104	Prasterone 10mg tablets
+20921811000001107	DHEA 10mg tablets (Imported (United States))
+20921911000001102	DHEA 10mg tablets (Imported (United States))
+413959001	Prasterone 25mg tablets
+20922011000001109	Prasterone 25mg tablets
+36773011000001101	Prasterone 25mg tablets
+20922111000001105	DHEA 25mg tablets (Imported (United States))
+20922211000001104	DHEA 25mg tablets (Imported (United States))
+36773111000001100	Prasterone 25mg tablets (Special Order)
+36773211000001106	Prasterone 25mg tablets (Special Order)
+413958009	Prasterone 25mg capsules
+20922311000001107	Prasterone 25mg capsules
+20922611000001102	Prasterone 25mg capsules
+20922411000001100	DHEA 25mg capsules (Imported (United States))
+20922511000001101	DHEA 25mg capsules (Imported (United States))
+20922711000001106	DHEA 25mg capsules (Imported (United States))
+413960006	Prasterone 50mg capsules
+20922811000001103	Prasterone 50mg capsules
+20922911000001108	DHEA 50mg capsules (Imported (United States))
+20923011000001100	DHEA 50mg capsules (Imported (United States))
+36915211000001107	Prasterone 6.5mg pessaries
+36914211000001106	Prasterone 6.5mg pessaries
+36914311000001103	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)
+36914411000001105	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)
+325740006	Stanozolol 5mg tablets
+4563211000001109	Stanozolol 5mg tablets
+4563311000001101	Stromba 5mg tablets (Sanofi-Synthelabo Ltd)
+4563411000001108	Stromba 5mg tablets (Sanofi-Synthelabo Ltd)
+15243711000001107	Stanozolol 2mg tablets
+15237811000001109	Stanozolol 2mg tablets
+15237911000001104	Stanozolol 2mg tablets (Special Order)
+15238011000001102	Stanozolol 2mg tablets (Special Order)

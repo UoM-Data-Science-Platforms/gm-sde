@@ -1,0 +1,3 @@
+4465.	Serum oestradiol level
+X7723	Oestradiol level
+XaEQo	Plasma oestradiol level

@@ -1,0 +1,2 @@
+4465.	Serum oestradiol level
+4467.	Plasma oestradiol level

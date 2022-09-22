@@ -1,0 +1,81 @@
+cj1..	TOBRAMYCIN [RESPIRATORY USE]
+cj11.	TOBRAMYCIN 300mg/5mL neb.soln
+cj12.	TOBI 300mg/5mL neb.soln
+cj13.	BRAMITOB 300mg/4mL neb soln
+cj14.	TOBRAMYCIN 300mg/4mL neb soln
+cj15.	TOBI PODHALER 28mg inhal caps
+cj16.	TOBRAMYCIN 28mg inhalation cap
+e81..	GENTAMICIN [INFECTIONS]
+e811.	GENTAMICIN 40mg/1mL injection
+e812.	GENTAMICIN 80mg/2mL injection
+e813.	GENTAMICIN 80mg/2mL syringe
+e814.	GENTAMICIN 60mg/1mL injection
+e815.	GENTAMICIN 120mg/2mL injection
+e816.	GENTAMICIN 120mg/1.5mL inj
+e817.	*GENTAMICIN 2mg/2mL i-t inj
+e818.	GENTAMICIN 5mg/1mL intrath inj
+e819.	GENTAMICIN 10mg/2mL paed inj
+e81a.	GENTAMICIN 20mg/2mL paed inj
+e81b.	GENTAMICIN 1g injection powder
+e81c.	CIDOMYCIN 80mg/2mL injection
+e81d.	*CIDOMYCIN 160mg/2mL injection
+e81e.	*CIDOMYCIN 20mg/2mL paed inj
+e81f.	*CIDOMYCIN 5mg/1mL intrath inj
+e81g.	*CIDOMYCIN powder 1g
+e81h.	GENTICIN 80mg/2mL injection
+e81i.	*GENTICIN 20mg/2mL paed inj
+e81j.	*GENTICIN 2mg/2mL intrath inj
+e81k.	*GENTICIN powder 1g
+e81l.	*LUGACIN 80mg/2mL injection
+e81m.	*GENTICIN powder 500mg
+e81n.	GENTAMYCIN 240mg/6mL injection
+e81o.	*GENTAMICIN 80mg/50mL i-v inf
+e81p.	*GENTAMICIN REDIBAG 80mg/50mL
+e81q.	*GENTAMICIN 240mg/100mL inf
+e81r.	*GENTAMICIN REDIBG 240mg/100mL
+e81s.	*GENTAMICIN 360mg/100mL inf
+e81t.	*GENTAMICIN REDIBG 360mg/100mL
+e81u.	GENTAMICIN 80mg/80mL infusion
+e81v.	GENTAMICIN 240mg/80mL infusion
+e81w.	GENTAMICIN 360mg/120mL inf
+e82..	AMIKACIN
+e821.	*AMIKIN 500mg/2mL injection
+e822.	AMIKIN 100mg/2mL paed inj
+e82y.	AMIKACIN 500mg/2mL injection
+e82z.	AMIKACIN 100mg/2mL paed inj
+e83..	FRAMYCETIN SULFATE [SYSTEMIC]
+e831.	*SOFRAMYCIN 250mg tablets
+e832.	*SOFRAMYCIN powder 500mg
+e833.	*FRAMYCETIN SULPH 250mg tabs
+e834.	FRAMYCETIN SULFATE pdr 500mg
+e84..	KANAMYCIN
+e841.	*KANNASYN 1g/4mL injection
+e842.	*KANNASYN 1g inj powder
+e84y.	*KANAMYCIN 1g/4mL injection
+e84z.	*KANAMYCIN 1g inj powder
+e85..	NEOMYCIN SULFATE [SYSTEMIC]
+e851.	*NEOMYCIN 100mg/5mL elixir
+e852.	*MYCIFRADIN powder 500mg
+e853.	NIVEMYCIN 500mg tablets
+e854.	*NIVEMYCIN 100mg/5mL elixir
+e855.	NEOMYCIN 500mg tablets
+e856.	*MYCIFRADIN 500mg tablets
+e86..	NETILMICIN
+e861.	*NETILLIN 15mg/1.5mL injection
+e862.	*NETILLIN 50mg/1mL injection
+e863.	*NETILLIN 100mg/1mL injection
+e864.	*NETILLIN 150mg/1.5mL inj
+e865.	*NETILLIN 200mg/2mL injection
+e86v.	*NETILMICIN 200mg/2mL inj
+e86w.	*NETILMICIN 15mg/1.5mL inj
+e86x.	*NETILMICIN 50mg/1mL injection
+e86y.	*NETILMICIN 100mg/1mL inj
+e86z.	*NETILMICIN 150mg/1.5mL inj
+e87..	TOBRAMYCIN [SYSTEMIC]
+e871.	*NEBCIN 20mg/2mL injection
+e872.	*NEBCIN 40mg/1mL injection
+e873.	NEBCIN 80mg/2mL injection
+e87w.	TOBRAMYCIN 240mg/6mL injection
+e87x.	*TOBRAMYCIN 20mg/2mL injection
+e87y.	TOBRAMYCIN 40mg/1mL injection
+e87z.	TOBRAMYCIN 80mg/2mL injection

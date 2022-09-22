@@ -1,0 +1,12 @@
+d711.	AMITRIPTYLINE 10mg tablets
+d712.	AMITRIPTYLINE 25mg tablets
+d713.	AMITRIPTYLINE 50mg tablets
+d719.	*LENTIZOL 25mg m/r capsules
+d71a.	*LENTIZOL 50mg m/r capsules
+d71h.	AMITRIPTYLINE 25mg/5mL sugar free solution
+d71i.	AMITRIPTYLINE 50mg/5mL sugar free solution
+d71j.	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+d71u.	AMITRIPTYLINE 25mg m/r capsules
+d71v.	AMITRIPTYLINE 50mg m/r capsules
+d916.	TRIPTAFEN tablets
+d917.	*TRIPTAFEN-M tablets

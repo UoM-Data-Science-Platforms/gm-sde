@@ -1,0 +1,110 @@
+320826003	Fexofenadine 120mg tablets
+1201511000001109	Fexofenadine 120mg tablets
+13207511000001107	Fexofenadine 120mg tablets
+58911000001105	Telfast 120mg tablets
+1994911000001102	Telfast 120mg tablets
+10930611000001102	Fexofenadine 120mg tablets
+10930711000001106	Fexofenadine 120mg tablets
+11004611000001101	Fexofenadine 120mg tablets
+11004711000001105	Fexofenadine 120mg tablets
+11064311000001107	Fexofenadine 120mg tablets
+11064411000001100	Fexofenadine 120mg tablets
+13433011000001100	Fexofenadine 120mg tablets
+13433111000001104	Fexofenadine 120mg tablets
+13468811000001106	Fexofenadine 120mg tablets
+13468911000001101	Fexofenadine 120mg tablets
+13587611000001101	Fexofenadine 120mg tablets
+13587711000001105	Fexofenadine 120mg tablets
+14161911000001109	Fexofenadine 120mg tablets
+14162011000001102	Fexofenadine 120mg tablets
+14694911000001105	Fexofenadine 120mg tablets
+14695011000001105	Fexofenadine 120mg tablets
+15086711000001104	Fexofenadine 120mg tablets
+15086811000001107	Fexofenadine 120mg tablets
+15231711000001105	Fexofenadine 120mg tablets
+15231811000001102	Fexofenadine 120mg tablets
+17907411000001100	Fexofenadine 120mg tablets
+17907511000001101	Fexofenadine 120mg tablets
+18475111000001100	Fexofenadine 120mg tablets
+18475211000001106	Fexofenadine 120mg tablets
+21995811000001106	Fexofenadine 120mg tablets
+21995911000001101	Fexofenadine 120mg tablets
+23978011000001107	Fexofenadine 120mg tablets
+23978111000001108	Fexofenadine 120mg tablets
+36380511000001107	Fexofenadine 120mg tablets
+36380711000001102	Fexofenadine 120mg tablets
+37068211000001106	Fexofenadine 120mg tablets
+37068411000001105	Fexofenadine 120mg tablets
+38697211000001107	Fexofenadine 120mg tablets
+38697311000001104	Fexofenadine 120mg tablets
+38905911000001106	Fexofenadine 120mg tablets
+38906011000001103	Fexofenadine 120mg tablets
+320828002	Fexofenadine 180mg tablets
+1251611000001102	Fexofenadine 180mg tablets
+13207911000001100	Fexofenadine 180mg tablets
+880711000001100	Telfast 180mg tablets
+1996311000001109	Telfast 180mg tablets
+10930811000001103	Fexofenadine 180mg tablets
+10930911000001108	Fexofenadine 180mg tablets
+11005011000001107	Fexofenadine 180mg tablets
+11005111000001108	Fexofenadine 180mg tablets
+11064711000001106	Fexofenadine 180mg tablets
+11065011000001108	Fexofenadine 180mg tablets
+13433211000001105	Fexofenadine 180mg tablets
+13433311000001102	Fexofenadine 180mg tablets
+13469011000001105	Fexofenadine 180mg tablets
+13469111000001106	Fexofenadine 180mg tablets
+13587811000001102	Fexofenadine 180mg tablets
+13587911000001107	Fexofenadine 180mg tablets
+14162111000001101	Fexofenadine 180mg tablets
+14162211000001107	Fexofenadine 180mg tablets
+14695111000001106	Fexofenadine 180mg tablets
+14695211000001100	Fexofenadine 180mg tablets
+15086911000001102	Fexofenadine 180mg tablets
+15087011000001103	Fexofenadine 180mg tablets
+15231911000001107	Fexofenadine 180mg tablets
+15232011000001100	Fexofenadine 180mg tablets
+17907611000001102	Fexofenadine 180mg tablets
+17907711000001106	Fexofenadine 180mg tablets
+18475311000001103	Fexofenadine 180mg tablets
+18475411000001105	Fexofenadine 180mg tablets
+21996011000001109	Fexofenadine 180mg tablets
+21996111000001105	Fexofenadine 180mg tablets
+23978211000001102	Fexofenadine 180mg tablets
+23978311000001105	Fexofenadine 180mg tablets
+36381211000001103	Fexofenadine 180mg tablets
+36381511000001100	Fexofenadine 180mg tablets
+37068511000001109	Fexofenadine 180mg tablets
+37068711000001104	Fexofenadine 180mg tablets
+38697511000001105	Fexofenadine 180mg tablets
+38697611000001109	Fexofenadine 180mg tablets
+38906111000001102	Fexofenadine 180mg tablets
+38906211000001108	Fexofenadine 180mg tablets
+371748006	Fexofenadine 30mg tablets
+4722511000001107	Fexofenadine 30mg tablets
+4722611000001106	Telfast 30mg tablets
+4722711000001102	Telfast 30mg tablets
+14013711000001102	Fexofenadine 120mg/5ml oral liquid
+13984811000001104	Fexofenadine 120mg/5ml oral liquid
+13984911000001109	Fexofenadine 120mg/5ml oral liquid
+13985111000001105	Fexofenadine 120mg/5ml oral liquid
+14013811000001105	Fexofenadine 120mg/5ml oral liquid
+13985311000001107	Fexofenadine 120mg/5ml oral liquid
+13985411000001100	Fexofenadine 120mg/5ml oral liquid
+13985511000001101	Fexofenadine 120mg/5ml oral liquid
+15774211000001108	Fexofenadine 180mg/5ml oral liquid
+15654311000001105	Fexofenadine 180mg/5ml oral liquid
+15654411000001103	Fexofenadine 180mg/5ml oral liquid
+15654511000001104	Fexofenadine 180mg/5ml oral liquid
+15774311000001100	Fexofenadine 180mg/5ml oral liquid
+15654611000001100	Fexofenadine 180mg/5ml oral liquid
+15654711000001109	Fexofenadine 180mg/5ml oral liquid
+15654811000001101	Fexofenadine 180mg/5ml oral liquid
+20555711000001109	Fexofenadine 125mg/5ml oral suspension
+20551411000001101	Fexofenadine 125mg/5ml oral suspension
+20551511000001102	Fexofenadine 125mg/5ml oral suspension
+20551611000001103	Fexofenadine 125mg/5ml oral suspension
+784590000	Fexofenadine 30mg/5ml oral suspension
+39389611000001109	Fexofenadine 30mg/5ml oral suspension
+39389811000001108	Fexofenadine 30mg/5ml oral suspension
+39390011000001106	Fexofenadine 30mg/5ml oral suspension

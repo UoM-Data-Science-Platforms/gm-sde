@@ -1,0 +1,2763 @@
+326447002	Norethisterone 350microgram tablets
+1313211000001103	Norethisterone 350microgram tablets
+167411000001104	Noriday 350microgram tablets (Pfizer Ltd)
+1843411000001105	Noriday 350microgram tablets (Pfizer Ltd)
+193611000001107	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+1844411000001108	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+326364003	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+1319111000001107	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+1078411000001102	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+380211000001105	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+1852311000001105	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+1852611000001100	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+22562211000001105	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd)
+22562311000001102	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd)
+31364011000001106	Cilique 250microgram/35microgram tablets (Consilient Health Ltd)
+31364211000001101	Cilique 250microgram/35microgram tablets (Consilient Health Ltd)
+39705811000001105	Clotrimazole 500mg pessaries
+976011000001101	Clotrimazole 500mg pessaries
+571811000001108	Clotrimazole 500mg pessaries (A A H Pharmaceuticals Ltd)
+1886311000001101	Clotrimazole 500mg pessaries (A A H Pharmaceuticals Ltd)
+786911000001102	Candiden 500mg pessaries (Akita Pharmaceuticals Ltd)
+1886611000001106	Candiden 500mg pessaries (Akita Pharmaceuticals Ltd)
+41211000001108	Clotrimazole 500mg pessaries (Actavis UK Ltd)
+1887911000001102	Clotrimazole 500mg pessaries (Actavis UK Ltd)
+151311000001105	Clotrimazole 500mg pessaries (Teva UK Ltd)
+1888011000001100	Clotrimazole 500mg pessaries (Teva UK Ltd)
+673811000001104	Abtrim 500mg pessaries (Ashbourne Pharmaceuticals Ltd)
+1888111000001104	Abtrim 500mg pessaries (Ashbourne Pharmaceuticals Ltd)
+826811000001101	Canesten Vaginal 500mg pessaries (Bayer Plc)
+1889011000001105	Canesten Vaginal 500mg pessaries (Bayer Plc)
+10611000001108	Privacom 500mg pessaries (Torbet Laboratories Ltd)
+1889411000001101	Privacom 500mg pessaries (Torbet Laboratories Ltd)
+745511000001105	Clotrimazole 500mg pessaries (Alliance Healthcare (Distribution) Ltd)
+1889511000001102	Clotrimazole 500mg pessaries (Alliance Healthcare (Distribution) Ltd)
+321911000001104	Canesten 500mg pessaries (Bayer Plc)
+1916111000001108	Canesten 500mg pessaries (Bayer Plc)
+13746411000001108	Clotrimazole 500mg pessaries (Tillomed Laboratories Ltd)
+13746511000001107	Clotrimazole 500mg pessaries (Tillomed Laboratories Ltd)
+17863511000001103	Clotrimazole 500mg pessaries (Phoenix Healthcare Distribution Ltd)
+17863711000001108	Clotrimazole 500mg pessaries (Phoenix Healthcare Distribution Ltd)
+21119711000001104	Canesten 500mg Soft Gel pessaries (Bayer Plc)
+21119811000001107	Canesten 500mg Soft Gel pessaries (Bayer Plc)
+21938111000001102	Clotrimazole 500mg pessaries (Waymade Healthcare Plc)
+21938211000001108	Clotrimazole 500mg pessaries (Waymade Healthcare Plc)
+23825711000001108	Clotrimazole 500mg pessaries (DE Pharmaceuticals)
+23825811000001100	Clotrimazole 500mg pessaries (DE Pharmaceuticals)
+29791111000001103	Clotrimazole 500mg pessaries (Sigma Pharmaceuticals Plc)
+29791211000001109	Clotrimazole 500mg pessaries (Sigma Pharmaceuticals Plc)
+30015511000001107	Clotrimazole 500mg pessaries (Mawdsley-Brooks & Company Ltd)
+30015611000001106	Clotrimazole 500mg pessaries (Mawdsley-Brooks & Company Ltd)
+32398911000001101	Clotrimazole 500mg pessaries (Kent Pharma (UK) Ltd)
+32399011000001105	Clotrimazole 500mg pessaries (Kent Pharma (UK) Ltd)
+38846611000001105	Clotrimazole 500mg pessaries (Medihealth (Northern) Ltd)
+38846711000001101	Clotrimazole 500mg pessaries (Medihealth (Northern) Ltd)
+39705211000001109	Clotrimazole 100mg pessaries
+1140311000001102	Clotrimazole 100mg pessaries
+893911000001105	Canesten 100mg pessaries (Bayer Plc)
+1889711000001107	Canesten 100mg pessaries (Bayer Plc)
+39705511000001107	Clotrimazole 200mg pessaries
+1068211000001106	Clotrimazole 200mg pessaries
+897411000001109	Canesten 200mg pessaries (Bayer Plc)
+1889811000001104	Canesten 200mg pessaries (Bayer Plc)
+36565511000001102	Clotrimazole 10% vaginal cream
+1009911000001109	Clotrimazole 10% vaginal cream
+541611000001105	Canesten Internal 10% cream (Bayer Plc)
+1890011000001101	Canesten Internal 10% cream (Bayer Plc)
+939911000001109	Canesten 10% VC cream (Bayer Plc)
+1890111000001100	Canesten 10% VC cream (Bayer Plc)
+326425002	Levonorgestrel 30microgram tablets
+982011000001106	Levonorgestrel 30microgram tablets
+39454311000001101	Levonorgestrel 30microgram tablets
+42311000001109	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+1929911000001107	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+221011000001108	Norgeston 30microgram tablets (Bayer Plc)
+1930011000001102	Norgeston 30microgram tablets (Bayer Plc)
+39454411000001108	Levonorgestrel 30microgram tablets (Imported)
+39454511000001107	Levonorgestrel 30microgram tablets (Imported)
+326430003	Levonorgestrel 750microgram tablets
+1278911000001102	Levonorgestrel 750microgram tablets
+52011000001108	Levonelle 750microgram tablets (Schering Health Care Ltd)
+1930111000001101	Levonelle 750microgram tablets (Schering Health Care Ltd)
+333911000001101	Levonelle-2 750microgram tablets (Schering Health Care Ltd)
+1930211000001107	Levonelle-2 750microgram tablets (Schering Health Care Ltd)
+326325001	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+1227411000001107	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+769711000001106	Eugynon 30 tablets (Schering Health Care Ltd)
+1969911000001103	Eugynon 30 tablets (Schering Health Care Ltd)
+326324002	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+1010411000001108	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+961711000001104	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+42111000001107	Microgynon 30 tablets (Bayer Plc)
+1974011000001106	Microgynon 30 tablets (Bayer Plc)
+3050411000001108	Microgynon 30 tablets (Bayer Plc)
+492611000001103	Ovranette 150microgram/30microgram tablets (Pfizer Ltd)
+1974811000001100	Ovranette 150microgram/30microgram tablets (Pfizer Ltd)
+16614111000001103	Levest 150/30 tablets (Morningside Healthcare Ltd)
+16614211000001109	Levest 150/30 tablets (Morningside Healthcare Ltd)
+16614411000001108	Levest 150/30 tablets (Morningside Healthcare Ltd)
+17220611000001108	Levest 150/30 tablets (Actavis UK Ltd)
+17220711000001104	Levest 150/30 tablets (Actavis UK Ltd)
+17346711000001106	Rigevidon tablets (Consilient Health Ltd)
+17346811000001103	Rigevidon tablets (Consilient Health Ltd)
+18358111000001100	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+22223511000001100	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+18358211000001106	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+24677511000001100	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24677611000001101	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24684511000001103	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd)
+24684611000001104	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd)
+34104511000001102	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd)
+34104611000001103	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd)
+38738111000001100	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd)
+38738411000001105	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd)
+36041411000001109	Medroxyprogesterone 150mg/1ml suspension for injection pre-filled syringes
+1139611000001100	Medroxyprogesterone 150mg/1ml suspension for injection pre-filled syringes
+769811000001103	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+1986411000001101	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+326565001	Oxybutynin 3mg tablets
+975111000001106	Oxybutynin 3mg tablets
+109611000001107	Oxybutynin 3mg tablets (A A H Pharmaceuticals Ltd)
+1987611000001101	Oxybutynin 3mg tablets (A A H Pharmaceuticals Ltd)
+270711000001101	Oxybutynin 3mg tablets (Pfizer Ltd)
+1987811000001102	Oxybutynin 3mg tablets (Pfizer Ltd)
+38011000001105	Cystrin 3mg tablets (Sanofi)
+1988611000001102	Cystrin 3mg tablets (Sanofi)
+577111000001108	Oxybutynin 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+1988911000001108	Oxybutynin 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+18520711000001102	Oxybutynin 3mg tablets (Zentiva Pharma UK Ltd)
+18520811000001105	Oxybutynin 3mg tablets (Zentiva Pharma UK Ltd)
+29974711000001103	Oxybutynin 3mg tablets (Sigma Pharmaceuticals Plc)
+29974811000001106	Oxybutynin 3mg tablets (Sigma Pharmaceuticals Plc)
+33655511000001108	Oxybutynin 3mg tablets (Morningside Healthcare Ltd)
+33655611000001107	Oxybutynin 3mg tablets (Morningside Healthcare Ltd)
+37760711000001104	Oxybutynin 3mg tablets (DE Pharmaceuticals)
+37760811000001107	Oxybutynin 3mg tablets (DE Pharmaceuticals)
+39072511000001105	Oxybutynin 3mg tablets (Medihealth (Northern) Ltd)
+39072611000001109	Oxybutynin 3mg tablets (Medihealth (Northern) Ltd)
+326561005	Oxybutynin 2.5mg tablets
+1052811000001100	Oxybutynin 2.5mg tablets
+1214411000001105	Oxybutynin 2.5mg tablets
+645511000001102	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+1991111000001103	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+1991211000001109	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+198111000001108	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+1991411000001108	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+27844011000001100	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+577911000001106	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd)
+1991511000001107	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd)
+473611000001100	Oxybutynin 2.5mg tablets (Viatris UK Healthcare Ltd)
+1991711000001102	Oxybutynin 2.5mg tablets (Viatris UK Healthcare Ltd)
+238411000001108	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+21661911000001101	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+1991811000001105	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+744011000001101	Oxybutynin 2.5mg tablets (Kent Pharma (UK) Ltd)
+1992011000001107	Oxybutynin 2.5mg tablets (Kent Pharma (UK) Ltd)
+347311000001108	Oxybutynin 2.5mg tablets (Sandoz Ltd)
+1992111000001108	Oxybutynin 2.5mg tablets (Sandoz Ltd)
+647811000001109	Ditropan 2.5mg tablets (Neon Healthcare Ltd)
+1992211000001102	Ditropan 2.5mg tablets (Neon Healthcare Ltd)
+110511000001103	Oxybutynin 2.5mg tablets (Sterwin Medicines)
+1992311000001105	Oxybutynin 2.5mg tablets (Sterwin Medicines)
+472711000001101	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+1992411000001103	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+1992611000001100	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+8043311000001108	Oxybutynin 2.5mg tablets (Genus Pharmaceuticals Ltd)
+8043711000001107	Oxybutynin 2.5mg tablets (Genus Pharmaceuticals Ltd)
+9801711000001104	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd)
+17965311000001103	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd)
+9802111000001105	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd)
+10401611000001104	Oxybutynin 2.5mg tablets (Arrow Generics Ltd)
+10401811000001100	Oxybutynin 2.5mg tablets (Arrow Generics Ltd)
+13760711000001106	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd)
+26781511000001100	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd)
+13760811000001103	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd)
+14102711000001104	Oxybutynin 2.5mg tablets (Niche Generics Ltd)
+14102911000001102	Oxybutynin 2.5mg tablets (Niche Generics Ltd)
+14103111000001106	Oxybutynin 2.5mg tablets (Niche Generics Ltd)
+17950511000001106	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+17950611000001105	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+17950711000001101	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+18284111000001106	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd)
+18284211000001100	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd)
+18284311000001108	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd)
+21828811000001103	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc)
+21828911000001108	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc)
+21829011000001104	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc)
+23486611000001108	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd)
+23486711000001104	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd)
+23486811000001107	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd)
+29974511000001108	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+29974611000001107	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+29975211000001106	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+30070511000001108	Oxybutynin 2.5mg tablets (DE Pharmaceuticals)
+30070611000001107	Oxybutynin 2.5mg tablets (DE Pharmaceuticals)
+30070711000001103	Oxybutynin 2.5mg tablets (DE Pharmaceuticals)
+38317511000001102	Oxybutynin 2.5mg tablets (Morningside Healthcare Ltd)
+38318111000001107	Oxybutynin 2.5mg tablets (Morningside Healthcare Ltd)
+39071611000001103	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd)
+39072011000001102	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd)
+39071811000001104	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd)
+326563008	Oxybutynin 5mg tablets
+990211000001103	Oxybutynin 5mg tablets
+1092011000001101	Oxybutynin 5mg tablets
+5359011000001102	Oxybutynin 5mg tablets
+196311000001106	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+1993111000001102	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+1993211000001108	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+39911000001101	Oxybutynin 5mg tablets (Actavis UK Ltd)
+1993311000001100	Oxybutynin 5mg tablets (Actavis UK Ltd)
+19491411000001101	Oxybutynin 5mg tablets (Actavis UK Ltd)
+243611000001100	Oxybutynin 5mg tablets (Approved Prescription Services Ltd)
+1993411000001107	Oxybutynin 5mg tablets (Approved Prescription Services Ltd)
+627911000001101	Oxybutynin 5mg tablets (Viatris UK Healthcare Ltd)
+1993511000001106	Oxybutynin 5mg tablets (Viatris UK Healthcare Ltd)
+355011000001100	Oxybutynin 5mg tablets (Teva UK Ltd)
+21912911000001105	Oxybutynin 5mg tablets (Teva UK Ltd)
+1993611000001105	Oxybutynin 5mg tablets (Teva UK Ltd)
+243411000001103	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd)
+13440511000001101	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd)
+1993711000001101	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd)
+605611000001108	Oxybutynin 5mg tablets (Sandoz Ltd)
+1993811000001109	Oxybutynin 5mg tablets (Sandoz Ltd)
+150311000001100	Cystrin 5mg tablets (Sanofi)
+1993911000001104	Cystrin 5mg tablets (Sanofi)
+775511000001109	Ditropan 5mg tablets (Neon Healthcare Ltd)
+1994011000001101	Ditropan 5mg tablets (Neon Healthcare Ltd)
+713711000001109	Oxybutynin 5mg tablets (Sterwin Medicines)
+1994111000001100	Oxybutynin 5mg tablets (Sterwin Medicines)
+386211000001107	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+1994211000001106	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+1994311000001103	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+8043811000001104	Oxybutynin 5mg tablets (Genus Pharmaceuticals Ltd)
+8043911000001109	Oxybutynin 5mg tablets (Genus Pharmaceuticals Ltd)
+10401911000001105	Oxybutynin 5mg tablets (Arrow Generics Ltd)
+10402011000001103	Oxybutynin 5mg tablets (Arrow Generics Ltd)
+13760911000001108	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd)
+26781811000001102	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd)
+13761011000001100	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd)
+14103211000001100	Oxybutynin 5mg tablets (Niche Generics Ltd)
+14103511000001102	Oxybutynin 5mg tablets (Niche Generics Ltd)
+14103611000001103	Oxybutynin 5mg tablets (Niche Generics Ltd)
+17950811000001109	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd)
+17950911000001104	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd)
+17951011000001107	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd)
+17964611000001107	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd)
+17965011000001101	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd)
+17964811000001106	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd)
+18284511000001102	Oxybutynin 5mg tablets (Strides Pharma UK Ltd)
+18284711000001107	Oxybutynin 5mg tablets (Strides Pharma UK Ltd)
+18284911000001109	Oxybutynin 5mg tablets (Strides Pharma UK Ltd)
+21829111000001103	Oxybutynin 5mg tablets (Waymade Healthcare Plc)
+21829211000001109	Oxybutynin 5mg tablets (Waymade Healthcare Plc)
+21829311000001101	Oxybutynin 5mg tablets (Waymade Healthcare Plc)
+23486911000001102	Oxybutynin 5mg tablets (Accord Healthcare Ltd)
+23487011000001103	Oxybutynin 5mg tablets (Accord Healthcare Ltd)
+23487111000001102	Oxybutynin 5mg tablets (Accord Healthcare Ltd)
+29974911000001101	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc)
+29975011000001101	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc)
+29975111000001100	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc)
+30070811000001106	Oxybutynin 5mg tablets (DE Pharmaceuticals)
+30070911000001101	Oxybutynin 5mg tablets (DE Pharmaceuticals)
+30071011000001109	Oxybutynin 5mg tablets (DE Pharmaceuticals)
+38318411000001102	Oxybutynin 5mg tablets (Morningside Healthcare Ltd)
+38318711000001108	Oxybutynin 5mg tablets (Morningside Healthcare Ltd)
+39072211000001107	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd)
+39072411000001106	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd)
+39072311000001104	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd)
+14608411000001108	Tolterodine 4mg modified-release capsules
+1305011000001107	Tolterodine 4mg modified-release capsules
+39823211000001101	Tolterodine 4mg modified-release capsules
+12211000001107	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd)
+1994411000001105	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd)
+39823311000001109	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd)
+21235111000001106	Santizor XL 4mg capsules (Upjohn UK Ltd)
+21235211000001100	Santizor XL 4mg capsules (Upjohn UK Ltd)
+21298111000001108	Mariosea XL 4mg capsules (Teva UK Ltd)
+21298211000001102	Mariosea XL 4mg capsules (Teva UK Ltd)
+21341711000001101	Efflosomyl XL 4mg capsules (Viatris UK Healthcare Ltd)
+21341811000001109	Efflosomyl XL 4mg capsules (Viatris UK Healthcare Ltd)
+21656311000001104	Neditol XL 4mg capsules (Aspire Pharma Ltd)
+21656411000001106	Neditol XL 4mg capsules (Aspire Pharma Ltd)
+21907811000001104	Preblacon XL 4mg capsules (Accord Healthcare Ltd)
+21907911000001109	Preblacon XL 4mg capsules (Accord Healthcare Ltd)
+22104811000001106	Blerone XL 4mg capsules (Zentiva Pharma UK Ltd)
+22104911000001101	Blerone XL 4mg capsules (Zentiva Pharma UK Ltd)
+22223311000001106	Inconex XL 4mg capsules (Sandoz Ltd)
+22223411000001104	Inconex XL 4mg capsules (Sandoz Ltd)
+38024411000001102	Tolthen XL 4mg capsules (Northumbria Pharma Ltd)
+38024511000001103	Tolthen XL 4mg capsules (Northumbria Pharma Ltd)
+38093811000001108	Tolterma XL 4mg capsules (Macleods Pharma UK Ltd)
+38093911000001103	Tolterma XL 4mg capsules (Macleods Pharma UK Ltd)
+326553000	Tolterodine 1mg tablets
+1010611000001106	Tolterodine 1mg tablets
+5473511000001103	Tolterodine 1mg tablets
+5535311000001103	Tolterodine 1mg tablets
+20132811000001104	Tolterodine 1mg tablets
+784411000001102	Detrusitol 1mg tablets (Viatris UK Healthcare Ltd)
+1996811000001100	Detrusitol 1mg tablets (Viatris UK Healthcare Ltd)
+21193511000001106	Tolterodine 1mg tablets (Teva UK Ltd)
+21193811000001109	Tolterodine 1mg tablets (Teva UK Ltd)
+21221711000001108	Tolterodine 1mg tablets (Actavis UK Ltd)
+21221811000001100	Tolterodine 1mg tablets (Actavis UK Ltd)
+21228711000001103	Tolterodine 1mg tablets (Arrow Generics Ltd)
+21228811000001106	Tolterodine 1mg tablets (Arrow Generics Ltd)
+21234111000001107	Tolterodine 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+21234211000001101	Tolterodine 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+21234911000001105	Tolterodine 1mg tablets (Viatris UK Healthcare Ltd)
+21235011000001105	Tolterodine 1mg tablets (Viatris UK Healthcare Ltd)
+21271011000001105	Tolterodine 1mg tablets (Aspire Pharma Ltd)
+21271411000001101	Tolterodine 1mg tablets (Aspire Pharma Ltd)
+21375911000001101	Tolterodine 1mg tablets (A A H Pharmaceuticals Ltd)
+21376011000001109	Tolterodine 1mg tablets (A A H Pharmaceuticals Ltd)
+21884311000001105	Tolterodine 1mg tablets (Waymade Healthcare Plc)
+21884411000001103	Tolterodine 1mg tablets (Waymade Healthcare Plc)
+23498011000001101	Tolterodine 1mg tablets (Accord Healthcare Ltd)
+23498311000001103	Tolterodine 1mg tablets (Accord Healthcare Ltd)
+24516511000001101	Tolterodine 1mg tablets (Sandoz Ltd)
+24516611000001102	Tolterodine 1mg tablets (Sandoz Ltd)
+30101011000001105	Tolterodine 1mg tablets (DE Pharmaceuticals)
+30101111000001106	Tolterodine 1mg tablets (DE Pharmaceuticals)
+30764411000001105	Tolterodine 1mg tablets (Almus Pharmaceuticals Ltd)
+30764511000001109	Tolterodine 1mg tablets (Almus Pharmaceuticals Ltd)
+32448111000001101	Tolterodine 1mg tablets (Kent Pharma (UK) Ltd)
+32448211000001107	Tolterodine 1mg tablets (Kent Pharma (UK) Ltd)
+36833811000001107	Tolterodine 1mg tablets (Torrent Pharma (UK) Ltd)
+36833911000001102	Tolterodine 1mg tablets (Torrent Pharma (UK) Ltd)
+37145411000001102	Tolterodine 1mg tablets (Mawdsley-Brooks & Company Ltd)
+37145511000001103	Tolterodine 1mg tablets (Mawdsley-Brooks & Company Ltd)
+39911911000001109	Tolterodine 1mg tablets (Medihealth (Northern) Ltd)
+39912011000001102	Tolterodine 1mg tablets (Medihealth (Northern) Ltd)
+326554006	Tolterodine 2mg tablets
+1287811000001101	Tolterodine 2mg tablets
+5458511000001109	Tolterodine 2mg tablets
+5537011000001108	Tolterodine 2mg tablets
+273711000001105	Detrusitol 2mg tablets (Viatris UK Healthcare Ltd)
+1997011000001109	Detrusitol 2mg tablets (Viatris UK Healthcare Ltd)
+21195211000001107	Tolterodine 2mg tablets (Teva UK Ltd)
+21195311000001104	Tolterodine 2mg tablets (Teva UK Ltd)
+21221911000001105	Tolterodine 2mg tablets (Actavis UK Ltd)
+21222011000001103	Tolterodine 2mg tablets (Actavis UK Ltd)
+21228911000001101	Tolterodine 2mg tablets (Arrow Generics Ltd)
+21229011000001105	Tolterodine 2mg tablets (Arrow Generics Ltd)
+21234311000001109	Tolterodine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+21234411000001102	Tolterodine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+21234711000001108	Tolterodine 2mg tablets (Viatris UK Healthcare Ltd)
+21234811000001100	Tolterodine 2mg tablets (Viatris UK Healthcare Ltd)
+21271511000001102	Tolterodine 2mg tablets (Aspire Pharma Ltd)
+21271611000001103	Tolterodine 2mg tablets (Aspire Pharma Ltd)
+21376111000001105	Tolterodine 2mg tablets (A A H Pharmaceuticals Ltd)
+21376211000001104	Tolterodine 2mg tablets (A A H Pharmaceuticals Ltd)
+21884511000001104	Tolterodine 2mg tablets (Waymade Healthcare Plc)
+21884611000001100	Tolterodine 2mg tablets (Waymade Healthcare Plc)
+23498411000001105	Tolterodine 2mg tablets (Accord Healthcare Ltd)
+23498511000001109	Tolterodine 2mg tablets (Accord Healthcare Ltd)
+24517211000001102	Tolterodine 2mg tablets (Sandoz Ltd)
+24517311000001105	Tolterodine 2mg tablets (Sandoz Ltd)
+30101211000001100	Tolterodine 2mg tablets (DE Pharmaceuticals)
+30108911000001100	Tolterodine 2mg tablets (DE Pharmaceuticals)
+30764611000001108	Tolterodine 2mg tablets (Almus Pharmaceuticals Ltd)
+30764711000001104	Tolterodine 2mg tablets (Almus Pharmaceuticals Ltd)
+30923211000001109	Tolterodine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+30923311000001101	Tolterodine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+36834011000001104	Tolterodine 2mg tablets (Torrent Pharma (UK) Ltd)
+36834111000001103	Tolterodine 2mg tablets (Torrent Pharma (UK) Ltd)
+39912111000001101	Tolterodine 2mg tablets (Medihealth (Northern) Ltd)
+39912211000001107	Tolterodine 2mg tablets (Medihealth (Northern) Ltd)
+326341000	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+1253611000001103	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+3227311000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+4431411000001109	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+4431711000001103	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+39216611000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+235311000001105	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd)
+2077511000001103	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd)
+312411000001108	Brevinor 500microgram/35microgram tablets (Pfizer Ltd)
+2077911000001105	Brevinor 500microgram/35microgram tablets (Pfizer Ltd)
+3227811000001102	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd)
+3227911000001107	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd)
+4431511000001108	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+4431611000001107	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+4431811000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+39216911000001100	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported)
+39217011000001101	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported)
+377414004	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+1082311000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+3228211000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+3235211000001109	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+4431111000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+39217111000001100	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+403611000001106	Norimin 1mg/35microgram tablets (Pfizer Ltd)
+2078211000001102	Norimin 1mg/35microgram tablets (Pfizer Ltd)
+3228611000001102	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+3228811000001103	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+3235411000001108	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+4431211000001105	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd)
+4431311000001102	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd)
+39217211000001106	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported)
+39217311000001103	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported)
+134614006	Apomorphine 2mg sublingual tablets sugar free
+1153411000001104	Apomorphine 2mg sublingual tablets sugar free
+1119811000001109	Apomorphine 2mg sublingual tablets sugar free
+400211000001104	Uprima 2mg sublingual tablets (Abbott Laboratories Ltd)
+2081811000001100	Uprima 2mg sublingual tablets (Abbott Laboratories Ltd)
+2081911000001105	Uprima 2mg sublingual tablets (Abbott Laboratories Ltd)
+134615007	Apomorphine 3mg sublingual tablets sugar free
+946111000001104	Apomorphine 3mg sublingual tablets sugar free
+1237811000001106	Apomorphine 3mg sublingual tablets sugar free
+416011000001105	Uprima 3mg sublingual tablets (Abbott Laboratories Ltd)
+2082011000001103	Uprima 3mg sublingual tablets (Abbott Laboratories Ltd)
+2082111000001102	Uprima 3mg sublingual tablets (Abbott Laboratories Ltd)
+326713001	Sildenafil 25mg tablets
+1127111000001100	Sildenafil 25mg tablets
+1039111000001102	Sildenafil 25mg tablets
+908711000001105	Viagra 25mg tablets (Viatris UK Healthcare Ltd)
+2151311000001106	Viagra 25mg tablets (Viatris UK Healthcare Ltd)
+2151411000001104	Viagra 25mg tablets (Viatris UK Healthcare Ltd)
+22558911000001109	Sildenafil 25mg tablets (Teva UK Ltd)
+22559111000001104	Sildenafil 25mg tablets (Teva UK Ltd)
+22559211000001105	Sildenafil 25mg tablets (Teva UK Ltd)
+22591511000001102	Sildenafil 25mg tablets (Upjohn UK Ltd)
+22591911000001109	Sildenafil 25mg tablets (Upjohn UK Ltd)
+22591611000001103	Sildenafil 25mg tablets (Upjohn UK Ltd)
+22665811000001105	Sildenafil 25mg tablets (Actavis UK Ltd)
+22665911000001100	Sildenafil 25mg tablets (Actavis UK Ltd)
+22666011000001108	Sildenafil 25mg tablets (Actavis UK Ltd)
+22674511000001103	Sildenafil 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+22674611000001104	Sildenafil 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+22674711000001108	Sildenafil 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+22681111000001102	Sildenafil 25mg tablets (A A H Pharmaceuticals Ltd)
+22681211000001108	Sildenafil 25mg tablets (A A H Pharmaceuticals Ltd)
+22681311000001100	Sildenafil 25mg tablets (A A H Pharmaceuticals Ltd)
+22688111000001105	Sildenafil 25mg tablets (Zentiva Pharma UK Ltd)
+22688211000001104	Sildenafil 25mg tablets (Zentiva Pharma UK Ltd)
+22691211000001109	Sildenafil 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22691311000001101	Sildenafil 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22691411000001108	Sildenafil 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+23494811000001104	Sildenafil 25mg tablets (Accord Healthcare Ltd)
+23495111000001105	Sildenafil 25mg tablets (Accord Healthcare Ltd)
+23495411000001100	Sildenafil 25mg tablets (Accord Healthcare Ltd)
+23592711000001108	Vizarsin 25mg tablets (Consilient Health Ltd)
+23592811000001100	Vizarsin 25mg tablets (Consilient Health Ltd)
+24513711000001104	Sildenafil 25mg tablets (Sandoz Ltd)
+24513811000001107	Sildenafil 25mg tablets (Sandoz Ltd)
+24513911000001102	Sildenafil 25mg tablets (Sandoz Ltd)
+29673811000001107	Sildenafil 25mg tablets (Macleods Pharma UK Ltd)
+29673911000001102	Sildenafil 25mg tablets (Macleods Pharma UK Ltd)
+29674011000001104	Sildenafil 25mg tablets (Macleods Pharma UK Ltd)
+30096211000001102	Sildenafil 25mg tablets (DE Pharmaceuticals)
+30096311000001105	Sildenafil 25mg tablets (DE Pharmaceuticals)
+30096411000001103	Sildenafil 25mg tablets (DE Pharmaceuticals)
+30914311000001105	Sildenafil 25mg tablets (Mawdsley-Brooks & Company Ltd)
+30914411000001103	Sildenafil 25mg tablets (Mawdsley-Brooks & Company Ltd)
+30914511000001104	Sildenafil 25mg tablets (Mawdsley-Brooks & Company Ltd)
+32444911000001105	Sildenafil 25mg tablets (Kent Pharma (UK) Ltd)
+32445111000001106	Sildenafil 25mg tablets (Kent Pharma (UK) Ltd)
+33618211000001106	Sildenafil 25mg tablets (Viatris UK Healthcare Ltd)
+33618611000001108	Sildenafil 25mg tablets (Viatris UK Healthcare Ltd)
+33619311000001109	Sildenafil 25mg tablets (Viatris UK Healthcare Ltd)
+33972911000001107	Sildenafil 25mg tablets (Somex Pharma)
+33973211000001109	Sildenafil 25mg tablets (Somex Pharma)
+33973411000001108	Sildenafil 25mg tablets (Somex Pharma)
+34444311000001100	Sildenafil 25mg tablets (Bristol Laboratories Ltd)
+36568911000001103	Sildenafil 25mg tablets (Bristol Laboratories Ltd)
+34444411000001107	Sildenafil 25mg tablets (Bristol Laboratories Ltd)
+34953411000001109	Sildenafil 25mg tablets (Almus Pharmaceuticals Ltd)
+34953511000001108	Sildenafil 25mg tablets (Almus Pharmaceuticals Ltd)
+34953611000001107	Sildenafil 25mg tablets (Almus Pharmaceuticals Ltd)
+36828511000001102	Sildenafil 25mg tablets (Torrent Pharma (UK) Ltd)
+38787111000001105	Sildenafil 25mg tablets (Torrent Pharma (UK) Ltd)
+36828611000001103	Sildenafil 25mg tablets (Torrent Pharma (UK) Ltd)
+39249111000001104	Sildenafil 25mg tablets (Medihealth (Northern) Ltd)
+39249211000001105	Sildenafil 25mg tablets (Medihealth (Northern) Ltd)
+39249311000001102	Sildenafil 25mg tablets (Medihealth (Northern) Ltd)
+39361511000001107	Sildenafil 25mg tablets (Milpharm Ltd)
+39361611000001106	Sildenafil 25mg tablets (Milpharm Ltd)
+326714007	Sildenafil 50mg tablets
+1011811000001102	Sildenafil 50mg tablets
+1088011000001104	Sildenafil 50mg tablets
+39179311000001103	Sildenafil 50mg tablets
+808811000001107	Viagra 50mg tablets (Viatris UK Healthcare Ltd)
+2152211000001105	Viagra 50mg tablets (Viatris UK Healthcare Ltd)
+2152411000001109	Viagra 50mg tablets (Viatris UK Healthcare Ltd)
+22560311000001101	Sildenafil 50mg tablets (Teva UK Ltd)
+22560511000001107	Sildenafil 50mg tablets (Teva UK Ltd)
+22560711000001102	Sildenafil 50mg tablets (Teva UK Ltd)
+22592211000001107	Sildenafil 50mg tablets (Upjohn UK Ltd)
+22592311000001104	Sildenafil 50mg tablets (Upjohn UK Ltd)
+22592411000001106	Sildenafil 50mg tablets (Upjohn UK Ltd)
+22666111000001109	Sildenafil 50mg tablets (Actavis UK Ltd)
+22666211000001103	Sildenafil 50mg tablets (Actavis UK Ltd)
+22666411000001104	Sildenafil 50mg tablets (Actavis UK Ltd)
+22674811000001100	Sildenafil 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+22674911000001105	Sildenafil 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+22675011000001105	Sildenafil 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+22681411000001107	Sildenafil 50mg tablets (A A H Pharmaceuticals Ltd)
+22681511000001106	Sildenafil 50mg tablets (A A H Pharmaceuticals Ltd)
+22681611000001105	Sildenafil 50mg tablets (A A H Pharmaceuticals Ltd)
+22687911000001107	Sildenafil 50mg tablets (Zentiva Pharma UK Ltd)
+22688011000001109	Sildenafil 50mg tablets (Zentiva Pharma UK Ltd)
+22691511000001107	Sildenafil 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22691611000001106	Sildenafil 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22691711000001102	Sildenafil 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+23495911000001108	Sildenafil 50mg tablets (Accord Healthcare Ltd)
+23496211000001105	Sildenafil 50mg tablets (Accord Healthcare Ltd)
+23524011000001106	Sildenafil 50mg tablets (Accord Healthcare Ltd)
+23592911000001105	Vizarsin 50mg tablets (Consilient Health Ltd)
+23593011000001102	Vizarsin 50mg tablets (Consilient Health Ltd)
+24514511000001107	Sildenafil 50mg tablets (Sandoz Ltd)
+24515311000001102	Sildenafil 50mg tablets (Sandoz Ltd)
+24515411000001109	Sildenafil 50mg tablets (Sandoz Ltd)
+29674111000001103	Sildenafil 50mg tablets (Macleods Pharma UK Ltd)
+29674211000001109	Sildenafil 50mg tablets (Macleods Pharma UK Ltd)
+29674311000001101	Sildenafil 50mg tablets (Macleods Pharma UK Ltd)
+30096511000001104	Sildenafil 50mg tablets (DE Pharmaceuticals)
+30096611000001100	Sildenafil 50mg tablets (DE Pharmaceuticals)
+30096711000001109	Sildenafil 50mg tablets (DE Pharmaceuticals)
+30914611000001100	Sildenafil 50mg tablets (Mawdsley-Brooks & Company Ltd)
+30914711000001109	Sildenafil 50mg tablets (Mawdsley-Brooks & Company Ltd)
+30914811000001101	Sildenafil 50mg tablets (Mawdsley-Brooks & Company Ltd)
+32445211000001100	Sildenafil 50mg tablets (Kent Pharma (UK) Ltd)
+32445311000001108	Sildenafil 50mg tablets (Kent Pharma (UK) Ltd)
+33041211000001102	Sildenafil 50mg tablets (Genesis Pharmaceuticals Ltd)
+33041311000001105	Sildenafil 50mg tablets (Genesis Pharmaceuticals Ltd)
+33617411000001106	Sildenafil 50mg tablets (Viatris UK Healthcare Ltd)
+33617711000001100	Sildenafil 50mg tablets (Viatris UK Healthcare Ltd)
+33617911000001103	Sildenafil 50mg tablets (Viatris UK Healthcare Ltd)
+33973511000001107	Sildenafil 50mg tablets (Somex Pharma)
+33973611000001106	Sildenafil 50mg tablets (Somex Pharma)
+33973711000001102	Sildenafil 50mg tablets (Somex Pharma)
+34953711000001103	Sildenafil 50mg tablets (Almus Pharmaceuticals Ltd)
+34953811000001106	Sildenafil 50mg tablets (Almus Pharmaceuticals Ltd)
+34953911000001101	Sildenafil 50mg tablets (Almus Pharmaceuticals Ltd)
+35184611000001105	Sildenafil 50mg tablets (Milpharm Ltd)
+35184711000001101	Sildenafil 50mg tablets (Milpharm Ltd)
+35184811000001109	Sildenafil 50mg tablets (Milpharm Ltd)
+35279211000001102	Sildenafil 50mg tablets (Bristol Laboratories Ltd)
+35279311000001105	Sildenafil 50mg tablets (Bristol Laboratories Ltd)
+35279411000001103	Sildenafil 50mg tablets (Bristol Laboratories Ltd)
+35585011000001105	Viagra Connect 50mg tablets (Viatris UK Healthcare Ltd)
+35585111000001106	Viagra Connect 50mg tablets (Viatris UK Healthcare Ltd)
+35585211000001100	Viagra Connect 50mg tablets (Viatris UK Healthcare Ltd)
+39179411000001105	Viagra Connect 50mg tablets (Viatris UK Healthcare Ltd)
+36828711000001107	Sildenafil 50mg tablets (Torrent Pharma (UK) Ltd)
+36828811000001104	Sildenafil 50mg tablets (Torrent Pharma (UK) Ltd)
+38787211000001104	Sildenafil 50mg tablets (Torrent Pharma (UK) Ltd)
+38040411000001106	Aronix 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+38040611000001109	Aronix 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+38040711000001100	Aronix 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+38700211000001102	Sildenafil 50mg tablets (Omega Pharma Ltd)
+38700311000001105	Sildenafil 50mg tablets (Omega Pharma Ltd)
+38700411000001103	Sildenafil 50mg tablets (Omega Pharma Ltd)
+39249411000001109	Sildenafil 50mg tablets (Medihealth (Northern) Ltd)
+39249511000001108	Sildenafil 50mg tablets (Medihealth (Northern) Ltd)
+39249611000001107	Sildenafil 50mg tablets (Medihealth (Northern) Ltd)
+39612211000001106	Liberize 50mg tablets (Teva UK Ltd)
+39612311000001103	Liberize 50mg tablets (Teva UK Ltd)
+39612611000001108	Liberize 50mg tablets (Teva UK Ltd)
+40233611000001109	Sildenafil 50mg tablets (Ennogen Healthcare Ltd)
+40233711000001100	Sildenafil 50mg tablets (Ennogen Healthcare Ltd)
+326715008	Sildenafil 100mg tablets
+1118711000001105	Sildenafil 100mg tablets
+949111000001107	Sildenafil 100mg tablets
+24640311000001106	Sildenafil 100mg tablets
+525511000001107	Viagra 100mg tablets (Viatris UK Healthcare Ltd)
+2153111000001105	Viagra 100mg tablets (Viatris UK Healthcare Ltd)
+2153311000001107	Viagra 100mg tablets (Viatris UK Healthcare Ltd)
+22561011000001108	Sildenafil 100mg tablets (Teva UK Ltd)
+22561111000001109	Sildenafil 100mg tablets (Teva UK Ltd)
+22561211000001103	Sildenafil 100mg tablets (Teva UK Ltd)
+22592511000001105	Sildenafil 100mg tablets (Upjohn UK Ltd)
+22592611000001109	Sildenafil 100mg tablets (Upjohn UK Ltd)
+22592711000001100	Sildenafil 100mg tablets (Upjohn UK Ltd)
+22666511000001100	Sildenafil 100mg tablets (Actavis UK Ltd)
+22666611000001101	Sildenafil 100mg tablets (Actavis UK Ltd)
+22666711000001105	Sildenafil 100mg tablets (Actavis UK Ltd)
+22675111000001106	Sildenafil 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+22675211000001100	Sildenafil 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+22675411000001101	Sildenafil 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+22681711000001101	Sildenafil 100mg tablets (A A H Pharmaceuticals Ltd)
+22681811000001109	Sildenafil 100mg tablets (A A H Pharmaceuticals Ltd)
+22681911000001104	Sildenafil 100mg tablets (A A H Pharmaceuticals Ltd)
+22687711000001105	Sildenafil 100mg tablets (Zentiva Pharma UK Ltd)
+22687811000001102	Sildenafil 100mg tablets (Zentiva Pharma UK Ltd)
+22691811000001105	Sildenafil 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22691911000001100	Sildenafil 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+22692011000001107	Sildenafil 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+23494011000001105	Sildenafil 100mg tablets (Accord Healthcare Ltd)
+23494111000001106	Sildenafil 100mg tablets (Accord Healthcare Ltd)
+23494311000001108	Sildenafil 100mg tablets (Accord Healthcare Ltd)
+23593111000001101	Vizarsin 100mg tablets (Consilient Health Ltd)
+23593211000001107	Vizarsin 100mg tablets (Consilient Health Ltd)
+24516111000001105	Sildenafil 100mg tablets (Sandoz Ltd)
+24516311000001107	Sildenafil 100mg tablets (Sandoz Ltd)
+24516411000001100	Sildenafil 100mg tablets (Sandoz Ltd)
+24640911000001107	Sildenafil 100mg tablets (hameln pharma Ltd)
+24641011000001104	Sildenafil 100mg tablets (hameln pharma Ltd)
+29674411000001108	Sildenafil 100mg tablets (Macleods Pharma UK Ltd)
+29674511000001107	Sildenafil 100mg tablets (Macleods Pharma UK Ltd)
+29674611000001106	Sildenafil 100mg tablets (Macleods Pharma UK Ltd)
+30096811000001101	Sildenafil 100mg tablets (DE Pharmaceuticals)
+30097011000001105	Sildenafil 100mg tablets (DE Pharmaceuticals)
+30096911000001106	Sildenafil 100mg tablets (DE Pharmaceuticals)
+30914911000001106	Sildenafil 100mg tablets (Mawdsley-Brooks & Company Ltd)
+30915011000001106	Sildenafil 100mg tablets (Mawdsley-Brooks & Company Ltd)
+30915111000001107	Sildenafil 100mg tablets (Mawdsley-Brooks & Company Ltd)
+32445411000001101	Sildenafil 100mg tablets (Kent Pharma (UK) Ltd)
+32445611000001103	Sildenafil 100mg tablets (Kent Pharma (UK) Ltd)
+32445811000001104	Sildenafil 100mg tablets (Kent Pharma (UK) Ltd)
+33041411000001103	Sildenafil 100mg tablets (Genesis Pharmaceuticals Ltd)
+33041511000001104	Sildenafil 100mg tablets (Genesis Pharmaceuticals Ltd)
+33618011000001101	Sildenafil 100mg tablets (Viatris UK Healthcare Ltd)
+33618111000001100	Sildenafil 100mg tablets (Viatris UK Healthcare Ltd)
+33621011000001103	Sildenafil 100mg tablets (Viatris UK Healthcare Ltd)
+33974111000001101	Sildenafil 100mg tablets (Somex Pharma)
+33974211000001107	Sildenafil 100mg tablets (Somex Pharma)
+33974411000001106	Sildenafil 100mg tablets (Somex Pharma)
+34952911000001108	Sildenafil 100mg tablets (Almus Pharmaceuticals Ltd)
+34953011000001100	Sildenafil 100mg tablets (Almus Pharmaceuticals Ltd)
+34953111000001104	Sildenafil 100mg tablets (Almus Pharmaceuticals Ltd)
+35184911000001104	Sildenafil 100mg tablets (Milpharm Ltd)
+35185011000001104	Sildenafil 100mg tablets (Milpharm Ltd)
+35185111000001103	Sildenafil 100mg tablets (Milpharm Ltd)
+36569411000001103	Sildenafil 100mg tablets (Bristol Laboratories Ltd)
+36569511000001104	Sildenafil 100mg tablets (Bristol Laboratories Ltd)
+36569611000001100	Sildenafil 100mg tablets (Bristol Laboratories Ltd)
+36828911000001109	Sildenafil 100mg tablets (Torrent Pharma (UK) Ltd)
+36829011000001100	Sildenafil 100mg tablets (Torrent Pharma (UK) Ltd)
+38787011000001109	Sildenafil 100mg tablets (Torrent Pharma (UK) Ltd)
+39247111000001105	Sildenafil 100mg tablets (Medihealth (Northern) Ltd)
+39247711000001106	Sildenafil 100mg tablets (Medihealth (Northern) Ltd)
+39247811000001103	Sildenafil 100mg tablets (Medihealth (Northern) Ltd)
+40233811000001108	Sildenafil 100mg tablets (Ennogen Healthcare Ltd)
+40233911000001103	Sildenafil 100mg tablets (Ennogen Healthcare Ltd)
+38754011000001109	Tamsulosin 400microgram modified-release capsules
+1215311000001104	Tamsulosin 400microgram modified-release capsules
+16671711000001107	Tamsulosin 400microgram modified-release capsules
+16671811000001104	Tamsulosin 400microgram modified-release capsules
+36832411000001101	Tamsulosin 400microgram modified-release capsules
+835811000001107	Flomax MR 400microgram capsules (Astellas Pharma Ltd)
+2187511000001103	Flomax MR 400microgram capsules (Astellas Pharma Ltd)
+3025311000001107	Omnic MR 400microgram capsules (Astellas Pharma Ltd)
+3025611000001102	Omnic MR 400microgram capsules (Astellas Pharma Ltd)
+10170811000001104	Bazetham MR 400microgram capsules (Teva UK Ltd)
+10170911000001109	Bazetham MR 400microgram capsules (Teva UK Ltd)
+10186811000001105	Tabphyn MR 400microgram capsules (Genus Pharmaceuticals Ltd)
+10186911000001100	Tabphyn MR 400microgram capsules (Genus Pharmaceuticals Ltd)
+10187011000001101	Stronazon 400microgram MR capsules (Actavis UK Ltd)
+10187111000001100	Stronazon 400microgram MR capsules (Actavis UK Ltd)
+10188711000001103	Petyme 400microgram MR capsules (Teva UK Ltd)
+10188811000001106	Petyme 400microgram MR capsules (Teva UK Ltd)
+10188911000001101	Pamsvax XL 400microgram capsules (Accord Healthcare Ltd)
+10189011000001105	Pamsvax XL 400microgram capsules (Accord Healthcare Ltd)
+10194711000001105	Diffundox XL 400microgram capsules (Zentiva Pharma UK Ltd)
+10194811000001102	Diffundox XL 400microgram capsules (Zentiva Pharma UK Ltd)
+10273411000001107	Tamsulosin 400microgram modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+10273511000001106	Tamsulosin 400microgram modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+10274911000001102	Tamsulosin 400microgram modified-release capsules (A A H Pharmaceuticals Ltd)
+10275011000001102	Tamsulosin 400microgram modified-release capsules (A A H Pharmaceuticals Ltd)
+10354211000001102	Prosurin XL 400microgram capsules (Viatris UK Healthcare Ltd)
+10354311000001105	Prosurin XL 400microgram capsules (Viatris UK Healthcare Ltd)
+10368411000001102	Tabphyn MR 400microgram capsules (Kyowa Kirin Ltd)
+10368611000001104	Tabphyn MR 400microgram capsules (Kyowa Kirin Ltd)
+10984511000001103	Morvesin XL 400microgram capsules (Sandoz Ltd)
+10984611000001104	Morvesin XL 400microgram capsules (Sandoz Ltd)
+11146211000001106	Contiflo XL 400microgram capsules (Ranbaxy (UK) Ltd)
+11146311000001103	Contiflo XL 400microgram capsules (Ranbaxy (UK) Ltd)
+13566511000001100	Alphacard MR 400microgram capsules (Ratiopharm UK Ltd)
+13566611000001101	Alphacard MR 400microgram capsules (Ratiopharm UK Ltd)
+13739111000001105	Tamsulosin 400microgram modified-release capsules (Focus Pharmaceuticals Ltd)
+13739211000001104	Tamsulosin 400microgram modified-release capsules (Focus Pharmaceuticals Ltd)
+15068311000001101	Maxtron 400microgram modified-release capsules (Apotex UK Ltd)
+15068411000001108	Maxtron 400microgram modified-release capsules (Apotex UK Ltd)
+16671911000001109	Flomax Relief MR 400microgram capsules (Sanofi)
+16672011000001102	Flomax Relief MR 400microgram capsules (Sanofi)
+16672111000001101	Flomax Relief MR 400microgram capsules (Sanofi)
+16737711000001108	Galebon 400microgram modified-release capsules (Consilient Health Ltd)
+16737811000001100	Galebon 400microgram modified-release capsules (Consilient Health Ltd)
+17462611000001102	Pinexel PR 400microgram capsules (Wockhardt UK Ltd)
+17462911000001108	Pinexel PR 400microgram capsules (Wockhardt UK Ltd)
+17521711000001101	Tamurex 400microgram modified-release capsules (Somex Pharma)
+17521811000001109	Tamurex 400microgram modified-release capsules (Somex Pharma)
+18245911000001102	Pamsvax XL 400microgram capsules (Almus Pharmaceuticals Ltd)
+18246111000001106	Pamsvax XL 400microgram capsules (Almus Pharmaceuticals Ltd)
+18765211000001107	Losinate MR 400microgram capsules (Consilient Health Ltd)
+18765311000001104	Losinate MR 400microgram capsules (Consilient Health Ltd)
+36832511000001102	Losinate MR 400microgram capsules (Consilient Health Ltd)
+22380611000001106	Stronazon 400microgram MR capsules (Arrow Generics Ltd)
+22380711000001102	Stronazon 400microgram MR capsules (Arrow Generics Ltd)
+23955911000001103	Tamfrex XL 400microgram capsules (Milpharm Ltd)
+23956011000001106	Tamfrex XL 400microgram capsules (Milpharm Ltd)
+36753411000001108	Tamsumac 0.4mg modified-release capsules (Macleods Pharma UK Ltd)
+36753511000001107	Tamsumac 0.4mg modified-release capsules (Macleods Pharma UK Ltd)
+37907111000001108	Contiflo XL 400microgram capsules (NorthStar Healthcare Unlimited Company)
+37907211000001102	Contiflo XL 400microgram capsules (NorthStar Healthcare Unlimited Company)
+39121711000001102	Tamsulosin 400microgram modified-release capsules (Zentiva Pharma UK Ltd)
+39121811000001105	Tamsulosin 400microgram modified-release capsules (Zentiva Pharma UK Ltd)
+39126211000001101	Tamsulosin 400microgram modified-release capsules (Consilient Health Ltd)
+39126311000001109	Tamsulosin 400microgram modified-release capsules (Consilient Health Ltd)
+39266111000001102	Tamsulosin 400microgram modified-release capsules (Medihealth (Northern) Ltd)
+39266211000001108	Tamsulosin 400microgram modified-release capsules (Medihealth (Northern) Ltd)
+39294711000001107	Omsula 0.4mg modified-release capsules (Gedeon Richter (UK) Ltd)
+39295211000001104	Omsula 0.4mg modified-release capsules (Gedeon Richter (UK) Ltd)
+39486711000001100	Tamsulosin 400microgram modified-release capsules (Teva UK Ltd)
+39486811000001108	Tamsulosin 400microgram modified-release capsules (Teva UK Ltd)
+40373511000001102	Tamsulosin 400microgram modified-release capsules (DE Pharmaceuticals)
+40373611000001103	Tamsulosin 400microgram modified-release capsules (DE Pharmaceuticals)
+326583009	Propiverine 15mg tablets
+1249811000001104	Propiverine 15mg tablets
+1014211000001101	Propiverine 15mg tablets
+39968611000001105	Propiverine 15mg tablets
+671811000001103	Detrunorm 15mg tablets (Consilient Health Ltd)
+2352411000001102	Detrunorm 15mg tablets (Consilient Health Ltd)
+2352511000001103	Detrunorm 15mg tablets (Consilient Health Ltd)
+36769511000001100	Propiverine 15mg tablets (Ennogen Healthcare Ltd)
+36769611000001101	Propiverine 15mg tablets (Ennogen Healthcare Ltd)
+37305511000001104	Propiverine 15mg tablets (A A H Pharmaceuticals Ltd)
+37308811000001105	Propiverine 15mg tablets (A A H Pharmaceuticals Ltd)
+37660511000001103	Propiverine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+37660611000001104	Propiverine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+37780211000001109	Propiverine 15mg tablets (DE Pharmaceuticals)
+37780311000001101	Propiverine 15mg tablets (DE Pharmaceuticals)
+326539000	Flavoxate 200mg tablets
+981111000001102	Flavoxate 200mg tablets
+10466311000001102	Flavoxate 200mg tablets
+14690011000001104	Flavoxate 200mg tablets
+356611000001102	Urispas 200 tablets (Recordati Pharmaceuticals Ltd)
+2354411000001109	Urispas 200 tablets (Recordati Pharmaceuticals Ltd)
+400430004	Norgestrel 75microgram tablets
+1234311000001106	Norgestrel 75microgram tablets
+260111000001105	Neogest 75microgram tablets (Schering Health Care Ltd)
+2389711000001106	Neogest 75microgram tablets (Schering Health Care Ltd)
+326559001	Trospium chloride 20mg tablets
+1078611000001104	Trospium chloride 20mg tablets
+323311000001104	Regurin 20mg tablets (Viatris UK Healthcare Ltd)
+2398711000001101	Regurin 20mg tablets (Viatris UK Healthcare Ltd)
+16113211000001107	Flotros 20mg tablets (Galen Ltd)
+16113311000001104	Flotros 20mg tablets (Galen Ltd)
+19191411000001102	Trospium chloride 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+19191511000001103	Trospium chloride 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+19242211000001104	Trospium chloride 20mg tablets (A A H Pharmaceuticals Ltd)
+19242411000001100	Trospium chloride 20mg tablets (A A H Pharmaceuticals Ltd)
+20420211000001102	Uraplex 20mg tablets (Contura Ltd)
+20420311000001105	Uraplex 20mg tablets (Contura Ltd)
+20477111000001105	Trospium chloride 20mg tablets (Teva UK Ltd)
+20477211000001104	Trospium chloride 20mg tablets (Teva UK Ltd)
+21907411000001101	Trospium chloride 20mg tablets (Waymade Healthcare Plc)
+21907611000001103	Trospium chloride 20mg tablets (Waymade Healthcare Plc)
+30106511000001106	Trospium chloride 20mg tablets (DE Pharmaceuticals)
+30106611000001105	Trospium chloride 20mg tablets (DE Pharmaceuticals)
+30795811000001106	Trospium chloride 20mg tablets (Accord Healthcare Ltd)
+30795911000001101	Trospium chloride 20mg tablets (Accord Healthcare Ltd)
+326421006	Etynodiol 500microgram tablets
+1243111000001108	Etynodiol 500microgram tablets
+462011000001107	Femulen 500microgram tablets (Pfizer Ltd)
+2595611000001102	Femulen 500microgram tablets (Pfizer Ltd)
+326309006	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+1235811000001101	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+208311000001105	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd)
+2619611000001105	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd)
+17346911000001108	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd)
+17347011000001107	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd)
+21933611000001103	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+21933811000001104	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+24678111000001105	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd)
+24678311000001107	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd)
+28006411000001100	Alenini 150microgram/20microgram tablets (Actavis UK Ltd)
+28006511000001101	Alenini 150microgram/20microgram tablets (Actavis UK Ltd)
+29910811000001108	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd)
+29911111000001107	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd)
+326310001	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets
+1015611000001103	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets
+524211000001108	Marvelon tablets (Organon Pharma (UK) Ltd)
+2620511000001105	Marvelon tablets (Organon Pharma (UK) Ltd)
+17348811000001102	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd)
+17349111000001102	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd)
+21730911000001106	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd)
+21731311000001100	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd)
+21930311000001102	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+21930411000001109	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+24677911000001107	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24678011000001109	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24684111000001107	Alenvona 150microgram/30microgram tablets (Teva UK Ltd)
+24684211000001101	Alenvona 150microgram/30microgram tablets (Teva UK Ltd)
+332896007	Econazole 1% cream
+1048611000001100	Econazole 1% cream
+943911000001107	Econazole 1% cream
+676811000001108	Gyno-Pevaryl 1% cream (Karo Pharma)
+2642511000001109	Gyno-Pevaryl 1% cream (Karo Pharma)
+2642611000001108	Gyno-Pevaryl 1% cream (Karo Pharma)
+377360003	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+1056411000001101	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+34697211000001106	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+439011000001108	Yasmin tablets (Bayer Plc)
+2646411000001106	Yasmin tablets (Bayer Plc)
+23649211000001107	Lucette 0.03mg/3mg tablets (Consilient Health Ltd)
+23649311000001104	Lucette 0.03mg/3mg tablets (Consilient Health Ltd)
+24564811000001106	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd)
+24565011000001101	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd)
+24684311000001109	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd)
+24684411000001102	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd)
+27979911000001107	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd)
+27980011000001108	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd)
+29911411000001102	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd)
+29911511000001103	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd)
+33017111000001106	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd)
+33017411000001101	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd)
+34181511000001103	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+34181611000001104	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+34697311000001103	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+39700011000001105	Clindamycin 2% vaginal cream
+1039511000001106	Clindamycin 2% vaginal cream
+358511000001100	Dalacin 2% cream (Pfizer Ltd)
+2680111000001105	Dalacin 2% cream (Pfizer Ltd)
+326215009	Clotrimazole 2% cream
+1101411000001108	Clotrimazole 2% cream
+954011000001108	Clotrimazole 2% cream
+360111000001101	Canesten 2% thrush cream (Bayer Plc)
+2681411000001109	Canesten 2% thrush cream (Bayer Plc)
+2682011000001108	Canesten 2% thrush cream (Bayer Plc)
+353132008	Estriol 0.1% cream
+1093411000001101	Estriol 0.1% cream
+623311000001109	Ovestin 1mg cream (Aspen Pharma Trading Ltd)
+2701511000001102	Ovestin 1mg cream (Aspen Pharma Trading Ltd)
+3405311000001106	Estradiol 25microgram pessaries
+1102111000001108	Estradiol 25microgram pessaries
+71211000001107	Vagifem 25microgram vaginal tablets (Novo Nordisk Ltd)
+2711011000001107	Vagifem 25microgram vaginal tablets (Novo Nordisk Ltd)
+353131001	Estriol 500microgram pessaries
+1138311000001104	Estriol 500microgram pessaries
+14671111000001103	Estriol 500microgram pessaries
+416511000001102	Ortho-Gynest 500microgram pessaries (Janssen-Cilag Ltd)
+2736811000001102	Ortho-Gynest 500microgram pessaries (Janssen-Cilag Ltd)
+39711411000001108	Etonogestrel 68mg implant
+1272711000001102	Etonogestrel 68mg implant
+677611000001106	Implanon 68mg implant (Organon Laboratories Ltd)
+2737411000001102	Implanon 68mg implant (Organon Laboratories Ltd)
+18030711000001101	Nexplanon 68mg implant (Organon Pharma (UK) Ltd)
+18030811000001109	Nexplanon 68mg implant (Organon Pharma (UK) Ltd)
+326190009	Estradiol 2mg vaginal ring
+999411000001109	Estradiol 2mg vaginal ring
+548311000001107	Estring 2mg vaginal ring (Pfizer Ltd)
+2758711000001105	Estring 2mg vaginal ring (Pfizer Ltd)
+326481008	Nonoxinol-9 2% gel
+1050911000001106	Nonoxinol-9 2% gel
+987111000001109	Nonoxinol-9 2% gel
+13331411000001100	Nonoxinol-9 2% gel
+500011000001104	Gynol-II 2% contraceptive jelly (Janssen-Cilag Ltd)
+2785211000001101	Gynol-II 2% contraceptive jelly (Janssen-Cilag Ltd)
+216111000001107	Duragel 2% gel (SSL International Plc)
+2785511000001103	Duragel 2% gel (SSL International Plc)
+13331511000001101	Gygel 2% contraceptive jelly (Marlborough Pharmaceuticals Ltd)
+22174711000001109	Gygel 2% contraceptive jelly (Marlborough Pharmaceuticals Ltd)
+13331611000001102	Gygel 2% contraceptive jelly (Marlborough Pharmaceuticals Ltd)
+326479006	Nonoxinol-9 2% cream
+1174811000001102	Nonoxinol-9 2% cream
+72711000001107	Ortho-Creme 2% contraceptive cream (Janssen-Cilag Ltd)
+2788811000001109	Ortho-Creme 2% contraceptive cream (Janssen-Cilag Ltd)
+39719611000001107	Nonoxinol-9 6% pessaries
+1138911000001103	Nonoxinol-9 6% pessaries
+2894311000001107	Prelude 6% pessaries (WJ Rendell Ltd)
+2894411000001100	Prelude 6% pessaries (WJ Rendell Ltd)
+39719411000001109	Nonoxinol-9 5% pessaries
+1021211000001109	Nonoxinol-9 5% pessaries
+2111000001103	Orthoforms 5% contraceptive pessaries (Janssen-Cilag Ltd)
+2789411000001104	Orthoforms 5% contraceptive pessaries (Janssen-Cilag Ltd)
+36032611000001102	Norethisterone 200mg/1ml solution for injection ampoules
+998511000001102	Norethisterone 200mg/1ml solution for injection ampoules
+571111000001101	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+2817011000001100	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+35897711000001104	Alprostadil 125microgram urethral sticks
+996111000001107	Alprostadil 125microgram urethral sticks
+955011000001107	Alprostadil 125microgram urethral sticks
+87311000001104	Muse 125microgram urethral sticks (Meda Pharmaceuticals Ltd)
+2819411000001100	Muse 125microgram urethral sticks (Meda Pharmaceuticals Ltd)
+2819611000001102	Muse 125microgram urethral sticks (Meda Pharmaceuticals Ltd)
+35898311000001102	Alprostadil 250microgram urethral sticks
+946011000001100	Alprostadil 250microgram urethral sticks
+1134711000001108	Alprostadil 250microgram urethral sticks
+910111000001105	Muse 250microgram urethral sticks (Viatris UK Healthcare Ltd)
+2819911000001108	Muse 250microgram urethral sticks (Viatris UK Healthcare Ltd)
+2820011000001105	Muse 250microgram urethral sticks (Viatris UK Healthcare Ltd)
+35898511000001108	Alprostadil 500microgram urethral sticks
+1212411000001103	Alprostadil 500microgram urethral sticks
+1025111000001101	Alprostadil 500microgram urethral sticks
+19911000001108	Muse 500microgram urethral sticks (Viatris UK Healthcare Ltd)
+2820211000001100	Muse 500microgram urethral sticks (Viatris UK Healthcare Ltd)
+2820311000001108	Muse 500microgram urethral sticks (Viatris UK Healthcare Ltd)
+35897811000001107	Alprostadil 1mg urethral sticks
+1221211000001103	Alprostadil 1mg urethral sticks
+1143111000001106	Alprostadil 1mg urethral sticks
+638411000001105	Muse 1000microgram urethral sticks (Viatris UK Healthcare Ltd)
+2820411000001101	Muse 1000microgram urethral sticks (Viatris UK Healthcare Ltd)
+2820611000001103	Muse 1000microgram urethral sticks (Viatris UK Healthcare Ltd)
+3407711000001104	Estradiol acetate 1.25mg vaginal ring
+2835811000001108	Estradiol acetate 1.25mg vaginal ring
+2836011000001106	Menoring 50 vaginal ring (Galen Ltd)
+2836111000001107	Menoring 50 vaginal ring (Galen Ltd)
+39112111000001104	Oxybutynin 5mg modified-release tablets
+2964811000001105	Oxybutynin 5mg modified-release tablets
+2965311000001102	Ditropan XL 5mg tablets (Janssen-Cilag Ltd)
+2965611000001107	Ditropan XL 5mg tablets (Janssen-Cilag Ltd)
+4528911000001103	Lyrinel XL 5mg tablets (Janssen-Cilag Ltd)
+4529211000001102	Lyrinel XL 5mg tablets (Janssen-Cilag Ltd)
+39112211000001105	Oxybutynin 10mg modified-release tablets
+2967511000001104	Oxybutynin 10mg modified-release tablets
+2968111000001109	Ditropan XL 10mg tablets (Janssen-Cilag Ltd)
+2968311000001106	Ditropan XL 10mg tablets (Janssen-Cilag Ltd)
+4529411000001103	Lyrinel XL 10mg tablets (Janssen-Cilag Ltd)
+4529511000001104	Lyrinel XL 10mg tablets (Janssen-Cilag Ltd)
+36023211000001107	Oxybutynin 2.5mg/5ml oral solution
+2969311000001100	Oxybutynin 2.5mg/5ml oral solution
+18661811000001101	Oxybutynin 2.5mg/5ml oral solution
+2969611000001105	Ditropan 2.5mg/5ml elixir (Sanofi)
+2969911000001104	Ditropan 2.5mg/5ml elixir (Sanofi)
+18661911000001106	Oxybutynin 2.5mg/5ml oral solution (Special Order)
+21262411000001102	Oxybutynin 2.5mg/5ml oral solution (Special Order)
+18662011000001104	Oxybutynin 2.5mg/5ml oral solution (Special Order)
+3557311000001103	Generic Tri-Minulet tablets
+3046511000001106	Generic Tri-Minulet tablets
+3046611000001105	Tri-Minulet tablets (Wyeth Pharmaceuticals)
+3047111000001104	Tri-Minulet tablets (Wyeth Pharmaceuticals)
+3047311000001102	Triadene tablets (Bayer Plc)
+3047411000001109	Triadene tablets (Bayer Plc)
+326358005	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+3048411000001108	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+36543711000001104	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+3048611000001106	Minulet tablets (Wyeth Pharmaceuticals)
+3048711000001102	Minulet tablets (Wyeth Pharmaceuticals)
+3048811000001105	Femodene tablets (Bayer Plc)
+3048911000001100	Femodene tablets (Bayer Plc)
+11753211000001109	Katya 30/75 tablets (Stragen UK Ltd)
+11753311000001101	Katya 30/75 tablets (Stragen UK Ltd)
+36543911000001102	Katya 30/75 tablets (Stragen UK Ltd)
+17351511000001107	Millinette 30microgram/75microgram tablets (Consilient Health Ltd)
+17351811000001105	Millinette 30microgram/75microgram tablets (Consilient Health Ltd)
+24676611000001103	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+24676711000001107	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+30805911000001101	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd)
+30806011000001109	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd)
+38340211000001108	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd)
+38340311000001100	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd)
+326361006	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+3049011000001109	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+36549311000001100	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+3049211000001104	Femodette tablets (Bayer Plc)
+3049411000001100	Femodette tablets (Bayer Plc)
+11758611000001104	Sunya 20/75 tablets (Stragen UK Ltd)
+11758711000001108	Sunya 20/75 tablets (Stragen UK Ltd)
+36549711000001101	Sunya 20/75 tablets (Stragen UK Ltd)
+17353311000001100	Millinette 20microgram/75microgram tablets (Consilient Health Ltd)
+17353411000001107	Millinette 20microgram/75microgram tablets (Consilient Health Ltd)
+24676211000001100	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+24676311000001108	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+30805711000001103	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd)
+30805811000001106	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd)
+38335711000001105	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd)
+38335911000001107	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd)
+3546811000001107	Generic Microgynon 30 ED tablets
+3052411000001109	Generic Microgynon 30 ED tablets
+3052511000001108	Microgynon 30 ED tablets (Bayer Plc)
+3052611000001107	Microgynon 30 ED tablets (Bayer Plc)
+326174009	Conjugated oestrogens 625micrograms/g vaginal cream
+3053311000001107	Conjugated oestrogens 625micrograms/g vaginal cream
+3053511000001101	Premarin 0.625mg/g vaginal cream (Pfizer Ltd)
+3053711000001106	Premarin 0.625mg/g vaginal cream (Pfizer Ltd)
+326350003	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets
+3058011000001102	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets
+3058111000001101	Loestrin 20 tablets (Galen Ltd)
+3058211000001107	Loestrin 20 tablets (Galen Ltd)
+326351004	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets
+3058311000001104	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets
+3058411000001106	Loestrin 30 tablets (Galen Ltd)
+3058511000001105	Loestrin 30 tablets (Galen Ltd)
+36062011000001103	Generic Femodene ED tablets
+3174511000001106	Generic Femodene ED tablets
+3174811000001109	Femodene ED tablets (Bayer Plc)
+3174911000001104	Femodene ED tablets (Bayer Plc)
+14610411000001107	Potassium citrate mixture
+3182811000001109	Potassium citrate mixture
+3182911000001104	Potassium citrate mixture
+3183011000001107	Potassium citrate mixture (A A H Pharmaceuticals Ltd)
+3183111000001108	Potassium citrate mixture (A A H Pharmaceuticals Ltd)
+3183211000001102	Potassium citrate mixture (A A H Pharmaceuticals Ltd)
+3183311000001105	Potassium citrate mixture (Thornton & Ross Ltd)
+3183411000001103	Potassium citrate mixture (Thornton & Ross Ltd)
+3183511000001104	Potassium citrate mixture (Alliance Healthcare (Distribution) Ltd)
+3183611000001100	Potassium citrate mixture (Alliance Healthcare (Distribution) Ltd)
+326517002	Alfuzosin 2.5mg tablets
+3187411000001105	Alfuzosin 2.5mg tablets
+5514711000001109	Alfuzosin 2.5mg tablets
+5514811000001101	Alfuzosin 2.5mg tablets
+3187611000001108	Xatral 2.5mg tablets (Sanofi)
+3187811000001107	Xatral 2.5mg tablets (Sanofi)
+10900211000001105	Alfuzosin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+10900311000001102	Alfuzosin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+14248211000001103	Alfuzosin 2.5mg tablets (Teva UK Ltd)
+14248311000001106	Alfuzosin 2.5mg tablets (Teva UK Ltd)
+15061811000001104	Alfuzosin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+15061911000001109	Alfuzosin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+15115711000001101	Alfuzosin 2.5mg tablets (Actavis UK Ltd)
+15115811000001109	Alfuzosin 2.5mg tablets (Actavis UK Ltd)
+15355111000001102	Alfuzosin 2.5mg tablets (Zentiva Pharma UK Ltd)
+15355211000001108	Alfuzosin 2.5mg tablets (Zentiva Pharma UK Ltd)
+16164511000001109	Alfuzosin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+16164611000001108	Alfuzosin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+17756811000001104	Alfuzosin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+17756911000001109	Alfuzosin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+19702911000001105	Alfuzosin 2.5mg tablets (DE Pharmaceuticals)
+19703011000001102	Alfuzosin 2.5mg tablets (DE Pharmaceuticals)
+20279411000001108	Alfuzosin 2.5mg tablets (Sandoz Ltd)
+20279511000001107	Alfuzosin 2.5mg tablets (Sandoz Ltd)
+21756511000001103	Alfuzosin 2.5mg tablets (Waymade Healthcare Plc)
+21756611000001104	Alfuzosin 2.5mg tablets (Waymade Healthcare Plc)
+23953711000001101	Alfuzosin 2.5mg tablets (Milpharm Ltd)
+23953811000001109	Alfuzosin 2.5mg tablets (Milpharm Ltd)
+37029111000001104	Alfuzosin 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+37029211000001105	Alfuzosin 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+38773811000001104	Alfuzosin 2.5mg tablets (Medihealth (Northern) Ltd)
+38773911000001109	Alfuzosin 2.5mg tablets (Medihealth (Northern) Ltd)
+38897311000001105	Alfuzosin 10mg modified-release tablets
+3188511000001108	Alfuzosin 10mg modified-release tablets
+3188611000001107	Alfuzosin 10mg modified-release tablets
+3188711000001103	Xatral XL 10mg tablets (Sanofi)
+3188811000001106	Xatral XL 10mg tablets (Sanofi)
+3188911000001101	Xatral XL 10mg tablets (Sanofi)
+10767011000001106	Besavar XL 10mg tablets (Zentiva Pharma UK Ltd)
+10767111000001107	Besavar XL 10mg tablets (Zentiva Pharma UK Ltd)
+10984711000001108	Zufal XL 10mg tablets (Teva UK Ltd)
+10984811000001100	Zufal XL 10mg tablets (Teva UK Ltd)
+13127711000001106	Fuzatal XL 10mg tablets (Teva UK Ltd)
+13127811000001103	Fuzatal XL 10mg tablets (Teva UK Ltd)
+17328111000001107	Besavar XL 10mg tablets (Actavis UK Ltd)
+17328211000001101	Besavar XL 10mg tablets (Actavis UK Ltd)
+17540111000001105	Vasran XL 10mg tablets (Ranbaxy (UK) Ltd)
+17540211000001104	Vasran XL 10mg tablets (Ranbaxy (UK) Ltd)
+20533211000001102	Kelanu XL 10mg tablets (Pfizer Ltd)
+20533311000001105	Kelanu XL 10mg tablets (Pfizer Ltd)
+20533411000001103	Kelanu XL 10mg tablets (Pfizer Ltd)
+35134411000001103	Zochek 10mg modified-release tablets (Milpharm Ltd)
+35134511000001104	Zochek 10mg modified-release tablets (Milpharm Ltd)
+3556311000001101	Generic Sultrin Triple Sulfa cream with applicator
+3191511000001102	Generic Sultrin Triple Sulfa cream with applicator
+3191711000001107	Sultrin Triple Sulfa cream with applicator (Janssen-Cilag Ltd)
+3191911000001109	Sultrin Triple Sulfa cream with applicator (Janssen-Cilag Ltd)
+348501006	Estriol 0.01% cream
+3193011000001106	Estriol 0.01% cream
+27327411000001100	Estriol 0.01% cream (Marlborough Pharmaceuticals Ltd)
+27327611000001102	Estriol 0.01% cream (Marlborough Pharmaceuticals Ltd)
+27925011000001107	Estriol 0.01% cream (Alliance Healthcare (Distribution) Ltd)
+27925111000001108	Estriol 0.01% cream (Alliance Healthcare (Distribution) Ltd)
+28090811000001102	Estriol 0.01% cream (A A H Pharmaceuticals Ltd)
+28090911000001107	Estriol 0.01% cream (A A H Pharmaceuticals Ltd)
+37757411000001102	Estriol 0.01% cream (DE Pharmaceuticals)
+37757511000001103	Estriol 0.01% cream (DE Pharmaceuticals)
+3408711000001103	Estriol 0.01% cream with applicator
+3194311000001106	Estriol 0.01% cream with applicator
+3194611000001101	Gynest 0.01% cream with applicator (Marlborough Pharmaceuticals Ltd)
+3195111000001108	Gynest 0.01% cream with applicator (Marlborough Pharmaceuticals Ltd)
+27992111000001109	Estriol 0.01% cream with applicator (Marlborough Pharmaceuticals Ltd)
+27992211000001103	Estriol 0.01% cream with applicator (Marlborough Pharmaceuticals Ltd)
+27993411000001108	Estriol 0.01% cream with applicator (Alliance Healthcare (Distribution) Ltd)
+27993611000001106	Estriol 0.01% cream with applicator (Alliance Healthcare (Distribution) Ltd)
+28091111000001103	Estriol 0.01% cream with applicator (A A H Pharmaceuticals Ltd)
+28091211000001109	Estriol 0.01% cream with applicator (A A H Pharmaceuticals Ltd)
+37758611000001100	Estriol 0.01% cream with applicator (DE Pharmaceuticals)
+37758711000001109	Estriol 0.01% cream with applicator (DE Pharmaceuticals)
+38898711000001105	Estriol 0.01% cream with applicator (Medihealth (Northern) Ltd)
+38901211000001100	Estriol 0.01% cream with applicator (Medihealth (Northern) Ltd)
+3545111000001106	Generic Logynon tablets
+3212511000001107	Generic Logynon tablets
+3212711000001102	Trinordiol tablets (Wyeth Pharmaceuticals)
+3212911000001100	Trinordiol tablets (Wyeth Pharmaceuticals)
+3213311000001106	Logynon tablets (Bayer Plc)
+3213811000001102	Logynon tablets (Bayer Plc)
+17444111000001106	TriRegol tablets (Consilient Health Ltd)
+17444211000001100	TriRegol tablets (Consilient Health Ltd)
+3545011000001105	Generic Logynon ED tablets
+3214711000001107	Generic Logynon ED tablets
+3215011000001109	Logynon ED tablets (Bayer Plc)
+3215811000001103	Logynon ED tablets (Bayer Plc)
+3464511000001102	Generic Trinovum tablets
+3233211000001105	Generic Trinovum tablets
+3233311000001102	Trinovum tablets (Janssen-Cilag Ltd)
+3233611000001107	Trinovum tablets (Janssen-Cilag Ltd)
+3404311000001107	Generic Binovum tablets
+3236111000001109	Generic Binovum tablets
+3236411000001104	Binovum tablets (Janssen-Cilag Ltd)
+3236511000001100	Binovum tablets (Janssen-Cilag Ltd)
+39696511000001106	Indoramin 20mg tablets
+3354311000001105	Indoramin 20mg tablets
+39362011000001107	Indoramin 20mg tablets
+3354611000001100	Doralese Tiltab 20mg tablets (Chemidex Pharma Ltd)
+3355011000001106	Doralese Tiltab 20mg tablets (Chemidex Pharma Ltd)
+7814111000001106	Indoramin 20mg tablets (Viatris UK Healthcare Ltd)
+7814511000001102	Indoramin 20mg tablets (Viatris UK Healthcare Ltd)
+7976711000001102	Indoramin 20mg tablets (Kent Pharma (UK) Ltd)
+7976811000001105	Indoramin 20mg tablets (Kent Pharma (UK) Ltd)
+8094511000001106	Indoramin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+8094611000001105	Indoramin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+39459111000001102	Indoramin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+9050311000001103	Indoramin 20mg tablets (A A H Pharmaceuticals Ltd)
+9050411000001105	Indoramin 20mg tablets (A A H Pharmaceuticals Ltd)
+15102011000001105	Indoramin 20mg tablets (Sigma Pharmaceuticals Plc)
+15102111000001106	Indoramin 20mg tablets (Sigma Pharmaceuticals Plc)
+17933011000001109	Indoramin 20mg tablets (Phoenix Healthcare Distribution Ltd)
+17934811000001100	Indoramin 20mg tablets (Phoenix Healthcare Distribution Ltd)
+19819211000001109	Indoramin 20mg tablets (Almus Pharmaceuticals Ltd)
+19819311000001101	Indoramin 20mg tablets (Almus Pharmaceuticals Ltd)
+22061811000001100	Indoramin 20mg tablets (Waymade Healthcare Plc)
+22062011000001103	Indoramin 20mg tablets (Waymade Healthcare Plc)
+24176811000001103	Indoramin 20mg tablets (DE Pharmaceuticals)
+24177011000001107	Indoramin 20mg tablets (DE Pharmaceuticals)
+40355911000001107	Indoramin 20mg tablets (DE Pharmaceuticals)
+30214111000001109	Indoramin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+30214211000001103	Indoramin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+33789311000001103	Indoramin 20mg tablets (Essential Generics Ltd)
+33789511000001109	Indoramin 20mg tablets (Essential Generics Ltd)
+39001111000001103	Indoramin 20mg tablets (Medihealth (Northern) Ltd)
+39001211000001109	Indoramin 20mg tablets (Medihealth (Northern) Ltd)
+39362111000001108	Indoramin 20mg tablets (Brown & Burk UK Ltd)
+39362211000001102	Indoramin 20mg tablets (Brown & Burk UK Ltd)
+36036011000001108	Miconazole 1.2g vaginal capsules
+3357611000001106	Miconazole 1.2g vaginal capsules
+3357711000001102	Gyno-Daktarin 1200mg vaginal capsules (Janssen-Cilag Ltd)
+3357911000001100	Gyno-Daktarin 1200mg vaginal capsules (Janssen-Cilag Ltd)
+326252009	Miconazole 100mg pessaries
+3358311000001100	Miconazole 100mg pessaries
+3358511000001106	Gyno-Daktarin 100mg pessaries (Janssen-Cilag Ltd)
+3358611000001105	Gyno-Daktarin 100mg pessaries (Janssen-Cilag Ltd)
+39706111000001109	Clotrimazole 500mg pessary and Clotrimazole 2% cream
+3364211000001107	Clotrimazole 500mg pessary and Clotrimazole 2% cream
+3364411000001106	Canesten Combi Pessary & Cream (Bayer Plc)
+3364811000001108	Canesten Combi Pessary & Cream (Bayer Plc)
+3364911000001103	Canesten Combi 500mg pessary and 2% cream (Bayer Plc)
+3365011000001103	Canesten Combi 500mg pessary and 2% cream (Bayer Plc)
+21119311000001103	Canesten Combi 500mg Soft Gel pessary and 2% cream (Bayer Plc)
+21119411000001105	Canesten Combi 500mg Soft Gel pessary and 2% cream (Bayer Plc)
+400419002	Desogestrel 75microgram tablets
+3410511000001107	Desogestrel 75microgram tablets
+36546711000001106	Desogestrel 75microgram tablets
+36546811000001103	Desogestrel 75microgram tablets
+3411311000001106	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+3411611000001101	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+21520611000001101	Nacrez 75microgram tablets (Teva UK Ltd)
+21520711000001105	Nacrez 75microgram tablets (Teva UK Ltd)
+21695811000001107	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+21695911000001102	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+21701011000001107	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+21701111000001108	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+21706911000001101	Desorex 75microgram tablets (Somex Pharma)
+21707011000001102	Desorex 75microgram tablets (Somex Pharma)
+21732311000001109	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+21732411000001102	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+22263411000001107	Cerelle 75microgram tablets (Consilient Health Ltd)
+22263511000001106	Cerelle 75microgram tablets (Consilient Health Ltd)
+22502911000001100	Desomono 75microgram tablets (MedRx Licences Ltd)
+22503011000001108	Desomono 75microgram tablets (MedRx Licences Ltd)
+22665311000001101	Desogestrel 75microgram tablets (Actavis UK Ltd)
+22665411000001108	Desogestrel 75microgram tablets (Actavis UK Ltd)
+23269711000001105	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+23269811000001102	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+23968111000001101	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+23968211000001107	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+24677711000001105	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+24677811000001102	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+29760711000001107	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+29760811000001104	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+29802211000001102	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+29802411000001103	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+30021211000001100	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+30021311000001108	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+34551611000001104	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+34551711000001108	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+35102211000001103	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+35102311000001106	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+36546611000001102	Moonia 75microgram tablets (Stragen UK Ltd)
+36547111000001108	Moonia 75microgram tablets (Stragen UK Ltd)
+36546911000001108	Moonia 75microgram tablets (Stragen UK Ltd)
+36547311000001105	Moonia 75microgram tablets (Stragen UK Ltd)
+38829211000001101	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+38829311000001109	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+38867011000001109	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+38867111000001105	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+35898211000001105	Alprostadil 20microgram powder and solvent for solution for injection vials
+3451011000001103	Alprostadil 20microgram powder and solvent for solution for injection vials
+3451811000001109	Caverject 20microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+3452011000001106	Caverject 20microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+39719011000001100	Miconazole 100mg pessaries and Miconazole 2% cream
+3459111000001103	Miconazole 100mg pessaries and Miconazole 2% cream
+3459211000001109	Gyno-Daktarin Combipack (Janssen-Cilag Ltd)
+3459411000001108	Gyno-Daktarin Combipack (Janssen-Cilag Ltd)
+39718011000001105	Levonorgestrel 20micrograms/24hours intrauterine device
+3493111000001106	Levonorgestrel 20micrograms/24hours intrauterine device
+3493211000001100	Mirena 20micrograms/24hours intrauterine device (Bayer Plc)
+3493311000001108	Mirena 20micrograms/24hours intrauterine device (Bayer Plc)
+29664111000001108	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd)
+29664311000001105	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd)
+40290711000001104	Benilexa One Handed 20micrograms/24hours intrauterine delivery system (Gedeon Richter (UK) Ltd)
+40290811000001107	Benilexa One Handed 20micrograms/24hours intrauterine delivery system (Gedeon Richter (UK) Ltd)
+36041511000001108	Medroxyprogesterone 150mg/1ml suspension for injection vials
+3602811000001106	Medroxyprogesterone 150mg/1ml suspension for injection vials
+3603311000001107	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+3603511000001101	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+3701211000001107	Acetic acid 0.94% vaginal gel
+3697911000001102	Acetic acid 0.94% vaginal gel
+3698011000001100	Aci-Jel 0.94% vaginal jelly (Janssen-Cilag Ltd)
+3698111000001104	Aci-Jel 0.94% vaginal jelly (Janssen-Cilag Ltd)
+35897511000001109	Alprostadil 10microgram powder and solvent for solution for injection vials
+3713711000001102	Alprostadil 10microgram powder and solvent for solution for injection vials
+3713911000001100	Caverject 10microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+3714411000001106	Caverject 10microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+35898411000001109	Alprostadil 40microgram powder and solvent for solution for injection vials
+3714811000001108	Alprostadil 40microgram powder and solvent for solution for injection vials
+3714911000001103	Caverject 40microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+3715111000001102	Caverject 40microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+39690711000001104	Distigmine bromide 5mg tablets
+3749511000001103	Distigmine bromide 5mg tablets
+27376511000001104	Distigmine bromide 5mg tablets
+3749711000001108	Ubretid 5mg tablets (Sanofi)
+3749811000001100	Ubretid 5mg tablets (Sanofi)
+27376611000001100	Distigmine bromide 5mg tablets (Special Order)
+27376811000001101	Distigmine bromide 5mg tablets (Special Order)
+39721911000001107	Povidone-Iodine 200mg pessaries
+3787911000001107	Povidone-Iodine 200mg pessaries
+3788011000001109	Betadine 200mg vaginal pessaries (Molnlycke Health Care Ltd)
+3788111000001105	Betadine 200mg vaginal pessaries (Molnlycke Health Care Ltd)
+35901811000001109	Ammonium chloride mixture sugar free
+3793611000001105	Ammonium chloride mixture sugar free
+5224311000001108	Ammonium chloride mixture sugar free
+18762711000001109	Ammonium chloride mixture sugar free
+3793811000001109	Ammonium chloride mixture sugar free (J M Loveridge Ltd)
+3793911000001104	Ammonium chloride mixture sugar free (J M Loveridge Ltd)
+8188911000001100	Ammonium chloride mixture sugar free (Extemp Order)
+8189111000001105	Ammonium chloride mixture sugar free (Extemp Order)
+18762811000001101	Ammonium chloride mixture sugar free (Special Order)
+18762911000001106	Ammonium chloride mixture sugar free (Special Order)
+3801911000001100	Potassium citrate 1.5g / Citric acid 250mg effervescent tablets sugar free
+3794311000001103	Potassium citrate 1.5g / Citric acid 250mg effervescent tablets sugar free
+3794611000001108	Effercitrate tablets (Cambridge Healthcare Supplies Ltd)
+3794811000001107	Effercitrate tablets (Cambridge Healthcare Supplies Ltd)
+39720111000001103	Nystatin 100,000unit pessaries
+3829611000001103	Nystatin 100,000unit pessaries
+3924311000001101	Nystatin 100,000unit pessaries
+25046911000001109	Nystatin 100,000unit pessaries
+3830111000001103	Nystan 100,000unit pessaries (Bristol-Myers Squibb Pharmaceuticals Ltd)
+3830411000001108	Nystan 100,000unit pessaries (Bristol-Myers Squibb Pharmaceuticals Ltd)
+3924411000001108	Nystatin 100,000unit pessaries (Sanofi)
+3924511000001107	Nystatin 100,000unit pessaries (Sanofi)
+25047011000001108	Nystatin 100,000unit pessaries (Special Order)
+25047211000001103	Nystatin 100,000unit pessaries (Special Order)
+326369008	Mestranol 50microgram / Norethisterone 1mg tablets
+3831211000001103	Mestranol 50microgram / Norethisterone 1mg tablets
+39229811000001109	Mestranol 50microgram / Norethisterone 1mg tablets
+3831411000001104	Norinyl-1 tablets (Pfizer Ltd)
+3831811000001102	Norinyl-1 tablets (Pfizer Ltd)
+39229711000001101	Mestranol 50microgram / Norethisterone 1mg tablets (Imported)
+39229911000001104	Mestranol 50microgram / Norethisterone 1mg tablets (Imported)
+3862011000001106	Alprostadil 20microgram powder and solvent for solution for injection pre-filled disposable devices
+3856111000001104	Alprostadil 20microgram powder and solvent for solution for injection pre-filled disposable devices
+3857111000001101	Caverject Dual Chamber 20microgram powder and solvent for solution for injection (Pfizer Ltd)
+3857311000001104	Caverject Dual Chamber 20microgram powder and solvent for solution for injection (Pfizer Ltd)
+3861911000001104	Alprostadil 10microgram powder and solvent for solution for injection pre-filled disposable devices
+3859111000001107	Alprostadil 10microgram powder and solvent for solution for injection pre-filled disposable devices
+3859611000001104	Caverject Dual Chamber 10microgram powder and solvent for solution for injection (Pfizer Ltd)
+3859711000001108	Caverject Dual Chamber 10microgram powder and solvent for solution for injection (Pfizer Ltd)
+3862111000001107	Alprostadil 40microgram powder and solvent for solution for injection cartridges
+3859811000001100	Alprostadil 40microgram powder and solvent for solution for injection cartridges
+3860111000001108	Viridal Duo Continuation Pack 40microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+3860211000001102	Viridal Duo Continuation Pack 40microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+39113411000001100	Alprostadil 5microgram powder and solvent for solution for injection vials
+3861011000001103	Alprostadil 5microgram powder and solvent for solution for injection vials
+3861111000001102	Caverject 5microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+3861211000001108	Caverject 5microgram powder and solvent for solution for injection vials (Pfizer Ltd)
+36021011000001103	Povidone-Iodine 10% vaginal cleansing solution
+3890811000001104	Povidone-Iodine 10% vaginal cleansing solution
+3891011000001101	Betadine VC Kit 10% solution (Molnlycke Health Care Ltd)
+3891311000001103	Betadine VC Kit 10% solution (Molnlycke Health Care Ltd)
+326478003	Nonoxinol-9 12.5% vaginal foam aerosol
+3901411000001100	Nonoxinol-9 12.5% vaginal foam aerosol
+3901511000001101	Delfen 12.5% contraceptive foam (Janssen-Cilag Ltd)
+3901611000001102	Delfen 12.5% contraceptive foam (Janssen-Cilag Ltd)
+326498008	Bethanechol chloride 10mg tablets
+3933011000001104	Bethanechol chloride 10mg tablets
+3933111000001103	Myotonine 10mg tablets (Glenwood GmbH)
+3933511000001107	Myotonine 10mg tablets (Glenwood GmbH)
+326499000	Bethanechol chloride 25mg tablets
+3934611000001109	Bethanechol chloride 25mg tablets
+3934811000001108	Myotonine 25mg tablets (Glenwood GmbH)
+3935111000001102	Myotonine 25mg tablets (Glenwood GmbH)
+3947811000001103	Clotrimazole 10% cream and Clotrimazole 2% cream
+3943311000001100	Clotrimazole 10% cream and Clotrimazole 2% cream
+3943411000001107	Canesten Combi Internal & External cream (Bayer Plc)
+3943511000001106	Canesten Combi Internal & External cream (Bayer Plc)
+3958911000001106	Generic Hytrin BPH tablets starter pack
+3957711000001108	Generic Hytrin BPH tablets starter pack
+3957811000001100	Hytrin BPH tablets starter pack (Advanz Pharma)
+3957911000001105	Hytrin BPH tablets starter pack (Advanz Pharma)
+36064511000001101	Ergometrine 500micrograms/1ml / Oxytocin 5units/1ml solution for injection ampoules
+3960311000001103	Ergometrine 500micrograms/1ml / Oxytocin 5units/1ml solution for injection ampoules
+3960611000001108	Syntometrine 500micrograms/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+3960811000001107	Syntometrine 500micrograms/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+4090111000001105	Potassium citrate 3g granules sachets sugar free
+4084911000001102	Potassium citrate 3g granules sachets sugar free
+4085011000001102	Cystopurin 3g granules sachets (Bayer Plc)
+4085111000001101	Cystopurin 3g granules sachets (Bayer Plc)
+39721811000001102	Povidone-Iodine 10% vaginal gel
+4085211000001107	Povidone-Iodine 10% vaginal gel
+4085411000001106	Betadine 10% vaginal gel (SSL International Plc)
+4085711000001100	Betadine 10% vaginal gel (SSL International Plc)
+326161003	Ritodrine 10mg tablets
+4089411000001109	Ritodrine 10mg tablets
+4089511000001108	Yutopar 10mg tablets (Durbin Plc)
+4089611000001107	Yutopar 10mg tablets (Durbin Plc)
+326234009	Econazole 150mg pessaries
+4091711000001103	Econazole 150mg pessaries
+4091811000001106	Econazole 150mg pessaries
+4091911000001101	Gyno-Pevaryl 150mg vaginal pessaries (Karo Pharma)
+4092011000001108	Gyno-Pevaryl 150mg vaginal pessaries (Karo Pharma)
+4092111000001109	Ecostatin 150mg pessaries (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4092211000001103	Ecostatin 150mg pessaries (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4093911000001100	Gyno-Pevaryl Once 150mg vaginal pessary (Karo Pharma)
+4094111000001101	Gyno-Pevaryl Once 150mg vaginal pessary (Karo Pharma)
+4094311000001104	Ecostatin-1 pessaries 150mg (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4094411000001106	Ecostatin-1 pessaries 150mg (Bristol-Myers Squibb Pharmaceuticals Ltd)
+39713611000001105	Diethylstilbestrol 500microgram / Lactic acid 5% pessaries
+4105511000001104	Diethylstilbestrol 500microgram / Lactic acid 5% pessaries
+4105611000001100	Tampovagan pessaries (Strides Pharma UK Ltd)
+4105711000001109	Tampovagan pessaries (Strides Pharma UK Ltd)
+407857005	Tadalafil 10mg tablets
+4105811000001101	Tadalafil 10mg tablets
+4105911000001106	Cialis 10mg tablets (Eli Lilly and Company Ltd)
+4106011000001103	Cialis 10mg tablets (Eli Lilly and Company Ltd)
+34912311000001100	Tadalafil 10mg tablets (Teva UK Ltd)
+34912411000001107	Tadalafil 10mg tablets (Teva UK Ltd)
+34935411000001107	Tadalafil 10mg tablets (Viatris UK Healthcare Ltd)
+34935511000001106	Tadalafil 10mg tablets (Viatris UK Healthcare Ltd)
+34938611000001104	Tadalafil 10mg tablets (Aspire Pharma Ltd)
+34938711000001108	Tadalafil 10mg tablets (Aspire Pharma Ltd)
+34960811000001107	Tadalafil 10mg tablets (Sandoz Ltd)
+34960911000001102	Tadalafil 10mg tablets (Sandoz Ltd)
+34965711000001109	Tadalafil 10mg tablets (Accord Healthcare Ltd)
+34965811000001101	Tadalafil 10mg tablets (Accord Healthcare Ltd)
+34968711000001102	Tadalafil 10mg tablets (A A H Pharmaceuticals Ltd)
+34968811000001105	Tadalafil 10mg tablets (A A H Pharmaceuticals Ltd)
+34980411000001108	Tadalafil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+34980511000001107	Tadalafil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+35185811000001105	Tadalafil 10mg tablets (Milpharm Ltd)
+35185911000001100	Tadalafil 10mg tablets (Milpharm Ltd)
+36502811000001105	Tadalafil 10mg tablets (Sovereign Medical Ltd)
+36502911000001100	Tadalafil 10mg tablets (Sovereign Medical Ltd)
+36591311000001108	Tadalafil 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36591511000001102	Tadalafil 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36606111000001105	Tadalafil 10mg tablets (Bristol Laboratories Ltd)
+36606211000001104	Tadalafil 10mg tablets (Bristol Laboratories Ltd)
+37818311000001100	Tadalafil 10mg tablets (DE Pharmaceuticals)
+37818411000001107	Tadalafil 10mg tablets (DE Pharmaceuticals)
+37905211000001105	Tadalafil 10mg tablets (Dawa Ltd)
+37905411000001109	Tadalafil 10mg tablets (Dawa Ltd)
+37979211000001102	Tadalafil 10mg tablets (Medreich Plc)
+37979311000001105	Tadalafil 10mg tablets (Medreich Plc)
+39264811000001102	Tadalafil 10mg tablets (Medihealth (Northern) Ltd)
+39264911000001107	Tadalafil 10mg tablets (Medihealth (Northern) Ltd)
+39357311000001100	Tadalafil 10mg tablets (Noumed Life Sciences Ltd)
+39357411000001107	Tadalafil 10mg tablets (Noumed Life Sciences Ltd)
+407858000	Tadalafil 20mg tablets
+4106111000001102	Tadalafil 20mg tablets
+4106211000001108	Tadalafil 20mg tablets
+18248911000001108	Tadalafil 20mg tablets
+4106311000001100	Cialis 20mg tablets (Eli Lilly and Company Ltd)
+4106411000001107	Cialis 20mg tablets (Eli Lilly and Company Ltd)
+4106511000001106	Cialis 20mg tablets (Eli Lilly and Company Ltd)
+34912511000001106	Tadalafil 20mg tablets (Teva UK Ltd)
+34912611000001105	Tadalafil 20mg tablets (Teva UK Ltd)
+34912711000001101	Tadalafil 20mg tablets (Teva UK Ltd)
+34912811000001109	Tadalafil 20mg tablets (Teva UK Ltd)
+34935611000001105	Tadalafil 20mg tablets (Viatris UK Healthcare Ltd)
+34935711000001101	Tadalafil 20mg tablets (Viatris UK Healthcare Ltd)
+34935811000001109	Tadalafil 20mg tablets (Viatris UK Healthcare Ltd)
+34938811000001100	Tadalafil 20mg tablets (Aspire Pharma Ltd)
+34938911000001105	Tadalafil 20mg tablets (Aspire Pharma Ltd)
+34959711000001100	Talmanco 20mg tablets (Viatris UK Healthcare Ltd)
+34959811000001108	Talmanco 20mg tablets (Viatris UK Healthcare Ltd)
+34961011000001105	Tadalafil 20mg tablets (Sandoz Ltd)
+34961111000001106	Tadalafil 20mg tablets (Sandoz Ltd)
+34961211000001100	Tadalafil 20mg tablets (Sandoz Ltd)
+34965911000001106	Tadalafil 20mg tablets (Accord Healthcare Ltd)
+34966011000001103	Tadalafil 20mg tablets (Accord Healthcare Ltd)
+34966111000001102	Tadalafil 20mg tablets (Accord Healthcare Ltd)
+34968911000001100	Tadalafil 20mg tablets (A A H Pharmaceuticals Ltd)
+34969011000001109	Tadalafil 20mg tablets (A A H Pharmaceuticals Ltd)
+34969111000001105	Tadalafil 20mg tablets (A A H Pharmaceuticals Ltd)
+34969211000001104	Tadalafil 20mg tablets (A A H Pharmaceuticals Ltd)
+34980611000001106	Tadalafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+34980911000001100	Tadalafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+34981111000001109	Tadalafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+34981811000001102	Tadalafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+35186011000001108	Tadalafil 20mg tablets (Milpharm Ltd)
+35186111000001109	Tadalafil 20mg tablets (Milpharm Ltd)
+35186211000001103	Tadalafil 20mg tablets (Milpharm Ltd)
+36502611000001106	Tadalafil 20mg tablets (Sovereign Medical Ltd)
+36502711000001102	Tadalafil 20mg tablets (Sovereign Medical Ltd)
+38726611000001105	Tadalafil 20mg tablets (Sovereign Medical Ltd)
+36592311000001104	Tadalafil 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36592411000001106	Tadalafil 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36592511000001105	Tadalafil 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36592811000001108	Tadalafil 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+37241611000001104	Tadalafil 20mg tablets (Aristo Pharma Ltd)
+37241711000001108	Tadalafil 20mg tablets (Aristo Pharma Ltd)
+37818511000001106	Tadalafil 20mg tablets (DE Pharmaceuticals)
+37818611000001105	Tadalafil 20mg tablets (DE Pharmaceuticals)
+37818711000001101	Tadalafil 20mg tablets (DE Pharmaceuticals)
+37906211000001104	Tadalafil 20mg tablets (Dawa Ltd)
+37906311000001107	Tadalafil 20mg tablets (Dawa Ltd)
+37906411000001100	Tadalafil 20mg tablets (Dawa Ltd)
+39182711000001100	Tadalafil 20mg tablets (Bristol Laboratories Ltd)
+39182811000001108	Tadalafil 20mg tablets (Bristol Laboratories Ltd)
+39265211000001102	Tadalafil 20mg tablets (Medihealth (Northern) Ltd)
+39265311000001105	Tadalafil 20mg tablets (Medihealth (Northern) Ltd)
+39265411000001103	Tadalafil 20mg tablets (Medihealth (Northern) Ltd)
+39357511000001106	Tadalafil 20mg tablets (Noumed Life Sciences Ltd)
+39357611000001105	Tadalafil 20mg tablets (Noumed Life Sciences Ltd)
+39357711000001101	Tadalafil 20mg tablets (Noumed Life Sciences Ltd)
+326124007	Ergometrine 500microgram tablets
+4115811000001103	Ergometrine 500microgram tablets
+4115911000001108	Ergometrine 500microgram tablets (A A H Pharmaceuticals Ltd)
+4116111000001104	Ergometrine 500microgram tablets (A A H Pharmaceuticals Ltd)
+4116211000001105	Ergometrine 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+4116311000001102	Ergometrine 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+9052811000001108	Ergometrine 500microgram tablets (UCB Pharma Ltd)
+9052911000001103	Ergometrine 500microgram tablets (UCB Pharma Ltd)
+326632000	Mandelic acid 1% catheter maintenance solution
+4204211000001101	Mandelic acid 1% catheter maintenance solution
+4204511000001103	Uro-Tainer mandelic acid 1% catheter maintenance solution (B.Braun Medical Ltd)
+4205111000001106	Uro-Tainer mandelic acid 1% catheter maintenance solution (B.Braun Medical Ltd)
+4246511000001102	Yohimbine 5mg tablets
+4237911000001108	Yohimbine 5mg tablets
+32727611000001103	Yohimbine 5mg tablets
+4238211000001100	Prowess Plain 5mg tablets (Harley Street Supplies Ltd)
+4238411000001101	Prowess Plain 5mg tablets (Harley Street Supplies Ltd)
+32727711000001107	Yohimbine 5mg tablets (Special Order)
+32727811000001104	Yohimbine 5mg tablets (Special Order)
+4289611000001104	Chlorhexidine acetate 0.02% catheter maintenance solution
+4289711000001108	Chlorhexidine acetate 0.02% catheter maintenance solution
+4289811000001100	Uro-Tainer chlorhexidine 1:5000 catheter maintenance solution (B.Braun Medical Ltd)
+4289911000001105	Uro-Tainer chlorhexidine 1:5000 catheter maintenance solution (B.Braun Medical Ltd)
+27949211000001102	Chlorhexidine acetate 0.02% catheter maintenance solution (Ennogen Healthcare Ltd)
+27949311000001105	Chlorhexidine acetate 0.02% catheter maintenance solution (Ennogen Healthcare Ltd)
+39706811000001102	Vardenafil 5mg tablets
+4360911000001106	Vardenafil 5mg tablets
+4361011000001103	Vardenafil 5mg tablets
+4361111000001102	Levitra 5mg tablets (Bayer Plc)
+4361211000001108	Levitra 5mg tablets (Bayer Plc)
+4361311000001100	Levitra 5mg tablets (Bayer Plc)
+35993211000001109	Vardenafil 5mg tablets (Viatris UK Healthcare Ltd)
+35993511000001107	Vardenafil 5mg tablets (Viatris UK Healthcare Ltd)
+36235211000001101	Vardenafil 5mg tablets (Accord Healthcare Ltd)
+36235311000001109	Vardenafil 5mg tablets (Accord Healthcare Ltd)
+36235411000001102	Vardenafil 5mg tablets (Accord Healthcare Ltd)
+36238711000001101	Vardenafil 5mg tablets (A A H Pharmaceuticals Ltd)
+36238811000001109	Vardenafil 5mg tablets (A A H Pharmaceuticals Ltd)
+36239011000001108	Vardenafil 5mg tablets (A A H Pharmaceuticals Ltd)
+36240411000001105	Vardenafil 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36240711000001104	Vardenafil 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36504511000001102	Vardenafil 5mg tablets (Sovereign Medical Ltd)
+36504611000001103	Vardenafil 5mg tablets (Sovereign Medical Ltd)
+36508811000001107	Vardenafil 5mg tablets (Aristo Pharma Ltd)
+36508911000001102	Vardenafil 5mg tablets (Aristo Pharma Ltd)
+36509211000001101	Vardenafil 5mg tablets (Aristo Pharma Ltd)
+36562411000001109	Vardenafil 5mg tablets (Rivopharm (UK) Ltd)
+36562511000001108	Vardenafil 5mg tablets (Rivopharm (UK) Ltd)
+36562611000001107	Vardenafil 5mg tablets (Rivopharm (UK) Ltd)
+37241811000001100	Vardenafil 5mg tablets (Zentiva Pharma UK Ltd)
+37241911000001105	Vardenafil 5mg tablets (Zentiva Pharma UK Ltd)
+37242011000001103	Vardenafil 5mg tablets (Zentiva Pharma UK Ltd)
+37833111000001101	Vardenafil 5mg tablets (DE Pharmaceuticals)
+37833211000001107	Vardenafil 5mg tablets (DE Pharmaceuticals)
+40368211000001103	Vardenafil 5mg tablets (DE Pharmaceuticals)
+39922411000001100	Vardenafil 5mg tablets (Medihealth (Northern) Ltd)
+39922611000001102	Vardenafil 5mg tablets (Medihealth (Northern) Ltd)
+39922511000001101	Vardenafil 5mg tablets (Medihealth (Northern) Ltd)
+39706511000001100	Vardenafil 10mg tablets
+4361411000001107	Vardenafil 10mg tablets
+4361511000001106	Vardenafil 10mg tablets
+4361611000001105	Levitra 10mg tablets (Bayer Plc)
+4362011000001106	Levitra 10mg tablets (Bayer Plc)
+4362111000001107	Levitra 10mg tablets (Bayer Plc)
+35993911000001100	Vardenafil 10mg tablets (Viatris UK Healthcare Ltd)
+35994111000001101	Vardenafil 10mg tablets (Viatris UK Healthcare Ltd)
+36235511000001103	Vardenafil 10mg tablets (Accord Healthcare Ltd)
+36235611000001104	Vardenafil 10mg tablets (Accord Healthcare Ltd)
+36235711000001108	Vardenafil 10mg tablets (Accord Healthcare Ltd)
+36239111000001109	Vardenafil 10mg tablets (A A H Pharmaceuticals Ltd)
+36239211000001103	Vardenafil 10mg tablets (A A H Pharmaceuticals Ltd)
+36239311000001106	Vardenafil 10mg tablets (A A H Pharmaceuticals Ltd)
+36240911000001102	Vardenafil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+36241011000001105	Vardenafil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+36504311000001108	Vardenafil 10mg tablets (Sovereign Medical Ltd)
+36504411000001101	Vardenafil 10mg tablets (Sovereign Medical Ltd)
+36509311000001109	Vardenafil 10mg tablets (Aristo Pharma Ltd)
+36509411000001102	Vardenafil 10mg tablets (Aristo Pharma Ltd)
+36509511000001103	Vardenafil 10mg tablets (Aristo Pharma Ltd)
+36562711000001103	Vardenafil 10mg tablets (Rivopharm (UK) Ltd)
+36562811000001106	Vardenafil 10mg tablets (Rivopharm (UK) Ltd)
+36562911000001101	Vardenafil 10mg tablets (Rivopharm (UK) Ltd)
+37242111000001102	Vardenafil 10mg tablets (Zentiva Pharma UK Ltd)
+37242211000001108	Vardenafil 10mg tablets (Zentiva Pharma UK Ltd)
+37242311000001100	Vardenafil 10mg tablets (Zentiva Pharma UK Ltd)
+37833311000001104	Vardenafil 10mg tablets (DE Pharmaceuticals)
+37833411000001106	Vardenafil 10mg tablets (DE Pharmaceuticals)
+40368111000001109	Vardenafil 10mg tablets (DE Pharmaceuticals)
+39923611000001107	Vardenafil 10mg tablets (Medihealth (Northern) Ltd)
+39923811000001106	Vardenafil 10mg tablets (Medihealth (Northern) Ltd)
+39923711000001103	Vardenafil 10mg tablets (Medihealth (Northern) Ltd)
+39706711000001105	Vardenafil 20mg tablets
+4362211000001101	Vardenafil 20mg tablets
+4362611000001104	Vardenafil 20mg tablets
+4363011000001102	Levitra 20mg tablets (Bayer Plc)
+4363111000001101	Levitra 20mg tablets (Bayer Plc)
+4363211000001107	Levitra 20mg tablets (Bayer Plc)
+35994211000001107	Vardenafil 20mg tablets (Viatris UK Healthcare Ltd)
+35994311000001104	Vardenafil 20mg tablets (Viatris UK Healthcare Ltd)
+36235811000001100	Vardenafil 20mg tablets (Accord Healthcare Ltd)
+36235911000001105	Vardenafil 20mg tablets (Accord Healthcare Ltd)
+36236011000001102	Vardenafil 20mg tablets (Accord Healthcare Ltd)
+36239411000001104	Vardenafil 20mg tablets (A A H Pharmaceuticals Ltd)
+36239511000001100	Vardenafil 20mg tablets (A A H Pharmaceuticals Ltd)
+36239611000001101	Vardenafil 20mg tablets (A A H Pharmaceuticals Ltd)
+36241211000001100	Vardenafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+36241311000001108	Vardenafil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+36504011000001105	Vardenafil 20mg tablets (Sovereign Medical Ltd)
+36504211000001100	Vardenafil 20mg tablets (Sovereign Medical Ltd)
+36504111000001106	Vardenafil 20mg tablets (Sovereign Medical Ltd)
+36509611000001104	Vardenafil 20mg tablets (Aristo Pharma Ltd)
+36509711000001108	Vardenafil 20mg tablets (Aristo Pharma Ltd)
+36509811000001100	Vardenafil 20mg tablets (Aristo Pharma Ltd)
+36563011000001109	Vardenafil 20mg tablets (Rivopharm (UK) Ltd)
+36563111000001105	Vardenafil 20mg tablets (Rivopharm (UK) Ltd)
+36563211000001104	Vardenafil 20mg tablets (Rivopharm (UK) Ltd)
+37242411000001107	Vardenafil 20mg tablets (Zentiva Pharma UK Ltd)
+37242511000001106	Vardenafil 20mg tablets (Zentiva Pharma UK Ltd)
+37242611000001105	Vardenafil 20mg tablets (Zentiva Pharma UK Ltd)
+37833511000001105	Vardenafil 20mg tablets (DE Pharmaceuticals)
+37833611000001109	Vardenafil 20mg tablets (DE Pharmaceuticals)
+37833711000001100	Vardenafil 20mg tablets (DE Pharmaceuticals)
+39923111000001104	Vardenafil 20mg tablets (Medihealth (Northern) Ltd)
+39923311000001102	Vardenafil 20mg tablets (Medihealth (Northern) Ltd)
+39923211000001105	Vardenafil 20mg tablets (Medihealth (Northern) Ltd)
+326272004	Nystatin 100,000units/4g application vaginal cream
+4385211000001108	Nystatin 100,000units/4g application vaginal cream
+4385311000001100	Nystan 100,000units/4g application vaginal cream (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4385411000001107	Nystan 100,000units/4g application vaginal cream (Bristol-Myers Squibb Pharmaceuticals Ltd)
+326120003	Dinoprostone 2mg/2.5ml vaginal gel
+4406911000001103	Dinoprostone 2mg/2.5ml vaginal gel
+4407111000001103	Prostin E2 2mg vaginal gel (Pfizer Ltd)
+4407311000001101	Prostin E2 2mg vaginal gel (Pfizer Ltd)
+326121004	Dinoprostone 3mg pessaries
+4408011000001103	Dinoprostone 3mg pessaries
+4408511000001106	Prostin E2 3mg vaginal tablets (Pfizer Ltd)
+4408811000001109	Prostin E2 3mg vaginal tablets (Pfizer Ltd)
+326119009	Dinoprostone 1mg/2.5ml vaginal gel
+4409111000001109	Dinoprostone 1mg/2.5ml vaginal gel
+4410211000001107	Prostin E2 1mg vaginal gel (Pfizer Ltd)
+4410311000001104	Prostin E2 1mg vaginal gel (Pfizer Ltd)
+36023511000001105	Oxytocin 5units/1ml solution for injection ampoules
+4416211000001109	Oxytocin 5units/1ml solution for injection ampoules
+5586011000001104	Oxytocin 5units/1ml solution for injection ampoules
+38540011000001100	Oxytocin 5units/1ml solution for injection ampoules
+4416311000001101	Syntocinon 5units/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+4416411000001108	Syntocinon 5units/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+35564211000001103	Oxytocin 5units/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+35564411000001104	Oxytocin 5units/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+38538511000001105	Oxytocin 5units/1ml solution for injection ampoules (Panpharma UK Ltd)
+38541211000001104	Oxytocin 5units/1ml solution for injection ampoules (Panpharma UK Ltd)
+36023311000001104	Oxytocin 10units/1ml solution for injection ampoules
+4416511000001107	Oxytocin 10units/1ml solution for injection ampoules
+31457911000001101	Oxytocin 10units/1ml solution for injection ampoules
+4416611000001106	Syntocinon 10units/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+4416711000001102	Syntocinon 10units/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+27625511000001100	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (Wockhardt UK Ltd)
+27625811000001102	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (Wockhardt UK Ltd)
+28042111000001103	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (A A H Pharmaceuticals Ltd)
+28042211000001109	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (A A H Pharmaceuticals Ltd)
+39291811000001101	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (A A H Pharmaceuticals Ltd)
+31485411000001105	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (hameln pharma Ltd)
+31485711000001104	Oxytocin 10units/1ml concentrate for solution for infusion ampoules (hameln pharma Ltd)
+34538611000001108	Oxytocin 10units/1ml solution for infusion ampoules (Esteve Pharmaceuticals Ltd)
+34538711000001104	Oxytocin 10units/1ml solution for infusion ampoules (Esteve Pharmaceuticals Ltd)
+35843311000001104	Oxytocin 10units/1ml solution for infusion ampoules (Esteve Pharmaceuticals Ltd)
+35564511000001100	Oxytocin 10units/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+35564711000001105	Oxytocin 10units/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+4436711000001109	Generic Synphase tablets
+4431911000001101	Generic Synphase tablets
+4432011000001108	Synphase tablets (Pfizer Ltd)
+4433611000001106	Synphase tablets (Pfizer Ltd)
+38998911000001103	Synphase tablets (Imported (Germany))
+38999011000001107	Synphase tablets (Imported (Germany))
+38999311000001105	Synphase tablets (Imported (Canada))
+38999911000001106	Synphase tablets (Imported (Canada))
+4503311000001102	Generic Rowatinex capsules
+4495011000001109	Generic Rowatinex capsules
+4495111000001105	Rowatinex capsules (Meadow Laboratories Ltd)
+4495211000001104	Rowatinex capsules (Meadow Laboratories Ltd)
+36064611000001102	Ergometrine 500micrograms/1ml solution for injection ampoules
+4531311000001108	Ergometrine 500micrograms/1ml solution for injection ampoules
+4531511000001102	Ergometrine 500micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4531611000001103	Ergometrine 500micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+5085711000001108	Ergometrine 500micrograms/1ml solution for injection ampoules (hameln pharma Ltd)
+5085811000001100	Ergometrine 500micrograms/1ml solution for injection ampoules (hameln pharma Ltd)
+4558111000001102	Alfuzosin 5mg modified-release tablets
+4537911000001101	Alfuzosin 5mg modified-release tablets
+5605111000001104	Alfuzosin 5mg modified-release tablets
+4538311000001101	Xatral SR 5mg tablets (Sanofi-Synthelabo Ltd)
+4538411000001108	Xatral SR 5mg tablets (Sanofi-Synthelabo Ltd)
+326326000	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546411000001108	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546511000001107	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546611000001106	Eugynon 50 tablets (Schering Health Care Ltd)
+4547011000001101	Eugynon 50 tablets (Schering Health Care Ltd)
+4547111000001100	Schering PC4 tablets (Schering Health Care Ltd)
+4547211000001106	Schering PC4 tablets (Schering Health Care Ltd)
+4547311000001103	Ovran tablets (Wyeth Pharmaceuticals)
+4547411000001105	Ovran tablets (Wyeth Pharmaceuticals)
+4639611000001105	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches
+4607911000001102	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches
+4608311000001102	Evra transdermal patches (Gedeon Richter (UK) Ltd)
+4608811000001106	Evra transdermal patches (Gedeon Richter (UK) Ltd)
+4638611000001101	Sodium bicarbonate 2.623g / Sodium citrate 939mg effervescent granules sachets
+4613911000001108	Sodium bicarbonate 2.623g / Sodium citrate 939mg effervescent granules sachets
+4614011000001106	Cystemme effervescent granules sachets (Abbott Laboratories Ltd)
+4614111000001107	Cystemme effervescent granules sachets (Abbott Laboratories Ltd)
+326603003	Sodium citrate 4g oral granules sachets
+4617511000001106	Sodium citrate 4g oral granules sachets
+4617711000001101	Cystocalm 4g oral granules sachets (Galpharm International Ltd)
+4617911000001104	Cystocalm 4g oral granules sachets (Galpharm International Ltd)
+4940911000001105	Canesten Oasis 4g oral granules sachets cranberry (Bayer Plc)
+4941011000001102	Canesten Oasis 4g oral granules sachets cranberry (Bayer Plc)
+4941111000001101	Canesten Oasis 4g oral granules sachets lemon (Bayer Plc)
+4941311000001104	Canesten Oasis 4g oral granules sachets lemon (Bayer Plc)
+5145111000001106	Cystitis Relief 4g oral granules sachets (Thornton & Ross Ltd)
+5145211000001100	Cystitis Relief 4g oral granules sachets (Thornton & Ross Ltd)
+11145211000001100	Cystitis Relief 4g oral granules sachets (Alliance Healthcare (Distribution) Ltd)
+11145311000001108	Cystitis Relief 4g oral granules sachets (Alliance Healthcare (Distribution) Ltd)
+13879511000001100	Lloydspharmacy Cystitis Relief 4g oral granules sachets (Lloyds Pharmacy Ltd)
+13879711000001105	Lloydspharmacy Cystitis Relief 4g oral granules sachets (Lloyds Pharmacy Ltd)
+20583211000001107	Cystitis Relief 4g oral granules sachets (The Boots Company Plc)
+20583411000001106	Cystitis Relief 4g oral granules sachets (The Boots Company Plc)
+28940211000001100	Cymalon 4g oral granules sachets (Teva UK Ltd)
+28940311000001108	Cymalon 4g oral granules sachets (Teva UK Ltd)
+35998111000001107	CanesOasis Cystitis Relief 4g oral granules sachets (Bayer Plc)
+35998211000001101	CanesOasis Cystitis Relief 4g oral granules sachets (Bayer Plc)
+4623311000001100	Generic Cymalon effervescent granules 6.76g sachets
+4618411000001106	Generic Cymalon effervescent granules 6.76g sachets
+4618511000001105	Cymalon effervescent granules 6.76g sachets (Actavis UK Ltd)
+4618611000001109	Cymalon effervescent granules 6.76g sachets (Actavis UK Ltd)
+4623611000001105	Sodium citrate 4g oral powder sachets
+4618811000001108	Sodium citrate 4g oral powder sachets
+4619311000001105	Numark cystitis treatment 4g oral powder sachets (Numark Ltd)
+4619411000001103	Numark cystitis treatment 4g oral powder sachets (Numark Ltd)
+35898711000001103	Alprostadil 500micrograms/1ml solution for infusion ampoules
+4746011000001103	Alprostadil 500micrograms/1ml solution for infusion ampoules
+4746111000001102	Prostin VR 500micrograms/1ml concentrate for solution for infusion ampoules (Pfizer Ltd)
+4746211000001108	Prostin VR 500micrograms/1ml concentrate for solution for infusion ampoules (Pfizer Ltd)
+36069511000001102	Dinoprostone 5mg/0.5ml solution for infusion ampoules
+4754711000001108	Dinoprostone 5mg/0.5ml solution for infusion ampoules
+4754811000001100	Prostin E2 5mg/0.5ml solution for infusion ampoules (Pfizer Ltd)
+4754911000001105	Prostin E2 5mg/0.5ml solution for infusion ampoules (Pfizer Ltd)
+36069611000001103	Dinoprostone 750micrograms/0.75ml solution for infusion ampoules
+4755011000001105	Dinoprostone 750micrograms/0.75ml solution for infusion ampoules
+4755111000001106	Prostin E2 750micrograms/0.75ml solution for infusion ampoules (Pfizer Ltd)
+4755211000001100	Prostin E2 750micrograms/0.75ml solution for infusion ampoules (Pfizer Ltd)
+35903511000001105	Atosiban 37.5mg/5ml solution for infusion vials
+4789811000001108	Atosiban 37.5mg/5ml solution for infusion vials
+4789911000001103	Tractocile 37.5mg/5ml solution for infusion vials (Ferring Pharmaceuticals Ltd)
+4790011000001106	Tractocile 37.5mg/5ml solution for infusion vials (Ferring Pharmaceuticals Ltd)
+24573911000001105	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Sun Pharmaceutical Industries Europe B.V.)
+24574111000001109	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Sun Pharmaceutical Industries Europe B.V.)
+24917211000001107	Atosiban 37.5mg/5ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+24917311000001104	Atosiban 37.5mg/5ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+34749611000001104	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Bowmed Ibisqus Ltd)
+34749711000001108	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Bowmed Ibisqus Ltd)
+35847811000001102	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Accord Healthcare Ltd)
+35847911000001107	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Accord Healthcare Ltd)
+36967611000001103	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Stragen UK Ltd)
+36967911000001109	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Stragen UK Ltd)
+39802511000001103	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Kent Pharma (UK) Ltd)
+39802611000001104	Atosiban 37.5mg/5ml concentrate for solution for infusion vials (Kent Pharma (UK) Ltd)
+35903611000001109	Atosiban 6.75mg/0.9ml solution for injection vials
+4790611000001104	Atosiban 6.75mg/0.9ml solution for injection vials
+4790711000001108	Tractocile 6.75mg/0.9ml solution for injection vials (Ferring Pharmaceuticals Ltd)
+4790811000001100	Tractocile 6.75mg/0.9ml solution for injection vials (Ferring Pharmaceuticals Ltd)
+24574211000001103	Atosiban 6.75mg/0.9ml solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+24574311000001106	Atosiban 6.75mg/0.9ml solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+24917411000001106	Atosiban 6.75mg/0.9ml solution for injection vials (A A H Pharmaceuticals Ltd)
+24917511000001105	Atosiban 6.75mg/0.9ml solution for injection vials (A A H Pharmaceuticals Ltd)
+36968411000001102	Atosiban 6.75mg/0.9ml solution for injection vials (Stragen UK Ltd)
+36968511000001103	Atosiban 6.75mg/0.9ml solution for injection vials (Stragen UK Ltd)
+329754008	Indometacin 1mg powder for solution for injection vials
+4825111000001107	Indometacin 1mg powder for solution for injection vials
+4825211000001101	Indocid PDA 1mg powder for solution for injection vials (Lundbeck Pharmaceuticals Ireland Ltd)
+4825311000001109	Indocid PDA 1mg powder for solution for injection vials (Lundbeck Pharmaceuticals Ireland Ltd)
+326146004	Mifepristone 200mg tablets
+4829511000001100	Mifepristone 200mg tablets
+28391311000001102	Mifepristone 200mg tablets
+36864011000001105	Mifepristone 200mg tablets
+4830911000001103	Mifegyne 200mg tablets (Nordic Pharma Ltd)
+4831011000001106	Mifegyne 200mg tablets (Nordic Pharma Ltd)
+28391511000001108	Mifepristone 200mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+28391611000001107	Mifepristone 200mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36864311000001108	Mifepristone 200mg tablets (Linepharma International Ltd)
+36864411000001101	Mifepristone 200mg tablets (Linepharma International Ltd)
+36864611000001103	Mifepristone 200mg tablets (Linepharma International Ltd)
+326130007	Gemeprost 1mg pessaries
+4850411000001105	Gemeprost 1mg pessaries
+4850511000001109	Gemeprost 1mg pessaries (Sanofi)
+4850611000001108	Gemeprost 1mg pessaries (Sanofi)
+36770111000001107	Cervagem 1mg pessaries (Sanofi)
+36770211000001101	Cervagem 1mg pessaries (Sanofi)
+36133711000001105	Carboprost 250micrograms/1ml solution for injection ampoules
+4855311000001105	Carboprost 250micrograms/1ml solution for injection ampoules
+4855411000001103	Hemabate 250micrograms/1ml solution for injection ampoules (Pfizer Ltd)
+4855511000001104	Hemabate 250micrograms/1ml solution for injection ampoules (Pfizer Ltd)
+4956211000001101	Chlorhexidine acetate 0.02% irrigation solution 1litre bags
+4944811000001105	Chlorhexidine acetate 0.02% irrigation solution 1litre bags
+4945011000001100	Chlorhexidine acetate 0.02% irrigation solution 1litre bags (Baxter Healthcare Ltd)
+4945111000001104	Chlorhexidine acetate 0.02% irrigation solution 1litre bags (Baxter Healthcare Ltd)
+39719811000001106	Noxytiolin 2.5g irrigation vials
+4947811000001101	Noxytiolin 2.5g irrigation vials
+4948111000001109	Noxyflex-S 2.5g irrigation vials (Geistlich Sons Ltd)
+4948411000001104	Noxyflex-S 2.5g irrigation vials (Geistlich Sons Ltd)
+35934611000001103	Ritodrine 50mg/5ml solution for injection ampoules
+4998411000001108	Ritodrine 50mg/5ml solution for injection ampoules
+4999111000001105	Yutopar 50mg/5ml solution for injection ampoules (Durbin Plc)
+4999211000001104	Yutopar 50mg/5ml solution for injection ampoules (Durbin Plc)
+5049811000001107	Phentolamine 1mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+5048611000001104	Phentolamine 1mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+5048711000001108	Invicorp 1 solution for injection (Senetek Plc)
+5048811000001100	Invicorp 1 solution for injection (Senetek Plc)
+5049911000001102	Phentolamine 2mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+5048911000001105	Phentolamine 2mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+30737211000001109	Phentolamine 2mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+30737311000001101	Phentolamine 2mg/0.35ml / Aviptadil 25micrograms/0.35ml solution for injection ampoules
+5049011000001101	Invicorp 2 solution for injection (Senetek Plc)
+5049111000001100	Invicorp 2 solution for injection (Senetek Plc)
+30737111000001103	Invicorp 25micrograms/2mg/0.35ml solution for injection ampoules (Evolan Pharma AB)
+30737411000001108	Invicorp 25micrograms/2mg/0.35ml solution for injection ampoules (Evolan Pharma AB)
+30737711000001102	Invicorp 25micrograms/2mg/0.35ml solution for injection ampoules (Evolan Pharma AB)
+38894611000001106	Fluconazole 150mg capsule and Clotrimazole 2% cream
+7389211000001101	Fluconazole 150mg capsule and Clotrimazole 2% cream
+7389311000001109	Canesten Oral & Cream Duo (Bayer Plc)
+7389411000001102	Canesten Oral & Cream Duo (Bayer Plc)
+8013111000001100	Duloxetine 20mg gastro-resistant capsules
+8048711000001101	Duloxetine 20mg gastro-resistant capsules
+9648211000001101	Duloxetine 20mg gastro-resistant capsules
+8048811000001109	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+8048911000001104	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+9648311000001109	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+29225411000001105	Duloxetine 20mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+29225611000001108	Duloxetine 20mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+29286911000001103	Duloxetine 20mg gastro-resistant capsules (Accord Healthcare Ltd)
+29287111000001103	Duloxetine 20mg gastro-resistant capsules (Accord Healthcare Ltd)
+29822811000001109	Duloxetine 20mg gastro-resistant capsules (Teva UK Ltd)
+29823011000001107	Duloxetine 20mg gastro-resistant capsules (Teva UK Ltd)
+30052211000001108	Duloxetine 20mg gastro-resistant capsules (DE Pharmaceuticals)
+30052311000001100	Duloxetine 20mg gastro-resistant capsules (DE Pharmaceuticals)
+31080111000001102	Duloxetine 20mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+31080311000001100	Duloxetine 20mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+31894911000001109	Duloxetine 20mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+31895011000001109	Duloxetine 20mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+33672311000001105	Duloxetine 20mg gastro-resistant capsules (Consilient Health Ltd)
+33672511000001104	Duloxetine 20mg gastro-resistant capsules (Consilient Health Ltd)
+34503711000001100	Duloxetine 20mg gastro-resistant capsules (Aspire Pharma Ltd)
+34503811000001108	Duloxetine 20mg gastro-resistant capsules (Aspire Pharma Ltd)
+34758911000001100	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd)
+34759011000001109	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd)
+35142411000001106	Duloxetine 20mg gastro-resistant capsules (Milpharm Ltd)
+35142511000001105	Duloxetine 20mg gastro-resistant capsules (Milpharm Ltd)
+36871311000001102	Dutor 20mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+36871411000001109	Dutor 20mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+37063011000001108	Duloxetine 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+37063211000001103	Duloxetine 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+38877611000001108	Duloxetine 20mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+38877711000001104	Duloxetine 20mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+8013211000001106	Duloxetine 40mg gastro-resistant capsules
+8049011000001108	Duloxetine 40mg gastro-resistant capsules
+8049111000001109	Yentreve 40mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+8049611000001101	Yentreve 40mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+29226211000001100	Duloxetine 40mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+29226411000001101	Duloxetine 40mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+29287811000001105	Duloxetine 40mg gastro-resistant capsules (Accord Healthcare Ltd)
+29288011000001103	Duloxetine 40mg gastro-resistant capsules (Accord Healthcare Ltd)
+29824511000001101	Duloxetine 40mg gastro-resistant capsules (Teva UK Ltd)
+29824711000001106	Duloxetine 40mg gastro-resistant capsules (Teva UK Ltd)
+30052611000001105	Duloxetine 40mg gastro-resistant capsules (DE Pharmaceuticals)
+30052711000001101	Duloxetine 40mg gastro-resistant capsules (DE Pharmaceuticals)
+31078911000001107	Duloxetine 40mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+31079011000001103	Duloxetine 40mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+31895811000001103	Duloxetine 40mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+31896111000001104	Duloxetine 40mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+33672911000001106	Duloxetine 40mg gastro-resistant capsules (Consilient Health Ltd)
+33673011000001103	Duloxetine 40mg gastro-resistant capsules (Consilient Health Ltd)
+34504111000001104	Duloxetine 40mg gastro-resistant capsules (Aspire Pharma Ltd)
+34504211000001105	Duloxetine 40mg gastro-resistant capsules (Aspire Pharma Ltd)
+34761711000001104	Duloxetine 40mg gastro-resistant capsules (Wockhardt UK Ltd)
+34761811000001107	Duloxetine 40mg gastro-resistant capsules (Wockhardt UK Ltd)
+35142811000001108	Duloxetine 40mg gastro-resistant capsules (Milpharm Ltd)
+35142911000001103	Duloxetine 40mg gastro-resistant capsules (Milpharm Ltd)
+36871711000001103	Dutor 40mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+36871811000001106	Dutor 40mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+37063311000001106	Duloxetine 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+37063511000001100	Duloxetine 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+38878011000001100	Duloxetine 40mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+38878111000001104	Duloxetine 40mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+8032211000001105	Ammonium chloride 325mg / Caffeine 100mg gastro-resistant tablets
+8032811000001106	Ammonium chloride 325mg / Caffeine 100mg gastro-resistant tablets
+8033111000001105	Aqua Ban gastro-resistant tablets (G.R. Lane Health Products Ltd)
+8033311000001107	Aqua Ban gastro-resistant tablets (G.R. Lane Health Products Ltd)
+415557006	Solifenacin 5mg tablets
+8045111000001107	Solifenacin 5mg tablets
+24498611000001106	Solifenacin 5mg tablets
+37288611000001101	Solifenacin 5mg tablets
+8045211000001101	Vesicare 5mg tablets (Astellas Pharma Ltd)
+8045311000001109	Vesicare 5mg tablets (Astellas Pharma Ltd)
+36976211000001105	Solifenacin 5mg tablets (Viatris UK Healthcare Ltd)
+36976411000001109	Solifenacin 5mg tablets (Viatris UK Healthcare Ltd)
+37207911000001105	Solifenacin 5mg tablets (Sandoz Ltd)
+37208611000001100	Solifenacin 5mg tablets (Sandoz Ltd)
+37264811000001108	Solifenacin 5mg tablets (Zentiva Pharma UK Ltd)
+37265111000001102	Solifenacin 5mg tablets (Zentiva Pharma UK Ltd)
+37288711000001105	Solifenacin 5mg tablets (Consilient Health Ltd)
+37288811000001102	Solifenacin 5mg tablets (Consilient Health Ltd)
+37288911000001107	Solifenacin 5mg tablets (Consilient Health Ltd)
+37334711000001101	Solifenacin 5mg tablets (Aristo Pharma Ltd)
+37334811000001109	Solifenacin 5mg tablets (Aristo Pharma Ltd)
+37346711000001109	Solifenacin 5mg tablets (Teva UK Ltd)
+37346811000001101	Solifenacin 5mg tablets (Teva UK Ltd)
+37372211000001102	Solifenacin 5mg tablets (Aspire Pharma Ltd)
+37372311000001105	Solifenacin 5mg tablets (Aspire Pharma Ltd)
+37381411000001100	Solifenacin 5mg tablets (Genus Pharmaceuticals Ltd)
+37381611000001102	Solifenacin 5mg tablets (Genus Pharmaceuticals Ltd)
+37423211000001103	Solifenacin 5mg tablets (Accord Healthcare Ltd)
+37423311000001106	Solifenacin 5mg tablets (Accord Healthcare Ltd)
+37477211000001106	Solifenacin 5mg tablets (Tillomed Laboratories Ltd)
+37477311000001103	Solifenacin 5mg tablets (Tillomed Laboratories Ltd)
+37481011000001101	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd)
+37481111000001100	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd)
+37768911000001100	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd)
+37490411000001102	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+37487911000001105	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+37660411000001102	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+37509911000001106	Solifenacin 5mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+37510011000001101	Solifenacin 5mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+37816111000001101	Solifenacin 5mg tablets (DE Pharmaceuticals)
+37816211000001107	Solifenacin 5mg tablets (DE Pharmaceuticals)
+40367711000001109	Solifenacin 5mg tablets (DE Pharmaceuticals)
+38010911000001107	Solifenacin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+38011011000001104	Solifenacin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+38161311000001107	Giraxine 5mg tablets (Medreich Plc)
+38161411000001100	Giraxine 5mg tablets (Medreich Plc)
+38793511000001107	Solifenacin 5mg tablets (Milpharm Ltd)
+38793611000001106	Solifenacin 5mg tablets (Milpharm Ltd)
+39182011000001102	Solifenacin 5mg tablets (Bristol Laboratories Ltd)
+39182211000001107	Solifenacin 5mg tablets (Bristol Laboratories Ltd)
+39250611000001103	Solifenacin 5mg tablets (Medihealth (Northern) Ltd)
+39250711000001107	Solifenacin 5mg tablets (Medihealth (Northern) Ltd)
+39251011000001101	Solifenacin 5mg tablets (Medihealth (Northern) Ltd)
+40486311000001102	Solifenacin 5mg Tablets (Crescent Pharma Ltd)
+40486411000001109	Solifenacin 5mg Tablets (Crescent Pharma Ltd)
+415556002	Solifenacin 10mg tablets
+8045411000001102	Solifenacin 10mg tablets
+24498811000001105	Solifenacin 10mg tablets
+37288211000001103	Solifenacin 10mg tablets
+8045511000001103	Vesicare 10mg tablets (Astellas Pharma Ltd)
+8045611000001104	Vesicare 10mg tablets (Astellas Pharma Ltd)
+36976511000001108	Solifenacin 10mg tablets (Viatris UK Healthcare Ltd)
+36976811000001106	Solifenacin 10mg tablets (Viatris UK Healthcare Ltd)
+37265411000001107	Solifenacin 10mg tablets (Zentiva Pharma UK Ltd)
+37265511000001106	Solifenacin 10mg tablets (Zentiva Pharma UK Ltd)
+37288311000001106	Solifenacin 10mg tablets (Consilient Health Ltd)
+37288411000001104	Solifenacin 10mg tablets (Consilient Health Ltd)
+37288511000001100	Solifenacin 10mg tablets (Consilient Health Ltd)
+37335511000001107	Solifenacin 10mg tablets (Aristo Pharma Ltd)
+37335611000001106	Solifenacin 10mg tablets (Aristo Pharma Ltd)
+37346911000001106	Solifenacin 10mg tablets (Teva UK Ltd)
+37347011000001105	Solifenacin 10mg tablets (Teva UK Ltd)
+37359911000001104	Solifenacin 10mg tablets (Sandoz Ltd)
+37360011000001102	Solifenacin 10mg tablets (Sandoz Ltd)
+37360211000001107	Solifenacin 10mg tablets (Sandoz Ltd)
+37372411000001103	Solifenacin 10mg tablets (Aspire Pharma Ltd)
+37372511000001104	Solifenacin 10mg tablets (Aspire Pharma Ltd)
+37373011000001103	Solifenacin 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+37373111000001102	Solifenacin 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+37382211000001106	Solifenacin 10mg tablets (Genus Pharmaceuticals Ltd)
+37382311000001103	Solifenacin 10mg tablets (Genus Pharmaceuticals Ltd)
+37423411000001104	Solifenacin 10mg tablets (Accord Healthcare Ltd)
+37423511000001100	Solifenacin 10mg tablets (Accord Healthcare Ltd)
+37477011000001101	Solifenacin 10mg tablets (Tillomed Laboratories Ltd)
+37477111000001100	Solifenacin 10mg tablets (Tillomed Laboratories Ltd)
+37481211000001106	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd)
+37481311000001103	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd)
+37769011000001109	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd)
+37490211000001101	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+37490311000001109	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+37660111000001107	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+37509511000001104	Solifenacin 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+37509611000001100	Solifenacin 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+37816311000001104	Solifenacin 10mg tablets (DE Pharmaceuticals)
+37816411000001106	Solifenacin 10mg tablets (DE Pharmaceuticals)
+40367511000001104	Solifenacin 10mg tablets (DE Pharmaceuticals)
+38161511000001101	Giraxine 10mg tablets (Medreich Plc)
+38161611000001102	Giraxine 10mg tablets (Medreich Plc)
+38793711000001102	Solifenacin 10mg tablets (Milpharm Ltd)
+38793811000001105	Solifenacin 10mg tablets (Milpharm Ltd)
+39182311000001104	Solifenacin 10mg tablets (Bristol Laboratories Ltd)
+39182611000001109	Solifenacin 10mg tablets (Bristol Laboratories Ltd)
+39250311000001108	Solifenacin 10mg tablets (Medihealth (Northern) Ltd)
+39250411000001101	Solifenacin 10mg tablets (Medihealth (Northern) Ltd)
+39250911000001109	Solifenacin 10mg tablets (Medihealth (Northern) Ltd)
+40486111000001104	Solifenacin 10mg tablets (Crescent Pharma Ltd)
+40486211000001105	Solifenacin 10mg tablets (Crescent Pharma Ltd)
+8099911000001103	Generic Cymaclear 1.5g/5ml liquid
+8091411000001105	Generic Cymaclear 1.5g/5ml liquid
+8091611000001108	Cymaclear 1.5g/5ml liquid (Teva UK Ltd)
+8091711000001104	Cymaclear 1.5g/5ml liquid (Teva UK Ltd)
+8114311000001109	Chlorhexidine gluconate 0.02% catheter maintenance solution
+8110511000001107	Chlorhexidine gluconate 0.02% catheter maintenance solution
+8110911000001100	Uriflex C chlorhexidine gluconate 0.02% catheter maintenance solution (Coloplast Ltd)
+8111011000001108	Uriflex C chlorhexidine gluconate 0.02% catheter maintenance solution (Coloplast Ltd)
+39710411000001104	Econazole 150mg pessaries and Econazole 1% cream
+8153911000001103	Econazole 150mg pessaries and Econazole 1% cream
+8154411000001109	Econazole 150mg pessaries and Econazole 1% cream
+8154011000001100	Gyno-Pevaryl 150 Combi Pack (Janssen-Cilag Ltd)
+8154111000001104	Gyno-Pevaryl 150 Combi Pack (Janssen-Cilag Ltd)
+8154811000001106	Gyno-Pevaryl 1 Combi Pack (Janssen-Cilag Ltd)
+8155311000001103	Gyno-Pevaryl 1 Combi Pack (Janssen-Cilag Ltd)
+8155511000001109	Ecostatin Twin Pack (Bristol-Myers Squibb Pharmaceuticals Ltd)
+8155811000001107	Ecostatin Twin Pack (Bristol-Myers Squibb Pharmaceuticals Ltd)
+414606006	Levonorgestrel 1.5mg tablets
+8159911000001100	Levonorgestrel 1.5mg tablets
+8160111000001102	Levonelle One Step 1.5mg tablets (Bayer Plc)
+8160211000001108	Levonelle One Step 1.5mg tablets (Bayer Plc)
+9568511000001102	Levonelle 1500microgram tablets (Bayer Plc)
+9568611000001103	Levonelle 1500microgram tablets (Bayer Plc)
+23409111000001109	Upostelle 1500microgram tablets (Gedeon Richter (UK) Ltd)
+23409211000001103	Upostelle 1500microgram tablets (Gedeon Richter (UK) Ltd)
+23411311000001109	Levonorgestrel 1.5mg tablets (Consilient Health Ltd)
+23411411000001102	Levonorgestrel 1.5mg tablets (Consilient Health Ltd)
+27925611000001100	Levonorgestrel 1.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+27925811000001101	Levonorgestrel 1.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+28006811000001103	Isteranda 1.5mg tablets (Sandoz Ltd)
+28006911000001108	Isteranda 1.5mg tablets (Sandoz Ltd)
+28490311000001104	Levonorgestrel 1.5mg tablets (A A H Pharmaceuticals Ltd)
+28490411000001106	Levonorgestrel 1.5mg tablets (A A H Pharmaceuticals Ltd)
+29890411000001101	Levonorgestrel 1.5mg tablets (Sigma Pharmaceuticals Plc)
+29890511000001102	Levonorgestrel 1.5mg tablets (Sigma Pharmaceuticals Plc)
+29912011000001103	Emerres 1.5mg tablets (Morningside Healthcare Ltd)
+29912111000001102	Emerres 1.5mg tablets (Morningside Healthcare Ltd)
+30061011000001102	Levonorgestrel 1.5mg tablets (DE Pharmaceuticals)
+30061111000001101	Levonorgestrel 1.5mg tablets (DE Pharmaceuticals)
+30220411000001101	Levonorgestrel 1.5mg tablets (Mawdsley-Brooks & Company Ltd)
+30220511000001102	Levonorgestrel 1.5mg tablets (Mawdsley-Brooks & Company Ltd)
+30777811000001107	Emerres Una 1.5mg tablets (Morningside Healthcare Ltd)
+30777911000001102	Emerres Una 1.5mg tablets (Morningside Healthcare Ltd)
+32416111000001109	Levonorgestrel 1.5mg tablets (Kent Pharma (UK) Ltd)
+32416211000001103	Levonorgestrel 1.5mg tablets (Kent Pharma (UK) Ltd)
+33018011000001106	Levonorgestrel 1.5mg tablets (Lupin Healthcare (UK) Ltd)
+33018211000001101	Levonorgestrel 1.5mg tablets (Lupin Healthcare (UK) Ltd)
+33549211000001104	Ezinelle 1.5mg tablets (Viatris UK Healthcare Ltd)
+33549311000001107	Ezinelle 1.5mg tablets (Viatris UK Healthcare Ltd)
+33593711000001104	Levonorgestrel 1.5mg tablets (Viatris UK Healthcare Ltd)
+33593911000001102	Levonorgestrel 1.5mg tablets (Viatris UK Healthcare Ltd)
+36014711000001107	Melkine 1.5mg tablets (Crescent Pharma Ltd)
+36014811000001104	Melkine 1.5mg tablets (Crescent Pharma Ltd)
+39016111000001105	Levonorgestrel 1.5mg tablets (Medihealth (Northern) Ltd)
+39016211000001104	Levonorgestrel 1.5mg tablets (Medihealth (Northern) Ltd)
+8514211000001107	Flavoxate 200mg/5ml oral suspension
+8475311000001104	Flavoxate 200mg/5ml oral suspension
+8475411000001106	Flavoxate 200mg/5ml oral suspension (Special Order)
+8475711000001100	Flavoxate 200mg/5ml oral suspension (Special Order)
+8670911000001109	Oxybutynin 5mg/5ml oral solution
+8644911000001100	Oxybutynin 5mg/5ml oral solution
+21312211000001107	Oxybutynin 5mg/5ml oral solution
+8645011000001100	Oxybutynin 5mg/5ml oral solution (Special Order)
+8645111000001104	Oxybutynin 5mg/5ml oral solution (Special Order)
+21312311000001104	Oxybutynin 5mg/5ml oral solution (Special Order)
+8671011000001101	Oxybutynin 5mg/5ml oral suspension
+8645211000001105	Oxybutynin 5mg/5ml oral suspension
+21312411000001106	Oxybutynin 5mg/5ml oral suspension
+8645311000001102	Oxybutynin 5mg/5ml oral suspension (Special Order)
+8645411000001109	Oxybutynin 5mg/5ml oral suspension (Special Order)
+21312511000001105	Oxybutynin 5mg/5ml oral suspension (Special Order)
+8967111000001103	Acetylcysteine 4% solution
+8902811000001106	Acetylcysteine 4% solution
+8903011000001109	Acetylcysteine 4% solution (Special Order)
+8903411000001100	Acetylcysteine 4% solution (Special Order)
+9119311000001108	Generic Cystitis Relief effervescent tablets sugar free
+9118611000001107	Generic Cystitis Relief effervescent tablets sugar free
+9118711000001103	Cystitis Relief effervescent tablets (The Boots Company Plc)
+9118811000001106	Cystitis Relief effervescent tablets (The Boots Company Plc)
+9190511000001106	Oxybutynin 3.9mg/24hours transdermal patches
+9189211000001102	Oxybutynin 3.9mg/24hours transdermal patches
+9189311000001105	Kentera 3.9mg/24hours patches (Accord Healthcare Ltd)
+9189411000001103	Kentera 3.9mg/24hours patches (Accord Healthcare Ltd)
+9470111000001107	Dinoprostone 10mg vaginal device
+9466611000001109	Dinoprostone 10mg vaginal device
+10496511000001105	Dinoprostone 10mg vaginal device
+9466711000001100	Propess 10mg vaginal delivery system (Ferring Pharmaceuticals Ltd)
+9466811000001108	Propess 10mg vaginal delivery system (Ferring Pharmaceuticals Ltd)
+10496611000001109	Propess 10mg vaginal delivery system (Ferring Pharmaceuticals Ltd)
+9484411000001101	Tamsulosin 400microgram modified-release tablets
+9483011000001108	Tamsulosin 400microgram modified-release tablets
+9483111000001109	Flomaxtra XL 400microgram tablets (Astellas Pharma Ltd)
+9483211000001103	Flomaxtra XL 400microgram tablets (Astellas Pharma Ltd)
+18356711000001103	Cositam XL 400microgram tablets (Consilient Health Ltd)
+18356811000001106	Cositam XL 400microgram tablets (Consilient Health Ltd)
+19952511000001102	Faramsil 400microgram modified-release tablets (Sandoz Ltd)
+19952611000001103	Faramsil 400microgram modified-release tablets (Sandoz Ltd)
+22079311000001102	Flectone XL 400microgram tablets (Teva UK Ltd)
+22079411000001109	Flectone XL 400microgram tablets (Teva UK Ltd)
+37813811000001104	Faramsil 400microgram modified-release tablets (NorthStar Healthcare Unlimited Company)
+37814511000001104	Faramsil 400microgram modified-release tablets (NorthStar Healthcare Unlimited Company)
+9575011000001108	Ibuprofen 10mg/2ml solution for infusion ampoules
+9567711000001106	Ibuprofen 10mg/2ml solution for infusion ampoules
+9567811000001103	Pedea 10mg/2ml solution for infusion ampoules (Recordati Rare Diseases UK Ltd)
+9567911000001108	Pedea 10mg/2ml solution for infusion ampoules (Recordati Rare Diseases UK Ltd)
+9904311000001107	Generic Vikonon tablets
+9894611000001107	Generic Vikonon tablets
+9894711000001103	Generic Vikonon tablets
+9896211000001100	Vikonon tablets (Savoy Laboratories (International) Ltd)
+9896311000001108	Vikonon tablets (Savoy Laboratories (International) Ltd)
+9896411000001101	Vikonon tablets (Savoy Laboratories (International) Ltd)
+10256611000001102	Carbetocin 100micrograms/1ml solution for injection ampoules
+10256711000001106	Carbetocin 100micrograms/1ml solution for injection ampoules
+10256911000001108	Pabal 100micrograms/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)
+10257011000001107	Pabal 100micrograms/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)
+10655911000001104	Propiverine 30mg modified-release capsules
+10636611000001104	Propiverine 30mg modified-release capsules
+10636711000001108	Detrunorm XL 30mg capsules (Consilient Health Ltd)
+10636811000001100	Detrunorm XL 30mg capsules (Consilient Health Ltd)
+38894211000001109	Darifenacin 7.5mg modified-release tablets
+10967911000001101	Darifenacin 7.5mg modified-release tablets
+10968011000001104	Emselex 7.5mg modified-release tablets (Aspire Pharma Ltd)
+10968111000001103	Emselex 7.5mg modified-release tablets (Aspire Pharma Ltd)
+38894111000001103	Darifenacin 15mg modified-release tablets
+10968211000001109	Darifenacin 15mg modified-release tablets
+10968311000001101	Emselex 15mg modified-release tablets (Aspire Pharma Ltd)
+10968411000001108	Emselex 15mg modified-release tablets (Aspire Pharma Ltd)
+11262211000001102	Alprostadil 10microgram powder and solvent for solution for injection cartridges with device
+11260311000001106	Alprostadil 10microgram powder and solvent for solution for injection cartridges with device
+11260411000001104	Viridal Duo Starter Pack 10microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11260511000001100	Viridal Duo Starter Pack 10microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11262311000001105	Alprostadil 20microgram powder and solvent for solution for injection cartridges with device
+11260611000001101	Alprostadil 20microgram powder and solvent for solution for injection cartridges with device
+11260711000001105	Viridal Duo Starter Pack 20microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11260811000001102	Viridal Duo Starter Pack 20microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11262411000001103	Alprostadil 40microgram powder and solvent for solution for injection cartridges with device
+11260911000001107	Alprostadil 40microgram powder and solvent for solution for injection cartridges with device
+11261011000001104	Viridal Duo Starter Pack 40microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11261111000001103	Viridal Duo Starter Pack 40microgram powder and solvent for solution for injection cartridges with device (Advanz Pharma)
+11389311000001105	Dimethyl sulfoxide 50% solution for instillation
+11389411000001103	Dimethyl sulfoxide 50% solution for instillation
+11389511000001104	Rimso-50 solution for instillation (Thornton & Ross Ltd)
+11389611000001100	Rimso-50 solution for instillation (Thornton & Ross Ltd)
+35897311000001103	Alprostadil 10microgram powder and solvent for solution for injection cartridges
+11587711000001104	Alprostadil 10microgram powder and solvent for solution for injection cartridges
+11587811000001107	Viridal Duo Continuation Pack 10microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+11587911000001102	Viridal Duo Continuation Pack 10microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+35898111000001104	Alprostadil 20microgram powder and solvent for solution for injection cartridges
+11588411000001109	Alprostadil 20microgram powder and solvent for solution for injection cartridges
+11588711000001103	Viridal Duo Continuation Pack 20microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+11588811000001106	Viridal Duo Continuation Pack 20microgram powder and solvent for solution for injection cartridges (Advanz Pharma)
+12081311000001108	Distigmine bromide 5mg/5ml oral suspension
+12049911000001103	Distigmine bromide 5mg/5ml oral suspension
+12050011000001107	Distigmine bromide 5mg/5ml oral suspension (Special Order)
+12050111000001108	Distigmine bromide 5mg/5ml oral suspension (Special Order)
+12081211000001100	Distigmine bromide 5mg/5ml oral solution
+12050511000001104	Distigmine bromide 5mg/5ml oral solution
+12050611000001100	Distigmine bromide 5mg/5ml oral solution (Special Order)
+12050711000001109	Distigmine bromide 5mg/5ml oral solution (Special Order)
+12286311000001107	Bethanechol chloride 1.8mg/5ml oral suspension
+12230911000001102	Bethanechol chloride 1.8mg/5ml oral suspension
+12231011000001105	Bethanechol chloride 1.8mg/5ml oral suspension (Special Order)
+12231111000001106	Bethanechol chloride 1.8mg/5ml oral suspension (Special Order)
+12286211000001104	Bethanechol chloride 1.8mg/5ml oral solution
+12231211000001100	Bethanechol chloride 1.8mg/5ml oral solution
+12231311000001108	Bethanechol chloride 1.8mg/5ml oral solution (Special Order)
+12231411000001101	Bethanechol chloride 1.8mg/5ml oral solution (Special Order)
+12286511000001101	Bethanechol chloride 10mg/5ml oral suspension
+12231511000001102	Bethanechol chloride 10mg/5ml oral suspension
+12231611000001103	Bethanechol chloride 10mg/5ml oral suspension (Special Order)
+12231711000001107	Bethanechol chloride 10mg/5ml oral suspension (Special Order)
+12286411000001100	Bethanechol chloride 10mg/5ml oral solution
+12231811000001104	Bethanechol chloride 10mg/5ml oral solution
+12231911000001109	Bethanechol chloride 10mg/5ml oral solution (Special Order)
+12232011000001102	Bethanechol chloride 10mg/5ml oral solution (Special Order)
+12618111000001108	Flavoxate 100mg/5ml oral suspension
+12573911000001102	Flavoxate 100mg/5ml oral suspension
+12574011000001104	Flavoxate 100mg/5ml oral suspension (Special Order)
+12574111000001103	Flavoxate 100mg/5ml oral suspension (Special Order)
+12618011000001107	Flavoxate 100mg/5ml oral solution
+12574211000001109	Flavoxate 100mg/5ml oral solution
+12574311000001101	Flavoxate 100mg/5ml oral solution (Special Order)
+12574411000001108	Flavoxate 100mg/5ml oral solution (Special Order)
+12618311000001105	Flavoxate 250mg/5ml oral suspension
+12574911000001100	Flavoxate 250mg/5ml oral suspension
+12575011000001100	Flavoxate 250mg/5ml oral suspension (Special Order)
+12575111000001104	Flavoxate 250mg/5ml oral suspension (Special Order)
+12618211000001102	Flavoxate 250mg/5ml oral solution
+12575211000001105	Flavoxate 250mg/5ml oral solution
+12575311000001102	Flavoxate 250mg/5ml oral solution (Special Order)
+12575411000001109	Flavoxate 250mg/5ml oral solution (Special Order)
+13003311000001100	Oxybutynin 12.5mg/5ml oral solution
+12985611000001108	Oxybutynin 12.5mg/5ml oral solution
+12985711000001104	Oxybutynin 12.5mg/5ml oral solution (Special Order)
+12985811000001107	Oxybutynin 12.5mg/5ml oral solution (Special Order)
+13003411000001107	Oxybutynin 3mg/5ml oral solution
+12986611000001103	Oxybutynin 3mg/5ml oral solution
+12986911000001109	Oxybutynin 3mg/5ml oral solution (Special Order)
+12987111000001109	Oxybutynin 3mg/5ml oral solution (Special Order)
+13003511000001106	Oxybutynin 8mg/5ml oral solution
+12987511000001100	Oxybutynin 8mg/5ml oral solution
+12987811000001102	Oxybutynin 8mg/5ml oral solution (Special Order)
+12988011000001109	Oxybutynin 8mg/5ml oral solution (Special Order)
+13077511000001108	Potassium citrate 2.27g/5ml oral solution
+13048711000001101	Potassium citrate 2.27g/5ml oral solution
+13048811000001109	Potassium citrate 2.27g/5ml oral solution (Special Order)
+13049011000001108	Potassium citrate 2.27g/5ml oral solution (Special Order)
+13077711000001103	Potassium citrate 324.4mg/5ml oral solution
+13049211000001103	Potassium citrate 324.4mg/5ml oral solution
+13049511000001100	Potassium citrate 324.4mg/5ml oral solution (Special Order)
+13049711000001105	Potassium citrate 324.4mg/5ml oral solution (Special Order)
+13299611000001104	Sodium citrate 1.25g/5ml oral solution
+13286511000001109	Sodium citrate 1.25g/5ml oral solution
+13286611000001108	Sodium citrate 1.25g/5ml oral solution (Special Order)
+13286711000001104	Sodium citrate 1.25g/5ml oral solution (Special Order)
+13299711000001108	Sodium citrate 1.47g/5ml oral solution
+13286911000001102	Sodium citrate 1.47g/5ml oral solution
+13286811000001107	Sodium citrate 1.47g/5ml oral solution (Special Order)
+13287011000001103	Sodium citrate 1.47g/5ml oral solution (Special Order)
+13299811000001100	Sodium citrate 1.5g/5ml oral solution
+13287111000001102	Sodium citrate 1.5g/5ml oral solution
+13287211000001108	Sodium citrate 1.5g/5ml oral solution (Special Order)
+13287311000001100	Sodium citrate 1.5g/5ml oral solution (Special Order)
+13299911000001105	Sodium citrate 294.1mg/5ml oral solution
+13287411000001107	Sodium citrate 294.1mg/5ml oral solution
+13287511000001106	Sodium citrate 294.1mg/5ml oral solution (Special Order)
+13287611000001105	Sodium citrate 294.1mg/5ml oral solution (Special Order)
+13300011000001109	Sodium citrate 441.15mg/5ml oral solution
+13287711000001101	Sodium citrate 441.15mg/5ml oral solution
+13287811000001109	Sodium citrate 441.15mg/5ml oral solution (Special Order)
+13287911000001104	Sodium citrate 441.15mg/5ml oral solution (Special Order)
+13300111000001105	Sodium citrate 441mg/5ml oral solution
+13288011000001102	Sodium citrate 441mg/5ml oral solution
+22384511000001103	Sodium citrate 441mg/5ml oral solution
+13288111000001101	Sodium citrate 441mg/5ml oral solution (Special Order)
+13288211000001107	Sodium citrate 441mg/5ml oral solution (Special Order)
+22384611000001104	Sodium citrate 441mg/5ml oral solution (Special Order)
+13300211000001104	Sodium citrate 450mg/5ml oral solution
+13288311000001104	Sodium citrate 450mg/5ml oral solution
+13288411000001106	Sodium citrate 450mg/5ml oral solution (Special Order)
+13288511000001105	Sodium citrate 450mg/5ml oral solution (Special Order)
+13300311000001107	Sodium citrate 588.2mg/5ml oral solution
+13288911000001103	Sodium citrate 588.2mg/5ml oral solution
+13288811000001108	Sodium citrate 588.2mg/5ml oral solution (Special Order)
+13289111000001108	Sodium citrate 588.2mg/5ml oral solution (Special Order)
+38894011000001104	Fesoterodine 4mg modified-release tablets
+13617911000001100	Fesoterodine 4mg modified-release tablets
+37731611000001107	Fesoterodine 4mg modified-release tablets
+13618011000001103	Toviaz 4mg modified-release tablets (Pfizer Ltd)
+13618111000001102	Toviaz 4mg modified-release tablets (Pfizer Ltd)
+38893911000001102	Fesoterodine 8mg modified-release tablets
+13618211000001108	Fesoterodine 8mg modified-release tablets
+37731911000001101	Fesoterodine 8mg modified-release tablets
+13618311000001100	Toviaz 8mg modified-release tablets (Pfizer Ltd)
+13618411000001107	Toviaz 8mg modified-release tablets (Pfizer Ltd)
+13776811000001106	Alfuzosin 10mg/5ml oral solution
+13774611000001103	Alfuzosin 10mg/5ml oral solution
+13774711000001107	Alfuzosin 10mg/5ml oral solution (Special Order)
+13774811000001104	Alfuzosin 10mg/5ml oral solution (Special Order)
+13859611000001103	Sildenafil 2.5mg/5ml oral solution
+13852811000001109	Sildenafil 2.5mg/5ml oral solution
+13852911000001104	Sildenafil 2.5mg/5ml oral solution (Special Order)
+13853011000001107	Sildenafil 2.5mg/5ml oral solution (Special Order)
+13859711000001107	Sildenafil 2.5mg/5ml oral suspension
+13853111000001108	Sildenafil 2.5mg/5ml oral suspension
+13853211000001102	Sildenafil 2.5mg/5ml oral suspension (Special Order)
+13853311000001105	Sildenafil 2.5mg/5ml oral suspension (Special Order)
+14016611000001100	Potassium citrate 6.488g/5ml oral solution
+13979211000001108	Potassium citrate 6.488g/5ml oral solution
+13979311000001100	Potassium citrate 6.488g/5ml oral solution (Special Order)
+13979411000001107	Potassium citrate 6.488g/5ml oral solution (Special Order)
+14017311000001108	Tamsulosin 400microgram oral powder sachets
+13981011000001107	Tamsulosin 400microgram oral powder sachets
+13981411000001103	Tamsulosin 400microgram oral powder sachets (Special Order)
+13981511000001104	Tamsulosin 400microgram oral powder sachets (Special Order)
+14058011000001104	Sildenafil 25mg/5ml oral solution
+14031011000001106	Sildenafil 25mg/5ml oral solution
+14031211000001101	Sildenafil 25mg/5ml oral solution (Special Order)
+14031411000001102	Sildenafil 25mg/5ml oral solution (Special Order)
+14058111000001103	Sildenafil 25mg/5ml oral suspension
+14031511000001103	Sildenafil 25mg/5ml oral suspension
+22250911000001100	Sildenafil 25mg/5ml oral suspension
+14031711000001108	Sildenafil 25mg/5ml oral suspension (Drug Tariff Special Order)
+14031911000001105	Sildenafil 25mg/5ml oral suspension (Drug Tariff Special Order)
+22251011000001108	Sildenafil 25mg/5ml oral suspension (Drug Tariff Special Order)
+14160411000001105	Tolterodine 2mg/5ml oral solution
+14077211000001108	Tolterodine 2mg/5ml oral solution
+14077311000001100	Tolterodine 2mg/5ml oral solution (Special Order)
+14077411000001107	Tolterodine 2mg/5ml oral solution (Special Order)
+14160511000001109	Tolterodine 2mg/5ml oral suspension
+14077511000001106	Tolterodine 2mg/5ml oral suspension
+22251711000001105	Tolterodine 2mg/5ml oral suspension
+14077611000001105	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order)
+14077711000001101	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order)
+22251811000001102	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order)
+14160211000001106	Sildenafil 5mg/5ml oral solution
+14080511000001104	Sildenafil 5mg/5ml oral solution
+14080611000001100	Sildenafil 5mg/5ml oral solution (Special Order)
+14080811000001101	Sildenafil 5mg/5ml oral solution (Special Order)
+14160311000001103	Sildenafil 5mg/5ml oral suspension
+14081011000001103	Sildenafil 5mg/5ml oral suspension
+21629511000001104	Sildenafil 5mg/5ml oral suspension
+33748911000001104	Sildenafil 5mg/5ml oral suspension
+14081111000001102	Sildenafil 5mg/5ml oral suspension (Special Order)
+14081411000001107	Sildenafil 5mg/5ml oral suspension (Special Order)
+21629611000001100	Sildenafil 5mg/5ml oral suspension (Special Order)
+33749011000001108	Sildenafil 5mg/5ml oral suspension (Special Order)
+14204311000001108	Oxybutynin 5mg/15ml bladder irrigation vials
+14182811000001106	Oxybutynin 5mg/15ml bladder irrigation vials
+14183011000001109	Oxybutynin 5mg/15ml bladder irrigation vials (Special Order)
+14183211000001104	Oxybutynin 5mg/15ml bladder irrigation vials (Special Order)
+15098011000001101	Tadalafil 2.5mg tablets
+15001111000001105	Tadalafil 2.5mg tablets
+15001211000001104	Cialis 2.5mg tablets (Eli Lilly and Company Ltd)
+15001311000001107	Cialis 2.5mg tablets (Eli Lilly and Company Ltd)
+34934611000001109	Tadalafil 2.5mg tablets (Teva UK Ltd)
+34934711000001100	Tadalafil 2.5mg tablets (Teva UK Ltd)
+34960411000001105	Tadalafil 2.5mg tablets (Sandoz Ltd)
+34960511000001109	Tadalafil 2.5mg tablets (Sandoz Ltd)
+34968311000001101	Tadalafil 2.5mg tablets (A A H Pharmaceuticals Ltd)
+34968411000001108	Tadalafil 2.5mg tablets (A A H Pharmaceuticals Ltd)
+34979811000001105	Tadalafil 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+34980211000001109	Tadalafil 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36592111000001101	Tadalafil 2.5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36592211000001107	Tadalafil 2.5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+37146411000001106	Tadalafil 2.5mg tablets (Accord Healthcare Ltd)
+37146511000001105	Tadalafil 2.5mg tablets (Accord Healthcare Ltd)
+37817911000001100	Tadalafil 2.5mg tablets (DE Pharmaceuticals)
+37818011000001103	Tadalafil 2.5mg tablets (DE Pharmaceuticals)
+39265011000001107	Tadalafil 2.5mg tablets (Medihealth (Northern) Ltd)
+39265111000001108	Tadalafil 2.5mg tablets (Medihealth (Northern) Ltd)
+422044000	Tadalafil 5mg tablets
+15001611000001102	Tadalafil 5mg tablets
+15001711000001106	Cialis 5mg tablets (Eli Lilly and Company Ltd)
+15001811000001103	Cialis 5mg tablets (Eli Lilly and Company Ltd)
+34934211000001107	Tadalafil 5mg tablets (Teva UK Ltd)
+34934311000001104	Tadalafil 5mg tablets (Teva UK Ltd)
+34934911000001103	Tadalafil 5mg tablets (Viatris UK Healthcare Ltd)
+34935111000001102	Tadalafil 5mg tablets (Viatris UK Healthcare Ltd)
+34960611000001108	Tadalafil 5mg tablets (Sandoz Ltd)
+34960711000001104	Tadalafil 5mg tablets (Sandoz Ltd)
+34968511000001107	Tadalafil 5mg tablets (A A H Pharmaceuticals Ltd)
+34968611000001106	Tadalafil 5mg tablets (A A H Pharmaceuticals Ltd)
+34980811000001105	Tadalafil 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+34980311000001101	Tadalafil 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+35526811000001103	Tadalafil 5mg tablets (Aspire Pharma Ltd)
+35526911000001108	Tadalafil 5mg tablets (Aspire Pharma Ltd)
+36592611000001109	Tadalafil 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+36592711000001100	Tadalafil 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+37174111000001109	Tadalafil 5mg tablets (Accord Healthcare Ltd)
+37174411000001104	Tadalafil 5mg tablets (Accord Healthcare Ltd)
+37818111000001102	Tadalafil 5mg tablets (DE Pharmaceuticals)
+37818211000001108	Tadalafil 5mg tablets (DE Pharmaceuticals)
+37906711000001106	Tadalafil 5mg tablets (Dawa Ltd)
+37906811000001103	Tadalafil 5mg tablets (Dawa Ltd)
+37979011000001107	Tadalafil 5mg tablets (Medreich Plc)
+37979111000001108	Tadalafil 5mg tablets (Medreich Plc)
+39265511000001104	Tadalafil 5mg tablets (Medihealth (Northern) Ltd)
+39265611000001100	Tadalafil 5mg tablets (Medihealth (Northern) Ltd)
+39357111000001102	Tadalafil 5mg tablets (Noumed Life Sciences Ltd)
+39357211000001108	Tadalafil 5mg tablets (Noumed Life Sciences Ltd)
+40224311000001104	Tadalafil 5mg tablets (Bristol Laboratories Ltd)
+40224411000001106	Tadalafil 5mg tablets (Bristol Laboratories Ltd)
+15125111000001107	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes
+15117911000001109	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes
+15118011000001106	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes (Special Order)
+15118111000001107	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes (Special Order)
+15125211000001101	Oxybutynin 5mg/30ml bladder irrigation vials
+15118211000001101	Oxybutynin 5mg/30ml bladder irrigation vials
+21177611000001105	Oxybutynin 5mg/30ml bladder irrigation vials
+15118311000001109	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order)
+15118411000001102	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order)
+21177711000001101	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order)
+15364711000001109	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+15364411000001103	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+15364511000001104	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+15364611000001100	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+36602211000001100	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+36602311000001108	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+15438811000001107	Tamsulosin 200microgram oral powder sachets
+15426811000001109	Tamsulosin 200microgram oral powder sachets
+15426911000001104	Tamsulosin 200microgram oral powder sachets (Special Order)
+15427111000001104	Tamsulosin 200microgram oral powder sachets (Special Order)
+15452411000001107	Sildenafil 10mg/5ml oral solution
+15448311000001104	Sildenafil 10mg/5ml oral solution
+15448411000001106	Sildenafil 10mg/5ml oral solution (Special Order)
+15448511000001105	Sildenafil 10mg/5ml oral solution (Special Order)
+15452511000001106	Sildenafil 10mg/5ml oral suspension
+15448611000001109	Sildenafil 10mg/5ml oral suspension
+22250711000001102	Sildenafil 10mg/5ml oral suspension
+15448711000001100	Sildenafil 10mg/5ml oral suspension (Drug Tariff Special Order)
+15449011000001107	Sildenafil 10mg/5ml oral suspension (Drug Tariff Special Order)
+22250811000001105	Sildenafil 10mg/5ml oral suspension (Drug Tariff Special Order)
+15473911000001109	Generic Qlaira tablets
+15469911000001104	Generic Qlaira tablets
+15470011000001100	Qlaira tablets (Bayer Plc)
+15470111000001104	Qlaira tablets (Bayer Plc)
+15535311000001102	Trospium chloride 20mg/5ml oral solution
+15526511000001103	Trospium chloride 20mg/5ml oral solution
+15526611000001104	Trospium chloride 20mg/5ml oral solution (Special Order)
+15526711000001108	Trospium chloride 20mg/5ml oral solution (Special Order)
+15535611000001107	Sildenafil 12.5mg/5ml oral solution
+15532211000001100	Sildenafil 12.5mg/5ml oral solution
+15532311000001108	Sildenafil 12.5mg/5ml oral solution (Special Order)
+15532411000001101	Sildenafil 12.5mg/5ml oral solution (Special Order)
+15535711000001103	Sildenafil 12.5mg/5ml oral suspension
+15532611000001103	Sildenafil 12.5mg/5ml oral suspension
+21519711000001109	Sildenafil 12.5mg/5ml oral suspension
+21995211000001105	Sildenafil 12.5mg/5ml oral suspension
+15532711000001107	Sildenafil 12.5mg/5ml oral suspension (Special Order)
+15532911000001109	Sildenafil 12.5mg/5ml oral suspension (Special Order)
+21519811000001101	Sildenafil 12.5mg/5ml oral suspension (Special Order)
+21995311000001102	Sildenafil 12.5mg/5ml oral suspension (Special Order)
+15650211000001105	Sildenafil 50mg/5ml oral solution
+15637011000001100	Sildenafil 50mg/5ml oral solution
+15637111000001104	Sildenafil 50mg/5ml oral solution (Special Order)
+15637211000001105	Sildenafil 50mg/5ml oral solution (Special Order)
+15650111000001104	Sildenafil 50mg/5ml oral suspension
+15637511000001108	Sildenafil 50mg/5ml oral suspension
+15637611000001107	Sildenafil 50mg/5ml oral suspension (Special Order)
+15637811000001106	Sildenafil 50mg/5ml oral suspension (Special Order)
+15857611000001100	Tolterodine 2mg oral powder sachets
+15855711000001103	Tolterodine 2mg oral powder sachets
+15855811000001106	Tolterodine 2mg oral powder sachets (Special Order)
+15855911000001101	Tolterodine 2mg oral powder sachets (Special Order)
+15913111000001101	Boric acid 600mg pessaries
+15883211000001100	Boric acid 600mg pessaries
+15883311000001108	Boric acid 600mg pessaries (Special Order)
+15883411000001101	Boric acid 600mg pessaries (Special Order)
+428011001	Trospium chloride 60mg modified-release capsules
+15976711000001102	Trospium chloride 60mg modified-release capsules
+21279711000001106	Trospium chloride 60mg modified-release capsules
+37376211000001101	Trospium chloride 60mg modified-release capsules
+15976811000001105	Regurin XL 60mg capsules (Viatris UK Healthcare Ltd)
+15976911000001100	Regurin XL 60mg capsules (Viatris UK Healthcare Ltd)
+16102211000001103	Ulipristal 30mg tablets
+16098311000001101	Ulipristal 30mg tablets
+16098411000001108	EllaOne 30mg tablets (HRA Pharma UK & Ireland Ltd)
+16098511000001107	EllaOne 30mg tablets (HRA Pharma UK & Ireland Ltd)
+16111111000001102	Tolterodine 4mg/5ml oral solution
+16104811000001108	Tolterodine 4mg/5ml oral solution
+16104911000001103	Tolterodine 4mg/5ml oral solution (Special Order)
+16105011000001103	Tolterodine 4mg/5ml oral solution (Special Order)
+16111211000001108	Tolterodine 4mg/5ml oral suspension
+16105111000001102	Tolterodine 4mg/5ml oral suspension
+16105211000001108	Tolterodine 4mg/5ml oral suspension (Special Order)
+16105311000001100	Tolterodine 4mg/5ml oral suspension (Special Order)
+16111011000001103	Tolterodine 1mg/5ml oral suspension
+16105411000001107	Tolterodine 1mg/5ml oral suspension
+16105511000001106	Tolterodine 1mg/5ml oral suspension (Special Order)
+16105611000001105	Tolterodine 1mg/5ml oral suspension (Special Order)
+16110911000001106	Tolterodine 1mg/5ml oral solution
+16105711000001101	Tolterodine 1mg/5ml oral solution
+16105811000001109	Tolterodine 1mg/5ml oral solution (Special Order)
+16105911000001104	Tolterodine 1mg/5ml oral solution (Special Order)
+17013011000001106	Dapoxetine 30mg tablets
+16989211000001105	Dapoxetine 30mg tablets
+16989311000001102	Dapoxetine 30mg tablets
+21559411000001108	Dapoxetine 30mg tablets
+16989411000001109	Priligy 30mg tablets (Imported (Germany))
+16989511000001108	Priligy 30mg tablets (Imported (Germany))
+16989611000001107	Priligy 30mg tablets (Imported (Germany))
+21559511000001107	Dapoxetine 30mg tablets (Special Order)
+21559611000001106	Dapoxetine 30mg tablets (Special Order)
+23362111000001107	Priligy 30mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+23362211000001101	Priligy 30mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+23362311000001109	Priligy 30mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+17013111000001107	Dapoxetine 60mg tablets
+16989711000001103	Dapoxetine 60mg tablets
+16989811000001106	Dapoxetine 60mg tablets
+16989911000001101	Priligy 60mg tablets (Imported (Germany))
+16990011000001109	Priligy 60mg tablets (Imported (Germany))
+16990111000001105	Priligy 60mg tablets (Imported (Germany))
+23361611000001105	Priligy 60mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+23361711000001101	Priligy 60mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+23361811000001109	Priligy 60mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+17181511000001105	Tamsulosin 400microgram / Dutasteride 500microgram capsules
+17177011000001102	Tamsulosin 400microgram / Dutasteride 500microgram capsules
+17177111000001101	Combodart 0.5mg/0.4mg capsules (GlaxoSmithKline UK Ltd)
+17177211000001107	Combodart 0.5mg/0.4mg capsules (GlaxoSmithKline UK Ltd)
+38094211000001105	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Viatris UK Healthcare Ltd)
+38094311000001102	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Viatris UK Healthcare Ltd)
+38350211000001106	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Dr Reddy's Laboratories (UK) Ltd)
+38350411000001105	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Dr Reddy's Laboratories (UK) Ltd)
+38351711000001107	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Thornton & Ross Ltd)
+38351811000001104	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Thornton & Ross Ltd)
+38383811000001108	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Accord Healthcare Ltd)
+38384011000001100	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Accord Healthcare Ltd)
+38563011000001102	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Alliance Healthcare (Distribution) Ltd)
+38563111000001101	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Alliance Healthcare (Distribution) Ltd)
+38563211000001107	Tamsulosin 400microgram / Dutasteride 500microgram capsules (A A H Pharmaceuticals Ltd)
+38563311000001104	Tamsulosin 400microgram / Dutasteride 500microgram capsules (A A H Pharmaceuticals Ltd)
+38618711000001103	Dutrozen 0.5mg/0.4mg capsules (Zentiva Pharma UK Ltd)
+38618811000001106	Dutrozen 0.5mg/0.4mg capsules (Zentiva Pharma UK Ltd)
+39096411000001104	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Aristo Pharma Ltd)
+39096511000001100	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Aristo Pharma Ltd)
+39854111000001105	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Medihealth (Northern) Ltd)
+39854211000001104	Tamsulosin 400microgram / Dutasteride 500microgram capsules (Medihealth (Northern) Ltd)
+40374111000001108	Tamsulosin 400microgram / Dutasteride 500microgram capsules (DE Pharmaceuticals)
+40374211000001102	Tamsulosin 400microgram / Dutasteride 500microgram capsules (DE Pharmaceuticals)
+17995311000001101	Fluconazole 150mg capsule and Clotrimazole 1% cream
+17989811000001107	Fluconazole 150mg capsule and Clotrimazole 1% cream
+17989911000001102	Boots Pharmacy Thrush Duo (The Boots Company Plc)
+17990011000001105	Boots Pharmacy Thrush Duo (The Boots Company Plc)
+18109911000001108	Estradiol 10microgram pessaries
+18093711000001102	Estradiol 10microgram pessaries
+18093811000001105	Vagifem 10microgram vaginal tablets (Novo Nordisk Ltd)
+18093911000001100	Vagifem 10microgram vaginal tablets (Novo Nordisk Ltd)
+38952411000001101	Estradiol 10microgram pessaries (Advanz Pharma)
+38952511000001102	Estradiol 10microgram pessaries (Advanz Pharma)
+39006711000001108	Vagirux 10microgram vaginal tablets (Gedeon Richter (UK) Ltd)
+39006811000001100	Vagirux 10microgram vaginal tablets (Gedeon Richter (UK) Ltd)
+39087711000001107	Estradiol 10microgram pessaries (A A H Pharmaceuticals Ltd)
+39087811000001104	Estradiol 10microgram pessaries (A A H Pharmaceuticals Ltd)
+39220711000001108	Estradiol 10microgram pessaries (Alliance Healthcare (Distribution) Ltd)
+39220811000001100	Estradiol 10microgram pessaries (Alliance Healthcare (Distribution) Ltd)
+39854511000001101	Estradiol 10microgram pessaries (Medihealth (Northern) Ltd)
+39854611000001102	Estradiol 10microgram pessaries (Medihealth (Northern) Ltd)
+40344311000001109	Estradiol 10microgram pessaries (DE Pharmaceuticals)
+40344411000001102	Estradiol 10microgram pessaries (DE Pharmaceuticals)
+18112611000001106	Solifenacin 10mg/5ml oral solution
+18111211000001102	Solifenacin 10mg/5ml oral solution
+18111311000001105	Solifenacin 10mg/5ml oral solution (Special Order)
+18111411000001103	Solifenacin 10mg/5ml oral solution (Special Order)
+18112711000001102	Solifenacin 10mg/5ml oral suspension
+18111511000001104	Solifenacin 10mg/5ml oral suspension
+18111611000001100	Solifenacin 10mg/5ml oral suspension (Special Order)
+18111711000001109	Solifenacin 10mg/5ml oral suspension (Special Order)
+18172011000001107	Fenticonazole 2% vaginal cream
+18170611000001101	Fenticonazole 2% vaginal cream
+18170711000001105	Gynoxin 2% vaginal cream (Recordati Pharmaceuticals Ltd)
+18170811000001102	Gynoxin 2% vaginal cream (Recordati Pharmaceuticals Ltd)
+18172111000001108	Fenticonazole 200mg vaginal capsules
+18171211000001109	Fenticonazole 200mg vaginal capsules
+18171311000001101	Gynoxin 200mg vaginal capsules (Recordati Pharmaceuticals Ltd)
+18171411000001108	Gynoxin 200mg vaginal capsules (Recordati Pharmaceuticals Ltd)
+18172211000001102	Fenticonazole 600mg vaginal capsules
+18171511000001107	Fenticonazole 600mg vaginal capsules
+18171611000001106	Gynoxin 600mg vaginal capsules (Recordati Pharmaceuticals Ltd)
+18171711000001102	Gynoxin 600mg vaginal capsules (Recordati Pharmaceuticals Ltd)
+18502211000001104	Papaverine 30mg/1ml solution for injection vials
+18501211000001106	Papaverine 30mg/1ml solution for injection vials
+18501311000001103	Papaverine 30mg/1ml solution for injection vials (Special Order)
+18501411000001105	Papaverine 30mg/1ml solution for injection vials (Special Order)
+18502311000001107	Papaverine 60mg/2ml solution for injection vials
+18501511000001109	Papaverine 60mg/2ml solution for injection vials
+18501611000001108	Papaverine 60mg/2ml solution for injection vials (Special Order)
+18501711000001104	Papaverine 60mg/2ml solution for injection vials (Special Order)
+18502111000001105	Papaverine 300mg/10ml solution for injection vials
+18501811000001107	Papaverine 300mg/10ml solution for injection vials
+18501911000001102	Papaverine 300mg/10ml solution for injection vials (Special Order)
+18502011000001109	Papaverine 300mg/10ml solution for injection vials (Special Order)
+18684711000001105	Vardenafil 10mg orodispersible tablets sugar free
+18679911000001102	Vardenafil 10mg orodispersible tablets sugar free
+18680111000001100	Levitra 10mg orodispersible tablets (Bayer Plc)
+18680311000001103	Levitra 10mg orodispersible tablets (Bayer Plc)
+38772111000001100	Vardenafil 10mg orodispersible tablets sugar free (Ridge Pharma Ltd)
+38772711000001104	Vardenafil 10mg orodispersible tablets sugar free (Ridge Pharma Ltd)
+38852111000001104	Vardenafil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+38852211000001105	Vardenafil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+326286000	Metronidazole 0.75% vaginal gel
+19174811000001105	Metronidazole 0.75% vaginal gel
+19175211000001105	Zidoval 0.75% vaginal gel (Viatris UK Healthcare Ltd)
+19175411000001109	Zidoval 0.75% vaginal gel (Viatris UK Healthcare Ltd)
+326251002	Miconazole 2% vaginal cream
+19200711000001100	Miconazole 2% vaginal cream
+23931011000001103	Miconazole 2% vaginal cream
+19200811000001108	Gyno-Daktarin 2% vaginal cream (Janssen-Cilag Ltd)
+19200911000001103	Gyno-Daktarin 2% vaginal cream (Janssen-Cilag Ltd)
+19805711000001101	Papaverine 60mg/1ml solution for injection ampoules
+19825311000001107	Papaverine 60mg/1ml solution for injection ampoules
+19792211000001103	Papaverine 60mg/1ml solution for injection ampoules (Special Order)
+19825411000001100	Papaverine 60mg/1ml solution for injection ampoules (Special Order)
+20001911000001100	Papaverine 40mg/1ml solution for injection ampoules
+19999711000001109	Papaverine 40mg/1ml solution for injection ampoules
+19999811000001101	Papaverine 40mg/1ml solution for injection ampoules
+20001411000001108	Papaverine 40mg/1ml solution for injection ampoules
+19999911000001106	Papaverine 40mg/1ml solution for injection ampoules (Special Order)
+20000111000001109	Papaverine 40mg/1ml solution for injection ampoules (Special Order)
+20000011000001108	Papaverine 40mg/1ml solution for injection ampoules (Special Order)
+20001511000001107	Papaverine 40mg/1ml solution for injection ampoules (Special Order)
+20003111000001102	Papaverine 30mg/2ml solution for injection ampoules
+20003211000001108	Papaverine 30mg/2ml solution for injection ampoules
+20003311000001100	Papaverine 30mg/2ml solution for injection ampoules
+20003411000001107	Papaverine 30mg/2ml solution for injection ampoules (Special Order)
+20003511000001106	Papaverine 30mg/2ml solution for injection ampoules (Special Order)
+20003611000001105	Papaverine 30mg/2ml solution for injection ampoules (Special Order)
+21270411000001105	Citric acid monohydrate 334mg/5ml / Potassium citrate monohydrate 550mg/5ml / Sodium citrate dihydrate 500mg/5ml oral solution
+21270511000001109	Citric acid monohydrate 334mg/5ml / Potassium citrate monohydrate 550mg/5ml / Sodium citrate dihydrate 500mg/5ml oral solution
+21270611000001108	Citric acid monohydrate 334mg/5ml / Potassium citrate monohydrate 550mg/5ml / Sodium citrate dihydrate 500mg/5ml oral solution
+21270711000001104	Tricitrates oral solution (Drug Tariff Special Order)
+21270811000001107	Tricitrates oral solution (Drug Tariff Special Order)
+21270911000001102	Tricitrates oral solution (Drug Tariff Special Order)
+21515011000001105	Oxybutynin 2.5mg/5ml oral suspension
+21316111000001102	Oxybutynin 2.5mg/5ml oral suspension
+21316211000001108	Oxybutynin 2.5mg/5ml oral suspension
+21316311000001100	Oxybutynin 2.5mg/5ml oral suspension (Special Order)
+21316411000001107	Oxybutynin 2.5mg/5ml oral suspension (Special Order)
+21316511000001106	Oxybutynin 2.5mg/5ml oral suspension (Special Order)
+21711311000001107	Ethinylestradiol 20microgram / Drospirenone 3mg tablets
+21707111000001101	Ethinylestradiol 20microgram / Drospirenone 3mg tablets
+22263611000001105	Yaz tablets (Imported (United States))
+22263711000001101	Yaz tablets (Imported (United States))
+30195711000001107	Eloine 0.02mg/3mg tablets (Bayer Plc)
+30196011000001101	Eloine 0.02mg/3mg tablets (Bayer Plc)
+30252711000001105	Daylette 0.02mg/3mg tablets (Consilient Health Ltd)
+30252811000001102	Daylette 0.02mg/3mg tablets (Consilient Health Ltd)
+39069811000001105	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported)
+39069911000001100	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported)
+38893511000001109	Mirabegron 50mg modified-release tablets
+21973011000001107	Mirabegron 50mg modified-release tablets
+21973111000001108	Betmiga 50mg modified-release tablets (Astellas Pharma Ltd)
+21973211000001102	Betmiga 50mg modified-release tablets (Astellas Pharma Ltd)
+38893411000001105	Mirabegron 25mg modified-release tablets
+21973311000001105	Mirabegron 25mg modified-release tablets
+21973411000001103	Betmiga 25mg modified-release tablets (Astellas Pharma Ltd)
+21973511000001104	Betmiga 25mg modified-release tablets (Astellas Pharma Ltd)
+22069911000001109	Acetohydroxamic acid 250mg capsules
+22070011000001108	Acetohydroxamic acid 250mg capsules
+31260511000001103	Acetohydroxamic acid 250mg capsules
+22070111000001109	Acetohydroxamic acid 250mg capsules (Special Order)
+22070211000001103	Acetohydroxamic acid 250mg capsules (Special Order)
+31261011000001102	Uronefrex 250mg capsules (Imported (Spain))
+31261111000001101	Uronefrex 250mg capsules (Imported (Spain))
+22226311000001102	Tolterodine 2mg modified-release capsules
+22174811000001101	Tolterodine 2mg modified-release capsules
+22174911000001106	Neditol XL 2mg capsules (Aspire Pharma Ltd)
+22175011000001106	Neditol XL 2mg capsules (Aspire Pharma Ltd)
+30951311000001101	Mariosea XL 2mg capsules (Teva UK Ltd)
+30951411000001108	Mariosea XL 2mg capsules (Teva UK Ltd)
+38024211000001101	Tolthen XL 2mg capsules (Northumbria Pharma Ltd)
+38024311000001109	Tolthen XL 2mg capsules (Northumbria Pharma Ltd)
+38094011000001100	Tolterma XL 2mg capsules (Macleods Pharma UK Ltd)
+38094111000001104	Tolterma XL 2mg capsules (Macleods Pharma UK Ltd)
+22214111000001104	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+22208711000001108	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+22208811000001100	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+22208911000001105	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+22403311000001100	Estradiol 1.5mg / Nomegestrol 2.5mg tablets
+22311311000001109	Estradiol 1.5mg / Nomegestrol 2.5mg tablets
+22311511000001103	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd)
+22311711000001108	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd)
+22648911000001102	Sildenafil 25mg chewable tablets sugar free
+22518511000001106	Sildenafil 25mg chewable tablets sugar free
+22522411000001104	Sildenafil 25mg chewable tablets sugar free
+22519911000001107	Nipatra 25mg chewable tablets (Advanz Pharma)
+22520211000001104	Nipatra 25mg chewable tablets (Advanz Pharma)
+22522511000001100	Nipatra 25mg chewable tablets (Advanz Pharma)
+22649011000001106	Sildenafil 50mg chewable tablets sugar free
+22519411000001104	Sildenafil 50mg chewable tablets sugar free
+22520411000001100	Sildenafil 50mg chewable tablets sugar free
+22519511000001100	Nipatra 50mg chewable tablets (Advanz Pharma)
+22519611000001101	Nipatra 50mg chewable tablets (Advanz Pharma)
+22520511000001101	Nipatra 50mg chewable tablets (Advanz Pharma)
+22648811000001107	Sildenafil 100mg chewable tablets sugar free
+22521111000001104	Sildenafil 100mg chewable tablets sugar free
+22521411000001109	Sildenafil 100mg chewable tablets sugar free
+22521211000001105	Nipatra 100mg chewable tablets (Advanz Pharma)
+22521311000001102	Nipatra 100mg chewable tablets (Advanz Pharma)
+22521511000001108	Nipatra 100mg chewable tablets (Advanz Pharma)
+23417711000001104	Misoprostol 400microgram tablets
+23414211000001104	Misoprostol 400microgram tablets
+39126411000001102	Misoprostol 400microgram tablets
+23414311000001107	Topogyne 400microgram tablets (Nordic Pharma Ltd)
+23414411000001100	Topogyne 400microgram tablets (Nordic Pharma Ltd)
+39126511000001103	Topogyne 400microgram tablets (Nordic Pharma Ltd)
+23612011000001100	Potassium citrate 540mg modified-release tablets
+23608411000001109	Potassium citrate 540mg modified-release tablets
+23608511000001108	Urocit-K 5mEq tablets (Imported (United States))
+23608611000001107	Urocit-K 5mEq tablets (Imported (United States))
+23676211000001102	Solifenacin 6mg / Tamsulosin 400microgram modified-release tablets
+23674911000001103	Solifenacin 6mg / Tamsulosin 400microgram modified-release tablets
+23675011000001103	Vesomni 6mg/0.4mg modified-release tablets (Astellas Pharma Ltd)
+23675111000001102	Vesomni 6mg/0.4mg modified-release tablets (Astellas Pharma Ltd)
+24408111000001100	Levonorgestrel 13.5mg intrauterine device
+24379511000001104	Levonorgestrel 13.5mg intrauterine device
+24379611000001100	Jaydess 13.5mg intrauterine device (Bayer Plc)
+24379811000001101	Jaydess 13.5mg intrauterine device (Bayer Plc)
+703958008	Avanafil 50mg tablets
+24395711000001100	Avanafil 50mg tablets
+24395811000001108	Avanafil 50mg tablets
+24395911000001103	Spedra 50mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24396111000001107	Spedra 50mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24396311000001109	Spedra 50mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+703959000	Avanafil 100mg tablets
+24396411000001102	Avanafil 100mg tablets
+24396511000001103	Avanafil 100mg tablets
+24396611000001104	Spedra 100mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24396711000001108	Spedra 100mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24396811000001100	Spedra 100mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+703960005	Avanafil 200mg tablets
+24396911000001105	Avanafil 200mg tablets
+24397011000001109	Avanafil 200mg tablets
+24397111000001105	Spedra 200mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24397211000001104	Spedra 200mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24397311000001107	Spedra 200mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+24510711000001108	Tamsulosin 400micrograms/5ml oral solution
+24501011000001104	Tamsulosin 400micrograms/5ml oral solution
+24501111000001103	Tamsulosin 400micrograms/5ml oral solution (Special Order)
+24501211000001109	Tamsulosin 400micrograms/5ml oral solution (Special Order)
+24535011000001105	Alprostadil 3mg/g cream
+24528211000001105	Alprostadil 3mg/g cream
+24528311000001102	Vitaros 3mg/g cream (Ferring Pharmaceuticals Ltd)
+24528411000001109	Vitaros 3mg/g cream (Ferring Pharmaceuticals Ltd)
+24580611000001102	Estradiol 7.5micrograms/24hours vaginal delivery system
+24576211000001108	Estradiol 7.5micrograms/24hours vaginal delivery system
+24576311000001100	Estring 7.5micrograms/24hours vaginal delivery system (Pfizer Ltd)
+24576411000001107	Estring 7.5micrograms/24hours vaginal delivery system (Pfizer Ltd)
+27810611000001108	Propiverine 45mg modified-release capsules
+27338111000001109	Propiverine 45mg modified-release capsules
+27338311000001106	Detrunorm XL 45mg capsules (Consilient Health Ltd)
+27338411000001104	Detrunorm XL 45mg capsules (Consilient Health Ltd)
+27890511000001105	Potassium citrate 280mg capsules
+27874511000001107	Potassium citrate 280mg capsules
+27874611000001106	Potassium citrate 280mg capsules (Special Order)
+27874711000001102	Potassium citrate 280mg capsules (Special Order)
+28049711000001108	Misoprostol 7micrograms/hour vaginal delivery system
+28044711000001107	Misoprostol 7micrograms/hour vaginal delivery system
+28044811000001104	Mysodelle 200micrograms vaginal delivery system (Ferring Pharmaceuticals Ltd)
+28045011000001109	Mysodelle 200micrograms vaginal delivery system (Ferring Pharmaceuticals Ltd)
+28395111000001102	Mifepristone 200mg tablets and Misoprostol 200microgram vaginal tablets
+28391211000001105	Mifepristone 200mg tablets and Misoprostol 200microgram vaginal tablets
+28392011000001108	Medabon Combipack tablets (Sun Pharmaceutical Industries Europe B.V.)
+28392111000001109	Medabon Combipack tablets (Sun Pharmaceutical Industries Europe B.V.)
+28415411000001103	Potassium citrate 600mg capsules
+28397511000001102	Potassium citrate 600mg capsules
+28397611000001103	Potassium citrate 600mg capsules (Special Order)
+28397711000001107	Potassium citrate 600mg capsules (Special Order)
+29732311000001100	Oxybutynin 2.5mg/5ml oral solution sugar free
+29683811000001102	Oxybutynin 2.5mg/5ml oral solution sugar free
+29683911000001107	Oxybutynin 2.5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+29684011000001105	Oxybutynin 2.5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+30333911000001108	Oxybutynin 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30334011000001106	Oxybutynin 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30802311000001108	Oxybutynin 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+30802411000001101	Oxybutynin 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+38072711000001102	Oxybutynin 2.5mg/5ml oral solution sugar free (Brillpharma Ltd)
+38072811000001105	Oxybutynin 2.5mg/5ml oral solution sugar free (Brillpharma Ltd)
+38190211000001107	Oxybutynin 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+38190411000001106	Oxybutynin 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+39391211000001107	Oxybutynin 2.5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+39391311000001104	Oxybutynin 2.5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+39886911000001105	Oxybutynin 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+39887011000001109	Oxybutynin 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+29732411000001107	Oxybutynin 5mg/5ml oral solution sugar free
+29684611000001103	Oxybutynin 5mg/5ml oral solution sugar free
+29684711000001107	Oxybutynin 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+29684811000001104	Oxybutynin 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+29785911000001102	Oxybutynin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+29786011000001105	Oxybutynin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+29948311000001108	Oxybutynin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+29948411000001101	Oxybutynin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+38072911000001100	Oxybutynin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+38073011000001108	Oxybutynin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+38190511000001105	Oxybutynin 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+38190611000001109	Oxybutynin 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+39071211000001100	Oxybutynin 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+39071511000001102	Oxybutynin 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+39391411000001106	Oxybutynin 5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+39391511000001105	Oxybutynin 5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+32615611000001109	Dequalinium chloride 10mg vaginal tablets
+32491211000001105	Dequalinium chloride 10mg vaginal tablets
+32491311000001102	Fluomizin 10mg vaginal tablets (Kora Healthcare)
+32491411000001109	Fluomizin 10mg vaginal tablets (Kora Healthcare)
+32656511000001105	Tamsulosin 400micrograms/5ml oral suspension
+32507911000001102	Tamsulosin 400micrograms/5ml oral suspension
+32508011000001100	Tamsulosin 400micrograms/5ml oral suspension
+32508111000001104	Tamsulosin 400micrograms/5ml oral suspension (Drug Tariff Special Order)
+32508211000001105	Tamsulosin 400micrograms/5ml oral suspension (Drug Tariff Special Order)
+32508311000001102	Tamsulosin 400micrograms/5ml oral suspension (Drug Tariff Special Order)
+32638211000001109	Secnidazole 2g granules sachets
+32624911000001105	Secnidazole 2g granules sachets
+32625011000001105	Secnidazole 2g granules sachets (Special Order)
+32625111000001106	Secnidazole 2g granules sachets (Special Order)
+32878811000001104	Oxybutynin 3mg/5ml oral suspension
+32844511000001105	Oxybutynin 3mg/5ml oral suspension
+32844611000001109	Oxybutynin 3mg/5ml oral suspension (Special Order)
+32844711000001100	Oxybutynin 3mg/5ml oral suspension (Special Order)
+34734911000001108	Lidocaine 7.5mg/actuation / Prilocaine 2.5mg/actuation cutaneous spray
+34733711000001109	Lidocaine 7.5mg/actuation / Prilocaine 2.5mg/actuation cutaneous spray
+34733811000001101	Fortacin 150mg/ml / 50mg/ml cutaneous spray (Plethora Solutions Ltd)
+34733911000001106	Fortacin 150mg/ml / 50mg/ml cutaneous spray (Plethora Solutions Ltd)
+36617311000001108	Fortacin 150mg/ml / 50mg/ml cutaneous spray (Recordati Pharmaceuticals Ltd)
+36617411000001101	Fortacin 150mg/ml / 50mg/ml cutaneous spray (Recordati Pharmaceuticals Ltd)
+34749211000001101	Atosiban 6.75mg/0.9ml solution for injection ampoules
+34749311000001109	Atosiban 6.75mg/0.9ml solution for injection ampoules
+34749411000001102	Atosiban 6.75mg/0.9ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+34749511000001103	Atosiban 6.75mg/0.9ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+34786911000001109	Generic Vagi-Wave
+34786211000001100	Generic Vagi-Wave
+34786311000001108	Vagi-Wave (Vagi-Moose Ltd)
+34786411000001101	Vagi-Wave (Vagi-Moose Ltd)
+35086211000001109	Levonorgestrel 19.5mg intrauterine device
+35058711000001107	Levonorgestrel 19.5mg intrauterine device
+35058811000001104	Kyleena 19.5mg intrauterine device (Bayer Plc)
+35058911000001109	Kyleena 19.5mg intrauterine device (Bayer Plc)
+35147711000001103	Alfuzosin 10mg/5ml oral suspension
+35132011000001101	Alfuzosin 10mg/5ml oral suspension
+35132111000001100	Alfuzosin 10mg/5ml oral suspension (Special Order)
+35132211000001106	Alfuzosin 10mg/5ml oral suspension (Special Order)
+35573611000001109	Carbetocin 100micrograms/1ml solution for injection vials
+35555611000001106	Carbetocin 100micrograms/1ml solution for injection vials
+35555711000001102	Pabal 100micrograms/1ml solution for injection vials (Ferring Pharmaceuticals Ltd)
+35555811000001105	Pabal 100micrograms/1ml solution for injection vials (Ferring Pharmaceuticals Ltd)
+35724911000001101	Ospemifene 60mg tablets
+35724611000001107	Ospemifene 60mg tablets
+35724711000001103	Senshio 60mg tablets (Shionogi BV)
+35724811000001106	Senshio 60mg tablets (Shionogi BV)
+35839511000001108	Sildenafil 20mg/5ml oral suspension
+35834811000001107	Sildenafil 20mg/5ml oral suspension
+35834911000001102	Sildenafil 20mg/5ml oral suspension (Special Order)
+35835011000001102	Sildenafil 20mg/5ml oral suspension (Special Order)
+35839211000001105	Duloxetine 60mg/5ml oral suspension
+35835111000001101	Duloxetine 60mg/5ml oral suspension
+35835211000001107	Duloxetine 60mg/5ml oral suspension (Special Order)
+35835311000001104	Duloxetine 60mg/5ml oral suspension (Special Order)
+35839111000001104	Duloxetine 30mg/5ml oral suspension
+35835511000001105	Duloxetine 30mg/5ml oral suspension
+35835411000001106	Duloxetine 30mg/5ml oral suspension (Special Order)
+35835611000001109	Duloxetine 30mg/5ml oral suspension (Special Order)
+35873511000001109	Solifenacin 1mg/ml oral suspension sugar free
+35848711000001106	Solifenacin 1mg/ml oral suspension sugar free
+35848811000001103	Vesicare 1mg/ml oral suspension (Astellas Pharma Ltd)
+35848911000001108	Vesicare 1mg/ml oral suspension (Astellas Pharma Ltd)
+37021711000001102	Estriol 50micrograms/g vaginal gel with applicator
+36963111000001103	Estriol 50micrograms/g vaginal gel with applicator
+36963511000001107	Blissel 50micrograms/g vaginal gel with applicator (Flynn Pharma Ltd)
+36963611000001106	Blissel 50micrograms/g vaginal gel with applicator (Flynn Pharma Ltd)
+37501511000001100	Estriol 30microgram pessaries
+37494611000001106	Estriol 30microgram pessaries
+37499911000001104	Imvaggis 0.03mg pessaries (Besins Healthcare (UK) Ltd)
+37500011000001104	Imvaggis 0.03mg pessaries (Besins Healthcare (UK) Ltd)
+37612811000001103	Solifenacin 5mg/5ml oral solution sugar free
+37561411000001100	Solifenacin 5mg/5ml oral solution sugar free
+37561511000001101	Solifenacin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+37561611000001102	Solifenacin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+39219911000001109	Solifenacin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+39220111000001107	Solifenacin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+39312411000001102	Solifenacin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+39312511000001103	Solifenacin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+38244311000001100	Atosiban 6.75mg/0.9ml solution for injection pre-filled syringes
+38237811000001101	Atosiban 6.75mg/0.9ml solution for injection pre-filled syringes
+38237911000001106	Atosiban 6.75mg/0.9ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+38238011000001108	Atosiban 6.75mg/0.9ml solution for injection pre-filled syringes (Accord Healthcare Ltd)

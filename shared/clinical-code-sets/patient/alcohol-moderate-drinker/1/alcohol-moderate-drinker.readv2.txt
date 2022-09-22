@@ -1,0 +1,9 @@
+136O.00	Moderate drinker
+136F.00	Spirit drinker
+136G.00	Beer drinker
+136H.00	Drinks beer and spirits
+136I.00	Drinks wine
+136J.00	Social drinker
+136L.00	Alcohol intake within recommended sensible limits
+136Z.00	Alcohol consumption NOS
+136a.00	Increasing risk drinking

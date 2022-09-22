@@ -1,0 +1,7 @@
+^ESCT1167961	Estimated date of delivery from antenatal ultrasound scan
+^ESCTDU454321	Due date
+^ESCTED454320	EDC - Expected date of confinement
+^ESCTED454322	EDD - Expected date of delivery
+^ESCTES454324	Estimated date of birth
+EMISHGT001	Estimated date of delivery by dates
+EMISHGT002	Estimated date of delivery by scan

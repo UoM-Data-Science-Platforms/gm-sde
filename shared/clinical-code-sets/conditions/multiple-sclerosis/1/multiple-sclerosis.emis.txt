@@ -1,0 +1,3 @@
+EMISNQMU11	Multiple sclerosis - primary progressive
+EMISNQMU12	Multiple sclerosis - secondary progressive
+EMISNQMU13	Multiple sclerosis - relapsing remitting

@@ -1,0 +1,63 @@
+38753911000001106	Promethazine 5mg/5ml oral solution sugar free
+1237411000001109	Promethazine 5mg/5ml oral solution sugar free
+134411000001102	Phenergan 5mg/5ml elixir
+2355511000001109	Phenergan 5mg/5ml elixir
+320775009	Promethazine hydrochloride 10mg tablets
+1280411000001102	Promethazine hydrochloride 10mg tablets
+7999711000001101	Promethazine hydrochloride 10mg tablets
+547211000001103	Phenergan 10mg tablets
+2357411000001104	Phenergan 10mg tablets
+21697311000001106	Promethazine hydrochloride 10mg tablets
+28463611000001103	Promethazine hydrochloride 10mg tablets
+21697411000001104	Promethazine hydrochloride 10mg tablets
+28379011000001108	Promethazine hydrochloride 10mg tablets
+28379111000001109	Promethazine hydrochloride 10mg tablets
+30079911000001107	Promethazine hydrochloride 10mg tablets
+30080011000001108	Promethazine hydrochloride 10mg tablets
+32808511000001107	Promethazine hydrochloride 10mg tablets
+32808611000001106	Promethazine hydrochloride 10mg tablets
+39195411000001102	Promethazine hydrochloride 10mg tablets
+39195511000001103	Promethazine hydrochloride 10mg tablets
+320776005	Promethazine hydrochloride 25mg tablets
+1152811000001105	Promethazine hydrochloride 25mg tablets
+1280311000001109	Promethazine hydrochloride 25mg tablets
+8001511000001107	Promethazine hydrochloride 25mg tablets
+8001611000001106	Promethazine hydrochloride 25mg tablets
+227211000001108	Phenergan Nightime 25mg tablets
+2357511000001100	Phenergan Nightime 25mg tablets
+351811000001108	Phenergan 25mg tablets
+2357611000001101	Phenergan 25mg tablets
+35427811000001109	Promethazine hydrochloride 25mg tablets
+35427911000001104	Promethazine hydrochloride 25mg tablets
+35773011000001103	Promethazine hydrochloride 25mg tablets
+35773111000001102	Promethazine hydrochloride 25mg tablets
+36468711000001106	Promethazine hydrochloride 25mg tablets
+36468811000001103	Promethazine hydrochloride 25mg tablets
+39195211000001101	Promethazine hydrochloride 25mg tablets
+39195311000001109	Promethazine hydrochloride 25mg tablets
+40556511000001109	Promethazine hydrochloride 25mg tablets
+40556611000001108	Promethazine hydrochloride 25mg tablets
+35931511000001104	Promethazine 25mg/1ml solution for injection ampoules
+1325911000001102	Promethazine 25mg/1ml solution for injection ampoules
+60711000001103	Phenergan 25mg/1ml solution for injection ampoules
+2781611000001102	Phenergan 25mg/1ml solution for injection ampoules
+16281311000001100	Promethazine 25mg/1ml solution for injection ampoules
+16281411000001107	Promethazine 25mg/1ml solution for injection ampoules
+348476002	Promethazine hydrochloride 20mg tablets
+4214511000001100	Promethazine hydrochloride 20mg tablets
+10899811000001108	Promethazine hydrochloride 20mg tablets
+4214611000001101	Sominex 20mg tablets
+4214711000001105	Sominex 20mg tablets
+10899911000001103	Sominex 20mg tablets
+13149211000001107	Promethazine 25mg/5ml oral liquid
+13142011000001109	Promethazine 25mg/5ml oral liquid
+13142111000001105	Promethazine 25mg/5ml oral liquid
+13142211000001104	Promethazine 25mg/5ml oral liquid
+13149011000001102	Promethazine 25mg/5ml oral liquid
+13142311000001107	Promethazine 25mg/5ml oral liquid
+13142511000001101	Promethazine 25mg/5ml oral liquid
+13142711000001106	Promethazine 25mg/5ml oral liquid
+16324511000001109	Promethazine 50mg/2ml solution for injection ampoules
+16282911000001105	Promethazine 50mg/2ml solution for injection ampoules
+16283011000001102	Promethazine 50mg/2ml solution for injection ampoules
+16283311000001104	Promethazine 50mg/2ml solution for injection ampoules

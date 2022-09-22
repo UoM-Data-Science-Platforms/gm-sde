@@ -1,0 +1,72 @@
+7E088	Dilation of cervix uteri and curettage of uterus for removal of missed abortion
+9535.	Spontaneous misc 8-28 weeks
+L04..	Miscarriage
+L040.	Spontaneous abortion unspecified
+L0400	Spontaneous abortion with sepsis
+L0401	Spontaneous abortion with heavy bleeding
+L0404	Unspecified spontaneous abortion with metabolic disorder
+L0405	Unspecified spontaneous abortion with shock
+L040w	Unspecified spontaneous abortion with other specified complication
+L040x	Unspecified spontaneous abortion with complication NOS
+L040y	Unspecified spontaneous abortion without mention of complication
+L040z	Unspecified spontaneous abortion NOS
+L041.	Incomplete abortion
+L0410	Incomplete spontaneous abortion with genital tract or pelvic infection
+L0411	Incomplete spontaneous abortion with delayed or excessive haemorrhage
+L041w	Incomplete spontaneous abortion with other specified complication
+L041x	Incomplete spontaneous abortion with complication NOS
+L041y	Incomplete spontaneous abortion with no mention of complication
+L041z	Incomplete spontaneous abortion NOS
+L042.	Complete abortion
+L0420	Complete spontaneous abortion with genital tract or pelvic infection
+L0421	Complete spontaneous abortion with delayed or excessive haemorrhage
+L042w	Complete spontaneous abortion with other specified complication
+L042x	Complete spontaneous abortion with complication NOS
+L042y	Complete spontaneous abortion with no mention of complication
+L042z	Complete spontaneous abortion NOS
+L04z.	Spontaneous abortion NOS
+L0700	Unspecified abortion with genital tract or pelvic infection
+L0703	Unspecified abortion with renal failure
+L0706	Unspecified abortion with embolism
+L070x	Unspecified abortion with complication NOS
+L071.	Unspecified abortion incomplete
+L071y	Unspecified incomplete abortion with no mention of complication
+L097.	Readmission for abortive pregnancy (NHS codes)
+L0970	Readmission for retained products of conception, spontaneous abortion
+L09y.	Other specified complication following abortive pregnancy
+L10zz	(Inevitable abortion) or (early pregnancy haemorrhage NOS)
+Lyu02	[X]Other abortion
+X40BC	Spontaneous abortion with sepsis
+X40BD	Inevitable abortion
+X70Hd	Enzootic abortion
+XaBDd	Inevitable abortion complete
+XaBDe	Complete inevitable abortion complicated by genital tract and pelvic infection
+XaBDf	Complete inevitable abortion complicated by delayed or excessive haemorrhage
+XaBDg	Complete inevitable abortion with other specified complication
+XaBDh	Inevitable abortion incomplete
+XaBDi	Complete inevitable abortion without complication
+XaBDj	Unspecified inevitable abortion with other specified complication
+XaBDk	Unspecified inevitable abortion complicated by embolism
+XaBDl	Unspecified inevitable abortion complicated by delayed or excessive haemorrhage
+XaBDm	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+XaBDn	Inevitable abortion unspecified
+XaBDo	Incomplete inevitable abortion with other specified complication
+XaBDp	Incomplete inevitable abortion with unspecified complication
+XaBDq	Incomplete inevitable abortion complicated by embolism
+XaBDr	Unspecified inevitable abortion with unspecified complication
+XaBDs	Incomplete inevitable abortion without complication
+XaBDt	Incomplete inevitable abortion complicated by genital tract and pelvic infection
+XaBDu	Complete inevitable abortion complicated by embolism
+XaBDv	Unspecified inevitable abortion without complication
+XaBDw	Incomplete inevitable abortion complicated by delayed or excessive haemorrhage
+XaBDx	Complete inevitable abortion with unspecified complication
+XaIrJ	Post miscarriage counselling
+XE0ve	MA - Missed abortion
+XE0vf	Unspecified spontaneous abortion with genital tract or pelvic infection
+XE0vg	Unspecified spontaneous abortion with delayed or excessive haemorrhage
+XE0vh	Incomplete spontaneous abortion NOS
+XE0vm	Readmission for abortive pregnancy
+XE0xg	Other abortive pregnancy
+XE0xY	Miscarriage
+XM1P7	Spontaneous abortion with heavy bleeding
+XM1PB	Retained products after spontaneous abortion

@@ -1,0 +1,80 @@
+L04..11	Miscarriage
+L02..00	Missed abortion
+L10zz11	Inevitable abortion
+L04..00	Spontaneous abortion
+7E08800	Dilation and curettage removal of missed abortion
+L044.00	Inevitable abortion incomplete
+L041.00	Spontaneous abortion incomplete
+L042.00	Spontaneous abortion complete
+L043.00	Inevitable abortion unspecified
+L097000	Readmis for retain products of concept, spontaneous abortion
+L043.11	Inevitable miscarriage unspecified
+L045.11	Inevitable miscarriage complete
+L02..11	Missed miscarriage
+L044.11	Inevitable miscarriage incomp
+L04z.00	Spontaneous abortion NOS
+L041z00	Incomplete spontaneous abortion NOS
+L042z00	Complete spontaneous abortion NOS
+L041z11	Retained products after spontaneous abortion
+L045.00	Inevitable abortion complete
+L045z00	Complete inevitable abortion without complication
+6755.00	Post miscarriage counselling
+L040011	Spontaneous abortion with sepsis
+L041100	Incomp spontaneous abortion + delayed/excessive haemorrhage
+L040.00	Spontaneous abortion unspecified
+L040111	Spontaneous abortion with heavy bleeding
+L040900	Inevitable miscarriage
+L041y00	Incomp spontaneous abortion with no mention of complication
+L044z00	Incomplete inevitable abortion without complication
+L044z11	Incomplete inevitable miscarriage without complication
+L045z11	Complete inevitable miscarriage without complication
+L042y00	Complete spontaneous abortion + no mention of complication
+L040z00	Unspecified spontaneous abortion NOS
+L041w00	Incomp spontaneous abortion + other specified complication
+L045y11	Complete inevitable miscarriage with OS complication
+L045x00	Complete inevitable abortion with unspecified complication
+L045y00	Complete inevitable abortion with OS complication
+L042x00	Complete spontaneous abortion with complication NOS
+9535.00	Spontaneous misc 8-28 weeks
+L043y00	Unspecified inevitable abortion with OS complication
+L041000	Incomp spontaneous abortion + genital tract/pelvic infection
+L043z00	Unspecified inevitable abortion without complication
+L044y00	Incomplete inevitable abortion with OS complication
+L040100	Unspec spontaneous abortion + delayed/excessive haemorrhage
+L040w00	Unspec spontaneous abortion + other specified complication
+L041x00	Incomplete spontaneous abortion with complication NOS
+L040y00	Unspec spontaneous abortion without mention of complication
+L040000	Unspec spontaneous abortion + genital tract/pelvic infection
+L044000	Incomp inev abor comp by genital tract and pelvic infection
+L044x00	Incomplete inevitable abortion with unspecified complication
+L044y11	Incomplete inevitable miscarriage with other specified comp
+L043x00	Unspecified inevitable abortion with unspec complication
+L042w00	Complete spontaneous abortion + other specified complication
+L044x11	Incomplete inevitable miscarriage with unspecified comp
+L044200	Incomplete inevitable abortion complicated by embolism
+L02..12	Silent miscarriage
+L043x11	Unspecified inevitable miscarriage with unspec complication
+L042000	Complete spontaneous abortion + genital tract/pelvic infect
+L040400	Unspecified spontaneous abortion with metabolic disorder
+L040x00	Unspecified spontaneous abortion with complication NOS
+L040500	Unspecified spontaneous abortion with shock
+L045100	Complete inevitable abor comp by delayed or excessive haem
+L043z11	Unspecified inevitable miscarriage without complication
+L042100	Complete spontaneous abortion +delayed/excessive haemorrhage
+L045211	Complete inevitable miscarriage complicated by embolism
+L045111	Complete inevitable miscar comp by delayed or excessive haem
+L045x11	Complete inevitable miscarriage with unspecified comp
+L043y11	Unspecified inevitable miscarriage with OS complication
+L044111	Incomplete inev mis comp by delayed or excessive haemorrhage
+L045000	Complete inev abor comp by genital tract and pelvic infec
+L043100	Unspec inevit abortion comp by delayed or excessive haemorr
+L01..	Other abnormal product of conception
+L01..00	Other abnormal product of conception
+L01z.	Other abnormal product of conception NOS
+L01z.00	Other abnormal product of conception NOS
+L0430	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043000	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043011	Unspecified inevitable miscarriage complicated by genital tract and pelvic infection
+L0432	Unspecified inevitable abortion complicated by embolism
+L043200	Unspecified inevitable abortion complicated by embolism
+L043211	Unspecified inevitable miscarriage complicated by embolism

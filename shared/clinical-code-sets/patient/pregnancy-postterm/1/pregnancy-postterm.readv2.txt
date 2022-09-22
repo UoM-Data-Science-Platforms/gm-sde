@@ -1,0 +1,18 @@
+Q122.00	Postmature infant - greater than 42 weeks gestation, unspec
+L150.00	Post-term pregnancy
+L15..11	Post-term pregnancy
+62O7.00	Pregnancy prolonged - 41 weeks
+L15..00	Prolonged or post-term pregnancy
+635..12	Postmature baby
+L150100	Post-term pregnancy - delivered
+6355.00	Baby post-mature
+L15z.00	Prolonged pregnancy NOS
+62NG.00	A/N 41 week examination
+L150z00	Post-term pregnancy NOS
+62O8.00	Pregnancy prolonged - 42 weeks
+Z244411	Postmature labour
+62NH.00	A/N 42 week examination
+Q12z.00	Large or postmature infant NOS
+L150000	Post-term pregnancy unspecified
+L150200	Post-term pregnancy - not delivered
+Z244400	Late onset of labour

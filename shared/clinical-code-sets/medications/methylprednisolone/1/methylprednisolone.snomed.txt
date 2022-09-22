@@ -1,0 +1,20 @@
+325411009	Methylprednisolone 2mg tablets
+4051011000001106	Methylprednisolone 2mg tablets
+4051211000001101	Medrone 2mg tablets
+4051411000001102	Medrone 2mg tablets
+325412002	Methylprednisolone 4mg tablets
+4051511000001103	Methylprednisolone 4mg tablets
+4051611000001104	Medrone 4mg tablets
+4051711000001108	Medrone 4mg tablets
+325413007	Methylprednisolone 16mg tablets
+4051811000001100	Methylprednisolone 16mg tablets
+4051911000001105	Medrone 16mg tablets
+4052011000001103	Medrone 16mg tablets
+325410005	Methylprednisolone 100mg tablets
+4052111000001102	Methylprednisolone 100mg tablets
+4052211000001108	Medrone 100mg tablets
+4052311000001100	Medrone 100mg tablets
+13005411000001106	Methylprednisolone 1mg/5ml oral suspension
+12950011000001101	Methylprednisolone 1mg/5ml oral suspension
+12950111000001100	Methylprednisolone 1mg/5ml oral suspension
+12950211000001106	Methylprednisolone 1mg/5ml oral suspension

@@ -1,0 +1,466 @@
+^ESCT1190324	Toxemia of pregnancy
+^ESCT1190328	False labor
+^ESCT1190342	Suspected fetal anencephaly
+^ESCT1190343	Suspected fetal damage from maternal alcohol
+^ESCT1190344	Suspected fetal damage from maternal toxoplasmosis
+^ESCT1190345	Suspect trisomy 21 fetus
+^ESCT1192449	Hemorrhage in early pregnancy
+^ESCT1192477	Feeding intention -baby
+^ESCT1192480	Fetal damage from disease in the mother
+^ESCT1192624	Finding of length of gestation
+^ESCT1217135	Congenital malformation due to valproic acid
+^ESCT1217141	Cervical insufficiency
+^ESCT1236831	Difficult tracheal intubation
+^ESCT1236832	Difficult airway intubation
+^ESCT1248792	Mat B1 due
+^ESCT1248795	Mat. anaesth. service claim
+^ESCT1270245	Threatened premature labour
+^ESCT1271726	Known or suspected fetal abnormality
+^ESCT1378903	Meconium stained liquor
+^ESCT1378904	Meconium stained amniotic fluid
+^ESCT1379208	Fetal spina bifida suspected
+^ESCT1379209	Foetal spina bifida suspected
+^ESCT1379210	Fetal hydrocephalus suspected
+^ESCT1379211	Fetal hydrocephaly suspected
+^ESCT1379212	Foetal hydrocephaly suspected
+^ESCT1379213	Foetal hydrocephalus suspected
+^ESCT1382089	Foetal surgery
+^ESCT1382090	Fetal surgery
+^ESCT1407088	Therapeutic fetoscopic operation on fetus
+^ESCT1407089	Therapeutic foetoscopic operation on foetus
+^ESCT1419537	Foetal valproate spectrum disorder
+^ESCT1419538	Fetal valproate spectrum disorder
+^ESCT1419932	Toxaemia of pregnancy
+^ESCT1421085	Fetal disorder due to disease in mother
+^ESCT1421086	Foetal disorder due to disease in mother
+^ESCT1421087	Foetal disorder due to maternal disease
+^ESCT1421088	Fetal disorder due to maternal disease
+^ESCTAB277590	Abnormal dilatation of cervix before onset of labor
+^ESCTAB277591	Abnormal dilatation of cervix before onset of labour
+^ESCTAB303987	Abnormal placenta
+^ESCTAB687019	Ablatio placentae
+^ESCTAB687020	Abruptio placentae
+^ESCTAC479845	Accelerated fetal growth
+^ESCTAC479850	Accelerated foetal growth
+^ESCTAL647612	Alloimmune haemolytic disease of newborn
+^ESCTAL647615	Alloimmune hemolytic disease of newborn
+^ESCTAN303986	Anomaly of placenta
+^ESCTAN306114	Antepartum hemorrhage
+^ESCTAN330895	Antepartum deep vein thrombosis
+^ESCTAN330896	Antepartum deep phlebothrombosis
+^ESCTAN479474	Antepartum hemorrhage with trauma
+^ESCTAN479480	Antepartum hemorrhage with uterine leiomyoma
+^ESCTAN479481	Antepartum hemorrhage with fibroid
+^ESCTAN479482	Antepartum hemorrhage with uterine fibroid
+^ESCTAN479512	Antepartum eclampsia
+^ESCTAN510503	Antepartum hemorrhage with hypofibrinogenemia
+^ESCTAN510505	Antepartum hemorrhage with hyperfibrinolysis
+^ESCTAN510507	Antepartum hemorrhage with afibrinogenemia
+^ESCTAN549895	Antepartum hemorrhage, abruptio placentae and placenta previa
+^ESCTAN549896	Antepartum haemorrhage associated with coagulation defect
+^ESCTAN549898	Antepartum hemorrhage associated with coagulation defect
+^ESCTAN752919	Anti-D isoimmunization affecting pregnancy
+^ESCTAP306115	APH - Antepartum haemorrhage
+^ESCTAP306116	APH - Antepartum hemorrhage
+^ESCTCA556029	Cardiac disease in pregnancy
+^ESCTCE363492	Cervical cerclage suture present
+^ESCTCE479730	Cephalopelvic disproportion
+^ESCTCH645864	Childbirth operation
+^ESCTCI277594	CI - Cervical incompetence
+^ESCTCO251247	Contracted pelvis
+^ESCTCO251572	Congenital sepsis
+^ESCTCO277333	Congenital malformation due to valproate
+^ESCTCP479732	CPD - Cephalopelvic disproportion
+^ESCTDE346754	Deficient liquor
+^ESCTDE730996	Dead fetus in utero
+^ESCTDI368490	Disorder of amniotic cavity AND/OR membrane
+^ESCTDI368491	Disorder of amniotic fluid and membranes
+^ESCTDI437847	Disorder of placenta
+^ESCTDI437848	Disorder of placenta and placental transfusion
+^ESCTDI479731	Disproportion of mixed maternal AND fetal origin with normally formed fetus
+^ESCTDI479733	Disproportion of mixed maternal AND foetal origin with normally formed foetus
+^ESCTDI510489	Disorder of pelvic size and disproportion
+^ESCTDR635362	Drainage of liquor
+^ESCTEC275292	Eclamptic toxemia
+^ESCTEC275293	Eclamptic toxaemia
+^ESCTEC467647	ECV - External cephalic version of breech
+^ESCTEC514539	ECV - External cephalic version
+^ESCTEF647608	EF - Erythroblastosis foetalis
+^ESCTEF647613	EF - Erythroblastosis fetalis
+^ESCTEL297265	Elderly primip
+^ESCTEP660068	EPH - Oedema, proteinuria and hypertension of pregnancy
+^ESCTEP660071	EPH - Edema, proteinuria and hypertension of pregnancy
+^ESCTER647606	Erythroblastosis foetalis
+^ESCTEX272330	Excessive vomiting in pregnancy
+^ESCTEX390144	Excessive liquor
+^ESCTEX729419	Exposure to rubella in pregnancy
+^ESCTFA483174	FAS - Fetal alcohol syndrome
+^ESCTFA483176	FAS - Foetal alcohol syndrome
+^ESCTFE285067	Fetal growth restriction
+^ESCTFE285068	Fetal growth retardation
+^ESCTFE364809	Fetal disorder
+^ESCTFE364810	Fetal disease
+^ESCTFE365526	Fetal-maternal hemorrhage
+^ESCTFE365528	Fetomaternal transfusion
+^ESCTFE365529	Fetomaternal haemorrhage
+^ESCTFE365531	Fetal maternal haemorrhage
+^ESCTFE365532	Fetal hemorrhage into mother's circulation
+^ESCTFE365533	Fetomaternal hemorrhage
+^ESCTFE365534	Fetal maternal hemorrhage
+^ESCTFE365535	Fetal-maternal haemorrhage
+^ESCTFE375670	Fetal blood vessels in membranes
+^ESCTFE388046	Fetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFE396506	Fetus papyraceous
+^ESCTFE396507	Fetus compressus
+^ESCTFE396508	Fetus papyraceus
+^ESCTFE462416	Female sterilization failure
+^ESCTFE479812	Fetal-maternal hemorrhage with antenatal problem
+^ESCTFE479847	Fetal growth acceleration
+^ESCTFE483273	Fetal or neonatal effect of maternal incompetent cervix
+^ESCTFE483276	Fetal or neonatal effect of maternal premature rupture of membrane
+^ESCTFE483279	Fetal or neonatal effect of maternal oligohydramnios
+^ESCTFE483282	Fetal or neonatal effect of oligohydramnios
+^ESCTFE483335	Fetal or neonatal effect of placenta praevia
+^ESCTFE483338	Fetal or neonatal effect of placenta previa
+^ESCTFE483339	Fetal or neonatal effect of placental damage caused by amniocentesis
+^ESCTFE483342	Fetal or neonatal effect of damage to placenta from amniocentesis
+^ESCTFE483361	Fetal or neonatal effect of placental dysfunction
+^ESCTFE483364	Fetal or neonatal effect of functional abnormality of placenta
+^ESCTFE483369	Fetal or neonatal effect of placental insufficiency
+^ESCTFE514618	Fetal effect of placental insufficiency
+^ESCTFE549949	Fetus small-for-dates
+^ESCTFE550512	Feeding intention - baby
+^ESCTFE550688	Fetal or neonatal effect of maternal hypertensive disease
+^ESCTFE550691	Fetal or neonatal effect of maternal hypertensive disorder
+^ESCTFE550702	Fetal or neonatal effect of maternal polyhydramnios
+^ESCTFE550707	Fetal effect of hydramnios
+^ESCTFE550708	Fetal or neonatal effect of maternal death
+^ESCTFE550712	Fetal or neonatal effect of malpresentation before labour
+^ESCTFE550715	Fetal or neonatal effect of malpresentation before labor
+^ESCTFE550723	Fetal effect of placental abruption
+^ESCTFE558616	Fetal death
+^ESCTFE646227	Fetal operation
+^ESCTFE646230	Fetal procedure
+^ESCTFE685483	Fetus affected by maternal antepartum hemorrhage
+^ESCTFE685484	Fetus affected by maternal antepartum haemorrhage
+^ESCTFE685486	Fetal effects of maternal antepartum hemorrhage
+^ESCTFE685487	Fetal effects of maternal antepartum haemorrhage
+^ESCTFG285075	FGR - Fetal growth retardation
+^ESCTFG285078	FGR - Foetal growth retardation
+^ESCTFI628862	Finding of duration of pregnancy
+^ESCTFI628863	Finding of duration of gestation
+^ESCTFO335907	Foetal exsanguination
+^ESCTFO363927	Foetal hydantoin syndrome
+^ESCTFO364808	Foetal disorder
+^ESCTFO364811	Foetal disease
+^ESCTFO365525	Foetal-maternal haemorrhage
+^ESCTFO365536	Foetal haemorrhage into mother's circulation
+^ESCTFO365537	Foetal maternal haemorrhage
+^ESCTFO365538	Foetomaternal haemorrhage
+^ESCTFO375671	Foetal blood vessels in membranes
+^ESCTFO382371	Foetal or neonatal effect of condition of umbilical cord
+^ESCTFO388047	Foetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFO396505	Foetus papyraceous
+^ESCTFO396509	Foetus compressus
+^ESCTFO479781	Foetus with hereditary disease
+^ESCTFO479793	Foetus with drug damage with antenatal problem
+^ESCTFO479797	Foetus with radiation damage
+^ESCTFO479804	Foetus with damage due to coil
+^ESCTFO479813	Foetal-maternal haemorrhage with antenatal problem
+^ESCTFO479821	Foetal distress with antenatal problem
+^ESCTFO479851	Foetal growth acceleration
+^ESCTFO483175	Foetal alcohol syndrome
+^ESCTFO483275	Foetal or neonatal effect of maternal incompetent cervix
+^ESCTFO483278	Foetal or neonatal effect of maternal premature rupture of membrane
+^ESCTFO483281	Foetal or neonatal effect of maternal oligohydramnios
+^ESCTFO483283	Foetal or neonatal effect of oligohydramnios
+^ESCTFO483337	Foetal or neonatal effect of placenta praevia
+^ESCTFO483341	Foetal or neonatal effect of placental damage caused by amniocentesis
+^ESCTFO483343	Foetal or neonatal effect of damage to placenta from amniocentesis
+^ESCTFO483363	Foetal or neonatal effect of placental dysfunction
+^ESCTFO483365	Foetal or neonatal effect of functional abnormality of placenta
+^ESCTFO483371	Foetal or neonatal effect of placental insufficiency
+^ESCTFO510390	Foetus with suspected rubella damage via mother
+^ESCTFO514603	Foetal acidosis
+^ESCTFO514620	Foetal effect of placental insufficiency
+^ESCTFO548764	Foetus and gravid uterus operations
+^ESCTFO549935	Foetus with central nervous system malformation
+^ESCTFO549937	Foetus with chromosomal abnormality
+^ESCTFO549938	Foetus with viral damage via mother
+^ESCTFO549956	Foetus small-for-dates
+^ESCTFO550692	Foetal or neonatal effect of maternal hypertensive disease
+^ESCTFO550705	Foetal or neonatal effect of maternal polyhydramnios
+^ESCTFO550706	Foetal effect of hydramnios
+^ESCTFO550711	Foetal or neonatal effect of maternal death
+^ESCTFO550716	Foetal or neonatal effect of malpresentation before labour
+^ESCTFO550721	Foetal effect of placental abruption
+^ESCTFO550722	Foetal or neonatal effect of abruptio placentae
+^ESCTFO558615	Foetal death
+^ESCTFO646226	Foetal operation
+^ESCTFO685482	Foetal effects of maternal antepartum haemorrhage
+^ESCTFO685485	Foetus affected by maternal antepartum haemorrhage
+^ESCTFO749788	Foetal damage from disease in the mother
+^ESCTFP797471	FP24 signed by patient
+^ESCTFP797474	FP24 maternity claim sent to family practitioner committee
+^ESCTFP797475	FP24 maternity claim sent to FPC (family practitioner committee)
+^ESCTFP797476	FP24 maternity claim underpaid by family practitioner committee
+^ESCTFP797477	FP24 maternity claim underpaid by FPC (family practitioner committee)
+^ESCTFP797479	FP24 maternity claim family practitioner committee make up payment
+^ESCTFP797480	FP24 maternity claim FPC (family practitioner committee) make up payment
+^ESCTFP797481	FP24A maternity claim status
+^ESCTFP799044	FP24A maternity claim checked by staff
+^ESCTFP799045	FP24A maternity claim sent to family practitioner committee
+^ESCTFP799046	FP24A maternity claim paid by family practitioner committee checked
+^ESCTFP799047	FP24A maternity claim underpaid by family practitioner committee
+^ESCTFP799050	FP24A maternity claim family practitioner committee make up payment
+^ESCTFP799051	FP24A maternity claim family practitioner committee dispute fee due
+^ESCTFP800943	FP24 maternity fee claim form status
+^ESCTFP800944	FP24 maternity claim completed by doctor
+^ESCTFP800946	FP24 maternity claim checked by staff
+^ESCTFP800947	FP24 maternity claim paid by Family Practitioner Committee - checked
+^ESCTFP800948	FP24 maternity claim overpaid by Family Practitioner Committee
+^ESCTFP800949	FP24 maternity claim - Family Practitioner Committee contacted regarding mistake
+^ESCTFP800950	FP24 maternity claim - Family Practitioner Committee dispute fee due
+^ESCTFP800955	FP24A maternity claim signed by patient
+^ESCTFP800956	FP24A maternity claim completed by doctor
+^ESCTFW798684	FW 8-applic for presc exempt
+^ESCTGD268606	GDM
+^ESCTGD268610	GDM - Gestational diabetes mellitus
+^ESCTGE251248	Generally contracted pelvis
+^ESCTGE268607	Gestational diabetes
+^ESCTGE462713	General practice unit birth
+^ESCTGE479587	Gestational edema with proteinuria
+^ESCTGE510529	Gestational edema
+^ESCTGH327978	GH - Gestational hypertension
+^ESCTGM799060	GMS2 claim signed by patient
+^ESCTGM799061	GMS2 claim completed by doctor
+^ESCTGM799062	GMS2 claim checked by staff
+^ESCTGM799063	GMS2 claim sent to health authority
+^ESCTGM799064	GMS2 claim paid by health authority, checked
+^ESCTGM799065	GMS2 claim paid by HA (health authority) - checked
+^ESCTGM799069	GMS2 claim health authority contacted regarding mistake
+^ESCTGM799070	GMS2 claim health authority make up payment
+^ESCTGM799071	GMS2 claim health authority dispute fee due
+^ESCTHA291325	Haemorrhage before 22 weeks gestation
+^ESCTHA405956	Haemolysis-elevated liver enzymes-low platelet count syndrome
+^ESCTHA479459	Haemorrhage from placenta praevia
+^ESCTHA647604	Haemolytic disease of foetus OR newborn due to isoimmunisation
+^ESCTHA647607	Haemolytic disease of the newborn
+^ESCTHA647610	Haemolytic disease of foetus OR newborn
+^ESCTHA647620	Haemolytic disease of fetus OR newborn due to isoimmunisation
+^ESCTHD647609	HDN - Haemolytic disease of the newborn
+^ESCTHD647617	HDN - Hemolytic disease of the newborn
+^ESCTHE291323	Hemorrhage before 22 weeks gestation
+^ESCTHE405957	HELLP syndrome
+^ESCTHE405959	HELLP - Syndrome of hemolysis, elevated liver enzymes and low platelet
+^ESCTHE405960	Hemolysis-elevated liver enzymes-low platelet count syndrome
+^ESCTHE479458	Hemorrhage from placenta previa
+^ESCTHE597565	Hemorrhoids in pregnancy
+^ESCTHE647605	Hemolytic disease of fetus OR newborn due to isoimmunization
+^ESCTHE647618	Hemolytic disease of the newborn
+^ESCTHE647619	Hemolytic disease of fetus OR newborn
+^ESCTHF558618	HF - Hydrops fetalis
+^ESCTHF558619	HF - Hydrops foetalis
+^ESCTHS799053	HSA1 therapeutic abortion green form
+^ESCTHS799054	HSA1 form eligible
+^ESCTHS799055	HSA1 form signed
+^ESCTHS799889	HSA1 form status
+^ESCTHY272331	Hyperemesis arising during pregnancy
+^ESCTHY272335	Hyperemesis in pregnancy
+^ESCTHY274648	Hydrops fetalis due to isoimmunization
+^ESCTHY274651	Hydrops foetalis due to isoimmunisation
+^ESCTHY327980	Hypertension induced by pregnancy
+^ESCTHY327981	Hypertension complicating pregnancy
+^ESCTHY558620	Hydrops foetalis
+^ESCTHY558622	Hydrops fetalis not due to isoimmunization
+^ESCTHY558623	Hydrops fetalis not due to isoimmunisation
+^ESCTHY558625	Hydrops foetalis not due to isoimmunisation
+^ESCTID483856	Idiopathic hydrops foetalis
+^ESCTIM274649	Immune hydrops fetalis
+^ESCTIM274650	Immune hydrops foetalis
+^ESCTIN251571	Intrauterine sepsis of fetus
+^ESCTIN251573	Intrauterine fetal sepsis
+^ESCTIN251574	Intrauterine foetal sepsis
+^ESCTIN251575	Intrauterine sepsis of foetus
+^ESCTIN266819	Infection of amniotic cavity
+^ESCTIN268491	Intra-amniotic infection of foetus
+^ESCTIN277592	Incompetence of cervix
+^ESCTIN309393	Inlet contraction of pelvis
+^ESCTIN508691	Intrahepatic cholestasis of pregnancy
+^ESCTIN510097	Insertion of Macdonald's cervical suture
+^ESCTIN510100	Insertion of Shirodkar's cervical suture
+^ESCTIN549953	Infant underweight for gestational age
+^ESCTIR479653	Iron deficiency anemia of pregnancy
+^ESCTIS647616	Isoimmunization of newborn
+^ESCTIU285073	IUGR - Intrauterine growth retardation
+^ESCTLA479843	Large for gestation age fetus
+^ESCTLA479849	Large for gestational dates
+^ESCTLA479852	Large for gestation age foetus
+^ESCTLA479855	Large-for-dates foetus
+^ESCTLE365527	Leakage of fetal blood into maternal circulation
+^ESCTLE365539	Leakage of foetal blood into maternal circulation
+^ESCTLE628861	Length of gestation - finding
+^ESCTLF479848	LFD - Fetus large for dates
+^ESCTLF479853	LFD - Foetus large for dates
+^ESCTLG479846	LGA - Large for gestational age fetus
+^ESCTLG479854	LGA - Large for gestational age foetus
+^ESCTLI549951	Light for gestational dates
+^ESCTLI549952	Light for dates
+^ESCTLO262415	Low implantation of placenta without hemorrhage
+^ESCTLO262416	Low implantation of placenta without haemorrhage
+^ESCTMA268608	Maternal gestational diabetes mellitus
+^ESCTMA322210	Maternal obesity without hypertension
+^ESCTMA510095	Macdonald's cervical cerclage
+^ESCTMA510098	Macdonald cervical cerclage
+^ESCTMA510539	MAP - Morbidly adherent placenta
+^ESCTMA551681	Maternity benefits
+^ESCTMA551721	Malposition and malpresentation of foetus
+^ESCTMA798651	Maternity anaesthetic service claim
+^ESCTMA798662	Mat B1 certificate due
+^ESCTMA798670	Mat B2 - certificate of confinement
+^ESCTMC510096	McDonald operation for encirclement suture of cervix
+^ESCTME363926	Meadow's syndrome
+^ESCTMI281046	Mild hyperemesis before end of 22 weeks of gestation
+^ESCTMI281047	Mild hyperemesis in pregnancy
+^ESCTMI285070	Microsomic baby
+^ESCTMI285071	Microsomia
+^ESCTMI316220	Mild pre-eclamptic toxemia
+^ESCTMI316221	Mild pre-eclamptic toxaemia
+^ESCTMI316224	Mild proteinuric hypertension of pregnancy
+^ESCTMO510520	Moderate proteinuric hypertension of pregnancy
+^ESCTNE404889	Neoplasm of uncertain behavior of placenta
+^ESCTNO558624	Non-immune hydrops foetalis
+^ESCTOB473087	Obstetric co-op card
+^ESCTOB473088	Obstetric co-op card issued
+^ESCTOB473091	Obstetric co-op card updated
+^ESCTOB508689	Obstetric cholestasis
+^ESCTOB553240	Obstetric investigation
+^ESCTOB597338	Obstetric co-op card status
+^ESCTOP646224	Operation on foetus
+^ESCTOP646225	Operation on fetus
+^ESCTOU362562	Outlet contraction of pelvis
+^ESCTPE272332	Persistent AND/OR vicious vomiting arising during pregnancy
+^ESCTPE309394	Pelvic inlet contraction
+^ESCTPE316222	PET - Mild pre-eclamptic toxaemia
+^ESCTPE316223	PET - Mild pre-eclamptic toxemia
+^ESCTPE325581	PET - Severe pre-eclamptic toxaemia
+^ESCTPE325582	PET - Severe pre-eclamptic toxemia
+^ESCTPE362563	Pelvic outlet contraction
+^ESCTPE467631	Percutaneous fetal procedure
+^ESCTPE467632	Percutaneous operation on fetus
+^ESCTPE467633	Percutaneous foetal procedure
+^ESCTPE660070	PET - Pre-eclamptic toxaemia
+^ESCTPE660072	PET - Pre-eclamptic toxemia
+^ESCTPE660074	PE - Pre-eclampsia
+^ESCTPI327982	PIH - Pregnancy-induced hypertension
+^ESCTPL262413	Placenta previa without hemorrhage
+^ESCTPL262414	Placenta previa found during pregnancy without hemorrhage
+^ESCTPL262417	Placenta praevia found during pregnancy without haemorrhage
+^ESCTPL303215	Placenta accreta without hemorrhage
+^ESCTPL309333	Placenta previa
+^ESCTPL377001	Placental structure
+^ESCTPL479457	Placenta previa with hemorrhage
+^ESCTPL479467	Placental abruption with coagulation defect
+^ESCTPO285069	Poor fetal growth state
+^ESCTPO285074	Poor fetal growth
+^ESCTPO285076	Poor foetal growth state
+^ESCTPO285077	Poor foetal growth
+^ESCTPO397830	Post term pregnancy
+^ESCTPO397832	Post-dates
+^ESCTPO462406	Postcoital OCP failure
+^ESCTPO462407	Postcoital oral contraceptive pill failure
+^ESCTPO510218	Postpartum obstetric operation
+^ESCTPO510219	Post-delivery obstetric operation
+^ESCTPP309334	PP - Placenta praevia
+^ESCTPP309335	PP - Placenta previa
+^ESCTPR260168	Premature labor
+^ESCTPR260169	Premature onset of labour
+^ESCTPR260170	Preterm labour
+^ESCTPR260171	Preterm labor
+^ESCTPR260172	Premature onset of labor
+^ESCTPR321241	PROM - Premature rupture of membranes
+^ESCTPR397831	Prolonged gestation
+^ESCTPR430107	Pregnancy finding
+^ESCTPR430108	Pregnancy observations
+^ESCTPR464035	Pregnancy prescription exemption education
+^ESCTPR479578	Pregnancy-related glycosuria
+^ESCTPR479584	Pregnancy-induced oedema and proteinuria without hypertension
+^ESCTPR479585	Pregnancy-induced edema and proteinuria without hypertension
+^ESCTPR479697	Pregnancy risk
+^ESCTPR479870	Premature rupture of membranes, labor delayed by therapy
+^ESCTPR510545	Pregnancy with isoimmunisation
+^ESCTPR510546	Pregnancy with isoimmunization
+^ESCTPR513043	Pruritus of pregnancy
+^ESCTPR513044	Pruritus gravidarum
+^ESCTPR572876	Premature/false labour
+^ESCTPR572877	Premature/false labor
+^ESCTPR572878	Premature or threatened labor
+^ESCTPR645866	Pregnancy operation
+^ESCTPR660069	Pre-eclamptic toxaemia
+^ESCTPR660073	Pre-eclamptic toxemia
+^ESCTPR687021	Premature detachment of normally implanted placenta
+^ESCTPR687022	Premature detachment of placenta
+^ESCTPR687023	Premature separation of placenta
+^ESCTPR798685	Prescription exempt form-preg
+^ESCTRE346755	Reduced liquor volume
+^ESCTRE508692	Recurrent jaundice of pregnancy
+^ESCTRE508693	Recurrent intrahepatic cholestasis of pregnancy
+^ESCTRE526591	Relation of fetal size to dates
+^ESCTRE526592	Relation of foetal size to dates
+^ESCTRE541970	Removal of Shirodkar suture from cervix
+^ESCTRE541971	Removal of cerclage material from cervix
+^ESCTRE541972	Removal of cerclage from cervix
+^ESCTRH479817	Rhesus isoimmunization with antenatal problem
+^ESCTRI508690	RICP
+^ESCTRU321239	Rupture of amniotic sac under 24 hours before onset of labor
+^ESCTRU321240	Rupture of amniotic sac under 24 hours before onset of labour
+^ESCTRU321242	Rupture of membranes prior to onset of labor
+^ESCTSC346756	Scanty liquor
+^ESCTSE325579	Severe pre-eclamptic toxemia
+^ESCTSE325580	Severe pre-eclamptic toxaemia
+^ESCTSE325583	Severe proteinuric hypertension of pregnancy
+^ESCTSF549947	SFD - Fetus small-for-dates
+^ESCTSF549958	SFD - Foetus small-for-dates
+^ESCTSG549948	SGA - Small for gestational age fetus
+^ESCTSG549957	SGA - Small for gestational age foetus
+^ESCTSH510101	Shirodkar operation on cervix
+^ESCTSH510102	Shirodkar cervical cerclage
+^ESCTSM549955	Small for gestational age
+^ESCTSP479535	Spurious labor
+^ESCTSP479536	Spurious labour
+^ESCTSU394467	Supine hypotensive syndrome
+^ESCTSU510392	Suspect foetal spina bifida
+^ESCTSU510394	Suspect foetal hydrocephaly
+^ESCTSU549950	Subnormal birth weight
+^ESCTSU688133	Suspect trisomy 21 foetus
+^ESCTSU749760	Suspected foetal anencephaly
+^ESCTSU749764	Suspected foetal damage from maternal alcohol
+^ESCTSU749766	Suspected foetal damage from maternal toxoplasmosis
+^ESCTSU786480	Suspected cystic fibrosis in fetus
+^ESCTSU786481	Suspected cystic fibrosis in foetus
+^ESCTSY510527	Symptomatic disorders in pregnancy
+^ESCTTH467621	Therapeutic foetoscopic operations on foetus
+^ESCTTH467622	Therapeutic endoscopic operations on foetus
+^ESCTTO274425	Toxaemia of pregnancy
+^ESCTTO275291	Toxemia with convulsions
+^ESCTTO275294	Toxaemia with convulsions
+^ESCTTR365540	Transplacental fetomaternal haemorrhage
+^ESCTTR365541	Transplacental fetomaternal hemorrhage
+^ESCTUR510462	Uremia in pregnancy without hypertension
+^ESCTUT350950	Uteroplacental apoplexy
+^ESCTVA303989	Variation of placenta form
+^ESCTVA379564	Vasa previa
+^ESCTVE375668	Velamentous insertion of umbilical cord
+^ESCTVE375669	Velamentous placenta
+^ESCTVE549974	Venous complication of pregnancy and/or the puerperium
+^ESCTVO396832	Vomiting as reason for care in pregnancy
+EMISHGT011	Placenta Praevia - major (across internal os)
+EMISHGT012	Placenta Praevia - minor (not across os)
+EMISNQAN25	Antenatal depression
+EMISNQDN17	DNA pertussis vaccination in pregnancy-enhanced serv admin
+EMISNQFE2	Feeding intention: mixed
+EMISNQFE7	Fetus with cardiovascular abnormality
+EMISNQPE42	Pertussis vaccination of pregnant women programme - ESA
+EMISNQPE43	Pertussis vaccination in pregnancy declined-enhanced serv admin
+EMISNQPE44	Pertussis vaccination in pregnancy invitation-enhnced serv admin
+EMISNQPE45	Pertussis vaccination in pregnancy-enhanced serv admin

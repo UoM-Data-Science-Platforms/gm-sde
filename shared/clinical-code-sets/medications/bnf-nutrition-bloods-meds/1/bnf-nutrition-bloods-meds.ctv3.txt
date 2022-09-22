@@ -1,0 +1,103 @@
+x00bB	Wysoy powder
+i96..	Water for injection
+is11.	Vitamins capsule BPC
+io...	Vitamin C product
+in5B.	Vitamin B+C strong intramuscular injection
+in72.	Vitamin B compound strong tablet
+in44.	Thiamine hydrochloride 50mg tablet
+x00Lv	Sodium ironedetate 190mg/5mL elixir
+x00Lv	Sodium feredetate 190mg/5mL elixir
+i81n.	Sodium chloride 600mg m/r tablet
+x04ru	SMA LF powder
+i61a.	Slow-K 600mg m/r tablet
+i81b.	Slow Sodium 600mg m/r tablet
+idh4.	Seravit paediatric unflavoured powder
+ieFD.	RESOURCE OPTIFIBRE powder 250g
+in23.	Pyridoxine hydrochloride 50mg tablet
+in21.	Pyridoxine hydrochloride 10mg tablet
+idcT.	PEPTAMEN JUNIOR ADVANCE liquid 500mL
+in56.	Pabrinex I/V High Potency intravenous injection
+ip11.	One-Alpha 250nanograms capsule
+bwF2.	NPLATE 250micrograms pdr+solvent for solution for injection
+i315.	Neo-Cytamen 1mg/1mL injection
+x0526	Neocate Advance powder
+is1i.	Multivitamins tablets
+is11.	Multivitamins capsule
+x00VC	Jevity liquid
+i221.	Jectofer injection
+i222.	Iron sorbitol injection
+i21z.	Iron dextran complex 100mg/2mL injection
+i312.	Hydroxocobalamin 1mg/1mL injection
+ip3y.	FULTIUM-D3 800iu capsules
+id6L.	Forceval Protein chocolate powder sachet
+i332.	Folic acid 5mg tablet
+i334.	Folic acid 400micrograms tablet
+i46A.	Filgrastim 48million units/0.5mL prefilled syringe
+i111.	Fersaday 322mg tablet
+i111.	Fersaday 304mg tablet
+i15x.	Ferrous sulphate 325mg m/r tablet
+i151.	Ferrous sulphate 200mg tablet
+i119.	Ferrous fumarate 322mg tablet
+i118.	Ferrous fumarate 305mg capsule
+i155.	Ferrograd 325mg Filmtab
+i242.	FERINJECT 500mg/10mL solution for injection
+i241.	FERINJECT 100mg/2mL solution for injection
+iv33.	EXJADE 500mg dispersible tablets
+i44C.	Eprex 4000iu/0.4mL prefilled syringe
+i44B.	Eprex 3000iu/0.3mL prefilled syringe
+i44D.	Eprex 10,000iu/1mL prefilled syringe
+i45x.	Epoetin beta 60,000iu injection cartridge
+i44s.	EPOETIN ALFA 30,000iu/0.75mL prefilled syringe
+ie18.	Ensure vanilla liquid 250mL(can)
+ieDX.	ENSURE TWOCAL banana liquid 200mL
+id5j.	Enfamil Lactofree powder 400g
+bwGy.	ELTROMBOPAG 50mg tablets
+i81q.	Electrolade banana oral powder
+id4f.	Duocal liquid 250mL
+i81w.	Dioralyte Relief blackcurrant oral powder
+i81j.	Dioralyte blackcurrant oral powder
+i81m.	Dioralyte blackcurrant effervescent tablet
+i47k.	Darbepoetin alfa 80micrograms/0.4mL prefilled pen
+i47u.	Darbepoetin alfa 50micrograms/0.5mL prefilled syringe
+i47v.	Darbepoetin alfa 40micrograms/0.4mL prefilled syringe
+i47m.	Darbepoetin alfa 40micrograms/0.4mL prefilled pen
+i47w.	Darbepoetin alfa 30micrograms/0.3mL prefilled syringe
+i47x.	Darbepoetin alfa 20micrograms/0.5mL prefilled syringe
+i47n.	Darbepoetin alfa 20micrograms/0.5mL prefilled pen
+i47y.	Darbepoetin alfa 15micrograms/0.375mL prefilled syringe
+i47z.	Darbepoetin alfa 10micrograms/0.4mL prefilled syringe
+i324.	Cytamen 1mg/1mL injection
+i321.	Cyanocobalamin 1mg/1mL injection
+i214.	CosmoFer 100mg/2mL injection
+ip3z.	COLECALCIFEROL 800iu capsules
+ip3I.	COLECALCIFEROL 20,000iu tablets
+i313.	Cobalin-H 1mg/1mL injection
+iddB.	Carobel Instant powder 135g
+ip3l.	Calfovit D3 powder for oral suspension
+x00ey	Calcium+ergocalciferol tablet
+ij31.	Calcium acetate 1g tablet
+ip3f.	Calcichew D3 Forte tablet
+ig1d.	Calcichew 1.25g chewable tablet
+i44Z.	BINOCRIT 10,000iu/1mL solution for injection prefilled syringe
+io...	Ascorbic acid product
+i47F.	Aranesp SureClick 60micrograms/0.3mL prefilled pen
+i47E.	Aranesp SureClick 40micrograms/0.4mL prefilled pen
+i47D.	Aranesp SureClick 20micrograms/0.5mL prefilled pen
+i47H.	Aranesp SureClick 100micrograms/0.5mL prefilled pen
+i478.	Aranesp 80micrograms/0.4mL prefilled syringe
+i477.	Aranesp 60micrograms/0.3mL prefilled syringe
+i476.	Aranesp 50micrograms/0.5mL prefilled syringe
+i475.	Aranesp 40micrograms/0.4mL prefilled syringe
+i474.	Aranesp 30micrograms/0.3mL prefilled syringe
+i47B.	Aranesp 300micrograms/0.6mL prefilled syringe
+i473.	Aranesp 20micrograms/0.5mL prefilled syringe
+i472.	Aranesp 15micrograms/0.375mL prefilled syringe
+i47A.	Aranesp 150micrograms/0.3mL prefilled syringe
+i471.	Aranesp 10micrograms/0.4mL prefilled syringe
+i479.	Aranesp 100micrograms/0.5mL prefilled syringe
+ip17.	Alfacalcidol 1microgram capsule
+ip3j.	Adcal-D3 1.5g/10micrograms chewable tablet
+ip3o.	ADCAL D3 DISSOLVE effervescent tablets
+ip3u.	ADCAL D3 750mg/200iu caplets
+ip3w.	ACCRETE D3 tablets
+x00ID	Abidec drops

@@ -1,0 +1,307 @@
+BISU30622NEMIS	Bioxtra  Sucking Tablets  
+FLNA639NEMIS	Fluticasone Propionate  Nasal drops (unit dose)  400 micrograms/dose
+BUAQ17457NEMIS	Budesonide  Aqueous nasal spray  64 micrograms/dose
+SONA17872NEMIS	Sodium Cromoglicate  Nasal spray  4 %
+AUEAEGTON6007	Audicort  Ear-drops  
+SONE47614NEMIS	Sodium Chloride  Nebuliser solution  3 %, 10 ml unit dose vial
+SONA17871NEMIS	Sodium Cromoglicate  Nasal spray  2 %
+BIIM32483EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  2.5 cm x 300 cm
+CHEA34232MGEMIS	Chloramphenicol  Ear drops  5 % (A.A.H. Pharm)
+MIBU29869NEMIS	Miconazole  Buccal Tablets Sugar Free  50 mg
+OTEA126985NEMIS	Otocomb Otic  Ear Ointment  
+NACR1942	Naseptin  Cream  
+XYNA9233BRIDL	Xylometazoline Paediatric  Nasal drops  0.05 %
+DISP3427	Difflam  Spray  0.15 %
+LENA28337EMIS	Levocabastine Hydrochloride  Nasal spray  500 micrograms/ml
+LOPU31805EMIS	Locabiotal  Pump spray  500 micrograms/dose (sls)
+HELO23030NEMIS	Hexylresorcinol  Lozenges  2.4 mg
+RIAD23845EMIS	Rinstead  Adult gel  
+SOOI4329	Sofradex  Ointment  
+BIPA44026NEMIS	Bismuth Subnitrate And Iodoform  Paste  30 gram sachets
+LOBU29871NEMIS	Loramyc  Buccal tablets  50 mg
+CHEA34231MGEMIS	Chloramphenicol  Ear drops  10 % (Martindale)
+BEAQ17586NEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation
+CHEA34235MGEMIS	Chloramphenicol  Ear drops  5 % (Unichem)
+DELOEGTON6054	Dequadin  Lozenges  250 micrograms
+ANLI15877NEMIS	Anbesol  Liquid  
+HYLO5009	Hydrocortisone(As Sodium Succinate)  Muco-adhesive buccal tablets  Sugar Free 2.5 mg
+BEDR354	Betnesol-N  Drops  
+DEOR13755NEMIS	Dequaspray  Oromucosal Spray  2 %
+AASPEGTON6297	Aaa  Oromucosal Spray  1.5 mg
+BITO14803NEMIS	Biotene Dry Mouth  Toothpaste  Original
+EPNO34958MGEMIS	Ephedrine Hydrochloride  Nose drops  0.5 % (A.A.H. Pharm)
+DEDE22326EMIS	Dentomycin  Dental gel  2 %
+PITA26497EMIS	Pilocarpine Hydrochloride  Tablets  5 mg
+CHDE9294HILLI	Chlorhexidine Gluconate  Dental gel  Sugar Free 1 %
+FLNA34372NEMIS	Fluticasone Furoate  Nasal Spray Suspension  27.5 micrograms/spray
+COMO5098NEMIS	Compound Thymol Glycerin  Mouthwash  
+SAOR19827NEMIS	Salicylic Acid And Rhubarb Extract  Oromucosal Solution  1 % + 5 %
+DILO23033NEMIS	Dichlorobenzyl Alcohol And Amylmetacresol  Lozenges  1.2 mg + 600 micrograms
+COLO9241BRIDL	Corlan Pellets  Lozenges  2.5 mg
+RYNA140371NEMIS	NULL
+PINA48423NEMIS	Pirinase Hayfever  Nasal spray  0.05 %
+STLO5202NEMIS	Strepsils Extra  Lozenges (Blackcurrant)  
+EAEA4550NEMIS	Earex  Ear drops  
+CIEA51184NEMIS	Ciprofloxacin  Ear drops  0.3 %
+BIIM32480EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  2.5 cm x 100 cm
+LAOR30621NEMIS	Lactoperoxidase  Oromucosal Tablets Sugar Free  50 units
+OTEA138239NEMIS	Otigo  Ear drops  40 mg/gram + 10 mg/gram
+EPNA1080	Ephedrine Hydrochloride  Nasal drops  0.5 %
+BIDR23000NEMIS	Biotene Oralbalance  Dry Mouth System  
+CHMO9292HILLI	Chlorhexidine Gluconate  Mouth wash  0.2 %
+OTNA123789NEMIS	Otrivine Child  Nasal drops  
+AVNA34375NEMIS	Avamys  Nasal Spray Suspension  27.5 micrograms/spray
+MELOEGTON6310	Merocets  Lozenges  1.4 mg
+ORMO2092	Oraldene  Mouth wash  Peppermint, 0.1 %
+BESP4637	Benzydamine Hydrochloride  Spray  Sugar Free 0.15 %
+BUEA138365NEMIS	Burow's Solution BP (Aluminium Acetate 13 %)  Ear drops  
+BRLO21657NEMIS	Bradosol  Lozenges (Sugar Free)  Citrus 500 micrograms
+CIEA125047NEMIS	Ciprofloxacin  Ear Drops, Preservative Free  2 mg/ml, 0.25 ml unit dose
+MUNA10377BRIDL	Mupirocin  Nasal ointment  2 %
+COSP20351EMIS	Corsodyl  Oral Spray  0.2 %
+STLO27343NEMIS	Strepsils Sore Throat And Blocked Nose  Lozenges  
+STLO5196NEMIS	Strepsils  Lozenges (Original)  
+EPNO34959MGEMIS	Ephedrine Hydrochloride  Nose drops  0.5 % (Thornton & Ross)
+CIEA105345NEMIS	Cilodex  Ear drops  
+HEMO1364	Hexetidine  Mouth wash  Sugar Free 0.1 %
+COMO8438EGTON	Corsodyl  Mouth wash  Aniseed, 0.2 %
+STLO5198NEMIS	Strepsils  Lozenges (Honey & Lemon)  
+ACEA1277NEMIS	Acetic Acid  Ear Spray  2 %
+BENAEGTON7181	Beconase  Aqueous nasal spray  50 micrograms/dose
+TEOREGTON6052	Teejel  Oral gel  8.7 %
+NANA30769EMIS	Nasonex  Nasal spray  50 micrograms/dose
+ARLO124567NEMIS	Artificial Saliva  Lozenges  
+BEDE40742NEMIS	Benzocaine  Dental Gel Sugar Free  20 %
+OTNA123786NEMIS	Otrivine Adult  Nasal drops  0.1 %
+AUEAEGTON6010	Audax  Ear-drops  
+DEPA6955	Dequalinium Chloride  Pastilles  Sugar Free 250 micrograms
+CEEA125049NEMIS	Cetraxal  Ear drops  2 mg/ml, 0.25 ml unit dose
+CELO6979	Cetylpyridinium Chloride  Lozenges  1.4 mg
+SONE24730NEMIS	Sodium Chloride  Nebuliser solution  3 %, 20 ml unit dose vial
+CAMO40353NEMIS	Care Antiseptic  Mouthwash  
+EAEA1278NEMIS	Earcalm  Ear Spray  2 %
+AVNA34375NEMIS	Avamys  Nasal Spray Suspension  27.5 micrograms/spray
+FLLO1529NEMIS	Flurbiprofen  Lozenges  8.75 mg
+DILO48818NEMIS	Dichlorobenzyl Alcohol And Amylmetacresol  Lozenges (Sugar Free)  1.2 mg + 600 micrograms
+BEAQ38057MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Unichem)
+BIIM32482EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  2.5 cm x 200 cm
+DOEA6996	Docusate Sodium  Ear-drops  5%
+BEMO8392EGTON	Betadine  Mouth wash  1 %
+BELO21503NEMIS	Benzocaine And Cetylpyridinium Chloride  Lozenges  10 mg + 1.4 mg
+DAGE794	Daktarin  Oral gel  24 mg/ml (20 mg/gram)
+HYMO10881NEMIS	Hydrogen Peroxide  Mouthwash (Sugar Free)  1.5 %
+MOTA4047NEMIS	Mouthwash Solution  Tablets  
+GEEA988NEMIS	Gentamicin And Hydrocortisone Acetate  Ear drops  0.3 % + 1 %
+STLO5199NEMIS	Strepsils  Lozenges (Vitamin C)  Orange
+ELMO9249BRIDL	Eludril  Mouth wash  
+CHSP21507NEMIS	Chlorhexidine And Tetracaine  Spray (Sugar Free)  0.05 % + 0.015 %
+DILO132425NEMIS	Difflam  Lozenges (Eucalyptus)  3 mg
+BANA10375BRIDL	Bactroban  Nasal ointment  2 %
+CHEA4711	Chloramphenicol  Ear drops  10 %
+BEAQ38054MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Alpharma)
+BEOR15493NEMIS	Benzocaine  Oromucosal Spray Sugar Free  1.5 mg/dose
+STLO27341NEMIS	Strepsils  Lozenges Sugar Free (Lemon & Herb)  
+MONA30771EMIS	Mometasone Furoate  Nasal spray  50 micrograms/dose
+RINA31253EMIS	Rinatec  Nasal spray  0.03 %
+NAAQ30030EMIS	Nasobec  Aqueous nasal spray  50 micrograms/dose
+BINO24125NEMIS	Bioxtra  Non-Stick Dental Gum  20 pieces
+RIPA43648NEMIS	Rinstead  Pastilles  Sugar-Free
+BIIM32479EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  1.25 cm x 300 cm
+COMO3461NEMIS	Corsodyl  Mouthwash (Mint)  0.2 %
+XEDR98849NEMIS	Xerostom  Dry Mouth Spray  
+CIEA128009NEMIS	Ciprofloxacin And Fluocinolone Acetonide  Ear drops  3 mg/ml + 250 micrograms/ml, 0.25 ml unit dose
+NYPA4065	Nystan  Pastilles  100,000 units
+FLAQ35068MGEMIS	Fluticasone Propionate  Aqueous nasal spray  0.05 % (150 dose spray) (Kent Pharm)
+RINA15388NEMIS	Rino Clenil  Nasal spray  50 micrograms/dose
+CEEA128011NEMIS	Cetraxal Plus  Ear drops  3 mg/ml + 250 micrograms/ml, 0.25 ml unit dose
+CEEA539	Cerumol  Ear drops  
+CHOR7089	Choline Salicylate  Oral Gel Sugar Free  8.7 %
+RHAQ17458NEMIS	Rhinocort Aqua  Aqueous nasal spray  64 micrograms/dose
+TYLOEGTON6305	Tyrozets  Lozenges  
+BEDR19448NEMIS	Betamethasone And Neomycin  Drops  0.1 % + 0.5 %
+FLNA78506NEMIS	Fluticasone Propionate And Azelastine  Nasal spray  50 micrograms/dose + 137 micrograms/dose
+BICH19245NEMIS	Biotene Dry Mouth  Chewing gum  
+COMO37739MGEMIS	Compound Thymol Glycerin  Mouthwash  (Thornton & Ross)
+ANAD4565NEMIS	Anbesol  Adult Strength Gel  
+BUAQ33994MGEMIS	Budesonide  Aqueous nasal spray  100 micrograms/dose (A.A.H. Pharm)
+NEDR1955	Neo-Cortef  Drops  
+OTNA16126NEMIS	Otraspray  Nasal spray  0.1 %
+BELO316	Benzalkonium Chloride  Lozenges  Sugar Free 500 micrograms
+DILO132426NEMIS	Difflam  Lozenges (Lemon)  3 mg
+MEGE23800EMIS	Metronidazole  Gel  (Dental) 25 %
+VINA24406EMIS	Vividrin  Nasal spray  2 %
+IPNA31255EMIS	Ipratropium Bromide  Nasal spray  0.03 %
+CHMO21505NEMIS	Chlorhexidine Gluconate And Chlorobutanol  Mouthwash (Sugar Free)  0.1 % + 0.5 %
+BUAQ33995MGEMIS	Budesonide  Aqueous nasal spray  100 micrograms/dose (Generics (UK))
+NAAQ30537EMIS	Nasacort  Aqueous nasal spray  55 micrograms/dose
+NACR1942	Naseptin  Cream  
+AMLO137	Amphotericin B  Lozenges  Sugar Free 10 mg 
+DIOR3426	Difflam  Oral Rinse  0.15 %
+STNE22709EMIS	Steri-Neb Saline  Nebuliser Liquid  0.9 %, 2.5 ml unit dose ampoule
+WAEAEGTON6028	Waxsol  Ear-drops  0.5 %
+BELO132421NEMIS	Benzydamine Hydrochloride  Lozenges (Sugar Free)  3 mg
+BIIM32476EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  1.25 cm x 100 cm
+STLO5206NEMIS	Strepsils Pain Relief Plus  Lozenges  
+LIOR30446NEMIS	Lidocaine And Aminoacridine  Oral Gel Sugar Free  0.66 % + 0.05 %
+BEAQ38056MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Kent Pharm)
+SONE47615NEMIS	Sodium Chloride  Nebuliser solution  3 %
+SANE35184EMIS	Saline Steripoules  Nebuliser solution  0.9 %, 2.5 ml ampoule
+NECR20141NEMIS	Neomycin And Chlorhexidine Hydrochloride  Cream  0.5 % + 0.1 %
+CIEA105339NEMIS	Ciprofloxacin And Dexamethasone  Ear drops  0.3 % + 0.1 %
+EPNA1087	Ephedrine Hydrochloride  Nasal drops  1 %
+COMO81525NEMIS	Corsodyl  Mouthwash Alcohol Free  0.2 %
+MELO15876NEMIS	Merocets Plus  Lozenges  
+VITH18858EMIS	Vicks Ultra Chloraseptic  Throat spray  0.71 % (1 mg/spray)
+STLO5197NEMIS	Strepsils  Lozenges (Menthol & Eucalyptus)  
+CAMO6818	Carbenoxolone Sodium  Mouthwash Granules (Sachets)  1 %
+FULO1260	Fungilin  Lozenges  10 mg
+DETE75700NEMIS	Dentinox  Teething gel  
+CHEA8454BENTH	Chloramphenicol  Ear drops  5 %
+SONE101070NEMIS	Sodium Chloride  Nebuliser Liquid  0.9 %, 2.5 ml unit dose ampoule
+CODE8436EGTON	Corsodyl  Dental gel  1 %
+CHEA34234MGEMIS	Chloramphenicol  Ear drops  5 % (Thornton & Ross)
+COMO116234NEMIS	Corsodyl Daily  Mouthwash (Cool Mint)  
+BEAQ38055MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Generics (UK))
+TRAQ30539EMIS	Triamcinolone Acetonide  Aqueous nasal spray  55 micrograms/dose
+CHMO10880NEMIS	Chlorohex 1200  Mouthwash (Mint)  0.12 %
+BEDE35109NEMIS	Benzocaine  Dental gel  Sugar Free 10 %
+LIOR132451NEMIS	Lidocaine Hydrochloride And Cetylpyridinium Chloride  Oromucosal Gel Sugar Free  0.33 % + 0.1 %
+STLO1530NEMIS	Strefen  Lozenges (Honey & Lemon)  8.75 mg
+PEMO10883NEMIS	Peroxyl  Mouthwash  1.5 %
+BETH18860EMIS	Benzocaine  Oromucosal Spray Sugar Free  1 mg/dose
+FLAQ29111NEMIS	Fluticasone Propionate  Aqueous nasal spray  50 micrograms/dose
+SYNA4370	Syntaris  Nasal spray  25 micrograms/dose
+PETA11581NEMIS	Periostat  Tablets  20 mg
+MELOEGTON6308	Merocaine  Lozenges  
+LINA28333EMIS	Livostin  Nasal spray  500 micrograms/ml
+SONE40051NEMIS	Sodium Chloride  Nebuliser solution  7 %
+MIGE1825	Miconazole  Oral gel  Sugar Free 24 mg/ml (20 mg/gram)
+BOGE16114NEMIS	Bonjela Teething  Gel  
+DENA19465NEMIS	Dexamethasone And Tramazoline  Nasal spray  20 micrograms + 120 micrograms/actuation, 110 dose
+CHEA34233MGEMIS	Chloramphenicol  Ear drops  5 % (Martindale)
+DIMO118253NEMIS	Diclofenac  Mouthwash Sugar Free  0.074 %
+ASLO6458NEMIS	As Saliva Orthana  Lozenges  
+CHMO48244NEMIS	Chlorhexidine Gluconate And Sodium Fluoride  Mouthwash (Sugar Free)  0.06 % + 0.05 %
+DELO6864	Dequalinium Chloride  Lozenges  250 micrograms
+SOMO9899HILLI	Sodium Chloride Compound  Mouthwash  
+DELOEGTON6039	Dequacaine  Lozenges  
+BOGE393	Bonjela  Gel  8.7 %
+EPNA28613EMIS	Ephedrine Hydrochloride  Nasal drops  0.25 %
+LIOR130756NEMIS	Lidocaine And Chlorhexidine  Oromucosal Spray Sugar Free  0.05 % + 0.2 %
+NAAQ20255NEMIS	Nasofan  Aqueous nasal spray  50 micrograms/dose
+ORDE40744NEMIS	Orajel Extra Strength  Dental gel  20 %
+STLO27340NEMIS	Strepsils  Lozenges Sugar Free (Strawberry)  
+BENA125692NEMIS	Benacort  Nasal spray  64 micrograms
+XYNA8736EGTON	Xylometazoline Hydrochloride  Nasal spray  0.1 %
+NAAQ25655NEMIS	Nasofan Allergy  Nasal spray  50 micrograms/dose
+FLEA19467NEMIS	Flumetasone And Clioquinol  Ear drops  0.02 % + 1 %
+IGOR30448NEMIS	Iglu  Oral gel  
+SODR2633	Sofradex  Drops  
+PRDR4204	Predsol-N  Drops  
+PINA109496NEMIS	Pirinase Hayfever Relief For Adults  Nasal spray  0.05 %
+BUAQ19621EMIS	Budesonide  Aqueous nasal spray  100 micrograms/dose
+MONA140369NEMIS	NULL
+ORGE35116NEMIS	Orajel 10 % Mouth  Gel  
+ELGE23798EMIS	Elyzol  Gel  (Dental) 25 %
+DOEA24473EMIS	Docusate Sodium  Ear-drops  0.5 %
+PHEA138236NEMIS	Phenazone And Lidocaine  Ear drops  40 mg/gram + 10 mg/gram
+ULOR76769NEMIS	Ultradex  Oral Rinse  
+DYNA78508NEMIS	Dymista  Nasal spray  137 micrograms/dose + 50 micrograms/dose
+BEOR323	Benzydamine Hydrochloride  Oral Rinse  Sugar Free 0.15 %
+OXNA9783HILLI	Oxymetazoline Hydrochloride  Nasal spray  0.05 %
+FUPU31807EMIS	Fusafungine  Pump spray  500 micrograms/dose (sls)
+MIDE22328EMIS	Minocycline  Dental Gel Sugar Free  2 %, 5 dose pack
+TCLO16153NEMIS	Tcp Sore Throat  Lozenges  2.4 mg
+NANA35158NEMIS	Nasacort Allergy  Nasal spray  55 micrograms/dose
+FLNA4930	Flunisolide  Nasal spray  25 micrograms/dose
+STLO15958NEMIS	Strepsils Extra  Lozenges (Cherry)  
+SASO633NEMIS	Saline Steripoules  Solution  0.9 %, 20 ml amp
+BOGE20884NEMIS	Bonjela Cool Mint  Gel  8.7 %
+DISP3427	Difflam  Spray  0.15 %
+COMO37738MGEMIS	Compound Thymol Glycerin  Mouthwash  (A.A.H. Pharm)
+EPNA34956MGEMIS	Ephedrine Hydrochloride  Nasal drops  1 % (Thornton & Ross)
+SATA26495EMIS	Salagen  Tablets  5 mg
+ORMO30560NEMIS	Oraldene Icemint  Mouthwash  0.1 %
+LEOI139125NEMIS	NULL
+TREA19463NEMIS	Triamcinolone And Neomycin  Ear-drops  0.1 % + 0.35 %
+LAPAEGTON6056	Labosept  Pastilles  250 micrograms
+COMO37740MGEMIS	Compound Thymol Glycerin  Mouthwash  (Unichem)
+DOTA17641NEMIS	Doxycycline Hyclate  Tablets  20 mg
+NYPA5219	Nystatin  Pastilles  100,000 units
+GEEAEGTON6000	Gentisone Hc  Ear-drops  
+OTSP9659BRIDL	Otomize  Spray  
+CHMO34255MGEMIS	Chlorhexidine Gluconate  Mouth wash  0.2 % (A.A.H. Pharm)
+BEAQ38058MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Teva UK)
+DILO132424NEMIS	Difflam  Lozenges (Mint)  3 mg
+OTNA123787NEMIS	Otrivine Adult  Nasal spray  
+DEPU32720EMIS	Dexa-Rhinaspray Duo  Pump Nasal Spray  110 dose
+CAGE10325HILLI	Calgel  Gel  
+EPNA34955MGEMIS	Ephedrine Hydrochloride  Nasal drops  1 % (Unichem)
+XYNO3086	Xylometazoline Hydrochloride  Nose drops  0.1 %
+LIOR139127NEMIS	NULL
+BELO21540NEMIS	Benzocaine And Dequalinium Chloride  Lozenges  10 mg + 250 micrograms
+CHMO34257MGEMIS	Chlorhexidine Gluconate  Mouth wash  0.2 % (Thornton & Ross)
+BRLO21658NEMIS	Bradosol  Lozenges (Sugar Free)  Cherry Menthol 500 micrograms
+ANTE4564NEMIS	Anbesol  Teething gel  
+COAN95162NEMIS	Colgate Pro Gum Health  Antiseptic Mouthwash  0.2 %
+EPNA34954MGEMIS	Ephedrine Hydrochloride  Nasal drops  1 % (The Boots Company)
+SONE22674NEMIS	Sodium Chloride  Nebuliser solution  7 %, 5 ml bottle
+FLNA642NEMIS	Flixonase Nasule  Nasal drops (unit dose)  400 micrograms/dose
+FRTI25519EMIS	Frador  Tincture  
+POMO9834HILLI	Povidone-Iodine  Mouth wash  1 %
+AZNA18054EMIS	Azelastine Hydrochloride  Nasal spray  140 micrograms/dose
+ADOR35146NEMIS	Adcortyl In Orabase For Mouth Ulcer  Oromucosal Paste  0.1 %
+ALEA9218BRIDL	Aluminium Acetate  Ear drops  8 %
+BRLO8454EGTON	Bradosol Plus  Lozenges  
+RHNA19619EMIS	Rhinocort Aqua  Aqueous nasal spray  100 micrograms/dose
+EXEA1137	Exterol  Ear drops  5 %
+UREA30637EMIS	Urea Hydrogen Peroxide  Ear drops  5 %
+BEAQ25582NEMIS	Beconase Hayfever  Aqueous nasal spray  50 micrograms/dose, 180 doses
+RYNA9591EMIS	Rynacrom  Nasal spray  4 %
+STLO23031NEMIS	Strepsils Extra  Lozenges (Citrus Menthol)  
+CHSP20353EMIS	Chlorhexidine Gluconate  Oral Spray  Sugar Free 0.2 %
+PYOREGTON6050	Pyralvex  Solution  
+BUAQ33993MGEMIS	Budesonide  Aqueous nasal spray  100 micrograms/dose (Kent Pharm)
+COMO48246NEMIS	Corsodyl Daily Defense  Mouthwash  
+OTNA16122NEMIS	Otradrops Adult  Nasal drops  0.1 %
+RITE23846EMIS	Rinstead  Teething gel  
+LOEA1681	Locorten-Vioform  Ear drops  
+DILO132427NEMIS	Difflam  Lozenges (Orange-Honey)  3 mg
+BELO124172NEMIS	Benzocaine And Tyrothricin  Lozenges  5 mg + 1 mg
+BESP4637	Benzydamine Hydrochloride  Spray  Sugar Free 0.15 %
+XYNA138663NEMIS	Xylometazoline And Ipratropium Bromide  Nasal spray  70 micrograms + 84 micrograms/dose
+MEGE12666NEMIS	Medijel  Gel  
+ELAE9460HILLI	Eludril  Aerosol spray  
+MOEAEGTON6024	Molcer  Ear-drops  5 %
+HYEY19450NEMIS	Hydrocortisone And Neomycin  Eye/Ear Ointment  1.5 % + 0.5 %
+OTEA2120	Otosporin  Ear-drops  
+ARSP42363NEMIS	Artificial Saliva  Spray  
+FLAQ19554EMIS	Flixonase  Aqueous nasal spray  0.05 %
+RHNA18052EMIS	Rhinolast  Nasal spray  140 micrograms/dose
+GLNA52112NEMIS	Glucose 50 % in Glycerol  Nasal drops  
+ADOR49	Adcortyl In Orabase  Oral paste  0.1 %
+TROR2912	Triamcinolone Acetonide  Oral paste  0.1 %
+LUSP25697EMIS	Luborant  Spray  
+CHMO34256MGEMIS	Chlorhexidine Gluconate  Mouth wash  0.2 % (Unichem)
+AFNA9231BRIDL	Afrazine  Nasal spray  0.05 %
+OTEA30635EMIS	Otex  Ear drops  5 %
+EPNA34953MGEMIS	Ephedrine Hydrochloride  Nasal drops  1 % (A.A.H. Pharm)
+HYDR19451NEMIS	Hydrocortisone And Neomycin  Drops  1.5 % + 0.5 %
+BIDR24294NEMIS	Biotene Oralbalance  Dry Mouth Moisturising Liquid  
+LINA20501NEMIS	Livostin Direct  Nasal spray  500 micrograms/ml
+BEAQ38053MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (A.A.H. Pharm)
+VIDR15509NEMIS	Vista-Methasone N  Drops  
+OTNA16124NEMIS	Otradrops Child  Nasal drops  0.05 %
+BIIM32478EMIS	Bismuth Subnitrate And Iodoform  Impregnated Gauze  1.25 cm x 200 cm
+PRDR19457NEMIS	Prednisolone And Neomycin  Drops  0.5 % + 0.5 %
+HYEA24101NEMIS	Hydrogen Peroxide  Ear drops  1.5 %
+EAEA4552NEMIS	Earex Plus  Ear drops  
+STLO33345NEMIS	Strepsils Cool  Lozenges  
+SASP25123EMIS	Salivace  Spray  
+BIMOEGTON6032	Bioplex  Mouthwash Granules (Sachets)  1 %
+EPNO34957MGEMIS	Ephedrine Hydrochloride  Nose drops  0.5 % (Unichem)
+CHMO10878NEMIS	Chlorhexidine Gluconate  Mouthwash (Mint)  Sugar Free 0.12 %
+CHEA34230MGEMIS	Chloramphenicol  Ear drops  10 % (A.A.H. Pharm)
+SUNA22738NEMIS	Sudafed Blocked Nose  Nasal spray  0.1 %
+TROI4444	Tri-Adcortyl Otic  Ointment  
+NEOI1956	Neo-Cortef  Ointment  

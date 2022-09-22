@@ -1,0 +1,16 @@
+k321.	CHLORAMPHENICOL 0.5% eye drops
+k32w.	CHLORAMPHENICOL 1% eye ointment
+k3g1.	FUSIDIC ACID 1% eye drops
+k3g2.	*FUCITHALMIC 1% eye drops 5g
+k648.	DEXAMETHASONE+TOBRAMYCIN 0.1%/0.3% eye drops
+k69y.	SODIUM CROMOGLICATE 2% eye drops
+k6h1.	AZELASTINE HYDROCHLORIDE 0.05% eye drops
+k6o2.	BROMFENAC 0.09% eye drops
+k72w.	CYCLOPENTOLATE HCL 1% eye drops
+k8d3.	PILOCARPINE 2% eye drops
+k8s1.	AZARGA 1%/0.5% eye drops 5mL
+ka91.	CELLUVISC 1% single-use eye drops
+kbE1.	*LUCENTIS 3mg/0.3mL injection
+kbE2.	LUCENTIS 2.3mg/0.23mL injection
+kbE3.	LUCENTIS 1.65mg/0.165mL soln for injection prefilled syringe
+lA11.	SODIUM CHLORIDE 0.9% nose drops

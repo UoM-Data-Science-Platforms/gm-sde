@@ -1,0 +1,96 @@
+L210.00	Twin pregnancy
+L210100	Twin pregnancy - delivered
+63CE.00	One of twins
+633..14	Twin birth
+L213200	Multiple delivery, all by caesarean section
+6333.00	Twins - both live born
+Z22B300	Monozygotic twins
+L21..00	Multiple pregnancy
+ZV32.00	[V]Twin, mate stillborn
+L21..11	Gestation - multiple
+633..13	Triplet birth
+ZV31.00	[V]Twin, mate live born
+L211.00	Triplet pregnancy
+ZV27200	[V]Twins, both live born
+2725.11	O/E - triplet present.
+6334.00	Twins - 1 still + 1 live born
+63CE.12	Heterozygous twin
+2725.12	O/E - twin presentation
+63CE.13	Identical twin
+63CF.00	One of triplets
+L323.00	Delayed delivery of second twin, triplet etc
+2725.00	O/E - multiple presentation
+L213000	Multiple delivery, all spontaneous
+L213.00	Multiple delivery
+6335.00	Twins - both still born
+Z254E11	Multiple birth delivery
+Z22B313	Identical twins
+ZV27400	[V]Twins, both stillborn
+Z254E00	Multiple birth
+ZV33.00	[V]Twin, unspecified
+Z22B211	DZ - Dizygotic twins
+Z22B800	Undiagnosed multiple pregnancy
+L210z00	Twin pregnancy NOS
+5848.00	U-S scan - multiple fetus
+Z22B200	Dizygotic twins
+L323100	Delayed delivery second twin - delivered
+Q023000	Fetus/neonate affected by twin-to-twin transplacental transf
+ZV31000	[V]Twin, born in hospital, mate live born
+ZV27300	[V]Twins, one live born and one stillborn
+Z22B212	Binovular twins
+L228.00	Multiple pregnancy with malpresentation
+Q015100	Fetus or neonate affected by twin pregnancy
+Q015.00	Fetus or neonate affected by multiple pregnancy
+L210000	Twin pregnancy unspecified
+63CE.14	Monozygous twin
+6336.00	Triplets - all live born
+Z22B213	Fraternal twins
+L19..00	Complications specific to multiple gestation
+L213100	Multiple delivery, all by forceps and vacuum extractor
+L211100	Triplet pregnancy - delivered
+L210200	Twin pregnancy with antenatal problem
+Z22B400	Undiagnosed twin
+L211000	Triplet pregnancy unspecified
+ZV33z00	[V]Twin, unspecified, NOS
+L306.00	Locked twins
+L323000	Delayed delivery second twin unspecified
+ZV31z00	[V]Twin, mate liveborn, NOS
+Q454000	Polycythaemia due to donor twin transfusion
+ZV33000	[V]Twin, unspecified, born in hospital
+63CE.11	Fraternal twin
+L21y.00	Other multiple pregnancy
+L21z100	Multiple pregnancy NOS - delivered
+ZV27500	[V]Other multiple birth, all live born
+L323200	Delayed delivery second twin with antenatal problem
+6337.00	Triplets -2 live+ 1 still born
+Q015200	Fetus or neonate affected by triplet pregnancy
+7F08.00	Therapeutic percutaneous operations twin-twin transfusion
+ZV32000	[V]Twin, born in hospital, mate stillborn
+7F07.00	Therapeutic endoscopic operations for twin-twin transfusion
+6339.00	Triplets - 3 still born
+Z22B312	Uniovular twins
+L306100	Locked twins - delivered
+L211z00	Triplet pregnancy NOS
+ZV36100	[V]Other multiple birth, before hospital, mates live+still
+ZV27700	[V]Other multiple birth, all stillborn
+7F07.11	Therap endoscopic operations for twin-twin transfusion syn
+7F08200	Perc serial drain amnio fluid for twin-twin transfusion synd
+7F07200	End serial drain amnio fluid for twin-twin transfusion synd
+ZV31200	[V]Twin, not hospitalised, mate live born
+ZV3yz00	[V]Other multiple birth, unspecified, NOS
+ZVu2A00	[X]Other multiple births, all liveborn
+ZV32z00	[V]Twin, mate stillborn, NOS
+7F08z00	Therapeut percutaneous operations twin-twin transfusion NOS
+Lyu3000	[X]Other multiple gestation
+L21z.00	Multiple pregnancy NOS
+Lyu5800	[X]Multiple delivery, unspecified
+L21zz00	Multiple pregnancy NOS
+7F07y00	OS therapeutic endoscopic operations twin-twin transfusion
+L21y200	Other multiple pregnancy with antenatal problem
+ZV34.00	[V]Other multiple birth, mates live born
+ZV36z00	[V]Other multiple birth, mates live and stillborn NOS
+ZV3y.00	[V]Other multiple birth, unspecified
+6338	Triplets-1 live+ 2 still born
+ZVu2B00	[X]Other multiple births, some liveborn
+63CL.00	One of multiple birth
+Lyu5600	[X]Other multiple delivery

@@ -1,0 +1,185 @@
+^ESCT1180877	Numark Allergy & Hayfever 10mg tablets (Numark Ltd) 7 tablet
+^ESCT1181056	Product containing only loratadine 10 mg/1 each oral tablet
+^ESCT1184931	Numark Allergy & Hayfever 10mg tablets (Numark Ltd)
+^ESCT1186391	Loratadine 10mg tablets (Mylan)
+^ESCT1186392	Loratadine 10mg tablets (Mylan) 30 tablet 2 x 15 tablets
+^ESCT1186921	Loratadine 5mg/5ml oral solution (Mylan) 100 ml
+^ESCT1186951	Numark Allergy & Hayfever 10mg tablets (Numark Ltd) 60 tablet
+^ESCT1189004	Loratadine 5mg/5ml oral solution (Mylan)
+^ESCT1189005	Loratadine 5mg/5ml oral solution (Mylan) 120 ml
+^ESCT1190071	Numark Allergy & Hayfever 10mg tablets (Numark Ltd) 30 tablet
+^ESCT1190072	Numark Allergy & Hayfever 10mg tablets (Numark Ltd) 14 tablet
+^ESCT1223268	Product containing precisely loratadine 10 milligram/1 each conventional release oral tablet
+^ESCT1259284	Loratadine 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259285	Loratadine 10mg tablets (Torrent Pharma (UK) Ltd) 30 tablet
+^ESCT1259894	Loratadine 5mg/5ml oral solution sugar free 100 ml
+^ESCT1259895	Loratadine 5mg/5ml oral solution sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259896	Loratadine 5mg/5ml oral solution sugar free (Torrent Pharma (UK) Ltd) 100 ml
+^ESCT1259931	Loratadine 5mg/5ml oral solution sugar free
+^ESCT1280873	Loratadine 5mg/5ml oral solution (Relonchem Ltd)
+^ESCT1280874	Loratadine 5mg/5ml oral solution (Relonchem Ltd) 100 ml
+^ESCT1375695	Loratadine 5mg/5ml oral solution
+^ESCT1402132	Loratadine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402133	Loratadine 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402134	Loratadine 5mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1402137	Loratadine 5mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1410122	Loratadine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1410123	Loratadine 10mg tablets (Accord Healthcare Ltd) 7 tablet
+^ESCT1410124	Loratadine 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1410267	Loratadine 5mg/5ml oral solution (Accord Healthcare Ltd)
+^ESCT1410268	Loratadine 5mg/5ml oral solution (Accord Healthcare Ltd) 100 ml
+^ESCT1421982	Loratadine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421983	Loratadine 10mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422036	Loratadine 10mg tablets (Zentiva Pharma UK Ltd) 7 tablet
+^ESCT1426652	Loratadine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426653	Loratadine 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426809	Loratadine 5mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1426810	Loratadine 5mg/5ml oral solution (Kent Pharma (UK) Ltd) 100 ml
+^ESCT1427238	Loratadine 10mg tablets (Kent Pharma (UK) Ltd) 7 tablet
+^ESCT1430314	Loratadine 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1430315	Loratadine 10mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTBO1005205	Boots One A Day Allergy Relief 10mg tablets (The Boots Company Plc)
+^ESCTBO1005206	Boots One A Day Allergy Relief 10mg tablets (The Boots Company Plc) 7 tablet
+^ESCTBO1128458	Boots One A Day Allergy Relief 10mg tablets (The Boots Company Plc) 30 tablet
+^ESCTCL1034216	Clarityn Allergy 10mg tablets (Bayer Plc) 60 tablet 4 x 15 tablets
+^ESCTCL1034224	Clarityn Rapide Allergy 10mg tablets (Bayer Plc)
+^ESCTCL1034225	Clarityn Rapide Allergy 10mg tablets (Bayer Plc) 10 tablet
+^ESCTCL1045093	Clarityn Allergy 5mg/5ml syrup (Bayer Plc) 70 ml
+^ESCTCL1061665	Clarityn Allergy 10mg tablets (Bayer Plc) 14 tablet
+^ESCTCL861073	Clarityn Allergy 10mg tablets (Bayer Plc)
+^ESCTCL861074	Clarityn Allergy 10mg tablets (Bayer Plc) 7 tablet
+^ESCTCL861076	Clarityn Allergy 10mg tablets (Bayer Plc) 21 tablet
+^ESCTCL861090	Clarityn 5mg/5ml syrup (Schering-Plough Ltd)
+^ESCTCL861091	Clarityn 5mg/5ml syrup (Schering-Plough Ltd) 100 ml
+^ESCTCL861092	Clarityn Allergy 5mg/5ml syrup (Bayer Plc)
+^ESCTCL861093	Clarityn Allergy 5mg/5ml syrup (Bayer Plc) 60 ml
+^ESCTCL874883	Clarityn Allergy 5mg/5ml syrup (Bayer Plc) 100 ml
+^ESCTCL927934	Clarityn Allergy 10mg tablets (Bayer Plc) 30 tablet 3 x 10 tablets
+^ESCTGA1013509	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd) 14 tablet
+^ESCTGA911601	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd)
+^ESCTGA911602	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd) 7 tablet
+^ESCTGA918384	Galpharm Non-Drowsy Allergy Relief 10mg tablets (Galpharm International Ltd)
+^ESCTGA918386	Galpharm Non-Drowsy Allergy Relief 10mg tablets (Galpharm International Ltd) 30 tablet
+^ESCTHA911514	Hay-Rite Allergy 10mg tablets (Teva UK Ltd)
+^ESCTHA911515	Hay-Rite Allergy 10mg tablets (Teva UK Ltd) 30 tablet
+^ESCTLL901390	Lloydspharmacy Non-Drowsy Allergy Relief 10mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901392	Lloydspharmacy Non-Drowsy Allergy Relief 10mg tablets (Lloyds Pharmacy Ltd) 30 tablet
+^ESCTLO1006094	Loratadine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1006095	Loratadine 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTLO1007906	Loratadine 5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007907	Loratadine 5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTLO1013508	Loratadine 10mg tablets 14 tablet
+^ESCTLO1022751	Loratadine 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1022752	Loratadine 10mg tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTLO1034223	Loratadine 10mg oral lyophilisates sugar free 10 tablet
+^ESCTLO1034513	Loratadine 10mg oral lyophilisates sugar free
+^ESCTLO1044168	Loratadine 5mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTLO1044169	Loratadine 5mg/5ml oral solution (Waymade Healthcare Plc) 100 ml
+^ESCTLO1045087	Loratadine 5mg/5ml oral solution 70 ml
+^ESCTLO1058334	Loratadine 10mg tablets (Waymade Healthcare Plc)
+^ESCTLO1058335	Loratadine 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLO1065694	Loratadine 5mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTLO1065695	Loratadine 5mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTLO1065696	Loratadine 10mg tablets (DE Pharmaceuticals)
+^ESCTLO1065697	Loratadine 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLO1118005	Loratadine 10mg tablets (Sigma Pharmaceuticals Plc) 7 tablet
+^ESCTLO1120953	Loratadine 5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1120954	Loratadine 5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTLO1120955	Loratadine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1120956	Loratadine 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTLO1120957	Loratadine 10mg tablets (Mawdsley-Brooks & Company Ltd) 7 tablet
+^ESCTLO1142404	Loratadine 10mg tablets (Bell,Sons & Co (Druggists) Ltd)
+^ESCTLO1142407	Loratadine 10mg tablets (Bell,Sons & Co (Druggists) Ltd) 14 tablet
+^ESCTLO1154214	Lorapaed Allergy Relief 5mg/5ml oral solution (Pinewood Healthcare)
+^ESCTLO1154215	Lorapaed Allergy Relief 5mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTLO608861	Loratadine 10mg tablets
+^ESCTLO608863	Loratadine 10 mg oral tablet
+^ESCTLO861069	Loratadine 10mg tablets 30 tablet
+^ESCTLO861070	Loratadine 10mg tablets 7 tablet
+^ESCTLO861071	Loratadine 10mg tablets 21 tablet
+^ESCTLO861077	Loratadine 10mg tablets (Actavis UK Ltd)
+^ESCTLO861078	Loratadine 10mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTLO861079	Loratadine 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLO861080	Loratadine 10mg tablets (Teva UK Ltd)
+^ESCTLO861081	Loratadine 10mg tablets (Teva UK Ltd) 30 tablet
+^ESCTLO861082	Loratadine 10mg tablets (Sandoz Ltd)
+^ESCTLO861083	Loratadine 10mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTLO861084	Loratadine 10mg tablets (Zentiva)
+^ESCTLO861085	Loratadine 10mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTLO861086	Loratadine 10mg tablets (Mylan Ltd)
+^ESCTLO861087	Loratadine 10mg tablets (Mylan Ltd) 30 tablet 2 x 15 tablets
+^ESCTLO861088	Loratadine 5mg/5ml oral solution 100 ml
+^ESCTLO861089	Loratadine 5mg/5ml oral solution 60 ml
+^ESCTLO863150	Loratadine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO863151	Loratadine 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTLO863547	Loratadine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO863549	Loratadine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTLO866231	Loratadine 10mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCTLO866350	Loratadine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO866351	Loratadine 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTLO867329	Loratadine 5mg/5ml oral solution (Actavis UK Ltd)
+^ESCTLO867330	Loratadine 5mg/5ml oral solution (Actavis UK Ltd) 100 ml
+^ESCTLO867534	Loratadine 10mg tablets (Zentiva) 7 tablet
+^ESCTLO872426	Loratadine 5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTLO872427	Loratadine 5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTLO873484	Loratadine 5mg/5ml oral solution (Teva UK Ltd)
+^ESCTLO873485	Loratadine 5mg/5ml oral solution (Teva UK Ltd) 100 ml
+^ESCTLO877708	Loratadine 5mg/5ml oral solution 120 ml
+^ESCTLO878041	Loratadine 10mg tablets 60 tablet
+^ESCTLO878042	Loratadine 10mg tablets 63 tablet
+^ESCTLO878640	Loratadine 10mg tablets 20 tablet
+^ESCTLO896850	Loratadine 5mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTLO896851	Loratadine 5mg/5ml oral solution (Kent Pharmaceuticals Ltd) 100 ml
+^ESCTLO897594	Loratadine 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLO897596	Loratadine 10mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTLO902013	Loratadine 5mg/5ml oral solution (Mylan Ltd)
+^ESCTLO902014	Loratadine 5mg/5ml oral solution (Mylan Ltd) 120 ml
+^ESCTLO910990	Loratadine 5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 120 ml
+^ESCTLO913521	Loratadine 5mg/5ml oral solution (Sandoz Ltd)
+^ESCTLO913522	Loratadine 5mg/5ml oral solution (Sandoz Ltd) 120 ml
+^ESCTLO916311	Loratadine 5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO916313	Loratadine 5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCTLO935353	Loratadine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLO935355	Loratadine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTLO962467	Loratadine 5mg/5ml oral solution (Mylan Ltd) 100 ml
+^ESCTLO964279	Loratadine 5mg/5ml oral solution (Pinewood Healthcare)
+^ESCTLO964280	Loratadine 5mg/5ml oral solution (Pinewood Healthcare) 100 ml
+^ESCTLO978548	Loratadine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO978549	Loratadine 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLO978550	Loratadine 5mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTLO978551	Loratadine 5mg/5ml oral solution (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTLO979878	Loratadine 10mg tablets (Kent Pharmaceuticals Ltd) 7 tablet
+^ESCTLO981089	Loratadine 5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTLO999237	Loratadine 10mg tablets (Sovereign Medical Ltd)
+^ESCTLO999238	Loratadine 10mg tablets (Sovereign Medical Ltd) 30 tablet 3 x 10 tablets
+^ESCTNU1049435	Numark Non-Drowsy Allergy Relief 10mg tablets (Numark Ltd)
+^ESCTNU1049436	Numark Non-Drowsy Allergy Relief 10mg tablets (Numark Ltd) 60 tablet
+^ESCTNU1049437	Numark Non-Drowsy Allergy Relief 10mg tablets (Numark Ltd) 30 tablet
+^ESCTNU1049438	Numark Non-Drowsy Allergy Relief 10mg tablets (Numark Ltd) 7 tablet
+^ESCTNU1049439	Numark Non-Drowsy Allergy Relief 10mg tablets (Numark Ltd) 14 tablet
+^ESCTPR608862	Product containing loratadine 10 mg/1 each oral tablet
+^ESCTRO1047981	Roletra 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRO1047982	Roletra 10mg tablets (Ranbaxy (UK) Ltd) 7 tablet
+CLSY19817EMIS	Clarityn  Syrup  5 mg/5 ml
+CLTA119042NEMIS	Clarityn Rapide Allergy  Tablets  10 mg
+HATA22730NEMIS	Hay-Rite  Tablets  10 mg
+LOOR119039NEMIS	Loratadine  Oral Lyophilisate Sugar Free  10 mg
+LOOR131777NEMIS	Loratadine  Oral Solution, Sugar Free  5 mg/5 ml
+LOSY19819EMIS	Loratadine  Oral solution  5 mg/5 ml
+LOSY35811MGEMIS	Loratadine  Syrup  5 mg/5 ml (Alpharma)
+LOSY35812MGEMIS	Loratadine  Syrup  5 mg/5 ml (A.A.H. Pharm)
+LOSY35813MGEMIS	Loratadine  Syrup  5 mg/5 ml (Teva UK)
+LOSY35814MGEMIS	Loratadine  Syrup  5 mg/5 ml (Kent Pharm)
+LOSY35815MGEMIS	Loratadine  Syrup  5 mg/5 ml (Generics (UK))
+LOSY35816MGEMIS	Loratadine  Syrup  5 mg/5 ml (Sandoz)
+LOSY35817MGEMIS	Loratadine  Syrup  5 mg/5 ml (Unichem)
+LOTA35851MGEMIS	Loratadine  Tablets  10 mg (Alpharma)
+LOTA35852MGEMIS	Loratadine  Tablets  10 mg (Teva UK)
+LOTA35853MGEMIS	Loratadine  Tablets  10 mg (Sandoz)
+LOTA35854MGEMIS	Loratadine  Tablets  10 mg (Winthrop Pharmaceuticals )
+LOTA35855MGEMIS	Loratadine  Tablets  10 mg (Generics (UK))
+LOTA35856MGEMIS	Loratadine  Tablets  10 mg (A.A.H. Pharm)
+LOTA35857MGEMIS	Loratadine  Tablets  10 mg (Unichem)
+LOTA35858MGEMIS	Loratadine  Tablets  10 mg (Kent Pharm)
+LOTA35859MGEMIS	Loratadine  Tablets  10 mg (Ranbaxy)
+LOTA9665HILLI	Loratadine  Tablets  10 mg

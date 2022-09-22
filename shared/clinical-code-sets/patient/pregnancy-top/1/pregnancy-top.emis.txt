@@ -1,0 +1,147 @@
+^ESCT1244971	Other specified complication following abortive pregnancy
+^ESCT1245038	Unspecified legal abortion + damage to pelvic organs/tissues
+^ESCT1245039	Unspecified legal abortion + delayed/excessive haemorrhage
+^ESCT1245040	Unspecified legal abortion + genital tract/pelvic infection
+^ESCT1245041	Unspecified legal abortion with embolism
+^ESCT1245042	Unspecified legal abortion with metabolic disorder
+^ESCT1245043	Unspecified legal abortion with other specified complication
+^ESCT1245044	Unspecified legal abortion with renal failure
+^ESCT1245045	Unspecified legal abortion with shock
+^ESCT1245108	Syndrome of infant of mother with gestational diabetes
+^ESCT1245214	Refer to TOP counselling
+^ESCT1245654	[V]Admission for administration of abortifacient
+^ESCT1245886	[V]Menstrual extraction
+^ESCT1248480	Delayed/excess haemorrhage NOS following abortive pregnancy
+^ESCT1248525	Extraction of menses
+^ESCT1407505	Induction of abortion by dilation and curettage
+^ESCT1407506	Dilation and curettage for termination of pregnancy
+^ESCT1407507	Dilatation and evacuation termination of pregnancy
+^ESCTAB266519	Abortion counseling
+^ESCTAB645869	Abortion
+^ESCTCO266510	Counselling for termination of pregnancy
+^ESCTCO266511	Counseling for termination of pregnancy
+^ESCTCO266512	Counseling for abortion
+^ESCTCO266513	Counselling for abortion
+^ESCTCO479359	Complete legal termination of pregnancy with genital tract or pelvic infection
+^ESCTCO479361	Complete legal termination of pregnancy with delayed or excessive haemorrhage
+^ESCTCO479363	Complete legal abortion with delayed or excessive hemorrhage
+^ESCTCO479364	Complete legal termination of pregnancy with delayed or excessive hemorrhage
+^ESCTCO479365	Complete legal termination of pregnancy with damage to pelvic organs or tissues
+^ESCTCO479367	Complete legal termination of pregnancy with renal failure
+^ESCTCO479369	Complete legal termination of pregnancy with metabolic disorder
+^ESCTCO479371	Complete legal termination of pregnancy with shock
+^ESCTCO479373	Complete legal termination of pregnancy with embolism
+^ESCTCO479395	Complete illegal termination of pregnancy with genital tract or pelvic infection
+^ESCTCO479397	Complete illegal termination of pregnancy with delayed or excessive haemorrhage
+^ESCTCO479399	Complete illegal abortion with delayed or excessive hemorrhage
+^ESCTCO479400	Complete illegal termination of pregnancy with delayed or excessive hemorrhage
+^ESCTCO479401	Complete illegal termination of pregnancy with damage to pelvic organs or tissues
+^ESCTCO479403	Complete illegal termination of pregnancy with renal failure
+^ESCTCO479405	Complete illegal termination of pregnancy with metabolic disorder
+^ESCTCO479407	Complete illegal termination of pregnancy with shock
+^ESCTCO479409	Complete illegal termination of pregnancy with embolism
+^ESCTCO493930	Counselling following termination of pregnancy
+^ESCTCO493931	Counseling following termination of pregnancy
+^ESCTCO493934	Counseling prior to the termination of pregnancy
+^ESCTCO493935	Counselling prior to the termination of pregnancy
+^ESCTDE297753	D&E - Dilatation and evacuation
+^ESCTDE514547	Destruction of fetus
+^ESCTDE514549	Destruction of foetus
+^ESCTDI297750	Dilation and curettage for termination of pregnancy
+^ESCTDI297752	Dilatation and evacuation termination of pregnancy
+^ESCTEX467497	Extra-amniotic prostaglandin instillation
+^ESCTFA479411	Failed attempted termination of pregnancy with genital tract or pelvic infection
+^ESCTFA479413	Failed attempted termination of pregnancy with delayed or excessive hemorrhage
+^ESCTFA479415	Failed attempted abortion with delayed or excessive hemorrhage
+^ESCTFA479416	Failed attempted termination of pregnancy with delayed or excessive haemorrhage
+^ESCTFA479417	Failed attempted termination of pregnancy with damage to pelvic organ or tissues
+^ESCTFA479419	Failed attempted termination of pregnancy with renal failure
+^ESCTFA479421	Failed attempted pregnancy termination with kidney failure
+^ESCTFA479422	Failed attempted termination of pregnancy with metabolic disorder
+^ESCTFA479424	Failed attempted termination of pregnancy with shock
+^ESCTFA479426	Failed attempted termination of pregnancy with embolism
+^ESCTFA479438	Failed medical termination of pregnancy, complicated by genital tract or pelvic infection
+^ESCTFA479440	Failed medical termination of pregnancy, complicated by delayed or excessive hemorrhage
+^ESCTFA479442	Failed medical abortion, complicated by delayed or excessive hemorrhage
+^ESCTFA479443	Failed medical termination of pregnancy, complicated by delayed or excessive haemorrhage
+^ESCTFA479444	Failed medical termination of pregnancy, complicated by embolism
+^ESCTFA479446	Failed medical termination of pregnancy, without complication
+^ESCTFE359490	Fetal death due to induced abortion
+^ESCTFE483270	Fetal or neonatal effect of maternal complication of pregnancy
+^ESCTFE514546	Fetal reduction or destruction procedure
+^ESCTFO359488	Foetal death due to termination of pregnancy
+^ESCTFO359491	Foetal death due to induced abortion
+^ESCTFO483272	Foetal or neonatal effect of maternal complication of pregnancy
+^ESCTFO514550	Foeticide
+^ESCTIL330325	Illegal termination of pregnancy
+^ESCTIL330328	Illegal abortion
+^ESCTIN279095	Incision of uterus for termination of pregnancy
+^ESCTIN297751	Induction of abortion by dilation and curettage
+^ESCTIN467496	Intra-amniotic prostaglandin instillation
+^ESCTIN467499	Insertion of prostaglandin abortifacient suppository
+^ESCTIN479342	Incomplete legal termination of pregnancy with genital tract or pelvic infection
+^ESCTIN479344	Incomplete legal termination of pregnancy with delayed or excessive hemorrhage
+^ESCTIN479346	Incomplete legal abortion with delayed or excessive hemorrhage
+^ESCTIN479347	Incomplete legal termination of pregnancy with delayed or excessive haemorrhage
+^ESCTIN479348	Incomplete legal termination of pregnancy with damage to pelvic organs or tissues
+^ESCTIN479350	Incomplete legal termination of pregnancy with renal failure
+^ESCTIN479352	Incomplete legal termination of pregnancy with metabolic disorder
+^ESCTIN479354	Incomplete legal termination of pregnancy with shock
+^ESCTIN479356	Incomplete legal termination of pregnancy with embolism
+^ESCTIN479377	Incomplete illegal termination of pregnancy with genital tract or pelvic infection
+^ESCTIN479379	Incomplete illegal termination of pregnancy with delayed or excessive hemorrhage
+^ESCTIN479381	Incomplete illegal abortion with delayed or excessive hemorrhage
+^ESCTIN479382	Incomplete illegal termination of pregnancy with delayed or excessive haemorrhage
+^ESCTIN479383	Incomplete illegal termination of pregnancy with damage to pelvic organs or tissues
+^ESCTIN479385	Incomplete illegal termination of pregnancy with renal failure
+^ESCTIN479387	Incomplete illegal termination of pregnancy with metabolic disorder
+^ESCTIN479389	Incomplete illegal termination of pregnancy with shock
+^ESCTIN479391	Incomplete illegal termination of pregnancy with embolism
+^ESCTIN549891	Incomplete legal abortion
+^ESCTIN570135	Insertion of abortifacient suppository
+^ESCTIN749819	Induced termination of pregnancy with complication
+^ESCTIN749913	Induced termination of pregnancy without complication
+^ESCTLE255668	Legal termination of pregnancy complicated by metabolic disorder
+^ESCTLE255669	Legal abortion complicated by metabolic disorder
+^ESCTLE257188	Legal termination of pregnancy complicated by renal failure
+^ESCTLE257189	Legal abortion complicated by renal failure
+^ESCTLE293526	Legal termination of pregnancy complicated by shock
+^ESCTLE293527	Legal abortion complicated by shock
+^ESCTLE293528	Legal abortion with circulatory collapse
+^ESCTLE305553	Legal abortion without complication
+^ESCTLE313407	Legal abortion
+^ESCTLE328362	Legal termination of pregnancy with complication
+^ESCTLE328363	Legal abortion with complication
+^ESCTLE343807	Legal termination of pregnancy complicated by embolism
+^ESCTLE343808	Legal abortion complicated by embolism
+^ESCTLE344319	Legal termination of pregnancy complicated by delayed and/or excessive hemorrhage
+^ESCTLE344320	Legal abortion complicated by delayed AND/OR excessive hemorrhage
+^ESCTLE344321	Legal abortion complicated by delayed AND/OR excessive haemorrhage
+^ESCTLE344322	Legal termination of pregnancy complicated by delayed and/or excessive haemorrhage
+^ESCTLE419568	Legal termination of pregnancy complicated by damage to pelvic organ and/or tissues
+^ESCTLE419569	Legal abortion complicated by damage to pelvic organs AND/OR tissues
+^ESCTLE638661	Legal termination of pregnancy complicated by genital-pelvic infection
+^ESCTLE638662	Legal abortion complicated by genital-pelvic infection
+^ESCTOB279094	Obstetrical hysterotomy for termination of pregnancy
+^ESCTPO493929	Post-termination counseling
+^ESCTPR493933	Pre-termination counseling
+^ESCTRE472499	Referral for counselling for termination of pregnancy
+^ESCTRE472501	Referral for counseling for termination of pregnancy
+^ESCTRE479434	Readmission for retained products of conception, legal termination of pregnancy
+^ESCTRE479436	Readmission for retained products of conception, illegal termination of pregnancy
+^ESCTSE300315	Self-induced termination of pregnancy
+^ESCTSE548766	Selective destruction of foetus
+^ESCTST652568	STOP - Suction termination of pregnancy
+^ESCTSU652571	Suction evacuation of pregnancy
+^ESCTSU652572	Suction curettage of uterus for termination of pregnancy
+^ESCTTE266518	Termination counseling
+^ESCTTE749912	Termination of pregnancy without complication
+^ESCTTH279093	Therapeutic abortion by hysterotomy
+^ESCTTH645871	Therapeutic termination of pregnancy procedure
+^ESCTTH645872	Therapeutic abortion procedure
+^ESCTTO266517	TOP counseling
+^ESCTTO329952	TOP - Failed attempted termination of pregnancy
+^ESCTTO645868	TOP - Termination of pregnancy
+^ESCTVA652570	VAT - Vacuum aspiration termination of pregnancy
+EMISNQPO22	Post-termination counselling
+EMISNQPR59	Pre-termination counselling

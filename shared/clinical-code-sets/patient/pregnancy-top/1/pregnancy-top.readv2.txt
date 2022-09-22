@@ -1,0 +1,148 @@
+7E08400	Suction termination of pregnancy
+L05..00	Legally induced abortion
+7E06600	Hysterotomy and termination of pregnancy
+7E08500	Dilation of cervix and extraction termination of pregnancy
+L051.12	Surgical abortion - incomplete
+8H7W.00	Refer to TOP counselling
+6776.12	TOP counselling
+L051.00	Legal abortion incomplete
+7E07113	Curettage of uterus for termination of pregnancy NEC
+6776.13	Termination counselling
+7E07011	Dilation cervix uteri & curettage for termination pregnancy
+ZV25313	[V]Admission for termination of pregnancy
+ZV25311	[V]Admission for termination of pregnancy (TOP)
+6776.00	Preg. termination counselling
+7E08411	Vacuum termination of pregnancy
+7E0B100	Intraamniotic injection of abortifacient NEC
+L097100	Readmission for retained produc of concept, legal abortion
+9Ea..00	Reason for termination of pregnancy
+L051z00	Incomplete legal abortion NOS
+7F02.11	Feticide
+L05..13	Therapeutic abortion
+L05z.00	Legally induced abortion NOS
+L0A4.00	Failed medical abortion, without complication
+L050z00	Unspecified legal abortion NOS
+7E0B400	Insertion of prostaglandin abortifacient pessary
+L08..00	Failed attempted abortion
+L051.11	Medal abortion - incomplete
+L050x00	Unspecified legal abortion with complication NOS
+L08z.00	Failed attempted abortion NOS
+L052.11	Medical abortion - complete
+L06..00	Illegally induced abortion
+7E0B000	Intraamniotic injection of prostaglandin
+7E07114	Curettage of uterus for termination of pregnancy NEC
+Q486.00	Fetal death due to termination of pregnancy
+L052.00	Legal abortion complete
+L0A1.00	Failed medical abortion complic by genital tract/pelvic infn
+L097200	Readmission for retained produc of concept, illegal abortion
+L050w00	Unspecified legal abortion with other specified complication
+L06..12	Self-induced abortion
+L0A..00	Failed attempted abortion
+L052.12	Surgical abortion - complete
+L052y00	Complete legal abortion with no mention of complication
+L0A2.00	Failed medical abortion comp by delayed/excessive haem'ge
+ZV25B00	[V]Admission for administration of abortifacient
+L060z00	Unspecified illegal abortion NOS
+7E0B500	Insertion of abortifacient pessary NEC
+L050.00	Legal abortion unspecified
+7F02000	Early selective feticide
+7F02.00	Selective destruction of fetus
+L052z00	Complete legal abortion NOS
+L0A3.00	Failed medical abortion, complicated by embolism
+L05..11	Elective abortion
+7F02200	Selective feticide NEC
+7F02100	Late selective feticide
+L062.00	Illegal abortion complete
+L052x00	Complete legal abortion with complication NOS
+7E0B.00	Introduction of abortifacient into uterine cavity
+L051100	Incomplete legal abortion + delayed or excessive haemorrhage
+L052100	Complete legal abortion with delayed/excessive haemorrhage
+L052000	Complete legal abortion + genital tract or pelvic infection
+7F02z00	Selective destruction of fetus NOS
+7E0B200	Extraamniotic injection of prostaglandin
+L050y00	Unspecified legal abortion with no mention of complication
+L06..11	Criminal abortion
+L060.00	Illegal abortion unspecified
+L061.00	Illegal abortion incomplete
+7F02y00	Other specified selective destruction of fetus
+L051y00	Incomplete legal abortion with no mention of complication
+L050000	Unspecified legal abortion + genital tract/pelvic infection
+L061z00	Incomplete illegal abortion NOS
+L06z.00	Illegally induced abortion NOS
+L051w00	Incomplete legal abortion with other specified complication
+L062w00	Complete illegal abortion with other specified complication
+9Ea0.00	Risk life pregnant woman greater than if pregnancy terminatd
+L051000	Incomplete legal abortion + genital tract/pelvic infection
+7E0Bz00	Introduction of abortifacient into uterine cavity NOS
+L052w00	Complete legal abortion with other specified complication
+L062000	Complete illegal abortion + genital tract/pelvic infection
+L051700	Incomplete medical abortion
+7E0B300	Extraamniotic injection of abortifacient NEC
+L08y.00	Failed attempted abortion with no mention of complication
+6776100	Pre-termination counselling
+L050200	Unspecified legal abortion + damage to pelvic organs/tissues
+Q48G.00	Complication termination pregnancy affecting fetus newborn
+7E0By00	Introduction of abortifacient into uterine cavity OS
+L052500	Complete legal abortion with shock
+L050100	Unspecified legal abortion + delayed/excessive haemorrhage
+L08x.00	Failed attempted abortion with complication NOS
+7F09y00	Other specified destruction of fetus
+L050300	Unspecified legal abortion with renal failure
+L050400	Unspecified legal abortion with metabolic disorder
+L050500	Unspecified legal abortion with shock
+L050600	Unspecified legal abortion with embolism
+L051200	Incomplete legal abortion + damage to pelvic organs/tissues
+L051300	Incomplete legal abortion with renal failure
+L051400	Incomplete legal abortion with metabolic disorder
+L051500	Incomplete legal abortion with shock
+L051600	Incomplete legal abortion with embolism
+L051x00	Incomplete legal abortion with complication NOS
+L052200	Complete legal abortion + damage to pelvic organs or tissues
+L052300	Complete legal abortion with renal failure
+L052400	Complete legal abortion with metabolic disorder
+L052600	Complete legal abortion with embolism
+L060000	Unspec illegal abortion + genital tract or pelvic infection
+L060100	Unspec illegal abortion + delayed or excessive haemorrhage
+L060200	Unspecified illegal abortion + pelvic organ/tissue damage
+L060300	Unspecified illegal abortion with renal failure
+L060400	Unspecified illegal abortion with metabolic disorder
+L060500	Unspecified illegal abortion with shock
+L060600	Unspecified illegal abortion with embolism
+L060w00	Unspecified illegal abortion + other specified complication
+L060x00	Unspecified illegal abortion with complication NOS
+L060y00	Unspecified illegal abortion with no mention of complication
+L061000	Incomplete illegal abortion + genital tract/pelvic infection
+L061100	Incomplete illegal abortion + delayed/excessive haemorrhage
+L061200	Incomplete illegal abortion + pelvic organ/tissue damage
+L061300	Incomplete illegal abortion with renal failure
+L061400	Incomplete illegal abortion with metabolic disorder
+L061500	Incomplete illegal abortion with shock
+L061600	Incomplete illegal abortion with embolism
+L061w00	Incomplete illegal abortion + other specified complication
+L061x00	Incomplete illegal abortion with complication NOS
+L061y00	Incomplete illegal abortion with no mention of complication
+L062100	Complete illegal abortion + delayed or excessive haemorrhage
+L062200	Complete illegal abortion + pelvic organ/tissue damage
+L062300	Complete illegal abortion with renal failure
+L062400	Complete illegal abortion with metabolic disorder
+L062500	Complete illegal abortion with shock
+L062600	Complete illegal abortion with embolism
+L062x00	Complete illegal abortion with complication NOS
+L062y00	Complete illegal abortion with no mention of complication
+L062z00	Complete illegal abortion NOS
+L080.00	Failed attempted abortion + genital tract/pelvic infection
+L081.00	Failed attempted abortion + delayed or excessive haemorrhage
+L082.00	Failed attempted abortion + damage to pelvic organs/tissues
+L083.00	Failed attempted abortion with renal failure
+L084.00	Failed attempted abortion with metabolic disorder
+L085.00	Failed attempted abortion with shock
+L086.00	Failed attempted abortion with embolism
+L08w.00	Failed attempted abortion with other specified complication
+Lyu0300	[X]Failed medical abortion,wth other+unspcfied complications
+Lyu0400	[X]Oth+unspcf failed inducd abort,complct gen tract+pelv inf
+Lyu0500	[X]Oth+unspc fail induc abortn,complict/delay/exces h'morrhg
+Lyu0600	[X]Other+unspcf failed induced abortion,complicated/embolism
+Lyu0700	[X]Oth+unspcf failed inducd abortn,wth oth+unspcf complicatn
+Lyu0800	[X]Other+unspcf failed induced abortion,without complication
+7F09.00	Destruction of fetus
+7F09z00	Unspecified destruction of fetus

@@ -1,0 +1,108 @@
+46123006	Product containing ascorbic acid
+108952000	Product containing tryptophan (medicinal product)
+321941009	Product containing precisely tryptophan 500 milligram/1 each conventional release oral tablet
+323281004	Product containing precisely naltrexone hydrochloride 50 milligram/1 each conventional release oral tablet
+327478005	Ascorbic acid 10 mg and ferrous gluconate 250 mg and folic acid 5 mg oral tablet
+329251001	Product containing precisely pyridoxine hydrochloride 10 milligram/1 each conventional release oral tablet
+329252008	Pyridoxine (as pyridoxine hydrochloride) 20 mg oral tablet
+329253003	Product containing precisely pyridoxine hydrochloride 50 milligram/1 each conventional release oral tablet
+329315005	Product containing precisely ascorbic acid 50 milligram/1 each conventional release oral tablet (clinical drug)
+329316006	Product containing precisely ascorbic acid 100 milligram/1 each conventional release oral tablet (clinical drug)
+329317002	Product containing precisely ascorbic acid 200 milligram/1 each conventional release oral tablet (clinical drug)
+329318007	Product containing precisely ascorbic acid 500 milligram/1 each conventional release oral tablet (clinical drug)
+333847008	Ketamine product
+376885006	Product containing precisely bupropion hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+377191002	Product containing precisely ascorbic acid 60 milligram and cyanocobalamin 5 milligram and ferrous fumarate 200 milligram/1 each conventional release oral capsule
+386583001	Product containing precisely bupropion hydrochloride 100 milligram/1 each conventional release oral tablet
+398706003	Ascorbic acid and clioquinol product
+409460004	Product containing precisely naltrexone hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+409461000	Product containing precisely naltrexone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+421301009	Ascorbic acid and dimethyl sulfone product
+421712006	Ascorbic acid and nicotinamide product
+423037001	Ascorbic acid and paracetamol product
+426597000	Ascorbic acid and ferrous sulfate product
+437810008	Ascorbic acid in oral dosage form
+437883004	Product containing ascorbic acid in oropharyngeal dosage form
+438434006	Ascorbic acid in parenteral dosage form
+438976009	Ascorbic acid in topical dosage form
+702952002	Agomelatine product
+714231007	Product containing ketamine in parenteral dosage form
+714611000	Pyridoxine in oral dosage form
+764356002	Doxylamine and pyridoxine product
+764358001	Doxylamine and pyridoxine in oral dosage form
+765083002	Ascorbic acid 250mg chewable tablet
+765522003	Bupropion hydrochloride 100mg prolonged-release oral tablet (product)
+765588001	Bupropion hydrochloride 200mg prolonged-release oral tablet (product)
+765635004	Bupropion hydrochloride 50mg prolonged-release oral tablet
+765686009	Bupropion hydrochloride 300mg prolonged-release oral tablet
+765694002	Bupropion hydrochloride 150 mg prolonged-release oral tablet
+765867003	Morphine sulfate 20mg + naltrexone hydrochloride 800microgram prolonged-release oral capsule (product)
+765904008	Morphine sulfate 50mg + naltrexone hydrochloride 2mg prolonged-release oral capsule
+765944001	Morphine sulfate 80mg + naltrexone hydrochloride 3.2mg prolonged-release oral capsule
+765988008	Morphine sulfate 100mg + naltrexone hydrochloride 4mg prolonged-release oral capsule (product)
+766012006	Morphine sulfate 60mg + naltrexone hydrochloride 2.4mg prolonged-release oral capsule (product)
+766019002	Morphine sulfate 30mg + naltrexone hydrochloride 1.2mg prolonged-release oral capsule
+767286000	Pyridoxine product
+767895002	Product containing ascorbic acid and cyanocobalamin and ferrous fumarate (medicinal product)
+767896001	Ascorbic acid and cyanocobalamin and ferrous fumarate in oral dosage form
+768325003	Product containing tryptophan in oral dosage form (medicinal product form)
+768336005	Product containing ascorbic acid and ferrous gluconate and folic acid
+768337001	Product containing ascorbic acid and ferrous gluconate and folic acid in oral dosage form (medicinal product form)
+768870000	Product containing ascorbic acid and cetylpyridinium
+769606003	Product containing precisely ascorbic acid 500 milligram/5 milliliter conventional release solution for injection ampule
+769852008	Product containing precisely ketamine (as ketamine hydrochloride) 1 gram/10 milliliter conventional release solution for injection vial
+769853003	Product containing precisely ketamine (as ketamine hydrochloride) 200 milligram/20 milliliter conventional release solution for injection vial
+769854009	Product containing precisely ketamine (as ketamine hydrochloride) 500 milligram/10 milliliter conventional release solution for injection vial
+963005	Pyridoxine 4-dehydrogenase (substance)
+16520007	Pyridoxine 4-oxidase (substance)
+24615004	Tryptophan aminotransferase (substance)
+25650003	Tryptophan-transfer ribonucleic acid ligase
+32669009	Tryptophan dimethylallyltransferase (substance)
+41830001	Aromatic-L-amino-acid decarboxylase (substance)
+65283003	Tryptophan 2-monooxygenase (substance)
+70213008	Tryptophan synthase (substance)
+70785005	Tryptophan-phenylpyruvate aminotransferase (substance)
+80120001	Indoleamine-pyrrole 2,3-dioxygenase
+88662008	Pyridoxine 5-dehydrogenase (substance)
+130227005	Tryptophan 2-C-methyltransferase (substance)
+130278003	D-tryptophan N-malonyltransferase (substance)
+130339004	Pyridoxine 5'-O-beta-D-glucosyltransferase (substance)
+130575001	Tryptophanyl aminopeptidase (substance)
+54821000	L-Tryptophan
+73916008	Oxitriptan
+418990001	Tryptophan agent
+706927001	Free tryptophan
+31706007	Ketamine hydrochloride (substance)
+43706004	L-Ascorbic acid
+64191009	Naltrexone hydrochloride (substance)
+373464007	Ketamine
+103070002	Pyridoxine congeners (substance)
+126227009	Pyridoxine hydrochloride (substance)
+430469009	Pyridoxine
+430633005	Pyridoxine phosphate
+10931002	Tryptophan 2'-dioxygenase (substance)
+54428003	Peptide-tryptophan 2,3-dioxygenase (substance)
+395733003	Bupropion hydrochloride
+698012009	Agomelatine (substance)
+87440000	Tryptophan 5-monooxygenase (substance)
+733735003	Substance with tryptophan hydroxylase inhibitor mechanism of action
+112025009	D-Tryptophan acetyltransferase (substance)
+725893006	N-methyl-L-tryptophan
+741014002	Tryptophan hydroxylase inhibitor
+443311000124103	Lysine and tryptophan-free infant formula
+444231000124103	Lysine and tryptophan-free formula
+11143411000001100	Opizone 50mg tablets (Britannia Pharmaceuticals Ltd) (product)
+15457711000001104	Valdoxan 25mg tablets (Servier Laboratories Ltd) (product)
+15499111000001100	Agomelatine 25mg tablets (product)
+20414111000001106	Adepend 50mg tablets (AOP Orphan Ltd) (product)
+35902911000001105	Ascorbic acid 500mg/5ml solution for injection ampoules (product)
+35914111000001102	Bupropion 150mg modified-release tablets (product)
+36036711000001105	Ketamine 1g/10ml solution for injection vials (product)
+36036811000001102	Ketamine 200mg/20ml solution for injection vials (product)
+36036911000001107	Ketamine 500mg/10ml solution for injection vials (product)
+3650111000001105	Nalorex 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+3708811000001102	Optimax 500mg tablets (Merck Pharmaceuticals) (product)
+3987211000001108	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd) (product)
+3988711000001100	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd) (product)
+3990611000001105	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd) (product)
+703311000001108	Zyban 150mg modified-release tablets (GlaxoSmithKline) (product)

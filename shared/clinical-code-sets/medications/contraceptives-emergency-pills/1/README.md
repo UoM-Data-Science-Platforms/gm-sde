@@ -1,6 +1,6 @@
 # Contraceptives - emergency pills
 
-This code set was based on: 
+This code set was based on BNF codes (mapped to SNOMED) starting with 070305, following the approach used in: https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf
 
 ## Prevalence log
 

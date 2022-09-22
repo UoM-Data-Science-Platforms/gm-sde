@@ -1,0 +1,94 @@
+^ESCT1178751	Product containing only stanozolol 5 mg/1 each oral tablet
+^ESCT1182062	Product containing only dehydroepiandrosterone 25 mg/1 each oral capsule
+^ESCT1187577	Product containing only oxandrolone 2.5 mg/1 each oral tablet
+^ESCT1188322	Product containing only dehydroepiandrosterone 10 mg/1 each oral tablet
+^ESCT1188323	Product containing only dehydroepiandrosterone 25 mg/1 each oral tablet
+^ESCT1188324	Product containing only dehydroepiandrosterone 50 mg/1 each oral capsule
+^ESCT1215387	Nandrolone 50mg/1ml solution for injection ampoules
+^ESCT1224716	Product containing precisely stanozolol 5 milligram/1 each conventional release oral tablet
+^ESCT1228449	Product containing precisely oxandrolone 2.5 milligram/1 each conventional release oral tablet
+^ESCT1232258	Product containing precisely dehydroepiandrosterone 10 milligram/1 each conventional release oral tablet
+^ESCT1232259	Product containing precisely dehydroepiandrosterone 25 milligram/1 each conventional release oral capsule
+^ESCT1232260	Dehydroepiandrosterone 25 mg oral capsule
+^ESCT1232261	Product containing precisely dehydroepiandrosterone 25 milligram/1 each conventional release oral tablet
+^ESCT1232262	Product containing precisely dehydroepiandrosterone 50 milligram/1 each conventional release oral capsule
+^ESCT1232263	Dehydroepiandrosterone 50 mg oral capsule
+^ESCT1257879	Prasterone 25mg tablets 1 tablet
+^ESCT1257880	Prasterone 25mg tablets (Special Order)
+^ESCT1257881	Prasterone 25mg tablets (Special Order) 1 tablet
+^ESCT1260013	Prasterone 6.5mg pessaries 28 pessary
+^ESCT1260014	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)
+^ESCT1260015	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd) 28 pessary 4 x 7 pessaries
+^ESCT1260021	Prasterone 6.5mg pessaries
+^ESCTAN940096	Androstanolone 2.5% gel
+^ESCTAN940098	Androstanolone 2.5% gel 80 gram
+^ESCTAN940100	Andractim 2.5% gel (Imported (France))
+^ESCTAN940102	Andractim 2.5% gel (Imported (France)) 80 gram
+^ESCTAN985948	Androstanolone 2.5% gel (Special Order)
+^ESCTAN985949	Androstanolone 2.5% gel 1 gram
+^ESCTAN985950	Androstanolone 2.5% gel (Special Order) 1 gram
+^ESCTDE684959	Dehydroepiandrosterone 10 mg oral tablet
+^ESCTDE684962	Dehydroepiandrosterone 25 mg/1 each oral capsule
+^ESCTDE684965	Dehydroepiandrosterone 25 mg oral tablet
+^ESCTDE684967	Dehydroepiandrosterone 50 mg/1 each oral capsule
+^ESCTDE865247	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+^ESCTDE865250	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 1 ampoule
+^ESCTDH1033653	DHEA 10mg tablets (Imported (United States))
+^ESCTDH1033654	DHEA 10mg tablets (Imported (United States)) 30 tablet
+^ESCTDH1033656	DHEA 25mg tablets (Imported (United States))
+^ESCTDH1033657	DHEA 25mg tablets (Imported (United States)) 60 tablet
+^ESCTDH1033659	DHEA 25mg capsules (Imported (United States))
+^ESCTDH1033660	DHEA 25mg capsules (Imported (United States)) 60 capsule
+^ESCTDH1033662	DHEA 25mg capsules (Imported (United States)) 90 capsule
+^ESCTDH1033664	DHEA 50mg capsules (Imported (United States))
+^ESCTDH1033665	DHEA 50mg capsules (Imported (United States)) 50 capsule
+^ESCTNA1007657	Natrol DHEA 10mg tablets (Imported (United States))
+^ESCTNA1007658	Natrol DHEA 10mg tablets (Imported (United States)) 30 tablet
+^ESCTNA865245	Nandrolone 50mg/1ml solution for injection ampoules 1 ampoule
+^ESCTOX640616	Oxandrolone 2.5mg tablets
+^ESCTOX640618	Oxandrolone 2.5 mg oral tablet
+^ESCTOX940430	Oxandrolone 2.5mg tablets 100 tablet
+^ESCTOX940431	Oxandrin 2.5mg tablets (Imported (Australia))
+^ESCTOX940432	Oxandrin 2.5mg tablets (Imported (Australia)) 100 tablet
+^ESCTOX986092	Oxandrolone 2.5mg tablets 1 tablet
+^ESCTOX986093	Oxandrolone 2.5mg tablets (Special Order)
+^ESCTOX986094	Oxandrolone 2.5mg tablets (Special Order) 1 tablet
+^ESCTPR1007656	Prasterone 10mg / Calcium carbonate 47mg tablets 30 tablet
+^ESCTPR1007715	Prasterone 10mg / Calcium carbonate 47mg tablets
+^ESCTPR1033652	Prasterone 10mg tablets 30 tablet
+^ESCTPR1033655	Prasterone 25mg tablets 60 tablet
+^ESCTPR1033658	Prasterone 25mg capsules 60 capsule
+^ESCTPR1033661	Prasterone 25mg capsules 90 capsule
+^ESCTPR1033663	Prasterone 50mg capsules 50 capsule
+^ESCTPR612799	Product containing stanozolol 5 mg/1 each oral tablet
+^ESCTPR640617	Product containing oxandrolone 2.5 mg/1 each oral tablet
+^ESCTPR684957	Prasterone 10mg tablets
+^ESCTPR684958	Product containing dehydroepiandrosterone 10 mg/1 each oral tablet
+^ESCTPR684960	Prasterone 25mg capsules
+^ESCTPR684961	Product containing dehydroepiandrosterone 25 mg/1 each oral capsule
+^ESCTPR684963	Prasterone 25mg tablets
+^ESCTPR684964	Product containing dehydroepiandrosterone 25 mg/1 each oral tablet
+^ESCTPR684966	Prasterone 50mg capsules
+^ESCTPR684968	Product containing dehydroepiandrosterone 50 mg/1 each oral capsule
+^ESCTST612798	Stanozolol 5mg tablets
+^ESCTST612800	Stanozolol 5 mg oral tablet
+^ESCTST870953	Stanozolol 5mg tablets 56 tablet
+^ESCTST870954	Stromba 5mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTST870955	Stromba 5mg tablets (Sanofi-Synthelabo Ltd) 56 tablet
+^ESCTST979721	Stanozolol 2mg tablets 1 tablet
+^ESCTST979722	Stanozolol 2mg tablets (Special Order)
+^ESCTST979723	Stanozolol 2mg tablets (Special Order) 1 tablet
+^ESCTST979775	Stanozolol 2mg tablets
+DEIN815	Deca-Durabolin  Injection  50 mg/ml, 1 ml ampoule
+DHCA27980NEMIS	Dhea  Capsules  50 mg
+DHCA51872NEMIS	Dhea  Capsules  25 mg
+DHTA15776NEMIS	Dhea  Tablets  25 mg
+DHTA30806NEMIS	Dhea  Tablets  10 mg
+INPE131865NEMIS	Intrarosa  Pessaries  6.5 mg
+NAIN1930	Nandrolone Decanoate  Injection  50 mg/ml, 1 ml ampoule
+NAIN7156	Nandrolone Phenylpropionate  Injection  50 mg/ml
+OXTA52404NEMIS	Oxandrolone  Tablets  2.5 mg
+PRPE131861NEMIS	Prasterone  Pessaries  6.5 mg
+STTA16178NEMIS	Stanozolol  Tablets  2 mg
+STTA2716	Stromba  Tablets  5 mg
+STTA7079	Stanozolol  Tablets  5 mg

@@ -1,0 +1,50 @@
+325267004	Tolbutamide 500mg tablets
+1069011000001106	Tolbutamide 500mg tablets
+4471511000001106	Tolbutamide 500mg tablets
+27048811000001102	Tolbutamide 500mg tablets
+450011000001104	Tolbutamide 500mg tablets
+2006911000001101	Tolbutamide 500mg tablets
+27048911000001107	Tolbutamide 500mg tablets
+864711000001108	Tolbutamide 500mg tablets
+2007011000001102	Tolbutamide 500mg tablets
+29698411000001109	Tolbutamide 500mg tablets
+639511000001103	Tolbutamide 500mg tablets
+2007111000001101	Tolbutamide 500mg tablets
+147811000001105	Tolbutamide 500mg tablets
+2007211000001107	Tolbutamide 500mg tablets
+4582111000001106	Tolbutamide 500mg tablets
+393311000001107	Tolbutamide 500mg tablets
+2007311000001104	Tolbutamide 500mg tablets
+27140111000001100	Tolbutamide 500mg tablets
+4470711000001109	Tolbutamide 500mg tablets
+4471711000001101	Tolbutamide 500mg tablets
+9801011000001101	Tolbutamide 500mg tablets
+9801111000001100	Tolbutamide 500mg tablets
+17205711000001104	Tolbutamide 500mg tablets
+17205811000001107	Tolbutamide 500mg tablets
+17821311000001104	Tolbutamide 500mg tablets
+17821611000001109	Tolbutamide 500mg tablets
+21884111000001108	Tolbutamide 500mg tablets
+21884211000001102	Tolbutamide 500mg tablets
+27117211000001103	Tolbutamide 500mg tablets
+33555011000001105	Tolbutamide 500mg tablets
+27117311000001106	Tolbutamide 500mg tablets
+30100711000001104	Tolbutamide 500mg tablets
+30100811000001107	Tolbutamide 500mg tablets
+30100911000001102	Tolbutamide 500mg tablets
+39908611000001109	Tolbutamide 500mg tablets
+39908711000001100	Tolbutamide 500mg tablets
+8724011000001106	Tolbutamide 500mg/5ml oral suspension
+8711711000001102	Tolbutamide 500mg/5ml oral suspension
+8712011000001107	Tolbutamide 500mg/5ml oral suspension
+8712711000001109	Tolbutamide 500mg/5ml oral suspension
+13324311000001108	Tolbutamide 1g/5ml oral suspension
+13317411000001104	Tolbutamide 1g/5ml oral suspension
+13317511000001100	Tolbutamide 1g/5ml oral suspension
+13317611000001101	Tolbutamide 1g/5ml oral suspension
+13324411000001101	Tolbutamide 250mg/5ml oral suspension
+13317911000001107	Tolbutamide 250mg/5ml oral suspension
+20160711000001101	Tolbutamide 250mg/5ml oral suspension
+13318011000001109	Tolbutamide 250mg/5ml oral suspension
+13318111000001105	Tolbutamide 250mg/5ml oral suspension
+20160811000001109	Tolbutamide 250mg/5ml oral suspension

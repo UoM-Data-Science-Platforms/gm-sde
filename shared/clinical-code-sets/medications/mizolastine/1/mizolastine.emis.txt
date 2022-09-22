@@ -1,0 +1,9 @@
+^ESCT1402840	Mizolastine 10mg modified-release tablets
+^ESCTMI820046	Mizollen 10mg modified-release tablets (Sanofi)
+^ESCTMI821303	Mistamine 10mg modified-release tablets (Galderma (UK) Ltd)
+^ESCTMI843356	Mizolastine 10mg modified-release tablets 30 tablet
+^ESCTMI855098	Mistamine 10mg modified-release tablets (Galderma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMI855099	Mizollen 10mg modified-release tablets (Sanofi) 30 tablet 2 x 15 tablets
+MIM/32252EMIS	Mizollen  M/R tablets  10 mg
+MIM/32254EMIS	Mizolastine  M/R tablets  10 mg
+MIM/35543EMIS	Mistamine  M/R tablets  10 mg

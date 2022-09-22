@@ -1,0 +1,6 @@
+﻿XaLHJ	Chronic kidney disease stage 4
+XacAb	CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+XacAd	CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+XacAe	CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+XaO40	Chronic kidney disease stage 4 without proteinuria
+XaO3z	Chronic kidney disease stage 4 with proteinuria

@@ -1,0 +1,7 @@
+﻿1Z1S.00	CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3
+1Z1R.00	CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2
+1Z1Q.00	CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1
+1Z11.00	Chronic kidney disease stage 2
+1Z1A.00	Chronic kidney disease stage 2 without proteinuria
+1Z19.00	Chronic kidney disease stage 2 with proteinuria
+K052.00	Chronic kidney disease stage 2

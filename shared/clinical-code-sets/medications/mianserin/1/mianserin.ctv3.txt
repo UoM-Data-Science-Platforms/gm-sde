@@ -1,0 +1,3 @@
+d7b1.	Mianserin hydrochloride 10mg tablet
+d7b2.	Mianserin hydrochloride 20mg tablet
+d7b3.	Mianserin hydrochloride 30mg tablet

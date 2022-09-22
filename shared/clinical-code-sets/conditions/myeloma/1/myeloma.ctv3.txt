@@ -1,0 +1,18 @@
+B630.	Plasmacytic myeloma
+XE20N	Multiple myeloma etc.
+Xa0SL	Light chain myeloma
+Xa0SN	Non-secretory myeloma
+Xa36a	IgA myeloma
+Xa36b	IgG myeloma
+Xa36c	IgD myeloma
+XaELI	Lambda light chain myeloma
+Xa9AA	Monostotic myeloma
+B63..	Multiple myeloma and immunoproliferative neoplasms
+B63z.	Immunoproliferative neoplasm or myeloma NOS
+B936.	Solitary myeloma
+BBn0.	Plasma cell myeloma
+X00Au	Neuropathy due to multiple myeloma
+X30L2	Myeloma cast nephropathy
+BBn3.	Plasma cell tumour, malignant
+N3309	Osteoporosis in multiple myelomatosis
+X40Pk	AL amyloidosis

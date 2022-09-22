@@ -1,0 +1,26 @@
+{
+  "includeTerms": ["blood glucose", "blood sugar", "bm stix glucose"],
+  "excludeTerms": [
+    "meter",
+    "test",
+    "monitor",
+    "tolerance",
+    "normal",
+    "blood glucose method",
+    "plasma glucose",
+    "fasting",
+    "advice",
+    "elevated",
+    "glucose-6-phosphate",
+    "raised",
+    "mmol/l",
+    "abnorm",
+    "blood sugar low",
+    "blood sugar method",
+    "blood sugar charts"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-06-15T10:30:54.443Z",
+  "lastUpdated": "2022-06-15T10:30:54.443Z"
+}

@@ -60,10 +60,10 @@ Name,Version,Terminology,Code,ExcelCode,Description`;
  * @param {string} config.another - Another property
  * @returns {string} - Markdown content string
  */
-function generateProjectSupplementaryReadme({ codeSets, includedSqlFiles, terminologies }) {
+function generateProjectSupplementaryReadme({ codeSets, includedSqlFiles, projectName }) {
   const reusableQueryIntro = getReusableQueryIntro(includedSqlFiles);
   const reusableQueryBody = getReusableQueryBody(includedSqlFiles);
-  const codeSetTable = getCodeSetTable(codeSets, terminologies);
+  const codeSetTable = getCodeSetTable(projectName);
   const codeSetIntro = getCodesetIntro(codeSets);
   const collatedCodeSetReadMe = collateCodeSetReadmes(codeSets);
   const toc = getTableOfContents();
@@ -144,31 +144,37 @@ Further details for each code set can be found below.
 `;
 }
 
-function getCodeSetTable(codeSets, terminologies = ['snomed', 'readv2', 'ctv3', 'emis']) {
+function getCodeSetTable(project) {
+  const link = `${GITHUB_BASE_URL}/projects/${project}/clinical-code-sets.csv`.replace(/ /g, '%20');
+  const linkName = `${GITHUB_REPO}/.../${project}/clinical-code-sets.csv`;
   const tableIntro = `
 # Clinical code sets
 
-All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
+All code sets required for this analysis are available here: [${linkName}](${link}). Individual lists for each concept can also be found by using the links above.`;
 
-| Clinical concept | Terminology | Code | Description |
-| ---------------- | ----------- | ---- | ----------- |`;
-  const tableContent = codeSets
-    .map((x) => {
-      const codeSet = getCodeSet(x.codeSet);
-      return codeSet[x.version]
-        .map((item) =>
-          item.file
-            .split('\n')
-            .filter((x) => x.length > 2 && terminologies.indexOf(item.terminology) > -1)
-            .map((row) => {
-              const [code, description] = row.split('\t');
-              return `|${x.codeSet} v${x.version}|${item.terminology}|${code}|${description}|`;
-            })
-            .join('\n')
-        )
-        .join('\n');
-    })
-    .join('\n');
+  // | Clinical concept | Terminology | Code | Description |
+  // | ---------------- | ----------- | ---- | ----------- |`;
+  const tableContent = '';
+  // RW 08/22 PDFs getting too big so removing the code sets from the pdf
+  // as largely redundant given we have it in csv format.
+  //
+  // codeSets
+  //   .map((x) => {
+  //     const codeSet = getCodeSet(x.codeSet);
+  //     return codeSet[x.version]
+  //       .map((item) =>
+  //         item.file
+  //           .split('\n')
+  //           .filter((x) => x.length > 2)
+  //           .map((row) => {
+  //             const [code, description] = row.split('\t');
+  //             return `|${x.codeSet} v${x.version}|${item.terminology}|${code}|${description}|`;
+  //           })
+  //           .join('\n')
+  //       )
+  //       .join('\n');
+  //   })
+  //   .join('\n');
   return `${tableIntro}\n${tableContent}`;
 }
 

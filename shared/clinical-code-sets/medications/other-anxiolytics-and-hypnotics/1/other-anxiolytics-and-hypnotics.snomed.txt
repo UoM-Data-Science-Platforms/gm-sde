@@ -1,0 +1,156 @@
+8109005	Trimeprazine product
+8372007	Product containing promethazine
+26458009	Product containing diphenhydramine
+28748001	Chloral hydrate product
+70864001	Meprobamate product
+71634000	Chlormezanone product
+80165005	Hydroxyzine product
+91452003	Buspirone product
+116515006	Dichloralphenazone product
+116523008	Melatonin product
+320726008	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral tablet
+320730006	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+320775009	Product containing precisely promethazine hydrochloride 10 milligram/1 each conventional release oral tablet
+320776005	Product containing precisely promethazine hydrochloride 25 milligram/1 each conventional release oral tablet
+320803005	Product containing precisely alimemazine tartrate 10 milligram/1 each conventional release oral tablet
+321097005	Product containing precisely chloral hydrate 414 milligram/1 each conventional release oral tablet (clinical drug)
+321104009	Clomethiazole 192 mg oral capsule
+321172009	Triclofos sodium product
+321173004	Triclofos sodium 100 mg/mL oral solution
+321285002	Product containing precisely hydroxyzine hydrochloride 10 milligram/1 each conventional release oral tablet
+321286001	Product containing precisely hydroxyzine hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+321308004	Product containing precisely meprobamate 400 milligram/1 each conventional release oral tablet (clinical drug)
+321323009	Product containing precisely buspirone 5 milligram/1 each conventional release oral tablet (clinical drug)
+321327005	Product containing precisely buspirone 10 milligram/1 each conventional release oral tablet (clinical drug)
+322157007	Promethazine teoclate 25 mg oral tablet
+322377005	Product containing precisely diphenhydramine 25 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+331636008	Diphenhydramine hydrochloride 20 mg/mL cutaneous cream
+348476002	Product containing precisely promethazine hydrochloride 20 milligram/1 each conventional release oral tablet (clinical drug)
+349869006	Product containing clomethiazole in oral dosage form
+349870007	Clomethiazole in parenteral dosage form
+349964000	Product containing promethazine in oral dosage form
+349965004	Product containing promethazine in parenteral dosage form
+354039005	Clomethiazole product
+374337003	Promethazine hydrochloride 50mg/mL injection solution ampule
+374346009	Diphenhydramine hydrochloride 25 mg oral capsule
+374347000	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral capsule (clinical drug)
+374409006	Promethazine hydrochloride 6.25mg/5mL syrup
+374568003	Promethazine hydrochloride 50mg/suppository
+374653008	Promethazine hydrochloride 25mg/5mL syrup
+375170009	Product containing precisely hydroxyzine hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+375171008	Product containing precisely hydroxyzine hydrochloride 100 milligram/1 each conventional release oral tablet
+375265009	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral tablet (clinical drug)
+375266005	Product containing precisely hydroxyzine pamoate 50 milligram/1 each conventional release oral tablet (clinical drug)
+375566009	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral capsule (clinical drug)
+375568005	Hydroxyzine pamoate 50 mg oral capsule
+375569002	Product containing precisely hydroxyzine pamoate 100 milligram/1 each conventional release oral capsule
+375570001	Hydroxyzine pamoate 25mg/5cc suspension
+377135008	Product containing precisely meprobamate 200 milligram/1 each conventional release oral tablet
+377138005	Product containing precisely promethazine hydrochloride 12.5 milligram/1 each conventional release oral tablet
+377152007	Promethazine hydrochloride 25mg/suppository
+377153002	Product containing precisely promethazine hydrochloride 50 milligram/1 each conventional release oral tablet
+377156005	Promethazine hydrochloride 12.5mg/suppository
+377205007	Product containing precisely aspirin 325 milligram and meprobamate 200 milligram/1 each conventional release oral tablet (clinical drug)
+377282007	Dichloralphenazone 100 mg and isometheptene 65 mg and paracetamol 325 mg oral capsule
+377314000	Codeine phosphate+promethazine hydrochloride 10mg/6.25mg syrup
+377346000	Dextromethorphan hydrobromide + promethazine hydrochloride 15mg/6.25mg liquid
+377532001	Product containing precisely pethidine hydrochloride 50 milligram and promethazine hydrochloride 25 milligram/1 each conventional release oral capsule
+377533006	Meperidine hydrochloride+promethazine hydrochloride 50mg/50mg injection
+386606004	Product containing promethazine in rectal dosage form
+386731005	Chloral hydrate 250mg/5mL syrup
+386735001	Chloral hydrate in oral dosage form
+386736000	Product containing chloral hydrate in rectal dosage form
+392555003	Diphenhydramine hydrochloride 12.5mg chewable tablet
+392557006	Diphenhydramine hydrochloride 12.5mg/5mL solution
+392558001	Diphenhydramine hydrochloride 12.5mg/5mL elixir
+392560004	Diphenhydramine hydrochloride 12.5mg/5mL syrup
+395522003	Product containing precisely sodium oxybate 500 milligram/1 milliliter conventional release oral solution (clinical drug)
+398683002	Aspirin and meprobamate product
+398714009	Dichloralphenazone and isometheptene and paracetamol product
+398794008	Acetaminophen and chlormezanone product
+407877003	Diphenhydramine hydrochloride 6.25mg/5mL syrup
+410918008	Sodium oxybate product
+412279009	Codeine and phenylephrine and promethazine product
+412283009	Dextromethorphan and promethazine product
+412377008	Diphenhydramine and zinc acetate product
+412493000	Dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine product
+419106007	Ammonium chloride and diphenhydramine product
+419304003	Product containing melatonin agonist (product)
+419402000	Cloral betaine product
+420348003	Meperidine and promethazine product
+420413009	Diphenhydramine and pholcodine product
+420639000	Dextromethorphan and diphenhydramine product
+420700002	Product containing precisely diphenhydramine 25 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule (clinical drug)
+420724005	Phenylephrine and promethazine product
+420943003	Diphenhydramine and ibuprofen product
+421196003	Potassium bromide product
+421236006	Diphenhydramine and levomenthol product
+421583009	Triclofos product
+422124009	Promethazine 6.25mg/dextromethorphan 15mg 5mL oral syrup
+422227009	Diphenhydramine and pseudoephedrine product
+423376005	Diphenhydramine 2%/zinc acetate 0.1% topical cream
+423936008	Diphenhydramine and paracetamol product
+426122005	Phenylephrine 5mg/promethazine 6.25mg/codeine 10mg in 5mL oral syrup
+426863002	Melatonin 2mg prolonged release tablet
+428356001	Hydroxyzine in oral dosage form
+428718000	Product containing hydroxyzine in parenteral dosage form
+429979001	Product containing diphenhydramine in topical dosage form
+430140005	Diphenhydramine in parenteral dosage form
+430971000	Product containing diphenhydramine in oral dosage form
+441834006	Product containing precisely diphenhydramine 38 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+765074007	Product containing precisely chloral hydrate 325 milligram/1 each conventional release rectal suppository (clinical drug)
+765075008	Product containing precisely chloral hydrate 650 milligram/1 each conventional release rectal suppository
+766564006	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL conventional release oral suspension
+767883002	Alimemazine in oral dosage form
+767901004	Product containing aspirin and meprobamate in oral dosage form (medicinal product form)
+768032003	Buspirone in oral dosage form
+768110005	Product containing diphenhydramine and ibuprofen in oral dosage form
+769268006	Product containing precisely alimemazine tartrate 1.5 milligram/1 milliliter conventional release oral solution (clinical drug)
+769269003	Alimemazine tartrate 6 mg/mL oral solution
+769288005	Product containing precisely chloral hydrate 28.6 milligram/1 milliliter conventional release oral solution (clinical drug)
+769289002	Chloral hydrate 100 mg/mL oral solution
+769290006	Product containing precisely clomethiazole (as clomethiazole edisylate) 50 milligram/1 milliliter conventional release oral solution (clinical drug)
+769298004	Product containing precisely diphenhydramine hydrochloride 2 milligram/1 milliliter conventional release oral solution (clinical drug)
+769302007	Hydroxyzine hydrochloride 2 mg/mL oral solution
+769310008	Product containing precisely promethazine hydrochloride 1 milligram/1 milliliter conventional release oral solution
+770003001	Product containing precisely promethazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+35903003	Potassium bromide (substance)
+78552001	Cloral betaine (substance)
+83933007	Hydroxyzine pamoate (substance)
+83945003	Hydroxyzine hydrochloride (substance)
+89612008	Petrichloral (substance)
+273948005	Chloral hydrate (substance)
+372856003	Hydroxyzine
+387026008	Dichloralantipyrine
+387400008	Chlormethazanone
+387523009	Buspirone
+395914004	Triclofos sodium
+395978007	Chlormethiazole
+395988008	Clomethiazole edisilate
+410917003	Sodium oxybate
+418037002	Chloral derivative
+419484002	Buspirone hydrochloride
+420177007	Substance with melatonin agonist mechanism of action
+420762008	Trichlorethyl phosphate
+439211006	Measurement of diphenhydramine in urine
+14905007	Promethazine hydrochloride (substance)
+52803004	Alimemazine tartrate (substance)
+372871004	Promethazine
+387471006	Alimemazine (substance)
+395846003	Promethazine teoclate
+19510001	Diphenhydramine hydrochloride (substance)
+372682005	Diphenhydramine
+41199001	Melatonin (substance)
+387395007	Meprobamate
+386029006	gamma Hydroxybutyrate
+734726002	Melatonin agonist
+35896911000001100	Alimemazine 30mg/5ml oral solution (product)
+35897011000001101	Alimemazine 7.5mg/5ml oral solution (product)
+35931511000001104	Promethazine 25mg/1ml solution for injection ampoules (product)
+36057911000001106	Hydroxyzine 10mg/5ml oral solution (product)
+36088911000001104	Clomethiazole 157.5mg/5ml oral solution sugar free (product)
+36135311000001107	Chloral hydrate 143.3mg/5ml oral solution BP (product)
+38753911000001106	Promethazine 5mg/5ml oral solution sugar free (product)
+39734311000001106	Buspirone 10mg tablets (product)
+39734411000001104	Buspirone 5mg tablets (product)
+8025411000001104	Melatonin 2mg modified-release tablets (product)

@@ -1,0 +1,271 @@
+^ESCT1192619	Intracerebral (nontraumatic) haemorrhage of fet and newborn
+^ESCT1245108	Syndrome of infant of mother with gestational diabetes
+^ESCT1270435	Congenital rubella
+^ESCT1272002	Rectocele in pregnancy, childbirth or the puerperium NOS
+^ESCT1272003	Cystocele in pregnancy, childbirth or the puerperium NOS
+^ESCT1272011	Other uterine or pelvic floor abnormality in pregnancy, childbirth or the puerperium NOS
+^ESCT1407172	Fetal or neonatal effect of placental or breast transfer of tocolytic
+^ESCT1407173	Foetal or neonatal effect of placental or breast transfer of tocolytic
+^ESCT1419710	Foetal or neonatal effect of placental or breast transfer of alcohol
+^ESCT1419711	Fetal or neonatal effect of placental or breast transfer of alcohol
+^ESCT1419712	Foetal or neonatal effect of maternal use of alcohol
+^ESCT1419713	Foetal or neonatal effect of alcohol transmitted via placenta and/or breast milk
+^ESCT1419714	Fetal or neonatal effect of alcohol transmitted via placenta and/or breast milk
+^ESCTAB302904	ABO isoimmunization of the newborn
+^ESCTAB302905	ABO hemolytic disease of the newborn
+^ESCTAB302906	ABO haemolytic disease of the newborn
+^ESCTAB302913	ABO HDN - ABO haemolytic disease of the newborn
+^ESCTAB302914	ABO HDN - ABO hemolytic disease of the newborn
+^ESCTAL647612	Alloimmune haemolytic disease of newborn
+^ESCTAL647615	Alloimmune hemolytic disease of newborn
+^ESCTAN302902	Anemia due to ABO incompatibility in the newborn
+^ESCTAN302907	Anaemia due to ABO incompatibility in the newborn
+^ESCTAN324014	Anemia in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTAN391420	Anemia due to Rh isoimmunization
+^ESCTAN391439	Anaemia due to Rh isoimmunisation
+^ESCTAN557191	Antenatal/postnatal care
+^ESCTAN752919	Anti-D isoimmunization affecting pregnancy
+^ESCTCA556029	Cardiac disease in pregnancy
+^ESCTCE483774	Cerebellar (nontraumatic) and posterior fossa hemorrhage of fetus and newborn
+^ESCTCE483775	Cerebellar (nontraumatic) and posterior fossa haemorrhage of fetus and newborn
+^ESCTCO252838	Congenital rubella syndrome
+^ESCTCO252841	Congenital rubella
+^ESCTCO463938	Counseled by a midwife
+^ESCTCO463939	Counselled by midwife
+^ESCTCO463940	Counseled by midwife
+^ESCTCO487216	Complications associated with artificial fertilization
+^ESCTCO565757	Congenital hydrocephalus caused by toxoplasmosis
+^ESCTDE389945	Dermatitis herpetiformis of pregnancy
+^ESCTDI353008	Disorder of uterine cervix
+^ESCTDI353009	Disease of cervix
+^ESCTDI353010	Disorder of cervix
+^ESCTDI465457	Disorder of pregnancy
+^ESCTDI479678	Disease of the respiratory system complicating pregnancy, childbirth and/or the puerperium
+^ESCTDI479680	Disease of the digestive system complicating pregnancy, childbirth and/or the puerperium
+^ESCTDI479682	Disease of the skin and subcutaneous tissue complicating pregnancy, childbirth and/or the puerperium
+^ESCTDI483558	Disorder due to slow foetal growth, low and/or high birth weight
+^ESCTDI483560	Disorder due to slow fetal growth, low and/or high birth weight
+^ESCTDI685079	Disorder of cellular component of blood in newborn
+^ESCTDR464024	Drugs in pregnancy education
+^ESCTEF647608	EF - Erythroblastosis foetalis
+^ESCTEF647613	EF - Erythroblastosis fetalis
+^ESCTEN330525	Engorgement of breasts
+^ESCTEN330527	Engorged breasts
+^ESCTER302901	Erythroblastosis fetalis due to ABO isoimmunization
+^ESCTER302909	Erythroblastosis fetalis due to ABO isoimmunisation
+^ESCTER302915	Erythroblastosis foetalis due to ABO isoimmunisation
+^ESCTER391423	Erythroblastosis fetalis due to Rh isoimmunization
+^ESCTER391436	Erythroblastosis fetalis due to Rh isoimmunisation
+^ESCTER391443	Erythroblastosis foetalis due to Rh isoimmunisation
+^ESCTER647606	Erythroblastosis foetalis
+^ESCTEX378964	Expanded rubella syndrome
+^ESCTEX378966	Extended congenital rubella syndrome
+^ESCTEX480172	Exhaustion during labour
+^ESCTEX480174	Exhaustion during labor
+^ESCTEX729419	Exposure to rubella in pregnancy
+^ESCTFA483174	FAS - Fetal alcohol syndrome
+^ESCTFA483176	FAS - Foetal alcohol syndrome
+^ESCTFE388046	Fetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFE419597	Fetal OR neonatal hemorrhage
+^ESCTFE419598	Fetal OR neonatal haemorrhage
+^ESCTFE483177	Fetal or neonatal effect of maternal use of alcohol
+^ESCTFE483214	Fetal or neonatal effect of maternal problem unrelated to pregnancy
+^ESCTFE483220	Fetal or neonatal effect of maternal infection
+^ESCTFE483224	Fetal or neonatal effect of maternal infectious disease
+^ESCTFE483229	Fetal or neonatal effect of maternal injury
+^ESCTFE483232	Fetal or neonatal effect of maternal surgical operation
+^ESCTFE483238	Fetal or neonatal effect of placental or breast transfer of narcotics
+^ESCTFE483241	Fetal or neonatal effect of placental or breast transfer of hallucinogen
+^ESCTFE483244	Fetal or neonatal effect of placental or breast transfer of immune sera
+^ESCTFE483247	Fetal or neonatal effect of placental or breast transfer of anticonvulsant
+^ESCTFE483253	Fetal or neonatal effect of placental or breast transfer of chemotherapeutic agent
+^ESCTFE483256	Fetal or neonatal effect of placental or breast transfer of uterine depressant
+^ESCTFE483259	Fetal or neonatal effect of placental or breast transfer of hypoglycaemic agent
+^ESCTFE483262	Fetal or neonatal effect of placental or breast transfer of hypoglycemic agent
+^ESCTFE483263	Fetal or neonatal effect of placental or breast transfer of endocrine agent
+^ESCTFE483270	Fetal or neonatal effect of maternal complication of pregnancy
+^ESCTFE483305	Fetal or neonatal effect of twin pregnancy
+^ESCTFE483308	Fetal or neonatal effect of triplet pregnancy
+^ESCTFE483375	Fetal or neonatal effect of twin-to-twin transplacental transfusion
+^ESCTFE483379	Fetal or neonatal effect of feto-fetal transplacental transfusion
+^ESCTFE483381	Fetal or neonatal effect of fetomaternal transplacental transfusion
+^ESCTFE483383	Fetal or neonatal effect of fetal-maternal transplacental transfusion
+^ESCTFE483385	Fetal or neonatal effect of maternofetal transplacental transfusion
+^ESCTFE483421	Fetal or neonatal effect of vasa praevia of cord
+^ESCTFE483423	Fetal or neonatal effect of vasa previa of cord
+^ESCTFE483428	Fetal or neonatal effect of chorioamnionitis
+^ESCTFE483431	Fetal or neonatal effect of amnionitis
+^ESCTFE483546	Fetal or neonatal effect of noxious influences transmitted via placenta or breast milk
+^ESCTFE483552	Fetal or neonatal effect of maternal use of nutritional chemical substance
+^ESCTFE483555	Fetal or neonatal effect of maternal exposure to environmental chemical substances
+^ESCTFE550688	Fetal or neonatal effect of maternal hypertensive disease
+^ESCTFE550691	Fetal or neonatal effect of maternal hypertensive disorder
+^ESCTFE550693	Fetal or neonatal effect of maternal renal or urinary disease
+^ESCTFE550696	Fetal or neonatal effect of placental or breast transfer of alcohol
+^ESCTFE550699	Fetal or neonatal effect of placental or breast transfer of anti-infective
+^ESCTFE550708	Fetal or neonatal effect of maternal death
+^ESCTFE550724	Fetal or neonatal effect of malposition or disproportion during labour or delivery
+^ESCTFE550726	Fetal or neonatal effect of malposition or disproportion during labor or delivery
+^ESCTFE685488	Fetal or neonatal effect of maternal transmission of substance
+^ESCTFI337966	Fissured nipple
+^ESCTFO382371	Foetal or neonatal effect of condition of umbilical cord
+^ESCTFO388047	Foetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFO419596	Foetal OR neonatal haemorrhage
+^ESCTFO483175	Foetal alcohol syndrome
+^ESCTFO483216	Foetal or neonatal effect of maternal problem unrelated to pregnancy
+^ESCTFO483219	Foetal or neonatal effect of maternal medical problem
+^ESCTFO483222	Foetal or neonatal effect of maternal infection
+^ESCTFO483223	Foetal or neonatal effect of maternal infectious disease
+^ESCTFO483231	Foetal or neonatal effect of maternal injury
+^ESCTFO483234	Foetal or neonatal effect of maternal surgical operation
+^ESCTFO483237	Foetal or neonatal effect of poison transferred via placenta or breast
+^ESCTFO483240	Foetal or neonatal effect of placental or breast transfer of narcotics
+^ESCTFO483243	Foetal or neonatal effect of placental or breast transfer of hallucinogen
+^ESCTFO483246	Foetal or neonatal effect of placental or breast transfer of immune sera
+^ESCTFO483249	Foetal or neonatal effect of placental or breast transfer of anticonvulsant
+^ESCTFO483255	Foetal or neonatal effect of placental or breast transfer of chemotherapeutic agent
+^ESCTFO483258	Foetal or neonatal effect of placental or breast transfer of uterine depressant
+^ESCTFO483261	Foetal or neonatal effect of placental or breast transfer of hypoglycaemic agent
+^ESCTFO483265	Foetal or neonatal effect of placental or breast transfer of endocrine agent
+^ESCTFO483272	Foetal or neonatal effect of maternal complication of pregnancy
+^ESCTFO483304	Foetal or neonatal effect of multiple pregnancy
+^ESCTFO483307	Foetal or neonatal effect of twin pregnancy
+^ESCTFO483310	Foetal or neonatal effect of triplet pregnancy
+^ESCTFO483374	Foetal or neonatal effect of placental transfusion syndrome
+^ESCTFO483378	Foetal or neonatal effect of twin-to-twin transplacental transfusion
+^ESCTFO483380	Foetal or neonatal effect of feto-fetal transplacental transfusion
+^ESCTFO483382	Foetal or neonatal effect of fetomaternal transplacental transfusion
+^ESCTFO483384	Foetal or neonatal effect of fetal-maternal transplacental transfusion
+^ESCTFO483386	Foetal or neonatal effect of maternofetal transplacental transfusion
+^ESCTFO483424	Foetal or neonatal effect of vasa praevia of cord
+^ESCTFO483430	Foetal or neonatal effect of chorioamnionitis
+^ESCTFO483548	Foetal or neonatal effect of noxious influences transmitted via placenta or breast milk
+^ESCTFO483554	Foetal or neonatal effect of maternal use of nutritional chemical substance
+^ESCTFO483557	Foetal or neonatal effect of maternal exposure to environmental chemical substances
+^ESCTFO550692	Foetal or neonatal effect of maternal hypertensive disease
+^ESCTFO550695	Foetal or neonatal effect of maternal renal or urinary disease
+^ESCTFO550698	Foetal or neonatal effect of placental or breast transfer of alcohol
+^ESCTFO550701	Foetal or neonatal effect of placental or breast transfer of anti-infective
+^ESCTFO550711	Foetal or neonatal effect of maternal death
+^ESCTFO685489	Foetal or neonatal effect of maternal transmission of substance
+^ESCTFP797481	FP24A maternity claim status
+^ESCTFP800943	FP24 maternity fee claim form status
+^ESCTGA366519	Galactorrhoea associated with childbirth
+^ESCTGA366520	Galactorrhea associated with childbirth
+^ESCTGA392755	Galactocele associated with childbirth
+^ESCTGA480314	Galactorrhea in pregnancy and the puerperium
+^ESCTGA480320	Galactorrhea in pregnancy and the puerperium with antenatal complication
+^ESCTGE252839	Gestational rubella syndrome
+^ESCTGH327978	GH - Gestational hypertension
+^ESCTGI467492	GIUT - Gamete intrauterine transfer
+^ESCTGM799059	GMS2 maternity claim status
+^ESCTGR252840	Gregg's syndrome
+^ESCTHA302898	Haemolytic disease of foetus OR newborn due to ABO immunisation
+^ESCTHA302912	Haemolytic disease of fetus OR newborn due to ABO immunisation
+^ESCTHA391417	Haemolytic disease of foetus OR newborn due to RhD isoimmunisation
+^ESCTHA391430	Haemolytic disease of fetus OR newborn due to Rh isoimmunisation
+^ESCTHA391434	Haemolytic disease - Rh
+^ESCTHA391437	Haemolytic disease due to Rh isoimmunisation
+^ESCTHA391440	Haemolytic disease of fetus OR newborn due to RhD isoimmunisation
+^ESCTHA391442	Haemolytic disease of foetus OR newborn due to Rh isoimmunisation
+^ESCTHA647604	Haemolytic disease of foetus OR newborn due to isoimmunisation
+^ESCTHA647607	Haemolytic disease of the newborn
+^ESCTHA647610	Haemolytic disease of foetus OR newborn
+^ESCTHA647620	Haemolytic disease of fetus OR newborn due to isoimmunisation
+^ESCTHD647609	HDN - Haemolytic disease of the newborn
+^ESCTHD647617	HDN - Hemolytic disease of the newborn
+^ESCTHE302899	Hemolytic disease of fetus OR newborn due to ABO immunization
+^ESCTHE302900	Hemolytic disease due to ABO isoimmunization
+^ESCTHE391421	Hemolytic disease due to Rh isoimmunization
+^ESCTHE391425	Hemolytic disease of fetus OR newborn due to Rh isoimmunization
+^ESCTHE391426	Hemolytic disease - Rh
+^ESCTHE391427	Hemolytic disease due to rhesus isoimmunization
+^ESCTHE391441	Hemolytic disease of fetus OR newborn due to RhD isoimmunization
+^ESCTHE480210	Hemorrhoids in pregnancy and the puerperium
+^ESCTHE480216	Hemorrhoids in pregnancy and the puerperium with antenatal complication
+^ESCTHE647605	Hemolytic disease of fetus OR newborn due to isoimmunization
+^ESCTHE647618	Hemolytic disease of the newborn
+^ESCTHE647619	Hemolytic disease of fetus OR newborn
+^ESCTHY327980	Hypertension induced by pregnancy
+^ESCTHY327981	Hypertension complicating pregnancy
+^ESCTIN366522	Increased postpartum lactation
+^ESCTIN366523	Increased puerperal lactation
+^ESCTIN464012	Infant feeding education
+^ESCTIN483740	Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn
+^ESCTIN483741	Intraventricular (nontraumatic) haemorrhage, grade 1, of foetus and newborn
+^ESCTIN483742	Intraventricular (nontraumatic) haemorrhage, grade 2, of foetus and newborn
+^ESCTIN483744	Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn
+^ESCTIN483745	Intraventricular (nontraumatic) haemorrhage, grade 3, of foetus and newborn
+^ESCTIN483747	Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn
+^ESCTIN483771	Intracranial nontraumatic hemorrhage of fetus and newborn
+^ESCTIN510620	Intrapartum fetal death
+^ESCTIN510621	Intrapartum foetal death
+^ESCTIS647616	Isoimmunization of newborn
+^ESCTJA302903	Jaundice due to ABO isoimmunization of the newborn
+^ESCTJA302911	Jaundice due to ABO isoimmunisation of the newborn
+^ESCTJA391424	Jaundice due to Rh isoimmunization of the newborn
+^ESCTJA391438	Jaundice due to Rh isoimmunisation of the newborn
+^ESCTMA405961	Maternal drug exposure
+^ESCTMA464029	Maternity grant education
+^ESCTMA464031	Maternity benefit education
+^ESCTMA464033	Maternity milk and vitamins education
+^ESCTMA479595	Maternal gonorrhea during pregnancy, childbirth and the puerperium
+^ESCTMA480173	Maternal exhaustion in labor
+^ESCTMA480175	Maternal exhaustion in labour
+^ESCTNE262691	Neonatal listeriosis
+^ESCTNE544564	Neonatal cerebral hemorrhage
+^ESCTOB392758	Obstetric galactocele
+^ESCTOB549980	Obstetric pyemic and septic pulmonary embolism
+^ESCTON492818	On maternity leave
+^ESCTOR479669	Orthopedic disorders during pregnancy, childbirth and the puerperium
+^ESCTPE366521	Persistent secretion of milk associated with childbirth
+^ESCTPE389946	Pemphigoid gestationis
+^ESCTPE510441	Pendulous abdomen in pregnancy, childbirth and/or the puerperium
+^ESCTPE557193	Perinatal care
+^ESCTPE558845	Perinatal intracranial haemorrhage
+^ESCTPE558846	Perinatal intracranial hemorrhage
+^ESCTPI327982	PIH - Pregnancy-induced hypertension
+^ESCTPL462884	Placental finding
+^ESCTPL590619	Placental biopsy
+^ESCTPL590620	Placentacentesis
+^ESCTPO312277	Polycythemia due to donor twin transfusion
+^ESCTPO392756	Postpartum galactocele
+^ESCTPO392757	Postpartum lactocele
+^ESCTPR389860	Pre-existing hypertension in obstetric context
+^ESCTPR389861	Pre-existing hypertension complicating pregnancy
+^ESCTPU480230	Puerperal pulmonary embolism
+^ESCTRH322255	Rhesus isoimmunisation affecting pregnancy
+^ESCTRH322256	Rhesus isoimmunization affecting pregnancy
+^ESCTRH322257	Rh incompatibility affecting pregnancy
+^ESCTRH322260	Rhesus isoimmunization in pregnancy
+^ESCTRH322261	Rhesus isoimmunisation in pregnancy
+^ESCTRH391418	Rh hemolytic disease of the newborn
+^ESCTRH391419	Rh isoimmunization of the newborn
+^ESCTRH391422	Rhesus isoimmunization of the newborn
+^ESCTRH391428	Rh HDN - Rh hemolytic disease of the newborn
+^ESCTRH391429	Rh isoimmunisation of the newborn
+^ESCTRH391432	Rh haemolytic disease of the newborn
+^ESCTRH391433	Rh HDN - Rh haemolytic disease of the newborn
+^ESCTRI322258	RI - Rhesus isoimmunisation
+^ESCTRI322259	RI - Rhesus isoimmunization
+^ESCTRU388156	Rubella in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTSE349118	Separation of symphysis pubis during delivery
+^ESCTTR349119	Traumatic separation of pubic symphysis during delivery
+^ESCTTR834320	Transitory disorder of carbohydrate metabolism of fetus and newborn
+^ESCTTU479607	Tuberculosis in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTTU549911	Tumor of uterine body in pregnancy, childbirth and the puerperium
+^ESCTVE293365	Venereal disease in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTVE549974	Venous complication of pregnancy and/or the puerperium
+^ESCTVE556026	Venereal disease in pregnancy
+EMISNQCH16	Cholestasis of pregnancy
+EMISNQCO204	Congenital malformation detected at birth
+EMISNQFP1	FP92A - prescription exempt certificate
+EMISNQMO2	Mother and baby bed sharing discussed
+EMISNQNE46	Neonatal cerebral haemorrhage
+ESCTCO1	Complete placenta at delivery
+ESCTDI24	Direct maternal death
+ESCTFE4	Fetal intrapartum death
+ESCTFE4-1	Foetal intrapartum death
+ESCTME1	Membranes incomplete
+ESCTME2	Membranes complete
+ESCTPE7	Perinatal and neonatal death

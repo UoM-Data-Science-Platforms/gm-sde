@@ -36,3 +36,1754 @@ H171000	Allergy to animal
 9bJ5.00	Transfer-degraded non-drug allergy
 9bJ4.00	Transfer-degraded drug allergy
 J432.12	Cow's milk allergy
+1Z4..00	Allergic reaction to drug
+TJ...00	Drugs, medicines and biological substances causing adverse effects in therapeutic use
+TJz..00	Adverse reaction to drug NOS
+TJK..00	Adverse reaction to other vaccines and biological substances
+TJKz.00	Adverse reaction to vaccine or biological substance NOS
+TJK8.00	Adverse reaction to tetanus antitoxin
+TJK7.00	Adverse reaction to mixed viral-rickettsial and bacterial vaccines except combinations with a pertussis component
+TJK6.00	Adverse reaction to other viral and rickettsial vaccines
+TJK6z00	Adverse reaction to viral or rickettsial vaccine NOS
+TJK6100	Adverse reaction to rubella vaccine
+TJK6000	Adverse reaction to mumps vaccine
+TJK5.00	Adverse reaction to poliomyelitis vaccine
+TJK4.00	Adverse reaction to measles vaccine
+TJK3.00	Adverse reaction to yellow fever vaccine
+TJK2.00	Adverse reaction to typhus vaccine
+TJK1.00	Adverse reaction to rabies vaccine
+TJK0.00	Adverse reaction to smallpox vaccine
+TJJ..00	Adverse reaction to bacterial vaccines
+TJJz.00	Adverse reaction to mixed bacterial vaccines, excluding combinations with a pertussis component
+TJJy.00	Adverse reaction to other bacterial vaccines
+TJJyz00	Adverse reaction to other bacterial vaccine NOS
+TJJy000	Adverse reaction to meningococcal vaccine
+TJJ6.00	Adverse reaction to pertussis vaccine, including combinations with a pertussis component
+TJJ5.00	Adverse reaction to diphtheria vaccine
+TJJ4.00	Adverse reaction to tetanus vaccine
+TJJ3.00	Adverse reaction to plague vaccine
+TJJ2.00	Adverse reaction to cholera vaccine
+TJJ1.00	Adverse reaction to typhoid and paratyphoid vaccines
+TJJ1z00	Adverse reaction to typhoid or paratyphoid vaccine NOS
+TJJ1100	Adverse reaction to paratyphoid vaccine
+TJJ1000	Adverse reaction to typhoid vaccine
+TJJ0.00	Adverse reaction to BCG vaccine
+TJH..00	Adverse reaction to other drugs and medicines
+TJHz.00	Adverse reaction to drug or medicinal substance NOS
+TJHy.00	Adverse reaction to other drugs and medicines
+TJHyz00	Adverse reaction to other drug or medicine NOS
+TJHyy00	Adverse reaction to diagnostic agents and kits NOS
+TJHyx00	Adverse reaction to contrast media used for diagnostic x-rays NOS
+TJHy200	Adverse reaction to nicotine
+TJHy100	Adverse reaction to tamoxifen
+TJHy011	Adverse reaction to clomifene
+TJHy000	Adverse reaction to clomiphene
+TJH4.00	Adverse reaction to pharmaceutical excipients
+TJH3.00	Adverse reaction to alcohol deterrents
+TJH2.00	Adverse reaction to antidotes and chelating agents NEC
+TJH1.00	Adverse reaction to lipotropic drugs
+TJH0.00	Adverse reaction to dietetics
+TJG..00	Adverse reaction to drugs primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological and dental drugs
+TJGz.00	Adverse reaction to skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs NOS
+TJGy.00	Adverse reaction to other skin, mucous membrane, ophthalmological, otorhinolaryngological and dental drugs
+TJG7.00	Adverse reaction to dental drugs topically applied
+TJG6.00	Adverse reaction to anti-infective and other drugs and preparations for ear, nose and throat
+TJG5.00	Adverse reaction to eye anti-infectives and other eye drugs
+TJG5z00	Adverse reaction to eye drugs NOS
+TJG5000	Adverse reaction to idoxuridine
+TJG4.00	Adverse reaction to keratolytics, keratoplastics and other hair treatment drugs and preparations
+TJG3.00	Adverse reaction to emollients, demulcents and protectants
+TJG2.00	Adverse reaction to local astringents and local detergents
+TJG1.00	Adverse reaction to antipruritics
+TJG0.00	Adverse reaction to local anti-infectives and anti-inflammatory drugs
+TJG0z00	Adverse reaction to local anti-infective or anti-inflammatory drug NOS
+TJG0000	Adverse reaction to neomycin
+TJF..00	Adverse reaction to drugs primarily acting on the smooth and skeletal muscles and respiratory system
+TJFz.00	Adverse reaction to drugs primarily acting on the smooth or skeletal muscles or respiratory system
+TJFy.00	Adverse reaction to other respiratory system drugs
+TJF7.00	Adverse reaction to antiasthmatics
+TJF7z00	Adverse reaction to antiasthmatic NOS
+TJF7500	Adverse reaction to oxitropium
+TJF7411	Adverse reaction to sodium cromoglicate
+TJF7400	Adverse reaction to sodium cromoglycate
+TJF7300	Adverse reaction to theophylline (asthma)
+TJF7200	Adverse reaction to aminophylline
+TJF7100	Adverse reaction to ipratropium bromide
+TJF7000	Adverse reaction to salbutamol
+TJF6.00	Adverse reaction to anti-common cold drugs
+TJF5.00	Adverse reaction to expectorants
+TJF5z00	Adverse reaction to expectorants NOS
+TJF5100	Adverse reaction to ipecacuanha
+TJF5000	Adverse reaction to acetylcysteine
+TJF4.00	Adverse reaction to antitussives
+TJF4z00	Adverse reaction to antitussive NOS
+TJF4100	Adverse reaction to pipazethate hydrochloride
+TJF4000	Adverse reaction to dextromethorphan
+TJF3.00	Adverse reaction to other muscle drugs
+TJF2.00	Adverse reaction to skeletal muscle relaxants
+TJF2z00	Adverse reaction to skeletal muscle relaxant NOS
+TJF2400	Adverse reaction to suxamethonium
+TJF2300	Adverse reaction to tubocurarine
+TJF2200	Adverse reaction to tubocurarine
+TJF2100	Adverse reaction to gallamine triethiodide
+TJF2000	Adverse reaction to alcuronium
+TJF1.00	Adverse reaction to smooth muscle relaxants
+TJF1z00	Adverse reaction to smooth muscle relaxant NOS
+TJF1200	Adverse reaction to mebeverine
+TJF1100	Adverse reaction to orciprenaline
+TJF1000	Adverse reaction to adiphenine
+TJF0.00	Adverse reaction to oxytocic agents
+TJF0z00	Adverse reaction to oxytocic agent NOS
+TJF0200	Adverse reaction to oxytocin
+TJF0100	Adverse reaction to ergometrine
+TJF0000	Adverse reaction to prostaglandins
+TJE..00	Adverse reaction to water, mineral and uric acid metabolism drugs
+TJEz.00	Adverse reaction to water, mineral or uric acid metabolism drug NOS
+TJE7.00	Adverse reaction to uric acid metabolism drugs
+TJE7z00	Adverse reaction to uric acid metabolism drug NOS
+TJE7311	Adverse reaction to sulfinpyrazone
+TJE7300	Adverse reaction to sulphinpyrazone
+TJE7200	Adverse reaction to probenecid
+TJE7100	Adverse reaction to allopurinol
+TJE7000	Adverse reaction to colchicine
+TJE6.00	Adverse reaction to other mineral salts NEC
+TJE5.00	Adverse reaction to electrolytic, caloric and water balance drugs
+TJE4.00	Adverse reaction to other diuretics
+TJE4z00	Adverse reaction to diuretic NOS
+TJE4600	Adverse reaction to mannitol
+TJE4500	Adverse reaction to triamterene
+TJE4400	Adverse reaction to spironolactone
+TJE4300	Adverse reaction to amiloride
+TJE4211	Adverse reaction to etacrynic acid
+TJE4200	Adverse reaction to ethacrynic acid
+TJE4100	Adverse reaction to frusemide
+TJE4011	Adverse reaction to chlortalidone
+TJE4000	Adverse reaction to chlorthalidone
+TJE3.00	Adverse reaction to thiazides
+TJE3z00	Adverse reaction to thiazide NOS
+TJE3600	Adverse reaction to polythiazide
+TJE3500	Adverse reaction to methyclothiazide
+TJE3400	Adverse reaction to hydroflumethiazide
+TJE3300	Adverse reaction to hydrochlorothiazide
+TJE3200	Adverse reaction to cyclopenthiazide
+TJE3100	Adverse reaction to chlorothiazide
+TJE3000	Adverse reaction to bendrofluazide
+TJE2.00	Adverse reaction to carbonic acid anhydrase inhibitors
+TJE2z00	Adverse reaction to carbonic acid anhydrase inhibitor NOS
+TJE2100	Adverse reaction to dichlorphenamide
+TJE2000	Adverse reaction to acetazolamide
+TJE1.00	Adverse reaction to purine derivative diuretics
+TJE1z00	Adverse reaction to purine derivative diuretic NOS
+TJE1100	Adverse reaction to theophylline (diuretic)
+TJE1000	Adverse reaction to theobromine
+TJE0.00	Adverse reaction to mercurial diuretics
+TJE0z00	Adverse reaction to mercurial diuretics NOS
+TJE0300	Adverse reaction to mercurophylline
+TJE0200	Adverse reaction to mercaptomerin
+TJE0100	Adverse reaction to chlormerodrin
+TJE0000	Adverse reaction to mersalyl
+TJD..00	Adverse reaction to drugs primarily affecting gastrointestinal system
+TJDz.00	Adverse reaction to drugs primarily affecting the gastrointestinal system NOS
+TJDy.00	Adverse reaction to other drugs primarily affecting the gastrointestinal system
+TJD6.00	Adverse reaction to emetics
+TJD6z00	Adverse reaction to emetics NOS
+TJD5.00	Adverse reaction to antidiarrhoeal drugs
+TJD5z00	Adverse reaction to antidiarrhoeal drugs NOS
+TJD5300	Adverse reaction to pectin
+TJD5200	Adverse reaction to loperamide
+TJD5100	Adverse reaction to diphenoxylate
+TJD5000	Adverse reaction to kaolin
+TJD4.00	Adverse reaction to digestants
+TJD4z00	Adverse reaction to digestants NOS
+TJD4200	Adverse reaction to pepsin
+TJD4100	Adverse reaction to papain
+TJD4000	Adverse reaction to pancreatin
+TJD3.00	Adverse reaction to other cathartics, including intestinal atonia drugs
+TJD3z00	Adverse reaction to other cathartics including intestinal atonia drugs NOS
+TJD3100	Adverse reaction to lactulose
+TJD3000	Adverse reaction to magnesium sulphate
+TJD2.00	Adverse reaction to emollient cathartics
+TJD2z00	Adverse reaction to emollient cathartic NOS
+TJD2000	Adverse reaction to dioctyl sodium sulphosuccinate
+TJD1.00	Adverse reaction to irritant cathartics
+TJD1z00	Adverse reaction to irritant cathartics NOS
+TJD1700	Adverse reaction to phenolphthalein
+TJD1600	Adverse reaction to senna
+TJD1500	Adverse reaction to glycerol
+TJD1400	Adverse reaction to fig
+TJD1311	Adverse reaction to dantron
+TJD1300	Adverse reaction to danthron
+TJD1200	Adverse reaction to castor oil
+TJD1100	Adverse reaction to cascara
+TJD1000	Adverse reaction to bisacodyl
+TJD0.00	Adverse reaction to antacids and antigastric secretion drugs
+TJD0z00	Adverse reaction to antacids and antigastric secretion drugs NOS
+TJD0800	Adverse reaction to proton pump inhibitors
+TJD0700	Adverse reaction to H2 blockers
+TJD0600	Adverse reaction to sodium bicarbonate
+TJD0500	Adverse reaction to magaldrate
+TJD0400	Adverse reaction to hydrotalcite
+TJD0300	Adverse reaction to magnesium trisilicate
+TJD0200	Adverse reaction to magnesium carbonate
+TJD0100	Adverse reaction to alexitol sodium
+TJD0000	Adverse reaction to aluminium hydroxide
+TJC..00	Adverse reaction to drugs primarily affecting the cardiovascular system
+TJCz.00	Adverse reaction to drug primarily affecting the cardiovascular system NOS
+TJC9.00	Adverse reaction to capillary-active drugs
+TJC9z00	Adverse reaction to capillary-active drugs NOS
+TJC9100	Adverse reaction to adrenochrome derivatives
+TJC9000	Adverse reaction to metaraminol
+TJC8.00	Adverse reaction to antivaricose drugs
+TJC8z00	Adverse reaction to antivaricose drugs NOS
+TJC8100	Adverse reaction to zinc salts
+TJC8000	Adverse reaction to ethanolamine oleate
+TJC7.00	Adverse reaction to other antihypertensives
+TJC7z00	Adverse reaction to antihypertensives NOS
+TJC7900	Adverse reaction to ramipril
+TJC7800	Adverse reaction to enalapril
+TJC7700	Adverse reaction to captopril
+TJC7600	Adverse reaction to prazosin
+TJC7500	Adverse reaction to guanethidine
+TJC7400	Adverse reaction to debrisoquine
+TJC7300	Adverse reaction to bethanidine
+TJC7200	Adverse reaction to reserpine
+TJC7100	Adverse reaction to methyldopa
+TJC7000	Adverse reaction to clonidine
+TJC6.00	Adverse reaction to betablockers
+TJC6z00	Adverse reaction to betablockers NOS
+TJC6800	Adverse reaction to timolol
+TJC6700	Adverse reaction to sotalol
+TJC6600	Adverse reaction to oxprenolol
+TJC6500	Adverse reaction to nadolol
+TJC6400	Adverse reaction to metoprolol
+TJC6300	Adverse reaction to labetalol
+TJC6200	Adverse reaction to atenolol
+TJC6100	Adverse reaction to acebutolol
+TJC5.00	Adverse reaction to other vasodilators
+TJC5z00	Adverse reaction to vasodilators NOS
+TJC5400	Adverse reaction to papaverine
+TJC5300	Adverse reaction to hydralazine
+TJC5200	Adverse reaction to diazoxide
+TJC5100	Adverse reaction to isoxsuprine
+TJC5000	Adverse reaction to cyclandelate
+TJC4.00	Adverse reaction to coronary vasodilators
+TJC4z00	Adverse reaction to coronary vasodilators NOS
+TJC4700	Adverse reaction to verapamil
+TJC4600	Adverse reaction to nifedipine
+TJC4500	Adverse reaction to prenylamine
+TJC4400	Adverse reaction to dipyridamole
+TJC4311	Adverse reaction to pentaerithrityl tetranitrate
+TJC4300	Adverse reaction to pentaerythritol tetranitrate
+TJC4200	Adverse reaction to isosorbide mononitrate
+TJC4100	Adverse reaction to isosorbide dinitrate
+TJC4000	Adverse reaction to glyceryl trinitrate
+TJC3.00	Adverse reaction to ganglion blocking drugs
+TJC3z00	Adverse reaction to ganglion blockers NOS
+TJC3100	Adverse reaction to trimetaphan camsylate
+TJC3000	Adverse reaction to pentamethonium bromide
+TJC2.00	Adverse reaction to antilipaemic and anti-arteriosclerotic drugs
+TJC2z00	Adverse reaction to antilipaemic and antiarteriosclerotic drugs NOS
+TJC2500	Adverse reaction to pravastatin
+TJC2400	Adverse reaction to simvastatin
+TJC2300	Adverse reaction to nicotinic acid derivative
+TJC2200	Adverse reaction to bezafibrate
+TJC2100	Adverse reaction to clofibrate
+TJC2011	Adverse reaction to colestyramine
+TJC2000	Adverse reaction to cholestyramine
+TJC1.00	Adverse reaction to cardiac glycosides
+TJC1z00	Adverse reaction to cardiac glycosides NOS
+TJC1200	Adverse reaction to lanatoside C
+TJC1100	Adverse reaction to digitoxin
+TJC1000	Adverse reaction to digoxin
+TJC0.00	Adverse reaction to cardiac rhythm regulators
+TJC0z00	Adverse reaction to cardiac rhythm regulator NOS
+TJC0300	Adverse reaction to quinidine
+TJC0200	Adverse reaction to propranolol
+TJC0100	Adverse reaction to procainamide
+TJC0000	Adverse reaction to practolol
+TJB..00	Adverse reaction to drugs primarily affecting autonomic nervous system
+TJBz.00	Adverse reaction to drug primarily affecting the autonomic nervous system NOS
+TJB3.00	Adverse reaction to sympatholytics
+TJB3z00	Adverse reaction to sympatholytic NOS
+TJB3200	Adverse reaction to tolazoline
+TJB3100	Adverse reaction to phentolamine mesylate
+TJB3000	Adverse reaction to phenoxybenzamine
+TJB2.00	Adverse reaction to sympathomimetics
+TJB2z00	Adverse reaction to sympathomimetic NOS
+TJB2300	Adverse reaction to isoprenaline sulphate
+TJB2200	Adverse reaction to ephedrine
+TJB2100	Adverse reaction to noradrenalin
+TJB2000	Adverse reaction to adrenalin, epinephrine
+TJB1.00	Adverse reaction to parasympatholytics and spasmolytics
+TJB1z00	Adverse reaction to parasympatholytic or spasmolytic NOS
+TJB1400	Adverse reaction to methixene
+TJB1311	Adverse reaction to benzatropine
+TJB1300	Adverse reaction to benztropine
+TJB1200	Adverse reaction to hyoscine
+TJB1100	Adverse reaction to homatropine
+TJB1000	Adverse reaction to atropine
+TJB0.00	Adverse reaction to parasympathomimetics
+TJB0z00	Adverse reaction to parasympathomimetics NOS
+TJB0600	Adverse reaction to pilocarpine
+TJB0500	Adverse reaction to anticholinesterase
+TJB0400	Adverse reaction to acetylcholine
+TJB0300	Adverse reaction to pyridostigmine bromide
+TJB0200	Adverse reaction to neostigmine
+TJB0100	Adverse reaction to edrophonium chloride
+TJB0000	Adverse reaction to distigmine bromide
+TJA..00	Adverse reaction to central nervous system stimulants
+TJAz.00	Adverse reaction to central nervous system stimulants NOS
+TJAy.00	Adverse reaction to other central nervous system stimulants
+TJA1.00	Adverse reaction to opiate antagonists
+TJA1z00	Adverse reaction to opiate antagonists NOS
+TJA1200	Adverse reaction to naloxone
+TJA1100	Adverse reaction to nalorphine
+TJA1000	Adverse reaction to levallorphan
+TJA0.00	Adverse reaction to analeptics
+TJA0z00	Adverse reaction to analeptics NOS
+TJA0300	Adverse reaction to ethamivan
+TJA0200	Adverse reaction to doxapram
+TJA0100	Adverse reaction to lobeline
+TJA0000	Adverse reaction to nikethamide
+TJ9..00	Adverse reaction to psychotropic agents
+TJ9z.00	Adverse reaction to psychotropic agent NOS
+TJ9y.00	Adverse reaction to other psychotropic agent
+TJ97.00	Adverse reaction to psychostimulants
+TJ97z00	Adverse reaction to psychostimulant NOS
+TJ97211	Adverse reaction to dexamfetamine
+TJ97200	Adverse reaction to dexamphetamine
+TJ97100	Adverse reaction to pemoline
+TJ97000	Adverse reaction to caffeine
+TJ96.00	Adverse reaction to hallucinogens
+TJ96z00	Adverse reaction to hallucinogen NOS
+TJ96500	Adverse reaction to psilocybin
+TJ96400	Adverse reaction to psilocin
+TJ96300	Adverse reaction to mescaline
+TJ96200	Adverse reaction to marihuana
+TJ96100	Adverse reaction to lysergide, LSD
+TJ96000	Adverse reaction to cannabis
+TJ95.00	Adverse reaction to other tranquillisers
+TJ95z00	Adverse reaction to tranquillisers NOS
+TJ95300	Adverse reaction to tetrabenazine
+TJ95200	Adverse reaction to chlormezanone
+TJ95100	Adverse reaction to meprobamate
+TJ95000	Adverse reaction to hydroxyzine
+TJ94.00	Adverse reaction to benzodiazepine-based tranquillisers
+TJ94z00	Adverse reaction to benzodiazepine-based tranquilliser NOS
+TJ94C00	Adverse reaction to clonazepam
+TJ94B00	Adverse reaction to oxazepam
+TJ94A00	Adverse reaction to medazepam
+TJ94900	Adverse reaction to lorazepam
+TJ94800	Adverse reaction to ketazolam
+TJ94700	Adverse reaction to chlorazepate dipotassium
+TJ94600	Adverse reaction to clobazam
+TJ94500	Adverse reaction to chlordiazepoxide
+TJ94400	Adverse reaction to diazepam
+TJ94300	Adverse reaction to triazolam
+TJ94200	Adverse reaction to temazepam
+TJ94100	Adverse reaction to flurazepam
+TJ94000	Adverse reaction to nitrazepam
+TJ93.00	Adverse reaction to other major tranquillisers
+TJ92.00	Adverse reaction to butyrophenone-based tranquillisers
+TJ92z00	Adverse reaction to butyrophenone-based tranquillisers NOS
+TJ92200	Adverse reaction to trifluperidol
+TJ92100	Adverse reaction to spiperone
+TJ92000	Adverse reaction to haloperidol
+TJ91.00	Adverse reaction to phenothiazine-based tranquillisers
+TJ91z00	Adverse reaction to phenothiazine-based tranquillisers NOS
+TJ91600	Adverse reaction to thioridazine
+TJ91500	Adverse reaction to promazine
+TJ91400	Adverse reaction to prochlorperazine
+TJ91300	Adverse reaction to perphenazine
+TJ91200	Adverse reaction to pericyazine
+TJ91100	Adverse reaction to fluphenazine
+TJ91000	Adverse reaction to chlorpromazine
+TJ90.00	Adverse reaction to antidepressants
+TJ90z00	Adverse reaction to antidepressants NOS
+TJ90J00	Adverse reaction to oxypertine
+TJ90H00	Adverse reaction to tryptophan
+TJ90G11	Adverse reaction to flupentixol
+TJ90G00	Adverse reaction to flupenthixol
+TJ90F00	Adverse reaction to tranylcypromine
+TJ90E00	Adverse reaction to isocarboxazid
+TJ90D00	Adverse reaction to phenelzine
+TJ90C00	Adverse reaction to mianserin
+TJ90B00	Adverse reaction to maprotiline
+TJ90A00	Adverse reaction to trimipramine
+TJ90900	Adverse reaction to protriptyline
+TJ90800	Adverse reaction to nortriptyline
+TJ90700	Adverse reaction to lofepramine
+TJ90600	Adverse reaction to imipramine
+TJ90500	Adverse reaction to doxepin
+TJ90400	Adverse reaction to dothiepin
+TJ90300	Adverse reaction to desipramine
+TJ90200	Adverse reaction to clomipramine
+TJ90100	Adverse reaction to butriptyline
+TJ90000	Adverse reaction to amitriptyline
+TJ8..00	Adverse reaction to other central nervous system depressants and anaesthetics
+TJ8z.00	Adverse reaction to central nervous system depressants and anaesthetics NOS
+TJ8y.00	Adverse reaction to other local anaesthetics
+TJ87.00	Adverse reaction to spinal anaesthetics
+TJ86.00	Adverse reaction to peripheral nerve- and plexus-blocking anaesthetics
+TJ85.00	Adverse reaction to surface and infiltration anaesthetics
+TJ85z00	Adverse reaction to local anaesthetics NOS
+TJ85500	Adverse reaction to tetracaine
+TJ85400	Adverse reaction to procaine hydrochloride
+TJ85300	Adverse reaction to prilocaine hydrochloride
+TJ85200	Adverse reaction to bupivacaine hydrochloride
+TJ85100	Adverse reaction to lignocaine hydrochloride
+TJ85000	Adverse reaction to cocaine
+TJ84.00	Adverse reaction to other general anaesthetics
+TJ83.00	Adverse reaction to intravenous anaesthetics
+TJ83z00	Adverse reaction to intravenous anaesthetic NOS
+TJ83400	Adverse reaction to propofol
+TJ83300	Adverse reaction to etomidate
+TJ83200	Adverse reaction to ketamine
+TJ83100	Adverse reaction to methohexitone sodium
+TJ83011	Adverse reaction to thiopental sodium
+TJ83000	Adverse reaction to thiopentone sodium
+TJ82.00	Adverse reaction to other gaseous anaesthetics
+TJ82z00	Adverse reaction to gaseous anaesthetic NOS
+TJ82500	Adverse reaction to trichloroethylene
+TJ82400	Adverse reaction to enflurane
+TJ82300	Adverse reaction to isoflurane
+TJ82200	Adverse reaction to cyclopropane
+TJ82100	Adverse reaction to nitrous oxide
+TJ82000	Adverse reaction to ether
+TJ81.00	Adverse reaction to halothane
+TJ80.00	Adverse reaction to central nervous system muscle-tone depressants
+TJ80z00	Adverse reaction to central nervous system muscle-tone depressants NOS
+TJ80200	Adverse reaction to methocarbamol
+TJ80100	Adverse reaction to mephenesin
+TJ80000	Adverse reaction to chlorphenesin
+TJ7..00	Adverse reaction to sedatives and hypnotics
+TJ7z.00	Adverse reaction to sedatvies and hypnotics, unspecified
+TJ7zz00	Adverse reaction to sedative or hypnotic NOS
+TJ7z100	Adverse reaction to sedative NOS
+TJ7z000	Adverse reaction to sleeping pill NOS
+TJ7y.00	Adverse reaction to other sedatives and hypnotics
+TJ7yz00	Adverse reaction to other sedatives and hypnotics NOS
+TJ7y300	Adverse reaction to carbamate
+TJ7y200	Adverse reaction to avomine
+TJ7y100	Adverse reaction to promethazine hydrochloride
+TJ7y000	Adverse reaction to methyprylon
+TJ76.00	Adverse reaction to mixed sedatives NEC
+TJ75.00	Adverse reaction to glutethimide group
+TJ74.00	Adverse reaction to methaqualone compounds
+TJ73.00	Adverse reaction to bromine compounds
+TJ73z00	Adverse reaction to bromine compounds NOS
+TJ73100	Adverse reaction to carbromal derivatives
+TJ73000	Adverse reaction to bromide
+TJ72.00	Adverse reaction to paraldehyde
+TJ71.00	Adverse reaction to chloral hydrate group
+TJ71z00	Adverse reaction to chloral hydrate group NOS
+TJ71311	Adverse reaction to clomethiazole edisylate
+TJ71300	Adverse reaction to chlormethiazole edisylate
+TJ71200	Adverse reaction to triclofos sodium
+TJ71100	Adverse reaction to dichloralphenazone
+TJ71000	Adverse reaction to chloral hydrate
+TJ70.00	Adverse reaction to barbiturates
+TJ70z00	Adverse reaction to barbiturate NOS
+TJ70511	Adverse reaction to secobarbital
+TJ70500	Adverse reaction to quinalbarbitone
+TJ70411	Adverse reaction to phenobarbital
+TJ70400	Adverse reaction to phenobarbitone
+TJ70300	Adverse reaction to pentobarbitone
+TJ70211	Adverse reaction to butobarbital
+TJ70200	Adverse reaction to butabarbitone
+TJ70100	Adverse reaction to barbitone
+TJ70011	Adverse reaction to amobarbital
+TJ70000	Adverse reaction to amylobarbitone
+TJ6..00	Adverse reaction to anticonvulsants and anti-parkinsonism drugs
+TJ6z.00	Adverse reaction to anticonvulsant and antiparkinsonism drugs NOS
+TJ64.00	Adverse reaction to antiparkinsonism drugs
+TJ64z00	Adverse reaction to antiparkinsonism drugs NOS
+TJ64500	Adverse reaction to biperiden
+TJ64400	Adverse reaction to orphenadrine
+TJ64300	Adverse reaction to selegiline
+TJ64200	Adverse reaction to benzhexol
+TJ64100	Adverse reaction to levodopa, L-dopa
+TJ64000	Adverse reaction to amantadine
+TJ63.00	Adverse reaction to other anticonvulsants
+TJ63z00	Adverse reaction to anticonvulsants NOS
+TJ63300	Adverse reaction to sodium valproate
+TJ63200	Adverse reaction to carbamazepine
+TJ63100	Adverse reaction to primidone
+TJ63000	Adverse reaction to beclamide
+TJ62.00	Adverse reaction to succinimides
+TJ62z00	Adverse reaction to succinimides NOS
+TJ62100	Adverse reaction to phensuximide
+TJ62000	Adverse reaction to ethosuximide
+TJ61.00	Adverse reaction to hydantoin derivatives
+TJ61z00	Adverse reaction to hydantoin derivatives NOS
+TJ61000	Adverse reaction to phenytoin
+TJ60.00	Adverse reaction to oxazolidine derivatives
+TJ60z00	Adverse reaction to oxazolidine derivatives NOS
+TJ60100	Adverse reaction to trimethadione
+TJ60000	Adverse reaction to paramethadione
+TJ5..00	Adverse reaction to analgesics, antipyretics and antirheumatics
+TJ5..11	Adverse reaction to analgesics
+TJ5..12	Adverse reaction to antipyretics
+TJ5z.00	Adverse reaction to analgesics, anti-pyretics and anti-rheumatics NOS
+TJ5y.00	Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics
+TJ5yz00	Adverse reaction to other analgesics, anti-pyretics and anti-rheumatics NOS
+TJ5y100	Adverse reaction to mefenamic acid
+TJ5y000	Adverse reaction to pentazocine
+TJ57.00	Adverse reaction to other non-narcotic analgesics
+TJ57z00	Adverse reaction to non-narcotic analgesics NOS
+TJ57100	Adverse reaction to pyrabital
+TJ56.00	Adverse reaction to antirheumatics
+TJ56.11	Adverse reaction to non steroidal anti inflammatory drugs
+TJ56z00	Adverse reaction to antirheumatics NOS
+TJ56A00	Adverse reaction to auranofin
+TJ56900	Adverse reaction to sodium aurothiomalate
+TJ56800	Adverse reaction to piroxicam
+TJ56700	Adverse reaction to naproxen
+TJ56600	Adverse reaction to ketoprofen
+TJ56511	Adverse reaction to indometacin
+TJ56500	Adverse reaction to indomethacin
+TJ56400	Adverse reaction to flurbiprofen
+TJ56300	Adverse reaction to fenoprofen
+TJ56200	Adverse reaction to fenbufen
+TJ56100	Adverse reaction to diclofenac sodium
+TJ56000	Adverse reaction to ibuprofen
+TJ55.00	Adverse reaction to pyrazole derivatives
+TJ55z00	Adverse reaction to pyrazole derivatives NOS
+TJ55100	Adverse reaction to aminophenazone
+TJ55000	Adverse reaction to phyenylbytazone
+TJ54.00	Adverse reaction to aromatic analgesics NEC
+TJ54z00	Adverse reaction to aromatic analgesics NOS
+TJ54200	Adverse reaction to acetanilide
+TJ54100	Adverse reaction to phenacetin
+TJ54000	Adverse reaction to paracetamol
+TJ53.11	Adverse reaction to aspirin
+TJ53.00	Adverse reaction to salicylates
+TJ52.00	Adverse reaction to other opiates and related narcotics
+TJ52z00	Adverse reaction to opiates or related narcotics NOS
+TJ52700	Adverse reaction to pethidine hydrochloride
+TJ52600	Adverse reaction to levorphanol tartrate
+TJ52500	Adverse reaction to dipipanone hydrochloride
+TJ52400	Adverse reaction to dihydrocodeine tartrate
+TJ52300	Adverse reaction to dextromoramide
+TJ52200	Adverse reaction to codeine phosphate
+TJ52100	Adverse reaction to buprenorphine
+TJ52000	Adverse reaction to morphine salts
+TJ51.00	Adverse reaction to methadone
+TJ50.00	Adverse reaction to heroin, diamorphine
+TJ4..00	Adverse reaction to agents primarily affecting blood constituents
+TJ4z.00	Adverse reaction to agent affecting blood constituents NOS
+TJ4y.00	Adverse reaction to other agent affecting blood constituents
+TJ4yz00	Adverse reaction to other agent affecting blood constituents NOS
+TJ4y000	Adverse reaction to macromolecular blood substitutes
+TJ47.00	Adverse reaction to natural blood and blood products
+TJ47z00	Adverse reaction to blood or blood products NOS
+TJ47300	Adverse reaction to whole blood
+TJ47200	Adverse reaction to packed red cells
+TJ47100	Adverse reaction to human fibrinogen
+TJ47000	Adverse reaction to blood plasma
+TJ46.00	Adverse reaction to gamma globulin
+TJ45.00	Adverse reaction to anticoagulant antagonists
+TJ45z00	Adverse reaction to anticoagulant antagonist NOS
+TJ45200	Adverse reaction to tranexamic acid
+TJ45111	Adverse reaction to etamsylate
+TJ45100	Adverse reaction to ethamsylate
+TJ45000	Adverse reaction to protamine sulphate
+TJ44.00	Adverse reaction to fibrinolytic drugs
+TJ44z00	Adverse reaction to fibrinolytic drugs NOS
+TJ44100	Adverse reaction to urokinase
+TJ44000	Adverse reaction to streptokinase
+TJ43.00	Adverse reaction to vitamin K
+TJ43z00	Adverse reaction to vitamin K NOS
+TJ43000	Adverse reaction to phytomenadione
+TJ42.00	Adverse reaction to anticoagulants
+TJ42z00	Adverse reaction to anticoagulants NOS
+TJ42300	Adverse reaction to phenindione
+TJ42200	Adverse reaction to nicoumalone
+TJ42100	Adverse reaction to warfarin sodium
+TJ42000	Adverse reaction to heparin
+TJ41.00	Adverse reaction to liver preparations and other antianaemic agents
+TJ41z00	Adverse reaction to liver preparations and other antianaemic agents NOS
+TJ41200	Adverse reaction to folic acid
+TJ41100	Adverse reaction to cyanocobalamin
+TJ41000	Adverse reaction to hydroxocobalamin
+TJ40.00	Adverse reaction to iron and iron compounds
+TJ40z00	Adverse reaction to iron and iron compounds NOS
+TJ40700	Adverse reaction to iron sorbitol injection
+TJ40600	Adverse reaction to iron dextran injection
+TJ40500	Adverse reaction to ferric salts
+TJ40400	Adverse reaction to ferrous succinate
+TJ40300	Adverse reaction to ferrous glycine sulphate
+TJ40200	Adverse reaction to ferrous gluconate
+TJ40100	Adverse reaction to ferrous fumarate
+TJ40000	Adverse reaction to ferrous sulphate
+TJ3..00	Adverse reaction to primarily systemic agents
+TJ3z.00	Adverse reaction to systemic agent NOS
+TJ35.00	Adverse reaction to vitamins NEC
+TJ35z00	Adverse reaction to vitamin NOS
+TJ35100	Adverse reaction to vitamin D
+TJ35000	Adverse reaction to vitamin A
+TJ34.00	Adverse reaction to enzymes NEC
+TJ34z00	Adverse reaction to enzymes NOS
+TJ34000	Adverse reaction to penicillamine
+TJ33.00	Adverse reaction to alkalising agents
+TJ32.00	Adverse reaction to acidifying agents
+TJ31.00	Adverse reaction to antineoplastic and immunosuppressive drugs
+TJ31z00	Adverse reaction to antineoplastic and immunosuppressive drugs NOS
+TJ31S11	Adverse reaction to ciclosporin
+TJ31S00	Adverse reaction to cyclosporin
+TJ31R00	Adverse reaction to antilymphocyte immunoglobulin
+TJ31Q00	Adverse reaction to azathioprine
+TJ31P00	Adverse reaction to razoxane
+TJ31N00	Adverse reaction to procarbazine
+TJ31M00	Adverse reaction to mitozantrone
+TJ31L00	Adverse reaction to hydroxyurea
+TJ31K00	Adverse reaction to cisplatin
+TJ31J00	Adverse reaction to carboplatin
+TJ31H00	Adverse reaction to vincristine sulphate
+TJ31G00	Adverse reaction to vinblastine sulphate
+TJ31F00	Adverse reaction to etoposide
+TJ31E11	Adverse reaction to tioguanine
+TJ31E00	Adverse reaction to thioguanine
+TJ31D00	Adverse reaction to methotrexate
+TJ31C00	Adverse reaction to mercaptopurine
+TJ31B00	Adverse reaction to fluorouracil
+TJ31A00	Adverse reaction to cytarabine
+TJ31900	Adverse reaction to treosulfan
+TJ31800	Adverse reaction to thiotepa
+TJ31700	Adverse reaction to mustine hydrochloride
+TJ31600	Adverse reaction to melphalan
+TJ31500	Adverse reaction to lomustine
+TJ31400	Adverse reaction to estramustine phosphate
+TJ31300	Adverse reaction to cyclophosphamide
+TJ31200	Adverse reaction to chlorambucil
+TJ31100	Adverse reaction to carmustine
+TJ31011	Adverse reaction to busulfan
+TJ31000	Adverse reaction to busulphan
+TJ30.00	Adverse reaction to antiallergic and antiemetic drugs
+TJ30z00	Adverse reaction to antiallergic and antiemetic drugs NOS
+TJ30300	Adverse reaction to metoclopramide
+TJ30200	Adverse reaction to diphenylpyraline
+TJ30100	Adverse reaction to chlorpheniramine
+TJ30000	Adverse reaction to antihistamines
+TJ2..00	Adverse reaction to hormones and synthetic substitutes
+TJ2z.00	Adverse reaction to hormones and synthetic substances NOS
+TJ28.00	Adverse reaction to antithyroid agents
+TJ28z00	Adverse reaction to antithyroid agents NOS
+TJ28200	Adverse reaction to propylthiouracil
+TJ28100	Adverse reaction to iodine or iodide
+TJ28000	Adverse reaction to carbimazole
+TJ27.00	Adverse reaction to thyroid and thyroid derivatives
+TJ27z00	Adverse reaction to thyroid and thyroid derivatives NOS
+TJ27200	Adverse reaction to thyroglobulin
+TJ27100	Adverse reaction to thyroxine sodium
+TJ27000	Adverse reaction to liothyronine sodium
+TJ26.00	Adverse reaction to parathyroid and parathyroid derivatives
+TJ26z00	Adverse reaction to parathyroid and parathyroid derivatives NOS
+TJ26100	Adverse reaction to salcatonin
+TJ26000	Adverse reaction to calcitonin
+TJ25.00	Adverse reaction to posterior pituitary hormones
+TJ25z00	Adverse reaction to posterior pituitary hormone NOS
+TJ25300	Adverse reaction to terlipressin
+TJ25200	Adverse reaction to lypressin
+TJ25100	Adverse reaction to desmopressin
+TJ25000	Adverse reaction to vasopressin
+TJ24.00	Adverse reaction to anterior pituitary hormones
+TJ24z00	Adverse reaction to anterior pituitary hormone NOS
+TJ24300	Adverse reaction to somatotrophin, growth hormone
+TJ24200	Adverse reaction to follicle stimulating hormone, FSH
+TJ24100	Adverse reaction to chorionic gonadotrophin
+TJ24000	Adverse reaction to corticotrophin, ACTH
+TJ23.00	Adverse reaction to insulins and antidiabetic agents
+TJ23z00	Adverse reaction to insulins and antidiabetic agents NOS
+TJ23B00	Adverse reaction to glucagon
+TJ23A00	Adverse reaction to metformin hydrochloride
+TJ23900	Adverse reaction to tolbutamide
+TJ23800	Adverse reaction to tolazamide
+TJ23700	Adverse reaction to glymidine
+TJ23600	Adverse reaction to gliquidone
+TJ23500	Adverse reaction to glipizide
+TJ23400	Adverse reaction to gliclazide
+TJ23300	Adverse reaction to glibenclamide
+TJ23200	Adverse reaction to chlorpropamide
+TJ23100	Adverse reaction to acetohexamide
+TJ23000	Adverse reaction to insulins
+TJ22.00	Adverse reaction to ovarian hormones and synthetic substitutes
+TJ22z00	Adverse reaction to ovarian hormone or synthetic substitute NOS
+TJ22y00	Adverse reaction to unspecified oral contraceptive
+TJ22x00	Adverse reaction to combined oestrogens and progestogens
+TJ22A00	Adverse reaction to progesterone
+TJ22900	Adverse reaction to norethisterone
+TJ22800	Adverse reaction to medroxyprogesterone acetate
+TJ22711	Adverse reaction to hydroxyprogesterone caproate
+TJ22700	Adverse reaction to hydroxyprogesterone hexanoate
+TJ22600	Adverse reaction to dydrogesterone
+TJ22500	Adverse reaction to allyloestrenol
+TJ22411	Adverse reaction to piperazine estrone sulphate
+TJ22400	Adverse reaction to piperazine oestrone sulphate
+TJ22300	Adverse reaction to conjugated oestrogens
+TJ22200	Adverse reaction to oestriol
+TJ22100	Adverse reaction to oestradiol
+TJ22011	Adverse reaction to ethinylestradiol
+TJ22000	Adverse reaction to ethinyloestradiol
+TJ21.00	Adverse reaction to androgens and anabolic steroids
+TJ21z00	Adverse reaction to androgen or anabolic steroid NOS
+TJ21500	Adverse reaction to stanozolol
+TJ21400	Adverse reaction to nandrolone
+TJ21300	Adverse reaction to testosterone esters
+TJ21200	Adverse reaction to testosterone
+TJ21100	Adverse reaction to methyltestosterone
+TJ21000	Adverse reaction to mesterolone
+TJ20.00	Adverse reaction to adrenal cortical steroids
+TJ20z00	Adverse reaction to adrenal cortical steroid NOS
+TJ20800	Adverse reaction to triamcinolone
+TJ20700	Adverse reaction to prednisone
+TJ20600	Adverse reaction to prednisolone
+TJ20500	Adverse reaction to methylprednisolone
+TJ20400	Adverse reaction to hydrocortisone
+TJ20300	Adverse reaction to cortisone acetate
+TJ20200	Adverse reaction to dexamethasone
+TJ20100	Adverse reaction to betamethasone
+TJ20000	Adverse reaction to fludrocortisone acetate
+TJ1..00	Adverse reaction to other anti-infectives
+TJ1z.00	Adverse reaction to other and unspecified anti-infectives
+TJ1zz00	Adverse reaction to anti-infective NOS
+TJ1z400	Adverse reaction to flucytosine
+TJ1z300	Adverse reaction to hexamine
+TJ1z200	Adverse reaction to nitrofuantoin
+TJ1z100	Adverse reaction to nalidixic acid
+TJ1z000	Adverse reaction to ciprofloxacin
+TJ18.00	Adverse reaction to other antimycobacterial drugs
+TJ18z00	Adverse reaction to antimycobacterial drug NOS
+TJ18500	Adverse reaction to clofazimine
+TJ18400	Adverse reaction to dapsone
+TJ18300	Adverse reaction to para-aminosalicylic acid
+TJ18200	Adverse reaction to isoniazid
+TJ18100	Adverse reaction to ethionamide
+TJ18000	Adverse reaction to ethambutol
+TJ17.00	Adverse reaction to antiviral drugs
+TJ17z00	Adverse reaction to antiviral drug NOS
+TJ17400	Adverse reaction to zidovudine
+TJ17300	Adverse reaction to vidarabine
+TJ17200	Adverse reaction to tribavirin
+TJ17100	Adverse reaction to inosine pranobex
+TJ17000	Adverse reaction to aciclovir
+TJ16.00	Adverse reaction to antihelminthics
+TJ16z00	Adverse reaction to antihelminthic NOS
+TJ16700	Adverse reaction to male fern oleoresin
+TJ16600	Adverse reaction to hexylresorcinol
+TJ16500	Adverse reaction to thiabenazole
+TJ16400	Adverse reaction to bephenium
+TJ16300	Adverse reaction to niclosamide
+TJ16200	Adverse reaction to pyrantel
+TJ16100	Adverse reaction to piperazine
+TJ16000	Adverse reaction to mebendazole
+TJ15.00	Adverse reaction to other antiprotozoal drugs
+TJ15z00	Adverse reaction to antiprotozoal drugs NOS
+TJ15300	Adverse reaction to metronidazole
+TJ15200	Adverse reaction to diloxanide furoate
+TJ15100	Adverse reaction to pentamidine isethionate
+TJ15000	Adverse reaction to emetine
+TJ14.00	Adverse reaction to antimalarials
+TJ14z00	Adverse reaction to antimalarials NOS
+TJ14500	Adverse reaction to cycloguanil
+TJ14400	Adverse reaction to quinine
+TJ14300	Adverse reaction to pyrimethamine
+TJ14200	Adverse reaction to proguanil hydrochloride
+TJ14100	Adverse reaction to primaquine
+TJ14000	Adverse reaction to chloroquine
+TJ13.00	Adverse reaction to quinolone and hydroxyquinoline derivatives
+TJ13z00	Adverse reaction to quinolone and hydroxyquinoline derivatives NOS
+TJ13100	Adverse reaction to diiodohydroxyquin
+TJ13000	Adverse reaction to chiniofon
+TJ12.00	Adverse reaction to heavy metal anti-infectives
+TJ12z00	Adverse reaction to heavy metal anti-infectives NOS
+TJ12300	Adverse reaction to mercury compound
+TJ12200	Adverse reaction to lead compound
+TJ12100	Adverse reaction to bismuth compound
+TJ12000	Adverse reaction to antimony compound
+TJ11.00	Adverse reaction to arsenical anti-infectives
+TJ10.00	Adverse reaction to sulphonamides
+TJ10z00	Adverse reaction to sulphonamide NOS
+TJ10500	Adverse reaction to sulphaurea
+TJ10400	Adverse reaction to sulphafurazole
+TJ10311	Adverse reaction to sulfamethoxazole
+TJ10300	Adverse reaction to sulphamethoxazole
+TJ10200	Adverse reaction to sulphaguanidine
+TJ10111	Adverse reaction to sulfadimidine
+TJ10100	Adverse reaction to sulphadimidine
+TJ10011	Adverse reaction to sulfadiazine
+TJ10000	Adverse reaction to sulphadiazine
+TJ0..00	Adverse reaction to antibiotics
+TJ0z.00	Adverse reaction to antibiotic NOS
+TJ0y.00	Adverse reaction to other antibiotics
+TJ0yz00	Adverse reaction to other antibiotics NOS
+TJ0yD00	Adverse reaction to cotrimoxazole
+TJ0yC00	Adverse reaction to trimethoprim
+TJ0yB00	Adverse reaction to vancomycin
+TJ0yA00	Adverse reaction to polymyxin B sulphate
+TJ0y900	Adverse reaction to sodium fusidate
+TJ0y800	Adverse reaction to colistin
+TJ0y700	Adverse reaction to lincomycin
+TJ0y600	Adverse reaction to clindamycin
+TJ0y500	Adverse reaction to tobramycin
+TJ0y400	Adverse reaction to neomycin sulphate
+TJ0y300	Adverse reaction to kanamycin
+TJ0y200	Adverse reaction to framycetin sulphate
+TJ0y100	Adverse reaction to amikacin
+TJ0y000	Adverse reaction to gentamicin
+TJ07.00	Adverse reaction to antineoplastic antibiotics
+TJ07z00	Adverse reaction to antineoplastic antibiotics NOS
+TJ07400	Adverse reaction to plicamycin
+TJ07300	Adverse reaction to mitomycin
+TJ07200	Adverse reaction to doxorubicin hydrochloride
+TJ07100	Adverse reaction to bleomycin
+TJ07000	Adverse reaction to actinomycin D
+TJ06.00	Adverse reaction to antimycobacterial antibiotics
+TJ06z00	Adverse reaction to antimycobacterial antibiotic NOS
+TJ06400	Adverse reaction to streptomycin
+TJ06300	Adverse reaction to rifampicin
+TJ06200	Adverse reaction to pyrazinamide
+TJ06100	Adverse reaction to cycloserine
+TJ06000	Adverse reaction to capreomycin
+TJ05.00	Adverse reaction to cephalosporin group
+TJ05z00	Adverse reaction to cephalosporin NOS
+TJ05B11	Adverse reaction to cefradine
+TJ05B00	Adverse reaction to cephradine
+TJ05A11	Adverse reaction to cefazolin
+TJ05A00	Adverse reaction to cephazolin
+TJ05900	Adverse reaction to cephamandole
+TJ05800	Adverse reaction to cephalothin
+TJ05711	Adverse reaction to cefalexin
+TJ05700	Adverse reaction to cephalexin
+TJ05600	Adverse reaction to ceftizoxime
+TJ05500	Adverse reaction to ceftazidime
+TJ05400	Adverse reaction to cefsulodin sodium
+TJ05300	Adverse reaction to cefoxitin
+TJ05200	Adverse reaction to cefotaxime
+TJ05100	Adverse reaction to cefadroxil
+TJ05000	Adverse reaction to cefaclor
+TJ04.00	Adverse reaction to tetracycline group
+TJ04z00	Adverse reaction to tetracycline NOS
+TJ04700	Adverse reaction to oxytetracycline
+TJ04600	Adverse reaction to minocycline
+TJ04500	Adverse reaction to lymecycline
+TJ04400	Adverse reaction to doxycycline
+TJ04300	Adverse reaction to demeclocycline hydrochloride
+TJ04200	Adverse reaction to clomocycline sodium
+TJ04100	Adverse reaction to chlortetracycline hydrochloride
+TJ04000	Adverse reaction to tetracycline
+TJ03.00	Adverse reaction to erythromycin and other macrolides
+TJ03z00	Adverse reaction to macrolide NOS
+TJ03300	Clarithromycin adverse reaction
+TJ03200	Adverse reaction to spiramycin
+TJ03100	Adverse reaction to oleandomycin
+TJ03000	Adverse reaction to erythromycin
+TJ02.00	Adverse reaction to chloramphenicol group
+TJ02z00	Adverse reaction to chloramphenicol group NOS
+TJ02100	Adverse reaction to thiamphenicol
+TJ02000	Adverse reaction to chloramphenicol
+TJ01.00	Adverse reaction to antifungal antibiotics
+TJ01z00	Adverse reaction to antifungal antibiotics NOS
+TJ01500	Adverse reaction to nystatin
+TJ01400	Adverse reaction to natamycin
+TJ01300	Adverse reaction to miconazole
+TJ01200	Adverse reaction to ketoconazole
+TJ01100	Adverse reaction to griseofulvin
+TJ01000	Adverse reaction to amphotericin
+TJ00.00	Adverse reaction to penicillins
+TJ00z00	Adverse reaction to penicillin NOS
+TJ00G00	Adverse reaction to pivmecillinam
+TJ00F00	Adverse reaction to mecillinam
+TJ00E00	Adverse reaction to ticarcillin
+TJ00D00	Adverse reaction to piperacillin
+TJ00C00	Adverse reaction to carfecillin sodium
+TJ00B00	Adverse reaction to carbenicillin
+TJ00A00	Adverse reaction to azlocillin
+TJ00900	Adverse reaction to talampicillin
+TJ00800	Adverse reaction to pivampicillin
+TJ00700	Adverse reaction to mezlocillin
+TJ00600	Adverse reaction to ciclacillin
+TJ00500	Adverse reaction to bacampicillin
+TJ00400	Adverse reaction to ampicillin
+TJ00311	Adverse reaction to amoxicillin
+TJ00300	Adverse reaction to amoxycillin
+TJ00200	Adverse reaction to flucloxacillin
+TJ00100	Adverse reaction to cloxacillin
+TJ00000	Adverse reaction to natural penicillins
+U60..11	[X]AR- Adverse reaction to drugs/medicines/biological substances
+U60K.11	[X] Adverse reaction to other vaccines and biological substances
+U60Kz11	[X] Adverse reaction to vaccine or biological substance NOS
+U60Kz12	[X] Adverse reaction to vaccine
+U60K311	[X] Adverse reaction to gamma globulin
+U60K312	[X] Adverse reaction to tetanus antitoxin
+U60K111	[X] Adverse reaction to typhus vaccine
+U60K011	[X] Adverse reaction to smallpox vaccine
+U60K012	[X] Adverse reaction to rabies vaccine
+U60K013	[X] Adverse reaction to yellow fever vaccine
+U60K014	[X] Adverse reaction to measles vaccine
+U60K015	[X] Adverse reaction to poliomyelitis vaccine
+U60K016	[X] Adverse reaction to mumps vaccine
+U60K017	[X] Adverse reaction to rubella vaccine
+U60J.11	[X] Adverse reaction to bacterial vaccines
+U60Jy11	[X] Adverse reaction to other bacterial vaccines
+U60Jy12	[X] Adverse reaction to meningococcal vaccine
+U60Jy13	[X] Adverse reaction to other bacterial vaccine NOS
+U60J811	[X]Adverse reaction to pneumococcal vaccine
+U60J711	[X] Adverse reaction to mixed bacterial vaccine, without pertussis
+U60J611	[X] Adverse reaction to pertussis vaccine, including combinations
+U60J511	[X] Adverse reaction to diphtheria vaccine
+U60J411	[X] Adverse reaction to tetanus vaccine
+U60J311	[X] Adverse reaction to plague vaccine
+U60J211	[X] Adverse reaction to cholera vaccine
+U60J111	[X] Adverse reaction to typhoid and paratyphoid vaccines
+U60J112	[X] Adverse reaction to typhoid vaccine
+U60J113	[X] Adverse reaction to paratyphoid vaccine
+U60J114	[X] Adverse reaction to typhoid or paratyphoid vaccine NOS
+U60J011	[X] Adverse reaction to BCG vaccine
+U60H.11	[X] Adverse reaction to other drugs and medicines
+U60H911	[X] Adverse reaction to drug or medicinal substance NOS
+U60H912	[X] Adverse reaction to drug NOS
+U60H811	[X] Adverse reaction to other drug or medicine NOS
+U60H711	[X] Adverse reaction to vitamins
+U60H712	[X] Adverse reaction to vitamin A
+U60H713	[X] Adverse reaction to vitamin NOS
+U60H611	[X] Adverse reaction to diagnostic agents and kits NOS
+U60H511	[X] Adverse reaction to contrast media for diagnostic X-rays NOS
+U60H411	[X] Adverse reaction to pharmaceutical excipients
+U60H311	[X] Adverse reaction to alcohol deterrents
+U60H211	[X] Adverse reaction to penicillamine
+U60H212	[X] Adverse reaction to antidotes and chelating agents NEC
+U60H111	[X] Adverse reaction to lipotropic drugs
+U60H011	[X] Adverse reaction to dietetics
+U60G.11	[X] Adverse reaction to skin, mucous membrane, eye, ENT and dental drug
+U60GA00	[X]Topical hydrocortisone adverse reaction
+U60G911	[X] Adverse reaction to skin, eye, ENT and dental drugs NOS
+U60G811	[X] Adverse reaction to other skin, eye, ENT and dental drugs
+U60G711	[X] Adverse reaction to dental drugs topically applied
+U60G611	[X] Adverse reaction to anti-infectives and other ENT drugs
+U60G511	[X] Adverse reaction to eye drugs
+U60G512	[X] Adverse reaction to eye drugs NOS
+U60G411	[X] Adverse reaction to keratolytics, keratoplastics and other hair drugs
+U60G311	[X] Adverse reaction to emollients, demulcents and protectants
+U60G211	[X] Adverse reaction to local astringents and local detergents
+U60G111	[X] Adverse reaction to antipruritics
+U60G011	[X] Adverse reaction to local anti-infectives and anti-inflammatories
+U60G012	[X] Adverse reaction to ketoconazole
+U60G013	[X] Adverse reaction to miconazole
+U60G014	[X] Local adverse reaction to neomycin
+U60G015	[X] Adverse reaction to natamycin
+U60G016	[X] Adverse reaction to bismuth compound
+U60G017	[X] Adverse reaction to betamethasone
+U60G018	[X] Adverse reaction to local anti-infective/inflammatory NOS
+U60G01B	[X]Adverse reaction to local anti-inflammatory drug
+U60G019	[X]Adverse reaction to local antifungal drug
+U60G01A	[X]Adverse reaction to local anti-infective drug
+U60F.11	[X] Adverse reaction to smooth/skeletal muscle and respiratory drugs
+U60F.12	[X] Adverse reaction smooth/skeletal muscle and respiratory system drug NOS
+U60F711	[X] Adverse reaction to other respiratory system drugs
+U60F611	[X] Adverse reaction to antiasthmatics
+U60F612	[X] Adverse reaction to salbutamol
+U60F613	[X] Adverse reaction to ipratropium bromide
+U60F614	[X] Adverse reaction to aminophylline
+U60F615	[X] Adverse reaction to theophylline - asthma
+U60F616	[X] Adverse reaction to sodium cromoglicate
+U60F617	[X] Adverse reaction to oxitropium
+U60F618	[X] Adverse reaction to theobromine
+U60F619	[X] Adverse reaction to theophylline
+U60F61A	[X] Adverse reaction to antiasthmatic NOS
+U60F511	[X] Adverse reaction to anti-common cold drugs
+U60F411	[X] Adverse reaction to expectorants
+U60F412	[X] Adverse reaction to acetylcysteine
+U60F413	[X] Adverse reaction to ipecacuanha
+U60F414	[X] Adverse reaction to expectorants NOS
+U60F311	[X] Adverse reaction to antitussives
+U60F312	[X] Adverse reaction to dextromethorphan
+U60F313	[X] Adverse reaction to pipazethate hydrochloride
+U60F314	[X] Adverse reaction to antitussive NOS
+U60F211	[X] Adverse reaction to other muscle drugs
+U60F212	[X] Adverse reaction to orciprenaline
+U60F111	[X] Adverse reaction to skeletal muscle relaxants
+U60F112	[X] Adverse reaction to alcuronium
+U60F113	[X] Adverse reaction to gallamine triethiodide
+U60F114	[X] Adverse reaction to tubocurarine
+U60F115	[X] Adverse reaction to tubocurare
+U60F116	[X] Adverse reaction to suxamethonium
+U60F117	[X] Adverse reaction to skeletal muscle relaxant NOS
+U60F011	[X] Adverse reaction to oxytocic agents
+U60F012	[X] Adverse reaction to prostaglandins
+U60F013	[X] Adverse reaction to ergometrine
+U60F014	[X] Adverse reaction to oxytocin
+U60F015	[X] Adverse reaction to oxytocic agent NOS
+U60E.11	[X] Adverse reaction to water/mineral/uric acid metabolism drugs
+U60E.12	[X] Adverse reaction water/mineral/uric acid metabolism drug NOS
+U60Ez11	[X] Adverse reaction to other mineral salts NEC
+U60E812	[X] Adverse reaction to colchicine
+U60E813	[X] Adverse reaction to allopurinol
+U60E814	[X] Adverse reaction to probenecid
+U60E815	[X] Adverse reaction to sulfinpyrazone
+U60E816	[X] Adverse reaction to uric acid metabolism drug NOS
+U60E811	[X] Adverse reaction to uric acid metabolism drugs
+U60E711	[X] Adverse reaction to parathyroid and parathyroid derivatives
+U60E712	[X] Adverse reaction to vitamin D
+U60E713	[X] Adverse reaction to calcitonin
+U60E714	[X] Adverse reaction to salcatonin
+U60E715	[X] Adverse reaction to parathyroid and parathyroid derivatives, NOS
+U60E611	[X] Adverse reaction to electrolytic/caloric/water balance drugs
+U60E511	[X] Adverse reaction to mercurial diuretic
+U60E512	[X] Adverse reaction to mersalyl
+U60E513	[X] Adverse reaction to chlormerodrin
+U60E514	[X] Adverse reaction to mercaptomerin
+U60E515	[X] Adverse reaction to mercurophylline
+U60E516	[X] Adverse reaction to mercurial diuretics NOS
+U60E517	[X] Adverse reaction to purine derivative diuretic
+U60E518	[X] Adverse reaction to purine derivative diuretic NOS
+U60E519	[X] Adverse reaction to other diuretics
+U60E51A	[X] Adverse reaction to chlortalidone
+U60E51B	[X] Adverse reaction to amiloride
+U60E51C	[X] Adverse reaction to spironolactone
+U60E51D	[X] Adverse reaction to triamterene
+U60E51E	[X] Adverse reaction to mannitol
+U60E51F	[X] Adverse reaction to diuretic NOS
+U60E411	[X] Adverse reaction to furosemide
+U60E412	[X] Adverse reaction to ethacrynic acid
+U60E311	[X] Adverse reaction to thiazides
+U60E312	[X] Adverse reaction to bendroflumethiazide
+U60E313	[X] Adverse reaction to chlorothiazide
+U60E314	[X] Adverse reaction to cyclopenthiazide
+U60E315	[X] Adverse reaction to hydrochlorothiazide
+U60E316	[X] Adverse reaction to hydroflumethiazide
+U60E317	[X] Adverse reaction to methyclothiazide
+U60E318	[X] Adverse reaction to polythiazide
+U60E319	[X] Adverse reaction to thiazide NOS
+U60E211	[X] Adverse reaction to carbonic acid anhydrase inhibitor
+U60E212	[X] Adverse reaction to acetazolamide
+U60E213	[X] Adverse reaction to dichlorphenamide
+U60E214	[X] Adverse reaction to carbonic acid anhydrase inhibitor NOS
+U60E011	[X] Adverse reaction to fludrocortisone acetate
+U60D.11	[X] Adverse reaction to gastrointestinal drugs
+U60Dz11	[X] Adverse reaction to gastrointestinal tract drugs NOS
+U60D811	[X] Adverse reaction to other gastrointestinal tract drugs
+U60D711	[X] Adverse reaction to emetic
+U60D712	[X] Adverse reaction to emetics NOS
+U60D611	[X] Adverse reaction to antidiarrhoeal drug
+U60D612	[X] Adverse reaction to kaolin
+U60D613	[X] Adverse reaction to diphenoxylate
+U60D614	[X] Adverse reaction to loperamide
+U60D615	[X] Adverse reaction to pectin
+U60D616	[X] Adverse reaction to antidiarrhoeal drugs NOS
+U60D511	[X] Adverse reaction to digestant
+U60D512	[X] Adverse reaction to pancreatin
+U60D513	[X] Adverse reaction to papain
+U60D514	[X] Adverse reaction to pepsin
+U60D515	[X] Adverse reaction to digestants NOS
+U60D411	[X] Adverse reaction to emollient cathartic
+U60D412	[X] Adverse reaction to glycerol
+U60D413	[X] Adverse reaction to dioctyl sodium sulphosuccinate
+U60D414	[X] Adverse reaction to emollient cathartic NOS
+U60D415	[X] Adverse reaction to other cathartics and intestinal atonia drugs
+U60D416	[X] Adverse reaction to magnesium sulphate
+U60D417	[X] Adverse reaction to other cathartics and intestinal atonia drugs NOS
+U60D311	[X] Adverse reaction to lactulose
+U60D211	[X] Adverse reaction to irritant cathartic
+U60D212	[X] Adverse reaction to bisacodyl
+U60D213	[X] Adverse reaction to cascara
+U60D214	[X] Adverse reaction to castor oil
+U60D215	[X] Adverse reaction to dantron
+U60D216	[X] Adverse reaction to fig
+U60D217	[X] Adverse reaction to senna
+U60D218	[X] Adverse reaction to phenolphthalein
+U60D219	[X] Adverse reaction to irritant cathartics NOS
+U60D111	[X] Adverse reaction to antacids and antigastric secretion drugs
+U60D112	[X] Adverse reaction to aluminium hydroxide
+U60D113	[X] Adverse reaction to alexitol sodium
+U60D114	[X] Adverse reaction to magnesium carbonate
+U60D115	[X] Adverse reaction to magnesium trisilicate
+U60D116	[X] Adverse reaction to hydrotalcite
+U60D117	[X] Adverse reaction to magaldrate
+U60D118	[X] Adverse reaction to sodium bicarbonate
+U60D119	[X] Adverse reaction to antacids and antigastric secretion drugs NOS
+U60C.11	[X] Adverse reaction to cardiovascular system drugs
+U60CC00	[X]Phosphodiesterase-5 inhibitor adverse reaction
+U60C900	[X]Lipid-lowering drug adverse reaction
+U60Cy11	[X] Adverse reaction to capillary-active drug
+U60Cy12	[X] Adverse reaction to adrenochrome derivative
+U60Cy13	[X] Adverse reaction to capillary-active drugs NOS
+U60Cy14	[X] Adverse reaction to cardiovascular system drug NOS
+U60C811	[X] Adverse reaction to antivaricose drug
+U60C812	[X] Adverse reaction to ethanolamine oleate
+U60C813	[X] Adverse reaction to zinc salt
+U60C814	[X] Adverse reaction to antivaricose drugs NOS
+U60C711	[X] Adverse reaction to vasodilator
+U60C712	[X] Adverse reaction to phenoxybenzamine
+U60C713	[X] Adverse reaction to cyclandelate
+U60C714	[X] Adverse reaction to nicotinic acid derivative
+U60C715	[X] Adverse reaction to phentolamine mesylate
+U60C716	[X] Adverse reaction to isoxsuprine
+U60C717	[X] Adverse reaction to tolazoline
+U60C718	[X] Adverse reaction to vasodilators NOS
+U60C611	[X] Adverse reaction to antilipaemic and anti-arteriosclerotic drugs
+U60C612	[X] Adverse reaction to colestyramine
+U60C613	[X] Adverse reaction to clofibrate
+U60C614	[X] Adverse reaction to bezafibrate
+U60C615	[X] Adverse reaction to simvastatin
+U60C616	[X] Adverse reaction to pravastatin
+U60C617	[X] Adverse reaction to antilipaemic and antiarteriosclerotic drugs NOS
+U60C511	[X] Adverse reaction to other antihypertensives
+U60C512	[X] Adverse reaction to hydralazine
+U60C513	[X] Adverse reaction to diazoxide
+U60C514	[X] Adverse reaction to clonidine
+U60C515	[X] Adverse reaction to methyldopa
+U60C516	[X] Adverse reaction to reserpine
+U60C517	[X] Adverse reaction to bethanidine
+U60C518	[X] Adverse reaction to debrisoquine
+U60C519	[X] Adverse reaction to guanethidine
+U60C51A	[X] Adverse reaction to antihypertensives NOS
+U60C411	[X] Adverse reaction to captopril
+U60C412	[X] Adverse reaction to enalapril
+U60C413	[X] Adverse reaction to ramipril
+U60C414	[X]Adverse reaction to lisinopril
+U60C311	[X] Adverse reaction to coronary vasodilator
+U60C312	[X] Adverse reaction to glyceryl trinitrate
+U60C313	[X] Adverse reaction to isosorbide dinitrate
+U60C314	[X] Adverse reaction to isosorbide mononitrate
+U60C315	[X] Adverse reaction to pentaerythritol tetranitrate
+U60C316	[X] Adverse reaction to dipyridamole
+U60C317	[X] Adverse reaction to prenylamine
+U60C318	[X] Adverse reaction to coronary vasodilators NOS
+U60C211	[X] Adverse reaction to cardiac rhythm regulator
+U60C212	[X] Adverse reaction to procainamide
+U60C213	[X] Adverse reaction to quinidine
+U60C214	[X] Adverse reaction to cardiac rhythm regulator NOS
+U60C111	[X] Adverse reaction to nifedipine
+U60C112	[X] Adverse reaction to verapamil
+U60C113	[X]Adverse reaction to amlodipine
+U60C011	[X] Adverse reaction to cardiac glycoside
+U60C012	[X] Adverse reaction to digoxin
+U60C013	[X] Adverse reaction to digitoxin
+U60C014	[X] Adverse reaction to lanatoside C
+U60C015	[X] Adverse reaction to cardiac glycosides NOS
+U60B.11	[X] Adverse reaction to autonomic nervous system drugs
+U60BB00	[X]Adverse reaction to nebivolol
+U60BA00	[X]Adverse reaction to carvedilol
+U60B900	[X]Adverse reaction to bisoprolol
+U60By11	[X] Adverse reaction to sympathomimetic
+U60By12	[X] Adverse reaction to sympathomimetic NOS
+U60By13	[X] Adverse reaction to autonomic nervous system drug NOS
+U60B811	[X] Adverse reaction to sympatholytic
+U60B812	[X] Adverse reaction to sympatholytic NOS
+U60B711	[X] Adverse reaction to betablockers
+U60B712	[X] Adverse reaction to propranolol
+U60B713	[X] Adverse reaction to practolol
+U60B714	[X] Adverse reaction to acebutolol
+U60B715	[X] Adverse reaction to atenolol
+U60B716	[X] Adverse reaction to labetolol
+U60B717	[X] Adverse reaction to metoprolol
+U60B718	[X] Adverse reaction to nadolol
+U60B719	[X] Adverse reaction to oxprenolol
+U60B71A	[X] Adverse reaction to sotalol
+U60B71B	[X] Adverse reaction to timolol
+U60B71C	[X] Adverse reaction to betablockers NOS
+U60B611	[X] Adverse reaction to prazosin
+U60B514	[X] Adverse reaction to isoprenaline sulphate
+U60B511	[X] Adverse reaction to adrenaline, epinephrine
+U60B512	[X] Adverse reaction to noradrenaline
+U60B513	[X] Adverse reaction to ephedrine
+U60B411	[X] Adverse reaction to metaraminol
+U60B311	[X] Adverse reaction to parasympatholytics and spasmolytics
+U60B312	[X] Adverse reaction to papaverine
+U60B313	[X] Adverse reaction to atropine
+U60B314	[X] Adverse reaction to smooth muscle relaxants
+U60B315	[X] Adverse reaction to homatropine
+U60B316	[X] Adverse reaction to adiphenine
+U60B317	[X] Adverse reaction to hyoscine
+U60B318	[X] Adverse reaction to mebeverine
+U60B319	[X] Adverse reaction to benzatropine
+U60B31A	[X] Adverse reaction to methixene
+U60B31B	[X] Adverse reaction to smooth muscle relaxant NOS
+U60B31C	[X] Adverse reaction to parasympatholytic or spasmolytic NOS
+U60B211	[X] Adverse reaction to ganglion blocking drug
+U60B212	[X] Adverse reaction to pentamethonium bromide
+U60B213	[X] Adverse reaction to trimetaphan camsylate
+U60B214	[X] Adverse reaction to ganglion blockers NOS
+U60B111	[X] Adverse reaction to parasympathomimetic
+U60B112	[X] Adverse reaction to acetylcholine
+U60B113	[X] Adverse reaction to pilocarpine
+U60B114	[X] Adverse reaction to parasympathomimetics NOS
+U60B011	[X] Adverse reaction to anticholinesterase
+U60B012	[X] Adverse reaction to distigmine bromide
+U60B013	[X] Adverse reaction to edrophonium chloride
+U60B014	[X] Adverse reaction to neostigmine
+U60B015	[X] Adverse reaction to pyridostigmine bromide
+U60A500	[X]Adverse reaction to caffeine
+U60A411	[X] Adverse reaction to central nervous system stimulant
+U60A412	[X] Adverse reaction to central nervous system stimulants NOS
+U60A311	[X] Adverse reaction to other central nervous system stimulants
+U60A111	[X] Adverse reaction to opiate antagonist
+U60A112	[X] Adverse reaction to levallorphan
+U60A113	[X] Adverse reaction to nalorphine
+U60A114	[X] Adverse reaction to naloxone
+U60A115	[X] Adverse reaction to opiate antagonists NOS
+U60A011	[X] Adverse reaction to analeptic
+U60A012	[X] Adverse reaction to nikethamide
+U60A013	[X] Adverse reaction to lobeline
+U60A014	[X] Adverse reaction to doxapram
+U60A015	[X] Adverse reaction to ethamivan
+U60A016	[X] Adverse reaction to analeptics NOS
+U60A017	[X] Adverse reaction to pemoline
+U609B00	[X]Sertraline adverse reaction
+U609A00	[X]Fluoxetine adverse reaction
+U609z11	[X] Adverse reaction to psychotropic agent
+U609z12	[X] Adverse reaction to hydroxyzine
+U609z13	[X] Adverse reaction to psychotropic agent NOS
+U609811	[X] Adverse reaction to chlormezanone
+U609812	[X] Adverse reaction to other psychotropic agent
+U609711	[X] Adverse reaction to psychostimulant
+U609713	[X] Adverse reaction to dexamfetamine
+U609714	[X] Adverse reaction to psychostimulant NOS
+U609712	[X] Adverse reaction to caffeine
+U609611	[X] Adverse reaction to hallucinogen
+U609612	[X] Adverse reaction to marijuana
+U609613	[X] Adverse reaction to lysergide
+U609614	[X] Adverse reaction to mescaline
+U609615	[X] Adverse reaction to psilocin
+U609616	[X] Adverse reaction to psilocybin
+U609617	[X] Adverse reaction to hallucinogen NOS
+U609511	[X] Adverse reaction to oxypertine
+U609512	[X] Adverse reaction to carbamate
+U609513	[X] Adverse reaction to other major tranquilliser
+U609514	[X] Adverse reaction to other tranquillisers
+U609515	[X] Adverse reaction to meprobamate
+U609516	[X] Adverse reaction to tetrabenazine
+U609517	[X] Adverse reaction to tranquillisers NOS
+U609411	[X] Adverse reaction to butyrophenone-based tranquilliser
+U609412	[X] Adverse reaction to haloperidol
+U609413	[X] Adverse reaction to spiperone
+U609414	[X] Adverse reaction to trifluperidol
+U609415	[X] Adverse reaction to flupentixol
+U609416	[X] Adverse reaction to butyrophenone-based tranquillisers NOS
+U609311	[X] Adverse reaction to phenothiazine-based tranquilliser
+U609312	[X] Adverse reaction to chlorpromazine
+U609313	[X] Adverse reaction to fluphenazine
+U609314	[X] Adverse reaction to pericyazine
+U609315	[X] Adverse reaction to perphenazine
+U609316	[X] Adverse reaction to prochlorperazine
+U609317	[X] Adverse reaction to promazine
+U609318	[X] Adverse reaction to thioridazine
+U609319	[X] Adverse reaction to phenothiazine-based tranquillisers NOS
+U60931A	[X] Adverse reaction to promethazine hydrochloride
+U609211	[X] Adverse reaction to antidepressant
+U609212	[X] Adverse reaction to tryptophan
+U609213	[X] Adverse reaction to antidepressants NOS
+U609111	[X] Adverse reaction to phenelzine
+U609112	[X] Adverse reaction to isocarboxazid
+U609113	[X] Adverse reaction to tranylcypromine
+U609011	[X] Adverse reaction to amitriptyline
+U609012	[X] Adverse reaction to butriptyline
+U609013	[X] Adverse reaction to clomipramine
+U609014	[X] Adverse reaction to desipramine
+U609015	[X] Adverse reaction to dosulepin
+U609016	[X] Adverse reaction to doxepin
+U609017	[X] Adverse reaction to imipramine
+U609018	[X] Adverse reaction to lofepramine
+U609019	[X] Adverse reaction to nortriptyline
+U60901A	[X] Adverse reaction to protriptyline
+U60901B	[X] Adverse reaction to trimipramine
+U60901C	[X] Adverse reaction to maprotiline
+U60901D	[X] Adverse reaction to mianserin
+U608411	[X] Adverse reaction to anaesthetic
+U608412	[X] Adverse reaction to general anaesthetic
+U60831A	[X] Adverse reaction to spinal anaesthetic
+U60831B	[X] Adverse reaction to other local anaesthetics
+U608311	[X] Adverse reaction to surface and infiltration anaesthetic
+U608312	[X] Adverse reaction to cocaine
+U608313	[X] Adverse reaction to lidocaine hydrochloride
+U608318	[X] Adverse reaction to local anaesthetics NOS
+U608319	[X] Adverse reaction peripheral nerve/plexus-blocking anaesthetic
+U608314	[X] Adverse reaction to bupivacaine hydrochloride
+U608317	[X] Adverse reaction to tetracaine
+U608315	[X] Adverse reaction to prilocaine hydrochloride
+U608316	[X] Adverse reaction to procaine hydrochloride
+U608211	[X] Adverse reaction to cyclopropane
+U608212	[X] Adverse reaction to ketamine
+U608213	[X] Adverse reaction to other general anaesthetics
+U608111	[X] Adverse reaction to intravenous anaesthetic
+U608112	[X] Adverse reaction to thiopental sodium
+U608113	[X] Adverse reaction to methohexitone sodium
+U608114	[X] Adverse reaction to etomidate
+U608115	[X] Adverse reaction to propofol
+U608116	[X] Adverse reaction to intravenous anaesthetic NOS
+U608011	[X] Adverse reaction to halothane
+U608012	[X] Adverse reaction to other gaseous anaesthetics
+U608013	[X] Adverse reaction to ether
+U608014	[X] Adverse reaction to nitrous oxide
+U608015	[X] Adverse reaction to isoflurane
+U608016	[X] Adverse reaction to enflurane
+U608017	[X] Adverse reaction to trichloroethylene
+U608018	[X] Adverse reaction to gaseous anaesthetic NOS
+U608019	[X] Adverse reaction to gaseous anaesthetic
+U607.11	[X] Adverse reaction to sedatives and hypnotics
+U607z11	[X] Adverse reaction to sedatives and hypnotics, unspecified
+U607z12	[X] Adverse reaction to sleeping pill NOS
+U607z13	[X] Adverse reaction to sedative NOS
+U607z14	[X] Adverse reaction to sedative or hypnotic NOS
+U607z15	[X] Adverse reaction to central nervous system depressant
+U607y11	[X] Adverse reaction to triclofos sodium
+U607y12	[X] Adverse reaction to clomethiazole edisylate
+U607y13	[X] Adverse reaction to methaqualone compound
+U607y14	[X] Adverse reaction to glutethimide group
+U607y15	[X] Adverse reaction to other sedatives and hypnotics
+U607y16	[X] Adverse reaction to methyprylon
+U607y17	[X] Adverse reaction to avomine
+U607y18	[X] Adverse reaction to other sedatives and hypnotics NOS
+U607511	[X] Adverse reaction to dichloralphenazone
+U607512	[X] Adverse reaction to mixed sedatives NEC
+U607411	[X] Adverse reaction to bromine compound
+U607412	[X] Adverse reaction to bromide
+U607413	[X] Adverse reaction to carbromal derivatives
+U607414	[X] Adverse reaction to bromine compounds NOS
+U607311	[X] Adverse reaction to paraldehyde
+U607211	[X] Adverse reaction to chloral hydrate group
+U607212	[X] Adverse reaction to chloral hydrate
+U607213	[X] Adverse reaction to chloral hydrate group NOS
+U607111	[X] Adverse reaction to benzodiazepine-based tranquilliser
+U607112	[X] Adverse reaction to nitrazepam
+U607113	[X] Adverse reaction to flurazepam
+U607114	[X] Adverse reaction to temazepam
+U607115	[X] Adverse reaction to triazolam
+U607116	[X] Adverse reaction to diazepam
+U607117	[X] Adverse reaction to chlordiazepoxide
+U607118	[X] Adverse reaction to clobazam
+U607119	[X] Adverse reaction to clorazepate dipotassium
+U60711A	[X] Adverse reaction to ketazolam
+U60711B	[X] Adverse reaction to lorazepam
+U60711C	[X] Adverse reaction to medazepam
+U60711D	[X] Adverse reaction to oxazepam
+U60711E	[X] Adverse reaction to clonazepam
+U60711F	[X] Adverse reaction to benzodiazepine-based tranquilliser NOS
+U607011	[X] Adverse reaction to barbiturate
+U607012	[X] Adverse reaction to amobarbital
+U607013	[X] Adverse reaction to barbitone
+U607014	[X] Adverse reaction to butobarbital
+U607015	[X] Adverse reaction to pentobarbitone
+U607016	[X] Adverse reaction to phenobarbital
+U607017	[X] Adverse reaction to quinalbarbitone
+U607018	[X] Adverse reaction to barbiturate NOS
+U606.11	[X] Adverse reaction to anticonvulsants and anti-parkinsonism drugs
+U606811	[X] Adverse reaction to CNS muscle-tone depressants
+U606812	[X] Adverse reaction to chlorphenesin
+U606813	[X] Adverse reaction to mephenesin
+U606814	[X] Adverse reaction to methocarbamol
+U606815	[X] Adverse reaction to CNS muscle-tone depressants NOS
+U606711	[X] Adverse reaction to antiparkinsonism drug
+U606712	[X] Adverse reaction to amantadine
+U606713	[X] Adverse reaction to levodopa, L-dopa
+U606714	[X] Adverse reaction to trihexyphenidyl
+U606715	[X] Adverse reaction to selegiline
+U606716	[X] Adverse reaction to orphenadrine
+U606717	[X] Adverse reaction to biperiden
+U606718	[X] Adverse reaction to antiparkinsonism drugs NOS
+U606719	[X] Adverse reaction to anticonvulsant or antiparkinsonism drug NOS
+U606611	[X] Adverse reaction to other anticonvulsant
+U606612	[X] Adverse reaction to beclamide
+U606613	[X] Adverse reaction to primidone
+U606614	[X] Adverse reaction to anticonvulsants NOS
+U606511	[X] Adverse reaction to sodium valproate
+U606411	[X] Adverse reaction to carbamazepine
+U60631A	[X] Adverse reaction to spinal anaesthetic
+U60631B	[X] Adverse reaction to other local anaesthetics
+U606311	[X] Adverse reaction to surface and infiltration anaesthetic
+U606312	[X] Adverse reaction to cocaine
+U606313	[X] Adverse reaction to lignocaine hydrochloride
+U606318	[X] Adverse reaction to local anaesthetics NOS
+U606319	[X] Adverse reaction peripheral nerve/plexus-blocking anaesthetic
+U606314	[X] Adverse reaction to bupivacaine hydrochloride
+U606317	[X] Adverse reaction to tetracaine
+U606315	[X] Adverse reaction to prilocaine hydrochloride
+U606316	[X] Adverse reaction to procaine hydrochloride
+U606211	[X] Adverse reaction to hydantoin derivative
+U606212	[X] Adverse reaction to phenytoin
+U606213	[X] Adverse reaction to hydantoin derivatives NOS
+U606111	[X] Adverse reaction to oxazolidine derivative
+U606112	[X] Adverse reaction to paramethadione
+U606113	[X] Adverse reaction to trimethadione
+U606114	[X] Adverse reaction to oxazolidine derivatives NOS
+U606011	[X] Adverse reaction to succinimide
+U606012	[X] Adverse reaction to ethosuximide
+U606013	[X] Adverse reaction to phensuximide
+U606014	[X] Adverse reaction to succinimides NOS
+U605.11	[X] Adverse reaction to analgesics, antipyretics, antirheumatics
+U605z11	[X] Adverse reaction to non-narcotic analgesics NOS
+U605z12	[X] Adverse reaction to analgesic, antipyretic, antirheumatic NOS
+U605611	[X] Adverse reaction to analgesics
+U605612	[X] Adverse reaction to phenylbytazone
+U605613	[X] Adverse reaction to aminophenazone
+U605614	[X] Adverse reaction to pyrazole derivatives NOS
+U605615	[X] Adverse reaction to other non-narcotic analgesics
+U605616	[X] Adverse reaction to pyrabital
+U605617	[X] Adverse reaction to pyrazole derivative
+U605618	[X] Adverse reaction to antipyretic
+U605619	[X] Adverse reaction to other analgesics, antipyretics, antirheumatics NOS
+U60561A	[X] Adverse reaction to other analgesics, antipyretics, anti-rheumatics
+U605511	[X] Adverse reaction to aromatic analgesics NEC
+U605512	[X] Adverse reaction to paracetamol
+U605513	[X] Adverse reaction to phenacetin
+U605514	[X] Adverse reaction to acetanilide
+U605515	[X] Adverse reaction to aromatic analgesics NOS
+U605411	[X] Adverse reaction to antirheumatic
+U605412	[X] Adverse reaction to sodium aurothiomalate
+U605413	[X] Adverse reaction to auranofin
+U605414	[X] Adverse reaction to antirheumatics NOS
+U605311	[X] Adverse reaction to non steroidal anti-inflammatory drug
+U605312	[X] Adverse reaction to indometacin
+U605313	[X] Adverse reaction to piroxicam
+U605314	[X] Adverse reaction to mefenamic acid
+U605315	[X] Adverse reaction to diclofenac sodium
+U605211	[X] Adverse reaction to ibuprofen
+U605212	[X] Adverse reaction to fenbufen
+U605213	[X] Adverse reaction to fenoprofen
+U605214	[X] Adverse reaction to flurbiprofen
+U605215	[X] Adverse reaction to ketoprofen
+U605216	[X] Adverse reaction to naproxen
+U605111	[X] Adverse reaction to salicylates
+U605112	[X] Adverse reaction to aspirin
+U605011	[X] Adverse reaction to diamorphine
+U605012	[X] Adverse reaction to methadone
+U605013	[X] Adverse reaction to other opiates and related narcotics
+U605014	[X] Adverse reaction to morphine salts
+U605015	[X] Adverse reaction to buprenorphine
+U605016	[X] Adverse reaction to codeine phosphate
+U605017	[X] Adverse reaction to dextromoramide
+U605018	[X] Adverse reaction to dihydrocodeine tartrate
+U605019	[X] Adverse reaction to dipipanone hydrochloride
+U60501A	[X] Adverse reaction to levorphanol tartrate
+U60501B	[X] Adverse reaction to pethidine hydrochloride
+U60501C	[X] Adverse reaction to opiates or related narcotics NOS
+U60501D	[X] Adverse reaction to pentazocine
+U604.11	[X] Adverse reaction to agents mainly affecting blood constituents
+U604y11	[X] Adverse reaction to other agent affecting blood constituents
+U604y12	[X] Adverse reaction to other agent affecting blood constituents NOS
+U604y13	[X] Adverse reaction to agent affecting blood constituents NOS
+U604711	[X] Adverse reaction to macromolecular blood substitutes
+U604611	[X] Adverse reaction to natural blood and blood products
+U604612	[X] Adverse reaction to blood plasma
+U604613	[X] Adverse reaction to human fibrinogen
+U604614	[X] Adverse reaction to packed red cells
+U604615	[X] Adverse reaction to whole blood
+U604616	[X] Adverse reaction to blood or blood products NOS
+U604511	[X] Adverse reaction to fibrinolytic drugs
+U604512	[X] Adverse reaction to streptokinase
+U604513	[X] Adverse reaction to urokinase
+U604514	[X] Adverse reaction to fibrinolytic drugs NOS
+U604311	[X] Adverse reaction to vitamin K
+U604312	[X] Adverse reaction to phytomenadione
+U604313	[X] Adverse reaction to vitamin K NOS
+U604314	[X] Adverse reaction to anticoagulant antagonists
+U604315	[X] Adverse reaction to protamine sulphate
+U604316	[X] Adverse reaction to etamsylate
+U604317	[X] Adverse reaction to tranexamic acid
+U604318	[X] Adverse reaction to anticoagulant antagonist NOS
+U604211	[X] Adverse reaction to anticoagulants
+U604212	[X] Adverse reaction to heparin
+U604213	[X] Adverse reaction to warfarin sodium
+U604214	[X] Adverse reaction to acenocoumarol
+U604215	[X] Adverse reaction to phenindione
+U604216	[X] Adverse reaction to anticoagulants NOS
+U604111	[X] Adverse reaction to liver preparations and other antianaemic agents
+U604112	[X] Adverse reaction to hydroxocobalamin
+U604113	[X] Adverse reaction to cyanocobalamin
+U604114	[X] Adverse reaction to folic acid
+U604115	[X] Adverse reaction to liver preparations and other antianaemic agent NOS
+U604011	[X] Adverse reaction to iron and iron compounds
+U604012	[X] Adverse reaction to ferrous sulphate
+U604013	[X] Adverse reaction to ferrous fumarate
+U604014	[X] Adverse reaction to ferrous gluconate
+U604015	[X] Adverse reaction to ferrous glycine sulphate
+U604016	[X] Adverse reaction to ferrous succinate
+U604017	[X] Adverse reaction to ferric salts
+U604018	[X] Adverse reaction to iron dextran injection
+U604019	[X] Adverse reaction to iron sorbitol injection
+U60401A	[X] Adverse reaction to iron and iron compounds NOS
+U603.11	[X] Adverse reaction to primarily systemic agents
+U603z11	[X] Adverse reaction to systemic agent NOS
+U603611	[X] Adverse reaction to enzymes
+U603612	[X] Adverse reaction to enzymes NOS
+U603511	[X] Adverse reaction to acidifying agents
+U603512	[X] Adverse reaction to alkalising agents
+U603411	[X] Adverse reaction to azathioprine
+U603412	[X] Adverse reaction to antilymphocyte immunoglobulin
+U603413	[X] Adverse reaction to ciclosporin
+U603311	[X] Adverse reaction to antineoplastic antibiotics
+U603312	[X] Adverse reaction to actinomycin D
+U603313	[X] Adverse reaction to busulfan
+U603314	[X] Adverse reaction to bleomycin
+U603315	[X] Adverse reaction to carmustine
+U603316	[X] Adverse reaction to chlorambucil
+U603317	[X] Adverse reaction to doxorubicin hydrochloride
+U603318	[X] Adverse reaction to mitomycin
+U603319	[X] Adverse reaction to cyclophosphamide
+U60331A	[X] Adverse reaction to plicamycin
+U60331B	[X] Adverse reaction to estramustine phosphate
+U60331C	[X] Adverse reaction to lomustine
+U60331D	[X] Adverse reaction to antineoplastic antibiotics NOS
+U60331E	[X] Adverse reaction to melphalan
+U60331F	[X] Adverse reaction to mustine hydrochloride
+U60331G	[X] Adverse reaction to thiotepa
+U60331H	[X] Adverse reaction to treosulfan
+U60331I	[X] Adverse reaction to etoposide
+U60331J	[X] Adverse reaction to antineoplastic and immunosuppressive drugs NOS
+U603111	[X] Adverse reaction to cytarabine
+U603112	[X] Adverse reaction to fluorouracil
+U603113	[X] Adverse reaction to mercaptopurine
+U603114	[X] Adverse reaction to methotrexate
+U603115	[X] Adverse reaction to tioguanine
+U603116	[X] Adverse reaction to vinblastine sulphate
+U603117	[X] Adverse reaction to vincristine sulphate
+U603118	[X] Adverse reaction to carboplatin
+U603119	[X] Adverse reaction to cisplatin
+U60311A	[X] Adverse reaction to hydroxyurea
+U60311B	[X] Adverse reaction to mitozantrone
+U60311C	[X] Adverse reaction to procarbazine
+U60311D	[X] Adverse reaction to rozoxane
+U603011	[X] Adverse reaction to antiallergic and antiemetic drugs
+U603012	[X] Adverse reaction to antihistamines
+U603013	[X] Adverse reaction to chlorphenamine
+U603014	[X] Adverse reaction to diphenylpyraline
+U603015	[X] Adverse reaction to metoclopramide
+U603016	[X] Adverse reaction to antiallergic and antiemetic drugs NOS
+U602.11	[X] Adverse reaction to hormones and synthetic substitutes
+U602911	[X] Adverse reaction to hormones and synthetic substances NOS
+U602811	[X] Adverse reaction to anterior pituitary hormones
+U602812	[X] Adverse reaction to corticotropin, ACTH
+U602813	[X] Adverse reaction to chorionic gonadotrophin
+U602814	[X] Adverse reaction to follicle stimulating hormone, FSH
+U602815	[X] Adverse reaction to somatotrophin, growth hormone
+U602816	[X] Adverse reaction to anterior pituitary hormone NOS
+U602817	[X] Adverse reaction to posterior pituitary hormones
+U602818	[X] Adverse reaction to vasopressin
+U602819	[X] Adverse reaction to desmopressin
+U60281A	[X] Adverse reaction to lypressin
+U60281B	[X] Adverse reaction to terlipressin
+U60281C	[X] Adverse reaction to posterior pituitary hormone, NOS
+U602711	[X] Adverse reaction to androgens and anabolic steroids
+U602712	[X] Adverse reaction to mesterolone
+U602713	[X] Adverse reaction to methyltestosterone
+U602714	[X] Adverse reaction to testosterone
+U602715	[X] Adverse reaction to testosterone esters
+U602716	[X] Adverse reaction to nandrolone
+U602717	[X] Adverse reaction to stanozolol
+U602718	[X] Adverse reaction to androgen or anabolic steroid NOS
+U602611	[X] Adverse reaction to tamoxifen
+U602511	[X] Adverse reaction to ovarian hormones + synthetic substitutes
+U602512	[X] Adverse reaction to ethinylestradiol
+U602513	[X] Adverse reaction to estradiol
+U602514	[X] Adverse reaction to estriol
+U602515	[X] Adverse reaction to conjugated oestrogens
+U602516	[X] Adverse reaction to piperazine estrone sulphate
+U602517	[X] Adverse reaction to allyloestrenol
+U602518	[X] Adverse reaction to dydrogesterone
+U602519	[X] Adverse reaction to hydroxyprogesterone hexanoate
+U60251A	[X] Adverse reaction to medroxyprogesterone acetate
+U60251B	[X] Adverse reaction to norethisterone
+U60251C	[X] Adverse reaction to progesterone
+U60251D	[X] Adverse reaction to combined oestrogens and progestogens
+U60251E	[X] Adverse reaction to ovarian hormone/synthetic substitute NOS
+U60251F	[X] Adverse reaction to clomifene
+U602411	[X] Adverse reaction to unspecified oral contraceptive
+U602311	[X] Adverse reaction to insulins and antidiabetic agents
+U602312	[X] Adverse reaction to insulins
+U602313	[X] Adverse reaction to acetohexamide
+U602314	[X] Adverse reaction to chlorpropamide
+U602315	[X] Adverse reaction to glibenclamide
+U602316	[X] Adverse reaction to gliclazide
+U602317	[X] Adverse reaction to glipzide
+U602318	[X] Adverse reaction to gliquidone
+U602319	[X] Adverse reaction to glymidine
+U60231A	[X] Adverse reaction to tolazamide
+U60231B	[X] Adverse reaction to tolbutamide
+U60231C	[X] Adverse reaction to metformin hydrochloride
+U60231D	[X] Adverse reaction to glucagon
+U60231E	[X] Adverse reaction to insulins and antidiabetic agents NOS
+U602211	[X] Adverse reaction to antithyroid agents
+U602212	[X] Adverse reaction to carbimazole
+U602213	[X] Adverse reaction to iodine / iodide
+U602214	[X] Adverse reaction to propylthiouracil
+U602215	[X] Adverse reaction to antithyroid agents NOS
+U602111	[X] Adverse reaction to thyroid and thyroid derivatives
+U602112	[X] Adverse reaction to liothyronine sodium
+U602113	[X] Adverse reaction to levothyroxine sodium
+U602114	[X] Adverse reaction to thyroglobulin
+U602115	[X] Adverse reaction to thyroid and thyroid derivatives NOS
+U602011	[X] Adverse reaction to adrenal cortical steroid
+U602012	[X] Adverse reaction to dexamethasone
+U602013	[X] Adverse reaction to cortisone acetate
+U602014	[X] Adverse reaction to hydrocortisone
+U602015	[X] Adverse reaction to methylprednisolone
+U602016	[X] Adverse reaction to prednisolone
+U602017	[X] Adverse reaction to prednisone
+U602018	[X] Adverse reaction to triamcinolone
+U602019	[X] Adverse reaction to adrenal cortical steroid NOS
+U601800	[X]Leflunomide adverse reaction
+U601700	[X]Hydroxychloroquine adverse reaction
+U601600	[X]Sulfasalazine adverse reaction
+U601z11	[X] Adverse reaction to anti-infective NOS
+U601z12	[X] Adverse reaction to anti-infective substance
+U601y11	[X] Adverse reaction to other anti-infectives
+U601y12	[X] Adverse reaction to arsenical anti-infectives
+U601y13	[X] Adverse reaction to heavy metal anti-infectives
+U601y14	[X] Adverse reaction to antimony compound
+U601y15	[X] Adverse reaction to lead compound
+U601y16	[X] Adverse reaction to mercury compound
+U601y17	[X] Adverse reaction to heavy metal anti-infectives NOS
+U601y18	[X] Adverse reaction to quinolone + hydroxyquinoline derivatives
+U601y19	[X] Adverse reaction to chiniofon
+U601y1A	[X] Adverse reaction to diiodohydroxyquin
+U601y1B	[X] Adverse reaction to quinolone + hydroxyquinoline derivatives NOS
+U601y1C	[X] Adverse reaction to metronidazole
+U601y1D	[X] Adverse reaction to other and unspecified anti-infectives
+U601y1E	[X] Adverse reaction to nalidixic acid
+U601y1F	[X] Adverse reaction to nitrofuantoin
+U601y1G	[X] Adverse reaction to methenamine
+U601y1H	[X] Adverse reaction to flucytosine
+U601y1I	[X] Adverse reaction to trimethoprim
+U601y1J	[X]Nitrofurantoin adverse reaction
+U601511	[X] Adverse reaction to antiviral drugs
+U601512	[X] Adverse reaction to acyclovir
+U601513	[X] Adverse reaction to inosine pranobex
+U601514	[X] Adverse reaction to ribavirin
+U601515	[X] Adverse reaction to vidarabine
+U601516	[X] Adverse reaction to zidovudine
+U601517	[X] Adverse reaction to antiviral drug NOS
+U601518	[X] Adverse reaction to idoxuridine
+U601411	[X] Adverse reaction to antihelminthics
+U601412	[X] Adverse reaction to mebendazole
+U601413	[X] Adverse reaction to piperazine
+U601414	[X] Adverse reaction to pyrantel
+U601415	[X] Adverse reaction to niclosamide
+U601416	[X] Adverse reaction to bephenium
+U601417	[X] Adverse reaction to thiabenazole
+U601418	[X] Adverse reaction to hexylresorcinol
+U601419	[X] Adverse reaction to male fern oleoresin
+U60141A	[X] Adverse reaction to antihelminthic NOS
+U601311	[X] Adverse reaction to other antiprotozoal drugs
+U601312	[X] Adverse reaction to antiprotozoal drug
+U601313	[X] Adverse reaction to emetine
+U601314	[X] Adverse reaction to pentamidine isethionate
+U601315	[X] Adverse reaction to diloxanide furoate
+U601316	[X] Adverse reaction to antiprotozoal drugs NOS
+U601211	[X] Adverse reaction to antimalarials
+U601212	[X] Adverse reaction to chloroquine
+U601213	[X] Adverse reaction to primaquine
+U601214	[X] Adverse reaction to proguanil hydrochloride
+U601215	[X] Adverse reaction to pyrimethamine
+U601216	[X] Adverse reaction to quinine
+U601217	[X] Adverse reaction to cycloguanil
+U601218	[X] Adverse reaction to antimalarials NOS
+U601111	[X] Adverse reaction to antimycobacterial antibiotics
+U601112	[X] Adverse reaction to cycloserine
+U601113	[X] Adverse reaction to pyrazinamide
+U601114	[X] Adverse reaction to rifampicin
+U601115	[X] Adverse reaction to streptomycin
+U601116	[X] Adverse reaction to antimycobacterial antibiotic NOS
+U601117	[X] Adverse reaction to other antimycobacterial drugs
+U601118	[X] Adverse reaction to ethambutol
+U601119	[X] Adverse reaction to ethionamide
+U60111A	[X] Adverse reaction to isoniazid
+U60111B	[X] Adverse reaction to para-aminosalicylic acid
+U60111C	[X] Adverse reaction to dapsone
+U60111D	[X] Adverse reaction to clofazimine
+U60111E	[X] Adverse reaction to antimycobacterial drug NOS
+U601011	[X] Adverse reaction to sulphonamides
+U601012	[X] Adverse reaction to sulphadiazine
+U601013	[X] Adverse reaction to sulphadimidine
+U601014	[X] Adverse reaction to sulphaguanidine
+U601015	[X] Adverse reaction to sulfamethoxazole
+U601016	[X] Adverse reaction to sulphafurazole
+U601017	[X] Adverse reaction to sulphaurea
+U601018	[X] Adverse reaction to sulphonamide NOS
+U600.11	[X] Adverse reaction to antibiotic
+U600800	[X]Teicoplanin adverse reaction
+U600z11	[X] Adverse reaction to antibiotic NOS
+U600y11	[X] Adverse reaction to capreomycin
+U600y12	[X] Adverse reaction to ciprofloxacin
+U600y13	[X] Adverse reaction to other antibiotics
+U600y14	[X] Adverse reaction to clindamycin
+U600y15	[X] Adverse reaction to lincomycin
+U600y16	[X] Adverse reaction to cotrimoxazole
+U600y17	[X] Adverse reaction to other antibiotics NOS
+U600711	[X] Adverse reaction to antifungal antibiotics
+U600712	[X] Adverse reaction to amphotericin
+U600713	[X] Adverse reaction to griseofulvin
+U600714	[X] Adverse reaction to nystatin
+U600715	[X] Adverse reaction to antifungal antibiotics NOS
+U600511	[X] Adverse reaction to gentamicin
+U600512	[X] Adverse reaction to amikacin
+U600513	[X] Adverse reaction to framycetin sulphate
+U600514	[X] Adverse reaction to kanamycin
+U600515	[X] Adverse reaction to colistin
+U600516	[X] Adverse reaction to neomycin sulphate
+U600517	[X] Adverse reaction to sodium fusidate
+U600518	[X] Adverse reaction to tobramycin
+U600519	[X] Adverse reaction to polymyxin B sulphate
+U60051A	[X] Adverse reaction to vancomycin
+U600411	[X] Adverse reaction to tetracycline group
+U600412	[X] Adverse reaction to tetracycline
+U600413	[X] Adverse reaction to chlortetracycline hydrochloride
+U600414	[X] Adverse reaction to clomocycline sodium
+U600415	[X] Adverse reaction to demeclocycline hydrochloride
+U600416	[X] Adverse reaction to doxycycline
+U600417	[X] Adverse reaction to lymecycline
+U600418	[X] Adverse reaction to minocycline
+U600419	[X] Adverse reaction to oxytetracycline
+U60041A	[X] Adverse reaction to tetracycline NOS
+U600311	[X] Adverse reaction to macrolide group
+U600312	[X] Adverse reaction to erythromycin
+U600313	[X] Adverse reaction to oleandomycin
+U600314	[X] Adverse reaction to spiramycin
+U600315	[X] Adverse reaction to macrolide NOS
+U600211	[X] Adverse reaction to chloramphenicol group
+U600212	[X] Adverse reaction to chloramphenicol
+U600213	[X] Adverse reaction to thiamphenicol
+U600214	[X] Adverse reaction to chloramphenicol group NOS
+U600111	[X] Adverse reaction to cephalosporin group
+U600112	[X] Adverse reaction to cefaclor
+U600113	[X] Adverse reaction to cefadroxil
+U600114	[X] Adverse reaction to cefotaxime
+U600115	[X] Adverse reaction to cefoxitin
+U600116	[X] Adverse reaction to cefsulodin sodium
+U600117	[X] Adverse reaction to ceftazidime
+U600118	[X] Adverse reaction to ceftizoxime
+U600119	[X] Adverse reaction to cefalexin
+U60011A	[X] Adverse reaction to cephalothin
+U60011B	[X] Adverse reaction to cephamandole
+U60011C	[X] Adverse reaction to cephazolin
+U60011D	[X] Adverse reaction to cefradine
+U60011E	[X] Adverse reaction to cephalosporin NOS
+U600011	[X] Adverse reaction to penicillins
+U600012	[X] Adverse reaction to natural penicillins
+U600013	[X] Adverse reaction to cloxacillin
+U600014	[X] Adverse reaction to flucloxacillin
+U600015	[X] Adverse reaction to amoxicillin
+U600016	[X] Adverse reaction to ampicillin
+U600017	[X] Adverse reaction to bacampicillin
+U600018	[X] Adverse reaction to ciclacillin
+U600019	[X] Adverse reaction to mezlocillin
+U60001A	[X] Adverse reaction to pivampicillin
+U60001B	[X] Adverse reaction to talampicillin
+U60001C	[X] Adverse reaction to azlocillin
+U60001D	[X] Adverse reaction to carbenicillin
+U60001E	[X] Adverse reaction to carfecillin sodium
+U60001F	[X] Adverse reaction to piperacillin
+U60001G	[X] Adverse reaction to ticarcillin
+U60001H	[X] Adverse reaction to mecillinam
+U60001I	[X] Adverse reaction to pivmecillinam
+U60001J	[X] Adverse reaction to penicillin NOS
+1Z3..00	Adverse reaction to drug
+1Z34.00	Anticoagulant adverse reaction
+1Z34100	Rivaroxaban adverse reaction
+1Z34000	Apixaban adverse reaction
+1Z33.00	Ticagrelor adverse reaction
+1Z32.00	Prasugrel adverse reaction
+1Z31.00	Aliskiren adverse reaction
+1Z30.00	Phosphodiesterase-5 inhibitor adverse reaction
+9G4..00	Adverse drug reaction notif
+SN52.11	Adverse drug reaction NOS

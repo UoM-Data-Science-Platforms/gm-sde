@@ -1,0 +1,23 @@
+﻿433144002	CKD stage 3
+700378005	Chronic kidney disease stage 3A (disorder)
+700379002	Chronic kidney disease stage 3B (disorder)
+140121000119100	Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus
+731000119105	Chronic kidney disease stage 3 due to type II diabetes mellitus
+129171000119106	Chronic kidney disease stage 3 due to hypertension (disorder)
+324281000000104	Chronic kidney disease stage 3 without proteinuria
+324251000000105	Chronic kidney disease stage 3 with proteinuria
+285871000119106	Malignant hypertensive chronic kidney disease stage 3 (disorder)
+96731000119100	Hypertensive heart AND chronic kidney disease stage 3 (disorder)
+90741000119107	Chronic kidney disease stage 3 due to type I diabetes mellitus
+284991000119104	Chronic kidney disease stage 3 due to benign hypertension
+691421000119108	Anemia co-occurrent and due to chronic kidney disease stage 3
+324311000000101	Chronic kidney disease stage 3A with proteinuria
+324341000000100	Chronic kidney disease stage 3A without proteinuria
+324371000000106	Chronic kidney disease stage 3B with proteinuria
+324411000000105	Chronic kidney disease stage 3B without proteinuria
+949881000000106	CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1
+949901000000109	Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2
+949921000000100	Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3
+950061000000103	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1
+950081000000107	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2
+950101000000101	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3

@@ -1,0 +1,31 @@
+d4r1.	OLANZAPINE 5mg tablets
+d4r2.	OLANZAPINE 7.5mg tablets
+d4r3.	OLANZAPINE 10mg tablets
+d4r4.	ZYPREXA 5mg tablets
+d4r5.	ZYPREXA 7.5mg tablets
+d4r6.	ZYPREXA 10mg tablets
+d4r7.	OLANZAPINE 2.5mg tablets
+d4r8.	ZYPREXA 2.5mg tablets
+d4r9.	ZYPREXA VELOTAB 5mg dispersible tablets
+d4rA.	ZYPREXA VELOTAB 10mg dispersible tablets
+d4rB.	ZYPREXA 15mg tablets
+d4rC.	ZYPREXA VELOTAB 15mg dispersible tablets
+d4rD.	ZYPREXA 10mg injection (pdr for recon)
+d4rE.	ZYPREXA VELOTAB 20mg dispersible tablets
+d4rF.	ZYPREXA 20mg tablets
+d4rG.	ZALASTA 2.5mg tablets
+d4rH.	ZALASTA 5mg tablets
+d4rI.	ZALASTA 7.5mg tablets
+d4rJ.	ZALASTA 15mg tablets
+d4rK.	ZALASTA 20mg tablets
+d4rL.	ZALASTA 5mg dispersible tablets
+d4rM.	ZALASTA 10mg dispersible tablets
+d4rN.	ZALASTA 15mg dispersible tablets
+d4rO.	ZALASTA 20mg dispersible tablets
+d4rP.	ZALASTA 10mg tablets
+d4ru.	OLANZAPINE 20mg dispersible tablets
+d4rv.	OLANZAPINE 10mg injection (pdr for recon)
+d4rw.	OLANZAPINE 15mg dispersible tablets
+d4rx.	OLANZAPINE 15mg tablets
+d4ry.	OLANZAPINE 5mg dispersible tablets
+d4rz.	OLANZAPINE 10mg dispersible tablets

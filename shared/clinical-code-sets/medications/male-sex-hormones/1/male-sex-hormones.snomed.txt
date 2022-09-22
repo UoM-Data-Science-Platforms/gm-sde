@@ -1,0 +1,137 @@
+35916711000001105	Testosterone 5mg/24hours transdermal patches
+3704411000001108	Testosterone 5mg/24hours transdermal patches
+20171811000001106	Testosterone 5mg/24hours transdermal patches
+3704711000001102	Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)
+3704911000001100	Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)
+20171911000001101	Testosterone 5mg/24hours transdermal patches (Special Order)
+20172011000001108	Testosterone 5mg/24hours transdermal patches (Special Order)
+20172111000001109	Androderm 5mg/24hours transdermal patches (Imported (United States))
+20172211000001103	Androderm 5mg/24hours transdermal patches (Imported (United States))
+35916611000001101	Testosterone 2.5mg/24hours transdermal patches
+3706211000001104	Testosterone 2.5mg/24hours transdermal patches
+32619811000001106	Testosterone 2.5mg/24hours transdermal patches
+3706511000001101	Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)
+3706711000001106	Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)
+32620011000001104	Testosterone 2.5mg/24hours transdermal patches (Special Order)
+32620111000001103	Testosterone 2.5mg/24hours transdermal patches (Special Order)
+347317004	Testosterone 100mg implant
+3710911000001108	Testosterone 100mg implant
+3711111000001104	Testosterone 100mg implant (Organon Pharma (UK) Ltd)
+3711211000001105	Testosterone 100mg implant (Organon Pharma (UK) Ltd)
+3711311000001102	Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)
+3711411000001109	Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)
+10138311000001107	Testosterone 100mg implant (A A H Pharmaceuticals Ltd)
+10138411000001100	Testosterone 100mg implant (A A H Pharmaceuticals Ltd)
+32845411000001107	Testosterone 100mg implant (Special Order)
+32845511000001106	Testosterone 100mg implant (Special Order)
+347318009	Testosterone 200mg implant
+4120911000001106	Testosterone 200mg implant
+4121211000001108	Testosterone 200mg implant (Organon Pharma (UK) Ltd)
+4121411000001107	Testosterone 200mg implant (Organon Pharma (UK) Ltd)
+4121811000001109	Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)
+4122011000001106	Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)
+10138511000001101	Testosterone 200mg implant (A A H Pharmaceuticals Ltd)
+10138611000001102	Testosterone 200mg implant (A A H Pharmaceuticals Ltd)
+27755711000001103	Testosterone 200mg implant (Special Order)
+27755811000001106	Testosterone 200mg implant (Special Order)
+35916811000001102	Testosterone 6mg/24hours transdermal patches
+4550011000001100	Testosterone 6mg/24hours transdermal patches
+4550111000001104	Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)
+4550211000001105	Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)
+9478711000001105	Testosterone 50mg/5g gel unit dose sachets
+4607611000001108	Testosterone 50mg/5g gel unit dose sachets
+4607811000001107	Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)
+4608011000001100	Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)
+7503511000001104	Testosterone 30mg modified-release muco-adhesive buccal tablets
+7499711000001104	Testosterone 30mg modified-release muco-adhesive buccal tablets
+7499811000001107	Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)
+7499911000001102	Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)
+9186611000001108	Testosterone 50mg/5g gel unit dose tube
+9181411000001104	Testosterone 50mg/5g gel unit dose tube
+9181511000001100	Testim 50mg/5g gel (Endo Ventures Ltd)
+9181611000001101	Testim 50mg/5g gel (Endo Ventures Ltd)
+11391011000001107	Testosterone 300micrograms/24hours transdermal patches
+11391211000001102	Testosterone 300micrograms/24hours transdermal patches
+11391311000001105	Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)
+11391411000001103	Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)
+11564011000001106	Testosterone 2% gel (10mg per actuation)
+11558311000001108	Testosterone 2% gel (10mg per actuation)
+11558411000001101	Testosterone 2% gel (10mg per actuation)
+11558511000001102	Tostran 2% gel (Kyowa Kirin Ltd)
+11558611000001103	Tostran 2% gel (Kyowa Kirin Ltd)
+11558711000001107	Tostran 2% gel (Kyowa Kirin Ltd)
+14410511000001109	Testosterone 1% ointment
+14361111000001101	Testosterone 1% ointment
+20976211000001104	Testosterone 1% ointment
+20976311000001107	Testosterone 1% ointment
+14361211000001107	Testosterone 1% ointment (Special Order)
+14362211000001100	Testosterone 1% ointment (Special Order)
+20976411000001100	Testosterone 1% ointment (Special Order)
+20976511000001101	Testosterone 1% ointment (Special Order)
+22155111000001109	Testosterone 2.4mg/24hours transdermal patches
+22096711000001104	Testosterone 2.4mg/24hours transdermal patches
+27749311000001103	Testosterone 2.4mg/24hours transdermal patches
+22096811000001107	Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))
+22096911000001102	Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))
+27749411000001105	Testosterone 2.4mg/24hours transdermal patches (Special Order)
+27749511000001109	Testosterone 2.4mg/24hours transdermal patches (Special Order)
+35025711000001101	Testosterone 16.2mg/g gel (20.25mg per actuation)
+35020211000001104	Testosterone 16.2mg/g gel (20.25mg per actuation)
+35020311000001107	Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)
+35020411000001100	Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)
+35824911000001104	Testosterone 20mg/g transdermal gel (23mg per actuation)
+35822511000001101	Testosterone 20mg/g transdermal gel (23mg per actuation)
+35822611000001102	Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)
+35822711000001106	Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)
+35916911000001107	Testosterone enantate 250mg/1ml solution for injection ampoules
+3713411000001108	Testosterone enantate 250mg/1ml solution for injection ampoules
+3713511000001107	Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3713611000001106	Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3713811000001105	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+3714011000001102	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+3714211000001107	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3714511000001105	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+39902411000001109	Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+39902511000001108	Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+3586711000001108	Generic Sustanon 250mg/1ml solution for injection ampoules
+977911000001104	Generic Sustanon 250mg/1ml solution for injection ampoules
+14801611000001108	Generic Sustanon 250mg/1ml solution for injection ampoules
+891111000001106	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+2692311000001107	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+14801711000001104	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+3861511000001106	Generic Sustanon 100 solution for injection 1ml ampoules
+3833611000001102	Generic Sustanon 100 solution for injection 1ml ampoules
+3833911000001108	Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)
+3834111000001107	Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)
+35917011000001106	Testosterone propionate 100mg/2ml solution for injection ampoules
+4118611000001108	Testosterone propionate 100mg/2ml solution for injection ampoules
+27982511000001104	Testosterone propionate 100mg/2ml solution for injection ampoules
+4118711000001104	Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+4118811000001107	Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+27982611000001100	Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)
+27982711000001109	Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)
+15243811000001104	Testosterone propionate 1% cream
+15242211000001106	Testosterone propionate 1% cream
+20160111000001102	Testosterone propionate 1% cream
+15242311000001103	Testosterone propionate 1% cream (Special Order)
+15242411000001105	Testosterone propionate 1% cream (Special Order)
+20160211000001108	Testosterone propionate 1% cream (Special Order)
+325718002	Testosterone 40mg capsules
+1208711000001109	Testosterone 40mg capsules
+1092111000001100	Testosterone 40mg capsules
+5406411000001102	Testosterone 40mg capsules
+13326611000001107	Testosterone 40mg capsules
+387711000001102	Restandol 40mg capsules (Organon Laboratories Ltd)
+2364111000001106	Restandol 40mg capsules (Organon Laboratories Ltd)
+2364211000001100	Restandol 40mg capsules (Organon Laboratories Ltd)
+13326711000001103	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)
+13326911000001101	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)
+13326811000001106	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)
+35917111000001107	Testosterone undecanoate 1g/4ml solution for injection ampoules
+8785611000001107	Testosterone undecanoate 1g/4ml solution for injection ampoules
+8786711000001106	Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)
+8786811000001103	Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)
+23108811000001105	Testosterone undecanoate 1g/4ml solution for injection vials
+22974411000001101	Testosterone undecanoate 1g/4ml solution for injection vials
+22974311000001108	Nebido 1000mg/4ml solution for injection vials (Bayer Plc)
+22974611000001103	Nebido 1000mg/4ml solution for injection vials (Bayer Plc)

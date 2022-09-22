@@ -1,0 +1,32 @@
+^ESCT1259829	Linagliptin 5mg tablets 30 tablet
+^ESCT1265478	Empagliflozin 10mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265479	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265480	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCT1265481	Empagliflozin 25mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265482	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265483	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCT1265954	Empagliflozin 10mg / Linagliptin 5mg tablets
+^ESCT1265956	Empagliflozin 25mg / Linagliptin 5mg tablets
+^ESCT1275269	Linagliptin 2.5mg / Metformin 1g tablets 60 tablet
+^ESCTJE1036265	Jentadueto 2.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJE1036266	Jentadueto 2.5mg/850mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTJE1036268	Jentadueto 2.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJE1036269	Jentadueto 2.5mg/1000mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTLI1020562	Linagliptin 5mg tablets 28 tablet
+^ESCTLI1020806	Linagliptin 5mg tablets
+^ESCTLI1036264	Linagliptin 2.5mg / Metformin 850mg tablets 56 tablet
+^ESCTLI1036267	Linagliptin 2.5mg / Metformin 1g tablets 56 tablet
+^ESCTLI1036594	Linagliptin 2.5mg / Metformin 1g tablets
+^ESCTLI1036595	Linagliptin 2.5mg / Metformin 850mg tablets
+^ESCTTR1020563	Trajenta 5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTTR1020564	Trajenta 5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+EMTA133082NEMIS	Empagliflozin And Linagliptin  Tablets  10 mg + 5 mg
+EMTA133083NEMIS	Empagliflozin And Linagliptin  Tablets  25 mg + 5 mg
+GLTA133085NEMIS	Glyxambi  Tablets  10 mg + 5 mg
+GLTA133086NEMIS	Glyxambi  Tablets  25 mg + 5 mg
+JETA76746NEMIS	Jentadueto  Tablets  2.5 mg + 1000 mg
+JETA76747NEMIS	Jentadueto  Tablets  2.5 mg + 850 mg
+LITA51797NEMIS	Linagliptin  Tablets  5 mg
+META76743NEMIS	Metformin And Linagliptin  Tablets  1000 mg + 2.5 mg
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+TRTA51800NEMIS	Trajenta  Tablets  5 mg

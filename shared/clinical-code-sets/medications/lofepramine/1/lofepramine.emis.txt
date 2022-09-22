@@ -1,0 +1,145 @@
+^ESCT1179611	Lofepramine 70mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1185722	Lofepramine 70mg tablets (Mylan) 250 tablet
+^ESCT1189490	Lofepramine 70mg tablets (Mylan)
+^ESCT1196076	Lofepramine 70mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1196508	Lofepramine 70mg tablets (Accord Healthcare Ltd)
+^ESCT1198801	Lofepramine 70mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1198928	Lofepramine 70mg tablets (Actavis UK Ltd)
+^ESCT1199536	Lofepramine 70mg tablets (Accord Healthcare Ltd)
+^ESCT1199537	Lofepramine 70mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1215498	Lofepramine 70mg/5ml oral suspension sugar free
+^ESCT1278933	Lofepramine 70mg tablets (Zentiva)
+^ESCT1278934	Lofepramine 70mg tablets (Zentiva) 56 tablet
+^ESCT1300345	Lofepramine 70mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1300346	Lofepramine 70mg tablets (NorthStar Healthcare Unlimited Company) 56 tablet 4 x 14 tablets
+^ESCT1402126	Lofepramine 70mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402127	Lofepramine 70mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1422700	Lofepramine 70mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422701	Lofepramine 70mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1424835	Lofepramine 70mg tablets
+^ESCT1425849	Lofepramine 70mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426385	Lofepramine 70mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1429325	Lofepramine 70mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1429327	Lofepramine 70mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCTFE821268	Feprapax 70mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTFE855446	Feprapax 70mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA803015	Gamanil 70mg tablets (Merck Serono Ltd)
+^ESCTGA855457	Gamanil 70mg tablets (Merck Serono Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA855459	Gamanil 70mg tablets (Merck Serono Ltd) 250 tablet
+^ESCTLO1006090	Lofepramine 70mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1006091	Lofepramine 70mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLO1006413	Lofepramine 70mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1006415	Lofepramine 70mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTLO1044162	Lofepramine 70mg tablets (Waymade Healthcare Plc)
+^ESCTLO1044163	Lofepramine 70mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLO1065684	Lofepramine 70mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTLO1065685	Lofepramine 70mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCTLO1065686	Lofepramine 70mg tablets (DE Pharmaceuticals)
+^ESCTLO1065687	Lofepramine 70mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLO1089347	Lofepramine 70mg/5ml oral suspension sugar free (Ennogen Healthcare Ltd)
+^ESCTLO1089348	Lofepramine 70mg/5ml oral suspension sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTLO1103982	Lofepramine 70mg/5ml oral suspension sugar free (J M McGill Ltd)
+^ESCTLO1103983	Lofepramine 70mg/5ml oral suspension sugar free (J M McGill Ltd) 150 ml
+^ESCTLO1107742	Lofepramine 70mg/5ml oral suspension sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTLO1107743	Lofepramine 70mg/5ml oral suspension sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTLO1117657	Lofepramine 70mg/5ml oral suspension sugar free (Niche Pharma Ltd)
+^ESCTLO1117658	Lofepramine 70mg/5ml oral suspension sugar free (Niche Pharma Ltd) 150 ml
+^ESCTLO1118001	Lofepramine 70mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118002	Lofepramine 70mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLO1120951	Lofepramine 70mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1120952	Lofepramine 70mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLO1121471	Lofepramine 70mg tablets (Creo Pharma Ltd)
+^ESCTLO1121472	Lofepramine 70mg tablets (Creo Pharma Ltd) 56 tablet
+^ESCTLO1145150	Lofepramine 70mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTLO1145151	Lofepramine 70mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTLO1152592	Lofepramine 70mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLO1152593	Lofepramine 70mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTLO803585	Lofepramine 70mg tablets (Teva UK Ltd)
+^ESCTLO812138	Lofepramine 70mg tablets (Sterwin Medicines)
+^ESCTLO818754	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO819981	Lofepramine 70mg tablets (Actavis UK Ltd)
+^ESCTLO820900	Lofepramine 70mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO821171	Lofepramine 70mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLO822113	Lofepramine 70mg tablets (Mylan Ltd)
+^ESCTLO825464	Lofepramine 70mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO846959	Lofepramine 70mg tablets 250 tablet
+^ESCTLO848370	Lofepramine 70mg tablets 56 tablet
+^ESCTLO855441	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855442	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTLO855443	Lofepramine 70mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855444	Lofepramine 70mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855448	Lofepramine 70mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855450	Lofepramine 70mg tablets (Mylan Ltd) 250 tablet
+^ESCTLO855452	Lofepramine 70mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855454	Lofepramine 70mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855460	Lofepramine 70mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTLO855462	Lofepramine 70mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO866945	Lofepramine 70mg/5ml oral suspension sugar free 150 ml
+^ESCTLO866946	Lomont 70mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd)
+^ESCTLO866947	Lomont 70mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTLO866948	Lofepramine 70mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO866949	Lofepramine 70mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTLO897869	Lofepramine 70mg tablets (Sandoz Ltd)
+^ESCTLO897870	Lofepramine 70mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO953299	Lofepramine 140mg/5ml oral suspension 1 ml
+^ESCTLO953317	Lofepramine 140mg/5ml oral solution 1 ml
+^ESCTLO953323	Lofepramine 140mg/5ml oral solution (Special Order)
+^ESCTLO953327	Lofepramine 140mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953337	Lofepramine 23mg/5ml oral suspension 1 ml
+^ESCTLO953341	Lofepramine 23mg/5ml oral suspension (Special Order)
+^ESCTLO953343	Lofepramine 23mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953349	Lofepramine 23mg/5ml oral solution 1 ml
+^ESCTLO953353	Lofepramine 23mg/5ml oral solution (Special Order)
+^ESCTLO953357	Lofepramine 23mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953367	Lofepramine 35mg/5ml oral suspension 1 ml
+^ESCTLO953369	Lofepramine 35mg/5ml oral suspension (Special Order)
+^ESCTLO953375	Lofepramine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953381	Lofepramine 35mg/5ml oral solution 1 ml
+^ESCTLO953387	Lofepramine 35mg/5ml oral solution (Special Order)
+^ESCTLO953390	Lofepramine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953473	Lofepramine 140mg/5ml oral suspension (Special Order)
+^ESCTLO953475	Lofepramine 140mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953749	Lofepramine 140mg/5ml oral solution
+^ESCTLO953751	Lofepramine 140mg/5ml oral suspension
+^ESCTLO953753	Lofepramine 23mg/5ml oral solution
+^ESCTLO953755	Lofepramine 23mg/5ml oral suspension
+^ESCTLO953757	Lofepramine 35mg/5ml oral solution
+^ESCTLO953759	Lofepramine 35mg/5ml oral suspension
+^ESCTLO954483	Lofepramine 5mg/5ml oral suspension 1 ml
+^ESCTLO954491	Lofepramine 5mg/5ml oral suspension (Special Order)
+^ESCTLO954493	Lofepramine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954495	Lofepramine 5mg/5ml oral solution 1 ml
+^ESCTLO954497	Lofepramine 5mg/5ml oral solution (Special Order)
+^ESCTLO954499	Lofepramine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954501	Lofepramine 70mg/5ml oral suspension 1 ml
+^ESCTLO954503	Lofepramine 70mg/5ml oral suspension (Special Order)
+^ESCTLO954507	Lofepramine 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954515	Lofepramine 70mg/5ml oral solution 1 ml
+^ESCTLO954519	Lofepramine 70mg/5ml oral solution (Special Order)
+^ESCTLO954523	Lofepramine 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954764	Lofepramine 5mg/5ml oral solution
+^ESCTLO954766	Lofepramine 5mg/5ml oral suspension
+^ESCTLO954768	Lofepramine 70mg/5ml oral solution
+^ESCTLO954770	Lofepramine 70mg/5ml oral suspension
+^ESCTLO962165	Lofepramine 70mg tablets (Arrow Generics Ltd)
+^ESCTLO962166	Lofepramine 70mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLO962167	Lofepramine 70mg tablets (Arrow Generics Ltd) 250 tablet
+^ESCTLO965973	Lofepramine 70mg tablets (Merck Serono Ltd)
+^ESCTLO965974	Lofepramine 70mg tablets (Merck Serono Ltd) 56 tablet 4 x 14 tablets
+FETA5656NEMIS	Feprapax  Tablets  70 mg
+GATA1273	Gamanil  Tablets  70 mg
+LOOR46778NEMIS	Lofepramine  Oral solution  70 mg/5 ml
+LOOR46779NEMIS	Lofepramine  Oral suspension  70 mg/5 ml
+LOSU30214EMIS	Lofepramine  Suspension  Sugar Free 70 mg/5 ml
+LOSU35810MGEMIS	Lofepramine  Suspension  Sugar Free 70 mg/5 ml (Unichem)
+LOSU3814NEMIS	Lomont  Suspension  70 mg/5 ml
+LOTA1684	Lofepramine  Tablets  70 mg
+LOTA35818MGEMIS	Lofepramine  Tablets  70 mg (Teva UK)
+LOTA35819MGEMIS	Lofepramine  Tablets  70 mg (Sterwin Medicines)
+LOTA35820MGEMIS	Lofepramine  Tablets  70 mg (A.A.H. Pharm)
+LOTA35821MGEMIS	Lofepramine  Tablets  70 mg (Alpharma)
+LOTA35822MGEMIS	Lofepramine  Tablets  70 mg (Unichem)
+LOTA35823MGEMIS	Lofepramine  Tablets  70 mg (Ivax Pharmaceuticals)
+LOTA35824MGEMIS	Lofepramine  Tablets  70 mg (Generics (UK))
+LOTA35825MGEMIS	Lofepramine  Tablets  70 mg (Kent Pharm)
+LOTA35826MGEMIS	Lofepramine  Tablets  70 mg (Sandoz)

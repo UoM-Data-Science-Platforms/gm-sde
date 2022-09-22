@@ -1,0 +1,6 @@
+﻿XaLHG	Chronic kidney disease stage 1
+Xac9y	CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1
+Xac9z	CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2
+XacA2	CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3
+XaO3p	Chronic kidney disease stage 1 with proteinuria
+XaO3q	Chronic kidney disease stage 1 without proteinuria

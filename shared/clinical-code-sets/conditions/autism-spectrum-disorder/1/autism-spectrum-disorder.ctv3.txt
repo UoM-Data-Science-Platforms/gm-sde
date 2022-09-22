@@ -1,0 +1,7 @@
+XE2v2	Infantile autism
+E140z	Infantile autism NOS
+E1401	Residual infantile autism
+E1400	Active infantile autism
+XaIuT	Suspected autism
+XabEY	Under care of autism assessment service
+XabEa	Referred by autism assessment service

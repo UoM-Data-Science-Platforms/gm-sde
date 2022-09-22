@@ -58,3 +58,4 @@ Nyu1000	[X]Rheumatoid arthritis with involvement of other organs or systems
 Nyu1100	[X]Other seropositive rheumatoid arthritis
 Nyu1200	[X]Other specified rheumatoid arthritis
 Nyu1G00	[X]Seropositive rheumatoid arthritis, unspecified
+N0420	Rheumatic carditis

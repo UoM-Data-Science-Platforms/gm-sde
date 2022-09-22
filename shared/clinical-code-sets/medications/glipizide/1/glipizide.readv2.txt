@@ -1,0 +1,5 @@
+f361.	GLIPIZIDE 5mg tablets
+f362.	*GLIBENESE 5mg tablets
+f363.	*MINODIAB 2.5mg tablets
+f364.	MINODIAB 5mg tablets
+f36z.	GLIPIZIDE 2.5mg tablets

@@ -1,0 +1,5 @@
+44G4.	Gamma-glutamyl transferase level
+XaES3	Serum gamma-glutamyl transferase level
+XaES4	Plasma gamma-glutamyl transferase level
+X80E1	Gamma-glutamyl transferase
+XE28U	Gammaglutamyl transferase (& level)

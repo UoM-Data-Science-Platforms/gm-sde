@@ -1,0 +1,23 @@
+d1d..	Zopiclone
+d1d3.	Zopiclone 3.75mg tablet
+d1d6.	Zileze 3.75 tablet
+d1d4.	Zimovane LS 3.75mg tablet
+d1d1.	Zopiclone 7.5mg tablet
+d1d5.	Zileze 7.5 tablet
+d1d2.	Zimovane 7.5mg tablet
+d1f..	Zolpidem
+d1f3.	Zolpidem tartrate 10mg tablet
+d1f4.	Stilnoct 10mg tablet
+d1f2.	Zolpidem tartrate 5mg tablet
+d1f1.	Stilnoct 5mg tablet
+d1g..	Zaleplon
+d1gz.	Zaleplon 10mg capsule
+d1g2.	Sonata 10mg capsule
+d1gy.	Zaleplon 5mg capsule
+d1g1.	Sonata 5mg capsule
+x03ha	Zimovane LS
+x02v0	Zimovane
+x04bF	Zileze 7.5
+x04bE	Zileze 3.75
+x056Q	Sonata
+x02ra	Stilnoct

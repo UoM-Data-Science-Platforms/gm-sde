@@ -1,0 +1,481 @@
+dicO.00	TRAMACET 325mg/37.5mg tablets
+dicx.00	PARACETAMOL+TRAMADOL HCL 325mg/37.5mg effervescent tablets
+dicY.00	TRAMACET 325mg/37.5mg effervescent tablets
+dicz.00	PARACETAMOL+TRAMADOL HYDROCHLORIDE 325mg/37.5mg tablets
+dj19.00	MORPHINE SULFATE 15mg suppositories
+dj1a.00	MORPHINE SULFATE 30mg suppositories
+dj1D.00	MORPHINE SULFATE 10mg suppositories
+dj1E.00	MORPHINE SULFATE 20mg suppositories
+dj1f.00	MST CONTINUS 10mg m/r tablets
+dj1g.00	MST CONTINUS 30mg m/r tablets
+dj1G.00	MORPHINE SULPHATE 10mg/5mL oral unit dose vial
+dj1h.00	MST CONTINUS 60mg m/r tablets
+dj1H.00	ORAMORPH 30mg/5mL oral unit dose vial
+dj1i.00	MST CONTINUS 100mg m/r tablets
+dj1I.00	MORPHINE SULPHATE 30mg/5mL oral unit dose vial
+dj1J.00	ORAMORPH 100mg/5mL oral unit dose vial
+dj1K.00	MORPHINE SULPHATE 100mg/5mL oral unit dose vial
+dj1L.00	MORPHINE SULFATE 10mg/5mL oral solution
+dj1M.00	MORPHINE SULFATE 100mg/5mL oral solution
+dj1N.00	MST CONTINUS 20mg/sachet suspension
+dj1P.00	MST CONTINUS 30mg/sachet suspension
+dj1r.00	SEVREDOL 10mg tablets
+dj1s.00	SEVREDOL 20mg tablets
+dj1S.00	MORPHINE HCL 15mg suppositories
+dj1t.00	MST CONTINUS 200mg m/r tablets
+dj1V.00	MORPHINE SULFATE powder
+dj1W.00	MST CONTINUS 60mg/sachet suspension
+dj1X.00	MST CONTINUS 100mg/sachet suspension
+dj1y.00	MST CONTINUS 5mg m/r tablets
+dj1Y.00	MST CONTINUS 200mg/sachet suspension
+dj1z.00	MST CONTINUS 15mg m/r tablets
+dj25.00	*MORPHINE + COCAINE elixir
+dj31.00	TEMGESIC 200microgram sublingual tablets
+dj32.00	TEMGESIC 300micrograms/1mL injection
+dj34.00	TEMGESIC 400microgram sublingual tablets
+dj35.00	BUPRENORPHINE 400microgram sublingual tablets
+dj39.00	TRANSTEC 35micrograms/hour patches
+dj3a.00	TRANSTEC 52.5micrograms/hour patches
+dj3A.00	BUTRANS 5micrograms/hour patches
+dj3b.00	TRANSTEC 70micrograms/hour patches
+dj3B.00	BUTRANS 10micrograms/hour patches
+dj3C.00	BUTRANS 20micrograms/hour patches
+dj3f.00	TEPHINE 200micrograms sublingual tablets
+dj3g.00	TEPHINE 400micrograms sublingual tablets
+dj3H.00	HAPOCTASIN 70micrograms/hour patches
+dj3I.00	HAPOCTASIN 52.5micrograms/hour patches
+dj3J.00	HAPOCTASIN 35micrograms/hour patches
+dj3o.00	BUPRENORPHINE 5micrograms/hour patches
+dj3p.00	BUPRENORPHINE 10micrograms/hour patches
+dj3q.00	BUPRENORPHINE 20micrograms/hour patches
+dj3r.00	BUPRENORPHINE 70micrograms/hour patches
+dj3s.00	BUPRENORPHINE 52.5micrograms/hour patches
+dj3t.00	BUPRENORPHINE 35micrograms/hour patches
+dj3x.00	BUPRENORPHINE 200microgram sublingual tablets
+dj3y.00	BUPRENORPHINE 300microgram/1mL injection
+dj41.00	CODEINE PHOSPHATE 15mg tablets
+dj42.00	CODEINE PHOSPHATE 30mg tablets
+dj43.00	CODEINE PHOSPHATE 60mg tablets
+dj44.00	CODEINE PHOSPHATE 25mg/5mL syrup
+dj45.00	CODEINE PHOSPHATE 60mg/1mL injection
+dj51.00	*PALFIUM 5mg tablets
+dj52.00	*PALFIUM 10mg tablets
+dj56.00	*DEXTROMORAMIDE 5mg tablets
+dj57.00	*DEXTROMORAMIDE 10mg tablets
+dj61.00	DEXTROPROPOXYPHENE 65mg capsules
+dj71.00	DIAMORPHINE 10mg tablets
+dj72.00	DIAMORPHINE 5mg injection
+dj73.00	DIAMORPHINE 10mg injection
+dj74.00	DIAMORPHINE 30mg injection
+dj75.00	DIAMORPHINE 100mg injection
+dj76.00	DIAMORPHINE 500mg injection
+dj81.00	DIHYDROCODEINE 30mg tablets
+dj82.00	DIHYDROCODEINE 10mg/5mL elixir
+dj83.00	DIHYDROCODEINE 50mg/1mL injection
+dj87.00	DHC CONTINUS 60mg m/r tablets
+dj88.00	DIHYDROCODEINE 60mg m/r tablets
+dj89.00	DHC CONTINUS 90mg m/r tablets
+dj8a.00	DHC CONTINUS 120mg m/r tablets
+dj8b.00	DIHYDROCODEINE 90mg m/r tablets
+dj8c.00	DIHYDROCODEINE 120mg m/r tablets
+dj8d.00	DF118 FORTE 40mg tablets
+dj8e.00	DIHYDROCODEINE TARTRATE 40mg tablets
+dj91.00	*DICONAL tablets
+dj92.00	DIPIPANONE HCL+CYCLIZINE HCL 10mg/30mg tablets
+djA1.00	MABRON 100mg m/r tablets
+djA2.00	MABRON 150mg m/r tablets
+djA3.00	MABRON 200mg m/r tablets
+djA4.00	ZERIDAME SR 100mg m/r tablets
+djA5.00	ZERIDAME SR 150mg m/r tablets
+djA6.00	ZERIDAME SR 200mg m/r tablets
+djA7.00	NOBLIGAN RETARD 100mg m/r tablets
+djAb.00	MAXITRAM SR 50mg m/r capsules
+djAc.00	MAXITRAM SR 100mg m/r capsules
+djAd.00	MAXITRAM SR 150mg m/r capsules
+djAe.00	MAXITRAM SR 200mg m/r capsules
+djAf.00	MAROL 100mg m/r tablets
+djAg.00	MAROL 150mg m/r tablets
+djAh.00	MAROL 200mg m/r tablets
+djAp.00	MANEO 100mg m/r tablets
+djAq.00	MANEO 150mg m/r tablets
+djAr.00	MANEO 200mg m/r tablets
+djB1.00	PALEXIA SR 50mg m/r tablets
+djB2.00	PALEXIA SR 100mg m/r tablets
+djB3.00	PALEXIA SR 150mg m/r tablets
+djB4.00	PALEXIA SR 200mg m/r tablets
+djB5.00	PALEXIA SR 250mg m/r tablets
+djB6.00	PALEXIA 50mg tablets
+djB7.00	PALEXIA 75mg tablets
+djB8.00	PALEXIA 20mg/mL oral solution
+djBS.00	TAPENTADOL 20mg/mL oral solution
+djBT.00	TAPENTADOL 75mg tablets
+djBU.00	TAPENTADOL 50mg tablets
+djBV.00	TAPENTADOL 250mg m/r tablets
+djBW.00	TAPENTADOL 200mg m/r tablets
+djBX.00	TAPENTADOL 150mg m/r tablets
+djBY.00	TAPENTADOL 100mg m/r tablets
+djBZ.00	TAPENTADOL 50mg m/r tablets
+djc1.00	PHYSEPTONE 5mg tablets
+djc2.00	PHYSEPTONE 10mg/1mL injection
+djcG.00	PHYSEPTONE 20mg/2mL injection
+djcH.00	PHYSEPTONE 35mg/3.5mL injection
+djcJ.00	PHYSEPTONE 50mg/5mL injection
+djcM.00	SYNASTONE 10mg/1mL injection
+djcP.00	SYNASTONE 50mg/5mL injection
+djcQ.00	SYNASTONE 50mg/2mL injection
+djcR.00	SYNASTONE 50mg/1mL injection
+djct.00	METHADONE HYDROCHLORIDE 50mg/2mL injection
+djcu.00	METHADONE HYDROCHLORIDE 50mg/1mL injection
+djcv.00	METHADONE HYDROCHLORIDE 20mg/2mL injection
+djcw.00	METHADONE HYDROCHLORIDE 35mg/3.5mL injection
+djcx.00	METHADONE HYDROCHLORIDE 50mg/5mL injection
+djcy.00	METHADONE HYDROCHLORIDE 5mg tablets
+djcz.00	METHADONE HYDROCHLORIDE 10mg/1mL injection
+djd3.00	*NALBUPHINE 10mg/1mL injection
+djdz.00	*NALBUPHINE 20mg/2mL injection
+djf1.00	PENTAZOCINE 50mg capsules
+djf2.00	PENTAZOCINE 25mg tablets
+djf3.00	PENTAZOCINE LACTATE 30mg/1mL injection
+djf5.00	PENTAZOCINE 50mg suppositories
+djf7.00	*FORTRAL 25mg tablets
+djf8.00	*FORTRAL 30mg/1mL injection
+djf9.00	*FORTRAL 60mg/2mL injection
+djfa.00	*FORTRAL 50mg suppositories
+djg2.00	PETHIDINE 50mg tablets
+djg5.00	PAMERGAN P100 100mg/2mL injection
+dji1.00	TRAMADOL HCL 100mg/2mL injection
+dji2.00	TRAMADOL HCL 50mg capsules
+dji3.00	ZYDOL 100mg/2mL injection
+dji4.00	ZYDOL 50mg capsules
+dji5.00	TRAMADOL HCL 100mg m/r tablets
+dji6.00	TRAMADOL HCL 150mg m/r tablets
+dji7.00	TRAMADOL HCL 200mg m/r tablets
+dji8.00	ZYDOL SR 100mg m/r tablets
+dji9.00	ZYDOL SR 150mg m/r tablets
+djia.00	*DROMADOL XL 150mg m/r tablets
+djiA.00	ZYDOL SR 200mg m/r tablets
+djib.00	*DROMADOL XL 200mg m/r tablets
+djiB.00	TRAMAKE 50mg capsules
+djic.00	*DROMADOL XL 300mg m/r tablets
+djiC.00	TRAMADOL HYDROCHLORIDE 50mg soluble tablets
+djid.00	*DROMADOL XL 400mg m/r tablets
+djiD.00	ZYDOL SOLUBLE 50mg tablets
+djie.00	ZAMADOL MELT 50mg oro-dispersible tablets
+djiE.00	ZAMADOL 50mg capsules
+djif.00	LARAPAM SR 100mg m/r tablets
+djiF.00	TRAMADOL HYDROCHLORIDE 50mg m/r capsules
+djig.00	LARAPAM SR 150mg m/r tablets
+djiG.00	TRAMADOL HYDROCHLORIDE 100mg m/r capsules
+djiH.00	TRAMADOL HYDROCHLORIDE 150mg m/r capsules
+djii.00	ZAMADOL 24HR 150mg m/r tablets
+djiI.00	TRAMADOL HYDROCHLORIDE 200mg m/r capsules
+djij.00	ZAMADOL 24HR 200mg m/r tablets
+djiJ.00	ZAMADOL SR 50mg m/r capsules
+djik.00	ZAMADOL 24HR 300mg m/r tablets
+djiK.00	ZAMADOL SR 100mg m/r capsules
+djil.00	ZAMADOL 24HR 400mg m/r tablets
+djiL.00	ZAMADOL SR 150mg m/r capsules
+djim.00	TRADOREC XL 100mg m/r tablets
+djiM.00	ZAMADOL SR 200mg m/r capsules
+djin.00	TRADOREC XL 200mg m/r tablets
+djiN.00	ZAMADOL 100mg/2mL injection
+djio.00	TRADOREC XL 300mg m/r tablets
+djiO.00	TRAMADOL HYDROCHLORIDE 50mg/sachet powder
+djiP.00	TRAMADOL HYDROCHLORIDE 100mg/sachet powder
+djiQ.00	TRAMAKE INSTS 50mg/sachet powder
+djiR.00	TRAMAKE INSTS 100mg/sachet powder
+djiS.00	ZYDOL XL 150mg m/r tablets
+djit.00	ZYDOL SR 50mg m/r tablets
+djiT.00	ZYDOL XL 200mg m/r tablets
+djiU.00	ZYDOL XL 300mg m/r tablets
+djiv.00	TRAMADOL HYDROCHLORIDE 50mg m/r tablets
+djiV.00	ZYDOL XL 400mg m/r tablets
+djiw.00	TRAMADOL HYDROCHLORIDE 50mg oro-dispersible tablets
+djiW.00	*DROMADOL SR 100mg m/r tablets
+djix.00	TRAMADOL HYDROCHLORIDE 75mg m/r tablets
+djiX.00	*DROMADOL SR 150mg m/r tablets
+djiy.00	TRAMADOL HYDROCHLORIDE 300mg m/r tablets
+djiY.00	*DROMADOL SR 200mg m/r tablets
+djiz.00	TRAMADOL HYDROCHLORIDE 400mg m/r tablets
+djiZ.00	*DROMADOL SR 75mg m/r tablets
+djj1.00	HYDROMORPHONE HYDROCHLORIDE 1.3mg capsules
+djj2.00	PALLADONE 1.3mg capsules
+djj3.00	HYDROMORPHONE HYDROCHLORIDE 2.6mg capsules
+djj4.00	PALLADONE 2.6mg capsules
+djj5.00	HYDROMORPHONE HYDROCHLORIDE 2mg m/r capsules
+djj6.00	HYDROMORPHONE HYDROCHLORIDE 4mg m/r capsules
+djj7.00	HYDROMORPHONE HYDROCHLORIDE 8mg m/r capsules
+djj8.00	HYDROMORPHONE HYDROCHLORIDE 16mg m/r capsules
+djj9.00	HYDROMORPHONE HYDROCHLORIDE 24mg m/r capsules
+djjA.00	PALLADONE-SR 2mg m/r capsules
+djjB.00	PALLADONE-SR 4mg m/r capsules
+djjC.00	PALLADONE-SR 8mg m/r capsules
+djjD.00	PALLADONE-SR 16mg m/r capsules
+djjE.00	PALLADONE-SR 24mg m/r capsules
+djk1.00	OXYNORM 5mg capsules
+djk2.00	OXYNORM 10mg capsules
+djk3.00	OXYNORM 20mg capsules
+djk4.00	OXYCONTIN 10mg m/r tablets
+djk5.00	OXYCONTIN 20mg m/r tablets
+djk6.00	OXYCONTIN 40mg m/r tablets
+djk7.00	OXYCONTIN 80mg m/r tablets
+djk8.00	OXYNORM 5mg/5mL liquid
+djk9.00	OXYNORM 10mg/mL concentrate liquid
+djka.00	SHORTEC 20mg capsules
+djkA.00	OXYNORM 10mg/mL injection solution 1mL ampoule
+djkb.00	RELTEBON 5mg m/r tablets
+djkB.00	OXYNORM 10mg/mL injection solution 2mL ampoule
+djkc.00	RELTEBON 10mg m/r tablets
+djkC.00	TARGINACT 10mg/5mg m/r tablets
+djkd.00	RELTEBON 20mg m/r tablets
+djkD.00	TARGINACT 20mg/10mg m/r tablets
+djke.00	OXYCODONE HYDROCHLORIDE 120mg m/r tablets
+djkE.00	OXYNORM 50mg/1mL solution for injection ampoules
+djkf.00	OXYCODONE HYDROCHLORIDE 60mg m/r tablets
+djkF.00	TARGINACT 5mg/2.5mg m/r tablets
+djkg.00	OXYCODONE HYDROCHLORIDE 30mg m/r tablets
+djkG.00	TARGINACT 40mg/20mg m/r tablets
+djkh.00	OXYCODONE HYDROCHLORIDE 15mg m/r tablets
+djkH.00	OXYCONTIN 15mg m/r tablets
+djki.00	OXYCODONE HCL+NALOXONE HCL 40mg/20mg m/r tablets
+djkI.00	OXYCONTIN 30mg m/r tablets
+djkj.00	OXYCODONE HCL+NALOXONE HCL 5mg/2.5mg m/r tablets
+djkJ.00	OXYCONTIN 60mg m/r tablets
+djkk.00	OXYCODONE HYDROCHLORIDE 50mg/1mL soln for injection ampoules
+djkK.00	OXYCONTIN 120mg m/r tablets
+djkl.00	OXYCODONE HYDROCHLORIDE+NALOXONE HYDROCHLORIDE 20mg/10mg m/r tablets
+djkL.00	LONGTEC 5mg m/r tablets
+djkm.00	OXYCODONE HYDROCHLORIDE+NALOXONE HYDROCHLORIDE 10mg/5mg m/r tablets
+djkM.00	LONGTEC 10mg m/r tablets
+djkn.00	OXYCODONE HYDROCHLORIDE 10mg/mL injection solution 2mL ampoule
+djkN.00	LONGTEC 20mg m/r tablets
+djko.00	OXYCODONE HYDROCHLORIDE 10mg/mL injection solution 1mL ampoule
+djkO.00	LONGTEC 40mg m/r tablets
+djkp.00	OXYCONTIN 5mg m/r tablets
+djkP.00	LONGTEC 80mg m/r tablets
+djkq.00	OXYCODONE HYDROCHLORIDE 5mg m/r tablets
+djkQ.00	OXYLAN 5mg m/r tablets
+djkr.00	OXYCODONE HYDROCHLORIDE 5mg/5mL sugar free liquid
+djkR.00	OXYLAN 10mg m/r tablets
+djks.00	OXYCODONE HYDROCHLORIDE 10mg/mL concentrate sugar free liquid
+djkS.00	OXYLAN 20mg m/r tablets
+djkt.00	OXYCODONE HYDROCHLORIDE 5mg capsules
+djkT.00	OXYLAN 40mg m/r tablets
+djku.00	OXYCODONE HYDROCHLORIDE 10mg capsules
+djkU.00	OXYLAN 80mg m/r tablets
+djkv.00	OXYCODONE HYDROCHLORIDE 20mg capsules
+djkV.00	LYNLOR 5mg capsules
+djkw.00	OXYCODONE HYDROCHLORIDE 10mg m/r tablets
+djkW.00	LYNLOR 10mg capsules
+djkx.00	OXYCODONE HYDROCHLORIDE 20mg m/r tablets
+djkX.00	LYNLOR 20mg capsules
+djky.00	OXYCODONE HYDROCHLORIDE 40mg m/r tablets
+djkY.00	SHORTEC 5mg capsules
+djkz.00	OXYCODONE HYDROCHLORIDE 80mg m/r tablets
+djkZ.00	SHORTEC 10mg capsules
+djm1.00	RELTEBON 40mg m/r tablets
+djm2.00	RELTEBON 80mg m/r tablets
+djm7.00	RELTEBON 15mg m/r tablets
+djm8.00	RELTEBON 30mg m/r tablets
+djm9.00	RELTEBON 60mg m/r tablets
+djmA.00	OXELTRA 5mg m/r tablets
+djmB.00	OXELTRA 10mg m/r tablets
+djmC.00	OXELTRA 15mg m/r tablets
+djmD.00	OXELTRA 20mg m/r tablets
+djmE.00	OXELTRA 30mg m/r tablets
+djmF.00	OXELTRA 40mg m/r tablets
+djmG.00	OXELTRA 60mg m/r tablets
+djmH.00	OXELTRA 80mg m/r tablets
+djmI.00	LONGTEC 15mg m/r tablets
+djmJ.00	LONGTEC 30mg m/r tablets
+djmK.00	LONGTEC 60mg m/r tablets
+djmL.00	LONGTEC 120mg m/r tablets
+djmM.00	ABTARD 5mg m/r tablets
+djmN.00	ABTARD 10mg m/r tablets
+djmO.00	ABTARD 15mg m/r tablets
+djmP.00	ABTARD 20mg m/r tablets
+djmQ.00	ABTARD 30mg m/r tablets
+djmR.00	ABTARD 40mg m/r tablets
+djmS.00	ABTARD 60mg m/r tablets
+djmT.00	ABTARD 80mg m/r tablets
+djy6.00	FILNARINE SR 10mg m/r tablets
+djy7.00	FILNARINE SR 30mg m/r tablets
+djy8.00	FILNARINE SR 60mg m/r tablets
+djy9.00	FILNARINE SR 100mg m/r tablets
+djyA.00	MORPHGESIC SR 10mg m/r tablets
+djyB.00	MORPHGESIC SR 30mg m/r tablets
+djyC.00	MORPHGESIC SR 60mg m/r tablets
+djyD.00	MORPHGESIC SR 100mg m/r tablets
+djz1.00	MORPHINE SULFATE 10mg tablets
+djz2.00	MORPHINE SULFATE 20mg tablets
+djz3.00	MORPHINE SULFATE 5mg m/r tablets
+djz4.00	MORPHINE SULFATE 10mg m/r tablets
+djz5.00	MORPHINE SULFATE 15mg m/r tablets
+djz6.00	MORPHINE SULFATE 30mg m/r tablets
+djz7.00	MORPHINE SULFATE 60mg m/r tablets
+djz8.00	MORPHINE SULFATE 100mg m/r tablets
+djz9.00	MORPHINE SULFATE 200mg m/r tablets
+djza.00	MORPHINE SULPHATE 50mg m/r capsules
+djzA.00	MORPHINE SULFATE 60mg/sachet m/r granules
+djzb.00	*MORCAP SR 20mg m/r capsules
+djzB.00	MORPHINE SULFATE 100mg/sachet m/r granules
+djzc.00	*MORCAP SR 50mg m/r capsules
+djzC.00	MORPHINE SULFATE 200mg/sachet m/r granules
+djzD.00	MORPHINE SULFATE 10mg m/r capsules
+djzE.00	MORPHINE SULFATE 30mg m/r capsules
+djzF.00	MORPHINE SULFATE 60mg m/r capsules
+djzG.00	MORPHINE SULFATE 100mg m/r capsules
+djzj.00	ZOMORPH 10mg m/r capsules
+djzk.00	ZOMORPH 30mg m/r capsules
+djzl.00	ZOMORPH 60mg m/r capsules
+djzL.00	MORPHINE SULFATE 50mg tablets
+djzm.00	ZOMORPH 100mg m/r capsules
+djzM.00	SEVREDOL 50mg tablets
+djzn.00	ZOMORPH 200mg m/r capsules
+djzO.00	MORPHINE SULFATE 90mg m/r capsules
+djzP.00	MORPHINE SULFATE 120mg m/r capsules
+djzQ.00	MORPHINE SULFATE 150mg m/r capsules
+djzR.00	MORPHINE SULFATE 200mg m/r capsules
+djzS.00	MXL 30mg m/r capsules
+djzT.00	MXL 60mg m/r capsules
+djzU.00	MXL 90mg m/r capsules
+djzV.00	MXL 120mg m/r capsules
+djzW.00	MXL 150mg m/r capsules
+djzX.00	MXL 200mg m/r capsules
+djzY.00	*MORCAP SR 100mg m/r capsules
+djzZ.00	MORPHINE SULPHATE 20mg m/r capsules
+o415.00	ALFENTANIL 5mg/1mL injection
+o416.00	RAPIFEN INTENS CARE 5mg/1mL injection
+o421.00	SUBLIMAZE 100micrograms/2mL injection
+o424.00	FENTANYL 25micrograms/hr patches
+o425.00	FENTANYL 50micrograms/hr patches
+o426.00	FENTANYL 75micrograms/hr patches
+o427.00	FENTANYL 100micrograms/hr patches
+o428.00	DUROGESIC 25micrograms/hr patches
+o429.00	DUROGESIC 50micrograms/hr patches
+o42a.00	MEZOLAR MATRIX 75micrograms/hour patches
+o42A.00	DUROGESIC 75micrograms/hr patches
+o42b.00	MEZOLAR MATRIX 100micrograms/hour patches
+o42B.00	DUROGESIC 100micrograms/hr patches
+o42C.00	ACTIQ 200micrograms lozenges
+o42d.00	OSMACH 25micrograms/hour patches
+o42D.00	ACTIQ 400micrograms lozenges
+o42e.00	OSMACH 50micrograms/hour patches
+o42E.00	ACTIQ 600micrograms lozenges
+o42f.00	OSMACH 75micrograms/hour patches
+o42F.00	ACTIQ 800micrograms lozenges
+o42g.00	OSMACH 100micrograms/hour patches
+o42G.00	ACTIQ 1200micrograms lozenges
+o42h.00	FENTALIS RESERVOIR 100micrograms/hr patches
+o42H.00	ACTIQ 1600micrograms lozenges
+o42i.00	FENTALIS RESERVOIR 25micrograms/hr patches
+o42I.00	DUROGESIC DTRANS 25micrograms/hr patches
+o42j.00	FENTALIS RESERVOIR 50micrograms/hr patches
+o42J.00	DUROGESIC DTRANS 50micrograms/hr patches
+o42k.00	FENTALIS RESERVOIR 75micrograms/hr patches
+o42K.00	DUROGESIC DTRANS 75micrograms/hr patches
+o42l.00	EFFENTORA 100micrograms buccal tablets
+o42L.00	DUROGESIC DTRANS 100micrograms/hr patches
+o42m.00	FENTANYL 100micrograms buccal tablets
+o42M.00	TILOFYL 25micrograms/hour patches
+o42n.00	EFFENTORA 200micrograms buccal tablets
+o42N.00	TILOFYL 50micrograms/hour patches
+o42o.00	FENTANYL 200micrograms buccal tablets
+o42O.00	TILOFYL 75micrograms/hour patches
+o42P.00	TILOFYL 100micrograms/hour patches
+o42q.00	FENTANYL 1600micrograms lozenges
+o42Q.00	DUROGESIC DTRANS 12micrograms/hr patches
+o42r.00	FENTANYL 1200micrograms lozenges
+o42R.00	FENTANYL 12micrograms/hr patches
+o42s.00	FENTANYL 800micrograms lozenges
+o42S.00	MATRIFEN 12micrograms/hr patches
+o42t.00	FENTANYL 600micrograms lozenges
+o42T.00	MATRIFEN 25micrograms/hr patches
+o42u.00	FENTANYL 400micrograms lozenges
+o42U.00	MATRIFEN 50micrograms/hr patches
+o42v.00	FENTANYL 200micrograms lozenges
+o42V.00	MATRIFEN 75micrograms/hr patches
+o42W.00	MATRIFEN 100micrograms/hr patches
+o42x.00	FENTANYL 100microgram/2mL injection
+o42X.00	MEZOLAR MATRIX 12micrograms/hour patches
+o42y.00	FENTANYL 500microgram/10mL injection
+o42Y.00	MEZOLAR MATRIX 25micrograms/hour patches
+o42Z.00	MEZOLAR MATRIX 50micrograms/hour patches
+o441.00	MEPTID 200mg tablets
+o442.00	MEPTID 100mg/1mL injection
+o443.00	MEPTAZINOL 200mg tablets
+o44z.00	MEPTAZINOL 100mg/1mL injection
+o461.00	*NUBAIN 10mg/1mL injection
+o462.00	*NUBAIN 20mg/2mL injection
+o478.00	PAPAVERETUM BP 15.4mg/1mL injection
+o47A.00	PAPAVERETUM BP 7.7mg/1mL injection
+o481.00	PETHIDINE 50mg/5mL injection
+o482.00	PETHIDINE 100mg/10mL injection
+o483.00	PETHIDINE 50mg/1mL injection
+o484.00	PETHIDINE 100mg/2mL injection
+o4d1.00	EFFENTORA 400micrograms buccal tablets
+o4d2.00	FENTANYL 400micrograms buccal tablets
+o4d3.00	EFFENTORA 600micrograms buccal tablets
+o4d4.00	FENTANYL 600micrograms buccal tablets
+o4d5.00	EFFENTORA 800micrograms buccal tablets
+o4d6.00	FENTANYL 800micrograms buccal tablets
+o4d7.00	ABSTRAL 100micrograms sublingual tablets
+o4d8.00	FENTANYL 100micrograms sublingual tablets
+o4d9.00	ABSTRAL 200micrograms sublingual tablets
+o4da.00	FENTANYL 200micrograms sublingual tablets
+o4dA.00	FENTANYL 400micrograms nasal spray
+o4db.00	ABSTRAL 300micrograms sublingual tablets
+o4dB.00	FENCINO 12micrograms/hr patches
+o4dc.00	FENTANYL 300micrograms sublingual tablets
+o4dC.00	FENCINO 25micrograms/hr patches
+o4dd.00	ABSTRAL 400micrograms sublingual tablets
+o4dD.00	FENCINO 50micrograms/hr patches
+o4de.00	FENTANYL 400micrograms sublingual tablets
+o4dE.00	FENCINO 75micrograms/hr patches
+o4df.00	ABSTRAL 600micrograms sublingual tablets
+o4dF.00	FENCINO 100micrograms/hr patches
+o4dg.00	FENTANYL 600micrograms sublingual tablets
+o4dG.00	BREAKYL 200micrograms buccal film
+o4dh.00	ABSTRAL 800micrograms sublingual tablets
+o4dH.00	FENTANYL 200micrograms buccal film
+o4di.00	FENTANYL 800micrograms sublingual tablets
+o4dI.00	BREAKYL 400micrograms buccal film
+o4dj.00	OSMANIL 25micrograms/hr patches
+o4dJ.00	FENTANYL 400micrograms buccal film
+o4dk.00	OSMANIL 50micrograms/hr patches
+o4dK.00	BREAKYL 800micrograms buccal film
+o4dl.00	OSMANIL 75micrograms/hr patches
+o4dL.00	FENTANYL 800micrograms buccal film
+o4dm.00	OSMANIL 100micrograms/hr patches
+o4dn.00	VICTANYL 25micrograms/hour patches
+o4do.00	VICTANYL 50micrograms/hour patches
+o4dO.00	RECIVIT 133micrograms sublingual tablets
+o4dp.00	VICTANYL 75micrograms/hour patches
+o4dP.00	FENTANYL 133micrograms sublingual tablets
+o4dq.00	VICTANYL 100micrograms/hour patches
+o4dQ.00	RECIVIT 267micrograms sublingual tablets
+o4dr.00	OSMANIL 12micrograms/hr patches
+o4dR.00	FENTANYL 267micrograms sublingual tablets
+o4ds.00	INSTANYL 50micrograms nasal spray
+o4dS.00	RECIVIT 400micrograms sublingual tablets
+o4dt.00	FENTANYL 50micrograms nasal spray
+o4dT.00	RECIVIT 533micrograms sublingual tablets
+o4du.00	INSTANYL 100micrograms nasal spray
+o4dU.00	FENTANYL 533micrograms sublingual tablets
+o4dv.00	FENTANYL 100micrograms nasal spray
+o4dw.00	INSTANYL 200micrograms nasal spray
+o4dW.00	OPIODUR 12micrograms/hour transdermal patches
+o4dx.00	FENTANYL 200micrograms nasal spray
+o4dX.00	OPIODUR 25micrograms/hour transdermal patches
+o4dy.00	PECFENT 100micrograms nasal spray
+o4dY.00	OPIODUR 50micrograms/hour transdermal patches
+o4dz.00	PECFENT 400micrograms nasal spray
+o4dZ.00	OPIODUR 75micrograms/hour transdermal patches
+o4e1.00	OPIODUR 100micrograms/hour transdermal patches
+o4e2.00	MEZOLAR MATRIX 37.5micrograms/hour patches
+o4e3.00	FENTANYL 37.5micrograms/hour transdermal patches
+o4e4.00	YEMEX 12micrograms/hour transdermal patches
+o4e5.00	YEMEX 25micrograms/hour transdermal patches
+o4e6.00	YEMEX 50micrograms/hour transdermal patches
+o4e7.00	YEMEX 75micrograms/hour transdermal patches
+o4e8.00	YEMEX 100micrograms/hour transdermal patches

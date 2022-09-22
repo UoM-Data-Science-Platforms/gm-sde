@@ -1,0 +1,11 @@
+136b.00	Feels should cut down drinking
+136c.00	Higher risk drinking
+136K.00	Alcohol intake above recommended sensible limits
+136P.00	Heavy drinker
+136Q.00	Very heavy drinker
+136R.00	Binge drinker
+136S.00	Hazardous alcohol use
+136T.00	Harmful alcohol use
+136W.00	Alcohol misuse
+136Y.00	Drinks in morning to get rid of hangover
+E23..12	Alcohol problem drinking

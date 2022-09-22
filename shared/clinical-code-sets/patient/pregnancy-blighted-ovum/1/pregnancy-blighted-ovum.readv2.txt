@@ -1,0 +1,2 @@
+L010.00	Blighted ovum
+L010.11	Anembryonic pregnancy

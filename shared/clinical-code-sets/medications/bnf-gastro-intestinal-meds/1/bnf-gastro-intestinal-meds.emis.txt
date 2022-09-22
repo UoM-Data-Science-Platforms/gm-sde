@@ -1,0 +1,1280 @@
+ACGE9236HILLI	Actonorm  Gel  
+ESGA45518NEMIS	Esomeprazole  Gastro-resistant Capsules  40 mg
+COCA4761	Co-Danthrusate 50/60  Capsules  
+RESO30553NEMIS	Relistor  Solution for injection  12 mg/0.6 ml vial
+ZATA3090	Zantac  Tablets  150 mg
+LIOR35754MGEMIS	Liquid Paraffin  Oral emulsion  (A.A.H. Pharm)
+GESU17238NEMIS	Germoloids Duo Pack  Suppositories And Ointment  
+LOTA1190NEMIS	Losec Mups  Tablets  20 mg
+PEM/98848NEMIS	Pentasa  M/R granules  4 gram/sachet
+ISTA9943BRIDL	Istin  Tablets  5 mg
+BUTA444	Buscopan  Tablets  10 mg
+LAPO29886NEMIS	Laxido Orange  Oral powder  13.8 gram/sachet
+GLSU35308MGEMIS	Glycerol (Child)  Suppositories  2 gram (Unichem)
+COCA34447MGEMIS	Co-Danthramer Strong  Capsules  (A.A.H. Pharm)
+MOOR117667NEMIS	Molative  Oral powder  13.8 gram sachet
+MACO88531NEMIS	Macrogol  Compound Oral Liquid  NPF sugar free
+RATA36879MGEMIS	Ranitidine  Tablets  300 mg (Sandoz)
+MASA665NEMIS	Manevac  Sachets  4 grams/sachet
+VETA6809	Verapamil Hydrochloride  Tablets  80 mg
+GLTA18728NEMIS	Glycopyrronium Bromide  Tablets  1 mg
+HITA6654NEMIS	Histac  Tablets  150 mg
+MATA105649NEMIS	Magnesium Oxide  Tablets  100 mg
+MAPO29059EMIS	Magnesium Sulfate  Powder  bp
+MOOR47279NEMIS	Moviprep Orange  Oral Powder For Solution (Sachets)  
+MOOR23884NEMIS	Moviprep  Oral Powder For Solution (Sachets)  
+HYOR46478NEMIS	Hyoscine Butylbromide  Oral solution  500 micrograms/5 ml
+MOPO14661NEMIS	Movicol-Half  Powder sachets  6.9 grams/sachet
+OMOR135580NEMIS	Omeprazole  Oral Suspension Sugar Free  20 mg/5 ml
+OMCA23822EMIS	Omeprazole  Capsules (Gastro-Resistant)  40 mg
+OMCA36319MGEMIS	Omeprazole  Capsules  40 mg (Ranbaxy)
+ZATA17254NEMIS	Zanprol  Tablets (Gastro-Resistant)  10 mg
+ZAEF16095NEMIS	Zantac 75 Relief Dissolve  Effervescent tablets  75 mg
+NICA5200	Nicardipine Hydrochloride  Capsules  20 mg
+RAEF36848MGEMIS	Ranitidine  Effervescent tablets  150 mg (Unichem)
+PATA9016EGTON	Pancrex V  Tablets  
+NICA36237MGEMIS	Nizatidine  Capsules  150 mg (Generics (UK))
+LILI35749MGEMIS	Liquid Paraffin B.P.  Liquid  (Thornton & Ross)
+PITA6904	Pirenzepine  Tablets  50 mg
+VESO136655NEMIS	Vedolizumab  Solution for injection  108 mg/0.68 ml pre-filled syringe
+MALI35865MGEMIS	Magnesium Trisilicate Mixture  Liquid  (A.A.H. Pharm)
+FYEF124279NEMIS	Fybogel Hi-Fibre  Effervescent Granules (Lemon)  3.5 gram sachet
+OMCA25325EMIS	Omeprazole  Capsules (Gastro-Resistant)  10 mg
+PYTA26985EMIS	Pylorid  Tablets  400 mg
+VEGA118063NEMIS	Ventra  Gastro-resistant Capsules  20 mg
+META35924MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Ivax Pharmaceuticals)
+ISSA12002NEMIS	Ispagel  Sachets (orange)  3.5 grams/sachet
+SETA36936MGEMIS	Senna  Tablets  7.5 mg (Unichem)
+GLSU35301MGEMIS	Glycerol (Infant)  Suppositories  1 gram (Unichem)
+PRRE2331	Predsol  Retention enema  20 mg
+ACPO10289HILLI	Actonorm  Powder  
+LOTA26214EMIS	Losartan Potassium  Tablets  25 mg
+COSU9616BRIDL	Co-Danthramer 25/200  Suspension  Sugar Free
+OMCA36306MGEMIS	Omeprazole  Capsules  20 mg (Teva UK)
+RATA45008NEMIS	Ranitic  Tablets  150 mg
+NICA36245MGEMIS	Nizatidine  Capsules  300 mg (Ivax Pharmaceuticals)
+NETA5129NEMIS	Nexium  Tablets  40 mg
+SOPO23225EMIS	Sodium Bicarbonate  Powder  bp
+ADTA8424EGTON	Adalat Retard 10  Tablets  10 mg
+ENTA1063	Enalapril Maleate  Tablets  5 mg
+VEM/816NEMIS	Verapress MR  M/R tablets  240 mg
+RACA76959NEMIS	Racecadotril  Capsules  100 mg
+AUM/127229NEMIS	Aurobeverine Mr  M/R capsules  200 mg
+MESU9447EMIS	Mesalazine  Suppositories  500 mg
+RATA36867MGEMIS	Ranitidine  Tablets  150 mg (The Boots Company)
+RITA52591NEMIS	Rivaroxaban  Tablets  15 mg
+LOTA1189NEMIS	Losec Mups  Tablets  10 mg
+PIPO4167	Picolax  Oral powder  16.1 gram sachets
+OMCA36313MGEMIS	Omeprazole  Capsules  20 mg (Kent Pharm)
+CRCA32488EMIS	Creon 10000  Capsules  
+MESY1777	Merbentyl  Syrup  10 mg/5 ml
+ACOR20349NEMIS	Acidex  Oral suspension  Peppermint
+RATA34094EMIS	Rabeprazole Sodium  E/c tablets  10 mg
+SUE/38261MGEMIS	Sulfasalazine  E/c tablets  500 mg (Alpharma)
+MEM/16719NEMIS	Mesren Mr  M/R tablets  400 mg
+COCA34443MGEMIS	Co-Danthramer 25/200  Capsules  (A.A.H. Pharm)
+KAMI35622MGEMIS	Kaolin And Morphine  Mixture  bp (Kent Pharm)
+GLOR116876NEMIS	Glycopyrronium Bromide  Oral Solution, Sugar Free  1 mg/5 ml
+CACA33458NEMIS	Calcium Carbonate  Capsules  400 mg
+NICA138941NEMIS	Nizatidine (Imported)  Capsules  300 mg 
+PACA10587BRIDL	Pancrease  Capsules  
+ANOI164	Anacal  Ointment  
+CIEF23280NEMIS	Citric Acid And Magnesium Carbonate  Effervescent Powder Sachets Sugar Free  17.79 g + 11.57 g/sachet
+META1778	Merbentyl  Tablets  10 mg
+ZOOR14903NEMIS	Zoton Fastab  Orodispersible tablets (Gastro-Resistant)  30 mg
+ENM/28268EMIS	Entocort Cr  M/R capsules (Gastro-Resistant)  3 mg
+DOCO5087NEMIS	Docusate Sodium  Compound Enema  
+GACH36667NEMIS	Gaviscon Extra Strength  Chewable tablets  Peppermint
+COSU25950EMIS	Co-Magaldrox 195/220  Sugar-free suspension  
+MEGA48143NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  10 mg
+IMSO96298NEMIS	Imodium Liquicaps  Soft Capsules  2 mg
+BITA10630BRIDL	Bisoprolol Fumarate  Tablets  5 mg
+OMCA36310MGEMIS	Omeprazole  Capsules  20 mg (Alpharma)
+LOCA35802MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Teva UK)
+OCGA48257NEMIS	Octasa Mr  Gastro-resistant Tablets  800 mg
+RATA16400NEMIS	Ramipril  Tablets  2.5 mg
+LILI35750MGEMIS	Liquid Paraffin B.P.  Liquid  (Unichem)
+OMCA36314MGEMIS	Omeprazole  Capsules  20 mg (Sandoz)
+COCA718	Colpermin Ibs Relief  Gastro-Resistant Modified-Release Capsules  
+DOTA9438HILLI	Doxazosin Mesilate  Tablets  1 mg
+URCA131766NEMIS	Ursonorm  Capsules  250 mg
+LOOR103457NEMIS	Loperamide Hydrochloride  Orodispersible Tablets (Sugar Free)  2 mg
+BERE10060BRIDL	Betnovate  Rectal ointment with applicator  
+COOR100562NEMIS	Cosmocol Paediatric  Oral powder  6.9 grams/sachet
+SHOI135593NEMIS	Shark Liver Oil And Yeast Cell Extract  Ointment  3 % + 1 %
+SOCO5094NEMIS	Sodium Citrate  Compound Enema  5 ml
+OMTA1188NEMIS	Omeprazole  Tablets (Gastro-Resistant)  40 mg
+ANCR182	Anusol  Cream  
+APGA51046NEMIS	Apercap  Gastro-resistant Capsules  0.2 ml
+CETA512	Celevac  Tablets  500 mg
+AXCA5859	Axid  Capsules  150 mg
+COCA26264EMIS	Co-Danthramer 25/200  Capsules  
+GLOR85812NEMIS	Glycopyrronium Bromide  Oral suspension  5 mg/5 ml
+FECA24144EMIS	Fenofibrate  Capsules  200 mg
+RAEF36853MGEMIS	Ranitidine  Effervescent tablets  300 mg (Kent Pharm)
+ISTA5058	Isosorbide Mononitrate  Tablets  10 mg
+RERE20266NEMIS	Rectogesic  Rectal ointment  0.4 %
+URCA37351MGEMIS	Ursodeoxycholic Acid  Capsules  250 mg (A.A.H. Pharm)
+MEGA33312NEMIS	Mesalazine  Gastro-resistant M/R granules  1.5 gram/sachet, sugar free
+FLRE25780NEMIS	Fleet Bisacodyl  Ready To Use Enema  10 mg/enema
+RATA45009NEMIS	Ranitic  Tablets  300 mg
+PYLI4241	Pyrogastrone  Liquid  
+PRRE30290EMIS	Prednisolone  Retention enema  long tube, 20 mg/100 ml
+SIOR120354NEMIS	Sialanar  Oral solution  320 micrograms/ml
+ULSU4471	Ultraproct  Suppositories  
+PHEN15280NEMIS	Phosphates Enema Formula B  Enema  Standard Tube, 128 ml
+SOSU104978NEMIS	Sodium Dihydrogen Phosphate Anhydrous/Sodium Bicarbonate  Suppositories  680 mg + 500 mg
+PRSU2361	Proctosedyl  Suppositories  
+OMCA36332MGEMIS	Omeprazole  Capsules  10 mg (Teva UK)
+RATA36875MGEMIS	Ranitidine  Tablets  300 mg (Generics (UK))
+IMSY1445	Imodium  Oral solution  1 mg/5 ml
+KOSA25800EMIS	Konsyl  Sachets  6 grams/sachet
+GLOR120352NEMIS	Glycopyrronium Bromide  Oral Solution, Sugar Free  400 micrograms/ml
+IMCA78493NEMIS	Imodium Plus Comfort  Tablets  
+MEE/37558MGEMIS	Mesalazine  E/c tablets  400 mg (Kent Pharm)
+DASU6445NEMIS	Danlax  Suspension  
+RACA8951EMIS	Ramipril  Capsules  2.5 mg
+PYTA4242	Pyrogastrone  Chewable tablets  
+PERE9443BRIDL	Pentasa  Retention enema  1 g/100 ml
+GLSU11871NEMIS	Glycerol (Adult)  Suppositories  4 gram
+CRCA13282NEMIS	Creon 40000  Capsules  
+FYGR12647NEMIS	Fybogel  Granules (Plain)  3.5 grams/sachet
+DICA9427BRIDL	Dipentum  Capsules  250 mg
+PRSU797NEMIS	Preparation H  Suppositories  
+RITA52592NEMIS	Rivaroxaban  Tablets  20 mg
+SUGA78926NEMIS	Sulazine Ec  Gastro-resistant Tablets  500 mg
+ELTA123811NEMIS	Eluxadoline  Tablets  100 mg
+URSO131717NEMIS	Urea [13-C]  Soluble tablets  100 mg Breath Test Kit
+ALCA4576	Alverine Citrate  Capsules  60 mg
+MACA105647NEMIS	Magnesium Oxide  Capsules  500 mg
+BUIN443	Buscopan  Injection  20 mg/ml, 1 ml ampoule
+HIGR76974NEMIS	Hidrasec Children  Granules  30 mg/sachet
+MAOR122306NEMIS	Magnesium Hydroxide  Oral suspension  8 %
+CATA485	Carbellon  Tablets  
+URTA131767NEMIS	Ursonorm  Tablets  500 mg
+PRTA2396	Propranolol Hydrochloride  Tablets  80 mg
+DICA29700EMIS	Diovan  Capsules  40 mg
+SOSU104977NEMIS	Sodium Dihydrogen Phosphate Anhydrous/Sodium Bicarbonate  Suppositories  340 mg + 250 mg
+SEGR2533	Senna  Granules  15 mg/5 ml
+DAIN35084EMIS	Dalteparin Sodium  Injection  15,000 units/0.6 ml pre-filled syringe
+RATA26987EMIS	Ranitidine Bismuth Citrate  Tablets  400 mg
+COTA12634NEMIS	Cozaar  Tablets  100 mg
+URTA78638NEMIS	Ursofalk  Tablets  500 mg
+PESP22592EMIS	Perinal  Spray  
+RETA42099NEMIS	Resolor  Tablets  2 mg
+MECA23120NEMIS	Mepradec  Capsules (Gastro-Resistant)  20 mg
+NOTA12496NEMIS	Normaloe  Tablets  2 mg
+HICA76967NEMIS	Hidrasec  Capsules  100 mg
+CIOI629	Cinchocaine Hydrochloride  Ointment  1.1 %
+MEM/1722NEMIS	Mesalazine  M/R Granules Sugar Free  1 gram/sachet
+RATA36874MGEMIS	Ranitidine  Tablets  300 mg (Sterwin Medicines)
+URTA37354MGEMIS	Ursodeoxycholic Acid  Tablets  150 mg (A.A.H. Pharm)
+LOCA35807MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (SSL International)
+RATA18576NEMIS	Ramipril And M/r Felodipine  Tablets  5 mg + 5 mg
+RAEF36851MGEMIS	Ranitidine  Effervescent tablets  300 mg (A.A.H. Pharm)
+ANCR3182	Anugesic-Hc  Cream  
+RATA36870MGEMIS	Ranitidine  Tablets  300 mg (The Boots Company)
+RATA36860MGEMIS	Ranitidine  Tablets  150 mg (Generics (UK))
+COSA4772NEMIS	Coated Sterculia  Sachets  62 %, 7 grams/sachet, gluten free
+NITA25526EMIS	Nicorandil  Tablets  10 mg
+TETA124808NEMIS	Telotristat Ethyl  Tablets  250 mg
+SUSU17832NEMIS	Sulfasalazine  Suppositories  500 mg
+MAMI10362BRIDL	Magnesium Sulfate  Mixture  
+LASU34195EMIS	Lansoprazole  Granules for Oral Suspension (Gastro-Resistant)  30 mg/sachet
+LILI35747MGEMIS	Liquid Paraffin B.P.  Liquid  (Vantage)
+ZIOI135300NEMIS	Zinc Oxide And Lidocaine  Ointment  6.6 % + 0.7 %
+HYOR42165NEMIS	Hydrotalcite  Oral Suspension Sugar Free  500 mg/5 ml
+DOTA9440HILLI	Doxazosin Mesilate  Tablets  4 mg
+SUTA6776	Sucralfate  Tablets  1 gram
+ADIN9601EMIS	Adenosine  Injection  3 mg/ml, 2 ml vial
+AREN6895	Arachis Oil  Enema  130 ml
+CITA34344MGEMIS	Cimetidine  Tablets  400 mg (Ivax Pharmaceuticals)
+URCA5489	Ursodeoxycholic Acid  Capsules  250 mg
+WATA3068	Warfarin Sodium  Tablets  1 mg
+SASU28791EMIS	Salofalk  Suppositories  500 mg
+LOCA35796MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (The Boots Company)
+KAMI37781MGEMIS	Kaolin  Mixture  BP (A.A.H. Pharm)
+MAOR122305NEMIS	Magnesium Hydroxide  Oral suspension  BP 7.45 % - 8.35 %
+SASU10642BRIDL	Salazopyrin  Suspension  250 mg/5 ml
+BETI3911NEMIS	Belladonna  Tincture  BP
+ALTA63	Aldactone  Tablets  100 mg
+DICR15437NEMIS	Diltiazem Hydrochloride  Cream  2 %
+ATTA3202	Atropine Sulfate  Tablets  600 micrograms
+WOCO6303NEMIS	Woodwards  Colic Drops  20 mg/0.3 ml
+DACA29863NEMIS	Dabigatran Etexilate  Capsules  110 mg
+RATA11632NEMIS	Ranitil  Tablets  300 mg
+OMDI13050NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  20 mg
+DUSY1007	Duphalac  Oral solution  3.35 g/5 ml
+APTA51806NEMIS	Apixaban  Tablets  2.5 mg
+MOTA29588EMIS	Moxonidine  Tablets  400 micrograms
+IDPO12827NEMIS	Idrolax  Powder for oral solution (orange-grapefruit)  10 grams/sachet
+LILI1671	Liquid Paraffin  Liquid  
+RECH48790NEMIS	Rennie Spearmint  Chewable tablets  
+GLOR46463NEMIS	Glycopyrronium Bromide  Oral suspension  200 micrograms/5 ml
+CITA34338MGEMIS	Cimetidine  Tablets  400 mg (Sandoz)
+RATA36868MGEMIS	Ranitidine  Tablets  150 mg (Goldshield)
+CATA34018EMIS	Carvedilol  Tablets  6.25 mg
+ALCA3151	Alu-Cap  Capsules  475 mg
+KOCA102396NEMIS	Kolbam  Capsules  50 mg
+IMCA52822NEMIS	Imodium Original  Capsules  2 mg
+LOCA23820EMIS	Losec  Capsules  40 mg
+GLOR51132NEMIS	Glycopyrronium Bromide  Oral suspension  3 mg/5 ml
+ASSU218	Asilone  Suspension  
+LASO35677MGEMIS	Lactulose  Solution  3.35 g/5 ml (Lloyds)
+DOCA23707EMIS	Docusate Sodium  Capsules  100 mg
+OIIN21827NEMIS	Oily Phenol  Injection  BP 5 %, 2 ml ampoule
+BITA10632BRIDL	Bisoprolol Fumarate  Tablets  10 mg
+BITA2333NEMIS	Bisoprolol Fumarate  Tablets  2.5 mg
+KLPO10171BRIDL	Klean-Prep  Powder for reconstitution  
+TAIN2772	Tagamet  Injection  100 mg/ml, 2 ml ampoule
+OMOR134408NEMIS	Omeprazole  Oral solution  20 mg/5 ml
+GLSU37810MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Kent Pharm)
+OLCA10425BRIDL	Olsalazine Sodium  Capsules  250 mg
+MEE/20664EMIS	Mesalazine  Gastro-resistant Tablets  250 mg
+PRRE4198	Predenema  Retention enema  standard tube, 20 mg/100 ml
+SETA2535	Senna  Tablets  7.5 mg
+MUSU3981	Mucogel  Suspension  
+CITA34336MGEMIS	Cimetidine  Tablets  200 mg (Ivax Pharmaceuticals)
+PETA9810HILLI	Perindopril Erbumine  Tablets  4 mg
+KAMI35623MGEMIS	Kaolin And Morphine  Mixture  bp (Thornton & Ross)
+SETA36933MGEMIS	Senna  Tablets  7.5 mg (Teva UK)
+COSU25096EMIS	Co-Danthrusate 50/60  Suspension  Sugar Free
+HYSU5011	Hydrotalcite  Suspension  500 mg/5 ml
+MACO8926EGTON	Magnesium Trisilicate  Compound tablets  
+HYOR46477NEMIS	Hyoscine Butylbromide  Oral suspension  10 mg/5 ml
+ISM/30270EMIS	Isosorbide Mononitrate  M/R capsules  60 mg
+ESPO17143NEMIS	Esomeprazole  Powder For Solution For Injection/Infusion  40 mg vial
+RATA16401NEMIS	Ramipril  Tablets  5 mg
+DUCA138387NEMIS	DulcoEase  Capsules  100 mg
+CLIN3353NEMIS	Clexane  Injection  120 mg/0.8 ml pre-filled syringe
+FLEN3594	Fletchers Enemette  Enema  
+OMOR46512NEMIS	Omeprazole  Oral solution  40 mg/5 ml
+FATA35018MGEMIS	Famotidine  Tablets  40 mg (Sandoz)
+CIOR14287NEMIS	Cimetidine  Oral solution  200 mg/5 ml
+SIEM17916NEMIS	Simeticone  Emulsion (Oral Drops)  21 mg/2.5 ml
+RATA36876MGEMIS	Ranitidine  Tablets  300 mg (Teva UK)
+MEGA23119NEMIS	Mepradec  Capsules (Gastro-Resistant)  10 mg
+FATA35017MGEMIS	Famotidine  Tablets  40 mg (Ivax Pharmaceuticals)
+CATA31827EMIS	Candesartan Cilexetil  Tablets  8 mg
+URCA32496EMIS	Ursogal  Capsules  250 mg
+GLSU37811MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Martindale)
+IMOR14674NEMIS	Imodium Instants  Orodispersible tablets  2 mg
+CATA31826EMIS	Candesartan Cilexetil  Tablets  4 mg
+LIEM10019BRIDL	Liquid Paraffin And Magnesium Hydroxide  Emulsion  Sugar Free
+PRTA42096NEMIS	Prucalopride  Tablets  2 mg
+AXIN24034EMIS	Axid  Injection  100 mg/4 ml ampoule
+OMOR46513NEMIS	Omeprazole  Oral suspension  40 mg/5 ml
+ASM/16289NEMIS	Asacol Mr  Gastro-resistant Tablets  400 mg
+OMCA36337MGEMIS	Omeprazole  Capsules  10 mg (Alpharma)
+RAEF17936EMIS	Ranitidine  Effervescent tablets  300 mg
+ASTA4609	Aspirin  Tablets  75 mg
+GLSU35305MGEMIS	Glycerol (Child)  Suppositories  2 gram (Thornton & Ross)
+KOSA1074NEMIS	Konsyl  Sachets Sugar Free (Orange)  3.5 grams/sachet
+GACH88148NEMIS	Gaviscon Strawberry  Chewable tablets  
+KOCA102397NEMIS	Kolbam  Capsules  250 mg
+LOCA35804MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Unichem)
+IMCA1444	Imodium  Capsules  2 mg
+DAIN35085EMIS	Dalteparin Sodium  Injection  18,000 units/0.72 ml pre-filled syringe
+DIDI16216NEMIS	Diabact Ubt  Diagnostic Test  
+GLOR46464NEMIS	Glycopyrronium Bromide  Oral solution  2 mg/5 ml
+NIM/19826EMIS	Nifedipine  M/R tablets  30 mg
+FATA35016MGEMIS	Famotidine  Tablets  40 mg (Unichem)
+TATA2775	Tagamet  Tablets  200 mg
+CITA34342MGEMIS	Cimetidine  Tablets  400 mg (Ranbaxy)
+GLOR47618NEMIS	Glycopyrronium Bromide  Oral solution  4 mg/5 ml
+LAOR14898NEMIS	Lansoprazole  Orodispersible tablets (Gastro-Resistant)  15 mg
+LOSU9001DLSEM	Loperamide Hydrochloride  Oral Solution, Sugar Free  1 mg/5 ml
+LESU82333NEMIS	Lecicarbon A  Suppositories  
+HAM/21986EMIS	Half Securon Sr  M/R tablets  120 mg
+RATA35521EMIS	Rantec  Tablets  300 mg
+MEGA47514NEMIS	Mesalazine  Gastro-resistant Tablets  500 mg
+CAOR20148NEMIS	Calcium Carbonate  Oral suspension  600 mg/5 ml
+RATA16163NEMIS	Ranzac  Tablets  75 mg
+HYOR46476NEMIS	Hyoscine Butylbromide  Oral solution  10 mg/5 ml
+PETA10769BRIDL	Peptimax 200  Tablets  200 mg
+ORCA102399NEMIS	Orphacol  Capsules  50 mg
+PRTA30705EMIS	Pravastatin  Tablets  40 mg
+NATA133940NEMIS	Naldemedine  Tablets  200 micrograms
+DUSUEGTON6657	Dulcolax  Suppositories  10 mg
+NATA104787NEMIS	Naloxegol Oxalate  Tablets  12.5 mg
+CITA34335MGEMIS	Cimetidine  Tablets  200 mg (Ranbaxy)
+CAM/6442NEMIS	Cardura Xl  M/R tablets  4 mg
+HYFO5005	Hydrocortisone Acetate  Foam  10 %
+PRGE1554NEMIS	Preparation H  Gel  50 %
+LASO35669MGEMIS	Lactulose  Solution  3.35 g/5 ml (Novartis Consumer Health)
+LETA32002EMIS	Lercanidipine Hydrochloride  Tablets  10 mg
+RESA28575EMIS	Regulan  Sachets (orange)  3.4 grams/sachet
+LAOR46485NEMIS	Lansoprazole  Oral solution  30 mg/5 ml
+FRIN22822EMIS	Fragmin  Injection  2,500 units/0.2 ml pre-filled syringe
+SUEN86689NEMIS	Sucralfate  Enema  2 gram/50 ml
+META35921MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (A.A.H. Pharm)
+FATA35024MGEMIS	Famotidine  Tablets  20 mg (Ivax Pharmaceuticals)
+ALSU5797	Algicon  Suspension  
+CIOI19982NEMIS	Cinchocaine And Prednisolone  Ointment  0.5 % + 0.19 %
+ENPO90877NEMIS	Entyvio  Powder for concentrate for solution for infusion  300 mg vial
+MEGA27786NEMIS	Mesalazine  Gastro-resistant M/R Tablets  1.2 grams
+GLOR73967NEMIS	Glycopyrronium Bromide  Oral solution  750 micrograms/5 ml
+MALI1713	Magnesium Trisilicate Mixture  Liquid  
+CHCA102394NEMIS	Cholic Acid  Capsules  250 mg
+CRTA15074NEMIS	Crestor  Tablets  10 mg
+MAOR118748NEMIS	Macrogol Compound Half-Strength  Oral Powder (sachets)  NPF Sugar Free
+CISU13821NEMIS	Cimetidine  Sugar free suspension  200 mg/5 ml
+IPE/13814NEMIS	Ipocol  Gastro-resistant Tablets  400 mg
+ROTA16179NEMIS	Robinul  Tablets  1 mg
+CACH124938NEMIS	Calcium Carbonate  Chewable tablets  500 mg
+CITA34343MGEMIS	Cimetidine  Tablets  400 mg (Alpharma)
+MACA105655NEMIS	Magdose  Capsules  500 mg
+ORCA78092NEMIS	Oromag 160  Capsules  160 mg
+RAOR48248NEMIS	Ranitidine  Oral suspension  5 mg/5 ml
+LIEM35743MGEMIS	Liquid Paraffin And Magnesium Hydroxide  Emulsion  (A.A.H. Pharm)
+COFO3342	Colifoam  Foam  10 %
+GLTA4971	Glycopyrronium Bromide  Tablets  2 mg
+ZOCA28115EMIS	Zoton  Capsules (Gastro-Resistant)  15 mg
+NOCA2031	Normax  Capsules  
+OMOR22068NEMIS	Omeprazole  Oral suspension  20 mg/5 ml
+LAOR51734NEMIS	Laxagol  Oral powder sachets  
+LAOR42925NEMIS	Lansoprazole  Oral suspension  5 mg/5 ml
+CHTA117915NEMIS	Cholurso  Tablets  250 mg
+ZAEF17932EMIS	Zantac  Effervescent tablets  300 mg
+MEGA16607NEMIS	Mesalazine  Gastro-resistant M/R granules  500 mg/sachet
+MIOR15978NEMIS	Mil-Par  Oral suspension  
+SPTA2666	Spironolactone  Tablets  100 mg
+NEGR39419NEMIS	Nexium  Granules for Oral Suspension (Gastro-Resistant)  10 mg sachet
+LOCA35800MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Thornton & Ross)
+LOCA25323EMIS	Losec  Capsules  10 mg
+CLIN3354NEMIS	Clexane  Injection  150 mg/1 ml pre-filled syringe
+GLSU35304MGEMIS	Glycerol (Infant)  Suppositories  1 gram (Kent Pharm)
+OMTA14454NEMIS	Omeran  Tablets  10 mg
+ZAS/10816BRIDL	Zantac  S/f syrup  75 mg/5 ml
+COTA716	Colofac  Tablets  135 mg
+ALCA31975EMIS	Alverine Citrate  Capsules  120 mg
+SOOR52640NEMIS	Sodium Citrate  Oral solution  441.17 mg/5 ml
+ULOI4470	Ultraproct  Ointment  
+SUTA17836NEMIS	Sulfasalazine  Tablets  500 mg
+EDTA103668NEMIS	Edoxaban  Tablets  30 mg
+COSU9361HILLI	Co-Simalcite 125/500  Suspension  Sugar Free
+UROR131718NEMIS	Urea [13-C]  Oral powder  45 mg Breath Test Kit Sugar Free
+OMCA36330MGEMIS	Omeprazole  Capsules  10 mg (A.A.H. Pharm)
+BISU33969MGEMIS	Bisacodyl  Suppositories  10 mg (Martindale)
+OMCA10940BRIDL	Omeprazole  Capsules (Gastro-Resistant)  20 mg
+MEE/32619EMIS	Mesalazine  Gastro-resistant Tablets  400 mg
+KAMI1541	Kaolin And Morphine  Mixture  bp
+PATA29719EMIS	Pantoprazole  Gastro-resistant Tablets  40 mg
+CIOR44086NEMIS	Cimetidine  Oral Solution, Sugar Free  200 mg/5 ml
+MACO117269NEMIS	Macrogol  Compound Oral Liquid  25 ml sachets NPF sugar free
+SOOR18527NEMIS	Sodium Alginate And Magnesium Alginate  Oral Powder Sachets Sugar Free  225 mg + 87.5 mg/dose
+OBTA121233NEMIS	Obeticholic Acid  Tablets  5 mg
+FATA35025MGEMIS	Famotidine  Tablets  20 mg (Generics (UK))
+PRTA4212	Pro-Banthine  Tablets  15 mg
+HYIN1412	Hyoscine Butylbromide  Injection  20 mg/ml, 1 ml ampoule
+MAOR90753NEMIS	Macilax Paediatric  Oral powder sachets  6.9 grams/sachet
+FYSA26486EMIS	Fybogel  Granules (Lemon)  3.5 grams/sachet
+MACA46780NEMIS	Magnesium Oxide  Capsules  100 mg
+IMTA1746NEMIS	Imodium Plus  Tablets  
+IRTA31577EMIS	Irbesartan  Tablets  300 mg
+SICA115682NEMIS	Simeticone  Capsules  100 mg
+ASDI224	Aspirin  Dispersible tablets  75 mg
+PEM/30153NEMIS	Pentasa  M/R granules  2 gram/sachet
+URCA37353MGEMIS	Ursodeoxycholic Acid  Capsules  250 mg (Generics (UK))
+DITA17627NEMIS	Dicycloverine  Tablets  10 mg
+CLIN30038EMIS	Clexane  Injection  80 mg/0.8 ml pre-filled syringe
+LATA23421EMIS	Lacidipine  Tablets  2 mg
+DETA3390	De-Noltab  Tablets  120 mg
+TATA33085EMIS	Tagadine  Tablets  400 mg
+HEDI14682NEMIS	Helicobacter Test Hp-Plus  Diagnostic Test  
+SOTA6817	Sotalol Hydrochloride  Tablets  80 mg
+XYOI4533	Xyloproct  Ointment  
+ISOR38496NEMIS	Ispaghula Husk  Oral Powder, Sugar Free  
+CLEN119446NEMIS	Cleen Ready-to-use  Enema  133 ml
+GALI47498NEMIS	Gaviscon Cool  Liquid  
+BISU100812NEMIS	Bisacodyl  Suppositories  7.5 mg
+HYTA1413	Hyoscine Butylbromide  Tablets  10 mg
+MOPO25192NEMIS	Movicol Plain  Powder sachets  13.7 grams/sachet
+TATA22056EMIS	Tambocor  Tablets  50 mg
+RATA36859MGEMIS	Ranitidine  Tablets  150 mg (Sterwin Medicines)
+LOCA1691	Loperamide Hydrochloride  Capsules  2 mg
+OMOR134407NEMIS	Omeprazole  Oral solution  10 mg/5 ml
+CITA34347MGEMIS	Cimetidine  Tablets  800 mg (Generics (UK))
+PRTA42094NEMIS	Prucalopride  Tablets  1 mg
+TATA2776	Tagamet  Tablets  400 mg
+SUTA38269MGEMIS	Sulfasalazine  Tablets  500 mg (Ivax Pharmaceuticals)
+ISGR30801NEMIS	Ispaghula Husk Sugar and Gluten Free  Granules  3.5 grams/sachet
+OMCA36304MGEMIS	Omeprazole  Capsules  20 mg (A.A.H. Pharm)
+CACA27007EMIS	Capsuvac  Capsules  
+MACA20101NEMIS	Magnesium Oxide  Capsules  160 mg
+GLOR46465NEMIS	Glycopyrronium Bromide  Oral suspension  2 mg/5 ml
+SICA122381NEMIS	Simalvia  Capsules  60 mg + 300 mg
+CAOI37840MGEMIS	Castor  Oil  BP (A.A.H. Pharm)
+OLTA28177EMIS	Olsalazine Sodium  Tablets  500 mg
+FIGR20244NEMIS	Fibrelief Orange  Granules for Oral Suspension  3.5 grams/sachet
+ANOI183	Anusol  Ointment  
+MEEN28793EMIS	Mesalazine  Enema  2 grams/59 ml
+RATA36862MGEMIS	Ranitidine  Tablets  150 mg (Sandoz)
+MAOR90751NEMIS	Macilax  Oral powder sachets  13.8 grams/sachet
+NATA9179BRIDL	Navispare  Tablets  
+OMCA36315MGEMIS	Omeprazole  Capsules  20 mg (Winthrop Pharmaceuticals )
+GLSU35309MGEMIS	Glycerol (Child)  Suppositories  2 gram (Martindale)
+MACO35864MGEMIS	Magnesium Trisilicate  Compound tablets  (Sussex Pharm)
+ALOI137469NEMIS	Allantoin And Lidocaine  Ointment  0.5 % + 0.5 %
+PRRE2325	Prednisolone  Rectal solution  20 mg/100 ml
+SAGA52634NEMIS	Salofalk  Gastro-resistant M/R granules  3 gram/sachet
+ENEN30006EMIS	Entocort  Enema  20 micrograms/ml, 100 ml enema
+MEM/51816NEMIS	Mesalazine  M/R tablets  1 gram
+FATA35028MGEMIS	Famotidine  Tablets  20 mg (Kent Pharm)
+ANOI4573NEMIS	Anusol Plus Hc  Ointment  
+GLSU10323BRIDL	Glycerol (Infant)  Suppositories  1 gram
+CHCA102390NEMIS	Cholic Acid  Capsules  50 mg
+NICF26997EMIS	Nitrolingual  Cfc-free pump spray  400 micrograms/dose
+SCOI2503	Scheriproct  Ointment  
+ASOR36671NEMIS	Ashton & Parsons Teething Powders  Oral powder sachets  
+RAGR76963NEMIS	Racecadotril  Granules  30 mg/sachet
+SOCA17874NEMIS	Sodium Cromoglicate  Capsules  100 mg
+NOGR20686EMIS	Normacol  Granules  62 %
+SPGR957NEMIS	Spasmonal Fibre  Granules  
+META35927MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Kent Pharm)
+CAOI15278NEMIS	Castor  Oil  BP
+OMCA36328MGEMIS	Omeprazole  Capsules  10 mg (Ranbaxy)
+FLIN4923	Flecainide Acetate  Injection  10 mg/ml, 15 ml ampoule
+SUE/38262MGEMIS	Sulfasalazine  E/c tablets  500 mg (Unichem)
+DOAD345NEMIS	Docusol  Adult Oral Solution  50 mg/5 ml
+FRTA1248	Frusemide  Tablets  20 mg
+COCA34459MGEMIS	Co-Danthrusate 50/60  Capsules  (Unichem)
+APTA78094NEMIS	Apixaban  Tablets  5 mg
+OMCA36320MGEMIS	Omeprazole  Capsules  40 mg (Sterwin Medicines)
+MESU9446EMIS	Mesalazine  Suppositories  250 mg
+GALI34401NEMIS	Gaviscon Double Action Liquid  Liquid (peppermint)  
+FLEN8500BRID	Fletchers Phosphate  Enema  long tube
+SICH85820NEMIS	Simeticone  Chewable tablets  125 mg
+SUTA38264MGEMIS	Sulfasalazine  Tablets  500 mg (A.A.H. Pharm)
+LASO35670MGEMIS	Lactulose  Solution  3.35 g/5 ml (Sandoz)
+HUOR38501NEMIS	Husk  Oral powder  
+OMOR23126NEMIS	Omeprazole  Oral suspension  10 mg/5 ml
+CICH8422EGTON	Cimetidine  Chewable tablets  200 mg
+ALGE3152	Aludrox  Liquid  4 %
+DETA3410	Destolit  Tablets  150 mg
+LOCA35797MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Sandoz)
+MEGA126932NEMIS	Mesalazine  Gastro-resistant Tablets  1 gram
+HYOI20116NEMIS	Hydrocortisone And Lidocaine  Ointment  0.275 % + 5 %
+LIOR35755MGEMIS	Liquid Paraffin  Oral emulsion  (Loveridge)
+GAOR12802NEMIS	Gaviscon Advance  Oral suspension (peppermint)  
+ISDU10518BRIDL	Isosorbide Mononitrate  Durules  60 mg
+DOTA9439HILLI	Doxazosin Mesilate  Tablets  2 mg
+LASO35676MGEMIS	Lactulose  Solution  3.35 g/5 ml (Generics (UK))
+URTA37356MGEMIS	Ursodeoxycholic Acid  Tablets  150 mg (Generics (UK))
+PLOR125042NEMIS	Plenvu  Oral powder sachets  
+SOOR18525NEMIS	Sodium Alginate And Potassium Bicarbonate  Oral Suspension Sugar Free  500 mg/5 ml + 100 mg/5 ml
+GLRE20264NEMIS	Glyceryl Trinitrate  Rectal ointment  0.4 %
+HYSU3723	Hydrocortisone  Suppositories  25 mg
+TITA47517NEMIS	Ticagrelor  Tablets  90 mg
+SASU47513NEMIS	Salofalk  Suppositories  1 gram
+LOCA35806MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Vantage)
+CITA34351MGEMIS	Cimetidine  Tablets  800 mg (Ivax Pharmaceuticals)
+HEDI34660EMIS	Helicobacter Test Infai  Diagnostic Test  
+OMCA36335MGEMIS	Omeprazole  Capsules  10 mg (Sterwin Medicines)
+HIGR76970NEMIS	Hidrasec Infants  Granules  10 mg/sachet
+RATA36858MGEMIS	Ranitidine  Tablets  150 mg (Teva UK)
+ACOR124094NEMIS	Acidex Advance  Oral Suspension (Aniseed)  
+MIEN3922	Micralax Micro-Enema  Enema  
+CITA34349MGEMIS	Cimetidine  Tablets  800 mg (Teva UK)
+KAMI35621MGEMIS	Kaolin And Morphine  Mixture  bp (A.A.H. Pharm)
+OMCA36317MGEMIS	Omeprazole  Capsules  40 mg (Unichem)
+RAOR37835MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (Unichem)
+MASU8408EGTON	Maalox  Suspension  
+CADI12708NEMIS	Calcium Carbonate  Dispersible tablets  250 mg
+MEM/196NEMIS	Mebeverine Hydrochloride  M/R capsules  200 mg
+OMTA14455NEMIS	Omeran  Tablets  20 mg
+SUTA38265MGEMIS	Sulfasalazine  Tablets  500 mg (Generics (UK))
+LIEM35745MGEMIS	Liquid Paraffin And Magnesium Hydroxide  Emulsion  (Unichem)
+NICA8558BRID	Nizatidine  Capsules  300 mg
+URTA128532NEMIS	Urea [13-C]  Tablets  50 mg Breath Test Kit
+CITA34345MGEMIS	Cimetidine  Tablets  400 mg (A.A.H. Pharm)
+SITA16197NEMIS	Simvador  Tablets  40 mg
+CAOI37844MGEMIS	Castor  Oil  BP (William Ransom)
+BURE25775NEMIS	Budenofalk  Rectal Foam Enema  2 mg, 14 dose can
+HITA6655NEMIS	Histac  Tablets  300 mg
+COTA25956EMIS	Co-Magaldrox 300/600  Tablets  
+OCSU139180NEMIS	NULL
+NOSA4771NEMIS	Normacol  Sachets  62 %, 7 grams/sachet
+RATA31415EMIS	Raciran  Tablets  300 mg
+FRIN35076EMIS	Fragmin  Injection  15,000 units/0.6 ml pre-filled syringe
+USCO119022NEMIS	Ustekinumab  Solution for infusion  130 mg/26 ml vial
+VACA29705EMIS	Valsartan  Capsules  160 mg
+LASO35672MGEMIS	Lactulose  Solution  3.35 g/5 ml (Unichem)
+MEM/28977NEMIS	Mesalazine  Gastro-resistant Tablets  800 mg
+SIOR17917NEMIS	Simeticone  Oral Suspension Sugar Free  40 mg/ml
+BISU3248	Bisacodyl  Suppositories  10 mg
+ADM/24028EMIS	Adizem-Xl  M/R capsules  180 mg
+BUGA52601NEMIS	Budesonide  Gastro-resistant Granules  9 mg sachets
+PRFO4199	Predfoam  Foam  20 mg/application
+CITA34354MGEMIS	Cimetidine  Tablets  800 mg (Kent Pharm)
+ZOSU34193EMIS	Zoton  Granules for Oral Suspension (Gastro-Resistant)  30 mg/sachet
+ANSU3175	Anodesyn  Suppositories  
+PRRE30288EMIS	Predenema  Retention enema  long tube, 20 mg/100 ml
+FATA7033	Famotidine  Tablets  20 mg
+VEGA118062NEMIS	Ventra  Gastro-resistant Capsules  40 mg
+PEM/23701EMIS	Pentasa  M/R tablets  500 mg
+RATA36857MGEMIS	Ranitidine  Tablets  150 mg (A.A.H. Pharm)
+MACA12710NEMIS	Magnesium Carbonate Heavy  Capsules  500 mg
+BISU33971MGEMIS	Bisacodyl  Suppositories  10 mg (Kent Pharm)
+ESGA45517NEMIS	Esomeprazole  Gastro-resistant Capsules  20 mg
+ISTA9945BRIDL	Istin  Tablets  10 mg
+OMCA36336MGEMIS	Omeprazole  Capsules  10 mg (Generics (UK))
+LASO23988EMIS	Lactugal  Solution  3.1-3.7 grams/5 ml
+DYTA5853	Dyspamet  Chewable tablets  200 mg
+ATTA231	Atenolol  Tablets  50 mg
+HEDI127884NEMIS	Helicobacter Test Infai For Children  Diagnostic Test  
+META1807	Metoprolol Tartrate  Tablets  50 mg
+RATA36880MGEMIS	Ranitidine  Tablets  300 mg (Goldshield)
+LASY1587	Lactulose  Solution  3.1-3.7 g/5 ml
+GICA117353NEMIS	Gielism  Capsules  60 mg
+COCA34457MGEMIS	Co-Danthrusate 50/60  Capsules  (Kent Pharm)
+GAOR36438NEMIS	Gaviscon Peppermint Liquid Relief  Oral suspension  
+ASSU9152HILLI	Asacol  Suppositories  250 mg
+LASO35675MGEMIS	Lactulose  Solution  3.35 g/5 ml (Alpharma)
+ACTA26302EMIS	Acitak  Tablets  400 mg
+GATA3632	Gastrocote  Tablets  
+AISU29827EMIS	Ailax Forte  Strong Suspension  
+LAOR46483NEMIS	Lansoprazole  Oral solution  15 mg/5 ml
+LOCA35798MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Alpharma)
+RATA34095EMIS	Rabeprazole Sodium  E/c tablets  20 mg
+META35925MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Teva UK)
+PRSU75953NEMIS	Prednisolone Sodium Phosphate  Suppositories  5 mg
+CITA34348MGEMIS	Cimetidine  Tablets  800 mg (Sandoz)
+CITA34350MGEMIS	Cimetidine  Tablets  800 mg (Alpharma)
+HYSU30085NEMIS	Hydrocortisone  Suppositories  100 mg
+PRSU138318NEMIS	Prednisolone Sodium Phosphate (Imported)  Suppositories  5 mg
+FATA35022MGEMIS	Famotidine  Tablets  20 mg (Teva UK)
+WATA3069	Warfarin Sodium  Tablets  3 mg
+COM/101212NEMIS	Cortiment  M/R tablets  9 mg
+DICA15545NEMIS	Diasorb  Capsules  2 mg
+OMCA36331MGEMIS	Omeprazole  Capsules  10 mg (Wockhardt UK)
+CLIN30036EMIS	Clexane  Injection  100 mg/1 ml pre-filled syringe
+SAGA16608NEMIS	Salofalk  Gastro-resistant M/R granules  1000 mg/sachet
+ROTA4291	Robinul  Tablets  2 mg
+GLOR85813NEMIS	Glycopyrronium Bromide  Oral solution  2.5 mg/5 ml
+SARE13433NEMIS	Salofalk Foam  Rectal foam  1 gram/application, 80g (14 dose) canister 
+COSU9619BRIDL	Co-Danthramer 75/1000  Strong Suspension  Sugar Free
+MATA105651NEMIS	Magnesium Oxide  Tablets  160 mg
+DIS/9119EMIS	Diltiazem Hydrochloride  M/R tablets  90 mg
+OCTA121238NEMIS	Ocaliva  Tablets  10 mg
+DICR138660NEMIS	Diltiazem Hydrochloride  Cream  0.2 %
+GLSP1314	Glyceryl Trinitrate  Spray  400 micrograms/dose
+SETA36934MGEMIS	Senna  Tablets  7.5 mg (Kent Pharm)
+RATA36861MGEMIS	Ranitidine  Tablets  150 mg (Ivax Pharmaceuticals)
+COSU16159NEMIS	Coalgicarb  Suspension  
+DIOI46725NEMIS	Diltiazem Hydrochloride  Ointment  2 %
+DIM/18533NEMIS	Dipyridamole And Aspirin  M/R capsules  200 mg + 25 mg
+ALSU3149	Altacite Plus  Suspension  
+TRTA123813NEMIS	Truberzi  Tablets  100 mg
+CITA34334MGEMIS	Cimetidine  Tablets  200 mg (Alpharma)
+SETA51966NEMIS	Senokot Dual Relief  Tablets  
+RAOR77545NEMIS	Ranitidine  Oral solution  5 mg/5 ml
+CITA34341MGEMIS	Cimetidine  Tablets  400 mg (Generics (UK))
+SUE/38260MGEMIS	Sulfasalazine  E/c tablets  500 mg (Kent Pharm)
+PITA2266	Pindolol  Tablets  5 mg
+PHOR16097NEMIS	Phillips Milk of Magnesia  Oral suspension  415 mg/5 ml
+CISU20115NEMIS	Cinchocaine And Prednisolone  Suppositories  1 mg + 1.3 mg
+PROI32869EMIS	Preparation H  Ointment  
+MATA105656NEMIS	Magdose  Tablets  100 mg
+LOTA130758NEMIS	Loperamide Hydrochloride And Simeticone  Tablets  2 mg + 125 mg
+ENSO136657NEMIS	Entyvio  Solution for injection  108 mg/0.68 ml pre-filled syringe
+SPTA2667	Spironolactone  Tablets  25 mg
+RAOR125011NEMIS	Ranitidine  Oral Solution, Sugar Free  150 mg/5 ml
+TITA5452	Timolol Maleate  Tablets  10 mg
+CAOI37843MGEMIS	Castor  Oil  BP (Unichem)
+RATA2433	Ranitidine  Tablets  300 mg
+FYSA1271	Fybogel Orange  Granules  3.5 grams/sachet
+LOTA21150NEMIS	Losartan And Hydrochlorothiazide  Tablets  100 mg + 25 mg
+SAE/20662EMIS	Salofalk  Gastro-resistant Tablets  250 mg
+PRTA9094BRIDL	Prepulsid  Tablets  10 mg
+OBTA121235NEMIS	Obeticholic Acid  Tablets  10 mg
+GATA28650EMIS	Gaviscon  Tablets (lemon)  
+HACA1337	Half Inderal La  M/R capsules  80 mg
+OIIN6308NEMIS	Oily Phenol  Injection  BP 5 %, 5 ml ampoule
+TRCA23771EMIS	Trandolapril  Capsules  1 mg
+SPCA31973EMIS	Spasmonal Forte  Capsules  120 mg
+ORCA102400NEMIS	Orphacol  Capsules  250 mg
+PROR48272NEMIS	Propantheline Bromide  Oral suspension  15 mg/5 ml
+RETA42098NEMIS	Resolor  Tablets  1 mg
+MESO30550NEMIS	Methylnaltrexone Bromide  Solution for injection  12 mg/0.6 ml vial
+OMCA36324MGEMIS	Omeprazole  Capsules  40 mg (A.A.H. Pharm)
+STCO119023NEMIS	Stelara  Concentrate For Solution For Infusion  130 mg/26 ml vial
+OMTA1186NEMIS	Omeprazole  Tablets (Gastro-Resistant)  10 mg
+LOTA1191NEMIS	Losec Mups  Tablets  40 mg
+SOMI29834NEMIS	Sodium Bicarbonate  Mixture  Paediatric
+SOOR17897NEMIS	Sodium Picosulfate  Oral Solution, Sugar Free  5 mg/5 ml
+SAEN28790EMIS	Salofalk  Enema  2 grams/59 ml
+DUOR41121NEMIS	Dulcobalance  Oral powder sachets  10 grams/sachet
+OCGA76942NEMIS	Octasa Mr  Gastro-resistant Tablets  400 mg
+GLSU35307MGEMIS	Glycerol (Child)  Suppositories  2 gram (A.A.H. Pharm)
+WIGE71626NEMIS	Wind-Eze  Gel Capsules  125 mg
+PEOI29389EMIS	Peppermint  Oil  bp
+ESTA5124NEMIS	Esomeprazole  Gastro-resistant Tablets  20 mg
+RITA133943NEMIS	Rizmoic  Tablets  200 micrograms
+MEGA48145NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  40 mg
+DOMI9584EMIS	Docusate Sodium  Micro-enema  120 mg/10 gram enema
+OMOR45586NEMIS	Omeprazole  Oral suspension  5 mg/5 ml
+OMTA14456NEMIS	Omeran  Tablets  40 mg
+PEE/34097EMIS	Peppermint Oil  E/c capsules  0.2 ml
+PECH46537NEMIS	Pepcidtwo  Chewable tablets  
+NICA36246MGEMIS	Nizatidine  Capsules  300 mg (A.A.H. Pharm)
+RAIN36856MGEMIS	Ranitidine  Injection  25 mg/ml, 2 ml ampoule (Goldshield)
+BUTA434	Bumetanide  Tablets  1 mg
+ANOI3174	Anodesyn  Ointment  
+MACO35863MGEMIS	Magnesium Trisilicate  Compound tablets  (Unichem)
+EZTA15252NEMIS	Ezetrol  Tablets  10 mg
+ANSU186	Anusol-Hc  Suppositories  
+PETA10771BRIDL	Peptimax 400  Tablets  400 mg
+PEM/1723NEMIS	Pentasa  M/R granules  1 gram/sachet
+PRTA10180BRIDL	Propranolol Hydrochloride  M/R capsules  80 mg
+NICA36238MGEMIS	Nizatidine  Capsules  150 mg (Ivax Pharmaceuticals)
+FRIN11628NEMIS	Fragmin  Injection  7,500 units/0.3 ml pre-filled syringe
+COCA31631EMIS	Colazide  Capsules  750 mg
+NICA36241MGEMIS	Nizatidine  Capsules  150 mg (Teva UK)
+FATA35021MGEMIS	Famotidine  Tablets  40 mg (A.A.H. Pharm)
+SUE/17828NEMIS	Sulfasalazine  E/c tablets  500 mg
+URCA37352MGEMIS	Ursodeoxycholic Acid  Capsules  250 mg (Unichem)
+SOCA17895NEMIS	Sodium Picosulfate  Capsules  2.5 mg
+URTA32494EMIS	Ursogal  Tablets  150 mg
+ALTA33663MGEMIS	Aluminium Hydroxide  Tablets  Chewable 500 mg (The Boots Company)
+LACA35653MGEMIS	Lansoprazole  Capsules (Gastro-Resistant)  15 mg (Kent Pharm)
+LESU101262NEMIS	Lecicarbon C  Suppositories  
+ANSU3183	Anugesic-Hc  Suppositories  
+NEPO17145NEMIS	Nexium I.V.  Powder For Solution For Injection/Infusion  40 mg vial
+SETA36932MGEMIS	Senna  Tablets  7.5 mg (Alpharma)
+DAIN35083EMIS	Dalteparin Sodium  Injection  12,500 units/0.5 ml pre-filled syringe
+MATA5778	Maalox Tc  Tablets  
+ZATA16093NEMIS	Zantac 75 Relief  Tablets  75 mg
+KAMI37782MGEMIS	Kaolin  Mixture  BP (Thornton & Ross)
+RECH48788NEMIS	Rennie Peppermint  Chewable tablets  
+HYSU35474MGEMIS	Hydrotalcite  Suspension  500 mg/5 ml (A.A.H. Pharm)
+CASUEGTON6074	Carbalax  Suppositories  1.69 grams + 1.08 grams
+RAEF36850MGEMIS	Ranitidine  Effervescent tablets  150 mg (Kent Pharm)
+LILI35752MGEMIS	Liquid Paraffin B.P.  Liquid  (The Boots Company)
+CITA627	Cimetidine  Tablets  400 mg
+CATA483	Captopril  Tablets  25 mg
+RATA36869MGEMIS	Ranitidine  Tablets  300 mg (Unichem)
+SEBA73925NEMIS	Secura  Barrier cream  
+LAOR14900NEMIS	Lansoprazole  Orodispersible tablets (Gastro-Resistant)  30 mg
+ALCA4572	Aluminium Hydroxide  Capsules  475 mg
+ALTA5798	Algicon  Tablets  
+ZICR132971NEMIS	Zinc Oxide And Lidocaine  Cream  6.6 % + 0.7 %
+NICA138312NEMIS	Nizatidine (Imported)  Capsules  150 mg
+BETA17553NEMIS	Bendroflumethiazide  Tablets  2.5 mg
+ANSU4571NEMIS	Anusol Plus Hc  Suppositories  
+ZOCA24444EMIS	Zoton  Capsules (Gastro-Resistant)  30 mg
+URTA78637NEMIS	Ursodeoxycholic Acid  Tablets  500 mg
+NICA36236MGEMIS	Nizatidine  Capsules  150 mg (Alpharma)
+GLSU37809MGEMIS	Glycerol (Adult)  Suppositories  4 gram (A.A.H. Pharm)
+MITA14653NEMIS	Micardis Plus  Tablets  80 mg/12.5 mg
+SEGR5089NEMIS	Senna And Ispaghula  Granules  12.4 % + 54.2 %
+SAGA16609NEMIS	Salofalk  Gastro-resistant M/R granules  500 mg/sachet
+PLTA34066EMIS	Plavix  Tablets  75 mg
+MOTA104791NEMIS	Moventig  Tablets  12.5 mg
+WICH85821NEMIS	Wind-Eze  Chewable tablets  125 mg
+XECA52615NEMIS	Xenbilox  Capsules  250 mg
+ADTA9102HILLI	Adizem-Sr  M/R tablets  120 mg
+TRTI12696NEMIS	Tritace  Titration pack  7 x 2.5 mg, 21 x 5 mg, 7 x 10 mg
+GAPO33671EMIS	Gaviscon Infant  Powder  
+ISSA25806EMIS	Ispaghula Husk  Oral Powder Sugar And Gluten Free  6 grams/sachet
+DITA19083NEMIS	Diovan  Tablets  40 mg
+PYDI34662EMIS	Pylobactell  Diagnostic Test  
+LITA30125EMIS	Lipitor  Tablets  20 mg
+NACA4009	Nalcrom  Capsules  100 mg
+FLRE6306NEMIS	Fletchers Arachis Oil  Retention enema  130 ml
+DULI44988NEMIS	Dulcolax Pico  Liquid  5 mg/5 ml
+PACA22006EMIS	Pancrease Hl  Capsules (Gastro-Resistant)  
+DYSU10204BRIDL	Dyspamet  Suspension  
+VESO136656NEMIS	Vedolizumab  Solution for injection  108 mg/0.68 ml pre-filled disposable device
+FRIN209NEMIS	Fragmin  Injection  10,000 units/1 ml, graduated pre-filled syringe
+ELTA51809NEMIS	Eliquis  Tablets  2.5 mg
+ACOR21514NEMIS	Acidex  Oral suspension  Aniseed
+LUCA82699NEMIS	Lubiprostone  Capsules  24 micrograms
+RAOR37836MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (A.A.H. Pharm)
+LITA18535NEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+DUPA8993EGTON	Dulcolax  Paediatric suppositories  5 mg
+BUOR127694NEMIS	Budesonide  Orodispersible Tablets (Sugar Free)  1 mg
+SITA10078BRIDL	Simvastatin  Tablets  20 mg
+GESU3495NEMIS	Germoloids  Suppositories  
+OMCA36327MGEMIS	Omeprazole  Capsules  40 mg (Winthrop Pharmaceuticals )
+LAOR33492NEMIS	Laxido Natural  Oral powder  13.7 grams/sachet
+KALI1542	Kaolin Mixture Paediatric  Liquid  
+CATA31824EMIS	Candesartan Cilexetil  Tablets  16 mg
+VATA18545NEMIS	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 12.5 mg
+OMCA36325MGEMIS	Omeprazole  Capsules  40 mg (Sandoz)
+MOPO76087NEMIS	Movicol Paediatric Chocolate  Powder sachets  6.9 grams/sachet
+PACA2154	Pancrex V  Capsules  
+BIE/33987MGEMIS	Bisacodyl  E/c tablets  5 mg (Unichem)
+CAE/28376EMIS	Caprin  E/c tablets  75 mg
+URCA4482	Ursofalk  Capsules  250 mg
+NUCA9019EGTON	Nutrizym Gr  Capsules+e/c pellets  
+GEOI78295NEMIS	Germoloids  Ointment  
+OMCA36309MGEMIS	Omeprazole  Capsules  20 mg (Ranbaxy)
+SETA139562NEMIS	NULL
+RATA16399NEMIS	Ramipril  Tablets  1.25 mg
+ASLI15745NEMIS	Asilone Heartburn  Liquid  
+RATA36871MGEMIS	Ranitidine  Tablets  300 mg (A.A.H. Pharm)
+MELI10477BRIDL	Mebeverine  Oral Suspension Sugar Free  50 mg/5 ml
+COCA78564NEMIS	Constella  Capsules  290 micrograms
+COOR90153NEMIS	Cosmocol Orange Flavour  Oral powder sachets  
+SUE/38263MGEMIS	Sulfasalazine  E/c tablets  500 mg (Generics (UK))
+CAOI37841MGEMIS	Castor  Oil  BP (Loveridge)
+CIOR46556NEMIS	Citrafleet  Oral powder  15.08 gram sachets
+BIE/33986MGEMIS	Bisacodyl  E/c tablets  5 mg (Kent Pharm)
+KAMI35624MGEMIS	Kaolin And Morphine  Mixture  bp (Unichem)
+OMOR135579NEMIS	Omeprazole  Oral Suspension Sugar Free  10 mg/5 ml
+IVTA21628NEMIS	Ivabradine  Tablets  5 mg
+MAOR124312NEMIS	Maalox  Oral suspension  175 mg/5 ml + 200 mg/5 ml
+DIM/30709EMIS	Dipyridamole  M/R capsules  200 mg
+ATTA10910BRIDL	Atenolol  Tablets  25 mg
+LOCA35805MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Kent Pharm)
+RAOR37834MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (Rosemont Pharm)
+CAOR29079NEMIS	Califig California Syrup Of Figs  Oral solution  2.5 mg/5 ml
+RACA8952EMIS	Ramipril  Capsules  5 mg
+NUCA21978EMIS	Nutrizym 22  Capsules  
+ANSU184	Anusol  Suppositories  
+HETA11588NEMIS	Helimet  Tablets And Capsules  
+LASO35671MGEMIS	Lactulose  Solution  3.35 g/5 ml (A.A.H. Pharm)
+ATTA33904MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Kent Pharm)
+MEGA16606NEMIS	Mesalazine  Gastro-resistant M/R granules  1000 mg/sachet
+OMTA1187NEMIS	Omeprazole  Tablets (Gastro-Resistant)  20 mg
+TRTA5463	Tranexamic Acid  Tablets  500 mg
+RESO35055EMIS	Regulose  Solution  3.35 grams/5 ml
+SOOR40340NEMIS	Sodibic  Oral solution  1 mmol/ml
+RATA36865MGEMIS	Ranitidine  Tablets  150 mg (Ranbaxy)
+BISU88717NEMIS	Bismuth Subgallate  Suppositories  300 mg
+MACO5091NEMIS	Macrogol  Compound Oral Powder (sachets)  NPF Sugar Free
+CLIN12835NEMIS	Clexane Forte  Injection  120 mg/0.8 ml, pre-filled syringe
+SESA5090NEMIS	Senna And Ispaghula  Sachets  12.4 % + 54.2 %, 4 grams/sachet
+LOCA9369BRIDL	Losec  Capsules  20 mg
+SUOR136318NEMIS	Sucralfate  Oral suspension  1 gram/5 ml
+ANTA9568BRIDL	Angettes 75  Tablets  75 mg
+OMCA36305MGEMIS	Omeprazole  Capsules  20 mg (Unichem)
+FYEF82076NEMIS	Fybogel Hi-Fibre  Effervescent granules (orange)  3.5 gram sachet
+OMPO4912NEMIS	Omeprazole  Powder with solvent for injection  40 mg vial
+COCA34456MGEMIS	Co-Danthrusate 50/60  Capsules  (A.A.H. Pharm)
+SITA29406EMIS	Simvastatin  Tablets  40 mg
+BUCA35547EMIS	Budesonide  Capsules (Gastro-Resistant)  3 mg
+GLOR85811NEMIS	Glycopyrronium Bromide  Oral suspension  2.5 mg/5 ml
+SAEN2477	Salazopyrin  En-tablets  500 mg
+OMCA36329MGEMIS	Omeprazole  Capsules  10 mg (Ivax Pharmaceuticals)
+NOGR8981EGTON	Normacol Plus  Granules  
+RATA36866MGEMIS	Ranitidine  Tablets  150 mg (Alpharma)
+NOSU25393EMIS	Normax  Suspension  
+PAPO9015EGTON	Pancrex V  Powder  
+NICA36240MGEMIS	Nizatidine  Capsules  150 mg (A.A.H. Pharm)
+PEPO36819NEMIS	Pectigel  Powder  
+DOM/6439NEMIS	Doxazosin Mesilate  M/R tablets  4 mg
+COTA9352HILLI	Co-Phenotrope 2.5/0.025  Tablets  
+LOIN932NEMIS	Losec  Powder for solution for infusion  40 mg vial
+MAOR13791NEMIS	Macrogol  Oral Powder (sachets)  10 grams/sachet (Macrogol 4000)
+RATA35233EMIS	Ranitidine  Tablets  75 mg
+ZOOR14902NEMIS	Zoton Fastab  Orodispersible tablets (Gastro-Resistant)  15 mg
+MALI35868MGEMIS	Magnesium Trisilicate Mixture  Liquid  (Unichem)
+PHOR123999NEMIS	Phospho-Soda  Oral solution  24.4 gram + 10.8 gram
+CLIN9280EMIS	Clexane  Injection  20 mg/0.2 ml pre-filled syringe
+RAEF17935EMIS	Ranitidine  Effervescent tablets  150 mg
+ISEF12657NEMIS	Ispaghula Husk Sugar and Gluten Free  Effervescent granules  3.5 grams/sachet
+MATA1720	Marevan  Tablets  1 mg
+UNSU21984EMIS	Uniroid Hc  Suppositories  
+NICA36244MGEMIS	Nizatidine  Capsules  300 mg (Unichem)
+RAEF36854MGEMIS	Ranitidine  Effervescent tablets  300 mg (Alpharma)
+OMCA36333MGEMIS	Omeprazole  Capsules  10 mg (Kent Pharm)
+RAEF36849MGEMIS	Ranitidine  Effervescent tablets  150 mg (Sandoz)
+TETA2801	Tenormin Ls  Tablets  50 mg
+RETA48792NEMIS	Rennie Fruit  Tablets  500 mg
+RATA2432	Ranitidine  Tablets  150 mg
+SUSU22836EMIS	Sucralfate  Oral Suspension Sugar Free  1 gram/5 ml
+FATA35019MGEMIS	Famotidine  Tablets  40 mg (Generics (UK))
+NATA104789NEMIS	Naloxegol Oxalate  Tablets  25 mg
+ISS/9640HILLI	Isosorbide Mononitrate  M/R tablets  60 mg
+SUSU17835NEMIS	Sulfasalazine  Suspension  250 mg/5 ml
+URTA117914NEMIS	Ursodeoxycholic Acid  Tablets  250 mg
+GLSU37805MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Ivax Pharmaceuticals)
+VIOR123763NEMIS	Vistaprep  Oral powder  110 gram sachet
+TRTA5479	Tripotassium Dicitratobismuthate  Tablets  120 mg
+CITA34340MGEMIS	Cimetidine  Tablets  400 mg (Unichem)
+NICA36250MGEMIS	Nizatidine  Capsules  300 mg (Sandoz)
+ZITA23672EMIS	Zita  Tablets  400 mg
+DIOR17626NEMIS	Dicycloverine  Oral solution  10 mg/5 ml
+PRSU8641EGTON	Predsol  Suppositories  5 mg
+PATA199NEMIS	Pantoprazole  Gastro-resistant Tablets  20 mg
+MACO8931EGTON	Magnesium Trisilicate  Compound powder  
+OMCA36321MGEMIS	Omeprazole  Capsules  40 mg (Generics (UK))
+CYTA8308EGTON	Cytotec  Tablets  200 micrograms
+PRTA10455HILLI	Pravastatin  Tablets  10 mg
+SESY2534	Senna  Oral Solution, Sugar Free  7.5 mg/5 ml
+PRIN35342EMIS	Protium I.V.  Powder For Solution For Injection  40 mg/vial
+SOOR138938NEMIS	Sodium Cromoglicate  Oral Solution, Sugar Free  100 mg/5 ml unit dose ampoule
+FRIN35077EMIS	Fragmin  Injection  18,000 units/0.72 ml pre-filled syringe
+ASTA15744NEMIS	Asilone Heartburn  Tablets  
+GLSU37807MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Unichem)
+MESU24200EMIS	Mesalazine  Suppositories  1 gram
+VEPO90870NEMIS	Vedolizumab  Powder for solution for infusion  300 mg vial
+BISU33972MGEMIS	Bisacodyl  Suppositories  10 mg (Unichem)
+CITA34352MGEMIS	Cimetidine  Tablets  800 mg (Unichem)
+ATTA33902MGEMIS	Atropine Sulfate  Tablets  600 micrograms (A.A.H. Pharm)
+SESY138550NEMIS	Senokot 12 Years Plus  Syrup  7.5 mg/5 ml
+SETA36935MGEMIS	Senna  Tablets  7.5 mg (Thornton & Ross)
+COCA34448MGEMIS	Co-Danthramer Strong  Capsules  (Napp)
+LOTA1687	Lomotil  Tablets  
+LITA8608EGTON	Lisinopril  Tablets  10 mg
+SETA36937MGEMIS	Senna  Tablets  7.5 mg (Aspar)
+RECH51625NEMIS	Remegel  Chewable tablets  800 mg, mint
+ROTA15071NEMIS	Rosuvastatin  Tablets  20 mg
+BUEN30008EMIS	Budesonide  Enema  20 micrograms/ml, 100 ml enema
+BURE25774NEMIS	Budesonide  Rectal Foam Enema  2 mg, 14 dose can
+AXCA9142BRIDL	Axid  Capsules  300 mg
+FRSO34644EMIS	Frusol  Solution  20 mg/5 ml
+SPCA4334	Spasmonal  Capsules  60 mg
+URTA37355MGEMIS	Ursodeoxycholic Acid  Tablets  150 mg (Unichem)
+IMCA125201NEMIS	Imodium Ibs Relief  Capsules  2 mg
+OMCA36318MGEMIS	Omeprazole  Capsules  40 mg (Kent Pharm)
+CITA138193NEMIS	Cimetidine (Imported)  Tablets  800 mg
+SOOR40338NEMIS	Sodium Bicarbonate  Oral Solution, Sugar Free  1 mmol/ml
+EMTA8949BRIDL	Bisoprolol Fumarate  Tablets  10 mg
+URTA32286EMIS	Ursodeoxycholic Acid  Tablets  300 mg
+RATA36873MGEMIS	Ranitidine  Tablets  300 mg (Alpharma)
+SOCH19664NEMIS	Sodium Alginate And Potassium Bicarbonate  Chewable Tablets Sugar Free  500 mg + 100 mg
+HYRE18529NEMIS	Hydrocortisone And Pramocaine  Rectal foam  1 % + 1 % per dose
+GLOR89408NEMIS	Glycopyrronium Bromide  Oral suspension  500 micrograms/5 ml
+S-OR140363NEMIS	NULL
+CITA34329MGEMIS	Cimetidine  Tablets  200 mg (Generics (UK))
+MEOR33484NEMIS	Mesalazine  Oral suspension  500 mg/5 ml
+SETA36931MGEMIS	Senna  Tablets  7.5 mg (A.A.H. Pharm)
+MOTA1866	Moduret 25  Tablets  
+ALTA6749	Alexitol Sodium  Tablets  360 mg
+ASM/28978NEMIS	Asacol Mr  Gastro-resistant Tablets  800 mg
+RATA36872MGEMIS	Ranitidine  Tablets  300 mg (Ranbaxy)
+LITA8611EGTON	Lisinopril  Tablets  5 mg
+COOR124311NEMIS	Co-Magaldrox 175/200  Oral Suspension Sugar Free  
+FATA35020MGEMIS	Famotidine  Tablets  40 mg (Teva UK)
+CIIN623	Cimetidine  Injection  100 mg/ml, 2 ml ampoule
+NICA36239MGEMIS	Nizatidine  Capsules  150 mg (Unichem)
+BIOR33332NEMIS	Bismuth Subsalicylate  Oral Suspension Sugar Free  87.5 mg/5 ml
+MEGA27795NEMIS	Mezavant Xl  Gastro-resistant M/R Tablets  1.2 grams
+IMCA52818NEMIS	Imodium Classic  Capsules  2 mg
+AMCA82702NEMIS	Amitiza  Capsules  24 micrograms
+COOR100555NEMIS	Cosmocol Plain  Oral powder  
+PETA5855	Pepcid  Tablets  20 mg
+PRSU20313EMIS	Prepulsid  Suspension  5 mg/5 ml
+MOLI51058NEMIS	Movicol  Liquid  
+STSA5086NEMIS	Sterculia And Frangula  Sachets  62 % + 8 %, 7 grams/sachet, gluten free
+SUEN78641NEMIS	Sucralfate  Enema  2 gram/20 ml
+MACO35861MGEMIS	Magnesium Trisilicate  Compound tablets  (A.A.H. Pharm)
+FATA10123BRIDL	Famotidine  Tablets  40 mg
+MAOR122375NEMIS	Macrogol 3350  Oral Powder, Sugar Free  8.5 gram sachet
+URTA5490	Ursodeoxycholic Acid  Tablets  150 mg
+KAMI3796	Kaodene  Mixture  
+RACA57NEMIS	Ramipril  Capsules  10 mg
+MOOR117669NEMIS	Molative Paediatric  Oral powder  6.9 gram sachet
+RATA16402NEMIS	Ramipril  Tablets  10 mg
+URSU1906NEMIS	Ursodeoxycholic Acid  Sugar-free suspension  250 mg/5 ml
+PELI20930NEMIS	Peptac  Liquid (peppermint)  
+ALTA10467BRIDL	Alimix  Tablets  10 mg
+CIPO27040NEMIS	Citrafleet  Powder For Oral Solution  16.11 gram sachets
+MALI35866MGEMIS	Magnesium Trisilicate Mixture  Liquid  (Vantage)
+PRTA2393	Propranolol Hydrochloride  Tablets  10 mg
+ENIN9286EMIS	Enoxaparin  Injection  40 mg/0.4 ml pre-filled syringe
+RATA36877MGEMIS	Ranitidine  Tablets  300 mg (Ivax Pharmaceuticals)
+GLOR42931NEMIS	Glycopyrronium Bromide  Oral solution  500 micrograms/5 ml
+COSA21955EMIS	Colestid Orange  Sachets  5 grams/sachet
+CLIN12836NEMIS	Clexane Forte  Injection  150 mg/1 ml, pre-filled syringe
+CACH51623NEMIS	Calcium Carbonate  Chewable tablets  800 mg
+SOTA6816	Sotalol Hydrochloride  Tablets  40 mg
+MEM/98847NEMIS	Mesalazine  M/R Granules Sugar Free  4 gram/sachet
+RAEF36855MGEMIS	Ranitidine  Effervescent tablets  300 mg (Unichem)
+LOPO4911NEMIS	Losec  Powder with solvent for injection  40 mg vial
+OMCA36307MGEMIS	Omeprazole  Capsules  20 mg (Sterwin Medicines)
+RESA28574EMIS	Regulan  Sachets (lemon/lime)  3.4 grams/sachet
+VATA19082NEMIS	Valsartan  Tablets  40 mg
+URTA32284EMIS	Urdox  Tablets  300 mg
+FYEF23543EMIS	Fybogel Mebeverine  Effervescent granules  
+FLEN3596	Fletchers Phosphate  Enema  standard tube
+SETA20931NEMIS	Senna  Tablets  15 mg
+DOPA542NEMIS	Docusate Sodium  Paediatric Oral Solution  Sugar Free 12.5 mg/5 ml
+MEGA133916NEMIS	Mesalazine  Gastro-resistant Tablets  1.6 grams
+FRTA1249	Frusemide  Tablets  40 mg
+XETA124811NEMIS	Xermelo  Tablets  250 mg
+BEME124791NEMIS	Belladonna  Medicated Plaster  9.5 cm x 12.5 cm
+CIEF9243EMIS	Cimetidine  Effervescent tablets  400 mg
+CIEF9052EMIS	Citramag  Effervescent powder  sachets
+URSU1907NEMIS	Ursofalk  Sugar-free suspension  250 mg/5 ml
+PRFO5322	Prednisolone  Foam  20 mg/application
+LOTA37619MGEMIS	Loperamide Hydrochloride  Tablets  2 mg (Unichem)
+CISU19977NEMIS	Cinchocaine Hydrochloride And Hydrocortisone  Suppositories  5 mg + 5 mg
+MEFO24953EMIS	Mesalazine  Foam enema  1 gram per dose
+LACA24446EMIS	Lansoprazole  Capsules (Gastro-Resistant)  30 mg
+DICA24276EMIS	Diocaps  Capsules  2 mg
+TATA2777	Tagamet  Tablets  800 mg
+ACOR124095NEMIS	Acidex Advance  Oral suspension (peppermint)  
+MALI35867MGEMIS	Magnesium Trisilicate Mixture  Liquid  (Thornton & Ross)
+CITA34355MGEMIS	Cimetidine  Tablets  800 mg (Ranbaxy)
+OMIN931NEMIS	Omeprazole  Powder for solution for infusion  40 mg vial
+SAGA47515NEMIS	Salofalk  Gastro-resistant Tablets  500 mg
+NICA36235MGEMIS	Nizatidine  Capsules  150 mg (Kent Pharm)
+ENIN3348NEMIS	Enoxaparin  Injection  120 mg/0.8 ml pre-filled syringe
+ESTA5126NEMIS	Esomeprazole  Gastro-resistant Tablets  40 mg
+GACH19665NEMIS	Gaviscon Advance  Chewable Tablets Sugar Free  Mint
+PRTA2395	Propranolol Hydrochloride  Tablets  40 mg
+DACA51688NEMIS	Dabigatran Etexilate  Capsules  150 mg
+ZAIN3089	Zantac  Solution for injection  25 mg/ml, 2 ml ampoule
+PETA9809HILLI	Perindopril Erbumine  Tablets  2 mg
+ANSU22834EMIS	Antepsin  Suspension  1 gram/5 ml
+GLSU35300MGEMIS	Glycerol (Infant)  Suppositories  1 gram (A.A.H. Pharm)
+FIGR20242NEMIS	Fibrelief  Granules for Oral Suspension  Natural, 3.5 grams/sachet
+GALI8405EGTON	Gastrocote  Liquid  
+MACA83102NEMIS	Magnesite  Capsules  500 mg
+ANSU19252NEMIS	Antacid And Oxetacaine  Oral suspension  
+LIOR10494BRIDL	Liquid Paraffin  Oral emulsion  
+MEGA52633NEMIS	Mesalazine  Gastro-resistant M/R granules  3 gram/sachet, sugar free
+PAIN35340EMIS	Pantoprazole  Powder For Solution For Injection  40 mg/vial
+GALI34400NEMIS	Gaviscon Double Action Liquid  Liquid (aniseed)  
+RAEF36847MGEMIS	Ranitidine  Effervescent tablets  150 mg (Alpharma)
+COCA34444MGEMIS	Co-Danthramer 25/200  Capsules  (Napp)
+LOOR89412NEMIS	Loperamide Hydrochloride  Oral solution  25 mg/5 ml
+ORCU76740NEMIS	Ortisan Fruits And Fibre  Cubes  
+BISU33970MGEMIS	Bisacodyl  Suppositories  10 mg (A.A.H. Pharm)
+ASE/24520EMIS	Aspirin  E/c tablets  75 mg
+MATA105657NEMIS	Magdose  Tablets  160 mg
+MATA3861	Maalox Plus  Tablets  
+DICA23705EMIS	Dioctyl  Capsules  100 mg
+OMCA36340MGEMIS	Omeprazole  Capsules  10 mg (Winthrop Pharmaceuticals )
+SUTA38267MGEMIS	Sulfasalazine  Tablets  500 mg (Alpharma)
+CAOI37842MGEMIS	Castor  Oil  BP (Thornton & Ross)
+GLOR27610NEMIS	Glycopyrronium Bromide  Oral solution  1 mg/5 ml
+GATA28651EMIS	Gaviscon  Tablets (peppermint)  
+OCTA121237NEMIS	Ocaliva  Tablets  5 mg
+ASTA5694	Aspirin Dispersible Low Dose  Tablets  75 mg
+ANTA5865	Antepsin  Tablets  1 g
+JOOR127696NEMIS	Jorveza  Orodispersible tablets  1 mg
+DOAD347NEMIS	Docusate Sodium  Adult Oral Solution  Sugar Free 50 mg/5 ml
+SOOR45628NEMIS	Sodium Bicarbonate  Oral suspension  420 mg/5 ml (1 mmol/ml)
+OMCA36323MGEMIS	Omeprazole  Capsules  40 mg (Teva UK)
+PATA34090EMIS	Pariet  E/c tablets  10 mg
+BIOR45704NEMIS	Bisacodyl  Oral suspension  2.5 mg/5 ml
+PEE/4784NEMIS	Peppermint Oil  E/C, M/R capsules  0.2 ml
+PELI34113EMIS	Peptac  Liquid  (aniseed)
+SASU4298	Salazopyrin  Suppositories  500 mg
+ZATA32170EMIS	Zaedoc 150  Tablets  150 mg
+OMCA36334MGEMIS	Omeprazole  Capsules  10 mg (Unichem)
+OMCA36311MGEMIS	Omeprazole  Capsules  20 mg (Wockhardt UK)
+IZCO106511NEMIS	Izinova  Concentrate For Oral Solution  
+GACH135296NEMIS	Gaviscon Double Action  Chewable tablets  Mixed Berries
+GLSU35302MGEMIS	Glycerol (Infant)  Suppositories  1 gram (Martindale)
+CLTA30106NEMIS	Clopidogrel  Tablets  300 mg
+CATA31825EMIS	Candesartan Cilexetil  Tablets  2 mg
+DITA17628NEMIS	Dicycloverine  Tablets  20 mg
+BACA31633EMIS	Balsalazide Sodium  Capsules  750 mg
+CITA34346MGEMIS	Cimetidine  Tablets  400 mg (Kent Pharm)
+IRTA31578EMIS	Irbesartan  Tablets  75 mg
+MEM/23703EMIS	Mesalazine  M/R tablets  500 mg
+ATTA230	Atenolol  Tablets  100 mg
+ZIGA134768NEMIS	Zintasa Ec  Gastro-resistant Tablets  400 mg
+SAGA126933NEMIS	Salofalk  Gastro-resistant Tablets  1 gram
+BITA381	Bisacodyl  E/c tablets  5 mg
+LACA35652MGEMIS	Lansoprazole  Capsules (Gastro-Resistant)  30 mg (Kent Pharm)
+MOOR38718NEMIS	Molaxole  Oral powder  13.8 grams/sachet
+CITA34337MGEMIS	Cimetidine  Tablets  200 mg (Teva UK)
+SEGR2537	Senokot  Granules  15 mg/5 ml
+SCSU2504	Scheriproct  Suppositories  
+RACA8950EMIS	Ramipril  Capsules  1.25 mg
+CITA10337BRIDL	Cisapride  Tablets  10 mg
+OCGA133917NEMIS	Octasa Mr  Gastro-resistant Tablets  1.6 grams
+OMCA36308MGEMIS	Omeprazole  Capsules  20 mg (Ivax Pharmaceuticals)
+AUCA51042NEMIS	Audmonal  Capsules  60 mg
+ARMI5902	Aromatic Chalk With Opium  Mixture  
+ROTA15072NEMIS	Rosuvastatin  Tablets  40 mg
+UNOI21983EMIS	Uniroid Hc  Ointment  
+PRTA5341	Propantheline Bromide  Tablets  15 mg
+GACH36665NEMIS	Gaviscon Cool  Chewable tablets  
+GLOI11103NEMIS	Glyceryl Trinitrate  Ointment  0.2 %
+CHTA116562NEMIS	Cholurso  Tablets  500 mg
+LASO35673MGEMIS	Lactulose  Solution  3.35 g/5 ml (Ivax Pharmaceuticals)
+NACA10574BRIDL	Naftidrofuryl Oxalate  Capsules  100 mg
+LAOR45103NEMIS	Laxido Orange  Oral Powder Sachets Sugar Free  
+GESP15486NEMIS	Germoloids Hc  Spray  
+EMGA45519NEMIS	Emozul  Gastro-resistant Capsules  20 mg
+CITA34331MGEMIS	Cimetidine  Tablets  200 mg (Kent Pharm)
+FATA138196NEMIS	Famotidine (Imported)  Tablets  40 mg
+ALTA3157	Aluminium Hydroxide  Tablets  Chewable 500 mg
+PETA9082BRIDL	Pepcid  Tablets  40 mg
+COCA26267EMIS	Co-Danthramer Strong  Capsules  37.5 mg + 500 mg
+PRTA29717EMIS	Protium  E/c tablets  40 mg
+SITA10076BRIDL	Simvastatin  Tablets  10 mg
+MEM/30152NEMIS	Mesalazine  M/R Granules Sugar Free  2 gram/sachet
+BIEN126277NEMIS	Bisacodyl  Enema  10 mg/30 ml
+EZTA15249NEMIS	Ezetimibe  Tablets  10 mg
+BUCA35545EMIS	Budenofalk  Capsules (Gastro-Resistant)  3 mg
+SETA2539	Senokot  Tablets  7.5 mg
+DECO1115NEMIS	Dentinox  Colic Drops  21 mg/2.5 ml
+BIRE30577EMIS	Bisacodyl  Rectal solution  0.274 %
+RAEF36846MGEMIS	Ranitidine  Effervescent tablets  150 mg (A.A.H. Pharm)
+NICA6794	Nizatidine  Capsules  150 mg
+COOR88761NEMIS	Cosmocol Orange Lemon And Lime  Oral powder sachets  
+ENSO136658NEMIS	Entyvio  Solution for injection  108 mg/0.68 ml pre-filled pen
+RAEF36852MGEMIS	Ranitidine  Effervescent tablets  300 mg (Sandoz)
+BIE/33984MGEMIS	Bisacodyl  E/c tablets  5 mg (A.A.H. Pharm)
+GLSU37806MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Alpharma)
+SATA2478	Salazopyrin  Tablets  500 mg
+SUTA38268MGEMIS	Sulfasalazine  Tablets  500 mg (Unichem)
+MACA105654NEMIS	Magdose  Capsules  160 mg
+PAGR10592BRIDL	Pancrex  Granules  
+ATTA33905MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Unichem)
+ASTA139731NEMIS	NULL
+LASO35668MGEMIS	Lactulose  Solution  3.35 g/5 ml (Kent Pharm)
+PEM/51815NEMIS	Pentasa  M/R tablets  1 gram
+GACH36668NEMIS	Gaviscon Extra Strength  Chewable tablets  Lemon
+BETA302	Bendrofluazide  Tablets  2.5 mg
+COOR100557NEMIS	Cosmocol Half  Oral powder  6.9 grams/sachet
+GLOR38707NEMIS	Glycopyrronium Bromide  Oral suspension  1 mg/5 ml
+NOMI9581EMIS	Norgalax  Micro-enema  120 mg/10 gram enema
+META10038BRIDL	Merbentyl  Tablets  20 mg
+META1734	Mebeverine Hydrochloride  Tablets  135 mg
+LITA8609EGTON	Lisinopril  Tablets  2.5 mg
+ZICA26141EMIS	Zinga  Capsules  150 mg
+EMGA45520NEMIS	Emozul  Gastro-resistant Capsules  40 mg
+MICA5851	Mintec  E/c capsules  0.2 ml
+DITA28175EMIS	Dipentum  Tablets  500 mg
+NUE/24518EMIS	Nu-Seals Aspirin  E/c tablets  75 mg
+LILI35746MGEMIS	Liquid Paraffin B.P.  Liquid  (A.A.H. Pharm)
+DIM/30235EMIS	Diltiazem Hydrochloride  M/R tablets  60 mg
+LOTA796NEMIS	Loperamide Hydrochloride  Tablets  2 mg
+AMTA113	Amiodarone  Tablets  200 mg
+SUE/38259MGEMIS	Sulfasalazine  E/c tablets  500 mg (A.A.H. Pharm)
+AUCA51044NEMIS	Audmonal Forte  Capsules  120 mg
+LAOR46484NEMIS	Lansoprazole  Oral suspension  15 mg/5 ml
+DUTA1005	Dulcolax  E/c tablets  5 mg
+CITA138191NEMIS	Cimetidine (Imported)  Tablets  200 mg
+ROTA21335NEMIS	Rosuvastatin  Tablets  5 mg
+BITA2332NEMIS	Bisoprolol Fumarate  Tablets  1.25 mg
+KAMI37783MGEMIS	Kaolin  Mixture  BP (Unichem)
+GLOR36209NEMIS	Glycopyrronium Bromide  Oral solution  5 mg/5 ml
+SAGA33313NEMIS	Salofalk  Gastro-resistant M/R granules  1.5 gram/sachet
+MATA1721	Marevan  Tablets  3 mg
+VACA29706EMIS	Valsartan  Capsules  40 mg
+ENTA1060	Enalapril Maleate  Tablets  10 mg
+TRTA123812NEMIS	Truberzi  Tablets  75 mg
+PROI2360	Proctosedyl  Ointment  
+IRTA31576EMIS	Irbesartan  Tablets  150 mg
+ASFO24951EMIS	Asacol  Foam enema  1 gram per dose
+LOOR20144NEMIS	Loperamide Hydrochloride  Oral suspension  25 mg/5 ml
+CITA626	Cimetidine  Tablets  200 mg
+FEM/29632EMIS	Felodipine  M/R tablets  2.5 mg
+FATA35015MGEMIS	Famotidine  Tablets  40 mg (Kent Pharm)
+DYTA17494NEMIS	Dymotil  Tablets  
+SICA71624NEMIS	Simeticone  Capsules  125 mg
+ISGR1525	Ispaghula Husk  Granules  Sugar Free 90 %
+STGR5085NEMIS	Sterculia And Frangula  Granules  62 % + 8 %, gluten free
+LAOR52766NEMIS	Lactulose  Oral solution  10 grams/15 ml sachets, sugar free
+LASO35674MGEMIS	Lactulose  Solution  3.35 g/5 ml (Teva UK)
+SOSU21764NEMIS	Sodium Acid Phosphate And Sodium Bicarbonate  Suppositories  1.69 grams + 1.08 grams
+LIEM35744MGEMIS	Liquid Paraffin And Magnesium Hydroxide  Emulsion  (Loveridge)
+CRGA18519NEMIS	Creon Micro  Gastro-resistant Granules  
+COCA34446MGEMIS	Co-Danthramer 25/200  Capsules  (Unichem)
+LICA78561NEMIS	Linaclotide  Capsules  290 micrograms
+BICH33330NEMIS	Bismuth Subsalicylate  Chewable Tablets Sugar Free  262.5 mg
+SITA2579	Sinthrome  Tablets  1 mg
+TAEF9241EMIS	Tagamet  Effervescent tablets  400 mg
+CAOR45711NEMIS	Calcium Carbonate  Oral suspension  120 mg/5 ml
+RATA36864MGEMIS	Ranitidine  Tablets  150 mg (Kent Pharm)
+META35926MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Alpharma)
+CITA34333MGEMIS	Cimetidine  Tablets  200 mg (Unichem)
+VACA29707EMIS	Valsartan  Capsules  80 mg
+CRCA20331EMIS	Creon 25000  Capsules  
+ZATA3091	Zantac  Tablets  300 mg
+COCA34458MGEMIS	Co-Danthrusate 50/60  Capsules  (Winthrop Pharmaceuticals )
+DAIN22829EMIS	Dalteparin Sodium  Injection  10,000 units/1 ml ampoule
+LAOR101954NEMIS	Laxido Paediatric Plain  Oral powder  6.9 gram sachet
+BIE/33985MGEMIS	Bisacodyl  E/c tablets  5 mg (Alpharma)
+ASSU9154HILLI	Asacol  Suppositories  500 mg
+NOTA27973EMIS	Norimode  Tablets  2 mg
+ROCAEGTON6093	Rowachol  Gastro-resistant Capsules  
+MASU5777	Maalox Tc  Suspension  
+MACO35860MGEMIS	Magnesium Trisilicate  Compound tablets  (Kent Pharm)
+LOCA35801MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Generics (UK))
+RATA11631NEMIS	Ranitil  Tablets  150 mg
+RATA31414EMIS	Raciran  Tablets  150 mg
+CASU18495NEMIS	Calcium Carbonate  Suspension  250 mg/5 ml
+LILI35751MGEMIS	Liquid Paraffin B.P.  Liquid  (Pinewood Healthcare)
+MOOR117271NEMIS	Movicol Ready To Take  Oral solution  25 ml sachets
+NUCA22507EMIS	Nutrizym 10  Capsules  
+BITA2334NEMIS	Bisoprolol Fumarate  Tablets  3.75 mg
+LOCA35799MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Ivax Pharmaceuticals)
+PACA10596BRIDL	Pancrex V  Capsules 125  
+MOTA104792NEMIS	Moventig  Tablets  25 mg
+RECH48786NEMIS	Rennie Ice  Chewable tablets  
+ULTA24243EMIS	Ultec  Tablets  400 mg
+KAMI6304NEMIS	Kaolin  Mixture  BP
+ATTA33903MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Wockhardt UK)
+COTA6926	Co-Dergocrine Mesylate  Tablets  4.5 mg
+NICA36249MGEMIS	Nizatidine  Capsules  300 mg (Teva UK)
+MACA105653NEMIS	Magdose  Capsules  100 mg
+CHCA4705	Chenodeoxycholic Acid  Capsules  250 mg
+OMCA36322MGEMIS	Omeprazole  Capsules  40 mg (Ivax Pharmaceuticals)
+DITA905	Digoxin  Tablets  125 micrograms
+THOR101951NEMIS	Thamicarb  Oral solution  84 mg/ml (1 mmol/ml)
+COM/198NEMIS	Colofac MR  M/R capsules  200 mg
+RAIN2431	Ranitidine  Solution for injection  25 mg/ml, 2 ml ampoule
+NICA36248MGEMIS	Nizatidine  Capsules  300 mg (Generics (UK))
+MEEN9690HILLI	Mesalazine  Retention enema  1 g/100 ml
+GLSU35306MGEMIS	Glycerol (Child)  Suppositories  2 gram (Kent Pharm)
+RATA36878MGEMIS	Ranitidine  Tablets  300 mg (Kent Pharm)
+BIOR140358NEMIS	NULL
+DIM/23454EMIS	Diltiazem Hydrochloride  M/R capsules  60 mg
+META1798	Methyldopa  Tablets  250 mg
+ARMI9674HILLI	Aromatic Magnesium Carbonate  Mixture  
+LAOR46486NEMIS	Lansoprazole  Oral suspension  30 mg/5 ml
+MACO35862MGEMIS	Magnesium Trisilicate  Compound tablets  (The Boots Company)
+ATCH52123NEMIS	Atorvastatin  Chewable Tablets Sugar Free  20 mg
+META35928MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Unichem)
+OMCA36338MGEMIS	Omeprazole  Capsules  10 mg (Sandoz)
+ENIN30042EMIS	Enoxaparin  Injection  100 mg/1 ml pre-filled syringe
+TROR122377NEMIS	Transisoft  Oral powder  8.5 gram sachet
+PRTA200NEMIS	Protium  E/c tablets  20 mg
+HYSU137703NEMIS	Hydrocortisone  Suppositories  50 mg
+INLI5822	Infacol  Liquid  40 mg/ml
+GLPU29683EMIS	Glyceryl Trinitrate  Pump spray  400 micrograms/dose
+DUCA11673NEMIS	Dulco-lax Pico Perles  Capsules  2.5 mg
+IMOR103460NEMIS	Imodium Instant Melts  Orodispersible tablets  2 mg
+DITA908	Digoxin  Tablets  62.5 micrograms
+ATOR27606NEMIS	Atropine Sulfate  Oral solution  500 micrograms/5 ml
+RAOR14288NEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml
+NICA36243MGEMIS	Nizatidine  Capsules  300 mg (Alpharma)
+CITA34330MGEMIS	Cimetidine  Tablets  200 mg (Sandoz)
+OMCA36316MGEMIS	Omeprazole  Capsules  40 mg (Wockhardt UK)
+GAOR21399NEMIS	Gaviscon Advance  Oral Suspension (Aniseed)  
+ZICA26142EMIS	Zinga  Capsules  300 mg
+GLSU35303MGEMIS	Glycerol (Infant)  Suppositories  1 gram (Thornton & Ross)
+CITA628	Cimetidine  Tablets  800 mg
+CISU20315EMIS	Cisapride  Suspension  5 mg/5 ml
+NIM/19537EMIS	Nifedipine  M/R tablets  20 mg
+FATA35027MGEMIS	Famotidine  Tablets  20 mg (Sandoz)
+MACO40047NEMIS	Macrogol  Compound Oral Powder (sachets)  NPF
+SITA3663NEMIS	Simvastatin  Tablets  80 mg
+RECH34437NEMIS	Rennie Deflatine  Chewable tablets  
+BEM/26386NEMIS	Beclometasone  M/R Tablets (Gastro-Resistant)  5 mg
+ALSU138643NEMIS	Allantoin And Lidocaine  Suppositories  10.25 mg + 10.25 mg
+ASTA139730NEMIS	NULL
+FUTA17676NEMIS	Furosemide  Tablets  40 mg
+GLSU8824BRIDL	Glycerol (Child)  Suppositories  2 gram
+CAOR28961NEMIS	Calcium Carbonate  Oral suspension  500 mg/5 ml
+EVSO105029NEMIS	Evolocumab  Solution for injection  140 mg/1 ml pre-filled device
+ISEF18521NEMIS	Ispaghula Husk And Mebeverine  Effervescent Granules, Sugar Free  3.5 gram + 135 mg/sachet
+BUM/28270EMIS	Budesonide  M/R capsules (Gastro-Resistant)  3 mg
+ROTA15069NEMIS	Rosuvastatin  Tablets  10 mg
+ANSU165	Anacal  Suppositories  
+OMCA36312MGEMIS	Omeprazole  Capsules  20 mg (Generics (UK))
+BEME124790NEMIS	Belladonna  Medicated Plaster  28 cm x 17.5 cm
+FUTA17675NEMIS	Furosemide  Tablets  20 mg
+GAOR36436NEMIS	Gaviscon Original Aniseed Relief  Oral suspension  
+ALOR33496NEMIS	Alginate Raft-forming  Oral Suspension Sugar Free  
+NICA36242MGEMIS	Nizatidine  Capsules  150 mg (Sandoz)
+LATA6956	Labetalol Hydrochloride  Tablets  200 mg
+ENCA6424NEMIS	Entrocalm  Capsules  2 mg
+IMTA8900BRIDL	Imdur  M/R tablets  60 mg
+COOR90149NEMIS	Cosmocol Lemon And Lime Flavour  Oral powder sachets  
+MITA8414EGTON	Misoprostol  Tablets  200 micrograms
+RATA35520EMIS	Rantec  Tablets  150 mg
+NUOI2045	Nupercainal  Ointment  1.1 %
+ISGR1500	Isogel  Granules  90 %
+PATA9017EGTON	Pancrex V  Tablets forte  
+CITA34353MGEMIS	Cimetidine  Tablets  800 mg (A.A.H. Pharm)
+META35922MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Generics (UK))
+MOSA28315EMIS	Movicol  Oral powder (lemon and lime)  13.8 grams/sachet
+ESOR135698NEMIS	Esscarb  Oral solution  84 mg/ml
+LACA28117EMIS	Lansoprazole  Capsules (Gastro-Resistant)  15 mg
+CLM/26388NEMIS	Clipper  M/R Tablets (Gastro-Resistant)  5 mg
+BISU3249	Bisacodyl  Suppositories  5 mg
+CIOI19978NEMIS	Cinchocaine Hydrochloride And Hydrocortisone  Ointment  0.5 % + 0.5 %
+PHEN15279NEMIS	Phosphates Enema Formula B  Enema  Long Tube, 128 ml
+ANOI185	Anusol-Hc  Ointment  
+DAIN35082EMIS	Dalteparin Sodium  Injection  10,000 units/0.4 ml pre-filled syringe
+RAGR76961NEMIS	Racecadotril  Granules  10 mg/sachet
+HECR32799EMIS	Hemocane  Cream  
+FATA35023MGEMIS	Famotidine  Tablets  20 mg (Unichem)
+RATA36863MGEMIS	Ranitidine  Tablets  150 mg (Unichem)
+HYSP19980NEMIS	Hydrocortisone And Lidocaine  Spray  0.2 % + 1 %
+PATA34091EMIS	Pariet  E/c tablets  20 mg
+MATA40893NEMIS	Magnesium Oxide  Tablets  400 mg
+CLIN9282EMIS	Clexane  Injection  40 mg/0.4 ml pre-filled syringe
+CISU37833MGEMIS	Cimetidine  Sugar free suspension  200 mg/5 ml (Rosemont Pharm)
+COGR4769	Coated Sterculia  Granules  62 %, gluten free
+LILI35748MGEMIS	Liquid Paraffin B.P.  Liquid  (Loveridge)
+MOPO17000NEMIS	Movicol Paediatric Plain  Powder sachets  6.9 grams/sachet
+SOOR35535NEMIS	Sodium Bicarbonate  Oral solution  8.4 % (1 mmol/ml)
+SPTA2668	Spironolactone  Tablets  50 mg
+FATA138195NEMIS	Famotidine (Imported)  Tablets  20 mg
+BUGA52602NEMIS	Budenofalk  Gastro-resistant Granules  9 mg sachets
+WATA3070	Warfarin Sodium  Tablets  5 mg
+BITA2335NEMIS	Bisoprolol Fumarate  Tablets  7.5 mg
+SEOR29077NEMIS	Senna  Oral solution  2.5 mg/5 ml
+PRTA10456HILLI	Pravastatin  Tablets  20 mg
+COSU25955EMIS	Co-Magaldrox 300/600  Sugar-free suspension  
+CITA138192NEMIS	Cimetidine (Imported)  Tablets  400 mg
+GALI29911NEMIS	Gaviscon  Liquid  Sachets 10 ml
+ELTA123809NEMIS	Eluxadoline  Tablets  75 mg
+GECR17239NEMIS	Germoloids  Cream  
+CITA34339MGEMIS	Cimetidine  Tablets  400 mg (Teva UK)
+ISOR30802NEMIS	Ispaghula Husk Sugar and Gluten Free  Oral powder  3.4 grams/sachet
+GLOR46462NEMIS	Glycopyrronium Bromide  Oral solution  200 micrograms/5 ml
+FATA35026MGEMIS	Famotidine  Tablets  20 mg (A.A.H. Pharm)
+PRFO2359	Proctofoam Hc  Foam  
+IKTA25522EMIS	Ikorel  Tablets  10 mg
+IMCA16720NEMIS	Imodium Plus  Caplets  
+MOOR34393NEMIS	Movicol Chocolate  Oral powder  13.9 grams/sachet
+LITA8610EGTON	Lisinopril  Tablets  20 mg
+LESU29424NEMIS	Lecicarbon E  Suppositories  
+OMCA36339MGEMIS	Omeprazole  Capsules  10 mg (PLIVA Pharma Ltd)
+NICA36247MGEMIS	Nizatidine  Capsules  300 mg (Kent Pharm)
+META35923MGEMIS	Mebeverine Hydrochloride  Tablets  135 mg (Sandoz)
+LOCA35803MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (A.A.H. Pharm)
+MEGA48144NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  20 mg
+COCA34445MGEMIS	Co-Danthramer 25/200  Capsules  (The Boots Company)
+ZAEF17931EMIS	Zantac  Effervescent tablets  150 mg
+PESU24198EMIS	Pentasa  Suppositories  1 gram
+HYTA1409	Hygroton  Tablets  50 mg
+GLSU37808MGEMIS	Glycerol (Adult)  Suppositories  4 gram (Thornton & Ross)
+OMDI13051NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  40 mg
+HETA34219EMIS	Heliclear Triple Pack  Tablets And Capsules  
+ALCA122379NEMIS	Alverine And Simeticone  Capsules  60 mg + 300 mg
+UROR131719NEMIS	Urea [13-C]  Oral powder  75 mg Breath Test Kit Sugar Free
+NOSA26972EMIS	Normacol Plus  Sachets  
+GACH48796NEMIS	Gaviscon Double Action  Chewable tablets  Mint
+DAIN22832EMIS	Dalteparin Sodium  Injection  5,000 units/0.2 ml pre-filled syringe
+TUTA52612NEMIS	Tums Assorted Fruit Antacid  Tablets  
+NETA5128NEMIS	Nexium  Tablets  20 mg
+MIEN3921	Micolette Micro-  Enema  
+MOTA1868	Moduretic  Tablets  
+ISGR30800NEMIS	Ispaghula Husk  Granules, Gluten Free  3.5 grams/sachet
+NACA138310NEMIS	Nalcrom (Imported Canada)  Capsules  100 mg
+ZISU132972NEMIS	Zinc Oxide And Lidocaine  Suppositories  283.5 mg + 13.2 mg
+GATA23985EMIS	Galenamet  Tablets  400 mg
+MAGR10577BRIDL	Manevac  Granules  
+ESGA39420NEMIS	Esomeprazole  Granules for Oral Suspension (Gastro-Resistant)  10 mg sachet
+BUM/101209NEMIS	Budesonide  M/R tablets  9 mg
+ZATA35231EMIS	Zantac 75  Tablets  75 mg
+ACTA5787	Actal  Tablets  360 mg
+OMCA36326MGEMIS	Omeprazole  Capsules  40 mg (PLIVA Pharma Ltd)
+TOTA4427	Topal  Tablets  
+DOPA541NEMIS	Docusol  Paediatric Oral Solution  12.5 mg/5 ml
+CITA34332MGEMIS	Cimetidine  Tablets  200 mg (A.A.H. Pharm)
+OMDI13049NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  10 mg
+SUTA37111MGEMIS	Sucralfate  Tablets  1 g (Kent Pharm)
+GLOR51131NEMIS	Glycopyrronium Bromide  Oral solution  3 mg/5 ml
+AISU26080EMIS	Ailax  Suspension  
+COTA5666NEMIS	Coaprovel  Tablets  300 mg + 12.5 mg
+COCA34449MGEMIS	Co-Danthramer Strong  Capsules  (Unichem)
+SOCA139143NEMIS	NULL
+COLI8820EGTON	Colofac  Liquid  50 mg/5 ml
+TASY2774	Tagamet  Syrup  200 mg/5 ml
+MASU3860	Maalox Plus  Suspension  
+SUOR45683NEMIS	Sulfasalazine  Oral Suspension (Sugar-Free)  250 mg/5 ml
+COTA9316HILLI	Co-Amilozide 2.5/25  Tablets  
+DAIN11629NEMIS	Dalteparin Sodium  Injection  7,500 units/0.3 ml pre-filled syringe
+SUTA38266MGEMIS	Sulfasalazine  Tablets  500 mg (Kent Pharm)
+SEBA73927NEMIS	Secura Extra Protective  Barrier cream  
+IRTA23521NEMIS	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 25 mg
+META1793	Methylcellulose  Tablets  500 mg
+NICA1987	Nifedipine  Capsules  5 mg
+KOGE3808	Kolanticon  Gel  

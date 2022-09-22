@@ -1,0 +1,409 @@
+^ESCT1180321	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mylan)
+^ESCT1180322	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mylan) 20 unit dose 4 x 5 unit dose vials
+^ESCT1181308	Product containing only salbutamol 2 mg/1 each oral tablet
+^ESCT1181309	Product containing only albuterol 2 mg/1 each oral tablet
+^ESCT1184308	Salbutamol 100micrograms/dose inhaler (Mylan)
+^ESCT1186396	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mylan)
+^ESCT1186398	Salbutamol 100micrograms/dose inhaler (Mylan) 200 dose
+^ESCT1188784	Salbutamol 100micrograms/dose inhaler CFC free (Mylan) 200 dose
+^ESCT1189235	Salbutamol 100micrograms/dose inhaler CFC free (Mylan)
+^ESCT1189505	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mylan) 20 unit dose 4 x 5 unit dose vials
+^ESCT1215007	Salbutamol 100micrograms/dose breath actuated inhaler
+^ESCT1215008	Salbutamol 100micrograms/dose inhaler
+^ESCT1215009	Salbutamol 200microgram inhalation powder blisters
+^ESCT1215010	Salbutamol 200microgram inhalation powder blisters with device
+^ESCT1215011	Salbutamol 400microgram inhalation powder blisters
+^ESCT1215012	Salbutamol 400microgram inhalation powder blisters with device
+^ESCT1215013	Salbutamol 5mg/50ml solution for infusion vials
+^ESCT1215014	Salbutamol 8mg modified-release tablets
+^ESCT1215015	Salbutamol 95micrograms/dose dry powder inhaler
+^ESCT1223215	Product containing precisely salbutamol (as salbutamol sulfate) 2 milligram/1 each conventional release oral tablet
+^ESCT1223216	Albuterol (as albuterol sulfate) 2 mg oral tablet
+^ESCT1223217	Salbutamol (as salbutamol sulfate) 2 mg oral tablet
+^ESCT1268442	Salbulin Novolizer 100micrograms/dose inhalation powder (Mylan)
+^ESCT1268443	Salbulin Novolizer 100micrograms/dose inhalation powder (Mylan) 200 dose
+^ESCT1268444	Salbulin Novolizer 100micrograms/dose inhalation powder refill (Mylan)
+^ESCT1268445	Salbulin Novolizer 100micrograms/dose inhalation powder refill (Mylan) 200 dose
+^ESCT1301427	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Accord Healthcare Ltd)
+^ESCT1301428	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Accord Healthcare Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCT1375687	Salbutamol 500micrograms/1ml solution for injection ampoules
+^ESCT1387369	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Accord Healthcare Ltd)
+^ESCT1387370	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Accord Healthcare Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCT1402096	Salbutamol 4mg modified-release tablets
+^ESCT1402097	Salbutamol 8mg modified-release capsules
+^ESCT1402098	Salbutamol 4mg modified-release capsules
+^ESCT1402099	Salbutamol 5mg/5ml solution for infusion ampoules
+^ESCT1402854	Salbutamol 2mg/5ml oral solution sugar free
+^ESCT1402887	Salbutamol 100micrograms/dose breath actuated inhaler CFC free
+^ESCT1402893	Salbutamol 200micrograms/dose dry powder inhaler
+^ESCT1402896	Salbutamol 100micrograms/dose inhaler CFC free
+^ESCT1404008	Salbutamol 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404009	Salbutamol 2mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404010	Salbutamol 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404012	Salbutamol 4mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1409544	Salbutamol 4mg tablets (Accord Healthcare Ltd)
+^ESCT1409630	Salbutamol 2mg tablets (Accord Healthcare Ltd)
+^ESCT1409931	Salbutamol 2mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1409932	Salbutamol 4mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1411313	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Fannin (UK) Ltd)
+^ESCT1411314	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Fannin (UK) Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCT1411315	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Fannin (UK) Ltd)
+^ESCT1411316	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Fannin (UK) Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCT1424879	Salbutamol 4mg tablets
+^ESCT1424938	Salbutamol 5mg/ml nebuliser liquid
+^ESCT1424939	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+^ESCT1424940	Salbutamol 200microgram inhalation powder capsules
+^ESCT1424941	Salbutamol 400microgram inhalation powder capsules
+^ESCT1424943	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+^ESCT1425547	Salbutamol 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425590	Salbutamol 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425902	Salbutamol 2mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426312	Salbutamol 2mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426313	Salbutamol 4mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426451	Salbutamol 2mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1426606	Salbutamol 100micrograms/dose inhaler (Kent Pharma (UK) Ltd)
+^ESCT1426607	Salbutamol 100micrograms/dose inhaler (Kent Pharma (UK) Ltd) 200 dose
+^ESCT1427150	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharma (UK) Ltd)
+^ESCT1427151	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharma (UK) Ltd) 20 unit dose
+^ESCT1427152	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharma (UK) Ltd)
+^ESCT1427153	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharma (UK) Ltd) 20 unit dose
+^ESCT1427322	Asmavent 100micrograms/dose inhaler CFC free (Kent Pharma (UK) Ltd)
+^ESCT1427323	Asmavent 100micrograms/dose inhaler CFC free (Kent Pharma (UK) Ltd) 200 dose
+^ESCTAE860843	Aerolin 100micrograms/dose Autohaler (3M Health Care Ltd)
+^ESCTAE860846	Aerolin 100micrograms/dose Autohaler (3M Health Care Ltd) 200 dose
+^ESCTAI1048126	AirSalb 100micrograms/dose inhaler CFC free (Sandoz Ltd)
+^ESCTAI1048127	AirSalb 100micrograms/dose inhaler CFC free (Sandoz Ltd) 200 dose
+^ESCTAI820336	Airomir 100micrograms/dose inhaler (Teva UK Ltd)
+^ESCTAI850299	Airomir 100micrograms/dose inhaler (Teva UK Ltd) 200 dose
+^ESCTAI860183	Airomir 100micrograms/dose Autohaler (Teva UK Ltd)
+^ESCTAI860185	Airomir 100micrograms/dose Autohaler (Teva UK Ltd) 200 dose
+^ESCTAL608364	Albuterol 2 mg oral tablet
+^ESCTAS1007978	Asmavent 100micrograms/dose inhaler CFC free (Kent Pharmaceuticals Ltd)
+^ESCTAS1007979	Asmavent 100micrograms/dose inhaler CFC free (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTAS859910	Asmasal 95micrograms/dose Clickhaler (Focus Pharmaceuticals Ltd)
+^ESCTAS859911	Asmasal 95micrograms/dose Clickhaler (Focus Pharmaceuticals Ltd) 200 dose
+^ESCTEA913765	Easyhaler Salbutamol sulfate 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)
+^ESCTEA913767	Easyhaler Salbutamol sulfate 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd) 200 dose
+^ESCTEA913771	Easyhaler Salbutamol sulfate 100micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)
+^ESCTEA913773	Easyhaler Salbutamol sulfate 100micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd) 200 dose
+^ESCTMA861445	Maxivent 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd)
+^ESCTMA861446	Maxivent 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd) 20 unit dose 2 x 10 steripoules
+^ESCTMA861503	Maxivent 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd)
+^ESCTMA861505	Maxivent 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd) 20 unit dose 2 x 10 steripoules
+^ESCTPR608361	Product containing albuterol 2 mg/1 each oral tablet
+^ESCTPR608362	Product containing salbutamol 2 mg/1 each oral tablet
+^ESCTPU861479	Pulvinal Salbutamol 200micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTPU861482	Pulvinal Salbutamol 200micrograms/dose dry powder inhaler (Chiesi Ltd) 100 dose
+^ESCTSA1005985	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Phoenix Healthcare Distribution Ltd)
+^ESCTSA1005986	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Phoenix Healthcare Distribution Ltd) 20 unit dose
+^ESCTSA1005987	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Phoenix Healthcare Distribution Ltd)
+^ESCTSA1005988	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Phoenix Healthcare Distribution Ltd) 20 unit dose
+^ESCTSA1007021	Salbutamol 100micrograms/dose inhaler CFC free (Sandoz Ltd)
+^ESCTSA1007022	Salbutamol 100micrograms/dose inhaler CFC free (Sandoz Ltd) 200 dose
+^ESCTSA1007376	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Fannin UK Ltd)
+^ESCTSA1007377	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Fannin UK Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA1007378	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Fannin UK Ltd)
+^ESCTSA1007379	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Fannin UK Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA1028967	Salamol 100micrograms/dose inhaler CFC free (Arrow Generics Ltd)
+^ESCTSA1028969	Salamol 100micrograms/dose inhaler CFC free (Arrow Generics Ltd) 200 dose
+^ESCTSA1042507	Salbutamol 2mg tablets (Waymade Healthcare Plc)
+^ESCTSA1042508	Salbutamol 2mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSA1042509	Salbutamol 4mg tablets (Waymade Healthcare Plc)
+^ESCTSA1042510	Salbutamol 4mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSA1119762	Salbutamol 2mg tablets (DE Pharmaceuticals)
+^ESCTSA1119763	Salbutamol 2mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSA1119764	Salbutamol 4mg tablets (DE Pharmaceuticals)
+^ESCTSA1119765	Salbutamol 4mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSA1127358	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mawdsley-Brooks & Company Ltd)
+^ESCTSA1127359	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mawdsley-Brooks & Company Ltd) 20 unit dose
+^ESCTSA1127360	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mawdsley-Brooks & Company Ltd)
+^ESCTSA1127361	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mawdsley-Brooks & Company Ltd) 20 unit dose
+^ESCTSA608360	Salbutamol 2mg tablets
+^ESCTSA608363	Salbutamol 2 mg oral tablet
+^ESCTSA798768	Salbutamol 100micrograms/dose inhaler CFC free (Actavis UK Ltd)
+^ESCTSA801718	Salbutamol 100micrograms/dose inhaler CFC free (Mylan Ltd)
+^ESCTSA801829	Salbutamol 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA803337	Salamol 100micrograms/dose inhaler CFC free (Teva UK Ltd)
+^ESCTSA804879	Salbutamol 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTSA804885	Salbutamol 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSA805471	Salbutamol 4mg tablets (Actavis UK Ltd)
+^ESCTSA806889	Salbutamol 2mg/5ml oral solution sugar free (Sandoz Ltd)
+^ESCTSA808110	Salbutamol 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSA808147	Salbutamol 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSA808232	Salbutamol 4mg tablets (Approved Prescription Services Ltd)
+^ESCTSA808863	Salbutamol 2mg tablets (Approved Prescription Services Ltd)
+^ESCTSA819098	Salbutamol 2mg tablets (Actavis UK Ltd)
+^ESCTSA820747	Salapin 2mg/5ml syrup (Pinewood Healthcare)
+^ESCTSA820822	Salbutamol 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSA823337	Salbutamol 100micrograms/dose inhaler CFC free (Teva UK Ltd)
+^ESCTSA825753	Salbutamol 2mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA828181	Salbulin 100micrograms/dose inhaler (3M Health Care Ltd)
+^ESCTSA831571	Salbutamol 2mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTSA833091	Salbutamol 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA834555	Salbutamol 4mg tablets 28 tablet
+^ESCTSA835387	Salbutamol 4mg modified-release capsules 56 capsule
+^ESCTSA835407	Salbutamol 4mg modified-release tablets 56 tablet
+^ESCTSA838973	Salbutamol 8mg modified-release capsules 56 capsule
+^ESCTSA839867	Salbutamol 8mg modified-release tablets 56 tablet
+^ESCTSA843118	Salbutamol 100micrograms/dose inhaler CFC free 200 dose
+^ESCTSA846996	Salbutamol 5mg/5ml solution for infusion ampoules 10 ampoule
+^ESCTSA847550	Salbutamol 2mg/5ml oral solution sugar free 150 ml
+^ESCTSA848357	Salbutamol 2mg tablets 28 tablet
+^ESCTSA850300	Salbulin 100micrograms/dose inhaler (3M Health Care Ltd) 200 dose
+^ESCTSA850304	Salbutamol 100micrograms/dose inhaler CFC free (Actavis UK Ltd) 200 dose
+^ESCTSA850307	Salbutamol 100micrograms/dose inhaler CFC free (Teva UK Ltd) 200 dose
+^ESCTSA850328	Salamol 100micrograms/dose inhaler CFC free (Teva UK Ltd) 200 dose
+^ESCTSA852891	Salbutamol 100micrograms/dose inhaler CFC free (Mylan Ltd) 200 dose
+^ESCTSA853796	Salbutamol 2mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSA853797	Salbutamol 2mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTSA853799	Salbutamol 2mg tablets (Approved Prescription Services Ltd) 28 tablet 2 x 14 tablets
+^ESCTSA853800	Salbutamol 2mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTSA853801	Salbutamol 2mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTSA853802	Salbutamol 4mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSA853803	Salbutamol 4mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTSA853804	Salbutamol 4mg tablets (Approved Prescription Services Ltd) 28 tablet 2 x 14 tablets
+^ESCTSA853805	Salbutamol 4mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSA853806	Salbutamol 4mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTSA856182	Salbutamol 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTSA856188	Salbutamol 2mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTSA856189	Salbutamol 2mg/5ml oral solution sugar free (Sandoz Ltd) 150 ml
+^ESCTSA856192	Salbutamol 2mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTSA856198	Salapin 2mg/5ml syrup (Pinewood Healthcare) 150 ml
+^ESCTSA859209	Salbutamol 200microgram inhalation powder blisters with device 112 blister
+^ESCTSA859210	Salbutamol 200microgram inhalation powder blisters with device 40 blister
+^ESCTSA859211	Salbutamol 200microgram inhalation powder blisters with device 120 blister
+^ESCTSA859235	Salbutamol 400microgram inhalation powder blisters with device 112 blister
+^ESCTSA859236	Salbutamol 400microgram inhalation powder blisters with device 40 blister
+^ESCTSA859237	Salbutamol 400microgram inhalation powder blisters with device 120 blister
+^ESCTSA859264	Salbutamol 200microgram inhalation powder blisters 112 blister
+^ESCTSA859266	Salbutamol 200microgram inhalation powder blisters 120 blister
+^ESCTSA859287	Salbutamol 400microgram inhalation powder blisters 112 blister
+^ESCTSA859288	Salbutamol 400microgram inhalation powder blisters 120 blister
+^ESCTSA859909	Salbutamol 95micrograms/dose dry powder inhaler 200 dose
+^ESCTSA860174	Salbutamol 200microgram inhalation powder capsules 112 capsule
+^ESCTSA860176	Salbutamol 100micrograms/dose breath actuated inhaler CFC free 200 dose
+^ESCTSA860178	Salbutamol 200microgram inhalation powder capsules 120 capsule
+^ESCTSA860186	Salbutamol 200 Cyclocaps (Teva UK Ltd)
+^ESCTSA860189	Salbutamol 200 Cyclocaps (Teva UK Ltd) 120 capsule 12 x 10 capsules
+^ESCTSA860193	Salamol 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTSA860196	Salamol 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTSA860210	Salbutamol 400microgram inhalation powder capsules 112 capsule
+^ESCTSA860211	Salbutamol 400microgram inhalation powder capsules 120 capsule
+^ESCTSA860216	Salbutamol 400 Cyclocaps (Teva UK Ltd)
+^ESCTSA860218	Salbutamol 400 Cyclocaps (Teva UK Ltd) 120 capsule 12 x 10 capsules
+^ESCTSA860839	Salbutamol 100micrograms/dose breath actuated inhaler 200 dose
+^ESCTSA861429	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials 20 unit dose
+^ESCTSA861433	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd)
+^ESCTSA861441	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd) 20 unit dose
+^ESCTSA861448	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mylan Ltd)
+^ESCTSA861449	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Mylan Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA861460	Salbutamol 200micrograms/dose dry powder inhaler 60 dose
+^ESCTSA861461	Salbutamol 200micrograms/dose dry powder inhaler 100 dose
+^ESCTSA861472	Salamol 5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)
+^ESCTSA861476	Salamol 5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA861495	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials 20 unit dose
+^ESCTSA861496	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd)
+^ESCTSA861499	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd) 20 unit dose
+^ESCTSA861507	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mylan Ltd)
+^ESCTSA861508	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Mylan Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA861514	Salamol 2.5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)
+^ESCTSA861517	Salamol 2.5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd) 20 unit dose 4 x 5 unit dose vials
+^ESCTSA861711	Salbutamol 100micrograms/dose inhaler 200 dose
+^ESCTSA861724	Salbutamol 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd)
+^ESCTSA861732	Salbutamol 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTSA861741	Salbutamol 100micrograms/dose inhaler (Mylan Ltd)
+^ESCTSA861747	Salbutamol 100micrograms/dose inhaler (Mylan Ltd) 200 dose
+^ESCTSA861760	Salbutamol 100micrograms/dose inhaler (Kent Pharmaceuticals Ltd)
+^ESCTSA861764	Salbutamol 100micrograms/dose inhaler (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTSA861772	Salbutamol 100micrograms/dose inhaler (Sandoz Ltd)
+^ESCTSA861774	Salbutamol 100micrograms/dose inhaler (Sandoz Ltd) 200 dose
+^ESCTSA861778	Salbutamol 100micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA861785	Salbutamol 100micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd) 200 dose
+^ESCTSA865619	Salbutamol 500micrograms/1ml solution for injection ampoules 5 ampoule
+^ESCTSA873239	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials 5 unit dose
+^ESCTSA873241	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials 5 unit dose
+^ESCTSA873263	Salbutamol 5mg/ml nebuliser liquid 20 ml
+^ESCTSA873679	Salbutamol 5mg/50ml solution for infusion vials 1 vial
+^ESCTSA873680	Salbutamol 5mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+^ESCTSA873681	Salbutamol 5mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd) 1 vial
+^ESCTSA877467	Salbutamol 200microgram inhalation powder capsules 100 capsule
+^ESCTSA878277	Salbutamol 4mg modified-release tablets 60 tablet
+^ESCTSA878282	Salbutamol 8mg modified-release tablets 60 tablet
+^ESCTSA879712	Salbutamol 400microgram inhalation powder capsules 100 capsule
+^ESCTSA912100	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)
+^ESCTSA912101	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA912102	Salbutamol 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)
+^ESCTSA912103	Salbutamol 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA912673	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Teva UK Ltd)
+^ESCTSA912674	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Teva UK Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA912675	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Teva UK Ltd)
+^ESCTSA912676	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Teva UK Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA913763	Salbutamol 200micrograms/dose dry powder inhaler 200 dose
+^ESCTSA913769	Salbutamol 100micrograms/dose dry powder inhaler 200 dose
+^ESCTSA913808	Salbutamol 100micrograms/dose dry powder inhaler
+^ESCTSA929228	Salbutamol 100micrograms/dose inhaler (Arrow Generics Ltd)
+^ESCTSA929229	Salbutamol 100micrograms/dose inhaler (Arrow Generics Ltd) 200 dose
+^ESCTSA929434	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Arrow Generics Ltd)
+^ESCTSA929435	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Arrow Generics Ltd) 20 unit dose
+^ESCTSA929436	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Arrow Generics Ltd)
+^ESCTSA929437	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Arrow Generics Ltd) 20 unit dose
+^ESCTSA935213	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Actavis UK Ltd)
+^ESCTSA935214	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Actavis UK Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA935215	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Actavis UK Ltd)
+^ESCTSA935216	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Actavis UK Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTSA956067	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharmaceuticals Ltd)
+^ESCTSA956069	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharmaceuticals Ltd) 20 unit dose
+^ESCTSA956071	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharmaceuticals Ltd)
+^ESCTSA956073	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Kent Pharmaceuticals Ltd) 20 unit dose
+^ESCTSA963206	Salbutamol 100micrograms/dose dry powder inhalation cartridge with device 200 dose
+^ESCTSA963394	Salbutamol 100micrograms/dose dry powder inhalation cartridge 200 dose
+^ESCTSA963395	Salbulin Novolizer 100micrograms/dose inhalation powder (Meda Pharmaceuticals Ltd)
+^ESCTSA963396	Salbulin Novolizer 100micrograms/dose inhalation powder (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTSA963397	Salbulin Novolizer 100micrograms/dose inhalation powder refill (Meda Pharmaceuticals Ltd)
+^ESCTSA963398	Salbulin Novolizer 100micrograms/dose inhalation powder refill (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTSA963715	Salbutamol 100micrograms/dose dry powder inhalation cartridge
+^ESCTSA963716	Salbutamol 100micrograms/dose dry powder inhalation cartridge with device
+^ESCTSA964297	Salbutamol 2mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTSA964298	Salbutamol 2mg/5ml oral solution sugar free (Pinewood Healthcare) 150 ml
+^ESCTSA997579	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA997580	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd) 20 unit dose
+^ESCTSA997581	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTSA997582	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd) 20 unit dose
+^ESCTVE806952	Ventolin 100micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)
+^ESCTVE808575	Ventmax SR 8mg capsules (Chiesi Ltd)
+^ESCTVE820547	Ventmax SR 4mg capsules (Chiesi Ltd)
+^ESCTVE830981	Ventolin 5mg/5ml solution for infusion ampoules (GlaxoSmithKline UK Ltd)
+^ESCTVE831270	Ventolin 2mg/5ml syrup (GlaxoSmithKline UK Ltd)
+^ESCTVE850308	Ventolin 100micrograms/dose Evohaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTVE853810	Ventmax SR 8mg capsules (Chiesi Ltd) 56 capsule 4 x 14 capsules
+^ESCTVE853811	Ventmax SR 4mg capsules (Chiesi Ltd) 56 capsule 4 x 14 capsules
+^ESCTVE853812	Ventolin 5mg/5ml solution for infusion ampoules (GlaxoSmithKline UK Ltd) 10 ampoule
+^ESCTVE856187	Ventolin 2mg/5ml syrup (GlaxoSmithKline UK Ltd) 150 ml
+^ESCTVE859212	Ventodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTVE859215	Ventodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTVE859226	Ventodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 40 blister 5 x 1 disk (8 blisters)
+^ESCTVE859231	Ventodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTVE859238	Ventodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTVE859242	Ventodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTVE859243	Ventodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 40 blister 5 x 1 disk (8 blisters)
+^ESCTVE859246	Ventodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTVE859269	Ventodisks 200microgram (GlaxoSmithKline UK Ltd)
+^ESCTVE859274	Ventodisks 200microgram (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTVE859277	Ventodisks 200microgram (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTVE859294	Ventodisks 400microgram (GlaxoSmithKline UK Ltd)
+^ESCTVE859299	Ventodisks 400microgram (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTVE859302	Ventodisks 400microgram (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTVE860182	Ventolin 200microgram Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTVE860184	Ventolin 200microgram Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTVE860220	Ventolin 400microgram Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTVE860221	Ventolin 400microgram Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTVE861455	Ventolin 5mg Nebules (GlaxoSmithKline UK Ltd)
+^ESCTVE861457	Ventolin 5mg Nebules (GlaxoSmithKline UK Ltd) 20 unit dose 4 x 5 nebules
+^ESCTVE861464	Ventolin 200micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)
+^ESCTVE861469	Ventolin 200micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd) 60 dose
+^ESCTVE861509	Ventolin 2.5mg Nebules (GlaxoSmithKline UK Ltd)
+^ESCTVE861512	Ventolin 2.5mg Nebules (GlaxoSmithKline UK Ltd) 20 unit dose 4 x 5 nebules
+^ESCTVE865620	Ventolin 500micrograms/1ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+^ESCTVE865621	Ventolin 500micrograms/1ml solution for injection ampoules (GlaxoSmithKline UK Ltd) 5 ampoule
+^ESCTVE873240	Ventolin 2.5mg Nebules (GlaxoSmithKline UK Ltd) 5 unit dose
+^ESCTVE873242	Ventolin 5mg Nebules (GlaxoSmithKline UK Ltd) 5 unit dose
+^ESCTVE873265	Ventolin 5mg/ml respirator solution (GlaxoSmithKline UK Ltd)
+^ESCTVE873266	Ventolin 5mg/ml respirator solution (GlaxoSmithKline UK Ltd) 20 ml
+^ESCTVO805638	Volmax 4mg modified-release tablets (GlaxoSmithKline UK Ltd)
+^ESCTVO827728	Volmax 8mg modified-release tablets (GlaxoSmithKline UK Ltd)
+^ESCTVO853808	Volmax 4mg modified-release tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVO853809	Volmax 8mg modified-release tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+AEAE9564BRIDL	Aerolin Autohaler  Aerosol inhalation  100 micrograms/puff
+AIBR35356EMIS	Airomir Autohaler  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/dose
+AICF81476NEMIS	Airsalb  Cfc-free inhaler  100 micrograms/dose
+AIIN26490EMIS	Airomir  Cfc-free inhaler  100 micrograms/puff
+ASBR31773EMIS	Asmasal Clickhaler  Breath-actuated inhaler  95 micrograms/dose
+ASCF47153NEMIS	Asmavent  Cfc-free inhaler  100 micrograms/dose
+EADR19043NEMIS	Easyhaler Salbutamol  Dry Powder Inhaler  100 micrograms/actuation
+EADR19044NEMIS	Easyhaler Salbutamol  Dry Powder Inhaler  200 micrograms/actuation
+MANE35365EMIS	Maxivent Steripoules  Nebuliser solution  2.5 mg/2.5 ml
+MANE35366EMIS	Maxivent Steripoules  Nebuliser solution  5 mg/2.5 ml
+PUDR11413NEMIS	Pulvinal Salbutamol  Dry Powder Inhaler  200 micrograms/metered dose
+SABR26803EMIS	Salbutamol  Breath-actuated inhaler  100 micrograms/puff
+SABR35182EMIS	Salbutamol  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/dose
+SACF10856NEMIS	Salamol Easi-Breathe  Cfc-Free Breath-Actuated Inhaler  100 micrograms/puff
+SACF26553EMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff
+SACF36889MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Alpharma)
+SACF36890MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Generics (UK))
+SACF36893MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Teva UK)
+SACF3932NEMIS	Salamol  Cfc-free inhaler  100 micrograms/dose
+SADI19640EMIS	Salbutamol  Disks with diskhaler  200 micrograms/dose
+SADI19641EMIS	Salbutamol  Disks with diskhaler  400 micrograms/dose
+SADR12726NEMIS	Salbutamol 200 Cyclocaps  Dry powder capsules for inhalation  200 micrograms
+SADR12728NEMIS	Salbutamol 400 Cyclocaps  Dry powder capsules for inhalation  400 micrograms
+SADR1768NEMIS	Salbutamol  Dry powder capsules for inhalation  200 micrograms
+SADR1769NEMIS	Salbutamol  Dry powder capsules for inhalation  400 micrograms
+SADR1788NEMIS	Salbutamol  Dry powder for inhalation  200 micrograms/dose
+SADR21103NEMIS	Salbutamol  Dry Powder Inhaler  100 micrograms/actuation
+SADR5080NEMIS	Salbutamol  Dry powder for inhalation  95 micrograms/metered actuation
+SAIN2479	Salbulin  Inhaler  100 micrograms/puff
+SAIN2483	Salbutamol  Inhaler  100 micrograms/puff
+SAIN2485	Salbutamol  Solution for injection  500 micrograms/ml, 1 ml ampoule
+SAIN29844NEMIS	Salbutamol  Inhalation Cartridge + Device  100 micrograms/dose
+SAIN29845NEMIS	Salbutamol  Inhalation Cartridge Refill  100 micrograms/dose
+SAIN36897MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (A.A.H. Pharm)
+SAIN36898MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Generics (UK))
+SAIN36899MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Kent Pharm)
+SAIN36900MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Sandoz)
+SAIN36901MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Unichem)
+SAIN40203NEMIS	Salbulin Novolizer  Inhalation Powder With Device  100 micrograms/dose
+SAIN40204NEMIS	Salbulin Novolizer  Inhalation Powder Refill  100 micrograms/dose
+SAIN9558EMIS	Salbutamol  Solution for infusion  1 mg/ml, 5 ml ampoule
+SAM/33745EMIS	Salbutamol  M/R capsules  4 mg
+SAM/33746EMIS	Salbutamol  M/R capsules  8 mg
+SANE10644BRIDL	Salbutamol  Nebuliser solution  5 mg/2.5 ml unit dose
+SANE36902MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (A.A.H. Pharm)
+SANE36903MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (Generics (UK))
+SANE36904MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (Teva UK)
+SANE36905MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (A.A.H. Pharm)
+SANE36906MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (Generics (UK))
+SANE36907MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (Teva UK)
+SANE48179NEMIS	Salbutamol Steripoule  Nebuliser Liquid  2.5 mg/2.5 ml unit dose vial
+SANE48180NEMIS	Salbutamol Steripoule  Nebuliser Liquid  5 mg/2.5 ml unit dose vial
+SANE9041BRIDL	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml unit dose
+SARE19642EMIS	Salbutamol  Refill disks  200 micrograms/dose
+SARE19643EMIS	Salbutamol  Refill disks  400 micrograms/dose
+SARE2487	Salbutamol  Respirator solution  0.5 %
+SASR7953	Salbutamol  Sr tablets  4 mg
+SASR7954	Salbutamol  Sr tablets  8 mg
+SASU10266BRIDL	Salbutamol  Oral Solution, Sugar Free  2 mg/5 ml
+SASU36912MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (A.A.H. Pharm)
+SASU36913MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Sandoz)
+SASU36914MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Unichem)
+SASU36915MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Kent Pharm)
+SASY11634NEMIS	Salapin  Syrup  2 mg/5 ml
+SATA2493	Salbutamol  Tablets  2 mg
+SATA2494	Salbutamol  Tablets  4 mg
+SATA36916MGEMIS	Salbutamol  Tablets  2 mg (Kent Pharm)
+SATA36917MGEMIS	Salbutamol  Tablets  2 mg (Alpharma)
+SATA36918MGEMIS	Salbutamol  Tablets  2 mg (A.A.H. Pharm)
+SATA36919MGEMIS	Salbutamol  Tablets  2 mg (Unichem)
+SATA36920MGEMIS	Salbutamol  Tablets  4 mg (Unichem)
+SATA36921MGEMIS	Salbutamol  Tablets  4 mg (Alpharma)
+SATA36922MGEMIS	Salbutamol  Tablets  4 mg (Kent Pharm)
+SATA36923MGEMIS	Salbutamol  Tablets  4 mg (A.A.H. Pharm)
+STNE22543EMIS	Salamol Steri-Neb  Nebuliser solution  2.5 mg/2.5 ml
+STNE22544EMIS	Salamol Steri-Neb  Nebuliser solution  5 mg/2.5 ml
+VEAC28240EMIS	Ventolin  Accuhaler  200 micrograms/dose
+VECF34087EMIS	Ventolin Evohaler  Cfc-free inhaler  100 micrograms/puff
+VEDI8431EGTON	Ventodisks  Disks with diskhaler  200 micrograms/dose
+VEDI8432EGTON	Ventodisks  Disks with diskhaler  400 micrograms/dose
+VEIN3028	Ventolin  Solution for injection  500 micrograms/ml, 1 ml ampoule
+VEIN8943BRIDL	Ventolin  Solution for infusion  1 mg/ml, 5 ml ampoule
+VEM/33741EMIS	Ventmax Sr  M/R capsules  4 mg
+VEM/33742EMIS	Ventmax Sr  M/R capsules  8 mg
+VENE3029	Ventolin  Nebules  2.5 mg/2.5 ml unit dose
+VENE8699BRID	Ventolin  Nebules  5 mg/2.5 ml unit dose
+VERE3030	Ventolin  Respirator solution  0.5 %
+VERE8433EGTON	Ventodisks  Refill disks  200 micrograms/dose
+VERE8434EGTON	Ventodisks  Refill disks  400 micrograms/dose
+VERO3031	Ventolin  Rotacaps  200 micrograms
+VERO3032	Ventolin  Rotacaps  400 micrograms
+VESY3035	Ventolin  Syrup  2 mg/5 ml
+VOSREGTON7955	Volmax  Sr tablets  4 mg
+VOSREGTON7956	Volmax  Sr tablets  8 mg

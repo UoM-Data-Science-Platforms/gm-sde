@@ -1,0 +1,6 @@
+4692.	Urine blood test = negative
+4693.	Urine: trace non-haemol. blood
+4694.	Urine: trace haemolysed blood
+4695.	Urine blood test = +
+4696.	Urine blood test = ++
+4697.	Urine blood test = +++

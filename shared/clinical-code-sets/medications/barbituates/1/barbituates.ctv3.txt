@@ -1,0 +1,82 @@
+x01B8	Secobarbital
+x00AN	Secobarbital sodium
+d31s.	Secobarbital sodium 100mg capsule
+d31h.	Secobarbital sodium 50mg capsule
+x01B7	Amobarbital sodium
+d31z.	Amobarbital sodium 200mg tablet
+d31v.	Amobarbital sodium 60mg tablet
+d31t.	Amobarbital sodium 60mg capsule
+d31l.	Amobarbital sodium 500mg injection
+d31k.	Amobarbital sodium 250mg injection
+d31j.	Amobarbital sodium 200mg capsule
+x000K	Amobarbital
+d31u.	Amobarbital 200mg tablet
+d31q.	Amobarbital 50mg tablet
+d31p.	Amobarbital 30mg tablet
+d31o.	Amobarbital 15mg tablet
+d31i.	Amobarbital 100mg tablet
+dn7..	Phenobarbital
+x01Bd	Parenteral phenobarbital
+x00RY	Phenobarbital sodium 60mg/1mL injection
+x00RX	Phenobarbital sodium 30mg/1mL injection
+x00RW	Phenobarbital sodium 15mg/1mL injection
+dn78.	Phenobarbital sodium 200mg/1mL injection
+x01Bc	Oral phenobarbital
+dn7d.	Phenobarbital 15mg/5mL elixir
+dn74.	Phenobarbital 100mg tablet
+dn73.	Phenobarbital 60mg tablet
+dn72.	Phenobarbital 30mg tablet
+dn71.	Phenobarbital 15mg tablet
+dn6..	Methylphenobarbital
+dnaz.	Primidone 250mg/5mL oral suspension
+dnay.	Primidone 250mg tablet
+dnax.	PRIMIDONE 50mg tablets
+x01A8	Thiopental
+o11g.	Thiopental sodium 500mg injection (pdr for recon)
+o11..	Thiopental sodium
+d31y.	Butobarbital 100mg tablet
+d318.	Seconal Sodium 100mg capsule
+d317.	Seconal Sodium 50mg capsule
+d31m.	Sodium Amytal 100mg tablet
+d31c.	Sodium Amytal 200mg tablet
+d31b.	Sodium Amytal 60mg tablet
+d319.	Sodium Amytal 60mg capsule
+d31e.	Sodium Amytal 500mg injection (pdr for recon)
+d31d.	Sodium Amytal 250mg injection
+d31a.	Sodium Amytal 200mg capsule
+d315.	Amytal 200mg tablet
+d313.	Amytal 50mg tablet
+d312.	Amytal 30mg tablet
+d311.	Amytal 15mg tablet
+d314.	Amytal 100mg tablet
+o11m.	Thiopentone sodium 5g injection+diluent
+o11k.	Thiopentone sodium 2.5g injection+diluent
+o11j.	Thiopentone sodium 2.5g injection (pdr for recon)
+o11h.	Thiopentone sodium 500mg injection+diluent
+o11d.	Intraval 5g injection
+o11c.	Thiopentone sodium 25% injection
+o11b.	Thiopentone sodium 5% injection
+o118.	Thiopentone sodium 2.5% injection
+o115.	Intraval + water 1g injection
+o114.	Intraval 1g injection
+o112.	Intraval Sodium 500mg injection (pdr for recon)
+dn79.	Gardenal Sodium 200mg/1mL injection
+dn77.	Phenobarbitone 15mg/10mL elixir
+dn76.	Phenobarbitone sodium 60mg tablets
+dn75.	Phenobarbitone sodium 30mg tablets
+dn7c.	Luminal 60mg tablet
+dn7b.	Luminal 30mg tablet
+dn7a.	Luminal 15mg tablet
+dn6z.	Methylphenobarbitone 200mg tablet
+dn6y.	Methylphenobarbitone 60mg tablet
+dn6x.	Methylphenobarbitone 30mg tablet
+dna2.	Mysoline 250mg/5mL oral suspension
+dna1.	Mysoline 250mg tablet
+d31f.	Soneryl 100mg tablet
+dna3.	MYSOLINE 50mg tablets
+dna3.	MYSOLINE 50mg tablets
+X796h	Phenobarbital - chemical
+X796h	Phenobarbital - chemical
+X796h	Phenobarbitone
+X796h	Phenobarbitone - chemical
+

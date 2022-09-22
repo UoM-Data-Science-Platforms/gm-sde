@@ -1,0 +1,5 @@
+XE25I	Luteinising hormone level
+4433.	Serum luteinising hormone level
+XM0lv	Serum luteinising hormone level
+XaELa	Plasma luteinising hormone level
+46J6.	Urine luteinising hormone level

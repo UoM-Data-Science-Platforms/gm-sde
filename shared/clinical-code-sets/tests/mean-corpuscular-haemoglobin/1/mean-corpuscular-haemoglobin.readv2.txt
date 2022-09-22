@@ -1,0 +1,2 @@
+428..00	Mean corpusc. haemoglobin(MCH)
+428z.00	MCH - NOS

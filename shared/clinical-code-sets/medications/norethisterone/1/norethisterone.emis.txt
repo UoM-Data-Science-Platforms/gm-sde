@@ -1,0 +1,92 @@
+^ESCT1178748	Product containing only norethindrone 1 mg/1 each oral tablet
+^ESCT1178749	Product containing only norethisterone 1 mg/1 each oral tablet
+^ESCT1178774	Product containing only norethisterone 0.35 milligram/1 each oral tablet
+^ESCT1178775	Product containing only norethindrone 0.35 milligram oral tablet
+^ESCT1181848	Product containing only norethisterone 5 mg/1 each oral tablet
+^ESCT1181849	Product containing only norethindrone 5 mg/1 each oral tablet
+^ESCT1215420	Norethisterone 200mg/1ml solution for injection ampoules
+^ESCT1224703	Product containing precisely norethisterone 5 milligram/1 each conventional release oral tablet
+^ESCT1224704	Product containing precisely norethisterone 1 milligram/1 each conventional release oral tablet
+^ESCT1224905	Norethindrone 350 microgram oral tablet
+^ESCT1224906	Product containing precisely norethisterone 350 microgram/1 each conventional release oral tablet
+^ESCT1224907	Norethisterone 350 microgram oral tablet
+^ESCT1258209	Primolut N 5mg tablets (Bayer Plc) 30 tablet 2 x 15 tablets
+^ESCT1267570	Norethisterone 5mg tablets (DE Pharmaceuticals)
+^ESCT1267571	Norethisterone 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1402424	Norethisterone 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402425	Norethisterone 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1425840	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426272	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMI805408	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+^ESCTMI853381	Micronor 350microgram tablets (Janssen-Cilag Ltd) 84 tablet 3 x 28 tablets
+^ESCTMI860021	Micronor HRT 1mg tablets (Janssen-Cilag Ltd)
+^ESCTMI860032	Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 36 tablet 3 strips x 12 tablets
+^ESCTMI865746	Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 12 tablet
+^ESCTNO1041776	Norethisterone 5mg tablets (Waymade Healthcare Plc)
+^ESCTNO1041777	Norethisterone 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTNO1118326	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNO1118327	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTNO1126995	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNO1126996	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTNO612729	Norethisterone 5mg tablets
+^ESCTNO612732	Norethisterone 5 mg oral tablet
+^ESCTNO612733	Norethindrone 5 mg oral tablet
+^ESCTNO612735	Norethisterone 1mg tablets
+^ESCTNO612738	Norethisterone 1 mg oral tablet
+^ESCTNO612739	Norethindrone 1 mg oral tablet
+^ESCTNO613348	Norethisterone 350microgram tablets
+^ESCTNO613349	Norethindrone 0.35 mg oral tablet
+^ESCTNO613350	Norethisterone 0.35 mg oral tablet
+^ESCTNO802211	Norethisterone 5mg tablets (Sandoz Ltd)
+^ESCTNO804509	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO805100	Noriday 350microgram tablets (Pfizer Ltd)
+^ESCTNO806991	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO820111	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+^ESCTNO824484	Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNO825123	Norethisterone 5mg tablets (Actavis UK Ltd)
+^ESCTNO827284	Norethisterone 5mg tablets (Wockhardt UK Ltd)
+^ESCTNO837788	Norethisterone 200mg/1ml solution for injection ampoules 1 ampoule
+^ESCTNO840544	Norethisterone 5mg tablets 90 tablet
+^ESCTNO846950	Norethisterone 5mg tablets 30 tablet
+^ESCTNO848664	Norethisterone 350microgram tablets 84 tablet
+^ESCTNO853375	Noriday 350microgram tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTNO853448	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853451	Norethisterone 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853462	Norethisterone 5mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853474	Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO853499	Norethisterone 5mg tablets (Sandoz Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO853556	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTNO857283	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc) 1 ampoule
+^ESCTNO860017	Norethisterone 1mg tablets 36 tablet
+^ESCTNO865745	Norethisterone 1mg tablets 12 tablet
+^ESCTNO982476	Norethisterone 5mg/5ml oral suspension 1 ml
+^ESCTNO982477	Norethisterone 5mg/5ml oral suspension (Special Order)
+^ESCTNO982478	Norethisterone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNO982514	Norethisterone 5mg/5ml oral suspension
+^ESCTPR612730	Product containing norethindrone 5 mg/1 each oral tablet
+^ESCTPR612731	Product containing norethisterone 5 mg/1 each oral tablet
+^ESCTPR612736	Product containing norethindrone 1 mg/1 each oral tablet
+^ESCTPR612737	Product containing norethisterone 1 mg/1 each oral tablet
+^ESCTPR613351	Product containing norethisterone 0.35 milligram/1 each oral tablet
+^ESCTPR613352	Product containing norethindrone 0.35 milligram oral tablet
+^ESCTPR806861	Primolut N 5mg tablets (Bayer Plc)
+^ESCTPR853539	Primolut N 5mg tablets (Bayer Plc) 30 tablet 3 x 10 tablets
+^ESCTUT808155	Utovlan 5mg tablets (Pfizer Ltd)
+^ESCTUT853513	Utovlan 5mg tablets (Pfizer Ltd) 30 tablet 2 x 15 tablets
+^ESCTUT853524	Utovlan 5mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets
+MITA25447EMIS	Micronor-Hrt  Tablets  1 mg
+MITA3923	Micronor  Tablets  350 micrograms
+NOIN17875NEMIS	Norethisterone Enantate  Solution for injection  200 mg/1 ml ampoule
+NOIN4048	Noristerat  Solution for injection  200 mg/1 ml ampoule
+NOTA2023	Norethisterone  Tablets  5 mg
+NOTA2029	Noriday  Tablets  350 micrograms
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+NOTA29946EMIS	Norethisterone  Tablets  350 micrograms
+NOTA36283MGEMIS	Norethisterone  Tablets  5 mg (Sandoz)
+NOTA36284MGEMIS	Norethisterone  Tablets  5 mg (Unichem)
+NOTA36285MGEMIS	Norethisterone  Tablets  5 mg (A.A.H. Pharm)
+NOTA36286MGEMIS	Norethisterone  Tablets  5 mg (Kent Pharm)
+NOTA36287MGEMIS	Norethisterone  Tablets  5 mg (Alpharma)
+NOTA36288MGEMIS	Norethisterone  Tablets  5 mg (Wockhardt UK)
+PRTA2347	Primolut N  Tablets  5 mg
+UTTA4483	Utovlan  Tablets  5 mg

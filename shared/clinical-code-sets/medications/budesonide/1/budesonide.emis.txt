@@ -1,0 +1,43 @@
+^ESCT1177867	Product containing only budesonide 3 mg/1 each oral capsule
+^ESCT1213576	Budesonide 1mg orodispersible tablets sugar free 90 tablet
+^ESCT1213577	Jorveza 1mg orodispersible tablets (Dr. Falk Pharma UK Ltd)
+^ESCT1213578	Jorveza 1mg orodispersible tablets (Dr. Falk Pharma UK Ltd) 90 tablet 9 x 10 tablets
+^ESCT1214017	Budesonide 1mg orodispersible tablets sugar free
+^ESCT1214790	Budesonide 3mg gastro-resistant modified-release capsules
+^ESCT1222637	Product containing precisely budesonide 3 milligram/1 each conventional release oral capsule
+^ESCT1222638	Budesonide 3 mg oral capsule
+^ESCT1300317	Budesonide 3mg gastro-resistant modified-release capsules 50 capsule
+^ESCT1300318	Entocort CR 3mg capsules (Tillotts Pharma Ltd) 50 capsule
+^ESCT1410177	Entocort CR 3mg capsules (Tillotts Pharma UK Ltd)
+^ESCT1410178	Entocort CR 3mg capsules (Tillotts Pharma UK Ltd) 100 capsule
+^ESCT1412705	Entocort CR 3mg capsules (Tillotts Pharma UK Ltd) 50 capsule
+^ESCTBU1022708	Budesonide 9mg gastro-resistant granules sachets 60 sachet
+^ESCTBU1022714	Budenofalk 9mg gastro-resistant granules sachets (Dr. Falk Pharma UK Ltd)
+^ESCTBU1022716	Budenofalk 9mg gastro-resistant granules sachets (Dr. Falk Pharma UK Ltd) 60 sachet
+^ESCTBU1022762	Budesonide 9mg gastro-resistant granules sachets
+^ESCTBU1024522	Budesonide 3mg gastro-resistant modified-release capsules 60 capsule
+^ESCTBU1110710	Budesonide 9mg modified-release tablets 30 tablet
+^ESCTBU1110716	Budesonide 9mg modified-release tablets
+^ESCTBU606403	Budesonide 3mg gastro-resistant capsules
+^ESCTBU606405	Budesonide 3 mg/1 each oral capsule
+^ESCTBU864148	Budesonide 3mg gastro-resistant modified-release capsules 100 capsule
+^ESCTBU864545	Budesonide 3mg gastro-resistant capsules 100 capsule
+^ESCTBU864549	Budenofalk 3mg gastro-resistant capsules (Dr. Falk Pharma UK Ltd)
+^ESCTBU864551	Budenofalk 3mg gastro-resistant capsules (Dr. Falk Pharma UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTBU877832	Budesonide 3mg gastro-resistant modified-release capsules 90 capsule
+^ESCTBU930225	Budesonide 3mg gastro-resistant modified-release capsules 45 capsule
+^ESCTCO1110711	Cortiment 9mg modified-release tablets (Ferring Pharmaceuticals Ltd)
+^ESCTCO1110712	Cortiment 9mg modified-release tablets (Ferring Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTEN864149	Entocort CR 3mg capsules (Tillotts Pharma Ltd)
+^ESCTEN864150	Entocort CR 3mg capsules (Tillotts Pharma Ltd) 100 capsule
+^ESCTPR606404	Product containing budesonide 3 mg/1 each oral capsule
+BUCA35545EMIS	Budenofalk  Capsules (Gastro-Resistant)  3 mg
+BUCA35547EMIS	Budesonide  Capsules (Gastro-Resistant)  3 mg
+BUGA52601NEMIS	Budesonide  Gastro-resistant Granules  9 mg sachets
+BUGA52602NEMIS	Budenofalk  Gastro-resistant Granules  9 mg sachets
+BUM/101209NEMIS	Budesonide  M/R tablets  9 mg
+BUM/28270EMIS	Budesonide  M/R capsules (Gastro-Resistant)  3 mg
+BUOR127694NEMIS	Budesonide  Orodispersible Tablets (Sugar Free)  1 mg
+COM/101212NEMIS	Cortiment  M/R tablets  9 mg
+ENM/28268EMIS	Entocort Cr  M/R capsules (Gastro-Resistant)  3 mg
+JOOR127696NEMIS	Jorveza  Orodispersible tablets  1 mg

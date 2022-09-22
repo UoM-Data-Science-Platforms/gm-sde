@@ -1,0 +1,3 @@
+c8o1.	Loratadine 10mg tablet
+c8o3.	Loratadine 5mg/5mL syrup
+c8o4.	Clarityn 5mg/5mL syrup
