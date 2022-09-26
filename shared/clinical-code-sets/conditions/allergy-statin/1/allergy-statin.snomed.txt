@@ -1,0 +1,5 @@
+293774002	Pentostatin allergy (disorder)
+294351008	Nystatin allergy (disorder)
+294971007	Simvastatin allergy (disorder)
+294972000	Fluvastatin allergy (disorder)
+294973005	Pravastatin allergy (disorder)
