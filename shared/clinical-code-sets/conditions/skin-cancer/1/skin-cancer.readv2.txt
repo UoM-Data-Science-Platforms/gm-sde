@@ -1,0 +1,188 @@
+B33..11	Basal cell carcinoma
+B33z.11	Squamous cell carcinoma of skin NOS
+B33z100	Naevoid basal cell carcinoma syndrome
+B338.00	Squamous cell carcinoma of skin
+B32..00	Malignant melanoma of skin
+B32z.00	Malignant melanoma of skin NOS
+B32y.00	Malignant melanoma of other specified skin site
+B32y000	Overlapping malignant melanoma of skin
+B32J.00	Malignant melanoma stage IV M1c
+B32H.00	Malignant melanoma stage IV M1b
+B32G.00	Malignant melanoma stage IV M1a
+B32F.00	Malignant melanoma stage IIIC
+B32E.00	Malignant melanoma stage IIIB
+B32D.00	Malignant melanoma stage IIIA
+B32C.00	Malignant melanoma stage IIC
+B32B.00	Malignant melanoma stage IIB
+B32A.00	Malignant melanoma stage IIA
+B329.00	Malignant melanoma stage IB
+B328.00	Malignant melanoma stage IA
+B327.00	Malignant melanoma of lower limb and hip
+B327z00	Malignant melanoma of lower limb or hip NOS
+B327900	Malignant melanoma of great toe
+B327800	Malignant melanoma of toe
+B327700	Malignant melanoma of foot
+B327600	Malignant melanoma of heel
+B327500	Malignant melanoma of ankle
+B327400	Malignant melanoma of lower leg
+B327300	Malignant melanoma of popliteal fossa area
+B327200	Malignant melanoma of knee
+B327100	Malignant melanoma of thigh
+B327000	Malignant melanoma of hip
+B326.00	Malignant melanoma of upper limb and shoulder
+B326z00	Malignant melanoma of upper limb or shoulder NOS
+B326500	Malignant melanoma of thumb
+B326400	Malignant melanoma of finger
+B326300	Malignant melanoma of hand
+B326200	Malignant melanoma of fore-arm
+B326100	Malignant melanoma of upper arm
+B326000	Malignant melanoma of shoulder
+B325.00	Malignant melanoma of trunk (excluding scrotum)
+B325z00	Malignant melanoma of trunk, excluding scrotum, NOS
+B325800	Malignant melanoma of chest wall
+B325700	Malignant melanoma of back
+B325600	Malignant melanoma of umbilicus
+B325500	Malignant melanoma of perineum
+B325400	Malignant melanoma of perianal skin
+B325300	Malignant melanoma of groin
+B325200	Malignant melanoma of buttock
+B325100	Malignant melanoma of breast
+B325000	Malignant melanoma of axilla
+B324.00	Malignant melanoma of scalp and neck
+B324z00	Malignant melanoma of scalp and neck NOS
+B324100	Malignant melanoma of neck
+B324000	Malignant melanoma of scalp
+B323.00	Malignant melanoma of other and unspecified parts of face
+B323z00	Malignant melanoma of face NOS
+B323500	Malignant melanoma of temple
+B323400	Malignant melanoma of external surface of nose
+B323300	Malignant melanoma of forehead
+B323200	Malignant melanoma of eyebrow
+B323100	Malignant melanoma of chin
+B323000	Malignant melanoma of external surface of cheek
+B322.00	Malignant melanoma of ear and external auricular canal
+B322z00	Malignant melanoma of ear and external auricular canal NOS
+B322100	Malignant melanoma of external auditory meatus
+B322000	Malignant melanoma of auricle (ear)
+B321.00	Malignant melanoma of eyelid including canthus
+B320.00	Malignant melanoma of lip
+BB2J.00	[M]Squamous cell carcinoma, microinvasive
+BB2H.00	[M]Squamous cell carcinoma in situ with questionable stromal invasion
+BB2G.00	[M]Adenoid squamous cell carcinoma
+BB2F.00	[M]Squamous cell carcinoma, spindle cell type
+BB2E.00	[M]Squamous cell carcinoma, small cell, non-keratinising type
+BB2D.00	[M]Squamous cell carcinoma, large cell, non-keratinising type
+BB2B.00	[M]Squamous cell carcinoma, metastatic NOS
+BB2C.00	[M]Squamous cell carcinoma, keratinising type NOS
+BB2A.00	[M]Squamous cell carcinoma NOS
+BB2A.13	[M]Squamous cell carcinoma of skin NOS
+BB29.00	[M]Squamous cell carcinoma in situ NOS
+BB29.13	[M]Intraepithelial squamous cell carcinoma
+BB26.00	[M]Papillary squamous cell carcinoma
+BB24.12	[M]Verrucous squamous cell carcinoma
+BB3G.00	[M]Pigmented basal cell carcinoma
+BB3F.00	[M]Basal cell carcinoma, infiltrative
+BB3E.00	[M]Basal cell carcinoma, micronodular
+BB3D.00	[M]Basal cell carcinoma, nodular
+BB3C.00	[M]Superficial basal cell carcinoma
+BB34.00	[M]Basal cell carcinoma, fibroepithelial type
+BB33.00	[M]Basal cell carcinoma, morphoea type
+BB32.00	[M]Multicentric basal cell carcinoma
+BB31.00	[M]Basal cell carcinoma NOS
+BBEM.00	[M]Malignant melanoma in giant pigmented naevus
+BBEE.00	[M]Malignant melanoma in precancerous melanosis
+BBEC.00	[M]Malignant melanoma in junctional naevus
+BBEG.00	[M]Malignant melanoma in Hutchinson's melanotic freckle
+BBEG000	[M]Acral lentiginous melanoma, malignant
+BBE1.00	[M]Malignant melanoma NOS
+BBE1100	[M]Desmoplastic melanoma, malignant
+BBE1000	[M]Malignant melanoma, regressing
+Byu4.00	[X]Melanoma and other malignant neoplasms of skin
+Byu4100	[X]Malignant melanoma of skin, unspecified
+Byu4000	[X]Malignant melanoma of other and unspecified parts of face
+124J.00	Family history of malignant melanoma
+B509.00	Malignant melanoma of eye
+7G05D00	Excision biopsy of basal cell carcinoma
+44a4.00	Squamous cell carcinoma antigen level
+7G03K	Excision malignant skin tumour
+7G03K00	Excision malignant skin tumour
+7G056	Excision biopsy of rodent ulcer
+7G05600	Excision biopsy of rodent ulcer
+B332z	Malignant neoplasm of skin of ear and external auricular canal NOS
+B332z00	Malignant neoplasm of skin of ear and external auricular canal NOS
+B33y.	Malignant neoplasm of other specified skin sites
+B33y.00	Malignant neoplasm of other specified skin sites
+B76..00	Benign neoplasm of skin
+B76y.	Benign neoplasm of other specified skin sites
+B76y.00	Benign neoplasm of other specified skin sites
+B76z.	Benign neoplasm of skin NOS
+B76z.00	Benign neoplasm of skin NOS
+B7C4.	Benign neoplasm of scrotal skin
+B7C4.00	Benign neoplasm of scrotal skin
+B8...12	Erythroplasia
+B828.	Melanoma in situ of skin
+B828.00	Melanoma in situ of skin
+BA022	Neoplasm of unspecified nature of skin
+BA02200	Neoplasm of unspecified nature of skin
+BB1D.	[M]Spindle cell carcinoma
+BB1D.00	[M]Spindle cell carcinoma
+BB1N.	[M]Small cell-large cell carcinoma
+BB1N.00	[M]Small cell-large cell carcinoma
+BB35.	[M]Basosquamous carcinoma
+BB35.00	[M]Basosquamous carcinoma
+BB5H.	[M]Eccrine dermal cylindroma
+BB5H.00	[M]Eccrine dermal cylindroma
+BB5H.11	[M]Turban tumour
+BB60.	[M]Skin appendage adenoma and carcinoma
+BB60.00	[M]Skin appendage adenoma and carcinoma
+BB60z	[M]Skin appendage adenoma or carcinoma NOS
+BB60z00	[M]Skin appendage adenoma or carcinoma NOS
+BB61.	[M]Sweat gland adenoma and adenocarcinomas
+BB61.00	[M]Sweat gland adenoma and adenocarcinomas
+BB61z	[M]Sweat gland adenoma or adenocarcinoma NOS
+BB61z00	[M]Sweat gland adenoma or adenocarcinoma NOS
+BBB0.	[M]Adenosquamous carcinoma
+BBB0.00	[M]Adenosquamous carcinoma
+BBE..	[M]Naevi and melanomas
+BBE..00	[M]Naevi and melanomas
+BBEF.11	[M]Lentigo maligna
+BBEQ.	[M]Spindle cell melanoma NOS
+BBEQ.00	[M]Spindle cell melanoma NOS
+BBEz.	[M]Naevi or melanoma NOS
+BBEz.00	[M]Naevi or melanoma NOS
+BBN5.	[M]Clear cell sarcoma of tendons and aponeuroses
+BBN5.00	[M]Clear cell sarcoma of tendons and aponeuroses
+Byu43	[X]Malignant neoplasm of skin, unspecified
+Byu4300	[X]Malignant neoplasm of skin, unspecified
+B22..	Malignant neoplasm of trachea, bronchus and lung
+B500.	Malignant neoplasm of eyeball excluding conjunctiva, cornea, retina and choroid
+B506.	Malignant neoplasm of choroid
+B76..00	Benign neoplasm of skin
+B76..14	Mole of skin
+B768.	Melanocytic naevi of skin
+B768.00	Melanocytic naevi of skin
+B7684	Melanocytic naevi of scalp and neck
+B768400	Melanocytic naevi of scalp and neck
+B768X	Melanocytic naevi, unspecified
+B768X00	Melanocytic naevi, unspecified
+B76D.	Multiple self-healing epithelioma of Ferguson-Smith
+B8...12	Erythroplasia
+BB1..	[M]Epithelial neoplasms NOS
+BB1..00	[M]Epithelial neoplasms NOS
+BB1z.	[M]Unspecified epithelial neoplasm
+BB1z.00	[M]Unspecified epithelial neoplasm
+BBEF.11	[M]Lentigo maligna
+ByuGN	[X]Melanocytic naevi, unspecified
+ByuGN00	[X]Melanocytic naevi, unspecified
+B8...12	Erythroplasia
+BBE0.00	[M]Pigmented naevus NOS
+BBE0.11	[M]Hairy naevus NOS
+BBE0.12	[M]Naevus NOS
+BBEF.11	[M]Lentigo maligna
+M21z1	Skin tag
+M21z100	Skin tag
+B8...12	Erythroplasia
+BBE0.00	[M]Pigmented naevus NOS
+BBE0.11	[M]Hairy naevus NOS
+BBE0.12	[M]Naevus NOS
+BBEF.11	[M]Lentigo maligna

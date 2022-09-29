@@ -1,0 +1,123 @@
+﻿bk35.	Losartan potassium+hydrochlorothiazide 50mg/12.5mg tablet
+bk36.	Cozaar-Comp 50mg/12.5mg tablet
+bk3y.	LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
+bk3z.	Losartan potassium+hydrochlorothiazide 100mg/25mg tablet
+bk4x.	Valsartan+hydrochlorothiazide 80mg/12.5mg tablet
+bk4y.	Valsartan+hydrochlorothiazide 160mg/25mg tablet
+bk4z.	Valsartan+hydrochlorothiazide 160mg/12.5mg tablet
+bk5x.	IRBESARTAN+HYDROCHLOROTHIAZIDE 300mg/25mg tablets
+bk5y.	Irbesartan+hydrochlorothiazide 300mg/12.5mg tablet
+bk5z.	Irbesartan+hydrochlorothiazide 150mg/12.5mg tablet
+bk8x.	Telmisartan+hydrochlorothiazide 40mg/12.5mg tablet
+bk8y.	Telmisartan+hydrochlorothiazide 80mg/12.5mg tablet
+bk3A.	COZAAR-COMP 100mg/12.5mg tablets
+bk39.	Cozaar-Comp 100mg/25mg tablet
+bk49.	Co-Diovan 80mg/12.5mg tablet
+bk48.	Co-Diovan 160mg/25mg tablet
+bk47.	Co-Diovan 160mg/12.5mg tablet
+bk59.	COAPROVEL 300mg/25mg tablets
+bk58.	CoAprovel 300mg/12.5mg tablet
+bk57.	CoAprovel 150mg/12.5mg tablet
+bk86.	MicardisPlus 40mg/12.5mg tablet
+bk87.	MicardisPlus 80mg/12.5mg tablet
+b26..	Hydrochlorothiazide
+b26y.	Hydrochlorothiazide 50mg tablet
+b26z.	Hydrochlorothiazide 25mg tablet
+bkC..	Hydrochlorothiazide + Olmesartan
+b262.	Esidrex 50mg tablet
+b264.	HydroSaluric 50mg tablet
+b261.	Esidrex 25mg tablet
+b263.	HydroSaluric 25mg tablet
+bkCx.	OLMESARTAN+HYDROCHLOROTHIAZIDE 40mg/12.5mg tablets
+bkCy.	Olmesartan + hydrochlorothiazide 20mg/25mg tablet
+bkCz.	Olmesartan + hydrochlorothiazide 20mg/12.5mg tablet
+bkC3.	OLMETEC PLUS 40mg/12.5mg tablets
+bkC2.	Olmetec Plus 20mg/25mg tablet
+bkC1.	Olmetec Plus 20mg/12.5mg tablet
+bi3p.	Lisinopril+hydrochlorothiazide 20mg/12.5mg tablet
+bi3k.	Carace 20 Plus tablet
+bi3n.	Zestoretic 20 tablet
+bi3v.	Caralpha 20/12.5mg tablet
+bi3w.	Lisicostad HCT 20/12.5mg tablet
+bi3m.	Zestoretic tablets 28CP
+bi3t.	Lisinopril+hydrochlorothiazide 10mg/12.5mg tablet
+bi3l.	Carace 10 Plus tablet
+bi3s.	Zestoretic 10 tablet
+bi3u.	Caralpha 10/12.5mg tablet
+bi3x.	Lisicostad HCT 10/12.5mg tablet
+bkI..	OLMESARTAN+AMLODIPINE+HYDROCHLOROTHIAZIDE
+bkI1.	SEVIKAR HCT 20mg/5mg/12.5mg tablets
+bkI2.	SEVIKAR HCT 40mg/5mg/12.5mg tablets
+bkI3.	SEVIKAR HCT 40mg/10mg/12.5mg tablets
+bkI4.	SEVIKAR HCT 40mg/5mg/25mg tablets
+bkI5.	SEVIKAR HCT 40mg/10mg/25mg tablets
+x02Wj	Carace
+x02Wk	Carace Plus
+x0411	Carace 10 Plus
+x0412	Carace 20 Plus
+x05sk	Caralpha
+bdeA.	Metoprolol tartrate+hydrochlorothiazide 100mg/12.5mg tablet
+bde1.	Co-Betaloc tablet
+bdeB.	Metoprolol tartrate+hydrochlorothiazide 200mg/25mg m/r tablet
+bde2.	Co-Betaloc SA tablet
+bdeH.	Sotalol hydrochloride+hydrochlorothiazide 160mg/25mg tablet
+bdee.	Sotazide tablet
+bdeJ.	Sotalol hydrochloride+hydrochlorothiazide 80mg/12.5mg tablet
+bdei.	Tolerzide tablet
+bi48.	Quinalapril+hydrochlorothiazide 10mg/12.5mg tablet
+bi47.	Accuretic tablet
+bi4F.	QUINAPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+x02uy	Zestoretic
+x04A0	Zestoretic 10
+x04A1	Zestoretic 20
+x05Dq	CoAprovel
+x02Xf	Co-Betaloc
+x02Xg	Co-Betaloc SA
+bdex.	Acebutolol+hydrochlorothiazide 200mg/12.5mg tablet
+bded.	Secadrex tablet
+bdf8.	Bisoprolol fumarate+hydrochlorothiazide 10mg/6.25mg tablet
+bdf7.	Monozide 10 tablet
+bf2j.	Methyldopa+hydrochlorothiazide 250mg/15mg tablet
+bf2f.	Hydromet tablet
+bi2b.	Enalapril maleate+hydrochlorothiazide 20mg/12.5mg tablet
+bi28.	Innozide tablet
+bk8w.	TELMISARTAN+HYDROCHLOROTHIAZIDE 80mg/25mg tablets
+bk88.	MICARDISPLUS 80mg/25mg tablets
+bl5i.	Diltiazem hydrochloride+hydrochlorothiazide 150mg/12.5mg m/r capsule
+bl5j.	Adizem-XL Plus m/r capsule
+bi36.	Carace 5mg tablets 28CP
+bi37.	Carace 5mg tablet
+bi38.	Carace 10mg tablets 28CP
+bi39.	Carace 10mg tablet
+bi3a.	Carace 20mg tablets 28CP
+bi3b.	Carace 20mg tablet
+x02fB	HydroSaluric
+x02fA	Hydromet
+x02jt	Monozide
+x03st	Monozide 10
+x02QW	Adizem-XL
+x03e5	Adizem-XL Plus
+x03lt	Cozaar-Comp
+x05u2	Co-Diovan
+x060W	Olmetec Plus
+b915.	Esidrex K tablet
+bf3c.	Serpasil-Esidrex tablet
+bi35.	Carace 2.5mg tablet
+x02rI	Sotazide
+x05j2	MicardisPlus
+x02sr	Tolerzide
+x02qe	Secadrex
+x02fm	Innozide
+x05vC	Lisicostad HCT
+x02Sc	Accuretic
+bl5E.	Adizem-XL 300mg long acting m/r capsule
+bl5I.	Adizem-XL 240mg m/r capsule
+bl5J.	Adizem-XL 180mg m/r capsule
+bl5K.	Adizem-XL 120mg m/r capsule
+bljP.	Adizem-XL 200mg m/r capsule
+b51A.	Co-triamterzide 50mg/25mg tablet
+b51A.	Co-triamterzide 50mg/25mg tablet
+b51j.	Co-amilozide 2.5mg/25mg tablet
+b51j.	Co-amilozide 2.5mg/25mg tablet
+b51k.	Co-amilozide 5mg/50mg tablet
+b51k.	Co-amilozide 5mg/50mg tablet
