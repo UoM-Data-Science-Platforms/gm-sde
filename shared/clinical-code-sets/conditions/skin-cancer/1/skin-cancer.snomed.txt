@@ -1,0 +1,634 @@
+36025004	Angiokeratoma in tuberous sclerosis
+91965004	Benign neoplasm of adnexa of skin (disorder)
+92384009	Benign tumor of skin
+93209006	Malignant melanoma of perianal skin (disorder)
+93210001	Malignant melanoma of skin of abdomen (disorder)
+93211002	Malignant melanoma of skin of ankle (disorder)
+93213004	Malignant melanoma of skin of axilla (disorder)
+93214005	Malignant melanoma of skin of back (disorder)
+93215006	Malignant melanoma of skin of breast (disorder)
+93216007	Malignant melanoma of skin of buttock (disorder)
+93217003	Malignant melanoma of external surface of cheek
+93218008	Malignant melanoma of skin of chest (disorder)
+93219000	Malignant melanoma of skin of chin (disorder)
+93220006	Malignant melanoma of skin of ear (disorder)
+93221005	Malignant melanoma of skin of elbow (disorder)
+93222003	Malignant melanoma of skin of external auditory canal (disorder)
+93223008	Malignant melanoma of eyebrow
+93224002	Malignant melanoma of skin of eyelid (disorder)
+93225001	Malignant melanoma of skin of face (disorder)
+93226000	Malignant melanoma of skin of finger (disorder)
+93227009	Malignant melanoma of skin of foot (disorder)
+93228004	Malignant melanoma of skin of forearm (disorder)
+93229007	Malignant melanoma of skin of forehead (disorder)
+93230002	Malignant melanoma of skin of groin (disorder)
+93636004	Malignant melanoma of skin of hand (disorder)
+93637008	Malignant melanoma of skin of hip (disorder)
+93638003	Malignant melanoma of skin of knee (disorder)
+93640008	Malignant melanoma of skin of lip (disorder)
+93641007	Malignant melanoma of skin of lower limb (disorder)
+93642000	Malignant melanoma of skin of neck (disorder)
+93643005	Malignant melanoma of external surface of nose
+93644004	Malignant melanoma of skin of perineum (disorder)
+93645003	Malignant melanoma of skin of popliteal area (disorder)
+93646002	Malignant melanoma of skin of scalp (disorder)
+93647006	Malignant melanoma of skin of shoulder (disorder)
+93648001	Malignant melanoma of skin of temporal region (disorder)
+93649009	Malignant melanoma of skin of thigh (disorder)
+93650009	Malignant melanoma of skin of toe (disorder)
+93651008	Malignant melanoma of skin of trunk (disorder)
+93652001	Malignant melanoma of skin of umbilicus (disorder)
+93653006	Malignant melanoma of skin of upper limb (disorder)
+93654000	Malignant melanoma of skin of wrist (disorder)
+93655004	Melanoma of skin
+109266006	Melanoma in situ of skin (disorder)
+109267002	Overlapping malignant melanoma of skin (disorder)
+126488004	Neoplasm of skin (disorder)
+126489007	Neoplasm of skin with adnexal differentiation
+126490003	Neoplasm of sweat gland (disorder)
+126491004	Tumor of skin with sebaceous differentiation (disorder)
+188030005	Malignant melanoma of lip (disorder)
+188032002	Malignant melanoma of ear and/or external auditory canal
+188033007	Malignant melanoma of auricle (ear) (disorder)
+188034001	Malignant melanoma of external auditory meatus (disorder)
+188038003	Malignant melanoma of chin (disorder)
+188040008	Malignant melanoma of forehead (disorder)
+188042000	Malignant melanoma of temple (disorder)
+188044004	Malignant melanoma of scalp and/or neck
+188045003	Malignant melanoma of scalp (disorder)
+188046002	Malignant melanoma of neck (disorder)
+188049009	Malignant melanoma of axilla (disorder)
+188050009	Malignant melanoma of breast (disorder)
+188051008	Malignant melanoma of buttock (disorder)
+188052001	Malignant melanoma of groin (disorder)
+188054000	Malignant melanoma of perineum (disorder)
+188055004	Malignant melanoma of umbilicus (disorder)
+188060000	Malignant melanoma of shoulder (disorder)
+188061001	Malignant melanoma of upper arm (disorder)
+188062008	Malignant melanoma of forearm
+188063003	Malignant melanoma of hand (disorder)
+188064009	Malignant melanoma of finger (disorder)
+188065005	Malignant melanoma of thumb (disorder)
+188067002	Malignant melanoma of lower limb and hip (disorder)
+188068007	Malignant melanoma of hip (disorder)
+188069004	Malignant melanoma of thigh (disorder)
+188070003	Malignant melanoma of knee (disorder)
+188071004	Malignant melanoma of popliteal fossa area (disorder)
+188072006	Malignant melanoma of lower leg (disorder)
+188073001	Malignant melanoma of ankle (disorder)
+188074007	Malignant melanoma of heel (disorder)
+188075008	Malignant melanoma of foot (disorder)
+188076009	Malignant melanoma of toe (disorder)
+188077000	Malignant melanoma of great toe (disorder)
+189138008	Benign tumor of scrotal skin (disorder)
+189565007	Squamous cell carcinoma in situ (disorder)
+231831002	Squamous cell carcinoma of eyelid (disorder)
+231832009	Basal cell carcinoma of eyelid (disorder)
+231834005	Malignant melanoma of eyelid (disorder)
+253001006	Merkel cell carcinoma (disorder)
+254437001	Squamous cell carcinoma of buccal mucosa (disorder)
+254620000	Squamous cell carcinoma of trachea (disorder)
+254622008	Squamous cell carcinoma of bronchus (disorder)
+254634000	Squamous cell carcinoma of lung (disorder)
+254649008	Epithelial neoplasm of skin
+254650008	Malignant epithelial neoplasm of skin
+254651007	Squamous cell carcinoma of skin (disorder)
+254652000	Clear cell squamous cell carcinoma of skin (disorder)
+254653005	Spindle cell squamous carcinoma of skin (disorder)
+254654004	Acantholytic squamous cell carcinoma of skin (disorder)
+254656002	Cancer in situ skin, squamous cell
+254658001	Benign epithelial neoplasm of skin
+254691005	Benign tumor of skin with pilar differentiation (disorder)
+254701007	Cancer of skin, basal cell
+254702000	Basosquamous carcinoma of skin (disorder)
+254710004	Basal cell carcinoma with eccrine differentiation (disorder)
+254718006	Eccrine dermal duct tumour of skin
+254720009	Eccrine mixed tumour of skin
+254723006	Tumor of skin with apocrine differentiation (disorder)
+254730000	Superficial spreading malignant melanoma of skin (disorder)
+254731001	Nodular malignant melanoma of skin (disorder)
+254732008	Acral lentiginous malignant melanoma of skin (disorder)
+254733003	Malignant melanoma arising in intradermal nevus (disorder)
+254734009	Malignant melanoma arising in congenital nevus (disorder)
+254736006	Fibrous tissue neoplasm of skin
+254747004	Desmoid fibromatosis of skin (disorder)
+254749001	Fibrohistiocytic tumour of skin
+254758008	Skin mass of neural origin
+254763007	Granular cell tumor of skin (disorder)
+254765000	Skin tumor of smooth muscle origin (disorder)
+254795008	Glomus tumor of skin (disorder)
+254819008	Atypical mole syndrome (disorder)
+254886006	Squamous cell carcinoma of cervix (disorder)
+254895003	Squamous cell carcinoma of vulva (disorder)
+254896002	Malignant melanoma of vulva (disorder)
+254906005	Tumor of skin of penis (disorder)
+254908006	Malignant tumor of skin of penis (disorder)
+255003007	Squamous cell carcinoma of conjunctiva (disorder)
+255004001	Malignant melanoma of conjunctiva (disorder)
+255008003	Squamous cell carcinoma of cornea (disorder)
+255012009	Iris melanoma
+255015006	Ciliary body melanoma
+255021005	Malignant melanoma of choroid (disorder)
+255071008	Squamous cell carcinoma of lip (disorder)
+255084004	Squamous cell carcinoma of anal margin (disorder)
+255093003	Malignant skin tumour with adnexal differentiation
+255096006	Malignant tumor of dermis (disorder)
+255111004	Squamous cell carcinoma of bladder (disorder)
+255185000	Benign tumor of skin with sebaceous differentiation (disorder)
+255186004	Benign tumor of dermis (disorder)
+269578002	Malignant melanoma of head and neck (disorder)
+269579005	Malignant melanoma of trunk (disorder)
+269580008	Malignant melanoma of upper limb (disorder)
+269581007	Malignant melanoma of lower limb (disorder)
+274087000	Malignant melanoma of eye (disorder)
+274903001	Eccrine dermal cylindroma of skin
+276418007	Benign tumor of skin of penis (disorder)
+276728004	Melanocytic tumor of skin (disorder)
+276739001	Tumor of skin with pilar differentiation (disorder)
+276750003	Malignant tumor of skin with pilar differentiation (disorder)
+276751004	Amelanotic melanoma
+276798007	Benign neoplasm of fibrous tissue of skin
+276804009	Squamous cell carcinoma of esophagus (disorder)
+276821000	Cancer anal melanoma
+276822007	Cancer rectum melanoma
+276860003	Squamous cell carcinoma of scrotum (disorder)
+276952000	Squamous cell carcinoma of tongue (disorder)
+276953005	Squamous cell carcinoma of gum (disorder)
+276954004	Squamous cell carcinoma of floor of mouth (disorder)
+276962007	Squamous cell carcinoma of palate (disorder)
+277530005	Malignant melanoma of meninges (disorder)
+285307007	Squamous cell carcinoma of skin of upper lip (disorder)
+285308002	Squamous cell carcinoma of skin of lower lip (disorder)
+285309005	Squamous cell carcinoma of skin of cheek (disorder)
+307502000	Squamous cell carcinoma of mouth (disorder)
+307603002	Malignant melanoma in blue nevus
+310498001	Malignant melanoma of back (disorder)
+313248004	Malignant melanoma of chest wall (disorder)
+313353007	Squamous cell carcinoma of bronchus in left lower lobe (disorder)
+313354001	Squamous cell carcinoma of bronchus in left upper lobe (disorder)
+313355000	Squamous cell carcinoma of bronchus in right lower lobe (disorder)
+313356004	Squamous cell carcinoma of bronchus in right middle lobe (disorder)
+313357008	Squamous cell carcinoma of bronchus in right upper lobe (disorder)
+314975005	Local recurrence of malignant tumor of skin (disorder)
+314976006	Local recurrence of malignant melanoma of skin (disorder)
+314987003	Metastasis from malignant melanoma of skin (disorder)
+314988008	Metastasis from malignant tumor of skin (disorder)
+372244006	Melanosarcoma
+398670003	Pigmented dermatofibrosarcoma
+399590005	Squamous cell carcinoma of prostate
+399897004	Basal cell carcinoma of postauricular skin
+399934007	Basal cell carcinoma of preauricular skin
+399954008	Basal cell carcinoma of earlobe
+400057007	Basal cell carcinoma of pinnal sulcus
+400066006	Intraepithelial squamous cell carcinoma
+400132000	Cutaneous vascular tumor
+400174005	Basal cell carcinoma of antihelix of ear
+402494003	Basal cell carcinoma of lower eyelid
+402495002	Basal cell carcinoma of medial canthus
+402496001	Basal cell carcinoma of lateral canthus
+402497005	Basal cell carcinoma of root of nose
+402498000	Basal cell carcinoma of dorsum of nose
+402499008	Basal cell carcinoma of lateral side wall of nose
+402500004	Basal cell carcinoma of ala nasi
+402501000	Basal cell carcinoma of supratip of nose
+402502007	Basal cell carcinoma of tip of nose
+402503002	Basal cell carcinoma of nasal columella
+402504008	Basal cell carcinoma of nasolabial groove
+402505009	Basal cell carcinoma of upper lip
+402506005	Basal cell carcinoma of lower lip
+402507001	Basal cell carcinoma of cheek
+402508006	Cancer of chin, basal cell
+402509003	Cancer of skin of neck, basal cell
+402510008	Basal cell carcinoma of helix of ear
+402511007	Basal cell carcinoma of conchal bowl of ear
+402512000	Basal cell carcinoma of antitragus
+402513005	Basal cell carcinoma of tragus
+402514004	Basal cell carcinoma of obverse of pinna
+402515003	Basal cell carcinoma of anterior chest
+402516002	Basal cell carcinoma of abdomen
+402517006	Basal cell carcinoma of upper back
+402518001	Basal cell carcinoma of lower back
+402519009	Cancer of skin of face, basal cell
+402520003	Cancer of hand, basal cell
+402521004	Cancer of skin of upper limb, basal cell
+402522006	Cancer of skin of lower limb, basal cell
+402523001	Cancer of skin of trunk, basal cell
+402524007	Basal cell carcinoma - adamantinoid
+402525008	Basal cell carcinoma - adenoid
+402526009	Basal cell carcinoma - follicular
+402527000	Basal cell carcinoma - infiltrative
+402528005	Basal cell carcinoma - keratotic
+402529002	Basal cell carcinoma - micronodular
+402530007	Basal cell carcinoma with matrical differentiation
+402531006	Basal cell carcinoma with granular cell change
+402532004	Basal cell carcinoma with monster cells
+402533009	Basal cell carcinoma with sebaceous differentiation
+402534003	Basal cell carcinoma with signet ring change
+402536001	Basal cell carcinoma - primary
+402537005	Metastatic basal cell carcinoma
+402538000	Recurrent basal cell carcinoma
+402539008	Basal cell carcinoma recurrent following excision
+402540005	Basal cell carcinoma recurrent following Mohs' excision
+402541009	Basal cell carcinoma recurrent following curettage
+402542002	Basal cell carcinoma recurrent following cryosurgery
+402543007	Basal cell carcinoma recurrent following radiotherapy
+402544001	Basal cell carcinoma - first recurrence
+402545000	Basal cell carcinoma - second recurrence
+402546004	Basal cell carcinoma - third recurrence
+402547008	Basal cell carcinoma - multiple recurrences (more than three times)
+402556000	In situ superficial spreading malignant melanoma
+402557009	In situ acral lentiginous malignant melanoma
+402558004	Malignant melanoma (vertical growth phase)
+402559007	Congenital malignant melanoma
+402560002	Materno-foetal metastatic malignant melanoma
+402561003	Clear cell sarcoma
+402562005	Malignant melanoma animal-type
+402563000	Metastatic malignant melanoma with diffuse hypermelanosis
+402652009	Malignant vascular tumor of skin
+402815007	Squamous cell carcinoma
+402816008	Squamous cell carcinoma of anogenital area
+402817004	Squamous cell carcinoma of nail apparatus
+402818009	Cancer of nose, basal cell
+402819001	Cancer of skin of lip, basal cell
+402820007	Cancer of skin of ear, basal cell
+402873007	Malignant fibrohistiocytic tumor of skin
+403468003	Cancer of the penis, squamous cell
+403712008	Psoralen and long-wave ultraviolet radiation therapy-associated basal cell carcinoma
+403713003	Psoralen and long-wave ultraviolet radiation therapy-associated squamous cell carcinoma
+403714009	Psoralen and long-wave ultraviolet radiation therapy-associated malignant melanoma (disorder)
+403890009	Squamous cell carcinoma of vulva due to lichen sclerosus
+403891008	Cancer of the scalp, squamous cell
+403892001	Squamous cell cancer of skin of face
+403893006	Cancer of the forehead, squamous cell
+403894000	Squamous cell cancer of skin of ear
+403895004	Squamous cell carcinoma of foot
+403896003	Squamous cell carcinoma of hand
+403897007	Squamous cell carcinoma of upper extremity
+403898002	Squamous cell cancer of skin of lower limb
+403899005	Squamous cell carcinoma of skin of trunk
+403900000	Pseudosarcoma of the skin
+403901001	Acantholytic squamous cell carcinoma
+403903003	Signet ring squamous cell carcinoma
+403904009	Verrucous epidermoid carcinoma
+403906006	Metastatic squamous cell carcinoma
+403909004	Pigmented basal cell carcinoma
+403910009	Circumscribed solid basal cell carcinoma
+403911008	Nodulo-ulcerative basal cell carcinoma
+403912001	Cystic basal cell carcinoma
+403913006	Cicatrising basal cell carcinoma
+403914000	Multifocal basal cell carcinoma
+403915004	Cancer of scalp, basal cell
+403916003	Cancer of forehead, basal cell
+403917007	Cancer of temple, basal cell
+403918002	Basal cell carcinoma of glabella
+403919005	Cancer of upper eyelid, basal cell
+403920004	Minimal deviation malignant melanoma
+403921000	Borderline malignant melanoma
+403922007	Balloon cell malignant melanoma
+403923002	Spitzoid malignant melanoma
+403924008	Desmoplastic malignant melanoma
+403925009	Neurotropic malignant melanoma
+403926005	Malignant melanoma of oral cavity
+403927001	Subungual malignant melanoma
+403943008	Malignant chondroid syringoma of skin
+403952004	Lymphoepithelioma-like carcinoma of skin
+403972009	Familial glomus tumor of skin
+404011000	Plexiform fibrohistiocytic tumor of skin
+404091004	Malignant infiltration of skin by underlying tumor
+405822008	Cancer of the larynx, squamous cell
+408648004	Squamous cell carcinoma of epiglottis
+408649007	Cancer of the pharynx, squamous cell
+418372008	Squamous cell carcinoma of mucous membrane of lower lip
+419240004	Squamous cell carcinoma of mucous membrane of upper lip
+419842002	Squamous cell carcinoma of oral mucous membrane
+422378004	Cancer of the bridge of nose, squamous cell
+422572002	Squamous cell carcinoma of chin
+422599000	Cancer of the back, squamous cell
+422676009	Squamous cell carcinoma of ala nasi
+422691006	Squamous cell carcinoma of nasopharynx
+423280002	Malignant melanoma of skin of canthus of eye
+423284006	Cancer of skin of neck, squamous cell
+423295000	Squamous cell carcinoma of lung, TNM stage 1
+423325007	Basal cell carcinoma of external auditory canal
+423447006	Malignant melanoma of skin of lower eyelid
+423463003	Cancer of back, basal cell
+423464009	Cancer of oropharynx, squamous cell
+423468007	Squamous cell carcinoma of lung, TNM stage 2
+423494003	Malignant melanoma of skin of upper eyelid
+423506005	Squamous cell carcinoma of external auditory canal
+423535002	Cancer of chest wall, basal cell
+423673009	Melanoma of retina
+423700001	Squamous cell carcinoma of auricle
+423896007	Cancer of tip of nose, squamous cell
+424190005	Malignant melanoma of unknown primary
+424260006	Cancer of nasolabial fold, squamous cell
+424302003	Malignant melanoma of skin of lower lip
+424487008	Malignant melanoma of skin of upper lip
+424666005	Cancer of auricle of ear, basal cell
+425148008	Cancer of temple, squamous cell
+425230006	Squamous cell carcinoma of lung, TNM stage 3
+425376008	Squamous cell carcinoma of lung, TNM stage 4
+429114002	Malignant basal cell tumour of skin
+440527006	Primary squamous cell carcinoma of naris
+443493003	Metastatic malignant melanoma
+447712006	Malignant melanoma of skin of anus
+448165009	Squamous cell carcinoma arising in chronic ulcer
+448273006	Malignant melanoma of skin of scrotum
+448298007	Malignant melanoma of skin of penis
+448300007	Malignant melanoma of skin of vulva
+448930008	Squamous cell carcinoma of nose
+448931007	Squamous cell carcinoma of shoulder
+449636007	Malignant melanoma of skin of lower leg (disorder)
+449637003	Malignant melanoma of skin of upper arm (disorder)
+698011002	Keratinizing squamous cell carcinoma of nasopharynx
+698040004	Malignant melanoma of nasal cavity
+698041000	Malignant melanoma of vestibule of mouth
+698042007	Malignant melanoma of tongue (disorder)
+698043002	Malignant melanoma of floor of mouth
+698044008	Malignant melanoma of palatine arch (disorder)
+698045009	Malignant melanoma of buccal mucosa (disorder)
+698048006	Undifferentiated nonkeratinizing carcinoma of nasopharynx
+698285005	Melanoma of ethmoidal sinus
+698286006	Malignant melanoma of palate
+698287002	Malignant melanoma of gingiva
+698288007	Melanoma of maxillary sinus
+707350007	Malignant melanoma of accessory sinus (disorder)
+707353009	Squamous cell carcinoma of accessory sinus
+707354003	Squamous cell carcinoma of maxillary sinus
+707355002	Squamous cell carcinoma of sphenoidal sinus
+707356001	Squamous cell carcinoma of frontal sinus
+707357005	Squamous cell carcinoma of laryngeal cartilage
+707358000	Squamous cell carcinoma of larynx
+707359008	Squamous cell carcinoma of ethmoidal sinus
+707361004	Malignant melanoma of frontal sinus
+707362006	Melanoma of sphenoidal sinus
+707388009	Primary squamous cell carcinoma of trachea (disorder)
+707389001	Primary clear cell squamous cell carcinoma of trachea
+707390005	Primary basaloid squamous cell carcinoma of trachea (disorder)
+707391009	Primary papillary squamous cell carcinoma of trachea
+707408006	Small cell non-keratinising squamous cell carcinoma of lung
+707422006	Spindle cell squamous cell carcinoma of larynx
+707425008	Adenoid squamous cell carcinoma of larynx
+707426009	Papillary squamous cell carcinoma of larynx
+707429002	Overlapping squamous cell carcinoma of larynx (disorder)
+707430007	Overlapping squamous cell carcinoma of laryngeal cartilage
+707453008	Clear cell squamous cell carcinoma of lung
+707454002	Basaloid squamous cell carcinoma of lung
+707455001	Papillary squamous cell carcinoma of lung
+707481002	Basaloid squamous cell carcinoma of hypopharynx
+707482009	Papillary squamous cell carcinoma of hypopharynx
+707484005	Adenoid squamous cell carcinoma of hypopharynx
+707489000	Spindle cell squamous cell carcinoma of hypopharynx
+707492001	Primary squamous cell carcinoma of hypopharynx
+707495004	Squamous cell adenoid carcinoma of trachea
+707528007	Primary squamous cell carcinoma of nasopharynx
+707529004	Overlapping squamous cell carcinoma of oropharynx
+707531008	Primary squamous cell carcinoma of branchial cleft (disorder)
+707532001	Primary squamous cell carcinoma of posterior wall of oropharynx (disorder)
+707535004	Squamous cell carcinoma of lateral wall of oropharynx
+707537007	Primary squamous cell carcinoma of anterior surface of epiglottis (disorder)
+707538002	Primary squamous cell carcinoma of vallecula
+707575007	Primary squamous cell carcinoma of supraglottis (disorder)
+707576008	Primary squamous cell carcinoma of subglottis
+707579001	Primary basaloid squamous cell carcinoma of oropharynx (disorder)
+707581004	Papillary squamous cell carcinoma of oropharynx
+707582006	Primary spindle cell squamous cell carcinoma of oropharynx (disorder)
+707585008	Squamous cell carcinoma of oropharynx
+707628004	Squamous cell carcinomas of overlapping lesion of hypopharynx
+707662004	Basaloid squamous cell carcinoma of larynx
+707664003	Primary squamous cell carcinoma of glottis
+707686002	Squamous cell carcinomas of posterior wall of hypopharynx
+707697002	Squamous cell carcinomas of aryepiglottic fold, hypopharyngeal aspect
+707703001	Squamous cell carcinomas of postcricoid region
+707704007	Squamous cell carcinoma of piriform sinus
+716274007	Nodular basal cell carcinoma of skin
+716659002	Squamous cell carcinoma of head and neck
+717731002	Basal cell carcinoma of vulva
+719052006	Recurrent squamous cell carcinoma
+721563000	Primary malignant melanoma of vagina
+721604004	Primary squamous cell carcinoma of overlapping lesion of male genital organ
+721605003	Primary squamous cell carcinoma of overlapping lesion of accessory sinuses
+721618006	Primary squamous cell carcinoma of upper third of oesophagus
+721619003	Primary squamous cell carcinoma of middle third of oesophagus
+721620009	Primary squamous cell carcinoma of lower third of oesophagus
+721621008	Primary squamous cell carcinoma of overlapping lesion of oesophagus
+721627007	Malignant melanoma of oesophagus
+722112006	Primary squamous cell carcinoma of ear
+722202006	Palmoplantar keratoderma, 46,XX sex reversal, predisposition to squamous cell carcinoma syndrome
+722530005	Primary squamous cell carcinoma of adenoid
+722542000	Primary squamous cell carcinoma of anal canal
+722543005	Primary malignant melanoma of anal canal
+722665003	Primary malignant melanoma of cornea
+722666002	Primary squamous cell carcinoma of lacrimal apparatus
+722672002	Primary squamous cell carcinoma of base of tongue
+722673007	Primary squamous cell carcinoma of lingual tonsil
+722674001	Primary squamous cell carcinoma of parotid gland
+722676004	Primary squamous cell carcinoma of middle ear
+722678003	Primary squamous cell carcinoma of vagina
+723182009	Primary squamous cell carcinoma of nasal cavity
+723265000	Primary squamous cell carcinoma of anus
+723281005	Primary malignant melanoma of anus
+724467001	Primary squamous cell carcinoma of overlapping lesion of urinary organs
+726019003	Familial cutaneous malignant melanoma
+733134009	Primary squamous cell carcinoma of paraurethral gland (disorder)
+733343005	Primary squamous cell carcinoma of oral cavity
+733344004	Primary squamous cell carcinoma of lip
+733345003	Primary squamous cell carcinoma of pharynx
+733357007	Primary squamous cell carcinoma of intrathoracic organ (disorder)
+733358002	Primary squamous cell carcinoma of respiratory system
+733359005	Primary squamous cell carcinoma of endometrium
+737310005	Primary squamous cell carcinoma of submandibular gland (disorder)
+737311009	Primary squamous cell carcinoma of sublingual gland (disorder)
+764735002	Squamous cell carcinoma of small bowel
+764737005	Squamous cell carcinoma of corpus uteri
+766978002	Squamous cell carcinoma of gallbladder and extrahepatic biliary tract (disorder)
+766979005	Squamous cell carcinoma of rectum (disorder)
+766980008	Squamous cell carcinoma of stomach (disorder)
+766981007	Squamous cell carcinoma of colon
+767544007	Intraepithelial squamous cell carcinoma of anogenital region (disorder)
+24111000119105	Primary squamous cell carcinoma of upper limb (disorder)
+1082101000119106	Primary squamous cell carcinoma of skin of left lower limb
+1082221000119106	Primary squamous cell carcinoma of skin of right lower limb
+1080941000119109	Malignant melanoma of left choroid
+1080981000119104	Malignant melanoma of right choroid
+1081021000119109	Malignant melanoma of skin of left lower limb
+352001000119100	Malignant melanoma of skin of right lower limb
+352201000119105	Malignant melanoma of skin of left upper limb (disorder)
+61471000119100	Basal cell carcinoma of naris (disorder)
+80071000119103	Carcinoma in situ basal cell
+1079091000119100	Primary basal cell carcinoma of left upper limb
+1079101000119105	Primary basal cell carcinoma of left ear
+1079111000119108	Primary basal cell carcinoma of left eyelid
+1079131000119103	Primary basal cell carcinoma of left lower limb
+1079161000119106	Primary basal cell carcinoma of right ear
+1079171000119100	Primary basal cell carcinoma of right eyelid
+1079191000119104	Primary basal cell carcinoma of right lower limb
+1079151000119109	Primary basal cell carcinoma of right upper limb
+242951000119108	Primary squamous cell carcinoma of vermilion border of lip (disorder)
+18121000119104	Primary squamous cell carcinoma of palatine tonsil (disorder)
+105111000119109	Primary squamous cell carcinoma of thymus (disorder)
+107591000119100	Primary squamous cell carcinoma of urethra
+91151000119103	Primary squamous cell carcinoma of chest wall (disorder)
+105121000119102	Squamous cell carcinoma of vagina (disorder)
+12240991000119102	Squamous cell carcinoma of right lung
+1082071000119102	Primary squamous cell carcinoma of left ear
+12240951000119107	Squamous cell carcinoma of left lung
+1082191000119100	Primary squamous cell carcinoma of right ear
+1671000119100	Metastasis to lymph node from squamous cell carcinoma
+915007	Malignant melanoma in junctional nevus (morphologic abnormality)
+1338007	BCC - Basal cell carcinoma
+2092003	Malignant melanoma, no International Classification of Diseases for Oncology subtype
+10288008	Squamous cell carcinoma - spindle cell
+12478003	Microinvasive squamous cell carcinoma
+12622007	Clear cell sarcoma (except of Kidney M-89643) (morphologic abnormality)
+16974005	Acral lentiginous melanoma, malignant (morphologic abnormality)
+18048008	Keratinizing epidermoid carcinoma
+18450009	Malignant melanoma in melanosis
+21326004	Combined small cell carcinoma (morphologic abnormality)
+28899001	Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality)
+35718007	Non-keratinizing epidermoid carcinoma - small cell
+37304002	Basisquamous cell carcinoma
+39056008	Papillary squamous cell carcinoma (morphologic abnormality)
+39896009	Malignant melanoma, regressing (morphologic abnormality)
+43369006	Fibroepithelial basal cell carcinoma
+44474009	Malignant melanoma in Hutchinson melanotic freckle
+45490001	Non-keratinizing epidermoid carcinoma - large cell
+51757004	Malignant neurotropic melanoma
+56665009	Infiltrating basal cell carcinoma (morphologic abnormality)
+59367005	Adenosquamous carcinoma (morphologic abnormality)
+61098004	Multifocal superficial basal cell carcinoma (morphologic abnormality)
+64204000	Metastatic squamous cell carcinoma
+65692009	Polypoid squamous cell carcinoma
+68827007	Spitzoid malignant melanoma
+75931002	Malignant melanoma in giant pigmented nevus (morphologic abnormality)
+85956000	Adenoid squamous cell carcinoma (morphologic abnormality)
+89906000	SCC - Verrucous squamous cell carcinoma
+128633003	Squamous cell carcinoma with horn formation (morphologic abnormality)
+128634009	Basaloid squamous cell carcinoma (morphologic abnormality)
+128635005	Squamous cell carcinoma, clear cell type (morphologic abnormality)
+128636006	Basal cell carcinoma, nodular (morphologic abnormality)
+134152008	Morpheaform basal cell carcinoma
+271944004	Clear cell sarcoma (morphologic abnormality)
+302821007	Basal cell carcinoma, sclerosing type
+372156000	Malignant melanoma - category
+372158004	Malignant melanoma, metastatic
+399470004	Eccrine basal cell carcinoma
+399487002	Basal cell carcinoma with adnexal differentiation
+399494004	Squamous cell carcinoma in post-traumatic skin lesion
+399547009	Keratotic basal cell carcinoma
+399569002	Basal cell carcinoma in basal cell nevus syndrome
+399582005	Squamous cell carcinoma, nonkeratinizing, differentiated
+399585007	Pigmented basal cell carcinoma
+399644007	Malignant neurotropic melanoma
+399694008	Squamous cell carcinoma, nonkeratinizing, mixed differentiated and undifferentiated
+399739006	Carcinosarcomatous squamous cell carcinoma
+399746002	Follicular basal cell carcinoma
+399958006	Basal cell carcinoma with matrical differentiation
+400071004	Basal cell carcinoma, micronodular
+400087001	Basal cell carcinoma with sebaceous differentiation
+400137006	Basal cell carcinoma - category
+400155002	Squamous cell carcinoma - category
+448406002	Grade III squamous intraepithelial neoplasia with microinvasive squamous cell carcinoma
+449778005	Undifferentiated nonkeratinizing squamous cell carcinoma
+733897002	Pseudovascular squamous cell carcinoma
+373185000	pT4: Tumor of any size with direct extension to chest wall or skin (breast) (finding)
+373187008	pT4b: Tumour of any size with oedema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast (breast)
+373189006	pT4c: Tumor of any size with direct extension to chest wall (not including pectoralis muscle) and edema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast (finding)
+396493009	pT1: Tumor 2 cm or less in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396494003	pT1a: Tumor 2 cm or less in greatest dimension, limited to dermis or 2 mm or less in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396495002	pT1b: Tumor 2 cm or less in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396496001	pT1c: Tumor 2 cm or less in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396497005	pT2: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396498000	pT2a: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis or greater than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396499008	pT2b: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396500004	pT2c: Tumour more than 2 cm, but not more than 5 cm, in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396501000	pT3: Tumor more than 5 cm in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396502007	pT3a: Tumor more than 5 cm in greatest dimension, limited to dermis or not more than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396503002	pT3b: Tumor more than 5 cm in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396504008	pT3c: Tumor more than 5 cm in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396506005	pT4: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396507001	pT4b: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) greater than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396508006	pT4a: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) not more than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+396578007	pT4a: Tumor invades through cortical bone, inferior alveolar nerve, floor of mouth, or skin of face, i.e., chin or nose (lip)
+396579004	pT4a: Tumor invades through cortical bone, into deep (extrinsic) muscle of tongue (genioglossus, hyoglossus, palatoglossus, and styloglossus), maxillary sinus, or skin of face (oral cavity)
+396618006	pT4a: Tumour invades anterior orbital contents, skin of cheek, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinuses (maxillary sinus)
+396625004	pT4a: Tumor invades any of the following: anterior orbital contents, skin of nose or cheek, minimal extension to anterior cranial fossa, pterygoid plates, sphenoid or frontal sinuses (nasal cavity and ethmoid sinus)
+956331000000107	Malignant melanoma stage IA
+956351000000100	Malignant melanoma stage IB
+956371000000109	Malignant melanoma stage IIA
+956391000000108	Malignant melanoma stage IIB
+956411000000108	Malignant melanoma stage IIC
+956431000000100	Malignant melanoma stage IIIA
+956451000000107	Malignant melanoma stage IIIB
+956471000000103	Malignant melanoma stage IIIC
+956511000000107	Malignant melanoma stage IV M1a
+956531000000104	Malignant melanoma stage IV M1b
+956551000000106	Malignant melanoma stage IV M1c
+428796002	Excisional biopsy of basal cell carcinoma
+703499006	Excision of postauricular basal cell carcinoma with closure
+736465001	Excision of basal cell carcinoma from right postauricular region with closure
+254343003	Tumor-node-metastasis (TNM) malignant melanoma of eyelid staging
+254345005	Tumor-node-metastasis (TNM) malignant melanoma of conjunctiva staging
+254346006	Tumor-node-metastasis (TNM) malignant melanoma of uvea staging
+254347002	Tumor-node-metastasis (TNM) malignant melanoma of iris staging
+254348007	Tumor-node-metastasis (TNM) malignant melanoma of ciliary body staging
+254349004	Tumor-node-metastasis (TNM) malignant melanoma of choroid staging
+5688000	Squamous cell carcinoma in situ with questionable stromal invasion (morphologic abnormality)
+59529006	Squamous cell carcinoma in situ, no International Classification of Diseases for Oncology subtype
+128647004	Papillary squamous cell carcinoma, non-invasive (morphologic abnormality)
+369869004	T4: Lip: Tumor invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face) (finding)
+369870003	T4: Oral Cavity: Tumor invades adjacent structures (cortical bone, deep (extrinsic) muscle of tongue, maxillary sinus, skin) (finding)
+369879002	T4: Aerodigestive tract tumor with intracranial extension, orbital extension including apex, involving sphenoid and/or frontal sinus and/or skin of nose (finding)
+369902006	T4: Breast tumor of any size with direct extension to chest wall or skin (finding)
+422973004	Location of malignant melanoma in specimen with involved lateral margin
+424696000	Location of malignant melanoma in specimen with uninvolved lateral margin
+424949006	Location of malignant melanoma in specimen with uninvolved deep margin
+425133002	Location of malignant melanoma in specimen with involved deep margin
+105966009	Tumor-like lesion of skin (navigational concept)
+188048001	Malignant melanoma of trunk (excluding scrotum) (navigational concept)
+254735005	Tumor of dermis (navigational concept)
+733912008	Primary intraosseous squamous cell carcinoma derived from odontogenic cyst
+733913003	Primary intraosseous squamous cell carcinoma derived from keratocystic odontogenic neoplasm
+734095001	Primary solid type intraosseous squamous cell carcinoma
+254324003	Tumor-node-metastasis (TNM) carcinoma of skin tumour staging
+254325002	Tumor-node-metastasis (TNM) malignant melanoma of skin staging
+396512000	Surgical lateral margin uninvolved by malignant melanoma
+396513005	Surgical lateral margin involved by malignant melanoma
+300987004	Disseminated squamous cell carcinoma (morphologic abnormality)
+369864009	T3: Aerodigestive tract tumor invades any of the following: bone of posterior wall of maxillary sinus, subcutaneous tissues, skin of cheek, floor or medial wall of orbit, infratemporal fossa, pterygoid plates, ethmoid sinuses (finding)
+399464005	Transitional cell carcinoma with squamous differentiation
+64773009	Eccrine dermal cylindroma (morphologic abnormality)
+406103009	Squamous cell carcinoma in situ of uterine cervix
+718396005	Basal cell carcinoma in situ
+396515003	Distance of malignant melanoma from closest lateral margin
+396518001	Distance of malignant melanoma from deep margin
+385402001	Surgical bronchial margin involved by squamous cell carcinoma in situ
+396517006	Surgical deep margin involved by malignant melanoma
+396516002	Surgical deep margin uninvolved by malignant melanoma
+403274000	Hypomelanosis surrounding malignant melanoma
+1014611000000103	Squamous cell carcinoma antigen level (observable entity)
+115223002	Nevus AND/OR melanoma (morphologic abnormality)
+259641008	Squamous cell carcinoma antigen (substance)
+269582000	(Basal cell carcinoma) or (Bowen's disease) or (rodent ulcer) or (skin Ca - excluding melanoma) or (Ca skin - other)
+300025007	Excision of basal cell carcinoma (procedure)
+300026008	Cryotherapy of basal cell carcinoma (procedure)
+301889008	Excision of malignant skin tumor (procedure)
+302836005	Lentigo maligna (disorder)
+372130007	Malignant neoplasm of skin (disorder)
+427858005	Family history of malignant melanoma (situation)
+69408002	Gorlin syndrome (disorder)
+95324001	Skin lesion (disorder)
+118285006	Epithelial neoplasm (morphologic abnormality)
+188083002	Malignant neoplasm of skin: [other] or [basal cell carcinoma] or [epithelioma] or [malignant neoplasm of sebaceous gland] or [malignant neoplasm of sweat gland] or [epithelioma basal cell]
+275265005	Epithelioma basal cell (disorder)
+400010006	Melanocytic nevus of skin (disorder)
+94000008	Primary malignant neoplasm of sebaceous gland (disorder)
+94081005	Primary malignant neoplasm of sweat gland (disorder)
+201091002	Skin tag (disorder)
+21119008	Pigmented nevus (morphologic abnormality)
+253020008	Hidradenoma (disorder)
+254750001	Fibrous histiocytoma of skin (disorder)
+254806009	Blue nevus of skin (disorder)
+255184001	Papilloma of skin (disorder)
+286903005	Skin - benign mole and nevus (disorder)
+302828001	Syringoma (disorder)

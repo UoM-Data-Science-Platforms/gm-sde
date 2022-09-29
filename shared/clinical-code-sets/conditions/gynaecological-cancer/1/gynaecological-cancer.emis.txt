@@ -1,0 +1,247 @@
+^ESCT1199845	Suspected ovarian cancer
+^ESCT1202154	Borderline epithelial tumour of ovary
+^ESCT1202155	Borderline ovarian epithelial tumor
+^ESCT1202156	Borderline ovarian epithelial tumour
+^ESCT1202157	Borderline epithelial tumor of ovary
+^ESCT1202158	Borderline epithelial neoplasm of ovary
+^ESCT1247309	Malignant tumor of female genital organ
+^ESCTBE399649	Benign neoplasm of uterine cervix
+^ESCTBE399650	Benign neoplasm of cervix uteri
+^ESCTBE399651	Benign tumour of cervix
+^ESCTBE399652	Benign tumor of cervix
+^ESCTBE400041	Benign ovarian tumor
+^ESCTBI748490	Bilateral oophorectomy for malignant neoplasm of ovary
+^ESCTBI748491	Bilateral oophorectomy for ovarian malignancy
+^ESCTBI748492	Bilateral oophorectomy for malignant tumor of ovary
+^ESCTBI748493	Bilateral oophorectomy for malignant tumour of ovary
+^ESCTBL374815	Bleeding after menopause
+^ESCTCA403543	Cancer metastatic to neck lymph nodes
+^ESCTCA403692	Cancer metastatic to ovary
+^ESCTCA475133	Cancer metastatic to cervix
+^ESCTCA624310	Cancer of cervix
+^ESCTCA624313	Cancer of the uterine cervix
+^ESCTCA624613	CA - Cancer of ovary
+^ESCTCA632597	Cancer metastatic to left ovary
+^ESCTCA632610	Cancer metastatic to right ovary
+^ESCTCA700461	Carcinoma of ovary, stage 4
+^ESCTCA700462	Cancer of ovary, stage 4
+^ESCTCA700824	Carcinoma of ovary, stage 3
+^ESCTCA700826	Cancer of ovary, stage 3
+^ESCTCA701746	Carcinoma of uterine cervix, invasive
+^ESCTCA701747	Cancer of uterine cervix, invasive
+^ESCTCA702727	Carcinoma of ovary, stage 2
+^ESCTCA702729	Cancer of ovary, stage 2
+^ESCTCA702949	Carcinoma of ovary, stage 1
+^ESCTCA702950	Cancer of ovary, stage 1
+^ESCTCE624314	Cervical cancer
+^ESCTCE797918	Cervical cancer screening not done
+^ESCTCE803550	Cervical cancer Papanicolaou smear screening declined
+^ESCTCL689609	Clear cell (mesonephric) neoplasm of ovary
+^ESCTDE732582	Debulking of neoplasm of ovary
+^ESCTEL716188	Elevated cancer antigen 125
+^ESCTFI274652	FIGO CC stage I
+^ESCTFI291047	FIGO CC stage Ib
+^ESCTFI298928	FIGO EC stage II
+^ESCTFI305606	FIGO EC stage IV
+^ESCTFI325560	FIGO EC stage I A
+^ESCTFI329633	FIGO CC stage Ia
+^ESCTFI331374	FIGO EC stage I
+^ESCTFI335459	FIGO CC stage III
+^ESCTFI347892	FIGO EC stage I B
+^ESCTFI361021	FIGO CC stage II
+^ESCTFI381706	FIGO EC stage III
+^ESCTFI383047	FIGO CC stage IV
+^ESCTFI392953	FIGO CC stage Ib occ
+^ESCTFI763214	FIGO CC stage IA1
+^ESCTFI763222	FIGO CC stage IA2
+^ESCTFI763240	FIGO CC stage IB1
+^ESCTFI763270	FIGO CC stage IB2
+^ESCTFI763288	FIGO CC stage IIA1
+^ESCTFI763293	FIGO CC stage IIA2
+^ESCTFI763301	FIGO CC stage IIB
+^ESCTFI763311	FIGO CC stage IIIA
+^ESCTFI763317	FIGO CC stage IIIB
+^ESCTFI763327	FIGO CC stage IVA
+^ESCTFI763336	FIGO CC stage IVB
+^ESCTFI763356	FIGO EC stage IIIB
+^ESCTFI763390	FIGO EC stage IIIC1
+^ESCTFI763398	FIGO EC stage IIIC2
+^ESCTFI763414	FIGO EC stage IVA
+^ESCTFI763420	FIGO EC stage IVB
+^ESCTFI763570	FIGO EC stage IIIA
+^ESCTGY472470	Gynecological referral
+^ESCTGY472575	Gynecological self-referral
+^ESCTHE776943	Hereditary breast and ovarian cancer syndrome
+^ESCTIN274653	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage I
+^ESCTIN274654	International Federation of Gynecology and Obstetrics cervical cancer stage I
+^ESCTIN274655	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage I
+^ESCTIN291043	International Federation of Gynaecology and Obstetrics cervical cancer stage Ib
+^ESCTIN291044	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage Ib
+^ESCTIN291045	International Federation of Gynecology and Obstetrics cervical cancer stage Ib
+^ESCTIN291046	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib
+^ESCTIN298929	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage II
+^ESCTIN298930	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage II
+^ESCTIN298931	International Federation of Gynaecology and Obstetrics endometrial cancer stage II
+^ESCTIN298932	International Federation of Gynecology and Obstetrics endometrial cancer stage II
+^ESCTIN305607	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IV
+^ESCTIN305608	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IV
+^ESCTIN305609	International Federation of Gynecology and Obstetrics endometrial cancer stage IV
+^ESCTIN325561	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage I A
+^ESCTIN325562	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage I A
+^ESCTIN325563	International Federation of Gynecology and Obstetrics endometrial cancer stage I A
+^ESCTIN329631	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ia
+^ESCTIN329632	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage Ia
+^ESCTIN329634	International Federation of Gynecology and Obstetrics cervical cancer stage Ia
+^ESCTIN331375	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage I
+^ESCTIN331376	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage I
+^ESCTIN331377	International Federation of Gynecology and Obstetrics endometrial cancer stage I
+^ESCTIN335460	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage III
+^ESCTIN335461	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage III
+^ESCTIN335462	International Federation of Gynecology and Obstetrics cervical cancer stage III
+^ESCTIN347893	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage I B
+^ESCTIN347894	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage I B
+^ESCTIN347895	International Federation of Gynecology and Obstetrics endometrial cancer stage I B
+^ESCTIN361022	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage II
+^ESCTIN361023	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage II
+^ESCTIN361024	International Federation of Gynecology and Obstetrics cervical cancer stage II
+^ESCTIN381707	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage III
+^ESCTIN381708	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage III
+^ESCTIN381709	International Federation of Gynecology and Obstetrics endometrial cancer stage III
+^ESCTIN383048	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IV
+^ESCTIN383049	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IV
+^ESCTIN383050	International Federation of Gynecology and Obstetrics cervical cancer stage IV
+^ESCTIN392954	International Federation of Gynecology and Obstetrics cervical cancer stage Ib occ
+^ESCTIN392955	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
+^ESCTIN392956	International Federation of Gynaecology and Obstetrics cervical cancer stage Ib occ
+^ESCTIN392957	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
+^ESCTIN701748	Invasive cervical cancer
+^ESCTIN716186	Increased cancer antigen 125
+^ESCTIN763215	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IA1
+^ESCTIN763216	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA1
+^ESCTIN763223	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA2
+^ESCTIN763224	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IA2
+^ESCTIN763241	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IB1
+^ESCTIN763242	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IB1
+^ESCTIN763271	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IB2
+^ESCTIN763272	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IB2
+^ESCTIN763289	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IIA1
+^ESCTIN763290	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIA1
+^ESCTIN763294	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIA2
+^ESCTIN763295	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IIA2
+^ESCTIN763302	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IIB
+^ESCTIN763303	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIB
+^ESCTIN763312	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIIA
+^ESCTIN763313	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IIIA
+^ESCTIN763318	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IIIB
+^ESCTIN763319	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIIB
+^ESCTIN763328	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IVA
+^ESCTIN763329	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVA
+^ESCTIN763337	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVB
+^ESCTIN763338	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IVB
+^ESCTIN763357	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IIIB
+^ESCTIN763358	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIB
+^ESCTIN763359	International Federation of Gynecology and Obstetrics endometrial cancer stage IIIB
+^ESCTIN763360	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIB
+^ESCTIN763391	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIC1
+^ESCTIN763392	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IIIC1
+^ESCTIN763393	International Federation of Gynecology and Obstetrics endometrial cancer stage IIIC1
+^ESCTIN763394	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIC1
+^ESCTIN763399	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIC2
+^ESCTIN763400	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IIIC2
+^ESCTIN763401	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIC2
+^ESCTIN763402	International Federation of Gynecology and Obstetrics endometrial cancer stage IIIC2
+^ESCTIN763415	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IVA
+^ESCTIN763416	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVA
+^ESCTIN763421	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVB
+^ESCTIN763422	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IVB
+^ESCTIN763569	International Federation of Gynaecology and Obstetrics endometrial cancer (FIGO EC) stage IIIA
+^ESCTIN763571	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIA
+^ESCTKR403685	Krukenburg tumor
+^ESCTKR403691	Krukenburg tumour
+^ESCTLO605219	Local recurrence of malignant tumour of cervix
+^ESCTLO605220	Local recurrence of malignant tumor of cervix
+^ESCTMA370769	Mass of pelvic structure
+^ESCTMA624309	Malignant tumor of cervix
+^ESCTMA624311	Malignant neoplasm of cervix
+^ESCTMA624612	Malignant tumor of ovary
+^ESCTMA624805	Malignant tumor of female genital organ
+^ESCTME403541	Metastatic malignant neoplasm to lymph nodes of neck
+^ESCTME403542	Metastasis to cervical lymph nodes
+^ESCTME403684	Metastatic malignant neoplasm to ovary
+^ESCTME403688	Metastasis to ovary
+^ESCTME404206	Metastatic malignant neoplasm to uterine adnexa
+^ESCTME475130	Metastatic malignant neoplasm to uterine cervix
+^ESCTME475131	Metastatic malignant neoplasm to cervix uteri
+^ESCTME605247	Metastasis from malignant tumour of cervix
+^ESCTME605248	Metastasis from malignant tumor of cervix
+^ESCTNE404442	Neoplasm of uncertain behaviour of uterine cervix
+^ESCTNE404443	Neoplasm of uncertain behavior of uterine cervix
+^ESCTNE404444	Neoplasm of uncertain behavior of cervix uteri
+^ESCTNE404445	Neoplasm of uncertain behaviour of cervix uteri
+^ESCTNE404825	Neoplasm of uncertain behavior of ovary
+^ESCTNE435657	Neoplasm of uterine cervix
+^ESCTNE435662	Neoplasm of ovary
+^ESCTNE801501	Neoplasm of low malignant potential behaviour of ovary
+^ESCTNE801502	Neoplasm of low malignant potential behavior of ovary
+^ESCTOV403687	Ovarian metastasis
+^ESCTOV417122	Overlapping malignant neoplasm of uterine cervix
+^ESCTOV417123	Overlapping malignant neoplasm of cervix uteri
+^ESCTOV431731	Ovarian mature cystic teratoma
+^ESCTOV435664	Ovarian tumour
+^ESCTOV435665	Ovarian tumor
+^ESCTOV624615	Ovarian cancer
+^ESCTOV699568	Ovarian cancer, disseminated
+^ESCTOV700463	Ovarian cancer stage 4
+^ESCTOV700825	Ovarian cancer stage 3
+^ESCTOV702728	Ovarian cancer stage 2
+^ESCTOV702951	Ovarian cancer stage 1
+^ESCTPA786697	Patient refused referral to gynecologist
+^ESCTPA786700	Patient refused referral to gynaecologist
+^ESCTPE370768	Pelvic lump
+^ESCTPM374814	PMB - Postmenopausal bleeding
+^ESCTPR402715	Primary malignant neoplasm of ovary
+^ESCTPR402929	Primary malignant neoplasm of uterine adnexa
+^ESCTPR472843	Private referral to gynecologist
+^ESCTPR632595	Primary malignant neoplasm of left ovary
+^ESCTPR632608	Primary malignant neoplasm of right ovary
+^ESCTPR636302	Primary malignant neoplasm of uterine cervix
+^ESCTPR699569	Primary malignant neoplasm of ovary, with widespread metastatic disease
+^ESCTRA716187	Raised cancer antigen 125
+^ESCTRE472469	Referral to gynaecology service
+^ESCTRE472472	Referral to gynecology service
+^ESCTRE595195	Referral to obstetrics and gynaecology service
+^ESCTRE595196	Referral to obstetrics and gynecology service
+^ESCTRE595438	Referral to obstetrician and gynecologist
+^ESCTRE597926	Referral to gynecologist
+^ESCTRE753131	Referral to pediatric gynecology service
+^ESCTRE786695	Referral to gynaecologist declined by subject
+^ESCTRE786696	Referral to gynecologist declined by subject
+^ESCTSC797919	Screening for malignant neoplasm of cervix not done
+^ESCTSE403540	Secondary malignant neoplasm of lymph nodes of neck
+^ESCTSE403686	Secondary tumor to ovary
+^ESCTSE403689	Secondary cancer of ovary
+^ESCTSE403690	Secondary tumour to ovary
+^ESCTSE404205	Secondary malignant neoplasm of uterine adnexa
+^ESCTSE475132	Secondary malignant neoplasm of uterine cervix
+^ESCTSE632596	Secondary malignant neoplasm of left ovary
+^ESCTSE632609	Secondary malignant neoplasm of right ovary
+^ESCTSU659110	Suspected gynecological cancer
+^ESCTSU786698	Subject declined referral to gynecologist
+^ESCTSU786699	Subject refused referral to gynecologist
+^ESCTSU786701	Subject declined referral to gynaecologist
+^ESCTSU786702	Subject refused referral to gynaecologist
+^ESCTT3633184	T3 (III): Endometrial tumour with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings
+^ESCTT3633185	T3 (III): Endometrial tumor with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings
+^ESCTTH775303	Theca steroid producing cell malignant neoplasm of ovary
+^ESCTTH775304	Theca steroid producing cell malignant tumor of ovary
+^ESCTTH775305	Theca steroid producing cell malignant tumour of ovary
+^ESCTTU435658	Tumour of cervix
+^ESCTTU435659	Tumor of cervix
+^ESCTTU435663	Tumour of ovary
+^ESCTTU435666	Tumor of ovary
+^ESCTUN535181	Undifferentiated carcinoma of ovary
+^ESCTUN535182	Undifferentiated ovarian cancer
+EMISNQQC5	QCancer ovarian cancer risk score
+EMISNQQC8	QCancer cervical cancer risk score
+EMISNQQC9	QCancer endometrial cancer risk score
+EMISNQSU3	Suspected gynaecological cancer

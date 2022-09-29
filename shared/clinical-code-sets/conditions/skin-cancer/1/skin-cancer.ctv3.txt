@@ -1,0 +1,520 @@
+X78RN	Tumour of skin
+Xa0Bp	Melanocytic tumour of skin
+X78RO	Tumour of surface epithelium
+X78Rm	Tumour of epidermal appendage
+X78TJ	Tumour of dermis
+XE1yv	Basal cell carcinoma
+B32..	Malignant melanoma of skin
+X78TH	ISMM - In situ malignant melanoma of skin
+X78RP	Malignant tumour of surface epithelium
+X78RZ	Benign tumour of surface epithelium
+X78RW	Squamous cell carcinoma in situ of skin
+X78SY	Tumour of skin with sebaceous differentiation
+X78Sc	Tumour of skin with eccrine differentiation
+X78Sy	Tumour of skin with apocrine differentiation
+Xa0C1	Tumour of skin with pilar differentiation
+X78Tq	Skin tumour of neural origin
+X78U1	Skin tumour of smooth muscle origin
+Xa0Bq	Tumour-like lesion of skin
+B321.	Malignant melanoma of eyelid including canthus
+B322.	Malignant melanoma of ear and external auricular canal
+B3220	Malignant melanoma of auricle (ear)
+B3221	Malignant melanoma of external auditory meatus
+B322z	Malignant melanoma of ear and external auricular canal NOS
+B323.	Malignant melanoma of other and unspecified parts of face
+B324.	Malignant melanoma of scalp and neck
+B325.	Malignant melanoma of trunk (excluding scrotum)
+B326.	Malignant melanoma of upper limb and shoulder
+B327.	Malignant melanoma of lower limb and hip
+B32y.	Malignant melanoma of other specified skin site
+B32y0	Overlapping malignant melanoma of skin
+B32z.	Malignant melanoma of skin NOS
+Byu41	[X]Malignant melanoma of skin, unspecified
+X78TC	SSMM - Superficial spreading malignant melanoma of skin
+X78TE	Acral lentiginous malignant melanoma of skin
+X78TF	Malignant melanoma arising in intradermal naevus
+X78TG	Malignant melanoma arising in congenital naevus
+XE1yl	Malignant melanoma of head and neck
+XE1yn	Malignant melanoma of trunk
+XE1yp	Malignant melanoma of upper limb
+XE1yr	Malignant melanoma of lower limb
+Xa0CE	Amelanotic malignant melanoma of skin
+XaFrT	Local recurrence of malignant melanoma of skin
+XacIU	Malignant melanoma stage IA
+XacIV	Malignant melanoma stage IB
+XacIW	Malignant melanoma stage IIA
+XacIX	Malignant melanoma stage IIB
+XacIY	Malignant melanoma stage IIC
+XacIZ	Malignant melanoma stage IIIA
+XacIa	Malignant melanoma stage IIIB
+XacIb	Malignant melanoma stage IIIC
+XacId	Malignant melanoma stage IV M1a
+XacIe	Malignant melanoma stage IV M1b
+XacIf	Malignant melanoma stage IV M1c
+X78gs	Malignant tumour of skin
+XE2sd	Benign tumour of skin
+X78RR	SCC - Cutaneous squamous cell carcinoma
+X78oy	Benign tumour of skin with sebaceous differentiation
+X78SC	Benign tumour of skin with pilar differentiation
+Xa0CD	Malignant tumour of skin with pilar differentiation
+X78Tz	Granular cell tumour of skin
+X78Uo	Glomus tumour of skin
+X78hS	Malignant tumour of dermis
+B3230	Malignant melanoma of external surface of cheek
+B3231	Malignant melanoma of chin
+B3232	Malignant melanoma of eyebrow
+B3233	Malignant melanoma of forehead
+B3234	Malignant melanoma of external surface of nose
+B3235	Malignant melanoma of temple
+B323z	Malignant melanoma of face NOS
+B3240	Malignant melanoma of scalp
+B3241	Malignant melanoma of neck
+B324z	Malignant melanoma of scalp and neck NOS
+B3250	Malignant melanoma of axilla
+B3251	Malignant melanoma of breast
+B3252	Malignant melanoma of buttock
+B3253	Malignant melanoma of groin
+B3254	Malignant melanoma of perianal skin
+B3255	Malignant melanoma of perineum
+B3256	Malignant melanoma of umbilicus
+B325z	Malignant melanoma of trunk, excluding scrotum, NOS
+XaEGU	Malignant melanoma of chest wall
+B3260	Malignant melanoma of shoulder
+B3261	Malignant melanoma of upper arm
+B3262	Malignant melanoma of fore-arm
+B3263	Malignant melanoma of hand
+B3264	Malignant melanoma of finger
+B3265	Malignant melanoma of thumb
+B326z	Malignant melanoma of upper limb or shoulder NOS
+B3270	Malignant melanoma of hip
+B3271	Malignant melanoma of thigh
+B3272	Malignant melanoma of knee
+B3273	Malignant melanoma of popliteal fossa area
+B3274	Malignant melanoma of lower leg
+B3275	Malignant melanoma of ankle
+B3276	Malignant melanoma of heel
+B3277	Malignant melanoma of foot
+B3278	Malignant melanoma of toe
+B3279	Malignant melanoma of great toe
+B327z	Malignant melanoma of lower limb or hip NOS
+XaCIv	Malignant melanoma of back
+XaFrS	Local recurrence of malignant tumour of skin
+B33z.	Squamous cell carcinoma of skin NOS
+Byu4.	[X]Melanoma and other malignant neoplasms of skin
+X78h0	Malignant tumour of epidermal appendage
+X78oh	Benign tumour of epidermal appendage
+X78pJ	Benign tumour of dermis
+X78RS	Clear cell squamous cell carcinoma of skin
+X78RU	Acantholytic squamous cell carcinoma of skin
+Xa0EY	Squamous cell carcinoma of scrotum
+Xa34C	Squamous cell carcinoma of skin of upper lip
+Xa34D	Squamous cell carcinoma of skin of lower lip
+Xa34E	Squamous cell carcinoma of skin of cheek
+X78VL	Naevoid basal cell carcinoma syndrome
+X78Sg	Basal cell carcinoma with eccrine differentiation
+X78Sv	Mixed tumour of skin
+XE1yj	Malignant melanoma
+X78el	Squamous cell carcinoma of lip
+B320.	Malignant melanoma of lip
+BB31.	[M]Basal cell carcinoma NOS
+Xa98G	Basal cell carcinoma
+BB32.	Multicentric basal cell carcinoma
+BB34.	Fibroepithelial basal cell carcinoma
+XSN4O	Basal cell carcinoma, nodular
+Xa98H	Basal cell carcinoma - sclerosing type
+XaXCZ	Superficial basal cell carcinoma
+XaXD8	[M]Basal cell carcinoma, infiltrative
+XaXXU	Pigmented basal cell carcinoma
+XaXDB	Basal cell carcinoma, micronodular
+BB33.	Basal cell carcinoma - morphoeic
+BBEC.	Malignant melanoma in junctional naevus
+Xa99S	Malignant melanoma
+BBEE.	Malignant melanoma in precancerous melais
+BBEG.	[M] Malignant melanoma in Hutchinson's melanotic freckle
+BBEM.	Malignant melanoma in giant pigmented naevus
+X77oJ	Regressing malignant melanoma
+X77oK	Malignant acral lentiginous melanoma
+X77oL	Malignant desmoplastic melanoma
+XE1wX	[M]Malignant melanoma NOS
+BB26.	Papillary squamous cell carcinoma
+BB2A.	[M]Squamous cell carcinoma NOS
+BB2D.	Non-keratinising squamous cell carcinoma - large cell
+BB2E.	Non-keratinising squamous cell carcinoma - small cell
+BB2G.	Adenoid squamous cell carcinoma
+BB2J.	Microinvasive squamous cell carcinoma
+X77n0	Metastatic squamous cell carcinoma
+Xa98F	Keratinising squamous cell carcinoma - large cell
+BB2B.	[M]Squamous cell carcinoma, metastatic NOS
+X78G5	TNM Malignant melanoma of eyelid staging
+X78G7	TNM Malignant melanoma of conjunctiva staging
+X78G8	TNM Malignant melanoma of uvea staging
+X78G9	TNM Malignant melanoma of iris staging
+X78GA	TNM Malignant melanoma of ciliary body staging
+X78GB	TNM Malignant melanoma of choroid staging
+XaEJe	Squamous cell carcinoma of bronchus in left lower lobe
+XaEJf	Squamous cell carcinoma of bronchus in left upper lobe
+XaEJg	Squamous cell carcinoma of bronchus in right lower lobe
+XaEJh	Squamous cell carcinoma of bronchus in right middle lobe
+XaEJi	Squamous cell carcinoma of bronchus in right upper lobe
+X78YO	Tumour of skin of penis
+X78YP	Malignant tumour of penile skin
+Xa058	Benign tumour of skin of penis
+Xa87S	Excision of malignant skin tumour
+Xa7OT	Excision of basal cell carcinoma
+7G056	Excision biopsy of basal cell carcinoma
+BB2H.	Squamous cell carcinoma in situ with questionable stromal invasion
+Xa98D	Squamous cell carcinoma in situ
+X70Ld	SCC - Intraepidermal squamous cell carcinoma - Bowen's type
+X78Fm	TNM Carcinoma of skin tumour staging
+X78Fn	TNM Malignant melanoma of skin staging
+XaFre	Metastasis from malignant tumour of skin
+XaFrd	Metastasis from malignant melanoma of skin
+X00ZB	Malignant melanoma of eyelid
+X00Z8	Squamous cell carcinoma of eyelid
+X78Xx	Malignant melanoma of vulva
+X78Xw	CA - Squamous cell carcinoma of vulva
+X78bN	Malignant melanoma of conjunctiva
+X78bM	Squamous cell carcinoma of conjunctiva
+X78bV	Malignant melanoma of cornea
+X78bU	Squamous cell carcinoma of cornea
+X78Tc	Desmoid tumour of skin
+X78VJ	Familial atypical mole malignant melanoma syndrome
+X78bc	Malignant melanoma of iris
+X78bk	Malignant melanoma of ciliary body
+X78bw	Malignant melanoma of choroid
+XM0ps	Malignant melanoma of eye
+Xa0Di	Malignant melanoma of anus
+Xa0Dj	Malignant melanoma of rectum
+Xa0RU	Malignant melanoma of meninges
+Xa7OU	Cryotherapy of basal cell carcinoma
+X78Q2	Squamous cell carcinoma of trachea
+X78QP	Squamous cell carcinoma of lung
+X78Xf	Squamous cell carcinoma of cervix
+X78j4	Squamous cell carcinoma of bladder
+X80QM	SCCA - Squamous cell carcinoma antigen
+Xa0DG	Squamous cell carcinoma of oesophagus
+Xa0G9	SCC - Squamous cell carcinoma of tongue
+Xa0GA	Squamous cell carcinoma of gum
+Xa0GC	SCC - Squamous cell carcinoma of floor of mouth
+Xa0GN	SCC - Squamous cell carcinoma of palate
+Xa7n8	Disseminated squamous cell carcinoma
+XaB8h	Squamous cell carcinoma of mouth
+XaIn5	Squamous cell carcinoma antigen level
+B33..	Basal cell carcinoma
+B33..	Malignant neoplasm of skin: [other] or [basal cell carcinoma] or [epithelioma] or [malignant neoplasm of sebaceous gland] or [malignant neoplasm of sweat gland] or [epithelioma basal cell]
+B33..	Other malignant neoplasm of skin
+B33..	Rodent ulcer
+B332z	Malignant neoplasm of skin of ear and external auricular canal NOS
+B332z	Malignant neoplasm of skin of ear and external auricular canal NOS
+B33y.	Malignant neoplasm of other specified skin sites
+B33y.	Malignant neoplasm of other specified skin sites
+B76..	Benign neoplasm of skin
+B76y.	Benign neoplasm of other specified skin sites
+B76y.	Benign neoplasm of other specified skin sites
+B76z.	Benign neoplasm of skin NOS
+B76z.	Benign neoplasm of skin NOS
+B7C4.	Benign neoplasm of scrotal skin
+B7C4.	Benign tumour of scrotal skin
+B7C4.	Benign tumour of scrotal skin
+B7J01	Skin haemangioma
+B8...	Bowen's disease
+B8...	Erythroplasia
+BA022	Neoplasm of unspecified nature of skin
+BA022	Neoplasm of unspecified nature of skin
+BB1D.	Spindle cell carcinoma
+BB1D.	Spindle cell carcinoma
+BB24.	[M]Verrucous carcinoma NOS
+BB24.	[M]Verrucous carcinoma NOS
+BB2F.	Epidermoid carcinoma - spindle cell
+BB2F.	Squamous cell carcinoma - spindle cell
+BB2F.	Squamous cell carcinoma - spindle cell
+BB2L.	[M]Bowen's disease
+BB2L.	[M]Bowen's disease
+BB35.	Basosquamous carcinoma
+BB35.	Basosquamous carcinoma
+BB35.	Mixed basal - squamous cell carcinoma
+BB5H.	[M]Eccrine dermal cylindroma
+BB5H.	[M]Eccrine dermal cylindroma
+BB5H.	Turban tumour
+BB60.	[M]Skin appendage adenoma and carcinoma
+BB60.	[M]Skin appendage adenoma and carcinoma
+BB60z	[M]Skin appendage adenoma or carcinoma NOS
+BB60z	[M]Skin appendage adenoma or carcinoma NOS
+BB61.	[M]Sweat gland adenoma and adenocarcinomas
+BB61.	[M]Sweat gland adenoma and adenocarcinomas
+BB61z	[M]Sweat gland adenoma or adenocarcinoma NOS
+BB61z	[M]Sweat gland adenoma or adenocarcinoma NOS
+BBB0.	Adenosquamous carcinoma
+BBB0.	Adenosquamous carcinoma
+BBB0.	Mixed adenocarcinoma and epidermoid carcinoma
+BBB0.	Mixed adenocarcinoma and squamous cell carcinoma
+BBE..	[M]Naevi and melanomas
+BBE..	[M]Naevi and melanomas
+BBE1.	[M]Malignant melanoma NOS
+BBE1.	[M]Malignant melanoma NOS or melanocarcinoma or melanoma NOS
+BBE1.	[M]Melanocarcinoma
+BBE1.	[M]Melanoma NOS
+BBE1.	[M]Melanosarcoma NOS
+BBE1.	[M]Naevocarcinoma
+BBEQ.	[M]Spindle cell melanoma NOS
+BBEQ.	[M]Spindle cell melanoma NOS
+BBEz.	[M]Naevi or melanoma NOS
+BBEz.	[M]Naevi or melanoma NOS
+BBN5.	[M]Clear cell sarcoma of tendons and aponeuroses
+BBN5.	[M]Clear cell sarcoma of tendons and aponeuroses
+Byu43	[X]Malignant neoplasm of skin, unspecified
+Byu43	[X]Malignant neoplasm of skin, unspecified
+M2yz.	(Other skin and subcut tissue disease NOS) or (skin lesion)
+M2yz.	Skin lesion
+X00Z9	Basal cell carcinoma of eyelid
+X00Z9	Basal cell carcinoma of eyelid
+X00Z9	Rodent ulcer of eyelid
+X70Lc	Buschke-Lowenstein giant condyloma
+X70Lc	Buschke-Lowenstein tumour
+X70Lc	Giant acuminate warts
+X70Lc	Giant condyloma acuminata
+X70Lc	Giant condyloma acuminata
+X77mw	[M] Small cell-large cell carcinoma
+X77mw	Small cell - large cell carcinoma
+X77mw	Small cell - large cell carcinoma
+X77nR	Merkel cell carcinoma
+X77nR	Merkel cell carcinoma
+X77nR	Merkel cell tumour
+X77nR	Trabecular cell carcinoma of skin
+X77oH	Melanocytic lesion morphology
+X77oH	Melanocytic lesion morphology
+X77oI	Malignant melanocytic lesion
+X77oI	Malignant melanocytic lesion
+X77oW	Bednar tumour
+X77oW	Pigmented dermatofibrosarcoma
+X77oW	Pigmented dermatofibrosarcoma protuberans
+X77oW	Pigmented dermatofibrosarcoma protuberans
+X77oW	Pigmented storiform neurofibroma
+X77oW	Pleomorphic malignant fibrous histiocytoma
+X78E9	Adenoma sebaceum
+X78E9	Adenoma sebaceum
+X78E9	Angiokeratoma in tuberous sclerosis
+X78gS	Anal carcinoma
+X78gS	Anal squamous cell carcinoma
+X78gS	Carcinoma of anal margin
+X78gS	SCC - Squamous cell carcinoma of anal margin
+X78gS	Squamous cell carcinoma of anal margin
+X78gS	Squamous cell carcinoma of anal margin
+X78Ig	Carcinoma of buccal mucosa
+X78Ig	Carcinoma of cheek mucosa
+X78Ig	SCC - Squamous cell carcinoma of buccal mucosa
+X78Ig	Squamous cell carcinoma of buccal mucosa
+X78Ig	Squamous cell carcinoma of buccal mucosa
+X78Q8	BC - Bronchogenic carcinoma
+X78Q8	Bronchial carcinoma
+X78Q8	Bronchogenic carcinoma
+X78Q8	CA - Carcinoma of bronchus
+X78Q8	Carcinoma of bronchus
+X78Q8	SCC - Squamous cell carcinoma of bronchus
+X78Q8	Squamous cell carcinoma of bronchus
+X78RT	Pseudosarcoma of skin
+X78RT	Spindle cell squamous carcinoma of skin
+X78RT	Spindle cell squamous carcinoma of skin
+X78Sq	Dermal duct tumour
+X78Sq	Eccrine dermal duct tumour
+X78Sq	Eccrine dermal duct tumour
+X78SS	Basal cell carcinoma of skin
+X78SS	Basal cell carcinoma of skin
+X78SS	Basalioma
+X78SS	BCC - Basal cell carcinoma of skin
+X78SS	Rodent ulcer
+X78SS	RU - Rodent ulcer
+X78ST	Basosquamous carcinoma of skin
+X78ST	Basosquamous carcinoma of skin
+X78ST	BCC - Metatypical basal cell carcinoma of skin
+X78ST	Metatypical basal cell carcinoma of skin
+X78T8	Adamantinoid basal cell epithelioma
+X78T8	Melanotic adamantinoma of skin
+X78T8	Melanotic adamantinoma of skin
+X78T8	Melanotic ameloblastoma of skin
+X78TD	NM - Nodular melanoma of skin
+X78TD	Nodular malignant melanoma of skin
+X78TD	Nodular malignant melanoma of skin
+X78TD	Nodular melanoma of skin
+X78Te	Fibrohistiocytic tumour
+X78Te	Fibrohistiocytic tumour
+X78TK	Cutaneous fibrous tissue tumour
+X78TK	Fibrous tissue tumour of skin
+X78TK	Fibrous tissue tumour of skin
+X78U9	Angiomatous naevus of skin
+X78U9	Cutaneous vascular tumour
+X78U9	Haemangioma of skin
+X78U9	Vascular naevus of skin
+X78U9	Vascular tumour of skin
+X78U9	Vascular tumour of skin
+Xa02q	Skin lesion
+Xa02q	Skin lesion
+Xa0D8	Benign tumour of fibrous tissue
+Xa0D8	Benign tumour of fibrous tissue
+Xa98B	SCC - Verrucous squamous cell carcinoma
+Xa98B	Verrucous carcinoma
+Xa98B	Verrucous carcinoma
+Xa98B	Verrucous epidermoid carcinoma
+Xa98B	Verrucous squamous cell carcinoma
+Xa98E	Epidermoid carcinoma
+Xa98E	SCC - Squamous cell carcinoma
+Xa98E	Squamous carcinoma
+Xa98E	Squamous cell carcinoma
+Xa98E	Squamous cell carcinoma
+Xa98E	Squamous cell epithelioma
+Xa99a	Spindle cell melanoma
+Xa99a	Spindle cell melanoma
+Xa99X	Lentigo maligna
+Xa99X	Lentigo maligna
+Xa99X	LM - Lentigo maligna
+XaBAw	Malignant blue naevus of skin
+XaBAw	Malignant blue naevus of skin
+XE1vh	Other malignant neoplasm of skin
+XE1vh	Other malignant neoplasm of skin
+XE1z5	Ca skin - other NOS
+XE1z5	Ca skin - other NOS
+XE1zv	Malignant melanoma of eye
+XM0Af	Clear cell sarcoma
+XM0Af	Clear cell sarcoma
+XM0Af	Malignant melanoma of soft tissue
+XM1FF	Cylindroma of skin
+XM1FF	Dermal cylindroma
+XM1FF	Eccrine dermal cylindroma
+XM1FF	Eccrine dermal cylindroma
+XM1FF	Spiegler's tumour
+XM1FF	Turban tumour
+B7684	Melanocytic naevi of scalp and neck
+B7684	Melanocytic naevi of scalp and neck
+BB1..	[M]Epithelial neoplasms NOS
+BB1..	[M]Epithelial neoplasms NOS
+BB1z.	[M]Unspecified epithelial neoplasm
+BB1z.	[M]Unspecified epithelial neoplasm
+ByuGN	[X]Melanocytic naevi, unspecified
+ByuGN	[X]Melanocytic naevi, unspecified
+X77mu	Epithelial tumour
+X77mu	Epithelial tumour
+X78h1	Malignant neoplasm of sebaceous gland
+X78h1	Malignant neoplasm of sebaceous gland
+X78h7	Malignant neoplasm of sweat gland
+X78h7	Malignant neoplasm of sweat gland
+X78Uv	Benign melanocytic naevus of skin
+X78Uv	Melanocytic naevus of skin
+X78Uv	Pigmented naevus of skin
+XM1ML	Epithelioma basal cell
+XM1ML	Epithelioma basal cell
+B22..	Malignant neoplasm of trachea, bronchus and lung
+B22..	Malignant neoplasm of trachea, bronchus and lung
+B22z.	Malignant neoplasm lung: [of bronchus or lung NOS] or [lung cancer]
+B500.	Malignant neoplasm of eyeball excluding conjunctiva, cornea, retina and choroid
+B500.	Malignant neoplasm of eyeball excluding conjunctiva, cornea, retina and choroid
+B500z	Malignant neoplasm of eyeball NOS
+B500z	Malignant neoplasm of eyeball NOS
+B506.	Malignant neoplasm of choroid
+B506.	Malignant tumour of choroid
+B506.	Malignant tumour of choroid
+X78QG	Adenocarcinoma of lung
+X78QG	Adenocarcinoma of lung
+X78QK	Large cell carcinoma of lung
+X78QK	Large cell carcinoma of lung
+X78QN	SCLC - Small cell lung cancer
+X78QN	Small cell carcinoma of lung
+X78QN	Small cell carcinoma of lung
+X78QN	Small cell lung cancer
+X78QS	Non-small cell lung cancer
+X78QS	Non-small cell lung cancer
+X78QS	NSCLC - Non-small cell lung cancer
+X78Ra	Ferguson-Smith tumour
+X78Ra	Multiple self-healing epithelioma of Ferguson-Smith
+X78Ra	Multiple self-healing epithelioma of Ferguson-Smith
+X78Um	Lymphangiosarcoma of skin
+X78Um	Lymphangiosarcoma of skin
+X78Um	Lymphangiosarcoma of Stewart and Treves
+X78Um	Stewart-Treves syndrome
+Xa0ZO	Trichoblastoma
+Xa0ZO	Trichoblastoma
+XaBAp	Alveolar cell carcinoma
+XaBAp	Bronchiolar adenocarcinoma
+XaBAp	Bronchiolar carcinoma
+XaBAp	Bronchioloalveolar adenocarcinoma
+XaBAp	Bronchioloalveolar adenocarcinoma of lung
+XaBAp	Bronchioloalveolar adenocarcinoma of lung
+XaBAp	Bronchioloalveolar carcinoma
+XE1yF	(Bronchus carcinoma) or (lung carcinoma) or (Ca trachea/bronchus/lung)
+XE1yF	Ca trachea/bronchus/lung
+XE1yR	Ca trachea/bronchus/lung NOS
+XE1yR	Ca trachea/bronchus/lung NOS
+^ESCTFE534783	Ferguson-Smith tumor
+^ESCTFE534784	Ferguson-Smith tumour
+^ESCTLY351613	Lymphangiosarcoma of Stewart and Treves
+^ESCTLY351614	Lymphangiosarcoma of skin
+^ESCTMA624679	Malignant tumour of choroid
+^ESCTMA624680	Malignant tumor of choroid
+^ESCTNS534730	NSCLC - Non-small cell lung cancer
+^ESCTPO351612	Postmastectomy lymphangiosarcoma syndrome
+^ESCTSC534717	SCLC - Small cell lung cancer
+^ESCTSM534716	Small cell carcinoma of lung
+B33A.	Stewart-Treves syndrome
+B33A.00	Stewart-Treves syndrome
+B500z	Malignant neoplasm of eyeball NOS
+B500z00	Malignant neoplasm of eyeball NOS
+B76..	Benign neoplasm of skin
+B76..00	Benign neoplasm of skin
+B76..14	Mole of skin
+B8...12	Erythroplasia
+BB3H.	[M]Trichoblastoma
+BB3H.00	[M]Trichoblastoma
+BBEF.11	[M]Lentigo maligna
+M2yz.11	Skin lesion
+188261005	Malignant neoplasm of eyeball excluding conjunctiva, cornea, retina and choroid (disorder)
+254626006	Adenocarcinoma of lung (disorder)
+254629004	Large cell carcinoma of lung (disorder)
+254632001	Small cell carcinoma of lung (disorder)
+254637007	Non-small cell lung cancer (disorder)
+254659009	Multiple self-healing epithelioma of Ferguson-Smith (disorder)
+277942005	Trichoblastoma (disorder)
+363466008	Malignant tumor of choroid (disorder)
+430621000	Malignant neoplasm of lower respiratory tract (disorder)
+62497000	Stewart-Treves syndrome (disorder)
+M21z1	Achrochordon
+M21z1	Skin tag
+M21z1	Skin tag
+M21z1	SKT - Skin tag
+M21z1	Soft fibroma
+M21z1	Soft papilloma
+X75uF	Naevus
+X75uF	Naevus
+X77nm	Hidradenoma
+X77nm	Hidradenoma
+X77nm	Nodular hidradenoma
+X77nm	Syringadenoma
+X77oP	Benign melanocytic naevus
+X77oP	Benign melanocytic naevus
+X78ob	Syringoadenoma
+X78ob	Syringoadenoma
+X78od	Skin tag NOS
+X78od	Skin tag NOS
+X78oe	Papilloma of skin
+X78oe	Papilloma of skin
+X78Tj	Fibrous histiocytoma of skin
+X78Tj	Fibrous histiocytoma of skin
+X78Tl	Fibrous xanthoma of skin
+X78Tl	Fibrous xanthoma of skin
+X78V2	Blue naevus of skin
+X78V2	Blue naevus of skin
+Xa07S	[M]Hairy naevus NOS
+Xa07S	[M]Hairy naevus NOS
+Xa07S	[M]Pigmented naevus NOS
+Xa3eV	Skin - benign mole and naevus
+Xa3eV	Skin - benign mole and naevus
+Xa98h	Syringoma
+Xa98h	Syringoma
+Xa99Q	Melanocytic naevus
+Xa99Q	Pigmented naevus
+Xa99Q	Pigmented naevus
+XE20h	(Benign naevus &/or mole [& skin]) or (skin papilloma NOS)
+XE20h	(Benign naevus &/or mole [& skin]) or (skin papilloma NOS)
+XE20h	Mole - benign
+XE20h	Naevus - benign
+XE20h	Papilloma - skin NOS
+XE20h	Skin - benign mole and naevus
+XE20h	Skin papilloma NOS
