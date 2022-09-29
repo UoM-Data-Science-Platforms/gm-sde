@@ -1,0 +1,586 @@
+^ESCT1164725	Melatonin agonist
+^ESCT1178139	Product containing only promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178152	Product containing only hydroxyzine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178154	Product containing only buspirone hydrochloride 10 mg/1 each oral tablet
+^ESCT1178854	Product containing sodium oxybate
+^ESCT1178864	Dextromethorphan and promethazine
+^ESCT1178865	Product containing dextromethorphan and promethazine
+^ESCT1178952	Substance with melatonin agonist mechanism of action
+^ESCT1179320	Product containing only meprobamate 200 mg/1 each oral tablet
+^ESCT1179321	Product containing only promethazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181050	Product containing only diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181052	Product containing only trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCT1181053	Product containing only alimemazine tartrate 10 mg/1 each oral tablet
+^ESCT1181116	Product containing only promethazine theoclate 25 mg/1 each oral tablet
+^ESCT1181312	Product containing only diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181313	Product containing only promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181360	Product containing only chlormethiazole 192 mg/1 each oral capsule
+^ESCT1181366	Product containing only hydroxyzine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181368	Product containing only buspirone hydrochloride 5 mg/1 each oral tablet
+^ESCT1181419	Product containing only diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1181420	Product containing only diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1181533	Product containing only hydroxyzine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181540	Product containing only hydroxyzine pamoate 25 mg/1 each oral tablet
+^ESCT1181606	Product containing only hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCT1181759	Product containing only hydroxyzine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181809	Product containing only hydroxyzine pamoate 50 mg/1 each oral tablet
+^ESCT1181832	Product containing only hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCT1182388	Codeine and phenylephrine and promethazine
+^ESCT1182389	Product containing codeine and phenylephrine and promethazine
+^ESCT1182823	Product containing only diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1183178	Product containing only aspirin 325 mg and meprobamate 200 mg/1 each oral tablet
+^ESCT1183241	Product containing only meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1183242	Product containing only pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1185421	Product containing only promethazine hydrochloride 12.5 mg/1 each oral tablet
+^ESCT1187260	Product containing only chloral hydrate 414 mg/1 each oral tablet
+^ESCT1187270	Product containing only meprobamate 400 mg/1 each oral tablet
+^ESCT1187306	Product containing only acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1187307	Product containing only paracetamol 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1187570	Product containing only hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCT1187703	Phenylephrine and promethazine
+^ESCT1187704	Product containing phenylephrine and promethazine
+^ESCT1187735	Product containing triclofos
+^ESCT1187898	Product containing melatonin
+^ESCT1187991	Product containing only promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCT1188305	Diphenhydramine and zinc acetate
+^ESCT1188306	Product containing diphenhydramine and zinc acetate
+^ESCT1188514	Product containing only acetaminophen 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCT1188515	Product containing only paracetamol 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCT1188622	Product containing only diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1202588	Chloral hydrate 325 mg rectal suppository
+^ESCT1202589	Product containing precisely chloral hydrate 325 milligram/1 each conventional release rectal suppository
+^ESCT1202590	Chloral hydrate 650 mg rectal suppository
+^ESCT1202591	Product containing precisely chloral hydrate 650 milligram/1 each conventional release rectal suppository
+^ESCT1204588	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL conventional release oral suspension
+^ESCT1204589	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL color free s/f suspension
+^ESCT1206228	Alimemazine in oral dosage form
+^ESCT1206229	Product containing alimemazine in oral dosage form
+^ESCT1206230	Trimeprazine in oral dosage form
+^ESCT1206263	Aspirin and meprobamate in oral dosage form
+^ESCT1206264	Product containing aspirin and meprobamate in oral dosage form
+^ESCT1206519	Buspirone in oral dosage form
+^ESCT1206520	Product containing buspirone in oral dosage form
+^ESCT1206669	Diphenhydramine and ibuprofen in oral dosage form
+^ESCT1206670	Product containing diphenhydramine and ibuprofen in oral dosage form
+^ESCT1208667	Alimemazine tartrate 1.5 mg/mL oral solution
+^ESCT1208668	Product containing precisely alimemazine tartrate 1.5 milligram/1 milliliter conventional release oral solution
+^ESCT1208669	Trimeprazine tartrate 1.5 mg/mL oral solution
+^ESCT1208670	Alimemazine tartrate 6 mg/mL oral solution
+^ESCT1208671	Product containing precisely alimemazine tartrate 6 milligram/1 milliliter conventional release oral solution
+^ESCT1208672	Trimeprazine tartrate 6 mg/mL oral solution
+^ESCT1208712	Chloral hydrate 28.6 mg/mL oral solution
+^ESCT1208713	Product containing precisely chloral hydrate 28.6 milligram/1 milliliter conventional release oral solution
+^ESCT1208714	Chloral hydrate 100 mg/mL oral solution
+^ESCT1208715	Product containing precisely chloral hydrate 100 milligram/1 milliliter conventional release oral solution
+^ESCT1208716	Clomethiazole (as clomethiazole edisilate) 50 mg/mL oral solution
+^ESCT1208717	Chlormethiazole (as clomethiazole edisylate) 50 mg/mL oral solution
+^ESCT1208718	Product containing precisely clomethiazole (as clomethiazole edisylate) 50 milligram/1 milliliter conventional release oral solution
+^ESCT1208729	Diphenhydramine hydrochloride 2 mg/mL oral solution
+^ESCT1208730	Product containing precisely diphenhydramine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1208737	Hydroxyzine hydrochloride 2 mg/mL oral solution
+^ESCT1208738	Product containing precisely hydroxyzine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1208754	Promethazine hydrochloride 1 mg/mL oral solution
+^ESCT1208755	Product containing precisely promethazine hydrochloride 1 milligram/1 milliliter conventional release oral solution
+^ESCT1210054	Promethazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210055	Promethazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1210056	Product containing precisely promethazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1214642	Alimemazine 30mg/5ml oral solution
+^ESCT1214643	Alimemazine 7.5mg/5ml oral solution
+^ESCT1214963	Promethazine 25mg/1ml solution for injection ampoules
+^ESCT1215673	Hydroxyzine 10mg/5ml oral solution
+^ESCT1215860	Clomethiazole 157.5mg/5ml oral solution sugar free
+^ESCT1216067	Chloral hydrate 143.3mg/5ml oral solution BP
+^ESCT1216790	Alimemazine
+^ESCT1216791	Alimemazine product
+^ESCT1216792	Trimeprazine product
+^ESCT1216808	Promethazine product
+^ESCT1217548	Diphenhydramine
+^ESCT1217549	Diphenhydramine product
+^ESCT1217642	Chloral hydrate
+^ESCT1217643	Chloral hydrate product
+^ESCT1219489	Meprobamate
+^ESCT1219490	Meprobamate product
+^ESCT1219529	Chlormezanone
+^ESCT1219530	Product containing chlormezanone
+^ESCT1219531	Chlormezanone product
+^ESCT1219945	Hydroxyzine
+^ESCT1219946	Hydroxyzine product
+^ESCT1220484	Buspirone
+^ESCT1220485	Buspirone product
+^ESCT1221560	Dichloralphenazone
+^ESCT1221561	Dichloralphenazone product
+^ESCT1221562	Melatonin
+^ESCT1221563	Melatonin product
+^ESCT1223246	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223247	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223257	Product containing precisely promethazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223258	Product containing precisely promethazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223261	Product containing precisely alimemazine tartrate 10 milligram/1 each conventional release oral tablet
+^ESCT1223289	Product containing precisely chloral hydrate 414 milligram/1 each conventional release oral tablet
+^ESCT1223290	Product containing precisely clomethiazole 192 milligram/1 each conventional release oral capsule
+^ESCT1223291	Chlormethiazole 192 mg oral capsule
+^ESCT1223292	Clomethiazole 192 mg oral capsule
+^ESCT1223311	Triclofos sodium
+^ESCT1223312	Product containing triclofos sodium
+^ESCT1223313	Triclofos sodium product
+^ESCT1223314	Product containing precisely triclofos sodium 100 milligram/1 milliliter conventional release oral solution
+^ESCT1223315	Triclofos sodium 100 mg/mL oral solution
+^ESCT1223362	Product containing precisely hydroxyzine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223363	Product containing precisely hydroxyzine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223369	Product containing precisely meprobamate 400 milligram/1 each conventional release oral tablet
+^ESCT1223373	Buspirone 5 mg oral tablet
+^ESCT1223374	Product containing precisely buspirone 5 milligram/1 each conventional release oral tablet
+^ESCT1223375	Product containing precisely buspirone 10 milligram/1 each conventional release oral tablet
+^ESCT1223376	Buspirone 10 mg oral tablet
+^ESCT1223654	Product containing precisely promethazine theoclate 25 milligram/1 each conventional release oral tablet
+^ESCT1223655	Promethazine teoclate 25 mg oral tablet
+^ESCT1223747	Acetaminophen 500 mg and diphenhydramine 25 mg oral tablet
+^ESCT1223748	Diphenhydramine 25 mg and paracetamol 500 mg oral tablet
+^ESCT1223749	Product containing precisely diphenhydramine 25 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1225906	Product containing precisely diphenhydramine hydrochloride 20 milligram/1 milliliter conventional release cutaneous cream
+^ESCT1225907	Diphenhydramine hydrochloride 20 mg/mL cutaneous cream
+^ESCT1226720	Product containing precisely promethazine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1226769	Clomethiazole in oral dosage form
+^ESCT1226770	Product containing clomethiazole in oral dosage form
+^ESCT1226771	Product containing clomethiazole in parenteral dosage form
+^ESCT1226772	Clomethiazole in parenteral dosage form
+^ESCT1227221	Chlormethiazole product
+^ESCT1227222	Clomethiazole product
+^ESCT1227900	Diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1227901	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1227902	Diphenhydramine hydrochloride 25 mg oral capsule
+^ESCT1227903	Diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1227904	Diphenhydramine hydrochloride 50 mg oral capsule
+^ESCT1227905	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1228207	Product containing precisely hydroxyzine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228208	Product containing precisely hydroxyzine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228261	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral tablet
+^ESCT1228262	Product containing precisely hydroxyzine pamoate 50 milligram/1 each conventional release oral tablet
+^ESCT1228388	Hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCT1228389	Hydroxyzine pamoate 25 mg oral capsule
+^ESCT1228390	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral capsule
+^ESCT1228391	Hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCT1228392	Product containing precisely hydroxyzine pamoate 50 milligram/1 each conventional release oral capsule
+^ESCT1228393	Hydroxyzine pamoate 50 mg oral capsule
+^ESCT1228394	Hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCT1228395	Hydroxyzine pamoate 100 mg oral capsule
+^ESCT1228396	Product containing precisely hydroxyzine pamoate 100 milligram/1 each conventional release oral capsule
+^ESCT1228901	Product containing precisely meprobamate 200 milligram/1 each conventional release oral tablet
+^ESCT1228905	Product containing precisely promethazine hydrochloride 12.5 milligram/1 each conventional release oral tablet
+^ESCT1228917	Product containing precisely promethazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228953	Product containing precisely aspirin 325 milligram and meprobamate 200 milligram/1 each conventional release oral tablet
+^ESCT1229010	Product containing precisely dichloralphenazone 100 milligram and isometheptene 65 milligram and paracetamol 325 milligram/1 each conventional release oral capsule
+^ESCT1229011	Acetaminophen 325 mg and dichloralphenazone 100 mg and isometheptene 65 mg oral capsule
+^ESCT1229012	Dichloralphenazone 100 mg and isometheptene 65 mg and paracetamol 325 mg oral capsule
+^ESCT1229216	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229217	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229218	Product containing precisely pethidine hydrochloride 50 milligram and promethazine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1229655	Sodium oxybate 500 mg/mL oral solution
+^ESCT1229656	Product containing precisely sodium oxybate 500 milligram/1 milliliter conventional release oral solution
+^ESCT1229794	Aspirin + meprobamate
+^ESCT1229795	Aspirin and meprobamate product
+^ESCT1229820	Paracetamol + dichloralantipyrine + isometheptene
+^ESCT1229821	Acetaminophen and dichloralphenazone and isometheptene product
+^ESCT1229822	Dichloralphenazone and isometheptene and paracetamol product
+^ESCT1229884	Paracetamol+chlormezanone
+^ESCT1229885	Product containing chlormezanone and paracetamol
+^ESCT1229886	Chlormezanone and paracetamol product
+^ESCT1229887	Acetaminophen and chlormezanone product
+^ESCT1230925	Sodium oxybate
+^ESCT1230926	Sodium oxybate product
+^ESCT1231885	Codeine and phenylephrine and promethazine
+^ESCT1231886	Codeine and phenylephrine and promethazine product
+^ESCT1231893	Dextromethorphan and promethazine
+^ESCT1231894	Dextromethorphan and promethazine product
+^ESCT1231981	Diphenhydramine and zinc acetate
+^ESCT1231982	Diphenhydramine and zinc acetate product
+^ESCT1232076	Pseudoephedrine + dextromethorphan + diphenhydramine + paracetamol
+^ESCT1232077	Product containing dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine
+^ESCT1232078	Acetaminophen and dextromethorphan and diphenhydramine and pseudoephedrine product
+^ESCT1232079	Dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine product
+^ESCT1232873	Ammonium chloride + Diphenhydramine
+^ESCT1232874	Product containing ammonium chloride and diphenhydramine
+^ESCT1232875	Ammonium chloride and diphenhydramine product
+^ESCT1232900	Melatonin agonist
+^ESCT1232901	Product containing melatonin agonist
+^ESCT1232902	Melatonin agonist product
+^ESCT1232916	Cloral betaine
+^ESCT1232917	Product containing cloral betaine
+^ESCT1232918	Chloral betaine product
+^ESCT1232919	Cloral betaine product
+^ESCT1233069	Pethidine + Promethazine
+^ESCT1233070	Pethidine and promethazine product
+^ESCT1233071	Meperidine and promethazine product
+^ESCT1233096	Diphenhydramine + Pholcodine
+^ESCT1233097	Product containing diphenhydramine and pholcodine
+^ESCT1233098	Diphenhydramine and pholcodine product
+^ESCT1233163	Product containing dextromethorphan and diphenhydramine
+^ESCT1233164	Dextromethorphan and diphenhydramine product
+^ESCT1233187	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1233188	Diphenhydramine 25 mg and ibuprofen 200 mg oral capsule
+^ESCT1233189	Product containing precisely diphenhydramine 25 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1233200	Phenylephrine and promethazine
+^ESCT1233201	Phenylephrine and promethazine product
+^ESCT1233278	Diphenhydramine + ibuprofen
+^ESCT1233279	Diphenhydramine and ibuprofen product
+^ESCT1233372	Potassium bromide
+^ESCT1233373	Product containing potassium bromide
+^ESCT1233374	Potassium bromide product
+^ESCT1233387	Diphenhydramine + Levomenthol
+^ESCT1233388	Product containing diphenhydramine and levomenthol
+^ESCT1233389	Diphenhydramine and levomenthol product
+^ESCT1233501	Triclofos
+^ESCT1233502	Triclofos product
+^ESCT1233714	Product containing diphenhydramine and pseudoephedrine
+^ESCT1233715	Diphenhydramine and pseudoephedrine product
+^ESCT1234014	Acetaminophen and diphenhydramine product
+^ESCT1234015	Diphenhydramine and paracetamol product
+^ESCT1235138	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1235139	Diphenhydramine 38 mg and ibuprofen 200 mg oral capsule
+^ESCT1235140	Product containing precisely diphenhydramine 38 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1374395	Promethazine 5mg/5ml oral solution sugar free
+^ESCT1376472	Promethazine-containing product
+^ESCT1377752	Chlormezanone-containing product
+^ESCT1378606	Dichloralphenazone-containing product
+^ESCT1381296	Clomethiazole-containing product in oral dose form
+^ESCT1381297	Chlormethiazole-containing product in oral dose form
+^ESCT1381298	Clomethiazole-containing product in parenteral dose form
+^ESCT1381299	Chlormethiazole-containing product in parenteral dose form
+^ESCT1381339	Promethazine-containing product in oral dose form
+^ESCT1381340	Promethazine-containing product in parenteral dose form
+^ESCT1381799	Promethazine hydrochloride 50 mg rectal suppository
+^ESCT1381886	Hydroxyzine pamoate 5 mg/mL oral suspension
+^ESCT1381968	Promethazine hydrochloride 25 mg rectal suppository
+^ESCT1381969	Promethazine hydrochloride 12.5 mg rectal suppository
+^ESCT1382031	Sodium oxybutyrate
+^ESCT1382071	Promethazine-containing product in rectal dose form
+^ESCT1382076	Chloral hydrate-containing product in oral dose form
+^ESCT1382077	Chloral hydrate-containing product in rectal dose form
+^ESCT1382201	Diphenhydramine hydrochloride 12.5 mg chewable tablet
+^ESCT1382202	Diphenhydramine hydrochloride 2.5 mg/mL oral solution
+^ESCT1382272	Aspirin- and meprobamate-containing product
+^ESCT1382278	Dichloralphenazone- and isometheptene- and paracetamol-containing product
+^ESCT1382279	Acetaminophen- and dichloralphenazone- and isometheptene-containing product
+^ESCT1382294	Chlormezanone- and paracetamol-containing product
+^ESCT1382295	Acetaminophen- and chlormezanone-containing product
+^ESCT1382961	Codeine- and phenylephrine- and promethazine-containing product
+^ESCT1382964	Dextromethorphan- and promethazine-containing product
+^ESCT1382998	Diphenhydramine- and zinc acetate-containing product
+^ESCT1383026	Dextromethorphan- and diphenhydramine- and paracetamol- and pseudoephedrine-containing product
+^ESCT1383027	Acetaminophen- and dextromethorphan- and diphenhydramine- and pseudoephedrine-containing product
+^ESCT1383244	Melatonin agonist-containing product
+^ESCT1383297	Phenylephrine- and promethazine-containing product
+^ESCT1383316	Diphenhydramine- and ibuprofen-containing product
+^ESCT1383527	Melatonin 2 mg prolonged-release oral tablet
+^ESCT1383594	Hydroxyzine-containing product in oral dose form
+^ESCT1383620	Hydroxyzine-containing product in parenteral dose form
+^ESCT1383712	Diphenhydramine-containing product in parenteral dose form
+^ESCT1383855	Diphenhydramine-containing product in oral dose form
+^ESCT1385925	Paracetamol 24 mg/mL and promethazine hydrochloride 300 microgram/mL oral suspension
+^ESCT1385926	Acetaminophen 24 mg/mL and promethazine hydrochloride 300 microgram/mL oral suspension
+^ESCT1386172	Alimemazine-containing product in oral dose form
+^ESCT1386173	Trimeprazine-containing product in oral dose form
+^ESCT1386191	Aspirin- and meprobamate-containing product in oral dose form
+^ESCT1386318	Buspirone-containing product in oral dose form
+^ESCT1386391	Diphenhydramine- and ibuprofen-containing product in oral dose form
+^ESCT1425184	Buspirone 10mg tablets
+^ESCT1425185	Buspirone 5mg tablets
+^ESCTAC610143	Acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTAC642027	Acetaminophen 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCTAC661019	Acetaminophen + dichloralantipyrine + isometheptene
+^ESCTAC661186	Acetaminophen+chlormezanone
+^ESCTAC701680	Acetaminophen+diphenhydramine
+^ESCTAL262943	Alimemazine
+^ESCTAL335618	Alimemazine tartrate
+^ESCTAL608840	Alimemazine 10mg tablets
+^ESCTAL608843	Alimemazine tartrate 10 mg oral tablet
+^ESCTAL647221	Alimemazine
+^ESCTAM693196	Ammonium chloride + Diphenhydramine
+^ESCTAM693197	Ammonium chloride + diphenhydramine
+^ESCTAS641896	Aspirin 325 mg and meprobamate 200 mg oral tablet
+^ESCTAS660966	Aspirin + meprobamate
+^ESCTBU398573	Buspirone
+^ESCTBU609175	Buspirone 5mg tablets
+^ESCTBU609177	Buspirone hydrochloride 5 mg oral tablet
+^ESCTBU609178	Buspirone 10mg tablets
+^ESCTBU609180	Buspirone hydrochloride 10 mg oral tablet
+^ESCTBU647312	Buspirone
+^ESCTBU693802	Buspirone hydrochloride
+^ESCTCH296201	Chloral hydrate
+^ESCTCH366510	Chlormezanone
+^ESCTCH366511	Chlormethazanone
+^ESCTCH377778	Chloral betaine
+^ESCTCH555876	Chloral hydrate
+^ESCTCH609019	Chloral hydrate 414 mg oral tablet
+^ESCTCH609027	Chlormethiazole 192 mg/1 each oral capsule
+^ESCTCH618944	Chlormethiazole in oral dosage form
+^ESCTCH618946	Chlormethiazole in parenteral dosage form
+^ESCTCH619943	Chlormethiazole
+^ESCTCH646048	Chloral hydrate 250mg/5mL syrup
+^ESCTCH646054	Chloral hydrate in oral dosage form
+^ESCTCH646056	Chloral hydrate in rectal dosage form
+^ESCTCH647070	Chlormezanone
+^ESCTCH647071	Chlormethazanone
+^ESCTCH656137	Chlormethiazole
+^ESCTCH691480	Chloral derivative
+^ESCTCH693679	Chloral betaine
+^ESCTCL377777	Cloral betaine
+^ESCTCL609017	Cloral betaine 707mg tablets
+^ESCTCL609026	Clomethiazole 192mg capsules
+^ESCTCL619942	Clomethiazole
+^ESCTCL656136	Clomethiazole
+^ESCTCL656148	Clomethiazole edisilate
+^ESCTCL656149	Clomethiazole edisylate
+^ESCTCL693678	Cloral betaine
+^ESCTCO642088	Codeine phosphate+promethazine hydrochloride 10mg/6.25mg syrup
+^ESCTDE642167	Dextromethorphan hydrobromide + promethazine hydrochloride 15mg/6.25mg liquid
+^ESCTDE695777	Dextromethorphan+diphenhydramine
+^ESCTDE695778	Dextromethorphan + Diphenhydramine
+^ESCTDI280957	Diphenhydramine hydrochloride
+^ESCTDI292376	Diphenhydramine
+^ESCTDI427333	Dichloralphenazone
+^ESCTDI608806	Diphenhydramine 25mg tablets
+^ESCTDI608808	Diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTDI608811	Diphenhydramine 50mg tablets
+^ESCTDI608813	Diphenhydramine hydrochloride 50 mg oral tablet
+^ESCTDI616008	Diphenhydramine 2% cream
+^ESCTDI616009	Diphenhydramine hydrochloride 2% cream
+^ESCTDI637058	Diphenhydramine
+^ESCTDI639153	Diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCTDI639155	Diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCTDI646475	Dichloralphenazone
+^ESCTDI646476	Dichlorphenazone
+^ESCTDI646477	Dichlorophenazone
+^ESCTDI646478	Dichloralantipyrine
+^ESCTDI654344	Diphenhydramine hydrochloride 12.5mg chewable tablet
+^ESCTDI654346	Diphenhydramine hydrochloride 12.5mg/5mL solution
+^ESCTDI654347	Diphenhydramine hydrochloride 12.5mg/5mL elixir
+^ESCTDI654351	Diphenhydramine hydrochloride 12.5mg/5mL syrup
+^ESCTDI675400	Diphenhydramine hydrochloride 6.25mg/5mL syrup
+^ESCTDI682573	Diphenhydramine + zinc acetate
+^ESCTDI695370	Diphenhydramine + Pholcodine
+^ESCTDI695371	Diphenhydramine+pholcodine
+^ESCTDI695776	Diphenhydramine + Dextromethorphan
+^ESCTDI695882	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTDI696318	Diphenhydramine + ibuprofen
+^ESCTDI696828	Diphenhydramine + Levomenthol
+^ESCTDI696829	Diphenhydramine+levomenthol
+^ESCTDI698612	Diphenhydramine+pseudoephedrine
+^ESCTDI698613	Diphenhydramine + Pseudoephedrine
+^ESCTDI700641	Diphenhydramine 2%/zinc acetate 0.1% topical cream
+^ESCTDI701681	Diphenhydramine + Paracetamol
+^ESCTDI711237	Diphenhydramine in topical dosage form
+^ESCTDI711510	Diphenhydramine in parenteral dosage form
+^ESCTDI712924	Diphenhydramine in oral dosage form
+^ESCTDI725583	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTGA644901	gamma Hydroxybutyrate
+^ESCTGH644900	GHB
+^ESCTHY380402	Hydroxyzine
+^ESCTHY386549	Hydroxyzine pamoate
+^ESCTHY386570	Hydroxyzine hydrochloride
+^ESCTHY609144	Hydroxyzine 10mg tablets
+^ESCTHY609146	Hydroxyzine hydrochloride 10 mg oral tablet
+^ESCTHY609147	Hydroxyzine 25mg tablets
+^ESCTHY609149	Hydroxyzine hydrochloride 25 mg oral tablet
+^ESCTHY637246	Hydroxyzine
+^ESCTHY640033	Hydroxyzine hydrochloride 50 mg oral tablet
+^ESCTHY640035	Hydroxyzine hydrochloride 100 mg oral tablet
+^ESCTHY640143	Hydroxyzine pamoate 25 mg oral tablet
+^ESCTHY640145	Hydroxyzine pamoate 50 mg oral tablet
+^ESCTHY640430	Hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCTHY640432	Hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCTHY640434	Hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCTHY640436	Hydroxyzine pamoate 25mg/5cc suspension
+^ESCTHY708727	Hydroxyzine in oral dosage form
+^ESCTHY709260	Hydroxyzine in parenteral dosage form
+^ESCTME316377	Melatonin
+^ESCTME365252	Meprobamate
+^ESCTME427346	Melatonin
+^ESCTME427347	Melatonin preparation
+^ESCTME609162	Meprobamate 400mg tablets
+^ESCTME609164	Meprobamate 400 mg oral tablet
+^ESCTME641799	Meprobamate 200 mg oral tablet
+^ESCTME642496	Meperidine hydrochloride+promethazine hydrochloride 50mg/25mg capsule
+^ESCTME642498	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTME642501	Meperidine hydrochloride 50mg/promethazine hydrochloride 50mg injection solution vial
+^ESCTME642502	Meperidine hydrochloride+promethazine hydrochloride 50mg/50mg injection
+^ESCTME647063	Meprobamate
+^ESCTME693522	Melatonin agonist
+^ESCTME694951	Melatonin agonist
+^ESCTME695246	Meperidine+promethazine
+^ESCTME706537	Melatonin 2mg prolonged release tablet
+^ESCTME722008	Measurement of diphenhydramine in urine
+^ESCTME902456	Melatonin 2mg modified-release tablets
+^ESCTPA610139	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCTPA610142	Paracetamol 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTPA642025	Paracetamol+dichloralantipyrine+isometheptene 325mg/100mg/65mg capsule
+^ESCTPA642026	Paracetamol 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCTPA661018	Paracetamol + dichloralantipyrine + isometheptene
+^ESCTPA661185	Paracetamol+chlormezanone
+^ESCTPA701679	Paracetamol + Diphenhydramine
+^ESCTPE395656	Petrichloral
+^ESCTPE395657	Pentaerythritol chloral
+^ESCTPE642497	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPE695245	Pethidine + Promethazine
+^ESCTPH682433	Phenylephrine + promethazine + codeine
+^ESCTPH695931	Phenylephrine + promethazine
+^ESCTPH705439	Phenylephrine 5mg/promethazine 6.25mg/codeine 10mg in 5mL oral syrup
+^ESCTPO307821	Potassium bromide
+^ESCTPO696770	Potassium bromide
+^ESCTPR262945	Product containing trimeprazine
+^ESCTPR262946	Product containing alimemazine
+^ESCTPR263375	Promethazine
+^ESCTPR263376	Product containing promethazine
+^ESCTPR273627	Promethazine hydrochloride
+^ESCTPR292377	Product containing diphenhydramine
+^ESCTPR296202	Product containing chloral hydrate
+^ESCTPR365253	Product containing meprobamate
+^ESCTPR380403	Product containing hydroxyzine
+^ESCTPR398574	Product containing buspirone
+^ESCTPR427334	Product containing dichloralphenazone
+^ESCTPR608807	Product containing diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608812	Product containing diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR608819	Promethazine hydrochloride 10mg tablets
+^ESCTPR608820	Product containing promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR608821	Promethazine hydrochloride 10 mg oral tablet
+^ESCTPR608822	Promethazine hydrochloride 25mg tablets
+^ESCTPR608823	Product containing promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608824	Promethazine hydrochloride 25 mg oral tablet
+^ESCTPR608841	Product containing alimemazine tartrate 10 mg/1 each oral tablet
+^ESCTPR608842	Product containing trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCTPR609018	Product containing chloral hydrate 414 mg/1 each oral tablet
+^ESCTPR609028	Product containing chlormethiazole 192 mg/1 each oral capsule
+^ESCTPR609145	Product containing hydroxyzine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609148	Product containing hydroxyzine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609163	Product containing meprobamate 400 mg/1 each oral tablet
+^ESCTPR609176	Product containing buspirone hydrochloride 5 mg/1 each oral tablet
+^ESCTPR609179	Product containing buspirone hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609925	Promethazine teoclate 25mg tablets
+^ESCTPR609926	Product containing promethazine theoclate 25 mg/1 each oral tablet
+^ESCTPR609927	Promethazine theoclate 25 mg oral tablet
+^ESCTPR610140	Product containing acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR610141	Product containing paracetamol 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR618778	Promethazine hydrochloride 20mg tablets
+^ESCTPR618779	Product containing promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR618780	Promethazine hydrochloride 20 mg oral tablet
+^ESCTPR618945	Product containing chlormethiazole in oral dosage form
+^ESCTPR618947	Product containing chlormethiazole in parenteral dosage form
+^ESCTPR619070	Promethazine in oral dosage form
+^ESCTPR619071	Product containing promethazine in oral dosage form
+^ESCTPR619072	Promethazine in parenteral dosage form
+^ESCTPR619073	Product containing promethazine in parenteral dosage form
+^ESCTPR619944	Product containing clomethiazole
+^ESCTPR637263	Promethazine
+^ESCTPR639141	Promethazine hydrochloride 50mg/mL injection solution ampoule
+^ESCTPR639142	Promethazine hydrochloride 50mg/mL injection
+^ESCTPR639143	Promethazine hydrochloride 50mg/mL injection solution ampule
+^ESCTPR639154	Product containing diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR639156	Product containing diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCTPR639216	Promethazine hydrochloride 6.25mg/5mL syrup
+^ESCTPR639406	Promethazine hydrochloride 50mg/sup
+^ESCTPR639407	Promethazine hydrochloride 50mg/suppository
+^ESCTPR639490	Promethazine hydrochloride 25mg/5mL syrup
+^ESCTPR640034	Product containing hydroxyzine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR640036	Product containing hydroxyzine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR640144	Product containing hydroxyzine pamoate 25 mg/1 each oral tablet
+^ESCTPR640146	Product containing hydroxyzine pamoate 50 mg/1 each oral tablet
+^ESCTPR640431	Product containing hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCTPR640433	Product containing hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCTPR640435	Product containing hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCTPR641800	Product containing meprobamate 200 mg/1 each oral tablet
+^ESCTPR641803	Promethazine hydrochloride 12.5 mg oral tablet
+^ESCTPR641804	Product containing promethazine hydrochloride 12.5 mg/1 each oral tablet
+^ESCTPR641818	Promethazine hydrochloride 25mg
+^ESCTPR641819	Promethazine hydrochloride 25mg/suppository
+^ESCTPR641820	Promethazine hydrochloride 50 mg oral tablet
+^ESCTPR641821	Product containing promethazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641822	Promethazine hydrochloride 12.5mg
+^ESCTPR641823	Promethazine hydrochloride 12.5mg/suppository
+^ESCTPR641897	Product containing aspirin 325 mg and meprobamate 200 mg/1 each oral tablet
+^ESCTPR642028	Product containing acetaminophen 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCTPR642029	Product containing paracetamol 325 mg and dichloralantipyrine 100 mg and isometheptene 65 mg/1 each oral capsule
+^ESCTPR642499	Product containing meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR642500	Product containing pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR645795	Promethazine in rectal dosage form
+^ESCTPR645796	Product containing promethazine in rectal dosage form
+^ESCTPR646055	Product containing chloral hydrate in oral dosage form
+^ESCTPR646057	Product containing chloral hydrate in rectal dosage form
+^ESCTPR655974	Promethazine teoclate
+^ESCTPR655975	Promethazine theoclate
+^ESCTPR660967	Product containing aspirin and meprobamate
+^ESCTPR661020	Product containing dichloralphenazone and isometheptene and paracetamol
+^ESCTPR661021	Product containing acetaminophen and dichloralphenazone and isometheptene
+^ESCTPR682437	Promethazine + dextromethorphan
+^ESCTPR695247	Product containing meperidine and promethazine
+^ESCTPR695248	Product containing pethidine and promethazine
+^ESCTPR695883	Product containing diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPR696319	Product containing diphenhydramine and ibuprofen
+^ESCTPR698419	Promethazine 6.25mg/dextromethorphan 15mg 5mL oral syrup
+^ESCTPR701682	Product containing diphenhydramine and paracetamol
+^ESCTPR701683	Product containing acetaminophen and diphenhydramine
+^ESCTPR708728	Product containing hydroxyzine in oral dosage form
+^ESCTPR709261	Product containing hydroxyzine in parenteral dosage form
+^ESCTPR711238	Product containing diphenhydramine in topical dosage form
+^ESCTPR711511	Product containing diphenhydramine in parenteral dosage form
+^ESCTPR712925	Product containing diphenhydramine in oral dosage form
+^ESCTPR725584	Product containing diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPS682726	Pseudoephedrine + dextromethorphan + diphenhydramine + paracetamol
+^ESCTPS682727	Pseudoephedrine + dextromethorphan + diphenhydramine + acetaminophen
+^ESCTPS698611	Pseudoephedrine + Diphenhydramine
+^ESCTSO644899	Sodium Oxybutyrate
+^ESCTSO655613	Sodium oxybate 500mg/ml oral solution sugar free
+^ESCTSO655614	Sodium oxybate 500mg/mL oral solution
+^ESCTSO680443	Sodium oxybate
+^ESCTSO680444	Sodium oxybate
+^ESCTTR262944	Trimeprazine
+^ESCTTR335619	Trimeprazine tartrate
+^ESCTTR608844	Trimeprazine tartrate 10 mg oral tablet
+^ESCTTR609068	Triclofos sodium
+^ESCTTR609069	Triclofos 500mg/5ml oral solution
+^ESCTTR609070	Triclofos sodium 500mg/5mL oral solution
+^ESCTTR647220	Trimeprazine
+^ESCTTR656055	Triclofos sodium
+^ESCTTR695993	Triclofos
+^ESCTTR695994	Trichlorethyl phosphate
+^ESCTTR697440	Triclofos
+ALSY17779NEMIS	Alimemazine  Oral solution  7.5 mg/5 ml
+ALSY17780NEMIS	Alimemazine  Oral solution  30 mg/5 ml
+ALTA17781NEMIS	Alimemazine  Tablets  10 mg
+BUTA10619BRIDL	Buspirone Hydrochloride  Tablets  5 mg
+BUTA10621BRIDL	Buspirone Hydrochloride  Tablets  10 mg
+CHCA4720	Chlormethiazole  Capsules  192 mg
+CHCA7175	Chloral Hydrate  Capsules  500 mg
+CHEL8992BRIDL	Chloral Paediatric  Elixir  200 mg/5 ml
+CHEL9231HILLI	Chloral Hydrate  Oral solution  BP 143.3 mg/5 ml
+CHMI4708	Chloral Hydrate  Mixture  500 mg/5 ml BP
+CHSY567	Chlormethiazole Edisylate  Syrup  Sugar Free 250 mg/5 ml
+CHTA9296HILLI	Chlormezanone  Tablets  200 mg
+CLCA17583NEMIS	Clomethiazole  Capsules  192 mg
+CLOR17584NEMIS	Clomethiazole  Oral Solution, Sugar Free  157.5mg/5ml (250mg/5ml as salt)
+CLTA17581NEMIS	Cloral Betaine  Tablets  707 mg
+DIEL4829	Dichloralphenazone  Elixir  225 mg/5 ml
+DISY26632EMIS	Diphenhydramine Hydrochloride  Syrup  10 mg/5 ml
+DITA23524EMIS	Diphenhydramine Hydrochloride  Tablets  25 mg
+DITA4830	Dichloralphenazone  Tablets  650 mg
+DITA5304NEMIS	Diphenhydramine Hydrochloride  Tablets  50 mg
+HYSY5014	Hydroxyzine Hydrochloride  Oral solution  10 mg/5 ml
+HYTA5015	Hydroxyzine Hydrochloride  Tablets  10 mg
+HYTA6792	Hydroxyzine Hydrochloride  Tablets  25 mg
+MEM/30086NEMIS	Melatonin  M/R tablets  2 mg
+META5124	Meprobamate  Tablets  200 mg
+META5125	Meprobamate  Tablets  400 mg
+PREL2379	Promethazine Hydrochloride  Elixir  Sugar Free 5 mg/5 ml
+PRIN15564NEMIS	Promethazine Hydrochloride  Injection  25 mg/ml, 1 ml ampoule
+PRIN34361EMIS	Promethazine Hydrochloride  Injection  25 mg/ml
+PRIN34363EMIS	Promethazine Hydrochloride  Injection  50 mg/2 ml ampoule
+PRTA15466NEMIS	Promethazine Hydrochloride  Tablets  20 mg
+PRTA17910NEMIS	Promethazine Teoclate  Tablets  25 mg
+PRTA2380	Promethazine Hydrochloride  Tablets  10 mg
+PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
+PRTA2382	Promethazine Theoclate  Tablets  25 mg
+SOOR22276NEMIS	Sodium Oxybate  Oral Solution, Sugar Free  500 mg/ml
+TREL2918	Triclofos  Elixir  500 mg/5 ml
+TREL2919	Triclofos Sodium  Elixir  500 mg/5 ml
+TRTA2936	Trimeprazine Tartrate  Tablets  10 mg
+TRSY2934	Trimeprazine Tartrate  Syrup  7.5 mg/5 ml
+TRSY2935	Trimeprazine Tartrate  Syrup forte  30 mg/5 ml

@@ -125,3 +125,6 @@
 387161000	Isocarboxazid
 395800003	Moclobemide
 89772006	Tranylcypromine sulfate (substance)
+76962009	Iproniazid product
+387438007	Iproniazid
+35938811000001107	Selegiline 10mg/5ml oral solution (product)

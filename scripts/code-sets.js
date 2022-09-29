@@ -251,6 +251,10 @@ ${Object.keys(clinicalCodesByTerminology[terminology])
   )
   .map((concept) =>
     Object.keys(clinicalCodesByTerminology[terminology][concept])
+      .filter(
+        (version) =>
+          conditions.map((x) => x.codeSet + '_' + x.version).indexOf(concept + '_' + version) > -1
+      )
       .map((version) =>
         clinicalCodesByTerminology[terminology][concept][version].map(
           (item) =>

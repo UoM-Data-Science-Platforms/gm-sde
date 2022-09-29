@@ -1,0 +1,218 @@
+^ESCT1181509	Product containing only guanfacine hydrochloride 2 mg/1 each oral tablet
+^ESCT1181697	Product containing only methylphenidate hydrochloride 10 mg/1 each oral tablet
+^ESCT1181698	Product containing only methylphenidate hydrochloride 5 mg/1 each oral tablet
+^ESCT1181734	Product containing only guanfacine hydrochloride 1 mg/1 each oral tablet
+^ESCT1181999	Product containing only modafinil 100 mg/1 each oral tablet
+^ESCT1182636	Product containing only atomoxetine 40 mg/1 each oral capsule
+^ESCT1183087	Product containing only lisdexamfetamine 30 mg/1 each oral capsule
+^ESCT1183088	Product containing only lisdexamfetamine 70 mg/1 each oral capsule
+^ESCT1184487	Product containing only lisdexamfetamine 50 mg/1 each oral capsule
+^ESCT1185274	Product containing only atomoxetine 10 mg/1 each oral capsule
+^ESCT1185285	Product containing only modafinil 200 mg/1 each oral tablet
+^ESCT1185523	Product containing only dexmethylphenidate hydrochloride 5 mg/1 each oral tablet
+^ESCT1188036	Product containing only atomoxetine 18 mg/1 each oral capsule
+^ESCT1188037	Product containing only atomoxetine 25 mg/1 each oral capsule
+^ESCT1188038	Product containing only atomoxetine 60 mg/1 each oral capsule
+^ESCT1188123	Product containing only methylphenidate hydrochloride 20 mg/1 each oral tablet
+^ESCT1188395	Product containing only atomoxetine 100 mg/1 each oral capsule
+^ESCT1188400	Product containing only atomoxetine 80 mg/1 each oral capsule
+^ESCT1188591	Product containing only dexmethylphenidate hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1188592	Product containing only dexmethylphenidate hydrochloride 10 mg/1 each oral tablet
+^ESCT1203643	Dexmethylphenidate 20mg prolonged-release oral capsule
+^ESCT1203644	Dexmethylphenidate hydrochloride 20mg m/r capsule
+^ESCT1203649	Dexmethylphenidate 5mg prolonged-release oral capsule
+^ESCT1203650	Dexmethylphenidate hydrochloride 5mg m/r capsule
+^ESCT1203888	Dexmethylphenidate hydrochloride 10 mg prolonged-release oral capsule
+^ESCT1203889	Product containing precisely dexmethylphenidate hydrochloride 10 milligram/1 each prolonged-release oral capsule
+^ESCT1215988	Methylphenidate 10mg modified-release capsules
+^ESCT1215989	Methylphenidate 18mg modified-release tablets
+^ESCT1215990	Methylphenidate 20mg modified-release capsules
+^ESCT1215992	Methylphenidate 27mg modified-release tablets
+^ESCT1215993	Methylphenidate 30mg modified-release capsules
+^ESCT1215994	Methylphenidate 36mg modified-release tablets
+^ESCT1215995	Methylphenidate 40mg modified-release capsules
+^ESCT1215996	Methylphenidate 50mg modified-release capsules
+^ESCT1215997	Methylphenidate 54mg modified-release tablets
+^ESCT1224022	Product containing precisely methylphenidate hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1224023	Product containing precisely methylphenidate hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224024	Product containing precisely methylphenidate hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1224049	Product containing precisely modafinil 100 milligram/1 each conventional release oral tablet
+^ESCT1228040	Product containing precisely guanfacine hydrochloride 1 milligram/1 each conventional release oral tablet
+^ESCT1228041	Product containing precisely guanfacine hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1229321	Product containing precisely dexmethylphenidate hydrochloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1229322	Product containing precisely dexmethylphenidate hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1229323	Product containing precisely dexmethylphenidate hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1230334	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1230335	Atomoxetine (as atomoxetine hydrochloride) 10 mg oral capsule
+^ESCT1230336	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 18 milligram/1 each conventional release oral capsule
+^ESCT1230337	Atomoxetine (as atomoxetine hydrochloride) 18 mg oral capsule
+^ESCT1230338	Atomoxetine (as atomoxetine hydrochloride) 25 mg oral capsule
+^ESCT1230339	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 25 milligram/1 each conventional release oral capsule
+^ESCT1230340	Atomoxetine (as atomoxetine hydrochloride) 40 mg oral capsule
+^ESCT1230341	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+^ESCT1230342	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1230343	Atomoxetine (as atomoxetine hydrochloride) 60 mg oral capsule
+^ESCT1230432	Product containing precisely modafinil 200 milligram/1 each conventional release oral tablet
+^ESCT1232974	Atomoxetine (as atomoxetine hydrochloride) 100 mg oral capsule
+^ESCT1232975	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 100 milligram/1 each conventional release oral capsule
+^ESCT1233030	Atomoxetine (as atomoxetine hydrochloride) 80 mg oral capsule
+^ESCT1233031	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 80 milligram/1 each conventional release oral capsule
+^ESCT1234411	Lisdexamfetamine dimesylate 50 mg oral capsule
+^ESCT1234412	Product containing precisely lisdexamfetamine dimesylate 50 milligram/1 each conventional release oral capsule
+^ESCT1234416	Product containing precisely lisdexamfetamine dimesylate 30 milligram/1 each conventional release oral capsule
+^ESCT1234417	Lisdexamfetamine dimesylate 30 mg oral capsule
+^ESCT1234423	Product containing precisely lisdexamfetamine dimesylate 70 milligram/1 each conventional release oral capsule
+^ESCT1234424	Lisdexamfetamine dimesylate 70 mg oral capsule
+^ESCT1424927	Dexamfetamine 5mg tablets
+^ESCT1426959	Equasym XL 10mg capsules (Takeda UK Ltd)
+^ESCT1426961	Equasym XL 20mg capsules (Takeda UK Ltd)
+^ESCT1426963	Equasym XL 30mg capsules (Takeda UK Ltd)
+^ESCTAT673865	Atomoxetine 10mg capsules
+^ESCTAT673866	Atomoxetine 10 mg/1 each oral capsule
+^ESCTAT673868	Atomoxetine 18mg capsules
+^ESCTAT673869	Atomoxetine 18 mg/1 each oral capsule
+^ESCTAT673871	Atomoxetine 25mg capsules
+^ESCTAT673873	Atomoxetine 25 mg/1 each oral capsule
+^ESCTAT673874	Atomoxetine 40mg capsules
+^ESCTAT673875	Atomoxetine 40 mg/1 each oral capsule
+^ESCTAT673877	Atomoxetine 60mg capsules
+^ESCTAT673879	Atomoxetine 60 mg/1 each oral capsule
+^ESCTAT682870	Atomoxetine hydrochloride
+^ESCTAT694482	Atomoxetine 100mg capsules
+^ESCTAT694483	Atomoxetine 100 mg/1 each oral capsule
+^ESCTAT694970	Atomoxetine 80mg capsules
+^ESCTAT694972	Atomoxetine 80 mg/1 each oral capsule
+^ESCTCO1109269	Concerta XL 54mg tablets (Janssen-Cilag Ltd)
+^ESCTCO820457	Concerta XL 36mg tablets (Janssen-Cilag Ltd)
+^ESCTCO821460	Concerta XL 18mg tablets (Janssen-Cilag Ltd)
+^ESCTCO939941	Concerta XL 27mg tablets (Janssen-Cilag Ltd)
+^ESCTDE643947	Dexmethylphenidate hydrochloride 2.5 mg oral tablet
+^ESCTDE643949	Dexmethylphenidate hydrochloride 5 mg oral tablet
+^ESCTDE643951	Dexmethylphenidate hydrochloride 10 mg oral tablet
+^ESCTDE643953	Dexmethylphenidate hydrochloride
+^ESCTDE859525	Dexedrine 5mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTDE943077	Dexamfetamine 5mg/5ml oral solution
+^ESCTEQ805139	Equasym 10mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTEQ812311	Equasym 5mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTEQ823363	Equasym 20mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTEQ912635	Equasym XL 10mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEQ912638	Equasym XL 20mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEQ912645	Equasym XL 30mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTGU415527	Guanfacine hydrochloride
+^ESCTGU639501	Guanfacine 1mg tablets
+^ESCTGU639503	Guanfacine hydrochloride 1 mg oral tablet
+^ESCTGU639504	Guanfacine hydrochloride 2 mg oral tablet
+^ESCTGU727203	Guanfacine hydrochloride 4mg extended release tablet
+^ESCTGU727367	Guanfacine hydrochloride 3mg extended release tablet
+^ESCTGU727750	Guanfacine hydrochloride 1mg extended release tablet
+^ESCTGU728024	Guanfacine hydrochloride 2mg extended release tablet
+^ESCTLI705871	Lisdexamfetamine 50mg capsules
+^ESCTLI705872	Lisdexamfetamine 50 mg/1 each oral capsule
+^ESCTLI705986	Lisdexamfetamine 30mg capsules
+^ESCTLI705987	Lisdexamfetamine 30 mg/1 each oral capsule
+^ESCTLI706135	Lisdexamfetamine 70mg capsules
+^ESCTLI706136	Lisdexamfetamine 70 mg/1 each oral capsule
+^ESCTME1019493	Medikinet XL 5mg capsules (Flynn Pharma Ltd)
+^ESCTME1020175	Methylphenidate 5mg modified-release capsules
+^ESCTME1066914	Medikinet XL 50mg capsules (Flynn Pharma Ltd)
+^ESCTME1066917	Medikinet XL 60mg capsules (Flynn Pharma Ltd)
+^ESCTME1066996	Methylphenidate 60mg modified-release capsules
+^ESCTME611035	Methylphenidate 10mg tablets
+^ESCTME611037	Methylphenidate hydrochloride 10 mg oral tablet
+^ESCTME611038	Methylphenidate 5mg tablets
+^ESCTME611040	Methylphenidate hydrochloride 5 mg oral tablet
+^ESCTME611041	Methylphenidate 20mg tablets
+^ESCTME611043	Methylphenidate hydrochloride 20 mg oral tablet
+^ESCTME937955	Medikinet 5mg tablets (Flynn Pharma Ltd)
+^ESCTME937957	Medikinet 10mg tablets (Flynn Pharma Ltd)
+^ESCTME937959	Medikinet 20mg tablets (Flynn Pharma Ltd)
+^ESCTME937961	Medikinet XL 20mg capsules (Flynn Pharma Ltd)
+^ESCTME937965	Medikinet XL 10mg capsules (Flynn Pharma Ltd)
+^ESCTME937968	Medikinet XL 30mg capsules (Flynn Pharma Ltd)
+^ESCTME937971	Medikinet XL 40mg capsules (Flynn Pharma Ltd)
+^ESCTMO611079	Modafinil 100mg tablets
+^ESCTMO611081	Modafinil 100 mg oral tablet
+^ESCTMO675382	Modafinil 200mg tablets
+^ESCTMO675384	Modafinil 200 mg oral tablet
+^ESCTPR611036	Product containing methylphenidate hydrochloride 10 mg/1 each oral tablet
+^ESCTPR611039	Product containing methylphenidate hydrochloride 5 mg/1 each oral tablet
+^ESCTPR611042	Product containing methylphenidate hydrochloride 20 mg/1 each oral tablet
+^ESCTPR611080	Product containing modafinil 100 mg/1 each oral tablet
+^ESCTPR639502	Product containing guanfacine hydrochloride 1 mg/1 each oral tablet
+^ESCTPR639505	Product containing guanfacine hydrochloride 2 mg/1 each oral tablet
+^ESCTPR643948	Product containing dexmethylphenidate hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR643950	Product containing dexmethylphenidate hydrochloride 5 mg/1 each oral tablet
+^ESCTPR643952	Product containing dexmethylphenidate hydrochloride 10 mg/1 each oral tablet
+^ESCTPR673867	Product containing atomoxetine 10 mg/1 each oral capsule
+^ESCTPR673870	Product containing atomoxetine 18 mg/1 each oral capsule
+^ESCTPR673872	Product containing atomoxetine 25 mg/1 each oral capsule
+^ESCTPR673876	Product containing atomoxetine 40 mg/1 each oral capsule
+^ESCTPR673878	Product containing atomoxetine 60 mg/1 each oral capsule
+^ESCTPR675383	Product containing modafinil 200 mg/1 each oral tablet
+^ESCTPR694484	Product containing atomoxetine 100 mg/1 each oral capsule
+^ESCTPR694971	Product containing atomoxetine 80 mg/1 each oral capsule
+^ESCTPR705873	Product containing lisdexamfetamine 50 mg/1 each oral capsule
+^ESCTPR705988	Product containing lisdexamfetamine 30 mg/1 each oral capsule
+^ESCTPR706137	Product containing lisdexamfetamine 70 mg/1 each oral capsule
+^ESCTPR863395	Provigil 100mg tablets (Teva UK Ltd)
+^ESCTPR869360	Provigil 200mg tablets (Teva UK Ltd)
+^ESCTRI801601	Ritalin 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR802381	Tranquilyn 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR806640	Tranquilyn 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR814273	Tranquilyn 20mg tablets (Genesis Pharmaceuticals Ltd)
+ATCA18452NEMIS	Atomoxetine  Capsules  10 mg
+ATCA18454NEMIS	Atomoxetine  Capsules  18 mg
+ATCA18455NEMIS	Atomoxetine  Capsules  25 mg
+ATCA18456NEMIS	Atomoxetine  Capsules  40 mg
+ATCA18457NEMIS	Atomoxetine  Capsules  60 mg
+ATCA31796NEMIS	Atomoxetine  Capsules  80 mg
+ATCA78104NEMIS	Atomoxetine  Capsules  100 mg
+COM/101185NEMIS	Concerta Xl  M/R tablets  54 mg
+COM/12672NEMIS	Concerta Xl  M/R tablets  18 mg
+COM/12674NEMIS	Concerta Xl  M/R tablets  36 mg
+COM/25051NEMIS	Concerta Xl  M/R tablets  27 mg
+DEOR21158NEMIS	Dexamfetamine  Oral solution  5 mg/5 ml
+DETA17621NEMIS	Dexamfetamine  Tablets  5 mg
+DETA3413	Dexedrine  Tablets  5 mg
+DETA4815	Dexamphetamine Sulfate  Tablets  5 mg
+EQM/11858NEMIS	Equasym Xl  M/R capsules  20 mg
+EQM/19955NEMIS	Equasym Xl  M/R capsules  10 mg
+EQM/19956NEMIS	Equasym Xl  M/R capsules  30 mg
+EQTA4119NEMIS	Equasym  Tablets  5 mg
+EQTA4120NEMIS	Equasym  Tablets  10 mg
+EQTA4121NEMIS	Equasym  Tablets  20 mg
+LICA78515NEMIS	Lisdexamfetamine  Capsules  30 mg
+LICA78517NEMIS	Lisdexamfetamine  Capsules  50 mg
+LICA78518NEMIS	Lisdexamfetamine  Capsules  70 mg
+MEM/11856NEMIS	Methylphenidate Hydrochloride  M/R capsules  20 mg
+MEM/12670NEMIS	Methylphenidate Hydrochloride  M/R tablets  18 mg
+MEM/12673NEMIS	Methylphenidate Hydrochloride  M/R tablets  36 mg
+MEM/19953NEMIS	Methylphenidate Hydrochloride  M/R capsules  10 mg
+MEM/19954NEMIS	Methylphenidate Hydrochloride  M/R capsules  30 mg
+MEM/23817NEMIS	Methylphenidate Hydrochloride  M/R tablets  27 mg
+MEM/24746NEMIS	Methylphenidate Hydrochloride  M/R capsules  40 mg
+MEM/24747NEMIS	Medikinet Xl  M/R capsules  10 mg
+MEM/24748NEMIS	Medikinet Xl  M/R capsules  20 mg
+MEM/24749NEMIS	Medikinet Xl  M/R capsules  30 mg
+MEM/24750NEMIS	Medikinet Xl  M/R capsules  40 mg
+MEM/51599NEMIS	Methylphenidate Hydrochloride  M/R capsules  5 mg
+MEM/51600NEMIS	Medikinet Xl  M/R capsules  5 mg
+MEM/90836NEMIS	Methylphenidate Hydrochloride  M/R capsules  50 mg
+MEM/90837NEMIS	Methylphenidate Hydrochloride  M/R capsules  60 mg
+MEM/90838NEMIS	Medikinet Xl  M/R capsules  50 mg
+MEM/90839NEMIS	Medikinet Xl  M/R capsules  60 mg
+MEM/95146NEMIS	Methylphenidate Hydrochloride  M/R tablets  54 mg
+META23980EMIS	Methylphenidate Hydrochloride  Tablets  10 mg
+META24742NEMIS	Medikinet  Tablets  5 mg
+META24743NEMIS	Medikinet  Tablets  10 mg
+META24744NEMIS	Medikinet  Tablets  20 mg
+META4114NEMIS	Methylphenidate Hydrochloride  Tablets  5 mg
+META4116NEMIS	Methylphenidate Hydrochloride  Tablets  20 mg
+MOTA14654NEMIS	Modafinil  Tablets  200 mg
+MOTA32108EMIS	Modafinil  Tablets  100 mg
+PRTA14655NEMIS	Provigil  Tablets  200 mg
+PRTA32106EMIS	Provigil  Tablets  100 mg
+RITA23978EMIS	Ritalin  Tablets  10 mg
+TRTA13267NEMIS	Tranquilyn  Tablets  5 mg
+TRTA13268NEMIS	Tranquilyn  Tablets  10 mg
+TRTA13269NEMIS	Tranquilyn  Tablets  20 mg

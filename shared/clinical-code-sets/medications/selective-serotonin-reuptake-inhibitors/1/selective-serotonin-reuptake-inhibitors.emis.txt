@@ -1,0 +1,1618 @@
+^ESCT1173375	Paroxetine 10mg tablets (Creo Pharma Ltd)
+^ESCT1173376	Paroxetine 10mg tablets (Creo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1174831	Fluoxetine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174832	Fluoxetine 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1174940	Fluoxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174941	Fluoxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1175198	Escitalopram 20mg tablets (Accord Healthcare Ltd)
+^ESCT1175199	Escitalopram 20mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175200	Escitalopram 10mg tablets (Accord Healthcare Ltd)
+^ESCT1175201	Escitalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175204	Escitalopram 5mg tablets (Accord Healthcare Ltd)
+^ESCT1175205	Escitalopram 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1176051	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176052	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1177187	Escitalopram 10mg tablets (Milpharm Ltd)
+^ESCT1177188	Escitalopram 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177189	Escitalopram 20mg tablets (Milpharm Ltd)
+^ESCT1177190	Escitalopram 20mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177205	Fluoxetine 60mg capsules (Milpharm Ltd)
+^ESCT1177206	Fluoxetine 60mg capsules (Milpharm Ltd) 30 capsule
+^ESCT1178182	Product containing only citalopram 10 mg/1 each oral tablet
+^ESCT1178323	Product containing only fluoxetine 10 mg/1 each oral capsule
+^ESCT1178324	Product containing only fluoxetine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178613	Product containing only fluoxetine hydrochloride 20 mg/1 each oral tablet
+^ESCT1178668	Faverin 50mg tablets (Mylan)
+^ESCT1178673	Faverin 100mg tablets (Mylan)
+^ESCT1179251	Product containing only olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1180141	Paroxetine 20mg tablets (Milpharm Ltd)
+^ESCT1180335	Fluoxetine 60mg capsules (Mylan) 30 capsule 2 x 15 capsules
+^ESCT1180378	Citalopram 20mg tablets (Mylan)
+^ESCT1180916	Escitalopram 20mg tablets (Mylan)
+^ESCT1181108	Product containing only fluvoxamine maleate 50 mg/1 each oral tablet
+^ESCT1181109	Product containing only fluvoxamine maleate 100 mg/1 each oral tablet
+^ESCT1181511	Product containing only fluvoxamine maleate 25 mg/1 each oral tablet
+^ESCT1181895	Product containing only fluoxetine 60 mg/1 each oral capsule
+^ESCT1181896	Product containing only sertraline 50 mg/1 each oral tablet
+^ESCT1181897	Product containing only sertraline 100 mg/1 each oral tablet
+^ESCT1181898	Product containing only paroxetine 20 mg/1 each oral tablet
+^ESCT1181900	Product containing only citalopram 20 mg/1 each oral tablet
+^ESCT1181901	Product containing only citalopram 40 mg/1 each oral tablet
+^ESCT1182661	Product containing only escitalopram 5 mg/1 each oral tablet
+^ESCT1182662	Product containing only olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1183000	Product containing only paroxetine 10 mg/1 each oral tablet
+^ESCT1183156	Product containing only fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCT1183505	Paroxetine 20mg tablets (Mylan) 30 tablet
+^ESCT1183538	Faverin 100mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1183615	Sertraline 100mg tablets (Mylan)
+^ESCT1183720	Paroxetine 20mg tablets (Mylan)
+^ESCT1183738	Fluoxetine 20mg capsules (Mylan)
+^ESCT1184137	Product containing only paroxetine 40 mg/1 each oral tablet
+^ESCT1184324	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1184344	Citalopram 20mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184345	Citalopram 40mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184972	Escitalopram 10mg tablets (Mylan) 28 tablet
+^ESCT1184973	Escitalopram 5mg tablets (Mylan) 28 tablet
+^ESCT1185289	Product containing only escitalopram 10 mg/1 each oral tablet
+^ESCT1185302	Product containing only olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1185303	Product containing only olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1185736	Faverin 50mg tablets (Mylan) 60 tablet 3 x 20 tablets
+^ESCT1185827	Sertraline 50mg tablets (Mylan)
+^ESCT1185828	Sertraline 50mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185829	Sertraline 100mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1186028	Fluoxetine 20mg/5ml oral solution (Mylan) 70 ml
+^ESCT1186124	Paroxetine 30mg tablets (Mylan)
+^ESCT1186125	Paroxetine 30mg tablets (Mylan) 30 tablet
+^ESCT1186213	Paroxetine 30mg tablets (Milpharm Ltd)
+^ESCT1186214	Paroxetine 30mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1186411	Fluoxetine 60mg capsules (Mylan)
+^ESCT1186444	Citalopram 10mg tablets (Mylan)
+^ESCT1186445	Citalopram 40mg tablets (Mylan)
+^ESCT1187002	Escitalopram 20mg tablets (Mylan) 28 tablet
+^ESCT1187299	Product containing only fluoxetine 20 mg/1 each oral capsule
+^ESCT1187300	Product containing only paroxetine 30 mg/1 each oral tablet
+^ESCT1187733	Product containing only sertraline 25 mg/1 each oral tablet
+^ESCT1188054	Product containing only escitalopram 20 mg/1 each oral tablet
+^ESCT1188064	Product containing only olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1188676	Fluoxetine 20mg capsules (Mylan) 30 capsule 2 x 15 capsules
+^ESCT1189091	Paroxetine 20mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1189338	Fluoxetine 20mg/5ml oral solution (Mylan)
+^ESCT1189417	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1189543	Citalopram 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1190123	Escitalopram 10mg tablets (Mylan)
+^ESCT1190124	Escitalopram 5mg tablets (Mylan)
+^ESCT1195391	Paroxetine 10mg tablets (Crescent Pharma Ltd)
+^ESCT1195392	Paroxetine 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1195832	Sertraline 100mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet
+^ESCT1195925	Sertraline 50mg tablets (Milpharm Ltd)
+^ESCT1195962	Sertraline 100mg tablets (Milpharm Ltd)
+^ESCT1196048	Sertraline 100mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1196054	Sertraline 50mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1196071	Sertraline 50mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196217	Fluoxetine 20mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1196380	Sertraline 50mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet
+^ESCT1196571	Sertraline 100mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1197691	Sertraline 75mg/5ml oral suspension 1 ml
+^ESCT1197692	Sertraline 75mg/5ml oral suspension (Special Order)
+^ESCT1197693	Sertraline 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1197942	Sertraline 75mg/5ml oral suspension
+^ESCT1203686	Fluoxetine 90mg gastro-resistant oral capsule
+^ESCT1203971	Paroxetine 12.5mg gastro-resistant and prolonged-release oral tablet
+^ESCT1203972	Paroxetine 25mg gastro-resistant and prolonged-release oral tablet
+^ESCT1203973	Paroxetine 37.5mg gastro-resistant and prolonged-release oral tablet
+^ESCT1204590	Paroxetine (as paroxetine hydrochloride) 2 mg/mL oral suspension
+^ESCT1204591	Product containing precisely paroxetine (as paroxetine hydrochloride) 2 milligram/1 milliliter conventional release oral suspension
+^ESCT1207202	Fluvoxamine in oral dosage form
+^ESCT1207203	Product containing fluvoxamine in oral dosage form
+^ESCT1214231	Fluoxetine 10mg capsules (Actavis UK Ltd)
+^ESCT1214232	Fluoxetine 10mg capsules (Actavis UK Ltd) 30 capsule
+^ESCT1214239	Paroxetine 10mg tablets (Medreich Plc)
+^ESCT1214240	Paroxetine 10mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1214319	Paroxetine 20mg tablets (Tillomed Laboratories Ltd)
+^ESCT1214320	Paroxetine 20mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCT1214887	Escitalopram 5mg tablets (Consilient Health Ltd)
+^ESCT1214888	Escitalopram 5mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1214889	Escitalopram 10mg tablets (Consilient Health Ltd)
+^ESCT1214890	Escitalopram 10mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1214891	Escitalopram 20mg tablets (Consilient Health Ltd)
+^ESCT1214892	Escitalopram 20mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1215090	Fluoxetine 10mg capsules (Morningside Healthcare Ltd)
+^ESCT1215091	Fluoxetine 10mg capsules (Morningside Healthcare Ltd) 30 capsule
+^ESCT1215092	Fluoxetine 10mg/5ml oral suspension 1 ml
+^ESCT1215093	Fluoxetine 10mg/5ml oral suspension (Special Order)
+^ESCT1215094	Fluoxetine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1215129	Sertraline 50mg/5ml oral solution 1 ml
+^ESCT1215130	Sertraline 50mg/5ml oral solution (Special Order)
+^ESCT1215132	Sertraline 50mg/5ml oral solution (Special Order) 1 ml
+^ESCT1215133	Sertraline 25mg/5ml oral solution 1 ml
+^ESCT1215134	Sertraline 25mg/5ml oral solution (Special Order)
+^ESCT1215136	Sertraline 25mg/5ml oral solution (Special Order) 1 ml
+^ESCT1215192	Fluoxetine 10mg/5ml oral suspension
+^ESCT1215198	Sertraline 25mg/5ml oral solution
+^ESCT1215199	Sertraline 50mg/5ml oral solution
+^ESCT1215204	Paroxetine 30mg tablets (Crescent Pharma Ltd)
+^ESCT1215205	Paroxetine 30mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1215932	Citalopram 10mg tablets (Medreich Plc)
+^ESCT1215933	Citalopram 10mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1218709	Fluoxetine
+^ESCT1218710	Fluoxetine product
+^ESCT1220626	Fluvoxamine
+^ESCT1220627	Fluvoxamine product
+^ESCT1223580	Product containing precisely fluvoxamine maleate 50 milligram/1 each conventional release oral tablet
+^ESCT1223581	Product containing precisely fluvoxamine maleate 100 milligram/1 each conventional release oral tablet
+^ESCT1223582	Fluoxetine (as fluoxetine hydrochloride) 20 mg oral capsule
+^ESCT1223583	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 20 milligram/1 each conventional release oral capsule
+^ESCT1223584	Fluoxetine (as fluoxetine hydrochloride) 4 mg/mL oral solution
+^ESCT1223585	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 4 milligram/1 milliliter conventional release oral solution
+^ESCT1223586	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1223587	Fluoxetine (as fluoxetine hydrochloride) 60 mg oral capsule
+^ESCT1223588	Sertraline
+^ESCT1223589	Sertraline product
+^ESCT1223590	Product containing precisely sertraline 50 milligram/1 each conventional release oral tablet
+^ESCT1223591	Product containing precisely sertraline 100 milligram/1 each conventional release oral tablet
+^ESCT1223592	Paroxetine
+^ESCT1223593	Paroxetine product
+^ESCT1223594	Product containing precisely paroxetine 20 milligram/1 each conventional release oral tablet
+^ESCT1223595	Product containing precisely paroxetine 30 milligram/1 each conventional release oral tablet
+^ESCT1223603	Citalopram (as citalopram hydrobromide) 20 mg oral tablet
+^ESCT1223604	Product containing precisely citalopram (as citalopram hydrobromide) 20 milligram/1 each conventional release oral tablet
+^ESCT1223605	Citalopram (as citalopram hydrobromide) 10 mg oral tablet
+^ESCT1223606	Product containing precisely citalopram (as citalopram hydrobromide) 10 milligram/1 each conventional release oral tablet
+^ESCT1223607	Product containing precisely citalopram (as citalopram hydrobromide) 40 milligram/1 each conventional release oral tablet
+^ESCT1223608	Citalopram (as citalopram hydrobromide) 40 mg oral tablet
+^ESCT1223609	Product containing precisely citalopram (as citalopram hydrochloride) 40 milligram/1 milliliter conventional release oral drops
+^ESCT1223610	Citalopram (as citalopram hydrochloride) 40 mg/mL oral drops
+^ESCT1227722	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1227723	Fluoxetine (as fluoxetine hydrochloride) 10 mg oral capsule
+^ESCT1227725	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 10 milligram/1 each conventional release oral tablet
+^ESCT1227726	Fluoxetine (as fluoxetine hydrochloride) 10 mg oral tablet
+^ESCT1228049	Product containing precisely fluvoxamine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1228790	Fluoxetine (as fluoxetine hydrochloride) 40 mg oral capsule
+^ESCT1228791	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+^ESCT1230451	Escitalopram (as escitalopram oxalate) 10 mg oral tablet
+^ESCT1230452	Product containing precisely escitalopram (as escitalopram oxalate) 10 milligram/1 each conventional release oral tablet
+^ESCT1230499	Product containing precisely escitalopram (as escitalopram oxalate) 20 milligram/1 each conventional release oral tablet
+^ESCT1230500	Escitalopram (as escitalopram oxalate) 20 mg oral tablet
+^ESCT1230592	Escitalopram (as escitalopram oxalate) 5 mg oral tablet
+^ESCT1230593	Product containing precisely escitalopram (as escitalopram oxalate) 5 milligram/1 each conventional release oral tablet
+^ESCT1230597	Olanzapine + fluoxetine
+^ESCT1230598	Fluoxetine and olanzapine product
+^ESCT1230599	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230600	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230601	Fluoxetine hydrochloride 25 mg and olanzapine 6 mg oral capsule
+^ESCT1230602	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230603	Fluoxetine hydrochloride 50 mg and olanzapine 6 mg oral capsule
+^ESCT1230604	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230605	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230606	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230607	Fluoxetine hydrochloride 25 mg and olanzapine 12 mg oral capsule
+^ESCT1230608	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230609	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230610	Fluoxetine hydrochloride 50 mg and olanzapine 12 mg oral capsule
+^ESCT1230724	Product containing precisely fluoxetine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1233310	Product containing precisely paroxetine 10 milligram/1 each conventional release oral tablet
+^ESCT1233450	Product containing precisely sertraline 25 milligram/1 each conventional release oral tablet
+^ESCT1233684	Product containing precisely paroxetine 40 milligram/1 each conventional release oral tablet
+^ESCT1234844	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1234845	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 3 milligram/1 each conventional release oral capsule
+^ESCT1234846	Fluoxetine hydrochloride 25 mg and olanzapine 3 mg oral capsule
+^ESCT1244882	Fluoxetine 10mg tablets (Endo Ventures Ltd)
+^ESCT1244883	Fluoxetine 10mg tablets (Endo Ventures Ltd) 30 tablet 3 x 10 tablets
+^ESCT1249694	Citalopram 20mg tablets (Medreich Plc)
+^ESCT1249695	Citalopram 20mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1249696	Citalopram 40mg tablets (Medreich Plc)
+^ESCT1249697	Citalopram 40mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1250528	Citalopram 40mg/ml oral drops sugar free (Advanz Pharma)
+^ESCT1250529	Citalopram 40mg/ml oral drops sugar free (Advanz Pharma) 15 ml
+^ESCT1250736	Olena 20mg dispersible tablets (Advanz Pharma)
+^ESCT1250737	Olena 20mg dispersible tablets (Advanz Pharma) 28 tablet
+^ESCT1250814	Fluoxetine 60mg capsules (Advanz Pharma)
+^ESCT1250815	Fluoxetine 60mg capsules (Advanz Pharma) 30 capsule 2 x 15 capsules
+^ESCT1254494	Citalopram 10mg tablets (Sovereign Medical Ltd)
+^ESCT1254495	Citalopram 10mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255317	Sertraline 25mg/5ml oral suspension 150 ml
+^ESCT1255318	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCT1255505	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCT1255928	Fluoxetine 60mg capsules 60 capsule
+^ESCT1255929	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 60 capsule 6 x 10 capsules
+^ESCT1255965	Sertraline 100mg tablets (Ria Generics Ltd)
+^ESCT1255966	Sertraline 100mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255967	Sertraline 50mg tablets (Ria Generics Ltd)
+^ESCT1255968	Sertraline 50mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1256072	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1256073	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1257186	Sertraline 50mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257187	Sertraline 50mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257188	Sertraline 100mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257189	Sertraline 100mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257741	Citalopram 20mg tablets (Sovereign Medical Ltd)
+^ESCT1257742	Citalopram 20mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257743	Citalopram 40mg tablets (Sovereign Medical Ltd)
+^ESCT1257744	Citalopram 40mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258407	Fluoxetine 20mg capsules (Strides Pharma UK Ltd)
+^ESCT1258408	Fluoxetine 20mg capsules (Strides Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1258495	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 30 capsule 3 x 10 capsules
+^ESCT1259215	Escitalopram 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259216	Escitalopram 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259217	Escitalopram 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259218	Escitalopram 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259219	Escitalopram 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259220	Escitalopram 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259657	Sertraline 12.5mg tablets 1 tablet
+^ESCT1259658	Sertraline 12.5mg tablets (Special Order)
+^ESCT1259659	Sertraline 12.5mg tablets (Special Order) 1 tablet
+^ESCT1259943	Sertraline 12.5mg tablets
+^ESCT1263929	Citalopram 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263930	Citalopram 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263932	Citalopram 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263933	Citalopram 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264082	Fluoxetine 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264083	Fluoxetine 10mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264158	Fluoxetine 30mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264162	Fluoxetine 30mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264164	Fluoxetine 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264165	Fluoxetine 40mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264287	Fluoxetine 20mg capsules (Relonchem Ltd)
+^ESCT1264290	Fluoxetine 20mg capsules (Relonchem Ltd) 30 capsule
+^ESCT1264599	Paroxetine 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264600	Paroxetine 40mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264717	Sertraline 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264718	Sertraline 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264721	Sertraline 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264724	Sertraline 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1265186	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1265444	Sertraline 50mg tablets 500 tablet
+^ESCT1265445	Sertraline 50mg tablets (Mylan) 500 tablet
+^ESCT1265446	Sertraline 100mg tablets 500 tablet
+^ESCT1265447	Sertraline 100mg tablets (Mylan) 500 tablet
+^ESCT1266905	Fluoxetine 10mg capsules (DE Pharmaceuticals)
+^ESCT1266907	Fluoxetine 10mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266924	Fluoxetine 30mg capsules (DE Pharmaceuticals)
+^ESCT1266925	Fluoxetine 30mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266926	Fluoxetine 40mg capsules (DE Pharmaceuticals)
+^ESCT1266927	Fluoxetine 40mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266929	Fluoxetine 20mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1266931	Fluoxetine 20mg/5ml oral solution sugar free (DE Pharmaceuticals) 70 ml
+^ESCT1266932	Fluoxetine 10mg tablets (DE Pharmaceuticals)
+^ESCT1266933	Fluoxetine 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1267801	Citalopram 10mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267802	Citalopram 10mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1267803	Citalopram 20mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267804	Citalopram 20mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1267805	Citalopram 40mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267806	Citalopram 40mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1271181	Citalopram 40mg/ml oral drops sugar free (Thame Laboratories Ltd)
+^ESCT1271182	Citalopram 40mg/ml oral drops sugar free (Thame Laboratories Ltd) 15 ml
+^ESCT1271189	Fluoxetine 20mg capsules (Flamingo Pharma (UK) Ltd)
+^ESCT1271191	Fluoxetine 20mg capsules (Flamingo Pharma (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCT1275436	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1275437	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1275462	Paroxetine 40mg tablets (DE Pharmaceuticals)
+^ESCT1275463	Paroxetine 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1277560	Paroxetine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1277561	Paroxetine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1278991	Paroxetine 10mg tablets (Zentiva)
+^ESCT1278992	Paroxetine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1279107	Fluoxetine 20mg capsules 100 capsule
+^ESCT1279108	Fluoxetine 20mg capsules (Mylan) 100 capsule
+^ESCT1279761	Paroxetine 20mg tablets (Accord Healthcare Ltd)
+^ESCT1279762	Paroxetine 20mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1279787	Paroxetine 30mg tablets (Accord Healthcare Ltd)
+^ESCT1279788	Paroxetine 30mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1280034	Citalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1301202	Lustral 100mg tablets (Upjohn Ltd)
+^ESCT1301211	Lustral 50mg tablets (Upjohn Ltd)
+^ESCT1301257	Lustral 50mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1301258	Lustral 100mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303917	Lustral 100mg tablets (Upjohn UK Ltd)
+^ESCT1303925	Lustral 50mg tablets (Upjohn UK Ltd)
+^ESCT1303938	Lustral 50mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303939	Lustral 100mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1305337	Citalopram 10mg tablets 250 tablet
+^ESCT1305338	Citalopram 10mg tablets (Mylan) 250 tablet
+^ESCT1305339	Citalopram 20mg tablets 250 tablet
+^ESCT1305340	Citalopram 20mg tablets (Mylan) 250 tablet
+^ESCT1305341	Citalopram 40mg tablets 100 tablet
+^ESCT1305342	Citalopram 40mg tablets (Mylan) 100 tablet
+^ESCT1375154	Citalopram 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375155	Citalopram 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375156	Citalopram 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375157	Citalopram 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375158	Citalopram 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375159	Citalopram 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375160	Citalopram 40mg/ml oral drops sugar free (Medihealth (Northern) Ltd)
+^ESCT1375161	Citalopram 40mg/ml oral drops sugar free (Medihealth (Northern) Ltd) 15 ml
+^ESCT1375634	Escitalopram 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375635	Escitalopram 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375636	Escitalopram 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375637	Escitalopram 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375638	Escitalopram 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375639	Escitalopram 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375868	Fluoxetine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375869	Fluoxetine 10mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375870	Fluoxetine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375871	Fluoxetine 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375876	Fluoxetine 20mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375877	Fluoxetine 20mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375878	Fluoxetine 30mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375879	Fluoxetine 30mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375880	Fluoxetine 60mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375881	Fluoxetine 60mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375882	Fluoxetine 20mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1375883	Fluoxetine 20mg/5ml oral solution (Medihealth (Northern) Ltd) 70 ml
+^ESCT1375884	Fluoxetine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375885	Fluoxetine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 70 ml
+^ESCT1375925	Fluvoxamine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375926	Fluvoxamine 100mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375927	Fluvoxamine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375928	Fluvoxamine 50mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1376145	Fluoxetine 10mg tablets (Imported)
+^ESCT1376146	Fluoxetine 10mg tablets (Imported) 30 tablet
+^ESCT1376147	Fluoxetine 30mg capsules (Imported)
+^ESCT1376148	Fluoxetine 30mg capsules (Imported) 30 capsule
+^ESCT1376149	Fluoxetine 40mg capsules (Imported)
+^ESCT1376150	Fluoxetine 40mg capsules (Imported) 30 capsule
+^ESCT1376229	Fluoxetine 40mg capsules (Special Order)
+^ESCT1376230	Fluoxetine 40mg capsules 1 capsule
+^ESCT1376231	Fluoxetine 40mg capsules (Special Order) 1 capsule
+^ESCT1382067	Fluoxetine-containing product in oral dose form
+^ESCT1382068	Paroxetine-containing product in oral dose form
+^ESCT1382529	Fluoxetine- and olanzapine-containing product
+^ESCT1383343	Sertraline (as sertraline hydrochloride) 20 mg/mL oral solution
+^ESCT1385854	Fluoxetine (as fluoxetine hydrochloride) 90 mg gastro-resistant oral capsule
+^ESCT1386641	Fluvoxamine-containing product in oral dose form
+^ESCT1388894	Citalopram 10mg tablets (Milpharm Ltd)
+^ESCT1388895	Citalopram 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388896	Citalopram 20mg tablets (Milpharm Ltd)
+^ESCT1388897	Citalopram 20mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388898	Citalopram 40mg tablets (Milpharm Ltd)
+^ESCT1388899	Citalopram 40mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1389132	Olena 20mg dispersible tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1402777	Sertraline 25mg tablets 28 tablet
+^ESCT1402779	Sertraline 25mg tablets (Zentiva)
+^ESCT1402780	Sertraline 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1403059	Sertraline 25mg tablets
+^ESCT1403424	Paroxetine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403425	Paroxetine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403426	Paroxetine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403427	Paroxetine 20mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1403428	Paroxetine 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403429	Paroxetine 30mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404016	Sertraline 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404017	Sertraline 100mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404018	Sertraline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404019	Sertraline 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404723	Paroxetine 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404724	Paroxetine 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1405061	Sertraline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1405062	Sertraline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 X 14 tablets
+^ESCT1405069	Sertraline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1405070	Sertraline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1411288	Fluoxetine 20mg/5ml oral solution (Fannin (UK) Ltd)
+^ESCT1411289	Fluoxetine 20mg/5ml oral solution (Fannin (UK) Ltd) 70 ml
+^ESCT1411290	Fluoxetine 20mg capsules (Fannin (UK) Ltd)
+^ESCT1411291	Fluoxetine 20mg capsules (Fannin (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1411428	Fluoxetine 20mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1411429	Fluoxetine 20mg/5ml oral solution sugar free (Accord Healthcare Ltd) 70 ml
+^ESCT1412535	Fluoxetine 10mg capsules (Accord Healthcare Ltd)
+^ESCT1412536	Fluoxetine 10mg capsules (Accord Healthcare Ltd) 30 capsule
+^ESCT1421758	Fluoxetine 20mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421889	Fluoxetine 20mg capsules (Zentiva Pharma UK Ltd) 30 capsule 2 x 15 capsules
+^ESCT1421961	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422041	Citalopram 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422042	Citalopram 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422043	Citalopram 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422044	Citalopram 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422045	Citalopram 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422046	Citalopram 40mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422092	Paroxetine 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422093	Paroxetine 30mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422159	Sertraline 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422160	Sertraline 50mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422161	Sertraline 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422162	Sertraline 100mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422674	Escitalopram 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422675	Escitalopram 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422793	Paroxetine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422794	Paroxetine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1423100	Sertraline 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1423101	Sertraline 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1424153	Sertraline 100mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1424154	Sertraline 100mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1424155	Sertraline 50mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1424156	Sertraline 50mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1424862	Paroxetine 10mg tablets
+^ESCT1424883	Sertraline 100mg tablets
+^ESCT1424884	Sertraline 50mg tablets
+^ESCT1425618	Fluoxetine 20mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1425664	Fluvoxamine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425697	Paroxetine 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425755	Fluoxetine 20mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425856	Fluvoxamine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426003	Fluoxetine 20mg capsules (Kent Pharma (UK) Ltd) 30 capsule
+^ESCT1426328	Paroxetine 20mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426374	Fluoxetine 20mg/5ml oral solution (Kent Pharma (UK) Ltd) 70 ml
+^ESCT1426471	Fluvoxamine 50mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426472	Fluvoxamine 100mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426654	Citalopram 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426655	Citalopram 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426656	Citalopram 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426657	Citalopram 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426658	Citalopram 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426659	Citalopram 40mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426829	Paroxetine 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426830	Paroxetine 30mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426860	Fluoxetine 60mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426861	Fluoxetine 60mg capsules (Kent Pharma (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCT1427058	Sertraline 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427059	Sertraline 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427060	Sertraline 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427061	Sertraline 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427690	Escitalopram 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427691	Escitalopram 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1429490	Sertraline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429491	Sertraline 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1431595	Sertraline 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431596	Sertraline 50mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431597	Sertraline 100mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431598	Sertraline 100mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1432471	Sertraline 50mg tablets 250 tablet
+^ESCT1432472	Sertraline 50mg tablets (Accord Healthcare Ltd) 250 tablet
+^ESCT1432473	Sertraline 100mg tablets 250 tablet
+^ESCT1432474	Sertraline 100mg tablets (Accord Healthcare Ltd) 250 tablet
+^ESCT1434858	Prozep 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCT1434859	Prozep 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 70 ml
+^ESCT1436765	Paroxetine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436847	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436954	Faverin 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436971	Faverin 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436998	Lustral 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437090	Lustral 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437169	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd) 30 capsule 2 x 15 capsules
+^ESCT1437182	Lustral 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437183	Lustral 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437366	Paroxetine 20mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437470	Faverin 50mg tablets (Viatris UK Healthcare Ltd) 60 tablet 3 x 20 tablets
+^ESCT1437472	Faverin 100mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1437660	Fluoxetine 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437661	Fluoxetine 60mg capsules (Viatris UK Healthcare Ltd) 30 capsule 2 x 15 capsules
+^ESCT1437739	Citalopram 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437740	Citalopram 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437741	Citalopram 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437742	Citalopram 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437743	Citalopram 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437744	Citalopram 40mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437853	Paroxetine 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437854	Paroxetine 30mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437947	Fluoxetine 20mg/5ml oral solution (Viatris UK Healthcare Ltd)
+^ESCT1437948	Fluoxetine 20mg/5ml oral solution (Viatris UK Healthcare Ltd) 70 ml
+^ESCT1438003	Sertraline 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438004	Sertraline 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438005	Sertraline 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438006	Sertraline 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438694	Escitalopram 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438695	Escitalopram 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438696	Escitalopram 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438698	Escitalopram 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438700	Escitalopram 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438701	Escitalopram 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1439131	Sertraline 50mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1439132	Sertraline 100mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1439166	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1439248	Citalopram 10mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1439249	Citalopram 20mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1439250	Citalopram 40mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCTCI1003464	Citalopram 40mg/ml oral drops sugar free (Focus Pharmaceuticals Ltd)
+^ESCTCI1003465	Citalopram 40mg/ml oral drops sugar free (Focus Pharmaceuticals Ltd) 15 ml
+^ESCTCI1005339	Citalopram 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005340	Citalopram 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1005341	Citalopram 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005342	Citalopram 20mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1005343	Citalopram 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005344	Citalopram 40mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1006348	Citalopram 40mg/ml oral drops sugar free (Almus Pharmaceuticals Ltd)
+^ESCTCI1006350	Citalopram 40mg/ml oral drops sugar free (Almus Pharmaceuticals Ltd) 15 ml
+^ESCTCI1007548	Citalopram 40mg/ml oral drops sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1007549	Citalopram 40mg/ml oral drops sugar free (Phoenix Healthcare Distribution Ltd) 15 ml
+^ESCTCI1010874	Citalopram 10mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010875	Citalopram 20mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010876	Citalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1010965	Citalopram 20mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1010966	Citalopram 40mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010967	Citalopram 40mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1011443	Citalopram 20mg tablets 30 tablet
+^ESCTCI1017766	Citalopram 10mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017767	Citalopram 10mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1017768	Citalopram 20mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017770	Citalopram 20mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1017772	Citalopram 40mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017773	Citalopram 40mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1022488	Citalopram 10mg tablets (DE Pharmaceuticals)
+^ESCTCI1022489	Citalopram 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1022490	Citalopram 20mg tablets (DE Pharmaceuticals)
+^ESCTCI1022491	Citalopram 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1022492	Citalopram 40mg tablets (DE Pharmaceuticals)
+^ESCTCI1022493	Citalopram 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1042130	Citalopram 40mg/ml oral drops sugar free (Waymade Healthcare Plc)
+^ESCTCI1042131	Citalopram 40mg/ml oral drops sugar free (Waymade Healthcare Plc) 15 ml
+^ESCTCI1042132	Citalopram 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042133	Citalopram 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1042134	Citalopram 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042135	Citalopram 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1042136	Citalopram 40mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042137	Citalopram 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1106906	Citalopram 10mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106908	Citalopram 10mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1106910	Citalopram 20mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106911	Citalopram 20mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1106925	Citalopram 40mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106927	Citalopram 40mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1117032	Citalopram 40mg/ml oral drops sugar free (Sigma Pharmaceuticals Plc)
+^ESCTCI1117033	Citalopram 40mg/ml oral drops sugar free (Sigma Pharmaceuticals Plc) 15 ml
+^ESCTCI1120149	Citalopram 40mg/ml oral drops sugar free (DE Pharmaceuticals)
+^ESCTCI1120150	Citalopram 40mg/ml oral drops sugar free (DE Pharmaceuticals) 15 ml
+^ESCTCI427344	Citalopram hydrobromide
+^ESCTCI609816	Citalopram 20mg tablets
+^ESCTCI609818	Citalopram 20 mg oral tablet
+^ESCTCI609819	Citalopram 10mg tablets
+^ESCTCI609821	Citalopram 10 mg oral tablet
+^ESCTCI609822	Citalopram 40mg tablets
+^ESCTCI609824	Citalopram 40 mg oral tablet
+^ESCTCI609825	Citalopram 40mg/ml oral drops sugar free
+^ESCTCI609826	Citalopram 40mg/mL oral drops
+^ESCTCI639136	Citalopram hydrobromide 10mg/5mL solution
+^ESCTCI709945	Citalopram hydrochloride
+^ESCTCI796781	Cipramil 40mg/ml drops (Lundbeck Ltd)
+^ESCTCI801988	Cipramil 10mg tablets (Lundbeck Ltd)
+^ESCTCI821279	Cipramil 40mg tablets (Lundbeck Ltd)
+^ESCTCI828725	Cipramil 20mg tablets (Lundbeck Ltd)
+^ESCTCI834319	Citalopram 40mg tablets 28 tablet
+^ESCTCI846895	Citalopram 40mg/ml oral drops sugar free 15 ml
+^ESCTCI846968	Citalopram 20mg tablets 28 tablet
+^ESCTCI847708	Citalopram 10mg tablets 28 tablet
+^ESCTCI849725	Cipramil 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI849729	Cipramil 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI849734	Cipramil 40mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI856909	Cipramil 40mg/ml drops (Lundbeck Ltd) 15 ml
+^ESCTCI861525	Cipralex 10mg tablets (Lundbeck Ltd)
+^ESCTCI861528	Cipralex 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866374	Citalopram 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866376	Citalopram 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866378	Citalopram 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866380	Citalopram 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866381	Citalopram 10mg tablets (Sandoz Ltd)
+^ESCTCI866382	Citalopram 10mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866383	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866384	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866385	Citalopram 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866386	Citalopram 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866388	Citalopram 20mg tablets (Sandoz Ltd)
+^ESCTCI866390	Citalopram 20mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866391	Citalopram 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866392	Citalopram 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866393	Citalopram 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866394	Citalopram 40mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866395	Citalopram 40mg tablets (Sandoz Ltd)
+^ESCTCI866397	Citalopram 40mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868371	Citalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868372	Citalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868373	Citalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868374	Citalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868375	Citalopram 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868376	Citalopram 40mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI870124	Citalopram 10mg tablets (Zentiva)
+^ESCTCI870125	Citalopram 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI870126	Citalopram 20mg tablets (Zentiva)
+^ESCTCI870128	Citalopram 20mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI870130	Citalopram 40mg tablets (Zentiva)
+^ESCTCI870131	Citalopram 40mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI873015	Citalopram 10mg tablets (Mylan Ltd)
+^ESCTCI873016	Citalopram 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI873017	Citalopram 20mg tablets (Mylan Ltd)
+^ESCTCI873018	Citalopram 20mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI873019	Citalopram 40mg tablets (Mylan Ltd)
+^ESCTCI873020	Citalopram 40mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI874128	Cipralex 20mg tablets (Lundbeck Ltd)
+^ESCTCI874129	Cipralex 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896462	Cipralex 5mg tablets (Lundbeck Ltd)
+^ESCTCI896463	Cipralex 5mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896975	Citalopram 10mg tablets (Actavis UK Ltd)
+^ESCTCI896976	Citalopram 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896977	Citalopram 20mg tablets (Actavis UK Ltd)
+^ESCTCI896978	Citalopram 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896979	Citalopram 40mg tablets (Actavis UK Ltd)
+^ESCTCI896980	Citalopram 40mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896987	Citalopram 10mg tablets (Teva UK Ltd)
+^ESCTCI896989	Citalopram 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCI896990	Citalopram 20mg tablets (Teva UK Ltd)
+^ESCTCI896991	Citalopram 20mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCI896992	Citalopram 40mg tablets (Teva UK Ltd)
+^ESCTCI896993	Citalopram 40mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897577	Citalopram 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897578	Citalopram 10mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897579	Citalopram 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897580	Citalopram 20mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897582	Citalopram 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897583	Citalopram 40mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI913394	Citalopram 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI913395	Citalopram 20mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI913396	Citalopram 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI913397	Citalopram 40mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917532	Citalopram 20mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917533	Citalopram 20mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917534	Citalopram 10mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917535	Citalopram 10mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917538	Citalopram 40mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917539	Citalopram 40mg tablets (PLIVA Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTCI918094	Citalopram 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI918096	Citalopram 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCI923497	Citalopram 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923498	Citalopram 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI923499	Citalopram 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923501	Citalopram 20mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI923504	Citalopram 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923505	Citalopram 40mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI928513	Cipralex 10mg/ml oral drops (Lundbeck Ltd)
+^ESCTCI928516	Cipralex 10mg/ml oral drops (Lundbeck Ltd) 28 ml
+^ESCTCI928878	Citalopram 10mg tablets (Arrow Generics Ltd)
+^ESCTCI928880	Citalopram 10mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI928882	Citalopram 20mg tablets (Arrow Generics Ltd)
+^ESCTCI928884	Citalopram 20mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI928886	Citalopram 40mg tablets (Arrow Generics Ltd)
+^ESCTCI928887	Citalopram 40mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI929332	Citalopram 10mg tablets (Niche Generics Ltd)
+^ESCTCI929333	Citalopram 10mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI929336	Citalopram 20mg tablets (Niche Generics Ltd)
+^ESCTCI929337	Citalopram 20mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI929340	Citalopram 40mg tablets (Niche Generics Ltd)
+^ESCTCI929341	Citalopram 40mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI944833	Citalopram 10mg/5ml oral suspension 1 ml
+^ESCTCI944835	Citalopram 10mg/5ml oral suspension (Special Order)
+^ESCTCI944839	Citalopram 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI944843	Citalopram 20mg/5ml oral suspension 1 ml
+^ESCTCI944845	Citalopram 20mg/5ml oral suspension (Special Order)
+^ESCTCI944849	Citalopram 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI945452	Citalopram 10mg/5ml oral suspension
+^ESCTCI945453	Citalopram 20mg/5ml oral suspension
+^ESCTCI965438	Citalopram 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965439	Citalopram 10mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965440	Citalopram 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965441	Citalopram 20mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965442	Citalopram 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965443	Citalopram 40mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965626	Citalopram 20mg tablets (Apotex UK Ltd)
+^ESCTCI965627	Citalopram 20mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI965628	Citalopram 40mg tablets (Apotex UK Ltd)
+^ESCTCI965629	Citalopram 40mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI978163	Citalopram 40mg/ml oral drops sugar free (Teva UK Ltd)
+^ESCTCI978165	Citalopram 40mg/ml oral drops sugar free (Teva UK Ltd) 15 ml
+^ESCTCI978273	Citalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978274	Citalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI978276	Citalopram 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978278	Citalopram 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI978280	Citalopram 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978281	Citalopram 40mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI979811	Citalopram 40mg/ml oral drops sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI979812	Citalopram 40mg/ml oral drops sugar free (Alliance Healthcare (Distribution) Ltd) 15 ml
+^ESCTCI979958	Citalopram 40mg/ml oral drops sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCI979960	Citalopram 40mg/ml oral drops sugar free (A A H Pharmaceuticals Ltd) 15 ml
+^ESCTCI981777	Cipralex 20mg/ml oral drops (Lundbeck Ltd)
+^ESCTCI981778	Cipralex 20mg/ml oral drops (Lundbeck Ltd) 15 ml
+^ESCTCI987134	Citalopram 10mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987135	Citalopram 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI987136	Citalopram 20mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987137	Citalopram 20mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI987138	Citalopram 40mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987139	Citalopram 40mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI991736	Citalopram 40mg/ml oral drops sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCI991737	Citalopram 40mg/ml oral drops sugar free (Rosemont Pharmaceuticals Ltd) 15 ml
+^ESCTCI994807	Citalopram 40mg/ml oral drops sugar free (Actavis UK Ltd)
+^ESCTCI994808	Citalopram 40mg/ml oral drops sugar free (Actavis UK Ltd) 15 ml
+^ESCTES1067790	Escitalopram 5mg tablets (Teva UK Ltd)
+^ESCTES1067791	Escitalopram 5mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067792	Escitalopram 10mg tablets (Teva UK Ltd)
+^ESCTES1067793	Escitalopram 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067794	Escitalopram 20mg tablets (Teva UK Ltd)
+^ESCTES1067795	Escitalopram 20mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067798	Escitalopram 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067799	Escitalopram 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067800	Escitalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067801	Escitalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067816	Escitalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067817	Escitalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067836	Escitalopram 5mg tablets (Actavis UK Ltd)
+^ESCTES1067837	Escitalopram 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067838	Escitalopram 10mg tablets (Actavis UK Ltd)
+^ESCTES1067839	Escitalopram 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067840	Escitalopram 20mg tablets (Actavis UK Ltd)
+^ESCTES1067841	Escitalopram 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067982	Escitalopram 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067983	Escitalopram 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTES1067984	Escitalopram 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067985	Escitalopram 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067986	Escitalopram 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067987	Escitalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1076820	Escitalopram 5mg tablets (Zentiva)
+^ESCTES1076822	Escitalopram 5mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTES1115982	Escitalopram 5mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115983	Escitalopram 5mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1115984	Escitalopram 10mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115985	Escitalopram 10mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1115986	Escitalopram 20mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115987	Escitalopram 20mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1117674	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117675	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1117676	Escitalopram 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117677	Escitalopram 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1117678	Escitalopram 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117679	Escitalopram 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1119373	Escitalopram 5mg tablets (DE Pharmaceuticals)
+^ESCTES1119374	Escitalopram 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1119375	Escitalopram 10mg tablets (DE Pharmaceuticals)
+^ESCTES1119376	Escitalopram 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1119377	Escitalopram 20mg tablets (DE Pharmaceuticals)
+^ESCTES1119378	Escitalopram 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1120012	Escitalopram 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120013	Escitalopram 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1120045	Escitalopram 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120046	Escitalopram 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1120047	Escitalopram 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120048	Escitalopram 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1141849	Escitalopram 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTES1141850	Escitalopram 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTES1142622	Escitalopram 20mg tablets (Brown & Burk UK Ltd)
+^ESCTES1142623	Escitalopram 20mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1142689	Escitalopram 10mg tablets (Brown & Burk UK Ltd)
+^ESCTES1142690	Escitalopram 10mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1152912	Escitalopram 20mg tablets (Mylan Ltd)
+^ESCTES1152913	Escitalopram 20mg tablets (Mylan Ltd) 28 tablet
+^ESCTES1152914	Escitalopram 10mg tablets (Mylan Ltd)
+^ESCTES1152917	Escitalopram 10mg tablets (Mylan Ltd) 28 tablet
+^ESCTES1152921	Escitalopram 5mg tablets (Mylan Ltd)
+^ESCTES1152922	Escitalopram 5mg tablets (Mylan Ltd) 28 tablet
+^ESCTES675474	Escitalopram 10mg tablets
+^ESCTES675476	Escitalopram 10 mg oral tablet
+^ESCTES675636	Escitalopram 20mg tablets
+^ESCTES675638	Escitalopram 20 mg oral tablet
+^ESCTES677392	Escitalopram 5mg tablets
+^ESCTES677394	Escitalopram 5 mg oral tablet
+^ESCTES682583	Escitalopram oxalate
+^ESCTES861522	Escitalopram 10mg tablets 28 tablet
+^ESCTES874127	Escitalopram 20mg tablets 28 tablet
+^ESCTES896461	Escitalopram 5mg tablets 28 tablet
+^ESCTES928511	Escitalopram 10mg/ml oral drops sugar free 28 ml
+^ESCTES928525	Escitalopram 10mg/ml oral drops sugar free
+^ESCTES981776	Escitalopram 20mg/ml oral drops sugar free 15 ml
+^ESCTES982177	Escitalopram 20mg/ml oral drops sugar free
+^ESCTFA819886	Faverin 50mg tablets (Mylan Ltd)
+^ESCTFA820325	Faverin 100mg tablets (Mylan Ltd)
+^ESCTFA856510	Faverin 50mg tablets (Mylan Ltd) 60 tablet 3 x 20 tablets
+^ESCTFA856523	Faverin 100mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE817203	Felicium 20mg capsules (Opus Pharmaceuticals Ltd)
+^ESCTFE849535	Felicium 20mg capsules (Opus Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1005809	Fluoxetine 20mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005810	Fluoxetine 20mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTFL1005811	Fluoxetine 60mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005812	Fluoxetine 60mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTFL1006405	Fluoxetine 20mg/5ml oral solution (Almus Pharmaceuticals Ltd)
+^ESCTFL1006407	Fluoxetine 20mg/5ml oral solution (Almus Pharmaceuticals Ltd) 70 ml
+^ESCTFL1007305	Fluoxetine 20mg/5ml oral solution (Fannin UK Ltd)
+^ESCTFL1007306	Fluoxetine 20mg/5ml oral solution (Fannin UK Ltd) 70 ml
+^ESCTFL1007315	Fluoxetine 20mg capsules (Fannin UK Ltd)
+^ESCTFL1007318	Fluoxetine 20mg capsules (Fannin UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1007621	Fluoxetine 20mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1007622	Fluoxetine 20mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 70 ml
+^ESCTFL1009233	Fluoxetine 20mg capsules (Strides Shasun (UK) Ltd)
+^ESCTFL1009234	Fluoxetine 20mg capsules (Strides Shasun (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1010883	Fluoxetine 20mg capsules (Accord Healthcare Ltd)
+^ESCTFL1010884	Fluoxetine 20mg capsules (Accord Healthcare Ltd) 30 capsule
+^ESCTFL1011014	Fluoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFL1011015	Fluoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 30 capsule
+^ESCTFL1014008	Fluoxetine 20mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTFL1014009	Fluoxetine 20mg/5ml oral solution sugar free (Actavis UK Ltd) 70 ml
+^ESCTFL1017813	Fluoxetine 20mg capsules (Milpharm Ltd)
+^ESCTFL1017814	Fluoxetine 20mg capsules (Milpharm Ltd) 30 capsule
+^ESCTFL1023435	Fluoxetine 60mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTFL1023436	Fluoxetine 60mg capsules (Almus Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1043614	Fluoxetine 20mg capsules (Waymade Healthcare Plc)
+^ESCTFL1043615	Fluoxetine 20mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTFL1043616	Fluoxetine 60mg capsules (Waymade Healthcare Plc)
+^ESCTFL1043617	Fluoxetine 60mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTFL1043618	Fluoxetine 20mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTFL1043619	Fluoxetine 20mg/5ml oral solution (Waymade Healthcare Plc) 70 ml
+^ESCTFL1043628	Fluvoxamine 50mg tablets (Waymade Healthcare Plc)
+^ESCTFL1043629	Fluvoxamine 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTFL1043630	Fluvoxamine 100mg tablets (Waymade Healthcare Plc)
+^ESCTFL1043631	Fluvoxamine 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTFL1058230	Fluoxetine 20mg capsules (Bristol Laboratories Ltd)
+^ESCTFL1058231	Fluoxetine 20mg capsules (Bristol Laboratories Ltd) 30 capsule
+^ESCTFL1058232	Fluoxetine 60mg capsules (Bristol Laboratories Ltd)
+^ESCTFL1058233	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 30 capsule
+^ESCTFL1061318	Fluoxetine 20mg capsules (DE Pharmaceuticals)
+^ESCTFL1061319	Fluoxetine 20mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTFL1061984	Fluoxetine 60mg capsules (DE Pharmaceuticals)
+^ESCTFL1061985	Fluoxetine 60mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTFL1061986	Fluoxetine 20mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTFL1061987	Fluoxetine 20mg/5ml oral solution (DE Pharmaceuticals) 70 ml
+^ESCTFL1061994	Fluvoxamine 100mg tablets (DE Pharmaceuticals)
+^ESCTFL1061995	Fluvoxamine 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTFL1061996	Fluvoxamine 50mg tablets (DE Pharmaceuticals)
+^ESCTFL1061997	Fluvoxamine 50mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTFL1063413	Fluoxetine 20mg capsules (Morningside Healthcare Ltd)
+^ESCTFL1063415	Fluoxetine 20mg capsules (Morningside Healthcare Ltd) 30 capsule
+^ESCTFL1064302	Fluoxetine 20mg/5ml oral solution sugar free (Morningside Healthcare Ltd)
+^ESCTFL1064303	Fluoxetine 20mg/5ml oral solution sugar free (Morningside Healthcare Ltd) 70 ml
+^ESCTFL1065951	Fluoxetine 20mg dispersible tablets sugar free 28 tablet
+^ESCTFL1066053	Fluoxetine 20mg dispersible tablets sugar free
+^ESCTFL1081589	Fluoxetine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTFL1081591	Fluoxetine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 70 ml
+^ESCTFL1088622	Fluvoxamine 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTFL1088624	Fluvoxamine 100mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTFL1117761	Fluoxetine 20mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTFL1117762	Fluoxetine 20mg/5ml oral solution (Sigma Pharmaceuticals Plc) 70 ml
+^ESCTFL1118254	Fluoxetine 60mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTFL1118255	Fluoxetine 60mg capsules (Focus Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL1120097	Fluoxetine 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120098	Fluoxetine 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTFL1120099	Fluoxetine 60mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120100	Fluoxetine 60mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTFL1120110	Fluvoxamine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120111	Fluvoxamine 50mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTFL1120112	Fluvoxamine 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120113	Fluvoxamine 100mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTFL1126603	Fluoxetine 20mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1126604	Fluoxetine 20mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 70 ml
+^ESCTFL1132087	Fluoxetine 20mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTFL1132088	Fluoxetine 20mg/5ml oral solution sugar free (J M McGill Ltd) 70 ml
+^ESCTFL1141128	Fluoxetine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTFL1141131	Fluoxetine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 70 ml
+^ESCTFL1142624	Fluoxetine 20mg capsules (Brown & Burk UK Ltd)
+^ESCTFL1142625	Fluoxetine 20mg capsules (Brown & Burk UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1145038	Fluoxetine 10mg capsules 30 capsule
+^ESCTFL1145039	Fluoxetine 10mg capsules (Medreich Plc)
+^ESCTFL1145040	Fluoxetine 10mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146429	Fluoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1146430	Fluoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1146724	Fluoxetine 60mg capsules (Medreich Plc)
+^ESCTFL1146725	Fluoxetine 60mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146726	Fluoxetine 20mg capsules (Medreich Plc)
+^ESCTFL1146727	Fluoxetine 20mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146728	Fluoxetine 30mg capsules 30 capsule
+^ESCTFL1146729	Fluoxetine 30mg capsules (Medreich Plc)
+^ESCTFL1146730	Fluoxetine 30mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146731	Fluoxetine 40mg capsules 30 capsule
+^ESCTFL1146732	Fluoxetine 40mg capsules (Medreich Plc)
+^ESCTFL1146733	Fluoxetine 40mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146929	Fluoxetine 30mg capsules
+^ESCTFL1151358	Fluoxetine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151359	Fluoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151360	Fluoxetine 30mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151361	Fluoxetine 30mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151362	Fluoxetine 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151363	Fluoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151381	Fluoxetine 30mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1151382	Fluoxetine 30mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1151383	Fluoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1151384	Fluoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1152572	Fluoxetine 20mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTFL1152573	Fluoxetine 20mg capsules (Genesis Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL1157012	Fluoxetine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTFL1157013	Fluoxetine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 70 ml
+^ESCTFL1163146	Fluoxetine 10mg tablets 30 tablet
+^ESCTFL1163147	Fluoxetine 10mg tablets (Par Laboratories Europe Ltd)
+^ESCTFL1163148	Fluoxetine 10mg tablets (Par Laboratories Europe Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL336979	Fluoxetine
+^ESCTFL372139	Fluoxetine hydrochloride
+^ESCTFL406878	Fluvoxamine
+^ESCTFL427345	Fluvoxamine maleate
+^ESCTFL609759	Fluvoxamine 50mg tablets
+^ESCTFL609761	Fluvoxamine maleate 50 mg oral tablet
+^ESCTFL609762	Fluvoxamine 100mg tablets
+^ESCTFL609764	Fluvoxamine maleate 100 mg oral tablet
+^ESCTFL609765	Fluoxetine 20mg capsules
+^ESCTFL609766	Fluoxetine 20 mg/1 each oral capsule
+^ESCTFL609768	Fluoxetine 20mg/5ml oral solution
+^ESCTFL609769	Fluoxetine 20mg/5mL oral liquid
+^ESCTFL609770	Fluoxetine hydrochloride 20mg/5mL solution
+^ESCTFL609771	Fluoxetine 60mg capsules
+^ESCTFL609772	Fluoxetine 60 mg/1 each oral capsule
+^ESCTFL637149	Fluoxetine
+^ESCTFL637296	Fluvoxamine
+^ESCTFL638712	Fluoxetine 10mg capsules
+^ESCTFL638714	Fluoxetine 10 mg/1 each oral capsule
+^ESCTFL638717	Fluoxetine 10mg tablets
+^ESCTFL638719	Fluoxetine hydrochloride 10 mg oral tablet
+^ESCTFL639513	Fluvoxamine maleate 25 mg oral tablet
+^ESCTFL641486	Fluoxetine 40mg capsules
+^ESCTFL641488	Fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCTFL645775	Fluoxetine in oral dosage form
+^ESCTFL677718	Fluoxetine hydrochloride 20 mg oral tablet
+^ESCTFL711708	Fluvoxamine 150mg extended release capsule
+^ESCTFL713066	Fluvoxamine 100mg extended release capsule
+^ESCTFL804814	Fluvoxamine 50mg tablets (Wockhardt UK Ltd)
+^ESCTFL804835	Fluvoxamine 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL805094	Fluoxetine 20mg capsules (Ranbaxy (UK) Ltd)
+^ESCTFL807662	Fluvoxamine 50mg tablets (Teva UK Ltd)
+^ESCTFL808056	Fluoxetine 20mg capsules (Mylan Ltd)
+^ESCTFL808108	Fluoxetine 20mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL808154	Fluoxetine 20mg/5ml oral solution (Teva UK Ltd)
+^ESCTFL810313	Fluoxetine 20mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTFL810762	Fluoxetine 20mg capsules (Actavis UK Ltd)
+^ESCTFL812838	Fluvoxamine 100mg tablets (Teva UK Ltd)
+^ESCTFL814255	Fluvoxamine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL815980	Fluoxetine 20mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTFL817054	Fluoxetine 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL818385	Fluoxetine 20mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL819777	Fluoxetine 20mg capsules (Sandoz Ltd)
+^ESCTFL819788	Fluvoxamine 100mg tablets (Wockhardt UK Ltd)
+^ESCTFL819806	Fluvoxamine 50mg tablets (Actavis UK Ltd)
+^ESCTFL819900	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL820017	Fluoxetine 20mg capsules (Zentiva)
+^ESCTFL820453	Fluoxetine 20mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTFL820578	Fluvoxamine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL820601	Fluvoxamine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL820817	Fluvoxamine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL822492	Fluoxetine 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL823329	Fluoxetine 20mg capsules (Teva UK Ltd)
+^ESCTFL823905	Fluvoxamine 100mg tablets (Actavis UK Ltd)
+^ESCTFL826226	Fluvoxamine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL828807	Fluoxetine 20mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTFL831529	Fluvoxamine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL838477	Fluvoxamine 50mg tablets 60 tablet
+^ESCTFL844765	Fluoxetine 20mg/5ml oral solution 70 ml
+^ESCTFL847817	Fluoxetine 20mg capsules 30 capsule
+^ESCTFL848448	Fluoxetine 60mg capsules 30 capsule
+^ESCTFL848528	Fluvoxamine 100mg tablets 30 tablet
+^ESCTFL849519	Fluoxetine 20mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL849521	Fluoxetine 20mg capsules (Actavis UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL849522	Fluoxetine 20mg capsules (Teva UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849523	Fluoxetine 20mg capsules (Mylan Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849525	Fluoxetine 20mg capsules (Genus Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849527	Fluoxetine 20mg capsules (IVAX Pharmaceuticals UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849530	Fluoxetine 20mg capsules (Kent Pharmaceuticals Ltd) 30 capsule
+^ESCTFL849531	Fluoxetine 20mg capsules (Sandoz Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849539	Fluoxetine 20mg capsules (Ranbaxy (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849541	Fluoxetine 20mg capsules (Zentiva) 30 capsule 2 x 15 capsules
+^ESCTFL849542	Fluoxetine 20mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL854954	Fluoxetine 20mg/5ml oral solution (Teva UK Ltd) 70 ml
+^ESCTFL854955	Fluoxetine 20mg/5ml oral solution (A A H Pharmaceuticals Ltd) 70 ml
+^ESCTFL854957	Fluoxetine 20mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 70 ml
+^ESCTFL855158	Fluoxetine 20mg/5ml oral solution (Kent Pharmaceuticals Ltd) 70 ml
+^ESCTFL856503	Fluvoxamine 50mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTFL856504	Fluvoxamine 50mg tablets (Actavis UK Ltd) 60 tablet 3 x 20 tablets
+^ESCTFL856505	Fluvoxamine 50mg tablets (Teva UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTFL856506	Fluvoxamine 50mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL856508	Fluvoxamine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet
+^ESCTFL856509	Fluvoxamine 50mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTFL856511	Fluvoxamine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTFL856515	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856516	Fluvoxamine 100mg tablets (Actavis UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856517	Fluvoxamine 100mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856518	Fluvoxamine 100mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL856519	Fluvoxamine 100mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet
+^ESCTFL856521	Fluvoxamine 100mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL856524	Fluvoxamine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTFL865923	Fluoxetine 60mg capsules (Mylan Ltd)
+^ESCTFL865926	Fluoxetine 60mg capsules (Mylan Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL869078	Fluoxetine 20mg/5ml oral solution (Sandoz Ltd)
+^ESCTFL869079	Fluoxetine 20mg/5ml oral solution (Sandoz Ltd) 70 ml
+^ESCTFL871027	Fluoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL871028	Fluoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule
+^ESCTFL871063	Fluoxetine 20mg/5ml oral solution (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL871064	Fluoxetine 20mg/5ml oral solution (IVAX Pharmaceuticals UK Ltd) 70 ml
+^ESCTFL878219	Fluoxetine 20mg capsules 28 capsule
+^ESCTFL900127	Fluoxetine 60mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTFL900130	Fluoxetine 60mg capsules (Kent Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL906696	Fluvoxamine 50mg/5ml oral suspension 1 ml
+^ESCTFL906697	Fluvoxamine 50mg/5ml oral suspension (Special Order)
+^ESCTFL906698	Fluoxetine 2.5mg/5ml oral solution 1 ml
+^ESCTFL906699	Fluvoxamine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906703	Fluoxetine 2.5mg/5ml oral solution (Special Order)
+^ESCTFL906705	Fluoxetine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL906707	Fluoxetine 2.5mg/5ml oral suspension 1 ml
+^ESCTFL906708	Fluoxetine 2.5mg/5ml oral suspension (Special Order)
+^ESCTFL906711	Fluoxetine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907019	Fluoxetine 2.5mg/5ml oral solution
+^ESCTFL907020	Fluoxetine 2.5mg/5ml oral suspension
+^ESCTFL907025	Fluvoxamine 50mg/5ml oral suspension
+^ESCTFL918668	Fluoxetine 20mg/5ml oral solution (Mylan Ltd)
+^ESCTFL918670	Fluoxetine 20mg/5ml oral solution (Mylan Ltd) 70 ml
+^ESCTFL919588	Fluoxetine 60mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL919590	Fluoxetine 60mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL923639	Fluoxetine 20mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTFL923640	Fluoxetine 20mg capsules (Almus Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL927970	Fluoxetine 20mg/5ml oral solution (Focus Pharmaceuticals Ltd)
+^ESCTFL927972	Fluoxetine 20mg/5ml oral solution (Focus Pharmaceuticals Ltd) 70 ml
+^ESCTFL929020	Fluoxetine 20mg capsules (Arrow Generics Ltd)
+^ESCTFL929021	Fluoxetine 20mg capsules (Arrow Generics Ltd) 30 capsule
+^ESCTFL929024	Fluvoxamine 50mg tablets (Arrow Generics Ltd)
+^ESCTFL929025	Fluvoxamine 50mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTFL929027	Fluvoxamine 100mg tablets (Arrow Generics Ltd)
+^ESCTFL929029	Fluvoxamine 100mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTFL929348	Fluoxetine 20mg capsules (Niche Generics Ltd)
+^ESCTFL929350	Fluoxetine 20mg capsules (Niche Generics Ltd) 30 capsule
+^ESCTFL935371	Fluoxetine 20mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFL935373	Fluoxetine 20mg capsules (Dr Reddy's Laboratories (UK) Ltd) 30 capsule
+^ESCTFL941130	Fluoxetine 20mg/5ml oral solution sugar free 70 ml
+^ESCTFL941219	Fluoxetine 20mg/5ml oral solution sugar free
+^ESCTFL956629	Fluoxetine 20mg capsules (Wockhardt UK Ltd)
+^ESCTFL956633	Fluoxetine 20mg capsules (Wockhardt UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL964250	Fluoxetine 20mg/5ml oral solution (Pinewood Healthcare)
+^ESCTFL964251	Fluoxetine 20mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTFL965497	Fluoxetine 20mg capsules (Tillomed Laboratories Ltd)
+^ESCTFL965498	Fluoxetine 20mg capsules (Tillomed Laboratories Ltd) 30 capsule
+^ESCTFL965499	Fluvoxamine 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTFL965500	Fluvoxamine 50mg tablets (Tillomed Laboratories Ltd) 60 tablet
+^ESCTFL977097	Fluoxetine 60mg capsules (Teva UK Ltd)
+^ESCTFL977098	Fluoxetine 60mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL978035	Fluvoxamine 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL978036	Fluvoxamine 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTFL978037	Fluvoxamine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL978039	Fluvoxamine 50mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTFL978361	Fluoxetine 60mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL978362	Fluoxetine 60mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTFL979437	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL979438	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTFL979441	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTFL985934	Fluoxetine 2mg/5ml oral solution 1 ml
+^ESCTFL985935	Fluoxetine 2mg/5ml oral solution (Special Order)
+^ESCTFL985936	Fluoxetine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL985940	Fluoxetine 2mg/5ml oral suspension 1 ml
+^ESCTFL985943	Fluoxetine 2mg/5ml oral suspension (Special Order)
+^ESCTFL985945	Fluoxetine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL986112	Fluoxetine 2mg/5ml oral solution
+^ESCTFL986113	Fluoxetine 2mg/5ml oral suspension
+^ESCTFL994205	Fluoxetine 10mg tablets 1 tablet
+^ESCTFL994206	Fluoxetine 10mg tablets (Special Order)
+^ESCTFL994207	Fluoxetine 10mg tablets (Special Order) 1 tablet
+^ESCTFL999382	Fluoxetine 60mg capsules (Actavis UK Ltd)
+^ESCTFL999383	Fluoxetine 60mg capsules (Actavis UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTLU821178	Lustral 100mg tablets (Pfizer Ltd)
+^ESCTLU834044	Lustral 50mg tablets (Pfizer Ltd)
+^ESCTLU849736	Lustral 50mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU849737	Lustral 100mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1065952	Olena 20mg dispersible tablets (AMCo)
+^ESCTOL1065953	Olena 20mg dispersible tablets (AMCo) 28 tablet
+^ESCTOL677422	Olanzapine + fluoxetine
+^ESCTOL677424	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677426	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL677428	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677430	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL711421	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOX821191	Oxactin 20mg capsules (Discovery Pharmaceuticals)
+^ESCTOX851640	Oxactin 20mg capsules (Discovery Pharmaceuticals) 30 capsule 3 x 10 capsules
+^ESCTPA1006243	Paroxetine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPA1006244	Paroxetine 20mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTPA1006245	Paroxetine 30mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPA1006246	Paroxetine 30mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTPA1017835	Paroxetine 20mg tablets (Aurobindo Pharma Ltd)
+^ESCTPA1017836	Paroxetine 20mg tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTPA1017838	Paroxetine 30mg tablets (Aurobindo Pharma Ltd)
+^ESCTPA1017839	Paroxetine 30mg tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTPA1038070	Paroxetine 20mg tablets (Medreich Plc)
+^ESCTPA1038071	Paroxetine 20mg tablets (Medreich Plc) 30 tablet
+^ESCTPA1038072	Paroxetine 30mg tablets (Medreich Plc)
+^ESCTPA1038074	Paroxetine 30mg tablets (Medreich Plc) 30 tablet
+^ESCTPA1039275	Paroxetine 10mg tablets (Actavis UK Ltd)
+^ESCTPA1039276	Paroxetine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1039338	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA1039339	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPA1042017	Paroxetine 20mg tablets (Waymade Healthcare Plc)
+^ESCTPA1042018	Paroxetine 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPA1042024	Paroxetine 30mg tablets (Waymade Healthcare Plc)
+^ESCTPA1042025	Paroxetine 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPA1045809	Paroxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA1045810	Paroxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1118800	Paroxetine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA1118801	Paroxetine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPA1119560	Paroxetine 10mg tablets (DE Pharmaceuticals)
+^ESCTPA1119561	Paroxetine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPA1119562	Paroxetine 20mg tablets (DE Pharmaceuticals)
+^ESCTPA1119563	Paroxetine 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPA1119564	Paroxetine 30mg tablets (DE Pharmaceuticals)
+^ESCTPA1119565	Paroxetine 30mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPA1127031	Paroxetine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPA1127032	Paroxetine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPA1149009	Paroxetine 40mg tablets 30 tablet
+^ESCTPA1149010	Paroxetine 40mg tablets (Crescent Pharma Ltd)
+^ESCTPA1149011	Paroxetine 40mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA1151012	Paroxetine 10mg tablets (Teva UK Ltd)
+^ESCTPA1151013	Paroxetine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPA1151788	Paroxetine 40mg tablets 28 tablet
+^ESCTPA1151789	Paroxetine 40mg tablets (Morningside Healthcare Ltd)
+^ESCTPA1151793	Paroxetine 40mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1151795	Paroxetine 10mg tablets (Morningside Healthcare Ltd)
+^ESCTPA1151796	Paroxetine 10mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1152643	Paroxetine 40mg tablets (Teva UK Ltd)
+^ESCTPA1152644	Paroxetine 40mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPA1159884	Paroxetine 20mg tablets (Crescent Pharma Ltd)
+^ESCTPA1159885	Paroxetine 20mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA1161955	Paroxetine 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA1161956	Paroxetine 40mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA406880	Paroxetine hydrochloride
+^ESCTPA609783	Paroxetine
+^ESCTPA609785	Paroxetine 20mg tablets
+^ESCTPA609787	Paroxetine 20 mg oral tablet
+^ESCTPA609788	Paroxetine 30mg tablets
+^ESCTPA609790	Paroxetine 30 mg oral tablet
+^ESCTPA636959	Paroxetine
+^ESCTPA645779	Paroxetine in oral dosage form
+^ESCTPA695519	Paroxetine mesylate
+^ESCTPA695520	Paroxetine mesilate
+^ESCTPA696497	Paroxetine 10mg tablets
+^ESCTPA696499	Paroxetine 10 mg oral tablet
+^ESCTPA698343	Paroxetine 40mg tablets
+^ESCTPA698345	Paroxetine 40 mg oral tablet
+^ESCTPA800935	Paroxetine 20mg tablets (Mylan Ltd)
+^ESCTPA801447	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPA803636	Paroxetine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA818599	Paroxetine 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPA820107	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA846066	Paroxetine 20mg tablets 30 tablet
+^ESCTPA848036	Paroxetine 10mg/5ml oral suspension sugar free 150 ml
+^ESCTPA848114	Paroxetine 30mg tablets 30 tablet
+^ESCTPA854037	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTPA854038	Paroxetine 20mg tablets (Mylan Ltd) 30 tablet
+^ESCTPA854039	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA854040	Paroxetine 20mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA854041	Paroxetine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA867333	Paroxetine 20mg tablets (Actavis UK Ltd)
+^ESCTPA867334	Paroxetine 20mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA878263	Paroxetine 20mg tablets 28 tablet
+^ESCTPA879245	Paroxetine 20mg tablets 14 tablet
+^ESCTPA886942	Paroxetine 30mg tablets (Actavis UK Ltd)
+^ESCTPA886951	Paroxetine 30mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA896464	Paroxetine 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA896465	Paroxetine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA896897	Paroxetine 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA896898	Paroxetine 30mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTPA897759	Paroxetine 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPA897763	Paroxetine 30mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA897875	Paroxetine 20mg tablets (Sandoz Ltd)
+^ESCTPA897877	Paroxetine 20mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA900743	Paroxetine 20mg tablets (Sterwin Medicines)
+^ESCTPA900744	Paroxetine 20mg tablets (Sterwin Medicines) 30 tablet 3 x 10 tablets
+^ESCTPA900752	Paroxetine 30mg tablets (Zentiva)
+^ESCTPA900753	Paroxetine 30mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTPA901699	Paroxetine 20mg tablets (Teva UK Ltd)
+^ESCTPA901701	Paroxetine 20mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTPA903217	Paroxetine 30mg tablets (Mylan Ltd)
+^ESCTPA903218	Paroxetine 30mg tablets (Mylan Ltd) 30 tablet
+^ESCTPA912052	Paroxetine 20mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTPA912053	Paroxetine 20mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA919505	Paroxetine 30mg tablets (Teva UK Ltd)
+^ESCTPA919507	Paroxetine 30mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTPA922779	Paroxetine 20mg tablets (PLIVA Pharma Ltd)
+^ESCTPA922782	Paroxetine 20mg tablets (PLIVA Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA922784	Paroxetine 30mg tablets (PLIVA Pharma Ltd)
+^ESCTPA922787	Paroxetine 30mg tablets (PLIVA Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA937929	Paroxetine 10mg tablets 28 tablet
+^ESCTPA939567	Paroxetine 30mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPA939568	Paroxetine 30mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA939569	Paroxetine 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPA939570	Paroxetine 20mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA940687	Paroxetine 30mg tablets (Sandoz Ltd)
+^ESCTPA940688	Paroxetine 30mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA957375	Paroxetine 10mg/5ml oral suspension 1 ml
+^ESCTPA957378	Paroxetine 10mg/5ml oral suspension (Special Order)
+^ESCTPA957381	Paroxetine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957383	Paroxetine 10mg/5ml oral solution 1 ml
+^ESCTPA957387	Paroxetine 10mg/5ml oral solution (Special Order)
+^ESCTPA957388	Paroxetine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957391	Paroxetine 20mg/5ml oral suspension 1 ml
+^ESCTPA957393	Paroxetine 20mg/5ml oral suspension (Special Order)
+^ESCTPA957394	Paroxetine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957395	Paroxetine 20mg/5ml oral solution 1 ml
+^ESCTPA957396	Paroxetine 20mg/5ml oral solution (Special Order)
+^ESCTPA957397	Paroxetine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957399	Paroxetine 30mg/5ml oral suspension 1 ml
+^ESCTPA957401	Paroxetine 30mg/5ml oral suspension (Special Order)
+^ESCTPA957403	Paroxetine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957405	Paroxetine 30mg/5ml oral solution 1 ml
+^ESCTPA957407	Paroxetine 30mg/5ml oral solution (Special Order)
+^ESCTPA957409	Paroxetine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957601	Paroxetine 10mg/5ml oral solution
+^ESCTPA957602	Paroxetine 10mg/5ml oral suspension
+^ESCTPA957603	Paroxetine 20mg/5ml oral solution
+^ESCTPA957604	Paroxetine 20mg/5ml oral suspension
+^ESCTPA957605	Paroxetine 30mg/5ml oral solution
+^ESCTPA957606	Paroxetine 30mg/5ml oral suspension
+^ESCTPA965221	Paroxetine 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPA965223	Paroxetine 20mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA965650	Paroxetine 20mg tablets (Apotex UK Ltd)
+^ESCTPA965651	Paroxetine 20mg tablets (Apotex UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA965652	Paroxetine 30mg tablets (Apotex UK Ltd)
+^ESCTPA965653	Paroxetine 30mg tablets (Apotex UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA978910	Paroxetine 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA978911	Paroxetine 30mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPA978912	Paroxetine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA978913	Paroxetine 20mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPA994397	Paroxetine 30mg tablets (Pfizer Ltd)
+^ESCTPA994398	Paroxetine 30mg tablets (Pfizer Ltd) 30 tablet
+^ESCTPA994399	Paroxetine 20mg tablets (Pfizer Ltd)
+^ESCTPA994400	Paroxetine 20mg tablets (Pfizer Ltd) 30 tablet
+^ESCTPR336980	Product containing fluoxetine
+^ESCTPR406879	Product containing fluvoxamine
+^ESCTPR609760	Product containing fluvoxamine maleate 50 mg/1 each oral tablet
+^ESCTPR609763	Product containing fluvoxamine maleate 100 mg/1 each oral tablet
+^ESCTPR609767	Product containing fluoxetine 20 mg/1 each oral capsule
+^ESCTPR609773	Product containing fluoxetine 60 mg/1 each oral capsule
+^ESCTPR609776	Product containing sertraline
+^ESCTPR609778	Product containing sertraline 50 mg/1 each oral tablet
+^ESCTPR609781	Product containing sertraline 100 mg/1 each oral tablet
+^ESCTPR609784	Product containing paroxetine
+^ESCTPR609786	Product containing paroxetine 20 mg/1 each oral tablet
+^ESCTPR609789	Product containing paroxetine 30 mg/1 each oral tablet
+^ESCTPR609817	Product containing citalopram 20 mg/1 each oral tablet
+^ESCTPR609820	Product containing citalopram 10 mg/1 each oral tablet
+^ESCTPR609823	Product containing citalopram 40 mg/1 each oral tablet
+^ESCTPR638713	Product containing fluoxetine 10 mg/1 each oral capsule
+^ESCTPR638718	Product containing fluoxetine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR639514	Product containing fluvoxamine maleate 25 mg/1 each oral tablet
+^ESCTPR641487	Product containing fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCTPR645776	Product containing fluoxetine in oral dosage form
+^ESCTPR645780	Product containing paroxetine in oral dosage form
+^ESCTPR675475	Product containing escitalopram 10 mg/1 each oral tablet
+^ESCTPR675637	Product containing escitalopram 20 mg/1 each oral tablet
+^ESCTPR677393	Product containing escitalopram 5 mg/1 each oral tablet
+^ESCTPR677423	Product containing fluoxetine and olanzapine
+^ESCTPR677425	Product containing olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677427	Product containing olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677429	Product containing olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677431	Product containing olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677719	Product containing fluoxetine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR696498	Product containing paroxetine 10 mg/1 each oral tablet
+^ESCTPR697194	Product containing sertraline 25 mg/1 each oral tablet
+^ESCTPR698344	Product containing paroxetine 40 mg/1 each oral tablet
+^ESCTPR711422	Product containing olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR804518	Prozac 60mg capsules (Eli Lilly and Company Ltd)
+^ESCTPR820149	Prozac 20mg capsules (Eli Lilly and Company Ltd)
+^ESCTPR821281	Prozac 20mg/5ml liquid (Eli Lilly and Company Ltd)
+^ESCTPR851644	Prozac 20mg capsules (Eli Lilly and Company Ltd) 30 capsule 2 x 15 capsules
+^ESCTPR854951	Prozac 60mg capsules (Eli Lilly and Company Ltd) 30 capsule 3 x 10 capsules
+^ESCTPR854953	Prozac 20mg/5ml liquid (Eli Lilly and Company Ltd) 70 ml
+^ESCTPR925835	Prozit 20mg/5ml oral solution (Pinewood Healthcare)
+^ESCTPR925836	Prozit 20mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTPR941131	Prozep 20mg/5ml oral solution (Chemidex Pharma Ltd)
+^ESCTPR941132	Prozep 20mg/5ml oral solution (Chemidex Pharma Ltd) 70 ml
+^ESCTRA821144	Ranflutin 20mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA849536	Ranflutin 20mg capsules (Ranbaxy (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCTSE1005993	Sertraline 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005994	Sertraline 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTSE1005995	Sertraline 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005996	Sertraline 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTSE1017847	Sertraline 50mg tablets (Aurobindo Pharma Ltd)
+^ESCTSE1017848	Sertraline 50mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTSE1017849	Sertraline 100mg tablets (Aurobindo Pharma Ltd)
+^ESCTSE1017850	Sertraline 100mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTSE1021492	Sertraline 50mg/5ml oral suspension 150 ml
+^ESCTSE1021493	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTSE1022678	Sertraline 50mg tablets (Medreich Plc)
+^ESCTSE1022679	Sertraline 50mg tablets (Medreich Plc) 28 tablet
+^ESCTSE1022680	Sertraline 100mg tablets (Medreich Plc)
+^ESCTSE1022682	Sertraline 100mg tablets (Medreich Plc) 28 tablet
+^ESCTSE1026465	Sertraline 50mg tablets (Accord Healthcare Ltd)
+^ESCTSE1026466	Sertraline 50mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTSE1026467	Sertraline 100mg tablets (Accord Healthcare Ltd)
+^ESCTSE1026468	Sertraline 100mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTSE1042513	Sertraline 50mg tablets (Waymade Healthcare Plc)
+^ESCTSE1042514	Sertraline 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE1042515	Sertraline 100mg tablets (Waymade Healthcare Plc)
+^ESCTSE1042516	Sertraline 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE1066335	Sertraline 100mg/5ml oral suspension 100 ml
+^ESCTSE1066336	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTSE1097546	Sertraline 50mg tablets (Lupin (Europe) Ltd)
+^ESCTSE1097547	Sertraline 50mg tablets (Lupin (Europe) Ltd) 28 tablet
+^ESCTSE1097557	Sertraline 100mg tablets (Lupin (Europe) Ltd)
+^ESCTSE1097561	Sertraline 100mg tablets (Lupin (Europe) Ltd) 28 tablet
+^ESCTSE1109701	Sertraline 50mg tablets (Crescent Pharma Ltd)
+^ESCTSE1109702	Sertraline 50mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1109703	Sertraline 100mg tablets (Crescent Pharma Ltd)
+^ESCTSE1109704	Sertraline 100mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1119770	Sertraline 50mg tablets (DE Pharmaceuticals)
+^ESCTSE1119771	Sertraline 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSE1119772	Sertraline 100mg tablets (DE Pharmaceuticals)
+^ESCTSE1119773	Sertraline 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSE1144855	Sertraline 15mg/5ml oral suspension 1 ml
+^ESCTSE1144856	Sertraline 15mg/5ml oral suspension (Special Order)
+^ESCTSE1144857	Sertraline 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE1145083	Sertraline 15mg/5ml oral suspension
+^ESCTSE1153475	Sertraline 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSE1153476	Sertraline 100mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1153477	Sertraline 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSE1153478	Sertraline 50mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1162831	Sertraline 5mg/5ml oral suspension 1 ml
+^ESCTSE1162832	Sertraline 5mg/5ml oral suspension (Special Order)
+^ESCTSE1162833	Sertraline 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE1162924	Sertraline 5mg/5ml oral suspension
+^ESCTSE406876	Sertraline hydrochloride
+^ESCTSE609775	Sertraline
+^ESCTSE609777	Sertraline 50mg tablets
+^ESCTSE609779	Sertraline 50 mg oral tablet
+^ESCTSE609780	Sertraline 100mg tablets
+^ESCTSE609782	Sertraline 100 mg oral tablet
+^ESCTSE636958	Sertraline
+^ESCTSE697193	Sertraline 25 mg oral tablet
+^ESCTSE697682	Sertraline 20mg/mL oral solution
+^ESCTSE800278	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd)
+^ESCTSE818467	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE822914	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE841850	Sertraline 50mg tablets 28 tablet
+^ESCTSE847767	Sertraline 100mg tablets 28 tablet
+^ESCTSE854042	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE854043	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE854888	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd) 150 ml
+^ESCTSE878301	Sertraline 50mg tablets 30 tablet
+^ESCTSE878305	Sertraline 100mg tablets 30 tablet
+^ESCTSE908731	Sertraline 100mg/5ml oral suspension 1 ml
+^ESCTSE908732	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTSE908733	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTSE908734	Sertraline 10mg/5ml oral suspension 1 ml
+^ESCTSE908735	Sertraline 10mg/5ml oral suspension (Special Order)
+^ESCTSE908736	Sertraline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE908737	Sertraline 50mg/5ml oral suspension 1 ml
+^ESCTSE908738	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTSE908739	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTSE908992	Sertraline 100mg/5ml oral suspension
+^ESCTSE908993	Sertraline 10mg/5ml oral suspension
+^ESCTSE908994	Sertraline 50mg/5ml oral suspension
+^ESCTSE922956	Sertraline 50mg tablets (PLIVA Pharma Ltd)
+^ESCTSE922958	Sertraline 50mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE922960	Sertraline 100mg tablets (PLIVA Pharma Ltd)
+^ESCTSE922961	Sertraline 100mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923072	Sertraline 50mg tablets (Actavis UK Ltd)
+^ESCTSE923074	Sertraline 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923077	Sertraline 100mg tablets (Actavis UK Ltd)
+^ESCTSE923079	Sertraline 100mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923092	Sertraline 50mg tablets (Teva UK Ltd)
+^ESCTSE923095	Sertraline 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923096	Sertraline 100mg tablets (Teva UK Ltd)
+^ESCTSE923098	Sertraline 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923165	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE923169	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSE923172	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE923174	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSE923176	Sertraline 50mg tablets (Zentiva)
+^ESCTSE923177	Sertraline 50mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSE923178	Sertraline 100mg tablets (Zentiva)
+^ESCTSE923179	Sertraline 100mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSE923290	Sertraline 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE923291	Sertraline 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923292	Sertraline 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE923293	Sertraline 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923390	Sertraline 50mg tablets (Sandoz Ltd)
+^ESCTSE923391	Sertraline 50mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTSE923393	Sertraline 100mg tablets (Sandoz Ltd)
+^ESCTSE923394	Sertraline 100mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTSE923434	Sertraline 50mg tablets (Wockhardt UK Ltd)
+^ESCTSE923436	Sertraline 50mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTSE923453	Sertraline 100mg tablets (Wockhardt UK Ltd)
+^ESCTSE923454	Sertraline 100mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTSE923933	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE923934	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923935	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE923937	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923940	Sertraline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE923941	Sertraline 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTSE923942	Sertraline 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE923943	Sertraline 100mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTSE923953	Sertraline 50mg tablets (Mylan Ltd)
+^ESCTSE923954	Sertraline 50mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923955	Sertraline 100mg tablets (Mylan Ltd)
+^ESCTSE923957	Sertraline 100mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE927844	Sertraline 100mg tablets (Relonchem Ltd)
+^ESCTSE927847	Sertraline 100mg tablets (Relonchem Ltd) 28 tablet
+^ESCTSE927848	Sertraline 50mg tablets (Relonchem Ltd)
+^ESCTSE927850	Sertraline 50mg tablets (Relonchem Ltd) 28 tablet
+^ESCTSE927856	Sertraline 100mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSE927857	Sertraline 100mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTSE927858	Sertraline 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSE927859	Sertraline 50mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTSE929278	Sertraline 50mg tablets (Arrow Generics Ltd)
+^ESCTSE929280	Sertraline 50mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTSE929284	Sertraline 100mg tablets (Arrow Generics Ltd)
+^ESCTSE929285	Sertraline 100mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTSE929325	Sertraline 50mg tablets (Niche Generics Ltd)
+^ESCTSE929326	Sertraline 50mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTSE929328	Sertraline 100mg tablets (Niche Generics Ltd)
+^ESCTSE929329	Sertraline 100mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTSE930576	Sertraline 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSE930577	Sertraline 50mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE930578	Sertraline 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSE930579	Sertraline 100mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE935296	Sertraline 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTSE935297	Sertraline 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTSE935298	Sertraline 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTSE935299	Sertraline 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTSE937930	Seroxat 10mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE937931	Seroxat 10mg tablets (GlaxoSmithKline UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTSE939421	Sertraline 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSE939422	Sertraline 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE939424	Sertraline 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSE939426	Sertraline 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE957996	Sertraline 12.5mg/5ml oral suspension 1 ml
+^ESCTSE958000	Sertraline 12.5mg/5ml oral suspension (Special Order)
+^ESCTSE958002	Sertraline 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958006	Sertraline 150mg/5ml oral suspension 1 ml
+^ESCTSE958008	Sertraline 150mg/5ml oral suspension (Special Order)
+^ESCTSE958010	Sertraline 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958011	Sertraline 20mg/5ml oral suspension 1 ml
+^ESCTSE958013	Sertraline 20mg/5ml oral suspension (Special Order)
+^ESCTSE958014	Sertraline 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958016	Sertraline 25mg/5ml oral suspension 1 ml
+^ESCTSE958018	Sertraline 25mg/5ml oral suspension (Special Order)
+^ESCTSE958020	Sertraline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958289	Sertraline 12.5mg/5ml oral suspension
+^ESCTSE958291	Sertraline 150mg/5ml oral suspension
+^ESCTSE958293	Sertraline 20mg/5ml oral suspension
+^ESCTSE958295	Sertraline 25mg/5ml oral suspension
+^ESCTSE965606	Sertraline 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE965607	Sertraline 50mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTSE965608	Sertraline 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE965609	Sertraline 100mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTSE965683	Sertraline 100mg tablets (Apotex UK Ltd)
+^ESCTSE965684	Sertraline 100mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE965685	Sertraline 50mg tablets (Apotex UK Ltd)
+^ESCTSE965686	Sertraline 50mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE969129	Sertraline 50mg tablets (Consilient Health Ltd)
+^ESCTSE969130	Sertraline 50mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTSE969133	Sertraline 100mg tablets (Consilient Health Ltd)
+^ESCTSE969134	Sertraline 100mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTSE979234	Sertraline 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSE979236	Sertraline 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTSE979461	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSE979462	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTSE979464	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTSE987996	Sertraline 50mg tablets (Bristol Laboratories Ltd)
+^ESCTSE987997	Sertraline 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE987998	Sertraline 100mg tablets (Bristol Laboratories Ltd)
+^ESCTSE991339	Sertraline 100mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE993399	Sertraline 100mg tablets 14 tablet
+CIDR1699NEMIS	Citalopram Hydrochloride  Drops  Sugar Free 40 mg/ml
+CIDR1701NEMIS	Cipramil  Drops  40 mg/ml
+CIOR22660NEMIS	Cipralex  Oral Drops, Solution  10 mg/ml
+CIOR37170NEMIS	Cipralex  Oral Drops, Solution  20 mg/ml
+CITA13088NEMIS	Cipralex  Tablets  10 mg
+CITA15860NEMIS	Cipralex  Tablets  20 mg
+CITA16905NEMIS	Cipralex  Tablets  5 mg
+CITA26750EMIS	Cipramil  Tablets  20 mg
+CITA26752EMIS	Citalopram Hydrobromide  Tablets  20 mg
+CITA32090EMIS	Cipramil  Tablets  40 mg
+CITA32092EMIS	Citalopram Hydrobromide  Tablets  40 mg
+CITA32609EMIS	Cipramil  Tablets  10 mg
+CITA32611EMIS	Citalopram Hydrobromide  Tablets  10 mg
+CITA34311MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (A.A.H. Pharm)
+CITA34312MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Kent Pharm)
+CITA34313MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Sandoz)
+CITA34314MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Unichem)
+CITA34315MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Winthrop Pharmaceuticals )
+CITA34316MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Generics (UK))
+CITA34317MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Alpharma)
+CITA34318MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Teva UK)
+CITA34319MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Ranbaxy)
+CITA34320MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Ivax Pharmaceuticals)
+CITA34321MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (PLIVA Pharma Ltd)
+CITA37527MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (A.A.H. Pharm)
+CITA37528MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Kent Pharm)
+CITA37529MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Sandoz)
+CITA37530MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Unichem)
+CITA37531MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Winthrop Pharmaceuticals )
+CITA37532MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Generics (UK))
+CITA37533MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Alpharma)
+CITA37534MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Teva UK)
+CITA37535MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Ranbaxy)
+CITA37536MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Ivax Pharmaceuticals)
+CITA37537MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (PLIVA Pharma Ltd)
+CITA37538MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (A.A.H. Pharm)
+CITA37539MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Kent Pharm)
+CITA37540MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Sandoz)
+CITA37541MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Unichem)
+CITA37542MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Winthrop Pharmaceuticals )
+CITA37543MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Generics (UK))
+CITA37544MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Alpharma)
+CITA37545MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Teva UK)
+CITA37546MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Ranbaxy)
+CITA37547MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (PLIVA Pharma Ltd)
+CITA37548MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Ivax Pharmaceuticals)
+ESOR22659NEMIS	Escitalopram  Oral Drops, Solution  Sugar Free 10 mg/ml
+ESOR37169NEMIS	Escitalopram  Oral Drops, Solution  Sugar Free 20 mg/ml
+ESTA13085NEMIS	Escitalopram  Tablets  10 mg
+ESTA15859NEMIS	Escitalopram  Tablets  20 mg
+ESTA16904NEMIS	Escitalopram  Tablets  5 mg
+FATA10383BRIDL	Faverin  Tablets  100 mg
+FATA3565	Faverin  Tablets  50 mg
+FECA2001NEMIS	Felicium  Capsules  20 mg
+FLCA10829BRIDL	Fluoxetine Hydrochloride  Capsules  20 mg
+FLCA115553NEMIS	Fluoxetine Hydrochloride  Capsules  10 mg
+FLCA116749NEMIS	Fluoxetine Hydrochloride  Capsules  30 mg
+FLCA116750NEMIS	Fluoxetine Hydrochloride  Capsules  40 mg
+FLCA138203NEMIS	Fluoxetine Hydrochloride (Special Order)  Capsules  40 mg
+FLCA138207NEMIS	Fluoxetine Hydrochloride (Imported)  Capsules  30 mg
+FLCA138209NEMIS	Fluoxetine Hydrochloride (Imported)  Capsules  40 mg
+FLCA28200EMIS	Fluoxetine Hydrochloride  Capsules  60 mg
+FLCA35071MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Ranbaxy)
+FLCA35072MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Generics (UK))
+FLCA35073MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Ivax Pharmaceuticals)
+FLCA35074MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Alpharma)
+FLCA35075MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Unichem)
+FLCA35076MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Sandoz)
+FLCA35077MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Winthrop Pharmaceuticals )
+FLCA35078MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Kent Pharm)
+FLCA35079MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (A.A.H. Pharm)
+FLCA35080MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Teva UK)
+FLCA35081MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Genus Pharm)
+FLCA35100MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Generics (UK))
+FLCA35101MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Unichem)
+FLCA35102MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Kent Pharm)
+FLCA35103MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (A.A.H. Pharm)
+FLOR13431NEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml
+FLOR37826MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Teva UK)
+FLOR37827MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Kent Pharm)
+FLOR37828MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (A.A.H. Pharm)
+FLOR37829MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Unichem)
+FLOR37830MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Sandoz)
+FLOR37831MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Ivax Pharmaceuticals)
+FLOR37832MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Generics (UK))
+FLOR44068NEMIS	Fluoxetine Hydrochloride  Oral Solution, Sugar Free  20 mg/5 ml
+FLOR88729NEMIS	Fluoxetine Hydrochloride  Dispersible Tablets Sugar Free  20 mg
+FLSY22536EMIS	Fluoxetine Hydrochloride  Liquid  20 mg/5 ml
+FLTA10385BRIDL	Fluvoxamine Maleate  Tablets  100 mg
+FLTA138206NEMIS	Fluoxetine Hydrochloride (Imported)  Tablets  10 mg
+FLTA35171MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Teva UK)
+FLTA35172MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Wockhardt UK)
+FLTA35173MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (A.A.H. Pharm)
+FLTA35174MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Ivax Pharmaceuticals)
+FLTA35175MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Unichem)
+FLTA35176MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Alpharma)
+FLTA35177MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Kent Pharm)
+FLTA35204MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Wockhardt UK)
+FLTA35205MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Ivax Pharmaceuticals)
+FLTA35206MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Teva UK)
+FLTA35207MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Kent Pharm)
+FLTA35208MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Alpharma)
+FLTA35209MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Unichem)
+FLTA35210MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (A.A.H. Pharm)
+FLTA4941	Fluvoxamine Maleate  Tablets  50 mg
+FLTA52427NEMIS	Fluoxetine Hydrochloride  Tablets  10 mg
+LUTA9304EMIS	Lustral  Tablets  100 mg
+LUTA9305EMIS	Lustral  Tablets  50 mg
+OLOR88731NEMIS	Olena  Dispersible tablets  20 mg
+OXCA11081NEMIS	Oxactin  Capsules  20 mg
+PALI32615EMIS	Paroxetine Hydrochloride  Oral Suspension Sugar Free  10 mg/5 ml
+PATA117351NEMIS	Paroxetine Hydrochloride  Tablets  40 mg
+PATA24526NEMIS	Paroxetine Hydrochloride  Tablets  10 mg
+PATA36436MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Generics (UK))
+PATA36437MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Ivax Pharmaceuticals)
+PATA36438MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Unichem)
+PATA36439MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Kent Pharm)
+PATA36440MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+PATA36441MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Alpharma)
+PATA36442MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Sandoz)
+PATA36443MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Sterwin Medicines)
+PATA36444MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Teva UK)
+PATA36445MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Genus Pharm)
+PATA36446MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Alpharma)
+PATA36447MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Unichem)
+PATA36448MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (A.A.H. Pharm)
+PATA36449MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Kent Pharm)
+PATA36450MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Winthrop Pharmaceuticals )
+PATA36451MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Generics (UK))
+PATA36452MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Teva UK)
+PATA8972EMIS	Paroxetine Hydrochloride  Tablets  20 mg
+PATA8973EMIS	Paroxetine Hydrochloride  Tablets  30 mg
+PRCA28198EMIS	Prozac  Capsules  60 mg
+PRCA8367EGTON	Prozac  Capsules  20 mg
+PROR13430NEMIS	Prozit  Oral solution  20 mg/5 ml
+PROR29842NEMIS	Prozep  Oral solution  20 mg/5 ml
+PRSY22534EMIS	Prozac  Liquid  20 mg/5 ml
+RACA12494NEMIS	Ranflutin  Capsules  20 mg
+SELI32613EMIS	Seroxat  Liquid  20 mg/10 ml
+SEOR130613NEMIS	Sertraline Hydrochloride  Oral suspension  25 mg/5 ml
+SEOR25422NEMIS	Sertraline Hydrochloride  Oral suspension  50 mg/5 ml
+SEOR46527NEMIS	Sertraline Hydrochloride  Oral suspension  100 mg/5 ml
+SETA138252NEMIS	Sertraline Hydrochloride  Tablets  25 mg
+SETA24527NEMIS	Seroxat  Tablets  10 mg
+SETA8968EMIS	Seroxat  Tablets  20 mg
+SETA8969EMIS	Seroxat  Tablets  30 mg
+SETA9308EMIS	Sertraline Hydrochloride  Tablets  100 mg
+SETA9309EMIS	Sertraline Hydrochloride  Tablets  50 mg

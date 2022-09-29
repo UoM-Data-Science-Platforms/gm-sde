@@ -1,0 +1,21 @@
+^ESCT1204867	ADNP-related multiple congenital anomalies, intellectual disability, autism spectrum disorder
+^ESCT1204868	Helsmoortel-van der Aa syndrome
+^ESCT1204869	Activity dependent neuroprotector homeobox related multiple congenital anomalies, intellectual disability, autism spectrum disorder
+^ESCTAC726261	Active but odd autism
+^ESCTAD846567	ADI-R - Autism Diagnostic Interview-Revised
+^ESCTAT502442	Atypical autistic syndrome
+^ESCTAU320238	Autistic disorder of childhood onset
+^ESCTAU320240	Autism, childhood onset
+^ESCTAU676808	Autism
+^ESCTAU676809	Autism disorder
+^ESCTAU756709	Autism clinic
+^ESCTAU782951	Autism and facial port-wine stain syndrome
+^ESCTAU846352	Autism spectrum disorder diagnostic assessment
+^ESCTHI756579	High-functioning autism
+^ESCTIN676811	Infantile psychosis
+^ESCTPA843869	PACT - Pre-school Autism Communication Therapy
+^ESCTPE307847	Pervasive developmental disorder
+^ESCTPE307849	Pervasive developmental disorder (PDD)
+^ESCTPR843868	Pre-school Autism Communication Therapy
+^ESCTRE846354	Referral to autism assessment service
+EGTON219	Suspected autism

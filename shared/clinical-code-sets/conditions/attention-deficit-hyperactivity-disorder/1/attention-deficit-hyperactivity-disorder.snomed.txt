@@ -17,3 +17,4 @@
 444613000	Adult attention deficit hyperactivity disorder
 769390009	World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)
 710071000000106	ADHD (attention deficit hyperactivity disorder) annual review
+406506008	Attention deficit hyperactivity disorder (disorder)

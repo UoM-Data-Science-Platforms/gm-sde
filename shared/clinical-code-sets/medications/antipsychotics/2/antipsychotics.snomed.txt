@@ -1,0 +1,692 @@
+5478006	Trifluperidol product
+10756001	Haloperidol product
+26574002	Droperidol product
+33588000	Thioridazine product
+41147003	Perphenazine product
+41365009	Fluphenazine product
+44658005	Promazine product
+47331002	Chlorpromazine product
+57002000	Chlorprothixene product
+59270007	Loxapine product
+71699007	Trifluoperazine product
+79129001	Prochlorperazine product
+96220002	Flupentixol product
+96221003	Clozapine product
+108386000	Risperidone product
+108438008	Pimozide product
+108441004	Olanzapine product
+108443001	Quetiapine product
+134517009	Product containing precisely amisulpride 400 milligram/1 each conventional release oral tablet
+321365003	Product containing precisely chlorpromazine hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+321366002	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+321367006	Product containing precisely chlorpromazine hydrochloride 50 milligram/1 each conventional release oral tablet
+321368001	Product containing precisely chlorpromazine hydrochloride 100 milligram/1 each conventional release oral tablet
+321387007	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 100 milligram/1 each conventional release rectal suppository (clinical drug)
+321390001	Chlorpromazine hydrochloride 50mg/5mL syrup (product)
+321391002	Benperidol product
+321393004	Product containing precisely benperidol 250 microgram/1 each conventional release oral tablet
+321407005	Product containing precisely flupentixol 3 milligram/1 each conventional release oral tablet (clinical drug)
+321412006	Product containing precisely fluphenazine hydrochloride 1 milligram/1 each conventional release oral tablet (clinical drug)
+321413001	Product containing precisely fluphenazine hydrochloride 2.5 milligram/1 each conventional release oral tablet
+321414007	Product containing precisely fluphenazine hydrochloride 5 milligram/1 each conventional release oral tablet (clinical drug)
+321416009	Product containing precisely haloperidol 1.5 milligram/1 each conventional release oral tablet (clinical drug)
+321417000	Product containing precisely haloperidol 5 milligram/1 each conventional release oral tablet (clinical drug)
+321418005	Product containing precisely haloperidol 10 milligram/1 each conventional release oral tablet (clinical drug)
+321419002	Product containing precisely haloperidol 20 milligram/1 each conventional release oral tablet (clinical drug)
+321420008	Haloperidol 2 mg/mL oral solution
+321448008	Product containing precisely haloperidol 500 microgram/1 each conventional release oral capsule (clinical drug)
+321450000	Product containing precisely haloperidol 1 milligram/1 milliliter conventional release oral solution (clinical drug)
+321451001	Product containing precisely haloperidol 500 microgram/1 each conventional release oral tablet (clinical drug)
+321461008	Product containing precisely levomepromazine maleate 25 milligram/1 each conventional release oral tablet (clinical drug)
+321465004	Product containing precisely oxypertine 10 milligram/1 each conventional release oral capsule
+321466003	Product containing precisely oxypertine 40 milligram/1 each conventional release oral tablet (clinical drug)
+321484001	Product containing precisely perphenazine 2 milligram/1 each conventional release oral tablet
+321485000	Product containing precisely perphenazine 4 milligram/1 each conventional release oral tablet
+321490002	Product containing precisely pimozide 2 milligram/1 each conventional release oral tablet (clinical drug)
+321491003	Product containing precisely pimozide 4 milligram/1 each conventional release oral tablet (clinical drug)
+321498009	Product containing precisely promazine hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+321499001	Product containing precisely promazine hydrochloride 50 milligram/1 each conventional release oral tablet
+321500005	Promazine 12.5mg/5mL syrup (product)
+321506004	Sulpiride product
+321512009	Product containing precisely sulpiride 400 milligram/1 each conventional release oral tablet
+321514005	Product containing precisely sulpiride 200 milligram/1 each conventional release oral tablet (clinical drug)
+321526000	Thioridazine 10mg/5mL syrup (product)
+321530002	Product containing precisely thioridazine hydrochloride 10 milligram/1 each conventional release oral tablet
+321531003	Product containing precisely thioridazine hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+321532005	Product containing precisely thioridazine hydrochloride 50 milligram/1 each conventional release oral tablet
+321533000	Product containing precisely thioridazine hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+321534006	Product containing precisely thioridazine 5 milligram/1 milliliter conventional release oral suspension
+321535007	Thioridazine 20 mg/mL oral suspension
+321536008	Product containing precisely thioridazine (as thioridazine hydrochloride) 5 milligram/1 milliliter conventional release oral solution
+321547001	Product containing precisely trifluoperazine 1 milligram/1 each conventional release oral tablet (clinical drug)
+321548006	Product containing precisely trifluoperazine 5 milligram/1 each conventional release oral tablet
+321563009	Product containing precisely zuclopenthixol 2 milligram/1 each conventional release oral tablet
+321564003	Product containing precisely zuclopenthixol 10 milligram/1 each conventional release oral tablet (clinical drug)
+321565002	Product containing precisely zuclopenthixol 25 milligram/1 each conventional release oral tablet
+321566001	Product containing precisely loxapine 10 milligram/1 each conventional release oral capsule
+321567005	Loxapine 25 mg oral capsule
+321568000	Loxapine 50 mg oral capsule
+321573006	Product containing precisely clozapine 25 milligram/1 each conventional release oral tablet
+321574000	Product containing precisely clozapine 100 milligram/1 each conventional release oral tablet (clinical drug)
+321589009	Product containing precisely risperidone 1 milligram/1 each conventional release oral tablet
+321590000	Product containing precisely risperidone 2 milligram/1 each conventional release oral tablet
+321591001	Product containing precisely risperidone 3 milligram/1 each conventional release oral tablet (clinical drug)
+321592008	Product containing precisely risperidone 4 milligram/1 each conventional release oral tablet
+321597002	Product containing precisely risperidone 1 milligram/1 milliliter conventional release oral solution
+321599004	Product containing precisely risperidone 6 milligram/1 each conventional release oral tablet
+321602009	Product containing precisely risperidone 500 microgram/1 each conventional release oral tablet
+321603004	Sertindole product
+321612002	Product containing precisely olanzapine 5 milligram/1 each conventional release oral tablet
+321613007	Product containing precisely olanzapine 7.5 milligram/1 each conventional release oral tablet (clinical drug)
+321614001	Product containing precisely olanzapine 10 milligram/1 each conventional release oral tablet
+321618003	Product containing precisely olanzapine 2.5 milligram/1 each conventional release oral tablet (clinical drug)
+321622008	Olanzapine 5mg dispersible tablet (product)
+321623003	Olanzapine 10mg dispersible tablet (product)
+321624009	Product containing precisely quetiapine (as quetiapine fumarate) 25 milligram/1 each conventional release oral tablet
+321625005	Quetiapine (as quetiapine fumarate) 100 mg oral tablet
+321626006	Quetiapine (as quetiapine fumarate) 200 mg oral tablet
+321635004	Product containing precisely quetiapine 150 milligram/1 each conventional release oral tablet (clinical drug)
+321636003	Amisulpride product
+321637007	Product containing precisely amisulpride 50 milligram/1 each conventional release oral tablet
+321638002	Product containing precisely amisulpride 200 milligram/1 each conventional release oral tablet
+321641006	Zotepine product
+321642004	Product containing precisely zotepine 25 milligram/1 each conventional release oral tablet (clinical drug)
+321643009	Product containing precisely zotepine 50 milligram/1 each conventional release oral tablet
+321644003	Product containing precisely zotepine 100 milligram/1 each conventional release oral tablet (clinical drug)
+321669003	Fluphenazine decanoate product
+321689002	Fluphenazine enanthate product
+321692003	Fluspirilene product
+321699007	Haloperidol decanoate product
+321707006	Zuclopenthixol decanoate product
+321926009	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline 30 milligram/1 each conventional release oral tablet
+321927000	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
+321929002	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
+321930007	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
+321935002	Product containing precisely flupentixol 500 microgram/1 each conventional release oral tablet (clinical drug)
+321936001	Flupentixol 1 mg oral tablet
+322142000	Product containing precisely prochlorperazine mesylate 5 milligram/1 sachet conventional release effervescent oral granules
+322143005	Prochlorperazine maleate 3 mg buccal tablet
+322144004	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release oral tablet (clinical drug)
+322145003	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release oral tablet (clinical drug)
+322149009	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release rectal suppository
+322150009	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release rectal suppository
+346438004	Droperidol and fentanyl product
+348374003	Chlorpromazine (as chlorpromazine hydrochloride) 25 mg rectal suppository
+348375002	Chlorpromazine 50mg suppository (product)
+348376001	Chlorpromazine 300mg suppository (product)
+349872004	Product containing droperidol in oral dosage form
+349873009	Droperidol in parenteral dosage form
+349874003	Product containing haloperidol in oral dosage form
+349875002	Product containing haloperidol in parenteral dosage form
+349876001	Product containing chlorpromazine in oral dosage form
+349877005	Chlorpromazine in parenteral dosage form
+349878000	Chlorpromazine in rectal dosage form
+349879008	Pipothiazine product
+349880006	Prochlorperazine in oral dosage form
+349881005	Prochlorperazine in parenteral dosage form
+349882003	Prochlorperazine in rectal dosage form
+349883008	Oxypertine product
+374054003	Product containing precisely olanzapine 20 milligram/1 each conventional release oral tablet
+374629002	Product containing precisely haloperidol 1 milligram/1 each conventional release oral tablet
+374855003	Haloperidol decanoate 50mg/mL injection solution ampule
+375064001	Product containing precisely nortriptyline hydrochloride 50 milligram/1 each conventional release oral capsule (clinical drug)
+375160007	Product containing precisely ziprasidone (as ziprasidone hydrochloride) 20 milligram/1 each conventional release oral capsule
+375161006	Ziprasidone hydrochloride 40 mg oral capsule
+375162004	Ziprasidone (as ziprasidone hydrochloride) 60 mg oral capsule
+375163009	Product containing precisely ziprasidone hydrochloride 80 milligram/1 each conventional release oral capsule
+375362005	Product containing precisely fluphenazine hydrochloride 10 milligram/1 each conventional release oral tablet
+375509004	Product containing precisely haloperidol 2 milligram/1 each conventional release oral tablet
+375999000	Nortriptyline hydrochloride 75 mg oral capsule
+376302004	Product containing precisely loxapine succinate 5 milligram/1 each conventional release oral capsule (clinical drug)
+376417001	Product containing precisely thioridazine hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
+376418006	Product containing precisely thioridazine hydrochloride 200 milligram/1 each conventional release oral tablet
+376419003	Product containing precisely thioridazine hydrochloride 15 milligram/1 each conventional release oral tablet
+376474003	Product containing precisely nortriptyline hydrochloride 10 milligram/1 each conventional release oral capsule (clinical drug)
+376546006	Nortriptyline hydrochloride 25 mg oral capsule
+376553002	Product containing precisely perphenazine 16 milligram/1 each conventional release oral tablet
+376567006	Product containing precisely perphenazine 8 milligram/1 each conventional release oral tablet
+376595006	Product containing precisely risperidone 250 microgram/1 each conventional release oral tablet
+376769007	Product containing precisely pimozide 1 milligram/1 each conventional release oral tablet
+376788000	Trifluoperazine hydrochloride 10mg/mL solution
+376792007	Product containing precisely trifluoperazine hydrochloride 2 milligram/1 each conventional release oral tablet (clinical drug)
+376794008	Product containing precisely trifluoperazine hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+376807001	Product containing precisely olanzapine 15 milligram/1 each conventional release oral tablet (clinical drug)
+377093002	Product containing precisely prochlorperazine 10 milligram/1 each conventional release oral capsule (clinical drug)
+377094008	Product containing precisely prochlorperazine 15 milligram/1 each conventional release oral capsule (clinical drug)
+377095009	Prochlorperazine 2.5mg suppository
+377099003	Prochlorperazine edisylate 5mg/5mL syrup
+377100006	Product containing precisely prochlorperazine maleate 10 milligram/1 each conventional release oral tablet
+377123009	Chlorpromazine hydrochloride 10mg/5mL syrup
+377125002	Product containing precisely chlorpromazine hydrochloride 200 milligram/1 each conventional release oral tablet (clinical drug)
+377587000	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
+384900005	Haloperidol 100mg injection solution ampule (product)
+384901009	Haloperidol 5mg injection solution ampule (product)
+386209001	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+386210006	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+386213008	Olanzapine 20mg disintegrating tablet
+386543009	Fluphenazine in oral dosage form
+386563002	Perphenazine in oral dosage form
+386564008	Perphenazine in parenteral dosage form
+386568006	Product containing promazine in oral dosage form
+386570002	Promazine in parenteral dosage form
+386573000	Trifluoperazine in oral dosage form
+386575007	Trifluoperazine in parenteral dosage form
+386579001	Thioridazine in oral dosage form
+386580003	Zuclopenthixol in oral dosage form
+398883004	Tranylcypromine and trifluoperazine product
+400645002	Product containing precisely amisulpride 100 milligram/1 each conventional release oral tablet
+406785006	Aripiprazole product
+406786007	Product containing precisely aripiprazole 5 milligram/1 each conventional release oral tablet
+406787003	Product containing precisely aripiprazole 10 milligram/1 each conventional release oral tablet (clinical drug)
+406788008	Product containing precisely aripiprazole 15 milligram/1 each conventional release oral tablet (clinical drug)
+406789000	Product containing precisely aripiprazole 20 milligram/1 each conventional release oral tablet (clinical drug)
+406790009	Product containing precisely aripiprazole 30 milligram/1 each conventional release oral tablet
+407748006	Product containing risperidone in oral dosage form
+407749003	Product containing risperidone in parenteral dosage form
+407773006	Product containing precisely sulpiride 40 milligram/1 milliliter conventional release oral solution (clinical drug)
+407922008	Olanzapine 15mg disintergrating tablet
+408011009	Risperidone 1mg orodispersible tablet
+408012002	Risperidone 2mg orodispersible tablet (product)
+409167008	Product containing precisely clozapine 12.5 milligram/1 each conventional release oral tablet
+409170007	Fluoxetine and olanzapine product
+409171006	Fluoxetine hydrochloride 25 mg and olanzapine 6 mg oral capsule
+409172004	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+409173009	Fluoxetine hydrochloride 25 mg and olanzapine 12 mg oral capsule
+409174003	Fluoxetine hydrochloride 50 mg and olanzapine 12 mg oral capsule
+410934006	Product containing olanzapine in parenteral dosage form
+413481004	Alpha-4 integrin receptor antagonist product
+414804006	Natalizumab product
+416497001	Risperidone 0.5mg orodispersible tablet
+417374006	Product containing precisely aripiprazole 1 milligram/1 milliliter conventional release oral solution (clinical drug)
+418754000	Product containing precisely clozapine 50 milligram/1 each conventional release oral tablet (clinical drug)
+421313004	Fluphenazine and nortriptyline product
+421323008	Amitriptyline and perphenazine product
+422110005	Product containing precisely aripiprazole 2 milligram/1 each conventional release oral tablet (clinical drug)
+423176002	Aripiprazole 15mg orally disintegrating tablet
+423326008	Aripiprazole 10mg orally disintegrating tablet
+424274004	Product containing olanzapine in oral dosage form
+424531003	Aripiprazole 20mg orally disintegrating tablet
+425041000	Aripiprazole 30mg orally disintegrating tablet
+425483000	Paliperidone product
+426125007	Paliperidone 3mg extended release tablet
+426401009	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each prolonged-release oral tablet
+426782001	Paliperidone 6mg extended release tablet
+426802009	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each prolonged-release oral tablet (clinical drug)
+426954000	Product containing precisely quetiapine (as quetiapine fumarate) 400 milligram/1 each prolonged-release oral tablet
+427321002	Paliperidone 9mg extended release tablet
+428303003	Aripiprazole in parenteral dosage form
+428492001	Product containing aripiprazole in oral dosage form
+428727004	Product containing flupentixol in oral dosage form
+429292009	Product containing flupentixol in parenteral dosage form
+429346008	Zuclopenthixol product
+429779005	Aripiprazole 7.5mg/mL injection solution vial
+429826005	Product containing precisely quetiapine fumarate 400 milligram/1 each conventional release oral tablet (clinical drug)
+429830008	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each conventional release oral tablet
+430084007	Fluoxetine hydrochloride 25 mg and olanzapine 3 mg oral capsule
+437754006	Product containing fluphenazine in parenteral dosage form
+441502006	Paliperidone 1.5mg extended release tablet (product)
+441607005	Product containing precisely quetiapine fumarate 50 milligram/1 each conventional release oral tablet (clinical drug)
+444736001	Risperidone 3mg orodispersible tablet
+444806003	Risperidone 4mg orodispersible tablet
+704257002	Vedolizumab product
+704258007	Vedolizumab 300mg powder for injection solution
+714143001	Product containing clozapine in oral dosage form
+763504004	Aripiprazole lauroxil product
+764128001	Aripiprazole lauroxil in parenteral dosage form
+765793001	Chlorpromazine hydrochloride 30mg prolonged-release oral capsule (product)
+765799002	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 15 milligram/1 each prolonged-release oral capsule
+765903002	Chlorpromazine hydrochloride 150mg prolonged-release oral capsule (product)
+765989000	Trifluoperazine (as trifluoperazine hydrochloride) 2 mg prolonged-release oral capsule
+766022000	Chlorpromazine hydrochloride 75mg prolonged-release oral capsule (product)
+766027006	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 10 milligram/1 each prolonged-release oral capsule (clinical drug)
+766458002	Product containing precisely amisulpride 100 milligram/1 milliliter conventional release oral solution (clinical drug)
+766465005	Chlorpromazine hydrochloride 100mg/5mL conventional release oral solution (product)
+766466006	Product containing precisely chlorpromazine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+766482007	Haloperidol 1.5mg/5mL conventional release oral solution (product)
+766483002	Haloperidol 1mg/5mL conventional release oral solution (product)
+766484008	Haloperidol 2mg/5mL conventional release oral solution
+766506005	Perphenazine 2mg/5mL conventional release oral solution (product)
+766507001	Perphenazine 4mg/5mL conventional release oral solution
+766524007	Thioridazine 100mg/mL conventional release oral solution (product)
+766525008	Thioridazine 50mg/5mL conventional release oral solution
+766526009	Thioridazine hydrochloride 30mg/ml conventional release oral solution (product)
+766546004	Product containing precisely chlorpromazine hydrochloride (as chlorpromazine embonate) 20 milligram/1 milliliter conventional release oral suspension
+766574009	Trifluoperazine 5mg/5mL conventional release oral suspension (product)
+766588008	Promazine hydrochloride 50mg/5mL conventional release oral syrup
+766591008	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 1 milligram/1 milliliter conventional release oral solution
+767338009	Product containing zuclopenthixol in parenteral dosage form
+767340004	Product containing zuclopenthixol decanoate in parenteral dosage form
+767592007	Zotepine in oral dosage form
+767770006	Product containing quetiapine in oral dosage form
+767774002	Product containing prochlorperazine in oromucosal dosage form
+767840008	Product containing amisulpride in oral dosage form
+767873001	Amitriptyline and perphenazine in oral dosage form
+768025007	Product containing benperidol in oral dosage form (medicinal product form)
+768254007	Pimozide in oral dosage form
+768397004	Product containing fluphenazine and nortriptyline in oral dosage form (medicinal product form)
+769212002	Risperidone 12.5mg powder for suspension for injection (product)
+769213007	Risperidone 25mg powder for suspension for injection (product)
+769214001	Risperidone 37.5mg powder for suspension for injection
+769215000	Risperidone 50mg powder for suspension for injection
+769270002	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 200 microgram/1 milliliter conventional release oral solution
+769307001	Product containing precisely prochlorperazine mesylate 1 milligram/1 milliliter conventional release oral solution
+769308006	Promazine hydrochloride 5 mg/mL oral solution
+769309003	Product containing precisely promazine hydrochloride 10 milligram/1 milliliter conventional release oral solution (clinical drug)
+769326009	Product containing sulpiride in oral dosage form
+769636007	Product containing precisely chlorpromazine hydrochloride 50 milligram/2 milliliter conventional release solution for injection ampule
+769748001	Flupentixol decanoate 100 mg/mL solution for injection ampoule
+769749009	Product containing precisely flupentixol decanoate 50 milligram/0.5 milliliter conventional release solution for injection ampule (clinical drug)
+769750009	Product containing precisely flupentixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule
+769751008	Product containing precisely flupentixol decanoate 20 milligram/1 milliliter conventional release solution for injection ampule
+769752001	Product containing precisely flupentixol decanoate 40 milligram/2 milliliter conventional release solution for injection ampule
+769753006	Fluphenazine decanoate 50 mg/0.5 mL solution for injection ampule
+769754000	Fluphenazine decanoate 100 mg/mL solution for injection ampule
+769755004	Fluphenazine decanoate 12.5 mg/0.5 mL solution for injection ampule
+769756003	Product containing precisely fluphenazine decanoate 250 milligram/10 milliliter conventional release solution for injection vial
+769757007	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+769758002	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection syringe
+769759005	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection ampule
+769760000	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection syringe
+769785009	Product containing precisely haloperidol (as haloperidol decanoate) 100 milligram/1 milliliter prolonged-release oil for injection ampule (clinical drug)
+769786005	Haloperidol 20 mg/2 mL solution for injection ampoule
+769927005	Product containing precisely natalizumab 300 milligram/15 milliliter conventional release solution for injection vial (clinical drug)
+769981008	Pipotiazine palmitate 50 mg/mL solution for injection ampoule
+769982001	Product containing precisely pipotiazine palmitate 100 milligram/2 milliliter conventional release solution for injection ampule (clinical drug)
+770000003	Prochlorperazine mesylate 12.5 mg/mL solution for injection ampoule
+770079003	Zuclopenthixol acetate 50 mg/mL solution for injection ampule
+770080000	Zuclopenthixol acetate 100 mg/2 mL solution for injection ampule
+770081001	Product containing precisely zuclopenthixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+770082008	Product containing precisely zuclopenthixol decanoate 500 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+770195001	Chlorpromazine hydrochloride 25 mg/mL solution for injection ampoule
+770215006	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection ampoule
+770216007	Haloperidol 5 mg/mL solution for injection ampoule
+770226000	Product containing precisely levomepromazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+1971003	Loxapine hydrochloride (substance)
+9539001	Chlorprothixene lactate (substance)
+30745005	Loxapine succinate (substance)
+88585004	Chlorprothixene hydrochloride (substance)
+108383008	Quetiapine fumarate (substance)
+129479007	Ziprasidone hydrochloride (substance)
+372789006	Loxapine
+386837002	Haloperidol
+386840002	Risperidone
+386848009	Pimozide
+386849001	Olanzapine
+386850001	Quetiapine
+387146001	Droperidol
+387258005	Chlorpromazine
+387301006	Trifluperidol
+387317000	Chlorprothixene
+387479008	Chlorpromazine hydrochloride
+387567006	Flupenthixol
+387568001	Clozapine
+391820006	Benperidol (substance)
+395825007	Periciazine
+395832003	Pipothiazine palmitate
+395931006	Zuclopenthixol acetate
+395932004	Zuclopenthixol decanoate
+395995004	Pipothiazine
+396062001	Flupenthixol decanoate
+412196004	Haloperidol decanoate
+412197008	Haloperidol lactate
+419373008	Fluspirilene
+426276000	Paliperidone
+426594007	Zuclopenthixol dihydrochloride
+427377000	Chlorpromazine embonate
+428715002	Zuclopenthixol
+442075003	Flupentixol hydrochloride (substance)
+703116009	Lurasidone hydrochloride (substance)
+706896003	Paliperidone palmitate (substance)
+725800004	Olanzapine embonate
+725801000	Olanzapine embonate monohydrate
+735189005	Olanzapine pamoate
+415669008	Sulpiride measurement
+428990002	Measurement of quetiapine
+712862004	Prochlorperazine measurement
+723948002	Clozapine therapy
+1030661000000101	Olanzapine measurement
+3823007	Prochlorperazine edisylate (substance)
+22827004	Prochlorperazine maleate (substance)
+50754002	Trifluoperazine hydrochloride (substance)
+61678008	Fluphenazine hydrochloride (substance)
+111125005	Fluphenazine enanthate
+372730004	Fluphenazine
+372853006	Prochlorperazine
+373524005	Trifluoperazine
+387229007	Perphenazine
+395843006	Prochlorperazine mesilate
+396063006	Fluophenazine decanoate
+57911003	Levomepromazine hydrochloride (substance)
+79135001	Promazine hydrochloride (substance)
+372741002	Promazine
+395790003	Levomepromazine maleate (substance)
+391761004	Amisulpride (substance)
+395818000	Oxypertine
+395891007	Sulpiride
+702795007	Levosulpiride
+413482006	Substance with alpha-4 integrin receptor antagonist mechanism of action
+414805007	Natalizumab
+704256006	Vedolizumab (substance)
+18550006	Thioridazine hydrochloride (substance)
+372706001	Thioridazine
+406784005	Aripiprazole
+715182007	Aripiprazole lauroxil
+34657002	Isopropamide iodide (substance)
+29666006	Nortriptyline hydrochloride [enuresis - no agents here]
+77942007	Integrin leukocyte adhesive protein (substance)
+89772006	Tranylcypromine sulfate (substance)
+418732002	Sertindole
+118921000119106	Long-term current use of clozapine
+395930007	Zotepine
+408536007	Clozapine monitoring
+1085661000000102	Clozapine therapy offered (situation)
+734633005	Alpha-4 integrin receptor antagonist
+10626311000001106	Tysabri 300mg/15ml concentrate for solution for infusion vials (Biogen Ltd) (product)
+10664611000001100	Abilify 10mg orodispersible tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) (product)
+10664911000001106	Abilify 15mg orodispersible tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) (product)
+10667211000001109	Abilify 1mg/ml oral solution (Bristol-Myers Squibb Pharmaceuticals Ltd) (product)
+10675311000001102	Aripiprazole 10mg orodispersible tablets sugar free (product)
+10675411000001109	Aripiprazole 15mg orodispersible tablets sugar free (product)
+10878511000001107	Zyprexa 20mg tablets (Eli Lilly & Co Ltd) (product)
+11134311000001108	Risperdal Quicklet 4mg orodispersible tablets (Janssen-Cilag Ltd) (product)
+11134611000001103	Risperdal Quicklet 3mg orodispersible tablets (Janssen-Cilag Ltd) (product)
+11140811000001105	Risperidone 3mg orodispersible tablets sugar free (product)
+11140911000001100	Risperidone 4mg orodispersible tablets sugar free (product)
+113611000001108	Serenace 10mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+11749311000001101	Invega 3mg modified-release tablets (Janssen-Cilag Ltd) (product)
+11749811000001105	Invega 6mg modified-release tablets (Janssen-Cilag Ltd) (product)
+11751011000001100	Invega 9mg modified-release tablets (Janssen-Cilag Ltd) (product)
+11763211000001100	Paliperidone 3mg modified-release tablets (product)
+11763311000001108	Paliperidone 6mg modified-release tablets (product)
+11763411000001101	Paliperidone 9mg modified-release tablets (product)
+117911000001106	Haldol 2mg/ml oral solution (Janssen-Cilag Ltd) (product)
+119311000001100	Modecate 50mg/2ml solution for injection ampoules (Sanofi-Synthelabo Ltd) (product)
+125111000001109	Motival 10mg/500microgram tablets (Sanofi-Synthelabo Ltd) (product)
+13451111000001101	Abilify 9.75mg/1.3ml solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd) (product)
+13456411000001100	Aripiprazole 9.75mg/1.3ml solution for injection vials (product)
+14025311000001109	Seroquel XL 200mg tablets (Luye Pharma Ltd) (product)
+14025711000001108	Seroquel XL 400mg tablets (Luye Pharma Ltd) (product)
+14026011000001102	Seroquel XL 300mg tablets (Luye Pharma Ltd) (product)
+14026511000001105	Seroquel XL 50mg tablets (Luye Pharma Ltd) (product)
+14042811000001105	Quetiapine 50mg modified-release tablets (product)
+145511000001103	Sulpor 200mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) (product)
+152111000001103	Haldol 5mg tablets (Janssen-Cilag Ltd) (product)
+153111000001109	Risperdal 6mg tablets (Janssen-Cilag Ltd) (product)
+153511000001100	Modecate 50mg/2ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd) (product)
+153611000001101	Clopixol 2mg tablets (Lundbeck Ltd) (product)
+15432411000001108	Droperidol 2.5mg/1ml solution for injection ampoules (product)
+15432611000001106	Xomolix 2.5mg/1ml solution for injection ampoules (ProStrakan Ltd) (product)
+15498911000001105	Denzapine 50mg tablets (Merz Pharma UK Ltd) (product)
+15505711000001105	Denzapine 200mg tablets (Merz Pharma UK Ltd) (product)
+15506011000001104	Denzapine 50mg/ml oral suspension (Merz Pharma UK Ltd) (product)
+15506211000001109	Clozapine 200mg tablets (product)
+15506311000001101	Clozapine 50mg/ml oral suspension sugar free (product)
+160211000001102	Melleril 25mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+17037611000001102	Olanzapine 210mg powder and solvent for suspension for injection vials (product)
+17037811000001103	Zypadhera 210mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) (product)
+17038211000001100	Olanzapine 300mg powder and solvent for suspension for injection vials (product)
+17038411000001101	Zypadhera 300mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) (product)
+17038711000001107	Olanzapine 405mg powder and solvent for suspension for injection vials (product)
+17039011000001100	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) (product)
+17689811000001108	Seroquel XL 150mg tablets (Luye Pharma Ltd) (product)
+17828611000001101	Quetiapine 150mg modified-release tablets (product)
+178611000001106	Clopixol 200mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+19208911000001101	Xeplion 50mg/0.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) (product)
+19210011000001104	Xeplion 75mg/0.75ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) (product)
+19210611000001106	Xeplion 100mg/1ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) (product)
+19210911000001100	Xeplion 150mg/1.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) (product)
+19223511000001106	Paliperidone 100mg/1ml suspension for injection pre-filled syringes (product)
+19223611000001105	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes (product)
+19223711000001101	Paliperidone 50mg/0.5ml suspension for injection pre-filled syringes (product)
+19223811000001109	Paliperidone 75mg/0.75ml suspension for injection pre-filled syringes (product)
+19504311000001103	Asenapine 10mg sublingual tablets sugar free (product)
+19504411000001105	Asenapine 5mg sublingual tablets sugar free (product)
+19587711000001107	Zalasta 2.5mg tablets (Consilient Health Ltd) (product)
+19587911000001109	Zalasta 5mg tablets (Consilient Health Ltd) (product)
+19588111000001107	Zalasta 7.5mg tablets (Consilient Health Ltd) (product)
+19588311000001109	Zalasta 10mg tablets (Consilient Health Ltd) (product)
+19588511000001103	Zalasta 15mg tablets (Consilient Health Ltd) (product)
+19588711000001108	Zalasta 20mg tablets (Consilient Health Ltd) (product)
+196011000001108	Buccastem M 3mg tablets (Reckitt Benckiser Plc) (product)
+19608211000001108	Zalasta 5mg orodispersible tablets (Consilient Health Ltd) (product)
+19609711000001105	Zalasta 10mg orodispersible tablets (Consilient Health Ltd) (product)
+19610111000001101	Zalasta 15mg orodispersible tablets (Consilient Health Ltd) (product)
+19610411000001106	Zalasta 20mg orodispersible tablets (Consilient Health Ltd) (product)
+20356011000001101	Sondate XL 50mg tablets (Teva UK Ltd) (product)
+20356211000001106	Sondate XL 200mg tablets (Teva UK Ltd) (product)
+20356411000001105	Sondate XL 300mg tablets (Teva UK Ltd) (product)
+20356611000001108	Sondate XL 400mg tablets (Teva UK Ltd) (product)
+205811000001105	Tranquilyn 10mg tablets (Link Pharmaceuticals Ltd) (product)
+213711000001101	Stelazine 10mg Spansules (Goldshield Healthcare Ltd) (product)
+22221211000001102	Seotiapim XL 200mg tablets (Sandoz Ltd) (product)
+22221411000001103	Seotiapim XL 400mg tablets (Sandoz Ltd) (product)
+22221611000001100	Seotiapim XL 300mg tablets (Sandoz Ltd) (product)
+228411000001106	Serenace 5mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+23636811000001103	Abilify Maintena 400mg powder and solvent for suspension for injection vials (Otsuka Pharmaceuticals (U.K.) Ltd) (product)
+23661211000001102	Aripiprazole 400mg powder and solvent for suspension for injection vials (product)
+24311000001100	Solian 50 tablets (Sanofi-Synthelabo Ltd) (product)
+246411000001108	Sulpitil 200mg tablets (Pfizer Ltd) (product)
+24657811000001100	Entyvio 300mg powder for concentrate for solution for infusion vials (Takeda UK Ltd) (product)
+24670211000001102	Vedolizumab 300mg powder for solution for infusion vials (product)
+252180003	Chlorpromazine stimulation test (procedure)
+254011000001107	Solian 400 tablets (Sanofi-Synthelabo Ltd) (product)
+25803211000001100	Ebesque XL 50mg tablets (DB Ashbourne Ltd) (product)
+25804311000001105	Ebesque XL 200mg tablets (DB Ashbourne Ltd) (product)
+25804911000001106	Ebesque XL 300mg tablets (DB Ashbourne Ltd) (product)
+25806011000001102	Ebesque XL 400mg tablets (DB Ashbourne Ltd) (product)
+271211000001102	Haldol 10mg tablets (Janssen-Cilag Ltd) (product)
+28400211000001109	Biquelle XL 50mg tablets (Aspire Pharma Ltd) (product)
+28400411000001108	Biquelle XL 150mg tablets (Aspire Pharma Ltd) (product)
+28400611000001106	Biquelle XL 300mg tablets (Aspire Pharma Ltd) (product)
+28400811000001105	Biquelle XL 400mg tablets (Aspire Pharma Ltd) (product)
+28401011000001108	Biquelle XL 200mg tablets (Aspire Pharma Ltd) (product)
+28411511000001102	Zaluron XL 50mg tablets (Fontus Health Ltd) (product)
+28411711000001107	Zaluron XL 150mg tablets (Fontus Health Ltd) (product)
+28411911000001109	Zaluron XL 200mg tablets (Fontus Health Ltd) (product)
+28412111000001101	Zaluron XL 300mg tablets (Fontus Health Ltd) (product)
+28412311000001104	Zaluron XL 400mg tablets (Fontus Health Ltd) (product)
+2841911000001104	Solian 100 tablets (Sanofi-Synthelabo Ltd) (product)
+2880511000001106	Largactil Forte 100mg/5ml suspension (Hawgreen Ltd) (product)
+28994711000001109	Mintreleq XL 50mg tablets (CEB Pharma Ltd) (product)
+28994911000001106	Mintreleq XL 150mg tablets (CEB Pharma Ltd) (product)
+28995111000001107	Mintreleq XL 200mg tablets (CEB Pharma Ltd) (product)
+28995611000001104	Mintreleq XL 300mg tablets (CEB Pharma Ltd) (product)
+28995811000001100	Mintreleq XL 400mg tablets (CEB Pharma Ltd) (product)
+30799611000001105	Haloperidol 1mg/5ml oral solution sugar free (product)
+3100711000001101	Depixol Conc 50mg/0.5ml solution for injection ampoules (Lundbeck Ltd) (product)
+3101311000001105	Depixol Conc 100mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+3102111000001103	Depixol 40mg/2ml solution for injection ampoules (Lundbeck Ltd) (product)
+3102911000001100	Depixol 20mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+3104011000001105	Depixol Low Volume 200mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+319511000001103	Solian 200 tablets (Sanofi-Synthelabo Ltd) (product)
+321473008	Pericyazine 2.5mg tablet (substance)
+321474002	Pericyazine 10mg tablet (substance)
+3245711000001101	Serenace 5mg/1ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd) (product)
+3246911000001106	Haldol 5mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) (product)
+325311000001103	Stelazine 1mg tablets (Goldshield Healthcare Ltd) (product)
+32911000001106	Clopixol Conc 500mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+337311000001109	Zyprexa 2.5mg tablets (Eli Lilly & Co Ltd) (product)
+340011000001109	Neulactil 10mg tablets (JHC Healthcare Ltd) (product)
+340911000001108	Seroquel 100mg tablets (Luye Pharma Ltd) (product)
+343311000001101	Risperdal 1mg/1ml liquid (Janssen-Cilag Ltd) (product)
+3434911000001100	Olanzapine 15mg oral lyophilisates (product)
+344011000001102	Stemetil 5mg/5ml syrup (Castlemead Healthcare Ltd) (product)
+354911000001100	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd) (product)
+35901111000001102	Amisulpride 100mg/ml oral solution sugar free (product)
+35931111000001108	Sulpiride 200mg/5ml oral solution sugar free (product)
+35931311000001105	Promazine 25mg/5ml oral solution (product)
+36016711000001103	Pipotiazine 100mg/2ml solution for injection ampoules (product)
+36016911000001101	Pipotiazine 50mg/1ml solution for injection ampoules (product)
+36027911000001107	Pericyazine 10mg/5ml oral solution (product)
+36030311000001108	Natalizumab 300mg/15ml solution for infusion vials (product)
+36053411000001105	Haloperidol 20mg/2ml solution for injection ampoules (product)
+36053511000001109	Haloperidol 5mg/1ml solution for injection ampoules (product)
+36053611000001108	Haloperidol decanoate 100mg/1ml solution for injection ampoules (product)
+36053711000001104	Haloperidol decanoate 50mg/1ml solution for injection ampoules (product)
+36058011000001108	Flupentixol 50mg/0.5ml solution for injection ampoules (product)
+36058111000001109	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (product)
+36058211000001103	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules (product)
+36058311000001106	Fluphenazine decanoate 250mg/10ml solution for injection vials (product)
+36058411000001104	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (product)
+36058511000001100	Fluphenazine decanoate 25mg/1ml solution for injection pre-filled syringes (product)
+36058611000001101	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules (product)
+36058711000001105	Fluphenazine decanoate 50mg/2ml solution for injection ampoules (product)
+36058811000001102	Fluphenazine decanoate 50mg/2ml solution for injection pre-filled syringes (product)
+36068611000001107	Flupentixol 100mg/1ml solution for injection ampoules (product)
+36068711000001103	Flupentixol 200mg/1ml solution for injection ampoules (product)
+36068811000001106	Flupentixol 20mg/1ml solution for injection ampoules (product)
+36068911000001101	Flupentixol 40mg/2ml solution for injection ampoules (product)
+36138311000001103	Chlorpromazine 25mg/5ml oral solution (product)
+36138411000001105	Chlorpromazine 50mg/2ml solution for injection ampoules (product)
+36143111000001105	Trifluoperazine 10mg modified-release capsules (product)
+36143211000001104	Trifluoperazine 15mg modified-release capsules (product)
+36143311000001107	Trifluoperazine 1mg/5ml oral solution sugar free (product)
+36143511000001101	Trifluoperazine 2mg modified-release capsules (product)
+36151811000001100	Zuclopenthixol acetate 100mg/2ml solution for injection ampoules (product)
+36152011000001103	Zuclopenthixol acetate 50mg/1ml solution for injection ampoules (product)
+36152111000001102	Zuclopenthixol decanoate 200mg/1ml solution for injection ampoules (product)
+36152211000001108	Zuclopenthixol decanoate 500mg/1ml solution for injection ampoules (product)
+367711000001104	Stemetil 25mg tablets (Castlemead Healthcare Ltd) (product)
+3679611000001105	Depixol 3mg tablets (Lundbeck Ltd) (product)
+3680311000001100	Fentazin 2mg tablets (Goldshield Healthcare Ltd) (product)
+3680911000001104	Fentazin 4mg tablets (Goldshield Healthcare Ltd) (product)
+3686111000001104	Moditen 1mg tablets (Sanofi-Synthelabo Ltd) (product)
+3688011000001101	Orap 4mg tablets (Eumedica Pharma Ltd) (product)
+3688311000001103	Benquil 250microgram tablets (Concord Pharmaceutical Ltd) (product)
+3747311000001104	Haldol decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) (product)
+3748011000001101	Haldol decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) (product)
+379911000001101	Largactil 25mg/5ml syrup (Hawgreen Ltd) (product)
+3822011000001103	Piportil Depot 50mg/1ml solution for injection ampoules (JHC Healthcare Ltd) (product)
+3825711000001105	Moditen 2.5mg tablets (Sanofi-Synthelabo Ltd) (product)
+3826011000001104	Moditen 5mg tablets (Sanofi-Synthelabo Ltd) (product)
+3830311000001101	Clozaril 25mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+3832011000001100	Clozaril 100mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+3872811000001108	Loxapac 10mg capsules (Wyeth Laboratories) (product)
+387311000001101	Serenace 20mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+3873611000001104	Loxapac 50mg capsules (Wyeth Laboratories) (product)
+38750711000001100	Trifluoperazine 5mg/5ml oral solution sugar free (product)
+38753511000001104	Promazine 50mg/5ml oral solution (product)
+38895311000001102	Levomepromazine 25mg/1ml solution for injection ampoules (product)
+3904811000001101	Zoleptil 25 tablets (Orion Pharma (UK) Ltd) (product)
+3905611000001104	Zoleptil 50 tablets (Orion Pharma (UK) Ltd) (product)
+3927511000001104	Serenace 20mg/2ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd) (product)
+3933811000001105	Solian 500mg/5ml oral solution (Sanofi-Synthelabo Ltd) (product)
+39692311000001104	Flupentixol 1mg tablets (product)
+39692411000001106	Flupentixol 3mg tablets (product)
+39692511000001105	Flupentixol 500microgram tablets (product)
+39692911000001103	Nortriptyline 10mg / Fluphenazine 500microgram tablets (product)
+39699511000001101	Loxapine 10mg capsules (product)
+39699611000001102	Loxapine 25mg capsules (product)
+39699711000001106	Loxapine 50mg capsules (product)
+39703111000001104	Quetiapine 150mg tablets (product)
+39706011000001108	Trifluoperazine 1mg tablets (product)
+39706211000001103	Trifluoperazine 5mg tablets (product)
+39707711000001108	Zuclopenthixol 10mg tablets (product)
+39707911000001105	Zuclopenthixol 2mg tablets (product)
+39708111000001108	Zuclopenthixol 25mg tablets (product)
+39708811000001101	Tranylcypromine 10mg tablets (product)
+39731711000001107	Amitriptyline 10mg / Perphenazine 2mg tablets (product)
+39731811000001104	Amitriptyline 25mg / Perphenazine 2mg tablets (product)
+4023011000001106	Loxapac 25mg capsules (Wyeth Laboratories) (product)
+4039211000001101	Risperdal Quicklet 1mg orodispersible tablets (Janssen-Cilag Ltd) (product)
+4039711000001108	Risperdal Quicklet 2mg orodispersible tablets (Janssen-Cilag Ltd) (product)
+4054011000001109	Risperidone 1mg orodispersible tablets (product)
+4054111000001105	Risperidone 2mg orodispersible tablets (product)
+410411000001103	Tranquilyn 20mg tablets (Link Pharmaceuticals Ltd) (product)
+4111000001106	Seroquel 150mg tablets (AstraZeneca) (product)
+4124511000001108	Zoleptil 100 tablets (Orion Pharma (UK) Ltd) (product)
+4129911000001100	Clopixol Acuphase 50mg/1ml solution for injection ampoules (Lundbeck Ltd) (product)
+4130411000001101	Clopixol Acuphase 100mg/2ml solution for injection ampoules (Lundbeck Ltd) (product)
+416411000001101	Dolmatil 400mg tablets (Sanofi-Synthelabo Ltd) (product)
+4166711000001102	Risperdal Consta 37.5mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd) (product)
+4167011000001101	Risperdal Consta 50mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd) (product)
+4176911000001105	Risperidone 37.5mg powder and solvent for suspension for injection vials (product)
+4177011000001109	Risperidone 50mg powder and solvent for suspension for injection vials (product)
+4182911000001102	Nozinan 25mg/1ml solution for injection ampoules (Link Pharmaceuticals Ltd) (product)
+429611000001104	Risperdal 4mg tablets (Janssen-Cilag Ltd) (product)
+432111000001100	Largactil 100mg tablets (Hawgreen Ltd) (product)
+437611000001106	Zyprexa 15mg Velotabs (Eli Lilly & Co Ltd) (product)
+44411000001109	Dolmatil 200mg tablets (Sanofi-Synthelabo Ltd) (product)
+4520711000001102	Risperdal Consta 25mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd) (product)
+4544911000001108	Orap 2mg tablets (Janssen-Cilag Ltd) (product)
+4547611000001108	Integrin 10mg capsules (Sterling-Winthrop) (product)
+4559111000001109	Risperidone 25mg powder and solvent for suspension for injection vials (product)
+45811000001107	Stelazine 5mg tablets (Goldshield Healthcare Ltd) (product)
+463911000001104	Dozic 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) (product)
+467011000001109	Zyprexa 5mg tablets (Eli Lilly & Co Ltd) (product)
+4729611000001104	Serdolect 4mg tablets (Imported (Denmark)) (product)
+4731711000001106	Serdolect 12mg tablets (Imported (Denmark)) (product)
+4732011000001101	Serdolect 16mg tablets (Imported (Denmark)) (product)
+4732311000001103	Serdolect 20mg tablets (Imported (Denmark)) (product)
+4748211000001109	Sertindole 12mg tablets (product)
+4748311000001101	Sertindole 16mg tablets (product)
+4748411000001108	Sertindole 20mg tablets (product)
+4748511000001107	Sertindole 4mg tablets (product)
+476411000001108	Seroquel 200mg tablets (Luye Pharma Ltd) (product)
+47911000001107	Stemetil 25mg suppositories (Castlemead Healthcare Ltd) (product)
+479411000001101	Triptafen-M tablets (Goldshield Healthcare Ltd) (product)
+486611000001101	Zyprexa 10mg tablets (Eli Lilly & Co Ltd) (product)
+491811000001108	Motipress tablets (Sanofi-Synthelabo Ltd) (product)
+4989111000001106	Seroquel 300mg tablets (Luye Pharma Ltd) (product)
+502611000001107	Serenace 2mg/ml liquid (IVAX Pharmaceuticals UK Ltd) (product)
+507511000001106	Fluanxol 500microgram tablets (Lundbeck Ltd) (product)
+511000001103	Largactil 25mg tablets (Hawgreen Ltd) (product)
+511111000001106	Zyprexa 15mg tablets (Eli Lilly & Co Ltd) (product)
+514611000001101	Triptafen tablets (Goldshield Healthcare Ltd) (product)
+518911000001100	Risperdal 3mg tablets (Janssen-Cilag Ltd) (product)
+522711000001106	Serenace 500microgram capsules (IVAX Pharmaceuticals UK Ltd) (product)
+526611000001101	Risperdal 500microgram tablets (Janssen-Cilag Ltd) (product)
+555111000001102	Melleril 100mg/5ml suspension (Novartis Pharmaceuticals UK Ltd) (product)
+556111000001108	Modecate 25mg/1ml solution for injection ampoules (Sanofi-Synthelabo Ltd) (product)
+565211000001101	Modecate Concentrate 100mg/1ml solution for injection ampoules (Sanofi-Synthelabo Ltd) (product)
+5694111000001100	Zyprexa 10mg powder for solution for injection vials (Parapharm Development Ltd) (product)
+5818311000001104	Olanzapine 10mg powder for solution for injection vials (product)
+58711000001108	Melleril 25mg/5ml suspension (Novartis Pharmaceuticals UK Ltd) (product)
+589911000001105	Risperdal 1mg tablets (Janssen-Cilag Ltd) (product)
+593211000001102	Stemetil 5mg sachets (Castlemead Healthcare Ltd) (product)
+596211000001109	Seroquel 25mg tablets (Luye Pharma Ltd) (product)
+618211000001102	Clopixol 25mg tablets (Lundbeck Ltd) (product)
+620411000001105	Stemetil 5mg suppositories (Castlemead Healthcare Ltd) (product)
+636711000001103	Stelazine 1mg/5ml syrup (Goldshield Healthcare Ltd) (product)
+66211000001107	Modecate 25mg/1ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd) (product)
+701911000001108	Nozinan 25mg tablets (Link Pharmaceuticals Ltd) (product)
+710411000001106	Stelazine 15mg Spansules (Goldshield Healthcare Ltd) (product)
+711411000001102	Melleril 10mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+714111000001105	Stelazine 2mg Spansules (Goldshield Healthcare Ltd) (product)
+746611000001104	Neulactil 2.5mg tablets (JHC Healthcare Ltd) (product)
+7637111000001104	Abilify 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+7637411000001109	Abilify 15mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+7637811000001106	Abilify 30mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+766011000001103	Stemetil 12.5mg/1ml solution for injection ampoules (Castlemead Healthcare Ltd) (product)
+7740511000001103	Stelazine Forte 1mg/ml oral solution (Goldshield Healthcare Ltd) (product)
+77611000001100	Tranquilyn 5mg tablets (Link Pharmaceuticals Ltd) (product)
+776911000001109	Zyprexa 7.5mg tablets (Eli Lilly & Co Ltd) (product)
+788511000001105	Melleril 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) (product)
+790311000001100	Modecate 12.5mg/0.5ml solution for injection ampoules (Sanofi-Synthelabo Ltd) (product)
+7972911000001104	Denzapine 25mg tablets (Denfleet Pharma Ltd) (product)
+7974011000001109	Denzapine 100mg tablets (Denfleet Pharma Ltd) (product)
+827511000001102	Clopixol 10mg tablets (Lundbeck Ltd) (product)
+8359411000001103	Chlorpromazine 100mg/5ml oral solution (product)
+837811000001102	Modecate Concentrate 50mg/0.5ml solution for injection ampoules (Sanofi-Synthelabo Ltd) (product)
+843011000001101	Fluanxol 1mg tablets (Lundbeck Ltd) (product)
+858911000001109	Risperdal 2mg tablets (Janssen-Cilag Ltd) (product)
+869511000001104	Largactil 50mg/2ml solution for injection ampoules (Hawgreen Ltd) (product)
+8823211000001101	Piportil Depot 100mg/2ml solution for injection ampoules (JHC Healthcare Ltd) (product)
+8838911000001102	Zaponex 25mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+883911000001106	Melleril 50mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+8839511000001103	Zaponex 100mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+884511000001101	Melleril 100mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+897111000001104	Zyprexa 10mg Velotabs (Eli Lilly & Co Ltd) (product)
+899811000001103	Serenace 1.5mg tablets (IVAX Pharmaceuticals UK Ltd) (product)
+9037911000001102	Abilify 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+9044211000001100	Risperdal Quicklet 500microgram orodispersible tablets (Janssen-Cilag Ltd) (product)
+9045911000001108	Risperidone 500microgram orodispersible tablets sugar free (product)
+910611000001102	Largactil 50mg tablets (Hawgreen Ltd) (product)
+911311000001102	Largactil 10mg tablets (Hawgreen Ltd) (product)
+91711000001108	Zyprexa 5mg Velotabs (Eli Lilly & Co Ltd) (product)
+917811000001104	Neulactil Forte syrup (JHC Healthcare Ltd) (product)
+920911000001101	Buccastem 3mg tablets (Reckitt Benckiser Plc) (product)
+928411000001107	Modecate 250mg/10ml solution for injection vials (Sanofi-Synthelabo Ltd) (product)
+9483411000001104	Anquil 250microgram tablets (Neon Healthcare Ltd) (product)
+97511000001109	Stemetil 5mg tablets (Castlemead Healthcare Ltd) (product)
+9891011000001103	Zyprexa 20mg Velotabs (Eli Lilly & Co Ltd) (product)

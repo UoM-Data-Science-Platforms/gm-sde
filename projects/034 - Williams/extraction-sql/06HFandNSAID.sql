@@ -346,6 +346,7 @@ LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
+
 -- Create a table of all patients ======================================================================================================================
 -- All IDs of patients
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
@@ -361,10 +362,13 @@ CREATE TABLE #Dates (
   PRIMARY KEY (d)
 )
 
-WHILE ( @StartDate < @EndDate )
+DECLARE @DateCounter DATE
+SET @DateCounter = @StartDate
+
+WHILE ( @DateCounter < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @StartDate )
-  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
+  INSERT INTO #Dates (d) VALUES( @DateCounter )
+  SELECT @DateCounter = DATEADD(MONTH, 1, @DateCounter )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;

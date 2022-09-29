@@ -40,5 +40,7 @@ daB8.	Zispin SolTab 45mg oro-dispersible tablet
 daB6.	Zispin SolTab 15mg oro-dispersible tablet
 daB4.	Zispin SolTab 30mg oro-dispersible tablet
 daB2.	Zispin 30mg tablet
+d7a4.	Ludiomil 75mg tablets x28CP
+d7a4.	Ludiomil 75mg tablets x28CP
 
 
