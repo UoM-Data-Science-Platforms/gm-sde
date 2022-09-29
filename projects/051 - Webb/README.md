@@ -37,22 +37,21 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- undefined
-- undefined
+- Create counting tables for each medications based on GPMedications table - RQ051
+- Create counting tables for each conditions based on GPEvents table - RQ051
 - Year of birth
 - Index Multiple Deprivation
 - Sex
 
 Further details for each query can be found below.
 
-### undefined
+### Create counting tables for each medications based on GPMedications table - RQ051
 To build the counting tables for each mental medications for RQ051. This reduces duplication of code in the template scripts.
 
 _Input_
 ```
 Assumes there exists one temp table as follows:
  #GPMedications (FK_Patient_Link_ID, MedicationDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID)
- Need to fill the 'medication' and 'version' and 'conditionname'
 ```
 
 _Output_
@@ -65,14 +64,13 @@ _File_: `query-build-rq051-gp-medications.sql`
 _Link_: [https://github.com/rw251/.../query-build-rq051-gp-medications.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq051-gp-medications.sql)
 
 ---
-### undefined
+### Create counting tables for each conditions based on GPEvents table - RQ051
 To build the counting tables for each mental conditions for RQ051. This reduces duplication of code in the template scripts.
 
 _Input_
 ```
 Assumes there exists one temp table as follows:
  #GPEvents (FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID)
- Need to fill the '{param:condition}' and '{param:version}'
 ```
 
 _Output_
@@ -192,7 +190,7 @@ This project required the following clinical code sets:
 - benzodiazepines v2
 - nonbenzodiazepine-benzodiazepine-receptor-agonist v1
 - other-anxiolytics-and-hypnotics v1
-- antipsychotics v1
+- antipsychotics v2
 - anticonvulsants v1
 - lithium v1
 - off-label-mood-stabilisers v1
@@ -312,13 +310,13 @@ LINK: [https://github.com/rw251/.../patient/selfharm-episodes/1](https://github.
 This code set was created from getset.ga.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `... - ...%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.70 - 0.78%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-|            | EMIS            |            |              (%) |               (%) |
-|            | TPP             |            |              (%) |               (%) |
-|            | Vision          |            |              (%) |               (%) |
+| 2022-09-27 | EMIS            |    2449912 |    17633 (0.71%) |     17132 (0.70%) |
+| 2022-09-27 | TPP             |     198140 |     1474 (0.74%) |       1555(0.78%) |
+| 2022-09-27 | Vision          |     325784 |     2966 (0.91%) |       2457(0.75%) |
 LINK: [https://github.com/rw251/.../conditions/attention-deficit-hyperactivity-disorder/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/attention-deficit-hyperactivity-disorder/1)
 
 ### Autism spectrum disorder
@@ -326,13 +324,13 @@ LINK: [https://github.com/rw251/.../conditions/attention-deficit-hyperactivity-d
 This code set was created from getset.ga.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `... - ...%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.80 - 0.89%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-|            | EMIS            |            |              (%) |               (%) |
-|            | TPP             |            |              (%) |               (%) |
-|            | Vision          |            |              (%) |               (%) |
+| 2022-09-27 | EMIS            |    2449912 |    21708 (0.88%) |     21831 (0.89%) |
+| 2022-09-27 | TPP             |     198140 |     1575 (0.79%) |      1727 (0.87%) |
+| 2022-09-27 | Vision          |     325784 |     2769 (0.84%) |      2614 (0.80%) |
 LINK: [https://github.com/rw251/.../conditions/autism-spectrum-disorder/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/autism-spectrum-disorder/1)
 
 ### Monoamine Axidase Inhibitors (MAOI) 
@@ -482,7 +480,7 @@ This code set was created from getset.ga, using the following list from the PI o
 
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `... - ...%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.1 - 17.8%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -503,7 +501,7 @@ This code set was created from getset.ga, using the following list from the PI o
 
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `... - ...%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.4 - 8.3%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -647,23 +645,84 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-09-08 | Vision          |     325732 |     22886 (7.0%) |      22896 (7.0%) |
 LINK: [https://github.com/rw251/.../medications/other-anxiolytics-and-hypnotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/other-anxiolytics-and-hypnotics/1)
 
-### Antipychotics
+### Antipsychotics 
 
-Code set for prescriptions of antipsychotic medication.
+This code set was created from getset.ga, using the following list from the PI of RQ051:
+-- Amisulpride
+-- Amitriptyline hydrochloride/Perphenazine
+-- Aripiprazole
+-- Asenapine maleate
+-- Benperidol
+-- Cariprazine hydrochloride
+-- Chlorpromazine
+-- Chlorpromazine embonate
+-- Chlorpromazine hydrochloride
+-- Chlorprothixene
+-- Clozapine
+-- Droperidol
+-- Flupentixol
+-- Flupentixol decanoate
+-- Flupentixol dihydrochloride
+-- Fluphenazine
+-- Fluphenazine decanoate
+-- Fluphenazine Enantate
+-- Fluphenazine hydrochloride
+-- Fluphenazine hydrochloride/Nortriptyline hydrochloride
+-- Fluspirilene
+-- Haloperidol
+-- Haloperidol decanoate
+-- Isopropamide Iodide/Trifluoperazine Hydrochloride
+-- Levomepromazine hydrochloride
+-- Levomepromazine maleate
+-- Loxapine
+-- Loxapine succinate
+-- Lurasidone hydrochloride
+-- Melperone hydrochloride
+-- Nortriptyline hydrochloride/Fluphenazine hydrochloride
+-- Olanzapine
+-- Olanzapine embonate monohydrate
+-- Oxypertine
+-- Paliperidone
+-- Paliperidone palmitate
+-- Pericyazine
+-- Perphenazine
+-- Pimozide
+-- Pipotiazine palmitate
+-- Prochlorperazine
+-- Prochlorperazine maleate
+-- Prochlorperazine mesilate
+-- Promazine
+-- Promazine hydrochloride
+-- Quetiapine
+-- Quetiapine fumarate
+-- Remoxipride Hydrochloride Monohydrate
+-- Risperidone
+-- Sertindole
+-- Sulpiride
+-- Thioridazine
+-- Thioridazine hydrochloride
+-- Trifluoperazine
+-- Trifluoperazine hydrochloride
+-- Trifluoperazine Hydrochloride/Tranylcypromine Sulphate
+-- Trifluperidol
+-- Ziprasidone hydrochloride
+-- Zotepine
+-- Zuclopenthixol
+-- Zuclopenthixol acetate
+-- Zuclopenthixol decanoate
+-- Zuclopenthixol dihydrochloride
 
-Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/
+
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.9 - 15.7%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
-| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
-| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
-
-LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
+| 2022-09-14 | EMIS            |    2448321 |   316670 (12.9%) |    316920 (12.9%) |
+| 2022-09-14 | TPP             |     198113 |    31106 (15.7%) |     31971 (16.1%) |
+| 2022-09-14 | Vision          |     325847 |    45079 (13.8%) |     45098 (13.8%) |
+LINK: [https://github.com/rw251/.../medications/antipsychotics/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/2)
 
 ### Antoconvusants
 
@@ -709,7 +768,7 @@ This code set was created from getset.ga, using the following list from the PI o
 
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `... - ...%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.9 - 6.7%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |

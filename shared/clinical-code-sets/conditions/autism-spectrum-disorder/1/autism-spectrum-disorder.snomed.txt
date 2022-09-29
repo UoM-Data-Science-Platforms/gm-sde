@@ -18,3 +18,4 @@
 1085681000000106	Referral to autism assessment service (procedure)
 912551000000100	Under care of autism assessment service
 912581000000106	Referred by autism assessment service
+408858002	Infantile psychosis (disorder)

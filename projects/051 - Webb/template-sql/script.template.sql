@@ -116,7 +116,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 --> EXECUTE query-build-rq051-gp-medications.sql medication:benzodiazepines version:2 medicationname:Benzodiazepines
 --> EXECUTE query-build-rq051-gp-medications.sql medication:nonbenzodiazepine-benzodiazepine-receptor-agonist version:1 medicationname:NBBRA
 --> EXECUTE query-build-rq051-gp-medications.sql medication:other-anxiolytics-and-hypnotics version:1 medicationname:OtherAnxiolyticsHypnotics
---> EXECUTE query-build-rq051-gp-medications.sql medication:antipsychotics version:1 medicationname:Antipsychotics
+--> EXECUTE query-build-rq051-gp-medications.sql medication:antipsychotics version:2 medicationname:Antipsychotics
 --> EXECUTE query-build-rq051-gp-medications.sql medication:anticonvulsants version:1 medicationname:Anticonvulsants
 --> EXECUTE query-build-rq051-gp-medications.sql medication:lithium version:1 medicationname:Lithium
 --> EXECUTE query-build-rq051-gp-medications.sql medication:off-label-mood-stabilisers version:1 medicationname:OffLabelMoodStabilisers
@@ -156,8 +156,8 @@ WHERE (
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'nonbenzodiazepine-benzodiazepine-receptor-agonist' AND Version = 1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'other-anxiolytics-and-hypnotics' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'other-anxiolytics-and-hypnotics' AND Version = 1) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'antipsychotics' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'antipsychotics' AND Version = 1) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'antipsychotics' AND Version = 2) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'antipsychotics' AND Version = 2) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'Anticonvulsants' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'anticonvulsants' AND Version = 1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'lithium' AND Version = 1) OR
@@ -238,7 +238,7 @@ CREATE TABLE #Dates (
   PRIMARY KEY (d)
 )
 DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
+DECLARE @dEnd DATE = '2022-06-01'
 
 WHILE ( @dStart < @dEnd )
 BEGIN
@@ -270,7 +270,7 @@ INTO #Ethnic
 FROM RLS.vw_Patient_Link;
 
 
--- Create the table of ethnic================================================================================================================================
+-- Create the table of IDM================================================================================================================================
 IF OBJECT_ID('tempdb..#IMDGroup') IS NOT NULL DROP TABLE #IMDGroup;
 SELECT FK_Patient_Link_ID, IMDGroup = CASE 
 		WHEN IMD2019Decile1IsMostDeprived10IsLeastDeprived IN (1,2) THEN 1 
@@ -325,15 +325,15 @@ SELECT
   SUM(CASE WHEN fm8c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberTricyclicAntidepressants,
   SUM(CASE WHEN fm9c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberTetracyclicAntidepressants,
   SUM(CASE WHEN fm10c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAntidepressants,
-  SUM(CASE WHEN fm11c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NNumberBarbiturate,
-  SUM(CASE WHEN fm12c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberNBBRA,
-  SUM(CASE WHEN fm13c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAnxiolyticsHypnotics,
-  SUM(CASE WHEN fm14c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAntipsychotics,
-  SUM(CASE WHEN fm15c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnticonvulsants,
-  SUM(CASE WHEN fm16c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberLithium,
-  SUM(CASE WHEN fm17c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
-  SUM(CASE WHEN fm18c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
-  SUM(CASE WHEN fm19c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes
+  SUM(CASE WHEN fm11c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberBarbiturate,
+  SUM(CASE WHEN fm12c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberBenzodiazepines,
+  SUM(CASE WHEN fm13c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberNBBRA,
+  SUM(CASE WHEN fm14c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAnxiolyticsHypnotics,
+  SUM(CASE WHEN fm15c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAntipsychotics,
+  SUM(CASE WHEN fm16c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnticonvulsants,
+  SUM(CASE WHEN fm17c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberLithium,
+  SUM(CASE WHEN fm18c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOffLabelMoodStabilisers,
+  SUM(CASE WHEN fm19c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberADHDMedication
 FROM #PatientsAll p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -355,13 +355,13 @@ LEFT OUTER JOIN #FirstSchizophreniaFullLookback fsfl ON fsfl.FK_Patient_Link_ID 
 LEFT OUTER JOIN #FirstSchizophrenia2019Lookback fsfl2019 ON fsfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fsfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fsfl2019.FirstOccurrenceFrom2019Onwards) = Month
 LEFT OUTER JOIN #FirstSchizophreniaCounts fsc ON fsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fsc.EpisodeDate) = Year AND MONTH(fsc.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstSelfharmFullLookback fhfl ON fhfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhfl.FirstOccurrence) = Year AND MONTH(fhfl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstSelfharm2019Lookback fhfl2019 ON fhfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fhfl2019.FirstOccurrenceFrom2019Onwards) = Month
+LEFT OUTER JOIN #FirstSelfharm2019Lookback fhfl2019 ON fhfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fhfl2019.FirstOccurrenceFrom2019Onwards) = Month
 LEFT OUTER JOIN #FirstSelfharmCounts fhc ON fhc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhc.EpisodeDate) = Year AND MONTH(fhc.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstADHDFullLookback fa1fl ON fa1fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1fl.FirstOccurrence) = Year AND MONTH(fa1fl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstADHD2019Lookback fa1fl2019 ON fa1fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Month
+LEFT OUTER JOIN #FirstADHD2019Lookback fa1fl2019 ON fa1fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Month
 LEFT OUTER JOIN #FirstADHDCounts fa1c ON fa1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1c.EpisodeDate) = Year AND MONTH(fa1c.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstASDFullLookback fa2fl ON fa2fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2fl.FirstOccurrence) = Year AND MONTH(fa2fl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstASD2019Lookback fa2fl2019 ON fa2fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Month
+LEFT OUTER JOIN #FirstASD2019Lookback fa2fl2019 ON fa2fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Month
 LEFT OUTER JOIN #FirstASDCounts fa2c ON fa2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2c.EpisodeDate) = Year AND MONTH(fa2c.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstAllPsychotropicMedicationCounts fm1c ON fm1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm1c.EpisodeDate) = Year AND MONTH(fm1c.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstMAOICounts fm2c ON fm2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm2c.EpisodeDate) = Year AND MONTH(fm2c.EpisodeDate) = Month
@@ -383,5 +383,6 @@ LEFT OUTER JOIN #FirstLithiumCounts fm17c ON fm17c.FK_Patient_Link_ID = p.FK_Pat
 LEFT OUTER JOIN #FirstOffLabelMoodStabilisersCounts fm18c ON fm18c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm18c.EpisodeDate) = Year AND MONTH(fm18c.EpisodeDate) = Month
 LEFT OUTER JOIN #FirstADHDMedicationCounts fm19c ON fm19c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm19c.EpisodeDate) = Year AND MONTH(fm19c.EpisodeDate) = Month
 WHERE p.Year - yob.YearOfBirth <= 24 AND p.Year - yob.YearOfBirth >=1
-GROUP BY p.Year, p.Month, Sex, Ethnic, (p.Year - YearOfBirth), IMDGroup;
+GROUP BY p.Year, p.Month, Sex, Ethnic, (p.Year - YearOfBirth), IMDGroup
+ORDER BY p.Year, p.Month;
 
