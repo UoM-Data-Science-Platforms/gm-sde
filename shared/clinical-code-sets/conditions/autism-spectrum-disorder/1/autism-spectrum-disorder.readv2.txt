@@ -11,3 +11,27 @@ Eu84012	[X]Infantile autism
 1J9..00	Suspected autism
 9N6q.00	Referred by autism assessment service
 9NNl.00	Under care of autism assessment service
+Eu84.	[X]Pervasive developmental disorders
+Eu84.00	[X]Pervasive developmental disorders
+Eu84300	[X]Other childhood disintegrative disorder
+Eu84312	[X]Disintegrative psychosis
+Eu84314	[X]Symbiotic psychosis
+Eu844	[X]Overactive disorder associated with mental retardation and stereotyped movements
+Eu84400	[X]Overactive disorder associated with mental retardation and stereotyped movements
+Eu84y	[X]Other pervasive developmental disorders
+Eu84y00	[X]Other pervasive developmental disorders
+Eu84z	[X]Pervasive developmental disorder, unspecified
+Eu84z00	[X]Pervasive developmental disorder, unspecified
+Eu84z11	[X]Autistic spectrum disorder
+Eu84300	[X]Other childhood disintegrative disorder
+Eu84312	[X]Disintegrative psychosis
+Eu84314	[X]Symbiotic psychosis
+Eu84300	[X]Other childhood disintegrative disorder
+Eu84312	[X]Disintegrative psychosis
+Eu84314	[X]Symbiotic psychosis
+Eu84300	[X]Other childhood disintegrative disorder
+Eu84312	[X]Disintegrative psychosis
+Eu84314	[X]Symbiotic psychosis
+Eu84300	[X]Other childhood disintegrative disorder
+Eu84312	[X]Disintegrative psychosis
+Eu84314	[X]Symbiotic psychosis

@@ -124,19 +124,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
-<li>undefined</li>
-<li>undefined</li>
+<li>Create counting tables for each medications based on GPMedications table - RQ051</li>
+<li>Create counting tables for each conditions based on GPEvents table - RQ051</li>
 <li>Year of birth</li>
 <li>Index Multiple Deprivation</li>
 <li>Sex</li>
 </ul>
 <p>Further details for each query can be found below.</p>
-<h3>undefined</h3>
+<h3>Create counting tables for each medications based on GPMedications table - RQ051</h3>
 <p>To build the counting tables for each mental medications for RQ051. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
 <pre><code>Assumes there exists one temp table as follows:
  #GPMedications (FK_Patient_Link_ID, MedicationDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID)
- Need to fill the 'medication' and 'version' and 'conditionname'
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Temp tables as follows:
@@ -145,12 +144,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-build-rq051-gp-medications.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq051-gp-medications.sql">https://github.com/rw251/.../query-build-rq051-gp-medications.sql</a></p>
 <hr>
-<h3>undefined</h3>
+<h3>Create counting tables for each conditions based on GPEvents table - RQ051</h3>
 <p>To build the counting tables for each mental conditions for RQ051. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
 <pre><code>Assumes there exists one temp table as follows:
  #GPEvents (FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID)
- Need to fill the '{param:condition}' and '{param:version}'
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Temp tables as follows:
@@ -248,7 +246,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>benzodiazepines v2</li>
 <li>nonbenzodiazepine-benzodiazepine-receptor-agonist v1</li>
 <li>other-anxiolytics-and-hypnotics v1</li>
-<li>antipsychotics v1</li>
+<li>antipsychotics v2</li>
 <li>anticonvulsants v1</li>
 <li>lithium v1</li>
 <li>off-label-mood-stabilisers v1</li>
@@ -515,7 +513,7 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <h3>Attention deficit hyperactivity disorder</h3>
 <p>This code set was created from getset.ga.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>... - ...%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.70 - 0.78%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -528,25 +526,25 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>EMIS</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>2449912</td>
+<td style="text-align:right">17633 (0.71%)</td>
+<td style="text-align:right">17132 (0.70%)</td>
 </tr>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>TPP</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>198140</td>
+<td style="text-align:right">1474 (0.74%)</td>
+<td style="text-align:right">1555(0.78%)</td>
 </tr>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>Vision</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>325784</td>
+<td style="text-align:right">2966 (0.91%)</td>
+<td style="text-align:right">2457(0.75%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/attention-deficit-hyperactivity-disorder/1">https://github.com/rw251/.../conditions/attention-deficit-hyperactivity-disorder/1</a></td>
@@ -560,7 +558,7 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <h3>Autism spectrum disorder</h3>
 <p>This code set was created from getset.ga.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>... - ...%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.80 - 0.89%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -573,25 +571,25 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>EMIS</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>2449912</td>
+<td style="text-align:right">21708 (0.88%)</td>
+<td style="text-align:right">21831 (0.89%)</td>
 </tr>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>TPP</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>198140</td>
+<td style="text-align:right">1575 (0.79%)</td>
+<td style="text-align:right">1727 (0.87%)</td>
 </tr>
 <tr>
-<td></td>
+<td>2022-09-27</td>
 <td>Vision</td>
-<td></td>
-<td style="text-align:right">(%)</td>
-<td style="text-align:right">(%)</td>
+<td>325784</td>
+<td style="text-align:right">2769 (0.84%)</td>
+<td style="text-align:right">2614 (0.80%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/autism-spectrum-disorder/1">https://github.com/rw251/.../conditions/autism-spectrum-disorder/1</a></td>
@@ -926,7 +924,7 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 -- Trimipramine
 -- Trimipramine maleate</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>... - ...%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>14.1 - 17.8%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -977,7 +975,7 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 -- Mianserin hydrochloride
 -- Mirtazapine</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>... - ...%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.4 - 8.3%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1304,12 +1302,73 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 </tr>
 </tbody>
 </table>
-<h3>Antipychotics</h3>
-<p>Code set for prescriptions of antipsychotic medication.</p>
-<p>Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/</p>
+<h3>Antipsychotics</h3>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
+-- Amisulpride
+-- Amitriptyline hydrochloride/Perphenazine
+-- Aripiprazole
+-- Asenapine maleate
+-- Benperidol
+-- Cariprazine hydrochloride
+-- Chlorpromazine
+-- Chlorpromazine embonate
+-- Chlorpromazine hydrochloride
+-- Chlorprothixene
+-- Clozapine
+-- Droperidol
+-- Flupentixol
+-- Flupentixol decanoate
+-- Flupentixol dihydrochloride
+-- Fluphenazine
+-- Fluphenazine decanoate
+-- Fluphenazine Enantate
+-- Fluphenazine hydrochloride
+-- Fluphenazine hydrochloride/Nortriptyline hydrochloride
+-- Fluspirilene
+-- Haloperidol
+-- Haloperidol decanoate
+-- Isopropamide Iodide/Trifluoperazine Hydrochloride
+-- Levomepromazine hydrochloride
+-- Levomepromazine maleate
+-- Loxapine
+-- Loxapine succinate
+-- Lurasidone hydrochloride
+-- Melperone hydrochloride
+-- Nortriptyline hydrochloride/Fluphenazine hydrochloride
+-- Olanzapine
+-- Olanzapine embonate monohydrate
+-- Oxypertine
+-- Paliperidone
+-- Paliperidone palmitate
+-- Pericyazine
+-- Perphenazine
+-- Pimozide
+-- Pipotiazine palmitate
+-- Prochlorperazine
+-- Prochlorperazine maleate
+-- Prochlorperazine mesilate
+-- Promazine
+-- Promazine hydrochloride
+-- Quetiapine
+-- Quetiapine fumarate
+-- Remoxipride Hydrochloride Monohydrate
+-- Risperidone
+-- Sertindole
+-- Sulpiride
+-- Thioridazine
+-- Thioridazine hydrochloride
+-- Trifluoperazine
+-- Trifluoperazine hydrochloride
+-- Trifluoperazine Hydrochloride/Tranylcypromine Sulphate
+-- Trifluperidol
+-- Ziprasidone hydrochloride
+-- Zotepine
+-- Zuclopenthixol
+-- Zuclopenthixol acetate
+-- Zuclopenthixol decanoate
+-- Zuclopenthixol dihydrochloride</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>12.9 - 15.7%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1322,29 +1381,35 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 </thead>
 <tbody>
 <tr>
-<td>2021-07-20</td>
+<td>2022-09-14</td>
 <td>EMIS</td>
-<td>2616446</td>
-<td style="text-align:right">81113 (3.10%)</td>
-<td style="text-align:right">81141 (3.10%)</td>
+<td>2448321</td>
+<td style="text-align:right">316670 (12.9%)</td>
+<td style="text-align:right">316920 (12.9%)</td>
 </tr>
 <tr>
-<td>2021-07-20</td>
+<td>2022-09-14</td>
 <td>TPP</td>
-<td>211414</td>
-<td style="text-align:right">6642 (3.14%)</td>
-<td style="text-align:right">7995 (3.78%)</td>
+<td>198113</td>
+<td style="text-align:right">31106 (15.7%)</td>
+<td style="text-align:right">31971 (16.1%)</td>
 </tr>
 <tr>
-<td>2021-07-20</td>
+<td>2022-09-14</td>
 <td>Vision</td>
-<td>336776</td>
-<td style="text-align:right">10600 (3.15%)</td>
-<td style="text-align:right">10600 (3.15%)</td>
+<td>325847</td>
+<td style="text-align:right">45079 (13.8%)</td>
+<td style="text-align:right">45098 (13.8%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/2">https://github.com/rw251/.../medications/antipsychotics/2</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1">https://github.com/rw251/.../medications/antipsychotics/1</a></p>
 <h3>Antoconvusants</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
 Carbamazepine
@@ -1433,7 +1498,7 @@ Valproic acid</p>
 -- Oxcarbazepine
 -- Topiramate</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>... - ...%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.9 - 6.7%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>

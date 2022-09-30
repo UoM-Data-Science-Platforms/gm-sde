@@ -1,4 +1,4 @@
---┌─────────────────────────────────────────────────┐
+﻿--┌─────────────────────────────────────────────────┐
 --│ Finds missing codes using the existing mappings │
 --└─────────────────────────────────────────────────┘
 
@@ -23,7 +23,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET insert-concepts-here:version-number
+--> CODESET autism-spectrum-disorder:1
 
 --TODO doing stuff with CTV3 and Term codes - perhaps need to allow the CTV3 codes in 
 --the code sets to have 10 characters - 5 is the equivalent of the root readv2 code

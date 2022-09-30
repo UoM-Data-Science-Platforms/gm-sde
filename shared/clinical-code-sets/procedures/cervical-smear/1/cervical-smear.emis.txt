@@ -1,0 +1,95 @@
+^ESCT1192357	Cerv.smear - viral infl.unsp.
+^ESCT1205542	Papanicolaou smear taken
+^ESCT1205543	Cervical smear biopsy taken
+^ESCT1212168	Cervical cancer screening offered
+^ESCT1212174	Cervical cancer screening not offered
+^ESCT1248341	Cervical smear - severe dyskaryosis ? invasive carcinoma
+^ESCT1248344	Cervical smear - ? glandular neoplasia
+^ESCT1248468	Cx. smear: colposcopy needed
+^ESCT1248469	Cx. smear: repeat 1 month
+^ESCT1248470	Cx. smear: repeat 12 months
+^ESCT1248471	Cx. smear: repeat 3 months
+^ESCT1248472	Cx. smear: repeat 4 months
+^ESCT1248473	Cx. smear: repeat 6 months
+^ESCT1248474	Cx. smear: repeat 9 months
+^ESCT1261902	Cervical smear screening done by other healthcare provider
+^ESCT1262509	Excepted from cervical screening quality indicators - no response to three invitations
+^ESCT1262621	Exception reporting - cervical screening quality indicators
+^ESCT1272250	Place cervical smear taken
+^ESCT1273728	Cervical HPV (human papillomavirus) screening test technical failure
+^ESCTAB598463	Abnormal cervical smear
+^ESCTAB725335	Abnormal cervical Papanicolaou smear with positive human papillomavirus deoxyribonucleic acid test
+^ESCTAB725336	Abnormal cervical Papanicolaou smear with positive human papillomavirus deoxyribonucleic acid (DNA) test
+^ESCTAT724556	Atypical squamous cells of undetermined significance on cervical Papanicolaou smear
+^ESCTAT724557	Atypical squamous cells on cervical Papanicolaou smear cannot exclude high grade squamous intraepithelial lesion
+^ESCTAT724569	Atypical endocervical cells on cervical Papanicolaou smear
+^ESCTAT724728	Atypical glandular cells on cervical Papanicolaou smear
+^ESCTCA461353	Cannot exclude glandular neoplasia on cervical smear
+^ESCTCE396671	Cervical smear test
+^ESCTCE461369	Cervical smear: repeat 1 month
+^ESCTCE461371	Cervical smear: repeat 3 months
+^ESCTCE461373	Cervical smear: repeat 4 months
+^ESCTCE461375	Cervical smear: repeat 6 months
+^ESCTCE461377	Cervical smear: repeat 9 months
+^ESCTCE461379	Cervical smear: repeat 12 months
+^ESCTCE461381	Cervical smear: colposcopy needed
+^ESCTCE461383	Cervical smear - cervical biopsy needed
+^ESCTCE461384	Cervical smear: uterine curettage needed
+^ESCTCE551561	Cervical smear - viral inflammation unspecified
+^ESCTCE558543	Cervical smear sample
+^ESCTCE722764	Cervical Papanicolaou smear positive for malignant neoplasm
+^ESCTCE797918	Cervical cancer screening not done
+^ESCTCE800584	Cervical cytology claim
+^ESCTCE800586	Cervical smear fee claim
+^ESCTCE803550	Cervical cancer Papanicolaou smear screening declined
+^ESCTCE825790	Cervical smear due date
+^ESCTCE825962	Cervical smear test indicated but not done
+^ESCTCY396669	Cytopathology procedure, preparation of smear, genital source
+^ESCTCY803108	Cytological evidence of malignancy on cervical Papanicolaou smear
+^ESCTDY721821	Dysplasia on cervical smear
+^ESCTFP799104	FP74 cervical cytology claim form
+^ESCTHI723006	History of abnormal cervical Papanicolaou smear
+^ESCTHI801980	High grade squamous intraepithelial lesion on cervical Papanicolaou smear
+^ESCTHI802482	History of negative cervical Papanicolaou smear performed within last 12 months
+^ESCTHI932218	History of total hysterectomy without abnormal cervical Papanicolaou smear
+^ESCTLO801979	Low grade squamous intraepithelial lesion on cervical Papanicolaou smear
+^ESCTNE600292	Neoplasm screening excluding cervical
+^ESCTNO331153	No endocervical cells present
+^ESCTPA396670	PAP smear preparation
+^ESCTPR827955	Provision of written information about cervical smear test
+^ESCTSA803266	Sampling of vagina for Papanicolaou smear after hysterectomy for dysplasia of cervix done
+^ESCTSC600291	Screening for malignant neoplasm excluding cervical
+^ESCTSC797919	Screening for malignant neoplasm of cervix not done
+^ESCTSE461351	Severe dyskaryosis on cervical smear cannot exclude invasive carcinoma
+^ESCTSM564742	Smear: no abnormality detected - no endocervical cells
+^ESCTSP331154	Specimen negative for endocervical component in premenopausal woman with cervix
+^ESCTVA803267	Vaginal Papanicolaou smear after hysterectomy with history of cervical dysplasia done
+^ESCTVI557686	Viral changes on cervical smear
+EGTON441	Abnormal smear result
+EGTONCE1	Cervical smear specific infection
+EMISHGT60	Cx. smear: repeat 3 years
+EMISHGT61	Cx. smear: repeat 5 years
+EMISNQCE17	Cervical smear repeat at 48 months
+EMISNQCE18	Cervical smear rejected by lab.: taken before recall period
+EMISNQCE31	Cervical smear report received
+EMISNQCX1	Cx. smear: repeat 2 years
+EMISNQHI29	High risk human papillomavirus (HPV) DNA test not done
+EMISNQHI30	High risk human papillomavirus (HPV) detected
+EMISNQHU16	Human papillomavirus self-sample test - inadequate specimen
+EMISNQHU19	Human papillomavirus self-sample test positive
+EMISNQHU20	Human papillomavirus self-sample test negative
+EMISNQIN119	Informed consent for cervical smear given
+EMISNQIN121	Inadequate cervical smear taken outside the practice
+EMISNQNU7	Number of years annual cervical smears recommended
+EMISNQRE460	Return to cervical smear recall - FHSA informed
+EMISNQSM13	Smear taker ID number
+EMISSCE1	Cervical smear adequacy
+EMISSCE2	Cervical smear adequate
+ESCTMI1	Microscopic examination of cervical Papanicolaou smear
+^ESCTCA550598	Cancer cervix - screening done
+^ESCTCI532420	CIN III - Cervical intraepithelial neoplasia grade III with severe dysplasia
+^ESCTCI570708	CIN I - Cervical intraepithelial neoplasia 1
+^ESCTCI570715	CIN 2 - Cervical intraepithelial neoplasia 2
+^ESCTMI570710	Mild dysplasia of cervix
+^ESCTMO570716	Moderate dysplasia of cervix
+^ESCTSA723008	Sampling of cervix for Papanicolaou smear

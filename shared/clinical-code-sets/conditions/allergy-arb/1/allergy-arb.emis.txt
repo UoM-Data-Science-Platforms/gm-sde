@@ -1,0 +1,3 @@
+^ESCT1384335	Non-allergic hypersensitivity to angiotensin II receptor antagonist
+^ESCT1384336	Nonallergic hypersensitivity to angiotensin II receptor antagonist
+^ESCTPS750000	Pseudoallergy to angiotensin II receptor antagonist
