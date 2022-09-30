@@ -110,8 +110,7 @@ CREATE TABLE #codesemis (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codesemis
-VALUES
+
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;

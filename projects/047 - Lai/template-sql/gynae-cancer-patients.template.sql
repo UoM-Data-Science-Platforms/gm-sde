@@ -80,7 +80,7 @@ SELECT
   BMI AS LatestBMI,
   max(DateOfBMIMeasurement) AS LatestDate
 INTO #PatientLatestBMI
-FROM PatientBMI
+FROM #PatientBMI
 
 
 -- Create tables for contraceptive methods==================================================================================================================== 
@@ -137,7 +137,7 @@ WHERE (
 -- Collate all patient diagnosis details to final output table. 
 -- Grain: 1 row per diagnosis date per patient. 
 SELECT 
-  FK_Patient_Link_ID AS PatientId,
+  p.FK_Patient_Link_ID AS PatientId,
   DiagnosisDate,
   Benign,
   TStatus,
