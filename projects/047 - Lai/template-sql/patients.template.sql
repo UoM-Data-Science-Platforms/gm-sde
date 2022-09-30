@@ -18,8 +18,6 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2018-01-01';
 
--- TODO: Create clinical codeset for skin cancer diagnosis. 
---> CODESET cancer:3 
 
 -- Get patients with a diagnosis for skin cancer from Jan 2018.
 IF OBJECT_ID('tempdb..#SkinCancerPatients') IS NOT NULL DROP TABLE #SkinCancerPatients;
@@ -39,8 +37,6 @@ WHERE (
 AND DiagnosisDate >= @StartDate
 GROUP BY FK_Patient_Link_ID;
 
--- TODO: Create clinical codeset for gynae cancer diagnosis. 
---> CODESET cancer:4 
 
 -- Get patients with a diagnosis for gynae cancer from Jan 2018.
 IF OBJECT_ID('tempdb..#GynaeCancerPatients') IS NOT NULL DROP TABLE #GynaeCancerPatients;

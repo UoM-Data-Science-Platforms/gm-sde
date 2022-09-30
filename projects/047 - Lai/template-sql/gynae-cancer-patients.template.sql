@@ -29,8 +29,10 @@ SET NOCOUNT ON;
 -- Set the start date
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
+DECLARE @IndexDate datetime;
 SET @StartDate = '2018-01-01';
 SET @EndDate = '2022-06-01';
+SET @IndexDate = '2022-06-01';
 
 
 -- Create a table with all patients (ID)=========================================================================================================================
@@ -47,7 +49,7 @@ FROM #PatientsToInclude;
 
 
 --> CODESET contraceptives-combined-hormonal:1 contraceptives-progesterone-only:1 contraceptives-devices:1
---> CODESET cervical-smear:1 diabetes: 1
+--> CODESET cervical-smear:1 diabetes:1
 --> EXECUTE query-patient-bmi.sql gp-events-table:RLS.vw_GP_Events
 
 

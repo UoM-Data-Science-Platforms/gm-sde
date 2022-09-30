@@ -146,7 +146,7 @@ INTO #PatientLinkTable
 FROM RLS.vw_Patient_Link;
 
 
--- Create the table of ethnic================================================================================================================================
+-- Create the table of IDM================================================================================================================================
 IF OBJECT_ID('tempdb..#IMDGroup') IS NOT NULL DROP TABLE #IMDGroup;
 SELECT FK_Patient_Link_ID, IMDGroup = CASE 
 		WHEN IMD2019Decile1IsMostDeprived10IsLeastDeprived IN (1,2) THEN 1 
@@ -160,7 +160,7 @@ FROM #PatientIMDDecile;
 
 
 -- Create the GP visit table==============================================================================================
-SELECT c.FK_Patient_Link_ID AS PatientId, yob.YearOfBirth, s.Sex, l.Ethnicity,
+SELECT c.FK_Patient_Link_ID AS PatientId, yob.YearOfBirth, s.Sex, l.Ethnic,
 		lsoa.LSOA_Code, imd.IMDGroup, e.EncounterDate AS DateOfGPVisit, code.EncounterType AS GPVisitType
 FROM #Cohort c
 LEFT OUTER JOIN #PatientSex s ON s.FK_Patient_Link_ID = c.FK_Patient_Link_ID

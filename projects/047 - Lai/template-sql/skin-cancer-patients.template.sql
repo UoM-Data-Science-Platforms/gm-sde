@@ -28,64 +28,52 @@ SET NOCOUNT ON;
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2018-01-01';
+SET @EndDate = '2022-06-01';
 
--- TODO: Create clinical codeset for skin cancer diagnosis. 
---> CODESET cancer:3 
 
--- Get patients with a diagnosis for skin cancer from Jan 2018.
-IF OBJECT_ID('tempdb..#SkinCancerPatients') IS NOT NULL DROP TABLE #SkinCancerPatients;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS DiagnosisDate
-INTO #SkinCancerPatients
-FROM RLS.vw_GP_Events
-WHERE (
-  FK_Reference_SnomedCT_ID IN (
-      SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('cancer') AND [Version]=3
-  ) OR
-  FK_Reference_Coding_ID IN (
-      SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('cancer') AND [Version]=3
-  )  
-) 
-AND DiagnosisDate >= @StartDate
-GROUP BY FK_Patient_Link_ID;
+-- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
--- Get a distinct list of patient IDs
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT
-  FK_Patient_Link_ID
-INTO #Patients
-FROM #SkinCancerPatients;
-
--- Get tumour details information for the patients with a skin cancer diagnosis from the cancer summary. 
-IF OBJECT_ID('tempdb..#TumourDetails') IS NOT NULL DROP TABLE #TumourDetails;
-SELECT 
-  FK_Patient_Link_ID,
-  DiagnosisDate,
-  Benign,
-  TStatus,
-  TumourGroup,
-  TumourSite,
-  Histology,
-  Differentiation,
-  T_Stage,
-  N_Stage,
-  M_Stage,
-  OverallStage
-INTO #TumourDetails
-FROM CCC_PrimaryTumourDetails 
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
-
--- TODO: Filter the data to have only skin-related tumour details, as some patients might have 
--- more than one cancer diagnosis. One way to do this might be using the FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID 
--- but can't know for sure, further investigation needed. 
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 
--- TODO: Create clinical codeset for hydrochlorothiazide. 
 --> CODESET hydrochlorothiazide:1 
+--> CODESET immunosuppression:1 
+--> EXECUTE query-patient-smoking-status.sql gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-patient-alcohol-intake.sql gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-patient-bmi.sql gp-events-table:RLS.vw_GP_Events
 
--- Find the patients with a code related to hydrochlorothiazide in their GP Medications records. 
+
+-- Create a cohort table of all gynaecology cancer patients from 2018 with tumour details===================================================================
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
+SELECT FK_Patient_Link_ID, 
+	DiagnosisDate, 
+	Benign,
+	TStatus,
+	TumourGroup,
+	TumourSite,
+	Histology,
+	Differentiation,
+	T_Stage,
+	N_Stage,
+	M_Stage,
+	OverallStage
+INTO #Cohort
+FROM [SharedCare].[CCC_PrimaryTumourDetails]
+WHERE TumourGroup = 'Skin (excl Melanoma)' AND DiagnosisDate < @EndDate AND DiagnosisDate >= @StartDate
+      AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+
+
+-- Find the patients with a code related to hydrochlorothiazide in their GP Medications records===============================================================
 IF OBJECT_ID('tempdb..#PatientMedicationsHydrochlorothiazide') IS NOT NULL DROP TABLE #PatientMedicationsHydrochlorothiazide;
 SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsHydrochlorothiazide
@@ -95,14 +83,10 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hydrochlorothiazide') AND [Version]=1))
 ) 
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate >= @StartDate; -- TODO: not sure if this restriction is needed - to check with Lana. 
-
---> EXECUTE query-patient-smoking-status.sql gp-events-table:RLS.vw_GP_Events
---> EXECUTE query-patient-alcohol-intake gp-events-table:RLS.vw_GP_Events
---> EXECUTE query-patient-bmi.sql gp-events-table:RLS.vw_GP_Events
+AND MedicationDate >= @StartDate AND MedicationDate < @EndDate;
 
 
--- Get latest BMI value for the patients in our cohort. 
+-- Get latest BMI value for the patients in our cohort=========================================================================================================
 IF OBJECT_ID('tempdb..#PatientLatestBMI') IS NOT NULL DROP TABLE #PatientLatestBMI;
 SELECT 
   FK_Patient_Link_ID,
@@ -111,7 +95,7 @@ SELECT
 INTO #PatientLatestBMI
 FROM PatientBMI
 
---> CODESET immunosuppression:1 
+
 
 -- Get a distinct list of patients with a recorded code related with immunosuppression. 
 IF OBJECT_ID('tempdb..#PatientImmunosuppression') IS NOT NULL DROP TABLE #PatientImmunosuppression;
