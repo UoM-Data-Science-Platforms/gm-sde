@@ -73,7 +73,7 @@ IF OBJECT_ID('tempdb..#PatientBMI') IS NOT NULL DROP TABLE #PatientBMI;
 SELECT 
 	p.FK_Patient_Link_ID,
 	BMI = TRY_CONVERT(NUMERIC(16,5), [Value]),
-	EventDate
+	EventDate AS DateOfBMIMeasurement
 INTO #PatientBMI 
 FROM #Patients p
 LEFT OUTER JOIN #TempCurrentBMI c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
