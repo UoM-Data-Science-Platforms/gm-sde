@@ -1994,11 +1994,11 @@ DECLARE @dEnd DATE = '2022-06-01'
 WHILE ( @dStart < @dEnd )
 BEGIN
   INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  SELECT @dStart = DATEADD(DAY, 1, @dStart )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
-SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month]
+SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month], DAY(d) AS [Date]
 INTO #Time FROM #Dates
 
 -- Merge 2 tables
@@ -2076,63 +2076,106 @@ SELECT
   SUM(CASE WHEN fm8c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberTricyclicAntidepressants,
   SUM(CASE WHEN fm9c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberTetracyclicAntidepressants,
   SUM(CASE WHEN fm10c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAntidepressants,
-  SUM(CASE WHEN fm11c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NNumberBarbiturate,
-  SUM(CASE WHEN fm12c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberNBBRA,
-  SUM(CASE WHEN fm13c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAnxiolyticsHypnotics,
-  SUM(CASE WHEN fm14c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAntipsychotics,
-  SUM(CASE WHEN fm15c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnticonvulsants,
-  SUM(CASE WHEN fm16c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberLithium,
-  SUM(CASE WHEN fm17c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
-  SUM(CASE WHEN fm18c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
-  SUM(CASE WHEN fm19c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes
+  SUM(CASE WHEN fm11c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberBarbiturate,
+  SUM(CASE WHEN fm12c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberBenzodiazepines,
+  SUM(CASE WHEN fm13c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberNBBRA,
+  SUM(CASE WHEN fm14c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOtherAnxiolyticsHypnotics,
+  SUM(CASE WHEN fm15c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAntipsychotics,
+  SUM(CASE WHEN fm16c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberAnticonvulsants,
+  SUM(CASE WHEN fm17c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberLithium,
+  SUM(CASE WHEN fm18c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberOffLabelMoodStabilisers,
+  SUM(CASE WHEN fm19c.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END) AS NumberADHDMedication
 FROM #PatientsAll p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #FirstAnxietyFullLookback fafl ON fafl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fafl.FirstOccurrence) = Year AND MONTH(fafl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstAnxiety2019Lookback fafl2019 ON fafl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fafl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fafl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstAnxietyCounts fac ON fac.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fac.EpisodeDate) = Year AND MONTH(fac.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstDepressionFullLookback fdfl ON fdfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fdfl.FirstOccurrence) = Year AND MONTH(fdfl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstDepression2019Lookback fdfl2019 ON fdfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fdfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fdfl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstDepressionCounts fdc ON fdc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fdc.EpisodeDate) = Year AND MONTH(fdc.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstEatingDisordersFullLookback fefl ON fefl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fefl.FirstOccurrence) = Year AND MONTH(fefl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstEatingDisorders2019Lookback fefl2019 ON fefl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fefl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fefl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstEatingDisordersCounts fec ON fec.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fec.EpisodeDate) = Year AND MONTH(fec.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstBipolarFullLookback fbfl ON fbfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fbfl.FirstOccurrence) = Year AND MONTH(fbfl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstBipolar2019Lookback fbfl2019 ON fbfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fbfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fbfl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstBipolarCounts fbc ON fbc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fbc.EpisodeDate) = Year AND MONTH(fbc.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSchizophreniaFullLookback fsfl ON fsfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fsfl.FirstOccurrence) = Year AND MONTH(fsfl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstSchizophrenia2019Lookback fsfl2019 ON fsfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fsfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fsfl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstSchizophreniaCounts fsc ON fsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fsc.EpisodeDate) = Year AND MONTH(fsc.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSelfharmFullLookback fhfl ON fhfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhfl.FirstOccurrence) = Year AND MONTH(fhfl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstSelfharm2019Lookback fhfl2019 ON fhfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fhfl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstSelfharmCounts fhc ON fhc.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fhc.EpisodeDate) = Year AND MONTH(fhc.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstADHDFullLookback fa1fl ON fa1fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1fl.FirstOccurrence) = Year AND MONTH(fa1fl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstADHD2019Lookback fa1fl2019 ON fa1fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstADHDCounts fa1c ON fa1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa1c.EpisodeDate) = Year AND MONTH(fa1c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstASDFullLookback fa2fl ON fa2fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2fl.FirstOccurrence) = Year AND MONTH(fa2fl.FirstOccurrence) = Month
-LEFT OUTER JOIN #FirstASD2019Lookback fa2fl2019 ON fa2fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Month
-LEFT OUTER JOIN #FirstASDCounts fa2c ON fa2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fa2c.EpisodeDate) = Year AND MONTH(fa2c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstAllPsychotropicMedicationCounts fm1c ON fm1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm1c.EpisodeDate) = Year AND MONTH(fm1c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstMAOICounts fm2c ON fm2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm2c.EpisodeDate) = Year AND MONTH(fm2c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstNRICounts fm3c ON fm3c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm3c.EpisodeDate) = Year AND MONTH(fm3c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSARICounts fm4c ON fm4c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm4c.EpisodeDate) = Year AND MONTH(fm4c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSMSCounts fm5c ON fm5c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm5c.EpisodeDate) = Year AND MONTH(fm5c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSNRICounts fm6c ON fm6c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm6c.EpisodeDate) = Year AND MONTH(fm6c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstSSRICounts fm7c ON fm7c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm7c.EpisodeDate) = Year AND MONTH(fm7c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstTCACounts fm8c ON fm8c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm8c.EpisodeDate) = Year AND MONTH(fm8c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstTECACounts fm9c ON fm9c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm9c.EpisodeDate) = Year AND MONTH(fm9c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstOtherAntidepressantsCounts fm10c ON fm10c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm10c.EpisodeDate) = Year AND MONTH(fm10c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstBarbituatesCounts fm11c ON fm11c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm11c.EpisodeDate) = Year AND MONTH(fm11c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstBenzodiazepinesCounts fm12c ON fm12c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm12c.EpisodeDate) = Year AND MONTH(fm12c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstNBBRACounts fm13c ON fm13c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm13c.EpisodeDate) = Year AND MONTH(fm13c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstOtherAnxiolyticsHypnoticsCounts fm14c ON fm14c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm14c.EpisodeDate) = Year AND MONTH(fm14c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstAntipsychoticsCounts fm15c ON fm15c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm15c.EpisodeDate) = Year AND MONTH(fm15c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstAnticonvulsantsCounts fm16c ON fm16c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm16c.EpisodeDate) = Year AND MONTH(fm16c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstLithiumCounts fm17c ON fm17c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm17c.EpisodeDate) = Year AND MONTH(fm17c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstOffLabelMoodStabilisersCounts fm18c ON fm18c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm18c.EpisodeDate) = Year AND MONTH(fm18c.EpisodeDate) = Month
-LEFT OUTER JOIN #FirstADHDMedicationCounts fm19c ON fm19c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND YEAR(fm19c.EpisodeDate) = Year AND MONTH(fm19c.EpisodeDate) = Month
+LEFT OUTER JOIN #FirstAnxietyFullLookback fafl ON fafl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fafl.FirstOccurrence) = Year AND MONTH(fafl.FirstOccurrence) = Month AND DAY(fafl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstAnxiety2019Lookback fafl2019 ON fafl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fafl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fafl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fafl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstAnxietyCounts fac ON fac.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fac.EpisodeDate) = Year AND MONTH(fac.EpisodeDate) = Month AND DAY(fac.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstDepressionFullLookback fdfl ON fdfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fdfl.FirstOccurrence) = Year AND MONTH(fdfl.FirstOccurrence) = Month AND DAY(fdfl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstDepression2019Lookback fdfl2019 ON fdfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fdfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fdfl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fdfl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstDepressionCounts fdc ON fdc.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fdc.EpisodeDate) = Year AND MONTH(fdc.EpisodeDate) = Month AND DAY(fdc.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstEatingDisordersFullLookback fefl ON fefl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fefl.FirstOccurrence) = Year AND MONTH(fefl.FirstOccurrence) = Month AND DAY(fefl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstEatingDisorders2019Lookback fefl2019 ON fefl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fefl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fefl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fefl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstEatingDisordersCounts fec ON fec.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fec.EpisodeDate) = Year AND MONTH(fec.EpisodeDate) = Month AND DAY(fec.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstBipolarFullLookback fbfl ON fbfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fbfl.FirstOccurrence) = Year AND MONTH(fbfl.FirstOccurrence) = Month AND DAY(fbfl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstBipolar2019Lookback fbfl2019 ON fbfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fbfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fbfl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fbfl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstBipolarCounts fbc ON fbc.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fbc.EpisodeDate) = Year AND MONTH(fbc.EpisodeDate) = Month AND DAY(fbc.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSchizophreniaFullLookback fsfl ON fsfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fsfl.FirstOccurrence) = Year AND MONTH(fsfl.FirstOccurrence) = Month AND DAY(fsfl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstSchizophrenia2019Lookback fsfl2019 ON fsfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fsfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fsfl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fsfl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstSchizophreniaCounts fsc ON fsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fsc.EpisodeDate) = Year AND MONTH(fsc.EpisodeDate) = Month AND DAY(fsc.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSelfharmFullLookback fhfl ON fhfl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fhfl.FirstOccurrence) = Year AND MONTH(fhfl.FirstOccurrence) = Month AND DAY(fhfl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstSelfharm2019Lookback fhfl2019 ON fhfl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fhfl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fhfl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fhfl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstSelfharmCounts fhc ON fhc.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fhc.EpisodeDate) = Year AND MONTH(fhc.EpisodeDate) = Month AND DAY(fhc.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstADHDFullLookback fa1fl ON fa1fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa1fl.FirstOccurrence) = Year AND MONTH(fa1fl.FirstOccurrence) = Month AND DAY(fa1fl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstADHD2019Lookback fa1fl2019 ON fa1fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa1fl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fa1fl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstADHDCounts fa1c ON fa1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa1c.EpisodeDate) = Year AND MONTH(fa1c.EpisodeDate) = Month AND DAY(fa1c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstASDFullLookback fa2fl ON fa2fl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa2fl.FirstOccurrence) = Year AND MONTH(fa2fl.FirstOccurrence) = Month AND DAY(fa2fl.FirstOccurrence) = p.[Date]
+LEFT OUTER JOIN #FirstASD2019Lookback fa2fl2019 ON fa2fl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Year AND MONTH(fa2fl2019.FirstOccurrenceFrom2019Onwards) = Month AND DAY(fa2fl2019.FirstOccurrenceFrom2019Onwards) = p.[Date]
+LEFT OUTER JOIN #FirstASDCounts fa2c ON fa2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fa2c.EpisodeDate) = Year AND MONTH(fa2c.EpisodeDate) = Month AND DAY(fa2c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstAllPsychotropicMedicationCounts fm1c ON fm1c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm1c.EpisodeDate) = Year AND MONTH(fm1c.EpisodeDate) = Month AND DAY(fm1c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstMAOICounts fm2c ON fm2c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm2c.EpisodeDate) = Year AND MONTH(fm2c.EpisodeDate) = Month AND DAY(fm2c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstNRICounts fm3c ON fm3c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm3c.EpisodeDate) = Year AND MONTH(fm3c.EpisodeDate) = Month AND DAY(fm3c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSARICounts fm4c ON fm4c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm4c.EpisodeDate) = Year AND MONTH(fm4c.EpisodeDate) = Month AND DAY(fm4c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSMSCounts fm5c ON fm5c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm5c.EpisodeDate) = Year AND MONTH(fm5c.EpisodeDate) = Month AND DAY(fm5c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSNRICounts fm6c ON fm6c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm6c.EpisodeDate) = Year AND MONTH(fm6c.EpisodeDate) = Month AND DAY(fm6c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstSSRICounts fm7c ON fm7c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm7c.EpisodeDate) = Year AND MONTH(fm7c.EpisodeDate) = Month AND DAY(fm7c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstTCACounts fm8c ON fm8c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm8c.EpisodeDate) = Year AND MONTH(fm8c.EpisodeDate) = Month AND DAY(fm8c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstTECACounts fm9c ON fm9c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm9c.EpisodeDate) = Year AND MONTH(fm9c.EpisodeDate) = Month AND DAY(fm9c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstOtherAntidepressantsCounts fm10c ON fm10c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm10c.EpisodeDate) = Year AND MONTH(fm10c.EpisodeDate) = Month AND DAY(fm10c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstBarbituatesCounts fm11c ON fm11c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm11c.EpisodeDate) = Year AND MONTH(fm11c.EpisodeDate) = Month AND DAY(fm11c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstBenzodiazepinesCounts fm12c ON fm12c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm12c.EpisodeDate) = Year AND MONTH(fm12c.EpisodeDate) = Month AND DAY(fm12c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstNBBRACounts fm13c ON fm13c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm13c.EpisodeDate) = Year AND MONTH(fm13c.EpisodeDate) = Month AND DAY(fm13c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstOtherAnxiolyticsHypnoticsCounts fm14c ON fm14c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm14c.EpisodeDate) = Year AND MONTH(fm14c.EpisodeDate) = Month AND DAY(fm14c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstAntipsychoticsCounts fm15c ON fm15c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm15c.EpisodeDate) = Year AND MONTH(fm15c.EpisodeDate) = Month AND DAY(fm15c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstAnticonvulsantsCounts fm16c ON fm16c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm16c.EpisodeDate) = Year AND MONTH(fm16c.EpisodeDate) = Month AND DAY(fm16c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstLithiumCounts fm17c ON fm17c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm17c.EpisodeDate) = Year AND MONTH(fm17c.EpisodeDate) = Month AND DAY(fm17c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstOffLabelMoodStabilisersCounts fm18c ON fm18c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm18c.EpisodeDate) = Year AND MONTH(fm18c.EpisodeDate) = Month AND DAY(fm18c.EpisodeDate) = p.[Date]
+LEFT OUTER JOIN #FirstADHDMedicationCounts fm19c ON fm19c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+                AND YEAR(fm19c.EpisodeDate) = Year AND MONTH(fm19c.EpisodeDate) = Month AND DAY(fm19c.EpisodeDate) = p.[Date]
 WHERE p.Year - yob.YearOfBirth <= 24 AND p.Year - yob.YearOfBirth >=1
 GROUP BY p.Year, p.Month, Sex, Ethnic, (p.Year - YearOfBirth), IMDGroup
 ORDER BY p.Year, p.Month;
