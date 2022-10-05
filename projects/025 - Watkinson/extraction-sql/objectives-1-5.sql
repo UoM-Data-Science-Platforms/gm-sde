@@ -55,12 +55,12 @@ IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInc
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
+HAVING MIN(StartDate) < @TEMPRQ025EndDate;
 
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicCategoryDescription, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate)
+WHERE (DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate < @TEMPRQ025EndDate))
 AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
@@ -981,7 +981,8 @@ FROM RLS.vw_GP_Events
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND EventDate > '2020-12-01';
+AND EventDate > '2020-12-01'
+AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
@@ -989,7 +990,8 @@ FROM RLS.vw_GP_Medications
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND MedicationDate > '2020-12-01';
+AND MedicationDate > '2020-12-01'
+AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
@@ -1448,7 +1450,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND [Version] = 1)
 )
 AND EventDate >= '2021-07-01'
-AND EventDate <= '2022-06-30';
+AND EventDate <= '2022-06-01';
 
 -- >>> Following code sets injected: flu-vaccine v1
 -- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
@@ -1459,7 +1461,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccine' AND [Version] = 1)
 )
 and MedicationDate >= '2021-07-01'
-and MedicationDate <= '2022-06-30';
+and MedicationDate <= '2022-06-01';
 
 -- Bring all together in final table
 IF OBJECT_ID('tempdb..#PatientHadFluVaccine2021') IS NOT NULL DROP TABLE #PatientHadFluVaccine2021;
@@ -1506,6 +1508,7 @@ SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('moderate-clinical-vulnerability','severe-mental-illness') AND [Version] = 1
 )
+AND EventDate < @TEMPRQ025EndDate
 UNION
 SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 
@@ -1513,12 +1516,14 @@ SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 -- >>> Following code sets injected: high-clinical-vulnerability v1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
+AND EventDate < @TEMPRQ025EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patients with covid vaccine refusal
 -- >>> Following code sets injected: covid-vaccine-declined v1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
+AND EventDate < @TEMPRQ025EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get first COVID admission rather than all admissions

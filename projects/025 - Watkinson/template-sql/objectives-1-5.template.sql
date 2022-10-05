@@ -55,12 +55,12 @@ IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInc
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
+HAVING MIN(StartDate) < @TEMPRQ025EndDate;
 
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicCategoryDescription, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate)
+WHERE (DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate < @TEMPRQ025EndDate))
 AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
@@ -101,7 +101,7 @@ SELECT * FROM #Temp;
 --> EXECUTE query-received-flu-vaccine.sql date-from:2018-07-01 date-to:2019-06-30 id:2018
 --> EXECUTE query-received-flu-vaccine.sql date-from:2019-07-01 date-to:2020-06-30 id:2019
 --> EXECUTE query-received-flu-vaccine.sql date-from:2020-07-01 date-to:2021-06-30 id:2020
---> EXECUTE query-received-flu-vaccine.sql date-from:2021-07-01 date-to:2022-06-30 id:2021
+--> EXECUTE query-received-flu-vaccine.sql date-from:2021-07-01 date-to:2022-06-01 id:2021
 
 --> EXECUTE query-get-flu-vaccine-eligible.sql
 
@@ -114,6 +114,7 @@ SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('moderate-clinical-vulnerability','severe-mental-illness') AND [Version] = 1
 )
+AND EventDate < @TEMPRQ025EndDate
 UNION
 SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 
@@ -121,12 +122,14 @@ SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 --> CODESET high-clinical-vulnerability:1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
+AND EventDate < @TEMPRQ025EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patients with covid vaccine refusal
 --> CODESET covid-vaccine-declined:1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
+AND EventDate < @TEMPRQ025EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get first COVID admission rather than all admissions
