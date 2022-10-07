@@ -21,6 +21,9 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--Create DARECohort Table
+SELECT SUBSTRING(REPLACE(NHSNo, ' ', ''),1,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),4,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),7,4) 'NHSNo' INTO #DAREPatients FROM [dbo].[DARECohort]
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2018-01-01';
