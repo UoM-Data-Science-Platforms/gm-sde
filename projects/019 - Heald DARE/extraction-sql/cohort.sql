@@ -36,6 +36,9 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--Create DARECohort Table
+SELECT SUBSTRING(REPLACE(NHSNo, ' ', ''),1,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),4,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),7,4) 'NHSNo' INTO #DAREPatients FROM [dbo].[DARECohort]
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -47,19 +50,19 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 -- Define #Patients temp table for getting future things like age/sex etc.
 -- NB this is where the filter to just DARE patients via NHS number occurs
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT p.FK_Patient_Link_ID INTO #Patients
-FROM [RLS].vw_Patient p
+SELECT DISTINCT p.FK_Patient_Link_ID INTO #Patients
+FROM [SharedCare].[Patient] p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 -- Get lookup between nhs number and fk_patient_link_id
 SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
-FROM [RLS].vw_Patient p
+FROM [SharedCare].[Patient] p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 --Below is for testing without access to DARE nhs numbers
 --IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 --SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
---FROM [RLS].vw_Patient p
+--FROM [SharedCare].[Patient] p
 --GROUP BY FK_Patient_Link_ID;
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
@@ -73,7 +76,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -84,7 +87,7 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
@@ -580,7 +583,7 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
+		FROM [SharedCare].[COVID19]
 		WHERE (
 			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
@@ -590,7 +593,7 @@ BEGIN
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
+		FROM [SharedCare].[COVID19]
 		WHERE (
 			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
@@ -719,7 +722,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM [SharedCare].[Patient] p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -811,7 +814,7 @@ SELECT
 	HDMModifDate,
 	Sex
 INTO #AllPatientSexs
-FROM RLS.vw_Patient p
+FROM [SharedCare].[Patient] p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Sex IS NOT NULL;
 
@@ -1036,7 +1039,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM [SharedCare].[Patient] p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
@@ -1721,7 +1724,7 @@ SELECT
 	HDMModifDate,
 	FrailtyScore
 INTO #AllPatientFrailtyScores
-FROM RLS.vw_Patient p
+FROM [SharedCare].[Patient] p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FrailtyScore IS NOT NULL;
 
@@ -1803,14 +1806,14 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND AdmissionDate >= @StartDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -1847,14 +1850,14 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
     AND DischargeDate >= @StartDate;
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -2042,7 +2045,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('insulin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('insulin') AND [Version]=1))
 )
-AND MedicationDate > @MedicationsFromDate;
+AND MedicationDate > '2020-01-01';
 
 -- >>> Following code sets injected: sglt2-inhibitors v1
 IF OBJECT_ID('tempdb..#PatientMedicationsSGLT2I') IS NOT NULL DROP TABLE #PatientMedicationsSGLT2I;
@@ -2125,7 +2128,7 @@ LEFT OUTER JOIN #PatientMedicationsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_I
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
+INTO #COVIDDeath FROM [SharedCare].[COVID19]
 WHERE DeathWithin28Days = 'Y'
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -2178,7 +2181,7 @@ SELECT
   IsOnSulphonylurea
 FROM #Patients m
 INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN [SharedCare].[Patient_Link] pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientFrailtyScore frail ON frail.FK_Patient_Link_ID = m.FK_Patient_Link_ID

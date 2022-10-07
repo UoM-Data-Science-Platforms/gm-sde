@@ -21,18 +21,21 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--Create DARECohort Table
+SELECT SUBSTRING(REPLACE(NHSNo, ' ', ''),1,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),4,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),7,4) 'NHSNo' INTO #DAREPatients FROM [dbo].[DARECohort]
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2018-01-01';
 
 -- Get link ids of patients
 SELECT DISTINCT FK_Patient_Link_ID INTO #Patients
-FROM [RLS].vw_Patient p
+FROM SharedCare.Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 -- Get lookup between nhs number and fk_patient_link_id
 SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
-FROM [RLS].vw_Patient p
+FROM SharedCare.Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 -- >>> Codesets required... Inserting the code set code
@@ -265,7 +268,7 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #biomarkerValues
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
