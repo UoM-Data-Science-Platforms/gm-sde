@@ -6,6 +6,10 @@
 -- George Tilston  - 16 March 2022 - via pull request --
 --------------------------------------------------------
 
+-- Richard Williams - changes at 7th October 2022
+-- PI requested:
+--		- The date of diagnosis for the 4 conditions that currently are just Y/N flags
+
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
 -- provide this data for patients in the DARE study. Adrian Heald will provide GraphNet
@@ -222,43 +226,47 @@ GROUP BY p.FK_Patient_Link_ID;
 -- diagnoses
 --> CODESET copd:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
-SELECT DISTINCT FK_Patient_Link_ID
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
 INTO #PatientDiagnosesCOPD
 FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('copd') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('copd') AND [Version]=1))
-);
+)
+GROUP BY FK_Patient_Link_ID;
 
 --> CODESET asthma:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
-SELECT DISTINCT FK_Patient_Link_ID
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
 INTO #PatientDiagnosesASTHMA
 FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('asthma') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('asthma') AND [Version]=1))
-);
+)
+GROUP BY FK_Patient_Link_ID;
 
 --> CODESET severe-mental-illness:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
-SELECT DISTINCT FK_Patient_Link_ID
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
 FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1))
-);
+)
+GROUP BY FK_Patient_Link_ID;
 
 --> CODESET hypertension:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
-SELECT DISTINCT FK_Patient_Link_ID
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
 INTO #PatientDiagnosesHYPERTENSION
 FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
-);
+)
+GROUP BY FK_Patient_Link_ID;
 
 
 -- medications
@@ -421,6 +429,10 @@ SELECT
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
+  copd.FirstDiagnosisDate AS COPDDiagnosisDate,
+  asthma.FirstDiagnosisDate AS ASTHMADiagnosisDate,
+  smi.FirstDiagnosisDate AS SMIDiagnosisDate,
+  htn.FirstDiagnosisDate AS HYPERTENSIONDiagnosisDate,
   VaccineDose1Date AS FirstVaccineDate,
   VaccineDose2Date AS SecondVaccineDate,
   IsOnInsulin,
