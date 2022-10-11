@@ -1,0 +1,55 @@
+14A..	H/O: cardiovascular disease
+14A4.	H/O: myocardial infarct >60
+14A5.	H/O: angina pectoris
+182..	Chest pain
+322..	ECG: myocardial ischaemia
+3222.	ECG:shows myocardial ischaemia
+322Z.	ECG: myocardial ischaemia NOS
+662K0	Angina control - good
+662K1	Angina control - poor
+662K3	Angina control - worsening
+6A2..	Corony heart dis annual review
+6A4..	Coronary heart disease review
+792..	Coronary artery operations
+7928.	Translum balloon angiop coro a
+79294	Insert coronary artery stent
+889A.	Diab mell ins gluc inf ac mi
+8H2V.	Admit isch heart dis emergency
+8I3z.	Cardiovsc dis ann reviw dcline
+G3...	Ischaemic heart disease
+G30..	Acute myocardial infarction
+G3071	Acute non-ST seg elevation mi
+G308.	Inferior myocard. infarct NOS
+G30y.	Other acute myocardial infarct
+G30yz	Other acute myocardial inf.NOS
+G30z.	Acute myocardial infarct. NOS
+G31..	Other acute/subacute IHD
+G311.	Preinfarction syndrome
+G3111	Unstable angina
+G31y2	Subendocardial ischaemia
+G31y3	Transient myocardial ischaemia
+G31yz	Other acute/subacute IHD NOS
+G32..	Old myocardial infarction
+G33..	Angina pectoris
+G332.	Coronary artery spasm
+G33z.	Angina pectoris NOS
+G33z3	Angina on effort
+G33z4	Ischaemic chest pain
+G33z7	Stable angina
+G33zz	Angina pectoris NOS
+G34..	Other chr.ischaemic heart dis.
+G340.	Coronary atherosclerosis
+G344.	Silent myocardial ischaemia
+G34y0	Chronic coronary insufficiency
+G34y1	Chronic myocardial ischaemia
+G34yz	Other specif.chronic IHD NOS
+G34z.	Other chronic IHD NOS
+G36..	Certain curnt comp fol acut MI
+G361.	Atrl sept def/c comp fol ac MI
+G362.	Vent sep def/c comp fol ac MI
+G37..	Cardiac syndrome X
+G3y..	Ischaemic heart disease OS
+G3z..	Ischaemic heart disease NOS
+Gyu3.	[X]Ischaemic heart diseases
+G3...	Ischaemic heart disease
+Gyu30	[X]Other forms/angina pectoris
