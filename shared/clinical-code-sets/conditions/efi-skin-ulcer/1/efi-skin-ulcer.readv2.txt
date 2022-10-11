@@ -1,0 +1,46 @@
+14F3.	H/O: chronic skin ulcer
+14F5.	H/O: venous leg ulcer
+2924.	O/E - trophic skin ulceration
+2FF..	O/E - skin ulcer
+2FF2.	O/E - skin ulcer present
+2FF3.	O/E - depth of ulcer
+2FFZ.	O/E - skin ulcer NOS
+2G48.	O/E - ankle ulcer
+2G54.	O/E - Right foot ulcer
+2G55.	O/E - Left foot ulcer
+2G5H.	O/E - R diab foot - ulcerated
+2G5L.	O/E - L diab foot - ulcerated
+2G5V.	O/E - R chron diab foot ulcer
+2G5W.	O/E - L chron diab foot ulcer
+39C..	Pressure sore index value
+39C0.	Pressure sore
+4JG3.	Skin ulcer swab taken
+7G2E5	Dressing of skin ulcer NEC
+7G2EA	Two lay comp bandag skin ulcer
+7G2EB	Four lay comp band skin ulcer
+7G2EC	Three lay comp band skin ulcer
+81H1.	Dressing of ulcer
+8CT1.	Leg ulcr compress thrpy finish
+8CV2.	Leg ulcer compress thrpy start
+8HTh.	Referral to leg ulcer clinic
+9N0t.	Seen prim care leg ulcer clini
+9NM5.	Attending leg ulcer clinic
+C1094	Non-insul depen diab mel+ulcer
+C10F4	Type 2 diab mell with ulcer
+G830.	Varicose vein leg with ulcer
+G832.	Varicose vein leg+ulcer+eczema
+G835.	Infected varicose ulcer
+G837.	Venous ulcer of leg
+M07z.	Local skin/subcut.infectn.NOS
+M27..	Chronic skin ulcer
+M270.	Decubitus (pressure) ulcer
+M271.	Non-pressure ulcer lower limb
+M2710	Ischaemic ulcer diabetic foot
+M2711	Neuropathic diab ulcer - foot
+M2712	Mixed diabetic ulcer - foot
+M2713	Arterial leg ulcer
+M2714	Mixed venous+artery leg ulcer
+M2715	Venous ulcer of leg
+M272.	Ulcer of skin
+M27y.	Chronic ulcer skin, other site
+M27z.	Chronic skin ulcer NOS

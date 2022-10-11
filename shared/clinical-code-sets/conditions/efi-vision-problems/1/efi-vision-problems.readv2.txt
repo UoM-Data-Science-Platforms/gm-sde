@@ -1,0 +1,108 @@
+1483.	H/O: cataract
+1B75.	Loss of vision
+22E5.	O/E - cataract present
+22EG.	Wears glasses
+2BBm.	O/E - R clin sig macula oedema
+2BBn.	O/E - L clin sig macula oedema
+2BBo.	O/E - sight threat diab retin
+2BBr.	Impair vision due diab retinop
+2BT..	Cataract observation
+2BT0.	O/E - Right cataract present
+2BT1.	O/E - Left cataract present
+6688.	Registered partially sighted
+6689.	Registered blind
+72630	Simple linear extraction lens
+72661	Discission of cataract
+8F61.	Blind rehabilitation
+8H52.	Ophthalmological referral
+9m08.	Exclu diab ret screen as blind
+C108F	IDDM with diabetic cataract
+C109E	NIDDM with diabetic cataract
+C10EF	Type 1 diab mell + diab catar
+C10EP	Type 1 d m + exudat maculopath
+C10FE	Type 2 diab mell+diab catarct
+C10FQ	Type 2 d m + exudat maculopath
+F4042	Blind hypertensive eye
+F421A	Retinal neovascularization NOS
+F422.	Other proliferative retinopath
+F422y	Other proliferat.retinop.OS
+F422z	Proliferative retinopathy NOS
+F4239	Retinal venous branch occlus.
+F425.	Macula/posterior pole degen.
+F4250	Senile macular degen.unspecif.
+F4251	Dry senile macular degenerat.
+F4252	Wet senile macular degenerat.
+F4253	Cystoid macular degeneration
+F4254	Macular cyst/hole/pseudohole
+F4257	Drusen
+F427C	Vitelliform dystrophy
+F42y4	Subretinal haemorrhage
+F42y9	Macular oedema
+F4305	Focal macular retinochoroidit.
+F4332	Other macular scars
+F46..	Cataract
+F4602	Presenile cataract unspecified
+F4603	Ant.subcapsular polar cataract
+F4604	Post.subcapsul. polar cataract
+F4605	Cortical cataract
+F4606	Lamellar zonular cataract
+F4607	Nuclear cataract
+F460z	Nonsenile cataract NOS
+F461.	Senile cataract
+F4610	Senile cataract unspecified
+F4614	Incipient cataract NOS
+F4615	Immature cataract NOS
+F4617	Post.subcap.polar sen.cataract
+F4618	Cortical senile cataract
+F4619	Nuclear senile cataract
+F461A	Total, mature senile cataract
+F461B	Hypermature cataract
+F461y	Other senile cataract
+F461z	Senile cataract NOS
+F462.	Traumatic cataract
+F462z	Traumatic cataract NOS
+F463.	Cataract secondary ocular dis.
+F4633	Cataract with neovascularizat.
+F4634	Cataract in degenerat.disord.
+F463z	Cataract due to ocular dis NOS
+F464.	Cataract due to other disorder
+F4640	Diabetic cataract
+F4642	Myotonic cataract
+F4644	Drug induced cataract
+F4646	Radiation induced cataract
+F4647	Other physical infl. cataract
+F464z	Cataract + other disorder NOS
+F465.	After cataract
+F4650	Secondary cataract unspecified
+F465z	After cataract NOS
+F466.	Bilateral cataracts
+F46y.	Other cataract
+F46yz	Other cataract NOS
+F46z.	Cataract NOS
+F46z0	Immature cortical cataract
+F4840	Visual field defect, unspecif.
+F49..	Blindness and low vision
+F490.	Blindness, both eyes
+F4900	Blindness both eyes unspecif.
+F4909	Acquired blindness, both eyes
+F490z	Blindness both eyes NOS
+F494.	Legal blindness USA
+F4950	Blindness,one eye, unspecified
+F495A	Acquired blindness, one eye
+F49z.	Visual loss NOS
+F4A24	Macular keratitis NOS
+F4H34	Toxic optic neuropathy
+F4H40	Ischaemic optic neuropathy
+F4H73	Cortical blindness
+F4K2D	Vitreous syn fol cataract surg
+FyuE1	[X]Other specified cataract
+FyuF7	[X]Oth proliferativ retinopthy
+FyuL.	[X]Visual disturbanc+blindness
+P33..	Congenital cataract/lens anom.
+P330.	Congenital cataract unspecif.
+P331.	Capsular/subcapsular cataract
+P3310	Capsular cataract
+P3311	Subcapsular cataract
+P331z	Capsular/subcaps.cataract NOS
+S813.	Avulsion of eye
+SJ0z.	Optic nerve/pathway inj. NOS

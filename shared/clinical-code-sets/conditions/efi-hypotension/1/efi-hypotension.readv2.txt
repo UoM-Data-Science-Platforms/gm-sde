@@ -1,0 +1,18 @@
+1B55.	Dizziness on standing up
+1B6..	Disturbance of consciousness
+1B62.	Syncope/vasovagal faint
+1B65.	Had a collapse
+1B68.	Felt faint
+79370	Implant cardiac pacemaker NEC
+F1303	Parkinson+orthostatic hypoten.
+G87..	Hypotension
+G870.	Orthostatic hypotension
+G871.	Chronic hypotension
+G872.	Idiopathic hypotension
+G873.	Hypotension due to drugs
+G87z.	Hypotension NOS
+R002.	[D]Syncope and collapse
+R0021	[D]Fainting
+R0022	[D]Vasovagal attack
+R0023	[D]Collapse
+R0042	[D]Light-headedness

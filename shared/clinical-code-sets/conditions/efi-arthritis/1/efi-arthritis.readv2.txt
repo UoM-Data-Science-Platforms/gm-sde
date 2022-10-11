@@ -1,0 +1,67 @@
+14G..	H/O: musculoskeletal disease
+14G1.	H/O: rheumatoid arthritis
+14G2.	H/O: osteoarthritis
+52A31	Plain X-ray hip joint abnormal
+52A71	Plain X-ray knee abnormal
+66H..	Rheumatol. disorder monitoring
+N0504	Primary general osteoarthrosis
+7K3..	Knee joint operations
+7K30.	Tot prosth repl knee + cement
+7K32.	Other total prosth repl knee
+7K6Z3	Injection into joint NEC
+7K6Z7	Inject steroid into knee joint
+7K6ZK	Intra-articular injection
+C340.	Gouty arthropathy
+C34z.	Gout NOS
+N023.	Gouty arthritis
+N0310	Arthropathy-ulcerative Colitis
+N04..	Rheumatoid arthritis+similar
+N040.	Rheumatoid arthritis
+N0400	Rheumatoid arthritis-Cx spine
+N0401	Oth rheumatoid arthritis-spine
+N0402	Rheumatoid arthritis-shoulder
+N0404	Rheumatoid arthr-acromioclav j
+N0405	Rheumatoid arthritis of elbow
+N0407	Rheumatoid arthritis of wrist
+N0408	Rheumatoid arthritis-MCP joint
+N0409	Rheumatoid arthritis-PIPJ-fing
+N040A	Rheumatoid arthritis-DIPJ-fing
+N040B	Rheumatoid arthritis of hip
+N040C	Rheumatoid arthritis of SIJ
+N040D	Rheumatoid arthritis of knee
+N040F	Rheumatoid arthritis of ankle
+N040G	Rheumatoid arthr-subtalar jnt
+N040H	Rheumatoid arthr-talonav joint
+N040J	Rheumatoid arthr-oth tarsal jt
+N040K	Rheumatoid arthr-1st MTP joint
+N040L	Rheumatoid arthr-lesser MTP jt
+N040M	Rheumatoid arthr-IP joint-toe
+N040P	Seronegative rheumat arthritis
+N040S	Rheumat arthr - multiple joint
+N040T	Flare of rheumatoid arthritis
+N047.	Seropositive errosive RA
+N04X.	Seroposit rheum arthr, unsp
+N05..	Osteoarthritis+allied disord.
+N050.	Generalised osteoarthritis-OA
+N0502	Generalised OA-multiple sites
+N0504	Primary general osteoarthrosis
+N0506	Erosive osteoarthrosis
+N0535	Local.OA unsp.-pelvic/thigh
+N0536	Local.OA unsp.-lower leg
+N05z1	Osteoarthritis NOS-shoulder
+N05z4	Osteoarthritis NOS-hand
+N05z5	Osteoarthritis NOS-pelv./thigh
+N05z6	Osteoarthritis NOS-lower leg
+N05z9	Osteoarthritis NOS, shoulder
+N05zJ	OA NOS-hip
+N05zL	Osteoarthritis NOS, of knee
+N06z.	Arthropathy NOS
+N06z5	Arthropathy NOS-pelvic/thigh
+N06z6	Arthropathy NOS-lower leg
+N06zz	Arthropathy NOS
+N11..	Spondylosis + allied disorders
+N11D.	Osteoarthritis of spine
+Nyu10	[X]Rheum arthrit+inv/o org/sys
+Nyu11	[X]O sero+ve rheumat arthritis
+Nyu12	[X]Oth spcf rheumatd arthritis
+Nyu1G	[X]Seroposit rheum arthr, unsp

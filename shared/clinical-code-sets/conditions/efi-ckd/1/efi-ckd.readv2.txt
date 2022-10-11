@@ -1,0 +1,42 @@
+1Z1..	Chronic renal impairment
+1Z12.	Chronic kidney disease stage 3
+1Z13.	Chronic kidney disease stage 4
+1Z14.	Chronic kidney disease stage 5
+1Z15.	Chronic kidney diseas stage 3A
+1Z16.	Chronic kidney diseas stage 3B
+1Z1B.	CKD stage 3 with proteinuria
+1Z1C.	CKD stage 3 wthout proteinuria
+1Z1D.	CKD stage 3A with proteinuria
+1Z1E.	CKD stge 3A wthout proteinuria
+1Z1F.	CKD stage 3B with proteinuria
+1Z1G.	CKD stge 3B wthout proteinuria
+1Z1H.	CKD stage 4 with proteinuria
+1Z1J.	CKD stage 4 wthout proteinuria
+1Z1K.	CKD stage 5 with proteinuria
+1Z1L.	CKD stage 5 wthout proteinuria
+4677.	Urine protein test = ++++
+6AA..	Chronic kid dis annual review
+9hE0.	Ex ch kid dis qu ind: Pat uns
+9hE1.	Ex ch kid dis qua ind: Inf dis
+C104.	Diab.mell. with nephropathy
+C104y	Oth specfd diab mel+renal comp
+C104z	Diab.mell.+nephropathy NOS
+C1080	Insuln-dep diab mel+renal comp
+C108D	IDDM with nephropathy
+C1090	Non-ins-dp diab mel+renal comp
+C1093	Non-ins-dp diab mel+multi comp
+C109C	NIDDM with nephropathy
+C10E0	Type 1 d m with renal comps
+C10ED	Type 1 diab mell + nephropathy
+C10EK	Type 1 d m + persist proteinur
+C10EL	Type 1 d m + persist microalb
+C10F0	Type 2 diab mell + renal compl
+C10F3	Type 2 diab mell + multip comp
+C10FC	Type 2 diab mell + nephropathy
+C10FL	Type 2 d m + persist proteinur
+C10FM	Type 2 d m + persist microalb
+Cyu23	[X]Unspec diab mel + ren compl
+K05..	Chronic renal failure
+K050.	End stage renal failure
+PD13.	Multicystic renal dysplasia
+R110.	[D]Proteinuria

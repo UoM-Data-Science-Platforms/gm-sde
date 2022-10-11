@@ -1,0 +1,11 @@
+1381.	Exercise physically impossible
+13C2.	Mobile outside with aid
+13C4.	Needs walking aid in home
+13CD.	Mobility very poor
+13CE.	Mobility poor
+398A.	Depend on help push wheelchair
+39B..	Walking aid use
+8D4..	Locomotory aid
+8O15.	Provision of locomotory aid
+N097.	Difficulty in walking
+ZV4L0	[V]Reduced mobility
