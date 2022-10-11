@@ -1,0 +1,3 @@
+G543.	Pulmonary valve disease
+G540.	Mitral valve: [regurgitation] or [prolapse]
+X2011	Aortic stenosis

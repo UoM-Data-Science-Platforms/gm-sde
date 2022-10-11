@@ -1,0 +1,42 @@
+XE0Uc	Essential hypertension
+XE0Ub	Hypertension
+14A2.	H/O: hypertension
+9N1y2	Seen in hypertension clinic
+XaQaV	Lifestyle advice regarding hypertension
+XE0Ud	Essential hypertension NOS
+Xa8HD	On treatment for hypertension
+G201.	Benign essential hypertension
+G202.	Systolic hypertension
+G20..	High blood pressure (& [essential hypertension])
+6628.	Poor hypertension control
+662F.	Hypertension treatm. started
+6627.	Good hypertension control
+G24..	Secondary hypertension
+8HT5.	Referral to hypertension clinic
+G20z.	Hypertension NOS (& [essential])
+G200.	Malignant essential hypertension
+Xa0Cs	Labile hypertension
+Xa0kX	Renovascular hypertension
+Xa3fQ	Malignant hypertension
+G22z.	(Renal hypertension) or (hypertensive renal disease NOS)
+XaIyC	Hypertension treatment refused
+XaIy8	Moderate hypertension control
+G24z.	Secondary hypertension NOS
+XE0W8	(Hypertensive disease) or (hypertension)
+Gyu21	[X]Hypertension secondary to other renal disorders
+Gyu20	[X]Other secondary hypertension
+G240.	Malignant secondary hypertension
+G240z	Secondary malignant hypertension NOS
+G241.	Secondary benign hypertension
+G244.	Hypertension secondary to endocrine disorders
+XaJ4P	Exception reporting: hypertension quality indicators
+XSDSb	Diastolic hypertension
+XaJYi	Hypertension clinical management plan
+G24z1	Hypertension secondary to drug
+G24z0	Secondary renovascular hypertension NOS
+F4211	Hypertensive retinopathy
+G241z	Secondary benign hypertension NOS
+G2...	Hypertensive disease
+G2z..	Hypertensive disease NOS
+XaJ4e	Excepted from hypertension qual indicators: Patient unsuit
+XaJ4f	Excepted from hypertension qual indicators: Informed dissent

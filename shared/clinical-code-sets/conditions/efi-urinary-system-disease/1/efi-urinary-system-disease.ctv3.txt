@@ -1,0 +1,33 @@
+XE0e6	Benign prostatic hyperplasia
+K....	Genitourinary system diseases
+K1971	Painful haematuria
+Kz...	Genitourinary disease NOS
+XE0qF	H/O: urinary disease
+XE2Rb	Prostate: [benign hypertrophy] or [adenoma]
+XE0f1	Genitourinary system diseases (& [kidney] or [urinary])
+14D..	H/O: urinary disease (& [kidney])
+14DZ.	H/O: urinary disease NOS
+Ky...	Other specified diseases of genitourinary system
+XE0e0	Infection of urinary tract
+8H5B.	Referred to urologist
+K190z	Urinary tract infection, site not specified NOS
+1A13.	Nocturia
+1A55.	Dysuria
+1A1Z.	Micturition frequency NOS
+R082.	[D]Retention of urine
+K190.	Urinary tract infection: [site not specified] or [recurrent]
+K1903	Recurrent urinary tract infection
+XM1Oy	Blocked catheter
+R0822	[D]Acute retention of urine
+K1973	Frank haematuria
+8156.	Attention to urinary catheter
+1A1..	(Frequency of micturition) or (polyuria)
+X30O4	Acute retention of urine
+XaB9O	Lower urinary tract symptoms
+X30Nk	Bladder muscle dysfunction - overactive
+K16y4	Detrusor instability
+7B390	Transurethral prostatectomy
+XE0e0	Infection of urinary tract
+1AA..	Prostatism
+R08..	[D]Urinary system symptoms
+K155.	Recurrent cystitis

@@ -1,0 +1,41 @@
+XE0s9	Hearing loss
+XE17N	Sensorineural hearing loss
+XE17P	Deafness NOS
+F590.	Conductive hearing loss
+F5801	Presbyacusis
+XM0Cb	Deafness symptom
+1C133	Bilateral deafness
+1C131	Unilateral deafness
+F59..	Hearing loss (& [deafness])
+1C13.	Deafness (& symptom)
+Ub0iR	Hearing disability
+1C132	Partial deafness
+X00kO	Chronic deafness
+F592.	Mixed conductive and sensorineural hearing loss
+X00kP	High frequency deafness
+F591.	Sensorineural hearing loss (& [deafn: [high freq][low freq])
+2BM2.	O/E -tune fork=conductive deaf
+F5912	Neural hearing loss
+F59z.	Deafness: [chronic] or [NOS]
+2BM4.	O/E - High tone deafness
+2BM3.	O/E tune fork=perceptive deaf
+XE1AH	Presbyacusis (& [senile &/or other])
+X00kQ	Low frequency deafness
+XE1AL	Deafness: [sensorineur] or [nerve] or [perceptive - diagnos]
+X00kW	Non-organic hearing loss
+XE17O	Ototoxicity - deafness
+XE1jy	O/E - perceptive deaf (&tune fork=)
+8E3..	Deafness remedial therapy
+1C12.	Hearing difficulty
+8HT2.	Refer to hearing aid clinic
+X79ms	Hearing aid
+F5916	Sensorineural hearing loss, bilateral
+Xa0LN	Hearing aid worn
+8HT3.	Referral to audiology clinic
+XM0F9	Aid to hearing
+31340	Audiogram bilateral abnormality
+ZV532	[V]Fitting or adjustment of hearing aid
+Y2773	Impaired hearing
+8HR2.	Refer for audiometry
+XaFo1	Deteriorating hearing
+XM1UX	Audiogram abnormal
