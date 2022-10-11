@@ -1,7 +1,6 @@
 14A..	H/O: cardiovascular disease
 14A4.	H/O: myocardial infarct >60
 14A5.	H/O: angina pectoris
-182..	Chest pain
 322..	ECG: myocardial ischaemia
 3222.	ECG:shows myocardial ischaemia
 322Z.	ECG: myocardial ischaemia NOS

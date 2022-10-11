@@ -31,7 +31,6 @@ G830.	Varicose vein leg with ulcer
 G832.	Varicose vein leg+ulcer+eczema
 G835.	Infected varicose ulcer
 G837.	Venous ulcer of leg
-M07z.	Local skin/subcut.infectn.NOS
 M27..	Chronic skin ulcer
 M270.	Decubitus (pressure) ulcer
 M271.	Non-pressure ulcer lower limb
