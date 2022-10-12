@@ -39,6 +39,7 @@ This project required the following reusable queries:
 - Lower level super output area
 - Index Multiple Deprivation
 - Sex
+- Patient GP encounters
 - GET practice and ccg for each patient
 - CCG lookup table
 - Patient GP history
@@ -47,7 +48,9 @@ This project required the following reusable queries:
 - Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
+- Define Cohort for RQ041: patients with biochemical evidence of CKD
 - Year of birth
+- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
 
@@ -221,6 +224,32 @@ A temp table as follows:
 _File_: `query-patient-sex.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### Patient GP encounters
+To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+_Assumptions_
+
+- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+	- FK_Patient_Link_ID - unique patient id
+	- EncounterDate - date the patient had a GP encounter
+```
+_File_: `query-patient-gp-encounters.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-gp-encounters.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-encounters.sql)
 
 ---
 ### GET practice and ccg for each patient
@@ -448,6 +477,27 @@ _File_: `query-get-discharges.sql`
 _Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
 
 ---
+### Define Cohort for RQ041: patients with biochemical evidence of CKD
+To build the cohort of patients needed for RQ041. This reduces duplication of code in the template scripts.
+
+_Input_
+```
+assumes there exists one temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #Cohort (FK_Patient_Link_ID)
+ #PatientEventData
+```
+_File_: `query-build-rq041-cohort.sql`
+
+_Link_: [https://github.com/rw251/.../query-build-rq041-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq041-cohort.sql)
+
+---
 ### Year of birth
 To get the year of birth for each patient.
 
@@ -476,12 +526,27 @@ A temp table as follows:
 _File_: `query-patient-year-of-birth.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
+### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
 
-- hypertension v1
-- diabetes v1
 - egfr v1
 - urinary-albumin-creatinine-ratio v1
 - glomerulonephritis v1
@@ -491,7 +556,6 @@ This project required the following clinical code sets:
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
-- allergy v2
 - renal-replacement-therapy v1
 - acute-kidney-injury v1
 - polycystic-kidney-disease v1
@@ -503,6 +567,11 @@ This project required the following clinical code sets:
 - ckd-stage-4 v1
 - ckd-stage-5 v1
 - chronic-kidney-disease v1
+- allergy-ace v1
+- allergy-arb v1
+- allergy-aspirin v1
+- allergy-clopidogrel v1
+- allergy-statin v1
 - sle v1
 - gout v1
 - haematuria v1
@@ -530,8 +599,11 @@ This project required the following clinical code sets:
 - aspirin v1
 - clopidogrel v1
 - sglt2-inhibitors v1
-- oestrogens-and-hrt v1
 - nsaids v1
+- hormone-replacement-therapy-meds v1
+- female-sex-hormones v1
+- male-sex-hormones v1
+- anabolic-steroids v1
 - hba1c v2
 - creatinine v1
 - triglycerides v1
@@ -555,6 +627,8 @@ This project required the following clinical code sets:
 - ldl-cholesterol v1
 - hdl-cholesterol v1
 - urine-blood v1
+- hypertension v1
+- diabetes v1
 - covid-vaccination v1
 - bmi v2
 - smoking-status-current v1
@@ -571,40 +645,6 @@ This project required the following clinical code sets:
 - alcohol-weekly-intake v1
 
 Further details for each code set can be found below.
-
-### Hypertension
-
-Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.
-
-Developed from https://getset.ga.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.55% - 12.95%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-14 | EMIS            | 2615750    |  328350 (12.55%) |  328339 ( 12.55%) |
-| 2021-07-14 | TPP             | 211345     |   27363 (12.95%) |   27362 ( 12.95%) |
-| 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
-
-LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
-
-### Diabetes mellitus
-
-Code set for any diagnosis of diabetes mellitus (type I/type II/other).
-
-Developed from https://getset.ga.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.96% - 6.05%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |   155421 (5.96%) |    155398 (5.96%) |
-| 2021-05-07 | TPP             | 210817     |    12743 (6.04%) |     12745 (6.05%) |
-| 2021-05-07 | Vision          | 334632     |    20145 (6.02%) |     20145 (6.02%) |
-
-LINK: [https://github.com/rw251/.../conditions/diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1)
 
 ### Glomerular filtration rate (GFR)
 
@@ -756,23 +796,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
-
-### Allergy to certain medications codes
-
-This list contains any code that indicates a diagnosis of an allergy - TO CERTAIN MEDICATIONS ONLY - FOR RQ041.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-update
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-04 | EMIS            | 2659647    |   (%)  |    (%) |
-| 2022-04-04 | TPP             | 212621     |    (%)   |     (%)  |
-| 2022-04-04 | Vision          | 341774     |    (%)  |     (%) |
-LINK: [https://github.com/rw251/.../conditions/allergy/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy/2)
 
 ### Renal Replacement Therapy
 
@@ -941,6 +964,96 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
 LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
 
+### Allergy to ACE inhibitors
+
+This list contains any code that indicates an allergy to ACE inhibitors.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-ace/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-ace/1)
+
+### Allergy to angiotensin II receptor antagonists
+
+This list contains any code that indicates an allergy to ARBs.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-arb/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-arb/1)
+
+### Allergy to aspirin.
+
+This list contains any code that indicates an allergy to aspirin.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-aspirin/1)
+
+### Allergy to clopidogrel.
+
+This list contains any code that indicates an allergy to clopidogrel.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-clopidogrel/1)
+
+### Allergy to statins
+
+This list contains any code that indicates an allergy to statins.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-statin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-statin/1)
+
 ### Systemic Lupus Erythematosus
  
 Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list 
@@ -1011,20 +1124,21 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/non-alc-fatty-liver-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/non-alc-fatty-liver-disease/1)
 
-### Hormone replacement therapy medications
+### Hormone replacement therapy
 
-This code set was created from BNF codes starting with 060401. A mapping from prod codes to BNF was used.
+Codes indicating hormone replacement therapy has been carried out. Codes developed from GetSet.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.35% - 5.56%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.45% - 3.53%` is sufficiently narrow that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-17 | EMIS            | 2662570    |   135868 (5.10%) |      915 (0.03%)  |
-| 2022-05-17 | TPP             | 212696     |    11834 (5.56%) |     4834 (2.27%)  |
-| 2022-05-17 | Vision          | 342344     |    14878 (4.35%) |     1627 (0.48%)  |
+| 2022-05-24 | EMIS            | 2662570    |    80788 (3.03%) |     80787 (3.03%) |
+| 2022-05-24 | TPP             | 212696     |     5221 (2.45%) |      5221 (2.45%) |
+| 2022-05-24 | Vision          | 342344     |    12095 (3.53%) |     12095 (3.53%) |
 
-LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy/1)
+
+LINK: [https://github.com/rw251/.../procedures/hormone-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/hormone-replacement-therapy/1)
 
 ### long covid
 
@@ -1214,36 +1328,31 @@ Code set for patients with a diagnosis of psychosis or schizophrenia.
 Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range (1.10% - 1.90%) 
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
+Here is a log for this code set. The prevalence range (1.10% - 1.90%)
 
-
-| Date       | Practice system 	| Population 	|   Patients from ID 	| Patient from code |
-| ---------- | ---------------- | ------------- | --------------------- | ----------------- |
-|2021-06-16  |	EMIS		| 2608685	|	46695 (1.79%)	|  46695 (1.79%)    |
-|2021-06-16  |	TPP		| 210985	|	28695 (1.10%)	|  28695 (1.10%)    |
-|2021-06-16  |	Vision		| 335010	|	49565 (1.90%)	|  49565 (1.90%)    |
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2021-06-16 | EMIS            | 2608685    | 46695 (1.79%)    | 46695 (1.79%)     |
+| 2021-06-16 | TPP             | 210985     | 28695 (1.10%)    | 28695 (1.10%)     |
+| 2021-06-16 | Vision          | 335010     | 49565 (1.90%)    | 49565 (1.90%)     |
 
 LINK: [https://github.com/rw251/.../conditions/schizophrenia-psychosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1)
 
-### Bipolar
+### Bipolar affective disorder
 
 Code set for patients with a diagnosis of bipolar.
 
 Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
-we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-Prevalence range: 0.28% - 0.54%
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%
 
-
-|    Date    | Practice system |  Population | Patients from ID | Patient from code |
-| ---------- | ----------------| ------------| ---------------- | ----------------- |
-| 2021-06-30 |	EMIS	       |  2608685    |	14087 (0.54%)   |   14087 (0.54%)   |
-| 2021-06-30 |	TPP	       |   210985    |    591 (0.28%)   |     591 (0.28%)   |
-| 2021-06-30 |	Vision	       |   335010    |   1608 (0.48%)   |    1608 (0.48%)   |
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2021-06-30 | EMIS            | 2608685    | 14087 (0.54%)    | 14087 (0.54%)     |
+| 2021-06-30 | TPP             | 210985     | 591 (0.28%)      | 591 (0.28%)       |
+| 2021-06-30 | Vision          | 335010     | 1608 (0.48%)     | 1608 (0.48%)      |
 
 LINK: [https://github.com/rw251/.../conditions/bipolar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1)
 
@@ -1395,21 +1504,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
 
-### Hormone replacement therapy medications
-
-This code set was created from BNF codes starting with 0604011. A mapping from prod codes to BNF was used.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.35% - 5.56%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-17 | EMIS            | 2662570    |   135868 (5.10%) |      915 (0.03%)  |
-| 2022-05-17 | TPP             | 212696     |    11834 (5.56%) |     4834 (2.27%)  |
-| 2022-05-17 | Vision          | 342344     |    14878 (4.35%) |     1627 (0.48%)  |
-
-LINK: [https://github.com/rw251/.../medications/oestrogens-and-hrt/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/oestrogens-and-hrt/1)
-
 ### Nonsteroidal anti inflammatory drugs (NSAIDs) oral
 
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
@@ -1427,6 +1521,96 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
 | 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
 LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
+
+### Hormone replacement therapy medications
+
+This code set was created from BNF codes starting with 060401. A mapping from prod codes to BNF was used.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.73% - 12.27%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |   259198 (9.73%) |  269103 (10.10%)  |
+| 2022-06-28 | TPP             | 212907     |   26115 (12.27%) |    20152 (9.47%)  |
+| 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
+LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
+
+### Female sex hormones medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Estradiol (0604011G0)
+Estradiol Acetate (0604011AB)
+Estradiol and estriol with progestogen (0604011J0)
+Estradiol, estriol and estrone (0604011H0)
+Estradiol valerate (0604011K0)
+Estradiol with progestogen (0604011L0)
+Estriol (0604011M0)
+Estropipate (0604011R0)
+Ethinylestradiol (0604011D0)
+Hydroxyprogesterone caproate (0604012J0)
+Medroxyprogesterone acetate (0604012M0)
+Norethisterone (0604012P0)
+Oestrogens conjugated (0604011P0)
+Oestrogens conjugated with bazedoxifene (0604011AD)
+Oestrogens conjugated with progestogen (0604011Q0)
+Progesterone (0604012S0)
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.87% - 12.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-11 | EMIS            | 2664831    |   252718 (9.48%) |   263048 (9.87%)  |
+| 2022-07-11 | TPP             | 212907     |   25361 (11.91%) |   26008 (12.22%)  |
+| 2022-07-11 | Vision          | 343146     |    34128 (9.95%) |   35227 (10.27%)  |
+
+
+LINK: [https://github.com/rw251/.../medications/female-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/female-sex-hormones/1)
+
+### Male sex hormones medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Testosterone (0604020K0)
+Testosterone (0604020K0)
+Testosterone enantate (0604020M0)
+Testosterone esters (0604020U0)
+Testosterone propionate (0604020P0)
+Testosterone undecanoate (0604020T0)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.21 - 0.28%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-11 | EMIS            | 2664831    |    7063 (0.27%)  |    7459 (0.28%)   |
+| 2022-07-11 | TPP             | 212907     |     434 (0.20%)  |     456 (0.21%)   |
+| 2022-07-11 | Vision          | 343146     |     848 (0.25%)  |     868 (0.25%)   |
+LINK: [https://github.com/rw251/.../medications/male-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/male-sex-hormones/1)
+
+### Anabolic steroids medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Androstanalone (0604030S0)
+Nandrolone decanoate (0604030L0)
+Oxandrolone (0604030P0)
+Prasterone (0604030Q0)
+Stanozolol (0604030T0)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0 - 0%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-11 | EMIS            | 2664831    |    97 (0.00%)    |     99 (0.00%)    |
+| 2022-07-11 | TPP             | 212907     |     4 (0.00%)    |      4 (0.00%)    |
+| 2022-07-11 | Vision          | 343146     |    12 (0.00%)    |     12 (0.00%)    |
+
+LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anabolic-steroids/1)
 
 ### HbA1c
 
@@ -1802,6 +1986,40 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/urine-blood/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1)
 
+### Hypertension
+
+Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.55% - 12.95%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-07-14 | EMIS            | 2615750    |  328350 (12.55%) |  328339 ( 12.55%) |
+| 2021-07-14 | TPP             | 211345     |   27363 (12.95%) |   27362 ( 12.95%) |
+| 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
+
+LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
+
+### Diabetes mellitus
+
+Code set for any diagnosis of diabetes mellitus (type I/type II/other).
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.96% - 6.05%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   155421 (5.96%) |    155398 (5.96%) |
+| 2021-05-07 | TPP             | 210817     |    12743 (6.04%) |     12745 (6.05%) |
+| 2021-05-07 | Vision          | 334632     |    20145 (6.02%) |     20145 (6.02%) |
+
+LINK: [https://github.com/rw251/.../conditions/diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1)
+
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
@@ -1927,621 +2145,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 
 | Clinical concept | Terminology | Code | Description |
 | ---------------- | ----------- | ---- | ----------- |
-|hypertension v1|ctv3|G24..|Secondary hypertension|
-|hypertension v1|ctv3|G240.|Malignant secondary hypertension|
-|hypertension v1|ctv3|G241.|Secondary benign hypertension|
-|hypertension v1|ctv3|G244.|Hypertension secondary to endocrine disorders|
-|hypertension v1|ctv3|G24z.|Secondary hypertension NOS|
-|hypertension v1|ctv3|Gyu20|[X]Other secondary hypertension|
-|hypertension v1|ctv3|Gyu21|[X]Hypertension secondary to other renal disorders|
-|hypertension v1|ctv3|Xa0kX|Hypertension due to renovascular disease|
-|hypertension v1|ctv3|XE0Ub|Systemic arterial hypertension|
-|hypertension v1|ctv3|G2400|Secondary malignant renovascular hypertension|
-|hypertension v1|ctv3|G240z|Secondary malignant hypertension NOS|
-|hypertension v1|ctv3|G2410|Secondary benign renovascular hypertension|
-|hypertension v1|ctv3|G241z|Secondary benign hypertension NOS|
-|hypertension v1|ctv3|G24z0|Secondary renovascular hypertension NOS|
-|hypertension v1|ctv3|G20..|Primary hypertension|
-|hypertension v1|ctv3|G202.|Systolic hypertension|
-|hypertension v1|ctv3|G20z.|Essential hypertension NOS|
-|hypertension v1|ctv3|XE0Uc|Primary hypertension|
-|hypertension v1|ctv3|XE0W8|Hypertension|
-|hypertension v1|ctv3|XSDSb|Diastolic hypertension|
-|hypertension v1|ctv3|Xa0Cs|Labile hypertension|
-|hypertension v1|ctv3|Xa3fQ|Malignant hypertension|
-|hypertension v1|ctv3|XaZWm|Stage 1 hypertension|
-|hypertension v1|ctv3|XaZWn|Severe hypertension|
-|hypertension v1|ctv3|XaZbz|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
-|hypertension v1|ctv3|XaZzo|Nocturnal hypertension|
-|hypertension v1|ctv3|G2...|Hypertensive disease|
-|hypertension v1|ctv3|G200.|Malignant essential hypertension|
-|hypertension v1|ctv3|G201.|Benign essential hypertension|
-|hypertension v1|ctv3|XE0Ud|Essential hypertension NOS|
-|hypertension v1|ctv3|Xa41E|Maternal hypertension|
-|hypertension v1|ctv3|Xab9L|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
-|hypertension v1|ctv3|Xab9M|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
-|hypertension v1|ctv3|G2y..|Other specified hypertensive disease|
-|hypertension v1|ctv3|G2z..|Hypertensive disease NOS|
-|hypertension v1|ctv3|Gyu2.|[X]Hypertensive diseases|
-|hypertension v1|ctv3|XM19D|[EDTA] Renal vascular disease due to hypertension (no primary renal disease) associated with renal failure|
-|hypertension v1|ctv3|XM19E|[EDTA] Renal vascular disease due to malignant hypertension (no primary renal disease) associated with renal failure|
-|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
-|hypertension v1|emis|^ESCTMA364280|Malignant hypertension|
-|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
-|hypertension v1|readv2|G2...11|BP - hypertensive disease|
-|hypertension v1|readv2|G2...00|Hypertensive disease|
-|hypertension v1|readv2|G2z..00|Hypertensive disease NOS|
-|hypertension v1|readv2|G2y..00|Other specified hypertensive disease|
-|hypertension v1|readv2|G28..00|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
-|hypertension v1|readv2|G26..00|Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
-|hypertension v1|readv2|G26..11|Severe hypertension|
-|hypertension v1|readv2|G25..00|Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
-|hypertension v1|readv2|G25..11|Stage 1 hypertension|
-|hypertension v1|readv2|G251.00|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
-|hypertension v1|readv2|G250.00|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
-|hypertension v1|readv2|G24..00|Secondary hypertension|
-|hypertension v1|readv2|G24z.00|Secondary hypertension NOS|
-|hypertension v1|readv2|G24zz00|Secondary hypertension NOS|
-|hypertension v1|readv2|G24z000|Secondary renovascular hypertension NOS|
-|hypertension v1|readv2|G244.00|Hypertension secondary to endocrine disorders|
-|hypertension v1|readv2|G241.00|Secondary benign hypertension|
-|hypertension v1|readv2|G241z00|Secondary benign hypertension NOS|
-|hypertension v1|readv2|G241000|Secondary benign renovascular hypertension|
-|hypertension v1|readv2|G240.00|Secondary malignant hypertension|
-|hypertension v1|readv2|G240z00|Secondary malignant hypertension NOS|
-|hypertension v1|readv2|G240000|Secondary malignant renovascular hypertension|
-|hypertension v1|readv2|G20..11|High blood pressure|
-|hypertension v1|readv2|G20..00|Essential hypertension|
-|hypertension v1|readv2|G20..12|Primary hypertension|
-|hypertension v1|readv2|G20z.00|Essential hypertension NOS|
-|hypertension v1|readv2|G20z.11|Hypertension NOS|
-|hypertension v1|readv2|G203.00|Diastolic hypertension|
-|hypertension v1|readv2|G202.00|Systolic hypertension|
-|hypertension v1|readv2|G201.00|Benign essential hypertension|
-|hypertension v1|readv2|G200.00|Malignant essential hypertension|
-|hypertension v1|readv2|Gyu2.00|[X]Hypertensive diseases|
-|hypertension v1|readv2|Gyu2100|[X]Hypertension secondary to other renal disorders|
-|hypertension v1|readv2|Gyu2000|[X]Other secondary hypertension|
-|diabetes v1|ctv3|C10..|DM - Diabetes mellitus|
-|diabetes v1|ctv3|C100.|Diabetes mellitus with no mention of complication|
-|diabetes v1|ctv3|C1000|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|ctv3|C1001|Maturity onset diabetes|
-|diabetes v1|ctv3|C100z|Diabetes mellitus NOS with no mention of complication|
-|diabetes v1|ctv3|C101.|Diabetic ketoacidosis|
-|diabetes v1|ctv3|C1010|Diabetes mellitus, juvenile type, with ketoacidosis|
-|diabetes v1|ctv3|C1011|Diabetes mellitus, adult onset, with ketoacidosis|
-|diabetes v1|ctv3|C101y|Other specified diabetes mellitus with ketoacidosis|
-|diabetes v1|ctv3|C101z|Diabetes mellitus NOS with ketoacidosis|
-|diabetes v1|ctv3|C102.|Diabetes mellitus with hyperosmolar coma|
-|diabetes v1|ctv3|C1020|Diabetes mellitus, juvenile type, with hyperosmolar coma|
-|diabetes v1|ctv3|C1021|Diabetes mellitus, adult onset, with hyperosmolar coma|
-|diabetes v1|ctv3|C102z|Diabetes mellitus NOS with hyperosmolar coma|
-|diabetes v1|ctv3|C103.|Diabetes mellitus with ketoacidotic coma|
-|diabetes v1|ctv3|C1030|Diabetes mellitus, juvenile type, with ketoacidotic coma|
-|diabetes v1|ctv3|C1031|Diabetes mellitus, adult onset, with ketoacidotic coma|
-|diabetes v1|ctv3|C103y|Other specified diabetes mellitus with coma|
-|diabetes v1|ctv3|C103z|Diabetes mellitus NOS with ketoacidotic coma|
-|diabetes v1|ctv3|C1040|Diabetes mellitus, juvenile type, with renal manifestation|
-|diabetes v1|ctv3|C1041|Diabetes mellitus, adult onset, with renal manifestation|
-|diabetes v1|ctv3|C104y|Other specified diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C104z|Diabetes mellitus with nephropathy NOS|
-|diabetes v1|ctv3|C105.|Diabetes mellitus with ophthalmic manifestation|
-|diabetes v1|ctv3|C1050|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
-|diabetes v1|ctv3|C1051|Diabetes mellitus, adult onset, with ophthalmic manifestation|
-|diabetes v1|ctv3|C105y|Other specified diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C105z|Diabetes mellitus NOS with ophthalmic manifestation|
-|diabetes v1|ctv3|C1060|Diabetes mellitus, juvenile type, with neurological manifestation|
-|diabetes v1|ctv3|C1061|Diabetes mellitus, adult onset, with neurological manifestation|
-|diabetes v1|ctv3|C106y|Other specified diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C106z|Diabetes mellitus NOS with neurological manifestation|
-|diabetes v1|ctv3|C1070|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1071|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1072|Diabetes mellitus, adult with gangrene|
-|diabetes v1|ctv3|C107y|Other specified diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|ctv3|C107z|Diabetes mellitus NOS with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1080|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C1081|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C1082|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C1083|Insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1085|Insulin-dependent diabetes mellitus with ulcer|
-|diabetes v1|ctv3|C1086|Insulin-dependent diabetes mellitus with gangrene|
-|diabetes v1|ctv3|C1087|IDDM - Insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|ctv3|C1088|Insulin-dependent diabetes mellitus - poor control|
-|diabetes v1|ctv3|C1089|Insulin-dependent diabetes maturity onset|
-|diabetes v1|ctv3|C108y|Other specified diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C108z|Unspecified diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1090|Non-insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C1091|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C1092|Non-insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C1093|Non-insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1094|Non-insulin-dependent diabetes mellitus with ulcer|
-|diabetes v1|ctv3|C1095|Non-insulin-dependent diabetes mellitus with gangrene|
-|diabetes v1|ctv3|C1096|NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|ctv3|C1097|Non-insulin-dependent diabetes mellitus - poor control|
-|diabetes v1|ctv3|C10A0|Malnutrition-related diabetes mellitus with coma|
-|diabetes v1|ctv3|C10A1|Malnutrition-related diabetes mellitus with ketoacidosis|
-|diabetes v1|ctv3|C10A2|Malnutrition-related diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C10A3|Malnutrition-related diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C10A4|Malnutrition-related diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C10A5|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|ctv3|C10A6|Malnutrition-related diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C10A7|Malnutrition-related diabetes mellitus without complications|
-|diabetes v1|ctv3|C10B0|Steroid-induced diabetes mellitus without complication|
-|diabetes v1|ctv3|C10y.|Diabetes mellitus with other specified manifestation|
-|diabetes v1|ctv3|C10y0|Diabetes mellitus, juvenile type, with other specified manifestation|
-|diabetes v1|ctv3|C10y1|Diabetes mellitus, adult onset, with other specified manifestation|
-|diabetes v1|ctv3|C10yy|Other specified diabetes mellitus with other specified complications|
-|diabetes v1|ctv3|C10yz|Diabetes mellitus NOS with other specified manifestation|
-|diabetes v1|ctv3|C10z.|Diabetes mellitus with unspecified complication|
-|diabetes v1|ctv3|C10z0|Diabetes mellitus, juvenile type, with unspecified complication|
-|diabetes v1|ctv3|C10z1|Diabetes mellitus, adult onset, with unspecified complication|
-|diabetes v1|ctv3|C10zy|Other specified diabetes mellitus with unspecified complications|
-|diabetes v1|ctv3|C10zz|Diabetes mellitus NOS with unspecified complication|
-|diabetes v1|ctv3|Cyu20|[X]Other specified diabetes mellitus|
-|diabetes v1|ctv3|Cyu21|[X]Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|ctv3|Cyu22|[X]Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|ctv3|Cyu23|[X]Unspecified diabetes mellitus with renal complications|
-|diabetes v1|ctv3|L180.|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|diabetes v1|ctv3|L1800|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
-|diabetes v1|ctv3|L1801|Diabetes mellitus during pregnancy - baby delivered|
-|diabetes v1|ctv3|L1802|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
-|diabetes v1|ctv3|L1803|Diabetes mellitus during pregnancy - baby not yet delivered|
-|diabetes v1|ctv3|L1804|Diabetes mellitus in the puerperium - baby delivered during previous episode of care|
-|diabetes v1|ctv3|L1805|Pre-existing diabetes mellitus, insulin-dependent|
-|diabetes v1|ctv3|L1806|Pre-existing diabetes mellitus, non-insulin-dependent|
-|diabetes v1|ctv3|L1807|Pre-existing malnutrition-related diabetes mellitus|
-|diabetes v1|ctv3|L1808|Diabetes mellitus arising in pregnancy|
-|diabetes v1|ctv3|L180z|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
-|diabetes v1|ctv3|Lyu29|[X]Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|ctv3|Q441.|Neonatal diabetes mellitus|
-|diabetes v1|ctv3|X40J4|Insulin-dependent diabetes mellitus|
-|diabetes v1|ctv3|X40J5|Non-insulin-dependent diabetes mellitus|
-|diabetes v1|ctv3|X40J6|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|ctv3|X40J7|Malnutrition-related diabetes mellitus|
-|diabetes v1|ctv3|X40J8|Malnutrition-related diabetes mellitus - fibrocalculous|
-|diabetes v1|ctv3|X40J9|Malnutrition-related diabetes mellitus - protein-deficient|
-|diabetes v1|ctv3|X40JA|Secondary diabetes mellitus|
-|diabetes v1|ctv3|X40JB|Secondary pancreatic diabetes mellitus|
-|diabetes v1|ctv3|X40JC|Secondary endocrine diabetes mellitus|
-|diabetes v1|ctv3|X40JE|Reaven's syndrome|
-|diabetes v1|ctv3|X40JF|Transitory neonatal diabetes mellitus|
-|diabetes v1|ctv3|X40JG|Genetic syndromes of diabetes mellitus|
-|diabetes v1|ctv3|X40JI|Maturity onset diabetes in youth type 1|
-|diabetes v1|ctv3|X40JJ|Diabetes mellitus autosomal dominant type 2|
-|diabetes v1|ctv3|X40JN|Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus|
-|diabetes v1|ctv3|X40JQ|Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus|
-|diabetes v1|ctv3|X40JV|Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities|
-|diabetes v1|ctv3|X40JX|Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities|
-|diabetes v1|ctv3|X40JY|Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea|
-|diabetes v1|ctv3|X40Ja|Abnormal metabolic state in diabetes mellitus|
-|diabetes v1|ctv3|X50GO|Soft tissue complication of diabetes mellitus|
-|diabetes v1|ctv3|XE10E|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|ctv3|XE10F|Diabetes mellitus, adult onset, with no mention of complication|
-|diabetes v1|ctv3|XE10G|Diabetes mellitus with renal manifestation|
-|diabetes v1|ctv3|XE10H|Diabetes mellitus with neurological manifestation|
-|diabetes v1|ctv3|XE10I|Diabetes mellitus with peripheral circulatory disorder|
-|diabetes v1|ctv3|XE12C|Insulin dependent diabetes mel|
-|diabetes v1|ctv3|XE15k|Diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XM19i|[EDTA] Diabetes Type I (insulin dependent) associated with renal failure|
-|diabetes v1|ctv3|XM19j|[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure|
-|diabetes v1|ctv3|XM1Qx|Diabetes mellitus with gangrene|
-|diabetes v1|ctv3|XSETH|Maturity onset diabetes mellitus in young|
-|diabetes v1|ctv3|XSETK|Drug-induced diabetes mellitus|
-|diabetes v1|ctv3|XSETp|Diabetes mellitus due to insulin receptor antibodies|
-|diabetes v1|ctv3|Xa08a|Small for gestation neonatal diabetes mellitus|
-|diabetes v1|ctv3|Xa4g7|Unstable type 1 diabetes mellitus|
-|diabetes v1|ctv3|Xa9FG|Postpancreatectomy diabetes mellitus|
-|diabetes v1|ctv3|XaA6b|Perceived control of insulin-dependent diabetes|
-|diabetes v1|ctv3|XaELP|Insulin-dependent diabetes without complication|
-|diabetes v1|ctv3|XaELQ|Non-insulin-dependent diabetes mellitus without complication|
-|diabetes v1|ctv3|XaEnn|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|ctv3|XaEno|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XaEnp|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|ctv3|XaEnq|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XaF04|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|ctv3|XaF05|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|ctv3|XaFWG|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|ctv3|XaFWI|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|ctv3|XaFm8|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|ctv3|XaFmA|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|ctv3|XaFmK|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|ctv3|XaFmL|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|ctv3|XaFmM|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|ctv3|XaFn7|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|ctv3|XaFn8|Non-insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|ctv3|XaFn9|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|ctv3|XaIrf|Hyperosmolar non-ketotic state in type II diabetes mellitus|
-|diabetes v1|ctv3|XaIyz|Diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaIz0|Diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzM|Type 1 diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzN|Type 1 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaIzQ|Type 2 diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzR|Type 2 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaJQp|Type II diabetes mellitus with exudative maculopathy|
-|diabetes v1|ctv3|XaJSr|Type I diabetes mellitus with exudative maculopathy|
-|diabetes v1|ctv3|XaJUI|Diabetes mellitus induced by non-steroid drugs|
-|diabetes v1|ctv3|XaJlL|Secondary pancreatic diabetes mellitus without complication|
-|diabetes v1|ctv3|XaJlM|Diabetes mellitus induced by non-steroid drugs without complication|
-|diabetes v1|ctv3|XaJlQ|Lipoatrophic diabetes mellitus without complication|
-|diabetes v1|ctv3|XaJlR|Secondary diabetes mellitus without complication|
-|diabetes v1|ctv3|XaKyW|Type I diabetes mellitus with gastroparesis|
-|diabetes v1|ctv3|XaKyX|Type II diabetes mellitus with gastroparesis|
-|diabetes v1|ctv3|XaMzI|Cystic fibrosis related diabetes mellitus|
-|diabetes v1|ctv3|XaOPt|Maternally inherited diabetes mellitus|
-|diabetes v1|ctv3|XaOPu|Latent autoimmune diabetes mellitus in adult|
-|diabetes v1|ctv3|XacoB|Maturity onset diabetes of the young type 5|
-|diabetes v1|ctv3|XaIfG|Type II diabetes on insulin|
-|diabetes v1|ctv3|XaIfI|Type II diabetes on diet only|
-|diabetes v1|emis|^ESCTGE801661|Gestational diabetes, delivered|
-|diabetes v1|emis|^ESCTGE801662|Gestational diabetes mellitus complicating pregnancy|
-|diabetes v1|emis|^ESCTMA257526|Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn|
-|diabetes v1|emis|EMISQNU2|Number of admissions for ketoacidosis|
-|diabetes v1|emis|ESCTDI20|Diabetic ketoacidosis without coma|
-|diabetes v1|emis|ESCTDI22|Diabetic severe hyperglycaemia|
-|diabetes v1|emis|ESCTDI23|Diabetic hyperosmolar non-ketotic state|
-|diabetes v1|emis|ESCTDR3|Drug-induced diabetes mellitus|
-|diabetes v1|emis|ESCTSE11|Secondary endocrine diabetes mellitus|
-|diabetes v1|readv2|C10..00|Diabetes mellitus|
-|diabetes v1|readv2|C100.00|Diabetes mellitus with no mention of complication|
-|diabetes v1|readv2|C100000|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|readv2|C100011|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C100100|Diabetes mellitus, adult onset, with no mention of complication|
-|diabetes v1|readv2|C100111|Maturity onset diabetes|
-|diabetes v1|readv2|C100112|Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C100z00|Diabetes mellitus NOS with no mention of complication|
-|diabetes v1|readv2|C101.00|Diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C101000|Diabetes mellitus, juvenile type, with ketoacidosis|
-|diabetes v1|readv2|C101100|Diabetes mellitus, adult onset, with ketoacidosis|
-|diabetes v1|readv2|C101y00|Other specified diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C101z00|Diabetes mellitus NOS with ketoacidosis|
-|diabetes v1|readv2|C102.00|Diabetes mellitus with hyperosmolar coma|
-|diabetes v1|readv2|C102000|Diabetes mellitus, juvenile type, with hyperosmolar coma|
-|diabetes v1|readv2|C102100|Diabetes mellitus, adult onset, with hyperosmolar coma|
-|diabetes v1|readv2|C102z00|Diabetes mellitus NOS with hyperosmolar coma|
-|diabetes v1|readv2|C103.00|Diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C103000|Diabetes mellitus, juvenile type, with ketoacidotic coma|
-|diabetes v1|readv2|C103100|Diabetes mellitus, adult onset, with ketoacidotic coma|
-|diabetes v1|readv2|C103y00|Other specified diabetes mellitus with coma|
-|diabetes v1|readv2|C103z00|Diabetes mellitus NOS with ketoacidotic coma|
-|diabetes v1|readv2|C104.00|Diabetes mellitus with renal manifestation|
-|diabetes v1|readv2|C104000|Diabetes mellitus, juvenile type, with renal manifestation|
-|diabetes v1|readv2|C104100|Diabetes mellitus, adult onset, with renal manifestation|
-|diabetes v1|readv2|C104y00|Other specified diabetes mellitus with renal complications|
-|diabetes v1|readv2|C104z00|Diabetes mellitus with nephropathy NOS|
-|diabetes v1|readv2|C105.00|Diabetes mellitus with ophthalmic manifestation|
-|diabetes v1|readv2|C105000|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
-|diabetes v1|readv2|C105100|Diabetes mellitus, adult onset, with ophthalmic manifestation|
-|diabetes v1|readv2|C105y00|Other specified diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C105z00|Diabetes mellitus NOS with ophthalmic manifestation|
-|diabetes v1|readv2|C106.00|Diabetes mellitus with neurological manifestation|
-|diabetes v1|readv2|C106.12|Diabetes mellitus with neuropathy|
-|diabetes v1|readv2|C106.13|Diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C106000|Diabetes mellitus, juvenile type, with neurological manifestation|
-|diabetes v1|readv2|C106100|Diabetes mellitus, adult onset, with neurological manifestation|
-|diabetes v1|readv2|C106y00|Other specified diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C106z00|Diabetes mellitus NOS with neurological manifestation|
-|diabetes v1|readv2|C107.00|Diabetes mellitus with peripheral circulatory disorder|
-|diabetes v1|readv2|C107.11|Diabetes mellitus with gangrene|
-|diabetes v1|readv2|C107000|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
-|diabetes v1|readv2|C107100|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
-|diabetes v1|readv2|C107200|Diabetes mellitus, adult with gangrene|
-|diabetes v1|readv2|C107y00|Other specified diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|readv2|C107z00|Diabetes mellitus NOS with peripheral circulatory disorder|
-|diabetes v1|readv2|C108.00|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108.11|IDDM-Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108.12|Type 1 diabetes mellitus|
-|diabetes v1|readv2|C108.13|Type I diabetes mellitus|
-|diabetes v1|readv2|C108000|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108011|Type I diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108012|Type 1 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108100|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108111|Type I diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108112|Type 1 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108200|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108211|Type I diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108212|Type 1 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108300|Insulin dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108311|Type I diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108312|Type 1 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108400|Unstable insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108411|Unstable type I diabetes mellitus|
-|diabetes v1|readv2|C108412|Unstable type 1 diabetes mellitus|
-|diabetes v1|readv2|C108500|Insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108511|Type I diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108512|Type 1 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108600|Insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108611|Type I diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108612|Type 1 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108700|Insulin dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108711|Type I diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108712|Type 1 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108800|Insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C108811|Type I diabetes mellitus - poor control|
-|diabetes v1|readv2|C108812|Type 1 diabetes mellitus - poor control|
-|diabetes v1|readv2|C108900|Insulin dependent diabetes maturity onset|
-|diabetes v1|readv2|C108911|Type I diabetes mellitus maturity onset|
-|diabetes v1|readv2|C108912|Type 1 diabetes mellitus maturity onset|
-|diabetes v1|readv2|C108A00|Insulin-dependent diabetes without complication|
-|diabetes v1|readv2|C108A11|Type I diabetes mellitus without complication|
-|diabetes v1|readv2|C108A12|Type 1 diabetes mellitus without complication|
-|diabetes v1|readv2|C108B00|Insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108B11|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108B12|Type 1 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108C00|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108C11|Type I diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108C12|Type 1 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108D00|Insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108D11|Type I diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108D12|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108E00|Insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108E11|Type I diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108E12|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108F00|Insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108F11|Type I diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108F12|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108G00|Insulin dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108G11|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108G12|Type 1 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108H00|Insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108H11|Type I diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108H12|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108J00|Insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108J11|Type I diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108J12|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108y00|Other specified diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108z00|Unspecified diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109.00|Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109.11|NIDDM - Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109.12|Type 2 diabetes mellitus|
-|diabetes v1|readv2|C109.13|Type II diabetes mellitus|
-|diabetes v1|readv2|C109000|Non-insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109011|Type II diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109012|Type 2 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109100|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109111|Type II diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109112|Type 2 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109200|Non-insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109211|Type II diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109212|Type 2 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109300|Non-insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109311|Type II diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109312|Type 2 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109400|Non-insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109411|Type II diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109412|Type 2 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109500|Non-insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109511|Type II diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109512|Type 2 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109600|Non-insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109611|Type II diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109612|Type 2 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109700|Non-insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C109711|Type II diabetes mellitus - poor control|
-|diabetes v1|readv2|C109712|Type 2 diabetes mellitus - poor control|
-|diabetes v1|readv2|C109800|Reaven's syndrome|
-|diabetes v1|readv2|C109900|Non-insulin-dependent diabetes mellitus without complication|
-|diabetes v1|readv2|C109911|Type II diabetes mellitus without complication|
-|diabetes v1|readv2|C109912|Type 2 diabetes mellitus without complication|
-|diabetes v1|readv2|C109A00|Non-insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109A11|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109A12|Type 2 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109B00|Non-insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109B11|Type II diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109B12|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109C00|Non-insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109C11|Type II diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109C12|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109D00|Non-insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109D11|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109D12|Type 2 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109E00|Non-insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109E11|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109E12|Type 2 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109F00|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109F11|Type II diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109F12|Type 2 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109G00|Non-insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109G11|Type II diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109G12|Type 2 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109H00|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109H11|Type II diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109H12|Type 2 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109J00|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|readv2|C109J11|Insulin treated non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109J12|Insulin treated Type II diabetes mellitus|
-|diabetes v1|readv2|C109K00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
-|diabetes v1|readv2|C10A.00|Malnutrition-related diabetes mellitus|
-|diabetes v1|readv2|C10A000|Malnutrition-related diabetes mellitus with coma|
-|diabetes v1|readv2|C10A100|Malnutrition-related diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10A200|Malnutrition-related diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10A300|Malnutrition-related diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10A400|Malnutrition-related diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10A500|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|readv2|C10A600|Malnutrition-related diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10A700|Malnutrition-related diabetes mellitus without complications|
-|diabetes v1|readv2|C10AW00|Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|C10AX00|Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|readv2|C10B.00|Diabetes mellitus induced by steroids|
-|diabetes v1|readv2|C10B000|Steroid induced diabetes mellitus without complication|
-|diabetes v1|readv2|C10C.00|Diabetes mellitus autosomal dominant|
-|diabetes v1|readv2|C10C.11|Maturity onset diabetes in youth|
-|diabetes v1|readv2|C10C.12|Maturity onset diabetes in youth type 1|
-|diabetes v1|readv2|C10D.00|Diabetes mellitus autosomal dominant type 2|
-|diabetes v1|readv2|C10D.11|Maturity onset diabetes in youth type 2|
-|diabetes v1|readv2|C10E.00|Type 1 diabetes mellitus|
-|diabetes v1|readv2|C10E.11|Type I diabetes mellitus|
-|diabetes v1|readv2|C10E.12|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C10E000|Type 1 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E011|Type I diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E012|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E100|Type 1 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E111|Type I diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E112|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E200|Type 1 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E211|Type I diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E212|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E300|Type 1 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E311|Type I diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E312|Insulin dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E400|Unstable type 1 diabetes mellitus|
-|diabetes v1|readv2|C10E411|Unstable type I diabetes mellitus|
-|diabetes v1|readv2|C10E412|Unstable insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C10E500|Type 1 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E511|Type I diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E512|Insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E600|Type 1 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E611|Type I diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E612|Insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E700|Type 1 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E711|Type I diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E712|Insulin dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E800|Type 1 diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E811|Type I diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E812|Insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E900|Type 1 diabetes mellitus maturity onset|
-|diabetes v1|readv2|C10E911|Type I diabetes mellitus maturity onset|
-|diabetes v1|readv2|C10E912|Insulin dependent diabetes maturity onset|
-|diabetes v1|readv2|C10EA00|Type 1 diabetes mellitus without complication|
-|diabetes v1|readv2|C10EA11|Type I diabetes mellitus without complication|
-|diabetes v1|readv2|C10EA12|Insulin-dependent diabetes without complication|
-|diabetes v1|readv2|C10EB00|Type 1 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EB11|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EB12|Insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EC00|Type 1 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10EC11|Type I diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10EC12|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10ED00|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10ED11|Type I diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10ED12|Insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10EE00|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EE11|Type I diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EE12|Insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EF00|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EF11|Type I diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EF12|Insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EG00|Type 1 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EG11|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EG12|Insulin dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EH00|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EH11|Type I diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EH12|Insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EJ00|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EJ11|Type I diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EJ12|Insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EK00|Type 1 diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10EK11|Type I diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10EL00|Type 1 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10EL11|Type I diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10EM00|Type 1 diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10EM11|Type I diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10EN00|Type 1 diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10EN11|Type I diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10EP00|Type 1 diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10EP11|Type I diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10EQ00|Type 1 diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10EQ11|Type I diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10ER00|Latent autoimmune diabetes mellitus in adult|
-|diabetes v1|readv2|C10F.00|Type 2 diabetes mellitus|
-|diabetes v1|readv2|C10F.11|Type II diabetes mellitus|
-|diabetes v1|readv2|C10F000|Type 2 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10F011|Type II diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10F100|Type 2 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10F111|Type II diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10F200|Type 2 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10F211|Type II diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10F300|Type 2 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10F311|Type II diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10F400|Type 2 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10F411|Type II diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10F500|Type 2 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10F511|Type II diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10F600|Type 2 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10F611|Type II diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10F700|Type 2 diabetes mellitus - poor control|
-|diabetes v1|readv2|C10F711|Type II diabetes mellitus - poor control|
-|diabetes v1|readv2|C10F800|Reaven's syndrome|
-|diabetes v1|readv2|C10F811|Metabolic syndrome X|
-|diabetes v1|readv2|C10F900|Type 2 diabetes mellitus without complication|
-|diabetes v1|readv2|C10F911|Type II diabetes mellitus without complication|
-|diabetes v1|readv2|C10FA00|Type 2 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10FA11|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10FB00|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10FB11|Type II diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10FC00|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10FC11|Type II diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10FD00|Type 2 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10FD11|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10FE00|Type 2 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10FE11|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10FF00|Type 2 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10FF11|Type II diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10FG00|Type 2 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10FG11|Type II diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10FH00|Type 2 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10FH11|Type II diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10FJ00|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|readv2|C10FJ11|Insulin treated Type II diabetes mellitus|
-|diabetes v1|readv2|C10FK00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
-|diabetes v1|readv2|C10FK11|Hyperosmolar non-ketotic state in type II diabetes mellitus|
-|diabetes v1|readv2|C10FL00|Type 2 diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10FL11|Type II diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10FM00|Type 2 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10FM11|Type II diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10FN00|Type 2 diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10FN11|Type II diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10FP00|Type 2 diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10FP11|Type II diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10FQ00|Type 2 diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10FQ11|Type II diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10FR00|Type 2 diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10FR11|Type II diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10FS00|Maternally inherited diabetes mellitus|
-|diabetes v1|readv2|C10G.00|Secondary pancreatic diabetes mellitus|
-|diabetes v1|readv2|C10G000|Secondary pancreatic diabetes mellitus without complication|
-|diabetes v1|readv2|C10H.00|Diabetes mellitus induced by non-steroid drugs|
-|diabetes v1|readv2|C10H000|Diabetes mellitus induced by non-steroid drugs without complication|
-|diabetes v1|readv2|C10M.00|Lipoatrophic diabetes mellitus|
-|diabetes v1|readv2|C10M000|Lipoatrophic diabetes mellitus without complication|
-|diabetes v1|readv2|C10N.00|Secondary diabetes mellitus|
-|diabetes v1|readv2|C10N000|Secondary diabetes mellitus without complication|
-|diabetes v1|readv2|C10N100|Cystic fibrosis related diabetes mellitus|
-|diabetes v1|readv2|C10Q.00|Maturity onset diabetes of the young type 5|
-|diabetes v1|readv2|C10y.00|Diabetes mellitus with other specified manifestation|
-|diabetes v1|readv2|C10y000|Diabetes mellitus, juvenile type, with other specified manifestation|
-|diabetes v1|readv2|C10y100|Diabetes mellitus, adult onset, with other specified manifestation|
-|diabetes v1|readv2|C10yy00|Other specified diabetes mellitus with other specified complications|
-|diabetes v1|readv2|C10yz00|Diabetes mellitus NOS with other specified manifestation|
-|diabetes v1|readv2|C10z.00|Diabetes mellitus with unspecified complication|
-|diabetes v1|readv2|C10z000|Diabetes mellitus, juvenile type, with unspecified complication|
-|diabetes v1|readv2|C10z100|Diabetes mellitus, adult onset, with unspecified complication|
-|diabetes v1|readv2|C10zy00|Other specified diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|C10zz00|Diabetes mellitus NOS with unspecified complication|
-|diabetes v1|readv2|C1A0.00|Metabolic syndrome|
-|diabetes v1|readv2|Cyu2.00|[X]Diabetes mellitus|
-|diabetes v1|readv2|Cyu2000|[X]Other specified diabetes mellitus|
-|diabetes v1|readv2|Cyu2100|[X]Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|readv2|Cyu2200|[X]Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|Cyu2300|[X]Unspecified diabetes mellitus with renal complications|
-|diabetes v1|readv2|L180.00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|diabetes v1|readv2|L180000|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
-|diabetes v1|readv2|L180100|Diabetes mellitus during pregnancy - baby delivered|
-|diabetes v1|readv2|L180200|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
-|diabetes v1|readv2|L180300|Diabetes mellitus during pregnancy - baby not yet delivered|
-|diabetes v1|readv2|L180400|Diabetes mellitus in the pueperium - baby delivered during previous episode of care|
-|diabetes v1|readv2|L180500|Pre-existing diabetes mellitus, insulin-dependent|
-|diabetes v1|readv2|L180600|Pre-existing diabetes mellitus, non-insulin-dependent|
-|diabetes v1|readv2|L180700|Pre-existing malnutrition-related diabetes mellitus|
-|diabetes v1|readv2|L180800|Diabetes mellitus arising in pregnancy|
-|diabetes v1|readv2|L180811|Gestational diabetes mellitus|
-|diabetes v1|readv2|L180900|Gestational diabetes mellitus|
-|diabetes v1|readv2|L180A00|Pre-existing type 1 diabetes mellitus in pregnancy|
-|diabetes v1|readv2|L180B00|Pre-existing type 2 diabetes mellitus in pregnancy|
-|diabetes v1|readv2|L180X00|Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|readv2|L180z00|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
-|diabetes v1|readv2|Lyu2900|[X]Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|readv2|PKyP.00|Diabetes insipidus, diabetes mellitus, optic atrophy and deafness|
-|diabetes v1|readv2|Q441.00|Neonatal diabetes mellitus|
-|diabetes v1|readv2|ZV13F00|[V]Personal history of gestational diabetes mellitus|
 |egfr v1|ctv3|X70kK|Tc99m-DTPA clearance - GFR|
 |egfr v1|ctv3|X70kL|Cr51- EDTA clearance - GFR|
 |egfr v1|ctv3|X90kf|With GFR|
@@ -3244,29 +2847,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
 |covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
 |covid-positive-test-other v1|readv2|4J3R1|2019-nCoV (novel coronavirus) detected |
-|allergy v2|ctv3|Xa5gp|Pentostatin allergy|
-|allergy v2|ctv3|Xa5q0|Nystatin allergy|
-|allergy v2|ctv3|Xa5zt|Simvastatin allergy|
-|allergy v2|ctv3|Xa5zu|Fluvastatin allergy|
-|allergy v2|ctv3|Xa5zv|Pravastatin allergy|
-|allergy v2|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|ctv3|XaJ5y|H/O: angiotensin converting enzyme inhibitor allergy|
-|allergy v2|ctv3|Xa60w|Angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|ctv3|XaJ8Y|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|ctv3|XaJ3e|H/O: clopidogrel allergy|
-|allergy v2|ctv3|XaJ8V|[V]Personal history of clopidogrel allergy|
-|allergy v2|readv2|14LN.|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|readv2|ZV14E|[V]Personal history of angiotensin II receptor antagonist allergy|
-|allergy v2|readv2|ZV14D|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|readv2|14LM.|H/O: angiotensin converting enzyme inhibitor allergy|
-|allergy v2|readv2|14LK.|H/O: aspirin allergy|
-|allergy v2|readv2|ZV148|[V]Personal history of aspirin allergy|
-|allergy v2|readv2|Xa5dq|Aspirin allergy|
-|allergy v2|readv2|XaDzd|[V]Personal history of aspirin allergy|
-|allergy v2|readv2|XaIpk|H/O: aspirin allergy|
-|allergy v2|readv2|14LQ.|H/O: clopidogrel allergy|
-|allergy v2|readv2|ZV14B|[V]Personal history of clopidogrel allergy|
 |renal-replacement-therapy v1|ctv3|14S2.|H/O: kidney recipient|
 |renal-replacement-therapy v1|ctv3|7A600|Insertion of arteriovenous prosthesis|
 |renal-replacement-therapy v1|ctv3|7A602|Attention to arteriovenous shunt|
@@ -4129,6 +3709,28 @@ All code sets required for this analysis are listed here. Individual lists for e
 |chronic-kidney-disease v1|snomed|691411000119101|Anaemia in chronic kidney disease stage 5|
 |chronic-kidney-disease v1|snomed|444271000|Erythropoietin resistance in anemia of chronic kidney disease|
 |chronic-kidney-disease v1|snomed|15781000119107|Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)|
+|allergy-ace v1|ctv3|XaJ5y|H/O: angiotensin converting enzyme inhibitor allergy|
+|allergy-ace v1|ctv3|Xa60w|Angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|ctv3|XaJ8Y|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|readv2|ZV14D|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|readv2|14LM.|H/O: angiotensin converting enzyme inhibitor allergy|
+|allergy-arb v1|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
+|allergy-arb v1|readv2|14LN.|H/O: angiotensin II receptor antagonist allergy|
+|allergy-arb v1|readv2|ZV14E|[V]Personal history of angiotensin II receptor antagonist allergy|
+|allergy-aspirin v1|readv2|14LK.|H/O: aspirin allergy|
+|allergy-aspirin v1|readv2|ZV148|[V]Personal history of aspirin allergy|
+|allergy-aspirin v1|readv2|Xa5dq|Aspirin allergy|
+|allergy-aspirin v1|readv2|XaDzd|[V]Personal history of aspirin allergy|
+|allergy-aspirin v1|readv2|XaIpk|H/O: aspirin allergy|
+|allergy-clopidogrel v1|ctv3|XaJ3e|H/O: clopidogrel allergy|
+|allergy-clopidogrel v1|ctv3|XaJ8V|[V]Personal history of clopidogrel allergy|
+|allergy-clopidogrel v1|readv2|14LQ.|H/O: clopidogrel allergy|
+|allergy-clopidogrel v1|readv2|ZV14B|[V]Personal history of clopidogrel allergy|
+|allergy-statin v1|ctv3|Xa5gp|Pentostatin allergy|
+|allergy-statin v1|ctv3|Xa5q0|Nystatin allergy|
+|allergy-statin v1|ctv3|Xa5zt|Simvastatin allergy|
+|allergy-statin v1|ctv3|Xa5zu|Fluvastatin allergy|
+|allergy-statin v1|ctv3|Xa5zv|Pravastatin allergy|
 |sle v1|ctv3|F3710|Polyneuropathy in disseminated lupus erythematosus|
 |sle v1|ctv3|F3961|Myopathy due to disseminated lupus erythematosus|
 |sle v1|ctv3|F4D33|Discoid lupus eyelid|
@@ -4343,789 +3945,37 @@ All code sets required for this analysis are listed here. Individual lists for e
 |non-alc-fatty-liver-disease v1|ctv3|J61y1|Non-alcoholic fatty liver|
 |non-alc-fatty-liver-disease v1|readv2|J61y1|Non-alcoholic fatty liver|
 |non-alc-fatty-liver-disease v1|snomed|197315008|Non-alcoholic fatty liver|
-|hormone-replacement-therapy v1|snomed|325611004|Norethisterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1110711000001108|Norethisterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1023511000001106|Norethisterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|222911000001101|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|1853111000001102|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|792911000001100|Norethisterone 5mg tablets (Actavis UK Ltd)|
-|hormone-replacement-therapy v1|snomed|1853411000001107|Norethisterone 5mg tablets (Actavis UK Ltd)|
-|hormone-replacement-therapy v1|snomed|825711000001101|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
-|hormone-replacement-therapy v1|snomed|1854511000001109|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
-|hormone-replacement-therapy v1|snomed|783611000001102|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|1855711000001100|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|70611000001104|Norethisterone 5mg tablets (Sandoz Ltd)|
-|hormone-replacement-therapy v1|snomed|1858511000001102|Norethisterone 5mg tablets (Sandoz Ltd)|
-|hormone-replacement-therapy v1|snomed|263911000001100|Utovlan 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|1860211000001109|Utovlan 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|1861511000001100|Utovlan 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|221111000001109|Primolut N 5mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|1863511000001101|Primolut N 5mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|142211000001106|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|1865911000001109|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|21816111000001104|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
-|hormone-replacement-therapy v1|snomed|21816211000001105|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
-|hormone-replacement-therapy v1|snomed|29930211000001104|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
-|hormone-replacement-therapy v1|snomed|29930311000001107|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
-|hormone-replacement-therapy v1|snomed|30852111000001101|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|hormone-replacement-therapy v1|snomed|30852211000001107|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|hormone-replacement-therapy v1|snomed|37461811000001105|Norethisterone 5mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|37461911000001100|Norethisterone 5mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|39060911000001106|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|39061011000001103|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|326075007|Raloxifene 60mg tablets|
-|hormone-replacement-therapy v1|snomed|1238711000001102|Raloxifene 60mg tablets|
-|hormone-replacement-therapy v1|snomed|1142811000001107|Raloxifene 60mg tablets|
-|hormone-replacement-therapy v1|snomed|239811000001103|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|hormone-replacement-therapy v1|snomed|1918711000001108|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|hormone-replacement-therapy v1|snomed|1918911000001105|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|hormone-replacement-therapy v1|snomed|21960811000001102|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|21961011000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|35428311000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|22109311000001101|Raloxifene 60mg tablets (Teva UK Ltd)|
-|hormone-replacement-therapy v1|snomed|22109411000001108|Raloxifene 60mg tablets (Teva UK Ltd)|
-|hormone-replacement-therapy v1|snomed|22109511000001107|Raloxifene 60mg tablets (Teva UK Ltd)|
-|hormone-replacement-therapy v1|snomed|22358811000001101|Razylan 60mg tablets (Aspire Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|22359211000001107|Razylan 60mg tablets (Aspire Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|22517711000001102|Raloxifene 60mg tablets (Consilient Health Ltd)|
-|hormone-replacement-therapy v1|snomed|22517811000001105|Raloxifene 60mg tablets (Consilient Health Ltd)|
-|hormone-replacement-therapy v1|snomed|22567411000001107|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|22567611000001105|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|22786111000001104|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|24110811000001107|Raloxifene 60mg tablets (Sandoz Ltd)|
-|hormone-replacement-therapy v1|snomed|24110911000001102|Raloxifene 60mg tablets (Sandoz Ltd)|
-|hormone-replacement-therapy v1|snomed|24559611000001104|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|24559711000001108|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|24676811000001104|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|24677011000001108|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|28996211000001107|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|28996311000001104|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|30086311000001109|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|30086411000001102|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|30086511000001103|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|30863211000001105|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
-|hormone-replacement-therapy v1|snomed|30863411000001109|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
-|hormone-replacement-therapy v1|snomed|32460211000001101|Evirex 60mg tablets (Somex Pharma)|
-|hormone-replacement-therapy v1|snomed|32460311000001109|Evirex 60mg tablets (Somex Pharma)|
-|hormone-replacement-therapy v1|snomed|33612911000001100|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|33613011000001108|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|33613111000001109|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|33971011000001100|Raloxifene 60mg tablets (Somex Pharma)|
-|hormone-replacement-therapy v1|snomed|33971811000001106|Raloxifene 60mg tablets (Somex Pharma)|
-|hormone-replacement-therapy v1|snomed|34444711000001101|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|34444811000001109|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|34444911000001104|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|38744511000001103|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|38744611000001104|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|39205211000001101|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|39205311000001109|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|325601006|Medroxyprogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|1028411000001101|Medroxyprogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|1141711000001106|Medroxyprogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|1275811000001103|Medroxyprogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|13618811000001109|Medroxyprogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|907611000001100|Provera 10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2201711000001100|Provera 10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2201911000001103|Provera 10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2202211000001100|Provera 10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3543111000001105|Generic Hormonin tablets|
-|hormone-replacement-therapy v1|snomed|1129511000001102|Generic Hormonin tablets|
-|hormone-replacement-therapy v1|snomed|293111000001101|Hormonin tablets (Advanz Pharma)|
-|hormone-replacement-therapy v1|snomed|2203311000001103|Hormonin tablets (Advanz Pharma)|
-|hormone-replacement-therapy v1|snomed|325609008|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1247011000001101|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1218211000001100|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|990011000001108|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1089311000001107|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|5404011000001101|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|14356511000001107|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|14947111000001107|Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|286911000001108|Provera 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2213411000001108|Provera 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2213511000001107|Provera 5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|729411000001107|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2213711000001102|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2213811000001105|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|10276311000001109|Climanor 5mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|10276411000001102|Climanor 5mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|325568008|Tibolone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|1205011000001104|Tibolone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|1224111000001107|Tibolone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|5559511000001108|Tibolone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|521411000001105|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|2322011000001107|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|2322111000001108|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|24195511000001100|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|24195611000001101|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|24195811000001102|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|24418911000001104|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|24419011000001108|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|24419111000001109|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|37088911000001100|Tibolone 2.5mg tablets (Advanz Pharma)|
-|hormone-replacement-therapy v1|snomed|37089011000001109|Tibolone 2.5mg tablets (Advanz Pharma)|
-|hormone-replacement-therapy v1|snomed|37089211000001104|Tibolone 2.5mg tablets (Advanz Pharma)|
-|hormone-replacement-therapy v1|snomed|37241411000001102|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|37241511000001103|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|37244111000001105|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|37363111000001108|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|hormone-replacement-therapy v1|snomed|37363411000001103|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|hormone-replacement-therapy v1|snomed|37363911000001106|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|hormone-replacement-therapy v1|snomed|37825511000001106|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|37825611000001105|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|37825711000001101|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|38039411000001100|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|38039511000001101|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|39907111000001102|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|39907211000001108|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|39907311000001100|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|hormone-replacement-therapy v1|snomed|39709011000001102|Progesterone 400mg pessaries|
-|hormone-replacement-therapy v1|snomed|1016411000001105|Progesterone 400mg pessaries|
-|hormone-replacement-therapy v1|snomed|397511000001106|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
-|hormone-replacement-therapy v1|snomed|2475311000001107|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
-|hormone-replacement-therapy v1|snomed|325589004|Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|996611000001104|Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|1007811000001107|Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|3941611000001106|Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|20171511000001108|Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|45511000001109|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|2581911000001107|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3941711000001102|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|458211000001107|Duphaston HRT 10mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|2582111000001104|Duphaston HRT 10mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|20171611000001107|Dydrogesterone 10mg tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|20171711000001103|Dydrogesterone 10mg tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|3369311000001103|Estradiol 1mg / Dydrogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1063411000001104|Estradiol 1mg / Dydrogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|519311000001107|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2587211000001108|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|325560001|Estropipate 1.5mg tablets|
-|hormone-replacement-therapy v1|snomed|1163211000001107|Estropipate 1.5mg tablets|
-|hormone-replacement-therapy v1|snomed|86011000001100|Harmogen 1.5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2598511000001109|Harmogen 1.5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|325480003|Ethinylestradiol 10microgram tablets|
-|hormone-replacement-therapy v1|snomed|1062411000001108|Ethinylestradiol 10microgram tablets|
-|hormone-replacement-therapy v1|snomed|734211000001107|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2636311000001103|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|692011000001108|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|2636511000001109|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|526411000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|2636711000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|325556004|Conjugated oestrogens 625microgram tablets|
-|hormone-replacement-therapy v1|snomed|1323411000001106|Conjugated oestrogens 625microgram tablets|
-|hormone-replacement-therapy v1|snomed|3456311000001108|Conjugated oestrogens 625microgram tablets|
-|hormone-replacement-therapy v1|snomed|34911000001102|Premarin 0.625mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2687311000001108|Premarin 0.625mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3456411000001101|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|7142111000001103|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3456511000001102|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|325557008|Conjugated oestrogens 1.25mg tablets|
-|hormone-replacement-therapy v1|snomed|1247811000001107|Conjugated oestrogens 1.25mg tablets|
-|hormone-replacement-therapy v1|snomed|546511000001102|Premarin 1.25mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2688111000001107|Premarin 1.25mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|7142211000001109|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|7142311000001101|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3341011000001106|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
-|hormone-replacement-therapy v1|snomed|1282711000001107|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
-|hormone-replacement-therapy v1|snomed|557911000001109|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2701211000001100|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|39689411000001101|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|1012011000001100|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|679511000001100|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|2754411000001108|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|325546003|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2835711000001100|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2835911000001103|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3345711000001105|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3365111000001102|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3447211000001101|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3454811000001106|Estradiol 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2837211000001104|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2837811000001103|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2838411000001101|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2838611000001103|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2838711000001107|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2839011000001100|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|3348711000001103|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3348911000001101|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3365411000001107|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|3365511000001106|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|3447411000001102|Estradiol 2mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3447611000001104|Estradiol 2mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3454911000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3455011000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|10276611000001104|Bedol 2mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|10276711000001108|Bedol 2mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|10276811000001100|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|10276911000001105|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|325545004|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|2841011000001103|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3346511000001107|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3366911000001106|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3448411000001103|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|14745511000001103|Estradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|2841811000001109|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2842111000001107|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2842511000001103|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2844811000001106|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3346811000001105|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3346911000001100|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3367011000001105|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3367111000001106|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3448611000001100|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|4498511000001109|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3449011000001102|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|325533008|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2844911000001101|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2845011000001101|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3196311000001100|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3350511000001108|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3354011000001107|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3359511000001100|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|5502411000001108|Estradiol valerate 2mg tablets|
-|hormone-replacement-therapy v1|snomed|2845111000001100|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2845211000001106|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2845311000001103|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2845411000001105|Progynova 2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|2845511000001109|Progynova 2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3196511000001106|Estradiol valerate 2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3196611000001105|Estradiol valerate 2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3350611000001107|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3350711000001103|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3354111000001108|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3354211000001102|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3359911000001107|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3360911000001108|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3360711000001106|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4501411000001105|FemTab 2mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4501511000001109|FemTab 2mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4522411000001109|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4522611000001107|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|24659611000001109|Estradiol valerate 2mg tablets (Imported (Germany))|
-|hormone-replacement-therapy v1|snomed|24659911000001103|Estradiol valerate 2mg tablets (Imported (Germany))|
-|hormone-replacement-therapy v1|snomed|325505008|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|2845611000001108|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|2845711000001104|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3351811000001103|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3355211000001101|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3355311000001109|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|15466211000001104|Estradiol valerate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|2845811000001107|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2845911000001102|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2846011000001105|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2846111000001106|Progynova 1mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|2846211000001100|Progynova 1mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3351911000001108|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3352011000001101|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3355711000001108|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3356011000001102|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3356111000001101|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4501211000001106|FemTab 1mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4501311000001103|FemTab 1mg tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|15466311000001107|Estradiol valerate 1mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|15466411000001100|Estradiol valerate 1mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|36064911000001108|Estradiol 25micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2888411000001105|Estradiol 25micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2889011000001106|Estradiol 25micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2889111000001107|Evorel 25 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2889211000001101|Evorel 25 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2889311000001109|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2889411000001102|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2889511000001103|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2889611000001104|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2889711000001108|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2889811000001100|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2889911000001105|Dermestril 25 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2890011000001102|Dermestril 25 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|9044911000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045011000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|36065111000001109|Estradiol 40micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2890111000001101|Estradiol 40micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2890211000001107|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2890311000001104|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2890411000001106|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|2890511000001105|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|36065511000001100|Estradiol 80micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2893111000001108|Estradiol 80micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|3208311000001101|Estradiol 80micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2893411000001103|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2893511000001104|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|2893711000001109|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|2893911000001106|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|36065011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2895011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2895211000001103|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2895511000001100|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045111000001105|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045211000001104|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|36065411000001104|Estradiol 75micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2902511000001103|Estradiol 75micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2902711000001108|Estradiol 75micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2902811000001100|Estradiol 75micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2902911000001105|FemSeven 75 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2903011000001102|FemSeven 75 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2903111000001101|Evorel 75 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2903211000001107|Evorel 75 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2910911000001109|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2911011000001101|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2911111000001100|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2911211000001106|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2911311000001103|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2911411000001105|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2911511000001109|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|9045511000001101|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045611000001102|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|36064811000001103|Estradiol 100micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2935411000001100|Estradiol 100micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2935511000001101|Estradiol 100micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2938511000001109|Estradiol 100micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2939911000001105|Estradiol 100micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2936011000001100|Evorel 100 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2936411000001109|Evorel 100 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2936611000001107|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2936811000001106|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2937011000001102|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2937111000001101|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2937211000001107|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2937711000001100|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2938211000001106|Dermestril 100 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2938311000001103|Dermestril 100 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2938411000001105|FemSeven 100 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2938711000001104|FemSeven 100 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2939611000001104|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|2940111000001103|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|9045711000001106|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045811000001103|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|39112011000001100|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2941311000001106|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2941511000001100|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2941711000001105|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2942111000001104|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2942211000001105|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|4707311000001108|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|4707411000001101|Estradiol 50micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|2942311000001102|Evorel 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2942611000001107|Evorel 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2942711000001103|Evorel 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3216211000001105|Evorel 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2942911000001101|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2943111000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2943311000001107|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3211311000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3211411000001103|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2943611000001102|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2944511000001103|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2945011000001105|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2945311000001108|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2945511000001102|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2947311000001100|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|2947611000001105|Dermestril 50 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2947711000001101|Dermestril 50 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2947811000001109|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2948011000001102|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|2948411000001106|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2948811000001108|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2949011000001107|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|2949711000001109|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|2950811000001108|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|9045311000001107|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|9045411000001100|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|325662001|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|hormone-replacement-therapy v1|snomed|3038111000001102|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|hormone-replacement-therapy v1|snomed|14736011000001101|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|hormone-replacement-therapy v1|snomed|3038811000001109|Kliovance tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3039611000001101|Kliovance tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|325655005|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|hormone-replacement-therapy v1|snomed|3039711000001105|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|hormone-replacement-therapy v1|snomed|3039811000001102|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|hormone-replacement-therapy v1|snomed|3040311000001103|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3040511000001109|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3040711000001104|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|325648008|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3042111000001101|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3447711000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3455111000001100|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3043111000001107|Kliofem tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3079811000001104|Kliofem tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3049511000001101|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3049811000001103|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3049911000001108|Nuvelle Continuous tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3050111000001103|Nuvelle Continuous tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3448111000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3448211000001102|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3455211000001106|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3455311000001103|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|4501811000001107|FemTab Continuous tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4502011000001109|FemTab Continuous tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|325618005|Norethisterone 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3196711000001101|Norethisterone 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3940011000001108|Norethisterone 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3197111000001104|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
-|hormone-replacement-therapy v1|snomed|3198211000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
-|hormone-replacement-therapy v1|snomed|3940111000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
-|hormone-replacement-therapy v1|snomed|3549811000001101|Generic Nuvelle tablets|
-|hormone-replacement-therapy v1|snomed|3198811000001105|Generic Nuvelle tablets|
-|hormone-replacement-therapy v1|snomed|3199011000001109|Nuvelle tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|3200011000001101|Nuvelle tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|4521511000001100|FemTab Sequi tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4521911000001107|FemTab Sequi tablets (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|3549711000001109|Generic Nuvelle TS transdermal patches|
-|hormone-replacement-therapy v1|snomed|3210011000001103|Generic Nuvelle TS transdermal patches|
-|hormone-replacement-therapy v1|snomed|3210111000001102|Nuvelle TS patches (Schering Health Care Ltd)|
-|hormone-replacement-therapy v1|snomed|3210311000001100|Nuvelle TS patches (Schering Health Care Ltd)|
-|hormone-replacement-therapy v1|snomed|3542511000001108|Generic Estracombi TTS transdermal patches|
-|hormone-replacement-therapy v1|snomed|3214011000001105|Generic Estracombi TTS transdermal patches|
-|hormone-replacement-therapy v1|snomed|3215111000001105|Generic Estracombi TTS transdermal patches|
-|hormone-replacement-therapy v1|snomed|3215411000001100|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3215711000001106|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3215911000001108|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|36065211000001103|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|3216311000001102|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|3216411000001109|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|3216511000001108|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|3216611000001107|Evorel Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3216711000001103|Evorel Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3216811000001106|Evorel Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3216911000001101|Evorel Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3542611000001107|Generic Evorel Sequi transdermal patches|
-|hormone-replacement-therapy v1|snomed|3217211000001107|Generic Evorel Sequi transdermal patches|
-|hormone-replacement-therapy v1|snomed|3217311000001104|Evorel Sequi patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3217511000001105|Evorel Sequi patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3407111000001100|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3219411000001102|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3219511000001103|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3219611000001104|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3219711000001108|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3219811000001100|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3542911000001101|Generic Femoston 2/20mg tablets|
-|hormone-replacement-therapy v1|snomed|3345911000001107|Generic Femoston 2/20mg tablets|
-|hormone-replacement-therapy v1|snomed|3346111000001103|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3346211000001109|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3542711000001103|Generic Femoston 1/10mg tablets|
-|hormone-replacement-therapy v1|snomed|3347711000001104|Generic Femoston 1/10mg tablets|
-|hormone-replacement-therapy v1|snomed|3347911000001102|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3348211000001105|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3542811000001106|Generic Femoston 2/10mg tablets|
-|hormone-replacement-therapy v1|snomed|3349511000001102|Generic Femoston 2/10mg tablets|
-|hormone-replacement-therapy v1|snomed|3349811000001104|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3350211000001105|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3404911000001108|Generic Cyclo-Progynova 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3351211000001104|Generic Cyclo-Progynova 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3351311000001107|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3351611000001102|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3404811000001103|Generic Cyclo-Progynova 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3352811000001107|Generic Cyclo-Progynova 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3353311000001108|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3353611000001103|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3557411000001105|Generic Tridestra tablets|
-|hormone-replacement-therapy v1|snomed|3355411000001102|Generic Tridestra tablets|
-|hormone-replacement-therapy v1|snomed|3355511000001103|Tridestra tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3355911000001105|Tridestra tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3404511000001101|Generic Climagest 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3357811000001105|Generic Climagest 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3358011000001103|Generic Climagest 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3358411000001107|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3358711000001101|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3359111000001109|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3404711000001106|Generic Climagest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3362911000001107|Generic Climagest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3363311000001101|Generic Climagest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3363611000001106|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3364111000001101|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3364511000001105|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|hormone-replacement-therapy v1|snomed|3403511000001104|Generic Adgyn Combi tablets|
-|hormone-replacement-therapy v1|snomed|3366311000001105|Generic Adgyn Combi tablets|
-|hormone-replacement-therapy v1|snomed|3366411000001103|Adgyn Combi tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|3366511000001104|Adgyn Combi tablets (Kyowa Kirin Ltd)|
-|hormone-replacement-therapy v1|snomed|3465311000001107|Generic Elleste Duet 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3367211000001100|Generic Elleste Duet 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3367311000001108|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3367411000001101|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|325577001|Estradiol 0.06% gel (750microgram per actuation)|
-|hormone-replacement-therapy v1|snomed|3413511000001101|Estradiol 0.06% gel (750microgram per actuation)|
-|hormone-replacement-therapy v1|snomed|17613911000001103|Estradiol 0.06% gel (750microgram per actuation)|
-|hormone-replacement-therapy v1|snomed|3414911000001105|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3416111000001100|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3464211000001100|Generic Trisequens tablets|
-|hormone-replacement-therapy v1|snomed|3449211000001107|Generic Trisequens tablets|
-|hormone-replacement-therapy v1|snomed|3449411000001106|Trisequens tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3449611000001109|Trisequens tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3464311000001108|Generic Trisequens Forte tablets|
-|hormone-replacement-therapy v1|snomed|3453411000001106|Generic Trisequens Forte tablets|
-|hormone-replacement-therapy v1|snomed|3453611000001109|Trisequens Forte tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3453811000001108|Trisequens Forte tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|3465411000001100|Generic Elleste Duet 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3455411000001105|Generic Elleste Duet 2mg tablets|
-|hormone-replacement-therapy v1|snomed|3455511000001109|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3455611000001108|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|3553111000001108|Generic Premique Cycle tablets|
-|hormone-replacement-therapy v1|snomed|3456611000001103|Generic Premique Cycle tablets|
-|hormone-replacement-therapy v1|snomed|3456711000001107|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3456811000001104|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|400674006|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
-|hormone-replacement-therapy v1|snomed|3470611000001102|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
-|hormone-replacement-therapy v1|snomed|3470811000001103|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3472111000001109|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|134589003|Estradiol 150micrograms/dose nasal spray|
-|hormone-replacement-therapy v1|snomed|3649211000001109|Estradiol 150micrograms/dose nasal spray|
-|hormone-replacement-therapy v1|snomed|3649411000001108|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|3649511000001107|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|3664211000001102|Estradiol 500microgram gel sachets|
-|hormone-replacement-therapy v1|snomed|3657711000001107|Estradiol 500microgram gel sachets|
-|hormone-replacement-therapy v1|snomed|3657811000001104|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3658011000001106|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3664111000001108|Estradiol 1mg gel sachets|
-|hormone-replacement-therapy v1|snomed|3658211000001101|Estradiol 1mg gel sachets|
-|hormone-replacement-therapy v1|snomed|3658311000001109|Estradiol 1mg gel sachets|
-|hormone-replacement-therapy v1|snomed|3658611000001104|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3658811000001100|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3659011000001101|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|325541008|Estradiol 50mg implant|
-|hormone-replacement-therapy v1|snomed|3773011000001109|Estradiol 50mg implant|
-|hormone-replacement-therapy v1|snomed|3773511000001101|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3773611000001102|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3773711000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3774011000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3774411000001102|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|3774511000001103|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|27322111000001108|Estradiol 50mg implant (Special Order)|
-|hormone-replacement-therapy v1|snomed|27322211000001102|Estradiol 50mg implant (Special Order)|
-|hormone-replacement-therapy v1|snomed|325542001|Estradiol 100mg implant|
-|hormone-replacement-therapy v1|snomed|3774611000001104|Estradiol 100mg implant|
-|hormone-replacement-therapy v1|snomed|3774711000001108|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3774811000001100|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3774911000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|3775011000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|3775111000001106|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|3775211000001100|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|3788311000001107|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|3779811000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|14253711000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|3779911000001106|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3780011000001107|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3788211000001104|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|3780111000001108|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|14253511000001106|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|3780211000001102|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3780311000001105|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3864111000001104|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|3853611000001101|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|14253611000001105|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|hormone-replacement-therapy v1|snomed|3853711000001105|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3853811000001102|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|325603009|Medroxyprogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|3868011000001109|Medroxyprogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|3868511000001101|Provera 2.5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|3868911000001108|Provera 2.5mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|325550005|Estriol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3876311000001100|Estriol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3876411000001107|Ovestin 1mg tablets (Organon Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|3876511000001106|Ovestin 1mg tablets (Organon Laboratories Ltd)|
-|hormone-replacement-therapy v1|snomed|325540009|Estradiol 25mg implant|
-|hormone-replacement-therapy v1|snomed|3878311000001101|Estradiol 25mg implant|
-|hormone-replacement-therapy v1|snomed|3878511000001107|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3878611000001106|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3878711000001102|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3878811000001105|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|3878911000001100|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|3879011000001109|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|39708911000001106|Progesterone 200mg pessaries|
-|hormone-replacement-therapy v1|snomed|3912811000001109|Progesterone 200mg pessaries|
-|hormone-replacement-therapy v1|snomed|3913011000001107|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
-|hormone-replacement-therapy v1|snomed|3913211000001102|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
-|hormone-replacement-therapy v1|snomed|3948111000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3940311000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3940511000001100|Evorel Pak (Janssen-Cilag Ltd)|
-|hormone-replacement-therapy v1|snomed|3940611000001101|Evorel Pak (Janssen-Cilag Ltd)|
-|hormone-replacement-therapy v1|snomed|3948011000001105|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|3941911000001100|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|3942111000001108|Femapak 80 (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3942311000001105|Femapak 80 (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3947911000001108|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|3943011000001103|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|hormone-replacement-therapy v1|snomed|3943111000001102|Femapak 40 (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|3943211000001108|Femapak 40 (Abbott Healthcare Products Ltd)|
-|hormone-replacement-therapy v1|snomed|325482006|Ethinylestradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3962211000001107|Ethinylestradiol 1mg tablets|
-|hormone-replacement-therapy v1|snomed|3962511000001105|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3962611000001109|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|3962811000001108|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|3963011000001106|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|3963211000001101|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|3963311000001109|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|35931211000001102|Progesterone 50mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4087011000001109|Progesterone 50mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4087311000001107|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|4087711000001106|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|325626002|Progesterone 4% vaginal gel 1.125g applicators|
-|hormone-replacement-therapy v1|snomed|4088811000001104|Progesterone 4% vaginal gel 1.125g applicators|
-|hormone-replacement-therapy v1|snomed|4088911000001109|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4089011000001100|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|325481004|Ethinylestradiol 50microgram tablets|
-|hormone-replacement-therapy v1|snomed|4111311000001105|Ethinylestradiol 50microgram tablets|
-|hormone-replacement-therapy v1|snomed|4111411000001103|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|4111511000001104|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|4111611000001100|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|4111711000001109|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|4111811000001101|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|4111911000001106|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|hormone-replacement-therapy v1|snomed|325627006|Progesterone 8% vaginal gel 1.125g applicators|
-|hormone-replacement-therapy v1|snomed|4212111000001101|Progesterone 8% vaginal gel 1.125g applicators|
-|hormone-replacement-therapy v1|snomed|4212211000001107|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|4212311000001104|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
-|hormone-replacement-therapy v1|snomed|36022011000001106|Progesterone 100mg/2ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4228111000001108|Progesterone 100mg/2ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4228211000001102|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|4228311000001105|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|4339811000001101|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|4338511000001105|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|4338611000001109|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|hormone-replacement-therapy v1|snomed|4338711000001100|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4338811000001108|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4338911000001103|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4508511000001104|Generic Novofem tablets|
-|hormone-replacement-therapy v1|snomed|4499011000001106|Generic Novofem tablets|
-|hormone-replacement-therapy v1|snomed|4499111000001107|Novofem tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|4499211000001101|Novofem tablets (Novo Nordisk Ltd)|
-|hormone-replacement-therapy v1|snomed|36057811000001101|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4540911000001103|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4541211000001101|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
-|hormone-replacement-therapy v1|snomed|4541311000001109|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
-|hormone-replacement-therapy v1|snomed|428005004|Conjugated oestrogens 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|4547811000001107|Conjugated oestrogens 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|4548011000001100|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|4548111000001104|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
-|hormone-replacement-therapy v1|snomed|4725811000001103|Generic FemSeven Sequi transdermal patches|
-|hormone-replacement-therapy v1|snomed|4711511000001106|Generic FemSeven Sequi transdermal patches|
-|hormone-replacement-therapy v1|snomed|4711711000001101|Generic FemSeven Sequi transdermal patches|
-|hormone-replacement-therapy v1|snomed|4711811000001109|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4712011000001106|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4712611000001104|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|4971311000001103|Progesterone 25mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4971011000001101|Progesterone 25mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|4971211000001106|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|4971411000001105|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|15621411000001104|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
-|hormone-replacement-therapy v1|snomed|7340211000001102|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
-|hormone-replacement-therapy v1|snomed|7340311000001105|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|7340411000001103|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|8794111000001104|Ethinylestradiol 2microgram capsules|
-|hormone-replacement-therapy v1|snomed|8751511000001101|Ethinylestradiol 2microgram capsules|
-|hormone-replacement-therapy v1|snomed|8752311000001103|Ethinylestradiol 2microgram capsules (Special Order)|
-|hormone-replacement-therapy v1|snomed|8752511000001109|Ethinylestradiol 2microgram capsules (Special Order)|
-|hormone-replacement-therapy v1|snomed|8801211000001108|Estradiol 1mg / Drospirenone 2mg tablets|
-|hormone-replacement-therapy v1|snomed|8786911000001108|Estradiol 1mg / Drospirenone 2mg tablets|
-|hormone-replacement-therapy v1|snomed|8787011000001107|Angeliq 1mg/2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|8787111000001108|Angeliq 1mg/2mg tablets (Bayer Plc)|
-|hormone-replacement-therapy v1|snomed|10280511000001108|Generic Clinorette tablets|
-|hormone-replacement-therapy v1|snomed|10277311000001107|Generic Clinorette tablets|
-|hormone-replacement-therapy v1|snomed|10277411000001100|Clinorette tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|10277511000001101|Clinorette tablets (ReSource Medical UK Ltd)|
-|hormone-replacement-therapy v1|snomed|409118006|Conjugated oestrogens 300microgram tablets|
-|hormone-replacement-therapy v1|snomed|11476711000001101|Conjugated oestrogens 300microgram tablets|
-|hormone-replacement-therapy v1|snomed|11476811000001109|Premarin 0.3mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|11476911000001104|Premarin 0.3mg tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|11738011000001105|Ethinylestradiol 2microgram tablets|
-|hormone-replacement-therapy v1|snomed|11733511000001106|Ethinylestradiol 2microgram tablets|
-|hormone-replacement-therapy v1|snomed|14778511000001107|Ethinylestradiol 2microgram tablets|
-|hormone-replacement-therapy v1|snomed|11733811000001109|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|11734011000001101|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
-|hormone-replacement-therapy v1|snomed|14778411000001108|Ethinylestradiol 2microgram tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|14778611000001106|Ethinylestradiol 2microgram tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|11763511000001102|Progesterone micronised 100mg capsules|
-|hormone-replacement-therapy v1|snomed|11758811000001100|Progesterone micronised 100mg capsules|
-|hormone-replacement-therapy v1|snomed|11758911000001105|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|11759011000001101|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|11763611000001103|Progesterone micronised 200mg capsules|
-|hormone-replacement-therapy v1|snomed|11759411000001105|Progesterone micronised 200mg capsules|
-|hormone-replacement-therapy v1|snomed|11759511000001109|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|11759611000001108|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|12298411000001100|Ethinylestradiol 2micrograms/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|12281411000001106|Ethinylestradiol 2micrograms/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|12281511000001105|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|12281611000001109|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|12298511000001101|Ethinylestradiol 4micrograms/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|12282111000001106|Ethinylestradiol 4micrograms/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|12282311000001108|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|12282611000001103|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|15534311000001101|Norethisterone 5mg/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|15530511000001103|Norethisterone 5mg/5ml oral suspension|
-|hormone-replacement-therapy v1|snomed|15530611000001104|Norethisterone 5mg/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|15530711000001108|Norethisterone 5mg/5ml oral suspension (Special Order)|
-|hormone-replacement-therapy v1|snomed|17870911000001106|Progesterone 2% in Aqueous cream|
-|hormone-replacement-therapy v1|snomed|17868911000001100|Progesterone 2% in Aqueous cream|
-|hormone-replacement-therapy v1|snomed|17869011000001109|Progesterone 2% in Aqueous cream (Special Order)|
-|hormone-replacement-therapy v1|snomed|17869111000001105|Progesterone 2% in Aqueous cream (Special Order)|
-|hormone-replacement-therapy v1|snomed|20293811000001102|Ulipristal 5mg tablets|
-|hormone-replacement-therapy v1|snomed|20292411000001108|Ulipristal 5mg tablets|
-|hormone-replacement-therapy v1|snomed|20292511000001107|Esmya 5mg tablets (Gedeon Richter (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|20292611000001106|Esmya 5mg tablets (Gedeon Richter (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|20921211000001106|Progesterone 2.34% cream|
-|hormone-replacement-therapy v1|snomed|20920411000001101|Progesterone 2.34% cream|
-|hormone-replacement-therapy v1|snomed|20920511000001102|Serenity Natural Progesterone cream (Imported (United States))|
-|hormone-replacement-therapy v1|snomed|20920611000001103|Serenity Natural Progesterone cream (Imported (United States))|
-|hormone-replacement-therapy v1|snomed|21366211000001107|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|21259211000001101|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
-|hormone-replacement-therapy v1|snomed|21259311000001109|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|21259411000001102|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
-|hormone-replacement-therapy v1|snomed|22099011000001107|Sildenafil 25mg pessaries|
-|hormone-replacement-therapy v1|snomed|22089211000001103|Sildenafil 25mg pessaries|
-|hormone-replacement-therapy v1|snomed|22089311000001106|Sildenafil 25mg pessaries (Special Order)|
-|hormone-replacement-therapy v1|snomed|22089511000001100|Sildenafil 25mg pessaries (Special Order)|
-|hormone-replacement-therapy v1|snomed|22683711000001100|Progesterone micronised 200mg vaginal capsules|
-|hormone-replacement-therapy v1|snomed|22676611000001108|Progesterone micronised 200mg vaginal capsules|
-|hormone-replacement-therapy v1|snomed|22676711000001104|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|22676811000001107|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|23948311000001106|Progesterone 25mg/1.119ml solution for injection vials|
-|hormone-replacement-therapy v1|snomed|23948711000001105|Progesterone 25mg/1.119ml solution for injection vials|
-|hormone-replacement-therapy v1|snomed|34768911000001106|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
-|hormone-replacement-therapy v1|snomed|34769211000001107|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
-|hormone-replacement-therapy v1|snomed|24688011000001102|Generic Climen tablets|
-|hormone-replacement-therapy v1|snomed|24660311000001103|Generic Climen tablets|
-|hormone-replacement-therapy v1|snomed|24660611000001108|Climen tablets (Imported (Germany))|
-|hormone-replacement-therapy v1|snomed|24660711000001104|Climen tablets (Imported (Germany))|
-|hormone-replacement-therapy v1|snomed|28049411000001102|Ethinylestradiol 5microgram capsules|
-|hormone-replacement-therapy v1|snomed|28042911000001100|Ethinylestradiol 5microgram capsules|
-|hormone-replacement-therapy v1|snomed|28043011000001108|Ethinylestradiol 5microgram capsules (Special Order)|
-|hormone-replacement-therapy v1|snomed|28043111000001109|Ethinylestradiol 5microgram capsules (Special Order)|
-|hormone-replacement-therapy v1|snomed|28423111000001104|Progesterone 100mg pessaries|
-|hormone-replacement-therapy v1|snomed|28402411000001109|Progesterone 100mg pessaries|
-|hormone-replacement-therapy v1|snomed|28402511000001108|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|28402611000001107|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
-|hormone-replacement-therapy v1|snomed|28422411000001100|Dienogest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|28416911000001104|Dienogest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|37939011000001105|Dienogest 2mg tablets|
-|hormone-replacement-therapy v1|snomed|28417011000001100|Dienogest 2mg tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|28417111000001104|Dienogest 2mg tablets (Special Order)|
-|hormone-replacement-therapy v1|snomed|37939111000001106|Zalkya 2mg tablets (Stragen UK Ltd)|
-|hormone-replacement-therapy v1|snomed|37939411000001101|Zalkya 2mg tablets (Stragen UK Ltd)|
-|hormone-replacement-therapy v1|snomed|32936711000001100|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
-|hormone-replacement-therapy v1|snomed|32927311000001104|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
-|hormone-replacement-therapy v1|snomed|32927411000001106|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|32927511000001105|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
-|hormone-replacement-therapy v1|snomed|34378811000001107|Progesterone 100mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|34346511000001107|Progesterone 100mg/1ml solution for injection ampoules|
-|hormone-replacement-therapy v1|snomed|34346611000001106|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
-|hormone-replacement-therapy v1|snomed|34346711000001102|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
-|hormone-replacement-therapy v1|snomed|36411111000001101|Progesterone 25mg/1.112ml solution for injection vials|
-|hormone-replacement-therapy v1|snomed|36394711000001107|Progesterone 25mg/1.112ml solution for injection vials|
-|hormone-replacement-therapy v1|snomed|36394811000001104|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
-|hormone-replacement-therapy v1|snomed|36395011000001109|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
-|hormone-replacement-therapy v1|snomed|38344311000001108|Estradiol 1.53mg/dose transdermal spray|
-|hormone-replacement-therapy v1|snomed|38268811000001107|Estradiol 1.53mg/dose transdermal spray|
-|hormone-replacement-therapy v1|snomed|38269511000001103|Estradiol 1.53mg/dose transdermal spray|
-|hormone-replacement-therapy v1|snomed|38268911000001102|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|38269311000001109|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|38269811000001100|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|hormone-replacement-therapy v1|snomed|39601811000001101|Ethinylestradiol 50microgram gastro-resistant tablets|
-|hormone-replacement-therapy v1|snomed|39576711000001104|Ethinylestradiol 50microgram gastro-resistant tablets|
-|hormone-replacement-therapy v1|snomed|39576811000001107|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
-|hormone-replacement-therapy v1|snomed|39576911000001102|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
-|hormone-replacement-therapy v1|snomed|39964911000001106|Estradiol 1mg / Progesterone 100mg capsules|
-|hormone-replacement-therapy v1|snomed|39943611000001109|Estradiol 1mg / Progesterone 100mg capsules|
-|hormone-replacement-therapy v1|snomed|40115211000001103|Estradiol 1mg / Progesterone 100mg capsules|
-|hormone-replacement-therapy v1|snomed|39943711000001100|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|39943811000001108|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
-|hormone-replacement-therapy v1|snomed|40115311000001106|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy v1|ctv3|66U8.|HRT side-effects|
+|hormone-replacement-therapy v1|ctv3|66UB.|HRT: unopposed oestrogen|
+|hormone-replacement-therapy v1|ctv3|66UC.|HRT: combined oestrogen/progestogen|
+|hormone-replacement-therapy v1|ctv3|XaISA|Hormone replacement therapy bleed pattern - normal|
+|hormone-replacement-therapy v1|ctv3|XaISB|Hormone replacement therapy bleed pattern - abnormal|
+|hormone-replacement-therapy v1|ctv3|XaISC|Hormone replacement therapy bleed pattern - not relevant|
+|hormone-replacement-therapy v1|ctv3|XaISD|Hormone replacement therapy bleed pattern - no bleeding|
+|hormone-replacement-therapy v1|ctv3|XaISE|Years on hormone replacement therapy|
+|hormone-replacement-therapy v1|ctv3|66U7.|HRT started|
+|hormone-replacement-therapy v1|ctv3|66U9.|HRT changed|
+|hormone-replacement-therapy v1|ctv3|XE0hs|HRT - Hormone replacement therapy|
+|hormone-replacement-therapy v1|ctv3|8B640|Hormone Replacement Therapy ongoing treatment|
+|hormone-replacement-therapy v1|ctv3|66U..|(Menopause monitoring) or (hormone replacement therapy)|
+|hormone-replacement-therapy v1|ctv3|8B64.|Hormone replacement therapy (& [prophylaxis] or [implant])|
+|hormone-replacement-therapy v1|emis|EMISNQON7|On low dose hormone replacement therapy|
+|hormone-replacement-therapy v1|readv2|66U..11|Hormone replacement therapy|
+|hormone-replacement-therapy v1|readv2|66U7.00|HRT started|
+|hormone-replacement-therapy v1|readv2|66U8.00|HRT side-effects|
+|hormone-replacement-therapy v1|readv2|66U9.00|HRT changed|
+|hormone-replacement-therapy v1|readv2|66UB.00|HRT: unopposed oestrogen|
+|hormone-replacement-therapy v1|readv2|66uc.00|HRT: combined oestrog/progest|
+|hormone-replacement-therapy v1|readv2|66UC.00|HRT: combined oestrog/progest|
+|hormone-replacement-therapy v1|readv2|66UH.00|Hormone replacement therapy bleed pattern - normal|
+|hormone-replacement-therapy v1|readv2|66UI.00|Hormone replacement therapy bleed pattern - abnormal|
+|hormone-replacement-therapy v1|readv2|66UJ.00|Hormone replacement therapy bleed pattern - not relevant|
+|hormone-replacement-therapy v1|readv2|66UK.00|Hormone replacement therapy bleed pattern - no bleeding|
+|hormone-replacement-therapy v1|readv2|8B64.00|Hormone replacement therapy|
+|hormone-replacement-therapy v1|readv2|8B64000|Hormone Replacement Therapy ongoing treatment|
+|hormone-replacement-therapy v1|readv2|8B64.11|Hormone implant - HRT|
+|hormone-replacement-therapy v1|readv2|8B64.12|HRT prophylaxis|
+|hormone-replacement-therapy v1|readv2|66U..00|Menopause monitoring|
 |long-covid v1|emis|^ESCT1348648|Ongoing symptomatic COVID-19|
 |long-covid v1|emis|^ESCT1348628|Assessment using Newcastle post-COVID syndrome Follow-up Screening Questionnaire|
 |long-covid v1|emis|^ESCT1348627|Newcastle post-COVID syndrome Follow-up Screening Questionnaire|
@@ -17054,649 +15904,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |sglt2-inhibitors v1|readv2|ftn2.00|CANAGLIFLOZIN 100mg tablets|
 |sglt2-inhibitors v1|readv2|ftn3.00|INVOKANA 300mg tablets|
 |sglt2-inhibitors v1|readv2|ftn1.00|INVOKANA 100mg tablets|
-|oestrogens-and-hrt v1|ctv3|ff2f.|Climaval 1mg tablet|
-|oestrogens-and-hrt v1|ctv3|ff2K.|FemSeven 50 patch|
-|oestrogens-and-hrt v1|ctv3|ff2M.|Oestradiol valerate 1mg tablet|
-|oestrogens-and-hrt v1|ctv3|ff2r.|Oestradiol 50micrograms patch|
-|oestrogens-and-hrt v1|ctv3|ff2v.|Oestradiol 100mg implant|
-|oestrogens-and-hrt v1|ctv3|ff2z.|Oestradiol 2mg tablet|
-|oestrogens-and-hrt v1|ctv3|ff41.|Premarin 625micrograms tablet|
-|oestrogens-and-hrt v1|ctv3|fh12.|Cyclo-Progynova 2mg tablet|
-|oestrogens-and-hrt v1|ctv3|fh17.|Prempak-C 0.625 tablets x1 month|
-|oestrogens-and-hrt v1|ctv3|fh1E.|Femoston 2/10 tablet|
-|oestrogens-and-hrt v1|ctv3|fh1N.|Evorel Sequi patch|
-|oestrogens-and-hrt v1|ctv3|fh1O.|Evorel Conti patch|
-|oestrogens-and-hrt v1|readv2|ff2f.|CLIMAVAL 1mg tablets|
-|oestrogens-and-hrt v1|readv2|ff2K.|FEMSEVEN 50 patches|
-|oestrogens-and-hrt v1|readv2|ff2M.|ESTRADIOL VALERATE 1mg tablets|
-|oestrogens-and-hrt v1|readv2|ff2r.|ESTRADIOL 50micrograms patches|
-|oestrogens-and-hrt v1|readv2|ff2v.|*ESTRADIOL 100mg implant|
-|oestrogens-and-hrt v1|readv2|ff2z.|ESTRADIOL 2mg tablets|
-|oestrogens-and-hrt v1|readv2|ff41.|PREMARIN 625micrograms tablets|
-|oestrogens-and-hrt v1|readv2|fh12.|CYCLO-PROGYNOVA 2mg tablets|
-|oestrogens-and-hrt v1|readv2|fh17.|PREMPAK-C 0.625 tablets x1 month|
-|oestrogens-and-hrt v1|readv2|fh1E.|FEMOSTON-2/10 tablets|
-|oestrogens-and-hrt v1|readv2|fh1N.|EVOREL SEQUI patches|
-|oestrogens-and-hrt v1|readv2|fh1O.|EVOREL CONTI patches|
-|oestrogens-and-hrt v1|snomed|326075007|Raloxifene 60mg tablets|
-|oestrogens-and-hrt v1|snomed|1238711000001102|Raloxifene 60mg tablets|
-|oestrogens-and-hrt v1|snomed|1142811000001107|Raloxifene 60mg tablets|
-|oestrogens-and-hrt v1|snomed|239811000001103|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|oestrogens-and-hrt v1|snomed|1918711000001108|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|oestrogens-and-hrt v1|snomed|1918911000001105|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
-|oestrogens-and-hrt v1|snomed|21960811000001102|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|21961011000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|35428311000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|22109311000001101|Raloxifene 60mg tablets (Teva UK Ltd)|
-|oestrogens-and-hrt v1|snomed|22109411000001108|Raloxifene 60mg tablets (Teva UK Ltd)|
-|oestrogens-and-hrt v1|snomed|22109511000001107|Raloxifene 60mg tablets (Teva UK Ltd)|
-|oestrogens-and-hrt v1|snomed|22358811000001101|Razylan 60mg tablets (Aspire Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|22359211000001107|Razylan 60mg tablets (Aspire Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|22517711000001102|Raloxifene 60mg tablets (Consilient Health Ltd)|
-|oestrogens-and-hrt v1|snomed|22517811000001105|Raloxifene 60mg tablets (Consilient Health Ltd)|
-|oestrogens-and-hrt v1|snomed|22567411000001107|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|22567611000001105|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|22786111000001104|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|24110811000001107|Raloxifene 60mg tablets (Sandoz Ltd)|
-|oestrogens-and-hrt v1|snomed|24110911000001102|Raloxifene 60mg tablets (Sandoz Ltd)|
-|oestrogens-and-hrt v1|snomed|24559611000001104|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|24559711000001108|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|24676811000001104|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|24677011000001108|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|28996211000001107|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|28996311000001104|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|30086311000001109|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|30086411000001102|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|30086511000001103|Raloxifene 60mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|30863211000001105|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
-|oestrogens-and-hrt v1|snomed|30863411000001109|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
-|oestrogens-and-hrt v1|snomed|32460211000001101|Evirex 60mg tablets (Somex Pharma)|
-|oestrogens-and-hrt v1|snomed|32460311000001109|Evirex 60mg tablets (Somex Pharma)|
-|oestrogens-and-hrt v1|snomed|33612911000001100|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|33613011000001108|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|33613111000001109|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|33971011000001100|Raloxifene 60mg tablets (Somex Pharma)|
-|oestrogens-and-hrt v1|snomed|33971811000001106|Raloxifene 60mg tablets (Somex Pharma)|
-|oestrogens-and-hrt v1|snomed|34444711000001101|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|34444811000001109|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|34444911000001104|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|38744511000001103|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|38744611000001104|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|39205211000001101|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
-|oestrogens-and-hrt v1|snomed|39205311000001109|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
-|oestrogens-and-hrt v1|snomed|3543111000001105|Generic Hormonin tablets|
-|oestrogens-and-hrt v1|snomed|1129511000001102|Generic Hormonin tablets|
-|oestrogens-and-hrt v1|snomed|293111000001101|Hormonin tablets (Advanz Pharma)|
-|oestrogens-and-hrt v1|snomed|2203311000001103|Hormonin tablets (Advanz Pharma)|
-|oestrogens-and-hrt v1|snomed|325568008|Tibolone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|1205011000001104|Tibolone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|1224111000001107|Tibolone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|5559511000001108|Tibolone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|521411000001105|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|2322011000001107|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|2322111000001108|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|24195511000001100|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|24195611000001101|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|24195811000001102|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|24418911000001104|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|24419011000001108|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|24419111000001109|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|37088911000001100|Tibolone 2.5mg tablets (Advanz Pharma)|
-|oestrogens-and-hrt v1|snomed|37089011000001109|Tibolone 2.5mg tablets (Advanz Pharma)|
-|oestrogens-and-hrt v1|snomed|37089211000001104|Tibolone 2.5mg tablets (Advanz Pharma)|
-|oestrogens-and-hrt v1|snomed|37241411000001102|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|37241511000001103|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|37244111000001105|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|37363111000001108|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|oestrogens-and-hrt v1|snomed|37363411000001103|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|oestrogens-and-hrt v1|snomed|37363911000001106|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
-|oestrogens-and-hrt v1|snomed|37825511000001106|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|37825611000001105|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|37825711000001101|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|38039411000001100|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|38039511000001101|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|39907111000001102|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|oestrogens-and-hrt v1|snomed|39907211000001108|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|oestrogens-and-hrt v1|snomed|39907311000001100|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
-|oestrogens-and-hrt v1|snomed|3369311000001103|Estradiol 1mg / Dydrogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|1063411000001104|Estradiol 1mg / Dydrogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|519311000001107|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2587211000001108|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|325560001|Estropipate 1.5mg tablets|
-|oestrogens-and-hrt v1|snomed|1163211000001107|Estropipate 1.5mg tablets|
-|oestrogens-and-hrt v1|snomed|86011000001100|Harmogen 1.5mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|2598511000001109|Harmogen 1.5mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|325480003|Ethinylestradiol 10microgram tablets|
-|oestrogens-and-hrt v1|snomed|1062411000001108|Ethinylestradiol 10microgram tablets|
-|oestrogens-and-hrt v1|snomed|734211000001107|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2636311000001103|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|692011000001108|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|2636511000001109|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|526411000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|2636711000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|325556004|Conjugated oestrogens 625microgram tablets|
-|oestrogens-and-hrt v1|snomed|1323411000001106|Conjugated oestrogens 625microgram tablets|
-|oestrogens-and-hrt v1|snomed|3456311000001108|Conjugated oestrogens 625microgram tablets|
-|oestrogens-and-hrt v1|snomed|34911000001102|Premarin 0.625mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|2687311000001108|Premarin 0.625mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|3456411000001101|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|7142111000001103|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|3456511000001102|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|325557008|Conjugated oestrogens 1.25mg tablets|
-|oestrogens-and-hrt v1|snomed|1247811000001107|Conjugated oestrogens 1.25mg tablets|
-|oestrogens-and-hrt v1|snomed|546511000001102|Premarin 1.25mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|2688111000001107|Premarin 1.25mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|7142211000001109|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|7142311000001101|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|3341011000001106|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
-|oestrogens-and-hrt v1|snomed|1282711000001107|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
-|oestrogens-and-hrt v1|snomed|557911000001109|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|2701211000001100|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|39689411000001101|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|1012011000001100|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|679511000001100|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|2754411000001108|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|325546003|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2835711000001100|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2835911000001103|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3345711000001105|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3365111000001102|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3447211000001101|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3454811000001106|Estradiol 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2837211000001104|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2837811000001103|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2838411000001101|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2838611000001103|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2838711000001107|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2839011000001100|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|3348711000001103|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3348911000001101|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3365411000001107|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|3365511000001106|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|3447411000001102|Estradiol 2mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3447611000001104|Estradiol 2mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3454911000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3455011000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|10276611000001104|Bedol 2mg tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|10276711000001108|Bedol 2mg tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|10276811000001100|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|10276911000001105|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|325545004|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|2841011000001103|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3346511000001107|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3366911000001106|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3448411000001103|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|14745511000001103|Estradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|2841811000001109|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2842111000001107|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2842511000001103|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2844811000001106|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3346811000001105|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3346911000001100|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3367011000001105|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3367111000001106|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3448611000001100|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|4498511000001109|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3449011000001102|Estradiol 1mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|325533008|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2844911000001101|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2845011000001101|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3196311000001100|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3350511000001108|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3354011000001107|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3359511000001100|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|5502411000001108|Estradiol valerate 2mg tablets|
-|oestrogens-and-hrt v1|snomed|2845111000001100|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2845211000001106|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2845311000001103|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2845411000001105|Progynova 2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|2845511000001109|Progynova 2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3196511000001106|Estradiol valerate 2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3196611000001105|Estradiol valerate 2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3350611000001107|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3350711000001103|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3354111000001108|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3354211000001102|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3359911000001107|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3360911000001108|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3360711000001106|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4501411000001105|FemTab 2mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4501511000001109|FemTab 2mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4522411000001109|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4522611000001107|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|24659611000001109|Estradiol valerate 2mg tablets (Imported (Germany))|
-|oestrogens-and-hrt v1|snomed|24659911000001103|Estradiol valerate 2mg tablets (Imported (Germany))|
-|oestrogens-and-hrt v1|snomed|325505008|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|2845611000001108|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|2845711000001104|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3351811000001103|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3355211000001101|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3355311000001109|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|15466211000001104|Estradiol valerate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|2845811000001107|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2845911000001102|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2846011000001105|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2846111000001106|Progynova 1mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|2846211000001100|Progynova 1mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3351911000001108|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3352011000001101|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3355711000001108|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3356011000001102|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3356111000001101|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4501211000001106|FemTab 1mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4501311000001103|FemTab 1mg tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|15466311000001107|Estradiol valerate 1mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|15466411000001100|Estradiol valerate 1mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|36064911000001108|Estradiol 25micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2888411000001105|Estradiol 25micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2889011000001106|Estradiol 25micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2889111000001107|Evorel 25 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2889211000001101|Evorel 25 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2889311000001109|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2889411000001102|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2889511000001103|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2889611000001104|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2889711000001108|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2889811000001100|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2889911000001105|Dermestril 25 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2890011000001102|Dermestril 25 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|9044911000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045011000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|36065111000001109|Estradiol 40micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2890111000001101|Estradiol 40micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2890211000001107|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2890311000001104|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2890411000001106|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|2890511000001105|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|36065511000001100|Estradiol 80micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2893111000001108|Estradiol 80micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|3208311000001101|Estradiol 80micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2893411000001103|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2893511000001104|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|2893711000001109|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|2893911000001106|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|36065011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2895011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2895211000001103|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2895511000001100|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045111000001105|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045211000001104|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|36065411000001104|Estradiol 75micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2902511000001103|Estradiol 75micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2902711000001108|Estradiol 75micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2902811000001100|Estradiol 75micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2902911000001105|FemSeven 75 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2903011000001102|FemSeven 75 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2903111000001101|Evorel 75 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2903211000001107|Evorel 75 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2910911000001109|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2911011000001101|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2911111000001100|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2911211000001106|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2911311000001103|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2911411000001105|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2911511000001109|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|9045511000001101|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045611000001102|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|36064811000001103|Estradiol 100micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2935411000001100|Estradiol 100micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2935511000001101|Estradiol 100micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2938511000001109|Estradiol 100micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2939911000001105|Estradiol 100micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2936011000001100|Evorel 100 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2936411000001109|Evorel 100 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2936611000001107|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2936811000001106|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2937011000001102|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2937111000001101|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2937211000001107|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2937711000001100|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2938211000001106|Dermestril 100 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2938311000001103|Dermestril 100 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2938411000001105|FemSeven 100 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2938711000001104|FemSeven 100 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2939611000001104|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|2940111000001103|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|9045711000001106|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045811000001103|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|39112011000001100|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2941311000001106|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2941511000001100|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2941711000001105|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2942111000001104|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2942211000001105|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|4707311000001108|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|4707411000001101|Estradiol 50micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|2942311000001102|Evorel 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2942611000001107|Evorel 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2942711000001103|Evorel 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3216211000001105|Evorel 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2942911000001101|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2943111000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2943311000001107|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3211311000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3211411000001103|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2943611000001102|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2944511000001103|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2945011000001105|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2945311000001108|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2945511000001102|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2947311000001100|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|2947611000001105|Dermestril 50 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2947711000001101|Dermestril 50 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2947811000001109|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2948011000001102|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|2948411000001106|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2948811000001108|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2949011000001107|FemSeven 50 patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|2949711000001109|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|2950811000001108|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|9045311000001107|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|9045411000001100|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|325662001|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|oestrogens-and-hrt v1|snomed|3038111000001102|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|oestrogens-and-hrt v1|snomed|14736011000001101|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
-|oestrogens-and-hrt v1|snomed|3038811000001109|Kliovance tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3039611000001101|Kliovance tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|325655005|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|oestrogens-and-hrt v1|snomed|3039711000001105|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|oestrogens-and-hrt v1|snomed|3039811000001102|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
-|oestrogens-and-hrt v1|snomed|3040311000001103|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3040511000001109|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3040711000001104|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|325648008|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3042111000001101|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3447711000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3455111000001100|Estradiol 2mg / Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3043111000001107|Kliofem tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3079811000001104|Kliofem tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3049511000001101|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3049811000001103|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3049911000001108|Nuvelle Continuous tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3050111000001103|Nuvelle Continuous tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3448111000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3448211000001102|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3455211000001106|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3455311000001103|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|4501811000001107|FemTab Continuous tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4502011000001109|FemTab Continuous tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|3549811000001101|Generic Nuvelle tablets|
-|oestrogens-and-hrt v1|snomed|3198811000001105|Generic Nuvelle tablets|
-|oestrogens-and-hrt v1|snomed|3199011000001109|Nuvelle tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|3200011000001101|Nuvelle tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|4521511000001100|FemTab Sequi tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|4521911000001107|FemTab Sequi tablets (Merck Serono Ltd)|
-|oestrogens-and-hrt v1|snomed|3549711000001109|Generic Nuvelle TS transdermal patches|
-|oestrogens-and-hrt v1|snomed|3210011000001103|Generic Nuvelle TS transdermal patches|
-|oestrogens-and-hrt v1|snomed|3210111000001102|Nuvelle TS patches (Schering Health Care Ltd)|
-|oestrogens-and-hrt v1|snomed|3210311000001100|Nuvelle TS patches (Schering Health Care Ltd)|
-|oestrogens-and-hrt v1|snomed|3542511000001108|Generic Estracombi TTS transdermal patches|
-|oestrogens-and-hrt v1|snomed|3214011000001105|Generic Estracombi TTS transdermal patches|
-|oestrogens-and-hrt v1|snomed|3215111000001105|Generic Estracombi TTS transdermal patches|
-|oestrogens-and-hrt v1|snomed|3215411000001100|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3215711000001106|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3215911000001108|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|36065211000001103|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|3216311000001102|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|3216411000001109|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|3216511000001108|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|3216611000001107|Evorel Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3216711000001103|Evorel Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3216811000001106|Evorel Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3216911000001101|Evorel Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3542611000001107|Generic Evorel Sequi transdermal patches|
-|oestrogens-and-hrt v1|snomed|3217211000001107|Generic Evorel Sequi transdermal patches|
-|oestrogens-and-hrt v1|snomed|3217311000001104|Evorel Sequi patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3217511000001105|Evorel Sequi patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3407111000001100|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3219411000001102|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3219511000001103|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3219611000001104|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3219711000001108|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3219811000001100|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3542911000001101|Generic Femoston 2/20mg tablets|
-|oestrogens-and-hrt v1|snomed|3345911000001107|Generic Femoston 2/20mg tablets|
-|oestrogens-and-hrt v1|snomed|3346111000001103|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3346211000001109|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3542711000001103|Generic Femoston 1/10mg tablets|
-|oestrogens-and-hrt v1|snomed|3347711000001104|Generic Femoston 1/10mg tablets|
-|oestrogens-and-hrt v1|snomed|3347911000001102|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3348211000001105|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3542811000001106|Generic Femoston 2/10mg tablets|
-|oestrogens-and-hrt v1|snomed|3349511000001102|Generic Femoston 2/10mg tablets|
-|oestrogens-and-hrt v1|snomed|3349811000001104|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3350211000001105|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3404911000001108|Generic Cyclo-Progynova 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3351211000001104|Generic Cyclo-Progynova 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3351311000001107|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3351611000001102|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3404811000001103|Generic Cyclo-Progynova 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3352811000001107|Generic Cyclo-Progynova 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3353311000001108|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3353611000001103|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3557411000001105|Generic Tridestra tablets|
-|oestrogens-and-hrt v1|snomed|3355411000001102|Generic Tridestra tablets|
-|oestrogens-and-hrt v1|snomed|3355511000001103|Tridestra tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3355911000001105|Tridestra tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3404511000001101|Generic Climagest 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3357811000001105|Generic Climagest 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3358011000001103|Generic Climagest 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3358411000001107|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3358711000001101|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3359111000001109|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3404711000001106|Generic Climagest 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3362911000001107|Generic Climagest 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3363311000001101|Generic Climagest 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3363611000001106|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3364111000001101|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3364511000001105|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|oestrogens-and-hrt v1|snomed|3403511000001104|Generic Adgyn Combi tablets|
-|oestrogens-and-hrt v1|snomed|3366311000001105|Generic Adgyn Combi tablets|
-|oestrogens-and-hrt v1|snomed|3366411000001103|Adgyn Combi tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|3366511000001104|Adgyn Combi tablets (Kyowa Kirin Ltd)|
-|oestrogens-and-hrt v1|snomed|3465311000001107|Generic Elleste Duet 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3367211000001100|Generic Elleste Duet 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3367311000001108|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3367411000001101|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|325577001|Estradiol 0.06% gel (750microgram per actuation)|
-|oestrogens-and-hrt v1|snomed|3413511000001101|Estradiol 0.06% gel (750microgram per actuation)|
-|oestrogens-and-hrt v1|snomed|17613911000001103|Estradiol 0.06% gel (750microgram per actuation)|
-|oestrogens-and-hrt v1|snomed|3414911000001105|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3416111000001100|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3464211000001100|Generic Trisequens tablets|
-|oestrogens-and-hrt v1|snomed|3449211000001107|Generic Trisequens tablets|
-|oestrogens-and-hrt v1|snomed|3449411000001106|Trisequens tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3449611000001109|Trisequens tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3464311000001108|Generic Trisequens Forte tablets|
-|oestrogens-and-hrt v1|snomed|3453411000001106|Generic Trisequens Forte tablets|
-|oestrogens-and-hrt v1|snomed|3453611000001109|Trisequens Forte tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3453811000001108|Trisequens Forte tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|3465411000001100|Generic Elleste Duet 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3455411000001105|Generic Elleste Duet 2mg tablets|
-|oestrogens-and-hrt v1|snomed|3455511000001109|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3455611000001108|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|3553111000001108|Generic Premique Cycle tablets|
-|oestrogens-and-hrt v1|snomed|3456611000001103|Generic Premique Cycle tablets|
-|oestrogens-and-hrt v1|snomed|3456711000001107|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|3456811000001104|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|400674006|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
-|oestrogens-and-hrt v1|snomed|3470611000001102|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
-|oestrogens-and-hrt v1|snomed|3470811000001103|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|3472111000001109|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|134589003|Estradiol 150micrograms/dose nasal spray|
-|oestrogens-and-hrt v1|snomed|3649211000001109|Estradiol 150micrograms/dose nasal spray|
-|oestrogens-and-hrt v1|snomed|3649411000001108|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|3649511000001107|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|3664211000001102|Estradiol 500microgram gel sachets|
-|oestrogens-and-hrt v1|snomed|3657711000001107|Estradiol 500microgram gel sachets|
-|oestrogens-and-hrt v1|snomed|3657811000001104|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3658011000001106|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3664111000001108|Estradiol 1mg gel sachets|
-|oestrogens-and-hrt v1|snomed|3658211000001101|Estradiol 1mg gel sachets|
-|oestrogens-and-hrt v1|snomed|3658311000001109|Estradiol 1mg gel sachets|
-|oestrogens-and-hrt v1|snomed|3658611000001104|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3658811000001100|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3659011000001101|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|325541008|Estradiol 50mg implant|
-|oestrogens-and-hrt v1|snomed|3773011000001109|Estradiol 50mg implant|
-|oestrogens-and-hrt v1|snomed|3773511000001101|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3773611000001102|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3773711000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3774011000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3774411000001102|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3774511000001103|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|27322111000001108|Estradiol 50mg implant (Special Order)|
-|oestrogens-and-hrt v1|snomed|27322211000001102|Estradiol 50mg implant (Special Order)|
-|oestrogens-and-hrt v1|snomed|325542001|Estradiol 100mg implant|
-|oestrogens-and-hrt v1|snomed|3774611000001104|Estradiol 100mg implant|
-|oestrogens-and-hrt v1|snomed|3774711000001108|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3774811000001100|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3774911000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|3775011000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|3775111000001106|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3775211000001100|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3788311000001107|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|3779811000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|14253711000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|3779911000001106|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3780011000001107|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3788211000001104|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|3780111000001108|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|14253511000001106|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|3780211000001102|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3780311000001105|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3864111000001104|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|3853611000001101|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|14253611000001105|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
-|oestrogens-and-hrt v1|snomed|3853711000001105|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3853811000001102|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|325550005|Estriol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3876311000001100|Estriol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3876411000001107|Ovestin 1mg tablets (Organon Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|3876511000001106|Ovestin 1mg tablets (Organon Laboratories Ltd)|
-|oestrogens-and-hrt v1|snomed|325540009|Estradiol 25mg implant|
-|oestrogens-and-hrt v1|snomed|3878311000001101|Estradiol 25mg implant|
-|oestrogens-and-hrt v1|snomed|3878511000001107|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3878611000001106|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3878711000001102|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3878811000001105|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|3878911000001100|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3879011000001109|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3948111000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3940311000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3940511000001100|Evorel Pak (Janssen-Cilag Ltd)|
-|oestrogens-and-hrt v1|snomed|3940611000001101|Evorel Pak (Janssen-Cilag Ltd)|
-|oestrogens-and-hrt v1|snomed|3948011000001105|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|oestrogens-and-hrt v1|snomed|3941911000001100|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|oestrogens-and-hrt v1|snomed|3942111000001108|Femapak 80 (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3942311000001105|Femapak 80 (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3947911000001108|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|oestrogens-and-hrt v1|snomed|3943011000001103|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
-|oestrogens-and-hrt v1|snomed|3943111000001102|Femapak 40 (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|3943211000001108|Femapak 40 (Abbott Healthcare Products Ltd)|
-|oestrogens-and-hrt v1|snomed|325482006|Ethinylestradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3962211000001107|Ethinylestradiol 1mg tablets|
-|oestrogens-and-hrt v1|snomed|3962511000001105|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3962611000001109|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|3962811000001108|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|3963011000001106|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|3963211000001101|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|3963311000001109|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|325481004|Ethinylestradiol 50microgram tablets|
-|oestrogens-and-hrt v1|snomed|4111311000001105|Ethinylestradiol 50microgram tablets|
-|oestrogens-and-hrt v1|snomed|4111411000001103|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|4111511000001104|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
-|oestrogens-and-hrt v1|snomed|4111611000001100|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|4111711000001109|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|4111811000001101|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|4111911000001106|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
-|oestrogens-and-hrt v1|snomed|4339811000001101|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|4338511000001105|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|4338611000001109|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
-|oestrogens-and-hrt v1|snomed|4338711000001100|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4338811000001108|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4338911000001103|FemSeven Conti patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4508511000001104|Generic Novofem tablets|
-|oestrogens-and-hrt v1|snomed|4499011000001106|Generic Novofem tablets|
-|oestrogens-and-hrt v1|snomed|4499111000001107|Novofem tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|4499211000001101|Novofem tablets (Novo Nordisk Ltd)|
-|oestrogens-and-hrt v1|snomed|428005004|Conjugated oestrogens 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|4547811000001107|Conjugated oestrogens 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|4548011000001100|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|4548111000001104|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
-|oestrogens-and-hrt v1|snomed|4725811000001103|Generic FemSeven Sequi transdermal patches|
-|oestrogens-and-hrt v1|snomed|4711511000001106|Generic FemSeven Sequi transdermal patches|
-|oestrogens-and-hrt v1|snomed|4711711000001101|Generic FemSeven Sequi transdermal patches|
-|oestrogens-and-hrt v1|snomed|4711811000001109|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4712011000001106|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|4712611000001104|FemSeven Sequi patches (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|15621411000001104|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
-|oestrogens-and-hrt v1|snomed|7340211000001102|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
-|oestrogens-and-hrt v1|snomed|7340311000001105|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|7340411000001103|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|8794111000001104|Ethinylestradiol 2microgram capsules|
-|oestrogens-and-hrt v1|snomed|8751511000001101|Ethinylestradiol 2microgram capsules|
-|oestrogens-and-hrt v1|snomed|8752311000001103|Ethinylestradiol 2microgram capsules (Special Order)|
-|oestrogens-and-hrt v1|snomed|8752511000001109|Ethinylestradiol 2microgram capsules (Special Order)|
-|oestrogens-and-hrt v1|snomed|8801211000001108|Estradiol 1mg / Drospirenone 2mg tablets|
-|oestrogens-and-hrt v1|snomed|8786911000001108|Estradiol 1mg / Drospirenone 2mg tablets|
-|oestrogens-and-hrt v1|snomed|8787011000001107|Angeliq 1mg/2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|8787111000001108|Angeliq 1mg/2mg tablets (Bayer Plc)|
-|oestrogens-and-hrt v1|snomed|10280511000001108|Generic Clinorette tablets|
-|oestrogens-and-hrt v1|snomed|10277311000001107|Generic Clinorette tablets|
-|oestrogens-and-hrt v1|snomed|10277411000001100|Clinorette tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|10277511000001101|Clinorette tablets (ReSource Medical UK Ltd)|
-|oestrogens-and-hrt v1|snomed|409118006|Conjugated oestrogens 300microgram tablets|
-|oestrogens-and-hrt v1|snomed|11476711000001101|Conjugated oestrogens 300microgram tablets|
-|oestrogens-and-hrt v1|snomed|11476811000001109|Premarin 0.3mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|11476911000001104|Premarin 0.3mg tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|11738011000001105|Ethinylestradiol 2microgram tablets|
-|oestrogens-and-hrt v1|snomed|11733511000001106|Ethinylestradiol 2microgram tablets|
-|oestrogens-and-hrt v1|snomed|14778511000001107|Ethinylestradiol 2microgram tablets|
-|oestrogens-and-hrt v1|snomed|11733811000001109|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|11734011000001101|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
-|oestrogens-and-hrt v1|snomed|14778411000001108|Ethinylestradiol 2microgram tablets (Special Order)|
-|oestrogens-and-hrt v1|snomed|14778611000001106|Ethinylestradiol 2microgram tablets (Special Order)|
-|oestrogens-and-hrt v1|snomed|12298411000001100|Ethinylestradiol 2micrograms/5ml oral suspension|
-|oestrogens-and-hrt v1|snomed|12281411000001106|Ethinylestradiol 2micrograms/5ml oral suspension|
-|oestrogens-and-hrt v1|snomed|12281511000001105|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
-|oestrogens-and-hrt v1|snomed|12281611000001109|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
-|oestrogens-and-hrt v1|snomed|12298511000001101|Ethinylestradiol 4micrograms/5ml oral suspension|
-|oestrogens-and-hrt v1|snomed|12282111000001106|Ethinylestradiol 4micrograms/5ml oral suspension|
-|oestrogens-and-hrt v1|snomed|12282311000001108|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
-|oestrogens-and-hrt v1|snomed|12282611000001103|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
-|oestrogens-and-hrt v1|snomed|21366211000001107|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|21259211000001101|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
-|oestrogens-and-hrt v1|snomed|21259311000001109|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|21259411000001102|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
-|oestrogens-and-hrt v1|snomed|24688011000001102|Generic Climen tablets|
-|oestrogens-and-hrt v1|snomed|24660311000001103|Generic Climen tablets|
-|oestrogens-and-hrt v1|snomed|24660611000001108|Climen tablets (Imported (Germany))|
-|oestrogens-and-hrt v1|snomed|24660711000001104|Climen tablets (Imported (Germany))|
-|oestrogens-and-hrt v1|snomed|28049411000001102|Ethinylestradiol 5microgram capsules|
-|oestrogens-and-hrt v1|snomed|28042911000001100|Ethinylestradiol 5microgram capsules|
-|oestrogens-and-hrt v1|snomed|28043011000001108|Ethinylestradiol 5microgram capsules (Special Order)|
-|oestrogens-and-hrt v1|snomed|28043111000001109|Ethinylestradiol 5microgram capsules (Special Order)|
-|oestrogens-and-hrt v1|snomed|32936711000001100|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
-|oestrogens-and-hrt v1|snomed|32927311000001104|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
-|oestrogens-and-hrt v1|snomed|32927411000001106|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|32927511000001105|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
-|oestrogens-and-hrt v1|snomed|38344311000001108|Estradiol 1.53mg/dose transdermal spray|
-|oestrogens-and-hrt v1|snomed|38268811000001107|Estradiol 1.53mg/dose transdermal spray|
-|oestrogens-and-hrt v1|snomed|38269511000001103|Estradiol 1.53mg/dose transdermal spray|
-|oestrogens-and-hrt v1|snomed|38268911000001102|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|38269311000001109|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|38269811000001100|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
-|oestrogens-and-hrt v1|snomed|39601811000001101|Ethinylestradiol 50microgram gastro-resistant tablets|
-|oestrogens-and-hrt v1|snomed|39576711000001104|Ethinylestradiol 50microgram gastro-resistant tablets|
-|oestrogens-and-hrt v1|snomed|39576811000001107|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
-|oestrogens-and-hrt v1|snomed|39576911000001102|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
-|oestrogens-and-hrt v1|snomed|39964911000001106|Estradiol 1mg / Progesterone 100mg capsules|
-|oestrogens-and-hrt v1|snomed|39943611000001109|Estradiol 1mg / Progesterone 100mg capsules|
-|oestrogens-and-hrt v1|snomed|40115211000001103|Estradiol 1mg / Progesterone 100mg capsules|
-|oestrogens-and-hrt v1|snomed|39943711000001100|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|39943811000001108|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
-|oestrogens-and-hrt v1|snomed|40115311000001106|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
 |nsaids v1|ctv3|dicZ.|NUROMOL 200mg/500mg tablets|
 |nsaids v1|ctv3|dicw.|IBUPROFEN+PARACETAMOL 200mg/500mg tablets|
 |nsaids v1|ctv3|dl63.|Tolfenamic acid 200mg tablet|
@@ -20740,6 +18947,3694 @@ All code sets required for this analysis are listed here. Individual lists for e
 |nsaids v1|snomed|5425611000001101|Voltarol Retard 100mg tablets (Waymade Healthcare Plc)|
 |nsaids v1|snomed|4506111000001109|Xefo 4mg tablets (CeNeS Pharmaceuticals Plc)|
 |nsaids v1|snomed|4506711000001105|Xefo 8mg tablets (CeNeS Pharmaceuticals Plc)|
+|hormone-replacement-therapy-meds v1|ctv3|fh17.|Prempak-C 0.625 tablets x1 month|
+|hormone-replacement-therapy-meds v1|ctv3|ff2f.|Climaval 1mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|ff2r.|Oestradiol 50micrograms patch|
+|hormone-replacement-therapy-meds v1|ctv3|ff2z.|Oestradiol 2mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|ff41.|Premarin 625micrograms tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg45.|Provera 10mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg46.|Medroxyprogesterone acetate 10mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg51.|Norethisterone 5mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg52.|Primolut-N 5mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg62.|Cyclogest 400mg suppository|
+|hormone-replacement-therapy-meds v1|ctv3|fh12.|Cyclo-Progynova 2mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fg57.|Norethisterone 1mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fh1E.|Femoston 2/10 tablet|
+|hormone-replacement-therapy-meds v1|ctv3|ff2K.|FemSeven 50 patch|
+|hormone-replacement-therapy-meds v1|ctv3|ff2M.|Oestradiol valerate 1mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|fh1N.|Evorel Sequi patch|
+|hormone-replacement-therapy-meds v1|ctv3|fh1O.|Evorel Conti patch|
+|hormone-replacement-therapy-meds v1|ctv3|fg62.|Cyclogest 400mg pessary|
+|hormone-replacement-therapy-meds v1|ctv3|ff2M.|Estradiol valerate 1mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|ff2r.|Estradiol 50micrograms patches|
+|hormone-replacement-therapy-meds v1|ctv3|ff2z.|Estradiol 2mg tablet|
+|hormone-replacement-therapy-meds v1|ctv3|ga92.|ESMYA 5mg tablets|
+|hormone-replacement-therapy-meds v1|emis|NUTA17981EMIS|Nuvelle  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ELTA31986EMIS|Elleste Duet Conti  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|PRPE98865NEMIS|Progesterone  Pessaries  100 mg|
+|hormone-replacement-therapy-meds v1|emis|ESIM38193MGEMIS|Estradiol  Implant  25 mg (Organon)|
+|hormone-replacement-therapy-meds v1|emis|ESPA18982NEMIS|Estradiol And Levonorgestrel  Patches (7 days)  50 micrograms + 7 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|ETTA38107MGEMIS|Ethinylestradiol  Tablets  10 micrograms (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|NOTA12924NEMIS|Novofem  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|META9109EMIS|Medroxyprogesterone Acetate  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA18936NEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg|
+|hormone-replacement-therapy-meds v1|emis|ETTA38111MGEMIS|Ethinylestradiol  Tablets  50 micrograms (Ucb Pharma)|
+|hormone-replacement-therapy-meds v1|emis|ESTR19388NEMIS|Estradot  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|PRTA2336|Premarin  Tablets  1.25 mg|
+|hormone-replacement-therapy-meds v1|emis|DETR5678NEMIS|Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESGE17750NEMIS|Estradiol  Gel  0.06 % pump-pack|
+|hormone-replacement-therapy-meds v1|emis|ESIM38189MGEMIS|Estradiol  Implant  100 mg (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|OVTA23838EMIS|Ovestin  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|CRVA31940EMIS|Crinone  Vaginal gel  8 %|
+|hormone-replacement-therapy-meds v1|emis|PRSO130305NEMIS|Progesterone  Solution for injection  25 mg/1.112 ml vial|
+|hormone-replacement-therapy-meds v1|emis|PRTA27092EMIS|Premique  Tablets  0.625 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTR12936NEMIS|Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|ETTA38109MGEMIS|Ethinylestradiol  Tablets  10 micrograms (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|RATA79472NEMIS|Razylan  Tablets  60 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA76935NEMIS|Estradiol And Dydrogesterone  Tablets  500 micrograms + 2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESPA18939NEMIS|Estradiol And Norethisterone  Patches And Tablets  50 micrograms/24 hours + 1 mg|
+|hormone-replacement-therapy-meds v1|emis|ANTA20250NEMIS|Angeliq  Tablets  1 mg + 2 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38331MGEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Novo-Nordisk)|
+|hormone-replacement-therapy-meds v1|emis|ETTA17650NEMIS|Ethinylestradiol  Tablets  50 micrograms|
+|hormone-replacement-therapy-meds v1|emis|TRTA20213EMIS|Trisequens Forte  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESIM38195MGEMIS|Estradiol  Implant  50 mg (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|ESIM17753NEMIS|Estradiol  Implant  50 mg|
+|hormone-replacement-therapy-meds v1|emis|ZATA135293NEMIS|Zalkya  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|FETA28124EMIS|Femapak 80  Tablets and patches  |
+|hormone-replacement-therapy-meds v1|emis|ESTA18932NEMIS|Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms|
+|hormone-replacement-therapy-meds v1|emis|FETA26908EMIS|Femoston 2/10  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESNA17773NEMIS|Estradiol  Nasal spray  150 micrograms/actuation|
+|hormone-replacement-therapy-meds v1|emis|ETTA38108MGEMIS|Ethinylestradiol  Tablets  10 micrograms (Ucb Pharma)|
+|hormone-replacement-therapy-meds v1|emis|ZUTA20666EMIS|Zumenon  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|FETA76936NEMIS|Femoston-Conti  Tablets  500 micrograms + 2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|UTVA82060NEMIS|Utrogestan  Vaginal Capsules With Applicators  200 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38199MGEMIS|Estradiol  Tablets  1 mg (Pfizer)|
+|hormone-replacement-therapy-meds v1|emis|TRTA26679EMIS|Tridestra  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|METR27688EMIS|Menorest  Transdermal patches  37.5 micrograms/day|
+|hormone-replacement-therapy-meds v1|emis|ELTR31593EMIS|Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|NOTA36283MGEMIS|Norethisterone  Tablets  5 mg (Sandoz)|
+|hormone-replacement-therapy-meds v1|emis|INTA5652NEMIS|Indivina  Tablets  1 mg + 2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|FETR31721EMIS|Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|CLTA22324NEMIS|Climanor  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|DITA90864NEMIS|Dienogest  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR17761NEMIS|Estradiol  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|FETA1987NEMIS|Femoston-Conti  Tablets  1 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|CLTA28306EMIS|Climesse  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|TITA9207EMIS|Tibolone  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR28298EMIS|Estraderm Mx  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|LETR136004NEMIS|Lenzetto  Transdermal Spray  1.53 mg/dose|
+|hormone-replacement-therapy-meds v1|emis|DETR30520EMIS|Dermestril  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|CRVA31938EMIS|Crinone  Vaginal gel  4 %|
+|hormone-replacement-therapy-meds v1|emis|ETTA17651NEMIS|Ethinylestradiol  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|ULTA71577NEMIS|Ulipristal Acetate  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2347|Primolut N  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA17777NEMIS|Estradiol Valerate  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|ADTA5077NEMIS|Adgyn Combi  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESPA18941NEMIS|Estradiol And Dydrogesterone  Patches And Tablets  40 micrograms/24 hours + 10 mg|
+|hormone-replacement-therapy-meds v1|emis|SAGE30743EMIS|Sandrena  Gel  500 micrograms/500 mg sachet|
+|hormone-replacement-therapy-meds v1|emis|EVTA34223EMIS|Evista  Tablets  60 mg|
+|hormone-replacement-therapy-meds v1|emis|CLTA9345EMIS|Climaval  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|ETTA17649NEMIS|Ethinylestradiol  Tablets  10 micrograms|
+|hormone-replacement-therapy-meds v1|emis|EVTR31384EMIS|Evorel Sequi  Transdermal patches  |
+|hormone-replacement-therapy-meds v1|emis|ETTA38115MGEMIS|Ethinylestradiol  Tablets  1 mg (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|ESTR136000NEMIS|Estradiol  Transdermal Spray  1.53 mg/dose|
+|hormone-replacement-therapy-meds v1|emis|ADTA5074NEMIS|Adgyn Estro  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|OETA9400EMIS|Oestradiol Valerate  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA9008EMIS|Provera  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR17763NEMIS|Estradiol  Transdermal patches  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESPA18937NEMIS|Estradiol And Norethisterone Acetate  Patches  50 micrograms + 170 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|DYTA1015|Dydrogesterone  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|NOTA36285MGEMIS|Norethisterone  Tablets  5 mg (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|ESGE17772NEMIS|Estradiol  Gel  500 micrograms/500 mg sachet|
+|hormone-replacement-therapy-meds v1|emis|ESTA17754NEMIS|Estradiol  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|NUTA399NEMIS|Nuvelle Continuous  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|BICA140375NEMIS|NULL|
+|hormone-replacement-therapy-meds v1|emis|ESTR17764NEMIS|Estradiol  Transdermal patches  80 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|META23818EMIS|Medroxyprogesterone Acetate  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38209MGEMIS|Estradiol Valerate  Tablets  2 mg (Orion Pharma)|
+|hormone-replacement-therapy-meds v1|emis|CLTA9344EMIS|Climaval  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2372|Progynova  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|KLTA26493EMIS|Kliofem  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTR19392NEMIS|Estradot  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|AENA6635NEMIS|Aerodiol  Nasal spray  150 micrograms/metered spray|
+|hormone-replacement-therapy-meds v1|emis|ESTA18946NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|ADTA5079NEMIS|Adgyn Medro  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESIM38194MGEMIS|Estradiol  Implant  25 mg (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|ESGE17771NEMIS|Estradiol  Gel  1 mg/1 gram sachet|
+|hormone-replacement-therapy-meds v1|emis|CLTA23918EMIS|Climagest 2 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESIM17752NEMIS|Estradiol  Implant  25 mg|
+|hormone-replacement-therapy-meds v1|emis|ESIM38197MGEMIS|Estradiol  Implant  50 mg (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|DETR30519EMIS|Dermestril  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ETGA139398NEMIS|NULL|
+|hormone-replacement-therapy-meds v1|emis|ESTA38204MGEMIS|Estradiol  Tablets  2 mg (Pfizer)|
+|hormone-replacement-therapy-meds v1|emis|FETR28091EMIS|Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|UTCA26233NEMIS|Utrogestan  Capsules (Micronised)  200 mg|
+|hormone-replacement-therapy-meds v1|emis|DUTA27717EMIS|Duphaston-Hrt  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|DUM/123287NEMIS|Duavive  M/R tablets  450 micrograms + 20 mg|
+|hormone-replacement-therapy-meds v1|emis|COM/123284NEMIS|Conjugated Oestrogens And Bazedoxifene  M/R tablets  450 micrograms + 20 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR19391NEMIS|Estradot  Transdermal patches  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|EVTR31391EMIS|Evorel Conti  Transdermal patches  |
+|hormone-replacement-therapy-meds v1|emis|PRIN2366|Progesterone  Injection  25 mg/1 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|CLTA22320NEMIS|Clinorette  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTA71579NEMIS|Esmya  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|EVTR22315EMIS|Evorel  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESCA140373NEMIS|NULL|
+|hormone-replacement-therapy-meds v1|emis|ESPA8671EGTON|Estraderm Tts  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|NOTA36288MGEMIS|Norethisterone  Tablets  5 mg (Wockhardt UK)|
+|hormone-replacement-therapy-meds v1|emis|ESTA38205MGEMIS|Estradiol Valerate  Tablets  1 mg (Viatris Pharms)|
+|hormone-replacement-therapy-meds v1|emis|ESTA38200MGEMIS|Estradiol  Tablets  1 mg (Novo-Nordisk)|
+|hormone-replacement-therapy-meds v1|emis|LUSO88120NEMIS|Lubion  Solution for injection  25 mg/1.119 ml vial|
+|hormone-replacement-therapy-meds v1|emis|EVTR26441EMIS|Evorel  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|PRCA26231NEMIS|Progesterone  Capsules (Micronised)  100 mg|
+|hormone-replacement-therapy-meds v1|emis|NOTA2023|Norethisterone  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|COTA724|Conjugated Oestrogens  Tablets  625 micrograms|
+|hormone-replacement-therapy-meds v1|emis|FETA27492EMIS|Femoston 1/10  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTR17767NEMIS|Estradiol  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|CYTA10113BRIDL|Cyclo-Progynova 1 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTR17759NEMIS|Estradiol  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|FETR13850NEMIS|Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|ESTA18943NEMIS|Estradiol And Dydrogesterone  Tablets  1 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|EVTA25472EMIS|Evorel-Pak  Tablets and patches  |
+|hormone-replacement-therapy-meds v1|emis|ETTA17652NEMIS|Ethinylestradiol  Tablets  2 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ETTA38114MGEMIS|Ethinylestradiol  Tablets  1 mg (Ucb Pharma)|
+|hormone-replacement-therapy-meds v1|emis|SAGE30742EMIS|Sandrena  Gel  1 mg/1 gram sachet|
+|hormone-replacement-therapy-meds v1|emis|FETR28119EMIS|Fematrix 40  Transdermal patches  40 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|HOTA3705|Hormonin  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|NOTA36284MGEMIS|Norethisterone  Tablets  5 mg (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|ESTA17776NEMIS|Estradiol Valerate  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2337|Premarin  Tablets  625 micrograms|
+|hormone-replacement-therapy-meds v1|emis|INTA5653NEMIS|Indivina  Tablets  1 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA17755NEMIS|Estradiol  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|COTA18953NEMIS|Conjugated Oestrogens And Norgestrel  Tablets  625 micrograms + 150 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ESTA38206MGEMIS|Estradiol Valerate  Tablets  1 mg (Novartis Pharm)|
+|hormone-replacement-therapy-meds v1|emis|HATA1350|Harmogen  Tablets  1.5 mg|
+|hormone-replacement-therapy-meds v1|emis|META9109EMIS|Medroxyprogesterone Acetate  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38198MGEMIS|Estradiol  Tablets  1 mg (Solvay Healthcare)|
+|hormone-replacement-therapy-meds v1|emis|PRTA25050NEMIS|Premarin  Tablets  300 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ESTA8374EGTON|Estrapak 50  Tablets and patches  |
+|hormone-replacement-therapy-meds v1|emis|COTA18954NEMIS|Conjugated Oestrogens And Norgestrel  Tablets  1.25 mg + 150 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ESPA18942NEMIS|Estradiol And Dydrogesterone  Patches And Tablets  80 micrograms/24 hours + 10 mg|
+|hormone-replacement-therapy-meds v1|emis|EVTR31391EMIS|Evorel Conti  Transdermal patches  |
+|hormone-replacement-therapy-meds v1|emis|ESTA17755NEMIS|Estradiol  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|GEIN25431EMIS|Gestone  Solution for injection  100 mg/2 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|PRCA26229NEMIS|Progesterone  Capsules (Micronised)  200 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA27095EMIS|Premique Cycle  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|OEGE26580EMIS|Oestrogel  Gel  0.06 % pump-pack|
+|hormone-replacement-therapy-meds v1|emis|FETR14417NEMIS|Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|TRCA4464|Trisequens  Calendar pack  |
+|hormone-replacement-therapy-meds v1|emis|PRPE10821NEMIS|Progesterone  Pessaries  400 mg|
+|hormone-replacement-therapy-meds v1|emis|ESPA8673EGTON|Estraderm Tts  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|COTA18950NEMIS|Conjugated Oestrogens And Medroxyprogesterone  Tablets  625 micrograms + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|PRVA31944EMIS|Progesterone  Vaginal gel  8 %|
+|hormone-replacement-therapy-meds v1|emis|ELTR31592EMIS|Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESTA38211MGEMIS|Estradiol Valerate  Tablets  2 mg (Merck)|
+|hormone-replacement-therapy-meds v1|emis|ZUTA29671EMIS|Zumenon  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|NOTA36286MGEMIS|Norethisterone  Tablets  5 mg (Kent Pharm)|
+|hormone-replacement-therapy-meds v1|emis|FETA26908EMIS|Femoston 2/10  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|PRIN2373|Proluton Depot  Injection  250 mg/ml|
+|hormone-replacement-therapy-meds v1|emis|GEIN1296|Gestone  Injection  25 mg/1 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|ESTR19390NEMIS|Estradot  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|EVTA113411NEMIS|Evirex  Tablets  60 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38208MGEMIS|Estradiol Valerate  Tablets  2 mg (Viatris Pharms)|
+|hormone-replacement-therapy-meds v1|emis|PRIN2367|Progesterone  Solution for injection  50 mg/1 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|FETR31722EMIS|Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|OETA20668EMIS|Oestradiol  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|DETR30518EMIS|Dermestril  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|PRVA31943EMIS|Progesterone  Vaginal gel  4 %|
+|hormone-replacement-therapy-meds v1|emis|ESTR19386NEMIS|Estradiol  Transdermal patches  37.5 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|PRPE10820NEMIS|Progesterone  Pessaries  200 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR17761NEMIS|Estradiol  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESTA18945NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|COTA34621MGEMIS|Conjugated Oestrogens  Tablets  625 micrograms (Wyeth)|
+|hormone-replacement-therapy-meds v1|emis|PRTA2337|Premarin  Tablets  625 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ESTA71579NEMIS|Esmya  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|COTA33808EMIS|Conjugated Oestrogens  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|OETR22321EMIS|Oestradiol  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|LUSO130306NEMIS|Lubion  Solution for injection  25 mg/1.112 ml vial|
+|hormone-replacement-therapy-meds v1|emis|LUVA98867NEMIS|Lutigest  Vaginal tablets  100 mg|
+|hormone-replacement-therapy-meds v1|emis|METR27690EMIS|Menorest  Transdermal patches  75 micrograms/day|
+|hormone-replacement-therapy-meds v1|emis|COTA18951NEMIS|Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg|
+|hormone-replacement-therapy-meds v1|emis|ETTA38113MGEMIS|Ethinylestradiol  Tablets  1 mg (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|ELTA28288EMIS|Elleste-Solo  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA17460NEMIS|Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2371|Progynova  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|CYTA775|Cyclo-Progynova 2 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|CYPE10823NEMIS|Cyclogest  Pessaries  400 mg|
+|hormone-replacement-therapy-meds v1|emis|NOTA25449EMIS|Norethisterone  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|GEIN1297|Gestone  Solution for injection  50 mg/1 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|EVTR26443EMIS|Evorel  Transdermal patches  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESTA17783NEMIS|Estriol  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|DETR5677NEMIS|Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|RATA34225EMIS|Raloxifene Hydrochloride  Tablets  60 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38202MGEMIS|Estradiol  Tablets  2 mg (Strakan)|
+|hormone-replacement-therapy-meds v1|emis|FETA15853NEMIS|Femtab  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA23816EMIS|Provera  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESIM38196MGEMIS|Estradiol  Implant  50 mg (Organon)|
+|hormone-replacement-therapy-meds v1|emis|NOTA2023|Norethisterone  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTR28297EMIS|Estraderm Mx  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|NOTA36287MGEMIS|Norethisterone  Tablets  5 mg (Alpharma)|
+|hormone-replacement-therapy-meds v1|emis|ESTR19389NEMIS|Estradot  Transdermal patches  37.5 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ELTA28287EMIS|Elleste-Solo  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38210MGEMIS|Estradiol Valerate  Tablets  2 mg (Novartis Pharm)|
+|hormone-replacement-therapy-meds v1|emis|ESIM17751NEMIS|Estradiol  Implant  100 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38203MGEMIS|Estradiol  Tablets  2 mg (Novo-Nordisk)|
+|hormone-replacement-therapy-meds v1|emis|ESIM38192MGEMIS|Estradiol  Implant  25 mg (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|FETA15852NEMIS|Femtab  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|FETA26911EMIS|Femoston 2/20  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTR397NEMIS|Estraderm Mx  Transdermal patches  75 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|META1749|Medroxyprogesterone Acetate  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA38332MGEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Pfizer)|
+|hormone-replacement-therapy-meds v1|emis|PRIN25433EMIS|Progesterone  Solution for injection  100 mg/2 ml ampoule|
+|hormone-replacement-therapy-meds v1|emis|ETTA38112MGEMIS|Ethinylestradiol  Tablets  50 micrograms (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|ESTA38207MGEMIS|Estradiol Valerate  Tablets  2 mg (Schering Health Care Ltd)|
+|hormone-replacement-therapy-meds v1|emis|ESPA20472EMIS|Estracombi Tts  Patches  |
+|hormone-replacement-therapy-meds v1|emis|ESTR28299EMIS|Estraderm Mx  Transdermal patches  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|FETA15858NEMIS|Femtab Continuous  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTA18948NEMIS|Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms|
+|hormone-replacement-therapy-meds v1|emis|ETTA38110MGEMIS|Ethinylestradiol  Tablets  50 micrograms (A.A.H. Pharm)|
+|hormone-replacement-therapy-meds v1|emis|ESTA17776NEMIS|Estradiol Valerate  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|PRSO88118NEMIS|Progesterone  Solution for injection  25 mg/1.119 ml vial|
+|hormone-replacement-therapy-meds v1|emis|PRTR12939NEMIS|Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours|
+|hormone-replacement-therapy-meds v1|emis|ESIM38190MGEMIS|Estradiol  Implant  100 mg (Organon)|
+|hormone-replacement-therapy-meds v1|emis|ESTA38201MGEMIS|Estradiol  Tablets  2 mg (Solvay Healthcare)|
+|hormone-replacement-therapy-meds v1|emis|EVTR26442EMIS|Evorel  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|DUTA1008|Duphaston  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA9077BRIDL|Premarin  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2340|Prempak-C 0.625 mg + 0.15 mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESTR17758NEMIS|Estradiol  Transdermal patches  100 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ELTA30208EMIS|Elleste Duet 1 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|ESIM38191MGEMIS|Estradiol  Implant  100 mg (Unichem)|
+|hormone-replacement-therapy-meds v1|emis|METR27689EMIS|Menorest  Transdermal patches  50 micrograms/day|
+|hormone-replacement-therapy-meds v1|emis|CLTA22608EMIS|Climagest 1 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|HYIN1407|Hydroxyprogesterone Hexanoate  Injection  250 mg/ml|
+|hormone-replacement-therapy-meds v1|emis|FETA15855NEMIS|Femtab Sequi  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|PRTA9008EMIS|Provera  Tablets  10 mg|
+|hormone-replacement-therapy-meds v1|emis|MITA25447EMIS|Micronor-Hrt  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|FETA28504EMIS|Femapak 40  Tablets and patches  |
+|hormone-replacement-therapy-meds v1|emis|ESTA20248NEMIS|Estradiol And Drospirenone  Tablets  1 mg + 2 mg|
+|hormone-replacement-therapy-meds v1|emis|KLTA34182EMIS|Kliovance  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|CYTA775|Cyclo-Progynova 2 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|PRTA2405|Provera  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|FETR26606EMIS|Fematrix 80  Transdermal patches  80 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ESTR17760NEMIS|Estradiol  Transdermal patches  40 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|BETA22322NEMIS|Bedol  Tablets  2 mg|
+|hormone-replacement-therapy-meds v1|emis|PRVA82059NEMIS|Progesterone  Vaginal Capsules (Micronised)  200 mg|
+|hormone-replacement-therapy-meds v1|emis|ESTA1120NEMIS|Estropipate  Tablets  1.5 mg|
+|hormone-replacement-therapy-meds v1|emis|LITA9205EMIS|Livial  Tablets  2.5 mg|
+|hormone-replacement-therapy-meds v1|emis|EVTR31384EMIS|Evorel Sequi  Transdermal patches  |
+|hormone-replacement-therapy-meds v1|emis|FETR28091EMIS|Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|NUTR30362EMIS|Nuvelle Ts  Transdermal patches  |
+|hormone-replacement-therapy-meds v1|emis|ESTA18947NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|emis|CYPE10822NEMIS|Cyclogest  Pessaries  200 mg|
+|hormone-replacement-therapy-meds v1|emis|NOTA25449EMIS|Norethisterone  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|CYPE10823NEMIS|Cyclogest  Pessaries  400 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2340|Prempak-C 0.625 mg + 0.15 mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|COTA723|Conjugated Oestrogens  Tablets  1.25 mg|
+|hormone-replacement-therapy-meds v1|emis|PRTA2341|Prempak-C 1.25 mg + 0.15 mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|UTTA4483|Utovlan  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|OETR28193EMIS|Oestradiol  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|ELTA28291EMIS|Elleste Duet 2 Mg  Tablets  |
+|hormone-replacement-therapy-meds v1|emis|COTA34620MGEMIS|Conjugated Oestrogens  Tablets  1.25 mg (Wyeth)|
+|hormone-replacement-therapy-meds v1|emis|PRTA2347|Primolut N  Tablets  5 mg|
+|hormone-replacement-therapy-meds v1|emis|COTA25049NEMIS|Conjugated Oestrogens  Tablets  300 micrograms|
+|hormone-replacement-therapy-meds v1|emis|UTCA26234NEMIS|Utrogestan  Capsules (Micronised)  100 mg|
+|hormone-replacement-therapy-meds v1|emis|CLTA9344EMIS|Climaval  Tablets  1 mg|
+|hormone-replacement-therapy-meds v1|emis|ESPA8672EGTON|Estraderm Tts  Transdermal patches  25 micrograms/24 hrs|
+|hormone-replacement-therapy-meds v1|emis|INTA5654NEMIS|Indivina  Tablets  2 mg + 5 mg|
+|hormone-replacement-therapy-meds v1|readv2|ff2K.|FEMSEVEN 50 patches|
+|hormone-replacement-therapy-meds v1|readv2|ff2M.|ESTRADIOL VALERATE 1mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|ff2f.|CLIMAVAL 1mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|ff2r.|ESTRADIOL 50micrograms patches|
+|hormone-replacement-therapy-meds v1|readv2|ff2z.|ESTRADIOL 2mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|ff41.|PREMARIN 625micrograms tablets|
+|hormone-replacement-therapy-meds v1|readv2|fg45.|PROVERA 10mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|fg46.|MEDROXYPROGESTERONE 10mg tabs|
+|hormone-replacement-therapy-meds v1|readv2|fg51.|NORETHISTERONE 5mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|fg52.|PRIMOLUT N 5mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|fg57.|*NORETHISTERONE 1mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|fg62.|CYCLOGEST 400mg suppositories|
+|hormone-replacement-therapy-meds v1|readv2|fh12.|CYCLO-PROGYNOVA 2mg tablets|
+|hormone-replacement-therapy-meds v1|readv2|fh17.|*PREMPAK-C 0.625 tabs x1 month|
+|hormone-replacement-therapy-meds v1|readv2|fh1E.|FEMOSTON-2/10 tablets|
+|hormone-replacement-therapy-meds v1|readv2|fh1N.|EVOREL SEQUI patches|
+|hormone-replacement-therapy-meds v1|readv2|fh1O.|EVOREL CONTI patches|
+|hormone-replacement-therapy-meds v1|readv2|ga92.|ESMYA 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|325611004|Norethisterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1110711000001108|Norethisterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1023511000001106|Norethisterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|222911000001101|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1853111000001102|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|792911000001100|Norethisterone 5mg tablets (Actavis UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1853411000001107|Norethisterone 5mg tablets (Actavis UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|825711000001101|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1854511000001109|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|783611000001102|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1855711000001100|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|70611000001104|Norethisterone 5mg tablets (Sandoz Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1858511000001102|Norethisterone 5mg tablets (Sandoz Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|263911000001100|Utovlan 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1860211000001109|Utovlan 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1861511000001100|Utovlan 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|221111000001109|Primolut N 5mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|1863511000001101|Primolut N 5mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|142211000001106|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1865911000001109|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|21816111000001104|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
+|hormone-replacement-therapy-meds v1|snomed|21816211000001105|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
+|hormone-replacement-therapy-meds v1|snomed|29930211000001104|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
+|hormone-replacement-therapy-meds v1|snomed|29930311000001107|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
+|hormone-replacement-therapy-meds v1|snomed|30852111000001101|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|30852211000001107|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37461811000001105|Norethisterone 5mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|37461911000001100|Norethisterone 5mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|39060911000001106|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39061011000001103|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|326075007|Raloxifene 60mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1238711000001102|Raloxifene 60mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1142811000001107|Raloxifene 60mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|239811000001103|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1918711000001108|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|1918911000001105|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|21960811000001102|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|21961011000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|35428311000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22109311000001101|Raloxifene 60mg tablets (Teva UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22109411000001108|Raloxifene 60mg tablets (Teva UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22109511000001107|Raloxifene 60mg tablets (Teva UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22358811000001101|Razylan 60mg tablets (Aspire Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22359211000001107|Razylan 60mg tablets (Aspire Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22517711000001102|Raloxifene 60mg tablets (Consilient Health Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22517811000001105|Raloxifene 60mg tablets (Consilient Health Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22567411000001107|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22567611000001105|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22786111000001104|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24110811000001107|Raloxifene 60mg tablets (Sandoz Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24110911000001102|Raloxifene 60mg tablets (Sandoz Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24559611000001104|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24559711000001108|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24676811000001104|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24677011000001108|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|28996211000001107|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|28996311000001104|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|30086311000001109|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|30086411000001102|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|30086511000001103|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|30863211000001105|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|30863411000001109|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|32460211000001101|Evirex 60mg tablets (Somex Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|32460311000001109|Evirex 60mg tablets (Somex Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|33612911000001100|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|33613011000001108|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|33613111000001109|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|33971011000001100|Raloxifene 60mg tablets (Somex Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|33971811000001106|Raloxifene 60mg tablets (Somex Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|34444711000001101|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|34444811000001109|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|34444911000001104|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38744511000001103|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38744611000001104|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39205211000001101|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39205311000001109|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325601006|Medroxyprogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1028411000001101|Medroxyprogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1141711000001106|Medroxyprogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1275811000001103|Medroxyprogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|13618811000001109|Medroxyprogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|907611000001100|Provera 10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2201711000001100|Provera 10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2201911000001103|Provera 10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2202211000001100|Provera 10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3543111000001105|Generic Hormonin tablets|
+|hormone-replacement-therapy-meds v1|snomed|1129511000001102|Generic Hormonin tablets|
+|hormone-replacement-therapy-meds v1|snomed|293111000001101|Hormonin tablets (Advanz Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|2203311000001103|Hormonin tablets (Advanz Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|325609008|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1247011000001101|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1218211000001100|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|990011000001108|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1089311000001107|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|5404011000001101|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14356511000001107|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14947111000001107|Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|286911000001108|Provera 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2213411000001108|Provera 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2213511000001107|Provera 5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|729411000001107|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2213711000001102|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2213811000001105|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276311000001109|Climanor 5mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276411000001102|Climanor 5mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325568008|Tibolone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1205011000001104|Tibolone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1224111000001107|Tibolone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|5559511000001108|Tibolone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|521411000001105|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2322011000001107|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2322111000001108|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24195511000001100|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24195611000001101|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24195811000001102|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24418911000001104|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24419011000001108|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24419111000001109|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37088911000001100|Tibolone 2.5mg tablets (Advanz Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|37089011000001109|Tibolone 2.5mg tablets (Advanz Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|37089211000001104|Tibolone 2.5mg tablets (Advanz Pharma)|
+|hormone-replacement-therapy-meds v1|snomed|37241411000001102|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37241511000001103|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37244111000001105|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37363111000001108|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|hormone-replacement-therapy-meds v1|snomed|37363411000001103|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|hormone-replacement-therapy-meds v1|snomed|37363911000001106|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|hormone-replacement-therapy-meds v1|snomed|37825511000001106|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|37825611000001105|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|37825711000001101|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|38039411000001100|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38039511000001101|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39907111000001102|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39907211000001108|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39907311000001100|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39709011000001102|Progesterone 400mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|1016411000001105|Progesterone 400mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|397511000001106|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2475311000001107|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325589004|Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|996611000001104|Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1007811000001107|Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3941611000001106|Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|20171511000001108|Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|45511000001109|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2581911000001107|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3941711000001102|Duphaston 10mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|458211000001107|Duphaston HRT 10mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2582111000001104|Duphaston HRT 10mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|20171611000001107|Dydrogesterone 10mg tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|20171711000001103|Dydrogesterone 10mg tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|3369311000001103|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1063411000001104|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|519311000001107|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2587211000001108|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325560001|Estropipate 1.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1163211000001107|Estropipate 1.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|86011000001100|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2598511000001109|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325480003|Ethinylestradiol 10microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|1062411000001108|Ethinylestradiol 10microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|734211000001107|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2636311000001103|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|692011000001108|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2636511000001109|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|526411000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2636711000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325556004|Conjugated oestrogens 625microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|1323411000001106|Conjugated oestrogens 625microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3456311000001108|Conjugated oestrogens 625microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|34911000001102|Premarin 0.625mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2687311000001108|Premarin 0.625mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3456411000001101|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|7142111000001103|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3456511000001102|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325557008|Conjugated oestrogens 1.25mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1247811000001107|Conjugated oestrogens 1.25mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|546511000001102|Premarin 1.25mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2688111000001107|Premarin 1.25mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|7142211000001109|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|7142311000001101|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3341011000001106|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|1282711000001107|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|557911000001109|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2701211000001100|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39689411000001101|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|1012011000001100|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|679511000001100|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2754411000001108|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325546003|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2835711000001100|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2835911000001103|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3345711000001105|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3365111000001102|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3447211000001101|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3454811000001106|Estradiol 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2837211000001104|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2837811000001103|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2838411000001101|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2838611000001103|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2838711000001107|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2839011000001100|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3348711000001103|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3348911000001101|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3365411000001107|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3365511000001106|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3447411000001102|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3447611000001104|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3454911000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3455011000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276611000001104|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276711000001108|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276811000001100|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10276911000001105|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325545004|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2841011000001103|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3346511000001107|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3366911000001106|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3448411000001103|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14745511000001103|Estradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2841811000001109|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2842111000001107|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2842511000001103|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2844811000001106|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3346811000001105|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3346911000001100|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3367011000001105|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3367111000001106|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3448611000001100|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4498511000001109|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3449011000001102|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325533008|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2844911000001101|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2845011000001101|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3196311000001100|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3350511000001108|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3354011000001107|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3359511000001100|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|5502411000001108|Estradiol valerate 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2845111000001100|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2845211000001106|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2845311000001103|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2845411000001105|Progynova 2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|2845511000001109|Progynova 2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3196511000001106|Estradiol valerate 2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3196611000001105|Estradiol valerate 2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3350611000001107|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3350711000001103|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3354111000001108|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3354211000001102|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3359911000001107|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3360911000001108|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3360711000001106|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4501411000001105|FemTab 2mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4501511000001109|FemTab 2mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4522411000001109|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4522611000001107|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24659611000001109|Estradiol valerate 2mg tablets (Imported (Germany))|
+|hormone-replacement-therapy-meds v1|snomed|24659911000001103|Estradiol valerate 2mg tablets (Imported (Germany))|
+|hormone-replacement-therapy-meds v1|snomed|325505008|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2845611000001108|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2845711000001104|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3351811000001103|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3355211000001101|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3355311000001109|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|15466211000001104|Estradiol valerate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|2845811000001107|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2845911000001102|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2846011000001105|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2846111000001106|Progynova 1mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|2846211000001100|Progynova 1mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3351911000001108|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3352011000001101|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3355711000001108|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3356011000001102|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3356111000001101|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4501211000001106|FemTab 1mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4501311000001103|FemTab 1mg tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|15466311000001107|Estradiol valerate 1mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|15466411000001100|Estradiol valerate 1mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|36064911000001108|Estradiol 25micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2888411000001105|Estradiol 25micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2889011000001106|Estradiol 25micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2889111000001107|Evorel 25 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889211000001101|Evorel 25 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889311000001109|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889411000001102|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889511000001103|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889611000001104|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889711000001108|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889811000001100|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2889911000001105|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2890011000001102|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9044911000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045011000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36065111000001109|Estradiol 40micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2890111000001101|Estradiol 40micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2890211000001107|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2890311000001104|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2890411000001106|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2890511000001105|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36065511000001100|Estradiol 80micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2893111000001108|Estradiol 80micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3208311000001101|Estradiol 80micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2893411000001103|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2893511000001104|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2893711000001109|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2893911000001106|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36065011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2895011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2895211000001103|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2895511000001100|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045111000001105|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045211000001104|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36065411000001104|Estradiol 75micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2902511000001103|Estradiol 75micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2902711000001108|Estradiol 75micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2902811000001100|Estradiol 75micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2902911000001105|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2903011000001102|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2903111000001101|Evorel 75 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2903211000001107|Evorel 75 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2910911000001109|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911011000001101|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911111000001100|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911211000001106|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911311000001103|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911411000001105|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2911511000001109|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045511000001101|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045611000001102|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36064811000001103|Estradiol 100micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2935411000001100|Estradiol 100micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2935511000001101|Estradiol 100micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2938511000001109|Estradiol 100micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2939911000001105|Estradiol 100micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2936011000001100|Evorel 100 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2936411000001109|Evorel 100 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2936611000001107|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2936811000001106|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2937011000001102|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2937111000001101|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2937211000001107|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2937711000001100|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2938211000001106|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2938311000001103|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2938411000001105|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2938711000001104|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2939611000001104|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|2940111000001103|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|9045711000001106|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045811000001103|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39112011000001100|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2941311000001106|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2941511000001100|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2941711000001105|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2942111000001104|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2942211000001105|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4707311000001108|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4707411000001101|Estradiol 50micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|2942311000001102|Evorel 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2942611000001107|Evorel 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2942711000001103|Evorel 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3216211000001105|Evorel 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2942911000001101|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2943111000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2943311000001107|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3211311000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3211411000001103|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2943611000001102|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2944511000001103|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2945011000001105|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2945311000001108|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2945511000001102|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2947311000001100|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2947611000001105|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2947711000001101|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2947811000001109|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2948011000001102|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2948411000001106|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2948811000001108|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2949011000001107|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|2949711000001109|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|2950811000001108|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|9045311000001107|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|9045411000001100|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325662001|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3038111000001102|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|14736011000001101|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3038811000001109|Kliovance tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3039611000001101|Kliovance tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325655005|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3039711000001105|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3039811000001102|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3040311000001103|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3040511000001109|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3040711000001104|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325648008|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3042111000001101|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3447711000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3455111000001100|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3043111000001107|Kliofem tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3079811000001104|Kliofem tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3049511000001101|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3049811000001103|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3049911000001108|Nuvelle Continuous tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3050111000001103|Nuvelle Continuous tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3448111000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3448211000001102|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3455211000001106|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3455311000001103|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4501811000001107|FemTab Continuous tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4502011000001109|FemTab Continuous tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325618005|Norethisterone 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3196711000001101|Norethisterone 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3940011000001108|Norethisterone 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3197111000001104|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3198211000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3940111000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3549811000001101|Generic Nuvelle tablets|
+|hormone-replacement-therapy-meds v1|snomed|3198811000001105|Generic Nuvelle tablets|
+|hormone-replacement-therapy-meds v1|snomed|3199011000001109|Nuvelle tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|3200011000001101|Nuvelle tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|4521511000001100|FemTab Sequi tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4521911000001107|FemTab Sequi tablets (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3549711000001109|Generic Nuvelle TS transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3210011000001103|Generic Nuvelle TS transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3210111000001102|Nuvelle TS patches (Schering Health Care Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3210311000001100|Nuvelle TS patches (Schering Health Care Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3542511000001108|Generic Estracombi TTS transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3214011000001105|Generic Estracombi TTS transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3215111000001105|Generic Estracombi TTS transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3215411000001100|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3215711000001106|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3215911000001108|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36065211000001103|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3216311000001102|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3216411000001109|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3216511000001108|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3216611000001107|Evorel Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3216711000001103|Evorel Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3216811000001106|Evorel Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3216911000001101|Evorel Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3542611000001107|Generic Evorel Sequi transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3217211000001107|Generic Evorel Sequi transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|3217311000001104|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3217511000001105|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3407111000001100|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3219411000001102|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3219511000001103|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3219611000001104|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3219711000001108|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3219811000001100|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3542911000001101|Generic Femoston 2/20mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3345911000001107|Generic Femoston 2/20mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3346111000001103|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3346211000001109|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3542711000001103|Generic Femoston 1/10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3347711000001104|Generic Femoston 1/10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3347911000001102|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3348211000001105|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3542811000001106|Generic Femoston 2/10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3349511000001102|Generic Femoston 2/10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3349811000001104|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3350211000001105|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3404911000001108|Generic Cyclo-Progynova 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3351211000001104|Generic Cyclo-Progynova 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3351311000001107|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3351611000001102|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3404811000001103|Generic Cyclo-Progynova 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3352811000001107|Generic Cyclo-Progynova 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3353311000001108|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3353611000001103|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3557411000001105|Generic Tridestra tablets|
+|hormone-replacement-therapy-meds v1|snomed|3355411000001102|Generic Tridestra tablets|
+|hormone-replacement-therapy-meds v1|snomed|3355511000001103|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3355911000001105|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3404511000001101|Generic Climagest 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3357811000001105|Generic Climagest 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3358011000001103|Generic Climagest 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3358411000001107|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3358711000001101|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3359111000001109|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3404711000001106|Generic Climagest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3362911000001107|Generic Climagest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3363311000001101|Generic Climagest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3363611000001106|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3364111000001101|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3364511000001105|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3403511000001104|Generic Adgyn Combi tablets|
+|hormone-replacement-therapy-meds v1|snomed|3366311000001105|Generic Adgyn Combi tablets|
+|hormone-replacement-therapy-meds v1|snomed|3366411000001103|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3366511000001104|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3465311000001107|Generic Elleste Duet 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3367211000001100|Generic Elleste Duet 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3367311000001108|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3367411000001101|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325577001|Estradiol 0.06% gel (750microgram per actuation)|
+|hormone-replacement-therapy-meds v1|snomed|3413511000001101|Estradiol 0.06% gel (750microgram per actuation)|
+|hormone-replacement-therapy-meds v1|snomed|17613911000001103|Estradiol 0.06% gel (750microgram per actuation)|
+|hormone-replacement-therapy-meds v1|snomed|3414911000001105|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3416111000001100|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3464211000001100|Generic Trisequens tablets|
+|hormone-replacement-therapy-meds v1|snomed|3449211000001107|Generic Trisequens tablets|
+|hormone-replacement-therapy-meds v1|snomed|3449411000001106|Trisequens tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3449611000001109|Trisequens tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3464311000001108|Generic Trisequens Forte tablets|
+|hormone-replacement-therapy-meds v1|snomed|3453411000001106|Generic Trisequens Forte tablets|
+|hormone-replacement-therapy-meds v1|snomed|3453611000001109|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3453811000001108|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3465411000001100|Generic Elleste Duet 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3455411000001105|Generic Elleste Duet 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3455511000001109|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3455611000001108|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3553111000001108|Generic Premique Cycle tablets|
+|hormone-replacement-therapy-meds v1|snomed|3456611000001103|Generic Premique Cycle tablets|
+|hormone-replacement-therapy-meds v1|snomed|3456711000001107|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3456811000001104|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|400674006|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3470611000001102|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|3470811000001103|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3472111000001109|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|134589003|Estradiol 150micrograms/dose nasal spray|
+|hormone-replacement-therapy-meds v1|snomed|3649211000001109|Estradiol 150micrograms/dose nasal spray|
+|hormone-replacement-therapy-meds v1|snomed|3649411000001108|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3649511000001107|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3664211000001102|Estradiol 500microgram gel sachets|
+|hormone-replacement-therapy-meds v1|snomed|3657711000001107|Estradiol 500microgram gel sachets|
+|hormone-replacement-therapy-meds v1|snomed|3657811000001104|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3658011000001106|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3664111000001108|Estradiol 1mg gel sachets|
+|hormone-replacement-therapy-meds v1|snomed|3658211000001101|Estradiol 1mg gel sachets|
+|hormone-replacement-therapy-meds v1|snomed|3658311000001109|Estradiol 1mg gel sachets|
+|hormone-replacement-therapy-meds v1|snomed|3658611000001104|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3658811000001100|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3659011000001101|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325541008|Estradiol 50mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3773011000001109|Estradiol 50mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3773511000001101|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3773611000001102|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3773711000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3774011000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3774411000001102|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3774511000001103|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|27322111000001108|Estradiol 50mg implant (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|27322211000001102|Estradiol 50mg implant (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|325542001|Estradiol 100mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3774611000001104|Estradiol 100mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3774711000001108|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3774811000001100|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3774911000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3775011000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3775111000001106|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3775211000001100|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3788311000001107|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3779811000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14253711000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3779911000001106|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3780011000001107|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3788211000001104|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3780111000001108|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14253511000001106|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3780211000001102|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3780311000001105|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3864111000001104|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3853611000001101|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|14253611000001105|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3853711000001105|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3853811000001102|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325603009|Medroxyprogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3868011000001109|Medroxyprogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3868511000001101|Provera 2.5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3868911000001108|Provera 2.5mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325550005|Estriol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3876311000001100|Estriol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3876411000001107|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3876511000001106|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325540009|Estradiol 25mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3878311000001101|Estradiol 25mg implant|
+|hormone-replacement-therapy-meds v1|snomed|3878511000001107|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3878611000001106|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3878711000001102|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3878811000001105|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3878911000001100|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3879011000001109|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39708911000001106|Progesterone 200mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|3912811000001109|Progesterone 200mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|3913011000001107|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3913211000001102|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3948111000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3940311000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3940511000001100|Evorel Pak (Janssen-Cilag Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3940611000001101|Evorel Pak (Janssen-Cilag Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3948011000001105|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3941911000001100|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3942111000001108|Femapak 80 (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3942311000001105|Femapak 80 (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3947911000001108|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3943011000001103|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3943111000001102|Femapak 40 (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3943211000001108|Femapak 40 (Abbott Healthcare Products Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325482006|Ethinylestradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3962211000001107|Ethinylestradiol 1mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|3962511000001105|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3962611000001109|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3962811000001108|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3963011000001106|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3963211000001101|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|3963311000001109|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|35931211000001102|Progesterone 50mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4087011000001109|Progesterone 50mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4087311000001107|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4087711000001106|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325626002|Progesterone 4% vaginal gel 1.125g applicators|
+|hormone-replacement-therapy-meds v1|snomed|4088811000001104|Progesterone 4% vaginal gel 1.125g applicators|
+|hormone-replacement-therapy-meds v1|snomed|4088911000001109|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4089011000001100|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325481004|Ethinylestradiol 50microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|4111311000001105|Ethinylestradiol 50microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|4111411000001103|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4111511000001104|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4111611000001100|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4111711000001109|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4111811000001101|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4111911000001106|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|325627006|Progesterone 8% vaginal gel 1.125g applicators|
+|hormone-replacement-therapy-meds v1|snomed|4212111000001101|Progesterone 8% vaginal gel 1.125g applicators|
+|hormone-replacement-therapy-meds v1|snomed|4212211000001107|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4212311000001104|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36022011000001106|Progesterone 100mg/2ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4228111000001108|Progesterone 100mg/2ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4228211000001102|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4228311000001105|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4339811000001101|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4338511000001105|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4338611000001109|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4338711000001100|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4338811000001108|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4338911000001103|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4508511000001104|Generic Novofem tablets|
+|hormone-replacement-therapy-meds v1|snomed|4499011000001106|Generic Novofem tablets|
+|hormone-replacement-therapy-meds v1|snomed|4499111000001107|Novofem tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4499211000001101|Novofem tablets (Novo Nordisk Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36057811000001101|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4540911000001103|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4541211000001101|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4541311000001109|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|428005004|Conjugated oestrogens 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|4547811000001107|Conjugated oestrogens 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|4548011000001100|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|4548111000001104|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|hormone-replacement-therapy-meds v1|snomed|4725811000001103|Generic FemSeven Sequi transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4711511000001106|Generic FemSeven Sequi transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4711711000001101|Generic FemSeven Sequi transdermal patches|
+|hormone-replacement-therapy-meds v1|snomed|4711811000001109|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4712011000001106|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4712611000001104|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4971311000001103|Progesterone 25mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4971011000001101|Progesterone 25mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|4971211000001106|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|4971411000001105|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|15621411000001104|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|hormone-replacement-therapy-meds v1|snomed|7340211000001102|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|hormone-replacement-therapy-meds v1|snomed|7340311000001105|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|7340411000001103|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|8794111000001104|Ethinylestradiol 2microgram capsules|
+|hormone-replacement-therapy-meds v1|snomed|8751511000001101|Ethinylestradiol 2microgram capsules|
+|hormone-replacement-therapy-meds v1|snomed|8752311000001103|Ethinylestradiol 2microgram capsules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|8752511000001109|Ethinylestradiol 2microgram capsules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|8801211000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|8786911000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|8787011000001107|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|8787111000001108|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|hormone-replacement-therapy-meds v1|snomed|10280511000001108|Generic Clinorette tablets|
+|hormone-replacement-therapy-meds v1|snomed|10277311000001107|Generic Clinorette tablets|
+|hormone-replacement-therapy-meds v1|snomed|10277411000001100|Clinorette tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|10277511000001101|Clinorette tablets (ReSource Medical UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|409118006|Conjugated oestrogens 300microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|11476711000001101|Conjugated oestrogens 300microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|11476811000001109|Premarin 0.3mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11476911000001104|Premarin 0.3mg tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11738011000001105|Ethinylestradiol 2microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|11733511000001106|Ethinylestradiol 2microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|14778511000001107|Ethinylestradiol 2microgram tablets|
+|hormone-replacement-therapy-meds v1|snomed|11733811000001109|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11734011000001101|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|14778411000001108|Ethinylestradiol 2microgram tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|14778611000001106|Ethinylestradiol 2microgram tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|11763511000001102|Progesterone micronised 100mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|11758811000001100|Progesterone micronised 100mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|11758911000001105|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11759011000001101|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11763611000001103|Progesterone micronised 200mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|11759411000001105|Progesterone micronised 200mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|11759511000001109|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|11759611000001108|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|12298411000001100|Ethinylestradiol 2micrograms/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|12281411000001106|Ethinylestradiol 2micrograms/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|12281511000001105|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|12281611000001109|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|12298511000001101|Ethinylestradiol 4micrograms/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|12282111000001106|Ethinylestradiol 4micrograms/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|12282311000001108|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|12282611000001103|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|15534311000001101|Norethisterone 5mg/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|15530511000001103|Norethisterone 5mg/5ml oral suspension|
+|hormone-replacement-therapy-meds v1|snomed|15530611000001104|Norethisterone 5mg/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|15530711000001108|Norethisterone 5mg/5ml oral suspension (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|17870911000001106|Progesterone 2% in Aqueous cream|
+|hormone-replacement-therapy-meds v1|snomed|17868911000001100|Progesterone 2% in Aqueous cream|
+|hormone-replacement-therapy-meds v1|snomed|17869011000001109|Progesterone 2% in Aqueous cream (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|17869111000001105|Progesterone 2% in Aqueous cream (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|20293811000001102|Ulipristal 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|20292411000001108|Ulipristal 5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|20292511000001107|Esmya 5mg tablets (Gedeon Richter (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|20292611000001106|Esmya 5mg tablets (Gedeon Richter (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|20921211000001106|Progesterone 2.34% cream|
+|hormone-replacement-therapy-meds v1|snomed|20920411000001101|Progesterone 2.34% cream|
+|hormone-replacement-therapy-meds v1|snomed|20920511000001102|Serenity Natural Progesterone cream (Imported (United States))|
+|hormone-replacement-therapy-meds v1|snomed|20920611000001103|Serenity Natural Progesterone cream (Imported (United States))|
+|hormone-replacement-therapy-meds v1|snomed|21366211000001107|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|21259211000001101|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|21259311000001109|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|21259411000001102|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22099011000001107|Sildenafil 25mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|22089211000001103|Sildenafil 25mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|22089311000001106|Sildenafil 25mg pessaries (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|22089511000001100|Sildenafil 25mg pessaries (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|22683711000001100|Progesterone micronised 200mg vaginal capsules|
+|hormone-replacement-therapy-meds v1|snomed|22676611000001108|Progesterone micronised 200mg vaginal capsules|
+|hormone-replacement-therapy-meds v1|snomed|22676711000001104|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|22676811000001107|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|23948311000001106|Progesterone 25mg/1.119ml solution for injection vials|
+|hormone-replacement-therapy-meds v1|snomed|23948711000001105|Progesterone 25mg/1.119ml solution for injection vials|
+|hormone-replacement-therapy-meds v1|snomed|34768911000001106|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|34769211000001107|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|24688011000001102|Generic Climen tablets|
+|hormone-replacement-therapy-meds v1|snomed|24660311000001103|Generic Climen tablets|
+|hormone-replacement-therapy-meds v1|snomed|24660611000001108|Climen tablets (Imported (Germany))|
+|hormone-replacement-therapy-meds v1|snomed|24660711000001104|Climen tablets (Imported (Germany))|
+|hormone-replacement-therapy-meds v1|snomed|28049411000001102|Ethinylestradiol 5microgram capsules|
+|hormone-replacement-therapy-meds v1|snomed|28042911000001100|Ethinylestradiol 5microgram capsules|
+|hormone-replacement-therapy-meds v1|snomed|28043011000001108|Ethinylestradiol 5microgram capsules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|28043111000001109|Ethinylestradiol 5microgram capsules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|28423111000001104|Progesterone 100mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|28402411000001109|Progesterone 100mg pessaries|
+|hormone-replacement-therapy-meds v1|snomed|28402511000001108|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|28402611000001107|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|28422411000001100|Dienogest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|28416911000001104|Dienogest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|37939011000001105|Dienogest 2mg tablets|
+|hormone-replacement-therapy-meds v1|snomed|28417011000001100|Dienogest 2mg tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|28417111000001104|Dienogest 2mg tablets (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|37939111000001106|Zalkya 2mg tablets (Stragen UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|37939411000001101|Zalkya 2mg tablets (Stragen UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|32936711000001100|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|hormone-replacement-therapy-meds v1|snomed|32927311000001104|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|hormone-replacement-therapy-meds v1|snomed|32927411000001106|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|32927511000001105|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|34378811000001107|Progesterone 100mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|34346511000001107|Progesterone 100mg/1ml solution for injection ampoules|
+|hormone-replacement-therapy-meds v1|snomed|34346611000001106|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|34346711000001102|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
+|hormone-replacement-therapy-meds v1|snomed|36411111000001101|Progesterone 25mg/1.112ml solution for injection vials|
+|hormone-replacement-therapy-meds v1|snomed|36394711000001107|Progesterone 25mg/1.112ml solution for injection vials|
+|hormone-replacement-therapy-meds v1|snomed|36394811000001104|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|36395011000001109|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38344311000001108|Estradiol 1.53mg/dose transdermal spray|
+|hormone-replacement-therapy-meds v1|snomed|38268811000001107|Estradiol 1.53mg/dose transdermal spray|
+|hormone-replacement-therapy-meds v1|snomed|38269511000001103|Estradiol 1.53mg/dose transdermal spray|
+|hormone-replacement-therapy-meds v1|snomed|38268911000001102|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38269311000001109|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|38269811000001100|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39601811000001101|Ethinylestradiol 50microgram gastro-resistant tablets|
+|hormone-replacement-therapy-meds v1|snomed|39576711000001104|Ethinylestradiol 50microgram gastro-resistant tablets|
+|hormone-replacement-therapy-meds v1|snomed|39576811000001107|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|hormone-replacement-therapy-meds v1|snomed|39576911000001102|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|hormone-replacement-therapy-meds v1|snomed|39964911000001106|Estradiol 1mg / Progesterone 100mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|39943611000001109|Estradiol 1mg / Progesterone 100mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|40115211000001103|Estradiol 1mg / Progesterone 100mg capsules|
+|hormone-replacement-therapy-meds v1|snomed|39943711000001100|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|39943811000001108|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|hormone-replacement-therapy-meds v1|snomed|40115311000001106|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|ctv3|fi41.|Testosterone 100mg implant 30 week|
+|female-sex-hormones v1|ctv3|fi42.|Testosterone 200mg implant 34 week|
+|female-sex-hormones v1|ctv3|fi45.|Testosterone 2.5mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi46.|Andropatch 2.5mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi47.|Testosterone 5mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi48.|Andropatch 5mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi49.|Testoderm 6mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi4B.|Testosterone 50mg/5g gel|
+|female-sex-hormones v1|ctv3|fi4C.|Testogel 50mg gel 5g sachet|
+|female-sex-hormones v1|ctv3|fi4D.|Striant SR 30mg muco-adhesive buccal tablet|
+|female-sex-hormones v1|ctv3|fi4E.|Nebido 1000mg/4mL solution for injection|
+|female-sex-hormones v1|ctv3|fi4F.|Testim gel 50mg/5g tube|
+|female-sex-hormones v1|ctv3|fi4G.|INTRINSA 300micrograms/24hours transdermal patches|
+|female-sex-hormones v1|ctv3|fi4w.|TESTOSTERONE 300micrograms/24hours transdermal patches|
+|female-sex-hormones v1|ctv3|fi4x.|Testosterone undecanoate 1000mg/4mL solution for injection|
+|female-sex-hormones v1|ctv3|fi4y.|Testosterone 30mg muco-adhesive buccal tablet|
+|female-sex-hormones v1|ctv3|fi4z.|Testosterone 6mg/24hours transdermal patch|
+|female-sex-hormones v1|ctv3|fi52.|Restandol 40mg capsule|
+|female-sex-hormones v1|ctv3|fi53.|Sustanon 100 oily injection|
+|female-sex-hormones v1|ctv3|fi54.|Sustanon 250 oily injection|
+|female-sex-hormones v1|ctv3|fi57.|Virormone 50mg/1mL injection|
+|female-sex-hormones v1|ctv3|fi59.|Testosterone 250mg/1mL injection|
+|female-sex-hormones v1|ctv3|fi5a.|Testosterone undecanoate 40mg capsule|
+|female-sex-hormones v1|ctv3|fi5g.|Testosterone 100mg injection 2mL|
+|female-sex-hormones v1|ctv3|fi5l.|RESTANDOL TESTOCAPS 40mg capsules|
+|female-sex-hormones v1|emis|^ESCT1173770|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
+|female-sex-hormones v1|emis|^ESCT1173773|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd) 7 vial|
+|female-sex-hormones v1|emis|^ESCT1178552|Product containing only conjugated estrogens 0.625 milligram and norgestrel 0.15 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178667|Femoston-conti 1mg/5mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1178740|Product containing only ethinylestradiol 0.01 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178741|Product containing only ethinyl estradiol 0.01 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178742|Product containing only ethinylestradiol 0.05 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178743|Product containing only ethinyl estradiol 0.05 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178744|Product containing only ethinyl estradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178745|Product containing only ethinylestradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178746|Product containing only estradiol valerate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178747|Product containing only piperazine estrone sulfate 1.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178748|Product containing only norethindrone 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1178749|Product containing only norethisterone 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1179236|Product containing only conjugated estrogens 2.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1179636|Zumenon 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1180774|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCT1180775|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCT1181803|Product containing only conjugated estrogens 0.625 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181804|Product containing only conjugated estrogens 1.25 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181847|Product containing only medroxyprogesterone 2.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181848|Product containing only norethisterone 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181849|Product containing only norethindrone 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181850|Product containing only estradiol 2 mg and norethisterone acetate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181851|Product containing only estradiol 2 mg and norethindrone acetate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181852|Product containing only estradiol 1 mg and norethindrone acetate 0.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1181853|Product containing only estradiol 1 mg and norethisterone acetate 0.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1182174|Product containing only estradiol valerate 2 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1182175|Product containing only estradiol 2 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1182177|Product containing only medroxyprogesterone acetate 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1183547|Zumenon 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1184304|Femoston 1/10mg tablets (Mylan) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCT1184305|Femoston 2/10mg tablets (Mylan) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCT1185299|Product containing only conjugated estrogens 0.3 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1185744|Zumenon 1mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1185994|Angeliq 1mg/2mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1186393|Femoston 1/10mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1188191|Product containing only estradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1188192|Product containing only estriol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1188193|Product containing only medroxyprogesterone acetate 10 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1188194|Product containing only estradiol valerate 2 mg and norethisterone 0.7 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1188195|Product containing only estradiol valerate 2 mg and norethindrone 0.7 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCT1188820|Femoston-conti 1mg/5mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1188834|Zumenon 2mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1189289|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCT1189504|Femoston 2/10mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1189675|Femoston-conti 0.5mg/2.5mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1189676|Femoston-conti 0.5mg/2.5mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1198752|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd) 15 pessary|
+|female-sex-hormones v1|emis|^ESCT1198769|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|emis|^ESCT1198774|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|emis|^ESCT1198819|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd) 15 pessary|
+|female-sex-hormones v1|emis|^ESCT1214961|Progesterone 50mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|emis|^ESCT1215314|Progesterone 100mg/2ml solution for injection ampoules|
+|female-sex-hormones v1|emis|^ESCT1215672|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|emis|^ESCT1215740|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215741|Estradiol 25micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215742|Estradiol 37.5micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215743|Estradiol 40micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215744|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215746|Estradiol 75micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1215747|Estradiol 80micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1216309|Progesterone 25mg/1.112ml solution for injection vials 7 vial|
+|female-sex-hormones v1|emis|^ESCT1216310|Lubion 25mg/1.112ml solution for injection vials (IBSA Farmaceutici Italia Srl)|
+|female-sex-hormones v1|emis|^ESCT1216311|Lubion 25mg/1.112ml solution for injection vials (IBSA Farmaceutici Italia Srl) 7 vial|
+|female-sex-hormones v1|emis|^ESCT1216366|Progesterone 25mg/1.112ml solution for injection vials|
+|female-sex-hormones v1|emis|^ESCT1221969|Product containing precisely estradiol hemihydrate 150 microgram/actuation conventional release nasal spray|
+|female-sex-hormones v1|emis|^ESCT1221970|Estradiol hemihydrate 150 microgram/actuation nasal spray|
+|female-sex-hormones v1|emis|^ESCT1224668|Product containing precisely ethinylestradiol 10 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224669|Ethinylestradiol 10 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224670|Ethinyl estradiol 10 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224671|Product containing precisely ethinylestradiol 50 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224672|Ethinylestradiol 50 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224673|Ethinyl estradiol 50 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224674|Product containing precisely ethinylestradiol 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224678|Product containing precisely estradiol valerate 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224679|Product containing precisely estradiol valerate 2 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224680|Product containing precisely estradiol 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224681|Product containing precisely estradiol 2 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224682|Product containing precisely estriol 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224683|Conjugated estrogens 625 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224684|Product containing precisely conjugated estrogens 625 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224685|Product containing precisely conjugated estrogens 1.25 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224686|Estropipate 1.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224687|Product containing precisely estropipate 1.5 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224699|Product containing precisely medroxyprogesterone acetate 10 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224700|Medroxyprogesterone acetate 2.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224701|Product containing precisely medroxyprogesterone acetate 2.5 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224702|Product containing precisely medroxyprogesterone acetate 5 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224703|Product containing precisely norethisterone 5 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224704|Product containing precisely norethisterone 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224705|Product containing precisely estradiol 2 milligram and norethisterone acetate 1 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224706|Estradiol valerate 2 mg and norethisterone 700 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224707|Product containing precisely estradiol valerate 2 milligram and norethisterone 700 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224708|Estradiol valerate 2 mg and norethindrone 700 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224709|Product containing precisely estradiol 1 milligram and norethisterone acetate 500 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224710|Estradiol 1 mg and norethindrone acetate 500 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1224711|Estradiol 1 mg and norethisterone acetate 500 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1230145|Product containing precisely conjugated estrogens 625 microgram and norgestrel 150 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1230146|Conjugated estrogens 625 microgram and norgestrel 150 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1230570|Conjugated estrogens 300 microgram oral tablet|
+|female-sex-hormones v1|emis|^ESCT1230571|Product containing precisely conjugated estrogens 300 microgram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1234605|Product containing precisely conjugated estrogens 2.5 milligram/1 each conventional release oral tablet|
+|female-sex-hormones v1|emis|^ESCT1250025|Hormonin tablets (Advanz Pharma)|
+|female-sex-hormones v1|emis|^ESCT1250128|Hormonin tablets (Advanz Pharma) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1250166|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1250167|FemSeven 75 patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1250172|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1250173|FemSeven 100 patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1250174|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1250175|FemSeven 50 patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1250176|FemSeven 50 patches (Theramex HQ UK Ltd) 12 patch|
+|female-sex-hormones v1|emis|^ESCT1250286|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1250287|FemSeven Conti patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1250288|FemSeven Conti patches (Theramex HQ UK Ltd) 12 patch|
+|female-sex-hormones v1|emis|^ESCT1250303|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1250304|FemSeven Sequi patches (Theramex HQ UK Ltd) 4 patch 2 patches + 2 patches|
+|female-sex-hormones v1|emis|^ESCT1250305|FemSeven Sequi patches (Theramex HQ UK Ltd) 12 patch 6 patches + 6 patches|
+|female-sex-hormones v1|emis|^ESCT1258209|Primolut N 5mg tablets (Bayer Plc) 30 tablet 2 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCT1258889|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
+|female-sex-hormones v1|emis|^ESCT1258890|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd) 7 vial|
+|female-sex-hormones v1|emis|^ESCT1267570|Norethisterone 5mg tablets (DE Pharmaceuticals)|
+|female-sex-hormones v1|emis|^ESCT1267571|Norethisterone 5mg tablets (DE Pharmaceuticals) 30 tablet|
+|female-sex-hormones v1|emis|^ESCT1268197|Elleste Solo 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268198|Elleste Solo 2mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1268199|Elleste Solo 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268200|Elleste Solo 1mg tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1268201|Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCT1268202|Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268203|Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1268204|Elleste Solo MX 40 transdermal patches (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268205|Elleste Solo MX 40 transdermal patches (Mylan) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268206|Elleste Solo MX 80 transdermal patches (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268207|Elleste Solo MX 80 transdermal patches (Mylan) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268208|Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCT1268209|Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268210|Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1268211|Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCT1268212|Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268213|Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1268214|Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCT1268215|Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1268216|Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1268217|Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 20 patch|
+|female-sex-hormones v1|emis|^ESCT1268222|Elleste Duet Conti tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268223|Elleste Duet Conti tablets (Mylan) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCT1268228|Estradiol valerate 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268229|Estradiol valerate 2mg tablets (Mylan) 11 tablet|
+|female-sex-hormones v1|emis|^ESCT1268232|Cyclo-Progynova 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268233|Cyclo-Progynova 2mg tablets (Mylan) 21 tablet 1 x (11 tablets + 10 tablets)|
+|female-sex-hormones v1|emis|^ESCT1268234|Estradiol valerate 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268235|Estradiol valerate 1mg tablets (Mylan) 11 tablet|
+|female-sex-hormones v1|emis|^ESCT1268240|Estradiol 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268241|Estradiol 1mg tablets (Mylan) 48 tablet|
+|female-sex-hormones v1|emis|^ESCT1268242|Elleste Duet 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268243|Elleste Duet 1mg tablets (Mylan) 84 tablet 3 x (16 tablets + 12 tablets )|
+|female-sex-hormones v1|emis|^ESCT1268250|Estradiol 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268251|Estradiol 2mg tablets (Mylan) 48 tablet|
+|female-sex-hormones v1|emis|^ESCT1268252|Estradiol 2mg / Norethisterone acetate 1mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268253|Estradiol 2mg / Norethisterone acetate 1mg tablets (Mylan) 36 tablet|
+|female-sex-hormones v1|emis|^ESCT1268254|Elleste Duet 2mg tablets (Mylan)|
+|female-sex-hormones v1|emis|^ESCT1268255|Elleste Duet 2mg tablets (Mylan) 84 tablet 3 x (16 tablets + 12 tablets )|
+|female-sex-hormones v1|emis|^ESCT1281010|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCT1281011|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1281012|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1281013|Evorel 75 patches (Janssen-Cilag Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1281014|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCT1281015|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1281016|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1281017|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCT1281018|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1281019|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1281020|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCT1281021|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1281022|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1281023|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 20 patch|
+|female-sex-hormones v1|emis|^ESCT1299763|Evorel 25 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299764|Evorel 25 patches (Theramex HQ UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1299765|Evorel 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299766|Evorel 75 patches (Theramex HQ UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1299767|Evorel 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299768|Evorel 100 patches (Theramex HQ UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1299769|Evorel 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299770|Evorel 50 patches (Theramex HQ UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1299771|Evorel 50 patches (Theramex HQ UK Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1299774|Evorel 50 patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1299775|Evorel Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299776|Evorel Conti patches (Theramex HQ UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCT1299777|Evorel Conti patches (Theramex HQ UK Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCT1299778|Evorel Conti patches (Theramex HQ UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCT1299779|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1299780|Evorel Sequi patches (Theramex HQ UK Ltd) 8 patch 4 patches + 4 patches|
+|female-sex-hormones v1|emis|^ESCT1304627|Estradiol 1.53mg/dose transdermal spray 56 dose|
+|female-sex-hormones v1|emis|^ESCT1304628|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCT1304629|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd) 56 dose|
+|female-sex-hormones v1|emis|^ESCT1304630|Estradiol 1.53mg/dose transdermal spray 168 dose|
+|female-sex-hormones v1|emis|^ESCT1304631|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd) 168 dose 3 x 56 doses|
+|female-sex-hormones v1|emis|^ESCT1304777|Estradiol 1.53mg/dose transdermal spray|
+|female-sex-hormones v1|emis|^ESCT1381105|Estradiol 25mg implant|
+|female-sex-hormones v1|emis|^ESCT1381106|Estradiol 50mg implant|
+|female-sex-hormones v1|emis|^ESCT1381107|Estradiol 100mg implant|
+|female-sex-hormones v1|emis|^ESCT1381111|Progesterone 40 microgram/mg vaginal gel|
+|female-sex-hormones v1|emis|^ESCT1381112|Progesterone 80 microgram/mg vaginal gel|
+|female-sex-hormones v1|emis|^ESCT1402424|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
+|female-sex-hormones v1|emis|^ESCT1402425|Norethisterone 5mg tablets (Medihealth (Northern) Ltd) 30 tablet|
+|female-sex-hormones v1|emis|^ESCT1402880|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCT1410179|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCT1410180|Estradiol 50mg implant (Organon Pharma (UK) Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCT1410199|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCT1410200|Estradiol 25mg implant (Organon Pharma (UK) Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCT1419202|Ethinylestradiol 50microgram gastro-resistant tablets 25 tablet|
+|female-sex-hormones v1|emis|^ESCT1419203|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|female-sex-hormones v1|emis|^ESCT1419204|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy)) 25 tablet|
+|female-sex-hormones v1|emis|^ESCT1419413|Ethinylestradiol 50microgram gastro-resistant tablets|
+|female-sex-hormones v1|emis|^ESCT1424745|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCT1424932|Progesterone 200mg pessaries|
+|female-sex-hormones v1|emis|^ESCT1424933|Progesterone 400mg pessaries|
+|female-sex-hormones v1|emis|^ESCT1425840|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCT1426272|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCT1429915|Estradiol 1mg / Progesterone 100mg capsules 28 capsule|
+|female-sex-hormones v1|emis|^ESCT1429916|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|emis|^ESCT1429917|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd) 28 capsule 2 x 14 capsules|
+|female-sex-hormones v1|emis|^ESCT1430069|Estradiol 1mg / Progesterone 100mg capsules|
+|female-sex-hormones v1|emis|^ESCTAD822841|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTAD855024|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 14 tablet|
+|female-sex-hormones v1|emis|^ESCTAD855025|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTAD857428|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTAD857431|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTAD861385|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTAD861386|Adgyn Combi tablets (Kyowa Kirin Ltd) 28 tablet 1 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTAE863100|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|female-sex-hormones v1|emis|^ESCTAE863101|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd) 60 dose|
+|female-sex-hormones v1|emis|^ESCTAN909607|Angeliq tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTAN909608|Angeliq tablets (Bayer Plc) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTBE927686|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTBE927687|Bedol 2mg tablets (ReSource Medical UK Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTCL857494|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL857495|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTCL857496|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTCL857501|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL857502|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTCL857503|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTCL858906|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL858908|Climesse tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTCL858910|Climesse tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTCL861305|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL861309|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 1 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTCL861313|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTCL861357|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL861362|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 1 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTCL861366|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTCL927683|Climanor 5mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL927684|Climanor 5mg tablets (ReSource Medical UK Ltd) 28 tablet 2 x 14 tablets|
+|female-sex-hormones v1|emis|^ESCTCL927694|Clinorette tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCL927695|Clinorette tablets (ReSource Medical UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTCO1146620|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTCO1146711|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|female-sex-hormones v1|emis|^ESCTCO612694|Conjugated oestrogens 625microgram tablets|
+|female-sex-hormones v1|emis|^ESCTCO612696|Conjugated estrogens 0.625 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTCO612697|Conjugated oestrogens 1.25mg tablets|
+|female-sex-hormones v1|emis|^ESCTCO612699|Conjugated estrogens 1.25 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTCO664271|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|emis|^ESCTCO664272|Conjugated estrogens 0.625 mg and norgestrel 0.15 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTCO677331|Conjugated oestrogens 300microgram tablets|
+|female-sex-hormones v1|emis|^ESCTCO677333|Conjugated estrogens 0.3 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTCO708198|Conjugated oestrogens 2.5mg tablets|
+|female-sex-hormones v1|emis|^ESCTCO708200|Conjugated estrogens 2.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTCO839256|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO848098|Conjugated oestrogens 1.25mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO848400|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets 120 tablet|
+|female-sex-hormones v1|emis|^ESCTCO848753|Conjugated oestrogens 625microgram tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO861160|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|emis|^ESCTCO862037|Conjugated oestrogens 625microgram tablets 42 tablet|
+|female-sex-hormones v1|emis|^ESCTCO862038|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTCO862039|Conjugated oestrogens 625microgram tablets (Pfizer Ltd) 42 tablet|
+|female-sex-hormones v1|emis|^ESCTCO862148|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets 120 tablet|
+|female-sex-hormones v1|emis|^ESCTCO870834|Conjugated oestrogens 2.5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO894837|Conjugated oestrogens 625microgram tablets (Pfizer Ltd) 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO894838|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTCO894839|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd) 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO896535|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO940136|Conjugated oestrogens 300microgram tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTCO983315|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|female-sex-hormones v1|emis|^ESCTCR867124|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTCR867125|Crinone 4% progesterone vaginal gel (Merck Serono Ltd) 6 unit dose|
+|female-sex-hormones v1|emis|^ESCTCR868059|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTCR868060|Crinone 8% progesterone vaginal gel (Merck Serono Ltd) 15 unit dose|
+|female-sex-hormones v1|emis|^ESCTCY813495|Cyclogest 400mg pessaries (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCY856201|Cyclogest 400mg pessaries (Teva UK Ltd) 15 pessary|
+|female-sex-hormones v1|emis|^ESCTCY861232|Cyclo-Progynova 2mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTCY861235|Cyclo-Progynova 2mg tablets (Meda Pharmaceuticals Ltd) 21 tablet 1 x (11 tablets + 10 tablets)|
+|female-sex-hormones v1|emis|^ESCTCY861253|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTCY861256|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd) 21 tablet 1 x (11 tablets + 10 tablets)|
+|female-sex-hormones v1|emis|^ESCTCY865522|Cyclogest 200mg pessaries (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTCY865523|Cyclogest 200mg pessaries (Teva UK Ltd) 15 pessary|
+|female-sex-hormones v1|emis|^ESCTDE857766|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTDE857767|Dermestril 25 patches (Kyowa Kirin Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTDE857958|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTDE857959|Dermestril - Septem 75 patches (Kyowa Kirin Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTDE858184|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTDE858185|Dermestril 100 patches (Kyowa Kirin Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTDE858267|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTDE858268|Dermestril 50 patches (Kyowa Kirin Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTDE858269|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTDE858271|Dermestril - Septem 50 patches (Kyowa Kirin Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTDU1146621|Duavive 0.45mg/20mg modified-release tablets (Merck Sharp & Dohme Ltd)|
+|female-sex-hormones v1|emis|^ESCTDU1146622|Duavive 0.45mg/20mg modified-release tablets (Merck Sharp & Dohme Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTEL857414|Elleste Solo 2mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL857420|Elleste Solo 2mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTEL857459|Elleste Solo 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL857463|Elleste Solo 1mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTEL857769|Elleste Solo MX 40 transdermal patches (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL857770|Elleste Solo MX 40 transdermal patches (Meda Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEL857810|Elleste Solo MX 80 transdermal patches (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL857811|Elleste Solo MX 80 transdermal patches (Meda Pharmaceuticals Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEL858973|Elleste Duet Conti tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL858974|Elleste Duet Conti tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTEL861394|Elleste Duet 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL861395|Elleste Duet 1mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x (16 tablets + 12 tablets )|
+|female-sex-hormones v1|emis|^ESCTEL862029|Elleste Duet 2mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTEL862030|Elleste Duet 2mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x (16 tablets + 12 tablets )|
+|female-sex-hormones v1|emis|^ESCTES1003010|Estradiol 0.06% gel (750microgram per actuation) 64 gram|
+|female-sex-hormones v1|emis|^ESCTES1036692|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES1037668|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES1068315|Estradiol valerate 2mg tablets (Imported (Germany))|
+|female-sex-hormones v1|emis|^ESCTES1068316|Estradiol valerate 2mg tablets (Imported (Germany)) 11 tablet|
+|female-sex-hormones v1|emis|^ESCTES1093949|Estradiol 50mg implant (Special Order)|
+|female-sex-hormones v1|emis|^ESCTES1093950|Estradiol 50mg implant (Special Order) 1 device|
+|female-sex-hormones v1|emis|^ESCTES450882|Estradiol 150micrograms/dose nasal spray|
+|female-sex-hormones v1|emis|^ESCTES450884|Estradiol hemihydrate 150micrograms nasal spray|
+|female-sex-hormones v1|emis|^ESCTES612651|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612653|Estradiol valerate 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612664|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612666|Estradiol valerate 2 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612679|Estradiol 25mg implant|
+|female-sex-hormones v1|emis|^ESCTES612681|Estradiol 50mg implant|
+|female-sex-hormones v1|emis|^ESCTES612683|Estradiol 100mg implant|
+|female-sex-hormones v1|emis|^ESCTES612685|Estradiol 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612687|Estradiol 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612688|Estradiol 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612690|Estradiol 2 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612691|Estriol 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612693|Estriol 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612700|Estropipate 1.5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612709|Estradiol 0.06% gel (750microgram per actuation)|
+|female-sex-hormones v1|emis|^ESCTES612711|Estradiol 0.06% gel|
+|female-sex-hormones v1|emis|^ESCTES612757|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES612760|Estradiol 2 mg and norethindrone acetate 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612761|Estradiol 2 mg and norethisterone acetate 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612762|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|female-sex-hormones v1|emis|^ESCTES612765|Estradiol valerate 2 mg and norethindrone 0.7 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612766|Estradiol valerate 2 mg and norethisterone 0.7 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612767|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|female-sex-hormones v1|emis|^ESCTES612770|Estradiol 1 mg and norethisterone acetate 0.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES612771|Estradiol 1 mg and norethindrone acetate 0.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTES843610|Estradiol 1mg / Dydrogesterone 5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES847389|Estropipate 1.5mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES857399|Estradiol 2mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES857401|Estradiol 2mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES857451|Estradiol 1mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES857491|Estradiol valerate 2mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES857492|Estradiol valerate 2mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES857499|Estradiol valerate 1mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES857500|Estradiol valerate 1mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES857752|Estradiol 25micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857757|Estradiol 25micrograms/24hours transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTES857760|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES857761|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857762|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES857763|Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCTES857764|Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857765|Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES857768|Estradiol 40micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857807|Estradiol 80micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857827|Estradiol 37.5micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857901|Estradiol 75micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES857902|Estradiol 75micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857903|Estradiol 75micrograms/24hours transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTES857954|Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCTES857955|Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES857956|Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858156|Estradiol 100micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858157|Estradiol 100micrograms/24hours transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858169|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES858171|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858172|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858173|Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCTES858174|Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858179|Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858187|Estradiol 100micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES858200|Estradiol 100micrograms/24hours transdermal patches 12 patch|
+|female-sex-hormones v1|emis|^ESCTES858213|Estradiol 50micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858215|Estradiol 50micrograms/24hours transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858217|Estradiol 50micrograms/24hours transdermal patches 20 patch|
+|female-sex-hormones v1|emis|^ESCTES858220|Estradiol 50micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES858221|Estradiol 50micrograms/24hours transdermal patches 12 patch|
+|female-sex-hormones v1|emis|^ESCTES858227|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES858229|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858230|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858243|Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.)|
+|female-sex-hormones v1|emis|^ESCTES858245|Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES858247|Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 24 patch|
+|female-sex-hormones v1|emis|^ESCTES858264|Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 20 patch|
+|female-sex-hormones v1|emis|^ESCTES858884|Estradiol 1mg / Norethisterone acetate 500microgram tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES858900|Estradiol valerate 2mg / Norethisterone 700microgram tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES858901|Estradiol valerate 2mg / Norethisterone 700microgram tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES858919|Estradiol 2mg / Norethisterone acetate 1mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES860013|Estradiol valerate 2mg tablets 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES860015|Estradiol valerate 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTES860016|Estradiol valerate 2mg tablets (Bayer Plc) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES860133|Estradiol 80micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES860161|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTES860162|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 12 patch|
+|female-sex-hormones v1|emis|^ESCTES860194|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES860197|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd) 8 patch 4 patches + 4 patches|
+|female-sex-hormones v1|emis|^ESCTES860199|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd) 24 patch 12 patches + 12 patches|
+|female-sex-hormones v1|emis|^ESCTES860203|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTES860204|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTES860205|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES860230|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets 1 month supply|
+|female-sex-hormones v1|emis|^ESCTES860231|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets 3 month supply|
+|female-sex-hormones v1|emis|^ESCTES860232|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES860233|Estrapak 50 (Novartis Pharmaceuticals UK Ltd) 1 month supply 1 x (8 patches + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTES860234|Estrapak 50 (Novartis Pharmaceuticals UK Ltd) 3 month supply 1 x (24 patches + 36 tablets)|
+|female-sex-hormones v1|emis|^ESCTES861175|Estradiol 2mg tablets 42 tablet|
+|female-sex-hormones v1|emis|^ESCTES861183|Estradiol 1mg tablets 42 tablet|
+|female-sex-hormones v1|emis|^ESCTES861186|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861187|Estradiol 1mg tablets (Abbott Healthcare Products Ltd) 42 tablet|
+|female-sex-hormones v1|emis|^ESCTES861205|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861207|Estradiol 2mg tablets (Abbott Healthcare Products Ltd) 42 tablet|
+|female-sex-hormones v1|emis|^ESCTES861224|Estradiol valerate 2mg tablets 11 tablet|
+|female-sex-hormones v1|emis|^ESCTES861225|Estradiol valerate 2mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861226|Estradiol valerate 2mg tablets (Meda Pharmaceuticals Ltd) 11 tablet|
+|female-sex-hormones v1|emis|^ESCTES861237|Estradiol valerate 1mg tablets 11 tablet|
+|female-sex-hormones v1|emis|^ESCTES861238|Estradiol valerate 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861239|Estradiol valerate 1mg tablets (Meda Pharmaceuticals Ltd) 11 tablet|
+|female-sex-hormones v1|emis|^ESCTES861260|Estradiol valerate 2mg tablets 70 tablet|
+|female-sex-hormones v1|emis|^ESCTES861261|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861262|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd) 70 tablet|
+|female-sex-hormones v1|emis|^ESCTES861272|Estradiol valerate 1mg tablets 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861273|Estradiol valerate 1mg tablets 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES861277|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861280|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd) 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861281|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES861317|Estradiol valerate 2mg tablets 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861320|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861328|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd) 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861330|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES861372|Estradiol 2mg tablets 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861375|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861376|Estradiol 2mg tablets (Kyowa Kirin Ltd) 16 tablet|
+|female-sex-hormones v1|emis|^ESCTES861390|Estradiol 1mg tablets 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES861391|Estradiol 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861392|Estradiol 1mg tablets (Meda Pharmaceuticals Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES861402|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES861708|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES861766|Estradiol 0.06% gel (750microgram per actuation) 80 gram|
+|female-sex-hormones v1|emis|^ESCTES861948|Estradiol 2mg tablets 36 tablet|
+|female-sex-hormones v1|emis|^ESCTES861950|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861952|Estradiol 2mg tablets (Novo Nordisk Ltd) 36 tablet|
+|female-sex-hormones v1|emis|^ESCTES861953|Estradiol 2mg / Norethisterone acetate 1mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTES861957|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861959|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTES861961|Estradiol 1mg tablets 18 tablet|
+|female-sex-hormones v1|emis|^ESCTES861963|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTES861967|Estradiol 1mg tablets (Novo Nordisk Ltd) 18 tablet|
+|female-sex-hormones v1|emis|^ESCTES862022|Estradiol 2mg tablets 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES862023|Estradiol 2mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES862024|Estradiol 2mg tablets (Meda Pharmaceuticals Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES862025|Estradiol 2mg / Norethisterone acetate 1mg tablets 36 tablet|
+|female-sex-hormones v1|emis|^ESCTES862026|Estradiol 2mg / Norethisterone acetate 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES862027|Estradiol 2mg / Norethisterone acetate 1mg tablets (Meda Pharmaceuticals Ltd) 36 tablet|
+|female-sex-hormones v1|emis|^ESCTES863098|Estradiol 150micrograms/dose nasal spray 60 dose|
+|female-sex-hormones v1|emis|^ESCTES863167|Estradiol 500microgram gel sachets 28 sachet|
+|female-sex-hormones v1|emis|^ESCTES863171|Estradiol 1mg gel sachets 28 sachet|
+|female-sex-hormones v1|emis|^ESCTES863172|Estradiol 1mg gel sachets 91 sachet|
+|female-sex-hormones v1|emis|^ESCTES863230|Estradiol 1mg gel sachets|
+|female-sex-hormones v1|emis|^ESCTES863231|Estradiol 500microgram gel sachets|
+|female-sex-hormones v1|emis|^ESCTES864219|Estradiol 50mg implant 1 device|
+|female-sex-hormones v1|emis|^ESCTES864225|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864226|Estradiol 50mg implant (A A H Pharmaceuticals Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864227|Estradiol 50mg implant (Merck Sharp & Dohme Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864230|Estradiol 50mg implant (Merck Sharp & Dohme Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864234|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864235|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864236|Estradiol 100mg implant 1 device|
+|female-sex-hormones v1|emis|^ESCTES864237|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864238|Estradiol 100mg implant (A A H Pharmaceuticals Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864239|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864240|Estradiol 100mg implant (Organon Laboratories Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864241|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTES864242|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES864284|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES864287|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES864361|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES864362|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES865001|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES865091|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCTES865210|Estriol 1mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTES865230|Estradiol 25mg implant 1 device|
+|female-sex-hormones v1|emis|^ESCTES865232|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTES865233|Estradiol 25mg implant (A A H Pharmaceuticals Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES865234|Estradiol 25mg implant (Merck Sharp & Dohme Ltd)|
+|female-sex-hormones v1|emis|^ESCTES865235|Estradiol 25mg implant (Merck Sharp & Dohme Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES865236|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTES865237|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd) 1 device|
+|female-sex-hormones v1|emis|^ESCTES865748|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets 1 month supply|
+|female-sex-hormones v1|emis|^ESCTES865761|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets 1 month supply|
+|female-sex-hormones v1|emis|^ESCTES865772|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets 1 month supply|
+|female-sex-hormones v1|emis|^ESCTES865809|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|emis|^ESCTES865810|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|emis|^ESCTES865811|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTES869140|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTES869141|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches 12 patch|
+|female-sex-hormones v1|emis|^ESCTES869152|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|female-sex-hormones v1|emis|^ESCTES870385|Estradiol 1mg tablets (Novo Nordisk Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES870594|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTES870596|Estradiol valerate 2mg tablets (Merck Serono Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES872175|Estradiol 50micrograms/24hours transdermal patches 2 patch|
+|female-sex-hormones v1|emis|^ESCTES872176|Estradiol 50micrograms/24hours transdermal patches 6 patch|
+|female-sex-hormones v1|emis|^ESCTES878943|Estradiol valerate 2mg tablets 60 tablet|
+|female-sex-hormones v1|emis|^ESCTES909606|Estradiol 1mg / Drospirenone 2mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTES909731|Estradiol 1mg / Drospirenone 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTES912141|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES912142|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES912143|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES912144|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES912145|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES912146|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES912147|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES912148|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES912149|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES912150|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTES927688|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTES927689|Estradiol 2mg tablets (ReSource Medical UK Ltd) 48 tablet|
+|female-sex-hormones v1|emis|^ESCTES970313|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES970314|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES970315|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES975022|Estradiol 1mg / Norethisterone acetate 500microgram tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES975117|Estradiol 1mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTES981884|Estradiol valerate 1mg tablets 6 tablet|
+|female-sex-hormones v1|emis|^ESCTES981885|Estradiol valerate 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTES981886|Estradiol valerate 1mg tablets (Bayer Plc) 6 tablet|
+|female-sex-hormones v1|emis|^ESCTET1100752|Ethinylestradiol 5microgram capsules 1 capsule|
+|female-sex-hormones v1|emis|^ESCTET1100753|Ethinylestradiol 5microgram capsules (Special Order)|
+|female-sex-hormones v1|emis|^ESCTET1100754|Ethinylestradiol 5microgram capsules (Special Order) 1 capsule|
+|female-sex-hormones v1|emis|^ESCTET1100795|Ethinylestradiol 5microgram capsules|
+|female-sex-hormones v1|emis|^ESCTET612622|Ethinylestradiol 10microgram tablets|
+|female-sex-hormones v1|emis|^ESCTET612623|Ethinyl estradiol 0.01 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET612624|Ethinylestradiol 0.01 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET612627|Ethinylestradiol 50microgram tablets|
+|female-sex-hormones v1|emis|^ESCTET612628|Ethinyl estradiol 0.05 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET612629|Ethinylestradiol 0.05 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET612632|Ethinylestradiol 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTET612635|Ethinyl estradiol 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET612636|Ethinylestradiol 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTET819722|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTET821251|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTET822882|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTET843501|Ethinylestradiol 10microgram tablets 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET856594|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET856596|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET856598|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET865924|Ethinylestradiol 1mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTET865927|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTET865928|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTET865930|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTET865932|Ethinylestradiol 1mg tablets (UCB Pharma Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTET865934|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTET865935|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet|
+|female-sex-hormones v1|emis|^ESCTET867277|Ethinylestradiol 50microgram tablets 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET867278|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTET867279|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET867280|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTET867281|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET867282|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTET867283|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd) 21 tablet|
+|female-sex-hormones v1|emis|^ESCTET909283|Ethinylestradiol 2microgram capsules 1 capsule|
+|female-sex-hormones v1|emis|^ESCTET909291|Ethinylestradiol 2microgram capsules (Special Order)|
+|female-sex-hormones v1|emis|^ESCTET909293|Ethinylestradiol 2microgram capsules (Special Order) 1 capsule|
+|female-sex-hormones v1|emis|^ESCTET909676|Ethinylestradiol 2microgram capsules|
+|female-sex-hormones v1|emis|^ESCTET942554|Ethinylestradiol 2microgram tablets 100 tablet|
+|female-sex-hormones v1|emis|^ESCTET942557|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTET942559|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd) 100 tablet|
+|female-sex-hormones v1|emis|^ESCTET942599|Ethinylestradiol 2microgram tablets|
+|female-sex-hormones v1|emis|^ESCTET948331|Ethinylestradiol 2micrograms/5ml oral suspension 1 ml|
+|female-sex-hormones v1|emis|^ESCTET948332|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|emis|^ESCTET948333|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order) 1 ml|
+|female-sex-hormones v1|emis|^ESCTET948338|Ethinylestradiol 4micrograms/5ml oral suspension 1 ml|
+|female-sex-hormones v1|emis|^ESCTET948340|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|emis|^ESCTET948343|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order) 1 ml|
+|female-sex-hormones v1|emis|^ESCTET948500|Ethinylestradiol 2micrograms/5ml oral suspension|
+|female-sex-hormones v1|emis|^ESCTET948501|Ethinylestradiol 4micrograms/5ml oral suspension|
+|female-sex-hormones v1|emis|^ESCTET975434|Ethinylestradiol 2microgram tablets (Special Order)|
+|female-sex-hormones v1|emis|^ESCTET975435|Ethinylestradiol 2microgram tablets 1 tablet|
+|female-sex-hormones v1|emis|^ESCTET975436|Ethinylestradiol 2microgram tablets (Special Order) 1 tablet|
+|female-sex-hormones v1|emis|^ESCTEV857758|Evorel 25 patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV857759|Evorel 25 patches (Janssen-Cilag Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEV857906|Evorel 75 patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV857907|Evorel 75 patches (Janssen-Cilag Ltd) 8 patch 1 x 8 patches|
+|female-sex-hormones v1|emis|^ESCTEV858162|Evorel 100 patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV858167|Evorel 100 patches (Janssen-Cilag Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEV858222|Evorel 50 patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV858224|Evorel 50 patches (Janssen-Cilag Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEV858225|Evorel 50 patches (Janssen-Cilag Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCTEV860202|Evorel 50 patches (Janssen-Cilag Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTEV860206|Evorel Conti patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV860207|Evorel Conti patches (Janssen-Cilag Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTEV860208|Evorel Conti patches (Janssen-Cilag Ltd) 24 patch|
+|female-sex-hormones v1|emis|^ESCTEV860209|Evorel Conti patches (Janssen-Cilag Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTEV860213|Evorel Sequi patches (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV860215|Evorel Sequi patches (Janssen-Cilag Ltd) 8 patch 4 patches + 4 patches|
+|female-sex-hormones v1|emis|^ESCTEV865750|Evorel Pak (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTEV865751|Evorel Pak (Janssen-Cilag Ltd) 1 month supply 1 x (8 patches + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE1036693|Femoston-conti 0.5mg/2.5mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE1036694|Femoston-conti 0.5mg/2.5mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTFE819526|Femoston-conti 1mg/5mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE856407|Femoston-conti 1mg/5mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTFE857771|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE857772|Fematrix 40 patches (Abbott Healthcare Products Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTFE857813|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE857815|Fematrix 80 patches (Abbott Healthcare Products Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTFE857904|FemSeven 75 patches (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE857905|FemSeven 75 patches (Teva UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTFE858186|FemSeven 100 patches (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE858189|FemSeven 100 patches (Teva UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTFE858275|FemSeven 50 patches (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE858278|FemSeven 50 patches (Teva UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTFE858280|FemSeven 50 patches (Teva UK Ltd) 12 patch|
+|female-sex-hormones v1|emis|^ESCTFE861179|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE861180|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE861197|Femoston 1/10mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE861200|Femoston 1/10mg tablets (Mylan Ltd) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE861217|Femoston 2/10mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE861221|Femoston 2/10mg tablets (Mylan Ltd) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE865763|Femapak 80 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE865765|Femapak 80 (Abbott Healthcare Products Ltd) 1 month supply 1 x (8 patches + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE865773|Femapak 40 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE865774|Femapak 40 (Abbott Healthcare Products Ltd) 1 month supply 1 x (8 patches + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE869142|FemSeven Conti patches (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE869143|FemSeven Conti patches (Teva UK Ltd) 4 patch|
+|female-sex-hormones v1|emis|^ESCTFE869144|FemSeven Conti patches (Teva UK Ltd) 12 patch|
+|female-sex-hormones v1|emis|^ESCTFE870412|FemTab 1mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE870413|FemTab 1mg tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTFE870414|FemTab 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE870415|FemTab 2mg tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTFE870416|FemTab Continuous tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE870417|FemTab Continuous tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTFE870585|FemTab Sequi tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE870589|FemTab Sequi tablets (Merck Serono Ltd) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTFE872211|FemSeven Sequi patches (Teva UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTFE872212|FemSeven Sequi patches (Teva UK Ltd) 4 patch 2 patches + 2 patches|
+|female-sex-hormones v1|emis|^ESCTFE872216|FemSeven Sequi patches (Teva UK Ltd) 12 patch 6 patches + 6 patches|
+|female-sex-hormones v1|emis|^ESCTGE847106|Generic Hormonin tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE860038|Generic Nuvelle tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE860150|Generic Nuvelle TS transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTGE860180|Generic Estracombi TTS transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTGE860191|Generic Estracombi TTS transdermal patches 24 patch|
+|female-sex-hormones v1|emis|^ESCTGE860212|Generic Evorel Sequi transdermal patches 8 patch|
+|female-sex-hormones v1|emis|^ESCTGE861177|Generic Femoston 2/20mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861195|Generic Femoston 1/10mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861214|Generic Femoston 2/10mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861231|Generic Cyclo-Progynova 2mg tablets 21 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861247|Generic Cyclo-Progynova 1mg tablets 21 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861274|Generic Tridestra tablets 91 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861299|Generic Climagest 1mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861301|Generic Climagest 1mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861350|Generic Climagest 2mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861354|Generic Climagest 2mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861384|Generic Adgyn Combi tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861393|Generic Elleste Duet 1mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE861677|Generic Adgyn Combi tablets|
+|female-sex-hormones v1|emis|^ESCTGE861685|Generic Climagest 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE861686|Generic Climagest 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE861687|Generic Cyclo-Progynova 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE861688|Generic Cyclo-Progynova 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE861969|Generic Trisequens tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE862008|Generic Trisequens Forte tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE862028|Generic Elleste Duet 2mg tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE862040|Generic Premique Cycle tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE862093|Generic Trisequens tablets|
+|female-sex-hormones v1|emis|^ESCTGE862094|Generic Trisequens Forte tablets|
+|female-sex-hormones v1|emis|^ESCTGE862104|Generic Elleste Duet 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE862105|Generic Elleste Duet 2mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE862366|Generic Estracombi TTS transdermal patches|
+|female-sex-hormones v1|emis|^ESCTGE862367|Generic Evorel Sequi transdermal patches|
+|female-sex-hormones v1|emis|^ESCTGE862368|Generic Femoston 1/10mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE862369|Generic Femoston 2/10mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE862370|Generic Femoston 2/20mg tablets|
+|female-sex-hormones v1|emis|^ESCTGE862372|Generic Hormonin tablets|
+|female-sex-hormones v1|emis|^ESCTGE862441|Generic Nuvelle TS transdermal patches|
+|female-sex-hormones v1|emis|^ESCTGE862442|Generic Nuvelle tablets|
+|female-sex-hormones v1|emis|^ESCTGE862475|Generic Premique Cycle tablets|
+|female-sex-hormones v1|emis|^ESCTGE862520|Generic Tridestra tablets|
+|female-sex-hormones v1|emis|^ESCTGE867110|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTGE867113|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTGE868208|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|emis|^ESCTGE868209|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTGE870390|Generic Novofem tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE870470|Generic Novofem tablets|
+|female-sex-hormones v1|emis|^ESCTGE872209|Generic FemSeven Sequi transdermal patches 4 patch|
+|female-sex-hormones v1|emis|^ESCTGE872210|Generic FemSeven Sequi transdermal patches 12 patch|
+|female-sex-hormones v1|emis|^ESCTGE872287|Generic FemSeven Sequi transdermal patches|
+|female-sex-hormones v1|emis|^ESCTGE874326|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTGE874328|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd) 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTGE927693|Generic Clinorette tablets 84 tablet|
+|female-sex-hormones v1|emis|^ESCTGE927723|Generic Clinorette tablets|
+|female-sex-hormones v1|emis|^ESCTHA802570|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTHA856454|Harmogen 1.5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets|
+|female-sex-hormones v1|emis|^ESCTHO809012|Hormonin tablets (AMCo)|
+|female-sex-hormones v1|emis|^ESCTHO855010|Hormonin tablets (AMCo) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTHY870765|Hydroxyprogesterone 250mg/1ml solution for injection ampoules 3 ampoule|
+|female-sex-hormones v1|emis|^ESCTIN864285|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTIN864286|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTIN864288|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTIN864289|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTIN865002|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTIN865003|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTKL858891|Kliovance tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTKL858899|Kliovance tablets (Novo Nordisk Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTKL858925|Kliofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTKL859206|Kliofem tablets (Novo Nordisk Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTLU1104175|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTLU1104176|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd) 21 pessary 7 x 3 pessaries|
+|female-sex-hormones v1|emis|^ESCTME612720|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|emis|^ESCTME612722|Medroxyprogesterone acetate 10 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTME612723|Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|emis|^ESCTME612725|Medroxyprogesterone 2.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTME612726|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCTME612728|Medroxyprogesterone acetate 5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTME836927|Medroxyprogesterone 5mg tablets 28 tablet|
+|female-sex-hormones v1|emis|^ESCTME840936|Medroxyprogesterone 10mg tablets 10 tablet|
+|female-sex-hormones v1|emis|^ESCTME846642|Medroxyprogesterone 5mg tablets 100 tablet|
+|female-sex-hormones v1|emis|^ESCTME847206|Medroxyprogesterone 10mg tablets 90 tablet|
+|female-sex-hormones v1|emis|^ESCTME847840|Medroxyprogesterone 5mg tablets 14 tablet|
+|female-sex-hormones v1|emis|^ESCTME848092|Medroxyprogesterone 5mg tablets 10 tablet|
+|female-sex-hormones v1|emis|^ESCTME848341|Medroxyprogesterone 10mg tablets 100 tablet|
+|female-sex-hormones v1|emis|^ESCTME857829|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTME857832|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTME857952|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTME857953|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTME858232|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTME858239|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd) 8 patch|
+|female-sex-hormones v1|emis|^ESCTME865127|Medroxyprogesterone 2.5mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTME878214|Medroxyprogesterone 5mg tablets 40 tablet|
+|female-sex-hormones v1|emis|^ESCTME964226|Medroxyprogesterone 10mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTME971337|Medroxyprogesterone 5mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTME977011|Medroxyprogesterone 5mg tablets 60 tablet|
+|female-sex-hormones v1|emis|^ESCTMI860021|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|emis|^ESCTMI860032|Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 36 tablet 3 strips x 12 tablets|
+|female-sex-hormones v1|emis|^ESCTMI865746|Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 12 tablet|
+|female-sex-hormones v1|emis|^ESCTNO1041776|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
+|female-sex-hormones v1|emis|^ESCTNO1041777|Norethisterone 5mg tablets (Waymade Healthcare Plc) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTNO1118326|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
+|female-sex-hormones v1|emis|^ESCTNO1118327|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTNO1126995|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO1126996|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTNO612729|Norethisterone 5mg tablets|
+|female-sex-hormones v1|emis|^ESCTNO612732|Norethisterone 5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTNO612733|Norethindrone 5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTNO612735|Norethisterone 1mg tablets|
+|female-sex-hormones v1|emis|^ESCTNO612738|Norethisterone 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTNO612739|Norethindrone 1 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTNO802211|Norethisterone 5mg tablets (Sandoz Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO804509|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO806991|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO824484|Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO825123|Norethisterone 5mg tablets (Actavis UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO827284|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO840544|Norethisterone 5mg tablets 90 tablet|
+|female-sex-hormones v1|emis|^ESCTNO846950|Norethisterone 5mg tablets 30 tablet|
+|female-sex-hormones v1|emis|^ESCTNO853448|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTNO853451|Norethisterone 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTNO853462|Norethisterone 5mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTNO853474|Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCTNO853499|Norethisterone 5mg tablets (Sandoz Ltd) 30 tablet 2 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCTNO853556|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTNO860017|Norethisterone 1mg tablets 36 tablet|
+|female-sex-hormones v1|emis|^ESCTNO865745|Norethisterone 1mg tablets 12 tablet|
+|female-sex-hormones v1|emis|^ESCTNO870391|Novofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTNO870392|Novofem tablets (Novo Nordisk Ltd) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTNO982476|Norethisterone 5mg/5ml oral suspension 1 ml|
+|female-sex-hormones v1|emis|^ESCTNO982477|Norethisterone 5mg/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|emis|^ESCTNO982478|Norethisterone 5mg/5ml oral suspension (Special Order) 1 ml|
+|female-sex-hormones v1|emis|^ESCTNO982514|Norethisterone 5mg/5ml oral suspension|
+|female-sex-hormones v1|emis|^ESCTNU858975|Nuvelle Continuous tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTNU858976|Nuvelle Continuous tablets (Bayer Plc) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTNU860040|Nuvelle tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTNU860050|Nuvelle tablets (Bayer Plc) 84 tablet 3 x (16 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTNU860151|Nuvelle TS patches (Schering Health Care Ltd)|
+|female-sex-hormones v1|emis|^ESCTNU860153|Nuvelle TS patches (Schering Health Care Ltd) 8 patch 4 patches + 4 patches|
+|female-sex-hormones v1|emis|^ESCTOE450883|Oestradiol hemihydrate 150micrograms nasal spray|
+|female-sex-hormones v1|emis|^ESCTOE612680|Oestradiol 25mg implant|
+|female-sex-hormones v1|emis|^ESCTOE612682|Oestradiol 50mg implant|
+|female-sex-hormones v1|emis|^ESCTOE612684|Oestradiol 100mg implant|
+|female-sex-hormones v1|emis|^ESCTOE612710|Oestradiol 0.06% gel|
+|female-sex-hormones v1|emis|^ESCTOE861769|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTOE861773|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd) 80 gram|
+|female-sex-hormones v1|emis|^ESCTOV865211|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|female-sex-hormones v1|emis|^ESCTOV865212|Ovestin 1mg tablets (Organon Laboratories Ltd) 30 tablet|
+|female-sex-hormones v1|emis|^ESCTPI612702|Piperazine estrone sulfate 1.5 mg oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR1005436|Progesterone 2% in Aqueous cream 1 gram|
+|female-sex-hormones v1|emis|^ESCTPR1005437|Progesterone 2% in Aqueous cream (Special Order)|
+|female-sex-hormones v1|emis|^ESCTPR1005438|Progesterone 2% in Aqueous cream (Special Order) 1 gram|
+|female-sex-hormones v1|emis|^ESCTPR1005456|Progesterone 2% in Aqueous cream|
+|female-sex-hormones v1|emis|^ESCTPR1033642|Progesterone 2.34% cream 60 gram|
+|female-sex-hormones v1|emis|^ESCTPR1033650|Progesterone 2.34% cream|
+|female-sex-hormones v1|emis|^ESCTPR1049665|Progesterone micronised 200mg vaginal capsules 21 capsule|
+|female-sex-hormones v1|emis|^ESCTPR1049727|Progesterone micronised 200mg vaginal capsules|
+|female-sex-hormones v1|emis|^ESCTPR1061690|Progesterone 25mg/1.119ml solution for injection vials|
+|female-sex-hormones v1|emis|^ESCTPR1061694|Progesterone 25mg/1.119ml solution for injection vials 7 vial|
+|female-sex-hormones v1|emis|^ESCTPR1104174|Progesterone 100mg pessaries 21 pessary|
+|female-sex-hormones v1|emis|^ESCTPR1104348|Progesterone 100mg pessaries|
+|female-sex-hormones v1|emis|^ESCTPR1159886|Progesterone 100mg/1ml solution for injection ampoules 1 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR1159887|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
+|female-sex-hormones v1|emis|^ESCTPR1159888|Progesterone 100mg/1ml solution for injection ampoules (Special Order) 1 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR1160191|Progesterone 100mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|emis|^ESCTPR612625|Product containing ethinyl estradiol 0.01 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612626|Product containing ethinylestradiol 0.01 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612630|Product containing ethinyl estradiol 0.05 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612631|Product containing ethinylestradiol 0.05 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612633|Product containing ethinylestradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612634|Product containing ethinyl estradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612652|Product containing estradiol valerate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612665|Product containing estradiol valerate 2 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612686|Product containing estradiol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612689|Product containing estradiol 2 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612692|Product containing estriol 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612695|Product containing conjugated estrogens 0.625 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612698|Product containing conjugated estrogens 1.25 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612701|Product containing piperazine estrone sulfate 1.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612721|Product containing medroxyprogesterone acetate 10 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612724|Product containing medroxyprogesterone 2.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612727|Product containing medroxyprogesterone acetate 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612730|Product containing norethindrone 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612731|Product containing norethisterone 5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612736|Product containing norethindrone 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612737|Product containing norethisterone 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612743|Progesterone 4% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|emis|^ESCTPR612744|Progesterone 4% vaginal gel|
+|female-sex-hormones v1|emis|^ESCTPR612745|Progesterone 8% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|emis|^ESCTPR612746|Progesterone 8% vaginal gel|
+|female-sex-hormones v1|emis|^ESCTPR612747|Progesterone 90mg gel|
+|female-sex-hormones v1|emis|^ESCTPR612758|Product containing estradiol 2 mg and norethisterone acetate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612759|Product containing estradiol 2 mg and norethindrone acetate 1 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612763|Product containing estradiol valerate 2 mg and norethisterone 0.7 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612764|Product containing estradiol valerate 2 mg and norethindrone 0.7 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612768|Product containing estradiol 1 mg and norethisterone acetate 0.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR612769|Product containing estradiol 1 mg and norethindrone acetate 0.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR664273|Product containing conjugated estrogens 0.625 milligram and norgestrel 0.15 milligram/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR677332|Product containing conjugated estrogens 0.3 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR708199|Product containing conjugated estrogens 2.5 mg/1 each oral tablet|
+|female-sex-hormones v1|emis|^ESCTPR801529|Premarin 0.625mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR806861|Primolut N 5mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTPR808844|Provera 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR819915|Premarin 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR820001|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR821077|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR832207|Provera 10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR839743|Progesterone 400mg pessaries 15 pessary|
+|female-sex-hormones v1|emis|^ESCTPR853539|Primolut N 5mg tablets (Bayer Plc) 30 tablet 3 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTPR855004|Provera 10mg tablets (Pfizer Ltd) 10 tablet|
+|female-sex-hormones v1|emis|^ESCTPR855006|Provera 10mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCTPR855007|Provera 10mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTPR855021|Provera 5mg tablets (Pfizer Ltd) 10 tablet|
+|female-sex-hormones v1|emis|^ESCTPR855022|Provera 5mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTPR856757|Premarin 0.625mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR856759|Premarin 1.25mg tablets (Pfizer Ltd) 84 tablet 6 x 14 tablets|
+|female-sex-hormones v1|emis|^ESCTPR856823|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd) 120 tablet 3 x (28 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTPR856957|Premique 0.625mg/5mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR857497|Progynova 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTPR857498|Progynova 2mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR857504|Progynova 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTPR857505|Progynova 1mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR858198|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTPR858202|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc) 12 patch|
+|female-sex-hormones v1|emis|^ESCTPR858284|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|emis|^ESCTPR858287|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc) 12 patch|
+|female-sex-hormones v1|emis|^ESCTPR862041|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR862042|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd) 84 tablet 3 x (14 tablets + 14 tablets)|
+|female-sex-hormones v1|emis|^ESCTPR862150|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR862163|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd) 120 tablet 3 x (28 tablets + 12 tablets)|
+|female-sex-hormones v1|emis|^ESCTPR865132|Provera 2.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR865136|Provera 2.5mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets|
+|female-sex-hormones v1|emis|^ESCTPR865520|Progesterone 200mg pessaries 15 pessary|
+|female-sex-hormones v1|emis|^ESCTPR867108|Progesterone 50mg/1ml solution for injection ampoules 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR867123|Progesterone 4% vaginal gel 1.125g applicators 6 unit dose|
+|female-sex-hormones v1|emis|^ESCTPR868058|Progesterone 8% vaginal gel 1.125g applicators 15 unit dose|
+|female-sex-hormones v1|emis|^ESCTPR868207|Progesterone 100mg/2ml solution for injection ampoules 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR870768|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR870769|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd) 3 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR870836|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|female-sex-hormones v1|emis|^ESCTPR870837|Premarin 2.5mg tablets (Wyeth Pharmaceuticals) 84 tablet|
+|female-sex-hormones v1|emis|^ESCTPR874324|Progesterone 25mg/1ml solution for injection ampoules 10 ampoule|
+|female-sex-hormones v1|emis|^ESCTPR874327|Progesterone 25mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|emis|^ESCTPR896536|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR896537|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR940138|Premarin 0.3mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTPR940140|Premarin 0.3mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTPR942801|Progesterone micronised 100mg capsules 30 capsule|
+|female-sex-hormones v1|emis|^ESCTPR942807|Progesterone micronised 200mg capsules 15 capsule|
+|female-sex-hormones v1|emis|^ESCTPR942845|Progesterone micronised 100mg capsules|
+|female-sex-hormones v1|emis|^ESCTPR942846|Progesterone micronised 200mg capsules|
+|female-sex-hormones v1|emis|^ESCTSA863168|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTSA863169|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd) 28 sachet|
+|female-sex-hormones v1|emis|^ESCTSA863175|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTSA863177|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd) 28 sachet|
+|female-sex-hormones v1|emis|^ESCTSA863179|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd) 91 sachet|
+|female-sex-hormones v1|emis|^ESCTSE1033643|Serenity Natural Progesterone cream (Imported (United States))|
+|female-sex-hormones v1|emis|^ESCTSE1033644|Serenity Natural Progesterone cream (Imported (United States)) 60 gram|
+|female-sex-hormones v1|emis|^ESCTTR861275|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTTR861279|Tridestra tablets (Orion Pharma (UK) Ltd) 91 tablet 1 x (70 tabs+14 tabs+7 tabs)|
+|female-sex-hormones v1|emis|^ESCTTR861971|Trisequens tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTTR861973|Trisequens tablets (Novo Nordisk Ltd) 84 tablet 3 x (12tabs + 10tabs + 6tabs)|
+|female-sex-hormones v1|emis|^ESCTTR862010|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|emis|^ESCTTR862012|Trisequens Forte tablets (Novo Nordisk Ltd) 84 tablet 3x(12 tabs + 10 tabs + 6 tabs)|
+|female-sex-hormones v1|emis|^ESCTUT1049666|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTUT1049667|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd) 21 capsule 3 x 7 capsules|
+|female-sex-hormones v1|emis|^ESCTUT808155|Utovlan 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|emis|^ESCTUT853513|Utovlan 5mg tablets (Pfizer Ltd) 30 tablet 2 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCTUT853524|Utovlan 5mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets|
+|female-sex-hormones v1|emis|^ESCTUT942802|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTUT942803|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd) 30 capsule 2 x 15 capsules|
+|female-sex-hormones v1|emis|^ESCTUT942808|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|emis|^ESCTUT942809|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd) 15 capsule|
+|female-sex-hormones v1|emis|^ESCTZU857425|Zumenon 2mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTZU857427|Zumenon 2mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|^ESCTZU857467|Zumenon 1mg tablets (Mylan Ltd)|
+|female-sex-hormones v1|emis|^ESCTZU857490|Zumenon 1mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets|
+|female-sex-hormones v1|emis|ADTA5074NEMIS|Adgyn Estro  Tablets  2 mg|
+|female-sex-hormones v1|emis|ADTA5077NEMIS|Adgyn Combi  Tablets  |
+|female-sex-hormones v1|emis|ADTA5079NEMIS|Adgyn Medro  Tablets  5 mg|
+|female-sex-hormones v1|emis|AENA6635NEMIS|Aerodiol  Nasal spray  150 micrograms/metered spray|
+|female-sex-hormones v1|emis|ANTA20250NEMIS|Angeliq  Tablets  1 mg + 2 mg|
+|female-sex-hormones v1|emis|BETA22322NEMIS|Bedol  Tablets  2 mg|
+|female-sex-hormones v1|emis|BICA140375NEMIS|NULL|
+|female-sex-hormones v1|emis|CLTA22320NEMIS|Clinorette  Tablets  |
+|female-sex-hormones v1|emis|CLTA22324NEMIS|Climanor  Tablets  5 mg|
+|female-sex-hormones v1|emis|CLTA22608EMIS|Climagest 1 Mg  Tablets  |
+|female-sex-hormones v1|emis|CLTA23918EMIS|Climagest 2 Mg  Tablets  |
+|female-sex-hormones v1|emis|CLTA28306EMIS|Climesse  Tablets  |
+|female-sex-hormones v1|emis|CLTA9344EMIS|Climaval  Tablets  1 mg|
+|female-sex-hormones v1|emis|CLTA9345EMIS|Climaval  Tablets  2 mg|
+|female-sex-hormones v1|emis|COM/123284NEMIS|Conjugated Oestrogens And Bazedoxifene  M/R tablets  450 micrograms + 20 mg|
+|female-sex-hormones v1|emis|COTA18950NEMIS|Conjugated Oestrogens And Medroxyprogesterone  Tablets  625 micrograms + 5 mg|
+|female-sex-hormones v1|emis|COTA18951NEMIS|Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg|
+|female-sex-hormones v1|emis|COTA18953NEMIS|Conjugated Oestrogens And Norgestrel  Tablets  625 micrograms + 150 micrograms|
+|female-sex-hormones v1|emis|COTA18954NEMIS|Conjugated Oestrogens And Norgestrel  Tablets  1.25 mg + 150 micrograms|
+|female-sex-hormones v1|emis|COTA25049NEMIS|Conjugated Oestrogens  Tablets  300 micrograms|
+|female-sex-hormones v1|emis|COTA33808EMIS|Conjugated Oestrogens  Tablets  2.5 mg|
+|female-sex-hormones v1|emis|COTA34620MGEMIS|Conjugated Oestrogens  Tablets  1.25 mg (Wyeth)|
+|female-sex-hormones v1|emis|COTA34621MGEMIS|Conjugated Oestrogens  Tablets  625 micrograms (Wyeth)|
+|female-sex-hormones v1|emis|COTA723|Conjugated Oestrogens  Tablets  1.25 mg|
+|female-sex-hormones v1|emis|COTA724|Conjugated Oestrogens  Tablets  625 micrograms|
+|female-sex-hormones v1|emis|CRVA31938EMIS|Crinone  Vaginal gel  4 %|
+|female-sex-hormones v1|emis|CRVA31940EMIS|Crinone  Vaginal gel  8 %|
+|female-sex-hormones v1|emis|CYPE10822NEMIS|Cyclogest  Pessaries  200 mg|
+|female-sex-hormones v1|emis|CYPE10823NEMIS|Cyclogest  Pessaries  400 mg|
+|female-sex-hormones v1|emis|CYTA10113BRIDL|Cyclo-Progynova 1 Mg  Tablets  |
+|female-sex-hormones v1|emis|CYTA775|Cyclo-Progynova 2 Mg  Tablets  |
+|female-sex-hormones v1|emis|DETR30518EMIS|Dermestril  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|DETR30519EMIS|Dermestril  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|DETR30520EMIS|Dermestril  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|DETR5677NEMIS|Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|DETR5678NEMIS|Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|DUM/123287NEMIS|Duavive  M/R tablets  450 micrograms + 20 mg|
+|female-sex-hormones v1|emis|ELTA28287EMIS|Elleste-Solo  Tablets  1 mg|
+|female-sex-hormones v1|emis|ELTA28288EMIS|Elleste-Solo  Tablets  2 mg|
+|female-sex-hormones v1|emis|ELTA28291EMIS|Elleste Duet 2 Mg  Tablets  |
+|female-sex-hormones v1|emis|ELTA30208EMIS|Elleste Duet 1 Mg  Tablets  |
+|female-sex-hormones v1|emis|ELTA31986EMIS|Elleste Duet Conti  Tablets  |
+|female-sex-hormones v1|emis|ELTR31592EMIS|Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ELTR31593EMIS|Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESCA140373NEMIS|NULL|
+|female-sex-hormones v1|emis|ESGE17750NEMIS|Estradiol  Gel  0.06 % pump-pack|
+|female-sex-hormones v1|emis|ESGE17771NEMIS|Estradiol  Gel  1 mg/1 gram sachet|
+|female-sex-hormones v1|emis|ESGE17772NEMIS|Estradiol  Gel  500 micrograms/500 mg sachet|
+|female-sex-hormones v1|emis|ESIM17751NEMIS|Estradiol  Implant  100 mg|
+|female-sex-hormones v1|emis|ESIM17752NEMIS|Estradiol  Implant  25 mg|
+|female-sex-hormones v1|emis|ESIM17753NEMIS|Estradiol  Implant  50 mg|
+|female-sex-hormones v1|emis|ESIM38189MGEMIS|Estradiol  Implant  100 mg (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ESIM38190MGEMIS|Estradiol  Implant  100 mg (Organon)|
+|female-sex-hormones v1|emis|ESIM38191MGEMIS|Estradiol  Implant  100 mg (Unichem)|
+|female-sex-hormones v1|emis|ESIM38192MGEMIS|Estradiol  Implant  25 mg (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ESIM38193MGEMIS|Estradiol  Implant  25 mg (Organon)|
+|female-sex-hormones v1|emis|ESIM38194MGEMIS|Estradiol  Implant  25 mg (Unichem)|
+|female-sex-hormones v1|emis|ESIM38195MGEMIS|Estradiol  Implant  50 mg (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ESIM38196MGEMIS|Estradiol  Implant  50 mg (Organon)|
+|female-sex-hormones v1|emis|ESIM38197MGEMIS|Estradiol  Implant  50 mg (Unichem)|
+|female-sex-hormones v1|emis|ESNA17773NEMIS|Estradiol  Nasal spray  150 micrograms/actuation|
+|female-sex-hormones v1|emis|ESPA18937NEMIS|Estradiol And Norethisterone Acetate  Patches  50 micrograms + 170 micrograms/24 hours|
+|female-sex-hormones v1|emis|ESPA18939NEMIS|Estradiol And Norethisterone  Patches And Tablets  50 micrograms/24 hours + 1 mg|
+|female-sex-hormones v1|emis|ESPA18941NEMIS|Estradiol And Dydrogesterone  Patches And Tablets  40 micrograms/24 hours + 10 mg|
+|female-sex-hormones v1|emis|ESPA18942NEMIS|Estradiol And Dydrogesterone  Patches And Tablets  80 micrograms/24 hours + 10 mg|
+|female-sex-hormones v1|emis|ESPA18982NEMIS|Estradiol And Levonorgestrel  Patches (7 days)  50 micrograms + 7 micrograms/24 hours|
+|female-sex-hormones v1|emis|ESPA20472EMIS|Estracombi Tts  Patches  |
+|female-sex-hormones v1|emis|ESPA8671EGTON|Estraderm Tts  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESPA8672EGTON|Estraderm Tts  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESPA8673EGTON|Estraderm Tts  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTA1120NEMIS|Estropipate  Tablets  1.5 mg|
+|female-sex-hormones v1|emis|ESTA17754NEMIS|Estradiol  Tablets  1 mg|
+|female-sex-hormones v1|emis|ESTA17755NEMIS|Estradiol  Tablets  2 mg|
+|female-sex-hormones v1|emis|ESTA17776NEMIS|Estradiol Valerate  Tablets  1 mg|
+|female-sex-hormones v1|emis|ESTA17777NEMIS|Estradiol Valerate  Tablets  2 mg|
+|female-sex-hormones v1|emis|ESTA17783NEMIS|Estriol  Tablets  1 mg|
+|female-sex-hormones v1|emis|ESTA18932NEMIS|Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms|
+|female-sex-hormones v1|emis|ESTA18936NEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg|
+|female-sex-hormones v1|emis|ESTA18943NEMIS|Estradiol And Dydrogesterone  Tablets  1 mg + 5 mg|
+|female-sex-hormones v1|emis|ESTA18945NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg|
+|female-sex-hormones v1|emis|ESTA18946NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg|
+|female-sex-hormones v1|emis|ESTA18947NEMIS|Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg|
+|female-sex-hormones v1|emis|ESTA18948NEMIS|Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms|
+|female-sex-hormones v1|emis|ESTA20248NEMIS|Estradiol And Drospirenone  Tablets  1 mg + 2 mg|
+|female-sex-hormones v1|emis|ESTA38198MGEMIS|Estradiol  Tablets  1 mg (Solvay Healthcare)|
+|female-sex-hormones v1|emis|ESTA38199MGEMIS|Estradiol  Tablets  1 mg (Pfizer)|
+|female-sex-hormones v1|emis|ESTA38200MGEMIS|Estradiol  Tablets  1 mg (Novo-Nordisk)|
+|female-sex-hormones v1|emis|ESTA38201MGEMIS|Estradiol  Tablets  2 mg (Solvay Healthcare)|
+|female-sex-hormones v1|emis|ESTA38202MGEMIS|Estradiol  Tablets  2 mg (Strakan)|
+|female-sex-hormones v1|emis|ESTA38203MGEMIS|Estradiol  Tablets  2 mg (Novo-Nordisk)|
+|female-sex-hormones v1|emis|ESTA38204MGEMIS|Estradiol  Tablets  2 mg (Pfizer)|
+|female-sex-hormones v1|emis|ESTA38205MGEMIS|Estradiol Valerate  Tablets  1 mg (Viatris Pharms)|
+|female-sex-hormones v1|emis|ESTA38206MGEMIS|Estradiol Valerate  Tablets  1 mg (Novartis Pharm)|
+|female-sex-hormones v1|emis|ESTA38207MGEMIS|Estradiol Valerate  Tablets  2 mg (Schering Health Care Ltd)|
+|female-sex-hormones v1|emis|ESTA38208MGEMIS|Estradiol Valerate  Tablets  2 mg (Viatris Pharms)|
+|female-sex-hormones v1|emis|ESTA38209MGEMIS|Estradiol Valerate  Tablets  2 mg (Orion Pharma)|
+|female-sex-hormones v1|emis|ESTA38210MGEMIS|Estradiol Valerate  Tablets  2 mg (Novartis Pharm)|
+|female-sex-hormones v1|emis|ESTA38211MGEMIS|Estradiol Valerate  Tablets  2 mg (Merck)|
+|female-sex-hormones v1|emis|ESTA38331MGEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Novo-Nordisk)|
+|female-sex-hormones v1|emis|ESTA38332MGEMIS|Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Pfizer)|
+|female-sex-hormones v1|emis|ESTA76935NEMIS|Estradiol And Dydrogesterone  Tablets  500 micrograms + 2.5 mg|
+|female-sex-hormones v1|emis|ESTA8374EGTON|Estrapak 50  Tablets and patches  |
+|female-sex-hormones v1|emis|ESTR136000NEMIS|Estradiol  Transdermal Spray  1.53 mg/dose|
+|female-sex-hormones v1|emis|ESTR17758NEMIS|Estradiol  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17759NEMIS|Estradiol  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17760NEMIS|Estradiol  Transdermal patches  40 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17761NEMIS|Estradiol  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17763NEMIS|Estradiol  Transdermal patches  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17764NEMIS|Estradiol  Transdermal patches  80 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17766NEMIS|Estradiol  Transdermal patches (7 days)  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17767NEMIS|Estradiol  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR17768NEMIS|Estradiol  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19386NEMIS|Estradiol  Transdermal patches  37.5 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19388NEMIS|Estradot  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19389NEMIS|Estradot  Transdermal patches  37.5 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19390NEMIS|Estradot  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19391NEMIS|Estradot  Transdermal patches  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR19392NEMIS|Estradot  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR28297EMIS|Estraderm Mx  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR28298EMIS|Estraderm Mx  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR28299EMIS|Estraderm Mx  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ESTR397NEMIS|Estraderm Mx  Transdermal patches  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|ETGA139398NEMIS|NULL|
+|female-sex-hormones v1|emis|ETTA1118|Ethinyloestradiol  Tablets  10 micrograms|
+|female-sex-hormones v1|emis|ETTA17649NEMIS|Ethinylestradiol  Tablets  10 micrograms|
+|female-sex-hormones v1|emis|ETTA17650NEMIS|Ethinylestradiol  Tablets  50 micrograms|
+|female-sex-hormones v1|emis|ETTA17651NEMIS|Ethinylestradiol  Tablets  1 mg|
+|female-sex-hormones v1|emis|ETTA17652NEMIS|Ethinylestradiol  Tablets  2 micrograms|
+|female-sex-hormones v1|emis|ETTA3550|Ethinyloestradiol  Tablets  50 micrograms|
+|female-sex-hormones v1|emis|ETTA38107MGEMIS|Ethinylestradiol  Tablets  10 micrograms (Unichem)|
+|female-sex-hormones v1|emis|ETTA38108MGEMIS|Ethinylestradiol  Tablets  10 micrograms (Ucb Pharma)|
+|female-sex-hormones v1|emis|ETTA38109MGEMIS|Ethinylestradiol  Tablets  10 micrograms (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ETTA38110MGEMIS|Ethinylestradiol  Tablets  50 micrograms (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ETTA38111MGEMIS|Ethinylestradiol  Tablets  50 micrograms (Ucb Pharma)|
+|female-sex-hormones v1|emis|ETTA38112MGEMIS|Ethinylestradiol  Tablets  50 micrograms (Unichem)|
+|female-sex-hormones v1|emis|ETTA38113MGEMIS|Ethinylestradiol  Tablets  1 mg (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|ETTA38114MGEMIS|Ethinylestradiol  Tablets  1 mg (Ucb Pharma)|
+|female-sex-hormones v1|emis|ETTA38115MGEMIS|Ethinylestradiol  Tablets  1 mg (Unichem)|
+|female-sex-hormones v1|emis|ETTA9080BRIDL|Ethinyloestradiol  Tablets  1 mg|
+|female-sex-hormones v1|emis|EVTA25472EMIS|Evorel-Pak  Tablets and patches  |
+|female-sex-hormones v1|emis|EVTR22315EMIS|Evorel  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|EVTR26441EMIS|Evorel  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|EVTR26442EMIS|Evorel  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|EVTR26443EMIS|Evorel  Transdermal patches  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|EVTR31384EMIS|Evorel Sequi  Transdermal patches  |
+|female-sex-hormones v1|emis|EVTR31391EMIS|Evorel Conti  Transdermal patches  |
+|female-sex-hormones v1|emis|FETA15852NEMIS|Femtab  Tablets  1 mg|
+|female-sex-hormones v1|emis|FETA15853NEMIS|Femtab  Tablets  2 mg|
+|female-sex-hormones v1|emis|FETA15855NEMIS|Femtab Sequi  Tablets  |
+|female-sex-hormones v1|emis|FETA15858NEMIS|Femtab Continuous  Tablets  |
+|female-sex-hormones v1|emis|FETA1987NEMIS|Femoston-Conti  Tablets  1 mg + 5 mg|
+|female-sex-hormones v1|emis|FETA26908EMIS|Femoston 2/10  Tablets  |
+|female-sex-hormones v1|emis|FETA26911EMIS|Femoston 2/20  Tablets  |
+|female-sex-hormones v1|emis|FETA27492EMIS|Femoston 1/10  Tablets  |
+|female-sex-hormones v1|emis|FETA28124EMIS|Femapak 80  Tablets and patches  |
+|female-sex-hormones v1|emis|FETA28504EMIS|Femapak 40  Tablets and patches  |
+|female-sex-hormones v1|emis|FETA76936NEMIS|Femoston-Conti  Tablets  500 micrograms + 2.5 mg|
+|female-sex-hormones v1|emis|FETR13850NEMIS|Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours|
+|female-sex-hormones v1|emis|FETR14417NEMIS|Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours|
+|female-sex-hormones v1|emis|FETR26606EMIS|Fematrix 80  Transdermal patches  80 micrograms/24 hrs|
+|female-sex-hormones v1|emis|FETR28091EMIS|Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|FETR28119EMIS|Fematrix 40  Transdermal patches  40 micrograms/24 hrs|
+|female-sex-hormones v1|emis|FETR31721EMIS|Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|FETR31722EMIS|Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|GEIN1296|Gestone  Injection  25 mg/1 ml ampoule|
+|female-sex-hormones v1|emis|GEIN1297|Gestone  Solution for injection  50 mg/1 ml ampoule|
+|female-sex-hormones v1|emis|GEIN25431EMIS|Gestone  Solution for injection  100 mg/2 ml ampoule|
+|female-sex-hormones v1|emis|HATA1350|Harmogen  Tablets  1.5 mg|
+|female-sex-hormones v1|emis|HOTA3705|Hormonin  Tablets  |
+|female-sex-hormones v1|emis|HYIN1407|Hydroxyprogesterone Hexanoate  Injection  250 mg/ml|
+|female-sex-hormones v1|emis|INTA5652NEMIS|Indivina  Tablets  1 mg + 2.5 mg|
+|female-sex-hormones v1|emis|INTA5653NEMIS|Indivina  Tablets  1 mg + 5 mg|
+|female-sex-hormones v1|emis|INTA5654NEMIS|Indivina  Tablets  2 mg + 5 mg|
+|female-sex-hormones v1|emis|KLTA26493EMIS|Kliofem  Tablets  |
+|female-sex-hormones v1|emis|KLTA34182EMIS|Kliovance  Tablets  |
+|female-sex-hormones v1|emis|LETR136004NEMIS|Lenzetto  Transdermal Spray  1.53 mg/dose|
+|female-sex-hormones v1|emis|LUSO130306NEMIS|Lubion  Solution for injection  25 mg/1.112 ml vial|
+|female-sex-hormones v1|emis|LUSO88120NEMIS|Lubion  Solution for injection  25 mg/1.119 ml vial|
+|female-sex-hormones v1|emis|LUVA98867NEMIS|Lutigest  Vaginal tablets  100 mg|
+|female-sex-hormones v1|emis|META1749|Medroxyprogesterone Acetate  Tablets  5 mg|
+|female-sex-hormones v1|emis|META23818EMIS|Medroxyprogesterone Acetate  Tablets  2.5 mg|
+|female-sex-hormones v1|emis|META9109EMIS|Medroxyprogesterone Acetate  Tablets  10 mg|
+|female-sex-hormones v1|emis|METR27688EMIS|Menorest  Transdermal patches  37.5 micrograms/day|
+|female-sex-hormones v1|emis|METR27689EMIS|Menorest  Transdermal patches  50 micrograms/day|
+|female-sex-hormones v1|emis|METR27690EMIS|Menorest  Transdermal patches  75 micrograms/day|
+|female-sex-hormones v1|emis|MITA25447EMIS|Micronor-Hrt  Tablets  1 mg|
+|female-sex-hormones v1|emis|NOTA12924NEMIS|Novofem  Tablets  |
+|female-sex-hormones v1|emis|NOTA2023|Norethisterone  Tablets  5 mg|
+|female-sex-hormones v1|emis|NOTA25449EMIS|Norethisterone  Tablets  1 mg|
+|female-sex-hormones v1|emis|NOTA36283MGEMIS|Norethisterone  Tablets  5 mg (Sandoz)|
+|female-sex-hormones v1|emis|NOTA36284MGEMIS|Norethisterone  Tablets  5 mg (Unichem)|
+|female-sex-hormones v1|emis|NOTA36285MGEMIS|Norethisterone  Tablets  5 mg (A.A.H. Pharm)|
+|female-sex-hormones v1|emis|NOTA36286MGEMIS|Norethisterone  Tablets  5 mg (Kent Pharm)|
+|female-sex-hormones v1|emis|NOTA36287MGEMIS|Norethisterone  Tablets  5 mg (Alpharma)|
+|female-sex-hormones v1|emis|NOTA36288MGEMIS|Norethisterone  Tablets  5 mg (Wockhardt UK)|
+|female-sex-hormones v1|emis|NUTA17981EMIS|Nuvelle  Tablets  |
+|female-sex-hormones v1|emis|NUTA399NEMIS|Nuvelle Continuous  Tablets  |
+|female-sex-hormones v1|emis|NUTR30362EMIS|Nuvelle Ts  Transdermal patches  |
+|female-sex-hormones v1|emis|OEGE26580EMIS|Oestrogel  Gel  0.06 % pump-pack|
+|female-sex-hormones v1|emis|OEGE26582EMIS|Oestradiol  Gel  0.06 %|
+|female-sex-hormones v1|emis|OENA6633NEMIS|Oestradiol Hemihydrate  Nasal spray  150 micrograms/metered spray|
+|female-sex-hormones v1|emis|OETA20668EMIS|Oestradiol  Tablets  2 mg|
+|female-sex-hormones v1|emis|OETA2070|Oestradiol Benzoate  Tablets  1 mg|
+|female-sex-hormones v1|emis|OETA23840EMIS|Oestriol  Tablets  1 mg|
+|female-sex-hormones v1|emis|OETA28293EMIS|Oestradiol  Tablets  1 mg|
+|female-sex-hormones v1|emis|OETA9400EMIS|Oestradiol Valerate  Tablets  1 mg|
+|female-sex-hormones v1|emis|OETA9401EMIS|Oestradiol Valerate  Tablets  2 mg|
+|female-sex-hormones v1|emis|OETR22319EMIS|Oestradiol  Transdermal patches  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR22320EMIS|Oestradiol  Transdermal patches  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR22321EMIS|Oestradiol  Transdermal patches  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR26610EMIS|Oestradiol  Transdermal patches  80 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR28121EMIS|Oestradiol  Transdermal patches  40 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR28192EMIS|Oestradiol  Transdermal patches (7 days)  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR28193EMIS|Oestradiol  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR31728EMIS|Oestradiol  Transdermal patches (7 days)  75 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OETR5676NEMIS|Oestradiol  Transdermal patches (7 days)  25 micrograms/24 hrs|
+|female-sex-hormones v1|emis|OVTA23838EMIS|Ovestin  Tablets  1 mg|
+|female-sex-hormones v1|emis|PRCA26229NEMIS|Progesterone  Capsules (Micronised)  200 mg|
+|female-sex-hormones v1|emis|PRCA26231NEMIS|Progesterone  Capsules (Micronised)  100 mg|
+|female-sex-hormones v1|emis|PRIN2366|Progesterone  Injection  25 mg/1 ml ampoule|
+|female-sex-hormones v1|emis|PRIN2367|Progesterone  Solution for injection  50 mg/1 ml ampoule|
+|female-sex-hormones v1|emis|PRIN2373|Proluton Depot  Injection  250 mg/ml|
+|female-sex-hormones v1|emis|PRIN25433EMIS|Progesterone  Solution for injection  100 mg/2 ml ampoule|
+|female-sex-hormones v1|emis|PRPE10820NEMIS|Progesterone  Pessaries  200 mg|
+|female-sex-hormones v1|emis|PRPE10821NEMIS|Progesterone  Pessaries  400 mg|
+|female-sex-hormones v1|emis|PRPE98865NEMIS|Progesterone  Pessaries  100 mg|
+|female-sex-hormones v1|emis|PRSO130305NEMIS|Progesterone  Solution for injection  25 mg/1.112 ml vial|
+|female-sex-hormones v1|emis|PRSO88118NEMIS|Progesterone  Solution for injection  25 mg/1.119 ml vial|
+|female-sex-hormones v1|emis|PRTA17460NEMIS|Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg|
+|female-sex-hormones v1|emis|PRTA2336|Premarin  Tablets  1.25 mg|
+|female-sex-hormones v1|emis|PRTA2337|Premarin  Tablets  625 micrograms|
+|female-sex-hormones v1|emis|PRTA2340|Prempak-C 0.625 mg + 0.15 mg  Tablets  |
+|female-sex-hormones v1|emis|PRTA2341|Prempak-C 1.25 mg + 0.15 mg  Tablets  |
+|female-sex-hormones v1|emis|PRTA2347|Primolut N  Tablets  5 mg|
+|female-sex-hormones v1|emis|PRTA2371|Progynova  Tablets  1 mg|
+|female-sex-hormones v1|emis|PRTA2372|Progynova  Tablets  2 mg|
+|female-sex-hormones v1|emis|PRTA23816EMIS|Provera  Tablets  2.5 mg|
+|female-sex-hormones v1|emis|PRTA2405|Provera  Tablets  5 mg|
+|female-sex-hormones v1|emis|PRTA25050NEMIS|Premarin  Tablets  300 micrograms|
+|female-sex-hormones v1|emis|PRTA27092EMIS|Premique  Tablets  0.625 mg + 5 mg|
+|female-sex-hormones v1|emis|PRTA27095EMIS|Premique Cycle  Tablets  |
+|female-sex-hormones v1|emis|PRTA9008EMIS|Provera  Tablets  10 mg|
+|female-sex-hormones v1|emis|PRTA9077BRIDL|Premarin  Tablets  2.5 mg|
+|female-sex-hormones v1|emis|PRTR12936NEMIS|Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours|
+|female-sex-hormones v1|emis|PRTR12939NEMIS|Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours|
+|female-sex-hormones v1|emis|PRTR28187EMIS|Progynova Ts  Transdermal patches (7 days)  50 micrograms/24 hrs|
+|female-sex-hormones v1|emis|PRTR28189EMIS|Progynova Ts Forte  Transdermal patches (7 days)  100 micrograms/24 hrs|
+|female-sex-hormones v1|emis|PRVA31943EMIS|Progesterone  Vaginal gel  4 %|
+|female-sex-hormones v1|emis|PRVA31944EMIS|Progesterone  Vaginal gel  8 %|
+|female-sex-hormones v1|emis|PRVA82059NEMIS|Progesterone  Vaginal Capsules (Micronised)  200 mg|
+|female-sex-hormones v1|emis|SAGE30742EMIS|Sandrena  Gel  1 mg/1 gram sachet|
+|female-sex-hormones v1|emis|SAGE30743EMIS|Sandrena  Gel  500 micrograms/500 mg sachet|
+|female-sex-hormones v1|emis|TRCA4464|Trisequens  Calendar pack  |
+|female-sex-hormones v1|emis|TRTA20213EMIS|Trisequens Forte  Tablets  |
+|female-sex-hormones v1|emis|TRTA26679EMIS|Tridestra  Tablets  |
+|female-sex-hormones v1|emis|UTCA26233NEMIS|Utrogestan  Capsules (Micronised)  200 mg|
+|female-sex-hormones v1|emis|UTCA26234NEMIS|Utrogestan  Capsules (Micronised)  100 mg|
+|female-sex-hormones v1|emis|UTTA4483|Utovlan  Tablets  5 mg|
+|female-sex-hormones v1|emis|UTVA82060NEMIS|Utrogestan  Vaginal Capsules With Applicators  200 mg|
+|female-sex-hormones v1|emis|ZUTA20666EMIS|Zumenon  Tablets  2 mg|
+|female-sex-hormones v1|emis|ZUTA29671EMIS|Zumenon  Tablets  1 mg|
+|female-sex-hormones v1|readv2|ff11.|ETHINYLESTRADIOL 10micrograms tablets|
+|female-sex-hormones v1|readv2|ff12.|ETHINYLESTRADIOL 50micrograms tablets|
+|female-sex-hormones v1|readv2|ff13.|ETHINYLESTRADIOL 1mg tablets|
+|female-sex-hormones v1|readv2|ff26.|HORMONIN tablets|
+|female-sex-hormones v1|readv2|ff27.|PROGYNOVA 1mg tablets|
+|female-sex-hormones v1|readv2|ff28.|PROGYNOVA 2mg tablets|
+|female-sex-hormones v1|readv2|ff29.|ESTRADERM TTS 25mcg patches|
+|female-sex-hormones v1|readv2|ff2a.|ESTRADERM TTS 50micrograms patches|
+|female-sex-hormones v1|readv2|ff2A.|*FEMATRIX 80 patches|
+|female-sex-hormones v1|readv2|ff2b.|ESTRADERM TTS 100microgram patches|
+|female-sex-hormones v1|readv2|ff2B.|ESTRADIOL 80micrograms patches|
+|female-sex-hormones v1|readv2|ff2c.|ESTRAPAK 50micrograms/1mg patches and tablets|
+|female-sex-hormones v1|readv2|ff2C.|*OESTROGEL 1.25g/dose gel|
+|female-sex-hormones v1|readv2|ff2E.|MENOREST 37.5micrograms patches|
+|female-sex-hormones v1|readv2|ff2f.|CLIMAVAL 1mg tablets|
+|female-sex-hormones v1|readv2|ff2F.|*MENOREST 50micrograms patches|
+|female-sex-hormones v1|readv2|ff2g.|CLIMAVAL 2mg tablets|
+|female-sex-hormones v1|readv2|ff2G.|*MENOREST 75micrograms patches|
+|female-sex-hormones v1|readv2|ff2h.|ZUMENON 2mg tablets|
+|female-sex-hormones v1|readv2|ff2i.|ELLESTE-SOLO MX 40 patches|
+|female-sex-hormones v1|readv2|ff2I.|ESTRADIOL 40micrograms patches|
+|female-sex-hormones v1|readv2|ff2j.|EVOREL-50 patches|
+|female-sex-hormones v1|readv2|ff2J.|*FEMATRIX 40 patches|
+|female-sex-hormones v1|readv2|ff2K.|FEMSEVEN 50 patches|
+|female-sex-hormones v1|readv2|ff2l.|EVOREL-25 patches|
+|female-sex-hormones v1|readv2|ff2L.|ELLESTE-SOLO 2mg tablets|
+|female-sex-hormones v1|readv2|ff2m.|ESTRADIOL VALERATE 2mg tablets|
+|female-sex-hormones v1|readv2|ff2M.|ESTRADIOL VALERATE 1mg tablets|
+|female-sex-hormones v1|readv2|ff2n.|EVOREL-75 patches|
+|female-sex-hormones v1|readv2|ff2N.|ELLESTE-SOLO 1mg tablets|
+|female-sex-hormones v1|readv2|ff2o.|EVOREL-100 patches|
+|female-sex-hormones v1|readv2|ff2O.|PROGYNOVA TS 50micrograms patches|
+|female-sex-hormones v1|readv2|ff2p.|ESTRADIOL 75micrograms patches|
+|female-sex-hormones v1|readv2|ff2P.|PROGYNOVA TS FORTE 100microgram patches|
+|female-sex-hormones v1|readv2|ff2q.|ESTRADIOL 25micrograms patches|
+|female-sex-hormones v1|readv2|ff2Q.|ESTRADERM MX 25 patches|
+|female-sex-hormones v1|readv2|ff2r.|ESTRADIOL 50micrograms patches|
+|female-sex-hormones v1|readv2|ff2R.|ESTRADERM MX 50 patches|
+|female-sex-hormones v1|readv2|ff2s.|ESTRADIOL 100micrograms patches|
+|female-sex-hormones v1|readv2|ff2S.|ESTRADERM MX 100 patches|
+|female-sex-hormones v1|readv2|ff2t.|*ESTRADIOL 25mg implant|
+|female-sex-hormones v1|readv2|ff2T.|ZUMENON 1mg tablets|
+|female-sex-hormones v1|readv2|ff2u.|*ESTRADIOL 50mg implant|
+|female-sex-hormones v1|readv2|ff2v.|*ESTRADIOL 100mg implant|
+|female-sex-hormones v1|readv2|ff2X.|ESTRADIOL 0.5mg/dose gel|
+|female-sex-hormones v1|readv2|ff2y.|ESTRADIOL 1mg tablets|
+|female-sex-hormones v1|readv2|ff2Y.|ESTRADIOL 1mg/dose gel|
+|female-sex-hormones v1|readv2|ff2z.|ESTRADIOL 2mg tablets|
+|female-sex-hormones v1|readv2|ff2Z.|SANDRENA 0.5mg gel|
+|female-sex-hormones v1|readv2|ff32.|*OVESTIN 1mg tablets|
+|female-sex-hormones v1|readv2|ff33.|*ESTRIOL 1mg tablets|
+|female-sex-hormones v1|readv2|ff41.|PREMARIN 625micrograms tablets|
+|female-sex-hormones v1|readv2|ff42.|PREMARIN 1.25mg tablets|
+|female-sex-hormones v1|readv2|ff43.|*PREMARIN 2.5mg tablets|
+|female-sex-hormones v1|readv2|ff44.|PREMARIN 300micrograms tablets|
+|female-sex-hormones v1|readv2|ff4w.|CONJUGATED OESTROGENS 300micrograms tablets|
+|female-sex-hormones v1|readv2|ff4x.|CONJ OESTROGENS 625microgram tablets|
+|female-sex-hormones v1|readv2|ff4y.|CONJ OESTROGENS 1.25mg tablets|
+|female-sex-hormones v1|readv2|ff4z.|CONJUGATED OESTROGENS 2.5mg tablets|
+|female-sex-hormones v1|readv2|ff51.|*HARMOGEN 1.5mg tablets|
+|female-sex-hormones v1|readv2|ff91.|SANDRENA 1mg gel|
+|female-sex-hormones v1|readv2|ff92.|ELLESTE-SOLO MX 80 patches|
+|female-sex-hormones v1|readv2|ff93.|FEMSEVEN 75 patches|
+|female-sex-hormones v1|readv2|ff94.|FEMSEVEN 100 patches|
+|female-sex-hormones v1|readv2|ff95.|ESTRADIOL 0.06% gel|
+|female-sex-hormones v1|readv2|ff97.|ESTRADERM MX 75 patches|
+|female-sex-hormones v1|readv2|ff98.|*ADGYN ESTRO 2mg tablets|
+|female-sex-hormones v1|readv2|ff9A.|DERMESTRIL-SEPTEM 50micrograms patches|
+|female-sex-hormones v1|readv2|ff9B.|DERMESTRIL-SEPTEM 75micrograms patches|
+|female-sex-hormones v1|readv2|ff9C.|AERODIOL 150micrograms nasal spray|
+|female-sex-hormones v1|readv2|ff9E.|*FEMTAB 1mg tablets|
+|female-sex-hormones v1|readv2|ff9F.|*FEMTAB 2mg tablets|
+|female-sex-hormones v1|readv2|ff9G.|ESTRADOT 25micrograms patches|
+|female-sex-hormones v1|readv2|ff9H.|ESTRADOT 37.5micrograms patches|
+|female-sex-hormones v1|readv2|ff9I.|ESTRADOT 50micrograms patches|
+|female-sex-hormones v1|readv2|ff9J.|ESTRADOT 75micrograms patches|
+|female-sex-hormones v1|readv2|ff9K.|ESTRADOT 100micrograms patches|
+|female-sex-hormones v1|readv2|ff9L.|BEDOL 2mg tablets|
+|female-sex-hormones v1|readv2|ff9z.|ESTRADIOL HEMIHYDRATE 150micrograms nasal spray|
+|female-sex-hormones v1|readv2|fg31.|PROLUTON DEPOT 250mg/1mL injection|
+|female-sex-hormones v1|readv2|fg3y.|HYDROXYPROGESTERONE CAPROATE 250mg/1mL injection|
+|female-sex-hormones v1|readv2|fg44.|PROVERA 5mg tablets|
+|female-sex-hormones v1|readv2|fg45.|PROVERA 10mg tablets|
+|female-sex-hormones v1|readv2|fg46.|MEDROXYPROGESTERONE 10mg tablets|
+|female-sex-hormones v1|readv2|fg47.|PROVERA 2.5mg tablets|
+|female-sex-hormones v1|readv2|fg48.|MEDROXYPROGESTERONE 2.5mg tablets|
+|female-sex-hormones v1|readv2|fg4A.|*ADGYN MEDRO 5mg tablets|
+|female-sex-hormones v1|readv2|fg4z.|MEDROXYPROGESTERONE 5mg tablets|
+|female-sex-hormones v1|readv2|fg51.|NORETHISTERONE 5mg tablets|
+|female-sex-hormones v1|readv2|fg52.|PRIMOLUT N 5mg tablets|
+|female-sex-hormones v1|readv2|fg53.|UTOVLAN 5mg tablets|
+|female-sex-hormones v1|readv2|fg56.|*MICRONOR.HRT 1mg tablets|
+|female-sex-hormones v1|readv2|fg57.|*NORETHISTERONE 1mg tablets|
+|female-sex-hormones v1|readv2|fg61.|CYCLOGEST 200mg suppositories|
+|female-sex-hormones v1|readv2|fg62.|CYCLOGEST 400mg suppositories|
+|female-sex-hormones v1|readv2|fg64.|*GESTONE 25mg/1mL injection|
+|female-sex-hormones v1|readv2|fg65.|GESTONE 50mg/1mL injection|
+|female-sex-hormones v1|readv2|fg66.|GESTONE 100mg/2mL injection|
+|female-sex-hormones v1|readv2|fg67.|PROGESTERONE 100mg/2mL injection|
+|female-sex-hormones v1|readv2|fg68.|*PROGESTERONE 4% vaginal gel|
+|female-sex-hormones v1|readv2|fg69.|PROGESTERONE 8% vaginal gel|
+|female-sex-hormones v1|readv2|fg6A.|*CRINONE 4% vaginal gel|
+|female-sex-hormones v1|readv2|fg6B.|CRINONE 8% vaginal gel|
+|female-sex-hormones v1|readv2|fg6C.|UTROGESTAN 100mg capsules|
+|female-sex-hormones v1|readv2|fg6D.|*UTROGESTAN 200mg capsules|
+|female-sex-hormones v1|readv2|fg6E.|UTROGESTAN 200mg vaginal capsules+applicators|
+|female-sex-hormones v1|readv2|fg6F.|LUBION 25mg/1.119mL solution for injection|
+|female-sex-hormones v1|readv2|fg6G.|LUTIGEST 100mg vaginal tablets+applicator|
+|female-sex-hormones v1|readv2|fg6p.|PROGESTERONE 100mg vaginal tablets+applicator|
+|female-sex-hormones v1|readv2|fg6q.|PROGESTERONE 25mg/1.119mL solution for injection|
+|female-sex-hormones v1|readv2|fg6r.|PROGESTERONE MICRONISED 200mg vaginal capsules+applicators|
+|female-sex-hormones v1|readv2|fg6s.|PROGESTERONE MICRONISED 200mg capsules|
+|female-sex-hormones v1|readv2|fg6t.|PROGESTERONE MICRONISED 100mg capsules|
+|female-sex-hormones v1|readv2|fg6u.|PROGESTERONE 200mg suppositories|
+|female-sex-hormones v1|readv2|fg6v.|PROGESTERONE 400mg suppositories|
+|female-sex-hormones v1|readv2|fg6x.|PROGESTERONE 25mg/1mL injection|
+|female-sex-hormones v1|readv2|fg6y.|PROGESTERONE 50mg/1mL injection|
+|female-sex-hormones v1|readv2|fh11.|*CYCLO-PROGYNOVA 1mg tablets|
+|female-sex-hormones v1|readv2|fh12.|CYCLO-PROGYNOVA 2mg tablets|
+|female-sex-hormones v1|readv2|fh17.|PREMPAK-C 0.625 tablets x1 month|
+|female-sex-hormones v1|readv2|fh18.|PREMPAK-C 1.25 tablets x1 month|
+|female-sex-hormones v1|readv2|fh19.|TRISEQUENS tablets|
+|female-sex-hormones v1|readv2|fh1A.|*NUVELLE TS patches|
+|female-sex-hormones v1|readv2|fh1B.|KLIOFEM tablets|
+|female-sex-hormones v1|readv2|fh1c.|*TRISEQUENS FORTE tablets|
+|female-sex-hormones v1|readv2|fh1C.|ESTRADIOL+NORETHISTERONE ACETATE 2mg/1mg tablets|
+|female-sex-hormones v1|readv2|fh1d.|*NUVELLE tablets|
+|female-sex-hormones v1|readv2|fh1D.|*FEMOSTON-2/20 tablets|
+|female-sex-hormones v1|readv2|fh1E.|FEMOSTON-2/10 tablets|
+|female-sex-hormones v1|readv2|fh1F.|TRIDESTRA tablets|
+|female-sex-hormones v1|readv2|fh1G.|FEMOSTON-1/10 tablets|
+|female-sex-hormones v1|readv2|fh1h.|CLIMAGEST 1mg tablets|
+|female-sex-hormones v1|readv2|fh1H.|ELLESTE-DUET 2mg tablets|
+|female-sex-hormones v1|readv2|fh1I.|NOVOFEM tablets|
+|female-sex-hormones v1|readv2|fh1j.|CLIMAGEST 2mg tablets|
+|female-sex-hormones v1|readv2|fh1k.|PREMIQUE 0.625mg/5mg tablets|
+|female-sex-hormones v1|readv2|fh1K.|ESTRADIOL VALERATE+NORETHISTERONE 2mg/0.7mg tablets|
+|female-sex-hormones v1|readv2|fh1L.|CLIMESSE tablets|
+|female-sex-hormones v1|readv2|fh1m.|*FEMAPAK 80 patches+tablets|
+|female-sex-hormones v1|readv2|fh1M.|ELLESTE-DUET 1mg tablets|
+|female-sex-hormones v1|readv2|fh1n.|*FEMAPAK 40 patches+tablets|
+|female-sex-hormones v1|readv2|fh1N.|EVOREL SEQUI patches|
+|female-sex-hormones v1|readv2|fh1o.|*ADGYN COMBI 2mg tablets|
+|female-sex-hormones v1|readv2|fh1O.|EVOREL CONTI patches|
+|female-sex-hormones v1|readv2|fh1p.|FEMSEVEN CONTI patches|
+|female-sex-hormones v1|readv2|fh1Q.|ELLESTE DUET CONTI tablets|
+|female-sex-hormones v1|readv2|fh1R.|ESTRADIOL+NORETHISTERONE ACETATE 1mg/0.5mg tablets|
+|female-sex-hormones v1|readv2|fh1s.|*FEMTAB SEQUI tablets|
+|female-sex-hormones v1|readv2|fh1S.|KLIOVANCE 1mg/0.5mg tablets|
+|female-sex-hormones v1|readv2|fh1t.|*FEMTAB CONTINUOUS tablets|
+|female-sex-hormones v1|readv2|fh1T.|NUVELLE CONTINUOUS tablets|
+|female-sex-hormones v1|readv2|fh1U.|FEMOSTON-CONTI tablets|
+|female-sex-hormones v1|readv2|fh1v.|PREMIQUE LOW DOSE 0.3mg/1.5mg tablets|
+|female-sex-hormones v1|readv2|fh1V.|INDIVINA 1mg/2.5mg tablets|
+|female-sex-hormones v1|readv2|fh1W.|INDIVINA 1mg/5mg tablets|
+|female-sex-hormones v1|readv2|fh1x.|DROSPIRENONE 2mg / ESTRADIOL 1mg tablets|
+|female-sex-hormones v1|readv2|fh1X.|INDIVINA 2mg/5mg tablets|
+|female-sex-hormones v1|readv2|fh1y.|ANGELIQ 2mg/1mg tablets|
+|female-sex-hormones v1|readv2|fh1Y.|FEMSEVEN SEQUI patches|
+|female-sex-hormones v1|readv2|fh1z.|CLINORETTE tablets|
+|female-sex-hormones v1|readv2|fh1Z.|FEMOSTON-CONTI 0.5mg/2.5mg tablets|
+|female-sex-hormones v1|snomed|325546003|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|2835711000001100|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|2835911000001103|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|3345711000001105|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|3365111000001102|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|3447211000001101|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|3454811000001106|Estradiol 2mg tablets|
+|female-sex-hormones v1|snomed|2837211000001104|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2837811000001103|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2838411000001101|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2838611000001103|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2838711000001107|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2839011000001100|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|3348711000001103|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3348911000001101|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3365411000001107|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|3365511000001106|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|3447411000001102|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3447611000001104|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3454911000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3455011000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|10276611000001104|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|10276711000001108|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|10276811000001100|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|10276911000001105|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|325545004|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|2841011000001103|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|3346511000001107|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|3366911000001106|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|3448411000001103|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|14745511000001103|Estradiol 1mg tablets|
+|female-sex-hormones v1|snomed|2841811000001109|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2842111000001107|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2842511000001103|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2844811000001106|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3346811000001105|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3346911000001100|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3367011000001105|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3367111000001106|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3448611000001100|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|4498511000001109|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3449011000001102|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|36064911000001108|Estradiol 25micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2888411000001105|Estradiol 25micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2889011000001106|Estradiol 25micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2889111000001107|Evorel 25 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2889211000001101|Evorel 25 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2889311000001109|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2889411000001102|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2889511000001103|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2889611000001104|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2889711000001108|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2889811000001100|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2889911000001105|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2890011000001102|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|9044911000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045011000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|36065111000001109|Estradiol 40micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2890111000001101|Estradiol 40micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2890211000001107|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2890311000001104|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2890411000001106|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|2890511000001105|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|36065511000001100|Estradiol 80micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2893111000001108|Estradiol 80micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|3208311000001101|Estradiol 80micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2893411000001103|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2893511000001104|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2893711000001109|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|2893911000001106|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|36065011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2895011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2895211000001103|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2895511000001100|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045111000001105|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045211000001104|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|36065411000001104|Estradiol 75micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2902511000001103|Estradiol 75micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2902711000001108|Estradiol 75micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2902811000001100|Estradiol 75micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2902911000001105|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2903011000001102|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2903111000001101|Evorel 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2903211000001107|Evorel 75 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2910911000001109|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2911011000001101|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2911111000001100|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2911211000001106|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2911311000001103|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2911411000001105|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2911511000001109|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|9045511000001101|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045611000001102|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|36064811000001103|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2935411000001100|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2935511000001101|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2938511000001109|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2939911000001105|Estradiol 100micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2936011000001100|Evorel 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2936411000001109|Evorel 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2936611000001107|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2936811000001106|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2937011000001102|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2937111000001101|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2937211000001107|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2937711000001100|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2938211000001106|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2938311000001103|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2938411000001105|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2938711000001104|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2939611000001104|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|snomed|2940111000001103|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|snomed|9045711000001106|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045811000001103|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|39112011000001100|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2941311000001106|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2941511000001100|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2941711000001105|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2942111000001104|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2942211000001105|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|4707311000001108|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|4707411000001101|Estradiol 50micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|2942311000001102|Evorel 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2942611000001107|Evorel 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2942711000001103|Evorel 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3216211000001105|Evorel 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2942911000001101|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2943111000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2943311000001107|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3211311000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3211411000001103|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2943611000001102|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2944511000001103|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2945011000001105|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2945311000001108|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2945511000001102|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2947311000001100|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2947611000001105|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2947711000001101|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2947811000001109|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2948011000001102|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2948411000001106|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2948811000001108|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2949011000001107|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|2949711000001109|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|snomed|2950811000001108|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|female-sex-hormones v1|snomed|9045311000001107|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|9045411000001100|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|325577001|Estradiol 0.06% gel (750microgram per actuation)|
+|female-sex-hormones v1|snomed|3413511000001101|Estradiol 0.06% gel (750microgram per actuation)|
+|female-sex-hormones v1|snomed|17613911000001103|Estradiol 0.06% gel (750microgram per actuation)|
+|female-sex-hormones v1|snomed|3414911000001105|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|3416111000001100|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|134589003|Estradiol 150micrograms/dose nasal spray|
+|female-sex-hormones v1|snomed|3649211000001109|Estradiol 150micrograms/dose nasal spray|
+|female-sex-hormones v1|snomed|3649411000001108|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|female-sex-hormones v1|snomed|3649511000001107|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|female-sex-hormones v1|snomed|3664211000001102|Estradiol 500microgram gel sachets|
+|female-sex-hormones v1|snomed|3657711000001107|Estradiol 500microgram gel sachets|
+|female-sex-hormones v1|snomed|3657811000001104|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3658011000001106|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3664111000001108|Estradiol 1mg gel sachets|
+|female-sex-hormones v1|snomed|3658211000001101|Estradiol 1mg gel sachets|
+|female-sex-hormones v1|snomed|3658311000001109|Estradiol 1mg gel sachets|
+|female-sex-hormones v1|snomed|3658611000001104|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3658811000001100|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3659011000001101|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|325541008|Estradiol 50mg implant|
+|female-sex-hormones v1|snomed|3773011000001109|Estradiol 50mg implant|
+|female-sex-hormones v1|snomed|3773511000001101|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3773611000001102|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3773711000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3774011000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3774411000001102|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|3774511000001103|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|27322111000001108|Estradiol 50mg implant (Special Order)|
+|female-sex-hormones v1|snomed|27322211000001102|Estradiol 50mg implant (Special Order)|
+|female-sex-hormones v1|snomed|325542001|Estradiol 100mg implant|
+|female-sex-hormones v1|snomed|3774611000001104|Estradiol 100mg implant|
+|female-sex-hormones v1|snomed|3774711000001108|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3774811000001100|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3774911000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|female-sex-hormones v1|snomed|3775011000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|female-sex-hormones v1|snomed|3775111000001106|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|3775211000001100|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|325540009|Estradiol 25mg implant|
+|female-sex-hormones v1|snomed|3878311000001101|Estradiol 25mg implant|
+|female-sex-hormones v1|snomed|3878511000001107|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3878611000001106|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3878711000001102|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3878811000001105|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3878911000001100|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|3879011000001109|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|38344311000001108|Estradiol 1.53mg/dose transdermal spray|
+|female-sex-hormones v1|snomed|38268811000001107|Estradiol 1.53mg/dose transdermal spray|
+|female-sex-hormones v1|snomed|38269511000001103|Estradiol 1.53mg/dose transdermal spray|
+|female-sex-hormones v1|snomed|38268911000001102|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|female-sex-hormones v1|snomed|38269311000001109|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|female-sex-hormones v1|snomed|38269811000001100|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|female-sex-hormones v1|snomed|3464211000001100|Generic Trisequens tablets|
+|female-sex-hormones v1|snomed|3449211000001107|Generic Trisequens tablets|
+|female-sex-hormones v1|snomed|3449411000001106|Trisequens tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3449611000001109|Trisequens tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3464311000001108|Generic Trisequens Forte tablets|
+|female-sex-hormones v1|snomed|3453411000001106|Generic Trisequens Forte tablets|
+|female-sex-hormones v1|snomed|3453611000001109|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3453811000001108|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3543111000001105|Generic Hormonin tablets|
+|female-sex-hormones v1|snomed|1129511000001102|Generic Hormonin tablets|
+|female-sex-hormones v1|snomed|293111000001101|Hormonin tablets (Advanz Pharma)|
+|female-sex-hormones v1|snomed|2203311000001103|Hormonin tablets (Advanz Pharma)|
+|female-sex-hormones v1|snomed|325533008|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|2844911000001101|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|2845011000001101|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|3196311000001100|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|3350511000001108|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|3354011000001107|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|3359511000001100|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|5502411000001108|Estradiol valerate 2mg tablets|
+|female-sex-hormones v1|snomed|2845111000001100|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2845211000001106|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2845311000001103|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2845411000001105|Progynova 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|2845511000001109|Progynova 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3196511000001106|Estradiol valerate 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3196611000001105|Estradiol valerate 2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3350611000001107|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3350711000001103|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3354111000001108|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3354211000001102|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3359911000001107|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3360911000001108|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3360711000001106|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|4501411000001105|FemTab 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4501511000001109|FemTab 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4522411000001109|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4522611000001107|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|24659611000001109|Estradiol valerate 2mg tablets (Imported (Germany))|
+|female-sex-hormones v1|snomed|24659911000001103|Estradiol valerate 2mg tablets (Imported (Germany))|
+|female-sex-hormones v1|snomed|325505008|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|2845611000001108|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|2845711000001104|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|3351811000001103|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|3355211000001101|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|3355311000001109|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|15466211000001104|Estradiol valerate 1mg tablets|
+|female-sex-hormones v1|snomed|2845811000001107|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2845911000001102|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2846011000001105|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|2846111000001106|Progynova 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|2846211000001100|Progynova 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3351911000001108|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3352011000001101|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3355711000001108|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3356011000001102|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3356111000001101|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|4501211000001106|FemTab 1mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4501311000001103|FemTab 1mg tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|15466311000001107|Estradiol valerate 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|15466411000001100|Estradiol valerate 1mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3369311000001103|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|1063411000001104|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|519311000001107|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|2587211000001108|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|325662001|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|female-sex-hormones v1|snomed|3038111000001102|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|female-sex-hormones v1|snomed|14736011000001101|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|female-sex-hormones v1|snomed|3038811000001109|Kliovance tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3039611000001101|Kliovance tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|325655005|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|female-sex-hormones v1|snomed|3039711000001105|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|female-sex-hormones v1|snomed|3039811000001102|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|female-sex-hormones v1|snomed|3040311000001103|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3040511000001109|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3040711000001104|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|325648008|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3042111000001101|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3447711000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3455111000001100|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3043111000001107|Kliofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3079811000001104|Kliofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3049511000001101|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3049811000001103|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3049911000001108|Nuvelle Continuous tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3050111000001103|Nuvelle Continuous tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3448111000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3448211000001102|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|3455211000001106|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3455311000001103|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|4501811000001107|FemTab Continuous tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4502011000001109|FemTab Continuous tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|3549811000001101|Generic Nuvelle tablets|
+|female-sex-hormones v1|snomed|3198811000001105|Generic Nuvelle tablets|
+|female-sex-hormones v1|snomed|3199011000001109|Nuvelle tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|3200011000001101|Nuvelle tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|4521511000001100|FemTab Sequi tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4521911000001107|FemTab Sequi tablets (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|3549711000001109|Generic Nuvelle TS transdermal patches|
+|female-sex-hormones v1|snomed|3210011000001103|Generic Nuvelle TS transdermal patches|
+|female-sex-hormones v1|snomed|3210111000001102|Nuvelle TS patches (Schering Health Care Ltd)|
+|female-sex-hormones v1|snomed|3210311000001100|Nuvelle TS patches (Schering Health Care Ltd)|
+|female-sex-hormones v1|snomed|3542511000001108|Generic Estracombi TTS transdermal patches|
+|female-sex-hormones v1|snomed|3214011000001105|Generic Estracombi TTS transdermal patches|
+|female-sex-hormones v1|snomed|3215111000001105|Generic Estracombi TTS transdermal patches|
+|female-sex-hormones v1|snomed|3215411000001100|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3215711000001106|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3215911000001108|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|36065211000001103|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|3216311000001102|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|3216411000001109|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|3216511000001108|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|3216611000001107|Evorel Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3216711000001103|Evorel Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3216811000001106|Evorel Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3216911000001101|Evorel Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3542611000001107|Generic Evorel Sequi transdermal patches|
+|female-sex-hormones v1|snomed|3217211000001107|Generic Evorel Sequi transdermal patches|
+|female-sex-hormones v1|snomed|3217311000001104|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3217511000001105|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|3407111000001100|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3219411000001102|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3219511000001103|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|female-sex-hormones v1|snomed|3219611000001104|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3219711000001108|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3219811000001100|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3542911000001101|Generic Femoston 2/20mg tablets|
+|female-sex-hormones v1|snomed|3345911000001107|Generic Femoston 2/20mg tablets|
+|female-sex-hormones v1|snomed|3346111000001103|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3346211000001109|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3542711000001103|Generic Femoston 1/10mg tablets|
+|female-sex-hormones v1|snomed|3347711000001104|Generic Femoston 1/10mg tablets|
+|female-sex-hormones v1|snomed|3347911000001102|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3348211000001105|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3542811000001106|Generic Femoston 2/10mg tablets|
+|female-sex-hormones v1|snomed|3349511000001102|Generic Femoston 2/10mg tablets|
+|female-sex-hormones v1|snomed|3349811000001104|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3350211000001105|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3404911000001108|Generic Cyclo-Progynova 2mg tablets|
+|female-sex-hormones v1|snomed|3351211000001104|Generic Cyclo-Progynova 2mg tablets|
+|female-sex-hormones v1|snomed|3351311000001107|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3351611000001102|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3404811000001103|Generic Cyclo-Progynova 1mg tablets|
+|female-sex-hormones v1|snomed|3352811000001107|Generic Cyclo-Progynova 1mg tablets|
+|female-sex-hormones v1|snomed|3353311000001108|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3353611000001103|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3557411000001105|Generic Tridestra tablets|
+|female-sex-hormones v1|snomed|3355411000001102|Generic Tridestra tablets|
+|female-sex-hormones v1|snomed|3355511000001103|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3355911000001105|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3404511000001101|Generic Climagest 1mg tablets|
+|female-sex-hormones v1|snomed|3357811000001105|Generic Climagest 1mg tablets|
+|female-sex-hormones v1|snomed|3358011000001103|Generic Climagest 1mg tablets|
+|female-sex-hormones v1|snomed|3358411000001107|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3358711000001101|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3359111000001109|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3404711000001106|Generic Climagest 2mg tablets|
+|female-sex-hormones v1|snomed|3362911000001107|Generic Climagest 2mg tablets|
+|female-sex-hormones v1|snomed|3363311000001101|Generic Climagest 2mg tablets|
+|female-sex-hormones v1|snomed|3363611000001106|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3364111000001101|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3364511000001105|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|female-sex-hormones v1|snomed|3403511000001104|Generic Adgyn Combi tablets|
+|female-sex-hormones v1|snomed|3366311000001105|Generic Adgyn Combi tablets|
+|female-sex-hormones v1|snomed|3366411000001103|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|3366511000001104|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|3465311000001107|Generic Elleste Duet 1mg tablets|
+|female-sex-hormones v1|snomed|3367211000001100|Generic Elleste Duet 1mg tablets|
+|female-sex-hormones v1|snomed|3367311000001108|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3367411000001101|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3465411000001100|Generic Elleste Duet 2mg tablets|
+|female-sex-hormones v1|snomed|3455411000001105|Generic Elleste Duet 2mg tablets|
+|female-sex-hormones v1|snomed|3455511000001109|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3455611000001108|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|3788311000001107|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|3779811000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|14253711000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|3779911000001106|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3780011000001107|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3788211000001104|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|3780111000001108|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|14253511000001106|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|3780211000001102|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3780311000001105|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3864111000001104|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|3853611000001101|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|14253611000001105|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|3853711000001105|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3853811000001102|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|3948111000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|female-sex-hormones v1|snomed|3940311000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|female-sex-hormones v1|snomed|3940511000001100|Evorel Pak (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|snomed|3940611000001101|Evorel Pak (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|snomed|3948011000001105|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|3941911000001100|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|3942111000001108|Femapak 80 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3942311000001105|Femapak 80 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3947911000001108|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|3943011000001103|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|3943111000001102|Femapak 40 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|3943211000001108|Femapak 40 (Abbott Healthcare Products Ltd)|
+|female-sex-hormones v1|snomed|4339811000001101|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|4338511000001105|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|4338611000001109|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|female-sex-hormones v1|snomed|4338711000001100|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|4338811000001108|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|4338911000001103|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|4508511000001104|Generic Novofem tablets|
+|female-sex-hormones v1|snomed|4499011000001106|Generic Novofem tablets|
+|female-sex-hormones v1|snomed|4499111000001107|Novofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|4499211000001101|Novofem tablets (Novo Nordisk Ltd)|
+|female-sex-hormones v1|snomed|4725811000001103|Generic FemSeven Sequi transdermal patches|
+|female-sex-hormones v1|snomed|4711511000001106|Generic FemSeven Sequi transdermal patches|
+|female-sex-hormones v1|snomed|4711711000001101|Generic FemSeven Sequi transdermal patches|
+|female-sex-hormones v1|snomed|4711811000001109|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|4712011000001106|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|4712611000001104|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|8801211000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|female-sex-hormones v1|snomed|8786911000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|female-sex-hormones v1|snomed|8787011000001107|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|8787111000001108|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|10280511000001108|Generic Clinorette tablets|
+|female-sex-hormones v1|snomed|10277311000001107|Generic Clinorette tablets|
+|female-sex-hormones v1|snomed|10277411000001100|Clinorette tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|10277511000001101|Clinorette tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|21366211000001107|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|21259211000001101|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|21259311000001109|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|21259411000001102|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|female-sex-hormones v1|snomed|39964911000001106|Estradiol 1mg / Progesterone 100mg capsules|
+|female-sex-hormones v1|snomed|39943611000001109|Estradiol 1mg / Progesterone 100mg capsules|
+|female-sex-hormones v1|snomed|40115211000001103|Estradiol 1mg / Progesterone 100mg capsules|
+|female-sex-hormones v1|snomed|39943711000001100|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|39943811000001108|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|40115311000001106|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|female-sex-hormones v1|snomed|325550005|Estriol 1mg tablets|
+|female-sex-hormones v1|snomed|3876311000001100|Estriol 1mg tablets|
+|female-sex-hormones v1|snomed|3876411000001107|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|female-sex-hormones v1|snomed|3876511000001106|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|female-sex-hormones v1|snomed|325560001|Estropipate 1.5mg tablets|
+|female-sex-hormones v1|snomed|1163211000001107|Estropipate 1.5mg tablets|
+|female-sex-hormones v1|snomed|86011000001100|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2598511000001109|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|325480003|Ethinylestradiol 10microgram tablets|
+|female-sex-hormones v1|snomed|1062411000001108|Ethinylestradiol 10microgram tablets|
+|female-sex-hormones v1|snomed|734211000001107|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|2636311000001103|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|692011000001108|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|2636511000001109|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|526411000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|2636711000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|325482006|Ethinylestradiol 1mg tablets|
+|female-sex-hormones v1|snomed|3962211000001107|Ethinylestradiol 1mg tablets|
+|female-sex-hormones v1|snomed|3962511000001105|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3962611000001109|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|3962811000001108|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|3963011000001106|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|3963211000001101|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|3963311000001109|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|325481004|Ethinylestradiol 50microgram tablets|
+|female-sex-hormones v1|snomed|4111311000001105|Ethinylestradiol 50microgram tablets|
+|female-sex-hormones v1|snomed|4111411000001103|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|4111511000001104|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|4111611000001100|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|4111711000001109|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|4111811000001101|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|4111911000001106|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|8794111000001104|Ethinylestradiol 2microgram capsules|
+|female-sex-hormones v1|snomed|8751511000001101|Ethinylestradiol 2microgram capsules|
+|female-sex-hormones v1|snomed|8752311000001103|Ethinylestradiol 2microgram capsules (Special Order)|
+|female-sex-hormones v1|snomed|8752511000001109|Ethinylestradiol 2microgram capsules (Special Order)|
+|female-sex-hormones v1|snomed|11738011000001105|Ethinylestradiol 2microgram tablets|
+|female-sex-hormones v1|snomed|11733511000001106|Ethinylestradiol 2microgram tablets|
+|female-sex-hormones v1|snomed|14778511000001107|Ethinylestradiol 2microgram tablets|
+|female-sex-hormones v1|snomed|11733811000001109|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|11734011000001101|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|female-sex-hormones v1|snomed|14778411000001108|Ethinylestradiol 2microgram tablets (Special Order)|
+|female-sex-hormones v1|snomed|14778611000001106|Ethinylestradiol 2microgram tablets (Special Order)|
+|female-sex-hormones v1|snomed|12298411000001100|Ethinylestradiol 2micrograms/5ml oral suspension|
+|female-sex-hormones v1|snomed|12281411000001106|Ethinylestradiol 2micrograms/5ml oral suspension|
+|female-sex-hormones v1|snomed|12281511000001105|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|12281611000001109|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|12298511000001101|Ethinylestradiol 4micrograms/5ml oral suspension|
+|female-sex-hormones v1|snomed|12282111000001106|Ethinylestradiol 4micrograms/5ml oral suspension|
+|female-sex-hormones v1|snomed|12282311000001108|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|12282611000001103|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|28049411000001102|Ethinylestradiol 5microgram capsules|
+|female-sex-hormones v1|snomed|28042911000001100|Ethinylestradiol 5microgram capsules|
+|female-sex-hormones v1|snomed|28043011000001108|Ethinylestradiol 5microgram capsules (Special Order)|
+|female-sex-hormones v1|snomed|28043111000001109|Ethinylestradiol 5microgram capsules (Special Order)|
+|female-sex-hormones v1|snomed|39601811000001101|Ethinylestradiol 50microgram gastro-resistant tablets|
+|female-sex-hormones v1|snomed|39576711000001104|Ethinylestradiol 50microgram gastro-resistant tablets|
+|female-sex-hormones v1|snomed|39576811000001107|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|female-sex-hormones v1|snomed|39576911000001102|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|female-sex-hormones v1|snomed|36057811000001101|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4540911000001103|Hydroxyprogesterone 250mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4541211000001101|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
+|female-sex-hormones v1|snomed|4541311000001109|Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)|
+|female-sex-hormones v1|snomed|325601006|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|1028411000001101|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|1141711000001106|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|1275811000001103|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|13618811000001109|Medroxyprogesterone 10mg tablets|
+|female-sex-hormones v1|snomed|907611000001100|Provera 10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2201711000001100|Provera 10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2201911000001103|Provera 10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2202211000001100|Provera 10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|325609008|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|1247011000001101|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|1218211000001100|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|990011000001108|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|1089311000001107|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|5404011000001101|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|14356511000001107|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|14947111000001107|Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|286911000001108|Provera 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2213411000001108|Provera 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2213511000001107|Provera 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|729411000001107|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2213711000001102|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|2213811000001105|Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)|
+|female-sex-hormones v1|snomed|10276311000001109|Climanor 5mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|10276411000001102|Climanor 5mg tablets (ReSource Medical UK Ltd)|
+|female-sex-hormones v1|snomed|325603009|Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|3868011000001109|Medroxyprogesterone 2.5mg tablets|
+|female-sex-hormones v1|snomed|3868511000001101|Provera 2.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3868911000001108|Provera 2.5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|325611004|Norethisterone 5mg tablets|
+|female-sex-hormones v1|snomed|1110711000001108|Norethisterone 5mg tablets|
+|female-sex-hormones v1|snomed|1023511000001106|Norethisterone 5mg tablets|
+|female-sex-hormones v1|snomed|222911000001101|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|1853111000001102|Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|792911000001100|Norethisterone 5mg tablets (Actavis UK Ltd)|
+|female-sex-hormones v1|snomed|1853411000001107|Norethisterone 5mg tablets (Actavis UK Ltd)|
+|female-sex-hormones v1|snomed|825711000001101|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
+|female-sex-hormones v1|snomed|1854511000001109|Norethisterone 5mg tablets (Wockhardt UK Ltd)|
+|female-sex-hormones v1|snomed|783611000001102|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|1855711000001100|Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)|
+|female-sex-hormones v1|snomed|70611000001104|Norethisterone 5mg tablets (Sandoz Ltd)|
+|female-sex-hormones v1|snomed|1858511000001102|Norethisterone 5mg tablets (Sandoz Ltd)|
+|female-sex-hormones v1|snomed|263911000001100|Utovlan 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|1860211000001109|Utovlan 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|1861511000001100|Utovlan 5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|221111000001109|Primolut N 5mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|1863511000001101|Primolut N 5mg tablets (Bayer Plc)|
+|female-sex-hormones v1|snomed|142211000001106|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|1865911000001109|Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|female-sex-hormones v1|snomed|21816111000001104|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
+|female-sex-hormones v1|snomed|21816211000001105|Norethisterone 5mg tablets (Waymade Healthcare Plc)|
+|female-sex-hormones v1|snomed|29930211000001104|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
+|female-sex-hormones v1|snomed|29930311000001107|Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)|
+|female-sex-hormones v1|snomed|30852111000001101|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
+|female-sex-hormones v1|snomed|30852211000001107|Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)|
+|female-sex-hormones v1|snomed|37461811000001105|Norethisterone 5mg tablets (DE Pharmaceuticals)|
+|female-sex-hormones v1|snomed|37461911000001100|Norethisterone 5mg tablets (DE Pharmaceuticals)|
+|female-sex-hormones v1|snomed|39060911000001106|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
+|female-sex-hormones v1|snomed|39061011000001103|Norethisterone 5mg tablets (Medihealth (Northern) Ltd)|
+|female-sex-hormones v1|snomed|325618005|Norethisterone 1mg tablets|
+|female-sex-hormones v1|snomed|3196711000001101|Norethisterone 1mg tablets|
+|female-sex-hormones v1|snomed|3940011000001108|Norethisterone 1mg tablets|
+|female-sex-hormones v1|snomed|3197111000001104|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|snomed|3198211000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|snomed|3940111000001109|Micronor HRT 1mg tablets (Janssen-Cilag Ltd)|
+|female-sex-hormones v1|snomed|15534311000001101|Norethisterone 5mg/5ml oral suspension|
+|female-sex-hormones v1|snomed|15530511000001103|Norethisterone 5mg/5ml oral suspension|
+|female-sex-hormones v1|snomed|15530611000001104|Norethisterone 5mg/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|15530711000001108|Norethisterone 5mg/5ml oral suspension (Special Order)|
+|female-sex-hormones v1|snomed|325556004|Conjugated oestrogens 625microgram tablets|
+|female-sex-hormones v1|snomed|1323411000001106|Conjugated oestrogens 625microgram tablets|
+|female-sex-hormones v1|snomed|3456311000001108|Conjugated oestrogens 625microgram tablets|
+|female-sex-hormones v1|snomed|34911000001102|Premarin 0.625mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2687311000001108|Premarin 0.625mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3456411000001101|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|7142111000001103|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3456511000001102|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|325557008|Conjugated oestrogens 1.25mg tablets|
+|female-sex-hormones v1|snomed|1247811000001107|Conjugated oestrogens 1.25mg tablets|
+|female-sex-hormones v1|snomed|546511000001102|Premarin 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2688111000001107|Premarin 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|7142211000001109|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|7142311000001101|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|428005004|Conjugated oestrogens 2.5mg tablets|
+|female-sex-hormones v1|snomed|4547811000001107|Conjugated oestrogens 2.5mg tablets|
+|female-sex-hormones v1|snomed|4548011000001100|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|female-sex-hormones v1|snomed|4548111000001104|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|female-sex-hormones v1|snomed|409118006|Conjugated oestrogens 300microgram tablets|
+|female-sex-hormones v1|snomed|11476711000001101|Conjugated oestrogens 300microgram tablets|
+|female-sex-hormones v1|snomed|11476811000001109|Premarin 0.3mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|11476911000001104|Premarin 0.3mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|32936711000001100|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|female-sex-hormones v1|snomed|32927311000001104|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|female-sex-hormones v1|snomed|32927411000001106|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|32927511000001105|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3341011000001106|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|snomed|1282711000001107|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|snomed|557911000001109|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2701211000001100|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|39689411000001101|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|1012011000001100|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|female-sex-hormones v1|snomed|679511000001100|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|2754411000001108|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3553111000001108|Generic Premique Cycle tablets|
+|female-sex-hormones v1|snomed|3456611000001103|Generic Premique Cycle tablets|
+|female-sex-hormones v1|snomed|3456711000001107|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3456811000001104|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|400674006|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|snomed|3470611000001102|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|female-sex-hormones v1|snomed|3470811000001103|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|3472111000001109|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|15621411000001104|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|female-sex-hormones v1|snomed|7340211000001102|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|female-sex-hormones v1|snomed|7340311000001105|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|7340411000001103|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|female-sex-hormones v1|snomed|39709011000001102|Progesterone 400mg pessaries|
+|female-sex-hormones v1|snomed|1016411000001105|Progesterone 400mg pessaries|
+|female-sex-hormones v1|snomed|397511000001106|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|snomed|2475311000001107|Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|snomed|39708911000001106|Progesterone 200mg pessaries|
+|female-sex-hormones v1|snomed|3912811000001109|Progesterone 200mg pessaries|
+|female-sex-hormones v1|snomed|3913011000001107|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|snomed|3913211000001102|Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)|
+|female-sex-hormones v1|snomed|35931211000001102|Progesterone 50mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4087011000001109|Progesterone 50mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4087311000001107|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|snomed|4087711000001106|Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|snomed|325626002|Progesterone 4% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|snomed|4088811000001104|Progesterone 4% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|snomed|4088911000001109|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4089011000001100|Crinone 4% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|325627006|Progesterone 8% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|snomed|4212111000001101|Progesterone 8% vaginal gel 1.125g applicators|
+|female-sex-hormones v1|snomed|4212211000001107|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|4212311000001104|Crinone 8% progesterone vaginal gel (Merck Serono Ltd)|
+|female-sex-hormones v1|snomed|36022011000001106|Progesterone 100mg/2ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4228111000001108|Progesterone 100mg/2ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4228211000001102|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|snomed|4228311000001105|Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|female-sex-hormones v1|snomed|4971311000001103|Progesterone 25mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4971011000001101|Progesterone 25mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|4971211000001106|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|4971411000001105|Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|11763511000001102|Progesterone micronised 100mg capsules|
+|female-sex-hormones v1|snomed|11758811000001100|Progesterone micronised 100mg capsules|
+|female-sex-hormones v1|snomed|11758911000001105|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|11759011000001101|Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|11763611000001103|Progesterone micronised 200mg capsules|
+|female-sex-hormones v1|snomed|11759411000001105|Progesterone micronised 200mg capsules|
+|female-sex-hormones v1|snomed|11759511000001109|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|11759611000001108|Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|17870911000001106|Progesterone 2% in Aqueous cream|
+|female-sex-hormones v1|snomed|17868911000001100|Progesterone 2% in Aqueous cream|
+|female-sex-hormones v1|snomed|17869011000001109|Progesterone 2% in Aqueous cream (Special Order)|
+|female-sex-hormones v1|snomed|17869111000001105|Progesterone 2% in Aqueous cream (Special Order)|
+|female-sex-hormones v1|snomed|20921211000001106|Progesterone 2.34% cream|
+|female-sex-hormones v1|snomed|20920411000001101|Progesterone 2.34% cream|
+|female-sex-hormones v1|snomed|20920511000001102|Serenity Natural Progesterone cream (Imported (United States))|
+|female-sex-hormones v1|snomed|20920611000001103|Serenity Natural Progesterone cream (Imported (United States))|
+|female-sex-hormones v1|snomed|22683711000001100|Progesterone micronised 200mg vaginal capsules|
+|female-sex-hormones v1|snomed|22676611000001108|Progesterone micronised 200mg vaginal capsules|
+|female-sex-hormones v1|snomed|22676711000001104|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|22676811000001107|Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)|
+|female-sex-hormones v1|snomed|23948311000001106|Progesterone 25mg/1.119ml solution for injection vials|
+|female-sex-hormones v1|snomed|23948711000001105|Progesterone 25mg/1.119ml solution for injection vials|
+|female-sex-hormones v1|snomed|34768911000001106|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
+|female-sex-hormones v1|snomed|34769211000001107|Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)|
+|female-sex-hormones v1|snomed|28423111000001104|Progesterone 100mg pessaries|
+|female-sex-hormones v1|snomed|28402411000001109|Progesterone 100mg pessaries|
+|female-sex-hormones v1|snomed|28402511000001108|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|28402611000001107|Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)|
+|female-sex-hormones v1|snomed|34378811000001107|Progesterone 100mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|34346511000001107|Progesterone 100mg/1ml solution for injection ampoules|
+|female-sex-hormones v1|snomed|34346611000001106|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
+|female-sex-hormones v1|snomed|34346711000001102|Progesterone 100mg/1ml solution for injection ampoules (Special Order)|
+|female-sex-hormones v1|snomed|36411111000001101|Progesterone 25mg/1.112ml solution for injection vials|
+|female-sex-hormones v1|snomed|36394711000001107|Progesterone 25mg/1.112ml solution for injection vials|
+|female-sex-hormones v1|snomed|36394811000001104|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
+|female-sex-hormones v1|snomed|36395011000001109|Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)|
+|male-sex-hormones v1|ctv3|fi41.|Testosterone 100mg implant 30 week|
+|male-sex-hormones v1|ctv3|fi42.|Testosterone 200mg implant 34 week|
+|male-sex-hormones v1|ctv3|fi45.|Testosterone 2.5mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi46.|Andropatch 2.5mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi47.|Testosterone 5mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi48.|Andropatch 5mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi49.|Testoderm 6mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi4B.|Testosterone 50mg/5g gel|
+|male-sex-hormones v1|ctv3|fi4C.|Testogel 50mg gel 5g sachet|
+|male-sex-hormones v1|ctv3|fi4D.|Striant SR 30mg muco-adhesive buccal tablet|
+|male-sex-hormones v1|ctv3|fi4E.|Nebido 1000mg/4mL solution for injection|
+|male-sex-hormones v1|ctv3|fi4F.|Testim gel 50mg/5g tube|
+|male-sex-hormones v1|ctv3|fi4G.|INTRINSA 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|ctv3|fi4w.|TESTOSTERONE 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|ctv3|fi4x.|Testosterone undecanoate 1000mg/4mL solution for injection|
+|male-sex-hormones v1|ctv3|fi4y.|Testosterone 30mg muco-adhesive buccal tablet|
+|male-sex-hormones v1|ctv3|fi4z.|Testosterone 6mg/24hours transdermal patch|
+|male-sex-hormones v1|ctv3|fi52.|Restandol 40mg capsule|
+|male-sex-hormones v1|ctv3|fi53.|Sustanon 100 oily injection|
+|male-sex-hormones v1|ctv3|fi54.|Sustanon 250 oily injection|
+|male-sex-hormones v1|ctv3|fi57.|Virormone 50mg/1mL injection|
+|male-sex-hormones v1|ctv3|fi59.|Testosterone 250mg/1mL injection|
+|male-sex-hormones v1|ctv3|fi5a.|Testosterone undecanoate 40mg capsule|
+|male-sex-hormones v1|ctv3|fi5g.|Testosterone 100mg injection 2mL|
+|male-sex-hormones v1|ctv3|fi5l.|RESTANDOL TESTOCAPS 40mg capsules|
+|male-sex-hormones v1|emis|^ESCT1175959|Testosterone 16.2mg/g gel (20.25mg per actuation) 88 gram|
+|male-sex-hormones v1|emis|^ESCT1175960|Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|emis|^ESCT1175961|Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd) 88 gram|
+|male-sex-hormones v1|emis|^ESCT1176009|Testosterone 16.2mg/g gel (20.25mg per actuation)|
+|male-sex-hormones v1|emis|^ESCT1181855|Product containing only testosterone undecanoate 40 mg/1 each oral capsule|
+|male-sex-hormones v1|emis|^ESCT1214004|Testosterone 20mg/g transdermal gel (23mg per actuation) 85.5 gram|
+|male-sex-hormones v1|emis|^ESCT1214005|Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCT1214006|Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd) 85.5 gram|
+|male-sex-hormones v1|emis|^ESCT1214024|Testosterone 20mg/g transdermal gel (23mg per actuation)|
+|male-sex-hormones v1|emis|^ESCT1214827|Testosterone 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|emis|^ESCT1214828|Testosterone 5mg/24hours transdermal patches|
+|male-sex-hormones v1|emis|^ESCT1214829|Testosterone 6mg/24hours transdermal patches|
+|male-sex-hormones v1|emis|^ESCT1214830|Testosterone enantate 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|emis|^ESCT1214831|Testosterone propionate 100mg/2ml solution for injection ampoules|
+|male-sex-hormones v1|emis|^ESCT1214832|Testosterone undecanoate 1g/4ml solution for injection ampoules|
+|male-sex-hormones v1|emis|^ESCT1224713|Testosterone undecanoate 40 mg oral capsule|
+|male-sex-hormones v1|emis|^ESCT1224714|Product containing precisely testosterone undecanoate 40 milligram/1 each conventional release oral capsule|
+|male-sex-hormones v1|emis|^ESCT1299791|Testim 50mg/5g gel (Endo Ventures Ltd)|
+|male-sex-hormones v1|emis|^ESCT1299792|Testim 50mg/5g gel (Endo Ventures Ltd) 30 tube 30 x 5g tubes|
+|male-sex-hormones v1|emis|^ESCT1381258|Testosterone 100mg implant|
+|male-sex-hormones v1|emis|^ESCT1381259|Testosterone 200mg implant|
+|male-sex-hormones v1|emis|^ESCT1410167|Testosterone 100mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|emis|^ESCT1410168|Testosterone 100mg implant (Organon Pharma (UK) Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCT1410271|Testosterone 200mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|emis|^ESCT1410272|Testosterone 200mg implant (Organon Pharma (UK) Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCT1410898|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|emis|^ESCT1410899|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd) 30 capsule 3 x 10 capsules|
+|male-sex-hormones v1|emis|^ESCT1410900|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd) 60 capsule 6 x 10 capsules|
+|male-sex-hormones v1|emis|^ESCT1429562|Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)|
+|male-sex-hormones v1|emis|^ESCT1429563|Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd) 3 ampoule|
+|male-sex-hormones v1|emis|^ESCTAN1026486|Androderm 5mg/24hours transdermal patches (Imported (United States))|
+|male-sex-hormones v1|emis|^ESCTAN1026487|Androderm 5mg/24hours transdermal patches (Imported (United States)) 30 patch|
+|male-sex-hormones v1|emis|^ESCTAN863600|Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|emis|^ESCTAN863602|Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd) 30 patch|
+|male-sex-hormones v1|emis|^ESCTAN863618|Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|emis|^ESCTAN863620|Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd) 60 patch|
+|male-sex-hormones v1|emis|^ESCTGE836070|Generic Sustanon 250mg/1ml solution for injection ampoules 6 ampoule|
+|male-sex-hormones v1|emis|^ESCTGE862565|Generic Sustanon 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|emis|^ESCTGE864799|Generic Sustanon 100 solution for injection 1ml ampoules 6 ampoule|
+|male-sex-hormones v1|emis|^ESCTGE865076|Generic Sustanon 100 solution for injection 1ml ampoules|
+|male-sex-hormones v1|emis|^ESCTGE975646|Generic Sustanon 250mg/1ml solution for injection ampoules 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTIN939260|Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)|
+|male-sex-hormones v1|emis|^ESCTIN939261|Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd) 8 patch|
+|male-sex-hormones v1|emis|^ESCTNE1052456|Nebido 1000mg/4ml solution for injection vials (Bayer Plc)|
+|male-sex-hormones v1|emis|^ESCTNE1052458|Nebido 1000mg/4ml solution for injection vials (Bayer Plc) 1 vial|
+|male-sex-hormones v1|emis|^ESCTNE909604|Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)|
+|male-sex-hormones v1|emis|^ESCTNE909605|Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc) 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTPR612788|Product containing testosterone undecanoate 40 mg/1 each oral capsule|
+|male-sex-hormones v1|emis|^ESCTRE812848|Restandol 40mg capsules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|emis|^ESCTRE855604|Restandol 40mg capsules (Organon Laboratories Ltd) 28 capsule|
+|male-sex-hormones v1|emis|^ESCTRE855605|Restandol 40mg capsules (Organon Laboratories Ltd) 56 capsule|
+|male-sex-hormones v1|emis|^ESCTRE961402|Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd)|
+|male-sex-hormones v1|emis|^ESCTRE961403|Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd) 30 capsule 3 x 10 capsules|
+|male-sex-hormones v1|emis|^ESCTRE961404|Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd) 60 capsule 6 x 10 capsules|
+|male-sex-hormones v1|emis|^ESCTST897973|Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)|
+|male-sex-hormones v1|emis|^ESCTST897974|Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd) 60 tablet 6 x 10 tablets|
+|male-sex-hormones v1|emis|^ESCTSU831248|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|male-sex-hormones v1|emis|^ESCTSU856783|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 6 ampoule|
+|male-sex-hormones v1|emis|^ESCTSU864802|Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|emis|^ESCTSU864804|Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd) 6 ampoule|
+|male-sex-hormones v1|emis|^ESCTSU975647|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE1026380|Testosterone propionate 1% cream 50 gram|
+|male-sex-hormones v1|emis|^ESCTTE1026381|Testosterone propionate 1% cream (Special Order) 50 gram|
+|male-sex-hormones v1|emis|^ESCTTE1026483|Testosterone 5mg/24hours transdermal patches 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1026484|Testosterone 5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1026485|Testosterone 5mg/24hours transdermal patches (Special Order) 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1034151|Testosterone 1% ointment 100 gram|
+|male-sex-hormones v1|emis|^ESCTTE1034152|Testosterone 1% ointment 30 gram|
+|male-sex-hormones v1|emis|^ESCTTE1034153|Testosterone 1% ointment (Special Order) 100 gram|
+|male-sex-hormones v1|emis|^ESCTTE1034154|Testosterone 1% ointment (Special Order) 30 gram|
+|male-sex-hormones v1|emis|^ESCTTE1044380|Testosterone 2.4mg/24hours transdermal patches 30 patch|
+|male-sex-hormones v1|emis|^ESCTTE1044381|Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))|
+|male-sex-hormones v1|emis|^ESCTTE1044382|Testopatch 2.4mg/24hours transdermal patches (Imported (Greece)) 30 patch|
+|male-sex-hormones v1|emis|^ESCTTE1044943|Testosterone 2.4mg/24hours transdermal patches|
+|male-sex-hormones v1|emis|^ESCTTE1052457|Testosterone undecanoate 1g/4ml solution for injection vials 1 vial|
+|male-sex-hormones v1|emis|^ESCTTE1053752|Testosterone undecanoate 1g/4ml solution for injection vials|
+|male-sex-hormones v1|emis|^ESCTTE1098026|Testosterone 2.4mg/24hours transdermal patches 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1098027|Testosterone 2.4mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1098028|Testosterone 2.4mg/24hours transdermal patches (Special Order) 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1098081|Testosterone 200mg implant (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1098082|Testosterone 200mg implant (Special Order) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE1100195|Testosterone propionate 100mg/2ml solution for injection ampoules 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE1100196|Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1100197|Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order) 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE1143831|Testosterone 2.5mg/24hours transdermal patches 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1143833|Testosterone 2.5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1143834|Testosterone 2.5mg/24hours transdermal patches (Special Order) 1 patch|
+|male-sex-hormones v1|emis|^ESCTTE1145913|Testosterone 100mg implant (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE1145914|Testosterone 100mg implant (Special Order) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE612786|Testosterone 40mg capsules|
+|male-sex-hormones v1|emis|^ESCTTE612787|Testosterone undecanoate 40 mg/1 each oral capsule|
+|male-sex-hormones v1|emis|^ESCTTE618229|Testosterone 100mg implant|
+|male-sex-hormones v1|emis|^ESCTTE618230|Testosterone 200mg implant|
+|male-sex-hormones v1|emis|^ESCTTE846716|Testosterone 40mg capsules 56 capsule|
+|male-sex-hormones v1|emis|^ESCTTE847765|Testosterone 40mg capsules 28 capsule|
+|male-sex-hormones v1|emis|^ESCTTE863597|Testosterone 5mg/24hours transdermal patches 30 patch|
+|male-sex-hormones v1|emis|^ESCTTE863615|Testosterone 2.5mg/24hours transdermal patches 60 patch|
+|male-sex-hormones v1|emis|^ESCTTE863662|Testosterone 100mg implant 1 device|
+|male-sex-hormones v1|emis|^ESCTTE863664|Testosterone 100mg implant (Merck Sharp & Dohme Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE863665|Testosterone 100mg implant (Merck Sharp & Dohme Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE863666|Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE863667|Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE863687|Testosterone enantate 250mg/1ml solution for injection ampoules 3 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE863688|Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE863689|Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 3 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE863691|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE863693|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd) 3 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE863695|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE863698|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 3 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE867350|Testosterone propionate 100mg/2ml solution for injection ampoules 10 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE867371|Testosterone 200mg implant 1 device|
+|male-sex-hormones v1|emis|^ESCTTE867374|Testosterone 200mg implant (Merck Sharp & Dohme Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE867376|Testosterone 200mg implant (Merck Sharp & Dohme Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE867380|Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE867382|Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE870855|Testosterone 6mg/24hours transdermal patches 30 patch|
+|male-sex-hormones v1|emis|^ESCTTE870856|Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE870857|Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd) 30 patch|
+|male-sex-hormones v1|emis|^ESCTTE871301|Testosterone 50mg/5g gel unit dose sachets 30 sachet|
+|male-sex-hormones v1|emis|^ESCTTE871303|Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE871305|Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd) 30 sachet|
+|male-sex-hormones v1|emis|^ESCTTE878238|Testosterone 40mg capsules 60 capsule|
+|male-sex-hormones v1|emis|^ESCTTE897972|Testosterone 30mg modified-release muco-adhesive buccal tablets 60 tablet|
+|male-sex-hormones v1|emis|^ESCTTE898008|Testosterone 30mg modified-release muco-adhesive buccal tablets|
+|male-sex-hormones v1|emis|^ESCTTE909596|Testosterone undecanoate 1g/4ml solution for injection ampoules 1 ampoule|
+|male-sex-hormones v1|emis|^ESCTTE913405|Testosterone 50mg/5g gel unit dose tube 30 tube|
+|male-sex-hormones v1|emis|^ESCTTE913406|Testim 50mg/5g gel (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE913407|Testim 50mg/5g gel (Ferring Pharmaceuticals Ltd) 30 tube 30 x 5g tubes|
+|male-sex-hormones v1|emis|^ESCTTE913457|Testosterone 50mg/5g gel unit dose tube|
+|male-sex-hormones v1|emis|^ESCTTE918646|Testosterone 50mg/5g gel unit dose sachets|
+|male-sex-hormones v1|emis|^ESCTTE926617|Testosterone 100mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE926618|Testosterone 100mg implant (A A H Pharmaceuticals Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE926619|Testosterone 200mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|emis|^ESCTTE926620|Testosterone 200mg implant (A A H Pharmaceuticals Ltd) 1 device|
+|male-sex-hormones v1|emis|^ESCTTE939257|Testosterone 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|emis|^ESCTTE939259|Testosterone 300micrograms/24hours transdermal patches 8 patch|
+|male-sex-hormones v1|emis|^ESCTTE940925|Testosterone 2% gel (10mg per actuation) 60 gram|
+|male-sex-hormones v1|emis|^ESCTTE940926|Testosterone 2% gel (10mg per actuation) 180 gram|
+|male-sex-hormones v1|emis|^ESCTTE940981|Testosterone 2% gel (10mg per actuation)|
+|male-sex-hormones v1|emis|^ESCTTE961401|Testosterone 40mg capsules 30 capsule|
+|male-sex-hormones v1|emis|^ESCTTE971383|Testosterone 1% ointment 1 gram|
+|male-sex-hormones v1|emis|^ESCTTE971384|Testosterone 1% ointment (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE971394|Testosterone 1% ointment (Special Order) 1 gram|
+|male-sex-hormones v1|emis|^ESCTTE971879|Testosterone 1% ointment|
+|male-sex-hormones v1|emis|^ESCTTE979760|Testosterone propionate 1% cream 1 gram|
+|male-sex-hormones v1|emis|^ESCTTE979761|Testosterone propionate 1% cream (Special Order)|
+|male-sex-hormones v1|emis|^ESCTTE979762|Testosterone propionate 1% cream (Special Order) 1 gram|
+|male-sex-hormones v1|emis|^ESCTTE979776|Testosterone propionate 1% cream|
+|male-sex-hormones v1|emis|^ESCTTO940927|Tostran 2% gel (Kyowa Kirin Ltd)|
+|male-sex-hormones v1|emis|^ESCTTO940928|Tostran 2% gel (Kyowa Kirin Ltd) 60 gram|
+|male-sex-hormones v1|emis|^ESCTTO940929|Tostran 2% gel (Kyowa Kirin Ltd) 180 gram 3 x 60g pump|
+|male-sex-hormones v1|emis|^ESCTVI867351|Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|male-sex-hormones v1|emis|^ESCTVI867352|Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule|
+|male-sex-hormones v1|emis|ANTR29512EMIS|Andropatch  Transdermal patches  2.5 mg/24 hrs|
+|male-sex-hormones v1|emis|ANTR31981EMIS|Andropatch  Transdermal patches  5 mg/24 hrs|
+|male-sex-hormones v1|emis|INTR25122NEMIS|Intrinsa  Transdermal patches  300 micrograms/24 hours|
+|male-sex-hormones v1|emis|NEIN19654NEMIS|Nebido  Injection  250 mg/ml, 4 ml ampoule|
+|male-sex-hormones v1|emis|NEIN83116NEMIS|Nebido  Injection  250 mg/ml, 4 ml vial|
+|male-sex-hormones v1|emis|RECA29114NEMIS|Restandol Testocaps  Capsules  40 mg|
+|male-sex-hormones v1|emis|RECA4267|Restandol  Capsules  40 mg|
+|male-sex-hormones v1|emis|STM/18224NEMIS|Striant Sr  M/R Muco-adhesive Buccal Tablet  30 mg|
+|male-sex-hormones v1|emis|SUIN4360|Sustanon 100  Injection  1 ml ampoule|
+|male-sex-hormones v1|emis|SUIN4361|Sustanon 250  Injection  1 ml ampoule|
+|male-sex-hormones v1|emis|TECA5418|Testosterone Undecanoate  Capsules  40 mg|
+|male-sex-hormones v1|emis|TECR11653NEMIS|Testosterone Propionate  Cream  1 %|
+|male-sex-hormones v1|emis|TEGE125419NEMIS|Testosterone  Gel  16.2 mg/gram|
+|male-sex-hormones v1|emis|TEGE125420NEMIS|Testogel  Gel  16.2 mg/gram|
+|male-sex-hormones v1|emis|TEGE15746NEMIS|Testosterone  Gel  50 mg/5 gram sachet|
+|male-sex-hormones v1|emis|TEGE15748NEMIS|Testogel  Gel  50 mg/5 gram sachet|
+|male-sex-hormones v1|emis|TEGE19999NEMIS|Testosterone  Gel  50 mg/5 gram tube|
+|male-sex-hormones v1|emis|TEGE20002NEMIS|Testim  Gel  50 mg/5 gram tube|
+|male-sex-hormones v1|emis|TEGE41288NEMIS|Testosterone  Gel  2 %|
+|male-sex-hormones v1|emis|TEIM37139MGEMIS|Testosterone  Implant  100 mg (Organon)|
+|male-sex-hormones v1|emis|TEIM37140MGEMIS|Testosterone  Implant  100 mg (Unichem)|
+|male-sex-hormones v1|emis|TEIM37141MGEMIS|Testosterone  Implant  200 mg (Organon)|
+|male-sex-hormones v1|emis|TEIM37142MGEMIS|Testosterone  Implant  200 mg (Unichem)|
+|male-sex-hormones v1|emis|TEIM4405|Testosterone  Implant  100 mg|
+|male-sex-hormones v1|emis|TEIM4406|Testosterone  Implant  200 mg|
+|male-sex-hormones v1|emis|TEIN17877NEMIS|Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule|
+|male-sex-hormones v1|emis|TEIN19652NEMIS|Testosterone Undecanoate  Injection  250 mg/ml, 4 ml ampoule|
+|male-sex-hormones v1|emis|TEIN25437EMIS|Testosterone Propionate  Solution for injection  100 mg/2 ml ampoule|
+|male-sex-hormones v1|emis|TEIN38287MGEMIS|Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (A.A.H. Pharm)|
+|male-sex-hormones v1|emis|TEIN38288MGEMIS|Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (Cambridge Labs)|
+|male-sex-hormones v1|emis|TEIN38289MGEMIS|Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (Unichem)|
+|male-sex-hormones v1|emis|TEIN7046|Testosterone Enanthate  Injection  250 mg/ml, 1 ml ampoule|
+|male-sex-hormones v1|emis|TEIN7114|Testosterone Propionate  Injection  50 mg/ml|
+|male-sex-hormones v1|emis|TEIN83115NEMIS|Testosterone Undecanoate  Injection  250 mg/ml, 4 ml vial|
+|male-sex-hormones v1|emis|TEM/18222NEMIS|Testosterone  M/R Muco-adhesive Buccal Tablet  30 mg|
+|male-sex-hormones v1|emis|TETR127698NEMIS|Testavan  Transdermal Gel  20 mg/gram|
+|male-sex-hormones v1|emis|TETR127874NEMIS|Testosterone  Transdermal Gel  20 mg/gram (23 mg/actuation)|
+|male-sex-hormones v1|emis|TETR1673NEMIS|Testosterone  Transdermal patches  6 mg/24 hrs|
+|male-sex-hormones v1|emis|TETR1675NEMIS|Testoderm  Transdermal patches  6 mg/24 hrs|
+|male-sex-hormones v1|emis|TETR25120NEMIS|Testosterone  Transdermal patches  300 micrograms/24 hours|
+|male-sex-hormones v1|emis|TETR29514EMIS|Testosterone  Transdermal patches  2.5 mg/24 hrs|
+|male-sex-hormones v1|emis|TETR31983EMIS|Testosterone  Transdermal patches  5 mg/24 hrs|
+|male-sex-hormones v1|emis|TOGE41289NEMIS|Tostran  Gel  2 %|
+|male-sex-hormones v1|emis|VIIN25435EMIS|Virormone  Solution for injection  100 mg/2 ml ampoule|
+|male-sex-hormones v1|emis|VIIN4519|Virormone  Injection  50 mg/ml|
+|male-sex-hormones v1|readv2|fi41.|TESTOSTERONE 100mg implant 30 week|
+|male-sex-hormones v1|readv2|fi42.|TESTOSTERONE 200mg implant 34 week|
+|male-sex-hormones v1|readv2|fi45.|TESTOSTERONE 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi46.|ANDROPATCH 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi47.|TESTOSTERONE 5mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi48.|ANDROPATCH 5mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi49.|TESTODERM 6mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi4B.|TESTOSTERONE 50mg/5g gel|
+|male-sex-hormones v1|readv2|fi4C.|TESTOGEL 50mg gel 5g sachet|
+|male-sex-hormones v1|readv2|fi4D.|STRIANT SR 30mg muco-adhesive buccal tablets|
+|male-sex-hormones v1|readv2|fi4E.|NEBIDO 1000mg/4mL solution for injection|
+|male-sex-hormones v1|readv2|fi4F.|TESTIM gel 50mg/5g tube|
+|male-sex-hormones v1|readv2|fi4G.|INTRINSA 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi4w.|TESTOSTERONE 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi4x.|TESTOSTERONE UNDECANOATE 1000mg/4mL solution for injection|
+|male-sex-hormones v1|readv2|fi4y.|TESTOSTERONE 30mg muco-adhesive buccal tablets|
+|male-sex-hormones v1|readv2|fi4z.|TESTOSTERONE 6mg/24hours transdermal patches|
+|male-sex-hormones v1|readv2|fi52.|*RESTANDOL 40mg capsules|
+|male-sex-hormones v1|readv2|fi53.|*SUSTANON-100 injection|
+|male-sex-hormones v1|readv2|fi54.|SUSTANON-250 injection|
+|male-sex-hormones v1|readv2|fi57.|*VIRORMONE 50mg/1mL injection|
+|male-sex-hormones v1|readv2|fi59.|TESTOSTERONE 250mg/1mL injection|
+|male-sex-hormones v1|readv2|fi5a.|TESTOSTERONE UNDECANOATE 40mg capsules|
+|male-sex-hormones v1|readv2|fi5g.|TESTOSTERONE 100mg injection 2mL|
+|male-sex-hormones v1|readv2|fi5l.|RESTANDOL TESTOCAPS 40mg capsules|
+|male-sex-hormones v1|snomed|35916711000001105|Testosterone 5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|3704411000001108|Testosterone 5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|20171811000001106|Testosterone 5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|3704711000001102|Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|snomed|3704911000001100|Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|snomed|20171911000001101|Testosterone 5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|20172011000001108|Testosterone 5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|20172111000001109|Androderm 5mg/24hours transdermal patches (Imported (United States))|
+|male-sex-hormones v1|snomed|20172211000001103|Androderm 5mg/24hours transdermal patches (Imported (United States))|
+|male-sex-hormones v1|snomed|35916611000001101|Testosterone 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|3706211000001104|Testosterone 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|32619811000001106|Testosterone 2.5mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|3706511000001101|Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|snomed|3706711000001106|Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)|
+|male-sex-hormones v1|snomed|32620011000001104|Testosterone 2.5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|32620111000001103|Testosterone 2.5mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|347317004|Testosterone 100mg implant|
+|male-sex-hormones v1|snomed|3710911000001108|Testosterone 100mg implant|
+|male-sex-hormones v1|snomed|3711111000001104|Testosterone 100mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|3711211000001105|Testosterone 100mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|3711311000001102|Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|3711411000001109|Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|10138311000001107|Testosterone 100mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|10138411000001100|Testosterone 100mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|32845411000001107|Testosterone 100mg implant (Special Order)|
+|male-sex-hormones v1|snomed|32845511000001106|Testosterone 100mg implant (Special Order)|
+|male-sex-hormones v1|snomed|347318009|Testosterone 200mg implant|
+|male-sex-hormones v1|snomed|4120911000001106|Testosterone 200mg implant|
+|male-sex-hormones v1|snomed|4121211000001108|Testosterone 200mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|4121411000001107|Testosterone 200mg implant (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|4121811000001109|Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|4122011000001106|Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|10138511000001101|Testosterone 200mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|10138611000001102|Testosterone 200mg implant (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|27755711000001103|Testosterone 200mg implant (Special Order)|
+|male-sex-hormones v1|snomed|27755811000001106|Testosterone 200mg implant (Special Order)|
+|male-sex-hormones v1|snomed|35916811000001102|Testosterone 6mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|4550011000001100|Testosterone 6mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|4550111000001104|Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|4550211000001105|Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|9478711000001105|Testosterone 50mg/5g gel unit dose sachets|
+|male-sex-hormones v1|snomed|4607611000001108|Testosterone 50mg/5g gel unit dose sachets|
+|male-sex-hormones v1|snomed|4607811000001107|Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|snomed|4608011000001100|Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|snomed|7503511000001104|Testosterone 30mg modified-release muco-adhesive buccal tablets|
+|male-sex-hormones v1|snomed|7499711000001104|Testosterone 30mg modified-release muco-adhesive buccal tablets|
+|male-sex-hormones v1|snomed|7499811000001107|Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)|
+|male-sex-hormones v1|snomed|7499911000001102|Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)|
+|male-sex-hormones v1|snomed|9186611000001108|Testosterone 50mg/5g gel unit dose tube|
+|male-sex-hormones v1|snomed|9181411000001104|Testosterone 50mg/5g gel unit dose tube|
+|male-sex-hormones v1|snomed|9181511000001100|Testim 50mg/5g gel (Endo Ventures Ltd)|
+|male-sex-hormones v1|snomed|9181611000001101|Testim 50mg/5g gel (Endo Ventures Ltd)|
+|male-sex-hormones v1|snomed|11391011000001107|Testosterone 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|snomed|11391211000001102|Testosterone 300micrograms/24hours transdermal patches|
+|male-sex-hormones v1|snomed|11391311000001105|Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)|
+|male-sex-hormones v1|snomed|11391411000001103|Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)|
+|male-sex-hormones v1|snomed|11564011000001106|Testosterone 2% gel (10mg per actuation)|
+|male-sex-hormones v1|snomed|11558311000001108|Testosterone 2% gel (10mg per actuation)|
+|male-sex-hormones v1|snomed|11558411000001101|Testosterone 2% gel (10mg per actuation)|
+|male-sex-hormones v1|snomed|11558511000001102|Tostran 2% gel (Kyowa Kirin Ltd)|
+|male-sex-hormones v1|snomed|11558611000001103|Tostran 2% gel (Kyowa Kirin Ltd)|
+|male-sex-hormones v1|snomed|11558711000001107|Tostran 2% gel (Kyowa Kirin Ltd)|
+|male-sex-hormones v1|snomed|14410511000001109|Testosterone 1% ointment|
+|male-sex-hormones v1|snomed|14361111000001101|Testosterone 1% ointment|
+|male-sex-hormones v1|snomed|20976211000001104|Testosterone 1% ointment|
+|male-sex-hormones v1|snomed|20976311000001107|Testosterone 1% ointment|
+|male-sex-hormones v1|snomed|14361211000001107|Testosterone 1% ointment (Special Order)|
+|male-sex-hormones v1|snomed|14362211000001100|Testosterone 1% ointment (Special Order)|
+|male-sex-hormones v1|snomed|20976411000001100|Testosterone 1% ointment (Special Order)|
+|male-sex-hormones v1|snomed|20976511000001101|Testosterone 1% ointment (Special Order)|
+|male-sex-hormones v1|snomed|22155111000001109|Testosterone 2.4mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|22096711000001104|Testosterone 2.4mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|27749311000001103|Testosterone 2.4mg/24hours transdermal patches|
+|male-sex-hormones v1|snomed|22096811000001107|Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))|
+|male-sex-hormones v1|snomed|22096911000001102|Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))|
+|male-sex-hormones v1|snomed|27749411000001105|Testosterone 2.4mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|27749511000001109|Testosterone 2.4mg/24hours transdermal patches (Special Order)|
+|male-sex-hormones v1|snomed|35025711000001101|Testosterone 16.2mg/g gel (20.25mg per actuation)|
+|male-sex-hormones v1|snomed|35020211000001104|Testosterone 16.2mg/g gel (20.25mg per actuation)|
+|male-sex-hormones v1|snomed|35020311000001107|Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|snomed|35020411000001100|Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)|
+|male-sex-hormones v1|snomed|35824911000001104|Testosterone 20mg/g transdermal gel (23mg per actuation)|
+|male-sex-hormones v1|snomed|35822511000001101|Testosterone 20mg/g transdermal gel (23mg per actuation)|
+|male-sex-hormones v1|snomed|35822611000001102|Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|35822711000001106|Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|35916911000001107|Testosterone enantate 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|3713411000001108|Testosterone enantate 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|3713511000001107|Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|3713611000001106|Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|3713811000001105|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|3714011000001102|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)|
+|male-sex-hormones v1|snomed|3714211000001107|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|3714511000001105|Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)|
+|male-sex-hormones v1|snomed|39902411000001109|Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)|
+|male-sex-hormones v1|snomed|39902511000001108|Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)|
+|male-sex-hormones v1|snomed|3586711000001108|Generic Sustanon 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|977911000001104|Generic Sustanon 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|14801611000001108|Generic Sustanon 250mg/1ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|891111000001106|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|male-sex-hormones v1|snomed|2692311000001107|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|male-sex-hormones v1|snomed|14801711000001104|Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|male-sex-hormones v1|snomed|3861511000001106|Generic Sustanon 100 solution for injection 1ml ampoules|
+|male-sex-hormones v1|snomed|3833611000001102|Generic Sustanon 100 solution for injection 1ml ampoules|
+|male-sex-hormones v1|snomed|3833911000001108|Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|snomed|3834111000001107|Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|snomed|35917011000001106|Testosterone propionate 100mg/2ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|4118611000001108|Testosterone propionate 100mg/2ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|27982511000001104|Testosterone propionate 100mg/2ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|4118711000001104|Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|male-sex-hormones v1|snomed|4118811000001107|Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)|
+|male-sex-hormones v1|snomed|27982611000001100|Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)|
+|male-sex-hormones v1|snomed|27982711000001109|Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)|
+|male-sex-hormones v1|snomed|15243811000001104|Testosterone propionate 1% cream|
+|male-sex-hormones v1|snomed|15242211000001106|Testosterone propionate 1% cream|
+|male-sex-hormones v1|snomed|20160111000001102|Testosterone propionate 1% cream|
+|male-sex-hormones v1|snomed|15242311000001103|Testosterone propionate 1% cream (Special Order)|
+|male-sex-hormones v1|snomed|15242411000001105|Testosterone propionate 1% cream (Special Order)|
+|male-sex-hormones v1|snomed|20160211000001108|Testosterone propionate 1% cream (Special Order)|
+|male-sex-hormones v1|snomed|325718002|Testosterone 40mg capsules|
+|male-sex-hormones v1|snomed|1208711000001109|Testosterone 40mg capsules|
+|male-sex-hormones v1|snomed|1092111000001100|Testosterone 40mg capsules|
+|male-sex-hormones v1|snomed|5406411000001102|Testosterone 40mg capsules|
+|male-sex-hormones v1|snomed|13326611000001107|Testosterone 40mg capsules|
+|male-sex-hormones v1|snomed|387711000001102|Restandol 40mg capsules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|snomed|2364111000001106|Restandol 40mg capsules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|snomed|2364211000001100|Restandol 40mg capsules (Organon Laboratories Ltd)|
+|male-sex-hormones v1|snomed|13326711000001103|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|13326911000001101|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|13326811000001106|Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)|
+|male-sex-hormones v1|snomed|35917111000001107|Testosterone undecanoate 1g/4ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|8785611000001107|Testosterone undecanoate 1g/4ml solution for injection ampoules|
+|male-sex-hormones v1|snomed|8786711000001106|Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)|
+|male-sex-hormones v1|snomed|8786811000001103|Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)|
+|male-sex-hormones v1|snomed|23108811000001105|Testosterone undecanoate 1g/4ml solution for injection vials|
+|male-sex-hormones v1|snomed|22974411000001101|Testosterone undecanoate 1g/4ml solution for injection vials|
+|male-sex-hormones v1|snomed|22974311000001108|Nebido 1000mg/4ml solution for injection vials (Bayer Plc)|
+|male-sex-hormones v1|snomed|22974611000001103|Nebido 1000mg/4ml solution for injection vials (Bayer Plc)|
+|anabolic-steroids v1|ctv3|fj13.|Deca-Durabolin 50mg/1mL oily injection|
+|anabolic-steroids v1|ctv3|fj21.|Stromba 5mg tablet|
+|anabolic-steroids v1|ctv3|fj23.|Stanozolol 5mg tablet|
+|anabolic-steroids v1|ctv3|x01MK|Nandrolone 50mg/1mL injection|
+|anabolic-steroids v1|emis|^ESCT1178751|Product containing only stanozolol 5 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCT1182062|Product containing only dehydroepiandrosterone 25 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCT1187577|Product containing only oxandrolone 2.5 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCT1188322|Product containing only dehydroepiandrosterone 10 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCT1188323|Product containing only dehydroepiandrosterone 25 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCT1188324|Product containing only dehydroepiandrosterone 50 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCT1215387|Nandrolone 50mg/1ml solution for injection ampoules|
+|anabolic-steroids v1|emis|^ESCT1224716|Product containing precisely stanozolol 5 milligram/1 each conventional release oral tablet|
+|anabolic-steroids v1|emis|^ESCT1228449|Product containing precisely oxandrolone 2.5 milligram/1 each conventional release oral tablet|
+|anabolic-steroids v1|emis|^ESCT1232258|Product containing precisely dehydroepiandrosterone 10 milligram/1 each conventional release oral tablet|
+|anabolic-steroids v1|emis|^ESCT1232259|Product containing precisely dehydroepiandrosterone 25 milligram/1 each conventional release oral capsule|
+|anabolic-steroids v1|emis|^ESCT1232260|Dehydroepiandrosterone 25 mg oral capsule|
+|anabolic-steroids v1|emis|^ESCT1232261|Product containing precisely dehydroepiandrosterone 25 milligram/1 each conventional release oral tablet|
+|anabolic-steroids v1|emis|^ESCT1232262|Product containing precisely dehydroepiandrosterone 50 milligram/1 each conventional release oral capsule|
+|anabolic-steroids v1|emis|^ESCT1232263|Dehydroepiandrosterone 50 mg oral capsule|
+|anabolic-steroids v1|emis|^ESCT1257879|Prasterone 25mg tablets 1 tablet|
+|anabolic-steroids v1|emis|^ESCT1257880|Prasterone 25mg tablets (Special Order)|
+|anabolic-steroids v1|emis|^ESCT1257881|Prasterone 25mg tablets (Special Order) 1 tablet|
+|anabolic-steroids v1|emis|^ESCT1260013|Prasterone 6.5mg pessaries 28 pessary|
+|anabolic-steroids v1|emis|^ESCT1260014|Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)|
+|anabolic-steroids v1|emis|^ESCT1260015|Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd) 28 pessary 4 x 7 pessaries|
+|anabolic-steroids v1|emis|^ESCT1260021|Prasterone 6.5mg pessaries|
+|anabolic-steroids v1|emis|^ESCTAN940096|Androstanolone 2.5% gel|
+|anabolic-steroids v1|emis|^ESCTAN940098|Androstanolone 2.5% gel 80 gram|
+|anabolic-steroids v1|emis|^ESCTAN940100|Andractim 2.5% gel (Imported (France))|
+|anabolic-steroids v1|emis|^ESCTAN940102|Andractim 2.5% gel (Imported (France)) 80 gram|
+|anabolic-steroids v1|emis|^ESCTAN985948|Androstanolone 2.5% gel (Special Order)|
+|anabolic-steroids v1|emis|^ESCTAN985949|Androstanolone 2.5% gel 1 gram|
+|anabolic-steroids v1|emis|^ESCTAN985950|Androstanolone 2.5% gel (Special Order) 1 gram|
+|anabolic-steroids v1|emis|^ESCTDE684959|Dehydroepiandrosterone 10 mg oral tablet|
+|anabolic-steroids v1|emis|^ESCTDE684962|Dehydroepiandrosterone 25 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCTDE684965|Dehydroepiandrosterone 25 mg oral tablet|
+|anabolic-steroids v1|emis|^ESCTDE684967|Dehydroepiandrosterone 50 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCTDE865247|Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|anabolic-steroids v1|emis|^ESCTDE865250|Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 1 ampoule|
+|anabolic-steroids v1|emis|^ESCTDH1033653|DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|emis|^ESCTDH1033654|DHEA 10mg tablets (Imported (United States)) 30 tablet|
+|anabolic-steroids v1|emis|^ESCTDH1033656|DHEA 25mg tablets (Imported (United States))|
+|anabolic-steroids v1|emis|^ESCTDH1033657|DHEA 25mg tablets (Imported (United States)) 60 tablet|
+|anabolic-steroids v1|emis|^ESCTDH1033659|DHEA 25mg capsules (Imported (United States))|
+|anabolic-steroids v1|emis|^ESCTDH1033660|DHEA 25mg capsules (Imported (United States)) 60 capsule|
+|anabolic-steroids v1|emis|^ESCTDH1033662|DHEA 25mg capsules (Imported (United States)) 90 capsule|
+|anabolic-steroids v1|emis|^ESCTDH1033664|DHEA 50mg capsules (Imported (United States))|
+|anabolic-steroids v1|emis|^ESCTDH1033665|DHEA 50mg capsules (Imported (United States)) 50 capsule|
+|anabolic-steroids v1|emis|^ESCTNA1007657|Natrol DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|emis|^ESCTNA1007658|Natrol DHEA 10mg tablets (Imported (United States)) 30 tablet|
+|anabolic-steroids v1|emis|^ESCTNA865245|Nandrolone 50mg/1ml solution for injection ampoules 1 ampoule|
+|anabolic-steroids v1|emis|^ESCTOX640616|Oxandrolone 2.5mg tablets|
+|anabolic-steroids v1|emis|^ESCTOX640618|Oxandrolone 2.5 mg oral tablet|
+|anabolic-steroids v1|emis|^ESCTOX940430|Oxandrolone 2.5mg tablets 100 tablet|
+|anabolic-steroids v1|emis|^ESCTOX940431|Oxandrin 2.5mg tablets (Imported (Australia))|
+|anabolic-steroids v1|emis|^ESCTOX940432|Oxandrin 2.5mg tablets (Imported (Australia)) 100 tablet|
+|anabolic-steroids v1|emis|^ESCTOX986092|Oxandrolone 2.5mg tablets 1 tablet|
+|anabolic-steroids v1|emis|^ESCTOX986093|Oxandrolone 2.5mg tablets (Special Order)|
+|anabolic-steroids v1|emis|^ESCTOX986094|Oxandrolone 2.5mg tablets (Special Order) 1 tablet|
+|anabolic-steroids v1|emis|^ESCTPR1007656|Prasterone 10mg / Calcium carbonate 47mg tablets 30 tablet|
+|anabolic-steroids v1|emis|^ESCTPR1007715|Prasterone 10mg / Calcium carbonate 47mg tablets|
+|anabolic-steroids v1|emis|^ESCTPR1033652|Prasterone 10mg tablets 30 tablet|
+|anabolic-steroids v1|emis|^ESCTPR1033655|Prasterone 25mg tablets 60 tablet|
+|anabolic-steroids v1|emis|^ESCTPR1033658|Prasterone 25mg capsules 60 capsule|
+|anabolic-steroids v1|emis|^ESCTPR1033661|Prasterone 25mg capsules 90 capsule|
+|anabolic-steroids v1|emis|^ESCTPR1033663|Prasterone 50mg capsules 50 capsule|
+|anabolic-steroids v1|emis|^ESCTPR612799|Product containing stanozolol 5 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCTPR640617|Product containing oxandrolone 2.5 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCTPR684957|Prasterone 10mg tablets|
+|anabolic-steroids v1|emis|^ESCTPR684958|Product containing dehydroepiandrosterone 10 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCTPR684960|Prasterone 25mg capsules|
+|anabolic-steroids v1|emis|^ESCTPR684961|Product containing dehydroepiandrosterone 25 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCTPR684963|Prasterone 25mg tablets|
+|anabolic-steroids v1|emis|^ESCTPR684964|Product containing dehydroepiandrosterone 25 mg/1 each oral tablet|
+|anabolic-steroids v1|emis|^ESCTPR684966|Prasterone 50mg capsules|
+|anabolic-steroids v1|emis|^ESCTPR684968|Product containing dehydroepiandrosterone 50 mg/1 each oral capsule|
+|anabolic-steroids v1|emis|^ESCTST612798|Stanozolol 5mg tablets|
+|anabolic-steroids v1|emis|^ESCTST612800|Stanozolol 5 mg oral tablet|
+|anabolic-steroids v1|emis|^ESCTST870953|Stanozolol 5mg tablets 56 tablet|
+|anabolic-steroids v1|emis|^ESCTST870954|Stromba 5mg tablets (Sanofi-Synthelabo Ltd)|
+|anabolic-steroids v1|emis|^ESCTST870955|Stromba 5mg tablets (Sanofi-Synthelabo Ltd) 56 tablet|
+|anabolic-steroids v1|emis|^ESCTST979721|Stanozolol 2mg tablets 1 tablet|
+|anabolic-steroids v1|emis|^ESCTST979722|Stanozolol 2mg tablets (Special Order)|
+|anabolic-steroids v1|emis|^ESCTST979723|Stanozolol 2mg tablets (Special Order) 1 tablet|
+|anabolic-steroids v1|emis|^ESCTST979775|Stanozolol 2mg tablets|
+|anabolic-steroids v1|emis|DEIN815|Deca-Durabolin  Injection  50 mg/ml, 1 ml ampoule|
+|anabolic-steroids v1|emis|DHCA27980NEMIS|Dhea  Capsules  50 mg|
+|anabolic-steroids v1|emis|DHCA51872NEMIS|Dhea  Capsules  25 mg|
+|anabolic-steroids v1|emis|DHTA15776NEMIS|Dhea  Tablets  25 mg|
+|anabolic-steroids v1|emis|DHTA30806NEMIS|Dhea  Tablets  10 mg|
+|anabolic-steroids v1|emis|INPE131865NEMIS|Intrarosa  Pessaries  6.5 mg|
+|anabolic-steroids v1|emis|NAIN1930|Nandrolone Decanoate  Injection  50 mg/ml, 1 ml ampoule|
+|anabolic-steroids v1|emis|NAIN7156|Nandrolone Phenylpropionate  Injection  50 mg/ml|
+|anabolic-steroids v1|emis|OXTA52404NEMIS|Oxandrolone  Tablets  2.5 mg|
+|anabolic-steroids v1|emis|PRPE131861NEMIS|Prasterone  Pessaries  6.5 mg|
+|anabolic-steroids v1|emis|STTA16178NEMIS|Stanozolol  Tablets  2 mg|
+|anabolic-steroids v1|emis|STTA2716|Stromba  Tablets  5 mg|
+|anabolic-steroids v1|emis|STTA7079|Stanozolol  Tablets  5 mg|
+|anabolic-steroids v1|readv2|fj13.|DECA-DURABOLIN 50mg/1mL injection|
+|anabolic-steroids v1|readv2|fj21.|*STROMBA 5mg tablets|
+|anabolic-steroids v1|readv2|fj23.|*STANOZOLOL 5mg tablets|
+|anabolic-steroids v1|snomed|11474411000001104|Androstanolone 2.5% gel|
+|anabolic-steroids v1|snomed|11474511000001100|Androstanolone 2.5% gel|
+|anabolic-steroids v1|snomed|15863711000001109|Androstanolone 2.5% gel|
+|anabolic-steroids v1|snomed|11474611000001101|Andractim 2.5% gel (Imported (France))|
+|anabolic-steroids v1|snomed|11474711000001105|Andractim 2.5% gel (Imported (France))|
+|anabolic-steroids v1|snomed|15863611000001100|Androstanolone 2.5% gel (Special Order)|
+|anabolic-steroids v1|snomed|15863811000001101|Androstanolone 2.5% gel (Special Order)|
+|anabolic-steroids v1|snomed|36029311000001101|Nandrolone 50mg/1ml solution for injection ampoules|
+|anabolic-steroids v1|snomed|3879811000001103|Nandrolone 50mg/1ml solution for injection ampoules|
+|anabolic-steroids v1|snomed|3880011000001109|Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|anabolic-steroids v1|snomed|3880311000001107|Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)|
+|anabolic-steroids v1|snomed|375797005|Oxandrolone 2.5mg tablets|
+|anabolic-steroids v1|snomed|11506411000001109|Oxandrolone 2.5mg tablets|
+|anabolic-steroids v1|snomed|15878011000001105|Oxandrolone 2.5mg tablets|
+|anabolic-steroids v1|snomed|11506511000001108|Oxandrin 2.5mg tablets (Imported (Australia))|
+|anabolic-steroids v1|snomed|11506611000001107|Oxandrin 2.5mg tablets (Imported (Australia))|
+|anabolic-steroids v1|snomed|15878111000001106|Oxandrolone 2.5mg tablets (Special Order)|
+|anabolic-steroids v1|snomed|15878211000001100|Oxandrolone 2.5mg tablets (Special Order)|
+|anabolic-steroids v1|snomed|18119511000001103|Prasterone 10mg / Calcium carbonate 47mg tablets|
+|anabolic-steroids v1|snomed|18113211000001103|Prasterone 10mg / Calcium carbonate 47mg tablets|
+|anabolic-steroids v1|snomed|18113311000001106|Natrol DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|18113411000001104|Natrol DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|413957004|Prasterone 10mg tablets|
+|anabolic-steroids v1|snomed|20921711000001104|Prasterone 10mg tablets|
+|anabolic-steroids v1|snomed|20921811000001107|DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|20921911000001102|DHEA 10mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|413959001|Prasterone 25mg tablets|
+|anabolic-steroids v1|snomed|20922011000001109|Prasterone 25mg tablets|
+|anabolic-steroids v1|snomed|36773011000001101|Prasterone 25mg tablets|
+|anabolic-steroids v1|snomed|20922111000001105|DHEA 25mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|20922211000001104|DHEA 25mg tablets (Imported (United States))|
+|anabolic-steroids v1|snomed|36773111000001100|Prasterone 25mg tablets (Special Order)|
+|anabolic-steroids v1|snomed|36773211000001106|Prasterone 25mg tablets (Special Order)|
+|anabolic-steroids v1|snomed|413958009|Prasterone 25mg capsules|
+|anabolic-steroids v1|snomed|20922311000001107|Prasterone 25mg capsules|
+|anabolic-steroids v1|snomed|20922611000001102|Prasterone 25mg capsules|
+|anabolic-steroids v1|snomed|20922411000001100|DHEA 25mg capsules (Imported (United States))|
+|anabolic-steroids v1|snomed|20922511000001101|DHEA 25mg capsules (Imported (United States))|
+|anabolic-steroids v1|snomed|20922711000001106|DHEA 25mg capsules (Imported (United States))|
+|anabolic-steroids v1|snomed|413960006|Prasterone 50mg capsules|
+|anabolic-steroids v1|snomed|20922811000001103|Prasterone 50mg capsules|
+|anabolic-steroids v1|snomed|20922911000001108|DHEA 50mg capsules (Imported (United States))|
+|anabolic-steroids v1|snomed|20923011000001100|DHEA 50mg capsules (Imported (United States))|
+|anabolic-steroids v1|snomed|36915211000001107|Prasterone 6.5mg pessaries|
+|anabolic-steroids v1|snomed|36914211000001106|Prasterone 6.5mg pessaries|
+|anabolic-steroids v1|snomed|36914311000001103|Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)|
+|anabolic-steroids v1|snomed|36914411000001105|Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)|
+|anabolic-steroids v1|snomed|325740006|Stanozolol 5mg tablets|
+|anabolic-steroids v1|snomed|4563211000001109|Stanozolol 5mg tablets|
+|anabolic-steroids v1|snomed|4563311000001101|Stromba 5mg tablets (Sanofi-Synthelabo Ltd)|
+|anabolic-steroids v1|snomed|4563411000001108|Stromba 5mg tablets (Sanofi-Synthelabo Ltd)|
+|anabolic-steroids v1|snomed|15243711000001107|Stanozolol 2mg tablets|
+|anabolic-steroids v1|snomed|15237811000001109|Stanozolol 2mg tablets|
+|anabolic-steroids v1|snomed|15237911000001104|Stanozolol 2mg tablets (Special Order)|
+|anabolic-steroids v1|snomed|15238011000001102|Stanozolol 2mg tablets (Special Order)|
 |hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
 |hba1c v2|ctv3|XaPbt|HbA1c levl - IFCC standardised|
 |hba1c v2|ctv3|42W5.|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
@@ -21142,6 +23037,621 @@ All code sets required for this analysis are listed here. Individual lists for e
 |urine-blood v1|readv2|4695.|Urine blood test = +|
 |urine-blood v1|readv2|4696.|Urine blood test = ++|
 |urine-blood v1|readv2|4697.|Urine blood test = +++|
+|hypertension v1|ctv3|G24..|Secondary hypertension|
+|hypertension v1|ctv3|G240.|Malignant secondary hypertension|
+|hypertension v1|ctv3|G241.|Secondary benign hypertension|
+|hypertension v1|ctv3|G244.|Hypertension secondary to endocrine disorders|
+|hypertension v1|ctv3|G24z.|Secondary hypertension NOS|
+|hypertension v1|ctv3|Gyu20|[X]Other secondary hypertension|
+|hypertension v1|ctv3|Gyu21|[X]Hypertension secondary to other renal disorders|
+|hypertension v1|ctv3|Xa0kX|Hypertension due to renovascular disease|
+|hypertension v1|ctv3|XE0Ub|Systemic arterial hypertension|
+|hypertension v1|ctv3|G2400|Secondary malignant renovascular hypertension|
+|hypertension v1|ctv3|G240z|Secondary malignant hypertension NOS|
+|hypertension v1|ctv3|G2410|Secondary benign renovascular hypertension|
+|hypertension v1|ctv3|G241z|Secondary benign hypertension NOS|
+|hypertension v1|ctv3|G24z0|Secondary renovascular hypertension NOS|
+|hypertension v1|ctv3|G20..|Primary hypertension|
+|hypertension v1|ctv3|G202.|Systolic hypertension|
+|hypertension v1|ctv3|G20z.|Essential hypertension NOS|
+|hypertension v1|ctv3|XE0Uc|Primary hypertension|
+|hypertension v1|ctv3|XE0W8|Hypertension|
+|hypertension v1|ctv3|XSDSb|Diastolic hypertension|
+|hypertension v1|ctv3|Xa0Cs|Labile hypertension|
+|hypertension v1|ctv3|Xa3fQ|Malignant hypertension|
+|hypertension v1|ctv3|XaZWm|Stage 1 hypertension|
+|hypertension v1|ctv3|XaZWn|Severe hypertension|
+|hypertension v1|ctv3|XaZbz|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|ctv3|XaZzo|Nocturnal hypertension|
+|hypertension v1|ctv3|G2...|Hypertensive disease|
+|hypertension v1|ctv3|G200.|Malignant essential hypertension|
+|hypertension v1|ctv3|G201.|Benign essential hypertension|
+|hypertension v1|ctv3|XE0Ud|Essential hypertension NOS|
+|hypertension v1|ctv3|Xa41E|Maternal hypertension|
+|hypertension v1|ctv3|Xab9L|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
+|hypertension v1|ctv3|Xab9M|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
+|hypertension v1|ctv3|G2y..|Other specified hypertensive disease|
+|hypertension v1|ctv3|G2z..|Hypertensive disease NOS|
+|hypertension v1|ctv3|Gyu2.|[X]Hypertensive diseases|
+|hypertension v1|ctv3|XM19D|[EDTA] Renal vascular disease due to hypertension (no primary renal disease) associated with renal failure|
+|hypertension v1|ctv3|XM19E|[EDTA] Renal vascular disease due to malignant hypertension (no primary renal disease) associated with renal failure|
+|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
+|hypertension v1|emis|^ESCTMA364280|Malignant hypertension|
+|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
+|hypertension v1|readv2|G2...11|BP - hypertensive disease|
+|hypertension v1|readv2|G2...00|Hypertensive disease|
+|hypertension v1|readv2|G2z..00|Hypertensive disease NOS|
+|hypertension v1|readv2|G2y..00|Other specified hypertensive disease|
+|hypertension v1|readv2|G28..00|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G26..00|Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G26..11|Severe hypertension|
+|hypertension v1|readv2|G25..00|Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G25..11|Stage 1 hypertension|
+|hypertension v1|readv2|G251.00|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
+|hypertension v1|readv2|G250.00|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
+|hypertension v1|readv2|G24..00|Secondary hypertension|
+|hypertension v1|readv2|G24z.00|Secondary hypertension NOS|
+|hypertension v1|readv2|G24zz00|Secondary hypertension NOS|
+|hypertension v1|readv2|G24z000|Secondary renovascular hypertension NOS|
+|hypertension v1|readv2|G244.00|Hypertension secondary to endocrine disorders|
+|hypertension v1|readv2|G241.00|Secondary benign hypertension|
+|hypertension v1|readv2|G241z00|Secondary benign hypertension NOS|
+|hypertension v1|readv2|G241000|Secondary benign renovascular hypertension|
+|hypertension v1|readv2|G240.00|Secondary malignant hypertension|
+|hypertension v1|readv2|G240z00|Secondary malignant hypertension NOS|
+|hypertension v1|readv2|G240000|Secondary malignant renovascular hypertension|
+|hypertension v1|readv2|G20..11|High blood pressure|
+|hypertension v1|readv2|G20..00|Essential hypertension|
+|hypertension v1|readv2|G20..12|Primary hypertension|
+|hypertension v1|readv2|G20z.00|Essential hypertension NOS|
+|hypertension v1|readv2|G20z.11|Hypertension NOS|
+|hypertension v1|readv2|G203.00|Diastolic hypertension|
+|hypertension v1|readv2|G202.00|Systolic hypertension|
+|hypertension v1|readv2|G201.00|Benign essential hypertension|
+|hypertension v1|readv2|G200.00|Malignant essential hypertension|
+|hypertension v1|readv2|Gyu2.00|[X]Hypertensive diseases|
+|hypertension v1|readv2|Gyu2100|[X]Hypertension secondary to other renal disorders|
+|hypertension v1|readv2|Gyu2000|[X]Other secondary hypertension|
+|diabetes v1|ctv3|C10..|DM - Diabetes mellitus|
+|diabetes v1|ctv3|C100.|Diabetes mellitus with no mention of complication|
+|diabetes v1|ctv3|C1000|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes v1|ctv3|C1001|Maturity onset diabetes|
+|diabetes v1|ctv3|C100z|Diabetes mellitus NOS with no mention of complication|
+|diabetes v1|ctv3|C101.|Diabetic ketoacidosis|
+|diabetes v1|ctv3|C1010|Diabetes mellitus, juvenile type, with ketoacidosis|
+|diabetes v1|ctv3|C1011|Diabetes mellitus, adult onset, with ketoacidosis|
+|diabetes v1|ctv3|C101y|Other specified diabetes mellitus with ketoacidosis|
+|diabetes v1|ctv3|C101z|Diabetes mellitus NOS with ketoacidosis|
+|diabetes v1|ctv3|C102.|Diabetes mellitus with hyperosmolar coma|
+|diabetes v1|ctv3|C1020|Diabetes mellitus, juvenile type, with hyperosmolar coma|
+|diabetes v1|ctv3|C1021|Diabetes mellitus, adult onset, with hyperosmolar coma|
+|diabetes v1|ctv3|C102z|Diabetes mellitus NOS with hyperosmolar coma|
+|diabetes v1|ctv3|C103.|Diabetes mellitus with ketoacidotic coma|
+|diabetes v1|ctv3|C1030|Diabetes mellitus, juvenile type, with ketoacidotic coma|
+|diabetes v1|ctv3|C1031|Diabetes mellitus, adult onset, with ketoacidotic coma|
+|diabetes v1|ctv3|C103y|Other specified diabetes mellitus with coma|
+|diabetes v1|ctv3|C103z|Diabetes mellitus NOS with ketoacidotic coma|
+|diabetes v1|ctv3|C1040|Diabetes mellitus, juvenile type, with renal manifestation|
+|diabetes v1|ctv3|C1041|Diabetes mellitus, adult onset, with renal manifestation|
+|diabetes v1|ctv3|C104y|Other specified diabetes mellitus with renal complications|
+|diabetes v1|ctv3|C104z|Diabetes mellitus with nephropathy NOS|
+|diabetes v1|ctv3|C105.|Diabetes mellitus with ophthalmic manifestation|
+|diabetes v1|ctv3|C1050|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
+|diabetes v1|ctv3|C1051|Diabetes mellitus, adult onset, with ophthalmic manifestation|
+|diabetes v1|ctv3|C105y|Other specified diabetes mellitus with ophthalmic complications|
+|diabetes v1|ctv3|C105z|Diabetes mellitus NOS with ophthalmic manifestation|
+|diabetes v1|ctv3|C1060|Diabetes mellitus, juvenile type, with neurological manifestation|
+|diabetes v1|ctv3|C1061|Diabetes mellitus, adult onset, with neurological manifestation|
+|diabetes v1|ctv3|C106y|Other specified diabetes mellitus with neurological complications|
+|diabetes v1|ctv3|C106z|Diabetes mellitus NOS with neurological manifestation|
+|diabetes v1|ctv3|C1070|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
+|diabetes v1|ctv3|C1071|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
+|diabetes v1|ctv3|C1072|Diabetes mellitus, adult with gangrene|
+|diabetes v1|ctv3|C107y|Other specified diabetes mellitus with peripheral circulatory complications|
+|diabetes v1|ctv3|C107z|Diabetes mellitus NOS with peripheral circulatory disorder|
+|diabetes v1|ctv3|C1080|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes v1|ctv3|C1081|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes v1|ctv3|C1082|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes v1|ctv3|C1083|Insulin-dependent diabetes mellitus with multiple complications|
+|diabetes v1|ctv3|C1085|Insulin-dependent diabetes mellitus with ulcer|
+|diabetes v1|ctv3|C1086|Insulin-dependent diabetes mellitus with gangrene|
+|diabetes v1|ctv3|C1087|IDDM - Insulin-dependent diabetes mellitus with retinopathy|
+|diabetes v1|ctv3|C1088|Insulin-dependent diabetes mellitus - poor control|
+|diabetes v1|ctv3|C1089|Insulin-dependent diabetes maturity onset|
+|diabetes v1|ctv3|C108y|Other specified diabetes mellitus with multiple complications|
+|diabetes v1|ctv3|C108z|Unspecified diabetes mellitus with multiple complications|
+|diabetes v1|ctv3|C1090|Non-insulin-dependent diabetes mellitus with renal complications|
+|diabetes v1|ctv3|C1091|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes v1|ctv3|C1092|Non-insulin-dependent diabetes mellitus with neurological complications|
+|diabetes v1|ctv3|C1093|Non-insulin-dependent diabetes mellitus with multiple complications|
+|diabetes v1|ctv3|C1094|Non-insulin-dependent diabetes mellitus with ulcer|
+|diabetes v1|ctv3|C1095|Non-insulin-dependent diabetes mellitus with gangrene|
+|diabetes v1|ctv3|C1096|NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy|
+|diabetes v1|ctv3|C1097|Non-insulin-dependent diabetes mellitus - poor control|
+|diabetes v1|ctv3|C10A0|Malnutrition-related diabetes mellitus with coma|
+|diabetes v1|ctv3|C10A1|Malnutrition-related diabetes mellitus with ketoacidosis|
+|diabetes v1|ctv3|C10A2|Malnutrition-related diabetes mellitus with renal complications|
+|diabetes v1|ctv3|C10A3|Malnutrition-related diabetes mellitus with ophthalmic complications|
+|diabetes v1|ctv3|C10A4|Malnutrition-related diabetes mellitus with neurological complications|
+|diabetes v1|ctv3|C10A5|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
+|diabetes v1|ctv3|C10A6|Malnutrition-related diabetes mellitus with multiple complications|
+|diabetes v1|ctv3|C10A7|Malnutrition-related diabetes mellitus without complications|
+|diabetes v1|ctv3|C10B0|Steroid-induced diabetes mellitus without complication|
+|diabetes v1|ctv3|C10y.|Diabetes mellitus with other specified manifestation|
+|diabetes v1|ctv3|C10y0|Diabetes mellitus, juvenile type, with other specified manifestation|
+|diabetes v1|ctv3|C10y1|Diabetes mellitus, adult onset, with other specified manifestation|
+|diabetes v1|ctv3|C10yy|Other specified diabetes mellitus with other specified complications|
+|diabetes v1|ctv3|C10yz|Diabetes mellitus NOS with other specified manifestation|
+|diabetes v1|ctv3|C10z.|Diabetes mellitus with unspecified complication|
+|diabetes v1|ctv3|C10z0|Diabetes mellitus, juvenile type, with unspecified complication|
+|diabetes v1|ctv3|C10z1|Diabetes mellitus, adult onset, with unspecified complication|
+|diabetes v1|ctv3|C10zy|Other specified diabetes mellitus with unspecified complications|
+|diabetes v1|ctv3|C10zz|Diabetes mellitus NOS with unspecified complication|
+|diabetes v1|ctv3|Cyu20|[X]Other specified diabetes mellitus|
+|diabetes v1|ctv3|Cyu21|[X]Malnutrition-related diabetes mellitus with other specified complications|
+|diabetes v1|ctv3|Cyu22|[X]Malnutrition-related diabetes mellitus with unspecified complications|
+|diabetes v1|ctv3|Cyu23|[X]Unspecified diabetes mellitus with renal complications|
+|diabetes v1|ctv3|L180.|Diabetes mellitus during pregnancy, childbirth and the puerperium|
+|diabetes v1|ctv3|L1800|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
+|diabetes v1|ctv3|L1801|Diabetes mellitus during pregnancy - baby delivered|
+|diabetes v1|ctv3|L1802|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
+|diabetes v1|ctv3|L1803|Diabetes mellitus during pregnancy - baby not yet delivered|
+|diabetes v1|ctv3|L1804|Diabetes mellitus in the puerperium - baby delivered during previous episode of care|
+|diabetes v1|ctv3|L1805|Pre-existing diabetes mellitus, insulin-dependent|
+|diabetes v1|ctv3|L1806|Pre-existing diabetes mellitus, non-insulin-dependent|
+|diabetes v1|ctv3|L1807|Pre-existing malnutrition-related diabetes mellitus|
+|diabetes v1|ctv3|L1808|Diabetes mellitus arising in pregnancy|
+|diabetes v1|ctv3|L180z|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
+|diabetes v1|ctv3|Lyu29|[X]Pre-existing diabetes mellitus, unspecified|
+|diabetes v1|ctv3|Q441.|Neonatal diabetes mellitus|
+|diabetes v1|ctv3|X40J4|Insulin-dependent diabetes mellitus|
+|diabetes v1|ctv3|X40J5|Non-insulin-dependent diabetes mellitus|
+|diabetes v1|ctv3|X40J6|Insulin treated Type 2 diabetes mellitus|
+|diabetes v1|ctv3|X40J7|Malnutrition-related diabetes mellitus|
+|diabetes v1|ctv3|X40J8|Malnutrition-related diabetes mellitus - fibrocalculous|
+|diabetes v1|ctv3|X40J9|Malnutrition-related diabetes mellitus - protein-deficient|
+|diabetes v1|ctv3|X40JA|Secondary diabetes mellitus|
+|diabetes v1|ctv3|X40JB|Secondary pancreatic diabetes mellitus|
+|diabetes v1|ctv3|X40JC|Secondary endocrine diabetes mellitus|
+|diabetes v1|ctv3|X40JE|Reaven's syndrome|
+|diabetes v1|ctv3|X40JF|Transitory neonatal diabetes mellitus|
+|diabetes v1|ctv3|X40JG|Genetic syndromes of diabetes mellitus|
+|diabetes v1|ctv3|X40JI|Maturity onset diabetes in youth type 1|
+|diabetes v1|ctv3|X40JJ|Diabetes mellitus autosomal dominant type 2|
+|diabetes v1|ctv3|X40JN|Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus|
+|diabetes v1|ctv3|X40JQ|Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus|
+|diabetes v1|ctv3|X40JV|Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities|
+|diabetes v1|ctv3|X40JX|Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities|
+|diabetes v1|ctv3|X40JY|Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea|
+|diabetes v1|ctv3|X40Ja|Abnormal metabolic state in diabetes mellitus|
+|diabetes v1|ctv3|X50GO|Soft tissue complication of diabetes mellitus|
+|diabetes v1|ctv3|XE10E|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes v1|ctv3|XE10F|Diabetes mellitus, adult onset, with no mention of complication|
+|diabetes v1|ctv3|XE10G|Diabetes mellitus with renal manifestation|
+|diabetes v1|ctv3|XE10H|Diabetes mellitus with neurological manifestation|
+|diabetes v1|ctv3|XE10I|Diabetes mellitus with peripheral circulatory disorder|
+|diabetes v1|ctv3|XE12C|Insulin dependent diabetes mel|
+|diabetes v1|ctv3|XE15k|Diabetes mellitus with polyneuropathy|
+|diabetes v1|ctv3|XM19i|[EDTA] Diabetes Type I (insulin dependent) associated with renal failure|
+|diabetes v1|ctv3|XM19j|[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure|
+|diabetes v1|ctv3|XM1Qx|Diabetes mellitus with gangrene|
+|diabetes v1|ctv3|XSETH|Maturity onset diabetes mellitus in young|
+|diabetes v1|ctv3|XSETK|Drug-induced diabetes mellitus|
+|diabetes v1|ctv3|XSETp|Diabetes mellitus due to insulin receptor antibodies|
+|diabetes v1|ctv3|Xa08a|Small for gestation neonatal diabetes mellitus|
+|diabetes v1|ctv3|Xa4g7|Unstable type 1 diabetes mellitus|
+|diabetes v1|ctv3|Xa9FG|Postpancreatectomy diabetes mellitus|
+|diabetes v1|ctv3|XaA6b|Perceived control of insulin-dependent diabetes|
+|diabetes v1|ctv3|XaELP|Insulin-dependent diabetes without complication|
+|diabetes v1|ctv3|XaELQ|Non-insulin-dependent diabetes mellitus without complication|
+|diabetes v1|ctv3|XaEnn|Type I diabetes mellitus with mononeuropathy|
+|diabetes v1|ctv3|XaEno|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes v1|ctv3|XaEnp|Type II diabetes mellitus with mononeuropathy|
+|diabetes v1|ctv3|XaEnq|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes v1|ctv3|XaF04|Type 1 diabetes mellitus with nephropathy|
+|diabetes v1|ctv3|XaF05|Type 2 diabetes mellitus with nephropathy|
+|diabetes v1|ctv3|XaFWG|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|ctv3|XaFWI|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|ctv3|XaFm8|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes v1|ctv3|XaFmA|Type II diabetes mellitus with diabetic cataract|
+|diabetes v1|ctv3|XaFmK|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes v1|ctv3|XaFmL|Type 1 diabetes mellitus with arthropathy|
+|diabetes v1|ctv3|XaFmM|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|ctv3|XaFn7|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
+|diabetes v1|ctv3|XaFn8|Non-insulin dependent diabetes mellitus with arthropathy|
+|diabetes v1|ctv3|XaFn9|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|ctv3|XaIrf|Hyperosmolar non-ketotic state in type II diabetes mellitus|
+|diabetes v1|ctv3|XaIyz|Diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|ctv3|XaIz0|Diabetes mellitus with persistent proteinuria|
+|diabetes v1|ctv3|XaIzM|Type 1 diabetes mellitus with persistent proteinuria|
+|diabetes v1|ctv3|XaIzN|Type 1 diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|ctv3|XaIzQ|Type 2 diabetes mellitus with persistent proteinuria|
+|diabetes v1|ctv3|XaIzR|Type 2 diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|ctv3|XaJQp|Type II diabetes mellitus with exudative maculopathy|
+|diabetes v1|ctv3|XaJSr|Type I diabetes mellitus with exudative maculopathy|
+|diabetes v1|ctv3|XaJUI|Diabetes mellitus induced by non-steroid drugs|
+|diabetes v1|ctv3|XaJlL|Secondary pancreatic diabetes mellitus without complication|
+|diabetes v1|ctv3|XaJlM|Diabetes mellitus induced by non-steroid drugs without complication|
+|diabetes v1|ctv3|XaJlQ|Lipoatrophic diabetes mellitus without complication|
+|diabetes v1|ctv3|XaJlR|Secondary diabetes mellitus without complication|
+|diabetes v1|ctv3|XaKyW|Type I diabetes mellitus with gastroparesis|
+|diabetes v1|ctv3|XaKyX|Type II diabetes mellitus with gastroparesis|
+|diabetes v1|ctv3|XaMzI|Cystic fibrosis related diabetes mellitus|
+|diabetes v1|ctv3|XaOPt|Maternally inherited diabetes mellitus|
+|diabetes v1|ctv3|XaOPu|Latent autoimmune diabetes mellitus in adult|
+|diabetes v1|ctv3|XacoB|Maturity onset diabetes of the young type 5|
+|diabetes v1|ctv3|XaIfG|Type II diabetes on insulin|
+|diabetes v1|ctv3|XaIfI|Type II diabetes on diet only|
+|diabetes v1|emis|^ESCTGE801661|Gestational diabetes, delivered|
+|diabetes v1|emis|^ESCTGE801662|Gestational diabetes mellitus complicating pregnancy|
+|diabetes v1|emis|^ESCTMA257526|Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn|
+|diabetes v1|emis|EMISQNU2|Number of admissions for ketoacidosis|
+|diabetes v1|emis|ESCTDI20|Diabetic ketoacidosis without coma|
+|diabetes v1|emis|ESCTDI22|Diabetic severe hyperglycaemia|
+|diabetes v1|emis|ESCTDI23|Diabetic hyperosmolar non-ketotic state|
+|diabetes v1|emis|ESCTDR3|Drug-induced diabetes mellitus|
+|diabetes v1|emis|ESCTSE11|Secondary endocrine diabetes mellitus|
+|diabetes v1|readv2|C10..00|Diabetes mellitus|
+|diabetes v1|readv2|C100.00|Diabetes mellitus with no mention of complication|
+|diabetes v1|readv2|C100000|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes v1|readv2|C100011|Insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C100100|Diabetes mellitus, adult onset, with no mention of complication|
+|diabetes v1|readv2|C100111|Maturity onset diabetes|
+|diabetes v1|readv2|C100112|Non-insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C100z00|Diabetes mellitus NOS with no mention of complication|
+|diabetes v1|readv2|C101.00|Diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C101000|Diabetes mellitus, juvenile type, with ketoacidosis|
+|diabetes v1|readv2|C101100|Diabetes mellitus, adult onset, with ketoacidosis|
+|diabetes v1|readv2|C101y00|Other specified diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C101z00|Diabetes mellitus NOS with ketoacidosis|
+|diabetes v1|readv2|C102.00|Diabetes mellitus with hyperosmolar coma|
+|diabetes v1|readv2|C102000|Diabetes mellitus, juvenile type, with hyperosmolar coma|
+|diabetes v1|readv2|C102100|Diabetes mellitus, adult onset, with hyperosmolar coma|
+|diabetes v1|readv2|C102z00|Diabetes mellitus NOS with hyperosmolar coma|
+|diabetes v1|readv2|C103.00|Diabetes mellitus with ketoacidotic coma|
+|diabetes v1|readv2|C103000|Diabetes mellitus, juvenile type, with ketoacidotic coma|
+|diabetes v1|readv2|C103100|Diabetes mellitus, adult onset, with ketoacidotic coma|
+|diabetes v1|readv2|C103y00|Other specified diabetes mellitus with coma|
+|diabetes v1|readv2|C103z00|Diabetes mellitus NOS with ketoacidotic coma|
+|diabetes v1|readv2|C104.00|Diabetes mellitus with renal manifestation|
+|diabetes v1|readv2|C104000|Diabetes mellitus, juvenile type, with renal manifestation|
+|diabetes v1|readv2|C104100|Diabetes mellitus, adult onset, with renal manifestation|
+|diabetes v1|readv2|C104y00|Other specified diabetes mellitus with renal complications|
+|diabetes v1|readv2|C104z00|Diabetes mellitus with nephropathy NOS|
+|diabetes v1|readv2|C105.00|Diabetes mellitus with ophthalmic manifestation|
+|diabetes v1|readv2|C105000|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
+|diabetes v1|readv2|C105100|Diabetes mellitus, adult onset, with ophthalmic manifestation|
+|diabetes v1|readv2|C105y00|Other specified diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C105z00|Diabetes mellitus NOS with ophthalmic manifestation|
+|diabetes v1|readv2|C106.00|Diabetes mellitus with neurological manifestation|
+|diabetes v1|readv2|C106.12|Diabetes mellitus with neuropathy|
+|diabetes v1|readv2|C106.13|Diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C106000|Diabetes mellitus, juvenile type, with neurological manifestation|
+|diabetes v1|readv2|C106100|Diabetes mellitus, adult onset, with neurological manifestation|
+|diabetes v1|readv2|C106y00|Other specified diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C106z00|Diabetes mellitus NOS with neurological manifestation|
+|diabetes v1|readv2|C107.00|Diabetes mellitus with peripheral circulatory disorder|
+|diabetes v1|readv2|C107.11|Diabetes mellitus with gangrene|
+|diabetes v1|readv2|C107000|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
+|diabetes v1|readv2|C107100|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
+|diabetes v1|readv2|C107200|Diabetes mellitus, adult with gangrene|
+|diabetes v1|readv2|C107y00|Other specified diabetes mellitus with peripheral circulatory complications|
+|diabetes v1|readv2|C107z00|Diabetes mellitus NOS with peripheral circulatory disorder|
+|diabetes v1|readv2|C108.00|Insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C108.11|IDDM-Insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C108.12|Type 1 diabetes mellitus|
+|diabetes v1|readv2|C108.13|Type I diabetes mellitus|
+|diabetes v1|readv2|C108000|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes v1|readv2|C108011|Type I diabetes mellitus with renal complications|
+|diabetes v1|readv2|C108012|Type 1 diabetes mellitus with renal complications|
+|diabetes v1|readv2|C108100|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C108111|Type I diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C108112|Type 1 diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C108200|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C108211|Type I diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C108212|Type 1 diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C108300|Insulin dependent diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C108311|Type I diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C108312|Type 1 diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C108400|Unstable insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C108411|Unstable type I diabetes mellitus|
+|diabetes v1|readv2|C108412|Unstable type 1 diabetes mellitus|
+|diabetes v1|readv2|C108500|Insulin dependent diabetes mellitus with ulcer|
+|diabetes v1|readv2|C108511|Type I diabetes mellitus with ulcer|
+|diabetes v1|readv2|C108512|Type 1 diabetes mellitus with ulcer|
+|diabetes v1|readv2|C108600|Insulin dependent diabetes mellitus with gangrene|
+|diabetes v1|readv2|C108611|Type I diabetes mellitus with gangrene|
+|diabetes v1|readv2|C108612|Type 1 diabetes mellitus with gangrene|
+|diabetes v1|readv2|C108700|Insulin dependent diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C108711|Type I diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C108712|Type 1 diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C108800|Insulin dependent diabetes mellitus - poor control|
+|diabetes v1|readv2|C108811|Type I diabetes mellitus - poor control|
+|diabetes v1|readv2|C108812|Type 1 diabetes mellitus - poor control|
+|diabetes v1|readv2|C108900|Insulin dependent diabetes maturity onset|
+|diabetes v1|readv2|C108911|Type I diabetes mellitus maturity onset|
+|diabetes v1|readv2|C108912|Type 1 diabetes mellitus maturity onset|
+|diabetes v1|readv2|C108A00|Insulin-dependent diabetes without complication|
+|diabetes v1|readv2|C108A11|Type I diabetes mellitus without complication|
+|diabetes v1|readv2|C108A12|Type 1 diabetes mellitus without complication|
+|diabetes v1|readv2|C108B00|Insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C108B11|Type I diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C108B12|Type 1 diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C108C00|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C108C11|Type I diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C108C12|Type 1 diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C108D00|Insulin dependent diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C108D11|Type I diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C108D12|Type 1 diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C108E00|Insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C108E11|Type I diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C108E12|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C108F00|Insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C108F11|Type I diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C108F12|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C108G00|Insulin dependent diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C108G11|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C108G12|Type 1 diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C108H00|Insulin dependent diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C108H11|Type I diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C108H12|Type 1 diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C108J00|Insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C108J11|Type I diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C108J12|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C108y00|Other specified diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C108z00|Unspecified diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C109.00|Non-insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C109.11|NIDDM - Non-insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C109.12|Type 2 diabetes mellitus|
+|diabetes v1|readv2|C109.13|Type II diabetes mellitus|
+|diabetes v1|readv2|C109000|Non-insulin-dependent diabetes mellitus with renal complications|
+|diabetes v1|readv2|C109011|Type II diabetes mellitus with renal complications|
+|diabetes v1|readv2|C109012|Type 2 diabetes mellitus with renal complications|
+|diabetes v1|readv2|C109100|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C109111|Type II diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C109112|Type 2 diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C109200|Non-insulin-dependent diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C109211|Type II diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C109212|Type 2 diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C109300|Non-insulin-dependent diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C109311|Type II diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C109312|Type 2 diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C109400|Non-insulin dependent diabetes mellitus with ulcer|
+|diabetes v1|readv2|C109411|Type II diabetes mellitus with ulcer|
+|diabetes v1|readv2|C109412|Type 2 diabetes mellitus with ulcer|
+|diabetes v1|readv2|C109500|Non-insulin dependent diabetes mellitus with gangrene|
+|diabetes v1|readv2|C109511|Type II diabetes mellitus with gangrene|
+|diabetes v1|readv2|C109512|Type 2 diabetes mellitus with gangrene|
+|diabetes v1|readv2|C109600|Non-insulin-dependent diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C109611|Type II diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C109612|Type 2 diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C109700|Non-insulin dependent diabetes mellitus - poor control|
+|diabetes v1|readv2|C109711|Type II diabetes mellitus - poor control|
+|diabetes v1|readv2|C109712|Type 2 diabetes mellitus - poor control|
+|diabetes v1|readv2|C109800|Reaven's syndrome|
+|diabetes v1|readv2|C109900|Non-insulin-dependent diabetes mellitus without complication|
+|diabetes v1|readv2|C109911|Type II diabetes mellitus without complication|
+|diabetes v1|readv2|C109912|Type 2 diabetes mellitus without complication|
+|diabetes v1|readv2|C109A00|Non-insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C109A11|Type II diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C109A12|Type 2 diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C109B00|Non-insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C109B11|Type II diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C109B12|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C109C00|Non-insulin dependent diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C109C11|Type II diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C109C12|Type 2 diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C109D00|Non-insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C109D11|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C109D12|Type 2 diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C109E00|Non-insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C109E11|Type II diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C109E12|Type 2 diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C109F00|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C109F11|Type II diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C109F12|Type 2 diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C109G00|Non-insulin dependent diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C109G11|Type II diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C109G12|Type 2 diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C109H00|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C109H11|Type II diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C109H12|Type 2 diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C109J00|Insulin treated Type 2 diabetes mellitus|
+|diabetes v1|readv2|C109J11|Insulin treated non-insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C109J12|Insulin treated Type II diabetes mellitus|
+|diabetes v1|readv2|C109K00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
+|diabetes v1|readv2|C10A.00|Malnutrition-related diabetes mellitus|
+|diabetes v1|readv2|C10A000|Malnutrition-related diabetes mellitus with coma|
+|diabetes v1|readv2|C10A100|Malnutrition-related diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C10A200|Malnutrition-related diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10A300|Malnutrition-related diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10A400|Malnutrition-related diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10A500|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
+|diabetes v1|readv2|C10A600|Malnutrition-related diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10A700|Malnutrition-related diabetes mellitus without complications|
+|diabetes v1|readv2|C10AW00|Malnutrition-related diabetes mellitus with unspecified complications|
+|diabetes v1|readv2|C10AX00|Malnutrition-related diabetes mellitus with other specified complications|
+|diabetes v1|readv2|C10B.00|Diabetes mellitus induced by steroids|
+|diabetes v1|readv2|C10B000|Steroid induced diabetes mellitus without complication|
+|diabetes v1|readv2|C10C.00|Diabetes mellitus autosomal dominant|
+|diabetes v1|readv2|C10C.11|Maturity onset diabetes in youth|
+|diabetes v1|readv2|C10C.12|Maturity onset diabetes in youth type 1|
+|diabetes v1|readv2|C10D.00|Diabetes mellitus autosomal dominant type 2|
+|diabetes v1|readv2|C10D.11|Maturity onset diabetes in youth type 2|
+|diabetes v1|readv2|C10E.00|Type 1 diabetes mellitus|
+|diabetes v1|readv2|C10E.11|Type I diabetes mellitus|
+|diabetes v1|readv2|C10E.12|Insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C10E000|Type 1 diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10E011|Type I diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10E012|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10E100|Type 1 diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10E111|Type I diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10E112|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10E200|Type 1 diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10E211|Type I diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10E212|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10E300|Type 1 diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10E311|Type I diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10E312|Insulin dependent diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10E400|Unstable type 1 diabetes mellitus|
+|diabetes v1|readv2|C10E411|Unstable type I diabetes mellitus|
+|diabetes v1|readv2|C10E412|Unstable insulin dependent diabetes mellitus|
+|diabetes v1|readv2|C10E500|Type 1 diabetes mellitus with ulcer|
+|diabetes v1|readv2|C10E511|Type I diabetes mellitus with ulcer|
+|diabetes v1|readv2|C10E512|Insulin dependent diabetes mellitus with ulcer|
+|diabetes v1|readv2|C10E600|Type 1 diabetes mellitus with gangrene|
+|diabetes v1|readv2|C10E611|Type I diabetes mellitus with gangrene|
+|diabetes v1|readv2|C10E612|Insulin dependent diabetes mellitus with gangrene|
+|diabetes v1|readv2|C10E700|Type 1 diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C10E711|Type I diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C10E712|Insulin dependent diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C10E800|Type 1 diabetes mellitus - poor control|
+|diabetes v1|readv2|C10E811|Type I diabetes mellitus - poor control|
+|diabetes v1|readv2|C10E812|Insulin dependent diabetes mellitus - poor control|
+|diabetes v1|readv2|C10E900|Type 1 diabetes mellitus maturity onset|
+|diabetes v1|readv2|C10E911|Type I diabetes mellitus maturity onset|
+|diabetes v1|readv2|C10E912|Insulin dependent diabetes maturity onset|
+|diabetes v1|readv2|C10EA00|Type 1 diabetes mellitus without complication|
+|diabetes v1|readv2|C10EA11|Type I diabetes mellitus without complication|
+|diabetes v1|readv2|C10EA12|Insulin-dependent diabetes without complication|
+|diabetes v1|readv2|C10EB00|Type 1 diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C10EB11|Type I diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C10EB12|Insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C10EC00|Type 1 diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C10EC11|Type I diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C10EC12|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C10ED00|Type 1 diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C10ED11|Type I diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C10ED12|Insulin dependent diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C10EE00|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C10EE11|Type I diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C10EE12|Insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C10EF00|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C10EF11|Type I diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C10EF12|Insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C10EG00|Type 1 diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C10EG11|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C10EG12|Insulin dependent diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C10EH00|Type 1 diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C10EH11|Type I diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C10EH12|Insulin dependent diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C10EJ00|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C10EJ11|Type I diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C10EJ12|Insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C10EK00|Type 1 diabetes mellitus with persistent proteinuria|
+|diabetes v1|readv2|C10EK11|Type I diabetes mellitus with persistent proteinuria|
+|diabetes v1|readv2|C10EL00|Type 1 diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|readv2|C10EL11|Type I diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|readv2|C10EM00|Type 1 diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C10EM11|Type I diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C10EN00|Type 1 diabetes mellitus with ketoacidotic coma|
+|diabetes v1|readv2|C10EN11|Type I diabetes mellitus with ketoacidotic coma|
+|diabetes v1|readv2|C10EP00|Type 1 diabetes mellitus with exudative maculopathy|
+|diabetes v1|readv2|C10EP11|Type I diabetes mellitus with exudative maculopathy|
+|diabetes v1|readv2|C10EQ00|Type 1 diabetes mellitus with gastroparesis|
+|diabetes v1|readv2|C10EQ11|Type I diabetes mellitus with gastroparesis|
+|diabetes v1|readv2|C10ER00|Latent autoimmune diabetes mellitus in adult|
+|diabetes v1|readv2|C10F.00|Type 2 diabetes mellitus|
+|diabetes v1|readv2|C10F.11|Type II diabetes mellitus|
+|diabetes v1|readv2|C10F000|Type 2 diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10F011|Type II diabetes mellitus with renal complications|
+|diabetes v1|readv2|C10F100|Type 2 diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10F111|Type II diabetes mellitus with ophthalmic complications|
+|diabetes v1|readv2|C10F200|Type 2 diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10F211|Type II diabetes mellitus with neurological complications|
+|diabetes v1|readv2|C10F300|Type 2 diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10F311|Type II diabetes mellitus with multiple complications|
+|diabetes v1|readv2|C10F400|Type 2 diabetes mellitus with ulcer|
+|diabetes v1|readv2|C10F411|Type II diabetes mellitus with ulcer|
+|diabetes v1|readv2|C10F500|Type 2 diabetes mellitus with gangrene|
+|diabetes v1|readv2|C10F511|Type II diabetes mellitus with gangrene|
+|diabetes v1|readv2|C10F600|Type 2 diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C10F611|Type II diabetes mellitus with retinopathy|
+|diabetes v1|readv2|C10F700|Type 2 diabetes mellitus - poor control|
+|diabetes v1|readv2|C10F711|Type II diabetes mellitus - poor control|
+|diabetes v1|readv2|C10F800|Reaven's syndrome|
+|diabetes v1|readv2|C10F811|Metabolic syndrome X|
+|diabetes v1|readv2|C10F900|Type 2 diabetes mellitus without complication|
+|diabetes v1|readv2|C10F911|Type II diabetes mellitus without complication|
+|diabetes v1|readv2|C10FA00|Type 2 diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C10FA11|Type II diabetes mellitus with mononeuropathy|
+|diabetes v1|readv2|C10FB00|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C10FB11|Type II diabetes mellitus with polyneuropathy|
+|diabetes v1|readv2|C10FC00|Type 2 diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C10FC11|Type II diabetes mellitus with nephropathy|
+|diabetes v1|readv2|C10FD00|Type 2 diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C10FD11|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes v1|readv2|C10FE00|Type 2 diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C10FE11|Type II diabetes mellitus with diabetic cataract|
+|diabetes v1|readv2|C10FF00|Type 2 diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C10FF11|Type II diabetes mellitus with peripheral angiopathy|
+|diabetes v1|readv2|C10FG00|Type 2 diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C10FG11|Type II diabetes mellitus with arthropathy|
+|diabetes v1|readv2|C10FH00|Type 2 diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C10FH11|Type II diabetes mellitus with neuropathic arthropathy|
+|diabetes v1|readv2|C10FJ00|Insulin treated Type 2 diabetes mellitus|
+|diabetes v1|readv2|C10FJ11|Insulin treated Type II diabetes mellitus|
+|diabetes v1|readv2|C10FK00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
+|diabetes v1|readv2|C10FK11|Hyperosmolar non-ketotic state in type II diabetes mellitus|
+|diabetes v1|readv2|C10FL00|Type 2 diabetes mellitus with persistent proteinuria|
+|diabetes v1|readv2|C10FL11|Type II diabetes mellitus with persistent proteinuria|
+|diabetes v1|readv2|C10FM00|Type 2 diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|readv2|C10FM11|Type II diabetes mellitus with persistent microalbuminuria|
+|diabetes v1|readv2|C10FN00|Type 2 diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C10FN11|Type II diabetes mellitus with ketoacidosis|
+|diabetes v1|readv2|C10FP00|Type 2 diabetes mellitus with ketoacidotic coma|
+|diabetes v1|readv2|C10FP11|Type II diabetes mellitus with ketoacidotic coma|
+|diabetes v1|readv2|C10FQ00|Type 2 diabetes mellitus with exudative maculopathy|
+|diabetes v1|readv2|C10FQ11|Type II diabetes mellitus with exudative maculopathy|
+|diabetes v1|readv2|C10FR00|Type 2 diabetes mellitus with gastroparesis|
+|diabetes v1|readv2|C10FR11|Type II diabetes mellitus with gastroparesis|
+|diabetes v1|readv2|C10FS00|Maternally inherited diabetes mellitus|
+|diabetes v1|readv2|C10G.00|Secondary pancreatic diabetes mellitus|
+|diabetes v1|readv2|C10G000|Secondary pancreatic diabetes mellitus without complication|
+|diabetes v1|readv2|C10H.00|Diabetes mellitus induced by non-steroid drugs|
+|diabetes v1|readv2|C10H000|Diabetes mellitus induced by non-steroid drugs without complication|
+|diabetes v1|readv2|C10M.00|Lipoatrophic diabetes mellitus|
+|diabetes v1|readv2|C10M000|Lipoatrophic diabetes mellitus without complication|
+|diabetes v1|readv2|C10N.00|Secondary diabetes mellitus|
+|diabetes v1|readv2|C10N000|Secondary diabetes mellitus without complication|
+|diabetes v1|readv2|C10N100|Cystic fibrosis related diabetes mellitus|
+|diabetes v1|readv2|C10Q.00|Maturity onset diabetes of the young type 5|
+|diabetes v1|readv2|C10y.00|Diabetes mellitus with other specified manifestation|
+|diabetes v1|readv2|C10y000|Diabetes mellitus, juvenile type, with other specified manifestation|
+|diabetes v1|readv2|C10y100|Diabetes mellitus, adult onset, with other specified manifestation|
+|diabetes v1|readv2|C10yy00|Other specified diabetes mellitus with other specified complications|
+|diabetes v1|readv2|C10yz00|Diabetes mellitus NOS with other specified manifestation|
+|diabetes v1|readv2|C10z.00|Diabetes mellitus with unspecified complication|
+|diabetes v1|readv2|C10z000|Diabetes mellitus, juvenile type, with unspecified complication|
+|diabetes v1|readv2|C10z100|Diabetes mellitus, adult onset, with unspecified complication|
+|diabetes v1|readv2|C10zy00|Other specified diabetes mellitus with unspecified complications|
+|diabetes v1|readv2|C10zz00|Diabetes mellitus NOS with unspecified complication|
+|diabetes v1|readv2|C1A0.00|Metabolic syndrome|
+|diabetes v1|readv2|Cyu2.00|[X]Diabetes mellitus|
+|diabetes v1|readv2|Cyu2000|[X]Other specified diabetes mellitus|
+|diabetes v1|readv2|Cyu2100|[X]Malnutrition-related diabetes mellitus with other specified complications|
+|diabetes v1|readv2|Cyu2200|[X]Malnutrition-related diabetes mellitus with unspecified complications|
+|diabetes v1|readv2|Cyu2300|[X]Unspecified diabetes mellitus with renal complications|
+|diabetes v1|readv2|L180.00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
+|diabetes v1|readv2|L180000|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
+|diabetes v1|readv2|L180100|Diabetes mellitus during pregnancy - baby delivered|
+|diabetes v1|readv2|L180200|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
+|diabetes v1|readv2|L180300|Diabetes mellitus during pregnancy - baby not yet delivered|
+|diabetes v1|readv2|L180400|Diabetes mellitus in the pueperium - baby delivered during previous episode of care|
+|diabetes v1|readv2|L180500|Pre-existing diabetes mellitus, insulin-dependent|
+|diabetes v1|readv2|L180600|Pre-existing diabetes mellitus, non-insulin-dependent|
+|diabetes v1|readv2|L180700|Pre-existing malnutrition-related diabetes mellitus|
+|diabetes v1|readv2|L180800|Diabetes mellitus arising in pregnancy|
+|diabetes v1|readv2|L180811|Gestational diabetes mellitus|
+|diabetes v1|readv2|L180900|Gestational diabetes mellitus|
+|diabetes v1|readv2|L180A00|Pre-existing type 1 diabetes mellitus in pregnancy|
+|diabetes v1|readv2|L180B00|Pre-existing type 2 diabetes mellitus in pregnancy|
+|diabetes v1|readv2|L180X00|Pre-existing diabetes mellitus, unspecified|
+|diabetes v1|readv2|L180z00|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
+|diabetes v1|readv2|Lyu2900|[X]Pre-existing diabetes mellitus, unspecified|
+|diabetes v1|readv2|PKyP.00|Diabetes insipidus, diabetes mellitus, optic atrophy and deafness|
+|diabetes v1|readv2|Q441.00|Neonatal diabetes mellitus|
+|diabetes v1|readv2|ZV13F00|[V]Personal history of gestational diabetes mellitus|
 |covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
 |covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|

@@ -1,0 +1,69 @@
+^ESCT1178183	Product containing only reboxetine 4 mg/1 each oral tablet
+^ESCT1182636	Product containing only atomoxetine 40 mg/1 each oral capsule
+^ESCT1185274	Product containing only atomoxetine 10 mg/1 each oral capsule
+^ESCT1188036	Product containing only atomoxetine 18 mg/1 each oral capsule
+^ESCT1188037	Product containing only atomoxetine 25 mg/1 each oral capsule
+^ESCT1188038	Product containing only atomoxetine 60 mg/1 each oral capsule
+^ESCT1188395	Product containing only atomoxetine 100 mg/1 each oral capsule
+^ESCT1188400	Product containing only atomoxetine 80 mg/1 each oral capsule
+^ESCT1206770	Reboxetine in oral dosage form
+^ESCT1206771	Product containing reboxetine in oral dosage form
+^ESCT1223611	Reboxetine
+^ESCT1223612	Reboxetine product
+^ESCT1223613	Product containing precisely reboxetine 4 milligram/1 each conventional release oral tablet
+^ESCT1230334	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1230335	Atomoxetine (as atomoxetine hydrochloride) 10 mg oral capsule
+^ESCT1230336	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 18 milligram/1 each conventional release oral capsule
+^ESCT1230337	Atomoxetine (as atomoxetine hydrochloride) 18 mg oral capsule
+^ESCT1230338	Atomoxetine (as atomoxetine hydrochloride) 25 mg oral capsule
+^ESCT1230339	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 25 milligram/1 each conventional release oral capsule
+^ESCT1230340	Atomoxetine (as atomoxetine hydrochloride) 40 mg oral capsule
+^ESCT1230341	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+^ESCT1230342	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1230343	Atomoxetine (as atomoxetine hydrochloride) 60 mg oral capsule
+^ESCT1232974	Atomoxetine (as atomoxetine hydrochloride) 100 mg oral capsule
+^ESCT1232975	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 100 milligram/1 each conventional release oral capsule
+^ESCT1233030	Atomoxetine (as atomoxetine hydrochloride) 80 mg oral capsule
+^ESCT1233031	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 80 milligram/1 each conventional release oral capsule
+^ESCT1386437	Reboxetine-containing product in oral dose form
+^ESCT1424876	Reboxetine 4mg tablets
+^ESCTAT673865	Atomoxetine 10mg capsules
+^ESCTAT673866	Atomoxetine 10 mg/1 each oral capsule
+^ESCTAT673868	Atomoxetine 18mg capsules
+^ESCTAT673869	Atomoxetine 18 mg/1 each oral capsule
+^ESCTAT673871	Atomoxetine 25mg capsules
+^ESCTAT673873	Atomoxetine 25 mg/1 each oral capsule
+^ESCTAT673874	Atomoxetine 40mg capsules
+^ESCTAT673875	Atomoxetine 40 mg/1 each oral capsule
+^ESCTAT673877	Atomoxetine 60mg capsules
+^ESCTAT673879	Atomoxetine 60 mg/1 each oral capsule
+^ESCTAT682870	Atomoxetine hydrochloride
+^ESCTAT694482	Atomoxetine 100mg capsules
+^ESCTAT694483	Atomoxetine 100 mg/1 each oral capsule
+^ESCTAT694970	Atomoxetine 80mg capsules
+^ESCTAT694972	Atomoxetine 80 mg/1 each oral capsule
+^ESCTED820182	Edronax 4mg tablets (Pfizer Ltd)
+^ESCTPR609828	Product containing reboxetine
+^ESCTPR609830	Product containing reboxetine 4 mg/1 each oral tablet
+^ESCTPR673867	Product containing atomoxetine 10 mg/1 each oral capsule
+^ESCTPR673870	Product containing atomoxetine 18 mg/1 each oral capsule
+^ESCTPR673872	Product containing atomoxetine 25 mg/1 each oral capsule
+^ESCTPR673876	Product containing atomoxetine 40 mg/1 each oral capsule
+^ESCTPR673878	Product containing atomoxetine 60 mg/1 each oral capsule
+^ESCTPR694484	Product containing atomoxetine 100 mg/1 each oral capsule
+^ESCTPR694971	Product containing atomoxetine 80 mg/1 each oral capsule
+^ESCTRE609827	Reboxetine
+^ESCTRE609829	Reboxetine 4mg tablets
+^ESCTRE609831	Reboxetine 4 mg oral tablet
+^ESCTRE655990	Reboxetine
+ATCA18452NEMIS	Atomoxetine  Capsules  10 mg
+ATCA18454NEMIS	Atomoxetine  Capsules  18 mg
+ATCA18455NEMIS	Atomoxetine  Capsules  25 mg
+ATCA18456NEMIS	Atomoxetine  Capsules  40 mg
+ATCA18457NEMIS	Atomoxetine  Capsules  60 mg
+ATCA31796NEMIS	Atomoxetine  Capsules  80 mg
+ATCA78104NEMIS	Atomoxetine  Capsules  100 mg
+EDTA31120EMIS	Edronax  Tablets  4 mg
+RETA31122EMIS	Reboxetine  Tablets  4 mg
+VITA4527	Vivalan  Tablets  50 mg
+VITA5499	Viloxazine Hydrochloride  Tablets  50 mg

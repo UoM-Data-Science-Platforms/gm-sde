@@ -52,7 +52,7 @@ Stitching them together...
 `);
 
   // Generate sql to execute on server
-  await generateSql(projectDirectory, templates);
+  await generateSql(projectDirectory, projectName, templates);
 
   if (isProjectDirectory) {
     const readmeMarkdown = join(projectDirectory, `${README_NAME}.md`);
@@ -90,7 +90,7 @@ function warnIfNoTemplatesFound(project, templates) {
   }
 }
 
-async function generateSql(project, templates) {
+async function generateSql(project, projectName, templates) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const allCodeSets = {};
   for (const templateName of templates) {
@@ -126,6 +126,7 @@ async function generateSql(project, templates) {
     const readmeContent = generateProjectSupplementaryReadme({
       codeSets: flattenedCodeSets,
       includedSqlFiles: includedSqlFiles.reverse(),
+      projectName,
     });
     writeFileSync(join(project, `${README_NAME}.md`), disclaimer + about + readmeContent);
 
@@ -310,5 +311,5 @@ ${CODESET_MARKER}
   return { sql: generatedSql, codeSets: requiredCodeSets };
 }
 //stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
-//stitch(join(__dirname, '..', 'projects', '001 - Grant'));
+// stitch(join(__dirname, '..', 'projects', '001 - Grant'));
 module.exports = { stitch };

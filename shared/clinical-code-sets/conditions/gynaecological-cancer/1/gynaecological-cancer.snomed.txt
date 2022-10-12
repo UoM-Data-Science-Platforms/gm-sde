@@ -1,0 +1,93 @@
+74285003	Mass of pelvic structure
+92056006	Benign tumor of cervix
+92260003	Benign ovarian tumor
+93934004	Primary malignant neoplasm of ovary (disorder)
+94126000	Primary malignant neoplasm of uterine adnexa (disorder)
+94455000	Cancer metastatic to ovary
+94664002	Secondary malignant neoplasm of uterine adnexa (disorder)
+94792004	Neoplasm of uncertain behavior of uterine cervix (disorder)
+94974001	Neoplasm of uncertain behavior of ovary (disorder)
+109880006	Overlapping malignant neoplasm of uterine cervix (disorder)
+123841004	Tumor of cervix
+123843001	Tumor of ovary
+188192002	Malignant neoplasm of endometrium of corpus uteri (disorder)
+188469005	Cancer metastatic to cervix
+254856004	Undifferentiated ovarian cancer
+314970000	Local recurrence of malignant tumor of cervix (disorder)
+314992001	Metastasis from malignant tumor of cervix (disorder)
+363354003	Cervical cancer
+363443007	Ovarian cancer
+363514001	Malignant tumor of female genital organ (disorder)
+369522002	Primary malignant neoplasm of left ovary (disorder)
+369523007	Cancer metastatic to left ovary
+369529006	Primary malignant neoplasm of right ovary (disorder)
+369530001	Cancer metastatic to right ovary
+372024009	Primary malignant neoplasm of uterine cervix
+416712009	Clear cell (mesonephric) neoplasm of ovary
+422782004	Primary malignant neoplasm of ovary, with widespread metastatic disease
+423274005	Ovarian cancer stage 4
+423480004	Cancer of ovary, stage 3
+423973006	Invasive cervical cancer
+424486004	Cancer of ovary, stage 2
+424600001	Ovarian cancer stage 1
+428322007	Malignant neoplasm of uterine adnexa
+716855006	Theca steroid producing cell malignant tumour of ovary
+718220008	Hereditary breast and ovarian cancer syndrome
+764791008	Borderline epithelial neoplasm of ovary (disorder)
+33521000119105	Neoplasm of low malignant potential behavior of ovary (disorder)
+15540006	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage I
+25654007	FIGO CC stage Ib
+49219005	International Federation of Gynecology and Obstetrics cervical cancer stage Ia
+52708004	International Federation of Gynecology and Obstetrics cervical cancer stage III (finding)
+68240008	International Federation of Gynecology and Obstetrics cervical cancer stage II (finding)
+81822003	International Federation of Gynecology and Obstetrics cervical cancer stage IV (finding)
+87977001	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
+708327004	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA1 (finding)
+708331005	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA2 (finding)
+708340009	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IB1 (finding)
+708368008	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IB2 (finding)
+708381001	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIA1 (finding)
+708383003	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIA2 (finding)
+708387002	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIB (finding)
+708393005	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIIA (finding)
+708395003	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIIB (finding)
+708400002	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVA (finding)
+708404006	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVB (finding)
+315266007	Suspected cervical cancer (situation)
+315267003	Suspected endometrial cancer (situation)
+397682005	Suspected gynecological cancer (situation)
+725275004	Subject refused referral to gynaecologist
+762997004	Suspected ovarian cancer
+4461000175108	Screening for malignant neoplasm of cervix not done
+112241000119107	Cervical cancer Papanicolaou smear screening declined
+30382004	International Federation of Gynecology and Obstetrics endometrial cancer stage II
+34537009	International Federation of Gynecology and Obstetrics endometrial cancer stage IV
+46756001	International Federation of Gynecology and Obstetrics endometrial cancer stage I A
+50237009	International Federation of Gynecology and Obstetrics endometrial cancer stage I
+60275007	International Federation of Gynecology and Obstetrics endometrial cancer stage I B (finding)
+80975007	International Federation of Gynecology and Obstetrics endometrial cancer stage III (finding)
+708415001	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIB
+708432002	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIC1
+708435000	International Federation of Gynecology and Obstetrics endometrial cancer stage IIIC2
+708443005	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVA (finding)
+708446002	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVB (finding)
+708533009	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIA
+785781000000101	Referral to community gynaecology service
+76742009	Postmenopausal bleeding (finding)
+301822002	Abnormal vaginal bleeding (finding)
+415149004	Postmenopausal postcoital bleeding
+874231000000101	QCancer endometrial cancer risk
+848891000000105	QCancer ovarian cancer risk (observable entity)
+874251000000108	QCancer cervical cancer risk
+369814002	T3 (III): Endometrial tumor with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings (finding)
+446526009	Debulking of neoplasm of ovary
+473239006	Bilateral oophorectomy for malignant tumour of ovary
+94397007	Cancer metastatic to neck lymph nodes
+700125004	Referral to paediatric gynaecology service
+432519008	Elevated cancer antigen 125
+276311000000101	Fast track referral for suspected gynaecological cancer
+382511000000105	Seen in fast track suspected gynaecological cancer clinic
+249011000000106	Referral to gynaecology special interest general practitioner
+119423009	Benign teratoma of ovary (disorder)
+189116006	Benign neoplasm of ovary (& dermoid cyst)
+312984006	Abnormal uterine bleeding unrelated to menstrual cycle (disorder)

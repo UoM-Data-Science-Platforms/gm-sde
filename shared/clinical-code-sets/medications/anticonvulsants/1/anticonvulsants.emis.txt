@@ -1,0 +1,399 @@
+^ESCT1178205	Product containing only lamotrigine 100 mg/1 each oral tablet
+^ESCT1178206	Product containing only lamotrigine 200 mg/1 each oral tablet
+^ESCT1178647	Carbagen SR 200mg tablets (Mylan)
+^ESCT1181144	Product containing only carbamazepine 100 mg/1 each oral tablet
+^ESCT1181976	Product containing only carbamazepine 400 mg/1 each oral tablet
+^ESCT1181983	Product containing only lamotrigine 25 mg/1 each oral tablet
+^ESCT1184271	Carbagen SR 400mg tablets (Mylan)
+^ESCT1185356	Product containing only valproic acid 250 mg/1 each oral capsule
+^ESCT1187318	Product containing only carbamazepine 200 mg/1 each oral tablet
+^ESCT1187320	Product containing only lamotrigine 50 mg/1 each oral tablet
+^ESCT1188498	Product containing only lamotrigine 150 mg/1 each oral tablet
+^ESCT1188499	Product containing only lamotrigine 2 mg/1 each oral tablet
+^ESCT1203227	Sodium valproate 500 mg prolonged-release oral tablet
+^ESCT1203228	Product containing precisely valproate sodium 500 milligram/1 each prolonged-release oral tablet
+^ESCT1203229	Valproate sodium 500 mg prolonged-release oral tablet
+^ESCT1203306	Carbamazepine 400 mg prolonged-release oral tablet
+^ESCT1203307	Product containing precisely carbamazepine 400 milligram/1 each prolonged-release oral tablet
+^ESCT1203310	Sodium valproate 300 mg prolonged-release oral tablet
+^ESCT1203311	Product containing precisely valproate sodium 300 milligram/1 each prolonged-release oral tablet
+^ESCT1203312	Valproate sodium 300 mg prolonged-release oral tablet
+^ESCT1203334	Carbamazepine 200 mg prolonged-release oral tablet
+^ESCT1203335	Product containing precisely carbamazepine 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203345	Carbamazepine 100mg prolonged-release oral tablet
+^ESCT1203399	Sodium valproate 200 mg prolonged-release oral tablet
+^ESCT1203400	Product containing precisely valproate sodium 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203401	Valproate sodium 200 mg prolonged-release oral tablet
+^ESCT1203481	Sodium valproate 100mg conventional release oral tablet
+^ESCT1203708	Carbamazepine 100mg prolonged-release oral capsule
+^ESCT1203750	Carbamazepine 200mg prolonged-release oral capsule
+^ESCT1203783	Carbamazepine 300mg prolonged-release oral capsule
+^ESCT1203946	Lamotrigine 2mg tablet for conventional release oral suspension
+^ESCT1203949	Lamotrigine 5mg tablet for conventional release oral suspension
+^ESCT1203950	Lamotrigine 5mg chewable tablet
+^ESCT1204139	Valproate sodium 400 mg powder for solution for injection vial
+^ESCT1204140	Product containing precisely valproate sodium 400 milligram/1 vial powder for conventional release solution for injection
+^ESCT1204545	Valproate sodium 40 mg/mL oral solution
+^ESCT1204546	Product containing precisely valproate sodium 40 milligram/1 milliliter conventional release oral solution
+^ESCT1214934	Sodium valproate 200mg/5ml oral solution sugar free
+^ESCT1214935	Sodium valproate 400mg powder and solvent for solution for injection vials
+^ESCT1215471	Lamotrigine 2mg dispersible tablets sugar free
+^ESCT1217001	Valproic acid
+^ESCT1217002	Valproic acid product
+^ESCT1217135	Congenital malformation due to valproic acid
+^ESCT1218167	Carbamazepine
+^ESCT1218168	Carbamazepine product
+^ESCT1220614	Lamotrigine
+^ESCT1220615	Lamotrigine product
+^ESCT1221949	Product containing precisely valproic acid (as valproate semisodium) 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1221950	Valproic acid (as valproate semisodium) 500 mg gastro-resistant oral tablet
+^ESCT1221951	Valproic acid (as divalproex sodium) 500 mg gastro-resistant oral tablet
+^ESCT1221952	Valproic acid (as divalproex sodium) 250 mg gastro-resistant oral tablet
+^ESCT1221953	Product containing precisely valproic acid (as valproate semisodium) 250 milligram/1 each gastro-resistant oral tablet
+^ESCT1221954	Valproic acid (as valproate semisodium) 250 mg gastro-resistant oral tablet
+^ESCT1223871	Product containing precisely carbamazepine 100 milligram/1 each conventional release oral tablet
+^ESCT1223872	Product containing precisely carbamazepine 200 milligram/1 each conventional release oral tablet
+^ESCT1223873	Product containing precisely carbamazepine 400 milligram/1 each conventional release oral tablet
+^ESCT1223874	Product containing precisely carbamazepine 125 milligram/1 each conventional release rectal suppository
+^ESCT1223875	Carbamazepine 125 mg rectal suppository
+^ESCT1223876	Carbamazepine 250 mg rectal suppository
+^ESCT1223877	Product containing precisely carbamazepine 250 milligram/1 each conventional release rectal suppository
+^ESCT1223878	Carbamazepine 200 mg chewable tablet
+^ESCT1223879	Product containing precisely carbamazepine 200 milligram/1 each conventional release chewable tablet
+^ESCT1223880	Product containing precisely carbamazepine 100 milligram/1 each conventional release chewable tablet
+^ESCT1223881	Carbamazepine 100 mg chewable tablet
+^ESCT1223882	Product containing precisely carbamazepine 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1223883	Carbamazepine 20 mg/mL oral suspension
+^ESCT1223915	Valproate sodium 200 mg gastro-resistant oral tablet
+^ESCT1223916	Sodium valproate 200 mg gastro-resistant oral tablet
+^ESCT1223917	Product containing precisely valproate sodium 200 milligram/1 each gastro-resistant oral tablet
+^ESCT1223918	Product containing precisely valproate sodium 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1223919	Sodium valproate 500 mg gastro-resistant oral tablet
+^ESCT1223920	Valproate sodium 500 mg gastro-resistant oral tablet
+^ESCT1223925	Product containing precisely lamotrigine 50 milligram/1 each conventional release oral tablet
+^ESCT1223926	Product containing precisely lamotrigine 100 milligram/1 each conventional release oral tablet
+^ESCT1223927	Product containing precisely lamotrigine 25 milligram/1 each conventional release oral tablet
+^ESCT1223928	Product containing precisely lamotrigine 200 milligram/1 each conventional release oral tablet
+^ESCT1223936	Valproic acid 150 mg gastro-resistant oral capsule
+^ESCT1223937	Product containing precisely valproic acid 150 milligram/1 each gastro-resistant oral capsule
+^ESCT1223938	Product containing precisely valproic acid 300 milligram/1 each gastro-resistant oral capsule
+^ESCT1223939	Valproic acid 300 mg gastro-resistant oral capsule
+^ESCT1223940	Valproic acid 500 mg gastro-resistant oral capsule
+^ESCT1223941	Product containing precisely valproic acid 500 milligram/1 each gastro-resistant oral capsule
+^ESCT1226787	Sodium valproate in oral dosage form
+^ESCT1226788	Valproate sodium in oral dosage form
+^ESCT1226789	Product containing valproate sodium in oral dosage form
+^ESCT1228577	Valproic acid 250 mg/1 each oral capsule
+^ESCT1228578	Product containing precisely valproic acid 250 milligram/1 each conventional release oral capsule
+^ESCT1228579	Valproic acid 250 mg oral capsule
+^ESCT1228844	Product containing precisely lamotrigine 150 milligram/1 each conventional release oral tablet
+^ESCT1228847	Product containing precisely lamotrigine 2 milligram/1 each conventional release oral tablet
+^ESCT1255512	Lamotrigine 5mg dispersible tablets sugar free
+^ESCT1264206	Carbamazepine 200mg modified-release tablets
+^ESCT1264207	Carbamazepine 400mg modified-release tablets
+^ESCT1268317	Epival CR 300mg tablets (Healthcare Pharma Ltd)
+^ESCT1268319	Epival CR 500mg tablets (Healthcare Pharma Ltd)
+^ESCT1305245	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1305247	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1305249	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1382041	Carbamazepine-containing product in oral dose form
+^ESCT1382042	Carbamazepine-containing product in rectal dose form
+^ESCT1384034	Valproic acid 250 mg gastro-resistant oral capsule
+^ESCT1384087	Valproic acid 125 mg gastro-resistant oral capsule
+^ESCT1384908	Valproic acid-containing product in oral dose form
+^ESCT1384909	Valproic acid-containing product in parenteral dose form
+^ESCT1402838	Sodium valproate 100mg tablets
+^ESCT1402842	Sodium valproate 200mg modified-release tablets
+^ESCT1402843	Sodium valproate 300mg modified-release tablets
+^ESCT1402844	Sodium valproate 500mg modified-release tablets
+^ESCT1409202	Sodium valproate 400 mg powder for solution for injection vial
+^ESCT1409204	Sodium valproate 40 mg/mL oral solution
+^ESCT1419537	Foetal valproate spectrum disorder
+^ESCT1419538	Fetal valproate spectrum disorder
+^ESCT1436890	Carbagen SR 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436984	Carbagen SR 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1440872	Epival CR 300mg tablets (G.L. Pharma UK Ltd)
+^ESCT1440874	Epival CR 500mg tablets (G.L. Pharma UK Ltd)
+^ESCT2P646545	2-Propylvaleric acid
+^ESCT2P646546	2-Propylpentanoic acid
+^ESCTAR806735	Arbil MR 400mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAR824818	Arbil MR 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCA315735	Carbamazepine
+^ESCTCA428316	Carbamazepine-10,11-epoxide
+^ESCTCA610593	Carbamazepine 100mg tablets
+^ESCTCA610595	Carbamazepine 100 mg oral tablet
+^ESCTCA610596	Carbamazepine 200mg tablets
+^ESCTCA610598	Carbamazepine 200 mg oral tablet
+^ESCTCA610599	Carbamazepine 400mg tablets
+^ESCTCA610601	Carbamazepine 400 mg oral tablet
+^ESCTCA610606	Carbamazepine 125mg suppositories
+^ESCTCA610607	Carbamazepine 125mg suppository
+^ESCTCA610608	Carbamazepine 250mg suppositories
+^ESCTCA610609	Carbamazepine 250mg suppository
+^ESCTCA610610	Carbamazepine 200mg chewable tablets sugar free
+^ESCTCA610611	Carbamazepine 200mg chewable tablet
+^ESCTCA610612	Carbamazepine 100mg chewable tablets sugar free
+^ESCTCA610613	Carbamazepine 100mg chewable tablet
+^ESCTCA610614	Carbamazepine 100mg/5ml oral suspension sugar free
+^ESCTCA610615	Carbamazepine 100mg/5mL oral liquid
+^ESCTCA610616	Carbamazepine 100mg/5 mL suspension
+^ESCTCA645101	Carbamazepine in oral dosage form
+^ESCTCA645103	Carbamazepine in rectal dosage form
+^ESCTCA646781	Carbamazepine
+^ESCTCA812076	Carbagen SR 200mg tablets (Mylan Ltd)
+^ESCTCA820666	Carbagen SR 400mg tablets (Mylan Ltd)
+^ESCTCO277333	Congenital malformation due to valproate
+^ESCTCO865583	Convulex 150mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTCO865586	Convulex 300mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTCO865589	Convulex 500mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTDE864927	Depakote 250mg gastro-resistant tablets (Sanofi)
+^ESCTDE864934	Depakote 500mg gastro-resistant tablets (Sanofi)
+^ESCTDI258957	Divalproex sodium
+^ESCTDI646547	Dipropylacetic acid
+^ESCTDP646548	DPA - dipropylacetic acid
+^ESCTDP647242	DPA sodium
+^ESCTEP803142	Epilim 200mg/5ml liquid (Sanofi)
+^ESCTEP808123	Epimaz 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEP809295	Epimaz 200mg tablets (Teva UK Ltd)
+^ESCTEP816791	Epilim 500 gastro-resistant tablets (Sanofi)
+^ESCTEP818635	Epilim Chrono 200 tablets (Sanofi)
+^ESCTEP819960	Epilim 100mg crushable tablets (Sanofi)
+^ESCTEP822921	Epilim Chrono 500 tablets (Sanofi)
+^ESCTEP823507	Epimaz 400mg tablets (Teva UK Ltd)
+^ESCTEP824875	Epilim Chrono 300 tablets (Sanofi)
+^ESCTEP831159	Epilim 200 gastro-resistant tablets (Sanofi)
+^ESCTEP831296	Epilim 200mg/5ml syrup (Sanofi)
+^ESCTEP869243	Epilim Intravenous 400mg powder and solvent for solution for injection vials (Sanofi)
+^ESCTEP872591	Epival CR 300mg tablets (Chanelle Medical UK Ltd)
+^ESCTEP872593	Epival CR 500mg tablets (Chanelle Medical UK Ltd)
+^ESCTEP940118	Episenta 150mg modified-release capsules (Desitin Pharma Ltd)
+^ESCTEP940124	Episenta 300mg modified-release capsules (Desitin Pharma Ltd)
+^ESCTEP940130	Episenta 500mg modified-release granules sachets (Desitin Pharma Ltd)
+^ESCTEP940134	Episenta 1000mg modified-release granules sachets (Desitin Pharma Ltd)
+^ESCTEP959333	Episenta 1g/10ml solution for injection ampoules (Beacon Pharmaceuticals Ltd)
+^ESCTEP964681	Epilim Chronosphere MR 100mg granules sachets (Sanofi)
+^ESCTEP964684	Epilim Chronosphere MR 250mg granules sachets (Sanofi)
+^ESCTEP964686	Epilim Chronosphere MR 500mg granules sachets (Sanofi)
+^ESCTEP964690	Epilim Chronosphere MR 750mg granules sachets (Sanofi)
+^ESCTEP964693	Epilim Chronosphere MR 50mg granules sachets (Sanofi)
+^ESCTEP981648	Epilim Chronosphere MR 1000mg granules sachets (Sanofi)
+^ESCTLA406853	Lamotrigine
+^ESCTLA610708	Lamotrigine 50mg tablets
+^ESCTLA610710	Lamotrigine 50 mg oral tablet
+^ESCTLA610711	Lamotrigine 100mg tablets
+^ESCTLA610713	Lamotrigine 100 mg oral tablet
+^ESCTLA610714	Lamotrigine 25mg tablets
+^ESCTLA610716	Lamotrigine 25 mg oral tablet
+^ESCTLA610720	Lamotrigine 25mg dispersible tablets sugar free
+^ESCTLA610721	Lamotrigine 25mg dispersible tablet
+^ESCTLA610722	Lamotrigine 100mg dispersible tablets sugar free
+^ESCTLA610723	Lamotrigine 100mg dispersible tablet
+^ESCTLA610724	Lamotrigine 200mg tablets
+^ESCTLA610726	Lamotrigine 200 mg oral tablet
+^ESCTLA635380	Lamotrigine 25mg chewable dispersible tablet
+^ESCTLA635381	Lamotrigine 25mg dispersible tablet
+^ESCTLA641623	Lamotrigine 150 mg oral tablet
+^ESCTLA641633	Lamotrigine 2 mg oral tablet
+^ESCTLA647358	Lamotrigine
+^ESCTLA726849	Lamotrigine 200mg dispersible tablet
+^ESCTLA726878	Lamotrigine 50mg dispersible tablet
+^ESCTLA858066	Lamictal 25mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA858079	Lamictal 50mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA858090	Lamictal 100mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859521	Lamictal 200mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859533	Lamictal 5mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859546	Lamictal 25mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859566	Lamictal 100mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA866476	Lamictal 2mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTOR316334	Organic compound
+^ESCTOR316335	Organic chemical
+^ESCTOR806815	Orlept 500mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTOR819030	Orlept 200mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTOR830391	Orlept SF 200mg/5ml liquid (Wockhardt UK Ltd)
+^ESCTPR272139	Product containing valproic acid
+^ESCTPR315736	Product containing carbamazepine
+^ESCTPR406854	Product containing lamotrigine
+^ESCTPR610594	Product containing carbamazepine 100 mg/1 each oral tablet
+^ESCTPR610597	Product containing carbamazepine 200 mg/1 each oral tablet
+^ESCTPR610600	Product containing carbamazepine 400 mg/1 each oral tablet
+^ESCTPR610709	Product containing lamotrigine 50 mg/1 each oral tablet
+^ESCTPR610712	Product containing lamotrigine 100 mg/1 each oral tablet
+^ESCTPR610715	Product containing lamotrigine 25 mg/1 each oral tablet
+^ESCTPR610725	Product containing lamotrigine 200 mg/1 each oral tablet
+^ESCTPR618980	Product containing sodium valproate in oral dosage form
+^ESCTPR641023	Product containing valproic acid 250 mg/1 each oral capsule
+^ESCTPR641624	Product containing lamotrigine 150 mg/1 each oral tablet
+^ESCTPR641634	Product containing lamotrigine 2 mg/1 each oral tablet
+^ESCTPR645102	Product containing carbamazepine in oral dosage form
+^ESCTPR645104	Product containing carbamazepine in rectal dosage form
+^ESCTPR771452	Product containing valproic acid in oral dosage form
+^ESCTPR771454	Product containing valproic acid in parenteral dosage form
+^ESCTSO610679	Sodium valproate 200mg gastro-resistant tablets
+^ESCTSO610680	Sodium valproate 200mg e/c tablet
+^ESCTSO610681	Sodium valproate 200mg gastro-resistant tablet
+^ESCTSO610682	Sodium valproate 500mg gastro-resistant tablets
+^ESCTSO610683	Sodium valproate 500mg e/c tablet
+^ESCTSO610684	Sodium valproate 500mg gastro-resistant tablet
+^ESCTSO618979	Sodium valproate in oral dosage form
+^ESCTSO647238	Sodium valproate
+^ESCTSO647240	Sodium dipropylacetate
+^ESCTSO647241	Sodium alpha-propylvalerate
+^ESCTSO936192	Sodium valproate 300mg/3ml solution for injection ampoules
+^ESCTSO940108	Sodium valproate 150mg modified-release capsules
+^ESCTSO940110	Sodium valproate 300mg modified-release capsules
+^ESCTSO940112	Sodium valproate 500mg modified-release granules sachets sugar free
+^ESCTSO940114	Sodium valproate 1g modified-release granules sachets sugar free
+^ESCTSO959355	Sodium valproate 1g/10ml solution for injection ampoules
+^ESCTTE799567	Teril Retard 200mg tablets (Taro Pharmaceuticals (UK) Ltd)
+^ESCTTE808141	Tegretol Prolonged Release 200mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE816437	Tegretol 200mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE820814	Teril Retard 400mg tablets (Taro Pharmaceuticals (UK) Ltd)
+^ESCTTE820846	Tegretol Prolonged Release 400mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE821084	Tegretol 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE821329	Tegretol 400mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE823485	Tegretol 100mg/5ml liquid (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE859712	Tegretol 100mg Chewtabs (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE859721	Tegretol 200mg Chewtabs (Novartis Pharmaceuticals UK Ltd)
+^ESCTTE865592	Tegretol 125mg suppositories (Essential Pharma Ltd)
+^ESCTTE865595	Tegretol 250mg suppositories (Essential Pharma Ltd)
+^ESCTVA258956	Valproate semisodium
+^ESCTVA272138	Valproic acid
+^ESCTVA450830	Valproic acid 500mg gastro-resistant tablets
+^ESCTVA450831	Valproic acid 500mg e/c tablet
+^ESCTVA450832	Valproic acid 500mg gastro-resistant tablet
+^ESCTVA450833	Valproic acid 250mg gastro-resistant tablets
+^ESCTVA450834	Valproic acid 250mg e/c tablet
+^ESCTVA450835	Valproic acid 250mg gastro-resistant tablet
+^ESCTVA610737	Valproic acid 150mg gastro-resistant capsules
+^ESCTVA610738	Valproic acid 150mg e/c capsule
+^ESCTVA610739	Valproic acid 300mg gastro-resistant capsules
+^ESCTVA610740	Valproic acid 300mg e/c capsule
+^ESCTVA610741	Valproic acid 500mg gastro-resistant capsules
+^ESCTVA610742	Valproic acid 500mg e/c capsule
+^ESCTVA640611	Valproate sodium 500mg powder for injection solution vial
+^ESCTVA640612	Valproate sodium 500mg injection
+^ESCTVA640832	Valproate sodium 250mg/5mL syrup
+^ESCTVA641022	Valproic acid 250 mg/1 each oral capsule
+^ESCTVA646544	Valproic acid
+^ESCTVA647239	Valproate sodium
+^ESCTVA705251	Valproic acid 250mg/5mL syrup
+^ESCTVA720721	Valproic acid 500mg delayed release capsule
+^ESCTVA721218	Valproic acid 250mg delayed release capsule
+^ESCTVA723843	Valproic acid 125mg delayed release capsule
+^ESCTVA733516	Valproate sodium 100mg/mL solution for injection
+^ESCTVA771451	Valproic acid in oral dosage form
+^ESCTVA771453	Valproic acid in parenteral dosage form
+ARM/12795NEMIS	Arbil Mr  M/R tablets  200 mg
+ARM/12796NEMIS	Arbil Mr  M/R tablets  400 mg
+CACH8954DLSEM	Carbamazepine  Chewtabs  100 mg
+CACH8955DLSEM	Carbamazepine  Chewtabs  200 mg
+CALI10618BRIDL	Carbamazepine  Sugar-free liquid  100 mg/5 ml
+CAM/15562NEMIS	Carbagen Sr  M/R tablets  200 mg
+CAM/15563NEMIS	Carbagen Sr  M/R tablets  400 mg
+CAM/6325NEMIS	Carbamazepine  M/R tablets  200 mg
+CAM/6326NEMIS	Carbamazepine  M/R tablets  400 mg
+CASU24183EMIS	Carbamazepine  Suppositories  125 mg
+CASU24184EMIS	Carbamazepine  Suppositories  250 mg
+CATA3285	Carbamazepine  Tablets  100 mg
+CATA3286	Carbamazepine  Tablets  200 mg
+CATA3287	Carbamazepine  Tablets  400 mg
+CATA487	Carbamazepine  Tablets  100 mg
+CATA488	Carbamazepine  Tablets  200 mg
+CATA489	Carbamazepine  Tablets  400 mg
+CATA9592BRIDL	Carbamazepine  C/r tablets  200 mg
+CATA9594BRIDL	Carbamazepine  C/r tablets  400 mg
+COE/23444EMIS	Convulex  E/c capsules  150 mg
+COE/23445EMIS	Convulex  E/c capsules  300 mg
+COE/23446EMIS	Convulex  E/c capsules  500 mg
+DETA6400NEMIS	Depakote  E/c tablets  250 mg
+DETA6402NEMIS	Depakote  E/c tablets  500 mg
+EPIN9474HILLI	Epilim Intravenous  Injection  400 mg/vial
+EPLI1088	Epilim  Sugar-free liquid  200 mg/5 ml
+EPM/13811NEMIS	Epival Cr  M/R tablets  500 mg
+EPM/13812NEMIS	Epival Cr  M/R tablets  300 mg
+EPM/15551NEMIS	Epimaz Retard  M/R tablets  200 mg
+EPM/15552NEMIS	Epimaz Retard  M/R tablets  400 mg
+EPM/23960EMIS	Epilim Chrono  M/R tablets  200 mg
+EPM/23961EMIS	Epilim Chrono  M/R tablets  300 mg
+EPM/23962EMIS	Epilim Chrono  M/R tablets  500 mg
+EPM/25450NEMIS	Episenta  M/R capsules  150 mg
+EPM/25452NEMIS	Episenta  M/R capsules  300 mg
+EPM/25458NEMIS	Episenta  M/R granules  500 mg
+EPM/25459NEMIS	Episenta  M/R granules  1 gram
+EPM/30463NEMIS	Epilim Chronosphere  M/R granules  50 mg
+EPM/30464NEMIS	Epilim Chronosphere  M/R granules  100 mg
+EPM/30465NEMIS	Epilim Chronosphere  M/R granules  250 mg
+EPM/30466NEMIS	Epilim Chronosphere  M/R granules  500 mg
+EPM/30467NEMIS	Epilim Chronosphere  M/R granules  750 mg
+EPM/36261NEMIS	Epilim Chronosphere  M/R granules  1 gram
+EPSO29103NEMIS	Episenta  Solution for injection  100 mg/ml, 10 ml ampoule
+EPSY1089	Epilim  Syrup  200 mg/5 ml
+EPTA1090	Epilim  Crushable tablets  100 mg
+EPTA1091	Epilim  E/c tablets  200 mg
+EPTA1092	Epilim  E/c tablets  500 mg
+EPTA35449EMIS	Epimaz  Tablets  100 mg
+EPTA35450EMIS	Epimaz  Tablets  200 mg
+EPTA35451EMIS	Epimaz  Tablets  400 mg
+EPTA8948DLSEM	Epimaz  Tablets  100 mg
+EPTA8949DLSEM	Epimaz  Tablets  200 mg
+EPTA8951DLSEM	Epimaz  Tablets  400 mg
+LADI10804NEMIS	Lamotrigine  Dispersible tablets  Sugar Free 2 mg
+LADI10805NEMIS	Lamictal  Dispersible tablets  2 mg
+LADI24489EMIS	Lamictal  Dispersible tablets  100 mg
+LADI24490EMIS	Lamictal  Dispersible tablets  25 mg
+LADI24491EMIS	Lamictal  Dispersible tablets  5 mg
+LADI24495EMIS	Lamotrigine  Dispersible tablets  Sugar Free 100 mg
+LADI24496EMIS	Lamotrigine  Dispersible tablets  Sugar Free 25 mg
+LADI24497EMIS	Lamotrigine  Dispersible tablets  Sugar Free 5 mg
+LATA17992EMIS	Lamictal  Tablets  100 mg
+LATA17993EMIS	Lamictal  Tablets  50 mg
+LATA17996EMIS	Lamotrigine  Tablets  100 mg
+LATA17997EMIS	Lamotrigine  Tablets  50 mg
+LATA22479EMIS	Lamictal  Tablets  25 mg
+LATA22481EMIS	Lamotrigine  Tablets  25 mg
+LATA27768EMIS	Lamictal  Tablets  200 mg
+LATA27770EMIS	Lamotrigine  Tablets  200 mg
+ORSU35093EMIS	Orlept  Sugar-free oral solution  200 mg/5 ml
+ORTA35094EMIS	Orlept  E/c tablets  200 mg
+ORTA35095EMIS	Orlept  E/c tablets  500 mg
+SOIN9907HILLI	Sodium Valproate  Injection  400 mg/vial
+SOLI2627	Sodium Valproate  Sugar-free liquid  200 mg/5 ml
+SOM/23966EMIS	Sodium Valproate  M/R tablets  200 mg
+SOM/23967EMIS	Sodium Valproate  M/R tablets  300 mg
+SOM/23968EMIS	Sodium Valproate  M/R tablets  500 mg
+SOM/25447NEMIS	Sodium Valproate  M/R capsules  150 mg
+SOM/25449NEMIS	Sodium Valproate  M/R capsules  300 mg
+SOM/25456NEMIS	Sodium Valproate  M/R Granules Sugar Free  500 mg
+SOM/25457NEMIS	Sodium Valproate  M/R Granules Sugar Free  1 gram
+SOOR26540EMIS	Sodium Valproate  Oral solution  200 mg/5 ml
+SOSO23847NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 3 ml ampoule
+SOSO29102NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 10 ml ampoule
+SOSU26541EMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml
+SOSY2628	Sodium Valproate  Syrup  200 mg/5 ml
+SOTA2629	Sodium Valproate  Crushable tablets  100 mg
+SOTA2630	Sodium Valproate  E/c tablets  200 mg
+SOTA2631	Sodium Valproate  E/c tablets  500 mg
+TECH9560BRIDL	Tegretol Chewtabs  Chewable tablets  100 mg
+TECH9562BRIDL	Tegretol Chewtabs  Chewable tablets  200 mg
+TEM/12012NEMIS	Teril Retard  M/R tablets  200 mg
+TEM/12013NEMIS	Teril Retard  M/R tablets  400 mg
+TEM/1957NEMIS	Teril Cr  M/R tablets  200 mg
+TEM/1958NEMIS	Teril Cr  M/R tablets  400 mg
+TESU24179EMIS	Tegretol  Suppositories  125 mg
+TESU24180EMIS	Tegretol  Suppositories  250 mg
+TESY2787	Tegretol  Sugar-free liquid  100 mg/5 ml
+TETA2788	Tegretol  Tablets  100 mg
+TETA2789	Tegretol  Tablets  200 mg
+TETA2790	Tegretol  Tablets  400 mg
+TETA9540BRIDL	Tegretol Prolonged Release  M/R tablets  200 mg
+TETA9542BRIDL	Tegretol Prolonged Release  M/R tablets  400 mg
+TIM/1960NEMIS	Timonil Retard  M/R tablets  200 mg
+TIM/1961NEMIS	Timonil Retard  M/R tablets  400 mg
+VAE/12513NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  250 mg
+VAE/12514NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  500 mg
+VAE/23450EMIS	Valproic Acid  E/c capsules  150 mg
+VAE/23451EMIS	Valproic Acid  E/c capsules  300 mg
+VAE/23452EMIS	Valproic Acid  E/c capsules  500 mg
+^ESCT1214933	Sodium valproate 200mg/5ml oral solution
+^ESCTEP811324	Epimaz Retard 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEP820691	Epimaz Retard 400mg tablets (IVAX Pharmaceuticals UK Ltd)

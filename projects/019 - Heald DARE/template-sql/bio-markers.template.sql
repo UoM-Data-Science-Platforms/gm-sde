@@ -6,6 +6,11 @@
 -- George Tilston  - 16 March 2022 - via pull request --
 --------------------------------------------------------
 
+-- Richard Williams - changes at 7th October 2022
+-- PI requested:
+--		- Removing the date restriction in order to get all possible trend data
+--		-	Adding blood pressure and triglycerides
+
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
 -- provide this data for patients in the DARE study. Adrian Heald will provide GraphNet
@@ -21,9 +26,12 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--Create DARECohort Table
+SELECT SUBSTRING(REPLACE(NHSNo, ' ', ''),1,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),4,3) + ' ' + SUBSTRING(REPLACE(NHSNo, ' ', ''),7,4) 'NHSNo' INTO #DAREPatients FROM [dbo].[DARECohort]
+
 -- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2018-01-01';
+--DECLARE @StartDate datetime;
+--SET @StartDate = '2018-01-01';
 
 -- Get link ids of patients
 SELECT DISTINCT FK_Patient_Link_ID INTO #Patients
@@ -36,6 +44,7 @@ FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 --> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
+--> CODESET diastolic-blood-pressure:1 systolic-blood-pressure:1 triglycerides:1
 
 -- First lets get all the measurements in one place to improve query speed later on
 IF OBJECT_ID('tempdb..#biomarkerValues') IS NOT NULL DROP TABLE #biomarkerValues;
@@ -52,7 +61,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
+--AND EventDate >= @StartDate
 AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- Remove any value that contains text. The only valid character is "e" in scientific notation e.g. 2e17 - but none of these values will be in that range
 AND [Value] IS NOT NULL
 AND [Value] != '0'; -- In theory none of these markers should have a 0 value so this is a sensible default to exclude
@@ -64,6 +73,30 @@ CREATE TABLE #biomarkers (
 	Label VARCHAR(32),
 	EventDate DATE,
 	[Value] NVARCHAR(128)
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'diastolic-blood-pressure' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'diastolic-blood-pressure' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'diastolic-blood-pressure' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'systolic-blood-pressure' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'systolic-blood-pressure' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'systolic-blood-pressure' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'triglycerides' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'triglycerides' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'triglycerides' AND [Version] = 1))
 );
 
 INSERT INTO #biomarkers

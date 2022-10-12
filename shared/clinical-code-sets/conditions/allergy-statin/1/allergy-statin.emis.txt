@@ -1,0 +1,10 @@
+^ESCT1379920	Allergy to pentostatin
+^ESCT1380362	Allergy to nystatin
+^ESCT1380840	Allergy to simvastatin
+^ESCT1380841	Allergy to fluvastatin
+^ESCT1380842	Allergy to pravastatin
+^ESCTFL581275	Fluvastatin allergy
+^ESCTNY580592	Nystatin allergy
+^ESCTPE579977	Pentostatin allergy
+^ESCTPR581276	Pravastatin allergy
+^ESCTSI581274	Simvastatin allergy

@@ -1,0 +1,167 @@
+6776.	Abortion counselling
+7E066	Hysterotomy and termination of pregnancy
+7E070	Dilation of cervix uteri and curettage for termination of pregnancy
+7E071	Curettage of term pregnancy NEC
+7E071	Curettage of uterus for termination of pregnancy NEC
+7E083	Extraction of menses
+7E084	STOP - Suction termination of pregnancy
+7E085	D&E - Dilatation and evacuation
+7E086	Termination of pregnancy NEC
+7E0B.	Introduction of abortifacient into uterine cavity
+7E0B0	Intra-amniotic prostaglandin instillation
+7E0B1	Intra-amniotic injection of abortifacient NEC
+7E0B2	Extra-amniotic prostaglandin instillation
+7E0B3	Extra-amniotic injection of abortifacient NEC
+7E0B4	Insertion of prostaglandin abortifacient pessary
+7E0B5	Insertion of abortifacient pessary NEC
+7E0By	Other specified introduction of abortifacient into uterine cavity
+7E0Bz	Introduction of abortifacient into uterine cavity NOS
+7F02.	Feticide
+7F02.	Selective destruction of fetus
+7F020	Early selective feticide
+7F021	Late selective feticide
+7F022	Selective feticide NEC
+7F02y	Other specified selective destruction of fetus
+7F02z	Selective destruction of fetus NOS
+8H7W.	Refer to TOP counselling
+L05..	Elective abortion
+L050.	Legal abortion unspecified
+L0500	Unspecified legal abortion with genital tract or pelvic infection
+L0501	Unspecified legal abortion with delayed or excessive haemorrhage
+L0502	Unspecified legal abortion with damage to pelvic organs or tissues
+L0503	Unspecified legal abortion with renal failure
+L0504	Unspecified legal abortion with metabolic disorder
+L0505	Unspecified legal abortion with shock
+L0506	Unspecified legal abortion with embolism
+L050w	Unspecified legal abortion with other specified complication
+L050x	Unspecified legal abortion with complication NOS
+L050y	Unspecified legal abortion with no mention of complication
+L050z	Unspecified legal abortion NOS
+L051.	Incomplete abortion: [legal] or [medical] or [surgical]
+L0510	Incomplete legal abortion with genital tract or pelvic infection
+L0511	Incomplete legal abortion with delayed or excessive haemorrhage
+L0512	Incomplete legal abortion with damage to pelvic organs or tissues
+L0513	Incomplete legal abortion with renal failure
+L0514	Incomplete legal abortion with metabolic disorder
+L0515	Incomplete legal abortion with shock
+L0516	Incomplete legal abortion with embolism
+L051w	Incomplete legal abortion with other specified complication
+L051x	Incomplete legal abortion with complication NOS
+L051y	Incomplete legal abortion with no mention of complication
+L051z	Incomplete legal abortion NOS
+L052.	Complete abortion: [legal] or [medical] or [surgical]
+L0520	Complete legal abortion with genital tract or pelvic infection
+L0521	Complete legal abortion with delayed or excessive haemorrhage
+L0522	Complete legal abortion with damage to pelvic organs or tissues
+L0523	Complete legal abortion with renal failure
+L0524	Complete legal abortion with metabolic disorder
+L0525	Complete legal abortion with shock
+L0526	Complete legal abortion with embolism
+L052w	Complete legal abortion with other specified complication
+L052x	Complete legal abortion with complication NOS
+L052y	Complete legal abortion with no mention of complication
+L052z	Complete legal abortion NOS
+L05z.	Legally induced abortion NOS
+L06..	Abortion: [illegally induced] or [criminal] or [self-induced]
+L060.	Illegal abortion unspecified
+L0600	Unspecified illegal abortion with genital tract or pelvic infection
+L0601	Unspecified illegal abortion with delayed or excessive haemorrhage
+L0602	Unspecified illegal abortion with damage to pelvic organs or tissues
+L0603	Unspecified illegal abortion with renal failure
+L0604	Unspecified illegal abortion with metabolic disorder
+L0605	Unspecified illegal abortion with shock
+L0606	Unspecified illegal abortion with embolism
+L060w	Unspecified illegal abortion with other specified complication
+L060x	Unspecified illegal abortion with complication NOS
+L060y	Unspecified illegal abortion with no mention of complication
+L060z	Unspecified illegal abortion NOS
+L061.	Illegal abortion incomplete
+L0610	Incomplete illegal abortion with genital tract or pelvic infection
+L0611	Incomplete illegal abortion with delayed or excessive haemorrhage
+L0612	Incomplete illegal abortion with damage to pelvic organs or tissues
+L0613	Incomplete illegal abortion with renal failure
+L0614	Incomplete illegal abortion with metabolic disorder
+L0615	Incomplete illegal abortion with shock
+L0616	Incomplete illegal abortion with embolism
+L061w	Incomplete illegal abortion with other specified complication
+L061x	Incomplete illegal abortion with complication NOS
+L061y	Incomplete illegal abortion with no mention of complication
+L061z	Incomplete illegal abortion NOS
+L062.	Illegal abortion complete
+L0620	Complete illegal abortion with genital tract or pelvic infection
+L0621	Complete illegal abortion with delayed or excessive haemorrhage
+L0622	Complete illegal abortion with damage to pelvic organs or tissues
+L0623	Complete illegal abortion with renal failure
+L0624	Complete illegal abortion with metabolic disorder
+L0625	Complete illegal abortion with shock
+L0626	Complete illegal abortion with embolism
+L062w	Complete illegal abortion with other specified complication
+L062x	Complete illegal abortion with complication NOS
+L062y	Complete illegal abortion with no mention of complication
+L062z	Complete illegal abortion NOS
+L06z.	Illegally induced abortion NOS
+L08..	Failed attempted abortion
+L080.	Failed attempted abortion with genital tract or pelvic infection
+L081.	Failed attempted abortion with delayed or excessive haemorrhage
+L082.	Failed attempted abortion with damage to pelvic organs or tissues
+L083.	Failed attempted abortion with renal failure
+L084.	Failed attempted abortion with metabolic disorder
+L085.	Failed attempted abortion with shock
+L086.	Failed attempted abortion with embolism
+L08w.	Failed attempted abortion with other specified complication
+L08x.	Failed attempted abortion with complication NOS
+L08y.	Failed attempted abortion with no mention of complication
+L08z.	Failed attempted abortion NOS
+L0971	Readmission for retained products of conception, legal abortion
+L0972	Readmission for retained products of conception, illegal abortion
+L09yz	Other specified complication NOS follow abortive pregnancy
+L0A1.	Failed medical abortion, complicated by genital tract and pelvic infection
+L0A2.	Failed medical abortion, complicated by delayed or excessive haemorrhage
+L0A3.	Failed medical abortion, complicated by embolism
+L0A4.	Failed medical abortion, without complication
+Lyu03	[X]Failed medical abortion, with other and unspecified complications
+Lyu04	[X]Other and unspecified failed induced abortion, complicated by genital tract and pelvic infection
+Lyu05	[X]Other and unspecified failed induced abortion, complicated by delayed or excessive haemorrhage
+Lyu06	[X]Other and unspecified failed induced abortion, complicated by embolism
+Lyu07	[X]Other and unspecified failed induced abortion, with other and unspecified complications
+Lyu08	[X]Other and unspecified failed induced abortion, without complication
+Lyu09	[X]Other venous complications following abortion and ectopic and molar pregnancy
+Lyu0A	[X]Other complications following abortion and ectopic and molar pregnancy
+Lyu0B	[X]Complication following abortion and ectopic and molar pregnancy, unspecified
+Q01..	Fetus or neonate affected by maternal complication of pregnancy
+Q01y.	Fetus or neonate affected by other maternal complication of pregnancy
+Q01z.	Fetus or neonate affected by maternal complication of pregnancy NOS
+Q486.	Fetal death due to termination of pregnancy
+Qyu0.	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
+Qyu03	[X]Fetus and newborn affected by other maternal complications of pregnancy
+Ua1O2	Post-termination counselling
+Ua1O3	Pre-termination counselling
+X70E1	Fetal reduction or destruction procedure
+Xa36H	Termination of pregnancy
+Xa36w	Insertion of abortifacient pessary
+Xa3xi	Other fetal pregnancy removal operation
+Xa3xl	Other fetus removal NOS
+Xab6f	Destruction of fetus
+XaCJ4	Reason for termination of pregnancy
+XaCJ5	Risk to the life of the pregnant woman greater than if the pregnancy was terminated
+XaCJ6	To prevent grave permanent injury to the physical/mental health of pregnant woman
+XaCJ7	Less than 24 weeks involving risk of injury to the physical/mental health of pregnant woman
+XaCJ8	Less than 24 weeks involving risk of injury to the physical/mental health of any existing children of the pregnant woman's family
+XaCJA	Unborn child at risk from physical or mental abnormalities as to be seriously handicapped
+XaEGl	[V]Admission for administration of abortifacient
+XaPOv	Fetus or neonate affected by maternal postnatal depression
+XaWyf	Incomplete medical abortion
+XaWyf	Incomplete termination of pregnancy
+XE0HM	Selective destruction of fetus
+XE0j3	Therap.asp.uterus-menstr.extr.
+XE0vi	Legal abortion
+XE0vj	Incomplete legal abortion
+XE0vk	Complete legal abortion
+XE0vl	Criminal abortion
+XE0xc	Legal abortion
+XE24a	[V]Admission for menstrual extraction
+XM0BA	Complication following abortion
+XM1HZ	Dilation of cervix uteri and curettage for termination of pregnancy
+XM1P8	Self-induced abortion
+XM1P9	Failed abortion
+ZV253	[V] (Menstrual extraction) or (admission for termination of pregnancy)

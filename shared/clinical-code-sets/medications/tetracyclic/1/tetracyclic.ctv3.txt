@@ -1,0 +1,46 @@
+x01Av	Mianserin
+d7b3.	Mianserin hydrochloride 30mg tablet
+d7b2.	Mianserin hydrochloride 20mg tablet
+d7b1.	Mianserin hydrochloride 10mg tablet
+d7b..	Mianserin hydrochloride
+x01Au	Maprotiline
+d7az.	Maprotiline hydrochloride 75mg tablet
+d7ay.	Maprotiline hydrochloride 50mg tablet
+d7ax.	Maprotiline hydrochloride 25mg tablet
+d7aw.	Maprotiline hydrochloride 10mg tablet
+d7a..	Maprotiline hydrochloride
+daB..	Mirtazapine
+daBz.	Mirtazapine 15mg tablet
+daBy.	Mirtazapine 45mg tablet
+daB7.	Mirtazapine 45mg oro-dispersible tablet
+daB5.	Mirtazapine 15mg oro-dispersible tablet
+daB3.	Mirtazapine 30mg oro-dispersible tablet
+daB1.	Mirtazapine 30mg tablet
+d7h..	Amoxapine
+d7h4.	Amoxapine 150mg tablet
+d7h3.	Amoxapine 100mg tablet
+d7h2.	Amoxapine 50mg tablet
+d7h1.	Amoxapine 25mg tablet
+x05L4	Amoxapine - chemical
+d7b9.	Norval 30mg tablet
+d7b6.	Bolvidon 30mg tablet
+d7b8.	Norval 20mg tablet
+d7b5.	Bolvidon 20mg tablet
+d7b7.	Norval 10mg tablet
+d7b4.	Bolvidon 10mg tablet
+x00fX	Ludiomil 75mg tablet
+d7a3.	Ludiomil 50mg tablet
+d7a2.	Ludiomil 25mg tablet
+d7a1.	Ludiomil 10mg tablet
+d7h8.	Asendis 150mg tablet
+d7h7.	Asendis 100mg tablet
+d7h6.	Asendis 50mg tablet
+d7h5.	Asendis 25mg tablet
+daB8.	Zispin SolTab 45mg oro-dispersible tablet
+daB6.	Zispin SolTab 15mg oro-dispersible tablet
+daB4.	Zispin SolTab 30mg oro-dispersible tablet
+daB2.	Zispin 30mg tablet
+d7a4.	Ludiomil 75mg tablets x28CP
+d7a4.	Ludiomil 75mg tablets x28CP
+
+

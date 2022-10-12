@@ -1,0 +1,21 @@
+{
+  "includeTerms": [
+    "mean corpuscular haemoglobin",
+    "mch"
+  ],
+  "excludeTerms": [
+    "abnormal",
+    "borderline",
+    "raised",
+    "low",
+    "normal",
+    "disease",
+    "procedure",
+    "technique",
+    "concentration"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-07-20T12:16:52.709Z",
+  "lastUpdated": "2022-07-20T12:16:52.709Z"
+}

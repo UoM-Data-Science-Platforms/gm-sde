@@ -249,8 +249,12 @@ ${Object.keys(clinicalCodesByTerminology[terminology])
   .filter(
     (concept) => conditions.length === 0 || conditions.map((x) => x.codeSet).indexOf(concept) > -1
   )
-  .map((concept) =>
-    Object.keys(clinicalCodesByTerminology[terminology][concept])
+  .map((concept) => {
+    const usedCodes = Object.keys(clinicalCodesByTerminology[terminology][concept])
+      .filter(
+        (version) =>
+          conditions.map((x) => x.codeSet + '_' + x.version).indexOf(concept + '_' + version) > -1
+      )
       .map((version) =>
         clinicalCodesByTerminology[terminology][concept][version].map(
           (item) =>
@@ -258,32 +262,36 @@ ${Object.keys(clinicalCodesByTerminology[terminology])
               item.description
             }')`
         )
-      )
-      .flat()
-      .reduce(
-        (soFar, nextValue) => {
-          if (soFar.itemCount === 999) {
-            // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
-            // so need to start again
-            soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
-            soFar.lineLength = 7;
-            soFar.itemCount = 0;
-          }
-          if (soFar.lineLength > 9900) {
-            // the sql management studio doesn't style lines much longer than this
-            soFar.sql += `\n${nextValue},`;
-            soFar.lineLength = nextValue.length + 1;
-          } else {
-            soFar.sql += `${nextValue},`;
-            soFar.lineLength += nextValue.length + 1;
-          }
-          soFar.itemCount += 1;
-          return soFar;
-        },
-        { sql: `INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7 }
-      )
-      .sql.slice(0, -1)
-  )
+      );
+    return usedCodes.length === 0
+      ? false
+      : usedCodes
+          .flat()
+          .reduce(
+            (soFar, nextValue) => {
+              if (soFar.itemCount === 999) {
+                // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
+                // so need to start again
+                soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
+                soFar.lineLength = 7;
+                soFar.itemCount = 0;
+              }
+              if (soFar.lineLength > 9900) {
+                // the sql management studio doesn't style lines much longer than this
+                soFar.sql += `\n${nextValue},`;
+                soFar.lineLength = nextValue.length + 1;
+              } else {
+                soFar.sql += `${nextValue},`;
+                soFar.lineLength += nextValue.length + 1;
+              }
+              soFar.itemCount += 1;
+              return soFar;
+            },
+            { sql: `INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7 }
+          )
+          .sql.slice(0, -1);
+  })
+  .filter(Boolean)
   .join(';\n')}
 
 INSERT INTO #AllCodes

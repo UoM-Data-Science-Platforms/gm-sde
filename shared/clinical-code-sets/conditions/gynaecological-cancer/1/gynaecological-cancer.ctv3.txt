@@ -1,0 +1,118 @@
+X78iC	Malignant tumour of female genital organ
+B44..	Malignant neoplasm of ovary and other uterine adnexa
+B440.	Malignant neoplasm of ovary
+B44y.	Malignant neoplasm of other site of uterine adnexa
+B44z.	Malignant neoplasm of uterine adnexa NOS
+Byu70	[X]Malignant neoplasm of uterine adnexa, unspecified
+XaFrN	Local recurrence of malignant tumour of cervix
+XE1w9	Benign neoplasm of ovary
+B7A..	Benign neoplasm of ovary
+XaKzK	Suspected gynaecological cancer
+XaFwn	Suspected endometrial cancer
+XaFwm	Suspected cervical cancer
+XaaIN	QCancer endometrial cancer risk
+XaZev	QCancer ovarian cancer risk
+XaaIO	QCancer cervical cancer risk
+XaE6w	Other abnormal uterine and vaginal bleeding
+XaE6z	Abnormal vaginal bleeding, unspecified
+XaE70	Abnormal uterine and vaginal bleeding, unspecified
+XaXsb	Referral to community gynaecology service
+8H58.	Gynaecological referral
+8HJ6.	Gynaecological self-referral
+8HV7.	Private referral to gynaecologist
+XaBTf	Referral to gynaecologist
+XaAgH	Referral to obstetrician and gynaecologist
+XaMeB	Fast track referral for suspected gynaecological cancer
+XaPyV	Seen in fast track suspected gynaecological cancer clinic
+XaFri	Metastasis from malignant tumour of cervix
+B912.	Neoplasm of uncertain behaviour of ovary
+Kyu9D	[X]Other specified abnormal uterine and vaginal bleeding
+Xa86A	Abnormal vaginal bleeding
+XaKJm	Postmenopausal postcoital bleeding
+XaAct	Referral to obstetrics and gynaecology service
+XaMA6	Referral to gynaecology special interest general practitioner
+Xaack	Referral to paediatric gynaecology service
+B41..	Cervical carcinoma (uterus)
+B41..	Malignant neoplasm of cervix uteri
+B41y.	Malignant neoplasm of other site of cervix
+B41y.	Malignant neoplasm of other site of cervix
+B41yz	Malignant neoplasm of other site of cervix NOS
+B41yz	Malignant neoplasm of other site of cervix NOS
+B41z.	Malignant neoplasm of cervix uteri NOS
+B41z.	Malignant neoplasm of cervix uteri NOS
+B4302	Malignant neoplasm of endometrium
+B4302	Malignant neoplasm of endometrium of corpus uteri
+B4302	Malignant neoplasm of endometrium of corpus uteri
+B45..	Malignant neoplasm of other and unspecified female genital organs
+B45..	Malignant neoplasm of other and unspecified female genital organs
+B45y.	Malignant neoplasm of other specified female genital organ
+B45y.	Malignant neoplasm of other specified female genital organ
+B45z.	Malignant neoplasm of female genital organ NOS
+B45z.	Malignant neoplasm of female genital organ NOS
+B586.	Krukenburg tumour
+B586.	Metastasis to ovary
+B586.	Metastasis to ovary
+B586.	Ovarian metastasis
+B586.	Secondary cancer of ovary
+B586.	Secondary malignant neoplasm of ovary
+B586.	Secondary tumour to ovary
+B58y2	Secondary cancer of the cervix
+B58y2	Secondary malignant neoplasm of cervix uteri
+B58y2	Secondary malignant neoplasm of cervix uteri
+B790.	Benign neoplasm of cervix uteri NEC
+Byu7.	[X]Malignant neoplasm of female genital organs
+Byu7.	[X]Malignant neoplasm of female genital organs
+Byu71	[X]Malignant neoplasm of other specified female genital organs
+Byu71	[X]Malignant neoplasm of other specified female genital organs
+Byu73	[X]Malignant neoplasm of female genital organ, unspecified
+Byu73	[X]Malignant neoplasm of female genital organ, unspecified
+K5A1.	Bleeding after menopause
+K5A1.	PMB - Postmenopausal bleeding
+K5A1.	Postmenopausal bleeding
+K5A1.	Postmenopausal bleeding
+R0934	[D]Pelvic mass
+R0934	[D]Pelvic mass
+R0935	[D]Pelvic lump
+R0935	[D]Pelvic lump
+X407e	Tumour of cervix
+X407e	Tumour of cervix
+X78Wf	Ovarian tumour
+X78Wf	Tumour of ovary
+X78Wf	Tumour of ovary
+X78Wl	Clear cell tumour of ovary
+X78Wl	Clear cell tumour of ovary
+X78Wl	Mesonephroid tumour of ovary
+X78Wm	Borderline epithelial tumour
+X78Wm	Borderline epithelial tumour
+X78Wo	Undifferentiated carcinoma of ovary
+X78Wo	Undifferentiated carcinoma of ovary
+X78XE	Benign teratoma of ovary
+X78XE	Benign teratoma of ovary
+X78XF	Dermoid cyst of ovary
+X78XF	Dermoid cyst of ovary
+X78XF	Mature cystic teratoma of ovary
+X78Xl	Benign tumour of cervix
+X78Xl	Benign tumour of cervix
+XaE6x	Abnormal uterine bleeding unrelated to menstrual cycle
+XaE6x	Abnormal uterine bleeding unrelated to menstrual cycle
+XE1vi	Ca cervix
+XE1vi	Cancer of cervix
+XE1vi	Malignant neoplasm of cervix
+XE1vi	Malignant neoplasm of cervix uteri
+XE1vi	Malignant tumour of cervix
+XE1vi	Malignant tumour of cervix
+XE1w8	Benign neoplasm of cervix uteri NEC
+XE1w8	Benign neoplasm of cervix uteri NEC
+XE1zN	Adenocarcinoma cervix uteri
+XE1zN	Carcinoma cervix uteri
+XE1zN	Carcinoma cervix uteri: [adenocarcinoma] or [invasive]
+XE1zN	Cervical carcinoma, invasive
+XE1zT	Ca cervix uteri NOS
+XE1zT	Ca cervix uteri NOS
+XE1zX	Ca ovary/other uterine adnexa
+XE1zX	Ca ovary/other uterine adnexa
+XE1zZ	Ca ovary/uterine adnexa NOS
+XM1Ca	Pelvic mass
+XM1Ca	Pelvic mass
+XM1CZ	Pelvic lump
+XM1CZ	Pelvic lump

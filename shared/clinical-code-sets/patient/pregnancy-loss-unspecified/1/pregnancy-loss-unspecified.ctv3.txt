@@ -1,0 +1,215 @@
+6776.	Abortion counselling
+6776.	Pregnancy termination counselling
+6776.	Termination counselling
+6776.	TOP counselling
+7E060	Hysterotomy and evacuation of retained products of conception from uterus NEC
+7E060	Open removal of products of conception from uterus NEC
+7E070	Dilation cerv & curettage RPC
+7E070	Dilation of cervix uteri and curettage for termination of pregnancy
+7E070	Dilation of cervix uteri and curettage of products of conception from uterus
+7E071	Curettage of products of conception from uterus NEC
+7E071	Curettage of term pregnancy NEC
+7E071	Curettage of uterus for termination of pregnancy NEC
+7E071	Curette of retained products of conception from uterus NEC
+7E07y	Other specified curettage of uterus
+7E08.	Other evacuation of contents of uterus
+7E080	Dilation of cervix uteri and vacuum aspiration of products of conception from uterus
+7E081	Dilation of cervix uteri and evacuation of products of conception from uterus NEC
+7E082	Evacuation of products of conception from uterus NEC
+7E08y	Other specified evacuation of contents of uterus
+7E08z	Evacuation of contents of uterus NOS
+L....	Complications of pregnancy, childbirth and the puerperium
+L0...	Pregnancy with abortive outcome
+L01..	Other abnormal product of conception
+L01z.	Other abnormal product of conception NOS
+L04..	Miscarriage
+L04..	Spontaneous abortion
+L04..	Vaginal expulsion of fetus
+L04..	Vaginal expulsion of product of conception
+L040.	Spontaneous abortion unspecified
+L0400	Unspecified spontaneous abortion with genital tract or pelvic infection
+L0401	Unspecified spontaneous abortion with delayed or excessive haemorrhage
+L0403	Unspecified spontaneous abortion with renal failure
+L0405	Unspecified spontaneous abortion with shock
+L040w	Unspecified spontaneous abortion with other specified complication
+L040x	Unspecified spontaneous abortion with complication NOS
+L040y	Unspecified spontaneous abortion without mention of complication
+L040z	Unspecified spontaneous abortion NOS
+L041.	Incomplete abortion
+L041.	Incomplete miscarriage
+L041.	Incomplete spontaneous abortion
+L0411	Incomplete spontaneous abortion with delayed or excessive haemorrhage
+L0415	Incomplete spontaneous abortion with shock
+L041w	Incomplete spontaneous abortion with other specified complication
+L041x	Incomplete spontaneous abortion with complication NOS
+L041y	Incomplete spontaneous abortion with no mention of complication
+L041z	Incomplete spontaneous abortion NOS
+L042.	Complete abortion
+L042.	Complete miscarriage
+L042.	Complete spontaneous abortion
+L042w	Complete spontaneous abortion with other specified complication
+L042x	Complete spontaneous abortion with complication NOS
+L042y	Complete spontaneous abortion with no mention of complication
+L042z	Complete spontaneous abortion NOS
+L04z.	Spontaneous abortion NOS
+L07..	Unspecified abortion
+L0700	Unspecified abortion with genital tract or pelvic infection
+L0701	Unspecified abortion with delayed or excessive haemorrhage
+L0702	Unspecified abortion with damage to pelvic organs or tissues
+L0703	Unspecified abortion with renal failure
+L0704	Unspecified abortion with metabolic disorder
+L0705	Unspecified abortion with shock
+L0706	Unspecified abortion with embolism
+L070w	Unspecified abortion with other specified complication
+L070x	Unspecified abortion with complication NOS
+L070y	Unspecified abortion with no mention of complication
+L070z	Unspecified abortion NOS
+L071.	Unspecified abortion incomplete
+L0711	Unspecified incomplete abortion with delayed or excessive haemorrhage
+L0715	Unspecified incomplete abortion with shock
+L071y	Unspecified incomplete abortion with no mention of complication
+L071z	Unspecified incomplete abortion NOS
+L072.	Unspecified abortion complete
+L072w	Unspecified complete abortion with other specified complication
+L072x	Unspecified complete abortion with complication NOS
+L072y	Unspecified complete abortion with no mention of complication
+L072z	Unspecified complete abortion NOS
+L09..	Complications following abortion and ectopic and molar pregnancies
+L090.	Genital or pelvic infection following abortive pregnancy
+L0900	Endometritis following abortive pregnancy
+L0901	Parametritis following abortive pregnancy
+L0902	Pelvic peritonitis following abortive pregnancy
+L0903	Salpingitis following abortive pregnancy
+L0904	Salpingo-oophoritis following abortive pregnancy
+L090y	Sepsis NOS following abortion and ectopic and molar pregnancy
+L090z	Septicaemia NOS following abortive pregnancy
+L091.	Delayed or excessive haemorrhage following abortive pregnancy
+L0910	Afibrinogenaemia following abortive pregnancy
+L0911	Defibrination syndrome following abortive pregnancy
+L0912	Intravascular haemolysis following abortive pregnancy
+L091z	Delayed or excessive haemorrhage NOS following abortive pregnancy
+L092.	Damage to pelvic organs or tissues following abortive pregnancy
+L0920	Bladder damage following abortive pregnancy
+L0921	Bowel damage following abortive pregnancy
+L0922	Broad ligament damage following abortive pregnancy
+L0923	Cervix damage following abortive pregnancy
+L0924	Periurethral tissue damage following abortive pregnancy
+L0925	Uterus damage following abortive pregnancy
+L0926	Vaginal damage following abortive pregnancy
+L092z	Damage to pelvic organ or tissues NOS following abortive pregnancy
+L093.	Renal failure following abortive pregnancy
+L0930	Oliguria following abortive pregnancy
+L0931	Acute renal failure following abortive pregnancy
+L0932	Renal shutdown following abortive pregnancy
+L0933	Renal tubular necrosis following abortive pregnancy
+L0934	Uraemia following abortive pregnancy
+L093z	Renal failure NOS following abortive pregnancy
+L094.	Metabolic disorder following abortive pregnancy
+L095.	Shock following abortive pregnancy
+L096.	Embolism following abortive pregnancy
+L096.	Embolus following abortive pregnancy
+L0960	Air embolism following abortive pregnancy
+L0961	Amniotic fluid embolism following abortive pregnancy
+L0962	Blood-clot embolism following abortive pregnancy
+L0963	Fat embolism following abortive pregnancy
+L0964	Pulmonary embolism following abortive pregnancy
+L0965	Pyaemic embolism following abortive pregnancy
+L0966	Septic embolism following abortive pregnancy
+L0967	Soap embolism following abortive pregnancy
+L096z	Embolism NOS following abortive pregnancy
+L097.	Readmission for abortive pregnancy (NHS codes)
+L097.	Readmission for retained products of conception (NHS codes)
+L0970	Readmission for retained products of conception, spontaneous abortion
+L0973	Readmission for retained products of conception, unspecified abortion
+L09y.	Other specified complication following abortive pregnancy
+L09y0	Acute liver necrosis following abortive pregnancy
+L09y1	Cardiac arrest following abortive pregnancy
+L09y2	Cardiac failure following abortive pregnancy
+L09y3	Cerebral anoxia following abortive pregnancy
+L09y4	Urinary tract infection following abortive pregnancy
+L09yz	Other specified complication NOS follow abortive pregnancy
+L09z.	Complication NOS following abortion and ectopic and molar pregnancy
+L0y..	Other specified pregnancy with abortive outcome
+L0z..	Pregnancy with abortive outcome NOS
+L16..	Other pregnancy complication NEC
+L162.	Nephropathy NOS in pregnancy without hypertension
+L162.	Unspecified renal disease in pregnancy
+L1620	Unspecified renal disease in pregnancy unspecified
+L1621	Unspecified renal disease in pregnancy - delivered
+L1622	Unspecified renal disease in pregnancy - delivered with postnatal complication
+L1623	Unspecified renal disease in pregnancy - not delivered
+L1624	Unspecified renal disease in pregnancy with postnatal complication
+L162z	Unspecified renal disease in pregnancy NOS
+L16y.	Other pregnancy complications
+L16y0	Other pregnancy complication unspecified
+L16yz	Other pregnancy complication NOS
+L16z.	Pregnancy complication NOS
+L176.	Other maternal viral disease during pregnancy, childbirth and the puerperium
+L1760	Other maternal viral disease, unspecified whether during pregnancy or the puerperium
+L176z	Other maternal viral disease during pregnancy, childbirth or the puerperium NOS
+L18..	Other medical condition during pregnancy, childbirth and the puerperium
+L18z.	Medical condition NOS during pregnancy, childbirth and the puerperium
+L18z0	Medical condition NOS, unspecified whether during pregnancy or the puerperium
+L18z1	Medical condition NOS during pregnancy - baby delivered
+L18z2	Medical condition NOS, in the puerperium - baby delivered during current episode of care
+L18z3	Medical condition NOS, during pregnancy - baby not yet delivered
+L18z4	Medical condition NOS, in the puerperium - baby delivered during previous episode of care
+L18zz	Medical condition NOS, during pregnancy, childbirth or the puerperium NOS
+L394.	Other complications of obstetric procedures
+L3940	Other complications of obstetric procedures unspecified
+L394z	Other complications of obstetric procedures NOS
+L443.	Other complication of obstetric surgical wound
+L4430	Other complication of obstetric surgical wound unspecified
+L443z	Other complication of obstetric surgical wound NOS
+Ly...	Other specified complications of pregnancy, childbirth or the puerperium
+Lyu02	[X]Other abortion
+Lyu04	[X]Other and unspecified failed induced abortion, complicated by genital tract and pelvic infection
+Lyu07	[X]Other and unspecified failed induced abortion, with other and unspecified complications
+Lyu09	[X]Other venous complications following abortion and ectopic and molar pregnancy
+Lyu0A	[X]Other complications following abortion and ectopic and molar pregnancy
+Lyu0B	[X]Complication following abortion and ectopic and molar pregnancy, unspecified
+Lyu1.	[X]Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium
+Lz...	Complications of pregnancy, childbirth and the puerperium NOS
+X4035	Curettage of uterus and endometrial sampling
+X4038	ERPC - Evacuation of retained products of conception
+X4038	ERPOC - Evacuation of retained products of conception
+X4038	Evacuation of retained product of conception
+X40AZ	Nephropathy NOS in pregnancy without hypertension
+X40BF	Septic abortion
+X70Hd	Enzootic abortion
+Xa3qd	Therapeutic aspiration of uterus - menstrual extraction
+Xa3vc	Dilatation and curettage NOS
+Xa9gX	Dilation of cervix uteri and curettage of uterus NEC
+XaBDl	Unspecified inevitable abortion complicated by delayed or excessive haemorrhage
+XaBDl	Unspecified inevitable miscarriage complicated by delayed or excessive haemorrhage
+XaC3e	D&C - Dilatation and curettage
+XaC3e	Dilatation and curettage
+XaC3e	Dilatation of cervix and curettage of uterus
+XaCL3	Suction evacuation of retained products of conception
+XaMBv	Vacuum aspiration of products of conception from uterus using rigid cannula
+XaMBw	Vacuum aspiration of products of conception from uterus using flexible cannula
+XaMM5	Vacuum aspiration of products of conception from uterus NEC
+XE06i	Dilation of cervix uteri and curettage of products of conception from uterus
+XE06j	Curettage of products of conception from uterus NEC
+XE0vf	Unspecified spontaneous abortion with genital tract or pelvic infection
+XE0vg	Unspecified spontaneous abortion with delayed or excessive haemorrhage
+XE0vh	Incomplete spontaneous abortion NOS
+XE0vm	Readmission for abortive pregnancy
+XE0vv	Unspecified renal disease in pregnancy
+XE0xe	Abortion NOS
+XE0xg	Other abortive pregnancy
+XE0xm	Delayed/excessive haemorrhage
+XE0xm	H'ge - post abortion
+XE0xm	Haemorrhage: [delayed &/or excessive] or [post abortion]
+XE0xO	Other complication of obstetric surgical wound
+XE0xs	Post-abortion problem NOS
+XE0xY	Miscarriage
+XE0xY	Spontaneous abortion
+XE0y6	Pregnancy complications NOS
+XE0yM	Pregnancy with other medical condition
+XE0yW	Pregnancy with medical condition NOS
+XM0BA	Complication following abortion
+XM0BA	Post-abortion problem
+XM1HY	Dilatation of cervix and curettage of retained products of conception
+XM1HZ	Dilation of cervix uteri and curettage for termination of pregnancy
+XM1Kf	Evacuation of uterus

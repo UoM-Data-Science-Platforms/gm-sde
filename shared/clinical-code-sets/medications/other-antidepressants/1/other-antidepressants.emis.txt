@@ -1,0 +1,329 @@
+^ESCT1168398	Tryptophan hydroxylase inhibitor
+^ESCT1178180	Product containing only tryptophan 500 mg/1 each oral tablet
+^ESCT1178620	Product containing only naltrexone hydrochloride 25 mg/1 each oral tablet
+^ESCT1178621	Product containing only naltrexone hydrochloride 100 mg/1 each oral tablet
+^ESCT1178691	Product containing only naltrexone hydrochloride 50 mg/1 each oral tablet
+^ESCT1178798	Product containing only ferrous gluconate 250 mg and folic acid 5 mg and ascorbic acid 10 mg/1 each oral tablet
+^ESCT1178812	Product containing only ascorbic acid 100 mg/1 each oral tablet
+^ESCT1178995	Substance with tryptophan hydroxylase inhibitor mechanism of action
+^ESCT1179307	Product containing only bupropion hydrochloride 75 mg/1 each oral tablet
+^ESCT1179322	Product containing only ascorbic acid 60 mg and cyanocobalamin 5 mg and ferrous fumarate 200 mg/1 each oral capsule
+^ESCT1182286	Product containing only pyridoxine hydrochloride 10 mg/1 each oral tablet
+^ESCT1182287	Product containing only pyridoxine hydrochloride 50 mg/1 each oral tablet
+^ESCT1182288	Product containing only ascorbic acid 50 mg/1 each oral tablet
+^ESCT1182289	Product containing only ascorbic acid 200 mg/1 each oral tablet
+^ESCT1182290	Product containing only ascorbic acid 500 mg/1 each oral tablet
+^ESCT1182866	Vitamin C
+^ESCT1182867	Product containing ascorbic acid
+^ESCT1185530	Product containing only bupropion hydrochloride 100 mg/1 each oral tablet
+^ESCT1187936	Product containing ketamine
+^ESCT1188246	Product containing only pyridoxine hydrochloride 20 mg/1 each oral tablet
+^ESCT1201544	Doxylamine and pyridoxine product
+^ESCT1201545	Product containing doxylamine and pyridoxine
+^ESCT1201547	Doxylamine and pyridoxine in oral dosage form
+^ESCT1201548	Product containing doxylamine and pyridoxine in oral dosage form
+^ESCT1202605	Ascorbic acid 250mg chewable tablet
+^ESCT1203230	Bupropion hydrochloride 100mg prolonged-release oral tablet
+^ESCT1203333	Bupropion hydrochloride 200mg prolonged-release oral tablet
+^ESCT1203403	Bupropion hydrochloride 50mg prolonged-release oral tablet
+^ESCT1203482	Bupropion hydrochloride 300mg prolonged-release oral tablet
+^ESCT1203491	Bupropion hydrochloride 150 mg prolonged-release oral tablet
+^ESCT1203492	Product containing precisely bupropion hydrochloride 150 milligram/1 each prolonged-release oral tablet
+^ESCT1203653	Morphine sulfate 20mg + naltrexone hydrochloride 800microgram prolonged-release oral capsule
+^ESCT1203711	Morphine sulfate 50mg + naltrexone hydrochloride 2mg prolonged-release oral capsule
+^ESCT1203771	Morphine sulfate 80mg + naltrexone hydrochloride 3.2mg prolonged-release oral capsule
+^ESCT1203838	Morphine sulfate 100mg + naltrexone hydrochloride 4mg prolonged-release oral capsule
+^ESCT1203874	Morphine sulfate 60mg + naltrexone hydrochloride 2.4mg prolonged-release oral capsule
+^ESCT1203883	Morphine sulfate 30mg + naltrexone hydrochloride 1.2mg prolonged-release oral capsule
+^ESCT1205441	Pyridoxine product
+^ESCT1205442	Product containing pyridoxine
+^ESCT1206250	Ascorbic acid and cyanocobalamin and ferrous fumarate product
+^ESCT1206251	Product containing ascorbic acid and cyanocobalamin and ferrous fumarate
+^ESCT1206252	Ascorbic acid and cyanocobalamin and ferrous fumarate in oral dosage form
+^ESCT1206253	Product containing ascorbic acid and cyanocobalamin and ferrous fumarate in oral dosage form
+^ESCT1207074	Tryptophan in oral dosage form
+^ESCT1207075	Product containing tryptophan in oral dosage form
+^ESCT1207102	Ascorbic acid and ferrous gluconate and folic acid product
+^ESCT1207103	Product containing ascorbic acid and ferrous gluconate and folic acid
+^ESCT1207104	Ascorbic acid and ferrous gluconate and folic acid in oral dosage form
+^ESCT1207105	Product containing ascorbic acid and ferrous gluconate and folic acid in oral dosage form
+^ESCT1208024	Ascorbic acid and cetylpyridinium product
+^ESCT1208025	Product containing ascorbic acid and cetylpyridinium
+^ESCT1209073	Ascorbic acid 500 mg/5 mL solution for injection ampoule
+^ESCT1209074	Ascorbic acid 500 mg/5 mL solution for injection ampule
+^ESCT1209075	Product containing precisely ascorbic acid 500 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1209677	Ketamine (as ketamine hydrochloride) 1 g/10 mL solution for injection vial
+^ESCT1209678	Product containing precisely ketamine (as ketamine hydrochloride) 1 gram/10 milliliter conventional release solution for injection vial
+^ESCT1209679	Ketamine (as ketamine hydrochloride) 200 mg/20 mL solution for injection vial
+^ESCT1209680	Product containing precisely ketamine (as ketamine hydrochloride) 200 milligram/20 milliliter conventional release solution for injection vial
+^ESCT1209681	Ketamine (as ketamine hydrochloride) 500 mg/10 mL solution for injection vial
+^ESCT1209682	Product containing precisely ketamine (as ketamine hydrochloride) 500 milligram/10 milliliter conventional release solution for injection vial
+^ESCT1211313	Lysine and tryptophan-free infant formula
+^ESCT1211331	Lysine and tryptophan-free formula
+^ESCT1214702	Ascorbic acid 500mg/5ml solution for injection ampoules
+^ESCT1214804	Bupropion 150mg modified-release tablets
+^ESCT1215461	Ketamine 1g/10ml solution for injection vials
+^ESCT1215462	Ketamine 200mg/20ml solution for injection vials
+^ESCT1215463	Ketamine 500mg/10ml solution for injection vials
+^ESCT1218387	Ascorbic acid
+^ESCT1219642	Oxitriptan
+^ESCT1221199	Tryptophan
+^ESCT1221200	Product containing tryptophan
+^ESCT1223579	Product containing precisely tryptophan 500 milligram/1 each conventional release oral tablet
+^ESCT1224012	Product containing precisely naltrexone hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1225196	Ferrous gluconate 250 mg and folic acid 5 mg and ascorbic acid 10 mg oral tablet
+^ESCT1225197	Product containing precisely ascorbic acid 10 milligram and ferrous gluconate 250 milligram and folic acid 5 milligram/1 each conventional release oral tablet
+^ESCT1225198	Ascorbic acid 10 mg and ferrous gluconate 250 mg and folic acid 5 mg oral tablet
+^ESCT1225275	Product containing precisely pyridoxine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1225276	Product containing precisely pyridoxine (as pyridoxine hydrochloride) 20 milligram/1 each conventional release oral tablet
+^ESCT1225277	Pyridoxine (as pyridoxine hydrochloride) 20 mg oral tablet
+^ESCT1225278	Product containing precisely pyridoxine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1225290	Product containing precisely ascorbic acid 50 milligram/1 each conventional release oral tablet
+^ESCT1225291	Product containing precisely ascorbic acid 100 milligram/1 each conventional release oral tablet
+^ESCT1225292	Product containing precisely ascorbic acid 200 milligram/1 each conventional release oral tablet
+^ESCT1225293	Product containing precisely ascorbic acid 500 milligram/1 each conventional release oral tablet
+^ESCT1226377	Ketamine
+^ESCT1226378	Ketamine product
+^ESCT1228829	Product containing precisely bupropion hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1228929	Ascorbic acid 60 mg and cyanocobalamin 5 mg and ferrous fumarate 200 mg/1 each oral capsule
+^ESCT1228930	Ascorbic acid 60 mg and cyanocobalamin 5 mg and ferrous fumarate 200 mg oral capsule
+^ESCT1228931	Product containing precisely ascorbic acid 60 milligram and cyanocobalamin 5 milligram and ferrous fumarate 200 milligram/1 each conventional release oral capsule
+^ESCT1229455	Product containing precisely bupropion hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1229811	Clioquinol+ascorbic acid
+^ESCT1229812	Product containing ascorbic acid and clioquinol
+^ESCT1229813	Ascorbic acid and clioquinol product
+^ESCT1230822	Product containing precisely naltrexone hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1230823	Product containing precisely naltrexone hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1233404	Product containing ascorbic acid and dimethyl sulfone
+^ESCT1233405	Ascorbic acid and dimethyl sulfone product
+^ESCT1233536	Product containing ascorbic acid and nicotinamide
+^ESCT1233537	Ascorbic acid and niacinamide product
+^ESCT1233538	Ascorbic acid and nicotinamide product
+^ESCT1233874	Product containing ascorbic acid and paracetamol
+^ESCT1233875	Acetaminophen and ascorbic acid product
+^ESCT1233876	Ascorbic acid and paracetamol product
+^ESCT1234425	Product containing ascorbic acid and ferrous sulfate
+^ESCT1234426	Ascorbic acid and ferrous sulfate product
+^ESCT1235906	Agomelatine
+^ESCT1235907	Product containing agomelatine
+^ESCT1235908	Agomelatine product
+^ESCT1377802	5-hydroxy tryptophan
+^ESCT1378488	D-tryptophan N-acetyltransferase
+^ESCT1378489	Acetyl-CoA-D-tryptophan-alpha-N-acetyltransferase
+^ESCT1378490	D-tryptophan acetyltransferase
+^ESCT1382275	Ascorbic acid- and clioquinol-containing product
+^ESCT1383947	Ascorbic acid-containing product in oral dose form
+^ESCT1383967	Ascorbic acid-containing product in oropharyngeal dose form
+^ESCT1384026	Ascorbic acid-containing product in parenteral dose form
+^ESCT1384974	Ketamine-containing product in parenteral dose form
+^ESCT1385108	Pyridoxine-containing product in oral dose form
+^ESCT1385727	Doxylamine- and pyridoxine-containing product
+^ESCT1385728	Doxylamine- and pyridoxine-containing product in oral dose form
+^ESCT1385795	Ascorbic acid 250 mg chewable tablet
+^ESCT1386003	Pyridoxine-containing product
+^ESCT1386184	Ascorbic acid- and cyanocobalamin- and ferrous fumarate-containing product
+^ESCT1386185	Ascorbic acid- and cyanocobalamin- and ferrous fumarate-containing product in oral dose form
+^ESCT1386581	Tryptophan-containing product in oral dose form
+^ESCT1386598	Ascorbic acid- and ferrous gluconate- and folic acid-containing product
+^ESCT1386599	Ascorbic acid- and ferrous gluconate- and folic acid-containing product in oral dose form
+^ESCT1386961	Ascorbic acid- and cetylpyridinium-containing product
+^ESCT1388947	Adepend 50mg tablets (AOP Orphan Ltd)
+^ESCT1434823	Optimax 500mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT5H370171	5-Hydroxy tryptophan
+^ESCTAB787472	Abrine
+^ESCTAD1028773	Adepend 50mg tablets (AOP Orphan Pharmaceuticals AG)
+^ESCTAG750322	Agomelatine
+^ESCTAG756866	Agomelatine
+^ESCTAG982175	Agomelatine 25mg tablets
+^ESCTAR317394	Aromatic-L-amino-acid decarboxylase
+^ESCTAS320379	Ascorbic acid
+^ESCTAS320383	Ascorbate
+^ESCTAS324493	Ascorbic acid
+^ESCTAS324495	Ascorbic acid preparation
+^ESCTAS324496	Ascorbic acid product
+^ESCTAS614763	Ascorbic acid 50mg tablets
+^ESCTAS614765	Ascorbic acid 50 mg oral tablet
+^ESCTAS614766	Ascorbic acid 100mg tablets
+^ESCTAS614768	Ascorbic acid 100 mg oral tablet
+^ESCTAS614769	Ascorbic acid 200mg tablets
+^ESCTAS614771	Ascorbic acid 200 mg oral tablet
+^ESCTAS614772	Ascorbic acid 500mg tablets
+^ESCTAS614774	Ascorbic acid 500 mg oral tablet
+^ESCTAS641867	Ascorbic acid 60 mg and cyanocobalamin 5 mg and ferrous fumarate 200 mg/1 each oral capsule
+^ESCTAS696944	Ascorbic acid+dimethyl sulphone
+^ESCTAS696945	Ascorbic acid+dimethyl sulfone
+^ESCTAS696946	Ascorbic acid + Dimethyl sulfone
+^ESCTAS697672	Ascorbic acid + Nicotinamide
+^ESCTAS697673	Ascorbic acid + nicotinamide
+^ESCTAS700060	Ascorbic acid+acetaminophen
+^ESCTAS700061	Ascorbic acid+paracetamol
+^ESCTAS700063	Ascorbic acid + Paracetamol
+^ESCTAS706152	Ascorbic acid + ferrous sulphate
+^ESCTAS706153	Ascorbic acid + ferrous sulfate
+^ESCTAS706154	Ascorbic acid + Ferrous sulphate
+^ESCTAS720026	Ascorbic acid in oral dosage form
+^ESCTAS720136	Ascorbic acid in oropharyngeal dosage form
+^ESCTAS720909	Ascorbic acid in parenteral dosage form
+^ESCTAS721683	Ascorbic acid in topical dosage form
+^ESCTBU641589	Bupropion hydrochloride 75 mg oral tablet
+^ESCTBU645766	Bupropion hydrochloride 100 mg oral tablet
+^ESCTBU655829	Bupropion hydrochloride
+^ESCTCL661008	Clioquinol+ascorbic acid
+^ESCTDI696943	Dimethyl sulfone + Ascorbic acid
+^ESCTDO317395	Dopa decarboxylase
+^ESCTDT420272	D-Tryptophan acetyltransferase
+^ESCTDT443912	D-tryptophan N-malonyltransferase
+^ESCTFE614268	Ferrous gluconate 250 mg and folic acid 5 mg and ascorbic acid 10 mg oral tablet
+^ESCTFE706151	Ferrous sulfate + Ascorbic acid
+^ESCTFE706155	Ferrous sulphate + Ascorbic acid
+^ESCTFR761040	Free tryptophan
+^ESCTHY317397	Hydroxytryptophan decarboxylase
+^ESCTIN267391	Indole-3-alkane alpha-hydroxylase
+^ESCTIN380306	Indoleamine 2,3-dioxygenase
+^ESCTIN380307	Indoleamine-pyrrole 2,3-dioxygenase
+^ESCTKE301070	Ketamine hydrochloride
+^ESCTKE616801	Ketamine
+^ESCTKE638165	Ketamine
+^ESCTKE771639	Ketamine in parenteral dosage form
+^ESCTKE866146	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd)
+^ESCTKE866161	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd)
+^ESCTKE866176	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd)
+^ESCTLA320382	L-Ascorbic acid
+^ESCTLA787471	L-abrine
+^ESCTLT338971	L-tryptophan
+^ESCTLT338973	L-Tryptophan
+^ESCTLT415885	L-Tryptophan
+^ESCTNA354407	Naltrexone hydrochloride
+^ESCTNA610988	Naltrexone 50mg tablets
+^ESCTNA610990	Naltrexone hydrochloride 50 mg oral tablet
+^ESCTNA677913	Naltrexone hydrochloride 25 mg oral tablet
+^ESCTNA677915	Naltrexone hydrochloride 100 mg oral tablet
+^ESCTNA863107	Nalorex 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTNC354408	N-cyclopropylmethylnoroxymorphone hydrochloride
+^ESCTNM787473	N-methyl-L-tryptophan
+^ESCTOP863641	Optimax 500mg tablets (Intrapharm Laboratories Ltd)
+^ESCTOP936692	Opizone 50mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTPA700059	Paracetamol + Ascorbic acid
+^ESCTPE338312	Peptide-tryptophan 2,3-dioxygenase
+^ESCTPR609757	Product containing tryptophan 500 mg/1 each oral tablet
+^ESCTPR610989	Product containing naltrexone hydrochloride 50 mg/1 each oral tablet
+^ESCTPR614269	Product containing ferrous gluconate 250 mg and folic acid 5 mg and ascorbic acid 10 mg/1 each oral tablet
+^ESCTPR614729	Product containing pyridoxine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR614732	Product containing pyridoxine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR614735	Product containing pyridoxine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR614764	Product containing ascorbic acid 50 mg/1 each oral tablet
+^ESCTPR614767	Product containing ascorbic acid 100 mg/1 each oral tablet
+^ESCTPR614770	Product containing ascorbic acid 200 mg/1 each oral tablet
+^ESCTPR614773	Product containing ascorbic acid 500 mg/1 each oral tablet
+^ESCTPR641590	Product containing bupropion hydrochloride 75 mg/1 each oral tablet
+^ESCTPR641868	Product containing ascorbic acid 60 mg and cyanocobalamin 5 mg and ferrous fumarate 200 mg/1 each oral capsule
+^ESCTPR645767	Product containing bupropion hydrochloride 100 mg/1 each oral tablet
+^ESCTPR677914	Product containing naltrexone hydrochloride 25 mg/1 each oral tablet
+^ESCTPR677916	Product containing naltrexone hydrochloride 100 mg/1 each oral tablet
+^ESCTPR720027	Product containing ascorbic acid in oral dosage form
+^ESCTPR720137	Product containing ascorbic acid in oropharyngeal dosage form
+^ESCTPR720910	Product containing ascorbic acid in parenteral dosage form
+^ESCTPR721684	Product containing ascorbic acid in topical dosage form
+^ESCTPR771640	Product containing ketamine in parenteral dosage form
+^ESCTPR772217	Product containing pyridoxine in oral dosage form
+^ESCTPY251378	Pyridoxine 4-dehydrogenase
+^ESCTPY251379	Pyridoxin dehydrogenase
+^ESCTPY276189	Pyridoxine 4-oxidase
+^ESCTPY276190	Pyridoxin 4-oxidase
+^ESCTPY338313	Pyrrolooxygenase
+^ESCTPY394091	Pyridoxine 5-dehydrogenase
+^ESCTPY394092	Pyridoxol-5-dehydrogenase
+^ESCTPY408511	Pyridoxine congeners
+^ESCTPY438249	Pyridoxine hydrochloride
+^ESCTPY444000	Pyridoxine 5'-O-beta-D-glucosyltransferase
+^ESCTPY476201	Pyridoxine-responsive sideroblastic anemia
+^ESCTPY614728	Pyridoxine 10mg tablets
+^ESCTPY614730	Pyridoxine hydrochloride 10 mg oral tablet
+^ESCTPY614731	Pyridoxine 20mg tablets
+^ESCTPY614733	Pyridoxine hydrochloride 20 mg oral tablet
+^ESCTPY614734	Pyridoxine 50mg tablets
+^ESCTPY614736	Pyridoxine hydrochloride 50 mg oral tablet
+^ESCTPY712176	Pyridoxine
+^ESCTPY712427	Pyridoxine 5'-phosphate
+^ESCTPY712428	Pyridoxine phosphate
+^ESCTPY772216	Pyridoxine in oral dosage form
+^ESCTTR267390	Tryptophan 2'-dioxygenase
+^ESCTTR267392	Tryptophan side-chain alpha,beta-oxidase
+^ESCTTR289291	Tryptophan aminotransferase
+^ESCTTR291036	Tryptophan-tRNA ligase
+^ESCTTR291037	Tryptophanyl-tRNA synthetase
+^ESCTTR291038	Tryptophan-transfer ribonucleic acid ligase
+^ESCTTR302630	Tryptophan dimethylallyltransferase
+^ESCTTR317396	Tryptophan decarboxylase
+^ESCTTR338972	Tryptophan
+^ESCTTR356140	Tryptophan 2-monooxygenase
+^ESCTTR364167	Tryptophan synthase
+^ESCTTR364168	Tryptophan desmolase
+^ESCTTR365142	Tryptophan-phenylpyruvate aminotransferase
+^ESCTTR380303	Tryptophan 2,3-dioxygenase
+^ESCTTR380304	Tryptophan pyrrolase
+^ESCTTR380305	Tryptophan oxygenase
+^ESCTTR392143	Tryptophan 5-monooxygenase
+^ESCTTR392144	Tryptophan 5-hydroxylase
+^ESCTTR415884	Tryptophan
+^ESCTTR415886	Tryptophan product
+^ESCTTR443839	Tryptophan 2-C-methyltransferase
+^ESCTTR444401	Tryptophanyl aminopeptidase
+^ESCTTR444402	Tryptophan aminopeptidase
+^ESCTTR609756	Tryptophan 500mg tablets
+^ESCTTR609758	Tryptophan 500 mg oral tablet
+^ESCTTR693012	Tryptophan agent
+^ESCTTR796050	Tryptophan hydroxylase inhibitor
+^ESCTVA981819	Valdoxan 25mg tablets (Servier Laboratories Ltd)
+^ESCTVI320380	Vitamin C
+^ESCTVI320381	VITC - Ascorbic acid
+^ESCTVI324494	Vitamin C preparation
+^ESCTVI324497	Vitamin C product
+^ESCTVI700062	Vitamin C+acetaminophen
+^ESCTVI712177	Vitamin B6
+^ESCTZY821334	Zyban 150mg modified-release tablets (GlaxoSmithKline UK Ltd)
+ADTA73934NEMIS	Adepend  Tablets  50 mg
+AGTA36504NEMIS	Agomelatine  Tablets  25 mg
+ASIN9156HILLI	Ascorbic Acid  Solution for injection  100 mg/ml, 5 ml ampoule
+ASTA213	Ascorbic Acid  Tablets  100 mg
+ASTA214	Ascorbic Acid  Tablets  200 mg
+ASTA215	Ascorbic Acid  Tablets  25 mg
+ASTA216	Ascorbic Acid  Tablets  50 mg
+ASTA217	Ascorbic Acid  Tablets  500 mg
+BETA298	Benadon  Tablets  20 mg
+BETA299	Benadon  Tablets  50 mg
+BUTA4575NEMIS	Bupropion Hydrochloride  M/R tablets  150 mg
+KEIN15443NEMIS	Ketamine Hydrochloride  Injection  10 mg/ml, 20 ml vial
+KEIN15445NEMIS	Ketamine Hydrochloride  Injection  50 mg/ml, 10 ml vial
+KEIN15446NEMIS	Ketamine Hydrochloride  Injection  100 mg/ml, 10 ml vial
+KEIN15447NEMIS	Ketalar  Injection  10 mg/ml, 20 ml vial
+KEIN15448NEMIS	Ketalar  Injection  50 mg/ml, 10 ml vial
+KEIN15449NEMIS	Ketalar  Injection  100 mg/ml, 10 ml vial
+KEIN6950	Ketamine (As Hydrochloride)  Injection  10 mg
+KEIN6951	Ketamine (As Hydrochloride)  Injection  100 mg
+KEIN6952	Ketamine (As Hydrochloride)  Injection  50 mg
+KEINEGTON6365	Ketalar  Injection  10 mg
+KEINEGTON6366	Ketalar  Injection  100 mg
+KEINEGTON6367	Ketalar  Injection  50 mg
+L-TA1581	L-Tryptophan  Tablets  500 mg
+NATA8958EMIS	Naltrexone Hydrochloride  Tablets  50 mg
+NATA9721BRIDL	Nalorex  Tablets  50 mg
+OPPO4080	Optimax  Powder  
+OPTA23872NEMIS	Opizone  Tablets  50 mg
+OPTA24400EMIS	Optimax  Tablets  500 mg
+OPTA4082	Optimax Wv  Tablets  500 mg
+ORM/14805NEMIS	Orovite Comploment B6  M/R tablets  100 mg
+PATA2151	Pacitron  Tablets  500 mg
+PATA9806HILLI	Paxadon  Tablets  50 mg
+PYTA2414	Pyridoxine Hydrochloride  Tablets  10 mg
+PYTA2415	Pyridoxine Hydrochloride  Tablets  100 mg
+PYTA2416	Pyridoxine Hydrochloride  Tablets  20 mg
+PYTA2417	Pyridoxine Hydrochloride  Tablets  50 mg
+REEF9867HILLI	Redoxon  Effervescent tablets  1 gram
+RETA9868HILLI	Redoxon  Tablets  200 mg
+RETA9869HILLI	Redoxon  Tablets  25 mg
+RETA9870HILLI	Redoxon  Tablets  50 mg
+RETA9871HILLI	Redoxon  Tablets  500 mg
+TRTA5484	Tryptophan  Tablets  500 mg
+VATA36507NEMIS	Valdoxan  Tablets  25 mg
+ZYTA4578NEMIS	Zyban  M/R tablets  150 mg

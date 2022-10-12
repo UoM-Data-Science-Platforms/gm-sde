@@ -1,0 +1,69 @@
+7M300	Emergency operation NOC
+8H1	Admit to intensive care unit
+8H1-1	Admit to I.T.U.
+8H11	Admit to cardiac ITU
+8H12	Admit to respiratory ITU
+8H13	Admit to neurological ITU
+8H14	Admit to metabolic ITU
+8H1Z	Admit to intensive c.u. NOS
+8H2	Emergency hospital admission
+8H21	Admit medical emergency unsp.
+8H22	Admit surgical emergency unsp.
+8H23	Admit psychiatric emergency
+8H230	Emerg psychiatric admiss MHA
+8H24	Admit geriatric emergency
+8H25	Admit paediatric emergency
+8H26	Admit gynaecological emergency
+8H27	Admit obstetric emergency
+8H28	Admit orthopaedic emergency
+8H29	Admit ENT emergency
+8H2A	Admit trauma emergency
+8H2B	Admit ophthalmological emerg.
+8H2C	Admit rheumatology emergency
+8H2D	Admit dermatology emergency
+8H2E	Admit neurology emergency
+8H2F	Admit urology emergency
+8H2G	Admit radiotherapy emergency
+8H2H	Admit haematology emergency
+8H2I	Admit plastic surgery emergenc
+8H2J	Admit diabetic emergency
+8H2K	Admit oral surgical emergency
+8H2L	Admit psychogeriatric emergency
+8H2M	Admit renal medicine emergency
+8H2N	Admit neurosurgical emergency
+8H2O	Admit cardiothoracic emergency
+8H2P	Emergency admission, asthma
+8H2Q	Admit cardiology emergency
+8H2R	Admit COPD emergency
+8H2S	Admit heart failure emergency
+8H2T	Emergency voluntary psychiatric admission Mental Health Act
+8H2V	Admit ischaemic heart disease emergency
+8H2W	Admit vascular surgery emergency
+8H2X	Emergency hospital admission from walk-in centre
+8H2Y	Admit anticoagulation emergency
+8H2Z	Admit hospital emergency NOS
+8H63	Refer to casualty officer
+8H64	Refer to house officer
+8H65	Refer to hospital registrar
+8Hb	Involuntary admission
+8HC	Refer to hospital casualty
+8HC1	Refer to A. & E. department
+8HC2	Refer to hosp. eye casualty
+8HC3	Refer to hosp. paeds casualty
+8HCZ	Refer to hospital casualty NOS
+8Hd1	Admission by accident and emergency doctor
+8Hd3	Admission by out of hours service doctor
+8Hd5	Admission to acute assessment unit
+8Hd6	Admission to stroke unit
+8HJA-1	Casualty self-referral
+8HJZ	Self-referral to hospital NOS
+9b0K	Hospital admission note
+9N04	Seen in emergency clinic
+9N19	Seen in hospital casualty
+9Nk8	Seen in eye casualty department
+8H2..	Emergency hospital admission
+8H21.	Admit medical emergency unsp.
+8H22.	Admit surgical emergency unsp.
+8H23.	Admit psychiatric emergency
+8H2X.	Emergency hospital admission from walk-in centre
+8H2Z.	Admit hospital emergency NOS

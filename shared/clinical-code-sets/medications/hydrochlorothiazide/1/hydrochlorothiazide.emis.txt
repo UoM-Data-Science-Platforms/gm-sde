@@ -1,0 +1,818 @@
+^ESCT1167914	Hydralazine and hydrochlorothiazide
+^ESCT1167915	Product containing hydralazine and hydrochlorothiazide
+^ESCT1167918	Hydrochlorothiazide and labetalol
+^ESCT1167919	Product containing hydrochlorothiazide and labetalol
+^ESCT1177714	Product containing only irbesartan 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1177875	Product containing only amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1177925	Product containing only timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1177992	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178013	Product containing only lisinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178014	Product containing only lisinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178027	Product containing only irbesartan 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178079	Product containing only acebutolol 200 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178080	Product containing only atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1178081	Product containing only bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCT1178100	Product containing only losartan potassium 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178334	Product containing only hydrochlorothiazide 12.5 mg/1 each oral capsule
+^ESCT1178427	Product containing only hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178602	Product containing only candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178844	Product containing only eprosartan 600 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178845	Product containing only eprosartan 600 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178849	Product containing only triamterene 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178850	Product containing only moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178851	Product containing only moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178855	Product containing only bisoprolol fumarate 2.5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCT1179094	Product containing only hydrochlorothiazide 50 mg and spironolactone 50 mg/1 each oral tablet
+^ESCT1179097	Product containing only benazepril hydrochloride 5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCT1179336	Product containing only enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1179348	Product containing only hydrochlorothiazide 30 mg and methyldopa 500 mg/1 each oral tablet
+^ESCT1179349	Product containing only hydrochlorothiazide 12.5 mg and valsartan 80 mg/1 each oral tablet
+^ESCT1179428	Product containing only aliskiren 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181208	Product containing only captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181210	Product containing only enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181274	Product containing only quinapril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182044	Metoprolol + Hydrochlorothiazide
+^ESCT1182123	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1182487	Product containing only metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1182639	Product containing only telmisartan 80 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182663	Product containing only olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182664	Product containing only olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182755	Product containing only fosinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182935	Product containing only losartan potassium 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1182936	Product containing only hydrochlorothiazide 25 mg and propranolol hydrochloride 80 mg/1 each oral tablet
+^ESCT1182937	Product containing only hydrochlorothiazide 12.5 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1183185	Product containing only benazepril hydrochloride 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1183189	Product containing only candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1183190	Product containing only captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183191	Product containing only captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183232	Product containing only guanethidine monosulfate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1183233	Product containing only hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg/1 each oral tablet
+^ESCT1183234	Product containing only hydrochlorothiazide 15 mg and methyldopa 250 mg/1 each oral tablet
+^ESCT1183235	Product containing only hydrochlorothiazide 25 mg and methyldopa 250 mg/1 each oral tablet
+^ESCT1183236	Product containing only hydrochlorothiazide 50 mg and methyldopa 500 mg/1 each oral tablet
+^ESCT1183237	Product containing only hydrochlorothiazide 25 mg and propranolol hydrochloride 40 mg/1 each oral tablet
+^ESCT1183238	Product containing only hydrochlorothiazide 25 mg and reserpine 0.125 mg/1 each oral tablet
+^ESCT1183239	Product containing only hydrochlorothiazide 25 mg and spironolactone 25 mg/1 each oral tablet
+^ESCT1183341	Product containing only aliskiren 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1183342	Product containing only aliskiren 300 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1183343	Product containing only aliskiren 150 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1183360	Product containing amlodipine and hydrochlorothiazide and valsartan
+^ESCT1183361	Amlodipine and hydrochlorothiazide and valsartan
+^ESCT1184123	Quinapril + Hydrochlorothiazide
+^ESCT1184477	Product containing only metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1184480	Product containing only metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185283	Product containing only telmisartan 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185308	Product containing only hydrochlorothiazide 25 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1185319	Product containing only fosinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185335	Amlodipine and hydrochlorothiazide and olmesartan medoxomil
+^ESCT1185336	Product containing amlodipine and hydrochlorothiazide and olmesartan medoxomil
+^ESCT1185368	Product containing only hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCT1185433	Product containing only bisoprolol fumarate 5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCT1185435	Product containing only captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1185468	Product containing only hydrochlorothiazide 25 mg and labetalol hydrochloride 300 mg/1 each oral tablet
+^ESCT1185469	Product containing only hydrochlorothiazide 25 mg and lisinopril 20 mg/1 each oral tablet
+^ESCT1185470	Product containing only hydrochlorothiazide 50 mg and reserpine 0.125 mg/1 each oral tablet
+^ESCT1185475	Product containing only amiloride 5 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCT1187207	Product containing only captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1187670	Product containing only benazepril hydrochloride 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1187671	Product containing only benazepril hydrochloride 20 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1187709	Product containing only hydrochlorothiazide 25 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1187724	Product containing only hydrochlorothiazide 12.5 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1187848	Aliskiren and hydrochlorothiazide
+^ESCT1187849	Product containing aliskiren and hydrochlorothiazide
+^ESCT1188065	Product containing only olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188278	Product containing eprosartan and hydrochlorothiazide
+^ESCT1188279	Eprosartan and hydrochlorothiazide
+^ESCT1188280	Product containing only timolol maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188283	Product containing only moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1188340	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCT1188526	Product containing only enalapril maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188534	Product containing only hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1188535	Product containing only hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1188536	Product containing only hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1188538	Product containing only hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCT1188539	Product containing only hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCT1188540	Product containing only hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCT1188541	Product containing only hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral tablet
+^ESCT1203248	Hydrochlorothiazide 25 mg and metoprolol tartrate 200 mg prolonged-release oral tablet
+^ESCT1203249	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 200 milligram/1 each prolonged-release oral tablet
+^ESCT1206107	Hydrochlorothiazide and metoprolol in oral dosage form
+^ESCT1206108	Product containing hydrochlorothiazide and metoprolol in oral dosage form
+^ESCT1206145	Aliskiren and hydrochlorothiazide in oral dosage form
+^ESCT1206146	Product containing aliskiren and hydrochlorothiazide in oral dosage form
+^ESCT1206201	Amiloride and hydrochlorothiazide in oral dosage form
+^ESCT1206202	Product containing amiloride and hydrochlorothiazide in oral dosage form
+^ESCT1206267	Amiloride and atenolol and hydrochlorothiazide in oral dosage form
+^ESCT1206268	Product containing amiloride and atenolol and hydrochlorothiazide in oral dosage form
+^ESCT1206297	Acebutolol and hydrochlorothiazide in oral dosage form
+^ESCT1206298	Product containing acebutolol and hydrochlorothiazide in oral dosage form
+^ESCT1206352	Bisoprolol and hydrochlorothiazide in oral dosage form
+^ESCT1206353	Product containing bisoprolol and hydrochlorothiazide in oral dosage form
+^ESCT1206466	Benazepril and hydrochlorothiazide in oral dosage form
+^ESCT1206467	Product containing benazepril and hydrochlorothiazide in oral dosage form
+^ESCT1206550	Candesartan and hydrochlorothiazide in oral dosage form
+^ESCT1206551	Product containing candesartan and hydrochlorothiazide in oral dosage form
+^ESCT1206554	Captopril and hydrochlorothiazide in oral dosage form
+^ESCT1206555	Product containing captopril and hydrochlorothiazide in oral dosage form
+^ESCT1206721	Enalapril and hydrochlorothiazide in oral dosage form
+^ESCT1206722	Product containing enalapril and hydrochlorothiazide in oral dosage form
+^ESCT1206842	Hydrochlorothiazide and telmisartan in oral dosage form
+^ESCT1206843	Product containing hydrochlorothiazide and telmisartan in oral dosage form
+^ESCT1206885	Hydrochlorothiazide and quinapril in oral dosage form
+^ESCT1206886	Product containing hydrochlorothiazide and quinapril in oral dosage form
+^ESCT1206895	Eprosartan and hydrochlorothiazide in oral dosage form
+^ESCT1206896	Product containing eprosartan and hydrochlorothiazide in oral dosage form
+^ESCT1207216	Fosinopril and hydrochlorothiazide in oral dosage form
+^ESCT1207217	Product containing fosinopril and hydrochlorothiazide in oral dosage form
+^ESCT1207437	Guanethidine and hydrochlorothiazide product
+^ESCT1207438	Product containing guanethidine and hydrochlorothiazide
+^ESCT1207439	Guanethidine and hydrochlorothiazide in oral dosage form
+^ESCT1207440	Product containing guanethidine and hydrochlorothiazide in oral dosage form
+^ESCT1207537	Hydrochlorothiazide and losartan product
+^ESCT1207538	Product containing hydrochlorothiazide and losartan
+^ESCT1207553	Hydrochlorothiazide and losartan in oral dosage form
+^ESCT1207554	Product containing hydrochlorothiazide and losartan in oral dosage form
+^ESCT1207572	Hydralazine and hydrochlorothiazide in oral dosage form
+^ESCT1207573	Product containing hydralazine and hydrochlorothiazide in oral dosage form
+^ESCT1207865	Amiloride and hydrochlorothiazide and timolol product
+^ESCT1207866	Product containing amiloride and hydrochlorothiazide and timolol
+^ESCT1207915	Candesartan and hydrochlorothiazide product
+^ESCT1207916	Product containing candesartan and hydrochlorothiazide
+^ESCT1207917	Hydrochlorothiazide and propranolol product
+^ESCT1207918	Product containing hydrochlorothiazide and propranolol
+^ESCT1207919	Hydrochlorothiazide and propranolol in oral dosage form
+^ESCT1207920	Product containing hydrochlorothiazide and propranolol in oral dosage form
+^ESCT1207921	Hydrochlorothiazide and valsartan in oral dosage form
+^ESCT1207922	Product containing hydrochlorothiazide and valsartan in oral dosage form
+^ESCT1207934	Amiloride and hydrochlorothiazide and timolol in oral dosage form
+^ESCT1207935	Product containing amiloride and hydrochlorothiazide and timolol in oral dosage form
+^ESCT1208002	Hydrochlorothiazide and lisinopril in oral dosage form
+^ESCT1208003	Product containing hydrochlorothiazide and lisinopril in oral dosage form
+^ESCT1208004	Hydrochlorothiazide and moexipril product
+^ESCT1208005	Product containing hydrochlorothiazide and moexipril
+^ESCT1208006	Hydrochlorothiazide and moexipril in oral dosage form
+^ESCT1208007	Product containing hydrochlorothiazide and moexipril in oral dosage form
+^ESCT1220492	Hydrochlorothiazide
+^ESCT1220493	Hydrochlorothiazide product
+^ESCT1221927	Product containing precisely hydrochlorothiazide 12.5 milligram and irbesartan 300 milligram/1 each conventional release oral tablet
+^ESCT1221928	Hydrochlorothiazide 12.5 mg and irbesartan 300 mg oral tablet
+^ESCT1221929	Hydrochlorothiazide 12.5 mg and irbesartan 150 mg oral tablet
+^ESCT1221930	Product containing precisely hydrochlorothiazide 12.5 milligram and irbesartan 150 milligram/1 each conventional release oral tablet
+^ESCT1222783	Amiloride hydrochloride 2.5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1222784	Product containing precisely amiloride hydrochloride 2.5 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1222859	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1222860	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1222867	Product containing precisely amiloride hydrochloride 2.5 milligram and hydrochlorothiazide 25 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222868	Amiloride hydrochloride 2.5 mg and hydrochlorothiazide 25 mg and timolol maleate 10 mg oral tablet
+^ESCT1222876	Product containing precisely acebutolol 200 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222877	Product containing precisely amiloride hydrochloride 2.5 milligram and atenolol 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral capsule
+^ESCT1222878	Amiloride hydrochloride 2.5 mg and atenolol 50 mg and hydrochlorothiazide 25 mg oral capsule
+^ESCT1222881	Bisoprolol 10 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1222882	Product containing precisely bisoprolol 10 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+^ESCT1222954	Product containing precisely captopril 25 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222955	Product containing precisely captopril 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1222959	Enalapril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1222960	Product containing precisely enalapril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222969	Hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet
+^ESCT1222970	Product containing precisely hydrochlorothiazide 12.5 milligram and lisinopril 20 milligram/1 each conventional release oral tablet
+^ESCT1222971	Product containing precisely hydrochlorothiazide 12.5 milligram and lisinopril 10 milligram/1 each conventional release oral tablet
+^ESCT1222972	Hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet
+^ESCT1222979	Hydrochlorothiazide 12.5 mg and quinapril 10 mg oral tablet
+^ESCT1222980	Product containing precisely hydrochlorothiazide 12.5 milligram and quinapril 10 milligram/1 each conventional release oral tablet
+^ESCT1223021	Product containing precisely hydrochlorothiazide 12.5 milligram and losartan potassium 50 milligram/1 each conventional release oral tablet
+^ESCT1223022	Hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet
+^ESCT1227257	Atenolol + amiloride + hydrochlorothiazide
+^ESCT1227258	Amiloride and atenolol and hydrochlorothiazide product
+^ESCT1227810	Hydrochlorothiazide 12.5 mg/1 each oral capsule
+^ESCT1227811	Product containing precisely hydrochlorothiazide 12.5 milligram/1 each conventional release oral capsule
+^ESCT1227812	Hydrochlorothiazide 12.5 mg oral capsule
+^ESCT1228560	Product containing precisely hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1228632	Product containing precisely hydrochlorothiazide 50 milligram/1 each conventional release oral tablet
+^ESCT1228978	Product containing precisely benazepril hydrochloride 10 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1228979	Bisoprolol fumarate 5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1228980	Bisoprolol 5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1228981	Product containing precisely bisoprolol 5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+^ESCT1228990	Product containing precisely candesartan cilexetil 16 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1228991	Product containing precisely captopril 25 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1228992	Product containing precisely captopril 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1228993	Product containing precisely captopril 50 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1229079	Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1229080	Enalapril 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1229081	Product containing precisely enalapril 10 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1229082	Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1229083	Product containing precisely enalapril 5 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1229084	Enalapril 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1229151	Product containing precisely guanethidine monosulfate 10 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1229153	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg oral tablet
+^ESCT1229154	Product containing precisely hydralazine hydrochloride 25 milligram and hydrochlorothiazide 15 milligram and reserpine 100 microgram/1 each conventional release oral tablet
+^ESCT1229155	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 100 microgram oral tablet
+^ESCT1229156	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1229157	Product containing precisely hydralazine hydrochloride 100 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral capsule
+^ESCT1229158	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg oral capsule
+^ESCT1229159	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1229160	Product containing precisely hydralazine hydrochloride 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral capsule
+^ESCT1229161	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg oral capsule
+^ESCT1229162	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1229163	Product containing precisely hydralazine hydrochloride 50 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral capsule
+^ESCT1229164	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg oral capsule
+^ESCT1229165	Product containing precisely hydrochlorothiazide 25 milligram and labetalol hydrochloride 300 milligram/1 each conventional release oral tablet
+^ESCT1229166	Product containing precisely hydrochlorothiazide 25 milligram and lisinopril 20 milligram/1 each conventional release oral tablet
+^ESCT1229169	Product containing precisely hydrochlorothiazide 15 milligram and methyldopa 250 milligram/1 each conventional release oral tablet
+^ESCT1229170	Product containing precisely hydrochlorothiazide 25 milligram and methyldopa 250 milligram/1 each conventional release oral tablet
+^ESCT1229171	Product containing precisely hydrochlorothiazide 30 milligram and methyldopa 500 milligram/1 each conventional release oral tablet
+^ESCT1229172	Product containing precisely hydrochlorothiazide 50 milligram and methyldopa 500 milligram/1 each conventional release oral tablet
+^ESCT1229173	Product containing precisely hydrochlorothiazide 25 milligram and propranolol hydrochloride 40 milligram/1 each conventional release oral tablet
+^ESCT1229174	Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCT1229175	Product containing precisely hydrochlorothiazide 12.5 milligram and quinapril 20 milligram/1 each conventional release oral tablet
+^ESCT1229176	Hydrochlorothiazide 12.5 mg and quinapril 20 mg oral tablet
+^ESCT1229177	Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCT1229178	Hydrochlorothiazide 25 mg and quinapril 20 mg oral tablet
+^ESCT1229179	Product containing precisely hydrochlorothiazide 25 milligram and quinapril 20 milligram/1 each conventional release oral tablet
+^ESCT1229180	Hydrochlorothiazide 25 mg and reserpine 0.125 mg oral tablet
+^ESCT1229181	Hydrochlorothiazide 25 mg and reserpine 125 microgram oral tablet
+^ESCT1229182	Product containing precisely hydrochlorothiazide 25 milligram and reserpine 125 microgram/1 each conventional release oral tablet
+^ESCT1229183	Hydrochlorothiazide 50 mg and reserpine 0.125 mg oral tablet
+^ESCT1229184	Product containing precisely hydrochlorothiazide 50 milligram and reserpine 125 microgram/1 each conventional release oral tablet
+^ESCT1229185	Hydrochlorothiazide 50 mg and reserpine 125 microgram oral tablet
+^ESCT1229186	Product containing precisely hydrochlorothiazide 25 milligram and spironolactone 25 milligram/1 each conventional release oral tablet
+^ESCT1229187	Hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCT1229188	Hydrochlorothiazide 25 mg and triamterene 37.5 mg oral capsule
+^ESCT1229189	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral capsule
+^ESCT1229190	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral tablet
+^ESCT1229191	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 80 milligram/1 each conventional release oral tablet
+^ESCT1229238	Product containing precisely amiloride hydrochloride 5 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral tablet
+^ESCT1229239	Amiloride hydrochloride 5 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCT1229646	Product containing precisely hydrochlorothiazide 25 milligram and losartan potassium 100 milligram/1 each conventional release oral tablet
+^ESCT1229647	Hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet
+^ESCT1229649	Product containing precisely hydrochlorothiazide 50 milligram and spironolactone 50 milligram/1 each conventional release oral tablet
+^ESCT1229650	Product containing precisely hydrochlorothiazide 25 milligram and propranolol hydrochloride 80 milligram/1 each conventional release oral tablet
+^ESCT1229654	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1229657	Product containing precisely benazepril hydrochloride 5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+^ESCT1229658	Product containing precisely benazepril hydrochloride 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1229659	Product containing precisely benazepril hydrochloride 20 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1229798	Hydrochlorothiazide + spironolactone
+^ESCT1229799	Hydrochlorothiazide and spironolactone product
+^ESCT1229830	Hydrochlorothiazide and valsartan product
+^ESCT1229834	Hydrochlorothiazide and telmisartan product
+^ESCT1229907	Hydrochlorothiazide + reserpine
+^ESCT1229908	Hydrochlorothiazide and reserpine product
+^ESCT1229933	Hydrochlorothiazide and lisinopril product
+^ESCT1229969	Acebutolol and hydrochlorothiazide product
+^ESCT1229970	Hydrochlorothiazide and irbesartan product
+^ESCT1229991	Hydrochlorothiazide + methyldopa
+^ESCT1229992	Hydrochlorothiazide and methyldopa product
+^ESCT1230226	Captopril + hydrochlorothiazide
+^ESCT1230227	Captopril and hydrochlorothiazide product
+^ESCT1230247	Hydrochlorothiazide + triamterene
+^ESCT1230248	Hydrochlorothiazide and triamterene product
+^ESCT1230426	Hydrochlorothiazide 12.5 mg and telmisartan 40 mg oral tablet
+^ESCT1230427	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 40 milligram/1 each conventional release oral tablet
+^ESCT1230428	Hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet
+^ESCT1230429	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 80 milligram/1 each conventional release oral tablet
+^ESCT1230611	Product containing precisely candesartan cilexetil 32 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230612	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 20 milligram/1 each conventional release oral tablet
+^ESCT1230613	Hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1230614	Hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1230615	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1230616	Olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230617	Hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1230618	Product containing precisely hydrochlorothiazide 25 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1230687	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1230818	Fosinopril+hydrochlorothiazide
+^ESCT1230819	Fosinopril and hydrochlorothiazide product
+^ESCT1230820	Product containing precisely fosinopril 10 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230821	Product containing precisely fosinopril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230883	Eprosartan and hydrochlorothiazide
+^ESCT1230884	Eprosartan and hydrochlorothiazide product
+^ESCT1230885	Eprosartan 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230886	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1230887	Eprosartan mesylate 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230888	Eprosartan mesilate 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230889	Eprosartan 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230890	Eprosartan mesilate 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230891	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230892	Eprosartan mesylate 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230897	Timolol maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230898	Hydrochlorothiazide 25 mg and timolol maleate 10 mg oral tablet
+^ESCT1230899	Product containing precisely hydrochlorothiazide 25 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1230904	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 50 milligram/1 each conventional release oral tablet
+^ESCT1230905	Hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet
+^ESCT1230908	Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230909	Hydrochlorothiazide 12.5 mg and moexipril hydrochloride 7.5 mg oral tablet
+^ESCT1230910	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 7.5 milligram/1 each conventional release oral tablet
+^ESCT1230911	Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230912	Hydrochlorothiazide 12.5 mg and moexipril hydrochloride 15 mg oral tablet
+^ESCT1230913	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1230914	Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230915	Hydrochlorothiazide 25 mg and moexipril hydrochloride 15 mg oral tablet
+^ESCT1230916	Product containing precisely hydrochlorothiazide 25 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1230927	Bisoprolol fumarate 2.5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1230928	Bisoprolol 2.5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1230929	Product containing precisely bisoprolol 2.5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+^ESCT1232116	Hydrochlorothiazide and metoprolol product
+^ESCT1232368	Metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1232369	Hydrochlorothiazide 25 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1232370	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1232371	Metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCT1232372	Product containing precisely hydrochlorothiazide 50 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1232373	Hydrochlorothiazide 50 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1232374	Metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1232375	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1232376	Hydrochlorothiazide 25 mg and metoprolol tartrate 50 mg oral tablet
+^ESCT1233168	Bisoprolol and hydrochlorothiazide product
+^ESCT1233280	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1233379	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1233590	Hydrochlorothiazide and quinapril product
+^ESCT1233648	Enalapril and hydrochlorothiazide product
+^ESCT1233995	Hydrochlorothiazide and olmesartan medoxomil product
+^ESCT1234275	Metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1234276	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 25 milligram/1 each conventional release oral tablet
+^ESCT1234277	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 25 mg oral tablet
+^ESCT1234306	Metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1234307	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1234308	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 50 mg oral tablet
+^ESCT1234893	Aliskiren and hydrochlorothiazide
+^ESCT1234894	Aliskiren and hydrochlorothiazide product
+^ESCT1234985	Product containing precisely aliskiren 300 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1234987	Product containing precisely aliskiren 150 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1234988	Product containing precisely aliskiren 300 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1234993	Product containing precisely aliskiren 150 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1235169	Amlodipine and hydrochlorothiazide and valsartan
+^ESCT1235170	Amlodipine and hydrochlorothiazide and valsartan product
+^ESCT1235398	Amlodipine and hydrochlorothiazide and olmesartan medoxomil product
+^ESCT1235457	Aliskiren + amlodipine + hydrochlorothiazide
+^ESCT1235458	Product containing aliskiren and amlodipine and hydrochlorothiazide
+^ESCT1235459	Aliskiren and amlodipine and hydrochlorothiazide product
+^ESCT1237016	Hydralazine and hydrochlorothiazide
+^ESCT1237017	Hydralazine and hydrochlorothiazide product
+^ESCT1237020	Hydrochlorothiazide and labetalol
+^ESCT1237021	Hydrochlorothiazide and labetalol product
+^ESCT1237101	Accuretic 10mg/12.5mg tablets (Pfizer Ltd)
+^ESCT1381533	Amiloride- and atenolol- and hydrochlorothiazide-containing product
+^ESCT1382273	Hydrochlorothiazide- and spironolactone-containing product
+^ESCT1382301	Hydrochlorothiazide- and reserpine-containing product
+^ESCT1382321	Hydrochlorothiazide- and methyldopa-containing product
+^ESCT1382417	Captopril- and hydrochlorothiazide-containing product
+^ESCT1382421	Hydrochlorothiazide- and triamterene-containing product
+^ESCT1382588	Fosinopril- and hydrochlorothiazide-containing product
+^ESCT1382613	Eprosartan- and hydrochlorothiazide-containing product
+^ESCT1383884	Aliskiren- and hydrochlorothiazide-containing product
+^ESCT1384105	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCT1384106	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCT1384107	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCT1384108	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCT1384109	Amlodipine- and hydrochlorothiazide- and valsartan-containing product
+^ESCT1384113	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384114	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384116	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384117	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384163	Hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet
+^ESCT1384202	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1384203	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1384204	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384205	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384206	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384207	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384208	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384209	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384213	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384214	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384242	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1384243	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1384244	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1384245	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1384250	Aliskiren- and amlodipine- and hydrochlorothiazide-containing product
+^ESCT1384251	Aliskiren (as aliskiren fumarate) 150 mg and amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1384252	Aliskiren (as aliskiren fumarate) 150 mg and amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1384253	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1384254	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1384255	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1384256	Aliskiren (as aliskiren fumarate) 300 mg and amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1385088	Hydrochlorothiazide-containing product in oral dose form
+^ESCT1385453	Hydralazine- and hydrochlorothiazide-containing product
+^ESCT1385455	Hydrochlorothiazide- and labetalol-containing product
+^ESCT1386128	Hydrochlorothiazide- and metoprolol-containing product in oral dose form
+^ESCT1386139	Aliskiren- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386158	Amiloride- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386193	Amiloride- and atenolol- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386207	Acebutolol- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386234	Bisoprolol- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386293	Benazepril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386333	Candesartan- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386335	Captopril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386418	Enalapril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386468	Hydrochlorothiazide- and telmisartan-containing product in oral dose form
+^ESCT1386489	Hydrochlorothiazide- and quinapril-containing product in oral dose form
+^ESCT1386494	Eprosartan- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386648	Fosinopril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386744	Guanethidine- and hydrochlorothiazide-containing product
+^ESCT1386745	Guanethidine- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386782	Hydrochlorothiazide- and losartan-containing product
+^ESCT1386793	Hydrochlorothiazide- and losartan-containing product in oral dose form
+^ESCT1386804	Hydralazine- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386913	Amiloride- and hydrochlorothiazide- and timolol-containing product
+^ESCT1386929	Candesartan- and hydrochlorothiazide-containing product
+^ESCT1386930	Hydrochlorothiazide- and propranolol-containing product
+^ESCT1386931	Hydrochlorothiazide- and propranolol-containing product in oral dose form
+^ESCT1386932	Hydrochlorothiazide- and valsartan-containing product in oral dose form
+^ESCT1386937	Amiloride- and hydrochlorothiazide- and timolol-containing product in oral dose form
+^ESCT1386950	Hydrochlorothiazide- and lisinopril-containing product in oral dose form
+^ESCT1386951	Hydrochlorothiazide- and moexipril-containing product
+^ESCT1386952	Hydrochlorothiazide- and moexipril-containing product in oral dose form
+^ESCT1409533	Innozide 20mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409562	Cozaar-Comp 50mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410094	Carace 20 Plus tablets (Organon Pharma (UK) Ltd)
+^ESCT1410096	Carace 10 Plus tablets (Organon Pharma (UK) Ltd)
+^ESCT1410365	Hydrosaluric 25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410367	Hydrosaluric 50mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410703	Cozaar-Comp 100mg/25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410885	Cozaar-Comp 100mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1424764	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1424777	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1425091	Acebutolol 200mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTAC607151	Acebutolol 200mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTAC607153	Acebutolol 200 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTAC661392	Acebutolol + Hydrochlorothiazide
+^ESCTAC661393	Acebutolol + hydrochlorothiazide
+^ESCTAC808125	Accuretic 12.5mg/10mg tablets (Pfizer Ltd)
+^ESCTAD857737	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857739	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857741	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD858180	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD858182	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAL714772	Aliskiren + Hydrochlorothiazide
+^ESCTAL718440	Aliskiren 300 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTAL718863	Aliskiren 150 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTAL718866	Aliskiren 300 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTAL719168	Aliskiren 150 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTAL736243	Aliskiren 300mg + amlodipine 10mg + hydrochlorothiazide 12.5mg tablet
+^ESCTAL736252	Aliskiren 300mg + amlodipine 5mg + hydrochlorothiazide 25mg tablet
+^ESCTAL736751	Aliskiren + amlodipine + hydrochlorothiazide
+^ESCTAL736752	Aliskiren 150mg + amlodipine 5mg + hydrochlorothiazide 12.5mg tablet
+^ESCTAL736862	Aliskiren 300mg + amlodipine 10mg + hydrochlorothiazide 25mg tablet
+^ESCTAL736863	Aliskiren 300mg + amlodipine 5mg + hydrochlorothiazide 12.5mg tablet
+^ESCTAM606804	Amiloride 2.5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTAM642541	Amiloride 5 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCTAM726132	Amlodipine 10mg + hydrochlorothiazide 25mg + Valsartan 320mg tablet
+^ESCTAM726200	Amlodipine 5mg + hydrochlorothiazide 25mg + Valsartan 160mg tablet
+^ESCTAM726238	Amlodipine + hydrochlorothiazide + valsartan
+^ESCTAM726382	Amlodipine 10mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet
+^ESCTAM726484	Amlodipine 5mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet
+^ESCTAM733430	Amlodipine + hydrochlorothiazide + olmesartan medoxomil
+^ESCTAM733431	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 20mg tablet
+^ESCTAM733463	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733464	Amlodipine 5mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733465	Amlodipine 10mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733582	Amlodipine 10mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+^ESCTAT607156	Atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTAT620086	Atenolol + amiloride + hydrochlorothiazide
+^ESCTBE641944	Benazepril hydrochloride 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTBE655615	Benazepril hydrochloride 5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCTBE655617	Benazepril hydrochloride 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTBE655619	Benazepril hydrochloride 20 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTBI607165	Bisoprolol 10mg / Hydrochlorothiazide 6.25mg tablets
+^ESCTBI607167	Bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCTBI641960	Bisoprolol fumarate 5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCTBI680447	Bisoprolol fumarate 2.5 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCTBI695805	Bisoprolol + Hydrochlorothiazide
+^ESCTBI695806	Bisoprolol+hydrochlorothiazide
+^ESCTCA607343	Captopril 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA607346	Captopril 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA641983	Candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA641985	Captopril 25 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA641987	Captopril 25 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA641989	Captopril 50 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA670420	Captopril + hydrochlorothiazide
+^ESCTCA677433	Candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA801870	Carace 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA810136	Carace 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA810275	Carace 2.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA824313	Carace 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA859497	Carace 20 Plus tablets (Merck Sharp & Dohme Ltd)
+^ESCTCA859507	Carace 10 Plus tablets (Merck Sharp & Dohme Ltd)
+^ESCTCA896900	Caralpha 20mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCA896902	Caralpha 10mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCO606802	Co-amilozide 2.5mg/25mg tablets
+^ESCTCO607341	Co-zidocapt 12.5mg/25mg tablets
+^ESCTCO607344	Co-zidocapt 25mg/50mg tablets
+^ESCTCO642539	Co-amilozide 5mg/50mg tablets
+^ESCTCO680408	Co-triamterzide 50mg/25mg tablets
+^ESCTCO808086	Cozaar-Comp 50mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO821124	CoAprovel 300mg/12.5mg tablets (Sanofi)
+^ESCTCO825091	CoAprovel 150mg/12.5mg tablets (Sanofi)
+^ESCTCO858469	Co-Betaloc tablets (Pfizer Ltd)
+^ESCTCO864999	Co-Betaloc SA tablets (Pfizer Ltd)
+^ESCTCO899246	Co-Diovan 160mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO899249	Co-Diovan 160mg/25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO903536	Co-Diovan 80mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO920247	Cozaar-Comp 100mg/25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO934688	CoAprovel 300mg/25mg tablets (Sanofi)
+^ESCTCO959124	Cozaar-Comp 100mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTEN607357	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTEN607359	Enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTEN642200	Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTEN642202	Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTEN698218	Enalapril + Hydrochlorothiazide
+^ESCTEN698219	Enalapril+hydrochlorothiazide
+^ESCTEP680375	Eprosartan+hydrochlorothiazide
+^ESCTEP680376	Eprosartan mesylate+hydrochlorothiazide
+^ESCTEP680377	Eprosartan 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTEP680379	Eprosartan 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTFO677907	Fosinopril+hydrochlorothiazide
+^ESCTFO677909	Fosinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTFO677911	Fosinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTGE607128	Generic Moducren tablets
+^ESCTGE607154	Generic Kalten capsules
+^ESCTGU642383	Guanethidine monosulfate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTHY398943	Hydrochlorothiazide
+^ESCTHY607402	Hydrochlorothiazide 12.5mg / Quinapril 10mg tablets
+^ESCTHY638969	Hydrochlorothiazide 12.5 mg/1 each oral capsule
+^ESCTHY640960	Hydrochlorothiazide 25mg tablets
+^ESCTHY640962	Hydrochlorothiazide 25 mg oral tablet
+^ESCTHY641176	Hydrochlorothiazide 50mg tablets
+^ESCTHY641178	Hydrochlorothiazide 50 mg oral tablet
+^ESCTHY642393	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg oral tablet
+^ESCTHY642395	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTHY642397	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTHY642399	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTHY642402	Hydrochlorothiazide 25 mg and labetalol hydrochloride 300 mg oral tablet
+^ESCTHY642404	Hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet
+^ESCTHY642409	Hydrochlorothiazide 15 mg and methyldopa 250 mg oral tablet
+^ESCTHY642411	Hydrochlorothiazide 25 mg and methyldopa 250 mg oral tablet
+^ESCTHY642413	Hydrochlorothiazide 30 mg and methyldopa 500 mg oral tablet
+^ESCTHY642415	Hydrochlorothiazide 50 mg and methyldopa 500 mg oral tablet
+^ESCTHY642417	Hydrochlorothiazide 25 mg and propranolol hydrochloride 40 mg oral tablet
+^ESCTHY642419	Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCTHY642421	Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCTHY642423	Hydrochlorothiazide 25 mg and reserpine 0.125 mg oral tablet
+^ESCTHY642425	Hydrochlorothiazide 50 mg and reserpine 0.125 mg oral tablet
+^ESCTHY642427	Hydrochlorothiazide 25 mg and spironolactone 25 mg oral tablet
+^ESCTHY642429	Hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCTHY642431	Hydrochlorothiazide 25 mg and triamterene 37.5 mg oral tablet
+^ESCTHY642435	Hydrochlorothiazide 12.5 mg and valsartan 80 mg oral tablet
+^ESCTHY655596	Hydrochlorothiazide 50 mg and spironolactone 50 mg oral tablet
+^ESCTHY655598	Hydrochlorothiazide 25 mg and propranolol hydrochloride 80 mg oral tablet
+^ESCTHY655612	Hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCTHY660977	Hydrochlorothiazide + spironolactone
+^ESCTHY661042	Hydrochlorothiazide + valsartan
+^ESCTHY661056	Hydrochlorothiazide + telmisartan
+^ESCTHY661251	Hydrochlorothiazide + reserpine
+^ESCTHY661323	Hydrochlorothiazide + lisinopril
+^ESCTHY661453	Hydrochlorothiazide + methyldopa
+^ESCTHY670446	Hydrochlorothiazide + triamterene
+^ESCTHY677630	Hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCTHY682800	Hydrochlorothiazide + Metoprolol
+^ESCTHY696351	Hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCTHY696787	Hydrochlorothiazide 12.5 mg and valsartan 320 mg oral tablet
+^ESCTHY697934	Hydrochlorothiazide + Quinapril
+^ESCTHY697935	Hydrochlorothiazide + quinapril
+^ESCTHY701418	Hydrochlorothiazide + olmesartan
+^ESCTHY772145	Hydrochlorothiazide in oral dosage form
+^ESCTHY870796	Hydrosaluric 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTHY870818	Hydrosaluric 50mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN804652	Innozide 20mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIR450768	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTIR450770	Irbesartan 300 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTIR450771	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTIR450773	Irbesartan 150 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTIR661402	Irbesartan + Hydrochlorothiazide
+^ESCTIR661403	Irbesartan + hydrochlorothiazide
+^ESCTIR934704	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets
+^ESCTLI607384	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLI607386	Lisinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLI607387	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLI607389	Lisinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLI661322	Lisinopril + Hydrochlorothiazide
+^ESCTLO607483	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLO607485	Losartan potassium 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLO655569	Losartan 100mg / Hydrochlorothiazide 25mg tablets
+^ESCTLO655571	Losartan potassium 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTLO729568	Losartan potassium 100mg + hydrochlorothiazide 12.5mg oral tablet
+^ESCTLO959305	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTME607114	Metoprolol 100mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTME607116	Metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME682801	Metoprolol + hydrochlorothiazide
+^ESCTME686230	Metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTME686232	Metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCTME686234	Metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTME703976	Metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME704295	Metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTMI864531	MicardisPlus 40mg/12.5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI864537	MicardisPlus 80mg/12.5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI965196	MicardisPlus 80mg/25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMO680421	Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTMO680423	Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTMO680425	Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTMO870785	Monozide 10 tablets (Wyeth Pharmaceuticals)
+^ESCTOL677436	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTOL677438	Olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTOL677439	Olmesartan medoxomil 40mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTOL677441	Olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTOL677442	Olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTOL701417	Olmesartan + Hydrochlorothiazide
+^ESCTOL733429	Olmesartan + Amlodipine + Hydrochlorothiazide
+^ESCTOL927549	Olmetec Plus 20mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL927552	Olmetec Plus 20mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL927633	Olmesartan medoxomil 20mg / Hydrochlorothiazide 25mg tablets
+^ESCTOL999393	Olmetec Plus 40mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTPR398944	Product containing hydrochlorothiazide
+^ESCTPR450769	Product containing irbesartan 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR450772	Product containing irbesartan 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR606803	Product containing amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607115	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607129	Product containing timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607152	Product containing acebutolol 200 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607155	Product containing atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTPR607166	Product containing bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCTPR607342	Product containing captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607345	Product containing captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607358	Product containing enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607385	Product containing lisinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607388	Product containing lisinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607401	Product containing quinapril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607484	Product containing losartan potassium 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR620087	Product containing amiloride and atenolol and hydrochlorothiazide
+^ESCTPR638970	Product containing hydrochlorothiazide 12.5 mg/1 each oral capsule
+^ESCTPR640961	Product containing hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR641177	Product containing hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCTPR641945	Product containing benazepril hydrochloride 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR641961	Product containing bisoprolol fumarate 5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCTPR641984	Product containing candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR641986	Product containing captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR641988	Product containing captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR641990	Product containing captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR642201	Product containing enalapril maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR642203	Product containing enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR642384	Product containing guanethidine monosulfate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR642394	Product containing hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg/1 each oral tablet
+^ESCTPR642396	Product containing hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTPR642398	Product containing hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTPR642400	Product containing hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTPR642403	Product containing hydrochlorothiazide 25 mg and labetalol hydrochloride 300 mg/1 each oral tablet
+^ESCTPR642405	Product containing hydrochlorothiazide 25 mg and lisinopril 20 mg/1 each oral tablet
+^ESCTPR642410	Product containing hydrochlorothiazide 15 mg and methyldopa 250 mg/1 each oral tablet
+^ESCTPR642412	Product containing hydrochlorothiazide 25 mg and methyldopa 250 mg/1 each oral tablet
+^ESCTPR642414	Product containing hydrochlorothiazide 30 mg and methyldopa 500 mg/1 each oral tablet
+^ESCTPR642416	Product containing hydrochlorothiazide 50 mg and methyldopa 500 mg/1 each oral tablet
+^ESCTPR642418	Product containing hydrochlorothiazide 25 mg and propranolol hydrochloride 40 mg/1 each oral tablet
+^ESCTPR642420	Product containing hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCTPR642422	Product containing hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCTPR642424	Product containing hydrochlorothiazide 25 mg and reserpine 0.125 mg/1 each oral tablet
+^ESCTPR642426	Product containing hydrochlorothiazide 50 mg and reserpine 0.125 mg/1 each oral tablet
+^ESCTPR642428	Product containing hydrochlorothiazide 25 mg and spironolactone 25 mg/1 each oral tablet
+^ESCTPR642430	Product containing hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCTPR642432	Product containing hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral tablet
+^ESCTPR642434	Product containing hydrochlorothiazide 12.5 mg and valsartan 80 mg/1 each oral tablet
+^ESCTPR642540	Product containing amiloride 5 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCTPR655570	Product containing losartan potassium 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR655597	Product containing hydrochlorothiazide 50 mg and spironolactone 50 mg/1 each oral tablet
+^ESCTPR655599	Product containing hydrochlorothiazide 25 mg and propranolol hydrochloride 80 mg/1 each oral tablet
+^ESCTPR655611	Product containing hydrochlorothiazide 12.5 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR655616	Product containing benazepril hydrochloride 5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCTPR655618	Product containing benazepril hydrochloride 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR655620	Product containing benazepril hydrochloride 20 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR660978	Product containing hydrochlorothiazide and spironolactone
+^ESCTPR661043	Product containing hydrochlorothiazide and valsartan
+^ESCTPR661057	Product containing hydrochlorothiazide and telmisartan
+^ESCTPR661252	Product containing hydrochlorothiazide and reserpine
+^ESCTPR661324	Product containing hydrochlorothiazide and lisinopril
+^ESCTPR661394	Product containing acebutolol and hydrochlorothiazide
+^ESCTPR661404	Product containing hydrochlorothiazide and irbesartan
+^ESCTPR661454	Product containing hydrochlorothiazide and methyldopa
+^ESCTPR670421	Product containing captopril and hydrochlorothiazide
+^ESCTPR670447	Product containing hydrochlorothiazide and triamterene
+^ESCTPR675369	Product containing telmisartan 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR675372	Product containing telmisartan 80 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677434	Product containing candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677437	Product containing olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677440	Product containing olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677443	Product containing olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR677629	Product containing hydrochlorothiazide 25 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR677908	Product containing fosinopril and hydrochlorothiazide
+^ESCTPR677910	Product containing fosinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677912	Product containing fosinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680378	Product containing eprosartan 600 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR680380	Product containing eprosartan 600 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680396	Product containing timolol maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR680409	Product containing triamterene 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR680422	Product containing moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680424	Product containing moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680426	Product containing moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR680448	Product containing bisoprolol fumarate 2.5 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCTPR682802	Product containing hydrochlorothiazide and metoprolol
+^ESCTPR686231	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR686233	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCTPR686235	Product containing metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR695807	Product containing bisoprolol and hydrochlorothiazide
+^ESCTPR696352	Product containing hydrochlorothiazide 25 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR696788	Product containing hydrochlorothiazide 12.5 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR697936	Product containing hydrochlorothiazide and quinapril
+^ESCTPR698220	Product containing enalapril and hydrochlorothiazide
+^ESCTPR701419	Product containing hydrochlorothiazide and olmesartan medoxomil
+^ESCTPR703977	Product containing metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR704296	Product containing metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR718441	Product containing aliskiren 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR718864	Product containing aliskiren 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR718867	Product containing aliskiren 300 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR719169	Product containing aliskiren 150 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR772146	Product containing hydrochlorothiazide in oral dosage form
+^ESCTQU607399	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTQU607400	Quinapril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTSE1015806	Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015809	Sevikar HCT 40mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015812	Sevikar HCT 40mg/10mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015815	Sevikar HCT 40mg/5mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015818	Sevikar HCT 40mg/10mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE830674	Secadrex 200mg/12.5mg tablets (Sanofi)
+^ESCTTE661055	Telmisartan + Hydrochlorothiazide
+^ESCTTE675368	Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTTE675370	Telmisartan 40 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTTE675371	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTTE675373	Telmisartan 80 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTTI607130	Timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTTI680395	Timolol maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTTR680410	Triamterene 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTVA642433	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTVA655610	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTVA661041	Valsartan + Hydrochlorothiazide
+^ESCTVA677628	Valsartan 160mg / Hydrochlorothiazide 25mg tablets
+^ESCTZE859493	Zestoretic 20 tablets (AstraZeneca UK Ltd)
+^ESCTZE859505	Zestoretic 10 tablets (AstraZeneca UK Ltd)
+ACTA18570NEMIS	Acebutolol And Hydrochlorothiazide  Tablets  200 mg + 12.5 mg
+ACTA22351EMIS	Accuretic  Tablets  
+ADCA11816NEMIS	Adizem-Xl  M/R capsules  200 mg
+ADM/24027EMIS	Adizem-Xl  M/R capsules  120 mg
+ADM/24028EMIS	Adizem-Xl  M/R capsules  180 mg
+ADM/24029EMIS	Adizem-Xl  M/R capsules  240 mg
+ADM/24030EMIS	Adizem-Xl  M/R capsules  300 mg
+ADM/28787EMIS	Adizem-Xl Plus  M/R capsules
+CATA18202NEMIS	Caralpha  Tablets  10 mg + 12.5 mg
+CATA18203NEMIS	Caralpha  Tablets  20 mg + 12.5 mg
+CATA24703EMIS	Carace 10 Plus  Tablets  
+CATA8616EGTON	Carace  Tablets  10 mg
+CATA8617EGTON	Carace  Tablets  2.5 mg
+CATA8618EGTON	Carace  Tablets  20 mg
+CATA8619EGTON	Carace  Tablets  5 mg
+CATA9093EMIS	Carace 20 Plus  Tablets  
+COTA10219BRIDL	Co-Amilozide 5/50  Tablets  
+COTA1596NEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA1597NEMIS	Co-Zidocapt 25/50  Tablets  
+COTA18415NEMIS	Co-Diovan  Tablets  160 mg/12.5 mg
+COTA18416NEMIS	Co-Diovan  Tablets  160 mg/25 mg
+COTA18922NEMIS	Co-Diovan  Tablets  80 mg/12.5 mg
+COTA21151NEMIS	Cozaar-Comp  Tablets  100 mg + 25 mg
+COTA23522NEMIS	Coaprovel  Tablets  300 mg + 25 mg
+COTA24912EMIS	Co-Triamterzide 50/25  Tablets  
+COTA28963NEMIS	Cozaar-Comp  Tablets  100 mg + 12.5 mg
+COTA30977EMIS	Cozaar-Comp  Tablets  50 mg + 12.5 mg
+COTA5665NEMIS	Coaprovel  Tablets  150 mg + 12.5 mg
+COTA5666NEMIS	Coaprovel  Tablets  300 mg + 12.5 mg
+COTA682	Co-Betaloc  Tablets  
+COTA683	Co-Betaloc Sa  Tablets  
+COTA9316HILLI	Co-Amilozide 2.5/25  Tablets  
+ENTA18559NEMIS	Enalapril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+ESTA1111	Esidrex  Tablets  25 mg
+ESTA1112	Esidrex  Tablets  50 mg
+ESTA1113	Esidrex K  Tablets
+HYTA1402	Hydromet  Tablets
+HYTA1403	Hydrosaluric  Tablets  25 mg
+HYTA1404	Hydrosaluric  Tablets  50 mg
+HYTA4997	Hydrochlorothiazide  Tablets  25 mg
+HYTA6886	Hydrochlorothiazide  Tablets  50 mg
+INTA9233EMIS	Innozide  Tablets  
+IRTA18540NEMIS	Irbesartan And Hydrochlorothiazide  Tablets  150 mg + 12.5 mg
+IRTA18541NEMIS	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 12.5 mg
+IRTA23521NEMIS	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 25 mg
+LITA18535NEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+LITA18536NEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+LOTA18550NEMIS	Losartan And Hydrochlorothiazide  Tablets  50 mg + 12.5 mg
+LOTA21150NEMIS	Losartan And Hydrochlorothiazide  Tablets  100 mg + 25 mg
+LOTA28962NEMIS	Losartan And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
+META18543NEMIS	Metoprolol And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
+MITA14652NEMIS	Micardis Plus  Tablets  40 mg/12.5 mg
+MITA14653NEMIS	Micardis Plus  Tablets  80 mg/12.5 mg
+MITA30444NEMIS	Micardis Plus  Tablets  80 mg/25 mg
+MOTA23853EMIS	Monozide 10  Tablets  
+OLTA22330NEMIS	Olmesartan Medoxomil And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+OLTA22331NEMIS	Olmesartan Medoxomil And Hydrochlorothiazide  Tablets  20 mg + 25 mg
+OLTA22333NEMIS	Olmetec Plus  Tablets  20 mg/12.5 mg
+OLTA22334NEMIS	Olmetec Plus  Tablets  20 mg/25 mg
+OLTA42106NEMIS	Olmesartan Medoxomil And Hydrochlorothiazide  Tablets  40 mg + 12.5 mg
+OLTA42107NEMIS	Olmetec Plus  Tablets  40 mg/12.5 mg
+QUTA18531NEMIS	Quinapril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+SETA2508	Secadrex  Tablets  
+SETA2562	Serpasil Esidrex  Tablets
+SETA48962NEMIS	Sevikar Hct  Tablets  20 mg + 5 mg + 12.5 mg
+SETA48963NEMIS	Sevikar Hct  Tablets  40 mg + 5 mg + 12.5 mg
+SETA48964NEMIS	Sevikar Hct  Tablets  40 mg + 10 mg + 12.5 mg
+SETA48965NEMIS	Sevikar Hct  Tablets  40 mg + 5 mg + 25 mg
+SETA48966NEMIS	Sevikar Hct  Tablets  40 mg + 10 mg + 25 mg
+SOTA2651	Sotazide  Tablets
+TETA18566NEMIS	Telmisartan And Hydrochlorothiazide  Tablets  40 mg + 12.5 mg
+TETA18567NEMIS	Telmisartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+TOTA2878	Tolerzide  Tablets
+VATA18545NEMIS	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 12.5 mg
+VATA18546NEMIS	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 25 mg
+VATA18921NEMIS	Valsartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+ZETA24152EMIS	Zestoretic 10  Tablets  
+ZETA9096EMIS	Zestoretic 20  Tablets  

@@ -1,0 +1,26 @@
+d85..	Moclobemide
+d854.	Moclobemide 300mg tablet
+d853.	Manerix 300mg tablet
+d852.	Moclobemide 150mg tablet
+d851.	Manerix 150mg tablet
+d83..	MAOI - Isocarboxazid
+d83z.	Isocarboxazid 10mg tablet
+d831.	Marplan 10mg tablet
+dq6z.	Selegiline hydrochloride 5mg tablet
+dq6y.	Selegiline hydrochloride 10mg tablet
+dq6x.	Selegiline hydrochloride 10mg/5mL syrup
+dq6w.	Selegiline hydrochloride 1.25mg tablet
+dq6..	Selegiline hydrochloride
+x02iG	Marplan
+x02iD	Manerix
+d82..	Iproniazid
+d82z.	Iproniazid 50mg tablet
+d822.	Marsilid 50mg tablet
+d82y.	Iproniazid 25mg tablet
+d821.	Marsilid 25mg tablet
+d811.	Nardil 15mg tablet
+d811.	Nardil 15mg tablet
+d81z.	Phenelzine 15mg tablet
+d81z.	Phenelzine 15mg tablet
+d84z.	Tranylcypromine 10mg tablet
+d84z.	Tranylcypromine 10mg tablet

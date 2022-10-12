@@ -1,0 +1,37 @@
+2782.	O/E - VE - cervix ripe
+279..	O/E - VE - cervical dilatation
+2792.	O/E - VE - os=0-1cm dilated
+2793.	O/E - VE - os=1-2cm dilated
+2794.	O/E - VE - os=2-4cm dilated
+2796.	O/E - VE - os=6-8cm dilated
+279Z.	O/E - VE - cervix dilat. NOS
+62NE.	Antenatal 39 week examination
+62NF.	Antenatal 40 week examination
+62NG.	Antenatal 41 week examination
+62NH.	Antenatal 42 week examination
+62O6.	Show - vaginal - A/N
+L14..	Premature labour
+L142.	Early onset of delivery
+L1420	Early onset of delivery unspecified
+L15..	Post-dates
+L1500	Post-term pregnancy unspecified
+L1502	Post-term pregnancy - not delivered
+L150z	Post-term pregnancy NOS
+L15z.	Prolonged pregnancy NOS
+L2270	High head at term unspecified
+L227z	High head at term NOS
+L281.	Premature rupture of membranes
+L2810	Premature rupture of membranes unspecified
+L2812	Premature rupture of membranes with antenatal problem
+L2814	Premature rupture of membranes, labour delayed by therapy
+L281z	Premature rupture of membranes NOS
+Q011.	Fetus or neonate affected by maternal premature rupture of membrane
+X40Cx	Premature labour
+XaCKp	Pregnancy prolonged - 41 weeks
+XaCKq	Pregnancy prolonged - 42 weeks
+XaEFA	Full term gestation - 40 weeks
+XE0y4	Premature labour
+XE0ye	Failure of head to engage
+XE0z0	Premature rupture of membranes
+XE1SE	Vaginal show
+XE2QQ	Early onset of delivery

@@ -1,0 +1,30 @@
+XE2v2	Infantile autism
+E140z	Infantile autism NOS
+E1401	Residual infantile autism
+E1400	Active infantile autism
+XaIuT	Suspected autism
+XabEY	Under care of autism assessment service
+XabEa	Referred by autism assessment service
+Eu843	[X] Childhood disintegrative disorder: [other] or [dementia infantalis (including disintegrative psychosis and Heller's syndrome and symbiotic psychosis)]
+Eu843	[X] Dementia infantalis
+Eu843	[X] Heller's syndrome
+Eu843	[X]Disintegrative psychosis
+Eu843	[X]Other childhood disintegrative disorder
+Eu843	[X]Symbiotic psychosis
+Eu844	[X]Overactive disorder associated with mental retardation and stereotyped movements
+Eu844	[X]Overactive disorder associated with mental retardation and stereotyped movements
+Eu84y	[X]Other pervasive developmental disorders
+Eu84y	[X]Other pervasive developmental disorders
+Eu84z	[X]Autistic spectrum disorder
+Eu84z	[X]Pervasive developmental disorder, unspecified
+Eu84z	[X]Pervasive developmental disorder, unspecified
+X00TM	Autistic continuum
+X00TM	Autistic spectrum disorder
+X00TM	Autistic spectrum disorder
+X00TM	Pervasive developmental disorder
+X00TM	PPD - Pervasive developmental disorder
+X00TN	Atypical autism
+X00TN	Atypical autism
+X00TN	Atypical autistic syndrome
+XE1aA	[X]Other childhood disintegrative disorder
+XE1aA	[X]Other childhood disintegrative disorder

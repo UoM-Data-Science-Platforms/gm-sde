@@ -27,11 +27,17 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the end date
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-07-01';
+
 -- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
 
 -- Table of all patients (not matching cohort - will do that subsequently)
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome;
+SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
+WHERE AdmissionDate < @EndDate
+AND (DischargeDate IS NULL OR DischargeDate < @EndDate);
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
@@ -45,7 +51,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
@@ -56,7 +63,8 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < @EndDate;
 
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-patient-year-of-birth.sql

@@ -1,5 +1,5 @@
 --┌─────────────────────────────────────────────────────────┐
---│ Dates of GP Encounters for diabetes cohort              │
+--│ Dates of GP Encounters for diabetes/covid cohort        │
 --└─────────────────────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----
@@ -19,23 +19,7 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
-
-
+--> EXECUTE query-get-possible-patients.sql
 
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
@@ -55,11 +39,9 @@ SELECT
 	EventDate
 INTO #DiabetesT1Patients
 FROM [RLS].[vw_GP_Events]
-WHERE (
-    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND Version = 1) OR
-    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND Version = 1)
-	)
+WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-i') AND [Version] = 1))
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
@@ -70,11 +52,9 @@ SELECT
 	EventDate
 INTO #DiabetesT2Patients
 FROM [RLS].[vw_GP_Events]
-WHERE (
-    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND Version = 1) OR
-    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND Version = 1)
-	)
+WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1))
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- CREATE COHORT OF DIABETES PATIENTS
 
@@ -91,6 +71,7 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
 
 ----------------------------------------------------------------------------------------
 
@@ -105,6 +86,7 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
-SELECT *
+SELECT PatientId = FK_Patient_Link_ID,
+	EncounterDate
 FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate

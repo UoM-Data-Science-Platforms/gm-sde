@@ -1,0 +1,46 @@
+B627E00	Diffuse large B-cell lymphoma
+BBgP.00	[M]Malignant lymphoma, mixed small and large cell, diffuse
+BBgR.00	[M]Malignant lymphoma, large cell, diffuse NOS
+BBgT.00	[M]Malignant lymphoma, large cell, noncleaved, diffuse
+A789600	HIV disease resulting in Burkitt's lymphoma
+A789611	HIV disease resulting in Burkitt lymphoma
+B602.00	Burkitt's lymphoma
+B602000	Burkitt's lymphoma of unspecified site
+B602100	Burkitt's lymphoma of lymph nodes of head, face and neck
+B602200	Burkitt's lymphoma of intrathoracic lymph nodes
+B602300	Burkitt's lymphoma of intra-abdominal lymph nodes
+B602400	Burkitt's lymphoma of lymph nodes of axilla and upper limb
+B602500	Burkitt's lymphoma of lymph nodes of inguinal region and lower limb
+B602600	Burkitt's lymphoma of intrapelvic lymph nodes
+B602700	Burkitt's lymphoma of spleen
+B602800	Burkitt's lymphoma of lymph nodes of multiple sites
+B602z00	Burkitt's lymphoma NOS
+B627G00	Mediastinal (thymic) large B-cell lymphoma
+B640000	B-cell acute lymphoblastic leukaemia
+B640011	Mature B-cell leukaemia Burkitt-type
+BBq..00	[M]Burkitt's tumours
+BBq0.00	[M]Burkitt's tumour
+BBqz.00	[M]Burkitt's tumour NOS
+BBr2600	[M]Burkitt's cell leukaemia
+B627.	Non - Hodgkin's lymphoma                                                                                                                                                                              
+B6270	Follicular non-Hodgkin's small cleaved cell lymphoma                                                                                                                                                  
+B6271	Follicular non-Hodgkin's mixed small cleaved and large cell lymphoma                                                                                                                                  
+B6272	Follicular non-Hodgkin's large cell lymphoma                                                                                                                                                          
+B6273	Diffuse non-Hodgkin's small cell (diffuse) lymphoma                                                                                                                                                   
+B6274	Diffuse non-Hodgkin's small cleaved cell (diffuse) lymphoma                                                                                                                                           
+B6275	Diffuse non-Hodgkin's mixed small and large cell (diffuse) lymphoma                                                                                                                                   
+B6276	Diffuse non-Hodgkin's immunoblastic (diffuse) lymphoma                                                                                                                                                
+B6277	Diffuse non-Hodgkin's lymphoblastic (diffuse) lymphoma                                                                                                                                                
+B6278	Diffuse non-Hodgkin's lymphoma undifferentiated (diffuse)                                                                                                                                             
+B6279	Mucosa-associated lymphoma                                                                                                                                                                            
+B627A	Diffuse non-Hodgkin's large cell lymphoma                                                                                                                                                             
+B627B	Other types of follicular non-Hodgkin's lymphoma                                                                                                                                                      
+B627C	Follicular non-Hodgkin's lymphoma                                                                                                                                                                     
+B627D	Diffuse non-Hodgkin's centroblastic lymphoma                                                                                                                                                          
+B627E	Diffuse large B-cell lymphoma                                                                                                                                                                         
+B627F	Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue                                                                                                                         
+B627G	Mediastinal (thymic) large B-cell lymphoma                                                                                                                                                            
+B627W	Unspecified B-cell non-Hodgkin's lymphoma                                                                                                                                                             
+B627X	Diffuse non-Hodgkin's lymphoma, unspecified                                                                                                                                                           
+ByuDE00	[X]Unspecified B-cell non-Hodgkin's lymphoma
+ByuD2	[X]Other types of diffuse non-Hodgkin's lymphoma

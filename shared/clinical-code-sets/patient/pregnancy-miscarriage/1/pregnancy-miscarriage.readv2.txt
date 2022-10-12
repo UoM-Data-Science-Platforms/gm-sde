@@ -68,3 +68,13 @@ L043y11	Unspecified inevitable miscarriage with OS complication
 L044111	Incomplete inev mis comp by delayed or excessive haemorrhage
 L045000	Complete inev abor comp by genital tract and pelvic infec
 L043100	Unspec inevit abortion comp by delayed or excessive haemorr
+L01..	Other abnormal product of conception
+L01..00	Other abnormal product of conception
+L01z.	Other abnormal product of conception NOS
+L01z.00	Other abnormal product of conception NOS
+L0430	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043000	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043011	Unspecified inevitable miscarriage complicated by genital tract and pelvic infection
+L0432	Unspecified inevitable abortion complicated by embolism
+L043200	Unspecified inevitable abortion complicated by embolism
+L043211	Unspecified inevitable miscarriage complicated by embolism

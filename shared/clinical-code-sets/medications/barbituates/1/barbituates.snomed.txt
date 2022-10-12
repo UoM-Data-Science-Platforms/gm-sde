@@ -1,0 +1,94 @@
+33231001	Pentobarbital product
+42444000	Secobarbital product
+46709004	Methylphenobarbital product
+47120002	Primidone product
+51073002	Product containing phenobarbital
+73756003	Amobarbital product
+78411008	Thiopental sodium product
+321347002	Product containing precisely secobarbital sodium 50 milligram/1 each conventional release oral capsule
+321349004	Amobarbital sodium 200 mg oral capsule
+321355009	Amobarbital 50 mg oral tablet
+321357001	Secobarbital sodium 100 mg oral capsule
+321358006	Product containing precisely amobarbital sodium 60 milligram/1 each conventional release oral capsule (clinical drug)
+321362000	Product containing precisely butobarbital 100 milligram/1 each conventional release oral tablet
+322915000	Phenobarbital 15 mg oral tablet
+322916004	Product containing precisely phenobarbital 30 milligram/1 each conventional release oral tablet
+322917008	Phenobarbital 60 mg oral tablet
+322918003	Phenobarbital 100 mg oral tablet
+322927002	Product containing precisely phenobarbital 3 milligram/1 milliliter conventional release oral elixir
+322948000	Product containing precisely primidone 250 milligram/1 each conventional release oral tablet
+333834003	Product containing precisely thiopental sodium 500 milligram/1 vial powder for conventional release solution for injection
+346359007	Butobarbital product
+346394000	Cyclobarbital product
+349829005	Thiopental product
+349886000	Phenobarbital in oral dosage form
+349887009	Phenobarbital in parenteral dosage form
+371170003	Product containing precisely pentobarbital sodium 100 milligram/1 each conventional release oral capsule (clinical drug)
+371171004	Pentobarbital sodium 50mg/ml solution
+371172006	Pentobarbital sodium 18.2mg/5ml elixir
+371173001	Pentobarbital sodium 60mg suppository
+371174007	Pentobarbital sodium 120mg suppository
+371175008	Pentobarbital sodium 200mg suppository
+371194003	Product containing precisely primidone 50 milligram/1 milliliter conventional release oral suspension (clinical drug)
+374284001	Product containing precisely amobarbital sodium 500 milligram/1 vial powder for conventional release solution for injection
+374514008	Product containing precisely methylphenobarbital 32 milligram/1 each conventional release oral tablet
+374515009	Product containing precisely methylphenobarbital 50 milligram/1 each conventional release oral tablet
+374516005	Product containing precisely methylphenobarbital 100 milligram/1 each conventional release oral tablet (clinical drug)
+375136008	Product containing precisely primidone 50 milligram/1 each conventional release oral tablet
+375905001	Product containing precisely pentobarbital sodium 50 milligram/1 each conventional release oral capsule (clinical drug)
+375928000	Pentobarbital sodium 30mg suppository (product)
+377225006	Belladonna alkaloid 200 microgram and ergotamine tartrate 600 microgram and phenobarbital 40 mg oral tablet
+377595001	Product containing precisely amobarbital sodium 50 milligram and secobarbital sodium 50 milligram/1 each conventional release oral capsule
+384945009	Amobarbital sodium 250mg injection solution vial
+386156005	Pentobarbital sodium 20mg/5ml elixir
+386157001	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral tablet
+386158006	Product containing precisely phenobarbital 16.2 milligram/1 each conventional release oral tablet
+386159003	Product containing precisely phenobarbital 90 milligram/1 each conventional release oral tablet (clinical drug)
+386160008	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral capsule
+386161007	Phenobarbital 20mg/5mL elixir
+386737009	Product containing precisely amobarbital sodium 100 milligram and secobarbital sodium 100 milligram/1 each conventional release oral capsule
+386739007	Product containing pentobarbital in oral dosage form
+386740009	Product containing pentobarbital in rectal dosage form
+386742001	Pentobarbital in parenteral dosage form
+412466003	Belladonna alkaloid and phenobarbital product
+422319002	Amobarbital and secobarbital product
+765576003	Belladonna alkaloids + ergotamine tartrate + phenobarbital 0.2mg/0.6mg/40mg prolonged-release oral tablet
+767877000	Amobarbital and secobarbital in oral dosage form
+767884008	Product containing amobarbital in oral dosage form
+768021003	Belladonna alkaloid and ergotamine and phenobarbital product
+768022005	Product containing belladonna alkaloid and ergotamine and phenobarbital in oral dosage form (medicinal product form)
+768038004	Product containing butobarbital in oral dosage form (medicinal product form)
+768184007	Product containing secobarbital in oral dosage form
+769972002	Phenobarbital sodium 15 mg/mL solution for injection ampule
+769973007	Product containing precisely phenobarbital sodium 200 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+769974001	Phenobarbital sodium 30 mg/mL solution for injection ampoule
+769975000	Product containing precisely phenobarbital sodium 60 milligram/1 milliliter conventional release solution for injection ampule (clinical drug)
+66639008	Secobarbital sodium (substance)
+66843009	Pentobarbital sodium (substance)
+68669008	Cyclobarbital (substance)
+76898000	Phenobarbital sodium (substance)
+111124009	Barbital (substance)
+372703009	Pentobarbitone
+372737001	Quinalbarbitone
+372831009	Amylobarbitone
+373505007	Phenobarbitone
+387252006	Methylphenobarbital (substance)
+387343004	Amylobarbitone sodium
+395755006	Butobarbitone
+715431002	Phenobarbital embryopathy
+387448009	Thiopentone sodium
+412605006	Thiopental (substance)
+387256009	Primaclone
+450321002	Thiopentone specific immunoglobulin E
+18455311000001101	Mysoline 50mg tablets (IS Pharmaceuticals Ltd) (product)
+204111000001102	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceutical Ltd) (product)
+35939211000001101	Phenobarbital 200mg/1ml solution for injection ampoules (product)
+3681311000001105	Soneryl 100mg tablets (Special Order) (product)
+3681911000001106	Sodium Amytal 200mg capsules (Special Order) (product)
+3682911000001100	Amobarbital sodium 200mg capsules (product)
+3709611000001105	Amytal 50mg tablets (Flynn Pharma) (product)
+3797411000001100	Sodium Amytal 60mg capsules (Special Order) (product)
+3840711000001103	Seconal Sodium 100mg capsules (Special Order) (product)
+4085511000001105	Seconal Sodium 50mg capsules (Special Order) (product)
+4548311000001102	Mysoline 250mg/5ml oral suspension (Zeneca Pharma) (product)
+87711000001100	Mysoline 250mg tablets (Acorus Therapeutics Ltd) (product)

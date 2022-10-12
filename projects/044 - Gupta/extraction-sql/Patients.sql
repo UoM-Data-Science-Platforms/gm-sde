@@ -14,10 +14,27 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -28,6 +45,10 @@ where FK_Reference_Tenancy_ID = 2;
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+------------------------------------------
+
+-- OUTPUT: #Patients
 
 -- Set the date variables for the LTC code
 
@@ -1007,6 +1028,8 @@ CREATE TABLE #codesreadv2 (
 INSERT INTO #codesreadv2
 VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K..00',NULL,'Body Mass Index'),('bmi',1,'22KE.',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KE.00',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KD.',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KD.00',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KC.',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KC.00',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KB.',NULL,'Baseline body mass index'),('bmi',1,'22KB.00',NULL,'Baseline body mass index'),('bmi',1,'22KA.',NULL,'Target body mass index'),('bmi',1,'22KA.00',NULL,'Target body mass index'),('bmi',1,'22K9.',NULL,'Body mass index centile'),('bmi',1,'22K9.00',NULL,'Body mass index centile'),('bmi',1,'22K9K',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9K00',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9J',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9J00',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9H',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9H00',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9G',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9G00',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9F',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9F00',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9E',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9E00',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9D',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9D00',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9C',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9C00',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9B',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9B00',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9A',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K9A00',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K99',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K9900',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K98',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K9800',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K97',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K9700',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K96',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K9600',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K95',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K9500',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K94',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K9400',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K93',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K9300',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K92',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K9200',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K91',NULL,'Child body mass index centile'),('bmi',1,'22K9100',NULL,'Child body mass index centile'),('bmi',1,'22K90',NULL,'Baseline body mass index centile'),('bmi',1,'22K9000',NULL,'Baseline body mass index centile'),('bmi',1,'22K8.',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K8.00',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K7.',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K7.00',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K6.',NULL,'Body mass index less than 20'),('bmi',1,'22K6.00',NULL,'Body mass index less than 20'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K5.00',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K4.00',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K3.00',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K2.00',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K1.00',NULL,'Body Mass Index normal K/M2'),('bmi',1,'C3808',NULL,'Childhood obesity'),('bmi',1,'C380800',NULL,'Childhood obesity'),('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
 INSERT INTO #codesreadv2
+VALUES ('height',1,'229..',NULL,'O/E - height'),('height',1,'229..00',NULL,'O/E - height'),('height',1,'229Z.',NULL,'O/E - height NOS'),('height',1,'229Z.00',NULL,'O/E - height NOS');
+INSERT INTO #codesreadv2
 VALUES ('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137P.00',NULL,'Cigarette smoker'),('smoking-status-current',1,'13p3.',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'13p3.00',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'1374.',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'1374.00',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137G.00',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137R.00',NULL,'Current smoker'),('smoking-status-current',1,'1376.',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1376.00',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1375.',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1375.00',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1373.',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'1373.00',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137M.00',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137o.',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137o.00',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137m.',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137m.00',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137h.',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137h.00',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137g.',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137g.00',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137f.',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137f.00',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137e.',NULL,'Smoking restarted'),('smoking-status-current',1,'137e.00',NULL,'Smoking restarted'),('smoking-status-current',1,'137d.',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137d.00',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137c.',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137c.00',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137b.',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137b.00',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137C.00',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137J.00',NULL,'Cigar smoker'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137H.00',NULL,'Pipe smoker'),('smoking-status-current',1,'137a.',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137a.00',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Z.00',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Y.',NULL,'Cigar consumption'),('smoking-status-current',1,'137Y.00',NULL,'Cigar consumption'),('smoking-status-current',1,'137X.',NULL,'Cigarette consumption'),('smoking-status-current',1,'137X.00',NULL,'Cigarette consumption'),('smoking-status-current',1,'137V.',NULL,'Smoking reduced'),('smoking-status-current',1,'137V.00',NULL,'Smoking reduced'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137Q.00',NULL,'Smoking started');
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-currently-not',1,'137L.',NULL,'Current non-smoker'),('smoking-status-currently-not',1,'137L.00',NULL,'Current non-smoker');
@@ -1020,6 +1043,8 @@ INSERT INTO #codesreadv2
 VALUES ('smoking-status-passive',1,'137I.',NULL,'Passive smoker'),('smoking-status-passive',1,'137I.00',NULL,'Passive smoker'),('smoking-status-passive',1,'137I0',NULL,'Exposed to tobacco smoke at home'),('smoking-status-passive',1,'137I000',NULL,'Exposed to tobacco smoke at home'),('smoking-status-passive',1,'13WF4',NULL,'Passive smoking risk'),('smoking-status-passive',1,'13WF400',NULL,'Passive smoking risk');
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-trivial',1,'1372.',NULL,'Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.00',NULL,'Trivial smoker - < 1 cig/day');
+INSERT INTO #codesreadv2
+VALUES ('weight',1,'22A..',NULL,'O/E - weight'),('weight',1,'22A..00',NULL,'O/E - weight'),('weight',1,'22AZ.',NULL,'O/E - weight NOS'),('weight',1,'22AZ.00',NULL,'O/E - weight NOS');
 INSERT INTO #codesreadv2
 VALUES ('covid-vaccination',1,'65F0.',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F01',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0100',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F02',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0200',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F0600',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F07',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F0700',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F08',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F0800',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0900',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A00',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'9bJ..00',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)');
 INSERT INTO #codesreadv2
@@ -1060,6 +1085,8 @@ CREATE TABLE #codesctv3 (
 INSERT INTO #codesctv3
 VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'X76CO',NULL,'Quetelet index'),('bmi',1,'Xa7wG',NULL,'Observation of body mass index'),('bmi',1,'Xaa0k',NULL,'Childhood obesity'),('bmi',1,'Xaatm',NULL,'Child BMI centile'),('bmi',1,'Xabdn',NULL,'Downs syndrome BMI centile'),('bmi',1,'XabHx',NULL,'Obese class I (BMI 30.0-34.9)'),('bmi',1,'XabHy',NULL,'Obese class II (BMI 35.0-39.9)'),('bmi',1,'XabHz',NULL,'Obese cls III (BMI eq/gr 40.0)'),('bmi',1,'XabSe',NULL,'Child BMI < 0.4th centile'),('bmi',1,'XabSf',NULL,'Child BMI 0.4th-1.9th centile'),('bmi',1,'XabSg',NULL,'Child BMI on 2nd centile'),('bmi',1,'XabSh',NULL,'Child BMI 3rd-8th centile'),('bmi',1,'XabSj',NULL,'Child BMI on 9th centile'),('bmi',1,'XabSk',NULL,'Child BMI 10th-24th centile'),('bmi',1,'XabSl',NULL,'Child BMI on 25th centile'),('bmi',1,'XabSm',NULL,'Child BMI 26th-49th centile'),('bmi',1,'XabSn',NULL,'Child BMI on 50th centile'),('bmi',1,'XabTe',NULL,'Child BMI on 75th centile'),('bmi',1,'XabTf',NULL,'Child BMI 76th-90th centile'),('bmi',1,'XabTg',NULL,'Child BMI on 91st centile'),('bmi',1,'XabTh',NULL,'Child BMI 92nd-97th centile'),('bmi',1,'XabTi',NULL,'Child BMI on 98th centile'),('bmi',1,'XabTj',NULL,'Child BMI 98.1-99.6 centile'),('bmi',1,'XabTk',NULL,'Child BMI > 99.6th centile'),('bmi',1,'XabTZ',NULL,'Child BMI 51st-74th centile'),('bmi',1,'XaCDR',NULL,'Body mass index less than 20'),('bmi',1,'XaJJH',NULL,'BMI 40+ - severely obese'),('bmi',1,'XaJqk',NULL,'Body mass index 20-24 - normal'),('bmi',1,'XaVwA',NULL,'Body mass index centile'),('bmi',1,'XaZck',NULL,'Baseline BMI centile'),('bmi',1,'XaZcl',NULL,'Baseline body mass index'),('bmi',2,'22K..',NULL,'Body Mass Index');
 INSERT INTO #codesctv3
+VALUES ('height',1,'229..',NULL,'O/E - height'),('height',1,'229Z.',NULL,'O/E - height NOS');
+INSERT INTO #codesctv3
 VALUES ('smoking-status-current',1,'1373.',NULL,'Lt cigaret smok, 1-9 cigs/day'),('smoking-status-current',1,'1374.',NULL,'Mod cigaret smok, 10-19 cigs/d'),('smoking-status-current',1,'1375.',NULL,'Hvy cigaret smok, 20-39 cigs/d'),('smoking-status-current',1,'1376.',NULL,'Very hvy cigs smoker,40+cigs/d'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137D.',NULL,'Admitted tobacco cons untrue ?'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'Ub1tI',NULL,'Cigarette consumption'),('smoking-status-current',1,'Ub1tJ',NULL,'Cigar consumption'),('smoking-status-current',1,'Ub1tK',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'XaBSp',NULL,'Smoking restarted'),('smoking-status-current',1,'XaIIu',NULL,'Smoking reduced'),('smoking-status-current',1,'XaIkW',NULL,'Thinking about stop smoking'),('smoking-status-current',1,'XaIkX',NULL,'Ready to stop smoking'),('smoking-status-current',1,'XaIkY',NULL,'Not interested stop smoking'),('smoking-status-current',1,'XaItg',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'XaIuQ',NULL,'Cigarette pack-years'),('smoking-status-current',1,'XaJX2',NULL,'Min from wake to 1st tobac con'),('smoking-status-current',1,'XaWNE',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'XaZIE',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'XE0og',NULL,'Tobacco smoking consumption'),('smoking-status-current',1,'XE0oq',NULL,'Cigarette smoker'),('smoking-status-current',1,'XE0or',NULL,'Smoking started');
 INSERT INTO #codesctv3
 VALUES ('smoking-status-currently-not',1,'Ub0oq',NULL,'Non-smoker'),('smoking-status-currently-not',1,'137L.',NULL,'Current non-smoker');
@@ -1073,6 +1100,8 @@ INSERT INTO #codesctv3
 VALUES ('smoking-status-passive',1,'137I.',NULL,'Passive smoker'),('smoking-status-passive',1,'Ub0pe',NULL,'Exposed to tobacco smoke at work'),('smoking-status-passive',1,'Ub0pf',NULL,'Exposed to tobacco smoke at home'),('smoking-status-passive',1,'Ub0pg',NULL,'Exposed to tobacco smoke in public places'),('smoking-status-passive',1,'13WF4',NULL,'Passive smoking risk');
 INSERT INTO #codesctv3
 VALUES ('smoking-status-trivial',1,'XagO3',NULL,'Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi',NULL,'Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.',NULL,'Trivial smoker - < 1 cig/day');
+INSERT INTO #codesctv3
+VALUES ('weight',1,'22A..',NULL,'O/E - weight'),('weight',1,'22AZ.',NULL,'O/E - weight NOS');
 INSERT INTO #codesctv3
 VALUES ('covid-vaccination',1,'Y210d',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7',NULL,'Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8',NULL,'Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e',NULL,'SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'Y2a10',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1'),('covid-vaccination',1,'Y2a39',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2'),('covid-vaccination',1,'Y2b9d',NULL,'COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2'),('covid-vaccination',1,'Y2f45',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f48',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f57',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster'),('covid-vaccination',1,'Y31cc',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination'),('covid-vaccination',1,'Y31e6',NULL,'Administration of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e7',NULL,'Administration of first dose of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e8',NULL,'Administration of second dose of SARS-CoV-2 mRNA vaccine');
 INSERT INTO #codesctv3
@@ -1113,6 +1142,8 @@ CREATE TABLE #codessnomed (
 INSERT INTO #codessnomed
 VALUES ('bmi',1,'6497000',NULL,'Decreased body mass index (finding)'),('bmi',1,'35425004',NULL,'Normal body mass index (finding)'),('bmi',1,'48499001',NULL,'Increased body mass index (finding)'),('bmi',1,'162863004',NULL,'Body mass index 25-29 - overweight'),('bmi',1,'162864005',NULL,'BMI 30+ - obesity'),('bmi',1,'301331008',NULL,'Observation of body mass index'),('bmi',1,'310252000',NULL,'BMI less than 20'),('bmi',1,'408512008',NULL,'Body mass index 40+ - morbidly obese'),('bmi',1,'412768003',NULL,'Body mass index 20-24 - normal'),('bmi',1,'427090001',NULL,'Body mass index less than 16.5'),('bmi',1,'450451007',NULL,'Childhood overweight BMI greater than 85 percentile'),('bmi',1,'722595002',NULL,'Overweight in adulthood with BMI of 25 or more but less than 30'),('bmi',1,'920141000000102',NULL,'Child BMI (body mass index) less than 0.4th centile'),('bmi',1,'920161000000101',NULL,'Child BMI (body mass index) 0.4th-1.9th centile'),('bmi',1,'920181000000105',NULL,'Child BMI (body mass index) on 2nd centile'),('bmi',1,'920201000000109',NULL,'Child BMI (body mass index) 3rd-8th centile'),('bmi',1,'920231000000103',NULL,'Child BMI (body mass index) on 9th centile'),('bmi',1,'920251000000105',NULL,'Child BMI (body mass index) 10th-24th centile'),('bmi',1,'920271000000101',NULL,'Child BMI (body mass index) on 25th centile'),('bmi',1,'920291000000102',NULL,'Child BMI (body mass index) 26th-49th centile'),('bmi',1,'920311000000101',NULL,'Child BMI (body mass index) on 50th centile'),('bmi',1,'920841000000108',NULL,'Child BMI (body mass index) 51st-74th centile'),('bmi',1,'920931000000108',NULL,'Child BMI (body mass index) on 75th centile'),('bmi',1,'920951000000101',NULL,'Child BMI (body mass index) 76th-90th centile'),('bmi',1,'920971000000105',NULL,'Child BMI (body mass index) on 91st centile'),('bmi',1,'920991000000109',NULL,'Child BMI (body mass index) 92nd-97th centile'),('bmi',1,'921011000000105',NULL,'Child BMI (body mass index) on 98th centile'),('bmi',1,'921031000000102',NULL,'Child BMI (body mass index) 98.1st-99.6th centile'),('bmi',1,'921051000000109',NULL,'Child BMI (body mass index) greater than 99.6th centile'),('bmi',1,'914721000000105',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'914731000000107',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'914741000000103',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'443371000124107',NULL,'Body mass index 30.00 to 34.99'),('bmi',1,'443381000124105',NULL,'Body mass index 35.00 to 39.99'),('bmi',1,'60621009',NULL,'Quetelet index'),('bmi',1,'846931000000101',NULL,'Baseline BMI (body mass index)'),('bmi',1,'852451000000103',NULL,'Maximum body mass index (observable entity)'),('bmi',1,'852461000000100',NULL,'Minimum body mass index (observable entity)'),('bmi',1,'446974000',NULL,'Body mass index centile'),('bmi',1,'846911000000109',NULL,'Baseline BMI (body mass index) centile'),('bmi',1,'896691000000102',NULL,'Child BMI (body mass index) centile'),('bmi',1,'926011000000101',NULL,'Downs syndrome BMI (body mass index) centile'),('bmi',1,'722562008',NULL,'Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40'),('bmi',1,'722563003',NULL,'Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40'),('bmi',1,'705131003',NULL,'Child at risk for overweight body mass index greater than 85 percentile'),('bmi',1,'43991000119102',NULL,'History of childhood obesity BMI 95-100 percentile'),('bmi',1,'698094009',NULL,'Calculation of body mass index'),('bmi',1,'444862003',NULL,'Childhood obesity BMI 95-100 percentile'),('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
 INSERT INTO #codessnomed
+VALUES ('height',1,'14456009',NULL,'Measuring height of patient'),('height',1,'50373000',NULL,'Body height measure'),('height',1,'139977008',NULL,'O/E - height'),('height',1,'162755006',NULL,'On examination - height'),('height',1,'248327008',NULL,'General finding of height'),('height',1,'248333004',NULL,'Standing height');
+INSERT INTO #codessnomed
 VALUES ('smoking-status-current',1,'266929003',NULL,'Smoking started (life style)'),('smoking-status-current',1,'836001000000109',NULL,'Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002',NULL,'Smoker (life style)'),('smoking-status-current',1,'65568007',NULL,'Cigarette smoker (life style)'),('smoking-status-current',1,'394873005',NULL,'Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000',NULL,'Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007',NULL,'Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002',NULL,'Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008',NULL,'Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004',NULL,'Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006',NULL,'Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001',NULL,'Smoker (& cigarette)'),('smoking-status-current',1,'160619003',NULL,'Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005',NULL,'Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007',NULL,'Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002',NULL,'Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003',NULL,'Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004',NULL,'Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005',NULL,'Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006',NULL,'Cigar smoker (life style)'),('smoking-status-current',1,'446172000',NULL,'Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009',NULL,'Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003',NULL,'Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003',NULL,'Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006',NULL,'Smoking restarted (life style)'),('smoking-status-current',1,'230058003',NULL,'Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006',NULL,'Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008',NULL,'Pipe smoker (life style)');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-currently-not',1,'160618006',NULL,'Current non-smoker (life style)'),('smoking-status-currently-not',1,'8392000',NULL,'Non-smoker (life style)');
@@ -1126,6 +1157,8 @@ INSERT INTO #codessnomed
 VALUES ('smoking-status-passive',1,'43381005',NULL,'Passive smoker (finding)'),('smoking-status-passive',1,'161080002',NULL,'Passive smoking risk (environment)'),('smoking-status-passive',1,'228523000',NULL,'Exposed to tobacco smoke at work (finding)'),('smoking-status-passive',1,'228524006',NULL,'Exposed to tobacco smoke at home (finding)'),('smoking-status-passive',1,'228525007',NULL,'Exposed to tobacco smoke in public places (finding)'),('smoking-status-passive',1,'713142003',NULL,'At risk from passive smoking (finding)'),('smoking-status-passive',1,'722451000000101',NULL,'Passive smoking (qualifier value)');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-trivial',1,'266920004',NULL,'Trivial cigarette smoker (less than one cigarette/day) (life style)'),('smoking-status-trivial',1,'428041000124106',NULL,'Occasional tobacco smoker (finding)');
+INSERT INTO #codessnomed
+VALUES ('weight',1,'27113001',NULL,'Body weight'),('weight',1,'139985004',NULL,'O/E - weight'),('weight',1,'162763007',NULL,'On examination - weight'),('weight',1,'248341004',NULL,'General weight finding'),('weight',1,'248345008',NULL,'Body weight'),('weight',1,'271604008',NULL,'Weight finding'),('weight',1,'301333006',NULL,'Finding of measures of body weight'),('weight',1,'363808001',NULL,'Measured body weight'),('weight',1,'424927000',NULL,'Body weight with shoes'),('weight',1,'425024002',NULL,'Body weight without shoes'),('weight',1,'735395000',NULL,'Current body weight'),('weight',1,'784399000',NULL,'Self reported body weight');
 INSERT INTO #codessnomed
 VALUES ('covid-vaccination',1,'1240491000000103',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)');
 INSERT INTO #codessnomed
@@ -1256,6 +1289,11 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
+
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
@@ -1271,7 +1309,9 @@ BEGIN
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 		)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
@@ -1282,7 +1322,8 @@ BEGIN
 		)
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 -- We can rely on the GraphNet table for first diagnosis.
@@ -1306,7 +1347,9 @@ BEGIN
 			select Code from #AllCodes 
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
-		);
+		)
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #AllPositiveTestsTemp
 		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
@@ -1316,7 +1359,8 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
@@ -1393,7 +1437,6 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
 
-
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
@@ -1414,7 +1457,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND EventDate < '2022-06-01';
 
 
 --┌─────┐
@@ -1704,6 +1748,8 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
+
 UNION
 SELECT 
 	FK_Patient_Link_ID,
@@ -1715,6 +1761,7 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
 
 -- For closest BMI prior to index date
@@ -1882,8 +1929,8 @@ IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmo
 SELECT 
 	p.FK_Patient_Link_ID,
 	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
+	CASE WHEN w.[Status] IS NULL THEN 'unknown-smoking-status' ELSE w.[Status] END AS WorstSmokingStatus,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown-smoking-status' ELSE c.[Status] END AS CurrentSmokingStatus
 INTO #PatientSmokingStatus FROM #Patients p
 LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1917,7 +1964,112 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND NursingCareHomeFlag IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
+--┌───────────────────────────────────────┐
+--│ GET practice and ccg for each patient │
+--└───────────────────────────────────────┘
 
+-- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
+--						the CCG name that the practice belongs to.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: Two temp tables as follows:
+-- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+--	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+-- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+--	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+--	- CCG - the name of the patient's CCG
+
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
+-- 1298467 rows
+-- 00:00:11
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedPatientsForPracticeCode') IS NOT NULL DROP TABLE #UnmatchedPatientsForPracticeCode;
+SELECT FK_Patient_Link_ID INTO #UnmatchedPatientsForPracticeCode FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 12702 rows
+-- 00:00:00
+
+-- If every GPPracticeCode is the same for all their linked patient ids then we use that
+INSERT INTO #PatientPractice
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 12141
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedPatientsForPracticeCode;
+INSERT INTO #UnmatchedPatientsForPracticeCode
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 561 rows
+-- 00:00:00
+
+-- If there is a unique most recent gp practice then we use that
+INSERT INTO #PatientPractice
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+WHERE p.GPPracticeCode IS NOT NULL
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 15
+
+--┌──────────────────┐
+--│ CCG lookup table │
+--└──────────────────┘
+
+-- OBJECTIVE: To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not 
+--            the CCG name. This table can be used in other queries when the output is required to be a ccg 
+--            name rather than an id.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #CCGLookup (CcgId, CcgName)
+-- 	- CcgId - Nationally recognised ccg id
+--	- CcgName - Bolton, Stockport etc..
+
+IF OBJECT_ID('tempdb..#CCGLookup') IS NOT NULL DROP TABLE #CCGLookup;
+CREATE TABLE #CCGLookup (CcgId nchar(3), CcgName nvarchar(20));
+INSERT INTO #CCGLookup VALUES ('01G', 'Salford'); 
+INSERT INTO #CCGLookup VALUES ('00T', 'Bolton'); 
+INSERT INTO #CCGLookup VALUES ('01D', 'HMR'); 
+INSERT INTO #CCGLookup VALUES ('02A', 'Trafford'); 
+INSERT INTO #CCGLookup VALUES ('01W', 'Stockport');
+INSERT INTO #CCGLookup VALUES ('00Y', 'Oldham'); 
+INSERT INTO #CCGLookup VALUES ('02H', 'Wigan'); 
+INSERT INTO #CCGLookup VALUES ('00V', 'Bury'); 
+INSERT INTO #CCGLookup VALUES ('14L', 'Manchester'); 
+INSERT INTO #CCGLookup VALUES ('01Y', 'Tameside Glossop'); 
+
+IF OBJECT_ID('tempdb..#PatientPracticeAndCCG') IS NOT NULL DROP TABLE #PatientPracticeAndCCG;
+SELECT p.FK_Patient_Link_ID, ISNULL(pp.GPPracticeCode,'') AS GPPracticeCode, ISNULL(ccg.CcgName, '') AS CCG
+INTO #PatientPracticeAndCCG
+FROM #Patients p
+LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 --┌────────────────────┐
 --│ COVID vaccinations │
 --└────────────────────┘
@@ -2167,7 +2319,7 @@ GROUP BY FK_Patient_Link_ID
 
 ------------------------------- OBSERVATIONS -------------------------------------
 
--- >>> Following code sets injected: systolic-blood-pressure v1/diastolic-blood-pressure v1/hba1c v2
+-- >>> Following code sets injected: systolic-blood-pressure v1/diastolic-blood-pressure v1/hba1c v2/height v1/weight v1
 -- >>> Following code sets injected: cholesterol v2/ldl-cholesterol v1/hdl-cholesterol v1/triglycerides v1/egfr v1
 
 -- CREATE TABLE OF OBSERVATIONS REQUESTED BY THE PI
@@ -2178,19 +2330,18 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value]),
-	[Units]
+	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #observations
 FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
 	((gp.FK_Reference_SnomedCT_ID IN (
-		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 )
+		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets sn WHERE sn.Concept In ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR sn.Concept IN ('hba1c', 'cholesterol') AND sn.[Version] = 2 )
 		OR (gp.FK_Reference_Coding_ID   IN (
-		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 ))
+		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets co WHERE co.Concept In ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR co.Concept IN ('hba1c', 'cholesterol') AND co.[Version] = 2 ))
 
 	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
@@ -2200,15 +2351,13 @@ WHERE
 
 IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Units], [Version]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value]
 into #all_observations
 from #observations
-except
-select FK_Patient_Link_ID, EventDate, Concept, [Value], [Units], [Version] from #observations 
-where 
-	(Concept = 'cholesterol' and [Version] <> 2) OR -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
-	(Concept = 'hba1c' and [Version] <> 2) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
-	AND [Value] > 0
+WHERE 
+	((Concept in ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) OR
+	(Concept IN ('cholesterol', 'hba1c') AND [Version] = 2)) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
+	AND [Value] > 0 AND [Value] <> '0.00000' 
 
 -- FIND CLOSEST OBSERVATIONS BEFORE AND AFTER FIRST COVID POSITIVE DATE
 
@@ -2233,7 +2382,6 @@ SELECT o.FK_Patient_Link_ID,
 	o.EventDate, 
 	o.Concept, 
 	o.[Value], 
-	o.[Units],
 	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
 	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
 INTO #closest_observations
@@ -2247,6 +2395,10 @@ WHERE bef.MostRecentDate = o.EventDate OR aft.MostRecentDate = o.EventDate
 IF OBJECT_ID('tempdb..#observations_wide') IS NOT NULL DROP TABLE #observations_wide;
 SELECT
 	 FK_Patient_Link_ID
+	,height_1 = MAX(CASE WHEN [Concept] = 'height' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
+	,height_1_dt = MAX(CASE WHEN [Concept] = 'height' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,weight_1 = MAX(CASE WHEN [Concept] = 'weight' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
+	,weight_1_dt = MAX(CASE WHEN [Concept] = 'weight' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
 	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
 	,SystolicBP_2 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
@@ -2284,20 +2436,61 @@ FROM #closest_observations
 WHERE ROW_NUM = 1
 GROUP BY FK_Patient_Link_ID
 
+-- create table of height and weight measurements
+
+IF OBJECT_ID('tempdb..#height_weight') IS NOT NULL DROP TABLE #height_weight;
+SELECT FK_Patient_Link_ID, [Value], EventDate, Concept
+INTO #height_weight
+FROM #all_observations
+WHERE Concept in ('height', 'weight')
+	AND EventDate <= @IndexDate
+
+-- For height and weight we want closest prior to index date
+IF OBJECT_ID('tempdb..#TempCurrentHeightWeight') IS NOT NULL DROP TABLE #TempCurrentHeightWeight;
+SELECT 
+	a.FK_Patient_Link_ID, 
+	a.Concept,
+	Max([Value]) as [Value],
+	Max(EventDate) as EventDate
+INTO #TempCurrentHeightWeight
+FROM #height_weight a
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
+	FROM #height_weight
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
+GROUP BY a.FK_Patient_Link_ID, a.Concept;
+
+-- bring together in a table that can be joined to
+IF OBJECT_ID('tempdb..#PatientHeightWeight') IS NOT NULL DROP TABLE #PatientHeightWeight;
+SELECT 
+	p.FK_Patient_Link_ID,
+	height = MAX(CASE WHEN c.Concept = 'height' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	height_dt = MAX(CASE WHEN c.Concept = 'height' THEN EventDate ELSE NULL END),
+	weight = MAX(CASE WHEN c.Concept = 'weight' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	weight_dt = MAX(CASE WHEN c.Concept = 'weight' THEN EventDate ELSE NULL END)
+INTO #PatientHeightWeight
+FROM #Cohort p
+LEFT OUTER JOIN #TempCurrentHeightWeight c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY p.FK_Patient_Link_ID
 
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
-
 SELECT  
-	p.FK_Patient_Link_ID, 
+	PatientId = p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
 	BMI,
 	BMIDate = bmi.EventDate,
+	height,
+	height_dt,
+	weight,
+	weight_dt,
 	CurrentSmokingStatus = smok.CurrentSmokingStatus,
 	WorstSmokingStatus = smok.WorstSmokingStatus,
 	p.EthnicMainGroup,
 	LSOA_Code,
+	PracticeCCG = prac.CCG,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	IsCareHomeResident,
 	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
@@ -2432,6 +2625,8 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHeightWeight heiwei ON heiwei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID

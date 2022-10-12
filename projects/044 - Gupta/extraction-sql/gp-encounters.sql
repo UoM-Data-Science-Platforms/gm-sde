@@ -19,10 +19,27 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -34,7 +51,9 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+------------------------------------------
 
+-- OUTPUT: #Patients
 
 --------------------------------------------------------------------------------------------------------
 ----------------------------------- DEFINE MAIN COHORT -- ----------------------------------------------
@@ -1159,6 +1178,11 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
+
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
@@ -1174,7 +1198,9 @@ BEGIN
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 		)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
@@ -1185,7 +1211,8 @@ BEGIN
 		)
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 -- We can rely on the GraphNet table for first diagnosis.
@@ -1209,7 +1236,9 @@ BEGIN
 			select Code from #AllCodes 
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
-		);
+		)
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #AllPositiveTestsTemp
 		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
@@ -1219,7 +1248,8 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
@@ -1295,7 +1325,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
-
 
 -- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
 
@@ -1417,8 +1446,9 @@ BEGIN
       AND EventDate BETWEEN '2018-01-01' AND '2022-05-01'
   END
 
-
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
-SELECT *
+SELECT 
+	PatientId = FK_Patient_Link_ID,
+	EncounterDate
 FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate

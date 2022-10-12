@@ -1,0 +1,1715 @@
+62014003	Adverse reaction caused by drug (disorder)
+158058005	Adverse reaction caused by tetanus antitoxin
+218326006	Adverse reaction caused by antineoplastic antibiotics (disorder)
+218356002	Adverse reaction caused by sulphamethoxazole
+218361000	Adverse reaction to arsenical anti-infective
+218369003	Adverse reaction caused by chiniofon
+218370002	Adverse reaction caused by diiodohydroxyquin
+218379001	Adverse reaction caused by cycloguanil (disorder)
+218382006	Adverse reaction caused by emetine (disorder)
+218394002	Adverse reaction caused by hexylresorcinol (disorder)
+218395001	Adverse reaction caused by male fern oleoresin
+218406006	Adverse reaction caused by ethionamide
+218408007	Adverse reaction caused by para-aminosalicylic acid
+218416003	Adverse reaction caused by hexamine (disorder)
+218471002	Adverse reaction caused by follicle stimulating hormone (disorder)
+218475006	Adverse reaction caused by posterior pituitary hormones
+218481003	Adverse reaction caused by parathyroid and parathyroid derivatives (disorder)
+218488009	Adverse reaction caused by thyroglobulin (disorder)
+218498003	Adverse reaction caused by antihistamines (disorder)
+218533007	Adverse reaction caused by acidifying agent (disorder)
+218534001	Adverse reaction caused by alkalizing agents (disorder)
+218566006	Adverse reaction caused by phytomenadione
+218568007	Adverse reaction caused by fibrinolytic drugs (disorder)
+218572006	Adverse reaction caused by anticoagulant antagonists
+218580004	Adverse reaction caused by blood plasma
+218581000	Adverse reaction caused by human fibrinogen
+218582007	Adverse reaction caused by packed red cells
+218583002	Adverse reaction caused by whole blood (disorder)
+218586005	Adverse reaction caused by macromolecular blood substitutes
+218605001	Adverse reaction caused by phenacetin
+218606000	Adverse reaction caused by acetanilide
+218608004	Adverse reaction caused by pyrazole derivative
+218610002	Adverse reaction caused by aminophenazone (disorder)
+218613000	Adverse reaction caused by ibuprofen
+218614006	Adverse reaction caused by diclofenac sodium (disorder)
+218615007	Adverse reaction caused by fenbufen (disorder)
+218619001	Adverse reaction caused by ketoprofen
+218620007	Adverse reaction caused by naproxen
+218621006	Adverse reaction caused by piroxicam (disorder)
+218622004	Adverse reaction caused by sodium aurothiomalate (disorder)
+218626001	Adverse reaction caused by pyrabital
+218630003	Adverse reaction caused by mefenamic acid
+218634007	Adverse reaction caused by oxazolidine derivative (disorder)
+218635008	Adverse reaction caused by paramethadione (disorder)
+218636009	Adverse reaction caused by trimethadione (disorder)
+218638005	Adverse reaction caused by hydantoin derivative (disorder)
+218641001	Adverse reaction caused by succinimide
+218643003	Adverse reaction caused by phensuximide (disorder)
+218663005	Adverse reaction caused by barbitone (disorder)
+218665003	Adverse reaction caused by pentobarbitone
+218679006	Adverse reaction caused by bromide
+218680009	Adverse reaction to carbromal derivative
+218696007	Adverse reaction caused by central nervous system muscle-tone depressants
+218697003	Adverse reaction caused by chlorphenesin (disorder)
+218698008	Adverse reaction caused by mephenesin (disorder)
+218704008	Adverse reaction caused by nitrous oxide (disorder)
+218705009	Adverse reaction caused by cyclopropane (disorder)
+218718001	Adverse reaction caused by surface and infiltration anesthetic (disorder)
+218724007	Adverse reaction caused by tetracaine (disorder)
+218726009	Adverse reaction caused by peripheral nerve and plexus blocking anaesthetic
+218727000	Adverse reaction caused by spinal anesthetic (disorder)
+218764006	Adverse reaction caused by spiperone
+218790009	Adverse reaction caused by hallucinogen
+218791008	Adverse reaction caused by cannabis (disorder)
+218792001	Adverse reaction caused by lysergide (disorder)
+218794000	Adverse reaction caused by mescaline
+218795004	Adverse reaction caused by psilocin (disorder)
+218796003	Adverse reaction caused by psilocybin
+218799005	Adverse reaction caused by caffeine
+218808002	Adverse reaction caused by lobeline (disorder)
+218813003	Adverse reaction caused by levallorphan (disorder)
+218814009	Adverse reaction caused by nalorphine
+218829006	Adverse reaction caused by parasympatholytic and spasmolytic
+218842006	Adverse reaction caused by sympatholytic (disorder)
+218845008	Adverse reaction caused by tolazoline (disorder)
+218868004	Adverse reaction caused by ganglion blocking drug
+218869007	Adverse reaction caused by pentamethonium bromide (disorder)
+218903005	Adverse reaction caused by reserpine (disorder)
+218916005	Adverse reaction caused by capillary-active drug
+218924000	Adverse reaction caused by alexitol sodium
+218925004	Adverse reaction caused by magnesium carbonate (disorder)
+218927007	Adverse reaction caused by hydrotalcite
+218928002	Adverse reaction caused by magaldrate
+218929005	Adverse reaction caused by sodium bicarbonate
+218933003	Adverse reaction caused by irritant cathartic
+218938007	Adverse reaction caused by fig
+218941003	Adverse reaction caused by phenolphthalein
+218943000	Adverse reaction caused by emollient cathartic (disorder)
+218950001	Adverse reaction caused by digestant
+218951002	Adverse reaction caused by pancreatin (disorder)
+218952009	Adverse reaction caused by papain (disorder)
+218953004	Adverse reaction caused by pepsin
+218957003	Adverse reaction caused by diphenoxylate (disorder)
+218959000	Adverse reaction caused by pectin
+218961009	Adverse reaction caused by emetic (disorder)
+218968003	Adverse reaction caused by chlormerodrin (disorder)
+218969006	Adverse reaction caused by mercaptomerin (disorder)
+218970007	Adverse reaction caused by mercurophylline (disorder)
+218972004	Adverse reaction caused by purine derivative diuretic
+218973009	Adverse reaction caused by theobromine (disorder)
+219008007	Adverse reaction caused by drug primarily acting on the smooth and skeletal muscles and respiratory system
+219009004	Adverse reaction caused by oxytocic agents
+219015004	Adverse reaction caused by adiphenine (disorder)
+219019005	Adverse reaction caused by skeletal muscle relaxants
+219029003	Adverse reaction caused by pipazethate hydrochloride
+219031007	Adverse reaction caused by expectorant (disorder)
+219035003	Adverse reaction to anti-common cold drug
+219036002	Adverse reaction to antiasthmatic
+219050007	Adverse reaction to antipruritic
+219063001	Adverse reaction caused by lipotropic drugs
+219075006	Adverse reaction caused by bacterial vaccines (disorder)
+219076007	Adverse reaction caused by BCG vaccine
+219077003	Adverse reaction caused by typhoid and paratyphoid vaccines
+219079000	Adverse reaction caused by paratyphoid vaccine
+219082005	Adverse reaction caused by cholera vaccine
+219083000	Adverse reaction caused by plague vaccine
+219084006	Adverse reaction caused by tetanus vaccine (disorder)
+219085007	Adverse reaction caused by diphtheria vaccine (disorder)
+219088009	Adverse reaction caused by meningococcal vaccine (disorder)
+219094001	Adverse reaction caused by typhus vaccine
+219095000	Adverse reaction caused by yellow fever vaccine (disorder)
+219096004	Adverse reaction caused by measles vaccine (disorder)
+242060008	Adverse reaction caused by antipyretic (disorder)
+269722001	Adverse reaction caused by salicylate (disorder)
+269723006	Adverse reaction caused by antirheumatic (disorder)
+281647001	Adverse reaction
+282100009	Adverse reaction caused by substance (disorder)
+292038009	Adverse reaction caused by over the counter drug (disorder)
+292040004	Adverse reaction to analgesics
+292041000	Non-opioid analgesic adverse reaction (disorder)
+292042007	Adverse reaction caused by acetaminophen (disorder)
+292044008	Aspirin adverse reaction (disorder)
+292045009	Opioid analgesic adverse reaction (disorder)
+292046005	Adverse reaction to pentazocine
+292047001	Phenazocine adverse reaction (disorder)
+292048006	Methadone analog adverse reaction (disorder)
+292049003	Adverse reaction to dextromoramide
+292050003	Dextropropoxyphene adverse reaction (disorder)
+292051004	Adverse reaction to dipipanone
+292052006	Adverse reaction to methadone
+292053001	Morphinan opioid adverse reaction (disorder)
+292054007	Adverse reaction to buprenorphine
+292055008	Adverse reaction to codeine
+292056009	Adverse reaction to diamorphine
+292057000	Adverse reaction to dihydrocodeine
+292058005	Nalbuphine adverse reaction (disorder)
+292059002	Adverse reaction to morphine
+292060007	Opium alkaloid adverse reaction (disorder)
+292061006	Adverse reaction to pethidine
+292062004	Alfentanil adverse reaction (disorder)
+292063009	Fentanyl adverse reaction (disorder)
+292064003	Meperidine adverse reaction
+292065002	Phenoperidine adverse reaction (disorder)
+292066001	Meptazinol adverse reaction (disorder)
+292067005	Adverse reaction to levorphanol
+292069008	Acemetacin adverse reaction (disorder)
+292070009	Azapropazone adverse reaction (disorder)
+292071008	Diclofenac adverse reaction (disorder)
+292072001	Etodolac adverse reaction (disorder)
+292073006	Felbinac adverse reaction (disorder)
+292075004	Adverse reaction to fenoprofen
+292076003	Adverse reaction to flurbiprofen
+292078002	Adverse reaction to indomethacin
+292080008	Ketorolac adverse reaction (disorder)
+292082000	Nabumetone adverse reaction (disorder)
+292084004	Nefopam adverse reaction (disorder)
+292085003	Oxyphenbutazone adverse reaction (disorder)
+292086002	Phenylbutazone adverse reaction (disorder)
+292088001	Sulindac adverse reaction (disorder)
+292089009	Tenoxicam adverse reaction (disorder)
+292090000	Tiaprofenic acid adverse reaction (disorder)
+292091001	Tolmetin adverse reaction (disorder)
+292092008	Diagnostic agent adverse reaction (disorder)
+292093003	Tuberculin adverse reaction (disorder)
+292094009	Radiopharmaceutical adverse reaction (disorder)
+292095005	Contrast media adverse reaction (disorder)
+292096006	X-ray contrast media adverse reaction (disorder)
+292097002	MRI contrast media adverse reaction
+292098007	Allergen extract vaccine adverse reaction (disorder)
+292099004	Diagnostic dye adverse reaction (disorder)
+292100007	Drug groups primarily affecting gastrointestinal system adverse reaction
+292101006	Ulcer healing drug adverse reaction (disorder)
+292102004	Bismuth chelate adverse reaction (disorder)
+292103009	Sucralfate adverse reaction (disorder)
+292104003	Liquorice adverse reaction (disorder)
+292105002	Misoprostol adverse reaction (disorder)
+292106001	H2 receptor antagonist adverse reaction (disorder)
+292107005	Cimetidine adverse reaction (disorder)
+292108000	Famotidine adverse reaction (disorder)
+292109008	Nizatidine adverse reaction (disorder)
+292110003	Ranitidine adverse reaction (disorder)
+292111004	Proton pump inhibitor adverse reaction (disorder)
+292112006	Omeprazole adverse reaction (disorder)
+292113001	Lansoprazole adverse reaction (disorder)
+292114007	Carbenoxolone adverse reaction (disorder)
+292115008	Pirenzepine adverse reaction (disorder)
+292118005	Mesalamine adverse reaction
+292120008	Olsalazine adverse reaction (disorder)
+292121007	Sulfasalazine adverse reaction (disorder)
+292122000	Antacid adverse reaction (disorder)
+292123005	Magnesium trisilicate adverse reaction (disorder)
+292124004	Aluminum hydroxide adverse reaction (disorder)
+292125003	Antidiarrheal drug adverse reaction (disorder)
+292126002	Loperamide adverse reaction (disorder)
+292127006	Kaolin adverse reaction (disorder)
+292128001	Motility stimulant adverse reaction (disorder)
+292129009	Cisapride adverse reaction (disorder)
+292130004	Antiemetic adverse reaction (disorder)
+292131000	Nabilone adverse reaction (disorder)
+292132007	Domperidone adverse reaction (disorder)
+292133002	Adverse reaction to metoclopramide
+292134008	5-Hydroxytryptamine-3-receptor antagonist adverse reaction
+292135009	Laxative adverse reaction (disorder)
+292136005	Bisacodyl adverse reaction (disorder)
+292137001	Dantron adverse reaction
+292138006	Sodium picosulfate adverse reaction (disorder)
+292139003	Lactulose adverse reaction (disorder)
+292140001	Magnesium sulfate adverse reaction (disorder)
+292141002	Bulk-forming laxative adverse reaction (disorder)
+292142009	Anthraquinone laxative adverse reaction (disorder)
+292143004	Cascara adverse reaction (disorder)
+292144005	Senna adverse reaction (disorder)
+292145006	Docusate adverse reaction (disorder)
+292146007	Antispasmodic adverse reaction (disorder)
+292147003	Hyoscine butylbromide adverse reaction (disorder)
+292148008	Peppermint oil adverse reaction (disorder)
+292149000	Alverine adverse reaction (disorder)
+292150000	Adverse reaction to mebeverine
+292151001	Dicycloverine adverse reaction
+292152008	Mepenzolate adverse reaction (disorder)
+292153003	Pipenzolate adverse reaction (disorder)
+292154009	Poldine adverse reaction (disorder)
+292155005	Propantheline adverse reaction (disorder)
+292156006	Bile agent adverse reaction (disorder)
+292157002	Chenodeoxycholic acid adverse reaction (disorder)
+292158007	Dehydrocholic acid adverse reaction (disorder)
+292159004	Ursodeoxycholic acid adverse reaction (disorder)
+292160009	Chenodeoxycholic and ursodeoxycholic acid adverse reaction (disorder)
+292161008	Anesthetics and medical gases adverse reaction (disorder)
+292162001	Adverse reaction to general anesthetic
+292163006	Adverse reaction to intravenous anesthetic
+292164000	Adverse reaction to etomidate
+292165004	Adverse reaction to ketamine
+292166003	Adverse reaction to propofol
+292167007	Thiopental adverse reaction
+292168002	Adverse reaction to methohexitone sodium
+292169005	Adverse reaction to gaseous anesthetic
+292170006	Adverse reaction to enflurane
+292171005	Adverse reaction to ether
+292172003	Adverse reaction to halothane
+292173008	Adverse reaction to isoflurane
+292174002	Adverse reaction to trichloroethylene
+292175001	Desflurane adverse reaction (disorder)
+292176000	Local anesthetic drug adverse reaction (disorder)
+292177009	Adverse reaction to bupivacaine hydrochloride
+292178004	Cinchocaine adverse reaction (disorder)
+292179007	Prilocaine adverse reaction (disorder)
+292180005	Lidocaine adverse reaction
+292181009	Adverse reaction to cocaine
+292182002	Benzocaine adverse reaction (disorder)
+292184001	Oxybuprocaine adverse reaction (disorder)
+292185000	Procaine adverse reaction (disorder)
+292186004	Proxymetacaine adverse reaction (disorder)
+292188003	Immunostimulant adverse reaction (disorder)
+292189006	Amifostine adverse reaction (disorder)
+292190002	Aldesleukin adverse reaction (disorder)
+292191003	Colony stimulating factors adverse reaction (disorder)
+292192005	Molgramostim adverse reaction (disorder)
+292193000	Lenograstim adverse reaction (disorder)
+292194006	Filgrastim adverse reaction (disorder)
+292195007	Levamisole adverse reaction (disorder)
+292196008	Antineoplastic adverse reaction (disorder)
+292197004	Alkylating drug adverse reaction (disorder)
+292198009	Mitobronitol adverse reaction (disorder)
+292199001	Adverse reaction to busulfan
+292200003	Adverse reaction to treosulfan
+292201004	Adverse reaction to thiotepa
+292202006	Nitrogen mustard derivative adverse reaction (disorder)
+292203001	Adverse reaction to chlorambucil
+292204007	Adverse reaction to cyclophosphamide
+292205008	Ethoglucid adverse reaction (disorder)
+292206009	Ifosfamide adverse reaction (disorder)
+292207000	Adverse reaction to melphalan
+292208005	Adverse reaction to estramustine phosphate
+292209002	Mechlorethamine adverse reaction
+292210007	Nitrosurea adverse reaction (disorder)
+292212004	Adverse reaction to carmustine
+292213009	Adverse reaction to lomustine
+292214003	Triazene antineoplastic adverse reaction (disorder)
+292215002	Dacarbazine adverse reaction (disorder)
+292216001	Cytotoxic antibiotic adverse reaction (disorder)
+292217005	Dactinomycin adverse reaction (disorder)
+292218000	Adverse reaction to bleomycin
+292220002	Adverse reaction to mitomycin
+292221003	Adverse reaction to plicamycin
+292222005	Aclarubicin adverse reaction (disorder)
+292223000	Adverse reaction to mitoxantrone
+292224006	Doxorubicin adverse reaction (disorder)
+292225007	Epirubicin adverse reaction (disorder)
+292226008	Idarubicin adverse reaction (disorder)
+292227004	Antimetabolite adverse reaction (disorder)
+292228009	Mercuric oxide adverse reaction (disorder)
+292229001	Adverse reaction to methotrexate
+292230006	Adverse reaction to mercaptopurine
+292231005	Tioguanine adverse reaction
+292232003	Pentostatin adverse reaction (disorder)
+292233008	Adverse reaction to cytarabine
+292234002	Adverse reaction to fluorouracil
+292235001	Adverse reaction to etoposide
+292236000	Amsacrine adverse reaction (disorder)
+292237009	Adverse reaction to carboplatin
+292238004	Adverse reaction to cisplatin
+292239007	Hydroxycarbamide adverse reaction
+292240009	Adverse reaction to procarbazine
+292241008	Adverse reaction to razoxane
+292242001	Crisantaspase adverse reaction (disorder)
+292243006	Paclitaxel adverse reaction (disorder)
+292244000	Fludarabine adverse reaction (disorder)
+292245004	Aminoglutethimide adverse reaction (disorder)
+292246003	Estrogen antagonist adverse reaction (disorder)
+292247007	Trilostane adverse reaction (disorder)
+292248002	Adverse reaction to tamoxifen
+292249005	Formestane adverse reaction (disorder)
+292250005	Vinca alkaloid adverse reaction (disorder)
+292251009	Vinblastine adverse reaction (disorder)
+292252002	Vincristine adverse reaction (disorder)
+292253007	Vindesine adverse reaction (disorder)
+292254001	Dimethyl sulfoxide adverse reaction (disorder)
+292255000	Immunosuppressant adverse reaction (disorder)
+292256004	Adverse reaction to ciclosporin
+292257008	Azathioprine adverse reaction (disorder)
+292258003	Drug groups primarily affecting central nervous system adverse reaction
+292259006	Centrally acting appetite suppressant adverse reaction (disorder)
+292260001	Mazindol adverse reaction (disorder)
+292261002	Phentermine adverse reaction (disorder)
+292262009	Dexfenfluramine adverse reaction (disorder)
+292263004	Diethylpropion adverse reaction (disorder)
+292264005	Fenfluramine adverse reaction (disorder)
+292265006	Dopaminergic drug used in parkinsonism adverse reaction (disorder)
+292266007	Adverse reaction to levodopa, L-dopa
+292267003	Benserazide + levodopa adverse reaction (disorder)
+292268008	Carbidopa + levodopa adverse reaction (disorder)
+292269000	Amantadine adverse reaction (disorder)
+292270004	Apomorphine adverse reaction (disorder)
+292272007	Lisuride adverse reaction
+292273002	Pergolide adverse reaction (disorder)
+292274008	Bromocriptine adverse reaction (disorder)
+292275009	Adverse reaction to antidepressant
+292276005	Lithium adverse reaction (disorder)
+292277001	Lithium carbonate adverse reaction (disorder)
+292278006	Lithium citrate adverse reaction (disorder)
+292279003	Tricyclic antidepressant drug adverse reaction (disorder)
+292280000	Adverse reaction to butriptyline
+292281001	Adverse reaction to doxepin
+292282008	Iprindole adverse reaction (disorder)
+292283003	Adverse reaction to lofepramine
+292284009	Adverse reaction to nortriptyline
+292285005	Adverse reaction to trimipramine
+292286006	Amoxapine adverse reaction (disorder)
+292287002	Amitriptyline adverse reaction (disorder)
+292288007	Adverse reaction to clomipramine
+292289004	Adverse reaction to desipramine
+292290008	Dosulepin adverse reaction
+292291007	Adverse reaction to imipramine
+292292000	Adverse reaction to protriptyline
+292293005	Monoamine oxidase inhibitor adverse reaction (disorder)
+292294004	Adverse reaction to phenelzine
+292295003	Iproniazid adverse reaction (disorder)
+292296002	Adverse reaction to isocarboxazid
+292297006	Adverse reaction to tranylcypromine
+292298001	Moclobemide adverse reaction (disorder)
+292299009	Compound antidepressants adverse reaction (disorder)
+292300001	Adverse reaction to tryptophan
+292301002	Venlafaxine adverse reaction (disorder)
+292302009	Selective serotonin re-uptake inhibitor adverse reaction (disorder)
+292303004	Sertraline adverse reaction (disorder)
+292304005	Paroxetine adverse reaction (disorder)
+292305006	Nefazodone adverse reaction (disorder)
+292306007	Citalopram adverse reaction (disorder)
+292307003	Fluoxetine adverse reaction (disorder)
+292308008	Fluvoxamine adverse reaction (disorder)
+292309000	Tetracyclic antidepressant drug adverse reaction (disorder)
+292310005	Adverse reaction to maprotiline
+292311009	Adverse reaction to mianserin
+292312002	Trazodone adverse reaction (disorder)
+292313007	Viloxazine adverse reaction (disorder)
+292314001	Antiepileptic adverse reaction (disorder)
+292315000	Adverse reaction to beclamide
+292316004	Lamotrigine adverse reaction (disorder)
+292317008	Piracetam adverse reaction (disorder)
+292318003	Gabapentin adverse reaction (disorder)
+292319006	Adverse reaction to sodium valproate
+292320000	Barbiturate antiepileptic adverse reaction (disorder)
+292322008	Methylphenobarbital adverse reaction
+292323003	Adverse reaction to phenobarbital
+292324009	Adverse reaction to primidone
+292325005	Adverse reaction to carbamazepine
+292326006	Vigabatrin adverse reaction (disorder)
+292327002	Adverse reaction to phenytoin
+292328007	Adverse reaction to ethosuximide
+292329004	Adverse reaction to clonazepam
+292331008	Sedative adverse reaction (disorder)
+292332001	Zopiclone adverse reaction (disorder)
+292333006	Zolpidem adverse reaction (disorder)
+292334000	Adverse reaction to chlormezanone
+292335004	Adverse reaction to methyprylon
+292336003	Adverse reaction to paraldehyde
+292337007	Barbiturate sedative adverse reaction (disorder)
+292338002	Adverse reaction to amobarbital
+292339005	Adverse reaction to butobarbital
+292340007	Cyclobarbitone adverse reaction (disorder)
+292341006	Amobarbital sodium adverse reaction
+292342004	Adverse reaction to secobarbital
+292343009	Adverse reaction to benzodiazepine-based tranquillizer
+292344003	Flunitrazepam adverse reaction (disorder)
+292345002	Adverse reaction to flurazepam
+292346001	Loprazolam adverse reaction (disorder)
+292347005	Lormetazepam adverse reaction (disorder)
+292348000	Adverse reaction to nitrazepam
+292349008	Adverse reaction to triazolam
+292350008	Alprazolam adverse reaction (disorder)
+292351007	Bromazepam adverse reaction (disorder)
+292352000	Adverse reaction to chlordiazepoxide
+292353005	Adverse reaction to clobazam
+292354004	Dipotassium clorazepate adverse reaction
+292355003	Adverse reaction to ketazolam
+292356002	Adverse reaction to medazepam
+292357006	Adverse reaction to oxazepam
+292358001	Prazepam adverse reaction (disorder)
+292359009	Midazolam adverse reaction (disorder)
+292360004	Adverse reaction to diazepam
+292361000	Adverse reaction to lorazepam
+292362007	Adverse reaction to temazepam
+292363002	Carbamate sedative adverse reaction (disorder)
+292364008	Adverse reaction to meprobamate
+292365009	Chloral sedative adverse reaction (disorder)
+292366005	Adverse reaction to chloral hydrate
+292367001	Adverse reaction to dichloralphenazone
+292368006	Triclofos sodium adverse reaction (disorder)
+292369003	Buspirone adverse reaction (disorder)
+292370002	Clomethiazole adverse reaction
+292371003	Neuroleptic adverse reaction (disorder)
+292372005	Sulpiride adverse reaction (disorder)
+292373000	Loxapine adverse reaction (disorder)
+292374006	Clozapine adverse reaction (disorder)
+292375007	Risperidone adverse reaction (disorder)
+292376008	Adverse reaction to tetrabenazine
+292377004	Butyrophenone adverse reaction (disorder)
+292378009	Benperidol adverse reaction (disorder)
+292379001	Adverse reaction to trifluperidol
+292380003	Haloperidol decanoate adverse reaction (disorder)
+292381004	Droperidol adverse reaction (disorder)
+292382006	Adverse reaction to haloperidol
+292383001	Diphenylbutylpiperidine adverse reaction (disorder)
+292384007	Pimozide adverse reaction (disorder)
+292385008	Fluspirilene adverse reaction (disorder)
+292386009	Phenothiazine adverse reaction (disorder)
+292387000	Levomepromazine adverse reaction
+292388005	Adverse reaction to pericyazine
+292389002	Fluphenazine decanoate adverse reaction (disorder)
+292390006	Fluphenazine enanthate adverse reaction (disorder)
+292391005	Thiethylperazine adverse reaction (disorder)
+292392003	Adverse reaction to fluphenazine
+292393008	Adverse reaction to chlorpromazine
+292394002	Pipotiazine adverse reaction
+292395001	Adverse reaction to promazine
+292396000	Adverse reaction to thioridazine
+292397009	Adverse reaction to perphenazine
+292398004	Adverse reaction to prochlorperazine
+292399007	Trifluoperazine adverse reaction (disorder)
+292400000	Thioxanthene adverse reaction (disorder)
+292401001	Chlorprothixene adverse reaction (disorder)
+292402008	Flupentixol decanoate adverse reaction
+292403003	Zuclopenthixol decanoate adverse reaction (disorder)
+292404009	Zuclopenthixol adverse reaction (disorder)
+292405005	Adverse reaction to flupentixol
+292406006	Adverse reaction to oxypertine
+292407002	Remoxipride adverse reaction (disorder)
+292408007	Decarboxylase inhibitor adverse reaction (disorder)
+292409004	Adverse reaction to selegiline
+292410009	Adverse reaction to central nervous system stimulant
+292411008	Adverse reaction to pemoline
+292412001	Methylphenidate adverse reaction (disorder)
+292413006	Prolintane adverse reaction (disorder)
+292414000	Amfetamine group adverse reaction
+292415004	Dexamfetamine adverse reaction
+292416003	Alcohol metabolism modifier adverse reaction (disorder)
+292417007	Disulfiram adverse reaction (disorder)
+292418002	Drug groups primarily affecting autonomic nervous system adverse reaction
+292419005	Adverse reaction to beta-blockers
+292420004	Cardioselective beta-blocker adverse reaction (disorder)
+292421000	Adverse reaction to acebutolol
+292424008	Betaxolol adverse reaction (disorder)
+292425009	Bisoprolol adverse reaction (disorder)
+292426005	Celiprolol adverse reaction (disorder)
+292427001	Esmolol adverse reaction (disorder)
+292428006	Adverse reaction to metoprolol
+292429003	Non-cardioselective beta-blocker adverse reaction (disorder)
+292430008	Adverse reaction to nadolol
+292431007	Pindolol adverse reaction (disorder)
+292432000	Carvedilol adverse reaction (disorder)
+292433005	Metipranolol adverse reaction (disorder)
+292434004	Carteolol adverse reaction (disorder)
+292435003	Adverse reaction to labetalol
+292436002	Levobunolol adverse reaction (disorder)
+292437006	Adverse reaction to oxprenolol
+292438001	Penbutolol adverse reaction (disorder)
+292439009	Adverse reaction to practolol
+292440006	Propranolol adverse reaction (disorder)
+292441005	Adverse reaction to sotalol
+292442003	Adverse reaction to timolol
+292443008	Alpha-adrenoceptor blocking drug adverse reaction (disorder)
+292444002	Alfuzosin adverse reaction (disorder)
+292445001	Doxazosin adverse reaction (disorder)
+292446000	Indoramin adverse reaction (disorder)
+292447009	Adverse reaction to phenoxybenzamine
+292448004	Adverse reaction to phentolamine
+292449007	Prazosin adverse reaction (disorder)
+292450007	Terazosin adverse reaction (disorder)
+292451006	Nicotine adverse reaction (disorder)
+292452004	Calcium-channel blocker adverse reaction (disorder)
+292453009	Lidoflazine adverse reaction (disorder)
+292454003	Nifedipine adverse reaction (disorder)
+292455002	Prenylamine adverse reaction (disorder)
+292456001	Isradipine adverse reaction (disorder)
+292457005	Felodipine adverse reaction (disorder)
+292458000	Lacidipine adverse reaction (disorder)
+292459008	Nimodipine adverse reaction (disorder)
+292460003	Amlodipine adverse reaction (disorder)
+292461004	Diltiazem adverse reaction (disorder)
+292462006	Nicardipine adverse reaction (disorder)
+292463001	Verapamil adverse reaction (disorder)
+292465008	Adverse reaction to parasympathomimetic
+292466009	Adverse reaction to pilocarpine
+292467000	Acetylcholine chloride adverse reaction (disorder)
+292468005	Methacholine adverse reaction (disorder)
+292469002	Adverse reaction to anticholinesterase
+292470001	Physostigmine adverse reaction (disorder)
+292471002	Demecarium adverse reaction (disorder)
+292472009	Adverse reaction to distigmine
+292473004	Ecothiopate adverse reaction (disorder)
+292474005	Adverse reaction to edrophonium
+292475006	Adverse reaction to pyridostigmine
+292476007	Adverse reaction to neostigmine
+292477003	Bethanechol adverse reaction (disorder)
+292478008	Carbachol adverse reaction (disorder)
+292479000	Adverse reaction to sympathomimetic
+292480002	Isoetharine hydrochloride adverse reaction (disorder)
+292481003	Phenylpropanolamine hydrochloride adverse reaction (disorder)
+292482005	Pseudoephedrine adverse reaction (disorder)
+292483000	Alpha-adrenoceptor agonist adverse reaction (disorder)
+292484006	Oxedrine tartrate adverse reaction (disorder)
+292485007	Adverse reaction to metaraminol
+292486008	Methoxamine adverse reaction (disorder)
+292487004	Naphazoline adverse reaction (disorder)
+292488009	Norepinephrine adverse reaction (disorder)
+292489001	Phenylephrine adverse reaction (disorder)
+292490005	Xylometazoline adverse reaction (disorder)
+292491009	Beta-adrenoceptor agonist adverse reaction (disorder)
+292492002	Selective beta-2 adrenoceptor stimulants adverse reaction (disorder)
+292493007	Pirbuterol adverse reaction (disorder)
+292494001	Salmeterol adverse reaction (disorder)
+292495000	Adverse reaction to salbutamol
+292496004	Bambuterol adverse reaction (disorder)
+292497008	Fenoterol adverse reaction (disorder)
+292498003	Adverse reaction to orciprenaline
+292499006	Reproterol adverse reaction (disorder)
+292500002	Rimiterol adverse reaction (disorder)
+292501003	Ritodrine adverse reaction (disorder)
+292502005	Terbutaline adverse reaction (disorder)
+292503000	Tulobuterol adverse reaction (disorder)
+292504006	Selective beta-1 adrenoceptor stimulants adverse reaction (disorder)
+292505007	Dobutamine adverse reaction (disorder)
+292506008	Dopexamine adverse reaction (disorder)
+292507004	Adverse reaction to isoprenaline
+292508009	Oral isoprenaline adverse reaction (disorder)
+292509001	Inhaled isoprenaline adverse reaction (disorder)
+292510006	Parenteral isoprenaline adverse reaction (disorder)
+292511005	Central alpha-adrenoceptor agonist adverse reaction (disorder)
+292512003	Methyldopa adverse reaction (disorder)
+292513008	Methyldopa and diuretic adverse reaction (disorder)
+292514002	Apraclonidine adverse reaction (disorder)
+292515001	Clonidine adverse reaction (disorder)
+292516000	Lofexidine adverse reaction (disorder)
+292517009	Dipivefrine adverse reaction (disorder)
+292518004	Dopamine adverse reaction (disorder)
+292519007	Adverse reaction to ephedrine
+292520001	Oxymetazoline adverse reaction (disorder)
+292521002	Xamoterol adverse reaction (disorder)
+292522009	Anticholinergic adverse reaction (disorder)
+292523004	Antimuscarinic adverse reaction (disorder)
+292525006	Belladonna alkaloids adverse reaction (disorder)
+292526007	Piperidolate hydrochloride adverse reaction (disorder)
+292527003	Adverse reaction to biperiden
+292528008	Emepronium bromide adverse reaction (disorder)
+292529000	Terodiline hydrochloride adverse reaction (disorder)
+292530005	Lachesine chloride adverse reaction (disorder)
+292531009	Tropicamide adverse reaction (disorder)
+292532002	Adverse reaction to hyoscine
+292533007	Hyoscine hydrobromide adverse reaction (disorder)
+292534001	Atropine adverse reaction (disorder)
+292535000	Trihexyphenidyl adverse reaction
+292536004	Adverse reaction to benzatropine
+292537008	Cyclopentolate adverse reaction (disorder)
+292538003	Glycopyrronium adverse reaction (disorder)
+292539006	Adverse reaction to homatropine
+292540008	Adverse reaction to ipratropium
+292541007	Adverse reaction to methixene
+292542000	Adverse reaction to orphenadrine
+292543005	Orphenadrine hydrochloride adverse reaction (disorder)
+292544004	Orphenadrine citrate adverse reaction (disorder)
+292545003	Adverse reaction to oxitropium
+292546002	Oxybutynin adverse reaction (disorder)
+292547006	Procyclidine adverse reaction (disorder)
+292548001	Drug groups primarily affecting respiratory system adverse reaction
+292549009	Dornase alfa adverse reaction (disorder)
+292550009	Mucolytics adverse reaction (disorder)
+292551008	Tyloxapol adverse reaction (disorder)
+292552001	Bromhexine hydrochloride adverse reaction (disorder)
+292553006	Carbocisteine adverse reaction (disorder)
+292554000	Methylcysteine adverse reaction (disorder)
+292555004	Acetylcysteine adverse reaction (disorder)
+292556003	Respiratory stimulant adverse reaction (disorder)
+292557007	Adverse reaction to nikethamide
+292558002	Adverse reaction to ethamivan
+292559005	Adverse reaction to doxapram
+292560000	Respiratory surfactant adverse reaction (disorder)
+292561001	Beractant adverse reaction (disorder)
+292562008	Phospholipid fraction adverse reaction (disorder)
+292563003	Pumactant adverse reaction (disorder)
+292564009	Colfosceril adverse reaction (disorder)
+292565005	Antiallergenic drug adverse reaction (disorder)
+292566006	Topical antihistamine adverse reaction (disorder)
+292567002	H1 antihistamine adverse reaction (disorder)
+292569004	Astemizole adverse reaction (disorder)
+292570003	Terfenadine adverse reaction (disorder)
+292571004	Acrivastine adverse reaction (disorder)
+292572006	Loratadine adverse reaction (disorder)
+292573001	Azelastine adverse reaction (disorder)
+292574007	Cetirizine adverse reaction (disorder)
+292576009	Clemastine adverse reaction (disorder)
+292577000	Mebhydrolin adverse reaction (disorder)
+292578005	Mequitazine adverse reaction (disorder)
+292579002	Oxatomide adverse reaction (disorder)
+292580004	Cyclizine adverse reaction (disorder)
+292581000	Dimenhydrinate adverse reaction (disorder)
+292582007	Meclozine hydrochloride adverse reaction (disorder)
+292583002	Antazoline adverse reaction (disorder)
+292584008	Promethazine adverse reaction (disorder)
+292585009	Azatadine adverse reaction (disorder)
+292586005	Brompheniramine adverse reaction (disorder)
+292587001	Chlorphenamine adverse reaction
+292588006	Cinnarizine adverse reaction (disorder)
+292589003	Cyproheptadine adverse reaction (disorder)
+292590007	Dimetindene adverse reaction
+292591006	Diphenhydramine adverse reaction (disorder)
+292592004	Adverse reaction to diphenylpyraline
+292593009	Adverse reaction to hydroxyzine
+292594003	Mepyramine adverse reaction (disorder)
+292595002	Phenindamine adverse reaction (disorder)
+292596001	Pheniramine adverse reaction (disorder)
+292597005	Triprolidine adverse reaction (disorder)
+292598000	Alimemazine adverse reaction
+292599008	Cromoglicate and related antiallergenic adverse reaction
+292600006	Nedocromil adverse reaction (disorder)
+292601005	Sodium cromoglicate adverse reaction
+292602003	Ketotifen adverse reaction (disorder)
+292603008	Lodoxamide adverse reaction (disorder)
+292604002	Cough/decongestant preparation adverse reaction (disorder)
+292605001	Cough suppressant adverse reaction (disorder)
+292606000	Isoaminile adverse reaction (disorder)
+292608004	Adverse reaction to dextromethorphan
+292609007	Noscapine adverse reaction (disorder)
+292610002	Pholcodine adverse reaction (disorder)
+292611003	Compound cough suppressant adverse reaction (disorder)
+292614006	Xanthine adverse reaction (disorder)
+292615007	Aminophylline adverse reaction (disorder)
+292616008	Choline theophyllinate adverse reaction (disorder)
+292617004	Adverse reaction to theophylline
+292618009	Bronchodilator preparations adverse reaction (disorder)
+292619001	Adverse reaction caused by inhaled corticosteroids (disorder)
+292620007	Drug groups and agents primarily acting on skin adverse reaction
+292621006	Topical dermatological preparation adverse reaction (disorder)
+292622004	Urea creams adverse reaction (disorder)
+292623009	Emollient bath additives adverse reaction (disorder)
+292624003	Dusting powders adverse reaction (disorder)
+292626001	Calamine adverse reaction (disorder)
+292627005	Coal tar adverse reaction (disorder)
+292628000	Coal tar scalp preparations adverse reaction (disorder)
+292629008	Coal tar bath preparations adverse reaction (disorder)
+292630003	Bufexamac adverse reaction (disorder)
+292631004	Dithranol adverse reaction (disorder)
+292632006	Dithranol ointment adverse reaction (disorder)
+292633001	Dithranol cream adverse reaction (disorder)
+292634007	Dithranol paste adverse reaction (disorder)
+292635008	Ichthammol adverse reaction (disorder)
+292636009	Calcipotriol adverse reaction (disorder)
+292637000	Sulfur adverse reaction (disorder)
+292638005	Azelaic acid adverse reaction (disorder)
+292639002	Bromine complexes adverse reaction (disorder)
+292640000	Podophyllum resin adverse reaction (disorder)
+292641001	Podophyllotoxin adverse reaction (disorder)
+292642008	Sunscreening preparations adverse reaction (disorder)
+292643003	Camouflaging preparations adverse reaction (disorder)
+292644009	Benzoic acid adverse reaction (disorder)
+292645005	Desloughing agents adverse reaction (disorder)
+292646006	Aserbine adverse reaction (disorder)
+292647002	Surgical tissue adhesive adverse reaction (disorder)
+292648007	Enbucrilate adverse reaction (disorder)
+292649004	Collodion adverse reaction (disorder)
+292650004	Counter irritants adverse reaction (disorder)
+292651000	Adverse reaction to emollient
+292652007	Poultices adverse reaction (disorder)
+292653002	Anionic surfactant adverse reaction (disorder)
+292654008	Alkali metal soap adverse reaction (disorder)
+292655009	Astringent adverse reaction (disorder)
+292656005	Aluminum astringent adverse reaction (disorder)
+292657001	Topical selenium adverse reaction (disorder)
+292658006	Crotamiton adverse reaction (disorder)
+292659003	Topical salicylic acid adverse reaction (disorder)
+292660008	Topical abrasive agent adverse reaction (disorder)
+292661007	Benzoyl peroxide adverse reaction (disorder)
+292662000	Silver nitrate adverse reaction (disorder)
+292663005	Oral dermatological agent adverse reaction (disorder)
+292664004	Gamolenic acid adverse reaction (disorder)
+292665003	Retinoid adverse reaction (disorder)
+292666002	Etretinate adverse reaction (disorder)
+292667006	Acitretin adverse reaction (disorder)
+292668001	Tretinoin adverse reaction (disorder)
+292669009	Isotretinoin adverse reaction (disorder)
+292670005	Drug groups primarily affecting musculoskeletal system adverse reaction
+292671009	Drug for the treatment of gout adverse reaction (disorder)
+292672002	Colchicum alkaloid adverse reaction (disorder)
+292673007	Colchicine adverse reaction (disorder)
+292675000	Uricosuric agent adverse reaction (disorder)
+292676004	Probenecid adverse reaction (disorder)
+292677008	Sulfinpyrazone adverse reaction (disorder)
+292678003	Xanthine oxidase inhibitor adverse reaction (disorder)
+292679006	Allopurinol adverse reaction (disorder)
+292681008	Neuromuscular transmission drug adverse reaction (disorder)
+292682001	Depolarizing muscle relaxant adverse reaction (disorder)
+292684000	Non-depolarizing muscle relaxant adverse reaction (disorder)
+292685004	Mivacurium adverse reaction (disorder)
+292686003	Alcuronium adverse reaction (disorder)
+292687007	Atracurium adverse reaction (disorder)
+292688002	Adverse reaction to gallamine
+292689005	Pancuronium adverse reaction (disorder)
+292690001	Adverse reaction to tubocurarine
+292691002	Vecuronium adverse reaction (disorder)
+292692009	Rocuronium adverse reaction (disorder)
+292693004	Baclofen adverse reaction (disorder)
+292694005	Carisoprodol adverse reaction (disorder)
+292695006	Methocarbamol adverse reaction (disorder)
+292696007	Dantrolene adverse reaction (disorder)
+292697003	Gold adverse reaction (disorder)
+292699000	Auranofin adverse reaction (disorder)
+292700004	Adverse reaction to smooth muscle relaxants
+292701000	Papaverine adverse reaction (disorder)
+292702007	Flavoxate adverse reaction (disorder)
+292704008	Mifepristone adverse reaction (disorder)
+292705009	Non-ionic surfactant adverse reaction (disorder)
+292706005	Nonoxinol adverse reaction (disorder)
+292707001	Octoxinol adverse reaction (disorder)
+292708006	p-di-Isobutylphenoxypolyethoxyethanol adverse reaction
+292709003	Adverse reaction to prostaglandins
+292710008	A series prostaglandin adverse reaction (disorder)
+292711007	E series prostaglandin adverse reaction (disorder)
+292712000	Dinoprostone adverse reaction (disorder)
+292713005	Gemeprost adverse reaction (disorder)
+292714004	Alprostadil adverse reaction (disorder)
+292716002	F series prostaglandin adverse reaction (disorder)
+292717006	Dinoprost adverse reaction (disorder)
+292718001	Carboprost adverse reaction (disorder)
+292719009	I series prostaglandin adverse reaction (disorder)
+292720003	Epoprostenol adverse reaction (disorder)
+292721004	Terpenes adverse reaction (disorder)
+292722006	Chelating agents and antidotes adverse reaction (disorder)
+292723001	Antidote adverse reaction (disorder)
+292724007	Adverse reaction to ipecacuanha
+292725008	Charcoal activated adverse reaction (disorder)
+292726009	Sodium nitrite adverse reaction (disorder)
+292727000	Sodium thiosulfate adverse reaction (disorder)
+292729002	Digoxin specific antibody adverse reaction (disorder)
+292730007	Mesna adverse reaction (disorder)
+292731006	Benzodiazepine antagonist adverse reaction (disorder)
+292732004	Flumazenil adverse reaction (disorder)
+292733009	Cholinesterase reactivator adverse reaction (disorder)
+292734003	Pralidoxime adverse reaction (disorder)
+292735002	Hydrofluoric acid burn antidote adverse reaction (disorder)
+292736001	Adverse reaction to opiate antagonist
+292737005	Naltrexone adverse reaction (disorder)
+292738000	Adverse reaction to naloxone
+292739008	Adverse reaction to protamine sulfate
+292740005	Antidotes for pesticides adverse reaction (disorder)
+292741009	Fullers earth powder adverse reaction (disorder)
+292742002	Bentonite powder adverse reaction (disorder)
+292743007	Chelating agent adverse reaction (disorder)
+292744001	Dimercaprol adverse reaction (disorder)
+292745000	Desferrioxamine adverse reaction (disorder)
+292746004	Edetate adverse reaction (disorder)
+292747008	Dicobalt edetate adverse reaction (disorder)
+292748003	Sodium calcium edetate adverse reaction (disorder)
+292749006	Trisodium edetate adverse reaction (disorder)
+292750006	Disodium edetate adverse reaction (disorder)
+292751005	Trientine adverse reaction (disorder)
+292752003	Adverse reaction to penicillamine
+292754002	Homeopathic medicine adverse reaction
+292756000	Herbal medicine adverse reaction (disorder)
+292758004	Sodium hyaluronate adverse reaction (disorder)
+292759007	Glycine adverse reaction (disorder)
+292760002	Dialysis fluid adverse reaction (disorder)
+292761003	Peritoneal dialysis solution adverse reaction (disorder)
+292762005	Hemodialysis fluid adverse reaction (disorder)
+292763000	Hemofiltration solution adverse reaction (disorder)
+292764006	Cardioplegia solution adverse reaction (disorder)
+292766008	Dimethyl-ether propane adverse reaction (disorder)
+292767004	Circulatory topical preparations adverse reaction (disorder)
+292768009	Citrate adverse reaction (disorder)
+292769001	Hemorrhoid preparation adverse reaction (disorder)
+292770000	Sucrose adverse reaction (disorder)
+292771001	Ear wax removal preparation adverse reaction (disorder)
+292772008	Topical zinc adverse reaction (disorder)
+292774009	Fixed oil adverse reaction (disorder)
+292775005	Olive oil adverse reaction (disorder)
+292776006	Arachis oil adverse reaction (disorder)
+292777002	Castor oil adverse reaction (disorder)
+292778007	Glycerol/glycol/macrogol adverse reaction (disorder)
+292779004	Glycerol adverse reaction (disorder)
+292780001	Lubricant adverse reaction (disorder)
+292781002	Base adverse reaction (disorder)
+292783004	Paraffin adverse reaction (disorder)
+292784005	Paraffin-yellow soft adverse reaction (disorder)
+292785006	Paraffin-white soft adverse reaction (disorder)
+292786007	Liquid paraffin adverse reaction (disorder)
+292787003	Silicone adverse reaction (disorder)
+292788008	Dimethicone adverse reaction (disorder)
+292789000	Wool alcohol adverse reaction (disorder)
+292790009	Viscosity modifier adverse reaction (disorder)
+292791008	Polyvinyl alcohol adverse reaction (disorder)
+292792001	Carbomer-940 adverse reaction (disorder)
+292793006	Cellulose-derived viscosity modifier adverse reaction (disorder)
+292794000	Hydroxypropylmethylcellulose adverse reaction
+292795004	Hypromellose eye drops adverse reaction (disorder)
+292796003	Hydroxyethylcellulose adverse reaction (disorder)
+292798002	Carmellose adverse reaction (disorder)
+292799005	Anti-infectives adverse reaction (disorder)
+292800009	Adverse reaction to antifungal antibiotics
+292801008	Flucytosine adverse reaction (disorder)
+292802001	Terbinafine adverse reaction (disorder)
+292803006	Nitrophenol adverse reaction (disorder)
+292805004	Tolnaftate adverse reaction (disorder)
+292806003	Amorolfine adverse reaction (disorder)
+292808002	Adverse reaction to griseofulvin
+292809005	Amphotericin adverse reaction (disorder)
+292810000	Adverse reaction to natamycin
+292811001	Adverse reaction to nystatin
+292812008	Azole antifungal adverse reaction (disorder)
+292813003	Undecenoate adverse reaction
+292814009	Imidazole antifungal adverse reaction (disorder)
+292815005	Clotrimazole adverse reaction (disorder)
+292816006	Fenticonazole adverse reaction (disorder)
+292817002	Tioconazole adverse reaction (disorder)
+292818007	Econazole adverse reaction (disorder)
+292819004	Isoconazole adverse reaction (disorder)
+292820005	Sulconazole adverse reaction (disorder)
+292821009	Adverse reaction to ketoconazole
+292822002	Adverse reaction to miconazole
+292823007	Triazole antifungals adverse reaction (disorder)
+292824001	Fluconazole adverse reaction (disorder)
+292825000	Itraconazole adverse reaction (disorder)
+292826004	Adverse reaction to antiviral drugs
+292827008	Adverse reaction to inosine pranobex
+292828003	Adverse reaction to zidovudine
+292829006	Ganciclovir adverse reaction (disorder)
+292831002	Famciclovir adverse reaction (disorder)
+292832009	Didanosine adverse reaction (disorder)
+292833004	Zalcitabine adverse reaction (disorder)
+292834005	Valaciclovir adverse reaction (disorder)
+292835006	Interferons adverse reaction (disorder)
+292836007	Human interferon gamma-1b adverse reaction (disorder)
+292837003	Interferon-A-2a adverse reaction (disorder)
+292838008	Interferon-A-2b adverse reaction (disorder)
+292839000	Interferon-A-N1 adverse reaction (disorder)
+292840003	Ribavirin adverse reaction
+292841004	Trifluorothymidine adverse reaction (disorder)
+292842006	Foscarnet adverse reaction (disorder)
+292843001	Adverse reaction to vidarabine
+292844007	Aciclovir adverse reaction (disorder)
+292845008	Adverse reaction to idoxuridine
+292846009	Idoxuridine in dimethylsulfoxide adverse reaction (disorder)
+292847000	Adverse reaction to antimalarials
+292848005	Adverse reaction to pyrimethamine
+292849002	Aminoquinoline antimalarial adverse reaction (disorder)
+292850002	Amodiaquine adverse reaction (disorder)
+292851003	Adverse reaction to primaquine
+292852005	Mefloquine adverse reaction (disorder)
+292853000	Hydroxychloroquine adverse reaction (disorder)
+292854006	Adverse reaction to chloroquine
+292855007	Biguanide antimalarial adverse reaction (disorder)
+292856008	Adverse reaction to proguanil hydrochloride
+292857004	Cinchona antimalarial adverse reaction (disorder)
+292858009	Adverse reaction to quinine
+292859001	Halofantrine adverse reaction (disorder)
+292860006	Mepacrine adverse reaction (disorder)
+292861005	Lactobacill acidophil vaccine adverse reaction (disorder)
+292862003	Anti-infective nasal preparations adverse reaction (disorder)
+292863008	Disinfectants and cleansers adverse reaction (disorder)
+292864002	Acetic acid adverse reaction (disorder)
+292865001	Hydrargaphen adverse reaction
+292866000	Polynoxylin adverse reaction (disorder)
+292867009	Hexetidine adverse reaction (disorder)
+292868004	Sodium perborate adverse reaction (disorder)
+292869007	Chlorinated solutions adverse reaction (disorder)
+292870008	Potassium permanganate adverse reaction (disorder)
+292871007	Bismuth subnitrate and iodoform paste impregnated gauze adverse reaction (disorder)
+292872000	Phenolics adverse reaction (disorder)
+292873005	Thymol adverse reaction (disorder)
+292875003	Chloroxylenol adverse reaction (disorder)
+292876002	Hexachlorophene adverse reaction
+292877006	Triclosan adverse reaction (disorder)
+292878001	Phenol adverse reaction (disorder)
+292879009	Alcoholic disinfectant adverse reaction (disorder)
+292880007	Alcohol products adverse reaction (disorder)
+292881006	Industrial methylated spirit adverse reaction (disorder)
+292882004	Aldehyde disinfectant adverse reaction (disorder)
+292883009	Glutaraldehyde adverse reaction (disorder)
+292885002	Noxythiolin adverse reaction (disorder)
+292886001	Formaldehyde adverse reaction (disorder)
+292887005	Amidine disinfectant adverse reaction (disorder)
+292888000	Propamidine isethionate adverse reaction (disorder)
+292889008	Dibrompropamidine isethionate adverse reaction (disorder)
+292890004	Biguanide disinfectant adverse reaction (disorder)
+292891000	Chlorhexidine adverse reaction (disorder)
+292892007	Chlorhexidine hydrochloride and neomycin sulfate adverse reaction
+292893002	Borate adverse reaction (disorder)
+292894008	Boric acid adverse reaction (disorder)
+292895009	Cationic surfactant adverse reaction (disorder)
+292896005	Quaternary ammonium surfactant adverse reaction (disorder)
+292897001	Cetrimide adverse reaction (disorder)
+292898006	Benzalkonium adverse reaction (disorder)
+292899003	Domiphen adverse reaction (disorder)
+292900008	Quaternary pyridinium surfactant adverse reaction (disorder)
+292901007	Cetylpyridinium adverse reaction (disorder)
+292902000	Quaternary quinolinium surfactant adverse reaction (disorder)
+292903005	Dequalinium adverse reaction (disorder)
+292904004	Disinfectant dye adverse reaction (disorder)
+292905003	Acridine azo disinfectant dye adverse reaction (disorder)
+292906002	Triphenylmethane azo disinfectant dye adverse reaction (disorder)
+292907006	Crystal violet adverse reaction (disorder)
+292908001	Brilliant green adverse reaction (disorder)
+292909009	Hydrogen peroxide adverse reaction (disorder)
+292910004	Adverse reaction to antihelminthics
+292911000	Adverse reaction to piperazine
+292912007	Adverse reaction to pyrantel
+292913002	Adverse reaction to niclosamide
+292914008	Bephenium adverse reaction (disorder)
+292915009	Diethylcarbamazine adverse reaction (disorder)
+292916005	Benzimidazole anthelmintic adverse reaction (disorder)
+292917001	Adverse reaction to mebendazole
+292918006	Albendazole adverse reaction (disorder)
+292919003	Tiabendazole adverse reaction
+292920009	Antibacterial drug adverse reaction (disorder)
+292921008	Aminoglycosides adverse reaction (disorder)
+292922001	Adverse reaction to amikacin
+292923006	Adverse reaction to kanamycin
+292924000	Netilmicin adverse reaction (disorder)
+292925004	Adverse reaction to streptomycin
+292927007	Adverse reaction to neomycin
+292929005	Adverse reaction to tobramycin
+292930000	Adverse reaction to macrolide group
+292933003	Clarithromycin adverse reaction (disorder)
+292934009	Azithromycin adverse reaction (disorder)
+292935005	Adverse reaction to sodium fusidate
+292936006	Spectinomycin adverse reaction (disorder)
+292937002	Adverse reaction to vancomycin
+292938007	Teicoplanin adverse reaction (disorder)
+292939004	Trimethoprim adverse reaction (disorder)
+292940002	Nitrofurantoin adverse reaction (disorder)
+292941003	Methenamine hippurate adverse reaction
+292942005	Mupirocin adverse reaction (disorder)
+292943000	Nitrofurazone adverse reaction (disorder)
+292944006	Fusidic acid adverse reaction (disorder)
+292945007	Adverse reaction to quinolone and hydroxyquinoline derivatives
+292946008	Acrosoxacin adverse reaction (disorder)
+292947004	Cinoxacin adverse reaction (disorder)
+292949001	Ciprofloxacin adverse reaction (disorder)
+292950001	Enoxacin adverse reaction (disorder)
+292951002	Ofloxacin adverse reaction (disorder)
+292952009	Norfloxacin adverse reaction (disorder)
+292953004	Temafloxacin adverse reaction (disorder)
+292954005	Adverse reaction to penicillins
+292955006	Penicillinase-sensitive penicillins adverse reaction (disorder)
+292956007	Benethamine penicillin adverse reaction (disorder)
+292957003	Benzathine penicillin adverse reaction (disorder)
+292958008	Phenethicillin adverse reaction (disorder)
+292959000	Phenoxymethylpenicillin adverse reaction (disorder)
+292960005	Procaine benzylpenicillin adverse reaction
+292961009	Benzylpenicillin adverse reaction (disorder)
+292962002	Penicillinase-resistant penicillins adverse reaction (disorder)
+292963007	Cloxacillin adverse reaction (disorder)
+292964001	Flucloxacillin adverse reaction (disorder)
+292965000	Methicillin adverse reaction (disorder)
+292966004	Broad spectrum penicillins adverse reaction (disorder)
+292967008	Amoxicillin adverse reaction
+292968003	Ampicillin adverse reaction (disorder)
+292969006	Ciclacillin adverse reaction (disorder)
+292970007	Mezlocillin adverse reaction (disorder)
+292971006	Adverse reaction to pivampicillin
+292972004	Carbenicillin adverse reaction (disorder)
+292973009	Bacampicillin adverse reaction (disorder)
+292974003	Adverse reaction to talampicillin
+292975002	Antipseudomonal penicillins adverse reaction (disorder)
+292976001	Temocillin adverse reaction (disorder)
+292977005	Piperacillin adverse reaction (disorder)
+292978000	Azlocillin adverse reaction (disorder)
+292979008	Adverse reaction to ticarcillin
+292980006	Carfecillin adverse reaction (disorder)
+292981005	Mecillinam adverse reaction (disorder)
+292982003	Adverse reaction to pivmecillinam
+292983008	Combined penicillin preparation adverse reaction (disorder)
+292984002	Ampicillin and cloxacillin adverse reaction (disorder)
+292985001	Amoxicillin + clavulanate potassium adverse reaction
+292986000	Ampicillin + floxacillin adverse reaction
+292987009	Piperacillin and tazobactam adverse reaction (disorder)
+292988004	Pivampicillin and pivmecillinam adverse reaction (disorder)
+292989007	Ticarcillin and clavulanic acid adverse reaction (disorder)
+292990003	Polymyxins adverse reaction (disorder)
+292991004	Adverse reaction to colistin
+292992006	Adverse reaction to polymyxin
+292993001	Carbapenem adverse reaction (disorder)
+292994007	Adverse reaction to cephalosporin group
+292995008	First generation cephalosporin adverse reaction (disorder)
+292996009	Adverse reaction to cefadroxil
+292997000	Adverse reaction to cefalexin
+292998005	Adverse reaction to cephalothin
+292999002	Cefazolin adverse reaction
+293000001	Adverse reaction to cefradine
+293001002	Latamoxef adverse reaction (disorder)
+293002009	Second generation cephalosporin adverse reaction (disorder)
+293003004	Adverse reaction to cefaclor
+293004005	Cefuroxime adverse reaction (disorder)
+293005006	Adverse reaction to cephamandole
+293006007	Third generation cephalosporin adverse reaction (disorder)
+293007003	Adverse reaction to cefotaxime
+293008008	Adverse reaction to ceftazidime
+293009000	Adverse reaction to ceftizoxime
+293010005	Cefixime adverse reaction (disorder)
+293011009	Cefodizime adverse reaction (disorder)
+293012002	Cefpodoxime adverse reaction (disorder)
+293013007	Ceftriaxone adverse reaction (disorder)
+293014001	Ceftibuten adverse reaction (disorder)
+293015000	Cefsulodin adverse reaction (disorder)
+293016004	Fourth generation cephalosporin adverse reaction (disorder)
+293017008	Cefpirome adverse reaction (disorder)
+293019006	Cephamycin adverse reaction (disorder)
+293020000	Adverse reaction to cefoxitin
+293021001	Fosfomycin adverse reaction (disorder)
+293023003	Adverse reaction to clindamycin
+293024009	Adverse reaction to lincomycin
+293025005	Mandelic acid adverse reaction (disorder)
+293026006	Monobactam adverse reaction (disorder)
+293027002	Aztreonam adverse reaction (disorder)
+293028007	Nitroimidazole adverse reaction (disorder)
+293029004	Adverse reaction to metronidazole
+293030009	Tinidazole adverse reaction (disorder)
+293031008	Nimorazole adverse reaction (disorder)
+293032001	Adverse reaction to sulfonamides
+293034000	Calcium sulfaloxate adverse reaction (disorder)
+293035004	Phthalylsulfathiazole adverse reaction (disorder)
+293036003	Sulfametopyrazine adverse reaction (disorder)
+293037007	Adverse reaction to sulfadiazine
+293038002	Sulfadimethoxine adverse reaction (disorder)
+293039005	Adverse reaction to sulfadimidine
+293040007	Adverse reaction to sulfafurazole
+293041006	Adverse reaction to sulfaguanidine
+293042004	Adverse reaction to sulfaurea
+293043009	Mafenide adverse reaction (disorder)
+293044003	Silver sulfadiazine adverse reaction (disorder)
+293046001	Sulfacetamide adverse reaction (disorder)
+293047005	Adverse reaction to tetracycline group
+293048000	Adverse reaction to clomocycline sodium
+293049008	Adverse reaction to doxycycline
+293050008	Adverse reaction to lymecycline
+293052000	Adverse reaction to oxytetracycline
+293053005	Compound tetracycline preparations adverse reaction (disorder)
+293054004	Adverse reaction to chlortetracycline hydrochloride
+293055003	Adverse reaction to demeclocycline
+293056002	Adverse reaction to tetracycline
+293057006	Adverse reaction to chloramphenicol
+293058001	Sulfamethoxazole + trimethoprim adverse reaction (disorder)
+293059009	Adverse reaction to antiprotozoal drug
+293060004	Atovaquone adverse reaction (disorder)
+293061000	Antimony antiprotozoal adverse reaction (disorder)
+293062007	Sodium stibogluconate adverse reaction (disorder)
+293063002	Diamidine antiprotozoal adverse reaction (disorder)
+293064008	Pentamidine adverse reaction (disorder)
+293065009	Dichloroacetamide antiprotozoal adverse reaction (disorder)
+293066005	Diloxanide adverse reaction (disorder)
+293067001	Hydroxyquinoline antiprotozoal adverse reaction (disorder)
+293068006	Clioquinol adverse reaction (disorder)
+293069003	Antimycobacterial agent adverse reaction (disorder)
+293070002	Anti-tuberculous drug reaction
+293071003	Adverse reaction to pyrazinamide
+293073000	Adverse reaction to capreomycin
+293074006	Adverse reaction to cycloserine
+293075007	Adverse reaction to rifampicin
+293076008	Rifabutin adverse reaction (disorder)
+293077004	Hydrazide antituberculosis drug adverse reaction (disorder)
+293078009	Adverse reaction to isoniazid
+293079001	Adverse reaction to ethambutol
+293080003	Antileprotic drug adverse reaction (disorder)
+293081004	Adverse reaction to dapsone
+293082006	Adverse reaction to clofazimine
+293083001	Pesticide adverse reaction (disorder)
+293084007	Benzyl benzoate adverse reaction (disorder)
+293085008	Monosulfiram adverse reaction (disorder)
+293086009	Carbamate pesticide adverse reaction (disorder)
+293087000	Carbaryl adverse reaction (disorder)
+293088005	Chlorinated pesticide adverse reaction (disorder)
+293089002	Lindane adverse reaction (disorder)
+293090006	Organophosphate pesticide adverse reaction (disorder)
+293091005	Malathion adverse reaction (disorder)
+293092003	Pyrethroid pesticides adverse reaction (disorder)
+293093008	Phenothrin adverse reaction (disorder)
+293094002	Permethrin adverse reaction (disorder)
+293095001	Vaccine, immunoglobulins and antisera adverse reaction (disorder)
+293096000	Immunoglobulin products adverse reaction (disorder)
+293097009	Human immunoglobulin adverse reaction (disorder)
+293098004	Intramuscular immunoglobulin adverse reaction (disorder)
+293099007	Intravenous immunoglobulin adverse reaction (disorder)
+293100004	Anti-D (Rh) immunoglobulin adverse reaction (disorder)
+293101000	Hepatitis B immunoglobulin adverse reaction (disorder)
+293102007	Tetanus immunoglobulin adverse reaction (disorder)
+293103002	Varicella-zoster immunoglobulin adverse reaction (disorder)
+293104008	Adverse reaction to immunisation
+293105009	Anthrax vaccine adverse reaction (disorder)
+293107001	Diphtheria single antigen vaccine adverse reaction (disorder)
+293108006	Diphtheria and tetanus vaccine adverse reaction (disorder)
+293109003	Diphtheria, tetanus and pertussis vaccine adverse reaction (disorder)
+293110008	Hepatitis B vaccine adverse reaction (disorder)
+293112000	Influenza split virion vaccine adverse reaction (disorder)
+293113005	Influenza surface antigen vaccine adverse reaction (disorder)
+293114004	Mumps vaccine adverse reaction (disorder)
+293115003	Pertussis vaccine adverse reaction (disorder)
+293116002	Pneumococcal vaccine adverse reaction (disorder)
+293117006	Poliomyelitis vaccine adverse reaction (disorder)
+293118001	Rabies vaccine adverse reaction (disorder)
+293119009	Rubella vaccine adverse reaction (disorder)
+293120003	Smallpox vaccine adverse reaction (disorder)
+293122006	Typhoid vaccine adverse reaction (disorder)
+293123001	Typhoid polysaccharide vaccine adverse reaction (disorder)
+293124007	Typhoid whole cell vaccine adverse reaction (disorder)
+293125008	Measles/mumps/rubella vaccine adverse reaction (disorder)
+293126009	Hepatitis A vaccine adverse reaction (disorder)
+293127000	Haemophilus influenzae Type B vaccine adverse reaction (disorder)
+293128005	Meningococcal polysaccharide vaccine adverse reaction (disorder)
+293129002	Antisera adverse reaction (disorder)
+293131006	Botulism antitoxin adverse reaction (disorder)
+293132004	Diphtheria antitoxin adverse reaction (disorder)
+293133009	Hormone, synthetic hormone substitute or hormone antagonist adverse reaction
+293135002	Adverse reaction to glucagon
+293136001	Adverse reaction to antithyroid agent
+293137005	Thiourea antithyroid agent adverse reaction (disorder)
+293138000	Adverse reaction to carbimazole
+293139008	Thiouracil antithyroid agent adverse reaction (disorder)
+293140005	Adverse reaction to propylthiouracil
+293141009	Corticosteroids adverse reaction (disorder)
+293142002	Adverse reaction to betamethasone
+293144001	Topical hydrocortisone adverse reaction (disorder)
+293145000	Topical compound hydrocortisone preparation adverse reaction (disorder)
+293146004	Adverse reaction to prednisone
+293147008	Fluorometholone adverse reaction (disorder)
+293148003	Flunisolide adverse reaction (disorder)
+293149006	Desonide adverse reaction (disorder)
+293150006	Desoximetasone adverse reaction
+293151005	Fluocinonide adverse reaction (disorder)
+293152003	Fluocortolone adverse reaction (disorder)
+293153008	Fludroxycortide adverse reaction
+293154002	Halcinonide adverse reaction (disorder)
+293155001	Alclometasone adverse reaction (disorder)
+293156000	Beclometasone adverse reaction
+293157009	Clobetasol adverse reaction (disorder)
+293158004	Clobetasone adverse reaction (disorder)
+293159007	Adverse reaction to cortisone acetate
+293160002	Diflucortolone adverse reaction (disorder)
+293161003	Fluclorolone adverse reaction (disorder)
+293162005	Adverse reaction to fludrocortisone acetate
+293163000	Fluocinolone adverse reaction (disorder)
+293164006	Fluticasone adverse reaction (disorder)
+293165007	Mometasone adverse reaction (disorder)
+293166008	Adverse reaction to dexamethasone
+293167004	Topical dexamethasone adverse reaction (disorder)
+293168009	Topical compound dexamethasone preparation adverse reaction (disorder)
+293169001	Adverse reaction to methylprednisolone
+293170000	Adverse reaction to prednisolone
+293171001	Topical prednisolone adverse reaction (disorder)
+293172008	Prednisolone drops adverse reaction (disorder)
+293173003	Rectal prednisolone preparations adverse reaction (disorder)
+293174009	Adverse reaction to triamcinolone
+293175005	Budesonide adverse reaction (disorder)
+293176006	Topical budesonide adverse reaction (disorder)
+293177002	Insulin adverse reaction (disorder)
+293178007	Soluble neutral insulin adverse reaction (disorder)
+293179004	Biphasic insulin adverse reaction (disorder)
+293180001	Insulin zinc suspension adverse reaction (disorder)
+293181002	Insulin zinc suspension (amorphous) adverse reaction (disorder)
+293182009	Insulin zinc suspension (crystalline) adverse reaction (disorder)
+293183004	Isophane insulin adverse reaction (disorder)
+293184005	Protamine zinc insulin adverse reaction (disorder)
+293185006	Biphasic isophane insulin adverse reaction (disorder)
+293186007	Humulin insulin adverse reaction (disorder)
+293190009	Oral hypoglycemic adverse reaction (disorder)
+293191008	Sulfonylurea adverse reaction (disorder)
+293192001	Acetohexamide adverse reaction (disorder)
+293193006	Adverse reaction to chlorpropamide
+293194000	Adverse reaction to glibenclamide
+293195004	Glibornuride adverse reaction (disorder)
+293196003	Adverse reaction to gliclazide
+293197007	Adverse reaction to glipizide
+293198002	Adverse reaction to gliquidone
+293199005	Adverse reaction to glymidine
+293200008	Adverse reaction to tolazamide
+293201007	Adverse reaction to tolbutamide
+293202000	Biguanide adverse reaction (disorder)
+293203005	Adverse reaction to metformin hydrochloride
+293204004	Guar gum adverse reaction (disorder)
+293205003	Acarbose adverse reaction (disorder)
+293206002	Sex hormones adverse reaction (disorder)
+293207006	Progestogen adverse reaction (disorder)
+293208001	Allylestrenol adverse reaction (disorder)
+293209009	Adverse reaction to dydrogesterone
+293210004	Adverse reaction to progesterone
+293211000	Gestonorone adverse reaction
+293212007	Hydroxyprogesterone adverse reaction (disorder)
+293213002	Megestrol adverse reaction (disorder)
+293214008	Adverse reaction to norethisterone
+293215009	Etynodiol diacetate adverse reaction
+293216005	Levonorgestrel adverse reaction (disorder)
+293217001	Medroxyprogesterone adverse reaction (disorder)
+293218006	Anabolic steroids adverse reaction (disorder)
+293219003	Tibolone adverse reaction (disorder)
+293220009	Drostanolone propionate adverse reaction (disorder)
+293221008	Oxymetholone adverse reaction (disorder)
+293222001	Adverse reaction to nandrolone
+293223006	Adverse reaction to stanozolol
+293224000	Cyclofenil adverse reaction (disorder)
+293225004	Danazol adverse reaction (disorder)
+293226003	Gestrinone adverse reaction (disorder)
+293227007	Anti-androgens adverse reaction (disorder)
+293228002	Finasteride adverse reaction (disorder)
+293229005	Flutamide adverse reaction (disorder)
+293230000	Bicalutamide adverse reaction (disorder)
+293231001	Cyproterone acetate and ethinylestradiol adverse reaction (disorder)
+293232008	Cyproterone adverse reaction (disorder)
+293233003	Combined oral contraceptive adverse reaction (disorder)
+293234009	Adverse reaction to androgen
+293236006	Adverse reaction to mesterolone
+293237002	Adverse reaction to methyltestosterone
+293238007	Adverse reaction to testosterone
+293239004	Testosterone implant adverse reaction (disorder)
+293240002	Intramuscular testosterone adverse reaction (disorder)
+293241003	Oral testosterone adverse reaction (disorder)
+293242005	Testosterone patch adverse reaction (disorder)
+293243000	Estrogen adverse reaction (disorder)
+293244006	Adverse reaction to estradiol
+293245007	Oral estradiol adverse reaction (disorder)
+293246008	Estradiol implant adverse reaction (disorder)
+293247004	Topical estradiol adverse reaction (disorder)
+293248009	Adverse reaction to piperazine estrone sulfate
+293249001	Quinestradol adverse reaction (disorder)
+293250001	Quinestrol adverse reaction (disorder)
+293251002	Dienestrol adverse reaction (disorder)
+293252009	Polyestradiol phosphate adverse reaction (disorder)
+293253004	Fosfestrol adverse reaction (disorder)
+293254005	Mestranol adverse reaction (disorder)
+293255006	Adverse reaction to ethinylestradiol
+293256007	Adverse reaction to estriol
+293257003	Adverse reaction to conjugated estrogens
+293258008	Diethylstilbestrol adverse reaction
+293259000	Estrogen and progestogen preparation adverse reaction (disorder)
+293260005	Clomifene adverse reaction
+293261009	Ergoline drug adverse reaction (disorder)
+293262002	Cabergoline adverse reaction (disorder)
+293263007	Quinagolide adverse reaction (disorder)
+293264001	Thyroid agent adverse reaction (disorder)
+293265000	Liothyronine adverse reaction (disorder)
+293266004	Thyroxine adverse reaction (disorder)
+293268003	Antidiuretic hormone adverse reaction (disorder)
+293269006	Adverse reaction to desmopressin
+293270007	Adverse reaction to lypressin
+293271006	Adverse reaction to terlipressin
+293274003	Corticotropins adverse reaction
+293275002	Tetracosactide adverse reaction
+293276001	Gonad regulating hormone adverse reaction (disorder)
+293277005	Gonadorelin adverse reaction (disorder)
+293278000	Nafarelin adverse reaction (disorder)
+293279008	Buserelin adverse reaction (disorder)
+293280006	Goserelin adverse reaction (disorder)
+293281005	Triptorelin adverse reaction (disorder)
+293282003	Adverse reaction to chorionic gonadotrophin
+293283008	Leuprorelin adverse reaction (disorder)
+293285001	Adverse reaction to oxytocin
+293286000	Oxytocin and ergometrine adverse reaction (disorder)
+293288004	Adverse reaction to growth hormone
+293289007	Octreotide adverse reaction (disorder)
+293292006	Protirelin adverse reaction (disorder)
+293293001	Thyrotrophin adverse reaction (disorder)
+293294007	Calcium regulating agent adverse reaction (disorder)
+293295008	Biphosphonates adverse reaction (disorder)
+293296009	Disodium etidronate adverse reaction (disorder)
+293297000	Disodium pamidronate adverse reaction (disorder)
+293298005	Sodium clodronate adverse reaction (disorder)
+293299002	Disodium etidronate and calcium carbonate adverse reaction (disorder)
+293300005	Calcium regulating hormone adverse reaction (disorder)
+293301009	Adverse reaction to calcitonin
+293302002	Calcitonin (salmon) adverse reaction
+293303007	Calcitonin (pork) adverse reaction (disorder)
+293304001	Hematological agents adverse reaction (disorder)
+293305000	Erythropoietin adverse reaction (disorder)
+293306004	Epoetin alfa adverse reaction (disorder)
+293307008	Epoetin beta adverse reaction (disorder)
+293308003	Plasma substitutes adverse reaction (disorder)
+293309006	Gelatin adverse reaction (disorder)
+293310001	Hetastarch adverse reaction (disorder)
+293311002	Pentastarch adverse reaction (disorder)
+293312009	Dextran adverse reaction (disorder)
+293313004	Perfluorochemical adverse reaction (disorder)
+293314005	Plasma protein solution adverse reaction (disorder)
+293315006	Blood derivative adverse reaction (disorder)
+293316007	Albumin solution adverse reaction (disorder)
+293317003	Antithrombin III adverse reaction (disorder)
+293318008	Blood clotting factor adverse reaction (disorder)
+293319000	Factor VIII fraction products adverse reaction (disorder)
+293320006	Factor IX fraction products adverse reaction (disorder)
+293321005	Activated factor VII products adverse reaction (disorder)
+293324002	Factor V concentrate products adverse reaction (disorder)
+293325001	Factor VII concentrate products adverse reaction (disorder)
+293326000	Factor VIII by-passing fraction products adverse reaction (disorder)
+293327009	Factor XI products adverse reaction (disorder)
+293328004	Factor XIII products adverse reaction (disorder)
+293329007	Factor VIII products adverse reaction
+293331003	Adverse reaction to anticoagulants
+293332005	Direct acting anticoagulant adverse reaction (disorder)
+293333000	Ancrod adverse reaction (disorder)
+293334006	Adverse reaction to heparin
+293335007	Enoxaparin adverse reaction (disorder)
+293336008	Dalteparin adverse reaction (disorder)
+293337004	Tinzaparin adverse reaction (disorder)
+293339001	Heparinoid adverse reaction (disorder)
+293340004	Danaparoid sodium adverse reaction (disorder)
+293341000	Indirect acting anticoagulant adverse reaction (disorder)
+293342007	Coumarin anticoagulant adverse reaction (disorder)
+293343002	Acenocoumarol adverse reaction
+293344008	Warfarin adverse reaction (disorder)
+293345009	Indanedione anticoagulant adverse reaction (disorder)
+293346005	Adverse reaction to phenindione
+293347001	Hemostatic adverse reaction (disorder)
+293348006	Adverse reaction to etamsylate
+293349003	Thromboplastin adverse reaction (disorder)
+293350003	Adverse reaction to tranexamic acid
+293351004	Collagen adverse reaction (disorder)
+293352006	Aprotinin adverse reaction (disorder)
+293354007	Iron adverse reaction (disorder)
+293355008	Iron and folic acid adverse reaction (disorder)
+293356009	Polysaccharide iron complex adverse reaction (disorder)
+293357000	Sodium feredetate adverse reaction
+293358005	Compound iron preparations adverse reaction (disorder)
+293359002	Iron sorbitol adverse reaction (disorder)
+293360007	Ferrous salt adverse reaction (disorder)
+293361006	Adverse reaction to ferrous fumarate
+293362004	Adverse reaction to ferrous gluconate
+293363009	Adverse reaction to ferrous glycine sulfate
+293364003	Adverse reaction to ferrous succinate
+293365002	Adverse reaction to ferrous sulfate
+293366001	Ferrous phosphate adverse reaction (disorder)
+293367005	Intravenous nutrition adverse reaction (disorder)
+293368000	Supplementary preparation for parenteral nutrition adverse reaction
+293369008	Adverse reaction to intravenous electrolytes and/or trace elements
+293370009	Intravenous nutrition (vitamins) adverse reaction (disorder)
+293371008	Intravenous nutrition (amino acids) adverse reaction (disorder)
+293372001	Intravenous nutrition (carbohydrate) adverse reaction (disorder)
+293373006	Intravenous nutrition (fats) adverse reaction (disorder)
+293374000	Intravenous nutrition (ready mixed) adverse reaction (disorder)
+293375004	L-Carnitine adverse reaction (disorder)
+293376003	Iodine compounds adverse reaction (disorder)
+293377007	Iodine adverse reaction (disorder)
+293378002	Iodophore adverse reaction (disorder)
+293379005	Povidone iodine adverse reaction (disorder)
+293380008	Multiple electrolyte infusion adverse reaction (disorder)
+293381007	Enteral and supplement feeds adverse reaction (disorder)
+293382000	Oral rehydration salts adverse reaction (disorder)
+293383005	Vitamin products adverse reaction (disorder)
+293384004	Multivitamin and mineral preparations adverse reaction (disorder)
+293385003	Fat soluble vitamin adverse reaction (disorder)
+293386002	Adverse reaction to vitamin A
+293387006	Adverse reaction to vitamin D
+293388001	Adverse reaction to vitamin K
+293389009	Alpha-tocopheryl adverse reaction (disorder)
+293390000	Water soluble vitamin adverse reaction (disorder)
+293391001	Vitamin B group adverse reaction (disorder)
+293392008	Nicotinic acid adverse reaction (disorder)
+293393003	Folic acid adverse reaction (disorder)
+293394009	Folinic acid adverse reaction (disorder)
+293395005	Vitamin B12 preparation adverse reaction (disorder)
+293396006	Adverse reaction to hydroxocobalamin
+293397002	Adverse reaction to cyanocobalamin
+293398007	Niacinamide adverse reaction
+293399004	Vitamin B complex preparation adverse reaction
+293400006	Inositol adverse reaction (disorder)
+293401005	Pyridoxine preparation adverse reaction (disorder)
+293402003	Thiamine preparation adverse reaction (disorder)
+293403008	Ascorbic acid adverse reaction (disorder)
+293404002	Ion exchange resin adverse reaction (disorder)
+293405001	Cation exchange resin adverse reaction (disorder)
+293406000	Sodium cellulose phosphate adverse reaction (disorder)
+293407009	Calcium polystyrene sulfonate adverse reaction (disorder)
+293408004	Sodium polystyrene sulfonate adverse reaction (disorder)
+293409007	Potassium adverse reaction (disorder)
+293410002	Oral potassium adverse reaction (disorder)
+293411003	Parenteral potassium adverse reaction (disorder)
+293412005	Electrolyte anion adverse reaction (disorder)
+293413000	Zinc adverse reaction (disorder)
+293414006	Fluoride adverse reaction (disorder)
+293415007	Sodium fluoride adverse reaction (disorder)
+293416008	Drug groups primarily affecting cardiovascular system adverse reaction
+293417004	Lipid-lowering drug adverse reaction (disorder)
+293418009	Dextrothyroxine sodium adverse reaction (disorder)
+293419001	Gemfibrozil adverse reaction (disorder)
+293420007	Probucol adverse reaction (disorder)
+293421006	Acipimox adverse reaction (disorder)
+293422004	Anion exchange resins adverse reaction (disorder)
+293423009	Colestipol adverse reaction (disorder)
+293424003	Adverse reaction to colestyramine
+293426001	Bezafibrate adverse reaction (disorder)
+293427005	Clofibrate adverse reaction (disorder)
+293428000	Fenofibrate adverse reaction (disorder)
+293429008	Ciprofibrate adverse reaction (disorder)
+293430003	Fish oils adverse reaction (disorder)
+293431004	Omega 3-marine triglycerides adverse reaction (disorder)
+293432006	3-Hydroxy-3-methylglutaryl coenzyme A reductase inhibitor adverse reaction
+293433001	Adverse reaction caused by simvastatin
+293434007	Adverse reaction caused by fluvastatin
+293435008	Adverse reaction caused by pravastatin
+293436009	Antiarrhythmic drug adverse reaction (disorder)
+293437000	Adenosine adverse reaction (disorder)
+293438005	Class I antiarrhythmic adverse reaction (disorder)
+293440000	Disopyramide adverse reaction (disorder)
+293441001	Quinidine adverse reaction (disorder)
+293442008	Flecainide adverse reaction (disorder)
+293443003	Mexiletine adverse reaction (disorder)
+293444009	Moracizine adverse reaction (disorder)
+293445005	Procainamide adverse reaction (disorder)
+293446006	Propafenone adverse reaction (disorder)
+293447002	Tocainide adverse reaction (disorder)
+293448007	Class II antiarrhythmic adverse reaction (disorder)
+293449004	Bretylium adverse reaction (disorder)
+293450004	Class III antiarrhythmic adverse reaction (disorder)
+293451000	Amiodarone adverse reaction (disorder)
+293452007	Class IV antiarrhythmic adverse reaction (disorder)
+293453002	Diuretic adverse reaction (disorder)
+293454008	Thiazide diuretic adverse reaction (disorder)
+293455009	Bendroflumethiazide adverse reaction
+293456005	Adverse reaction to chlorothiazide
+293457001	Adverse reaction to cyclopenthiazide
+293458006	Adverse reaction to hydrochlorothiazide
+293459003	Adverse reaction to hydroflumethiazide
+293460008	Adverse reaction to methyclothiazide
+293461007	Adverse reaction to polythiazide
+293462000	Loop diuretic adverse reaction (disorder)
+293463005	Furosemide adverse reaction
+293464004	Bumetanide adverse reaction (disorder)
+293465003	Etacrynic acid adverse reaction
+293466002	Piretanide adverse reaction (disorder)
+293467006	Torasemide adverse reaction (disorder)
+293468001	Potassium sparing diuretic adverse reaction (disorder)
+293469009	Triamterene adverse reaction (disorder)
+293470005	Aldosterone antagonists adverse reaction (disorder)
+293471009	Potassium canrenoate adverse reaction (disorder)
+293472002	Spironolactone adverse reaction (disorder)
+293473007	Amiloride adverse reaction (disorder)
+293474001	Potassium sparing compound diuretic adverse reaction (disorder)
+293475000	Amiloride and loop diuretic adverse reaction (disorder)
+293476004	Amiloride and thiazide diuretic adverse reaction (disorder)
+293477008	Spironolactone and loop diuretic adverse reaction (disorder)
+293478003	Spironolactone and thiazide diuretic adverse reaction (disorder)
+293479006	Triamterene and loop diuretic adverse reaction (disorder)
+293480009	Triamterene and thiazide diuretic adverse reaction (disorder)
+293482001	Osmotic diuretic adverse reaction (disorder)
+293483006	Mannitol adverse reaction (disorder)
+293484000	Mercurial diuretic adverse reaction (disorder)
+293485004	Mersalyl adverse reaction (disorder)
+293487007	Chlortalidone adverse reaction
+293488002	Indapamide adverse reaction (disorder)
+293489005	Mefruside adverse reaction (disorder)
+293490001	Metolazone adverse reaction (disorder)
+293491002	Xipamide adverse reaction (disorder)
+293492009	Adverse reaction to carbonic acid anhydrase inhibitor
+293493004	Adverse reaction to dichlorphenamide
+293494005	Acetazolamide adverse reaction (disorder)
+293495006	Antihypertensive adverse reaction (disorder)
+293496007	Adrenergic neurone blocking drug adverse reaction (disorder)
+293497003	Bethanidine adverse reaction (disorder)
+293498008	Debrisoquine adverse reaction (disorder)
+293499000	Guanethidine adverse reaction (disorder)
+293500009	Drug reaction: ACE inhibitor
+293501008	Captopril adverse reaction (disorder)
+293502001	Lisinopril adverse reaction (disorder)
+293503006	Quinapril adverse reaction (disorder)
+293504000	Ramipril adverse reaction (disorder)
+293505004	Cilazapril adverse reaction (disorder)
+293506003	Trandolapril adverse reaction (disorder)
+293507007	Enalapril adverse reaction (disorder)
+293508002	Fosinopril adverse reaction (disorder)
+293509005	Perindopril adverse reaction (disorder)
+293511001	Trimetaphan adverse reaction (disorder)
+293512008	Metirosine adverse reaction (disorder)
+293513003	Adverse reaction caused by losartan
+293514009	Rauwolfia antihypertensive adverse reaction (disorder)
+293515005	Cardiac inotropic agent adverse reaction (disorder)
+293516006	Cardiac glycoside adverse reaction (disorder)
+293517002	Digoxin adverse reaction (disorder)
+293518007	Digitoxin adverse reaction (disorder)
+293519004	Lanatoside C adverse reaction (disorder)
+293520005	Medigoxin adverse reaction (disorder)
+293521009	Ouabain adverse reaction (disorder)
+293522002	Phosphodiesterase inhibitor adverse reaction (disorder)
+293523007	Enoximone adverse reaction (disorder)
+293524001	Milrinone adverse reaction (disorder)
+293525000	Vasoconstrictor adverse reaction (disorder)
+293527008	Dihydroergocornine and dihydroergocristine and dihydroergocryptine adverse reaction
+293528003	Ergot alkaloid adverse reaction (disorder)
+293529006	Dihydroergotamine mesylate adverse reaction (disorder)
+293530001	Adverse reaction to ergometrine
+293531002	Vasodilator adverse reaction (disorder)
+293533004	Minoxidil adverse reaction (disorder)
+293534005	Sodium nitroprusside adverse reaction (disorder)
+293535006	Flosequinan adverse reaction (disorder)
+293536007	Diazoxide adverse reaction (disorder)
+293537003	Hydralazine adverse reaction (disorder)
+293538008	Nicorandil adverse reaction (disorder)
+293539000	Dipyridamole adverse reaction (disorder)
+293540003	Nitrate vasodilator adverse reaction (disorder)
+293542006	Glyceryl trinitrate adverse reaction (disorder)
+293543001	Oral glyceryl trinitrate adverse reaction (disorder)
+293544007	Modified release glyceryl trinitrate adverse reaction
+293545008	Parenteral glyceryl trinitrate adverse reaction (disorder)
+293546009	Transdermal glyceryl trinitrate adverse reaction (disorder)
+293547000	Glyceryl trinitrate spray adverse reaction (disorder)
+293548005	Isosorbide dinitrate adverse reaction (disorder)
+293549002	Parenteral isosorbide dinitrate adverse reaction (disorder)
+293550002	Oral isosorbide dinitrate adverse reaction (disorder)
+293551003	Modified release isosorbide dinitrate adverse reaction (disorder)
+293552005	Isosorbide mononitrate adverse reaction (disorder)
+293553000	Modified release isosorbide mononitrate adverse reaction (disorder)
+293554006	Adverse reaction to pentaerithrityl tetranitrate
+293555007	Peripheral/cerebral vasodilator adverse reaction (disorder)
+293556008	Bamethan sulfate adverse reaction (disorder)
+293557004	Pentoxifylline adverse reaction
+293558009	Cyclandelate adverse reaction (disorder)
+293559001	Nicofuranose adverse reaction (disorder)
+293560006	Inositol nicotinate adverse reaction (disorder)
+293561005	Isoxsuprine adverse reaction (disorder)
+293562003	Naftidrofuryl adverse reaction (disorder)
+293563008	Nicotinyl alcohol adverse reaction (disorder)
+293565001	Moxisylyte adverse reaction
+293566000	Betahistine adverse reaction (disorder)
+293567009	Adverse reaction to antivaricose drug
+293568004	Sodium tetradecyl sulfate adverse reaction (disorder)
+293569007	Ethanolamine adverse reaction (disorder)
+293570008	Medicinal enzyme adverse reaction (disorder)
+293571007	Adverse reaction to streptokinase
+293572000	Adverse reaction to urokinase
+293573005	Alteplase adverse reaction (disorder)
+293574004	Anistreplase adverse reaction (disorder)
+293575003	Bromelains adverse reaction (disorder)
+293576002	Deoxyribonuclease adverse reaction (disorder)
+293577006	Hyaluronidase adverse reaction (disorder)
+293578001	Streptokinase streptodornase adverse reaction (disorder)
+293579009	Chymotrypsin adverse reaction (disorder)
+302982001	Adverse reaction caused by enzymes
+302985004	Adverse reaction caused by eye drug
+395215005	Adverse reaction caused by bupropion (disorder)
+402755003	Localized adverse reaction caused by administration of drug (disorder)
+402763002	Adverse cutaneous reaction to diagnostic procedure
+403750002	Adverse cutaneous reaction caused by herbal medicine (disorder)
+403751003	Adverse cutaneous reaction caused by chinese traditional herbal medicine
+403752005	Adverse cutaneous reaction caused by homeopathic medicine
+403753000	Adverse cutaneous reaction to acupuncture
+403754006	Adverse cutaneous reaction caused by aromatherapy (disorder)
+405811009	Adverse reaction caused by lead compound
+405812002	Adverse reaction caused by bismuth anti-infective compound (disorder)
+406434004	Thiamphenicol adverse reaction
+406447009	Adverse reaction caused by oleandomycin (disorder)
+406448004	Spiramycin adverse reaction
+407590002	Angiotensin II receptor antagonist adverse reaction
+408672009	Adverse reaction caused by viral vaccines (disorder)
+408673004	Adverse reaction caused by anterior pituitary hormone
+417055008	Adverse reaction caused by drug acting on bone metabolism (disorder)
+417229001	Adverse reaction caused by drug primarily acting on nutrition (disorder)
+417895009	Topical agent adverse reaction
+417902000	Adverse reaction caused by inorganic chemical
+417906002	Adverse reaction to hydrocortisone
+417959000	Topical protectant adverse reaction
+418211009	Clostridium botulinum toxin adverse reaction
+418328005	Nalidixic acid adverse reaction
+418370000	Atenolol adverse reaction
+418466007	Fibrate antihyperlipidaemic adverse reaction
+418505005	Mineralocorticoid adverse reaction
+418603006	Adverse reaction to minocycline
+418949004	Adverse reaction to suxamethonium
+419007000	Sulphonamide antibiotic adverse reaction
+419055000	Sulphonamide diuretic adverse reaction
+419056004	Adverse reaction to erythromycin
+419082008	Adverse reaction caused by oil (disorder)
+419253001	Adverse reaction caused by clopidogrel
+419287006	Para-aminophenol derivative adverse reaction
+419330004	Thyrotropin releasing factor adverse reaction
+419406002	Pharmaceutical fluid or solution adverse reaction
+419885006	Beta lactam adverse reaction
+419887003	Adverse reaction caused by blood or blood product (disorder)
+419901001	Adverse reaction to non-steroidal anti-inflammatory drug
+419914000	Anaesthetics adverse reaction
+419989001	Propionic acid derivative adverse reaction
+420059000	Adverse reaction caused by bone resorption inhibitor
+420094007	Gentamicin adverse reaction
+420113004	Influenza virus vaccine adverse reaction
+420179005	Adverse reaction caused by fatty acid (disorder)
+420187006	Adverse reaction caused by antiplatelet agent
+421530001	Adverse reaction caused by epinephrine
+429188006	Adverse reaction caused by oral contrast medium
+430136001	Adverse reaction caused by antiparkinsonism drug (disorder)
+430398007	Adverse reaction caused by barbiturate
+430400006	Adverse reaction caused by antidiabetic drug
+430427005	Adverse reaction caused by diphosphonate (disorder)
+434296004	Adverse reaction caused by intravenous diphosphonate
+438784000	Adverse reaction caused by pharmaceutical excipient (disorder)
+438806007	Adverse reaction caused by aromatic analgesic (disorder)
+439498003	Adverse reaction caused by mixed bacterial vaccine
+439591006	Adverse reaction caused by saluretic agent (disorder)
+440385001	Adverse reaction caused by ovarian hormone
+440643006	Adverse reaction caused by hypnotic AND/OR sedative (disorder)
+441858005	Infusion reaction caused by trastuzumab
+441940003	Adverse reaction caused by drug or medicament administered by infusion (disorder)
+442108004	Adverse reaction caused by rituximab administered by infusion (disorder)
+446994009	Adverse reaction caused by biological substance (disorder)
+448691006	Adverse reaction caused by phosphodiesterase 5 inhibitor
+449845006	Adverse reaction caused by mirtazapine
+698088001	Adverse reaction caused by dipyrone (disorder)
+698707001	Adverse reaction caused by coronary vasodilator (disorder)
+699017007	Adverse reaction caused by vaccine properly administered
+708809007	Adverse drug reaction resulting from treatment of disorder
+712950002	Adverse reaction to glutethimide (disorder)
+713228003	Adverse reaction to chewing gum additive
+714137003	Adverse reaction caused by toothpaste (disorder)
+714139000	Adverse reaction to food additive
+715181000	Adverse reaction caused by mouth rinse
+720665007	Adverse reaction caused by metoprolol succinate
+720666008	Adverse reaction caused by metoprolol tartrate
+720672008	Adverse reaction caused by telmisartan
+720673003	Adverse reaction caused by valsartan
+720674009	Adverse reaction caused by olmesartan
+720675005	Adverse reaction caused by irbesartan
+720676006	Adverse reaction caused by eprosartan
+720677002	Adverse reaction caused by candesartan
+720678007	Adverse reaction caused by azilsartan (disorder)
+720679004	Adverse reaction caused by cerivastatin
+720680001	Adverse reaction caused by pitavastatin (disorder)
+720681002	Adverse reaction caused by lovastatin (disorder)
+720682009	Adverse reaction caused by rosuvastatin (disorder)
+720683004	Adverse reaction caused by atorvastatin (disorder)
+723008008	Adverse reaction to injection of neurotoxin
+723653009	Adverse reaction caused by decongestant
+723941008	Adverse reaction to dermal and deep fillers
+723942001	Adverse reaction to chemical peel
+764443008	Chlorinated phenol adverse reaction (disorder)
+766054009	Adverse reaction caused by adrenochrome (disorder)
+766220004	Adverse reaction to methaqualone
+767013007	Adverse reaction caused by hypothalamic hormone
+338441000000101	Acset adverse reaction (disorder)
+367141000000103	Leflunomide adverse reaction
+956191000000105	Aliskiren adverse reaction
+1053601000000108	Nebivolol adverse reaction (disorder)
+956211000000109	Prasugrel adverse reaction
+956231000000101	Ticagrelor adverse reaction
+889571000000106	Adverse reaction to rotavirus vaccine
+889611000000102	Adverse reaction to herpes zoster vaccine
+985211000000107	Apixaban adverse reaction
+985231000000104	Rivaroxaban adverse reaction
+219051006	Adverse reaction to local astringents and local detergents (navigational concept)
+219052004	Adverse reaction to emollients, demulcents and protectants (navigational concept)
+219090005	Adverse reaction to mixed bacterial vaccines, excluding combinations with a pertussis component (navigational concept)
+219102006	Adverse reaction to mixed viral-rickettsial and bacterial vaccines except combinations with a pertussis component (navigational concept)
+292187008	Antineoplastic/immunosuppressant/immunostim adverse reaction (navigational concept)
+292703002	Drug groups primarily used obs, gyn.+ urinary tract dis adverse reaction (navigational concept)
+292753008	Alternative medicines adverse reaction (navigational concept)
+292755001	Anthroposophical medicine adverse reaction (navigational concept)
+292765007	Miscellaneous topical preparations adverse reaction (navigational concept)
+292773003	Adverse reaction to bases and inactive substances (navigational concept)
+292782009	Barrier preparation adverse reaction (navigational concept)
+293353001	Foods, vitamins, electrolytes inorganic salts adverse reaction (navigational concept)
+301825000	Adverse reaction to premedication (navigational concept)
+403755007	Adverse cutaneous reaction to alternative medical therapy (navigational concept)
+999000251000000109	Adverse reaction event simple reference set
+999000261000000107	Adverse reaction propensity simple reference set
+999001241000000101	Allergies and adverse reaction causative agent groups simple reference set
+999001391000000103	Allergy or adverse reaction event simple reference set
+999001401000000100	Allergy or adverse reaction propensity simple reference set
+95903000	Absence of drug reaction (finding)
+806801000000105	Blood product transfusion adverse reaction detected (finding)
+1098921000000109	History of adverse reaction to local anaesthetic (situation)
+1104531000000102	History of adverse reaction to vaccine (situation)
+385797002	Medication side effects prevention
+396081009	Manage medication side effects
+185100004	Yellow card drug reaction notification
+886921000000105	Allergies and adverse reactions

@@ -1,0 +1,925 @@
+13S..	Maternity allowances
+13S1.	Maternity grant
+13S2.	Maternity allowance
+13S3.	Maternity pay
+62Z..	Maternal care NOS
+63C5.	Maternal tobacco abuse
+63C6.	Maternal drug abuse
+63C6.	Maternal drug misuse
+63C7.	Maternal alcohol abuse
+63D..	Placental details
+63D..	Placental observation
+63D5.	Placental abnormality
+63DZ.	Placental details NOS
+6734.	Counselled by a midwife
+67A..	Pregnancy advice
+67A1.	Infant feeding advice
+67A6.	Drugs in pregnancy advice
+67A8.	Maternity grant advice
+67A9.	Maternity benefit advice
+67AA.	Maternity milk and vitamins advice
+67AZ.	Pregnancy advice NOS
+7E0A.	Gamete intrauterine transfer
+7E0A.	GIUT - Gamete intrauterine transfer
+7E0Ay	Other specified introduction of gamete into uterine cavity
+7E0Az	Introduction of gamete into uterine cavity NOS
+7E242	Endoscopic oocyte recovery NEC
+7E242	Laparoscopic oocyte recovery
+7E242	Laparoscopic oocyte recovery (& NEC)
+7F...	Childbirth operations
+7F...	Obstetric operations
+7F...	Pregnancy operations
+7F054	Biopsy of placenta NEC
+7F1A4	Trial of labour NEC
+95...	Maternity services admin.
+951..	FP24 - mat claim-on obst.list
+951..	FP24 maternity claim status
+951..	GP24 - mat claim-on obst.list
+951..	GP24 maternity claim status
+951..	Maternity claim status (& on obst.list): [FP24] or [GP24]
+9513.	Checked by staff: [FP24] or [GP24]
+9513.	GP24 claim checked by staff
+9516.	GP24 paid by HB - underpaid
+9516.	Paid - underpaid: [FP24 by FPC] or [GP24 by HB]
+9517.	GP24 paid by HB - overpaid
+9517.	Paid - overpaid: [FP24 by FPC] or [GP24 by HB]
+9518.	Contacted re mistake: [FP24 -FPC] or [GP24 - HB]
+9518.	GP24 - HB contacted re mistake
+9519.	GP24 - HB make up payment
+9519.	Make up payment: [FP24 -FPC] or [GP24 - HB]
+951A.	Dispute fee due: [FP24 -FPC] or [GP24 - HB]
+951A.	GP24 - HB dispute fee due
+951Z.	FP24 mat.claim status NOS
+951Z.	GP24 mat.claim status NOS
+951Z.	Mat.claim status NOS: [FP24] or [GP24]
+952..	FP24A - mat claim-not obst lis
+952..	FP24A maternity claim status
+952..	GP24A - mat claim-not obst lis
+952..	GP24A maternity claim status
+952..	Maternity claim status (& not on obst.list): [FP24A] or [GP24A]
+9522.	Completed by Dr: [FP24A] or [GP24A]
+9522.	GP24A completed by Dr.
+9523.	Checked by staff: [FP24A] or [GP24A]
+9523.	GP24A claim checked by staff
+9524.	GP24A sent to HB
+9524.	Sent: [FP24A sent to FPC] or [GP24A sent to HB]
+9525.	GP24A paid by HB - checked
+9525.	Paid - checked: [FP24A by FPC] or [GP24A by HB]
+9526.	GP24A paid by HB - underpaid
+9526.	Paid - underpaid: [FP24A by FPC] or [GP24A by HB]
+9527.	GP24A paid by HB - overpaid
+9527.	Paid - overpaid: [FP24A by FPC] or [GP24A by HB]
+9528.	Contacted re mistake: [FP24A -FPC] or [GP24A - HB]
+9528.	GP24A- HB contacted re mistake
+9529.	GP24A- HB make up payment
+9529.	Make up payment: [FP24A -FPC] or [GP24A - HB]
+952A.	Dispute fee due: [FP24A -FPC] or [GP24A - HB]
+952A.	GP24A- HB dispute fee due
+952Z.	FP24A mat.claim status NOS
+952Z.	GP24A mat.claim status NOS
+952Z.	Mat.claim status NOS: [FP24A] or [GP24A]
+953..	Maternity services claimed
+953E.	Other maternity service claim
+953G.	Total maternity service claim
+953Z.	Maternity services claim NOS
+959..	GMS2 maternity claim status
+959..	GPM maternity claim status
+959..	Maternity claim status: [GMS2] or [GPM]
+9593.	Checked by staff: [GMS2] or [GPM]
+9593.	GPM claim checked by staff
+9594.	GPM claim sent to HB
+9594.	Sent: [GMS2 - HA] or [GPM - HB]
+9595.	GMS2 paid by HA checked
+9595.	GPM claim paid by HB - checked
+9595.	Paid - checked: [GMS2 - HA] or [GPM - HB]
+9596.	GMS2 paid by HA underpaid
+9596.	GPM claim paid by HB - underpaid
+9596.	Paid - underpaid: [GMS2 - HA] or [GPM - HB]
+9597.	GMS2 paid by HA overpaid
+9597.	GPM claim paid by HB - overpaid
+9597.	Paid - overpaid: [GMS2 - HA] or [GPM - HB]
+9598.	Contacted re mistake: [GMS2 - HA] or [GPM - HB]
+9598.	GMS2 HA contacted mistake
+9598.	GPM claim - HB contacted re mistake
+9599.	GMS2 HA make up payment
+9599.	GPM claim - HB make up payment
+9599.	Make up payment: [GMS2 - HA] or [GPM - HB]
+959A.	Dispute fee due: [GMS2 - HA] or [GPM - HB]
+959A.	GMS2 HA dispute fee due
+959A.	GPM claim - HB dispute fee due
+95Z..	Maternity services admin NOS
+K312.	Cracked nipple
+K312.	Fissure of nipple
+K312.	Fissured nipple
+K55y.	Other noninflammatory cervical disorders
+K55yz	Other noninflammatory cervical disorder NOS
+Kyu99	[X]Other specified noninflammatory disorders of cervix uteri
+Kyu9H	[X]Other complications associated with artificial fertilisation
+Kyu9P	[X]Complication associated with artificial fertilisation, unspecified
+L....	Complications of pregnancy, childbirth and the puerperium
+L090y	Sepsis NOS following abortion and ectopic and molar pregnancy
+L09z.	Complication NOS following abortion and ectopic and molar pregnancy
+L12..	Hypertension complicating pregnancy, childbirth and the puerperium
+L120.	Benign essential hypertension complicating pregnancy, childbirth and the puerperium
+L1200	Benign essential hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L120z	Benign essential hypertension complicating pregnancy, childbirth and the puerperium NOS
+L121.	Renal hypertension complicating pregnancy, childbirth and the puerperium
+L1210	Renal hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L121z	Renal hypertension complicating pregnancy, childbirth and the puerperium NOS
+L122.	Other pre-existing hypertension in preg/childbirth/puerp
+L1220	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L1221	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L1222	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L1223	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - not delivered
+L1224	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication
+L122z	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium NOS
+L128.	Pre-existing hypertension complicating pregnancy, childbirth and puerperium
+L1280	Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium
+L1282	Pre-existing secondary hypertension complicating pregnancy, childbirth and puerperium
+L12z.	Unspecified hypertension complicating pregnancy, childbirth and the puerperium
+L12z0	Unspecified hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L12z1	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L12z3	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - not delivered
+L12zz	Unspecified hypertension complicating pregnancy, childbirth and the puerperium NOS
+L16..	Other pregnancy complication NEC
+L162.	Nephropathy NOS in pregnancy without hypertension
+L162.	Unspecified renal disease in pregnancy
+L1620	Unspecified renal disease in pregnancy unspecified
+L1621	Unspecified renal disease in pregnancy - delivered
+L1622	Unspecified renal disease in pregnancy - delivered with postnatal complication
+L1623	Unspecified renal disease in pregnancy - not delivered
+L1624	Unspecified renal disease in pregnancy with postnatal complication
+L162z	Unspecified renal disease in pregnancy NOS
+L169.	Herpes gestationis
+L169.	Pemphigoid gestationis
+L1690	Herpes gestationis unspecified
+L169z	Herpes gestationis NOS
+L16y.	Other pregnancy complications
+L16y0	Other pregnancy complication unspecified
+L16yz	Other pregnancy complication NOS
+L16z.	Pregnancy complication NOS
+L17..	Infective/parasitic disease in preg/childbirth/puerperium
+L170.	Maternal syphilis during pregnancy, childbirth and the puerperium
+L1700	Maternal syphilis, unspecified whether during pregnancy or the puerperium
+L170z	Maternal syphilis during pregnancy, childbirth or the puerperium NOS
+L171.	Maternal gonorrhoea during pregnancy, childbirth and the puerperium
+L1710	Maternal gonorrhoea, unspecified whether during pregnancy or the puerperium
+L171z	Gonorrhoea during pregnancy, childbirth or the puerperium NOS
+L172.	Other maternal venereal diseases during pregnancy, childbirth and the puerperium
+L1720	Other maternal venereal disease, unspecified whether during pregnancy or the puerperium
+L1721	Other maternal venereal disease in pregnancy - baby delivered
+L1722	Other maternal venereal disease in the puerperium - baby delivered during current episode of care
+L1723	Other maternal venereal disease during pregnancy - baby not yet delivered
+L1724	Other maternal venereal disease during the puerperium - baby delivered during previous episode of care
+L172z	Other maternal venereal disease during pregnancy, childbirth or the puerperium NOS
+L173.	Maternal tuberculosis during pregnancy, childbirth and the puerperium
+L1730	Maternal tuberculosis, unspecified whether during pregnancy or the puerperium
+L173z	Maternal tuberculosis during pregnancy, childbirth or the puerperium NOS
+L174.	Maternal malaria during pregnancy, childbirth and the puerperium
+L1740	Maternal malaria, unspecified whether during pregnancy or puerperium
+L174z	Maternal malaria during pregnancy, childbirth or the puerperium NOS
+L175.	Maternal rubella in pregnancy, childbirth and the puerperium
+L175.	Rubella contact in pregnancy
+L1750	Maternal rubella, unspecified whether during pregnancy or the puerperium
+L175z	Maternal rubella during pregnancy, childbirth or the puerperium NOS
+L176.	Other maternal viral disease during pregnancy, childbirth and the puerperium
+L1760	Other maternal viral disease, unspecified whether during pregnancy or the puerperium
+L1761	Other maternal viral disease during pregnancy - baby delivered
+L1762	Other maternal viral disease in the puerperium - baby delivered during current episode of care
+L1763	Other maternal viral disease during pregnancy - baby not yet delivered
+L1764	Other maternal viral disease in the puerperium - baby delivered during previous episode of care
+L1765	Viral hepatitis complicating pregnancy, childbirth and the puerperium
+L176z	Other maternal viral disease during pregnancy, childbirth or the puerperium NOS
+L17y.	Other maternal infective or parasitic disease during pregnancy, childbirth and the puerperium
+L17y0	Other maternal infective or parasitic disease, unspecified whether during pregnancy or the puerperium
+L17y1	Other maternal infective or parasitic disese during pregnancy - baby delivered
+L17y2	Other maternal infective or parasitic disease in the puerperium - baby delivered during current episode of care
+L17y3	Other maternal infective or parasitic disease during pregnancy - baby not yet delivered
+L17y4	Other maternal infective or parasitic disease in the puerperium - baby delivered during previous episode of care
+L17yz	Other maternal infective or parasitic disease during pregnancy, childbirth or the puerperium NOS
+L17z.	Maternal infective or parasitic disease NOS in pregnancy, childbirth and the puerperium
+L17z0	Maternal infective or parasitic disease NOS, unspecified whether during pregnancy or the puerperium
+L17z1	Maternal infective or parasitic disease NOS, during pregnancy - baby delivered
+L17z2	Maternal infective or parasitic disease NOS, in the puerperium - baby delivered during current episode of care
+L17z3	Maternal infective or parasitic disease NOS, during pregnancy - baby not yet delivered
+L17z4	Maternal infective or parasitic disease NOS, in the puerpium - baby delivered during previous episode of care
+L17zz	Maternal infective or parasitic disease NOS, during pregnancy, childbirth or the puerperium NOS
+L18..	Other medical condition during pregnancy, childbirth and the puerperium
+L180.	Diabetes mellitus during pregnancy, childbirth and the puerperium
+L1800	Diabetes mellitus - unspecified whether during pregnancy or the puerperium
+L180z	Diabetes mellitus during pregnancy, childbirth or the puerperium NOS
+L181.	Thyroid dysfunction during pregnancy, childbirth and the puerperium
+L1810	Thyroid dysfunction - unspecified whether during pregnancy or the puerperium
+L181z	Thyroid dysfunction durin pregnancy, childbirth or the puerperium NOS
+L182.	Anaemia during pregnancy, childbirth and the puerperium
+L1820	Anaemia - unspecified whether during pregnancy or the puerperium
+L182z	Anaemia during pregnancy/childbirth/puerperium NOS
+L183.	Drug dependence during pregnancy, childbirth and the puerperium
+L183.	Pregnancy and drug dependence
+L1830	Drug dependence - unspecified whether during pregnancy or the puerperium
+L183z	Drug dependence during pregnancy, childbirth or the puerperium NOS
+L184.	Mental disorders during pregnancy, childbirth and the puerperium
+L1840	Mental disorder - unspecified whether during pregnancy or the puerperium
+L184z	Mental disorder during pregnancy, childbirth or the puerperium NOS
+L185.	Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium
+L185.	Congenital heart disease in pregnancy
+L1850	Congenital cardiovascular disorder - unspecified whether during pregnancy or the puerperium
+L185z	Congenital cardiovascular disorder during pregnancy, childbirth or the puerperium NOS
+L186.	Heart disease during pregnancy
+L186.	Other cardiovascular diseases during pregnancy, childbirth and the puerperium
+L186.	Other CVS diseases in pregnancy, childbirth and the puerperium (& [heart disease])
+L1860	Other cardiovascular disease - unspecified whether during pregnancy or the puerperium
+L1861	Other cardiovascular disease during pregnancy - baby delivered
+L1862	Other cardiovascular disease in the puerperium - baby delivered during current episode of care
+L1863	Other cardiovascular disease during pregnancy - baby not yet delivered
+L1864	Other cardiovascular disese in the puerperium - baby delivered during previous episode of care
+L186z	Other cardiovascular disease during pregnancy, childbirth or the puerperium NOS
+L187.	Orthopaedic disorders during pregnancy, childbirth and the puerperium
+L1870	Orthopaedic disorder - unspecified whether during pregnancy or the puerperium
+L187z	Orthopaedic disorder during pregnancy, childbirth or the puerperium NOS
+L188.	Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium
+L1880	Abnormal glucose tolerance test - unspecified whether during pregnancy or the puerperium
+L188z	Abnormal glucose tolerance test during pregnancy, childbirth or the puerperium NOS
+L189.	Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium
+L18A.	Diseases of the digestive system complicating pregnancy, childbirth and the puerperium
+L18B.	Diseases of the skin and subcutaneous tissue complicating pregnancy, childbirth and the puerperium
+L18C.	Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium
+L18D.	Disease of nervous system complicating pregnancy, childbirth and puerperium
+L18z.	Medical condition NOS during pregnancy, childbirth and the puerperium
+L18z0	Medical condition NOS, unspecified whether during pregnancy or the puerperium
+L18z1	Medical condition NOS during pregnancy - baby delivered
+L18z2	Medical condition NOS, in the puerperium - baby delivered during current episode of care
+L18z3	Medical condition NOS, during pregnancy - baby not yet delivered
+L18z4	Medical condition NOS, in the puerperium - baby delivered during previous episode of care
+L18zz	Medical condition NOS, during pregnancy, childbirth or the puerperium NOS
+L1A..	Subluxation of symphysis pubis in pregnancy, childbirth and the puerperium
+L24..	Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium
+L240.	Bicornuate uterus in pregnancy, childbirth and the puerperium
+L240.	Congenital abnormality of uterus in pregnancy, childbirth and the puerperium
+L240.	Double uterus in pregnancy, childbirth and the puerperium
+L240z	Bicornuate uterus in pregnancy, childbirth or puerperium NOS
+L240z	Congenital abnormality of uterus in pregnancy, childbirth or the puerperium NOS
+L240z	Congenital uterus abnormality (& [bicornuate]) in pregnancy, childbirth or the puerperium NOS
+L241.	Tumour of uterine body in pregnancy, childbirth and the puerperium
+L241.	Uterine fibroids in pregnancy, childbirth and the puerperium
+L241z	Tumour of uterine body in pregnancy, childbirth or the puerperium NOS
+L241z	Uterine body tumour (& [uterine fibroid]) in pregnancy or childbirth or the puerperium NOS
+L241z	Uterine fibroid in pregnancy, childbirth or the puerperium NOS
+L242.	Uterine scar from previous surgery in pregnancy, childbirth and the puerperium
+L2420	Uterine scar from previous surgery in pregnancy, childbirth and the puerperium unspecified
+L242z	Uterine scar from previous surgery in pregnancy, childbirth and the puerperium NOS
+L244.	Cystocele in pregnancy, childbirth and the puerperium
+L244.	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+L244.	Pendulous abdomen in pregnancy,childbirth and the puerperium
+L244.	Rectocele in pregnancy, childbirth and the puerperium
+L2440	Cystocele affecting obstetric care
+L2440	Other uterine or pelvic floor abnormality affecting obstetric care
+L2440	Rectocele affecting obstetric care
+L2442	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+L2443	Other uterine or pelvic floor abnormality - baby not yet delivered
+L2444	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+L244z	Cystocele in pregnancy, childbirth or the puerperium NOS
+L244z	Other uterine or pelvic floor abnormality (& [cystocele] or [rectocele]) in pregnancy, childbirth or the puerperium NOS
+L244z	Other uterine or pelvic floor abnormality in pregnancy, childbirth or the puerperium NOS
+L244z	Rectocele in pregnancy, childbirth or the puerperium NOS
+L246.	Other cervical abnormality in pregnancy, childbirth and the puerperium
+L246.	Polyp of cervix in pregnancy, childbirth and the puerperium
+L246.	Stenosis of cervix in pregnancy, childbirth and the puerperium
+L2460	Other cervical abnormality affecting obstetric care
+L2461	Other cervical abnormality - baby delivered
+L2462	Other cervical abnormality - baby delivered with postpartum complication
+L2463	Other cervical abnormality complicating antenatal care - baby not yet delivered
+L2464	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+L246z	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+L246z	Polyp of cervix in pregnancy, childbirth or the puerperium NOS
+L246z	Stenosis of cervix in pregnancy, childbirth or the puerperium NOS
+L247.	Congenital or acquired abnormality of vagina in pregnancy, childbirth and the puerperium
+L247.	Septate vagina in pregnancy, childbirth and the puerperium
+L247.	Stenosis of vagina in pregnancy, childbirth and the puerperium
+L247.	Vaginal abnormality in pregnancy, childbirth and the puerperium
+L2470	Septate vagina affecting obstetric care
+L2470	Stenosis of vagina affecting obstetric care
+L247z	Congenital or acquired abnormality of vagina in pregnancy, childbirth or the puerperium NOS
+L247z	Septate vagina in pregnancy, childbirth or the puerperium NOS
+L247z	Stenosis of vagina in pregnancy, childbirth or the puerperium NOS
+L248.	Congenital or acquired abnormality of vulva in pregnancy, childbirth and the puerperium
+L248.	Persistent hymen in pregnancy, childbirth and the puerperium
+L248.	Rigid perineum in pregnancy, childbirth and the puerperium
+L248.	Vulval abnormality in pregnancy, childbirth and the puerperium
+L2480	Congenital or acquired abnormality of vulva affecting obstetric care
+L2480	Persistent hymen affecting obstetric care
+L2480	Rigid perineum affecting obstetric care
+L2483	Congenital or acquired abnormality of vulva complicating antenatal care - baby not yet delivered
+L248z	Congenital or acquired abnormality of vulva in pregnancy, childbirth or the puerperium NOS
+L248z	Persistent hymen in pregnancy, childbirth or the puerperium NOS
+L248z	Rigid perineum in pregnancy, childbirth or the puerperium NOS
+L24z0	Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium unspecified
+L24zz	Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium NOS
+L2553	Maternal care for (suspected) damage to fetus from alcohol
+L261.	Anti-D antibodies
+L261.	Rhesus isoimmunisation
+L2610	Rhesus isoimmunisation unspecified
+L261z	Rhesus isoimmunisation NOS
+L2633	(Labour and delivery complicated by fetal heart rate anomaly) or (maternal care for fetal hypoxia)
+L2633	Maternal care for fetal hypoxia
+L2637	Maternal care for fetal hypoxia
+L28y.	Amniotic cyst
+L356.	Obstetric pelvic joint damage
+L356.	Obstetric pelvic ligament damage
+L356.	Obstetric trauma damaging pelvic joints and ligaments
+L356.	Pubic symphysis separation
+L356.	Symphysis pubis separation
+L3560	Obstetric damage to pelvic joints and ligaments unspecified
+L356z	Obstetric damage to pelvic joints and ligaments NOS
+L390.	Maternal distress in labour
+L3900	Maternal distress unspecified
+L390z	Maternal distress NOS
+L394.	Other complications of obstetric procedures
+L3940	Other complications of obstetric procedures unspecified
+L394z	Other complications of obstetric procedures NOS
+L39y5	Exhaustion during labour
+L39y5	Maternal exhaustion in labour
+L41..	Varicose veins - obstetric
+L41..	Venous complications of pregnancy and the puerperium
+L410.	Varicose veins of legs in pregnancy and the puerperium
+L4100	Varicose veins of legs in pregnancy and the puerperium unspecified
+L410z	Varicose veins of legs in pregnancy and puerperium NOS
+L411.	Perineal obstetric varicose veins
+L411.	Varicose veins of perineum and vulva in pregnancy and the puerperium
+L411.	Vulval obstetric varicose veins
+L4110	Varicose veins of perineum and vulva in pregnancy and the puerperium unspecified
+L4113	Varicose veins of perineum and vulva in pregnancy and the puerperium with antenatal complication
+L411z	Varicose veins of perineum and vulva in pregnancy and the puerperium NOS
+L412.	Superficial thrombophlebitis in pregnancy and the puerperium
+L4120	Superficial thrombophlebitis in pregnancy and the puerperium unspecified
+L4123	Superficial thrombophlebitis in pregnancy and the puerperium with antenatal complication
+L412z	Superficial thrombophlebitis in pregnancy and the puerperium NOS
+L415.	Other phlebitis and thrombosis in pregnancy and the puerperium
+L4150	Other phlebitis and thrombosis in pregnancy and the puerperium unspecified
+L4151	Other phlebitis and thrombosis in pregnancy and the puerperium - delivered
+L4152	Other phlebitis and thrombosis in pregnancy and the puerperium - delivered with postnatal complication
+L4153	Other phlebitis and thrombosis in pregnancy and the puerperium with antenatal complication
+L4154	Other phlebitis and thrombosis in pregnancy and the puerperium with postnatal complication
+L415z	Other phlebitis and thrombosis in pregnancy and the puerperium NOS
+L416.	Haemorrhoids in pregnancy and the puerperium
+L416.	Piles - obstetric
+L4160	Haemorrhoids in pregnancy and the puerperium unspecified
+L4163	Haemorrhoids in pregnancy and the puerperium with antenatal complication
+L416z	Haemorrhoids in pregnancy and the puerperium NOS
+L417.	Obstetric cerebral venous thrombosis
+L41y.	Other venous complication of pregnancy and the puerperium
+L41y0	Other venous complication of pregnancy and the puerperium unspecified
+L41y1	Other venous complication of pregnancy and the puerperium - delivered
+L41y2	Other venous complication of pregnancy and the puerperium - delivered with postnatal complication
+L41y3	Other venous complication of pregnancy and the puerperium with antenatal complication
+L41y4	Other venous complication of pregnancy and the puerperium with postnatal complication
+L41yz	Other venous complication of pregnancy and the puerperium NOS
+L41z.	Venous complications of pregnancy and puerperium NOS
+L41z0	Venous complication of pregnancy and the puerperium NOS, unspecified
+L41z1	Venous complication of pregnancy and the puerperium NOS - delivered
+L41z2	Venous complication of pregnancy and the puerperium NOS - delivered with postnatal complication
+L41z3	Venous complication of pregnancy and the puerperium NOS with antenatal complication
+L41z4	Venous complication of pregnancy and the puerperium NOS with postnatal complication
+L41z5	Gestational phlebitis NOS
+L41z5	Gestational phlebopathy NOS
+L41z5	Gestational thrombosis NOS
+L41z6	Venous complication in the puerperium, unspecified
+L41zz	Venous complication of pregnancy and puerperium NOS
+L43..	Obstetric pulmonary embolism
+L43..	Obstetric pulmonary embolus
+L430.	Obstetric air pulmonary embolism
+L4300	Obstetric air pulmonary embolism unspecified
+L430z	Obstetric air pulmonary embolism NOS
+L432.	Obstetric blood-clot pulmonary embolism
+L4320	Obstetric blood-clot pulmonary embolism unspecified
+L432z	Obstetric blood-clot pulmonary embolism NOS
+L433.	Obstetric pyaemic &/or septic pulmonary embolism
+L433.	Obstetric pyaemic and septic pulmonary embolism
+L433.	Pyaemic obstetric embolism
+L433.	Septic obstetric embolism
+L4330	Obstetric pyaemic and septic pulmonary embolism unspecified
+L433z	Obstetric pyaemic and septic pulmonary embolism NOS
+L43y.	Fat embolism - obstetric
+L43y.	Obstetric embolism: [other pulmonary] or [fat]
+L43y.	Other obstetric pulmonary embolism
+L43y0	Other obstetric pulmonary embolism unspecified
+L43y1	Other obstetric pulmonary embolism - delivered
+L43y2	Other obstetric pulmonary embolism - delivered with postnatal complication
+L43y3	Other obstetric pulmonary embolism with antenatal complication
+L43y4	Other obstetric pulmonary embolism with postnatal complication
+L43yz	Other obstetric pulmonary embolism NOS
+L43z.	Obstetric pulmonary embolism NOS
+L43z0	Obstetric pulmonary embolism NOS, unspecified
+L43z1	Obstetric pulmonary embolism NOS - delivered
+L43z2	Obstetric pulmonary embolism NOS - delivered with postnatal complication
+L43z3	Obstetric pulmonary embolism NOS with antenatal complication
+L43z4	Obstetric pulmonary embolism NOS with postnatal complication
+L443.	Other complication of obstetric surgical wound
+L4430	Other complication of obstetric surgical wound unspecified
+L443z	Other complication of obstetric surgical wound NOS
+L45..	Obstetric breast infections
+L450.	Abscess of nipple - obstetric
+L450.	Nipple infection - obstetric
+L450.	Obstetric nipple infection
+L4500	Obstetric nipple infection unspecified
+L450z	Obstetric nipple infection NOS
+L451.	Obstetric breast abscess
+L451.	Obstetric breast abscess (& purulent mastitis)
+L451.	Purulent mastitis - obstetric
+L4510	Obstetric breast abscess unspecified
+L451z	Obstetric breast abscess NOS
+L452.	Lymphangitis of breast - obstetric
+L45y.	Other obstetric breast infections
+L45y0	Other obstetric breast infection unspecified
+L45y1	Other obstetric breast infection - delivered
+L45y2	Other obstetric breast infection - delivered with postnatal complication
+L45y3	Other obstetric breast infection with antenatal complication
+L45y4	Other obstetric breast infection with postnatal complication
+L45yz	Other obstetric breast infection NOS
+L45z.	Obstetric breast infection NOS
+L45z0	Obstetric breast infection NOS, unspecified
+L45z1	Obstetric breast infection NOS - delivered
+L45z2	Obstetric breast infection NOS - delivered with postnatal complication
+L45z3	Obstetric breast infection NOS with antenatal complication
+L45z4	Obstetric breast infection NOS with postnatal complication
+L46..	Lactation problems
+L46..	Lactation: [problems] or [& obstetric breast disorders NOS])
+L46..	Obstetric breast and lactation disorders NOS
+L460.	Retracted nipple in pregnancy, the puerperium or lactation
+L4600	Retracted nipple in pregnancy, the puerperium or lactation unspecified
+L4603	Retracted nipple in pregnancy, the puerperium or lactation with antenatal complication
+L460z	Retracted nipple in pregnancy, the puerperium or lactation NOS
+L461.	Cracked nipple in pregnancy, the puerperium or lactation
+L461.	Fissure of nipple
+L4610	Cracked nipple in pregnancy, the puerperium or lactation unspecified
+L4613	Cracked nipple in pregnancy, the puerperium or lactation with antenatal complication
+L461z	Cracked nipple in pregnancy, the puerperium or lactation NOS
+L462.	Breast engorgement in pregnancy, the puerperium or lactation
+L4620	Breast engorgement in pregnancy, the puerperium or lactation unspecified
+L4623	Breast engorgement in pregnancy, the puerperium or lactation with antenatal complication
+L4624	Breast engorgement in pregnancy/puerperium/lact + p/n comp
+L462z	Breast engorgement
+L462z	Breast engorgement (& in pregnancy, puerperium or lactation NOS)
+L462z	Breast engorgement in pregnancy, the puerperium or lactation NOS
+L463.	Other breast disorder in pregnancy, the puerperium or lactation
+L4630	Other breast disorder in pregnancy, the puerperium or lactation unspecified
+L4631	Other breast disorder in pregnancy, the puerperium or lactation - delivered
+L4632	Other breast disorder in pregnancy, the puerperium or lactation - delivered with postnatal complication
+L4633	Other breast disorder in pregnancy, the puerperium or lactation with antenatal complication
+L4634	Other breast disorder in pregnancy, the puerperium or lactation with postnatal complication
+L463z	Other breast disorder in pregnancy, the puerperium or lactation NOS
+L466.	Galactorrhoea in pregnancy and the puerperium
+L4660	Galactorrhoea in pregnancy and the puerperium unspecified
+L4663	Galactorrhoea in pregnancy and the puerperium with antenatal complication
+L466z	Galactorrhoea in pregnancy and the puerperium NOS
+L46y.	Galactocele - obstetric
+L46y.	Other disorders of lactation
+L46y.	Other disorders of lactation (& obstetric galactocele)
+L46y0	Other disorder of lactation unspecified
+L46y1	Other disorder of lactation - delivered
+L46y2	Other disorder of lactation - delivered with postnatal complication
+L46y3	Other disorder of lactation with antenatal complication
+L46y4	Other disorder of lactation with postnatal complication
+L46yz	Other disorder of lactation NOS
+L46z.	Disorders of lactation NOS
+L46z0	Disorder of lactation NOS, unspecified
+L46z1	Disorder of lactation NOS - delivered
+L46z2	Disorder of lactation NOS - delivered with postnatal complication
+L46z3	Disorder of lactation NOS with antenatal complication
+L46z4	Disorder of lactation NOS with postnatal complication
+L46zz	Disorder of lactation NOS
+L5...	Maternal care for fetus
+L50..	Maternal care for compound presentation
+L51..	Maternal care for other known or suspected fetal problems
+L510.	Maternal care for hydrops fetalis
+L511.	Maternal care for viable fetus in abdominal pregnancy
+L512.	Maternal care for diminished fetal movements
+L514.	Maternal care for intrauterine growth retardation
+L514.	Maternal care for poor fetal growth
+Ly...	Other specified complications of pregnancy, childbirth or the puerperium
+Lyu1.	[X]Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium
+Lyu2.	[X]Other maternal disorders predominantly related to pregnancy
+Lyu27	[X]Other complications of spinal and epidural anaesthesia during pregnancy
+Lyu28	[X]Other complications of anaesthesia during pregnancy
+Lyu33	[X]Maternal care for other abnormalities of cervix
+Lyu3A	[X]Maternal care for known or suspected fetal problem, unspecified
+Lyu63	[X]Other venous complications in the puerperium
+Lyu64	[X]Other obstetric embolism
+Lyu68	[X]Other and unspecified disorders of breast associated with childbirth
+Lyu69	[X]Other and unspecified disorders of lactation
+Lyu7.	[X]Other obstetric conditions, not elsewhere classified
+Lyu70	[X]Other infections with a predominantly sexual mode of transmission complicating pregnancy childbirth and the puerperium
+Lyu71	[X]Other viral diseases complicating pregnancy, childbirth and the puerperium
+Lyu72	[X]Other infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium
+Lyu74	[X] Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium
+Lz...	Complications of pregnancy, childbirth and the puerperium NOS
+PK80.	FAS - Fetal alcohol syndrome
+PK80.	Fetal alcohol syndrome
+PK83.	Fetus and newborn affected by maternal use of alcohol
+Q....	Fetal and neonatal conditions
+Q....	Fetus and neonate conditions
+Q....	Perinatal conditions
+Q0...	Fetus or neonate affected by maternal problem unrelated to pregnancy
+Q00..	Fetus or neonate affected by maternal medical problems
+Q000.	Fetus affected by maternal toxaemia
+Q000.	Fetus or neonate affected by maternal hypertensive disease
+Q000.	Fetus or neonate affected by maternal hypertensive disease (& [fetus affected by maternal toxaemia])
+Q001.	Fetus or neonate affected by maternal renal &/or urinary disease
+Q001.	Fetus or neonate affected by maternal renal disease
+Q001.	Fetus or neonate affected by maternal renal or urinary disease
+Q001.	Fetus or neonate affected by maternal urinary disease
+Q002.	Fetus or neonate affected by maternal infections
+Q003.	Fetus or neonate affected by other chronic maternal circulatory or respiratory disease
+Q0030	Fetus or neonate affected by other chronic maternal circulatory disease
+Q0031	Fetus or neonate affected by other chronic maternal respiratory disease
+Q003z	Fetus or neonate affected by other chronic maternal circulatory orrespiratory disease NOS
+Q005.	Fetus or neonate affected by maternal injury
+Q006.	Fetus or neonate affected by maternal surgical operation
+Q007.	Fetus or neonate affected by poison transferred via placenta or breast
+Q0070	Fetus or neonate affected by placental or breast transfer of unspecified poison
+Q0071	Fetal alcohol syndrome
+Q0071	Fetus or neonate affected by placental or breast transfer of alcohol
+Q0072	Fetus or neonate affected by placental or breast transfer of narcotics
+Q0073	Fetus or neonate affected by placental or breast transfer of hallucinogen
+Q0074	Fetus or neonate affected by placental or breast transfer of anti-infective
+Q0074	Fetus or neonate affected by placental or breast transfer of anti-infective (& [antibiotic])
+Q0074	Fetus or neonate affected by placental or breast transfer of antibiotic
+Q0075	Fetus or neonate affected by placental or breast transfer of immune sera
+Q0076	Fetus or neonate affected by placental or breast transfer of anticonvulsant
+Q0078	Fetus or neonate affected by placental or breast transfer of chemotherapeutic agent
+Q0079	Fetus or neonate affected by placental or breast transfer of uterine depressant
+Q007A	Fetus or neonate affected by placental or breast transfer of hypoglycaemic agent
+Q007B	Fetus or neonate affected by placental or breast transfer of endocrine agent
+Q007C	Fetus or neonate affected by placental or breast transfer of other drug of addiction
+Q007w	Fetus or neonate affected by placental or breast transfer of medicine NEC
+Q007x	Fetus or neonate affected placental or breast transfer of toxic substance NEC
+Q007y	Fetus or neonate affected by poison transferred via placenta or breast OS
+Q007z	Fetus or neonate affected by poison transferred via placenta or breast NOS
+Q00y.	Fetus or neonate affected by other maternal condition
+Q00z.	Fetus or neonate affected by maternal medical problem NOS
+Q01..	Fetus or neonate affected by maternal complication of pregnancy
+Q015.	Fetus or neonate affected by multiple pregnancy
+Q0150	Fetus or neonate affected by unspecified multiple pregnancy
+Q0151	Fetus or neonate affected by twin pregnancy
+Q0152	Fetus or neonate affected by triplet pregnancy
+Q015z	Fetus or neonate affected by multiple pregnancy NOS
+Q016.	Fetus &/or neonate affected by maternal death
+Q016.	Fetus affected by maternal death
+Q016.	Fetus or neonate affected by maternal death
+Q01y.	Fetus or neonate affected by other maternal complication of pregnancy
+Q01z.	Fetus or neonate affected by maternal complication of pregnancy NOS
+Q02..	Fetus or neonate affected by complications of placenta, cord and membrane
+Q021.	Fetus or neonate affected by other placental separation and haemorrhage
+Q0210	Fetus or neonate affected by antepartum haemorrhage, unspecified
+Q021y	Fetus or neonate affected by other specified placental damage
+Q021y	Fetus or neonate affected by other specified placental separation or haemorrhage
+Q021y	Fetus or neonate affected by other specified placental: [separation or haemorrhage] or [damage]
+Q021z	Fetus or neonate affected by placental separation or haemorrhage NOS
+Q022.	Fetus/neonate affected by placental abnormality NEC
+Q022.	Fetus/neonate affected by placental abnormality: [NEC] or [insufficiency]
+Q022y	Fetus or neonate affected by other specified placental abnormality
+Q022z	Fetus or neonate affected by placental abnormality NOS
+Q023.	Fetus or neonate affected by placental transfusion syndrome
+Q0230	Fetus or neonate affected by feto-fetal transplacental transfusion
+Q0230	Fetus or neonate affected by twin-to-twin transplacental transfusion
+Q0231	Fetus or neonate affected by fetomaternal transplacental transfusion
+Q0232	Fetus or neonate affected by maternofetal transplacental transfusion
+Q023z	Fetus or neonate affected by placental transfusion syndrome NOS
+Q026.	Fetus affected by cord problems
+Q026.	Fetus or neonate affected by cord problems &/or other specified
+Q026.	Fetus or neonate affected by other specified cord problems
+Q0264	Fetus or neonate affected by vasa praevia of cord
+Q026z	Fetus or neonate affected by cord problems NOS
+Q027.	Fetus or neonate affected by chorioamnionitis
+Q0270	Fetus or neonate affected by placentitis unspecified
+Q0271	Fetus or neonate affected by amnionitis
+Q02y.	Fetus or neonate affected by other abnormalities of chorion and amnion
+Q02z.	Fetus or neonate affected by abnormalities of chorion or amnion NOS
+Q031.	Fetus &/or neonate affected by malposition or disproportion during labour &/or delivery
+Q031.	Fetus affected by malpresentation during delivery
+Q031.	Fetus or neonate affected by malposition or disproportion during labour or delivery
+Q031y	Fetus or neonate affected by other specified malposition, malpresentation or disproportion during labour and delivery
+Q031z	Fetus or neonate affected by malposition or disproportion during labour or delivery NOS
+Q031z	Fetus or neonate affected by obstructed labour NEC
+Q031z	Fetus or neonate affected by: [malposition or disproportion during labour or delivery NOS] or [obstructed labour NEC]
+Q04..	Fetus and newborn affected by noxious influences transmitted via placenta or breast milk
+Q041.	Fetus and newborn affected by maternal use of nutritional chemical substances
+Q042.	Fetus and newborn affected by maternal exposure to environmental chemical substances
+Q0y..	Other specified maternal problems unrelated to pregnancy affecting fetus or neonate
+Q0z..	Maternal problem unrelated to pregnancy affecting the fetus or neonate NOS
+Q1...	Disorders due to slow fetal growth, low and high birth weight
+Q1y..	Other specified disorders of slow fetal growth, low and high birth weight
+Q1z..	Disorders slow fetal growth, low and high birth weight NOS
+Q4...	Other perinatal conditions
+Q400.	Congenital rubella
+Q400.	Extended rubella syndrome
+Q4021	Congenital listeriosis
+Q4021	Neonatal disseminated listeriosis
+Q4021	Neonatal listeriosis
+Q4023	Congenital hydrocephalus due to toxoplasmosis
+Q4023	Congenital toxoplasmosis
+Q4023	Lymphadenopathy due to congenital toxoplasmosis
+Q41..	Fetal and neonatal haemorrhage
+Q4110	Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn
+Q4111	Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn
+Q4112	Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn
+Q417.	Intracranial nontraumatic haemorrhage of fetus and newborn
+Q4170	Intracerebral (nontraumatic) haemorrhage of fetus and newborn
+Q4171	Cerebellar (nontraumatic) and posterior fossa haemorrhage of fetus and newborn
+Q41y.	Other fetal and newborn haemorrhage
+Q41yy	Other specified fetal or newborn haemorrhage
+Q41yz	Fetal or newborn haemorrhage NOS
+Q41z.	Haemorrhage of fetus and newborn NOS
+Q420.	Erythroblastosis fetalis
+Q420.	Haemolytic disease due to rhesus isoimmunisation
+Q420.	Rhesus isoimmunisation of the newborn
+Q421.	ABO haemolytic disease of the newborn
+Q421.	ABO HDN - ABO haemolytic disease of the newborn
+Q421.	ABO isoimmunisation of the newborn
+Q421.	Haemolytic disease due to ABO isoimmunisation
+Q422.	Haemolytic disease due to isoimmunisation NOS
+Q42z.	Haemolytic disease of fetus and newborn due to isoimmunisation NOS
+Q45..	Fetal and newborn blood disorders
+Q4540	Polycythaemia due to donor twin transfusion
+Q4571	Maternal transfer neutropenia
+Q45y.	Other specified transient neonatal blood disorder
+Q45z.	Fetal or newborn blood disorder NOS
+Q48..	Other and ill-defined perinatal conditions
+Q48y.	Other specified perinatal condition
+Q48yz	Other perinatal condition NOS
+Q4z..	Other perinatal conditions NOS
+Qy...	Other specified perinatal conditions
+Qyu..	[X]Additional perinatal disease classification terms
+Qyu0.	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
+Qyu00	[X]Fetus and newborn affected by other maternal circulatory and respiratory diseases
+Qyu01	[X]Fetus and newborn affected by other medical procedure on mother, not elsewhere classified
+Qyu02	[X]Fetus and newborn affected by other maternal conditions
+Qyu03	[X]Fetus and newborn affected by other maternal complications of pregnancy
+Qyu07	[X]Fetus and newborn affected by other and unspecified conditions of umbilical cord
+Qyu08	[X]Fetus and newborn affected by other abnormalities of chorion and amnion
+Qyu0B	[X]Fetus and newborn affected by other maternal medication
+Qyu0C	[X]Fetus and newborn affected by other maternal noxious influences
+Qyu3.	[X]Respiratory and cardiovascular disorders specific to the perinatal period
+Qyu5.	[X]Haemorrhagic and haematological disorders of fetus and newborn
+Qyu52	[X]Other intracranial (nontraumatic) haemorrhages of fetus and newborn
+Qyu54	[X]Other specified fetal and neonatal haemorrhages
+Qyu55	[X]Other haemolytic diseases of fetus and newborn
+Qyu5E	[X]Other specified perinatal haematological disorders
+Qyu5F	[X]Intracranial nontraumatic haemorrhage fetus newborn unspecified
+Qyu68	[X]Transitory disorder carbohydrate metabolism of fetus and newborn unspecified
+QyuA.	[X]Other disorders originating in the perinatal period
+QyuA3	[X]Other specified conditions originating in the perinatal period
+Qz...	Perinatal conditions NOS
+SP0D.	Complications associated with artificial fertilisation
+Ua0Up	Maternity leave
+Ua0Up	On maternity leave
+X406F	Female genital and obstetric disorder
+X407K	Disorder of cervix
+X409b	Persistent hymen affecting obstetric care
+X409c	Vaginal abnormality in pregnancy, childbirth and the puerperium
+X409d	Stenosis of vagina in pregnancy, childbirth and the puerperium
+X409D	Pregnancy, childbirth and puerperal disorders
+X409e	Stenosis of vagina in pregnancy, childbirth or the puerperium NOS
+X409j	Stenosis of vagina affecting obstetric care
+X409k	Septate vagina in pregnancy, childbirth and the puerperium
+X409l	Septate vagina in pregnancy, childbirth or the puerperium NOS
+X409N	Vulval abnormality in pregnancy, childbirth and the puerperium
+X409O	Rigid perineum in pregnancy, childbirth and the puerperium
+X409P	Rigid perineum in pregnancy, childbirth or the puerperium NOS
+X409q	Septate vagina affecting obstetric care
+X409r	Stenosis of cervix in pregnancy, childbirth and the puerperium
+X409s	Stenosis of cervix in pregnancy, childbirth or the puerperium NOS
+X409U	Rigid perineum affecting obstetric care
+X409V	Persistent hymen in pregnancy, childbirth and the puerperium
+X409w	Polyp of cervix in pregnancy, childbirth and the puerperium
+X409W	Persistent hymen in pregnancy, childbirth or the puerperium NOS
+X409x	Polyp of cervix in pregnancy, childbirth or the puerperium NOS
+X40A1	Rectocele in pregnancy, childbirth or the puerperium NOS
+X40A2	Cystocele in pregnancy, childbirth or the puerperium NOS
+X40A9	Cystocele affecting obstetric care
+X40AA	Rectocele affecting obstetric care
+X40AD	Rectocele in pregnancy, childbirth and the puerperium
+X40AE	Pendulous abdomen in pregnancy,childbirth and the puerperium
+X40AF	Cystocele in pregnancy, childbirth and the puerperium
+X40AG	Uterine fibroid in pregnancy, childbirth or the puerperium NOS
+X40AM	Uterine fibroids in pregnancy, childbirth and the puerperium
+X40AN	Bicornuate uterus in pregnancy, childbirth or puerperium NOS
+X40AT	Bicornuate uterus in pregnancy, childbirth and the puerperium
+X40AT	Double uterus in pregnancy, childbirth and the puerperium
+X40AU	Heart disease during pregnancy
+X40AV	Congenital heart disease in pregnancy
+X40AW	Pregnancy and drug dependence
+X40AX	Rubella contact in pregnancy
+X40AZ	Nephropathy NOS in pregnancy without hypertension
+X40Bj	Amniotic cyst
+X40CT	Anti-D antibodies
+X40Dc	Fat embolism - obstetric
+X40Df	Varicose veins - obstetric
+X40Dg	Vulval obstetric varicose veins
+X40Dh	Perineal obstetric varicose veins
+X40DJ	Pubic symphysis separation
+X40DJ	Symphysis pubis separation
+X40DK	Obstetric pelvic ligament damage
+X40DL	Obstetric pelvic joint damage
+X40Dq	Obstetric disorders of breast and lactation
+X40Dr	Abscess of nipple - obstetric
+X40Dv	Obstetric galactocele
+X40Dx	Direct maternal death
+X40E1	Intrapartum fetal death
+X40Fn	Galactocele - obstetric
+X40Jj	Pregnancy and IDDM
+X40Jj	Pregnancy and insulin-dependent diabetes mellitus
+X74V6	Maternity care
+X76VF	Complete placenta at delivery
+X76VQ	Membranes complete
+X76VR	Membranes incomplete
+X76VR	Ragged membranes
+Xa07W	Perinatal and neonatal death
+Xa08x	EF - Erythroblastosis fetalis
+Xa08x	Erythroblastosis fetalis
+Xa08x	Haemolytic disease of fetus and newborn due to isoimmunisation
+Xa08x	Haemolytic disease of the newborn
+Xa08x	HDN - Haemolytic disease of the newborn
+Xa08x	Isoimmunisation of newborn
+Xa09f	Growth delay
+Xa0AG	Perinatal intracranial haemorrhage
+Xa0AY	Extended congenital rubella syndrome
+Xa0AY	Extended rubella syndrome
+Xa0lt	Pre-existing hypertension complicating pregnancy
+Xa1v6	Lymphadenopathy due to congenital toxoplasmosis
+Xa1v7	Congenital hydrocephalus due to toxoplasmosis
+Xa3g3	Disorders of cervix NOS
+Xa3gC	Obstetric disorders NOS
+Xa40W	Fetus with maternal problem NOS
+Xa41M	Maternal pregnancy problem
+Xa41Q	Maternal pregnancy problem NOS
+Xa41R	Maternal cord/placental problem NOS
+Xa4k6	Lactation problem
+Xa8Pm	Placentacentesis
+Xa8Pm	Placental biopsy
+Xa9gh	Endoscopic oocyte recovery NEC
+XaaTh	Postnatal examination third invitation
+XaB42	Other isoimmunisation of the newborn
+XaBG8	Maternity claim status
+XaBJz	Gestational phlebitis NOS
+XaBJz	Gestational phlebopathy NOS
+XaBJz	Gestational thrombosis NOS
+XaBMH	Other phlebitis in pregnancy
+XaBMI	Other phlebitis in the puerperium
+XaBML	Venous complication in the puerperium, unspecified
+XaDzR	Maternal care for suspected central nervous system malformation in fetus
+XaDzS	Maternal care for central nervous system malformation in fetus
+XaDzT	Maternal care for suspected chromosomal abnormality in fetus
+XaDzV	Maternal care for chromosomal abnormality in fetus
+XaDzW	Maternal care for damage to fetus from maternal rubella
+XaDzX	Maternal care for suspected fetal abnormality and damage, unspecified
+XaDzY	Maternal care for fetal abnormality and damage, unspecified
+XaE6r	Maternal care for fetal bradycardia during pregnancy
+XaE6r	Maternal care for reduced fetal heart rate during pregnancy
+XaE71	Maternal care for fetal decelerations during pregnancy
+XaE72	Maternal care for fetal tachycardia during pregnancy
+XaE73	Maternal care for fetal acidosis during pregnancy
+XaK9w	Intrapartum care enhanced services administration
+XaKAM	Intrapartum care enhanced service completed
+XaPOv	Fetus or neonate affected by maternal postnatal depression
+XaRFX	Pregnancy advice for patients with epilepsy
+XE072	Laparoscopic oocyte recovery
+XE0gZ	Cervix disorders
+XE0gZ	Disorders of cervix (& [NOS])
+XE0gZ	Disorders of cervix NOS
+XE0vr	Gestational hypertension
+XE0vr	GH - Gestational hypertension
+XE0vr	Hypertension complicating childbirth
+XE0vr	Hypertension complicating pregnancy
+XE0vr	Hypertension induced by pregnancy
+XE0vv	Unspecified renal disease in pregnancy
+XE0vy	Drug dependence during pregnancy, childbirth and the puerperium
+XE0vz	Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium
+XE0w0	Other cardiovascular diseases during pregnancy, childbirth and the puerperium
+XE0w5	Congenital abnormality of uterus in pregnancy, childbirth and the puerperium
+XE0wb	Congenital or acquired abnormality of vagina in pregnancy, childbirth or the puerperium NOS
+XE0wB	Congenital abnormality of uterus in pregnancy, childbirth or the puerperium NOS
+XE0wc	Congenital or acquired abnormality of vulva in pregnancy, childbirth and the puerperium
+XE0wC	Tumour of uterine body in pregnancy, childbirth and the puerperium
+XE0wd	Congenital or acquired abnormality of vulva affecting obstetric care
+XE0wg	Congenital or acquired abnormality of vulva complicating antenatal care - baby not yet delivered
+XE0wi	Congenital or acquired abnormality of vulva in pregnancy, childbirth or the puerperium NOS
+XE0wI	Tumour of uterine body in pregnancy, childbirth or the puerperium NOS
+XE0wJ	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+XE0wK	Other uterine or pelvic floor abnormality affecting obstetric care
+XE0wM	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+XE0wn	Rhesus isoimmunisation
+XE0wn	Rhesus isoimmunisation in pregnancy
+XE0wn	RI - Rhesus isoimmunisation
+XE0wN	Other uterine or pelvic floor abnormality - baby not yet delivered
+XE0wO	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wP	Other uterine or pelvic floor abnormality in pregnancy, childbirth or the puerperium NOS
+XE0wQ	Other cervical abnormality in pregnancy, childbirth and the puerperium
+XE0wR	Other cervical abnormality - baby delivered with postpartum complication
+XE0wS	Other cervical abnormality complicating antenatal care - baby not yet delivered
+XE0wT	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wU	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+XE0wV	Congenital or acquired abnormality of vagina in pregnancy, childbirth and the puerperium
+XE0x8	Obstetric trauma damaging pelvic joints and ligaments
+XE0xI	Venous complications of pregnancy and the puerperium
+XE0xJ	Varicose veins of perineum and vulva in pregnancy and the puerperium
+XE0xM	Obstetric pyaemic and septic pulmonary embolism
+XE0xN	Other obstetric pulmonary embolism
+XE0xO	Other complication of obstetric surgical wound
+XE0xR	Nipple infection - obstetric
+XE0xR	Obstetric nipple infection
+XE0xs	Post-abortion problem NOS
+XE0xS	Obstetric breast and lactation disorders NOS
+XE0xT	Cracked nipple in pregnancy, the puerperium or lactation
+XE0xu	Hypertension+pregnancy
+XE0xu	Preg.+ pre-existing hypertensn
+XE0xu	Pregnancy with hypertension (& [pre-existing])
+XE0xu	Pregnancy with pre-existing hypertension
+XE0xu	Pregnancy+hypertension
+XE0xU	Breast engorgement in pregnancy, the puerperium or lactation NOS
+XE0xy	Hypertension of pregnancy NOS
+XE0y6	Pregnancy complications NOS
+XE0yG	Gonorrhoea + pregnancy
+XE0yG	Preg.+ venereal disease
+XE0yG	Pregnancy with venereal disease (& [gonorrhoea] or [syphilis])
+XE0yG	Syphilis + pregnancy
+XE0yG	Venereal dis+ pregnancy
+XE0yM	Pregnancy with other medical condition
+XE0yQ	Cardiac dis.+ pregnancy
+XE0yQ	Heart dis.+ pregnancy
+XE0yQ	Preg.+ cardiovascular disease
+XE0yQ	Pregnancy + cardiovascular disease (& [cardiac])
+XE0yQ	Pregnancy with cardiovascular disease
+XE0yW	Pregnancy with medical condition NOS
+XE0zm	Deep vein thrombosis-obstetric
+XE0zm	DVT - obstetric
+XE0zm	Obstetric venous prob.
+XE0zm	Obstetric venous problems
+XE0zm	Obstetric venous problems (& [deep vein thrombosis] or [varicose vein])
+XE0zm	Thrombosis - DV, obst.
+XE0zm	Varicose vein-obstetric
+XE0zm	Venous problem - obst.
+XE0zo	Vulval &/or perineal varicose veins (& [vulval VV's - obstetric])
+XE0zo	Vulval VV's - obstetric
+XE0zo	Vulval/perineal varicose veins
+XE0zs	Obstetric venous problems NOS
+XE0zw	(Lactation problems) or (breast/lactation problems NOS)
+XE0zw	Breast/lactation problem NOS
+XE0zw	Lactation problems
+XE0zy	Breast/lactation problem NOS
+XE1eB	Fetus affected by maternal toxaemia
+XE1eB	Fetus or neonate affected by maternal hypertensive disease
+XE1eC	Fetus or neonate affected by maternal renal or urinary disease
+XE1eD	Fetus or neonate affected by placental or breast transfer of alcohol
+XE1eE	Fetus or neonate affected by placental or breast transfer of anti-infective
+XE1eG	Fetus affected by maternal death
+XE1eG	Fetus or neonate affected by maternal death
+XE1eI	Fetus or neonate affected by antepartum haemorrhage, unspecified
+XE1eL	Fetus or neonate affected by other specified placental separation or haemorrhage
+XE1eM	Fetus/neonate affected by placental abnormality NEC
+XE1eN	Fetus or neonate affected by other specified cord problems
+XE1eP	Fetus or neonate affected by malposition or disproportion during labour or delivery
+XE1eQ	Fetus or neonate affected by malposition or disproportion during labour or delivery NOS
+XE1er	Congenital rubella syndrome
+XE1es	Congenital toxoplasmosis
+XE1f2	Fetal and neonatal haemorrhage
+XE1f3	Haemolytic disease - Rh
+XE1f3	Haemolytic disease due to rhesus isoimmunisation
+XE1f3	Rh haemolytic disease of the newborn
+XE1f3	Rh HDN - Rh haemolytic disease of the newborn
+XE1f3	Rhesus isoimmunisation of the newborn
+XE1fG	Other perinatal condition NOS
+XE1fH	Other perinatal conditions NOS
+XE1fL	Fetus poison - placenta/breast
+XE1fr	Congenital toxoplasmosis
+XE1fx	Erythroblastosis fetalis
+XE1fx	Erythroblastosis foetalis
+XE1U4	Maternity care
+XE1UO	Maternal tobacco abuse
+XE1UQ	Maternal drug abuse
+XE1US	Maternal alcohol abuse
+XE1UU	Placental details
+XE2cZ	Gestational herpes
+XE2cZ	Herpes + pregnancy
+XE2cZ	Herpes gestationis
+XE2cZ	Herpes: [gestationis] or [+ pregnancy]
+XE2Ic	FP24 mat.claim status NOS
+XE2Id	FP24A maternity claim status
+XE2Io	FP24A mat.claim status NOS
+XE2IR	FP24 - mat claim-on obst.list
+XE2IR	FP24 maternity claim status
+XE2Iv	GMS2 maternity claim status
+XE2QR	Maternal rubella in pregnancy, childbirth and the puerperium
+XE2QY	Obstetric breast abscess
+XE2QZ	Other disorders of lactation
+XE2R6	Fetal and neonatal conditions
+XE2R6	Fetus and neonate conditions
+XE2R6	Perinatal disorder
+XE2u2	Obstetric procedure
+XM0B0	Breast engorgement
+XM0B0	Engorged breasts
+XM0tH	Venereal disease in pregnancy
+XM0tj	Mastitis - obstetric
+XM0tK	Cardiac disease in pregnancy
+XM1N8	Antenatal / Postnatal care
+XM1PK	Lymphangitis of breast - obstetric
