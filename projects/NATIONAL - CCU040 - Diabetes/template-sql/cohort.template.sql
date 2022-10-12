@@ -47,7 +47,7 @@ SELECT NHS_NUMBER_DEID AS PatientId, MIN(DATE) AS FirstCovidPositiveDate
 FROM dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
 WHERE CODE IN (/*--covid-test-positive--*/,
 /*--covid-other-positive--*/)
-AND DATE >= '2020-01-01'
+AND DATE >= '2020-02-01' -- First UK case in feb 2020. Also lots of people appear to have one on 1st Jan 2020 which is clearly incorrect
 GROUP BY NHS_NUMBER_DEID;
 
 -- Make the table permanent for query performance
@@ -82,7 +82,13 @@ SELECT FK_Patient_Link_ID INTO #Patients
 FROM #CovidPatients;*/
 
 %run ./CCU040_01-smoking_status
+
+--- SPLIT HERE ---
+
 %run ./CCU040_01-lsoa $date="2020-01-01"
+
+--- SPLIT HERE ---
+
 %run ./CCU040_01-townsend $date="2020-01-01"
 
 --- SPLIT HERE ---

@@ -74,7 +74,7 @@ const nationalStitch = async (projectDirectory) => {
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
 
-  // const projectName = basename(projectDirectory);
+  const projectName = basename(projectDirectory);
 
   // Warning if no templates found
   warnIfNoTemplatesFound(true, templates);
@@ -88,7 +88,7 @@ Stitching them together...
 `);
 
   // Generate sql to execute on server
-  await generateNationalSql(projectDirectory, templates);
+  await generateNationalSql(projectDirectory, projectName, templates);
 
   const readmeMarkdown = join(projectDirectory, `${README_NAME}.md`);
   const readmeHTML = join(projectDirectory, `${README_NAME}.html`);
@@ -176,7 +176,7 @@ async function generateSql(project, projectName, templates) {
   }
 }
 
-async function generateNationalSql(project, templates) {
+async function generateNationalSql(project, projectName, templates) {
   const projectLabel = project.split(' - ')[1];
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const LOCAL_CODE_SET_DIR = join(project, 'code-sets');
@@ -236,7 +236,7 @@ async function generateNationalSql(project, templates) {
   const readmeContent = generateProjectSupplementaryReadme({
     codeSets: flattenedCodeSets,
     includedSqlFiles: includedSqlFiles.reverse(),
-    terminologies: ['snomed'],
+    projectName,
   });
   writeFileSync(join(project, `${README_NAME}.md`), disclaimer + about + readmeContent);
 

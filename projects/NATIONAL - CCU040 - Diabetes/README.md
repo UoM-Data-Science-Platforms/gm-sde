@@ -40,7 +40,4 @@ This project did not require any reusable queries from the local library [https:
 This project did not require any clinical code sets.
 # Clinical code sets
 
-All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
-
-| Clinical concept | Terminology | Code | Description |
-| ---------------- | ----------- | ---- | ----------- |
+All code sets required for this analysis are available here: [https://github.com/rw251/.../NATIONAL - CCU040 - Diabetes/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/NATIONAL%20-%20CCU040%20-%20Diabetes/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
