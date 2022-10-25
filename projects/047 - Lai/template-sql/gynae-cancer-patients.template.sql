@@ -16,11 +16,13 @@
 -- 	- N_Stage,
 -- 	- M_Stage,
 -- 	- OverallStage,
--- PreviousCervicalScreeningAttendance (Y/N)
--- LatestBMI
--- Parity
--- HasDiabetes (Y/N)
--- Past use of oral contraceptives (Y/N)
+--  - PreviousCervicalScreeningAttendance (Y/N)
+--  - LatestBMI
+--  - Parity
+--  - HasDiabetes (Y/N)
+--  - ContraceptivesHormonal (Y/N)
+--  - ContraceptivesProgesteroneOnly (Y/N)
+--  - ContraceptiveDevices (Y/N)
 
 
 --Just want the output, not the messages
@@ -73,16 +75,6 @@ WHERE TumourGroup = 'Gynaecological' AND DiagnosisDate < @EndDate AND DiagnosisD
       AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 
--- Get latest BMI value for the patients in our cohort=======================================================================================================
-IF OBJECT_ID('tempdb..#PatientLatestBMI') IS NOT NULL DROP TABLE #PatientLatestBMI;
-SELECT 
-  FK_Patient_Link_ID,
-  BMI AS LatestBMI,
-  max(DateOfBMIMeasurement) AS LatestDate
-INTO #PatientLatestBMI
-FROM #PatientBMI
-
-
 -- Create tables for contraceptive methods==================================================================================================================== 
 IF OBJECT_ID('tempdb..#PatientContraceptivesHormonal') IS NOT NULL DROP TABLE #PatientContraceptivesHormonal;
 SELECT DISTINCT FK_Patient_Link_ID 
@@ -91,7 +83,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'contraceptives-combined-hormonal' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'contraceptives-combined-hormonal' AND Version = 1)
-) AND EventDate >= @StartDate AND EventDate < @EndDate;
+) AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientContraceptivesProgesterone') IS NOT NULL DROP TABLE #PatientContraceptivesProgesterone;
 SELECT DISTINCT FK_Patient_Link_ID 
@@ -100,7 +92,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'contraceptives-progesterone-only' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'contraceptives-progesterone-only' AND Version = 1)
-) AND EventDate >= @StartDate AND EventDate < @EndDate;
+) AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientContraceptivesDevices') IS NOT NULL DROP TABLE #PatientContraceptivesDevices;
 SELECT DISTINCT FK_Patient_Link_ID 
@@ -109,7 +101,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'contraceptives-devices' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'contraceptives-devices' AND Version = 1)
-) AND EventDate >= @StartDate AND EventDate < @EndDate;
+) AND EventDate < @EndDate;
 
 
 -- Create a table for diabetes any type======================================================================================================================
@@ -120,7 +112,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND Version = 1)
-) AND EventDate >= @StartDate AND EventDate < @EndDate;
+) AND EventDate < @EndDate;
 
 
 -- Create a table for cervical smear tests======================================================================================================================
@@ -131,14 +123,14 @@ FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'cervical-smear' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'cervical-smear' AND Version = 1)
-) AND EventDate >= @StartDate AND EventDate < @EndDate;
+) AND EventDate < @EndDate;
 
 
 -- Collate all patient diagnosis details to final output table. 
 -- Grain: 1 row per diagnosis date per patient. 
 SELECT 
   p.FK_Patient_Link_ID AS PatientId,
-  DiagnosisDate,
+  CAST(DiagnosisDate AS DATE) AS DiagnosisDate,
   Benign,
   TStatus,
   TumourGroup,
@@ -149,14 +141,14 @@ SELECT
   N_Stage,
   M_Stage,
   OverallStage,  
-  LatestBMI,
+  BMI,
   CASE WHEN pch.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS ContraceptivesHormonal,
   CASE WHEN pcp.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS ContraceptivesProgesteroneOnly,
   CASE WHEN pcd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS ContraceptiveDevices,
   CASE WHEN d.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS HasDiabetes,
   CASE WHEN c.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PreviousCervicalScreeningAttendance
 FROM #Cohort p
-LEFT OUTER JOIN #PatientLatestBMI pbmi ON pbmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientContraceptivesHormonal pch ON pch.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientContraceptivesProgesterone pcp ON pcp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientContraceptivesDevices pcd ON pcd.FK_Patient_Link_ID = p.FK_Patient_Link_ID

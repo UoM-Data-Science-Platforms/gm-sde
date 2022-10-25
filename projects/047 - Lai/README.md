@@ -303,6 +303,7 @@ This project required the following clinical code sets:
 - diabetes v1
 - hydrochlorothiazide v1
 - immunosuppression v1
+- hiv v1
 - smoking-status-current v1
 - smoking-status-currently-not v1
 - smoking-status-ex v1
@@ -315,7 +316,6 @@ This project required the following clinical code sets:
 - alcohol-moderate-drinker v1
 - alcohol-heavy-drinker v1
 - alcohol-weekly-intake v1
-- hiv v1
 
 Further details for each code set can be found below.
 
@@ -455,6 +455,21 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/immunosuppression/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/immunosuppression/1)
 
+### HIV
+
+Codes indicating a diagnosis of HIV. Snomed and CTV3 codelist are from the [OpenSafely project](https://codelists.opensafely.org/codelist/opensafely/hiv/2020-07-13/#full-list). The Read 2 codelist is from the LSHTM Data Compass.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.010% - 0.029%` is perhaps a bit wide, but as the numbers are so low it is likely well-defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |     760 (0.029%) |      760 (0.029%) |
+| 2021-03-11 | TPP             | 210333     |      39 (0.019%) |       39 (0.019%) |
+| 2021-03-11 | Vision          | 333251     |      34 (0.010%) |       34 (0.010%) |
+
+LINK: [https://github.com/rw251/.../conditions/hiv/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hiv/1)
+
 ### Smoking status current
 
 Any code suggestive that a patient is a current smoker.
@@ -516,21 +531,6 @@ LINK: [https://github.com/rw251/.../patient/alcohol-heavy-drinker/1](https://git
 
 Any code indicative of a patient's alcohol intake per week.
 LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1)
-
-### HIV
-
-Codes indicating a diagnosis of HIV. Snomed and CTV3 codelist are from the [OpenSafely project](https://codelists.opensafely.org/codelist/opensafely/hiv/2020-07-13/#full-list). The Read 2 codelist is from the LSHTM Data Compass.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.010% - 0.029%` is perhaps a bit wide, but as the numbers are so low it is likely well-defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-03-11 | EMIS            | 2600658    |     760 (0.029%) |      760 (0.029%) |
-| 2021-03-11 | TPP             | 210333     |      39 (0.019%) |       39 (0.019%) |
-| 2021-03-11 | Vision          | 333251     |      34 (0.010%) |       34 (0.010%) |
-
-LINK: [https://github.com/rw251/.../conditions/hiv/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hiv/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../047 - Lai/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/047%20-%20Lai/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
