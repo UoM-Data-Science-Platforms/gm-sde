@@ -5,7 +5,7 @@
 -- OBJECTIVE: The common logic for 2 EFI queries. This is unlikely to be executed directly, but is used by the other queries.
 
 -- INPUT: Takes three parameters
---	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	-	all-patients: boolean - (true/false) if false, then only those in the pre-existing #Patients table are included, otherwise everyone.
 --	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 --	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
 
@@ -37,6 +37,7 @@ CREATE TABLE #EfiEvents (
 	EventDate DATE
 );
 
+--#region EFI deficits (non-medication - and non-value)
 -- The following finds the first date for each (non-medication) deficit for each patient and adds them to the #EfiEvents table.
 --> EXECUTE subquery-efi.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} efi-category:'activity-limitation'
 --> EXECUTE subquery-efi.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} efi-category:'anaemia'
@@ -73,83 +74,105 @@ CREATE TABLE #EfiEvents (
 --> EXECUTE subquery-efi.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} efi-category:'urinary-system-disease'
 --> EXECUTE subquery-efi.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} efi-category:'vision-problems'
 --> EXECUTE subquery-efi.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} efi-category:'weight-loss'
+--#endregion
 
--- Now we add some hard coded deficits which come from values rather than
-
+--#region EFI deficits from values rather than diagnoses
 -- First populate a temp table with values for codes of interest
 IF OBJECT_ID('tempdb..#EfiValueData') IS NOT NULL DROP TABLE #EfiValueData;
-BEGIN
-  IF '{param:all-patients}'='true'
-    SELECT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS EventDate, SuppliedCode, [Value]
-		INTO #EfiValueData
-    FROM {param:gp-events-table}
-    WHERE SuppliedCode IN ('16D2.','246V.','246W.','38DE.','39F..','3AD3.','423..','442A.','442W.','44lD.','451E.','451F.','46N..','46N4.','46N7.','46TC.','46W..','585a.','58EE.','66Yf.','687C.','XaJLG','XaF4O','XaF4b','XaP9J','Y1259','Y1258','XaIup','XaK8U','YA310','Y01e7','XaJv3','XE2eH','XE2eG','XaEMS','XE2eI','XE2n3','XE2bw','XSFyN','XaIz7','XaITU','XE2wy','XaELV','39C..','XC0tc','XM0an','XE2m6','Xa96v','Y3351','XaISO','XaZpN','XaK8y','XaMDA','XacUJ','XacUK')
-		AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY NULL OR TEXT VALUES REMAINED
-    AND EventDate <= GETDATE()
-    GROUP BY FK_Patient_Link_ID;
-  ELSE
-    SELECT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS EventDate, SuppliedCode, [Value]
-		INTO #EfiValueData
-    FROM {param:gp-events-table}
-    WHERE SuppliedCode IN ('16D2.','246V.','246W.','38DE.','39F..','3AD3.','423..','442A.','442W.','44lD.','451E.','451F.','46N..','46N4.','46N7.','46TC.','46W..','585a.','58EE.','66Yf.','687C.','XaJLG','XaF4O','XaF4b','XaP9J','Y1259','Y1258','XaIup','XaK8U','YA310','Y01e7','XaJv3','XE2eH','XE2eG','XaEMS','XE2eI','XE2n3','XE2bw','XSFyN','XaIz7','XaITU','XE2wy','XaELV','39C..','XC0tc','XM0an','XE2m6','Xa96v','Y3351','XaISO','XaZpN','XaK8y','XaMDA','XacUJ','XacUK')
-		AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY NULL OR TEXT VALUES REMAINED
-    AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-    AND EventDate <= GETDATE()
-    GROUP BY FK_Patient_Link_ID;
-  END
-END
+SELECT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS EventDate, SuppliedCode, [Value]
+INTO #EfiValueData
+FROM {param:gp-events-table}
+WHERE SuppliedCode IN ('16D2.','246V.','246W.','38DE.','39F..','3AD3.','423..','442A.','442W.','44lD.','451E.','451F.','46N..','46N4.','46N7.','46TC.','46W..','585a.','58EE.','66Yf.','687C.','XaJLG','XaF4O','XaF4b','XaP9J','Y1259','Y1258','XaIup','XaK8U','YA310','Y01e7','XaJv3','XE2eH','XE2eG','XaEMS','XE2eI','XE2n3','XE2bw','XSFyN','XaIz7','XaITU','XE2wy','XaELV','39C..','XC0tc','XM0an','XE2m6','Xa96v','Y3351','XaISO','XaZpN','XaK8y','XaMDA','XacUJ','XacUK')
+AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY NULL OR TEXT VALUES REMAINED
+{if:all-patients=false}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+{endif:all-patients}
+AND EventDate <= GETDATE()
+GROUP BY FK_Patient_Link_ID;
+
+-- Some value ranges depend on the patient's sex
+--> EXECUTE query-patient-sex.sql
+
+-- Create temp tables with all Males and all Females
+IF OBJECT_ID('tempdb..#MalePatients') IS NOT NULL DROP TABLE #MalePatients;
+SELECT FK_Patient_Link_ID FROM #PatientSex
+WHERE Sex = 'M'
+{if:all-patients=false}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+{endif:all-patients}
+;
+
+IF OBJECT_ID('tempdb..#FemalePatients') IS NOT NULL DROP TABLE #FemalePatients;
+SELECT FK_Patient_Link_ID FROM #PatientSex
+WHERE Sex = 'F'
+{if:all-patients=false}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+{endif:all-patients}
+;
 
 -- FALLS included if the "number of falls in last 12 months" is >0
---> EXECUTE subquery-efi-values.sql efi-category:'falls' supplied-codes:"'Y3351','XaISO','16D2.'" min-value:0 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'falls' supplied-codes:"'Y3351','XaISO','16D2.'" min-value:0 all-patients:{param:all-patients}
 
 -- HYPERTENSION included if avg 24hr diastolic >85
---> EXECUTE subquery-efi-values.sql efi-category:'hypertension' supplied-codes:"'246V.','XaF4b'" min-value:85 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'hypertension' supplied-codes:"'246V.','XaF4b'" min-value:85 all-patients:{param:all-patients}
 
 -- HYPERTENSION included if avg 24hr systolic >135
---> EXECUTE subquery-efi-values.sql efi-category:'hypertension' supplied-codes:"'246W.','XaF4O'" min-value:135 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'hypertension' supplied-codes:"'246W.','XaF4O'" min-value:135 all-patients:{param:all-patients}
 
 -- AF included if any score
---> EXECUTE subquery-efi-values.sql efi-category:'atrial-fibrillation' supplied-codes:"'38DE.','XaP9J'" min-value:-1 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'atrial-fibrillation' supplied-codes:"'38DE.','XaP9J'" all-patients:{param:all-patients}
 
 -- ACTIVITY LIMITATION if Barthel<=18 then deficit
---> EXECUTE subquery-efi-values.sql efi-category:'activity-limitation' supplied-codes:"'39F..','XM0an'" min-value:-1 max-value:18.1 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'activity-limitation' supplied-codes:"'39F..','XM0an'" max-value:18.1 all-patients:{param:all-patients}
 
 -- Memory & cognitive problems if Six item cognitive impairment test >=8
---> EXECUTE subquery-efi-values.sql efi-category:'cognitive-problems' supplied-codes:"'3AD3.','XaJLG'" min-value:7.9 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'cognitive-problems' supplied-codes:"'3AD3.','XaJLG'" min-value:7.9 all-patients:{param:all-patients}
 
--- Anaemia if haemaglobin is below reference range. BUT lower range is 130 for males and I've regularly had less than this
--- after giving blood so not sure it's a good idea to include.
---//> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:X max-value:Y all-patients:{param:all-patients}
+-- Anaemia if haemaglobin is below reference range. (From Andy Clegg)
+-- - Males <13, >25, <130, Females <11.5, >25, <115 (to take account of unit changes)
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:25 max-value:130 patients:#MalePatients
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" max-value:13 patients:#MalePatients
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:25 max-value:115 patients:#FemalePatients
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" max-value:11.5 patients:#FemalePatients
 
--- Thyroid problems if TSH outside of 0.27 - 4.2
---> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" min-value:0 max-value:2.7 all-patients:{param:all-patients}
---> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" min-value:4.2 max-value:10000 all-patients:{param:all-patients}
+-- Thyroid problems if TSH outside of 0.36-5.5
+--> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" max-value:0.36 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" min-value:5.5 all-patients:{param:all-patients}
 
 -- Chronic kidney disease if Glomerular filtration rate <60
---> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'451E.','451F.','XSFyN','XaZpN','XaK8y','XaMDA','XacUJ','XacUK'" min-value:0 max-value:60 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'451E.','451F.','XSFyN','XaZpN','XaK8y','XaMDA','XacUJ','XacUK'" max-value:60 all-patients:{param:all-patients}
 
--- Chronic kidney disease if Urine protein
--- Chronic kidney disease if Urine albumin
--- Chronic kidney disease if Urine protein/creatinine index
--- Chronic kidney disease if Urine albumin:creatinine ratio
--- Chronic kidney disease if Urine microalbumin
+-- Chronic kidney disease if Urine protein (from AC) >150mg/24hr
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'46N..','XE2eH','XE2eG'" min-value:150 all-patients:{param:all-patients}
+
+-- Chronic kidney disease if Urine albumin (from AC) >20mg/24hr
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'XE2eI','46N4.'" min-value:20 all-patients:{param:all-patients}
+
+-- Chronic kidney disease if Urine protein/creatinine index (from AC) >50mg/mmol
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'46N7.','XaIz7','XaEMS'" min-value:50 all-patients:{param:all-patients}
+
+-- Chronic kidney disease if Urine albumin:creatinine ratio (from AC) >3mg/mmol
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'XE2n3','46TC.'" min-value:3 all-patients:{param:all-patients}
+
+-- Chronic kidney disease if Urine microalbumin (from AC) >3mg/mmol
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'46W..','XE2bw'" min-value:3 all-patients:{param:all-patients}
+
 
 -- Peripheral vascular disease if ABPI < 0.95
---> EXECUTE subquery-efi-values.sql efi-category:'pvd' supplied-codes:"'585a.','Y1259','Y1258','XaIup'" min-value:0 max-value:0.95 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'pvd' supplied-codes:"'585a.','Y1259','Y1258','XaIup'" max-value:0.95 all-patients:{param:all-patients}
 
 -- Osteoporosis if Hip DXA scan T score <= -2.5
---> EXECUTE subquery-efi-values.sql efi-category:'osteoporosis' supplied-codes:"'XaITU','58EE.'" min-value:-10000 max-value:-2.499 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'osteoporosis' supplied-codes:"'XaITU','58EE.'" max-value:-2.499 all-patients:{param:all-patients}
 
 -- Respiratory problems if Number of COPD exacerbations in past year OR Number of hours of oxygen therapy per day OR
 -- Number of unscheduled encounters for COPD in the last 12 months >= 1
---> EXECUTE subquery-efi-values.sql efi-category:'respiratory-disease' supplied-codes:"'66Yf.','XaK8U','YA310','Y01e7'" min-value:0.9 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'respiratory-disease' supplied-codes:"'66Yf.','XaK8U','YA310','Y01e7'" min-value:0.9 all-patients:{param:all-patients}
 
 -- Weight loss/anorexia if Malnutrition universal screening tool score >= 1
---> EXECUTE subquery-efi-values.sql efi-category:'weight-loss' supplied-codes:"'687C.','XaJv3'" min-value:0.9999 max-value:10000 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'weight-loss' supplied-codes:"'687C.','XaJv3'" min-value:0.9999 all-patients:{param:all-patients}
+--#endregion
 
-
--- Now we need to calculate polypharmacy as that is the 36th EFI deficit
-
+--#region Polypharmacy - the 36th EFI deficit
 -- Polypharmacy is defined as 5 different med codes on a single day. This then lasts for 6 weeks
 -- (most Rx for 4 weeks, so add some padding to ensure people on 5 meds permanently, but with
 -- small variation in time differences are classed as always poly rather than flipping in/out).
@@ -402,3 +425,4 @@ BEGIN
 	-- One more iteration will occur, but nothing will change, so we'll exit the loop with the final
 	-- two non-overlapping periods
 END
+--#endregion
