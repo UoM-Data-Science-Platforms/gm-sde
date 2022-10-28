@@ -1515,7 +1515,7 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
-AND EventDate < @TEMPRQ020EndDate;
+AND EventDate < @TEMPRQ020EndDate
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
