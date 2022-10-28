@@ -4,3 +4,4 @@ XacAh	CKD G5A2 - chronic kidney disease with glomerular filtration rate category
 XacAi	CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
 XaO41	Chronic kidney disease stage 5 with proteinuria
 XaO42	Chronic kidney disease stage 5 without proteinuria
+X30J0	ESCRF - End stage chronic renal failure
