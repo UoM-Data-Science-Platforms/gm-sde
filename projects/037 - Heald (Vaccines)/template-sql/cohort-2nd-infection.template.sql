@@ -693,7 +693,11 @@ SELECT DISTINCT FK_Patient_Link_ID
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ037EndDate;
+AND EventDate < @TEMPRQ037EndDate
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- Bring together for final output
 -- Patients in main cohort
