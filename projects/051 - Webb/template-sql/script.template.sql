@@ -64,7 +64,7 @@ SET NOCOUNT ON;
 -- Create a table with all patients (ID)=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
+FROM [SharedCare].[Patient_GP_History]
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < '2022-06-01';
 
@@ -77,6 +77,7 @@ FROM #PatientsToInclude;
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-year-of-birth.sql
+--> EXECUTE query-patient-practice-and-ccg.sql
 
 
 -- Creat a smaller version of GP event table------------------------------------------------------------------------------------------------------------------------
@@ -291,6 +292,7 @@ SELECT
   Ethnic,
   (p.Year - YearOfBirth) AS Age,
   IMDGroup,
+  CCG,
   SUM(CASE WHEN fafl.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedAnxietyAll,
   SUM(CASE WHEN fafl2019.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedAnxiety2019,
   SUM(CASE WHEN fac.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
@@ -339,6 +341,7 @@ LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FirstAnxietyFullLookback fafl ON fafl.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
                 AND YEAR(fafl.FirstOccurrence) = Year AND MONTH(fafl.FirstOccurrence) = Month AND DAY(fafl.FirstOccurrence) = p.[Date]
 LEFT OUTER JOIN #FirstAnxiety2019Lookback fafl2019 ON fafl2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
@@ -426,6 +429,6 @@ LEFT OUTER JOIN #FirstOffLabelMoodStabilisersCounts fm18c ON fm18c.FK_Patient_Li
 LEFT OUTER JOIN #FirstADHDMedicationCounts fm19c ON fm19c.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
                 AND YEAR(fm19c.EpisodeDate) = Year AND MONTH(fm19c.EpisodeDate) = Month AND DAY(fm19c.EpisodeDate) = p.[Date]
 WHERE p.Year - yob.YearOfBirth <= 24 AND p.Year - yob.YearOfBirth >=1
-GROUP BY p.Year, p.Month, Sex, Ethnic, (p.Year - YearOfBirth), IMDGroup
+GROUP BY p.Year, p.Month, Sex, Ethnic, (p.Year - YearOfBirth), IMDGroup, CCG
 ORDER BY p.Year, p.Month;
 
