@@ -39,6 +39,8 @@ This project required the following reusable queries:
 
 - Create counting tables for each medications based on GPMedications table - RQ051
 - Create counting tables for each conditions based on GPEvents table - RQ051
+- GET practice and ccg for each patient
+- CCG lookup table
 - Year of birth
 - Index Multiple Deprivation
 - Sex
@@ -83,6 +85,52 @@ Temp tables as follows:
 _File_: `query-build-rq051-gp-events.sql`
 
 _Link_: [https://github.com/rw251/.../query-build-rq051-gp-events.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq051-gp-events.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
 
 ---
 ### Year of birth
