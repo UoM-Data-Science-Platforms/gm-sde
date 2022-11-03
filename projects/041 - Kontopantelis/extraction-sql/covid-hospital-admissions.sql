@@ -308,7 +308,8 @@ WHERE
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
 		AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND (gp.EventDate) BETWEEN DATEADD(month, -26, @StartDate) and @EndDate
+		AND (gp.EventDate) --BETWEEN '2005-01-01' and 
+		<= @EndDate
 		AND [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
 		AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH TEXT 
 
@@ -322,7 +323,8 @@ WHERE
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
 		AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND gp.EventDate BETWEEN DATEADD(month, -26, @StartDate) and @EndDate
+		AND gp.EventDate --BETWEEN '2005-01-01' and 
+		<= @EndDate
 		AND [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
 		AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH TEXT 
 
@@ -399,7 +401,7 @@ FROM #A1Temp A1
 --LEFT OUTER JOIN #A2Temp A2 ON A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND A1.EventDate = A2.EventDate
 --WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
 
--- Create table of patients who have a healthy ACR in between their >3 results - this will be used to create a flag for these patients
+-- Create table of patients who have a healthy ACR in between their >=3 results - this will be used to create a flag for these patients
 IF OBJECT_ID('tempdb..#ACR_HealthyResultInbetween') IS NOT NULL DROP TABLE #ACR_HealthyResultInbetween
 SELECT DISTINCT A1.FK_Patient_Link_ID
 INTO #ACR_HealthyResultInbetween
@@ -513,6 +515,19 @@ HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 DROP TABLE #AllPatientYearOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
+
+-- FIND EARLIEST EGFR AND ACR EVIDENCE OF CKD FOR EACH PATIENT
+
+IF OBJECT_ID('tempdb..#EarliestEvidence') IS NOT NULL DROP TABLE #EarliestEvidence;
+SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDate, TestName = 'egfr'
+INTO #EarliestEvidence
+FROM #E1Temp e
+GROUP BY FK_Patient_Link_ID
+UNION ALL 
+SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDate, TestName = 'acr'
+FROM #A1Temp a
+GROUP BY FK_Patient_Link_ID
+
 ---- CREATE COHORT:
 	-- 1. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 1-2, PLUS RAISED ACR OR HISTORY OF KIDNEY DAMAGE
 	-- 2. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 3-5 (AT LEAST 3 MONTHS APART)
@@ -529,10 +544,17 @@ SELECT p.FK_Patient_Link_ID,
 					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage)))						THEN 1 ELSE 0 END,
 		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) 		THEN 1 ELSE 0 END, -- ACR evidence
 		HealthyEgfrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_HealthyResultInbetween) THEN 1 ELSE 0 END,
-		HealthyAcrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_HealthyResultInbetween) THEN 1 ELSE 0 END
+		HealthyAcrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_HealthyResultInbetween) THEN 1 ELSE 0 END,
+		EarliestEgfrEvidence = egfr.EarliestDate,
+		EarliestAcrEvidence = acr.EarliestDate
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestEvidence egfr 
+	ON egfr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND egfr.TestName = 'egfr' 
+LEFT OUTER JOIN #EarliestEvidence acr 
+	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
+
 WHERE 
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
