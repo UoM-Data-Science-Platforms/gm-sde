@@ -12,6 +12,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ020EndDate datetime;
+SET @TEMPRQ020EndDate = '2022-06-01';
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -20,10 +24,20 @@ SET @StartDate = '2020-01-01';
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TEMPRQ020EndDate;
+
 --> CODESET hba1c:2
 
 -- Get all covid positive patients as this is the population of the matched cohort
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
 -- Get all hbA1c values for the cohort
 IF OBJECT_ID('tempdb..#hba1c') IS NOT NULL DROP TABLE #hba1c;
