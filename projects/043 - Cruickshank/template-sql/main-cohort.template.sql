@@ -380,4 +380,4 @@ LEFT OUTER JOIN #PatientsAdmissionsPostTest admit ON admit.FK_Patient_Link_ID = 
 LEFT OUTER JOIN #PatientsLOSPostTest los ON los.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPractice prac on prac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PracticeSystemLookup sys on sys.PracticeId = ppp.GPPracticeCode;
+LEFT OUTER JOIN #PracticeSystemLookup sys on sys.PracticeId = prac.GPPracticeCode;
