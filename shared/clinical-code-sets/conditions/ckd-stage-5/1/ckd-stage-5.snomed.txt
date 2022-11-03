@@ -13,3 +13,4 @@
 950291000000103	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
 950311000000102	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
 691411000119101	Anaemia in chronic kidney disease stage 5
+46177005	End-stage renal disease
