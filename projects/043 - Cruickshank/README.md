@@ -35,6 +35,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Practice system lookup table
+- GET practice and ccg for each patient
+- CCG lookup table
 - Secondary admissions and length of stay
 - Secondary discharges
 - COVID vaccinations
@@ -47,6 +50,72 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Practice system lookup table
+To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PracticeSystemLookup (PracticeId, System)
+ 	- PracticeId - Nationally recognised practice id
+	- System - EMIS, TPP, VISION
+```
+_File_: `query-practice-systems-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-practice-systems-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-practice-systems-lookup.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
@@ -280,7 +349,7 @@ _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://g
 
 ---
 ### Patients with COVID
-To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
+To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection. NB this does not include antigen (LFT) tests.
 
 _Input_
 ```
@@ -307,14 +376,13 @@ Three temp tables as follows:
 	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
 	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
 ```
-_File_: `query-patients-with-covid.sql`
+_File_: `query-patients-with-covid-no-lft.sql`
 
-_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+_Link_: [https://github.com/rw251/.../query-patients-with-covid-no-lft.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid-no-lft.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
 
-- covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
 - smoking-status-current v1
@@ -335,24 +403,6 @@ This project required the following clinical code sets:
 - bmi v2
 
 Further details for each code set can be found below.
-
-### COVID-19 positive antigen test
-
-A code that indicates that a person has a positive antigen test for COVID-19.
-#### COVID positive tests in primary care
-
-The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
-| 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
-| 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
-
-LINK: [https://github.com/rw251/.../tests/covid-positive-antigen-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-antigen-test/1)
 
 ### COVID-19 positive pcr test
 
