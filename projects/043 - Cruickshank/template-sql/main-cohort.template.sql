@@ -73,9 +73,12 @@ HAVING MIN(StartDate) < @TEMPRQ043EndDate;
 -- Get all the positive covid test patients
 --> EXECUTE query-patients-with-covid-no-lft.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
+-- Update - filter to patients registered to a GP practice (tenancy=2)
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients
-FROM #CovidPatients;
+SELECT DISTINCT cp.FK_Patient_Link_ID INTO #Patients
+FROM #CovidPatients cp
+LEFT OUTER JOIN SharedCare.Patient p ON p.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
+WHERE p.FK_Reference_Tenancy_ID = 2;
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql

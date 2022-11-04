@@ -51,7 +51,7 @@ This project required the following reusable queries:
 Further details for each query can be found below.
 
 ### Practice system lookup table
-To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often.
+To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often. This has now been updated on 4th November 2022. The data can be found here: https://digital.nhs.uk/data-and-information/publications/statistical/mi-patient-online-pomi/current I filter to GM, Cheshire & Mersey, Lancashire and Derby. I also take the list from below and find any that are no longer in the publication. These are probably closed practices, but it is useful to retain what system them had when they closed.
 
 _Input_
 ```
