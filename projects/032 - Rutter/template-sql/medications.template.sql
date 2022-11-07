@@ -45,14 +45,27 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> CODESET bnf-cardiovascular-meds:1 bnf-cns-meds:1 bnf-endocrine-meds:1
 
+-- WE NEED TO PROVIDE MEDICATION DESCRIPTION, BUT SOME CODES APPEAR MULTIPLE TIMES IN THE VERSIONEDCODESET TABLES WITH DIFFERENT DESCRIPTIONS
+-- THEREFORE, TAKE THE FIRST DESCRIPTION BY USING ROW_NUMBER
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
-SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
+SELECT *
+INTO #VersionedCodeSets_1
+FROM (
+SELECT *,
+	ROWNUM = ROW_NUMBER() OVER (PARTITION BY FK_Reference_Coding_ID ORDER BY [description])
+FROM #VersionedCodeSets ) SUB
+WHERE ROWNUM = 1
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
-
+SELECT *
+INTO #VersionedSnomedSets_1
+FROM (
+SELECT *,
+	ROWNUM = ROW_NUMBER() OVER (PARTITION BY FK_Reference_SnomedCT_ID ORDER BY [description])
+FROM #VersionedSnomedSets) SUB
+WHERE ROWNUM = 1
 
 -- RX OF MEDS SINCE 09.07.19 FOR PATIENTS WITH T2D, WITH A FLAG FOR THE CATEGORY (CARDIOVASCULAR, ENDOCRINE, CNS)
 
@@ -60,7 +73,9 @@ IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
 	 m.FK_Patient_Link_ID,
 	 CAST(MedicationDate AS DATE) as PrescriptionDate,
-	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END
+	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END,
+	 Quantity,
+	 [description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
 INTO #meds
 FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
@@ -77,6 +92,8 @@ SELECT
 	PatientId = m.FK_Patient_Link_ID
 	,MainCohortMatchedPatientId = NULL
 	,MedicationCategory = concept
+	,MedicationDescription = [description]
+	,Quantity
 	,PrescriptionDate
 FROM #MainCohort m
 LEFT JOIN #meds me ON me.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
@@ -86,7 +103,8 @@ SELECT
 	PatientId = m.FK_Patient_Link_ID
 	,MainCohortMatchedPatientId = m.PatientWhoIsMatched 
 	,MedicationCategory = concept
+	,MedicationDescription = [description]
+	,Quantity
 	,PrescriptionDate
 FROM #MatchedCohort m
 LEFT JOIN #meds me ON me.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
-
