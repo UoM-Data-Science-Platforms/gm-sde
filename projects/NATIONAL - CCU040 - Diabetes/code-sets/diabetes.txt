@@ -105,3 +105,8 @@
 421305000	Persistent microalbuminuria due to type 1 diabetes mellitus (disorder)
 421437000	Hypoglycemic coma due to type 1 diabetes mellitus
 816067005	Diabetes hypogonadism deafness intellectual disability syndrome (disorder)
+190330002	Hyperosmolar coma due to type 1 diabetes mellitus (disorder)
+428896009	Hyperosmolality due to uncontrolled type 1 diabetes mellitus (disorder)
+789571005	Ulcer of heel due to type 1 diabetes mellitus (disorder)
+789572003	Ulcer of midfoot due to type 1 diabetes mellitus (disorder)
+368541000119101	Cheiroarthropathy due to diabetes mellitus type 1 (disorder)
