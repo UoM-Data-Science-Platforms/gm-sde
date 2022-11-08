@@ -73,8 +73,11 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
-
+AND EventDate <= @EndDate
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -364,7 +367,7 @@ SELECT
 	p.YearOfBirth, 
 	Sex,
 	BMI,
-	BMIDate = bmi.EventDate,
+	BMIDate = DateOfBMIMeasurement,
 	height,
 	height_dt,
 	weight,
@@ -376,7 +379,7 @@ SELECT
 	PracticeCCG = prac.CCG,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	IsCareHomeResident,
-	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
 	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
 	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
 	FirstCovidPositiveDate,
