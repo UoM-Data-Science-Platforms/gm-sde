@@ -494,7 +494,8 @@ AS
 SELECT
   PatientId,
   score AS TownsendScoreHigherIsMoreDeprived,
-  quintile AS TownsendQuintileHigherIsMoreDeprived
+  quintile AS TownsendQuintileHigherIsMoreDeprived,
+  l.LSOA
 FROM global_temp.CCU040_LSOA l
 INNER JOIN global_temp.CCU040_Temp_Townsend_Lookup t
   ON t.lsoa = l.LSOA;

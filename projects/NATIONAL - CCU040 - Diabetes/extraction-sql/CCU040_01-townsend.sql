@@ -7,7 +7,7 @@
 
 **Github** [https://github.com/rw251/gm-idcr/tree/master/projects/NATIONAL-CCU040-Diabetes](https://github.com/rw251/gm-idcr/tree/master/projects/NATIONAL%20-%20CCU040%20-%20Diabetes)
 
-**Date last updated** 2022-09-22
+**Date last updated** 2022-11-08
 
 ## Notes
 
@@ -494,7 +494,8 @@ AS
 SELECT
   PatientId,
   score AS TownsendScoreHigherIsMoreDeprived,
-  quintile AS TownsendQuintileHigherIsMoreDeprived
+  quintile AS TownsendQuintileHigherIsMoreDeprived,
+  l.LSOA
 FROM global_temp.CCU040_LSOA l
 INNER JOIN global_temp.CCU040_Temp_Townsend_Lookup t
   ON t.lsoa = l.LSOA;
