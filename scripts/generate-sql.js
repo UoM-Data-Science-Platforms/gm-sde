@@ -112,7 +112,7 @@ function findTemplates(project) {
   return readdirSync(join(project, TEMPLATE_SQL_DIR), { withFileTypes: true }) // read all children of this directory
     .filter((item) => item.isFile()) // ..then filter to just files under the project directory
     .map((file) => file.name) // ..then return the file name
-    .filter((filename) => filename.toLowerCase().match(/\.template\.sql$/)); // Filename must end ".template.sql"
+    .filter((filename) => filename.toLowerCase().match(/\.template\.(sql|py)$/)); // Filename must end ".template.sql" or "template.py"
 }
 
 function warnIfNoTemplatesFound(project, templates) {
@@ -421,5 +421,5 @@ ${CODESET_MARKER}
 }
 //stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
 //stitch(join(__dirname, '..', 'projects', '001 - Grant'));
-// nationalStitch(join(__dirname, '..', 'projects', 'NATIONAL - CCU040 - Diabetes'));
+//nationalStitch(join(__dirname, '..', 'projects', 'NATIONAL - CCU040 - Diabetes'));
 module.exports = { stitch, nationalStitch };
