@@ -460,21 +460,12 @@ WHERE NHS_NUMBER_DEID IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU
 
 -- SPLIT HERE --
 
-CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_Patients_COVID_Death
-AS
-SELECT NHS_NUMBER_DEID
-FROM dars_nic_391419_j3w9t_collab.CCU040_01_Patients_Demographics x
-INNER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Patient_Ids_And_Index_Dates y
-ON x.DATE_OF_DEATH < y.IndexDate + INTERVAL '28 day';
-
--- SPLIT HERE --
-
 -- Get all the main cohort patients... and union with the matching patients
 CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_Output_Cohort_Table
 AS
 SELECT
   cohort.PatientId AS PatientId,
-  NULL AS MainCohortMatchedPatientId,
+  CAST(NULL AS VARCHAR(50)) AS MainCohortMatchedPatientId,
   demo.DATE_OF_BIRTH AS YearOfBirth,
   demo.DATE_OF_DEATH AS DeathDate,
   CASE WHEN (demo.DATE_OF_DEATH < patients.IndexDate + INTERVAL '28 day') THEN 'Y' ELSE 'N' END AS DeathWithin28DaysCovidPositiveTest,
@@ -494,10 +485,10 @@ SELECT
   cholesterol.LatestCHOLESTEROLValue,
   ldl.LatestLDLValue,
   hdl.LatestHDLValue,
-  NULL AS LatestVITAMINDValue, --Not in gdppr - but keeping to preserve shape of table
-  NULL AS LatestTESTOSTERONEValue, --Not in gdppr - but keeping to preserve shape of table
+  CAST(NULL AS DECIMAL(14,4)) AS LatestVITAMINDValue, --Not in gdppr - but keeping to preserve shape of table
+  CAST(NULL AS DECIMAL(14,4)) AS LatestTESTOSTERONEValue, --Not in gdppr - but keeping to preserve shape of table
   egfr.LatestEGFRValue,
-  NULL AS LatestSHBGValue, --Not in gdppr - but keeping to preserve shape of table
+  CAST(NULL AS DECIMAL(14,4)) AS LatestSHBGValue, --Not in gdppr - but keeping to preserve shape of table
   '' AS IsPassiveSmoker, --Not in gdppr - but keeping to preserve shape of table
   smok.WorstSmokingStatus,
   smok.CurrentSmokingStatus,
