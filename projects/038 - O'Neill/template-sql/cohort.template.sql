@@ -18,20 +18,33 @@
 --  Month of death for deaths within 28 days of COVID-19 test positive confirmed
 --  Dates of all vaccinations for COVID-19
 --  Diagnosis of Long Covid
+--  Pagets disease
 --  Major comorbidities: Diabetes (Type 1 or 2), COPD, Asthma, Severe Enduring Mental Illness,
 --  Dementia, MI, Angina, Heart Failure, Stroke, Rheumatoid Arthritis Metabolic and 
 --  haematological variables such as eGFR, HbA1c and Vitamin D level (where available) and FBC 
 --  (closest to 1 January 2020)
 
 --Just want the output, not the messages
-SET NOCOUNT ON;#
+SET NOCOUNT ON;
 
-TODO CHECK that #CovidPatientsMultipleDiagnoses only has people with at lease 1 test.
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ038EndDate datetime;
+SET @TEMPRQ038EndDate = '2022-06-01';
+
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
 -- First get all people with COVID positive test
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
--- Table of all patients with COVID
+-- Table of all patients with COVID at least once
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
 
