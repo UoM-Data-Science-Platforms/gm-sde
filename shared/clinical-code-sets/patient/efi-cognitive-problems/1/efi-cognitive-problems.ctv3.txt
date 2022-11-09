@@ -1,0 +1,111 @@
+XaMGF	Dementia annual review
+X002w	Dementia
+X75xU	Memory impairment
+XaJua	Referral to memory clinic
+1461.	H/O: dementia
+X00R2	Senile dementia
+XE1Xs	Vascular dementia
+1B1A.	Memory disturbance (& amnesia (& symptom))
+X75xH	Poor short-term memory
+Eu00.	[X]Dementia in Alzheimer's disease
+E000.	Uncomplicated senile dementia
+Eu01z	[X]Vascular dementia, unspecified
+E2A10	Mild memory disturbance
+X0030	Dementia in Alzheimer's disease with late onset
+E004.	Arteriosclerotic dementia (including [multi infarct dement])
+Eu002	[X]Dementia in Alzheimer's dis, atypical or mixed type
+XaMJC	Dementia monitoring
+Xa0lH	Multi-infarct dementia
+Eu02z	[X] Dementia: [unspecified] or [named variants (& NOS)]
+X00RT	Age-associated memory impairment
+Eu00z	[X]Dementia in Alzheimer's disease, unspecified
+Eu023	[X]Dementia in Parkinson's disease
+X002x	Dementia in Alzheimer's disease with early onset
+XaKyY	[X]Lewy body dementia
+E001.	Presenile dementia
+X003A	Lewy body disease
+Xa1GB	Cerebral degeneration presenting primarily with dementia
+E004z	Arteriosclerotic dementia NOS
+XE1Z6	[X]Unspecified dementia
+X75xC	Poor long-term memory
+XaE74	Senile dementia of the Lewy body type
+E2A11	Organic memory impairment
+E0021	Senile dementia with depression
+E0020	Senile dementia with paranoia
+X003V	Mixed cortical and subcortical vascular dementia
+Xa25J	Alcoholic dementia
+XaMGG	Dementia monitoring second letter
+Eu011	[X]Dementia: [multi-infarct] or [predominantly cortical]
+Eu01y	[X]Other vascular dementia
+Eu041	[X]Delirium superimposed on dementia
+X0034	Frontotemporal dementia
+E041.	Dementia in conditions EC
+E001z	Presenile dementia NOS
+E002.	Senile dementia with depressive or paranoid features
+X003T	Subcortical vascular dementia
+Xa3ez	Other senile/presenile dementia
+X00Rk	Alcoholic dementia NOS
+Xa0sE	Dementia of frontal lobe type
+X003R	Vascular dementia of acute onset
+Eu020	[X]Dementia in Pick's disease
+Eu022	[X]Dementia in Huntington's disease
+Eu02.	[X]Dementia in other diseases classified elsewhere
+E003.	Senile dementia with delirium
+XE1bq	Memory disturbance: [mild]
+E0040	Uncomplicated arteriosclerotic dementia
+X003X	Patchy dementia
+Ua190	Distortion of memory
+E0010	Uncomplicated presenile dementia
+E002z	Senile dementia with depressive or paranoid features NOS
+XaKUo	Disturbance of memory for order of events
+E0041	Arteriosclerotic dementia with delirium
+XaJPy	Anti-dementia drug therapy
+XE1aG	Dementia (& [presenile] or [senile])
+E0043	Arteriosclerotic dementia with depression
+E0012	Presenile dementia with paranoia
+X003W	Semantic dementia
+Eu02y	[X]Dementia in other specified diseases classif elsewhere
+XE1Xu	Other alcoholic dementia
+E0013	Presenile dementia with depression
+E0011	Presenile dementia with delirium
+X002m	Amyotrophic lateral sclerosis with dementia
+Ub1T6	Language disorder of dementia
+X003P	Acquired immune deficiency syndrome dementia complex
+E0042	Arteriosclerotic dementia with paranoia
+E012.	Alcoholic dementia: [other] or [NOS]
+XaNbm	Seen in memory clinic
+XaLFo	Excepted from dementia quality indicators: Patient unsuitabl
+Ua196	Minor memory lapses
+R00z0	[D]Amnesia (retrograde)
+X75xG	Amnesia for recent events
+3A40.	Memory: present year not known
+3A60.	Memory: present month not knwn
+XaLFp	Excepted from dementia quality indicators: Informed dissent
+3A10.	Memory: own age not known
+3A30.	Memory: present place not knwn
+3AA1.	Memory: address recall unsucc.
+3A70.	Memory: important event not kn
+3A91.	Memory: count down unsuccess.
+3A80.	Memory: import.person not knwn
+3A50.	Memory: own DOB not known
+X75xD	Amnesia for remote events
+XaLFf	Exception reporting: dementia quality indicators
+F21y2	Binswanger's disease
+XaMGJ	Dementia monitoring verbal invite
+XaMGK	Dementia monitoring telephone invite
+XaMGI	Dementia monitoring third letter
+XaJBQ	Global deterioration scale: assessment of prim deg dementia
+Xa2Ve	Impairment of registration
+Ua197	Memory lapses
+3A20.	Memory: present time not known
+Eu021	[X]Dementia in Creutzfeldt-Jakob disease
+XaMFy	Dementia monitoring administration
+F110.	Alzheimer's disease
+Xa3f0	Confusional state
+2841.	Confused
+1461.	H/O: dementia
+XaPpE	Lacks capacity to give consent (Mental Capacity Act 2005)
+X00RS	Mild cognitive disorder
+XaPpE	Lacks capacity to give consent (Mental Capacity Act 2005)
+3A30.	Memory: present place not knwn
+XaMGF	Dementia annual review

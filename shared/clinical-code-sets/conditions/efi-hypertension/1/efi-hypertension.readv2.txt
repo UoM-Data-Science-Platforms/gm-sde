@@ -1,0 +1,38 @@
+14A2.	H/O: hypertension
+246M.	White coat hypertension
+6627.	Good hypertension control
+6628.	Poor hypertension control
+662F.	Hypertension treatm. started
+662O.	On treatment for hypertension
+662b.	Moderate hypertension control
+8CR4.	Hyperten clin management plan
+8HT5.	Referral hypertension clinic
+8I3N.	Hypertension treatment refused
+9N03.	Seen in hypertension clinic
+9N1y2	Seen in hypertension clinic
+9h3..	Except rep: hypertens qual ind
+9h31.	Exc hypertens qual ind: Pt uns
+9h32.	Exc hyperten qual ind: Inf dis
+F4211	Atherosclerotic retinopathy
+F4213	Hypertensive retinopathy
+G2...	Hypertensive disease
+G20..	Essential hypertension
+G200.	Malignant essential hypertens.
+G201.	Benign essential hypertension
+G202.	Systolic hypertension
+G203.	Diastolic hypertension
+G20z.	Essential hypertension NOS
+G22z.	Hypertensive renal disease NOS
+G24..	Secondary hypertension
+G240.	Secondary malignant hypertens.
+G240z	Secondary malign.hypertens.NOS
+G241.	Secondary benign hypertension
+G241z	Secondary benign hypertens.NOS
+G244.	Hypertens 2ndry endocrin disor
+G24z.	Secondary hypertension NOS
+G24z0	Secondary renovasc.hypert. NOS
+G24z1	Hypertension secondary to drug
+G24zz	Secondary hypertension NOS
+G2z..	Hypertensive disease NOS
+Gyu20	[X]Oth secondary hypertension
+Gyu21	[X]Hyperten,2ndary oth ren dis

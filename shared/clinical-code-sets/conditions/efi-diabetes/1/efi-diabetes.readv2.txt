@@ -1,0 +1,173 @@
+2BBR.	O/E - R eye preprolif diab ret
+2BBS.	O/E - L eye preprolif diab ret
+2BBT.	O/E - R eye prolif diab ret
+2G5L.	O/E - L diab foot - ulcerated
+42W3.	Hb. A1C > 10% - bad control
+42c..	HbA1 - diabetic control
+66A..	Diabetic monitoring
+66A4.	Diabetic on oral treatment
+66A5.	Diabetic on insulin
+66AD.	Fundoscopy - diabetic check
+66AH0	Conversion to insulin
+66AJ.	Diabetic - poor control
+66AR.	Diabetes management plan given
+66AS.	Diabetic annual review
+66AU.	Diabetes care by hospital only
+66AZ.	Diabetic monitoring NOS
+66Ab.	Diabetic foot examination
+66Ac.	Diabetic periph neurop screen
+66Ai.	Diabetic 6 month review
+66Aq.	Diabetic foot screen
+68A7.	Diabetic retinopathy screening
+8A17.	Self monitoring blood glucose
+8BL2.	Pt on max tol ther for diabet
+8CR2.	Diabetes clin management plan
+8H7f.	Referral to diabetes nurse
+8HBG.	Diab retinopathy 12 mth review
+8HBH.	Diab retinopathy 6 mth review
+8Hl1.	Ref diabetc retinopathy screen
+9NND.	Under care of diab foot screen
+9OL1.	Attends diabetes monitoring
+9OLD.	Diabet pt unsuit dig ret photo
+9h4..	Except report: diabet qual ind
+9h41.	Except diabet qual ind: Pt uns
+9h42.	Excep diabet qual ind: Inf dis
+C10..	Diabetes mellitus
+C100.	Diab.mell. - no complication
+C1000	Diab.mell.no comp. - juvenile
+C1001	Diab.mell.no comp. - adult
+C100z	Diab.mell.no comp. - onset NOS
+C101.	Diab.mell.with ketoacidosis
+C1010	Diab.mell.+ketoacid - juvenile
+C1011	Diab.mell.+ketoacid - adult
+C101y	Oth specfd diab mel+ketoacidos
+C101z	Diab.mell.+ketoacid -onset NOS
+C102.	Diab.mell. + hyperosmolar coma
+C102z	Diabetes+hyperosmolar coma NOS
+C103.	Diab.mell. + ketoacidotic coma
+C1030	Diab.mell.+ketoac coma-juvenil
+C1031	Diab.mell.+ketoac coma - adult
+C103y	Oth specif diab mell with coma
+C104.	Diab.mell. with nephropathy
+C104y	Oth specfd diab mel+renal comp
+C104z	Diab.mell.+nephropathy NOS
+C105.	Diab.mell.+ eye manifestation
+C105y	Oth specfd diab mel+ophth comp
+C105z	Diab.mell.+eye manif NOS
+C106.	Diab.mell. with neuropathy
+C1061	Diab.mell.+neuropathy - adult
+C106y	Oth specf diab mel+neuro comps
+C106z	Diab.mell.+neuropathy NOS
+C107.	Diab.mell.+periph.circul.dis
+C107z	Diab.+periph.circ.disease NOS
+C108.	Insulin depnd diabetes melitus
+C1080	Insuln-dep diab mel+renal comp
+C1081	Insul-dep diab mel+ophth comps
+C1082	Insul-dep diab mel+neuro comps
+C1083	Insul dep diab mel+multi comps
+C1085	Insul depen diab mel+ulcer
+C1086	Insulin depen diab mel+gangren
+C1087	Insul-depend diab mell+retinop
+C1088	Insul dep diab mell-poor contr
+C1089	Insulin dep diabet adult onset
+C108A	Insulin-dependent dm no comp
+C108B	IDDM with mononeuropathy
+C108C	IDDM with polyneuropathy
+C108D	IDDM with nephropathy
+C108E	IDDM with hypoglycaemic coma
+C108F	IDDM with diabetic cataract
+C108J	IDDM with neuropath arthropath
+C108y	Oth specf diab mel+multip comp
+C108z	Unspecifd diab mel+multip comp
+C109.	Non-insulin depd diabetes mell
+C1090	Non-ins-dp diab mel+renal comp
+C1091	Non-ins-dp diab mel+ophth comp
+C1092	Non-ins-dp diab mel+neuro comp
+C1093	Non-ins-dp diab mel+multi comp
+C1094	Non-insul depen diab mel+ulcer
+C1095	Non-insulin dep diab mell+gang
+C1096	Non-insul dep diab mel+retinop
+C1097	Non-insul dep diab-poor contr
+C1099	Non-insul-dep diab mel no comp
+C109A	NIDDM with mononeuropathy
+C109B	NIDDM with polyneuropathy
+C109C	NIDDM with nephropathy
+C109D	NIDDM with hypoglycaemic coma
+C109E	NIDDM with diabetic cataract
+C109F	NIDDM with periph angiopath
+C109G	NIDDM with arthropathy
+C109H	NIDDM with neuropath arthrop
+C109J	Insul treated Type 2 diab mell
+C10A1	Malnut-rlat diab mell+ketoacid
+C10B0	Sterod ind diab mel w/out comp
+C10C.	Diab mell aut dom
+C10D.	Diab mell aut dom type 2
+C10E.	Type 1 diabetes mellitus
+C10E0	Type 1 d m with renal comps
+C10E1	Type 1 diab mell + ophth comps
+C10E2	Type 1 diab mell + neuro comps
+C10E3	Type 1 diab mell + mult comps
+C10E5	Type 1 diab mell with ulcer
+C10E6	Type 1 diab mell with gangrene
+C10E7	Type 1 diab mell + retinopathy
+C10E8	Type 1 diab mell poor control
+C10E9	Type 1 diab mell matur onset
+C10EA	Type 1 diab mell without comp
+C10EB	Type 1 diab mell + mononeurop
+C10EC	Type 1 diab mell + polyneurop
+C10ED	Type 1 diab mell + nephropathy
+C10EE	Type 1 diab mell + hypo coma
+C10EF	Type 1 diab mell + diab catar
+C10EJ	Type 1 diab mell+neuro arthrop
+C10EK	Type 1 d m + persist proteinur
+C10EL	Type 1 d m + persist microalb
+C10EM	Type 1 d m with ketoacidosis
+C10EN	Type 1 d m+ketoacidotic coma
+C10EP	Type 1 d m + exudat maculopath
+C10EQ	Type 1 dm with gastroparesis
+C10ER	Latent autoimm diab mell adult
+C10F.	Type 2 diabetes mellitus
+C10F0	Type 2 diab mell + renal compl
+C10F1	Type 2 diab mell+ophthal comp
+C10F2	Type 2 diab mell + neurol comp
+C10F3	Type 2 diab mell + multip comp
+C10F4	Type 2 diab mell with ulcer
+C10F5	Type 2 diab mell + gangrene
+C10F6	Type 2 diab mell + retinopathy
+C10F7	Type 2 diab mell+poor control
+C10F9	Type 2 diab mell without comp
+C10FA	Type 2 diab mell mononeurop
+C10FB	Type 2 diab mell + polyneurop
+C10FC	Type 2 diab mell + nephropathy
+C10FD	Type 2 diab mell+hypogly coma
+C10FE	Type 2 diab mell+diab catarct
+C10FF	Type 2 diab mell+perip angiop
+C10FG	Type 2 diab mell + arthropathy
+C10FH	Type 2 diab mell neurop+arthr
+C10FJ	Insul treated Type 2 diab mell
+C10FL	Type 2 d m + persist proteinur
+C10FM	Type 2 d m + persist microalb
+C10FN	Type 2 d m with ketoacidosis
+C10FP	Type 2 d m+ketoacidotic coma
+C10FQ	Type 2 d m + exudat maculopath
+C10FR	Type 2 dm with gastroparesis
+C10H.	DM induced by non-steroid drug
+C10y.	Diab.mell.+other manifestation
+C10yy	Oth spec diab mel+oth spec cmp
+C10z.	Diab.mell. + unspec comp
+C10zz	Diab.mell. + unspec comp NOS
+Cyu2.	[X]Diabetes mellitus
+Cyu23	[X]Unspec diab mel + ren compl
+F1711	Autonomic neuropathy-diabetes
+F372.	Polyneuropathy in diabetes
+F3720	Acute painful diab neuropathy
+F3721	Chron painful diab neuropathy
+F3722	Asymptomatic diab neuropathy
+F3813	Myasthenic syndrome+diabetes
+F3y0.	Diabetic mononeuropathy
+F420.	Diabetic retinopathy
+F4200	Background diabetic retinopath
+F4204	Diabetic maculopathy
+F4206	Non prolif diab retinop
+F420z	Diabetic retinopathy NOS
+F42y9	Macular oedema

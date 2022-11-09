@@ -1,0 +1,30 @@
+14D..	H/O: urinary disease
+14DZ.	H/O: urinary disease NOS
+1A1..	Micturition frequency
+1A13.	Nocturia
+1A1Z.	Micturition frequency NOS
+1A55.	Dysuria
+1AA..	Prostatism
+1AC2.	Polyuria
+7B39.	Endos prostatec/male blad outl
+7B390	TUR prostatectomy
+8156.	Attention to urinary catheter
+8H5B.	Referred to urologist
+K....	Genitourinary system diseases
+K155.	Recurrent cystitis
+K1653	Detrusor instability
+K1654	Unstable bladder
+K16y4	Irritable bladder
+K190.	Urinary tract infect.unsp.site
+K1903	Recurrent urinary tract infecn
+K1905	Urinary tract infection
+K190z	Urinary tract infect.unsp.NOS
+K1971	Painful haematuria
+K1973	Frank haematuria
+K20..	Benign prostatic hypertrophy
+Ky...	Genitourinary diseases OS
+Kz...	Genitourinary disease NOS
+R08..	[D]Urinary system symptoms
+R082.	[D]Retention of urine
+R0822	[D]Acute retention of urine
+SP031	Mech.comp.-urethral catheter

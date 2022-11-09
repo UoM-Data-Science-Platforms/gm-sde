@@ -1,0 +1,199 @@
+145..	H/O: blood disorder (& [anaemia])
+1451.	H/O: anaemia - iron deficient
+1452.	H/O: Anaemia vit.B12 deficient
+1453.	H/O: haemolytic anaemia
+1454.	H/O: anaemia NOS
+B9370	Refractory anaemia without sideroblasts, so stated
+B9371	Refractory anaemia with sideroblasts
+B9372	Refractory anaemia with excess of blasts
+B9373	Refractory anaemia with excess of blasts with transformation
+BBmA.	[M] Refractory anaemia with sideroblasts
+BBmB.	[M]Refractory anaemia+excess of blasts with transformation
+ByuHC	[X]Refractory anaemia, unspecified
+D0...	Deficiency anaemiasm (& [asiderotic] or [sideropenic])
+D00..	Iron deficiency anaemias (& [hypochromic - microcytic])
+D000.	Anaemia due chron blood loss: [iron defic] or [normocytic]
+D001.	Iron deficiency anaemia due to dietary causes
+D00y.	(Kelly-Paterson's)/(Plumm-Vinson's)/(oth sp iron def anaem)
+D00y1	Microcytic hypochromic anaemia
+D00yz	Other specified iron deficiency anaemia NOS
+D00z.	Unspecified iron deficiency anaemia
+D00z0	Achlorhydric anaemia
+D00z1	Chlorotic anaemia
+D00z2	Idiopathic hypochromic anaemia
+D00zz	Iron deficiency anaemia NOS
+D01..	Anaemia: [megaloblastic] or [other deficiency]
+D010.	Pernicious anaemia (& [Biermers][congen def intrins factor])
+D011.	Vitamin B12 deficiency anaemia (& pleural)
+D0110	Vit B12 def anaem: [diet][Imersl-Grasbeck][Imerslund][Vegan]
+D0111	Vit B12 defic anaemia due to malabsorption with proteinuria
+D011z	Other vitamin B12 deficiency anaemia NOS
+D012.	Folate-deficient megaloblastic anaemia
+D0121	Anaemia: [folate def or megaloblast, diet cause]/[goat milk]
+D0122	Folate deficiency anaemia, drug-induced
+D0123	Folate deficiency anaemia due to malabsorption
+D0124	Folate deficiency anaemia due to liver disorders
+D012z	Folate deficiency anaemia NOS
+D013.	Other specified megaloblastic anaemia NEC
+D0130	Combined B12 and folate deficiency anaemia
+D013z	Other specified megaloblastic anaemia NEC NOS
+D014.	Protein-deficiency anaemia
+D0140	Amino acid deficiency anaemia
+D014z	Protein-deficiency anaemia NOS
+D01y.	Other specified nutritional deficiency anaemia
+D01yy	Other specified other nutritional deficiency anaemia
+D01yz	Other specified nutritional deficiency anaemia NOS
+D01z.	Anaemia NOS: [other deficiency] or [megaloblastic]
+D01z0	[X]Megaloblastic anaemia NOS
+D0y..	Other specified deficiency anaemias
+D0z..	Deficiency anaemias NOS
+D1...	Haemolytic anaemia
+D104.	(Thalassaemia (& Mediterr anaemia)) or (leptocytosis, hered)
+D1040	Thalassaemia major: [NEC] or [Cooley's anaemia]
+D1047	Beta thalassaemia major
+D104z	(Mediterranean anaemia) or (thalassaemia NOS)
+D106.	Sickle cell anaemia
+D1060	Sickle cell anaemia of unspecified type
+D1061	Sickle cell anaemia with no crisis
+D1062	Sickle cell anaemia with crisis
+D106z	Sickle cell anaemia NOS
+D11..	Acquired haemolytic anaemia
+D110.	(Autoimmun haemolyt anaemia) or (Coombs positive haemolysis)
+D1100	Primary cold-type haemolytic anaemia
+D1101	Primary warm-type haemolytic anaemia
+D1102	Secondary cold-type haemolytic anaemia
+D1103	Secondary warm-type haemolytic anaemia
+D110z	Autoimmune haemolytic anaemia NOS
+D111.	Non-autoimmune haemolytic anaemia
+D1110	Mechanical haemolytic anaemia
+D1111	Microangiopathic haemolytic anaemia
+D1112	Toxic haemolytic anaemia
+D1114	Drug-induced haemolytic anaemia
+D1115	Infective haemolytic anaemia
+D111y	Other specified non-autoimmune haemolytic anaemia
+D111z	Non-autoimmune haemolytic anaemia NOS
+D11z.	Acquired haemolytic anaemia NOS
+D1y..	Other specified haemolytic anaemias
+D1z..	Haemolytic anaemias NOS
+D2...	Aplastic and other anaemias
+D20..	Aplastic anaemia
+D210.	Sideroblastic anaemia
+D2101	Acquired sideroblastic anaemia
+D2002	(Constit aplas anaem with malf) or (pancytopenia - dysmelia)
+D200y	Other specified constitutional aplastic anaemia
+D200z	Constitutional aplastic anaemia NOS
+D201.	Anaemia: [acquired aplastic] or [normocytic due to aplasia]
+D2010	Aplastic anaemia due to chronic disease
+D2011	Anaemia: [aplast due drug][hypoplast due drug or chem subst]
+D2012	Aplastic anaemia due to infection
+D2013	Aplastic anaemia due to radiation
+D2014	Aplastic anaemia due to toxic cause
+D2017	Transient hypoplastic anaemia
+D201z	Anaemia: [named variants (& [NOS] or [NEC])]
+D204.	Idiopathic aplastic anaemia
+D20z.	Aplastic anaemia NOS
+D21..	Other and unspecified anaemia
+D2103	Secondary sideroblastic anaemia due to disease
+D2104	Secondary sideroblastic anaemia due to drugs and toxins
+D210z	Sideroblastic anaemia NOS
+D211.	Acute posthaemorrhagic anaemia (& normocytic )
+D212.	Anaemia in neoplastic disease
+D214.	Chronic anaemia
+D21yy	Other specified other anaemia
+D21yz	Other specified anaemia NOS
+D21z.	Anaemia: [unsp][secondary NOS][normocyt/macrocyt unsp cause]
+D2y..	Other specified anaemias
+D2z..	Other anaemias NOS
+Dyu0.	[X]Nutritional anaemias
+Dyu00	[X]Other iron deficiency anaemias
+Dyu01	[X]Other dietary vitamin B12 deficiency anaemia
+Dyu02	[X]Other vitamin B12 deficiency anaemias
+Dyu03	[X]Other folate deficiency anaemias
+Dyu04	[X]Other megaloblastic anaemias, not elsewhere classified
+Dyu05	[X]Anaem(nonmegaloblast)assoc+oth specfd nutrition deficiens
+Dyu06	[X]Vitamin B12 deficiency anaemia, unspecified
+Dyu1.	[X]Haemolytic anaemias
+Dyu15	[X]Other autoimmune haemolytic anaemias
+Dyu16	[X]Other nonautoimmune haemolytic anaemias
+Dyu17	[X]Other acquired haemolytic anaemias
+Dyu2.	[X]Aplastic and other anaemias
+Dyu21	[X]Other specified aplastic anaemias
+Dyu22	[X]Anaemia in other chronic diseases classified elsewhere
+Dyu23	[X]Other sideroblastic anaemias
+Dyu24	[X]Other specified anaemias
+X20Bp	Normocytic anaemia due to unspecified cause
+X20Bq	Normocytic anaemia due to aplasia
+X20Br	Secondary anaemia NOS
+X20Bu	Anaemia of chronic disorder
+X20Bv	Anaemia of renal disease
+X20Bw	Microcytic anaemia
+X20C6	Macrocytic anaemia
+X20C7	Macrocytic anaemia of unspecified cause
+X20C8	Megaloblastic anaemia
+X20C9	Megaloblastic anaemia NOS
+X20CA	Megaloblastic anaemia due to dietary causes
+X20CG	Combined deficiency anaemia
+X20CI	Alcohol-related sideroblastic anaemia
+X20CJ	Drug-induced sideroblastic anaemia
+X20CK	Refractory anaemia
+X20CP	Constitutional aplastic anaemia without malformation
+X20Ca	Acquired haemolytic anaemia with haemoglobinuria NEC
+X20Ce	Warm autoimmune haemolytic anaemia
+XE13b	Deficiency anaemias
+XE13c	Iron deficiency anaemia
+XE13d	Iron deficiency anaemia due to chronic blood loss
+XE13e	Other specified iron deficiency anaemia
+XE13f	Other deficiency anaemias
+XE13g	Other vitamin B12 deficiency anaemias
+XE13h	Vitamin B12 deficiency anaemia due to dietary causes
+XE13i	Folate deficiency anaemia due to dietary causes
+XE13j	Other deficiency anaemias NOS
+XE13o	Autoimmune haemolytic anaemia
+XE13q	Constitutional aplastic anaemia
+XE13r	Constitutional aplastic anaemia with malformation
+XE13t	Acquired aplastic anaemia
+XE13u	Aplastic anaemia due to drugs
+XE13w	Acquired aplastic anaemia NOS
+XE13x	Acute posthaemorrhagic anaemia
+XE140	Anaemia unspecified
+XE14S	(Anaem: [iron def][microcyt]) or (Kelly-Pat) or (Plumm-Vins)
+XE14U	Anaemia: [deficiency excluding iron] or [megaloblastic]
+XE14W	B12 deficiency anaemia (& other)
+XE14i	Other anaemias
+XE2ro	Pernicious anaemia
+XM05A	Anaemia
+Xa05o	Idiopathic sideroblastic anaemia
+Xa0Se	Refractory anaemia with ringed sideroblasts
+Xa0Sf	Refractory anaemia with excess blasts
+Xa0Sg	Refractory anaemia with excess blasts in transformation
+Xa36n	Cold autoimmune haemolytic anaemia
+Xa3eu	Deficiency anaemias, excluding iron
+Xa3ev	Nutritional anaemias NOS
+Xa7n0	Normocytic anaemia
+Xa9Aw	Vitamin B12-deficient megaloblastic anaemia
+Xa9FH	Normocytic anaemia following acute bleed
+XaBC5	[M] Refractory anaemia with excess of blasts
+XaBDS	Anaemia in ovarian carcinoma
+XaC0z	Drug-induced autoimmune haemolytic anaemia
+XaCLx	Anaemia secondary to renal failure
+XaCLy	Anaemia secondary to chronic renal failure
+XaM6S	Hypoplastic haemolytic and renal anaemia drugs Band 1
+XaM6T	Hypoplastic haemolytic and renal anaemia drugs Band 2
+XaQi5	History of sickle cell anaemia
+XaYv2	Refractory anaemia with multilineage dysplasia
+Xaa65	Recurrent anaemia
+i1...	Oral iron for iron-deficiency anaemias
+i2...	Parenteral iron for iron-deficiency anaemias
+XM05A	Anaemia
+XE140	Anaemia unspecified
+D00y1	Microcytic hypochromic anaemia
+Dyu06	[X]Vitamin B12 deficiency anaemia, unspecified
+D00zz	Iron deficiency anaemia NOS
+42R41	Ferritin level low
+i312.	Hydroxocobalamin 1mg/1mL injection
+66E5.	B12 injections - at surgery
+C2621	Cobalamin deficiency
+42T2.	Serum vitamin B12 low
+D00..	Iron deficiency anaemias (& [hypochromic - microcytic])
+C2620	Folic acid deficiency
+D00z.	Unspecified iron deficiency anaemia

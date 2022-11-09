@@ -1,0 +1,39 @@
+14A6.	H/O: heart failure
+14AM.	H/O:Heart failure in last year
+1736.	Paroxysmal nocturnal dyspnoea
+1O1..	Heart failure confirmed
+33BA.	Impaired left ventricular func
+388D.	NYHA classif heart fail symps
+585f.	Echocardiogram shows LVSDF
+662T.	Congestive heart failure monit
+662W.	Heart failure annual review
+662g.	NYHA classification - class II
+662h.	NYHA classification- class III
+662p.	Heart failure 6 month review
+679X.	Heart failure education
+67D4.	Heart failure info given to pt
+8CL3.	HF care plan discussed with pt
+8H2S.	Admit heart failure emergency
+8HBE.	Heart failure follow-up
+8HHb.	Referral to heart failure nurs
+8HHz.	Ref to heart failur exerc prog
+9N0k.	Seen in heart failure clinic
+9N2p.	Seen by comm heart failur nurs
+9N4s.	DNA pract nur heart fail clinc
+9N4w.	DNA heart failure clinic
+9N6T.	Ref by heart fail nurs special
+9Or0.	Heart failure review completed
+9Or5.	Heart fail monitori 3rd letter
+9hH0.	Exc heart fai qual ind: Pt uns
+9hH1.	Ex heart fai qual ind: Inf dis
+G58..	Heart failure
+G580.	Congestive heart failure
+G5800	Acute congestive heart failure
+G5801	Chroncongestive heart failure
+G5804	Cong heart fail due valv dis
+G581.	Left ventricular failure
+G582.	Acute heart failure
+G58z.	Heart failure NOS
+G5y4z	Post cardiac op.heart fail NOS
+G5yy9	Left ventricul systol dysfunc
+SP111	Cardiac insuffic.comp.of care

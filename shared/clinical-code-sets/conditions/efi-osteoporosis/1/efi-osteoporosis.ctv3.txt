@@ -1,0 +1,55 @@
+Xa0AZ	Primary osteoporosis
+XaC12	Osteoporosis localised to spine
+N3319	Osteoporosis with pathological fracture thoracic vertebrae
+N3318	Osteoporosis with pathological fracture of lumbar vertebrae
+XaD4K	Collapse of vertebra due to osteoporosis NOS
+NyuB1	[X]Other osteoporosis
+N3305	Drug-induced osteoporosis
+X70Av	Secondary generalised osteoporosis
+XaISh	Osteoporosis treatment stopped
+XaISi	Osteoporosis treatment changed
+XaISj	Osteoporosis - no treatment
+XaIP4	Osteoporosis due to corticosteroids
+NyuB0	[X]Other osteoporosis with pathological fracture
+NyuB8	[X]Unspecified osteoporosis with pathological fracture
+N331B	Postmenopausal osteoporosis with pathological fracture
+N3304	Disuse osteoporosis
+XaQRT	Bone sparing drug treatment offered for osteoporosis
+XaISo	Osteoporosis - treatment response
+N3316	Idiopathic osteoporosis with pathological fracture
+N330A	Osteoporosis in endocrine disorders
+X70At	Adult idiopathic generalised osteoporosis
+N3312	Postoophorectomy osteoporosis with pathological fracture
+N3315	Drug-induced osteoporosis with pathological fracture
+N3308	Localised osteoporosis - Lequesne
+N3306	Postoophorectomy osteoporosis
+N330.	Osteoporosis
+XaISl	Osteoporosis - dietary assessment
+XaISk	Osteoporosis - dietary advice
+XaISm	Osteoporosis - exercise advice
+XaISx	Seen in osteoporosis clinic
+XaJdn	Referral to osteoporosis clinic
+XaQgT	History of osteoporosis
+N330z	Osteoporosis NOS
+XaISg	Osteoporosis treatment started
+N330B	Vertebral osteoporosis
+N3301	Senile osteoporosis
+N3300	Osteoporosis, unspecified
+N3302	Postmenopausal osteoporosis
+XaISn	Osteoporosis - falls prevention
+X7038	Idiopathic osteoarthritis
+XaX3U	Excepted osteoporosis quality indicators: patient unsuitable
+X70B0	Secondary localised osteoporosis
+Xa1k0	Regional osteoporosis
+XaX3W	Excepted osteoporosis quality indicators: informed dissent
+N3307	Post-surgical malabsorption osteoporosis
+X70Ax	Transient osteoporosis of hip
+XaISQ	Attends osteoporosis monitoring
+XaISS	Osteoporosis monitoring default
+N3303	Idiopathic generalised osteoporosis
+XaISd	Osteoporosis monitoring
+XaISt	Refer to osteoporosis specialist
+XaIT0	At risk of osteoporotic fracture
+XaCDT	Bone densimetry abnormal
+XaE5D	Osteopenia
+XaITc	Lumbar DXA scan result osteopenic

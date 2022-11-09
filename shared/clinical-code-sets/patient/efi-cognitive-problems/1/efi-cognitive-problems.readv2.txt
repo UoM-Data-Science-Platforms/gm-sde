@@ -1,0 +1,81 @@
+1461.	H/O: dementia
+1B1A.	Memory loss - amnesia
+1S21.	Disturb of mem for ord events
+2841.	Confused
+28E..	Cognitive decline
+3A10.	Memory: own age not known
+3A20.	Memory: present time not known
+3A30.	Memory: present place not knwn
+3A40.	Memory: present year not known
+3A50.	Memory: own DOB not known
+3A60.	Memory: present month not knwn
+3A70.	Memory: important event not kn
+3A80.	Memory: import.person not knwn
+3A91.	Memory: count down unsuccess.
+3AA1.	Memory: address recall unsucc.
+3AE..	GDS: assess prim deg dement
+66h..	Dementia monitoring
+6AB..	Dementia annual review
+8HTY.	Referral to memory clinic
+9NdL.	Lacks capacity consnt MCA 2005
+9Nk1.	Seen in memory clinic
+9Ou..	Dementia monitoring admin.
+9Ou2.	Dementia monitoring 2nd letter
+9Ou3.	Dementia monitoring 3rd letter
+9Ou4.	Dementia monitor verbal invite
+9Ou5.	Dementia monitor phone invite
+9hD..	Excep report: demen qual indic
+9hD0.	Exc demen qual ind: Pat unsuit
+9hD1.	Exc demen qual ind: Inform dis
+E00..	Senile/presenile organic psych
+E000.	Senile dementia-uncomplicated
+E001.	Presenile dementia
+E0010	Presenile dementia - uncomplic
+E0011	Presenile dementia + delirium
+E0012	Presenile dementia + paranoia
+E0013	Presenile dementia+depression
+E001z	Presenile dementia NOS
+E002.	Sen.dement.-depressed/paranoid
+E0020	Senile dementia + paranoia
+E0021	Senile dementia + depression
+E002z	Sen.dement.-depr./paranoid NOS
+E003.	Senile dementia + delirium
+E004.	Arteriosclerotic dementia
+E0040	Arterioscl.dementia-uncomplic.
+E0041	Arterioscl.dementia+delirium
+E0042	Arterioscl.dementia+paranoia
+E0043	Arterioscl.dementia+depression
+E004z	Arteriosclerotic dementia NOS
+E012.	Other alcoholic dementia
+E041.	Dementia in conditions EC
+E2A10	Mild memory disturbance
+E2A11	Organic memory impairment
+Eu00.	[X]Dementia in Alzheimer's
+Eu000	[X]Early onset Alzheim dement
+Eu001	[X]Late onset Alzheim dementia
+Eu002	[X]Atypical/mixed Alzheimer's
+Eu00z	[X]Alzheimer's disease unspec
+Eu01.	[X]Vascular dementia
+Eu010	[X]Vascular dement acute onset
+Eu011	[X]Multi-infarct dementia
+Eu012	[X]Subcortical vascular dement
+Eu013	[X]Mix cort/subcor vasc dement
+Eu01y	[X]Other vascular dementia
+Eu01z	[X]Vascular dementia unspecif
+Eu02.	[X]Dementia in disease EC
+Eu020	[X]Dementia in Pick's disease
+Eu021	[X]Dement in Creutzfeld-Jakob
+Eu022	[X]Dementia in Huntington's
+Eu023	[X]Dementia in Parkinson's
+Eu024	[X]Dementia in HIV disease
+Eu025	[X]Lewy body dementia
+Eu02y	[X]Dement,oth sp dis cl elsewh
+Eu02z	[X] Unspecified dementia
+Eu041	[X]Delirium superimp dementia
+Eu057	[X]Mild cognitive disorder
+F110.	Alzheimer's disease
+F1100	Alzheimer dis wth early onset
+F1101	Alzheimer's dis wth late onset
+F116.	Lewy body disease
+F21y2	Binswanger's disease
+R00z0	[D]Amnesia (retrograde)

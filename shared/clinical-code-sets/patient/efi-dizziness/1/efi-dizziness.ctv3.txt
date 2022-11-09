@@ -1,0 +1,33 @@
+XM06h	Vertigo NOS
+R0043	[D]Vertigo NOS
+F5611	Benign paroxysmal positional vertigo or nystagmus
+Xa9Bo	Benign paroxysmal positional vertigo
+R0044	[D]Acute vertigo
+XM1RJ	H/O: vertigo
+F561.	Other and unspecified peripheral vertigo
+XE0q7	H/O: vertigo/Meniere's disease
+F5614	Otogenic vertigo
+Xa0Qo	Peripheral positional vertigo
+X00jo	Peripheral vestibular vertigo
+F5610	Unspecified peripheral vertigo
+F562.	Central vestibular vertigo
+X00jh	Vertebrobasilar ischaemic vertigo
+1491.	H/O: vertigo &/or Meniere's disease
+XaBCM	Benign paroxysmal positional vertigo nystagmus
+X00jc	Benign recurrent vertigo
+XM0ys	Vertigo NEC        [D]
+X00jb	Migrainous vertigo
+F562z	Vertigo of central origin NOS
+Xa0Qp	Central positional vertigo
+FyuQ1	[X]Other peripheral vertigo
+F561z	Other peripheral vertigo NOS
+X00jl	Psychogenic vertigo
+XE1A9	Central nystagmus &/or vertigo
+X00jg	Ocular vertigo
+X00ji	Cervical vertigo
+XC07f	Dizziness
+R0040	[D]Dizziness
+1B53.	Dizziness present
+R004.	[D]Dizziness and giddiness
+XaFsA	Dizzy spells
+F56..	Disorders of the vestibular system and vertiginous syndromes
