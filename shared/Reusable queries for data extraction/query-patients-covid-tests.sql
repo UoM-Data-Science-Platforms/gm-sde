@@ -17,13 +17,13 @@
 -- #AllCovidTests (FK_Patient_Link_ID, CovidTestDate, CovidTestDescription, ClinicalCode)
 -- 	- FK_Patient_Link_ID - unique patient id
 --  - CovidTestDate - Date, assume that only 1 test per day
---	- CovidTestResult - Varchar, This field concatenates the information in the GroupDescription and SubGroupDescription from the vw_COVID19 table.
---  - ClinicalCode - The clinical code retrieved from 'MainCode' in the vw_COVID19 table. 
+--	- CovidTestResult - Varchar, This field concatenates the information in the GroupDescription and SubGroupDescription from the COVID19 table.
+--  - ClinicalCode - The clinical code retrieved from 'MainCode' in the COVID19 table. 
 
 
 IF OBJECT_ID('tempdb..#CovidPositiveTests') IS NOT NULL DROP TABLE #CovidPositiveTests;
 SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, 'Positive' AS CovidTestResult INTO #CovidPositiveTests
-FROM [RLS].[vw_COVID19]
+FROM [SharedCare].[COVID19]
 WHERE (
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
@@ -33,7 +33,7 @@ AND EventDate <= GETDATE();
 
 IF OBJECT_ID('tempdb..#CovidNegativeTests') IS NOT NULL DROP TABLE #CovidNegativeTests;
 SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, 'Negative' AS CovidTestResult INTO #CovidNegativeTests
-FROM [RLS].[vw_COVID19]
+FROM [SharedCare].[COVID19]
 WHERE (
 	(GroupDescription = 'Confirmed' AND SubGroupDescription = 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Negative') OR
@@ -46,7 +46,7 @@ AND EventDate <= GETDATE();
 -- Get all covid tests, the date, and the clinical code. This includes positive, negative, excluded, suspected. 
 IF OBJECT_ID('tempdb..#AllCovidTests') IS NOT NULL DROP TABLE #AllCovidTests;
 SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, CONCAT(GroupDescription, ' - ', SubGroupDescription)  AS CovidTestResult, MainCode AS ClinicalCode INTO #AllCovidTests
-FROM [RLS].[vw_COVID19]
+FROM [SharedCare].[COVID19]
 WHERE (
 	GroupDescription = 'Assessed'  OR
 	GroupDescription = 'Confirmed'  OR

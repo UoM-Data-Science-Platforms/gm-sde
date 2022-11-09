@@ -37,6 +37,29 @@
 -- IsOnACEIorARB, IsOnAspirin, IsOnClopidogrel, IsOnMetformin, IsOnInsulin, 
 -- IsOnSGLTI, IsOnGLP1A, IsOnSulphonylurea
 
+-- UPDATE. PI has requested the following that we have
+
+--  - Stroke
+--  - Heart Failure
+
+
+-- CHECK
+--  - Renal Disease = ckd?
+
+
+--  - Respiratory Tract Infection
+--  - Ischaemic Heart Disease
+--  - Pharyngitis and Sinusitis
+--  - Acute Conjunctivitis
+--  - Diabetic Retinopathy
+--  - Cataract
+--  - units for hba1c
+--  - MI
+--  - Angina
+--  - Coronary Angioplasty
+--  - Coronary Artery Bipass Grafting
+
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
