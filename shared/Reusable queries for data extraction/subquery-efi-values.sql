@@ -23,10 +23,10 @@ SELECT FK_Patient_Link_ID, '{param:efi-category}' AS Deficit, MIN(CONVERT(DATE, 
 FROM #EfiValueData
 WHERE SuppliedCode IN ({param:supplied-codes})
 {if:min-value}
-AND [Value] > {param:min-value}
+AND TRY_CONVERT(NUMERIC (18,5), [Value]) > {param:min-value}
 {endif:min-value}
 {if:max-value}
-AND [Value] < {param:max-value}
+AND TRY_CONVERT(NUMERIC (18,5), [Value]) < {param:max-value}
 {endif:max-value}
 {if:patients}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM {param:patients})

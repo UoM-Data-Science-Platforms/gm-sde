@@ -87,15 +87,14 @@ AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS I
 {if:all-patients=false}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 {endif:all-patients}
-AND EventDate <= GETDATE()
-GROUP BY FK_Patient_Link_ID;
+AND EventDate <= GETDATE();
 
 -- Some value ranges depend on the patient's sex
 --> EXECUTE query-patient-sex.sql
 
 -- Create temp tables with all Males and all Females
 IF OBJECT_ID('tempdb..#MalePatients') IS NOT NULL DROP TABLE #MalePatients;
-SELECT FK_Patient_Link_ID FROM #PatientSex
+SELECT FK_Patient_Link_ID INTO #MalePatients FROM #PatientSex
 WHERE Sex = 'M'
 {if:all-patients=false}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -103,7 +102,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 ;
 
 IF OBJECT_ID('tempdb..#FemalePatients') IS NOT NULL DROP TABLE #FemalePatients;
-SELECT FK_Patient_Link_ID FROM #PatientSex
+SELECT FK_Patient_Link_ID INTO #FemalePatients FROM #PatientSex
 WHERE Sex = 'F'
 {if:all-patients=false}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -131,16 +130,16 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 -- Anaemia if haemaglobin is below reference range. (From Andy Clegg)
 -- - Males <13, >25, <130, Females <11.5, >25, <115 (to take account of unit changes)
 --> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:25 max-value:130 patients:#MalePatients
---> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" max-value:13 patients:#MalePatients
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:0 max-value:13 patients:#MalePatients
 --> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:25 max-value:115 patients:#FemalePatients
---> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" max-value:11.5 patients:#FemalePatients
+--> EXECUTE subquery-efi-values.sql efi-category:'anaemia' supplied-codes:"'423..','XE2m6','Xa96v'" min-value:0 max-value:11.5 patients:#FemalePatients
 
 -- Thyroid problems if TSH outside of 0.36-5.5
---> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" max-value:0.36 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" min-value:0 max-value:0.36 all-patients:{param:all-patients}
 --> EXECUTE subquery-efi-values.sql efi-category:'thyroid-disorders' supplied-codes:"'442A.','442W.','XE2wy','XaELV'" min-value:5.5 all-patients:{param:all-patients}
 
 -- Chronic kidney disease if Glomerular filtration rate <60
---> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'451E.','451F.','XSFyN','XaZpN','XaK8y','XaMDA','XacUJ','XacUK'" max-value:60 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'451E.','451F.','XSFyN','XaZpN','XaK8y','XaMDA','XacUJ','XacUK'" min-value:0 max-value:60 all-patients:{param:all-patients}
 
 -- Chronic kidney disease if Urine protein (from AC) >150mg/24hr
 --> EXECUTE subquery-efi-values.sql efi-category:'ckd' supplied-codes:"'46N..','XE2eH','XE2eG'" min-value:150 all-patients:{param:all-patients}
@@ -159,7 +158,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
 
 -- Peripheral vascular disease if ABPI < 0.95
---> EXECUTE subquery-efi-values.sql efi-category:'pvd' supplied-codes:"'585a.','Y1259','Y1258','XaIup'" max-value:0.95 all-patients:{param:all-patients}
+--> EXECUTE subquery-efi-values.sql efi-category:'pvd' supplied-codes:"'585a.','Y1259','Y1258','XaIup'" min-value:0 max-value:0.95 all-patients:{param:all-patients}
 
 -- Osteoporosis if Hip DXA scan T score <= -2.5
 --> EXECUTE subquery-efi-values.sql efi-category:'osteoporosis' supplied-codes:"'XaITU','58EE.'" max-value:-2.499 all-patients:{param:all-patients}
@@ -173,123 +172,6 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 --#endregion
 
 --#region Polypharmacy - the 36th EFI deficit
--- Polypharmacy is defined as 5 different med codes on a single day. This then lasts for 6 weeks
--- (most Rx for 4 weeks, so add some padding to ensure people on 5 meds permanently, but with
--- small variation in time differences are classed as always poly rather than flipping in/out).
--- Overlapping periods are then combined.
-
--- Get all the dates that people were prescribed 5 or more meds
-IF OBJECT_ID('tempdb..#PolypharmDates5OnOneDay') IS NOT NULL DROP TABLE #PolypharmDates5OnOneDay;
-SELECT FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate]) AS MedicationDate
-INTO #PolypharmDates5OnOneDay
-FROM {param:gp-medications-table}
-GROUP BY FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate])
-HAVING COUNT(DISTINCT SuppliedCode) >= 5;
-
--- Now convert to desired format (PatientId / DateFrom / DateTo)
-
--- Temp holiding table for loop below
-IF OBJECT_ID('tempdb..#PolypharmacyPeriodsTEMP') IS NOT NULL DROP TABLE #PolypharmacyPeriodsTEMP;
-CREATE TABLE #PolypharmacyPeriodsTEMP (
-	FK_Patient_Link_ID BIGINT,
-	DateFrom DATE,
-	DateTo DATE
-);
-
--- Populate initial start and end dates
-IF OBJECT_ID('tempdb..#PolypharmacyPeriods') IS NOT NULL DROP TABLE #PolypharmacyPeriods;
-SELECT FK_Patient_Link_ID, MedicationDate As DateFrom, DATEADD(day, 42, MedicationDate) AS DateTo
-INTO #PolypharmacyPeriods
-FROM #PolypharmDates5OnOneDay;
-
-DECLARE @NumberDeleted INT;
-SET @NumberDeleted=1;
-WHILE ( @NumberDeleted > 0)
-BEGIN
-
-	-- PHASE 1
-	-- Populate the temp table with overlapping periods. If there is no overlapping period,
-	-- we just retain the initial period. If a period overlaps, then this populate the widest
-	-- [DateFrom, DateTo] range.
-	-- Grapically we go from:
-	-- |------|
-	--     |-----|
-	--      |-------|
-	--              |-----|
-	--                      |-----|
-	-- to:
-	-- |------|
-	-- |---------|
-	-- |------------|
-	--     |-----|
-	--     |--------|
-	--      |-------|
-	--      |-------------|
-	--              |-----|
-	--                      |-----|
-	--
-	TRUNCATE TABLE #PolypharmacyPeriodsTEMP;
-	INSERT INTO #PolypharmacyPeriodsTEMP
-	select p1.FK_Patient_Link_ID, p1.DateFrom, ISNULL(p2.DateTo, p1.DateTo) AS DateTo
-	from #PolypharmacyPeriods p1
-	left outer join #PolypharmacyPeriods p2 on
-		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID and 
-		p2.DateFrom <= p1.DateTo and 
-		p2.DateFrom > p1.DateFrom;
-
-	-- Make both polypharm period tables the same
-	TRUNCATE TABLE #PolypharmacyPeriods;
-	INSERT INTO #PolypharmacyPeriods
-	SELECT * FROM #PolypharmacyPeriodsTEMP;
-
-	-- PHASE 2
-	-- The above will have resulted in overlapping periods. Here we remove any that are
-	-- contained in other periods.
-	-- Continuing the above graphical example, we go from:
-	-- |------|
-	-- |---------|
-	-- |------------|
-	--     |-----|
-	--     |--------|
-	--      |-------|
-	--      |-------------|
-	--              |-----|
-	--                      |-----|
-	-- to:
-	-- |------------|
-	--      |-------------|
-	--                      |-----|
-	DELETE p
-	FROM #PolypharmacyPeriods p
-	JOIN (
-	SELECT p1.* FROM #PolypharmacyPeriodsTEMP p1
-	INNER JOIN #PolypharmacyPeriodsTEMP p2 ON
-		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID AND
-		(
-			(p1.DateFrom >= p2.DateFrom AND	p1.DateTo < p2.DateTo) OR
-			(p1.DateFrom > p2.DateFrom AND p1.DateTo <= p2.DateTo)
-		)
-	) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID and sub.DateFrom = p.DateFrom and sub.DateTo = p.DateTo;
-
-	SELECT @NumberDeleted=@@ROWCOUNT;
-
-	-- Provided we removed some periods, we need to re-run the loop. For our example, the 
-	-- next iteration will first go from:
-	-- |------------|
-	--      |-------------|
-	--                      |-----|
-	-- to:
-	-- |------------|
-	-- |------------------|
-	--      |-------------|
-	--                      |-----|
-	-- during PHASE 1, then during PHASE 2, 2 periods will be deleted leaving:
-	-- |------------------|
-	--                      |-----|
-	-- One more iteration will occur, but nothing will change, so we'll exit the loop with the final
-	-- two non-overlapping periods
-END
-
 
 -- UPDATE Andy Clegg algorithm is for 5 different meds in a 12 month period. Maybe
 -- we should define it in both ways - and allow sensitivity analysis
@@ -307,7 +189,7 @@ GROUP BY m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate])
 HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
 
 -- Next is a look forward from the day after a medication. This will deal with the stop events
-IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
 SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) AS PotentialPolypharmEndDate
 INTO #PolypharmStopDates5InLastYear
 FROM {param:gp-medications-table} m1
@@ -336,93 +218,134 @@ FROM #PolypharmDates5InLastYear a
 LEFT OUTER JOIN #PolypharmStopDates5InLastYear b
 	ON a.FK_Patient_Link_ID = b.FK_Patient_Link_ID
 	AND PotentialPolypharmStartDate < PotentialPolypharmEndDate
-GROUP BY a.FK_Patient_Link_ID, PotentialPolypharmStartDate
+GROUP BY a.FK_Patient_Link_ID, PotentialPolypharmStartDate;
 
-DECLARE @NumberDeleted INT;
-SET @NumberDeleted=1;
-WHILE ( @NumberDeleted > 0)
-BEGIN
+-- All end dates are now correct, but each one has multiple start dates. Pick the earliest 
+-- in each case
+IF OBJECT_ID('tempdb..#PolypharmacyPeriods') IS NOT NULL DROP TABLE #PolypharmacyPeriods;
+SELECT FK_Patient_Link_ID, MIN(DateFrom) AS DateFrom, DateTo
+INTO #PolypharmacyPeriods
+FROM #PolypharmacyPeriods5In1Year
+GROUP BY FK_Patient_Link_ID, DateTo;
 
-	-- PHASE 1
-	-- Populate the temp table with overlapping periods. If there is no overlapping period,
-	-- we just retain the initial period. If a period overlaps, then this populate the widest
-	-- [DateFrom, DateTo] range.
-	-- Grapically we go from:
-	-- |------|
-	--     |-----|
-	--      |-------|
-	--              |-----|
-	--                      |-----|
-	-- to:
-	-- |------|
-	-- |---------|
-	-- |------------|
-	--     |-----|
-	--     |--------|
-	--      |-------|
-	--      |-------------|
-	--              |-----|
-	--                      |-----|
-	--
-	TRUNCATE TABLE #PolypharmacyPeriodsYearTEMP;
-	INSERT INTO #PolypharmacyPeriodsYearTEMP
-	select p1.FK_Patient_Link_ID, p1.DateFrom, ISNULL(p2.DateTo, p1.DateTo) AS DateTo
-	from #PolypharmacyPeriods5In1Year p1
-	left outer join #PolypharmacyPeriods5In1Year p2 on
-		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID and 
-		p2.DateFrom <= p1.DateTo and 
-		p2.DateFrom > p1.DateFrom;
+-- NB - The below is an alternative method to calculate polypharmacy. This was RWs best guess
+--	prior to receiving instruction from Andy Clegg. It is kept in case useful. However, it has
+--	not been tested exhaustively and so should be prior to use.
 
-	-- Make both polypharm period tables the same
-	TRUNCATE TABLE #PolypharmacyPeriods5In1Year;
-	INSERT INTO #PolypharmacyPeriods5In1Year
-	SELECT * FROM #PolypharmacyPeriodsYearTEMP;
+-- -- Polypharmacy is defined as 5 different med codes on a single day. This then lasts for 6 weeks
+-- -- (most Rx for 4 weeks, so add some padding to ensure people on 5 meds permanently, but with
+-- -- small variation in time differences are classed as always poly rather than flipping in/out).
+-- -- Overlapping periods are then combined.
 
-	-- PHASE 2
-	-- The above will have resulted in overlapping periods. Here we remove any that are
-	-- contained in other periods.
-	-- Continuing the above graphical example, we go from:
-	-- |------|
-	-- |---------|
-	-- |------------|
-	--     |-----|
-	--     |--------|
-	--      |-------|
-	--      |-------------|
-	--              |-----|
-	--                      |-----|
-	-- to:
-	-- |------------|
-	--      |-------------|
-	--                      |-----|
-	DELETE p
-	FROM #PolypharmacyPeriods5In1Year p
-	JOIN (
-	SELECT p1.* FROM #PolypharmacyPeriodsYearTEMP p1
-	INNER JOIN #PolypharmacyPeriodsYearTEMP p2 ON
-		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID AND
-		(
-			(p1.DateFrom >= p2.DateFrom AND	p1.DateTo < p2.DateTo) OR
-			(p1.DateFrom > p2.DateFrom AND p1.DateTo <= p2.DateTo)
-		)
-	) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID and sub.DateFrom = p.DateFrom and sub.DateTo = p.DateTo;
+-- -- Get all the dates that people were prescribed 5 or more meds
+-- IF OBJECT_ID('tempdb..#PolypharmDates5OnOneDay') IS NOT NULL DROP TABLE #PolypharmDates5OnOneDay;
+-- SELECT FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate]) AS MedicationDate
+-- INTO #PolypharmDates5OnOneDay
+-- FROM {param:gp-medications-table}
+-- GROUP BY FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate])
+-- HAVING COUNT(DISTINCT SuppliedCode) >= 5;
 
-	SELECT @NumberDeleted=@@ROWCOUNT;
+-- -- Now convert to desired format (PatientId / DateFrom / DateTo)
 
-	-- Provided we removed some periods, we need to re-run the loop. For our example, the 
-	-- next iteration will first go from:
-	-- |------------|
-	--      |-------------|
-	--                      |-----|
-	-- to:
-	-- |------------|
-	-- |------------------|
-	--      |-------------|
-	--                      |-----|
-	-- during PHASE 1, then during PHASE 2, 2 periods will be deleted leaving:
-	-- |------------------|
-	--                      |-----|
-	-- One more iteration will occur, but nothing will change, so we'll exit the loop with the final
-	-- two non-overlapping periods
-END
---#endregion
+-- -- Temp holiding table for loop below
+-- IF OBJECT_ID('tempdb..#PolypharmacyPeriodsTEMP') IS NOT NULL DROP TABLE #PolypharmacyPeriodsTEMP;
+-- CREATE TABLE #PolypharmacyPeriodsTEMP (
+-- 	FK_Patient_Link_ID BIGINT,
+-- 	DateFrom DATE,
+-- 	DateTo DATE
+-- );
+
+-- -- Populate initial start and end dates
+-- IF OBJECT_ID('tempdb..#PolypharmacyPeriods') IS NOT NULL DROP TABLE #PolypharmacyPeriods;
+-- SELECT FK_Patient_Link_ID, MedicationDate As DateFrom, DATEADD(day, 42, MedicationDate) AS DateTo
+-- INTO #PolypharmacyPeriods
+-- FROM #PolypharmDates5OnOneDay;
+
+-- DECLARE @NumberDeleted INT;
+-- SET @NumberDeleted=1;
+-- WHILE ( @NumberDeleted > 0)
+-- BEGIN
+
+-- 	-- PHASE 1
+-- 	-- Populate the temp table with overlapping periods. If there is no overlapping period,
+-- 	-- we just retain the initial period. If a period overlaps, then this populate the widest
+-- 	-- [DateFrom, DateTo] range.
+-- 	-- Grapically we go from:
+-- 	-- |------|
+-- 	--     |-----|
+-- 	--      |-------|
+-- 	--              |-----|
+-- 	--                      |-----|
+-- 	-- to:
+-- 	-- |------|
+-- 	-- |---------|
+-- 	-- |------------|
+-- 	--     |-----|
+-- 	--     |--------|
+-- 	--      |-------|
+-- 	--      |-------------|
+-- 	--              |-----|
+-- 	--                      |-----|
+-- 	--
+-- 	TRUNCATE TABLE #PolypharmacyPeriodsTEMP;
+-- 	INSERT INTO #PolypharmacyPeriodsTEMP
+-- 	select p1.FK_Patient_Link_ID, p1.DateFrom, ISNULL(p2.DateTo, p1.DateTo) AS DateTo
+-- 	from #PolypharmacyPeriods p1
+-- 	left outer join #PolypharmacyPeriods p2 on
+-- 		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID and 
+-- 		p2.DateFrom <= p1.DateTo and 
+-- 		p2.DateFrom > p1.DateFrom;
+
+-- 	-- Make both polypharm period tables the same
+-- 	TRUNCATE TABLE #PolypharmacyPeriods;
+-- 	INSERT INTO #PolypharmacyPeriods
+-- 	SELECT * FROM #PolypharmacyPeriodsTEMP;
+
+-- 	-- PHASE 2
+-- 	-- The above will have resulted in overlapping periods. Here we remove any that are
+-- 	-- contained in other periods.
+-- 	-- Continuing the above graphical example, we go from:
+-- 	-- |------|
+-- 	-- |---------|
+-- 	-- |------------|
+-- 	--     |-----|
+-- 	--     |--------|
+-- 	--      |-------|
+-- 	--      |-------------|
+-- 	--              |-----|
+-- 	--                      |-----|
+-- 	-- to:
+-- 	-- |------------|
+-- 	--      |-------------|
+-- 	--                      |-----|
+-- 	DELETE p
+-- 	FROM #PolypharmacyPeriods p
+-- 	JOIN (
+-- 	SELECT p1.* FROM #PolypharmacyPeriodsTEMP p1
+-- 	INNER JOIN #PolypharmacyPeriodsTEMP p2 ON
+-- 		p1.FK_Patient_Link_ID = p2.FK_Patient_Link_ID AND
+-- 		(
+-- 			(p1.DateFrom >= p2.DateFrom AND	p1.DateTo < p2.DateTo) OR
+-- 			(p1.DateFrom > p2.DateFrom AND p1.DateTo <= p2.DateTo)
+-- 		)
+-- 	) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID and sub.DateFrom = p.DateFrom and sub.DateTo = p.DateTo;
+
+-- 	SELECT @NumberDeleted=@@ROWCOUNT;
+
+-- 	-- Provided we removed some periods, we need to re-run the loop. For our example, the 
+-- 	-- next iteration will first go from:
+-- 	-- |------------|
+-- 	--      |-------------|
+-- 	--                      |-----|
+-- 	-- to:
+-- 	-- |------------|
+-- 	-- |------------------|
+-- 	--      |-------------|
+-- 	--                      |-----|
+-- 	-- during PHASE 1, then during PHASE 2, 2 periods will be deleted leaving:
+-- 	-- |------------------|
+-- 	--                      |-----|
+-- 	-- One more iteration will occur, but nothing will change, so we'll exit the loop with the final
+-- 	-- two non-overlapping periods
+-- END
+
