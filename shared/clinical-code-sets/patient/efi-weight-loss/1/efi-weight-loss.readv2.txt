@@ -1,0 +1,8 @@
+1612.	Appetite loss - anorexia
+1615.	Reduced appetite
+1623.	Weight decreasing
+1625.	Abnormal weight loss
+1D1A.	Complaining of weight loss
+22A8.	Weight loss frm baselne weight
+R0300	[D]Appetite loss
+R032.	[D]Abnormal loss of weight

@@ -17,3 +17,5 @@
 565011000001106	Priadel 200mg modified-release tablets
 766311000001100	Priadel 400mg modified-release tablets
 3832311000001102	Priadel 520mg/5ml liquid
+30760011000001108	Lithium carbonate 250mg tablets (Essential Pharma Ltd) (product)
+3833711000001106	Lithium citrate 520mg/5ml oral solution sugar free (Unichem Plc) (product)

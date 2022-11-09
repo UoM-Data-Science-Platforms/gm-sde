@@ -36,13 +36,19 @@ This project required the following reusable queries:
 - BMI
 - Smoking status
 - Lower level super output area
-- Year of birth
 - Index Multiple Deprivation
-- Sex
 - GET practice and ccg for each patient
 - CCG lookup table
 - Patient GP history
+- COVID-related secondary admissions
+- Patients with COVID
+- Secondary admissions and length of stay
+- Secondary discharges
+- Define Cohort for RQ050
+- Sex
+- Year of birth
 - Classify secondary admissions
+- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
 
@@ -137,36 +143,6 @@ _File_: `query-patient-lsoa.sql`
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
 
 ---
-### Year of birth
-To get the year of birth for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
-- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
-- If every YOB for a patient is the same, then we use that
-- If there is a single most recently updated YOB in the database then we use that
-- Otherwise we take the highest YOB for the patient that is not in the future
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-```
-_File_: `query-patient-year-of-birth.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
-
----
 ### Index Multiple Deprivation
 To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
 
@@ -187,36 +163,6 @@ A temp table as follows:
 _File_: `query-patient-imd.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
-
----
-### Sex
-To get the Sex for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
-- If the patients has a sex in their primary care data feed we use that as most likely to be up to date
-- If every sex for a patient is the same, then we use that
-- If there is a single most recently updated sex in the database then we use that
-- Otherwise the patient's sex is considered unknown
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientSex (FK_Patient_Link_ID, Sex)
- 	- FK_Patient_Link_ID - unique patient id
-	- Sex - M/F
-```
-_File_: `query-patient-sex.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
 
 ---
 ### GET practice and ccg for each patient
@@ -292,6 +238,207 @@ _File_: `query-patient-gp-history.sql`
 _Link_: [https://github.com/rw251/.../query-patient-gp-history.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql)
 
 ---
+### COVID-related secondary admissions
+To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+ And assumes there exists two temp tables as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+  A distinct list of the admissions for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+```
+_File_: `query-admissions-covid-utilisation.sql`
+
+_Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
+
+---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
+
+_Input_
+```
+Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Three temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+ #CovidPatientsMultipleDiagnoses
+	-	FK_Patient_Link_ID - unique patient id
+	-	FirstCovidPositiveDate - date of first COVID diagnosis
+	-	SecondCovidPositiveDate - date of second COVID diagnosis
+	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+
+---
+### Secondary admissions and length of stay
+To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+```
+_File_: `query-get-admissions-and-length-of-stay.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
+
+---
+### Secondary discharges
+To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+```
+_File_: `query-get-discharges.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+
+---
+### Define Cohort for RQ050
+To build the cohort of patients needed for RQ050. This reduces duplication of code in the template scripts.
+
+_Input_
+```
+assumes there exists one temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Temp tables as follows:
+ #MainCohort
+ #MatchedCohort
+ #PatientEventData
+```
+_File_: `query-build-rq050-cohort.sql`
+
+_Link_: [https://github.com/rw251/.../query-build-rq050-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq050-cohort.sql)
+
+---
+### Sex
+To get the Sex for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+- If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+- If every sex for a patient is the same, then we use that
+- If there is a single most recently updated sex in the database then we use that
+- Otherwise the patient's sex is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSex (FK_Patient_Link_ID, Sex)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+```
+_File_: `query-patient-sex.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### Year of birth
+To get the year of birth for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+- If every YOB for a patient is the same, then we use that
+- If there is a single most recently updated YOB in the database then we use that
+- Otherwise we take the highest YOB for the patient that is not in the future
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
 ### Classify secondary admissions
 To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
 
@@ -323,11 +470,67 @@ A temp table as follows:
 _File_: `query-classify-secondary-admissions.sql`
 
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
+
+---
+### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
 
-- pregnancy v1
+- pregnancy-preterm v1
+- pregnancy-postterm v1
+- pregnancy-third-trimester v1
+- pregnancy-antenatal v1
+- pregnancy-postdel-antenatal v1
+- pregnancy-lmp v1
+- pregnancy-edc v1
+- pregnancy-edd v1
+- pregnancy-delivery v1
+- pregnancy-postnatal-8wk v1
+- pregnancy-stillbirth v1
+- pregnancy-multiple v1
+- pregnancy-ectopic v1
+- pregnancy-miscarriage v1
+- pregnancy-top v1
+- pregnancy-top-probable v1
+- pregnancy-molar v1
+- pregnancy-blighted-ovum v1
+- pregnancy-loss-unspecified v1
+- pregnancy-postnatal-other v1
+- pregnancy-late-preg v1
+- pregnancy-preg-related v1
+- covid-positive-antigen-test v1
+- covid-positive-pcr-test v1
+- covid-positive-test-other v1
+- gestational-diabetes v1
+- pre-eclampsia v1
+- haemoglobin v1
+- white-blood-cells v1
+- red-blood-cells v1
+- platelets v1
+- haematocrit v1
+- mean-corpuscular-volume v1
+- mean-corpuscular-haemoglobin v1
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
+- urine-blood v1
+- urine-protein v1
+- urine-ketones v1
+- urine-glucose v1
 - smoking-status-current v1
 - smoking-status-currently-not v1
 - smoking-status-ex v1
@@ -339,22 +542,682 @@ This project required the following clinical code sets:
 
 Further details for each code set can be found below.
 
-### Pregnancy
+### Pre-term Pregnancy
 
-Any codes indicating a patient is pregnant. Note that some of the codes in this code set are redacted from the GMCR due to sensitivity (e.g. abortion, unwanted pregnancy)
+Any codes indicating a pre-term pregnancy.
 
-Code list provided by PI for RQ050.
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.92% - 13.36%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.59% - 0.89%` suggests that this code set is well defined.
+
+NOTE: Use the IDs rather than codes for this code set. One of the codes (635..) seems to relate to any stage of maturity, not just pre-term, but the IDs for each specific stage are unique.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-28 | EMIS            |  2661707   | 329135 (12.37%)  |  326253 (12.28%)  |
-| 2022-04-28 | TPP             |  212737    |  23238 (10.92%)  |   23237 (10.92%)  |
-| 2022-04-28 | Vision          |  342156    |  45729 (13.36%)  |   45622 (13.33%)  |
+| 2022-07-28 | EMIS            | 2666725    | 23486 (0.881%)   | 46904 (1.76%)     | 
+| 2022-07-28 | TPP             | 213180     | 1894 (0.888%)    | 1971 (0.925%)     |  
+| 2022-07-28 | Vision          | 343621     | 2009 (0.585%)    | 24742 (7.2%)      | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-preterm/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-preterm/1)
 
-LINK: [https://github.com/rw251/.../patient/pregnancy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy/1)
+### Post-term Pregnancy
+
+Any codes indicating a post-term pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.30%` suggests potential over reporting from EMIS.
+
+NOTE: Use the IDs rather than codes for this code set. One of the codes (635..) seems to relate to any stage of maturity, not just pre-term, but the IDs for each specific stage are unique.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 7748 (0.291%)    | 36689 (1.38%)     | 
+| 2022-07-28 | TPP             | 213180     | 145 (0.068%)     | 211 (0.099%)      | 
+| 2022-07-28 | Vision          | 343621     | 161 (0.0469%)    | 24168 (7.03%)     | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-postterm/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-postterm/1)
+
+### Third trimester Pregnancy
+
+Any codes related to the third trimester of a pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.81% - 3.67%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 47327 (1.77%)    | 48194 (1.81%)     | 
+| 2022-07-28 | TPP             | 213180     | 5014 (2.35%)     | 6789 (3.18%)      | 
+| 2022-07-28 | Vision          | 343621     | 12623 (3.67%)    | 12628 (3.67%)     | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-third-trimester/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-third-trimester/1)
+
+### Antenatal Pregnancy
+
+Any codes indicating antenatal pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.4% - 18.7%` suggests that this code set is underreporting for Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-08-01 | EMIS | 2374802 | 444746 (18.7%) | 335840 (14.1%) | 
+| 2022-08-01 | TPP | 195912 | 36311 (18.5%) | 49010 (25%) | 
+| 2022-08-01 | Vision | 314772 | 45450 (14.4%) | 43793 (13.9%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-antenatal/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-antenatal/1)
+
+### Postdelivery Antenatal Pregnancy
+
+Any codes related to postdelivery antenatal pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.15% - 7.29%` suggests that this code set is underreporting for Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-08-17 | EMIS | 2493056 | 135038 (5.42%) | 146386 (5.87%) | 
+| 2022-08-17 | TPP | 198292 | 11303 (5.7%) | 14449 (7.29%) | 
+| 2022-08-17 | Vision | 327521 | 10388 (3.17%) | 10333 (3.15%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-postdel-antenatal/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-postdel-antenatal/1)
+
+###  Last Menstrual Period
+
+Any codes indicating last menstrual period.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.03% - 5.78%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 113684 (4.26%) | 114134 (4.28%) | 
+| 2022-07-28 | TPP | 213180 | 11450 (5.37%) | 12316 (5.78%) | 
+| 2022-07-28 | Vision | 343621 | 13840 (4.03%) | 13843 (4.03%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-lmp/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-lmp/1)
+
+###  Estimated date of conception 
+
+Any codes indicating the estimated conception date for a pregnancy
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.00% - 0.231%` suggests potential under-reporting from Vision and EMIS practices.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-08-31 | EMIS | 2450268 | 16 (0.000653%) | 56 (0.00229%) | 
+| 2022-08-31 | TPP | 198118 | 408 (0.206%) | 457 (0.231%) | 
+| 2022-08-31 | Vision | 325609 | 1 (0.000307%) | 0 (0%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-edc/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-edc/1)
+
+###  Estimated date of delivery 
+
+Any codes indicating the estimated delivery date for a pregnancy
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.3% - 4.53%` suggests potential over-reporting from TPP practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-08-03 | EMIS | 2374174 | 37196 (1.57%) | 37620 (1.58%) | 
+| 2022-08-03 | TPP | 195851 | 8024 (4.1%) | 8871 (4.53%) | 
+| 2022-08-03 | Vision | 314695 | 4106 (1.3%) | 4106 (1.3%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-edd/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-edd/1)
+
+### Pregnancy delivery
+
+Any codes indicating a patient has delivered a baby.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.1% - 26.6%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-29 | EMIS | 2374802 | 430005 (18.1%) | 430598 (18.1%) | 
+| 2022-07-29 | TPP | 195912 | 47482 (24.2%) | 52112 (26.6%) | 
+| 2022-07-29 | Vision | 314772 | 76136 (24.2%) | 77059 (24.5%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-delivery/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-delivery/1)
+
+###  Postnatal Pregnancy codes within 8 weeks after delivery
+
+Any postnatal codes within 8 weeks after delivery.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `16% - 26.8%` suggests potential over reporting from TPP Practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 451381 (16.9%) | 535568 (20.1%) | 
+| 2022-07-28 | TPP | 213180 | 57130 (26.8%) | 59615 (28%) | 
+| 2022-07-28 | Vision | 343621 | 54931 (16%) | 89547 (26.1%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-postnatal-8wk/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-postnatal-8wk/1)
+
+### Stillbirth Pregnancy
+
+Any codes indicating a stillbirth pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.99% - 1.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 13895 (0.521%)   | 26433 (0.991%)    | 
+| 2022-07-28 | TPP             | 213180     | 2357 (1.11%)     | 2610 (1.22%)      | 
+| 2022-07-28 | Vision          | 343621     | 1605 (0.467%)    | 4207 (1.22%)      | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-stillbirth/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-stillbirth/1)
+
+### Multiple Pregnancy
+
+Any codes indicating a multiple pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.81% - 1.91%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 21628 (0.811%)   | 33370 (1.25%)     | 
+| 2022-07-28 | TPP             | 213180     | 4071 (1.91%)     | 4504 (2.11%)      | 
+| 2022-07-28 | Vision          | 343621     | 2563 (0.746%)    | 4969 (1.45%)      | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-multiple/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-multiple/1)
+
+### Ectopic Pregnancy
+
+Any codes indicating an ectopic pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.29% - 0.46%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-29 | EMIS | 2374802 | 5777 (0.243%) | 5831 (0.246%) | 
+| 2022-07-29 | TPP | 195912 | 871 (0.445%) | 905 (0.462%) | 
+| 2022-07-29 | Vision | 314772 | 952 (0.302%) | 922 (0.293%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-ectopic/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-ectopic/1)
+
+### Miscarriage Pregnancy
+
+Any codes indicating a miscarriage pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 3.82%` suggests that this code set is well defined.
+
+NOTE: This code set may be affected by some sensitive codes being redacted by Graphnet.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 1637 (0.0614%) | 1967 (0.0738%) | 
+| 2022-07-28 | TPP | 213180 | 8141 (3.82%) | 8782 (4.12%) | 
+| 2022-07-28 | Vision | 343621 | 3912 (1.14%) | 3905 (1.14%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-miscarriage/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-miscarriage/1)
+
+### Termination of Pregnancy
+
+Any codes indicating a termination of pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.32% - 2.13%` suggests that this code set is well defined.
+
+NOTE: This code set may be underreporting due to some sensitive codes being redacted by Graphnet.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 7557 (0.283%)    | 8468 (0.318%)     | 
+| 2022-07-28 | TPP             | 213180     | 1831 (0.859%)    | 4537 (2.13%)      | 
+| 2022-07-28 | Vision          | 343621     | 1404 (0.409%)    | 1407 (0.409%)     | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-top/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-top/1)
+
+### Probable termination of Pregnancy
+
+Any codes indicating a probable termination of pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.23% - 1.62%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 5951 (0.223%)    | 6070 (0.228%)     | 
+| 2022-07-28 | TPP             | 213180     | 1220 (0.572%)    | 3446 (1.62%)      | 
+| 2022-07-28 | Vision          | 343621     | 960 (0.279%)     | 947 (0.276%)      | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-top-probable/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-top-probable/1)
+
+### Molar Pregnancy
+
+Any codes indicating a molar pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.04% - 0.06%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS            | 2666725    | 1148 (0.043%)    | 1165 (0.0437%)    | 
+| 2022-07-28 | TPP             | 213180     | 138 (0.0647%)    | 146 (0.0685%)     | 
+| 2022-07-28 | Vision          | 343621     | 156 (0.0454%)    | 152 (0.0442%)     | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-molar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-molar/1)
+
+### Blighted ovum Pregnancy
+
+Any codes indicating a blighted ovum pregnancy.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.02% - 0.05%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-29 | EMIS | 2666725 | 1353 (0.0507%) | 1357 (0.0509%) | 
+| 2022-07-29 | TPP | 213180 | 38 (0.0178%) | 49 (0.023%) | 
+| 2022-07-29 | Vision | 343621 | 180 (0.0524%) | 180 (0.0524%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-blighted-ovum/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-blighted-ovum/1)
+
+### Pregnancy loss unspecified
+
+Any codes indicating an unspecified pregnancy loss
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+update
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.21% - 5.27%` suggests potential missing codes or over reporting from TPP.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 31837 (1.19%) | 32248 (1.21%) | 
+| 2022-07-28 | TPP | 213180 | 10348 (4.85%) | 11225 (5.27%) | 
+| 2022-07-28 | Vision | 343621 | 9874 (2.87%) | 9864 (2.87%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-loss-unspecified/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-loss-unspecified/1)
+
+###  Postnatal Pregnancy codes with uncertainty around timing
+
+Any codes related to postnatal  without any info on timings.
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.03% - 3.89%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 68190 (2.56%) | 73291 (2.75%) | 
+| 2022-07-28 | TPP | 213180 | 7586 (3.56%) | 8302 (3.89%) | 
+| 2022-07-28 | Vision | 343621 | 5348 (1.56%) | 6978 (2.03%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-postnatal-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-postnatal-other/1)
+
+###  Late pregnancy
+
+Any codes indicating a late pregnancy (<= 3 weeks before delivery)
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.14% - 0.38%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 6754 (0.253%) | 6921 (0.26%) | 
+| 2022-07-28 | TPP | 213180 | 582 (0.273%) | 804 (0.377%) | 
+| 2022-07-28 | Vision | 343621 | 460 (0.134%) | 480 (0.14%) | 
+LINK: [https://github.com/rw251/.../patient/pregnancy-late-preg/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-late-preg/1)
+
+### Pregnancy-related conditions and symptoms
+
+Any codes indicating a symptom or condition related to pregnancy (e.g. L39y500	- Maternal exhaustion).
+
+Code list from supplementary material for this paper: https://onlinelibrary.wiley.com/doi/full/10.1002/pds.4811#:~:text=The%20Pregnancy%20Register%20lists%20and,Mother%2DBaby%20link%20are%20provided
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.74% - 9.57%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-28 | EMIS | 2666725 | 66529 (2.49%) | 222557 (8.35%) | 
+| 2022-07-28 | TPP | 213180 | 11748 (5.51%) | 14370 (6.74%) | 
+| 2022-07-28 | Vision | 343621 | 11690 (3.4%) | 32889 (9.57%) | 
+
+LINK: [https://github.com/rw251/.../patient/pregnancy-preg-related/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy-preg-related/1)
+
+### COVID-19 positive antigen test
+
+A code that indicates that a person has a positive antigen test for COVID-19.
+#### COVID positive tests in primary care
+
+The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
+| 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
+| 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+
+LINK: [https://github.com/rw251/.../tests/covid-positive-antigen-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-antigen-test/1)
+
+### COVID-19 positive pcr test
+
+A code that indicates that a person has a positive pcr test for COVID-19.
+#### COVID positive tests in primary care
+
+The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
+| 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
+| 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+
+LINK: [https://github.com/rw251/.../tests/covid-positive-pcr-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-pcr-test/1)
+
+### COVID-19 positive test - other
+
+A code that indicates that a person has a positive test for COVID-19, but where the type of test (antigen or PCR) is unknown.
+#### COVID positive tests in primary care
+
+The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
+| 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
+| 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+
+LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
+
+### Gestational Diabetes 
+
+Any diagnosis of gestational diabetes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.4% - 0.5%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 2629848    |    13962 (0.53%) |     13940 (0.53%) |
+| 2021-10-13 | TPP             | 211812     |     1158 (0.55%) |      1156 (0.55%) |
+| 2021-10-13 | Vision          | 338205     |     1402 (0.41%) |       290 (0.09%) |
+
+LINK: [https://github.com/rw251/.../conditions/gestational-diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1)
+
+### Pre-eclampsia
+
+Any suggestion of a diagnosis of pre-eclampsia.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.11% - 0.18%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-10 | EMIS            | 2662570    |     3968 (0.15%) |     3934 (0.18%) |
+| 2022-06-10 | TPP             | 212696     |      279 (0.13%) |      258 (0.12%) |
+| 2022-06-10 | Vision          | 342344     |      372 (0.11%) |      370 (0.11%) |
+
+
+LINK: [https://github.com/rw251/.../conditions/pre-eclampsia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/pre-eclampsia/1)
+
+### Haemoglobin
+
+A patient's haemoglobin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`423.. - Haemoglobin estimation`). It does not include codes that indicate a patient's haemoglobin (`4235 - Haemoglobin low`) without giving the actual value.
+
+Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
+
+**NB: This code set is intended to only indicate a patient's haemoglobin values.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
+| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
+| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+LINK: [https://github.com/rw251/.../tests/haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1)
+
+### White blood cells
+
+This code set only includes codes that are accompanied by a value (e.g. `42H.. - White blood cell count`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.89% - 63.21%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2604007    | 1592011 (59.89%) |  1592011 (59.89%) |
+| 2022-03-21 | TPP             | 132189     |  132189 (62.16%) |   135713 (62.16%) |
+| 2022-03-21 | Vision          | 333730     |  215935 (63.21%) |   215935 (63.21%) |
+
+LINK: [https://github.com/rw251/.../tests/white-blood-cells/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/white-blood-cells/1)
+
+### Red blood cells
+
+This code set only includes codes that are accompanied by a value (e.g. `426Z.00 - RBC count NOS`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 63.24%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2604007    | 1585945 (59.66%) |  1585945 (59.66%) |
+| 2022-03-21 | TPP             | 132189     |  132068 (62.10%) |   132068 (62.10%) |
+| 2022-03-21 | Vision          | 333730     |  216011 (63.24%) |   216011 (63.24%) |
+
+
+LINK: [https://github.com/rw251/.../tests/red-blood-cells/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/red-blood-cells/1)
+
+### Platelets
+
+This code set only includes codes that are accompanied by a value (e.g. `42PZ. - Platelet count NOS`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.80 - 62.19%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1589471 (59.80%) |  1589471 (59.80%) |
+| 2022-03-21 | TPP             | 212662     |  132101 (62.12%) |   132101 (62.12%) |
+| 2022-03-21 | Vision          | 341594     |  212437 (62.19%) |   212437 (62.19%) |
+LINK: [https://github.com/rw251/.../tests/platelets/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/platelets/1)
+
+### Haematocrit
+
+A patient's haematocrit percentage as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`XE2Zq - Haematocrit - PCV level`). It does not include codes that indicate a patient's haematocrit (`4253 - Haematocrit - PCV - high`) without giving the actual value.
+
+Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
+
+**NB: This code set is intended to only indicate a patient's haematocrit percentage**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
+| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
+| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+LINK: [https://github.com/rw251/.../tests/haematocrit/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haematocrit/1)
+
+### Mean corpuscular volume
+
+This code set only includes codes that are accompanied by a value (e.g. `42A..11 - Mean cell volume`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.64 - 62.10%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-29 | EMIS            | 2659647    | 1586204 (59.64%) |  1586204 (59.64%) |
+| 2022-03-29 | TPP             | 212621     |  132039 (62.10%) |   132039 (62.10%) |
+| 2022-03-29 | Vision          | 341774     |  211983 (62.02%) |   211983 (62.02%) |
+
+LINK: [https://github.com/rw251/.../tests/mean-corpuscular-volume/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/mean-corpuscular-volume/1)
+
+### Mean corpuscular haemoglobin
+
+This code set only includes codes that are accompanied by a value (e.g. `428..00 - Mean corpusc. haemoglobin(MCH)`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+
+ update:
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.64 - 62.10%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-29 | EMIS            | 2659647    | 1586204 (59.64%) |  1586204 (59.64%) |
+| 2022-03-29 | TPP             | 212621     |  132039 (62.10%) |   132039 (62.10%) |
+| 2022-03-29 | Vision          | 341774     |  211983 (62.02%) |   211983 (62.02%) |
+
+LINK: [https://github.com/rw251/.../tests/mean-corpuscular-haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/mean-corpuscular-haemoglobin/1)
+
+### Systolic Blood pressure
+
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
+
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
+
+### Urine blood test
+
+This code set includes codes that indicate the result of blood in urine test. Posiive and negative results are included. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.99% - 14.79%` suggests underreporting from Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-19 | EMIS            | 2662570    | 393799 (14.79%)  |  383716 (14.41%)  |
+| 2022-05-19 | TPP             | 212696     |  26798 (12.60%)  |   26763 (12.58%)  |
+| 2022-05-19 | Vision          | 342344     |   10231 (2.99%)  |     9915 (2.90%)  |
+
+LINK: [https://github.com/rw251/.../tests/urine-blood/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1)
+
+### Urine protein
+
+This code set includes codes that indicate the result of a urine protein test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.64% - 23.58%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-19 | EMIS            | 2662570    |  627903 (23.58%) |  627903 (23.58%)  |
+| 2022-05-19 | TPP             | 212696     |   39650 (18.64%) |   39650 (18.64%)  |
+| 2022-05-19 | Vision          | 342344     |   72435 (21.16%) |   72435 (21.16%)  |
+
+LINK: [https://github.com/rw251/.../tests/urine-protein/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-protein/1)
+
+### Urine ketones test
+
+This code set includes codes that indicate the result of a urine ketones test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.83% - 10.03%%` suggests that this code set may be underreporting for Vision practices.
+
+
+update
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-19 | EMIS            | 2662570    |  208889 (7.85%)  |  208889 (7.85%)   |
+| 2022-05-19 | TPP             | 212696     |   21335 (10.03%) |   21335 (10.03%)  |
+| 2022-05-19 | Vision          | 342344     |    2828 (0.83%)  |    2828 (0.83%)   |
+
+
+LINK: [https://github.com/rw251/.../tests/urine-ketones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-ketones/1)
+
+### Urine glucose test
+
+This code set includes codes that indicate the result of a urine glucose test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.22% - 22.21%` suggests that this code set is well defined.
+
+
+update
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-11 | EMIS            | 2662570    |  591452 (22.21%) |  591452 (22.21%)  |
+| 2022-05-11 | TPP             | 212696     |   38745 (18.22%) |   38745 (18.22%)  |
+| 2022-05-11 | Vision          | 342344     |   72806 (21.27%) |   72806 (21.27%)  |
+
+
+LINK: [https://github.com/rw251/.../tests/urine-glucose/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-glucose/1)
 
 ### Smoking status current
 
@@ -412,1996 +1275,4 @@ By examining the prevalence of codes (number of patients with the code in their 
 LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
 # Clinical code sets
 
-All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
-
-| Clinical concept | Terminology | Code | Description |
-| ---------------- | ----------- | ---- | ----------- |
-|pregnancy v1|ctv3|13H7.|Unwanted: [pregnancy] or [child]|
-|pregnancy v1|ctv3|12G2.|FH: Diabetes in pregnancy|
-|pregnancy v1|ctv3|465Z.|Urine pregnancy test NOS|
-|pregnancy v1|ctv3|12G1.|FH: Raised B.P. in pregnancy|
-|pregnancy v1|ctv3|465..|Urine pregnancy test|
-|pregnancy v1|ctv3|621..|Patient currently pregnant|
-|pregnancy v1|ctv3|154Z.|Past pregnancy outcome NOS|
-|pregnancy v1|ctv3|445Z.|Serum pregnancy test NOS|
-|pregnancy v1|ctv3|154..|Past: [pregnancy outcome] or [H/O: delivery]|
-|pregnancy v1|ctv3|445..|Serum pregnancy test (B-HCG)|
-|pregnancy v1|ctv3|584D.|Antenatal ultrasound confirms intrauterine pregnancy|
-|pregnancy v1|ctv3|13SZ.|Pregnancy benefit NOS|
-|pregnancy v1|ctv3|67A..|Pregnancy advice|
-|pregnancy v1|ctv3|62H3.|Rhesus screening - 1st pregnancy sample|
-|pregnancy v1|ctv3|621B.|Pregnant - ? planned|
-|pregnancy v1|ctv3|624..|A/N care: precious pregnancy|
-|pregnancy v1|ctv3|62...|(Patient pregnant) or (pregnancy care [& antenatal])|
-|pregnancy v1|ctv3|8M6..|Requests pregnancy termination|
-|pregnancy v1|ctv3|584F.|Antenatal scan unable to confirm pregnancy|
-|pregnancy v1|ctv3|584E.|Antenatal ultrasound confirms ectopic pregnancy|
-|pregnancy v1|ctv3|67A7.|Pregnancy dental advice|
-|pregnancy v1|ctv3|67A5.|Pregnancy alcohol advice|
-|pregnancy v1|ctv3|676..|Pre-pregnancy counselling|
-|pregnancy v1|ctv3|67A6.|Drugs in pregnancy advice|
-|pregnancy v1|ctv3|62H4.|Rhesus screening - 2nd pregnancy sample|
-|pregnancy v1|ctv3|L010.|Blighted ovum|
-|pregnancy v1|ctv3|621A.|Pregnancy unplanned ? wanted|
-|pregnancy v1|ctv3|67A2.|Dietary education for pregnancy|
-|pregnancy v1|ctv3|L0...|Pregnancy with abortive outcome|
-|pregnancy v1|ctv3|L030.|Abdominal pregnancy|
-|pregnancy v1|ctv3|8B74.|Iron supplement in pregnancy|
-|pregnancy v1|ctv3|L12z.|Unspecified hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|67A3.|Pregnancy smoking advice|
-|pregnancy v1|ctv3|L03y1|Cornual pregnancy|
-|pregnancy v1|ctv3|67AB.|Pregnancy prescription exemption advice|
-|pregnancy v1|ctv3|67A4.|Pregnancy exercise advice|
-|pregnancy v1|ctv3|L031z|Tubal pregnancy NOS|
-|pregnancy v1|ctv3|L0300|Delivery of viable fetus in abdominal pregnancy|
-|pregnancy v1|ctv3|957..|FW 8 - application for prescription exemption|
-|pregnancy v1|ctv3|L12z2|Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|ctv3|8B68.|Pregnancy prophylactic therapy|
-|pregnancy v1|ctv3|L03yz|Other ectopic pregnancy NOS|
-|pregnancy v1|ctv3|67AZ.|Pregnancy advice NOS|
-|pregnancy v1|ctv3|8H7W.|Refer to TOP counselling|
-|pregnancy v1|ctv3|L03y3|Combined heterotopic pregnancy|
-|pregnancy v1|ctv3|L1...|Pregnancy complications|
-|pregnancy v1|ctv3|L10..|Haemorrhage in early pregnancy|
-|pregnancy v1|ctv3|L12zz|Unspecified hypertension complicating pregnancy, childbirth and the puerperium NOS|
-|pregnancy v1|ctv3|8B75.|Vitamin supplement - pregnancy|
-|pregnancy v1|ctv3|L12..|Hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|E201C|Pseudocyesis|
-|pregnancy v1|ctv3|L05..|Termination of pregnancy (& [named variants])|
-|pregnancy v1|ctv3|L1201|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|ctv3|L10z0|Early pregnancy haemorrhage NOS unspecified|
-|pregnancy v1|ctv3|L10y.|Bleeding in early pregnancy (& [other haemorrhage])|
-|pregnancy v1|ctv3|L13..|Hyperemesis gravidarum|
-|pregnancy v1|ctv3|E202E|Fear of pregnancy|
-|pregnancy v1|ctv3|L12z0|Unspecified hypertension complicating pregnancy, childbirth and the puerperium unspecified|
-|pregnancy v1|ctv3|L....|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L13y.|Other pregnancy vomiting|
-|pregnancy v1|ctv3|L124.|Mild &/or unspecified pre-eclampsia (& [toxaemia NOS])|
-|pregnancy v1|ctv3|L1202|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|ctv3|L10z.|Early pregnancy haemorrhage NOS|
-|pregnancy v1|ctv3|L13yz|Other pregnancy vomiting NOS|
-|pregnancy v1|ctv3|L03..|Ectopic pregnancy|
-|pregnancy v1|ctv3|L13zz|Unspecified pregnancy vomiting NOS|
-|pregnancy v1|ctv3|L03y.|Other ectopic pregnancy|
-|pregnancy v1|ctv3|L15..|Prolonged pregnancy|
-|pregnancy v1|ctv3|L165z|Asymptomatic bacteriuria in pregnancy NOS|
-|pregnancy v1|ctv3|L1231|Transient hypertension of pregnancy - delivered|
-|pregnancy v1|ctv3|L123z|Transient hypertension of pregnancy NOS|
-|pregnancy v1|ctv3|L13z0|Unspecified pregnancy vomiting unspecified|
-|pregnancy v1|ctv3|L031.|Tubal pregnancy|
-|pregnancy v1|ctv3|L150z|Post-term pregnancy NOS|
-|pregnancy v1|ctv3|L10y0|Other haemorrhage in early pregnancy unspecified|
-|pregnancy v1|ctv3|L1620|Unspecified renal disease in pregnancy unspecified|
-|pregnancy v1|ctv3|L16A.|Pregnancy-related glycosuria|
-|pregnancy v1|ctv3|L13z.|Unspecified pregnancy vomiting|
-|pregnancy v1|ctv3|L12z1|Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|ctv3|L13z2|Unspecified pregnancy vomiting - not delivered|
-|pregnancy v1|ctv3|L0311|Ruptured tubal pregnancy|
-|pregnancy v1|ctv3|L1741|Maternal malaria during pregnancy - baby delivered|
-|pregnancy v1|ctv3|L120.|Benign essential hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L1680|Fatigue during pregnancy unspecified|
-|pregnancy v1|ctv3|L16A0|Glycosuria during pregnancy unspecified|
-|pregnancy v1|ctv3|L1652|Asymptomatic bacteriuria in pregnancy - delivered with postnatal complication|
-|pregnancy v1|ctv3|L12z3|Unspecified hypertension complicating pregnancy, childbirth and the puerperium - not delivered|
-|pregnancy v1|ctv3|L1501|Post-term pregnancy - delivered|
-|pregnancy v1|ctv3|L03z.|Ectopic pregnancy NOS|
-|pregnancy v1|ctv3|L1803|Diabetes mellitus during pregnancy - baby not yet delivered|
-|pregnancy v1|ctv3|L16..|Other pregnancy complication NEC|
-|pregnancy v1|ctv3|L1683|Fatigue during pregnancy - not delivered|
-|pregnancy v1|ctv3|L16A3|Glycosuria during pregnancy - not delivered|
-|pregnancy v1|ctv3|L1661|Genitourinary tract infection in pregnancy - delivered|
-|pregnancy v1|ctv3|L13y0|Other pregnancy vomiting unspecified|
-|pregnancy v1|ctv3|L161.|(Gestational oedema &/or non-hypertension excessive weight gain) or (maternal obesity syndrome)|
-|pregnancy v1|ctv3|L1230|Transient hypertension of pregnancy unspecified|
-|pregnancy v1|ctv3|L1821|Anaemia during pregnancy - baby delivered|
-|pregnancy v1|ctv3|L16Az|Glycosuria during pregnancy NOS|
-|pregnancy v1|ctv3|L174.|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L16y0|Other pregnancy complication unspecified|
-|pregnancy v1|ctv3|L167.|Liver disorder in pregnancy|
-|pregnancy v1|ctv3|L165.|Asymptomatic bacteriuria of pregnancy|
-|pregnancy v1|ctv3|L1650|Asymptomatic bacteriuria in pregnancy unspecified|
-|pregnancy v1|ctv3|L132.|Late vomiting of pregnancy|
-|pregnancy v1|ctv3|L1824|Anaemia in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|ctv3|L1833|Drug dependence during pregnancy - baby not yet delivered|
-|pregnancy v1|ctv3|L180.|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L16yz|Other pregnancy complication NOS|
-|pregnancy v1|ctv3|L16D.|Excessive weight gain in pregnancy|
-|pregnancy v1|ctv3|L1667|Infections of the genital tract in pregnancy|
-|pregnancy v1|ctv3|L1663|Genitourinary tract infection in pregnancy - not delivered|
-|pregnancy v1|ctv3|L1320|Late pregnancy vomiting unspecified|
-|pregnancy v1|ctv3|L184z|Mental disorder during pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|ctv3|L191.|Continuing pregnancy after abortion of one fetus or more|
-|pregnancy v1|ctv3|L1808|Gestational diabetes mellitus|
-|pregnancy v1|ctv3|L180z|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|ctv3|L16y3|Other pregnancy complication - not delivered|
-|pregnancy v1|ctv3|L168.|Fatigue during pregnancy|
-|pregnancy v1|ctv3|L1822|Anaemia in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|ctv3|L1653|Asymptomatic bacteriuria in pregnancy - not delivered|
-|pregnancy v1|ctv3|L192.|Continuing pregnancy after intrauterine death one fetus or more|
-|pregnancy v1|ctv3|L2...|Risk factors in pregnancy|
-|pregnancy v1|ctv3|L188z|Abnormal glucose tolerance test during pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|ctv3|L181.|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L16z.|Pregnancy complication NOS|
-|pregnancy v1|ctv3|L16y.|Other pregnancy complications|
-|pregnancy v1|ctv3|L1823|Anaemia during pregnancy - baby not yet delivered|
-|pregnancy v1|ctv3|L1660|Genitourinary tract infection in pregnancy unspecified|
-|pregnancy v1|ctv3|L2102|Twin pregnancy with antenatal problem|
-|pregnancy v1|ctv3|L21..|Multiple pregnancy|
-|pregnancy v1|ctv3|L24..|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L1825|Iron deficiency anaemia of pregnancy|
-|pregnancy v1|ctv3|L182.|Anaemia during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L1801|Diabetes mellitus during pregnancy - baby delivered|
-|pregnancy v1|ctv3|L2y..|Other specified risk factors in pregnancy|
-|pregnancy v1|ctv3|L1665|Infections of kidney in pregnancy|
-|pregnancy v1|ctv3|L2111|Triplet pregnancy - delivered|
-|pregnancy v1|ctv3|L210.|Twin pregnancy|
-|pregnancy v1|ctv3|L2z..|Risk factors in pregnancy NOS|
-|pregnancy v1|ctv3|L1873|Orthopaedic disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|ctv3|L1820|Anaemia - unspecified whether during pregnancy or the puerperium|
-|pregnancy v1|ctv3|L182z|Anaemia during pregnancy/childbirth/puerperium NOS|
-|pregnancy v1|ctv3|L4112|Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|ctv3|L16A1|Glycosuria during pregnancy - delivered|
-|pregnancy v1|ctv3|L3840|Spinal and epidural anaesthesia-induced headache during pregnancy|
-|pregnancy v1|ctv3|L2610|Rhesus isoimmunisation unspecified|
-|pregnancy v1|ctv3|L4611|Cracked nipple in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|ctv3|L1883|Abnormal glucose tolerance test during pregnancy - baby not yet delivered|
-|pregnancy v1|ctv3|L210z|Twin pregnancy NOS|
-|pregnancy v1|ctv3|L188.|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L4152|Other phlebitis and thrombosis in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|ctv3|L18..|Other medical condition during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|Q486.|Fetal death due to termination of pregnancy|
-|pregnancy v1|ctv3|L512.|Maternal care for diminished fetal movements|
-|pregnancy v1|ctv3|L462.|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|ctv3|L189.|Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|L262.|Other blood group isoimmunisation|
-|pregnancy v1|ctv3|L1A..|Subluxation of symphysis pubis in pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|Lyu22|[X]Other venous complications in pregnancy|
-|pregnancy v1|ctv3|L184.|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|ZV222|[V]Pregnancy confirmed|
-|pregnancy v1|ctv3|Lyu20|[X]Other haemorrhage in early pregnancy|
-|pregnancy v1|ctv3|L466.|Galactorrhoea in pregnancy and the puerperium|
-|pregnancy v1|ctv3|L2100|Twin pregnancy unspecified|
-|pregnancy v1|ctv3|L3982|Caesarean section - pregnancy at term|
-|pregnancy v1|ctv3|L211z|Triplet pregnancy NOS|
-|pregnancy v1|ctv3|Lyu23|[X]Infections of other parts of urinary tract in pregnancy|
-|pregnancy v1|ctv3|L18A.|Diseases of the digestive system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|ZV22z|[V]Unspecified pregnant state|
-|pregnancy v1|ctv3|Lyu25|[X]Other specified pregnancy-related conditions|
-|pregnancy v1|ctv3|Lyu21|[X]Other vomiting complicating pregnancy|
-|pregnancy v1|ctv3|L2101|Twin pregnancy - delivered|
-|pregnancy v1|ctv3|L4110|Varicose veins of perineum and vulva in pregnancy and the puerperium unspecified|
-|pregnancy v1|ctv3|L2D..|Retained intrauterine contraceptive device in pregnancy|
-|pregnancy v1|ctv3|Lyu7.|[X]Other obstetric conditions, not elsewhere classified|
-|pregnancy v1|ctv3|L410.|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|ctv3|ZV23.|[V]High-risk pregnancy supervision|
-|pregnancy v1|ctv3|Q0143|Fetus or neonate affected by tubal ectopic pregnancy|
-|pregnancy v1|ctv3|ZV23z|[V]Unspecified high-risk pregnancy|
-|pregnancy v1|ctv3|L211.|Triplet pregnancy|
-|pregnancy v1|ctv3|L412.|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|ctv3|L4100|Varicose veins of legs in pregnancy and the puerperium unspecified|
-|pregnancy v1|ctv3|ZV724|[V]Pregnancy examination or test, pregnancy unconfirmed|
-|pregnancy v1|ctv3|L461z|Cracked nipple in pregnancy, the puerperium or lactation NOS|
-|pregnancy v1|ctv3|L41z.|Venous complications of pregnancy and puerperium NOS|
-|pregnancy v1|ctv3|ZV22.|[V]Normal pregnancy|
-|pregnancy v1|ctv3|L4621|Breast engorgement in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|ctv3|L410z|Varicose veins of legs in pregnancy and puerperium NOS|
-|pregnancy v1|ctv3|Ly...|Other specified complications of pregnancy, childbirth or the puerperium|
-|pregnancy v1|ctv3|L4160|Haemorrhoids in pregnancy and the puerperium unspecified|
-|pregnancy v1|ctv3|Lyu1.|[X]Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium|
-|pregnancy v1|ctv3|ZV22y|[V]Other specified pregnant state|
-|pregnancy v1|ctv3|ZV223|[V]Pregnant state, incidental|
-|pregnancy v1|ctv3|ZV232|[V]Pregnancy with history of abortion|
-|pregnancy v1|ctv3|L416.|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|ctv3|L460.|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|ctv3|ZV238|[V]Supervision of high-risk pregnancy due to social problems|
-|pregnancy v1|ctv3|L511.|Maternal care for viable fetus in abdominal pregnancy|
-|pregnancy v1|ctv3|L4161|Haemorrhoids in pregnancy and the puerperium - delivered|
-|pregnancy v1|ctv3|Lz...|Complications of pregnancy, childbirth and the puerperium NOS|
-|pregnancy v1|ctv3|ZV23y|[V]Other specified high-risk pregnancy|
-|pregnancy v1|ctv3|M2405|Alopecia of pregnancy|
-|pregnancy v1|ctv3|L416z|Haemorrhoids in pregnancy and the puerperium NOS|
-|pregnancy v1|ctv3|L460z|Retracted nipple in pregnancy, the puerperium or lactation NOS|
-|pregnancy v1|ctv3|L4624|Breast engorgement in pregnancy/puerperium/lact + p/n comp|
-|pregnancy v1|ctv3|L514.|Maternal care for poor fetal growth|
-|pregnancy v1|ctv3|Q01..|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|ctv3|ZV231|[V]Pregnancy with history of trophoblastic disease|
-|pregnancy v1|ctv3|ZV619|[V]Other unwanted pregnancy|
-|pregnancy v1|readv2|115V.00|No history of ectopic pregnancy|
-|pregnancy v1|readv2|12G1.00|FH: Raised B.P. in pregnancy|
-|pregnancy v1|readv2|12G2.00|FH: Diabetes in pregnancy|
-|pregnancy v1|readv2|12G4.00|FH: Multiple pregnancy|
-|pregnancy v1|readv2|13H7.00|Unwanted pregnancy|
-|pregnancy v1|readv2|13H8.00|Illegitimate pregnancy|
-|pregnancy v1|readv2|13Hd.00|Teenage pregnancy|
-|pregnancy v1|readv2|13S..00|Pregnancy benefits|
-|pregnancy v1|readv2|13SZ.00|Pregnancy benefits|
-|pregnancy v1|readv2|14Og.00|At risk of unwanted pregnancy|
-|pregnancy v1|readv2|154..00|Past pregnancy outcome|
-|pregnancy v1|readv2|154300|History of pregnancy with abortive outcome|
-|pregnancy v1|readv2|154400|H/O: ectopic pregnancy|
-|pregnancy v1|readv2|154700|H/O: medical termination of pregnancy|
-|pregnancy v1|readv2|154Z.00|Past pregnancy outcome|
-|pregnancy v1|readv2|389B.00|Assessment for termination of pregnancy|
-|pregnancy v1|readv2|445..00|Serum beta human chorionic gonadotrophin pregnancy test|
-|pregnancy v1|readv2|445100|Serum pregnancy test negative|
-|pregnancy v1|readv2|445200|Serum pregnancy test equivocal|
-|pregnancy v1|readv2|445300|Serum pregnancy test positive|
-|pregnancy v1|readv2|445Z.00|Serum pregnancy test (B-HCG)|
-|pregnancy v1|readv2|44Cy.00|Serum pregnancy associated plasma protein-A mean of median|
-|pregnancy v1|readv2|44Cz.00|Plasma pregnancy associated plasma protein A multiple of median measurement|
-|pregnancy v1|readv2|465..00|Urine pregnancy test|
-|pregnancy v1|readv2|465100|Urine pregnancy test requested|
-|pregnancy v1|readv2|465200|Urine pregnancy test negative|
-|pregnancy v1|readv2|465300|Urine pregnancy test equivocal|
-|pregnancy v1|readv2|465400|Urine pregnancy test positive|
-|pregnancy v1|readv2|465500|High sensitivity urine pregnancy test|
-|pregnancy v1|readv2|465Z.00|Urine pregnancy test|
-|pregnancy v1|readv2|4Q3N.00|Pregnancy associated plasma protein A level|
-|pregnancy v1|readv2|4Q3N000|Pregnancy associated plasma protein A multiple of median|
-|pregnancy v1|readv2|4Q3R.00|Serum pregnancy associated plasma protein A concentration|
-|pregnancy v1|readv2|584D.00|Antenatal ultrasound confirms intrauterine pregnancy|
-|pregnancy v1|readv2|584E.00|Antenatal ultrasound confirms ectopic pregnancy|
-|pregnancy v1|readv2|584F.00|Antenatal scan unable to confirm pregnancy|
-|pregnancy v1|readv2|621A.00|Unplanned pregnancy unknown if child is wanted|
-|pregnancy v1|readv2|621B.00|Questionable if pregnancy was planned|
-|pregnancy v1|readv2|621C.00|Unplanned pregnancy|
-|pregnancy v1|readv2|621D.00|Concealed pregnancy|
-|pregnancy v1|readv2|622200|Antenatal care: 2nd pregnancy|
-|pregnancy v1|readv2|622300|Antenatal care: 3rd pregnancy|
-|pregnancy v1|readv2|624..00|A/N care: precious pregnancy|
-|pregnancy v1|readv2|624Z.00|A/N care: precious pregnancy|
-|pregnancy v1|readv2|628200|A/N care: 10 years plus since last pregnancy|
-|pregnancy v1|readv2|62a..00|Pregnancy review|
-|pregnancy v1|readv2|62H3.00|Rhesus screening - 1st pregnancy sample|
-|pregnancy v1|readv2|62H4.00|Rhesus screening - 2nd pregnancy sample|
-|pregnancy v1|readv2|62H5.00|Rhesus screening - 3rd pregnancy sample|
-|pregnancy v1|readv2|62H8.00|Rhesus - random, non-pregnancy sample|
-|pregnancy v1|readv2|62O7.00|Pregnancy prolonged - 41 weeks|
-|pregnancy v1|readv2|62O8.00|Pregnancy prolonged - 42 weeks|
-|pregnancy v1|readv2|655600|Pertussis vaccination in pregnancy|
-|pregnancy v1|readv2|6556000|Pertussis vaccination in pregnancy given by other healthcare provider|
-|pregnancy v1|readv2|66AX.00|Diabetes: shared care in pregnancy - diabetologist and obstetrician|
-|pregnancy v1|readv2|676..00|Pre-pregnancy counselling|
-|pregnancy v1|readv2|676000|Folic acid advice - pre-pregnancy|
-|pregnancy v1|readv2|676100|Diabetic pre-pregnancy counselling|
-|pregnancy v1|readv2|676200|Education about thyroid disease in pregnancy|
-|pregnancy v1|readv2|67A..00|Pregnancy counselling|
-|pregnancy v1|readv2|67A2.00|Diet in pregnancy advice|
-|pregnancy v1|readv2|67A3.00|Pregnancy smoking advice|
-|pregnancy v1|readv2|67A4.00|Pregnancy exercise advice|
-|pregnancy v1|readv2|67A5.00|Pregnancy alcohol education|
-|pregnancy v1|readv2|67A6.00|Drugs in pregnancy advice|
-|pregnancy v1|readv2|67A7.00|Pregnancy dental advice|
-|pregnancy v1|readv2|67AB.00|Pregnancy prescription exemption advice|
-|pregnancy v1|readv2|67AF.00|Pregnancy advice for patients with epilepsy|
-|pregnancy v1|readv2|67AG.00|Education about listeria precautions during pregnancy|
-|pregnancy v1|readv2|67AH.00|Education about toxoplasmosis precautions during pregnancy|
-|pregnancy v1|readv2|67AZ.00|Pregnancy counselling|
-|pregnancy v1|readv2|67IJ100|Diabetic pre-pregnancy education|
-|pregnancy v1|readv2|67It.00|Advice on risks of harm to mother from maternal medication during pregnancy|
-|pregnancy v1|readv2|67Iu.00|Advice on risks of harm to fetus from maternal medication during pregnancy|
-|pregnancy v1|readv2|68NQ000|Pertussis vaccination in pregnancy contraindicated|
-|pregnancy v1|readv2|7E+6600|Hysterotomy and termination of pregnancy|
-|pregnancy v1|readv2|7E+8300|Therapeutic termination of pregnancy procedure|
-|pregnancy v1|readv2|7E+8400|Aspiration curettage of uterus for termination of pregnancy|
-|pregnancy v1|readv2|7E+8500|Dilatation and evacuation termination of pregnancy|
-|pregnancy v1|readv2|7E+8600|Termination of pregnancy|
-|pregnancy v1|readv2|7E+13100|Excision of ectopic ovarian pregnancy|
-|pregnancy v1|readv2|7E+13300|Excision of ruptured ectopic tubal pregnancy|
-|pregnancy v1|readv2|7F2B100|Ultrasound monitoring of early pregnancy|
-|pregnancy v1|readv2|8B68.00|Pregnancy prophylactic therapy|
-|pregnancy v1|readv2|8B74.00|Iron supplement in pregnancy|
-|pregnancy v1|readv2|8B75.00|Vitamin supplement - pregnancy|
-|pregnancy v1|readv2|8BCG.00|Pregnancy test kit given|
-|pregnancy v1|readv2|8CAW.00|Patient advised to have pregnancy test|
-|pregnancy v1|readv2|8Cg..00|Pregnancy termination care|
-|pregnancy v1|readv2|8CL4.00|Discussion about ectopic pregnancy risk|
-|pregnancy v1|readv2|8H7W.00|Referral for counselling for termination of pregnancy|
-|pregnancy v1|readv2|8Hh3.00|Self referral to termination of pregnancy service|
-|pregnancy v1|readv2|8HHf.00|Refer to early pregnancy unit|
-|pregnancy v1|readv2|8HHV.00|Referral for termination of pregnancy|
-|pregnancy v1|readv2|8Hki.00|Referral to teenage pregnancy and parenting support service|
-|pregnancy v1|readv2|8IAi.00|Pregnancy advice for patients with epilepsy declined|
-|pregnancy v1|readv2|8IB4.00|Pregnancy advice for patients with epilepsy not indicated|
-|pregnancy v1|readv2|8IEc.00|Pertussis vaccination in pregnancy declined|
-|pregnancy v1|readv2|8M6..00|Requests pregnancy termination|
-|pregnancy v1|readv2|95B..00|Health in Pregnancy grant claim form issued|
-|pregnancy v1|readv2|9Ea..00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9Ea0.00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9Ea1.00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9Ea2.00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9Ea3.00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9Ea4.00|Reason for termination of pregnancy|
-|pregnancy v1|readv2|9mK..00|Pertussis vaccination in pregnancy invitation|
-|pregnancy v1|readv2|9mK0.00|Pertussis vaccination in pregnancy invitation first letter|
-|pregnancy v1|readv2|9mK1.00|Pertussis vaccination in pregnancy invitation second letter|
-|pregnancy v1|readv2|9mK2.00|Pertussis vaccination in pregnancy invitation third letter|
-|pregnancy v1|readv2|9Nif.00|Did not attend pertussis vaccination in pregnancy|
-|pregnancy v1|readv2|9NkN.00|Seen in early pregnancy assessment unit|
-|pregnancy v1|readv2|E201C00|Phantom pregnancy|
-|pregnancy v1|readv2|E202E00|Fear of pregnancy|
-|pregnancy v1|readv2|L....00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L0...00|Pregnancy with abortive outcome|
-|pregnancy v1|readv2|L03..00|Ectopic pregnancy|
-|pregnancy v1|readv2|L030.00|Abdominal pregnancy|
-|pregnancy v1|readv2|L030000|Delivery of viable fetus in abdominal pregnancy|
-|pregnancy v1|readv2|L031.00|Tubal pregnancy|
-|pregnancy v1|readv2|L031000|Fallopian tube pregnancy|
-|pregnancy v1|readv2|L031100|Ruptured tubal pregnancy|
-|pregnancy v1|readv2|L031z00|Tubal pregnancy|
-|pregnancy v1|readv2|L032.00|Ovarian pregnancy|
-|pregnancy v1|readv2|L03y.00|Ectopic pregnancy|
-|pregnancy v1|readv2|L03y000|Cervical pregnancy|
-|pregnancy v1|readv2|L03y100|Cornual pregnancy|
-|pregnancy v1|readv2|L03y200|Membranous pregnancy|
-|pregnancy v1|readv2|L03y300|Combined heterotopic pregnancy|
-|pregnancy v1|readv2|L03y400|Mural pregnancy|
-|pregnancy v1|readv2|L03y500|Intraligamentous pregnancy|
-|pregnancy v1|readv2|L03y600|Mesenteric pregnancy|
-|pregnancy v1|readv2|L03y700|Angular pregnancy|
-|pregnancy v1|readv2|L03y800|Mesometric pregnancy|
-|pregnancy v1|readv2|L03yz00|Ectopic pregnancy|
-|pregnancy v1|readv2|L03z.00|Ectopic pregnancy|
-|pregnancy v1|readv2|L050000|Legal termination of pregnancy complicated by genital-pelvic infection|
-|pregnancy v1|readv2|L050100|Legal termination of pregnancy complicated by delayed and/or excessive hemorrhage|
-|pregnancy v1|readv2|L050200|Legal termination of pregnancy complicated by damage to pelvic organ and/or tissues|
-|pregnancy v1|readv2|L050300|Legal termination of pregnancy complicated by renal failure|
-|pregnancy v1|readv2|L050400|Legal termination of pregnancy complicated by metabolic disorder|
-|pregnancy v1|readv2|L050500|Legal termination of pregnancy complicated by shock|
-|pregnancy v1|readv2|L050600|Legal termination of pregnancy complicated by embolism|
-|pregnancy v1|readv2|L050w00|Legal termination of pregnancy with complication|
-|pregnancy v1|readv2|L050x00|Legal termination of pregnancy with complication|
-|pregnancy v1|readv2|L050y00|Legal termination of pregnancy without complication|
-|pregnancy v1|readv2|L051y00|Incomplete legal termination of pregnancy|
-|pregnancy v1|readv2|L052y00|Complete legal termination of pregnancy|
-|pregnancy v1|readv2|L05z.00|Legal termination of pregnancy|
-|pregnancy v1|readv2|L061y00|Illegal termination of pregnancy, incomplete|
-|pregnancy v1|readv2|L062y00|Illegal termination of pregnancy, complete|
-|pregnancy v1|readv2|L08y.00|Failed attempted termination of pregnancy|
-|pregnancy v1|readv2|L090.00|Termination of pregnancy complicated by genital-pelvic infection|
-|pregnancy v1|readv2|L090000|Endometritis following abortive pregnancy|
-|pregnancy v1|readv2|L090100|Termination of pregnancy complicated by parametritis|
-|pregnancy v1|readv2|L090200|Termination of pregnancy complicated by pelvic peritonitis|
-|pregnancy v1|readv2|L090300|Termination of pregnancy complicated by salpingitis|
-|pregnancy v1|readv2|L090400|Salpingo-oophoritis following abortive pregnancy|
-|pregnancy v1|readv2|L090y00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L090z00|Termination of pregnancy complicated by sepsis|
-|pregnancy v1|readv2|L091.00|Termination of pregnancy complicated by delayed and/or excessive hemorrhage|
-|pregnancy v1|readv2|L091000|Termination of pregnancy complicated by afibrinogenemia|
-|pregnancy v1|readv2|L091100|Termination of pregnancy complicated by defibrination syndrome|
-|pregnancy v1|readv2|L091200|Intravascular haemolysis following abortive pregnancy|
-|pregnancy v1|readv2|L092.00|Damage to pelvic organs or tissues following abortive pregnancy|
-|pregnancy v1|readv2|L092000|Induced termination of pregnancy complicated by bladder damage|
-|pregnancy v1|readv2|L092100|Induced termination of pregnancy complicated by bowel damage|
-|pregnancy v1|readv2|L092200|Induced termination of pregnancy complicated by broad ligament damage|
-|pregnancy v1|readv2|L092300|Induced termination of pregnancy complicated by cervix damage|
-|pregnancy v1|readv2|L092400|Induced termination of pregnancy complicated by periurethral tissue damage|
-|pregnancy v1|readv2|L092500|Induced termination of pregnancy complicated by uterus damage|
-|pregnancy v1|readv2|L092600|Induced termination of pregnancy complicated by vaginal damage|
-|pregnancy v1|readv2|L092z00|Damage to pelvic organs or tissues following abortive pregnancy|
-|pregnancy v1|readv2|L093.00|Termination of pregnancy complicated by renal failure|
-|pregnancy v1|readv2|L093000|Induced termination of pregnancy complicated by acute renal failure with oliguria|
-|pregnancy v1|readv2|L093100|Termination of pregnancy complicated by acute renal failure|
-|pregnancy v1|readv2|L093200|Induced termination of pregnancy complicated by acute renal failure with oliguria|
-|pregnancy v1|readv2|L093300|Termination of pregnancy complicated by renal tubular necrosis|
-|pregnancy v1|readv2|L093400|Termination of pregnancy complicated by uraemia|
-|pregnancy v1|readv2|L094.00|Termination of pregnancy complicated by metabolic disorder|
-|pregnancy v1|readv2|L095.00|Termination of pregnancy complicated by shock|
-|pregnancy v1|readv2|L096.00|Termination of pregnancy complicated by embolism|
-|pregnancy v1|readv2|L096000|Termination of pregnancy complicated by air embolism|
-|pregnancy v1|readv2|L096100|Termination of pregnancy complicated by amniotic fluid embolism|
-|pregnancy v1|readv2|L096200|Termination of pregnancy complicated by blood-clot embolism|
-|pregnancy v1|readv2|L096300|Termination of pregnancy complicated by fat embolism|
-|pregnancy v1|readv2|L096400|Termination of pregnancy complicated by pulmonary embolism|
-|pregnancy v1|readv2|L096500|Termination of pregnancy complicated by septic embolism|
-|pregnancy v1|readv2|L096600|Termination of pregnancy complicated by septic embolism|
-|pregnancy v1|readv2|L096700|Termination of pregnancy complicated by soap embolism|
-|pregnancy v1|readv2|L096z00|Termination of pregnancy complicated by embolism|
-|pregnancy v1|readv2|L097300|Pregnancy with abortive outcome|
-|pregnancy v1|readv2|L09y000|Induced termination of pregnancy complicated by acute necrosis of liver|
-|pregnancy v1|readv2|L09y100|Induced termination of pregnancy complicated by cardiac arrest|
-|pregnancy v1|readv2|L09y200|Induced termination of pregnancy complicated by cardiac failure|
-|pregnancy v1|readv2|L09y300|Termination of pregnancy complicated by cerebral anoxia|
-|pregnancy v1|readv2|L09y400|Termination of pregnancy complicated by urinary tract infection|
-|pregnancy v1|readv2|L09yz00|Termination of pregnancy with complication|
-|pregnancy v1|readv2|L09z.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L0y..00|Spontaneous abortion|
-|pregnancy v1|readv2|L0z..00|Pregnancy with abortive outcome|
-|pregnancy v1|readv2|L1...00|Complication occurring during pregnancy|
-|pregnancy v1|readv2|L10..00|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10y.00|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10y000|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10y100|Haemorrhage in early pregnancy, delivered|
-|pregnancy v1|readv2|L10y200|Haemorrhage in early pregnancy, antepartum|
-|pregnancy v1|readv2|L10yz00|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10z.00|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10z000|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10z100|Hemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10z200|Hemorrhage in early pregnancy|
-|pregnancy v1|readv2|L10zz00|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|L12..00|Hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L120.00|Benign essential hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L120100|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|readv2|L120200|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L120300|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered|
-|pregnancy v1|readv2|L120400|Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L121.00|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L121000|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L121100|Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|readv2|L121200|Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L121300|Renal hypertension complicating pregnancy, childbirth and the puerperium - not delivered|
-|pregnancy v1|readv2|L121400|Renal hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L121z00|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L123.00|Transient hypertension of pregnancy|
-|pregnancy v1|readv2|L123000|Transient hypertension of pregnancy|
-|pregnancy v1|readv2|L123100|Transient hypertension of pregnancy - delivered|
-|pregnancy v1|readv2|L123200|Transient hypertension of pregnancy - delivered with postnatal complication|
-|pregnancy v1|readv2|L123300|Transient hypertension of pregnancy - not delivered|
-|pregnancy v1|readv2|L123400|Transient hypertension of pregnancy with postnatal complication|
-|pregnancy v1|readv2|L123600|Transient hypertension of pregnancy|
-|pregnancy v1|readv2|L123z00|Transient hypertension of pregnancy|
-|pregnancy v1|readv2|L126500|Eclampsia in pregnancy|
-|pregnancy v1|readv2|L128.00|Pre-existing hypertension complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|readv2|L128000|Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L128100|Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L128200|Pre-existing secondary hypertension complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|readv2|L12B.00|Proteinuric hypertension of pregnancy|
-|pregnancy v1|readv2|L12z.00|Hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L12z000|Pregnancy-induced hypertension|
-|pregnancy v1|readv2|L12z100|Pregnancy-induced hypertension|
-|pregnancy v1|readv2|L12z200|Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L12z300|Pregnancy-induced hypertension|
-|pregnancy v1|readv2|L12z400|Unspecified hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L12zz00|Pregnancy-induced hypertension|
-|pregnancy v1|readv2|L13..00|Excessive pregnancy vomiting|
-|pregnancy v1|readv2|L132.00|Vomiting during third trimester of pregnancy|
-|pregnancy v1|readv2|L132000|Vomiting during third trimester of pregnancy|
-|pregnancy v1|readv2|L132100|Vomiting during third trimester of pregnancy|
-|pregnancy v1|readv2|L132200|Vomiting during third trimester of pregnancy|
-|pregnancy v1|readv2|L132z00|Vomiting during third trimester of pregnancy|
-|pregnancy v1|readv2|L13y.00|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13y000|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13y100|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13y200|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13yz00|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13z.00|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13z000|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13z100|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13z200|Vomiting of pregnancy|
-|pregnancy v1|readv2|L13zz00|Vomiting of pregnancy|
-|pregnancy v1|readv2|L15..00|Prolonged pregnancy|
-|pregnancy v1|readv2|L150.00|Post-term pregnancy|
-|pregnancy v1|readv2|L150000|Post-term pregnancy|
-|pregnancy v1|readv2|L150100|Post-term pregnancy - delivered|
-|pregnancy v1|readv2|L150200|Post-term pregnancy - not delivered|
-|pregnancy v1|readv2|L150z00|Post-term pregnancy|
-|pregnancy v1|readv2|L15z.00|Prolonged pregnancy|
-|pregnancy v1|readv2|L16..00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|L162.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162100|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162200|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162300|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162400|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L162z00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L164.00|Peripheral neuritis in pregnancy|
-|pregnancy v1|readv2|L164000|Peripheral neuritis in pregnancy|
-|pregnancy v1|readv2|L164100|Peripheral neuritis in pregnancy - delivered|
-|pregnancy v1|readv2|L164200|Peripheral neuritis in pregnancy with postnatal complication|
-|pregnancy v1|readv2|L164300|Peripheral neuritis in pregnancy - not delivered|
-|pregnancy v1|readv2|L164400|Peripheral neuritis in pregnancy with postnatal complication|
-|pregnancy v1|readv2|L164z00|Peripheral neuritis in pregnancy|
-|pregnancy v1|readv2|L165.00|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|readv2|L165000|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|readv2|L165100|Asymptomatic bacteriuria in pregnancy - delivered|
-|pregnancy v1|readv2|L165200|Asymptomatic bacteriuria in pregnancy - delivered with postnatal complication|
-|pregnancy v1|readv2|L165300|Asymptomatic bacteriuria in pregnancy - not delivered|
-|pregnancy v1|readv2|L165400|Asymptomatic bacteriuria in pregnancy with postnatal complication|
-|pregnancy v1|readv2|L165z00|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|readv2|L166.00|Genitourinary tract infections in pregnancy|
-|pregnancy v1|readv2|L166000|Genitourinary tract infection in pregnancy|
-|pregnancy v1|readv2|L166100|Genitourinary tract infection in pregnancy - delivered|
-|pregnancy v1|readv2|L166200|Genitourinary tract infection in pregnancy - delivered with postnatal complication|
-|pregnancy v1|readv2|L166300|Genitourinary tract infection in pregnancy - not delivered|
-|pregnancy v1|readv2|L166400|Genitourinary tract infection in pregnancy with postnatal complication|
-|pregnancy v1|readv2|L166500|Infections of kidney in pregnancy|
-|pregnancy v1|readv2|L166700|Infections of the genital tract in pregnancy|
-|pregnancy v1|readv2|L166800|Urinary tract infection complicating pregnancy|
-|pregnancy v1|readv2|L166z00|Genitourinary tract infection in pregnancy|
-|pregnancy v1|readv2|L167.00|Liver disorder in pregnancy|
-|pregnancy v1|readv2|L167000|Liver disorder in pregnancy|
-|pregnancy v1|readv2|L167100|Liver disorder in pregnancy - delivered|
-|pregnancy v1|readv2|L167200|Liver disorder in pregnancy - not delivered|
-|pregnancy v1|readv2|L167z00|Liver disorder in pregnancy|
-|pregnancy v1|readv2|L168.00|Fatigue during pregnancy|
-|pregnancy v1|readv2|L168000|Fatigue during pregnancy|
-|pregnancy v1|readv2|L168100|Fatigue during pregnancy - delivered|
-|pregnancy v1|readv2|L168200|Fatigue during pregnancy - delivered with postnatal complication|
-|pregnancy v1|readv2|L168300|Fatigue during pregnancy - not delivered|
-|pregnancy v1|readv2|L168400|Fatigue during pregnancy with postnatal complication|
-|pregnancy v1|readv2|L168z00|Fatigue during pregnancy|
-|pregnancy v1|readv2|L16A.00|Glycosuria during pregnancy|
-|pregnancy v1|readv2|L16A000|Pregnancy-related glycosuria|
-|pregnancy v1|readv2|L16A100|Glycosuria during pregnancy - delivered|
-|pregnancy v1|readv2|L16A200|Glycosuria during pregnancy - delivered with postnatal complication|
-|pregnancy v1|readv2|L16A300|Glycosuria during pregnancy - not delivered|
-|pregnancy v1|readv2|L16A400|Glycosuria during pregnancy with postnatal complication|
-|pregnancy v1|readv2|L16Az00|Pregnancy-related glycosuria|
-|pregnancy v1|readv2|L16C.00|Pregnancy-induced oedema and proteinuria without hypertension|
-|pregnancy v1|readv2|L16D.00|Excessive weight gain in pregnancy|
-|pregnancy v1|readv2|L16E.00|Pregnancy pruritus|
-|pregnancy v1|readv2|L16y.00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|L16y000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L16y100|Complication occurring during pregnancy|
-|pregnancy v1|readv2|L16y200|Complication occurring during pregnancy|
-|pregnancy v1|readv2|L16y300|Complication occurring during pregnancy|
-|pregnancy v1|readv2|L16y500|Abdominal pain in pregnancy|
-|pregnancy v1|readv2|L16yz00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L16z.00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|L170.00|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L170000|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L170100|Maternal syphilis during pregnancy - baby delivered|
-|pregnancy v1|readv2|L170300|Maternal syphilis during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L170z00|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L171.00|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L171000|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L171100|Maternal gonorrhoea during pregnancy - baby delivered|
-|pregnancy v1|readv2|L171300|Maternal gonorrhoea during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L171z00|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L172.00|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172000|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172100|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172200|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172300|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172400|Venereal disease in pregnancy|
-|pregnancy v1|readv2|L172z00|Venereal disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L173.00|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L173000|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L173100|Tuberculosis in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|readv2|L173300|Maternal tuberculosis during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L173z00|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L174.00|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L174000|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L174100|Maternal malaria during pregnancy - baby delivered|
-|pregnancy v1|readv2|L174200|Maternal malaria in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|readv2|L174300|Maternal malaria during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L174400|Maternal malaria in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|readv2|L174z00|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L175.00|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L175000|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L175100|Maternal rubella during pregnancy - baby delivered|
-|pregnancy v1|readv2|L175200|Maternal rubella in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|readv2|L175300|Maternal rubella during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L175400|Maternal rubella in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|readv2|L175z00|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L176.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L176000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L176100|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L176200|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L176300|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L176400|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L176500|Viral hepatitis complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L176z00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L177.00|Infections of bladder in pregnancy|
-|pregnancy v1|readv2|L178.00|Infections of urethra in pregnancy|
-|pregnancy v1|readv2|L179.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18..00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L180.00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L180000|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L180100|Diabetes mellitus during pregnancy - baby delivered|
-|pregnancy v1|readv2|L180300|Diabetes mellitus during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L180800|Diabetes mellitus arising in pregnancy|
-|pregnancy v1|readv2|L180A00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L180B00|Pregnancy and non-insulin-dependent diabetes mellitus|
-|pregnancy v1|readv2|L180z00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L181.00|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L181000|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L181100|Thyroid dysfunction during pregnancy - baby delivered|
-|pregnancy v1|readv2|L181300|Thyroid dysfunction during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L181z00|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L182.00|Anaemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L182000|Anemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L182100|Anaemia during pregnancy - baby delivered|
-|pregnancy v1|readv2|L182200|Anaemia in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|readv2|L182300|Anaemia during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L182400|Anaemia in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|readv2|L182500|Iron deficiency anaemia of pregnancy|
-|pregnancy v1|readv2|L182z00|Anaemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|L183.00|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L183000|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L183100|Drug dependence during pregnancy - baby delivered|
-|pregnancy v1|readv2|L183300|Drug dependence during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L183z00|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L184.00|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L184000|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L184100|Mental disorder during pregnancy - baby delivered|
-|pregnancy v1|readv2|L184300|Mental disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L184z00|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L185.00|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L185000|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L185100|Congenital cardiovascular disorder during pregnancy - baby delivered|
-|pregnancy v1|readv2|L185300|Congenital cardiovascular disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L185z00|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186.00|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186000|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186100|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186200|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186300|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186400|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L186z00|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L187.00|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L187000|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L187100|Orthopaedic disorder during pregnancy - baby delivered|
-|pregnancy v1|readv2|L187300|Orthopaedic disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L187z00|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L188.00|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L188000|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L188100|Abnormal glucose tolerance test during pregnancy - baby delivered|
-|pregnancy v1|readv2|L188300|Abnormal glucose tolerance test during pregnancy - baby not yet delivered|
-|pregnancy v1|readv2|L188z00|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L189.00|Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18A.00|Diseases of the digestive system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18A000|Cholestasis of pregnancy|
-|pregnancy v1|readv2|L18B.00|Diseases of the skin and subcutaneous tissue complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18C.00|Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|readv2|L18D.00|Disease of nervous system complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|readv2|L18z.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18z000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18z100|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18z200|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18z300|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18z400|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L18zz00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L191.00|Continuing pregnancy after abortion of one fetus or more|
-|pregnancy v1|readv2|L192.00|Continuing pregnancy after intrauterine death one fetus or more|
-|pregnancy v1|readv2|L1A..00|Subluxation of symphysis pubis in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L1y..00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|L1z..00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|L2...00|Risk factors in pregnancy|
-|pregnancy v1|readv2|L21..00|Multiple pregnancy|
-|pregnancy v1|readv2|L210.00|Twin pregnancy|
-|pregnancy v1|readv2|L210000|Twin pregnancy|
-|pregnancy v1|readv2|L210100|Twin pregnancy - delivered|
-|pregnancy v1|readv2|L210200|Twin pregnancy with antenatal problem|
-|pregnancy v1|readv2|L210z00|Twin pregnancy|
-|pregnancy v1|readv2|L211.00|Triplet pregnancy|
-|pregnancy v1|readv2|L211000|Triplet pregnancy|
-|pregnancy v1|readv2|L211100|Triplet pregnancy - delivered|
-|pregnancy v1|readv2|L211200|Triplet pregnancy with antenatal problem|
-|pregnancy v1|readv2|L211z00|Triplet pregnancy|
-|pregnancy v1|readv2|L212.00|Quadruplet pregnancy|
-|pregnancy v1|readv2|L212000|Quadruplet pregnancy|
-|pregnancy v1|readv2|L212100|Quadruplet pregnancy - delivered|
-|pregnancy v1|readv2|L212200|Quadruplet pregnancy with antenatal problem|
-|pregnancy v1|readv2|L212z00|Quadruplet pregnancy|
-|pregnancy v1|readv2|L21y.00|Multiple gestation|
-|pregnancy v1|readv2|L21y000|Multiple gestation|
-|pregnancy v1|readv2|L21yz00|Multiple gestation|
-|pregnancy v1|readv2|L21z.00|Multiple gestation|
-|pregnancy v1|readv2|L21z000|Multiple gestation|
-|pregnancy v1|readv2|L21z100|Mother delivered|
-|pregnancy v1|readv2|L21zz00|Multiple gestation|
-|pregnancy v1|readv2|L228.00|Multiple pregnancy with malpresentation|
-|pregnancy v1|readv2|L228000|Multiple pregnancy with malpresentation|
-|pregnancy v1|readv2|L228100|Multiple pregnancy with malpresentation - delivered|
-|pregnancy v1|readv2|L228200|Multiple pregnancy with malpresentation with antenatal problem|
-|pregnancy v1|readv2|L228z00|Multiple pregnancy with malpresentation|
-|pregnancy v1|readv2|L24..00|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L240.00|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L240z00|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L241.00|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L241z00|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L242.00|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L242000|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L242100|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|readv2|L242200|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium with antenatal problem|
-|pregnancy v1|readv2|L242z00|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L244.00|Disease of pregnancy|
-|pregnancy v1|readv2|L244000|Disease of pregnancy|
-|pregnancy v1|readv2|L244200|Disease of pregnancy|
-|pregnancy v1|readv2|L244300|Disease of pregnancy|
-|pregnancy v1|readv2|L244400|Disease of pregnancy|
-|pregnancy v1|readv2|L244z00|Other uterine or pelvic floor abnormality in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|readv2|L247.00|Congenital or acquired abnormality of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247z00|Vaginal abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248.00|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248000|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248300|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248z00|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L24z.00|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L24z000|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L24z100|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|readv2|L24z200|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L24z300|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium with antenatal problem|
-|pregnancy v1|readv2|L24z400|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L24zz00|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L250300|Disease of pregnancy|
-|pregnancy v1|readv2|L250400|Disease of pregnancy|
-|pregnancy v1|readv2|L251300|Disease of pregnancy|
-|pregnancy v1|readv2|L251400|Disease of pregnancy|
-|pregnancy v1|readv2|L253300|Disease of pregnancy|
-|pregnancy v1|readv2|L255300|Disease of pregnancy|
-|pregnancy v1|readv2|L25z300|Disease of pregnancy|
-|pregnancy v1|readv2|L25z400|Disease of pregnancy|
-|pregnancy v1|readv2|L261.00|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|readv2|L261000|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|readv2|L261z00|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|readv2|L262.00|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L262000|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L262100|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L262200|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L262z00|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L263700|Disease of pregnancy|
-|pregnancy v1|readv2|L263800|Disease of pregnancy|
-|pregnancy v1|readv2|L263900|Disease of pregnancy|
-|pregnancy v1|readv2|L263A00|Disease of pregnancy|
-|pregnancy v1|readv2|L263B00|Disease of pregnancy|
-|pregnancy v1|readv2|L265300|Disease of pregnancy|
-|pregnancy v1|readv2|L2B..00|Low maternal weight gain|
-|pregnancy v1|readv2|L2C..00|Malnutrition in pregnancy|
-|pregnancy v1|readv2|L2D..00|Retained intrauterine contraceptive device in pregnancy|
-|pregnancy v1|readv2|L2y..00|Risk factors in pregnancy|
-|pregnancy v1|readv2|L2z..00|Finding related to risk factor in pregnancy|
-|pregnancy v1|readv2|L383000|Toxic reaction to local anaesthesia during pregnancy|
-|pregnancy v1|readv2|L384000|Spinal and epidural anaesthesia-induced headache during pregnancy|
-|pregnancy v1|readv2|L394.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L394000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L394z00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L398200|Caesarean section - pregnancy at term|
-|pregnancy v1|readv2|L41..00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L410.00|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|readv2|L410000|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|readv2|L410100|Varicose veins of legs in pregnancy and the puerperium - delivered|
-|pregnancy v1|readv2|L410200|Varicose veins of legs in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L410300|Varicose veins of legs in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|readv2|L410400|Varicose veins of legs in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L410500|Varicose veins of legs in pregnancy|
-|pregnancy v1|readv2|L410z00|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|readv2|L411.00|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|readv2|L411000|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|readv2|L411100|Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered|
-|pregnancy v1|readv2|L411200|Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L411300|Varicose veins of perineum and vulva in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|readv2|L411400|Varicose veins of perineum and vulva in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L411500|Genital varices in pregnancy|
-|pregnancy v1|readv2|L411z00|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|readv2|L412.00|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|readv2|L412000|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|readv2|L412100|Superficial thrombophlebitis in pregnancy and the puerperium - delivered|
-|pregnancy v1|readv2|L412200|Superficial thrombophlebitis in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L412300|Superficial thrombophlebitis in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|readv2|L412400|Superficial thrombophlebitis in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L412500|Superficial thrombophlebitis in pregnancy|
-|pregnancy v1|readv2|L412z00|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|readv2|L415.00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415000|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415100|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415200|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415300|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415400|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415500|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415600|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L415z00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L416.00|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|readv2|L416000|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|readv2|L416100|Haemorrhoids in pregnancy and the puerperium - delivered|
-|pregnancy v1|readv2|L416200|Haemorrhoids in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L416300|Haemorrhoids in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|readv2|L416400|Haemorrhoids in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L416600|Haemorrhoids in pregnancy|
-|pregnancy v1|readv2|L416z00|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|readv2|L417000|Cerebral venous thrombosis in pregnancy|
-|pregnancy v1|readv2|L41y.00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41y000|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41y100|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41y200|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41y300|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41y400|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41yz00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z.00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z000|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z100|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z200|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z300|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z400|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41z500|Symptomatic disorders in pregnancy|
-|pregnancy v1|readv2|L41z600|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L41zz00|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|L443.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L443000|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L443z00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L460.00|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L460000|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L460100|Retracted nipple in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|readv2|L460200|Retracted nipple in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|readv2|L460300|Retracted nipple in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|readv2|L460400|Retracted nipple in pregnancy, the puerperium or lactation with postnatal complication|
-|pregnancy v1|readv2|L460z00|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L461.00|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L461000|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L461100|Cracked nipple in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|readv2|L461200|Cracked nipple in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|readv2|L461300|Cracked nipple in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|readv2|L461400|Cracked nipple in pregnancy, the puerperium or lactation with postnatal complication|
-|pregnancy v1|readv2|L461z00|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L462.00|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L462000|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L462100|Breast engorgement in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|readv2|L462200|Breast engorgement in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|readv2|L462300|Breast engorgement in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|readv2|L462400|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L462z00|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|readv2|L466.00|Galactorrhoea in pregnancy and the puerperium|
-|pregnancy v1|readv2|L466100|Galactorrhoea in pregnancy and the puerperium - delivered|
-|pregnancy v1|readv2|L466200|Galactorrhoea in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|readv2|L466300|Galactorrhoea in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|readv2|L466400|Galactorrhoea in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|readv2|L5...00|Disease of pregnancy|
-|pregnancy v1|readv2|L50..00|Disease of pregnancy|
-|pregnancy v1|readv2|L51..00|Disease of pregnancy|
-|pregnancy v1|readv2|L510.00|Disease of pregnancy|
-|pregnancy v1|readv2|L511.00|Disease of pregnancy|
-|pregnancy v1|readv2|L512.00|Disease of pregnancy|
-|pregnancy v1|readv2|L514.00|Disease of pregnancy|
-|pregnancy v1|readv2|L51X.00|Disease of pregnancy|
-|pregnancy v1|readv2|Ly...00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|Ly2..00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|Lyu..00|[X]Additional pregnancy, childbirth and puerperium disease classification terms|
-|pregnancy v1|readv2|Lyu0.00|Pregnancy with abortive outcome|
-|pregnancy v1|readv2|Lyu0000|Ectopic pregnancy|
-|pregnancy v1|readv2|Lyu0400|Termination of pregnancy with complication|
-|pregnancy v1|readv2|Lyu0700|Termination of pregnancy with complication|
-|pregnancy v1|readv2|Lyu0800|Termination of pregnancy without complication|
-|pregnancy v1|readv2|Lyu0900|Termination of pregnancy with complication|
-|pregnancy v1|readv2|Lyu0A00|Termination of pregnancy with complication|
-|pregnancy v1|readv2|Lyu0B00|Termination of pregnancy with complication|
-|pregnancy v1|readv2|Lyu1.00|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|Lyu2.00|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu2000|Haemorrhage in early pregnancy|
-|pregnancy v1|readv2|Lyu2100|Symptomatic disorders in pregnancy|
-|pregnancy v1|readv2|Lyu2200|Symptomatic disorders in pregnancy|
-|pregnancy v1|readv2|Lyu2300|Urinary tract infection in pregnancy|
-|pregnancy v1|readv2|Lyu2400|Genitourinary tract infection in pregnancy|
-|pregnancy v1|readv2|Lyu2500|Finding related to pregnancy|
-|pregnancy v1|readv2|Lyu2700|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu2800|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu3500|Abnormality of organs AND/OR soft tissues of pelvis affecting pregnancy|
-|pregnancy v1|readv2|Lyu3800|Pregnancy with isoimmunisation|
-|pregnancy v1|readv2|Lyu3A00|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu6100|Genitourinary tract infection in pregnancy - delivered|
-|pregnancy v1|readv2|Lyu6300|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|readv2|Lyu7.00|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu7000|Venereal disease in pregnancy|
-|pregnancy v1|readv2|Lyu7100|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|readv2|Lyu7200|Disease of pregnancy|
-|pregnancy v1|readv2|Lyu7300|[X]Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|Lyu7400|Disease of pregnancy|
-|pregnancy v1|readv2|Lz...00|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|readv2|M240500|Alopecia of pregnancy|
-|pregnancy v1|readv2|Q0...00|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|readv2|Q01..00|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|readv2|Q014.00|Fetus or neonate affected by ectopic pregnancy|
-|pregnancy v1|readv2|Q014000|Fetus or neonate affected by ectopic pregnancy|
-|pregnancy v1|readv2|Q014100|Fetus or neonate affected by abdominal ectopic pregnancy|
-|pregnancy v1|readv2|Q014200|Fetus or neonate affected by intraperitoneal ectopic pregnancy|
-|pregnancy v1|readv2|Q014300|Fetus or neonate affected by tubal ectopic pregnancy|
-|pregnancy v1|readv2|Q014z00|Fetal or neonatal effect of ectopic pregnancy|
-|pregnancy v1|readv2|Q015.00|Fetus or neonate affected by multiple pregnancy|
-|pregnancy v1|readv2|Q015000|Fetus or neonate affected by multiple pregnancy|
-|pregnancy v1|readv2|Q015100|Fetus or neonate affected by twin pregnancy|
-|pregnancy v1|readv2|Q015200|Fetus or neonate affected by triplet pregnancy|
-|pregnancy v1|readv2|Q015z00|Fetal or neonatal effect of multiple pregnancy|
-|pregnancy v1|readv2|Q018.00|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|readv2|Q01y.00|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|readv2|Q01z.00|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|readv2|Q0y..00|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|readv2|Q0z..00|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|readv2|Q486.00|Fetal death due to termination of pregnancy|
-|pregnancy v1|readv2|Q48G.00|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|readv2|Qyu0.00|Fetal or neonatal effect of maternal complication of pregnancy|
-|pregnancy v1|readv2|Qyu0300|Fetal or neonatal effect of maternal complication of pregnancy|
-|pregnancy v1|readv2|ZV22.00|Normal pregnancy|
-|pregnancy v1|readv2|ZV22200|Pregnant|
-|pregnancy v1|readv2|ZV22300|Pregnancy|
-|pregnancy v1|readv2|ZV22400|Routine antenatal care|
-|pregnancy v1|readv2|ZV22y00|Finding related to pregnancy|
-|pregnancy v1|readv2|ZV22z00|Pregnancy|
-|pregnancy v1|readv2|ZV23.00|Supervision of high risk pregnancy|
-|pregnancy v1|readv2|ZV23000|A/N care: H/O infertility|
-|pregnancy v1|readv2|ZV23100|A/N care: H/O trophoblastic disease|
-|pregnancy v1|readv2|ZV23200|H/O: miscarriage|
-|pregnancy v1|readv2|ZV23700|Supervision of high risk pregnancy for primigravida age 15 years or younger|
-|pregnancy v1|readv2|ZV23800|Supervision of high risk pregnancy for social problem|
-|pregnancy v1|readv2|ZV23y00|High risk pregnancy|
-|pregnancy v1|readv2|ZV23z00|High risk pregnancy|
-|pregnancy v1|readv2|ZV4J000|Psychosocial problems related to unwanted pregnancy|
-|pregnancy v1|readv2|ZV61800|[V]Illegitimate pregnancy|
-|pregnancy v1|readv2|ZV61900|Unwanted pregnancy|
-|pregnancy v1|readv2|ZV72400|[V]Pregnancy examination or test, pregnancy unconfirmed (context-dependent category)|
-|pregnancy v1|readv2|ZV72900|Pregnancy detection examination|
-|pregnancy v1|readv2|ZV72A00|Possible pregnancy|
-|pregnancy v1|readv2|ZVu2500|Supervision of high risk pregnancy|
-|pregnancy v1|readv2|12G4.11|FH: Twin pregnancy|
-|pregnancy v1|readv2|13H7.11|Unwanted pregnancy|
-|pregnancy v1|readv2|154311|History of pregnancy with abortive outcome|
-|pregnancy v1|readv2|621..11|Pregnancy confirmed|
-|pregnancy v1|readv2|62a..11|Review of pregnancy|
-|pregnancy v1|readv2|67A7.11|Pregnancy dental advice|
-|pregnancy v1|readv2|7E+7011|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|readv2|7E+7111|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|readv2|7E+8411|VTOP - Vacuum termination of pregnancy|
-|pregnancy v1|readv2|7E+19011|Removal of ectopic pregnancy from fallopian tube|
-|pregnancy v1|readv2|8B7..11|Pregnancy vitamin/iron prophylaxis|
-|pregnancy v1|readv2|957..11|Prescription exemption form - pregnancy|
-|pregnancy v1|readv2|L010.11|Anembryonic pregnancy|
-|pregnancy v1|readv2|L051711|Incomplete termination of pregnancy|
-|pregnancy v1|readv2|L09..11|Complications following abortion and ectopic and molar pregnancies|
-|pregnancy v1|readv2|L096.11|Termination of pregnancy complicated by embolism|
-|pregnancy v1|readv2|L097.11|Pregnancy with abortive outcome|
-|pregnancy v1|readv2|L10y.11|Bleeding in early pregnancy|
-|pregnancy v1|readv2|L15..11|Post-term pregnancy|
-|pregnancy v1|readv2|L161.11|Excessive weight gain in pregnancy|
-|pregnancy v1|readv2|L162.11|Albuminuria in pregnancy without hypertension|
-|pregnancy v1|readv2|L166.11|Cystitis of pregnancy|
-|pregnancy v1|readv2|L166z11|UTI - urinary tract infection in pregnancy|
-|pregnancy v1|readv2|L175.11|Exposure to rubella in pregnancy|
-|pregnancy v1|readv2|L183.11|Pregnancy and drug dependence|
-|pregnancy v1|readv2|L185.11|Congenital heart disease in pregnancy|
-|pregnancy v1|readv2|L186.11|Cardiac disease in pregnancy|
-|pregnancy v1|readv2|L188.11|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L240.11|Bicornuate uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L240z11|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L241.11|Uterine fibroids in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L241z11|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L244.11|Cystocele in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L244z11|Cystocele in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|readv2|L246.11|Polyp of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L246z11|Polyp of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247.11|Septate vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247z11|Septate vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248.11|Persistent hymen in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248z11|Persistent hymen in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L261.11|Anti-D isoimmunisation affecting pregnancy|
-|pregnancy v1|readv2|L262.11|Pregnancy with isoimmunization|
-|pregnancy v1|readv2|L263311|Disease of pregnancy|
-|pregnancy v1|readv2|L263A11|Disease of pregnancy|
-|pregnancy v1|readv2|L265311|Disease of pregnancy|
-|pregnancy v1|readv2|L411511|Perineal varices in pregnancy|
-|pregnancy v1|readv2|L412511|Thrombophlebitis of legs in pregnancy|
-|pregnancy v1|readv2|L41z511|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|readv2|ZV22.11|Routine antenatal care|
-|pregnancy v1|readv2|62O..12|Relation of fetal size to dates|
-|pregnancy v1|readv2|7E+19012|Fimbrial extraction of tubal pregnancy|
-|pregnancy v1|readv2|7F...12|Pregnancy operation|
-|pregnancy v1|readv2|7F06012|Shirodkar's cervical cerclage|
-|pregnancy v1|readv2|L05..12|Termination of pregnancy|
-|pregnancy v1|readv2|L124.12|Toxaemia of pregnancy|
-|pregnancy v1|readv2|L13..12|Hyperemesis of pregnancy|
-|pregnancy v1|readv2|L161.12|Excessive weight gain in pregnancy|
-|pregnancy v1|readv2|L162.12|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L240.12|Double uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L244.12|Pendulous abdomen in pregnancy,childbirth and the puerperium|
-|pregnancy v1|readv2|L244z12|Rectocele in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|readv2|L246.12|Stenosis of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L246z12|Stenosis of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247.12|Stenosis of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247z12|Stenosis of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248.12|Rigid perineum in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248z12|Rigid perineum in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L411512|Vaginal varices in pregnancy|
-|pregnancy v1|readv2|L41z512|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|readv2|ZV23112|A/N care: H/O trophoblastic disease|
-|pregnancy v1|readv2|62...13|Pregnancy care|
-|pregnancy v1|readv2|7E+7113|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|readv2|L162.13|Uraemia in pregnancy without hypertension|
-|pregnancy v1|readv2|L244.13|Rectocele in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L247.13|Vaginal abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L248.13|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L411513|Vulval varices in pregnancy|
-|pregnancy v1|readv2|L41z513|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|readv2|7E+7114|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|readv2|7F...00|Childbirth operations|
-|pregnancy v1|readv2|62O..00|Fetal maturity - A/N|
-|pregnancy v1|readv2|621..00|Patient currently pregnant|
-|pregnancy v1|readv2|62...00|Maternity care|
-|pregnancy v1|readv2|7F...00|Obstetric operations|
-|pregnancy v1|readv2|62...00|Antenatal care|
-|pregnancy v1|readv2|L124.00|Mild or unspecified pre-eclampsia|
-|pregnancy v1|readv2|62...00|Patient pregnant|
-|pregnancy v1|readv2|7F06000|McDonald cerclage of cervix|
-|pregnancy v1|readv2|7F...00|Puerperium operations|
-|pregnancy v1|readv2|L124.00|Mild pre-eclampsia|
-|pregnancy v1|readv2|62O..00|Misc. antenatal data|
-|pregnancy v1|readv2|L161.00|Gestational oedema|
-|pregnancy v1|readv2|L246.00|Other cervical abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|readv2|L010.00|Blighted ovum|
-|pregnancy v1|readv2|L263300|Labour and delivery complicated by fetal heart rate anomaly|
-|pregnancy v1|readv2|7F06000|Cerclage of cervix of gravid uterus|
-|pregnancy v1|readv2|L246z00|Other cervical abnormality in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|readv2|L161.00|Oedema or excessive weight gain in pregnancy without mention of hypertension|
-|pregnancy v1|snomed|2989446017|No history of ectopic pregnancy|
-|pregnancy v1|snomed|250063011|FH: Raised B.P. in pregnancy|
-|pregnancy v1|snomed|250064017|FH: Diabetes in pregnancy|
-|pregnancy v1|snomed|397715012|FH: Multiple pregnancy|
-|pregnancy v1|snomed|97258010|Unwanted pregnancy|
-|pregnancy v1|snomed|476066010|Illegitimate pregnancy|
-|pregnancy v1|snomed|355564012|Teenage pregnancy|
-|pregnancy v1|snomed|405076011|Pregnancy benefits|
-|pregnancy v1|snomed|405076011|Pregnancy benefits|
-|pregnancy v1|snomed|2173701000000110|At risk of unwanted pregnancy|
-|pregnancy v1|snomed|397852017|Past pregnancy outcome|
-|pregnancy v1|snomed|3290724012|History of pregnancy with abortive outcome|
-|pregnancy v1|snomed|252056015|H/O: ectopic pregnancy|
-|pregnancy v1|snomed|2474315019|H/O: medical termination of pregnancy|
-|pregnancy v1|snomed|397852017|Past pregnancy outcome|
-|pregnancy v1|snomed|3032743015|Assessment for termination of pregnancy|
-|pregnancy v1|snomed|2563381000000110|Serum beta human chorionic gonadotrophin pregnancy test|
-|pregnancy v1|snomed|258637015|Serum pregnancy test negative|
-|pregnancy v1|snomed|258638013|Serum pregnancy test equivocal|
-|pregnancy v1|snomed|258639017|Serum pregnancy test positive|
-|pregnancy v1|snomed|258636012|Serum pregnancy test (B-HCG)|
-|pregnancy v1|snomed|2568181000000110|Serum pregnancy associated plasma protein-A mean of median|
-|pregnancy v1|snomed|2126431000000110|Plasma pregnancy associated plasma protein A multiple of median measurement|
-|pregnancy v1|snomed|2564081000000110|Urine pregnancy test|
-|pregnancy v1|snomed|259779014|Urine pregnancy test requested|
-|pregnancy v1|snomed|259780012|Urine pregnancy test negative|
-|pregnancy v1|snomed|259781011|Urine pregnancy test equivocal|
-|pregnancy v1|snomed|259782016|Urine pregnancy test positive|
-|pregnancy v1|snomed|2584721000000110|High sensitivity urine pregnancy test|
-|pregnancy v1|snomed|259778018|Urine pregnancy test|
-|pregnancy v1|snomed|2572731000000110|Pregnancy associated plasma protein A level|
-|pregnancy v1|snomed|2555461000000110|Pregnancy associated plasma protein A multiple of median|
-|pregnancy v1|snomed|2582431000000110|Serum pregnancy associated plasma protein A concentration|
-|pregnancy v1|snomed|1209118018|Antenatal ultrasound confirms intrauterine pregnancy|
-|pregnancy v1|snomed|1209117011|Antenatal ultrasound confirms ectopic pregnancy|
-|pregnancy v1|snomed|1209116019|Antenatal scan unable to confirm pregnancy|
-|pregnancy v1|snomed|2792420017|Unplanned pregnancy unknown if child is wanted|
-|pregnancy v1|snomed|2791036011|Questionable if pregnancy was planned|
-|pregnancy v1|snomed|505420016|Unplanned pregnancy|
-|pregnancy v1|snomed|355557010|Concealed pregnancy|
-|pregnancy v1|snomed|263115012|Antenatal care: 2nd pregnancy|
-|pregnancy v1|snomed|263116013|Antenatal care: 3rd pregnancy|
-|pregnancy v1|snomed|263128017|A/N care: precious pregnancy|
-|pregnancy v1|snomed|263128017|A/N care: precious pregnancy|
-|pregnancy v1|snomed|263145010|A/N care: 10 years plus since last pregnancy|
-|pregnancy v1|snomed|216650011|Pregnancy review|
-|pregnancy v1|snomed|263227015|Rhesus screening - 1st pregnancy sample|
-|pregnancy v1|snomed|263228013|Rhesus screening - 2nd pregnancy sample|
-|pregnancy v1|snomed|263229017|Rhesus screening - 3rd pregnancy sample|
-|pregnancy v1|snomed|263232019|Rhesus - random, non-pregnancy sample|
-|pregnancy v1|snomed|454192016|Pregnancy prolonged - 41 weeks|
-|pregnancy v1|snomed|454196018|Pregnancy prolonged - 42 weeks|
-|pregnancy v1|snomed|2439831000000110|Pertussis vaccination in pregnancy|
-|pregnancy v1|snomed|2439871000000110|Pertussis vaccination in pregnancy given by other healthcare provider|
-|pregnancy v1|snomed|61891000000110|Diabetes: shared care in pregnancy - diabetologist and obstetrician|
-|pregnancy v1|snomed|265033019|Pre-pregnancy counselling|
-|pregnancy v1|snomed|456939013|Folic acid advice - pre-pregnancy|
-|pregnancy v1|snomed|1488406011|Diabetic pre-pregnancy counselling|
-|pregnancy v1|snomed|2375951000000110|Education about thyroid disease in pregnancy|
-|pregnancy v1|snomed|631341000000111|Pregnancy counselling|
-|pregnancy v1|snomed|265091015|Diet in pregnancy advice|
-|pregnancy v1|snomed|265092010|Pregnancy smoking advice|
-|pregnancy v1|snomed|265093017|Pregnancy exercise advice|
-|pregnancy v1|snomed|2575655011|Pregnancy alcohol education|
-|pregnancy v1|snomed|265095012|Drugs in pregnancy advice|
-|pregnancy v1|snomed|265096013|Pregnancy dental advice|
-|pregnancy v1|snomed|265101013|Pregnancy prescription exemption advice|
-|pregnancy v1|snomed|1176071000000110|Pregnancy advice for patients with epilepsy|
-|pregnancy v1|snomed|2141521000000110|Education about listeria precautions during pregnancy|
-|pregnancy v1|snomed|2792983014|Education about toxoplasmosis precautions during pregnancy|
-|pregnancy v1|snomed|631341000000111|Pregnancy counselling|
-|pregnancy v1|snomed|2576238013|Diabetic pre-pregnancy education|
-|pregnancy v1|snomed|2292041000000110|Advice on risks of harm to mother from maternal medication during pregnancy|
-|pregnancy v1|snomed|2292081000000110|Advice on risks of harm to fetus from maternal medication during pregnancy|
-|pregnancy v1|snomed|2440671000000110|Pertussis vaccination in pregnancy contraindicated|
-|pregnancy v1|snomed|1222093019|Hysterotomy and termination of pregnancy|
-|pregnancy v1|snomed|2967096014|Therapeutic termination of pregnancy procedure|
-|pregnancy v1|snomed|1485887011|Aspiration curettage of uterus for termination of pregnancy|
-|pregnancy v1|snomed|484361017|Dilatation and evacuation termination of pregnancy|
-|pregnancy v1|snomed|1480781018|Termination of pregnancy|
-|pregnancy v1|snomed|273916010|Excision of ectopic ovarian pregnancy|
-|pregnancy v1|snomed|273917018|Excision of ruptured ectopic tubal pregnancy|
-|pregnancy v1|snomed|366931000000111|Ultrasound monitoring of early pregnancy|
-|pregnancy v1|snomed|282803012|Pregnancy prophylactic therapy|
-|pregnancy v1|snomed|282822015|Iron supplement in pregnancy|
-|pregnancy v1|snomed|282823013|Vitamin supplement - pregnancy|
-|pregnancy v1|snomed|305101000000111|Pregnancy test kit given|
-|pregnancy v1|snomed|2474725010|Patient advised to have pregnancy test|
-|pregnancy v1|snomed|1480549013|Pregnancy termination care|
-|pregnancy v1|snomed|2121731000000110|Discussion about ectopic pregnancy risk|
-|pregnancy v1|snomed|2695402019|Referral for counselling for termination of pregnancy|
-|pregnancy v1|snomed|1717041000000110|Self referral to termination of pregnancy service|
-|pregnancy v1|snomed|2549789015|Refer to early pregnancy unit|
-|pregnancy v1|snomed|2534097016|Referral for termination of pregnancy|
-|pregnancy v1|snomed|1733031000000110|Referral to teenage pregnancy and parenting support service|
-|pregnancy v1|snomed|1176381000000110|Pregnancy advice for patients with epilepsy declined|
-|pregnancy v1|snomed|1176241000000110|Pregnancy advice for patients with epilepsy not indicated|
-|pregnancy v1|snomed|2240061000000110|Pertussis vaccination in pregnancy declined|
-|pregnancy v1|snomed|284238018|Requests pregnancy termination|
-|pregnancy v1|snomed|1149231000000110|Health in Pregnancy grant claim form issued|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|454094017|Reason for termination of pregnancy|
-|pregnancy v1|snomed|2238101000000110|Pertussis vaccination in pregnancy invitation|
-|pregnancy v1|snomed|2238581000000110|Pertussis vaccination in pregnancy invitation first letter|
-|pregnancy v1|snomed|2238711000000110|Pertussis vaccination in pregnancy invitation second letter|
-|pregnancy v1|snomed|2238841000000110|Pertussis vaccination in pregnancy invitation third letter|
-|pregnancy v1|snomed|2239111000000110|Did not attend pertussis vaccination in pregnancy|
-|pregnancy v1|snomed|3513900013|Seen in early pregnancy assessment unit|
-|pregnancy v1|snomed|2648186013|Phantom pregnancy|
-|pregnancy v1|snomed|295004011|Fear of pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|484990015|Pregnancy with abortive outcome|
-|pregnancy v1|snomed|58080013|Ectopic pregnancy|
-|pregnancy v1|snomed|137128014|Abdominal pregnancy|
-|pregnancy v1|snomed|305290019|Delivery of viable fetus in abdominal pregnancy|
-|pregnancy v1|snomed|132037019|Tubal pregnancy|
-|pregnancy v1|snomed|1234377011|Fallopian tube pregnancy|
-|pregnancy v1|snomed|305294011|Ruptured tubal pregnancy|
-|pregnancy v1|snomed|132037019|Tubal pregnancy|
-|pregnancy v1|snomed|17279018|Ovarian pregnancy|
-|pregnancy v1|snomed|58080013|Ectopic pregnancy|
-|pregnancy v1|snomed|131553011|Cervical pregnancy|
-|pregnancy v1|snomed|145245010|Cornual pregnancy|
-|pregnancy v1|snomed|305298014|Membranous pregnancy|
-|pregnancy v1|snomed|1227651011|Combined heterotopic pregnancy|
-|pregnancy v1|snomed|115533013|Mural pregnancy|
-|pregnancy v1|snomed|59478019|Intraligamentous pregnancy|
-|pregnancy v1|snomed|305300014|Mesenteric pregnancy|
-|pregnancy v1|snomed|305301013|Angular pregnancy|
-|pregnancy v1|snomed|501321010|Mesometric pregnancy|
-|pregnancy v1|snomed|58080013|Ectopic pregnancy|
-|pregnancy v1|snomed|58080013|Ectopic pregnancy|
-|pregnancy v1|snomed|2967265014|Legal termination of pregnancy complicated by genital-pelvic infection|
-|pregnancy v1|snomed|2966790015|Legal termination of pregnancy complicated by delayed and/or excessive hemorrhage|
-|pregnancy v1|snomed|2967119017|Legal termination of pregnancy complicated by damage to pelvic organ and/or tissues|
-|pregnancy v1|snomed|2967053016|Legal termination of pregnancy complicated by renal failure|
-|pregnancy v1|snomed|2967124019|Legal termination of pregnancy complicated by metabolic disorder|
-|pregnancy v1|snomed|2967226011|Legal termination of pregnancy complicated by shock|
-|pregnancy v1|snomed|2967221018|Legal termination of pregnancy complicated by embolism|
-|pregnancy v1|snomed|2967302012|Legal termination of pregnancy with complication|
-|pregnancy v1|snomed|2967302012|Legal termination of pregnancy with complication|
-|pregnancy v1|snomed|2967104018|Legal termination of pregnancy without complication|
-|pregnancy v1|snomed|2967111019|Incomplete legal termination of pregnancy|
-|pregnancy v1|snomed|2967206012|Complete legal termination of pregnancy|
-|pregnancy v1|snomed|492068019|Legal termination of pregnancy|
-|pregnancy v1|snomed|2966723011|Illegal termination of pregnancy, incomplete|
-|pregnancy v1|snomed|2966813014|Illegal termination of pregnancy, complete|
-|pregnancy v1|snomed|1230716015|Failed attempted termination of pregnancy|
-|pregnancy v1|snomed|2966798010|Termination of pregnancy complicated by genital-pelvic infection|
-|pregnancy v1|snomed|305543017|Endometritis following abortive pregnancy|
-|pregnancy v1|snomed|2966725016|Termination of pregnancy complicated by parametritis|
-|pregnancy v1|snomed|2966773014|Termination of pregnancy complicated by pelvic peritonitis|
-|pregnancy v1|snomed|2966741015|Termination of pregnancy complicated by salpingitis|
-|pregnancy v1|snomed|305547016|Salpingo-oophoritis following abortive pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|2966729010|Termination of pregnancy complicated by sepsis|
-|pregnancy v1|snomed|2966783013|Termination of pregnancy complicated by delayed and/or excessive hemorrhage|
-|pregnancy v1|snomed|2966793018|Termination of pregnancy complicated by afibrinogenemia|
-|pregnancy v1|snomed|2966767013|Termination of pregnancy complicated by defibrination syndrome|
-|pregnancy v1|snomed|305557015|Intravascular haemolysis following abortive pregnancy|
-|pregnancy v1|snomed|305560010|Damage to pelvic organs or tissues following abortive pregnancy|
-|pregnancy v1|snomed|2966961015|Induced termination of pregnancy complicated by bladder damage|
-|pregnancy v1|snomed|2966957014|Induced termination of pregnancy complicated by bowel damage|
-|pregnancy v1|snomed|2966938017|Induced termination of pregnancy complicated by broad ligament damage|
-|pregnancy v1|snomed|2966909015|Induced termination of pregnancy complicated by cervix damage|
-|pregnancy v1|snomed|2967126017|Induced termination of pregnancy complicated by periurethral tissue damage|
-|pregnancy v1|snomed|2967143019|Induced termination of pregnancy complicated by uterus damage|
-|pregnancy v1|snomed|2967061014|Induced termination of pregnancy complicated by vaginal damage|
-|pregnancy v1|snomed|305560010|Damage to pelvic organs or tissues following abortive pregnancy|
-|pregnancy v1|snomed|2966819013|Termination of pregnancy complicated by renal failure|
-|pregnancy v1|snomed|2967117015|Induced termination of pregnancy complicated by acute renal failure with oliguria|
-|pregnancy v1|snomed|2966764018|Termination of pregnancy complicated by acute renal failure|
-|pregnancy v1|snomed|2967117015|Induced termination of pregnancy complicated by acute renal failure with oliguria|
-|pregnancy v1|snomed|2966748014|Termination of pregnancy complicated by renal tubular necrosis|
-|pregnancy v1|snomed|2966782015|Termination of pregnancy complicated by uraemia|
-|pregnancy v1|snomed|2966838016|Termination of pregnancy complicated by metabolic disorder|
-|pregnancy v1|snomed|2966815019|Termination of pregnancy complicated by shock|
-|pregnancy v1|snomed|2966747016|Termination of pregnancy complicated by embolism|
-|pregnancy v1|snomed|2966752014|Termination of pregnancy complicated by air embolism|
-|pregnancy v1|snomed|2966759017|Termination of pregnancy complicated by amniotic fluid embolism|
-|pregnancy v1|snomed|2966777010|Termination of pregnancy complicated by blood-clot embolism|
-|pregnancy v1|snomed|2966761014|Termination of pregnancy complicated by fat embolism|
-|pregnancy v1|snomed|2966835018|Termination of pregnancy complicated by pulmonary embolism|
-|pregnancy v1|snomed|2966721013|Termination of pregnancy complicated by septic embolism|
-|pregnancy v1|snomed|2966721013|Termination of pregnancy complicated by septic embolism|
-|pregnancy v1|snomed|2966724017|Termination of pregnancy complicated by soap embolism|
-|pregnancy v1|snomed|2966747016|Termination of pregnancy complicated by embolism|
-|pregnancy v1|snomed|484990015|Pregnancy with abortive outcome|
-|pregnancy v1|snomed|2966954019|Induced termination of pregnancy complicated by acute necrosis of liver|
-|pregnancy v1|snomed|2966899014|Induced termination of pregnancy complicated by cardiac arrest|
-|pregnancy v1|snomed|2966901017|Induced termination of pregnancy complicated by cardiac failure|
-|pregnancy v1|snomed|2966784019|Termination of pregnancy complicated by cerebral anoxia|
-|pregnancy v1|snomed|2966807017|Termination of pregnancy complicated by urinary tract infection|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|29367011|Spontaneous abortion|
-|pregnancy v1|snomed|484990015|Pregnancy with abortive outcome|
-|pregnancy v1|snomed|2966969018|Complication occurring during pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|504697014|Haemorrhage in early pregnancy, delivered|
-|pregnancy v1|snomed|484718018|Haemorrhage in early pregnancy, antepartum|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|43268017|Hemorrhage in early pregnancy|
-|pregnancy v1|snomed|43268017|Hemorrhage in early pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|305749016|Hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305750016|Benign essential hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305752012|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|snomed|305753019|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|305754013|Benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered|
-|pregnancy v1|snomed|305755014|Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|snomed|305757018|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305757018|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305759015|Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|snomed|305760013|Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|305761012|Renal hypertension complicating pregnancy, childbirth and the puerperium - not delivered|
-|pregnancy v1|snomed|305762017|Renal hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|snomed|305757018|Renal hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355621014|Transient hypertension of pregnancy|
-|pregnancy v1|snomed|355621014|Transient hypertension of pregnancy|
-|pregnancy v1|snomed|305774018|Transient hypertension of pregnancy - delivered|
-|pregnancy v1|snomed|305775017|Transient hypertension of pregnancy - delivered with postnatal complication|
-|pregnancy v1|snomed|305776016|Transient hypertension of pregnancy - not delivered|
-|pregnancy v1|snomed|305777013|Transient hypertension of pregnancy with postnatal complication|
-|pregnancy v1|snomed|355621014|Transient hypertension of pregnancy|
-|pregnancy v1|snomed|355621014|Transient hypertension of pregnancy|
-|pregnancy v1|snomed|305810010|Eclampsia in pregnancy|
-|pregnancy v1|snomed|305826011|Pre-existing hypertension complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|snomed|305827019|Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305828012|Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305829016|Pre-existing secondary hypertension complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|snomed|1786188019|Proteinuric hypertension of pregnancy|
-|pregnancy v1|snomed|305749016|Hypertension complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|80299016|Pregnancy-induced hypertension|
-|pregnancy v1|snomed|80299016|Pregnancy-induced hypertension|
-|pregnancy v1|snomed|305837012|Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|80299016|Pregnancy-induced hypertension|
-|pregnancy v1|snomed|305841011|Unspecified hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|snomed|80299016|Pregnancy-induced hypertension|
-|pregnancy v1|snomed|1221052012|Excessive pregnancy vomiting|
-|pregnancy v1|snomed|3688191014|Vomiting during third trimester of pregnancy|
-|pregnancy v1|snomed|3688191014|Vomiting during third trimester of pregnancy|
-|pregnancy v1|snomed|3688191014|Vomiting during third trimester of pregnancy|
-|pregnancy v1|snomed|3688191014|Vomiting during third trimester of pregnancy|
-|pregnancy v1|snomed|3688191014|Vomiting during third trimester of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|149715015|Vomiting of pregnancy|
-|pregnancy v1|snomed|150747011|Prolonged pregnancy|
-|pregnancy v1|snomed|1235620010|Post-term pregnancy|
-|pregnancy v1|snomed|1235620010|Post-term pregnancy|
-|pregnancy v1|snomed|305909018|Post-term pregnancy - delivered|
-|pregnancy v1|snomed|305910011|Post-term pregnancy - not delivered|
-|pregnancy v1|snomed|1235620010|Post-term pregnancy|
-|pregnancy v1|snomed|150747011|Prolonged pregnancy|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|30054019|Peripheral neuritis in pregnancy|
-|pregnancy v1|snomed|30054019|Peripheral neuritis in pregnancy|
-|pregnancy v1|snomed|305957012|Peripheral neuritis in pregnancy - delivered|
-|pregnancy v1|snomed|305960017|Peripheral neuritis in pregnancy with postnatal complication|
-|pregnancy v1|snomed|305959010|Peripheral neuritis in pregnancy - not delivered|
-|pregnancy v1|snomed|305960017|Peripheral neuritis in pregnancy with postnatal complication|
-|pregnancy v1|snomed|30054019|Peripheral neuritis in pregnancy|
-|pregnancy v1|snomed|52764015|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|snomed|52764015|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|snomed|305963015|Asymptomatic bacteriuria in pregnancy - delivered|
-|pregnancy v1|snomed|305964014|Asymptomatic bacteriuria in pregnancy - delivered with postnatal complication|
-|pregnancy v1|snomed|305965010|Asymptomatic bacteriuria in pregnancy - not delivered|
-|pregnancy v1|snomed|305966011|Asymptomatic bacteriuria in pregnancy with postnatal complication|
-|pregnancy v1|snomed|52764015|Asymptomatic bacteriuria in pregnancy|
-|pregnancy v1|snomed|398348012|Genitourinary tract infections in pregnancy|
-|pregnancy v1|snomed|2470152015|Genitourinary tract infection in pregnancy|
-|pregnancy v1|snomed|305972011|Genitourinary tract infection in pregnancy - delivered|
-|pregnancy v1|snomed|305973018|Genitourinary tract infection in pregnancy - delivered with postnatal complication|
-|pregnancy v1|snomed|305974012|Genitourinary tract infection in pregnancy - not delivered|
-|pregnancy v1|snomed|305975013|Genitourinary tract infection in pregnancy with postnatal complication|
-|pregnancy v1|snomed|305976014|Infections of kidney in pregnancy|
-|pregnancy v1|snomed|305978010|Infections of the genital tract in pregnancy|
-|pregnancy v1|snomed|1490641019|Urinary tract infection complicating pregnancy|
-|pregnancy v1|snomed|2470152015|Genitourinary tract infection in pregnancy|
-|pregnancy v1|snomed|25847015|Liver disorder in pregnancy|
-|pregnancy v1|snomed|25847015|Liver disorder in pregnancy|
-|pregnancy v1|snomed|305986010|Liver disorder in pregnancy - delivered|
-|pregnancy v1|snomed|305987018|Liver disorder in pregnancy - not delivered|
-|pregnancy v1|snomed|25847015|Liver disorder in pregnancy|
-|pregnancy v1|snomed|147395012|Fatigue during pregnancy|
-|pregnancy v1|snomed|147395012|Fatigue during pregnancy|
-|pregnancy v1|snomed|305990012|Fatigue during pregnancy - delivered|
-|pregnancy v1|snomed|305991011|Fatigue during pregnancy - delivered with postnatal complication|
-|pregnancy v1|snomed|305992016|Fatigue during pregnancy - not delivered|
-|pregnancy v1|snomed|305993014|Fatigue during pregnancy with postnatal complication|
-|pregnancy v1|snomed|147395012|Fatigue during pregnancy|
-|pregnancy v1|snomed|306002019|Glycosuria during pregnancy|
-|pregnancy v1|snomed|306001014|Pregnancy-related glycosuria|
-|pregnancy v1|snomed|306004018|Glycosuria during pregnancy - delivered|
-|pregnancy v1|snomed|306005017|Glycosuria during pregnancy - delivered with postnatal complication|
-|pregnancy v1|snomed|306006016|Glycosuria during pregnancy - not delivered|
-|pregnancy v1|snomed|306007013|Glycosuria during pregnancy with postnatal complication|
-|pregnancy v1|snomed|306001014|Pregnancy-related glycosuria|
-|pregnancy v1|snomed|306010018|Pregnancy-induced oedema and proteinuria without hypertension|
-|pregnancy v1|snomed|494017018|Excessive weight gain in pregnancy|
-|pregnancy v1|snomed|358325012|Pregnancy pruritus|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|2966969018|Complication occurring during pregnancy|
-|pregnancy v1|snomed|2966969018|Complication occurring during pregnancy|
-|pregnancy v1|snomed|2966969018|Complication occurring during pregnancy|
-|pregnancy v1|snomed|453214019|Abdominal pain in pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|306027014|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306027014|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306029012|Maternal syphilis during pregnancy - baby delivered|
-|pregnancy v1|snomed|306031015|Maternal syphilis during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306027014|Maternal syphilis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306034011|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306034011|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306038014|Maternal gonorrhoea during pregnancy - baby delivered|
-|pregnancy v1|snomed|306042012|Maternal gonorrhoea during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306034011|Maternal gonorrhoea during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|45296013|Venereal disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|306055013|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306055013|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306058010|Tuberculosis in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|snomed|306060012|Maternal tuberculosis during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306055013|Maternal tuberculosis during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306063014|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306063014|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306065019|Maternal malaria during pregnancy - baby delivered|
-|pregnancy v1|snomed|306066018|Maternal malaria in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|snomed|306067010|Maternal malaria during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306068017|Maternal malaria in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|snomed|306063014|Maternal malaria during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|140828013|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|140828013|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|306074017|Maternal rubella during pregnancy - baby delivered|
-|pregnancy v1|snomed|306075016|Maternal rubella in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|snomed|306076015|Maternal rubella during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306077012|Maternal rubella in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|snomed|140828013|Rubella in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|52684014|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|52684014|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|52684014|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|52684014|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|306085015|Viral hepatitis complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306087011|Infections of bladder in pregnancy|
-|pregnancy v1|snomed|306088018|Infections of urethra in pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306106018|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306106018|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306108017|Diabetes mellitus during pregnancy - baby delivered|
-|pregnancy v1|snomed|306110015|Diabetes mellitus during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|1220321013|Diabetes mellitus arising in pregnancy|
-|pregnancy v1|snomed|306106018|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|356133011|Pregnancy and non-insulin-dependent diabetes mellitus|
-|pregnancy v1|snomed|306106018|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306118010|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306118010|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306120013|Thyroid dysfunction during pregnancy - baby delivered|
-|pregnancy v1|snomed|306122017|Thyroid dysfunction during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306118010|Thyroid dysfunction during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|494362010|Anaemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|76428016|Anemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|306129014|Anaemia during pregnancy - baby delivered|
-|pregnancy v1|snomed|306130016|Anaemia in the puerperium - baby delivered during current episode of care|
-|pregnancy v1|snomed|306133019|Anaemia during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306134013|Anaemia in the puerperium - baby delivered during previous episode of care|
-|pregnancy v1|snomed|306137018|Iron deficiency anaemia of pregnancy|
-|pregnancy v1|snomed|494362010|Anaemia in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|398350016|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398350016|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306144010|Drug dependence during pregnancy - baby delivered|
-|pregnancy v1|snomed|306146012|Drug dependence during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|398350016|Drug dependence during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306149017|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306149017|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306151018|Mental disorder during pregnancy - baby delivered|
-|pregnancy v1|snomed|306153015|Mental disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306149017|Mental disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306160014|Congenital cardiovascular disorder during pregnancy - baby delivered|
-|pregnancy v1|snomed|306162018|Congenital cardiovascular disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398351017|Congenital cardiovascular disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306175018|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306175018|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306179012|Orthopaedic disorder during pregnancy - baby delivered|
-|pregnancy v1|snomed|306183012|Orthopaedic disorder during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|306175018|Orthopaedic disorders during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|1210624012|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|1210624012|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|1210633014|Abnormal glucose tolerance test during pregnancy - baby delivered|
-|pregnancy v1|snomed|1210632016|Abnormal glucose tolerance test during pregnancy - baby not yet delivered|
-|pregnancy v1|snomed|1210624012|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306196013|Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306197016|Diseases of the digestive system complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|353610019|Cholestasis of pregnancy|
-|pregnancy v1|snomed|306198014|Diseases of the skin and subcutaneous tissue complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306199018|Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|snomed|306200015|Disease of nervous system complicating pregnancy, childbirth and puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306209019|Continuing pregnancy after abortion of one fetus or more|
-|pregnancy v1|snomed|1222377015|Continuing pregnancy after intrauterine death one fetus or more|
-|pregnancy v1|snomed|306211011|Subluxation of symphysis pubis in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|306216018|Risk factors in pregnancy|
-|pregnancy v1|snomed|27701016|Multiple pregnancy|
-|pregnancy v1|snomed|108265019|Twin pregnancy|
-|pregnancy v1|snomed|108265019|Twin pregnancy|
-|pregnancy v1|snomed|306223017|Twin pregnancy - delivered|
-|pregnancy v1|snomed|306224011|Twin pregnancy with antenatal problem|
-|pregnancy v1|snomed|108265019|Twin pregnancy|
-|pregnancy v1|snomed|106809012|Triplet pregnancy|
-|pregnancy v1|snomed|106809012|Triplet pregnancy|
-|pregnancy v1|snomed|306227016|Triplet pregnancy - delivered|
-|pregnancy v1|snomed|306228014|Triplet pregnancy with antenatal problem|
-|pregnancy v1|snomed|106809012|Triplet pregnancy|
-|pregnancy v1|snomed|101047019|Quadruplet pregnancy|
-|pregnancy v1|snomed|101047019|Quadruplet pregnancy|
-|pregnancy v1|snomed|306231010|Quadruplet pregnancy - delivered|
-|pregnancy v1|snomed|306232015|Quadruplet pregnancy with antenatal problem|
-|pregnancy v1|snomed|101047019|Quadruplet pregnancy|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|429105011|Mother delivered|
-|pregnancy v1|snomed|27698012|Multiple gestation|
-|pregnancy v1|snomed|306295015|Multiple pregnancy with malpresentation|
-|pregnancy v1|snomed|306295015|Multiple pregnancy with malpresentation|
-|pregnancy v1|snomed|306297011|Multiple pregnancy with malpresentation - delivered|
-|pregnancy v1|snomed|306298018|Multiple pregnancy with malpresentation with antenatal problem|
-|pregnancy v1|snomed|306295015|Multiple pregnancy with malpresentation|
-|pregnancy v1|snomed|306370019|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398356010|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398356010|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398363010|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398363010|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306428011|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306428011|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306430013|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|snomed|306431012|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium with antenatal problem|
-|pregnancy v1|snomed|306428011|Uterine scar from previous surgery in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|398383011|Other uterine or pelvic floor abnormality in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|snomed|398389010|Congenital or acquired abnormality of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355490013|Vaginal abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355475014|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355475014|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355475014|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355475014|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306370019|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306370019|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|306563015|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium - delivered|
-|pregnancy v1|snomed|306564014|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|306565010|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium with antenatal problem|
-|pregnancy v1|snomed|306566011|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium with postnatal complication|
-|pregnancy v1|snomed|306370019|Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|74738012|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|snomed|74738012|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|snomed|74738012|Rhesus isoimmunization affecting pregnancy|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|48057011|Low maternal weight gain|
-|pregnancy v1|snomed|306906019|Malnutrition in pregnancy|
-|pregnancy v1|snomed|306907011|Retained intrauterine contraceptive device in pregnancy|
-|pregnancy v1|snomed|306216018|Risk factors in pregnancy|
-|pregnancy v1|snomed|2695041010|Finding related to risk factor in pregnancy|
-|pregnancy v1|snomed|307475015|Toxic reaction to local anaesthesia during pregnancy|
-|pregnancy v1|snomed|307480012|Spinal and epidural anaesthesia-induced headache during pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|307599018|Caesarean section - pregnancy at term|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|307698018|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|snomed|307698018|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|snomed|307700010|Varicose veins of legs in pregnancy and the puerperium - delivered|
-|pregnancy v1|snomed|307701014|Varicose veins of legs in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|307702019|Varicose veins of legs in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|snomed|307703012|Varicose veins of legs in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|snomed|451447016|Varicose veins of legs in pregnancy|
-|pregnancy v1|snomed|307698018|Varicose veins of legs in pregnancy and the puerperium|
-|pregnancy v1|snomed|398446012|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|snomed|398446012|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|snomed|307712014|Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered|
-|pregnancy v1|snomed|307713016|Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|307714010|Varicose veins of perineum and vulva in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|snomed|307715011|Varicose veins of perineum and vulva in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|snomed|350686016|Genital varices in pregnancy|
-|pregnancy v1|snomed|398446012|Varicose veins of perineum and vulva in pregnancy and the puerperium|
-|pregnancy v1|snomed|307727014|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|snomed|307727014|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|snomed|307729012|Superficial thrombophlebitis in pregnancy and the puerperium - delivered|
-|pregnancy v1|snomed|398447015|Superficial thrombophlebitis in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|307734011|Superficial thrombophlebitis in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|snomed|307735012|Superficial thrombophlebitis in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|snomed|451452014|Superficial thrombophlebitis in pregnancy|
-|pregnancy v1|snomed|307727014|Superficial thrombophlebitis in pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|307760012|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|snomed|307760012|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|snomed|307765019|Haemorrhoids in pregnancy and the puerperium - delivered|
-|pregnancy v1|snomed|307768017|Haemorrhoids in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|307769013|Haemorrhoids in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|snomed|307772018|Haemorrhoids in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|snomed|451457015|Haemorrhoids in pregnancy|
-|pregnancy v1|snomed|307760012|Haemorrhoids in pregnancy and the puerperium|
-|pregnancy v1|snomed|307781012|Cerebral venous thrombosis in pregnancy|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|355630018|Symptomatic disorders in pregnancy|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|307981016|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307981016|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307983018|Retracted nipple in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|snomed|307984012|Retracted nipple in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|snomed|307985013|Retracted nipple in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|snomed|307986014|Retracted nipple in pregnancy, the puerperium or lactation with postnatal complication|
-|pregnancy v1|snomed|307981016|Retracted nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|398457019|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|398457019|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307992015|Cracked nipple in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|snomed|307993013|Cracked nipple in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|snomed|307994019|Cracked nipple in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|snomed|307995018|Cracked nipple in pregnancy, the puerperium or lactation with postnatal complication|
-|pregnancy v1|snomed|398457019|Cracked nipple in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307997014|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307997014|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307999012|Breast engorgement in pregnancy, the puerperium or lactation - delivered|
-|pregnancy v1|snomed|308000018|Breast engorgement in pregnancy, the puerperium or lactation - delivered with postnatal complication|
-|pregnancy v1|snomed|308001019|Breast engorgement in pregnancy, the puerperium or lactation with antenatal complication|
-|pregnancy v1|snomed|307997014|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|307997014|Breast engorgement in pregnancy, the puerperium or lactation|
-|pregnancy v1|snomed|308029016|Galactorrhoea in pregnancy and the puerperium|
-|pregnancy v1|snomed|308033011|Galactorrhoea in pregnancy and the puerperium - delivered|
-|pregnancy v1|snomed|308034017|Galactorrhoea in pregnancy and the puerperium - delivered with postnatal complication|
-|pregnancy v1|snomed|308037012|Galactorrhoea in pregnancy and the puerperium with antenatal complication|
-|pregnancy v1|snomed|308038019|Galactorrhoea in pregnancy and the puerperium with postnatal complication|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|910561000000000|[X]Additional pregnancy, childbirth and puerperium disease classification terms|
-|pregnancy v1|snomed|484990015|Pregnancy with abortive outcome|
-|pregnancy v1|snomed|58080013|Ectopic pregnancy|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|2966833013|Termination of pregnancy without complication|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|2966795013|Termination of pregnancy with complication|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|483054015|Haemorrhage in early pregnancy|
-|pregnancy v1|snomed|355630018|Symptomatic disorders in pregnancy|
-|pregnancy v1|snomed|355630018|Symptomatic disorders in pregnancy|
-|pregnancy v1|snomed|450822019|Urinary tract infection in pregnancy|
-|pregnancy v1|snomed|2470152015|Genitourinary tract infection in pregnancy|
-|pregnancy v1|snomed|179529013|Finding related to pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|3843017|Abnormality of organs AND/OR soft tissues of pelvis affecting pregnancy|
-|pregnancy v1|snomed|355655012|Pregnancy with isoimmunisation|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|305972011|Genitourinary tract infection in pregnancy - delivered|
-|pregnancy v1|snomed|398443016|Venous complications of pregnancy and the puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|409879014|Venereal disease in pregnancy|
-|pregnancy v1|snomed|52684014|Viral disease in mother complicating pregnancy, childbirth AND/OR puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|935611000000000|[X]Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism complicating pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|2967012012|Complication of pregnancy, childbirth and/or the puerperium|
-|pregnancy v1|snomed|309006017|Alopecia of pregnancy|
-|pregnancy v1|snomed|315814013|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|snomed|315863012|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|snomed|315870012|Fetus or neonate affected by ectopic pregnancy|
-|pregnancy v1|snomed|315870012|Fetus or neonate affected by ectopic pregnancy|
-|pregnancy v1|snomed|315872016|Fetus or neonate affected by abdominal ectopic pregnancy|
-|pregnancy v1|snomed|315873014|Fetus or neonate affected by intraperitoneal ectopic pregnancy|
-|pregnancy v1|snomed|315874015|Fetus or neonate affected by tubal ectopic pregnancy|
-|pregnancy v1|snomed|2965881013|Fetal or neonatal effect of ectopic pregnancy|
-|pregnancy v1|snomed|315876018|Fetus or neonate affected by multiple pregnancy|
-|pregnancy v1|snomed|315876018|Fetus or neonate affected by multiple pregnancy|
-|pregnancy v1|snomed|315878017|Fetus or neonate affected by twin pregnancy|
-|pregnancy v1|snomed|315879013|Fetus or neonate affected by triplet pregnancy|
-|pregnancy v1|snomed|2966026012|Fetal or neonatal effect of multiple pregnancy|
-|pregnancy v1|snomed|315863012|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|snomed|315863012|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|snomed|315863012|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|snomed|315814013|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|snomed|315814013|Fetus or neonate affected by maternal problem unrelated to pregnancy|
-|pregnancy v1|snomed|111839012|Fetal death due to termination of pregnancy|
-|pregnancy v1|snomed|315863012|Fetus or neonate affected by maternal complication of pregnancy|
-|pregnancy v1|snomed|2966012015|Fetal or neonatal effect of maternal complication of pregnancy|
-|pregnancy v1|snomed|2966012015|Fetal or neonatal effect of maternal complication of pregnancy|
-|pregnancy v1|snomed|121076010|Normal pregnancy|
-|pregnancy v1|snomed|191073013|Pregnant|
-|pregnancy v1|snomed|128451012|Pregnancy|
-|pregnancy v1|snomed|216241019|Routine antenatal care|
-|pregnancy v1|snomed|179529013|Finding related to pregnancy|
-|pregnancy v1|snomed|128451012|Pregnancy|
-|pregnancy v1|snomed|3005951015|Supervision of high risk pregnancy|
-|pregnancy v1|snomed|263130015|A/N care: H/O infertility|
-|pregnancy v1|snomed|263126018|A/N care: H/O trophoblastic disease|
-|pregnancy v1|snomed|252034018|H/O: miscarriage|
-|pregnancy v1|snomed|3005985019|Supervision of high risk pregnancy for primigravida age 15 years or younger|
-|pregnancy v1|snomed|3005967014|Supervision of high risk pregnancy for social problem|
-|pregnancy v1|snomed|78671013|High risk pregnancy|
-|pregnancy v1|snomed|78671013|High risk pregnancy|
-|pregnancy v1|snomed|2950282010|Psychosocial problems related to unwanted pregnancy|
-|pregnancy v1|snomed|899011000000000|[V]Illegitimate pregnancy|
-|pregnancy v1|snomed|97258010|Unwanted pregnancy|
-|pregnancy v1|snomed|1002080000000000|[V]Pregnancy examination or test, pregnancy unconfirmed (context-dependent category)|
-|pregnancy v1|snomed|122938015|Pregnancy detection examination|
-|pregnancy v1|snomed|255918010|Possible pregnancy|
-|pregnancy v1|snomed|3005951015|Supervision of high risk pregnancy|
-|pregnancy v1|snomed|411066013|FH: Twin pregnancy|
-|pregnancy v1|snomed|97258010|Unwanted pregnancy|
-|pregnancy v1|snomed|3290724012|History of pregnancy with abortive outcome|
-|pregnancy v1|snomed|1234104012|Pregnancy confirmed|
-|pregnancy v1|snomed|216651010|Review of pregnancy|
-|pregnancy v1|snomed|265096013|Pregnancy dental advice|
-|pregnancy v1|snomed|410890017|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|snomed|410890017|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|snomed|1493776011|VTOP - Vacuum termination of pregnancy|
-|pregnancy v1|snomed|1481702017|Removal of ectopic pregnancy from fallopian tube|
-|pregnancy v1|snomed|411895017|Pregnancy vitamin/iron prophylaxis|
-|pregnancy v1|snomed|3001000000111|Prescription exemption form - pregnancy|
-|pregnancy v1|snomed|486339012|Anembryonic pregnancy|
-|pregnancy v1|snomed|1666171000000110|Incomplete termination of pregnancy|
-|pregnancy v1|snomed|305541015|Complications following abortion and ectopic and molar pregnancies|
-|pregnancy v1|snomed|2966747016|Termination of pregnancy complicated by embolism|
-|pregnancy v1|snomed|484990015|Pregnancy with abortive outcome|
-|pregnancy v1|snomed|483053014|Bleeding in early pregnancy|
-|pregnancy v1|snomed|1235620010|Post-term pregnancy|
-|pregnancy v1|snomed|494017018|Excessive weight gain in pregnancy|
-|pregnancy v1|snomed|28371017|Albuminuria in pregnancy without hypertension|
-|pregnancy v1|snomed|411392011|Cystitis of pregnancy|
-|pregnancy v1|snomed|450823012|UTI - urinary tract infection in pregnancy|
-|pregnancy v1|snomed|2839370016|Exposure to rubella in pregnancy|
-|pregnancy v1|snomed|355550012|Pregnancy and drug dependence|
-|pregnancy v1|snomed|355549012|Congenital heart disease in pregnancy|
-|pregnancy v1|snomed|409882016|Cardiac disease in pregnancy|
-|pregnancy v1|snomed|1210624012|Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355546017|Bicornuate uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398356010|Congenital abnormality of uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355537011|Uterine fibroids in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|398363010|Tumour of uterine body in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355530013|Cystocele in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355517012|Cystocele in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|snomed|355511013|Polyp of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355511013|Polyp of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355499014|Septate vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355499014|Septate vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355483015|Persistent hymen in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355483015|Persistent hymen in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|2987068013|Anti-D isoimmunisation affecting pregnancy|
-|pregnancy v1|snomed|355654011|Pregnancy with isoimmunization|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|268308014|Disease of pregnancy|
-|pregnancy v1|snomed|350687013|Perineal varices in pregnancy|
-|pregnancy v1|snomed|451451019|Thrombophlebitis of legs in pregnancy|
-|pregnancy v1|snomed|35234010|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|snomed|216241019|Routine antenatal care|
-|pregnancy v1|snomed|371654017|Relation of fetal size to dates|
-|pregnancy v1|snomed|1481703010|Fimbrial extraction of tubal pregnancy|
-|pregnancy v1|snomed|1491661019|Pregnancy operation|
-|pregnancy v1|snomed|355146010|Shirodkar's cervical cerclage|
-|pregnancy v1|snomed|1480781018|Termination of pregnancy|
-|pregnancy v1|snomed|477346015|Toxaemia of pregnancy|
-|pregnancy v1|snomed|1221051017|Hyperemesis of pregnancy|
-|pregnancy v1|snomed|494017018|Excessive weight gain in pregnancy|
-|pregnancy v1|snomed|305277014|Complications of pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355547014|Double uterus in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355529015|Pendulous abdomen in pregnancy,childbirth and the puerperium|
-|pregnancy v1|snomed|355516015|Rectocele in pregnancy, childbirth or the puerperium NOS|
-|pregnancy v1|snomed|355506011|Stenosis of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355506011|Stenosis of cervix in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355491012|Stenosis of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355491012|Stenosis of vagina in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355476010|Rigid perineum in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355476010|Rigid perineum in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355633016|Vaginal varices in pregnancy|
-|pregnancy v1|snomed|35234010|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|snomed|263126018|A/N care: H/O trophoblastic disease|
-|pregnancy v1|snomed|2649301016|Pregnancy care|
-|pregnancy v1|snomed|410890017|Dilation of cervix uteri and curettage for termination of pregnancy|
-|pregnancy v1|snomed|355552016|Uraemia in pregnancy without hypertension|
-|pregnancy v1|snomed|355528011|Rectocele in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355490013|Vaginal abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355475014|Vulval abnormality in pregnancy, childbirth and the puerperium|
-|pregnancy v1|snomed|355634010|Vulval varices in pregnancy|
-|pregnancy v1|snomed|35234010|Phlebitis complicating pregnancy AND/OR puerperium|
-|pregnancy v1|snomed|410890017|Dilation of cervix uteri and curettage for termination of pregnancy|
-|smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
-|smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
-|smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|
-|smoking-status-current v1|ctv3|1376.|Very hvy cigs smoker,40+cigs/d|
-|smoking-status-current v1|ctv3|137C.|Keeps trying to stop smoking|
-|smoking-status-current v1|ctv3|137D.|Admitted tobacco cons untrue ?|
-|smoking-status-current v1|ctv3|137G.|Trying to give up smoking|
-|smoking-status-current v1|ctv3|137H.|Pipe smoker|
-|smoking-status-current v1|ctv3|137J.|Cigar smoker|
-|smoking-status-current v1|ctv3|137M.|Rolls own cigarettes|
-|smoking-status-current v1|ctv3|137P.|Cigarette smoker|
-|smoking-status-current v1|ctv3|137Q.|Smoking started|
-|smoking-status-current v1|ctv3|137R.|Current smoker|
-|smoking-status-current v1|ctv3|137Z.|Tobacco consumption NOS|
-|smoking-status-current v1|ctv3|Ub1tI|Cigarette consumption|
-|smoking-status-current v1|ctv3|Ub1tJ|Cigar consumption|
-|smoking-status-current v1|ctv3|Ub1tK|Pipe tobacco consumption|
-|smoking-status-current v1|ctv3|XaBSp|Smoking restarted|
-|smoking-status-current v1|ctv3|XaIIu|Smoking reduced|
-|smoking-status-current v1|ctv3|XaIkW|Thinking about stop smoking|
-|smoking-status-current v1|ctv3|XaIkX|Ready to stop smoking|
-|smoking-status-current v1|ctv3|XaIkY|Not interested stop smoking|
-|smoking-status-current v1|ctv3|XaItg|Reason for restarting smoking|
-|smoking-status-current v1|ctv3|XaIuQ|Cigarette pack-years|
-|smoking-status-current v1|ctv3|XaJX2|Min from wake to 1st tobac con|
-|smoking-status-current v1|ctv3|XaWNE|Failed attempt to stop smoking|
-|smoking-status-current v1|ctv3|XaZIE|Waterpipe tobacco consumption|
-|smoking-status-current v1|ctv3|XE0og|Tobacco smoking consumption|
-|smoking-status-current v1|ctv3|XE0oq|Cigarette smoker|
-|smoking-status-current v1|ctv3|XE0or|Smoking started|
-|smoking-status-current v1|readv2|137P.00|Cigarette smoker|
-|smoking-status-current v1|readv2|137P.11|Smoker|
-|smoking-status-current v1|readv2|13p3.00|Smoking status at 52 weeks|
-|smoking-status-current v1|readv2|1374.00|Moderate smoker - 10-19 cigs/d|
-|smoking-status-current v1|readv2|137G.00|Trying to give up smoking|
-|smoking-status-current v1|readv2|137R.00|Current smoker|
-|smoking-status-current v1|readv2|1376.00|Very heavy smoker - 40+cigs/d|
-|smoking-status-current v1|readv2|1375.00|Heavy smoker - 20-39 cigs/day|
-|smoking-status-current v1|readv2|1373.00|Light smoker - 1-9 cigs/day|
-|smoking-status-current v1|readv2|137M.00|Rolls own cigarettes|
-|smoking-status-current v1|readv2|137o.00|Waterpipe tobacco consumption|
-|smoking-status-current v1|readv2|137m.00|Failed attempt to stop smoking|
-|smoking-status-current v1|readv2|137h.00|Minutes from waking to first tobacco consumption|
-|smoking-status-current v1|readv2|137g.00|Cigarette pack-years|
-|smoking-status-current v1|readv2|137f.00|Reason for restarting smoking|
-|smoking-status-current v1|readv2|137e.00|Smoking restarted|
-|smoking-status-current v1|readv2|137d.00|Not interested in stopping smoking|
-|smoking-status-current v1|readv2|137c.00|Thinking about stopping smoking|
-|smoking-status-current v1|readv2|137b.00|Ready to stop smoking|
-|smoking-status-current v1|readv2|137C.00|Keeps trying to stop smoking|
-|smoking-status-current v1|readv2|137J.00|Cigar smoker|
-|smoking-status-current v1|readv2|137H.00|Pipe smoker|
-|smoking-status-current v1|readv2|137a.00|Pipe tobacco consumption|
-|smoking-status-current v1|readv2|137Z.00|Tobacco consumption NOS|
-|smoking-status-current v1|readv2|137Y.00|Cigar consumption|
-|smoking-status-current v1|readv2|137X.00|Cigarette consumption|
-|smoking-status-current v1|readv2|137V.00|Smoking reduced|
-|smoking-status-current v1|readv2|137Q.00|Smoking started|
-|smoking-status-current v1|readv2|137Q.11|Smoking restarted|
-|smoking-status-current v1|snomed|266929003|Smoking started (life style)|
-|smoking-status-current v1|snomed|836001000000109|Waterpipe tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|77176002|Smoker (life style)|
-|smoking-status-current v1|snomed|65568007|Cigarette smoker (life style)|
-|smoking-status-current v1|snomed|394873005|Not interested in stopping smoking (finding)|
-|smoking-status-current v1|snomed|394872000|Ready to stop smoking (finding)|
-|smoking-status-current v1|snomed|394871007|Thinking about stopping smoking (observable entity)|
-|smoking-status-current v1|snomed|266918002|Tobacco smoking consumption (observable entity)|
-|smoking-status-current v1|snomed|230057008|Cigar consumption (observable entity)|
-|smoking-status-current v1|snomed|230056004|Cigarette consumption (observable entity)|
-|smoking-status-current v1|snomed|160623006|Smoking: [started] or [restarted]|
-|smoking-status-current v1|snomed|160622001|Smoker (& cigarette)|
-|smoking-status-current v1|snomed|160619003|Rolls own cigarettes (finding)|
-|smoking-status-current v1|snomed|160616005|Trying to give up smoking (finding)|
-|smoking-status-current v1|snomed|160612007|Keeps trying to stop smoking (finding)|
-|smoking-status-current v1|snomed|160606002|Very heavy cigarette smoker (40+ cigs/day) (life style)|
-|smoking-status-current v1|snomed|160605003|Heavy cigarette smoker (20-39 cigs/day) (life style)|
-|smoking-status-current v1|snomed|160604004|Moderate cigarette smoker (10-19 cigs/day) (life style)|
-|smoking-status-current v1|snomed|160603005|Light cigarette smoker (1-9 cigs/day) (life style)|
-|smoking-status-current v1|snomed|59978006|Cigar smoker (life style)|
-|smoking-status-current v1|snomed|446172000|Failed attempt to stop smoking (finding)|
-|smoking-status-current v1|snomed|413173009|Minutes from waking to first tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|401201003|Cigarette pack-years (observable entity)|
-|smoking-status-current v1|snomed|401159003|Reason for restarting smoking (observable entity)|
-|smoking-status-current v1|snomed|308438006|Smoking restarted (life style)|
-|smoking-status-current v1|snomed|230058003|Pipe tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|134406006|Smoking reduced (observable entity)|
-|smoking-status-current v1|snomed|82302008|Pipe smoker (life style)|
-|smoking-status-currently-not v1|ctv3|Ub0oq|Non-smoker|
-|smoking-status-currently-not v1|ctv3|137L.|Current non-smoker|
-|smoking-status-currently-not v1|readv2|137L.00|Current non-smoker|
-|smoking-status-currently-not v1|snomed|160618006|Current non-smoker (life style)|
-|smoking-status-currently-not v1|snomed|8392000|Non-smoker (life style)|
-|smoking-status-ex v1|ctv3|1378.|Ex-light smoker (1-9/day)|
-|smoking-status-ex v1|ctv3|1379.|Ex-moderate smoker (10-19/day)|
-|smoking-status-ex v1|ctv3|137A.|Ex-heavy smoker (20-39/day)|
-|smoking-status-ex v1|ctv3|137B.|Ex-very heavy smoker (40+/day)|
-|smoking-status-ex v1|ctv3|137F.|Ex-smoker - amount unknown|
-|smoking-status-ex v1|ctv3|137K.|Stopped smoking|
-|smoking-status-ex v1|ctv3|137N.|Ex-pipe smoker|
-|smoking-status-ex v1|ctv3|137O.|Ex-cigar smoker|
-|smoking-status-ex v1|ctv3|137T.|Date ceased smoking|
-|smoking-status-ex v1|ctv3|Ub1na|Ex-smoker|
-|smoking-status-ex v1|ctv3|Xa1bv|Ex-cigarette smoker|
-|smoking-status-ex v1|ctv3|XaIr7|Smoking free weeks|
-|smoking-status-ex v1|ctv3|XaKlS|[V]PH of tobacco abuse|
-|smoking-status-ex v1|ctv3|XaQ8V|Ex roll-up cigarette smoker|
-|smoking-status-ex v1|ctv3|XaQzw|Recently stopped smoking|
-|smoking-status-ex v1|ctv3|XE0ok|Ex-light cigaret smok, 1-9/day|
-|smoking-status-ex v1|ctv3|XE0ol|Ex-mod cigaret smok, 10-19/day|
-|smoking-status-ex v1|ctv3|XE0om|Ex-heav cigaret smok,20-39/day|
-|smoking-status-ex v1|ctv3|XE0on|Ex-very hv cigaret smk,40+/day|
-|smoking-status-ex v1|readv2|137l.00|Ex roll-up cigarette smoker|
-|smoking-status-ex v1|readv2|137j.00|Ex-cigarette smoker|
-|smoking-status-ex v1|readv2|137S.00|Ex smoker|
-|smoking-status-ex v1|readv2|137O.00|Ex cigar smoker|
-|smoking-status-ex v1|readv2|137N.00|Ex pipe smoker|
-|smoking-status-ex v1|readv2|137F.00|Ex-smoker - amount unknown|
-|smoking-status-ex v1|readv2|137B.00|Ex-very heavy smoker (40+/day)|
-|smoking-status-ex v1|readv2|137A.00|Ex-heavy smoker (20-39/day)|
-|smoking-status-ex v1|readv2|1379.00|Ex-moderate smoker (10-19/day)|
-|smoking-status-ex v1|readv2|1378.00|Ex-light smoker (1-9/day)|
-|smoking-status-ex v1|readv2|137K.00|Stopped smoking|
-|smoking-status-ex v1|readv2|137K000|Recently stopped smoking|
-|smoking-status-ex v1|readv2|137T.00|Date ceased smoking|
-|smoking-status-ex v1|readv2|13p4.00|Smoking free weeks|
-|smoking-status-ex v1|snomed|160617001|Stopped smoking (life style)|
-|smoking-status-ex v1|snomed|160620009|Ex-pipe smoker (life style)|
-|smoking-status-ex v1|snomed|160621008|Ex-cigar smoker (life style)|
-|smoking-status-ex v1|snomed|160625004|Date ceased smoking (observable entity)|
-|smoking-status-ex v1|snomed|266922007|Ex-light cigarette smoker (1-9/day) (life style)|
-|smoking-status-ex v1|snomed|266923002|Ex-moderate cigarette smoker (10-19/day) (life style)|
-|smoking-status-ex v1|snomed|266924008|Ex-heavy cigarette smoker (20-39/day) (life style)|
-|smoking-status-ex v1|snomed|266925009|Ex-very heavy cigarette smoker (40+/day) (life style)|
-|smoking-status-ex v1|snomed|281018007|Ex-cigarette smoker (life style)|
-|smoking-status-ex v1|snomed|395177003|Smoking free weeks (observable entity)|
-|smoking-status-ex v1|snomed|492191000000103|Ex roll-up cigarette smoker (finding)|
-|smoking-status-ex v1|snomed|517211000000106|Recently stopped smoking (finding)|
-|smoking-status-ex v1|snomed|8517006|Ex-smoker (life style)|
-|smoking-status-ex-trivial v1|ctv3|XE0oj|Ex-triv cigaret smoker, <1/day|
-|smoking-status-ex-trivial v1|ctv3|1377.|Ex-trivial smoker (<1/day)|
-|smoking-status-ex-trivial v1|readv2|1377.00|Ex-trivial smoker (<1/day)|
-|smoking-status-ex-trivial v1|snomed|266921000|Ex-trivial cigarette smoker (<1/day) (life style)|
-|smoking-status-never v1|ctv3|XE0oh|Never smoked tobacco|
-|smoking-status-never v1|ctv3|1371.|Never smoked tobacco|
-|smoking-status-never v1|readv2|1371.00|Never smoked tobacco|
-|smoking-status-never v1|snomed|160601007|Non-smoker (& [never smoked tobacco])|
-|smoking-status-never v1|snomed|266919005|Never smoked tobacco (life style)|
-|smoking-status-passive v1|ctv3|137I.|Passive smoker|
-|smoking-status-passive v1|ctv3|Ub0pe|Exposed to tobacco smoke at work|
-|smoking-status-passive v1|ctv3|Ub0pf|Exposed to tobacco smoke at home|
-|smoking-status-passive v1|ctv3|Ub0pg|Exposed to tobacco smoke in public places|
-|smoking-status-passive v1|ctv3|13WF4|Passive smoking risk|
-|smoking-status-passive v1|readv2|137I.00|Passive smoker|
-|smoking-status-passive v1|readv2|137I000|Exposed to tobacco smoke at home|
-|smoking-status-passive v1|readv2|13WF400|Passive smoking risk|
-|smoking-status-passive v1|snomed|43381005|Passive smoker (finding)|
-|smoking-status-passive v1|snomed|161080002|Passive smoking risk (environment)|
-|smoking-status-passive v1|snomed|228523000|Exposed to tobacco smoke at work (finding)|
-|smoking-status-passive v1|snomed|228524006|Exposed to tobacco smoke at home (finding)|
-|smoking-status-passive v1|snomed|228525007|Exposed to tobacco smoke in public places (finding)|
-|smoking-status-passive v1|snomed|713142003|At risk from passive smoking (finding)|
-|smoking-status-passive v1|snomed|722451000000101|Passive smoking (qualifier value)|
-|smoking-status-trivial v1|ctv3|XagO3|Occasional tobacco smoker|
-|smoking-status-trivial v1|ctv3|XE0oi|Triv cigaret smok, < 1 cig/day|
-|smoking-status-trivial v1|ctv3|1372.|Trivial smoker - < 1 cig/day|
-|smoking-status-trivial v1|readv2|1372.00|Trivial smoker - < 1 cig/day|
-|smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
-|smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
-|smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
-|bmi v2|ctv3|22K..|Body Mass Index|
-|bmi v2|readv2|22K..00|Body Mass Index|
-|bmi v2|snomed|301331008|Finding of body mass index (finding)|
+All code sets required for this analysis are available here: [https://github.com/rw251/.../050 - Palin/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/050%20-%20Palin/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

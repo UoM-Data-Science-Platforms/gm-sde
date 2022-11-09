@@ -1,0 +1,161 @@
+^ESCT1178177	Product containing only mianserin hydrochloride 30 mg/1 each oral tablet
+^ESCT1181099	Product containing only maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCT1181100	Product containing only maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCT1181103	Product containing only amoxapine 50 mg/1 each oral tablet
+^ESCT1181113	Product containing only mirtazapine 30 mg/1 each oral tablet
+^ESCT1181388	Product containing only maprotiline hydrochloride 75 mg/1 each oral tablet
+^ESCT1181389	Product containing only mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCT1181394	Product containing only amoxapine 100 mg/1 each oral tablet
+^ESCT1181535	Product containing only mirtazapine 15 mg/1 each oral tablet
+^ESCT1181762	Product containing only mirtazapine 45 mg/1 each oral tablet
+^ESCT1182029	Product containing only mirtazapine 7.5 mg/1 each oral tablet
+^ESCT1183320	Product containing only amoxapine 150 mg/1 each oral tablet
+^ESCT1183321	Product containing only amoxapine 25 mg/1 each oral tablet
+^ESCT1187293	Product containing only maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCT1187294	Product containing only mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCT1206209	Amoxapine in oral dosage form
+^ESCT1206210	Product containing amoxapine in oral dosage form
+^ESCT1207141	Mianserin in oral dosage form
+^ESCT1207142	Product containing mianserin in oral dosage form
+^ESCT1217695	Amoxapine
+^ESCT1217696	Amoxapine product
+^ESCT1217822	Maprotiline
+^ESCT1217823	Maprotiline product
+^ESCT1220620	Mianserin
+^ESCT1220621	Mianserin product
+^ESCT1220830	Mirtazapine
+^ESCT1220831	Mirtazapine product
+^ESCT1223538	Product containing precisely maprotiline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223539	Product containing precisely maprotiline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223540	Product containing precisely maprotiline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223541	Product containing precisely maprotiline hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1223542	Product containing precisely mianserin hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223543	Product containing precisely mianserin hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1223544	Product containing precisely mianserin hydrochloride 30 milligram/1 each conventional release oral tablet
+^ESCT1223558	Product containing precisely amoxapine 50 milligram/1 each conventional release oral tablet
+^ESCT1223559	Product containing precisely amoxapine 100 milligram/1 each conventional release oral tablet
+^ESCT1223614	Product containing precisely mirtazapine 30 milligram/1 each conventional release oral tablet
+^ESCT1228232	Product containing precisely mirtazapine 15 milligram/1 each conventional release oral tablet
+^ESCT1228233	Product containing precisely mirtazapine 45 milligram/1 each conventional release oral tablet
+^ESCT1229459	Product containing precisely amoxapine 150 milligram/1 each conventional release oral tablet
+^ESCT1229460	Product containing precisely amoxapine 25 milligram/1 each conventional release oral tablet
+^ESCT1230963	Product containing precisely mirtazapine 7.5 milligram/1 each conventional release oral tablet
+^ESCT1378229	8-hydroxyamoxapine
+^ESCT1378230	8-hydroxy amoxapine
+^ESCT1384656	Mirtazapine 45 mg orodispersible tablet
+^ESCT1386162	Amoxapine-containing product in oral dose form
+^ESCT1386615	Mianserin-containing product in oral dose form
+^ESCT1410420	Zispin SolTab 30mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT1410475	Zispin SolTab 45mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT1410477	Zispin SolTab 15mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT8H406867	8-Hydroxyamoxapine
+^ESCT8H406868	8-Hydroxy amoxapine
+^ESCTAM298028	Amoxapine
+^ESCTAM428186	Amoxapine metabolite
+^ESCTAM609714	Amoxapine 50mg tablets
+^ESCTAM609716	Amoxapine 50 mg oral tablet
+^ESCTAM609717	Amoxapine 100mg tablets
+^ESCTAM609719	Amoxapine 100 mg oral tablet
+^ESCTAM638487	Amoxapine
+^ESCTAM645789	Amoxapine 150 mg oral tablet
+^ESCTAM645791	Amoxapine 25 mg oral tablet
+^ESCTAS864457	Asendis 50mg tablets (Mercury Pharma Group Ltd)
+^ESCTAS865695	Asendis 100mg tablets (Mercury Pharma Group Ltd)
+^ESCTLU863407	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU864559	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865094	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865097	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTMA266596	Maprotiline hydrochloride
+^ESCTMA302837	Maprotiline
+^ESCTMA609663	Maprotiline 10mg tablets
+^ESCTMA609665	Maprotiline hydrochloride 10 mg oral tablet
+^ESCTMA609666	Maprotiline 25mg tablets
+^ESCTMA609668	Maprotiline hydrochloride 25 mg oral tablet
+^ESCTMA609669	Maprotiline 50mg tablets
+^ESCTMA609671	Maprotiline hydrochloride 50 mg oral tablet
+^ESCTMA609672	Maprotiline 75mg tablets
+^ESCTMA609674	Maprotiline hydrochloride 75 mg oral tablet
+^ESCTMA646713	Maprotiline
+^ESCTMI406863	Mianserin
+^ESCTMI415416	Mirtazapine
+^ESCTMI609677	Mianserin 10mg tablets
+^ESCTMI609679	Mianserin hydrochloride 10 mg oral tablet
+^ESCTMI609680	Mianserin 20mg tablets
+^ESCTMI609682	Mianserin hydrochloride 20 mg oral tablet
+^ESCTMI609683	Mianserin 30mg tablets
+^ESCTMI609685	Mianserin hydrochloride 30 mg oral tablet
+^ESCTMI609832	Mirtazapine 30mg tablets
+^ESCTMI609834	Mirtazapine 30 mg oral tablet
+^ESCTMI640081	Mirtazapine 15mg tablets
+^ESCTMI640083	Mirtazapine 15 mg oral tablet
+^ESCTMI640084	Mirtazapine 15mg orodispersible tablets
+^ESCTMI640085	Mirtazapine 15mg orodispersible tablet
+^ESCTMI640086	Mirtazapine 30mg orodispersible tablets
+^ESCTMI640087	Mirtazapine 30mg orodispersible tablet
+^ESCTMI640088	Mirtazapine 45mg tablets
+^ESCTMI640090	Mirtazapine 45 mg oral tablet
+^ESCTMI646294	Mirtazapine
+^ESCTMI647362	Mianserin
+^ESCTMI655913	Mianserin hydrochloride
+^ESCTMI680725	Mirtazapine 7.5 mg oral tablet
+^ESCTMI765007	Mirtazapine 45mg orodispersible tablet
+^ESCTMI880142	Mirtazapine 45mg orodispersible tablets
+^ESCTPR298029	Product containing amoxapine
+^ESCTPR302838	Product containing maprotiline
+^ESCTPR406864	Product containing mianserin
+^ESCTPR415417	Product containing mirtazapine
+^ESCTPR609664	Product containing maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609667	Product containing maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609670	Product containing maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609673	Product containing maprotiline hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609678	Product containing mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609681	Product containing mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCTPR609684	Product containing mianserin hydrochloride 30 mg/1 each oral tablet
+^ESCTPR609715	Product containing amoxapine 50 mg/1 each oral tablet
+^ESCTPR609718	Product containing amoxapine 100 mg/1 each oral tablet
+^ESCTPR609833	Product containing mirtazapine 30 mg/1 each oral tablet
+^ESCTPR640082	Product containing mirtazapine 15 mg/1 each oral tablet
+^ESCTPR640089	Product containing mirtazapine 45 mg/1 each oral tablet
+^ESCTPR645790	Product containing amoxapine 150 mg/1 each oral tablet
+^ESCTPR645792	Product containing amoxapine 25 mg/1 each oral tablet
+^ESCTPR680726	Product containing mirtazapine 7.5 mg/1 each oral tablet
+^ESCTZI819664	Zispin 30mg tablets (Organon Laboratories Ltd)
+^ESCTZI873406	Zispin SolTab 30mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+^ESCTZI879847	Zispin SolTab 45mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+^ESCTZI879966	Zispin SolTab 15mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+AMTA9130HILLI	Amoxapine  Tablets  25 mg
+AMTA9132HILLI	Amoxapine  Tablets  50 mg
+AMTA9134HILLI	Amoxapine  Tablets  100 mg
+AMTA9136HILLI	Amoxapine  Tablets  150 mg
+ASTA8892EGTON	Asendis  Tablets  100 mg
+ASTA8893EGTON	Asendis  Tablets  150 mg
+ASTA8894EGTON	Asendis  Tablets  25 mg
+ASTA8895EGTON	Asendis  Tablets  50 mg
+BOTA390	Bolvidon  Tablets  10 mg
+BOTA391	Bolvidon  Tablets  20 mg
+BOTA392	Bolvidon  Tablets  30 mg
+LUTA3851	Ludiomil  Tablets  10 mg
+LUTA3852	Ludiomil  Tablets  25 mg
+LUTA3853	Ludiomil  Tablets  50 mg
+LUTA3854	Ludiomil  Tablets  75 mg
+MATA5110	Maprotiline Hydrochloride  Tablets  10 mg
+MATA6967	Maprotiline Hydrochloride  Tablets  25 mg
+MATA6968	Maprotiline Hydrochloride  Tablets  50 mg
+MATA6969	Maprotiline Hydrochloride  Tablets  75 mg
+MIOR16205NEMIS	Mirtazapine  Orodispersible tablets  30 mg
+MIOR16890NEMIS	Mirtazapine  Orodispersible tablets  15 mg
+MIOR16891NEMIS	Mirtazapine  Orodispersible tablets  45 mg
+MITA1822	Mianserin Hydrochloride  Tablets  10 mg
+MITA1823	Mianserin Hydrochloride  Tablets  20 mg
+MITA1824	Mianserin Hydrochloride  Tablets  30 mg
+MITA19793NEMIS	Mirtazapine  Tablets  15 mg
+MITA19794NEMIS	Mirtazapine  Tablets  45 mg
+MITA31478EMIS	Mirtazapine  Tablets  30 mg
+NOTA2035	Norval  Tablets  10 mg
+NOTA2036	Norval  Tablets  20 mg
+NOTA2037	Norval  Tablets  30 mg
+ZIOR16206NEMIS	Zispin  Orodispersible tablets  30 mg
+ZIOR16894NEMIS	Zispin Soltab  Orodispersible tablets  15 mg
+ZIOR16895NEMIS	Zispin Soltab  Orodispersible tablets  45 mg
+ZIOR17501NEMIS	Zispin Soltab  Orodispersible tablets  30 mg
+ZITA31476EMIS	Zispin  Tablets  30 mg

@@ -1,0 +1,4 @@
+^ESCT1384304	Non-allergic hypersensitivity to angiotensin-converting enzyme inhibitor
+^ESCT1384305	Nonallergic hypersensitivity to angiotensin-converting enzyme inhibitor
+^ESCTAN749975	Angiotensin-converting-enzyme inhibitor pseudoallergy
+^ESCTHI750003	History of angiotensin converting enzyme inhibitor pseudoallergy

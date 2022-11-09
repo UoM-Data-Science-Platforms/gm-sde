@@ -1,11 +1,96 @@
-L00..00	Hydatidiform mole
-7E08700	Dilation and curettage for removal of mole
-L011.11	Fleshy mole
-L001.00	Incomplete and partial hydatidiform mole
-L00..12	Vesicular mole
-L002.00	Complete hydatidiform mole
-L011.00	Carneous mole
-L00..11	Trophoblastic disease
-L000.00	Classical hydatidiform mole
-B911012	Invasive mole - placenta
-B911100	Epithelioid trophoblastic tumour
+7E08200	Evacuation of products of conception from uterus NEC
+L07..00	Unspecified abortion
+L071.00	Unspecified abortion incomplete
+L072.00	Unspecified abortion complete
+7E07000	Dilation cervix uteri & curettage products conception uterus
+7E08000	Dilation cervix & vacuum aspirat products conception uterus
+7E08100	Dilation cervix & evacuation products conception uterus NEC
+7E08z00	Evacuation of contents of uterus NOS
+7E07012	Dilation cerv & curettage RPC
+6776.11	Abortion counselling
+L09..00	Complications following abortion/ectopic/molar pregnancies
+7E08.00	Other evacuation of contents of uterus
+L09..11	Complications following abortion/ectopic/molar pregnancies
+7E06011	Hysterotomy & evacuation retained products conception NEC
+7E06000	Open removal of products of conception from uterus NEC
+L090y00	Sepsis NOS following abortion/ectopic/molar pregnancy
+L091.00	Delayed/excessive haemorrhage following abortive pregnancy
+L097300	Readmission for retained produc of concept, unspec abortion
+L090z00	Septicaemia NOS following abortive pregnancy
+7E07112	Curette of retained products of conception from uterus NEC
+L01..00	Other abnormal product of conception
+L09z.00	Complication NOS following abortion/ectopic/molar pregnancy
+L071y00	Unspecified incomplete abortion + no mention of complication
+L072z00	Unspecified complete abortion NOS
+L090000	Endometritis following abortive pregnancy
+L090.00	Genital or pelvic infection following abortive pregnancy
+L0...00	Pregnancy with abortive outcome
+L071z00	Unspecified incomplete abortion NOS
+L097.00	Readmission for abortive pregnancy (NHS codes)
+L01z.00	Other abnormal product of conception NOS
+7E07100	Curettage of products of conception from uterus NEC
+7E08y00	Other specified evacuation of contents of uterus
+L0y..00	Other specified pregnancy with abortive outcome
+L0z..00	Pregnancy with abortive outcome NOS
+L070x00	Unspecified abortion with complication NOS
+L090300	Salpingitis following abortive pregnancy
+L093000	Oliguria following abortive pregnancy
+7E08C00	Vacuum aspiration of products of conception from uterus NEC
+L090100	Parametritis following abortive pregnancy
+L090200	Pelvic peritonitis following abortive pregnancy
+Lyu0B00	[X]Complic following abortion & ectopic & molar preg, unspec
+L070z00	Unspecified abortion NOS
+L07z.00	Unspecified abortion NOS
+L071500	Unspecified incomplete abortion with shock
+L090400	Salpingo-oophoritis following abortive pregnancy
+L092500	Uterus damage following abortive pregnancy
+L097.11	Readmission for retained products of conception (NHS codes)
+Lyu0200	[X]Other abortion
+L096.11	Embolus following abortive pregnancy
+L091100	Defibrination syndrome following abortive pregnancy
+L09yz00	Other specified complication NOS follow abortive pregnancy
+L091z00	Delayed/excess haemorrhage NOS following abortive pregnancy
+L092000	Bladder damage following abortive pregnancy
+L096400	Pulmonary embolism following abortive pregnancy
+L093400	Uraemia following abortive pregnancy
+L070.00	Unspecified abortion
+L093.00	Renal failure following abortive pregnancy
+7E08B00	Vacuum aspiration products conception uterus flexible cannul
+L092300	Cervix damage following abortive pregnancy
+L095.00	Shock following abortive pregnancy
+L096.00	Embolism following abortive pregnancy
+L096600	Septic embolism following abortive pregnancy
+7E08A00	Vacuum aspiration products of conception uterus rigid cannul
+L092100	Bowel damage following abortive pregnancy
+L070300	Unspecified abortion with renal failure
+L09y400	Urinary tract infection following abortive pregnancy
+L072y00	Unspecified complete abortion + no mention of complication
+L09y.00	Other specified complication following abortive pregnancy
+L071100	Unspecified incomplete abortion + delayed/excess haemorrhage
+Lyu0.00	[X]Pregnancy with abortive outcome
+L070w00	Unspecified abortion with other specified complication
+L091000	Afibrinogenaemia following abortive pregnancy
+L091200	Intravascular haemolysis following abortive pregnancy
+L092.00	Pelvic organ or tissue damage following abortive pregnancy
+L092200	Broad ligament damage following abortive pregnancy
+L092400	Periurethral tissue damage following abortive pregnancy
+L092600	Vaginal damage following abortive pregnancy
+L092z00	Pelvic organ or tissue damage NOS follow abortive pregnancy
+L093100	Acute renal failure following abortive pregnancy
+L093200	Renal shutdown following abortive pregnancy
+L093300	Renal tubular necrosis following abortive pregnancy
+L093z00	Renal failure NOS following abortive pregnancy
+L094.00	Metabolic disorder following abortive pregnancy
+L096000	Air embolism following abortive pregnancy
+L096100	Amniotic fluid embolism following abortive pregnancy
+L096200	Blood-clot embolism following abortive pregnancy
+L096300	Fat embolism following abortive pregnancy
+L096500	Pyaemic embolism following abortive pregnancy
+L096700	Soap embolism following abortive pregnancy
+L096z00	Embolism NOS following abortive pregnancy
+L09y000	Acute liver necrosis following abortive pregnancy
+L09y100	Cardiac arrest following abortive pregnancy
+L09y200	Cardiac failure following abortive pregnancy
+L09y300	Cerebral anoxia following abortive pregnancy
+Lyu0900	[X]Oth venous complicatns follow abortn+ectopic+molr pregncy
+Lyu0A00	[X]Other complications follow abortn+ectopic+molar pregnancy

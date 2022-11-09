@@ -1,0 +1,527 @@
+L281.00	Premature rupture of membranes
+L116.00	Placenta praevia
+L124.12	Toxaemia NOS
+L210.00	Twin pregnancy
+L264.00	Intrauterine death
+L182500	Iron deficiency anaemia of pregnancy
+7F06012	Shirodkar suture in pregnancy
+L1...00	Pregnancy complications
+L180900	Gestational diabetes mellitus
+L11..11	Antepartum haemorrhage
+L175.11	Rubella contact in pregnancy
+L14..11	Premature labour
+L166500	Infections of kidney in pregnancy
+L13..11	Hyperemesis gravidarum
+L10..00	Haemorrhage in early pregnancy
+6313.00	Consultant unit birth
+Q10z.11	Intrauterine growth retardation
+L112.11	Ablatio placentae
+L16A.00	Glycosuria during pregnancy
+Q000.11	Fetus affected by maternal toxaemia
+9594.00	GMS2 claim sent to HA
+9591.00	GMS2 claim signed by patient
+L112.00	Placental abruption
+L264.11	Fetal death in utero
+L180811	Gestational diabetes mellitus
+L124600	Pre-eclampsia, unspecified
+L125.00	Severe pre-eclampsia
+L231.00	Generally contracted pelvis
+L10y.11	Bleeding in early pregnancy
+L124.00	Mild or unspecified pre-eclampsia
+L13..00	Excessive pregnancy vomiting
+L2...00	Risk factors in pregnancy
+L180800	Diabetes mellitus arising in pregnancy
+L270.00	Polyhydramnios
+L13z.00	Unspecified pregnancy vomiting
+L126.00	Eclampsia
+L161.11	Excessive weight gain in pregnancy
+Q42X.00	Hydrops fetalis due to other+unspcfd haemolytic disease
+Q408500	Group B haemolytic streptococcal intra-amniotic infect. NEC
+L23..00	Cephalo-pelvic disproportion
+L11..00	Antepartum haemorrhage, abruptio placentae, placenta praevia
+L124.11	Mild pre-eclampsia
+L10z.00	Early pregnancy haemorrhage NOS
+L13..12	Hyperemesis of pregnancy
+L21..00	Multiple pregnancy
+L27..11	Hydramnios
+7F06300	External version of breech
+L166z00	Genitourinary tract infection in pregnancy NOS
+L130.00	Mild hyperemesis gravidarum
+L414.12	Phlegmasia alba dolens - obstetric
+L294.00	Grand multiparity
+L16E.00	Pregnancy pruritus
+L33..00	Umbilical cord complications
+L124500	Mild pre-eclampsia
+L21..11	Gestation - multiple
+L111.00	Placenta praevia with haemorrhage
+L129.00	Moderate pre-eclampsia
+957..00	FW 8-applic for presc exempt
+L167.00	Liver disorder in pregnancy
+62X..00	Length of gestation
+62E..11	Feeding intention -baby
+Z265.00	Umbilical cord observations
+L267.00	Other placental conditions
+62O..12	Static weight gain pregnancy
+L211.00	Triplet pregnancy
+L130000	Mild hyperemesis unspecified
+L123.00	Transient hypertension of pregnancy
+7F0..11	Fetus operations
+7N61300	[SO]Placenta
+L14..00	Early or threatened labour
+L123500	Gestational hypertension
+L245.00	Cervical incompetence
+62E3.11	Intends to breast feed
+957..11	Prescription exempt form-preg
+Z22C300	Length of gestation
+L221.00	Cephalic version NOS
+L243.00	Retroverted incarcerated gravid uterus
+L11y.00	Other antepartum haemorrhage
+L261.11	Anti-D antibodies
+6312.00	GP unit birth
+L162.11	Albuminuria in pregnancy without hypertension
+L295.00	Elderly primigravida
+L150.00	Post-term pregnancy
+L28y.13	Amniotic fluid leaking
+L2z..00	Risk factors in pregnancy NOS
+L25..00	Known or suspected fetal abnormality
+L413.00	Antenatal deep vein thrombosis
+L266.00	Large-for-dates fetus in pregnancy
+PK80.00	Fetal alcohol syndrome
+L15..11	Post-term pregnancy
+13S..00	Pregnancy benefits
+62O7.00	Pregnancy prolonged - 41 weeks
+L110.00	Placenta praevia without haemorrhage
+L15..00	Prolonged or post-term pregnancy
+Z22AE00	Baby overdue
+L10y.00	Other haemorrhage in early pregnancy
+Z265200	Umbilical cord problem
+Z262R00	Placenta problem
+9511.00	FP24 signed by patient
+9592.00	GMS2 claim completed by Dr.
+9514.00	FP24 sent to FPC
+L16yz00	Other pregnancy complication NOS
+L284.12	Chorioamnionitis
+L18A000	Cholestasis of pregnancy
+9542.00	Mat B1 signed
+L413.11	DVT - deep venous thrombosis, antenatal
+7F06z00	Operation on gravid uterus NOS
+L166000	Genitourinary tract infection in pregnancy unspecified
+L16..00	Other pregnancy complication NEC
+L13y.00	Other pregnancy vomiting
+L166700	Infections of the genital tract in pregnancy
+Z22A300	Concealed pregnancy
+L161.00	Oedema or excessive weight gain in pregnancy no hypertension
+L11..12	Antepartum bleeding
+L130z00	Mild hyperemesis gravidarum NOS
+L370.11	Placenta accreta without haemorrhage
+L161.13	Gestational oedema
+L11z.00	Antepartum haemorrhage NOS
+L416600	Haemorrhoids in pregnancy
+7F06011	McDonald cerclage of cervix
+9562.00	HSA1- form signed
+7F...12	Pregnancy operations
+L251.00	Fetus with chromosomal abnormality
+956..00	HSA1-therap. abort. green form
+62OZ.00	Misc. antenatal data NOS
+L265000	Small-for-dates unspecified
+L280.00	Oligohydramnios
+955..00	Mat B2 - cert of confinement
+L12A.00	HELLP - Syndrome haemolysis, elev liver enzyme low platelets
+Z262C00	Retroplacental clot
+7F2..00	Other obstetric operations
+L280z00	Oligohydramnios NOS
+7Fz..00	Obstetric operations NOS
+L12B.00	Proteinuric hypertension of pregnancy
+L392.00	Maternal hypotension syndrome
+L16C000	Gestational proteinuria
+62X3.00	Full term gestation - 40 weeks
+L212.00	Quadruplet pregnancy
+L123z00	Transient hypertension of pregnancy NOS
+Q423.00	Hydrops fetalis due to isoimmunisation
+L15z.00	Prolonged pregnancy NOS
+L16z.00	Pregnancy complication NOS
+938..00	Obstetric coop card
+L16C.00	Pregnancy induced oedema+proteinuria without hypertension
+L167z00	Liver disorder in pregnancy NOS
+62E4.11	Intends to bottle feed
+Z245100	Maternal blood loss minimal
+Q21..11	Intrauterine hypoxia
+61H1.00	Female sterilisation failure
+L150z00	Post-term pregnancy NOS
+L16C100	Gestational oedema with proteinuria
+Lyu2500	[X]Other specified pregnancy-related conditions
+13Hd.00	Teenage pregnancy
+L264z00	Intrauterine death NOS
+L11zz00	Antepartum haemorrhage NOS
+L162.12	Nephropathy NOS in pregnancy without hypertension
+Lyu2200	[X]Other venous complications in pregnancy
+L265.11	Placental insufficiency
+L33z.00	Umbilical cord complications NOS
+L160.00	Papyraceous fetus
+L123600	Transient hypertension of pregnancy
+7F...00	Obstetric operations
+Z221.11	Primip
+L126500	Eclampsia in pregnancy
+63D4.00	Placental infarct
+Q408400	Group A haemolytic streptococcal intra-amniotic infect. NEC
+L385.00	Failed or difficult intubation during pregnancy
+L33zz00	Umbilical cord complications NOS
+L234.00	Mixed feto-pelvic disproportion
+Q420.11	Erythroblastosis fetalis
+Z22A600	Teenage pregnancy
+L125000	Severe pre-eclampsia unspecified
+7F06100	Removal of cerclage from cervix of gravid uterus
+L125z00	Severe pre-eclampsia NOS
+Z265C00	Number of umbilical veins
+Z22B800	Undiagnosed multiple pregnancy
+Q020.00	Fetus or neonate affected by placenta previa
+L10zz00	Early pregnancy haemorrhage NOS
+9531.00	Complete mat. services claimed
+L13y000	Other pregnancy vomiting unspecified
+L210z00	Twin pregnancy NOS
+L13yz00	Other pregnancy vomiting NOS
+L16y.00	Other pregnancy complications
+Q021100	Fetus or neonate affected by abruptio placentae
+Q021011	Fetus affected by APH - antepartum haemorrhage
+L16D.00	Excessive weight gain in pregnancy
+L336.00	Vascular lesions of cord
+L127.00	Pre-eclampsia or eclampsia with pre-existing hypertension
+951..11	FP24 - mat claim-on obst.list
+Z22C312	Duration of gestation
+Q470.00	Idiopathic hydrops fetalis
+Q479.00	Non-immune hydrops fetalis
+L250.00	Fetus with central nervous system malformation
+62O8.00	Pregnancy prolonged - 42 weeks
+7F05200	Amnioscopy
+L263200	Fetal distress with antenatal problem
+7F06111	Removal of Shirodkar suture
+62O..00	Misc. antenatal data
+62E3.00	Feeding intention - breast
+7F00.00	Therapeutic fetoscopic operations on fetus
+7F24y00	Other specified other obstetric operation
+Z22C311	Pregnancy duration
+61F3.00	Post-coital OCP failure
+L280300	Anhydramnios
+7F0..00	Fetus and gravid uterus operations
+L232.00	Inlet pelvic contraction
+Z221.00	Primigravida
+Q022200	Fetus or neonate affected by placental insufficiency
+Z245300	Maternal blood loss moderate
+L162.00	Unspecified renal disease in pregnancy
+Z223.00	Primiparous
+62E4.00	Feeding intention - bottle
+L28..00	Other problems of amniotic cavity and membranes
+Z22A800	Undiagnosed pregnancy
+L127000	Pre-eclampsia or eclampsia with hypertension unspecified
+Z262J11	Placental infection
+L280200	Oligohydramnios with antenatal problem
+9521.00	FP24A signed by patient
+Z22D200	Non-viable pregnancy
+L161.12	Maternal obesity syndrome
+L113.00	Antepartum haemorrhage with coagulation defect
+L284.11	Amnionitis
+L2B..00	Low weight gain in pregnancy
+L228.00	Multiple pregnancy with malpresentation
+7Fy..00	Other specified obstetric operations
+L245.11	Shirodkar suture present
+L33y.00	Other umbilical cord complications
+13SZ.00	Pregnancy benefit NOS
+L131.00	Hyperemesis gravidarum with metabolic disturbance
+9595.00	GMS2 claim paid by HA - checked
+Z265A00	Number of blood vessels in umbilical cord
+Z22A500	Biochemical pregnancy
+7F0y.00	Other specified operations on fetus or gravid uterus
+Q012.00	Fetus or neonate affected by maternal oligohydramnios
+L335.00	Vasa praevia
+ZV61600	[V]Multiparity
+L212200	Quadruplet pregnancy with antenatal problem
+Z265B00	Number of umbilical arteries
+L255.00	Fetus with drug damage
+Z263900	Number of chorions in membranes
+9512.00	FP24 completed by Dr.
+Z224.00	Multiparous
+Q021111	Fetus affected by placental abruption
+L336000	Vascular lesions of cord unspecified
+Q013.00	Fetus or neonate affected by maternal polyhydramnios
+L251z00	Fetus with chromosomal abnormality NOS
+Z22C313	Duration of pregnancy
+954Z.00	Mat B1 certificate NOS
+L178.00	Infections of urethra in pregnancy
+L410500	Varicose veins of legs in pregnancy
+L281z00	Premature rupture of membranes NOS
+L16y000	Other pregnancy complication unspecified
+L161000	Oedema or excessive weight gain in pregnancy, unspecified
+L10z000	Early pregnancy haemorrhage NOS unspecified
+Q02..00	Fetus/neonate affected by complic of placenta/cord/membrane
+9515.00	FP24 paid by FPC - checked
+L210000	Twin pregnancy unspecified
+Z246B11	EBL - Estimated maternal blood loss
+L28z200	Amniotic cavity and membrane problem NOS with a/n problem
+L162000	Unspecified renal disease in pregnancy unspecified
+7F06400	External cephalic version
+L131z00	Hyperemesis gravidarum with metabolic disturbance NOS
+L123000	Transient hypertension of pregnancy unspecified
+7M0f.00	Gestational age
+L251000	Fetus with chromosomal abnormality unspecified
+Q021500	Fetus or neonate affected by premature placental separation
+L233.00	Outlet pelvic contraction
+L265z00	Small-for-dates NOS
+L126000	Eclampsia unspecified
+9513.00	FP24 claim checked by staff
+L394z00	Other complications of obstetric procedures NOS
+L13zz00	Unspecified pregnancy vomiting NOS
+L256.00	Fetus with radiation damage
+L27..00	Polyhydramnios and hydramnios
+PK84.00	Fetal valproate syndrome
+Z245400	Maternal blood loss heavy
+7F2y.00	Other specified obstetric operations
+L124000	Mild or unspecified pre-eclampsia unspecified
+L11z000	Antepartum haemorrhage NOS, unspecified
+L112.12	Couvelaire uterus
+L16A000	Glycosuria during pregnancy unspecified
+62E..00	Feeding intention
+L124z00	Mild or unspecified pre-eclampsia NOS
+L267300	Placental transfusion syndromes
+Z245200	Maternal blood loss within normal limits
+L25z.00	Fetus with damage NOS
+L264000	Intrauterine death unspecified
+7F0..12	Fetus & gravid uterus ops
+L411500	Genital varices in pregnancy
+L411512	Vaginal varices in pregnancy
+L14z.00	Early or threatened labour NOS
+L23z.00	Disproportion NOS
+L19..00	Complications specific to multiple gestation
+M240500	Alopecia of pregnancy
+L112z00	Placental abruption NOS
+Z261200	Gestational sac absent
+TB14200	Amniocentesis with complication, without blame
+L115.12	Antepartum haemorrhage with uterine fibroid
+L115.11	Antepartum haemorrhage with fibroid
+Q013.11	Fetus affected by hydramnios
+938Z.00	Obstetric coop card NOS
+62E2.00	Feeding intention - unsure
+62E1.00	Feeding intention - not known
+L266z00	Large-for-dates NOS
+L25zz00	Fetus with damage NOS
+L250200	Fetus with central nervous system malformation + a/n problem
+L413z00	Antenatal deep vein thrombosis NOS
+L210200	Twin pregnancy with antenatal problem
+L10y000	Other haemorrhage in early pregnancy unspecified
+7F06.00	Operations on gravid uterus
+7F0z.00	Fetus and gravid uterus operations NOS
+Z222.11	Multip
+L270200	Polyhydramnios with antenatal problem
+L211000	Triplet pregnancy unspecified
+L252000	Fetus with hereditary disease unspecified
+L230.00	Disproportion - major pelvic abnormality
+L161z00	Oedema or excessive weight gain in pregnancy NOS
+9522.00	FP24A completed by Dr.
+L185.11	Congenital heart disease in pregnancy
+7F2z.00	Other obstetric operations NOS
+L281400	Premature rupture of membranes, labour delayed by therapy
+L167000	Liver disorder in pregnancy unspecified
+L11y000	Other antepartum haemorrhage unspecified
+L392z00	Maternal hypotension syndrome NOS
+Z222.00	Multigravida
+Q021000	Fetus/neonate affected by antepartum haemorrhage unspecified
+L113.13	Antepartum haemorrhage with hypofibrinogenaemia
+L412500	Superficial thrombophlebitis in pregnancy
+L183.11	Pregnancy and drug dependence
+L270z00	Polyhydramnios NOS
+9384.00	Obstetric coop card updated
+L164.00	Peripheral neuritis in pregnancy
+L112000	Placental abruption unspecified
+7F05.00	Other operations on amniotic cavity
+L132.00	Late vomiting of pregnancy
+Q011.00	Fetus/neonate affected maternal premature rupture membrane
+L413000	Antenatal deep vein thrombosis unspecified
+9593.00	GMS2 claim checked by staff
+62EZ.00	Feeding intention - NOS
+L260.00	Fetal-maternal haemorrhage
+Q026.11	Fetus affected by cord problems
+7F24z00	Other obstetric operation NOS
+L186.11	Heart disease during pregnancy
+L41z500	Venous complication of pregnancy, unspecified
+Z265A11	Number of vessels entering umbilical cord
+L126z00	Eclampsia NOS
+Q40y000	Intrauterine fetal sepsis, unspecified
+L150000	Post-term pregnancy unspecified
+L23zz00	Disproportion NOS
+L2C..00	Malnutrition in pregnancy
+L166.00	Genitourinary tract infections in pregnancy
+L253.11	Fetus with suspected rubella damage via mother
+L111z00	Placenta praevia with haemorrhage NOS
+Q021.00	Fetus/neonate affect other placental separation/haemorrhage
+L132000	Late pregnancy vomiting unspecified
+L262200	Other blood-group isoimmunisation with antenatal problem
+L243000	Retroverted incarcerated gravid uterus unspecified
+L264200	Intrauterine death with antenatal problem
+L25y000	Fetus with other damage NEC, unspecified
+L10yz00	Other haemorrhage in early pregnancy NOS
+9541.00	Mat B1 due
+L257.12	Fetus with damage due to intra-uterine contraceptive device
+L21y.00	Other multiple pregnancy
+L417000	Cerebral venous thrombosis in pregnancy
+L281000	Premature rupture of membranes unspecified
+L221z00	Cephalic version NOS
+L260200	Fetal-maternal haemorrhage with antenatal problem
+Q022000	Fetus or neonate affected by placental dysfunction
+L11yz00	Other antepartum haemorrhage NOS
+Q016.11	Fetus affected by maternal death
+9524.00	FP24A sent to FPC
+9518.00	FP24 -FPC contacted re mistake
+L110000	Placenta praevia without haemorrhage unspecified
+L25z000	Fetus with damage NOS, unspecified
+L25yz00	Fetus with other damage NEC NOS
+L336z00	Vascular lesions of cord NOS
+951Z.00	FP24 mat.claim status NOS
+L110z00	Placenta praevia without haemorrhage NOS
+L33yz00	Other umbilical cord complications NOS
+L245z00	Cervical incompetence NOS
+L16Az00	Glycosuria during pregnancy NOS
+L115.00	Antepartum haemorrhage with uterine leiomyoma
+L250000	Fetus with central nervous system malformation unspecified
+L250z00	Fetus with central nervous system malformation NOS
+959A.00	GMS2 claim - HA dispute fee due
+Q017.11	Fetus affected by malpresentation
+952..11	FP24A - mat claim-not obst lis
+L212z00	Quadruplet pregnancy NOS
+L233z00	Outlet pelvic contraction NOS
+L257.00	Fetus with damage due to intra-uterine contraceptive device
+9561.00	HSA1- form eligible
+952Z.00	FP24A mat.claim status NOS
+956Z.00	HSA1- green form NOS
+L253.00	Fetus with viral damage via mother
+L284.00	Amniotic cavity infection
+L28z.00	Amniotic cavity and membrane problems NOS
+Lyu2100	[X]Other vomiting complicating pregnancy
+L335.11	Velamentous insertion of cord
+9529.00	FP24A-FPC make up payment
+9526.00	FP24A paid by FPC - underpaid
+9519.00	FP24 -FPC make up payment
+L270000	Polyhydramnios unspecified
+L28zz00	Amniotic cavity and membrane problem NOS
+L252.00	Fetus with hereditary disease
+L254.00	Fetus with damage due to other maternal disease
+4H23.00	Amniotic fluid -meconium stain
+L131000	Hyperemesis gravidarum with metabolic disturbance unsp
+L261200	Rhesus isoimmunisation with antenatal problem
+L243z00	Retroverted incarcerated gravid uterus NOS
+L294000	Grand multiparity unspecified
+L231z00	Generally contracted pelvis NOS
+L13z000	Unspecified pregnancy vomiting unspecified
+L27z.00	Polyhydramnios NOS
+L28y.00	Other problems of amniotic cavity and membranes
+L412511	Thrombophlebitis of legs in pregnancy
+7F08.00	Therapeutic percutaneous operations twin-twin transfusion
+L113000	Antepartum haemorrhage with coagulation defect unspecified
+7F24.00	Other obstetric operations
+7M0f000	Over 20 weeks gestational age
+Z262J00	Placenta infected
+7F05z00	Other operation on amniotic cavity NOS
+L394.00	Other complications of obstetric procedures
+7F07.00	Therapeutic endoscopic operations for twin-twin transfusion
+7F29.00	Other maternal physiological assessments
+7M0fz00	Gestational age NOS
+Q022.00	Fetus/neonate affected by placental abnormality NEC
+951A.00	FP24 -FPC dispute fee due
+L162.13	Uraemia in pregnancy without hypertension
+9598.00	GMS2 claim - HA contacted re mistake
+L127z00	Pre-eclampsia or eclampsia + pre-existing hypertension NOS
+L33z000	Umbilical cord complications NOS, unspecified
+7F06y00	Other specified operation on gravid uterus
+Z22B500	Quintuplet pregnancy
+Lyu0100	[X]Other specified abnormal products of conception
+L211z00	Triplet pregnancy NOS
+67AB.00	Preg. prescription exempt adv.
+9599.00	GMS2 claim - HA make up payment
+L294z00	Grand multiparity NOS
+7F08.11	Therapeutic percutaneous operation twin-twin transfusion syn
+9525.00	FP24A paid by FPC - checked
+L263.11	Fetal acidosis
+952A.00	FP24A-FPC dispute fee due
+7F07.11	Therap endoscopic operations for twin-twin transfusion syn
+L258.00	Fetus with cardiovascular abnormality
+L111000	Placenta praevia with haemorrhage unspecified
+L284z00	Amniotic cavity infection NOS
+L221000	Cephalic version NOS, unspecified
+L33z200	Umbilical cord complications NOS with antenatal problem
+Z262I00	Placenta infarcted
+L411513	Vulval varices in pregnancy
+L267600	Placental infarction
+L284.13	Membranitis
+7F03z00	Therapeutic percutaneous operation on fetus NOS
+L281200	Premature rupture of membranes with antenatal problem
+Lyu3C00	[X]Other placental disorders
+7F08200	Perc serial drain amnio fluid for twin-twin transfusion synd
+7F07200	End serial drain amnio fluid for twin-twin transfusion synd
+7M0fy00	Other specified gestational age
+L280000	Oligohydramnios unspecified
+Q007111	Fetal alcohol syndrome
+L245000	Cervical incompetence unspecified
+L114.00	Antepartum haemorrhage with trauma
+Q021200	Fetus/neonate affected by placental damage-amniocentesis
+9523.00	FP24A claim checked by staff
+L411511	Perineal varices in pregnancy
+953F.00	Mat. anaesth. service claim
+L28y200	Other amniotic/membrane problem with antenatal problem
+9516.00	FP24 paid by FPC - underpaid
+L267200	Other placental conditions with antenatal problem
+L230000	Disproportion - major pelvic abnormality unspecified
+L267z00	Other placental conditions NOS
+L33y200	Other umbilical cord complications with antenatal problem
+7F08000	Percutan laser ablation placental arterio-venous anastomosis
+95B..00	Health in Pregnancy grant claim form issued
+L25y.00	Fetus with other damage NEC
+PK81.00	Fetal hydantoin syndrome
+L413200	Antenatal deep vein thrombosis with antenatal complication
+L255200	Fetus with drug damage with antenatal problem
+L284000	Amniotic cavity infection unspecified
+L252z00	Fetus with hereditary disease NOS
+L392000	Maternal hypotension syndrome unspecified
+Lyu2400	[X]Other+unspcf genitourinary tract infection in pregnancy
+L132z00	Late pregnancy vomiting NOS
+Q010.00	Fetus or neonate affected by maternal incompetent cervix
+L390300	Maternal distress with antenatal problem
+7F03.00	Therapeutic percutaneous operations on fetus
+7F08z00	Therapeut percutaneous operations twin-twin transfusion NOS
+L265200	Small-for-dates with antenatal problem
+8CE0000	Gestational diabetes information leaflet given
+7F00.12	Therapeutic foetoscopic operations on fetus
+L112300	Premature separation of placenta with coagulation defect
+L260z00	Fetal-maternal haemorrhage NOS
+Lyu3000	[X]Other multiple gestation
+7F07z00	Therapeutic endoscopic operations twin-twin transfusion NOS
+Eu32B00	[X]Antenatal depression
+8Hki.00	Referral to teenage pregnancy and parenting support service
+L115z00	Antepartum haemorrhage with uterine leiomyoma NOS
+L267A00	Placenta accreta
+L236200	Hydrocephalic disproportion with antenatal problem
+L260000	Fetal-maternal haemorrhage unspecified
+Q410700	Fetal exsanguination
+L33y000	Other umbilical cord complications unspecified
+L21z.00	Multiple pregnancy NOS
+9381.00	Obstetric coop card issued
+9517.00	FP24 paid by FPC - overpaid
+L21zz00	Multiple pregnancy NOS
+7F00y00	Other specified therapeutic fetoscopic operation
+8IEc.00	Pertussis vaccination in pregnancy declined
+9kv..00	Pertussis vaccinatn progrme pregnant women enhan srvce admin
+7F07y00	OS therapeutic endoscopic operations twin-twin transfusion
+9Nif.00	Did not attend pertussis vaccination in pregnancy
+L335000	Vasa praevia unspecified
+L267400	Malformation of placenta
+L266200	Large-for-dates with antenatal problem
+B911.00	Neoplasm of uncertain behaviour of placenta
+L21y200	Other multiple pregnancy with antenatal problem
+ZC2CB00	Dietary advice for gestational diabetes
+Lyu3D00	[X]Other premature separation of placenta
+L394000	Other complications of obstetric procedures unspecified
+L267900	Morbidly adherent placenta
+7F03y00	Other specified therapeutic percutaneous operation on fetus
+L245300	Cervical incompetence with antenatal problem
+L230200	Disproportion - major pelvic abnormality with antenatal prob
+L415500	Other phlebitis in pregnancy
+L114z00	Antepartum haemorrhage with trauma NOS
+L432300	Obstetric blood-clot pulmonary embolism + a/n complication
+L231000	Generally contracted pelvis unspecified

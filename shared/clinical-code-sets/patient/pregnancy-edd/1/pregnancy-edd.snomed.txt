@@ -1,0 +1,3 @@
+161714006	Estimated date of delivery (observable entity)
+289206005	Estimated date of delivery from last period (observable entity)
+738070007	Estimated date of delivery from antenatal ultrasound scan (observable entity)

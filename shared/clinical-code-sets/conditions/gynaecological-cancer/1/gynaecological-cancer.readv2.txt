@@ -1,0 +1,63 @@
+B44..00	Malignant neoplasm of ovary and other uterine adnexa
+B44z.00	Malignant neoplasm of uterine adnexa NOS
+B44y.00	Malignant neoplasm of other site of uterine adnexa
+B440.00	Malignant neoplasm of ovary
+1J06.00	Suspected cervical cancer
+1J07.00	Suspected endometrial cancer
+1J0J.00	Suspected gynaecological cancer
+38GT900	QCancer cervical cancer risk
+38GT800	QCancer endometrial cancer risk
+K5E..00	Other abnormal uterine and vaginal bleeding
+K5Ez.00	Abnormal uterine and vaginal bleeding, unspecified
+K5E2.00	Abnormal vaginal bleeding, unspecified
+8Hn1.00	Fast track referral for suspected gynaecological cancer
+9Np4.00	Seen in fast track suspected gynaecological cancer clinic
+Byu7000	[X]Malignant neoplasm of uterine adnexa, unspecified
+B430200	Malignant neoplasm of endometrium of corpus uteri
+B7A..00	Benign neoplasm of ovary
+B586.00	Secondary malignant neoplasm of ovary
+B912.00	Neoplasm of uncertain behaviour of ovary
+Kyu9D00	[X]Other specified abnormal uterine and vaginal bleeding
+K59B.00	Postmenopausal postcoital bleeding
+K5A1.00	Postmenopausal bleeding
+8H4V.00	Referral to gynaecology special interest general practitioner
+8Hku.00	Referral to community gynaecology service
+8T0B.00	Referral to paediatric gynaecology service
+8H58.00	Gynaecological referral
+8HJ6.00	Gynaecological self-referral
+8HV7.00	Private referral to gynaecologist
+38GT4	QCancer ovarian cancer risk calculator
+38GT400	QCancer ovarian cancer risk calculator
+B41..	Malignant neoplasm of cervix uteri
+B41..00	Malignant neoplasm of cervix uteri
+B41..11	Cervical carcinoma (uterus)
+B41y.	Malignant neoplasm of other site of cervix
+B41y.00	Malignant neoplasm of other site of cervix
+B41yz	Malignant neoplasm of other site of cervix NOS
+B41yz00	Malignant neoplasm of other site of cervix NOS
+B41z.	Malignant neoplasm of cervix uteri NOS
+B41z.00	Malignant neoplasm of cervix uteri NOS
+B45..	Malignant neoplasm of other and unspecified female genital organs
+B45..00	Malignant neoplasm of other and unspecified female genital organs
+B45y.	Malignant neoplasm of other specified female genital organ
+B45y.00	Malignant neoplasm of other specified female genital organ
+B45z.	Malignant neoplasm of female genital organ NOS
+B45z.00	Malignant neoplasm of female genital organ NOS
+B58y2	Secondary malignant neoplasm of cervix uteri
+B58y200	Secondary malignant neoplasm of cervix uteri
+B58y211	Secondary cancer of the cervix
+B790.00	Benign neoplasm of cervix uteri NEC
+B7A2.	Benign teratoma of ovary
+B7A2.00	Benign teratoma of ovary
+Byu7.	[X]Malignant neoplasm of female genital organs
+Byu7.00	[X]Malignant neoplasm of female genital organs
+Byu71	[X]Malignant neoplasm of other specified female genital organs
+Byu7100	[X]Malignant neoplasm of other specified female genital organs
+Byu73	[X]Malignant neoplasm of female genital organ, unspecified
+Byu7300	[X]Malignant neoplasm of female genital organ, unspecified
+K5E0.	Abnormal uterine bleeding unrelated to menstrual cycle
+K5E0.00	Abnormal uterine bleeding unrelated to menstrual cycle
+R0934	[D]Pelvic mass
+R093400	[D]Pelvic mass
+R0935	[D]Pelvic lump
+R093500	[D]Pelvic lump

@@ -1,0 +1,23 @@
+^ESCTAD306816	ADD - Attention deficit disorder
+^ESCTAD672857	ADHD - Attention deficit disorder with hyperactivity
+^ESCTAD729523	Adult attention deficit hyperactivity disorder
+^ESCTAD729524	Adult attention deficit disorder
+^ESCTAD819402	ADHD (attention deficit hyperactivity disorder) monitoring invitation first letter
+^ESCTAD821388	ADHD (attention deficit hyperactivity disorder) annual review
+^ESCTAT261864	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type
+^ESCTAT261865	Attention deficit hyperactivity disorder, hyperactive impulsive type
+^ESCTAT300268	Attention deficit hyperactivity disorder, combined type
+^ESCTAT300269	Attention deficit hyperactivity disorder combined type
+^ESCTAT300270	Attention deficit hyperactivity disorder combined
+^ESCTAT306815	Attention deficit hyperactivity disorder, predominantly inattentive type
+^ESCTAT672862	Attention deficit hyperkinetic disorder
+^ESCTAT751145	Attention deficit hyperactivity disorder, predominantly inattentive type in remission
+^ESCTAT751148	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type in remission
+^ESCTAT756697	Attention deficit hyperactivity disorder, inattentive presentation (restrictive)
+^ESCTDR756267	Drug therapy for attention deficit hyperactivity disorder
+^ESCTHY672858	Hyperkinetic disorder
+^ESCTHY672859	Hyperkinetic syndrome
+^ESCTLO803682	Long term current use of drug therapy for attention deficit hyperactivity disorder
+^ESCTLO803683	Long term ADHD medication therapy
+^ESCTNO757383	Non-stimulant drug therapy for attention deficit hyperactivity disorder
+^ESCTST756264	Stimulant drug therapy for attention deficit hyperactivity disorder

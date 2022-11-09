@@ -1,0 +1,20 @@
+gde..	Duloxetine
+gdew.	Duloxetine 60mg gastro-resistant capsule
+gdex.	Duloxetine 30mg gastro-resistant capsule
+gdey.	Duloxetine 20mg gastro-resistant capsule
+gdez.	Duloxetine 40mg gastro-resistant capsule
+gde4.	Cymbalta 60mg gastro-resistant capsule
+gde3.	Cymbalta 30mg gastro-resistant capsule
+gde1.	Yentreve 20mg gastro-resistant capsule
+gde2.	Yentreve 40mg gastro-resistant capsule
+da7..	Venlafaxine
+da7w.	VENLAFAXINE 225mg m/r capsules
+da7q.	VENLAFAXINE 37.5mg m/r tablets
+da7Y.	VENLAFAXINE 225mg m/r tablets
+da7K.	VENLAFAXINE 150mg m/r tablets
+da7I.	VENLAFAXINE 75mg m/r tablets
+da79.	Venlafaxine 150mg m/r capsule
+da77.	Venlafaxine 75mg m/r capsule
+da75.	Venlafaxine 50mg tablet
+da72.	Venlafaxine 75mg tablet
+da71.	Venlafaxine 37.5mg tablet

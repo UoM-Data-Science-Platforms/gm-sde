@@ -1,0 +1,15 @@
+^ESCT1206995	Vortioxetine (as vortioxetine hydrobromide) 5 mg oral tablet
+^ESCT1206996	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 5 milligram/1 each conventional release oral tablet
+^ESCT1206997	Vortioxetine (as vortioxetine hydrobromide) 10 mg oral tablet
+^ESCT1206998	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 10 milligram/1 each conventional release oral tablet
+^ESCT1206999	Vortioxetine (as vortioxetine hydrobromide) 15 mg oral tablet
+^ESCT1207000	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 15 milligram/1 each conventional release oral tablet
+^ESCT1207001	Vortioxetine (as vortioxetine hydrobromide) 20 mg oral tablet
+^ESCT1207002	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 20 milligram/1 each conventional release oral tablet
+^ESCTBR1121197	Brintellix 5mg tablets (Lundbeck Ltd)
+^ESCTBR1121200	Brintellix 20mg tablets (Lundbeck Ltd)
+^ESCTBR1121203	Brintellix 10mg tablets (Lundbeck Ltd)
+^ESCTVO769486	Vortioxetine hydrobromide
+BRTA105015NEMIS	Brintellix  Tablets  5 mg
+BRTA105016NEMIS	Brintellix  Tablets  10 mg
+BRTA105017NEMIS	Brintellix  Tablets  20 mg

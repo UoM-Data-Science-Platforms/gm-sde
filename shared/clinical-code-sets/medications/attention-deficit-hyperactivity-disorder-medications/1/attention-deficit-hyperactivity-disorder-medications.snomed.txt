@@ -1,0 +1,70 @@
+374665007	Product containing precisely guanfacine hydrochloride 1 milligram/1 each conventional release oral tablet (clinical drug)
+374666008	Product containing precisely guanfacine hydrochloride 2 milligram/1 each conventional release oral tablet (clinical drug)
+385552008	Product containing precisely dexmethylphenidate hydrochloride 2.5 milligram/1 each conventional release oral tablet
+385553003	Product containing precisely dexmethylphenidate hydrochloride 5 milligram/1 each conventional release oral tablet
+385554009	Product containing precisely dexmethylphenidate hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+407040005	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule (clinical drug)
+407041009	Atomoxetine (as atomoxetine hydrochloride) 18 mg oral capsule
+407042002	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 25 milligram/1 each conventional release oral capsule
+407043007	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+407044001	Atomoxetine (as atomoxetine hydrochloride) 60 mg oral capsule
+419897007	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 100 milligram/1 each conventional release oral capsule (clinical drug)
+420189009	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 80 milligram/1 each conventional release oral capsule
+443099006	Guanfacine hydrochloride 4mg extended release tablet
+443205002	Guanfacine hydrochloride 3mg extended release tablet
+443436008	Guanfacine hydrochloride 1mg extended release tablet
+443612000	Guanfacine hydrochloride 2mg extended release tablet
+765851009	Dexmethylphenidate hydrochloride 20mg m/r capsule
+765858003	Dexmethylphenidate 5mg prolonged-release oral capsule (product)
+766023005	Product containing precisely dexmethylphenidate hydrochloride 10 milligram/1 each prolonged-release oral capsule
+412577007	Atomoxetine hydrochloride
+108554009	Guanfacine hydrochloride (substance)
+385555005	Dexmethylphenidate hydrochloride
+11273111000001108	Medikinet 5mg tablets (Flynn Pharma) (product)
+11273311000001105	Medikinet 10mg tablets (Flynn Pharma) (product)
+11273511000001104	Medikinet 20mg tablets (Flynn Pharma) (product)
+11273711000001109	Medikinet XL 20mg capsules (Flynn Pharma) (product)
+11274111000001105	Medikinet XL 10mg capsules (Flynn Pharma) (product)
+11274411000001100	Medikinet XL 30mg capsules (Flynn Pharma) (product)
+11274711000001106	Medikinet XL 40mg capsules (Flynn Pharma) (product)
+11464911000001101	Concerta XL 27mg tablets (Janssen-Cilag Ltd) (product)
+11787411000001106	Dexamfetamine 5mg/5ml oral solution (product)
+172011000001102	Equasym 10mg tablets (Celltech Pharmaceuticals Ltd) (product)
+19375811000001104	Medikinet XL 5mg capsules (Flynn Pharma Ltd) (product)
+19448911000001107	Methylphenidate 5mg modified-release capsules (product)
+205811000001105	Tranquilyn 10mg tablets (Link Pharmaceuticals Ltd) (product)
+24501411000001108	Medikinet XL 50mg capsules (Flynn Pharma Ltd) (product)
+24501711000001102	Medikinet XL 60mg capsules (Flynn Pharma Ltd) (product)
+24510311000001109	Methylphenidate 60mg modified-release capsules (product)
+28943011000001100	Concerta XL 54mg tablets (Janssen-Cilag Ltd) (product)
+3145411000001109	Dexedrine 5mg tablets (Celltech Pharmaceuticals Ltd) (product)
+323353008	Methylphenidate hydrochloride 10mg tablet (substance)
+323358004	Methylphenidate hydrochloride 5mg tablet (substance)
+323359007	Methylphenidate hydrochloride 20mg tablet (substance)
+323385006	Modafinil 100mg tablet (substance)
+36123411000001102	Methylphenidate 10mg modified-release capsules (product)
+36123511000001103	Methylphenidate 18mg modified-release tablets (product)
+36124011000001108	Methylphenidate 20mg modified-release capsules (product)
+36124211000001103	Methylphenidate 27mg modified-release tablets (product)
+36124311000001106	Methylphenidate 30mg modified-release capsules (product)
+36124511000001100	Methylphenidate 36mg modified-release tablets (product)
+36124611000001101	Methylphenidate 40mg modified-release capsules (product)
+36124711000001105	Methylphenidate 50mg modified-release capsules (product)
+36124811000001102	Methylphenidate 54mg modified-release tablets (product)
+3682211000001109	Provigil 100mg tablets (Cephalon UK Ltd) (product)
+377011000001109	Equasym 5mg tablets (Celltech Pharmaceuticals Ltd) (product)
+38211000001100	Ritalin 10mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+39708411000001103	Dexamfetamine 5mg tablets (product)
+407861004	Modafinil 200mg tablet (product)
+410411000001103	Tranquilyn 20mg tablets (Link Pharmaceuticals Ltd) (product)
+426412009	Lisdexamfetamine 50mg capsule (product)
+426493003	Lisdexamfetamine 30mg capsule (product)
+426586000	Lisdexamfetamine 70mg capsule (product)
+4364511000001108	Provigil 200mg tablets (Cephalon UK Ltd) (product)
+615611000001106	Concerta XL 36mg tablets (Janssen-Cilag Ltd) (product)
+711211000001101	Concerta XL 18mg tablets (Janssen-Cilag Ltd) (product)
+758611000001100	Equasym 20mg tablets (Celltech Pharmaceuticals Ltd) (product)
+77611000001100	Tranquilyn 5mg tablets (Link Pharmaceuticals Ltd) (product)
+9098511000001102	Equasym XL 10mg capsules (Takeda UK Ltd) (product)
+9098811000001104	Equasym XL 20mg capsules (Takeda UK Ltd) (product)
+9099511000001108	Equasym XL 30mg capsules (Takeda UK Ltd) (product)

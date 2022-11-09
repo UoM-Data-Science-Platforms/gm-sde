@@ -1,0 +1,114 @@
+XE1BP	Decubitus ulcer
+XaPoG	EPUAP (European pressure ulcer advisory panel) grade 2 ulcer
+Ua1dn	Pressure sore on sacrum
+Ua1do	Pressure sore on buttocks
+XaPoF	EPUAP (European pressure ulcer advisory panel) grade 1 ulcer
+Ua1dm	Pressure sore on heel
+XaPoH	EPUAP (European pressure ulcer advisory panel) grade 3 ulcer
+XaWyj	Hospital acquired pressure ulcer
+XaPoI	EPUAP (European pressure ulcer advisory panel) grade 4 ulcer
+M270.	(Ulcer: [decubitus, press][plaster]) or (sore: [bed][press])
+XaXEE	Pressure ulcer acquired in own home
+XaX8w	Residential home acquired pressure ulcer
+Xa7ng	Decubitus ulcer of hip
+Ua1dg	Pressure sore on shoulder
+XaWyk	Nursing home acquired pressure ulcer
+Xa7nh	Decubitus ulcer of ankle
+Xa7nk	Decubitus ulcer of dorsum of foot
+XaWym	Hospice acquired pressure ulcer
+Xa7nj	Decubitus ulcer of natal cleft
+XaXP0	Multiple pressure ulcers
+XaX98	Pressure ulcer on knee
+Ua1c5	Skin at risk of breakdown
+M2711	Neuropathic diabetic ulcer - foot
+M2712	Mixed diabetic ulcer - foot
+XaIeK	O/E - Left diabetic foot - ulcerated
+XaIeJ	O/E - Right diabetic foot - ulcerated
+XaKHi	O/E - left chronic diabetic foot ulcer
+XaKHh	O/E - right chronic diabetic foot ulcer
+C1094	Type II diabetes mellitus with ulcer
+81H1.	Dressing of ulcer
+X75u4	Leg ulcer
+X50Bb	Leg ulcer NOS
+X50Ba	Foot ulcer
+X50Bd	Venous ulcer of leg
+7G2E5	Dressing of skin ulcer NEC
+Xa8Qn	Dressing of skin ulcer
+XaE22	Debridement of ulcer
+M27..	Chronic skin ulcer
+M27z.	Chronic skin ulcer NOS
+M2711	Neuropathic diabetic ulcer - foot
+G830.	Varicose veins of the leg with ulcer
+XaDzM	Two layer compression bandage for skin ulcer
+XM05p	Skin ulcer
+M2712	Mixed diabetic ulcer - foot
+XaBLa	O/E - Left foot ulcer
+XaBLZ	O/E - Right foot ulcer
+2FF..	O/E - skin ulcer
+XaDzN	Four layer compression bandaging for skin ulcer
+XaEY8	Three layer compression bandage for skin ulcer
+4JG3.	Skin ulcer swab taken
+XaPAU	Leg ulcer care management
+X50Be	Mixed arteriovenous leg ulcer
+X50Bf	Ischaemic leg ulcer
+XE1BQ	Non-pressure ulcer lower limb
+M2710	Ischaemic ulcer diabetic foot
+X50BW	Infected skin ulcer
+XaIex	O/E - ankle ulcer
+Xa7nq	Ulcer of malleolus
+M271.	Ulcer: [named variants, lower limb]
+Xa7nl	Ulcer of foot
+XaBfM	Ulcer of shin
+G832.	Varicose veins of the leg with ulcer and eczema
+XaR4c	Skin ulcer with punched out edge
+XaKjC	Referral to leg ulcer clinic
+2FF2.	O/E - skin ulcer present
+XaItv	H/O: venous leg ulcer
+Xa7nm	Ulcer of toe
+G835.	Infected varicose ulcer
+Xa7no	Ulcer of calf
+X50Bk	Neuroischaemic foot ulcer
+14F3.	H/O: chronic skin ulcer
+XaMhL	Seen in primary care leg ulcer clinic
+X50Bj	Neuropathic foot ulcer
+XaE1F	Debridement of foot ulcer
+2FFZ.	O/E - skin ulcer NOS
+Xa7nn	Ulcer of heel
+X50Bg	Ischaemic foot ulcer
+X7ABr	Skin ulcer swab
+XaLwY	Leg ulcer compression therapy started
+XaBfC	Ulcer of lateral malleolus
+XaMAQ	Attending leg ulcer clinic
+XaVz4	Superficial ulcer of lower limb
+XaBfD	Ulcer of medial malleolus
+XaBZ8	Ulcer of big toe
+XC0td	Number of ulcers
+XaJWD	O/E - depth of ulcer
+X75uC	Discharge from skin ulcer
+XaR75	Ulcerated skin
+2924.	O/E - trophic skin ulceration
+M27y.	Chronic ulcer of skin, other specified sites
+Xa40L	Varicose ulcer and inflammation
+XE2AU	Skin ulcer swab (& taken)
+X50Bi	Neuropathic leg ulcer
+XaLwZ	Leg ulcer compression therapy finished
+XaE1E	Debridement of leg ulcer
+pJ...	Venous ulcer compression hosiery
+pJ1..	Venous ulcer compression stocking
+Xa7n3	Skin ulcer of dorsum of foot
+Xa7n5	Skin ulcer of calf
+XaXTp	H/O: foot ulcer
+X50BX	Neurotrophic ulcer
+XaPoG	EPUAP (European pressure ulcer advisory panel) grade 2 ulcer
+Y1906	Evidence of pressure mattress, cushion in use
+Y2621	Pressure ulcer
+Y2367	Pressure sore
+Ua1R1	Pressure sore care
+Ua1Cj	Dressing of pressure sore
+XE1BP	Decubitus ulcer
+Ua1dn	Pressure sore on sacrum
+Ua1do	Pressure sore on buttocks
+XaPoF	EPUAP (European pressure ulcer advisory panel) grade 1 ulcer
+XaPoH	EPUAP (European pressure ulcer advisory panel) grade 3 ulcer
+Ua1dm	Pressure sore on heel
+Ua1R1	Pressure sore care

@@ -1,0 +1,22 @@
+297A.	O/E - Parkinsonian tremor
+2987.	O/E -Parkinson flexion posture
+2994.	O/E-festination-Parkinson gait
+A94y1	Syphilitic parkinsonism
+F116.	Lewy body disease
+F11x9	Cerebral degen Parkinson dis
+F12..	Parkinson's disease
+F120.	Paralysis agitans
+F121.	Secondary parkinsonism - drugs
+F12W.	Sec parkinson oth ext agent
+F12X.	Secondary parkinsm,unspecif
+F12z.	Parkinson's disease NOS
+F13..	Other extrapyramidal disease
+F1303	Parkinson+orthostatic hypoten.
+Fyu20	[X]O drg-induc 2ndy parkinsnsm
+Fyu21	[X]Oth secondary parkinsonism
+Fyu22	[X]Parkinsonism in diseases CE
+Fyu29	[X]Secondary parkinsm,unspecif
+Fyu2B	[X]Sec parkinson oth ext agent
+R0103	[D]Tremor NOS
+TJ64.	AR - antiparkinsonism drugs
+U6067	[X]Antiparkinson drug adv eff

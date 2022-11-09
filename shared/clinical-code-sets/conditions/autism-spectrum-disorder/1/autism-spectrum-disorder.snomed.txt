@@ -1,0 +1,21 @@
+35919005	Autism spectrum disorder
+43614003	Autism, childhood onset
+191689008	Active infantile autism (disorder)
+191690004	Residual infantile autism (disorder)
+231536004	Atypical autistic syndrome
+408856003	Autism disorder
+408857007	Infantile autism
+442314000	Active but odd autism (disorder)
+702732007	High-functioning autism
+722287002	Autism and facial port-wine stain syndrome
+766824003	Activity dependent neuroprotector homeobox related multiple congenital anomalies, intellectual disability, autism spectrum disorder
+1086841000000106	Autism Diagnostic Interview-Revised (assessment scale)
+1086901000000100	Assessment using Autism Diagnostic Interview-Revised (procedure)
+401204006	Suspected autism (situation)
+1085671000000109	Autism spectrum disorder diagnostic assessment (procedure)
+1065881000000109	Pre-school Autism Communication Therapy (regime/therapy)
+702825006	Autism clinic (environment)
+1085681000000106	Referral to autism assessment service (procedure)
+912551000000100	Under care of autism assessment service
+912581000000106	Referred by autism assessment service
+408858002	Infantile psychosis (disorder)

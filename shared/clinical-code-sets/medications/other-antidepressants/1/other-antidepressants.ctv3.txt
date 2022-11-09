@@ -1,0 +1,65 @@
+io1..	Ascorbic acid [nutrition]
+io11.	Ascorbic acid 25mg tablet
+io12.	Ascorbic acid 50mg tablet
+io13.	Ascorbic acid 100mg tablet
+io14.	Ascorbic acid 200mg tablet
+io15.	Ascorbic acid 500mg tablet
+io16.	Ascorbic acid 500mg/5mL injection
+x00Dw	Ascorbic acid 100mg capsule
+x00EI	Ascorbic acid 250mg orange chewable tablet
+x00EJ	Ascorbic acid 300mg chewable tablet
+io1b.	Redoxon 1g dispersible tablet
+io17.	Redoxon 25mg tablet
+io18.	Redoxon 50mg tablet
+io19.	Redoxon 200mg tablet
+io1a.	Redoxon 500mg tablet
+x00EM	Redoxon 250mg orange chewable tablet
+in2..	Pyridoxine hydrochloride
+in21.	Pyridoxine hydrochloride 10mg tablet
+in22.	Pyridoxine hydrochloride 20mg tablet
+in23.	Pyridoxine hydrochloride 50mg tablet
+in28.	Pyridoxine hydrochloride 100mg m/r tablet
+in24.	Benadon 20mg tablet
+in25.	Benadon 50mg tablet
+in27.	Paxadon 50mg tablet
+in29.	Cantassium vitamin B6 50mg tablet
+in26.	Comploment Continus 100mg m/r tablet
+o13..	Ketamine
+o134.	Ketamine 1g/10mL injection
+o13x.	Ketamine 200mg/20mL injection
+o13y.	Ketamine 500mg/10mL injection
+o13z.	Ketamine 500mg/5mL injection
+o135.	Ketalar 1g/10mL injection
+o131.	Ketalar 200mg/20mL injection
+o132.	Ketalar 500mg/10mL injection
+o133.	Ketalar 500mg/5mL injection
+da2..	Tryptophan product
+da2y.	Tryptophan 500mg tablet
+da2z.	Tryptophan 1g/6g powder
+da21.	Optimax 500mg tablet
+da23.	Optimax WV 500mg tablets
+da24.	Pacitron 500mg tablet
+da22.	Optimax 1g/6g powder
+du2..	Naltrexone hydrochloride
+du24.	ADEPEND 50mg tablets
+du21.	Naltrexone hydrochloride 50mg tablet
+du22.	Nalorex 50mg tablet
+du23.	OPIZONE 50mg tablets
+daD..	AGOMELATINE
+daD2.	AGOMELATINE 25mg tablets
+daD1.	VALDOXAN 25mg tablets
+XM0lC	Tryptophan
+XaDdb	L-Tryptophan
+du6z.	Amfebutamone hydrochloride 150mg m/r tablet
+du61.	Zyban 150mg m/r tablet
+X80RY	VITC - Ascorbic acid
+i16t.	Ferrous gluconate+folic acid+ascorbic acid 250mg/5mg/10mg tablet
+ld1m.	Clioquinol+ascorbic acid 35mg/6mg lozenge
+ld1x.	Cetylpyridinium chloride+ascorbic acid 1.4mg/125mg lozenge
+x02VE	Benadon
+x02p6	Redoxon
+x02lx	Optimax
+x02gO	Ketalar
+x02kK	Nalorex
+x040v	Cantassium vitamin B6
+x059G	Zyban

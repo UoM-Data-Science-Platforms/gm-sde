@@ -1,0 +1,11 @@
+13CA.	Housebound
+8HL..	Domiciliary visit received
+9N1C.	Seen in own home
+9NF..	Home visit admin
+9NF1.	Home visit request by patient
+9NF2.	Home visit planned by doctor
+9NF3.	Home visit request by relative
+9NF8.	Acute home visit
+9NF9.	Chronic home visit
+9NFB.	Home visit elderly assessment
+9NFM.	Home visit planned by HCP

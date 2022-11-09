@@ -1,0 +1,147 @@
+XA0GW	Fracture of radius NOS
+S31z.	Fracture of femur, NOS
+XE1l3	Fracture of neck of femur
+XA0Gb	Fracture of distal end of radius
+XA0HE	Fracture of proximal end of femur
+XE1l9	Closed fracture of neck of femur NOS
+S30..	Fracture: [neck of femur] or [hip]
+S2341	Closed fracture: [Colles'] or [Smith's]
+XaIUB	H/O: hip fracture
+XaIIp	Fragility fracture due to unspecified osteoporosis
+Xa1vl	Wedge fracture of lumbar vertebra
+Xa1vb	Wedge fracture of thoracic vertebra
+XaFCz	Wedge fracture of vertebra
+S1021	Closed fracture thoracic vertebra, wedge
+XE1kx	Open Colles' fracture
+XE1kt	Closed fracture of radius and ulna, lower end
+XA0HI	Intertrochanteric fracture of femur
+S1041	Closed fracture lumbar vertebra, wedge
+XA0HJ	Subtrochanteric fracture of femur
+S30y.	(Closed fracture of neck of femur) or (hip fracture NOS)
+XaD4J	Collapse of thoracic vertebra due to osteoporosis
+XaEJD	Closed reduction of intracapsular # NOF internal fixat DHS
+XaD4I	Collapse of lumbar vertebra due to osteoporosis
+XaD4K	Collapse of vertebra due to osteoporosis NOS
+7K1L4	Closed reduction of fracture of hip
+7K1D0	Pr op rd & fx #NOF & vars: [scrw]/ [nail]/ [plt]/ [mult pin]
+XM1Ne	Closed fracture of femur, subcapital
+XaD2s	Collapse of cervical vertebra due to osteoporosis
+N331A	Osteoporosis with pathological fracture cervical vertebrae
+XE1ku	Closed Colles' fracture
+XE1ks	Fracture of radius and ulna
+XaIUA	H/O: fragility fracture
+XaNSP	Fragility fracture
+XA0GV	Fracture of radius
+XA0Gc	Colles' fracture
+X601M	Dynamic hip screw primary fixation of neck of femur
+XA0HK	Hip fracture NOS
+XA0Gn	Fracture of distal end of radius and ulna
+7K1LL	Closed reduction of fracture of radius and or ulna
+S23..	Fracture of radius &/or ulna
+XA0HJ	Subtrochanteric fracture of femur
+N331.	(Fract: [path][spon]) or (collapse: [spine NOS][vertebra &])
+Xa7nz	Fracture of greater trochanter
+XA0HF	Subcapital fracture of neck of femur
+XaBDU	Closed fracture of femur, intertrochanteric
+S3004	Closed fracture head of femur
+S4E0.	Closed fracture dislocation, hip joint
+S302.	Closed fracture of proximal femur, pertrochanteric
+XaAzf	Anterior wedge fracture of vertebra
+XM1Ng	Closed fracture of femur, greater trochanter
+S3000	Cls # prox femur, intracapsular section, unspecified
+S3005	Cls # prox femur, subcapital, Garden grade unspec.
+XA0ED	Fracture dislocation of hip joint
+XE1l7	Cls # proximal femur, trochanteric section, unspecified
+S300.	Closed fracture proximal femur, transcervical
+S3022	Closed fracture proximal femur, subtrochanteric
+XE08S	Cls red+int fxn proximal femoral #+screw/nail device alone
+7K1D6	Prmy open red+int fxn prox femoral #+screw/nail device alone
+7K1J0	Cl red and int fix prox fem # with screw/nail (& named vars)
+S300y	Closed fract femur: [proximal, oth transcerv] or [subcapit]
+S4500	Closed traumatic dislocation of hip, unspecified
+X601P	Cls red+int fxn prox femoral #+Richard's cannulat hip screw
+S3021	Closed fracture proximal femur, intertrochanteric, two part
+S4E..	Fracture dislocation or subluxation hip
+S304.	Pertrochanteric fracture
+X601T	Prim open reduct # neck femur & op fix - Holt nail
+S2351	Open fracture: [Colles'] or [Smith's]
+XA0HH	Basicervical fracture of neck of femur
+X601I	Prim op red # nck femur & op fix - Deyerle multiple hip pin
+X601L	Prim op red # nck femur & op fix- Charnley compression screw
+S30z.	Open fracture of neck of femur NOS
+Xa1vS	Crush fracture of cervical vertebra
+XaBDT	Open fracture of femur, intertrochanteric
+Xa1vR	Wedge fracture of cervical vertebra
+X601S	Cl red intracaps fract neck femur fix - Smith-Petersen nail
+S3020	Clos frac fem:[prox,troch sect,uns][great troch][less troch]
+S3023	Cls # proximal femur, intertrochanteric, comminuted
+S4E2.	Closed fracture subluxation, hip joint
+S302z	Cls # of proximal femur, pertrochanteric section, NOS
+S300z	Closed fracture proximal femur, transcervical, NOS
+S3009	Closed fracture proximal femur, subcapital, Garden grade IV
+X601N	Prim open reduct # neck femur & op fix - Richards screw
+Xa8AO	Fracture subluxation of hip joint
+XM1Nj	Open fracture of femur, greater trochanter
+XA0HG	Midcervical fracture of neck of femur
+X601U	Prim open reduct # neck femur & op fix - Ross Brown nail
+7K1H8	Rvsn to opn red+int fxtn prox fem #+ scrw/nail+plate device
+7K1J8	Revisn to int fxn(no red) prox fem #+screw/nail device alone
+7K1JB	Primary cls red+int fxn prox fem #+screw/nail device alone
+S3006	Closed fracture proximal femur, subcapital, Garden grade I
+S1031	Open fracture thoracic vertebra, wedge
+7K1JD	Primary cls red+int fxn prox fem #+screw/nail+plate device
+7K1J6	Primary int fxn(no red) prox fem #+scrw/nail+intramed device
+7K1H6	Revsn to opn red+int fxtn prox fem #+screw/nail device alone
+XaPtb	Remanip intracap fract neck fem and fix using nail or screw
+XE1l3	Fracture of neck of femur
+S3010	Opn # proximal femur, intracapsular section, unspecified
+S3015	Open fracture proximal femur,subcapital, Garden grade unspec
+S303.	Open fracture of proximal femur, pertrochanteric
+S3032	Open fracture proximal femur, subtrochanteric
+S3007	Closed fracture proximal femur, subcapital, Garden grade II
+S3001	Closed fracture proximal femur, transepiphyseal
+Xa1vm	Crush fracture of lumbar vertebra
+Xa1vc	Crush fracture of thoracic vertebra
+XA0GN	Fracture of lumbar spine
+XA0GM	Fracture of thoracic spine
+XA0G8	Fracture of vertebra
+S23x1	Fracture of radius: [closed (alone), unspecified] or [NOS]
+XaIUC	H/O: vertebral fracture
+S104.	Closed fracture lumbar vertebra
+XE08J	Prmy open red+int fxn prox femoral #+screw/nail+plate device
+XE1kW	Fracture of vertebra without spinal cord lesion
+S102.	Closed fracture thoracic vertebra
+S1040	Closed fracture lumbar vertebra, burst
+S100H	Closed fracture cervical vertebra, wedge
+NyuB0	[X]Other osteoporosis with pathological fracture
+N1y1.	Fatigue fracture of vertebra
+XE2Qf	Pathological fracture of lumbar vertebra
+S2351	Open fracture: [Colles'] or [Smith's]
+S1145	Closed spinal fracture with cauda equina lesion
+S112.	Closed fracture of thoracic spine with spinal cord lesion
+S1042	Closed fracture lumbar vertebra, spondylolysis
+S4E1.	Open fracture dislocation, hip joint
+S23y.	Open fracture of radius and ulna, unspecified part
+XM0vO	Fracture of lumbar spine - no cord lesion
+S150.	Multiple fractures of thoracic spine
+S10B6	Multiple fractures of lumbar spine and pelvis
+XE1kc	Closed fracture of fifth cervical vertebra
+XE1ke	Closed fracture of seventh cervical vertebra
+S10B.	Fracture of lumbar spine and pelvis
+S1000	Closed fracture of unspecified cervical vertebra
+S100K	Closed fracture cervical vertebra, spinous process
+XA0GI	C6 vertebra closed fracture without spinal cord lesion
+Xa1vd	Burst fracture of thoracic vertebra
+XaD30	Closed multiple fractures of thoracic spine
+S10A0	Fracture of first cervical vertebra
+XE1kd	Closed fracture of sixth cervical vertebra
+S1020	Closed fracture thoracic vertebra, burst
+S102z	Closed fracture thoracic vertebra not otherwise specified
+XaFCy	Burst fracture of vertebra
+S114.	Closed fracture of lumbar spine with spinal cord lesion
+S102y	Other specified closed fracture thoracic vertebra
+S2346	Closed fracture radius and ulna, distal
+XA0Gb	Fracture of distal end of radius
+S234.	Closed fracture of: [radius and ulna, lower end] or [wrist])
+XA0GV	Fracture of radius
+XA0GW	Fracture of radius NOS

@@ -1,0 +1,21 @@
+^ESCTCO300902	Combined pregnancy
+^ESCTCO300905	Compound ectopic
+^ESCTCO300906	Combined heterotopic pregnancy
+^ESCTDI465457	Disorder of pregnancy
+^ESCTEP306045	EP - Ectopic pregnancy
+^ESCTFA379430	Fallopian pregnancy
+^ESCTFE483287	Fetal or neonatal effect of abdominal ectopic pregnancy
+^ESCTFE483290	Fetal or neonatal effect of abdominal pregnancy
+^ESCTFE483297	Fetal or neonatal effect of tubal ectopic pregnancy
+^ESCTFE483299	Fetal or neonatal effect of tubal pregnancy
+^ESCTFO483286	Foetal or neonatal effect of ectopic pregnancy
+^ESCTFO483289	Foetal or neonatal effect of abdominal ectopic pregnancy
+^ESCTFO483291	Foetal or neonatal effect of abdominal pregnancy
+^ESCTFO483300	Foetal or neonatal effect of tubal pregnancy
+^ESCTFO483301	Foetal or neonatal effect of tubal ectopic pregnancy
+^ESCTHE300904	Heterotopic pregnancy
+^ESCTMI749956	Miscarriage of tubal ectopic pregnancy
+^ESCTRE647453	Removal of gestational sac from fallopian tube
+^ESCTRU392396	Rudimentary horn pregnancy
+^ESCTRU479300	Ruptured tubal pregnancy
+^ESCTSI300903	Simultaneous intrauterine AND extrauterine pregnancies

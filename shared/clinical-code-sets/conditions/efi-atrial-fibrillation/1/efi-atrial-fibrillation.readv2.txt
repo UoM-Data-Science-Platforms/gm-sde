@@ -1,0 +1,18 @@
+14AN.	H/O: atrial fibrillation
+2432.	O/E - pulse irregularly irreg.
+3272.	ECG: atrial fibrillation
+3273.	ECG: atrial flutter
+662S.	Atrial fibrillation monitoring
+6A9..	Atrial fibrillat annual review
+7936A	IV pacer control atrial fibril
+9Os1.	Atrial fibril monit 2nd letter
+9hF0.	Excep atr fib qual ind: Pt uns
+9hF1.	Exc atr fib qual ind: Inf diss
+G573.	Atrial fibrillation/flutter
+G5730	Atrial fibrillation
+G5731	Atrial flutter
+G5732	Paroxysmal atrial fibrillation
+G5733	Non-rheumatic atrial fibrill
+G5734	Permanent atrial fibrillation
+G5735	Persistent atrial fibrillation
+G573z	Atrial fibrillat./flutter NOS

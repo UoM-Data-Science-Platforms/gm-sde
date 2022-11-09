@@ -1,0 +1,106 @@
+2725.	O/E - multiple presentation
+5848.	US scan - multiple fetus
+633..	Livebirth
+6333.	Twins - both live born
+6334.	Twins - one still and one live born
+6335.	Twins - both stillborn
+6336.	Triplets - all live born
+6337.	Triplets - two live and one stillborn
+6339.	Triplets - three stillborn
+63CE.	Fraternal twin
+63CF.	One of triplets
+L19..	Complications specific to multiple gestation
+L21..	Multiple gestation
+L210.	Twin pregnancy
+L2100	Twin pregnancy unspecified
+L2101	Twin pregnancy - delivered
+L2102	Twin pregnancy with antenatal problem
+L210z	Twin pregnancy NOS
+L211.	Triplet pregnancy
+L2110	Triplet pregnancy unspecified
+L2111	Triplet pregnancy - delivered
+L211z	Triplet pregnancy NOS
+L2130	Multiple delivery, all spontaneous
+L2131	Multiple delivery, all by forceps and vacuum extractor
+L2132	Multiple delivery, all by caesarean section
+L21y.	Other multiple pregnancy
+L21y0	Other multiple pregnancy unspecified
+L21y2	Other multiple pregnancy with antenatal problem
+L21yz	Other multiple pregnancy NOS
+L21z.	Multiple pregnancy NOS
+L21z0	Multiple pregnancy NOS, unspecified
+L21z1	Multiple pregnancy NOS - delivered
+L228.	Multiple pregnancy with malpresentation
+L2280	Multiple pregnancy with malpresentation unspecified
+L306.	Interlocked twins
+L3061	Locked twins - delivered
+L306z	Locked twins NOS
+L323.	Delayed delivery of second twin, triplet etc
+L3230	Delayed delivery second twin unspecified
+L3231	Delayed delivery second twin - delivered
+L3232	Delayed delivery second twin with antenatal problem
+L323z	Delayed delivery second twin etc NOS
+Lyu30	[X]Other multiple gestation
+Lyu31	[X]Other complications specific to multiple gestation
+Lyu56	[X]Other multiple delivery
+Lyu58	[X]Multiple delivery, unspecified
+Q015.	Fetus or neonate affected by multiple pregnancy
+Q0150	Fetus or neonate affected by unspecified multiple pregnancy
+Q0151	Fetus or neonate affected by twin pregnancy
+Q0152	Fetus or neonate affected by triplet pregnancy
+Q0230	Fetus or neonate affected by feto-fetal transplacental transfusion
+Q4540	Polycythaemia due to donor twin transfusion
+Q4z..	Stillbirth NEC
+X40E3	SB - Stillbirth
+X70EK	Stillbirth NEC
+Xa1ce	Livebirth
+Xa1cg	Twin birth
+Xa1ch	Triplet birth
+Xa1qO	Multiple birth
+Xa4TJ	Mother delivered
+XabVI	One of multiple birth
+XaEL1	Identical twin
+XaEL2	Fraternal twin
+XaM3a	Therapeutic percutaneous operations for twin-twin transfusion
+XaM3b	Other specified therapeutic percutaneous operations for twin-twin transfusion
+XaM3c	Therapeutic percutaneous operations for twin-twin transfusion NOS
+XaM3X	Therapeutic endoscopic operations for twin-twin transfusion
+XaM3Y	Other specified therapeutic endoscopic operations for twin-twin transfusion
+XaM3Z	Therapeutic endoscopic operations for twin-twin transfusion NOS
+XaMse	Endoscopic serial drainage of amniotic fluid for twin-twin transfusion syndrome
+XaMsf	Percutaneous serial drainage of amniotic fluid for twin-twin transfusion syndrome
+XE1gF	Stillbirth
+XE1hg	O/E - multiple presentation
+XE1SL	One of twins
+XM1YW	O/E - triplet present.
+XM1YX	O/E - twin presentation
+ZV27.	[V]Live birth
+ZV272	[V]Twins, both live born
+ZV273	[V]Twins, one live born and one stillborn
+ZV274	[V]Twins, both stillborn
+ZV275	[V]Other multiple birth, all live born
+ZV277	[V]Other multiple birth, all stillborn
+ZV31.	[V]Twin, mate live born
+ZV310	[V]Twin, born in hospital, mate live born
+ZV311	[V]Twin, born before admission to hospital, mate live born
+ZV312	[V]Twin, born outside hospital and not hospitalised, mate liveborn
+ZV31z	[V]Twin, mate liveborn NOS
+ZV32.	[V]Twin, mate stillborn
+ZV320	[V]Twin, born in hospital, mate stillborn
+ZV321	[V]Twin, born before admission to hospital, mate stillborn
+ZV32z	[V]Twin, mate stillborn NOS
+ZV33.	[V]Twin, unspecified
+ZV330	[V]Twin, unspecified, born in hospital
+ZV331	[V]Twin, unspecified, born before admission to hospital
+ZV33z	[V]Twin, unspecified, NOS
+ZV34.	[V]Other multiple birth, mates live born
+ZV340	[V]Other multiple birth, born in hospital, mates live born
+ZV361	[V]Other multiple birth, born before admission to hospital, mates live and stillborn
+ZV362	[V]Other multiple birth, born outside hospital and not hospitalised, mates live and stillborn
+ZV36z	[V]Other multiple birth, mates live and stillborn NOS
+ZV3y.	[V]Other multiple birth, unspecified
+ZV3y0	[V]Other multiple birth, unspecified, born in hospital
+ZV3yz	[V]Other multiple birth, unspecified, NOS
+ZVu2A	[X]Other multiple births, all liveborn
+ZVu2B	[X]Other multiple births, some liveborn
+ZVu2C	[X]Other multiple births, all stillborn

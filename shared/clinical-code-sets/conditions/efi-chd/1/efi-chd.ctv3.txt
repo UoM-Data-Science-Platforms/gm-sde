@@ -1,0 +1,62 @@
+G33..	Angina
+XE0Uh	Acute myocardial infarction
+14A5.	H/O: angina pectoris
+G33z.	Angina pectoris NOS
+G3...	Ischaemic heart disease (& [arteriosclerotic])
+G30z.	Acute myocardial infarction NOS
+G3z..	Ischaemic heart disease NOS
+G30..	(Myocard inf (& [ac][silent][card rupt])) or (coron thromb)
+G340.	Coronary (atheroscl or artery dis) or triple vess dis heart
+Ua1eH	Ischaemic chest pain
+X200C	Myocardial ischaemia
+3222.	ECG:shows myocardial ischaemia
+G3y..	Other specified ischaemic heart disease
+322..	ECG: myocardial ischaemia
+XM0rN	Coronary atherosclerosis
+X200B	Coronary spasm
+14A..	H/O: cardiovasc disease (& [heart disord][myocard problem])
+G30y.	Other acute myocardial infarction
+G34y1	Chronic myocardial ischaemia
+X200D	Silent myocardial ischaemia
+XE0WC	Acute/subacute ischaemic heart disease NOS
+322Z.	ECG: myocardial ischaemia NOS
+G34z.	Other chronic ischaemic heart disease NOS
+XE0WG	Chronic ischaemic heart disease NOS
+Gyu30	[X]Other forms of angina pectoris
+G31y2	Subendocardial ischaemia
+G30yz	Other acute myocardial infarction NOS
+XaNxN	Admit ischaemic heart disease emergency
+G31yz	Other acute and subacute ischaemic heart disease NOS
+XE0WA	Myocardial infarction (& [acute]) or coronary thrombosis
+G36..	Certain current complication follow acute myocardial infarct
+G361.	Atrial septal defect/curr comp folow acut myocardal infarct
+G34yz	Other specified chronic ischaemic heart disease NOS
+bl...	Vasodilators used in angina pectoris
+XaFx7	Diab mellit insulin-glucose infus acute myocardial infarct
+X200d	Post-infarction ventricular septal defect
+X200c	Cardiac syndrome X
+X75rV	Crushing chest pain
+Xa0wX	Central crushing chest pain
+XaNMH	Cardiovascular disease annual review declined
+XaFsH	Transient myocardial ischaemia
+XE2uV	Ischaemic heart disease
+XaI9h	Coronary heart disease annual review
+662K0	Angina control - good
+X2009	Unstable angina
+7928.	Percutaneous balloon angioplasty of coronary artery
+X2006	Triple vessel disease of the heart
+G308.	Inferior myocardial infarction NOS
+X2008	Stable angina
+Y3657	H/O: Ischaemic heart disease
+662K3	Angina control - worsening
+X00tU	Insertion of coronary artery stent
+662K1	Angina control - poor
+Xa7nH	Exercise-induced angina
+X200E	Myocardial infarction
+XaIwY	Acute non-ST segment elevation myocardial infarction
+X00tE	Coronary artery bypass grafting
+792..	Coronary artery operations (& bypass)
+14A4.	H/O: myocardial infarct at greater than 60
+Y6999	H/O: myocardial infarct >60
+XE2aA	Old myocardial infarction
+XaIOW	Coronary heart disease review

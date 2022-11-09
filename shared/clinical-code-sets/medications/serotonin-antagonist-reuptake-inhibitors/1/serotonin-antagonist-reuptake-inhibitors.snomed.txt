@@ -1,0 +1,32 @@
+7336002	Trazodone product
+108435006	Nefazodone product
+321877001	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
+321880000	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
+321881001	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
+321980001	Product containing precisely nefazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+321981002	Product containing precisely nefazodone hydrochloride 200 milligram/1 each conventional release oral tablet (clinical drug)
+376658002	Product containing precisely nefazodone hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+376660000	Product containing precisely nefazodone hydrochloride 150 milligram/1 each conventional release oral tablet
+376661001	Product containing precisely nefazodone hydrochloride 250 milligram/1 each conventional release oral tablet
+376689003	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+376690007	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+376695002	Product containing precisely trazodone hydrochloride 300 milligram/1 each conventional release oral tablet (clinical drug)
+412646001	Product containing precisely nefazodone hydrochloride 300 milligram/1 each conventional release oral tablet
+444774009	Trazodone hydrochloride 300mg extended release tablet
+445292007	Trazodone hydrochloride 150mg extended release tablet
+768373008	Nefazodone in oral dosage form
+768414008	Product containing trazodone in oral dosage form
+58956008	Trazodone hydrochloride (substance)
+372829000	Trazodone
+108436007	Nefazodone hydrochloride (substance)
+372491002	Nefazodone
+1811000001101	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) (product)
+369211000001100	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) (product)
+3904511000001104	Molipaxin 50mg/5ml oral liquid (Aventis Pharma) (product)
+3909411000001104	Trazodone 50mg/5ml oral solution sugar free (product)
+3937311000001108	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+4549511000001102	Molipaxin CR 150mg tablets (Aventis Pharma) (product)
+4557211000001109	Trazodone 150mg modified-release tablets (product)
+666211000001104	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+75511000001108	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) (product)
+864911000001105	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)

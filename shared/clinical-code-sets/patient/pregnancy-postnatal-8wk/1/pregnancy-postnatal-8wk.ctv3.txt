@@ -1,0 +1,1174 @@
+13G3.	Midwife attends
+13G30	Midwife attends 1-10 days post-discharge
+13G31	Midwife attends 11-13 days post-discharge
+13G32	Midwife attends 14-16 days post-discharge
+13G33	Midwife attends 17-20 days post-discharge
+13G34	Midwife attends 21-24 days post-discharge
+13G35	Midwife attends 25-28 days post-discharge
+155..	H/O: baby feeding method
+62P..	Infant feeding method
+62Q..	Postnatal care provider
+62Q1.	P/N care from consultant
+62Q2.	P/N care from G.P.
+62Q3.	P/N - shared care
+62QZ.	Postnatal care NOS
+62R..	New birth visit
+62R1.	Postnatal - first day visit
+62R2.	Postnatal - second day visit
+62R3.	Postnatal - third day visit
+62R4.	Postnatal - fourth day visit
+62R5.	Postnatal - fifth day visit
+62R6.	Postnatal - sixth day visit
+62R7.	Postnatal - seventh day visit
+62R8.	Postnatal - eighth day visit
+62R9.	Postnatal - ninth day visit
+62RA.	Postnatal - tenth day visit
+62RB.	P/N care started at birth
+62RC.	Postnatal care less than 48 hours after birth
+62RD.	Postnatal care greater than 48 hours after birth
+62RZ.	Postnatal visit NOS
+62S..	Maternal P/N 6 week exam
+62S1.	Maternal P/N exam. not offered
+62S2.	Maternal P/N exam. offered
+62S3.	Maternal P/N exam. refused
+62S5.	Maternal P/N exam. done
+62S6.	Postnatal examination minor problem found
+62S7.	Postnatal examination normal
+62SZ.	Maternal P/N 6 week exam. NOS
+62T1.	Postnatal depression
+635..	Premature baby
+63CC.	Difficult to establish feeding
+63F..	Birth details not known
+63Z..	(Birth detail NOS) or (Apgar normal)
+64...	(Child health care (& [child development examinations] or [paed surveillance] or [paed surveillance checks]) or (infant feeding method) or (breast/other feeding diff ages)
+64a..	Child 8 week exam
+64a4.	Child 8 week examination normal
+64a5.	8 week examination abnormal - for observation
+64a6.	8 week examination abnormal - referred
+64a7.	8 week examination abnormal - on treatment
+64C..	Child examination - 10 days
+64C1.	Child not examined at 10 days
+64C2.	Child 10 day examination - normal
+64C3.	10 day examination abnormal - for observation
+64C4.	10 day examination abnormal - referred
+64CZ.	Child 10 day exam. NOS
+64D..	Child examination - 6 weeks
+64D4.	Child 6 week examination normal
+64D5.	6 week examination abnormal - for observation
+64D6.	6 week examination abnormal - referred
+64D7.	6 week examination abnormal - on treatment
+64DZ.	Child 6 week examination NOS
+64P..	(Child exam.: development exam) or (motor develop.- child)
+6811.	Screening not offered
+6886.	Other haemoglobinopathy screening
+7F...	Puerperium operations
+7F22.	Other operations on delivered uterus
+7F22y	Other specified other operation on delivered uterus
+7L130	Neonatal exchange blood transfusion
+8CH..	Postpartum care
+8HTA.	Referral to postnatal clinic
+9114.	FP58 - newborn registration
+9536.	Care during confinement
+9537.	Complete postnatal care
+9538.	Partial postnatal care - one visit
+9539.	Partial postnatal care - two visits
+953A.	Partial postnatal care - three visits
+953B.	Partial postnatal care - four visits
+953C.	Partial postnatal care - five visits
+953D.	Full postnatal examination
+9F56.	BAAF B2-neonatal report sent
+9N1y4	Seen in postnatal clinic
+A9840	Gonococcal ophthalmia neonatorum
+D4007	Acquired neutropenia in newborn
+E204.	Postnatal depression
+Eu53.	[X]Mental and behavioural disorders associated with the puerperium, not elsewhere classified
+Eu530	[X] Mental and behavioural disorders associated with the puerperium: [mild, not elsewhere classified] or [postnatal (including postpartum) depression NOS]
+Eu531	[X] Mental and behavioural disorders associated with the puerperium: [severe, not elsewhere classified] or [puerperal psychosis NOS]
+Eu53y	[X]Other mental and behavioural disorders associated with the puerperium, not elsewhere classified
+Eu53z	[X]Puerperal mental disorder, unspecified
+F2511	Benign myoclonic epilepsy in infancy
+F4F54	Congenital nasolacrimal duct obstruction
+G5200	Acute aseptic myocarditis of the newborn
+K55y.	Other noninflammatory cervical disorders
+L1202	Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L1204	Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication
+L1212	Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L1232	Transient hypertension of pregnancy - delivered with postnatal complication
+L1234	Transient hypertension of pregnancy with postnatal complication
+L124.	Mild or unspecified pre-eclampsia
+L1242	Mild or unspecified pre-eclampsia - delivered with postnatal complication
+L1243	Mild or unspecified pre-eclampsia - not delivered
+L1244	Mild or unspecified pre-eclampsia with postnatal complication
+L1252	Severe pre-eclampsia - delivered with postnatal complication
+L1254	Severe pre-eclampsia with postnatal complication
+L1262	Eclampsia - delivered with postnatal complication
+L1264	Eclampsia with postnatal complication
+L1272	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication
+L1274	Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication
+L12z2	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L12z4	Unspecified hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication
+L16..	Other pregnancy complication NEC
+L162.	Nephropathy NOS in pregnancy without hypertension
+L1652	Asymptomatic bacteriuria in pregnancy - delivered with postnatal complication
+L1661	Genitourinary tract infection in pregnancy - delivered
+L1664	Genitourinary tract infection in pregnancy with postnatal complication
+L1666	Urinary tract infection following delivery
+L1684	Fatigue during pregnancy with postnatal complication
+L1692	Herpes gestationis - delivered with postnatal complication
+L1694	Herpes gestationis with postnatal complication
+L16A2	Glycosuria during pregnancy - delivered with postnatal complication
+L16y.	Other pregnancy complications
+L16y2	Other pregnancy complication - delivered with postnatal complication
+L16y3	Other pregnancy complication - not delivered
+L16y4	Other pregnancy complication with postnatal complication
+L16yz	Other pregnancy complication NOS
+L1704	Maternal syphilis in the puerperium - baby delivered during previous episode of care
+L1712	Maternal gonorrhoea in the puerperium - baby delivered during current episode of care
+L1714	Maternal gonorrhoea in the puerperium - baby delivered during previous episode of care
+L172.	Other maternal venereal diseases during pregnancy, childbirth and the puerperium
+L1722	Other maternal venereal disease in the puerperium - baby delivered during current episode of care
+L1724	Other maternal venereal disease during the puerperium - baby delivered during previous episode of care
+L176.	Other maternal viral disease during pregnancy, childbirth and the puerperium
+L17y2	Other maternal infective or parasitic disease in the puerperium - baby delivered during current episode of care
+L17y3	Other maternal infective or parasitic disease during pregnancy - baby not yet delivered
+L1804	Diabetes mellitus in the puerperium - baby delivered during previous episode of care
+L1812	Throid dysfunction in the puerperium - baby delivered during current episode of care
+L1822	Anaemia in the puerperium - baby delivered during current episode of care
+L1824	Anaemia in the puerperium - baby delivered during previous episode of care
+L1842	Mental disorder in the puerperium - baby delivered
+L1844	Mental disorder in the puerperium - baby delivered during previous episode of care
+L1854	Congenital cardiovascular disorder in the puerperium - baby delivered during previous episode of care
+L1882	Abnormal glucose tolerance test in the puerperium - baby delivered during current episode of care
+L18z.	Medical condition NOS during pregnancy, childbirth and the puerperium
+L18z2	Medical condition NOS, in the puerperium - baby delivered during current episode of care
+L18z3	Medical condition NOS, during pregnancy - baby not yet delivered
+L2402	Bicornuate uterus - baby delivered with postpartum complication
+L2404	Bicornuate uterus complicating postpartum care - baby delivered during previous episode of care
+L2412	Tumour of uterine body - baby delivered with postpartum complication
+L2414	Uterine fibroid complicating postpartum care - baby delivered during previous episode of care
+L244.	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+L2440	Other uterine or pelvic floor abnormality affecting obstetric care
+L2442	Cystocele - delivered with postpartum complication
+L2443	Other uterine or pelvic floor abnormality - baby not yet delivered
+L2444	Cystocele complicating postpartum care - baby delivered during previous episode of care
+L244z	Other uterine or pelvic floor abnormality (& [cystocele] or [rectocele]) in pregnancy, childbirth or the puerperium NOS
+L246.	Other cervical abnormality in pregnancy, childbirth and the puerperium
+L2462	Other cervical abnormality - baby delivered with postpartum complication
+L2463	Other cervical abnormality complicating antenatal care - baby not yet delivered
+L2464	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+L246z	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+L2484	Rigid perineum complicating postpartum care - baby delivered during previous episode of care
+L24z4	Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium with postnatal complication
+L2633	(Labour and delivery complicated by fetal heart rate anomaly) or (maternal care for fetal hypoxia)
+L265.	Small-for-dates fetus in pregnancy
+L308.	Failed forceps unspecified
+L3081	Other failed forceps - delivered
+L34..	Trauma to perineum and vulva during delivery
+L3402	First degree perineal tear during delivery with postnatal problem
+L341.	Perineal muscle tear
+L3412	Second degree perineal tear during delivery with postnatal problem
+L3422	Third degree perineal tear during delivery with postnatal problem
+L3432	Fourth degree perineal tear during delivery with postnatal problem
+L344.	Unspecified perineal laceration during delivery
+L3442	Unspecified perineal laceration during delivery with postnatal problem
+L344z	Unspecified perineal laceration during delivery NOS
+L3452	Vulval and perineal haematoma during delivery with postnatal problem
+L34y.	Other vulval and perineal trauma during delivery
+L34y2	Other vulval and perineal trauma during delivery with postnatal problem
+L34yz	Other vulval/perineal trauma during delivery NOS
+L34z2	Vulval and perineal trauma during delivery NOS with postnatal problem
+L3512	Rupture of uterus during and after labour - delivered with postnatal problem
+L3513	Rupture of uterus during and after labour with postnatal problem
+L3522	Obstetric inversion of uterus with postnatal problem
+L355.	Other obstetric pelvic organ damage
+L3552	Other obstetric pelvic organ damage with postnatal problem
+L355z	Other obstetric pelvic organ damage NOS
+L3562	Obstetric damage to pelvic joints and ligaments with postnatal problem
+L35y.	Other obstetric trauma OS
+L35y2	Other obstetric trauma - delivered with postnatal problem
+L35y3	Other obstetric trauma with antenatal problem
+L35z2	Obstetric trauma NOS - delivered with postnatal problem
+L35z4	Obstetric trauma NOS with postnatal problem
+L360.	(Third-stage PPH) or (retained placenta NOS)
+L3600	Third-stage postpartum haemorrhage unspecified
+L3601	Third-stage postpartum haemorrhage - delivered with postnatal problem
+L3602	Third-stage postpartum haemorrhage with postnatal problem
+L3611	Other immediate postpartum haemorrhage - delivered with postnatal problem
+L3612	Other immediate postpartum haemorrhage with postnatal problem
+L362.	Delayed postpartum haemorrhage
+L3621	Secondary postpartum haemorrhage - delivered with postnatal problem
+L3622	Secondary postpartum haemorrhage with postnatal problem
+L362z	Secondary and delayed postpartum haemorrhage NOS
+L3701	Retained placenta with no haemorrhage - delivered with postnatal problem
+L3702	Retained placenta with no haemorrhage with postnatal problem
+L3711	Retained products with no haemorrhage - delivered with postnatal problem
+L3712	Retained products with no haemorrhage with postnatal problem
+L3841	Spinal and epidural anaesthesia-induced headache during the puerperium
+L38A.	Failed or difficult intubation during labour and delivery
+L38B.	Failed or difficult intubation during the puerperium
+L39..	Other complications of labour and delivery NEC
+L3924	Maternal hypotension syndrome with postnatal problem
+L3931	Post-delivery acute renal failure - delivered with postnatal problem
+L3932	Post-delivery acute renal failure with postnatal problem
+L394.	Other complications of obstetric procedures
+L3942	Other complications of obstetric procedures - delivered with postnatal problem
+L3943	Other complications of obstetric procedures with postnatal problem
+L3945	Infection of obstetric surgical wound
+L3946	Haematoma of obstetric wound
+L39B.	Death from sequelae of direct obstetric causes
+L39y.	Other complications of labour and delivery
+L39y4	Other complications of labour and delivery with postnatal problem
+L39z4	Complications of labour and delivery NOS with postnatal problem
+L4...	Complications of the puerperium
+L40..	Major puerperal infection
+L400.	Puerperal endometritis
+L4000	Puerperal endometritis unspecified
+L4001	Puerperal endometritis - delivered with postnatal complication
+L4002	Puerperal endometritis with postnatal complication
+L400z	Puerperal endometritis NOS
+L401.	Puerperal salpingitis
+L4010	Puerperal salpingitis unspecified
+L4012	Puerperal salpingitis with postnatal complication
+L401z	Puerperal salpingitis NOS
+L402.	Puerperal peritonitis
+L4020	Puerperal peritonitis unspecified
+L4021	Puerperal peritonitis - delivered with postnatal complication
+L402z	Puerperal peritonitis NOS
+L403.	Puerperal septicaemia
+L4030	Puerperal septicaemia unspecified
+L4031	Puerperal septicaemia - delivered with postnatal complication
+L403z	Puerperal septicaemia NOS
+L40z.	Major puerperal infection NOS
+L40z0	Major puerperal infection NOS, unspecified
+L40z1	Major puerperal infection NOS - delivered with postnatal complication
+L41..	Varicose veins - obstetric
+L4104	Varicose veins of legs in pregnancy and the puerperium with postnatal complication
+L4116	Genital varices in the puerperium
+L4122	Phlebitis - postpartum
+L4124	Superficial thrombophlebitis in pregnancy and the puerperium with postnatal complication
+L4131	Antenatal deep vein thrombosis - delivered
+L414.	DVT - deep venous thrombosis, postnatal
+L4140	Postnatal deep vein thrombosis unspecified
+L4141	Postnatal deep vein thrombosis - delivered with postnatal complication
+L4142	Postnatal deep vein thrombosis with postnatal complication
+L414z	Postnatal deep vein thrombosis NOS
+L415.	Other phlebitis and thrombosis in pregnancy and the puerperium
+L4151	Other phlebitis and thrombosis in pregnancy and the puerperium - delivered
+L4152	Other phlebitis and thrombosis in pregnancy and the puerperium - delivered with postnatal complication
+L4161	Haemorrhoids in pregnancy and the puerperium - delivered
+L4162	Haemorrhoids in pregnancy and the puerperium - delivered with postnatal complication
+L4164	Haemorrhoids in pregnancy and the puerperium with postnatal complication
+L4165	Haemorrhoids in the puerperium
+L4171	Cerebral venous thrombosis in the puerperium
+L41y.	Other venous complication of pregnancy and the puerperium
+L41z6	Puerperal phlebitis NOS
+L41zz	Venous complication of pregnancy and puerperium NOS
+L42..	Puerperal pyrexia of unknown origin
+L4200	Puerperal pyrexia of unknown origin unspecified
+L420z	Puerperal pyrexia NOS
+L43..	Obstetric pulmonary embolism
+L4312	Amniotic fluid pulmonary embolism - delivered with postnatal complication
+L43y.	Other obstetric pulmonary embolism
+L43z1	Obstetric pulmonary embolism NOS - delivered
+L43z2	Obstetric pulmonary embolism NOS - delivered with postnatal complication
+L43z4	Obstetric pulmonary embolism NOS with postnatal complication
+L44..	Other complications of the puerperium NEC
+L440.	Cerebrovascular disorders in the puerperium
+L4400	Puerperal cerebrovascular disorder unspecified
+L4401	Puerperal cerebrovascular disorder - delivered
+L4403	Puerperal cerebrovascular disorder with antenatal complication
+L440z	Puerperal cerebrovascular disorder NOS
+L441.	Caesarean wound disruption
+L4410	Caesarean wound disruption unspecified
+L4411	Caesarean wound disruption - delivered with postnatal complication
+L4412	Caesarean wound disruption with postnatal complication
+L441z	Caesarean wound disruption NOS
+L442.	Breakdown of perineum
+L4420	Obstetric perineal wound disruption unspecified
+L4421	Obstetric perineal wound disruption - delivered with postnatal complication
+L4422	Obstetric perineal wound disruption with postnatal complication
+L442z	Obstetric perineal wound disruption NOS
+L443.	Haematoma - perineal wound
+L4430	Other complication of obstetric surgical wound unspecified
+L4431	Other complication of obstetric surgical wound - delivered with postnatal complication
+L4432	Other complication of obstetric surgical wound with postnatal complication
+L443z	Other complication of obstetric surgical wound NOS
+L44y.	Other complications of the puerperium
+L44y0	Other complications of the puerperium unspecified
+L44y1	Other complications of the puerperium - delivered with postnatal complication
+L44y2	Other complications of the puerperium with postnatal complication
+L44yz	Blood dyscrasia puerperal
+L44z0	Complications of the puerperium NOS, unspecified
+L44z1	Complications of the puerperium NOS - delivered with postnatal complication
+L44z2	Complications of the puerperium NOS with postnatal complication
+L4501	Obstetric nipple infection - delivered
+L4504	Obstetric nipple infection with postnatal complication
+L4511	Obstetric breast abscess - delivered
+L4512	Obstetric breast abscess - delivered with postnatal complication
+L4514	Obstetric breast abscess with postnatal complication
+L4521	Obstetric non-purulent mastitis - delivered
+L4522	Obstetric non-purulent mastitis - delivered with postnatal complication
+L4523	Obstetric non-purulent mastitis with antenatal complication
+L4524	Obstetric non-purulent mastitis with postnatal complication
+L45y.	Other obstetric breast infections
+L45y1	Other obstetric breast infection - delivered
+L45y2	Other obstetric breast infection - delivered with postnatal complication
+L45z1	Obstetric breast infection NOS - delivered
+L45z4	Obstetric breast infection NOS with postnatal complication
+L46..	Lactation: [problems] or [& obstetric breast disorders NOS])
+L4611	Cracked nipple in pregnancy, the puerperium or lactation - delivered
+L4612	Cracked nipple in pregnancy, the puerperium or lactation - delivered with postnatal complication
+L4614	Cracked nipple in pregnancy, the puerperium or lactation with postnatal complication
+L462.	Breast engorgement in pregnancy, the puerperium or lactation
+L4621	Breast engorgement in pregnancy, the puerperium or lactation - delivered
+L4622	Breast engorgement in pregnancy, the puerperium or lactation - delivered with postnatal complication
+L4624	Breast engorgement in pregnancy/puerperium/lact + p/n comp
+L462z	Breast engorgement
+L4631	Other breast disorder in pregnancy, the puerperium or lactation - delivered
+L4632	Other breast disorder in pregnancy, the puerperium or lactation - delivered with postnatal complication
+L4634	Other breast disorder in pregnancy, the puerperium or lactation with postnatal complication
+L463z	Other breast disorder in pregnancy, the puerperium or lactation NOS
+L4651	Suppressed lactation - delivered
+L4661	Galactorrhoea in pregnancy and the puerperium - delivered
+L4664	Galactorrhoea in pregnancy and the puerperium with postnatal complication
+L46y.	Other disorders of lactation
+L46y1	Other disorder of lactation - delivered
+L46y2	Other disorder of lactation - delivered with postnatal complication
+L46y4	Other disorder of lactation with postnatal complication
+L46yz	Other disorder of lactation NOS
+L4y..	Other specified complications of the puerperium
+L4z..	Complications of the puerperium NOS
+L5...	Maternal care for fetus
+L514.	Maternal care for intrauterine growth retardation
+Lyu27	[X]Other complications of spinal and epidural anaesthesia during pregnancy
+Lyu6.	[X]Complications predominantly related to the puerperium
+Lyu60	[X]Other infection of genital tract following delivery
+Lyu61	[X]Other genitourinary tract infections following delivery
+Lyu62	[X]Other specified puerperal infection
+Lyu63	[X]Other venous complications in the puerperium
+Lyu64	[X]Other obstetric embolism
+Lyu65	[X]Other complications of spinal and epidural anaesthesia during the puerperium
+Lyu66	[X]Other complications of anaesthesia during the puerperium
+Lyu67	[X]Other specified puerperal complications
+Lyu68	[X]Other and unspecified disorders of breast associated with childbirth
+Lyu74	[X] Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium
+Lyu75	[X]Obstetric death of unspecified cause
+M054.	Impetigo neonatorum
+M15y0	Ritter's disease
+M2617	Acne neonatorum
+P32..	Anterior segment dysgenesis
+P7z..	Fetal circulation
+PE310	Predislocation status of hip at birth
+PH13.	Collodion baby
+Q....	Fetal and neonatal conditions
+Q11..	(Short gestation and unspecified low birthweight problems) or (baby born premature)
+Q110.	Immature baby
+Q112.	(Extreme immaturity) or (extreme prematurity - less than 28 weeks)
+Q12..	(Disorders relating to long gestation and high birthweight) or (large baby born)
+Q121.	Other "large-for-dates" infant
+Q12z.	Large or postmature infant NOS
+Q2...	Birth trauma, asphyxia and hypoxia
+Q20..	Birth injury
+Q200.	Subdural and cerebral haemorrhage due to birth trauma
+Q2000	Cerebral haemorrhage unspecified, due to birth trauma
+Q2001	Subdural haemorrhage unspecified, due to birth trauma
+Q2002	Local subdural haematoma due to birth trauma
+Q2003	Tentorial tear due to birth trauma
+Q2004	Brain injury due to birth trauma NOS
+Q2005	Cerebral haematoma in fetus or newborn
+Q2006	Extradural haemorrhage in fetus or newborn
+Q2007	Cerebral haemorrhage due to birth injury
+Q200y	Other specified subdural or cerebral haemorrhage due to birth trauma
+Q200z	(Subdural or cerebral haemorrhage due to birth trauma NOS) or (birth brain damage NOS)
+Q201.	Scalp injuries due to birth trauma
+Q2010	Caput succedaneum
+Q2011	Cephalhaematoma due to birth trauma
+Q2012	Vacuum extraction chignon
+Q2013	Massive epicranial subaponeurotic haemorrhage due to birth trauma
+Q2014	Scalp abrasions due to birth trauma
+Q2015	Bruising of scalp due to birth injury
+Q201y	Other specified scalp injury due to birth trauma
+Q201z	Scalp injury due to birth trauma, NOS
+Q202.	Fracture of clavicle due to birth trauma
+Q203.	(Other skeleton injury due to birth trauma) or (other fractures due to birth trauma) or (other birth fracture)
+Q2030	Fracture of humerus due to birth trauma
+Q2031	Birth fracture of radius
+Q2032	Fracture of femur due to birth trauma
+Q2033	Fracture of tibia or fibula due to birth trauma
+Q2034	Fracture of skull due to birth trauma
+Q2035	Birth dislocation of the shoulder
+Q2036	Other dislocation or subluxation due to birth trauma
+Q203y	Fracture due to birth trauma NEC
+Q203z	Skeleton injury due to birth trauma NOS
+Q204.	Spine or spinal cord injury due to birth trauma
+Q2040	Spine dislocation due to birth trauma
+Q2041	Spine fracture due to birth trauma
+Q204z	Spine or spinal cord injury due to birth trauma NOS
+Q205.	Facial nerve palsy due to birth trauma
+Q206.	Brachial plexus palsy due to birth trauma
+Q2060	Brachial palsy unspecified, due to birth trauma
+Q2061	Erb's palsy
+Q2062	Klumpke paralysis
+Q2063	Birth plexus injury - whole plexus
+Q206y	Other specified brachial plexus palsy due to birth trauma
+Q206z	Brachial plexus palsy due to birth trauma NOS
+Q207.	Other cranial or peripheral nerve palsy due to birth trauma
+Q2070	Birth injury to phrenic nerve
+Q2071	Cranial nerve injury due to birth trauma
+Q2072	Peripheral nerve injury due to birth trauma
+Q207y	Other specified cranial or peripheral nerve palsy due to birth trauma
+Q207z	Cranial or peripheral nerve palsy due to birth trauma NOS
+Q208.	Cerebral oedema due to birth injury
+Q20y.	Other specified birth trauma
+Q20y0	Eye damage due to birth trauma
+Q20y1	Liver subcapsular haematoma due to birth trauma
+Q20y2	Testicular haematoma due to birth trauma
+Q20y3	Vulval haematoma due to birth trauma
+Q20y5	Spleen injury due to birth trauma
+Q20y6	Scalpel wound due to birth trauma
+Q20y7	Traumatic glaucoma due to birth trauma
+Q20y8	Subconjunctival haemorrhage due to birth trauma
+Q20y9	Torticollis due to birth injury
+Q20yA	Birth trauma due to amniocentesis
+Q20yB	Sternomastoid injury due to birth injury
+Q20yC	Birth injury to face
+Q20yD	Subcutaneous fat necrosis due to birth injury
+Q20yz	Internal birth injury NEC
+Q20z.	Birth injury NOS
+Q215.	White asphyxia
+Q216.	Blue asphyxia
+Q21z.	Anoxia in newborn NOS
+Q2y..	Other specified birth trauma, asphyxia or hypoxia
+Q2z..	Birth trauma, asphyxia or hypoxia NOS
+Q3...	Fetus and newborn respiratory conditions
+Q30..	Hyaline membrane disease
+Q31..	Other fetal and newborn respiratory conditions
+Q310.	Congenital pneumonia
+Q3100	Congenital staphylococcal pneumonia
+Q3101	Congenital group A haemolytic streptococcal pneumonia
+Q3102	Congenital group B haemolytic streptococcal pneumonia
+Q3103	Congenital Escherichia coli pneumonia
+Q3104	Congenital pneumonia due to pseudomonas
+Q3106	Congenital chlamydial pneumonia
+Q310y	Other specified congenital pneumonia
+Q310z	Congenital pneumonia NOS
+Q3110	MAS - Meconium aspiration syndrome
+Q3111	Aspiration of amniotic fluid in newborn
+Q3112	Aspiration of blood in newborn
+Q3113	Aspiration of vomit in newborn
+Q3114	Neonatal aspiration of milk and regurgitated food
+Q311z	(Massive aspiration syndrome NOS) or (pneumonitis due to fetal aspiration)
+Q312.	Perinatal interstitial emphysema and related conditions
+Q3120	Perinatal pneumothorax
+Q3121	Perinatal mediastinal emphysema
+Q3122	Perinatal pneumopericardium
+Q3123	Perinatal pulmonary interstitial emphysema
+Q312y	Other specified perinatal interstitial emphysema or related condition
+Q312z	Perinatal interstitial emphysema or related condition NOS
+Q313.	Perinatal pulmonary haemorrhage
+Q3130	Perinatal lung alveolar haemorrhage
+Q3131	Perinatal lung intra-alveolar haemorrhage
+Q3132	Perinatal massive pulmonary haemorrhage
+Q3133	Perinatal haemoptysis
+Q3134	Tracheobronchial haemorrhage origin in the perinatal period
+Q313y	Other specified perinatal pulmonary haemorrhage
+Q313z	Perinatal pulmonary haemorrhage NOS
+Q314.	Primary atelectasis
+Q315.	Other and unspecified perinatal atelectasis
+Q3150	Perinatal atelectasis, unspecified
+Q3151	Perinatal partial atelectasis
+Q315z	Perinatal pulmonary collapse NOS
+Q316.	Newborn transitory tachypnoea
+Q317.	Neonatal chronic respiratory disease
+Q3170	BPD - Bronchopulmonary dysplasia
+Q3172	Pulmonary dysmaturity
+Q317y	Other specified perinatal chronic respiratory disease
+Q317z	Perinatal chronic respiratory disease NOS
+Q31y.	Other perinatal respiratory problems
+Q31y0	Apnoea - perinatal NOS
+Q31y1	Cyanotic attacks of the newborn
+Q31y2	Perinatal respiratory distress NOS
+Q31y3	Perinatal respiratory failure NOS
+Q31y4	Neonatal acrocyanosis
+Q31y5	Neonatal sniffles
+Q31yz	(Other perinatal respiratory problems NOS) or (grunting baby)
+Q31z.	Perinatal respiratory problems NOS
+Q3y..	Other specified respiratory problems in fetus or neonate
+Q3z..	Fetal or newborn respiratory problems NOS
+Q4...	Other perinatal conditions
+Q40..	Infections specific to perinatal period
+Q401.	Congenital cytomegalovirus infection
+Q402.	Other congenital infections
+Q4020	Congenital herpes simplex infection
+Q4022	Congenital malaria
+Q4023	Lymphadenopathy due to congenital toxoplasmosis
+Q4024	Congenital tuberculosis
+Q402z	Other congenital infection NOS
+Q403.	Tetanus neonatorum
+Q4030	Tetanus neonatorum, unspecified
+Q4031	Tetanus omphalitis
+Q403z	Tetanus neonatorum NOS
+Q404.	Omphalitis of the newborn
+Q404y	Other specified umbilical sepsis
+Q404z	Umbilical sepsis NOS
+Q405.	Neonatal infective mastitis
+Q406.	Neonatal dacryocystitis and conjunctivitis
+Q4060	Ophthalmia neonatorum, unspecified
+Q4061	Neonatal conjunctivitis
+Q4062	Neonatal dacryocystitis
+Q4063	Neonatal conjunctivitis due to E.coli
+Q4064	Neonatal conjunctivitis due to staphylococcus
+Q4065	Neonatal conjunctivitis due to other bacteria
+Q4066	Neonatal conjunctivitis due to virus
+Q4067	Neonatal conjunctivitis due to chlamydiae
+Q4068	Neonat inclusn body: [other, dacryocystitis &/or conjunctivitis] or [NEC, ophthalmia neonatorum] or [inclusion blennorrhoea]
+Q406y	Other specified neonatal dacryocystitis or conjunctivitis
+Q406z	Neonatal dacryocystitis or conjunctivitis NOS
+Q407.	Neonatal candida infection
+Q4070	Neonatal candidiasis of mouth
+Q4071	Neonatal candidiasis of perineum
+Q4072	Neonatal candidiasis of other skin
+Q4075	Generalised neonatal candidal septicaemia
+Q407y	Other specified neonatal candida infection
+Q407z	Neonatal candida infection NOS
+Q4086	Pseudomonas pyocyaneus congenital infection
+Q409.	Congenital viral hepatitis
+Q4090	Congenital hepatitis A infection
+Q4091	Congenital hepatitis B infection
+Q409y	Other specified congenital viral hepatitis
+Q409z	Congenital viral hepatitis NOS
+Q40A.	Sepsis of the newborn
+Q40A0	Sepsis of newborn due to Staphylococcus aureus
+Q40A1	Sepsis of newborn due to Escherichia coli
+Q40A2	Sepsis of newborn due to anaerobes
+Q40y.	Other specified perinatal infection
+Q40y0	(Intrauterine fetal sepsis, unspecified) or (congenital septicaemia) or (congenital sepsis NOS)
+Q40y1	Neonatal urinary tract infection
+Q40y2	Neonatal septicaemia
+Q40yz	Other specified perinatal infection NOS
+Q40z.	Perinatal infections NOS
+Q41..	Fetal and neonatal haemorrhage
+Q411.	Perinatal intraventricular haemorrhage
+Q4113	Intraventricular haemorrhage due to birth injury
+Q412.	Perinatal subarachnoid haemorrhage
+Q4120	Subarachnoid haemorrhage due to birth injury
+Q413.	Umbilical haemorrhage after birth
+Q4130	Umbilical haemorrhage after birth, unspecified
+Q4132	Massive umbilical haemorrhage of newborn
+Q413y	Other specified umbilical haemorrhage after birth
+Q413z	Umbilical haemorrhage after birth NOS
+Q414.	Perinatal gastrointestinal haemorrhage
+Q4140	Perinatal haematemesis
+Q4142	Perinatal rectal haemorrhage
+Q4143	Neonatal vaginal haemorrhage
+Q414y	Other specified perinatal gastrointestinal haemorrhage
+Q414z	Perinatal gastrointestinal haemorrhage NOS
+Q415.	Perinatal adrenal haemorrhage
+Q416.	Perinatal cutaneous haemorrhage
+Q4160	Perinatal cutaneous haemorrhage, unspecified
+Q4161	Perinatal cutaneous bruising
+Q4162	Perinatal cutaneous ecchymoses
+Q4163	Perinatal cutaneous petechiae
+Q4164	Perinatal superficial haematoma
+Q4165	Perinatal purpura
+Q416y	Other specified perinatal cutaneous haemorrhage
+Q416z	Perinatal cutaneous haemorrhage NOS
+Q41y0	Perinatal epistaxis
+Q41y1	Perinatal pseudomenses
+Q41y2	Neonatal haematemesis
+Q41y3	Neonatal melaena
+Q41y4	Neonatal rectal haemorrhage
+Q420.	Erythroblastosis fetalis
+Q421.	ABO haemolytic disease of the newborn
+Q422.	Haemolytic disease due to isoimmunisation NOS
+Q424.	Kernicterus due to isoimmunisation
+Q425.	Late anaemia of newborn due to isoimmunisation
+Q42z.	Haemolytic disease of fetus and newborn due to isoimmunisation NOS
+Q43..	Other perinatal jaundice
+Q430.	Perinatal jaundice from hereditary haemolytic anaemias
+Q4300	Neonatal jaundice with glucose-6-phosphate dehydrogenase deficiency
+Q430z	Perinatal jaundice from hereditary haemolytic anaemia NOS
+Q431.	Perinatal jaundice from other excessive haemolysis
+Q4310	Perinatal jaundice from bruising
+Q4312	Perinatal jaundice from infection
+Q4313	Perinatal jaundice from polycythaemia
+Q4314	Perinatal jaundice from swallowed maternal blood
+Q4315	Perinatal jaundice from bleeding
+Q431y	Perinatal jaundice from other specified haemolysis
+Q431z	Perinatal jaundice from haemolysis NOS
+Q432.	Jaundice of prematurity
+Q433.	Other neonatal jaundice due to delayed conjugation from other causes
+Q4330	Delayed conjugation causing neonatal jaundice, unspecified
+Q4332	Breast milk inhibitor jaundice
+Q4333	Lucey-Driscoll syndrome
+Q4335	Neonatal jaundice with Dubin-Johnson syndrome
+Q4336	Neonatal jaundice with Gilbert's syndrome
+Q4337	Neonatal jaundice with congenital hypothyroidism
+Q4338	Neonatal jaundice with porphyria
+Q433y	Neonatal jaundice due to deficiency of enzyme system for bilirubin conjugation
+Q433z	Delayed conjugation causing neonatal jaundice NOS
+Q434.	Perinatal jaundice due to hepatocellular damage
+Q4340	Perinatal hepatitis causing jaundice, unspecified
+Q4341	Giant cell hepatitis causing neonatal jaundice
+Q4342	Inspissated bile syndrome
+Q434z	Perinatal jaundice due to hepatocellular damage NOS
+Q435.	Perinatal jaundice due to other cause
+Q4350	Perinatal jaundice due to congenital obstruction of bile duct
+Q4351	Perinatal jaundice due to galactosaemia
+Q435z	Perinatal jaundice due to other specified cause
+Q436.	Fetal and neonatal jaundice, unspecified
+Q4360	Icterus neonatorum, unspecified
+Q4361	Transient neonatal hyperbilirubinaemia
+Q4362	Newborn physiological jaundice NOS
+Q436z	Unspecified fetal or neonatal jaundice NOS
+Q437.	Kernicterus not due to isoimmunisation
+Q4370	Bilirubin encephalopathy
+Q437z	Kernicterus of newborn NOS
+Q43z.	Perinatal jaundice NOS
+Q44..	Perinatal endocrine and metabolic disorders
+Q441.	Neonatal diabetes mellitus
+Q442.	Neonatal myasthenia gravis
+Q443.	Neonatal thyrotoxicosis
+Q444.	Cow's milk hypocalcaemia
+Q4440	Cow's milk hypocalcaemia in the newborn
+Q4441	(Other neonatal hypocalcaemia) or (hypocalcaemic tetany in newborn)
+Q444z	Neonatal hypocalcaemia NOS
+Q445.	Hypomagnesaemic tetany in newborn
+Q446.	Other transitory neonatal electrolyte disturbance
+Q4460	Neonatal dehydration
+Q4461	Transitory neonatal hypernatraemia
+Q4462	Transitory neonatal hyponatraemia
+Q4463	Transitory neonatal hyperkalaemia
+Q4464	Transitory neonatal hypokalaemia
+Q4465	Disturbances of sodium balance of newborn
+Q4466	Disturbances of potassium balance of newborn
+Q446y	Other specified transitory neonatal electrolyte disturbance
+Q446z	Transitory neonatal electrolyte disturbance NOS
+Q447.	Neonatal hypoglycaemia
+Q448.	Newborn late metabolic acidosis
+Q449.	Neonatal tetany without mention of calcium or magnesium deficiency
+Q44A.	Neonatal hypoparathyroidism
+Q44y.	Other transitory neonatal endocrine and metabolic problem
+Q44y0	Neonatal tyrosinaemia
+Q44yz	Other transitory neonatal endocrine or metabolic disturbance NOS
+Q44z.	Perinatal endocrine or metabolic problem NOS
+Q45..	Fetal and newborn blood disorders
+Q450.	Haemorrhagic disease of the newborn
+Q451.	Transient neonatal thrombocytopenia
+Q4511	Transient neonatal thrombocytopenia due to idopathic maternal thrombocytopenia
+Q451y	Neonatal thrombocytopenia due to platelet alloimmunisation
+Q451z	Transient neonatal thrombocytopenia NOS
+Q452.	Newborn defibrination syndrome
+Q453.	Other newborn transient coagulation defect
+Q454.	Neonatal polycythaemia
+Q4541	Polycythaemia due to maternal fetal transfusion
+Q454z	Polycythaemia neonatorum NOS
+Q456.	Anaemia of prematurity
+Q457.	Transient neonatal neutropenia
+Q4570	Neonatal isoimmune neutropenia
+Q457z	Transient neonatal neutropenia NOS
+Q45y.	Other specified transient neonatal blood disorder
+Q46..	Perinatal digestive system disorders
+Q460.	Meconium ileus
+Q461.	Inspissated milk intestinal obstruction
+Q462.	Newborn swallowing maternal blood causing haematemesis or melaena
+Q463.	Transitory ileus of newborn
+Q464.	Perinatal necrotising enterocolitis
+Q465.	Perinatal intestinal perforation
+Q466.	Other meconium obstruction
+Q4660	Meconium plug
+Q4661	Congenital faecoliths causing obstruction
+Q466z	(Meconium obstruction NOS) or (delayed passage of meconium NOS)
+Q46y.	Other perinatal digestive system disorders
+Q46y0	Neonatal peritonitis NOS
+Q46y1	Neonatal chloridorrhoea
+Q46yz	Other perinatal digestive system disorder NOS
+Q46z.	Perinatal digestive system disorders NOS
+Q47..	Perinatal skin and temperature regulation disorders
+Q471.	Pre-agonal induration
+Q471z	Sclerema neonatorum NOS
+Q472.	Neonatal cold injury
+Q473.	Other hypothermia of newborn
+Q4740	Newborn dehydration fever
+Q4742	(Hyperthermia in newborn, unspecified) or (thermal injury in newborn NEC)
+Q4743	Transitory fever of newborn
+Q474z	Newborn temperature regulation disorder NOS
+Q475.	Oedema of newborn unspecified
+Q477.	Breast engorgement of new born
+Q47y.	Other perinatal skin disorders
+Q47y0	Urticaria neonatorum
+Q47y2	Neonatal skin infection
+Q47yy	Erythroderma neonatorum
+Q47yz	Perinatal skin disorder NOS
+Q47z.	Perinatal skin or temperature regulation disorder NOS
+Q48..	Other and ill-defined perinatal conditions
+Q480.	Convulsions in newborn
+Q481.	Newborn cerebral irritability, unspecified
+Q482.	Central nervous system dysfunction in newborn NOS
+Q4820	Newborn cerebral depression
+Q4821	Coma in newborn
+Q482y	Other newborn abnormal cerebral signs
+Q483.	Feeding difficulties in newborn
+Q4830	Newborn feeding problem, unspecified
+Q4831	Newborn regurgitation of feed
+Q4832	Slow feeding in newborn
+Q4833	Vomiting in newborn
+Q4834	Rumination in newborn
+Q4835	Underfeeding in newborn
+Q4836	Overfeeding in newborn
+Q483z	Bottle feeding problem in the newborn
+Q484.	Newborn drug reaction and intoxication
+Q4840	Chloramphenicol toxicity in newborn
+Q484z	Newborn drug reaction or intoxication NOS
+Q485.	Newborn drug withdrawal syndrome
+Q4850	Neonatal withdrawal symptoms from maternal use of drugs of addiction
+Q4851	Withdrawal symptoms from therapeutic use of drugs in newborn
+Q488.	Neonatal cerebral ischaemia
+Q489.	Acquired periventricular cyst
+Q48A.	Neonatal cerebral leucomalacia
+Q48y.	Other specified perinatal condition
+Q48y4	Neonatal "craniotabes"
+Q48yz	(Other perinatal condition NOS) or (congenital hepatic fibrosis)
+Q492.	Neonatal hypertension
+Q493.	Persistent fetal circulation
+Q4z..	Infant death
+Qy...	Other specified perinatal conditions
+Qyu..	[X]Additional perinatal disease classification terms
+Qyu10	[X]Other low birth weight
+Qyu11	[X]Other preterm infants
+Qyu12	[X]Other "heavy for gestational age" infants
+Qyu20	[X]Other intracranial lacerations and haemorrhages due to birth injury
+Qyu21	[X]Other specified brain damage due to birth injury
+Qyu22	[X]Other birth injuries to scalp
+Qyu23	[X]Other birth injuries to skull
+Qyu25	[X]Other specified birth injuries
+Qyu26	[X]Birth injury to central nervous system, unspecified
+Qyu30	[X]Other respiratory distress of newborn
+Qyu33	[X]Other neonatal aspiration syndromes
+Qyu35	[X]Other pulmonary haemorrhages originating in the perinatal period
+Qyu36	[X]Other chronic respiratory diseases originating in the perinatal period
+Qyu37	[X]Other and unspecified atelectasis of newborn
+Qyu38	[X]Other apnoea of newborn
+Qyu39	[X]Other specified respiratory conditions of newborn
+Qyu3A	[X]Other cardiovascular disorders originating in the perinatal period
+Qyu3B	[X]Cardiovascular disorder originating in the perinatal period, unspecified
+Qyu41	[X]Sepsis of newborn due to other and unspecified staphylococcus
+Qyu42	[X]Other bacterial sepsis of newborn
+Qyu43	[X]Other congenital malaria
+Qyu44	[X]Other specified congenital infectious and parasitic diseases
+Qyu45	[X]Other infections specific to the perinatal period
+Qyu48	[X]Sepsis of newborn due to other and unspecified streptococci
+Qyu49	[X]Congenital infectious and parasitic disease, unspecified
+Qyu51	[X]Other umbilical haemorrhages of newborn
+Qyu53	[X]Other neonatal gastrointestinal haemorrhage
+Qyu55	[X]Other haemolytic diseases of fetus and newborn
+Qyu57	[X]Other specified kernicterus
+Qyu58	[X]Neonatal jaundice due to drugs or toxins transmitted from mother or given to newborn
+Qyu59	[X]Neonatal jaundice due to other specified excessive haemolysis
+Qyu5A	[X]Neonatal jaundice from other and unspecified hepatocellular damage
+Qyu5B	[X]Neonatal jaundice from other specified causes
+Qyu5D	[X]Other transient neonatal disorders of coagulation
+Qyu5E	[X]Other specified perinatal haematological disorders
+Qyu6.	[X]Transitory endocrine and metabolic disorders specific to fetus and newborn
+Qyu60	[X]Other neonatal hypoglycaemia
+Qyu61	[X]Other transitory disorders of carbohydrate metabolism of fetus and newborn
+Qyu62	[X]Other neonatal hypocalcaemia
+Qyu65	[X]Other specified transitory neonatal endocrine disorders
+Qyu6C	[X]Transitory metabolic disturbance of newborn, unspecified
+Qyu7.	[X]Digestive system disorders of fetus and newborn
+Qyu70	[X]Other specified intestinal obstruction of newborn
+Qyu72	[X]Other specified perinatal digestive system disorders
+Qyu73	[X]Intestinal obstruction of newborn, unspecified
+Qyu80	[X]Other hypothermia of newborn
+Qyu81	[X]Other specified disturbances of temperature regulation of newborn
+Qyu84	[X]Hypothermia of newborn, unspecified
+QyuA.	[X]Other disorders originating in the perinatal period
+QyuA0	[X]Other specified disturbances of cerebral status of newborn
+QyuA1	[X]Other feeding problems of newborn
+QyuA2	[X]Other disorders of muscle tone of newborn
+QyuA3	[X]Other specified conditions originating in the perinatal period
+QyuA4	[X]Disorder of muscle tone of newborn, unspecified
+Qz...	Perinatal conditions NOS
+TE400	Accident due to abandonment of newborn
+Ua0sx	Postnatal clinic
+Ua1As	Child health screening of social behaviour and play development
+Ua1Qf	Postnatal care
+Ua1T9	Child health surveillance
+X102E	Pulmonary atelectasis of newborn
+X201b	Cardiomyopathy in the puerperium
+X20FL	Neonatal isoimmune thrombocytopenia
+X20FM	Alloimmune neonatal thrombocytopenia
+X307X	Congenital hepatic fibrosis
+X405k	Post-delivery obstetric operation
+X406F	Female genital and obstetric disorder
+X407K	Disorder of cervix
+X409D	Pregnancy, childbirth and puerperal disorders
+X409Q	Rigid perineum complicating postpartum care - baby delivered during previous episode of care
+X409v	Stenosis of cervix - baby delivered with postpartum complication
+X409y	Polyp of cervix complicating postnatal care - baby delivered during previous episode of care
+X40A0	Polyp of cervix - baby delivered with postpartum complication
+X40A3	Rectocele complicating postpartum care - baby delivered during previous episode of care
+X40A4	Cystocele complicating postpartum care - baby delivered during previous episode of care
+X40A7	Rectocele - delivered with postpartum complication
+X40A8	Cystocele - delivered with postpartum complication
+X40AH	Uterine fibroid complicating postpartum care - baby delivered during previous episode of care
+X40AJ	Uterine fibroid - baby delivered with postpartum complication
+X40AO	Bicornuate uterus complicating postpartum care - baby delivered during previous episode of care
+X40AQ	Bicornuate uterus - baby delivered with postpartum complication
+X40AZ	Nephropathy NOS in pregnancy without hypertension
+X40By	EPH - Oedema, proteinuria and hypertension of pregnancy
+X40Cv	Postnatal vaginal discomfort
+X40Da	Haematoma - perineal wound
+X40Dd	Phlebitis - postpartum
+X40Df	Varicose veins - obstetric
+X40Di	Puerperal pyrexia
+X40DI	Obstetric trauma
+X40Dq	Obstetric disorders of breast and lactation
+X40DR	Perineal tear resulting from childbirth
+X40Dw	Maternal death
+X40Dx	Direct maternal death
+X40DX	Immediate postpartum haemorrhage
+X40Dy	Obstetric death of unspecified cause
+X40DY	Blood dyscrasia puerperal
+X40DZ	Infection - perineal wound
+X40E1	Intrapartum fetal death
+X40E3	SB - Stillbirth
+X50C3	Erythema neonatorum
+X50JA	Omphalitis
+X70Ea	Icterus neonatorum
+X70Ec	Neonatal inclusion blennorrhoea
+X70Ed	Congenital sepsis
+X70Ee	Congenital sepsis NOS
+X70Ef	Grunting baby
+X70Eg	Pneumonitis due to fetal aspiration
+X70Eh	Cerebral injury due to birth trauma
+X70Ei	Intracerebral haemorrhage in fetus or newborn
+X70Ej	Skeletal injury due to birth trauma
+X70Ek	Fracture of nose due to birth trauma
+X70EK	Stillbirth NEC
+X70El	Laryngeal injury due to birth trauma
+X70EL	Infant death
+X70Em	Kidney injury due to birth trauma
+X70EM	Perinatal death
+X70En	Internal birth injury NEC
+X70EN	Neonatal death
+X70Eo	Toe injury NEC due to birth trauma
+X70Ep	Trunk injury NEC due to birth trauma
+X70Eq	Baby born premature
+X70EQ	Bottle feeding problem in the newborn
+X70ER	Breast-feeding problem in the newborn
+X70EU	Erythroderma neonatorum
+X70EV	Panniculitis in newborn
+X70EW	Delayed passage of meconium NOS
+X70EX	Neonatal thrombocytopenia due to platelet alloimmunisation
+X70EZ	Hypocalcaemic tetany in newborn
+X70NT	Chlamydial ophthalmia neonatorum
+X74Vz	Postnatal examination status
+X74W4	Child exam status - 10 days
+X74Wj	Screening status
+X76W1	Slow involution of uterus
+X77Oo	Child developmental observation
+X77WQ	Neonatal screening
+X787O	Predislocation status of hip at birth
+Xa07c	Cardiovascular disorders originating in the perinatal period
+Xa07d	Cyanotic attacks of newborn
+Xa07g	Neonatal dysrhythmia
+Xa07h	Cardiac failure developing in the perinatal period
+Xa07k	Transient myocardial ischaemia of newborn
+Xa07m	Neonatal hypotension
+Xa07o	Perinatal intestinal obstruction
+Xa07p	Neonatal peritonitis
+Xa07s	Neonatal chloridorrhoea
+Xa07w	Perinatal disorders of temperature regulation
+Xa07W	Perinatal and neonatal death
+Xa07x	Newborn thermal injury
+Xa07X	Late neonatal death
+Xa07y	Hypothermia of newborn
+Xa07Y	Newborn death
+Xa080	Avery's syndrome
+Xa083	Neonatal aspiration syndromes
+Xa086	Respiratory failure of newborn
+Xa08B	Apnoea of newborn
+Xa08c	Iatrogenic neonatal hypoglycaemia
+Xa08C	CCHS - Congenital central hypoventilation
+Xa08D	Hyperthermia of newborn
+Xa08E	Newborn environmental hyperthermia
+Xa08f	Neonatal goitre
+Xa08G	Aspiration of amniotic fluid in newborn
+Xa08H	Aspiration of mucus in newborn
+Xa08o	Asphyxia neonatorum
+Xa08P	Newborn physiological jaundice
+Xa08r	INT - Isoimmune neonatal thrombocytopenia
+Xa08x	EF - Erythroblastosis fetalis
+Xa095	Perinatal neurological disorder
+Xa09a	Heavy for dates
+Xa09E	Cerebral irritation
+Xa09h	Umbilical polyp of newborn
+Xa09Q	Light for dates
+Xa09W	LBW - Low birth weight infant
+Xa09Y	ELBW - Extremely low birth weight infant
+Xa09z	Hypomagnesaemic tetany in newborn
+Xa0A6	Birth hypoxia
+Xa0AA	Blue asphyxia
+Xa0Ai	Bacterial sepsis of newborn
+Xa0Ak	Congenital falciparum malaria
+Xa0Ao	Neonatal infection of the eye
+Xa0Ar	Umbilical sepsis
+Xa0AU	Extreme immaturity
+Xa0Av	Neonatal chlamydial dacryocystitis
+Xa0Aw	Neonatal conjunctivitis due to virus
+Xa0AW	Congenital infection
+Xa0Ax	Neonatal inclusion body conjunctivitis
+Xa0AX	Congenital viral disease
+Xa0Az	Neonatal dacryocystitis due to virus
+Xa0B3	Neonatal dacryocystitis due to Escherichia coli
+Xa0B4	Coliform ophthalmia neonatorum
+Xa0B5	Neonatal dacryocystitis due to staphylococcus
+Xa0B6	Neonatal conjunctivitis due to staphylococcus
+Xa0B7	Congenital viral pneumonia
+Xa0BC	Perinatal pulmonary fibroplasia
+Xa0Be	Neonatal craniotabes
+Xa0BZ	Delayed passage of meconium
+Xa0Ql	Perinatal trauma
+Xa0TV	HIE - Perinatal hypoxic - ischaemic encephalopathy
+Xa1aj	Phlegmasia alba dolens - obstetric
+Xa1bh	Breast/other feeding, different ages
+Xa1bi	Child development examination
+Xa1bj	Child development checks
+Xa1v6	Lymphadenopathy due to congenital toxoplasmosis
+Xa3g3	Disorders of cervix NOS
+Xa3gC	Obstetric disorders NOS
+Xa40P	Pre-eclampsia NOS
+Xa40W	Fetus with maternal problem NOS
+Xa41M	Maternal pregnancy problem
+Xa41Q	Maternal pregnancy problem NOS
+Xa41R	Maternal cord/placental problem NOS
+Xa41Z	Cerebral haemorrhage - birth
+Xa4Ua	Cord infected
+Xa4UO	Cord almost off
+Xa4UP	Cord adherent
+Xa4UQ	Cord not separated
+Xa7MW	Neonatal jaundice
+Xa9D8	Chignon
+Xa9D9	Severe birth asphyxia
+Xa9DA	Mild to moderate birth asphyxia
+Xaac9	School entrant hearing screening incomplete
+XaagE	No response to dementia screening invitation
+XaaTA	School entrant hearing screening status
+XaaTg	Postnatal examination invitation
+XaaTl	Postnatal examination second invitation
+XaaTm	Postnatal examination first invitation
+XaaUz	Postnatal examination declined
+Xaawn	Completion of newborn blood spot screening card
+XaB42	Other isoimmunisation of the newborn
+Xabj5	Scarf sign
+XaBK0	Puerperal phlebitis NOS
+XaBMD	Varicose veins of legs in the puerperium
+XaBME	Genital varices in the puerperium
+XaBMG	Superficial thrombophlebitis in the puerperium
+XaBMH	Other phlebitis in pregnancy
+XaBMI	Other phlebitis in the puerperium
+XaBMl	[V]Special screening examination for chromosomal abnormalities
+XaBML	Venous complication in the puerperium, unspecified
+XaBNh	Vaginal varices in the puerperium
+XabUr	Parent held personal child health record checked
+XaC0x	Perinatal coagulase-negative staphylococcus
+XaC10	[X]Infection of caesarean section wound following delivery
+XaC1D	[X]Cervicitis following delivery
+XaC1E	[X]Vaginitis following delivery
+XaCMT	Birth weight 1000-2499 g
+XaCMU	Birth weight 999 g or less
+XadAN	Newborn and Infant Physical Examination Screening Programme, hip examination done, no abnormality and no risk factor
+XaDw0	Notification of birth
+XaDzR	Maternal care for suspected central nervous system malformation in fetus
+XaDzS	Maternal care for central nervous system malformation in fetus
+XaDzT	Maternal care for suspected chromosomal abnormality in fetus
+XaDzV	Maternal care for chromosomal abnormality in fetus
+XaDzW	Maternal care for damage to fetus from maternal rubella
+XaDzX	Maternal care for suspected fetal abnormality and damage, unspecified
+XaDzY	Maternal care for fetal abnormality and damage, unspecified
+XaE3x	Screening for disorder
+XaE6r	Maternal care for fetal bradycardia during pregnancy
+XaE71	Maternal care for fetal decelerations during pregnancy
+XaE72	Maternal care for fetal tachycardia during pregnancy
+XaE73	Maternal care for fetal acidosis during pregnancy
+XaIrN	O/E - Umbilical stump - neonatal
+XaIt2	Child 2 year examination
+XaIWB	Early neonatal death
+XaJ9Y	Sure Start postnatal visit
+XaJgl	Infant feeding at birth
+XaJgm	Bottle fed at birth
+XaJgn	Breast fed at birth
+XaJKK	Neonatology
+XaJxr	Neonatal Abstinence Syndrome
+XaK98	Benign neonatal sleep myoclonus
+XaKc9	Neonatal hearing test
+XaKSE	Neonatal check enhanced services administration
+XaKSF	Neonatal check enhanced service completed
+XaLTG	Neonatal examination
+XaNdb	Referral to breast feeding peer support service
+XaNKn	Newborn blood spot screening status
+XaNKo	Newborn blood spot screening programme - phenylketonuria (PKU) repeat screening with further sample required
+XaNKp	Congenital hypothyroidism further sample required
+XaNKr	Cystic fibrosis further sample required
+XaNKs	Medium chain acyl-coenzyme A dehydrogenase deficiency further sample required
+XaNLa	Medium chain acyl-coenzyme A dehydrogenase deficiency not screened for or screening incomplete
+XaNLb	Cystic fibrosis not screened for or screening incomplete
+XaNLB	Newborn blood spot screening programme - phenylketonuria (PKU) not suspected and other disorders follow up required
+XaNLc	CHT not screened for or screening incomplete
+XaNLC	Congenital hypothyroidism not suspected, further follow up required
+XaNLE	Cystic fibrosis not suspected, further follow up required
+XaNLF	Medium chain acyl-coenzyme A dehydrogenase deficiency not suspected, further follow up required
+XaNLY	Newborn blood spot screening programme - phenylketonuria (PKU) not screened for or screening incomplete
+XaNVx	Newborn blood spot screening
+XaP9l	Neonatal feeding advice
+XaPnq	Child 6 to 8 week examination
+XaQiP	Newborn hearing screening programme outcome
+XaQk9	Newborn hearing screening programme contraindicated
+XaQkF	Newborn hearing screening programme incomplete as lack of service capacity
+XaQOG	Chlamydia screening programme test kit issued
+XaX4m	Health visitor new birth visit
+XaY6g	Perinatal necrotising enterocolitis
+XE0gZ	Cervix disorders
+XE0vs	Mild or unspecified pre-eclampsia
+XE0vv	Unspecified renal disease in pregnancy
+XE0wA	Congenital abnormality of uterus complicating postpartum care - baby delivered during previous episode of care
+XE0wF	Tumour of uterine body - baby delivered with postpartum complication
+XE0wJ	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+XE0wK	Other uterine or pelvic floor abnormality affecting obstetric care
+XE0wM	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+XE0wN	Other uterine or pelvic floor abnormality - baby not yet delivered
+XE0wO	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wq	Fetus small-for-dates
+XE0wQ	Other cervical abnormality in pregnancy, childbirth and the puerperium
+XE0wR	Other cervical abnormality - baby delivered with postpartum complication
+XE0wS	Other cervical abnormality complicating antenatal care - baby not yet delivered
+XE0wT	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wU	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+XE0x2	Trauma to perineum and vulva during delivery
+XE0x7	Other obstetric pelvic organ damage
+XE0x9	Third stage haemorrhage
+XE0xH	Postnatal infection
+XE0xI	Venous complications of pregnancy and the puerperium
+XE0xK	Superficial thrombophlebitis in pregnancy and the puerperium - delivered with postnatal complication
+XE0xL	DVT - deep venous thrombosis, postnatal
+XE0xN	Other obstetric pulmonary embolism
+XE0xO	Other complication of obstetric surgical wound
+XE0xP	Other complications of the puerperium
+XE0xQ	Other complications of the puerperium NOS
+XE0xs	Post-abortion problem NOS
+XE0xS	Obstetric breast and lactation disorders NOS
+XE0xU	Breast engorgement in pregnancy, the puerperium or lactation NOS
+XE0y6	Pregnancy complications NOS
+XE0yC	(Papyraceous fetus) or (pregnancy complications NOS)
+XE0yG	Gonorrhoea + pregnancy
+XE0yM	Pregnancy with other medical condition
+XE0Yn	Snuffles
+XE0yW	Pregnancy with medical condition NOS
+XE0z8	Complications occurring during labour and delivery
+XE0zG	Perineal delivery trauma NOS
+XE0zk	Puerperal sepsis
+XE0zm	Deep vein thrombosis-obstetric
+XE0zQ	Labour/delivery problems NOS
+XE0zs	Obstetric venous problems NOS
+XE0zw	(Lactation problems) or (breast/lactation problems NOS)
+XE0zy	Breast/lactation problem NOS
+XE1ea	Brain injury due to birth trauma NOS
+XE1eb	Subdural or cerebral haemorrhage due to birth trauma NOS
+XE1ed	Other skeleton injury due to birth trauma
+XE1ee	Fracture of radius or ulna due to birth trauma
+XE1ef	Other specified skeleton injury due to birth trauma
+XE1eg	Spleen rupture due to birth trauma
+XE1eh	Other specified birth trauma NOS
+XE1el	Liveborn with birth asphyxia NOS
+XE1em	HMD - Hyaline membrane disease
+XE1en	Aspiration of liquor or mucus in newborn
+XE1ep	Other specified perinatal chronic respiratory disease
+XE1eq	Other perinatal respiratory problems NOS
+XE1et	Omphalitis of the newborn
+XE1ev	Neonatal dacryocystitis or conjunctivitis due to Escherichia coli
+XE1ew	Neonatal dacryocystitis or conjunctivitis due to staphylococcus
+XE1eW	Short gestation and unspecified low birth weight problems
+XE1ex	Neonatal dacryocystitis or conjunctivitis due to other bacteria
+XE1eX	Very premature - less than 1000g or less than 28 weeks
+XE1ey	Neonatal dacryocystitis or conjunctivitis due to virus
+XE1eY	Disorders relating to long gestation and high birth weight
+XE1ez	Neonatal dacryocystitis or conjunctivitis due to chlamydiae
+XE1eZ	Cerebral haemorrhage unspecified, due to birth trauma
+XE1f0	Neonatal dacryocystitis or conjunctivitis due to other inclusion body
+XE1f1	Intrauterine fetal sepsis, unspecified
+XE1f2	Fetal and neonatal haemorrhage
+XE1f3	Haemolytic disease - Rh
+XE1f4	Other specified delayed conjugation causing neonatal jaundice
+XE1f5	Neonatal hypocalcaemia
+XE1f6	Other neonatal hypocalcaemia
+XE1f7	Neonatal hypomagnesaemia
+XE1f8	Other specified transient neonatal thrombocytopenia
+XE1f9	Meconium obstruction NOS
+XE1fA	Neonatal diarrhoea
+XE1fB	Hyperthermia in newborn, unspecified
+XE1fC	Other specified perinatal skin disorder
+XE1fD	Newborn feeding problem NOS
+XE1fG	Other perinatal condition NOS
+XE1fh	(Scalp injury - birth) or (cephal haematoma) or (chignon)
+XE1fH	Other perinatal conditions NOS
+XE1fj	Skeletal injury NOS - birth
+XE1fn	Birth hypoxia
+XE1fp	Congenital infections
+XE1fr	Congenital cytomegalovirus infection
+XE1ft	(Umbilical sepsis - perinatal) or (omphalitis)
+XE1fx	Erythroblastosis fetalis
+XE1g1	Kernicterus due to isoimmunisation
+XE1g3	Physiol. jaundice
+XE1g5	Diabetes - perinatal
+XE1g7	(Perinatal endocrine/metabolism NOS) or (thyrotoxicosis - perinatal)
+XE1g9	Haemorrhagic disease
+XE1gB	Ileus - perinatal
+XE1gF	Infant death
+XE1SG	Maternal postnatal 6 week examination
+XE1SN	Birth details NOS
+XE1SO	Child health care
+XE1UG	Infant feeding method
+XE1Zv	[X]Mild mental and behavioural disorders associated with the puerperium, not elsewhere classified
+XE1Zw	[X]Severe mental and behavioural disorders associated with the puerperium, not elsewhere classified
+XE2IB	Medical certificate of still-birth
+XE2nT	Perinatal cyanotic attacks NOS
+XE2QW	Other complications of labour and delivery with postnatal problem
+XE2QX	Breakdown of perineum
+XE2QZ	Other disorders of lactation
+XE2R6	Fetal and neonatal conditions
+XE2sl	Cerebrovascular disorders in the puerperium
+XE2sq	Neonatal sniffles
+XE2tn	Child examination.: development
+XE2w0	[V]Level of neonatal care
+XM00h	Snuffles
+XM0B0	Breast engorgement
+XM0mI	Neonatal bleed
+XM0tH	Venereal disease in pregnancy
+XM1NA	Apgar normal
+XM1O3	Neonatal jaundice due to deficiency of enzyme system for bilirubin conjugation
+XM1O7	Spleen injury due to birth trauma
+XM1O8	Birth fracture of radius
+XM1O9	Birth fracture of ulna
+XM1PL	Stroke in the puerperium
+XM1T5	FP58 - newborn registration
+XM1W8	Motor develop.- child
+XM1WP	Postnatal maternal examination
+ZV20.	[V]Child health supervision
+ZV24.	[V]Postnatal care and examination
+ZV242	[V]Routine postpartum follow-up
+ZV24y	[V]Other specified postpartum care and examination
+ZV24z	[V]Unspecified postpartum care and examination
+ZV27.	[V]Stillbirth
+ZV290	[V]Normal level of neonatal care
+ZV291	[V]Neonatal care in SCBU
+ZV292	[V]Neonatal care on ITU
+ZV3z.	[V]Unspecified birth
+ZV3zz	[V]Unspecified birth NOS
+ZV6H.	[V] Level of care administered to neonates
+ZV6H0	[V]Normal care administered to neonates
+ZV6H1	[V]Special care administered to neonates
+ZV6H2	[V]Level 2 intensive care (high dependency intensive care) administered to neonates
+ZV77.	[V]Screening for endocrine, nutritional, metabolic and immunity disorders
+ZV7y3	[V]Screening for congenital dislocation of hip
+ZV7y4	[V]Postnatal screening for chromosomal anomalies

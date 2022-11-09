@@ -1,0 +1,166 @@
+X40J5	Type II diabetes mellitus
+XaIIj	Diabetic retinopathy screening
+XaIyt	Diabetic peripheral neuropathy screening
+F4200	Background diabetic retinopathy
+F420.	Diabetic retinopathy
+XaJLa	Diabetic retinopathy 12 month review
+XaMFF	Referral for diabetic retinopathy screening
+XaIP5	Non proliferative diabetic retinopathy
+XaE5T	Mild non proliferative diabetic retinopathy
+XaJOj	O/E - left eye preproliferative diabetic retinopathy
+XaJOi	O/E - right eye preproliferative diabetic retinopathy
+XaIeK	O/E - Left diabetic foot - ulcerated
+M2710	Ischaemic ulcer diabetic foot
+XaJOk	O/E - right eye proliferative diabetic retinopathy
+XaJLb	Diabetic retinopathy 6 month review
+C101.	Diabetic ketoacidosis
+C1097	Type II diabetes mellitus - poor control
+XaELQ	Type II diabetes mellitus without complication
+C106.	Diab mell + neuro manif: (& [amyotroph][neurop][polyneurop])
+XE10I	Diabetes mellitus with peripheral circulatory disorder
+C1090	Type II diabetes mellitus with renal complications
+XaIzR	Type II diabetes mellitus with persistent microalbuminuria
+XE10H	Diabetes mellitus with neurological manifestation
+XaXZR	H/O: diabetes mellitus type 2
+F3721	Chronic painful diabetic neuropathy
+XaF05	Type II diabetes mellitus with nephropathy
+XaIzQ	Type II diabetes mellitus with persistent proteinuria
+F4640	Diabetic cataract
+C105.	Diabetes mellitus with ophthalmic manifestation
+C1088	Type I diabetes mellitus - poor control
+C101z	Diabetes mellitus NOS with ketoacidosis
+C100.	Diabetes mellitus with no mention of complication
+XaE5U	Moderate non proliferative diabetic retinopathy
+F3722	Asymptomatic diabetic neuropathy
+XaE5c	Diabetic macular oedema
+F1711	Diabetic autonomic neuropathy
+XaE5V	Severe non proliferative diabetic retinopathy
+XE10G	Diabetes mellitus with renal manifestation
+F3720	Acute painful diabetic neuropathy
+F372.	Diabetic neuropathy &/or diabetic polyneuropathy
+C104.	Diabetes mellitus: [with renal manifestatn] or [nephropathy]
+C1093	Type II diabetes mellitus with multiple complications
+XE15k	Diabetic polyneuropathy
+C1096	Type II diabetes mellitus with retinopathy
+C1091	Type II diabetes mellitus with ophthalmic complications
+C1089	Type I diabetes mellitus maturity onset
+XaIzM	Type 1 diabetes mellitus with persistent proteinuria
+C1010	Type 1 diabetes mellitus with ketoacidosis
+XaFn7	Type II diabetes mellitus with peripheral angiopathy
+XaELP	Type I diabetes mellitus without complication
+C1092	Type II diabetes mellitus with neurological complications
+XaXbW	Symptomatic diabetic peripheral neuropathy
+C1080	Type I diabetes mellitus with renal complications
+C1011	Type 2 diabetes mellitus with ketoacidosis
+XaXZv	H/O: diabetes mellitus type 1
+XaIz0	Diabetes mellitus with persistent proteinuria
+X00Aj	Diabetic chronic painful polyneuropathy
+C1087	Type I diabetes mellitus with retinopathy
+XE12I	Diabetes + neuropathy (& [amyotrophy])
+XaIyz	Diabetes mellitus with persistent microalbuminuria
+C1082	Type I diabetes mellitus with neurological complications
+C1081	Type I diabetes mellitus with ophthalmic complications
+C1083	Type I diabetes mellitus with multiple complications
+XaF04	Type I diabetes mellitus with nephropathy
+C107.	Diabetes mellitus with: [gangrene] or [periph circul disord]
+C104z	Diabetes mellitus with nephropathy NOS
+XaFmA	Type II diabetes mellitus with diabetic cataract
+XE12A	Diabetes mellitus: [adult onset] or [noninsulin dependent]
+X40JY	Insulin-dependent diabetes mellitus secretory diarrhoea synd
+X00Al	Diabetic mononeuropathy
+C100z	Diabetes mellitus NOS with no mention of complication
+XaIzN	Type 1 diabetes mellitus with persistent microalbuminuria
+XaEnq	Type II diabetes mellitus with polyneuropathy
+f8...	Diabetic neuropathy treatment [no drugs here]
+C106z	Diabetes mellitus NOS with neurological manifestation
+C1061	Diabetes mellitus, adult onset, + neurological manifestation
+X40JI	Diabetes mellitus autosomal dominant
+XaFWG	Type I diabetes mellitus with hypoglycaemic coma
+C103.	Diabetes mellitus with ketoacidotic coma
+XE128	Diabetes mellitus (& [ketoacidosis])
+C10zz	Diabetes mellitus NOS with unspecified complication
+XaKyW	Type 1 diabetes mellitus with gastroparesis
+XaKyX	Type II diabetes mellitus with gastroparesis
+X40JJ	Diabetes mellitus autosomal dominant type 2
+C10z.	Diabetes mellitus with unspecified complication
+C106y	Other specified diabetes mellitus with neurological comps
+C107z	Diabetes mellitus NOS with peripheral circulatory disorder
+XaFn8	Type II diabetes mellitus with arthropathy
+C1030	Type 1 diabetes mellitus with ketoacidotic coma
+C102.	Diabetes mellitus with hyperosmolar coma
+C101y	Other specified diabetes mellitus with ketoacidosis
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type II diabetes mellitus with polyneuropathy
+Xa0lK	Diabetic (femoral mononeuropathy) & (Diabetic amyotrophy)
+XaFn9	Type II diabetes mellitus with neuropathic arthropathy
+XaFWI	Type II diabetes mellitus with hypoglycaemic coma
+XaOPu	Latent autoimmune diabetes mellitus in adult
+C10y.	Diabetes mellitus with other specified manifestation
+X00Ai	Diabetic acute painful polyneuropathy
+X00Ah	Diabetic distal sensorimotor polyneuropathy
+C1031	Type II diabetes mellitus with ketoacidotic coma
+C103y	Other specified diabetes mellitus with coma
+C108y	Other specified diabetes mellitus with multiple comps
+C10A1	Malnutrition-related diabetes mellitus with ketoacidosis
+Cyu23	[X]Unspecified diabetes mellitus with renal complications
+C10yy	Other specified diabetes mellitus with other spec comps
+C108z	Unspecified diabetes mellitus with multiple complications
+F420z	Diabetic retinopathy NOS
+C102z	Diabetes mellitus NOS with hyperosmolar coma
+XaFmM	Type I diabetes mellitus with neuropathic arthropathy
+C10B0	Steroid-induced diabetes mellitus without complication
+XaJUI	Diabetes mellitus induced by non-steroid drugs
+C1087	Type I diabetes mellitus with retinopathy
+C107.	Diabetes mellitus with: [gangrene] or [periph circul disord]
+XE12G	Diabetes + eye manifestation (& [cataract] or [retinopathy])
+XM1Qx	Diabetes mellitus with gangrene
+C1086	Type I diabetes mellitus with gangrene
+C1095	Type II diabetes mellitus with gangrene
+XaJQp	Type II diabetes mellitus with exudative maculopathy
+XaJSr	Type 1 diabetes mellitus with exudative maculopathy
+C1085	Type I diabetes mellitus with ulcer
+C1094	Type II diabetes mellitus with ulcer
+C104y	Other specified diabetes mellitus with renal complications
+XaFm8	Type I diabetes mellitus with diabetic cataract
+XaEnn	Type I diabetes mellitus with mononeuropathy
+XaEno	Type I diabetes mellitus with polyneuropathy
+C105y	Other specified diabetes mellitus with ophthalmic complicatn
+C105z	Diabetes mellitus NOS with ophthalmic manifestation
+C1086	Type I diabetes mellitus with gangrene
+C10..	Diabetes mellitus
+66AS.	Diabetic annual review
+66A..	Diabetic monitoring
+66A4.	Diabetic on oral treatment
+XaJO9	Under care of diabetic foot screener
+66A5.	Diabetic on insulin
+XaJ5j	Patient on maximal tolerated therapy for diabetes
+XaPQH	Diabetic foot screen
+66AD.	Fundoscopy - diabetic check
+XaCES	HbA1 - diabetic control
+XaJK3	Diabetic medicine
+XaIIe	Diabetes care by hospital only
+Y1286	Diabetic Clinic
+XE10F	Diabetes mellitus, adult onset, no mention of complication
+XaIIj	Diabetic retinopathy screening
+XE12M	Diabetes with other complications
+XaBLn	Self-monitoring of blood glucose
+XaJ4h	Excepted from diabetes qual indicators: Patient unsuitable
+9OL1.	Attends diabetes monitoring
+X40J6	Insulin treated Type 2 diabetes mellitus
+XaKwQ	Diabetic 6 month review
+XE1T3	Diabetic - poor control
+X40J4	Type I diabetes mellitus
+C1001	Diab mell: [adult ons, no ment comp][mat onset][non-ins dep]
+66AZ.	Diabetic monitoring NOS
+66AR.	Diabetes management plan given
+XaKT5	Diabetic patient unsuitable for digital retinal photography
+42W3.	Hb. A1C > 10% - bad control
+66AH0	Conversion to insulin
+XaJYg	Diabetes clinical management plan
+Y3579	Diabetic review
+XaE46	Referral to diabetes nurse
+XaJ4i	Excepted from diabetes quality indicators: Informed dissent
+XaJ4Q	Exception reporting: diabetes quality indicators
+X00dG	Diabetic maculopathy
+XaIuE	Diabetic foot examination
+XaJLa	Diabetic retinopathy 12 month review

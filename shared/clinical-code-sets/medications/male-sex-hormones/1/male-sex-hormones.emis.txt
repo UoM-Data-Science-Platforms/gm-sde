@@ -1,0 +1,198 @@
+^ESCT1175959	Testosterone 16.2mg/g gel (20.25mg per actuation) 88 gram
+^ESCT1175960	Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd)
+^ESCT1175961	Testogel 16.2mg/g gel (Besins Healthcare (UK) Ltd) 88 gram
+^ESCT1176009	Testosterone 16.2mg/g gel (20.25mg per actuation)
+^ESCT1181855	Product containing only testosterone undecanoate 40 mg/1 each oral capsule
+^ESCT1214004	Testosterone 20mg/g transdermal gel (23mg per actuation) 85.5 gram
+^ESCT1214005	Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd)
+^ESCT1214006	Testavan 20mg/g transdermal gel (Ferring Pharmaceuticals Ltd) 85.5 gram
+^ESCT1214024	Testosterone 20mg/g transdermal gel (23mg per actuation)
+^ESCT1214827	Testosterone 2.5mg/24hours transdermal patches
+^ESCT1214828	Testosterone 5mg/24hours transdermal patches
+^ESCT1214829	Testosterone 6mg/24hours transdermal patches
+^ESCT1214830	Testosterone enantate 250mg/1ml solution for injection ampoules
+^ESCT1214831	Testosterone propionate 100mg/2ml solution for injection ampoules
+^ESCT1214832	Testosterone undecanoate 1g/4ml solution for injection ampoules
+^ESCT1224713	Testosterone undecanoate 40 mg oral capsule
+^ESCT1224714	Product containing precisely testosterone undecanoate 40 milligram/1 each conventional release oral capsule
+^ESCT1299791	Testim 50mg/5g gel (Endo Ventures Ltd)
+^ESCT1299792	Testim 50mg/5g gel (Endo Ventures Ltd) 30 tube 30 x 5g tubes
+^ESCT1381258	Testosterone 100mg implant
+^ESCT1381259	Testosterone 200mg implant
+^ESCT1410167	Testosterone 100mg implant (Organon Pharma (UK) Ltd)
+^ESCT1410168	Testosterone 100mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1410271	Testosterone 200mg implant (Organon Pharma (UK) Ltd)
+^ESCT1410272	Testosterone 200mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1410898	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)
+^ESCT1410899	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1410900	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd) 60 capsule 6 x 10 capsules
+^ESCT1429562	Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+^ESCT1429563	Testosterone enantate 250mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd) 3 ampoule
+^ESCTAN1026486	Androderm 5mg/24hours transdermal patches (Imported (United States))
+^ESCTAN1026487	Androderm 5mg/24hours transdermal patches (Imported (United States)) 30 patch
+^ESCTAN863600	Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)
+^ESCTAN863602	Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd) 30 patch
+^ESCTAN863618	Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)
+^ESCTAN863620	Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd) 60 patch
+^ESCTGE836070	Generic Sustanon 250mg/1ml solution for injection ampoules 6 ampoule
+^ESCTGE862565	Generic Sustanon 250mg/1ml solution for injection ampoules
+^ESCTGE864799	Generic Sustanon 100 solution for injection 1ml ampoules 6 ampoule
+^ESCTGE865076	Generic Sustanon 100 solution for injection 1ml ampoules
+^ESCTGE975646	Generic Sustanon 250mg/1ml solution for injection ampoules 1 ampoule
+^ESCTIN939260	Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)
+^ESCTIN939261	Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd) 8 patch
+^ESCTNE1052456	Nebido 1000mg/4ml solution for injection vials (Bayer Plc)
+^ESCTNE1052458	Nebido 1000mg/4ml solution for injection vials (Bayer Plc) 1 vial
+^ESCTNE909604	Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)
+^ESCTNE909605	Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc) 1 ampoule
+^ESCTPR612788	Product containing testosterone undecanoate 40 mg/1 each oral capsule
+^ESCTRE812848	Restandol 40mg capsules (Organon Laboratories Ltd)
+^ESCTRE855604	Restandol 40mg capsules (Organon Laboratories Ltd) 28 capsule
+^ESCTRE855605	Restandol 40mg capsules (Organon Laboratories Ltd) 56 capsule
+^ESCTRE961402	Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd)
+^ESCTRE961403	Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd) 30 capsule 3 x 10 capsules
+^ESCTRE961404	Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd) 60 capsule 6 x 10 capsules
+^ESCTST897973	Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)
+^ESCTST897974	Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd) 60 tablet 6 x 10 tablets
+^ESCTSU831248	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+^ESCTSU856783	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 6 ampoule
+^ESCTSU864802	Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)
+^ESCTSU864804	Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd) 6 ampoule
+^ESCTSU975647	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 1 ampoule
+^ESCTTE1026380	Testosterone propionate 1% cream 50 gram
+^ESCTTE1026381	Testosterone propionate 1% cream (Special Order) 50 gram
+^ESCTTE1026483	Testosterone 5mg/24hours transdermal patches 1 patch
+^ESCTTE1026484	Testosterone 5mg/24hours transdermal patches (Special Order)
+^ESCTTE1026485	Testosterone 5mg/24hours transdermal patches (Special Order) 1 patch
+^ESCTTE1034151	Testosterone 1% ointment 100 gram
+^ESCTTE1034152	Testosterone 1% ointment 30 gram
+^ESCTTE1034153	Testosterone 1% ointment (Special Order) 100 gram
+^ESCTTE1034154	Testosterone 1% ointment (Special Order) 30 gram
+^ESCTTE1044380	Testosterone 2.4mg/24hours transdermal patches 30 patch
+^ESCTTE1044381	Testopatch 2.4mg/24hours transdermal patches (Imported (Greece))
+^ESCTTE1044382	Testopatch 2.4mg/24hours transdermal patches (Imported (Greece)) 30 patch
+^ESCTTE1044943	Testosterone 2.4mg/24hours transdermal patches
+^ESCTTE1052457	Testosterone undecanoate 1g/4ml solution for injection vials 1 vial
+^ESCTTE1053752	Testosterone undecanoate 1g/4ml solution for injection vials
+^ESCTTE1098026	Testosterone 2.4mg/24hours transdermal patches 1 patch
+^ESCTTE1098027	Testosterone 2.4mg/24hours transdermal patches (Special Order)
+^ESCTTE1098028	Testosterone 2.4mg/24hours transdermal patches (Special Order) 1 patch
+^ESCTTE1098081	Testosterone 200mg implant (Special Order)
+^ESCTTE1098082	Testosterone 200mg implant (Special Order) 1 device
+^ESCTTE1100195	Testosterone propionate 100mg/2ml solution for injection ampoules 1 ampoule
+^ESCTTE1100196	Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order)
+^ESCTTE1100197	Testosterone propionate 100mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTTE1143831	Testosterone 2.5mg/24hours transdermal patches 1 patch
+^ESCTTE1143833	Testosterone 2.5mg/24hours transdermal patches (Special Order)
+^ESCTTE1143834	Testosterone 2.5mg/24hours transdermal patches (Special Order) 1 patch
+^ESCTTE1145913	Testosterone 100mg implant (Special Order)
+^ESCTTE1145914	Testosterone 100mg implant (Special Order) 1 device
+^ESCTTE612786	Testosterone 40mg capsules
+^ESCTTE612787	Testosterone undecanoate 40 mg/1 each oral capsule
+^ESCTTE618229	Testosterone 100mg implant
+^ESCTTE618230	Testosterone 200mg implant
+^ESCTTE846716	Testosterone 40mg capsules 56 capsule
+^ESCTTE847765	Testosterone 40mg capsules 28 capsule
+^ESCTTE863597	Testosterone 5mg/24hours transdermal patches 30 patch
+^ESCTTE863615	Testosterone 2.5mg/24hours transdermal patches 60 patch
+^ESCTTE863662	Testosterone 100mg implant 1 device
+^ESCTTE863664	Testosterone 100mg implant (Merck Sharp & Dohme Ltd)
+^ESCTTE863665	Testosterone 100mg implant (Merck Sharp & Dohme Ltd) 1 device
+^ESCTTE863666	Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE863667	Testosterone 100mg implant (Alliance Healthcare (Distribution) Ltd) 1 device
+^ESCTTE863687	Testosterone enantate 250mg/1ml solution for injection ampoules 3 ampoule
+^ESCTTE863688	Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTTE863689	Testosterone enantate 250mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 3 ampoule
+^ESCTTE863691	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+^ESCTTE863693	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Pharmaceuticals Ltd) 3 ampoule
+^ESCTTE863695	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE863698	Testosterone enantate 250mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 3 ampoule
+^ESCTTE867350	Testosterone propionate 100mg/2ml solution for injection ampoules 10 ampoule
+^ESCTTE867371	Testosterone 200mg implant 1 device
+^ESCTTE867374	Testosterone 200mg implant (Merck Sharp & Dohme Ltd)
+^ESCTTE867376	Testosterone 200mg implant (Merck Sharp & Dohme Ltd) 1 device
+^ESCTTE867380	Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE867382	Testosterone 200mg implant (Alliance Healthcare (Distribution) Ltd) 1 device
+^ESCTTE870855	Testosterone 6mg/24hours transdermal patches 30 patch
+^ESCTTE870856	Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)
+^ESCTTE870857	Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd) 30 patch
+^ESCTTE871301	Testosterone 50mg/5g gel unit dose sachets 30 sachet
+^ESCTTE871303	Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)
+^ESCTTE871305	Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd) 30 sachet
+^ESCTTE878238	Testosterone 40mg capsules 60 capsule
+^ESCTTE897972	Testosterone 30mg modified-release muco-adhesive buccal tablets 60 tablet
+^ESCTTE898008	Testosterone 30mg modified-release muco-adhesive buccal tablets
+^ESCTTE909596	Testosterone undecanoate 1g/4ml solution for injection ampoules 1 ampoule
+^ESCTTE913405	Testosterone 50mg/5g gel unit dose tube 30 tube
+^ESCTTE913406	Testim 50mg/5g gel (Ferring Pharmaceuticals Ltd)
+^ESCTTE913407	Testim 50mg/5g gel (Ferring Pharmaceuticals Ltd) 30 tube 30 x 5g tubes
+^ESCTTE913457	Testosterone 50mg/5g gel unit dose tube
+^ESCTTE918646	Testosterone 50mg/5g gel unit dose sachets
+^ESCTTE926617	Testosterone 100mg implant (A A H Pharmaceuticals Ltd)
+^ESCTTE926618	Testosterone 100mg implant (A A H Pharmaceuticals Ltd) 1 device
+^ESCTTE926619	Testosterone 200mg implant (A A H Pharmaceuticals Ltd)
+^ESCTTE926620	Testosterone 200mg implant (A A H Pharmaceuticals Ltd) 1 device
+^ESCTTE939257	Testosterone 300micrograms/24hours transdermal patches
+^ESCTTE939259	Testosterone 300micrograms/24hours transdermal patches 8 patch
+^ESCTTE940925	Testosterone 2% gel (10mg per actuation) 60 gram
+^ESCTTE940926	Testosterone 2% gel (10mg per actuation) 180 gram
+^ESCTTE940981	Testosterone 2% gel (10mg per actuation)
+^ESCTTE961401	Testosterone 40mg capsules 30 capsule
+^ESCTTE971383	Testosterone 1% ointment 1 gram
+^ESCTTE971384	Testosterone 1% ointment (Special Order)
+^ESCTTE971394	Testosterone 1% ointment (Special Order) 1 gram
+^ESCTTE971879	Testosterone 1% ointment
+^ESCTTE979760	Testosterone propionate 1% cream 1 gram
+^ESCTTE979761	Testosterone propionate 1% cream (Special Order)
+^ESCTTE979762	Testosterone propionate 1% cream (Special Order) 1 gram
+^ESCTTE979776	Testosterone propionate 1% cream
+^ESCTTO940927	Tostran 2% gel (Kyowa Kirin Ltd)
+^ESCTTO940928	Tostran 2% gel (Kyowa Kirin Ltd) 60 gram
+^ESCTTO940929	Tostran 2% gel (Kyowa Kirin Ltd) 180 gram 3 x 60g pump
+^ESCTVI867351	Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+^ESCTVI867352	Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule
+ANTR29512EMIS	Andropatch  Transdermal patches  2.5 mg/24 hrs
+ANTR31981EMIS	Andropatch  Transdermal patches  5 mg/24 hrs
+INTR25122NEMIS	Intrinsa  Transdermal patches  300 micrograms/24 hours
+NEIN19654NEMIS	Nebido  Injection  250 mg/ml, 4 ml ampoule
+NEIN83116NEMIS	Nebido  Injection  250 mg/ml, 4 ml vial
+RECA29114NEMIS	Restandol Testocaps  Capsules  40 mg
+RECA4267	Restandol  Capsules  40 mg
+STM/18224NEMIS	Striant Sr  M/R Muco-adhesive Buccal Tablet  30 mg
+SUIN4360	Sustanon 100  Injection  1 ml ampoule
+SUIN4361	Sustanon 250  Injection  1 ml ampoule
+TECA5418	Testosterone Undecanoate  Capsules  40 mg
+TECR11653NEMIS	Testosterone Propionate  Cream  1 %
+TEGE125419NEMIS	Testosterone  Gel  16.2 mg/gram
+TEGE125420NEMIS	Testogel  Gel  16.2 mg/gram
+TEGE15746NEMIS	Testosterone  Gel  50 mg/5 gram sachet
+TEGE15748NEMIS	Testogel  Gel  50 mg/5 gram sachet
+TEGE19999NEMIS	Testosterone  Gel  50 mg/5 gram tube
+TEGE20002NEMIS	Testim  Gel  50 mg/5 gram tube
+TEGE41288NEMIS	Testosterone  Gel  2 %
+TEIM37139MGEMIS	Testosterone  Implant  100 mg (Organon)
+TEIM37140MGEMIS	Testosterone  Implant  100 mg (Unichem)
+TEIM37141MGEMIS	Testosterone  Implant  200 mg (Organon)
+TEIM37142MGEMIS	Testosterone  Implant  200 mg (Unichem)
+TEIM4405	Testosterone  Implant  100 mg
+TEIM4406	Testosterone  Implant  200 mg
+TEIN17877NEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule
+TEIN19652NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml ampoule
+TEIN25437EMIS	Testosterone Propionate  Solution for injection  100 mg/2 ml ampoule
+TEIN38287MGEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+TEIN38288MGEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (Cambridge Labs)
+TEIN38289MGEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule (Unichem)
+TEIN7046	Testosterone Enanthate  Injection  250 mg/ml, 1 ml ampoule
+TEIN7114	Testosterone Propionate  Injection  50 mg/ml
+TEIN83115NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml vial
+TEM/18222NEMIS	Testosterone  M/R Muco-adhesive Buccal Tablet  30 mg
+TETR127698NEMIS	Testavan  Transdermal Gel  20 mg/gram
+TETR127874NEMIS	Testosterone  Transdermal Gel  20 mg/gram (23 mg/actuation)
+TETR1673NEMIS	Testosterone  Transdermal patches  6 mg/24 hrs
+TETR1675NEMIS	Testoderm  Transdermal patches  6 mg/24 hrs
+TETR25120NEMIS	Testosterone  Transdermal patches  300 micrograms/24 hours
+TETR29514EMIS	Testosterone  Transdermal patches  2.5 mg/24 hrs
+TETR31983EMIS	Testosterone  Transdermal patches  5 mg/24 hrs
+TOGE41289NEMIS	Tostran  Gel  2 %
+VIIN25435EMIS	Virormone  Solution for injection  100 mg/2 ml ampoule
+VIIN4519	Virormone  Injection  50 mg/ml

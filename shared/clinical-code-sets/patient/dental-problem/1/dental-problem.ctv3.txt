@@ -1,0 +1,468 @@
+1914.	Dental swelling
+X766G	Neglect of dental care
+Xa0Rz	Stress broken partial denture connector
+Xa0mP	Dental filling fallen out
+Xa0mU	Loose dental restoration
+Xa0md	Dental filling lost
+Xa0me	Dental inlay lost
+Xa0mf	Dental crown fallen out
+Xa0mg	Dental bridge lost
+Xa0mh	Dental veneer fallen off
+Xa0mi	Dental post crown fallen out
+Xa0n6	Fractured dental filling
+Xa0n7	Fractured dental inlay
+Xa0n8	Fractured dental crown
+Xa0n9	Fractured dental veneer
+Xa0nA	Fractured dental bridge
+Xa0nG	Leaking dental filling
+Xa0nH	Leaking dental crown
+Xa0nI	Leaking dental veneer
+Xa0nJ	Leaking dental bridge
+Xa0nK	Loose dental filling
+Xa0nL	Loose dental crown
+Xa0nM	Loose dental veneer
+Xa0nN	Loose dental bridge
+Xa0nZ	Tooth fallen off denture
+Xa0na	Broken denture clasp
+1912.	Toothache
+J05y.	Toothache
+X75rT	Painful teething
+X20OO	Tooth disorder 
+J051.	Absence of tooth - acquired 
+J0510	Loss of teeth due to an accident 
+J0511	Loss of teeth due to extraction 
+J0512	Loss of teeth due to local periodontal disease 
+J051z	Acquired absence of teeth NOS 
+X20OS	Developmental absence of tooth 
+J000.	Anodontia 
+J0004	Hypodontia 
+J000z	Anodontia NOS 
+XE0Zw	Supernumerary tooth 
+J0010	Distomolar 
+J0011	Mesiodens 
+J0012	Paramolar 
+J0013	Supplemental tooth 
+X20OT	Conical supernumerary tooth 
+X20OU	Tuberculate supernumerary tooth 
+J001z	Supernumerary teeth NOS 
+J001.	Supernumerary teeth (& [distomolar]) 
+XE0Zx	Developmental abnormality of tooth size and form 
+X20OV	Macrodontia 
+X20OW	Microdontia 
+X20OX	Peg-shaped tooth 
+X20OY	Dens evaginatus 
+X20OZ	Dens invaginatus 
+X20Oa	Enamel pearls 
+X20Ob	Taurodontism 
+X20Oc	Supernumerary cusp 
+X20Od	Talon cusp 
+X20Oe	Cusp of Carabelli 
+X20Of	Tuberculum paramolare 
+X20Og	Double teeth 
+X20Oh	Concrescence of teeth 
+X20Oi	Fusion of teeth 
+X20Oj	Gemination of teeth 
+J002.	Tooth size and form abnormality (& [enamel pearls] or [macrodontia] or [microdontia] or [peg-shaped teeth]) 
+J003.	Mottled tooth 
+J0030	Dental fluorosis 
+J0031	Non-fluoride enamel opacities 
+J003z	Mottled tooth NOS 
+X20Ok	Non-hereditary disturbance of tooth formation 
+J0040	Aplasia of cementum 
+J0041	Hypoplasia of cementum 
+J0042	Dilaceration of tooth 
+X20Ol	Vestibular root angulation of tooth 
+J0049	Localised enamel or dentine hypoplasia 
+X20Om	Chronological enamel or dentine hypoplasia 
+X20On	Enamel hypoplasia 
+J0043	Antenatal enamel hypoplasia 
+J0044	Neonatal enamel hypoplasia 
+J0045	Postnatal enamel hypoplasia 
+J0047	Hypocalcification of tooth 
+A9051	Hutchinson's incisors 
+X20Oo	Moon's molars 
+X20Op	Hereditary or idiopathic disturbance of tooth structure 
+J0050	Amelogenesis imperfecta 
+X20Oq	Amelogenesis imperfecta - hypoplastic 
+X20Or	Amelogenesis imperfecta - hypoplastic autosomal dominant - local 
+X20Os	Amelogenesis imperfecta - hypoplastic autosomal dominant - smooth 
+X20Ot	Amelogenesis imperfecta - hypoplastic autosomal dominant - rough 
+X20Ou	Amelogenesis imperfecta - recessive - rough 
+X20Ov	Amelogenesis imperfecta - hypomaturation 
+X20Ow	Amelogenesis imperfecta - hypomaturation - autosomal dominant - hypoplastic with taurodontism 
+X20Ox	Amelogenesis imperfecta - hypomaturation - recessive pigmented 
+X20Oy	Amelogenesis imperfecta - hypomaturation - snow capped teeth 
+X20Oz	Amelogenesis imperfecta - hypocalcified 
+X20P0	Enamel defect as part of syndrome 
+J0051	Dentinogenesis imperfecta 
+X20P1	Dentinogenesis imperfecta - Shield's type I 
+X20P2	Dentinogenesis imperfecta - Shield's type II 
+X20P3	Dentinogenesis imperfecta - Shield's type III 
+J0053	Dentine dysplasia 
+X20P4	Dentine dysplasia - Shield's type I 
+X20P5	Dentine dysplasia - Shield's type II 
+X20P6	Dentine defect as part of syndrome 
+J0054	Shell teeth 
+J0048	Regional odontodysplasia 
+J0052	Odontogenesis imperfecta 
+X20P7	Disturbance of tooth eruption or exfoliation 
+X20P8	Natal tooth 
+X20P9	Neonatal tooth 
+J0062	Premature tooth eruption 
+J0060	Delayed eruption of tooth 
+J0061	Obstructed tooth eruption 
+J0064	Delayed exfoliation of deciduous tooth 
+X20PA	Submerging tooth 
+X20PB	Overeruption of tooth 
+X20PC	Early tooth exfoliation 
+J050.	Early tooth exfoliation due to systemic disease 
+J0063	Persistent primary tooth eruption 
+J006z	Tooth eruption disturbances NOS 
+J010.	Dental caries 
+X20PD	Dental caries confined to enamel 
+J0107	Incipient enamel dental caries 
+J0105	Acute enamel dental caries 
+J0106	Chronic enamel dental caries 
+J0108	Enamel dental caries unspecified 
+X20PE	Dental caries confined to enamel and dentine 
+J0102	Acute dentine dental caries 
+J0103	Chronic dentine dental caries 
+J0104	Dentine dental caries unspecified 
+X20PF	Dental caries extending to pulp 
+J0101	Root caries 
+X20PH	Rampant dental caries 
+J0100	Arrested dental caries 
+X20PI	Xerostomia-related dental caries 
+XaFnq	Radiation-induced tooth decay 
+J0109	Infantile melanodontia 
+J010A	Odontoclasia 
+J010z	Dental caries NOS 
+Jyu01	[X]Other dental caries 
+XE0r4	Bad teeth/caries 
+X20PJ	Tooth surface loss 
+J011.	Excessive attrition of teeth 
+J012.	Tooth abrasion 
+J0122	Occupational abrasion of teeth 
+J0120	Dentifrice abrasion of teeth 
+J0123	Ritual abrasion of teeth 
+J0124	Traditional abrasion of teeth 
+J0121	Habitual abrasion of teeth 
+J0125	Wedge defect of teeth NOS 
+J012z	Abrasion of teeth NOS 
+J013.	Tooth erosion 
+J0132	Idiopathic teeth erosion 
+J0133	Occupational teeth erosion 
+J0131	Teeth erosion due to vomiting 
+J0130	Teeth erosion due to medicine 
+J013z	Erosion of teeth NOS 
+J0110	Approximal tooth wear 
+J0111	Occlusal tooth wear 
+J011z	Excessive tooth attrition NOS 
+XE0bX	Teeth abrasion &/or erosion 
+J014.	Pathological tooth resorption 
+J0140	Pathological tooth resorption - external 
+J0141	Pathological tooth resorption - internal 
+J014z	Pathological tooth resorption NOS 
+XaADQ	Occlusal trauma 
+XaADR	Primary occlusal trauma 
+XaADS	Secondary occlusal trauma 
+J015.	Hypercementosis 
+J016.	Ankylosis of tooth 
+X20PK	Cracked tooth syndrome 
+J01y1	Tooth hypersensitivity 
+J053.	Retained tooth root 
+XaFnr	Disease of pulp of tooth 
+J022.	Pulp degeneration 
+Xa0lm	Hard tissue formation in pulp 
+J0230	Secondary dentine 
+J0220	Pulp stones 
+J023z	Abnormal pulp hard tissue NOS 
+J022z	Pulp degeneration NOS 
+J0210	Pulp necrosis 
+J0211	Mummified pulp 
+J021z	Necrosis of the pulp NOS 
+J020.	Pulpitis 
+J0202	Acute pulpitis 
+X20PL	Chronic pulpitis 
+J0205	Chronic pulpitis unspecified 
+J0201	Chronic hyperplastic pulpitis 
+X20PM	Pulpitis - reversible 
+X20PN	Pulpitis - irreversible 
+J0204	Chronic ulcerative pulpitis 
+J0200	Pulpal abscess 
+J020z	Pulpitis NOS 
+Xa0u1	Injury of tooth 
+XA0IF	Tooth crown infraction 
+XA0ID	Fracture of tooth 
+Xa0u2	Tooth crown fracture 
+XA0IJ	Complicated tooth crown fracture 
+XA0IG	Uncomplicated tooth crown fracture 
+XA0IH	Enamel fracture 
+XA0II	Enamel and dentine fracture 
+XA0IM	Tooth root fracture 
+XA0IK	Uncomplicated tooth crown and root fracture 
+XA0IL	Complicated tooth crown and root fracture 
+XE1mP	Broken tooth injury 
+S8373	Broken tooth injury with complication 
+XA0IE	Broken teeth injury without complication 
+S8363	Broken tooth injury (& [without complication]) 
+S8367	Dislocation of tooth 
+XA0IQ	Intrusive luxation of tooth 
+XA0IP	Subluxation of tooth 
+XA0IS	Lateral luxation of tooth 
+XA0IR	Extrusive luxation of tooth 
+XA0IT	Exarticulation of tooth 
+X20PO	Staining of tooth 
+X20PP	Extrinsic staining of tooth 
+J0362	Extrinsic staining of tooth - betel 
+J0364	Extrinsic staining of tooth - tobacco 
+X20PQ	Extrinsic staining of tooth - black 
+X20PR	Extrinsic staining of tooth - brown 
+X20PS	Extrinsic staining of tooth - chromogenic plaque flora 
+X20PT	Extrinsic staining of tooth - medication 
+J017.	Posteruptive teeth staining 
+J017z	Posteruptive teeth staining NOS 
+X20PU	Intrinsic staining of tooth 
+X20PV	Intrinsic staining of tooth - non-vital tooth 
+X20PW	Intrinsic staining of tooth - metabolic disease 
+X20PX	Intrinsic staining of tooth - drug-induced 
+X20PY	Intrinsic staining of tooth - tetracycline 
+J0030	Dental fluorosis 
+J0172	Teeth staining due to pulpal bleeding 
+J0171	Teeth staining due to metals 
+J0170	Teeth staining due to drugs 
+XE0a6	Tooth position anomaly 
+X20SJ	Crowding of teeth 
+J0430	Anterior imbrication of teeth 
+J0431	Posterior imbrication of teeth 
+J0432	Tooth crowding NOS 
+X20SK	Abnormal tooth spacing 
+X20SL	Spacing of anterior teeth 
+J0433	Midline diastema of teeth 
+J0434	Spacing of posterior teeth 
+J0435	Abnormal tooth spacing NOS 
+J0436	Tooth rotation 
+J0437	Tooth transposition 
+X20SM	Ectopic tooth 
+X20SN	Impacted tooth - disorder 
+J0439	Impacted permanent canine tooth 
+J043C	Impacted third molar tooth 
+J0438	Impacted incisors 
+J043A	Impacted premolars 
+J043B	Impacted molars 
+J043D	Impacted and buried teeth NOS 
+J043E	Embedded teeth 
+J043z	Tooth position anomaly NOS 
+J043.	Tooth position anomaly (& [crowding] or [diastema] or [imbrication] or [impacted tooth] or [spacing]) 
+J0046	Horner's teeth 
+J004z	Tooth formation disturbance NOS 
+J005.	Hereditary tooth structure disturbances NEC 
+J005z	Hereditary tooth structure disturbances NEC NOS 
+J006.	Tooth eruption disturbances 
+J00y.	Other tooth development and eruption disturbances 
+J00y0	Pre-eruption tooth colour changes 
+J00yz	Other tooth development and eruption disturbances NOS 
+J00z.	Tooth development and eruption disorders NOS 
+J01..	Teeth hard tissue diseases 
+Jyu02	[X]Other specified diseases of hard tissues of teeth 
+J01y.	Other teeth hard tissue disease 
+J01y0	Irradiated teeth enamel 
+J01yz	Other teeth hard tissue disease NOS 
+J01z.	Hard tissue teeth disease NOS 
+Jyu00	[X]Other disorders of tooth development 
+X20OQ	Tooth eruption disorders 
+X20OR	Teeth development and eruption disorders 
+XE0Zv	Tooth development and eruption disorders 
+XE0Zy	Disturbance of tooth formation 
+1913.	(Bad teeth/caries) or (caries - symptom) 
+J00..	(Tooth development &/or eruption disorders) or (absence of teeth) 
+J004.	(Disturbance of tooth formation) or (enamel hypoplasia) 
+XE0bV	Tooth disease (& [hard tissue]) 
+X20Pa	Periapical disease 
+XE0a0	Acute apical periodontitis 
+J0260	Periapical granuloma 
+J028.	Radicular cyst 
+J0280	Apical radicular cyst 
+X20Pd	Lateral radicular cyst 
+J0283	Residual radicular cyst 
+J028z	Radicular cyst NOS 
+J026.	Chronic apical periodontitis 
+J026z	Chronic apical periodontitis NOS 
+XE0a1	Gingival and periodontal disease 
+X20Pe	Gingival disease 
+Xa1Im	Gingivitis 
+J030.	Acute gingivitis 
+Xa0lc	Acute necrotising ulcerative gingivitis 
+Xa0ld	Acute herpetic gingivostomatitis 
+X20Ph	Puberty gingivitis 
+X20Pi	Pregnancy gingivitis 
+X20Pk	Hypersensitivity gingivitis 
+X20Pj	Plasma cell gingivitis 
+XE0a2	Chronic gingivitis 
+J0310	Chronic marginal gingivitis 
+X20Pm	Chronic fibrous gingivitis 
+J0313	Chronic hyperplastic gingivitis 
+X20Pn	Chronic fibro-oedematous gingivitis 
+J031z	Chronic gingivitis NOS 
+J0314	Gingivostomatitis 
+XE0RC	Herpetic gingivostomatitis 
+Xa0ld	Acute herpetic gingivostomatitis 
+J0311	Ulcerative gingivitis 
+J031.	Gingivitis (& [chronic]) 
+XE0bf	(Chronic gingivitis) or (gingivostomatitis) 
+X20Po	Chronic gingival granulomatous condition 
+X20Pp	Orofacial granulomatosis of gingivae 
+X20Pq	Orofacial Crohn's disease of gingivae 
+X20Ps	Wegener's granulomatosis of gingivae 
+J0312	Desquamative gingivitis 
+XSHrO	Parulis 
+J032.	Gingival recession 
+X20Q1	Gingivitis artefacta 
+X76Zy	Gingival cleft 
+XaDbM	Stillman's gingival cleft 
+J0320	Generalised gingival recession 
+J0321	Localised gingival recession 
+J0322	Post-infective gingival recession 
+J0323	Postoperative gingival recession 
+J032z	Gingival recession NOS 
+X20Pt	Gingival hyperplasia 
+X20Pu	Gingival enlargement - drug-induced 
+J03y4	Gingival fibromatosis 
+X20Pv	Hereditary gingival fibromatosis 
+J03y2	Gingival cyst 
+J0842	Gingival cysts of infant 
+X20Px	Gingival cyst of adult 
+J03y5	Gingival polyp 
+X20Py	Gingival fibroepithelial polyp 
+X20Pz	Gingival pyogenic granuloma 
+X20Q0	Gingival pregnancy tumour 
+J03y1	Giant cell epulis 
+XE2nA	Gingival enlargement NOS 
+XaADT	Haemangioma of gingiva 
+XaADK	Linear gingival erythema 
+X20Pf	Gingivitis/gingival disease 
+X20Pl	Chronic gingival condition 
+X20Q2	Periodontal disease 
+Xa0J3	Periodontal pocketing 
+X20Q3	Thickened dental follicle 
+J03y6	Periodontal lesion due to traumatic occlusion 
+J0332	Periodontal abscess 
+X20Q4	Periodontal and endodontic lesion 
+XM0sC	Periodontitis 
+J034.	Chronic periodontitis 
+XaADP	Chronic periodontitis with drifting of teeth 
+J0344	Alveolar pyorrhoea 
+J0342	Chronic periodontitis simplex 
+J0343	Chronic periodontitis complex 
+J034z	Chronic periodontitis NOS 
+X20Q9	Human immunodeficiency virus-associated periodontitis 
+X20QA	Acute necrotising ulcerative periodontitis 
+X20Q8	Refractory periodontitis 
+X20Q7	Rapidly progressive periodontitis 
+J035.	Juvenile periodontitis 
+X20Q6	Early onset periodontitis 
+XaADN	Early onset periodontitis - localised 
+XaADO	Early onset periodontitis - generalised 
+X20Q5	Prepubertal periodontitis 
+XaADL	Prepubertal periodontitis - localised 
+XaADM	Prepubertal periodontitis - generalised 
+J033.	Acute periodontitis 
+J033z	Acute periodontitis NOS 
+X20QC	Pericoronitis 
+J0331	Acute pericoronitis 
+J0340	Chronic pericoronitis 
+XA0IN	Injury of periodontal tissue 
+XA0IO	Concussion of periodontal ligament 
+XA0IT	Exarticulation of tooth 
+S8367	Dislocation of tooth 
+XA0IQ	Intrusive luxation of tooth 
+XA0IP	Subluxation of tooth 
+XA0IS	Lateral luxation of tooth 
+XA0IR	Extrusive luxation of tooth 
+J0330	Acute pericementitis 
+J0341	Chronic pericementitis 
+J03y.	Other specified periodontal disease 
+J03yz	Other specified periodontal disease NOS 
+Jyu04	[X]Other periodontal diseases 
+J03z.	Gingival and periodontal disease NOS 
+J03..	Gingival &/or periodontal disease (& [gingivitis]) 
+XE0bd	Gingival &/or periodontal disease 
+XE0bh	(Gingival and periodontal disease NOS) or (giant cell epulis) or (periodontitis) 
+J036.	Deposits on tooth 
+X20QE	Dental calculus 
+J0360	Subgingival dental calculus 
+J0361	Supragingival dental calculus 
+J0363	Dental plaque 
+X20QF	Subgingival plaque 
+X20QG	Supragingival plaque 
+J036z	Accretions on teeth NOS 
+X20QH	Alveolar ridge abnormality 
+J052.	Edentulous alveolar ridge atrophy 
+X20QI	Alveolar ridge enlargement 
+J05y0	Alveolar ridge enlargement NOS 
+J05y1	Irregular alveolar process 
+X20QJ	Flabby alveolar ridge 
+X20QK	Knife edge alveolar ridge 
+X20QL	Feather edge alveolar ridge 
+X20QM	Pointed edge alveolar ridge 
+J03y7	Gingival and edentulous alveolar ridge lesion associated with trauma 
+J0834	Oral fistula 
+X00mD	Oroantral fistula 
+XaDtU	Oroantral fistula - immediate 
+XaDtV	Oroantral fistula - established 
+Xa2Y9	Injury of dental structures 
+Xa0u1	Injury of tooth 
+XA0IF	Tooth crown infraction 
+XA0ID	Fracture of tooth 
+Xa0u2	Tooth crown fracture 
+XA0IJ	Complicated tooth crown fracture 
+XA0IG	Uncomplicated tooth crown fracture 
+XA0IH	Enamel fracture 
+XA0II	Enamel and dentine fracture 
+XA0IM	Tooth root fracture 
+XA0IK	Uncomplicated tooth crown and root fracture 
+XA0IL	Complicated tooth crown and root fracture 
+XE1mP	Broken tooth injury 
+S8373	Broken tooth injury with complication 
+XA0IE	Broken teeth injury without complication 
+S8363	Broken tooth injury (& [without complication]) 
+S8367	Dislocation of tooth 
+XA0IQ	Intrusive luxation of tooth 
+XA0IP	Subluxation of tooth 
+XA0IS	Lateral luxation of tooth 
+XA0IR	Extrusive luxation of tooth 
+XA0IT	Exarticulation of tooth 
+XA0IN	Injury of periodontal tissue 
+XA0IO	Concussion of periodontal ligament 
+XA0IT	Exarticulation of tooth 
+S8367	Dislocation of tooth 
+XA0IQ	Intrusive luxation of tooth 
+XA0IP	Subluxation of tooth 
+XA0IS	Lateral luxation of tooth 
+XA0IR	Extrusive luxation of tooth 
+XE1qf	(Open wound - inside mouth (& [palate] or [tongue])) or (broken teeth) 
+Xa7Pi	Infected tooth socket 
+J0650	Dry tooth socket 
+J065z	Alveolitis of jaw NOS 
+Xa7I4	Dental abscess 
+J0251	Periapical abscess 
+J025.	Periapical abscess without a sinus 
+J025z	Periapical abscess without a sinus NOS 
+J0270	Periapical abscess with a sinus 
+J027z	Periapical abscess with a fistula NOS 
+J0332	Periodontal abscess 
+X20QD	Migratory dental abscess 
+J0200	Pulpal abscess 
+XaDu4	Infection of oral cavity, teeth and salivary gland 
+J0640	Abscess of jaw 
+J0251	Periapical abscess 
+J025.	Periapical abscess without a sinus 
+J025z	Periapical abscess without a sinus NOS 
+J0270	Periapical abscess with a sinus 
+J027z	Periapical abscess with a fistula NOS 
+XE0Zz	Pulp and periapical tissue disease 
+J02z.	Pulp and periapical tissue disease NOS 
+Jyu03	[X]Other and unspecified diseases of pulp and periapical tissues 
+J02..	Pulp &/or periapical tissue disease 
+J024.	(Acute apical periodontitis) or (dental infection) 
+J05y.	Other specified dental disorder &/or toothache

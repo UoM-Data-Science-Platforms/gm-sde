@@ -1,0 +1,803 @@
+^ESCT1190243	Hemorrhage in early pregnancy, delivered
+^ESCT1190258	Cesarean section
+^ESCT1190396	Delayed AND/OR secondary postpartum hemorrhage
+^ESCT1191881	Obstructed labor due to fetal abnormality
+^ESCT1192330	Birthweight of baby NOS
+^ESCT1192386	Complication occurring during labor and delivery
+^ESCT1192443	Disorders relating to long gestation and high birthweight
+^ESCT1192449	Hemorrhage in early pregnancy
+^ESCT1198967	Liveborn with meconium liquor, unspecified
+^ESCT1222040	Spontaneous rupture of fetal membranes
+^ESCT1222041	Spontaneous rupture of foetal membranes
+^ESCT1245849	[V]Healthy liveborn infants according to type of birth
+^ESCT1246140	[V]Singleton NOS
+^ESCT1246141	[V]Singleton, born before admission to hospital
+^ESCT1246143	[V]Singleton, born outside hospital and not hospitalised
+^ESCT1246166	[V]Twin, mate live born
+^ESCT1246167	[V]Twin, mate liveborn NOS
+^ESCT1246168	[V]Twin, mate stillborn
+^ESCT1246169	[V]Twin, mate stillborn NOS
+^ESCT1246321	[X]Assisted single delivery, unspecified
+^ESCT1247740	[X]Other manipulation-assisted delivery
+^ESCT1247756	[X]Other specified assisted single delivery
+^ESCT1248285	Baby BW = < 3% (under 2500g)
+^ESCT1270246	Third-stage postpartum haemorrhage - deliv with p/n problem
+^ESCT1270386	Manually assisted spontaneous delivery
+^ESCT1270465	Foetal distress, in liveborn infant
+^ESCT1270466	Large-for-dates - delivered
+^ESCT1270535	Order of birth at delivery
+^ESCT1271723	Mild or unspecified pre-eclampsia - delivered
+^ESCT1272010	Other uterine/pelvic floor abnormality - baby delivered
+^ESCT1378931	Non-obstetric episiotomy
+^ESCT1378935	Colpoepisiorrhaphy
+^ESCT1382256	Laparotrachelotomy
+^ESCT1407505	Induction of abortion by dilation and curettage
+^ESCT1407506	Dilation and curettage for termination of pregnancy
+^ESCT1407507	Dilatation and evacuation termination of pregnancy
+^ESCT1408485	Gas and air analgesia in labour
+^ESCT1419513	Brow presentation of fetus
+^ESCT1419514	Brow presentation of foetus
+^ESCT1419542	Face presentation of fetus
+^ESCT1419543	Face presentation of foetus
+^ESCT2N462721	2nd stage of labor length
+^ESCTAB307785	Abnormality of forces of labor
+^ESCTAB307786	Abnormal uterine contraction
+^ESCTAC288227	Acromion presentation
+^ESCTAC307769	Active labor
+^ESCTAC307771	Active labour
+^ESCTAF510595	Afibrinogenemia - postpartum
+^ESCTAM277386	Amniotic fluid pulmonary embolism
+^ESCTAN306114	Antepartum hemorrhage
+^ESCTAN479470	Antepartum hemorrhage with coagulation defect - delivered
+^ESCTAN479476	Antepartum hemorrhage with trauma - delivered
+^ESCTAN479486	Antepartum hemorrhage with uterine leiomyoma - delivered
+^ESCTAN479643	Anemia during pregnancy - baby delivered
+^ESCTAP279553	Application of or delivery by low forceps
+^ESCTAP306115	APH - Antepartum haemorrhage
+^ESCTAP306116	APH - Antepartum hemorrhage
+^ESCTAP351630	Application of or delivery by mid forceps
+^ESCTAP462827	Apgar score at 1 minute
+^ESCTAP462841	Apgar score at 5 minutes
+^ESCTAP462854	Apgar score at 10 minutes
+^ESCTAP467642	Application of fetal scalp electrode
+^ESCTAP590624	Application of and delivery by forceps
+^ESCTAR676752	AROM - Artificial rupture of membrane
+^ESCTAR676753	ARM - Artificial rupture of membrane
+^ESCTAS258808	Assisted spontaneous delivery
+^ESCTAS478201	Aspiration pneumonitis due to anesthesia during labor and delivery
+^ESCTAS677148	Assess postpartum care
+^ESCTAT293599	Atonic postpartum haemorrhage
+^ESCTAT293600	Atonic postpartum hemorrhage
+^ESCTBA379156	Bandl's ring dystocia
+^ESCTBA379158	Bandl's ring
+^ESCTBA462757	Baby birth weight under 3% (under 2500g)
+^ESCTBA462759	Baby BW under 3% (under 2500g)
+^ESCTBA462760	Baby birth weight equal to 3% - 9% (2500-2849g)
+^ESCTBA462762	Baby birth weight = 3% - 9% (2500-2849g)
+^ESCTBA462764	Baby birth weight = 10%-24% (2850-3149g)
+^ESCTBA462765	Baby birth weight equal to 10%-24% (2850-3149g)
+^ESCTBA462766	Baby birth weight equal to 25%-49% (3150-3449g)
+^ESCTBA462768	Baby birth weight = 25%-49% (3150-3449g)
+^ESCTBA462769	Baby birth weight equal to 50%-74% (3450-3749g)
+^ESCTBA462771	Baby birth weight = 50%-74% (3450-3749g)
+^ESCTBA462772	Baby birth weight equal to 75%-89% (3750-4049g)
+^ESCTBA462774	Baby birth weight = 75%-89% (3750-4049g)
+^ESCTBA462776	Baby birth weight = 90%-96% (4050-4399g)
+^ESCTBA462777	Baby birth weight equal to 90%-96% (4050-4399g)
+^ESCTBA462778	Baby birth weight equal to or greater than 96% (over 4499g)
+^ESCTBA462780	Baby birth weight = > 96% (over 4499g)
+^ESCTBA462781	Baby birth weight 4400-4499g
+^ESCTBA600059	Baby birth weight less than 751gm
+^ESCTBA600061	Baby birth weight = below 751gm
+^ESCTBA600062	Baby birth weight equal to 751g-1kg
+^ESCTBA600064	Baby birth weight = 751g-1kg
+^ESCTBA600066	Baby birth weight = 1.0-1.5kg
+^ESCTBA600068	Baby birth weight = 1.5-2.0kg
+^ESCTBA600120	Baby birth weight 2.0-2.5kg
+^ESCTBB462717	BBA - Born before arrival
+^ESCTBI311517	Birth weight 4500 grams OR more
+^ESCTBI326538	Birth weight of baby
+^ESCTBI343091	Birth asphyxia with 1 minute Apgar score 0-3
+^ESCTBI375826	Birth asphyxia with 1 minute Apgar score 4-7
+^ESCTBI430154	Birth finding
+^ESCTBI462707	Birth detail
+^ESCTBI462783	Birth head circumference equal to third centile
+^ESCTBI462785	Birth head circumference = Third centile
+^ESCTBI462786	Birth head circumference equal to third-ninth centile
+^ESCTBI462788	Birth head circumference = third-ninth centile
+^ESCTBI462789	Birth head circumference equal to 10th-24th centile
+^ESCTBI462791	Birth head circumference = 10th-24th centile
+^ESCTBI462792	Birth head circumference equal to 25th-49th centile
+^ESCTBI462794	Birth head circumference = 25th-49th centile
+^ESCTBI462795	Birth head circumference equal to 50th-74th centile
+^ESCTBI462797	Birth head circumference = 50th-74th centile
+^ESCTBI462798	Birth head circumference equal to 75th-89th centile
+^ESCTBI462800	Birth head circumference = 75th-89th centile
+^ESCTBI462801	Birth head circumference equal to 90th-96th centile
+^ESCTBI462803	Birth head circumference = 90th-96th centile
+^ESCTBI462804	Birth head circumference equal to or greater than 97th centile
+^ESCTBI462806	Birth head circumference = > 97th centile
+^ESCTBI462808	Birth length equal to third centile
+^ESCTBI462810	Birth length = third centile
+^ESCTBI462811	Birth length equal to third-ninth centile
+^ESCTBI462813	Birth length=third-ninth centile
+^ESCTBI462814	Birth length equal to 10th-24th centile
+^ESCTBI462817	Birth length equal to 25th-49th centile
+^ESCTBI462818	Birth length equal to 50th-74th centile
+^ESCTBI462821	Birth length equal to 75th-89th centile
+^ESCTBI462822	Birth length equal to 90th-96th centile
+^ESCTBI462824	Birth length equal to or greater than 97th centile
+^ESCTBI462998	Birth examination abnormal - referred
+^ESCTBI462999	Birth examination abnormal - on treatment
+^ESCTBI510141	Birthing procedure
+^ESCTBI558831	Birth hypoxia
+^ESCTBI812510	Birth order
+^ESCTBO573106	Born after induced labor
+^ESCTBO654661	Born by cesarean section
+^ESCTBO655735	Born by elective cesarean section
+^ESCTBO655737	Born by normal vagin delivery
+^ESCTBO674945	Born by vacuum extraction
+^ESCTBO674947	Born by emergency cesarean section
+^ESCTBR590626	Brandt-Andrews placental delivery
+^ESCTBW326539	BW - Birth weight
+^ESCTCA268260	Caesarean section
+^ESCTCA343070	Caesarean section by peritoneal exclusion
+^ESCTCA480123	Cardiac complications of anesthesia during labor and delivery
+^ESCTCA660161	Caesarean section by laparotrachelotomy
+^ESCTCE316129	Cesarean hysterectomy
+^ESCTCE343067	Cesarean section by peritoneal exclusion
+^ESCTCE397281	Cephalocentesis for hydrocephalus
+^ESCTCE480035	Cervical tear resulting from childbirth
+^ESCTCE480125	Central nervous system complications of anesthesia during labor and delivery
+^ESCTCE480148	Cesarean delivery
+^ESCTCE480151	Cesarean delivery - delivered
+^ESCTCE480153	Cesarean section - pregnancy at term
+^ESCTCE480161	Cesarean section following previous cesarean section
+^ESCTCE660165	Cesarean section by laparotrachelotomy
+^ESCTCH550537	Childbirth examination - normal
+^ESCTCH645864	Childbirth operation
+^ESCTCL386967	Classical caesarean section
+^ESCTCL386968	Classical cesarean section
+^ESCTCL386971	Classical transperitoneal cesarean section
+^ESCTCL386973	Classical transperitoneal caesarean section
+^ESCTCO350945	Contraction ring dystocia
+^ESCTCO350947	Contraction ring
+^ESCTCO377546	Complication of obstetrical surgery AND/OR procedure
+^ESCTCO386970	Corporeal cesarean section
+^ESCTCO386974	Corporeal caesarean section
+^ESCTCO436958	Compound presentation of fetus
+^ESCTCO479905	Complication occurring during labour and delivery
+^ESCTCO480069	Complications of anesthesia during labor and delivery
+^ESCTCO510559	Complete breech delivery
+^ESCTCO551725	Cord prolapse
+^ESCTCO574486	Cord around neck with compression
+^ESCTCO574487	Cord tight around neck
+^ESCTCO574488	Cord tightly around neck
+^ESCTCO590625	Controlled cord traction of placenta
+^ESCTCO623938	Complication of introduction procedure
+^ESCTCP661605	CPT - Complete perineal tear
+^ESCTCS268262	CS - Caesarean section
+^ESCTCS268263	CS - Cesarean section
+^ESCTDE286941	Delayed AND/OR secondary postpartum haemorrhage
+^ESCTDE286949	Delayed postpartum haemorrhage
+^ESCTDE286950	Delayed postpartum hemorrhage
+^ESCTDE395234	Delivery by Kielland rotation
+^ESCTDE395235	Delivery by Kjelland rotation
+^ESCTDE430153	Delivery observations
+^ESCTDE479298	Delivery of viable foetus in abdominal pregnancy
+^ESCTDE480143	Delivered by mid-cavity forceps with rotation
+^ESCTDE480146	Deliveries by caesarean
+^ESCTDE480147	Deliveries by cesarean
+^ESCTDE480155	Delivery by elective cesarean section
+^ESCTDE480157	Delivery by emergency cesarean section
+^ESCTDE480159	Delivery by cesarean hysterectomy
+^ESCTDE480168	Deliveries by destructive operation
+^ESCTDE551726	Descent of umbilical cord
+^ESCTDI291196	Disproportion between foetal head and pelvis
+^ESCTDI291197	Disproportion between fetal head and pelvis
+^ESCTDI291200	Disproportion between fetus and pelvis
+^ESCTDI291201	Disproportion between foetus and pelvis
+^ESCTDI323895	Difficult labor
+^ESCTDI323899	Difficult labour
+^ESCTDI353008	Disorder of uterine cervix
+^ESCTDI353009	Disease of cervix
+^ESCTDI353010	Disorder of cervix
+^ESCTDI368490	Disorder of amniotic cavity AND/OR membrane
+^ESCTDI368491	Disorder of amniotic fluid and membranes
+^ESCTDI412608	Disorder of labour and delivery
+^ESCTDI412609	Disorder of labor and delivery
+^ESCTDI437847	Disorder of placenta
+^ESCTDI437848	Disorder of placenta and placental transfusion
+^ESCTDI465457	Disorder of pregnancy
+^ESCTDI510489	Disorder of pelvic size and disproportion
+^ESCTDI550741	Disorder relating to long gestation and/or high birth weight
+^ESCTDI652715	Dilation and curettage of uterus after delivery
+^ESCTDR397279	Drainage of fetal hydrocephalic head
+^ESCTDR397280	Drainage of fetal hydrocephalus
+^ESCTDR397282	Drainage of foetal hydrocephalic head
+^ESCTDR397283	Drainage of foetal hydrocephalus
+^ESCTDT251990	DTA - Deep transverse arrest
+^ESCTDU462718	Duration of first stage of labour
+^ESCTDU462719	Duration of first stage of labor
+^ESCTDU462720	Duration of second stage of labour
+^ESCTDU462722	Duration of second stage of labor
+^ESCTDU462725	Duration of third stage of labor
+^ESCTDU574383	Duration of labour
+^ESCTDU574384	Duration of labor
+^ESCTDY279517	Dyscoordinate labour
+^ESCTDY279518	Dyscoordinate labor
+^ESCTDY323894	Dysfunctional labor
+^ESCTDY323897	Dysfunctional labour
+^ESCTDY323898	Dystocia
+^ESCTEC510525	Eclampsia in labor
+^ESCTEC510526	Eclampsia in childbirth
+^ESCTEL467668	Elective caesarean section
+^ESCTEL467670	Elective cesarean delivery
+^ESCTEL467671	Elective cesarean section
+^ESCTEL467672	Elective upper segment caesarean section
+^ESCTEL467673	Elective upper segment cesarean section
+^ESCTEL467675	Elective lower segment cesarean section
+^ESCTEM556040	Emergency cesarean section
+^ESCTEN521545	Entire delivered uterus
+^ESCTEP467714	Episiorrhaphy
+^ESCTEU307770	Eutocia
+^ESCTEV652718	Evacuation of retained placenta by curettage
+^ESCTEV652719	Evacuation of retained products of conception by curettage
+^ESCTEX343066	Extraperitoneal cesarean section
+^ESCTEX347115	Excessively short umbilical cord
+^ESCTEX599352	Exploration of uterine cavity
+^ESCTFA287217	Failed trial of labor
+^ESCTFA318627	Failed induction of labor
+^ESCTFA355149	Failed forceps
+^ESCTFA376666	Failed medical induction of labor
+^ESCTFA396607	Failure of induction of labor by surgical AND/OR other instrumental method
+^ESCTFA396608	Failure of induction of labour by surgical AND/OR other instrumental method
+^ESCTFA396610	Failed mechanical induction of labor
+^ESCTFA510148	FACH - Forceps to aftercoming head
+^ESCTFD590623	FD - Forceps delivery
+^ESCTFE291198	Fetopelvic disproportion
+^ESCTFE311516	Fetal giant
+^ESCTFE311521	Fetal macrosomia
+^ESCTFE351996	Fetal clavicotomy
+^ESCTFE351997	Fetal cleidorrhexis
+^ESCTFE351998	Fetal cleidotomy
+^ESCTFE364809	Fetal disorder
+^ESCTFE364810	Fetal disease
+^ESCTFE373627	Fetal or neonatal effect of complication of labour and/or delivery
+^ESCTFE373628	Fetal or neonatal effect of complication of labor and/or delivery
+^ESCTFE397173	Fetal distress, in liveborn infant
+^ESCTFE397174	Fetal intrauterine distress, not clear if noted before OR after onset of labor in liveborn infant
+^ESCTFE397175	Fetal intrauterine distress, not clear if noted before OR after onset of labour in liveborn infant
+^ESCTFE483311	Fetal or neonatal effect of breech presentation before labour
+^ESCTFE483314	Fetal or neonatal effect of breech presentation before labor
+^ESCTFE483315	Fetal or neonatal effect of external version before labour
+^ESCTFE483317	Fetal or neonatal effect of external version before labor
+^ESCTFE483319	Fetal or neonatal effect of oblique lie before labour
+^ESCTFE483322	Fetal or neonatal effect of oblique lie before labor
+^ESCTFE483323	Fetal or neonatal effect of transverse lie before labour
+^ESCTFE483325	Fetal or neonatal effect of transverse lie before labor
+^ESCTFE483327	Fetal or neonatal effect of unstable lie before labour
+^ESCTFE483329	Fetal or neonatal effect of unstable lie before labor
+^ESCTFE483331	Fetal or neonatal effect of face presentation before labour
+^ESCTFE483333	Fetal or neonatal effect of face presentation before labor
+^ESCTFE483344	Fetal or neonatal effect of placental damage caused by caesarean section
+^ESCTFE483347	Fetal or neonatal effect of placental damage caused by cesarean section
+^ESCTFE483348	Fetal or neonatal effect of damage to placenta from caesarean section
+^ESCTFE483349	Fetal or neonatal effect of damage to placenta from cesarean section
+^ESCTFE483351	Fetal or neonatal effect of placental damage caused by surgical induction
+^ESCTFE483354	Fetal or neonatal effect of damage to placenta from surgical induction
+^ESCTFE483387	Fetal or neonatal effect of prolapsed cord
+^ESCTFE483390	Fetal or neonatal effect of umbilical cord around neck
+^ESCTFE483392	Fetal or neonatal effect of cord around neck
+^ESCTFE483398	Fetal or neonatal effect of knot in cord
+^ESCTFE483436	Fetal or neonatal effect of maternal bony pelvis abnormality during labour and delivery
+^ESCTFE483438	Fetal or neonatal effect of maternal bony pelvis abnormality during labor and delivery
+^ESCTFE483444	Fetal or neonatal effect of persistent occipito-posterior malposition during labour and delivery
+^ESCTFE483446	Fetal or neonatal effect of persistent occipito-posterior malposition during labor and delivery
+^ESCTFE483448	Fetal or neonatal effect of persistent occipitoposterior position
+^ESCTFE483450	Fetal or neonatal effect of shoulder presentation during labour and delivery
+^ESCTFE483452	Fetal or neonatal effect of shoulder presentation during labor and delivery
+^ESCTFE483454	Fetal or neonatal effect of transverse lie during labour and delivery
+^ESCTFE483456	Fetal or neonatal effect of transverse lie during labor and delivery
+^ESCTFE483458	Fetal or neonatal effect of face presentation during labour and delivery
+^ESCTFE483460	Fetal or neonatal effect of face presentation during labor and delivery
+^ESCTFE483461	Fetal or neonatal effect of disproportion during labour and delivery
+^ESCTFE483465	Fetal or neonatal effect of cephalopelvic disproportion during labor and delivery
+^ESCTFE483466	Fetal or neonatal effect of disproportion during labor and delivery
+^ESCTFE483468	Fetal or neonatal effect of forceps delivery
+^ESCTFE483471	Fetal or neonatal effect of forceps extraction
+^ESCTFE483473	Fetal or neonatal effect of vacuum extraction delivery
+^ESCTFE483475	Fetal or neonatal effect of delivery by vacuum extractor
+^ESCTFE483478	Fetal or neonatal effect of caesarean section
+^ESCTFE483481	Fetal or neonatal effect of cesarean section
+^ESCTFE483482	Fetal or neonatal effect of caesarean delivery
+^ESCTFE483483	Fetal or neonatal effect of cesarean delivery
+^ESCTFE483485	Fetal or neonatal effect of maternal anaesthetic and analgesic agents during labour and delivery
+^ESCTFE483487	Fetal or neonatal effect of maternal anesthetic and analgesic agents during labor and delivery
+^ESCTFE483493	Fetal or neonatal effect of maternal analgesic agent during labour and delivery
+^ESCTFE483495	Fetal or neonatal effect of maternal analgesic agent during labor and delivery
+^ESCTFE483497	Fetal or neonatal effect of maternal general anaesthesia during labour and delivery
+^ESCTFE483500	Fetal or neonatal effect of maternal general anesthesia during labor and delivery
+^ESCTFE483501	Fetal or neonatal effect of maternal epidural anaesthesia during labour and delivery
+^ESCTFE483503	Fetal or neonatal effect of maternal epidural anesthesia during labor and delivery
+^ESCTFE483507	Fetal or neonatal effect of maternal pethidine during labour and delivery
+^ESCTFE483509	Fetal or neonatal effect of maternal pethidine during labor and delivery
+^ESCTFE483511	Fetal or neonatal effect of precipitate delivery
+^ESCTFE483513	Fetal or neonatal effect of rapid second stage of labor
+^ESCTFE483514	Fetal or neonatal effect of rapid second stage of labour
+^ESCTFE483523	Fetal or neonatal effect of hypertonic labour
+^ESCTFE483525	Fetal or neonatal effect of hypertonic labor
+^ESCTFE483527	Fetal or neonatal effect of hypertonic uterine dysfunction
+^ESCTFE483533	Fetal or neonatal effect of induction of labour
+^ESCTFE483535	Fetal or neonatal effect of induction of labor
+^ESCTFE483540	Fetal or neonatal effect of long labour
+^ESCTFE483542	Fetal or neonatal effect of long labor
+^ESCTFE483544	Fetal or neonatal effect of instrumental delivery
+^ESCTFE483657	Fetal death due to prelabor anoxia
+^ESCTFE483661	Fetal death due to labor anoxia
+^ESCTFE483664	Fetal distress before labor - liveborn
+^ESCTFE483678	Fetal distress in labor - liveborn
+^ESCTFE550724	Fetal or neonatal effect of malposition or disproportion during labour or delivery
+^ESCTFE550726	Fetal or neonatal effect of malposition or disproportion during labor or delivery
+^ESCTFE550730	Fetal or neonatal effect of uterine inertia or dysfunction
+^ESCTFE550733	Fetal or neonatal effect of uterine inertia or dysfunction during labor and delivery
+^ESCTFE550734	Fetal or neonatal effect of uterine inertia or dysfunction during labour and delivery
+^ESCTFE565315	Fetal heart monitoring in labor
+^ESCTFE565316	Fetal heart monitoring in labour
+^ESCTFE573114	Fetal distress - in labour
+^ESCTFE573115	Fetal distress - in labor
+^ESCTFE749811	Fetal or neonatal effect of breech delivery
+^ESCTFI295753	Finding of arrangement of foetus
+^ESCTFI295755	Finding of arrangement of fetus
+^ESCTFO291199	Foetopelvic disproportion
+^ESCTFO311520	Foetal giant
+^ESCTFO311522	Foetal macrosomia
+^ESCTFO351999	Foetal cleidorrhexis
+^ESCTFO352000	Foetal clavicotomy
+^ESCTFO364808	Foetal disorder
+^ESCTFO364811	Foetal disease
+^ESCTFO373629	Foetal or neonatal effect of complication of labour and/or delivery
+^ESCTFO397172	Foetal distress, in liveborn infant
+^ESCTFO397176	Foetal intrauterine distress, not clear if noted before OR after onset of labour in liveborn infant
+^ESCTFO479776	Foetus with central nervous system malformation - delivered
+^ESCTFO479791	Foetus with drug damage - delivered
+^ESCTFO479819	Foetal distress - delivered
+^ESCTFO483313	Foetal or neonatal effect of breech presentation before labour
+^ESCTFO483318	Foetal or neonatal effect of external version before labour
+^ESCTFO483321	Foetal or neonatal effect of oblique lie before labour
+^ESCTFO483326	Foetal or neonatal effect of transverse lie before labour
+^ESCTFO483330	Foetal or neonatal effect of unstable lie before labour
+^ESCTFO483334	Foetal or neonatal effect of face presentation before labour
+^ESCTFO483346	Foetal or neonatal effect of placental damage caused by caesarean section
+^ESCTFO483350	Foetal or neonatal effect of damage to placenta from caesarean section
+^ESCTFO483353	Foetal or neonatal effect of placental damage caused by surgical induction
+^ESCTFO483355	Foetal or neonatal effect of damage to placenta from surgical induction
+^ESCTFO483389	Foetal or neonatal effect of prolapsed cord
+^ESCTFO483393	Foetal or neonatal effect of cord around neck
+^ESCTFO483394	Foetal or neonatal effect of umbilical cord around neck
+^ESCTFO483400	Foetal or neonatal effect of knot in cord
+^ESCTFO483439	Foetal or neonatal effect of maternal bony pelvis abnormality during labour and delivery
+^ESCTFO483447	Foetal or neonatal effect of persistent occipito-posterior malposition during labour and delivery
+^ESCTFO483449	Foetal or neonatal effect of persistent occipitoposterior position
+^ESCTFO483453	Foetal or neonatal effect of shoulder presentation during labour and delivery
+^ESCTFO483457	Foetal or neonatal effect of transverse lie during labour and delivery
+^ESCTFO483464	Foetal or neonatal effect of disproportion during labour and delivery
+^ESCTFO483467	Foetal or neonatal effect of cephalopelvic disproportion during labour and delivery
+^ESCTFO483470	Foetal or neonatal effect of forceps delivery
+^ESCTFO483472	Foetal or neonatal effect of forceps extraction
+^ESCTFO483476	Foetal or neonatal effect of vacuum extraction delivery
+^ESCTFO483477	Foetal or neonatal effect of delivery by vacuum extractor
+^ESCTFO483480	Foetal or neonatal effect of caesarean section
+^ESCTFO483484	Foetal or neonatal effect of caesarean delivery
+^ESCTFO483488	Foetal or neonatal effect of maternal anaesthetic and analgesic agents during labour and delivery
+^ESCTFO483496	Foetal or neonatal effect of maternal analgesic agent during labour and delivery
+^ESCTFO483499	Foetal or neonatal effect of maternal general anaesthesia during labour and delivery
+^ESCTFO483504	Foetal or neonatal effect of maternal epidural anaesthesia during labour and delivery
+^ESCTFO483510	Foetal or neonatal effect of maternal pethidine during labour and delivery
+^ESCTFO483515	Foetal or neonatal effect of rapid second stage of labour
+^ESCTFO483516	Foetal or neonatal effect of precipitate delivery
+^ESCTFO483526	Foetal or neonatal effect of hypertonic labour
+^ESCTFO483529	Foetal or neonatal effect of hypertonic uterine dysfunction
+^ESCTFO483536	Foetal or neonatal effect of induction of labour
+^ESCTFO483543	Foetal or neonatal effect of long labour
+^ESCTFO483656	Foetal death due to prelabour anoxia
+^ESCTFO483659	Foetal death due to labour anoxia
+^ESCTFO483667	Foetal distress before labour - liveborn
+^ESCTFO483679	Foetal distress in labour - liveborn
+^ESCTFO510146	Forceps application to aftercoming head
+^ESCTFO510147	Forceps delivery to the aftercoming head
+^ESCTFO550729	Foetal or neonatal effect of abnormal uterine contractions
+^ESCTFO550735	Foetal or neonatal effect of uterine inertia or dysfunction
+^ESCTFO550736	Foetal or neonatal effect of uterine inertia or dysfunction during labour and delivery
+^ESCTFO573113	Foetal distress - in labour
+^ESCTFO661604	Fourth degree perineal laceration
+^ESCTFO661606	Fourth degree perineal tear
+^ESCTFO749812	Foetal or neonatal effect of breech delivery
+^ESCTFT328942	FTND - Full term normal delivery
+^ESCTFU386969	Fundal cesarean section
+^ESCTFU386972	Fundal caesarean section
+^ESCTGA552440	Gas and air analgesia in labor
+^ESCTGE683073	Gestational age at birth
+^ESCTGH327978	GH - Gestational hypertension
+^ESCTHA265585	Hand presentation
+^ESCTHA286946	Haemorrhage after first 24 hours following delivery of placenta
+^ESCTHA291325	Haemorrhage before 22 weeks gestation
+^ESCTHA293603	Haemorrhage within 24 hours following delivery of placenta
+^ESCTHA326379	Haemorrhage with retained, trapped AND/OR adherent placenta
+^ESCTHA327359	Haemorrhage after delivery of fetus
+^ESCTHA327363	Haemorrhage after delivery of foetus
+^ESCTHA382450	Haemorrhage in early pregnancy, delivered
+^ESCTHE286943	Hemorrhage after first 24 hours following delivery of placenta
+^ESCTHE291323	Hemorrhage before 22 weeks gestation
+^ESCTHE293602	Hemorrhage within 24 hours following delivery of placenta
+^ESCTHE326378	Hemorrhage with retained, trapped AND/OR adherent placenta
+^ESCTHE327358	Hemorrhage after delivery of fetus
+^ESCTHI467660	Hindwater rupture with Drew Smythe catheter
+^ESCTHI480042	High vaginal obstetrical laceration
+^ESCTHO350946	Hourglass contraction of uterus
+^ESCTHY265490	Hysterorrhaphy of ruptured uterus
+^ESCTHY291870	Hypotonic contractions
+^ESCTHY291873	Hypotonic uterine action
+^ESCTHY291874	Hypotonic uterine activity
+^ESCTHY311519	Hypertrophic baby
+^ESCTHY327980	Hypertension induced by pregnancy
+^ESCTHY327981	Hypertension complicating pregnancy
+^ESCTHY510591	Hymenal laceration
+^ESCTHY645840	Hysterotrachelotomy
+^ESCTIM293601	Immediate postpartum hemorrhage
+^ESCTIM293604	Immediate postpartum haemorrhage
+^ESCTIN279521	Incoordinate uterine activity
+^ESCTIN291869	Inefficient uterine activity
+^ESCTIN291872	Inadequate uterine activity
+^ESCTIN311208	Intrapartum hemorrhage
+^ESCTIN363455	Interlocked twins
+^ESCTIN469390	Intravenous induction of labor
+^ESCTIN480177	Intrapartum hemorrhage with coagulation defect
+^ESCTIN510116	Induction of labor
+^ESCTIN510524	Intrapartum eclampsia
+^ESCTIN557266	Intrapartum anoxia
+^ESCTIN558830	Intrapartum fetal hypoxia
+^ESCTIN558832	Intrapartum foetal hypoxia
+^ESCTIN599351	Intrapartum cardiotochogram
+^ESCTIN645839	Incision of uterine cervix
+^ESCTIN645841	Incision of cervix
+^ESCTIO510114	IOL - Induction of labour
+^ESCTIO510115	IOL - Induction of labor
+^ESCTKI395237	Kielland's rotational forceps delivery
+^ESCTKN510556	Knot in umbilical cord
+^ESCTKR395236	KRFD - Kielland's rotational forceps delivery
+^ESCTLA259941	Laceration of inner AND/OR muscular layers of perineal structures
+^ESCTLA266267	Laceration of tissues between vaginal AND/OR perineal muscular layers and rectal mucosa
+^ESCTLA323893	Labour problem
+^ESCTLA323896	Labor problem
+^ESCTLA343850	Laceration of superficial layers of perineal structures
+^ESCTLA462893	Labor details
+^ESCTLA467651	Labour procedure
+^ESCTLA467652	Labor operations
+^ESCTLA467653	Labor procedure
+^ESCTLA479747	Large foetus causing disproportion - delivered
+^ESCTLA479822	Labour and delivery complication by meconium in amniotic fluid
+^ESCTLA479824	Labor and delivery complication by meconium in amniotic fluid
+^ESCTLA479827	Labour and delivery complicated by fetal heart rate anomaly with meconium in amniotic fluid
+^ESCTLA479828	Labor and delivery complicated by fetal heart rate anomaly with meconium in amniotic fluid
+^ESCTLA479830	Labor and delivery complicated by biochemical evidence of fetal stress
+^ESCTLA479831	Labour and delivery complicated by biochemical evidence of fetal stress
+^ESCTLA480036	Laceration of cervix resulting from childbirth
+^ESCTLA510117	Labour Induction
+^ESCTLA510118	Labor Induction
+^ESCTLA510589	Laceration of vulva
+^ESCTLA510592	Lacerated hymen
+^ESCTLA549943	Labour and delivery complicated by foetal heart rate anomaly
+^ESCTLA549945	Labour and delivery complicated by fetal heart rate anomaly
+^ESCTLA557264	Labour fetal anoxia
+^ESCTLA557265	Labor fetal anoxia
+^ESCTLA567588	Laceration of perineum
+^ESCTLA678908	Laceration of vagina
+^ESCTLE574386	Length of labor
+^ESCTLI483663	Liveborn with prelabor fetal distress
+^ESCTLI483665	Liveborn with prelabour fetal distress
+^ESCTLI483669	Liveborn with prelabor abnormal heart beat
+^ESCTLI483671	Liveborn with prelabor hypoxia
+^ESCTLI483673	Liveborn with prelabor meconium in liquor
+^ESCTLI483674	Liveborn with labour foetal distress
+^ESCTLI483677	Liveborn with labor fetal distress
+^ESCTLI483681	Liveborn with labor abnormal heart beat
+^ESCTLI483683	Liveborn with labor hypoxia
+^ESCTLI483685	Liveborn with labor meconium in liquor
+^ESCTLI726258	Liveborn born in hospital
+^ESCTLI731057	Livebirth born before admission to hospital
+^ESCTLO279554	Low forceps operation
+^ESCTLO336684	Long labor
+^ESCTLO363457	Locked twins obstructing labor
+^ESCTLO363458	Locked twins obstructing labour
+^ESCTLO660159	Low cervical cesarean section
+^ESCTLO660160	Low cervical transperitoneal caesarean section
+^ESCTLO660167	Lower uterine segment cesarean section
+^ESCTLO660168	Low cervical transperitoneal cesarean section
+^ESCTLO660169	Lower uterine segment caesarean section
+^ESCTLS660162	LSCS - Lower segment caesarean section
+^ESCTLS660166	LSCS - Lower segment cesarean section
+^ESCTLU660163	LUSCS - Lower uterine segment caesarean section
+^ESCTLU660164	LUSCS - Lower uterine segment cesarean section
+^ESCTMA258807	Manually assisted spontaneous delivery
+^ESCTMA309823	Maternal pyrexia during labor
+^ESCTMA311514	Macrosomia
+^ESCTMA311515	Macrosomic baby
+^ESCTMA311518	Macrosomic infant
+^ESCTMA412605	Maternal AND/OR foetal condition affecting labour AND/OR delivery
+^ESCTMA412606	Maternal AND/OR fetal condition affecting labor AND/OR delivery
+^ESCTMA412607	Maternal AND/OR fetal condition affecting labour AND/OR delivery
+^ESCTMA479597	Maternal gonorrhea during pregnancy - baby delivered
+^ESCTMA551721	Malposition and malpresentation of foetus
+^ESCTME300318	Medical induction of labor
+^ESCTME326608	Mendelson's syndrome resulting from a procedure
+^ESCTME326612	Mendelson syndrome resulting from a procedure
+^ESCTME479825	Meconium in amniotic fluid in childbirth
+^ESCTME526715	Meconium stained amniotic fluid
+^ESCTME526716	Meconium staining
+^ESCTMI351629	Mid forceps delivery
+^ESCTMI351631	Mid forceps operation
+^ESCTMI375825	Mild to moderate birth asphyxia
+^ESCTMI467681	Midforceps cephalic delivery with rotation
+^ESCTMO375828	Moderate birth asphyxia
+^ESCTMO574401	Mother delivered
+^ESCTMU479709	Multiple delivery, all by cesarean section
+^ESCTND467697	ND - Normal delivery
+^ESCTNE397278	Needling of hydrocephalic head
+^ESCTNI705350	Nitrous oxide and oxygen gas analgesia in labor
+^ESCTNO307768	Normal labor
+^ESCTNO328944	Normal delivery
+^ESCTNO343068	Norton cesarean operation
+^ESCTNO343071	Norton caesarean operation
+^ESCTNO479698	Normal delivery but ante- or post- natal conditions present
+^ESCTNO510143	Nonrotational forceps delivery
+^ESCTNU591335	Nuchal cord
+^ESCTOB259940	Obstetrical laceration, second degree
+^ESCTOB266266	Obstetrical laceration, third degree
+^ESCTOB295754	Observation of arrangement of fetus
+^ESCTOB295756	Observation of arrangement of foetus
+^ESCTOB343851	Obstetrical laceration, first degree
+^ESCTOB354456	Obstetrical trauma
+^ESCTOB354457	Obstetric trauma
+^ESCTOB479909	Obstructed labor
+^ESCTOB479910	Obstructed labour due to foetal malposition
+^ESCTOB479912	Obstructed labor due to fetal malposition
+^ESCTOB479914	Obstructed labor due to fetal malposition - delivered
+^ESCTOB479915	Obstructed labour due to foetal malposition - delivered
+^ESCTOB479920	Obstructed labor due to breech presentation
+^ESCTOB479922	Obstructed labor due to face presentation
+^ESCTOB479928	Obstructed labor due to compound presentation
+^ESCTOB479930	Obstructed labor caused by bony pelvis
+^ESCTOB479938	Obstructed labor due to generally contracted pelvis
+^ESCTOB479940	Obstructed labor due to pelvic inlet contraction
+^ESCTOB479946	Obstructed labor caused by pelvic soft tissues
+^ESCTOB480050	Obstetric trauma causing pelvic hematoma
+^ESCTOB480052	Obstetric pelvic hematoma - delivered
+^ESCTOB480089	Obstetric anesthesia with central nervous system complications
+^ESCTOB480099	Obstetric toxic reaction to local anesthesia
+^ESCTOB480100	Obstetric toxic reaction caused by local anesthesia
+^ESCTOB480110	Obstetric spinal and epidural anesthesia-induced headache
+^ESCTOB510584	Obstetrical trauma to urethra
+^ESCTOB549972	Obstetric anesthesia with pulmonary complications
+^ESCTOB590263	Observation of sex of baby
+^ESCTOB661607	Obstetric laceration, fourth degree
+^ESCTOB773913	Obstructed labour due to fetal abnormality
+^ESCTOB773915	Obstructed labour due to foetal abnormality
+^ESCTON462746	One male and one female baby
+^ESCTON462752	One male and two female babies
+^ESCTOP510179	Operation to assist delivery
+^ESCTOU626140	Outcome of delivery - finding
+^ESCTOX467661	Oxytocin induction of labour
+^ESCTOX467663	Oxytocin induction of labor
+^ESCTOX467664	Oxytocic induction of labor
+^ESCTPA379159	Pathological retraction ring
+^ESCTPA479546	Papyraceous foetus - delivered
+^ESCTPA548776	Packing to control postnatal vaginal bleeding
+^ESCTPA548779	Pack to control postnatal hemorrhage
+^ESCTPA556914	Pack to control postpartum hemorrhage
+^ESCTPE301833	Pelvitomy
+^ESCTPE324824	Perineal laceration involving fourchette
+^ESCTPE374675	Perineal laceration involving labia
+^ESCTPE510587	Perineal hematoma
+^ESCTPE547748	Pelvic haematoma
+^ESCTPE547749	Pelvic hematoma
+^ESCTPE659622	Perineal tear resulting from childbirth
+^ESCTPH467705	Physiological delivery of placenta
+^ESCTPI327982	PIH - Pregnancy-induced hypertension
+^ESCTPL303215	Placenta accreta without hemorrhage
+^ESCTPL462884	Placental finding
+^ESCTPL462886	Placenta weight
+^ESCTPL462889	Placental diameter
+^ESCTPL479449	Placenta previa without hemorrhage - delivered
+^ESCTPL479461	Placenta previa with hemorrhage - delivered
+^ESCTPO275697	Postmature infancy
+^ESCTPO275698	Postterm infancy
+^ESCTPO275699	Postmature fetus
+^ESCTPO275702	Postmaturity of baby
+^ESCTPO275703	Postmature foetus
+^ESCTPO286944	Postpartum hemorrhage specified as delayed or secondary
+^ESCTPO286945	Postpartum hemorrhage, delayed AND/OR secondary
+^ESCTPO286947	Postpartum haemorrhage specified as delayed or secondary
+^ESCTPO286948	Postpartum haemorrhage, delayed AND/OR secondary
+^ESCTPO291868	Poor labor contractions
+^ESCTPO291875	Poor labour contractions
+^ESCTPO327357	Postpartum hemorrhage
+^ESCTPO479598	Postpartum gonorrhoea
+^ESCTPO479599	Postpartum gonorrhea
+^ESCTPO480239	Postpartum amniotic fluid embolism
+^ESCTPO510218	Postpartum obstetric operation
+^ESCTPO510219	Post-delivery obstetric operation
+^ESCTPO573109	Post-term infant - 42 weeks +
+^ESCTPO652716	Postpartum curettage
+^ESCTPO677147	Postpartum care assessment
+^ESCTPO796104	Postpartum acute renal failure
+^ESCTPP327360	PPH - Postpartum haemorrhage
+^ESCTPP327361	PPH - Postpartum hemorrhage
+^ESCTPR260168	Premature labor
+^ESCTPR260169	Premature onset of labour
+^ESCTPR260170	Preterm labour
+^ESCTPR260171	Preterm labor
+^ESCTPR260172	Premature onset of labor
+^ESCTPR265583	Presentation of prolapsed arm of fetus
+^ESCTPR265586	Presentation of prolapsed arm of foetus
+^ESCTPR304098	Prolonged first stage of labour
+^ESCTPR304099	Prolonged first stage of labor
+^ESCTPR321282	Prematurity
+^ESCTPR321283	Prematurity of foetus
+^ESCTPR334153	Precipitate labor
+^ESCTPR336683	Prolonged labor
+^ESCTPR375641	Prolonged second stage of labour
+^ESCTPR375642	Prolonged second stage of labor
+^ESCTPR389860	Pre-existing hypertension in obstetric context
+^ESCTPR389861	Pre-existing hypertension complicating pregnancy
+^ESCTPR467665	Prostaglandin induction of labour
+^ESCTPR467666	Prostaglandin induction of labor
+^ESCTPR479866	Prem rupture of membranes onset of labor within 24 hours
+^ESCTPR479867	Premature rupture of membranes with onset of labor within 24 hours of the rupture
+^ESCTPR479868	Premature rupture of membranes with onset of labour within 24 hours of the rupture
+^ESCTPR479872	Prem rupture of membranes onset of labor after 24 hours
+^ESCTPR479873	Premature rupture of membranes with onset of labour after 24 hours of the rupture
+^ESCTPR479874	Premature rupture of membranes with onset of labor after 24 hours of the rupture
+^ESCTPR479973	Precipitate labor - delivered
+^ESCTPR510545	Pregnancy with isoimmunisation
+^ESCTPR510546	Pregnancy with isoimmunization
+^ESCTPR551727	Prolapsed cord
+^ESCTPR645866	Pregnancy operation
+^ESCTPR647589	Primary dysfunctional labour
+^ESCTPR647590	Primary dysfunctional labor
+^ESCTPR647591	Primary inadequate contractions
+^ESCTPU301832	Pubiotomy
+^ESCTPU326609	Pulmonary acid aspiration syndrome
+^ESCTRE379155	Retraction ring dystocia
+^ESCTRE419582	Retained placenta, without hemorrhage
+^ESCTRE419583	Retained total placenta without hemorrhage
+^ESCTRE419584	Retained total placenta without haemorrhage
+^ESCTRE467703	Repositioning of inverted uterus
+^ESCTRE480065	Retained portion of placenta or membranes with no hemorrhage
+^ESCTRE549970	Retained placenta or membranes with no hemorrhage
+^ESCTRE557316	Retained membrane without hemorrhage
+^ESCTRE652717	Removal of retained placenta by curettage
+^ESCTRE652720	Removal of secundines by curettage
+^ESCTRH479815	Rhesus isoimmunization - delivered
+^ESCTRU270248	Rupture of amniotic sac 24 OR more hours before labor
+^ESCTRU270249	Rupture of amniotic sac 24 OR more hours before labour
+^ESCTRU362646	Rupture of uterus during AND/OR after labor
+^ESCTRU362647	Rupture of uterus during and after labor
+^ESCTRU480022	Ruptured uterus before labor
+^ESCTRU480026	Rupture of uterus before labor with antenatal problem
+^ESCTRU480028	Rupture of uterus during and after labor - delivered
+^ESCTSB510624	SB - Stillbirth
+^ESCTSC467405	Schuchardt incision
+^ESCTSE251626	Sepsis during labour
+^ESCTSE251627	Septicemia during labor
+^ESCTSE251629	Sepsis during labor
+^ESCTSE320398	Secondary hypotonic uterine dysfunction
+^ESCTSE343090	Severe birth asphyxia
+^ESCTSE479883	Sepsis during labour, delivered
+^ESCTSE479884	Septicemia during labor - delivered
+^ESCTSE479886	Sepsis during labor, delivered
+^ESCTSE564682	Sex of baby at delivery
+^ESCTSF479840	SFD - Small-for-dates baby
+^ESCTSH347116	Short umbilical cord
+^ESCTSH386662	Shock during AND/OR following labour AND/OR delivery
+^ESCTSH386663	Shock during AND/OR following labor AND/OR delivery
+^ESCTSH386665	Shock during or after childbirth
+^ESCTSH395813	Shoulder girdle dystocia
+^ESCTSI467655	SIL - Surgical induction of labor
+^ESCTSI467657	SIL - Surgical induction of labour
+^ESCTSI557022	Simpson forceps delivery
+^ESCTSI776264	Singleton liveborn born in hospital
+^ESCTSI776265	Singleton, born in hospital
+^ESCTSI776267	Singleton liveborn unspecified as to place of birth
+^ESCTSM479838	Small-for-dates baby
+^ESCTSM479841	Small for gestational age baby
+^ESCTSP387396	Spontaneous onset of labor
+^ESCTSP480121	Spinal and epidural anesthesia-induced headache during labor and delivery
+^ESCTSP510571	Spasm of uterus or cervix uteri
+^ESCTSR462652	SRM - Spontaneous rupture of membranes
+^ESCTSR462653	SROM - Spontaneous rupture of membranes
+^ESCTST510122	Stripping of membrane
+^ESCTST676713	Stillbirth - unknown if fetal death intrapartum or prior to labour
+^ESCTST676714	Stillbirth - unknown if fetal death intrapartum or prior to labor
+^ESCTSU265489	Suture of obstetric laceration of corpus uteri
+^ESCTSU343069	Supravesical cesarean section
+^ESCTSU343072	Supravesical caesarean section
+^ESCTSU467656	Surgical induction of labor
+^ESCTSU467715	Suturing of episiotomy
+^ESCTSU510123	Surgical induction of labor by stripping of membranes
+^ESCTSU510124	Surgical induction of labour by stripping of membranes
+^ESCTSV328943	SVD - Spontaneous vaginal delivery
+^ESCTSY301834	Symphysiotomy
+^ESCTSY597427	Syntocinon induction of labor
+^ESCTTH326377	Third stage hemorrhage
+^ESCTTH337673	Threatened abortion (antepartum)
+^ESCTTH462748	Three male babies
+^ESCTTH462754	Three female babies
+^ESCTTO316130	Total hysterectomy after cesarean delivery
+^ESCTTO316131	Total hysterectomy after caesarean delivery
+^ESCTTO480115	Toxic reaction to local anaesthetic during labour and delivery
+^ESCTTO480117	Toxic reaction to local anesthetic during labor and delivery
+^ESCTTO480118	Toxic reaction caused by local anesthetic during labor and delivery
+^ESCTTO480119	Toxic reaction caused by local anaesthetic during labour and delivery
+^ESCTTO510561	Total breech delivery
+^ESCTTR261923	Trauma to vulva during delivery
+^ESCTTR354455	Traumatic lesion during delivery
+^ESCTTR462733	Triplets, all liveborn
+^ESCTTR462734	Triplets - two live and one stillborn
+^ESCTTR462736	Triplets - three stillborn
+^ESCTTR549962	Trauma to perineum and/or vulva during delivery
+^ESCTTU549915	Tumor of uterine body - baby delivered
+^ESCTTW462729	Twins - one still and one live born
+^ESCTTW462730	Twins, one liveborn and one stillborn
+^ESCTTW462742	Two male babies
+^ESCTTW462744	Two female babies
+^ESCTTW462750	Two male and one female babies
+^ESCTTW726274	Twin liveborn born in hospital
+^ESCTTW726275	Twin live born in hospital
+^ESCTUM336642	Umbilical cord around fetal part
+^ESCTUM336643	Umbilical cord around foetal part
+^ESCTUM479987	Umbilical cord tight around neck - delivered
+^ESCTUM551723	Umbilical cord in birth canal
+^ESCTUM551724	Umbilical cord prolapse
+^ESCTUM574489	Umbilical cord tight around baby's neck
+^ESCTUM591334	Umbilical cord around neck
+^ESCTUN318628	Unsuccessful attempt to induce labour
+^ESCTUN318629	Unsuccessfully induced labour
+^ESCTUN318630	Unsuccessfully induced labor
+^ESCTUN318631	Unsuccessful attempt to induce labor
+^ESCTUT264837	Uterine atonia
+^ESCTUT264838	Uterine atony
+^ESCTUT279520	Uterine incoordination
+^ESCTUT293605	Uterine inversion
+^ESCTUT307787	Uterine dystocia
+^ESCTUT379157	Uterine retraction ring
+^ESCTVA350052	Vacuum extraction of fetus
+^ESCTVA350054	Vacuum extraction
+^ESCTVA350055	Vacuum extraction of foetus
+^ESCTVA510567	Vaginal delivery following previous cesarean section
+^ESCTVA526856	Vaginal tear resulting from childbirth
+^ESCTVB510565	VBAC - Vaginal birth after caesarean section
+^ESCTVB510566	VBAC - Vaginal birth after cesarean section
+^ESCTVE556026	Venereal disease in pregnancy
+^ESCTVO396832	Vomiting as reason for care in pregnancy
+^ESCTVU480014	Vulval and/or perineal haematoma during delivery - delivered
+^ESCTVU480016	Vulval and/or perineal hematoma during delivery - delivered
+^ESCTVU549966	Vulval and/or perineal hematoma during delivery
+^ESCTWE326537	Weight - baby
+^ESCTWE462887	Weight of placenta
+EGTON77	Born by caesarean section
+EMISNQAN55	Antepartum stillbirth
+EMISNQBL2	Blood loss in labour
+EMISNQBO41	Born in hospital
+EMISNQBO42	Born overseas
+EMISNQBO43	Born in transit
+EMISNQIN193	Intrapartum stillbirth
+ESCTBO2	Born after induced labour
+ESCTCO1	Complete placenta at delivery
+ESCTME1	Membranes incomplete
+ESCTME2	Membranes complete
+ESCTOR2	Order of birth at delivery
+ESCTST6	Stillbirth - unknown if foetal death intrapartum or prior to labour
+ESCTST6-1	Indeterminate stillbirth
+ESCTSW1	Sweeping of membrane
+ESCTTI1	Time of delivery

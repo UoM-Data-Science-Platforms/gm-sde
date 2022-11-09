@@ -1,0 +1,76 @@
+XE1DV	Osteoarthritis
+N040.	Rheumatoid arthritis
+14G1.	H/O: rheumatoid arthritis
+X701i	Seronegative rheumatoid arthritis
+XaN2K	Disease activity score in rheumatoid arthritis
+X701h	Seropositive rheumatoid arthritis
+N040T	Flare of rheumatoid arthritis
+Nyu1G	[X]Seropositive rheumatoid arthritis, unspecified
+Xa3gL	Rheumatoid arthritis - multiple joint
+Xa3gP	Rheumatoid arthritis NOS
+XM1XV	Rheumatoid arthritis monitoring
+N04..	Inflamm polyarthropathy: (& [rheumatoid arthrit] or [other])
+N040D	Rheumatoid arthritis of knee
+XaBMO	Seropositive errosive rheumatoid arthritis
+XE1DU	Rheumatoid arthritis and other inflammatory polyarthropathy
+N0407	Rheumatoid arthritis of wrist
+N0506	Erosive osteoarthrosis
+Xa3gM	Rheumatoid arthritis - hand joint
+N040B	Rheumatoid arthritis of hip
+X7038	Idiopathic osteoarthritis
+N0402	Rheumatoid arthritis of shoulder
+N0405	Rheumatoid arthritis of elbow
+N0408	Rheumatoid arthritis of metacarpophalangeal joint
+Xa3gN	Rheumatoid arthritis - ankle/foot
+N0400	Rheumatoid arthritis of cervical spine
+Nyu11	[X]Other seropositive rheumatoid arthritis
+N0401	Other rheumatoid arthritis of spine
+N040A	Rheumatoid arthritis of DIP joint of finger
+N0409	Rheumatoid arthritis of PIP joint of finger
+N040F	Rheumatoid arthritis of ankle
+N0404	Rheumatoid arthritis of acromioclavicular joint
+N040L	Rheumatoid arthritis of lesser metatarsophalangeal joint
+N040C	Rheumatoid arthritis of sacroiliac joint
+N040G	Rheumatoid arthritis of subtalar joint
+Nyu12	[X]Other specified rheumatoid arthritis
+X701m	Rheumatoid arthritis with multisystem involvement
+N040H	Rheumatoid arthritis of talonavicular joint
+N040K	Rheumatoid arthritis of first metatarsophalangeal joint
+N040M	Rheumatoid arthritis of interphalangeal joint of toe
+N040J	Rheumatoid arthritis of other tarsal joint
+Nyu10	[X]Rheumatoid arthritis+involvement/other organs or systems
+N0310	Arthropathy in ulcerative colitis
+N05zL	Osteoarthritis NOS, of knee
+C34z.	Gout NOS
+N05zJ	Osteoarthritis NOS, of hip
+X703L	Osteoarthritis of knee
+N05..	Osteoarthritis (& [allied disorders])
+N050.	Generalised osteoarthritis
+X703K	Osteoarthritis of hip
+14G2.	H/O: osteoarthritis
+XM0u9	Arthritis/arthrosis
+52A71	Plain X-ray knee abnormal
+N0502	Generalised osteoarthritis of multiple sites
+N05z1	Osteoarthritis NOS, of shoulder region
+N05z6	Osteoarthritis NOS: [lower leg] or [knee]
+52A31	Plain X-ray hip joint abnormal
+X703B	Osteoarthritis of shoulder joint
+X7006	Knee arthritis NOS
+N05z9	Osteoarthritis NOS, of shoulder
+X7007	Hip arthritis NOS
+XE1Dd	Osteoarthritis NOS, of the hand
+N023.	Gouty arthritis
+XM0Ai	Inflammatory arthritis
+Y8080	Osteoarthritis - knee joint
+Xa3gQ	Osteoarthritis - hand joint
+C340.	Gouty arthropathy
+XE08w	Total prosthetic replacement of knee joint using cement
+XE090	Other total prosthetic replacement of knee joint
+7K30.	Cemented knee arthroplasty (& total (& named variants))
+XM1RU	H/O: arthritis
+Xa87F	Injection of steroid into knee joint
+7K3..	Knee joint operations
+7K6Z3	Injection into joint NEC
+N06z.	(Arthropathy NOS) or (arthritis)
+N11..	(Spondyl & allied dis) or (arthr spine) or (osteoarth spine)
+X00OE	Injection into joint

@@ -32,11 +32,14 @@
 -- Total GP appointments (01.03.18 - 01.03.22)
 -- evidenceOfCKD_egfr (1/0)
 -- evidenceOfCKD_acr (1/0)
--- atRiskOfCKD (1/0)
+-- EarliestEgfrEvidence
+-- EarliestAcrEvidence 
 -- HypertensionAtStudyStart
 -- HypertensionDuringStudyPeriod
 -- DiabetesAtStudyStart
 -- DiabetesDuringStudyPeriod
+-- CKDAtStudyStart
+-- CKDDuringStudyPeriod
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -50,10 +53,43 @@ SET @IndexDate = '2020-03-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--┌──────────────────────────────────────────────────────────────────────┐
+--│ Define Cohort for RQ041: patients with biochemical evidence of CKD   │
+--└──────────────────────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To build the cohort of patients needed for RQ041. This reduces duplication of code in the template scripts.
+
+-- COHORT: Any patient with biochemical evidence of CKD. More detail in the comments throughout this script.
+
+-- INPUT: assumes there exists one temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #Cohort (FK_Patient_Link_ID)
+-- #PatientEventData
+
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -65,11 +101,9 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -----------------------------------------------
---------------------------------------------------------------------------------------------------------
--- COHORT WILL BE ANY PATIENT WITH BIOCHEMICAL EVIDENCE OF CKD, OR AT RISK OF CKD (HAS HYPERTENSION OR DIABETES)
+------------------------------------------
 
+-- OUTPUT: #Patients
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
@@ -113,6 +147,9 @@ CREATE TABLE #codesreadv2 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
+VALUES ('chronic-kidney-disease',1,'1Z1f.',NULL,'CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1f.00',NULL,'CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1e.',NULL,'CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1e.00',NULL,'CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1d.',NULL,'CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1d.00',NULL,'CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1c.',NULL,'CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1c.00',NULL,'CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1b.',NULL,'CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1b.00',NULL,'CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1a.',NULL,'CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1a.00',NULL,'CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1Z.',NULL,'CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1Z.00',NULL,'CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1Y.',NULL,'CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1Y.00',NULL,'CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1X.',NULL,'CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1X.00',NULL,'CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1W.',NULL,'CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1W.00',NULL,'CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1V.',NULL,'CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1V.00',NULL,'CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1T.',NULL,'CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1T.00',NULL,'CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1S.',NULL,'CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1S.00',NULL,'CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1R.',NULL,'CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1R.00',NULL,'CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1Q.',NULL,'CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1Q.00',NULL,'CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1P.',NULL,'CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1P.00',NULL,'CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3'),('chronic-kidney-disease',1,'1Z1N.',NULL,'CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1N.00',NULL,'CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2'),('chronic-kidney-disease',1,'1Z1M.',NULL,'CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z1M.00',NULL,'CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1'),('chronic-kidney-disease',1,'1Z16.',NULL,'Chronic kidney disease stage 3B'),('chronic-kidney-disease',1,'1Z16.00',NULL,'Chronic kidney disease stage 3B'),('chronic-kidney-disease',1,'1Z15.',NULL,'Chronic kidney disease stage 3A'),('chronic-kidney-disease',1,'1Z15.00',NULL,'Chronic kidney disease stage 3A'),('chronic-kidney-disease',1,'1Z14.',NULL,'Chronic kidney disease stage 5'),('chronic-kidney-disease',1,'1Z14.00',NULL,'Chronic kidney disease stage 5'),('chronic-kidney-disease',1,'1Z13.',NULL,'Chronic kidney disease stage 4'),('chronic-kidney-disease',1,'1Z13.00',NULL,'Chronic kidney disease stage 4'),('chronic-kidney-disease',1,'1Z12.',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'1Z12.00',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'1Z11.',NULL,'Chronic kidney disease stage 2'),('chronic-kidney-disease',1,'1Z11.00',NULL,'Chronic kidney disease stage 2'),('chronic-kidney-disease',1,'1Z10.',NULL,'Chronic kidney disease stage 1'),('chronic-kidney-disease',1,'1Z10.00',NULL,'Chronic kidney disease stage 1'),('chronic-kidney-disease',1,'1Z1L.',NULL,'Chronic kidney disease stage 5 without proteinuria'),('chronic-kidney-disease',1,'1Z1L.00',NULL,'Chronic kidney disease stage 5 without proteinuria'),('chronic-kidney-disease',1,'1Z1K.',NULL,'Chronic kidney disease stage 5 with proteinuria'),('chronic-kidney-disease',1,'1Z1K.00',NULL,'Chronic kidney disease stage 5 with proteinuria'),('chronic-kidney-disease',1,'1Z1J.',NULL,'Chronic kidney disease stage 4 without proteinuria'),('chronic-kidney-disease',1,'1Z1J.00',NULL,'Chronic kidney disease stage 4 without proteinuria'),('chronic-kidney-disease',1,'1Z1H.',NULL,'Chronic kidney disease stage 4 with proteinuria'),('chronic-kidney-disease',1,'1Z1H.00',NULL,'Chronic kidney disease stage 4 with proteinuria'),('chronic-kidney-disease',1,'1Z1G.',NULL,'Chronic kidney disease stage 3B without proteinuria'),('chronic-kidney-disease',1,'1Z1G.00',NULL,'Chronic kidney disease stage 3B without proteinuria'),('chronic-kidney-disease',1,'1Z1F.',NULL,'Chronic kidney disease stage 3B with proteinuria'),('chronic-kidney-disease',1,'1Z1F.00',NULL,'Chronic kidney disease stage 3B with proteinuria'),('chronic-kidney-disease',1,'1Z1E.',NULL,'Chronic kidney disease stage 3A without proteinuria'),('chronic-kidney-disease',1,'1Z1E.00',NULL,'Chronic kidney disease stage 3A without proteinuria'),('chronic-kidney-disease',1,'1Z1D.',NULL,'Chronic kidney disease stage 3A with proteinuria'),('chronic-kidney-disease',1,'1Z1D.00',NULL,'Chronic kidney disease stage 3A with proteinuria'),('chronic-kidney-disease',1,'1Z1C.',NULL,'Chronic kidney disease stage 3 without proteinuria'),('chronic-kidney-disease',1,'1Z1C.00',NULL,'Chronic kidney disease stage 3 without proteinuria'),('chronic-kidney-disease',1,'1Z1B.',NULL,'Chronic kidney disease stage 3 with proteinuria'),('chronic-kidney-disease',1,'1Z1B.00',NULL,'Chronic kidney disease stage 3 with proteinuria'),('chronic-kidney-disease',1,'1Z1A.',NULL,'Chronic kidney disease stage 2 without proteinuria'),('chronic-kidney-disease',1,'1Z1A.00',NULL,'Chronic kidney disease stage 2 without proteinuria'),('chronic-kidney-disease',1,'1Z19.',NULL,'Chronic kidney disease stage 2 with proteinuria'),('chronic-kidney-disease',1,'1Z19.00',NULL,'Chronic kidney disease stage 2 with proteinuria'),('chronic-kidney-disease',1,'1Z18.',NULL,'Chronic kidney disease stage 1 without proteinuria'),('chronic-kidney-disease',1,'1Z18.00',NULL,'Chronic kidney disease stage 1 without proteinuria'),('chronic-kidney-disease',1,'1Z17.',NULL,'Chronic kidney disease stage 1 with proteinuria'),('chronic-kidney-disease',1,'1Z17.00',NULL,'Chronic kidney disease stage 1 with proteinuria'),('chronic-kidney-disease',1,'K05..',NULL,'Chronic renal failure'),('chronic-kidney-disease',1,'K05..00',NULL,'Chronic renal failure'),('chronic-kidney-disease',1,'K055.',NULL,'Chronic kidney disease stage 5'),('chronic-kidney-disease',1,'K055.00',NULL,'Chronic kidney disease stage 5'),('chronic-kidney-disease',1,'K054.',NULL,'Chronic kidney disease stage 4'),('chronic-kidney-disease',1,'K054.00',NULL,'Chronic kidney disease stage 4'),('chronic-kidney-disease',1,'K053.',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'K053.00',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'K052.',NULL,'Chronic kidney disease stage 2'),('chronic-kidney-disease',1,'K052.00',NULL,'Chronic kidney disease stage 2'),
+('chronic-kidney-disease',1,'K051.',NULL,'Chronic kidney disease stage 1'),('chronic-kidney-disease',1,'K051.00',NULL,'Chronic kidney disease stage 1'),('chronic-kidney-disease',1,'1Z1..',NULL,'Chronic renal impairment'),('chronic-kidney-disease',1,'1Z1..00',NULL,'Chronic renal impairment'),('chronic-kidney-disease',1,'K050.',NULL,'End stage renal failure'),('chronic-kidney-disease',1,'K050.00',NULL,'End stage renal failure'),('chronic-kidney-disease',1,'K0D..',NULL,'End-stage renal disease'),('chronic-kidney-disease',1,'K0D..00',NULL,'End-stage renal disease');
+INSERT INTO #codesreadv2
 VALUES ('diabetes',1,'C10..',NULL,'Diabetes mellitus'),('diabetes',1,'C10..00',NULL,'Diabetes mellitus'),('diabetes',1,'C100.',NULL,'Diabetes mellitus with no mention of complication'),('diabetes',1,'C100.00',NULL,'Diabetes mellitus with no mention of complication'),('diabetes',1,'C1000',NULL,'Diabetes mellitus, juvenile type, with no mention of complication'),('diabetes',1,'C100000',NULL,'Diabetes mellitus, juvenile type, with no mention of complication'),('diabetes',1,'C1001',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),('diabetes',1,'C100100',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),('diabetes',1,'C100z',NULL,'Diabetes mellitus NOS with no mention of complication'),('diabetes',1,'C100z00',NULL,'Diabetes mellitus NOS with no mention of complication'),('diabetes',1,'C101.',NULL,'Diabetes mellitus with ketoacidosis'),('diabetes',1,'C101.00',NULL,'Diabetes mellitus with ketoacidosis'),('diabetes',1,'C1010',NULL,'Diabetes mellitus, juvenile type, with ketoacidosis'),('diabetes',1,'C101000',NULL,'Diabetes mellitus, juvenile type, with ketoacidosis'),('diabetes',1,'C1011',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes',1,'C101100',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes',1,'C101y',NULL,'Other specified diabetes mellitus with ketoacidosis'),('diabetes',1,'C101y00',NULL,'Other specified diabetes mellitus with ketoacidosis'),('diabetes',1,'C101z',NULL,'Diabetes mellitus NOS with ketoacidosis'),('diabetes',1,'C101z00',NULL,'Diabetes mellitus NOS with ketoacidosis'),('diabetes',1,'C102.',NULL,'Diabetes mellitus with hyperosmolar coma'),('diabetes',1,'C102.00',NULL,'Diabetes mellitus with hyperosmolar coma'),('diabetes',1,'C1020',NULL,'Diabetes mellitus, juvenile type, with hyperosmolar coma'),('diabetes',1,'C102000',NULL,'Diabetes mellitus, juvenile type, with hyperosmolar coma'),('diabetes',1,'C1021',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes',1,'C102100',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes',1,'C102z',NULL,'Diabetes mellitus NOS with hyperosmolar coma'),('diabetes',1,'C102z00',NULL,'Diabetes mellitus NOS with hyperosmolar coma'),('diabetes',1,'C103.',NULL,'Diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C103.00',NULL,'Diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C1030',NULL,'Diabetes mellitus, juvenile type, with ketoacidotic coma'),('diabetes',1,'C103000',NULL,'Diabetes mellitus, juvenile type, with ketoacidotic coma'),('diabetes',1,'C1031',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes',1,'C103100',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes',1,'C103y',NULL,'Other specified diabetes mellitus with coma'),('diabetes',1,'C103y00',NULL,'Other specified diabetes mellitus with coma'),('diabetes',1,'C103z',NULL,'Diabetes mellitus NOS with ketoacidotic coma'),('diabetes',1,'C103z00',NULL,'Diabetes mellitus NOS with ketoacidotic coma'),('diabetes',1,'C104.',NULL,'Diabetes mellitus with renal manifestation'),('diabetes',1,'C104.00',NULL,'Diabetes mellitus with renal manifestation'),('diabetes',1,'C1040',NULL,'Diabetes mellitus, juvenile type, with renal manifestation'),('diabetes',1,'C104000',NULL,'Diabetes mellitus, juvenile type, with renal manifestation'),('diabetes',1,'C1041',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes',1,'C104100',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes',1,'C104y',NULL,'Other specified diabetes mellitus with renal complications'),('diabetes',1,'C104y00',NULL,'Other specified diabetes mellitus with renal complications'),('diabetes',1,'C104z',NULL,'Diabetes mellitus with nephropathy NOS'),('diabetes',1,'C104z00',NULL,'Diabetes mellitus with nephropathy NOS'),('diabetes',1,'C105.',NULL,'Diabetes mellitus with ophthalmic manifestation'),('diabetes',1,'C105.00',NULL,'Diabetes mellitus with ophthalmic manifestation'),('diabetes',1,'C1050',NULL,'Diabetes mellitus, juvenile type, with ophthalmic manifestation'),('diabetes',1,'C105000',NULL,'Diabetes mellitus, juvenile type, with ophthalmic manifestation'),('diabetes',1,'C1051',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes',1,'C105100',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes',1,'C105y',NULL,'Other specified diabetes mellitus with ophthalmic complications'),('diabetes',1,'C105y00',NULL,'Other specified diabetes mellitus with ophthalmic complications'),('diabetes',1,'C105z',NULL,'Diabetes mellitus NOS with ophthalmic manifestation'),('diabetes',1,'C105z00',NULL,'Diabetes mellitus NOS with ophthalmic manifestation'),('diabetes',1,'C106.',NULL,'Diabetes mellitus with neurological manifestation'),('diabetes',1,'C106.00',NULL,'Diabetes mellitus with neurological manifestation'),('diabetes',1,'C1060',NULL,'Diabetes mellitus, juvenile type, with neurological manifestation'),('diabetes',1,'C106000',NULL,'Diabetes mellitus, juvenile type, with neurological manifestation'),('diabetes',1,'C1061',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes',1,'C106100',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes',1,'C106y',NULL,'Other specified diabetes mellitus with neurological complications'),('diabetes',1,'C106y00',NULL,'Other specified diabetes mellitus with neurological complications'),('diabetes',1,'C106z',NULL,'Diabetes mellitus NOS with neurological manifestation'),('diabetes',1,'C106z00',NULL,'Diabetes mellitus NOS with neurological manifestation'),('diabetes',1,'C107.',NULL,'Diabetes mellitus with peripheral circulatory disorder'),('diabetes',1,'C107.00',NULL,'Diabetes mellitus with peripheral circulatory disorder'),('diabetes',1,'C1070',NULL,'Diabetes mellitus, juvenile type, with peripheral circulatory disorder'),('diabetes',1,'C107000',NULL,'Diabetes mellitus, juvenile type, with peripheral circulatory disorder'),('diabetes',1,'C1071',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes',1,'C107100',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes',1,'C1072',NULL,'Diabetes mellitus, adult with gangrene'),('diabetes',1,'C107200',NULL,'Diabetes mellitus, adult with gangrene'),('diabetes',1,'C107y',NULL,'Other specified diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C107y00',NULL,'Other specified diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C107z',NULL,'Diabetes mellitus NOS with peripheral circulatory disorder'),('diabetes',1,'C107z00',NULL,'Diabetes mellitus NOS with peripheral circulatory disorder'),('diabetes',1,'C108.',NULL,'Insulin dependent diabetes mellitus'),('diabetes',1,'C108.00',NULL,'Insulin dependent diabetes mellitus'),('diabetes',1,'C1080',NULL,'Insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C108000',NULL,'Insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C1081',NULL,'Insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C108100',NULL,'Insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C1082',NULL,'Insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C108200',NULL,'Insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C1083',NULL,'Insulin dependent diabetes mellitus with multiple complications'),('diabetes',1,'C108300',NULL,'Insulin dependent diabetes mellitus with multiple complications'),('diabetes',1,'C1084',NULL,'Unstable insulin dependent diabetes mellitus'),('diabetes',1,'C108400',NULL,'Unstable insulin dependent diabetes mellitus'),('diabetes',1,'C1085',NULL,'Insulin dependent diabetes mellitus with ulcer'),('diabetes',1,'C108500',NULL,'Insulin dependent diabetes mellitus with ulcer'),('diabetes',1,'C1086',NULL,'Insulin dependent diabetes mellitus with gangrene'),('diabetes',1,'C108600',NULL,'Insulin dependent diabetes mellitus with gangrene'),('diabetes',1,'C1087',NULL,'Insulin dependent diabetes mellitus with retinopathy'),('diabetes',1,'C108700',NULL,'Insulin dependent diabetes mellitus with retinopathy'),('diabetes',1,'C1088',NULL,'Insulin dependent diabetes mellitus - poor control'),('diabetes',1,'C108800',NULL,'Insulin dependent diabetes mellitus - poor control'),('diabetes',1,'C1089',NULL,'Insulin dependent diabetes maturity onset'),('diabetes',1,'C108900',NULL,'Insulin dependent diabetes maturity onset'),('diabetes',1,'C108A',NULL,'Insulin-dependent diabetes without complication'),('diabetes',1,'C108A00',NULL,'Insulin-dependent diabetes without complication'),('diabetes',1,'C108B',NULL,'Insulin dependent diabetes mellitus with mononeuropathy'),('diabetes',1,'C108B00',NULL,'Insulin dependent diabetes mellitus with mononeuropathy'),('diabetes',1,'C108C',NULL,'Insulin dependent diabetes mellitus with polyneuropathy'),('diabetes',1,'C108C00',NULL,'Insulin dependent diabetes mellitus with polyneuropathy'),('diabetes',1,'C108D',NULL,'Insulin dependent diabetes mellitus with nephropathy'),('diabetes',1,'C108D00',NULL,'Insulin dependent diabetes mellitus with nephropathy'),('diabetes',1,'C108E',NULL,'Insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C108E00',NULL,'Insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C108F',NULL,'Insulin dependent diabetes mellitus with diabetic cataract'),('diabetes',1,'C108F00',NULL,'Insulin dependent diabetes mellitus with diabetic cataract'),('diabetes',1,'C108G',NULL,'Insulin dependent diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C108G00',NULL,'Insulin dependent diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C108H',NULL,'Insulin dependent diabetes mellitus with arthropathy'),
 ('diabetes',1,'C108H00',NULL,'Insulin dependent diabetes mellitus with arthropathy'),('diabetes',1,'C108J',NULL,'Insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C108J00',NULL,'Insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C108y',NULL,'Other specified diabetes mellitus with multiple complications'),('diabetes',1,'C108y00',NULL,'Other specified diabetes mellitus with multiple complications'),('diabetes',1,'C108z',NULL,'Unspecified diabetes mellitus with multiple complications'),('diabetes',1,'C108z00',NULL,'Unspecified diabetes mellitus with multiple complications'),('diabetes',1,'C109.',NULL,'Non-insulin dependent diabetes mellitus'),('diabetes',1,'C109.00',NULL,'Non-insulin dependent diabetes mellitus'),('diabetes',1,'C1090',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C109000',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C1091',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C109100',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C1092',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C109200',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C1093',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes',1,'C109300',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes',1,'C1094',NULL,'Non-insulin dependent diabetes mellitus with ulcer'),('diabetes',1,'C109400',NULL,'Non-insulin dependent diabetes mellitus with ulcer'),('diabetes',1,'C1095',NULL,'Non-insulin dependent diabetes mellitus with gangrene'),('diabetes',1,'C109500',NULL,'Non-insulin dependent diabetes mellitus with gangrene'),('diabetes',1,'C1096',NULL,'Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes',1,'C109600',NULL,'Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes',1,'C1097',NULL,'Non-insulin dependent diabetes mellitus - poor control'),('diabetes',1,'C109700',NULL,'Non-insulin dependent diabetes mellitus - poor control'),('diabetes',1,'C1098',NULL,'Reavens syndrome'),('diabetes',1,'C109800',NULL,'Reavens syndrome'),('diabetes',1,'C1099',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes',1,'C109900',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes',1,'C109A',NULL,'Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes',1,'C109A00',NULL,'Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes',1,'C109B',NULL,'Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes',1,'C109B00',NULL,'Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes',1,'C109C',NULL,'Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes',1,'C109C00',NULL,'Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes',1,'C109D',NULL,'Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C109D00',NULL,'Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C109E',NULL,'Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes',1,'C109E00',NULL,'Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes',1,'C109F',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C109F00',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C109G',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes',1,'C109G00',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes',1,'C109H',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C109H00',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C109J',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes',1,'C109J00',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes',1,'C109K',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes',1,'C109K00',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes',1,'C10A.',NULL,'Malnutrition-related diabetes mellitus'),('diabetes',1,'C10A.00',NULL,'Malnutrition-related diabetes mellitus'),('diabetes',1,'C10A0',NULL,'Malnutrition-related diabetes mellitus with coma'),('diabetes',1,'C10A000',NULL,'Malnutrition-related diabetes mellitus with coma'),('diabetes',1,'C10A1',NULL,'Malnutrition-related diabetes mellitus with ketoacidosis'),('diabetes',1,'C10A100',NULL,'Malnutrition-related diabetes mellitus with ketoacidosis'),('diabetes',1,'C10A2',NULL,'Malnutrition-related diabetes mellitus with renal complications'),('diabetes',1,'C10A200',NULL,'Malnutrition-related diabetes mellitus with renal complications'),('diabetes',1,'C10A3',NULL,'Malnutrition-related diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10A300',NULL,'Malnutrition-related diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10A4',NULL,'Malnutrition-related diabetes mellitus with neurological complications'),('diabetes',1,'C10A400',NULL,'Malnutrition-related diabetes mellitus with neurological complications'),('diabetes',1,'C10A5',NULL,'Malnutrition-related diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C10A500',NULL,'Malnutrition-related diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C10A6',NULL,'Malnutrition-related diabetes mellitus with multiple complications'),('diabetes',1,'C10A600',NULL,'Malnutrition-related diabetes mellitus with multiple complications'),('diabetes',1,'C10A7',NULL,'Malnutrition-related diabetes mellitus without complications'),('diabetes',1,'C10A700',NULL,'Malnutrition-related diabetes mellitus without complications'),('diabetes',1,'C10AW',NULL,'Malnutrition-related diabetes mellitus with unspecified complications'),('diabetes',1,'C10AW00',NULL,'Malnutrition-related diabetes mellitus with unspecified complications'),('diabetes',1,'C10AX',NULL,'Malnutrition-related diabetes mellitus with other specified complications'),('diabetes',1,'C10AX00',NULL,'Malnutrition-related diabetes mellitus with other specified complications'),('diabetes',1,'C10B.',NULL,'Diabetes mellitus induced by steroids'),('diabetes',1,'C10B.00',NULL,'Diabetes mellitus induced by steroids'),('diabetes',1,'C10B0',NULL,'Steroid induced diabetes mellitus without complication'),('diabetes',1,'C10B000',NULL,'Steroid induced diabetes mellitus without complication'),('diabetes',1,'C10C.',NULL,'Diabetes mellitus autosomal dominant'),('diabetes',1,'C10C.00',NULL,'Diabetes mellitus autosomal dominant'),('diabetes',1,'C10D.',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes',1,'C10D.00',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes',1,'C10E.',NULL,'Type 1 diabetes mellitus'),('diabetes',1,'C10E.00',NULL,'Type 1 diabetes mellitus'),('diabetes',1,'C10E0',NULL,'Type 1 diabetes mellitus with renal complications'),('diabetes',1,'C10E000',NULL,'Type 1 diabetes mellitus with renal complications'),('diabetes',1,'C10E1',NULL,'Type 1 diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10E100',NULL,'Type 1 diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10E2',NULL,'Type 1 diabetes mellitus with neurological complications'),('diabetes',1,'C10E200',NULL,'Type 1 diabetes mellitus with neurological complications'),('diabetes',1,'C10E3',NULL,'Type 1 diabetes mellitus with multiple complications'),('diabetes',1,'C10E300',NULL,'Type 1 diabetes mellitus with multiple complications'),('diabetes',1,'C10E4',NULL,'Unstable type 1 diabetes mellitus'),('diabetes',1,'C10E400',NULL,'Unstable type 1 diabetes mellitus'),('diabetes',1,'C10E5',NULL,'Type 1 diabetes mellitus with ulcer'),('diabetes',1,'C10E500',NULL,'Type 1 diabetes mellitus with ulcer'),('diabetes',1,'C10E6',NULL,'Type 1 diabetes mellitus with gangrene'),('diabetes',1,'C10E600',NULL,'Type 1 diabetes mellitus with gangrene'),('diabetes',1,'C10E7',NULL,'Type 1 diabetes mellitus with retinopathy'),('diabetes',1,'C10E700',NULL,'Type 1 diabetes mellitus with retinopathy'),('diabetes',1,'C10E8',NULL,'Type 1 diabetes mellitus - poor control'),('diabetes',1,'C10E800',NULL,'Type 1 diabetes mellitus - poor control'),('diabetes',1,'C10E9',NULL,'Type 1 diabetes mellitus maturity onset'),('diabetes',1,'C10E900',NULL,'Type 1 diabetes mellitus maturity onset'),('diabetes',1,'C10EA',NULL,'Type 1 diabetes mellitus without complication'),('diabetes',1,'C10EA00',NULL,'Type 1 diabetes mellitus without complication'),('diabetes',1,'C10EB',NULL,'Type 1 diabetes mellitus with mononeuropathy'),('diabetes',1,'C10EB00',NULL,'Type 1 diabetes mellitus with mononeuropathy'),('diabetes',1,'C10EC',NULL,'Type 1 diabetes mellitus with polyneuropathy'),('diabetes',1,'C10EC00',NULL,'Type 1 diabetes mellitus with polyneuropathy'),('diabetes',1,'C10ED',NULL,'Type 1 diabetes mellitus with nephropathy'),('diabetes',1,'C10ED00',NULL,'Type 1 diabetes mellitus with nephropathy'),('diabetes',1,'C10EE',NULL,'Type 1 diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C10EE00',NULL,'Type 1 diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C10EF',NULL,'Type 1 diabetes mellitus with diabetic cataract'),('diabetes',1,'C10EF00',NULL,'Type 1 diabetes mellitus with diabetic cataract'),('diabetes',1,'C10EG',NULL,'Type 1 diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C10EG00',NULL,'Type 1 diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C10EH',NULL,'Type 1 diabetes mellitus with arthropathy'),('diabetes',1,'C10EH00',NULL,'Type 1 diabetes mellitus with arthropathy'),('diabetes',1,'C10EJ',NULL,'Type 1 diabetes mellitus with neuropathic arthropathy'),
 ('diabetes',1,'C10EJ00',NULL,'Type 1 diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C10EK',NULL,'Type 1 diabetes mellitus with persistent proteinuria'),('diabetes',1,'C10EK00',NULL,'Type 1 diabetes mellitus with persistent proteinuria'),('diabetes',1,'C10EL',NULL,'Type 1 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'C10EL00',NULL,'Type 1 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'C10EM',NULL,'Type 1 diabetes mellitus with ketoacidosis'),('diabetes',1,'C10EM00',NULL,'Type 1 diabetes mellitus with ketoacidosis'),('diabetes',1,'C10EN',NULL,'Type 1 diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C10EN00',NULL,'Type 1 diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C10EP',NULL,'Type 1 diabetes mellitus with exudative maculopathy'),('diabetes',1,'C10EP00',NULL,'Type 1 diabetes mellitus with exudative maculopathy'),('diabetes',1,'C10EQ',NULL,'Type 1 diabetes mellitus with gastroparesis'),('diabetes',1,'C10EQ00',NULL,'Type 1 diabetes mellitus with gastroparesis'),('diabetes',1,'C10ER',NULL,'Latent autoimmune diabetes mellitus in adult'),('diabetes',1,'C10ER00',NULL,'Latent autoimmune diabetes mellitus in adult'),('diabetes',1,'C10F.',NULL,'Type 2 diabetes mellitus'),('diabetes',1,'C10F.00',NULL,'Type 2 diabetes mellitus'),('diabetes',1,'C10F0',NULL,'Type 2 diabetes mellitus with renal complications'),('diabetes',1,'C10F000',NULL,'Type 2 diabetes mellitus with renal complications'),('diabetes',1,'C10F1',NULL,'Type 2 diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10F100',NULL,'Type 2 diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10F2',NULL,'Type 2 diabetes mellitus with neurological complications'),('diabetes',1,'C10F200',NULL,'Type 2 diabetes mellitus with neurological complications'),('diabetes',1,'C10F3',NULL,'Type 2 diabetes mellitus with multiple complications'),('diabetes',1,'C10F300',NULL,'Type 2 diabetes mellitus with multiple complications'),('diabetes',1,'C10F4',NULL,'Type 2 diabetes mellitus with ulcer'),('diabetes',1,'C10F400',NULL,'Type 2 diabetes mellitus with ulcer'),('diabetes',1,'C10F5',NULL,'Type 2 diabetes mellitus with gangrene'),('diabetes',1,'C10F500',NULL,'Type 2 diabetes mellitus with gangrene'),('diabetes',1,'C10F6',NULL,'Type 2 diabetes mellitus with retinopathy'),('diabetes',1,'C10F600',NULL,'Type 2 diabetes mellitus with retinopathy'),('diabetes',1,'C10F7',NULL,'Type 2 diabetes mellitus - poor control'),('diabetes',1,'C10F700',NULL,'Type 2 diabetes mellitus - poor control'),('diabetes',1,'C10F8',NULL,'Reavens syndrome'),('diabetes',1,'C10F800',NULL,'Reavens syndrome'),('diabetes',1,'C10F9',NULL,'Type 2 diabetes mellitus without complication'),('diabetes',1,'C10F900',NULL,'Type 2 diabetes mellitus without complication'),('diabetes',1,'C10FA',NULL,'Type 2 diabetes mellitus with mononeuropathy'),('diabetes',1,'C10FA00',NULL,'Type 2 diabetes mellitus with mononeuropathy'),('diabetes',1,'C10FB',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes',1,'C10FB00',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes',1,'C10FC',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes',1,'C10FC00',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes',1,'C10FD',NULL,'Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C10FD00',NULL,'Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'C10FE',NULL,'Type 2 diabetes mellitus with diabetic cataract'),('diabetes',1,'C10FE00',NULL,'Type 2 diabetes mellitus with diabetic cataract'),('diabetes',1,'C10FF',NULL,'Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C10FF00',NULL,'Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes',1,'C10FG',NULL,'Type 2 diabetes mellitus with arthropathy'),('diabetes',1,'C10FG00',NULL,'Type 2 diabetes mellitus with arthropathy'),('diabetes',1,'C10FH',NULL,'Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C10FH00',NULL,'Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'C10FJ',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes',1,'C10FJ00',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes',1,'C10FK',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes',1,'C10FK00',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes',1,'C10FL',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes',1,'C10FL00',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes',1,'C10FM',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'C10FM00',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'C10FN',NULL,'Type 2 diabetes mellitus with ketoacidosis'),('diabetes',1,'C10FN00',NULL,'Type 2 diabetes mellitus with ketoacidosis'),('diabetes',1,'C10FP',NULL,'Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C10FP00',NULL,'Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C10FQ',NULL,'Type 2 diabetes mellitus with exudative maculopathy'),('diabetes',1,'C10FQ00',NULL,'Type 2 diabetes mellitus with exudative maculopathy'),('diabetes',1,'C10FR',NULL,'Type 2 diabetes mellitus with gastroparesis'),('diabetes',1,'C10FR00',NULL,'Type 2 diabetes mellitus with gastroparesis'),('diabetes',1,'C10FS',NULL,'Maternally inherited diabetes mellitus'),('diabetes',1,'C10FS00',NULL,'Maternally inherited diabetes mellitus'),('diabetes',1,'C10G.',NULL,'Secondary pancreatic diabetes mellitus'),('diabetes',1,'C10G.00',NULL,'Secondary pancreatic diabetes mellitus'),('diabetes',1,'C10G0',NULL,'Secondary pancreatic diabetes mellitus without complication'),('diabetes',1,'C10G000',NULL,'Secondary pancreatic diabetes mellitus without complication'),('diabetes',1,'C10H.',NULL,'Diabetes mellitus induced by non-steroid drugs'),('diabetes',1,'C10H.00',NULL,'Diabetes mellitus induced by non-steroid drugs'),('diabetes',1,'C10H0',NULL,'Diabetes mellitus induced by non-steroid drugs without complication'),('diabetes',1,'C10H000',NULL,'Diabetes mellitus induced by non-steroid drugs without complication'),('diabetes',1,'C10M.',NULL,'Lipoatrophic diabetes mellitus'),('diabetes',1,'C10M.00',NULL,'Lipoatrophic diabetes mellitus'),('diabetes',1,'C10M0',NULL,'Lipoatrophic diabetes mellitus without complication'),('diabetes',1,'C10M000',NULL,'Lipoatrophic diabetes mellitus without complication'),('diabetes',1,'C10N.',NULL,'Secondary diabetes mellitus'),('diabetes',1,'C10N.00',NULL,'Secondary diabetes mellitus'),('diabetes',1,'C10N0',NULL,'Secondary diabetes mellitus without complication'),('diabetes',1,'C10N000',NULL,'Secondary diabetes mellitus without complication'),('diabetes',1,'C10N1',NULL,'Cystic fibrosis related diabetes mellitus'),('diabetes',1,'C10N100',NULL,'Cystic fibrosis related diabetes mellitus'),('diabetes',1,'C10Q.',NULL,'Maturity onset diabetes of the young type 5'),('diabetes',1,'C10Q.00',NULL,'Maturity onset diabetes of the young type 5'),('diabetes',1,'C10y.',NULL,'Diabetes mellitus with other specified manifestation'),('diabetes',1,'C10y.00',NULL,'Diabetes mellitus with other specified manifestation'),('diabetes',1,'C10y0',NULL,'Diabetes mellitus, juvenile type, with other specified manifestation'),('diabetes',1,'C10y000',NULL,'Diabetes mellitus, juvenile type, with other specified manifestation'),('diabetes',1,'C10y1',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes',1,'C10y100',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes',1,'C10yy',NULL,'Other specified diabetes mellitus with other specified complications'),('diabetes',1,'C10yy00',NULL,'Other specified diabetes mellitus with other specified complications'),('diabetes',1,'C10yz',NULL,'Diabetes mellitus NOS with other specified manifestation'),('diabetes',1,'C10yz00',NULL,'Diabetes mellitus NOS with other specified manifestation'),('diabetes',1,'C10z.',NULL,'Diabetes mellitus with unspecified complication'),('diabetes',1,'C10z.00',NULL,'Diabetes mellitus with unspecified complication'),('diabetes',1,'C10z0',NULL,'Diabetes mellitus, juvenile type, with unspecified complication'),('diabetes',1,'C10z000',NULL,'Diabetes mellitus, juvenile type, with unspecified complication'),('diabetes',1,'C10z1',NULL,'Diabetes mellitus, adult onset, with unspecified complication'),('diabetes',1,'C10z100',NULL,'Diabetes mellitus, adult onset, with unspecified complication'),('diabetes',1,'C10zy',NULL,'Other specified diabetes mellitus with unspecified complications'),('diabetes',1,'C10zy00',NULL,'Other specified diabetes mellitus with unspecified complications'),('diabetes',1,'C10zz',NULL,'Diabetes mellitus NOS with unspecified complication'),('diabetes',1,'C10zz00',NULL,'Diabetes mellitus NOS with unspecified complication'),('diabetes',1,'C1A0.',NULL,'Metabolic syndrome'),('diabetes',1,'C1A0.00',NULL,'Metabolic syndrome'),('diabetes',1,'Cyu2.',NULL,'[X]Diabetes mellitus'),('diabetes',1,'Cyu2.00',NULL,'[X]Diabetes mellitus'),('diabetes',1,'Cyu20',NULL,'[X]Other specified diabetes mellitus'),('diabetes',1,'Cyu2000',NULL,'[X]Other specified diabetes mellitus'),('diabetes',1,'Cyu21',NULL,'[X]Malnutrition-related diabetes mellitus with other specified complications'),('diabetes',1,'Cyu2100',NULL,'[X]Malnutrition-related diabetes mellitus with other specified complications'),('diabetes',1,'Cyu22',NULL,'[X]Malnutrition-related diabetes mellitus with unspecified complications'),('diabetes',1,'Cyu2200',NULL,'[X]Malnutrition-related diabetes mellitus with unspecified complications'),('diabetes',1,'Cyu23',NULL,'[X]Unspecified diabetes mellitus with renal complications'),('diabetes',1,'Cyu2300',NULL,'[X]Unspecified diabetes mellitus with renal complications'),('diabetes',1,'L180.',NULL,'Diabetes mellitus during pregnancy, childbirth and the puerperium'),('diabetes',1,'L180.00',NULL,'Diabetes mellitus during pregnancy, childbirth and the puerperium'),
@@ -137,7 +174,7 @@ VALUES ('alcohol-non-drinker',1,'1361.',NULL,'Teetotaller'),('alcohol-non-drinke
 INSERT INTO #codesreadv2
 VALUES ('alcohol-weekly-intake',1,'136V.',NULL,'Alcohol units per week'),('alcohol-weekly-intake',1,'136V.00',NULL,'Alcohol units per week'),('alcohol-weekly-intake',1,'136..',NULL,'Alcohol consumption'),('alcohol-weekly-intake',1,'136..00',NULL,'Alcohol consumption');
 INSERT INTO #codesreadv2
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K..00',NULL,'Body Mass Index'),('bmi',1,'22KE.',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KE.00',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KD.',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KD.00',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KC.',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KC.00',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KB.',NULL,'Baseline body mass index'),('bmi',1,'22KB.00',NULL,'Baseline body mass index'),('bmi',1,'22KA.',NULL,'Target body mass index'),('bmi',1,'22KA.00',NULL,'Target body mass index'),('bmi',1,'22K9.',NULL,'Body mass index centile'),('bmi',1,'22K9.00',NULL,'Body mass index centile'),('bmi',1,'22K9K',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9K00',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9J',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9J00',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9H',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9H00',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9G',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9G00',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9F',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9F00',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9E',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9E00',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9D',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9D00',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9C',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9C00',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9B',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9B00',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9A',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K9A00',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K99',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K9900',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K98',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K9800',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K97',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K9700',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K96',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K9600',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K95',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K9500',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K94',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K9400',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K93',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K9300',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K92',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K9200',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K91',NULL,'Child body mass index centile'),('bmi',1,'22K9100',NULL,'Child body mass index centile'),('bmi',1,'22K90',NULL,'Baseline body mass index centile'),('bmi',1,'22K9000',NULL,'Baseline body mass index centile'),('bmi',1,'22K8.',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K8.00',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K7.',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K7.00',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K6.',NULL,'Body mass index less than 20'),('bmi',1,'22K6.00',NULL,'Body mass index less than 20'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K5.00',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K4.00',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K3.00',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K2.00',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K1.00',NULL,'Body Mass Index normal K/M2'),('bmi',1,'C3808',NULL,'Childhood obesity'),('bmi',1,'C380800',NULL,'Childhood obesity'),('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137P.00',NULL,'Cigarette smoker'),('smoking-status-current',1,'13p3.',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'13p3.00',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'1374.',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'1374.00',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137G.00',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137R.00',NULL,'Current smoker'),('smoking-status-current',1,'1376.',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1376.00',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1375.',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1375.00',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1373.',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'1373.00',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137M.00',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137o.',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137o.00',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137m.',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137m.00',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137h.',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137h.00',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137g.',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137g.00',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137f.',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137f.00',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137e.',NULL,'Smoking restarted'),('smoking-status-current',1,'137e.00',NULL,'Smoking restarted'),('smoking-status-current',1,'137d.',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137d.00',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137c.',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137c.00',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137b.',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137b.00',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137C.00',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137J.00',NULL,'Cigar smoker'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137H.00',NULL,'Pipe smoker'),('smoking-status-current',1,'137a.',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137a.00',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Z.00',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Y.',NULL,'Cigar consumption'),('smoking-status-current',1,'137Y.00',NULL,'Cigar consumption'),('smoking-status-current',1,'137X.',NULL,'Cigarette consumption'),('smoking-status-current',1,'137X.00',NULL,'Cigarette consumption'),('smoking-status-current',1,'137V.',NULL,'Smoking reduced'),('smoking-status-current',1,'137V.00',NULL,'Smoking reduced'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137Q.00',NULL,'Smoking started');
 INSERT INTO #codesreadv2
@@ -180,6 +217,8 @@ CREATE TABLE #codesctv3 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
+VALUES ('chronic-kidney-disease',1,'X30In',NULL,'Chronic kidney disease'),('chronic-kidney-disease',1,'XaLHG',NULL,'Chronic kidney disease stage 1'),('chronic-kidney-disease',1,'XaLHH',NULL,'Chronic kidney disease stage 2'),('chronic-kidney-disease',1,'XaLHI',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'XaLHJ',NULL,'Chronic kidney disease stage 4'),('chronic-kidney-disease',1,'XaLHK',NULL,'Chronic kidney disease stage 5'),('chronic-kidney-disease',1,'Xac9y',NULL,'CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1'),('chronic-kidney-disease',1,'Xac9z',NULL,'CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2'),('chronic-kidney-disease',1,'XacA2',NULL,'CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3'),('chronic-kidney-disease',1,'XacA4',NULL,'CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1'),('chronic-kidney-disease',1,'XacA6',NULL,'CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2'),('chronic-kidney-disease',1,'XacA9',NULL,'CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3'),('chronic-kidney-disease',1,'XacAM',NULL,'CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1'),('chronic-kidney-disease',1,'XacAN',NULL,'CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2'),('chronic-kidney-disease',1,'XacAO',NULL,'CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3'),('chronic-kidney-disease',1,'XacAV',NULL,'CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1'),('chronic-kidney-disease',1,'XacAW',NULL,'CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2'),('chronic-kidney-disease',1,'XacAX',NULL,'CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3'),('chronic-kidney-disease',1,'XacAb',NULL,'CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1'),('chronic-kidney-disease',1,'XacAd',NULL,'CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2'),('chronic-kidney-disease',1,'XacAe',NULL,'CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3'),('chronic-kidney-disease',1,'XacAf',NULL,'CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1'),('chronic-kidney-disease',1,'XacAh',NULL,'CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2'),('chronic-kidney-disease',1,'XacAi',NULL,'CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3'),('chronic-kidney-disease',1,'XaO3p',NULL,'Chronic kidney disease stage 1 with proteinuria'),('chronic-kidney-disease',1,'XaO3s',NULL,'Chronic kidney disease stage 2 without proteinuria'),('chronic-kidney-disease',1,'XaNbn',NULL,'Chronic kidney disease stage 3A'),('chronic-kidney-disease',1,'XaNbo',NULL,'Chronic kidney disease stage 3B'),('chronic-kidney-disease',1,'XaO3t',NULL,'Chronic kidney disease stage 3 with proteinuria'),('chronic-kidney-disease',1,'XaO3u',NULL,'Chronic kidney disease stage 3 without proteinuria'),('chronic-kidney-disease',1,'XaO40',NULL,'Chronic kidney disease stage 4 without proteinuria'),('chronic-kidney-disease',1,'XaO3w',NULL,'Chronic kidney disease stage 3A without proteinuria'),('chronic-kidney-disease',1,'XaO3x',NULL,'Chronic kidney disease stage 3B with proteinuria'),('chronic-kidney-disease',1,'XaO3y',NULL,'Chronic kidney disease stage 3B without proteinuria'),('chronic-kidney-disease',1,'XaMFs',NULL,'Chronic kidney disease monitoring administration'),('chronic-kidney-disease',1,'XaMFt',NULL,'Chronic kidney disease monitoring first letter'),('chronic-kidney-disease',1,'XaMFu',NULL,'Chronic kidney disease monitoring second letter'),('chronic-kidney-disease',1,'XaMFv',NULL,'Chronic kidney disease monitoring third letter'),('chronic-kidney-disease',1,'XaMFw',NULL,'Chronic kidney disease monitoring verbal invite'),('chronic-kidney-disease',1,'XaMFx',NULL,'Chronic kidney disease monitoring telephone invite'),('chronic-kidney-disease',1,'XaMLh',NULL,'Predicted stage chronic kidney disease'),('chronic-kidney-disease',1,'X30J0',NULL,'ESCRF - End stage chronic renal failure'),('chronic-kidney-disease',1,'XaO3q',NULL,'Chronic kidney disease stage 1 without proteinuria'),('chronic-kidney-disease',1,'XaO3r',NULL,'Chronic kidney disease stage 2 with proteinuria'),('chronic-kidney-disease',1,'XaO3v',NULL,'Chronic kidney disease stage 3A with proteinuria'),('chronic-kidney-disease',1,'XaO3z',NULL,'Chronic kidney disease stage 4 with proteinuria'),('chronic-kidney-disease',1,'XaO41',NULL,'Chronic kidney disease stage 5 with proteinuria'),('chronic-kidney-disease',1,'XaO42',NULL,'Chronic kidney disease stage 5 without proteinuria');
+INSERT INTO #codesctv3
 VALUES ('diabetes',1,'C10..',NULL,'DM - Diabetes mellitus'),('diabetes',1,'C100.',NULL,'Diabetes mellitus with no mention of complication'),('diabetes',1,'C1000',NULL,'Diabetes mellitus, juvenile type, with no mention of complication'),('diabetes',1,'C1001',NULL,'Maturity onset diabetes'),('diabetes',1,'C100z',NULL,'Diabetes mellitus NOS with no mention of complication'),('diabetes',1,'C101.',NULL,'Diabetic ketoacidosis'),('diabetes',1,'C1010',NULL,'Diabetes mellitus, juvenile type, with ketoacidosis'),('diabetes',1,'C1011',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes',1,'C101y',NULL,'Other specified diabetes mellitus with ketoacidosis'),('diabetes',1,'C101z',NULL,'Diabetes mellitus NOS with ketoacidosis'),('diabetes',1,'C102.',NULL,'Diabetes mellitus with hyperosmolar coma'),('diabetes',1,'C1020',NULL,'Diabetes mellitus, juvenile type, with hyperosmolar coma'),('diabetes',1,'C1021',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes',1,'C102z',NULL,'Diabetes mellitus NOS with hyperosmolar coma'),('diabetes',1,'C103.',NULL,'Diabetes mellitus with ketoacidotic coma'),('diabetes',1,'C1030',NULL,'Diabetes mellitus, juvenile type, with ketoacidotic coma'),('diabetes',1,'C1031',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes',1,'C103y',NULL,'Other specified diabetes mellitus with coma'),('diabetes',1,'C103z',NULL,'Diabetes mellitus NOS with ketoacidotic coma'),('diabetes',1,'C1040',NULL,'Diabetes mellitus, juvenile type, with renal manifestation'),('diabetes',1,'C1041',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes',1,'C104y',NULL,'Other specified diabetes mellitus with renal complications'),('diabetes',1,'C104z',NULL,'Diabetes mellitus with nephropathy NOS'),('diabetes',1,'C105.',NULL,'Diabetes mellitus with ophthalmic manifestation'),('diabetes',1,'C1050',NULL,'Diabetes mellitus, juvenile type, with ophthalmic manifestation'),('diabetes',1,'C1051',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes',1,'C105y',NULL,'Other specified diabetes mellitus with ophthalmic complications'),('diabetes',1,'C105z',NULL,'Diabetes mellitus NOS with ophthalmic manifestation'),('diabetes',1,'C1060',NULL,'Diabetes mellitus, juvenile type, with neurological manifestation'),('diabetes',1,'C1061',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes',1,'C106y',NULL,'Other specified diabetes mellitus with neurological complications'),('diabetes',1,'C106z',NULL,'Diabetes mellitus NOS with neurological manifestation'),('diabetes',1,'C1070',NULL,'Diabetes mellitus, juvenile type, with peripheral circulatory disorder'),('diabetes',1,'C1071',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes',1,'C1072',NULL,'Diabetes mellitus, adult with gangrene'),('diabetes',1,'C107y',NULL,'Other specified diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C107z',NULL,'Diabetes mellitus NOS with peripheral circulatory disorder'),('diabetes',1,'C1080',NULL,'Insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C1081',NULL,'Insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C1082',NULL,'Insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C1083',NULL,'Insulin-dependent diabetes mellitus with multiple complications'),('diabetes',1,'C1085',NULL,'Insulin-dependent diabetes mellitus with ulcer'),('diabetes',1,'C1086',NULL,'Insulin-dependent diabetes mellitus with gangrene'),('diabetes',1,'C1087',NULL,'IDDM - Insulin-dependent diabetes mellitus with retinopathy'),('diabetes',1,'C1088',NULL,'Insulin-dependent diabetes mellitus - poor control'),('diabetes',1,'C1089',NULL,'Insulin-dependent diabetes maturity onset'),('diabetes',1,'C108y',NULL,'Other specified diabetes mellitus with multiple complications'),('diabetes',1,'C108z',NULL,'Unspecified diabetes mellitus with multiple complications'),('diabetes',1,'C1090',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes',1,'C1091',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes',1,'C1092',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes',1,'C1093',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes',1,'C1094',NULL,'Non-insulin-dependent diabetes mellitus with ulcer'),('diabetes',1,'C1095',NULL,'Non-insulin-dependent diabetes mellitus with gangrene'),('diabetes',1,'C1096',NULL,'NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes',1,'C1097',NULL,'Non-insulin-dependent diabetes mellitus - poor control'),('diabetes',1,'C10A0',NULL,'Malnutrition-related diabetes mellitus with coma'),('diabetes',1,'C10A1',NULL,'Malnutrition-related diabetes mellitus with ketoacidosis'),('diabetes',1,'C10A2',NULL,'Malnutrition-related diabetes mellitus with renal complications'),('diabetes',1,'C10A3',NULL,'Malnutrition-related diabetes mellitus with ophthalmic complications'),('diabetes',1,'C10A4',NULL,'Malnutrition-related diabetes mellitus with neurological complications'),('diabetes',1,'C10A5',NULL,'Malnutrition-related diabetes mellitus with peripheral circulatory complications'),('diabetes',1,'C10A6',NULL,'Malnutrition-related diabetes mellitus with multiple complications'),('diabetes',1,'C10A7',NULL,'Malnutrition-related diabetes mellitus without complications'),('diabetes',1,'C10B0',NULL,'Steroid-induced diabetes mellitus without complication'),('diabetes',1,'C10y.',NULL,'Diabetes mellitus with other specified manifestation'),('diabetes',1,'C10y0',NULL,'Diabetes mellitus, juvenile type, with other specified manifestation'),('diabetes',1,'C10y1',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes',1,'C10yy',NULL,'Other specified diabetes mellitus with other specified complications'),('diabetes',1,'C10yz',NULL,'Diabetes mellitus NOS with other specified manifestation'),('diabetes',1,'C10z.',NULL,'Diabetes mellitus with unspecified complication'),('diabetes',1,'C10z0',NULL,'Diabetes mellitus, juvenile type, with unspecified complication'),('diabetes',1,'C10z1',NULL,'Diabetes mellitus, adult onset, with unspecified complication'),('diabetes',1,'C10zy',NULL,'Other specified diabetes mellitus with unspecified complications'),('diabetes',1,'C10zz',NULL,'Diabetes mellitus NOS with unspecified complication'),('diabetes',1,'Cyu20',NULL,'[X]Other specified diabetes mellitus'),('diabetes',1,'Cyu21',NULL,'[X]Malnutrition-related diabetes mellitus with other specified complications'),('diabetes',1,'Cyu22',NULL,'[X]Malnutrition-related diabetes mellitus with unspecified complications'),('diabetes',1,'Cyu23',NULL,'[X]Unspecified diabetes mellitus with renal complications'),('diabetes',1,'L180.',NULL,'Diabetes mellitus during pregnancy, childbirth and the puerperium'),('diabetes',1,'L1800',NULL,'Diabetes mellitus - unspecified whether during pregnancy or the puerperium'),('diabetes',1,'L1801',NULL,'Diabetes mellitus during pregnancy - baby delivered'),('diabetes',1,'L1802',NULL,'Diabetes mellitus in the puerperium - baby delivered during current episode of care'),('diabetes',1,'L1803',NULL,'Diabetes mellitus during pregnancy - baby not yet delivered'),('diabetes',1,'L1804',NULL,'Diabetes mellitus in the puerperium - baby delivered during previous episode of care'),('diabetes',1,'L1805',NULL,'Pre-existing diabetes mellitus, insulin-dependent'),('diabetes',1,'L1806',NULL,'Pre-existing diabetes mellitus, non-insulin-dependent'),('diabetes',1,'L1807',NULL,'Pre-existing malnutrition-related diabetes mellitus'),('diabetes',1,'L1808',NULL,'Diabetes mellitus arising in pregnancy'),('diabetes',1,'L180z',NULL,'Diabetes mellitus during pregnancy, childbirth or the puerperium NOS'),('diabetes',1,'Lyu29',NULL,'[X]Pre-existing diabetes mellitus, unspecified'),('diabetes',1,'Q441.',NULL,'Neonatal diabetes mellitus'),('diabetes',1,'X40J4',NULL,'Insulin-dependent diabetes mellitus'),('diabetes',1,'X40J5',NULL,'Non-insulin-dependent diabetes mellitus'),('diabetes',1,'X40J6',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes',1,'X40J7',NULL,'Malnutrition-related diabetes mellitus'),('diabetes',1,'X40J8',NULL,'Malnutrition-related diabetes mellitus - fibrocalculous'),('diabetes',1,'X40J9',NULL,'Malnutrition-related diabetes mellitus - protein-deficient'),('diabetes',1,'X40JA',NULL,'Secondary diabetes mellitus'),('diabetes',1,'X40JB',NULL,'Secondary pancreatic diabetes mellitus'),('diabetes',1,'X40JC',NULL,'Secondary endocrine diabetes mellitus'),('diabetes',1,'X40JE',NULL,'Reavens syndrome'),('diabetes',1,'X40JF',NULL,'Transitory neonatal diabetes mellitus'),('diabetes',1,'X40JG',NULL,'Genetic syndromes of diabetes mellitus'),('diabetes',1,'X40JI',NULL,'Maturity onset diabetes in youth type 1'),('diabetes',1,'X40JJ',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes',1,'X40JN',NULL,'Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus'),('diabetes',1,'X40JQ',NULL,'Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus'),('diabetes',1,'X40JV',NULL,'Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities'),('diabetes',1,'X40JX',NULL,'Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities'),('diabetes',1,'X40JY',NULL,'Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea'),('diabetes',1,'X40Ja',NULL,'Abnormal metabolic state in diabetes mellitus'),('diabetes',1,'X50GO',NULL,'Soft tissue complication of diabetes mellitus'),('diabetes',1,'XE10E',NULL,'Diabetes mellitus, juvenile type, with no mention of complication'),('diabetes',1,'XE10F',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),
 ('diabetes',1,'XE10G',NULL,'Diabetes mellitus with renal manifestation'),('diabetes',1,'XE10H',NULL,'Diabetes mellitus with neurological manifestation'),('diabetes',1,'XE10I',NULL,'Diabetes mellitus with peripheral circulatory disorder'),('diabetes',1,'XE12C',NULL,'Insulin dependent diabetes mel'),('diabetes',1,'XE15k',NULL,'Diabetes mellitus with polyneuropathy'),('diabetes',1,'XM19i',NULL,'[EDTA] Diabetes Type I (insulin dependent) associated with renal failure'),('diabetes',1,'XM19j',NULL,'[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure'),('diabetes',1,'XM1Qx',NULL,'Diabetes mellitus with gangrene'),('diabetes',1,'XSETH',NULL,'Maturity onset diabetes mellitus in young'),('diabetes',1,'XSETK',NULL,'Drug-induced diabetes mellitus'),('diabetes',1,'XSETp',NULL,'Diabetes mellitus due to insulin receptor antibodies'),('diabetes',1,'Xa08a',NULL,'Small for gestation neonatal diabetes mellitus'),('diabetes',1,'Xa4g7',NULL,'Unstable type 1 diabetes mellitus'),('diabetes',1,'Xa9FG',NULL,'Postpancreatectomy diabetes mellitus'),('diabetes',1,'XaA6b',NULL,'Perceived control of insulin-dependent diabetes'),('diabetes',1,'XaELP',NULL,'Insulin-dependent diabetes without complication'),('diabetes',1,'XaELQ',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes',1,'XaEnn',NULL,'Type I diabetes mellitus with mononeuropathy'),('diabetes',1,'XaEno',NULL,'Insulin dependent diabetes mellitus with polyneuropathy'),('diabetes',1,'XaEnp',NULL,'Type II diabetes mellitus with mononeuropathy'),('diabetes',1,'XaEnq',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes',1,'XaF04',NULL,'Type 1 diabetes mellitus with nephropathy'),('diabetes',1,'XaF05',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes',1,'XaFWG',NULL,'Type 1 diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'XaFWI',NULL,'Type II diabetes mellitus with hypoglycaemic coma'),('diabetes',1,'XaFm8',NULL,'Type 1 diabetes mellitus with diabetic cataract'),('diabetes',1,'XaFmA',NULL,'Type II diabetes mellitus with diabetic cataract'),('diabetes',1,'XaFmK',NULL,'Type I diabetes mellitus with peripheral angiopathy'),('diabetes',1,'XaFmL',NULL,'Type 1 diabetes mellitus with arthropathy'),('diabetes',1,'XaFmM',NULL,'Type 1 diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'XaFn7',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes',1,'XaFn8',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes',1,'XaFn9',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes',1,'XaIrf',NULL,'Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes',1,'XaIyz',NULL,'Diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'XaIz0',NULL,'Diabetes mellitus with persistent proteinuria'),('diabetes',1,'XaIzM',NULL,'Type 1 diabetes mellitus with persistent proteinuria'),('diabetes',1,'XaIzN',NULL,'Type 1 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'XaIzQ',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes',1,'XaIzR',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes',1,'XaJQp',NULL,'Type II diabetes mellitus with exudative maculopathy'),('diabetes',1,'XaJSr',NULL,'Type I diabetes mellitus with exudative maculopathy'),('diabetes',1,'XaJUI',NULL,'Diabetes mellitus induced by non-steroid drugs'),('diabetes',1,'XaJlL',NULL,'Secondary pancreatic diabetes mellitus without complication'),('diabetes',1,'XaJlM',NULL,'Diabetes mellitus induced by non-steroid drugs without complication'),('diabetes',1,'XaJlQ',NULL,'Lipoatrophic diabetes mellitus without complication'),('diabetes',1,'XaJlR',NULL,'Secondary diabetes mellitus without complication'),('diabetes',1,'XaKyW',NULL,'Type I diabetes mellitus with gastroparesis'),('diabetes',1,'XaKyX',NULL,'Type II diabetes mellitus with gastroparesis'),('diabetes',1,'XaMzI',NULL,'Cystic fibrosis related diabetes mellitus'),('diabetes',1,'XaOPt',NULL,'Maternally inherited diabetes mellitus'),('diabetes',1,'XaOPu',NULL,'Latent autoimmune diabetes mellitus in adult'),('diabetes',1,'XacoB',NULL,'Maturity onset diabetes of the young type 5'),('diabetes',1,'XaIfG',NULL,'Type II diabetes on insulin'),('diabetes',1,'XaIfI',NULL,'Type II diabetes on diet only');
 INSERT INTO #codesctv3
@@ -196,7 +235,7 @@ VALUES ('alcohol-light-drinker',1,'1362.00',NULL,'Trivial drinker - <1u/day');
 INSERT INTO #codesctv3
 VALUES ('alcohol-non-drinker',1,'1361.',NULL,'Teetotaller'),('alcohol-non-drinker',1,'136M.',NULL,'Current non-drinker');
 INSERT INTO #codesctv3
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'X76CO',NULL,'Quetelet index'),('bmi',1,'Xa7wG',NULL,'Observation of body mass index'),('bmi',1,'Xaa0k',NULL,'Childhood obesity'),('bmi',1,'Xaatm',NULL,'Child BMI centile'),('bmi',1,'Xabdn',NULL,'Downs syndrome BMI centile'),('bmi',1,'XabHx',NULL,'Obese class I (BMI 30.0-34.9)'),('bmi',1,'XabHy',NULL,'Obese class II (BMI 35.0-39.9)'),('bmi',1,'XabHz',NULL,'Obese cls III (BMI eq/gr 40.0)'),('bmi',1,'XabSe',NULL,'Child BMI < 0.4th centile'),('bmi',1,'XabSf',NULL,'Child BMI 0.4th-1.9th centile'),('bmi',1,'XabSg',NULL,'Child BMI on 2nd centile'),('bmi',1,'XabSh',NULL,'Child BMI 3rd-8th centile'),('bmi',1,'XabSj',NULL,'Child BMI on 9th centile'),('bmi',1,'XabSk',NULL,'Child BMI 10th-24th centile'),('bmi',1,'XabSl',NULL,'Child BMI on 25th centile'),('bmi',1,'XabSm',NULL,'Child BMI 26th-49th centile'),('bmi',1,'XabSn',NULL,'Child BMI on 50th centile'),('bmi',1,'XabTe',NULL,'Child BMI on 75th centile'),('bmi',1,'XabTf',NULL,'Child BMI 76th-90th centile'),('bmi',1,'XabTg',NULL,'Child BMI on 91st centile'),('bmi',1,'XabTh',NULL,'Child BMI 92nd-97th centile'),('bmi',1,'XabTi',NULL,'Child BMI on 98th centile'),('bmi',1,'XabTj',NULL,'Child BMI 98.1-99.6 centile'),('bmi',1,'XabTk',NULL,'Child BMI > 99.6th centile'),('bmi',1,'XabTZ',NULL,'Child BMI 51st-74th centile'),('bmi',1,'XaCDR',NULL,'Body mass index less than 20'),('bmi',1,'XaJJH',NULL,'BMI 40+ - severely obese'),('bmi',1,'XaJqk',NULL,'Body mass index 20-24 - normal'),('bmi',1,'XaVwA',NULL,'Body mass index centile'),('bmi',1,'XaZck',NULL,'Baseline BMI centile'),('bmi',1,'XaZcl',NULL,'Baseline body mass index'),('bmi',2,'22K..',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index');
 INSERT INTO #codesctv3
 VALUES ('smoking-status-current',1,'1373.',NULL,'Lt cigaret smok, 1-9 cigs/day'),('smoking-status-current',1,'1374.',NULL,'Mod cigaret smok, 10-19 cigs/d'),('smoking-status-current',1,'1375.',NULL,'Hvy cigaret smok, 20-39 cigs/d'),('smoking-status-current',1,'1376.',NULL,'Very hvy cigs smoker,40+cigs/d'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137D.',NULL,'Admitted tobacco cons untrue ?'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'Ub1tI',NULL,'Cigarette consumption'),('smoking-status-current',1,'Ub1tJ',NULL,'Cigar consumption'),('smoking-status-current',1,'Ub1tK',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'XaBSp',NULL,'Smoking restarted'),('smoking-status-current',1,'XaIIu',NULL,'Smoking reduced'),('smoking-status-current',1,'XaIkW',NULL,'Thinking about stop smoking'),('smoking-status-current',1,'XaIkX',NULL,'Ready to stop smoking'),('smoking-status-current',1,'XaIkY',NULL,'Not interested stop smoking'),('smoking-status-current',1,'XaItg',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'XaIuQ',NULL,'Cigarette pack-years'),('smoking-status-current',1,'XaJX2',NULL,'Min from wake to 1st tobac con'),('smoking-status-current',1,'XaWNE',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'XaZIE',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'XE0og',NULL,'Tobacco smoking consumption'),('smoking-status-current',1,'XE0oq',NULL,'Cigarette smoker'),('smoking-status-current',1,'XE0or',NULL,'Smoking started');
 INSERT INTO #codesctv3
@@ -239,6 +278,9 @@ CREATE TABLE #codessnomed (
 ) ON [PRIMARY];
 
 INSERT INTO #codessnomed
+VALUES ('chronic-kidney-disease',1,'46177005',NULL,'End-stage renal disease'),('chronic-kidney-disease',1,'431855005',NULL,'CKD stage 1'),('chronic-kidney-disease',1,'431856006',NULL,'CKD stage 2'),('chronic-kidney-disease',1,'431857002',NULL,'CKD stage 4'),('chronic-kidney-disease',1,'433144002',NULL,'CKD stage 3'),('chronic-kidney-disease',1,'433146000',NULL,'CKD stage 5'),('chronic-kidney-disease',1,'700378005',NULL,'Chronic kidney disease stage 3A (disorder)'),('chronic-kidney-disease',1,'700379002',NULL,'Chronic kidney disease stage 3B (disorder)'),('chronic-kidney-disease',1,'707323002',NULL,'Anemia in chronic kidney disease'),('chronic-kidney-disease',1,'709044004',NULL,'Chronic renal disease'),('chronic-kidney-disease',1,'713313000',NULL,'Chronic kidney disease mineral and bone disorder (disorder)'),('chronic-kidney-disease',1,'714152005',NULL,'Chronic kidney disease stage 5 on dialysis'),('chronic-kidney-disease',1,'714153000',NULL,'CKD (chronic kidney disease) stage 5t'),('chronic-kidney-disease',1,'722098007',NULL,'Chronic kidney disease following donor nephrectomy'),('chronic-kidney-disease',1,'722149000',NULL,'Chronic kidney disease due to tumour nephrectomy'),('chronic-kidney-disease',1,'722150000',NULL,'Chronic kidney disease due to systemic infection'),('chronic-kidney-disease',1,'722467000',NULL,'Chronic kidney disease due to traumatic loss of kidney'),('chronic-kidney-disease',1,'140121000119100',NULL,'Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'140131000119102',NULL,'Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'140101000119109',NULL,'Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'140111000119107',NULL,'Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'71701000119105',NULL,'Hypertension in chronic kidney disease due to type I diabetes mellitus'),('chronic-kidney-disease',1,'71421000119105',NULL,'Hypertension in chronic kidney disease due to type II diabetes mellitus'),('chronic-kidney-disease',1,'104931000119100',NULL,'Chronic kidney disease due to hypertension (disorder)'),('chronic-kidney-disease',1,'731000119105',NULL,'Chronic kidney disease stage 3 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'741000119101',NULL,'Chronic kidney disease stage 2 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'711000119100',NULL,'Chronic kidney disease stage 5 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'721000119107',NULL,'Chronic kidney disease stage 4 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'96441000119101',NULL,'Chronic kidney disease due to type I diabetes mellitus'),('chronic-kidney-disease',1,'771000119108',NULL,'Chronic kidney disease due to type 2 diabetes mellitus (disorder)'),('chronic-kidney-disease',1,'10757481000119107',NULL,'Preexisting hypertensive heart and chronic kidney disease in pregnancy'),('chronic-kidney-disease',1,'285831000119108',NULL,'Malignant hypertensive chronic kidney disease (disorder)'),('chronic-kidney-disease',1,'129161000119100',NULL,'Chronic kidney disease stage 5 due to hypertension (disorder)'),('chronic-kidney-disease',1,'117681000119102',NULL,'Chronic kidney disease stage 1 due to hypertension (disorder)'),('chronic-kidney-disease',1,'129171000119106',NULL,'Chronic kidney disease stage 3 due to hypertension (disorder)'),('chronic-kidney-disease',1,'129181000119109',NULL,'Chronic kidney disease stage 2 due to hypertension (disorder)'),('chronic-kidney-disease',1,'129151000119102',NULL,'Chronic kidney disease stage 4 due to hypertension (disorder)'),('chronic-kidney-disease',1,'8501000119104',NULL,'Hypertensive heart and chronic kidney disease (disorder)'),('chronic-kidney-disease',1,'96701000119107',NULL,'Hypertensive heart AND chronic kidney disease on dialysis (disorder)'),('chronic-kidney-disease',1,'284961000119106',NULL,'Chronic kidney disease due to benign hypertension (disorder)'),('chronic-kidney-disease',1,'324281000000104',NULL,'Chronic kidney disease stage 3 without proteinuria'),('chronic-kidney-disease',1,'324251000000105',NULL,'Chronic kidney disease stage 3 with proteinuria'),('chronic-kidney-disease',1,'285871000119106',NULL,'Malignant hypertensive chronic kidney disease stage 3 (disorder)'),('chronic-kidney-disease',1,'96731000119100',NULL,'Hypertensive heart AND chronic kidney disease stage 3 (disorder)'),('chronic-kidney-disease',1,'90741000119107',NULL,'Chronic kidney disease stage 3 due to type I diabetes mellitus'),('chronic-kidney-disease',1,'284991000119104',NULL,'Chronic kidney disease stage 3 due to benign hypertension'),('chronic-kidney-disease',1,'691421000119108',NULL,'Anemia co-occurrent and due to chronic kidney disease stage 3'),('chronic-kidney-disease',1,'324211000000106',NULL,'Chronic kidney disease stage 2 without proteinuria'),('chronic-kidney-disease',1,'324181000000105',NULL,'Chronic kidney disease stage 2 with proteinuria'),('chronic-kidney-disease',1,'285861000119100',NULL,'Malignant hypertensive chronic kidney disease stage 2 (disorder)'),('chronic-kidney-disease',1,'96741000119109',NULL,'Hypertensive heart AND chronic kidney disease stage 2 (disorder)'),('chronic-kidney-disease',1,'90731000119103',NULL,'Chronic kidney disease stage 2 due to type I diabetes mellitus'),('chronic-kidney-disease',1,'284981000119102',NULL,'Chronic kidney disease stage 2 due to benign hypertension (disorder)'),('chronic-kidney-disease',1,'324541000000105',NULL,'Chronic kidney disease stage 5 without proteinuria'),('chronic-kidney-disease',1,'324501000000107',NULL,'Chronic kidney disease stage 5 with proteinuria'),('chronic-kidney-disease',1,'153851000119106',NULL,'Malignant hypertensive chronic kidney disease stage 5 (disorder)'),('chronic-kidney-disease',1,'96711000119105',NULL,'Hypertensive heart AND chronic kidney disease stage 5 (disorder)'),('chronic-kidney-disease',1,'90761000119106',NULL,'Chronic kidney disease stage 5 due to type I diabetes mellitus'),('chronic-kidney-disease',1,'285011000119108',NULL,'Chronic kidney disease stage 5 due to benign hypertension'),('chronic-kidney-disease',1,'324441000000106',NULL,'Chronic kidney disease stage 4 with proteinuria'),('chronic-kidney-disease',1,'324471000000100',NULL,'Chronic kidney disease stage 4 without proteinuria'),('chronic-kidney-disease',1,'285881000119109',NULL,'Malignant hypertensive chronic kidney disease stage 4 (disorder)'),('chronic-kidney-disease',1,'96721000119103',NULL,'Hypertensive heart AND chronic kidney disease stage 4 (disorder)'),('chronic-kidney-disease',1,'90751000119109',NULL,'Chronic kidney disease stage 4 due to type I diabetes mellitus'),('chronic-kidney-disease',1,'285001000119105',NULL,'Chronic kidney disease stage 4 due to benign hypertension (disorder)'),('chronic-kidney-disease',1,'90721000119101',NULL,'Chronic kidney disease stage 1 due to type I diabetes mellitus'),('chronic-kidney-disease',1,'751000119104',NULL,'Chronic kidney disease stage 1 due to type II diabetes mellitus'),('chronic-kidney-disease',1,'285851000119102',NULL,'Malignant hypertensive chronic kidney disease stage 1 (disorder)'),('chronic-kidney-disease',1,'96751000119106',NULL,'Hypertensive heart AND chronic kidney disease stage 1 (disorder)'),('chronic-kidney-disease',1,'284971000119100',NULL,'Chronic kidney disease stage 1 due to benign hypertension (disorder)'),('chronic-kidney-disease',1,'10757401000119104',NULL,'Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth'),('chronic-kidney-disease',1,'324311000000101',NULL,'Chronic kidney disease stage 3A with proteinuria'),('chronic-kidney-disease',1,'324341000000100',NULL,'Chronic kidney disease stage 3A without proteinuria'),('chronic-kidney-disease',1,'324371000000106',NULL,'Chronic kidney disease stage 3B with proteinuria'),('chronic-kidney-disease',1,'324411000000105',NULL,'Chronic kidney disease stage 3B without proteinuria'),('chronic-kidney-disease',1,'949521000000108',NULL,'Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1'),('chronic-kidney-disease',1,'949561000000100',NULL,'Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2'),('chronic-kidney-disease',1,'949621000000109',NULL,'Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3'),('chronic-kidney-disease',1,'950251000000106',NULL,'Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1'),('chronic-kidney-disease',1,'950291000000103',NULL,'Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2'),('chronic-kidney-disease',1,'950311000000102',NULL,'Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3'),('chronic-kidney-disease',1,'950181000000106',NULL,'Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1'),('chronic-kidney-disease',1,'950211000000107',NULL,'Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2'),('chronic-kidney-disease',1,'950231000000104',NULL,'Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3'),('chronic-kidney-disease',1,'324151000000104',NULL,'Chronic kidney disease stage 1 without proteinuria'),('chronic-kidney-disease',1,'324121000000109',NULL,'Chronic kidney disease stage 1 with proteinuria'),('chronic-kidney-disease',1,'949881000000106',NULL,'CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1'),('chronic-kidney-disease',1,'949901000000109',NULL,'Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2'),
+('chronic-kidney-disease',1,'949921000000100',NULL,'Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3'),('chronic-kidney-disease',1,'950061000000103',NULL,'Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1'),('chronic-kidney-disease',1,'950081000000107',NULL,'Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2'),('chronic-kidney-disease',1,'950101000000101',NULL,'Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3'),('chronic-kidney-disease',1,'949401000000103',NULL,'Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1'),('chronic-kidney-disease',1,'949421000000107',NULL,'Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2'),('chronic-kidney-disease',1,'949481000000108',NULL,'Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3'),('chronic-kidney-disease',1,'691401000119104',NULL,'Anaemia in chronic kidney disease stage 4'),('chronic-kidney-disease',1,'691411000119101',NULL,'Anaemia in chronic kidney disease stage 5'),('chronic-kidney-disease',1,'444271000',NULL,'Erythropoietin resistance in anemia of chronic kidney disease'),('chronic-kidney-disease',1,'15781000119107',NULL,'Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)');
+INSERT INTO #codessnomed
 VALUES ('glomerulonephritis',1,'1426004',NULL,'Necrotizing glomerulonephritis (disorder)'),('glomerulonephritis',1,'3704008',NULL,'Diffuse endocapillary proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'4676006',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class II (disorder)'),('glomerulonephritis',1,'11013005',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class VI'),('glomerulonephritis',1,'13335004',NULL,'Sclerosing glomerulonephritis (disorder)'),('glomerulonephritis',1,'19351000',NULL,'Acute glomerulonephritis (disorder)'),('glomerulonephritis',1,'20917003',NULL,'CGN - Chronic glomerulonephritis'),('glomerulonephritis',1,'35546006',NULL,'Mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'36171008',NULL,'GN - Glomerulonephritis'),('glomerulonephritis',1,'36402006',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class IV'),('glomerulonephritis',1,'44785005',NULL,'MCN - Minimal change nephropathy'),('glomerulonephritis',1,'50581000',NULL,'Goodpasture syndrome'),('glomerulonephritis',1,'52042003',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class V'),('glomerulonephritis',1,'55652009',NULL,'Idiopathic crescentic glomerulonephritis type 3'),('glomerulonephritis',1,'57965003',NULL,'Acute benign haemorrhagic glomerulonephritis'),('glomerulonephritis',1,'59479006',NULL,'Mesangiocapillary glomerulonephritis, type II (disorder)'),('glomerulonephritis',1,'64168005',NULL,'Idiopathic crescentic glomerulonephritis, type I (disorder)'),('glomerulonephritis',1,'64212008',NULL,'Diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'68544003',NULL,'PSGN - Post-streptococcal glomerulonephritis'),('glomerulonephritis',1,'68779003',NULL,'Primary immunoglobulin A nephropathy (disorder)'),('glomerulonephritis',1,'68815009',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome'),('glomerulonephritis',1,'73286009',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class I (disorder)'),('glomerulonephritis',1,'73305009',NULL,'Amyloid-like glomerulopathy'),('glomerulonephritis',1,'75888001',NULL,'Mesangiocapillary glomerulonephritis type I'),('glomerulonephritis',1,'76521009',NULL,'Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III'),('glomerulonephritis',1,'77182004',NULL,'Chronic nephritic syndrome, diffuse membranous glomerulonephritis'),('glomerulonephritis',1,'80321008',NULL,'Mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'83866005',NULL,'Focal AND segmental proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'123609007',NULL,'Subacute glomerulonephritis (disorder)'),('glomerulonephritis',1,'123752003',NULL,'Immune complex glomerulonephritis'),('glomerulonephritis',1,'197579006',NULL,'Acute proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197582001',NULL,'Acute glomerulonephritis associated with another disorder'),('glomerulonephritis',1,'197589005',NULL,'Nephrotic syndrome with proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197590001',NULL,'Nephrotic syndrome with membranous glomerulonephritis (disorder)'),('glomerulonephritis',1,'197591002',NULL,'Nephrotic syndrome with membranoproliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197595006',NULL,'Nephrotic syndrome, diffuse membranous glomerulonephritis (disorder)'),('glomerulonephritis',1,'197596007',NULL,'Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197597003',NULL,'Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197598008',NULL,'Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'197600002',NULL,'Nephrotic syndrome, diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'197613008',NULL,'Chronic mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197616000',NULL,'Chronic glomerulonephritis associated with another disorder'),('glomerulonephritis',1,'197617009',NULL,'Chronic exudative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197618004',NULL,'Chronic focal glomerulonephritis (disorder)'),('glomerulonephritis',1,'197619007',NULL,'Chronic diffuse glomerulonephritis (disorder)'),('glomerulonephritis',1,'197626007',NULL,'Focal membranoproliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197629000',NULL,'Anaphylactoid glomerulonephritis (disorder)'),('glomerulonephritis',1,'197683002',NULL,'Acute nephritic syndrome, diffuse membranous glomerulonephritis (disorder)'),('glomerulonephritis',1,'197684008',NULL,'Acute nephritic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197685009',NULL,'Acute nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197686005',NULL,'Acute nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'197688006',NULL,'Acute nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'197692004',NULL,'Rapidly progressive nephritic syndrome, diffuse membranous glomerulonephritis (disorder)'),('glomerulonephritis',1,'197693009',NULL,'Rapidly progressive nephritic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197694003',NULL,'Rapidly progressive nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197695002',NULL,'Rapidly progressive nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'197697005',NULL,'Rapidly progressive nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'197712008',NULL,'Chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'197713003',NULL,'Chronic nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'197715005',NULL,'Chronic nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'197720005',NULL,'Isolated proteinuria with specified morphological lesion, diffuse membranous glomerulonephritis (finding)'),('glomerulonephritis',1,'197721009',NULL,'Isolated proteinuria with specified morphological lesion, diffuse mesangial proliferative glomerulonephritis (finding)'),('glomerulonephritis',1,'197722002',NULL,'Isolated proteinuria with specified morphological lesion, diffuse endocapillary proliferative glomerulonephritis (finding)'),('glomerulonephritis',1,'197723007',NULL,'Isolated proteinuria with specified morphological lesion, diffuse mesangiocapillary glomerulonephritis (finding)'),('glomerulonephritis',1,'197725000',NULL,'Isolated proteinuria with specified morphological lesion, diffuse concentric glomerulonephritis (finding)'),('glomerulonephritis',1,'236392004',NULL,'Rapidly progressive glomerulonephritis (disorder)'),('glomerulonephritis',1,'236393009',NULL,'Endocapillary proliferative glomerulonephritis'),('glomerulonephritis',1,'236394003',NULL,'Idiopathic endocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'236395002',NULL,'Post-infectious glomerulonephritis (disorder)'),('glomerulonephritis',1,'236397005',NULL,'Post-infectious glomerulonephritis - Garland variety (disorder)'),('glomerulonephritis',1,'236398000',NULL,'Proliferative crescentic glomerulonephritis'),('glomerulonephritis',1,'236399008',NULL,'Steroid-sensitive minimal change glomerulonephritis (disorder)'),('glomerulonephritis',1,'236400001',NULL,'Steroid-resistant minimal change glomerulonephritis (disorder)'),('glomerulonephritis',1,'236401002',NULL,'Steroid-dependent minimal change glomerulonephritis (disorder)'),('glomerulonephritis',1,'236407003',NULL,'Immunoglobulin A nephropathy (disorder)'),('glomerulonephritis',1,'236409000',NULL,'Mesangiocapillary glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'236410005',NULL,'Mesangiocapillary glomerulonephritis type IV (disorder)'),('glomerulonephritis',1,'236411009',NULL,'Immunoglobulin M nephropathy (disorder)'),('glomerulonephritis',1,'236413007',NULL,'Membranous glomerulonephritis - stage I (disorder)'),('glomerulonephritis',1,'236414001',NULL,'Membranous glomerulonephritis - stage II (disorder)'),('glomerulonephritis',1,'236415000',NULL,'Membranous glomerulonephritis - stage III (disorder)'),('glomerulonephritis',1,'236416004',NULL,'Membranous glomerulonephritis - stage IV (disorder)'),('glomerulonephritis',1,'236417008',NULL,'Membranous glomerulonephritis stage V (disorder)'),('glomerulonephritis',1,'236419006',NULL,'Progressive hereditary glomerulonephritis without deafness (disorder)'),('glomerulonephritis',1,'236505008',NULL,'Cryoglobulinemic glomerulonephritis (disorder)'),('glomerulonephritis',1,'236508005',NULL,'Malignancy-associated glomerulonephritis (disorder)'),('glomerulonephritis',1,'236586006',NULL,'De novo glomerulonephritis (disorder)'),('glomerulonephritis',1,'236590008',NULL,'Cytomegalovirus-induced glomerulonephritis (disorder)'),('glomerulonephritis',1,'239932005',NULL,'Primary pauci-immune necrotizing and crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'266549004',NULL,'Nephrotic syndrome with minimal change glomerulonephritis (disorder)'),('glomerulonephritis',1,'359694003',NULL,'Idiopathic crescentic glomerulonephritis, type II (disorder)'),('glomerulonephritis',1,'363233007',NULL,'Nephrotic syndrome secondary to glomerulonephritis (disorder)'),
 ('glomerulonephritis',1,'399190000',NULL,'Non-progressive hereditary glomerulonephritis'),('glomerulonephritis',1,'399340005',NULL,'Alports syndrome'),('glomerulonephritis',1,'425384007',NULL,'Sarcoidosis with glomerulonephritis'),('glomerulonephritis',1,'425455002',NULL,'Diabetic glomerulonephritis'),('glomerulonephritis',1,'427555000',NULL,'Glomerulonephritis co-occurrent and due to Wegeners granulomatosis'),('glomerulonephritis',1,'441815006',NULL,'Proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'445258009',NULL,'Idiopathic rapidly progressive glomerulonephritis'),('glomerulonephritis',1,'707332000',NULL,'Recurrent proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'711531007',NULL,'Focal mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'714815007',NULL,'Recurrent haematuria co-occurrent and due to diffuse crescentic glomerulonephritis'),('glomerulonephritis',1,'714816008',NULL,'Persistent haematuria co-occurrent and due to diffuse crescentic glomerulonephritis'),('glomerulonephritis',1,'714817004',NULL,'Recurrent haematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis'),('glomerulonephritis',1,'714818009',NULL,'Persistent haematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis'),('glomerulonephritis',1,'714819001',NULL,'Recurrent haematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis'),('glomerulonephritis',1,'714820007',NULL,'Persistent haematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis'),('glomerulonephritis',1,'714821006',NULL,'Recurrent haematuria co-occurrent and due to diffuse membranous glomerulonephritis'),('glomerulonephritis',1,'714822004',NULL,'Persistent haematuria co-occurrent and due to diffuse membranous glomerulonephritis'),('glomerulonephritis',1,'714825002',NULL,'Recurrent haematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis'),('glomerulonephritis',1,'714826001',NULL,'Persistent haematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis'),('glomerulonephritis',1,'718192000',NULL,'Congo red negative amyloidosis like glomerulopathy'),('glomerulonephritis',1,'722086002',NULL,'Malignancy-associated membranous nephropathy'),('glomerulonephritis',1,'722119002',NULL,'Idiopathic membranous nephropathy'),('glomerulonephritis',1,'722120008',NULL,'Membranous glomerulonephritis caused by drug'),('glomerulonephritis',1,'722168002',NULL,'Membranous glomerulonephritis co-occurrent with infectious disease'),('glomerulonephritis',1,'722761003',NULL,'Complement component 3 glomerulonephritis'),('glomerulonephritis',1,'726082003',NULL,'Immunotactoid glomerulonephritis'),('glomerulonephritis',1,'733472005',NULL,'Microcephalus, glomerulonephritis, marfanoid habitus syndrome'),('glomerulonephritis',1,'106911000119102',NULL,'Idiopathic glomerulonephritis'),('glomerulonephritis',1,'120241000119100',NULL,'Glomerulonephritis due to hepatitis C'),('glomerulonephritis',1,'85381000119105',NULL,'Glomerulonephritis due to Henoch-Schönlein purpura (disorder)'),('glomerulonephritis',1,'89681000119101',NULL,'Glomerulonephritis co-occurrent and due to scleroderma'),('glomerulonephritis',1,'101711000119105',NULL,'Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis'),('glomerulonephritis',1,'90971000119103',NULL,'Glomerulonephritis co-occurrent and due to vasculitis'),('glomerulonephritis',1,'195791000119101',NULL,'Chronic proliferative glomerulonephritis'),('glomerulonephritis',1,'367561000119103',NULL,'Hereditary diffuse mesangiocapillary glomerulonephritis (disorder)'),('glomerulonephritis',1,'367551000119100',NULL,'Hereditary diffuse mesangial proliferative glomerulonephritis (disorder)'),('glomerulonephritis',1,'367531000119106',NULL,'Hereditary diffuse endocapillary proliferative glomerulonephritis'),('glomerulonephritis',1,'367541000119102',NULL,'Hereditary diffuse membranous glomerulonephritis'),('glomerulonephritis',1,'368941000119108',NULL,'Hereditary nephropathy co-occurrent with membranoproliferative glomerulonephritis type III'),('glomerulonephritis',1,'368881000119109',NULL,'Rapidly progressive nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'28191000119109',NULL,'Chronic nephritic syndrome with membranous glomerulonephritis (disorder)'),('glomerulonephritis',1,'368931000119104',NULL,'Isolated proteinuria co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'368921000119102',NULL,'Nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'368911000119109',NULL,'Nephrotic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III'),('glomerulonephritis',1,'367511000119101',NULL,'Hereditary dense deposit disease'),('glomerulonephritis',1,'367521000119108',NULL,'Hereditary diffuse crescentic glomerulonephritis (disorder)'),('glomerulonephritis',1,'368871000119106',NULL,'Acute nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'368901000119106',NULL,'Chronic nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)'),('glomerulonephritis',1,'123610002',NULL,'Healed glomerulonephritis (disorder)');
 INSERT INTO #codessnomed
@@ -246,7 +288,7 @@ VALUES ('kidney-stones',1,'95570007',NULL,'Kidney stone (disorder)'),('kidney-st
 INSERT INTO #codessnomed
 VALUES ('vasculitis',1,'228007',NULL,'Lucio phenomenon (disorder)'),('vasculitis',1,'9177003',NULL,'Histiocytic vasculitis of skin (disorder)'),('vasculitis',1,'11791001',NULL,'Necrotizing vasculitis (disorder)'),('vasculitis',1,'31996006',NULL,'Vasculitis (disorder)'),('vasculitis',1,'46286007',NULL,'Lymphocytic vasculitis of skin (disorder)'),('vasculitis',1,'46956008',NULL,'Polyangiitis'),('vasculitis',1,'53312001',NULL,'Vasculitis of the skin (disorder)'),('vasculitis',1,'55275006',NULL,'Non-tubercular erythema induratum'),('vasculitis',1,'56780006',NULL,'Segmental hyalinizing vasculitis (disorder)'),('vasculitis',1,'60555002',NULL,'Hypersensitivity angiitis (disorder)'),('vasculitis',1,'64832003',NULL,'Neutrophilic vasculitis of skin (disorder)'),('vasculitis',1,'77628002',NULL,'Retinal vasculitis (disorder)'),('vasculitis',1,'95578000',NULL,'Renal vasculitis (disorder)'),('vasculitis',1,'190815001',NULL,'Cryoglobulinemic vasculitis (disorder)'),('vasculitis',1,'191306005',NULL,'Henoch-Schönlein purpura (disorder)'),('vasculitis',1,'230731002',NULL,'Cerebral arteritis in systemic vasculitis (disorder)'),('vasculitis',1,'230733004',NULL,'Isolated angiitis of central nervous system (disorder)'),('vasculitis',1,'234019004',NULL,'Secondary systemic vasculitis (disorder)'),('vasculitis',1,'234020005',NULL,'Vasculitis caused by drug'),('vasculitis',1,'238762002',NULL,'Livedoid vasculitis (disorder)'),('vasculitis',1,'238785001',NULL,'Primary cutaneous vasculitis (disorder)'),('vasculitis',1,'238786000',NULL,'Gougerot-Ruiter purpura (disorder)'),('vasculitis',1,'238787009',NULL,'Secondary cutaneous vasculitis (disorder)'),('vasculitis',1,'239924002',NULL,'Primary necrotizing systemic vasculitis (disorder)'),('vasculitis',1,'239933000',NULL,'Primary necrotizing vasculitis with granulomata (disorder)'),('vasculitis',1,'239941000',NULL,'Nailfold rheumatoid vasculitis (disorder)'),('vasculitis',1,'239942007',NULL,'Systemic rheumatoid vasculitis (disorder)'),('vasculitis',1,'239943002',NULL,'Necrotizing rheumatoid vasculitis (disorder)'),('vasculitis',1,'239944008',NULL,'Lupus erythematosus-associated vasculitis'),('vasculitis',1,'239945009',NULL,'Hypocomplementemic urticarial vasculitis (disorder)'),('vasculitis',1,'239947001',NULL,'Essential mixed cryoglobulinemia (disorder)'),('vasculitis',1,'400054000',NULL,'Rheumatoid vasculitis'),('vasculitis',1,'402416000',NULL,'Urticarial vasculitis with monoclonal immunoglobulin M component, Schnitzler'),('vasculitis',1,'402655006',NULL,'Necrotizing cutaneous vasculitis'),('vasculitis',1,'402656007',NULL,'Urticarial vasculitis'),('vasculitis',1,'402657003',NULL,'Necrotizing vasculitis secondary to connective tissue disease'),('vasculitis',1,'402658008',NULL,'Serum sickness type vasculitis'),('vasculitis',1,'402659000',NULL,'Drug-induced necrotizing vasculitis'),('vasculitis',1,'402660005',NULL,'Necrotizing vasculitis secondary to infection'),('vasculitis',1,'402661009',NULL,'Paraneoplastic vasculitis'),('vasculitis',1,'402662002',NULL,'Necrotizing vasculitis due to mixed cryoglobulinemia'),('vasculitis',1,'402663007',NULL,'Pustular vasculitis'),('vasculitis',1,'402664001',NULL,'Localized cutaneous vasculitis'),('vasculitis',1,'402855009',NULL,'Normocomplementemic urticarial vasculitis'),('vasculitis',1,'402859003',NULL,'Necrotizing vasculitis of undetermined etiology'),('vasculitis',1,'402958005',NULL,'Pustular vasculitis due to gonococcal bacteremia'),('vasculitis',1,'403510002',NULL,'Urticarial vasculitis due to lupus erythematosus'),('vasculitis',1,'403511003',NULL,'Necrotizing vasculitis due to lupus erythematosus'),('vasculitis',1,'403518009',NULL,'Necrotizing vasculitis due to scleroderma'),('vasculitis',1,'403616000',NULL,'Drug-induced lymphocytic vasculitis'),('vasculitis',1,'407530004',NULL,'Primary systemic vasculitis'),('vasculitis',1,'416703007',NULL,'Retinal vasculitis due to polyarteritis nodosa'),('vasculitis',1,'417303004',NULL,'Retinal vasculitis due to systemic lupus erythematosus'),('vasculitis',1,'427020007',NULL,'Cerebral vasculitis'),('vasculitis',1,'427213005',NULL,'Autoimmune vasculitis'),('vasculitis',1,'427356003',NULL,'Eosinophilic vasculitis of skin'),('vasculitis',1,'718217000',NULL,'Cutaneous small vessel vasculitis'),('vasculitis',1,'721664001',NULL,'Mesenteric arteritis'),('vasculitis',1,'722191003',NULL,'Antineutrophil cytoplasmic antibody (ANCA) positive vasculitis'),('vasculitis',1,'722858009',NULL,'Vasculitis of large intestine'),('vasculitis',1,'724063005',NULL,'Postinfective vasculitis'),('vasculitis',1,'724597006',NULL,'Large vessel vasculitis'),('vasculitis',1,'724598001',NULL,'Medium sized vessel vasculitis'),('vasculitis',1,'724599009',NULL,'Small vessel vasculitis'),('vasculitis',1,'724600007',NULL,'Immune complex small vessel vasculitis'),('vasculitis',1,'724601006',NULL,'Vasculitis caused by antineutrophil cytoplasmic antibody'),('vasculitis',1,'724602004',NULL,'Single organ vasculitis'),('vasculitis',1,'724996005',NULL,'Vasculitic lumbosacral plexopathy'),('vasculitis',1,'737184001',NULL,'Interstitial lung disease with systemic vasculitis'),('vasculitis',1,'762302008',NULL,'Drug-associated immune complex vasculitis'),('vasculitis',1,'762352004',NULL,'Demyelination due to systemic vasculitis'),('vasculitis',1,'762537007',NULL,'Livedoid vasculitis of lower limb due to varicose veins of lower limb'),('vasculitis',1,'985941000000100',NULL,'Medium vessel vasculitis (disorder)'),('vasculitis',1,'101711000119105',NULL,'Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis'),('vasculitis',1,'985971000000106',NULL,'Sarcoid vasculitis (disorder)'),('vasculitis',1,'988101000000109',NULL,'Vasculitis co-occurrent and due to Hepatitis B virus infection (disorder)'),('vasculitis',1,'988081000000103',NULL,'Antineutrophil cytoplasmic antibody associated vasculitis caused by drug (disorder)'),('vasculitis',1,'988111000000106',NULL,'Cryoglobulinaemic vasculitis co-occurrent and due to Hepatitis C virus infection (disorder)'),('vasculitis',1,'233948000',NULL,'Pulmonary hypertension in vasculitis'),('vasculitis',1,'703355003',NULL,'Pulmonary hypertension due to vasculitis (disorder)'),('vasculitis',1,'404658009',NULL,'Optic disc vasculitis'),('vasculitis',1,'193177003',NULL,'Polyneuropathy in collagen vascular disease (disorder)'),('vasculitis',1,'472974007',NULL,'History of vasculitis');
 INSERT INTO #codessnomed
-VALUES ('bmi',1,'6497000',NULL,'Decreased body mass index (finding)'),('bmi',1,'35425004',NULL,'Normal body mass index (finding)'),('bmi',1,'48499001',NULL,'Increased body mass index (finding)'),('bmi',1,'162863004',NULL,'Body mass index 25-29 - overweight'),('bmi',1,'162864005',NULL,'BMI 30+ - obesity'),('bmi',1,'301331008',NULL,'Observation of body mass index'),('bmi',1,'310252000',NULL,'BMI less than 20'),('bmi',1,'408512008',NULL,'Body mass index 40+ - morbidly obese'),('bmi',1,'412768003',NULL,'Body mass index 20-24 - normal'),('bmi',1,'427090001',NULL,'Body mass index less than 16.5'),('bmi',1,'450451007',NULL,'Childhood overweight BMI greater than 85 percentile'),('bmi',1,'722595002',NULL,'Overweight in adulthood with BMI of 25 or more but less than 30'),('bmi',1,'920141000000102',NULL,'Child BMI (body mass index) less than 0.4th centile'),('bmi',1,'920161000000101',NULL,'Child BMI (body mass index) 0.4th-1.9th centile'),('bmi',1,'920181000000105',NULL,'Child BMI (body mass index) on 2nd centile'),('bmi',1,'920201000000109',NULL,'Child BMI (body mass index) 3rd-8th centile'),('bmi',1,'920231000000103',NULL,'Child BMI (body mass index) on 9th centile'),('bmi',1,'920251000000105',NULL,'Child BMI (body mass index) 10th-24th centile'),('bmi',1,'920271000000101',NULL,'Child BMI (body mass index) on 25th centile'),('bmi',1,'920291000000102',NULL,'Child BMI (body mass index) 26th-49th centile'),('bmi',1,'920311000000101',NULL,'Child BMI (body mass index) on 50th centile'),('bmi',1,'920841000000108',NULL,'Child BMI (body mass index) 51st-74th centile'),('bmi',1,'920931000000108',NULL,'Child BMI (body mass index) on 75th centile'),('bmi',1,'920951000000101',NULL,'Child BMI (body mass index) 76th-90th centile'),('bmi',1,'920971000000105',NULL,'Child BMI (body mass index) on 91st centile'),('bmi',1,'920991000000109',NULL,'Child BMI (body mass index) 92nd-97th centile'),('bmi',1,'921011000000105',NULL,'Child BMI (body mass index) on 98th centile'),('bmi',1,'921031000000102',NULL,'Child BMI (body mass index) 98.1st-99.6th centile'),('bmi',1,'921051000000109',NULL,'Child BMI (body mass index) greater than 99.6th centile'),('bmi',1,'914721000000105',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'914731000000107',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'914741000000103',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'443371000124107',NULL,'Body mass index 30.00 to 34.99'),('bmi',1,'443381000124105',NULL,'Body mass index 35.00 to 39.99'),('bmi',1,'60621009',NULL,'Quetelet index'),('bmi',1,'846931000000101',NULL,'Baseline BMI (body mass index)'),('bmi',1,'852451000000103',NULL,'Maximum body mass index (observable entity)'),('bmi',1,'852461000000100',NULL,'Minimum body mass index (observable entity)'),('bmi',1,'446974000',NULL,'Body mass index centile'),('bmi',1,'846911000000109',NULL,'Baseline BMI (body mass index) centile'),('bmi',1,'896691000000102',NULL,'Child BMI (body mass index) centile'),('bmi',1,'926011000000101',NULL,'Downs syndrome BMI (body mass index) centile'),('bmi',1,'722562008',NULL,'Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40'),('bmi',1,'722563003',NULL,'Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40'),('bmi',1,'705131003',NULL,'Child at risk for overweight body mass index greater than 85 percentile'),('bmi',1,'43991000119102',NULL,'History of childhood obesity BMI 95-100 percentile'),('bmi',1,'698094009',NULL,'Calculation of body mass index'),('bmi',1,'444862003',NULL,'Childhood obesity BMI 95-100 percentile'),('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
+VALUES ('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-current',1,'266929003',NULL,'Smoking started (life style)'),('smoking-status-current',1,'836001000000109',NULL,'Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002',NULL,'Smoker (life style)'),('smoking-status-current',1,'65568007',NULL,'Cigarette smoker (life style)'),('smoking-status-current',1,'394873005',NULL,'Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000',NULL,'Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007',NULL,'Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002',NULL,'Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008',NULL,'Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004',NULL,'Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006',NULL,'Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001',NULL,'Smoker (& cigarette)'),('smoking-status-current',1,'160619003',NULL,'Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005',NULL,'Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007',NULL,'Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002',NULL,'Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003',NULL,'Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004',NULL,'Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005',NULL,'Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006',NULL,'Cigar smoker (life style)'),('smoking-status-current',1,'446172000',NULL,'Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009',NULL,'Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003',NULL,'Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003',NULL,'Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006',NULL,'Smoking restarted (life style)'),('smoking-status-current',1,'230058003',NULL,'Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006',NULL,'Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008',NULL,'Pipe smoker (life style)');
 INSERT INTO #codessnomed
@@ -281,11 +323,11 @@ CREATE TABLE #codesemis (
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
+VALUES ('chronic-kidney-disease',1,'EMISNQCH20',NULL,'Chronic kidney disease stage 3'),('chronic-kidney-disease',1,'EMISNQCH17',NULL,'Chronic kidney disease stage');
+INSERT INTO #codesemis
 VALUES ('diabetes',1,'^ESCTGE801661',NULL,'Gestational diabetes, delivered'),('diabetes',1,'^ESCTGE801662',NULL,'Gestational diabetes mellitus complicating pregnancy'),('diabetes',1,'^ESCTMA257526',NULL,'Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn'),('diabetes',1,'EMISQNU2',NULL,'Number of admissions for ketoacidosis'),('diabetes',1,'ESCTDI20',NULL,'Diabetic ketoacidosis without coma'),('diabetes',1,'ESCTDI22',NULL,'Diabetic severe hyperglycaemia'),('diabetes',1,'ESCTDI23',NULL,'Diabetic hyperosmolar non-ketotic state'),('diabetes',1,'ESCTDR3',NULL,'Drug-induced diabetes mellitus'),('diabetes',1,'ESCTSE11',NULL,'Secondary endocrine diabetes mellitus');
 INSERT INTO #codesemis
 VALUES ('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension'),('hypertension',1,'^ESCTMA364280',NULL,'Malignant hypertension'),('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension');
-INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1',NULL,'BMI centile');
 INSERT INTO #codesemis
 VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)');
 INSERT INTO #codesemis
@@ -378,127 +420,279 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following code sets injected: hypertension v1/diabetes v1
 -- >>> Following code sets injected: egfr v1/urinary-albumin-creatinine-ratio v1/glomerulonephritis v1/kidney-transplant v1/kidney-stones v1/vasculitis v1
-
 
 ---- FIND PATIENTS WITH BIOCHEMICAL EVIDENCE OF CKD
 
 ---- find all eGFR and ACR tests
 
-IF OBJECT_ID('tempdb..#EGFR_ACR_TESTS') IS NOT NULL DROP TABLE #EGFR_ACR_TESTS;
+IF OBJECT_ID('tempdb..#EGFR_TESTS') IS NOT NULL DROP TABLE #EGFR_TESTS;
 SELECT gp.FK_Patient_Link_ID, 
 	CAST(GP.EventDate AS DATE) AS EventDate, 
-	SuppliedCode, 
-	[value] = TRY_CONVERT(NUMERIC (18,5), [Value]),  
-	[Units],
-	egfr_Code = CASE WHEN SuppliedCode IN (
-		SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('egfr') AND [Version] = 1 ) THEN 1 ELSE 0 END,
-	acr_Code = CASE WHEN SuppliedCode IN (
-		SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('urinary-albumin-creatinine-ratio') AND [Version] = 1 ) THEN 1 ELSE 0 END
-INTO #EGFR_ACR_TESTS
+	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
+INTO #EGFR_TESTS
 FROM [RLS].[vw_GP_Events] gp
-WHERE (
-		gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('egfr', 'urinary-albumin-creatinine-ratio')  AND [Version]=1) OR
-		gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('egfr', 'urinary-albumin-creatinine-ratio')  AND [Version]=1)
-	  )
-	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) BETWEEN '2016-01-01' and @EndDate
-	AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH NO VALUE OR TEXT 
+WHERE 
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
+	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
+		AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND (gp.EventDate) --BETWEEN '2005-01-01' and 
+		<= @EndDate
+		AND [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
+		AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH TEXT 
 
--- CATEGORISE EGFR AND ACR TESTS INTO CKD STAGES
+IF OBJECT_ID('tempdb..#ACR_TESTS') IS NOT NULL DROP TABLE #ACR_TESTS;
+SELECT gp.FK_Patient_Link_ID, 
+	CAST(GP.EventDate AS DATE) AS EventDate, 
+	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
+INTO #ACR_TESTS
+FROM [RLS].[vw_GP_Events] gp
+WHERE 
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
+	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
+		AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND gp.EventDate --BETWEEN '2005-01-01' and 
+		<= @EndDate
+		AND [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
+		AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH TEXT 
 
-IF OBJECT_ID('tempdb..#ckd_stages') IS NOT NULL DROP TABLE #ckd_stages;
-SELECT FK_Patient_Link_ID,
-	EventDate,
-	egfr_evidence = CASE WHEN egfr_Code = 1 AND [Value] >= 90   THEN 'G1' 
-		WHEN egfr_Code = 1 AND [Value] BETWEEN 60 AND 89 		THEN 'G2'
-		WHEN egfr_Code = 1 AND [Value] BETWEEN 45 AND 59 		THEN 'G3a'
-		WHEN egfr_Code = 1 AND [Value] BETWEEN 30 AND 44 		THEN 'G3b'
-		WHEN egfr_Code = 1 AND [Value] BETWEEN 15 AND 29 		THEN 'G4'
-		WHEN egfr_Code = 1 AND [Value] BETWEEN  0 AND 15 		THEN 'G5'
-			ELSE NULL END,
-	acr_evidence = CASE WHEN acr_Code = 1 AND [Value] > 30  	THEN 'A3' 
-		WHEN acr_Code = 1 AND [Value] BETWEEN 3 AND 30 			THEN 'A2'
-		WHEN acr_Code = 1 AND [Value] BETWEEN  0 AND 3 			THEN 'A1'
-			ELSE NULL END 
-INTO #ckd_stages
-FROM #EGFR_ACR_TESTS
+-- "eGFR < 60 Ml/Min lasting for at least 3 months"
 
--- FIND EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITH THE DATES OF THE PREVIOUS TEST
+-- For each low egfr we calculate the first date more than 3 months in the future when they also have a low egfr.
+IF OBJECT_ID('tempdb..#E1TEMP') IS NOT NULL DROP TABLE #E1TEMP
+SELECT E1.FK_Patient_Link_ID, E1.EventDate, MIN(E2.EventDate) AS FirstLowDatePost3Months 
+INTO #E1Temp 
+FROM #EGFR_TESTS E1
+  INNER JOIN #EGFR_TESTS E2 ON
+    E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND
+    E2.EventDate >= DATEADD(month, 3, E1.EventDate)
+WHERE TRY_CONVERT(NUMERIC, E1.Value) < 60 AND TRY_CONVERT(NUMERIC, E2.Value)  < 60
+GROUP BY E1.FK_Patient_Link_ID, E1.EventDate;
 
-IF OBJECT_ID('tempdb..#egfr_dates') IS NOT NULL DROP TABLE #egfr_dates;
-SELECT *, 
-	stage_previous_egfr = LAG(egfr_evidence, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate),
-	date_previous_egfr = LAG(EventDate, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate)
-INTO #egfr_dates
-FROM #ckd_stages
-ORDER BY FK_Patient_Link_ID, EventDate
+-- For each low egfr we find the first date after where their egfr wasn't low
+IF OBJECT_ID('tempdb..#E2TEMP') IS NOT NULL DROP TABLE #E2TEMP
+SELECT E1.FK_Patient_Link_ID, E1.EventDate, MIN(E2.EventDate) AS FirstOkDatePostValue 
+INTO #E2Temp 
+FROM #EGFR_TESTS E1
+  INNER JOIN #EGFR_TESTS E2 ON
+    E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND
+    E1.EventDate < E2.EventDate 
+WHERE TRY_CONVERT(NUMERIC, E1.Value) < 60 AND TRY_CONVERT(NUMERIC, E2.Value) >= 60
+GROUP BY E1.FK_Patient_Link_ID, E1.EventDate;
 
--- CREATE TABLE OF PATIENTS THAT HAD TWO EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITHIN 3 MONTHS OF EACH OTHER
+-- We want everyone in the first table REGARDLESS of whether they have a healthy EGFR in between their <60 results
+IF OBJECT_ID('tempdb..#EGFR_cohort') IS NOT NULL DROP TABLE #EGFR_cohort
+SELECT DISTINCT E1.FK_Patient_Link_ID
+INTO #EGFR_cohort
+FROM #E1Temp E1
+--LEFT OUTER JOIN #E2Temp E2 ON E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND E1.EventDate = E2.EventDate
+--WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
 
-IF OBJECT_ID('tempdb..#egfr_ckd_evidence') IS NOT NULL DROP TABLE #egfr_ckd_evidence;
-SELECT *
-INTO #egfr_ckd_evidence
-FROM #egfr_dates
-WHERE datediff(month, date_previous_egfr, EventDate) <=  3 --only find patients with two tests in three months
+-- Create table of patients who have a healthy EGFR in between their <60 results - this will be used to create a flag for these patients
+IF OBJECT_ID('tempdb..#EGFR_HealthyResultInbetween') IS NOT NULL DROP TABLE #EGFR_HealthyResultInbetween
+SELECT DISTINCT E1.FK_Patient_Link_ID
+INTO #EGFR_HealthyResultInbetween
+FROM #E1Temp E1
+LEFT OUTER JOIN #E2Temp E2 ON E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND E1.EventDate = E2.EventDate
+WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 
--- CREATE TABLE OF PATIENTS THAT HAVE A HISTORY OF KIDNEY DAMAGE (TO BE USED AS EXTRA CRITERIA FOR FINDING CKD STAGE 1 AND 2)
+--------------- Same as above but for: "ACR > 3mg/mmol lasting for at least 3 months” ---------------------
+
+-- For each high ACR we calculate the first date more than 3 months in the future when they also have a high ACR.
+
+IF OBJECT_ID('tempdb..#A1TEMP') IS NOT NULL DROP TABLE #A1TEMP
+SELECT A1.FK_Patient_Link_ID, A1.EventDate, MIN(A2.EventDate) AS FirstLowDatePost3Months 
+INTO #A1Temp 
+FROM #ACR_TESTS A1
+  INNER JOIN #ACR_TESTS A2 ON
+    A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND
+    A2.EventDate >= DATEADD(month, 3, A1.EventDate)
+WHERE TRY_CONVERT(NUMERIC, A1.Value) >= 3 AND TRY_CONVERT(NUMERIC, A2.Value)  >= 3
+GROUP BY A1.FK_Patient_Link_ID, A1.EventDate;
+
+-- For each high ACR we find the first date after where their ACR wasn't high
+IF OBJECT_ID('tempdb..#A2TEMP') IS NOT NULL DROP TABLE #A2TEMP
+SELECT A1.FK_Patient_Link_ID, A1.EventDate, MIN(A2.EventDate) AS FirstOkDatePostValue 
+INTO #A2Temp 
+FROM #ACR_TESTS A1
+  INNER JOIN #ACR_TESTS A2 ON
+    A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND
+    A1.EventDate < A2.EventDate 
+WHERE TRY_CONVERT(NUMERIC, A1.Value) >= 3 AND TRY_CONVERT(NUMERIC, A2.Value) < 3
+GROUP BY A1.FK_Patient_Link_ID, A1.EventDate;
+
+-- We want everyone in the first table REGARDLESS of whether they have a healthy ACR in between their >3 results
+IF OBJECT_ID('tempdb..#ACR_cohort') IS NOT NULL DROP TABLE #ACR_cohort
+SELECT DISTINCT A1.FK_Patient_Link_ID
+INTO #ACR_cohort
+FROM #A1Temp A1
+--LEFT OUTER JOIN #A2Temp A2 ON A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND A1.EventDate = A2.EventDate
+--WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
+
+-- Create table of patients who have a healthy ACR in between their >=3 results - this will be used to create a flag for these patients
+IF OBJECT_ID('tempdb..#ACR_HealthyResultInbetween') IS NOT NULL DROP TABLE #ACR_HealthyResultInbetween
+SELECT DISTINCT A1.FK_Patient_Link_ID
+INTO #ACR_HealthyResultInbetween
+FROM #A1Temp A1
+LEFT OUTER JOIN #A2Temp A2 ON A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND A1.EventDate = A2.EventDate
+WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
+
+
+-- CREATE TABLE OF PATIENTS THAT HAVE A HISTORY OF KIDNEY DAMAGE (TO BE USED AS EXTRA CRITERIA FOR EGFRs INDICATING CKD STAGE 1 AND 2)
 
 IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #kidney_damage
 FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence)
-AND (
+WHERE (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
 	)
 	AND EventDate <= @StartDate
 
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
 
--- FIND PATIENTS THAT MEET THE FOLLOWING: "ACR > 3mg/mmol lasting for at least 3 months”
+-- OBJECTIVE: To get the year of birth for each patient.
 
--- FIND ACR TESTS THAT ARE >3mg/mmol AND SHOW DATE OF PREVIOUS TEST
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
-IF OBJECT_ID('tempdb..#acr_dates') IS NOT NULL DROP TABLE #acr_dates;
-SELECT *, 
-	stage_previous_acr = LAG(acr_evidence, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate),
-	date_previous_acr = LAG(EventDate, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate)
-INTO #acr_dates
-FROM #ckd_stages
-WHERE acr_evidence in ('A3','A2')
-ORDER BY FK_Patient_Link_ID, EventDate
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
 
-IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_evidence;
-SELECT *
-INTO #acr_ckd_evidence
-FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
+
+-- FIND EARLIEST EGFR AND ACR EVIDENCE OF CKD FOR EACH PATIENT
+
+IF OBJECT_ID('tempdb..#EarliestEvidence') IS NOT NULL DROP TABLE #EarliestEvidence;
+SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDate, TestName = 'egfr'
+INTO #EarliestEvidence
+FROM #E1Temp e
+GROUP BY FK_Patient_Link_ID
+UNION ALL 
+SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDate, TestName = 'acr'
+FROM #A1Temp a
+GROUP BY FK_Patient_Link_ID
 
 ---- CREATE COHORT:
 	-- 1. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 1-2, PLUS RAISED ACR OR HISTORY OF KIDNEY DAMAGE
-	-- 2. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 3-5
-	-- 3. PATIENTS WITH ACR TESTS INDICATIVE OF CKD (A3 AND A2)
+	-- 2. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 3-5 (AT LEAST 3 MONTHS APART)
+	-- 3. PATIENTS WITH ACR TESTS INDICATIVE OF CKD (A3 AND A2) (AT LEAST 3 MONTHS APART)
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID,
 		p.EthnicMainGroup,
+		yob.YearOfBirth,
 		p.DeathDate,
-		EvidenceOfCKD_egfr = CASE 
-		WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')) -- egfr indicating stages 3-5
-			OR (p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G1', 'G2')) 
-				AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) 
-					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))) 											THEN 1 ELSE 0 END,
-		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) 							THEN 1 ELSE 0 END
+		EvidenceOfCKD_egfr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort) 			THEN 1 ELSE 0 END,-- egfr indicating stages 3-5 	
+		EvidenceOfCKD_combo = CASE WHEN (p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_TESTS where [Value] >= 60) -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
+				AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort)) 
+					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage)))						THEN 1 ELSE 0 END,
+		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) 		THEN 1 ELSE 0 END, -- ACR evidence
+		HealthyEgfrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_HealthyResultInbetween) THEN 1 ELSE 0 END,
+		HealthyAcrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_HealthyResultInbetween) THEN 1 ELSE 0 END,
+		EarliestEgfrEvidence = egfr.EarliestDate,
+		EarliestAcrEvidence = acr.EarliestDate
 INTO #Cohort
 FROM #Patients p
-WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')) -- egfr indicating stages 3-5
-	OR (
-		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G1', 'G2')) 
-			AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))
-		) -- egfr stages 1-2 and (ACR evidence or kidney damage) 
-	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) -- ACR evidence
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestEvidence egfr 
+	ON egfr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND egfr.TestName = 'egfr' 
+LEFT OUTER JOIN #EarliestEvidence acr 
+	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
+
+WHERE 
+	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
+		( 
+	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
+		OR (
+	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_TESTS where [Value] >= 60) -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
+			AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort)) OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))
+			) 
+		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) -- ACR evidence
+		)
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -509,23 +703,31 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  [Units]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
+
+--Outputs from this reusable query:
+-- #Cohort
+-- #PatientEventData
+
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
+
+
+-- >>> Following code sets injected: hypertension v1/diabetes v1/chronic-kidney-disease v1
 
 -- FIND WHICH PATIENTS IN THE COHORT HAD HYPERTENSION OR DIABETES AND THE DATE OF EARLIEST DIAGNOSIS
 
 IF OBJECT_ID('tempdb..#hypertension') IS NOT NULL DROP TABLE #hypertension;
 SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
 INTO #hypertension
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND (
+FROM #PatientEventData gp
+WHERE  (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND [Version]=1)
 	)
@@ -534,11 +736,21 @@ GROUP BY FK_Patient_Link_ID
 IF OBJECT_ID('tempdb..#diabetes') IS NOT NULL DROP TABLE #diabetes;
 SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
 INTO #diabetes
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND (
+FROM #PatientEventData gp
+WHERE  (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND [Version]=1)
+	)
+GROUP BY FK_Patient_Link_ID
+
+
+IF OBJECT_ID('tempdb..#ckd') IS NOT NULL DROP TABLE #ckd;
+SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
+INTO #ckd
+FROM #PatientEventData gp
+WHERE  (
+	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'chronic-kidney-disease' AND [Version]=1) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'chronic-kidney-disease' AND [Version]=1)
 	)
 GROUP BY FK_Patient_Link_ID
 
@@ -581,7 +793,8 @@ FROM #PatientEventData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND EventDate > '2020-12-01';
+AND EventDate > '2020-12-01'
+AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
@@ -589,7 +802,8 @@ FROM RLS.vw_GP_Medications
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND MedicationDate > '2020-12-01';
+AND MedicationDate > '2020-12-01'
+AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
@@ -948,23 +1162,133 @@ SELECT *,
 INTO #GPExitDates
 FROM #GM_GP_range
 
+--┌───────────────────────┐
+--│ Patient GP encounters │
+--└───────────────────────┘
+
+-- OBJECTIVE: To produce a table of GP encounters for a list of patients.
+-- This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured.
+-- This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+-- ASSUMPTIONS:
+--	- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- Also takes parameters:
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+--  - start-date: string - (YYYY-MM-DD) the date to count encounters from.
+--  - end-date: string - (YYYY-MM-DD) the date to count encounters to.
 
 
--- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
+-- OUTPUT: A temp table as follows:
+-- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- EncounterDate - date the patient had a GP encounter
 
-IF OBJECT_ID('tempdb..#gp_appointments') IS NOT NULL DROP TABLE #gp_appointments;
-SELECT G.FK_Patient_Link_ID, 
-	G.AppointmentDate, 
-	BeforeOrAfter1stMarch2020 = CASE WHEN G.AppointmentDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END
-INTO #gp_appointments
-FROM RLS.vw_GP_Appointments G
-WHERE AppointmentCancelledDate IS NULL 
-AND AppointmentDate BETWEEN '2018-03-01' AND '2022-03-01'
-AND G.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
 
+-- Create a table with all GP encounters ========================================================================================================
+
+IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
+SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+INTO #CodingClassifier
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '1%'
+	or MainCode like '2%'
+	or MainCode in ('6A2..','6A9..','6AA..','6AB..','662d.','662e.','66AS.','66AS0','66AT.','66BB.','66f0.','66YJ.','66YM.','661Q.','66480','6AH..','6A9..','66p0.','6A2..','66Ay.','66Az.','69DC.')
+	or MainCode like '6A%'
+	or MainCode like '65%'
+	or MainCode like '8B31[356]%'
+	or MainCode like '8B3[3569ADEfilOqRxX]%'
+	or MainCode in ('8BS3.')
+	or MainCode like '8H[4-8]%' 
+	or MainCode like '94Z%'
+	or MainCode like '9N1C%' 
+	or MainCode like '9N21%'
+	or MainCode in ('9kF1.','9kR..','9HB5.')
+	or MainCode like '9H9%'
+);
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '8H9%'
+	or MainCode like '9N31%'
+	or MainCode like '9N3A%'
+);
+
+-- Add the equivalent CTV3 codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+-- Add the equivalent EMIS codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
+);
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
+);
+
+-- All above takes ~30s
+
+IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
+CREATE TABLE #GPEncounters (
+	FK_Patient_Link_ID BIGINT,
+	EncounterDate DATE
+);
+
+BEGIN
+  IF 'false'='true'
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM #PatientEventData
+    WHERE 
+      FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+  ELSE 
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM #PatientEventData
+    WHERE 
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+  END
+
+
+-- -- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
+
+IF OBJECT_ID('tempdb..#GPEncounters1') IS NOT NULL DROP TABLE #GPEncounters1;
+SELECT FK_Patient_Link_ID, 
+	EncounterDate, 
+	BeforeOrAfter1stMarch2020 = CASE WHEN EncounterDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END -- before and after covid started
+INTO #GPEncounters1
+FROM #GPEncounters
+
+IF OBJECT_ID('tempdb..#GPEncountersCount') IS NOT NULL DROP TABLE #GPEncountersCount;
 SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) as gp_appointments
-INTO #count_gp_appointments
-FROM #gp_appointments
+INTO #GPEncountersCount
+FROM #GPEncounters1
 GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
@@ -973,15 +1297,15 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 IF OBJECT_ID('tempdb..#ae_encounters') IS NOT NULL DROP TABLE #ae_encounters;
 SELECT a.FK_Patient_Link_ID, 
 	a.AttendanceDate, 
-	BeforeOrAfter1stMarch2020 = CASE WHEN a.AttendanceDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END
+	BeforeOrAfter1stMarch2020 = CASE WHEN a.AttendanceDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END -- before and after covid started
 INTO #ae_encounters
 FROM RLS.vw_Acute_AE a
 WHERE EventType = 'Attendance'
-AND a.AttendanceDate BETWEEN '2018-03-01' AND '2022-03-01'
+AND a.AttendanceDate BETWEEN @StartDate AND @EndDate
 AND a.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
 
 SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) AS ae_encounters
-INTO #count_ae_encounters
+INTO #AEEncountersCount
 FROM #ae_encounters
 GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
@@ -1162,98 +1486,6 @@ GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
 -- 489
 -- 00:00:00
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
-
--- OBJECTIVE: To get the year of birth for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
--- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
-
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	YEAR(Dob) AS YearOfBirth
-INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Dob IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely YOB
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If every YOB is the same for all their linked patient ids then we use that
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If there is a unique most recent YOB then use that
-INSERT INTO #PatientYearOfBirth
-SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- Otherwise just use the highest value (with the exception that can't be in the future)
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientYearOfBirths;
-DROP TABLE #UnmatchedYobPatients;
 --┌───────────────────────────────┐
 --│ Lower level super output area │
 --└───────────────────────────────┘
@@ -1371,8 +1603,10 @@ SELECT
 INTO #AllPatientBMI
 FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
+	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=2) 
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
+
 UNION
 SELECT 
 	FK_Patient_Link_ID,
@@ -1382,8 +1616,9 @@ SELECT
 	[Value]
 FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
+	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=2)
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
 
 -- For closest BMI prior to index date
@@ -1406,7 +1641,7 @@ IF OBJECT_ID('tempdb..#PatientBMI') IS NOT NULL DROP TABLE #PatientBMI;
 SELECT 
 	p.FK_Patient_Link_ID,
 	BMI = TRY_CONVERT(NUMERIC(16,5), [Value]),
-	EventDate
+	EventDate AS DateOfBMIMeasurement
 INTO #PatientBMI 
 FROM #Patients p
 LEFT OUTER JOIN #TempCurrentBMI c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1551,8 +1786,8 @@ IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmo
 SELECT 
 	p.FK_Patient_Link_ID,
 	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
+	CASE WHEN w.[Status] IS NULL THEN 'unknown-smoking-status' ELSE w.[Status] END AS WorstSmokingStatus,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown-smoking-status' ELSE c.[Status] END AS CurrentSmokingStatus
 INTO #PatientSmokingStatus FROM #Patients p
 LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1692,7 +1927,6 @@ INTO #PatientAlcoholIntake FROM #Patients p
 LEFT OUTER JOIN #TempWorstAlc w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempCurrentAlc c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
-
 -- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
 
 DELETE FROM #Patients
@@ -1733,6 +1967,11 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
+
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
@@ -1748,7 +1987,9 @@ BEGIN
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 		)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
@@ -1759,7 +2000,8 @@ BEGIN
 		)
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 -- We can rely on the GraphNet table for first diagnosis.
@@ -1783,7 +2025,9 @@ BEGIN
 			select Code from #AllCodes 
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
-		);
+		)
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #AllPositiveTestsTemp
 		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
@@ -1793,7 +2037,8 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
@@ -1860,7 +2105,7 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		YearOfBirth, 
 		Sex,
 		BMI,
-		BMIDate = bmi.EventDate,
+		BMIDate = bmi.DateOfBMIMeasurement,
 		EthnicMainGroup,
 	    LSOA_Code,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
@@ -1869,8 +2114,8 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		CurrentAlcoholIntake,
 		WorstAlcoholIntake,
 		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
-		DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
-		DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
+		Death_Year = YEAR(p.DeathDate),
+		Death_Month = MONTH(p.DeathDate),
 		FirstVaccineYear =  YEAR(VaccineDose1Date),
 		FirstVaccineMonth = MONTH(VaccineDose1Date),
 		SecondVaccineYear =  YEAR(VaccineDose2Date),
@@ -1885,17 +2130,22 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		AEEncountersBefore1stMarch2020 = ae_b.ae_encounters,
 		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
 		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
-		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments ,
-		EvidenceOfCKD_egfr,
-		EvidenceOfCKD_acr,
-		AtRiskOfCKD = NULL,
+		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments,
+		EvidenceOfCKD_egfr,	-- egfr tests indicating stages 3 - 5
+		EvidenceOfCKD_combo, -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
+		EvidenceOfCKD_acr, -- acr tests indicating stages A2 or A3
+		HealthyEgfrResult, -- one or more healthy egfr result in between the two <60 results
+		HealthyAcrResult, -- one or more healthy acr result in between the two >3 results
+		EarliestEgfrEvidence,
+		EarliestAcrEvidence,
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
-		DiabetesDuringStudyPeriod = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END
+		DiabetesDuringStudyPeriod = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
+		CodedCKDAtStudyStart = CASE WHEN ckd.FK_Patient_Link_ID IS NOT NULL AND ckd.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
+		CodedCKDDuringStudyPeriod = CASE WHEN ckd.FK_Patient_Link_ID IS NOT NULL AND ckd.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END
 FROM #Cohort p
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1905,13 +2155,13 @@ LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #count_ae_encounters ae_b ON ae_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_ae_encounters ae_a ON ae_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_a.BeforeOrAfter1stMarch2020 = 'AFTER'
-LEFT OUTER JOIN #count_gp_appointments gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_gp_appointments gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
+LEFT OUTER JOIN #AEEncountersCount ae_b ON ae_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
+LEFT OUTER JOIN #AEEncountersCount ae_a ON ae_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_a.BeforeOrAfter1stMarch2020 = 'AFTER'
+LEFT OUTER JOIN #GPEncountersCount gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
+LEFT OUTER JOIN #GPEncountersCount gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
 LEFT OUTER JOIN #hypertension hyp ON hyp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #diabetes dia ON dia.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #ckd ckd ON ckd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID
-
-WHERE YEAR(@StartDate) - YearOfBirth > 18 -- OVER 18s ONLY
+WHERE YEAR(@StartDate) - YearOfBirth > 18 -- EXTRA CHECK TO ENSURE OVER 18s ONLY
 --320,594

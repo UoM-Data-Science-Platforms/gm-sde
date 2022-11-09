@@ -12,6 +12,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ020EndDate datetime;
+SET @TEMPRQ020EndDate = '2022-06-01';
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -19,6 +23,16 @@ SET @StartDate = '2020-01-01';
 -- Only need at most hba1c from 2 years prior to COVID test
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
+
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TEMPRQ020EndDate;
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -55,11 +69,18 @@ CREATE TABLE #codesreadv2 (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
-VALUES ('hba1c',1,'42c..00','HbA1 - diabetic control'),('hba1c',1,'42c..','HbA1 - diabetic control'),('hba1c',1,'42c3.00','HbA1 level (DCCT aligned)'),('hba1c',1,'42c3.','HbA1 level (DCCT aligned)'),('hba1c',1,'42c2.00','HbA1 > 10% - bad control'),('hba1c',1,'42c2.','HbA1 > 10% - bad control'),('hba1c',1,'42c1.00','HbA1 7 - 10% - borderline control'),('hba1c',1,'42c1.','HbA1 7 - 10% - borderline control'),('hba1c',1,'42c0.00','HbA1 < 7% - good control'),('hba1c',1,'42c0.','HbA1 < 7% - good control'),('hba1c',1,'42W..11','Glycosylated Hb'),('hba1c',1,'42W..','Glycosylated Hb'),('hba1c',1,'42W..12','Glycated haemoglobin'),('hba1c',1,'42W..','Glycated haemoglobin'),('hba1c',1,'42W..00','Hb. A1C - diabetic control'),('hba1c',1,'42W..','Hb. A1C - diabetic control'),('hba1c',1,'42WZ.00','Hb. A1C - diabetic control NOS'),('hba1c',1,'42WZ.','Hb. A1C - diabetic control NOS'),('hba1c',1,'42W3.00','Hb. A1C > 10% - bad control'),('hba1c',1,'42W3.','Hb. A1C > 10% - bad control'),('hba1c',1,'42W2.00','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W2.','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W1.00','Hb. A1C < 7% - good control'),('hba1c',1,'42W1.','Hb. A1C < 7% - good control'),('hba1c',1,'42W5.00','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W5100','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W51','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W5000','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.00','HbA1c level (DCCT aligned)'),('hba1c',1,'42W4.','HbA1c level (DCCT aligned)'),('hba1c',1,'44TL.00','Total glycosylated haemoglobin level'),('hba1c',1,'44TL.','Total glycosylated haemoglobin level'),('hba1c',1,'44TB.00','Haemoglobin A1c level'),('hba1c',1,'44TB.','Haemoglobin A1c level'),('hba1c',1,'44TB100','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB1','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB000','Haemoglobin A1c (diagnostic reference range)'),('hba1c',1,'44TB0','Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'42W5.00','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.00','HbA1c level (DCCT aligned)'),('hba1c',2,'42W4.','HbA1c level (DCCT aligned)')
+VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected');
+INSERT INTO #codesreadv2
+VALUES ('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W5.00',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'42W4.00',NULL,'HbA1c level (DCCT aligned)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -69,11 +90,18 @@ CREATE TABLE #codesctv3 (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
-VALUES ('hba1c',1,'X772q','Haemoglobin A1c level'),('hba1c',1,'XE24t','Hb. A1C - diabetic control'),('hba1c',1,'42W1.','Hb. A1C < 7% - good control'),('hba1c',1,'42W2.','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W3.','Hb. A1C > 10% - bad control'),('hba1c',1,'42WZ.','Hb. A1C - diabetic control NOS'),('hba1c',1,'X80U4','Glycosylat haemoglobin-c frac'),('hba1c',1,'XaCES','HbA1 - diabetic control'),('hba1c',1,'XaCET','HbA1 <7% - good control'),('hba1c',1,'XaCEV','HbA1 >10% - bad control'),('hba1c',1,'XaCEU','HbA1 7-10% - borderline contrl'),('hba1c',1,'XaERp','HbA1c level (DCCT aligned)'),('hba1c',1,'XaPbt','HbA1c levl - IFCC standardised'),('hba1c',1,'XabrE','HbA1c (diagnostic refrn range)'),('hba1c',1,'XabrF','HbA1c (monitoring ranges)'),('hba1c',1,'Xaezd','HbA1c(diagnos ref rnge)IFCC st'),('hba1c',1,'Xaeze','HbA1c(monitoring rnges)IFCC st'),('hba1c',1,'42W..','Hb. A1C - diabetic control'),('hba1c',1,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W51','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.','HbA1c level (DCCT aligned)'),('hba1c',1,'44TB.','Haemoglobin A1c level'),('hba1c',1,'44TB1','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB0','Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'XaERp','HbA1c level (DCCT aligned)'),('hba1c',2,'XaPbt','HbA1c levl - IFCC standardised'),('hba1c',2,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.','HbA1c level (DCCT aligned)')
+VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive');
+INSERT INTO #codesctv3
+VALUES ('hba1c',2,'XaERp',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'XaPbt',NULL,'HbA1c levl - IFCC standardised'),('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -83,11 +111,12 @@ CREATE TABLE #codessnomed (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codessnomed
-VALUES ('hba1c',1,'1019431000000105','HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',1,'1003671000000109','Haemoglobin A1c level'),('hba1c',1,'1049301000000100','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'1049321000000109','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'1107481000000106','HbA1c (haemoglobin A1c) molar concentration in blood'),('hba1c',1,'999791000000106','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'1010941000000103','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'1010951000000100','Haemoglobin A1c (diagnostic reference range)'),('hba1c',1,'165679005','Haemoglobin A1c (HbA1c) less than 7% indicating good diabetic control'),('hba1c',1,'165680008','Haemoglobin A1c (HbA1c) between 7%-10% indicating borderline diabetic control'),('hba1c',1,'165681007','Hemoglobin A1c (HbA1c) greater than 10% indicating poor diabetic control'),('hba1c',1,'365845005','Haemoglobin A1C - diabetic control finding'),('hba1c',1,'444751005','High hemoglobin A1c level'),('hba1c',1,'43396009','Hemoglobin A1c measurement (procedure)'),('hba1c',1,'313835008','Hemoglobin A1c measurement aligned to the Diabetes Control and Complications Trial'),('hba1c',1,'371981000000106','Hb A1c (Haemoglobin A1c) level - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'444257008','Calculation of estimated average glucose based on haemoglobin A1c'),('hba1c',1,'269823000','Haemoglobin A1C - diabetic control interpretation'),('hba1c',1,'443911005','Ordinal level of hemoglobin A1c'),('hba1c',1,'733830002','HbA1c - Glycated haemoglobin-A1c'),('hba1c',2,'1019431000000105','HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',2,'999791000000106','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised')
+VALUES ('hba1c',2,'1019431000000105',NULL,'HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',2,'999791000000106',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -97,10 +126,16 @@ CREATE TABLE #codesemis (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-
+INSERT INTO #codesemis
+VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
+INSERT INTO #codesemis
+VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesemis
+VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -115,6 +150,7 @@ SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
+AND (dcr.term IS NULL OR dcr.term = rc.Term)
 and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
@@ -191,34 +227,166 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 --│ Patients with COVID │
 --└─────────────────────┘
 
--- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record. This now includes a table
+-- that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for
+-- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
+-- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
+-- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
+-- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
+-- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
+-- entered into the primary care record several months after the actual infection.
 
--- INPUT: Takes one parameter
+-- INPUT: Takes three parameters
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 
--- OUTPUT: Two temp tables as follows:
+-- OUTPUT: Three temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
 -- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- CovidPositiveDate - any COVID diagnosis
+-- #CovidPatientsMultipleDiagnoses
+--	-	FK_Patient_Link_ID - unique patient id
+--	-	FirstCovidPositiveDate - date of first COVID diagnosis
+--	-	SecondCovidPositiveDate - date of second COVID diagnosis
+--	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+--	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+--	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+
+-- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
-FROM [RLS].[vw_COVID19]
-WHERE (
-	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-)
-AND EventDate > '2020-01-01'
-AND EventDate <= GETDATE();
+CREATE TABLE #CovidPatientsAllDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	CovidPositiveDate DATE
+);
+BEGIN
+	IF 'true'='true'
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND EventDate > '2020-01-01'
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	ELSE 
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate > '2020-01-01'
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
+END
 
+-- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
 SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
 FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
+-- Now let's get the dates of any positive test (i.e. not things like suspected, or historic)
+IF OBJECT_ID('tempdb..#AllPositiveTestsTemp') IS NOT NULL DROP TABLE #AllPositiveTestsTemp;
+CREATE TABLE #AllPositiveTestsTemp (
+	FK_Patient_Link_ID BIGINT,
+	TestDate DATE
+);
+BEGIN
+	IF 'true'='true'
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM RLS.vw_GP_Events
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		)
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	ELSE 
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM RLS.vw_GP_Events
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
+END
+
+IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
+CREATE TABLE #CovidPatientsMultipleDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	FirstCovidPositiveDate DATE,
+	SecondCovidPositiveDate DATE,
+	ThirdCovidPositiveDate DATE,
+	FourthCovidPositiveDate DATE,
+	FifthCovidPositiveDate DATE
+);
+
+-- Populate first diagnosis
+INSERT INTO #CovidPatientsMultipleDiagnoses (FK_Patient_Link_ID, FirstCovidPositiveDate)
+SELECT FK_Patient_Link_ID, MIN(FirstCovidPositiveDate) FROM
+(
+	SELECT * FROM #CovidPatients
+	UNION
+	SELECT * FROM #AllPositiveTestsTemp
+) sub
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get second tests.
+UPDATE t1
+SET t1.SecondCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatients cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FirstCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get third tests.
+UPDATE t1
+SET t1.ThirdCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, SecondCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fourth tests.
+UPDATE t1
+SET t1.FourthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, ThirdCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fifth tests.
+UPDATE t1
+SET t1.FifthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FourthCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
 
 -- Get all hbA1c values for the cohort
 IF OBJECT_ID('tempdb..#hba1c') IS NOT NULL DROP TABLE #hba1c;

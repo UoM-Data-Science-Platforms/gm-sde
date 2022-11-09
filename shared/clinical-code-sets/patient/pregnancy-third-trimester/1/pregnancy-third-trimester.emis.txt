@@ -1,0 +1,94 @@
+^ESCT1405968	Head of foetus not engaged
+^ESCT1405969	Head of fetus not engaged
+^ESCTAN278770	Antepartum care of mother
+^ESCTAN462634	Antenatal 42 week examination
+^ESCTEC467647	ECV - External cephalic version of breech
+^ESCTFA350905	Failure of fetal head to enter pelvic brim
+^ESCTFA350907	Failure of head to engage
+^ESCTFA350909	Failure of foetal head to enter pelvic brim
+^ESCTFA479542	False labor at or after 37 completed weeks of gestation
+^ESCTHE350904	Head not engaged
+^ESCTHE350906	Head free
+^ESCTHI350908	High head
+^ESCTMA551721	Malposition and malpresentation of foetus
+^ESCTMA799052	Maternity booking after 31 weeks
+^ESCTON456448	On examination - fundus 28-32 week size
+^ESCTON456450	On examination - fundus 32-34 week size
+^ESCTON456452	On examination - fundus 34-36 week size
+^ESCTON456454	On examination - fundus 36-38 week size
+^ESCTON456456	On examination - fundus 38 weeks-term size
+^ESCTON456458	On examination - fundus = term size
+^ESCTPO397830	Post term pregnancy
+^ESCTPO397832	Post-dates
+^ESCTPR278769	Prenatal examination and care of mother
+^ESCTPR397831	Prolonged gestation
+^ESCTRE541970	Removal of Shirodkar suture from cervix
+^ESCTRE541971	Removal of cerclage material from cervix
+^ESCTRE541972	Removal of cerclage from cervix
+EGTONHO2	Home Visit Not Wanted
+EMISNQ248	24 hour ECG - enhanced services administration
+EMISNQAN33	A/N 22 week examination
+EMISNQAN34	A/N 25 week examination
+EMISNQAN35	A/N 31 week examination
+EMISNQAN63	Antenatal examination - 1st contact with healthcare professional
+EMISNQBR35	Breast cancer follow up - enhanced services administration
+EMISNQCA1046	Care home enhanced services administration
+EMISNQCA1056	Care home visit for annual patient review
+EMISNQCA1057	Care home visit for mid-year patient review
+EMISNQCA974	Cancer follow up - enhanced services administration
+EMISNQCO125	Complex skin ulcer care - enhanced services administration
+EMISNQDN17	DNA pertussis vaccination in pregnancy-enhanced serv admin
+EMISNQDO33	Does not wish to participate in remote care monitoring - ESA
+EMISNQHE182	Health visitor antenatal visit: 32-34 weeks
+EMISNQHE183	Health visitor child 3-5 weeks of age contact
+EMISNQHE184	Health visitor child 6-8 weeks of age contact
+EMISNQHE185	Health visitor child 8 month contact
+EMISNQHE186	Health visitor child 13-15 month contact
+EMISNQHE187	Health visitor child 27-30 month contact
+EMISNQHE188	Health visitor child 4-5 year contact
+EMISNQHE193	Health visitor child 3-5 weeks of age contact offered
+EMISNQHE194	Health visitor child 3-5 weeks of age contact offer accepted
+EMISNQHE195	Health visitor child 3-5 weeks of age contact declined
+EMISNQHE196	Health visitor child 6-8 weeks of age contact offered
+EMISNQHE197	Health visitor child 6-8 weeks of age contact offer accepted
+EMISNQHE198	Health visitor child 6-8 weeks of age contact declined
+EMISNQHE199	Health visitor child 3 month contact offered
+EMISNQHE200	Health visitor child 3 month contact offer accepted
+EMISNQHE201	Health visitor child 3 month contact declined
+EMISNQHE205	Health visitor child 8 month contact offered
+EMISNQHE206	Health visitor child 8 month contact offer accepted
+EMISNQHE207	Health visitor child 8 month contact declined
+EMISNQHE208	Health visitor child 13-15 month contact offered
+EMISNQHE209	Health visitor child 13-15 month contact offer accepted
+EMISNQHE210	Health visitor child 13-15 month contact declined
+EMISNQHE211	Health visitor child 27-30 month contact offered
+EMISNQHE212	Health visitor child 27-30 month contact offer accepted
+EMISNQHE213	Health visitor child 27-30 month contact declined
+EMISNQHE214	Health visitor child 4-5 year contact offered
+EMISNQHE215	Health visitor child 4-5 year contact offer accepted
+EMISNQHE216	Health visitor child 4-5 year contact declined
+EMISNQHE79	Health visitor antenatal visit
+EMISNQHO136	Home visit post fall assessment
+EMISNQHO23	Home visit request by residential institution
+EMISNQHO62	Home visit required
+EMISNQHO92	Home visit request made by district nurse
+EMISNQIN78	Insertion of etonogestrel implant - enhanced serv administration
+EMISNQON17	Ongoing home visits by GP required
+EMISNQON18	Ongoing home visits by GP no longer required
+EMISNQPA158	Patient visited within 90 minutes of preferred time
+EMISNQPA159	Patient not visited within 90 minutes of preferred time
+EMISNQPE42	Pertussis vaccination of pregnant women programme - ESA
+EMISNQPE43	Pertussis vaccination in pregnancy declined-enhanced serv admin
+EMISNQPE44	Pertussis vaccination in pregnancy invitation-enhnced serv admin
+EMISNQPE45	Pertussis vaccination in pregnancy-enhanced serv admin
+EMISNQPH45	PHN first visit-referrd to Scottish national support needs systm
+EMISNQPH46	PHN first visit - summary comments
+EMISNQPR149	Prostate cancer follow up - enhanced services administration
+EMISNQPU8	Public health nurse first visit
+EMISNQRE452	Remote care monitoring - enhanced services administration
+EMISNQSE118	Severe mental illness - enhanced service completed
+EMISNQSE76	Severe mental illness - enhanced services administration
+EMISNQTR21	Treatment room services - enhanced services administration
+ESCTHE2	Health visitor child 6 weeks of age contact
+ESCTHE3	Health visitor child 9 to 12 month contact
+ESCTHE6	Health visitor child 3 month contact

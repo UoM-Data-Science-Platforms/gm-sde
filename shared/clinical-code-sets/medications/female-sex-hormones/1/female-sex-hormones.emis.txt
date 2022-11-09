@@ -1,0 +1,1190 @@
+^ESCT1173770	Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)
+^ESCT1173773	Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd) 7 vial
+^ESCT1178552	Product containing only conjugated estrogens 0.625 milligram and norgestrel 0.15 milligram/1 each oral tablet
+^ESCT1178667	Femoston-conti 1mg/5mg tablets (Mylan)
+^ESCT1178740	Product containing only ethinylestradiol 0.01 milligram/1 each oral tablet
+^ESCT1178741	Product containing only ethinyl estradiol 0.01 milligram/1 each oral tablet
+^ESCT1178742	Product containing only ethinylestradiol 0.05 milligram/1 each oral tablet
+^ESCT1178743	Product containing only ethinyl estradiol 0.05 milligram/1 each oral tablet
+^ESCT1178744	Product containing only ethinyl estradiol 1 mg/1 each oral tablet
+^ESCT1178745	Product containing only ethinylestradiol 1 mg/1 each oral tablet
+^ESCT1178746	Product containing only estradiol valerate 1 mg/1 each oral tablet
+^ESCT1178747	Product containing only piperazine estrone sulfate 1.5 mg/1 each oral tablet
+^ESCT1178748	Product containing only norethindrone 1 mg/1 each oral tablet
+^ESCT1178749	Product containing only norethisterone 1 mg/1 each oral tablet
+^ESCT1179236	Product containing only conjugated estrogens 2.5 mg/1 each oral tablet
+^ESCT1179636	Zumenon 2mg tablets (Mylan)
+^ESCT1180774	Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)
+^ESCT1180775	Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd) 28 tablet
+^ESCT1181803	Product containing only conjugated estrogens 0.625 mg/1 each oral tablet
+^ESCT1181804	Product containing only conjugated estrogens 1.25 mg/1 each oral tablet
+^ESCT1181847	Product containing only medroxyprogesterone 2.5 mg/1 each oral tablet
+^ESCT1181848	Product containing only norethisterone 5 mg/1 each oral tablet
+^ESCT1181849	Product containing only norethindrone 5 mg/1 each oral tablet
+^ESCT1181850	Product containing only estradiol 2 mg and norethisterone acetate 1 mg/1 each oral tablet
+^ESCT1181851	Product containing only estradiol 2 mg and norethindrone acetate 1 mg/1 each oral tablet
+^ESCT1181852	Product containing only estradiol 1 mg and norethindrone acetate 0.5 mg/1 each oral tablet
+^ESCT1181853	Product containing only estradiol 1 mg and norethisterone acetate 0.5 mg/1 each oral tablet
+^ESCT1182174	Product containing only estradiol valerate 2 mg/1 each oral tablet
+^ESCT1182175	Product containing only estradiol 2 mg/1 each oral tablet
+^ESCT1182177	Product containing only medroxyprogesterone acetate 5 mg/1 each oral tablet
+^ESCT1183547	Zumenon 1mg tablets (Mylan)
+^ESCT1184304	Femoston 1/10mg tablets (Mylan) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCT1184305	Femoston 2/10mg tablets (Mylan) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCT1185299	Product containing only conjugated estrogens 0.3 mg/1 each oral tablet
+^ESCT1185744	Zumenon 1mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1185994	Angeliq 1mg/2mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCT1186393	Femoston 1/10mg tablets (Mylan)
+^ESCT1188191	Product containing only estradiol 1 mg/1 each oral tablet
+^ESCT1188192	Product containing only estriol 1 mg/1 each oral tablet
+^ESCT1188193	Product containing only medroxyprogesterone acetate 10 mg/1 each oral tablet
+^ESCT1188194	Product containing only estradiol valerate 2 mg and norethisterone 0.7 mg/1 each oral tablet
+^ESCT1188195	Product containing only estradiol valerate 2 mg and norethindrone 0.7 mg/1 each oral tablet
+^ESCT1188820	Femoston-conti 1mg/5mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1188834	Zumenon 2mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1189289	Angeliq 1mg/2mg tablets (Bayer Plc)
+^ESCT1189504	Femoston 2/10mg tablets (Mylan)
+^ESCT1189675	Femoston-conti 0.5mg/2.5mg tablets (Mylan)
+^ESCT1189676	Femoston-conti 0.5mg/2.5mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1198752	Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd) 15 pessary
+^ESCT1198769	Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)
+^ESCT1198774	Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)
+^ESCT1198819	Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd) 15 pessary
+^ESCT1214961	Progesterone 50mg/1ml solution for injection ampoules
+^ESCT1215314	Progesterone 100mg/2ml solution for injection ampoules
+^ESCT1215672	Hydroxyprogesterone 250mg/1ml solution for injection ampoules
+^ESCT1215740	Estradiol 100micrograms/24hours transdermal patches
+^ESCT1215741	Estradiol 25micrograms/24hours transdermal patches
+^ESCT1215742	Estradiol 37.5micrograms/24hours transdermal patches
+^ESCT1215743	Estradiol 40micrograms/24hours transdermal patches
+^ESCT1215744	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches
+^ESCT1215746	Estradiol 75micrograms/24hours transdermal patches
+^ESCT1215747	Estradiol 80micrograms/24hours transdermal patches
+^ESCT1216309	Progesterone 25mg/1.112ml solution for injection vials 7 vial
+^ESCT1216310	Lubion 25mg/1.112ml solution for injection vials (IBSA Farmaceutici Italia Srl)
+^ESCT1216311	Lubion 25mg/1.112ml solution for injection vials (IBSA Farmaceutici Italia Srl) 7 vial
+^ESCT1216366	Progesterone 25mg/1.112ml solution for injection vials
+^ESCT1221969	Product containing precisely estradiol hemihydrate 150 microgram/actuation conventional release nasal spray
+^ESCT1221970	Estradiol hemihydrate 150 microgram/actuation nasal spray
+^ESCT1224668	Product containing precisely ethinylestradiol 10 microgram/1 each conventional release oral tablet
+^ESCT1224669	Ethinylestradiol 10 microgram oral tablet
+^ESCT1224670	Ethinyl estradiol 10 microgram oral tablet
+^ESCT1224671	Product containing precisely ethinylestradiol 50 microgram/1 each conventional release oral tablet
+^ESCT1224672	Ethinylestradiol 50 microgram oral tablet
+^ESCT1224673	Ethinyl estradiol 50 microgram oral tablet
+^ESCT1224674	Product containing precisely ethinylestradiol 1 milligram/1 each conventional release oral tablet
+^ESCT1224678	Product containing precisely estradiol valerate 1 milligram/1 each conventional release oral tablet
+^ESCT1224679	Product containing precisely estradiol valerate 2 milligram/1 each conventional release oral tablet
+^ESCT1224680	Product containing precisely estradiol 1 milligram/1 each conventional release oral tablet
+^ESCT1224681	Product containing precisely estradiol 2 milligram/1 each conventional release oral tablet
+^ESCT1224682	Product containing precisely estriol 1 milligram/1 each conventional release oral tablet
+^ESCT1224683	Conjugated estrogens 625 microgram oral tablet
+^ESCT1224684	Product containing precisely conjugated estrogens 625 microgram/1 each conventional release oral tablet
+^ESCT1224685	Product containing precisely conjugated estrogens 1.25 milligram/1 each conventional release oral tablet
+^ESCT1224686	Estropipate 1.5 mg oral tablet
+^ESCT1224687	Product containing precisely estropipate 1.5 milligram/1 each conventional release oral tablet
+^ESCT1224699	Product containing precisely medroxyprogesterone acetate 10 milligram/1 each conventional release oral tablet
+^ESCT1224700	Medroxyprogesterone acetate 2.5 mg oral tablet
+^ESCT1224701	Product containing precisely medroxyprogesterone acetate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224702	Product containing precisely medroxyprogesterone acetate 5 milligram/1 each conventional release oral tablet
+^ESCT1224703	Product containing precisely norethisterone 5 milligram/1 each conventional release oral tablet
+^ESCT1224704	Product containing precisely norethisterone 1 milligram/1 each conventional release oral tablet
+^ESCT1224705	Product containing precisely estradiol 2 milligram and norethisterone acetate 1 milligram/1 each conventional release oral tablet
+^ESCT1224706	Estradiol valerate 2 mg and norethisterone 700 microgram oral tablet
+^ESCT1224707	Product containing precisely estradiol valerate 2 milligram and norethisterone 700 microgram/1 each conventional release oral tablet
+^ESCT1224708	Estradiol valerate 2 mg and norethindrone 700 microgram oral tablet
+^ESCT1224709	Product containing precisely estradiol 1 milligram and norethisterone acetate 500 microgram/1 each conventional release oral tablet
+^ESCT1224710	Estradiol 1 mg and norethindrone acetate 500 microgram oral tablet
+^ESCT1224711	Estradiol 1 mg and norethisterone acetate 500 microgram oral tablet
+^ESCT1230145	Product containing precisely conjugated estrogens 625 microgram and norgestrel 150 microgram/1 each conventional release oral tablet
+^ESCT1230146	Conjugated estrogens 625 microgram and norgestrel 150 microgram oral tablet
+^ESCT1230570	Conjugated estrogens 300 microgram oral tablet
+^ESCT1230571	Product containing precisely conjugated estrogens 300 microgram/1 each conventional release oral tablet
+^ESCT1234605	Product containing precisely conjugated estrogens 2.5 milligram/1 each conventional release oral tablet
+^ESCT1250025	Hormonin tablets (Advanz Pharma)
+^ESCT1250128	Hormonin tablets (Advanz Pharma) 84 tablet 3 x 28 tablets
+^ESCT1250166	FemSeven 75 patches (Theramex HQ UK Ltd)
+^ESCT1250167	FemSeven 75 patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1250172	FemSeven 100 patches (Theramex HQ UK Ltd)
+^ESCT1250173	FemSeven 100 patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1250174	FemSeven 50 patches (Theramex HQ UK Ltd)
+^ESCT1250175	FemSeven 50 patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1250176	FemSeven 50 patches (Theramex HQ UK Ltd) 12 patch
+^ESCT1250286	FemSeven Conti patches (Theramex HQ UK Ltd)
+^ESCT1250287	FemSeven Conti patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1250288	FemSeven Conti patches (Theramex HQ UK Ltd) 12 patch
+^ESCT1250303	FemSeven Sequi patches (Theramex HQ UK Ltd)
+^ESCT1250304	FemSeven Sequi patches (Theramex HQ UK Ltd) 4 patch 2 patches + 2 patches
+^ESCT1250305	FemSeven Sequi patches (Theramex HQ UK Ltd) 12 patch 6 patches + 6 patches
+^ESCT1258209	Primolut N 5mg tablets (Bayer Plc) 30 tablet 2 x 15 tablets
+^ESCT1258889	Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)
+^ESCT1258890	Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd) 7 vial
+^ESCT1267570	Norethisterone 5mg tablets (DE Pharmaceuticals)
+^ESCT1267571	Norethisterone 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1268197	Elleste Solo 2mg tablets (Mylan)
+^ESCT1268198	Elleste Solo 2mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1268199	Elleste Solo 1mg tablets (Mylan)
+^ESCT1268200	Elleste Solo 1mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1268201	Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.)
+^ESCT1268202	Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.) 8 patch
+^ESCT1268203	Estraderm MX 25 patches (Merus Labs Luxco II S.a R.L.) 24 patch
+^ESCT1268204	Elleste Solo MX 40 transdermal patches (Mylan)
+^ESCT1268205	Elleste Solo MX 40 transdermal patches (Mylan) 8 patch
+^ESCT1268206	Elleste Solo MX 80 transdermal patches (Mylan)
+^ESCT1268207	Elleste Solo MX 80 transdermal patches (Mylan) 8 patch
+^ESCT1268208	Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.)
+^ESCT1268209	Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.) 8 patch
+^ESCT1268210	Estraderm MX 75 patches (Merus Labs Luxco II S.a R.L.) 24 patch
+^ESCT1268211	Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.)
+^ESCT1268212	Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.) 8 patch
+^ESCT1268213	Estraderm MX 100 patches (Merus Labs Luxco II S.a R.L.) 24 patch
+^ESCT1268214	Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.)
+^ESCT1268215	Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 8 patch
+^ESCT1268216	Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 24 patch
+^ESCT1268217	Estraderm MX 50 patches (Merus Labs Luxco II S.a R.L.) 20 patch
+^ESCT1268222	Elleste Duet Conti tablets (Mylan)
+^ESCT1268223	Elleste Duet Conti tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1268228	Estradiol valerate 2mg tablets (Mylan)
+^ESCT1268229	Estradiol valerate 2mg tablets (Mylan) 11 tablet
+^ESCT1268232	Cyclo-Progynova 2mg tablets (Mylan)
+^ESCT1268233	Cyclo-Progynova 2mg tablets (Mylan) 21 tablet 1 x (11 tablets + 10 tablets)
+^ESCT1268234	Estradiol valerate 1mg tablets (Mylan)
+^ESCT1268235	Estradiol valerate 1mg tablets (Mylan) 11 tablet
+^ESCT1268240	Estradiol 1mg tablets (Mylan)
+^ESCT1268241	Estradiol 1mg tablets (Mylan) 48 tablet
+^ESCT1268242	Elleste Duet 1mg tablets (Mylan)
+^ESCT1268243	Elleste Duet 1mg tablets (Mylan) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCT1268250	Estradiol 2mg tablets (Mylan)
+^ESCT1268251	Estradiol 2mg tablets (Mylan) 48 tablet
+^ESCT1268252	Estradiol 2mg / Norethisterone acetate 1mg tablets (Mylan)
+^ESCT1268253	Estradiol 2mg / Norethisterone acetate 1mg tablets (Mylan) 36 tablet
+^ESCT1268254	Elleste Duet 2mg tablets (Mylan)
+^ESCT1268255	Elleste Duet 2mg tablets (Mylan) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCT1281010	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)
+^ESCT1281011	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd) 8 patch
+^ESCT1281012	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd) 24 patch
+^ESCT1281013	Evorel 75 patches (Janssen-Cilag Ltd) 8 patch
+^ESCT1281014	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)
+^ESCT1281015	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd) 8 patch
+^ESCT1281016	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd) 24 patch
+^ESCT1281017	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)
+^ESCT1281018	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd) 8 patch
+^ESCT1281019	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd) 24 patch
+^ESCT1281020	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)
+^ESCT1281021	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 8 patch
+^ESCT1281022	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 24 patch
+^ESCT1281023	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd) 20 patch
+^ESCT1299763	Evorel 25 patches (Theramex HQ UK Ltd)
+^ESCT1299764	Evorel 25 patches (Theramex HQ UK Ltd) 8 patch
+^ESCT1299765	Evorel 75 patches (Theramex HQ UK Ltd)
+^ESCT1299766	Evorel 75 patches (Theramex HQ UK Ltd) 8 patch
+^ESCT1299767	Evorel 100 patches (Theramex HQ UK Ltd)
+^ESCT1299768	Evorel 100 patches (Theramex HQ UK Ltd) 8 patch
+^ESCT1299769	Evorel 50 patches (Theramex HQ UK Ltd)
+^ESCT1299770	Evorel 50 patches (Theramex HQ UK Ltd) 8 patch
+^ESCT1299771	Evorel 50 patches (Theramex HQ UK Ltd) 24 patch
+^ESCT1299774	Evorel 50 patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1299775	Evorel Conti patches (Theramex HQ UK Ltd)
+^ESCT1299776	Evorel Conti patches (Theramex HQ UK Ltd) 8 patch
+^ESCT1299777	Evorel Conti patches (Theramex HQ UK Ltd) 24 patch
+^ESCT1299778	Evorel Conti patches (Theramex HQ UK Ltd) 4 patch
+^ESCT1299779	Evorel Sequi patches (Theramex HQ UK Ltd)
+^ESCT1299780	Evorel Sequi patches (Theramex HQ UK Ltd) 8 patch 4 patches + 4 patches
+^ESCT1304627	Estradiol 1.53mg/dose transdermal spray 56 dose
+^ESCT1304628	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)
+^ESCT1304629	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd) 56 dose
+^ESCT1304630	Estradiol 1.53mg/dose transdermal spray 168 dose
+^ESCT1304631	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd) 168 dose 3 x 56 doses
+^ESCT1304777	Estradiol 1.53mg/dose transdermal spray
+^ESCT1381105	Estradiol 25mg implant
+^ESCT1381106	Estradiol 50mg implant
+^ESCT1381107	Estradiol 100mg implant
+^ESCT1381111	Progesterone 40 microgram/mg vaginal gel
+^ESCT1381112	Progesterone 80 microgram/mg vaginal gel
+^ESCT1402424	Norethisterone 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402425	Norethisterone 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402880	Estradiol 50micrograms/24hours transdermal patches
+^ESCT1410179	Estradiol 50mg implant (Organon Pharma (UK) Ltd)
+^ESCT1410180	Estradiol 50mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1410199	Estradiol 25mg implant (Organon Pharma (UK) Ltd)
+^ESCT1410200	Estradiol 25mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1419202	Ethinylestradiol 50microgram gastro-resistant tablets 25 tablet
+^ESCT1419203	Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))
+^ESCT1419204	Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy)) 25 tablet
+^ESCT1419413	Ethinylestradiol 50microgram gastro-resistant tablets
+^ESCT1424745	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets
+^ESCT1424932	Progesterone 200mg pessaries
+^ESCT1424933	Progesterone 400mg pessaries
+^ESCT1425840	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426272	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1429915	Estradiol 1mg / Progesterone 100mg capsules 28 capsule
+^ESCT1429916	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)
+^ESCT1429917	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1430069	Estradiol 1mg / Progesterone 100mg capsules
+^ESCTAD822841	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)
+^ESCTAD855024	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 14 tablet
+^ESCTAD855025	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 28 tablet
+^ESCTAD857428	Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)
+^ESCTAD857431	Adgyn Estro 2mg tablets (Kyowa Kirin Ltd) 28 tablet
+^ESCTAD861385	Adgyn Combi tablets (Kyowa Kirin Ltd)
+^ESCTAD861386	Adgyn Combi tablets (Kyowa Kirin Ltd) 28 tablet 1 x (16 tablets + 12 tablets)
+^ESCTAE863100	Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)
+^ESCTAE863101	Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd) 60 dose
+^ESCTAN909607	Angeliq tablets (Bayer Plc)
+^ESCTAN909608	Angeliq tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCTBE927686	Bedol 2mg tablets (ReSource Medical UK Ltd)
+^ESCTBE927687	Bedol 2mg tablets (ReSource Medical UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTCL857494	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCL857495	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCL857496	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTCL857501	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCL857502	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCL857503	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTCL858906	Climesse tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCL858908	Climesse tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCL858910	Climesse tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTCL861305	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCL861309	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 1 x (16 tablets + 12 tablets)
+^ESCTCL861313	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTCL861357	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCL861362	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 1 x (16 tablets + 12 tablets)
+^ESCTCL861366	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTCL927683	Climanor 5mg tablets (ReSource Medical UK Ltd)
+^ESCTCL927684	Climanor 5mg tablets (ReSource Medical UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL927694	Clinorette tablets (ReSource Medical UK Ltd)
+^ESCTCL927695	Clinorette tablets (ReSource Medical UK Ltd) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTCO1146620	Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets 28 tablet
+^ESCTCO1146711	Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets
+^ESCTCO612694	Conjugated oestrogens 625microgram tablets
+^ESCTCO612696	Conjugated estrogens 0.625 mg oral tablet
+^ESCTCO612697	Conjugated oestrogens 1.25mg tablets
+^ESCTCO612699	Conjugated estrogens 1.25 mg oral tablet
+^ESCTCO664271	Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets
+^ESCTCO664272	Conjugated estrogens 0.625 mg and norgestrel 0.15 mg oral tablet
+^ESCTCO677331	Conjugated oestrogens 300microgram tablets
+^ESCTCO677333	Conjugated estrogens 0.3 mg oral tablet
+^ESCTCO708198	Conjugated oestrogens 2.5mg tablets
+^ESCTCO708200	Conjugated estrogens 2.5 mg oral tablet
+^ESCTCO839256	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTCO848098	Conjugated oestrogens 1.25mg tablets 84 tablet
+^ESCTCO848400	Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets 120 tablet
+^ESCTCO848753	Conjugated oestrogens 625microgram tablets 84 tablet
+^ESCTCO861160	Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets
+^ESCTCO862037	Conjugated oestrogens 625microgram tablets 42 tablet
+^ESCTCO862038	Conjugated oestrogens 625microgram tablets (Pfizer Ltd)
+^ESCTCO862039	Conjugated oestrogens 625microgram tablets (Pfizer Ltd) 42 tablet
+^ESCTCO862148	Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets 120 tablet
+^ESCTCO870834	Conjugated oestrogens 2.5mg tablets 84 tablet
+^ESCTCO894837	Conjugated oestrogens 625microgram tablets (Pfizer Ltd) 84 tablet
+^ESCTCO894838	Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)
+^ESCTCO894839	Conjugated oestrogens 1.25mg tablets (Pfizer Ltd) 84 tablet
+^ESCTCO896535	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets 84 tablet
+^ESCTCO940136	Conjugated oestrogens 300microgram tablets 84 tablet
+^ESCTCO983315	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets
+^ESCTCR867124	Crinone 4% progesterone vaginal gel (Merck Serono Ltd)
+^ESCTCR867125	Crinone 4% progesterone vaginal gel (Merck Serono Ltd) 6 unit dose
+^ESCTCR868059	Crinone 8% progesterone vaginal gel (Merck Serono Ltd)
+^ESCTCR868060	Crinone 8% progesterone vaginal gel (Merck Serono Ltd) 15 unit dose
+^ESCTCY813495	Cyclogest 400mg pessaries (Teva UK Ltd)
+^ESCTCY856201	Cyclogest 400mg pessaries (Teva UK Ltd) 15 pessary
+^ESCTCY861232	Cyclo-Progynova 2mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTCY861235	Cyclo-Progynova 2mg tablets (Meda Pharmaceuticals Ltd) 21 tablet 1 x (11 tablets + 10 tablets)
+^ESCTCY861253	Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTCY861256	Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd) 21 tablet 1 x (11 tablets + 10 tablets)
+^ESCTCY865522	Cyclogest 200mg pessaries (Teva UK Ltd)
+^ESCTCY865523	Cyclogest 200mg pessaries (Teva UK Ltd) 15 pessary
+^ESCTDE857766	Dermestril 25 patches (Kyowa Kirin Ltd)
+^ESCTDE857767	Dermestril 25 patches (Kyowa Kirin Ltd) 8 patch
+^ESCTDE857958	Dermestril - Septem 75 patches (Kyowa Kirin Ltd)
+^ESCTDE857959	Dermestril - Septem 75 patches (Kyowa Kirin Ltd) 4 patch
+^ESCTDE858184	Dermestril 100 patches (Kyowa Kirin Ltd)
+^ESCTDE858185	Dermestril 100 patches (Kyowa Kirin Ltd) 8 patch
+^ESCTDE858267	Dermestril 50 patches (Kyowa Kirin Ltd)
+^ESCTDE858268	Dermestril 50 patches (Kyowa Kirin Ltd) 8 patch
+^ESCTDE858269	Dermestril - Septem 50 patches (Kyowa Kirin Ltd)
+^ESCTDE858271	Dermestril - Septem 50 patches (Kyowa Kirin Ltd) 4 patch
+^ESCTDU1146621	Duavive 0.45mg/20mg modified-release tablets (Merck Sharp & Dohme Ltd)
+^ESCTDU1146622	Duavive 0.45mg/20mg modified-release tablets (Merck Sharp & Dohme Ltd) 28 tablet
+^ESCTEL857414	Elleste Solo 2mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTEL857420	Elleste Solo 2mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTEL857459	Elleste Solo 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTEL857463	Elleste Solo 1mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTEL857769	Elleste Solo MX 40 transdermal patches (Meda Pharmaceuticals Ltd)
+^ESCTEL857770	Elleste Solo MX 40 transdermal patches (Meda Pharmaceuticals Ltd) 8 patch
+^ESCTEL857810	Elleste Solo MX 80 transdermal patches (Meda Pharmaceuticals Ltd)
+^ESCTEL857811	Elleste Solo MX 80 transdermal patches (Meda Pharmaceuticals Ltd) 8 patch
+^ESCTEL858973	Elleste Duet Conti tablets (Meda Pharmaceuticals Ltd)
+^ESCTEL858974	Elleste Duet Conti tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTEL861394	Elleste Duet 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTEL861395	Elleste Duet 1mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCTEL862029	Elleste Duet 2mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTEL862030	Elleste Duet 2mg tablets (Meda Pharmaceuticals Ltd) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCTES1003010	Estradiol 0.06% gel (750microgram per actuation) 64 gram
+^ESCTES1036692	Estradiol 500micrograms / Dydrogesterone 2.5mg tablets 84 tablet
+^ESCTES1037668	Estradiol 500micrograms / Dydrogesterone 2.5mg tablets
+^ESCTES1068315	Estradiol valerate 2mg tablets (Imported (Germany))
+^ESCTES1068316	Estradiol valerate 2mg tablets (Imported (Germany)) 11 tablet
+^ESCTES1093949	Estradiol 50mg implant (Special Order)
+^ESCTES1093950	Estradiol 50mg implant (Special Order) 1 device
+^ESCTES450882	Estradiol 150micrograms/dose nasal spray
+^ESCTES450884	Estradiol hemihydrate 150micrograms nasal spray
+^ESCTES612651	Estradiol valerate 1mg tablets
+^ESCTES612653	Estradiol valerate 1 mg oral tablet
+^ESCTES612664	Estradiol valerate 2mg tablets
+^ESCTES612666	Estradiol valerate 2 mg oral tablet
+^ESCTES612679	Estradiol 25mg implant
+^ESCTES612681	Estradiol 50mg implant
+^ESCTES612683	Estradiol 100mg implant
+^ESCTES612685	Estradiol 1mg tablets
+^ESCTES612687	Estradiol 1 mg oral tablet
+^ESCTES612688	Estradiol 2mg tablets
+^ESCTES612690	Estradiol 2 mg oral tablet
+^ESCTES612691	Estriol 1mg tablets
+^ESCTES612693	Estriol 1 mg oral tablet
+^ESCTES612700	Estropipate 1.5mg tablets
+^ESCTES612709	Estradiol 0.06% gel (750microgram per actuation)
+^ESCTES612711	Estradiol 0.06% gel
+^ESCTES612757	Estradiol 2mg / Norethisterone acetate 1mg tablets
+^ESCTES612760	Estradiol 2 mg and norethindrone acetate 1 mg oral tablet
+^ESCTES612761	Estradiol 2 mg and norethisterone acetate 1 mg oral tablet
+^ESCTES612762	Estradiol valerate 2mg / Norethisterone 700microgram tablets
+^ESCTES612765	Estradiol valerate 2 mg and norethindrone 0.7 mg oral tablet
+^ESCTES612766	Estradiol valerate 2 mg and norethisterone 0.7 mg oral tablet
+^ESCTES612767	Estradiol 1mg / Norethisterone acetate 500microgram tablets
+^ESCTES612770	Estradiol 1 mg and norethisterone acetate 0.5 mg oral tablet
+^ESCTES612771	Estradiol 1 mg and norethindrone acetate 0.5 mg oral tablet
+^ESCTES843610	Estradiol 1mg / Dydrogesterone 5mg tablets 84 tablet
+^ESCTES847389	Estropipate 1.5mg tablets 28 tablet
+^ESCTES857399	Estradiol 2mg tablets 84 tablet
+^ESCTES857401	Estradiol 2mg tablets 28 tablet
+^ESCTES857451	Estradiol 1mg tablets 84 tablet
+^ESCTES857491	Estradiol valerate 2mg tablets 28 tablet
+^ESCTES857492	Estradiol valerate 2mg tablets 84 tablet
+^ESCTES857499	Estradiol valerate 1mg tablets 28 tablet
+^ESCTES857500	Estradiol valerate 1mg tablets 84 tablet
+^ESCTES857752	Estradiol 25micrograms/24hours transdermal patches 8 patch
+^ESCTES857757	Estradiol 25micrograms/24hours transdermal patches 24 patch
+^ESCTES857760	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES857761	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES857762	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd) 24 patch
+^ESCTES857763	Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.)
+^ESCTES857764	Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.) 8 patch
+^ESCTES857765	Estraderm MX 25 patches (Merus Labs Luxco S.a R.L.) 24 patch
+^ESCTES857768	Estradiol 40micrograms/24hours transdermal patches 8 patch
+^ESCTES857807	Estradiol 80micrograms/24hours transdermal patches 8 patch
+^ESCTES857827	Estradiol 37.5micrograms/24hours transdermal patches 8 patch
+^ESCTES857901	Estradiol 75micrograms/24hours transdermal patches 4 patch
+^ESCTES857902	Estradiol 75micrograms/24hours transdermal patches 8 patch
+^ESCTES857903	Estradiol 75micrograms/24hours transdermal patches 24 patch
+^ESCTES857954	Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.)
+^ESCTES857955	Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.) 8 patch
+^ESCTES857956	Estraderm MX 75 patches (Merus Labs Luxco S.a R.L.) 24 patch
+^ESCTES858156	Estradiol 100micrograms/24hours transdermal patches 8 patch
+^ESCTES858157	Estradiol 100micrograms/24hours transdermal patches 24 patch
+^ESCTES858169	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES858171	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES858172	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd) 24 patch
+^ESCTES858173	Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.)
+^ESCTES858174	Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.) 8 patch
+^ESCTES858179	Estraderm MX 100 patches (Merus Labs Luxco S.a R.L.) 24 patch
+^ESCTES858187	Estradiol 100micrograms/24hours transdermal patches 4 patch
+^ESCTES858200	Estradiol 100micrograms/24hours transdermal patches 12 patch
+^ESCTES858213	Estradiol 50micrograms/24hours transdermal patches 8 patch
+^ESCTES858215	Estradiol 50micrograms/24hours transdermal patches 24 patch
+^ESCTES858217	Estradiol 50micrograms/24hours transdermal patches 20 patch
+^ESCTES858220	Estradiol 50micrograms/24hours transdermal patches 4 patch
+^ESCTES858221	Estradiol 50micrograms/24hours transdermal patches 12 patch
+^ESCTES858227	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES858229	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES858230	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 24 patch
+^ESCTES858243	Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.)
+^ESCTES858245	Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 8 patch
+^ESCTES858247	Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 24 patch
+^ESCTES858264	Estraderm MX 50 patches (Merus Labs Luxco S.a R.L.) 20 patch
+^ESCTES858884	Estradiol 1mg / Norethisterone acetate 500microgram tablets 84 tablet
+^ESCTES858900	Estradiol valerate 2mg / Norethisterone 700microgram tablets 28 tablet
+^ESCTES858901	Estradiol valerate 2mg / Norethisterone 700microgram tablets 84 tablet
+^ESCTES858919	Estradiol 2mg / Norethisterone acetate 1mg tablets 84 tablet
+^ESCTES860013	Estradiol valerate 2mg tablets 48 tablet
+^ESCTES860015	Estradiol valerate 2mg tablets (Bayer Plc)
+^ESCTES860016	Estradiol valerate 2mg tablets (Bayer Plc) 48 tablet
+^ESCTES860133	Estradiol 80micrograms/24hours transdermal patches 4 patch
+^ESCTES860161	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 4 patch
+^ESCTES860162	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd) 12 patch
+^ESCTES860194	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES860197	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd) 8 patch 4 patches + 4 patches
+^ESCTES860199	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd) 24 patch 12 patches + 12 patches
+^ESCTES860203	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 8 patch
+^ESCTES860204	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 24 patch
+^ESCTES860205	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches 4 patch
+^ESCTES860230	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets 1 month supply
+^ESCTES860231	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets 3 month supply
+^ESCTES860232	Estrapak 50 (Novartis Pharmaceuticals UK Ltd)
+^ESCTES860233	Estrapak 50 (Novartis Pharmaceuticals UK Ltd) 1 month supply 1 x (8 patches + 12 tablets)
+^ESCTES860234	Estrapak 50 (Novartis Pharmaceuticals UK Ltd) 3 month supply 1 x (24 patches + 36 tablets)
+^ESCTES861175	Estradiol 2mg tablets 42 tablet
+^ESCTES861183	Estradiol 1mg tablets 42 tablet
+^ESCTES861186	Estradiol 1mg tablets (Abbott Healthcare Products Ltd)
+^ESCTES861187	Estradiol 1mg tablets (Abbott Healthcare Products Ltd) 42 tablet
+^ESCTES861205	Estradiol 2mg tablets (Abbott Healthcare Products Ltd)
+^ESCTES861207	Estradiol 2mg tablets (Abbott Healthcare Products Ltd) 42 tablet
+^ESCTES861224	Estradiol valerate 2mg tablets 11 tablet
+^ESCTES861225	Estradiol valerate 2mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTES861226	Estradiol valerate 2mg tablets (Meda Pharmaceuticals Ltd) 11 tablet
+^ESCTES861237	Estradiol valerate 1mg tablets 11 tablet
+^ESCTES861238	Estradiol valerate 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTES861239	Estradiol valerate 1mg tablets (Meda Pharmaceuticals Ltd) 11 tablet
+^ESCTES861260	Estradiol valerate 2mg tablets 70 tablet
+^ESCTES861261	Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)
+^ESCTES861262	Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd) 70 tablet
+^ESCTES861272	Estradiol valerate 1mg tablets 16 tablet
+^ESCTES861273	Estradiol valerate 1mg tablets 48 tablet
+^ESCTES861277	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTES861280	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd) 16 tablet
+^ESCTES861281	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd) 48 tablet
+^ESCTES861317	Estradiol valerate 2mg tablets 16 tablet
+^ESCTES861320	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTES861328	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd) 16 tablet
+^ESCTES861330	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd) 48 tablet
+^ESCTES861372	Estradiol 2mg tablets 16 tablet
+^ESCTES861375	Estradiol 2mg tablets (Kyowa Kirin Ltd)
+^ESCTES861376	Estradiol 2mg tablets (Kyowa Kirin Ltd) 16 tablet
+^ESCTES861390	Estradiol 1mg tablets 48 tablet
+^ESCTES861391	Estradiol 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTES861392	Estradiol 1mg tablets (Meda Pharmaceuticals Ltd) 48 tablet
+^ESCTES861402	Estradiol 1mg / Dydrogesterone 5mg tablets
+^ESCTES861708	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets
+^ESCTES861766	Estradiol 0.06% gel (750microgram per actuation) 80 gram
+^ESCTES861948	Estradiol 2mg tablets 36 tablet
+^ESCTES861950	Estradiol 2mg tablets (Novo Nordisk Ltd)
+^ESCTES861952	Estradiol 2mg tablets (Novo Nordisk Ltd) 36 tablet
+^ESCTES861953	Estradiol 2mg / Norethisterone acetate 1mg tablets 30 tablet
+^ESCTES861957	Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)
+^ESCTES861959	Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd) 30 tablet
+^ESCTES861961	Estradiol 1mg tablets 18 tablet
+^ESCTES861963	Estradiol 1mg tablets (Novo Nordisk Ltd)
+^ESCTES861967	Estradiol 1mg tablets (Novo Nordisk Ltd) 18 tablet
+^ESCTES862022	Estradiol 2mg tablets 48 tablet
+^ESCTES862023	Estradiol 2mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTES862024	Estradiol 2mg tablets (Meda Pharmaceuticals Ltd) 48 tablet
+^ESCTES862025	Estradiol 2mg / Norethisterone acetate 1mg tablets 36 tablet
+^ESCTES862026	Estradiol 2mg / Norethisterone acetate 1mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTES862027	Estradiol 2mg / Norethisterone acetate 1mg tablets (Meda Pharmaceuticals Ltd) 36 tablet
+^ESCTES863098	Estradiol 150micrograms/dose nasal spray 60 dose
+^ESCTES863167	Estradiol 500microgram gel sachets 28 sachet
+^ESCTES863171	Estradiol 1mg gel sachets 28 sachet
+^ESCTES863172	Estradiol 1mg gel sachets 91 sachet
+^ESCTES863230	Estradiol 1mg gel sachets
+^ESCTES863231	Estradiol 500microgram gel sachets
+^ESCTES864219	Estradiol 50mg implant 1 device
+^ESCTES864225	Estradiol 50mg implant (A A H Pharmaceuticals Ltd)
+^ESCTES864226	Estradiol 50mg implant (A A H Pharmaceuticals Ltd) 1 device
+^ESCTES864227	Estradiol 50mg implant (Merck Sharp & Dohme Ltd)
+^ESCTES864230	Estradiol 50mg implant (Merck Sharp & Dohme Ltd) 1 device
+^ESCTES864234	Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)
+^ESCTES864235	Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd) 1 device
+^ESCTES864236	Estradiol 100mg implant 1 device
+^ESCTES864237	Estradiol 100mg implant (A A H Pharmaceuticals Ltd)
+^ESCTES864238	Estradiol 100mg implant (A A H Pharmaceuticals Ltd) 1 device
+^ESCTES864239	Estradiol 100mg implant (Organon Laboratories Ltd)
+^ESCTES864240	Estradiol 100mg implant (Organon Laboratories Ltd) 1 device
+^ESCTES864241	Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)
+^ESCTES864242	Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd) 1 device
+^ESCTES864284	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTES864287	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 84 tablet
+^ESCTES864361	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+^ESCTES864362	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+^ESCTES865001	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTES865091	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+^ESCTES865210	Estriol 1mg tablets 30 tablet
+^ESCTES865230	Estradiol 25mg implant 1 device
+^ESCTES865232	Estradiol 25mg implant (A A H Pharmaceuticals Ltd)
+^ESCTES865233	Estradiol 25mg implant (A A H Pharmaceuticals Ltd) 1 device
+^ESCTES865234	Estradiol 25mg implant (Merck Sharp & Dohme Ltd)
+^ESCTES865235	Estradiol 25mg implant (Merck Sharp & Dohme Ltd) 1 device
+^ESCTES865236	Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)
+^ESCTES865237	Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd) 1 device
+^ESCTES865748	Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets 1 month supply
+^ESCTES865761	Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets 1 month supply
+^ESCTES865772	Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets 1 month supply
+^ESCTES865809	Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+^ESCTES865810	Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+^ESCTES865811	Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets
+^ESCTES869140	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches 4 patch
+^ESCTES869141	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches 12 patch
+^ESCTES869152	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches
+^ESCTES870385	Estradiol 1mg tablets (Novo Nordisk Ltd) 48 tablet
+^ESCTES870594	Estradiol valerate 2mg tablets (Merck Serono Ltd)
+^ESCTES870596	Estradiol valerate 2mg tablets (Merck Serono Ltd) 48 tablet
+^ESCTES872175	Estradiol 50micrograms/24hours transdermal patches 2 patch
+^ESCTES872176	Estradiol 50micrograms/24hours transdermal patches 6 patch
+^ESCTES878943	Estradiol valerate 2mg tablets 60 tablet
+^ESCTES909606	Estradiol 1mg / Drospirenone 2mg tablets 84 tablet
+^ESCTES909731	Estradiol 1mg / Drospirenone 2mg tablets
+^ESCTES912141	Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES912142	Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES912143	Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES912144	Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES912145	Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES912146	Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES912147	Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES912148	Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES912149	Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTES912150	Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTES927688	Estradiol 2mg tablets (ReSource Medical UK Ltd)
+^ESCTES927689	Estradiol 2mg tablets (ReSource Medical UK Ltd) 48 tablet
+^ESCTES970313	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 28 tablet
+^ESCTES970314	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTES970315	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTES975022	Estradiol 1mg / Norethisterone acetate 500microgram tablets 28 tablet
+^ESCTES975117	Estradiol 1mg tablets 28 tablet
+^ESCTES981884	Estradiol valerate 1mg tablets 6 tablet
+^ESCTES981885	Estradiol valerate 1mg tablets (Bayer Plc)
+^ESCTES981886	Estradiol valerate 1mg tablets (Bayer Plc) 6 tablet
+^ESCTET1100752	Ethinylestradiol 5microgram capsules 1 capsule
+^ESCTET1100753	Ethinylestradiol 5microgram capsules (Special Order)
+^ESCTET1100754	Ethinylestradiol 5microgram capsules (Special Order) 1 capsule
+^ESCTET1100795	Ethinylestradiol 5microgram capsules
+^ESCTET612622	Ethinylestradiol 10microgram tablets
+^ESCTET612623	Ethinyl estradiol 0.01 mg oral tablet
+^ESCTET612624	Ethinylestradiol 0.01 mg oral tablet
+^ESCTET612627	Ethinylestradiol 50microgram tablets
+^ESCTET612628	Ethinyl estradiol 0.05 mg oral tablet
+^ESCTET612629	Ethinylestradiol 0.05 mg oral tablet
+^ESCTET612632	Ethinylestradiol 1mg tablets
+^ESCTET612635	Ethinyl estradiol 1 mg oral tablet
+^ESCTET612636	Ethinylestradiol 1 mg oral tablet
+^ESCTET819722	Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET821251	Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)
+^ESCTET822882	Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTET843501	Ethinylestradiol 10microgram tablets 21 tablet
+^ESCTET856594	Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd) 21 tablet
+^ESCTET856596	Ethinylestradiol 10microgram tablets (UCB Pharma Ltd) 21 tablet
+^ESCTET856598	Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd) 21 tablet
+^ESCTET865924	Ethinylestradiol 1mg tablets 28 tablet
+^ESCTET865927	Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTET865928	Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTET865930	Ethinylestradiol 1mg tablets (UCB Pharma Ltd)
+^ESCTET865932	Ethinylestradiol 1mg tablets (UCB Pharma Ltd) 28 tablet
+^ESCTET865934	Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET865935	Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTET867277	Ethinylestradiol 50microgram tablets 21 tablet
+^ESCTET867278	Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTET867279	Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd) 21 tablet
+^ESCTET867280	Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)
+^ESCTET867281	Ethinylestradiol 50microgram tablets (UCB Pharma Ltd) 21 tablet
+^ESCTET867282	Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET867283	Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd) 21 tablet
+^ESCTET909283	Ethinylestradiol 2microgram capsules 1 capsule
+^ESCTET909291	Ethinylestradiol 2microgram capsules (Special Order)
+^ESCTET909293	Ethinylestradiol 2microgram capsules (Special Order) 1 capsule
+^ESCTET909676	Ethinylestradiol 2microgram capsules
+^ESCTET942554	Ethinylestradiol 2microgram tablets 100 tablet
+^ESCTET942557	Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)
+^ESCTET942559	Ethinylestradiol 2microgram tablets (UCB Pharma Ltd) 100 tablet
+^ESCTET942599	Ethinylestradiol 2microgram tablets
+^ESCTET948331	Ethinylestradiol 2micrograms/5ml oral suspension 1 ml
+^ESCTET948332	Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)
+^ESCTET948333	Ethinylestradiol 2micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTET948338	Ethinylestradiol 4micrograms/5ml oral suspension 1 ml
+^ESCTET948340	Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)
+^ESCTET948343	Ethinylestradiol 4micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTET948500	Ethinylestradiol 2micrograms/5ml oral suspension
+^ESCTET948501	Ethinylestradiol 4micrograms/5ml oral suspension
+^ESCTET975434	Ethinylestradiol 2microgram tablets (Special Order)
+^ESCTET975435	Ethinylestradiol 2microgram tablets 1 tablet
+^ESCTET975436	Ethinylestradiol 2microgram tablets (Special Order) 1 tablet
+^ESCTEV857758	Evorel 25 patches (Janssen-Cilag Ltd)
+^ESCTEV857759	Evorel 25 patches (Janssen-Cilag Ltd) 8 patch
+^ESCTEV857906	Evorel 75 patches (Janssen-Cilag Ltd)
+^ESCTEV857907	Evorel 75 patches (Janssen-Cilag Ltd) 8 patch 1 x 8 patches
+^ESCTEV858162	Evorel 100 patches (Janssen-Cilag Ltd)
+^ESCTEV858167	Evorel 100 patches (Janssen-Cilag Ltd) 8 patch
+^ESCTEV858222	Evorel 50 patches (Janssen-Cilag Ltd)
+^ESCTEV858224	Evorel 50 patches (Janssen-Cilag Ltd) 8 patch
+^ESCTEV858225	Evorel 50 patches (Janssen-Cilag Ltd) 24 patch
+^ESCTEV860202	Evorel 50 patches (Janssen-Cilag Ltd) 4 patch
+^ESCTEV860206	Evorel Conti patches (Janssen-Cilag Ltd)
+^ESCTEV860207	Evorel Conti patches (Janssen-Cilag Ltd) 8 patch
+^ESCTEV860208	Evorel Conti patches (Janssen-Cilag Ltd) 24 patch
+^ESCTEV860209	Evorel Conti patches (Janssen-Cilag Ltd) 4 patch
+^ESCTEV860213	Evorel Sequi patches (Janssen-Cilag Ltd)
+^ESCTEV860215	Evorel Sequi patches (Janssen-Cilag Ltd) 8 patch 4 patches + 4 patches
+^ESCTEV865750	Evorel Pak (Janssen-Cilag Ltd)
+^ESCTEV865751	Evorel Pak (Janssen-Cilag Ltd) 1 month supply 1 x (8 patches + 12 tablets)
+^ESCTFE1036693	Femoston-conti 0.5mg/2.5mg tablets (Mylan Ltd)
+^ESCTFE1036694	Femoston-conti 0.5mg/2.5mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE819526	Femoston-conti 1mg/5mg tablets (Mylan Ltd)
+^ESCTFE856407	Femoston-conti 1mg/5mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE857771	Fematrix 40 patches (Abbott Healthcare Products Ltd)
+^ESCTFE857772	Fematrix 40 patches (Abbott Healthcare Products Ltd) 8 patch
+^ESCTFE857813	Fematrix 80 patches (Abbott Healthcare Products Ltd)
+^ESCTFE857815	Fematrix 80 patches (Abbott Healthcare Products Ltd) 8 patch
+^ESCTFE857904	FemSeven 75 patches (Teva UK Ltd)
+^ESCTFE857905	FemSeven 75 patches (Teva UK Ltd) 4 patch
+^ESCTFE858186	FemSeven 100 patches (Teva UK Ltd)
+^ESCTFE858189	FemSeven 100 patches (Teva UK Ltd) 4 patch
+^ESCTFE858275	FemSeven 50 patches (Teva UK Ltd)
+^ESCTFE858278	FemSeven 50 patches (Teva UK Ltd) 4 patch
+^ESCTFE858280	FemSeven 50 patches (Teva UK Ltd) 12 patch
+^ESCTFE861179	Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)
+^ESCTFE861180	Femoston 2/20mg tablets (Abbott Healthcare Products Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCTFE861197	Femoston 1/10mg tablets (Mylan Ltd)
+^ESCTFE861200	Femoston 1/10mg tablets (Mylan Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCTFE861217	Femoston 2/10mg tablets (Mylan Ltd)
+^ESCTFE861221	Femoston 2/10mg tablets (Mylan Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCTFE865763	Femapak 80 (Abbott Healthcare Products Ltd)
+^ESCTFE865765	Femapak 80 (Abbott Healthcare Products Ltd) 1 month supply 1 x (8 patches + 14 tablets)
+^ESCTFE865773	Femapak 40 (Abbott Healthcare Products Ltd)
+^ESCTFE865774	Femapak 40 (Abbott Healthcare Products Ltd) 1 month supply 1 x (8 patches + 14 tablets)
+^ESCTFE869142	FemSeven Conti patches (Teva UK Ltd)
+^ESCTFE869143	FemSeven Conti patches (Teva UK Ltd) 4 patch
+^ESCTFE869144	FemSeven Conti patches (Teva UK Ltd) 12 patch
+^ESCTFE870412	FemTab 1mg tablets (Merck Serono Ltd)
+^ESCTFE870413	FemTab 1mg tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE870414	FemTab 2mg tablets (Merck Serono Ltd)
+^ESCTFE870415	FemTab 2mg tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE870416	FemTab Continuous tablets (Merck Serono Ltd)
+^ESCTFE870417	FemTab Continuous tablets (Merck Serono Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE870585	FemTab Sequi tablets (Merck Serono Ltd)
+^ESCTFE870589	FemTab Sequi tablets (Merck Serono Ltd) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTFE872211	FemSeven Sequi patches (Teva UK Ltd)
+^ESCTFE872212	FemSeven Sequi patches (Teva UK Ltd) 4 patch 2 patches + 2 patches
+^ESCTFE872216	FemSeven Sequi patches (Teva UK Ltd) 12 patch 6 patches + 6 patches
+^ESCTGE847106	Generic Hormonin tablets 84 tablet
+^ESCTGE860038	Generic Nuvelle tablets 84 tablet
+^ESCTGE860150	Generic Nuvelle TS transdermal patches 8 patch
+^ESCTGE860180	Generic Estracombi TTS transdermal patches 8 patch
+^ESCTGE860191	Generic Estracombi TTS transdermal patches 24 patch
+^ESCTGE860212	Generic Evorel Sequi transdermal patches 8 patch
+^ESCTGE861177	Generic Femoston 2/20mg tablets 84 tablet
+^ESCTGE861195	Generic Femoston 1/10mg tablets 84 tablet
+^ESCTGE861214	Generic Femoston 2/10mg tablets 84 tablet
+^ESCTGE861231	Generic Cyclo-Progynova 2mg tablets 21 tablet
+^ESCTGE861247	Generic Cyclo-Progynova 1mg tablets 21 tablet
+^ESCTGE861274	Generic Tridestra tablets 91 tablet
+^ESCTGE861299	Generic Climagest 1mg tablets 28 tablet
+^ESCTGE861301	Generic Climagest 1mg tablets 84 tablet
+^ESCTGE861350	Generic Climagest 2mg tablets 28 tablet
+^ESCTGE861354	Generic Climagest 2mg tablets 84 tablet
+^ESCTGE861384	Generic Adgyn Combi tablets 28 tablet
+^ESCTGE861393	Generic Elleste Duet 1mg tablets 84 tablet
+^ESCTGE861677	Generic Adgyn Combi tablets
+^ESCTGE861685	Generic Climagest 1mg tablets
+^ESCTGE861686	Generic Climagest 2mg tablets
+^ESCTGE861687	Generic Cyclo-Progynova 1mg tablets
+^ESCTGE861688	Generic Cyclo-Progynova 2mg tablets
+^ESCTGE861969	Generic Trisequens tablets 84 tablet
+^ESCTGE862008	Generic Trisequens Forte tablets 84 tablet
+^ESCTGE862028	Generic Elleste Duet 2mg tablets 84 tablet
+^ESCTGE862040	Generic Premique Cycle tablets 84 tablet
+^ESCTGE862093	Generic Trisequens tablets
+^ESCTGE862094	Generic Trisequens Forte tablets
+^ESCTGE862104	Generic Elleste Duet 1mg tablets
+^ESCTGE862105	Generic Elleste Duet 2mg tablets
+^ESCTGE862366	Generic Estracombi TTS transdermal patches
+^ESCTGE862367	Generic Evorel Sequi transdermal patches
+^ESCTGE862368	Generic Femoston 1/10mg tablets
+^ESCTGE862369	Generic Femoston 2/10mg tablets
+^ESCTGE862370	Generic Femoston 2/20mg tablets
+^ESCTGE862372	Generic Hormonin tablets
+^ESCTGE862441	Generic Nuvelle TS transdermal patches
+^ESCTGE862442	Generic Nuvelle tablets
+^ESCTGE862475	Generic Premique Cycle tablets
+^ESCTGE862520	Generic Tridestra tablets
+^ESCTGE867110	Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)
+^ESCTGE867113	Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule
+^ESCTGE868208	Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+^ESCTGE868209	Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd) 10 ampoule
+^ESCTGE870390	Generic Novofem tablets 84 tablet
+^ESCTGE870470	Generic Novofem tablets
+^ESCTGE872209	Generic FemSeven Sequi transdermal patches 4 patch
+^ESCTGE872210	Generic FemSeven Sequi transdermal patches 12 patch
+^ESCTGE872287	Generic FemSeven Sequi transdermal patches
+^ESCTGE874326	Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)
+^ESCTGE874328	Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd) 10 ampoule
+^ESCTGE927693	Generic Clinorette tablets 84 tablet
+^ESCTGE927723	Generic Clinorette tablets
+^ESCTHA802570	Harmogen 1.5mg tablets (Pfizer Ltd)
+^ESCTHA856454	Harmogen 1.5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTHO809012	Hormonin tablets (AMCo)
+^ESCTHO855010	Hormonin tablets (AMCo) 84 tablet 3 x 28 tablets
+^ESCTHY870765	Hydroxyprogesterone 250mg/1ml solution for injection ampoules 3 ampoule
+^ESCTIN864285	Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)
+^ESCTIN864286	Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCTIN864288	Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)
+^ESCTIN864289	Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCTIN865002	Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)
+^ESCTIN865003	Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCTKL858891	Kliovance tablets (Novo Nordisk Ltd)
+^ESCTKL858899	Kliovance tablets (Novo Nordisk Ltd) 84 tablet 3 x 28 tablets
+^ESCTKL858925	Kliofem tablets (Novo Nordisk Ltd)
+^ESCTKL859206	Kliofem tablets (Novo Nordisk Ltd) 84 tablet 3 x 28 tablets
+^ESCTLU1104175	Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)
+^ESCTLU1104176	Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd) 21 pessary 7 x 3 pessaries
+^ESCTME612720	Medroxyprogesterone 10mg tablets
+^ESCTME612722	Medroxyprogesterone acetate 10 mg oral tablet
+^ESCTME612723	Medroxyprogesterone 2.5mg tablets
+^ESCTME612725	Medroxyprogesterone 2.5 mg oral tablet
+^ESCTME612726	Medroxyprogesterone 5mg tablets
+^ESCTME612728	Medroxyprogesterone acetate 5 mg oral tablet
+^ESCTME836927	Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTME840936	Medroxyprogesterone 10mg tablets 10 tablet
+^ESCTME846642	Medroxyprogesterone 5mg tablets 100 tablet
+^ESCTME847206	Medroxyprogesterone 10mg tablets 90 tablet
+^ESCTME847840	Medroxyprogesterone 5mg tablets 14 tablet
+^ESCTME848092	Medroxyprogesterone 5mg tablets 10 tablet
+^ESCTME848341	Medroxyprogesterone 10mg tablets 100 tablet
+^ESCTME857829	Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTME857832	Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTME857952	Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTME857953	Menorest 75 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTME858232	Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTME858239	Menorest 50 patches (Novartis Pharmaceuticals UK Ltd) 8 patch
+^ESCTME865127	Medroxyprogesterone 2.5mg tablets 30 tablet
+^ESCTME878214	Medroxyprogesterone 5mg tablets 40 tablet
+^ESCTME964226	Medroxyprogesterone 10mg tablets 30 tablet
+^ESCTME971337	Medroxyprogesterone 5mg tablets 30 tablet
+^ESCTME977011	Medroxyprogesterone 5mg tablets 60 tablet
+^ESCTMI860021	Micronor HRT 1mg tablets (Janssen-Cilag Ltd)
+^ESCTMI860032	Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 36 tablet 3 strips x 12 tablets
+^ESCTMI865746	Micronor HRT 1mg tablets (Janssen-Cilag Ltd) 12 tablet
+^ESCTNO1041776	Norethisterone 5mg tablets (Waymade Healthcare Plc)
+^ESCTNO1041777	Norethisterone 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTNO1118326	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNO1118327	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTNO1126995	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNO1126996	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTNO612729	Norethisterone 5mg tablets
+^ESCTNO612732	Norethisterone 5 mg oral tablet
+^ESCTNO612733	Norethindrone 5 mg oral tablet
+^ESCTNO612735	Norethisterone 1mg tablets
+^ESCTNO612738	Norethisterone 1 mg oral tablet
+^ESCTNO612739	Norethindrone 1 mg oral tablet
+^ESCTNO802211	Norethisterone 5mg tablets (Sandoz Ltd)
+^ESCTNO804509	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO806991	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO824484	Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNO825123	Norethisterone 5mg tablets (Actavis UK Ltd)
+^ESCTNO827284	Norethisterone 5mg tablets (Wockhardt UK Ltd)
+^ESCTNO840544	Norethisterone 5mg tablets 90 tablet
+^ESCTNO846950	Norethisterone 5mg tablets 30 tablet
+^ESCTNO853448	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853451	Norethisterone 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853462	Norethisterone 5mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO853474	Norethisterone 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO853499	Norethisterone 5mg tablets (Sandoz Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO853556	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTNO860017	Norethisterone 1mg tablets 36 tablet
+^ESCTNO865745	Norethisterone 1mg tablets 12 tablet
+^ESCTNO870391	Novofem tablets (Novo Nordisk Ltd)
+^ESCTNO870392	Novofem tablets (Novo Nordisk Ltd) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTNO982476	Norethisterone 5mg/5ml oral suspension 1 ml
+^ESCTNO982477	Norethisterone 5mg/5ml oral suspension (Special Order)
+^ESCTNO982478	Norethisterone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNO982514	Norethisterone 5mg/5ml oral suspension
+^ESCTNU858975	Nuvelle Continuous tablets (Bayer Plc)
+^ESCTNU858976	Nuvelle Continuous tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCTNU860040	Nuvelle tablets (Bayer Plc)
+^ESCTNU860050	Nuvelle tablets (Bayer Plc) 84 tablet 3 x (16 tablets + 12 tablets)
+^ESCTNU860151	Nuvelle TS patches (Schering Health Care Ltd)
+^ESCTNU860153	Nuvelle TS patches (Schering Health Care Ltd) 8 patch 4 patches + 4 patches
+^ESCTOE450883	Oestradiol hemihydrate 150micrograms nasal spray
+^ESCTOE612680	Oestradiol 25mg implant
+^ESCTOE612682	Oestradiol 50mg implant
+^ESCTOE612684	Oestradiol 100mg implant
+^ESCTOE612710	Oestradiol 0.06% gel
+^ESCTOE861769	Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)
+^ESCTOE861773	Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd) 80 gram
+^ESCTOV865211	Ovestin 1mg tablets (Organon Laboratories Ltd)
+^ESCTOV865212	Ovestin 1mg tablets (Organon Laboratories Ltd) 30 tablet
+^ESCTPI612702	Piperazine estrone sulfate 1.5 mg oral tablet
+^ESCTPR1005436	Progesterone 2% in Aqueous cream 1 gram
+^ESCTPR1005437	Progesterone 2% in Aqueous cream (Special Order)
+^ESCTPR1005438	Progesterone 2% in Aqueous cream (Special Order) 1 gram
+^ESCTPR1005456	Progesterone 2% in Aqueous cream
+^ESCTPR1033642	Progesterone 2.34% cream 60 gram
+^ESCTPR1033650	Progesterone 2.34% cream
+^ESCTPR1049665	Progesterone micronised 200mg vaginal capsules 21 capsule
+^ESCTPR1049727	Progesterone micronised 200mg vaginal capsules
+^ESCTPR1061690	Progesterone 25mg/1.119ml solution for injection vials
+^ESCTPR1061694	Progesterone 25mg/1.119ml solution for injection vials 7 vial
+^ESCTPR1104174	Progesterone 100mg pessaries 21 pessary
+^ESCTPR1104348	Progesterone 100mg pessaries
+^ESCTPR1159886	Progesterone 100mg/1ml solution for injection ampoules 1 ampoule
+^ESCTPR1159887	Progesterone 100mg/1ml solution for injection ampoules (Special Order)
+^ESCTPR1159888	Progesterone 100mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTPR1160191	Progesterone 100mg/1ml solution for injection ampoules
+^ESCTPR612625	Product containing ethinyl estradiol 0.01 milligram/1 each oral tablet
+^ESCTPR612626	Product containing ethinylestradiol 0.01 milligram/1 each oral tablet
+^ESCTPR612630	Product containing ethinyl estradiol 0.05 milligram/1 each oral tablet
+^ESCTPR612631	Product containing ethinylestradiol 0.05 milligram/1 each oral tablet
+^ESCTPR612633	Product containing ethinylestradiol 1 mg/1 each oral tablet
+^ESCTPR612634	Product containing ethinyl estradiol 1 mg/1 each oral tablet
+^ESCTPR612652	Product containing estradiol valerate 1 mg/1 each oral tablet
+^ESCTPR612665	Product containing estradiol valerate 2 mg/1 each oral tablet
+^ESCTPR612686	Product containing estradiol 1 mg/1 each oral tablet
+^ESCTPR612689	Product containing estradiol 2 mg/1 each oral tablet
+^ESCTPR612692	Product containing estriol 1 mg/1 each oral tablet
+^ESCTPR612695	Product containing conjugated estrogens 0.625 mg/1 each oral tablet
+^ESCTPR612698	Product containing conjugated estrogens 1.25 mg/1 each oral tablet
+^ESCTPR612701	Product containing piperazine estrone sulfate 1.5 mg/1 each oral tablet
+^ESCTPR612721	Product containing medroxyprogesterone acetate 10 mg/1 each oral tablet
+^ESCTPR612724	Product containing medroxyprogesterone 2.5 mg/1 each oral tablet
+^ESCTPR612727	Product containing medroxyprogesterone acetate 5 mg/1 each oral tablet
+^ESCTPR612730	Product containing norethindrone 5 mg/1 each oral tablet
+^ESCTPR612731	Product containing norethisterone 5 mg/1 each oral tablet
+^ESCTPR612736	Product containing norethindrone 1 mg/1 each oral tablet
+^ESCTPR612737	Product containing norethisterone 1 mg/1 each oral tablet
+^ESCTPR612743	Progesterone 4% vaginal gel 1.125g applicators
+^ESCTPR612744	Progesterone 4% vaginal gel
+^ESCTPR612745	Progesterone 8% vaginal gel 1.125g applicators
+^ESCTPR612746	Progesterone 8% vaginal gel
+^ESCTPR612747	Progesterone 90mg gel
+^ESCTPR612758	Product containing estradiol 2 mg and norethisterone acetate 1 mg/1 each oral tablet
+^ESCTPR612759	Product containing estradiol 2 mg and norethindrone acetate 1 mg/1 each oral tablet
+^ESCTPR612763	Product containing estradiol valerate 2 mg and norethisterone 0.7 mg/1 each oral tablet
+^ESCTPR612764	Product containing estradiol valerate 2 mg and norethindrone 0.7 mg/1 each oral tablet
+^ESCTPR612768	Product containing estradiol 1 mg and norethisterone acetate 0.5 mg/1 each oral tablet
+^ESCTPR612769	Product containing estradiol 1 mg and norethindrone acetate 0.5 mg/1 each oral tablet
+^ESCTPR664273	Product containing conjugated estrogens 0.625 milligram and norgestrel 0.15 milligram/1 each oral tablet
+^ESCTPR677332	Product containing conjugated estrogens 0.3 mg/1 each oral tablet
+^ESCTPR708199	Product containing conjugated estrogens 2.5 mg/1 each oral tablet
+^ESCTPR801529	Premarin 0.625mg tablets (Pfizer Ltd)
+^ESCTPR806861	Primolut N 5mg tablets (Bayer Plc)
+^ESCTPR808844	Provera 5mg tablets (Pfizer Ltd)
+^ESCTPR819915	Premarin 1.25mg tablets (Pfizer Ltd)
+^ESCTPR820001	Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)
+^ESCTPR821077	Premique 0.625mg/5mg tablets (Pfizer Ltd)
+^ESCTPR832207	Provera 10mg tablets (Pfizer Ltd)
+^ESCTPR839743	Progesterone 400mg pessaries 15 pessary
+^ESCTPR853539	Primolut N 5mg tablets (Bayer Plc) 30 tablet 3 x 10 tablets
+^ESCTPR855004	Provera 10mg tablets (Pfizer Ltd) 10 tablet
+^ESCTPR855006	Provera 10mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets
+^ESCTPR855007	Provera 10mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets
+^ESCTPR855021	Provera 5mg tablets (Pfizer Ltd) 10 tablet
+^ESCTPR855022	Provera 5mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets
+^ESCTPR856757	Premarin 0.625mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR856759	Premarin 1.25mg tablets (Pfizer Ltd) 84 tablet 6 x 14 tablets
+^ESCTPR856823	Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd) 120 tablet 3 x (28 tablets + 12 tablets)
+^ESCTPR856957	Premique 0.625mg/5mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR857497	Progynova 2mg tablets (Bayer Plc)
+^ESCTPR857498	Progynova 2mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCTPR857504	Progynova 1mg tablets (Bayer Plc)
+^ESCTPR857505	Progynova 1mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCTPR858198	Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)
+^ESCTPR858202	Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc) 12 patch
+^ESCTPR858284	Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)
+^ESCTPR858287	Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc) 12 patch
+^ESCTPR862041	Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)
+^ESCTPR862042	Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCTPR862150	Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)
+^ESCTPR862163	Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd) 120 tablet 3 x (28 tablets + 12 tablets)
+^ESCTPR865132	Provera 2.5mg tablets (Pfizer Ltd)
+^ESCTPR865136	Provera 2.5mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR865520	Progesterone 200mg pessaries 15 pessary
+^ESCTPR867108	Progesterone 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPR867123	Progesterone 4% vaginal gel 1.125g applicators 6 unit dose
+^ESCTPR868058	Progesterone 8% vaginal gel 1.125g applicators 15 unit dose
+^ESCTPR868207	Progesterone 100mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPR870768	Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)
+^ESCTPR870769	Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd) 3 ampoule
+^ESCTPR870836	Premarin 2.5mg tablets (Wyeth Pharmaceuticals)
+^ESCTPR870837	Premarin 2.5mg tablets (Wyeth Pharmaceuticals) 84 tablet
+^ESCTPR874324	Progesterone 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPR874327	Progesterone 25mg/1ml solution for injection ampoules
+^ESCTPR896536	Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)
+^ESCTPR896537	Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR940138	Premarin 0.3mg tablets (Pfizer Ltd)
+^ESCTPR940140	Premarin 0.3mg tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR942801	Progesterone micronised 100mg capsules 30 capsule
+^ESCTPR942807	Progesterone micronised 200mg capsules 15 capsule
+^ESCTPR942845	Progesterone micronised 100mg capsules
+^ESCTPR942846	Progesterone micronised 200mg capsules
+^ESCTSA863168	Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)
+^ESCTSA863169	Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd) 28 sachet
+^ESCTSA863175	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)
+^ESCTSA863177	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd) 28 sachet
+^ESCTSA863179	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd) 91 sachet
+^ESCTSE1033643	Serenity Natural Progesterone cream (Imported (United States))
+^ESCTSE1033644	Serenity Natural Progesterone cream (Imported (United States)) 60 gram
+^ESCTTR861275	Tridestra tablets (Orion Pharma (UK) Ltd)
+^ESCTTR861279	Tridestra tablets (Orion Pharma (UK) Ltd) 91 tablet 1 x (70 tabs+14 tabs+7 tabs)
+^ESCTTR861971	Trisequens tablets (Novo Nordisk Ltd)
+^ESCTTR861973	Trisequens tablets (Novo Nordisk Ltd) 84 tablet 3 x (12tabs + 10tabs + 6tabs)
+^ESCTTR862010	Trisequens Forte tablets (Novo Nordisk Ltd)
+^ESCTTR862012	Trisequens Forte tablets (Novo Nordisk Ltd) 84 tablet 3x(12 tabs + 10 tabs + 6 tabs)
+^ESCTUT1049666	Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)
+^ESCTUT1049667	Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd) 21 capsule 3 x 7 capsules
+^ESCTUT808155	Utovlan 5mg tablets (Pfizer Ltd)
+^ESCTUT853513	Utovlan 5mg tablets (Pfizer Ltd) 30 tablet 2 x 15 tablets
+^ESCTUT853524	Utovlan 5mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets
+^ESCTUT942802	Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)
+^ESCTUT942803	Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCTUT942808	Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)
+^ESCTUT942809	Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd) 15 capsule
+^ESCTZU857425	Zumenon 2mg tablets (Mylan Ltd)
+^ESCTZU857427	Zumenon 2mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets
+^ESCTZU857467	Zumenon 1mg tablets (Mylan Ltd)
+^ESCTZU857490	Zumenon 1mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets
+ADTA5074NEMIS	Adgyn Estro  Tablets  2 mg
+ADTA5077NEMIS	Adgyn Combi  Tablets  
+ADTA5079NEMIS	Adgyn Medro  Tablets  5 mg
+AENA6635NEMIS	Aerodiol  Nasal spray  150 micrograms/metered spray
+ANTA20250NEMIS	Angeliq  Tablets  1 mg + 2 mg
+BETA22322NEMIS	Bedol  Tablets  2 mg
+BICA140375NEMIS	NULL
+CLTA22320NEMIS	Clinorette  Tablets  
+CLTA22324NEMIS	Climanor  Tablets  5 mg
+CLTA22608EMIS	Climagest 1 Mg  Tablets  
+CLTA23918EMIS	Climagest 2 Mg  Tablets  
+CLTA28306EMIS	Climesse  Tablets  
+CLTA9344EMIS	Climaval  Tablets  1 mg
+CLTA9345EMIS	Climaval  Tablets  2 mg
+COM/123284NEMIS	Conjugated Oestrogens And Bazedoxifene  M/R tablets  450 micrograms + 20 mg
+COTA18950NEMIS	Conjugated Oestrogens And Medroxyprogesterone  Tablets  625 micrograms + 5 mg
+COTA18951NEMIS	Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg
+COTA18953NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  625 micrograms + 150 micrograms
+COTA18954NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  1.25 mg + 150 micrograms
+COTA25049NEMIS	Conjugated Oestrogens  Tablets  300 micrograms
+COTA33808EMIS	Conjugated Oestrogens  Tablets  2.5 mg
+COTA34620MGEMIS	Conjugated Oestrogens  Tablets  1.25 mg (Wyeth)
+COTA34621MGEMIS	Conjugated Oestrogens  Tablets  625 micrograms (Wyeth)
+COTA723	Conjugated Oestrogens  Tablets  1.25 mg
+COTA724	Conjugated Oestrogens  Tablets  625 micrograms
+CRVA31938EMIS	Crinone  Vaginal gel  4 %
+CRVA31940EMIS	Crinone  Vaginal gel  8 %
+CYPE10822NEMIS	Cyclogest  Pessaries  200 mg
+CYPE10823NEMIS	Cyclogest  Pessaries  400 mg
+CYTA10113BRIDL	Cyclo-Progynova 1 Mg  Tablets  
+CYTA775	Cyclo-Progynova 2 Mg  Tablets  
+DETR30518EMIS	Dermestril  Transdermal patches  100 micrograms/24 hrs
+DETR30519EMIS	Dermestril  Transdermal patches  25 micrograms/24 hrs
+DETR30520EMIS	Dermestril  Transdermal patches  50 micrograms/24 hrs
+DETR5677NEMIS	Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs
+DETR5678NEMIS	Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs
+DUM/123287NEMIS	Duavive  M/R tablets  450 micrograms + 20 mg
+ELTA28287EMIS	Elleste-Solo  Tablets  1 mg
+ELTA28288EMIS	Elleste-Solo  Tablets  2 mg
+ELTA28291EMIS	Elleste Duet 2 Mg  Tablets  
+ELTA30208EMIS	Elleste Duet 1 Mg  Tablets  
+ELTA31986EMIS	Elleste Duet Conti  Tablets  
+ELTR31592EMIS	Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs
+ELTR31593EMIS	Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs
+ESCA140373NEMIS	NULL
+ESGE17750NEMIS	Estradiol  Gel  0.06 % pump-pack
+ESGE17771NEMIS	Estradiol  Gel  1 mg/1 gram sachet
+ESGE17772NEMIS	Estradiol  Gel  500 micrograms/500 mg sachet
+ESIM17751NEMIS	Estradiol  Implant  100 mg
+ESIM17752NEMIS	Estradiol  Implant  25 mg
+ESIM17753NEMIS	Estradiol  Implant  50 mg
+ESIM38189MGEMIS	Estradiol  Implant  100 mg (A.A.H. Pharm)
+ESIM38190MGEMIS	Estradiol  Implant  100 mg (Organon)
+ESIM38191MGEMIS	Estradiol  Implant  100 mg (Unichem)
+ESIM38192MGEMIS	Estradiol  Implant  25 mg (A.A.H. Pharm)
+ESIM38193MGEMIS	Estradiol  Implant  25 mg (Organon)
+ESIM38194MGEMIS	Estradiol  Implant  25 mg (Unichem)
+ESIM38195MGEMIS	Estradiol  Implant  50 mg (A.A.H. Pharm)
+ESIM38196MGEMIS	Estradiol  Implant  50 mg (Organon)
+ESIM38197MGEMIS	Estradiol  Implant  50 mg (Unichem)
+ESNA17773NEMIS	Estradiol  Nasal spray  150 micrograms/actuation
+ESPA18937NEMIS	Estradiol And Norethisterone Acetate  Patches  50 micrograms + 170 micrograms/24 hours
+ESPA18939NEMIS	Estradiol And Norethisterone  Patches And Tablets  50 micrograms/24 hours + 1 mg
+ESPA18941NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  40 micrograms/24 hours + 10 mg
+ESPA18942NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  80 micrograms/24 hours + 10 mg
+ESPA18982NEMIS	Estradiol And Levonorgestrel  Patches (7 days)  50 micrograms + 7 micrograms/24 hours
+ESPA20472EMIS	Estracombi Tts  Patches  
+ESPA8671EGTON	Estraderm Tts  Transdermal patches  100 micrograms/24 hrs
+ESPA8672EGTON	Estraderm Tts  Transdermal patches  25 micrograms/24 hrs
+ESPA8673EGTON	Estraderm Tts  Transdermal patches  50 micrograms/24 hrs
+ESTA1120NEMIS	Estropipate  Tablets  1.5 mg
+ESTA17754NEMIS	Estradiol  Tablets  1 mg
+ESTA17755NEMIS	Estradiol  Tablets  2 mg
+ESTA17776NEMIS	Estradiol Valerate  Tablets  1 mg
+ESTA17777NEMIS	Estradiol Valerate  Tablets  2 mg
+ESTA17783NEMIS	Estriol  Tablets  1 mg
+ESTA18932NEMIS	Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms
+ESTA18936NEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg
+ESTA18943NEMIS	Estradiol And Dydrogesterone  Tablets  1 mg + 5 mg
+ESTA18945NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg
+ESTA18946NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg
+ESTA18947NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg
+ESTA18948NEMIS	Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms
+ESTA20248NEMIS	Estradiol And Drospirenone  Tablets  1 mg + 2 mg
+ESTA38198MGEMIS	Estradiol  Tablets  1 mg (Solvay Healthcare)
+ESTA38199MGEMIS	Estradiol  Tablets  1 mg (Pfizer)
+ESTA38200MGEMIS	Estradiol  Tablets  1 mg (Novo-Nordisk)
+ESTA38201MGEMIS	Estradiol  Tablets  2 mg (Solvay Healthcare)
+ESTA38202MGEMIS	Estradiol  Tablets  2 mg (Strakan)
+ESTA38203MGEMIS	Estradiol  Tablets  2 mg (Novo-Nordisk)
+ESTA38204MGEMIS	Estradiol  Tablets  2 mg (Pfizer)
+ESTA38205MGEMIS	Estradiol Valerate  Tablets  1 mg (Viatris Pharms)
+ESTA38206MGEMIS	Estradiol Valerate  Tablets  1 mg (Novartis Pharm)
+ESTA38207MGEMIS	Estradiol Valerate  Tablets  2 mg (Schering Health Care Ltd)
+ESTA38208MGEMIS	Estradiol Valerate  Tablets  2 mg (Viatris Pharms)
+ESTA38209MGEMIS	Estradiol Valerate  Tablets  2 mg (Orion Pharma)
+ESTA38210MGEMIS	Estradiol Valerate  Tablets  2 mg (Novartis Pharm)
+ESTA38211MGEMIS	Estradiol Valerate  Tablets  2 mg (Merck)
+ESTA38331MGEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Novo-Nordisk)
+ESTA38332MGEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Pfizer)
+ESTA76935NEMIS	Estradiol And Dydrogesterone  Tablets  500 micrograms + 2.5 mg
+ESTA8374EGTON	Estrapak 50  Tablets and patches  
+ESTR136000NEMIS	Estradiol  Transdermal Spray  1.53 mg/dose
+ESTR17758NEMIS	Estradiol  Transdermal patches  100 micrograms/24 hrs
+ESTR17759NEMIS	Estradiol  Transdermal patches  25 micrograms/24 hrs
+ESTR17760NEMIS	Estradiol  Transdermal patches  40 micrograms/24 hrs
+ESTR17761NEMIS	Estradiol  Transdermal patches  50 micrograms/24 hrs
+ESTR17763NEMIS	Estradiol  Transdermal patches  75 micrograms/24 hrs
+ESTR17764NEMIS	Estradiol  Transdermal patches  80 micrograms/24 hrs
+ESTR17766NEMIS	Estradiol  Transdermal patches (7 days)  100 micrograms/24 hrs
+ESTR17767NEMIS	Estradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+ESTR17768NEMIS	Estradiol  Transdermal patches (7 days)  75 micrograms/24 hrs
+ESTR19386NEMIS	Estradiol  Transdermal patches  37.5 micrograms/24 hrs
+ESTR19388NEMIS	Estradot  Transdermal patches  25 micrograms/24 hrs
+ESTR19389NEMIS	Estradot  Transdermal patches  37.5 micrograms/24 hrs
+ESTR19390NEMIS	Estradot  Transdermal patches  50 micrograms/24 hrs
+ESTR19391NEMIS	Estradot  Transdermal patches  75 micrograms/24 hrs
+ESTR19392NEMIS	Estradot  Transdermal patches  100 micrograms/24 hrs
+ESTR28297EMIS	Estraderm Mx  Transdermal patches  100 micrograms/24 hrs
+ESTR28298EMIS	Estraderm Mx  Transdermal patches  25 micrograms/24 hrs
+ESTR28299EMIS	Estraderm Mx  Transdermal patches  50 micrograms/24 hrs
+ESTR397NEMIS	Estraderm Mx  Transdermal patches  75 micrograms/24 hrs
+ETGA139398NEMIS	NULL
+ETTA1118	Ethinyloestradiol  Tablets  10 micrograms
+ETTA17649NEMIS	Ethinylestradiol  Tablets  10 micrograms
+ETTA17650NEMIS	Ethinylestradiol  Tablets  50 micrograms
+ETTA17651NEMIS	Ethinylestradiol  Tablets  1 mg
+ETTA17652NEMIS	Ethinylestradiol  Tablets  2 micrograms
+ETTA3550	Ethinyloestradiol  Tablets  50 micrograms
+ETTA38107MGEMIS	Ethinylestradiol  Tablets  10 micrograms (Unichem)
+ETTA38108MGEMIS	Ethinylestradiol  Tablets  10 micrograms (Ucb Pharma)
+ETTA38109MGEMIS	Ethinylestradiol  Tablets  10 micrograms (A.A.H. Pharm)
+ETTA38110MGEMIS	Ethinylestradiol  Tablets  50 micrograms (A.A.H. Pharm)
+ETTA38111MGEMIS	Ethinylestradiol  Tablets  50 micrograms (Ucb Pharma)
+ETTA38112MGEMIS	Ethinylestradiol  Tablets  50 micrograms (Unichem)
+ETTA38113MGEMIS	Ethinylestradiol  Tablets  1 mg (A.A.H. Pharm)
+ETTA38114MGEMIS	Ethinylestradiol  Tablets  1 mg (Ucb Pharma)
+ETTA38115MGEMIS	Ethinylestradiol  Tablets  1 mg (Unichem)
+ETTA9080BRIDL	Ethinyloestradiol  Tablets  1 mg
+EVTA25472EMIS	Evorel-Pak  Tablets and patches  
+EVTR22315EMIS	Evorel  Transdermal patches  50 micrograms/24 hrs
+EVTR26441EMIS	Evorel  Transdermal patches  100 micrograms/24 hrs
+EVTR26442EMIS	Evorel  Transdermal patches  25 micrograms/24 hrs
+EVTR26443EMIS	Evorel  Transdermal patches  75 micrograms/24 hrs
+EVTR31384EMIS	Evorel Sequi  Transdermal patches  
+EVTR31391EMIS	Evorel Conti  Transdermal patches  
+FETA15852NEMIS	Femtab  Tablets  1 mg
+FETA15853NEMIS	Femtab  Tablets  2 mg
+FETA15855NEMIS	Femtab Sequi  Tablets  
+FETA15858NEMIS	Femtab Continuous  Tablets  
+FETA1987NEMIS	Femoston-Conti  Tablets  1 mg + 5 mg
+FETA26908EMIS	Femoston 2/10  Tablets  
+FETA26911EMIS	Femoston 2/20  Tablets  
+FETA27492EMIS	Femoston 1/10  Tablets  
+FETA28124EMIS	Femapak 80  Tablets and patches  
+FETA28504EMIS	Femapak 40  Tablets and patches  
+FETA76936NEMIS	Femoston-Conti  Tablets  500 micrograms + 2.5 mg
+FETR13850NEMIS	Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours
+FETR14417NEMIS	Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours
+FETR26606EMIS	Fematrix 80  Transdermal patches  80 micrograms/24 hrs
+FETR28091EMIS	Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs
+FETR28119EMIS	Fematrix 40  Transdermal patches  40 micrograms/24 hrs
+FETR31721EMIS	Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs
+FETR31722EMIS	Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs
+GEIN1296	Gestone  Injection  25 mg/1 ml ampoule
+GEIN1297	Gestone  Solution for injection  50 mg/1 ml ampoule
+GEIN25431EMIS	Gestone  Solution for injection  100 mg/2 ml ampoule
+HATA1350	Harmogen  Tablets  1.5 mg
+HOTA3705	Hormonin  Tablets  
+HYIN1407	Hydroxyprogesterone Hexanoate  Injection  250 mg/ml
+INTA5652NEMIS	Indivina  Tablets  1 mg + 2.5 mg
+INTA5653NEMIS	Indivina  Tablets  1 mg + 5 mg
+INTA5654NEMIS	Indivina  Tablets  2 mg + 5 mg
+KLTA26493EMIS	Kliofem  Tablets  
+KLTA34182EMIS	Kliovance  Tablets  
+LETR136004NEMIS	Lenzetto  Transdermal Spray  1.53 mg/dose
+LUSO130306NEMIS	Lubion  Solution for injection  25 mg/1.112 ml vial
+LUSO88120NEMIS	Lubion  Solution for injection  25 mg/1.119 ml vial
+LUVA98867NEMIS	Lutigest  Vaginal tablets  100 mg
+META1749	Medroxyprogesterone Acetate  Tablets  5 mg
+META23818EMIS	Medroxyprogesterone Acetate  Tablets  2.5 mg
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+METR27688EMIS	Menorest  Transdermal patches  37.5 micrograms/day
+METR27689EMIS	Menorest  Transdermal patches  50 micrograms/day
+METR27690EMIS	Menorest  Transdermal patches  75 micrograms/day
+MITA25447EMIS	Micronor-Hrt  Tablets  1 mg
+NOTA12924NEMIS	Novofem  Tablets  
+NOTA2023	Norethisterone  Tablets  5 mg
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+NOTA36283MGEMIS	Norethisterone  Tablets  5 mg (Sandoz)
+NOTA36284MGEMIS	Norethisterone  Tablets  5 mg (Unichem)
+NOTA36285MGEMIS	Norethisterone  Tablets  5 mg (A.A.H. Pharm)
+NOTA36286MGEMIS	Norethisterone  Tablets  5 mg (Kent Pharm)
+NOTA36287MGEMIS	Norethisterone  Tablets  5 mg (Alpharma)
+NOTA36288MGEMIS	Norethisterone  Tablets  5 mg (Wockhardt UK)
+NUTA17981EMIS	Nuvelle  Tablets  
+NUTA399NEMIS	Nuvelle Continuous  Tablets  
+NUTR30362EMIS	Nuvelle Ts  Transdermal patches  
+OEGE26580EMIS	Oestrogel  Gel  0.06 % pump-pack
+OEGE26582EMIS	Oestradiol  Gel  0.06 %
+OENA6633NEMIS	Oestradiol Hemihydrate  Nasal spray  150 micrograms/metered spray
+OETA20668EMIS	Oestradiol  Tablets  2 mg
+OETA2070	Oestradiol Benzoate  Tablets  1 mg
+OETA23840EMIS	Oestriol  Tablets  1 mg
+OETA28293EMIS	Oestradiol  Tablets  1 mg
+OETA9400EMIS	Oestradiol Valerate  Tablets  1 mg
+OETA9401EMIS	Oestradiol Valerate  Tablets  2 mg
+OETR22319EMIS	Oestradiol  Transdermal patches  100 micrograms/24 hrs
+OETR22320EMIS	Oestradiol  Transdermal patches  25 micrograms/24 hrs
+OETR22321EMIS	Oestradiol  Transdermal patches  50 micrograms/24 hrs
+OETR26610EMIS	Oestradiol  Transdermal patches  80 micrograms/24 hrs
+OETR28121EMIS	Oestradiol  Transdermal patches  40 micrograms/24 hrs
+OETR28192EMIS	Oestradiol  Transdermal patches (7 days)  100 micrograms/24 hrs
+OETR28193EMIS	Oestradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+OETR31728EMIS	Oestradiol  Transdermal patches (7 days)  75 micrograms/24 hrs
+OETR5676NEMIS	Oestradiol  Transdermal patches (7 days)  25 micrograms/24 hrs
+OVTA23838EMIS	Ovestin  Tablets  1 mg
+PRCA26229NEMIS	Progesterone  Capsules (Micronised)  200 mg
+PRCA26231NEMIS	Progesterone  Capsules (Micronised)  100 mg
+PRIN2366	Progesterone  Injection  25 mg/1 ml ampoule
+PRIN2367	Progesterone  Solution for injection  50 mg/1 ml ampoule
+PRIN2373	Proluton Depot  Injection  250 mg/ml
+PRIN25433EMIS	Progesterone  Solution for injection  100 mg/2 ml ampoule
+PRPE10820NEMIS	Progesterone  Pessaries  200 mg
+PRPE10821NEMIS	Progesterone  Pessaries  400 mg
+PRPE98865NEMIS	Progesterone  Pessaries  100 mg
+PRSO130305NEMIS	Progesterone  Solution for injection  25 mg/1.112 ml vial
+PRSO88118NEMIS	Progesterone  Solution for injection  25 mg/1.119 ml vial
+PRTA17460NEMIS	Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg
+PRTA2336	Premarin  Tablets  1.25 mg
+PRTA2337	Premarin  Tablets  625 micrograms
+PRTA2340	Prempak-C 0.625 mg + 0.15 mg  Tablets  
+PRTA2341	Prempak-C 1.25 mg + 0.15 mg  Tablets  
+PRTA2347	Primolut N  Tablets  5 mg
+PRTA2371	Progynova  Tablets  1 mg
+PRTA2372	Progynova  Tablets  2 mg
+PRTA23816EMIS	Provera  Tablets  2.5 mg
+PRTA2405	Provera  Tablets  5 mg
+PRTA25050NEMIS	Premarin  Tablets  300 micrograms
+PRTA27092EMIS	Premique  Tablets  0.625 mg + 5 mg
+PRTA27095EMIS	Premique Cycle  Tablets  
+PRTA9008EMIS	Provera  Tablets  10 mg
+PRTA9077BRIDL	Premarin  Tablets  2.5 mg
+PRTR12936NEMIS	Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours
+PRTR12939NEMIS	Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours
+PRTR28187EMIS	Progynova Ts  Transdermal patches (7 days)  50 micrograms/24 hrs
+PRTR28189EMIS	Progynova Ts Forte  Transdermal patches (7 days)  100 micrograms/24 hrs
+PRVA31943EMIS	Progesterone  Vaginal gel  4 %
+PRVA31944EMIS	Progesterone  Vaginal gel  8 %
+PRVA82059NEMIS	Progesterone  Vaginal Capsules (Micronised)  200 mg
+SAGE30742EMIS	Sandrena  Gel  1 mg/1 gram sachet
+SAGE30743EMIS	Sandrena  Gel  500 micrograms/500 mg sachet
+TRCA4464	Trisequens  Calendar pack  
+TRTA20213EMIS	Trisequens Forte  Tablets  
+TRTA26679EMIS	Tridestra  Tablets  
+UTCA26233NEMIS	Utrogestan  Capsules (Micronised)  200 mg
+UTCA26234NEMIS	Utrogestan  Capsules (Micronised)  100 mg
+UTTA4483	Utovlan  Tablets  5 mg
+UTVA82060NEMIS	Utrogestan  Vaginal Capsules With Applicators  200 mg
+ZUTA20666EMIS	Zumenon  Tablets  2 mg
+ZUTA29671EMIS	Zumenon  Tablets  1 mg

@@ -14,20 +14,7 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+--> EXECUTE query-get-possible-patients.sql
 
 -- Set the date variables for the LTC code
 
@@ -81,14 +68,16 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
 
-
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
-
+AND EventDate <= @EndDate
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -102,7 +91,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND EventDate < '2022-06-01';
 
 
 --> EXECUTE query-patient-sex.sql
@@ -111,7 +101,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 --> EXECUTE query-patient-bmi.sql gp-events-table:#PatientEventData
 --> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
 --> EXECUTE query-patient-care-home-resident.sql
-
+--> EXECUTE query-patient-practice-and-ccg.sql
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:RLS.vw_GP_Medications
 
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
@@ -215,7 +205,7 @@ GROUP BY FK_Patient_Link_ID
 
 ------------------------------- OBSERVATIONS -------------------------------------
 
---> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 hba1c:2
+--> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 hba1c:2 height:1 weight:1
 --> CODESET cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 triglycerides:1 egfr:1
 
 -- CREATE TABLE OF OBSERVATIONS REQUESTED BY THE PI
@@ -226,19 +216,18 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value]),
-	[Units]
+	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #observations
 FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
 	((gp.FK_Reference_SnomedCT_ID IN (
-		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 )
+		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets sn WHERE sn.Concept In ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR sn.Concept IN ('hba1c', 'cholesterol') AND sn.[Version] = 2 )
 		OR (gp.FK_Reference_Coding_ID   IN (
-		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 ))
+		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets co WHERE co.Concept In ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR co.Concept IN ('hba1c', 'cholesterol') AND co.[Version] = 2 ))
 
 	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
@@ -248,15 +237,13 @@ WHERE
 
 IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Units], [Version]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value]
 into #all_observations
 from #observations
-except
-select FK_Patient_Link_ID, EventDate, Concept, [Value], [Units], [Version] from #observations 
-where 
-	(Concept = 'cholesterol' and [Version] <> 2) OR -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
-	(Concept = 'hba1c' and [Version] <> 2) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
-	AND [Value] > 0
+WHERE 
+	((Concept in ('height', 'weight', 'systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) OR
+	(Concept IN ('cholesterol', 'hba1c') AND [Version] = 2)) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
+	AND [Value] > 0 AND [Value] <> '0.00000' 
 
 -- FIND CLOSEST OBSERVATIONS BEFORE AND AFTER FIRST COVID POSITIVE DATE
 
@@ -281,7 +268,6 @@ SELECT o.FK_Patient_Link_ID,
 	o.EventDate, 
 	o.Concept, 
 	o.[Value], 
-	o.[Units],
 	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
 	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
 INTO #closest_observations
@@ -295,6 +281,10 @@ WHERE bef.MostRecentDate = o.EventDate OR aft.MostRecentDate = o.EventDate
 IF OBJECT_ID('tempdb..#observations_wide') IS NOT NULL DROP TABLE #observations_wide;
 SELECT
 	 FK_Patient_Link_ID
+	,height_1 = MAX(CASE WHEN [Concept] = 'height' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
+	,height_1_dt = MAX(CASE WHEN [Concept] = 'height' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,weight_1 = MAX(CASE WHEN [Concept] = 'weight' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
+	,weight_1_dt = MAX(CASE WHEN [Concept] = 'weight' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
 	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
 	,SystolicBP_2 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
@@ -332,23 +322,64 @@ FROM #closest_observations
 WHERE ROW_NUM = 1
 GROUP BY FK_Patient_Link_ID
 
+-- create table of height and weight measurements
+
+IF OBJECT_ID('tempdb..#height_weight') IS NOT NULL DROP TABLE #height_weight;
+SELECT FK_Patient_Link_ID, [Value], EventDate, Concept
+INTO #height_weight
+FROM #all_observations
+WHERE Concept in ('height', 'weight')
+	AND EventDate <= @IndexDate
+
+-- For height and weight we want closest prior to index date
+IF OBJECT_ID('tempdb..#TempCurrentHeightWeight') IS NOT NULL DROP TABLE #TempCurrentHeightWeight;
+SELECT 
+	a.FK_Patient_Link_ID, 
+	a.Concept,
+	Max([Value]) as [Value],
+	Max(EventDate) as EventDate
+INTO #TempCurrentHeightWeight
+FROM #height_weight a
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
+	FROM #height_weight
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
+GROUP BY a.FK_Patient_Link_ID, a.Concept;
+
+-- bring together in a table that can be joined to
+IF OBJECT_ID('tempdb..#PatientHeightWeight') IS NOT NULL DROP TABLE #PatientHeightWeight;
+SELECT 
+	p.FK_Patient_Link_ID,
+	height = MAX(CASE WHEN c.Concept = 'height' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	height_dt = MAX(CASE WHEN c.Concept = 'height' THEN EventDate ELSE NULL END),
+	weight = MAX(CASE WHEN c.Concept = 'weight' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	weight_dt = MAX(CASE WHEN c.Concept = 'weight' THEN EventDate ELSE NULL END)
+INTO #PatientHeightWeight
+FROM #Cohort p
+LEFT OUTER JOIN #TempCurrentHeightWeight c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY p.FK_Patient_Link_ID
 
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
-
 SELECT  
-	p.FK_Patient_Link_ID, 
+	PatientId = p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
 	BMI,
-	BMIDate = bmi.EventDate,
+	BMIDate = DateOfBMIMeasurement,
+	height,
+	height_dt,
+	weight,
+	weight_dt,
 	CurrentSmokingStatus = smok.CurrentSmokingStatus,
 	WorstSmokingStatus = smok.WorstSmokingStatus,
 	p.EthnicMainGroup,
 	LSOA_Code,
+	PracticeCCG = prac.CCG,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	IsCareHomeResident,
-	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
 	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
 	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
 	FirstCovidPositiveDate,
@@ -480,6 +511,8 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHeightWeight heiwei ON heiwei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID

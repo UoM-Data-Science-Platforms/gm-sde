@@ -1,0 +1,2085 @@
+^ESCT1164637	Alpha-4 integrin receptor antagonist
+^ESCT1165213	Olanzapine pamoate
+^ESCT1178029	Product containing only amisulpride 400 mg/1 each oral tablet
+^ESCT1178155	Product containing only chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1178156	Product containing only benperidol 250 microgram/1 each oral tablet
+^ESCT1178157	Product containing only flupenthixol 3 mg/1 each oral tablet
+^ESCT1178158	Product containing only haloperidol 5 mg/1 each oral tablet
+^ESCT1178159	Product containing only haloperidol 10 mg/1 each oral tablet
+^ESCT1178160	Product containing only haloperidol 20 mg/1 each oral tablet
+^ESCT1178161	Product containing only periciazine 2.5 mg/1 each oral tablet
+^ESCT1178162	Product containing only perphenazine 2 mg/1 each oral tablet
+^ESCT1178163	Product containing only perphenazine 4 mg/1 each oral tablet
+^ESCT1178164	Product containing only pimozide 2 mg/1 each oral tablet
+^ESCT1178165	Product containing only trifluoperazine 5 mg/1 each oral tablet
+^ESCT1178166	Product containing only zuclopenthixol 10 mg/1 each oral tablet
+^ESCT1178167	Product containing only risperidone 2 mg/1 each oral tablet
+^ESCT1178168	Product containing only olanzapine 7.5 mg/1 each oral tablet
+^ESCT1178169	Product containing only quetiapine 200 mg/1 each oral tablet
+^ESCT1178170	Product containing only zotepine 100 mg/1 each oral tablet
+^ESCT1178396	Product containing only fluphenazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178537	Product containing pipothiazine
+^ESCT1178538	Product containing pipotiazine
+^ESCT1179251	Product containing only olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1179271	Product containing only thioridazine hydrochloride 200 mg/1 each oral tablet
+^ESCT1179274	Product containing only nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1179279	Product containing only risperidone 0.25 milligram/1 each oral tablet
+^ESCT1179299	Product containing only trifluoperazine hydrochloride 2 mg/1 each oral tablet
+^ESCT1179414	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1179441	Product containing only quetiapine 50 mg/1 each oral tablet
+^ESCT1180332	Clozaril 100mg tablets (Mylan)
+^ESCT1181074	Product containing only chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181075	Product containing only chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181076	Product containing only fluphenazine hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1181077	Product containing only fluphenazine hydrochloride 5 mg/1 each oral tablet
+^ESCT1181078	Product containing only haloperidol 1.5 mg/1 each oral tablet
+^ESCT1181079	Product containing only promazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181080	Product containing only promazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181081	Product containing only sulpiride 200 mg/1 each oral tablet
+^ESCT1181082	Product containing only thioridazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181083	Product containing only thioridazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181084	Product containing only loxapine 10 mg/1 each oral capsule
+^ESCT1181085	Product containing only clozapine 100 mg/1 each oral tablet
+^ESCT1181086	Product containing only risperidone 4 mg/1 each oral tablet
+^ESCT1181087	Product containing only risperidone 6 mg/1 each oral tablet
+^ESCT1181088	Product containing only risperidone 0.5 mg/1 each oral tablet
+^ESCT1181089	Product containing only olanzapine 5 mg/1 each oral tablet
+^ESCT1181090	Product containing only olanzapine 2.5 mg/1 each oral tablet
+^ESCT1181091	Product containing only amisulpride 50 mg/1 each oral tablet
+^ESCT1181092	Product containing only amisulpride 200 mg/1 each oral tablet
+^ESCT1181093	Product containing only zotepine 50 mg/1 each oral tablet
+^ESCT1181094	Product containing zuclopenthixol decanoate
+^ESCT1181104	Product containing only fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCT1181105	Product containing only fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCT1181106	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1181107	Product containing only flupenthixol 1 mg/1 each oral tablet
+^ESCT1181115	Product containing only prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCT1181371	Product containing only fluphenazine hydrochloride 1 mg/1 each oral tablet
+^ESCT1181372	Product containing only haloperidol 0.5 milligram/1 each oral tablet
+^ESCT1181373	Product containing only oxypertine 40 mg/1 each oral tablet
+^ESCT1181376	Product containing only periciazine 10 mg/1 each oral tablet
+^ESCT1181377	Product containing only thioridazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181378	Product containing only thioridazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181379	Product containing only zuclopenthixol 2 mg/1 each oral tablet
+^ESCT1181380	Product containing only loxapine 25 mg/1 each oral capsule
+^ESCT1181381	Product containing only risperidone 1 mg/1 each oral tablet
+^ESCT1181382	Product containing only olanzapine 10 mg/1 each oral tablet
+^ESCT1181383	Product containing fluphenazine decanoate
+^ESCT1181531	Product containing only ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCT1181532	Product containing only ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCT1181654	Product containing only olanzapine 20 mg/1 each oral tablet
+^ESCT1181692	Product containing only perphenazine 16 mg/1 each oral tablet
+^ESCT1181732	Product containing only haloperidol 1 mg/1 each oral tablet
+^ESCT1181750	Product containing only nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1181823	Product containing only haloperidol 2 mg/1 each oral tablet
+^ESCT1181894	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1181908	Product containing only prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCT1182205	Product containing only clozapine 50 mg/1 each oral tablet
+^ESCT1182473	Alpha-4 integrin receptor antagonist
+^ESCT1182474	Substance with alpha-4 integrin receptor antagonist mechanism of action
+^ESCT1182488	Product containing natalizumab
+^ESCT1182563	Product containing only amisulpride 100 mg/1 each oral tablet
+^ESCT1182632	Product containing only aripiprazole 15 mg/1 each oral tablet
+^ESCT1182662	Product containing only olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1183123	Product containing only quetiapine 400 mg/1 each oral tablet
+^ESCT1183124	Product containing only quetiapine 300 mg/1 each oral tablet
+^ESCT1183157	Product containing only olanzapine 15 mg/1 each oral tablet
+^ESCT1183319	Product containing only amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1184138	Product containing only aripiprazole 2 mg/1 each oral tablet
+^ESCT1184321	Clozaril 25mg tablets (Mylan)
+^ESCT1184481	Product containing paliperidone
+^ESCT1185270	Product containing only aripiprazole 10 mg/1 each oral tablet
+^ESCT1185271	Product containing only aripiprazole 20 mg/1 each oral tablet
+^ESCT1185301	Product containing only clozapine 12.5 mg/1 each oral tablet
+^ESCT1185302	Product containing only olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1185303	Product containing only olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1185357	Product containing only loxapine succinate 5 mg/1 each oral capsule
+^ESCT1185365	Product containing only thioridazine hydrochloride 150 mg/1 each oral tablet
+^ESCT1185371	Product containing only nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1185403	Product containing only trifluoperazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1185418	Product containing only prochlorperazine 15 mg/1 each oral capsule
+^ESCT1185419	Product containing only prochlorperazine maleate 10 mg/1 each oral tablet
+^ESCT1185906	Product containing vedolizumab
+^ESCT1187272	Product containing only chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1187273	Product containing only haloperidol 0.5 milligram/1 each oral capsule
+^ESCT1187274	Product containing only levomepromazine maleate 25 mg/1 each oral tablet
+^ESCT1187275	Product containing only methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCT1187276	Product containing only oxypertine 10 mg/1 each oral capsule
+^ESCT1187277	Product containing only pimozide 4 mg/1 each oral tablet
+^ESCT1187278	Product containing only sulpiride 400 mg/1 each oral tablet
+^ESCT1187279	Product containing only trifluoperazine 1 mg/1 each oral tablet
+^ESCT1187280	Product containing only zuclopenthixol 25 mg/1 each oral tablet
+^ESCT1187281	Product containing only loxapine 50 mg/1 each oral capsule
+^ESCT1187282	Product containing only clozapine 25 mg/1 each oral tablet
+^ESCT1187284	Product containing only risperidone 3 mg/1 each oral tablet
+^ESCT1187285	Product containing only quetiapine 25 mg/1 each oral tablet
+^ESCT1187286	Product containing only quetiapine 100 mg/1 each oral tablet
+^ESCT1187287	Product containing only quetiapine 150 mg/1 each oral tablet
+^ESCT1187288	Product containing only zotepine 25 mg/1 each oral tablet
+^ESCT1187298	Product containing only flupenthixol 0.5 milligram/1 each oral tablet
+^ESCT1187538	Product containing only ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCT1187539	Product containing only ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCT1187582	Product containing only nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1187877	Product containing droperidol
+^ESCT1188032	Product containing only aripiprazole 5 mg/1 each oral tablet
+^ESCT1188033	Product containing only aripiprazole 30 mg/1 each oral tablet
+^ESCT1188064	Product containing only olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1188466	Product containing only thioridazine hydrochloride 15 mg/1 each oral tablet
+^ESCT1188471	Product containing only perphenazine 8 mg/1 each oral tablet
+^ESCT1188480	Product containing only pimozide 1 mg/1 each oral tablet
+^ESCT1188503	Product containing only prochlorperazine 10 mg/1 each oral capsule
+^ESCT1188504	Product containing only chlorpromazine hydrochloride 200 mg/1 each oral tablet
+^ESCT1188546	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1200582	Aripiprazole lauroxil product
+^ESCT1200583	Product containing aripiprazole lauroxil
+^ESCT1201272	Aripiprazole lauroxil in parenteral dosage form
+^ESCT1201273	Product containing aripiprazole lauroxil in parenteral dosage form
+^ESCT1203629	Chlorpromazine hydrochloride 30mg prolonged-release oral capsule
+^ESCT1203636	Trifluoperazine (as trifluoperazine hydrochloride) 15 mg prolonged-release oral capsule
+^ESCT1203637	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 15 milligram/1 each prolonged-release oral capsule
+^ESCT1203710	Chlorpromazine hydrochloride 150mg prolonged-release oral capsule
+^ESCT1203839	Trifluoperazine (as trifluoperazine hydrochloride) 2 mg prolonged-release oral capsule
+^ESCT1203840	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 2 milligram/1 each prolonged-release oral capsule
+^ESCT1203887	Chlorpromazine hydrochloride 75mg prolonged-release oral capsule
+^ESCT1203895	Trifluoperazine (as trifluoperazine hydrochloride) 10 mg prolonged-release oral capsule
+^ESCT1203896	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 10 milligram/1 each prolonged-release oral capsule
+^ESCT1204467	Amisulpride 100 mg/mL oral solution
+^ESCT1204468	Product containing precisely amisulpride 100 milligram/1 milliliter conventional release oral solution
+^ESCT1204479	Chlorpromazine hydrochloride 100mg/5mL conventional release oral solution
+^ESCT1204480	Chlorpromazine hydrochloride 5 mg/mL oral solution
+^ESCT1204481	Product containing precisely chlorpromazine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1204509	Haloperidol 1.5mg/5mL conventional release oral solution
+^ESCT1204510	Haloperidol 1mg/5mL conventional release oral solution
+^ESCT1204511	Haloperidol 2mg/5mL conventional release oral solution
+^ESCT1204531	Perphenazine 2mg/5mL conventional release oral solution
+^ESCT1204532	Perphenazine 4mg/5mL conventional release oral solution
+^ESCT1204552	Thioridazine 100mg/mL conventional release oral solution
+^ESCT1204553	Thioridazine 50mg/5mL conventional release oral solution
+^ESCT1204554	Thioridazine hydrochloride 30mg/ml conventional release oral solution
+^ESCT1204574	Chlorpromazine hydrochloride (as chlorpromazine embonate) 20 mg/mL oral suspension
+^ESCT1204575	Product containing precisely chlorpromazine hydrochloride (as chlorpromazine embonate) 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1204605	Trifluoperazine 5mg/5mL conventional release oral suspension
+^ESCT1204629	Promazine hydrochloride 50mg/5mL conventional release oral syrup
+^ESCT1204634	Trifluoperazine (as trifluoperazine hydrochloride) 1 mg/mL oral solution
+^ESCT1204635	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 1 milligram/1 milliliter conventional release oral solution
+^ESCT1205503	Zuclopenthixol in parenteral dosage form
+^ESCT1205504	Product containing zuclopenthixol in parenteral dosage form
+^ESCT1205508	Zuclopenthixol decanoate in parenteral dosage form
+^ESCT1205509	Product containing zuclopenthixol decanoate in parenteral dosage form
+^ESCT1205866	Zotepine in oral dosage form
+^ESCT1205867	Product containing zotepine in oral dosage form
+^ESCT1206058	Quetiapine in oral dosage form
+^ESCT1206059	Product containing quetiapine in oral dosage form
+^ESCT1206066	Prochlorperazine in oromucosal dosage form
+^ESCT1206067	Product containing prochlorperazine in oromucosal dosage form
+^ESCT1206155	Amisulpride in oral dosage form
+^ESCT1206156	Product containing amisulpride in oral dosage form
+^ESCT1206207	Amitriptyline and perphenazine in oral dosage form
+^ESCT1206208	Product containing amitriptyline and perphenazine in oral dosage form
+^ESCT1206508	Benperidol in oral dosage form
+^ESCT1206509	Product containing benperidol in oral dosage form
+^ESCT1206929	Pimozide in oral dosage form
+^ESCT1206930	Product containing pimozide in oral dosage form
+^ESCT1207214	Fluphenazine and nortriptyline in oral dosage form
+^ESCT1207215	Product containing fluphenazine and nortriptyline in oral dosage form
+^ESCT1208567	Risperidone 12.5mg powder for suspension for injection
+^ESCT1208568	Risperidone 25mg powder for suspension for injection
+^ESCT1208569	Risperidone 37.5mg powder for suspension for injection
+^ESCT1208570	Risperidone 50mg powder for suspension for injection
+^ESCT1208673	Trifluoperazine (as trifluoperazine hydrochloride) 200 microgram/mL oral solution
+^ESCT1208674	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 200 microgram/1 milliliter conventional release oral solution
+^ESCT1208748	Prochlorperazine mesylate 1 mg/mL oral solution
+^ESCT1208749	Product containing precisely prochlorperazine mesylate 1 milligram/1 milliliter conventional release oral solution
+^ESCT1208750	Promazine hydrochloride 5 mg/mL oral solution
+^ESCT1208751	Product containing precisely promazine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1208752	Promazine hydrochloride 10 mg/mL oral solution
+^ESCT1208753	Product containing precisely promazine hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1208785	Sulpiride in oral dosage form
+^ESCT1208786	Product containing sulpiride in oral dosage form
+^ESCT1209149	Chlorpromazine hydrochloride 50 mg/2 mL solution for injection ampoule
+^ESCT1209150	Chlorpromazine hydrochloride 50 mg/2 mL solution for injection ampule
+^ESCT1209151	Product containing precisely chlorpromazine hydrochloride 50 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209420	Flupentixol decanoate 100 mg/mL solution for injection ampoule
+^ESCT1209421	Flupentixol decanoate 100 mg/mL solution for injection ampule
+^ESCT1209422	Product containing precisely flupentixol decanoate 100 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209423	Flupentixol decanoate 50 mg/0.5 mL solution for injection ampoule
+^ESCT1209424	Product containing precisely flupentixol decanoate 50 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209425	Flupentixol decanoate 50 mg/0.5 mL solution for injection ampule
+^ESCT1209426	Flupentixol decanoate 200 mg/mL solution for injection ampoule
+^ESCT1209427	Flupentixol decanoate 200 mg/mL solution for injection ampule
+^ESCT1209428	Product containing precisely flupentixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209429	Flupentixol decanoate 20 mg/mL solution for injection ampoule
+^ESCT1209430	Flupentixol decanoate 20 mg/mL solution for injection ampule
+^ESCT1209431	Product containing precisely flupentixol decanoate 20 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209432	Flupentixol decanoate 40 mg/2 mL solution for injection ampoule
+^ESCT1209433	Flupentixol decanoate 40 mg/2 mL solution for injection ampule
+^ESCT1209434	Product containing precisely flupentixol decanoate 40 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209435	Fluphenazine decanoate 50 mg/0.5 mL solution for injection ampoule
+^ESCT1209436	Product containing precisely fluphenazine decanoate 50 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209437	Fluphenazine decanoate 50 mg/0.5 mL solution for injection ampule
+^ESCT1209438	Fluphenazine decanoate 100 mg/mL solution for injection ampoule
+^ESCT1209439	Product containing precisely fluphenazine decanoate 100 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209440	Fluphenazine decanoate 100 mg/mL solution for injection ampule
+^ESCT1209441	Fluphenazine decanoate 12.5 mg/0.5 mL solution for injection ampoule
+^ESCT1209442	Product containing precisely fluphenazine decanoate 12.5 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209443	Fluphenazine decanoate 12.5 mg/0.5 mL solution for injection ampule
+^ESCT1209444	Fluphenazine decanoate 250 mg/10 mL solution for injection vial
+^ESCT1209445	Product containing precisely fluphenazine decanoate 250 milligram/10 milliliter conventional release solution for injection vial
+^ESCT1209446	Fluphenazine decanoate 25 mg/mL solution for injection ampoule
+^ESCT1209447	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209448	Fluphenazine decanoate 25 mg/mL solution for injection ampule
+^ESCT1209449	Fluphenazine decanoate 25 mg/mL solution for injection syringe
+^ESCT1209450	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection syringe
+^ESCT1209451	Fluphenazine decanoate 50 mg/2 mL solution for injection ampoule
+^ESCT1209452	Fluphenazine decanoate 50 mg/2 mL solution for injection ampule
+^ESCT1209453	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209454	Fluphenazine decanoate 50 mg/2 mL solution for injection syringe
+^ESCT1209455	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection syringe
+^ESCT1209515	Haloperidol (as haloperidol decanoate) 100 mg/mL oil for injection ampoule
+^ESCT1209516	Product containing precisely haloperidol (as haloperidol decanoate) 100 milligram/1 milliliter prolonged-release oil for injection ampule
+^ESCT1209517	Haloperidol (as haloperidol decanoate) 100 mg/mL oil for injection ampule
+^ESCT1209518	Haloperidol 20 mg/2 mL solution for injection ampoule
+^ESCT1209519	Product containing precisely haloperidol 20 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209520	Haloperidol 20 mg/2 mL solution for injection ampule
+^ESCT1209859	Natalizumab 300 mg/15 mL solution for injection vial
+^ESCT1209860	Product containing precisely natalizumab 300 milligram/15 milliliter conventional release solution for injection vial
+^ESCT1210001	Pipotiazine palmitate 50 mg/mL solution for injection ampoule
+^ESCT1210002	Product containing precisely pipotiazine palmitate 50 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210003	Pipothiazine palmitate 50 mg/mL solution for injection ampule
+^ESCT1210004	Pipotiazine palmitate 100 mg/2 mL solution for injection ampoule
+^ESCT1210005	Product containing precisely pipotiazine palmitate 100 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210006	Pipothiazine palmitate 100 mg/2 mL solution for injection ampule
+^ESCT1210045	Prochlorperazine mesylate 12.5 mg/mL solution for injection ampoule
+^ESCT1210046	Product containing precisely prochlorperazine mesylate 12.5 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210047	Prochlorperazine mesylate 12.5 mg/mL solution for injection ampule
+^ESCT1210237	Zuclopenthixol acetate 50 mg/mL solution for injection ampoule
+^ESCT1210238	Product containing precisely zuclopenthixol acetate 50 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210239	Zuclopenthixol acetate 50 mg/mL solution for injection ampule
+^ESCT1210240	Zuclopenthixol acetate 100 mg/2 mL solution for injection ampoule
+^ESCT1210241	Product containing precisely zuclopenthixol acetate 100 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210242	Zuclopenthixol acetate 100 mg/2 mL solution for injection ampule
+^ESCT1210243	Zuclopenthixol decanoate 200 mg/mL solution for injection ampoule
+^ESCT1210244	Product containing precisely zuclopenthixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210245	Zuclopenthixol decanoate 200 mg/mL solution for injection ampule
+^ESCT1210246	Zuclopenthixol decanoate 500 mg/mL solution for injection ampoule
+^ESCT1210247	Product containing precisely zuclopenthixol decanoate 500 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210248	Zuclopenthixol decanoate 500 mg/mL solution for injection ampule
+^ESCT1210299	Chlorpromazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210300	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210301	Chlorpromazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1210353	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection ampoule
+^ESCT1210354	Product containing precisely haloperidol (as haloperidol decanoate) 50 milligram/1 milliliter prolonged-release oil for injection ampule
+^ESCT1210355	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection ampule
+^ESCT1210356	Haloperidol 5 mg/mL solution for injection ampoule
+^ESCT1210357	Haloperidol 5 mg/mL solution for injection ampule
+^ESCT1210358	Product containing precisely haloperidol 5 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210382	Levomepromazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210383	Methotrimeprazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1210384	Product containing precisely levomepromazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1214685	Amisulpride 100mg/ml oral solution sugar free
+^ESCT1214960	Sulpiride 200mg/5ml oral solution sugar free
+^ESCT1214962	Promazine 25mg/5ml oral solution
+^ESCT1215261	Pipotiazine 100mg/2ml solution for injection ampoules
+^ESCT1215263	Pipotiazine 50mg/1ml solution for injection ampoules
+^ESCT1215373	Pericyazine 10mg/5ml oral solution
+^ESCT1215397	Natalizumab 300mg/15ml solution for infusion vials
+^ESCT1215628	Haloperidol 20mg/2ml solution for injection ampoules
+^ESCT1215629	Haloperidol 5mg/1ml solution for injection ampoules
+^ESCT1215630	Haloperidol decanoate 100mg/1ml solution for injection ampoules
+^ESCT1215631	Haloperidol decanoate 50mg/1ml solution for injection ampoules
+^ESCT1215674	Flupentixol 50mg/0.5ml solution for injection ampoules
+^ESCT1215675	Fluphenazine decanoate 100mg/1ml solution for injection ampoules
+^ESCT1215676	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules
+^ESCT1215677	Fluphenazine decanoate 250mg/10ml solution for injection vials
+^ESCT1215678	Fluphenazine decanoate 25mg/1ml solution for injection ampoules
+^ESCT1215679	Fluphenazine decanoate 25mg/1ml solution for injection pre-filled syringes
+^ESCT1215680	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules
+^ESCT1215681	Fluphenazine decanoate 50mg/2ml solution for injection ampoules
+^ESCT1215682	Fluphenazine decanoate 50mg/2ml solution for injection pre-filled syringes
+^ESCT1215778	Flupentixol 100mg/1ml solution for injection ampoules
+^ESCT1215779	Flupentixol 200mg/1ml solution for injection ampoules
+^ESCT1215780	Flupentixol 20mg/1ml solution for injection ampoules
+^ESCT1215781	Flupentixol 40mg/2ml solution for injection ampoules
+^ESCT1216078	Chlorpromazine 25mg/5ml oral solution
+^ESCT1216079	Chlorpromazine 50mg/2ml solution for injection ampoules
+^ESCT1216102	Trifluoperazine 10mg modified-release capsules
+^ESCT1216103	Trifluoperazine 15mg modified-release capsules
+^ESCT1216104	Trifluoperazine 1mg/5ml oral solution sugar free
+^ESCT1216105	Trifluoperazine 2mg modified-release capsules
+^ESCT1216140	Zuclopenthixol acetate 100mg/2ml solution for injection ampoules
+^ESCT1216141	Zuclopenthixol acetate 50mg/1ml solution for injection ampoules
+^ESCT1216142	Zuclopenthixol decanoate 200mg/1ml solution for injection ampoules
+^ESCT1216143	Zuclopenthixol decanoate 500mg/1ml solution for injection ampoules
+^ESCT1216631	Trifluperidol
+^ESCT1216632	Product containing trifluperidol
+^ESCT1216633	Trifluperidol product
+^ESCT1216896	Haloperidol
+^ESCT1216897	Haloperidol product
+^ESCT1217557	Droperidol
+^ESCT1217558	Droperidol product
+^ESCT1217851	Thioridazine
+^ESCT1217852	Thioridazine product
+^ESCT1218188	Perphenazine
+^ESCT1218189	Perphenazine product
+^ESCT1218202	Fluphenazine
+^ESCT1218203	Fluphenazine product
+^ESCT1218337	Promazine
+^ESCT1218338	Promazine product
+^ESCT1218441	Chlorpromazine
+^ESCT1218442	Chlorpromazine product
+^ESCT1218882	Chlorprothixene
+^ESCT1218883	Product containing chlorprothixene
+^ESCT1218884	Chlorprothixene product
+^ESCT1218986	Loxapine
+^ESCT1218987	Loxapine product
+^ESCT1219540	Trifluoperazine
+^ESCT1219541	Trifluoperazine product
+^ESCT1219878	Prochlorperazine
+^ESCT1219879	Prochlorperazine product
+^ESCT1220628	Flupentixol
+^ESCT1220629	Flupentixol product
+^ESCT1220630	Clozapine
+^ESCT1220631	Clozapine product
+^ESCT1220798	Risperidone
+^ESCT1220799	Risperidone product
+^ESCT1220836	Pimozide
+^ESCT1220837	Pimozide product
+^ESCT1220838	Olanzapine
+^ESCT1220839	Olanzapine product
+^ESCT1220840	Quetiapine
+^ESCT1220841	Quetiapine product
+^ESCT1221940	Product containing precisely amisulpride 400 milligram/1 each conventional release oral tablet
+^ESCT1223389	Product containing precisely chlorpromazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223390	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223391	Product containing precisely chlorpromazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223392	Product containing precisely chlorpromazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223393	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 100 milligram/1 each conventional release rectal suppository
+^ESCT1223394	Chlorpromazine (as chlorpromazine hydrochloride) 100 mg rectal suppository
+^ESCT1223395	Benperidol
+^ESCT1223396	Benperidol product
+^ESCT1223397	Benperidol 250 microgram oral tablet
+^ESCT1223398	Product containing precisely benperidol 250 microgram/1 each conventional release oral tablet
+^ESCT1223399	Product containing precisely flupentixol 3 milligram/1 each conventional release oral tablet
+^ESCT1223400	Flupentixol 3 mg oral tablet
+^ESCT1223401	Product containing precisely fluphenazine hydrochloride 1 milligram/1 each conventional release oral tablet
+^ESCT1223402	Product containing precisely fluphenazine hydrochloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223403	Product containing precisely fluphenazine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1223404	Product containing precisely haloperidol 1.5 milligram/1 each conventional release oral tablet
+^ESCT1223405	Product containing precisely haloperidol 5 milligram/1 each conventional release oral tablet
+^ESCT1223406	Product containing precisely haloperidol 10 milligram/1 each conventional release oral tablet
+^ESCT1223407	Product containing precisely haloperidol 20 milligram/1 each conventional release oral tablet
+^ESCT1223408	Product containing precisely haloperidol 2 milligram/1 milliliter conventional release oral solution
+^ESCT1223409	Haloperidol 2 mg/mL oral solution
+^ESCT1223410	Product containing precisely haloperidol 500 microgram/1 each conventional release oral capsule
+^ESCT1223411	Haloperidol 500 microgram oral capsule
+^ESCT1223412	Haloperidol 1 mg/mL oral solution
+^ESCT1223413	Product containing precisely haloperidol 1 milligram/1 milliliter conventional release oral solution
+^ESCT1223414	Haloperidol 500 microgram oral tablet
+^ESCT1223415	Product containing precisely haloperidol 500 microgram/1 each conventional release oral tablet
+^ESCT1223416	Product containing precisely levomepromazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1223417	Oxypertine 10 mg oral capsule
+^ESCT1223418	Product containing precisely oxypertine 10 milligram/1 each conventional release oral capsule
+^ESCT1223419	Product containing precisely oxypertine 40 milligram/1 each conventional release oral tablet
+^ESCT1223422	Product containing precisely periciazine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223423	Product containing precisely periciazine 10 milligram/1 each conventional release oral tablet
+^ESCT1223424	Product containing precisely perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223425	Product containing precisely perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1223426	Product containing precisely pimozide 2 milligram/1 each conventional release oral tablet
+^ESCT1223427	Product containing precisely pimozide 4 milligram/1 each conventional release oral tablet
+^ESCT1223428	Product containing precisely promazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223429	Product containing precisely promazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223430	Sulpiride
+^ESCT1223431	Sulpiride product
+^ESCT1223432	Product containing precisely sulpiride 400 milligram/1 each conventional release oral tablet
+^ESCT1223433	Product containing precisely sulpiride 200 milligram/1 each conventional release oral tablet
+^ESCT1223434	Product containing precisely thioridazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223435	Product containing precisely thioridazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223436	Product containing precisely thioridazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223437	Product containing precisely thioridazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223438	Thioridazine 5 mg/mL oral suspension
+^ESCT1223439	Product containing precisely thioridazine 5 milligram/1 milliliter conventional release oral suspension
+^ESCT1223440	Product containing precisely thioridazine 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1223441	Thioridazine 20 mg/mL oral suspension
+^ESCT1223442	Thioridazine (as thioridazine hydrochloride) 5 mg/mL oral solution
+^ESCT1223443	Product containing precisely thioridazine (as thioridazine hydrochloride) 5 milligram/1 milliliter conventional release oral solution
+^ESCT1223444	Product containing precisely trifluoperazine 1 milligram/1 each conventional release oral tablet
+^ESCT1223445	Product containing precisely trifluoperazine 5 milligram/1 each conventional release oral tablet
+^ESCT1223446	Product containing precisely zuclopenthixol 2 milligram/1 each conventional release oral tablet
+^ESCT1223447	Product containing precisely zuclopenthixol 10 milligram/1 each conventional release oral tablet
+^ESCT1223448	Product containing precisely zuclopenthixol 25 milligram/1 each conventional release oral tablet
+^ESCT1223449	Loxapine 10 mg oral capsule
+^ESCT1223450	Product containing precisely loxapine 10 milligram/1 each conventional release oral capsule
+^ESCT1223451	Product containing precisely loxapine 25 milligram/1 each conventional release oral capsule
+^ESCT1223452	Loxapine 25 mg oral capsule
+^ESCT1223453	Product containing precisely loxapine 50 milligram/1 each conventional release oral capsule
+^ESCT1223454	Loxapine 50 mg oral capsule
+^ESCT1223455	Product containing precisely clozapine 25 milligram/1 each conventional release oral tablet
+^ESCT1223456	Product containing precisely clozapine 100 milligram/1 each conventional release oral tablet
+^ESCT1223457	Product containing precisely risperidone 1 milligram/1 each conventional release oral tablet
+^ESCT1223458	Product containing precisely risperidone 2 milligram/1 each conventional release oral tablet
+^ESCT1223459	Product containing precisely risperidone 3 milligram/1 each conventional release oral tablet
+^ESCT1223460	Product containing precisely risperidone 4 milligram/1 each conventional release oral tablet
+^ESCT1223461	Risperidone 1 mg/mL oral solution
+^ESCT1223462	Product containing precisely risperidone 1 milligram/1 milliliter conventional release oral solution
+^ESCT1223463	Product containing precisely risperidone 6 milligram/1 each conventional release oral tablet
+^ESCT1223464	Risperidone 500 microgram oral tablet
+^ESCT1223465	Product containing precisely risperidone 500 microgram/1 each conventional release oral tablet
+^ESCT1223466	Sertindole
+^ESCT1223467	Product containing sertindole
+^ESCT1223468	Sertindole product
+^ESCT1223469	Product containing precisely olanzapine 5 milligram/1 each conventional release oral tablet
+^ESCT1223470	Product containing precisely olanzapine 7.5 milligram/1 each conventional release oral tablet
+^ESCT1223471	Product containing precisely olanzapine 10 milligram/1 each conventional release oral tablet
+^ESCT1223472	Product containing precisely olanzapine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223473	Quetiapine (as quetiapine fumarate) 25 mg oral tablet
+^ESCT1223474	Product containing precisely quetiapine (as quetiapine fumarate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223475	Product containing precisely quetiapine (as quetiapine fumarate) 100 milligram/1 each conventional release oral tablet
+^ESCT1223476	Quetiapine (as quetiapine fumarate) 100 mg oral tablet
+^ESCT1223477	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each conventional release oral tablet
+^ESCT1223478	Quetiapine (as quetiapine fumarate) 200 mg oral tablet
+^ESCT1223479	Product containing precisely quetiapine 150 milligram/1 each conventional release oral tablet
+^ESCT1223480	Amisulpride
+^ESCT1223481	Amisulpride product
+^ESCT1223482	Product containing precisely amisulpride 50 milligram/1 each conventional release oral tablet
+^ESCT1223483	Product containing precisely amisulpride 200 milligram/1 each conventional release oral tablet
+^ESCT1223484	Zotepine
+^ESCT1223485	Zotepine product
+^ESCT1223486	Product containing precisely zotepine 25 milligram/1 each conventional release oral tablet
+^ESCT1223487	Product containing precisely zotepine 50 milligram/1 each conventional release oral tablet
+^ESCT1223488	Product containing precisely zotepine 100 milligram/1 each conventional release oral tablet
+^ESCT1223489	Fluphenazine decanoate
+^ESCT1223490	Fluphenazine decanoate product
+^ESCT1223491	Fluphenazine enanthate
+^ESCT1223492	Product containing fluphenazine enanthate
+^ESCT1223493	Fluphenazine enanthate product
+^ESCT1223494	Fluspirilene
+^ESCT1223495	Product containing fluspirilene
+^ESCT1223496	Fluspirilene product
+^ESCT1223497	Haloperidol decanoate
+^ESCT1223498	Product containing haloperidol decanoate
+^ESCT1223499	Haloperidol decanoate product
+^ESCT1223500	Zuclopenthixol decanoate
+^ESCT1223501	Zuclopenthixol decanoate product
+^ESCT1223568	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline 30 milligram/1 each conventional release oral tablet
+^ESCT1223569	Fluphenazine hydrochloride 500 microgram and nortriptyline 10 mg oral tablet
+^ESCT1223570	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1223571	Product containing precisely amitriptyline 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223572	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
+^ESCT1223573	Product containing precisely amitriptyline 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223574	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
+^ESCT1223575	Flupentixol 500 microgram oral tablet
+^ESCT1223576	Product containing precisely flupentixol 500 microgram/1 each conventional release oral tablet
+^ESCT1223577	Product containing precisely flupentixol 1 milligram/1 each conventional release oral tablet
+^ESCT1223578	Flupentixol 1 mg oral tablet
+^ESCT1223644	Prochlorperazine mesylate 5 mg effervescent oral granules sachet
+^ESCT1223645	Product containing precisely prochlorperazine mesylate 5 milligram/1 sachet conventional release effervescent oral granules
+^ESCT1223646	Product containing precisely prochlorperazine maleate 3 milligram/1 each conventional release buccal tablet
+^ESCT1223647	Prochlorperazine maleate 3 mg buccal tablet
+^ESCT1223648	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1223649	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1223650	Prochlorperazine maleate 5 mg rectal suppository
+^ESCT1223651	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release rectal suppository
+^ESCT1223652	Prochlorperazine maleate 25 mg rectal suppository
+^ESCT1223653	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release rectal suppository
+^ESCT1226490	Fentanyl+droperidol
+^ESCT1226491	Product containing droperidol and fentanyl
+^ESCT1226492	Droperidol and fentanyl product
+^ESCT1226708	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 25 milligram/1 each conventional release rectal suppository
+^ESCT1226709	Chlorpromazine (as chlorpromazine hydrochloride) 25 mg rectal suppository
+^ESCT1226773	Pipotiazine
+^ESCT1226774	Pipotiazine product
+^ESCT1226775	Pipothiazine product
+^ESCT1226776	Oxypertine
+^ESCT1226777	Oxypertine product
+^ESCT1227779	Product containing precisely olanzapine 20 milligram/1 each conventional release oral tablet
+^ESCT1228032	Product containing precisely haloperidol 1 milligram/1 each conventional release oral tablet
+^ESCT1228159	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1228160	Product containing precisely nortriptyline hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1228161	Nortriptyline hydrochloride 50 mg oral capsule
+^ESCT1228196	Ziprasidone (as ziprasidone hydrochloride) 20 mg oral capsule
+^ESCT1228197	Product containing precisely ziprasidone (as ziprasidone hydrochloride) 20 milligram/1 each conventional release oral capsule
+^ESCT1228198	Ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCT1228199	Product containing precisely ziprasidone hydrochloride 40 milligram/1 each conventional release oral capsule
+^ESCT1228200	Ziprasidone hydrochloride 40 mg oral capsule
+^ESCT1228201	Product containing precisely ziprasidone (as ziprasidone hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1228202	Ziprasidone (as ziprasidone hydrochloride) 60 mg oral capsule
+^ESCT1228203	Ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCT1228204	Ziprasidone hydrochloride 80 mg oral capsule
+^ESCT1228205	Product containing precisely ziprasidone hydrochloride 80 milligram/1 each conventional release oral capsule
+^ESCT1228287	Product containing precisely fluphenazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1228342	Product containing precisely haloperidol 2 milligram/1 each conventional release oral tablet
+^ESCT1228497	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1228498	Product containing precisely nortriptyline hydrochloride 75 milligram/1 each conventional release oral capsule
+^ESCT1228499	Nortriptyline hydrochloride 75 mg oral capsule
+^ESCT1228584	Loxapine succinate 5 mg/1 each oral capsule
+^ESCT1228585	Product containing precisely loxapine succinate 5 milligram/1 each conventional release oral capsule
+^ESCT1228586	Loxapine succinate 5 mg oral capsule
+^ESCT1228614	Product containing precisely thioridazine hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1228615	Product containing precisely thioridazine hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1228616	Product containing precisely thioridazine hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1228628	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1228629	Nortriptyline hydrochloride 10 mg oral capsule
+^ESCT1228630	Product containing precisely nortriptyline hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1228643	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1228644	Product containing precisely nortriptyline hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1228645	Nortriptyline hydrochloride 25 mg oral capsule
+^ESCT1228652	Product containing precisely perphenazine 16 milligram/1 each conventional release oral tablet
+^ESCT1228654	Product containing precisely perphenazine 8 milligram/1 each conventional release oral tablet
+^ESCT1228668	Risperidone 0.25 mg oral tablet
+^ESCT1228669	Risperidone 250 microgram oral tablet
+^ESCT1228670	Product containing precisely risperidone 250 microgram/1 each conventional release oral tablet
+^ESCT1228772	Product containing precisely pimozide 1 milligram/1 each conventional release oral tablet
+^ESCT1228787	Product containing precisely trifluoperazine hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1228788	Product containing precisely trifluoperazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1228795	Product containing precisely olanzapine 15 milligram/1 each conventional release oral tablet
+^ESCT1228888	Prochlorperazine 10 mg/1 each oral capsule
+^ESCT1228889	Prochlorperazine 10 mg oral capsule
+^ESCT1228890	Product containing precisely prochlorperazine 10 milligram/1 each conventional release oral capsule
+^ESCT1228891	Prochlorperazine 15 mg/1 each oral capsule
+^ESCT1228892	Product containing precisely prochlorperazine 15 milligram/1 each conventional release oral capsule
+^ESCT1228893	Prochlorperazine 15 mg oral capsule
+^ESCT1228894	Product containing precisely prochlorperazine maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1228898	Product containing precisely chlorpromazine hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1229246	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229247	Product containing precisely amitriptyline 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229248	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229447	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229448	Amitriptyline 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229449	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229450	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229451	Amitriptyline 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229452	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229953	Tranylcypromine + Trifluoperazine
+^ESCT1229954	Product containing tranylcypromine and trifluoperazine
+^ESCT1229955	Tranylcypromine and trifluoperazine product
+^ESCT1230139	Product containing precisely amisulpride 100 milligram/1 each conventional release oral tablet
+^ESCT1230309	Aripiprazole
+^ESCT1230310	Aripiprazole product
+^ESCT1230311	Product containing precisely aripiprazole 5 milligram/1 each conventional release oral tablet
+^ESCT1230312	Product containing precisely aripiprazole 10 milligram/1 each conventional release oral tablet
+^ESCT1230313	Product containing precisely aripiprazole 15 milligram/1 each conventional release oral tablet
+^ESCT1230314	Product containing precisely aripiprazole 20 milligram/1 each conventional release oral tablet
+^ESCT1230315	Product containing precisely aripiprazole 30 milligram/1 each conventional release oral tablet
+^ESCT1230377	Product containing precisely sulpiride 40 milligram/1 milliliter conventional release oral solution
+^ESCT1230378	Sulpiride 40 mg/mL oral solution
+^ESCT1230596	Product containing precisely clozapine 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230597	Olanzapine + fluoxetine
+^ESCT1230598	Fluoxetine and olanzapine product
+^ESCT1230599	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230600	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230601	Fluoxetine hydrochloride 25 mg and olanzapine 6 mg oral capsule
+^ESCT1230602	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230603	Fluoxetine hydrochloride 50 mg and olanzapine 6 mg oral capsule
+^ESCT1230604	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230605	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230606	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230607	Fluoxetine hydrochloride 25 mg and olanzapine 12 mg oral capsule
+^ESCT1230608	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230609	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230610	Fluoxetine hydrochloride 50 mg and olanzapine 12 mg oral capsule
+^ESCT1232211	Alpha 4 integrin antagonist
+^ESCT1232212	Product containing alpha-4 integrin receptor antagonist
+^ESCT1232213	Alpha-4 integrin receptor antagonist product
+^ESCT1232387	Natalizumab
+^ESCT1232388	Natalizumab product
+^ESCT1232651	Product containing precisely aripiprazole 1 milligram/1 milliliter conventional release oral solution
+^ESCT1232652	Aripiprazole 1 mg/mL oral solution
+^ESCT1232825	Product containing precisely clozapine 50 milligram/1 each conventional release oral tablet
+^ESCT1233410	Fluphenazine and nortriptyline product
+^ESCT1233412	Amitriptyline and perphenazine product
+^ESCT1233696	Product containing precisely aripiprazole 2 milligram/1 each conventional release oral tablet
+^ESCT1234317	Paliperidone
+^ESCT1234318	Paliperidone product
+^ESCT1234409	Quetiapine (as quetiapine fumarate) 300 mg prolonged-release oral tablet
+^ESCT1234410	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each prolonged-release oral tablet
+^ESCT1234454	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each prolonged-release oral tablet
+^ESCT1234455	Quetiapine (as quetiapine fumarate) 200 mg prolonged-release oral tablet
+^ESCT1234472	Quetiapine (as quetiapine fumarate) 400 mg prolonged-release oral tablet
+^ESCT1234473	Product containing precisely quetiapine (as quetiapine fumarate) 400 milligram/1 each prolonged-release oral tablet
+^ESCT1234758	Zuclopenthixol
+^ESCT1234759	Zuclopenthixol product
+^ESCT1234824	Quetiapine 400 mg oral tablet
+^ESCT1234825	Product containing precisely quetiapine fumarate 400 milligram/1 each conventional release oral tablet
+^ESCT1234826	Quetiapine fumarate 400 mg oral tablet
+^ESCT1234831	Quetiapine (as quetiapine fumarate) 300 mg oral tablet
+^ESCT1234832	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each conventional release oral tablet
+^ESCT1234844	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1234845	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 3 milligram/1 each conventional release oral capsule
+^ESCT1234846	Fluoxetine hydrochloride 25 mg and olanzapine 3 mg oral capsule
+^ESCT1235107	Quetiapine 50 mg oral tablet
+^ESCT1235108	Quetiapine fumarate 50 mg oral tablet
+^ESCT1235109	Product containing precisely quetiapine fumarate 50 milligram/1 each conventional release oral tablet
+^ESCT1236159	Vedolizumab
+^ESCT1236160	Vedolizumab product
+^ESCT1237192	Haldol Decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCT1237194	Haldol Decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCT1250043	Triptafen tablets (Advanz Pharma)
+^ESCT1250218	Fentazin 2mg tablets (Advanz Pharma)
+^ESCT1250220	Fentazin 4mg tablets (Advanz Pharma)
+^ESCT1374367	Trifluoperazine 5mg/5ml oral solution sugar free
+^ESCT1374391	Promazine 50mg/5ml oral solution
+^ESCT1375681	Levomepromazine 25mg/1ml solution for injection ampoules
+^ESCT1376410	Trifluperidol-containing product
+^ESCT1377103	Fluphenazine-containing product
+^ESCT1378231	Flupentixol-containing product
+^ESCT1381069	Olanzapine 5 mg orodispersible tablet
+^ESCT1381070	Olanzapine 10 mg orodispersible tablet
+^ESCT1381226	Droperidol- and fentanyl-containing product
+^ESCT1381263	Chlorpromazine 50 mg rectal suppository
+^ESCT1381264	Chlorpromazine 300 mg rectal suppository
+^ESCT1381300	Droperidol-containing product in oral dose form
+^ESCT1381301	Droperidol-containing product in parenteral dose form
+^ESCT1381302	Haloperidol-containing product in oral dose form
+^ESCT1381303	Haloperidol-containing product in parenteral dose form
+^ESCT1381304	Chlorpromazine-containing product in oral dose form
+^ESCT1381305	Chlorpromazine-containing product in parenteral dose form
+^ESCT1381306	Chlorpromazine-containing product in rectal dose form
+^ESCT1381307	Prochlorperazine-containing product in oral dose form
+^ESCT1381308	Prochlorperazine-containing product in parenteral dose form
+^ESCT1381309	Prochlorperazine-containing product in rectal dose form
+^ESCT1381967	Prochlorperazine 2.5 mg rectal suppository
+^ESCT1382048	Olanzapine 20 mg orodispersible tablet
+^ESCT1382053	Fluphenazine-containing product in oral dose form
+^ESCT1382056	Perphenazine-containing product in oral dose form
+^ESCT1382057	Perphenazine-containing product in parenteral dose form
+^ESCT1382058	Promazine-containing product in oral dose form
+^ESCT1382060	Promazine-containing product in parenteral dose form
+^ESCT1382061	Trifluoperazine-containing product in oral dose form
+^ESCT1382062	Trifluoperazine-containing product in parenteral dose form
+^ESCT1382065	Thioridazine-containing product in oral dose form
+^ESCT1382066	Zuclopenthixol-containing product in oral dose form
+^ESCT1382311	Tranylcypromine- and trifluoperazine-containing product
+^ESCT1382466	Risperidone-containing product in oral dose form
+^ESCT1382467	Risperidone-containing product in parenteral dose form
+^ESCT1382474	Olanzapine 15 mg orodispersible tablet
+^ESCT1382476	Risperidone 1 mg orodispersible tablet
+^ESCT1382477	Risperidone 2 mg orodispersible tablet
+^ESCT1382529	Fluoxetine- and olanzapine-containing product
+^ESCT1382626	Olanzapine-containing product in parenteral dose form
+^ESCT1383067	Alpha-4 integrin receptor antagonist-containing product
+^ESCT1383156	Risperidone 500 microgram orodispersible tablet
+^ESCT1383401	Aripiprazole 15 mg orodispersible tablet
+^ESCT1383406	Aripiprazole 10 mg orodispersible tablet
+^ESCT1383435	Olanzapine-containing product in oral dose form
+^ESCT1383449	Aripiprazole 20 mg orodispersible tablet
+^ESCT1383474	Aripiprazole 30 mg orodispersible tablet
+^ESCT1383506	Paliperidone 3 mg prolonged-release oral tablet
+^ESCT1383525	Paliperidone 6 mg prolonged-release oral tablet
+^ESCT1383545	Paliperidone 9 mg prolonged-release oral tablet
+^ESCT1383591	Aripiprazole-containing product in parenteral dose form
+^ESCT1383597	Aripiprazole-containing product in oral dose form
+^ESCT1383622	Flupentixol-containing product in oral dose form
+^ESCT1383640	Flupentixol-containing product in parenteral dose form
+^ESCT1383941	Fluphenazine-containing product in parenteral dose form
+^ESCT1384097	Paliperidone 1.5 mg prolonged-release oral tablet
+^ESCT1384169	Risperidone 3 mg orodispersible tablet
+^ESCT1384173	Risperidone 4 mg orodispersible tablet
+^ESCT1384439	Vedolizumab 300 mg powder for solution for injection vial
+^ESCT1384920	Clozapine-containing product in oral dose form
+^ESCT1385911	Chlorpromazine hydrochloride 20 mg/mL oral solution
+^ESCT1385916	Haloperidol 300 microgram/mL oral solution
+^ESCT1385917	Haloperidol 200 microgram/mL oral solution
+^ESCT1385918	Haloperidol 400 microgram/mL oral solution
+^ESCT1385919	Perphenazine 400 microgram/mL oral solution
+^ESCT1385920	Perphenazine 800 microgram/mL oral solution
+^ESCT1385923	Thioridazine (as thioridazine hydrochloride) 100 mg/mL oral solution
+^ESCT1385927	Trifluoperazine 1 mg/mL oral suspension
+^ESCT1386019	Zuclopenthixol-containing product in parenteral dose form
+^ESCT1386066	Zotepine-containing product in oral dose form
+^ESCT1386104	Quetiapine-containing product in oral dose form
+^ESCT1386108	Prochlorperazine-containing product in oromucosal dose form
+^ESCT1386144	Amisulpride-containing product in oral dose form
+^ESCT1386161	Amitriptyline- and perphenazine-containing product in oral dose form
+^ESCT1386311	Benperidol-containing product in oral dose form
+^ESCT1386512	Pimozide-containing product in oral dose form
+^ESCT1386647	Fluphenazine- and nortriptyline-containing product in oral dose form
+^ESCT1387080	Risperidone 12.5 mg powder for suspension for injection vial
+^ESCT1387081	Risperidone 25 mg powder for suspension for injection vial
+^ESCT1387082	Risperidone 37.5 mg powder for suspension for injection vial
+^ESCT1387083	Risperidone 50 mg powder for suspension for injection vial
+^ESCT1387106	Prochlorperazine mesilate 1 mg/mL oral solution
+^ESCT1387110	Sulpiride-containing product in oral dose form
+^ESCT1387229	Serdolect 4mg tablets (Imported (Denmark))
+^ESCT1387231	Serdolect 12mg tablets (Imported (Denmark))
+^ESCT1387233	Serdolect 16mg tablets (Imported (Denmark))
+^ESCT1387235	Serdolect 20mg tablets (Imported (Denmark))
+^ESCT1387327	Anquil 250microgram tablets (Neon Healthcare Ltd)
+^ESCT1409584	Seroquel 100mg tablets (Luye Pharma Ltd)
+^ESCT1409614	Seroquel 200mg tablets (Luye Pharma Ltd)
+^ESCT1409683	Seroquel 25mg tablets (Luye Pharma Ltd)
+^ESCT1410159	Orap 4mg tablets (Eumedica Pharma Ltd)
+^ESCT1410456	Seroquel 300mg tablets (Luye Pharma Ltd)
+^ESCT1410927	Seroquel XL 200mg tablets (Luye Pharma Ltd)
+^ESCT1410929	Seroquel XL 400mg tablets (Luye Pharma Ltd)
+^ESCT1410931	Seroquel XL 300mg tablets (Luye Pharma Ltd)
+^ESCT1410933	Seroquel XL 50mg tablets (Luye Pharma Ltd)
+^ESCT1411229	Seroquel XL 150mg tablets (Luye Pharma Ltd)
+^ESCT1424768	Flupentixol 1mg tablets
+^ESCT1424769	Flupentixol 3mg tablets
+^ESCT1424770	Flupentixol 500microgram tablets
+^ESCT1424772	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCT1424838	Loxapine 10mg capsules
+^ESCT1424839	Loxapine 25mg capsules
+^ESCT1424840	Loxapine 50mg capsules
+^ESCT1424874	Quetiapine 150mg tablets
+^ESCT1424903	Trifluoperazine 1mg tablets
+^ESCT1424905	Trifluoperazine 5mg tablets
+^ESCT1424920	Zuclopenthixol 10mg tablets
+^ESCT1424922	Zuclopenthixol 2mg tablets
+^ESCT1424924	Zuclopenthixol 25mg tablets
+^ESCT1424931	Tranylcypromine 10mg tablets
+^ESCT1425158	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1425159	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCT1426787	Zyprexa 10mg powder for solution for injection vials (Parapharm Development Ltd)
+^ESCT1437650	Clozaril 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437654	Clozaril 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438298	Xeplion 100mg/1ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCT1438300	Xeplion 150mg/1.5ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTA4684189	A4 integrin antagonist
+^ESCTAB1058689	Abilify Maintena 400mg powder and solvent for prolonged-release suspension for injection vials (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898973	Abilify 10mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898976	Abilify 15mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898980	Abilify 30mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB912079	Abilify 5mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931390	Abilify 10mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931393	Abilify 15mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931418	Abilify 1mg/ml oral solution (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB962603	Abilify 9.75mg/1.3ml solution for injection vials (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAL684187	Alpha 4 integrin antagonist
+^ESCTAL684188	Alpha 4 integrin antagonist
+^ESCTAM450813	Amisulpride 400mg tablets
+^ESCTAM450815	Amisulpride 400 mg oral tablet
+^ESCTAM609467	Amisulpride
+^ESCTAM609469	Amisulpride 50mg tablets
+^ESCTAM609471	Amisulpride 50 mg oral tablet
+^ESCTAM609472	Amisulpride 200mg tablets
+^ESCTAM609474	Amisulpride 200 mg oral tablet
+^ESCTAM609744	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCTAM609746	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCTAM609747	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCTAM609749	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCTAM642559	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCTAM645166	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCTAM645168	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCTAM652489	Amisulpride
+^ESCTAM664224	Amisulpride 100mg tablets
+^ESCTAM664226	Amisulpride 100 mg oral tablet
+^ESCTAM696985	Amitriptyline + Perphenazine
+^ESCTAM696986	Amitriptyline + perphenazine
+^ESCTAN918732	Anquil 250microgram tablets (Kyowa Kirin Ltd)
+^ESCTAR1058913	Aripiprazole 400mg powder and solvent for suspension for injection vials
+^ESCTAR673335	Aripiprazole
+^ESCTAR673336	Aripiprazole
+^ESCTAR673338	Aripiprazole 5mg tablets
+^ESCTAR673340	Aripiprazole 5 mg oral tablet
+^ESCTAR673341	Aripiprazole 10mg tablets
+^ESCTAR673343	Aripiprazole 10 mg oral tablet
+^ESCTAR673344	Aripiprazole 15mg tablets
+^ESCTAR673346	Aripiprazole 15 mg oral tablet
+^ESCTAR673347	Aripiprazole 20 mg oral tablet
+^ESCTAR673349	Aripiprazole 30mg tablets
+^ESCTAR673351	Aripiprazole 30 mg oral tablet
+^ESCTAR690591	Aripiprazole 1mg/ml oral solution
+^ESCTAR690592	Aripiprazole 1mg/mL oral solution
+^ESCTAR698394	Aripiprazole 2 mg oral tablet
+^ESCTAR700299	Aripiprazole 15mg orally disintegrating tablet
+^ESCTAR700551	Aripiprazole 10mg orally disintegrating tablet
+^ESCTAR702815	Aripiprazole 20mg orally disintegrating tablet
+^ESCTAR703743	Aripiprazole 30mg orally disintegrating tablet
+^ESCTAR708640	Aripiprazole in parenteral dosage form
+^ESCTAR708937	Aripiprazole in oral dosage form
+^ESCTAR710851	Aripiprazole 7.5mg/mL injection solution vial
+^ESCTAR772829	Aripiprazole lauroxil
+^ESCTAR931506	Aripiprazole 10mg orodispersible tablets sugar free
+^ESCTAR931508	Aripiprazole 15mg orodispersible tablets sugar free
+^ESCTAR962655	Aripiprazole 9.75mg/1.3ml solution for injection vials
+^ESCTAS1020631	Asenapine 10mg sublingual tablets sugar free
+^ESCTAS1020632	Asenapine 5mg sublingual tablets sugar free
+^ESCTBE609236	Benperidol
+^ESCTBE609238	Benperidol 250microgram tablets
+^ESCTBE609239	Benperidol 250 microgram/1 each oral tablet
+^ESCTBE652516	Benperidol
+^ESCTBE863450	Benquil 250microgram tablets (Concord Pharmaceuticals Ltd)
+^ESCTBI1104152	Biquelle XL 50mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104154	Biquelle XL 150mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104156	Biquelle XL 300mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104158	Biquelle XL 400mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104160	Biquelle XL 200mg tablets (Aspire Pharma Ltd)
+^ESCTBU805624	Buccastem M 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTBU833063	Buccastem 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTCD280168	CD11b/CD18
+^ESCTCH265206	Chlorprothixene lactate
+^ESCTCH279959	Chlorpromazine pigmentation
+^ESCTCH326519	Chlorpromazine
+^ESCTCH342624	Chlorprothixene
+^ESCTCH393973	Chlorprothixene hydrochloride
+^ESCTCH531157	Chlorpromazine stimulation test
+^ESCTCH609205	Chlorpromazine 10mg tablets
+^ESCTCH609207	Chlorpromazine hydrochloride 10 mg oral tablet
+^ESCTCH609208	Chlorpromazine 25mg tablets
+^ESCTCH609210	Chlorpromazine hydrochloride 25 mg oral tablet
+^ESCTCH609211	Chlorpromazine 50mg tablets
+^ESCTCH609213	Chlorpromazine hydrochloride 50 mg oral tablet
+^ESCTCH609214	Chlorpromazine 100mg tablets
+^ESCTCH609216	Chlorpromazine hydrochloride 100 mg oral tablet
+^ESCTCH609226	Chlorpromazine 100mg suppositories
+^ESCTCH609227	Chlorpromazine 100mg suppository
+^ESCTCH609235	Chlorpromazine hydrochloride 50mg/5mL syrup
+^ESCTCH618749	Chlorpromazine 25mg suppositories
+^ESCTCH618750	Chlorpromazine 25mg suppository
+^ESCTCH618751	Chlorpromazine 50mg suppository
+^ESCTCH618752	Chlorpromazine 300mg suppository
+^ESCTCH618956	Chlorpromazine in oral dosage form
+^ESCTCH618958	Chlorpromazine in parenteral dosage form
+^ESCTCH618960	Chlorpromazine in rectal dosage form
+^ESCTCH641788	Chlorpromazine hydrochloride 10mg/5mL syrup
+^ESCTCH641789	Chlorpromazine hydrochloride 200 mg oral tablet
+^ESCTCH646850	Chlorpromazine
+^ESCTCH646940	Chlorprothixene
+^ESCTCH647235	Chlorpromazine hydrochloride
+^ESCTCH707297	Chlorpromazine embonate
+^ESCTCH905531	Chlorpromazine 100mg/5ml oral solution
+^ESCTCL406888	Clozapine
+^ESCTCL609401	Clozapine 25mg tablets
+^ESCTCL609403	Clozapine 25 mg oral tablet
+^ESCTCL609404	Clozapine 100mg tablets
+^ESCTCL609406	Clozapine 100 mg oral tablet
+^ESCTCL647366	Clozapine
+^ESCTCL676368	Clozapine monitoring
+^ESCTCL677418	Clozapine 12.5 mg oral tablet
+^ESCTCL692639	Clozapine 50mg tablets
+^ESCTCL692641	Clozapine 50 mg oral tablet
+^ESCTCL771475	Clozapine in oral dosage form
+^ESCTCL784971	Clozapine therapy
+^ESCTCL801484	Clopixol Conc 500mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL804789	Clopixol 2mg tablets (Lundbeck Ltd)
+^ESCTCL805199	Clopixol 200mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL820479	Clopixol 25mg tablets (Lundbeck Ltd)
+^ESCTCL827413	Clopixol 10mg tablets (Lundbeck Ltd)
+^ESCTCL846351	Clozapine therapy offered
+^ESCTCL864764	Clozaril 25mg tablets (Mylan Ltd)
+^ESCTCL864782	Clozaril 100mg tablets (Mylan Ltd)
+^ESCTCL867461	Clopixol Acuphase 50mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL867466	Clopixol Acuphase 100mg/2ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL982244	Clozapine 200mg tablets
+^ESCTCL982245	Clozapine 50mg/ml oral suspension sugar free
+^ESCTDE859342	Depixol Conc 50mg/0.5ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859348	Depixol Conc 100mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859356	Depixol 40mg/2ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859364	Depixol 20mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859374	Depixol Low Volume 200mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE863368	Depixol 3mg tablets (Lundbeck Ltd)
+^ESCTDE901997	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE902004	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE982173	Denzapine 50mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE982239	Denzapine 200mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE982242	Denzapine 50mg/ml oral suspension (Britannia Pharmaceuticals Ltd)
+^ESCTDO801713	Dolmatil 200mg tablets (Sanofi)
+^ESCTDO814650	Dolmatil 400mg tablets (Sanofi)
+^ESCTDO817681	Dozic 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTDR292550	Droperidol
+^ESCTDR618948	Droperidol in oral dosage form
+^ESCTDR618950	Droperidol in parenteral dosage form
+^ESCTDR646656	Droperidol
+^ESCTDR981580	Droperidol 2.5mg/1ml solution for injection ampoules
+^ESCTEB1079134	Ebesque XL 50mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079145	Ebesque XL 200mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079151	Ebesque XL 300mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079162	Ebesque XL 400mg tablets (Ethypharm UK Ltd)
+^ESCTEN1068299	Entyvio 300mg powder for concentrate for solution for infusion vials (Takeda UK Ltd)
+^ESCTFE617738	Fentanyl+droperidol
+^ESCTFE863375	Fentazin 2mg tablets (AMCo)
+^ESCTFE863382	Fentazin 4mg tablets (AMCo)
+^ESCTFI542099	Fibronectin receptor
+^ESCTFL316658	Fluphenazine
+^ESCTFL350208	Fluphenazine hydrochloride
+^ESCTFL406886	Flupentixol
+^ESCTFL419133	Fluphenazine enanthate
+^ESCTFL419134	Fluophenazine enanthate
+^ESCTFL609241	Flupentixol 3mg tablets
+^ESCTFL609243	Flupenthixol 3 mg oral tablet
+^ESCTFL609244	Fluphenazine 1mg tablets
+^ESCTFL609246	Fluphenazine hydrochloride 1 mg oral tablet
+^ESCTFL609247	Fluphenazine 2.5mg tablets
+^ESCTFL609249	Fluphenazine hydrochloride 2.5 mg oral tablet
+^ESCTFL609250	Fluphenazine 5mg tablets
+^ESCTFL609252	Fluphenazine hydrochloride 5 mg oral tablet
+^ESCTFL609508	Fluphenazine decanoate
+^ESCTFL609538	Fluphenazine enanthate
+^ESCTFL609539	Fluspirilene
+^ESCTFL609740	Fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg oral tablet
+^ESCTFL609743	Fluphenazine hydrochloride 0.5 mg and nortriptyline 10 mg oral tablet
+^ESCTFL609750	Flupentixol 500microgram tablets
+^ESCTFL609751	Flupenthixol 0.5 mg oral tablet
+^ESCTFL609753	Flupentixol 1mg tablets
+^ESCTFL609755	Flupenthixol 1 mg oral tablet
+^ESCTFL637112	Fluphenazine
+^ESCTFL640227	Fluphenazine hydrochloride 10 mg oral tablet
+^ESCTFL645677	Fluphenazine in oral dosage form
+^ESCTFL647364	Flupentixol
+^ESCTFL647365	Flupenthixol
+^ESCTFL656236	Flupentixol decanoate
+^ESCTFL656237	Flupenthixol decanoate
+^ESCTFL656238	Fluphenazine decanoate
+^ESCTFL656239	Fluophenazine decanoate
+^ESCTFL693638	Fluspirilene
+^ESCTFL696968	Fluphenazine + nortriptyline
+^ESCTFL709273	Flupentixol in oral dosage form
+^ESCTFL710119	Flupentixol in parenteral dosage form
+^ESCTFL719953	Fluphenazine in parenteral dosage form
+^ESCTFL725928	Flupentixol dihydrochloride
+^ESCTFL725929	Flupentixol hydrochloride
+^ESCTFL819132	Fluanxol 500microgram tablets (Lundbeck Ltd)
+^ESCTFL828405	Fluanxol 1mg tablets (Lundbeck Ltd)
+^ESCTHA1126502	Haloperidol 200micrograms/ml oral solution sugar free
+^ESCTHA267114	Haloperidol
+^ESCTHA609253	Haloperidol 1.5mg tablets
+^ESCTHA609255	Haloperidol 1.5 mg oral tablet
+^ESCTHA609256	Haloperidol 5mg tablets
+^ESCTHA609258	Haloperidol 5 mg oral tablet
+^ESCTHA609259	Haloperidol 10mg tablets
+^ESCTHA609261	Haloperidol 10 mg oral tablet
+^ESCTHA609262	Haloperidol 20mg tablets
+^ESCTHA609264	Haloperidol 20 mg oral tablet
+^ESCTHA609265	Haloperidol 10mg/5ml oral solution sugar free
+^ESCTHA609266	Haloperidol 2mg/mL oral solution
+^ESCTHA609269	Haloperidol 500microgram capsules
+^ESCTHA609270	Haloperidol 0.5 mg oral capsule
+^ESCTHA609272	Haloperidol 5mg/5ml oral solution sugar free
+^ESCTHA609273	Haloperidol 1mg/mL oral solution
+^ESCTHA609274	Haloperidol 500microgram tablets
+^ESCTHA609275	Haloperidol 0.5 mg oral tablet
+^ESCTHA609540	Haloperidol decanoate
+^ESCTHA618952	Haloperidol in oral dosage form
+^ESCTHA618954	Haloperidol in parenteral dosage form
+^ESCTHA639470	Haloperidol 1 mg oral tablet
+^ESCTHA639775	Haloperidol decanoate 50mg/mL injection solution ampoule
+^ESCTHA639776	Haloperidol decanoate 50mg/mL injection
+^ESCTHA639777	Haloperidol decanoate 50mg/mL injection solution ampule
+^ESCTHA640363	Haloperidol 2 mg oral tablet
+^ESCTHA643096	Haloperidol 100mg injection solution ampoule
+^ESCTHA643097	Haloperidol 100mg injection solution ampule
+^ESCTHA643098	Haloperidol 5mg injection solution ampoule
+^ESCTHA643099	Haloperidol 5mg injection solution ampule
+^ESCTHA646281	Haloperidol
+^ESCTHA682324	Haloperidol decanoate
+^ESCTHA682325	Haloperidol lactate
+^ESCTHA803703	Haldol 2mg/ml oral solution (Janssen-Cilag Ltd)
+^ESCTHA804761	Haldol 5mg tablets (Janssen-Cilag Ltd)
+^ESCTHA808210	Haldol 10mg tablets (Janssen-Cilag Ltd)
+^ESCTHA860404	Haldol 5mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTHA863973	Haldol decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTHA863980	Haldol decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTIN376789	Integrin leucocyte adhesive protein
+^ESCTIN376790	Integrin leukocyte adhesive protein
+^ESCTIN870832	Integrin 10mg capsules (Sterling-Winthrop)
+^ESCTIN942711	Invega 3mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIN942716	Invega 6mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIN942728	Invega 9mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIS305810	Isopropamide iodide
+^ESCTLA796585	Largactil 25mg tablets (Sanofi)
+^ESCTLA812416	Largactil 25mg/5ml syrup (Sanofi)
+^ESCTLA815597	Largactil 100mg tablets (Sanofi)
+^ESCTLA830243	Largactil 50mg/2ml solution for injection ampoules (Sanofi)
+^ESCTLA832466	Largactil 50mg tablets (Sanofi)
+^ESCTLA832540	Largactil 10mg tablets (Sanofi)
+^ESCTLA857711	Largactil Forte 100mg/5ml oral suspension (Sanofi)
+^ESCTLE344076	Levomepromazine hydrochloride
+^ESCTLE609287	Levomepromazine 25mg tablets
+^ESCTLE609290	Levomepromazine maleate 25 mg oral tablet
+^ESCTLE655906	Levomepromazine maleate
+^ESCTLE756669	Levosulpiride
+^ESCTLO253018	Loxapine hydrochloride
+^ESCTLO299558	Loxapine succinate
+^ESCTLO346275	Loxapine
+^ESCTLO609392	Loxapine 10mg capsules
+^ESCTLO609393	Loxapine 10 mg/1 each oral capsule
+^ESCTLO609395	Loxapine 25mg capsules
+^ESCTLO609396	Loxapine 25 mg/1 each oral capsule
+^ESCTLO609398	Loxapine 50mg capsules
+^ESCTLO609399	Loxapine 50 mg/1 each oral capsule
+^ESCTLO637174	Loxapine
+^ESCTLO641028	Loxapine succinate 5 mg/1 each oral capsule
+^ESCTLO803723	Long-term current use of clozapine
+^ESCTLO865177	Loxapac 10mg capsules (Wyeth Pharmaceuticals)
+^ESCTLO865185	Loxapac 50mg capsules (Wyeth Pharmaceuticals)
+^ESCTLO866491	Loxapac 25mg capsules (Wyeth Pharmaceuticals)
+^ESCTLU757081	Lurasidone hydrochloride
+^ESCTME344077	Methotrimeprazine hydrochloride
+^ESCTME609291	Methotrimeprazine maleate 25 mg oral tablet
+^ESCTME655907	Methotrimeprazine maleate
+^ESCTME709668	Measurement of quetiapine
+^ESCTME801893	Melleril 25mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd)
+^ESCTME804868	Melleril 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME819977	Melleril 100mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd)
+^ESCTME821470	Melleril 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME824777	Melleril 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTME830892	Melleril 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME830912	Melleril 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTMI1109764	Mintreleq XL 50mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109766	Mintreleq XL 150mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109768	Mintreleq XL 200mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109770	Mintreleq XL 300mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109772	Mintreleq XL 400mg tablets (Aristo Pharma Ltd)
+^ESCTMO802097	Modecate 25mg/1ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd)
+^ESCTMO803737	Modecate 50mg/2ml solution for injection ampoules (Sanofi)
+^ESCTMO803899	Motival 10mg/500microgram tablets (Sanofi)
+^ESCTMO804788	Modecate 50mg/2ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd)
+^ESCTMO818665	Motipress tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO819985	Modecate 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTMO820054	Modecate Concentrate 100mg/1ml solution for injection ampoules (Sanofi)
+^ESCTMO824906	Modecate 12.5mg/0.5ml solution for injection ampoules (Sanofi)
+^ESCTMO827929	Modecate Concentrate 50mg/0.5ml solution for injection ampoules (Sanofi)
+^ESCTMO833556	Modecate 250mg/10ml solution for injection vials (Sanofi-Synthelabo Ltd)
+^ESCTMO863428	Moditen 1mg tablets (Sanofi)
+^ESCTMO864723	Moditen 2.5mg tablets (Sanofi)
+^ESCTMO864726	Moditen 5mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTNA686510	Natalizumab
+^ESCTNA686511	Natalizumab
+^ESCTNE810882	Neulactil 10mg tablets (Sanofi)
+^ESCTNE822974	Neulactil 2.5mg tablets (Sanofi)
+^ESCTNE832921	Neulactil Forte syrup (Sanofi)
+^ESCTNO297722	Nortriptyline hydrochloride
+^ESCTNO297723	Nortriptyline hydrochloride [enuresis - no agents here]
+^ESCTNO609738	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCTNO609741	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCTNO639954	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTNO640769	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTNO641162	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTNO641216	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTNO696967	Nortriptyline + Fluphenazine
+^ESCTNO696970	Nortriptyline +Fluphenazine
+^ESCTNO821322	Nozinan 25mg tablets (Sanofi)
+^ESCTNO867784	Nozinan 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTOL415427	Olanzapine
+^ESCTOL609438	Olanzapine 5mg tablets
+^ESCTOL609440	Olanzapine 5 mg oral tablet
+^ESCTOL609441	Olanzapine 7.5mg tablets
+^ESCTOL609443	Olanzapine 7.5 mg oral tablet
+^ESCTOL609444	Olanzapine 10mg tablets
+^ESCTOL609446	Olanzapine 10 mg oral tablet
+^ESCTOL609447	Olanzapine 2.5mg tablets
+^ESCTOL609449	Olanzapine 2.5 mg oral tablet
+^ESCTOL609450	Olanzapine 5mg oral lyophilisates sugar free
+^ESCTOL609451	Olanzapine 5mg dispersible tablet
+^ESCTOL609452	Olanzapine 10mg oral lyophilisates sugar free
+^ESCTOL609453	Olanzapine 10mg dispersible tablet
+^ESCTOL638829	Olanzapine 20mg tablets
+^ESCTOL638831	Olanzapine 20 mg oral tablet
+^ESCTOL641492	Olanzapine 15mg tablets
+^ESCTOL641494	Olanzapine 15 mg oral tablet
+^ESCTOL645175	Olanzapine 20mg oral lyophilisates sugar free
+^ESCTOL645176	Olanzapine 20mg disintegrating tablet
+^ESCTOL646296	Olanzapine
+^ESCTOL675487	Olanzapine 15mg dispersible tablet
+^ESCTOL675488	Olanzapine 15mg disintergrating tablet
+^ESCTOL677422	Olanzapine + fluoxetine
+^ESCTOL677424	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677426	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL677428	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677430	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL680466	Olanzapine in parenteral dosage form
+^ESCTOL702318	Olanzapine in oral dosage form
+^ESCTOL711421	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL787324	Olanzapine embonate
+^ESCTOL787325	Olanzapine embonate monohydrate
+^ESCTOL841169	Olanzapine measurement
+^ESCTOL861847	Olanzapine 15mg oral lyophilisates sugar free
+^ESCTOL881938	Olanzapine 10mg powder for solution for injection vials
+^ESCTOL997665	Olanzapine embonate 210mg powder and solvent for suspension for injection vials
+^ESCTOL997671	Olanzapine embonate 300mg powder and solvent for suspension for injection vials
+^ESCTOL997676	Olanzapine embonate 405mg powder and solvent for suspension for injection vials
+^ESCTOR863447	Orap 4mg tablets (Eumedica Pharmaceuticals)
+^ESCTOR870805	Orap 2mg tablets (Janssen-Cilag Ltd)
+^ESCTOX299559	Oxilapine succinate
+^ESCTOX609292	Oxypertine 10mg capsules
+^ESCTOX609293	Oxypertine 10 mg/1 each oral capsule
+^ESCTOX609295	Oxypertine 40mg tablets
+^ESCTOX609297	Oxypertine 40 mg oral tablet
+^ESCTOX618970	Oxypertine
+^ESCTOX655937	Oxypertine
+^ESCTPA1018100	Paliperidone 100mg/1ml suspension for injection pre-filled syringes
+^ESCTPA1018101	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes
+^ESCTPA1018102	Paliperidone 50mg/0.5ml suspension for injection pre-filled syringes
+^ESCTPA1018103	Paliperidone 75mg/0.75ml suspension for injection pre-filled syringes
+^ESCTPA704502	Paliperidone
+^ESCTPA705443	Paliperidone 3mg extended release tablet
+^ESCTPA705647	Paliperidone
+^ESCTPA706421	Paliperidone 6mg extended release tablet
+^ESCTPA707226	Paliperidone 9mg extended release tablet
+^ESCTPA725090	Paliperidone 1.5mg extended release tablet
+^ESCTPA760991	Paliperidone palmitate
+^ESCTPA942842	Paliperidone 3mg modified-release tablets
+^ESCTPA942843	Paliperidone 6mg modified-release tablets
+^ESCTPA942844	Paliperidone 9mg modified-release tablets
+^ESCTPE316278	Perphenazine
+^ESCTPE609302	Pericyazine 2.5mg tablets
+^ESCTPE609304	Periciazine 2.5 mg oral tablet
+^ESCTPE609305	Pericyazine 10mg tablets
+^ESCTPE609307	Periciazine 10 mg oral tablet
+^ESCTPE609313	Perphenazine 2mg tablets
+^ESCTPE609315	Perphenazine 2 mg oral tablet
+^ESCTPE609316	Perphenazine 4mg tablets
+^ESCTPE609318	Perphenazine 4 mg oral tablet
+^ESCTPE641228	Perphenazine 16 mg oral tablet
+^ESCTPE641238	Perphenazine 8 mg oral tablet
+^ESCTPE645731	Perphenazine in oral dosage form
+^ESCTPE645733	Perphenazine in parenteral dosage form
+^ESCTPE646798	Perphenazine
+^ESCTPE655944	Pericyazine
+^ESCTPE655945	Periciazine
+^ESCTPI415424	Pimozide
+^ESCTPI609319	Pimozide 2mg tablets
+^ESCTPI609321	Pimozide 2 mg oral tablet
+^ESCTPI609322	Pimozide 4mg tablets
+^ESCTPI609324	Pimozide 4 mg oral tablet
+^ESCTPI618962	Pipotiazine
+^ESCTPI618963	Pipothiazine
+^ESCTPI641456	Pimozide 1mg tablets
+^ESCTPI641458	Pimozide 1 mg oral tablet
+^ESCTPI646295	Pimozide
+^ESCTPI655956	Pipotiazine palmitate
+^ESCTPI655957	Pipothiazine palmitate
+^ESCTPI656157	Pipotiazine
+^ESCTPI656158	Pipothiazine
+^ESCTPI864685	Piportil Depot 50mg/1ml solution for injection ampoules (Sanofi)
+^ESCTPI909899	Piportil Depot 100mg/2ml solution for injection ampoules (Sanofi)
+^ESCTPL542104	Platelet group IIa
+^ESCTPR255995	Prochlorperazine edisylate
+^ESCTPR267115	Product containing haloperidol
+^ESCTPR286374	Prochlorperazine maleate
+^ESCTPR304038	Product containing thioridazine
+^ESCTPR316279	Product containing perphenazine
+^ESCTPR316659	Product containing fluphenazine
+^ESCTPR322010	Promazine
+^ESCTPR322011	Product containing promazine
+^ESCTPR326520	Product containing chlorpromazine
+^ESCTPR346276	Product containing loxapine
+^ESCTPR366614	Product containing trifluoperazine
+^ESCTPR378684	Prochlorperazine
+^ESCTPR378685	Product containing prochlorperazine
+^ESCTPR378692	Promazine hydrochloride
+^ESCTPR406887	Product containing flupentixol
+^ESCTPR406889	Product containing clozapine
+^ESCTPR415377	Product containing risperidone
+^ESCTPR415425	Product containing pimozide
+^ESCTPR415428	Product containing olanzapine
+^ESCTPR415430	Product containing quetiapine
+^ESCTPR450814	Product containing amisulpride 400 mg/1 each oral tablet
+^ESCTPR609206	Product containing chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609209	Product containing chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609212	Product containing chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609215	Product containing chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR609237	Product containing benperidol
+^ESCTPR609240	Product containing benperidol 250 microgram/1 each oral tablet
+^ESCTPR609242	Product containing flupenthixol 3 mg/1 each oral tablet
+^ESCTPR609245	Product containing fluphenazine hydrochloride 1 mg/1 each oral tablet
+^ESCTPR609248	Product containing fluphenazine hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR609251	Product containing fluphenazine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR609254	Product containing haloperidol 1.5 mg/1 each oral tablet
+^ESCTPR609257	Product containing haloperidol 5 mg/1 each oral tablet
+^ESCTPR609260	Product containing haloperidol 10 mg/1 each oral tablet
+^ESCTPR609263	Product containing haloperidol 20 mg/1 each oral tablet
+^ESCTPR609271	Product containing haloperidol 0.5 milligram/1 each oral capsule
+^ESCTPR609276	Product containing haloperidol 0.5 milligram/1 each oral tablet
+^ESCTPR609288	Product containing methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCTPR609289	Product containing levomepromazine maleate 25 mg/1 each oral tablet
+^ESCTPR609294	Product containing oxypertine 10 mg/1 each oral capsule
+^ESCTPR609296	Product containing oxypertine 40 mg/1 each oral tablet
+^ESCTPR609303	Product containing periciazine 2.5 mg/1 each oral tablet
+^ESCTPR609306	Product containing periciazine 10 mg/1 each oral tablet
+^ESCTPR609314	Product containing perphenazine 2 mg/1 each oral tablet
+^ESCTPR609317	Product containing perphenazine 4 mg/1 each oral tablet
+^ESCTPR609320	Product containing pimozide 2 mg/1 each oral tablet
+^ESCTPR609323	Product containing pimozide 4 mg/1 each oral tablet
+^ESCTPR609325	Promazine 25mg tablets
+^ESCTPR609326	Product containing promazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609327	Promazine hydrochloride 25 mg oral tablet
+^ESCTPR609328	Promazine 50mg tablets
+^ESCTPR609329	Product containing promazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609330	Promazine hydrochloride 50 mg oral tablet
+^ESCTPR609331	Promazine 12.5mg/5mL syrup
+^ESCTPR609337	Product containing sulpiride
+^ESCTPR609339	Product containing sulpiride 400 mg/1 each oral tablet
+^ESCTPR609344	Product containing sulpiride 200 mg/1 each oral tablet
+^ESCTPR609349	Product containing thioridazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609352	Product containing thioridazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609355	Product containing thioridazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609358	Product containing thioridazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR609369	Product containing trifluoperazine 1 mg/1 each oral tablet
+^ESCTPR609372	Product containing trifluoperazine 5 mg/1 each oral tablet
+^ESCTPR609384	Product containing zuclopenthixol 2 mg/1 each oral tablet
+^ESCTPR609387	Product containing zuclopenthixol 10 mg/1 each oral tablet
+^ESCTPR609390	Product containing zuclopenthixol 25 mg/1 each oral tablet
+^ESCTPR609394	Product containing loxapine 10 mg/1 each oral capsule
+^ESCTPR609397	Product containing loxapine 25 mg/1 each oral capsule
+^ESCTPR609400	Product containing loxapine 50 mg/1 each oral capsule
+^ESCTPR609402	Product containing clozapine 25 mg/1 each oral tablet
+^ESCTPR609405	Product containing clozapine 100 mg/1 each oral tablet
+^ESCTPR609417	Product containing risperidone 1 mg/1 each oral tablet
+^ESCTPR609420	Product containing risperidone 2 mg/1 each oral tablet
+^ESCTPR609423	Product containing risperidone 3 mg/1 each oral tablet
+^ESCTPR609426	Product containing risperidone 4 mg/1 each oral tablet
+^ESCTPR609432	Product containing risperidone 6 mg/1 each oral tablet
+^ESCTPR609435	Product containing risperidone 0.5 mg/1 each oral tablet
+^ESCTPR609439	Product containing olanzapine 5 mg/1 each oral tablet
+^ESCTPR609442	Product containing olanzapine 7.5 mg/1 each oral tablet
+^ESCTPR609445	Product containing olanzapine 10 mg/1 each oral tablet
+^ESCTPR609448	Product containing olanzapine 2.5 mg/1 each oral tablet
+^ESCTPR609455	Product containing quetiapine 25 mg/1 each oral tablet
+^ESCTPR609458	Product containing quetiapine 100 mg/1 each oral tablet
+^ESCTPR609461	Product containing quetiapine 200 mg/1 each oral tablet
+^ESCTPR609465	Product containing quetiapine 150 mg/1 each oral tablet
+^ESCTPR609468	Product containing amisulpride
+^ESCTPR609470	Product containing amisulpride 50 mg/1 each oral tablet
+^ESCTPR609473	Product containing amisulpride 200 mg/1 each oral tablet
+^ESCTPR609476	Product containing zotepine
+^ESCTPR609478	Product containing zotepine 25 mg/1 each oral tablet
+^ESCTPR609481	Product containing zotepine 50 mg/1 each oral tablet
+^ESCTPR609484	Product containing zotepine 100 mg/1 each oral tablet
+^ESCTPR609739	Product containing fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCTPR609742	Product containing fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCTPR609745	Product containing amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR609748	Product containing amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR609752	Product containing flupenthixol 0.5 milligram/1 each oral tablet
+^ESCTPR609754	Product containing flupenthixol 1 mg/1 each oral tablet
+^ESCTPR609902	Prochlorperazine 5mg effervescent granules sachets sugar free
+^ESCTPR609903	Prochlorperazine mesylate 5mg/sachet effervescent granules
+^ESCTPR609904	Prochlorperazine 3mg buccal tablets
+^ESCTPR609905	Prochlorperazine maleate 3mg buccal tablet
+^ESCTPR609906	Prochlorperazine 5mg tablets
+^ESCTPR609907	Product containing prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCTPR609908	Prochlorperazine maleate 5 mg oral tablet
+^ESCTPR609909	Prochlorperazine 25mg tablets
+^ESCTPR609910	Product containing prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCTPR609911	Prochlorperazine maleate 25 mg oral tablet
+^ESCTPR609918	Prochlorperazine 5mg suppositories
+^ESCTPR609919	Prochlorperazine maleate 5mg suppository
+^ESCTPR609920	Prochlorperazine 25mg suppositories
+^ESCTPR609921	Prochlorperazine maleate 25mg suppository
+^ESCTPR609922	Prochlorperazine maleate 25mg pessary
+^ESCTPR609923	Prochlorperazine 25mg suppository
+^ESCTPR618949	Product containing droperidol in oral dosage form
+^ESCTPR618951	Product containing droperidol in parenteral dosage form
+^ESCTPR618953	Product containing haloperidol in oral dosage form
+^ESCTPR618955	Product containing haloperidol in parenteral dosage form
+^ESCTPR618957	Product containing chlorpromazine in oral dosage form
+^ESCTPR618959	Product containing chlorpromazine in parenteral dosage form
+^ESCTPR618961	Product containing chlorpromazine in rectal dosage form
+^ESCTPR618964	Prochlorperazine in oral dosage form
+^ESCTPR618965	Product containing prochlorperazine in oral dosage form
+^ESCTPR618966	Prochlorperazine in parenteral dosage form
+^ESCTPR618967	Product containing prochlorperazine in parenteral dosage form
+^ESCTPR618968	Prochlorperazine in rectal dosage form
+^ESCTPR618969	Product containing prochlorperazine in rectal dosage form
+^ESCTPR618971	Product containing oxypertine
+^ESCTPR637124	Promazine
+^ESCTPR637243	Prochlorperazine
+^ESCTPR638830	Product containing olanzapine 20 mg/1 each oral tablet
+^ESCTPR639471	Product containing haloperidol 1 mg/1 each oral tablet
+^ESCTPR639955	Product containing nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTPR640023	Product containing ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCTPR640025	Product containing ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCTPR640028	Product containing ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCTPR640030	Product containing ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCTPR640228	Product containing fluphenazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR640364	Product containing haloperidol 2 mg/1 each oral tablet
+^ESCTPR640770	Product containing nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTPR641029	Product containing loxapine succinate 5 mg/1 each oral capsule
+^ESCTPR641126	Product containing thioridazine hydrochloride 150 mg/1 each oral tablet
+^ESCTPR641128	Product containing thioridazine hydrochloride 200 mg/1 each oral tablet
+^ESCTPR641130	Product containing thioridazine hydrochloride 15 mg/1 each oral tablet
+^ESCTPR641163	Product containing nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTPR641217	Product containing nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTPR641229	Product containing perphenazine 16 mg/1 each oral tablet
+^ESCTPR641239	Product containing perphenazine 8 mg/1 each oral tablet
+^ESCTPR641265	Product containing risperidone 0.25 milligram/1 each oral tablet
+^ESCTPR641457	Product containing pimozide 1 mg/1 each oral tablet
+^ESCTPR641481	Product containing trifluoperazine hydrochloride 2 mg/1 each oral tablet
+^ESCTPR641483	Product containing trifluoperazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR641493	Product containing olanzapine 15 mg/1 each oral tablet
+^ESCTPR641766	Prochlorperazine 10 mg/1 each oral capsule
+^ESCTPR641767	Product containing prochlorperazine 10 mg/1 each oral capsule
+^ESCTPR641768	Prochlorperazine 15 mg/1 each oral capsule
+^ESCTPR641769	Product containing prochlorperazine 15 mg/1 each oral capsule
+^ESCTPR641770	Prochlorperazine 2.5mg suppository
+^ESCTPR641773	Prochlorperazine edisylate 5mg/5mL syrup
+^ESCTPR641774	Prochlorperazine maleate 10 mg oral tablet
+^ESCTPR641775	Product containing prochlorperazine maleate 10 mg/1 each oral tablet
+^ESCTPR641790	Product containing chlorpromazine hydrochloride 200 mg/1 each oral tablet
+^ESCTPR642560	Product containing amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645167	Product containing amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645169	Product containing amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645678	Product containing fluphenazine in oral dosage form
+^ESCTPR645732	Product containing perphenazine in oral dosage form
+^ESCTPR645734	Product containing perphenazine in parenteral dosage form
+^ESCTPR645741	Promazine in oral dosage form
+^ESCTPR645742	Product containing promazine in oral dosage form
+^ESCTPR645745	Promazine in parenteral dosage form
+^ESCTPR645746	Product containing promazine in parenteral dosage form
+^ESCTPR645750	Product containing trifluoperazine in oral dosage form
+^ESCTPR645753	Product containing trifluoperazine in parenteral dosage form
+^ESCTPR645760	Product containing thioridazine in oral dosage form
+^ESCTPR645762	Product containing zuclopenthixol in oral dosage form
+^ESCTPR655968	Prochlorperazine mesilate
+^ESCTPR655969	Prochlorperazine mesylate
+^ESCTPR664225	Product containing amisulpride 100 mg/1 each oral tablet
+^ESCTPR673337	Product containing aripiprazole
+^ESCTPR673339	Product containing aripiprazole 5 mg/1 each oral tablet
+^ESCTPR673342	Product containing aripiprazole 10 mg/1 each oral tablet
+^ESCTPR673345	Product containing aripiprazole 15 mg/1 each oral tablet
+^ESCTPR673348	Product containing aripiprazole 20 mg/1 each oral tablet
+^ESCTPR673350	Product containing aripiprazole 30 mg/1 each oral tablet
+^ESCTPR675176	Product containing risperidone in oral dosage form
+^ESCTPR675178	Product containing risperidone in parenteral dosage form
+^ESCTPR677419	Product containing clozapine 12.5 mg/1 each oral tablet
+^ESCTPR677423	Product containing fluoxetine and olanzapine
+^ESCTPR677425	Product containing olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677427	Product containing olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677429	Product containing olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677431	Product containing olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR680467	Product containing olanzapine in parenteral dosage form
+^ESCTPR692640	Product containing clozapine 50 mg/1 each oral tablet
+^ESCTPR696969	Product containing fluphenazine and nortriptyline
+^ESCTPR696987	Product containing amitriptyline and perphenazine
+^ESCTPR698395	Product containing aripiprazole 2 mg/1 each oral tablet
+^ESCTPR702319	Product containing olanzapine in oral dosage form
+^ESCTPR708641	Product containing aripiprazole in parenteral dosage form
+^ESCTPR708938	Product containing aripiprazole in oral dosage form
+^ESCTPR709274	Product containing flupentixol in oral dosage form
+^ESCTPR710120	Product containing flupentixol in parenteral dosage form
+^ESCTPR710193	Product containing zuclopenthixol
+^ESCTPR710951	Product containing quetiapine 400 mg/1 each oral tablet
+^ESCTPR710958	Product containing quetiapine 300 mg/1 each oral tablet
+^ESCTPR711422	Product containing olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR719954	Product containing fluphenazine in parenteral dosage form
+^ESCTPR725248	Product containing quetiapine 50 mg/1 each oral tablet
+^ESCTPR769645	Prochlorperazine measurement
+^ESCTPR771476	Product containing clozapine in oral dosage form
+^ESCTPR811390	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTQU1005060	Quetiapine 150mg modified-release tablets
+^ESCTQU415374	Quetiapine fumarate
+^ESCTQU415429	Quetiapine
+^ESCTQU609454	Quetiapine 25mg tablets
+^ESCTQU609456	Quetiapine 25 mg oral tablet
+^ESCTQU609457	Quetiapine 100mg tablets
+^ESCTQU609459	Quetiapine 100 mg oral tablet
+^ESCTQU609460	Quetiapine 200mg tablets
+^ESCTQU609462	Quetiapine 200 mg oral tablet
+^ESCTQU609464	Quetiapine 150mg tablets
+^ESCTQU609466	Quetiapine 150 mg oral tablet
+^ESCTQU646297	Quetiapine
+^ESCTQU705851	Quetiapine 300mg modified-release tablets
+^ESCTQU705852	Quetiapine 300mg extended release tablet
+^ESCTQU706451	Quetiapine 200mg modified-release tablets
+^ESCTQU706452	Quetiapine 200mg extended release tablet
+^ESCTQU706679	Quetiapine 400mg modified-release tablets
+^ESCTQU706680	Quetiapine 400mg extended release tablet
+^ESCTQU710950	Quetiapine 400 mg oral tablet
+^ESCTQU710957	Quetiapine 300mg tablets
+^ESCTQU710959	Quetiapine 300 mg oral tablet
+^ESCTQU725247	Quetiapine 50 mg oral tablet
+^ESCTQU968258	Quetiapine 50mg modified-release tablets
+^ESCTRE804188	Retinopathy caused by trifluoperazine
+^ESCTRI415376	Risperidone
+^ESCTRI609416	Risperidone 1mg tablets
+^ESCTRI609418	Risperidone 1 mg oral tablet
+^ESCTRI609419	Risperidone 2mg tablets
+^ESCTRI609421	Risperidone 2 mg oral tablet
+^ESCTRI609422	Risperidone 3mg tablets
+^ESCTRI609424	Risperidone 3 mg oral tablet
+^ESCTRI609425	Risperidone 4mg tablets
+^ESCTRI609427	Risperidone 4 mg oral tablet
+^ESCTRI609428	Risperidone 1mg/ml oral solution sugar free
+^ESCTRI609429	Risperidone 1mg/mL liquid
+^ESCTRI609430	Risperidone 1mg/mL solution
+^ESCTRI609431	Risperidone 6mg tablets
+^ESCTRI609433	Risperidone 6 mg oral tablet
+^ESCTRI609434	Risperidone 500microgram tablets
+^ESCTRI609436	Risperidone 0.5 mg oral tablet
+^ESCTRI641264	Risperidone 0.25 mg oral tablet
+^ESCTRI646285	Risperidone
+^ESCTRI675175	Risperidone in oral dosage form
+^ESCTRI675177	Risperidone in parenteral dosage form
+^ESCTRI675524	Risperidone 1mg orodispersible tablet
+^ESCTRI675525	Risperidone 2mg orodispersible tablet
+^ESCTRI689303	Risperidone 0.5mg orodispersible tablet
+^ESCTRI729711	Risperidone 3mg orodispersible tablet
+^ESCTRI729815	Risperidone 4mg orodispersible tablet
+^ESCTRI804781	Risperdal 6mg tablets (Janssen-Cilag Ltd)
+^ESCTRI811060	Risperdal 1mg/ml oral solution (Janssen-Cilag Ltd)
+^ESCTRI815423	Risperdal 4mg tablets (Janssen-Cilag Ltd)
+^ESCTRI819508	Risperdal 3mg tablets (Janssen-Cilag Ltd)
+^ESCTRI819730	Risperdal 500microgram tablets (Janssen-Cilag Ltd)
+^ESCTRI820284	Risperdal 1mg tablets (Janssen-Cilag Ltd)
+^ESCTRI829537	Risperdal 2mg tablets (Janssen-Cilag Ltd)
+^ESCTRI866637	Risperdal Quicklet 1mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI866642	Risperdal Quicklet 2mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI866778	Risperidone 1mg orodispersible tablets sugar free
+^ESCTRI866779	Risperidone 2mg orodispersible tablets sugar free
+^ESCTRI867669	Risperdal Consta 37.5mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd)
+^ESCTRI867672	Risperdal Consta 50mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd)
+^ESCTRI867731	Risperidone 37.5mg powder and solvent for suspension for injection vials
+^ESCTRI867732	Risperidone 50mg powder and solvent for suspension for injection vials
+^ESCTRI870577	Risperdal Consta 25mg powder and solvent for suspension for injection vials (Janssen-Cilag Ltd)
+^ESCTRI870929	Risperidone 25mg powder and solvent for suspension for injection vials
+^ESCTRI912134	Risperdal Quicklet 500microgram orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI912151	Risperidone 500microgram orodispersible tablets sugar free
+^ESCTRI936616	Risperdal Quicklet 4mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI936619	Risperdal Quicklet 3mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI936668	Risperidone 3mg orodispersible tablets sugar free
+^ESCTRI936669	Risperidone 4mg orodispersible tablets sugar free
+^ESCTSE1003702	Seroquel XL 150mg tablets (AstraZeneca UK Ltd)
+^ESCTSE1045563	Seotiapim XL 200mg tablets (Sandoz Ltd)
+^ESCTSE1045565	Seotiapim XL 400mg tablets (Sandoz Ltd)
+^ESCTSE1045567	Seotiapim XL 300mg tablets (Sandoz Ltd)
+^ESCTSE609437	Sertindole
+^ESCTSE692608	Sertindole
+^ESCTSE797801	Seroquel 150mg tablets (AstraZeneca UK Ltd)
+^ESCTSE803605	Serenace 10mg tablets (Teva UK Ltd)
+^ESCTSE807141	Serenace 5mg tablets (Teva UK Ltd)
+^ESCTSE810906	Seroquel 100mg tablets (AstraZeneca UK Ltd)
+^ESCTSE812825	Serenace 20mg tablets (Teva UK Ltd)
+^ESCTSE818377	Seroquel 200mg tablets (AstraZeneca UK Ltd)
+^ESCTSE818979	Serenace 2mg/ml liquid (Teva UK Ltd)
+^ESCTSE819637	Serenace 500microgram capsules (Teva UK Ltd)
+^ESCTSE820329	Seroquel 25mg tablets (AstraZeneca UK Ltd)
+^ESCTSE831771	Serenace 1.5mg tablets (Teva UK Ltd)
+^ESCTSE860393	Serenace 5mg/1ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE865626	Serenace 20mg/2ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE872314	Serdolect 4mg tablets (Lundbeck Ltd)
+^ESCTSE872335	Serdolect 12mg tablets (Lundbeck Ltd)
+^ESCTSE872338	Serdolect 16mg tablets (Lundbeck Ltd)
+^ESCTSE872341	Serdolect 20mg tablets (Lundbeck Ltd)
+^ESCTSE872440	Sertindole 12mg tablets
+^ESCTSE872441	Sertindole 16mg tablets
+^ESCTSE872442	Sertindole 20mg tablets
+^ESCTSE872443	Sertindole 4mg tablets
+^ESCTSE874488	Seroquel 300mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968090	Seroquel XL 200mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968094	Seroquel XL 400mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968097	Seroquel XL 300mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968102	Seroquel XL 50mg tablets (AstraZeneca UK Ltd)
+^ESCTSO1028220	Sondate XL 50mg tablets (Teva UK Ltd)
+^ESCTSO1028222	Sondate XL 200mg tablets (Teva UK Ltd)
+^ESCTSO1028224	Sondate XL 300mg tablets (Teva UK Ltd)
+^ESCTSO1028226	Sondate XL 400mg tablets (Teva UK Ltd)
+^ESCTSO801200	Solian 50 tablets (Sanofi)
+^ESCTSO808069	Solian 400 tablets (Sanofi)
+^ESCTSO810216	Solian 200 tablets (Sanofi)
+^ESCTSO857460	Solian 100 tablets (Sanofi)
+^ESCTSO865688	Solian 100mg/ml oral solution (Sanofi)
+^ESCTST801725	Stelazine 5mg tablets (Mercury Pharma Group Ltd)
+^ESCTST801755	Stemetil 25mg suppositories (Sanofi)
+^ESCTST803069	Stemetil 5mg tablets (Sanofi)
+^ESCTST806753	Stelazine 10mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST810484	Stelazine 1mg tablets (Mercury Pharma Group Ltd)
+^ESCTST811085	Stemetil 5mg/5ml syrup (Sanofi)
+^ESCTST811877	Stemetil 25mg tablets (Sanofi)
+^ESCTST820306	Stemetil Eff 5mg sachets (Sanofi)
+^ESCTST820496	Stemetil 5mg suppositories (Sanofi)
+^ESCTST820620	Stelazine 1mg/5ml syrup (Mercury Pharma Group Ltd)
+^ESCTST821408	Stelazine 15mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST821581	Stelazine 2mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST823854	Stemetil 12.5mg/1ml solution for injection ampoules (Sanofi)
+^ESCTST899901	Stelazine Forte 1mg/ml oral solution (Mercury Pharma Group Ltd)
+^ESCTSU609336	Sulpiride
+^ESCTSU609338	Sulpiride 400mg tablets
+^ESCTSU609340	Sulpiride 400 mg oral tablet
+^ESCTSU609343	Sulpiride 200mg tablets
+^ESCTSU609345	Sulpiride 200 mg oral tablet
+^ESCTSU656030	Sulpiride
+^ESCTSU675213	Sulpiride 200mg/5ml oral solution
+^ESCTSU675214	Sulpiride 200mg/5mL oral solution
+^ESCTSU688110	Sulpiride measurement
+^ESCTSU804626	Sulpor 200mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTSU807847	Sulpitil 200mg tablets (Pfizer Ltd)
+^ESCTTH279435	Thioridazine hydrochloride
+^ESCTTH304037	Thioridazine
+^ESCTTH602375	Thioridazine retinopathy
+^ESCTTH609346	Thioridazine 10mg/5mL syrup
+^ESCTTH609348	Thioridazine 10mg tablets
+^ESCTTH609350	Thioridazine hydrochloride 10 mg oral tablet
+^ESCTTH609351	Thioridazine 25mg tablets
+^ESCTTH609353	Thioridazine hydrochloride 25 mg oral tablet
+^ESCTTH609354	Thioridazine 50mg tablets
+^ESCTTH609356	Thioridazine hydrochloride 50 mg oral tablet
+^ESCTTH609357	Thioridazine 100mg tablets
+^ESCTTH609359	Thioridazine hydrochloride 100 mg oral tablet
+^ESCTTH609360	Thioridazine 25mg/5ml oral suspension
+^ESCTTH609361	Thioridazine 25mg/5mL oral suspension
+^ESCTTH609362	Thioridazine 100mg/5ml oral suspension
+^ESCTTH609363	Thioridazine 100mg/5mL oral suspension
+^ESCTTH609364	Thioridazine 25mg/5ml oral solution
+^ESCTTH609365	Thioridazine 25mg/5mL oral solution
+^ESCTTH637086	Thioridazine
+^ESCTTH641125	Thioridazine hydrochloride 150 mg oral tablet
+^ESCTTH641127	Thioridazine hydrochloride 200 mg oral tablet
+^ESCTTH641129	Thioridazine hydrochloride 15 mg oral tablet
+^ESCTTH645759	Thioridazine in oral dosage form
+^ESCTTR258706	Trifluperidol
+^ESCTTR332199	Trifluoperazine hydrochloride
+^ESCTTR366613	Trifluoperazine
+^ESCTTR395928	Tranylcypromine sulfate
+^ESCTTR395929	Transamine sulfate
+^ESCTTR395930	Tranylcypromine sulphate
+^ESCTTR395931	Transamine sulphate
+^ESCTTR609368	Trifluoperazine 1mg tablets
+^ESCTTR609370	Trifluoperazine 1 mg oral tablet
+^ESCTTR609371	Trifluoperazine 5mg tablets
+^ESCTTR609373	Trifluoperazine 5 mg oral tablet
+^ESCTTR638228	Trifluoperazine
+^ESCTTR641479	Trifluoperazine hydrochloride 10mg/mL solution
+^ESCTTR641480	Trifluoperazine hydrochloride 2 mg oral tablet
+^ESCTTR641482	Trifluoperazine hydrochloride 10 mg oral tablet
+^ESCTTR645749	Trifluoperazine in oral dosage form
+^ESCTTR645752	Trifluoperazine in parenteral dosage form
+^ESCTTR646915	Trifluperidol
+^ESCTTR661350	Tranylcypromine + Trifluoperazine
+^ESCTTR802381	Tranquilyn 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR806640	Tranquilyn 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR814273	Tranquilyn 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR818528	Triptafen-M tablets (Mercury Pharma Group Ltd)
+^ESCTTR819322	Triptafen tablets (AMCo)
+^ESCTTY930966	Tysabri 300mg/15ml concentrate for solution for infusion vials (Biogen Idec Ltd)
+^ESCTVE1068410	Vedolizumab 300mg powder for solution for infusion vials
+^ESCTVE758844	Vedolizumab
+^ESCTVE758845	Vedolizumab
+^ESCTVE758846	Vedolizumab 300mg powder for injection solution
+^ESCTXE1017955	Xeplion 50mg/0.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017966	Xeplion 75mg/0.75ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017972	Xeplion 100mg/1ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017975	Xeplion 150mg/1.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXO981582	Xomolix 2.5mg/1ml solution for injection ampoules (Kyowa Kirin Ltd)
+^ESCTZA1021336	Zalasta 2.5mg tablets (Consilient Health Ltd)
+^ESCTZA1021338	Zalasta 5mg tablets (Consilient Health Ltd)
+^ESCTZA1021340	Zalasta 7.5mg tablets (Consilient Health Ltd)
+^ESCTZA1021342	Zalasta 10mg tablets (Consilient Health Ltd)
+^ESCTZA1021344	Zalasta 15mg tablets (Consilient Health Ltd)
+^ESCTZA1021346	Zalasta 20mg tablets (Consilient Health Ltd)
+^ESCTZA1021520	Zalasta 5mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021535	Zalasta 10mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021537	Zalasta 15mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021539	Zalasta 20mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1104259	Zaluron XL 50mg tablets (Fontus Health Ltd)
+^ESCTZA1104261	Zaluron XL 150mg tablets (Fontus Health Ltd)
+^ESCTZA1104263	Zaluron XL 200mg tablets (Fontus Health Ltd)
+^ESCTZA1104265	Zaluron XL 300mg tablets (Fontus Health Ltd)
+^ESCTZA1104267	Zaluron XL 400mg tablets (Fontus Health Ltd)
+^ESCTZA910050	Zaponex 25mg tablets (Leyden Delta B.V.)
+^ESCTZA910056	Zaponex 100mg tablets (Leyden Delta B.V.)
+^ESCTZI442708	Ziprasidone hydrochloride
+^ESCTZI640021	Ziprasidone 20mg capsules
+^ESCTZI640022	Ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCTZI640024	Ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCTZI640026	Ziprasidone 60mg capsules
+^ESCTZI640027	Ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCTZI640029	Ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCTZO609475	Zotepine
+^ESCTZO609477	Zotepine 25mg tablets
+^ESCTZO609479	Zotepine 25 mg oral tablet
+^ESCTZO609480	Zotepine 50mg tablets
+^ESCTZO609482	Zotepine 50 mg oral tablet
+^ESCTZO609483	Zotepine 100mg tablets
+^ESCTZO609485	Zotepine 100 mg oral tablet
+^ESCTZO656076	Zotepine
+^ESCTZO865470	Zoleptil 25 tablets (Movianto UK Ltd)
+^ESCTZO865476	Zoleptil 50 tablets (Movianto UK Ltd)
+^ESCTZO867407	Zoleptil 100 tablets (Movianto UK Ltd)
+^ESCTZU609383	Zuclopenthixol 2mg tablets
+^ESCTZU609385	Zuclopenthixol 2 mg oral tablet
+^ESCTZU609386	Zuclopenthixol 10mg tablets
+^ESCTZU609388	Zuclopenthixol 10 mg oral tablet
+^ESCTZU609389	Zuclopenthixol 25mg tablets
+^ESCTZU609391	Zuclopenthixol 25 mg oral tablet
+^ESCTZU609553	Zuclopenthixol decanoate
+^ESCTZU645761	Zuclopenthixol in oral dosage form
+^ESCTZU656077	Zuclopenthixol acetate
+^ESCTZU656078	Zuclopenthixol decanoate
+^ESCTZU706148	Zuclopenthixol dihydrochloride
+^ESCTZU709256	Zuclopenthixol
+^ESCTZU710192	Zuclopenthixol
+^ESCTZY802829	Zyprexa 5mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY810815	Zyprexa 2.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY815987	Zyprexa 15mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY817863	Zyprexa 5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY818613	Zyprexa 10mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY819194	Zyprexa 15mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY824254	Zyprexa 7.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY831634	Zyprexa 10mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY880724	Zyprexa 10mg powder for solution for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY924314	Zyprexa 20mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY933843	Zyprexa 20mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY997667	Zypadhera 210mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997673	Zypadhera 300mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997679	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+BIM/98828NEMIS	Biquelle Xl  M/R tablets  50 mg
+BIM/98829NEMIS	Biquelle Xl  M/R tablets  150 mg
+BIM/98830NEMIS	Biquelle Xl  M/R tablets  200 mg
+BIM/98831NEMIS	Biquelle Xl  M/R tablets  300 mg
+BIM/98832NEMIS	Biquelle Xl  M/R tablets  400 mg
+BUBU16112NEMIS	Buccastem M  Buccal tablets  3 mg
+BUTA5692	Buccastem  Buccal tablets  3 mg
+CHSU128016NEMIS	Chlorpromazine  Suppositories  100 mg
+CHSU86023NEMIS	Chlorpromazine  Suppositories  25 mg
+EBM/94089NEMIS	Ebesque Xl  M/R tablets  50 mg
+EBM/94102NEMIS	Ebesque Xl  M/R tablets  200 mg
+EBM/94110NEMIS	Ebesque Xl  M/R tablets  300 mg
+EBM/94113NEMIS	Ebesque Xl  M/R tablets  400 mg
+ENPO90877NEMIS	Entyvio  Powder for concentrate for solution for infusion  300 mg vial
+FLIN1218	Fluspirilene  Injection  2 mg/ ml
+FLIN19584EMIS	Flupenthixol Decanoate  Injection  200 mg/10 ml
+FLIN19586EMIS	Flupenthixol Decanoate  Injection (syringe)  20 ml/1 ml
+FLIN19595EMIS	Flupenthixol Decanoate  Injection  500 mg/5 ml
+FLTA1193	Fluanxol  Tablets  1 mg
+FLTA1194	Fluanxol  Tablets  500 micrograms
+FOTA1237	Fortunan  Tablets  1.5 mg
+FOTA1238	Fortunan  Tablets  10 mg
+FOTA1239	Fortunan  Tablets  5 mg
+FOTA1240	Fortunan  Tablets  500 micrograms
+LOCA20611EMIS	Loxapine Succinate  Capsules  10 mg
+LOCA20612EMIS	Loxapine Succinate  Capsules  25 mg
+LOCA20613EMIS	Loxapine Succinate  Capsules  50 mg
+LOCA9548BRIDL	Loxapac  Capsules  10 mg
+LOCA9550BRIDL	Loxapac  Capsules  25 mg
+LOCA9552BRIDL	Loxapac  Capsules  50 mg
+MESU1756	Melleril  Suspension  100mg/5 ml
+MESU1757	Melleril  Suspension  25mg/5 ml
+MESY1758	Melleril  Syrup  25 mg/5 ml
+META1760	Melleril  Tablets  10 mg
+META1761	Melleril  Tablets  100 mg
+META1762	Melleril  Tablets  25 mg
+META1763	Melleril  Tablets  50 mg
+MIM/101104NEMIS	Mintreleq Xl  M/R tablets  50 mg
+MIM/101105NEMIS	Mintreleq Xl  M/R tablets  150 mg
+MIM/101106NEMIS	Mintreleq Xl  M/R tablets  200 mg
+MIM/101107NEMIS	Mintreleq Xl  M/R tablets  300 mg
+MIM/101108NEMIS	Mintreleq Xl  M/R tablets  400 mg
+MOTA3976	Motipress  Tablets  
+MOTA3978	Motival  Tablets  
+NACO22863NEMIS	Natalizumab  Concentrate For Solution For Infusion  300 mg vial
+OLTA23534NEMIS	Olanzapine  Tablets  20 mg
+OXCA5237	Oxypertine  Capsules  10 mg
+OXTA5238	Oxypertine  Tablets  40 mg
+PREF10691BRIDL	Prochlorperazine Mesylate  Eff sachets  Sugar Free 5 mg/sachet
+PREF17898NEMIS	Prochlorperazine Mesilate  Effervescent Granules, Sugar Free  5 mg/sachet
+PRIN18855EMIS	Prochlorperazine Mesylate  Injection  12.5 mg/1 ml ampoule
+PRIN18856EMIS	Prochlorperazine Mesylate  Injection  25 mg/2 ml
+PRSP5338	Prochlorperazine Maleate  Spansules  10 mg
+PRSP7111	Prochlorperazine Maleate  Spansules  15 mg
+PRSU2354	Prochlorperazine Maleate  Suppositories  25 mg
+PRSU2355	Prochlorperazine Maleate  Suppositories  5 mg
+PRSY7189	Prochlorperazine Mesylate  Syrup  5 mg/5 ml
+PRTA18850EMIS	Proziere  Tablets  5 mg
+PRTA2357	Prochlorperazine Maleate  Tablets  25 mg
+PRTA2358	Prochlorperazine Maleate  Tablets  5 mg
+PRTA6825	Prochlorperazine Maleate  Buccal tablets  3 mg
+REIN2439	Redeptin  Injection  2 mg/ ml
+SEM/78913NEMIS	Seotiapim Xl  M/R tablets  200 mg
+SEM/78914NEMIS	Seotiapim Xl  M/R tablets  300 mg
+SEM/78915NEMIS	Seotiapim Xl  M/R tablets  400 mg
+STIN10926BRIDL	Stemetil  Injection  25 mg/2 ml
+STIN15751NEMIS	Stemetil  Injection  12.5 mg/ml, 1 ml ampoule
+STIN2690	Stemetil  Injection  12.5 mg/ml
+STSA8854BRIDL	Stemetil Eff  Sachets  5 mg/sachet
+STSU2691	Stemetil  Suppositories  25 mg
+STSU2692	Stemetil  Suppositories  5 mg
+STSYEGTON7190	Stemetil  Syrup  5 mg/5 ml
+STTA2694	Stemetil  Tablets  25 mg
+STTA2695	Stemetil  Tablets  5 mg
+THINEGTON6744	Thalamonal  Injection  2.5 mg/ml
+TYCO22867NEMIS	Tysabri  Concentrate For Solution For Infusion  300 mg vial
+VEPO90870NEMIS	Vedolizumab  Powder for solution for infusion  300 mg vial
+VESP4500	Vertigon  Spansules  10 mg
+VESP4501	Vertigon  Spansules  15 mg
+XOSO36268NEMIS	Xomolix  Solution for injection  2.5 mg/ml, 1 ml ampoule
+ZAM/98835NEMIS	Zaluron Xl  M/R tablets  50 mg
+ZAM/98836NEMIS	Zaluron Xl  M/R tablets  150 mg
+ZAM/98837NEMIS	Zaluron Xl  M/R tablets  200 mg
+ZAM/98838NEMIS	Zaluron Xl  M/R tablets  300 mg
+ZAM/98839NEMIS	Zaluron Xl  M/R tablets  400 mg
+ABOR22952NEMIS	Abilify  Orodispersible tablets  10 mg
+ABOR22953NEMIS	Abilify  Orodispersible tablets  15 mg
+ABOR22954NEMIS	Abilify  Oral solution  1 mg/ml
+ABPO86920NEMIS	Abilify Maintena  Prolonged release suspension for injection  400 mg vial
+ABSO29381NEMIS	Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ABTA18231NEMIS	Abilify  Tablets  10 mg
+ABTA18232NEMIS	Abilify  Tablets  15 mg
+ABTA18233NEMIS	Abilify  Tablets  30 mg
+ABTA19380NEMIS	Abilify  Tablets  5 mg
+AMOR11702NEMIS	Amisulpride  Oral solution  Sugar Free 100 mg/ml
+AMTA14267NEMIS	Amisulpride  Tablets  100 mg
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+AMTA31585EMIS	Amisulpride  Tablets  200 mg
+AMTA31586EMIS	Amisulpride  Tablets  50 mg
+AMTA5672NEMIS	Amisulpride  Tablets  400 mg
+ANTA173	Anquil  Tablets  250 micrograms
+AROR22949NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg
+AROR22950NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg
+AROR22951NEMIS	Aripiprazole  Oral solution  1 mg/ml
+ARPO86916NEMIS	Aripiprazole  Powder and solvent for suspension for injection  400 mg vial
+ARSO29380NEMIS	Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ARTA18226NEMIS	Aripiprazole  Tablets  10 mg
+ARTA18228NEMIS	Aripiprazole  Tablets  15 mg
+ARTA18229NEMIS	Aripiprazole  Tablets  30 mg
+ARTA19379NEMIS	Aripiprazole  Tablets  5 mg
+ASSU51779NEMIS	Asenapine  Sublingual Tablets Sugar Free  5 mg
+ASSU51781NEMIS	Asenapine  Sublingual Tablets Sugar Free  10 mg
+BETA14415NEMIS	Benquil  Tablets  250 micrograms
+BETA4628	Benperidol  Tablets  250 micrograms
+CHEL7170	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml
+CHIN20615EMIS	Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule
+CHIN589	Chlorpromazine Hydrochloride  Injection  25 mg/ml
+CHOR35370EMIS	Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml
+CHSU592	Chlorpromazine Hydrochloride  Suppositories  100 mg
+CHSY594	Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml
+CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
+CHTA597	Chlorpromazine Hydrochloride  Tablets  100 mg
+CHTA598	Chlorpromazine Hydrochloride  Tablets  25 mg
+CHTA599	Chlorpromazine Hydrochloride  Tablets  50 mg
+CHTAEGTON6692	Chloractil  Tablets  100 mg
+CHTAEGTON6693	Chloractil  Tablets  25 mg
+CHTAEGTON6694	Chloractil  Tablets  50 mg
+CLIN10979BRIDL	Clopixol Acuphase  Injection  50 mg/1 ml ampoule
+CLIN29855EMIS	Clopixol Acuphase  Injection  100 mg/2 ml ampoule
+CLIN656	Clopixol  Injection  200 mg/ml, 1 ml ampoule
+CLIN661	Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule
+CLOR36513NEMIS	Clozapine  Oral Suspension Sugar Free  50 mg/ml
+CLTA10156BRIDL	Clozaril  Tablets  25 mg
+CLTA10158BRIDL	Clozaril  Tablets  100 mg
+CLTA36517NEMIS	Clozapine  Tablets  200 mg
+CLTA36518NEMIS	Clozapine  Tablets  50 mg
+CLTA658	Clopixol  Tablets  10 mg
+CLTA659	Clopixol  Tablets  2 mg
+CLTA660	Clopixol  Tablets  25 mg
+CLTA9311HILLI	Clozapine  Tablets  100 mg
+CLTA9313HILLI	Clozapine  Tablets  25 mg
+DEIN19569EMIS	Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule
+DEIN19577EMIS	Depixol  Injection  40 mg/2 ml ampoule
+DEIN19578EMIS	Depixol  Injection (syringe)  20 mg/1 ml
+DEIN19579EMIS	Depixol  Injection (syringe)  40 mg/2 ml
+DEIN19590EMIS	Depixol Conc.  Injection  50 mg/0.5 ml ampoule
+DEIN832	Depixol  Injection  20 mg/1 ml ampoule
+DEIN834	Depixol Conc.  Injection  100 mg/1 ml ampoule
+DEOR36514NEMIS	Denzapine  Oral suspension  50 mg/ml
+DETA18502NEMIS	Denzapine  Tablets  25 mg
+DETA18503NEMIS	Denzapine  Tablets  100 mg
+DETA36519NEMIS	Denzapine  Tablets  200 mg
+DETA36520NEMIS	Denzapine  Tablets  50 mg
+DETA833	Depixol  Tablets  3 mg
+DOLI984	Dozic  Liquid  1mg/ml
+DOLI985	Dozic  Liquid  2mg/ml
+DOTA28250EMIS	Dolmatil  Tablets  400 mg
+DOTA961	Dolmatil  Tablets  200 mg
+DRIN4873	Droperidol  Injection  5mg/ml
+DRIN998	Droleptan  Injection  5mg/ml
+DRLI4874	Droperidol  Liquid  1mg/ml
+DRLI999	Droleptan  Liquid  1mg/ml
+DRSO36266NEMIS	Droperidol  Solution for injection  2.5 mg/ml, 1 ml ampoule
+DRTA1000	Droleptan  Tablets  10 mg
+DRTA4875	Droperidol  Tablets  10 mg
+FEIN1163	Fentazin  Injection  5 mg/ml
+FETA1164	Fentazin  Tablets  2 mg
+FETA1165	Fentazin  Tablets  4 mg
+FETA1166	Fentazin  Tablets  8 mg
+FLDI25934EMIS	Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml
+FLDI25935EMIS	Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml
+FLIN1211	Flupenthixol Decanoate  Injection  20 mg/1 ml ampoule
+FLIN1212	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule
+FLIN1213	Fluphenazine Enanthate  Injection  25 mg/ml
+FLIN17656NEMIS	Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule
+FLIN17657NEMIS	Flupentixol  Injection  100 mg/ml, 1 ml ampoule
+FLIN17658NEMIS	Flupentixol  Injection  200 mg/ml, 1 ml ampoule
+FLIN17659NEMIS	Flupentixol  Injection  20 mg/ml, 1 ml ampoule
+FLIN17660NEMIS	Flupentixol  Injection  20 mg/ml, 2 ml ampoule
+FLIN19571EMIS	Flupenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule
+FLIN19585EMIS	Flupenthixol Decanoate  Injection  40 mg/2 ml ampoule
+FLIN19587EMIS	Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml
+FLIN19594EMIS	Flupenthixol Decanoate  Injection  50 mg/0.5 ml ampoule
+FLIN25936EMIS	Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule
+FLIN25937EMIS	Fluphenazine Decanoate  Injection  250 mg/10 ml vial
+FLIN25938EMIS	Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule
+FLIN25940EMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule
+FLIN4936	Flupenthixol Decanoate  Injection  100 mg/1 ml ampoule
+FLIN4937	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule
+FLTA1208	Flupenthixol  Tablets  1 mg
+FLTA1209	Flupenthixol  Tablets  3 mg
+FLTA1210	Flupenthixol  Tablets  500 micrograms
+FLTA17661NEMIS	Flupentixol  Tablets  1 mg
+FLTA17662NEMIS	Flupentixol  Tablets  500 micrograms
+FLTA17663NEMIS	Flupentixol  Tablets  3 mg
+FLTA4939	Fluphenazine Hydrochloride  Tablets  1 mg
+FLTA6994	Fluphenazine Hydrochloride  Tablets  2.5 mg
+FLTA6995	Fluphenazine Hydrochloride  Tablets  5 mg
+HACA1338	Haloperidol  Capsules  500 micrograms
+HAEL1339	Haloperidol  Elixir  2 mg/5 ml
+HAIN1335	Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule
+HAIN1336	Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule
+HAIN1340	Haloperidol  Injection  10 mg/ml, 2 ml ampoule
+HAIN1341	Haloperidol  Injection  100 mg/ml, 1 ml ampoule
+HAIN1343	Haloperidol  Injection  50 mg/ml, 1 ml ampoule
+HAIN15566NEMIS	Haloperidol  Injection  5 mg/ml, 1 ml ampoule
+HAIN15567NEMIS	Haldol  Injection  5 mg/ml, 1 ml ampoule
+HAIN6920	Haloperidol  Injection  5 mg/ml
+HAINEGTON6700	Haldol  Injection  5 mg/ml
+HALI4981	Haloperidol  Liquid  Sugar Free 1mg/ml
+HAOR13227NEMIS	Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)
+HAOR6921	Haloperidol  Oral liquid  Sugar Free 2 mg/ml
+HAOR6922	Haloperidol  Oral liquid conc.  10 mg/ml
+HAOREGTON6701	Haldol  Oral solution  2 mg/ml
+HAOREGTON6702	Haldol  Oral liquid conc.  10 mg/ml
+HATA1344	Haloperidol  Tablets  1.5 mg
+HATA1346	Haloperidol  Tablets  20 mg
+HATA1347	Haloperidol  Tablets  5 mg
+HATA4983	Haloperidol  Tablets  10 mg
+HATA6901	Haloperidol  Tablets  500 micrograms
+HATAEGTON6703	Haldol  Tablets  10 mg
+HATAEGTON6704	Haldol  Tablets  5 mg
+INCA1485	Integrin  Capsules  10 mg
+INM/26218NEMIS	Invega  M/R tablets  3 mg
+INM/26219NEMIS	Invega  M/R tablets  6 mg
+INM/26220NEMIS	Invega  M/R tablets  9 mg
+INTA1486	Integrin  Tablets  40 mg
+LAIN1610	Largactil  Injection  50 mg/2 ml ampoule
+LASU1614	Largactil  Suppositories  100 mg
+LASU1615	Largactil  Suspension forte  100 mg/5 ml
+LASY1616	Largactil  Syrup  25 mg/5 ml
+LATA1618	Largactil  Tablets  10 mg
+LATA1619	Largactil  Tablets  100 mg
+LATA1620	Largactil  Tablets  25 mg
+LATA1621	Largactil  Tablets  50 mg
+LEIN17312NEMIS	Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule
+LETA17313NEMIS	Levomepromazine  Tablets  25 mg
+MEIN5137	Methotrimeprazine Hydrochloride  Injection  25mg/ml, 1 ml ampoule
+META5138	Methotrimeprazine Maleate  Tablets  25 mg
+MODI10308BRIDL	Modecate  Disposable syringe  25 mg/1 ml
+MODI10310BRIDL	Modecate  Disposable syringe  50 mg/2 ml
+MOIN10029BRIDL	Modecate  Injection  50 mg/2 ml ampoule
+MOIN1858	Modecate  Injection  12.5 mg/0.5 ml ampoule
+MOIN1859	Modecate Concentrate  Injection  100 mg/1 ml ampoule
+MOIN1864	Moditen Enanthate  Injection  25 mg/ml
+MOIN25942EMIS	Modecate  Injection  250 mg/10 ml vial
+MOIN25944EMIS	Modecate Concentrate  Injection  50 mg/0.5 ml ampoule
+MOSY8788BRIDL	Modecate  Injection  25 mg/1 ml ampoule
+MOTA1861	Moditen  Tablets  1 mg
+MOTA1862	Moditen  Tablets  2.5 mg
+MOTA1863	Moditen  Tablets  5 mg
+NESY1969	Neulactil  Syrup forte  10mg/5 ml
+NETA1970	Neulactil  Tablets  10 mg
+NETA1971	Neulactil  Tablets  2.5 mg
+NETA1972	Neulactil  Tablets  25 mg
+NOIN2038	Nozinan  Solution for injection  25mg/ml, 1 ml ampoule
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+OLOR13260NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  15 mg
+OLOR21754NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  20 mg
+OLOR3800NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  5 mg
+OLOR3801NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  10 mg
+OLPO16908NEMIS	Olanzapine  Powder For Solution For Injection  10 mg vial
+OLPR42225NEMIS	Olanzapine  Prolonged release suspension for injection  210 mg vial
+OLPR42227NEMIS	Olanzapine  Prolonged release suspension for injection  300 mg vial
+OLPR42228NEMIS	Olanzapine  Prolonged release suspension for injection  405 mg vial
+OLTA13258NEMIS	Olanzapine  Tablets  15 mg
+OLTA29729EMIS	Olanzapine  Tablets  10 mg
+OLTA29730EMIS	Olanzapine  Tablets  5 mg
+OLTA29731EMIS	Olanzapine  Tablets  7.5 mg
+OLTA34085EMIS	Olanzapine  Tablets  2.5 mg
+ORTA2093	Orap  Tablets  10 mg
+ORTA2095	Orap  Tablets  2 mg
+ORTA2096	Orap  Tablets  4 mg
+PAM/26213NEMIS	Paliperidone  M/R tablets  3 mg
+PAM/26215NEMIS	Paliperidone  M/R tablets  6 mg
+PAM/26216NEMIS	Paliperidone  M/R tablets  9 mg
+PASU50807NEMIS	Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+PASU50808NEMIS	Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+PASU50809NEMIS	Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe
+PASU50810NEMIS	Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+PATA4125	Parstelin  Tablets
+PEIN2201	Perphenazine  Injection  5 mg/ml
+PESY5253	Pericyazine  Oral solution  10mg/5 ml
+PETA2202	Perphenazine  Tablets  2 mg
+PETA2203	Perphenazine  Tablets  4 mg
+PETA2204	Perphenazine  Tablets  8 mg
+PETA5254	Pericyazine  Tablets  10 mg
+PETA7008	Pericyazine  Tablets  2.5 mg
+PETA7009	Pericyazine  Tablets  25 mg
+PIIN17829NEMIS	Pipotiazine  Injection  50 mg/ml, 2 ml ampoule
+PIIN17830NEMIS	Pipotiazine  Injection  50 mg/ml, 1 ml ampoule
+PIIN2270	Piportil Depot  Injection  50 mg/1 ml ampoule
+PIIN27780EMIS	Piportil Depot  Injection  100 mg/2 ml ampoule
+PIIN5296	Pipothiazine Palmitate  Injection  50 mg/1 ml ampoule
+PITA2262	Pimozide  Tablets  10 mg
+PITA2263	Pimozide  Tablets  2 mg
+PITA2264	Pimozide  Tablets  4 mg
+PRIN2374	Promazine Hydrochloride  Injection  50 mg/ml
+PROR11626NEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml
+PRSU2375	Promazine Hydrochloride  Suspension  50 mg/5 ml
+PRSY12797NEMIS	Promazine Hydrochloride  Syrup  50 mg/5 ml
+PRSY29334EMIS	Promazine Hydrochloride  Oral solution  25 mg/5 ml
+PRTA2377	Promazine Hydrochloride  Tablets  25 mg
+PRTA2378	Promazine Hydrochloride  Tablets  50 mg
+QUM/31060NEMIS	Quetiapine Fumarate  M/R tablets  50 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUM/45842NEMIS	Quetiapine Fumarate  M/R tablets  150 mg
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+QUTA31566EMIS	Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg
+QUTA959NEMIS	Quetiapine Fumarate  Tablets  150 mg
+RILI28308EMIS	Risperdal  Oral solution  1 mg/1 ml
+RILI28310EMIS	Risperidone  Oral Solution, Sugar Free  1 mg/1 ml
+RIOR14731NEMIS	Risperidone  Orodispersible tablets  Sugar Free 1 mg
+RIOR14732NEMIS	Risperidone  Orodispersible tablets  Sugar Free 2 mg
+RIOR14734NEMIS	Risperdal Quicklet  Orodispersible tablets  1 mg
+RIOR14735NEMIS	Risperdal Quicklet  Orodispersible tablets  2 mg
+RIOR19655NEMIS	Risperidone  Orodispersible tablets  Sugar Free 500 micrograms
+RIOR19656NEMIS	Risperdal Quicklet  Orodispersible tablets  500 micrograms
+RIOR23720NEMIS	Risperidone  Orodispersible tablets  Sugar Free 3 mg
+RIOR23721NEMIS	Risperidone  Orodispersible tablets  Sugar Free 4 mg
+RIOR23722NEMIS	Risperdal Quicklet  Orodispersible tablets  3 mg
+RIOR23723NEMIS	Risperdal Quicklet  Orodispersible tablets  4 mg
+RIPO13559NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial
+RIPO13560NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13561NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial
+RIPO13562NEMIS	Risperidone  Powder and solvent for suspension for injection  25 mg vial
+RIPO13563NEMIS	Risperidone  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13564NEMIS	Risperidone  Powder and solvent for suspension for injection  50 mg vial
+RITA23782EMIS	Risperdal  Tablets  1 mg
+RITA23783EMIS	Risperdal  Tablets  2 mg
+RITA23784EMIS	Risperdal  Tablets  3 mg
+RITA23785EMIS	Risperdal  Tablets  4 mg
+RITA23790EMIS	Risperidone  Tablets  1 mg
+RITA23791EMIS	Risperidone  Tablets  2 mg
+RITA23792EMIS	Risperidone  Tablets  3 mg
+RITA23793EMIS	Risperidone  Tablets  4 mg
+RITA31679EMIS	Risperdal  Tablets  6 mg
+RITA31681EMIS	Risperidone  Tablets  6 mg
+RITA5272NEMIS	Risperdal  Tablets  500 micrograms
+RITA5273NEMIS	Risperidone  Tablets  500 micrograms
+SECA2552	Serenace  Capsules  500 micrograms
+SEEL9000BRIDL	Serenace  Elixir  2mg/ml
+SEIN2554	Serenace  Injection  10 mg/ml, 2 ml ampoule
+SEIN2555	Serenace  Injection  5 mg/ml, 1 ml ampoule
+SEM/31065NEMIS	Seroquel Xl  M/R tablets  50 mg
+SEM/31066NEMIS	Seroquel Xl  M/R tablets  200 mg
+SEM/31067NEMIS	Seroquel Xl  M/R tablets  300 mg
+SEM/31068NEMIS	Seroquel Xl  M/R tablets  400 mg
+SEM/45843NEMIS	Seroquel Xl  M/R tablets  150 mg
+SETA16220NEMIS	Seroquel  Tablets  300 mg
+SETA2556	Serenace  Tablets  1.5 mg
+SETA2557	Serenace  Tablets  10 mg
+SETA2558	Serenace  Tablets  20 mg
+SETA2559	Serenace  Tablets  5 mg
+SETA29198EMIS	Serdolect  Tablets  12 mg
+SETA29199EMIS	Serdolect  Tablets  16 mg
+SETA29200EMIS	Serdolect  Tablets  20 mg
+SETA29201EMIS	Serdolect  Tablets  4 mg
+SETA29206EMIS	Sertindole  Tablets  12 mg
+SETA29207EMIS	Sertindole  Tablets  16 mg
+SETA29208EMIS	Sertindole  Tablets  20 mg
+SETA29209EMIS	Sertindole  Tablets  4 mg
+SETA31555EMIS	Seroquel  Tablets  100 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+SETA31558EMIS	Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg
+SETA803NEMIS	Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg
+SETA960NEMIS	Seroquel  Tablets  150 mg
+SOM/71618NEMIS	Sondate Xl  M/R tablets  50 mg
+SOM/71619NEMIS	Sondate Xl  M/R tablets  200 mg
+SOM/71620NEMIS	Sondate Xl  M/R tablets  300 mg
+SOM/71621NEMIS	Sondate Xl  M/R tablets  400 mg
+SOOR11703NEMIS	Solian  Oral solution  100 mg/ml
+SOTA14268NEMIS	Solian  Tablets  100 mg
+SOTA31581EMIS	Solian  Tablets  200 mg
+SOTA31582EMIS	Solian  Tablets  50 mg
+SOTA5673NEMIS	Solian  Tablets  400 mg
+SPIN2652	Sparine  Injection  50 mg/ml
+SPSU2653	Sparine  Suspension  50 mg/5 ml
+STIN2680	Stelazine  Injection  1 mg/ml
+STLI2682	Stelazine  Liquid  10mg/ml
+STOR18275NEMIS	Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml
+STSP2683	Stelazine  Spansules  10 mg
+STSP2684	Stelazine  Spansules  15 mg
+STSP2685	Stelazine  Spansules  2 mg
+STSY2686	Stelazine  Syrup  1 mg/5 ml
+STTA2688	Stelazine  Tablets  1 mg
+STTA2689	Stelazine  Tablets  5 mg
+SUOR11892NEMIS	Sulpor  Sugar-free oral solution  200 mg/5 ml
+SUSU32911EMIS	Sulpiride  Sugar-free oral solution  200 mg/5 ml
+SUTA2733	Sulpiride  Tablets  200 mg
+SUTA2734	Sulpitil  Tablets  200 mg
+SUTA28248EMIS	Sulpiride  Tablets  400 mg
+SUTA3785NEMIS	Sulparex  Tablets  200 mg
+THSU5441	Thioridazine  Suspension  100mg/5 ml
+THSU6978	Thioridazine  Suspension  25mg/5 ml
+THSY2845	Thioridazine  Syrup  25 mg/5 ml
+THTA2846	Thioridazine  Tablets  10 mg
+THTA2847	Thioridazine  Tablets  100 mg
+THTA2848	Thioridazine  Tablets  25 mg
+THTA2849	Thioridazine  Tablets  50 mg
+TRIN2923	Trifluoperazine  Injection  1 mg/ml
+TRLI5471	Trifluoperazine  Liquid  10mg/ml
+TROR28542EMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml
+TRSP2924	Trifluoperazine  Spansules  10 mg
+TRSP2925	Trifluoperazine  Spansules  15 mg
+TRSP2926	Trifluoperazine  Spansules  2 mg
+TRSY2927	Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml
+TRTA13267NEMIS	Tranquilyn  Tablets  5 mg
+TRTA13268NEMIS	Tranquilyn  Tablets  10 mg
+TRTA13269NEMIS	Tranquilyn  Tablets  20 mg
+TRTA2894	Tranylcypromine  Tablets  10 mg
+TRTA2928	Trifluoperazine  Tablets  1 mg
+TRTA2929	Trifluoperazine  Tablets  5 mg
+TRTA2944	Triperidol  Tablets  1 mg
+TRTA2945	Triperidol  Tablets  500 mcg
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  
+TRTA5473	Trifluperidol  Tablets  1 mg
+TRTA7103	Trifluperidol  Tablets  500 mcg
+VETA3038	Nozinan  Tablets  25 mg
+XESU50812NEMIS	Xeplion  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+XESU50813NEMIS	Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+XESU50814NEMIS	Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe
+XESU50815NEMIS	Xeplion  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+ZAOR52077NEMIS	Zalasta  Orodispersible tablets  10 mg
+ZAOR52078NEMIS	Zalasta  Orodispersible tablets  15 mg
+ZAOR52079NEMIS	Zalasta  Orodispersible tablets  20 mg
+ZAOR52080NEMIS	Zalasta  Orodispersible tablets  5 mg
+ZATA19394NEMIS	Zaponex  Tablets  25 mg
+ZATA19395NEMIS	Zaponex  Tablets  100 mg
+ZATA51977NEMIS	Zalasta  Tablets  10 mg
+ZATA51978NEMIS	Zalasta  Tablets  15 mg
+ZATA51979NEMIS	Zalasta  Tablets  2.5 mg
+ZATA51980NEMIS	Zalasta  Tablets  20 mg
+ZATA51981NEMIS	Zalasta  Tablets  5 mg
+ZATA51982NEMIS	Zalasta  Tablets  7.5 mg
+ZOTA34924EMIS	Zoleptil  Tablets  100 mg
+ZOTA34925EMIS	Zoleptil  Tablets  25 mg
+ZOTA34926EMIS	Zoleptil  Tablets  50 mg
+ZOTA34930EMIS	Zotepine  Tablets  100 mg
+ZOTA34931EMIS	Zotepine  Tablets  25 mg
+ZOTA34932EMIS	Zotepine  Tablets  50 mg
+ZUIN29852EMIS	Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule
+ZUIN29853EMIS	Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule
+ZUIN5509	Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule
+ZUIN5510	Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule
+ZUTA5511	Zuclopenthixol Dihydrochloride  Tablets  10 mg
+ZUTA6848	Zuclopenthixol Dihydrochloride  Tablets  2 mg
+ZUTA6849	Zuclopenthixol Dihydrochloride  Tablets  25 mg
+ZYOR13262NEMIS	Zyprexa Velotab  Orodispersible tablets  15 mg
+ZYOR21755NEMIS	Zyprexa Velotab  Orodispersible tablets  20 mg
+ZYOR3803NEMIS	Zyprexa Velotab  Orodispersible tablets  5 mg
+ZYOR3804NEMIS	Zyprexa Velotab  Orodispersible tablets  10 mg
+ZYPO16909NEMIS	Zyprexa  Powder For Solution For Injection  10 mg vial
+ZYPR42083NEMIS	Zypadhera  Prolonged release suspension for injection  210 mg vial
+ZYPR42084NEMIS	Zypadhera  Prolonged release suspension for injection  300 mg vial
+ZYPR42085NEMIS	Zypadhera  Prolonged release suspension for injection  405 mg vial
+ZYTA13261NEMIS	Zyprexa  Tablets  15 mg
+ZYTA23535NEMIS	Zyprexa  Tablets  20 mg
+ZYTA29723EMIS	Zyprexa  Tablets  10 mg
+ZYTA29724EMIS	Zyprexa  Tablets  5 mg
+ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
+ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg

@@ -1,0 +1,29 @@
+96231005	Zolpidem product
+116104009	Zaleplon product
+321174005	Zopiclone product
+321175006	Product containing precisely zopiclone 7.5 milligram/1 each conventional release oral tablet
+321177003	Product containing precisely zopiclone 3.75 milligram/1 each conventional release oral tablet
+321183000	Product containing precisely zolpidem tartrate 5 milligram/1 each conventional release oral tablet
+321184006	Zolpidem tartrate 10 mg oral tablet
+321190005	Product containing precisely zaleplon 5 milligram/1 each conventional release oral capsule (clinical drug)
+321191009	Product containing precisely zaleplon 10 milligram/1 each conventional release oral capsule (clinical drug)
+438808008	Zolpidem 5mg orally disintegrating tablet
+438884007	Zolpidem 10mg orally disintegrating tablet
+441908002	Zolpidem 10mg sublingual tablet (product)
+442160008	Zolpidem 5mg sublingual tablet (product)
+765634000	Zolpidem 12.5mg prolonged-release oral tablet (product)
+765678009	Zolpidem 6.25mg prolonged-release oral tablet
+767593002	Product containing zopiclone in oral dosage form
+767594008	Product containing zolpidem in oral dosage form (medicinal product form)
+768307005	Zaleplon in oral dosage form
+387012004	Zaleplon
+387569009	Zolpidem
+395928005	Zolpidem tartrate
+395929002	Zopiclone
+105359004	Zolpidem measurement (procedure)
+178011000001104	Zimovane LS 3.75mg tablets (Aventis Pharma) (product)
+3199611000001102	Stilnoct 10mg tablets (Sanofi-Synthelabo Ltd) (product)
+3206111000001102	Stilnoct 5mg tablets (Sanofi-Synthelabo Ltd) (product)
+435711000001108	Sonata 10mg capsules (Wyeth Laboratories) (product)
+810511000001108	Zimovane 7.5mg tablets (Aventis Pharma) (product)
+846011000001109	Sonata 5mg capsules (Wyeth Laboratories) (product)

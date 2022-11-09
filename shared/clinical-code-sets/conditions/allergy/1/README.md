@@ -1,14 +1,14 @@
 # Allergy codes
 
-This list contains any code that indicates a diagnosis of an allergy.
+This list contains any code that indicates a diagnosis of an allergy or adverse reaction.
 Developed from https://getset.ga.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.16% - 4.17%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `7.28% - 10.15%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-04 | EMIS            | 2659647    |  110427 (4.15%)  |   110428 (4.15%) |
-| 2022-04-04 | TPP             | 212621     |   8859 (4.17%)   |    8863 (4.17%)  |
-| 2022-04-04 | Vision          | 341774     |   10792 (3.16%)  |    10792 (3.16%) |
+| 2022-08-18 | EMIS            | 2493056    |  232876 (9.34%)  |  252693 (10.15%) |
+| 2022-08-18 | TPP             | 198292     |   14321 (7.22%)  |    16214 (8.17%) |
+| 2022-08-18 | Vision          | 327521     |   23824 (7.27%)  |    23855 (7.28%) |

@@ -1,0 +1,15 @@
+13CA.	Housebound
+9NF1.	Home visit request by patient
+Xa8Jx	Unable to transfer
+9NF3.	Home visit request by relative
+9NF8.	Acute home visit
+9NF2.	Home visit planned by doctor
+XaJLP	Home visit planned by healthcare professional
+Ua2Cd	Joint home visit
+9NF9.	Chronic home visit
+9N1C.	(Seen in own home) or (home visit)
+9NFB.	Home visit elderly assessment
+Xa9Tg	Unable to change position
+9NF..	Home visit admin
+8HL..	Domiciliary visit received
+XaBQf	Home visit

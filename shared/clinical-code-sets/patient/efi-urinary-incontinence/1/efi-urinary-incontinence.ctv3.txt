@@ -1,0 +1,39 @@
+1A23.	Urinary incontinence
+1A26.	Urge incontinence of urine
+XE0rR	Genuine stress incontinence
+K586.	Stress incontinence - female
+1593.	H/O: stress incontinence
+R083.	[D]Incontinence of urine
+R0832	[D] Urge incontinence
+1A24.	Stress incontinence (& symptom)
+X76Xh	Frequency of incontinence
+XaJtx	Referral to incontinence clinic
+X30ON	Post-micturition incontinence
+X30C5	Double incontinence
+X30OI	Giggle incontinence of urine
+R083z	[D]Incontinence of urine NOS
+X30OK	Reflex incontinence of urine
+X30OJ	Overflow incontinence of urine
+Kyu5A	[X]Other specified urinary incontinence
+q3...	Incontinence sheath
+gd...	Drugs for enuresis, urinary frequency and incontinence
+XE0gn	Stress incontinence (& [female])
+R0831	[D]Urethral sphincter incontinence
+X30OH	Cough - urge incontinence of urine
+X30F3	Bladder neck operation for female stress incontinence
+8D7..	Incontinence control (& bladder)
+X30OL	Urinary sphincter weakness incontinence
+x00oF	Incontinence sheath+self adhesive liner
+Xa3t7	Urinary incontinence/sling operation
+X30OP	Urinary incontinence of non-organic origin
+X30OQ	Dependency urinary incontinence
+XE0Gh	Implantation of bulbar urethral prosthesis for incontinence
+Xa9G7	Bladder neck incompetence
+XaMAm	Insertion retropubic device stress urinary incontinence NEC
+XaMtf	Insertion retropubic dev fem stress urinary incontinence NEC
+X30Fl	Activation of bulbar urethral prosthesis for incontinence
+X30OO	Postural urinary incontinence
+X30OR	Psychogenic urinary incontinence
+X76Xj	Unaware of passing urine
+3941.	Bladder: occasional accident
+3940.	Bladder: incontinent

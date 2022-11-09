@@ -1,0 +1,50 @@
+108400009	Topiramate product
+108402001	Gabapentin product
+116511002	Oxcarbazepine product
+323013002	Gabapentin 100 mg oral capsule
+323014008	Product containing precisely gabapentin 300 milligram/1 each conventional release oral capsule
+323015009	Gabapentin 400 mg oral capsule
+323021008	Product containing precisely gabapentin 600 milligram/1 each conventional release oral tablet (clinical drug)
+323022001	Product containing precisely gabapentin 800 milligram/1 each conventional release oral tablet (clinical drug)
+323023006	Product containing precisely topiramate 50 milligram/1 each conventional release oral tablet (clinical drug)
+323024000	Product containing precisely topiramate 100 milligram/1 each conventional release oral tablet
+323025004	Product containing precisely topiramate 200 milligram/1 each conventional release oral tablet
+323029005	Product containing precisely topiramate 25 milligram/1 each conventional release oral tablet
+323046008	Product containing precisely oxcarbazepine 150 milligram/1 each conventional release oral tablet (clinical drug)
+323047004	Product containing precisely oxcarbazepine 300 milligram/1 each conventional release oral tablet (clinical drug)
+323048009	Product containing precisely oxcarbazepine 600 milligram/1 each conventional release oral tablet (clinical drug)
+409467001	Product containing precisely gabapentin 50 milligram/1 milliliter conventional release oral solution (clinical drug)
+715642001	Gabapentin enacarbil product
+715643006	Gabapentin enacarbil in oral dosage form
+765872007	Topiramate 25mg conventional release oral capsule (product)
+765984005	Topiramate 15mg conventional release oral capsule (product)
+766008000	Topiramate 50mg conventional release oral capsule
+766560002	Product containing precisely oxcarbazepine 60 milligram/1 milliliter conventional release oral suspension (clinical drug)
+768410004	Product containing gabapentin in oral dosage form
+768774004	Product containing topiramate in oral dosage form (medicinal product form)
+386844006	Topiramate
+386845007	Gabapentin
+387025007	Oxcarbazepine
+703122000	Gabapentin enacarbil (substance)
+138611000001109	Topamax 50mg tablets (Janssen-Cilag Ltd) (product)
+159611000001104	Neurontin 800mg tablets (Upjohn UK Ltd) (product)
+235111000001108	Topamax 200mg tablets (Janssen-Cilag Ltd) (product)
+290011000001107	Topamax 25mg tablets (Janssen-Cilag Ltd) (product)
+302911000001103	Neurontin 400mg capsules (Upjohn UK Ltd) (product)
+35919911000001103	Topiramate 15mg capsules (product)
+35920011000001101	Topiramate 25mg capsules (product)
+35920111000001100	Topiramate 50mg capsules (product)
+36061711000001108	Gabapentin 600mg tablets and Gabapentin 300mg capsules (product)
+3672511000001102	Trileptal 300 tablets (Novartis Pharmaceuticals UK Ltd) (product)
+3784111000001104	Trileptal 600 tablets (Novartis Pharmaceuticals UK Ltd) (product)
+3839911000001106	Trileptal 150 tablets (Novartis Pharmaceuticals UK Ltd) (product)
+38752611000001105	Oxcarbazepine 60mg/ml oral suspension sugar free (product)
+401511000001108	Neurontin 300mg capsules (Upjohn UK Ltd) (product)
+4205011000001105	Topamax 15mg sprinkle capsules (Janssen-Cilag Ltd) (product)
+4206011000001101	Topamax 25mg sprinkle capsules (Janssen-Cilag Ltd) (product)
+4206411000001105	Topamax 50mg sprinkle capsules (Janssen-Cilag Ltd) (product)
+4554411000001103	Neurontin titration pack (Pfizer Ltd) (product)
+459211000001102	Neurontin 100mg capsules (Upjohn UK Ltd) (product)
+511611000001103	Neurontin 600mg tablets (Upjohn UK Ltd) (product)
+7315411000001103	Trileptal 60mg/ml oral suspension sugar free (Novartis Pharmaceuticals UK Ltd) (product)
+823811000001105	Topamax 100mg tablets (Janssen-Cilag Ltd) (product)

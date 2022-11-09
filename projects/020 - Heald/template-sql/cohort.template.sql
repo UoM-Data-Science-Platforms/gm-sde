@@ -30,6 +30,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ020EndDate datetime;
+SET @TEMPRQ020EndDate = '2022-06-01';
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -42,6 +46,16 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TEMPRQ020EndDate;
+
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
@@ -51,6 +65,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
@@ -62,6 +78,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 --> CODESET diabetes-type-ii:1
@@ -72,22 +90,20 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients
 FROM #CovidPatients;
 
---> EXECUTE query-patient-smoking-status.sql
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-townsend.sql
---> EXECUTE query-get-covid-vaccines.sql
 
 -- Define the main cohort that will be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
@@ -98,11 +114,9 @@ SELECT
   FirstT1DiagnosisDate,
   FirstT2DiagnosisDate,
   Sex,
-  YearOfBirth,
-  LSOA_Code
+  YearOfBirth
 INTO #MainCohort
 FROM #CovidPatients c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #DiabeticPatients dm ON dm.FK_Patient_Link_ID = c.FK_Patient_Link_ID
@@ -116,7 +130,6 @@ IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatch
 SELECT c.FK_Patient_Link_ID, FirstCovidPositiveDate AS IndexDate, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #CovidPatients c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 EXCEPT
@@ -132,11 +145,9 @@ SELECT
   MatchingCovidPositiveDate AS IndexDate,
   Sex,
   MatchingYearOfBirth,
-  LSOA_Code,
   PatientId AS PatientWhoIsMatched
 INTO #MatchedCohort
 FROM #CohortStore c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.MatchingPatientId
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #DiabeticPatients);
 
 -- Define a table with all the patient ids and index dates for the main cohort and the matched cohort
@@ -148,7 +159,46 @@ SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
 -- Don't need #CohortStore any more, so tidy up
 DROP TABLE #CohortStore;
 
---> EXECUTE query-get-admissions-and-length-of-stay.sql
+-- Now we know all the cohort and matched cohort patients, we can 
+-- get temp tables of all their events/medications to improve future
+-- query speeds
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT FK_Patient_Link_ID
+FROM #PatientIdsAndIndexDates;
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [RLS].vw_GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND EventDate < @TEMPRQ020EndDate
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [RLS].vw_GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND MedicationDate < @TEMPRQ020EndDate
+AND MedicationDate >= @MedicationsFromDate;
+
+--> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
+--> EXECUTE query-patient-lsoa.sql
+--> EXECUTE query-patient-townsend.sql
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
 
 -- For each patient find the first hospital admission following their positive covid test
 -- We allow the test to be within 48 hours post admission and still count it
@@ -206,6 +256,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate > @EventsFromDate
+AND EventDate < @TEMPRQ020EndDate
 AND [Value] IS NOT NULL
 AND [Value] != '0';
 
@@ -562,7 +613,11 @@ LEFT OUTER JOIN #TempPatMedsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_ID = p.F
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y';
+WHERE DeathWithin28Days = 'Y'
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- Bring together for final output
 -- Patients in main cohort
@@ -570,8 +625,8 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
-  DeathDate,
-  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
+  CASE WHEN DeathDate < @TEMPRQ020EndDate THEN DeathDate ELSE NULL END AS DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL OR DeathDate >= @TEMPRQ020EndDate THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -611,6 +666,7 @@ SELECT
   IsOnSulphonylurea
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesHBA1C hba1c ON hba1c.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -636,8 +692,8 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
-  DeathDate,
-  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
+  CASE WHEN DeathDate < @TEMPRQ020EndDate THEN DeathDate ELSE NULL END AS DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL OR DeathDate >= @TEMPRQ020EndDate THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -677,6 +733,7 @@ SELECT
   IsOnSulphonylurea
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesHBA1C hba1c ON hba1c.FK_Patient_Link_ID = m.FK_Patient_Link_ID

@@ -1,0 +1,400 @@
+^ESCT1178201	Product containing only phenobarbitone 30 mg/1 each oral tablet
+^ESCT1178294	Product containing only pentobarbital sodium 100 mg/1 each oral capsule
+^ESCT1178357	Product containing only methylphenobarbital 100 mg/1 each oral tablet
+^ESCT1178358	Product containing only mephobarbital 100 mg/1 each oral tablet
+^ESCT1178494	Product containing butobarbital
+^ESCT1179411	Product containing only phenobarbital 90 mg/1 each oral tablet
+^ESCT1179412	Product containing only phenobarbital 16 mg/1 each oral capsule
+^ESCT1179417	Product containing only amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1181070	Product containing only quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCT1181071	Product containing only amylobarbitone 50 mg/1 each oral tablet
+^ESCT1181072	Product containing only amylobarbitone sodium 60 mg/1 each oral capsule
+^ESCT1181073	Product containing only butobarbital 100 mg/1 each oral tablet
+^ESCT1181145	Product containing only phenobarbitone 60 mg/1 each oral tablet
+^ESCT1181147	Product containing only primidone 250 mg/1 each oral tablet
+^ESCT1181369	Product containing only amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCT1181370	Product containing only quinalbarbitone sodium 100 mg/1 each oral capsule
+^ESCT1181530	Product containing only primidone 50 mg/1 each oral tablet
+^ESCT1181979	Product containing only phenobarbitone 15 mg/1 each oral tablet
+^ESCT1181980	Product containing only phenobarbitone 100 mg/1 each oral tablet
+^ESCT1182527	Product containing thiopental
+^ESCT1183184	Product containing only belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg/1 each oral tablet
+^ESCT1185143	Product containing thiopental sodium
+^ESCT1185528	Product containing only phenobarbital 16.2 mg/1 each oral tablet
+^ESCT1187497	Product containing only methylphenobarbital 32 mg/1 each oral tablet
+^ESCT1187498	Product containing only mephobarbital 32 mg/1 each oral tablet
+^ESCT1187499	Product containing only methylphenobarbital 50 mg/1 each oral tablet
+^ESCT1187500	Product containing only mephobarbital 50 mg/1 each oral tablet
+^ESCT1187579	Product containing only pentobarbital sodium 50 mg/1 each oral capsule
+^ESCT1188547	Product containing only amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCT1188601	Product containing only phenobarbital 16 mg/1 each oral tablet
+^ESCT1203316	Belladonna alkaloids + ergotamine tartrate + phenobarbital 0.2mg/0.6mg/40mg prolonged-release oral tablet
+^ESCT1206216	Amobarbital and secobarbital in oral dosage form
+^ESCT1206217	Product containing amobarbital and secobarbital in oral dosage form
+^ESCT1206231	Amobarbital in oral dosage form
+^ESCT1206232	Product containing amobarbital in oral dosage form
+^ESCT1206500	Belladonna alkaloid and ergotamine and phenobarbital product
+^ESCT1206501	Product containing belladonna alkaloid and ergotamine and phenobarbital
+^ESCT1206502	Belladonna alkaloid and ergotamine and phenobarbital in oral dosage form
+^ESCT1206503	Product containing belladonna alkaloid and ergotamine and phenobarbital in oral dosage form
+^ESCT1206531	Butobarbital in oral dosage form
+^ESCT1206532	Product containing butobarbital in oral dosage form
+^ESCT1206795	Secobarbital in oral dosage form
+^ESCT1206796	Product containing secobarbital in oral dosage form
+^ESCT1209975	Phenobarbital sodium 15 mg/mL solution for injection ampoule
+^ESCT1209976	Product containing precisely phenobarbital sodium 15 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209977	Phenobarbital sodium 15 mg/mL solution for injection ampule
+^ESCT1209978	Phenobarbital sodium 200 mg/mL solution for injection ampoule
+^ESCT1209979	Product containing precisely phenobarbital sodium 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209980	Phenobarbital sodium 200 mg/mL solution for injection ampule
+^ESCT1209981	Phenobarbital sodium 30 mg/mL solution for injection ampoule
+^ESCT1209982	Phenobarbital sodium 30 mg/mL solution for injection ampule
+^ESCT1209983	Product containing precisely phenobarbital sodium 30 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209984	Phenobarbital sodium 60 mg/mL solution for injection ampoule
+^ESCT1209985	Phenobarbital sodium 60 mg/mL solution for injection ampule
+^ESCT1209986	Product containing precisely phenobarbital sodium 60 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1215035	Phenobarbital 200mg/1ml solution for injection ampoules
+^ESCT1217840	Pentobarbital
+^ESCT1217841	Pentobarbital product
+^ESCT1218262	Secobarbital
+^ESCT1218263	Secobarbital product
+^ESCT1218412	Methylphenobarbital
+^ESCT1218413	Mephobarbital product
+^ESCT1218414	Methylphenobarbital product
+^ESCT1218430	Primidone
+^ESCT1218431	Primidone product
+^ESCT1218612	Phenobarbital
+^ESCT1218613	Phenobarbital product
+^ESCT1219630	Amobarbital
+^ESCT1219631	Amobarbital product
+^ESCT1219835	Thiopental sodium
+^ESCT1219836	Thiopental sodium product
+^ESCT1223377	Secobarbital sodium 50 mg oral capsule
+^ESCT1223378	Product containing precisely secobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1223379	Amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCT1223380	Product containing precisely amobarbital sodium 200 milligram/1 each conventional release oral capsule
+^ESCT1223381	Amobarbital sodium 200 mg oral capsule
+^ESCT1223382	Product containing precisely amobarbital 50 milligram/1 each conventional release oral tablet
+^ESCT1223383	Amobarbital 50 mg oral tablet
+^ESCT1223384	Product containing precisely secobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1223385	Secobarbital sodium 100 mg oral capsule
+^ESCT1223386	Amobarbital sodium 60 mg oral capsule
+^ESCT1223387	Product containing precisely amobarbital sodium 60 milligram/1 each conventional release oral capsule
+^ESCT1223388	Product containing precisely butobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1223891	Product containing precisely phenobarbital 15 milligram/1 each conventional release oral tablet
+^ESCT1223892	Phenobarbital 15 mg oral tablet
+^ESCT1223893	Phenobarbital 30 mg oral tablet
+^ESCT1223894	Product containing precisely phenobarbital 30 milligram/1 each conventional release oral tablet
+^ESCT1223895	Product containing precisely phenobarbital 60 milligram/1 each conventional release oral tablet
+^ESCT1223896	Phenobarbital 60 mg oral tablet
+^ESCT1223897	Phenobarbitone 100 mg oral tablet
+^ESCT1223898	Product containing precisely phenobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1223899	Phenobarbital 100 mg oral tablet
+^ESCT1223900	Phenobarbital 3 mg/mL oral elixir
+^ESCT1223901	Product containing precisely phenobarbital 3 milligram/1 milliliter conventional release oral elixir
+^ESCT1223914	Product containing precisely primidone 250 milligram/1 each conventional release oral tablet
+^ESCT1226375	Thiopental sodium 500 mg powder for solution for injection vial
+^ESCT1226376	Product containing precisely thiopental sodium 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1226437	Butobarbital
+^ESCT1226438	Butobarbital product
+^ESCT1226467	Cyclobarbitone
+^ESCT1226468	Product containing cyclobarbital
+^ESCT1226469	Cyclobarbital product
+^ESCT1226732	Thiopental
+^ESCT1226733	Thiopental product
+^ESCT1226781	Phenobarbitone in oral dosage form
+^ESCT1226782	Product containing phenobarbital in oral dosage form
+^ESCT1226783	Phenobarbital in oral dosage form
+^ESCT1226784	Phenobarbitone in parenteral dosage form
+^ESCT1226785	Product containing phenobarbital in parenteral dosage form
+^ESCT1226786	Phenobarbital in parenteral dosage form
+^ESCT1227485	Pentobarbital sodium 100 mg/1 each oral capsule
+^ESCT1227486	Product containing precisely pentobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1227487	Pentobarbital sodium 100 mg oral capsule
+^ESCT1227492	Primidone 50 mg/mL oral suspension
+^ESCT1227493	Product containing precisely primidone 50 milligram/1 milliliter conventional release oral suspension
+^ESCT1227858	Amobarbital sodium 500 mg powder for solution for injection vial
+^ESCT1227859	Product containing precisely amobarbital sodium 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1227981	Product containing precisely methylphenobarbital 32 milligram/1 each conventional release oral tablet
+^ESCT1227982	Product containing precisely methylphenobarbital 50 milligram/1 each conventional release oral tablet
+^ESCT1227983	Product containing precisely methylphenobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1228192	Product containing precisely primidone 50 milligram/1 each conventional release oral tablet
+^ESCT1228470	Pentobarbital sodium 50 mg/1 each oral capsule
+^ESCT1228471	Pentobarbital sodium 50 mg oral capsule
+^ESCT1228472	Product containing precisely pentobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1228975	Belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg oral tablet
+^ESCT1228976	Product containing precisely belladonna alkaloid 200 microgram and ergotamine tartrate 600 microgram and phenobarbital 40 milligram/1 each conventional release oral tablet
+^ESCT1228977	Belladonna alkaloid 200 microgram and ergotamine tartrate 600 microgram and phenobarbital 40 mg oral tablet
+^ESCT1229263	Amobarbital sodium 50 mg and secobarbital sodium 50 mg oral capsule
+^ESCT1229264	Product containing precisely amobarbital sodium 50 milligram and secobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1229417	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral tablet
+^ESCT1229418	Product containing precisely phenobarbital 16.2 milligram/1 each conventional release oral tablet
+^ESCT1229419	Product containing precisely phenobarbital 90 milligram/1 each conventional release oral tablet
+^ESCT1229420	Phenobarbital 16 mg/1 each oral capsule
+^ESCT1229421	Phenobarbital 16 mg oral capsule
+^ESCT1229422	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral capsule
+^ESCT1229467	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1229468	Amobarbital sodium 100 mg and secobarbital sodium 100 mg oral capsule
+^ESCT1229469	Product containing precisely amobarbital sodium 100 milligram and secobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1232039	Phenobarbital + belladona alkaloid
+^ESCT1232040	Product containing belladonna alkaloid and phenobarbital
+^ESCT1232041	Belladonna alkaloid and phenobarbital product
+^ESCT1233732	Amobarbital and secobarbital product
+^ESCT1376966	Pentobarbital-containing product
+^ESCT1377209	Methylphenobarbital-containing product
+^ESCT1377210	Mephobarbital-containing product
+^ESCT1381220	Cyclobarbital-containing product
+^ESCT1381311	Phenobarbital-containing product in oral dose form
+^ESCT1381312	Phenobarbital-containing product in parenteral dose form
+^ESCT1381686	Pentobarbital sodium 50 mg/mL oral solution
+^ESCT1381687	Pentobarbital sodium 60 mg rectal suppository
+^ESCT1381688	Pentobarbital sodium 120 mg rectal suppository
+^ESCT1381689	Pentobarbital sodium 200 mg rectal suppository
+^ESCT1381907	Pentobarbital sodium 30 mg rectal suppository
+^ESCT1382078	Pentobarbital-containing product in oral dose form
+^ESCT1382079	Pentobarbital-containing product in rectal dose form
+^ESCT1382080	Pentobarbital-containing product in parenteral dose form
+^ESCT1383014	Belladonna alkaloid- and phenobarbital-containing product
+^ESCT1386166	Amobarbital- and secobarbital-containing product in oral dose form
+^ESCT1386174	Amobarbital-containing product in oral dose form
+^ESCT1386307	Belladonna alkaloid- and ergotamine- and phenobarbital-containing product
+^ESCT1386308	Belladonna alkaloid- and ergotamine- and phenobarbital-containing product in oral dose form
+^ESCT1386324	Butobarbital-containing product in oral dose form
+^ESCT1386444	Secobarbital-containing product in oral dose form
+^ESCT1387211	Soneryl 100mg tablets (Special Order)
+^ESCT1387213	Sodium Amytal 200mg capsules (Special Order)
+^ESCT1387217	Sodium Amytal 60mg capsules (Special Order)
+^ESCT1387221	Seconal Sodium 100mg capsules (Special Order)
+^ESCT1387225	Seconal Sodium 50mg capsules (Special Order)
+^ESCTAM369911	Amobarbital
+^ESCTAM609190	Amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCTAM609193	Amobarbital 50mg tablets
+^ESCTAM609195	Amylobarbitone 50 mg oral tablet
+^ESCTAM609199	Amobarbital sodium 60mg capsules
+^ESCTAM609200	Amylobarbitone sodium 60 mg/1 each oral capsule
+^ESCTAM637220	Amobarbital
+^ESCTAM637221	Amylobarbitone
+^ESCTAM639075	Amobarbital sodium 500mg powder for solution for injection vials
+^ESCTAM639076	Amobarbital sodium 500mg/vial injection
+^ESCTAM639077	Amobarbital sodium 500mg powder for injection solution vial
+^ESCTAM642572	Amobarbital 50mg / Secobarbital sodium 50mg capsules
+^ESCTAM642573	Amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTAM643137	Amobarbital sodium 250mg injection solution vial
+^ESCTAM646058	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTAM646987	Amobarbital sodium
+^ESCTAM646988	Amylobarbitone sodium
+^ESCTAM698776	Amobarbital + Secobarbital
+^ESCTAM698777	Amobarbital + secobarbital
+^ESCTAM863399	Amobarbital sodium 200mg capsules
+^ESCTAM863649	Amytal 50mg tablets (Flynn Pharma Ltd)
+^ESCTBA419131	Barbital
+^ESCTBA419132	Barbitone
+^ESCTBE641940	Belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg oral tablet
+^ESCTBU609202	Butobarbital 100mg tablets
+^ESCTBU609204	Butobarbital 100 mg oral tablet
+^ESCTBU617649	Butobarbital
+^ESCTBU617650	Butobarbitone
+^ESCTBU617651	Butethal
+^ESCTBU655855	Butobarbital
+^ESCTBU655856	Butobarbitone
+^ESCTCY361721	Cyclobarbital
+^ESCTCY617690	Cyclobarbitone
+^ESCTDE646847	Desoxyphenobarbital
+^ESCTEM773210	Embryopathy caused by phenobarbital
+^ESCTGA806448	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceuticals Ltd)
+^ESCTME325452	Methylphenobarbital
+^ESCTME325453	Mephobarbital
+^ESCTME639339	Mephobarbital 32mg tablet
+^ESCTME639342	Methylphenobarbital 32 mg oral tablet
+^ESCTME639343	Mephobarbital 32 mg oral tablet
+^ESCTME639344	Mephobarbital 50mg tablet
+^ESCTME639347	Methylphenobarbital 50 mg oral tablet
+^ESCTME639348	Mephobarbital 50 mg oral tablet
+^ESCTME639349	Mephobarbital 100mg tablet
+^ESCTME639352	Mephobarbital 100 mg oral tablet
+^ESCTME639353	Methylphenobarbital 100 mg oral tablet
+^ESCTME646842	Mephobarbital
+^ESCTME646843	Methylphenobarbital
+^ESCTMY1010825	Mysoline 50mg tablets (SERB)
+^ESCTMY802614	Mysoline 250mg tablets (SERB)
+^ESCTMY870839	Mysoline 250mg/5ml oral suspension (Zeneca Pharma)
+^ESCTPE303486	Pentobarbital
+^ESCTPE358689	Pentobarbital sodium
+^ESCTPE635017	Pentobarbital sodium 100 mg/1 each oral capsule
+^ESCTPE635019	Pentobarbital sodium 50mg/ml solution
+^ESCTPE635020	Pentobarbital sodium 18.2mg/5ml elixir
+^ESCTPE635021	Pentobarbital sodium 60mg suppository
+^ESCTPE635022	Pentobarbital sodium 120mg suppository
+^ESCTPE635023	Pentobarbital sodium 200mg suppository
+^ESCTPE637082	Pentobarbital
+^ESCTPE637083	Pentobarbitone
+^ESCTPE640701	Pentobarbital sodium 50 mg/1 each oral capsule
+^ESCTPE640718	Pentobarbital sodium 30mg suppository
+^ESCTPE645077	Pentobarbital sodium 20mg/5ml elixir
+^ESCTPE646061	Pentobarbital in oral dosage form
+^ESCTPE646063	Pentobarbital in rectal dosage form
+^ESCTPE646067	Pentobarbital in parenteral dosage form
+^ESCTPH332756	Phenobarbital
+^ESCTPH375033	Phenobarbital sodium
+^ESCTPH610632	Phenobarbital 15mg tablets
+^ESCTPH610634	Phenobarbitone 15 mg oral tablet
+^ESCTPH610635	Phenobarbital 30mg tablets
+^ESCTPH610637	Phenobarbitone 30 mg oral tablet
+^ESCTPH610638	Phenobarbital 60mg tablets
+^ESCTPH610640	Phenobarbitone 60 mg oral tablet
+^ESCTPH610641	Phenobarbitone 100 mg oral tablet
+^ESCTPH610648	Phenobarbital 15mg/5ml elixir
+^ESCTPH610649	Phenobarbitone 15mg/5mL elixir
+^ESCTPH610650	Phenobarbital 15mg/5mL elixir
+^ESCTPH618974	Phenobarbitone in oral dosage form
+^ESCTPH618976	Phenobarbitone in parenteral dosage form
+^ESCTPH638207	Phenobarbital
+^ESCTPH638208	Phenobarbitone
+^ESCTPH645078	Phenobarbital 16 mg oral tablet
+^ESCTPH645080	Phenobarbital 16.2 mg oral tablet
+^ESCTPH645082	Phenobarbital 90 mg oral tablet
+^ESCTPH645084	Phenobarbital 16 mg/1 each oral capsule
+^ESCTPH645086	Phenobarbital 20mg/5mL elixir
+^ESCTPH682690	Phenobarbital + belladona alkaloid
+^ESCTPH773209	Phenobarbital embryopathy
+^ESCTPR303487	Product containing pentobarbital
+^ESCTPR318437	Product containing secobarbital
+^ESCTPR325454	Product containing methylphenobarbital
+^ESCTPR325455	Product containing mephobarbital
+^ESCTPR326193	Primidone
+^ESCTPR326194	Product containing primidone
+^ESCTPR332757	Product containing phenobarbital
+^ESCTPR369912	Product containing amobarbital
+^ESCTPR609189	Product containing quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCTPR609191	Product containing amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCTPR609194	Product containing amylobarbitone 50 mg/1 each oral tablet
+^ESCTPR609198	Product containing quinalbarbitone sodium 100 mg/1 each oral capsule
+^ESCTPR609201	Product containing amylobarbitone sodium 60 mg/1 each oral capsule
+^ESCTPR609203	Product containing butobarbital 100 mg/1 each oral tablet
+^ESCTPR610633	Product containing phenobarbitone 15 mg/1 each oral tablet
+^ESCTPR610636	Product containing phenobarbitone 30 mg/1 each oral tablet
+^ESCTPR610639	Product containing phenobarbitone 60 mg/1 each oral tablet
+^ESCTPR610642	Product containing phenobarbitone 100 mg/1 each oral tablet
+^ESCTPR610676	Primidone 250mg tablets
+^ESCTPR610677	Product containing primidone 250 mg/1 each oral tablet
+^ESCTPR610678	Primidone 250 mg oral tablet
+^ESCTPR618975	Product containing phenobarbitone in oral dosage form
+^ESCTPR618977	Product containing phenobarbitone in parenteral dosage form
+^ESCTPR635018	Product containing pentobarbital sodium 100 mg/1 each oral capsule
+^ESCTPR635041	Primidone 250mg/5ml oral suspension
+^ESCTPR635042	Primidone 250mg/5ml suspension
+^ESCTPR639340	Product containing mephobarbital 32 mg/1 each oral tablet
+^ESCTPR639341	Product containing methylphenobarbital 32 mg/1 each oral tablet
+^ESCTPR639345	Product containing mephobarbital 50 mg/1 each oral tablet
+^ESCTPR639346	Product containing methylphenobarbital 50 mg/1 each oral tablet
+^ESCTPR639350	Product containing mephobarbital 100 mg/1 each oral tablet
+^ESCTPR639351	Product containing methylphenobarbital 100 mg/1 each oral tablet
+^ESCTPR640007	Primidone 50mg tablets
+^ESCTPR640008	Product containing primidone 50 mg/1 each oral tablet
+^ESCTPR640009	Primidone 50 mg oral tablet
+^ESCTPR640702	Product containing pentobarbital sodium 50 mg/1 each oral capsule
+^ESCTPR641941	Product containing belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg/1 each oral tablet
+^ESCTPR642574	Product containing amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTPR645079	Product containing phenobarbital 16 mg/1 each oral tablet
+^ESCTPR645081	Product containing phenobarbital 16.2 mg/1 each oral tablet
+^ESCTPR645083	Product containing phenobarbital 90 mg/1 each oral tablet
+^ESCTPR645085	Product containing phenobarbital 16 mg/1 each oral capsule
+^ESCTPR646059	Product containing amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTPR646062	Product containing pentobarbital in oral dosage form
+^ESCTPR646064	Product containing pentobarbital in rectal dosage form
+^ESCTPR646068	Product containing pentobarbital in parenteral dosage form
+^ESCTPR646846	Primidone
+^ESCTPR646848	Primaclone
+^ESCTPR698778	Product containing amobarbital and secobarbital
+^ESCTQU358378	Quinalbarbitone sodium
+^ESCTQU609188	Quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCTQU609197	Quinalbarbitone sodium 100 mg/1 each oral capsule
+^ESCTQU637120	Quinalbarbitone
+^ESCTSE318436	Secobarbital
+^ESCTSE358377	Secobarbital sodium
+^ESCTSE609187	Secobarbital sodium 50mg capsules
+^ESCTSE609196	Secobarbital sodium 100mg capsules
+^ESCTSE637119	Secobarbital
+^ESCTSE864868	Seconal Sodium 100mg capsules (Flynn Pharma Ltd)
+^ESCTSE867102	Seconal Sodium 50mg capsules (Flynn Pharma Ltd)
+^ESCTSO863386	Soneryl 100mg tablets (Flynn Pharma Ltd)
+^ESCTSO863392	Sodium Amytal 200mg capsules (Flynn Pharma Ltd)
+^ESCTSO864445	Sodium Amytal 60mg capsules (Flynn Pharma Ltd)
+^ESCTTH377551	Thiopental sodium
+^ESCTTH377552	Thiopentone sodium
+^ESCTTH616791	Thiopental 500mg powder for solution for injection vials
+^ESCTTH616792	Thiopentone sodium 500mg injection (pdr for recon)
+^ESCTTH616793	Thiopental sodium 500mg injection (pdr for recon)
+^ESCTTH616794	Thiopental sodium 500mg powder for injection solution vial
+^ESCTTH616795	Thiopentone sodium 500mg powder for injection solution vial
+^ESCTTH618891	Thiopental
+^ESCTTH618892	Thiopentone
+^ESCTTH647173	Thiopental sodium
+^ESCTTH647174	Thiopentone sodium
+^ESCTTH682912	Thiopentone
+^ESCTTH682913	Thiopental
+^ESCTTH737717	Thiopental specific immunoglobulin E
+^ESCTTH737718	Thiopentone specific immunoglobulin E
+^ESCTTH737719	Thiopentone specific IgE
+ADIN10050HILLI	Add-A-Med Thiopentone Sodium  Injection  5 g/vial
+AMCA17522NEMIS	Amobarbital Sodium  Capsules  60 mg
+AMCA17523NEMIS	Amobarbital Sodium  Capsules  200 mg
+AMCA4599	Amylobarbitone Sodium  Capsules  200 mg
+AMCA7069	Amylobarbitone Sodium  Capsules  60 mg
+AMIN10052HILLI	Amylobarbitone Sodium  Injection  500 mg/vial
+AMIN4600	Amylobarbitone Sodium  Injection  250 mg
+AMTA152	Amylobarbitone  Tablets  100 mg
+AMTA153	Amylobarbitone  Tablets  15 mg
+AMTA154	Amylobarbitone  Tablets  200 mg
+AMTA155	Amylobarbitone  Tablets  30 mg
+AMTA156	Amylobarbitone  Tablets  50 mg
+AMTA163	Amytal  Tablets  50 mg
+AMTA17306NEMIS	Amobarbital  Tablets  50 mg
+AMTA4601	Amylobarbitone Sodium  Tablets  200 mg
+AMTA7070	Amylobarbitone Sodium  Tablets  60 mg
+BUTA17565NEMIS	Butobarbital  Tablets  100 mg
+BUTA449	Butobarbitone  Tablets  100 mg
+GAIN3629	Gardenal Sodium  Injection  200mg/ml, 1 ml ampoule
+ININ3765	Intraval Sodium  Injection  500 mg
+ININEGTON6356	Intraval Sodium  Injection  2.5 g vial
+LUTA3855	Luminal  Tablets  15 mg
+LUTA3856	Luminal  Tablets  30 mg
+LUTA3857	Luminal  Tablets  60 mg
+META5146	Methylphenobarbitone  Tablets  200 mg
+META7048	Methylphenobarbitone  Tablets  30 mg
+META7049	Methylphenobarbitone  Tablets  60 mg
+MYSU4005	Mysoline  Suspension  250mg/5 ml
+MYTA4006	Mysoline  Tablets  250 mg
+MYTA47631NEMIS	Mysoline  Tablets  50 mg
+PHEL17811NEMIS	Phenobarbital  Elixir  15 mg/5 ml
+PHEL2230	Phenobarbitone  Elixir  15 mg/5 ml
+PHIN17812NEMIS	Phenobarbital  Solution for injection  200 mg/1 ml ampoule
+PHIN5263	Phenobarbitone Sodium  Injection  200mg/ml
+PHTA17817NEMIS	Phenobarbital  Tablets  15 mg
+PHTA17818NEMIS	Phenobarbital  Tablets  30 mg
+PHTA17819NEMIS	Phenobarbital  Tablets  60 mg
+PHTA2231	Phenobarbitone  Tablets  100 mg
+PHTA2232	Phenobarbitone  Tablets  15 mg
+PHTA2233	Phenobarbitone  Tablets  30 mg
+PHTA2234	Phenobarbitone  Tablets  60 mg
+PHTA2235	Phenobarbitone Sodium  Tablets  30 mg
+PHTA2236	Phenobarbitone Sodium  Tablets  60 mg
+PRSU5331	Primidone  Suspension  250 mg/5 ml
+PRTA4216	Prominal  Tablets  200 mg
+PRTA4217	Prominal  Tablets  30 mg
+PRTA4218	Prominal  Tablets  60 mg
+PRTA47630NEMIS	Primidone  Tablets  50 mg
+PRTA5332	Primidone  Tablets  250 mg
+QUCA5354	Quinalbarbitone Sodium  Capsules  100 mg
+QUCA7064	Quinalbarbitone Sodium  Capsules  50 mg
+SECA17833NEMIS	Secobarbital Sodium  Capsules  100 mg
+SECA17834NEMIS	Secobarbital Sodium  Capsules  50 mg
+SECA2509	Seconal Sodium  Capsules  100 mg
+SECA2510	Seconal Sodium  Capsules  50 mg
+SOCA2595	Sodium Amytal  Capsules  200 mg
+SOCA2596	Sodium Amytal  Capsules  60 mg
+SOTA2642	Soneryl  Tablets  100 mg
+THIN5440	Thiopentone Sodium  Injection  500 mg
+THIN6936	Thiopentone Sodium  Injection  2.5 g/vial
+THIN9427EMIS	Thiopentone Sodium  Injection  5 g/vial
+THPO24298NEMIS	Thiopental  Powder For Solution For Injection  500 mg vial

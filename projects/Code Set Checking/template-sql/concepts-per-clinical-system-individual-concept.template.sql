@@ -1,4 +1,4 @@
---┌──────────────────────────────────────────────┐
+﻿--┌──────────────────────────────────────────────┐
 --│ Single clinical concepts per clinical system │
 --└──────────────────────────────────────────────┘
 
@@ -23,9 +23,9 @@ SET NOCOUNT ON;
 
 --> EXECUTE query-practice-systems-lookup.sql
 
---> CODESET insert-concept-here:version-number
+--> CODESET autism-spectrum-disorder:1
 DECLARE @concept varchar(255);
-SET @concept = 'insert-concept-here';
+SET @concept = 'autism-spectrum-disorder';
 
 -- Finds all patients with one of the clinical codes for the concept of interest
 IF OBJECT_ID('tempdb..#PatientsWithCode') IS NOT NULL DROP TABLE #PatientsWithCode;

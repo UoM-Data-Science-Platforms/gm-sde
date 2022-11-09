@@ -1,0 +1,164 @@
+14B..	H/O: respiratory disease
+14B3.	H/O: chr.obstr. airway disease
+14B4.	H/O: asthma
+14OX.	At risk of COPD exacerbation
+1712.	Dry cough
+1713.	Productive cough -clear sputum
+1715.	Productive cough-yellow sputum
+171A.	Chronic cough
+173A.	Exercise induced asthma
+178..	Asthma trigger
+1780.	Aspirin induced asthma
+1O2..	Asthma confirmed
+3399.	FEV1/FVC ratio abnormal
+339U.	FEV1/FVC < 70% of predicted
+33G0.	Spirometry reversibility neg
+388t.	RCP asthma assessment
+663..	Respiratory disease monitoring
+663J.	Airways obstruction reversible
+663N.	Asthma disturbing sleep
+663N0	Asthma causing night waking
+663N1	Asthma disturbs sleep weekly
+663N2	Asthma disturbs sleep freqntly
+663O.	Asthma not disturbing sleep
+663O0	Asthma never disturbs sleep
+663P.	Asthma limiting activities
+663Q.	Asthma not limiting activities
+663U.	Asthma management plan given
+663V.	Asthma severity
+663V0	Occasional asthma
+663V1	Mild asthma
+663V2	Moderate asthma
+663V3	Severe asthma
+663W.	Asthma prophylaxis used
+663d.	Emerg asthm adm since lst appt
+663e.	Asthma restricts exercise
+663f.	Asthma never restrcts exercise
+663h.	Asthma - currently dormant
+663j.	Asthma - currently active
+663l.	Spacer device in use
+663m.	Asth A&E attend since last vis
+663n.	Asth treat compliance satisfac
+663p.	Asth treat compliance unsatisf
+663q.	Asthma daytime symptoms
+663r.	Asthma night symp 1-2 per mth
+663s.	Asthma never causes day symps
+663t.	Asthma day symp 1-2 per mth
+663u.	Asthma day symp 1-2 per week
+663v.	Asthma daytime symps most days
+663w.	Asthm limits walk hills/stairs
+663x.	Asthma limits walking on flat
+663y.	Num asthm exacs in past year
+66Y5.	Change in asthma managemt plan
+66Y9.	Step up chnge asthm managmt pl
+66YA.	Step down chnge asthm manag pl
+66YB.	COPD monitoring
+66YD.	COPD monitoring due
+66YE.	Asthma monitoring due
+66YI.	COPD self-managemnt plan given
+66YJ.	Asthma annual review
+66YK.	Asthma follow-up
+66YL.	COPD follow-up
+66YM.	COPD annual review
+66YP.	Asthma night-time symptoms
+66YQ.	Asthma monitoring by nurse
+66YR.	Asthma monitoring by doctor
+66YS.	COPD monitoring by nurse
+66YT.	COPD monitoring by doctor
+66YZ.	Does not have asthma man plan
+66Yd.	COPD A&E attend sin last visit
+66Ye.	Emer COPD admi sin last appoin
+66Yf.	Numb COPD exacer in past year
+66Yg.	COPD disturbs sleep
+66Yh.	COPD does not disturb sleep
+66Yi.	Mult COPD emerg hosp admission
+679J.	Health education - asthma
+679V.	Health education - COPD
+74592	Nebuliser therapy
+8764.	Nebuliser therapy
+8776.	LTOT - Long-term oxyg therapy
+8778.	Ambulatory oxygen therapy
+8793.	Asthma control step 0
+8794.	Asthma control step 1
+8795.	Asthma control step 2
+8796.	Asthma control step 3
+8797.	Asthma control step 4
+8798.	Asthma control step 5
+8B3j.	Asthma medication review
+8CR0.	Asthma clin management plan
+8CR1.	COPD clinical management plan
+8FA..	Pulmonary rehabilitation
+8FA1.	Pulm rehab programme commenced
+8H2P.	Emergency admission, asthma
+8H2R.	Admit COPD emergency
+8H7u.	Referral to pulmonary rehab
+8HTT.	Referral to asthma clinic
+9N1d.	Seen in asthma clinic
+9N4Q.	Did not attend asthma clinic
+9N4W.	Did not attend COPD clinic
+9OJ1.	Attends asthma monitoring
+9OJ2.	Refuses asthma monitoring
+9OJ3.	Asthma monitor offer default
+9OJ7.	Asthma monitor verbal invite
+9OJA.	Asthma monitoring check done
+9Oi3.	COPD monitoring verbal invite
+9h52.	Except COPD qual ind: Inf dis
+9hA1.	Except asthma qual ind: Pt uns
+9hA2.	Excep asthma qual ind: Inf dis
+9kf..	COPD - enhanced services admin
+9kf0.	COPD unsuitbl pulm rehab - ESA
+G401.	Pulmonary embolism
+G4011	Recurrent pulmonary embolism
+G410.	Primary pulmonary hypertension
+G41y0	Secondary pulmonary hypertens.
+H....	Respiratory system diseases
+H3...	Chronic obstructive pulm.dis.
+H30..	Bronchitis unspecified
+H302.	Wheezy bronchitis
+H31..	Chronic bronchitis
+H310.	Simple chronic bronchitis
+H3100	Chronic catarrhal bronchitis
+H310z	Simple chronic bronchitis NOS
+H311.	Mucopurulent chr.bronchitis
+H3110	Purulent chronic bronchitis
+H3111	Fetid chronic bronchitis
+H312.	Obstructive chronic bronchitis
+H3120	Chronic asthmatic bronchitis
+H3122	Acute exacerbation of COAD
+H312z	Obstructive chr.bronchitis NOS
+H31y.	Other chronic bronchitis
+H31yz	Other chronic bronchitis NOS
+H31z.	Chronic bronchitis NOS
+H32..	Emphysema
+H33..	Asthma
+H330.	Extrinsic (atopic) asthma
+H3300	Extrinsic asthma - no status
+H3301	Extrinsic asthma + status
+H330z	Extrinsic asthma NOS
+H331.	Intrinsic asthma
+H3310	Intrinsic asthma - no status
+H3311	Intrinsic asthma + status
+H331z	Intrinsic asthma NOS
+H332.	Mixed asthma
+H333.	Acute exacerbation of asthma
+H334.	Brittle asthma
+H33z.	Asthma unspecified
+H33z0	Status asthmaticus NOS
+H33z1	Asthma attack
+H33z2	Late-onset asthma
+H33zz	Asthma NOS
+H36..	Mild chron obstr pulm disease
+H37..	Mod chron obstr pulm disease
+H38..	Sev chron obstr pulm disease
+H39..	Very severe COPD
+H3y..	Chronic obstr.airway dis.OS
+H3y0.	Chr obs pulm dis+ac l resp inf
+H3y1.	Chr obs pulm dis+ac exac,unspc
+H3z..	Chronic obstr.airway dis.NOS
+H564.	Bronchioliti oblit organ pneum
+Hyu31	[X]O spcf chron obs pulmon dis
+N04y0	Rheumatoid lung
+R062.	[D]Cough
+TJF73	AR - theophylline (asthma)
+U60F6	[X]Antiasthmatics adv eff,NEC
+ZV129	[V] PH - Pulmonary embolism

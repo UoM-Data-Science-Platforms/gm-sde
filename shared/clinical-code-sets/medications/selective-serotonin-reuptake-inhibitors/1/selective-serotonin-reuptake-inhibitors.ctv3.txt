@@ -1,0 +1,82 @@
+da6..	Paroxetine
+da67.	PAROXETINE 10mg tablets
+da68.	SEROXAT 10mg tablets
+da65.	Paroxetine 10mg/5mL s/f liquid
+da66.	Seroxat 10mg/5mL s/f liquid
+da63.	Paroxetine 30mg tablet
+x00g0	Seroxat 30mg tablet
+da64.	Seroxat 30mg tablets x30
+da61.	Paroxetine 20mg tablet
+x00fz	Seroxat 20mg tablet
+da62.	Seroxat 20mg tablets x30
+da5..	Sertraline
+da52.	Sertraline 100mg tablet
+da54.	Lustral 100mg tablet
+da51.	Sertraline 50mg tablet
+da53.	Lustral 50mg tablet
+x01As	Fluvoxamine
+da34.	Fluvoxamine maleate 100mg tablet
+da33.	Faverin 100mg tablet
+da32.	Fluvoxamine maleate 50mg tablet
+da31.	Faverin 50mg tablet
+da3..	Fluvoxamine maleate
+x01Ar	Fluoxetine
+da46.	Fluoxetine 60mg capsule
+da47.	Prozac 60mg capsule
+da43.	Fluoxetine 20mg/5mL oral liquid
+da4C.	PROZEP 20mg/5mL oral solution
+da4B.	Prozit 20mg/5mL oral solution
+da44.	Prozac 20mg/5mL liquid
+da41.	Fluoxetine 20mg capsule
+da4A.	Ranflutin 20mg capsule
+da49.	Oxactin 20mg capsule
+da48.	Felicium 20mg capsule
+da45.	Prozac 20mg capsule
+da42.	Prozac 20mg capsules x30
+da4..	Fluoxetine hydrochloride
+da4D.	OLENA 20mg dispersible tablets
+da4E.	FLUOXETINE 20mg dispersible tablets
+x055r	Felicium
+x02c8	Faverin
+x02oh	Prozac
+x05pd	Prozit
+x02i2	Lustral
+x03h0	Seroxat
+x05ZY	Ranflutin
+x05JP	Oxactin
+da91.	Citalopram 20mg tablet
+da91.	Citalopram 20mg tablet
+da92.	Cipramil 20mg tablet
+da92.	Cipramil 20mg tablet
+da93.	Citalopram 10mg tablet
+da93.	Citalopram 10mg tablet
+da94.	Cipramil 10mg tablet
+da94.	Cipramil 10mg tablet
+da95.	Citalopram 40mg tablet
+da95.	Citalopram 40mg tablet
+da96.	Cipramil 40mg tablet
+da96.	Cipramil 40mg tablet
+da9z.	Citalopram 40mg/mL oral drops
+da9z.	Citalopram 40mg/mL oral drops
+daC1.	Escitalopram 10mg tablet
+daC1.	Escitalopram 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC3.	Escitalopram 20mg tablet
+daC3.	Escitalopram 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC5.	Escitalopram 5mg tablet
+daC5.	Escitalopram 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC8.	CIPRALEX 10mg/mL oral drops
+daC8.	CIPRALEX 10mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
+x054r	Cipramil 40mg/mL oral drops
+x054r	Cipramil 40mg/mL oral drops

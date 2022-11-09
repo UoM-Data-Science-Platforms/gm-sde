@@ -1,0 +1,67 @@
+2715.	O/E - fundus 28-32 week size
+2716.	O/E - fundus 32-34 week size
+2717.	O/E - fundus 34-36 week size
+2718.	O/E - fundus 36-38 week size
+2719.	O/E -fundus 38 weeks-term size
+271A.	O/E - fundus = term size
+4H43.	Amniotic fluid L/S ratio
+62N..	Antenatal examination
+62N6.	Antenatal 28 week examination
+62N7.	Antenatal 30 week examination
+62N8.	Antenatal 32 week examination
+62N9.	Antenatal 34 week examination
+62NA.	Antenatal 35 week examination
+62NB.	Antenatal 36 week examination
+62NC.	Antenatal 37 week examination
+62ND.	Antenatal 38 week examination
+62NE.	Antenatal 39 week examination
+62NF.	Antenatal 40 week examination
+62NG.	Antenatal 41 week examination
+62NH.	Antenatal 42 week examination
+62NZ.	Antenatal examination NOS
+7F061	Removal of cerclage from cervix of gravid uterus
+7F061	Removal of Shirodkar suture
+7F063	ECV - External cephalic version of breech
+7F063	External version of breech
+9534.	Mat booking after 31 weeks
+9NF..	Home visit admin
+9NFZ.	Home visit admin NOS
+L1402	False labour at or after 37 completed weeks of gestation
+L15..	Post-dates
+L15..	Post-term pregnancy
+L15..	Prolonged pregnancy
+L1500	Post-term pregnancy unspecified
+L1502	Post-term pregnancy - not delivered
+L150z	Post-term pregnancy NOS
+L15z.	Prolonged pregnancy NOS
+L22..	Malposition and malpresentation of fetus
+L221.	Cephalic version NOS
+L2210	Cephalic version NOS, unspecified
+L2211	Cephalic version NOS - delivered
+L2212	Cephalic version NOS with antenatal problem
+L227.	High head at term
+L2270	High head at term unspecified
+L227z	High head at term NOS
+Xaa4q	Pertussis vaccination programme for pregnant women enhanced service administration
+Xaa5n	Pertussis vaccination in pregnancy invitation first letter
+Xaa5q	Pertussis vaccination in pregnancy invitation second letter
+Xaa5t	Pertussis vaccination in pregnancy invitation third letter
+Xaa5Z	Pertussis vaccination in pregnancy invitation
+Xaa6Y	Pertussis vaccination in pregnancy declined
+Xaaab	Health visitor antenatal visit
+XaCKp	Pregnancy prolonged - 41 weeks
+XaCKq	Pregnancy prolonged - 42 weeks
+XaEFA	Full term gestation - 40 weeks
+XaK9S	Enhanced services administration
+XaQA3	Health visitor child 6 weeks of age contact
+XaQA4	Health visitor child 9-12 month contact
+XaQA5	Health visitor child 3 month contact
+XaZvD	Antenatal 31 week examination
+XE0HQ	Removal of cerclage from cervix
+XE0ye	Failure of head to engage
+XE0ye	Head free
+XE0ye	Head not engaged
+XE0ye	High head
+XE26U	Amniotic fluid L/S ratio
+XE2Ip	Mat booking after 31 weeks
+XE2QT	Malposition and malpresentation of fetus

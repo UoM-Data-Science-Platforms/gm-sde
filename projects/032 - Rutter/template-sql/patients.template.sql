@@ -2,12 +2,13 @@
 --│ Patient information for diabetes cohort and controls│
 --└─────────────────────────────────────────────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
+-------- RESEARCH DATA ENGINEER CHECK -------------------------------
 -- Richard Williams	2021-11-26	Review complete
+-- Richard Williams	2022-08-04	Review complete following changes
+---------------------------------------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
--- Cohort (e.g. DMW/MyCognition/Oviva/DMW_and_MyCognition/control)
 -- Age at index date (09/07/19)
 -- Sex (M/F/U)
 -- EthnicMainGroup (White/Black or Black British/Asian or Asian British/Mixed/Other/NotRecorded)
@@ -15,11 +16,41 @@
 -- DateOfEarliestT2DDiagnosis (dd/mm/yyyy)
 -- DiabetesDuration (days) (number of days between diagnosis and index date)
 -- HistoryOfComorbidities (this will be several columns: one for each co-morbidity)
-
+------ MWDH Fields:
+-- MWDH_InterventionType = CASE WHEN I.FK_Patient_Link_ID IS NOT NULL THEN I.Intervention ELSE 'MyWay' END
+-- MWDH_AppRegDate = lh.Registered
+-- MWDH_AppLogins = lh.Logins
+-- MWDH_DiabetesDiagnosis = lh.DiabetesDiagnosis
+-- MWDH_DiabetesDiagnosed = lh.DiabetesDiagnosed
+-- MWDH_FirstLogin = lh.FirstLogin
+------ Changing Health Fields
+-- CHAccountCreationDate
+-- CHAccountActivationDate
+-- CHDateofFirstLogin
+-- CHDateofFirstEngagement
+-- CHDateofLastEngagement
+-- CHCountcoachingsessionsbooked
+-- CHCountcoachingsessionsattended
+-- CHCountcoachingsessionsrescheduled
+-- CHCountcoachingsessionsDNAd
+-- CHLearnJourneyProgress
+-- CHUsercompletedLearnJourney
+-- CHCountArticlesAccessed
+-- CHCountTimeSpentinArticles
+-- CHUserHeight
+-- CHUserStartWeightDate
+-- CHUserStartWeight
+-- CHUserEndWeightDate
+-- CHUserEndWeight
 
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2019-07-09';
+
+-- Set index date for any reusable queries that require it
+DECLARE @IndexDate datetime;
+SET @IndexDate = '2019-07-09';
+
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -39,111 +70,19 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---> CODESET diabetes-type-ii:1 polycystic-ovarian-syndrome:1 gestational-diabetes:1
-
---> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-year-of-birth.sql
-
 --> EXECUTE query-patient-ltcs.sql
 
--- FIND PATIENTS WITH A DIAGNOSIS OF POLYCYSTIC OVARY SYNDROME OR GESTATIONAL DIABETES, TO EXCLUDE
+------------------------------------------------------------------------------
+--> EXECUTE query-build-rq032-cohort.sql
+------------------------------------------------------------------------------
 
-IF OBJECT_ID('tempdb..#exclusions') IS NOT NULL DROP TABLE #exclusions;
-SELECT DISTINCT gp.FK_Patient_Link_ID
-INTO #exclusions
-FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE SuppliedCode IN 
-	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
-		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
-			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
-
----- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D AS OF 2019-07-09
-
-IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_diagnoses;
-SELECT gp.FK_Patient_Link_ID, 
-		YearOfBirth, 
-		Sex,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
-		EventDate,
-		SuppliedCode
-INTO #diabetes2_diagnoses
-FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
-    AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-    AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)
-	AND (gp.EventDate) <= '2019-07-09'
-	AND YEAR('2019-07-09') - yob.YearOfBirth >= 18
-
-
--- Define the main cohort to be matched
-IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
-SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth,
-		Sex,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived
-INTO #MainCohort
-FROM #diabetes2_diagnoses
---WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
-
-/*
-
--- Define the population of potential matches for the cohort
-IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
-SELECT DISTINCT p.FK_Patient_Link_ID, Sex, YearOfBirth
-INTO #PotentialMatches
-FROM #diabetes2_diagnoses
-WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
-
-
---> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:20
-
-
--- Get the matched cohort detail - same as main cohort
-IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
-SELECT 
-  c.MatchingPatientId AS FK_Patient_Link_ID,
-  Sex,
-  MatchingYearOfBirth,
-  EthnicMainGroup,
-  IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-  PatientId AS PatientWhoIsMatched
-INTO #MatchedCohort
-FROM #CohortStore c
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.MatchingPatientId
-WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
-
-
-
--- Define a table with all the patient ids for the main cohort and the matched cohort
-IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
-SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
-UNION
-SELECT MatchingPatientId FROM #CohortStore;
-
-*/
-
--- Find earliest diagnosis of T2D for each patient
-
-IF OBJECT_ID('tempdb..#EarliestDiagnosis_T2D') IS NOT NULL DROP TABLE #EarliestDiagnosis_T2D;
-SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_T2D = MIN(CAST(EventDate AS DATE))
-INTO #EarliestDiagnosis_T2D
-FROM #diabetes2_diagnoses
-GROUP BY FK_Patient_Link_ID
-
-
+--> EXECUTE query-patient-bmi.sql gp-events-table:#PatientEventData
+--> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
 
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
 
+IF OBJECT_ID('tempdb..#HistoryOfLTCs') IS NOT NULL DROP TABLE #HistoryOfLTCs;
 SELECT FK_Patient_Link_ID,
 		HO_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
 		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
@@ -188,17 +127,32 @@ FROM #PatientsWithLTCs
 GROUP BY FK_Patient_Link_ID
 
 
+-- Create table of the intervention type received: 'My Cognition' or 'Changing Health'. 
+-- Any patients that don't appear here had the 'Diabetes My Way' intervention
+
+IF OBJECT_ID('tempdb..#Intervention') IS NOT NULL DROP TABLE #Intervention;
+SELECT lh.FK_Patient_Link_ID, 
+	Intervention = LookupText
+INTO #Intervention
+FROM [MWDH].[Live_Body] lb
+LEFT JOIN [MWDH].[Live_Header] lh ON lh.PK_Live_Header_ID = lb.FK_Live_Header_ID
+where HealthRecord = 'Referral to partner program'
+
+
 --bring together for final output
 --patients in main cohort
 SELECT	 PatientId = m.FK_Patient_Link_ID
-		,Cohort = NULL
 		,NULL AS MainCohortMatchedPatientId
-		,AgeAtIndexDate =  YEAR('2019-07-09') - M.YearOfBirth
+		,AgeAtIndexDate =  YEAR(@StartDate) - M.YearOfBirth
 		,m.Sex
-		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		,BMI
+		,BMIDate = DateOfBMIMeasurement
+		,CurrentSmokingStatus = smok.CurrentSmokingStatus
+		,WorstSmokingStatus = smok.WorstSmokingStatus
+		,m.EthnicMainGroup
 		,T2D_EarliestDiagnosisDate = t2d.EarliestDiagnosis_T2D
-		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, '2019-07-09')
+		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, @StartDate)
 		,HO_cancer = ISNULL(HO_painful_condition, 0)
 		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 		,HO_migraine  = ISNULL(HO_migraine , 0)
@@ -237,61 +191,124 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,HO_learning_disability = ISNULL(HO_learning_disability, 0)
 		,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
 		,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
+		-- MWDH fields
+		,MWDH_InterventionType = CASE WHEN I.FK_Patient_Link_ID IS NOT NULL 	THEN I.Intervention 
+									  											ELSE 'MyWay'  END
+		,MWDH_AppRegDate = lh.Registered
+		,MWDH_AppLogins = lh.Logins
+		,MWDH_DiabetesDiagnosis = lh.DiabetesDiagnosis
+		,MWDH_DiabetesDiagnosed = lh.DiabetesDiagnosed
+		,MWDH_FirstLogin = lh.FirstLogin
+		-- Changing Health Fields
+		,CHAccountCreationDate
+		,CHAccountActivationDate
+		,CHDateofFirstLogin
+		,CHDateofFirstEngagement
+		,CHDateofLastEngagement
+		,CHCountcoachingsessionsbooked
+		,CHCountcoachingsessionsattended
+		,CHCountcoachingsessionsrescheduled
+		,CHCountcoachingsessionsDNAd
+		,CHLearnJourneyProgress
+		,CHUsercompletedLearnJourney
+		,CHCountArticlesAccessed
+		,CHCountTimeSpentinArticles
+		,CHUserHeight
+		,CHUserStartWeightDate
+		,CHUserStartWeight
+		,CHUserEndWeightDate
+		,CHUserEndWeight
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_T2D t2d on t2d.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-WHERE m.FK_Patient_Link_ID in (SELECT FK_Patient_Link_ID FROM #Patients)
---UNION
+LEFT OUTER JOIN MWDH.Live_Header lh on lh.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #Intervention I on I.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+UNION
 ----patients in matched cohort
---SELECT	 PatientId = m.FK_Patient_Link_ID
---		,Cohort = NULL
---		,m.PatientWhoIsMatched AS MainCohortMatchedPatientId		
---		,AgeAtIndexDate =  YEAR('2019-07-09') - M.YearOfBirth
---		,m.Sex
---		,m.EthnicMainGroup
---		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
---		,T2D_EarliestDiagnosisDate = t2d.EarliestDiagnosis_T2D
---		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, '2019-07-19')
---		,HO_cancer = ISNULL(HO_painful_condition, 0)
---		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
---		,HO_migraine  = ISNULL(HO_migraine , 0)
---		,HO_epilepsy = ISNULL(HO_epilepsy, 0)
---		,HO_coronary_heart_disease  = ISNULL(HO_coronary_heart_disease , 0)
---		,HO_atrial_fibrillation  = ISNULL(HO_atrial_fibrillation , 0)
---		,HO_heart_failure = ISNULL(HO_heart_failure, 0)
---		,HO_hypertension = ISNULL(HO_hypertension, 0)
---		,HO_peripheral_vascular_disease = ISNULL(HO_peripheral_vascular_disease, 0)
---		,HO_stroke_and_transient_ischaemic_attack = ISNULL(HO_stroke_and_transient_ischaemic_attack, 0)
---		,HO_diabetes  = ISNULL(HO_diabetes , 0)
---		,HO_thyroid_disorders  = ISNULL(HO_thyroid_disorders , 0)
---		,HO_chronic_liver_disease  = ISNULL(HO_chronic_liver_disease , 0)
---		,HO_diverticular_disease_of_intestine = ISNULL(HO_diverticular_disease_of_intestine, 0)
---		,HO_inflammatory_bowel_disease  = ISNULL(HO_inflammatory_bowel_disease , 0)
---		,HO_irritable_bowel_syndrome  = ISNULL(HO_irritable_bowel_syndrome , 0)
---		,HO_constipation = ISNULL(HO_constipation, 0)
---		,HO_dyspepsia = ISNULL(HO_dyspepsia, 0)
---		,HO_peptic_ulcer_disease  = ISNULL(HO_peptic_ulcer_disease , 0)
---		,HO_psoriasis_or_eczema  = ISNULL(HO_psoriasis_or_eczema , 0)
---		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies = ISNULL(HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies, 0)
---		,HO_multiple_sclerosis = ISNULL(HO_multiple_sclerosis, 0)
---		,HO_parkinsons_disease  = ISNULL(HO_parkinsons_disease , 0)
---		,HO_anorexia_bulimia  = ISNULL(HO_anorexia_bulimia , 0)
---		,HO_anxiety_other_somatoform_disorders = ISNULL(HO_anxiety_other_somatoform_disorders, 0)
---		,HO_dementia = ISNULL(HO_dementia, 0)
---		,HO_chronic_kidney_disease = ISNULL(HO_chronic_kidney_disease, 0)
---		,HO_prostate_disorders = ISNULL(HO_prostate_disorders, 0)
---		,HO_asthma = ISNULL(HO_asthma, 0)
---		,HO_bronchiectasis = ISNULL(HO_bronchiectasis, 0)
---		,HO_chronic_sinusitis = ISNULL(HO_chronic_sinusitis, 0)
---		,HO_copd = ISNULL(HO_copd, 0)
---		,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
---		,HO_glaucoma = ISNULL(HO_glaucoma, 0)
---		,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
---		,HO_learning_disability = ISNULL(HO_learning_disability, 0)
---		,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
---		,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
---FROM #MatchedCohort m
---LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
---LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
---LEFT OUTER JOIN #EarliestDiagnosis_T2D t2d on t2d.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+SELECT   PatientId = m.FK_Patient_Link_ID
+		,MainCohortMatchedPatientId = m.PatientWhoIsMatched 
+		,AgeAtIndexDate =  YEAR(@StartDate) - m.MatchingYearOfBirth
+		,m.Sex
+		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		,BMI
+		,BMIDate = DateOfBMIMeasurement
+		,CurrentSmokingStatus = smok.CurrentSmokingStatus
+		,WorstSmokingStatus = smok.WorstSmokingStatus
+		,m.EthnicMainGroup
+		,T2D_EarliestDiagnosisDate = t2d.EarliestDiagnosis_T2D
+		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, @StartDate)
+		,HO_cancer = ISNULL(HO_painful_condition, 0)
+		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
+		,HO_migraine  = ISNULL(HO_migraine , 0)
+		,HO_epilepsy = ISNULL(HO_epilepsy, 0)
+		,HO_coronary_heart_disease  = ISNULL(HO_coronary_heart_disease , 0)
+		,HO_atrial_fibrillation  = ISNULL(HO_atrial_fibrillation , 0)
+		,HO_heart_failure = ISNULL(HO_heart_failure, 0)
+		,HO_hypertension = ISNULL(HO_hypertension, 0)
+		,HO_peripheral_vascular_disease = ISNULL(HO_peripheral_vascular_disease, 0)
+		,HO_stroke_and_transient_ischaemic_attack = ISNULL(HO_stroke_and_transient_ischaemic_attack, 0)
+		,HO_diabetes  = ISNULL(HO_diabetes , 0)
+		,HO_thyroid_disorders  = ISNULL(HO_thyroid_disorders , 0)
+		,HO_chronic_liver_disease  = ISNULL(HO_chronic_liver_disease , 0)
+		,HO_diverticular_disease_of_intestine = ISNULL(HO_diverticular_disease_of_intestine, 0)
+		,HO_inflammatory_bowel_disease  = ISNULL(HO_inflammatory_bowel_disease , 0)
+		,HO_irritable_bowel_syndrome  = ISNULL(HO_irritable_bowel_syndrome , 0)
+		,HO_constipation = ISNULL(HO_constipation, 0)
+		,HO_dyspepsia = ISNULL(HO_dyspepsia, 0)
+		,HO_peptic_ulcer_disease  = ISNULL(HO_peptic_ulcer_disease , 0)
+		,HO_psoriasis_or_eczema  = ISNULL(HO_psoriasis_or_eczema , 0)
+		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies = ISNULL(HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies, 0)
+		,HO_multiple_sclerosis = ISNULL(HO_multiple_sclerosis, 0)
+		,HO_parkinsons_disease  = ISNULL(HO_parkinsons_disease , 0)
+		,HO_anorexia_bulimia  = ISNULL(HO_anorexia_bulimia , 0)
+		,HO_anxiety_other_somatoform_disorders = ISNULL(HO_anxiety_other_somatoform_disorders, 0)
+		,HO_dementia = ISNULL(HO_dementia, 0)
+		,HO_chronic_kidney_disease = ISNULL(HO_chronic_kidney_disease, 0)
+		,HO_prostate_disorders = ISNULL(HO_prostate_disorders, 0)
+		,HO_asthma = ISNULL(HO_asthma, 0)
+		,HO_bronchiectasis = ISNULL(HO_bronchiectasis, 0)
+		,HO_chronic_sinusitis = ISNULL(HO_chronic_sinusitis, 0)
+		,HO_copd = ISNULL(HO_copd, 0)
+		,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
+		,HO_glaucoma = ISNULL(HO_glaucoma, 0)
+		,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
+		,HO_learning_disability = ISNULL(HO_learning_disability, 0)
+		,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
+		,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
+		-- MWDH fields
+		,MWDH_InterventionType = 'Control'
+		,MWDH_AppRegDate = NULL
+		,MWDH_AppLogins = NULL
+		,MWDH_DiabetesDiagnosis = NULL
+		,MWDH_DiabetesDiagnosed = NULL
+		,MWDH_FirstLogin = NULL
+		-- Changing Health Fields
+		,CHAccountCreationDate = NULL
+		,CHAccountActivationDate = NULL
+		,CHDateofFirstLogin = NULL
+		,CHDateofFirstEngagement = NULL
+		,CHDateofLastEngagement = NULL
+		,CHCountcoachingsessionsbooked = NULL
+		,CHCountcoachingsessionsattended = NULL
+		,CHCountcoachingsessionsrescheduled = NULL
+		,CHCountcoachingsessionsDNAd = NULL
+		,CHLearnJourneyProgress = NULL
+		,CHUsercompletedLearnJourney = NULL
+		,CHCountArticlesAccessed = NULL
+		,CHCountTimeSpentinArticles = NULL
+		,CHUserHeight = NULL
+		,CHUserStartWeightDat = NULL
+		,CHUserStartWeight = NULL
+		,CHUserEndWeightDate = NULL
+		,CHUserEndWeight = NULL
+FROM #MatchedCohort m
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_T2D t2d on t2d.FK_Patient_Link_ID = m.FK_Patient_Link_ID
