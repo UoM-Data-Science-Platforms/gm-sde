@@ -1,0 +1,20 @@
+G311.11	Crescendo angina
+G311.13	Unstable angina
+G311.14	Angina at rest
+G311100	Unstable angina
+G311200	Angina at rest
+G311300	Refractory angina
+G311400	Worsening angina
+G33..00	Angina pectoris
+G330.00	Angina decubitus
+G330000	Nocturnal angina
+G330z00	Angina decubitus NOS
+G331.00	Prinzmetal's angina
+G331.11	Variant angina pectoris
+G33z.00	Angina pectoris NOS
+G33z300	Angina on effort
+G33z500	Post infarct angina
+G33z600	New onset angina
+G33z700	Stable angina
+G33zz00	Angina pectoris NOS
+Gyu3000	[X]Other forms of angina pectoris

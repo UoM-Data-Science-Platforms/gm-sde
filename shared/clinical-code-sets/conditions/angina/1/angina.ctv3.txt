@@ -1,0 +1,15 @@
+G33..	Angina
+G330.	Angina decubitus
+G3300	Nocturnal angina
+G330z	Angina decubitus NOS
+G331.	Coronary artery spasm angina
+G33z.	Angina pectoris NOS
+Gyu30	[X]Other forms of angina pectoris
+X2007	Angina at rest
+X2008	Stable angina
+X2009	Unstable angina
+X200A	New onset angina
+X200B	Angina pectoris with documented spasm
+Xa7nH	Exertional angina
+XaEXt	Post infarct angina
+XaFsG	Refractory angina

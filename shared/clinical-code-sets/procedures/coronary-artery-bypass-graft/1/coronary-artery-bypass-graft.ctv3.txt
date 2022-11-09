@@ -1,0 +1,40 @@
+792..	Coronary artery bypass graft operations
+7920.	Saphenous vein graft replacement of coronary artery
+79200	Saphenous vein graft replacement of one coronary artery
+79201	Saphenous vein graft replacement of two coronary arteries
+79202	Saphenous vein graft replacement of three coronary arteries
+79203	Saphenous vein graft replacement of four or more coronary arteries
+7920y	Other specified saphenous vein graft replacement of coronary artery
+7920z	Saphenous vein graft replacement coronary artery NOS
+7921.	Other autograft bypass of coronary artery
+79210	Autograft replacement of one coronary artery NEC
+79211	Autograft replacement of two coronary arteries NEC
+79212	Autograft replacement of three coronary arteries NEC
+79213	Autograft replacement of four of more coronary arteries NEC
+7921y	Other specified other autograft replacement of coronary artery
+7921z	Other autograft replacement of coronary artery NOS
+7922.	Allograft replacement of coronary artery
+79220	Allograft replacement of one coronary artery
+79221	Allograft replacement of two coronary arteries
+79222	Allograft replacement of three coronary arteries
+79223	Allograft replacement of four or more coronary arteries
+7922y	Other specified allograft replacement of coronary artery
+7922z	Allograft replacement of coronary artery NOS
+7923.	Prosthetic bypass of coronary artery
+7924.	Revision of bypass for coronary artery
+79240	Revision of bypass for one coronary artery
+7924y	Other specified revision of bypass for coronary artery
+7924z	Revision of bypass for coronary artery NOS
+79282	Percutaneous transluminal balloon angioplasty of bypass graft of coronary artery
+792D.	Other bypass of coronary artery
+792Dy	Other specified other bypass of coronary artery
+792Dz	Other bypass of coronary artery NOS
+X00tE	Coronary artery bypass graft operations
+X00tG	CABG x 1 - Coronary artery bypass graft x 1
+X00tH	CABG x 2 - Coronary artery bypass grafts x 2
+X00tJ	CABG x 4 - Coronary artery bypass grafts x 4
+X00tK	CABG x 5 - Coronary artery bypass grafts x 5
+X00tL	CABG >5 - Coronary artery bypass grafts greater than five
+XaBEB	[V]Presence of coronary artery bypass graft
+XaJIU	Coronary artery bypass graft occlusion
+XaVvs	CABG (coronary artery bypass graft) operation planned
