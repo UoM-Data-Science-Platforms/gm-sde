@@ -25,7 +25,6 @@ SET NOCOUNT ON;
 
 --> CODESET insert-concept-here:1
 
-
 --TODO doing stuff with CTV3 and Term codes - perhaps need to allow the CTV3 codes in 
 --the code sets to have 10 characters - 5 is the equivalent of the root readv2 code
 --while 10 is when you only want a specific synonym
