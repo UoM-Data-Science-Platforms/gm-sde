@@ -1,0 +1,34 @@
+Ua1nH	Reduced mobility
+Xa81L	Unable to manage steps
+1381.	Exercise physically impossible
+8D4..	Mobility aids
+Ub0sN	Provision of pressure relief equipment
+YA136	Unable to get in car
+YA137	Unable to get out of car
+Xa82K	Unable to get off a bed
+Xa82E	Unable to get on a bed
+XaJi6	Dependent on helper pushing wheelchair
+Xa2F9	Ability to stand from sitting
+Xa822	Unable to get out of a chair
+X74UI	Provision of mobility device
+Xa20j	Unable to walk
+Xa82W	Unable to roll over in bed
+Xa80X	Ability to mobilise outside
+Xa80x	Unable to manage stairs
+Y1906	Evidence of pressure mattress, cushion in use
+Xa8Jx	Unable to transfer
+13CE.	Mobility poor
+13C2.	Mobile outside with aid
+13C4.	Needs walking aid in home
+39B..	Walking aid use
+Xa8Aa	Difficulty mobilising
+Xa3UL	Unable to carry prepared food
+Xa80l	Unable to mobilise using wheelchair
+N097.	Difficulty in walking
+Xa21f	Unable to initiate walking
+Xa2FB	Unable to stand from sitting
+Xa2F5	Unable to stand up alone
+Y0a72	Mobility - Slightly Limited
+13CD.	Mobility very poor
+Xa82c	Unable to move up and down bed
+Xa2Ei	Unable to maintain a standing position

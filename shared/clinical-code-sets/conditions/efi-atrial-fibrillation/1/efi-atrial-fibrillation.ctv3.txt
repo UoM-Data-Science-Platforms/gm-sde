@@ -1,0 +1,23 @@
+G5730	Atrial fibrillation
+3272.	ECG: atrial fibrillation
+XaIIT	Atrial fibrillation monitoring
+Xa2E8	Paroxysmal atrial fibrillation
+G573.	Atrial fibrillation and flutter
+XaDv6	H/O: atrial fibrillation
+G573z	Atrial fibrillation and flutter NOS
+XaMGD	Atrial fibrillation annual review
+XaEga	Rapid atrial fibrillation
+Xa7nI	Controlled atrial fibrillation
+XaOfa	Persistent atrial fibrillation
+XaOft	Permanent atrial fibrillation
+X202R	Lone atrial fibrillation
+XE0Wk	(Atrial fibrillation) or (atrial flutter)
+X202S	Non-rheumatic atrial fibrillation
+XaMDH	Atrial fibrillation monitoring second letter
+7936A	Implant intravenous pacemaker for atrial fibrillation
+XaLFi	Except from atr fib quality indicators: Patient unsuitable
+XaLFj	Excepted from atrial fibrillation qual indic: Inform dissent
+3272.	ECG: atrial fibrillation
+2432.	O/E - pulse irregularly irreg.
+G5731	Atrial flutter
+3273.	ECG: atrial flutter

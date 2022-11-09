@@ -1,0 +1,13 @@
+918F.	Has a carer
+13F61	Lives in a nursing home
+9N1G.	Seen in nursing home
+XaMFG	Lives in care home
+XE2ta	Provision of home help
+Ua0Lj	Lives in staffed home
+XaN0N	Eligible for funded nursing care
+13F6.	Nursing or other home
+13WJ.	Help by relatives
+Y3101	Carers involved
+13G61	Home help attends
+13G6.	Home help: [person] or [provision]
+8GEB.	Care from friends

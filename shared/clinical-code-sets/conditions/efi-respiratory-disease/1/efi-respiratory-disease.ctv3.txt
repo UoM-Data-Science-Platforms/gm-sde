@@ -1,0 +1,241 @@
+XE0Um	Pulmonary embolus
+G410.	Primary pulmonary hypertension
+G41y0	Secondary pulmonary hypertension
+XaOYV	Recurrent pulmonary embolism
+XaBMd	[V] Personal history of pulmonary embolism
+X701k	Fibrosing alveolitis associated with rheumatoid arthritis
+X102j	Cryptogenic organising pneumonitis
+X202y	Acute massive pulmonary embolism
+X203A	Thromboembolic pulmonary hypertension
+N04y0	(Rheum lung) or (Caplan synd) or (fibr alveolit assoc arthr)
+Xa0Cy	Pulmonary hypertension with occult mitral stenosis
+X202z	Subacute massive pulmonary embolism
+G401.	(Pulmonary embolus) or (pulmonary infarction)
+X2033	Pulmonary hypertension
+XE0WI	(Pulmonary embolism) or (pulmonary infarct)
+X203G	Pulmonary hypertension associated with septal defect / shunt
+X203I	Pulmonary hypertension secondary to left sided heart disease
+XE0WK	Pulmonary hypertension (& [primary])
+X2035	Small vessel pulmonary hypertension
+X203B	Post-arteritic pulmonary hypertension
+X71a1	Long-term oxygen therapy
+XaLL8	Ambulatory oxygen therapy
+XM1Xg	Chronic respiratory disease monitoring
+1712.	Dry cough
+1713.	Productive cough -clear sputum
+1715.	Productive cough-yellow sputum
+R062.	[D]Cough
+171A.	Chronic cough
+14B..	H/O: respiratory disease
+H....	Respiratory disorder
+H33..	Asthma
+XaIeq	Asthma annual review
+XaIfK	Asthma medication review
+663U.	Asthma management plan given
+XE2Nb	Asthma monitoring check done
+663O.	Asthma not disturbing sleep
+663Q.	Asthma not limiting activities
+XM1Xb	Asthma monitoring
+XaINa	Asthma never causes daytime symptoms
+XaIer	Asthma follow-up
+Xa1hD	Exacerbation of asthma
+663O0	Asthma never disturbs sleep
+XaIIZ	Asthma daytime symptoms
+663f.	Asthma never restricts exercise
+663N.	Asthma disturbing sleep
+14B4.	H/O: asthma
+XaIu5	Asthma monitoring by nurse
+XaINd	Asthma causes daytime symptoms most days
+663P.	Asthma limiting activities
+XaLIm	Asthma trigger - respiratory infection
+663e0	Asthma sometimes restricts exercise
+9N1d.	Seen in asthma clinic
+XaINb	Asthma causes daytime symptoms 1 to 2 times per month
+XaINc	Asthma causes daytime symptoms 1 to 2 times per week
+XaIIX	Asthma treatment compliance satisfactory
+XaObj	Asthma trigger - exercise
+8795.	Asthma control step 2
+XaLJS	Asthma trigger - cold air
+XaJ50	Excepted from asthma quality indicators: Informed dissent
+XaIu6	Asthma monitoring by doctor
+8796.	Asthma control step 3
+XaLIn	Asthma trigger - seasonal
+XaEIV	Mild chronic obstructive pulmonary disease
+XaObl	Asthma trigger - tobacco smoke
+X1020	Hay fever with asthma
+XaINh	Number of asthma exacerbations in past year
+679J.	Health education - asthma
+XaLJT	Asthma trigger - damp
+XaIww	Asthma trigger
+663V.	Asthma severity
+XaLJU	Asthma trigger - emotion
+XaJYe	Asthma clinical management plan
+XaLIr	Asthma trigger - animals
+8794.	Asthma control step 1
+XaIoE	Asthma night-time symptoms
+XE0YX	Asthma NOS
+663e.	Asthma restricts exercise
+173A.	Exercise-induced asthma
+XaJ2A	Did not attend asthma clinic
+XE0YW	Asthma attack
+663N2	Asthma disturbs sleep frequently
+XaObk	Asthma trigger - pollen
+663N0	Asthma causing night waking
+H33z.	Asthma unspecified
+663W.	Asthma prophylactic medication used
+9OJ1.	Attends asthma monitoring
+9OJ2.	Refuses asthma monitoring
+H330.	Asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]
+663N1	Asthma disturbs sleep weekly
+663V1	Mild asthma
+XaIIY	Asthma treatment compliance unsatisfactory
+8H2P.	Emergency admission, asthma
+XaIQD	Step up change in asthma management plan
+XaBAQ	Recent asthma management
+XaIQE	Step down change in asthma management plan
+Xa0lZ	Asthmatic bronchitis
+9OJ7.	Asthma monitoring call verbal invite
+XaIIW	Asthma accident and emergency attendance since last visit
+XaDvL	Asthma - currently dormant
+663V0	Occasional asthma
+9OJ3.	Asthma monitor offer default
+H33zz	(Asthma:[exerc ind][allerg NEC][NOS]) or (allerg bronch NEC)
+X101x	Allergic asthma
+XaINZ	Asthma causes night symptoms 1 to 2 times per month
+663e1	Asthma severely restricts exercise
+XaDvK	Asthma - currently active
+XaObm	Asthma trigger - warm air
+XE0YQ	Allergic atopic asthma
+XaIRN	Asthma monitoring due
+XaINf	Asthma limits walking up hills or stairs
+663V2	Moderate asthma
+8797.	Asthma control step 4
+XaNKw	Royal College of Physicians asthma assessment
+X101u	Late onset asthma
+Xa9zf	Acute asthma
+XE0YT	Non-allergic asthma
+663d.	Emergency asthma admission since last appointment
+8793.	Asthma control step 0
+XaObi	Asthma trigger - airborne dust
+XE0YV	Status asthmaticus NOS
+H33z1	Asthma attack (& NOS)
+XE0ZR	Asthma: [intrinsic] or [late onset]
+8798.	Asthma control step 5
+XM0s2	Asthma attack NOS
+H33z0	(Severe asthma attack) or (status asthmaticus NOS)
+XaRFi	Patient has a written asthma personal action plan
+H332.	Mixed asthma
+H3120	Chronic asthmatic bronchitis
+XaIuG	Asthma confirmed
+c7...	Asthma prophylaxis
+663V3	Severe asthma
+XaINg	Asthma limits walking on the flat
+XaLPE	Nocturnal asthma
+XaXZm	Asthma causes night time symptoms 1 to 2 times per week
+XaIQ4	Change in asthma management plan
+H330z	Extrinsic asthma NOS
+XaXZp	Asthma causes symptoms most nights
+XaR8K	Did not attend asthma review
+XaJtu	Referral to asthma clinic
+H331z	Intrinsic asthma NOS
+Ua1AX	Brittle asthma
+XE0YR	Extrinsic asthma without status asthmaticus
+XE0ZP	Extrinsic asthma - atopy (& pollen)
+XaJuw	Does not have asthma management plan
+H3310	Intrinsic asthma without status asthmaticus
+H3300	(Hay fever + asthma) or (extr asthma without status asthmat)
+XaQig	Asthma control questionnaire
+X101z	Allergic asthma NEC
+XE0ZT	Asthma: [NOS] or [attack]
+X102D	Status asthmaticus
+X101y	Extrinsic asthma with asthma attack
+XaXZx	Asthma limits activities most days
+XaXZu	Asthma limits activities 1 to 2 times per week
+Xa8Hn	Asthma control steps
+XaXZs	Asthma limits activities 1 to 2 times per month
+X1023	Drug-induced asthma
+XE0YS	Extrinsic asthma with status asthmaticus
+X1021	Allergic non-atopic asthma
+XaQij	Under care of asthma specialist nurse
+H3311	Intrins asthma with: [asthma attack] or [status asthmaticus]
+x02IG	Corticosteroids used in the treatment of asthma
+XaRFk	Health education - structured asthma discussion
+X1024	Aspirin-sensitive asthma with nasal polyps
+TJF73	Adverse reaction to theophylline - asthma
+X1022	Intrinsic asthma with asthma attack
+XE0YU	Intrinsic asthma with status asthmaticus
+H3301	Extrins asthma with: [asthma attack] or [status asthmaticus]
+XaJ4z	Excepted from asthma quality indicators: Patient unsuitable
+XaQHq	Asthma control test
+XaX3n	Asthma review using Roy Colleg of Physicians three questions
+XaIOV	Asthma finding
+XaRFl	Health education - structured patient focused asthma discuss
+U60F6	[X]Antiasthmats caus adverse effects in therapeut use, NEC
+XaJFG	Aspirin-induced asthma
+XaRFj	Health education - asthma self management
+H3...	Chronic obstructive lung disease
+XaIet	Chronic obstructive pulmonary disease annual review
+H3122	Acute exacerbation of chronic obstructive airways disease
+XaIQT	Chronic obstructive pulmonary disease monitoring
+XaIUt	COPD self-management plan given
+XaEIW	Moderate chronic obstructive pulmonary disease
+H3z..	Chronic obstructive airways disease NOS
+XaK8U	Number of COPD exacerbations in past year
+XaIes	Chronic obstructive pulmonary disease follow-up
+XaEIY	Severe chronic obstructive pulmonary disease
+X101i	Chron obstruct pulmonary dis wth acute exacerbation, unspec
+XaLJz	Chronic obstructive pulmonary disease monitoring status
+XaJDW	Did not attend chronic obstructive pulmonary disease clinic
+XaXCb	Chronic obstructive pulmonary disease 6 monthly review
+XaJYf	Chronic obstructive pulmonary disease clini management plan
+XaJlW	Chronic obstructive pulmonary disease monitoring verb invite
+XaKv9	Chronic obstructive pulmonary disease does not disturb sleep
+H3y..	Other specified chronic obstructive airways disease
+XaXCa	Chronic obstructive pulmonary disease 3 monthly review
+XaN4a	Very severe chronic obstructive pulmonary disease
+XaPZH	COPD patient unsuitable for pulmonary rehabilitation
+XaLqj	Health education - chronic obstructive pulmonary disease
+XaIRO	Chronic obstructive pulmonary disease monitoring due
+XaK8Q	Chronic obstructive pulmonary disease finding
+XaIu8	Chronic obstructive pulmonary disease monitoring by doctor
+H3y0.	Chronic obstruct pulmonary dis with acute lower resp infectn
+XaKv8	Chronic obstructive pulmonary disease disturbs sleep
+XaK8S	Emergency COPD admission since last appointment
+Hyu31	[X]Other specified chronic obstructive pulmonary disease
+H31..	Chronic bronchitis
+H31z.	Chronic bronchitis NOS
+H310.	Simple chronic bronchitis
+XaK8R	COPD accident and emergency attendance since last visit
+H312z	Obstructive chronic bronchitis NOS
+XaIu7	Chronic obstructive pulmonary disease monitoring by nurse
+XE0ZL	(Simple chron bronchitis)/(smok cough)/(sen tracheobronchit)
+H311.	Mucopurulent chronic bronchitis
+XaX3c	Discussion about COPD exacerbation plan
+XaPzu	At risk of chronic obstructive pulmonary diseas exacerbation
+XaKzy	Multiple COPD emergency hospital admissions
+XaPio	COPD enhanced services administration
+XE0YM	Purulent chronic bronchitis
+XaRCH	Step up change in COPD management plan
+XaRCG	Step down change in COPD management plan
+H31yz	Other chronic bronchitis NOS
+H31y.	Other chronic bronchitis
+H310z	Simple chronic bronchitis NOS
+XaW9D	Issue of chronic obstructive pulmonary disease rescue pack
+XaF6d	FEV1/FVC < 70% of predicted
+H32..	Emphysema
+3399.	FEV1/FVC ratio abnormal
+Xa35l	Acute infective exacerbation chronic obstruct airway disease
+XaJFu	Admit COPD emergency
+XaIf9	Referral to pulmonary rehabilitation
+XS7qP	Pulmonary rehabilitation
+Ub1ni	Pulmonary rehabilitation class
+XaEES	Spacer device in use
+XaJ4l	Excepted from COPD quality indicators: Informed dissent
+Y1498	COPD monitoring check done
+Y5284	Acute exacerbation COAD
+8764.	Nebuliser therapy
+663J.	Airways obstruction reversible
+XaIUq	Pulmonary rehabilitation programme commenced
+Y0024	Asthma Control
+XaFrW	Spirometry reversibility negative
+XE2Pp	H/O: chr.obstr. airway disease

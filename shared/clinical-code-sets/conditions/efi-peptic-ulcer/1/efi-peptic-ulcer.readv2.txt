@@ -1,0 +1,101 @@
+14C1.	H/O: peptic ulcer
+1956.	Peptic ulcer symptoms
+76121	Open excis lesion stomach NEC
+761D5	Endo inj haemostas duod ulcer
+761D6	Endo inj haemost gastric ulcer
+761J.	Gastric ulcer operations
+761J0	Closure perforat gastric ulcer
+761J1	Closure of gastric ulcer NEC
+761Jy	Gastric ulcer operation OS
+761Jz	Gastric ulcer operation NOS
+7627.	Operations on duodenal ulcer
+76270	Closure perforate duoden ulcer
+76271	Suture of duodenal ulcer NEC
+76272	Oversew blood vessel duo ulcer
+7627y	Duodenal ulcer operation OS
+7627z	Duodenal ulcer operation NOS
+J1016	Ulcerative oesophagitis
+J1020	Peptic ulcer of oesophagus
+J11..	Gastric ulcer - (GU)
+J110.	Acute gastric ulcer
+J1100	Acute GU + no complication
+J1101	Acute GU + haemorrhage
+J1102	Acute GU + perforation
+J1103	Acute GU + h'ge + perforation
+J1104	Acute GU + obstruction
+J110y	Acute GU unspecified
+J110z	Acute gastric ulcer NOS
+J111.	Chronic gastric ulcer
+J1110	Chronic GU + no complication
+J1111	Chronic GU + haemorrhage
+J1112	Chronic GU + perforation
+J1114	Chronic GU + obstruction
+J111y	Chronic GU unspecified
+J111z	Chronic gastric ulcer NOS
+J112.	Anti-platelet induced gast ulc
+J113.	NSAID induced gastric ulcer
+J113z	NSAID induced gastric ulc NOS
+J11y.	Unspecified gastric ulcer
+J11y0	Unspecif. GU + no complication
+J11y1	Unspec. GU + haemorrhage
+J11y2	Unspec. GU + perforation
+J11yz	Unspecified gastric ulcer NOS
+J11z.	Gastric ulcer NOS
+J12..	Duodenal ulcer - (DU)
+J120.	Acute duodenal ulcer
+J1200	Acute DU + no complication
+J1201	Acute DU + haemorrhage
+J1202	Acute DU + perforation
+J1203	Acute DU + h'ge + perforation
+J120y	Acute DU unspecified
+J120z	Acute duodenal ulcer NOS
+J121.	Chronic duodenal ulcer
+J1210	Chronic DU + no complication
+J1211	Chronic DU + haemorrhage
+J1212	Chronic DU + perforation
+J1213	Chronic DU + h'ge + perforat.
+J1214	Chronic DU + obstruction
+J121y	Chronic DU unspecified
+J121z	Chronic duodenal ulcer NOS
+J122.	Duodenal ulcer disease
+J124.	Recurrent duodenal ulcer
+J125.	Anti-platelet induced duod ulc
+J126.	NSAID induced duodenal ulcer
+J126z	NSAID induced duoden ulc NOS
+J12y.	Unspecified duodenal ulcer
+J12y0	Unspec. DU + no complication
+J12y1	Unspec. DU + haemorrhage
+J12y2	Unspec. DU + perforation
+J12y3	Unspec. DU + h'ge + perforat.
+J12y4	Unspec. DU + obstruction
+J12yy	Unspec.DU; unspec.h'ge/perf.
+J12yz	Unspecified duodenal ulcer NOS
+J12z.	Duodenal ulcer NOS
+J13..	Peptic ulcer - (PU) site unsp.
+J130.	Acute peptic ulcer
+J1300	Acute PU + no complication
+J1301	Acute PU + haemorrhage
+J1302	Acute PU + perforation
+J1303	Acute PU + h'ge + perforation
+J130y	Acute PU unspecified
+J130z	Acute peptic ulcer NOS
+J131.	Chronic peptic ulcer
+J1310	Chronic PU + no complication
+J1311	Chronic PU + haemorrhage
+J1312	Chronic PU + perforation
+J131y	Chronic PU unspecified
+J131z	Chronic peptic ulcer NOS
+J13y.	Unspecified peptic ulcer
+J13y0	Unspec. PU + no complication
+J13y1	Unspec. PU + haemorrhage
+J13y2	Unspec. PU + perforation
+J13yz	Unspecified peptic ulcer NOS
+J13z.	Peptic ulcer NOS
+J14..	Gastrojejunal ulcer (GJU)
+J1401	Acute GJU + haemorrhage
+J1411	Chronic GJU + haemorrhage
+J14y.	Unspecif. gastrojejunal ulcer
+J14z.	Gastrojejunal ulcer NOS
+J17y8	Healed gastric ulcer - scar
+J57y8	Primary ulcer of intestine
+ZV12C	[V]PH of gastric ulcer

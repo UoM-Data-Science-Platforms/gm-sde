@@ -1,0 +1,49 @@
+C1090	Type II diabetes mellitus with renal complications
+XaIzR	Type II diabetes mellitus with persistent microalbuminuria
+XaF05	Type II diabetes mellitus with nephropathy
+XaIzQ	Type II diabetes mellitus with persistent proteinuria
+XE10G	Diabetes mellitus with renal manifestation
+C104.	Diabetes mellitus: [with renal manifestatn] or [nephropathy]
+C1093	Type II diabetes mellitus with multiple complications
+XaIzM	Type 1 diabetes mellitus with persistent proteinuria
+C1080	Type I diabetes mellitus with renal complications
+XaIz0	Diabetes mellitus with persistent proteinuria
+XaIyz	Diabetes mellitus with persistent microalbuminuria
+XaF04	Type I diabetes mellitus with nephropathy
+C104z	Diabetes mellitus with nephropathy NOS
+XaIzN	Type 1 diabetes mellitus with persistent microalbuminuria
+C104y	Other specified diabetes mellitus with renal complications
+Cyu23	[X]Unspecified diabetes mellitus with renal complications
+K05..	Renal failure: [chronic] or [end stage]
+PD13.	Multicystic kidney
+X30In	Chronic renal impairment
+XaLHI	Chronic kidney disease stage 3
+XaLHJ	Chronic kidney disease stage 4
+XaLHK	Chronic kidney disease stage 5
+XaNbn	Chronic kidney disease stage 3A
+XaNbo	Chronic kidney disease stage 3B
+XaO3t	Chronic kidney disease stage 3 with proteinuria
+XaO3u	Chronic kidney disease stage 3 without proteinuria
+XaO3v	Chronic kidney disease stage 3A with proteinuria
+XaO3w	Chronic kidney disease stage 3A without proteinuria
+XaO3x	Chronic kidney disease stage 3B with proteinuria
+XaO3y	Chronic kidney disease stage 3B without proteinuria
+XaO3z	Chronic kidney disease stage 4 with proteinuria
+XaO40	Chronic kidney disease stage 4 without proteinuria
+XaO41	Chronic kidney disease stage 5 with proteinuria
+XaO42	Chronic kidney disease stage 5 without proteinuria
+XaXTz	H/O: chronic kidney disease
+XaLHI	Chronic kidney disease stage 3
+XaNbn	Chronic kidney disease stage 3A
+4677.	Urine protein test = ++++
+X30In	Chronic renal impairment
+XaNbo	Chronic kidney disease stage 3B
+XaO3t	Chronic kidney disease stage 3 with proteinuria
+XaO3y	Chronic kidney disease stage 3B without proteinuria
+R110.	[D]Proteinuria
+XaO3u	Chronic kidney disease stage 3 without proteinuria
+XaMGE	Chronic kidney disease annual review
+XaO3w	Chronic kidney disease stage 3A without proteinuria
+XaLHJ	Chronic kidney disease stage 4
+XaLFm	Except chronic kidney disease qual indic: Patient unsuitable
+XaLFn	Exc chronic kidney disease quality indicators: Inform dissen

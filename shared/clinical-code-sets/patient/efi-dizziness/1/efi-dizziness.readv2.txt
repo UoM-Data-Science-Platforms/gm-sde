@@ -1,0 +1,16 @@
+1491.	H/O: vertigo/Meniere's disease
+1B5..	Incoordination symptom
+1B53.	Dizziness present
+F56..	Vestibular syndromes/disorders
+F561.	Other peripheral vertigo
+F5610	Peripheral vertigo, unspecif.
+F5611	Benign paroxysm.posit.vertigo
+F5614	Otogenic vertigo
+F561z	Other peripheral vertigo NOS
+F562.	Vertigo of central origin
+F562z	Vertigo of central origin NOS
+FyuQ1	[X]Other peripheral vertigo
+R004.	[D]Dizziness and giddiness
+R0040	[D]Dizziness
+R0043	[D]Vertigo NOS
+R0044	[D]Acute vertigo

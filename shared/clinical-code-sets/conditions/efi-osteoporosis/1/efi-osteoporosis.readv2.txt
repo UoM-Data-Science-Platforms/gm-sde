@@ -1,0 +1,45 @@
+14OD.	At risk osteoporotic fracture
+56812	Bone densimetry abnormal
+58EN.	Lumbar DXA result osteopenic
+66a..	Osteoporosis monitoring
+66a2.	Osteoporosis treatment started
+66a3.	Osteoporosis treatment stopped
+66a4.	Osteoporosis treatment changed
+66a5.	Osteoporosis - no treatment
+66a6.	Osteoporosis - dietary advice
+66a7.	Osteoporosis - diet assessment
+66a8.	Osteoporosis - exercise advice
+66a9.	Osteoporosis-falls prevention
+66aA.	Osteoporosis-treatmnt response
+66aE.	Refer osteoporosis specialist
+8HTS.	Refer to osteoporosis clinic
+9N0h.	Seen in osteoporosis clinic
+9Od0.	Attends osteoporosis monitor
+9Od2.	Osteoporosis monitor default
+N330.	Osteoporosis
+N3300	Osteoporosis, unspecified
+N3301	Senile osteoporosis
+N3302	Postmenopausal osteoporosis
+N3303	Idiopathic osteoporosis
+N3304	Dissuse osteoporosis
+N3305	Drug-induced osteoporosis
+N3306	Postoophorectomy osteoporosis
+N3307	Postsurg malabsorp osteoporos
+N3308	Local osteoporosis - Lequesne
+N330A	Osteoporosis in endocr disord
+N330B	Vertebral osteoporosis
+N330C	Osteoporosis localized spine
+N330D	Osteoporos due corticosteroid
+N330z	Osteoporosis NOS
+N3312	Postoophorc osteopor+path frct
+N3315	Drug-ind osteopor + path fract
+N3316	Idiopath osteopor + path fract
+N3318	Osteopor path # lumb vertebrae
+N3319	Osteopor path # thor vertebrae
+N331B	Postmenop osteopor+path fract
+N331L	Collap vert due osteopor NOS
+N3370	Disuse atrophy of bone
+NyuB0	[X]Oth osteoporosis+patholog #
+NyuB1	[X]Other osteoporosis
+NyuB8	[X]Unsp osteopor + pathol frac
+NyuBC	[X]Osteopenia

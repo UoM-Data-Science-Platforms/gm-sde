@@ -1,0 +1,45 @@
+X40IQ	Hypothyroidism
+XE108	Acquired hypothyroidism
+XE104	Thyrotoxicosis
+XE10A	Hypothyroidism NOS
+1432.	H/O: hypothyroidism
+C04..	Hypothyroidism: &/or (acquired)
+C04y.	Other acquired hypothyroidism
+1431.	H/O: hyperthyroidism
+C02..	([Thyrotoxicosis] or [hyperthyroidism]) or (toxic goitre)
+Xa3ed	Acquired hypothyroidism NOS
+X40HE	Autoimmune hypothyroidism
+C040.	Hypothyroidism: [postsurgical] or [post ablative]
+C04z.	Hypothyroid (& [pretib myxoed][acq goitr][NOS][thyr insuf])
+Xa3ec	Hypothyroidism - congenital and acquired
+XaOjl	Hypothyroidism annual review
+XaLUg	Hypothyroidism review
+C0410	Irradiation hypothyroidism
+X40HL	Iatrogenic hypothyroidism
+X40HF	Hypothyroidism due to Hashimoto's thyroiditis
+C041z	Postablative hypothyroidism NOS
+Cyu11	[X]Other specified hypothyroidism
+C043.	Other iatrogenic hypothyroidism
+X40HM	Postablative hypothyroidism
+X40HO	Drug-induced hypothyroidism
+C043z	Iatrogenic hypothyroidism NOS
+C041.	Other postablative hypothyroidism
+XaJDU	Did not attend hyperthyroidism clinic
+XE122	Thyrotoxicosis: [+/- goitr][tox goitr][Graves dis][thyr nod]
+XaJYj	Hypothyroidism clinical management plan
+X40HG	Hypothyroidism due to TSH receptor blocking antibody
+X40HP	Post-infectious hypothyroidism
+X40Hv	Hypothyroidism due to iodide trapping defect
+X40Hz	Hypothyroidism due to thyroglobulin synthesis defect
+XE109	Post-surgical hypothyroidism
+C042.	Iodine hypothyroidism
+C1343	TSH deficiency
+X40HN	Radioactive iodine-induced hypothyroidism
+X40HI	Compensated hypothyroidism
+XE124	Hypothyroidism - congen and acquir (& [cretinism][myxoedem])
+XE27u	Thyroid stimulating hormone (& level)
+66BZ.	Thyroid disease monitoring NOS
+XaJuM	Hypothyroidism monitoring first letter
+XE100	Disorder of thyroid gland
+4422.	Thyroid hormone tests high
+XaDtf	Thyroid function tests abnormal
