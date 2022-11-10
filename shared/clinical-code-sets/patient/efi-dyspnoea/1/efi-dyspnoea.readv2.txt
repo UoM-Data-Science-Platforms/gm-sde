@@ -1,0 +1,12 @@
+173..	Breathlessness
+1732.	Breathless - moderate exertion
+1733.	Breathless - mild exertion
+1734.	Breathless - at rest
+1738.	Difficulty breathing
+1739.	Shortness of breath
+173C.	Short of breath on exertion
+173K.	MRC Breathless Scale: grade 4
+173Z.	Breathlessness NOS
+2322.	O/E - dyspnoea
+R0608	[D]Shortness of breath
+R060A	[D]Dyspnoea

@@ -1,0 +1,9 @@
+M2000	Hard corn
+Y3059	Chiropody appointment for corns & callus
+9N1y7	Seen in chiropody clinic
+XaAhW	Referral to community-based podiatrist
+Y1700	Referral to chiropodist
+M20..	Corns and callus
+13G8.	Domiciliary chiropody
+XaAUY	Seen by community-based podiatrist
+Xa4fZ	Able to perform nail care activities

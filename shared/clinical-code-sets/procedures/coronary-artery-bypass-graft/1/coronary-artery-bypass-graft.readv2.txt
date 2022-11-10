@@ -1,0 +1,38 @@
+792..11	Coronary artery bypass graft operations
+7920.00	Saphenous vein graft replacement of coronary artery
+7920.11	Saphenous vein graft bypass of coronary artery
+7920000	Saphenous vein graft replacement of one coronary artery
+7920100	Saphenous vein graft replacement of two coronary arteries
+7920200	Saphenous vein graft replacement of three coronary arteries
+7920300	Saphenous vein graft replacement of four or more coronary arteries
+7920y00	Other specified saphenous vein graft replacement of coronary artery
+7920z00	Saphenous vein graft replacement coronary artery NOS
+7921.00	Other autograft replacement of coronary artery
+7921.11	Other autograft bypass of coronary artery
+7921000	Autograft replacement of one coronary artery NEC
+7921100	Autograft replacement of two coronary arteries NEC
+7921200	Autograft replacement of three coronary arteries NEC
+7921300	Autograft replacement of four of more coronary arteries NEC
+7921y00	Other specified other autograft replacement of coronary artery
+7921z00	Other autograft replacement of coronary artery NOS
+7922.00	Allograft replacement of coronary artery
+7922.11	Allograft bypass of coronary artery
+7922000	Allograft replacement of one coronary artery
+7922100	Allograft replacement of two coronary arteries
+7922200	Allograft replacement of three coronary arteries
+7922300	Allograft replacement of four or more coronary arteries
+7922y00	Other specified allograft replacement of coronary artery
+7922z00	Allograft replacement of coronary artery NOS
+7923.11	Prosthetic bypass of coronary artery
+7924.00	Revision of bypass for coronary artery
+7924000	Revision of bypass for one coronary artery
+7924y00	Other specified revision of bypass for coronary artery
+7924z00	Revision of bypass for coronary artery NOS
+7925.11	Creation of bypass from mammary artery to coronary artery
+7928200	Percutaneous transluminal balloon angioplasty of bypass graft of coronary artery
+792D.00	Other bypass of coronary artery
+792Dy00	Other specified other bypass of coronary artery
+792Dz00	Other bypass of coronary artery NOS
+SP07600	Coronary artery bypass graft occlusion
+ZV45K00	[V]Presence of coronary artery bypass graft
+ZV45K11	[V]Presence of coronary artery bypass graft - CABG

@@ -1,0 +1,26 @@
+1431.	H/O: hyperthyroidism
+1432.	H/O: hypothyroidism
+4422.	Thyroid hormone tests high
+442I.	Thyroid functn tests abnormal
+66BB.	Hypothyroidism annual review
+66BZ.	Thyroid disease monitoring NOS
+8CR5.	Hypothyroidism clin man plan
+9N4T.	DNA hyperthyroidism clinic
+9Oj0.	Hypothyroidism monit 1st lett
+C0...	Disorders of thyroid gland
+C02..	Thyrotoxicosis
+C04..	Acquired hypothyroidism
+C040.	Postsurgical hypothyroidism
+C041.	Other postablative hypothyroid
+C0410	Irradiation hypothyroidism
+C041z	Postablative hypothyroid. NOS
+C042.	Iodine hypothyroidism
+C043.	Other iatrogenic hypothyroid.
+C043z	Iatrogenic hypothyroidism NOS
+C044.	Postinfectious hypothyroidism
+C046.	Autoimmune myxoedema
+C04y.	Other acquired hypothyroidism
+C04z.	Hypothyroidism NOS
+C1343	TSH deficiency
+Cyu1.	[X]Disorders of thyroid gland
+Cyu11	[X]Other specfd hypothyroidism

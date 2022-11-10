@@ -60,7 +60,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 ------------------------------------------------------------------------------
 
 --> CODESET hba1c:2 cholesterol:2 hdl-cholesterol:1 ldl-cholesterol:1 egfr:1 creatinine:1 triglycerides:1
---> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1
+--> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urinary-albumin-creatinine-ratio:1
+--> CODESET height:1 weight:1
 
 -- Get observation values for the main and matched cohort
 IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;

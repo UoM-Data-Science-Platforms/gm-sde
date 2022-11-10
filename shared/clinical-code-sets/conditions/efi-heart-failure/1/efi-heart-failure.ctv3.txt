@@ -1,0 +1,52 @@
+XE2QG	Left ventricular failure
+G58..	Heart failure
+XE0V8	Biventricular failure
+XaKNN	Seen in heart failure clinic
+G580.	Heart failure: [right] or [congestive]
+G5801	Chronic congestive heart failure
+XaLNA	Heart failure care plan discussed with patient
+14A6.	H/O: heart failure
+XaLMw	Heart failure information given to patient
+XaIQM	Heart failure follow-up
+XaKNX	Referral to heart failure nurse
+XaKNa	Seen by community heart failure nurse
+XE0V9	Heart failure NOS
+XaIIU	Congestive heart failure monitoring
+XaNUf	Heart failure education
+G5800	Acute congestive heart failure
+X202l	Right ventricular failure
+XaIQN	Heart failure annual review
+XaLMx	Referral to heart failure exercise programme
+XaIpn	Heart failure confirmed
+G582.	Acute heart failure
+XaO5n	Congestive heart failure due to valvular disease
+G581.	(L ventric:[fail][imp func]) or (card asth) or (ac pulm oed)
+XaBwi	H/O: Heart failure in last year
+XE0Wo	(Conges card fail)(dropsy)(card insuf)(R hrt fail)(LV fail)
+XaKNW	Admit heart failure emergency
+XaWyi	Heart failure with normal ejection fraction
+XaQdP	Heart failure self management plan
+XaLon	Heart failure 6 month review
+X202k	Heart failure as a complication of care
+G58z.	Heart: [weak] or [failure NOS]
+XaMGu	Heart failure monitoring third letter
+XE0WE	Heart disease: [arteriosclerotic] or [chronic ischaemic NOS]
+XaEgY	Refractory heart failure
+G5y4z	Post cardiac operation heart failure NOS
+bm...	Vasodilators in heart failure [no drugs here]
+XaXgq	Referral to heart failure exercise programme declined
+XaMJA	Excepted heart failure quality indicators: Patient unsuitabl
+XaIL7	New York Heart Assoc classification heart failure symptoms
+XaMJB	Excepted heart failure quality indicators: Informed dissent
+XaLN7	Heart failure review completed
+XaLCj	Referred by heart failure nurse specialist
+XaMHD	Did not attend heart failure clinic
+XaLGJ	Did not attend practice nurse heart failure clinic
+XaXIR	Referral to heart failure education group declined
+X102Y	Acute cardiac pulmonary oedema
+XM1Qn	Impaired left ventricular function
+XaJ98	Echocardiogram shows left ventricular systolic dysfunction
+1736.	Paroxysmal nocturnal dyspnoea
+XaIIq	Left ventricular systolic dysfunction
+XaJ9I	New York Heart Association classification - class III
+XaJ9H	New York Heart Association classification - class II

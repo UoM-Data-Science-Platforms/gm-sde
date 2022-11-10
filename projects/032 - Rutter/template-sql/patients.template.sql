@@ -147,7 +147,7 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,m.Sex
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
 		,BMI
-		,BMIDate = bmi.EventDate
+		,BMIDate = DateOfBMIMeasurement
 		,CurrentSmokingStatus = smok.CurrentSmokingStatus
 		,WorstSmokingStatus = smok.WorstSmokingStatus
 		,m.EthnicMainGroup
@@ -235,7 +235,7 @@ SELECT   PatientId = m.FK_Patient_Link_ID
 		,m.Sex
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
 		,BMI
-		,BMIDate = bmi.EventDate
+		,BMIDate = DateOfBMIMeasurement
 		,CurrentSmokingStatus = smok.CurrentSmokingStatus
 		,WorstSmokingStatus = smok.WorstSmokingStatus
 		,m.EthnicMainGroup

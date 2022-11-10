@@ -1,0 +1,8 @@
+13O5.	Attendance allowance
+9EB5.	DS 1500 Disability living allowance completed
+Y3502	Allowance / DLA applied for
+Y3501	Already receiving attendance allowance / DLA
+Y0700	Physical - motor disability
+Y1558	Blue Badge disabled driver
+13V8.	Has disabled driver badge
+13VC.	Disability

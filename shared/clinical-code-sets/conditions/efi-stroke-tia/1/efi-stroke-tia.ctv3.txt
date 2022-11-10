@@ -1,0 +1,79 @@
+XE0VK	Transient ischaemic attack
+XE2aB	Stroke and cerebrovascular accident unspecified
+662M.	Stroke monitoring
+X00D1	Cerebrovascular accident
+G65z.	Transient cerebral ischaemia NOS
+XE2te	H/O: CVA/stroke
+G66..	CVA - cerebrovascular accident (& unspecified [& stroke])
+XM1R3	H/O: stroke
+XaIzF	Stroke/CVA annual review
+XaEGq	Stroke NOS
+XE0VF	Cerebral parenchymal haemorrhage
+X00DA	Lacunar infarction
+14A7.	H/O: CVA &/or stroke
+X00D7	Partial anterior cerebral circulation infarction
+G61..	Intracerebral haemorrhage (& [cerebrovasc accident due to])
+XSAbR	Stroke rehabilitation
+G640.	Cerebral thrombosis
+X00D6	Total anterior cerebral circulation infarction
+X00DI	Haemorrhagic cerebral infarction
+XE2w4	Non-traumatic subdural haematoma
+G664.	Cerebellar stroke syndrome
+G6711	Chronic cerebral ischaemia
+G663.	Brainstem stroke syndrome
+G621.	Subdural haemorrhage - nontraumatic
+XE0X2	(Cereb infarc)(cerebrovas acc)(undef stroke/CVA)(stroke NOS)
+XaKba	Stroke/transient ischaemic attack monitoring verbal invitati
+S628.	Traumatic subdural haemorrhage
+X00DT	Posterior circulation stroke of uncertain pathology
+S622.	Closed traumatic subdural haemorrhage
+XE1m2	Traumatic intracranial haemorrhage
+G64..	Cereb art occl (& [cerebvasc acc][stroke]) or (cereb infarc)
+XaKcm	Stroke/transient ischaemic attack monitoring invitation
+XA0BH	Traumatic subarachnoid haemorrhage
+X00DR	Stroke of uncertain pathology
+XaBL3	H/O: Stroke in last year
+Xa1hE	Extension of cerebrovascular accident
+X00DS	Anterior circulation stroke of uncertain pathology
+X003j	Vascular parkinsonism
+XaLtA	Delivery of rehabilitation for stroke
+XA0BE	Traumatic intracranial subdural haematoma
+Gyu6C	[X]Sequelae of stroke,not specfd as h'morrhage or infarction
+XaKSH	Haemorrhagic stroke monitoring
+XaJwA	Stroke/transient ischaemic attack monitoring status
+XE1m3	Closed traumatic subarachnoid haemorrhage
+XA0BG	Traumatic intracerebral haemorrhage
+XA0BI	Traumatic intracranial subarachnoid haemorrhage
+S620.	Haemorrh: [closed traum subarach] or [mid mening follow inj]
+G682.	Sequelae of other non-traumatic intracranial haemorrhage
+Xa1uU	Non-traumatic intracranial subdural haematoma
+XaLKH	Seen in stroke clinic
+XaJ4c	Excepted from stroke quality indicators: Informed dissent
+XaAsR	Seen by stroke service
+XaAsI	Referral to stroke service
+XA0BD	Traumatic subdural haematoma
+XaR68	Stroke/cerebrovascular accident 6 month review
+XaJDX	Did not attend stroke clinic
+XE0VL	Cerebral atherosclerosis
+XaMGv	Stroke/transient ischaemic attack monitoring telephone invte
+XE0X0	(Trans isch attacks) or (vert-basil insuf) or (drop attacks)
+XaAsJ	Admission to stroke unit
+Xa0Ml	Central post-stroke pain
+XaJuY	Stroke/transient ischaemic attack monitoring third letter
+G65y.	Other transient cerebral ischaemia
+XaR8M	Did not attend stroke review
+G65z1	Intermittent cerebral ischaemia
+XaFsk	Traumatic subdural haematoma without open intracranial wound
+G670.	Atherosclerosis: [precerebral] or [cerebral]
+F4236	Amaurosis fugax
+XaJi5	Ref to multidisciplinary stroke function improvement service
+X00E5	Spinal cord stroke
+XaJ4b	Excepted from stroke quality indicators: Patient unsuitable
+XaJYc	Referral to stroke clinic
+XaJkS	Stroke / transient ischaemic attack referral
+XM1R2	H/O: CVA
+G6...	Cerebrovascular disease
+G634.	Carotid artery stenosis
+14AB.	H/O: TIA
+XaJuX	Stroke/transient ischaemic attack monitoring second letter
+G667.	Left sided cerebral hemisphere cerebrovascular accident

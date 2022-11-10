@@ -1,0 +1,15 @@
+24E9.	O/E - R.dorsalis pedis absent
+24EA.	O/E - Absent right foot pulses
+24EC.	O/E - R dorsalis pedis abnorm
+24F9.	O/E - L.dorsalis pedis absent
+C107.	Diab.mell.+periph.circul.dis
+C1086	Insulin depen diab mel+gangren
+C109F	NIDDM with periph angiopath
+C10E6	Type 1 diab mell with gangrene
+C10FF	Type 2 diab mell+perip angiop
+G670.	Cerebral atherosclerosis
+G700.	Aortic atherosclerosis
+G73..	Other peripheral vascular dis.
+G73z.	Peripheral vascular dis. NOS
+G73zz	Peripheral vasc.disease NOS
+M2710	Ischaemic ulcer diabetic foot
