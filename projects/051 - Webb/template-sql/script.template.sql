@@ -84,7 +84,7 @@ FROM #PatientsToInclude;
 IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
 SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #GPEvents
-FROM [RLS].[vw_GP_Events]
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 --> EXECUTE query-build-rq051-gp-events.sql version:1 conditionname:Anxiety condition:anxiety
@@ -101,7 +101,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 IF OBJECT_ID('tempdb..#GPMedications') IS NOT NULL DROP TABLE #GPMedications;
 SELECT FK_Patient_Link_ID, MedicationDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #GPMedications
-FROM [RLS].[vw_GP_Medications]
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 --> EXECUTE query-build-rq051-gp-medications.sql medication:monoamine-oxidase-inhibitor version:1 medicationname:MAOI
@@ -268,7 +268,7 @@ DROP TABLE #Time
 IF OBJECT_ID('tempdb..#Ethnic') IS NOT NULL DROP TABLE #Ethnic;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicMainGroup AS Ethnic
 INTO #Ethnic
-FROM RLS.vw_Patient_Link;
+FROM SharedCare.Patient_Link;
 
 
 -- Create the table of IDM================================================================================================================================
