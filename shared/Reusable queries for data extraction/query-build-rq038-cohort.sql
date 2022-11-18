@@ -26,7 +26,7 @@ GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
 -- First get all people with COVID positive test
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:SharedCare.GP_Events
 
 -- Table of all patients with COVID at least once
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
