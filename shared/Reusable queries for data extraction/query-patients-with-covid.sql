@@ -43,32 +43,23 @@ CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF '{param:all-patients}'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '{param:start-date}'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '{param:start-date}'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '{param:start-date}'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+{if:all-patients=true}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+{endif:all-patients}
+{if:all-patients=false}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+{endif:all-patients}
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -82,30 +73,22 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF '{param:all-patients}'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM {param:gp-events-table}
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM {param:gp-events-table}
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM {param:gp-events-table}
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+{if:all-patients=true}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+{endif:all-patients}
+{if:all-patients=false}
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+{endif:all-patients}
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
