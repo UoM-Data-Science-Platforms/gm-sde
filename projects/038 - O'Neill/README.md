@@ -42,6 +42,7 @@ This project required the following reusable queries:
 - Townsend Score (2011)
 - Lower level super output area
 - Sex
+- Define Cohort for RQ038: COVID + frailty project
 - Year of birth
 - Patients with COVID
 
@@ -54,8 +55,8 @@ _Input_
 ```
 Takes three parameters
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
 ```
 
 _Output_
@@ -227,6 +228,25 @@ A temp table as follows:
 _File_: `query-patient-sex.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### Define Cohort for RQ038: COVID + frailty project
+To build the cohort of patients needed for RQ038. This reduces duplication of code in the template scripts. The cohort is any patient who was >=60 years old on 1 Jan 2020 and have at least one GP recorded positive COVID test
+
+_Input_
+```
+A variable:
+	@TEMPRQ038EndDate - the date that we will not get records beyond
+```
+
+_Output_
+```
+Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+```
+_File_: `query-build-rq038-cohort.sql`
+
+_Link_: [https://github.com/rw251/.../query-build-rq038-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq038-cohort.sql)
 
 ---
 ### Year of birth

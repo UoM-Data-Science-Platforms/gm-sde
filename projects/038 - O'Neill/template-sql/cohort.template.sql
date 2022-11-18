@@ -7,8 +7,16 @@
 --  or older on that day and who have had at least one COVID-19 positive test recorded in
 --  their GP record. There are no exclusion criteria. Follow-up is until 30 June 2022
 
---  Month of birth, sex, ethnicity, Townsend Index, Lower layer super output area (LSOA),
---  body mass index (BMI), blood pressure (systolic and diastolic)
+--  DEMOGRAPHIC DATA 
+--  PatientId, YearOfBirth, Sex, Ethnicity, Townsend index, Townsend Quintile, LSOA, MonthOfDeath, YearOfDeath
+--  COVID DATA
+--  DateofNthCovidPositive, DateOfHospitalisationFollowingNthCovid, LengthOfStayFollowingNthCovid, DeathWithin28DaysCovidTest,
+--  DateOfNthVaccine, DateOfLongCovid
+--  COMORBIDITIES
+--  DateOfPagetsDisease, DateOfDiabetes, DateOfCOPD, DateOfAsthma, DataOfSMI, DateOfDementia, DateOfMI, DateOfAngina, DateOfHeartFailure,
+--  DateOfStroke, DateOfRA
+--  BIOMARKERS
+--  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC
 
 --  The Component variables needed to calculate the Electronic Frailty Index (EFI) will be 
 --  drawn from the GMCR for the dates closest to 1 January 2020
@@ -31,30 +39,8 @@ SET NOCOUNT ON;
 DECLARE @TEMPRQ038EndDate datetime;
 SET @TEMPRQ038EndDate = '2022-06-01';
 
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ038EndDate;
-
--- First get all people with COVID positive test
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
-
--- Table of all patients with COVID at least once
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
-
---> EXECUTE query-patient-year-of-birth.sql
-
--- Now restrict to those >=60 on 1st January 2020
-TRUNCATE TABLE #Patients;
-INSERT INTO #Patients
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
-WHERE YearOfBirth <= 1959;
+-- Build the main cohort
+--> EXECUTE query-build-rq038-cohort.sql
 
 -- Now the other stuff we need
 --> EXECUTE query-patient-sex.sql

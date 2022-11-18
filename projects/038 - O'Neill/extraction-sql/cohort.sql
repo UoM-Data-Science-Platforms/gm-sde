@@ -7,8 +7,16 @@
 --  or older on that day and who have had at least one COVID-19 positive test recorded in
 --  their GP record. There are no exclusion criteria. Follow-up is until 30 June 2022
 
---  Month of birth, sex, ethnicity, Townsend Index, Lower layer super output area (LSOA),
---  body mass index (BMI), blood pressure (systolic and diastolic)
+--  DEMOGRAPHIC DATA 
+--  PatientId, YearOfBirth, Sex, Ethnicity, Townsend index, Townsend Quintile, LSOA, MonthOfDeath, YearOfDeath
+--  COVID DATA
+--  DateofNthCovidPositive, DateOfHospitalisationFollowingNthCovid, LengthOfStayFollowingNthCovid, DeathWithin28DaysCovidTest,
+--  DateOfNthVaccine, DateOfLongCovid
+--  COMORBIDITIES
+--  DateOfPagetsDisease, DateOfDiabetes, DateOfCOPD, DateOfAsthma, DataOfSMI, DateOfDementia, DateOfMI, DateOfAngina, DateOfHeartFailure,
+--  DateOfStroke, DateOfRA
+--  BIOMARKERS
+--  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC
 
 --  The Component variables needed to calculate the Electronic Frailty Index (EFI) will be 
 --  drawn from the GMCR for the dates closest to 1 January 2020
@@ -30,6 +38,24 @@ SET NOCOUNT ON;
 -- Set the temp end date until new legal basis
 DECLARE @TEMPRQ038EndDate datetime;
 SET @TEMPRQ038EndDate = '2022-06-01';
+
+-- Build the main cohort
+--┌────────────────────────────────────────────────────┐
+--│ Define Cohort for RQ038: COVID + frailty project   │
+--└────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To build the cohort of patients needed for RQ038. This reduces
+--						duplication of code in the template scripts. The cohort is any
+--						patient who was >=60 years old on 1 Jan 2020 and have at least
+--				 		one GP recorded positive COVID test
+
+-- INPUT: A variable:
+--	@TEMPRQ038EndDate - the date that we will not get records beyond
+
+-- OUTPUT: Temp tables as follows:
+-- #Patients - list of patient ids of the cohort
+
+------------------------------------------------------------------------------
 
 -- Only include patients who were first registered at a GP practice prior
 -- to June 2022. This is 1 month before COPI expired and so acts as a buffer.

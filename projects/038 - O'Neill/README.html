@@ -130,6 +130,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Townsend Score (2011)</li>
 <li>Lower level super output area</li>
 <li>Sex</li>
+<li>Define Cohort for RQ038: COVID + frailty project</li>
 <li>Year of birth</li>
 <li>Patients with COVID</li>
 </ul>
@@ -139,8 +140,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>Input</em></p>
 <pre><code>Takes three parameters
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is &quot;RLS.vw_GP_Medications&quot; but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is &quot;SharedCare.GP_Medications&quot; but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>One temp tables as follows:
@@ -273,6 +274,19 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-sex.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
+<hr>
+<h3>Define Cohort for RQ038: COVID + frailty project</h3>
+<p>To build the cohort of patients needed for RQ038. This reduces duplication of code in the template scripts. The cohort is any patient who was &gt;=60 years old on 1 Jan 2020 and have at least one GP recorded positive COVID test</p>
+<p><em>Input</em></p>
+<pre><code>A variable:
+	@TEMPRQ038EndDate - the date that we will not get records beyond
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+</code></pre>
+<p><em>File</em>: <code>query-build-rq038-cohort.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq038-cohort.sql">https://github.com/rw251/.../query-build-rq038-cohort.sql</a></p>
 <hr>
 <h3>Year of birth</h3>
 <p>To get the year of birth for each patient.</p>
