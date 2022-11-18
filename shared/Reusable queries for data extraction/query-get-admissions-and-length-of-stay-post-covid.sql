@@ -27,10 +27,6 @@
 --	-	LengthOfStay1stAdmission4thCOVIDTest - length of stay for first admission following 4th positive covid test
 --	-	LengthOfStay1stAdmission5thCOVIDTest - length of stay for first admission following 5th positive covid test
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPAdmissionsEndDate datetime;
-SET @TEMPAdmissionsEndDate = '2022-06-01';
-
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:{param:all-patients}
 
 -- Now find hospital admission following each of up to 5 covid positive tests
