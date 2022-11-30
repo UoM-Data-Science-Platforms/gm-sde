@@ -112,13 +112,6 @@ B332z	Malignant neoplasm of skin of ear and external auricular canal NOS
 B332z00	Malignant neoplasm of skin of ear and external auricular canal NOS
 B33y.	Malignant neoplasm of other specified skin sites
 B33y.00	Malignant neoplasm of other specified skin sites
-B76..00	Benign neoplasm of skin
-B76y.	Benign neoplasm of other specified skin sites
-B76y.00	Benign neoplasm of other specified skin sites
-B76z.	Benign neoplasm of skin NOS
-B76z.00	Benign neoplasm of skin NOS
-B7C4.	Benign neoplasm of scrotal skin
-B7C4.00	Benign neoplasm of scrotal skin
 B8...12	Erythroplasia
 B828.	Melanoma in situ of skin
 B828.00	Melanoma in situ of skin
@@ -179,8 +172,6 @@ BBE0.00	[M]Pigmented naevus NOS
 BBE0.11	[M]Hairy naevus NOS
 BBE0.12	[M]Naevus NOS
 BBEF.11	[M]Lentigo maligna
-M21z1	Skin tag
-M21z100	Skin tag
 B8...12	Erythroplasia
 BBE0.00	[M]Pigmented naevus NOS
 BBE0.11	[M]Hairy naevus NOS
