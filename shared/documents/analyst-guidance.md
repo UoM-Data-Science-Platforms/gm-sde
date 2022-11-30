@@ -33,6 +33,8 @@
 
 - Anything else (e.g. documentation that is not code) goes in the 'doc' folder.
 
+- Export files: you can copy the files you want to export to the redirected C or P drive in the VDE (under "Redirected drives and folders" in "This PC" folder in VDE) and they will appear in the C or P drive in your laptop.
+
 - NB. There are known issues with using RStudio on a network shared drive. If you experience slow performance please read the documentation here: https://drive.google.com/file/d/1nRuhT-FJ-Sioh0ntknktPN3kYQCc-5px/view?usp=sharing
 
 - **_NB. Please do not attempt to install extra software on the VDEs. Instead let your RDE know and it can be arranged. This does not apply to R and Stata packages which can be installed in the usual way._**
