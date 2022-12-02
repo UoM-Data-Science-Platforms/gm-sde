@@ -1,0 +1,27 @@
+BBV5.	Osteosarcoma in Paget's disease of bone
+N31..	Osteitis deformans and osteopathies associated with diseases EC
+N310.	Osteitis deformans
+N310.	Paget's disease of bone
+N3100	Paget's disease-cervical spine
+N3101	Paget's disease-thoracic spine
+N3102	Paget's disease-lumbar spine
+N3103	Paget's disease-sacrum
+N3105	Paget's disease-clavicle
+N3106	Paget's disease-scapula
+N3107	Paget's disease of humerus
+N3108	Paget's disease-radius
+N3109	Paget's disease-ulna
+N310A	Paget's disease-carpal bone
+N310D	Paget's disease of pelvis
+N310E	Paget's disease-femur
+N310F	Paget's disease-patella
+N310G	Paget's disease-tibia
+N310H	Paget's disease-fibula
+N310L	Paget's disease-other tarsal bone
+N310P	Paget's disease of skull
+N310x	Paget's disease-multiple sites
+N310y	Paget's disease OS
+N310z	Paget's disease NOS
+N311.	Osteitis deformans associated with diseases EC
+N3110	Osteitis deformans in neoplastic disease
+NyuCD	[X]Osteitis deformans in neoplastic diseases classified elsewhere

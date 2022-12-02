@@ -1,0 +1,27 @@
+^ESCTOS253195	Osteitis deformans
+^ESCTOS304203	Osteosarcoma in Paget's disease of bone
+^ESCTOS304204	Osteosarcoma in Paget disease of bone
+^ESCTOS481980	Osteitis deformans and osteopathies associated with other diseases
+^ESCTOS481981	Osteitis deformans and osteopathies associated with diseases EC
+^ESCTOS482029	Osteitis deformans of skull
+^ESCTOS482032	Osteitis deformans associated with another disorder
+^ESCTPA253197	Pagets disease of bone
+^ESCTPA481983	Paget disease-cervical spine
+^ESCTPA481985	Paget disease-thoracic spine
+^ESCTPA481987	Paget disease-lumbar spine
+^ESCTPA481989	Paget disease-sacrum
+^ESCTPA481993	Paget disease-clavicle
+^ESCTPA481995	Paget disease-scapula
+^ESCTPA481996	Paget's disease of humerus
+^ESCTPA481997	Paget disease of humerus
+^ESCTPA481999	Paget disease-radius
+^ESCTPA482001	Paget disease-ulna
+^ESCTPA482003	Paget disease-carpal bone
+^ESCTPA482009	Paget disease of pelvis
+^ESCTPA482012	Paget disease-femur
+^ESCTPA482014	Paget disease-patella
+^ESCTPA482016	Paget disease-tibia
+^ESCTPA482018	Paget disease-fibula
+^ESCTPA482027	Paget's disease of skull
+^ESCTPA482028	Paget disease of skull
+^ESCTPA482031	Paget disease-multiple sites
