@@ -28,7 +28,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
