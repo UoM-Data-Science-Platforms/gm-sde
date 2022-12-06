@@ -43,7 +43,7 @@ INSERT INTO #PracticeSystemLookup VALUES
 
 -- Every unique person in the GMCR database
 IF OBJECT_ID('tempdb..#AllGMCRPatients') IS NOT NULL DROP TABLE #AllGMCRPatients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllGMCRPatients FROM RLS.vw_Patient_Link;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllGMCRPatients FROM SharedCare.Patient_Link;
 -- 5464180
 
 -- Populate patient table to get other demographic info
@@ -85,7 +85,7 @@ SELECT
 		ELSE 10
 	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
 INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND IMD_Score IS NOT NULL
 AND IMD_Score != -1;
@@ -170,7 +170,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
@@ -246,7 +246,7 @@ SELECT
 	HDMModifDate,
 	Sex
 INTO #AllPatientSexs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Sex IS NOT NULL;
 
@@ -320,7 +320,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -380,12 +380,12 @@ HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 
 -- Every living unique person in the GMCR database
 IF OBJECT_ID('tempdb..#AllLivingGMCRPatients') IS NOT NULL DROP TABLE #AllLivingGMCRPatients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllLivingGMCRPatients FROM RLS.vw_Patient_Link WHERE Deceased='N';
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllLivingGMCRPatients FROM SharedCare.Patient_Link WHERE Deceased='N';
 -- 5238741
 
 -- Every unique person in the GMCR database who now or previously was registered with a GM GP
 IF OBJECT_ID('tempdb..#GMCRPatientsWithGPFeed') IS NOT NULL DROP TABLE #GMCRPatientsWithGPFeed;
-SELECT distinct FK_Patient_Link_ID INTO #GMCRPatientsWithGPFeed FROM RLS.vw_Patient WHERE FK_Reference_Tenancy_ID=2;
+SELECT distinct FK_Patient_Link_ID INTO #GMCRPatientsWithGPFeed FROM SharedCare.Patient WHERE FK_Reference_Tenancy_ID=2;
 -- 3487444
 
 -- Every unique living person in the GMCR database who now or previously was registered with a GM GP
@@ -397,7 +397,7 @@ SELECT FK_Patient_Link_ID FROM #AllLivingGMCRPatients;
 
 -- Every unique person in the GMCR database who is currently registered with a GM GP (includes dead people who died while registered at a GM GP)
 IF OBJECT_ID('tempdb..#GMCRPatientsWithGMGP') IS NOT NULL DROP TABLE #GMCRPatientsWithGMGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #GMCRPatientsWithGMGP FROM RLS.vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #GMCRPatientsWithGMGP FROM SharedCare.Patient
 WHERE GPPracticeCode NOT LIKE 'ZZ%'
 AND FK_Reference_Tenancy_ID=2;
 -- 3246326
