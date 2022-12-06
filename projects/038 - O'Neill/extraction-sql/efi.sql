@@ -24,7 +24,11 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 --						duplication of code in the template scripts. The cohort is any
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
+<<<<<<< HEAD
 --            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
+=======
+
+>>>>>>> 4b3f790 (Latest code)
 -- INPUT: A variable:
 --	@TEMPRQ038EndDate - the date that we will not get records beyond
 
@@ -535,6 +539,142 @@ SELECT * FROM #PatientEventData3;
 DROP INDEX IF EXISTS eventData ON #PatientEventData;
 CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
 
+<<<<<<< HEAD
+=======
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
+-- Now restrict to those >=60 on 1st January 2020
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
+WHERE YearOfBirth <= 1959;
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ038EndDate
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < @TEMPRQ038EndDate;
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+>>>>>>> 4b3f790 (Latest code)
 -- Get the EFI over time
 --┌────────────────────────────────────┐
 --│ Calcluate Electronic Frailty Index │
@@ -1366,6 +1506,7 @@ GROUP BY FK_Patient_Link_ID;
 -- UPDATE Andy Clegg algorithm is for 5 different meds in a 12 month period. Maybe
 -- we should define it in both ways - and allow sensitivity analysis
 -- The following is a look back so gives number of meds in 12 months prior to a prescription
+<<<<<<< HEAD
 
 --┌──────────────────────────────────────────┐
 --│ Patient medication data splitter for EFI │
@@ -1446,6 +1587,14 @@ SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
 INTO #PolypharmDates5InLastYear0
 FROM [#PatientMedDataTempTable0] m1
 LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
+=======
+-- This will deal with the start events.
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
+SELECT m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate]) AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear
+FROM #PatientMedicationData m1
+LEFT OUTER JOIN #PatientMedicationData m2
+>>>>>>> 4b3f790 (Latest code)
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND m1.[MedicationDate] >= m2.[MedicationDate]
 	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
@@ -1453,11 +1602,19 @@ GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
 HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
 
 -- Next is a look forward from the day after a medication. This will deal with the stop events
+<<<<<<< HEAD
 IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear0') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear0;
 SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
 INTO #PolypharmStopDates5InLastYear0
 FROM [#PatientMedDataTempTable0] m1
 LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
+=======
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear
+FROM #PatientMedicationData m1
+LEFT OUTER JOIN #PatientMedicationData m2
+>>>>>>> 4b3f790 (Latest code)
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
 	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])

@@ -18,6 +18,7 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 -- Build the main cohort
 --> EXECUTE query-build-rq038-cohort.sql
 
+<<<<<<< HEAD
 -- Forces the code lists to insert here, so we can reference them in the below queries
 --> CODESET efi-arthritis:1
 
@@ -86,6 +87,44 @@ CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_L
 
 -- Get the EFI over time
 --> EXECUTE query-patients-calculate-efi-over-time.sql gp-events-table:#PatientEventData
+=======
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ038EndDate
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < @TEMPRQ038EndDate;
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+-- Get the EFI over time
+--> EXECUTE query-patients-calculate-efi-over-time.sql all-patients:false gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
+>>>>>>> 4b3f790 (Latest code)
 
 -- Finally we just select from the EFI table with the required fields
 SELECT

@@ -545,9 +545,13 @@ This project required the following clinical code sets:
 - diabetes-type-ii v1
 - copd v1
 - asthma v1
+<<<<<<< HEAD
 - dementia v1
 - severe-mental-illness v1
 - myocardial-infarction v1
+=======
+- severe-mental-illness v1
+>>>>>>> 4b3f790 (Latest code)
 - angina v1
 - heart-failure v1
 - rheumatoid-arthritis v1
@@ -558,12 +562,15 @@ This project required the following clinical code sets:
 - egfr v1
 - hba1c v2
 - vitamin-d v1
+<<<<<<< HEAD
 - haemoglobin v1
 - white-blood-cells v1
 - platelets v1
 - alkaline-phosphatase v1
 - corrected-calcium v1
 - efi-arthritis v1
+=======
+>>>>>>> 4b3f790 (Latest code)
 - efi-activity-limitation v1
 - efi-anaemia v1
 - efi-atrial-fibrillation v1
@@ -851,6 +858,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/asthma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/asthma/1)
 
+<<<<<<< HEAD
 ### Dementia
 
 Any code indicating that a person has dementia, including Alzheimer's disease.
@@ -868,6 +876,8 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
 
+=======
+>>>>>>> 4b3f790 (Latest code)
 ### Severe mental illness
 
 Defined as any diagnosis of:
@@ -902,6 +912,7 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
 
+<<<<<<< HEAD
 ### Myocardial infarction
 
 Any code that indicates that a person has had a myocardial infarction. NB This includes "history" codes as well so is not best suited if you solely want to know when a diagnosis occurred.
@@ -933,6 +944,13 @@ update:
 | 2022-12-07 | EMIS            | 2438760    |    26698 (1.09%) |     27181 (1.11%) |
 | 2022-12-07 | TPP             | 198672     |     2658 (1.34%) |      4448 (2.24%) |
 | 2022-12-07 | Vision          | 327081     |     3537 (1.08%) |      3530 (1.08%) |
+=======
+### Angina
+
+Any code indicating a diagnosis of angina. Does not include codes that indicate angina but are not diagnoses e.g. "h/o angina", "angina plan discussed".
+
+TODO need to validate
+>>>>>>> 4b3f790 (Latest code)
 
 LINK: [https://github.com/rw251/.../conditions/angina/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/angina/1)
 
@@ -1085,6 +1103,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
 
+<<<<<<< HEAD
 ### Haemoglobin
 
 A patient's haemoglobin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`423.. - Haemoglobin estimation`). It does not include codes that indicate a patient's haemoglobin (`4235 - Haemoglobin low`) without giving the actual value.
@@ -1177,6 +1196,8 @@ These are the codes from the original electronic frailty index (EFI). Our aim is
 
 LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/efi-arthritis/1)
 
+=======
+>>>>>>> 4b3f790 (Latest code)
 ### Activity limitation (for electronic frailty index)
 
 These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
