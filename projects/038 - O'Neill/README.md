@@ -39,6 +39,13 @@ This project required the following reusable queries:
 - Electronic Frailty Index common queries
 - Electronic Frailty Index subquery
 - Electronic Frailty Index subquery
+- Find the closest value to a particular date
+- Find the first diagnosis of a particular disease
+- COVID vaccinations
+- Patients with post-COVID syndrome (long COVID)
+- Secondary admissions and length of stay following each of n COVID tests
+- Secondary admissions and length of stay
+- Secondary discharges
 - Townsend Score (2011)
 - Lower level super output area
 - Sex
@@ -145,6 +152,204 @@ None. This populates the pre-existing #EfiEvents table with the first time the p
 _File_: `subquery-efi.sql`
 
 _Link_: [https://github.com/rw251/.../subquery-efi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/subquery-efi.sql)
+
+---
+### Find the closest value to a particular date
+To find the first diagnosis for a particular disease for every patient.
+
+_Input_
+```
+A variable:
+  - date: date - (YYYY-MM-DD) the date to look around
+  - comparison: inequality sign (>, <, >= or <=) e.g. if '>' then will look for the first value strictly after the date
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - temp-table-name: string - the name of the temp table that this will produce
+```
+
+_Output_
+```
+Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+```
+_File_: `query-get-closest-value-to-date.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-closest-value-to-date.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-closest-value-to-date.sql)
+
+---
+### Find the first diagnosis of a particular disease
+To find the first diagnosis for a particular disease for every patient.
+
+_Input_
+```
+A variable:
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - temp-table-name: string - the name of the temp table that this will produce
+```
+
+_Output_
+```
+Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+```
+_File_: `query-get-first-diagnosis.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-first-diagnosis.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-first-diagnosis.sql)
+
+---
+### COVID vaccinations
+To obtain a table with first, second, third... etc vaccine doses per patient.
+
+_Assumptions_
+
+- GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine.
+- The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination
+
+_Input_
+```
+Takes two parameters:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+A temp table as follows:
+ #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+ 	- FK_Patient_Link_ID - unique patient id
+	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
+```
+_File_: `query-get-covid-vaccines.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-covid-vaccines.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql)
+
+---
+### Patients with post-COVID syndrome (long COVID)
+To get tables of all patients with a post-COVID syndrome code in their record. Separated into diagnosis, assessment and referral codes. 
+
+_Input_
+```
+Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+
+```
+
+_Output_
+```
+One temp table as follows:
+ #PostCOVIDPatients
+	-	FK_Patient_Link_ID - unique patient id
+  - FirstPostCOVIDDiagnosisDate - First date of a post COVID diagnosis
+  - FirstPostCOVIDAssessmentDate - First date of a post COVID assessment
+  - FirstPostCOVIDReferralDate - First date of a post COVID referral
+```
+_File_: `query-patients-with-post-covid-syndrome.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-post-covid-syndrome.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-post-covid-syndrome.sql)
+
+---
+### Secondary admissions and length of stay following each of n COVID tests
+To obtain tables with the first secondary care admission, and length of stay, following the nth COVID test.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #PatientsAdmissionsPostTest
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstAdmissionPost1stCOVIDTest - date of first admission following 1st covid postivie test (YYYY-MM-DD)
+	-	FirstAdmissionPost2ndCOVIDTest
+	-	FirstAdmissionPost3rdCOVIDTest
+	-	FirstAdmissionPost4thCOVIDTest
+	-	FirstAdmissionPost5thCOVIDTest
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #PatientsLOSPostTest
+ 	- FK_Patient_Link_ID - unique patient id
+	-	LengthOfStay1stAdmission1stCOVIDTest - length of stay for first admission following 1st positive covid test
+	-	LengthOfStay1stAdmission2ndCOVIDTest - length of stay for first admission following 2nd positive covid test
+	-	LengthOfStay1stAdmission3rdCOVIDTest - length of stay for first admission following 3rd positive covid test
+	-	LengthOfStay1stAdmission4thCOVIDTest - length of stay for first admission following 4th positive covid test
+	-	LengthOfStay1stAdmission5thCOVIDTest - length of stay for first admission following 5th positive covid test
+```
+_File_: `query-get-admissions-and-length-of-stay-post-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay-post-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay-post-covid.sql)
+
+---
+### Secondary admissions and length of stay
+To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+```
+_File_: `query-get-admissions-and-length-of-stay.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
+
+---
+### Secondary discharges
+To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+```
+_File_: `query-get-discharges.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
 
 ---
 ### Townsend Score (2011)
@@ -317,7 +522,27 @@ This project required the following clinical code sets:
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
+- post-covid-syndrome v1
+- post-covid-referral v1
+- post-covid-assessment v1
+- covid-vaccination v1
+- pagets-disease v1
 - hypertension v1
+- diabetes-type-i v1
+- diabetes-type-ii v1
+- copd v1
+- asthma v1
+- severe-mental-illness v1
+- angina v1
+- heart-failure v1
+- rheumatoid-arthritis v1
+- stroke v1
+- bmi v2
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
+- egfr v1
+- hba1c v2
+- vitamin-d v1
 - efi-activity-limitation v1
 - efi-anaemia v1
 - efi-arthritis v1
@@ -410,6 +635,119 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
 
+### Post-COVID syndrome (long COVID)
+
+Any code indicating a diagnosis of post-COVID syndrome (aka long COVID). There are also code sets for:
+
+- Post-COVID referral
+- Post-COVID assessment
+
+Codes obtained from OPENSafely, in turn from the NICE guidance.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.37%` suggests that this code set is not well defined. We are clearly not capturing these codes from TPP practices. However, the majority of patients (>80%) in GM are at EMIS practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-02 | EMIS            | 2437477    |    8902 (0.365%) |     8909 (0.366%) |
+| 2022-12-02 | TPP             | 198613     |     21 (0.0106%) |      21 (0.0106%) |
+| 2022-12-02 | Vision          | 327022     |     650 (0.199%) |      650 (0.199%) |
+
+LINK: [https://github.com/rw251/.../conditions/post-covid-syndrome/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/post-covid-syndrome/1)
+
+### Post-COVID syndrome referral (long COVID)
+
+Any code indicating a referral of a patient with post-COVID syndrome (aka long COVID). There are also code sets for:
+
+- Post-COVID syndrome (diagnosis)
+- Post-COVID assessment
+
+Codes obtained from OPENSafely, in turn from the NICE guidance.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.73%` suggests that this code set is not well defined. We are clearly not capturing these codes from TPP practices. However, the majority of patients (>80%) in GM are at EMIS practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-02 | EMIS            | 2437477    |   17620 (0.723%) |    17705 (0.726%) |
+| 2022-12-02 | TPP             | 198613     |    12 (0.00604%) |      21 (0.0106%) |
+| 2022-12-02 | Vision          | 327022     |     416 (0.127%) |       425 (0.13%) |
+
+LINK: [https://github.com/rw251/.../patient/post-covid-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/post-covid-referral/1)
+
+### Post-COVID syndrome assessment (long COVID)
+
+Any code indicating an assessment of a patient with post-COVID syndrome (aka long COVID). There are also code sets for:
+
+- Post-COVID syndrome (diagnosis)
+- Post-COVID referral
+
+Codes obtained from OPENSafely, in turn from the NICE guidance.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0% - 0.003%` suggests that this code is not used in practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-02 | EMIS            | 2437477    |    83 (0.00341%) |     83 (0.00341%) |
+| 2022-12-02 | TPP             | 198613     |           0 (0%) |            0 (0%) |
+| 2022-12-02 | Vision          | 327022     |           0 (0%) |            0 (0%) |
+
+LINK: [https://github.com/rw251/.../procedures/post-covid-assessment/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/post-covid-assessment/1)
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.19% - 26.55%` as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.
+
+**UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
+
+**UPDATE - 12th April 2021**, latest prevalence figures.
+
+**UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
+
+MED
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
+| 2021-05-12 | TPP             | 210810     |           0 (0%) |       1637(0.78%) |
+| 2021-05-12 | Vision          | 334784     |           0 (0%) |         93(0.03%) |
+| 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
+| 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
+| 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
+
+EVENT
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | EMIS            | 2606497    |     4446 (0.17%) |  1101577 (42.26%) |
+| 2021-05-12 | TPP             | 210810     |        7 (0.00%) |    87841 (41.66%) |
+| 2021-05-12 | Vision          | 334784     |        1 (0.00%) |   142724 (42.63%) |
+| 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
+| 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
+| 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
+
+LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
+
+### Paget's disease
+
+Any code indicating a diagnosis of paget's disease.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The prevalence range `0.02% - 0.05%` suggests that this code set is reasonably well defined, but is either a rare condition or not often recorded in practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-02 | EMIS            | 2437477    |    681 (0.0279%) |     704 (0.0289%) |
+| 2022-12-02 | TPP             | 198613     |     62 (0.0312%) |     109 (0.0549%) |
+| 2022-12-02 | Vision          | 327022     |     75 (0.0229%) |      74 (0.0226%) |
+
+LINK: [https://github.com/rw251/.../conditions/pagets-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/pagets-disease/1)
+
 ### Hypertension
 
 Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.
@@ -426,6 +764,263 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
 
 LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
+
+### Diabetes mellitus type 1
+
+Any diagnosis of T1DM. A super set of the QOF business rule.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.42% - 0.48%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |    11381 (0.44%) |     11381 (0.44%) |
+| 2021-05-07 | TPP             | 210817     |      887 (0.42%) |       887 (0.42%) |
+| 2021-05-07 | Vision          | 334632     |     1607 (0.48%) |      1607 (0.48%) |
+
+LINK: [https://github.com/rw251/.../conditions/diabetes-type-i/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-i/1)
+
+### Diabetes mellitus type 2
+
+Any diagnosis of T2DM. A super set of the QOF business rule. Includes "adult onset" diabetes, but DOES NOT include "maturity onset" diabetes.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.06% - 5.20%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   133938 (5.14%) |    133938 (5.14%) |
+| 2021-05-07 | TPP             | 210817     |    10954 (5.20%) |     10954 (5.20%) |
+| 2021-05-07 | Vision          | 334632     |    16936 (5.06%) |     16933 (5.06%) |
+
+LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
+
+### COPD
+
+Any suggestion of a diagnosis of COPD.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.10% - 2.33%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |    54668 (2.10%) |     54669 (2.10%) |
+| 2021-05-07 | TPP             | 210817     |     4537 (2.15%) |      4538 (2.15%) |
+| 2021-05-07 | Vision          | 334632     |     7789 (2.33%) |      7789 (2.33%) |
+
+LINK: [https://github.com/rw251/.../conditions/copd/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/copd/1)
+
+### Asthma
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.14% - 13.37%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    |  335219 (12.86%) |   335223 (12.86%) |
+| 2021-05-11 | TPP             | 210810     |   25596 (12.14%) |    25596 (12.14%) |
+| 2021-05-11 | Vision          | 334784     |   44764 (13.37%) |    44764 (13.37%) |
+
+LINK: [https://github.com/rw251/.../conditions/asthma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/asthma/1)
+
+### Severe mental illness
+
+Defined as any diagnosis of:
+
+- Psychotic disorder
+- Bipolar disorder
+- Schizophrenia
+
+or patients on the severe mental illness register.
+
+CTV3 code sets from OpenSafely.
+
+SNOMED code set created from the following codes and all their descendants:
+
+| SNOMED code | Description                                 |
+| ----------- | ------------------------------------------- |
+| 391193001   | On severe mental illness register (finding) |
+| 69322001    | Psychotic disorder (disorder)               |
+| 13746004    | Bipolar disorder (disorder)                 |
+| 58214004    | Schizophrenia (disorder)                    |
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.04% - 1.77%` is perhaps too wide suggesting there is an underreporting from TPP practices - or the CTV3 code set differs from the others.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |    46405 (1.78%) |     46081 (1.77%) |
+| 2021-03-11 | TPP             | 210333     |     2200 (1.05%) |      2196 (1.04%) |
+| 2021-03-11 | Vision          | 333251     |     6770 (2.03%) |      5338 (1.60%) |
+
+LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
+
+### Angina
+
+Any code indicating a diagnosis of angina. Does not include codes that indicate angina but are not diagnoses e.g. "h/o angina", "angina plan discussed".
+
+TODO need to validate
+
+LINK: [https://github.com/rw251/.../conditions/angina/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/angina/1)
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.92% - 1.15%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |    23923 (0.92%) |     23923 (0.92%) |
+| 2021-03-11 | TPP             | 210333     |     2415 (1.15%) |      2416 (1.15%) |
+| 2021-03-11 | Vision          | 333251     |     3157 (0.95%) |      3157 (0.95%) |
+
+LINK: [https://github.com/rw251/.../conditions/heart-failure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/heart-failure/1)
+
+### Rheumatoid arthritis
+
+Any code indicating a diagnosis of rheumatoid arthritis. Does not include lupus.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.53% - 0.62%` suggests that this code set is well defined.
+
+| Date        | Practice system | Population | Patients from ID | Patient from code |
+| ----------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-16  | EMIS            | 2662570    |    15603 (0.59%) |     15603 (0.59%) |
+| 2022-05-16  | TPP             | 212696     |     1130 (0.53%) |      1137 (0.53%) |
+| 2022-05-16  | Vision          | 342344     |     2126 (0.62%) |      2126 (0.62%) |
+
+LINK: [https://github.com/rw251/.../conditions/rheumatoid-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/rheumatoid-arthritis/1)
+
+### Stroke
+
+Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
+
+| Date        | Practice system | Population | Patients from ID | Patient from code |
+| ----------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-12  | EMIS            | 2662570    |    24378 (0.92%) |     24359 (0.91%) |
+| 2022-05-12  | TPP             | 212696     |     2441 (1.45%) |      2445 (1.45%) |
+| 2022-05-12  | Vision          | 342344     |     3308 (0.97%) |      3307 (0.97%) |
+
+LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
+
+### Body Mass Index (BMI)
+
+A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+
+**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
+| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
+| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
+| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
+| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
+| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+
+LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
+
+### Systolic Blood pressure
+
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
+
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
+
+### Glomerular filtration rate (GFR)
+
+Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
+| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
+| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
+
+LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
+
+### HbA1c
+
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's HbA1c (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `44.93% - 50.88%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1170688 (44.93%) |  1170688 (44.93%) |
+| 2021-05-07 | TPP             | 210817     |   98972 (46.95%) |    98972 (46.95%) |
+| 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
+
+LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
+
+### Vitamin D
+
+A patient's vitamin D level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`). This only includes codes for total vitamin D level and does not use codes that measure a patient's D2 or D3 levels.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.30% - 14.10%` suggests that this code set is not well defined and there are TPP codes that are missing.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    |  282971 (10.86%) |   282971 (10.86%) |
+| 2021-05-11 | TPP             | 210810     |     9056 (4.30%) |      9056 (4.30%) |
+| 2021-05-11 | Vision          | 334784     |   47198 (14.10%) |    47198 (14.10%) |
+
+LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
 
 ### Activity limitation (for electronic frailty index)
 

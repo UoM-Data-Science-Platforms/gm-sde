@@ -2,7 +2,11 @@
 --│ EFI file │
 --└──────────┘
 
--- OUTPUT: Data showing the cumulative deficits for each person over time
+-- OUTPUT: Data showing the cumulative deficits for each person over time with
+--         the following fields:
+--  - PatientId
+--  - DateFrom - the date from which this number of deficits occurred
+--  - NumberOfDeficits - the number of deficits on the DateFrom date
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -10,6 +14,24 @@ SET NOCOUNT ON;
 -- Set the temp end date until new legal basis
 DECLARE @TEMPRQ038EndDate datetime;
 SET @TEMPRQ038EndDate = '2022-06-01';
+
+-- Build the main cohort
+--┌────────────────────────────────────────────────────┐
+--│ Define Cohort for RQ038: COVID + frailty project   │
+--└────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To build the cohort of patients needed for RQ038. This reduces
+--						duplication of code in the template scripts. The cohort is any
+--						patient who was >=60 years old on 1 Jan 2020 and have at least
+--				 		one GP recorded positive COVID test
+
+-- INPUT: A variable:
+--	@TEMPRQ038EndDate - the date that we will not get records beyond
+
+-- OUTPUT: Temp tables as follows:
+-- #Patients - list of patient ids of the cohort
+
+------------------------------------------------------------------------------
 
 -- Only include patients who were first registered at a GP practice prior
 -- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
@@ -504,6 +526,140 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
 
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
+-- Now restrict to those >=60 on 1st January 2020
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
+WHERE YearOfBirth <= 1959;
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ038EndDate
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < @TEMPRQ038EndDate;
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+-- Get the EFI over time
 --┌────────────────────────────────────┐
 --│ Calcluate Electronic Frailty Index │
 --└────────────────────────────────────┘
@@ -567,7 +723,7 @@ CREATE TABLE #EfiEvents (
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'activity-limitation' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-activity-limitation'
@@ -579,7 +735,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'anaemia' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-anaemia'
@@ -591,7 +747,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'arthritis' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-arthritis'
@@ -603,7 +759,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'atrial-fibrillation' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-atrial-fibrillation'
@@ -615,7 +771,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'chd' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-chd'
@@ -627,7 +783,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'ckd' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-ckd'
@@ -639,7 +795,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'diabetes' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-diabetes'
@@ -651,7 +807,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'dizziness' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-dizziness'
@@ -663,7 +819,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'dyspnoea' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-dyspnoea'
@@ -675,7 +831,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'falls' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-falls'
@@ -687,7 +843,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'foot-problems' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-foot-problems'
@@ -699,7 +855,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'fragility-fracture' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-fragility-fracture'
@@ -711,7 +867,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'hearing-loss' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-hearing-loss'
@@ -723,7 +879,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'heart-failure' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-heart-failure'
@@ -735,7 +891,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'heart-valve-disease' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-heart-valve-disease'
@@ -747,7 +903,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'housebound' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-housebound'
@@ -759,7 +915,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'hypertension' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-hypertension'
@@ -771,7 +927,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'hypotension' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-hypotension'
@@ -783,7 +939,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'cognitive-problems' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-cognitive-problems'
@@ -795,7 +951,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'mobility-problems' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-mobility-problems'
@@ -807,7 +963,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'osteoporosis' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-osteoporosis'
@@ -819,7 +975,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'parkinsons' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-parkinsons'
@@ -831,7 +987,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'peptic-ulcer' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-peptic-ulcer'
@@ -843,7 +999,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'pvd' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-pvd'
@@ -855,7 +1011,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'care-requirement' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-care-requirement'
@@ -867,7 +1023,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'respiratory-disease' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-respiratory-disease'
@@ -879,7 +1035,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'skin-ulcer' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-skin-ulcer'
@@ -891,7 +1047,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'sleep-disturbance' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-sleep-disturbance'
@@ -903,7 +1059,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'social-vulnerability' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-social-vulnerability'
@@ -915,7 +1071,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'stroke-tia' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-stroke-tia'
@@ -927,7 +1083,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'thyroid-disorders' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-thyroid-disorders'
@@ -939,7 +1095,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'urinary-incontinence' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-urinary-incontinence'
@@ -951,7 +1107,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'urinary-system-disease' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-urinary-system-disease'
@@ -963,7 +1119,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'vision-problems' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-vision-problems'
@@ -975,7 +1131,7 @@ GROUP BY FK_Patient_Link_ID;
 
 INSERT INTO #EfiEvents
 SELECT FK_Patient_Link_ID, 'weight-loss' AS Deficit, MIN(CONVERT(DATE, [EventDate])) AS EventDate
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
   select Code from #AllCodes 
   where Concept = 'efi-weight-loss'
@@ -991,7 +1147,7 @@ GROUP BY FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#EfiValueData') IS NOT NULL DROP TABLE #EfiValueData;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS EventDate, SuppliedCode, [Value]
 INTO #EfiValueData
-FROM SharedCare.GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN ('16D2.','246V.','246W.','38DE.','39F..','3AD3.','423..','442A.','442W.','44lD.','451E.','451F.','46N..','46N4.','46N7.','46TC.','46W..','585a.','58EE.','66Yf.','687C.','XaJLG','XaF4O','XaF4b','XaP9J','Y1259','Y1258','XaIup','XaK8U','YA310','Y01e7','XaJv3','XE2eH','XE2eG','XaEMS','XE2eI','XE2n3','XE2bw','XSFyN','XaIz7','XaITU','XE2wy','XaELV','39C..','XC0tc','XM0an','XE2m6','Xa96v','Y3351','XaISO','XaZpN','XaK8y','XaMDA','XacUJ','XacUK')
 AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY NULL OR TEXT VALUES REMAINED
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -1343,8 +1499,8 @@ GROUP BY FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
 SELECT m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate]) AS PotentialPolypharmStartDate
 INTO #PolypharmDates5InLastYear
-FROM SharedCare.GP_Medications m1
-LEFT OUTER JOIN SharedCare.GP_Medications m2
+FROM #PatientMedicationData m1
+LEFT OUTER JOIN #PatientMedicationData m2
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND CONVERT(DATE, m1.[MedicationDate]) >= CONVERT(DATE, m2.[MedicationDate])
 	AND CONVERT(DATE, m1.[MedicationDate]) < DATEADD(year, 1, CONVERT(DATE, m2.[MedicationDate]))
@@ -1355,8 +1511,8 @@ HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
 IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
 SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) AS PotentialPolypharmEndDate
 INTO #PolypharmStopDates5InLastYear
-FROM SharedCare.GP_Medications m1
-LEFT OUTER JOIN SharedCare.GP_Medications m2
+FROM #PatientMedicationData m1
+LEFT OUTER JOIN #PatientMedicationData m2
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) >= CONVERT(DATE, m2.[MedicationDate])
 	AND DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) < DATEADD(year, 1, CONVERT(DATE, m2.[MedicationDate]))
@@ -1404,7 +1560,7 @@ GROUP BY FK_Patient_Link_ID, DateTo;
 -- IF OBJECT_ID('tempdb..#PolypharmDates5OnOneDay') IS NOT NULL DROP TABLE #PolypharmDates5OnOneDay;
 -- SELECT FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate]) AS MedicationDate
 -- INTO #PolypharmDates5OnOneDay
--- FROM SharedCare.GP_Medications
+-- FROM #PatientMedicationData
 -- GROUP BY FK_Patient_Link_ID, CONVERT(DATE, [MedicationDate])
 -- HAVING COUNT(DISTINCT SuppliedCode) >= 5;
 
@@ -1547,7 +1703,7 @@ ORDER BY t1.FK_Patient_Link_ID,t1.EventDate;
 
 -- Finally we just select from the EFI table with the required fields
 SELECT
-  FK_Patient_Link_ID,
+  FK_Patient_Link_ID AS PatientId,
   DateFrom,
   NumberOfDeficits
 FROM #PatientEFIOverTime
