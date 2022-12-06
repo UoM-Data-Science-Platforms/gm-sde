@@ -92,4 +92,8 @@ UNION
 SELECT '4. IMD: ' + CASE WHEN IMD2019Decile1IsMostDeprived10IsLeastDeprived IS NULL THEN 'UNKNOWN' ELSE CAST(IMD2019Decile1IsMostDeprived10IsLeastDeprived AS NVARCHAR) END, count(*) from #GMCRLivingPatientsWithGMGP p
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 GROUP BY IMD2019Decile1IsMostDeprived10IsLeastDeprived
+UNION
+SELECT '5. Ethnicity: ' + CASE WHEN EthnicMainGroup IS NULL THEN 'Unknown' ELSE EthnicMainGroup END, count(*) FROM #GMCRLivingPatientsWithGMGP p
+LEFT OUTER JOIN SharedCare.Patient_Link pl on pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY EthnicMainGroup
 ORDER BY Demographic
