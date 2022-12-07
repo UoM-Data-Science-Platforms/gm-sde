@@ -33,11 +33,11 @@ WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer
 
 
 -- Select event date and skin cancer related codes====================================================================================================================
-IF OBJECT_ID('tempdb..#SkinCohortCodes') IS NOT NULL DROP TABLE #SkinCohortCodes;
-SELECT FK_Patient_Link_ID AS PatientId, EventDate, SuppliedCode AS SkinCancerRelatedCode
-INTO #SkinCohortCodes
+SELECT DISTINCT FK_Patient_Link_ID AS PatientId, CONVERT(date, EventDate) AS EventDate, SuppliedCode AS SkinCancerRelatedCode
 FROM SharedCare.GP_Events
-WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1))) AND EventDate < @EndDate
+WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1))) 
+      AND EventDate < @EndDate
+      AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
 ORDER BY FK_Patient_Link_ID, EventDate;
 
 
