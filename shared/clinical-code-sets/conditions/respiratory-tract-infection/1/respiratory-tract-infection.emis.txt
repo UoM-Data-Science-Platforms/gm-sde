@@ -1,0 +1,29 @@
+^ESCT1271705	Tracheopharyngitis
+^ESCT1271706	Acute bronchitis and/or bronchiolitis
+^ESCT1275820	Pharyngotracheitis
+^ESCT1303160	Croup
+^ESCTAC297620	Acute epiglottitis and supraglottitis
+^ESCTAC338265	Acute URI
+^ESCTAC338267	Acute upper respiratory tract infection
+^ESCTAC478025	Acute edematous laryngitis
+^ESCTAC505333	Acute mycoplasmal bronchitis
+^ESCTAN478123	Anthrax pneumonia
+^ESCTAR478001	ARI - Acute respiratory infections
+^ESCTAS672072	Asthmatic bronchitis
+^ESCTAU338266	AURTI - Acute upper respiratory tract infection
+^ESCTCA258740	Capillary pneumonia
+^ESCTCR365782	Croup syndrome
+^ESCTEM345110	Empyema thoracis
+^ESCTIN278156	Infective tonsillitis
+^ESCTLO331638	Lower respiratory infection
+^ESCTLR331640	LRTI - Lower respiratory tract infection
+^ESCTLT389641	LTB - Laryngotracheobronchitis
+^ESCTPL478215	Pleuritis
+^ESCTPO478164	Postinfectious bronchiectasis
+^ESCTRT557383	RTI - Respiratory tract infection
+^ESCTSU345109	Suppurative pleurisy
+^ESCTUP337838	Upper respiratory tract infection
+^ESCTUR337837	URTI - Infection of the upper respiratory tract
+^ESCTUR337839	URI - Upper respiratory infection
+^ESCTUR565587	URTI - Viral upper respiratory tract infection
+EGTONAC2	Acute tonsilitis/pharyngitis
