@@ -1,0 +1,112 @@
+14A3.	H/O: myocardial infarct at less than 60
+14A4.	H/O: myocardial infarct at greater than 60
+323..	ECG: myocardial infarction
+3232.	ECG: old myocardial infarction
+3233.	ECG: anteroseptal infarction
+3234.	ECG:posterior/inferior infarct
+3235.	ECG: subendocardial infarct
+3236.	ECG: lateral infarction
+323Z.	ECG: myocardial infarct NOS
+32B..	Q wave
+32B2.	ECG: Q wave abnormal
+32B3.	Pathological Q wave
+32BZ.	ECG: Q wave NOS
+79291	Percut transluminal coronary thrombolysis with streptokinase
+G30..	(Myocard inf (& [ac][silent][card rupt])) or (coron thromb)
+G300.	Acute anterolateral myocardial infarction
+G301.	Other specified anterior myocardial infarction
+G3010	Acute anteroapical infarction
+G3011	Acute anteroseptal myocardial infarction
+G301z	Anterior myocardial infarction NOS
+G302.	Acute inferolateral myocardial infarction
+G303.	Acute inferoposterior infarction
+G304.	Posterior myocardial infarction NOS
+G305.	Lateral myocardial infarction NOS
+G306.	True posterior myocardial infarction
+G307.	Acute subendocardial infarction
+G308.	Inferior myocardial infarction NOS
+G30y.	Other acute myocardial infarction
+G30y0	Acute atrial infarction
+G30y1	Acute papillary muscle infarction
+G30y2	Acute septal infarction
+G30yz	Other acute myocardial infarction NOS
+G30z.	Acute myocardial infarction NOS
+G310.	Post-myocardial infarction syndrome
+G3110	Aborted myocardial infarction
+G31y1	Microinfarction of heart
+G32..	Myocard infarct: [old] or [healed] or [personal history of]
+G35..	Subsequent myocardial infarction
+G350.	Subsequent myocardial infarction of anterior wall
+G351.	Subsequent myocardial infarction of inferior wall
+G353.	Subsequent myocardial infarction of other sites
+G36..	Certain current complication follow acute myocardial infarct
+G360.	Haemopericardium/current comp folow acut myocard infarct
+G361.	Atrial septal defect/curr comp folow acut myocardal infarct
+G363.	Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI
+G364.	Ruptur chordae tendinae/curr comp fol acute myocard infarct
+G365.	Rupture papillary muscle/curr comp fol acute myocard infarct
+G366.	Thrombosis atrium,auric append&vent/curr comp foll acute MI
+Gyu31	[X]Other current complicatns following acute myocard infarct
+Gyu34	[X]Acute transmural myocardial infarction of unspecif site
+Gyu35	[X]Subsequent myocardial infarction of other sites
+Gyu36	[X]Subsequent myocardial infarction of unspecified site
+X200a	Silent myocardial infarction
+X200D	Silent myocardial ischaemia
+X200d	Post-infarction ventricular septal defect
+X200E	Myocardial infarction
+X200e	Cardiac rupture after acute myocardial infarction
+X200G	Acute Q wave infarction - anteroseptal
+X200H	Acute non-Q wave infarction - anteroseptal
+X200I	Acute Q wave infarction - anterolateral
+X200J	Acute non-Q wave infarction - anterolateral
+X200K	Acute inferior myocardial infarction
+X200L	Acute Q wave infarction - inferior
+X200M	Acute non-Q wave infarction - inferior
+X200N	Acute Q wave infarction - inferolateral
+X200O	Acute non-Q wave infarction - inferolateral
+X200P	Acute lateral myocardial infarction
+X200Q	Acute Q wave infarction - lateral
+X200R	Acute non-Q wave infarction - lateral
+X200S	Acute widespread myocardial infarction
+X200T	Acute Q wave infarction - widespread
+X200U	Acute non-Q wave infarction - widespread
+X200V	Acute posterior myocardial infarction
+X200W	Old anterior myocardial infarction
+X200X	Old inferior myocardial infarction
+X200x	Post-infarction mitral papillary muscle rupture
+X200Y	Old lateral myocardial infarction
+X200Z	Old posterior myocardial infarction
+X201u	Post-infarction pericarditis
+X203v	Coronary artery thrombosis
+X77Cr	Q wave height
+X77Cs	Q wave height increased
+X77Ct	Q wave height decreased
+X77DK	Q wave shape
+Xa0YL	Acute anterior myocardial infarction
+Xa1dP	Ischaemic myocardial dysfunction
+XaAC3	Acute Q wave myocardial infarction
+XaAzi	Acute non-Q wave infarction
+XaBL1	H/O: Myocardial infarction in last year
+XaD2b	Postoperative myocardial infarction
+XaD2d	Postoperative transmural myocardial infarction anterior wall
+XaD2e	Postoperative transmural myocardial infarction inferior wall
+XaD2f	Postoperative transmural myocardial infarction other sites
+XaD2g	Postoperative transmural myocardial infarction unspec site
+XaD2h	Postoperative subendocardial myocardial infarction
+XaD2i	Postoperative myocardial infarction, unspecified
+XaEgZ	Non-Q wave myocardial infarction
+XaEXt	Post infarct angina
+XaFx7	Diab mellit insulin-glucose infus acute myocardial infarct
+XaIf1	First myocardial infarction
+XaIwM	Acute ST segment elevation myocardial infarction
+XaIwY	Acute non-ST segment elevation myocardial infarction
+XaJIU	Coronary artery bypass graft occlusion
+XaJX0	Acute posterolateral myocardial infarction
+XaQk7	History of myocardial infarction
+XaRFL	Exception reporting: myocardial infarction quality indicator
+XaRFO	Exc myocard infarction quality indicators: informed dissent
+XaRFP	Exc myocar infarction quality indicators: patient unsuitable
+XE0Uh	Acute myocardial infarction
+XE0WA	Myocardial infarction (& [acute]) or coronary thrombosis
+XE2aA	Old myocardial infarction
+Y1eef	Mixed myocardial ischaemia and infarction

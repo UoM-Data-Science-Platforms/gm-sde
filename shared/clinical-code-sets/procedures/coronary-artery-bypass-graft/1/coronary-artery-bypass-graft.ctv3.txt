@@ -38,3 +38,37 @@ X00tL	CABG >5 - Coronary artery bypass grafts greater than five
 XaBEB	[V]Presence of coronary artery bypass graft
 XaJIU	Coronary artery bypass graft occlusion
 XaVvs	CABG (coronary artery bypass graft) operation planned
+7923y	Other specified prosthetic replacement of coronary artery
+7923z	Prosthetic replacement of coronary artery NOS
+7925.	Connection of mammary artery to coronary artery
+79253	Single anastomosis of mammary artery to coronary artery NEC
+7925y	Other specified connection of mammary artery to coronary artery
+7925z	Connection of mammary artery to coronary artery NOS
+7926.	Connection of other thoracic artery to coronary artery
+79260	Double anastomosis of thoracic arteries to coronary arteries NEC
+79261	Double implantation of thoracic arteries into coronary arteries NEC
+79262	Single anastomosis of thoracic artery to coronary artery NEC
+79263	Single implantation of thoracic artery into coronary artery NEC
+7926y	Other specified connection of other thoracic artery to coronary artery
+7926z	Connection of other thoracic artery to coronary artery NOS
+7927.	Other open operations on coronary artery
+7927y	Other specified other open operation on coronary artery
+7927z	Other open operation on coronary artery NOS
+7929.	Other therapeutic transluminal operations on coronary artery
+7929y	Other specified other therapeutic transluminal operation on coronary artery
+7929z	Other therapeutic transluminal operation on coronary artery NOS
+792B.	Repair of coronary artery NEC
+792By	Other specified repair of coronary artery
+792Bz	Repair of coronary artery NOS
+792C.	Other replacement of coronary artery
+792Cy	Other specified replacement of coronary artery
+792Cz	Replacement of coronary artery NOS
+792y.	Other specified operations on coronary artery
+792z.	Coronary artery operations NOS
+X00tI	Coronary artery bypass grafts x 3
+X778X	Coronary graft occluded
+Xa3kl	Heart - arterial implant NOS
+XE0Em	Coronary artery operation
+XE2Px	Single anastomosis of mammary artery to coronary artery NEC
+XE2r7	Coronary A by-pass anastam NOS
+ZV457	[V]Presence of aortocoronary bypass graft

@@ -1,6 +1,8 @@
+G311.00	Preinfarction syndrome
 G311.11	Crescendo angina
 G311.13	Unstable angina
 G311.14	Angina at rest
+G311z00	Preinfarction syndrome NOS
 G311100	Unstable angina
 G311200	Angina at rest
 G311300	Refractory angina
@@ -12,9 +14,14 @@ G330z00	Angina decubitus NOS
 G331.00	Prinzmetal's angina
 G331.11	Variant angina pectoris
 G33z.00	Angina pectoris NOS
+G33z000	Status anginosus
+G33z100	Stenocardia
+G33z200	Syncope anginosa
 G33z300	Angina on effort
+G33z400	Ischaemic chest pain
 G33z500	Post infarct angina
 G33z600	New onset angina
 G33z700	Stable angina
 G33zz00	Angina pectoris NOS
 Gyu3000	[X]Other forms of angina pectoris
+G343.00	Ischaemic cardiomyopathy	

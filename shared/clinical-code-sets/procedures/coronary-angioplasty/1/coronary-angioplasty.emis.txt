@@ -1,0 +1,16 @@
+^ESCTBA267661	Balloon angioplasty of coronary artery
+^ESCTBA388343	Balloon angioplasty of coronary artery, multiple vessels
+^ESCTCO272498	Coronary angioplasty by open chest approach
+^ESCTCO298033	Coronary atherectomy by laser
+^ESCTCO316620	Coronary angioplasty
+^ESCTHI708760	History of coronary artery disease with stent placement
+^ESCTLA298034	Laser coronary angioplasty
+^ESCTPE267662	Percutaneous transluminal coronary balloon angioplasty
+^ESCTPE267664	Percutaneous angioplasty of coronary artery
+^ESCTPE298035	Percutaneous laser coronary endarterectomy
+^ESCTPE388342	Percutaneous transluminal coronary angioplasty, multiple vessels
+^ESCTPE658311	Percutaneous transluminal coronary angioplasty by rotoablation
+^ESCTPE658313	Percutaneous rotational coronary endarterectomy
+^ESCTPT267663	PTCA - Percutaneous transluminal coronary angioplasty
+^ESCTRE361414	Removal of coronary artery obstruction by percutaneous transluminal balloon, single vessel
+EMISNQCA1102	Cardiac resynchronisation therapy defibrillator device in situ
