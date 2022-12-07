@@ -1,0 +1,37 @@
+H01..	Sinusitis
+H011.	Acute frontal sinusitis
+H013.	Acute sphenoidal sinusitis
+H01y.	Other acute sinusitis
+H01yz	Other acute sinusitis NOS
+H01z.	Acute sinusitis NOS
+H131.	Frontal sinusitis
+H133.	Chronic sphenoidal sinusitis
+H135.	Recurrent sinusitis
+H13y.	Other chronic sinusitis
+H13yz	Other chronic sinusitis NOS
+H13z.	Chronic sinusitis NOS
+Hyu00	[X]Other acute sinusitis
+Hyu22	[X]Other chronic sinusitis
+X00m3	Suppurative sinusitis with complications
+X00m4	Recurrent acute sinusitis
+X00m6	Chronic anterior ethmoidal sinusitis
+X00m7	Chronic posterior ethmoidal sinusitis
+X00m8	Chronic panethmoidal sinusitis
+X00mA	Chronic frontoethmoidal sinusitis
+XE0Y1	Chronic frontal sinusitis
+XM1QH	Sinusitis
+XM1QI	Maxillary sinusitis
+XM1QJ	Frontal sinusitis
+H010.	Acute maxillary sinusitis
+H012.	Acute ethmoidal sinusitis
+H13..	Chronic sinusitis
+H130.	Chronic maxillary sinusitis
+H132.	Chronic ethmoidal sinusitis
+H134.	Fistula of nasal sinus
+H13y0	Chronic pansinusitis
+H13y1	Pansinusitis
+XaNkV	Acute rhinosinusitis
+XE0Xm	Acute sinusitis
+XE0Y0	Chronic maxillary sinusitis
+XE0Yp	Pansinusitis
+XE0Z1	Chronic ethmoidal sinusitis
