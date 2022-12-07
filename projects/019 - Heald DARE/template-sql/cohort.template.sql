@@ -42,7 +42,7 @@
 --  - Stroke
 --  - Heart Failure
 
-
+-- - microalbuminuria also known as albumin / creatinine ratio / any other codes re this
 -- CHECK
 --  - Renal Disease = ckd?
 
