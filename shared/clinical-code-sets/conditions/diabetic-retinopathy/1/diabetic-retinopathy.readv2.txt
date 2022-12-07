@@ -1,0 +1,29 @@
+2BBL.00	O/E - diabetic maculopathy present both eyes
+2BBP.00	O/E - right eye background diabetic retinopathy
+2BBQ.00	O/E - left eye background diabetic retinopathy
+2BBR.00	O/E - right eye preproliferative diabetic retinopathy
+2BBS.00	O/E - left eye preproliferative diabetic retinopathy
+2BBT.00	O/E - right eye proliferative diabetic retinopathy
+2BBV.00	O/E - left eye proliferative diabetic retinopathy
+2BBW.00	O/E - right eye diabetic maculopathy
+2BBX.00	O/E - left eye diabetic maculopathy
+2BBk.00	O/E - right eye stable treated proliferative diabetic retinopathy
+2BBl.00	O/E - left eye stable treated proliferative diabetic retinopathy
+2BBm.00	O/E - right eye clinically significant macular oedema
+2BBn.00	O/E - left eye clinically significant macular oedema
+2BBo.00	O/E - sight threatening diabetic retinopathy
+2BBr.00	Impaired vision due to diabetic retinopathy
+F420.00	Diabetic retinopathy
+F420000	Background diabetic retinopathy
+F420100	Proliferative diabetic retinopathy
+F420200	Preproliferative diabetic retinopathy
+F420300	Advanced diabetic maculopathy
+F420400	Diabetic maculopathy
+F420500	Advanced diabetic retinal disease
+F420600	Non proliferative diabetic retinopathy
+F420700	High risk proliferative diabetic retinopathy
+F420800	High risk non proliferative diabetic retinopathy
+F420z00	Diabetic retinopathy NOS
+2BBF.00	Retinal abnormality - diabetes related
+C108700	Insulin dependent diabetes mellitus with retinopathy
+C10E712	Insulin dependent diabetes mellitus with retinopathy

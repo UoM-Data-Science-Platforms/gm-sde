@@ -1,0 +1,44 @@
+F420.	Diabetic retinopathy
+F4200	Background diabetic retinopathy
+F4201	Proliferative diabetic retinopathy
+F4202	Preproliferative diabetic retinopathy
+F4203	Advanced diabetic maculopathy
+F420z	Diabetic retinopathy NOS
+X00dF	Visually threatening diabetic retinopathy
+X00dG	Diabetic maculopathy
+X00dH	Proliferative diabetic retinopathy new vessels on disc
+X00dI	Proliferative diabetic retinopathy with new vessels elsewhere than on disc
+X00dJ	Diabetic traction retinal detachment
+XaD2T	Advanced diabetic retinal disease
+XaE5T	Mild non proliferative diabetic retinopathy
+XaE5U	Moderate non proliferative diabetic retinopathy
+XaE5V	Severe non proliferative diabetic retinopathy
+XaE5W	Proliferative diabetic retinopathy - non high risk
+XaE5X	Proliferative diabetic retinopathy - high risk
+XaE5Y	Inactive proliferative diabetic retinopathy
+XaE5Z	Proliferative diabetic retinopathy - iris neovascularisation
+XaE5b	Clinically significant macular oedema
+XaEVO	Diffuse diabetic maculopathy
+XaEVP	Focal diabetic maculopathy
+XaEVS	Ischaemic diabetic maculopathy
+XaEVT	Mixed diabetic maculopathy
+XaIP5	Non proliferative diabetic retinopathy
+XaIPk	O/E - diabetic maculopathy present both eyes
+XaIW8	High risk non proliferative diabetic retinopathy
+XaJOg	O/E - right eye background diabetic retinopathy
+XaJOh	O/E - left eye background diabetic retinopathy
+XaJOi	O/E - right eye preproliferative diabetic retinopathy
+XaJOj	O/E - left eye preproliferative diabetic retinopathy
+XaJOk	O/E - right eye proliferative diabetic retinopathy
+XaJOl	O/E - left eye proliferative diabetic retinopathy
+XaJOn	O/E - right eye diabetic maculopathy
+XaJOo	O/E - left eye diabetic maculopathy
+XaKDG	O/E - right eye stable treated proliferative diabetic retinopathy
+XaKDH	O/E - left eye stable treated proliferative diabetic retinopathy
+XaKDI	O/E - right eye clinically significant macular oedema
+XaKDJ	O/E - left eye clinically significant macular oedema
+XaKcS	O/E - sight threatening diabetic retinopathy
+XaPen	Impaired vision due to diabetic retinopathy
+C1087	Insulin-dependent diabetes mellitus with retinopathy
+XaBul	Retinal abnormality - diabetes-related
+XE12G	Diabetic retinopathy
