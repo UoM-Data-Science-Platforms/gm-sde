@@ -1,3 +1,5 @@
+G311.	Preinfarction syndrome
+G311z	Preinfarction syndrome NOS
 G33..	Angina
 G330.	Angina decubitus
 G3300	Nocturnal angina
@@ -13,3 +15,8 @@ X200B	Angina pectoris with documented spasm
 Xa7nH	Exertional angina
 XaEXt	Post infarct angina
 XaFsG	Refractory angina
+G33z0	Status anginosus
+G33z1	Stenocardia
+G33z2	Syncope anginosa
+Ua1eH	Ischaemic chest pain
+XE0Ui	Pre-infarction syndrome
