@@ -1,0 +1,136 @@
+1483.	H/O: cataract
+F46..	Cataract
+F460.	Infantile, juvenile and presenile cataracts
+F4600	Unspecified infantile cataract
+F4601	Unspecified juvenile cataract
+F4602	Unspecified presenile cataract
+F4603	Anterior subcapsular polar cataract
+F4604	Posterior subcapsular polar cataract
+F4605	Cortical cataract
+F4606	Lamellar zonular cataract
+F460x	Combined nonsenile cataract
+F460y	Other nonsenile cataract
+F460z	Nonsenile cataract NOS
+F461.	Age-related cataract
+F4610	Unspecified senile cataract
+F4612	Coronary cataract
+F4613	Punctate cataract
+F4614	Incipient cataract NOS
+F4615	Immature cataract NOS
+F4616	Anterior subcapsular polar senile cataract
+F4617	Posterior subcapsular polar senile cataract
+F4618	Cortical senile cataract
+F4619	Nuclear senile cataract
+F461A	Total, mature senile cataract
+F461B	Hypermature cataract
+F461x	Combined senile cataract
+F461y	Other senile cataract
+F461z	Senile cataract NOS
+F462.	Traumatic cataract
+F4620	Unspecified traumatic cataract
+F4622	Total traumatic cataract
+F4623	Partial resolved traumatic cataract
+F462z	Traumatic cataract NOS
+F463.	Cataract secondary to ocular disease
+F4632	Cataract in eye inflammatory disorder
+F4633	Cataract with neovascularisation
+F4634	Cataract in degenerative disorder
+F463z	Cataract secondary to ocular disorder NOS
+F464.	Cataract due to other disorder
+F4640	Diabetic cataract
+F4641	Tetanic cataract
+F4642	Myotonic cataract
+F4643	Cataract associated with other syndromes
+F4644	Drug-induced cataract
+F4645	Toxic cataract not due to drugs
+F4646	Radiation-induced cataract
+F4647	Cataract due to other physical inflammation
+F464z	Cataract due to other disorder NOS
+F465.	After-cataract
+F4650	Unspecified secondary cataract
+F4652	Other after cataract with vision normal
+F4653	After-cataract with vision obscured
+F465z	After cataract NOS
+F466.	Bilateral cataracts
+F46y.	Other cataract
+F46yz	Other cataract NOS
+F46z.	Cataract NOS
+F4K2D	Vitreous syndrome following cataract surgery
+FyuE0	[X]Other senile cataract
+FyuE1	[X]Other specified cataract
+FyuE3	[X]Cataract in other endocrine, nutritional and metabolic diseases classified elsewhere
+FyuE4	[X]Cataract in other diseases classified elsewhere
+P330.	Congenital cataract, unspecified
+P331.	Capsular and subcapsular cataract
+P3310	Capsular cataract
+P3311	Subcapsular cataract
+P331z	Capsular or subcapsular cataract NOS
+P332.	Cortical and zonular cataract
+P3320	Cortical cataract - congenital
+P3321	Congenital lamellar cataract
+P332z	Cortical or zonular cataract NOS
+P333.	Congenital nuclear cataract
+P334.	Total and subtotal congenital cataract
+P3340	Congenital total cataract
+P3341	Subtotal congenital cataract
+P334z	Total or subtotal congenital cataract NOS
+P33y.	Other specified congenital cataract or lens anomaly
+P33y0	Congenital blue dot cataract
+P33y1	Congenital membranous cataract
+P33yz	Other congenital cataract or lens anomaly NOS
+P33z.	Congenital cataract or lens anomaly NOS
+X00XF	Lens and cataract operations
+X00XG	Combined operation with cataract extraction
+X00XH	IOL - Cataract extraction and insertion of intraocular lens
+X00XI	Cataract extraction, insertion of intraocular lens and trabeculectomy
+X00c9	Juvenile cataract
+X00cA	Concussion cataract
+X00cB	Cataract following rupture of capsule
+X00cC	Toxic cataract
+X00cE	Cataract in systemic disorders
+X00cF	Cataract in hypoparathyroidism
+X00cG	Malnutrition-dehydration cataract
+X75kW	Cataract observation
+X75kX	Cataract form
+X75kb	Atopic cataract
+X75kj	Cupuliform cataract
+X75kk	Cataract maturity
+X75kl	Intumescent cataract
+X75km	Mature cataract
+X75kn	Shrunken cataract
+X75ko	Morgagnian cataract
+X75kp	Calcified cataract
+X75kq	Spontaneous reabsorption of cataract
+X77sX	Congenital polar cataract
+X77sY	Congenital anterior polar cataract
+X77sZ	Congenital posterior polar cataract
+X77sa	Congenital sutural cataract
+X77sb	Rubella cataract
+XE12G	Cataract - diabetic
+XE16G	Hypermature cataract
+XE18r	Diabetic cataract
+XE1Ju	Congenital cataract and lens anomalies
+XM0nB	Cataract extractions
+XM1I0	Other extraction of cataract
+XaBL5	H/O: R cataract extraction
+XaBL6	H/O: L cataract extraction
+XaBLO	O/E - Right cataract present
+XaBLP	O/E - Left cataract present
+XaBYN	Extracapsular cataract extraction and insertion of intraocular lens
+XaBYO	Intracapsular cataract extraction and insertion of intraocular lens
+XaD2a	Immature cortical cataract
+XaEVB	Small incision phakoemulsification cataract and insertion of intraocular lens
+XaFTm	Mixed type cataract
+XaFm8	Type 1 diabetes mellitus with diabetic cataract
+XaFmA	Type II diabetes mellitus with diabetic cataract
+XaG28	Anterior subcapsular cataract
+XaG29	Posterior subcapsular cataract
+XaIsW	H/O: Bilateral cataract extraction
+XaNko	Cataract operation planned
+XaYiQ	Bullous aphakic keratopathy following cataract surgery
+XaYiR	Keratopathy following cataract surgery
+22E5.	O/E - cataract present
+F4607	Nuclear cataract
+F4630	Unspecified cataracta complicata
+F46y0	Calcification of lens
+XE1im	O/E: [cataract present] or [lens opacity]
