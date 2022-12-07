@@ -24,14 +24,14 @@ SET NOCOUNT ON;
 IF OBJECT_ID('tempdb..#Occurrences1') IS NOT NULL DROP TABLE #Occurrences1;
 SELECT FK_Patient_Link_ID, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, CAST(EventDate AS DATE) AS DateOfConcept
 INTO #Occurrences1
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
 AND EventDate IS NOT NULL;
 
 IF OBJECT_ID('tempdb..#Occurrences2') IS NOT NULL DROP TABLE #Occurrences2;
 SELECT FK_Patient_Link_ID, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, CAST(EventDate AS DATE) AS DateOfConcept
 INTO #Occurrences2
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
 AND EventDate IS NOT NULL;
 
@@ -138,7 +138,7 @@ LEFT OUTER JOIN (
 IF OBJECT_ID('tempdb..#Deaths') IS NOT NULL DROP TABLE #Deaths;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, DeathDate 
 INTO #Deaths
-FROM RLS.vw_Patient_Link
+FROM SharedCare.Patient_Link
 WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #FirstOccurrences);
 
 IF OBJECT_ID('tempdb..#PrevalenceYearBreakdown') IS NOT NULL DROP TABLE #PrevalenceYearBreakdown;
