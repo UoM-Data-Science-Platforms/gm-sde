@@ -1,0 +1,12 @@
+^ESCTAC275070	Acute inflammation of nasal sinus
+^ESCTAC275071	Acute inflammation of sinus
+^ESCTAC275072	Acute infection of sinus
+^ESCTAC360324	Acute ethmoiditis
+^ESCTCH314461	Chronic infection of sinus
+^ESCTCH369100	Chronic ethmoiditis
+^ESCTCH503569	Chronic anterior ethmoidal sinusitis
+^ESCTCH503570	Chronic posterior ethmoidal sinusitis
+^ESCTCH503571	Chronic panethmoidal sinusitis
+^ESCTCH503574	Chronic frontoethmoidal sinusitis
+^ESCTRE503568	Recurrent acute sinusitis
+^ESCTSU503567	Suppurative sinusitis with complications
