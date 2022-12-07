@@ -1,0 +1,19 @@
+^ESCTAN287803	Angina pectoris with documented spasm
+^ESCTAN345879	Anginal chest pain at rest
+^ESCTAN477597	Angina
+^ESCTAN477600	Anginal syndrome
+^ESCTAN588764	Angina of effort
+^ESCTAP477601	AP - Angina pectoris
+^ESCTCA477598	Cardiac angina
+^ESCTCO392002	Coronary artery spasm angina
+^ESCTEX588761	Exercise-induced angina
+^ESCTEX588763	Exertional angina
+^ESCTIS477602	Ischemic heart disease - angina
+^ESCTIS477603	Ischaemic heart disease - angina
+^ESCTIS494333	Ischemic chest pain
+^ESCTPR257156	Pre-infarction syndrome
+^ESCTPR257157	Preinfarction angina
+^ESCTPR391999	Prinzmetal angina
+^ESCTVA392000	Variant angina pectoris
+^ESCTVA392001	Variant angina
+EGTON458	Unstable angina

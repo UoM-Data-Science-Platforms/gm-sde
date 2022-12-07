@@ -36,3 +36,31 @@
 SP07600	Coronary artery bypass graft occlusion
 ZV45K00	[V]Presence of coronary artery bypass graft
 ZV45K11	[V]Presence of coronary artery bypass graft - CABG
+7923y00	Other specified prosthetic replacement of coronary artery
+7923z00	Prosthetic replacement of coronary artery NOS
+7925300	Single anastomosis of mammary artery to coronary artery NEC
+7925300	Single anastomosis of mammary artery to coronary artery NEC
+7925y00	Other specified connection of mammary artery to coronary artery
+7925z00	Connection of mammary artery to coronary artery NOS
+7926.00	Connection of other thoracic artery to coronary artery
+7926000	Double anastomosis of thoracic arteries to coronary arteries NEC
+7926100	Double implantation of thoracic arteries into coronary arteries NEC
+7926200	Single anastomosis of thoracic artery to coronary artery NEC
+7926300	Single implantation of thoracic artery into coronary artery NEC
+7926y00	Other specified connection of other thoracic artery to coronary artery
+7926z00	Connection of other thoracic artery to coronary artery NOS
+7927.00	Other open operations on coronary artery
+7927y00	Other specified other open operation on coronary artery
+7927z00	Other open operation on coronary artery NOS
+7929.00	Other therapeutic transluminal operations on coronary artery
+7929y00	Other specified other therapeutic transluminal operation on coronary artery
+7929z00	Other therapeutic transluminal operation on coronary artery NOS
+792B.00	Repair of coronary artery NEC
+792By00	Other specified repair of coronary artery
+792Bz00	Repair of coronary artery NOS
+792C.00	Other replacement of coronary artery
+792Cy00	Other specified replacement of coronary artery
+792Cz00	Replacement of coronary artery NOS
+792y.00	Other specified operations on coronary artery
+792z.00	Coronary artery operations NOS
+ZV45700	[V]Presence of aortocoronary bypass graft
