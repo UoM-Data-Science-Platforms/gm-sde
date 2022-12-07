@@ -32,11 +32,8 @@ IF OBJECT_ID('tempdb..#SkinCohort') IS NOT NULL DROP TABLE #SkinCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #SkinCohort
 FROM SharedCare.GP_Events
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
-)
-AND EventDate >= @StartDate AND EventDate < @EndDate;
+WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1)))
+      AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
 -- Create the gynae cancer cohort========================================================================================================
@@ -44,10 +41,7 @@ IF OBJECT_ID('tempdb..#GynaeCohort') IS NOT NULL DROP TABLE #GynaeCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #GynaeCohort
 FROM SharedCare.GP_Events
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'gynaecological-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'gynaecological-cancer' AND Version = 1)
-)
+WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'gynaecological-cancer' AND [Version] = 1)))
 AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
@@ -94,15 +88,15 @@ FROM #PatientIMDDecile;
 
 -- The counting table========================================================================================================================================
 SELECT
-  FK_Patient_Link_ID as PatientID
+  p.FK_Patient_Link_ID as PatientID,
   YearOfBirth AS YOB,
   Sex,
   Ethnicity,
   IMDGroup,
-  LSOA
-FROM #PatientsAll p
+  LSOA_Code AS LSOA
+FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
