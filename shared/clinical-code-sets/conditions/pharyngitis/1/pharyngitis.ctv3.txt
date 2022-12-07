@@ -1,0 +1,44 @@
+2DC2.	O/E - granular pharyngitis
+A3402	Streptococcal pharyngitis
+A740.	Enteroviral vesicular pharyngitis
+A986.	Gonococcal pharyngitis
+AA12.	Vincent's angina - pharyngitis
+H020.	Acute gangrenous pharyngitis
+H021.	Acute phlegmonous pharyngitis
+H022.	Acute ulcerative pharyngitis
+H023.	Acute bacterial pharyngitis
+H0230	Acute pneumococcal pharyngitis
+H0231	Acute staphylococcal pharyngitis
+H023z	Acute bacterial pharyngitis NOS
+H024.	Acute viral pharyngitis
+H025.	Allergic pharyngitis
+H02z.	Acute pharyngitis NOS
+H12..	Chronic pharyngitis and nasopharyngitis
+H1210	Hypertrophic pharyngitis
+H1211	Atrophic pharyngitis
+H1214	Pharyngitis keratosa
+H1215	Pharyngitis sicca
+H1216	Chronic follicular pharyngitis
+H121z	Chronic pharyngitis NOS
+H12z.	Chronic pharyngitis and nasopharyngitis NOS
+H2711	Influenza with pharyngitis
+Hyu01	[X]Acute pharyngitis due to other specified organisms
+X00mG	Pharyngitis
+X00mH	Acute herpes simplex pharyngitis
+X00mI	Acute herpes zoster pharyngitis
+X00mJ	Enteroviral lymphonodular pharyngitis
+X00mL	Infective mononucleosis pharyngitis
+X00mN	Meningococcal pharyngitis
+X00mS	Acute pharyngitis due to candida albicans
+X00mT	Chronic ulcerative pharyngitis
+X70Ln	Lymphonodular coxsackie pharyngitis
+XE0Xn	Acute pharyngitis
+XE0Xz	Chronic pharyngitis
+XE0Yr	Pharyngitis - acute
+XaDuG	Infective pharyngitis
+A340.	Streptococcal sore throat
+A3400	Streptococcal angina
+A340z	Streptococcal sore throat NOS
+H02..	Acute pharyngitis
+H121.	Chronic pharyngitis
+H122.	Chronic nasopharyngitis
