@@ -32,12 +32,26 @@ WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer
       AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
+-- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM [SharedCare].[Patient_GP_History]
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
+
+
 -- Select event date and skin cancer related codes====================================================================================================================
 SELECT DISTINCT FK_Patient_Link_ID AS PatientId, CONVERT(date, EventDate) AS EventDate, SuppliedCode AS SkinCancerRelatedCode
 FROM SharedCare.GP_Events
 WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1))) 
       AND EventDate < @EndDate
-      AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
+      AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 ORDER BY FK_Patient_Link_ID, EventDate;
 
 

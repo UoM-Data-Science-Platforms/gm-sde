@@ -45,7 +45,7 @@ WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'gynaecologi
 AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients for COPI and within 2 cohorts=========================================================================================================================
+-- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM [SharedCare].[Patient_GP_History]
