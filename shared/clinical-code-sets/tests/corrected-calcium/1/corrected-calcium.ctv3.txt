@@ -1,0 +1,5 @@
+44IC.	Corrected serum calcium level
+X80Cz	Corrected calcium
+XaIRn	Plasma corrected calcium level
+Xabpk	Serum adjusted calcium concentration
+Xabpr	Plasma adjusted calcium concentration
