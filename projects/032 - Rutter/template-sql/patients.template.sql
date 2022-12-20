@@ -153,7 +153,7 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,m.EthnicMainGroup
 		,T2D_EarliestDiagnosisDate = t2d.EarliestDiagnosis_T2D
 		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, @StartDate)
-		,HO_cancer = ISNULL(HO_painful_condition, 0)
+		,HO_cancer = ISNULL(HO_cancer, 0)
 		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 		,HO_migraine  = ISNULL(HO_migraine , 0)
 		,HO_epilepsy = ISNULL(HO_epilepsy, 0)
@@ -241,7 +241,7 @@ SELECT   PatientId = m.FK_Patient_Link_ID
 		,m.EthnicMainGroup
 		,T2D_EarliestDiagnosisDate = t2d.EarliestDiagnosis_T2D
 		,T2D_Duration = DATEDIFF(DAY, t2d.EarliestDiagnosis_T2D, @StartDate)
-		,HO_cancer = ISNULL(HO_painful_condition, 0)
+		,HO_cancer = ISNULL(HO_cancer, 0)
 		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 		,HO_migraine  = ISNULL(HO_migraine , 0)
 		,HO_epilepsy = ISNULL(HO_epilepsy, 0)

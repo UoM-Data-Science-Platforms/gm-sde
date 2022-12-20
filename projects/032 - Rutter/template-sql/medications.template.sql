@@ -16,7 +16,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-01';
+SET @StartDate = '2019-07-09';
 DECLARE @EndDate datetime;
 SET @EndDate = '2022-03-31';
 
@@ -91,7 +91,7 @@ SELECT
 	PatientId = m.FK_Patient_Link_ID
 	,MainCohortMatchedPatientId = NULL
 	,MedicationCategory = concept
-	,MedicationDescription = [description]
+	,MedicationDescription = REPLACE([description], ',', '|')
 	,Quantity
 	,PrescriptionDate
 FROM #MainCohort m
@@ -102,7 +102,7 @@ SELECT
 	PatientId = m.FK_Patient_Link_ID
 	,MainCohortMatchedPatientId = m.PatientWhoIsMatched 
 	,MedicationCategory = concept
-	,MedicationDescription = [description]
+	,MedicationDescription = REPLACE([description], ',', '|')
 	,Quantity
 	,PrescriptionDate
 FROM #MatchedCohort m
