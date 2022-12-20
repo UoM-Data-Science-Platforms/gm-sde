@@ -1,0 +1,4 @@
+44IC.00	Corrected serum calcium level
+44h9.00	Plasma corrected calcium level
+44h9000	Plasma adjusted calcium concentration
+44IC000	Serum adjusted calcium concentration
