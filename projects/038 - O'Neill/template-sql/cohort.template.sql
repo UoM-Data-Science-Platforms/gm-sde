@@ -18,9 +18,7 @@
 --  DateOfDementia, DateOfMI, DateOfAngina, DateOfHeartFailure,
 --  DateOfStroke, DateOfRA
 --  BIOMARKERS -  for all have ValueBeforeJan1, DateOfValueBeforeJan1, ValueOnOrAfterJan1, DateOfValueBeforeJan1
---  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC
-
-TODO Dementia, MI,FBC
+--  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC (= HB, WCC, Platelets), 
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -76,7 +74,9 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:diabetes-type-ii version:1 temp-table-name:#PatientDiagnosisDiabetesTypeII
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:copd version:1 temp-table-name:#PatientDiagnosisCOPD
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:asthma version:1 temp-table-name:#PatientDiagnosisAsthma
---> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosisSMI
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:dementia version:1 temp-table-name:#PatientDiagnosisDementia
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosis
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:myocardial-infarction version:1 temp-table-name:#PatientDiagnosisMI
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:angina version:1 temp-table-name:#PatientDiagnosisAngina
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:heart-failure version:1 temp-table-name:#PatientDiagnosisHeartFailure
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:rheumatoid-arthritis version:1 temp-table-name:#PatientDiagnosisRA
@@ -96,6 +96,17 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-closest-value-to-date.sql code-set:hba1c version:2 temp-table-name:#PreStartHBA1C date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PostStartVitD date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PreStartVitD date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+
+--> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PostStartHb date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PreStartHb date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PostStartWBC date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphate version:1 temp-table-name:#PostStartAlkalinePhosphate date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphate version:1 temp-table-name:#PreStartAlkalinePhosphate date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
 
 -- Get patient list of those with COVID death within 28 days of positive test
@@ -140,7 +151,9 @@ SELECT
   diabetestypeii.DateOfFirstDiagnosis AS DateOfDiabetesTypeII,
   copd.DateOfFirstDiagnosis AS DateOfCOPD,
   asthma.DateOfFirstDiagnosis AS DateOfAsthma,
+  dementia.DateOfFirstDiagnosis AS DateOfDementia,
   smi.DateOfFirstDiagnosis AS DateOfSMI,
+  mi.DateOfFirstDiagnosis AS DateOfMI,
   angina.DateOfFirstDiagnosis AS DateOfAngina,
   heartfailure.DateOfFirstDiagnosis AS DateOfHeartFailure,
   ra.DateOfFirstDiagnosis AS DateOfRA,
@@ -157,7 +170,7 @@ SELECT
   dbp.Value AS ValueOfDBPBefore,
   dbpPost.DateOfFirstValue AS DateOfDBPAfter,
   dbpPost.Value AS ValueOfDBPAfter,
-  egfr.DateOfFirstValue  AS DateOfEGFRBefore,
+  egfr.DateOfFirstValue AS DateOfEGFRBefore,
   egfr.Value AS ValueOfEGFRBefore,
   egfrPost.DateOfFirstValue AS DateOfEGFRAfter,
   egfrPost.Value AS ValueOfEGFRAfter,
@@ -165,10 +178,30 @@ SELECT
   hba1c.Value AS ValueOfHBA1CBefore,
   hba1cPost.DateOfFirstValue AS DateOfHBA1CAfter,
   hba1cPost.Value AS ValueOfHBA1CAfter,
-  vitd.DateOfFirstValue  AS DateOfVitDBefore,
+  vitd.DateOfFirstValue AS DateOfVitDBefore,
   vitd.Value AS ValueOfVitDBefore,
   vitdPost.DateOfFirstValue AS DateOfVitDAfter,
-  vitdPost.Value AS ValueOfVitDAfter
+  vitdPost.Value AS ValueOfVitDAfter,
+  hb.DateOfFirstValue AS DateOfHaemoglobinBefore,
+  hb.Value AS ValueOfHaemoglobinBefore,
+  hbPost.DateOfFirstValue AS DateOfHaemoglobinAfter,
+  hbPost.Value AS ValueOfHaemoglobinAfter,
+  wbc.DateOfFirstValue AS DateOfWBCBefore,
+  wbc.Value AS ValueOfWBCBefore,
+  wbcPost.DateOfFirstValue AS DateOfWBCAfter,
+  wbcPost.Value AS ValueOfWBCAfter,
+  platelets.DateOfFirstValue AS DateOfPlateletsBefore,
+  platelets.Value AS ValueOfPlateletsBefore,
+  plateletsPost.DateOfFirstValue AS DateOfPlateletsAfter,
+  plateletsPost.Value AS ValueOfPlateletsAfter,
+  phosphate.DateOfFirstValue AS DateOfAlkalinePhosphateBefore,
+  phosphate.Value AS ValueOfAlkalinePhosphateBefore,
+  phosphatePost.DateOfFirstValue AS DateOfAlkalinePhosphateAfter,
+  phosphatePost.Value AS ValueOfAlkalinePhosphateAfter,
+  calcium.DateOfFirstValue AS DateOfCorrectedCalciumBefore,
+  calcium.Value AS ValueOfCorrectedCalciumBefore,
+  calciumPost.DateOfFirstValue AS DateOfCorrectedCalciumAfter,
+  calciumPost.Value AS ValueOfCorrectedCalciumAfter
 FROM #Patients pat
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -187,7 +220,9 @@ LEFT OUTER JOIN #PatientDiagnosisDiabetesTypeI  diabetestypei ON diabetestypei.F
 LEFT OUTER JOIN #PatientDiagnosisDiabetesTypeII diabetestypeii ON diabetestypeii.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisCOPD copd ON copd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisAsthma asthma ON asthma.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientDiagnosisSMI  smi ON smi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosisDementia dementia ON dementia.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosisSMI smi ON smi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosisMI mi ON mi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisAngina angina ON angina.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisHeartFailure heartfailure ON heartfailure.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisRA ra ON ra.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -204,3 +239,13 @@ LEFT OUTER JOIN #PostStartHBA1C hba1cPost ON hba1cPost.FK_Patient_Link_ID = pat.
 LEFT OUTER JOIN #PreStartHBA1C hba1c ON hba1c.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartVitD vitdPost ON vitdPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartVitD vitd ON vitd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartHb hbPost ON hbPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartHb hb ON hb.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartWBC wbcPost ON wbcPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartWBC wbc ON wbc.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartPlatelets plateletsPost ON plateletsPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartPlatelets platelets ON platelets.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartAlkalinePhosphate phosphatePost ON phosphatePost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartAlkalinePhosphate phosphate ON phosphate.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
