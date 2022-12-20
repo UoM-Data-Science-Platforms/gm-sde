@@ -21,13 +21,7 @@
 --  DateOfDementia, DateOfMI, DateOfAngina, DateOfHeartFailure,
 --  DateOfStroke, DateOfRA
 --  BIOMARKERS -  for all have ValueBeforeJan1, DateOfValueBeforeJan1, ValueOnOrAfterJan1, DateOfValueBeforeJan1
-<<<<<<< HEAD
 --  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC (= HB, WCC, Platelets), 
-=======
---  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC
-
-TODO Dementia, MI,FBC
->>>>>>> 4b3f790 (Latest code)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -53,7 +47,6 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 -- Get the admissions and lengths of stay post covid tests
 --> EXECUTE query-get-admissions-and-length-of-stay-post-covid.sql all-patients:false
 
-<<<<<<< HEAD
 -- To optimise the patient event data table further (as there are so many patients),
 -- we can initially split it into 3:
 -- 1. Patients with a SuppliedCode in our list
@@ -171,34 +164,6 @@ SELECT * FROM #PatientMedicationData3;
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS medData ON #PatientMedicationData;
 CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
-=======
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [SharedCare].GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
-
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(MedicationDate AS DATE) AS MedicationDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID
-INTO #PatientMedicationData
-FROM [SharedCare].GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate < @TEMPRQ038EndDate
-AND MedicationDate >= @MedicationsFromDate;
->>>>>>> 4b3f790 (Latest code)
 
 --> EXECUTE query-patients-with-post-covid-syndrome.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
@@ -209,13 +174,9 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:diabetes-type-ii version:1 temp-table-name:#PatientDiagnosisDiabetesTypeII
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:copd version:1 temp-table-name:#PatientDiagnosisCOPD
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:asthma version:1 temp-table-name:#PatientDiagnosisAsthma
-<<<<<<< HEAD
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:dementia version:1 temp-table-name:#PatientDiagnosisDementia
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosisSMI
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:myocardial-infarction version:1 temp-table-name:#PatientDiagnosisMI
-=======
---> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosisSMI
->>>>>>> 4b3f790 (Latest code)
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:angina version:1 temp-table-name:#PatientDiagnosisAngina
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:heart-failure version:1 temp-table-name:#PatientDiagnosisHeartFailure
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:rheumatoid-arthritis version:1 temp-table-name:#PatientDiagnosisRA
@@ -236,41 +197,18 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PostStartVitD date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PreStartVitD date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
-<<<<<<< HEAD
---> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PostStartHb date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PreStartHb date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PostStartWBC date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PostStartAlkalinePhosphatase date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PreStartAlkalinePhosphatase date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
-
-=======
->>>>>>> 4b3f790 (Latest code)
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM SharedCare.COVID19
-<<<<<<< HEAD
 WHERE (
-=======
-WHERE DeathWithin28Days = 'Y'
-AND (
->>>>>>> 4b3f790 (Latest code)
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-<<<<<<< HEAD
 AND DATEDIFF(day,EventDate,DeathDate) <= 28
 AND EventDate < '2022-06-01';
-=======
-AND EventDate < @TEMPRQ037EndDate;
->>>>>>> 4b3f790 (Latest code)
 
 SELECT 
   pat.FK_Patient_Link_ID AS PatientId,
@@ -280,13 +218,8 @@ SELECT
   town.TownsendScoreHigherIsMoreDeprived,
   town.TownsendQuintileHigherIsMoreDeprived,
   lsoa.LSOA_Code AS LSOA,
-<<<<<<< HEAD
   CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
   CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
-=======
-  CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
-  CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
->>>>>>> 4b3f790 (Latest code)
   covid.FirstCovidPositiveDate, admission.FirstAdmissionPost1stCOVIDTest, los.LengthOfStay1stAdmission1stCOVIDTest,
   covid.SecondCovidPositiveDate, admission.FirstAdmissionPost2ndCOVIDTest, los.LengthOfStay1stAdmission2ndCOVIDTest,
   covid.ThirdCovidPositiveDate, admission.FirstAdmissionPost3rdCOVIDTest, los.LengthOfStay1stAdmission3rdCOVIDTest,
@@ -307,13 +240,9 @@ SELECT
   diabetestypeii.DateOfFirstDiagnosis AS DateOfDiabetesTypeII,
   copd.DateOfFirstDiagnosis AS DateOfCOPD,
   asthma.DateOfFirstDiagnosis AS DateOfAsthma,
-<<<<<<< HEAD
   dementia.DateOfFirstDiagnosis AS DateOfDementia,
   smi.DateOfFirstDiagnosis AS DateOfSMI,
   mi.DateOfFirstDiagnosis AS DateOfMI,
-=======
-  smi.DateOfFirstDiagnosis AS DateOfSMI,
->>>>>>> 4b3f790 (Latest code)
   angina.DateOfFirstDiagnosis AS DateOfAngina,
   heartfailure.DateOfFirstDiagnosis AS DateOfHeartFailure,
   ra.DateOfFirstDiagnosis AS DateOfRA,
@@ -330,11 +259,7 @@ SELECT
   dbp.Value AS ValueOfDBPBefore,
   dbpPost.DateOfFirstValue AS DateOfDBPAfter,
   dbpPost.Value AS ValueOfDBPAfter,
-<<<<<<< HEAD
   egfr.DateOfFirstValue AS DateOfEGFRBefore,
-=======
-  egfr.DateOfFirstValue  AS DateOfEGFRBefore,
->>>>>>> 4b3f790 (Latest code)
   egfr.Value AS ValueOfEGFRBefore,
   egfrPost.DateOfFirstValue AS DateOfEGFRAfter,
   egfrPost.Value AS ValueOfEGFRAfter,
@@ -342,7 +267,6 @@ SELECT
   hba1c.Value AS ValueOfHBA1CBefore,
   hba1cPost.DateOfFirstValue AS DateOfHBA1CAfter,
   hba1cPost.Value AS ValueOfHBA1CAfter,
-<<<<<<< HEAD
   vitd.DateOfFirstValue AS DateOfVitDBefore,
   vitd.Value AS ValueOfVitDBefore,
   vitdPost.DateOfFirstValue AS DateOfVitDAfter,
@@ -367,12 +291,6 @@ SELECT
   calcium.Value AS ValueOfCorrectedCalciumBefore,
   calciumPost.DateOfFirstValue AS DateOfCorrectedCalciumAfter,
   calciumPost.Value AS ValueOfCorrectedCalciumAfter
-=======
-  vitd.DateOfFirstValue  AS DateOfVitDBefore,
-  vitd.Value AS ValueOfVitDBefore,
-  vitdPost.DateOfFirstValue AS DateOfVitDAfter,
-  vitdPost.Value AS ValueOfVitDAfter
->>>>>>> 4b3f790 (Latest code)
 FROM #Patients pat
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -391,13 +309,9 @@ LEFT OUTER JOIN #PatientDiagnosisDiabetesTypeI  diabetestypei ON diabetestypei.F
 LEFT OUTER JOIN #PatientDiagnosisDiabetesTypeII diabetestypeii ON diabetestypeii.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisCOPD copd ON copd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisAsthma asthma ON asthma.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-<<<<<<< HEAD
 LEFT OUTER JOIN #PatientDiagnosisDementia dementia ON dementia.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSMI smi ON smi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisMI mi ON mi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-=======
-LEFT OUTER JOIN #PatientDiagnosisSMI  smi ON smi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
->>>>>>> 4b3f790 (Latest code)
 LEFT OUTER JOIN #PatientDiagnosisAngina angina ON angina.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisHeartFailure heartfailure ON heartfailure.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisRA ra ON ra.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -413,7 +327,6 @@ LEFT OUTER JOIN #PreStartEGFR egfr ON egfr.FK_Patient_Link_ID = pat.FK_Patient_L
 LEFT OUTER JOIN #PostStartHBA1C hba1cPost ON hba1cPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartHBA1C hba1c ON hba1c.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartVitD vitdPost ON vitdPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-<<<<<<< HEAD
 LEFT OUTER JOIN #PreStartVitD vitd ON vitd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartHb hbPost ON hbPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartHb hb ON hb.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -425,6 +338,3 @@ LEFT OUTER JOIN #PostStartAlkalinePhosphatase phosphatasePost ON phosphatasePost
 LEFT OUTER JOIN #PreStartAlkalinePhosphatase phosphatase ON phosphatase.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-=======
-LEFT OUTER JOIN #PreStartVitD vitd ON vitd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
->>>>>>> 4b3f790 (Latest code)
