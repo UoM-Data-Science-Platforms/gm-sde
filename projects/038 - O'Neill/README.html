@@ -517,7 +517,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>diabetes-type-ii v1</li>
 <li>copd v1</li>
 <li>asthma v1</li>
+<li>dementia v1</li>
 <li>severe-mental-illness v1</li>
+<li>myocardial-infarction v1</li>
 <li>angina v1</li>
 <li>heart-failure v1</li>
 <li>rheumatoid-arthritis v1</li>
@@ -528,6 +530,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>egfr v1</li>
 <li>hba1c v2</li>
 <li>vitamin-d v1</li>
+<li>haemoglobin v1</li>
+<li>white-blood-cells v1</li>
+<li>platelets v1</li>
+<li>alkaline-phosphatase v1</li>
+<li>corrected-calcium v1</li>
 <li>efi-activity-limitation v1</li>
 <li>efi-anaemia v1</li>
 <li>efi-arthritis v1</li>
@@ -1178,6 +1185,46 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/asthma/1">https://github.com/rw251/.../conditions/asthma/1</a></p>
+<h3>Dementia</h3>
+<p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
+<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.67% - 0.81%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-20</td>
+<td>EMIS</td>
+<td>2438146</td>
+<td style="text-align:right">19770 (0.811%)</td>
+<td style="text-align:right">21772 (0.893%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>TPP</td>
+<td>198637</td>
+<td style="text-align:right">1427 (0.718%)</td>
+<td style="text-align:right">7445 (3.75%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>Vision</td>
+<td>327196</td>
+<td style="text-align:right">2244 (0.686%)</td>
+<td style="text-align:right">2265 (0.692%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></p>
 <h3>Severe mental illness</h3>
 <p>Defined as any diagnosis of:</p>
 <ul>
@@ -1252,9 +1299,85 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1">https://github.com/rw251/.../conditions/severe-mental-illness/1</a></p>
+<h3>Myocardial infarction</h3>
+<p>Any code that indicates that a person has had a myocardial infarction. NB This includes &quot;history&quot; codes as well so is not best suited if you solely want to know when a diagnosis occurred.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.36% - 1.62%</code> suggests that this code set is well defined.</p>
+<p>update:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-07</td>
+<td>EMIS</td>
+<td>2438760</td>
+<td style="text-align:right">33211 (1.36%)</td>
+<td style="text-align:right">33876 (1.39%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>TPP</td>
+<td>198672</td>
+<td style="text-align:right">3210 (1.62%)</td>
+<td style="text-align:right">5353 (2.69%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>Vision</td>
+<td>327081</td>
+<td style="text-align:right">4447 (1.36%)</td>
+<td style="text-align:right">4454 (1.36%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/myocardial-infarction/1">https://github.com/rw251/.../conditions/myocardial-infarction/1</a></p>
 <h3>Angina</h3>
 <p>Any code indicating a diagnosis of angina. Does not include codes that indicate angina but are not diagnoses e.g. &quot;h/o angina&quot;, &quot;angina plan discussed&quot;.</p>
-<p>TODO need to validate</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.08% - 1.34%</code> suggests that this code set is well defined.</p>
+<p>update:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-07</td>
+<td>EMIS</td>
+<td>2438760</td>
+<td style="text-align:right">26698 (1.09%)</td>
+<td style="text-align:right">27181 (1.11%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>TPP</td>
+<td>198672</td>
+<td style="text-align:right">2658 (1.34%)</td>
+<td style="text-align:right">4448 (2.24%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>Vision</td>
+<td>327081</td>
+<td style="text-align:right">3537 (1.08%)</td>
+<td style="text-align:right">3530 (1.08%)</td>
+</tr>
+</tbody>
+</table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/angina/1">https://github.com/rw251/.../conditions/angina/1</a></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
@@ -1646,6 +1769,219 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1">https://github.com/rw251/.../tests/vitamin-d/1</a></p>
+<h3>Haemoglobin</h3>
+<p>A patient's haemoglobin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>423.. - Haemoglobin estimation</code>). It does not include codes that indicate a patient's haemoglobin (<code>4235 - Haemoglobin low</code>) without giving the actual value.</p>
+<p>Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.</p>
+<p><strong>NB: This code set is intended to only indicate a patient's haemoglobin values.</strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.66% - 62.03%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-02-01</td>
+<td>EMIS</td>
+<td>2652511</td>
+<td style="text-align:right">1582390 (59.66%)</td>
+<td style="text-align:right">1582391 (59.66%)</td>
+</tr>
+<tr>
+<td>2022-02-01</td>
+<td>TPP</td>
+<td>212213</td>
+<td style="text-align:right">129224 (60.89%)</td>
+<td style="text-align:right">129224 (60.89%)</td>
+</tr>
+<tr>
+<td>2022-02-01</td>
+<td>Vision</td>
+<td>340640</td>
+<td style="text-align:right">211312 (62.03%)</td>
+<td style="text-align:right">211312 (62.03%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1">https://github.com/rw251/.../tests/haemoglobin/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>White blood cells</h3>
+<p>This code set only includes codes that are accompanied by a value (e.g. <code>42H.. - White blood cell count</code>).</p>
+<p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.89% - 63.21%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-03-21</td>
+<td>EMIS</td>
+<td>2604007</td>
+<td style="text-align:right">1592011 (59.89%)</td>
+<td style="text-align:right">1592011 (59.89%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>TPP</td>
+<td>132189</td>
+<td style="text-align:right">132189 (62.16%)</td>
+<td style="text-align:right">135713 (62.16%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>Vision</td>
+<td>333730</td>
+<td style="text-align:right">215935 (63.21%)</td>
+<td style="text-align:right">215935 (63.21%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/white-blood-cells/1">https://github.com/rw251/.../tests/white-blood-cells/1</a></p>
+<h3>Platelets</h3>
+<p>This code set only includes codes that are accompanied by a value (e.g. <code>42PZ. - Platelet count NOS</code>).</p>
+<p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%59.80 - 62.19%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-03-21</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">1589471 (59.80%)</td>
+<td style="text-align:right">1589471 (59.80%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">132101 (62.12%)</td>
+<td style="text-align:right">132101 (62.12%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">212437 (62.19%)</td>
+<td style="text-align:right">212437 (62.19%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/platelets/1">https://github.com/rw251/.../tests/platelets/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Alkaline phosphatase</h3>
+<p>This code set includes codes that only includes codes that are accompanied by a value (e.g. <code>44FZ.00 - Serum alkaline phosphatase NOS</code>).</p>
+<p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%57.02 - 60.44%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-03-21</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">1515677 (57.02%)</td>
+<td style="text-align:right">1515677 (57.02%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">128534 (60.44%)</td>
+<td style="text-align:right">128534 (60.44%)</td>
+</tr>
+<tr>
+<td>2022-03-21</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">204911 (59.99%)</td>
+<td style="text-align:right">204911 (59.99%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/alkaline-phosphatase/1">https://github.com/rw251/.../tests/alkaline-phosphatase/1</a></p>
+<h3>Corrected calcium</h3>
+<p>Any code that may provide a value for a patient's corrected calcium (also known as adjusted calcium).</p>
+<p>Codes from https://getset.ga.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>38.8% - 45.8%</code> suggests that this code set is likely well defined, but perhaps missing some EMIS codes.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-20</td>
+<td>EMIS</td>
+<td>2438146</td>
+<td style="text-align:right">945836 (38.8%)</td>
+<td style="text-align:right">945978 (38.8%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>TPP</td>
+<td>198637</td>
+<td style="text-align:right">83879 (42.2%)</td>
+<td style="text-align:right">89936 (45.3%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>Vision</td>
+<td>327196</td>
+<td style="text-align:right">149992 (45.8%)</td>
+<td style="text-align:right">150003 (45.8%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/corrected-calcium/1">https://github.com/rw251/.../tests/corrected-calcium/1</a></p>
 <h3>Activity limitation (for electronic frailty index)</h3>
 <p>These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/efi-activity-limitation/1">https://github.com/rw251/.../patient/efi-activity-limitation/1</a></p>
