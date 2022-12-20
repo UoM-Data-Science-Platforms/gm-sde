@@ -103,8 +103,8 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphate version:1 temp-table-name:#PostStartAlkalinePhosphate date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphate version:1 temp-table-name:#PreStartAlkalinePhosphate date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PostStartAlkalinePhosphatase date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PreStartAlkalinePhosphatase date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
@@ -194,10 +194,10 @@ SELECT
   platelets.Value AS ValueOfPlateletsBefore,
   plateletsPost.DateOfFirstValue AS DateOfPlateletsAfter,
   plateletsPost.Value AS ValueOfPlateletsAfter,
-  phosphate.DateOfFirstValue AS DateOfAlkalinePhosphateBefore,
-  phosphate.Value AS ValueOfAlkalinePhosphateBefore,
-  phosphatePost.DateOfFirstValue AS DateOfAlkalinePhosphateAfter,
-  phosphatePost.Value AS ValueOfAlkalinePhosphateAfter,
+  phosphatase.DateOfFirstValue AS DateOfAlkalinePhosphataseBefore,
+  phosphatase.Value AS ValueOfAlkalinePhosphataseBefore,
+  phosphatasePost.DateOfFirstValue AS DateOfAlkalinePhosphataseAfter,
+  phosphatasePost.Value AS ValueOfAlkalinePhosphataseAfter,
   calcium.DateOfFirstValue AS DateOfCorrectedCalciumBefore,
   calcium.Value AS ValueOfCorrectedCalciumBefore,
   calciumPost.DateOfFirstValue AS DateOfCorrectedCalciumAfter,
@@ -245,7 +245,7 @@ LEFT OUTER JOIN #PostStartWBC wbcPost ON wbcPost.FK_Patient_Link_ID = pat.FK_Pat
 LEFT OUTER JOIN #PreStartWBC wbc ON wbc.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartPlatelets plateletsPost ON plateletsPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartPlatelets platelets ON platelets.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PostStartAlkalinePhosphate phosphatePost ON phosphatePost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PreStartAlkalinePhosphate phosphate ON phosphate.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostStartAlkalinePhosphatase phosphatasePost ON phosphatasePost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PreStartAlkalinePhosphatase phosphatase ON phosphatase.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
