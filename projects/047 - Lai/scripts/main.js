@@ -126,7 +126,7 @@ First you need to be authenticated.`);
       min: 0,
       idleTimeoutMillis: 30000,
     },
-    requestTimeout: 5 * 60 * 60 * 1000, //5 hours probably long enough
+    requestTimeout: 12 * 60 * 60 * 1000, //5 hours probably long enough
     options: { encrypt: true },
   };
   try {
@@ -463,7 +463,7 @@ async function getPatientPseudoIds() {
   return new Promise((resolve) => {
     const request = new mssql.Request();
     request.stream = true;
-    request.query('SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;');
+    request.query('SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link;');
 
     request.on('row', (row) => {
       // Emitted for each row in a recordset

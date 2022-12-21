@@ -36,7 +36,7 @@ This project required the following reusable queries:
 - Lower level super output area
 - GET practice and ccg for each patient
 - CCG lookup table
-- Year of birth
+- Year and quarter month of birth
 - Index Multiple Deprivation
 - Sex
 
@@ -118,16 +118,16 @@ _File_: `query-ccg-lookup.sql`
 _Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
 
 ---
-### Year of birth
+### Year and quarter month of birth
 To get the year of birth for each patient.
 
 _Assumptions_
 
-- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
-- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
-- If every YOB for a patient is the same, then we use that
-- If there is a single most recently updated YOB in the database then we use that
-- Otherwise we take the highest YOB for the patient that is not in the future
+- Patient data is obtained from multiple sources. Where patients have multiple YearAndQuarterMonthOfBirths we determine the YearAndQuarterMonthOfBirth as follows:
+- If the patients has a YearAndQuarterMonthOfBirth in their primary care data feed we use that as most likely to be up to date
+- If every YearAndQuarterMonthOfBirth for a patient is the same, then we use that
+- If there is a single most recently updated YearAndQuarterMonthOfBirth in the database then we use that
+- Otherwise we take the highest YearAndQuarterMonthOfBirth for the patient that is not in the future
 
 _Input_
 ```
@@ -139,13 +139,13 @@ Assumes there exists a temp table as follows:
 _Output_
 ```
 A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ #PatientYearAndQuarterMonthOfBirth (FK_Patient_Link_ID, YearAndQuarterMonthOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
+	- YearAndQuarterMonthOfBirth - (YYYY-MM-01)
 ```
-_File_: `query-patient-year-of-birth.sql`
+_File_: `query-patient-year-and-quarter-month-of-birth.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+_Link_: [https://github.com/rw251/.../query-patient-year-and-quarter-month-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-and-quarter-month-of-birth.sql)
 
 ---
 ### Index Multiple Deprivation
@@ -204,6 +204,29 @@ This project required the following clinical code sets:
 
 - skin-cancer v1
 - gynaecological-cancer v1
+- immunosuppression v1
+- hiv v1
+- hydrochlorothiazide v1
+- diabetes v1
+- cervical-smear v1
+- contraceptives-combined-hormonal v1
+- contraceptives-devices v1
+- contraceptives-progesterone-only v1
+- polycystic-ovarian-syndrome v1
+- hormone-replacement-therapy-meds v1
+- smoking-status-current v1
+- smoking-status-currently-not v1
+- smoking-status-ex v1
+- smoking-status-ex-trivial v1
+- smoking-status-never v1
+- smoking-status-passive v1
+- smoking-status-trivial v1
+- bmi v2
+- alcohol-non-drinker v1
+- alcohol-light-drinker v1
+- alcohol-moderate-drinker v1
+- alcohol-heavy-drinker v1
+- alcohol-weekly-intake v1
 
 Further details for each code set can be found below.
 
@@ -242,6 +265,248 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-11-29 | TPP             | 198557     |   25985 (13.1%)  |   29003 (14.6%)   |
 | 2022-11-29 | Vision          | 326778     |   27188 (8.3%)   |    27005 (8.2%)   |
 LINK: [https://github.com/rw251/.../conditions/gynaecological-cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gynaecological-cancer/1)
+
+### Immunosuppression
+
+Codes that indicate a patient has a diagnosis of temporary or permanent immunosuppression, excluding HIV. SNOMED and CTV3 codelist are from the OpenSAFELY team (see below for links). The Read 2 codelist is from the LSHTM Data Compass.
+
+- [Immunosuppression - permanent (CTV3)](https://codelists.opensafely.org/codelist/opensafely/permanent-immunosuppression/2020-06-02/)
+- [Immunosuppression - temporary (CTV3)](https://codelists.opensafely.org/codelist/opensafely/temporary-immunosuppression/2020-04-24/)
+- [Immunosuppression - permanent (SNOMED)](https://codelists.opensafely.org/codelist/opensafely/permanent-immunosuppression-snomed/2020-06-02/)
+- [Immunosuppression - temporary (SNOMED)](https://codelists.opensafely.org/codelist/opensafely/temporary-immunosuppression-snomed/2020-04-24/)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.30% - 0.50%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |    11815 (0.45%) |     11453 (0.44%) |
+| 2021-03-11 | TPP             | 210333     |      625 (0.30%) |       625 (0.30%) |
+| 2021-03-11 | Vision          | 333251     |     1766 (0.53%) |      1667 (0.50%) |
+
+LINK: [https://github.com/rw251/.../conditions/immunosuppression/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/immunosuppression/1)
+
+### HIV
+
+Codes indicating a diagnosis of HIV. Snomed and CTV3 codelist are from the [OpenSafely project](https://codelists.opensafely.org/codelist/opensafely/hiv/2020-07-13/#full-list). The Read 2 codelist is from the LSHTM Data Compass.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.010% - 0.029%` is perhaps a bit wide, but as the numbers are so low it is likely well-defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |     760 (0.029%) |      760 (0.029%) |
+| 2021-03-11 | TPP             | 210333     |      39 (0.019%) |       39 (0.019%) |
+| 2021-03-11 | Vision          | 333251     |      34 (0.010%) |       34 (0.010%) |
+
+LINK: [https://github.com/rw251/.../conditions/hiv/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hiv/1)
+
+### Hydrochlorothiazide
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.71% - 1.35%` suggests that this code set is well defined. Though the Vision practices are perhaps slighly on the low side, though this could be due to the small numbers.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-08-18 | EMIS            | 2493056    |    19537 (0.78%) |     19564 (0.78%) |
+| 2022-08-18 | TPP             | 198292     |     2558 (1.29%) |      2692 (1.35%) |
+| 2022-08-18 | Vision          | 327521     |     2329 (0.71%) |      2329 (0.71%) |
+LINK: [https://github.com/rw251/.../medications/hydrochlorothiazide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hydrochlorothiazide/1)
+
+### Diabetes mellitus
+
+Code set for any diagnosis of diabetes mellitus (type I/type II/other).
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.96% - 6.05%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   155421 (5.96%) |    155398 (5.96%) |
+| 2021-05-07 | TPP             | 210817     |    12743 (6.04%) |     12745 (6.05%) |
+| 2021-05-07 | Vision          | 334632     |    20145 (6.02%) |     20145 (6.02%) |
+
+LINK: [https://github.com/rw251/.../conditions/diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1)
+
+### Cervical smear
+
+This set was created from getset.ga. These codes indicate patients who had cervical smear test (for example; cervical smear test result - negative), not the actual test event.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `29.2% - 32.2%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-09-12 | EMIS            | 2448237    |   718053 (29.3%) |    714376 (29.2%) |
+| 2022-09-12 | TPP             | 198144     |    63989 (32.2%) |     89284 (45.0%) |
+| 2022-09-12 | Vision          | 325732     |    95292 (29.2%) |     94454 (28.9%) |
+
+LINK: [https://github.com/rw251/.../procedures/cervical-smear/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/cervical-smear/1)
+
+### Contraceptives - combined hormonal
+
+This code set was created from BNF codes (mapped to SNOMED) starting with 070301 (following same process as https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.29% - 13.25%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-05 | EMIS            | 2662112    |  332656 (12.50%) |      8254 (0.31%) |
+| 2022-05-05 | TPP             |  212726    |   28179 (13.25%) |    26386 (12.40%) |
+| 2022-05-05 | Vision          |  342310    |   42059 (12.29%) |     20642 (6.03%) |
+
+LINK: [https://github.com/rw251/.../medications/contraceptives-combined-hormonal/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/contraceptives-combined-hormonal/1)
+
+### Contraceptives - devices
+
+This code set was based on BNF codes (mapped to SNOMED) starting with '210400', following the approach in this paper: https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.27% - 1.86%` suggests potential underreporting for TPP practices.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-04 | EMIS            | 2662112    |   48059 (1.81%)  |    48418 (1.82%)  |
+| 2022-05-04 | TPP             |  212726    |     280 (0.13%)  |     2701 (1.27%)  |
+| 2022-05-04 | Vision          |  342310    |    6374 (1.86%)  |     6379 (1.86%)  |
+LINK: [https://github.com/rw251/.../medications/contraceptives-devices/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/contraceptives-devices/1)
+
+### Contraceptives - progesterone only
+
+This code set was based on BNF codes (mapped to SNOMED) starting with 070302, following the approach used in https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.44% - 11.18%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-04 | EMIS            | 2662112    |  288196 (10.83%) |      6054 (0.23%) |
+| 2022-05-04 | TPP             |  212726    |   22204 (10.44%) |     20441 (9.61%) |
+| 2022-05-04 | Vision          |  342310    |   38274 (11.18%) |     18983 (5.55%) |
+
+LINK: [https://github.com/rw251/.../medications/contraceptives-progesterone-only/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/contraceptives-progesterone-only/1)
+
+### Polycystic Ovarian Syndrome 
+
+Any diagnosis of polycystic ovarian syndrome.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 2629848    |    37029 (1.41%) |     37029 (1.41%) |
+| 2021-10-13 | TPP             | 211812     |     2348 (1.11%) |      2348 (1.11%) |
+| 2021-10-13 | Vision          | 338205     |     3829 (1.13%) |      3829 (1.13%) |
+
+LINK: [https://github.com/rw251/.../conditions/polycystic-ovarian-syndrome/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-ovarian-syndrome/1)
+
+### Hormone replacement therapy medications
+
+This code set was created from BNF codes starting with 060401. A mapping from prod codes to BNF was used.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.73% - 12.27%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |   259198 (9.73%) |  269103 (10.10%)  |
+| 2022-06-28 | TPP             | 212907     |   26115 (12.27%) |    20152 (9.47%)  |
+| 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
+LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
+
+### Smoking status current
+
+Any code suggestive that a patient is a current smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
+
+### Smoking status currently not
+
+Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
+
+### Smoking status ex
+
+Any code suggestive that a patient is an ex-smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
+
+### Smoking status never
+
+Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
+
+### Body Mass Index (BMI)
+
+A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+
+**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
+| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
+| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
+| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
+| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
+| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+
+LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
+
+### Alcohol non drinker
+
+Any code suggestive that a patient is a non-drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-non-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-non-drinker/1)
+
+### Alcohol light drinker
+
+Any code suggestive that a patient is a light drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-light-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-light-drinker/1)
+
+### Alcohol moderate drinker
+
+Any code suggestive that a patient is a moderate drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-moderate-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-moderate-drinker/1)
+
+### Alcohol heavy drinker
+
+Any code suggestive that a patient is a heavy drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-heavy-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-heavy-drinker/1)
+
+### Alcohol intake per week
+
+Any code indicative of a patient's alcohol intake per week.
+LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../047 - Lai/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/047%20-%20Lai/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

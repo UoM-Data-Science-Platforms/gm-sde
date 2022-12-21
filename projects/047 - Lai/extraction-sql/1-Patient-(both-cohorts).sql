@@ -1,12 +1,12 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ Patient information                                                        ¦
+--¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 -- OUTPUT: Data with the following fields
 -- PatientId
--- YOB (YYYY)
+-- YearAndQuarterMonthOfBirth (YYYY-MM-01)
 -- Sex (Female/ Male)
 -- Ethnicity (White/ Mixed/ Black or Black British/ Asian or Asian British/ Other Ethnic Groups/ Refused and not stated group)
 -- IMDGroup (1, 2, 3, 4, 5)
@@ -230,8 +230,10 @@ IF OBJECT_ID('tempdb..#SkinCohort') IS NOT NULL DROP TABLE #SkinCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #SkinCohort
 FROM SharedCare.GP_Events
-WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1)))
-      AND EventDate >= @StartDate AND EventDate < @EndDate;
+WHERE (
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
 -- Create the gynae cancer cohort========================================================================================================
@@ -239,11 +241,13 @@ IF OBJECT_ID('tempdb..#GynaeCohort') IS NOT NULL DROP TABLE #GynaeCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #GynaeCohort
 FROM SharedCare.GP_Events
-WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'gynaecological-cancer' AND [Version] = 1)))
-AND EventDate >= @StartDate AND EventDate < @EndDate;
+WHERE (
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'gynaecological-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'gynaecological-cancer' AND Version = 1)
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients for COPI and within 2 cohorts=========================================================================================================================
+-- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM [SharedCare].[Patient_GP_History]
@@ -425,9 +429,9 @@ GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
 -- 489
 -- 00:00:00
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
+--┌────────────────────────────────┐
+--│ Year and quarter month of birth│
+--└────────────────────────────────┘
 
 -- OBJECTIVE: To get the year of birth for each patient.
 
@@ -436,86 +440,86 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- #PatientYearAndQuarterMonthOfBirth (FK_Patient_Link_ID, YearAndQuarterMonthOfBirth)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
+--	- YearAndQuarterMonthOfBirth - (YYYY-MM-01)
 
 -- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
+--	- Patient data is obtained from multiple sources. Where patients have multiple YearAndQuarterMonthOfBirths we determine the YearAndQuarterMonthOfBirth as follows:
+--	-	If the patients has a YearAndQuarterMonthOfBirth in their primary care data feed we use that as most likely to be up to date
+--	-	If every YearAndQuarterMonthOfBirth for a patient is the same, then we use that
+--	-	If there is a single most recently updated YearAndQuarterMonthOfBirth in the database then we use that
+--	-	Otherwise we take the highest YearAndQuarterMonthOfBirth for the patient that is not in the future
 
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+-- Get all patients year and quarter month of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearAndQuarterMonthOfBirths') IS NOT NULL DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 SELECT 
 	FK_Patient_Link_ID,
 	FK_Reference_Tenancy_ID,
 	HDMModifDate,
-	YEAR(Dob) AS YearOfBirth
-INTO #AllPatientYearOfBirths
+	CONVERT(date, Dob) AS YearAndQuarterMonthOfBirth
+INTO #AllPatientYearAndQuarterMonthOfBirths
 FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
 
--- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- If patients have a tenancy id of 2 we take this as their most likely YearAndQuarterMonthOfBirth
 -- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+IF OBJECT_ID('tempdb..#PatientYearAndQuarterMonthOfBirth') IS NOT NULL DROP TABLE #PatientYearAndQuarterMonthOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearAndQuarterMonthOfBirth) as YearAndQuarterMonthOfBirth INTO #PatientYearAndQuarterMonthOfBirth FROM #AllPatientYearAndQuarterMonthOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+HAVING MIN(YearAndQuarterMonthOfBirth) = MAX(YearAndQuarterMonthOfBirth);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
 SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
 EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID FROM #PatientYearAndQuarterMonthOfBirth;
 
--- If every YOB is the same for all their linked patient ids then we use that
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+-- If every YearAndQuarterMonthOfBirth is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearAndQuarterMonthOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearAndQuarterMonthOfBirth) FROM #AllPatientYearAndQuarterMonthOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+HAVING MIN(YearAndQuarterMonthOfBirth) = MAX(YearAndQuarterMonthOfBirth);
 
 -- Find any still unmatched patients
 TRUNCATE TABLE #UnmatchedYobPatients;
 INSERT INTO #UnmatchedYobPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID FROM #PatientYearAndQuarterMonthOfBirth;
 
--- If there is a unique most recent YOB then use that
-INSERT INTO #PatientYearOfBirth
-SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+-- If there is a unique most recent YearAndQuarterMonthOfBirth then use that
+INSERT INTO #PatientYearAndQuarterMonthOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearAndQuarterMonthOfBirth) FROM #AllPatientYearAndQuarterMonthOfBirths p
 INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearAndQuarterMonthOfBirths
 	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+HAVING MIN(YearAndQuarterMonthOfBirth) = MAX(YearAndQuarterMonthOfBirth);
 
 -- Find any still unmatched patients
 TRUNCATE TABLE #UnmatchedYobPatients;
 INSERT INTO #UnmatchedYobPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID FROM #PatientYearAndQuarterMonthOfBirth;
 
 -- Otherwise just use the highest value (with the exception that can't be in the future)
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+INSERT INTO #PatientYearAndQuarterMonthOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearAndQuarterMonthOfBirth) FROM #AllPatientYearAndQuarterMonthOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
-HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+HAVING MAX(YearAndQuarterMonthOfBirth) <= GETDATE();
 
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
@@ -707,7 +711,7 @@ DROP TABLE #UnmatchedLsoaPatients;
 
 -- Create the table of ethnic================================================================================================================================
 IF OBJECT_ID('tempdb..#Ethnic') IS NOT NULL DROP TABLE #Ethnic;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicMainGroup AS Ethnicity
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity
 INTO #Ethnic
 FROM SharedCare.Patient_Link;
 
@@ -725,17 +729,17 @@ INTO #IMDGroup
 FROM #PatientIMDDecile;
 
 
--- The counting table========================================================================================================================================
+-- The final table========================================================================================================================================
 SELECT
-  p.FK_Patient_Link_ID as PatientID,
-  YearOfBirth AS YOB,
+  p.FK_Patient_Link_ID as PatientId,
+  YearAndQuarterMonthOfBirth,
   Sex,
   Ethnicity,
   IMDGroup,
   LSOA_Code AS LSOA
 FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID;

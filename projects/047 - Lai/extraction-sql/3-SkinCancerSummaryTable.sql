@@ -1,13 +1,21 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ Skin cancer information from the GPEvents table (cohort 1)                     ¦
+--¦ Skin cancer information from the Cancer Summary table (cohort 1)               ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 -- OUTPUT: Data with the following fields
 -- PatientId
--- EventDate (YYYY-MM-DD)
--- SkinCancerRelatedCode (code values)
+-- DiagnosisDate (YYYY-MM-DD)
+-- Benign (No)
+-- TStatus (code values)
+-- TumourGroup (Skin (excl Melanoma)/ Melanoma)
+-- TumourSite (code values)
+-- Histology (code values)
+-- Differentiation (code values)
+-- T_Stage (code values)
+-- N_Stage (code values)
+-- M_Stage (code values)
 
 
 -- >>> Codesets required... Inserting the code set code
@@ -236,29 +244,21 @@ INTO #Patients
 FROM #PatientsToInclude;
 
 
--- Select event date and skin cancer related codes====================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT DISTINCT FK_Patient_Link_ID AS PatientId, 
-				CONVERT(date, EventDate) AS EventDate, 
-				FK_Reference_Coding_ID,
-				FK_Reference_SnomedCT_ID
-INTO #Table
-FROM SharedCare.GP_Events
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
-)     AND EventDate < @EndDate
-      AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
-
-SELECT DISTINCT PatientId, 
-	            EventDate, 
-		    CASE
-		    WHEN c.MainCode IS NOT NULL THEN c.MainCode
-		    ELSE s.ConceptID
-		    END AS SkinCancerRelatedClinicalCode
-FROM #Table t
-LEFT OUTER JOIN SharedCare.Reference_Coding c ON c.PK_Reference_Coding_ID = t.FK_Reference_Coding_ID
-LEFT OUTER JOIN SharedCare.Reference_SnomedCT s ON s.PK_Reference_SnomedCT_ID = t.FK_Reference_SnomedCT_ID
-ORDER BY PatientId, EventDate;
-
+-- The final table====================================================================================================================
+SELECT  DISTINCT FK_Patient_Link_ID AS PatientId, 
+	CONVERT(date, DiagnosisDate) AS DiagnosisDate,
+	Benign,
+	TStatus,
+	TumourGroup,
+	TumourSite,
+	Histology,
+	Differentiation,
+	T_Stage,
+	N_Stage,
+	M_Stage
+FROM [SharedCare].[CCC_PrimaryTumourDetails]
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND (TumourGroup = 'Skin (excl Melanoma)' OR TumourGroup = 'Melanoma')
+	AND CONVERT(date, DiagnosisDate) < @EndDate
+ORDER BY FK_Patient_Link_ID, DiagnosisDate;
 

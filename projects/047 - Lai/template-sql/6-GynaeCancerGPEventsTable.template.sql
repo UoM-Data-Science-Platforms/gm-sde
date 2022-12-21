@@ -1,5 +1,5 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ Skin cancer information from the GPEvents table (cohort 1)                     ¦
+--¦ Gynae cancer information from the GPEvents table (cohort 2)                    ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -7,10 +7,10 @@
 -- OUTPUT: Data with the following fields
 -- PatientId
 -- EventDate (YYYY-MM-DD)
--- SkinCancerRelatedCode (code values)
+-- GynaeCancerRelatedCode (code values)
 
 
---> CODESET skin-cancer:1
+--> CODESET gynaecological-cancer:1
 
 
 -- Set the start date
@@ -23,22 +23,22 @@ SET @EndDate = '2022-06-01';
 SET NOCOUNT ON;
 
 
--- Create the skin cancer cohort=====================================================================================================================================
-IF OBJECT_ID('tempdb..#SkinCohort') IS NOT NULL DROP TABLE #SkinCohort;
+-- Create the gynae cancer cohort========================================================================================================
+IF OBJECT_ID('tempdb..#GynaeCohort') IS NOT NULL DROP TABLE #GynaeCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #SkinCohort
+INTO #GynaeCohort
 FROM SharedCare.GP_Events
 WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'gynaecological-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'gynaecological-cancer' AND Version = 1)
 ) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients for post COPI and within cohort 1=========================================================================================================================
+-- Create a table with all patients for post COPI and within cohort 2=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM [SharedCare].[Patient_GP_History]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #GynaeCohort)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < '2022-06-01';
 
@@ -57,8 +57,8 @@ SELECT DISTINCT FK_Patient_Link_ID AS PatientId,
 INTO #Table
 FROM SharedCare.GP_Events
 WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'gynaecological-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'gynaecological-cancer' AND Version = 1)
 )     AND EventDate < @EndDate
       AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -67,10 +67,11 @@ SELECT DISTINCT PatientId,
 		    CASE
 		    WHEN c.MainCode IS NOT NULL THEN c.MainCode
 		    ELSE s.ConceptID
-		    END AS SkinCancerRelatedClinicalCode
+		    END AS GynaeCancerRelatedClinicalCode
 FROM #Table t
 LEFT OUTER JOIN SharedCare.Reference_Coding c ON c.PK_Reference_Coding_ID = t.FK_Reference_Coding_ID
 LEFT OUTER JOIN SharedCare.Reference_SnomedCT s ON s.PK_Reference_SnomedCT_ID = t.FK_Reference_SnomedCT_ID
 ORDER BY PatientId, EventDate;
+
 
 

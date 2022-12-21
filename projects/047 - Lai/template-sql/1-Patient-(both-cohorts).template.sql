@@ -1,12 +1,12 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ Patient information                                                        ¦
+--¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 -- OUTPUT: Data with the following fields
 -- PatientId
--- YOB (YYYY)
+-- YearAndQuarterMonthOfBirth (YYYY-MM-01)
 -- Sex (Female/ Male)
 -- Ethnicity (White/ Mixed/ Black or Black British/ Asian or Asian British/ Other Ethnic Groups/ Refused and not stated group)
 -- IMDGroup (1, 2, 3, 4, 5)
@@ -32,8 +32,10 @@ IF OBJECT_ID('tempdb..#SkinCohort') IS NOT NULL DROP TABLE #SkinCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #SkinCohort
 FROM SharedCare.GP_Events
-WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'skin-cancer' AND [Version] = 1)))
-      AND EventDate >= @StartDate AND EventDate < @EndDate;
+WHERE (
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
 -- Create the gynae cancer cohort========================================================================================================
@@ -41,8 +43,10 @@ IF OBJECT_ID('tempdb..#GynaeCohort') IS NOT NULL DROP TABLE #GynaeCohort;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #GynaeCohort
 FROM SharedCare.GP_Events
-WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'gynaecological-cancer' AND [Version] = 1)))
-AND EventDate >= @StartDate AND EventDate < @EndDate;
+WHERE (
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'gynaecological-cancer' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'gynaecological-cancer' AND Version = 1)
+) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
 -- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
@@ -61,14 +65,14 @@ FROM #PatientsToInclude;
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-year-of-birth.sql
+--> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 --> EXECUTE query-patient-lsoa.sql
 
 
 -- Create the table of ethnic================================================================================================================================
 IF OBJECT_ID('tempdb..#Ethnic') IS NOT NULL DROP TABLE #Ethnic;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicMainGroup AS Ethnicity
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity
 INTO #Ethnic
 FROM SharedCare.Patient_Link;
 
@@ -86,17 +90,17 @@ INTO #IMDGroup
 FROM #PatientIMDDecile;
 
 
--- The counting table========================================================================================================================================
+-- The final table========================================================================================================================================
 SELECT
-  p.FK_Patient_Link_ID as PatientID,
-  YearOfBirth AS YOB,
+  p.FK_Patient_Link_ID as PatientId,
+  YearAndQuarterMonthOfBirth,
   Sex,
   Ethnicity,
   IMDGroup,
   LSOA_Code AS LSOA
 FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
