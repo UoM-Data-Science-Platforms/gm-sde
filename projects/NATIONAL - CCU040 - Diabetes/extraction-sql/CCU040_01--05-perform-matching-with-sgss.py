@@ -14,10 +14,12 @@
 For each patient in our main cohort (DM + COVID diagnosis), we attempt to find a matched 3:1
 cohort, matching on age, sex and date of COVID diagnosis.
 
+This now uses SGSS data in addition to GDPPR to get all covid positive tests.
+
 ## Input
 Assumes there exists the following tables:
 
-### CCU040_01_MainCohort and CCU040_01_PotentialMatches
+### CCU040_01_SGSS_Main_Cohort and CCU040_01_SGSS_Potential_Matches
 The table of the main cohort and the potential matches
 
 | Column                 | Type    | Description            |
@@ -39,8 +41,8 @@ import pandas as pd
 import numpy as np
 
 # Pull the cohort data and the potential matches (pool) into pandas dataframes
-df_cohort = spark.table('dars_nic_391419_j3w9t_collab.CCU040_01_Main_Cohort').select("*").toPandas()
-df_pool = spark.table('dars_nic_391419_j3w9t_collab.CCU040_01_Potential_Matches').select("*").toPandas()
+df_cohort = spark.table('dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Main_Cohort').select("*").toPandas()
+df_pool = spark.table('dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Potential_Matches').select("*").toPandas()
 
 ############# SPLIT HERE #############
 
@@ -59,11 +61,10 @@ df_cohort['FirstCovidPositive12Week'] = df_cohort.apply(lambda row: row.FirstCov
 df_pool['FirstCovidPositive12Week'] = df_pool.apply(lambda row: row.FirstCovidPositiveDate.toordinal()//84, axis = 1)
 
 # Also add a 5 year buffer
-# HARD CODE ALERT - the current yob range in the cohort is 1913-1997 e.g. 85 years inclusive. So to split into "fair"
-# 5 year periods we want to group 1913-1917, 1918-1922, ... 1993-1997 which is why our conversion is (X - 3)//5 because that 
-# makes years from 1913-1917 = 382, 1918-1922 = 383, ... 1993-1997 = 398
-df_cohort['YearOfBirth5Year'] = df_cohort.apply(lambda row: (row.YearOfBirth-3)//5, axis = 1)
-df_pool['YearOfBirth5Year'] = df_pool.apply(lambda row: (row.YearOfBirth-3)//5, axis = 1)
+# HARD CODE ALERT - the current yob range in the cohort is 1910-2022 e.g. 113 years inclusive. So to split into "fair"
+# 5 year periods we want to group 1910-1914, 1915-1919, ... 2015-2019
+df_cohort['YearOfBirth5Year'] = df_cohort.apply(lambda row: (row.YearOfBirth)//5, axis = 1)
+df_pool['YearOfBirth5Year'] = df_pool.apply(lambda row: (row.YearOfBirth)//5, axis = 1)
 
 # And finally make the covid date a numeric field so we can just find everyong a "nearest" match
 df_cohort["FirstCovidPositiveDate"] = pd.to_datetime(df_cohort["FirstCovidPositiveDate"])
@@ -239,7 +240,7 @@ spark_df_patients_with_matches.show()
 
 # Finally write the data back to the database
 db_name = 'dars_nic_391419_j3w9t_collab'
-table_name = 'ccu040_01_patients_with_matches'
+table_name = 'ccu040_01_sgss_patients_with_matches'
 spark_df_patients_with_matches.createOrReplaceTempView(table_name) 
 spark.sql("INSERT INTO " + db_name + "." + table_name + " SELECT * FROM " + table_name)
 
