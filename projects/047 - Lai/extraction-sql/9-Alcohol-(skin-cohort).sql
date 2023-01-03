@@ -267,8 +267,7 @@ AND FK_Reference_SnomedCT_ID IN (
 	'alcohol-non-drinker', 
 	'alcohol-light-drinker',
 	'alcohol-moderate-drinker',
-	'alcohol-heavy-drinker',
-	'alcohol-weekly-intake'
+	'alcohol-heavy-drinker'
 	)
 	AND [Version]=1
 ) AND CAST(EventDate AS DATE) < @EndDate
@@ -287,8 +286,7 @@ AND FK_Reference_Coding_ID IN (
 	'alcohol-non-drinker', 
 	'alcohol-light-drinker',
 	'alcohol-moderate-drinker',
-	'alcohol-heavy-drinker',
-	'alcohol-weekly-intake'
+	'alcohol-heavy-drinker'
 	)
 	AND [Version]=1
 ) AND CAST(EventDate AS DATE) < @EndDate;
