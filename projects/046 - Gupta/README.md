@@ -366,7 +366,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -564,6 +564,13 @@ This project required the following clinical code sets:
 - bnf-skin-meds v1
 - bnf-immunological-meds v1
 - bnf-anaesthesia-meds v1
+- sglt2-inhibitors v1
+- metformin v1
+- insulin v1
+- ace-inhibitor v2
+- angiotensin-receptor-blockers v1
+- aspirin v1
+- clopidogrel v1
 - systolic-blood-pressure v1
 - diastolic-blood-pressure v1
 - hba1c v2
@@ -902,6 +909,115 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-06-28 | Vision          |  339069    |   22006 (6.41%)  |     23622 (6.88%) |
 
 LINK: [https://github.com/rw251/.../medications/bnf-anaesthesia-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/bnf-anaesthesia-meds/1)
+
+### SGLT2 inhibitors (gliflozins)
+
+Any prescription of a SGLT2 inhibitor (gliflozin).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    32817 (1.25%) |     32817 (1.25%) |
+| 2021-08-26 | TPP             | 211610     |     1899 (0.90%) |      1899 (0.90%) |
+| 2021-08-26 | Vision          | 337028     |     4211 (1.25%) |      4211 (1.25%) |
+
+LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
+
+### Metformin
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.75% - 5.19%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   135082 (5.18%) |    135136 (5.19%) |
+| 2021-05-07 | TPP             | 210817     |    10016 (4.75%) |     10016 (4.75%) |
+| 2021-05-07 | Vision          | 334632     |    16809 (5.02%) |     16809 (5.02%) |
+
+LINK: [https://github.com/rw251/.../medications/metformin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1)
+
+### Insulin
+
+Any code representing a prescription (or drug) of insulin.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.21% - 1.32%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    34737 (1.32%) |     34737 (1.32%) |
+| 2021-08-26 | TPP             | 211610     |     2573 (1.22%) |      2573 (1.22%) |
+| 2021-08-26 | Vision          | 337028     |     4071 (1.21%) |      4071 (1.21%) |
+
+LINK: [https://github.com/rw251/.../medications/insulin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/insulin/1)
+
+### ACE Inhibitors
+
+Any code for a prescription of an ACE Inhibitor.
+
+**_NB This does not include ARBs. Please use v1 of this code set for a combined ACEI/ARB code set_**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `11.00% - 11.82%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |  289565 (11.04%) |   289582 (11.04%) |
+| 2021-08-26 | TPP             | 211610     |   25005 (11.82%) |    25005 (11.82%) |
+| 2021-08-26 | Vision          | 337028     |   37078 (11.00%) |    37078 (11.00%) |
+
+LINK: [https://github.com/rw251/.../medications/ace-inhibitor/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/2)
+
+### Angiotensin receptor blockers (ARBs)
+
+Any code for a prescription of an angiotensin receptor blocker (ARB).
+
+**_NB This does not include ACEIs. Please use v1 of the ACEI code set for a combined ACEI/ARB code set_**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.43% - 4.80%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |   117732 (4.49%) |    117727 (4.49%) |
+| 2021-08-26 | TPP             | 211610     |    10150 (4.80%) |     10150 (4.80%) |
+| 2021-08-26 | Vision          | 337028     |    14934 (4.43%) |     14934 (4.43%) |
+
+LINK: [https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1)
+
+### Aspirin
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.45% - 8.76%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   228074 (8.75%) |    228315 (8.76%) |
+| 2021-05-07 | TPP             | 210817     |    18418 (8.74%) |     18418 (8.74%) |
+| 2021-05-07 | Vision          | 334632     |    28276 (8.45%) |     28276 (8.45%) |
+
+LINK: [https://github.com/rw251/.../medications/aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aspirin/1)
+
+### Clopidogrel
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.62% - 2.86%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |    72859 (2.80%) |     72859 (2.80%) |
+| 2021-05-07 | TPP             | 210817     |     5515 (2.62%) |      5515 (2.62%) |
+| 2021-05-07 | Vision          | 334632     |     9568 (2.86%) |      9568 (2.86%) |
+
+LINK: [https://github.com/rw251/.../medications/clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1)
 
 ### Systolic Blood pressure
 

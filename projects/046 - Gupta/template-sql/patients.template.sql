@@ -90,6 +90,20 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		)
 
 ----------------------------------------------------------------------------------------
+-- Get patient list of those with COVID death within 28 days of positive test
+-- 22.11.22: updated to deal with '28 days' flag under-reporting
+
+-- Get patient list of those with COVID death within 28 days of positive test
+-- 22.11.22: updated to deal with '28 days' flag under-reporting
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath 
+FROM RLS.vw_COVID19
+where (DeathWithin28Days = 'Y' 
+        OR
+    (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))
+	) and DeathDate <= DATEADD(dd,28, EventDate)
+--2414
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -108,18 +122,6 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 
--- Get patient list of those with COVID death within 28 days of positive test
--- 07.11.22: updated to deal with '28 days' flag over-reporting
-
-IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-AND EventDate <= @EndDate
-AND (
-  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-);
 
 -- Set the date variables for the LTC code
 

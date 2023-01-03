@@ -386,7 +386,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -544,6 +544,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>bnf-skin-meds v1</li>
 <li>bnf-immunological-meds v1</li>
 <li>bnf-anaesthesia-meds v1</li>
+<li>sglt2-inhibitors v1</li>
+<li>metformin v1</li>
+<li>insulin v1</li>
+<li>ace-inhibitor v2</li>
+<li>angiotensin-receptor-blockers v1</li>
+<li>aspirin v1</li>
+<li>clopidogrel v1</li>
 <li>systolic-blood-pressure v1</li>
 <li>diastolic-blood-pressure v1</li>
 <li>hba1c v2</li>
@@ -1367,6 +1374,281 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/bnf-anaesthesia-meds/1">https://github.com/rw251/.../medications/bnf-anaesthesia-meds/1</a></p>
+<h3>SGLT2 inhibitors (gliflozins)</h3>
+<p>Any prescription of a SGLT2 inhibitor (gliflozin).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.25% - 1.25%</code> for EMIS and Vision suggests that this code set is well defined. The figure of <code>0.90%</code> for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">32817 (1.25%)</td>
+<td style="text-align:right">32817 (1.25%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">1899 (0.90%)</td>
+<td style="text-align:right">1899 (0.90%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">4211 (1.25%)</td>
+<td style="text-align:right">4211 (1.25%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1">https://github.com/rw251/.../medications/sglt2-inhibitors/1</a></p>
+<h3>Metformin</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.75% - 5.19%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">135082 (5.18%)</td>
+<td style="text-align:right">135136 (5.19%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">10016 (4.75%)</td>
+<td style="text-align:right">10016 (4.75%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">16809 (5.02%)</td>
+<td style="text-align:right">16809 (5.02%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1">https://github.com/rw251/.../medications/metformin/1</a></p>
+<h3>Insulin</h3>
+<p>Any code representing a prescription (or drug) of insulin.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.21% - 1.32%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">34737 (1.32%)</td>
+<td style="text-align:right">34737 (1.32%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">2573 (1.22%)</td>
+<td style="text-align:right">2573 (1.22%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">4071 (1.21%)</td>
+<td style="text-align:right">4071 (1.21%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/insulin/1">https://github.com/rw251/.../medications/insulin/1</a></p>
+<h3>ACE Inhibitors</h3>
+<p>Any code for a prescription of an ACE Inhibitor.</p>
+<p><strong><em>NB This does not include ARBs. Please use v1 of this code set for a combined ACEI/ARB code set</em></strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>11.00% - 11.82%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">289565 (11.04%)</td>
+<td style="text-align:right">289582 (11.04%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">25005 (11.82%)</td>
+<td style="text-align:right">25005 (11.82%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">37078 (11.00%)</td>
+<td style="text-align:right">37078 (11.00%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/2">https://github.com/rw251/.../medications/ace-inhibitor/2</a></p>
+<h3>Angiotensin receptor blockers (ARBs)</h3>
+<p>Any code for a prescription of an angiotensin receptor blocker (ARB).</p>
+<p><strong><em>NB This does not include ACEIs. Please use v1 of the ACEI code set for a combined ACEI/ARB code set</em></strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.43% - 4.80%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">117732 (4.49%)</td>
+<td style="text-align:right">117727 (4.49%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">10150 (4.80%)</td>
+<td style="text-align:right">10150 (4.80%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">14934 (4.43%)</td>
+<td style="text-align:right">14934 (4.43%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1">https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1</a></p>
+<h3>Aspirin</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>8.45% - 8.76%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">228074 (8.75%)</td>
+<td style="text-align:right">228315 (8.76%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">18418 (8.74%)</td>
+<td style="text-align:right">18418 (8.74%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">28276 (8.45%)</td>
+<td style="text-align:right">28276 (8.45%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aspirin/1">https://github.com/rw251/.../medications/aspirin/1</a></p>
+<h3>Clopidogrel</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.62% - 2.86%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">72859 (2.80%)</td>
+<td style="text-align:right">72859 (2.80%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">5515 (2.62%)</td>
+<td style="text-align:right">5515 (2.62%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">9568 (2.86%)</td>
+<td style="text-align:right">9568 (2.86%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1">https://github.com/rw251/.../medications/clopidogrel/1</a></p>
 <h3>Systolic Blood pressure</h3>
 <p>Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (<code>2469. - O/E - Systolic BP reading</code>).</p>
 <p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>

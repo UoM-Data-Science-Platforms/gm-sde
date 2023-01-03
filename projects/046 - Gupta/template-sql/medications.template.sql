@@ -99,6 +99,8 @@ WHERE
 --> CODESET bnf-obstetrics-gynaecology-meds:1 bnf-malignant-disease-immunosuppression-meds:1 bnf-nutrition-bloods-meds:1 bnf-muskuloskeletal-joint-meds:1
 --> CODESET bnf-eye-meds:1 bnf-ear-nose-throat-meds:1 bnf-skin-meds:1 bnf-immunological-meds:1 bnf-anaesthesia-meds:1
 
+--> CODESET sglt2-inhibitors:1 metformin:1 insulin:1 ace-inhibitor:2 angiotensin-receptor-blockers:1 aspirin:1 clopidogrel:1
+
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
 IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
@@ -124,6 +126,13 @@ select
 	PatientId = FK_Patient_Link_ID,
 	YEAR(PrescriptionDate) as [Year], 
 	Month(PrescriptionDate) as [Month], 
+	[sglt2-inhibitors] = ISNULL(SUM(CASE WHEN Concept = 'sglt2-inhibitors' then 1 else 0 end),0),
+	[metformin] = ISNULL(SUM(CASE WHEN Concept = 'metformin' then 1 else 0 end),0),
+	[insulin] = ISNULL(SUM(CASE WHEN Concept = 'insulin' then 1 else 0 end),0),
+	[ace-inhibitor] = ISNULL(SUM(CASE WHEN Concept = 'ace-inhibitor' then 1 else 0 end),0),
+	[angiotensin-receptor-blockers] = ISNULL(SUM(CASE WHEN Concept = 'angiotensin-receptor-blockers' then 1 else 0 end),0),
+	[aspirin] = ISNULL(SUM(CASE WHEN Concept = 'aspirin' then 1 else 0 end),0),
+	[clopidogrel] = ISNULL(SUM(CASE WHEN Concept = 'clopidogrel' then 1 else 0 end),0),
 	[bnf-gastro-intestinal] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
 	[bnf-cardiovascular] = ISNULL(SUM(CASE WHEN Concept = 'bnf-cardiovascular-meds' then 1 else 0 end),0),
 	[bnf-respiratory] = ISNULL(SUM(CASE WHEN Concept = 'bnf-respiratory-meds' then 1 else 0 end),0),
