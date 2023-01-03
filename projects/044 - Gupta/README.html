@@ -386,7 +386,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -542,6 +542,14 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>bnf-skin-meds v1</li>
 <li>bnf-immunological-meds v1</li>
 <li>bnf-anaesthesia-meds v1</li>
+<li>systolic-blood-pressure v1</li>
+<li>diastolic-blood-pressure v1</li>
+<li>hba1c v2</li>
+<li>cholesterol v2</li>
+<li>ldl-cholesterol v1</li>
+<li>hdl-cholesterol v1</li>
+<li>triglycerides v1</li>
+<li>egfr v1</li>
 <li>bmi v2</li>
 <li>smoking-status-current v1</li>
 <li>smoking-status-currently-not v1</li>
@@ -551,16 +559,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>smoking-status-passive v1</li>
 <li>smoking-status-trivial v1</li>
 <li>covid-vaccination v1</li>
-<li>systolic-blood-pressure v1</li>
-<li>diastolic-blood-pressure v1</li>
-<li>hba1c v2</li>
 <li>height v1</li>
 <li>weight v1</li>
-<li>cholesterol v2</li>
-<li>ldl-cholesterol v1</li>
-<li>hdl-cholesterol v1</li>
-<li>triglycerides v1</li>
-<li>egfr v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>COVID-19 positive antigen test</h3>
@@ -1285,202 +1285,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/bnf-anaesthesia-meds/1">https://github.com/rw251/.../medications/bnf-anaesthesia-meds/1</a></p>
-<h3>Body Mass Index (BMI)</h3>
-<p>A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>22K.. - Body Mass Index</code>). It does not include codes that indicate a patient's BMI (<code>22K6. - Body mass index less than 20</code>) without giving the actual value.</p>
-<p><strong>NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.</strong></p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
-<p><strong>UPDATE</strong> By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes <code>62.48% - 64.93%</code> which suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-05-07</td>
-<td>EMIS</td>
-<td>2605681</td>
-<td style="text-align:right">1709250 (65.60%)</td>
-<td style="text-align:right">1709224 (65.60%)</td>
-</tr>
-<tr>
-<td>2021-05-07</td>
-<td>TPP</td>
-<td>210817</td>
-<td style="text-align:right">134841 (63.96%)</td>
-<td style="text-align:right">134835 (63.96%)</td>
-</tr>
-<tr>
-<td>2021-05-07</td>
-<td>Vision</td>
-<td>334632</td>
-<td style="text-align:right">266612 (79.67%)</td>
-<td style="text-align:right">266612 (79.67%)</td>
-</tr>
-<tr>
-<td>2021-05-11</td>
-<td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">1692442 (64.93%)</td>
-<td style="text-align:right">1692422 (64.93%)</td>
-</tr>
-<tr>
-<td>2021-05-11</td>
-<td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">134652 (63.87%)</td>
-<td style="text-align:right">134646 (63.87%)</td>
-</tr>
-<tr>
-<td>2021-05-11</td>
-<td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">209175 (62.48%)</td>
-<td style="text-align:right">209175 (62.48%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2">https://github.com/rw251/.../patient/bmi/2</a></p>
-<h3>Smoking status current</h3>
-<p>Any code suggestive that a patient is a current smoker.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1">https://github.com/rw251/.../patient/smoking-status-current/1</a></p>
-<h3>Smoking status currently not</h3>
-<p>Any code suggestive that a patient is currently a non-smoker. This is different to the &quot;never smoked&quot; code set.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1">https://github.com/rw251/.../patient/smoking-status-currently-not/1</a></p>
-<h3>Smoking status ex</h3>
-<p>Any code suggestive that a patient is an ex-smoker.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1">https://github.com/rw251/.../patient/smoking-status-ex/1</a></p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1">https://github.com/rw251/.../patient/smoking-status-ex-trivial/1</a></p>
-<h3>Smoking status never</h3>
-<p>Any code suggestive that a patient has never smoked. This is different to the &quot;currently not&quot; code set.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1">https://github.com/rw251/.../patient/smoking-status-never/1</a></p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1">https://github.com/rw251/.../patient/smoking-status-passive/1</a></p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1">https://github.com/rw251/.../patient/smoking-status-trivial/1</a></p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
-<p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
-<p><strong>UPDATE - 12th April 2021</strong>, latest prevalence figures.</p>
-<p><strong>UPDATE - 18th March 2022</strong> There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows <code>65.0% - 66.3%</code> have at least one vaccine code in the GP_Events table, and <code>88.2% - 93.6%</code> have at least one code for the vaccine in the GP_Medications table.</p>
-<p>MED</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-05-12</td>
-<td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">379577(14.56%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">1637(0.78%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">93(0.03%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>EMIS</td>
-<td>2658131</td>
-<td style="text-align:right">1750506 (65.9%)</td>
-<td style="text-align:right">1763420(66.3%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>TPP</td>
-<td>212662</td>
-<td style="text-align:right">8207 (3.9%)</td>
-<td style="text-align:right">138285(65.0%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>Vision</td>
-<td>341594</td>
-<td style="text-align:right">122060 (35.7%)</td>
-<td style="text-align:right">225844(66.1%)</td>
-</tr>
-</tbody>
-</table>
-<p>EVENT</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-05-12</td>
-<td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">4446 (0.17%)</td>
-<td style="text-align:right">1101577 (42.26%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">7 (0.00%)</td>
-<td style="text-align:right">87841 (41.66%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">1 (0.00%)</td>
-<td style="text-align:right">142724 (42.63%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>EMIS</td>
-<td>2658131</td>
-<td style="text-align:right">2486786 (93.6%)</td>
-<td style="text-align:right">1676951 (63.1%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>TPP</td>
-<td>212662</td>
-<td style="text-align:right">187463 (88.2%)</td>
-<td style="text-align:right">7314 (3.44%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>Vision</td>
-<td>341594</td>
-<td style="text-align:right">312617 (91.5%)</td>
-<td style="text-align:right">62512 (18.3%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
 <h3>Systolic Blood pressure</h3>
 <p>Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (<code>2469. - O/E - Systolic BP reading</code>).</p>
 <p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>
@@ -1613,98 +1417,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2">https://github.com/rw251/.../tests/hba1c/2</a></p>
-<h3>Height</h3>
-<p>A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>229.. - O/E - Height</code>).</p>
-<p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>66.10% - 72.59%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-10-13</td>
-<td>EMIS</td>
-<td>26929848</td>
-<td style="text-align:right">1885015 (71.68%)</td>
-<td style="text-align:right">1884110 (71.64%)</td>
-</tr>
-<tr>
-<td>2021-10-13</td>
-<td>TPP</td>
-<td>211812</td>
-<td style="text-align:right">140013 (66.10%)</td>
-<td style="text-align:right">140013 (66.10%)</td>
-</tr>
-<tr>
-<td>2021-10-13</td>
-<td>Vision</td>
-<td>338205</td>
-<td style="text-align:right">245440 (72.59%)</td>
-<td style="text-align:right">245440 (72.57%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1">https://github.com/rw251/.../patient/height/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
-<h3>Weight</h3>
-<p>A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.</p>
-<p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>73.09% - 79.68%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-10-13</td>
-<td>EMIS</td>
-<td>26929848</td>
-<td style="text-align:right">2054449 (78.12%)</td>
-<td style="text-align:right">2053717 (78.09%)</td>
-</tr>
-<tr>
-<td>2021-10-13</td>
-<td>TPP</td>
-<td>211812</td>
-<td style="text-align:right">154813 (73.09%)</td>
-<td style="text-align:right">154813 (73.09%)</td>
-</tr>
-<tr>
-<td>2021-10-13</td>
-<td>Vision</td>
-<td>338205</td>
-<td style="text-align:right">269496 (79.68%)</td>
-<td style="text-align:right">269496 (79.68%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1">https://github.com/rw251/.../patient/weight/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
 <h3>Cholesterol</h3>
 <p>A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P.. Serum cholesterol</code>). It does not include codes that indicate a patient's BMI (<code>44P3. - Serum cholesterol raised</code>) without giving the actual value.</p>
 <p><strong>NB: This code set is intended to indicate a patient's total cholesterol. If you need to know whether a cholesterol was recorded then please use v1 of the code set.</strong></p>
@@ -1902,5 +1614,293 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1">https://github.com/rw251/.../tests/egfr/1</a></p>
+<h3>Body Mass Index (BMI)</h3>
+<p>A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>22K.. - Body Mass Index</code>). It does not include codes that indicate a patient's BMI (<code>22K6. - Body mass index less than 20</code>) without giving the actual value.</p>
+<p><strong>NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.</strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
+<p><strong>UPDATE</strong> By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes <code>62.48% - 64.93%</code> which suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">1709250 (65.60%)</td>
+<td style="text-align:right">1709224 (65.60%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">134841 (63.96%)</td>
+<td style="text-align:right">134835 (63.96%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">266612 (79.67%)</td>
+<td style="text-align:right">266612 (79.67%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">1692442 (64.93%)</td>
+<td style="text-align:right">1692422 (64.93%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">134652 (63.87%)</td>
+<td style="text-align:right">134646 (63.87%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">209175 (62.48%)</td>
+<td style="text-align:right">209175 (62.48%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2">https://github.com/rw251/.../patient/bmi/2</a></p>
+<h3>Smoking status current</h3>
+<p>Any code suggestive that a patient is a current smoker.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1">https://github.com/rw251/.../patient/smoking-status-current/1</a></p>
+<h3>Smoking status currently not</h3>
+<p>Any code suggestive that a patient is currently a non-smoker. This is different to the &quot;never smoked&quot; code set.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1">https://github.com/rw251/.../patient/smoking-status-currently-not/1</a></p>
+<h3>Smoking status ex</h3>
+<p>Any code suggestive that a patient is an ex-smoker.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1">https://github.com/rw251/.../patient/smoking-status-ex/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1">https://github.com/rw251/.../patient/smoking-status-ex-trivial/1</a></p>
+<h3>Smoking status never</h3>
+<p>Any code suggestive that a patient has never smoked. This is different to the &quot;currently not&quot; code set.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1">https://github.com/rw251/.../patient/smoking-status-never/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1">https://github.com/rw251/.../patient/smoking-status-passive/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1">https://github.com/rw251/.../patient/smoking-status-trivial/1</a></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
+<p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
+<p><strong>UPDATE - 12th April 2021</strong>, latest prevalence figures.</p>
+<p><strong>UPDATE - 18th March 2022</strong> There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows <code>65.0% - 66.3%</code> have at least one vaccine code in the GP_Events table, and <code>88.2% - 93.6%</code> have at least one code for the vaccine in the GP_Medications table.</p>
+<p>MED</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">379577(14.56%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">1637(0.78%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">93(0.03%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">1750506 (65.9%)</td>
+<td style="text-align:right">1763420(66.3%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">8207 (3.9%)</td>
+<td style="text-align:right">138285(65.0%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">122060 (35.7%)</td>
+<td style="text-align:right">225844(66.1%)</td>
+</tr>
+</tbody>
+</table>
+<p>EVENT</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">4446 (0.17%)</td>
+<td style="text-align:right">1101577 (42.26%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">7 (0.00%)</td>
+<td style="text-align:right">87841 (41.66%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">1 (0.00%)</td>
+<td style="text-align:right">142724 (42.63%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">2486786 (93.6%)</td>
+<td style="text-align:right">1676951 (63.1%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">187463 (88.2%)</td>
+<td style="text-align:right">7314 (3.44%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">312617 (91.5%)</td>
+<td style="text-align:right">62512 (18.3%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
+<h3>Height</h3>
+<p>A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>229.. - O/E - Height</code>).</p>
+<p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>66.10% - 72.59%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1885015 (71.68%)</td>
+<td style="text-align:right">1884110 (71.64%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">140013 (66.10%)</td>
+<td style="text-align:right">140013 (66.10%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">245440 (72.59%)</td>
+<td style="text-align:right">245440 (72.57%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1">https://github.com/rw251/.../patient/height/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Weight</h3>
+<p>A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.</p>
+<p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>73.09% - 79.68%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">2054449 (78.12%)</td>
+<td style="text-align:right">2053717 (78.09%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">154813 (73.09%)</td>
+<td style="text-align:right">154813 (73.09%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">269496 (79.68%)</td>
+<td style="text-align:right">269496 (79.68%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1">https://github.com/rw251/.../patient/weight/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/044%20-%20Gupta/clinical-code-sets.csv">https://github.com/rw251/.../044 - Gupta/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

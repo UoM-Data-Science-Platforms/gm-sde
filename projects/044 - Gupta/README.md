@@ -366,7 +366,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -562,6 +562,14 @@ This project required the following clinical code sets:
 - bnf-skin-meds v1
 - bnf-immunological-meds v1
 - bnf-anaesthesia-meds v1
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
+- hba1c v2
+- cholesterol v2
+- ldl-cholesterol v1
+- hdl-cholesterol v1
+- triglycerides v1
+- egfr v1
 - bmi v2
 - smoking-status-current v1
 - smoking-status-currently-not v1
@@ -571,16 +579,8 @@ This project required the following clinical code sets:
 - smoking-status-passive v1
 - smoking-status-trivial v1
 - covid-vaccination v1
-- systolic-blood-pressure v1
-- diastolic-blood-pressure v1
-- hba1c v2
 - height v1
 - weight v1
-- cholesterol v2
-- ldl-cholesterol v1
-- hdl-cholesterol v1
-- triglycerides v1
-- egfr v1
 
 Further details for each code set can be found below.
 
@@ -867,6 +867,134 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../medications/bnf-anaesthesia-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/bnf-anaesthesia-meds/1)
 
+### Systolic Blood pressure
+
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
+
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
+
+### HbA1c
+
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `44.93% - 50.88%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1170688 (44.93%) |  1170688 (44.93%) |
+| 2021-05-07 | TPP             | 210817     |   98972 (46.95%) |    98972 (46.95%) |
+| 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
+
+LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
+
+### Cholesterol
+
+A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P.. Serum cholesterol`). It does not include codes that indicate a patient's BMI (`44P3. - Serum cholesterol raised`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's total cholesterol. If you need to know whether a cholesterol was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.99% - 49.34%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    | 1146925 (44.00%) |  1146651 (43.99%) |
+| 2021-05-11 | TPP             | 210810     |   98627 (46.78%) |    98627 (46.78%) |
+| 2021-05-11 | Vision          | 334784     |  165186 (49.34%) |   165186 (49.34%) |
+
+LINK: [https://github.com/rw251/.../tests/cholesterol/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/cholesterol/2)
+
+### LDL Cholesterol
+
+A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `41.22% - 45.54%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1102872 (41.94%) |  1102872 (41.94%) |
+| 2021-10-13 | TPP             | 211812     |   91673 (43.28%) |    91673 (43.28%) |
+| 2021-10-13 | Vision          | 338205     |  154055 (45.55%) |   154055 (45.55%) |
+
+LINK: [https://github.com/rw251/.../tests/ldl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1)
+
+### HDL Cholesterol
+
+A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P5.00 - Serum HDL cholesterol level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.66% - 48.97%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1168326 (44.42%) |  1168326 (44.42%) |
+| 2021-10-13 | TPP             | 211812     |  100823 (47.60%) |   100823 (47.60%) |
+| 2021-10-13 | Vision          | 338205     |  165935 (49.06%) |   165935 (49.06%) |
+
+LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
+
+### Triglyceride (level)
+
+A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44Q..00 - Serum triglycerides`). It does not include codes that indicate a patient's creatinine (`44Q3.00 - Serum triglycerides raised') without giving the actual value.
+
+Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.18% - 48.34%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1135572 (43.18%) |  1135572 (43.18%) |
+| 2021-10-13 | TPP             | 211812     |   99188 (46.82%) |    99188 (46.82%) |
+| 2021-10-13 | Vision          | 338205     |  163502 (48.34%) |   163502 (48.34%) |
+
+LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
+
+### Glomerular filtration rate (GFR)
+
+Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
+| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
+| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
+
+LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
+
 ### Body Mass Index (BMI)
 
 A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
@@ -958,55 +1086,6 @@ EVENT
 
 LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
 
-### Systolic Blood pressure
-
-Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
-
-Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
-| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
-| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
-LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
-
-### Diastolic Blood pressure
-
-Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
-
-Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
-| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
-| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
-LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
-
-### HbA1c
-
-A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
-
-**NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `44.93% - 50.88%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    | 1170688 (44.93%) |  1170688 (44.93%) |
-| 2021-05-07 | TPP             | 210817     |   98972 (46.95%) |    98972 (46.95%) |
-| 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
-
-LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
-
 ### Height
 
 A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
@@ -1038,85 +1117,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
 | 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
 LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
-
-### Cholesterol
-
-A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P.. Serum cholesterol`). It does not include codes that indicate a patient's BMI (`44P3. - Serum cholesterol raised`) without giving the actual value.
-
-**NB: This code set is intended to indicate a patient's total cholesterol. If you need to know whether a cholesterol was recorded then please use v1 of the code set.**
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.99% - 49.34%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-11 | EMIS            | 2606497    | 1146925 (44.00%) |  1146651 (43.99%) |
-| 2021-05-11 | TPP             | 210810     |   98627 (46.78%) |    98627 (46.78%) |
-| 2021-05-11 | Vision          | 334784     |  165186 (49.34%) |   165186 (49.34%) |
-
-LINK: [https://github.com/rw251/.../tests/cholesterol/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/cholesterol/2)
-
-### LDL Cholesterol
-
-A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `41.22% - 45.54%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1102872 (41.94%) |  1102872 (41.94%) |
-| 2021-10-13 | TPP             | 211812     |   91673 (43.28%) |    91673 (43.28%) |
-| 2021-10-13 | Vision          | 338205     |  154055 (45.55%) |   154055 (45.55%) |
-
-LINK: [https://github.com/rw251/.../tests/ldl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1)
-
-### HDL Cholesterol
-
-A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P5.00 - Serum HDL cholesterol level`).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.66% - 48.97%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1168326 (44.42%) |  1168326 (44.42%) |
-| 2021-10-13 | TPP             | 211812     |  100823 (47.60%) |   100823 (47.60%) |
-| 2021-10-13 | Vision          | 338205     |  165935 (49.06%) |   165935 (49.06%) |
-
-LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
-
-### Triglyceride (level)
-
-A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44Q..00 - Serum triglycerides`). It does not include codes that indicate a patient's creatinine (`44Q3.00 - Serum triglycerides raised') without giving the actual value.
-
-Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.18% - 48.34%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1135572 (43.18%) |  1135572 (43.18%) |
-| 2021-10-13 | TPP             | 211812     |   99188 (46.82%) |    99188 (46.82%) |
-| 2021-10-13 | Vision          | 338205     |  163502 (48.34%) |   163502 (48.34%) |
-
-LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
-
-### Glomerular filtration rate (GFR)
-
-Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
-| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
-| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
-
-LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../044 - Gupta/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/044%20-%20Gupta/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
