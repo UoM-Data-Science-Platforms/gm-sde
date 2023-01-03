@@ -67,12 +67,21 @@ FROM #GM_GP_range
 
 
 -- Get patient list of those with COVID death within 28 days of positive test
-IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+IF OBJECT_ID('tempdb..#COVIDDeathPositiveTest') IS NOT NULL DROP TABLE #COVIDDeathPositiveTest;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
+INTO #COVIDDeathPositiveTest 
+FROM RLS.vw_COVID19
+where DeathWithin28Days = 'Y' 
 
+-- Get patient list of those with COVID death within 28 days of positive test, and any deaths within 28 days of a confirmed covid-19 record
+IF OBJECT_ID('tempdb..#COVIDDeathConfirmed') IS NOT NULL DROP TABLE #COVIDDeathConfirmed;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeathConfirmed 
+FROM RLS.vw_COVID19
+where (DeathWithin28Days = 'Y' 
+        OR
+    (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))
+	) and DeathDate <= DATEADD(dd,28, EventDate)
 
 -- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
 
@@ -96,10 +105,11 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 	    LSOA_Code,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 		BMI,
-		BMIDate = bmi.EventDate,
+		BMIDate = DateOfBMIMeasurement,
 		CurrentSmokingStatus = smok.CurrentSmokingStatus,
 		WorstSmokingStatus = smok.WorstSmokingStatus,
-		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+		DeathWithin28DaysPositiveCOVIDTest = CASE WHEN cdp.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+		DeathWithin28DaysCOVIDConfirmed = CASE WHEN cdc.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
 		Death_Year = YEAR(p.DeathDate),
 		Death_Month = MONTH(p.DeathDate)
 FROM #Patients p
@@ -111,7 +121,8 @@ LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeathPositiveTest cdp ON cdp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeathConfirmed cdc ON cdc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
 	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- EXTRA CHECK FOR OVER 18s ONLY
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
