@@ -100,6 +100,7 @@ WHERE
 --> CODESET bnf-eye-meds:1 bnf-ear-nose-throat-meds:1 bnf-skin-meds:1 bnf-immunological-meds:1 bnf-anaesthesia-meds:1
 
 --> CODESET sglt2-inhibitors:1 metformin:1 insulin:1 ace-inhibitor:2 angiotensin-receptor-blockers:1 aspirin:1 clopidogrel:1
+--> CODESET glp1-receptor-agonists:1 sulphonylureas:1 alogliptin:1 linagliptin:1 saxagliptin:1 sitagliptin:1 vildagliptin:1 
 
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
@@ -133,6 +134,13 @@ select
 	[angiotensin-receptor-blockers] = ISNULL(SUM(CASE WHEN Concept = 'angiotensin-receptor-blockers' then 1 else 0 end),0),
 	[aspirin] = ISNULL(SUM(CASE WHEN Concept = 'aspirin' then 1 else 0 end),0),
 	[clopidogrel] = ISNULL(SUM(CASE WHEN Concept = 'clopidogrel' then 1 else 0 end),0),
+	[sulphonylureas] = ISNULL(SUM(CASE WHEN Concept = 'sulphonylureas' then 1 else 0 end),0),
+	[glp1-receptor-agonists] = ISNULL(SUM(CASE WHEN Concept = 'glp1-receptor-agonists' then 1 else 0 end),0),
+	[alogliptin] = ISNULL(SUM(CASE WHEN Concept = 'alogliptin' then 1 else 0 end),0),
+	[linagliptin] = ISNULL(SUM(CASE WHEN Concept = 'linagliptin' then 1 else 0 end),0),
+	[saxagliptin] = ISNULL(SUM(CASE WHEN Concept = 'saxagliptin' then 1 else 0 end),0),
+	[sitagliptin] = ISNULL(SUM(CASE WHEN Concept = 'sitagliptin' then 1 else 0 end),0),
+	[vildagliptin] = ISNULL(SUM(CASE WHEN Concept = 'vildagliptin' then 1 else 0 end),0),
 	[bnf-gastro-intestinal] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
 	[bnf-cardiovascular] = ISNULL(SUM(CASE WHEN Concept = 'bnf-cardiovascular-meds' then 1 else 0 end),0),
 	[bnf-respiratory] = ISNULL(SUM(CASE WHEN Concept = 'bnf-respiratory-meds' then 1 else 0 end),0),
@@ -141,8 +149,8 @@ select
 	[bnf-endocrine] = ISNULL(SUM(CASE WHEN Concept = 'bnf-endocrine-meds' then 1 else 0 end),0),
 	[bnf-obstetrics-gynaecology] = ISNULL(SUM(CASE WHEN Concept = 'bnf-obstetrics-gynaecology-meds' then 1 else 0 end),0),
 	[bnf-malignant-disease-immunosuppression] = ISNULL(SUM(CASE WHEN Concept = 'bnf-malignant-disease-immunosuppression-meds' then 1 else 0 end),0),
-	[bnf-nutrition-bloods] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
-	[bnf-muskuloskeletal-joint] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
+	[bnf-nutrition-bloods] = ISNULL(SUM(CASE WHEN Concept = 'bnf-nutrition-bloods-meds' then 1 else 0 end),0),
+	[bnf-muskuloskeletal-joint] = ISNULL(SUM(CASE WHEN Concept = 'bnf-muskuloskeletal-joint-meds' then 1 else 0 end),0),
 	[bnf-eye] = ISNULL(SUM(CASE WHEN Concept = 'bnf-eye-meds' then 1 else 0 end),0),
 	[bnf-ear-nose-throat] = ISNULL(SUM(CASE WHEN Concept = 'bnf-ear-nose-throat-meds' then 1 else 0 end),0),
 	[bnf-skin] = ISNULL(SUM(CASE WHEN Concept = 'bnf-skin-meds' then 1 else 0 end),0),
