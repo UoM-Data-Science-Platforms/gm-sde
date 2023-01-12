@@ -24,11 +24,7 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 --						duplication of code in the template scripts. The cohort is any
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
-<<<<<<< HEAD
 --            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
-=======
-
->>>>>>> 4b3f790 (Latest code)
 -- INPUT: A variable:
 --	@TEMPRQ038EndDate - the date that we will not get records beyond
 
@@ -534,92 +530,6 @@ UNION
 SELECT * FROM #PatientEventData2
 UNION
 SELECT * FROM #PatientEventData3;
-
--- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
-DROP INDEX IF EXISTS eventData ON #PatientEventData;
-CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
-
-<<<<<<< HEAD
-=======
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
-
--- OBJECTIVE: To get the year of birth for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
--- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
-
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData1
-FROM [SharedCare].GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
--- 1m
-
--- 2. Patients with a FK_Patient_Link_ID in our list
-IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData2
-FROM [SharedCare].GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
---29s
-
--- 3. Patients with a FK_Reference_SnomedCT_ID in our list
-IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData3
-FROM [SharedCare].GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
-
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
-SELECT * INTO #PatientEventData FROM #PatientEventData1
-UNION
-SELECT * FROM #PatientEventData2
-UNION
-SELECT * FROM #PatientEventData3;
-
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS eventData ON #PatientEventData;
@@ -1456,7 +1366,6 @@ GROUP BY FK_Patient_Link_ID;
 -- UPDATE Andy Clegg algorithm is for 5 different meds in a 12 month period. Maybe
 -- we should define it in both ways - and allow sensitivity analysis
 -- The following is a look back so gives number of meds in 12 months prior to a prescription
-<<<<<<< HEAD
 
 --┌──────────────────────────────────────────┐
 --│ Patient medication data splitter for EFI │
@@ -1537,14 +1446,6 @@ SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
 INTO #PolypharmDates5InLastYear0
 FROM [#PatientMedDataTempTable0] m1
 LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
-=======
--- This will deal with the start events.
-IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
-SELECT m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate]) AS PotentialPolypharmStartDate
-INTO #PolypharmDates5InLastYear
-FROM #PatientMedicationData m1
-LEFT OUTER JOIN #PatientMedicationData m2
->>>>>>> 4b3f790 (Latest code)
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND m1.[MedicationDate] >= m2.[MedicationDate]
 	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
@@ -1552,19 +1453,11 @@ GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
 HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
 
 -- Next is a look forward from the day after a medication. This will deal with the stop events
-<<<<<<< HEAD
 IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear0') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear0;
 SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
 INTO #PolypharmStopDates5InLastYear0
 FROM [#PatientMedDataTempTable0] m1
 LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
-=======
-IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
-SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) AS PotentialPolypharmEndDate
-INTO #PolypharmStopDates5InLastYear
-FROM #PatientMedicationData m1
-LEFT OUTER JOIN #PatientMedicationData m2
->>>>>>> 4b3f790 (Latest code)
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
 	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
 	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])

@@ -3864,7 +3864,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "vitamin-d",1,"snomed",270990000,"=""270990000""","Serum vitamin D measurement (procedure)"
 "vitamin-d",1,"snomed",83729008,"=""83729008""","Vitamin D measurement (procedure)"
 "vitamin-d",1,"snomed",996641000000102,"=""996641000000102""","Combined total vitamin D2 and D3 level (observable entity)"
-<<<<<<< HEAD
 "haemoglobin",1,"ctv3",Xa96v,Xa96v,"Haemoglobin concentration"
 "haemoglobin",1,"ctv3",XE2m6,XE2m6,"Haemoglobin estimation level"
 "haemoglobin",1,"readv2",423..,"=""423..""","Haemoglobin estimation"
@@ -4051,11 +4050,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "efi-arthritis",1,"readv2",Nyu11,Nyu11,"[X]O sero+ve rheumat arthritis"
 "efi-arthritis",1,"readv2",Nyu12,Nyu12,"[X]Oth spcf rheumatd arthritis"
 "efi-arthritis",1,"readv2",Nyu1G,Nyu1G,"[X]Seroposit rheum arthr, unsp"
-<<<<<<< HEAD
-=======
->>>>>>> 4b3f790 (Latest code)
-=======
->>>>>>> 29b6b8e (Final commit prior to RDE check)
 "efi-activity-limitation",1,"ctv3",13O5.,13O5.,"Attendance allowance"
 "efi-activity-limitation",1,"ctv3",9EB5.,9EB5.,"DS 1500 Disability living allowance completed"
 "efi-activity-limitation",1,"ctv3",Y3502,Y3502,"Allowance / DLA applied for"

@@ -635,12 +635,9 @@ This project required the following clinical code sets:
 - diabetes-type-ii v1
 - copd v1
 - asthma v1
-  <<<<<<< HEAD
 - dementia v1
 - severe-mental-illness v1
-- # myocardial-infarction v1
-- severe-mental-illness v1
-  > > > > > > > 4b3f790 (Latest code)
+- myocardial-infarction v1
 - angina v1
 - heart-failure v1
 - rheumatoid-arthritis v1
@@ -651,14 +648,12 @@ This project required the following clinical code sets:
 - egfr v1
 - hba1c v2
 - vitamin-d v1
-  <<<<<<< HEAD
 - haemoglobin v1
 - white-blood-cells v1
 - platelets v1
 - alkaline-phosphatase v1
 - corrected-calcium v1
-- # efi-arthritis v1
-  > > > > > > > 4b3f790 (Latest code)
+- efi-arthritis v1
 - efi-activity-limitation v1
 - efi-anaemia v1
 - efi-atrial-fibrillation v1
@@ -891,7 +886,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
 
-### Diabetes mellitus type 1
+### Activity limitation (for electronic frailty index)
 
 Any diagnosis of T1DM. A super set of the QOF business rule.
 
@@ -961,6 +956,24 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/asthma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/asthma/1)
 
+### Dementia
+
+Any code indicating that a person has dementia, including Alzheimer's disease.
+
+Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.67% - 0.81%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-20 | EMIS            | 2438146    |   19770 (0.811%) |    21772 (0.893%) |
+| 2022-12-20 | TPP             | 198637     |    1427 (0.718%) |      7445 (3.75%) |
+| 2022-12-20 | Vision          | 327196     |    2244 (0.686%) |     2265 (0.692%) |
+
+LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
+
 ### Severe mental illness
 
 Defined as any diagnosis of:
@@ -996,8 +1009,6 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
 
-<<<<<<< HEAD
-
 ### Myocardial infarction
 
 Any code that indicates that a person has had a myocardial infarction. NB This includes "history" codes as well so is not best suited if you solely want to know when a diagnosis occurred.
@@ -1031,16 +1042,6 @@ update:
 | 2022-12-07 | EMIS            | 2438760    |    26698 (1.09%) |     27181 (1.11%) |
 | 2022-12-07 | TPP             | 198672     |     2658 (1.34%) |      4448 (2.24%) |
 | 2022-12-07 | Vision          | 327081     |     3537 (1.08%) |      3530 (1.08%) |
-
-=======
-
-### Angina
-
-Any code indicating a diagnosis of angina. Does not include codes that indicate angina but are not diagnoses e.g. "h/o angina", "angina plan discussed".
-
-TODO need to validate
-
-> > > > > > > 4b3f790 (Latest code)
 
 LINK: [https://github.com/rw251/.../conditions/angina/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/angina/1)
 
@@ -1203,7 +1204,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
 
-### Activity limitation (for electronic frailty index)
+### Haemoglobin
 
 A patient's haemoglobin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`423.. - Haemoglobin estimation`). It does not include codes that indicate a patient's haemoglobin (`4235 - Haemoglobin low`) without giving the actual value.
 
@@ -1215,17 +1216,85 @@ Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/su
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
 
-LINK: [https://github.com/rw251/.../patient/efi-anaemia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/efi-anaemia/1)
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
+| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
+| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
 
-### Arthritis (for electronic frailty index)
+LINK: [https://github.com/rw251/.../tests/haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1)
 
-These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
+### White blood cells
 
-LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/efi-arthritis/1)
+This code set only includes codes that are accompanied by a value (e.g. `42H.. - White blood cell count`).
 
-=======
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 
-> > > > > > > 4b3f790 (Latest code)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.89% - 63.21%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2604007    | 1592011 (59.89%) |  1592011 (59.89%) |
+| 2022-03-21 | TPP             | 132189     |  132189 (62.16%) |   135713 (62.16%) |
+| 2022-03-21 | Vision          | 333730     |  215935 (63.21%) |   215935 (63.21%) |
+
+LINK: [https://github.com/rw251/.../tests/white-blood-cells/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/white-blood-cells/1)
+
+### Platelets
+
+This code set only includes codes that are accompanied by a value (e.g. `42PZ. - Platelet count NOS`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.80 - 62.19%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1589471 (59.80%) |  1589471 (59.80%) |
+| 2022-03-21 | TPP             | 212662     |  132101 (62.12%) |   132101 (62.12%) |
+| 2022-03-21 | Vision          | 341594     |  212437 (62.19%) |   212437 (62.19%) |
+
+LINK: [https://github.com/rw251/.../tests/platelets/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/platelets/1)
+
+### Alkaline phosphatase
+
+This code set includes codes that only includes codes that are accompanied by a value (e.g. `44FZ.00 - Serum alkaline phosphatase NOS`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%57.02 - 60.44%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1515677 (57.02%) |  1515677 (57.02%) |
+| 2022-03-21 | TPP             | 212662     |  128534 (60.44%) |   128534 (60.44%) |
+| 2022-03-21 | Vision          | 341594     |  204911 (59.99%) |   204911 (59.99%) |
+
+LINK: [https://github.com/rw251/.../tests/alkaline-phosphatase/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/alkaline-phosphatase/1)
+
+### Corrected calcium
+
+Any code that may provide a value for a patient's corrected calcium (also known as adjusted calcium).
+
+Codes from https://getset.ga.
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `38.8% - 45.8%` suggests that this code set is likely well defined, but perhaps missing some EMIS codes.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-20 | EMIS            | 2438146    |   945836 (38.8%) |    945978 (38.8%) |
+| 2022-12-20 | TPP             | 198637     |    83879 (42.2%) |     89936 (45.3%) |
+| 2022-12-20 | Vision          | 327196     |   149992 (45.8%) |    150003 (45.8%) |
+
+LINK: [https://github.com/rw251/.../tests/corrected-calcium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/corrected-calcium/1)
 
 ### Arthritis (for electronic frailty index)
 

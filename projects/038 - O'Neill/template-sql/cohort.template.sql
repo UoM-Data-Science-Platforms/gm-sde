@@ -197,6 +197,17 @@ CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patien
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PostStartVitD date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PreStartVitD date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
+--> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PostStartHb date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PreStartHb date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PostStartWBC date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PostStartAlkalinePhosphatase date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PreStartAlkalinePhosphatase date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
