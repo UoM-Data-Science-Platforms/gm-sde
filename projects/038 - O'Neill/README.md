@@ -37,6 +37,7 @@ This project required the following reusable queries:
 
 - Calcluate Electronic Frailty Index
 - Electronic Frailty Index common queries
+- Patient medication data splitter for EFI
 - Electronic Frailty Index subquery
 - Electronic Frailty Index subquery
 - Find the closest value to a particular date
@@ -49,9 +50,9 @@ This project required the following reusable queries:
 - Townsend Score (2011)
 - Lower level super output area
 - Sex
+- Patients with COVID
 - Define Cohort for RQ038: COVID + frailty project
 - Year of birth
-- Patients with COVID
 
 Further details for each query can be found below.
 
@@ -60,10 +61,9 @@ To calculate the EFI for all patients and how it has changed over time
 
 _Input_
 ```
-Takes three parameters
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+Takes one parameter
 	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+ And assumes there is a temp table #Patients (this can't be run on all patients at present as it takes too long)
 ```
 
 _Output_
@@ -85,9 +85,7 @@ The common logic for 2 EFI queries. This is unlikely to be executed directly, bu
 _Input_
 ```
 Takes three parameters
-	-	all-patients: boolean - (true/false) if false, then only those in the pre-existing #Patients table are included, otherwise everyone.
 	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
 ```
 
 _Output_
@@ -108,6 +106,23 @@ _File_: `subquery-efi-common.sql`
 _Link_: [https://github.com/rw251/.../subquery-efi-common.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/subquery-efi-common.sql)
 
 ---
+### Patient medication data splitter for EFI
+Split the medication data into chunks to improve performance
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `subquery-efi-med-chunker.sql`
+
+_Link_: [https://github.com/rw251/.../subquery-efi-med-chunker.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/subquery-efi-med-chunker.sql)
+
+---
 ### Electronic Frailty Index subquery
 Subquery for the EFI calculation to ensure consistency. This allows a code with a value within a range to be counted towards a deficit
 
@@ -115,9 +130,8 @@ _Input_
 ```
 Assumes there exists a temp table #EfiEvents(FK_Patient_Link_ID, Deficit, EventDate) and
         a temp table #EfiValueData(FK_Patient_Link_ID, EventDate, SuppliedCode, Value)
-  ALso takes three parameters
+  ALso takes parameters
   - efi-category: string - e.g. "activity-limitation" to match the "efi-activity-limitation" code set
-	-	all-patients: boolean - (true/false) if false, then only those in the pre-existing #Patients table are included, otherwise everyone.
 	-	patients: temp table name - OPTIONAL - e.g. "#Patients" allows filtering to just some patients
 	- supplied-codes: string - (of form 'code','code2',...,'coden') the codes to include
   - min-value: int - OPTIONAL - The minimum value to count. Strict inequality so "0" would become >0
@@ -141,7 +155,6 @@ _Input_
 Assumes there exists a temp table #EfiEvents(FK_Patient_Link_ID, Deficit, EventDate)
   ALso takes three parameters
   - efi-category: string - e.g. "activity-limitation" to match the "efi-activity-limitation" code set
-	-	all-patients: boolean - (true/false) if false, then only those in the pre-existing #Patients table are included, otherwise everyone.
 	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
@@ -435,8 +448,41 @@ _File_: `query-patient-sex.sql`
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
 
 ---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
+
+_Input_
+```
+Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Three temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+ #CovidPatientsMultipleDiagnoses
+	-	FK_Patient_Link_ID - unique patient id
+	-	FirstCovidPositiveDate - date of first COVID diagnosis
+	-	SecondCovidPositiveDate - date of second COVID diagnosis
+	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+
+---
 ### Define Cohort for RQ038: COVID + frailty project
-To build the cohort of patients needed for RQ038. This reduces duplication of code in the template scripts. The cohort is any patient who was >=60 years old on 1 Jan 2020 and have at least one GP recorded positive COVID test
+To build the cohort of patients needed for RQ038. This reduces duplication of code in the template scripts. The cohort is any patient who was >=60 years old on 1 Jan 2020 and have at least one GP recorded positive COVID test UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
 
 _Input_
 ```
@@ -482,39 +528,6 @@ A temp table as follows:
 _File_: `query-patient-year-of-birth.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
-
----
-### Patients with COVID
-To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
-
-_Input_
-```
-Takes three parameters
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-```
-
-_Output_
-```
-Three temp tables as follows:
- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- FirstCovidPositiveDate - earliest COVID diagnosis
- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- CovidPositiveDate - any COVID diagnosis
- #CovidPatientsMultipleDiagnoses
-	-	FK_Patient_Link_ID - unique patient id
-	-	FirstCovidPositiveDate - date of first COVID diagnosis
-	-	SecondCovidPositiveDate - date of second COVID diagnosis
-	-	ThirdCovidPositiveDate - date of third COVID diagnosis
-	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
-	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
-```
-_File_: `query-patients-with-covid.sql`
-
-_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -550,9 +563,9 @@ This project required the following clinical code sets:
 - platelets v1
 - alkaline-phosphatase v1
 - corrected-calcium v1
+- efi-arthritis v1
 - efi-activity-limitation v1
 - efi-anaemia v1
-- efi-arthritis v1
 - efi-atrial-fibrillation v1
 - efi-chd v1
 - efi-ckd v1
@@ -1158,6 +1171,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/corrected-calcium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/corrected-calcium/1)
 
+### Arthritis (for electronic frailty index)
+
+These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
+
+LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/efi-arthritis/1)
+
 ### Activity limitation (for electronic frailty index)
 
 These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
@@ -1169,12 +1188,6 @@ LINK: [https://github.com/rw251/.../patient/efi-activity-limitation/1](https://g
 These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
 
 LINK: [https://github.com/rw251/.../patient/efi-anaemia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/efi-anaemia/1)
-
-### Arthritis (for electronic frailty index)
-
-These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
-
-LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/efi-arthritis/1)
 
 ### Atrial fibrillation (for electronic frailty index)
 
