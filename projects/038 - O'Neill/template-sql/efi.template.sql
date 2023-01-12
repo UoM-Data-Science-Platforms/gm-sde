@@ -96,31 +96,57 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
   [Value]
-INTO #PatientEventData
+INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData3
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2
+UNION
+SELECT * FROM #PatientEventData3;
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS eventData ON #PatientEventData;
 CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
-
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(MedicationDate AS DATE) AS MedicationDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID
-INTO #PatientMedicationData
-FROM [SharedCare].GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate < @TEMPRQ038EndDate;
-
--- Improve performance later with an index
-DROP INDEX IF EXISTS medData ON #PatientMedicationData;
-CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
 
 -- Get the EFI over time
 --> EXECUTE query-patients-calculate-efi-over-time.sql all-patients:false gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData

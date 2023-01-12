@@ -21,13 +21,7 @@
 --  DateOfDementia, DateOfMI, DateOfAngina, DateOfHeartFailure,
 --  DateOfStroke, DateOfRA
 --  BIOMARKERS -  for all have ValueBeforeJan1, DateOfValueBeforeJan1, ValueOnOrAfterJan1, DateOfValueBeforeJan1
-<<<<<<< HEAD
 --  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC (= HB, WCC, Platelets), 
-=======
---  BMI, SBP, DBP, eGFR, HbA1x, VitD, FBC
-
-TODO Dementia, MI,FBC
->>>>>>> 4b3f790 (Latest code)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -246,11 +240,7 @@ CREATE TABLE #codesreadv2 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
-<<<<<<< HEAD
 VALUES ('angina',1,'G311.',NULL,'Preinfarction syndrome'),('angina',1,'G311.00',NULL,'Preinfarction syndrome'),('angina',1,'G311z',NULL,'Preinfarction syndrome NOS'),('angina',1,'G311z00',NULL,'Preinfarction syndrome NOS'),('angina',1,'G3111',NULL,'Unstable angina'),('angina',1,'G311100',NULL,'Unstable angina'),('angina',1,'G3112',NULL,'Angina at rest'),('angina',1,'G311200',NULL,'Angina at rest'),('angina',1,'G3113',NULL,'Refractory angina'),('angina',1,'G311300',NULL,'Refractory angina'),('angina',1,'G3114',NULL,'Worsening angina'),('angina',1,'G311400',NULL,'Worsening angina'),('angina',1,'G33..',NULL,'Angina pectoris'),('angina',1,'G33..00',NULL,'Angina pectoris'),('angina',1,'G330.',NULL,'Angina decubitus'),('angina',1,'G330.00',NULL,'Angina decubitus'),('angina',1,'G3300',NULL,'Nocturnal angina'),('angina',1,'G330000',NULL,'Nocturnal angina'),('angina',1,'G330z',NULL,'Angina decubitus NOS'),('angina',1,'G330z00',NULL,'Angina decubitus NOS'),('angina',1,'G331.',NULL,'Prinzmetals angina'),('angina',1,'G331.00',NULL,'Prinzmetals angina'),('angina',1,'G33z.',NULL,'Angina pectoris NOS'),('angina',1,'G33z.00',NULL,'Angina pectoris NOS'),('angina',1,'G33z0',NULL,'Status anginosus'),('angina',1,'G33z000',NULL,'Status anginosus'),('angina',1,'G33z1',NULL,'Stenocardia'),('angina',1,'G33z100',NULL,'Stenocardia'),('angina',1,'G33z2',NULL,'Syncope anginosa'),('angina',1,'G33z200',NULL,'Syncope anginosa'),('angina',1,'G33z3',NULL,'Angina on effort'),('angina',1,'G33z300',NULL,'Angina on effort'),('angina',1,'G33z4',NULL,'Ischaemic chest pain'),('angina',1,'G33z400',NULL,'Ischaemic chest pain'),('angina',1,'G33z5',NULL,'Post infarct angina'),('angina',1,'G33z500',NULL,'Post infarct angina'),('angina',1,'G33z6',NULL,'New onset angina'),('angina',1,'G33z600',NULL,'New onset angina'),('angina',1,'G33z7',NULL,'Stable angina'),('angina',1,'G33z700',NULL,'Stable angina'),('angina',1,'G33zz',NULL,'Angina pectoris NOS'),('angina',1,'G33zz00',NULL,'Angina pectoris NOS'),('angina',1,'Gyu30',NULL,'[X]Other forms of angina pectoris'),('angina',1,'Gyu3000',NULL,'[X]Other forms of angina pectoris'),('angina',1,'G343.',NULL,'Ischaemic cardiomyopathy'),('angina',1,'G343.00',NULL,'Ischaemic cardiomyopathy');
-=======
-VALUES ('angina',1,'G311.','11','Crescendo angina'),('angina',1,'G311.','13','Unstable angina'),('angina',1,'G311.','14','Angina at rest'),('angina',1,'G311.','11','Crescendo angina'),('angina',1,'G311.','13','Unstable angina'),('angina',1,'G311.','14','Angina at rest'),('angina',1,'G3111',NULL,'Unstable angina'),('angina',1,'G311100',NULL,'Unstable angina'),('angina',1,'G3112',NULL,'Angina at rest'),('angina',1,'G311200',NULL,'Angina at rest'),('angina',1,'G3113',NULL,'Refractory angina'),('angina',1,'G311300',NULL,'Refractory angina'),('angina',1,'G3114',NULL,'Worsening angina'),('angina',1,'G311400',NULL,'Worsening angina'),('angina',1,'G33..',NULL,'Angina pectoris'),('angina',1,'G33..00',NULL,'Angina pectoris'),('angina',1,'G330.',NULL,'Angina decubitus'),('angina',1,'G330.00',NULL,'Angina decubitus'),('angina',1,'G3300',NULL,'Nocturnal angina'),('angina',1,'G330000',NULL,'Nocturnal angina'),('angina',1,'G330z',NULL,'Angina decubitus NOS'),('angina',1,'G330z00',NULL,'Angina decubitus NOS'),('angina',1,'G331.',NULL,'Prinzmetals angina'),('angina',1,'G331.00',NULL,'Prinzmetals angina'),('angina',1,'G33z.',NULL,'Angina pectoris NOS'),('angina',1,'G33z.00',NULL,'Angina pectoris NOS'),('angina',1,'G33z3',NULL,'Angina on effort'),('angina',1,'G33z300',NULL,'Angina on effort'),('angina',1,'G33z5',NULL,'Post infarct angina'),('angina',1,'G33z500',NULL,'Post infarct angina'),('angina',1,'G33z6',NULL,'New onset angina'),('angina',1,'G33z600',NULL,'New onset angina'),('angina',1,'G33z7',NULL,'Stable angina'),('angina',1,'G33z700',NULL,'Stable angina'),('angina',1,'G33zz',NULL,'Angina pectoris NOS'),('angina',1,'G33zz00',NULL,'Angina pectoris NOS'),('angina',1,'Gyu30',NULL,'[X]Other forms of angina pectoris'),('angina',1,'Gyu3000',NULL,'[X]Other forms of angina pectoris');
->>>>>>> 4b3f790 (Latest code)
 INSERT INTO #codesreadv2
 VALUES ('asthma',1,'14B4.',NULL,'H/O: asthma'),('asthma',1,'14B4.00',NULL,'H/O: asthma'),('asthma',1,'173d.',NULL,'Work aggravated asthma'),('asthma',1,'173d.00',NULL,'Work aggravated asthma'),('asthma',1,'1O2..',NULL,'Asthma confirmed'),('asthma',1,'1O2..00',NULL,'Asthma confirmed'),('asthma',1,'8H2P.',NULL,'Emergency admission, asthma'),('asthma',1,'8H2P.00',NULL,'Emergency admission, asthma'),('asthma',1,'H3120',NULL,'Chronic asthmatic bronchitis'),('asthma',1,'H312000',NULL,'Chronic asthmatic bronchitis'),('asthma',1,'H33..',NULL,'Asthma'),('asthma',1,'H33..00',NULL,'Asthma'),('asthma',1,'H330.',NULL,'Extrinsic (atopic) asthma'),('asthma',1,'H330.00',NULL,'Extrinsic (atopic) asthma'),('asthma',1,'H3300',NULL,'Extrinsic asthma - no status'),('asthma',1,'H330000',NULL,'Extrinsic asthma - no status'),('asthma',1,'H3301',NULL,'Extrinsic asthma + status'),('asthma',1,'H330100',NULL,'Extrinsic asthma + status'),('asthma',1,'H330z',NULL,'Extrinsic asthma NOS'),('asthma',1,'H330z00',NULL,'Extrinsic asthma NOS'),('asthma',1,'H331.',NULL,'Intrinsic asthma'),('asthma',1,'H331.00',NULL,'Intrinsic asthma'),('asthma',1,'H3310',NULL,'Intrinsic asthma - no status'),('asthma',1,'H331000',NULL,'Intrinsic asthma - no status'),('asthma',1,'H3311',NULL,'Intrinsic asthma + status'),('asthma',1,'H331100',NULL,'Intrinsic asthma + status'),('asthma',1,'H331z',NULL,'Intrinsic asthma NOS'),('asthma',1,'H331z00',NULL,'Intrinsic asthma NOS'),('asthma',1,'H332.',NULL,'Mixed asthma'),('asthma',1,'H332.00',NULL,'Mixed asthma'),('asthma',1,'H333.',NULL,'Acute exacerbation of asthma'),('asthma',1,'H333.00',NULL,'Acute exacerbation of asthma'),('asthma',1,'H334.',NULL,'Brittle asthma'),('asthma',1,'H334.00',NULL,'Brittle asthma'),('asthma',1,'H335.',NULL,'Chron asthm w fix airflw obstr'),('asthma',1,'H335.00',NULL,'Chron asthm w fix airflw obstr'),('asthma',1,'H33z.',NULL,'Asthma unspecified'),('asthma',1,'H33z.00',NULL,'Asthma unspecified'),('asthma',1,'H33z0',NULL,'Status asthmaticus NOS'),('asthma',1,'H33z000',NULL,'Status asthmaticus NOS'),('asthma',1,'H33z1',NULL,'Asthma attack'),('asthma',1,'H33z100',NULL,'Asthma attack'),('asthma',1,'H33z2',NULL,'Late-onset asthma'),('asthma',1,'H33z200',NULL,'Late-onset asthma'),('asthma',1,'H33zz',NULL,'Asthma NOS'),('asthma',1,'H33zz00',NULL,'Asthma NOS'),('asthma',1,'H3B..',NULL,'Asthma-COPD overlap syndrome'),('asthma',1,'H3B..00',NULL,'Asthma-COPD overlap syndrome'),('asthma',1,'H47y0',NULL,'Detergent asthma'),('asthma',1,'H47y000',NULL,'Detergent asthma'),('asthma',1,'173c.',NULL,'Occupational asthma'),('asthma',1,'173c.00',NULL,'Occupational asthma'),('asthma',1,'663V2',NULL,'Moderate asthma'),('asthma',1,'663V200',NULL,'Moderate asthma'),('asthma',1,'663V3',NULL,'Severe asthma'),('asthma',1,'663V300',NULL,'Severe asthma');
 INSERT INTO #codesreadv2
@@ -335,11 +325,7 @@ CREATE TABLE #codesctv3 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
-<<<<<<< HEAD
 VALUES ('angina',1,'G311.',NULL,'Preinfarction syndrome'),('angina',1,'G311z',NULL,'Preinfarction syndrome NOS'),('angina',1,'G33..',NULL,'Angina'),('angina',1,'G330.',NULL,'Angina decubitus'),('angina',1,'G3300',NULL,'Nocturnal angina'),('angina',1,'G330z',NULL,'Angina decubitus NOS'),('angina',1,'G331.',NULL,'Coronary artery spasm angina'),('angina',1,'G33z.',NULL,'Angina pectoris NOS'),('angina',1,'Gyu30',NULL,'[X]Other forms of angina pectoris'),('angina',1,'X2007',NULL,'Angina at rest'),('angina',1,'X2008',NULL,'Stable angina'),('angina',1,'X2009',NULL,'Unstable angina'),('angina',1,'X200A',NULL,'New onset angina'),('angina',1,'X200B',NULL,'Angina pectoris with documented spasm'),('angina',1,'Xa7nH',NULL,'Exertional angina'),('angina',1,'XaEXt',NULL,'Post infarct angina'),('angina',1,'XaFsG',NULL,'Refractory angina'),('angina',1,'G33z0',NULL,'Status anginosus'),('angina',1,'G33z1',NULL,'Stenocardia'),('angina',1,'G33z2',NULL,'Syncope anginosa'),('angina',1,'Ua1eH',NULL,'Ischaemic chest pain'),('angina',1,'XE0Ui',NULL,'Pre-infarction syndrome');
-=======
-VALUES ('angina',1,'G33..',NULL,'Angina'),('angina',1,'G330.',NULL,'Angina decubitus'),('angina',1,'G3300',NULL,'Nocturnal angina'),('angina',1,'G330z',NULL,'Angina decubitus NOS'),('angina',1,'G331.',NULL,'Coronary artery spasm angina'),('angina',1,'G33z.',NULL,'Angina pectoris NOS'),('angina',1,'Gyu30',NULL,'[X]Other forms of angina pectoris'),('angina',1,'X2007',NULL,'Angina at rest'),('angina',1,'X2008',NULL,'Stable angina'),('angina',1,'X2009',NULL,'Unstable angina'),('angina',1,'X200A',NULL,'New onset angina'),('angina',1,'X200B',NULL,'Angina pectoris with documented spasm'),('angina',1,'Xa7nH',NULL,'Exertional angina'),('angina',1,'XaEXt',NULL,'Post infarct angina'),('angina',1,'XaFsG',NULL,'Refractory angina');
->>>>>>> 4b3f790 (Latest code)
 INSERT INTO #codesctv3
 VALUES ('asthma',1,'14B4.',NULL,'H/O: asthma'),('asthma',1,'8H2P.',NULL,'Emergency admission, asthma'),('asthma',1,'H33..',NULL,'Asthma'),('asthma',1,'173A.',NULL,'Exercise-induced asthma'),('asthma',1,'H330.',NULL,'Asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]'),('asthma',1,'H3300',NULL,'(Hay fever + asthma) or (extr asthma without status asthmat)'),('asthma',1,'H331.',NULL,'(Intrinsic asthma) or (late onset asthma)'),('asthma',1,'H332.',NULL,'Mixed asthma'),('asthma',1,'H33z.',NULL,'Asthma unspecified'),('asthma',1,'XE0YX',NULL,'Asthma NOS'),('asthma',1,'H33z0',NULL,'(Severe asthma attack) or (status asthmaticus NOS)'),('asthma',1,'H33zz',NULL,'(Asthma:[exerc ind][allerg NEC][NOS]) or (allerg bronch NEC)'),('asthma',1,'Ua1AX',NULL,'Brittle asthma'),('asthma',1,'X101t',NULL,'Childhood asthma'),('asthma',1,'X101u',NULL,'Late onset asthma'),('asthma',1,'X101x',NULL,'Allergic asthma'),('asthma',1,'XE0YQ',NULL,'Allergic atopic asthma'),('asthma',1,'XE0ZP',NULL,'Extrinsic asthma - atopy (& pollen)'),('asthma',1,'X1021',NULL,'Allergic non-atopic asthma'),('asthma',1,'H330z',NULL,'Extrinsic asthma NOS'),('asthma',1,'X101y',NULL,'Extrinsic asthma with asthma attack'),('asthma',1,'X101z',NULL,'Allergic asthma NEC'),('asthma',1,'XE0YR',NULL,'Extrinsic asthma without status asthmaticus'),('asthma',1,'XE0YS',NULL,'Extrinsic asthma with status asthmaticus'),('asthma',1,'X1023',NULL,'Drug-induced asthma'),('asthma',1,'XaJFG',NULL,'Aspirin-induced asthma'),('asthma',1,'X1024',NULL,'Aspirin-sensitive asthma with nasal polyps'),('asthma',1,'X1025',NULL,'Occupational asthma'),('asthma',1,'H47y0',NULL,'Detergent asthma'),('asthma',1,'X1026',NULL,'Bakers asthma'),('asthma',1,'X1027',NULL,'Colophony asthma'),('asthma',1,'X1028',NULL,'Grain workers asthma'),('asthma',1,'X1029',NULL,'Sulphite-induced asthma'),('asthma',1,'XE0YT',NULL,'Non-allergic asthma'),('asthma',1,'H3310',NULL,'Intrinsic asthma without status asthmaticus'),('asthma',1,'H331z',NULL,'Intrinsic asthma NOS'),('asthma',1,'X1022',NULL,'Intrinsic asthma with asthma attack'),('asthma',1,'XE0YU',NULL,'Intrinsic asthma with status asthmaticus'),('asthma',1,'H3311',NULL,'Intrins asthma with: [asthma attack] or [status asthmaticus]'),('asthma',1,'XE0YW',NULL,'Asthma attack'),('asthma',1,'XM0s2',NULL,'Asthma attack NOS'),('asthma',1,'H3301',NULL,'Extrins asthma with: [asthma attack] or [status asthmaticus]'),('asthma',1,'H33z1',NULL,'Asthma attack (& NOS)'),('asthma',1,'XE0ZR',NULL,'Asthma: [intrinsic] or [late onset]'),('asthma',1,'XE0ZT',NULL,'Asthma: [NOS] or [attack]'),('asthma',1,'Xa0lZ',NULL,'Asthmatic bronchitis'),('asthma',1,'H3120',NULL,'Chronic asthmatic bronchitis'),('asthma',1,'Xa1hD',NULL,'Exacerbation of asthma'),('asthma',1,'Xa9zf',NULL,'Acute asthma'),('asthma',1,'X102D',NULL,'Status asthmaticus'),('asthma',1,'XE0YV',NULL,'Status asthmaticus NOS'),('asthma',1,'XaKdk',NULL,'Work aggravated asthma'),('asthma',1,'XaLPE',NULL,'Nocturnal asthma'),('asthma',1,'Xaa7B',NULL,'Chronic asthma with fixed airflow obstruction'),('asthma',1,'XaIuG',NULL,'Asthma confirmed'),('asthma',1,'Xac33',NULL,'Asthma-chronic obstructive pulmonary disease overlap syndrom'),('asthma',1,'663V2',NULL,'Moderate asthma'),('asthma',1,'663V3',NULL,'Severe asthma'),('asthma',1,'X1020',NULL,'Hay fever with asthma'),('asthma',1,'Xafdj',NULL,'Acute severe exacerbation of asthma'),('asthma',1,'Xafdy',NULL,'Moderate acute exacerbation of asthma');
 INSERT INTO #codesctv3
@@ -1559,10 +1545,14 @@ FROM #PatientsAdmissionsPostTest p
 GROUP BY p.FK_Patient_Link_ID;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 -- To optimise the patient event data table further (as there are so many patients),
 -- we can initially split it into 3:
 -- 1. Patients with a SuppliedCode in our list
 IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
+<<<<<<< HEAD
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
@@ -1678,6 +1668,8 @@ DROP INDEX IF EXISTS medData ON #PatientMedicationData;
 CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
 =======
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+=======
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
@@ -1685,25 +1677,118 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
   [Value]
-INTO #PatientEventData
+INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData3
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2
+UNION
+SELECT * FROM #PatientEventData3;
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- 1. Patients with a SuppliedCode in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData1') IS NOT NULL DROP TABLE #PatientMedicationData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(MedicationDate AS DATE) AS MedicationDate,
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
-INTO #PatientMedicationData
+INTO #PatientMedicationData1
 FROM [SharedCare].GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+<<<<<<< HEAD
 AND MedicationDate < @TEMPRQ038EndDate
 AND MedicationDate >= @MedicationsFromDate;
 >>>>>>> 4b3f790 (Latest code)
+=======
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND MedicationDate < @TEMPRQ038EndDate;
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData2') IS NOT NULL DROP TABLE #PatientMedicationData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData2
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND MedicationDate < @TEMPRQ038EndDate;
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData3') IS NOT NULL DROP TABLE #PatientMedicationData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData3
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND MedicationDate < @TEMPRQ038EndDate;
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT * INTO #PatientMedicationData FROM #PatientMedicationData1
+UNION
+SELECT * FROM #PatientMedicationData2
+UNION
+SELECT * FROM #PatientMedicationData3;
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 
 --┌────────────────────────────────────────────────┐
 --│ Patients with post-COVID syndrome (long COVID) │
@@ -2001,7 +2086,7 @@ GROUP BY FK_Patient_Link_ID;
 
 -- >>> Following code sets injected: severe-mental-illness v1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
-INTO #PatientDiagnosis
+INTO #PatientDiagnosisSMI
 FROM #PatientEventData
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'severe-mental-illness' AND Version = 1) OR
@@ -2344,21 +2429,30 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM SharedCare.COVID19
 <<<<<<< HEAD
+<<<<<<< HEAD
 WHERE (
 =======
 WHERE DeathWithin28Days = 'Y'
 AND (
 >>>>>>> 4b3f790 (Latest code)
+=======
+WHERE (
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+<<<<<<< HEAD
 <<<<<<< HEAD
 AND DATEDIFF(day,EventDate,DeathDate) <= 28
 AND EventDate < '2022-06-01';
 =======
 AND EventDate < @TEMPRQ037EndDate;
 >>>>>>> 4b3f790 (Latest code)
+=======
+AND DATEDIFF(day,EventDate,DeathDate) <= 28
+AND EventDate < '2022-06-01';
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 
 SELECT 
   pat.FK_Patient_Link_ID AS PatientId,
@@ -2369,12 +2463,17 @@ SELECT
   town.TownsendQuintileHigherIsMoreDeprived,
   lsoa.LSOA_Code AS LSOA,
 <<<<<<< HEAD
+<<<<<<< HEAD
   CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
   CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
 =======
   CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
   CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
 >>>>>>> 4b3f790 (Latest code)
+=======
+  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
+  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
   covid.FirstCovidPositiveDate, admission.FirstAdmissionPost1stCOVIDTest, los.LengthOfStay1stAdmission1stCOVIDTest,
   covid.SecondCovidPositiveDate, admission.FirstAdmissionPost2ndCOVIDTest, los.LengthOfStay1stAdmission2ndCOVIDTest,
   covid.ThirdCovidPositiveDate, admission.FirstAdmissionPost3rdCOVIDTest, los.LengthOfStay1stAdmission3rdCOVIDTest,

@@ -1010,7 +1010,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "asthma",1,"snomed",56968009,"=""56968009""","Wood asthma"
 "asthma",1,"snomed",2010031000006100,"=""2010031000006100""","Acute infective exacerbation of asthma"
 "asthma",1,"snomed",2010041000006105,"=""2010041000006105""","Acute non-infective exacerbation of asthma"
-<<<<<<< HEAD
 "dementia",1,"ctv3",1461.,"=""1461.""","H/O: dementia"
 "dementia",1,"ctv3",A410.,A410.,"Kuru"
 "dementia",1,"ctv3",A411.,A411.,"Creutzfeldt-Jakob disease"
@@ -1453,8 +1452,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "dementia",1,"readv2",F21y200,F21y200,"Binswanger's disease"
 "dementia",1,"readv2",F21y211,F21y211,"Binswanger's encephalopathy"
 "dementia",1,"readv2",Fyu3000,Fyu3000,"[X]Other Alzheimer's disease"
-=======
->>>>>>> 4b3f790 (Latest code)
 "severe-mental-illness",1,"ctv3",E1...,E1...,"Non-organic psychoses"
 "severe-mental-illness",1,"ctv3",E10..,E10..,"Schizophrenic disorders"
 "severe-mental-illness",1,"ctv3",E100.,E100.,"Simple schizophrenia"
@@ -2772,7 +2769,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "severe-mental-illness",1,"snomed",35218008,"=""35218008""","Chronic disorganized schizophrenia with acute exacerbations (disorder)"
 "severe-mental-illness",1,"snomed",79204003,"=""79204003""","Chronic undifferentiated schizophrenia with acute exacerbations (disorder)"
 "severe-mental-illness",1,"snomed",191563001,"=""191563001""","Acute exacerbation of subchronic latent schizophrenia (disorder)"
-<<<<<<< HEAD
 "myocardial-infarction",1,"ctv3",14A3.,14A3.,"H/O: myocardial infarct at less than 60"
 "myocardial-infarction",1,"ctv3",14A4.,14A4.,"H/O: myocardial infarct at greater than 60"
 "myocardial-infarction",1,"ctv3",323..,"=""323..""","ECG: myocardial infarction"
@@ -3059,8 +3055,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "myocardial-infarction",1,"readv2",G501.00,G501.00,"Post infarction pericarditis"
 "angina",1,"ctv3",G311.,G311.,"Preinfarction syndrome"
 "angina",1,"ctv3",G311z,G311z,"Preinfarction syndrome NOS"
-=======
->>>>>>> 4b3f790 (Latest code)
 "angina",1,"ctv3",G33..,G33..,"Angina"
 "angina",1,"ctv3",G330.,G330.,"Angina decubitus"
 "angina",1,"ctv3",G3300,G3300,"Nocturnal angina"
@@ -3076,7 +3070,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "angina",1,"ctv3",Xa7nH,Xa7nH,"Exertional angina"
 "angina",1,"ctv3",XaEXt,XaEXt,"Post infarct angina"
 "angina",1,"ctv3",XaFsG,XaFsG,"Refractory angina"
-<<<<<<< HEAD
 "angina",1,"ctv3",G33z0,G33z0,"Status anginosus"
 "angina",1,"ctv3",G33z1,G33z1,"Stenocardia"
 "angina",1,"ctv3",G33z2,G33z2,"Syncope anginosa"
@@ -3106,11 +3099,6 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "angina",1,"readv2",G311.13,G311.13,"Unstable angina"
 "angina",1,"readv2",G311.14,G311.14,"Angina at rest"
 "angina",1,"readv2",G311z00,G311z00,"Preinfarction syndrome NOS"
-=======
-"angina",1,"readv2",G311.11,G311.11,"Crescendo angina"
-"angina",1,"readv2",G311.13,G311.13,"Unstable angina"
-"angina",1,"readv2",G311.14,G311.14,"Angina at rest"
->>>>>>> 4b3f790 (Latest code)
 "angina",1,"readv2",G311100,G311100,"Unstable angina"
 "angina",1,"readv2",G311200,G311200,"Angina at rest"
 "angina",1,"readv2",G311300,G311300,"Refractory angina"
@@ -3122,24 +3110,17 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "angina",1,"readv2",G331.00,G331.00,"Prinzmetal's angina"
 "angina",1,"readv2",G331.11,G331.11,"Variant angina pectoris"
 "angina",1,"readv2",G33z.00,G33z.00,"Angina pectoris NOS"
-<<<<<<< HEAD
 "angina",1,"readv2",G33z000,G33z000,"Status anginosus"
 "angina",1,"readv2",G33z100,G33z100,"Stenocardia"
 "angina",1,"readv2",G33z200,G33z200,"Syncope anginosa"
 "angina",1,"readv2",G33z300,G33z300,"Angina on effort"
 "angina",1,"readv2",G33z400,G33z400,"Ischaemic chest pain"
-=======
-"angina",1,"readv2",G33z300,G33z300,"Angina on effort"
->>>>>>> 4b3f790 (Latest code)
 "angina",1,"readv2",G33z500,G33z500,"Post infarct angina"
 "angina",1,"readv2",G33z600,G33z600,"New onset angina"
 "angina",1,"readv2",G33z700,G33z700,"Stable angina"
 "angina",1,"readv2",G33zz00,G33zz00,"Angina pectoris NOS"
 "angina",1,"readv2",Gyu3000,Gyu3000,"[X]Other forms of angina pectoris"
-<<<<<<< HEAD
 "angina",1,"readv2",G343.00,G343.00,"Ischaemic cardiomyopathy"
-=======
->>>>>>> 4b3f790 (Latest code)
 "heart-failure",1,"ctv3",14A6.,14A6.,"H/O: heart failure"
 "heart-failure",1,"ctv3",G1yz1,G1yz1,"Rheumatic left ventricular failure"
 "heart-failure",1,"ctv3",G2101,G2101,"Malignant hypertensive heart disease with CCF"
@@ -4070,8 +4051,11 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "efi-arthritis",1,"readv2",Nyu11,Nyu11,"[X]O sero+ve rheumat arthritis"
 "efi-arthritis",1,"readv2",Nyu12,Nyu12,"[X]Oth spcf rheumatd arthritis"
 "efi-arthritis",1,"readv2",Nyu1G,Nyu1G,"[X]Seroposit rheum arthr, unsp"
+<<<<<<< HEAD
 =======
 >>>>>>> 4b3f790 (Latest code)
+=======
+>>>>>>> 29b6b8e (Final commit prior to RDE check)
 "efi-activity-limitation",1,"ctv3",13O5.,13O5.,"Attendance allowance"
 "efi-activity-limitation",1,"ctv3",9EB5.,9EB5.,"DS 1500 Disability living allowance completed"
 "efi-activity-limitation",1,"ctv3",Y3502,Y3502,"Allowance / DLA applied for"

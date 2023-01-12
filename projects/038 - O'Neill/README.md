@@ -1227,6 +1227,12 @@ LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.c
 
 > > > > > > > 4b3f790 (Latest code)
 
+### Arthritis (for electronic frailty index)
+
+These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
+
+LINK: [https://github.com/rw251/.../conditions/efi-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/efi-arthritis/1)
+
 ### Activity limitation (for electronic frailty index)
 
 These are the codes from the original electronic frailty index (EFI). Our aim is to produce an EFI comparably to that used in practice and so we simply reproduce the codes sets and do not attempt further validation.
