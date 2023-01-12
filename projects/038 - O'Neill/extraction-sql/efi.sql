@@ -24,7 +24,7 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 --						duplication of code in the template scripts. The cohort is any
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
-
+--            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
 -- INPUT: A variable:
 --	@TEMPRQ038EndDate - the date that we will not get records beyond
 
@@ -43,40 +43,110 @@ FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
--- First get all people with COVID positive test
---┌─────────────────────┐
---│ Patients with COVID │
---└─────────────────────┘
+-- Table of all patients with COVID at least once
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT FK_Patient_Link_ID INTO #Patients FROM #PatientsToInclude
 
--- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record. This now includes a table
--- that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for
--- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
--- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
--- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
--- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
--- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
--- entered into the primary care record several months after the actual infection.
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
 
--- INPUT: Takes three parameters
---  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
---	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
---	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+-- OBJECTIVE: To get the year of birth for each patient.
 
--- OUTPUT: Three temp tables as follows:
--- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- FirstCovidPositiveDate - earliest COVID diagnosis
--- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
--- 	- FK_Patient_Link_ID - unique patient id
---	- CovidPositiveDate - any COVID diagnosis
--- #CovidPatientsMultipleDiagnoses
---	-	FK_Patient_Link_ID - unique patient id
---	-	FirstCovidPositiveDate - date of first COVID diagnosis
---	-	SecondCovidPositiveDate - date of second COVID diagnosis
---	-	ThirdCovidPositiveDate - date of third COVID diagnosis
---	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
---	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+--	- YearOfBirth - INT
 
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
+-- Now restrict to those >=60 on 1st January 2020
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
+WHERE YearOfBirth <= 1959;
+
+-- Forces the code lists to insert here, so we can reference them in the below queries
 -- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
@@ -196,13 +266,7 @@ VALUES ('efi-social-vulnerability',1,'1335.',NULL,'Widowed'),('efi-social-vulner
 INSERT INTO #codesreadv2
 VALUES ('efi-urinary-incontinence',1,'1593.',NULL,'H/O: stress incontinence'),('efi-urinary-incontinence',1,'1593.00',NULL,'H/O: stress incontinence'),('efi-urinary-incontinence',1,'16F..',NULL,'Double incontinence'),('efi-urinary-incontinence',1,'16F..00',NULL,'Double incontinence'),('efi-urinary-incontinence',1,'1A23.',NULL,'Incontinence of urine'),('efi-urinary-incontinence',1,'1A23.00',NULL,'Incontinence of urine'),('efi-urinary-incontinence',1,'1A24.',NULL,'Stress incontinence'),('efi-urinary-incontinence',1,'1A24.00',NULL,'Stress incontinence'),('efi-urinary-incontinence',1,'1A26.',NULL,'Urge incontinence of urine'),('efi-urinary-incontinence',1,'1A26.00',NULL,'Urge incontinence of urine'),('efi-urinary-incontinence',1,'3940.',NULL,'Bladder: incontinent'),('efi-urinary-incontinence',1,'3940.00',NULL,'Bladder: incontinent'),('efi-urinary-incontinence',1,'3941.',NULL,'Bladder: occasional accident'),('efi-urinary-incontinence',1,'3941.00',NULL,'Bladder: occasional accident'),('efi-urinary-incontinence',1,'7B338',NULL,'Ins ret dev str urin incon NEC'),('efi-urinary-incontinence',1,'7B33800',NULL,'Ins ret dev str urin incon NEC'),('efi-urinary-incontinence',1,'7B33C',NULL,'Ins ret de fe str urin inc NEC'),('efi-urinary-incontinence',1,'7B33C00',NULL,'Ins ret de fe str urin inc NEC'),('efi-urinary-incontinence',1,'7B421',NULL,'Insert bulbar ureth prosthesis'),('efi-urinary-incontinence',1,'7B42100',NULL,'Insert bulbar ureth prosthesis'),('efi-urinary-incontinence',1,'8D7..',NULL,'Urinary bladder control'),('efi-urinary-incontinence',1,'8D7..00',NULL,'Urinary bladder control'),('efi-urinary-incontinence',1,'8D71.',NULL,'Incontinence control'),('efi-urinary-incontinence',1,'8D71.00',NULL,'Incontinence control'),('efi-urinary-incontinence',1,'8HTX.',NULL,'Referral to incontinence clin'),('efi-urinary-incontinence',1,'8HTX.00',NULL,'Referral to incontinence clin'),('efi-urinary-incontinence',1,'K198.',NULL,'Stress incontinence'),('efi-urinary-incontinence',1,'K198.00',NULL,'Stress incontinence'),('efi-urinary-incontinence',1,'K586.',NULL,'Stress incontinence - female'),('efi-urinary-incontinence',1,'K586.00',NULL,'Stress incontinence - female'),('efi-urinary-incontinence',1,'Kyu5A',NULL,'[X]Oth spcf urinary incontince'),('efi-urinary-incontinence',1,'Kyu5A00',NULL,'[X]Oth spcf urinary incontince'),('efi-urinary-incontinence',1,'R083.',NULL,'[D]Incontinence of urine'),('efi-urinary-incontinence',1,'R083.00',NULL,'[D]Incontinence of urine'),('efi-urinary-incontinence',1,'R0831',NULL,'[D]Urethral sphinct.incontin.'),('efi-urinary-incontinence',1,'R083100',NULL,'[D]Urethral sphinct.incontin.'),('efi-urinary-incontinence',1,'R0832',NULL,'[D] Urge incontinence'),('efi-urinary-incontinence',1,'R083200',NULL,'[D] Urge incontinence'),('efi-urinary-incontinence',1,'R083z',NULL,'[D]Incontinence of urine NOS'),('efi-urinary-incontinence',1,'R083z00',NULL,'[D]Incontinence of urine NOS');
 INSERT INTO #codesreadv2
-VALUES ('efi-weight-loss',1,'1612.',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'1612.00',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'1615.',NULL,'Reduced appetite'),('efi-weight-loss',1,'1615.00',NULL,'Reduced appetite'),('efi-weight-loss',1,'1623.',NULL,'Weight decreasing'),('efi-weight-loss',1,'1623.00',NULL,'Weight decreasing'),('efi-weight-loss',1,'1625.',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1625.00',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1D1A.',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'1D1A.00',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'22A8.',NULL,'Weight loss frm baselne weight'),('efi-weight-loss',1,'22A8.00',NULL,'Weight loss frm baselne weight'),('efi-weight-loss',1,'R0300',NULL,'[D]Appetite loss'),('efi-weight-loss',1,'R030000',NULL,'[D]Appetite loss'),('efi-weight-loss',1,'R032.',NULL,'[D]Abnormal loss of weight'),('efi-weight-loss',1,'R032.00',NULL,'[D]Abnormal loss of weight');
-INSERT INTO #codesreadv2
-VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
-INSERT INTO #codesreadv2
-VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
-INSERT INTO #codesreadv2
-VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected')
+VALUES ('efi-weight-loss',1,'1612.',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'1612.00',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'1615.',NULL,'Reduced appetite'),('efi-weight-loss',1,'1615.00',NULL,'Reduced appetite'),('efi-weight-loss',1,'1623.',NULL,'Weight decreasing'),('efi-weight-loss',1,'1623.00',NULL,'Weight decreasing'),('efi-weight-loss',1,'1625.',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1625.00',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1D1A.',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'1D1A.00',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'22A8.',NULL,'Weight loss frm baselne weight'),('efi-weight-loss',1,'22A8.00',NULL,'Weight loss frm baselne weight'),('efi-weight-loss',1,'R0300',NULL,'[D]Appetite loss'),('efi-weight-loss',1,'R030000',NULL,'[D]Appetite loss'),('efi-weight-loss',1,'R032.',NULL,'[D]Abnormal loss of weight'),('efi-weight-loss',1,'R032.00',NULL,'[D]Abnormal loss of weight')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -291,13 +355,7 @@ VALUES ('efi-social-vulnerability',1,'1335.',NULL,'Widowed'),('efi-social-vulner
 INSERT INTO #codesctv3
 VALUES ('efi-urinary-incontinence',1,'1A23.',NULL,'Urinary incontinence'),('efi-urinary-incontinence',1,'1A26.',NULL,'Urge incontinence of urine'),('efi-urinary-incontinence',1,'XE0rR',NULL,'Genuine stress incontinence'),('efi-urinary-incontinence',1,'K586.',NULL,'Stress incontinence - female'),('efi-urinary-incontinence',1,'1593.',NULL,'H/O: stress incontinence'),('efi-urinary-incontinence',1,'R083.',NULL,'[D]Incontinence of urine'),('efi-urinary-incontinence',1,'R0832',NULL,'[D] Urge incontinence'),('efi-urinary-incontinence',1,'1A24.',NULL,'Stress incontinence (& symptom)'),('efi-urinary-incontinence',1,'X76Xh',NULL,'Frequency of incontinence'),('efi-urinary-incontinence',1,'XaJtx',NULL,'Referral to incontinence clinic'),('efi-urinary-incontinence',1,'X30ON',NULL,'Post-micturition incontinence'),('efi-urinary-incontinence',1,'X30C5',NULL,'Double incontinence'),('efi-urinary-incontinence',1,'X30OI',NULL,'Giggle incontinence of urine'),('efi-urinary-incontinence',1,'R083z',NULL,'[D]Incontinence of urine NOS'),('efi-urinary-incontinence',1,'X30OK',NULL,'Reflex incontinence of urine'),('efi-urinary-incontinence',1,'X30OJ',NULL,'Overflow incontinence of urine'),('efi-urinary-incontinence',1,'Kyu5A',NULL,'[X]Other specified urinary incontinence'),('efi-urinary-incontinence',1,'q3...',NULL,'Incontinence sheath'),('efi-urinary-incontinence',1,'gd...',NULL,'Drugs for enuresis, urinary frequency and incontinence'),('efi-urinary-incontinence',1,'XE0gn',NULL,'Stress incontinence (& [female])'),('efi-urinary-incontinence',1,'R0831',NULL,'[D]Urethral sphincter incontinence'),('efi-urinary-incontinence',1,'X30OH',NULL,'Cough - urge incontinence of urine'),('efi-urinary-incontinence',1,'X30F3',NULL,'Bladder neck operation for female stress incontinence'),('efi-urinary-incontinence',1,'8D7..',NULL,'Incontinence control (& bladder)'),('efi-urinary-incontinence',1,'X30OL',NULL,'Urinary sphincter weakness incontinence'),('efi-urinary-incontinence',1,'x00oF',NULL,'Incontinence sheath+self adhesive liner'),('efi-urinary-incontinence',1,'Xa3t7',NULL,'Urinary incontinence/sling operation'),('efi-urinary-incontinence',1,'X30OP',NULL,'Urinary incontinence of non-organic origin'),('efi-urinary-incontinence',1,'X30OQ',NULL,'Dependency urinary incontinence'),('efi-urinary-incontinence',1,'XE0Gh',NULL,'Implantation of bulbar urethral prosthesis for incontinence'),('efi-urinary-incontinence',1,'Xa9G7',NULL,'Bladder neck incompetence'),('efi-urinary-incontinence',1,'XaMAm',NULL,'Insertion retropubic device stress urinary incontinence NEC'),('efi-urinary-incontinence',1,'XaMtf',NULL,'Insertion retropubic dev fem stress urinary incontinence NEC'),('efi-urinary-incontinence',1,'X30Fl',NULL,'Activation of bulbar urethral prosthesis for incontinence'),('efi-urinary-incontinence',1,'X30OO',NULL,'Postural urinary incontinence'),('efi-urinary-incontinence',1,'X30OR',NULL,'Psychogenic urinary incontinence'),('efi-urinary-incontinence',1,'X76Xj',NULL,'Unaware of passing urine'),('efi-urinary-incontinence',1,'3941.',NULL,'Bladder: occasional accident'),('efi-urinary-incontinence',1,'3940.',NULL,'Bladder: incontinent');
 INSERT INTO #codesctv3
-VALUES ('efi-weight-loss',1,'X76CA',NULL,'Weight loss'),('efi-weight-loss',1,'XE0qb',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1625.',NULL,'Abnormal weight loss (& [symptom])'),('efi-weight-loss',1,'XaKwR',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'XaQgK',NULL,'Unexplained weight loss'),('efi-weight-loss',1,'XaXTs',NULL,'Unintentional weight loss'),('efi-weight-loss',1,'XaIxC',NULL,'Weight loss from baseline weight'),('efi-weight-loss',1,'XE0uH',NULL,'Weight loss (& abnormal)'),('efi-weight-loss',1,'XaBmk',NULL,'Excessive weight loss'),('efi-weight-loss',1,'Ua1iv',NULL,'Decrease in appetite'),('efi-weight-loss',1,'1623.',NULL,'Weight decreasing'),('efi-weight-loss',1,'R032.',NULL,'[D]Abnormal loss of weight'),('efi-weight-loss',1,'XE24f',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'R0300',NULL,'[D]Appetite loss');
-INSERT INTO #codesctv3
-VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
-INSERT INTO #codesctv3
-VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
-INSERT INTO #codesctv3
-VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive')
+VALUES ('efi-weight-loss',1,'X76CA',NULL,'Weight loss'),('efi-weight-loss',1,'XE0qb',NULL,'Abnormal weight loss'),('efi-weight-loss',1,'1625.',NULL,'Abnormal weight loss (& [symptom])'),('efi-weight-loss',1,'XaKwR',NULL,'Complaining of weight loss'),('efi-weight-loss',1,'XaQgK',NULL,'Unexplained weight loss'),('efi-weight-loss',1,'XaXTs',NULL,'Unintentional weight loss'),('efi-weight-loss',1,'XaIxC',NULL,'Weight loss from baseline weight'),('efi-weight-loss',1,'XE0uH',NULL,'Weight loss (& abnormal)'),('efi-weight-loss',1,'XaBmk',NULL,'Excessive weight loss'),('efi-weight-loss',1,'Ua1iv',NULL,'Decrease in appetite'),('efi-weight-loss',1,'1623.',NULL,'Weight decreasing'),('efi-weight-loss',1,'R032.',NULL,'[D]Abnormal loss of weight'),('efi-weight-loss',1,'XE24f',NULL,'Appetite loss - anorexia'),('efi-weight-loss',1,'R0300',NULL,'[D]Appetite loss')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -325,12 +383,7 @@ CREATE TABLE #codesemis (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codesemis
-VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
-INSERT INTO #codesemis
-VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
-INSERT INTO #codesemis
-VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
+
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -417,215 +470,12 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 --#endregion
 
--- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+-- >>> Following code sets injected: efi-arthritis v1
 
-
--- Set the temp end date until new legal basis
-DECLARE @TEMPWithCovidEndDate datetime;
-SET @TEMPWithCovidEndDate = '2022-06-01';
-
-IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
-CREATE TABLE #CovidPatientsAllDiagnoses (
-	FK_Patient_Link_ID BIGINT,
-	CovidPositiveDate DATE
-);
-
-INSERT INTO #CovidPatientsAllDiagnoses
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-FROM [SharedCare].[COVID19]
-WHERE (
-	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-)
-AND EventDate > '2020-01-01'
-AND EventDate <= @TEMPWithCovidEndDate
---AND EventDate <= GETDATE()
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-
--- We can rely on the GraphNet table for first diagnosis.
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
-FROM #CovidPatientsAllDiagnoses
-GROUP BY FK_Patient_Link_ID;
-
--- Now let's get the dates of any positive test (i.e. not things like suspected, or historic)
-IF OBJECT_ID('tempdb..#AllPositiveTestsTemp') IS NOT NULL DROP TABLE #AllPositiveTestsTemp;
-CREATE TABLE #AllPositiveTestsTemp (
-	FK_Patient_Link_ID BIGINT,
-	TestDate DATE
-);
-
-INSERT INTO #AllPositiveTestsTemp
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-FROM SharedCare.GP_Events
-WHERE SuppliedCode IN (
-	select Code from #AllCodes 
-	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-	AND Version = 1
-)
-AND EventDate <= @TEMPWithCovidEndDate
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-
-IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
-CREATE TABLE #CovidPatientsMultipleDiagnoses (
-	FK_Patient_Link_ID BIGINT,
-	FirstCovidPositiveDate DATE,
-	SecondCovidPositiveDate DATE,
-	ThirdCovidPositiveDate DATE,
-	FourthCovidPositiveDate DATE,
-	FifthCovidPositiveDate DATE
-);
-
--- Populate first diagnosis
-INSERT INTO #CovidPatientsMultipleDiagnoses (FK_Patient_Link_ID, FirstCovidPositiveDate)
-SELECT FK_Patient_Link_ID, MIN(FirstCovidPositiveDate) FROM
-(
-	SELECT * FROM #CovidPatients
-	UNION
-	SELECT * FROM #AllPositiveTestsTemp
-) sub
-GROUP BY FK_Patient_Link_ID;
-
--- Now let's get second tests.
-UPDATE t1
-SET t1.SecondCovidPositiveDate = NextTestDate
-FROM #CovidPatientsMultipleDiagnoses AS t1
-INNER JOIN (
-SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatients cp
-INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FirstCovidPositiveDate)
-GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
-
--- Now let's get third tests.
-UPDATE t1
-SET t1.ThirdCovidPositiveDate = NextTestDate
-FROM #CovidPatientsMultipleDiagnoses AS t1
-INNER JOIN (
-SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
-INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, SecondCovidPositiveDate)
-GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
-
--- Now let's get fourth tests.
-UPDATE t1
-SET t1.FourthCovidPositiveDate = NextTestDate
-FROM #CovidPatientsMultipleDiagnoses AS t1
-INNER JOIN (
-SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
-INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, ThirdCovidPositiveDate)
-GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
-
--- Now let's get fifth tests.
-UPDATE t1
-SET t1.FifthCovidPositiveDate = NextTestDate
-FROM #CovidPatientsMultipleDiagnoses AS t1
-INNER JOIN (
-SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
-INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FourthCovidPositiveDate)
-GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
-
--- Table of all patients with COVID at least once
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
-
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
-
--- OBJECTIVE: To get the year of birth for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
--- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
-
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	YEAR(Dob) AS YearOfBirth
-INTO #AllPatientYearOfBirths
-FROM SharedCare.Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Dob IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely YOB
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If every YOB is the same for all their linked patient ids then we use that
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If there is a unique most recent YOB then use that
-INSERT INTO #PatientYearOfBirth
-SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- Otherwise just use the highest value (with the exception that can't be in the future)
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientYearOfBirths;
-DROP TABLE #UnmatchedYobPatients;
-
--- Now restrict to those >=60 on 1st January 2020
-TRUNCATE TABLE #Patients;
-INSERT INTO #Patients
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
-WHERE YearOfBirth <= 1959;
-
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+-- To optimise the patient event data table further (as there are so many patients),
+-- we can initially split it into 3:
+-- 1. Patients with a SuppliedCode in our list
+IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
@@ -633,31 +483,57 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
   [Value]
-INTO #PatientEventData
+INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData3
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2
+UNION
+SELECT * FROM #PatientEventData3;
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS eventData ON #PatientEventData;
 CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
-
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(MedicationDate AS DATE) AS MedicationDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID
-INTO #PatientMedicationData
-FROM [SharedCare].GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate < @TEMPRQ038EndDate;
-
--- Improve performance later with an index
-DROP INDEX IF EXISTS medData ON #PatientMedicationData;
-CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
 
 -- Get the EFI over time
 --┌────────────────────────────────────┐
@@ -666,10 +542,9 @@ CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDa
 
 -- OBJECTIVE: To calculate the EFI for all patients and how it has changed over time
 
--- INPUT: Takes three parameters
---	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+-- INPUT: Takes one parameter
 --	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
---	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+-- And assumes there is a temp table #Patients (this can't be run on all patients at present as it takes too long)
 
 -- OUTPUT: One temp tables as follows:
 --	#PatientEFIOverTime (FK_Patient_Link_ID, NumberOfDeficits, DateFrom)
@@ -686,9 +561,7 @@ CREATE INDEX medData ON #PatientMedicationData (FK_Patient_Link_ID, MedicationDa
 -- OBJECTIVE: The common logic for 2 EFI queries. This is unlikely to be executed directly, but is used by the other queries.
 
 -- INPUT: Takes three parameters
---	-	all-patients: boolean - (true/false) if false, then only those in the pre-existing #Patients table are included, otherwise everyone.
 --	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
---	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
 
 -- OUTPUT: Two temp tables as follows:
 --	#EfiEvents (FK_Patient_Link_ID,	Deficit, EventDate)
@@ -1237,14 +1110,12 @@ DROP TABLE #UnmatchedSexPatients;
 IF OBJECT_ID('tempdb..#MalePatients') IS NOT NULL DROP TABLE #MalePatients;
 SELECT FK_Patient_Link_ID INTO #MalePatients FROM #PatientSex
 WHERE Sex = 'M'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#FemalePatients') IS NOT NULL DROP TABLE #FemalePatients;
 SELECT FK_Patient_Link_ID INTO #FemalePatients FROM #PatientSex
 WHERE Sex = 'F'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- FALLS included if the "number of falls in last 12 months" is >0
 
@@ -1495,29 +1366,1013 @@ GROUP BY FK_Patient_Link_ID;
 -- UPDATE Andy Clegg algorithm is for 5 different meds in a 12 month period. Maybe
 -- we should define it in both ways - and allow sensitivity analysis
 -- The following is a look back so gives number of meds in 12 months prior to a prescription
--- This will deal with the start events.
-IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
-SELECT m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate]) AS PotentialPolypharmStartDate
-INTO #PolypharmDates5InLastYear
-FROM #PatientMedicationData m1
-LEFT OUTER JOIN #PatientMedicationData m2
+
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData0') IS NOT NULL DROP TABLE [#PatientMedicationData0];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData0]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 0
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData0] ON [#PatientMedicationData0];
+CREATE INDEX [medData0] ON [#PatientMedicationData0] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable0') IS NOT NULL DROP TABLE [#PatientMedDataTempTable0];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable0]
+FROM [#PatientMedicationData0];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable0]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber0 INT; 
+SET @LastDeletedNumber0=10001;
+WHILE ( @LastDeletedNumber0 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding0') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding0];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding0]
+  FROM [#PatientMedDataTempTable0];
+
+  DELETE FROM [#PatientMedDataTempTableHolding0]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable0;
+  INSERT INTO #PatientMedDataTempTable0
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding0];
+
+  DELETE FROM [#PatientMedDataTempTable0]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber0=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx0] ON [#PatientMedDataTempTable0];
+CREATE INDEX [xx0] ON [#PatientMedDataTempTable0] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear0') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear0;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear0
+FROM [#PatientMedDataTempTable0] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
-	AND CONVERT(DATE, m1.[MedicationDate]) >= CONVERT(DATE, m2.[MedicationDate])
-	AND CONVERT(DATE, m1.[MedicationDate]) < DATEADD(year, 1, CONVERT(DATE, m2.[MedicationDate]))
-GROUP BY m1.FK_Patient_Link_ID, CONVERT(DATE, m1.[MedicationDate])
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
 HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
 
 -- Next is a look forward from the day after a medication. This will deal with the stop events
-IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
-SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) AS PotentialPolypharmEndDate
-INTO #PolypharmStopDates5InLastYear
-FROM #PatientMedicationData m1
-LEFT OUTER JOIN #PatientMedicationData m2
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear0') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear0;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear0
+FROM [#PatientMedDataTempTable0] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable0] m2
 	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
-	AND DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) >= CONVERT(DATE, m2.[MedicationDate])
-	AND DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate])) < DATEADD(year, 1, CONVERT(DATE, m2.[MedicationDate]))
-GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, CONVERT(DATE, m1.[MedicationDate]))
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
 HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData1') IS NOT NULL DROP TABLE [#PatientMedicationData1];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData1]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 1
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData1] ON [#PatientMedicationData1];
+CREATE INDEX [medData1] ON [#PatientMedicationData1] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable1') IS NOT NULL DROP TABLE [#PatientMedDataTempTable1];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable1]
+FROM [#PatientMedicationData1];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable1]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber1 INT; 
+SET @LastDeletedNumber1=10001;
+WHILE ( @LastDeletedNumber1 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding1') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding1];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding1]
+  FROM [#PatientMedDataTempTable1];
+
+  DELETE FROM [#PatientMedDataTempTableHolding1]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable1;
+  INSERT INTO #PatientMedDataTempTable1
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding1];
+
+  DELETE FROM [#PatientMedDataTempTable1]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber1=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx1] ON [#PatientMedDataTempTable1];
+CREATE INDEX [xx1] ON [#PatientMedDataTempTable1] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear1') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear1;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear1
+FROM [#PatientMedDataTempTable1] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable1] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear1') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear1;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear1
+FROM [#PatientMedDataTempTable1] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable1] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData2') IS NOT NULL DROP TABLE [#PatientMedicationData2];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData2]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 2
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData2] ON [#PatientMedicationData2];
+CREATE INDEX [medData2] ON [#PatientMedicationData2] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable2') IS NOT NULL DROP TABLE [#PatientMedDataTempTable2];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable2]
+FROM [#PatientMedicationData2];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable2]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber2 INT; 
+SET @LastDeletedNumber2=10001;
+WHILE ( @LastDeletedNumber2 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding2') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding2];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding2]
+  FROM [#PatientMedDataTempTable2];
+
+  DELETE FROM [#PatientMedDataTempTableHolding2]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable2;
+  INSERT INTO #PatientMedDataTempTable2
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding2];
+
+  DELETE FROM [#PatientMedDataTempTable2]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber2=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx2] ON [#PatientMedDataTempTable2];
+CREATE INDEX [xx2] ON [#PatientMedDataTempTable2] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear2') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear2;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear2
+FROM [#PatientMedDataTempTable2] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable2] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear2') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear2;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear2
+FROM [#PatientMedDataTempTable2] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable2] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData3') IS NOT NULL DROP TABLE [#PatientMedicationData3];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData3]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 3
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData3] ON [#PatientMedicationData3];
+CREATE INDEX [medData3] ON [#PatientMedicationData3] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable3') IS NOT NULL DROP TABLE [#PatientMedDataTempTable3];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable3]
+FROM [#PatientMedicationData3];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable3]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber3 INT; 
+SET @LastDeletedNumber3=10001;
+WHILE ( @LastDeletedNumber3 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding3') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding3];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding3]
+  FROM [#PatientMedDataTempTable3];
+
+  DELETE FROM [#PatientMedDataTempTableHolding3]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable3;
+  INSERT INTO #PatientMedDataTempTable3
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding3];
+
+  DELETE FROM [#PatientMedDataTempTable3]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber3=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx3] ON [#PatientMedDataTempTable3];
+CREATE INDEX [xx3] ON [#PatientMedDataTempTable3] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear3') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear3;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear3
+FROM [#PatientMedDataTempTable3] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable3] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear3') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear3;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear3
+FROM [#PatientMedDataTempTable3] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable3] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData4') IS NOT NULL DROP TABLE [#PatientMedicationData4];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData4]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 4
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData4] ON [#PatientMedicationData4];
+CREATE INDEX [medData4] ON [#PatientMedicationData4] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable4') IS NOT NULL DROP TABLE [#PatientMedDataTempTable4];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable4]
+FROM [#PatientMedicationData4];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable4]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber4 INT; 
+SET @LastDeletedNumber4=10001;
+WHILE ( @LastDeletedNumber4 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding4') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding4];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding4]
+  FROM [#PatientMedDataTempTable4];
+
+  DELETE FROM [#PatientMedDataTempTableHolding4]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable4;
+  INSERT INTO #PatientMedDataTempTable4
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding4];
+
+  DELETE FROM [#PatientMedDataTempTable4]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber4=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx4] ON [#PatientMedDataTempTable4];
+CREATE INDEX [xx4] ON [#PatientMedDataTempTable4] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear4') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear4;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear4
+FROM [#PatientMedDataTempTable4] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable4] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear4') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear4;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear4
+FROM [#PatientMedDataTempTable4] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable4] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData5') IS NOT NULL DROP TABLE [#PatientMedicationData5];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData5]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 5
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData5] ON [#PatientMedicationData5];
+CREATE INDEX [medData5] ON [#PatientMedicationData5] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable5') IS NOT NULL DROP TABLE [#PatientMedDataTempTable5];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable5]
+FROM [#PatientMedicationData5];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable5]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber5 INT; 
+SET @LastDeletedNumber5=10001;
+WHILE ( @LastDeletedNumber5 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding5') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding5];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding5]
+  FROM [#PatientMedDataTempTable5];
+
+  DELETE FROM [#PatientMedDataTempTableHolding5]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable5;
+  INSERT INTO #PatientMedDataTempTable5
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding5];
+
+  DELETE FROM [#PatientMedDataTempTable5]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber5=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx5] ON [#PatientMedDataTempTable5];
+CREATE INDEX [xx5] ON [#PatientMedDataTempTable5] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear5') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear5;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear5
+FROM [#PatientMedDataTempTable5] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable5] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear5') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear5;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear5
+FROM [#PatientMedDataTempTable5] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable5] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData6') IS NOT NULL DROP TABLE [#PatientMedicationData6];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData6]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 6
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData6] ON [#PatientMedicationData6];
+CREATE INDEX [medData6] ON [#PatientMedicationData6] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable6') IS NOT NULL DROP TABLE [#PatientMedDataTempTable6];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable6]
+FROM [#PatientMedicationData6];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable6]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber6 INT; 
+SET @LastDeletedNumber6=10001;
+WHILE ( @LastDeletedNumber6 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding6') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding6];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding6]
+  FROM [#PatientMedDataTempTable6];
+
+  DELETE FROM [#PatientMedDataTempTableHolding6]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable6;
+  INSERT INTO #PatientMedDataTempTable6
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding6];
+
+  DELETE FROM [#PatientMedDataTempTable6]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber6=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx6] ON [#PatientMedDataTempTable6];
+CREATE INDEX [xx6] ON [#PatientMedDataTempTable6] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear6') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear6;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear6
+FROM [#PatientMedDataTempTable6] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable6] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear6') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear6;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear6
+FROM [#PatientMedDataTempTable6] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable6] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData7') IS NOT NULL DROP TABLE [#PatientMedicationData7];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData7]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 7
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData7] ON [#PatientMedicationData7];
+CREATE INDEX [medData7] ON [#PatientMedicationData7] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable7') IS NOT NULL DROP TABLE [#PatientMedDataTempTable7];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable7]
+FROM [#PatientMedicationData7];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable7]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber7 INT; 
+SET @LastDeletedNumber7=10001;
+WHILE ( @LastDeletedNumber7 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding7') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding7];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding7]
+  FROM [#PatientMedDataTempTable7];
+
+  DELETE FROM [#PatientMedDataTempTableHolding7]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable7;
+  INSERT INTO #PatientMedDataTempTable7
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding7];
+
+  DELETE FROM [#PatientMedDataTempTable7]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber7=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx7] ON [#PatientMedDataTempTable7];
+CREATE INDEX [xx7] ON [#PatientMedDataTempTable7] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear7') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear7;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear7
+FROM [#PatientMedDataTempTable7] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable7] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear7') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear7;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear7
+FROM [#PatientMedDataTempTable7] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable7] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData8') IS NOT NULL DROP TABLE [#PatientMedicationData8];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData8]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 8
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData8] ON [#PatientMedicationData8];
+CREATE INDEX [medData8] ON [#PatientMedicationData8] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable8') IS NOT NULL DROP TABLE [#PatientMedDataTempTable8];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable8]
+FROM [#PatientMedicationData8];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable8]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber8 INT; 
+SET @LastDeletedNumber8=10001;
+WHILE ( @LastDeletedNumber8 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding8') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding8];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding8]
+  FROM [#PatientMedDataTempTable8];
+
+  DELETE FROM [#PatientMedDataTempTableHolding8]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable8;
+  INSERT INTO #PatientMedDataTempTable8
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding8];
+
+  DELETE FROM [#PatientMedDataTempTable8]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber8=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx8] ON [#PatientMedDataTempTable8];
+CREATE INDEX [xx8] ON [#PatientMedDataTempTable8] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear8') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear8;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear8
+FROM [#PatientMedDataTempTable8] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable8] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear8') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear8;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear8
+FROM [#PatientMedDataTempTable8] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable8] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+--┌──────────────────────────────────────────┐
+--│ Patient medication data splitter for EFI │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE: Split the medication data into chunks to improve performance
+
+-- First get the medication data for this chunk of patients
+IF OBJECT_ID('tempdb..#PatientMedicationData9') IS NOT NULL DROP TABLE [#PatientMedicationData9];
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode
+INTO [#PatientMedicationData9]
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND ABS(FK_Patient_Link_ID) % 10 = 9
+AND MedicationDate < '2022-06-01'; --TODO TEMP POST COPI FIX
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [medData9] ON [#PatientMedicationData9];
+CREATE INDEX [medData9] ON [#PatientMedicationData9] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PatientMedDataTempTable9') IS NOT NULL DROP TABLE [#PatientMedDataTempTable9];
+SELECT
+  FK_Patient_Link_ID,
+  SuppliedCode, 
+  LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate,
+  MedicationDate, 
+  LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate,
+  ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+INTO [#PatientMedDataTempTable9]
+FROM [#PatientMedicationData9];
+-- 56s
+
+DELETE FROM [#PatientMedDataTempTable9]
+WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+AND rn % 2 = 0;
+--25s
+
+DECLARE @LastDeletedNumber9 INT; 
+SET @LastDeletedNumber9=10001;
+WHILE ( @LastDeletedNumber9 > 10000)
+BEGIN
+  IF OBJECT_ID('tempdb..#PatientMedDataTempTableHolding9') IS NOT NULL DROP TABLE [#PatientMedDataTempTableHolding9];
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  INTO [#PatientMedDataTempTableHolding9]
+  FROM [#PatientMedDataTempTable9];
+
+  DELETE FROM [#PatientMedDataTempTableHolding9]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  TRUNCATE TABLE #PatientMedDataTempTable9;
+  INSERT INTO #PatientMedDataTempTable9
+  SELECT FK_Patient_Link_ID, SuppliedCode, 
+        LAG(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS PreviousDate  ,MedicationDate, 
+      LEAD(MedicationDate, 1) OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS NextDate ,
+      ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID, SuppliedCode ORDER BY MedicationDate) AS rn
+  FROM [#PatientMedDataTempTableHolding9];
+
+  DELETE FROM [#PatientMedDataTempTable9]
+  WHERE DATEDIFF(YEAR, PreviousDate, NextDate) = 0
+  AND rn % 2 = 0;
+
+  SELECT @LastDeletedNumber9=@@ROWCOUNT;
+END
+
+-- Improve performance later with an index
+DROP INDEX IF EXISTS [xx9] ON [#PatientMedDataTempTable9];
+CREATE INDEX [xx9] ON [#PatientMedDataTempTable9] (FK_Patient_Link_ID, MedicationDate) INCLUDE (SuppliedCode);
+
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear9') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear9;
+SELECT m1.FK_Patient_Link_ID, m1.[MedicationDate] AS PotentialPolypharmStartDate
+INTO #PolypharmDates5InLastYear9
+FROM [#PatientMedDataTempTable9] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable9] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND m1.[MedicationDate] >= m2.[MedicationDate]
+	AND m1.[MedicationDate] < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, m1.[MedicationDate]
+HAVING COUNT(DISTINCT m2.SuppliedCode) >= 5;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear9') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear9;
+SELECT m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate]) AS PotentialPolypharmEndDate
+INTO #PolypharmStopDates5InLastYear9
+FROM [#PatientMedDataTempTable9] m1
+LEFT OUTER JOIN [#PatientMedDataTempTable9] m2
+	ON m1.FK_Patient_Link_ID = m2.FK_Patient_Link_ID
+	AND DATEADD(year, 1, m1.[MedicationDate]) >= m2.[MedicationDate]
+	AND DATEADD(year, 1, m1.[MedicationDate]) < DATEADD(year, 1, m2.[MedicationDate])
+GROUP BY m1.FK_Patient_Link_ID, DATEADD(year, 1, m1.[MedicationDate])
+HAVING COUNT(DISTINCT m2.SuppliedCode) < 5;
+
+
+-- This will deal with the start events.
+IF OBJECT_ID('tempdb..#PolypharmDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmDates5InLastYear;
+SELECT * INTO #PolypharmDates5InLastYear FROM #PolypharmDates5InLastYear0
+UNION
+SELECT * FROM #PolypharmDates5InLastYear1
+UNION
+SELECT * FROM #PolypharmDates5InLastYear2
+UNION
+SELECT * FROM #PolypharmDates5InLastYear3
+UNION
+SELECT * FROM #PolypharmDates5InLastYear4
+UNION
+SELECT * FROM #PolypharmDates5InLastYear5
+UNION
+SELECT * FROM #PolypharmDates5InLastYear6
+UNION
+SELECT * FROM #PolypharmDates5InLastYear7
+UNION
+SELECT * FROM #PolypharmDates5InLastYear8
+UNION
+SELECT * FROM #PolypharmDates5InLastYear9;
+
+-- Next is a look forward from the day after a medication. This will deal with the stop events
+IF OBJECT_ID('tempdb..#PolypharmStopDates5InLastYear') IS NOT NULL DROP TABLE #PolypharmStopDates5InLastYear;
+SELECT * INTO #PolypharmStopDates5InLastYear FROM #PolypharmStopDates5InLastYear0
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear1
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear2
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear3
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear4
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear5
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear6
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear7
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear8
+UNION
+SELECT * FROM #PolypharmStopDates5InLastYear9;
+
 
 -- Now convert to desired format (PatientId / DateFrom / DateTo)
 
