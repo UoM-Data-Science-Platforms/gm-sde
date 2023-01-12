@@ -5,7 +5,10 @@
 -- OUTPUT: Data with the following fields
 -- 	All individuals alive in Greater Manchester on 1 January 2020 who were 60 years of age 
 --  or older on that day and who have had at least one COVID-19 positive test recorded in
---  their GP record. There are no exclusion criteria. Follow-up is until 30 June 2022
+--  their GP record. There are no exclusion criteria. Follow-up is until 1st June 2022
+
+--  UPDATE 21/12/22 - at recent SURG meeting approval given for ALL patients 60 or over so that
+--  they have controls
 
 --  DEMOGRAPHIC DATA 
 --  PatientId, YearOfBirth, Sex, Ethnicity, Townsend index, Townsend Quintile, LSOA, MonthOfDeath, YearOfDeath
@@ -23,12 +26,18 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+DECLARE @StartDate datetime;
+SET @StartDate = '2019-01-01';
+
 -- Set the temp end date until new legal basis
 DECLARE @TEMPRQ038EndDate datetime;
 SET @TEMPRQ038EndDate = '2022-06-01';
 
 -- Build the main cohort
 --> EXECUTE query-build-rq038-cohort.sql
+
+-- Now get all people with COVID positive test
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:SharedCare.GP_Events
 
 -- Now the other stuff we need
 --> EXECUTE query-patient-sex.sql
@@ -38,7 +47,10 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 -- Get the admissions and lengths of stay post covid tests
 --> EXECUTE query-get-admissions-and-length-of-stay-post-covid.sql all-patients:false
 
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+-- To optimise the patient event data table further (as there are so many patients),
+-- we can initially split it into 3:
+-- 1. Patients with a SuppliedCode in our list
+IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
@@ -46,24 +58,112 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
   [Value]
-INTO #PatientEventData
+INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData3
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2
+UNION
+SELECT * FROM #PatientEventData3;
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- 1. Patients with a SuppliedCode in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData1') IS NOT NULL DROP TABLE #PatientMedicationData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(MedicationDate AS DATE) AS MedicationDate,
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
-INTO #PatientMedicationData
+INTO #PatientMedicationData1
 FROM [SharedCare].GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate < @TEMPRQ038EndDate
-AND MedicationDate >= @MedicationsFromDate;
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND MedicationDate < @TEMPRQ038EndDate;
+-- 1m
+
+-- 2. Patients with a FK_Patient_Link_ID in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData2') IS NOT NULL DROP TABLE #PatientMedicationData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData2
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND MedicationDate < @TEMPRQ038EndDate;
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientMedicationData3') IS NOT NULL DROP TABLE #PatientMedicationData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData3
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND MedicationDate < @TEMPRQ038EndDate;
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT * INTO #PatientMedicationData FROM #PatientMedicationData1
+UNION
+SELECT * FROM #PatientMedicationData2
+UNION
+SELECT * FROM #PatientMedicationData3;
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
 
 --> EXECUTE query-patients-with-post-covid-syndrome.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
@@ -75,7 +175,7 @@ AND MedicationDate >= @MedicationsFromDate;
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:copd version:1 temp-table-name:#PatientDiagnosisCOPD
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:asthma version:1 temp-table-name:#PatientDiagnosisAsthma
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:dementia version:1 temp-table-name:#PatientDiagnosisDementia
---> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosis
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:severe-mental-illness version:1 temp-table-name:#PatientDiagnosisSMI
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:myocardial-infarction version:1 temp-table-name:#PatientDiagnosisMI
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:angina version:1 temp-table-name:#PatientDiagnosisAngina
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:heart-failure version:1 temp-table-name:#PatientDiagnosisHeartFailure
@@ -113,13 +213,13 @@ AND MedicationDate >= @MedicationsFromDate;
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM SharedCare.COVID19
-WHERE DeathWithin28Days = 'Y'
-AND (
+WHERE (
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ037EndDate;
+AND DATEDIFF(day,EventDate,DeathDate) <= 28
+AND EventDate < '2022-06-01';
 
 SELECT 
   pat.FK_Patient_Link_ID AS PatientId,
@@ -129,8 +229,8 @@ SELECT
   town.TownsendScoreHigherIsMoreDeprived,
   town.TownsendQuintileHigherIsMoreDeprived,
   lsoa.LSOA_Code AS LSOA,
-  CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
-  CASE WHEN pl.DeathDate < @TEMPRQ020EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
+  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
+  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
   covid.FirstCovidPositiveDate, admission.FirstAdmissionPost1stCOVIDTest, los.LengthOfStay1stAdmission1stCOVIDTest,
   covid.SecondCovidPositiveDate, admission.FirstAdmissionPost2ndCOVIDTest, los.LengthOfStay1stAdmission2ndCOVIDTest,
   covid.ThirdCovidPositiveDate, admission.FirstAdmissionPost3rdCOVIDTest, los.LengthOfStay1stAdmission3rdCOVIDTest,
