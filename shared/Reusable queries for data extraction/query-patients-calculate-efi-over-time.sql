@@ -4,10 +4,9 @@
 
 -- OBJECTIVE: To calculate the EFI for all patients and how it has changed over time
 
--- INPUT: Takes three parameters
---	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+-- INPUT: Takes one parameter
 --	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
---	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+-- And assumes there is a temp table #Patients (this can't be run on all patients at present as it takes too long)
 
 -- OUTPUT: One temp tables as follows:
 --	#PatientEFIOverTime (FK_Patient_Link_ID, NumberOfDeficits, DateFrom)
@@ -17,7 +16,7 @@
 
 -- Most of the logic occurs in the following subquery, which is also used
 -- in the query-patients-calculate-efi-on-date.sql query
---> EXECUTE subquery-efi-common.sql all-patients:{param:all-patients} gp-events-table:{param:gp-events-table} gp-medications-table:{param:gp-medications-table}
+--> EXECUTE subquery-efi-common.sql gp-events-table:{param:gp-events-table}
 
 
 -- count on each day
