@@ -491,7 +491,7 @@ AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 -- 1m
 
--- 2. Patients with a FK_Patient_Link_ID in our list
+-- 2. Patients with a FK_Reference_Coding_ID in our list
 IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
 SELECT 
   FK_Patient_Link_ID,
