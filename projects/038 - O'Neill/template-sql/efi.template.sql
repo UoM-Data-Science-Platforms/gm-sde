@@ -2,7 +2,11 @@
 --│ EFI file │
 --└──────────┘
 
--- OUTPUT: Data showing the cumulative deficits for each person over time
+-- OUTPUT: Data showing the cumulative deficits for each person over time with
+--         the following fields:
+--  - PatientId
+--  - DateFrom - the date from which this number of deficits occurred
+--  - NumberOfDeficits - the number of deficits on the DateFrom date
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -11,28 +15,81 @@ SET NOCOUNT ON;
 DECLARE @TEMPRQ038EndDate datetime;
 SET @TEMPRQ038EndDate = '2022-06-01';
 
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ038EndDate;
+-- Build the main cohort
+--> EXECUTE query-build-rq038-cohort.sql
 
--- First get all people with COVID positive test
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:SharedCare.GP_Events
+-- Forces the code lists to insert here, so we can reference them in the below queries
+--> CODESET efi-arthritis:1
 
--- Table of all patients with COVID at least once
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
+-- To optimise the patient event data table further (as there are so many patients),
+-- we can initially split it into 3:
+-- 1. Patients with a SuppliedCode in our list
+IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData1
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+-- 1m
 
---> EXECUTE query-patients-calculate-efi-over-time.sql all-patients:false gp-events-table:SharedCare.GP_Events gp-medications-table:SharedCare.GP_Medications
+-- 2. Patients with a FK_Reference_Coding_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+--29s
+
+-- 3. Patients with a FK_Reference_SnomedCT_ID in our list
+IF OBJECT_ID('tempdb..#PatientEventData3') IS NOT NULL DROP TABLE #PatientEventData3;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData3
+FROM [SharedCare].GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+AND EventDate < '2022-06-01'
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2
+UNION
+SELECT * FROM #PatientEventData3;
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- Get the EFI over time
+--> EXECUTE query-patients-calculate-efi-over-time.sql gp-events-table:#PatientEventData
 
 -- Finally we just select from the EFI table with the required fields
 SELECT
-  FK_Patient_Link_ID,
+  FK_Patient_Link_ID AS PatientId,
   DateFrom,
   NumberOfDeficits
 FROM #PatientEFIOverTime

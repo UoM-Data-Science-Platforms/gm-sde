@@ -1,0 +1,27 @@
+N310.11	Paget's disease of bone
+N310D00	Paget's disease-pelvis
+N310G00	Paget's disease-tibia
+N310z00	Paget's disease NOS
+N310.00	Osteitis deformans - Paget's disease of the bone
+N310000	Paget's disease-cervical spine
+N310P00	Paget's disease-skull
+N31..00	Osteitis deformans/osteopathies associated with diseases EC
+N310200	Paget's disease-lumbar spine
+N310y00	Paget's disease OS
+N311.00	Osteitis deformans associated with diseases EC
+N310300	Paget's disease-sacrum
+N310F00	Paget's disease-patella
+N310E00	Paget's disease-femur
+BBV5.00	[M]Osteosarcoma in Paget's disease of bone
+N310700	Paget's disease-humerus
+N310800	Paget's disease-radius
+N310x00	Paget's disease-multiple sites
+N310500	Paget's disease-clavicle
+N310600	Paget's disease-scapula
+N310100	Paget's disease-thoracic spine
+N310H00	Paget's disease-fibula
+N310900	Paget's disease-ulna
+N310A00	Paget's disease-carpal bone
+N311000	Osteitis deformans in neoplastic disease
+N310L00	Paget's disease-other tarsal bone
+NyuCD00	[X]Osteitis deformans in neoplastic diseases classified elsewhere

@@ -6,7 +6,7 @@
 --						duplication of code in the template scripts. The cohort is any
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
-
+--            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
 -- INPUT: A variable:
 --	@TEMPRQ038EndDate - the date that we will not get records beyond
 
@@ -25,12 +25,9 @@ FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
--- First get all people with COVID positive test
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
-
 -- Table of all patients with COVID at least once
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #CovidPatientsMultipleDiagnoses
+SELECT FK_Patient_Link_ID INTO #Patients FROM #PatientsToInclude
 
 --> EXECUTE query-patient-year-of-birth.sql
 
