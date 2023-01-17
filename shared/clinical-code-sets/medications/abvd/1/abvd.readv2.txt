@@ -1,0 +1,33 @@
+h22..00	BLEOMYCIN
+h221.00	BLEOMYCIN 15units injection (pdr for recon)
+h221.11	BLEOMYCIN 15,000iu injection (pdr for recon)
+h222.00	BLEO-KYOWA 15,000iu powder for solution for injection
+h23..00	DOXORUBICIN HYDROCHLORIDE
+h231.00	*ADRIAMYCIN 10mg injection
+h232.00	*ADRIAMYCIN 50mg injection
+h233.00	DOXORUBICIN RAPID DISSOL 10mg injection (pdr for recon)
+h234.00	DOXORUBICIN RAPID DISSOL 50mg injection (pdr for recon)
+h235.00	DOXORUBICIN HCL 10mg injection (pdr for recon)
+h236.00	DOXORUBICIN HCL 50mg injection (pdr for recon)
+h237.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 20mg/10mL infusion concentrate
+h238.00	CAELYX 20mg/10mL infusion concentrate
+h239.00	DOXORUBICIN SOLUTION 10mg/5mL Cytosafe injection vials
+h23A.00	DOXORUBICIN SOLUTION 50mg/25mL Cytosafe injection vials
+h23B.00	CAELYX 50mg/25mL infusion concentrate
+h23C.00	DOXORUBICIN SOLUTION 200mg/100mL Cytosafe injection vial
+h23D.00	MYOCET 50mg injection (pdr for recon)
+h23w.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 50mg injection (pdr for recon)
+h23x.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 50mg/25mL infusion concentrate
+h23y.00	DOXORUBICIN HCL 10mg solution for injection
+h23z.00	DOXORUBICIN HCL 50mg solution for injection
+h42..00	VINBLASTINE SULFATE
+h42..11	VINBLASTINE SULPHATE
+h421.00	*VINBLASTINE 10mg injection
+h422.00	VELBE 10mg injection (pdr for recon)
+h423.00	VINBLASTINE 10mg injection (pdr for recon)
+h424.00	VINBLASTINE 10mg/10mL solution for injection
+h54..00	DACARBAZINE
+h541.00	DTIC-DOME 100mg injection (pdr for recon)
+h542.00	DTIC-DOME 200mg injection (pdr for recon)
+h54y.00	DACARBAZINE 100mg injection (pdr for recon)
+h54z.00	DACARBAZINE 200mg injection (pdr for recon)

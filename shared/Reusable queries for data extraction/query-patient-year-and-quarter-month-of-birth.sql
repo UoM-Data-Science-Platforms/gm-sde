@@ -1,5 +1,5 @@
-﻿--┌────────────────────────────────┐
---│ Year and quarter month of birth │
+--┌────────────────────────────────┐
+--│ Year and quarter month of birth│
 --└────────────────────────────────┘
 
 -- OBJECTIVE: To get the year of birth for each patient.
