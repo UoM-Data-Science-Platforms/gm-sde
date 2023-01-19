@@ -449,7 +449,7 @@ async function downloadFileIfNotAlready(uri, date, filePrefix, force) {
     }
     console.log(`Loading ${filePrefix} data for ${readableDate(date)} from NHS digital website...`);
     const dataToCache = await rp({ uri });
-    fs.writeFileSync(rawFile, dataToCache);
+    fs.writeFileSync(rawFile, dataToCache.replace(/\r\n/g, '\n'));
     console.log('File saved to local cache.');
   }
 }
