@@ -26,6 +26,13 @@ if (instruction === 'download') {
   getDataFileUrls(datesToGetDataFor).then((fileUrls) => {
     getDataFiles(fileUrls, true);
   });
+} else if (instruction === 'process') {
+  // Combine the file chunks into the output
+  processDataFiles(true);
+} else if (instruction === 'chunk') {
+  // Combine the file chunks into the output
+  const output = combineFiles();
+  saveChunks(output);
 } else if (instruction === 'combine') {
   // Combine the file chunks into the output
   combineChunks();

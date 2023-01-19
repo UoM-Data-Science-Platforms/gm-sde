@@ -162,7 +162,7 @@ const fileFormat = {
 
 function processBothSex5YearFile(fileData, fileName) {
   console.log(`Processing male/female data for ${fileName}`);
-  const rows = fileData.split('\r\n');
+  const rows = fileData.split('\n');
   const header = rows[0];
   let format;
   switch (header.toLowerCase()) {
@@ -266,7 +266,7 @@ function processBothSex5YearFile(fileData, fileName) {
 
 function processBothSexFile(fileData, fileName) {
   console.log(`Processing male/female data for ${fileName}`);
-  const rows = fileData.split('\r\n');
+  const rows = fileData.split('\n');
   const header = rows[0];
   let format;
   switch (header.toLowerCase()) {
@@ -382,7 +382,7 @@ function processBothSexFile(fileData, fileName) {
 function processSingleSexFile(fileData, year, month, fileName, maleOrFemale) {
   console.log(`Processing ${maleOrFemale} data for ${fileName}`);
   return fileData
-    .split('\r\n')
+    .split('\n')
     .slice(1)
     .filter((x) => x.length > 5)
     .map((x) => {
@@ -600,7 +600,7 @@ function getCCGLookup() {
   const file = join(CACHED_DIR, '2017', 'raw', 'single-2017-01.csv');
   const data = fs.readFileSync(file, 'utf8');
   data
-    .split('\r\n')
+    .split('\n')
     .slice(1)
     .filter((x) => x.length > 5)
     .forEach((row) => {
@@ -623,6 +623,7 @@ function saveChunks(outputData) {
   for (let i = 0; startRow < outputData.length; i++) {
     const fileName = join(CHUNK_DIR, `gp-population-data-by-sex-and-age-chunk${i}.csv`);
     const data = outputData.slice(startRow, startRow + chunkSize);
+    console.log(`Writing chunk ${i}. Will contain ${data.length} rows.`);
     fs.writeFileSync(fileName, data.join('\n'));
     startRow += chunkSize;
   }
