@@ -3,14 +3,15 @@
   for each age and sex in each practice on a month by month basis. This script attempts to simplify
   the process of downloading the monthly spreadsheets
 */
-const fs = require('fs');
-const { join } = require('path');
 const {
   populateDateArray,
   getDataFileUrls,
   getDataFiles,
   processDataFiles,
   combineFiles,
+  saveChunks,
+  combineChunks,
+  compressOutput,
 } = require('./lib');
 
 // Currently the earliest these go back to is 2013
@@ -25,17 +26,20 @@ if (instruction === 'download') {
   getDataFileUrls(datesToGetDataFor).then((fileUrls) => {
     getDataFiles(fileUrls, true);
   });
+} else if (instruction === 'combine') {
+  // Combine the file chunks into the output
+  combineChunks();
+} else if (instruction === 'compress') {
+  // Compress the output file into a zip file
+  compressOutput();
 } else {
   getDataFileUrls(datesToGetDataFor)
     .then(getDataFiles)
     .then(processDataFiles)
     .then(combineFiles)
-    .then((outputData) => {
-      fs.writeFileSync(
-        join(__dirname, 'output', 'gp-population-data-by-sex-and-age.csv'),
-        'Year,Month,LocalityId,PracticeId,Sex,Age,Frequency\n' + outputData.join('\n')
-      );
-    })
+    .then(saveChunks)
+    .then(combineChunks)
+    .then(compressOutput)
     .catch((err) => {
       console.log(err);
     });

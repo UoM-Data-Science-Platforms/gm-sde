@@ -2,8 +2,14 @@ const rp = require('request-promise');
 const cheerio = require('cheerio');
 const { join } = require('path');
 const fs = require('fs');
+const archiver = require('archiver');
 
 const CACHED_DIR = join(__dirname, 'cached-data-files');
+const OUTPUT_DIR = join(__dirname, 'output');
+const CHUNK_DIR = join(OUTPUT_DIR, 'chunks');
+const OUTPUT_FILE_NAME = 'gp-population-data-by-sex-and-age.csv';
+const OUTPUT_FILE = join(OUTPUT_DIR, OUTPUT_FILE_NAME);
+const OUTPUT_FILE_ZIPPED = join(OUTPUT_DIR, 'gp-population-data-by-sex-and-age.zip');
 //
 const months = [
   'january',
@@ -610,10 +616,84 @@ function getCCGLookup() {
   return ccgLookup;
 }
 
+function saveChunks(outputData) {
+  // GitHub has a limit on file size, so let's keep this in chunks of ~50mb
+  const chunkSize = 2000000; // 2M rows means file ~50mb
+  let startRow = 0;
+  for (let i = 0; startRow < outputData.length; i++) {
+    const fileName = join(CHUNK_DIR, `gp-population-data-by-sex-and-age-chunk${i}.csv`);
+    const data = outputData.slice(startRow, startRow + chunkSize);
+    fs.writeFileSync(fileName, data.join('\n'));
+    startRow += chunkSize;
+  }
+}
+
+function combineChunks() {
+  console.log('About to combine the chunked files.');
+  const chunkFilenames = fs.readdirSync(CHUNK_DIR);
+  console.log(`${chunkFilenames.length} chunks found.`);
+  if (chunkFilenames.length === 0) {
+    console.log('I expected at least one chunk.');
+    process.exit(1);
+  }
+  let data = fs.readFileSync(join(CHUNK_DIR, chunkFilenames[0]), 'utf8');
+  chunkFilenames.slice(1).forEach((filename, i) => {
+    console.log(`Chunk ${i} processed.`);
+    data += '\n' + fs.readFileSync(join(CHUNK_DIR, filename), 'utf8');
+  });
+  console.log(`Chunk ${chunkFilenames.length - 1} processed.`);
+  fs.writeFileSync(OUTPUT_FILE, data);
+  console.log(`Output file written to: ${OUTPUT_FILE}`);
+}
+
+async function compressOutput() {
+  console.log('About to compress the output.');
+
+  const output = fs.createWriteStream(OUTPUT_FILE_ZIPPED);
+  const archive = archiver('zip', {
+    zlib: { level: 9 }, // Sets the compression level.
+  });
+  archive.append(fs.createReadStream(OUTPUT_FILE), { name: OUTPUT_FILE_NAME });
+
+  return new Promise((resolve) => {
+    // listen for all archive data to be written
+    // 'close' event is fired only when a file descriptor is involved
+    output.on('close', function () {
+      console.log(archive.pointer() + ' total bytes');
+      console.log(`Output written to: ${OUTPUT_FILE_ZIPPED}`);
+      resolve();
+    });
+
+    // good practice to catch warnings (ie stat failures and other non-blocking errors)
+    archive.on('warning', function (err) {
+      if (err.code === 'ENOENT') {
+        // log warning
+        console.log(err);
+        resolve();
+      } else {
+        // throw error
+        throw err;
+      }
+    });
+
+    // good practice to catch this error explicitly
+    archive.on('error', function (err) {
+      throw err;
+    });
+
+    // pipe archive data to the file
+    archive.pipe(output);
+    archive.finalize();
+  });
+}
+
 module.exports = {
   populateDateArray,
   getDataFileUrls,
   getDataFiles,
   processDataFiles,
   combineFiles,
+  saveChunks,
+  combineChunks,
+  compressOutput,
 };
