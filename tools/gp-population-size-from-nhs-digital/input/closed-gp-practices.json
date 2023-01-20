@@ -1,0 +1,557 @@
+{
+  "description": "A file to keep track of closed practices. This is used to help validate the data.",
+  "practices": {
+    "C81077": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81077"
+    },
+    "C81081": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81081"
+    },
+    "C81106": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81106"
+    },
+    "C81615": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81615"
+    },
+    "C81640": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81640"
+    },
+    "C81660": {
+      "lastYear": 2021,
+      "lastMonth": 11,
+      "reason": "Glossop no longer in GM",
+      "source": "https://healthcentredatabase.co.uk/records/view/C81660"
+    },
+    "P82657": {
+      "lastYear": 2013,
+      "lastMonth": 10,
+      "reason": "Closed in 2014",
+      "source": "https://healthcentredatabase.co.uk/records/view/P82657"
+    },
+    "P83008": {
+      "lastYear": 2018,
+      "lastMonth": 11,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P83008/"
+    },
+    "P83019": {
+      "lastYear": 2018,
+      "lastMonth": 11,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P83019"
+    },
+    "P83020": {
+      "lastYear": 2021,
+      "lastMonth": 11,
+      "reason": "Possibly closed in 2021??",
+      "source": "https://openprescribing.net/practice/P83020"
+    },
+    "P83023": {
+      "lastYear": 2018,
+      "lastMonth": 7,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P83023"
+    },
+    "P83026": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P83026"
+    },
+    "P83029": {
+      "lastYear": 2018,
+      "lastMonth": 7,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P83029"
+    },
+    "P83030": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P83030"
+    },
+    "P84057": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P84057"
+    },
+    "P84063": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P84063"
+    },
+    "P84627": {
+      "lastYear": 2015,
+      "lastMonth": 10,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P84627"
+    },
+    "P84659": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P84659"
+    },
+    "P84662": {
+      "lastYear": 2013,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/P84662"
+    },
+    "P84668": {
+      "lastYear": 2013,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/P84668"
+    },
+    "P84676": {
+      "lastYear": 2016,
+      "lastMonth": 10,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P84676"
+    },
+    "P84677": {
+      "lastYear": 2015,
+      "lastMonth": 1,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P84677"
+    },
+    "P85001": {
+      "lastYear": 2021,
+      "lastMonth": 12,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P85001"
+    },
+    "P85006": {
+      "lastYear": 2020,
+      "lastMonth": 8,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P85006"
+    },
+    "P85008": {
+      "lastYear": 2022,
+      "lastMonth": 8,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P85008"
+    },
+    "P85025": {
+      "lastYear": 2018,
+      "lastMonth": 8,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P85025"
+    },
+    "P85029": {
+      "lastYear": 2014,
+      "lastMonth": 4,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P85029"
+    },
+    "P85602": {
+      "lastYear": 2022,
+      "lastMonth": 7,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P85602"
+    },
+    "P85603": {
+      "lastYear": 2015,
+      "lastMonth": 10,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P85603"
+    },
+    "P85607": {
+      "lastYear": 2021,
+      "lastMonth": 6,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P85607"
+    },
+    "P85613": {
+      "lastYear": 2020,
+      "lastMonth": 3,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P85613"
+    },
+    "P85620": {
+      "lastYear": 2022,
+      "lastMonth": 7,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P85620"
+    },
+    "P86605": {
+      "lastYear": 2016,
+      "lastMonth": 10,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P86605"
+    },
+    "P87003": {
+      "lastYear": 2020,
+      "lastMonth": 7,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87003"
+    },
+    "P87014": {
+      "lastYear": 2020,
+      "lastMonth": 5,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87014"
+    },
+    "P87036": {
+      "lastYear": 2020,
+      "lastMonth": 3,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87036"
+    },
+    "P87039": {
+      "lastYear": 2020,
+      "lastMonth": 7,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87039"
+    },
+    "P87629": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P87629"
+    },
+    "P87632": {
+      "lastYear": 2013,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/P87632"
+    },
+    "P87637": {
+      "lastYear": 2013,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/P87637"
+    },
+    "P87641": {
+      "lastYear": 2015,
+      "lastMonth": 4,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P87641"
+    },
+    "P87652": {
+      "lastYear": 2019,
+      "lastMonth": 7,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/P87652"
+    },
+    "P87659": {
+      "lastYear": 2020,
+      "lastMonth": 7,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87659"
+    },
+    "P87660": {
+      "lastYear": 2020,
+      "lastMonth": 6,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P87660"
+    },
+    "P87668": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P87668"
+    },
+    "P88001": {
+      "lastYear": 2015,
+      "lastMonth": 1,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P88001"
+    },
+    "P88004": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P88004"
+    },
+    "P88010": {
+      "lastYear": 2018,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P88010"
+    },
+    "P88028": {
+      "lastYear": 2018,
+      "lastMonth": 3,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P88028"
+    },
+    "P88033": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P88033"
+    },
+    "P88034": {
+      "lastYear": 2022,
+      "lastMonth": 9,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P88034"
+    },
+    "P88600": {
+      "lastYear": 2020,
+      "lastMonth": 12,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P88600"
+    },
+    "P88604": {
+      "lastYear": 2016,
+      "lastMonth": 10,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P88604"
+    },
+    "P88607": {
+      "lastYear": 2022,
+      "lastMonth": 6,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P88607"
+    },
+    "P88610": {
+      "lastYear": 2022,
+      "lastMonth": 4,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P88610"
+    },
+    "P88617": {
+      "lastYear": 2019,
+      "lastMonth": 2,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/P88617"
+    },
+    "P88618": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P88618"
+    },
+    "P88620": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P88620"
+    },
+    "P88624": {
+      "lastYear": 2019,
+      "lastMonth": 7,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/P88624"
+    },
+    "P88628": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P88628"
+    },
+    "P88633": {
+      "lastYear": 2016,
+      "lastMonth": 10,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P88633"
+    },
+    "P89017": {
+      "lastYear": 2018,
+      "lastMonth": 8,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P89017"
+    },
+    "P89019": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P89019"
+    },
+    "P89027": {
+      "lastYear": 2016,
+      "lastMonth": 10,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P89027"
+    },
+    "P89033": {
+      "lastYear": 2018,
+      "lastMonth": 6,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P89033"
+    },
+    "P89616": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P89616"
+    },
+    "P91025": {
+      "lastYear": 2015,
+      "lastMonth": 10,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P91025"
+    },
+    "P91027": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/P91027"
+    },
+    "P91030": {
+      "lastYear": 2013,
+      "lastMonth": 10,
+      "reason": "Closed in 2015",
+      "source": "https://openprescribing.net/practice/P91030"
+    },
+    "P91032": {
+      "lastYear": 2021,
+      "lastMonth": 12,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P91032"
+    },
+    "P91605": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P91605"
+    },
+    "P91615": {
+      "lastYear": 2020,
+      "lastMonth": 7,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P91615"
+    },
+    "P91619": {
+      "lastYear": 2021,
+      "lastMonth": 12,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P91619"
+    },
+    "P91625": {
+      "lastYear": 2021,
+      "lastMonth": 12,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P91625"
+    },
+    "P91630": {
+      "lastYear": 2013,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/P91630"
+    },
+    "P92035": {
+      "lastYear": 2021,
+      "lastMonth": 9,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P92035"
+    },
+    "P92606": {
+      "lastYear": 2015,
+      "lastMonth": 1,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P92606"
+    },
+    "P92616": {
+      "lastYear": 2022,
+      "lastMonth": 10,
+      "reason": "Classed as DORMANT - suspect recently closed",
+      "source": "https://openprescribing.net/practice/P92616"
+    },
+    "P92619": {
+      "lastYear": 2018,
+      "lastMonth": 11,
+      "reason": "Closed in 2019",
+      "source": "https://openprescribing.net/practice/P92619"
+    },
+    "P92623": {
+      "lastYear": 2020,
+      "lastMonth": 9,
+      "reason": "Closed in 2022",
+      "source": "https://openprescribing.net/practice/P92623"
+    },
+    "P92632": {
+      "lastYear": 2015,
+      "lastMonth": 1,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/P92632"
+    },
+    "P92643": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P92643"
+    },
+    "P92652": {
+      "lastYear": 2020,
+      "lastMonth": 5,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P92652"
+    },
+    "Y00334": {
+      "lastYear": 2016,
+      "lastMonth": 1,
+      "reason": "Closed in 2017",
+      "source": "https://openprescribing.net/practice/Y00334"
+    },
+    "Y00490": {
+      "lastYear": 2014,
+      "lastMonth": 4,
+      "reason": "This code is the violent patient service for the GP P84054",
+      "source": "https://openprescribing.net/practice/Y00490"
+    },
+    "Y00618": {
+      "lastYear": 2014,
+      "lastMonth": 7,
+      "reason": "This is now a walk in centre. Presumably it was a GP back in 2014.",
+      "source": "https://openprescribing.net/practice/Y00618"
+    },
+    "Y02129": {
+      "lastYear": 2019,
+      "lastMonth": 12,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/Y02129"
+    },
+    "Y02134": {
+      "lastYear": 2014,
+      "lastMonth": 4,
+      "reason": "Closed in 2014",
+      "source": "https://openprescribing.net/practice/Y02134"
+    },
+    "Y02660": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/Y02660"
+    },
+    "Y02719": {
+      "lastYear": 2015,
+      "lastMonth": 10,
+      "reason": "Closed in 2016",
+      "source": "https://openprescribing.net/practice/Y02719"
+    },
+    "Y02887": {
+      "lastYear": 2018,
+      "lastMonth": 8,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/Y02887"
+    },
+    "Y03364": {
+      "lastYear": 2017,
+      "lastMonth": 1,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/Y03364"
+    }
+  }
+}

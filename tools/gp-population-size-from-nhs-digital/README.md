@@ -7,8 +7,7 @@ If someone wants to know the size of the population of each GP practice broken d
 If that file doesn't exist, then run the following:
 
 ```
-node main.js combine
-node main.js compress
+node main.js generate
 ```
 
 If you need to update the file with more recent data then execute:
@@ -49,6 +48,7 @@ It is possible to run a single component of the above pipeline, as follows:
 - To load the processed files and create the output file chunks execute: `node main.js chunk`
 - To combine the chunks into a single file execute: `node main.js combine`
 - To compress the output file execute: `node main.js compress`
+- To combine the chunks and compress the output at the same time execute: `node main.js generate`
 
 ## Notes
 

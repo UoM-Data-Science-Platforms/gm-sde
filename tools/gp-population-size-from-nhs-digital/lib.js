@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const { join } = require('path');
 const fs = require('fs');
 const archiver = require('archiver');
+const chalk = require('chalk');
 
 const CACHED_DIR = join(__dirname, 'cached-data-files');
 const OUTPUT_DIR = join(__dirname, 'output');
@@ -637,12 +638,11 @@ function combineChunks() {
     console.log('I expected at least one chunk.');
     process.exit(1);
   }
-  let data = fs.readFileSync(join(CHUNK_DIR, chunkFilenames[0]), 'utf8');
-  chunkFilenames.slice(1).forEach((filename, i) => {
-    console.log(`Chunk ${i} processed.`);
+  let data = 'Year,Month,LocalityId,PracticeId,Sex,Age,Frequency';
+  chunkFilenames.forEach((filename, i) => {
     data += '\n' + fs.readFileSync(join(CHUNK_DIR, filename), 'utf8');
+    console.log(`Chunk ${i} processed.`);
   });
-  console.log(`Chunk ${chunkFilenames.length - 1} processed.`);
   fs.writeFileSync(OUTPUT_FILE, data);
   console.log(`Output file written to: ${OUTPUT_FILE}`);
 }
@@ -688,6 +688,243 @@ async function compressOutput() {
   });
 }
 
+function validate() {
+  // First we check the output file exists
+  if (!fs.existsSync(OUTPUT_FILE)) {
+    console.log(
+      'Validation only works if the output file is present. Please execute: node main.js generate'
+    );
+    process.exit(1);
+  }
+  const data = {};
+  const practiceCCG = {};
+  const dates = {};
+  fs.readFileSync(OUTPUT_FILE, 'utf8')
+    .split('\n')
+    .forEach((x, i) => {
+      if (i === 0) return; // header row
+      if (i % 10000 === 0) {
+        if (process.stdout.clearLine) {
+          process.stdout.clearLine();
+          process.stdout.cursorTo(0);
+          process.stdout.write(`${i} rows processed...`);
+        } else if (i % 1000000 === 0) {
+          // for node debug mode when the above does not exist
+          console.log(`${i} rows processed...`);
+        }
+      }
+      const [year, month, ccgId, practiceId, sex, age, freq] = x.split(',');
+      if (!data[practiceId]) data[practiceId] = {};
+      if (!data[practiceId][year]) data[practiceId][year] = {};
+      if (!data[practiceId][year][month]) data[practiceId][year][month] = { M: 0, F: 0 };
+      data[practiceId][year][month][sex] += +freq;
+
+      if (!practiceCCG[practiceId]) practiceCCG[practiceId] = {};
+      if (!practiceCCG[practiceId][ccgId])
+        practiceCCG[practiceId][ccgId] = {
+          f: { year: +year, month: +month },
+          l: { year: +year, month: +month },
+        };
+      else if (
+        year * 12 + month <
+        practiceCCG[practiceId][ccgId].f.year * 12 + practiceCCG[practiceId][ccgId].f.month
+      )
+        practiceCCG[practiceId][ccgId].f = { year: +year, month: +month };
+      else if (
+        year * 12 + month >
+        practiceCCG[practiceId][ccgId].l.year * 12 + practiceCCG[practiceId][ccgId].l.month
+      )
+        practiceCCG[practiceId][ccgId].l = { year: +year, month: +month };
+
+      if (!dates[year]) dates[year] = {};
+      if (!dates[year][month]) dates[year][month] = true;
+    });
+
+  console.log('\nAll rows processed.\n');
+
+  const firstYear = Math.min(...Object.keys(dates).map(Number));
+  const firstMonth = Math.min(...Object.keys(dates[firstYear]).map(Number));
+  const lastYear = Math.max(...Object.keys(dates).map(Number));
+  const lastMonth = Math.max(...Object.keys(dates[lastYear]).map(Number));
+
+  const closedPractices = JSON.parse(
+    fs.readFileSync(join(__dirname, 'input', 'closed-gp-practices.json'))
+  ).practices;
+
+  const counters = {
+    oneCCGAllDates: 0,
+    oneCCGClosed: 0,
+    oneCCGMissingDates: 0,
+    populationIncreases: 0,
+    populationDecreases: 0,
+    populationDecreasesPracticeClosure: 0,
+    populationIncreaseAndDecreases: 0,
+    populationIncreaseAndDecreasesPracticeClosure: 0,
+  };
+  // Check GP practice stays in same CCG
+  Object.keys(practiceCCG).forEach((practiceId) => {
+    if (Object.keys(practiceCCG[practiceId]).length === 1) {
+      // Same CCG for all data points
+      const ccgId = Object.keys(practiceCCG[practiceId])[0];
+      if (
+        practiceCCG[practiceId][ccgId].f.year === firstYear &&
+        practiceCCG[practiceId][ccgId].f.month === firstMonth &&
+        practiceCCG[practiceId][ccgId].l.year === lastYear &&
+        practiceCCG[practiceId][ccgId].l.month === lastMonth
+      ) {
+        // Practice has one ccg from start to end
+        counters.oneCCGAllDates++;
+      } else if (
+        closedPractices[practiceId] &&
+        closedPractices[practiceId].lastYear === practiceCCG[practiceId][ccgId].l.year &&
+        closedPractices[practiceId].lastMonth === practiceCCG[practiceId][ccgId].l.month
+      ) {
+        // It's a closed practice that we know about
+        counters.oneCCGClosed++;
+      } else {
+        counters.oneCCGMissingDates++;
+        console.log(
+          `The practice ${practiceId} has no data after ${practiceCCG[practiceId][ccgId].l.year}-${practiceCCG[practiceId][ccgId].l.month}.`
+        );
+        console.log(
+          `  - Check https://openprescribing.net/practice/${practiceId} to see if the practice has closed or is classed as dormant.`
+        );
+        console.log(
+          '  - Then you can update the input/closed-gp-practices.json to prevent this warning.'
+        );
+      }
+    } else {
+      // More than one CCG
+      // TODO
+    }
+  });
+
+  if (counters.oneCCGMissingDates === 0) {
+    console.log(chalk.bold.white.bgGreen('Practice check successful.'));
+    console.log('There were:\n');
+  } else {
+    console.log(chalk.bold.white.bgRed(`Practice check warning:\n`));
+    console.log('There were:\n');
+    console.log(
+      `  - ${counters.oneCCGMissingDates} practices belonging to a single CCG with missing data and we don't think they are closed`
+    );
+  }
+
+  console.log(
+    `  - ${counters.oneCCGAllDates} practices belonging to a single CCG with data for all dates`
+  );
+  console.log(
+    `  - ${counters.oneCCGClosed} practices belonging to a single CCG that have closed and so are missing data (which is expected)`
+  );
+
+  const populationJumps = {};
+
+  Object.keys(data).forEach((practiceId) => {
+    const countsOverTime = Object.keys(data[practiceId])
+      .map(Number)
+      .sort()
+      .map((year) =>
+        Object.keys(data[practiceId][year])
+          .map(Number)
+          .sort((a, b) => a - b)
+          .map((month) => ({
+            ...data[practiceId][year][month],
+            year,
+            month,
+          }))
+      )
+      .flat();
+
+    let isIncrease = false;
+    let isDecrease = false;
+
+    for (let i = 0; i < countsOverTime.length - 1; i++) {
+      // Record the number of increases of 20% or more, and number
+      // of decreases of 20% or more.
+
+      if (
+        (countsOverTime[i + 1].M +
+          countsOverTime[i + 1].F -
+          countsOverTime[i].M -
+          countsOverTime[i].F) /
+          (countsOverTime[i].M + countsOverTime[i].F) >
+        0.2
+      ) {
+        isIncrease = true;
+        // 20% increase
+        if (!populationJumps[practiceId])
+          populationJumps[practiceId] = { messages: [], increases: 0, decreases: 0 };
+
+        const msg = `Total population increased from ${countsOverTime[i].M} in ${readableDate(
+          new Date(countsOverTime[i].year, countsOverTime[i].month - 1)
+        )} to ${countsOverTime[i + 1].M} in ${readableDate(
+          new Date(countsOverTime[i + 1].year, countsOverTime[i + 1].month - 1)
+        )}`;
+        populationJumps[practiceId].messages.push(msg);
+        populationJumps[practiceId].increases += 1;
+      }
+
+      if (
+        (countsOverTime[i + 1].M +
+          countsOverTime[i + 1].F -
+          countsOverTime[i].M -
+          countsOverTime[i].F) /
+          (countsOverTime[i].M + countsOverTime[i].F) <
+        -0.2
+      ) {
+        isDecrease = true;
+        // 20% decrease
+        if (!populationJumps[practiceId])
+          populationJumps[practiceId] = { messages: [], increases: 0, decreases: 0 };
+
+        const msg = `Total population decreased from ${countsOverTime[i].M} in ${readableDate(
+          new Date(countsOverTime[i].year, countsOverTime[i].month - 1)
+        )} to ${countsOverTime[i + 1].M} in ${readableDate(
+          new Date(countsOverTime[i + 1].year, countsOverTime[i + 1].month - 1)
+        )}`;
+        populationJumps[practiceId].messages.push(msg);
+        populationJumps[practiceId].decreases += 1;
+      }
+    }
+    if (isIncrease && isDecrease) {
+      if (closedPractices[practiceId]) counters.populationIncreaseAndDecreasesPracticeClosure++;
+      else counters.populationIncreaseAndDecreases++;
+    } else if (isIncrease) counters.populationIncreases++;
+    else if (isDecrease) {
+      if (closedPractices[practiceId]) counters.populationDecreasesPracticeClosure++;
+      else counters.populationDecreases++;
+    }
+  });
+
+  Object.keys(populationJumps).forEach((practiceId) => {
+    console.log(
+      `${chalk.bold(practiceId)}${
+        closedPractices[practiceId] ? ` (${closedPractices[practiceId].reason})` : ''
+      }`
+    );
+    populationJumps[practiceId].messages.forEach((msg) => {
+      console.log(`  - ${msg}`);
+    });
+  });
+
+  console.log('');
+  console.log(
+    `${counters.populationIncreases} practices with sudden population increases (likely practice mergers)`
+  );
+  console.log(
+    `${counters.populationDecreasesPracticeClosure} practices with sudden population decreases - and these practices are marked as closed, so expected`
+  );
+  console.log(
+    `${counters.populationDecreases} practices with sudden population decreases - but these practices are not marked as closed`
+  );
+  console.log(
+    `${counters.populationIncreaseAndDecreasesPracticeClosure} practices with sudden population increases and decreases - and marked as closed, so likely a merger and a closure`
+  );
+  console.log(
+    `${counters.populationIncreaseAndDecreases} practices with sudden population increases and decreases -  but these practices are not marked as closed`
+  );
+}
+
 module.exports = {
   populateDateArray,
   getDataFileUrls,
@@ -697,4 +934,5 @@ module.exports = {
   saveChunks,
   combineChunks,
   compressOutput,
+  validate,
 };

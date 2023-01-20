@@ -12,7 +12,11 @@ const {
   saveChunks,
   combineChunks,
   compressOutput,
+  validate,
 } = require('./lib');
+
+validate();
+process.exit();
 
 // Currently the earliest these go back to is 2013
 let startDate = new Date(2013, 0, 1);
@@ -39,6 +43,13 @@ if (instruction === 'download') {
 } else if (instruction === 'compress') {
   // Compress the output file into a zip file
   compressOutput();
+} else if (instruction === 'generate') {
+  // Compress the output file into a zip file
+  combineChunks();
+  compressOutput();
+} else if (instruction === 'validate') {
+  // Compress the output file into a zip file
+  validate();
 } else {
   getDataFileUrls(datesToGetDataFor)
     .then(getDataFiles)
