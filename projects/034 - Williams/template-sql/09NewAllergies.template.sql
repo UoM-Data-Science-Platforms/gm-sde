@@ -21,7 +21,7 @@ SET NOCOUNT ON;
 -- Create a table with all patients (ID)=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
+FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < '2022-06-01';
 
@@ -37,13 +37,13 @@ FROM #PatientsToInclude;
 IF OBJECT_ID('tempdb..#AllergyAll') IS NOT NULL DROP TABLE #AllergyAll;
 SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, FK_Reference_Coding_ID
 INTO #AllergyAll
-FROM [RLS].[vw_GP_Events]
+FROM SharedCare.GP_Events
 WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AND [Version] = 1)))
-      AND EventDate >= @StartDate AND EventDate < @EndDate;
+      AND EventDate < @EndDate;
 
 
 -- Create the table of new allergy code=============================================================================================================
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS Date
 FROM #AllergyAll
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+WHERE YEAR(EventDate) >= 2019 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 GROUP BY FK_Patient_Link_ID, FK_Reference_Coding_ID;
