@@ -795,7 +795,7 @@ function validate() {
       }
     } else {
       // More than one CCG
-      // TODO
+      TODO;
     }
   });
 
