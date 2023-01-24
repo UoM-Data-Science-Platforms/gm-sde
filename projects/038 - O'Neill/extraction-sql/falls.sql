@@ -342,5 +342,6 @@ WHERE SuppliedCode IN (
   WHERE Concept = 'efi-falls'
   AND VERSION = 1
 )
+AND e.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @TEMPRQ038EndDate
 ORDER BY e.FK_Patient_Link_ID, e.EventDate;

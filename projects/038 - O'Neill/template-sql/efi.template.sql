@@ -36,8 +36,7 @@ INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+AND EventDate < '2022-06-01';
 -- 1m
 
 -- 2. Patients with a FK_Reference_Coding_ID in our list
@@ -53,8 +52,7 @@ INTO #PatientEventData2
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+AND EventDate < '2022-06-01';
 --29s
 
 -- 3. Patients with a FK_Reference_SnomedCT_ID in our list
@@ -70,8 +68,7 @@ INTO #PatientEventData3
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
-AND EventDate < '2022-06-01'
-AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+AND EventDate < '2022-06-01';
 
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT * INTO #PatientEventData FROM #PatientEventData1
