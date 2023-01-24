@@ -793,9 +793,47 @@ function validate() {
           '  - Then you can update the input/closed-gp-practices.json to prevent this warning.'
         );
       }
+    } else if (
+      Object.keys(practiceCCG[practiceId]).length === 2 && // 2 ccgs
+      practiceCCG[practiceId]['14L'] && // 1 of which is Manchester
+      (practiceCCG[practiceId]['01M'] || // and the other is one of the 3 old CCGs that merged to become manchester
+        practiceCCG[practiceId]['00W'] ||
+        practiceCCG[practiceId]['01N']) &&
+      practiceCCG[practiceId]['14L'].f.year === 2017 && // And manchester CCG started April 2017
+      practiceCCG[practiceId]['14L'].f.month === 4
+    ) {
+      // For those that merged into Manchester CCG
+      if (
+        practiceCCG[practiceId]['14L'].l.year === lastYear &&
+        practiceCCG[practiceId]['14L'].l.month === lastMonth
+      ) {
+        // Practice has one ccg from start to end
+        counters.oneCCGAllDates++;
+      } else if (
+        closedPractices[practiceId] &&
+        closedPractices[practiceId].lastYear === practiceCCG[practiceId]['14L'].l.year &&
+        closedPractices[practiceId].lastMonth === practiceCCG[practiceId]['14L'].l.month
+      ) {
+        // It's a closed practice that we know about
+        counters.oneCCGClosed++;
+      } else {
+        counters.oneCCGMissingDates++;
+        console.log(
+          `The practice ${practiceId} has no data after ${practiceCCG[practiceId]['14L'].l.year}-${practiceCCG[practiceId]['14L'].l.month}.`
+        );
+        console.log(
+          `  - Check https://openprescribing.net/practice/${practiceId} to see if the practice has closed or is classed as dormant.`
+        );
+        console.log(
+          '  - Then you can update the input/closed-gp-practices.json to prevent this warning.'
+        );
+      }
     } else {
       // More than one CCG
-      TODO;
+      console.log(
+        chalk.redBright('More than one CCG and not the central/north/south manchester merger:')
+      );
+      console.log(practiceCCG[practiceId]);
     }
   });
 

@@ -15,9 +15,6 @@ const {
   validate,
 } = require('./lib');
 
-validate();
-process.exit();
-
 // Currently the earliest these go back to is 2013
 let startDate = new Date(2013, 0, 1);
 let endDate = new Date();
@@ -58,6 +55,7 @@ if (instruction === 'download') {
     .then(saveChunks)
     .then(combineChunks)
     .then(compressOutput)
+    .then(validate)
     .catch((err) => {
       console.log(err);
     });

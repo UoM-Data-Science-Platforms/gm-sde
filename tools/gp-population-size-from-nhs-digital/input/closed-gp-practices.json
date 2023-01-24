@@ -552,6 +552,49 @@
       "lastMonth": 1,
       "reason": "Closed in 2018",
       "source": "https://openprescribing.net/practice/Y03364"
+    },
+
+    "P84055": {
+      "lastYear": 2020,
+      "lastMonth": 1,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P84055"
+    },
+    "P84062": {
+      "lastYear": 2020,
+      "lastMonth": 12,
+      "reason": "Closed in 2021",
+      "source": "https://openprescribing.net/practice/P84062"
+    },
+    "P84616": {
+      "lastYear": 2021,
+      "lastMonth": 12,
+      "reason": "Suspect recently closed",
+      "source": "https://openprescribing.net/practice/P84616"
+    },
+    "P84623": {
+      "lastYear": 2017,
+      "lastMonth": 7,
+      "reason": "Closed in 2018",
+      "source": "https://openprescribing.net/practice/P84623"
+    },
+    "P84631": {
+      "lastYear": 2020,
+      "lastMonth": 7,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/P84631"
+    },
+    "P84652": {
+      "lastYear": 2021,
+      "lastMonth": 10,
+      "reason": "Suspect recently closed",
+      "source": "https://openprescribing.net/practice/P84652"
+    },
+    "P84682": {
+      "lastYear": 2019,
+      "lastMonth": 10,
+      "reason": "Closed in 2020",
+      "source": "https://openprescribing.net/practice/P84682"
     }
   }
 }
