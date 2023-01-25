@@ -53,3 +53,131 @@ PRE/36627MGEMIS	Prednisolone  E/c tablets  5 mg (Alpharma)
 PRSO36636MGEMIS	Prednisolone  Soluble tablets  5 mg (Sovereign)
 PRTA36680MGEMIS	Prednisolone  Tablets  1 mg (Unichem)
 PRTA36665MGEMIS	Prednisolone  Tablets  25 mg (Unichem)
+^ESCT1181802	Product containing only prednisolone 1 mg/1 each oral tablet
+^ESCT1182168	Product containing only prednisolone 5 mg/1 each oral tablet
+^ESCT1182169	Product containing only prednisolone 50 mg/1 each oral tablet
+^ESCT1188188	Product containing only prednisolone 25 mg/1 each oral tablet
+^ESCT1224656	Product containing precisely prednisolone 1 milligram/1 each conventional release oral tablet
+^ESCT1224657	Product containing precisely prednisolone 5 milligram/1 each conventional release oral tablet
+^ESCT1224658	Prednisolone 2.5 mg gastro-resistant oral tablet
+^ESCT1224659	Product containing precisely prednisolone 2.5 milligram/1 each gastro-resistant oral tablet
+^ESCT1224660	Product containing precisely prednisolone 5 milligram/1 each gastro-resistant oral tablet
+^ESCT1224661	Prednisolone 5 mg gastro-resistant oral tablet
+^ESCT1224662	Product containing precisely prednisolone 50 milligram/1 each conventional release oral tablet
+^ESCT1224663	Product containing precisely prednisolone 25 milligram/1 each conventional release oral tablet
+^ESCT1232539	Prednisolone 3 mg/mL oral solution
+^ESCT1232540	Product containing precisely prednisolone 3 milligram/1 milliliter conventional release oral solution
+^ESCT1234842	Product containing precisely prednisolone 2 milligram/1 milliliter conventional release oral solution
+^ESCT1234843	Prednisolone 2 mg/mL oral solution
+^ESCT1234917	Product containing precisely prednisolone 1 milligram/1 milliliter conventional release oral suspension
+^ESCT1234918	Prednisolone 1 mg/mL oral suspension
+^ESCT1234919	Product containing precisely prednisolone 3 milligram/1 milliliter conventional release oral suspension
+^ESCT1234920	Prednisolone 3 mg/mL oral suspension
+^ESCT1381267	Prednisolone-containing product in oral dose form
+^ESCT1381771	Prednisolone (as prednisolone sodium phosphate) 3 mg/mL oral solution
+^ESCT1381772	Prednisolone (as prednisolone sodium phosphate) 1 mg/mL oral solution
+^ESCT1383164	Prednisolone (as prednisolone sodium phosphate) 5 mg/mL oral solution
+^ESCTPR612590	Product containing prednisolone 1 mg/1 each oral tablet
+^ESCTPR612591	Prednisolone 1 mg oral tablet
+^ESCTPR612593	Product containing prednisolone 5 mg/1 each oral tablet
+^ESCTPR612594	Prednisolone 5 mg oral tablet
+^ESCTPR612602	Product containing prednisolone 50 mg/1 each oral tablet
+^ESCTPR612603	Prednisolone 50 mg oral tablet
+^ESCTPR612605	Product containing prednisolone 25 mg/1 each oral tablet
+^ESCTPR612606	Prednisolone 25 mg oral tablet
+^ESCTPR618816	Prednisolone in oral dosage form
+^ESCTPR618817	Product containing prednisolone in oral dosage form
+^ESCTPR689353	Prednisolone 15mg/5ml oral solution
+^ESCTPR689354	Prednisolone 15mg/5mL oral solution
+^ESCTPR689516	Prednisolone 5mg/mL oral solution
+^ESCTPR703120	Prednisolone 10mg orally disintegrating tablet
+^ESCTPR703442	Prednisolone 15mg orally disintegrating tablet
+^ESCTPR703767	Prednisolone 30mg orally disintegrating tablet
+^ESCTPR711266	Prednisolone 10mg/5ml oral solution
+^ESCTPR711267	Prednisolone 10mg/5mL oral solution
+^ESCTPR715549	Prednisolone 5mg/5ml oral suspension
+^ESCTPR715550	Prednisolone 5mg/5mL oral suspension
+^ESCTPR715551	Prednisolone 15mg/5ml oral suspension
+^ESCTPR715552	Prednisolone 15mg/5mL oral suspension
+PROR88709NEMIS	Prednisolone  Oral solution  15 mg/5 ml
+^ESCT1250035	Prednisolone 5mg soluble tablets (Advanz Pharma)
+^ESCT1250781	Pevanti 2.5mg tablets (Advanz Pharma)
+^ESCT1250783	Pevanti 5mg tablets (Advanz Pharma)
+^ESCT1250785	Pevanti 10mg tablets (Advanz Pharma)
+^ESCT1250787	Pevanti 20mg tablets (Advanz Pharma)
+^ESCT1250789	Pevanti 25mg tablets (Advanz Pharma)
+^ESCT1276925	Prednisolone 2.5mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1276929	Prednisolone 1mg tablets (Accord Healthcare Ltd)
+^ESCT1299750	Prednisolone 5mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1383462	Prednisolone (as prednisolone sodium phosphate) 10 mg orodispersible tablet
+^ESCT1383468	Prednisolone (as prednisolone sodium phosphate) 15 mg orodispersible tablet
+^ESCT1383477	Prednisolone (as prednisolone sodium phosphate) 30 mg orodispersible tablet
+^ESCT1387165	Deltacortril 5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1387176	Deltacortril 2.5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1409492	Prednisolone 5mg tablets (Accord Healthcare Ltd)
+^ESCT1422054	Prednisolone 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1425068	Prednisolone 5mg soluble tablets
+^ESCT1425631	Prednisolone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425684	Prednisolone 5mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425784	Prednisolone 2.5mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425796	Prednisolone 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCTDE810644	Deltacortril 5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTDE817427	Deltacortril 2.5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTDI1144134	Dilacort 2.5mg gastro-resistant tablets (Crescent Pharma Ltd)
+^ESCTDI1144136	Dilacort 5mg gastro-resistant tablets (Crescent Pharma Ltd)
+^ESCTPE1107924	Pevanti 2.5mg tablets (AMCo)
+^ESCTPE1107932	Pevanti 5mg tablets (AMCo)
+^ESCTPE1107935	Pevanti 10mg tablets (AMCo)
+^ESCTPE1107938	Pevanti 20mg tablets (AMCo)
+^ESCTPE1107940	Pevanti 25mg tablets (AMCo)
+^ESCTPR1108015	Prednisolone 10mg tablets
+^ESCTPR1108017	Prednisolone 2.5mg tablets
+^ESCTPR1108018	Prednisolone 20mg tablets
+^ESCTPR1143786	Prednisolone 1mg gastro-resistant tablets
+^ESCTPR1145321	Prednisolone 30mg tablets
+^ESCTPR612589	Prednisolone 1mg tablets
+^ESCTPR612592	Prednisolone 5mg tablets
+^ESCTPR612595	Prednisolone 2.5mg gastro-resistant tablets
+^ESCTPR612596	Prednisolone 2.5mg e/c tablet
+^ESCTPR612597	Prednisolone 5mg gastro-resistant tablets
+^ESCTPR612598	Prednisolone 5mg e/c tablet
+^ESCTPR612599	Prednisolone 5mg soluble tablets
+^ESCTPR612600	Prednisolone 5mg soluble tablet
+^ESCTPR612601	Prednisolone 50mg tablets
+^ESCTPR612604	Prednisolone 25mg tablets
+^ESCTPR801830	Prednisolone 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR802556	Prednisolone 5mg tablets (Actavis UK Ltd)
+^ESCTPR802587	Prednisolone 5mg tablets (The Boots Company Plc)
+^ESCTPR803515	Prednisolone 5mg tablets (Teva UK Ltd)
+^ESCTPR804848	Prednisolone 5mg soluble tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR807466	Prednisolone 1mg tablets (Teva UK Ltd)
+^ESCTPR807834	Prednisolone 5mg soluble tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR808080	Prednisolone 5mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR810120	Prednisolone 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR811264	Prednisolone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR812417	Prednisolone 2.5mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTPR813136	Prednisolone 5mg soluble tablets (AMCo)
+^ESCTPR816665	Prednisolone 5mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR819258	Prednisolone 5mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTPR820710	Prednisolone 1mg tablets (Actavis UK Ltd)
+^ESCTPR820744	Prednisolone 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR820839	Prednisolone 5mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR821157	Prednisolone 2.5mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR821363	Prednisolone 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR821761	Prednisolone 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR824090	Prednisolone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR824321	Prednisolone 2.5mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR825467	Prednisolone 1mg tablets (The Boots Company Plc)
+^ESCTPR828485	Prednisolone 1mg tablets (Wockhardt UK Ltd)
+^ESCTPR829527	Prednisolone 2.5mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR830605	Prednisolone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR834162	Prednisolone 5mg tablets (Wockhardt UK Ltd)
+^ESCTPR873341	Prednisolone 25mg tablets (Zentiva)
+^ESCTPR639088	Prednisolone 15mg/5mL syrup
+^ESCTPR639089	Prednisolone 5mg/5mL syrup
+^ESCTPR639137	Prednisolone acetate 25mg/mL suspension
+^ESCTPR639597	Prednisolone acetate 0.125% suspension
+^ESCTPR639598	Prednisolone acetate 1% suspension
+^ESCTPR639879	Prednisolone acetate 0.12% suspension
+^ESCTPR639972	Prednisolone sodium phosphate 1% solution
+^ESCTPR640647	Prednisolone sodium phosphate 1/8% solution

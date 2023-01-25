@@ -1,0 +1,3 @@
+^ESCTRC783240	R-CHOP chemotherapy regimen
+^ESCTRC783242	R-CHOP chemotherapy protocol
+^ESCTRI783241	Rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone chemotherapy regimen
