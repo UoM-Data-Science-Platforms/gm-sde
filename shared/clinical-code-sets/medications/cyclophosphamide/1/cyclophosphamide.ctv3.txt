@@ -1,0 +1,21 @@
+h14..	Cyclophosphamide
+h141.	Cyclophosphamide 50mg tablet
+h142.	Cyclophosphamide 100mg injection (pdr for recon)
+h143.	Cyclophosphamide 200mg injection (pdr for recon)
+h144.	Cyclophosphamide 500mg injection (pdr for recon)
+h145.	Cyclophosphamide 1g injection (pdr for recon)
+h146.	Endoxana 10mg tablet
+h147.	Endoxana 50mg tablet
+h148.	Endoxana 100mg injection (pdr for recon)
+h149.	Endoxana 200mg injection (pdr for recon)
+h14A.	Cyclophos 200mg injection (pdr for recon)
+h14B.	Cyclophos 500mg injection (pdr for recon)
+h14C.	Cyclophos 1g injection (pdr for recon)
+h14a.	Endoxana 500mg injection (pdr for recon)
+h14b.	Endoxana 1g injection (pdr for recon)
+h14c.	CYCLOPHOSPHAMIDE 2g powder for solution for injection
+x00NZ	Cyclophosphamide 4g/200mL infusion
+x00Na	Cyclophosphamide 2g/100mL infusion
+x00Nb	Cyclophosphamide 1g/50mL infusion
+x02bL	Endoxana
+x03ml	Cyclophos
