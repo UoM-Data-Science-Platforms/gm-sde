@@ -31,12 +31,12 @@ SET NOCOUNT ON;
 
 -- Get all patients from the GP_Medications table who have a matching FK_Reference_Coding_ID
 IF OBJECT_ID('tempdb..#PatientsWithFKMedCode') IS NOT NULL DROP TABLE #PatientsWithFKMedCode;
-SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKMedCode FROM RLS.vw_GP_Medications
+SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKMedCode FROM SharedCare.GP_Medications
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets);
 
 -- Then get all patients from the GP_Medications table who have a matching FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientsWithSNOMEDMedCode') IS NOT NULL DROP TABLE #PatientsWithSNOMEDMedCode;
-SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDMedCode FROM RLS.vw_GP_Medications
+SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDMedCode FROM SharedCare.GP_Medications
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets);
 --00:02:02 - for 2 above together
 
@@ -53,26 +53,26 @@ GROUP BY FK_Patient_Link_ID, Concept, [Version];
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithCodePerSystem') IS NOT NULL DROP TABLE #PatientsWithCodePerSystem;
-SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithCodePerSystem FROM RLS.vw_Patient p
+SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithCodePerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 INNER JOIN #PatientsWithCode c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM SharedCare.Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
 --00:00:56
 
 -- Counts the number of patients per system
 IF OBJECT_ID('tempdb..#PatientsPerSystem') IS NOT NULL DROP TABLE #PatientsPerSystem;
-SELECT [System], count(*) as [Count] into #PatientsPerSystem FROM RLS.vw_Patient p
+SELECT [System], count(*) as [Count] into #PatientsPerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM SharedCare.Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System];
 --00:00:41
 
 -- Finds all patients with one of the clinical codes in the medication table
 IF OBJECT_ID('tempdb..#PatientsWithSuppliedCode') IS NOT NULL DROP TABLE #PatientsWithSuppliedCode;
-SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM RLS.[vw_GP_Medications] e
+SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM SharedCare.GP_Medications e
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes);
 --00:04:10
 
@@ -84,11 +84,11 @@ GROUP BY FK_Patient_Link_ID, [Concept], [Version];
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithSuppConceptPerSystem') IS NOT NULL DROP TABLE #PatientsWithSuppConceptPerSystem;
-SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithSuppConceptPerSystem FROM RLS.vw_Patient p
+SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithSuppConceptPerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 INNER JOIN #PatientsWithSuppliedConcept c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM SharedCare.Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
 --00:01:31
 
@@ -100,17 +100,30 @@ SELECT DISTINCT [Concept], [Version],'TPP' as [System] FROM #AllCodes
 UNION
 SELECT DISTINCT [Concept], [Version],'Vision' as [System] FROM #AllCodes;
 
--- FINAL MEDICATION TABLE
+IF OBJECT_ID('tempdb..#TempFinal') IS NOT NULL DROP TABLE #TempFinal;
 SELECT 
-	s.Concept, s.[Version], pps.[System], pps.[Count] as Patients, CASE WHEN p.[Count] IS NULL THEN 0 ELSE p.[Count] END as PatientsWithConcept,
-	CASE WHEN psps.[Count] IS NULL THEN 0 ELSE psps.[Count] END as PatiensWithConceptFromCode,
-	CASE WHEN p.[Count] IS NULL THEN 0 ELSE 100 * CAST(p.[Count] AS float)/pps.[Count] END as PercentageOfPatients,
-	CASE WHEN psps.[Count] IS NULL THEN 0 ELSE 100 * CAST(psps.[Count] AS float)/pps.[Count] END as PercentageOfPatientsFromCode
+	s.Concept, s.[Version], pps.[System], MAX(pps.[Count]) as Patients, SUM(CASE WHEN p.[Count] IS NULL THEN 0 ELSE p.[Count] END) as PatientsWithConcept,
+	SUM(CASE WHEN psps.[Count] IS NULL THEN 0 ELSE psps.[Count] END) as PatiensWithConceptFromCode,
+	SUM(CASE WHEN p.[Count] IS NULL THEN 0 ELSE 100 * CAST(p.[Count] AS float)/pps.[Count] END) as PercentageOfPatients,
+	SUM(CASE WHEN psps.[Count] IS NULL THEN 0 ELSE 100 * CAST(psps.[Count] AS float)/pps.[Count] END) as PercentageOfPatientsFromCode
+INTO #TempFinal
 FROM #SystemEventCombos s
 LEFT OUTER JOIN #PatientsWithCodePerSystem p on p.[System] = s.[System] AND p.Concept = s.Concept AND p.[Version] = s.[Version]
 INNER JOIN #PatientsPerSystem pps ON pps.[System] = s.[System]
 LEFT OUTER JOIN #PatientsWithSuppConceptPerSystem psps ON psps.[System] = s.[System] AND psps.Concept = s.Concept AND psps.[Version] = s.[Version]
+GROUP BY s.Concept, s.[Version], pps.[System]
 ORDER BY s.Concept, s.[Version], pps.[System];
+
+-- FINAL MEDICATION TABLE
+SELECT Concept, Version, 
+	CONCAT('| ', FORMAT (getdate(), 'yyyy-MM-dd') , ' | ', System, ' | ', Patients, ' | ',
+		PatientsWithConcept, 
+		' (',
+		case when PercentageOfPatients = 0 then 0 else round(PercentageOfPatients ,2-floor(log10(abs(PercentageOfPatients )))) end, '%) | ',
+		PatiensWithConceptFromCode, 
+		' (',
+		case when PercentageOfPatientsFromCode = 0 then 0 else round(PercentageOfPatientsFromCode ,2-floor(log10(abs(PercentageOfPatientsFromCode )))) end, '%) | ') AS TextForReadMe  FROM #TempFinal
+
 
 -- The following code can be used to identify gaps in our code sets
 -- The always false if statement ensures we can execute the whole file
@@ -140,7 +153,7 @@ BEGIN
 	select distinct FK_Patient_Link_ID from #PatientsWithCode where Concept = @medicationconcept
 
 	IF OBJECT_ID('tempdb..#MEDSPossibleExtraCodes') IS NOT NULL DROP TABLE #MEDSPossibleExtraCodes;
-	select distinct SuppliedCode into #MEDSPossibleExtraCodes from RLS.vw_GP_Medications
+	select distinct SuppliedCode into #MEDSPossibleExtraCodes from SharedCare.GP_Medications
 	where (
 		FK_Reference_Coding_ID in (select FK_Reference_Coding_ID from #VersionedCodeSets where Concept=@medicationconcept) or
 		FK_Reference_SnomedCT_ID in (select FK_Reference_SnomedCT_ID from #VersionedSnomedSets where Concept=@medicationconcept)
@@ -149,7 +162,7 @@ BEGIN
 
 
 	IF OBJECT_ID('tempdb..#MEDSPossibleExtraIds') IS NOT NULL DROP TABLE #MEDSPossibleExtraIds;
-	select distinct FK_Reference_Coding_ID into #MEDSPossibleExtraIds from RLS.vw_GP_Medications
+	select distinct FK_Reference_Coding_ID into #MEDSPossibleExtraIds from SharedCare.GP_Medications
 	where SuppliedCode in (select Code from #AllCodes where Concept=@medicationconcept)
 	and FK_Patient_Link_ID IN (select FK_Patient_Link_ID from #MEDSPatientsIdentifiedByCodeButNotId);
 
@@ -159,7 +172,7 @@ BEGIN
 		CASE 
 			WHEN Term198 IS NULL THEN (
 				CASE WHEN Term60 is null THEN (
-					CASE WHEN Term30 is null THEN FullDescription ELSE Term30 END
+					CASE WHEN Term30 is null THEN FullDescription COLLATE Latin1_General_CS_AS ELSE Term30 END
 				) ELSE Term60 END
 			) ELSE Term198 END AS Term from SharedCare.Reference_Coding
 	where PK_Reference_Coding_ID in (select FK_Reference_Coding_ID from #MEDSPossibleExtraIds)
@@ -169,7 +182,7 @@ BEGIN
 		CASE 
 			WHEN Term198 IS NULL THEN (
 				CASE WHEN Term60 is null THEN (
-					CASE WHEN Term30 is null THEN FullDescription ELSE Term30 END
+					CASE WHEN Term30 is null THEN FullDescription COLLATE Latin1_General_CS_AS ELSE Term30 END
 				) ELSE Term60 END
 			) ELSE Term198 END AS Term from SharedCare.Reference_Coding
 	where MainCode in (select SuppliedCode from #MEDSPossibleExtraCodes)
