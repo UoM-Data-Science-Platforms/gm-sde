@@ -1,17 +1,5 @@
 {
-  "includeTerms": [
-    "doxorubicin",
-    "myocet",
-    "caelyx",
-    "adriamycin",
-    "bleomycin",
-    "bleo-kyowa",
-    "vinblastine",
-    "velbe",
-    "dacarbazine",
-    "dtic-dome",
-    "abvd"
-  ],
+  "includeTerms": ["bleomycin", "bleo-kyowa"],
   "excludeTerms": ["adverse reaction", "poisoning", "allergy", "overdose", "measurement"],
   "terminology": "Readv2",
   "version": "v20160401",
