@@ -105,7 +105,8 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  Units
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
@@ -124,7 +125,8 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
+	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value]),
+	Units
 INTO #observations
 FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
@@ -142,7 +144,7 @@ WHERE
 
 IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], Units
 into #all_observations
 from #observations
 WHERE 
@@ -172,6 +174,7 @@ SELECT o.FK_Patient_Link_ID,
 	o.EventDate, 
 	o.Concept, 
 	o.[Value],
+	Units,
 	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
 	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
 INTO #closest_observations
@@ -187,76 +190,107 @@ SELECT
 	 FK_Patient_Link_ID
 	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,SystolicBP_1_unit = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,SystolicBP_2 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,SystolicBP_2_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,SystolicBP_2_unit = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,diastolicBP_1 = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,diastolicBP_1_dt = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,diastolicBP_1_unit = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,diastolicBP_2 = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,diastolicBP_2_dt = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,diastolicBP_2_unit = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,cholesterol_1 = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,cholesterol_1_dt = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,cholesterol_1_unit = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,cholesterol_2 = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,cholesterol_2_dt = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,cholesterol_2_unit = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,HDLcholesterol_1 = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,HDLcholesterol_1_dt = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,HDLcholesterol_1_unit = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,HDLcholesterol_2 = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,HDLcholesterol_2_dt = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,HDLcholesterol_2_unit = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,LDL_cholesterol_1 = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,LDL_cholesterol_1_dt = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,LDL_cholesterol_1_unit = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,LDL_cholesterol_2 = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,LDL_cholesterol_2_dt = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,LDL_cholesterol_2_unit = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,Triglyceride_1 = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,Triglyceride_1_dt = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,Triglyceride_1_unit = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,Triglyceride_2 = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,Triglyceride_2_dt = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,Triglyceride_2_unit = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,egfr_1 = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,egfr_1_dt = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,egfr_1_unit = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,egfr_2 = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,egfr_2_dt = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,egfr_2_unit = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 	,hba1c_1 = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
 	,hba1c_1_dt = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
+	,hba1c_1_unit = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN Units ELSE NULL END)
 	,hba1c_2 = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
 	,hba1c_2_dt = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
+	,hba1c_2_unit = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN Units ELSE NULL END)
 INTO #observations_wide
 FROM #closest_observations
 WHERE ROW_NUM = 1
 GROUP BY FK_Patient_Link_ID
-
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
 SELECT  
 	PatientId = p.FK_Patient_Link_ID
 	,SystolicBP_1
 	,SystolicBP_1_dt 
+	,SystolicBP_1_unit
 	,SystolicBP_2
 	,SystolicBP_2_dt 
+	,SystolicBP_2_unit
 	,diastolicBP_1
 	,diastolicBP_1_dt
+	,diastolicBP_1_unit
 	,diastolicBP_2
 	,diastolicBP_2_dt
+	,diastolicBP_2_unit
 	,cholesterol_1
 	,cholesterol_1_dt
+	,cholesterol_1_unit
 	,cholesterol_2
 	,cholesterol_2_dt
+	,cholesterol_2_unit
 	,HDLcholesterol_1
 	,HDLcholesterol_1_dt 
+	,HDLcholesterol_1_unit
 	,HDLcholesterol_2
 	,HDLcholesterol_2_dt 
+	,HDLcholesterol_2_unit
 	,LDL_cholesterol_1
 	,LDL_cholesterol_1_dt
+	,LDL_cholesterol_1_unit
 	,LDL_cholesterol_2
 	,LDL_cholesterol_2_dt
+	,LDL_cholesterol_2_unit
 	,Triglyceride_1
 	,Triglyceride_1_dt
+	,Triglyceride_1_unit
 	,Triglyceride_2
 	,Triglyceride_2_dt
+	,Triglyceride_2_unit
 	,egfr_1
 	,egfr_1_dt 
+	,egfr_1_unit
 	,egfr_2
 	,egfr_2_dt 
+	,egfr_2_unit
 	,hba1c_1
 	,hba1c_1_dt
+	,hba1c_1_unit
 	,hba1c_2
 	,hba1c_2_dt
+	,hba1c_2_unit
 FROM #Cohort p 
-LEFT OUTER JOIN #observations_wide obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+INNER JOIN #observations_wide obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID

@@ -1,0 +1,105 @@
+1483.00	H/O: cataract
+14N9.00	H/O: R cataract extraction
+14NA.00	H/O: L cataract extraction
+14NC.00	H/O: Bilateral cataract extraction
+22E5.00	O/E - cataract present
+2BT..00	Cataract observation
+2BT0.00	O/E - Right cataract present
+2BT1.00	O/E - Left cataract present
+8LC0.00	Cataract operation planned
+C108F00	Insulin dependent diabetes mellitus with diabetic cataract
+C108F11	Type I diabetes mellitus with diabetic cataract
+C108F12	Type 1 diabetes mellitus with diabetic cataract
+C109E00	Non-insulin dependent diabetes mellitus with diabetic cataract
+C109E11	Type II diabetes mellitus with diabetic cataract
+C109E12	Type 2 diabetes mellitus with diabetic cataract
+C10EF00	Type 1 diabetes mellitus with diabetic cataract
+C10EF11	Type I diabetes mellitus with diabetic cataract
+C10EF12	Insulin dependent diabetes mellitus with diabetic cataract
+C10FE00	Type 2 diabetes mellitus with diabetic cataract
+C10FE11	Type II diabetes mellitus with diabetic cataract
+F46..00	Cataract
+F460.00	Infantile, juvenile and presenile cataracts
+F460000	Unspecified infantile cataract
+F460100	Unspecified juvenile cataract
+F460200	Unspecified presenile cataract
+F460300	Anterior subcapsular polar cataract
+F460400	Posterior subcapsular polar cataract
+F460500	Cortical cataract
+F460600	Lamellar zonular cataract
+F460700	Nuclear cataract
+F460x00	Combined nonsenile cataract
+F460y00	Other nonsenile cataract
+F460z00	Nonsenile cataract NOS
+F461.00	Senile cataract
+F461000	Unspecified senile cataract
+F461200	Coronary cataract
+F461300	Punctate cataract
+F461400	Incipient cataract NOS
+F461500	Immature cataract NOS
+F461600	Anterior subcapsular polar senile cataract
+F461700	Posterior subcapsular polar senile cataract
+F461800	Cortical senile cataract
+F461900	Nuclear senile cataract
+F461A00	Total, mature senile cataract
+F461B00	Hypermature cataract
+F461B11	Morgagni cataract
+F461x00	Combined senile cataract
+F461y00	Other senile cataract
+F461z00	Senile cataract NOS
+F462.00	Traumatic cataract
+F462000	Unspecified traumatic cataract
+F462200	Total traumatic cataract
+F462300	Partial resolved traumatic cataract
+F462z00	Traumatic cataract NOS
+F463.00	Cataract secondary to ocular disease
+F463200	Cataract in eye inflammatory disorder
+F463300	Cataract with neovascularization
+F463400	Cataract in degenerative disorder
+F463z00	Cataract secondary to ocular disorder NOS
+F464.00	Cataract due to other disorder
+F464000	Diabetic cataract
+F464100	Tetanic cataract
+F464200	Myotonic cataract
+F464300	Cataract associated with other syndromes
+F464400	Drug induced cataract
+F464500	Toxic cataract not due to drugs
+F464600	Radiation induced cataract
+F464700	Cataract due to other physical inflammation
+F464z00	Cataract due to other disorder NOS
+F465.00	After cataract
+F465000	Unspecified secondary cataract
+F465200	Other after cataract with vision normal
+F465300	After-cataract with vision obscured
+F465z00	After cataract NOS
+F46y.00	Other cataract
+F46yz00	Other cataract NOS
+F46z.00	Cataract NOS
+F46z000	Immature cortical cataract
+F4B4B00	Keratopathy following cataract surgery
+F4B4C00	Bullous aphakic keratopathy following cataract surgery
+F4K2D00	Vitreous syndrome following cataract surgery
+FyuE000	[X]Other senile cataract
+FyuE100	[X]Other specified cataract
+FyuE300	[X]Cataract in other endocrine, nutritional and metabolic diseases classified elsewhere
+FyuE400	[X]Cataract in other diseases classified elsewhere
+P33..00	Congenital cataract and lens anomalies
+P330.00	Congenital cataract, unspecified
+P331.00	Capsular and subcapsular cataract
+P331000	Capsular cataract
+P331100	Subcapsular cataract
+P331z00	Capsular or subcapsular cataract NOS
+P332.00	Cortical and zonular cataract
+P332000	Cortical cataract - congenital
+P332100	Zonular cataract
+P332z00	Cortical or zonular cataract NOS
+P333.00	Nuclear cataract - congenital
+P334.00	Total and subtotal congenital cataract
+P334000	Total congenital cataract
+P334100	Subtotal congenital cataract
+P334z00	Total or subtotal congenital cataract NOS
+P33y.00	Other specified congenital cataract or lens anomaly
+P33y000	Blue dot cataract
+P33y100	Congenital membranous cataract
+P33yz00	Other congenital cataract or lens anomaly NOS
+P33z.00	Congenital cataract or lens anomaly NOS

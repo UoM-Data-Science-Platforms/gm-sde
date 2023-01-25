@@ -1,0 +1,11 @@
+F4C0.00	Acute conjunctivitis
+F4C0000	Unspecified acute conjunctivitis
+F4C0100	Serous conjunctivitis
+F4C0200	Acute follicular conjunctivitis
+F4C0300	Acute mucopurulent conjunctivitis
+F4C0400	Catarrhal conjunctivitis
+F4C0500	Pseudomembranous conjunctivitis
+F4C0600	Acute atopic conjunctivitis
+F4C0611	Acute allergic conjunctivitis
+F4C0z00	Acute conjunctivitis NOS
+FyuC000	[X]Other acute conjunctivitis

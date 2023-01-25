@@ -1,0 +1,6 @@
+h42..00	VINBLASTINE SULFATE
+h42..11	VINBLASTINE SULPHATE
+h421.00	*VINBLASTINE 10mg injection
+h422.00	VELBE 10mg injection (pdr for recon)
+h423.00	VINBLASTINE 10mg injection (pdr for recon)
+h424.00	VINBLASTINE 10mg/10mL solution for injection

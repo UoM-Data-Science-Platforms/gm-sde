@@ -8,3 +8,18 @@ Xaae7	On drug therapy for ADHD (attention deficit hyperactivity disorder)
 Xaae9	On non-stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
 Xaae8	On stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
 XaVw9	Attention deficit hyperactivity disorder annual review
+E2E..	Childhood hyperkinetic syndrome
+E2E..	Childhood hyperkinetic syndrome
+E2E..	Hyperkinetic disorder
+E2E..	Overactive child syndrome
+E2Ey.	Other hyperkinetic manifestation
+E2Ey.	Other hyperkinetic manifestation
+E2Ez.	Hyperkinetic syndrome NOS
+E2Ez.	Hyperkinetic syndrome NOS
+Eu90y	[X]Other hyperkinetic disorders
+Eu90y	[X]Other hyperkinetic disorders
+Eu90z	[X]Hyperkinetic disorder, unspecified
+Eu90z	[X]Hyperkinetic disorder, unspecified
+XE2Q6	ADD - Attention deficit disorder with hyperactivity
+XE2Q6	Attention deficit hyperactivity disorder
+XE2Q6	Attention deficit hyperkinetic disorder

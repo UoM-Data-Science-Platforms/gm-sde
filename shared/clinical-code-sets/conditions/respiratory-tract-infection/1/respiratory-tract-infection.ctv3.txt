@@ -1,0 +1,129 @@
+H0...	Acute respiratory infections
+H02..	Acute pharyngitis
+H02z.	Acute pharyngitis NOS
+H03..	Acute tonsillitis
+H03z.	Acute tonsillitis NOS
+H040.	Acute laryngitis
+H0400	Acute oedematous laryngitis
+H0401	Acute ulcerative laryngitis
+H0402	Acute catarrhal laryngitis
+H0403	Acute phlegmonous laryngitis
+H0406	Acute suppurative laryngitis
+H040x	Acute bacterial laryngitis unspecified
+H040z	Acute laryngitis NOS
+H041.	Acute tracheitis
+H0410	Acute tracheitis without obstruction
+H0411	Acute tracheitis with obstruction
+H041z	Acute tracheitis NOS
+H042.	Acute laryngotracheitis
+H0420	Acute laryngotracheitis without obstruction
+H0421	Acute laryngotracheitis with obstruction
+H042z	Acute laryngotracheitis NOS
+H043.	Acute epiglottitis (non strep)
+H0430	Acute epiglottitis without obstruction
+H043z	Acute epiglottitis NOS
+H04z.	Acute laryngitis and tracheitis NOS
+H05..	Other acute upper respiratory infections
+H050.	Acute laryngopharyngitis
+H053.	Pharyngotracheitis
+H053.	Tracheopharyngitis
+H054.	Recurrent upper respiratory tract infection
+H055.	Pharyngolaryngitis
+H05y.	Other upper respiratory infections of multiple sites
+H05z.	Upper respiratory infection NOS
+H06..	Acute bronchitis and bronchiolitis
+H060.	Acute bronchitis
+H0600	Acute fibrinous bronchitis
+H0601	Acute membranous bronchitis
+H0602	Acute pseudomembranous bronchitis
+H0603	Acute purulent bronchitis
+H0604	Acute croupous bronchitis
+H0605	Acute tracheobronchitis
+H0606	Acute pneumococcal bronchitis
+H0607	Acute streptococcal bronchitis
+H0608	Acute haemophilus influenzae bronchitis
+H060x	Acute bacterial bronchitis unspecified
+H060z	Acute bronchitis NOS
+H061.	Acute bronchiolitis
+H0610	Acute capillary bronchiolitis
+H0612	Acute bronchiolitis with bronchospasm
+H0613	Acute exudative bronchiolitis
+H061z	Acute bronchiolitis NOS
+H06z.	Acute bronchitis or bronchiolitis NOS
+H06z0	Chest infection
+H06z1	Acute lower respiratory tract infection
+H07..	Chest cold
+H0y..	Other specified acute respiratory infections
+H0z..	Acute respiratory infection NOS
+H1601	Chronic catarrhal laryngitis
+H24..	Chest infection with infectious disease EC
+H245.	Anthrax pneumonia
+H245.	Pneumonia with anthrax
+H30..	Bronchitis unspecified
+H300.	Tracheobronchitis NOS
+H301.	Laryngotracheobronchitis
+H30z.	Bronchitis NOS
+H3120	Chronic asthmatic bronchitis
+H34..	Bronchiectasis
+H340.	Recurrent bronchiectasis
+H341.	Post-infective bronchiectasis
+H34z.	Bronchiectasis NOS
+H50..	Empyema
+H5001	Empyema with bronchopleural fistula
+H5013	Lung empyema NOS
+H50z.	Empyema NOS
+H51..	Pleurisy
+H5103	Acute dry pleurisy
+H5109	Pneumococcal pleurisy
+H51z0	Exudative pleurisy NOS
+H51z1	Serofibrinous pleurisy NOS
+H51z2	Serous pleurisy NOS
+H5yy.	Respiratory infection NOS
+Hyu01	[X]Acute pharyngitis due to other specified organisms
+Hyu02	[X]Acute tonsillitis due to other specified organisms
+Hyu1.	[X]Other acute lower respiratory infections
+Hyu11	[X]Acute bronchiolitis due to other specified organisms
+X00n7	Viral epiglottitis
+X1002	Acute upper respiratory infection
+X1002	URTI - Acute upper respiratory infection
+X1003	Viral upper respiratory tract infection NOS
+X1004	Infection of lower respiratory tract
+X1004	LRTI - Lower respiratory tract infection
+X1006	Chest infection - unspecified bronchitis
+X1007	Acute bacterial bronchitis
+X1009	Acute bronchitis due to mycoplasma pneumoniae
+X1009	Acute mycoplasmal bronchitis
+Xa05b	Acute laryngitis and tracheitis
+Xa0lW	Acute laryngotracheobronchitis
+Xa0lW	Croup
+Xa0lZ	Asthmatic bronchitis
+Xa1sb	Viral upper respiratory tract infection
+Xa2o8	Infection of the upper respiratory tract
+Xa2o8	Upper respiratory tract infection
+Xa9Bt	Acute epiglottitis and supraglottitis
+Xaa7C	Eosinophilic bronchitis
+XaBM8	Recurrent chest infection
+XaDtg	Tracheobronchitis
+XaDtP	Bronchitis
+XaDuI	Infective tonsillitis
+XaE01	Empyema
+XaKyZ	Acute obstructive laryngitis
+XE0Xn	Acute pharyngitis
+XE0Xo	Acute laryngotracheitis
+XE0Xp	Acute epiglottitis (non-streptococcal)
+XE0Xq	Upper respiratory infection NOS
+XE0Xr	Acute bronchitis
+XE0Xs	Chest infection NOS
+XE0Xt	Acute lower respiratory tract infection
+XE0Yl	Acute respiratory infections
+XE0YL	Bronchitis unspecified
+XE0Yr	Acute pharyngitis
+XE0Yt	Acute bronchitis
+XE0Yv	Acute respiratory infection NOS
+XE0Zj	Pleurisy
+XE2aC	Acute tonsillitis
+XE2wM	Pleural empyema
+XE2wR	Pleural empyema NOS
+XM1QS	Laryngotracheitis
+XM1QW	Respiratory tract infection
+XM1QX	Acute wheezy bronchitis

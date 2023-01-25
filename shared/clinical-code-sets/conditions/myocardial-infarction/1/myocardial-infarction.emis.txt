@@ -1,0 +1,99 @@
+^ESCT1222075	Hemopericardium due to and following acute myocardial infarction
+^ESCT1222076	Haemopericardium due to and following acute myocardial infarction
+^ESCT1222077	Atrial septal defect due to and following acute myocardial infarction
+^ESCT1222078	Rupture of chordae tendinae due to and following acute myocardial infarction
+^ESCT1222079	Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction
+^ESCT1222130	Cardiac rupture due to and following acute myocardial infarction
+^ESCTAB477593	Aborted myocardial infarction
+^ESCTAC266344	Acute infarction of papillary muscle
+^ESCTAC334347	Acute anteroapical myocardial infarction
+^ESCTAC338160	Acute myocardial infarction of anterior wall
+^ESCTAC345218	Acute myocardial infarction of lateral wall
+^ESCTAC356587	Acute myocardial infarction of inferolateral wall
+^ESCTAC364164	Acute myocardial infarction of anterolateral wall
+^ESCTAC364535	Acute nontransmural infarction
+^ESCTAC369991	Acute myocardial infarction of diaphragmatic wall
+^ESCTAC369992	Acute inferior myocardial infarction
+^ESCTAC374574	Acute myocardial infarction of inferoposterior wall
+^ESCTAC378491	Acute myocardial infarction of septum
+^ESCTAC378492	Acute myocardial infarction of septum alone
+^ESCTAC477589	Acute myocardial infarction of atrium
+^ESCTAC505627	Acute Q wave infarction - anteroseptal
+^ESCTAC505628	Acute non-Q wave infarction - anteroseptal
+^ESCTAC505629	Acute Q wave infarction - anterolateral
+^ESCTAC505630	Acute non-Q wave infarction - anterolateral
+^ESCTAC505631	Acute Q wave infarction - inferior
+^ESCTAC505632	Acute non-Q wave infarction - inferior
+^ESCTAC505633	Acute Q wave infarction - inferolateral
+^ESCTAC505634	Acute non-Q wave infarction - inferolateral
+^ESCTAC505635	Acute Q wave infarction - lateral
+^ESCTAC505636	Acute non-Q wave infarction - lateral
+^ESCTAC505637	Acute widespread myocardial infarction
+^ESCTAC505638	Acute Q wave infarction - widespread
+^ESCTAC505639	Acute non-Q wave infarction - widespread
+^ESCTAC593532	Acute Q wave myocardial infarction
+^ESCTAM342720	AMI - Acute myocardial infarction
+^ESCTAN458611	Anteroseptal infarction on electrocardiogram
+^ESCTAS505625	Asymptomatic ischemia
+^ESCTAS505626	Asymptomatic ischaemia
+^ESCTCA285532	Cardiac infarction
+^ESCTCO660112	Coronary artery thrombosis
+^ESCTCT660113	CT - Coronary thrombosis
+^ESCTDE505652	Defect of ventricular septum following myocardial infarction
+^ESCTDI605660	DIGAMI - diabetes mellitus insulin-glucose infusion in acute myocardial infarction
+^ESCTEC458613	ECG: anteroseptal infarction
+^ESCTEC458615	ECG: antero-septal infarct
+^ESCTEK458605	EKG: myocardial infarction
+^ESCTEK458609	EKG: old myocardial infarction
+^ESCTEK458617	EKG:posterior/inferior infarct
+^ESCTEK458620	EKG: subendocardial infarct
+^ESCTEK458727	EKG: Q wave abnormal
+^ESCTEL458603	Electrocardiogram finding of infarction
+^ESCTEL458604	Electrocardiographic myocardial infarction
+^ESCTEL458610	Electrocardiographic old myocardial infarction
+^ESCTEL458614	Electrocardiogram: anteroseptal infarction
+^ESCTEL458618	Electrocardiographic posterior/inferior infarct
+^ESCTEL458621	Electrocardiographic subendocardial infarct
+^ESCTEL458624	Electrocardiogram: lateral infarction
+^ESCTEL458728	Electrocardiographic Q wave abnormal
+^ESCTFI654675	First myocardial infarction
+^ESCTHE252635	Healed coronary
+^ESCTHE477622	Hemopericardium as current complication following acute myocardial infarction
+^ESCTHI454046	History of myocardial infarct at age less than sixty
+^ESCTHI454048	History of myocardial infarct at age greater than sixty
+^ESCTHI597448	History of myocardial infarction in last year
+^ESCTIN285531	Infarction of heart
+^ESCTIS564729	Ischaemic myocardial dysfunction
+^ESCTIS564730	Ischemic myocardial dysfunction
+^ESCTLA458622	Lateral infarction on electrocardiogram
+^ESCTMI285534	MI - Myocardial infarction
+^ESCTMI318577	Microinfarct of heart
+^ESCTMI505646	MI - Silent myocardial infarction
+^ESCTMY285530	Myocardial infarction
+^ESCTMY285535	Myocardial infarct
+^ESCTMY634865	Myocardial infarction with complication
+^ESCTNO604377	Non-Q wave myocardial infarction
+^ESCTNS665139	NSTEMI - Non-ST segment elevation MI
+^ESCTOL505641	Old anterior myocardial infarction
+^ESCTOL505642	Old inferior myocardial infarction
+^ESCTOL505643	Old lateral myocardial infarction
+^ESCTOL505644	Old posterior myocardial infarction
+^ESCTPA458729	Pathological Q wave
+^ESCTPA661919	Past history of myocardial infarction
+^ESCTPE505695	Pericarditis following myocardial infarction
+^ESCTPO357637	Postmyocardial infarction syndrome
+^ESCTPO357639	Postmyocardial infarction pericarditis
+^ESCTPO505650	Post-infarction ventricular septal defect
+^ESCTPO505668	Post-infarction mitral papillary muscle rupture
+^ESCTPO505694	Post-infarction pericarditis
+^ESCTPR661920	Previous myocardial infarction
+^ESCTQW289278	Q wave feature
+^ESCTQW529703	Q wave height
+^ESCTQW529704	Q wave height increased
+^ESCTQW529705	Q wave height decreased
+^ESCTQW529731	Q wave shape
+^ESCTRE477617	Reinfarction of myocardium
+^ESCTRU477625	Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction
+^ESCTSI505624	Silent myocardial ischemia
+^ESCTST665122	STEMI - ST elevation myocardial infarction
+^ESCTTR477588	True posterior wall infarction

@@ -1,0 +1,7 @@
+h22..	Bleomycin
+h221.	Bleomycin 15units injection (pdr for recon)
+h222.	BLEO-KYOWA 15,000iu powder for solution for injection
+x00NL	Bleomycin 60mg/30mL infusion
+x00NM	Bleomycin 120mg/60mL infusion
+x05MX	Bleomycin - chemical
+x05MY	Bleomycin sulphate - chemical

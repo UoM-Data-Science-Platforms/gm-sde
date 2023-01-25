@@ -1,0 +1,5 @@
+h54..00	DACARBAZINE
+h541.00	DTIC-DOME 100mg injection (pdr for recon)
+h542.00	DTIC-DOME 200mg injection (pdr for recon)
+h54y.00	DACARBAZINE 100mg injection (pdr for recon)
+h54z.00	DACARBAZINE 200mg injection (pdr for recon)

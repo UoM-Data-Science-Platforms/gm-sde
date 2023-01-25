@@ -1,0 +1,3 @@
+^ESCTAB783225	ABVD chemotherapy regimen
+^ESCTAB783227	ABVD chemotherapy protocol
+^ESCTDO783226	Doxorubicin, bleomycin, vinblastine and dacarbazine chemotherapy regimen

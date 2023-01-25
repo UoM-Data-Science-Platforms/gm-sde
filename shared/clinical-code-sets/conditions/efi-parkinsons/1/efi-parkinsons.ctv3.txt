@@ -1,0 +1,35 @@
+F12..	Parkinson's disease
+F12z.	Parkinson's disease NOS
+XaBfN	Parkinsonian tremor
+XaIn7	Parkinsonism
+XM04E	Parkinsonian flexion posture
+X769G	Parkinsonian facies
+297A.	O/E - Parkinsonian tremor
+XaQwf	History of Parkinson's disease
+Xa2VZ	Parkinson's disease nurse
+XE1hs	O/E-festination-Parkinson gait
+X003j	Vascular parkinsonism
+2987.	O/E -Parkinson flexion posture
+Fyu29	[X]Secondary parkinsonism, unspecified
+Fyu22	[X]Parkinsonism in diseases classified elsewhere
+X003b	Secondary parkinsonism
+X003Z	Disorders presenting primarily with parkinsonism
+F1303	Parkinsonism with orthostatic hypotension
+2994.	O/E - festination (& [Parkinson gait])
+Fyu21	[X]Other secondary parkinsonism
+XaQwg	History of parkinsonism
+X76px	Parkinsonian ataxia
+XaOfZ	Cerebral degeneration in Parkinson's disease
+F121.	Drug-induced parkinsonism
+Xa9zw	Parkinsonian features
+Fyu20	[X]Other drug-induced secondary parkinsonism
+A94y1	Syphilitic parkinsonism
+Fyu2B	[X]Secondary parkinsonism due to other external agents
+U6067	[X]Antiparkinsonism drugs caus advers effects in therap use
+TJ64.	Adverse reaction to antiparkinsonism drug
+dq...	Dopaminergic drugs used in parkinsonism
+dr...	Parkinsonism-anticholinergics
+X003A	Lewy body disease
+X7684	Expressionless face
+F13..	Extrapyramid dis: [excl Parkinson][oth and abn movem disord]
+R0103	[D]Tremor NOS

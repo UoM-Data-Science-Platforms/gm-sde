@@ -1,0 +1,8 @@
+1B1B.	Cannot sleep - insomnia
+1B1Q.	Poor sleep pattern
+E274.	Non-organic sleep disorders
+Eu51.	[X]Nonorganic sleep disorders
+Fy02.	Disorders/sleep-wake schedule
+R005.	[D]Sleep disturbances
+R0050	[D]Sleep disturbance, unspecif
+R0052	[D]Insomnia NOS

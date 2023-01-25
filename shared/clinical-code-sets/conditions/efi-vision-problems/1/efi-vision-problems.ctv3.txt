@@ -1,0 +1,156 @@
+F46..	Cataract
+F466.	Bilateral cataracts
+XE18j	Age-related macular degeneration
+22E5.	O/E - cataract present
+F4607	Nuclear cataract
+F4251	Atrophic age-related macular degeneration
+Xa9BN	Macular degeneration
+XaBLP	O/E - Left cataract present
+XaBLO	O/E - Right cataract present
+F42y9	Macular oedema
+F4610	Unspecified senile cataract
+F4250	Unspecified senile macular degeneration
+F425.	(Degeneratn macula & posterior pole) or (senile macul degen)
+F461.	Age-related cataract
+F4605	Cortical cataract
+F46z.	Cataract NOS
+1483.	H/O: cataract
+F4252	Subretinal neovascularisation of macula
+Ub0iW	Visual disability
+1B75.	Blindness
+F49..	Impaired vision (& [blindness &/or low] or [partial sight])
+F4H40	Ischaemic optic neuropathy
+F4615	Immature cataract NOS
+F490.	Blindness - both eyes
+XaG29	Posterior subcapsular cataract
+P3311	Subcapsular cataract
+F4950	Blindness, one eye, unspecified
+X75n0	Macular subretinal haemorrhage
+F4254	Degeneration macular due to cyst &/or hole &/or pseudohole
+XE15y	Degeneration of macula due to cyst, hole or pseudohole
+F4619	Nuclear senile cataract
+XE1im	O/E: [cataract present] or [lens opacity]
+P3310	Capsular cataract
+XaE5J	Myopic macular degeneration
+X75kW	Cataract observation
+X00do	Branch retinal vein occlusion with macular oedema
+F4604	Posterior subcapsular polar cataract
+F463.	Cataract secondary to ocular disease
+F461z	Senile cataract NOS
+F422z	Proliferative retinopathy NOS
+F46y.	Other cataract
+XaCGX	Blindness certification
+72661	Discission of cataract
+P331.	Capsular and subcapsular cataract
+F422.	Other proliferative retinopathy
+X75m8	Macular branch retinal vein occlusion
+X008h	Non-arteritic ischaemic optic neuropathy
+F49z.	(Visual loss NOS) or (acquired blindness)
+P331z	Capsular or subcapsular cataract NOS
+XaE5b	Clinically significant macular oedema
+XaE6t	Acquired blindness, one eye
+F4H73	Cortical blindness
+X75mb	Atrophic macular change
+X75km	Mature cataract
+XaD2a	Immature cortical cataract
+XE195	Blindness or low vision NOS
+XaF41	Drusen plus pigment change stage macular degeneration
+X00dg	Central retinal vein occlusion with macular oedema
+S813.	Avulsion of eye
+X00gN	Acquired blindness
+F46yz	Other cataract NOS
+XaJSr	Type 1 diabetes mellitus with exudative maculopathy
+FyuF7	[X]Other proliferative retinopathy
+XaE0a	Full thickness macular hole stage III
+XaE5l	Postoperative cystoid macular oedema
+F4617	Posterior subcapsular polar senile cataract
+Ua1ez	Painful blind eye
+F464.	Cataract due to other disorder
+X00dC	Proliferative vitreoretinopathy
+XaE0b	Full thickness macular hole stage IV
+F461y	Other senile cataract
+F460z	Nonsenile cataract NOS
+F490z	Blindness both eyes NOS
+X008g	Arteritic ischaemic optic neuropathy
+F4042	(Blind hypertensive eye) or (glaucoma absolute)
+XaFTm	Mixed type cataract
+XaE0Z	Full thickness macular hole stage II
+XE16G	Hypermature cataract
+F4603	Anterior subcapsular polar cataract
+F464z	Cataract due to other disorder NOS
+FyuL.	[X]Visual disturbances and blindness
+F4618	Cortical senile cataract
+X74Wt	England and Wales blind certification
+XaG28	Anterior subcapsular cataract
+F462z	Traumatic cataract NOS
+F4606	Lamellar zonular cataract
+F4650	Unspecified secondary cataract
+F4900	Unspecified blindness both eyes
+FyuE1	[X]Other specified cataract
+X00dm	Hemispheric retinal vein occlusion with macular oedema
+F4602	Unspecified presenile cataract
+X75md	Macular diffuse atrophy
+X75n2	Macular subretinal fibrosis
+F465z	After cataract NOS
+F4633	Cataract with neovascularisation
+F4634	Cataract in degenerative disorder
+F4644	Drug-induced cataract
+SJ0z.	(Optic nerve or pathway inj NOS) or (traumat blindness NOS)
+F4646	Radiation cataract
+F4647	Cataract due to other physical inflammation
+F4642	Myotonic cataract
+F463z	Cataract secondary to ocular disorder NOS
+F494.	Legal blindness USA
+F461A	Total, mature senile cataract
+F422y	Other specified other proliferative retinopathy
+XaE6s	Acquired blindness, both eyes
+X74Wx	Scottish partially sighted certifn - blindness likely > 16
+XM04s	Vasoproliferative retinopathy
+F4257	Drusen
+X00d1	Macular hole
+F4252	Subretinal neovascularisation of macula
+F4332	Other macular scars
+F4253	Cystoid macular oedema
+X75mp	Macular drusen
+P330.	Congenital cataract, unspecified
+XaE7V	Macular disorder
+F462.	Traumatic cataract
+X00c9	Congenital cataract
+XaKDJ	O/E - left eye clinically significant macular oedema
+XE1Ju	Congenital cataract and lens anomalies
+XaKDI	O/E - right eye clinically significant macular oedema
+F4H34	Toxic optic neuropathy
+F4614	Incipient cataract NOS
+F465.	After-cataract
+X75kX	Cataract form
+F427C	Vitelliform macular dystrophy
+X75mw	Macular pigment epithelial detachment
+X00dp	Adult vitelliform macular dystrophy
+E2011	Dissociative blindness
+F4K2D	Vitreous syndrome following cataract surgery
+F4305	Macular focal chorioretinitis
+F4A24	Macular keratitis NOS
+XaE5R	Macular pseudohole
+XaE5o	Uveitis related cystoid macular oedema
+XaF99	Alcohol related optic neuropathy
+X75kk	Cataract maturity
+8F6..	Specific disability rehabilitation (& blind)
+F4640	Diabetic cataract
+XaE5c	Diabetic macular oedema
+XaKcS	O/E - sight threatening diabetic retinopathy
+XaFmA	Type II diabetes mellitus with diabetic cataract
+XaJQp	Type II diabetes mellitus with exudative maculopathy
+XaFm8	Type I diabetes mellitus with diabetic cataract
+XaPjK	Excluded from diabetic retinopathy screening as blind
+X00dF	Visually threatening diabetic retinopathy
+XaPen	Impaired vision due to diabetic retinopathy
+8H52.	Referral to ophthalmology service
+Ua1jQ	Wears glasses
+6689.	Registered blind
+Y2774	Impaired eyesight
+F4250	Unspecified senile macular degeneration
+F4239	Branch retinal vein occlusion
+F4840	Unspecified visual field defect
+Xa7nF	Registered partially sighted
+XE16L	Impaired vision
+XE16M	Visual loss NOS

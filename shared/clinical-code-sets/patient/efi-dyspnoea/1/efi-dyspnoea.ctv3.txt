@@ -1,0 +1,14 @@
+XE0qq	Dyspnoea
+X76Gz	Dyspnoea on exertion
+R0608	[D]Shortness of breath
+173..	(Symptom: [SOB]/[breathless]/[dyspnoea]) or (breathlessness)
+1734.	Dyspnoea at rest
+173Z.	Breathlessness NOS
+1732.	Breathless - moderate exertion
+1733.	Breathless - mild exertion
+XaIUn	MRC Breathlessness Scale: grade 4
+1738.	Difficulty breathing
+1734.	Dyspnoea at rest
+R060A	[D]Dyspnoea
+Y9125	Shortness of breath        [D]
+2322.	O/E - dyspnoea

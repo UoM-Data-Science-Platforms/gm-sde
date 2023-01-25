@@ -1,14 +1,14 @@
---+------------------------------------------------------------------------------------------------------------+
---� Create counting tables for each conditions based on GPEvents table - RQ051                                 �
---+------------------------------------------------------------------------------------------------------------+
-
+--┌────────────────────────────────────────────────────────────────────────────┐
+--│ Create counting tables for each conditions based on GPEvents table - RQ051 │
+--└────────────────────────────────────────────────────────────────────────────┘
 -- OBJECTIVE: To build the counting tables for each mental conditions for RQ051. This reduces duplication of code in the template scripts.
 
 -- COHORT: Any patient in the [RLS].[vw_GP_Events]
 
+-- NOTE: Need to fill the '{param:condition}' and '{param:version}' and {param:conditionname}
+
 -- INPUT: Assumes there exists one temp table as follows:
 -- #GPEvents (FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID)
--- Need to fill the '{param:condition}' and '{param:version}'
 
 -- OUTPUT: Temp tables as follows:
 -- #First{param:conditionname}FullLookback

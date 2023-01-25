@@ -13,86 +13,25 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
-
-
---┌───────────────────────────────────────┐
---│ GET practice and ccg for each patient │
---└───────────────────────────────────────┘
-
--- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
---						the CCG name that the practice belongs to.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: Two temp tables as follows:
--- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
---	- FK_Patient_Link_ID - unique patient id
---	- GPPracticeCode - the nationally recognised practice id for the patient
--- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
---	- FK_Patient_Link_ID - unique patient id
---	- GPPracticeCode - the nationally recognised practice id for the patient
---	- CCG - the name of the patient's CCG
-
--- If patients have a tenancy id of 2 we take this as their most likely GP practice
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-AND GPPracticeCode IS NOT NULL
-GROUP BY FK_Patient_Link_ID;
--- 1298467 rows
--- 00:00:11
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatientsForPracticeCode') IS NOT NULL DROP TABLE #UnmatchedPatientsForPracticeCode;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatientsForPracticeCode FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientPractice;
--- 12702 rows
--- 00:00:00
-
--- If every GPPracticeCode is the same for all their linked patient ids then we use that
-INSERT INTO #PatientPractice
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
-AND GPPracticeCode IS NOT NULL
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
--- 12141
--- 00:00:00
+HAVING MIN(StartDate) < '2022-06-01';
 
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatientsForPracticeCode;
-INSERT INTO #UnmatchedPatientsForPracticeCode
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientPractice;
--- 561 rows
--- 00:00:00
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
--- If there is a unique most recent gp practice then we use that
-INSERT INTO #PatientPractice
-SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-WHERE p.GPPracticeCode IS NOT NULL
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
--- 15
 
 --┌──────────────────┐
 --│ CCG lookup table │
@@ -121,15 +60,6 @@ INSERT INTO #CCGLookup VALUES ('02H', 'Wigan');
 INSERT INTO #CCGLookup VALUES ('00V', 'Bury'); 
 INSERT INTO #CCGLookup VALUES ('14L', 'Manchester'); 
 INSERT INTO #CCGLookup VALUES ('01Y', 'Tameside Glossop'); 
-
-IF OBJECT_ID('tempdb..#PatientPracticeAndCCG') IS NOT NULL DROP TABLE #PatientPracticeAndCCG;
-SELECT p.FK_Patient_Link_ID, ISNULL(pp.GPPracticeCode,'') AS GPPracticeCode, ISNULL(ccg.CcgName, '') AS CCG
-INTO #PatientPracticeAndCCG
-FROM #Patients p
-LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
-LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
-
 
 /*
 
@@ -163,17 +93,16 @@ VALUES ('2019-01-15'), ('2019-02-15'), ('2019-03-15'), ('2019-04-15'), ('2019-05
 IF OBJECT_ID('tempdb..#GPHistory') IS NOT NULL DROP TABLE #GPHistory;
 SELECT FK_Patient_Link_ID, StartDate, EndDate, GPPracticeCode
 INTO #GPHistory
-FROM RLS.vw_Patient_GP_History;
+FROM RLS.vw_Patient_GP_History
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 
--- Merge with death date and CCG=========================================================================================================================================================================
+-- Merge with death date=========================================================================================================================================================================
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT h.FK_Patient_Link_ID, h.GPPracticeCode, h.StartDate, h.EndDate, l.DeathDate, ccg.CcgName AS CCG
+SELECT h.FK_Patient_Link_ID, h.GPPracticeCode, h.StartDate, h.EndDate, l.DeathDate
 INTO #Table
 FROM #GPHistory h
-LEFT OUTER JOIN [RLS].[vw_Patient_Link] l ON h.FK_Patient_Link_ID = l.PK_Patient_Link_ID
-LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = h.GPPracticeCode
-LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner; -- find CCG through GP Practice Code
+LEFT OUTER JOIN [RLS].[vw_Patient_Link] l ON h.FK_Patient_Link_ID = l.PK_Patient_Link_ID;
 
 
 -- Update the table with death date information===========================================================================================================
@@ -221,7 +150,7 @@ GROUP BY h.FK_Patient_Link_ID, DateOfInterest, StartDate;
 -- Bring it all together into a table that shows which practice each person was at
 -- for each date of interest
 IF OBJECT_ID('tempdb..#PatientGPPracticesOnDate') IS NOT NULL DROP TABLE #PatientGPPracticesOnDate;
-SELECT h.FK_Patient_Link_ID, MAX(GPPracticeCode) AS GPPracticeCode, MAX(CCG) AS CCG, YEAR (DateOfInterest) AS Year, MONTH (DateOfInterest) AS Month, DAY(DateOfInterest) AS Day
+SELECT h.FK_Patient_Link_ID, MAX(GPPracticeCode) AS GPPracticeCode, YEAR (DateOfInterest) AS Year, MONTH (DateOfInterest) AS Month, DAY(DateOfInterest) AS Day
 INTO #PatientGPPracticesOnDate
 FROM #Table h
 INNER JOIN #FurthestEndDates f
@@ -235,10 +164,20 @@ WHERE GPPracticeCode IS NOT NULL
 GROUP BY h.FK_Patient_Link_ID, DateOfInterest;
 
 
+-- Merge CCG information============================================================================================================================================
+IF OBJECT_ID('tempdb..#FinalTable') IS NOT NULL DROP TABLE #FinalTable;
+SELECT p.FK_Patient_Link_ID, p.GPPracticeCode, p.Year, p.Month, p.Day, ISNULL(ccg.CcgName, '') AS CCG
+INTO #FinalTable
+FROM #PatientGPPracticesOnDate p
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = p.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner
+
+
 -- Count============================================================================================================================================================
 SELECT Year, Month, CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Day IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfPatients
-FROM #PatientGPPracticesOnDate
+FROM #FinalTable
 WHERE Year IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
-GROUP BY Year, Month, CCG, CCG, GPPracticeCode;
+GROUP BY Year, Month, GPPracticeCode, CCG
+ORDER BY Year, Month, GPPracticeCode, CCG;
 

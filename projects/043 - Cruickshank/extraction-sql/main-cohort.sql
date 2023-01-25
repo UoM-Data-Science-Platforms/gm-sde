@@ -56,6 +56,20 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ043EndDate datetime;
+SET @TEMPRQ043EndDate = '2022-06-01';
+
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TEMPRQ043EndDate;
+
 -- Get all the positive covid test patients
 --┌─────────────────────┐
 --│ Patients with COVID │
@@ -147,7 +161,7 @@ VALUES ('hypertension',1,'G2...',NULL,'Hypertensive disease'),('hypertension',1,
 INSERT INTO #codesreadv2
 VALUES ('stroke',1,'G602.',NULL,'Subarachnoid haemorrhage from middle cerebral artery'),('stroke',1,'G602.00',NULL,'Subarachnoid haemorrhage from middle cerebral artery'),('stroke',1,'G61..',NULL,'Intracerebral haemorrhage'),('stroke',1,'G61..00',NULL,'Intracerebral haemorrhage'),('stroke',1,'G610.',NULL,'Cortical haemorrhage'),('stroke',1,'G610.00',NULL,'Cortical haemorrhage'),('stroke',1,'G611.',NULL,'Internal capsule haemorrhage'),('stroke',1,'G611.00',NULL,'Internal capsule haemorrhage'),('stroke',1,'G612.',NULL,'Basal nucleus haemorrhage'),('stroke',1,'G612.00',NULL,'Basal nucleus haemorrhage'),('stroke',1,'G613.',NULL,'Cerebellar haemorrhage'),('stroke',1,'G613.00',NULL,'Cerebellar haemorrhage'),('stroke',1,'G614.',NULL,'Pontine haemorrhage'),('stroke',1,'G614.00',NULL,'Pontine haemorrhage'),('stroke',1,'G615.',NULL,'Bulbar haemorrhage'),('stroke',1,'G615.00',NULL,'Bulbar haemorrhage'),('stroke',1,'G616.',NULL,'External capsule haemorrhage'),('stroke',1,'G616.00',NULL,'External capsule haemorrhage'),('stroke',1,'G618.',NULL,'Intracerebral haemorrhage, multiple localized'),('stroke',1,'G618.00',NULL,'Intracerebral haemorrhage, multiple localized'),('stroke',1,'G619.',NULL,'Lobar cerebral haemorrhage'),('stroke',1,'G619.00',NULL,'Lobar cerebral haemorrhage'),('stroke',1,'G61X.',NULL,'Intracerebral haemorrhage in hemisphere, unspecified'),('stroke',1,'G61X.00',NULL,'Intracerebral haemorrhage in hemisphere, unspecified'),('stroke',1,'G61X0',NULL,'Left sided intracerebral haemorrhage, unspecified'),('stroke',1,'G61X000',NULL,'Left sided intracerebral haemorrhage, unspecified'),('stroke',1,'G61X1',NULL,'Right sided intracerebral haemorrhage, unspecified'),('stroke',1,'G61X100',NULL,'Right sided intracerebral haemorrhage, unspecified'),('stroke',1,'G61z.',NULL,'Intracerebral haemorrhage NOS'),('stroke',1,'G61z.00',NULL,'Intracerebral haemorrhage NOS'),('stroke',1,'G63..','11','Infarction - precerebral'),('stroke',1,'G63..','11','Infarction - precerebral'),('stroke',1,'G63y0',NULL,'Cerebral infarct due to thrombosis of precerebral arteries'),('stroke',1,'G63y000',NULL,'Cerebral infarct due to thrombosis of precerebral arteries'),('stroke',1,'G63y1',NULL,'Cerebral infarction due to embolism of precerebral arteries'),('stroke',1,'G63y100',NULL,'Cerebral infarction due to embolism of precerebral arteries'),('stroke',1,'G64..',NULL,'Cerebral arterial occlusion'),('stroke',1,'G64..00',NULL,'Cerebral arterial occlusion'),('stroke',1,'G640.',NULL,'Cerebral thrombosis'),('stroke',1,'G640.00',NULL,'Cerebral thrombosis'),('stroke',1,'G6400',NULL,'Cerebral infarction due to thrombosis of cerebral arteries'),('stroke',1,'G640000',NULL,'Cerebral infarction due to thrombosis of cerebral arteries'),('stroke',1,'G641.',NULL,'Cerebral embolism'),('stroke',1,'G641.00',NULL,'Cerebral embolism'),('stroke',1,'G6410',NULL,'Cerebral infarction due to embolism of cerebral arteries'),('stroke',1,'G641000',NULL,'Cerebral infarction due to embolism of cerebral arteries'),('stroke',1,'G64z.',NULL,'Cerebral infarction NOS'),('stroke',1,'G64z.00',NULL,'Cerebral infarction NOS'),('stroke',1,'G64z0',NULL,'Brainstem infarction'),('stroke',1,'G64z000',NULL,'Brainstem infarction'),('stroke',1,'G64z1',NULL,'Wallenberg syndrome'),('stroke',1,'G64z100',NULL,'Wallenberg syndrome'),('stroke',1,'G64z2',NULL,'Left sided cerebral infarction'),('stroke',1,'G64z200',NULL,'Left sided cerebral infarction'),('stroke',1,'G64z3',NULL,'Right sided cerebral infarction'),('stroke',1,'G64z300',NULL,'Right sided cerebral infarction'),('stroke',1,'G64z4',NULL,'Infarction of basal ganglia'),('stroke',1,'G64z400',NULL,'Infarction of basal ganglia'),('stroke',1,'G650.',NULL,'Basilar artery syndrome'),('stroke',1,'G650.00',NULL,'Basilar artery syndrome'),('stroke',1,'G6510',NULL,'Vertebro-basilar artery syndrome'),('stroke',1,'G651000',NULL,'Vertebro-basilar artery syndrome'),('stroke',1,'G66..',NULL,'Stroke and cerebrovascular accident unspecified'),('stroke',1,'G66..00',NULL,'Stroke and cerebrovascular accident unspecified'),('stroke',1,'G660.',NULL,'Middle cerebral artery syndrome'),('stroke',1,'G660.00',NULL,'Middle cerebral artery syndrome'),('stroke',1,'G661.',NULL,'Anterior cerebral artery syndrome'),('stroke',1,'G661.00',NULL,'Anterior cerebral artery syndrome'),('stroke',1,'G662.',NULL,'Posterior cerebral artery syndrome'),('stroke',1,'G662.00',NULL,'Posterior cerebral artery syndrome'),('stroke',1,'G663.',NULL,'Brain stem stroke syndrome'),('stroke',1,'G663.00',NULL,'Brain stem stroke syndrome'),('stroke',1,'G664.',NULL,'Cerebellar stroke syndrome'),('stroke',1,'G664.00',NULL,'Cerebellar stroke syndrome'),('stroke',1,'G665.',NULL,'Pure motor lacunar syndrome'),('stroke',1,'G665.00',NULL,'Pure motor lacunar syndrome'),('stroke',1,'G666.',NULL,'Pure sensory lacunar syndrome'),('stroke',1,'G666.00',NULL,'Pure sensory lacunar syndrome'),('stroke',1,'G667.',NULL,'Left sided CVA'),('stroke',1,'G667.00',NULL,'Left sided CVA'),('stroke',1,'G668.',NULL,'Right sided CVA'),('stroke',1,'G668.00',NULL,'Right sided CVA'),('stroke',1,'G6760',NULL,'Cerebral infarction due to cerebral venous thrombosis, nonpyogenic'),('stroke',1,'G676000',NULL,'Cerebral infarction due to cerebral venous thrombosis, nonpyogenic'),('stroke',1,'G6W..',NULL,'Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries'),('stroke',1,'G6W..00',NULL,'Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries'),('stroke',1,'G6X..',NULL,'Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries'),('stroke',1,'G6X..00',NULL,'Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries'),('stroke',1,'Gyu62',NULL,'[X]Other intracerebral haemorrhage'),('stroke',1,'Gyu6200',NULL,'[X]Other intracerebral haemorrhage'),('stroke',1,'Gyu63',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries'),('stroke',1,'Gyu6300',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries'),('stroke',1,'Gyu64',NULL,'[X]Other cerebral infarction'),('stroke',1,'Gyu6400',NULL,'[X]Other cerebral infarction'),('stroke',1,'Gyu65',NULL,'[X]Occlusion and stenosis of other precerebral arteries'),('stroke',1,'Gyu6500',NULL,'[X]Occlusion and stenosis of other precerebral arteries'),('stroke',1,'Gyu66',NULL,'[X]Occlusion and stenosis of other cerebral arteries'),('stroke',1,'Gyu6600',NULL,'[X]Occlusion and stenosis of other cerebral arteries'),('stroke',1,'Gyu6F',NULL,'[X]Intracerebral haemorrhage in hemisphere, unspecified'),('stroke',1,'Gyu6F00',NULL,'[X]Intracerebral haemorrhage in hemisphere, unspecified'),('stroke',1,'Gyu6G',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries'),('stroke',1,'Gyu6G00',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries');
 INSERT INTO #codesreadv2
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K..00',NULL,'Body Mass Index'),('bmi',1,'22KE.',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KE.00',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KD.',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KD.00',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KC.',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KC.00',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KB.',NULL,'Baseline body mass index'),('bmi',1,'22KB.00',NULL,'Baseline body mass index'),('bmi',1,'22KA.',NULL,'Target body mass index'),('bmi',1,'22KA.00',NULL,'Target body mass index'),('bmi',1,'22K9.',NULL,'Body mass index centile'),('bmi',1,'22K9.00',NULL,'Body mass index centile'),('bmi',1,'22K9K',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9K00',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9J',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9J00',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9H',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9H00',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9G',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9G00',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9F',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9F00',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9E',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9E00',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9D',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9D00',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9C',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9C00',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9B',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9B00',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9A',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K9A00',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K99',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K9900',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K98',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K9800',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K97',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K9700',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K96',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K9600',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K95',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K9500',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K94',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K9400',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K93',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K9300',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K92',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K9200',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K91',NULL,'Child body mass index centile'),('bmi',1,'22K9100',NULL,'Child body mass index centile'),('bmi',1,'22K90',NULL,'Baseline body mass index centile'),('bmi',1,'22K9000',NULL,'Baseline body mass index centile'),('bmi',1,'22K8.',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K8.00',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K7.',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K7.00',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K6.',NULL,'Body mass index less than 20'),('bmi',1,'22K6.00',NULL,'Body mass index less than 20'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K5.00',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K4.00',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K3.00',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K2.00',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K1.00',NULL,'Body Mass Index normal K/M2'),('bmi',1,'C3808',NULL,'Childhood obesity'),('bmi',1,'C380800',NULL,'Childhood obesity'),('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137P.00',NULL,'Cigarette smoker'),('smoking-status-current',1,'13p3.',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'13p3.00',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'1374.',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'1374.00',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137G.00',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137R.00',NULL,'Current smoker'),('smoking-status-current',1,'1376.',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1376.00',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1375.',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1375.00',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1373.',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'1373.00',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137M.00',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137o.',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137o.00',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137m.',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137m.00',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137h.',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137h.00',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137g.',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137g.00',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137f.',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137f.00',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137e.',NULL,'Smoking restarted'),('smoking-status-current',1,'137e.00',NULL,'Smoking restarted'),('smoking-status-current',1,'137d.',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137d.00',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137c.',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137c.00',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137b.',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137b.00',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137C.00',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137J.00',NULL,'Cigar smoker'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137H.00',NULL,'Pipe smoker'),('smoking-status-current',1,'137a.',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137a.00',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Z.00',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Y.',NULL,'Cigar consumption'),('smoking-status-current',1,'137Y.00',NULL,'Cigar consumption'),('smoking-status-current',1,'137X.',NULL,'Cigarette consumption'),('smoking-status-current',1,'137X.00',NULL,'Cigarette consumption'),('smoking-status-current',1,'137V.',NULL,'Smoking reduced'),('smoking-status-current',1,'137V.00',NULL,'Smoking reduced'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137Q.00',NULL,'Smoking started');
 INSERT INTO #codesreadv2
@@ -199,7 +213,7 @@ VALUES ('hypertension',1,'G24..',NULL,'Secondary hypertension'),('hypertension',
 INSERT INTO #codesctv3
 VALUES ('stroke',1,'G61..',NULL,'CVA - cerebrovascular accident due to intracerebral haemorrhage'),('stroke',1,'G610.',NULL,'Cortical haemorrhage'),('stroke',1,'G611.',NULL,'Internal capsule haemorrhage'),('stroke',1,'G612.',NULL,'Basal ganglia haemorrhage'),('stroke',1,'G613.',NULL,'Cerebellar haemorrhage'),('stroke',1,'G614.',NULL,'Pontine haemorrhage'),('stroke',1,'G615.',NULL,'Bulbar haemorrhage'),('stroke',1,'G616.',NULL,'External capsule haemorrhage'),('stroke',1,'G618.',NULL,'Intracerebral haemorrhage, multiple localised'),('stroke',1,'G61z.',NULL,'Intracerebral haemorrhage NOS'),('stroke',1,'G63..',NULL,'Infarction - precerebral'),('stroke',1,'G63y0',NULL,'Cerebral infarct due to thrombosis of precerebral arteries'),('stroke',1,'G63y1',NULL,'Cerebral infarction due to embolism of precerebral arteries'),('stroke',1,'G64..',NULL,'Infarction - cerebral'),('stroke',1,'G640.',NULL,'Cerebral thrombosis'),('stroke',1,'G6400',NULL,'Cerebral infarction due to thrombosis of cerebral arteries'),('stroke',1,'G641.',NULL,'Cerebral embolism'),('stroke',1,'G6410',NULL,'Cerebral infarction due to embolism of cerebral arteries'),('stroke',1,'G64z.',NULL,'Cerebral infarction NOS'),('stroke',1,'G650.',NULL,'Basilar artery syndrome'),('stroke',1,'G66..',NULL,'Stroke unspecified'),('stroke',1,'G660.',NULL,'Middle cerebral artery syndrome'),('stroke',1,'G661.',NULL,'Anterior cerebral artery syndrome'),('stroke',1,'G662.',NULL,'Posterior cerebral artery syndrome'),('stroke',1,'G663.',NULL,'Brainstem stroke syndrome'),('stroke',1,'G664.',NULL,'Cerebellar stroke syndrome'),('stroke',1,'G667.',NULL,'Left sided cerebral hemisphere cerebrovascular accident'),('stroke',1,'G668.',NULL,'Right sided cerebral hemisphere cerebrovascular accident'),('stroke',1,'G6760',NULL,'Cerebral infarction due to cerebral venous thrombosis, non-pyogenic'),('stroke',1,'Gyu62',NULL,'[X]Other intracerebral haemorrhage'),('stroke',1,'Gyu63',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries'),('stroke',1,'Gyu64',NULL,'[X]Other cerebral infarction'),('stroke',1,'Gyu65',NULL,'[X]Occlusion and stenosis of other precerebral arteries'),('stroke',1,'Gyu66',NULL,'[X]Occlusion and stenosis of other cerebral arteries'),('stroke',1,'Gyu6F',NULL,'[X]Intracerebral haemorrhage in hemisphere, unspecified'),('stroke',1,'Gyu6G',NULL,'[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries'),('stroke',1,'X00D1',NULL,'CVA - Cerebrovascular accident'),('stroke',1,'X00D3',NULL,'CVA - cerebrovascular accident due to cerebral artery occlusion'),('stroke',1,'X00D4',NULL,'Infarction - precerebral'),('stroke',1,'X00D5',NULL,'Anterior cerebral circulation infarction'),('stroke',1,'X00D6',NULL,'TACI - Total anterior cerebral circulation infarction'),('stroke',1,'X00D7',NULL,'Partial anterior cerebral circulation infarction'),('stroke',1,'X00D8',NULL,'Posterior cerebral circulation infarction'),('stroke',1,'X00D9',NULL,'Brainstem infarction NOS'),('stroke',1,'X00DA',NULL,'LACI - Lacunar infarction'),('stroke',1,'X00DB',NULL,'Pure motor lacunar infarction'),('stroke',1,'X00DC',NULL,'Pure sensory lacunar infarction'),('stroke',1,'X00DD',NULL,'Pure sensorimotor lacunar infarction'),('stroke',1,'X00DE',NULL,'Lacunar ataxic hemiparesis'),('stroke',1,'X00DF',NULL,'Dysarthria-clumsy hand syndrome'),('stroke',1,'X00DG',NULL,'Multi-infarct state'),('stroke',1,'X00DI',NULL,'Haemorrhagic cerebral infarction'),('stroke',1,'X00DJ',NULL,'Anterior cerebral circulation haemorrhagic infarction'),('stroke',1,'X00DK',NULL,'Posterior cerebral circulation haemorrhagic infarction'),('stroke',1,'X00DL',NULL,'Massive supratentorial cerebral haemorrhage'),('stroke',1,'X00Dm',NULL,'Cerebral venous thrombosis of cortical vein'),('stroke',1,'X00DM',NULL,'Lobar cerebral haemorrhage'),('stroke',1,'X00Dn',NULL,'Cerebral venous thrombosis of great cerebral vein'),('stroke',1,'X00DN',NULL,'Subcortical cerebral haemorrhage'),('stroke',1,'X00DO',NULL,'Thalamic haemorrhage'),('stroke',1,'X00DP',NULL,'Lacunar haemorrhage'),('stroke',1,'X00DQ',NULL,'Brainstem haemorrhage'),('stroke',1,'X00DR',NULL,'Stroke of uncertain pathology'),('stroke',1,'X00DS',NULL,'Anterior circulation stroke of uncertain pathology'),('stroke',1,'X00DT',NULL,'Posterior circulation stroke of uncertain pathology'),('stroke',1,'Xa00I',NULL,'Occipital cerebral infarction'),('stroke',1,'Xa00J',NULL,'Cerebellar infarction'),('stroke',1,'Xa00K',NULL,'Brainstem infarction'),('stroke',1,'Xa00L',NULL,'Benedict syndrome'),('stroke',1,'Xa00M',NULL,'Lateral medullary syndrome'),('stroke',1,'Xa00N',NULL,'Foville syndrome'),('stroke',1,'Xa00O',NULL,'Millard-Gubler syndrome'),('stroke',1,'Xa00P',NULL,'Weber syndrome'),('stroke',1,'Xa00Q',NULL,'Claude syndrome'),('stroke',1,'Xa00R',NULL,'Top of basilar syndrome'),('stroke',1,'Xa0Bj',NULL,'Intracerebellar and posterior fossa haemorrhage'),('stroke',1,'Xa0kZ',NULL,'CVA - Cerebral infarction'),('stroke',1,'Xa1hE',NULL,'Extension of stroke'),('stroke',1,'Xa6YV',NULL,'Embolus of circle of Willis'),('stroke',1,'XaB4Z',NULL,'Multiple lacunar infarcts'),('stroke',1,'XaBEC',NULL,'Left sided cerebral infarction'),('stroke',1,'XaBED',NULL,'Right sided cerebral infarction'),('stroke',1,'XaBM4',NULL,'Left sided intracerebral haemorrhage, unspecified'),('stroke',1,'XaBM5',NULL,'Right sided intracerebral haemorrhage, unspecified'),('stroke',1,'XaEGq',NULL,'Stroke NOS'),('stroke',1,'XaJgQ',NULL,'Infarction of basal ganglia'),('stroke',1,'XaQbK',NULL,'Pure motor lacunar syndrome'),('stroke',1,'XaQbM',NULL,'Pure sensory lacunar syndrome'),('stroke',1,'XE0VF',NULL,'Stroke due to intracerebral haemorrhage'),('stroke',1,'XE0VI',NULL,'Cerebral arterial occlusion'),('stroke',1,'XE0VJ',NULL,'Cerebral infarction NOS'),('stroke',1,'XE0Ww',NULL,'Cerebrovascular accident'),('stroke',1,'XE0Wy',NULL,'Cerebral haemorrhage NOS'),('stroke',1,'XE0X2',NULL,'Stroke/CVA - undefined'),('stroke',1,'XE2aB',NULL,'Stroke and cerebrovascular accident unspecified'),('stroke',1,'XM0rV',NULL,'Cerebral haemorrhage');
 INSERT INTO #codesctv3
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'X76CO',NULL,'Quetelet index'),('bmi',1,'Xa7wG',NULL,'Observation of body mass index'),('bmi',1,'Xaa0k',NULL,'Childhood obesity'),('bmi',1,'Xaatm',NULL,'Child BMI centile'),('bmi',1,'Xabdn',NULL,'Downs syndrome BMI centile'),('bmi',1,'XabHx',NULL,'Obese class I (BMI 30.0-34.9)'),('bmi',1,'XabHy',NULL,'Obese class II (BMI 35.0-39.9)'),('bmi',1,'XabHz',NULL,'Obese cls III (BMI eq/gr 40.0)'),('bmi',1,'XabSe',NULL,'Child BMI < 0.4th centile'),('bmi',1,'XabSf',NULL,'Child BMI 0.4th-1.9th centile'),('bmi',1,'XabSg',NULL,'Child BMI on 2nd centile'),('bmi',1,'XabSh',NULL,'Child BMI 3rd-8th centile'),('bmi',1,'XabSj',NULL,'Child BMI on 9th centile'),('bmi',1,'XabSk',NULL,'Child BMI 10th-24th centile'),('bmi',1,'XabSl',NULL,'Child BMI on 25th centile'),('bmi',1,'XabSm',NULL,'Child BMI 26th-49th centile'),('bmi',1,'XabSn',NULL,'Child BMI on 50th centile'),('bmi',1,'XabTe',NULL,'Child BMI on 75th centile'),('bmi',1,'XabTf',NULL,'Child BMI 76th-90th centile'),('bmi',1,'XabTg',NULL,'Child BMI on 91st centile'),('bmi',1,'XabTh',NULL,'Child BMI 92nd-97th centile'),('bmi',1,'XabTi',NULL,'Child BMI on 98th centile'),('bmi',1,'XabTj',NULL,'Child BMI 98.1-99.6 centile'),('bmi',1,'XabTk',NULL,'Child BMI > 99.6th centile'),('bmi',1,'XabTZ',NULL,'Child BMI 51st-74th centile'),('bmi',1,'XaCDR',NULL,'Body mass index less than 20'),('bmi',1,'XaJJH',NULL,'BMI 40+ - severely obese'),('bmi',1,'XaJqk',NULL,'Body mass index 20-24 - normal'),('bmi',1,'XaVwA',NULL,'Body mass index centile'),('bmi',1,'XaZck',NULL,'Baseline BMI centile'),('bmi',1,'XaZcl',NULL,'Baseline body mass index'),('bmi',2,'22K..',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index');
 INSERT INTO #codesctv3
 VALUES ('smoking-status-current',1,'1373.',NULL,'Lt cigaret smok, 1-9 cigs/day'),('smoking-status-current',1,'1374.',NULL,'Mod cigaret smok, 10-19 cigs/d'),('smoking-status-current',1,'1375.',NULL,'Hvy cigaret smok, 20-39 cigs/d'),('smoking-status-current',1,'1376.',NULL,'Very hvy cigs smoker,40+cigs/d'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137D.',NULL,'Admitted tobacco cons untrue ?'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'Ub1tI',NULL,'Cigarette consumption'),('smoking-status-current',1,'Ub1tJ',NULL,'Cigar consumption'),('smoking-status-current',1,'Ub1tK',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'XaBSp',NULL,'Smoking restarted'),('smoking-status-current',1,'XaIIu',NULL,'Smoking reduced'),('smoking-status-current',1,'XaIkW',NULL,'Thinking about stop smoking'),('smoking-status-current',1,'XaIkX',NULL,'Ready to stop smoking'),('smoking-status-current',1,'XaIkY',NULL,'Not interested stop smoking'),('smoking-status-current',1,'XaItg',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'XaIuQ',NULL,'Cigarette pack-years'),('smoking-status-current',1,'XaJX2',NULL,'Min from wake to 1st tobac con'),('smoking-status-current',1,'XaWNE',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'XaZIE',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'XE0og',NULL,'Tobacco smoking consumption'),('smoking-status-current',1,'XE0oq',NULL,'Cigarette smoker'),('smoking-status-current',1,'XE0or',NULL,'Smoking started');
 INSERT INTO #codesctv3
@@ -241,7 +255,7 @@ INSERT INTO #codessnomed
 VALUES ('coronary-heart-disease',1,'snomed',NULL,'Description'),('coronary-heart-disease',1,'G3...00',NULL,'Ischaemic heart disease'),('coronary-heart-disease',1,'G3...12',NULL,'Atherosclerotic heart disease'),('coronary-heart-disease',1,'G3...13',NULL,'IHD - Ischaemic heart disease'),('coronary-heart-disease',1,'G3...11',NULL,'Arteriosclerotic heart disease'),('coronary-heart-disease',1,'G3z..00',NULL,'Ischaemic heart disease NOS'),('coronary-heart-disease',1,'G3y..00',NULL,'Other specified ischaemic heart disease'),('coronary-heart-disease',1,'G39..00',NULL,'Coronary microvascular disease'),('coronary-heart-disease',1,'G38..00',NULL,'Postoperative myocardial infarction'),('coronary-heart-disease',1,'G38z.00',NULL,'Postoperative myocardial infarction, unspecified'),('coronary-heart-disease',1,'G384.00',NULL,'Postoperative subendocardial myocardial infarction'),('coronary-heart-disease',1,'G383.00',NULL,'Postoperative transmural myocardial infarction of unspecified site'),('coronary-heart-disease',1,'G382.00',NULL,'Postoperative transmural myocardial infarction of other sites'),('coronary-heart-disease',1,'G381.00',NULL,'Postoperative transmural myocardial infarction of inferior wall'),('coronary-heart-disease',1,'G380.00',NULL,'Postoperative transmural myocardial infarction of anterior wall'),('coronary-heart-disease',1,'G37..00',NULL,'Cardiac syndrome X'),('coronary-heart-disease',1,'G365.00',NULL,'Rupture of papillary muscle as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G364.00',NULL,'Rupture of chordae tendinae as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G363.00',NULL,'Rupture of cardiac wall without haemopericardium as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G362.00',NULL,'Ventricular septal defect as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G361.00',NULL,'Atrial septal defect as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G360.00',NULL,'Haemopericardium as current complication following acute myocardial infarction'),('coronary-heart-disease',1,'G35..00',NULL,'Subsequent myocardial infarction'),('coronary-heart-disease',1,'G35X.00',NULL,'Subsequent myocardial infarction of unspecified site'),('coronary-heart-disease',1,'G353.00',NULL,'Subsequent myocardial infarction of other sites'),('coronary-heart-disease',1,'G351.00',NULL,'Subsequent myocardial infarction of inferior wall'),('coronary-heart-disease',1,'G350.00',NULL,'Subsequent myocardial infarction of anterior wall'),('coronary-heart-disease',1,'G34..00',NULL,'Other chronic ischaemic heart disease'),('coronary-heart-disease',1,'G34z.00',NULL,'Other chronic ischaemic heart disease NOS'),('coronary-heart-disease',1,'G34z000',NULL,'Asymptomatic coronary heart disease'),('coronary-heart-disease',1,'G34y.00',NULL,'Other specified chronic ischaemic heart disease'),('coronary-heart-disease',1,'G34yz00',NULL,'Other specified chronic ischaemic heart disease NOS'),('coronary-heart-disease',1,'G34y100',NULL,'Chronic myocardial ischaemia'),('coronary-heart-disease',1,'G34y000',NULL,'Chronic coronary insufficiency'),('coronary-heart-disease',1,'G344.00',NULL,'Silent myocardial ischaemia'),('coronary-heart-disease',1,'G343.00',NULL,'Ischaemic cardiomyopathy'),('coronary-heart-disease',1,'G342.00',NULL,'Atherosclerotic cardiovascular disease'),('coronary-heart-disease',1,'G341.00',NULL,'Aneurysm of heart'),('coronary-heart-disease',1,'G341.11',NULL,'Cardiac aneurysm'),('coronary-heart-disease',1,'G341z00',NULL,'Aneurysm of heart NOS'),('coronary-heart-disease',1,'G341300',NULL,'Acquired atrioventricular fistula of heart'),('coronary-heart-disease',1,'G341200',NULL,'Aneurysm of coronary vessels'),('coronary-heart-disease',1,'G341100',NULL,'Other cardiac wall aneurysm'),('coronary-heart-disease',1,'G341111',NULL,'Mural cardiac aneurysm'),('coronary-heart-disease',1,'G341000',NULL,'Ventricular cardiac aneurysm'),('coronary-heart-disease',1,'G340.00',NULL,'Coronary atherosclerosis'),('coronary-heart-disease',1,'G340.11',NULL,'Triple vessel disease of the heart'),('coronary-heart-disease',1,'G340.12',NULL,'Coronary artery disease'),('coronary-heart-disease',1,'G340100',NULL,'Double coronary vessel disease'),('coronary-heart-disease',1,'G340000',NULL,'Single coronary vessel disease'),('coronary-heart-disease',1,'G33..00',NULL,'Angina pectoris'),('coronary-heart-disease',1,'G33z.00',NULL,'Angina pectoris NOS'),('coronary-heart-disease',1,'G33zz00',NULL,'Angina pectoris NOS'),('coronary-heart-disease',1,'G33z700',NULL,'Stable angina'),('coronary-heart-disease',1,'G33z600',NULL,'New onset angina'),('coronary-heart-disease',1,'G33z500',NULL,'Post infarct angina'),('coronary-heart-disease',1,'G33z400',NULL,'Ischaemic chest pain'),('coronary-heart-disease',1,'G33z300',NULL,'Angina on effort'),('coronary-heart-disease',1,'G33z200',NULL,'Syncope anginosa'),('coronary-heart-disease',1,'G33z100',NULL,'Stenocardia'),('coronary-heart-disease',1,'G33z000',NULL,'Status anginosus'),('coronary-heart-disease',1,'G331.00',NULL,'Prinzmetals angina'),('coronary-heart-disease',1,'G331.11',NULL,'Variant angina pectoris'),('coronary-heart-disease',1,'G330.00',NULL,'Angina decubitus'),('coronary-heart-disease',1,'G330z00',NULL,'Angina decubitus NOS'),('coronary-heart-disease',1,'G330000',NULL,'Nocturnal angina'),('coronary-heart-disease',1,'G32..00',NULL,'Old myocardial infarction'),('coronary-heart-disease',1,'G32..11',NULL,'Healed myocardial infarction'),('coronary-heart-disease',1,'G31..00',NULL,'Other acute and subacute ischaemic heart disease'),('coronary-heart-disease',1,'G31y.00',NULL,'Other acute and subacute ischaemic heart disease'),('coronary-heart-disease',1,'G31yz00',NULL,'Other acute and subacute ischaemic heart disease NOS'),('coronary-heart-disease',1,'G31y300',NULL,'Transient myocardial ischaemia'),('coronary-heart-disease',1,'G31y200',NULL,'Subendocardial ischaemia'),('coronary-heart-disease',1,'G31y100',NULL,'Microinfarction of heart'),('coronary-heart-disease',1,'G31y000',NULL,'Acute coronary insufficiency'),('coronary-heart-disease',1,'G312.00',NULL,'Coronary thrombosis not resulting in myocardial infarction'),('coronary-heart-disease',1,'G311.00',NULL,'Preinfarction syndrome'),('coronary-heart-disease',1,'G311.11',NULL,'Crescendo angina'),('coronary-heart-disease',1,'G311.12',NULL,'Impending infarction'),('coronary-heart-disease',1,'G311.13',NULL,'Unstable angina'),('coronary-heart-disease',1,'G311.14',NULL,'Angina at rest'),('coronary-heart-disease',1,'G311z00',NULL,'Preinfarction syndrome NOS'),('coronary-heart-disease',1,'G311500',NULL,'Acute coronary syndrome'),('coronary-heart-disease',1,'G311400',NULL,'Worsening angina'),('coronary-heart-disease',1,'G311300',NULL,'Refractory angina'),('coronary-heart-disease',1,'G311200',NULL,'Angina at rest'),('coronary-heart-disease',1,'G311100',NULL,'Unstable angina'),('coronary-heart-disease',1,'G311000',NULL,'Myocardial infarction aborted'),('coronary-heart-disease',1,'G311011',NULL,'MI - myocardial infarction aborted'),('coronary-heart-disease',1,'G310.11',NULL,'Dresslers syndrome'),('coronary-heart-disease',1,'G30..00',NULL,'Acute myocardial infarction'),('coronary-heart-disease',1,'G30..11',NULL,'Attack - heart'),('coronary-heart-disease',1,'G30..12',NULL,'Coronary thrombosis'),('coronary-heart-disease',1,'G30..13',NULL,'Cardiac rupture following myocardial infarction (MI)'),('coronary-heart-disease',1,'G30..14',NULL,'Heart attack'),('coronary-heart-disease',1,'G30..15',NULL,'MI - acute myocardial infarction'),('coronary-heart-disease',1,'G30..16',NULL,'Thrombosis - coronary'),('coronary-heart-disease',1,'G30..17',NULL,'Silent myocardial infarction'),('coronary-heart-disease',1,'G30z.00',NULL,'Acute myocardial infarction NOS'),('coronary-heart-disease',1,'G30y.00',NULL,'Other acute myocardial infarction'),('coronary-heart-disease',1,'G30yz00',NULL,'Other acute myocardial infarction NOS'),('coronary-heart-disease',1,'G30y200',NULL,'Acute septal infarction'),('coronary-heart-disease',1,'G30y100',NULL,'Acute papillary muscle infarction'),('coronary-heart-disease',1,'G30y000',NULL,'Acute atrial infarction'),('coronary-heart-disease',1,'G30X.00',NULL,'Acute transmural myocardial infarction of unspecified site'),('coronary-heart-disease',1,'G30X000',NULL,'Acute ST segment elevation myocardial infarction'),('coronary-heart-disease',1,'G30B.00',NULL,'Acute posterolateral myocardial infarction'),('coronary-heart-disease',1,'G309.00',NULL,'Acute Q-wave infarct'),('coronary-heart-disease',1,'G308.00',NULL,'Inferior myocardial infarction NOS'),('coronary-heart-disease',1,'G307.00',NULL,'Acute subendocardial infarction'),('coronary-heart-disease',1,'G307100',NULL,'Acute non-ST segment elevation myocardial infarction'),('coronary-heart-disease',1,'G307000',NULL,'Acute non-Q wave infarction'),('coronary-heart-disease',1,'G306.00',NULL,'True posterior myocardial infarction'),('coronary-heart-disease',1,'G305.00',NULL,'Lateral myocardial infarction NOS'),('coronary-heart-disease',1,'G304.00',NULL,'Posterior myocardial infarction NOS'),('coronary-heart-disease',1,'G303.00',NULL,'Acute inferoposterior infarction'),('coronary-heart-disease',1,'G302.00',NULL,'Acute inferolateral infarction'),('coronary-heart-disease',1,'G301.00',NULL,'Other specified anterior myocardial infarction'),('coronary-heart-disease',1,'G301z00',NULL,'Anterior myocardial infarction NOS'),('coronary-heart-disease',1,'G301100',NULL,'Acute anteroseptal infarction'),('coronary-heart-disease',1,'G301000',NULL,'Acute anteroapical infarction'),('coronary-heart-disease',1,'G300.00',NULL,'Acute anterolateral infarction'),('coronary-heart-disease',1,'Gyu3.00',NULL,'[X]Ischaemic heart diseases'),('coronary-heart-disease',1,'Gyu3300',NULL,'[X]Other forms of chronic ischaemic heart disease'),
 ('coronary-heart-disease',1,'Gyu3200',NULL,'[X]Other forms of acute ischaemic heart disease'),('coronary-heart-disease',1,'Gyu3000',NULL,'[X]Other forms of angina pectoris'),('coronary-heart-disease',1,'Gyu3600',NULL,'[X]Subsequent myocardial infarction of unspecified site'),('coronary-heart-disease',1,'Gyu3500',NULL,'[X]Subsequent myocardial infarction of other sites'),('coronary-heart-disease',1,'Gyu3400',NULL,'[X]Acute transmural myocardial infarction of unspecified site'),('coronary-heart-disease',1,'14AL.00',NULL,'H/O: Treatment for ischaemic heart disease'),('coronary-heart-disease',1,'14AW.00',NULL,'H/O acute coronary syndrome'),('coronary-heart-disease',1,'14AJ.00',NULL,'H/O: Angina in last year'),('coronary-heart-disease',1,'14A5.00',NULL,'H/O: angina pectoris'),('coronary-heart-disease',1,'14AH.00',NULL,'H/O: Myocardial infarction in last year'),('coronary-heart-disease',1,'P6yy600',NULL,'Congenital aneurysm of heart'),('coronary-heart-disease',1,'SP07600',NULL,'Coronary artery bypass graft occlusion');
 INSERT INTO #codessnomed
-VALUES ('bmi',1,'6497000',NULL,'Decreased body mass index (finding)'),('bmi',1,'35425004',NULL,'Normal body mass index (finding)'),('bmi',1,'48499001',NULL,'Increased body mass index (finding)'),('bmi',1,'162863004',NULL,'Body mass index 25-29 - overweight'),('bmi',1,'162864005',NULL,'BMI 30+ - obesity'),('bmi',1,'301331008',NULL,'Observation of body mass index'),('bmi',1,'310252000',NULL,'BMI less than 20'),('bmi',1,'408512008',NULL,'Body mass index 40+ - morbidly obese'),('bmi',1,'412768003',NULL,'Body mass index 20-24 - normal'),('bmi',1,'427090001',NULL,'Body mass index less than 16.5'),('bmi',1,'450451007',NULL,'Childhood overweight BMI greater than 85 percentile'),('bmi',1,'722595002',NULL,'Overweight in adulthood with BMI of 25 or more but less than 30'),('bmi',1,'920141000000102',NULL,'Child BMI (body mass index) less than 0.4th centile'),('bmi',1,'920161000000101',NULL,'Child BMI (body mass index) 0.4th-1.9th centile'),('bmi',1,'920181000000105',NULL,'Child BMI (body mass index) on 2nd centile'),('bmi',1,'920201000000109',NULL,'Child BMI (body mass index) 3rd-8th centile'),('bmi',1,'920231000000103',NULL,'Child BMI (body mass index) on 9th centile'),('bmi',1,'920251000000105',NULL,'Child BMI (body mass index) 10th-24th centile'),('bmi',1,'920271000000101',NULL,'Child BMI (body mass index) on 25th centile'),('bmi',1,'920291000000102',NULL,'Child BMI (body mass index) 26th-49th centile'),('bmi',1,'920311000000101',NULL,'Child BMI (body mass index) on 50th centile'),('bmi',1,'920841000000108',NULL,'Child BMI (body mass index) 51st-74th centile'),('bmi',1,'920931000000108',NULL,'Child BMI (body mass index) on 75th centile'),('bmi',1,'920951000000101',NULL,'Child BMI (body mass index) 76th-90th centile'),('bmi',1,'920971000000105',NULL,'Child BMI (body mass index) on 91st centile'),('bmi',1,'920991000000109',NULL,'Child BMI (body mass index) 92nd-97th centile'),('bmi',1,'921011000000105',NULL,'Child BMI (body mass index) on 98th centile'),('bmi',1,'921031000000102',NULL,'Child BMI (body mass index) 98.1st-99.6th centile'),('bmi',1,'921051000000109',NULL,'Child BMI (body mass index) greater than 99.6th centile'),('bmi',1,'914721000000105',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'914731000000107',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'914741000000103',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'443371000124107',NULL,'Body mass index 30.00 to 34.99'),('bmi',1,'443381000124105',NULL,'Body mass index 35.00 to 39.99'),('bmi',1,'60621009',NULL,'Quetelet index'),('bmi',1,'846931000000101',NULL,'Baseline BMI (body mass index)'),('bmi',1,'852451000000103',NULL,'Maximum body mass index (observable entity)'),('bmi',1,'852461000000100',NULL,'Minimum body mass index (observable entity)'),('bmi',1,'446974000',NULL,'Body mass index centile'),('bmi',1,'846911000000109',NULL,'Baseline BMI (body mass index) centile'),('bmi',1,'896691000000102',NULL,'Child BMI (body mass index) centile'),('bmi',1,'926011000000101',NULL,'Downs syndrome BMI (body mass index) centile'),('bmi',1,'722562008',NULL,'Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40'),('bmi',1,'722563003',NULL,'Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40'),('bmi',1,'705131003',NULL,'Child at risk for overweight body mass index greater than 85 percentile'),('bmi',1,'43991000119102',NULL,'History of childhood obesity BMI 95-100 percentile'),('bmi',1,'698094009',NULL,'Calculation of body mass index'),('bmi',1,'444862003',NULL,'Childhood obesity BMI 95-100 percentile'),('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
+VALUES ('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-current',1,'266929003',NULL,'Smoking started (life style)'),('smoking-status-current',1,'836001000000109',NULL,'Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002',NULL,'Smoker (life style)'),('smoking-status-current',1,'65568007',NULL,'Cigarette smoker (life style)'),('smoking-status-current',1,'394873005',NULL,'Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000',NULL,'Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007',NULL,'Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002',NULL,'Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008',NULL,'Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004',NULL,'Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006',NULL,'Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001',NULL,'Smoker (& cigarette)'),('smoking-status-current',1,'160619003',NULL,'Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005',NULL,'Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007',NULL,'Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002',NULL,'Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003',NULL,'Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004',NULL,'Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005',NULL,'Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006',NULL,'Cigar smoker (life style)'),('smoking-status-current',1,'446172000',NULL,'Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009',NULL,'Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003',NULL,'Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003',NULL,'Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006',NULL,'Smoking restarted (life style)'),('smoking-status-current',1,'230058003',NULL,'Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006',NULL,'Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008',NULL,'Pipe smoker (life style)');
 INSERT INTO #codessnomed
@@ -277,8 +291,6 @@ INSERT INTO #codesemis
 VALUES ('copd',1,'EMISNQAC878',NULL,'Acute non-infective exacerbation of chronic obstructive pulmonary disease'),('copd',1,'ESCTAC8',NULL,'Acute infective exacerbation of chronic obstructive airways disease');
 INSERT INTO #codesemis
 VALUES ('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension'),('hypertension',1,'^ESCTMA364280',NULL,'Malignant hypertension'),('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension');
-INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1',NULL,'BMI centile');
 INSERT INTO #codesemis
 VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)');
 INSERT INTO #codesemis
@@ -373,6 +385,11 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
+
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
@@ -388,7 +405,9 @@ BEGIN
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 		)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
@@ -399,7 +418,8 @@ BEGIN
 		)
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 -- We can rely on the GraphNet table for first diagnosis.
@@ -423,7 +443,9 @@ BEGIN
 			select Code from #AllCodes 
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
-		);
+		)
+		AND EventDate <= @TEMPWithCovidEndDate
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #AllPositiveTestsTemp
 		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
@@ -433,7 +455,8 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
@@ -807,8 +830,8 @@ IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmo
 SELECT 
 	p.FK_Patient_Link_ID,
 	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
+	CASE WHEN w.[Status] IS NULL THEN 'unknown-smoking-status' ELSE w.[Status] END AS WorstSmokingStatus,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown-smoking-status' ELSE c.[Status] END AS CurrentSmokingStatus
 INTO #PatientSmokingStatus FROM #Patients p
 LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1021,7 +1044,8 @@ FROM RLS.vw_GP_Events
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND EventDate > '2020-12-01';
+AND EventDate > '2020-12-01'
+AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
@@ -1029,7 +1053,8 @@ FROM RLS.vw_GP_Medications
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND MedicationDate > '2020-12-01';
+AND MedicationDate > '2020-12-01'
+AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
@@ -1155,6 +1180,10 @@ DROP TABLE #VacTemp7;
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPAdmissionsEndDate datetime;
+SET @TEMPAdmissionsEndDate = '2022-06-01';
+
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
 -- on the same day (but only one discharge)
@@ -1171,7 +1200,8 @@ BEGIN
 		FROM [RLS].[vw_Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
@@ -1179,7 +1209,8 @@ BEGIN
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --┌──────────────────────┐
@@ -1201,6 +1232,10 @@ END
 --   on the same day to the same hopsital then it's most likely data duplication rather than two short
 --   hospital stays)
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPDischargesEndDate datetime;
+SET @TEMPDischargesEndDate = '2022-06-01';
+
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
 CREATE TABLE #Discharges (
@@ -1215,7 +1250,8 @@ BEGIN
     FROM [RLS].[vw_Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
@@ -1223,7 +1259,8 @@ BEGIN
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;;
 END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14
@@ -1316,7 +1353,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('asthma') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('asthma') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: coronary-heart-disease v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCHD') IS NOT NULL DROP TABLE #PatientDiagnosesCHD;
@@ -1327,7 +1365,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: stroke v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSTROKE') IS NOT NULL DROP TABLE #PatientDiagnosesSTROKE;
@@ -1338,7 +1377,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('stroke') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('stroke') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: diabetes-type-i v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesT1DM') IS NOT NULL DROP TABLE #PatientDiagnosesT1DM;
@@ -1349,7 +1389,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: diabetes-type-ii v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesT2DM') IS NOT NULL DROP TABLE #PatientDiagnosesT2DM;
@@ -1360,7 +1401,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: copd v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
@@ -1371,7 +1413,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('copd') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('copd') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: hypertension v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
@@ -1382,7 +1425,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ043EndDate;
 
 -- >>> Following code sets injected: bmi v2
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
@@ -1398,7 +1442,8 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
-AND [Value] != '0';
+AND [Value] != '0'
+AND EventDate < @TEMPRQ043EndDate;
 
 -- get most recent value at in the period [index date - 2 years, index date]
 IF OBJECT_ID('tempdb..#PatientValuesBMI') IS NOT NULL DROP TABLE #PatientValuesBMI;
@@ -1421,7 +1466,11 @@ DROP TABLE #PatientValuesWithIds;
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y';
+WHERE DeathWithin28Days = 'Y'
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- Get start date at LSOA from address history.
 -- NB !! Virtually all start dates are post 2019 i.e. the start date
@@ -1437,6 +1486,7 @@ from #PatientLSOA l
 left outer join RLS.vw_Patient_Address_History h
 	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 	and h.LSOA_Code = l.LSOA_Code
+WHERE StartDate < @TEMPRQ043EndDate
 group by l.FK_Patient_Link_ID;
 
 -- Now find the most recent end date for not their current LSOA
@@ -1448,6 +1498,7 @@ left outer join RLS.vw_Patient_Address_History h
 	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 	and h.LSOA_Code != l.LSOA_Code
 where EndDate is not null
+AND EndDate < @TEMPRQ043EndDate
 group by l.FK_Patient_Link_ID;
 
 -- Bring together. Either earliest start date or most recent end date of a different LSOA (if it exists).
@@ -1476,8 +1527,8 @@ SELECT
   LengthOfStayFirstAdmission2ndCOVIDTest,
   FirstAdmissionPost3rdCOVIDTest,
   LengthOfStayFirstAdmission3rdCOVIDTest,
-  MONTH(DeathDate) AS MonthOfDeath,
-  YEAR(DeathDate) AS YearOfDeath,
+  CASE WHEN DeathDate < @TEMPRQ043EndDate THEN MONTH(DeathDate) ELSE NULL END AS MonthOfDeath,
+  CASE WHEN DeathDate < @TEMPRQ043EndDate THEN YEAR(DeathDate) ELSE NULL END AS YearOfDeath,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   LSOA_Code AS LSOA,
   lsoaStart.LSOAStartDate AS LSOAStartDate,

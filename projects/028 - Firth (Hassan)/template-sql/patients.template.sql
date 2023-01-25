@@ -37,20 +37,7 @@ SET @EndDate = '2021-09-30';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+--> EXECUTE query-get-possible-patients.sql
 
 --> CODESET recurrent-depressive:1 schizophrenia-psychosis:1 bipolar:1 depression:1
 
@@ -87,11 +74,17 @@ WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vac
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patient list of those with COVID death within 28 days of positive test
+-- 07.11.22: updated to deal with '28 days' flag over-reporting
+
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
+AND EventDate <= @EndDate
+AND (
+  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+);
 
 -- cohort of patients with depression
 IF OBJECT_ID('tempdb..#depression_cohort') IS NOT NULL DROP TABLE #depression_cohort;
@@ -101,7 +94,7 @@ FROM [RLS].[vw_GP_Events] gp
 WHERE SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1)
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2020-01-31'
+	AND (gp.EventDate) <= @StartDate
 --655,657
 
 -- take a 10 percent sample of depression patients (as requested by PI), to add to SMI cohort later on
@@ -146,7 +139,7 @@ WHERE ((SuppliedCode IN
 	  (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1) AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #depression_cohort_sample)))
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2020-01-31'
+	AND (gp.EventDate) <= @StartDate
 
 
 -- Define the main cohort to be matched
@@ -300,6 +293,7 @@ SELECT GPPracticeCode
 INTO #RandomisePractice
 FROM #UniquePractices
 
+
 --bring together for final output
 --patients in main cohort
 SELECT	 PatientId = m.FK_Patient_Link_ID
@@ -357,7 +351,7 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,HO_Depression = ISNULL(CASE WHEN EarliestDiagnosis_Depression IS NULL THEN 0 ELSE 1 END, 0)
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
-		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
+		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END
 		,DeathDate_Year = CASE WHEN pl.DeathDate > '2020-01-31' THEN YEAR(pl.DeathDate) ELSE null END
 		,DeathDate_Month = CASE WHEN pl.DeathDate > '2020-01-31' THEN MONTH(pl.DeathDate) ELSE null END
 		,FirstVaccineYear =  YEAR(FirstVaccineDate)
@@ -434,7 +428,7 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,HO_Depression = ISNULL(CASE WHEN EarliestDiagnosis_Depression IS NULL THEN 0 ELSE 1 END, 0)
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
-		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
+		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END
 		,DeathDate_Year = CASE WHEN pl.DeathDate > '2020-01-31' THEN YEAR(pl.DeathDate) ELSE null END
 		,DeathDate_Month = CASE WHEN pl.DeathDate > '2020-01-31' THEN MONTH(pl.DeathDate) ELSE null END
 		,FirstVaccineYear =  YEAR(FirstVaccineDate)

@@ -1,0 +1,201 @@
+﻿91667005	Hydrochlorothiazide product
+134460003	Hydrochlorothiazide 12.5 mg and irbesartan 300 mg oral tablet
+134461004	Product containing precisely hydrochlorothiazide 12.5 milligram and irbesartan 150 milligram/1 each conventional release oral tablet (clinical drug)
+318121006	Product containing precisely amiloride hydrochloride 2.5 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+318546001	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+318555003	Amiloride hydrochloride 2.5 mg and hydrochlorothiazide 25 mg and timolol maleate 10 mg oral tablet
+318586009	Product containing precisely acebutolol 200 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+318587000	Amiloride hydrochloride 2.5 mg and atenolol 50 mg and hydrochlorothiazide 25 mg oral capsule
+318597009	Product containing precisely bisoprolol 10 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+318806002	Product containing precisely captopril 25 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+318807006	Product containing precisely captopril 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet (clinical drug)
+318849001	Product containing precisely enalapril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+318880006	Product containing precisely hydrochlorothiazide 12.5 milligram and lisinopril 20 milligram/1 each conventional release oral tablet
+318884002	Hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet
+318892006	Product containing precisely hydrochlorothiazide 12.5 milligram and quinapril 10 milligram/1 each conventional release oral tablet
+318959004	Hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet
+356520008	Amiloride and atenolol and hydrochlorothiazide product
+374184009	Product containing precisely hydrochlorothiazide 12.5 milligram/1 each conventional release oral capsule (clinical drug)
+376209006	Product containing precisely hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+376508004	Product containing precisely hydrochlorothiazide 50 milligram/1 each conventional release oral tablet
+377227003	Product containing precisely benazepril hydrochloride 10 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+377245003	Product containing precisely bisoprolol 5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet (clinical drug)
+377262008	Product containing precisely candesartan cilexetil 16 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+377263003	Product containing precisely captopril 25 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+377264009	Product containing precisely captopril 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+377265005	Product containing precisely captopril 50 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet (clinical drug)
+377369002	Product containing precisely enalapril 10 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+377370001	Enalapril 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+377453008	Product containing precisely guanethidine monosulfate 10 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet (clinical drug)
+377460002	Product containing precisely hydralazine hydrochloride 25 milligram and hydrochlorothiazide 15 milligram and reserpine 100 microgram/1 each conventional release oral tablet (clinical drug)
+377461003	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg oral capsule
+377462005	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg oral capsule
+377463000	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg oral capsule
+377466008	Product containing precisely hydrochlorothiazide 25 milligram and labetalol hydrochloride 300 milligram/1 each conventional release oral tablet (clinical drug)
+377469001	Product containing precisely hydrochlorothiazide 25 milligram and lisinopril 20 milligram/1 each conventional release oral tablet (clinical drug)
+377472008	Product containing precisely hydrochlorothiazide 15 milligram and methyldopa 250 milligram/1 each conventional release oral tablet (clinical drug)
+377473003	Product containing precisely hydrochlorothiazide 25 milligram and methyldopa 250 milligram/1 each conventional release oral tablet
+377474009	Product containing precisely hydrochlorothiazide 30 milligram and methyldopa 500 milligram/1 each conventional release oral tablet (clinical drug)
+377475005	Product containing precisely hydrochlorothiazide 50 milligram and methyldopa 500 milligram/1 each conventional release oral tablet
+377476006	Product containing precisely hydrochlorothiazide 25 milligram and propranolol hydrochloride 40 milligram/1 each conventional release oral tablet (clinical drug)
+377478007	Hydrochlorothiazide 12.5 mg and quinapril 20 mg oral tablet
+377479004	Product containing precisely hydrochlorothiazide 25 milligram and quinapril 20 milligram/1 each conventional release oral tablet
+377480001	Product containing precisely hydrochlorothiazide 25 milligram and reserpine 125 microgram/1 each conventional release oral tablet (clinical drug)
+377482009	Product containing precisely hydrochlorothiazide 50 milligram and reserpine 125 microgram/1 each conventional release oral tablet (clinical drug)
+377483004	Product containing precisely hydrochlorothiazide 25 milligram and spironolactone 25 milligram/1 each conventional release oral tablet (clinical drug)
+377486007	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral capsule
+377487003	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral tablet (clinical drug)
+377488008	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 80 milligram/1 each conventional release oral tablet
+377566005	Product containing precisely amiloride hydrochloride 5 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral tablet (clinical drug)
+395497004	Product containing precisely hydrochlorothiazide 25 milligram and losartan potassium 100 milligram/1 each conventional release oral tablet (clinical drug)
+395514005	Product containing precisely hydrochlorothiazide 50 milligram and spironolactone 50 milligram/1 each conventional release oral tablet
+395515006	Product containing precisely hydrochlorothiazide 25 milligram and propranolol hydrochloride 80 milligram/1 each conventional release oral tablet
+395521005	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 160 milligram/1 each conventional release oral tablet (clinical drug)
+395523008	Product containing precisely benazepril hydrochloride 5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+395524002	Product containing precisely benazepril hydrochloride 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+395525001	Product containing precisely benazepril hydrochloride 20 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet (clinical drug)
+398688006	Hydrochlorothiazide and spironolactone product
+398722002	Hydrochlorothiazide and valsartan product
+398727008	Hydrochlorothiazide and telmisartan product
+398822006	Hydrochlorothiazide and reserpine product
+398858004	Hydrochlorothiazide and lisinopril product
+398910009	Acebutolol and hydrochlorothiazide product
+398914000	Hydrochlorothiazide and irbesartan product
+398941005	Hydrochlorothiazide and methyldopa product
+404829009	Captopril and hydrochlorothiazide product
+404850000	Hydrochlorothiazide and triamterene product
+407855002	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 40 milligram/1 each conventional release oral tablet (clinical drug)
+407856001	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 80 milligram/1 each conventional release oral tablet
+409181005	Product containing precisely candesartan cilexetil 32 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+409184002	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 20 milligram/1 each conventional release oral tablet (clinical drug)
+409185001	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+409186000	Product containing precisely hydrochlorothiazide 25 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+409298002	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 160 milligram/1 each conventional release oral tablet (clinical drug)
+409457006	Fosinopril and hydrochlorothiazide product
+409458001	Product containing precisely fosinopril 10 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+409459009	Product containing precisely fosinopril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+410876004	Eprosartan and hydrochlorothiazide product
+410877008	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet (clinical drug)
+410878003	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+410889005	Product containing precisely hydrochlorothiazide 25 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet (clinical drug)
+410896007	Hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet
+410902002	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 7.5 milligram/1 each conventional release oral tablet
+410903007	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+410904001	Product containing precisely hydrochlorothiazide 25 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+410922003	Product containing precisely bisoprolol 2.5 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+412544008	Hydrochlorothiazide and metoprolol product
+414690005	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+414691009	Hydrochlorothiazide 50 mg and metoprolol tartrate 100 mg oral tablet
+414692002	Hydrochlorothiazide 25 mg and metoprolol tartrate 50 mg oral tablet
+420654006	Bisoprolol and hydrochlorothiazide product
+420960008	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+421207006	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 320 milligram/1 each conventional release oral tablet (clinical drug)
+421852001	Hydrochlorothiazide and quinapril product
+422016001	Enalapril and hydrochlorothiazide product
+423799007	Hydrochlorothiazide and olmesartan medoxomil product
+425167007	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 25 mg oral tablet
+425352000	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 50 mg oral tablet
+431854009	Aliskiren and hydrochlorothiazide product
+433800003	Product containing precisely aliskiren 300 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+434131002	Product containing precisely aliskiren 150 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet (clinical drug)
+434133004	Product containing precisely aliskiren 300 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+434362009	Product containing precisely aliskiren 150 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet (clinical drug)
+442215001	Amlodipine 10mg + hydrochlorothiazide 25mg + Valsartan 320mg tablet (product)
+442266006	Amlodipine 5mg + hydrochlorothiazide 25mg + Valsartan 160mg tablet (product)
+442293009	Amlodipine and hydrochlorothiazide and valsartan product
+442402007	Amlodipine 10mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet (product)
+442473003	Amlodipine 5mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet (product)
+444639002	Losartan potassium 100mg + hydrochlorothiazide 12.5mg oral tablet
+447064008	Amlodipine and hydrochlorothiazide and olmesartan medoxomil product
+447065009	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 20mg tablet
+447088005	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+447089002	Amlodipine 5mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+447090006	Amlodipine 10mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+447170000	Amlodipine 10mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+448961004	Aliskiren 300mg + amlodipine 10mg + hydrochlorothiazide 12.5mg tablet
+448969002	Aliskiren 300mg + amlodipine 5mg + hydrochlorothiazide 25mg tablet
+449275007	Aliskiren and amlodipine and hydrochlorothiazide product
+449276008	Aliskiren 150mg + amlodipine 5mg + hydrochlorothiazide 12.5mg tablet
+449342002	Aliskiren 300mg + amlodipine 10mg + hydrochlorothiazide 25mg tablet
+449343007	Aliskiren 300mg + amlodipine 5mg + hydrochlorothiazide 12.5mg tablet
+714572008	Hydrochlorothiazide in oral dosage form
+737676004	Hydralazine and hydrochlorothiazide product
+737678003	Hydrochlorothiazide and labetalol product
+765532005	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 200 milligram/1 each prolonged-release oral tablet
+767794006	Product containing hydrochlorothiazide and metoprolol in oral dosage form (medicinal product form)
+767835000	Product containing aliskiren and hydrochlorothiazide in oral dosage form (medicinal product form)
+767870003	Amiloride and hydrochlorothiazide in oral dosage form
+767903001	Product containing amiloride and atenolol and hydrochlorothiazide in oral dosage form
+767917005	Acebutolol and hydrochlorothiazide in oral dosage form
+767945004	Product containing bisoprolol and hydrochlorothiazide in oral dosage form (medicinal product form)
+768000003	Product containing benazepril and hydrochlorothiazide in oral dosage form (medicinal product form)
+768047007	Candesartan and hydrochlorothiazide in oral dosage form
+768049005	Captopril and hydrochlorothiazide in oral dosage form
+768140007	Product containing enalapril and hydrochlorothiazide in oral dosage form
+768208003	Product containing hydrochlorothiazide and telmisartan in oral dosage form
+768233000	Product containing hydrochlorothiazide and quinapril in oral dosage form (medicinal product form)
+768238009	Eprosartan and hydrochlorothiazide in oral dosage form
+768398009	Product containing fosinopril and hydrochlorothiazide in oral dosage form (medicinal product form)
+768513000	Guanethidine and hydrochlorothiazide product
+768514006	Product containing guanethidine and hydrochlorothiazide in oral dosage form
+768574001	Product containing hydrochlorothiazide and losartan
+768581008	Product containing hydrochlorothiazide and losartan in oral dosage form (medicinal product form)
+768589005	Product containing hydralazine and hydrochlorothiazide in oral dosage form (medicinal product form)
+768778001	Product containing amiloride and hydrochlorothiazide and timolol
+768800004	Candesartan and hydrochlorothiazide product
+768801000	Hydrochlorothiazide and propranolol product
+768802007	Product containing hydrochlorothiazide and propranolol in oral dosage form
+768803002	Product containing hydrochlorothiazide and valsartan in oral dosage form (medicinal product form)
+768813005	Product containing amiloride and hydrochlorothiazide and timolol in oral dosage form
+768859007	Product containing hydrochlorothiazide and lisinopril in oral dosage form
+768860002	Hydrochlorothiazide and moexipril product
+768861003	Product containing hydrochlorothiazide and moexipril in oral dosage form (medicinal product form)
+10261511000001103	Olmetec Plus 20mg/12.5mg tablets (Sankyo Pharma UK) (product)
+10261811000001100	Olmetec Plus 20mg/25mg tablets (Sankyo Pharma UK) (product)
+10270711000001105	Olmesartan medoxomil 20mg / Hydrochlorothiazide 25mg tablets (product)
+10968611000001106	CoAprovel 300mg/25mg tablets (sanofi-aventis) (product)
+10970311000001105	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (product)
+13094111000001102	Cozaar-Comp 100mg/12.5mg tablets (Organon Pharma (UK) Ltd) (product)
+13112711000001103	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (product)
+13719711000001103	MicardisPlus 80/25mg tablets (Boehringer Ingelheim Ltd) (product)
+146811000001108	Innozide 20mg/12.5mg tablets (Organon Pharma (UK) Ltd) (product)
+17220911000001102	Olmetec Plus 40mg/12.5mg tablets (Daiichi Sankyo UK Ltd) (product)
+18986411000001108	Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd) (product)
+18986711000001102	Sevikar HCT 40mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd) (product)
+18987011000001101	Sevikar HCT 40mg/10mg/12.5mg tablets (Daiichi Sankyo UK Ltd) (product)
+18987311000001103	Sevikar HCT 40mg/5mg/25mg tablets (Daiichi Sankyo UK Ltd) (product)
+18987611000001108	Sevikar HCT 40mg/10mg/25mg tablets (Daiichi Sankyo UK Ltd) (product)
+255911000001105	Cozaar-Comp 50mg/12.5mg tablets (Organon Pharma (UK) Ltd) (product)
+260211000001104	Accuretic 12.5mg/10mg tablets (Pfizer Ltd) (product)
+2886111000001104	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd) (product)
+2886311000001102	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd) (product)
+2886511000001108	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd) (product)
+2937811000001108	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd) (product)
+2938011000001101	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd) (product)
+2977611000001106	Co-Betaloc tablets (Pfizer Ltd) (product)
+3143111000001100	Zestoretic 20 tablets (AstraZeneca) (product)
+3143511000001109	Carace 20 Plus tablets (Organon Pharma (UK) Ltd) (product)
+3144311000001101	Zestoretic 10 tablets (AstraZeneca) (product)
+3144511000001107	Carace 10 Plus tablets (Organon Pharma (UK) Ltd) (product)
+315211000001104	Carace 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+321011000001103	Carace 2.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+3806311000001109	MicardisPlus 40/12.5mg tablets (Boehringer Ingelheim Ltd) (product)
+3806911000001105	MicardisPlus 80/12.5mg tablets (Boehringer Ingelheim Ltd) (product)
+3853411000001104	Co-Betaloc SA tablets (Pfizer Ltd) (product)
+39691911000001109	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (product)
+39693411000001102	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (product)
+39725011000001105	Acebutolol 200mg / Hydrochlorothiazide 12.5mg tablets (product)
+4542911000001104	Monozide 10 tablets (Wyeth Laboratories) (product)
+4544011000001109	Hydrosaluric 25mg tablets (Organon Pharma (UK) Ltd) (product)
+4546211000001109	Hydrosaluric 50mg tablets (Organon Pharma (UK) Ltd) (product)
+56711000001109	Carace 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+682711000001109	CoAprovel 300mg/12.5mg tablets (Sanofi-Synthelabo Ltd) (product)
+7385711000001106	Caralpha 20mg/12.5mg tablets (Alpharma Limited) (product)
+7385911000001108	Caralpha 10mg/12.5mg tablets (Alpharma Limited) (product)
+7668611000001104	Co-Diovan 160mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+7668911000001105	Co-Diovan 160mg/25mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+778011000001109	Carace 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
+792411000001108	CoAprovel 150mg/12.5mg tablets (Sanofi-Synthelabo Ltd) (product)
+8150111000001108	Co-Diovan 80mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+878911000001106	Secadrex 200mg/12.5mg tablets (NRIM Ltd) (product)
+9566911000001105	Cozaar-Comp 100mg/25mg tablets (Organon Pharma (UK) Ltd) (product)

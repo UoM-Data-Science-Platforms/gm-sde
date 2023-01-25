@@ -1,0 +1,24 @@
+^ESCTAC315650	Acute lymphonodular pharyngitis
+^ESCTAC503577	Acute herpes simplex pharyngitis
+^ESCTAC503585	Acute pharyngeal candidiasis
+^ESCTAC503586	Acute pharyngitis due to candida albicans
+^ESCTAC503587	Acute pharyngeal moniliasis
+^ESCTCH250069	Chronic sore throat
+^ESCTCH253655	Chronic granular pharyngitis
+^ESCTCH503588	Chronic ulcerative pharyngitis
+^ESCTEN315649	Enteroviral lymphonodular pharyngitis
+^ESCTEN474266	Enteroviral vesicular pharyngitis
+^ESCTFU474385	Fusospirochetal pharyngitis
+^ESCTFU474386	Fusospirochaetal pharyngitis
+^ESCTGL503580	Glandular fever pharyngitis
+^ESCTGO370898	Gonococcal pharyngitis
+^ESCTIN503581	Infective mononucleosis pharyngitis
+^ESCTIN601617	Infective pharyngitis
+^ESCTLY514935	Lymphonodular coxsackie pharyngitis
+^ESCTME503582	Meningococcal pharyngitis
+^ESCTON457764	On examination - granular pharyngitis
+^ESCTPA454834	Pain in the pharynx
+^ESCTPH454837	Pharyngeal pain
+^ESCTSE320635	Septic sore throat
+^ESCTST320637	Strept throat
+^ESCTST320638	Strep throat

@@ -56,7 +56,7 @@ INTO #AdmissionTypes FROM (
 			END
 		)	AS AdmissionId,
 		t.TenancyName AS AcuteProvider
-	FROM RLS.vw_Acute_Inpatients i
+	FROM SharedCare.Acute_Inpatients i
 	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 	WHERE EventType = 'Admission'
 	AND AdmissionDate >= @StartDate

@@ -287,9 +287,98 @@ function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, par
   // Allow file to be processed twice if the parameters are different
   alreadyProcessed[filename + JSON.stringify(parameters)] = true;
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
+  const conditionalStatments = [];
+
+  let excludeFromIndex = -1;
   const generatedSql = sqlLines
     .map((line) => {
-      // First let's replace any parameters
+      // First let's process the conditional logic. This is where there is a block
+      // of code like:
+      // {if:param}
+      //    // Code if param "param" exists
+      // {endif:param}
+      // We restrict it so that the "if" and "endif" statements must be the only
+      // thing on a line.
+      // Also allow the variant:
+      // {if:param=blah}
+      //    // Code if param "param" exists and equals "blah"
+      // {endif:param}
+
+      // See if there are any conditional statements.
+      // For now this logic only allows at most one opening
+      // or closing condition per line. Should be enough.
+      const possibleConditionStatement = new RegExp('^(.*){if:([^}=]+)(?:=([^}]+))?}(.*)$');
+      if (line.match(possibleConditionStatement)) {
+        const possibleConditionMatch = line.match(possibleConditionStatement);
+        const [, preText, paramName, optinalParamValue, postText] = possibleConditionMatch;
+        if ((preText && preText.length > 0) || (postText && postText.length > 0)) {
+          console.log(
+            `The file ${basename(filename)} has an if statement for the parameter: ${paramName}`
+          );
+          console.log('However the syntax is incorrect. The {if:xxx} block should be the only');
+          console.log('thing on the line. E.g. nothing before or after - including whitespace');
+          process.exit();
+        }
+        if (
+          (parameters[paramName] || parameters[paramName] === 0) &&
+          (!optinalParamValue || parameters[paramName] === optinalParamValue)
+        ) {
+          const isIncluding = excludeFromIndex < 0; // condition is met so include UNLESS currently excluding
+          conditionalStatments.push({ paramName, isIncluding });
+        } else {
+          //
+          const isIncluding = false; // condition is not met so exclude from here onwards
+          if (excludeFromIndex < 0) excludeFromIndex = conditionalStatments.length;
+          conditionalStatments.push({ paramName, isIncluding });
+        }
+        return false;
+      }
+
+      // Now let's check for the closure of any conditional statements e.g.
+      // the end of blocks like this:
+      // {if:param}
+      //    // Code if param "param" exists
+      // {endif:param}
+      const possibleConditionEnd = new RegExp('^(.*){endif:([^}]+)}(.*)$');
+      if (line.match(possibleConditionEnd)) {
+        const possibleConditionMatch = line.match(possibleConditionEnd);
+        const [, preText, paramName, postText] = possibleConditionMatch;
+        if ((preText && preText.length > 0) || (postText && postText.length > 0)) {
+          console.log(
+            `The file ${basename(filename)} has an endif statement for the parameter: ${paramName}`
+          );
+          console.log('However the syntax is incorrect. The {endif:xxx} block should be the only');
+          console.log('thing on the line. E.g. nothing before or after - including whitespace');
+          process.exit();
+        }
+        // Must equal the last if statement
+        if (
+          conditionalStatments.length > 0 &&
+          conditionalStatments[conditionalStatments.length - 1].paramName === paramName
+        ) {
+          // all is well
+          conditionalStatments.pop();
+          if (conditionalStatments.length === excludeFromIndex) {
+            excludeFromIndex = -1;
+          }
+        } else {
+          console.log(
+            `The file ${basename(filename)} has an endif statement for the parameter: ${paramName}`
+          );
+          console.log('However the param for the opening {if:xx} statement does not match.');
+          console.log('You can nest if statements inside other if statements, but you cannot');
+          console.log('close an if statement out of sequence.');
+          process.exit();
+        }
+        return false;
+      }
+
+      if (excludeFromIndex > -1) {
+        // We're excluding so return blank
+        return false;
+      }
+
+      // Now let's replace any parameters
       const possibleParamRegex = new RegExp('{param:([^}]+)}');
       if (line.match(possibleParamRegex)) {
         let possibleParamMatch = line.match(possibleParamRegex);
@@ -416,6 +505,7 @@ ${CODESET_MARKER}
         return line;
       }
     })
+    .filter((x) => x !== false) // remove the "false" entries to avoid blank lines
     .join('\n');
   return { sql: generatedSql, codeSets: requiredCodeSets };
 }

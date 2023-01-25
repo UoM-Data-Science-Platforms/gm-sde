@@ -1,0 +1,16 @@
+h14..00	CYCLOPHOSPHAMIDE
+h141.00	CYCLOPHOSPHAMIDE 50mg tablets
+h142.00	CYCLOPHOSPHAMIDE 100mg injection (pdr for recon)
+h143.00	CYCLOPHOSPHAMIDE 200mg injection (pdr for recon)
+h144.00	CYCLOPHOSPHAMIDE 500mg injection (pdr for recon)
+h145.00	CYCLOPHOSPHAMIDE 1g injection (pdr for recon)
+h146.00	*ENDOXANA 10mg tablets
+h147.00	*ENDOXANA 50mg tablets
+h148.00	ENDOXANA 100mg injection (pdr for recon)
+h149.00	ENDOXANA 200mg injection (pdr for recon)
+h14A.00	CYCLOPHOS 200mg injection (pdr for recon)
+h14B.00	CYCLOPHOS 500mg injection (pdr for recon)
+h14C.00	CYCLOPHOS 1g injection (pdr for recon)
+h14a.00	ENDOXANA 500mg injection (pdr for recon)
+h14b.00	ENDOXANA 1g injection (pdr for recon)
+h14c.00	CYCLOPHOSPHAMIDE 2g powder for solution for injection

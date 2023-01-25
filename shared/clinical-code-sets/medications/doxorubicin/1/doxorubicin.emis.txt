@@ -1,0 +1,20 @@
+^ESCT1305255	Caelyx pegylated liposomal 20mg/10ml concentrate for solution for infusion vials (Janssen-Cilag Ltd)
+^ESCT1305257	Caelyx pegylated liposomal 50mg/25ml concentrate for solution for infusion vials (Janssen-Cilag Ltd)
+^ESCT1438427	Caelyx pegylated liposomal 20mg/10ml concentrate for solution for infusion vials (Baxter Healthcare Ltd)
+^ESCT1438429	Caelyx pegylated liposomal 50mg/25ml concentrate for solution for infusion vials (Baxter Healthcare Ltd)
+^ESCTCA1029326	Caelyx 20mg/10ml concentrate for solution for infusion vials (Janssen-Cilag Ltd)
+^ESCTCA1029329	Caelyx 50mg/25ml concentrate for solution for infusion vials (Janssen-Cilag Ltd)
+^ESCTDO872001	Doxorubicin Rapid Dissolution 10mg powder for solution for injection vials (Pfizer Ltd)
+^ESCTDO872018	Doxorubicin Rapid Dissolution 50mg powder for solution for injection vials (Pfizer Ltd)
+^ESCTDO872120	Doxorubicin 50mg/25ml solution for injection vials
+^ESCTDO872121	Doxorubicin 10mg/5ml solution for injection vials
+^ESCTMY919432	Myocet 50mg powder and solvent for suspension for infusion vials (Teva UK Ltd)
+CAIN3312NEMIS	Caelyx Pegylated Liposomal  Concentrate For Solution For Infusion  20 mg/10 ml vial
+CAIN5611NEMIS	Caelyx Pegylated Liposomal  Concentrate For Solution For Infusion  50 mg/25 ml vial
+DOIN10891NEMIS	Doxorubicin Rapid Dissolution  Injection  10 mg vial
+DOIN10892NEMIS	Doxorubicin Rapid Dissolution  Injection  50 mg vial
+DOIN10894NEMIS	Doxorubicin  Solution for injection  2 mg/ml, 5 ml vial
+DOIN10895NEMIS	Doxorubicin  Solution for injection  2 mg/ml, 25 ml vial
+DOIN4867	Doxorubicin Hydrochloride  Injection  10 mg
+DOIN6754	Doxorubicin Hydrochloride  Injection  50 mg
+MYPO23133NEMIS	Myocet  Powder And Solvent For Suspension For Infusion  50 mg vial

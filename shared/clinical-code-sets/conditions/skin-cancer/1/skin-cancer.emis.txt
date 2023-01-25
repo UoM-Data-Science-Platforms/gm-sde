@@ -1,0 +1,724 @@
+^ESCT1166685	Excision of basal cell carcinoma from right postauricular region with closure
+^ESCT1170898	Malignant melanoma of skin of right lower limb
+^ESCT1192591	Malignant melanoma of other and unspecified parts of face
+^ESCT1210785	Malignant melanoma of skin of left upper limb
+^ESCTAC276947	Acral lentiginous melanoma, malignant
+^ESCTAC389711	Acantholytic squamous cell carcinoma
+^ESCTAC534768	Acantholytic squamous cell carcinoma of skin
+^ESCTAC534935	Acral lentiginous malignant melanoma of skin
+^ESCTAC534936	Acral lentiginous melanoma of skin
+^ESCTAC668933	Acantholytic squamous cell carcinoma
+^ESCTAL534937	ALM - Acral lentiginous melanoma of skin
+^ESCTAL534938	ALMM - Acral lentiginous malignant melanoma of skin
+^ESCTAM559001	Amelanotic malignant melanoma of skin
+^ESCTAM559002	Amelanotic melanoma
+^ESCTAN308052	Angiokeratoma in tuberous sclerosis
+^ESCTBA251977	Basiloma
+^ESCTBA310112	Basisquamous cell carcinoma
+^ESCTBA319878	Basal cell carcinoma, fibroepithelial
+^ESCTBA342052	Basal cell carcinoma, morpheic
+^ESCTBA342053	Basal cell carcinoma, desmoplastic type
+^ESCTBA362872	Basal cell carcinoma syndrome
+^ESCTBA441215	Basaloid squamous cell carcinoma
+^ESCTBA450548	Basal cell carcinoma - morpheic
+^ESCTBA502811	Basal cell carcinoma of eyelid
+^ESCTBA534852	Basalioma
+^ESCTBA534856	Basosquamous carcinoma of skin
+^ESCTBA534878	Basal cell carcinoma with eccrine differentiation
+^ESCTBA591153	Basal cell carcinoma - sclerosing type
+^ESCTBA591154	Basal cell carcinoma, sclerosing type
+^ESCTBA662332	Basal cell carcinoma with eccrine differentiation
+^ESCTBA662362	Basal cell carcinoma with adnexal differentiation
+^ESCTBA662490	Basal cell carcinoma in basal cell naevus syndrome
+^ESCTBA662491	Basal cell carcinoma in basal cell nevus syndrome
+^ESCTBA662766	Basal cell carcinoma with follicular differentiation
+^ESCTBA663121	Basal cell carcinoma of postauricular skin
+^ESCTBA663179	Basal cell carcinoma of preauricular skin
+^ESCTBA663216	Basal cell carcinoma of earlobe
+^ESCTBA663228	Basal cell carcinoma with matrical differentiation
+^ESCTBA663398	Basal cell carcinoma of pinnal sulcus
+^ESCTBA663415	Basal cell carcinoma, micronodular
+^ESCTBA663437	Basal cell carcinoma with sebaceous differentiation
+^ESCTBA663544	Basal cell carcinoma - category
+^ESCTBA663620	Basal cell carcinoma of antihelix of ear
+^ESCTBA666622	Basal cell carcinoma of lower eyelid
+^ESCTBA666623	Basal cell carcinoma of medial canthus
+^ESCTBA666624	Basal cell carcinoma of lateral canthus
+^ESCTBA666625	Basal cell carcinoma of root of nose
+^ESCTBA666626	Basal cell carcinoma of dorsum of nose
+^ESCTBA666627	Basal cell carcinoma of lateral side wall of nose
+^ESCTBA666628	Basal cell carcinoma of ala nasi
+^ESCTBA666629	Basal cell carcinoma of supratip of nose
+^ESCTBA666630	Basal cell carcinoma of tip of nose
+^ESCTBA666631	Basal cell carcinoma of nasal columella
+^ESCTBA666632	Basal cell carcinoma of nasolabial groove
+^ESCTBA666633	Basal cell carcinoma of upper lip
+^ESCTBA666634	Basal cell carcinoma of lower lip
+^ESCTBA666635	Basal cell carcinoma of cheek
+^ESCTBA666636	Basal cell carcinoma of chin
+^ESCTBA666638	Basal cell carcinoma of neck
+^ESCTBA666640	Basal cell carcinoma of helix of ear
+^ESCTBA666641	Basal cell carcinoma of conchal bowl of ear
+^ESCTBA666642	Basal cell carcinoma of antitragus
+^ESCTBA666643	Basal cell carcinoma of tragus
+^ESCTBA666644	Basal cell carcinoma of obverse of pinna
+^ESCTBA666645	Basal cell carcinoma of anterior chest
+^ESCTBA666646	Basal cell carcinoma of abdomen
+^ESCTBA666647	Basal cell carcinoma of upper back
+^ESCTBA666648	Basal cell carcinoma of lower back
+^ESCTBA666649	Basal cell carcinoma of face
+^ESCTBA666651	Basal cell carcinoma of hand
+^ESCTBA666654	Basal cell carcinoma of upper extremity
+^ESCTBA666655	Basal cell carcinoma of arm
+^ESCTBA666657	Basal cell carcinoma of lower extremity
+^ESCTBA666659	Basal cell carcinoma of truncal skin
+^ESCTBA666661	Basal cell carcinoma - adamantinoid
+^ESCTBA666662	Basal cell carcinoma - adenoid
+^ESCTBA666663	Basal cell carcinoma - follicular
+^ESCTBA666664	Basal cell carcinoma - infiltrative
+^ESCTBA666665	Basal cell carcinoma - keratotic
+^ESCTBA666667	Basal cell carcinoma with matrical differentiation
+^ESCTBA666668	Basal cell carcinoma with granular cell change
+^ESCTBA666669	Basal cell carcinoma with monster cells
+^ESCTBA666670	Basal cell carcinoma with sebaceous differentiation
+^ESCTBA666671	Basal cell carcinoma with signet ring change
+^ESCTBA666672	Basal cell carcinoma - primary
+^ESCTBA666675	Basal cell carcinoma recurrent following excision
+^ESCTBA666676	Basal cell carcinoma recurrent following Mohs' excision
+^ESCTBA666677	Basal cell carcinoma recurrent following curettage
+^ESCTBA666678	Basal cell carcinoma recurrent following cryosurgery
+^ESCTBA666679	Basal cell carcinoma recurrent following radiotherapy
+^ESCTBA666680	Basal cell carcinoma - first recurrence
+^ESCTBA666681	Basal cell carcinoma - second recurrence
+^ESCTBA666682	Basal cell carcinoma - third recurrence
+^ESCTBA666683	Basal cell carcinoma - multiple recurrences (more than three times)
+^ESCTBA667036	Basal cell carcinoma of nose
+^ESCTBA667038	Basal cell carcinoma of skin of lip
+^ESCTBA667040	Basal cell carcinoma of ear
+^ESCTBA668951	Basal cell carcinoma of scalp
+^ESCTBA668953	Basal cell carcinoma of forehead
+^ESCTBA668955	Basal cell carcinoma of temple
+^ESCTBA668957	Basal cell carcinoma of glabella
+^ESCTBA668958	Basal cell carcinoma of upper eyelid
+^ESCTBA668962	Balloon cell malignant melanoma
+^ESCTBA700550	Basal cell carcinoma of external auditory canal
+^ESCTBA700793	Basal cell carcinoma of back
+^ESCTBA700933	Basal cell carcinoma of chest wall
+^ESCTBA703073	Basal cell carcinoma of auricle of ear
+^ESCTBA703074	Basal cell carcinoma of pinna
+^ESCTBA776157	Basal cell carcinoma of vulva
+^ESCTBA777175	Basal cell carcinoma in situ
+^ESCTBA801963	Basal cell carcinoma of naris
+^ESCTBA802427	Basal cell carcinoma of skin in situ
+^ESCTBC251978	BCC - Basal cell carcinoma
+^ESCTBC362877	BCNS - Basal cell naevus syndrome
+^ESCTBC362880	BCNS - Basal cell nevus syndrome
+^ESCTBC534853	BCC - Basal cell carcinoma of skin
+^ESCTBC534857	BCC - Metatypical basal cell carcinoma of skin
+^ESCTBD388244	BD - Bowen's disease
+^ESCTBE660933	Bednar tumour
+^ESCTBE660934	Bednar tumor
+^ESCTBO388246	Bowen disease
+^ESCTBO668961	Borderline malignant melanoma
+^ESCTCA534778	Cancer in situ skin, squamous cell
+^ESCTCA534855	Cancer of skin, basal cell
+^ESCTCA535246	CA - Squamous cell carcinoma of vulva
+^ESCTCA535268	Cancer of penile skin
+^ESCTCA535583	Carcinoma of anal margin
+^ESCTCA636454	Cancer of skin
+^ESCTCA662755	Carcinosarcomatous squamous cell carcinoma
+^ESCTCA666637	Cancer of chin, basal cell
+^ESCTCA666639	Cancer of skin of neck, basal cell
+^ESCTCA666650	Cancer of skin of face, basal cell
+^ESCTCA666652	Carcinoma on hand, basal cell
+^ESCTCA666653	Cancer of hand, basal cell
+^ESCTCA666656	Cancer of skin of upper limb, basal cell
+^ESCTCA666658	Cancer of skin of lower limb, basal cell
+^ESCTCA666660	Cancer of skin of trunk, basal cell
+^ESCTCA667037	Cancer of nose, basal cell
+^ESCTCA667039	Cancer of skin of lip, basal cell
+^ESCTCA667041	Cancer of skin of ear, basal cell
+^ESCTCA668155	Cancer of the penis, squamous cell
+^ESCTCA668918	Cancer of the scalp, squamous cell
+^ESCTCA668922	Cancer of the forehead, squamous cell
+^ESCTCA668952	Cancer of scalp, basal cell
+^ESCTCA668954	Cancer of forehead, basal cell
+^ESCTCA668956	Cancer of temple, basal cell
+^ESCTCA668959	Cancer of upper eyelid, basal cell
+^ESCTCA671894	Cancer of the larynx, squamous cell
+^ESCTCA676520	Cancer of the pharynx, squamous cell
+^ESCTCA698864	Cancer of the bridge of nose, squamous cell
+^ESCTCA699259	Cancer of the back, squamous cell
+^ESCTCA700485	Cancer of skin of neck, squamous cell
+^ESCTCA700794	Cancer of back, basal cell
+^ESCTCA700796	Cancer of oropharynx, squamous cell
+^ESCTCA700934	Cancer of chest wall, basal cell
+^ESCTCA701612	Cancer of tip of nose, squamous cell
+^ESCTCA702296	Cancer of nasolabial fold, squamous cell
+^ESCTCA703075	Cancer of auricle of ear, basal cell
+^ESCTCA703943	Cancer of temple, squamous cell
+^ESCTCA802428	Carcinoma in situ basal cell
+^ESCTCI668944	Circumscribed solid basal cell carcinoma
+^ESCTCI668948	Cicatrising basal cell carcinoma
+^ESCTCL534764	Clear cell squamous cell carcinoma of skin
+^ESCTCO396160	Condylomatous carcinoma
+^ESCTCO666709	Congenital malignant melanoma
+^ESCTCR587396	Cryotherapy of basal cell carcinoma
+^ESCTCU402444	Cutaneous malignant melanoma
+^ESCTCU438305	Cutaneous tumour
+^ESCTCU438308	Cutaneous tumor
+^ESCTCU534761	Cutaneous squamous cell carcinoma
+^ESCTCU534947	Cutaneous fibrous tissue tumor
+^ESCTCU534949	Cutaneous fibrous tissue tumour
+^ESCTCU663536	Cutaneous vascular tumour
+^ESCTCU663538	Cutaneous vascular tumor
+^ESCTCY668946	Cystic basal cell carcinoma
+^ESCTDE333891	Desmoplastic melanoma, malignant
+^ESCTDE333893	Desmoplastic melanoma, amelanotic
+^ESCTDE534902	Dermal duct tumour
+^ESCTDE534904	Dermal duct tumor
+^ESCTDE534959	Desmoid fibromatosis of skin
+^ESCTDE534960	Desmoid tumor of skin
+^ESCTDE534961	Desmoid tumour of skin
+^ESCTDE668965	Desmoplastic malignant melanoma
+^ESCTDI588753	Disseminated squamous cell carcinoma
+^ESCTDI657064	Distance of malignant melanoma from closest lateral margin
+^ESCTDI657067	Distance of malignant melanoma from deep margin
+^ESCTEC534901	Eccrine dermal duct tumour
+^ESCTEC534903	Eccrine dermal duct tumor
+^ESCTEC534905	Eccrine dermal duct tumor of skin
+^ESCTEC534906	Eccrine dermal duct tumour of skin
+^ESCTEC534907	Eccrine mixed tumour
+^ESCTEC534910	Eccrine mixed tumor
+^ESCTEC534911	Eccrine mixed tumor of skin
+^ESCTEC534912	Eccrine mixed tumour of skin
+^ESCTEC556743	Eccrine dermal cylindroma
+^ESCTEC556750	Eccrine dermal cylindroma of skin
+^ESCTEC662333	Eccrine basal cell carcinoma
+^ESCTEC669005	Eccrine mixed tumour, malignant
+^ESCTEC669007	Eccrine mixed tumor, malignant
+^ESCTEP259026	Epidermoid carcinoma in situ with questionable stromal invasion
+^ESCTEP266364	Epidermoid carcinoma, spindle cell
+^ESCTEP266366	Epidermoid carcinoma - spindle cell
+^ESCTEP278638	Epidermoid carcinoma, keratinizing
+^ESCTEP278639	Epidermoid carcinoma, keratinising
+^ESCTEP307512	Epidermoid carcinoma, small cell, nonkeratinizing
+^ESCTEP307513	Epidermoid carcinoma, small cell, nonkeratinising
+^ESCTEP323404	Epidermoid carcinoma, large cell, nonkeratinizing
+^ESCTEP323406	Epidermoid carcinoma, large cell, nonkeratinising
+^ESCTEP346684	Epidermoid carcinoma in situ
+^ESCTEP534721	Epidermoid carcinoma of lung
+^ESCTEP534753	Epithelial neoplasm of skin
+^ESCTEP535244	Epithelioma of vulva
+^ESCTEX587395	Excision of basal cell carcinoma
+^ESCTEX590006	Excision of malignant skin tumor
+^ESCTEX709384	Excisional biopsy of basal cell carcinoma
+^ESCTEX757654	Excision of postauricular basal cell carcinoma with closure
+^ESCTFA669060	Familial glomus tumour of skin
+^ESCTFA669061	Familial glomus tumor of skin
+^ESCTFA787620	Familial malignant melanoma of skin
+^ESCTFA787621	Familial cutaneous malignant melanoma
+^ESCTFI319880	Fibroepithelioma
+^ESCTFI319881	Fibroepithelioma of Pinkus type
+^ESCTFI319882	Fibroepithelial basal cell carcinoma, Pinkus type
+^ESCTFI534945	Fibrous tissue neoplasm of skin
+^ESCTFI534946	Fibrous tissue tumor of skin
+^ESCTFI534948	Fibrous tissue tumour of skin
+^ESCTFI534963	Fibrohistiocytic tumour
+^ESCTFI534964	Fibrohistiocytic tumor
+^ESCTFI534965	Fibrohistiocytic tumor of skin
+^ESCTFI534966	Fibrohistiocytic tumour of skin
+^ESCTFO662768	Follicular basal cell carcinoma
+^ESCTGL535051	Glomus tumour of skin
+^ESCTGL535052	Glomus tumor of skin
+^ESCTGR534988	Granular cell tumour of skin
+^ESCTGR534989	Granular cell myoblastoma of skin
+^ESCTGR534992	Granular cell tumor of skin
+^ESCTGR735451	Grade III squamous intraepithelial neoplasia with microinvasive squamous cell carcinoma
+^ESCTHY667873	Hypomelanosis surrounding malignant melanoma
+^ESCTIE346687	IEC - Intraepidermal carcinoma
+^ESCTIE534775	IEC - Intraepidermal carcinoma of skin
+^ESCTIN342050	Infiltrating basal cell carcinoma, sclerosing
+^ESCTIN342051	Infiltrating basal cell carcinoma, non-sclerosing
+^ESCTIN388243	Intraepidermal squamous cell carcinoma, Bowen's type
+^ESCTIN416181	In situ malignant melanoma of skin
+^ESCTIN416183	In situ melanoma of skin
+^ESCTIN534777	Intraepidermal carcinoma of skin
+^ESCTIN662767	Infundibulocystic basal cell carcinoma
+^ESCTIN663408	Intraepithelial squamous cell carcinoma
+^ESCTIN666706	In situ superficial spreading malignant melanoma
+^ESCTIN666707	In situ acral lentiginous malignant melanoma
+^ESCTIS416180	ISM - In situ melanoma of skin
+^ESCTIS416182	ISMM - In situ malignant melanoma of skin
+^ESCTKE278642	Keratinising squamous cell carcinoma - large cell
+^ESCTKE278643	Keratinising epidermoid carcinoma
+^ESCTKE278644	Keratinizing squamous cell carcinoma - large cell
+^ESCTKE278645	Keratinizing epidermoid carcinoma
+^ESCTKE662457	Keratotic basal cell carcinoma
+^ESCTLE321660	Lentigo maligna melanoma
+^ESCTLM591180	LM - Lentigo maligna
+^ESCTLO605227	Local recurrence of malignant tumour of skin
+^ESCTLO605228	Local recurrence of malignant tumor of skin
+^ESCTLO605229	Local recurrence of malignant melanoma of skin
+^ESCTLO699937	Location of malignant melanoma in specimen with involved lateral margin
+^ESCTLO703138	Location of malignant melanoma in specimen with uninvolved lateral margin
+^ESCTLO703583	Location of malignant melanoma in specimen with uninvolved deep margin
+^ESCTLO703913	Location of malignant melanoma in specimen with involved deep margin
+^ESCTLY669021	Lymphoepithelial tumour of skin
+^ESCTLY669022	Lymphoepithelial tumor of skin
+^ESCTLY669023	Lymphoepithelioma-like carcinoma of skin
+^ESCTMA251318	Malignant melanoma in junctional naevus
+^ESCTMA251319	Malignant melanoma in junctional nevus
+^ESCTMA253204	Malignant melanoma, no ICD-O subtype
+^ESCTMA253205	Malignant melanoma, no International Classification of Diseases for Oncology subtype
+^ESCTMA279307	Malignant melanoma in precancerous melanosis
+^ESCTMA279308	Malignant melanoma in melanosis
+^ESCTMA314207	Malignant melanoma, regressing
+^ESCTMA321659	Malignant melanoma in Hutchinson's melanotic freckle
+^ESCTMA321661	Malignant melanoma in Hutchinson melanotic freckle
+^ESCTMA333894	Malignant neurotropic melanoma
+^ESCTMA373475	Malignant melanoma in giant pigmented naevus
+^ESCTMA373476	Malignant melanoma in giant pigmented nevus
+^ESCTMA373477	Malignant melanoma in congenital melanocytic nevus
+^ESCTMA373478	Malignant melanoma in congenital melanocytic naevus
+^ESCTMA401659	Malignant melanoma of skin of abdomen
+^ESCTMA401660	Malignant melanoma of skin of ankle
+^ESCTMA401661	Malignant melanoma of skin of axilla
+^ESCTMA401662	Malignant melanoma of skin of back
+^ESCTMA401663	Malignant melanoma of skin of breast
+^ESCTMA401664	Malignant melanoma of skin of buttock
+^ESCTMA401665	Malignant melanoma of skin of cheek
+^ESCTMA401667	Malignant melanoma of skin of chest
+^ESCTMA401668	Malignant melanoma of skin of chin
+^ESCTMA401669	Malignant melanoma of skin of ear
+^ESCTMA401670	Malignant melanoma of skin of elbow
+^ESCTMA401671	Malignant melanoma of skin of external auditory canal
+^ESCTMA401672	Malignant melanoma of skin of eyebrow
+^ESCTMA401674	Malignant melanoma of skin of eyelid
+^ESCTMA401676	Malignant melanoma of skin of finger
+^ESCTMA401677	Malignant melanoma of skin of foot
+^ESCTMA401678	Malignant melanoma of skin of forearm
+^ESCTMA401679	Malignant melanoma of skin of forehead
+^ESCTMA401680	Malignant melanoma of skin of groin
+^ESCTMA402423	Malignant melanoma of skin of hand
+^ESCTMA402424	Malignant melanoma of skin of hip
+^ESCTMA402425	Malignant melanoma of skin of knee
+^ESCTMA402426	Malignant melanoma of skin of lip
+^ESCTMA402427	Malignant melanoma of skin of lower limb
+^ESCTMA402428	Malignant melanoma of skin of neck
+^ESCTMA402429	Malignant melanoma of skin of nose
+^ESCTMA402431	Malignant melanoma of skin of perineum
+^ESCTMA402432	Malignant melanoma of skin of popliteal area
+^ESCTMA402433	Malignant melanoma of skin of scalp
+^ESCTMA402434	Malignant melanoma of skin of shoulder
+^ESCTMA402435	Malignant melanoma of skin of temporal region
+^ESCTMA402436	Malignant melanoma of skin of thigh
+^ESCTMA402437	Malignant melanoma of skin of toe
+^ESCTMA402439	Malignant melanoma of skin of umbilicus
+^ESCTMA402440	Malignant melanoma of skin of upper limb
+^ESCTMA402441	Malignant melanoma of skin of wrist
+^ESCTMA474896	Malignant melanoma of ear and/or external auditory canal
+^ESCTMA474898	Malignant melanoma of ear and/or external auricular canal
+^ESCTMA474908	Malignant melanoma of trunk (excluding scrotum)
+^ESCTMA474917	Malignant melanoma of forearm
+^ESCTMA534756	Malignant epithelial neoplasm of skin
+^ESCTMA534757	Malignant tumour of surface epithelium
+^ESCTMA534758	Malignant tumor of surface epithelium
+^ESCTMA534939	Malignant melanoma arising in intradermal naevus
+^ESCTMA534940	Malignant melanoma arising in intradermal nevus
+^ESCTMA534941	Malignant melanoma arising in congenital naevus
+^ESCTMA534942	Malignant melanoma arising in congenital nevus
+^ESCTMA535247	Malignant melanoma of vulva
+^ESCTMA535265	Malignant tumour of skin of penis
+^ESCTMA535266	Malignant tumor of penile skin
+^ESCTMA535267	Malignant tumor of skin of penis
+^ESCTMA535269	Malignant tumour of penile skin
+^ESCTMA535594	Malignant tumour of epidermal appendage
+^ESCTMA535595	Malignant tumor of epidermal appendage
+^ESCTMA535596	Malignant skin tumor with adnexal differentiation
+^ESCTMA535597	Malignant skin tumour with adnexal differentiation
+^ESCTMA535598	Malignant tumour of dermis
+^ESCTMA535599	Malignant tumor of dermis
+^ESCTMA551208	Malignant melanoma of head and neck
+^ESCTMA551211	Malignant melanoma of lower limb
+^ESCTMA553176	Malignant melanoma of soft tissue
+^ESCTMA558999	Malignant tumour of skin with pilar differentiation
+^ESCTMA559000	Malignant tumor of skin with pilar differentiation
+^ESCTMA597037	Malignant blue naevus of skin
+^ESCTMA597038	Malignant blue nevus of skin
+^ESCTMA597039	Malignant melanoma in blue naevus
+^ESCTMA597040	Malignant melanoma in blue nevus
+^ESCTMA636488	Malignant melanoma - category
+^ESCTMA636489	Malignant melanocytic lesion
+^ESCTMA636490	Malignant melanoma, metastatic
+^ESCTMA636575	Malignant melanoma
+^ESCTMA662605	Malignant neurotropic melanoma
+^ESCTMA666705	Malignant melanoma (radial growth phase)
+^ESCTMA666708	Malignant melanoma (vertical growth phase)
+^ESCTMA666710	Materno-foetal metastatic malignant melanoma
+^ESCTMA666711	Materno-fetal metastatic malignant melanoma
+^ESCTMA666712	Malignant melanoma of soft tissues
+^ESCTMA666714	Malignant melanoma animal-type
+^ESCTMA666832	Malignant vascular tumour of skin
+^ESCTMA666833	Malignant vascular tumor of skin
+^ESCTMA667109	Malignant fibrohistiocytic tumour of skin
+^ESCTMA667110	Malignant fibrohistiocytic tumor of skin
+^ESCTMA668967	Malignant melanoma of oral cavity
+^ESCTMA668968	Malignant melanoma of nail apparatus
+^ESCTMA669003	Malignant chondroid syringoma
+^ESCTMA669004	Malignant mixed tumour of the skin
+^ESCTMA669006	Malignant mixed tumor of the skin
+^ESCTMA669008	Malignant chondroid syringoma of skin
+^ESCTMA669244	Malignant infiltration of skin by underlying tumour
+^ESCTMA669245	Malignant infiltration of skin by underlying tumor
+^ESCTMA700476	Malignant melanoma of skin of canthus of eye
+^ESCTMA700757	Malignant melanoma of skin of lower eyelid
+^ESCTMA700853	Malignant melanoma of skin of upper eyelid
+^ESCTMA701178	Malignant melanoma of retina
+^ESCTMA702161	Malignant melanoma of unknown origin
+^ESCTMA702162	Malignant melanoma of unknown primary
+^ESCTMA702375	Malignant melanoma of skin of lower lip
+^ESCTMA702730	Malignant melanoma of skin of upper lip
+^ESCTMA709853	Malignant basal cell neoplasm of skin
+^ESCTMA709854	Malignant basal cell tumor of skin
+^ESCTMA709855	Malignant basal cell tumour of skin
+^ESCTMA734490	Malignant melanoma of skin of anus
+^ESCTMA735079	Marjolin's ulcer
+^ESCTMA735244	Malignant melanoma of skin of scrotum
+^ESCTMA735278	Malignant melanoma of skin of penis
+^ESCTMA735280	Malignant melanoma of skin of vulva
+^ESCTMA737316	Malignant melanoma of skin of lower leg
+^ESCTMA737317	Malignant melanoma of skin of upper arm
+^ESCTMA845672	Malignant melanoma of skin of left lower limb
+^ESCTME253202	Melanoma
+^ESCTME270082	Melanoma, malignant, of soft parts
+^ESCTME354420	Metastatic squamous cell carcinoma
+^ESCTME402445	Melanoma of skin
+^ESCTME416178	Melanoma in situ of skin (clinical)
+^ESCTME532433	Merkel cell carcinoma
+^ESCTME532435	Merkel cell tumour
+^ESCTME532436	Merkel cell tumor
+^ESCTME534858	Metatypical basal cell carcinoma of skin
+^ESCTME558972	Melanocytic tumour of skin
+^ESCTME558973	Melanocytic tumor of skin
+^ESCTME605238	Metastasis from malignant melanoma of skin
+^ESCTME605239	Metastasis from malignant tumour of skin
+^ESCTME605240	Metastasis from malignant tumor of skin
+^ESCTME636576	Melanosarcoma
+^ESCTME662754	Metaplastic squamous cell carcinoma
+^ESCTME666673	Metastatic basal cell carcinoma
+^ESCTME666715	Metastatic malignant melanoma with diffuse hypermelanosis
+^ESCTME668940	Metastatic squamous cell carcinoma
+^ESCTME727838	Metastatic malignant melanoma
+^ESCTME796977	Metastasis to lymph node from squamous cell carcinoma
+^ESCTMI283909	Mixed small cell carcinoma
+^ESCTMI310110	Mixed basal-squamous cell carcinoma
+^ESCTMI310111	Mixed basal - squamous cell carcinoma
+^ESCTMI346415	Mixed adenocarcinoma and squamous cell carcinoma
+^ESCTMI346416	Mixed adenocarcinoma and epidermoid carcinoma
+^ESCTMI534908	Mixed tumour of skin
+^ESCTMI534909	Mixed tumor of skin
+^ESCTMI668960	Minimal deviation malignant melanoma
+^ESCTMM253203	MM - Malignant melanoma
+^ESCTMM402443	MM - Malignant melanoma of skin
+^ESCTMM556001	MM - Malignant melanoma of eye
+^ESCTMO450549	Morpheaform basal cell carcinoma
+^ESCTMO668947	Morpheic basal cell carcinoma
+^ESCTMU349282	Multicentric basal cell carcinoma
+^ESCTMU668950	Multifocal basal cell carcinoma
+^ESCTNA425553	Naevus AND/OR melanoma
+^ESCTNE333892	Neurotropic melanoma, malignant
+^ESCTNE362871	Nevoid basal cell carcinoma syndrome
+^ESCTNE425554	Nevus AND/OR melanoma
+^ESCTNE438311	Neoplasm of skin with adnexal differentiation
+^ESCTNE438312	Neoplasm of adnexa of skin
+^ESCTNE438315	Neoplasm of sweat gland
+^ESCTNE438319	Neoplasm of sebaceous gland
+^ESCTNE662604	Neurotropic melanoma, malignant
+^ESCTNE668966	Neurotropic malignant melanoma
+^ESCTNM534934	NM - Nodular melanoma of skin
+^ESCTNO534932	Nodular malignant melanoma of skin
+^ESCTNO534933	Nodular melanoma of skin
+^ESCTNO668945	Nodulo-ulcerative basal cell carcinoma
+^ESCTNO774503	Nodular basal cell carcinoma of skin
+^ESCTPE668154	Penile squamous cell carcinoma
+^ESCTPI251975	Pigmented basal cell carcinoma
+^ESCTPI319879	Pinkus tumor
+^ESCTPI319883	Pinkus tumour
+^ESCTPI660932	Pigmented dermatofibrosarcoma protuberans of skin
+^^ESCTPI660936	Pigmented dermatofibrosarcoma
+^ESCTPI662516	Pigmented basal cell carcinoma
+^ESCTPL669126	Plexiform fibrohistiocytic tumour of skin
+^ESCTPL669127	Plexiform fibrohistiocytic tumor of skin
+^ESCTPO356825	Polypoid squamous cell carcinoma
+^ESCTPR308048	Pringle tumor
+^ESCTPR308051	Pringle tumour
+^ESCTPR723871	Primary squamous cell carcinoma of naris
+^ESCTPR782749	Primary squamous cell carcinoma of ear
+^ESCTPR795694	Primary squamous cell carcinoma of lip
+^ESCTPR801192	Primary squamous cell carcinoma of upper limb
+^ESCTPR802773	Primary squamous cell carcinoma of chest wall
+^ESCTPR807691	Primary squamous cell carcinoma of vermilion border of lip
+^ESCTPR845442	Primary basal cell carcinoma of left upper limb
+^ESCTPR845444	Primary basal cell carcinoma of left ear
+^ESCTPR845446	Primary basal cell carcinoma of left eyelid
+^ESCTPR845449	Primary basal cell carcinoma of left lower limb
+^ESCTPR845452	Primary basal cell carcinoma of right upper limb
+^ESCTPR845454	Primary basal cell carcinoma of right ear
+^ESCTPR845456	Primary basal cell carcinoma of right eyelid
+^ESCTPR845459	Primary basal cell carcinoma of right lower limb
+^ESCTPR845800	Primary squamous cell carcinoma of left ear
+^ESCTPR845804	Primary squamous cell carcinoma of skin of left lower limb
+^ESCTPR845815	Primary squamous cell carcinoma of right ear
+^ESCTPR845820	Primary squamous cell carcinoma of skin of right lower limb
+^ESCTPS389709	Pseudoglandular squamous cell carcinoma
+^ESCTPS534767	Pseudosarcoma of skin
+^ESCTPS668565	Psoralen and long-wave ultraviolet radiation (PUVA) therapy-associated basal cell carcinoma
+^ESCTPS668566	Psoralen and long-wave ultraviolet radiation therapy-associated basal cell carcinoma
+^ESCTPS668568	Psoralen and long-wave ultraviolet radiation (PUVA) therapy-associated squamous cell carcinoma
+^ESCTPS668569	Psoralen and long-wave ultraviolet radiation therapy-associated squamous cell carcinoma
+^ESCTPS668571	Psoralen and long-wave ultraviolet radiation (PUVA) therapy-associated malignant melanoma
+^ESCTPS668572	Psoralen and long-wave ultraviolet radiation therapy-associated malignant melanoma
+^ESCTPS668932	Pseudosarcoma of the skin
+^ESCTPS796178	Pseudovascular squamous cell carcinoma
+^ESCTPT637768	pT4: Tumour of any size with direct extension to chest wall or skin (breast)
+^ESCTPT637769	pT4: Tumor of any size with direct extension to chest wall or skin (breast)
+^ESCTPT637772	pT4b: Tumour of any size with oedema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast
+^ESCTPT637773	pT4b: Tumor of any size with edema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast
+^ESCTPT637774	pT4b: Tumor of any size with edema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast (breast)
+^ESCTPT637775	pT4b: Tumour of any size with oedema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast (breast)
+^ESCTPT637778	pT4c: Tumour of any size with direct extension to chest wall (not including pectoralis muscle) and oedema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast
+^ESCTPT637779	pT4c: Tumor of any size with direct extension to chest wall (not including pectoralis muscle) and edema (including peau d'orange) or ulceration of the skin of the breast or satellite skin nodules confined to the same breast
+^ESCTPT657026	pT1: Tumour 2 cm or less in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657027	pT1: Tumor 2 cm or less in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657028	pT1a: Tumour 2 cm or less in greatest dimension, limited to dermis or 2 mm or less in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657029	pT1a: Tumor 2 cm or less in greatest dimension, limited to dermis or 2 mm or less in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657030	pT1b: Tumour 2 cm or less in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657031	pT1b: Tumor 2 cm or less in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657032	pT1c: Tumour 2 cm or less in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657033	pT1c: Tumor 2 cm or less in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657034	pT2: Tumour more than 2 cm, but not more than 5 cm, in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657035	pT2: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657036	pT2a: Tumour more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis or greater than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657037	pT2a: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis or greater than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657038	pT2b: Tumour more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657039	pT2b: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657040	pT2c: Tumour more than 2 cm, but not more than 5 cm, in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657041	pT2c: Tumor more than 2 cm, but not more than 5 cm, in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657042	pT3: Tumour more than 5 cm in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657043	pT3: Tumor more than 5 cm in greatest dimension (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657044	pT3a: Tumour more than 5 cm in greatest dimension, limited to dermis or not more than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657045	pT3a: Tumor more than 5 cm in greatest dimension, limited to dermis or not more than 2 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657046	pT3b: Tumour more than 5 cm in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657047	pT3b: Tumor more than 5 cm in greatest dimension, limited to dermis and greater than 2 mm in thickness, but not more than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657048	pT3c: Tumour more than 5 cm in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657049	pT3c: Tumor more than 5 cm in greatest dimension, invading the subcutis and/or greater than 6 mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657051	pT4: Tumour invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657052	pT4: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657053	pT4b: Tumour invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) greater than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657054	pT4b: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) greater than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657055	pT4a: Tumour invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) not more than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657056	pT4a: Tumor invades deep extradermal structures (i.e. cartilage, skeletal muscle, or bone) not more than 6mm in thickness (carcinoma of skin excluding eyelid, vulva, penis, and melanomas)
+^ESCTPT657177	pT4a: Tumour invades through cortical bone, inferior alveolar nerve, floor of mouth, or skin of face, i.e., chin or nose (lip)
+^ESCTPT657178	pT4a: Tumor invades through cortical bone, inferior alveolar nerve, floor of mouth, or skin of face, i.e., chin or nose (lip)
+^ESCTPT657179	pT4a: Tumour invades through cortical bone, into deep (extrinsic) muscle of tongue (genioglossus, hyoglossus, palatoglossus, and styloglossus), maxillary sinus, or skin of face (oral cavity)
+^ESCTPT657180	pT4a: Tumor invades through cortical bone, into deep (extrinsic) muscle of tongue (genioglossus, hyoglossus, palatoglossus, and styloglossus), maxillary sinus, or skin of face (oral cavity)
+^ESCTPT657251	pT4a: Tumour invades anterior orbital contents, skin of cheek, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinuses (maxillary sinus)
+^ESCTPT657252	pT4a: Tumor invades anterior orbital contents, skin of cheek, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinuses (maxillary sinus)
+^ESCTPT657265	pT4a: Tumour invades any of the following: anterior orbital contents, skin of nose or cheek, minimal extension to anterior cranial fossa, pterygoid plates, sphenoid or frontal sinuses (nasal cavity and ethmoid sinus)
+^ESCTPT657266	pT4a: Tumor invades any of the following: anterior orbital contents, skin of nose or cheek, minimal extension to anterior cranial fossa, pterygoid plates, sphenoid or frontal sinuses (nasal cavity and ethmoid sinus)
+^ESCTPU668564	PUVA therapy-associated basal cell carcinoma
+^ESCTPU668567	PUVA therapy-associated squamous cell carcinoma
+^ESCTPU668570	PUVA therapy-associated malignant melanoma
+^ESCTRE666674	Recurrent basal cell carcinoma
+^ESCTRE701179	Retinal melanoma
+^ESCTRE778099	Recurrent squamous cell carcinoma
+^ESCTRE778100	Recurrent SCC (squamous cell carcinoma)
+^ESCTRO251976	Rodent ulcer
+^ESCTRO502812	Rodent ulcer of eyelid
+^ESCTRU534854	RU - Rodent ulcer
+^ESCTSC296473	SCC - Squamous cell carcinoma
+^ESCTSC388245	SCC - Intraepidermal squamous cell carcinoma - Bowen's type
+^ESCTSC396161	SCC - Verrucous squamous cell carcinoma
+^ESCTSC534760	SCC - Cutaneous squamous cell carcinoma
+^ESCTSC534762	SCC - Squamous cell carcinoma of skin
+^ESCTSC534765	SCC - Clear cell squamous cell carcinoma of skin
+^ESCTSC534769	SCC - Acantholytic squamous cell carcinoma of skin
+^ESCTSC534776	SCC - Squamous cell carcinoma in situ of skin
+^ESCTSC535245	SCC - Squamous cell carcinoma of vulva
+^ESCTSC535562	SCC - Squamous cell carcinoma of lip
+^ESCTSI668936	Signet ring squamous cell carcinoma
+^ESCTSK438307	Skin tumour
+^ESCTSK438309	Skin tumor
+^ESCTSK534977	Skin tumour of neural origin
+^ESCTSK534978	Skin tumor of neural origin
+^ESCTSK534979	Skin mass of neural origin
+^ESCTSK534996	Skin tumour of smooth muscle origin
+^ESCTSK534997	Skin tumor of smooth muscle origin
+^ESCTSK636453	Skin cancer
+^ESCTSM283908	Small cell-large cell carcinoma
+^ESCTSM534931	SMM - Superficial spreading melanoma of skin
+^ESCTSP361942	Spitzoid malignant melanoma
+^ESCTSP534763	Spinous cell carcinoma
+^ESCTSP534766	Spindle cell squamous carcinoma of skin
+^ESCTSP556744	Spiegler's tumour
+^ESCTSP556746	Spiegler's tumor
+^ESCTSP668931	Spindle cell squamous cell carcinoma
+^ESCTSP668963	Spindle cell malignant melanoma
+^ESCTSP668964	Spitzoid malignant melanoma
+^ESCTSQ259025	Squamous cell carcinoma in situ with questionable stromal invasion
+^ESCTSQ266363	Squamous cell carcinoma, spindle cell
+^ESCTSQ266365	Squamous cell carcinoma, sarcomatoid
+^ESCTSQ266367	Squamous cell carcinoma - spindle cell
+^ESCTSQ269861	Squamous cell carcinoma, microinvasive
+^ESCTSQ278635	Squamous cell carcinoma, keratinising
+^ESCTSQ278636	Squamous cell carcinoma, keratinizing
+^ESCTSQ278637	Squamous cell carcinoma, large cell, keratinizing
+^ESCTSQ278640	Squamous cell carcinoma, large cell, keratinising
+^ESCTSQ296469	Squamous cell carcinoma
+^ESCTSQ296470	Squamous carcinoma
+^ESCTSQ296471	Squamous cell epithelioma
+^ESCTSQ296474	Squamous cell carcinoma, no ICD-O subtype
+^ESCTSQ296475	Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype
+^ESCTSQ307510	Squamous cell carcinoma, small cell, nonkeratinising
+^ESCTSQ307511	Squamous cell carcinoma, small cell, nonkeratinizing
+^ESCTSQ323402	Squamous cell carcinoma, large cell, nonkeratinising
+^ESCTSQ323403	Squamous cell carcinoma, large cell, nonkeratinizing
+^ESCTSQ323405	Squamous cell carcinoma, nonkeratinizing
+^ESCTSQ323407	Squamous cell carcinoma, nonkeratinising
+^ESCTSQ346682	Squamous cell carcinoma in situ
+^ESCTSQ346688	Squamous cell carcinoma in situ, no ICD-O subtype
+^ESCTSQ346689	Squamous cell carcinoma in situ, no International Classification of Diseases for Oncology subtype
+^ESCTSQ354419	Squamous cell carcinoma, metastatic
+^ESCTSQ389710	Squamous cell carcinoma, acantholytic
+^ESCTSQ441214	Squamous cell carcinoma with horn formation
+^ESCTSQ441216	Squamous cell carcinoma, clear cell type
+^ESCTSQ475697	Squamous cell carcinoma in situ
+^ESCTSQ502810	Squamous cell carcinoma of eyelid
+^ESCTSQ534773	Squamous cell carcinoma in situ of skin
+^ESCTSQ535243	Squamous cell carcinoma of vulva
+^ESCTSQ535561	Squamous cell carcinoma of lip
+^ESCTSQ541683	Squamous cell carcinoma antigen
+^ESCTSQ559155	Squamous cell carcinoma of scrotum
+^ESCTSQ569969	Squamous cell carcinoma of skin of upper lip
+^ESCTSQ569970	Squamous cell carcinoma of skin of lower lip
+^ESCTSQ569971	Squamous cell carcinoma of skin of cheek
+^ESCTSQ662373	Squamous cell carcinoma in post-traumatic skin lesion
+^ESCTSQ662512	Squamous cell carcinoma, nonkeratinising, differentiated
+^ESCTSQ662513	Squamous cell carcinoma, nonkeratinizing, differentiated
+^ESCTSQ662690	Squamous cell carcinoma, nonkeratinising, mixed differentiated and undifferentiated
+^ESCTSQ662691	Squamous cell carcinoma, nonkeratinizing, mixed differentiated and undifferentiated
+^ESCTSQ663579	Squamous cell carcinoma - category
+^ESCTSQ667033	Squamous cell carcinoma
+^ESCTSQ667034	Squamous cell carcinoma of anogenital area
+^ESCTSQ667035	Squamous cell carcinoma of nail apparatus
+^ESCTSQ668153	Squamous cell carcinoma of penis
+^ESCTSQ668916	Squamous cell carcinoma of vulva due to lichen sclerosus
+^ESCTSQ668917	Squamous cell carcinoma of scalp
+^ESCTSQ668919	Squamous cell carcinoma of skin of face
+^ESCTSQ668920	Squamous cell cancer of skin of face
+^ESCTSQ668921	Squamous cell carcinoma of forehead
+^ESCTSQ668923	Squamous cell carcinoma of skin of ear
+^ESCTSQ668924	Squamous cell cancer of skin of ear
+^ESCTSQ668925	Squamous cell carcinoma of foot
+^ESCTSQ668926	Squamous cell carcinoma of hand
+^ESCTSQ668927	Squamous cell carcinoma of upper extremity
+^ESCTSQ668928	Squamous cell carcinoma of skin of lower extremity
+^ESCTSQ668929	Squamous cell cancer of skin of lower limb
+^ESCTSQ668930	Squamous cell carcinoma of skin of trunk
+^ESCTSQ698863	Squamous cell carcinoma of bridge of nose
+^ESCTSQ699209	Squamous cell carcinoma of chin
+^ESCTSQ699258	Squamous cell carcinoma of back
+^ESCTSQ699403	Squamous cell carcinoma of ala nasi
+^ESCTSQ700484	Squamous cell carcinoma of skin of neck
+^ESCTSQ700875	Squamous cell carcinoma of external auditory canal
+^ESCTSQ701222	Squamous cell carcinoma of auricle of ear
+^ESCTSQ701223	Squamous cell carcinoma of pinna
+^ESCTSQ701224	Squamous cell carcinoma of auricle
+^ESCTSQ701611	Squamous cell carcinoma of tip of nose
+^ESCTSQ702295	Squamous cell carcinoma of nasolabial fold
+^ESCTSQ703942	Squamous cell carcinoma of temple
+^ESCTSQ735080	Squamous cell carcinoma arising in chronic ulcer
+^ESCTSQ736206	Squamous cell carcinoma of nose
+^ESCTSQ736207	Squamous cell carcinoma of shoulder
+^ESCTSQ775025	Squamous cell carcinoma of head and neck
+^ESCTSS534930	SSMM - Superficial spreading malignant melanoma of skin
+^ESCTSU534928	Superficial spreading malignant melanoma of skin
+^ESCTSU534929	Superficial spreading melanoma of skin
+^ESCTSU643743	Surgical bronchial margin involved by squamous cell carcinoma in situ
+^ESCTSU657061	Surgical lateral margin uninvolved by malignant melanoma
+^ESCTSU657062	Surgical lateral margin involved by malignant melanoma
+^ESCTSU657065	Surgical deep margin uninvolved by malignant melanoma
+^ESCTSU657066	Surgical deep margin involved by malignant melanoma
+^ESCTSU668949	Superficial basal cell carcinoma
+^ESCTSU668969	Subungual malignant melanoma
+^ESCTT4633295	T4: Lip: Tumour invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face)
+^ESCTT4633296	T4: Lip: Tumor invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face)
+^ESCTTN534150	TNM Carcinoma of skin tumour staging
+^ESCTTN534151	TNM Carcinoma of skin tumor staging
+^ESCTTN534154	TNM Malignant melanoma of skin staging
+^ESCTTN534222	TNM Malignant melanoma of eyelid staging
+^ESCTTN534226	TNM Malignant melanoma of conjunctiva staging
+^ESCTTN534228	TNM Malignant melanoma of uvea staging
+^ESCTTN534230	TNM Malignant melanoma of iris staging
+^ESCTTN534232	TNM Malignant melanoma of ciliary body staging
+^ESCTTN534234	TNM Malignant melanoma of choroid staging
+^ESCTTR532434	Trabecular cell carcinoma of skin
+^ESCTTR662321	Transitional cell carcinoma with squamous differentiation
+^ESCTTU355357	Turban tumor
+^ESCTTU355359	Turban tumour
+^ESCTTU412564	Tumour-like lesion of skin
+^ESCTTU412565	Tumor-like lesion of skin
+^ESCTTU438306	Tumour of skin
+^ESCTTU438310	Tumor of skin
+^ESCTTU438313	Tumor of epidermal appendage
+^ESCTTU438314	Tumour of epidermal appendage
+^ESCTTU438316	Tumour of skin with eccrine differentiation
+^ESCTTU438317	Tumor of skin with eccrine differentiation
+^ESCTTU438318	Tumour of skin with sebaceous differentiation
+^ESCTTU438320	Tumor of skin with sebaceous differentiation
+^ESCTTU534152	Tumor-node-metastasis (TNM) carcinoma of skin tumor staging
+^ESCTTU534153	Tumor-node-metastasis (TNM) carcinoma of skin tumour staging
+^ESCTTU534155	Tumor-node-metastasis (TNM) malignant melanoma of skin staging
+^ESCTTU534223	Tumor-node-metastasis (TNM) malignant melanoma of eyelid staging
+^ESCTTU534227	Tumor-node-metastasis (TNM) malignant melanoma of conjunctiva staging
+^ESCTTU534229	Tumor-node-metastasis (TNM) malignant melanoma of uvea staging
+^ESCTTU534231	Tumor-node-metastasis (TNM) malignant melanoma of iris staging
+^ESCTTU534233	Tumor-node-metastasis (TNM) malignant melanoma of ciliary body staging
+^ESCTTU534235	Tumor-node-metastasis (TNM) malignant melanoma of choroid staging
+^ESCTTU534754	Tumour of surface epithelium
+^ESCTTU534755	Tumor of surface epithelium
+^ESCTTU534915	Tumour of skin with apocrine differentiation
+^ESCTTU534916	Tumor of skin with apocrine differentiation
+^ESCTTU534943	Tumour of dermis
+^ESCTTU534944	Tumor of dermis
+^ESCTTU535262	Tumour of skin of penis
+^ESCTTU535263	Tumor of skin of penis
+^ESCTTU556745	Turban tumour
+^ESCTTU556747	Turban tumor
+^ESCTTU558987	Tumour of skin with pilar differentiation
+^ESCTTU558988	Tumor of skin with pilar differentiation
+^ESCTUN737473	Undifferentiated nonkeratinizing squamous cell carcinoma
+^ESCTVA663534	Vascular neoplasm of skin
+^ESCTVA663537	Vascular tumor of skin
+^ESCTVE396157	Verrucous squamous cell carcinoma
+^ESCTVE396158	Verrucous epidermoid carcinoma
+^ESCTVE668937	Verrucous squamous cell carcinoma
+^ESCTVE668938	Verrucous epidermoid carcinoma
+^ESCTWA396159	Warty carcinoma
+EMISNQHI85	High risk basal cell carcinoma
+EMISNQME101	[M]Metaplastic melanoma
+EMISNQMU16	Multiple self-healing epithelioma of Ferguson-Smith
+EMISNQSQ1	Squamous cell carcinoma of lung
+^ESCTPR402787	Primary malignant neoplasm of sebaceous gland
+^ESCTPR402886	Primary malignant neoplasm of sweat gland
+EMISNQME100	[M]Metaplastic carcinoma
+EMISNQTR25	Trichoblastoma
+ESCTST2	Stewart-Treves syndrome
+^ESCTBE283573	Benign melanoma
+^ESCTFE534783	Ferguson-Smith tumor
+^ESCTFE534784	Ferguson-Smith tumour
+^ESCTLY351613	Lymphangiosarcoma of Stewart and Treves
+^ESCTLY351614	Lymphangiosarcoma of skin
+
+

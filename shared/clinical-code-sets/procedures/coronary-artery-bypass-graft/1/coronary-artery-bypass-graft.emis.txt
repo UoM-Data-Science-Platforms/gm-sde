@@ -1,0 +1,50 @@
+^ESCT1167245	Aortocoronary artery bypass of four or more coronary arteries with saphenous vein graft
+^ESCT1167246	Saphenous vein graft bypass of four or more coronary arteries
+^ESCT1167247	Aortocoronary artery bypass of one coronary artery with saphenous vein graft
+^ESCT1167248	Saphenous vein graft bypass of one coronary artery
+^ESCT1167249	Aortocoronary artery bypass of three coronary arteries with saphenous vein graft
+^ESCT1167250	Saphenous vein graft bypass of three coronary arteries
+^ESCT1167251	Aortocoronary artery bypass of two coronary arteries with saphenous vein graft
+^ESCT1167252	Saphenous vein graft bypass of two coronary arteries
+^ESCT1167253	Allograft bypass of four or more coronary arteries
+^ESCT1167254	Allograft bypass of one coronary artery
+^ESCT1167255	Allograft bypass of three coronary arteries
+^ESCT1167256	Allograft bypass of two coronary arteries
+^ESCT1190438	Saphenous vein graft replacement of coronary artery OS
+^ESCT1190462	Prosthetic replacement of coronary artery
+^ESCT1192303	Allograft replacement of coronary artery
+^ESCT1245171	Saphenous vein graft bypass of coronary artery
+^ESCT1245172	Saphenous vein graft replacement of four or more coronary arteries
+^ESCT1245173	Saphenous vein graft replacement of three coronary arteries
+^ESCT1245174	Saphenous vein graft replacement of two coronary arteries
+^ESCT1268070	History of CABG (coronary artery bypass grafting)
+^ESCT1405522	Coronary artery bypass graft with saphenous vein graft
+^ESCT1407269	Quadruple coronary artery bypass graft
+^ESCTAC255543	ACVG - Aortocoronary vein graft
+^ESCTAC255544	ACSVG - Aortocoronary saphenous vein graft
+^ESCTAC255546	ACSVBG - Aortocoronary saphenous vein bypass graft
+^ESCTAO255541	Aortocoronary artery bypass graft with saphenous vein graft
+^ESCTCA255547	CAVG - Coronary artery vein graft
+^ESCTCA504009	CABG - Coronary artery bypass graft
+^ESCTCA504013	CAG - Coronary artery graft
+^ESCTCA504015	CABG x 1 - Coronary artery bypass graft x 1
+^ESCTCA504017	CABG x 2 - Coronary artery bypass grafts x 2
+^ESCTCA504020	CABG x 3 - Coronary artery bypass grafts x 3
+^ESCTCA504022	CABG x 4 - Coronary artery bypass grafts x 4
+^ESCTCA504024	CABG x 5 - Coronary artery bypass grafts x 5
+^ESCTCA504026	CABG >5 - Coronary artery bypass grafts greater than five
+^ESCTCB504010	CBG - Coronary bypass graft
+^ESCTCO300628	Coronary artery surgery
+^ESCTCO504011	Coronary artery bypass grafting
+^ESCTCO504014	Coronary artery bypass graft x 1
+^ESCTCO504016	Coronary artery bypass grafts x 2
+^ESCTCO504018	Coronary artery bypass grafts x 3
+^ESCTCO504021	Coronary artery bypass grafts x 4
+^ESCTCO504023	Coronary artery bypass grafts x 5
+^ESCTCO504025	Coronary artery bypass grafts greater than 5
+^ESCTCV255542	CVG - Coronary vein graft
+^ESCTHI661988	History of coronary artery bypass grafting
+^ESCTOP300626	Operative procedure on coronary artery
+^ESCTOP300627	Operative procedure on coronary arteries
+^ESCTPA661989	Past history of coronary artery bypass grafting
+^ESCTTR504019	Triple coronary bypass

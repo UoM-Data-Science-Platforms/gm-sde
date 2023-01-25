@@ -90,6 +90,20 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		)
 
 ----------------------------------------------------------------------------------------
+-- Get patient list of those with COVID death within 28 days of positive test
+-- 22.11.22: updated to deal with '28 days' flag under-reporting
+
+-- Get patient list of those with COVID death within 28 days of positive test
+-- 22.11.22: updated to deal with '28 days' flag under-reporting
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath 
+FROM RLS.vw_COVID19
+where (DeathWithin28Days = 'Y' 
+        OR
+    (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))
+	) and DeathDate <= DATEADD(dd,28, EventDate)
+--2414
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -108,12 +122,6 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 
--- Get patient list of those with COVID death within 28 days of positive test
-IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
 
 -- Set the date variables for the LTC code
 
@@ -201,7 +209,7 @@ SELECT
 	LSOA_Code,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	BMI,
-	BMIDate = bmi.EventDate,
+	BMIDate = DateOfBMIMeasurement,
 	height,
 	height_dt,
 	[weight],
@@ -214,9 +222,9 @@ SELECT
 	DiabetesT1_EarliestDiagnosis = CAST(DiabetesT1_EarliestDiagnosis AS DATE),
 	DiabetesT2,
 	DiabetesT2_EarliestDiagnosis = CAST(DiabetesT2_EarliestDiagnosis AS DATE),
-	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
-	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
-	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
+	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
+	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN YEAR(p.DeathDate) ELSE null END,
+	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN MONTH(p.DeathDate) ELSE null END,
 	FirstCovidPositiveDate,
 	SecondCovidPositiveDate, 
 	ThirdCovidPositiveDate, 
