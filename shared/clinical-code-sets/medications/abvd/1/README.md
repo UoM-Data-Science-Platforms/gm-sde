@@ -6,3 +6,5 @@ ABVD is a cancer drug combination. It is a treatment for Hodgkin lymphoma. Ther
 - [**B**leomycin](../../bleomycin/1)
 - [**V**inblastine](../../vinblastine/1)
 - [**D**acarbazine](../../dacarbazine/1)
+
+**_NB These drugs do not currently routinely appear in primary care records._**
