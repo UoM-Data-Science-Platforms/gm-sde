@@ -12,10 +12,10 @@
 -- NumberOfHFandNSAID (integer) The number of unique patients per month, ccg and practice who have a previous diagnosis of heart failure, and who received a prescription for an NSAID in this month AND who also had an NSAID prescription in the preceding 2 months OR who had 2 or more NSAID prescriptions on different days in this month.
 -- NumberOfNSAIDs (integer) The number of patients prescribed an NSAID in this month, ccg and practice.
 
--- Set the start date
+-- Set the start date and end date
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2019-01-01';
+SET @StartDate = '2018-01-01';
 SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
@@ -25,7 +25,7 @@ SET NOCOUNT ON;
 -- Create a table with all patients (ID)=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
+FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < '2022-06-01';
 
@@ -45,7 +45,7 @@ FROM #PatientsToInclude;
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #PatientsID 
-FROM [RLS].vw_Patient
+FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
@@ -81,16 +81,16 @@ DROP TABLE #Time
 
 
 -- Create HF tables================================================================================================================================================
--- All HF records from 2019
+-- All HF records
 IF OBJECT_ID('tempdb..#HFAll') IS NOT NULL DROP TABLE #HFAll;
 SELECT FK_Patient_Link_ID, MONTH(EventDate) AS [Month], YEAR(EventDate) AS [Year], FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, 'HF' AS HF
 INTO #HFAll
-FROM [RLS].[vw_GP_Events]
+FROM SharedCare.GP_Events
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'heart-failure' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'heart-failure' AND Version = 1)
 )
-AND EventDate >= @StartDate AND EventDate < @EndDate;
+AND EventDate < @EndDate;
 
 -- Delete duplicates
 IF OBJECT_ID('tempdb..#HF') IS NOT NULL DROP TABLE #HF;
@@ -103,11 +103,11 @@ DROP TABLE #HFAll
 
 
 -- NSAIDS tables====================================================================================================================================================
--- NSAIDS records in dates from 2019
+-- NSAIDS records in dates from 2018 (so we can count consecutive months for 2019)
 IF OBJECT_ID('tempdb..#NSAIDSAll') IS NOT NULL DROP TABLE #NSAIDSAll;
 SELECT DISTINCT FK_Patient_Link_ID, MONTH(MedicationDate) AS [Month], YEAR(MedicationDate) AS [Year], DAY(MedicationDate) AS NSAIDSDate, 'NSAIDS' AS NSAIDS
 INTO #NSAIDSAll
-FROM [RLS].[vw_GP_Medications]
+FROM SharedCare.GP_Medications
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'nsaids' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'nsaids' AND Version = 1)
@@ -121,7 +121,7 @@ INTO #NSAIDS
 FROM #NSAIDSAll
 GROUP BY FK_Patient_Link_ID, [Year], [Month];
 
--- A table with every month from Jan 2019 and NSAIDS information each month for each patients
+-- A table with every month from Jan 2018 and NSAIDS information each month for each patients
 IF OBJECT_ID('tempdb..#NSAIDSEveryMonth') IS NOT NULL DROP TABLE #NSAIDSEveryMonth;
 SELECT p.FK_Patient_Link_ID, p.[Year], p.[Month], n.NSAIDS
 INTO #NSAIDSEveryMonth
@@ -187,7 +187,7 @@ SELECT [Year], Month, CCG, GPPracticeCode AS GPPracticeId,
 	   SUM(CASE WHEN HF_fill IS NOT NULL AND (NSAIDS_3_consecutive_months = 'Y' OR NSAIDS_per_month >= 2) THEN 1 ELSE 0 END) AS NumberOfHFandNSAID,
 	   SUM(CASE WHEN NSAIDS_per_month IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfNSAIDs
 FROM #TableCount
-WHERE [Year] IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+WHERE [Year] >= 2019 AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode
 ORDER BY [Year], [Month], CCG, GPPracticeCode;
