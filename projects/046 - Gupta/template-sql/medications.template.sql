@@ -67,7 +67,7 @@ SELECT p.FK_Patient_Link_ID,
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
+WHERE 2020 - YearOfBirth >= 19 							-- Over 18 at study start date
 	AND (
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
