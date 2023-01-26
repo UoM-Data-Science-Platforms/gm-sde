@@ -290,5 +290,6 @@ WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AN
 -- Create the table of new allergy code=============================================================================================================
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS Date
 FROM #AllergyAll
-WHERE YEAR(EventDate) >= 2019 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-GROUP BY FK_Patient_Link_ID, FK_Reference_Coding_ID;
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+GROUP BY FK_Patient_Link_ID, FK_Reference_Coding_ID
+HAVING YEAR(MIN(EventDate)) >= 2019;
