@@ -177,7 +177,7 @@ function processParams(line, params) {
 function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters = []) {
   // Allow file to be processed twice if the parameters are different
   alreadyProcessed[filename + JSON.stringify(parameters)] = true;
-  const sqlLines = readFileSync(filename, 'utf8').split('\n');
+  const sqlLines = readFileSync(filename, 'utf8').replace(/\r/g,'').split('\n');
   const conditionalStatments = [];
 
   let excludeFromIndex = -1;
@@ -402,5 +402,5 @@ ${CODESET_MARKER}
 }
 //stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
 // stitch(join(__dirname, '..', 'projects', '001 - Grant'));
-//stitch(join(__dirname, '..', 'projects', '019 - Heald DARE'));
+//stitch(join(__dirname, '..', 'projects', '046 - Gupta'));
 module.exports = { stitch };
