@@ -229,7 +229,7 @@ GROUP BY x.PatientId, x.FirstAdmissionPostCOVIDTest;
 -- SPLIT HERE --
 
 -- Get all diagnoses into a single table for future use
-CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_Diagnoses
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Diagnoses
 AS
 SELECT DISTINCT
 	NHS_NUMBER_DEID AS PatientId,
@@ -249,7 +249,7 @@ AND NHS_NUMBER_DEID IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU04
 -- SPLIT HERE --
 
 -- Get all medications into a single table for future use
-CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_Medications
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications
 AS
 SELECT DISTINCT
 	NHS_NUMBER_DEID AS PatientId,
@@ -282,7 +282,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_With_COPD
 AS
 SELECT a.PatientId, MIN(EventDate) AS FirstDiagnosisDate
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Diagnoses a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Diagnoses a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 WHERE CODE IN (--copd codeset inserted
@@ -296,7 +296,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_With_ASTHMA
 AS
 SELECT a.PatientId, MIN(EventDate) AS FirstDiagnosisDate
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Diagnoses a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Diagnoses a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 WHERE CODE IN (--asthma codeset inserted
@@ -310,7 +310,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_With_HYPERTENS
 AS
 SELECT a.PatientId, MIN(EventDate) AS FirstDiagnosisDate
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Diagnoses a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Diagnoses a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 WHERE CODE IN (--hypertension codeset inserted
@@ -324,7 +324,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_With_SMI
 AS
 SELECT a.PatientId, MIN(EventDate) AS FirstDiagnosisDate
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Diagnoses a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Diagnoses a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 WHERE CODE IN (--smi codeset inserted
@@ -338,7 +338,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_METFORMIN
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -352,7 +352,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_GLP1
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -367,7 +367,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_INSULIN
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -382,7 +382,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_SGLTI
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -397,7 +397,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_SULPHONYLUR
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -412,7 +412,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_ACEI
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -427,7 +427,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_ASPIRIN
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -442,7 +442,7 @@ CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patients_On_CLOPIDOGREL
 AS
 SELECT a.PatientId, MAX(EventDate) AS MostRecentPrescriptionPriorToCovid
 FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Patient_Ids_And_Index_Dates b
-LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Medications a
+LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Medications a
 ON a.PatientId = b.PatientId
 AND a.EventDate <= b.IndexDate
 AND a.EventDate >= b.IndexDate - INTERVAL '6 month'
@@ -461,7 +461,7 @@ WHERE NHS_NUMBER_DEID IN (SELECT PatientId FROM dars_nic_391419_j3w9t_collab.CCU
 -- SPLIT HERE --
 
 -- Get all the main cohort patients... and union with the matching patients
-CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_Output_Cohort_Table
+CREATE TABLE dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Output_Cohort_Table
 AS
 SELECT
   cohort.PatientId AS PatientId,
@@ -504,7 +504,7 @@ SELECT
   CASE WHEN (sglti.PatientId IS NULL) THEN 'N' ELSE 'Y' END AS IsOnSGLTI,
   CASE WHEN (glp1.PatientId IS NULL) THEN 'N' ELSE 'Y' END AS IsOnGLP1A,  
   CASE WHEN (sulphonylureas.PatientId IS NULL) THEN 'N' ELSE 'Y' END AS IsOnSulphonylurea
-FROM dars_nic_391419_j3w9t_collab.CCU040_01_Main_Cohort_Ids cohort
+FROM dars_nic_391419_j3w9t_collab.CCU040_01_SGSS_Main_Cohort_Ids cohort
 LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Cohort_DM dm ON cohort.PatientId = dm.PatientId
 LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Cohort_DM_Type1 type1 ON cohort.PatientId = type1.PatientId
 LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.CCU040_01_Cohort_DM_Type2 type2 ON cohort.PatientId = type2.PatientId
