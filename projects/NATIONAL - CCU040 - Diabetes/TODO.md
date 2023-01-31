@@ -1,0 +1,4 @@
+- Change the Rmd file to just output html so that "knit" this project produces a nice html doc
+- Split the Rmd file into smaller chunks
+  - Perhaps do more data processing in the cleaning script so the saved data files are ready for analysis
+- Rerun but with the data based on SGSS covid tests.
