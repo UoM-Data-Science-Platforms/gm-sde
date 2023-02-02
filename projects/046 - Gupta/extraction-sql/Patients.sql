@@ -492,7 +492,7 @@ where (DeathWithin28Days = 'Y'
 	) and DeathDate <= DATEADD(dd,28, EventDate)
 --2414
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+-- TABLE OF GP EVENTS FOR COHORT TO SPEED UP SEVERAL REUSABLE QUERIES
 
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
@@ -503,9 +503,42 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
 	AND EventDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP VACCINATION QUERY
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
+AND MedicationDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+
 
 --┌─────────────────────┐
 --│ Patients with COVID │
@@ -1306,7 +1339,7 @@ AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )

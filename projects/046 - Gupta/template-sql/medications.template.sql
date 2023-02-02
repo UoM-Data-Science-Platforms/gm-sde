@@ -91,7 +91,7 @@ WHERE
 	UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
 	AND RepeatMedicationFlag = 'N' 			-- exclude duplicate prescriptions 
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND MedicationDate < '2022-06-01';
+	AND MedicationDate between @StartDate and @EndDate;
 
 -- LOAD ALL MEDICATIONS CODE SETS NEEDED
 

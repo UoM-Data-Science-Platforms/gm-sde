@@ -33,7 +33,7 @@ SELECT
 	SuppliedCode,
 	CAST(EventDate AS DATE) AS EventDate
 INTO #DiabetesT1Patients
-FROM [RLS].[vw_GP_Events]
+FROM [SharedCare].[GP_Events]
 WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-i') AND [Version] = 1))
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND EventDate <= @StartDate
@@ -54,7 +54,7 @@ SELECT
 	SuppliedCode,
 	CAST(EventDate AS DATE) AS EventDate
 INTO #DiabetesT2Patients
-FROM [RLS].[vw_GP_Events]
+FROM [SharedCare].[GP_Events]
 WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1))
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND EventDate <= @StartDate
@@ -98,14 +98,14 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath 
-FROM RLS.vw_COVID19
+FROM SharedCare.COVID19
 where (DeathWithin28Days = 'Y' 
         OR
     (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))
 	) and DeathDate <= DATEADD(dd,28, EventDate)
 --2414
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+-- TABLE OF GP EVENTS FOR COHORT TO SPEED UP SEVERAL REUSABLE QUERIES
 
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
@@ -116,9 +116,42 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
 	AND EventDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP VACCINATION QUERY
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
+AND MedicationDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+
 
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 
@@ -138,7 +171,7 @@ SET @MinDate = '1900-01-01';
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-lsoa.sql
 
---> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:RLS.vw_GP_Medications
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 
 
 
