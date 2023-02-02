@@ -34,6 +34,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Find the first diagnosis of a particular disease
 - Secondary admissions and length of stay
 - Secondary discharges
 - Frailty score
@@ -47,6 +48,29 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Find the first diagnosis of a particular disease
+To find the first diagnosis for a particular disease for every patient.
+
+_Input_
+```
+A variable:
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - temp-table-name: string - the name of the temp table that this will produce
+```
+
+_Output_
+```
+Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+```
+_File_: `query-get-first-diagnosis.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-first-diagnosis.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-first-diagnosis.sql)
+
+---
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
@@ -317,7 +341,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -406,6 +430,7 @@ This project required the following clinical code sets:
 - copd v1
 - asthma v1
 - hypertension v1
+- dementia v1
 - amitriptyline v1
 - buspirone v1
 - clomipramine v1
@@ -891,7 +916,7 @@ LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-i
 
 ### HbA1c
 
-A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's HbA1c (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
 
 **NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
 #### Prevalence log
@@ -1368,6 +1393,23 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
 
 LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
+
+### Dementia
+
+Any code indicating that a person has dementia, including Alzheimer's disease.
+
+Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.67% - 0.81%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-20 | EMIS            | 2438146    |   19770 (0.811%) |    21772 (0.893%) |
+| 2022-12-20 | TPP             | 198637     |    1427 (0.718%) |      7445 (3.75%) |
+| 2022-12-20 | Vision          | 327196     |    2244 (0.686%) |     2265 (0.692%) |
+
+LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
 
 ### Amitriptyline
 
@@ -1847,13 +1889,13 @@ LINK: [https://github.com/rw251/.../medications/carbamazepine/1](https://github.
 ### Lithium
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.09%` suggests the code set is well defined across systems, however the prevalence seems low and may need checking.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.11% - 0.15%` suggests the code set is well defined across systems, however the prevalence seems low and may need checking.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-29 | EMIS            | 2661707    |  	2433 (0.09%)   |   	2433 (0.09%)   |
-| 2022-04-29 | TPP             | 212737     |    128 (0.06%)   |     130 (0.06%)   |
-| 2022-04-29 | Vision          | 342156     |    201 (0.06%)   |   	 201 (0.06%)   |
+| 2022-09-15 | EMIS            | 2448321    |   3765 (0.15%)   |   	3783 (0.15%)   |
+| 2022-09-15 | TPP             | 198113     |    211 (0.11%)   |     259 (0.13%)   |
+| 2022-09-15 | Vision          | 325847     |    460 (0.14%)   |   	 460 (0.14%)   |
 
 LINK: [https://github.com/rw251/.../medications/lithium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/lithium/1)
 
