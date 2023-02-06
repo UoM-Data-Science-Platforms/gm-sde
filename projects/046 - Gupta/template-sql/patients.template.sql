@@ -120,7 +120,7 @@ FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND	(
 		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
-	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+	    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR 
 		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
 	)
 	AND EventDate < '2022-06-01';
@@ -140,13 +140,13 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
 FROM [SharedCare].GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND	(
 		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
-	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+	    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR 
 		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
 	)
-AND MedicationDate < '2022-06-01';
+AND MedicationDate BETWEEN '2020-01-01' AND '2022-06-01'
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS medData ON #PatientMedicationData;
