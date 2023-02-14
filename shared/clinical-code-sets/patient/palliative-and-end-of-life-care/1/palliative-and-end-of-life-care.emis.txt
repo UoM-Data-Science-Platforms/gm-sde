@@ -1,0 +1,16 @@
+^ESCTCA471906	Caring for the dying
+^ESCTEN471907	End stage management
+^ESCTRE595349	Referral for palliative care
+^ESCTSH463854	Shared care - hospice and general practitioner
+EMISNQAD100	Admission to hospice from other location
+EMISNQAD122	Admission to hospice out of hours
+EMISNQAD96	Admission to hospice from patient's home
+EMISNQAD97	Admission to hospice from care home
+EMISNQAD98	Admission to hospice from acute hospital
+EMISNQAD99	Admission to hospice from community hospital
+EMISNQEN7	End of Life Care clinical pathway protocol followed
+EMISNQPA133	Patient died in NHS hospice/specialist palliative care unit
+EMISNQPA134	Patient died in voluntary hospice/specialist palliative care ut.
+EMISNQRE580	Referral to palliative care outpatient service
+ESCTDI3	Discharge from hospice
+ESCTDY1	Dying care

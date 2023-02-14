@@ -1,0 +1,55 @@
+66S3.00	full care by hospice
+66S4.00	shared care - hospice / gp
+8B2a.00	prescription of palliative care anticipatory medication
+8BA2.11	end of life care
+8BAe.00	anticipatory palliative care
+8BAN.00	community specialist palliative care
+8BAP.00	specialist palliative care
+8BAQ.00	final days pathway
+8BAR.00	specialist palliative care treatment - inpatient
+8BAS.00	specialist palliative care treatment - daycare
+8BAT.00	specialist palliative care treatment - outpatient
+8BJ1.00	palliative treatment
+8BMM.00	issue of palliative care anticipatory medication box
+8BMM.11	issue of palliative care just in case box
+8CM1.00	on gold standards palliative care framework
+8CMW300	end of life care pathway
+8H7g.00	referral to palliative care service
+8Hg0.00	discharged from community specialist palliative care team
+8Hga.00	discharge from hospice
+8HgX.00	discharge from palliative care service
+8HH7.00	referred to community specialist palliative care team
+8HX..00	admission to hospice
+8HX0.00	urgent admission to hospice
+8HX1.00	routine admission to hospice
+8HX2.00	admission to hospice for respite
+8HY..00	referral to hospice
+949A.00	patient died in hospice
+949G.00	patient died in hospice community lodge
+9b1B.00	hospice - nhs
+9b1C.00	hospice - independent
+9b74.00	hospice
+9b74000	hospice community lodge
+9b9B.00	palliative medicine
+9c0L000	planned palliative oncology treatment
+9c0P.00	current palliative oncology treatment
+9e02.00	notif to primary care oohs of palliative care plan in place
+9Ng7.00	on end of life care register
+9NgD.00	under care of palliative care service
+9Nh0.00	under the care of community palliative care team
+9NkJ.00	seen in hospice
+9NlJ.00	seen by palliative care service
+9NNd.00	under care of palliative care specialist nurse
+9NNf000	under care of palliative care physician
+9NNZ.00	has end of life care pathway key worker
+9NNr.00	Has end of life care key worker
+M270300	hospice acquired pressure ulcer
+Z172.00	palliative care
+ZL18R00	under care of palliative care physician
+ZL5AP00	referral to palliative care physician
+ZL9AR00	seen by palliative care physician
+ZLD3R00	discharge by palliative care physician
+ZLE6P00	discharge from palliative care service
+ZLF1.00	discharge from hospice
+ZLF1100	discharge from hospice day hospital
+ZV57C00	[v]palliative care
