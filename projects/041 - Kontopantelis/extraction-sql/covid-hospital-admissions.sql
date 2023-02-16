@@ -456,7 +456,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -642,7 +642,7 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND AdmissionDate >= @StartDate
@@ -650,7 +650,7 @@ BEGIN
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -692,7 +692,7 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
     AND DischargeDate >= @StartDate
@@ -700,7 +700,7 @@ BEGIN
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -799,32 +799,18 @@ CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -838,30 +824,17 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM #PatientEventData
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
