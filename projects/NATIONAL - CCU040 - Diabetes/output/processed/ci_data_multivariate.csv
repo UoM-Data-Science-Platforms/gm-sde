@@ -1,0 +1,34 @@
+Variable,Group,T1DM OR,T1DM Lower CI,T1DM Upper CI,T2DM OR,T2DM Lower CI,T2DM Upper CI
+Age,GMCR,1.032,1.017,1.046,1.037,1.034,1.04
+Townsend Index,GMCR,1.061,1.003,1.123,1.054,1.043,1.064
+Sex-male,GMCR,0.944,0.637,1.401,1.387,1.294,1.488
+Patient has diabetes,GMCR,2.369,1.589,3.558,1.102,1.022,1.187
+Patient has COPD,GMCR,1.035,1.004,1.067,1.026,1.02,1.032
+Latest BMI value,GMCR,1.958,0.87,4.143,1.635,1.48,1.805
+Ethnicity-Black,GMCR,2.229,0.838,5.265,1.794,1.492,2.148
+Ethnicity-Asian,GMCR,1.387,0.715,2.533,1.244,1.116,1.384
+Ethnicity-Mixed,GMCR,4.145,1.293,11.183,1.996,1.432,2.733
+Ethnicity-Other,GMCR,1.42,0.556,3.144,1.196,0.999,1.424
+Patient has hypertension,GMCR,1.125,0.699,1.796,1.133,1.052,1.22
+Age,National,1.034,1.032,1.036,1.05,1.05,1.051
+Townsend Index,National,1.063,1.054,1.073,1.059,1.057,1.061
+Sex-male,National,0.929,0.872,0.989,1.287,1.272,1.304
+Patient has diabetes,National,2.043,1.917,2.177,1.291,1.274,1.308
+Patient has COPD,National,,,,,,
+Latest BMI value,National,1.004,0.999,1.009,1.027,1.026,1.028
+Ethnicity-Black,National,1.514,1.34,1.706,1.181,1.155,1.208
+Ethnicity-Asian,National,1.415,1.191,1.671,1.292,1.249,1.337
+Ethnicity-Mixed,National,1.163,0.889,1.495,1.228,1.154,1.306
+Ethnicity-Other,National,1.034,0.788,1.333,1.257,1.194,1.324
+Patient has hypertension,National,1.387,1.287,1.493,1.024,1.011,1.038
+Age,SGSS,1.034,1.032,1.035,1.056,1.055,1.056
+Townsend Index,SGSS,1.079,1.073,1.086,1.068,1.067,1.069
+Sex-male,SGSS,1.016,0.974,1.059,1.311,1.299,1.321
+Patient has diabetes,SGSS,2.066,1.979,2.156,1.353,1.341,1.366
+Patient has COPD,SGSS,,,,,,
+Latest BMI value,SGSS,0.998,0.995,1.002,1.021,1.021,1.022
+Ethnicity-Black,SGSS,1.249,1.146,1.36,1.179,1.16,1.198
+Ethnicity-Asian,SGSS,1.523,1.366,1.694,1.431,1.399,1.465
+Ethnicity-Mixed,SGSS,1.247,1.059,1.458,1.3,1.245,1.357
+Ethnicity-Other,SGSS,1.044,0.879,1.232,1.326,1.279,1.374
+Patient has hypertension,SGSS,1.442,1.37,1.516,1.054,1.044,1.063
