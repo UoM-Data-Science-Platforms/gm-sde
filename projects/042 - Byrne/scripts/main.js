@@ -1,4 +1,5 @@
 const fs = require('fs');
+const readline = require('readline');
 const mssql = require('mssql');
 const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
@@ -463,7 +464,7 @@ async function getPatientPseudoIds() {
   return new Promise((resolve) => {
     const request = new mssql.Request();
     request.stream = true;
-    request.query('SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;');
+    request.query('SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link;');
 
     request.on('row', (row) => {
       // Emitted for each row in a recordset
@@ -476,19 +477,29 @@ async function getPatientPseudoIds() {
 ${err}`);
     });
 
-    request.on('done', () => {
+    request.on('done', async () => {
       // Always emitted as the last one
       if (!store.shouldOverwrite) {
         log('Loading the existing mapping file...');
         let maxPseudoId = 0;
-        fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
-          .split('\n')
-          .forEach((x) => {
-            if (x.trim().length < 2) return;
-            const [fkid, pseudoId] = x.split(',');
+
+        const fileStream = fs.createReadStream(PSEUDO_ID_FILE);
+
+        const rl = readline.createInterface({
+          input: fileStream,
+          crlfDelay: Infinity, // treat \r\n as single line break
+        });
+
+        // Process one line at a time rather than reading entire file
+        // in one go as that was causing out of memory exceptions
+        for await (const line of rl) {
+          if (line.trim().length >= 2) {
+            const [fkid, pseudoId] = line.split(',');
             store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
             maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
-          });
+          }
+        }
+
         log(`There are ${Object.keys(store.pseudoLookup).length} patient ids in the mapping file.`);
         const newPatientIds = patientIds.filter((patientId) => !store.pseudoLookup[patientId]);
         log(`There are ${newPatientIds.length} new patient ids from the database.`);

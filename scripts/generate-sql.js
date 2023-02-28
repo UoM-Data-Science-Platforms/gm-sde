@@ -8,6 +8,7 @@ const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
 const README_NAME = 'README';
 const SHARED_DIRECTORY = join(__dirname, '..', 'shared');
+const SCRIPTS_DIRECTORY = join(__dirname, '..', 'scripts');
 const REUSABLE_DIRECTORY = join(SHARED_DIRECTORY, 'Reusable queries for data extraction');
 const CODESET_MARKER = '[[[{{{(((CODESET_SQL)))}}}]]]';
 
@@ -22,6 +23,17 @@ const stitch = async (projectDirectory) => {
     'utf8'
   );
   writeFileSync(join(projectDirectory, 'scripts', 'analyst-guidance.md'), readmeFirstFile);
+
+  console.log('Moving main js file...');
+  const mainJsFile = readFileSync(join(SCRIPTS_DIRECTORY, 'main-data-extract.js'), 'utf8');
+  writeFileSync(join(projectDirectory, 'scripts', 'main.js'), mainJsFile);
+
+  console.log('Moving package.json file...');
+  const mainJSONFile = readFileSync(
+    join(SCRIPTS_DIRECTORY, 'main-data-extract-node-config.json'),
+    'utf8'
+  );
+  writeFileSync(join(projectDirectory, 'scripts', 'package.json'), mainJSONFile);
 
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
@@ -177,7 +189,7 @@ function processParams(line, params) {
 function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters = []) {
   // Allow file to be processed twice if the parameters are different
   alreadyProcessed[filename + JSON.stringify(parameters)] = true;
-  const sqlLines = readFileSync(filename, 'utf8').replace(/\r/g,'').split('\n');
+  const sqlLines = readFileSync(filename, 'utf8').replace(/\r/g, '').split('\n');
   const conditionalStatments = [];
 
   let excludeFromIndex = -1;
