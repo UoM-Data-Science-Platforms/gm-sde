@@ -1,4 +1,6 @@
-- Change the Rmd file to just output html so that "knit" this project produces a nice html doc
-- Split the Rmd file into smaller chunks
-  - Perhaps do more data processing in the cleaning script so the saved data files are ready for analysis
-- Rerun but with the data based on SGSS covid tests.
+- Table 1 is missing:
+  - Smoking status split into Non-smoker and current-smoker
+  - PatientHasHypertension
+  - p values
+- Table 1 has large negative values for length of stay for national study
+- Table 4 is missing COPD
