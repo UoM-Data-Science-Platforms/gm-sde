@@ -2,6 +2,8 @@
 
 Codes indicating palliative or end of life care.
 
+Read codes were taken from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/183/codelist/res176-palliative-and-end-of-life-care/, and codes from the other coding systems were derived from these.
+
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
