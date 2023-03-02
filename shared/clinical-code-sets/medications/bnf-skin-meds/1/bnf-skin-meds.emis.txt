@@ -1,0 +1,2238 @@
+PRTR13555NEMIS	Pro-Juven  Transdermal Cream  3 %
+SPLO27879EMIS	Spectraban 25  Lotion  
+STSO34948NEMIS	Stelara  Solution for injection  45 mg/0.5 ml vial
+DECA36315NEMIS	Dermacolor  Camouflage Creme  D16
+COCL108946NEMIS	Covermark  Classic Foundation  8C
+ZIPAEGTON6536	Zinc And Salicylic Acid  Paste  
+BESC358	Betnovate  Scalp application  0.1 %
+ELDA20581NEMIS	Elenas  Day Cream And Night Cream  
+AZCR22062EMIS	Azelaic Acid  Cream  20 %
+OIBA32801EMIS	Oilatum Junior  Bath additive  Fragrance Free 63.4 %
+GACA9247EMIS	Gamolenic Acid  Capsules  80 mg
+ZOGE31229EMIS	Zorac  Gel  0.1 %
+DECA36365NEMIS	Dermacolor  Camouflage Creme  D64
+AMMI30468NEMIS	Ambre Solaire  Milk  UV Sensitive SPF 50+
+DECA36321NEMIS	Dermacolor  Camouflage Creme  D1W
+DECA36323NEMIS	Dermacolor  Camouflage Creme  D2.5
+ACGE14671NEMIS	Acea  Gel  0.75 %
+CLOI642	Clobetasol Propionate  Ointment  0.05 %
+WOSO30828NEMIS	Wool Fat  Solid  
+COCL108947NEMIS	Covermark  Classic Foundation  9C
+CICR8786BRIDL	Cicatrin  Cream  
+DICR21542NEMIS	Dimeticone And Cetrimide  Cream  10 % + 0.3 %
+ZOCR16091NEMIS	Zovirax Cold Sore  Cream  5 %
+BECR17529NEMIS	Beclometasone  Cream  0.025 %
+CACREGTON6455	Carbo- Dome  Cream  10 %
+COAP39043NEMIS	Coal Tar 12 % In White Soft Paraffin  Ointment  
+MISP9700HILLI	Miconazole Nitrate  Spray powder  0.16 %
+PAJE4117	Paraffin Yellow Soft  yellow petroleum jelly  BP
+BECR3240	Betnovate-Rd  Cream  0.025 %
+ROGE26148EMIS	Rozex  Gel  0.75 %
+GLSO1310	Glutaraldehyde  Solution  10 %
+CHSO23715NEMIS	Chloraprep  Solution  3 ml applicator
+DISP48407NEMIS	Dimeticone  Spray  4 %
+DESC98858NEMIS	Dermalex Repair Scalp Psoriasis  Gel  
+POSH24323EMIS	Polytar Af  Shampoo  
+ROCR32178EMIS	Rozex  Cream  0.75 %
+UVSU23407NEMIS	Uvistat  Sun Cream  SPF 50
+LOOI8683EGTON	Locoid  Ointment  0.1 %
+FLOI19988NEMIS	Fluocortolone Hexanoate And Fluocortolone  Ointment  0.25 % + 0.25 %
+PRCR9846HILLI	Proflavine  Cream  0.1 %
+VEOIEGTON7272	Verrugon Complete  Ointment  50 %
+TRSO7698	Triclosan  Solution  2 %
+FUCR29325NEMIS	Fucibet Lipid  Cream  
+ANCR3173	Anethaine  Cream  1 %
+COBA3456NEMIS	Coal Tar  Bath emulsion  40 %
+ALSH15458NEMIS	Alcoholic Coal Tar Extract  Shampoo  5 %
+E4LO25793NEMIS	E45 Sun Reflective Sunscreen  Lotion  SPF 20
+AQCR207	Aqueous  Cream  
+ISCA3549NEMIS	Isotretinoin  Capsules  20 mg
+DEOI841	Dermovate  Ointment  0.05 %
+TOCA31059NEMIS	Toctino  Capsules  30 mg
+POSO2315	Potassium Permanganate  Solution  0.1 %
+PSSCEGTON8184	Psoriderm  Scalp lotion  
+FLCR7084	Fluocinolone Acetonide  Cream  0.00625 %
+DIOI3455	Diprosalic  Ointment  0.05 % + 3 %
+MUOI8154	Mupirocin In A Water-Miscible Macrogol Basis  Ointment  2 %
+PAHA26568EMIS	Paraffin  Hard (mp 43-46 deg c)  bp
+AVBA24221EMIS	Aveeno  Bath oil  5 %
+HICREGTON7348	Hirudoid  Cream  0.3 %
+CLTO9239EMIS	Clindamycin  Topical solution  1 %
+PSBA9884BRIDL	Psoriderm  Bath emulsion  40 %
+TOSO8734EGTON	Topicycline  Solution  
+KEMA74115NEMIS	Keromask  Masking cream  Medium No 1
+COCL108938NEMIS	Covermark  Classic Foundation  7A
+CHCR42217NEMIS	Chlorhexidine Gluconate  Cream  1 %
+POSH24323EMIS	Polytar Af  Shampoo  
+HYCR19695NEMIS	Hydrocortisone And Econazole  Cream  1 % + 1 %
+DECA36326NEMIS	Dermacolor  Camouflage Creme  D28A
+MITO28977EMIS	Minoxidil  Topical solution  5 %
+NECREGTON8152	Neomycin  Cream  0.5 %
+HYFA3734	Hydrous Wool  Fat  BP
+SAAN47052NEMIS	Savlon  Antiseptic Liquid  
+DECU49008NEMIS	Dermol Wash  Cutaneous Emulsion  
+BESKEGTON7800	Betadine  Skin cleanser solution  4 %
+POPA2292	Podophyllin Compound  Paint  15 %
+KEMA74108NEMIS	Keromask  Masking cream  Dark No 7
+PETAEGTON7708	Permitabs  Tablets For Cutaneous Solution  400 mg
+DITA19975NEMIS	Diva  Tablets  
+SAOI7271	Salicylic Acid  Ointment  50 %
+DICR19842NEMIS	Dimeticone And White Soft Paraffin  Cream  1 % + 15 %
+CECR19508NEMIS	Cetrimide And Benzalkonium Chloride  Cream  0.2 % + 0.01 %
+DIGE10794NEMIS	Diclofenac Sodium  Gel  3 %
+DECA36403NEMIS	Dermacolor  Camouflage Creme  DJ4
+HATA41275NEMIS	Haelan  Tape  4 micrograms/square cm, 7.5 cm
+DAOI8859BRIDL	Daktacort  Ointment  
+STSO15954NEMIS	Sterets Tisept  Solution  100 ml sachet
+CEMO37472NEMIS	Cetaphil  Moisturising Lotion  
+FLCR7084	Fluocinolone Acetonide  Cream  0.00625 %
+CAOI9281BRIDL	Calamine  Oily lotion  
+CLCU22350NEMIS	Clarelux  Foam  500 micrograms/gram
+SADR3780NEMIS	Savlon  Dry powder spray  1.14 %
+DECA36372NEMIS	Dermacolor  Camouflage Creme  D7
+ALOI3145	Alpha Keri Bath  Oil  
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+AZCR22062EMIS	Azelaic Acid  Cream  20 %
+FLCU50330NEMIS	Fluorouracil And Salicylic Acid  Cutaneous Solution  0.5 % + 10 %
+SYCR10746BRIDL	Synalar C  Cream  
+VECO35703NEMIS	Veil  Cover cream  Rose
+LOCR11611NEMIS	Lotil  Cream  
+CAAQ9794BRIDL	Calamine  Aqueous cream  
+CASP22742NEMIS	Canesten Af Dual Action  Spray solution  1 %
+CELO34256EMIS	Cepton Medicated  Lotion  0.1 %
+TRCR4456	Trimovate  Cream  
+EVCR15221NEMIS	Evening Primrose Oil  Cream  20 %
+VECO35709NEMIS	Veil  Cover cream  Umber
+AQCR38721NEMIS	Aqua-Cool  Cream  1 %
+HEPA1363	Herpid  Paint  
+ASEM8958EMIS	Ashbourne  Emollient  
+EUCR16491NEMIS	Eumobase  Cream  
+DECA36297NEMIS	Dermacolor  Camouflage Creme  D1
+KEMA74111NEMIS	Keromask  Masking cream  Light No 7
+BECR346	Betamethasone Valerate  Cream  0.1 %
+NYCREGTON8085	Nystaform  Cream  
+BRCR1691NEMIS	Brevoxyl  Cream  4 %
+BECR4641	Betamethasone  Cream  0.025 %
+MOCR3962	Modrasone  Cream  0.05 %
+EUCR1123	Eumovate  Cream  0.05 %
+DECR3406	Dermovate-Nn  Cream  
+COSC128135NEMIS	Coal Tar  Scalp lotion  2.5 %
+DESH23487NEMIS	Dermax  Shampoo  0.5 %
+HIGEEGTON7351	Hirudoid  Gel  0.3 %
+ALPA15491NEMIS	Aluminium Oxide  Paste  38.09 %
+TINA7754	Tioconazole  Medicated Nail Lacquer  28 % (283 mg/ml)
+HECR3547NEMIS	Heparinoid  Cream  0.3 %
+EMOI1059	Emulsifying  Ointment  
+CAPO472	Canesten  Powder  1 %
+MEGE20335EMIS	Metronidazole  Gel  0.75 %
+WASO23711EMIS	Warticon Fem  Solution  0.5 %
+DATO10836BRIDL	Dalacin T  Topical solution  1 %
+ACCR18904NEMIS	Acorvio Plus  Cream  
+CECR15462NEMIS	Cetrimide  Cream  1 %
+QUCR2427	Quinoderm  Cream 5  
+TECR4401	Terra-Cortril Nystatin  Cream  
+HYSU14781NEMIS	Hydrex  Surgical scrub  4 %
+PODR3779NEMIS	Povidone-Iodine  Dry powder spray  1.14 %
+ROCA22460NEMIS	Roaccutane  Capsules  10 mg
+MOCR114266NEMIS	Moogoo Skin Milk Udder  Cream  
+KEMA73960NEMIS	Keromask  Masking Cream Mixer  Dusk
+COSH8177	Coal Tar Extract  Shampoo  2 %
+ZEPO4544	Zeasorb  Powder  
+CHSO30301EMIS	Chlorhexidine Gluconate  Solution  0.02 %
+DEFI36217NEMIS	Dermacolor  Fixing powder  P8
+LAST89772NEMIS	Larvae 200  Sterile Maggots  
+HISO1371	Hibitane Concentrate  Solution  5 %
+HYSO7717	Hydrogen Peroxide  Solution  6 %
+ANCR176	Anthisan  Cream  2 %
+CLCR126120NEMIS	Clobetasone/Oxytetracycline/Nystatin  Cream  0.05 % + 3 % + 100,000 units/gram
+LYDE19807EMIS	Lyclear  Dermal cream  5 %
+IOSHEGTON8195	Ionil T  Shampoo  
+ASSOEGTON7693	Aserbine  Solution  
+SAGE19485NEMIS	Salicylic Acid  Gel  26 %
+MECR122194NEMIS	Menthoderm  Cream  1 %
+VECO35679NEMIS	Veil  Cover cream  Chestnut
+ISIM29837NEMIS	Isopropyl Alcohol  Impregnated Swabs  70 %
+MYOI1915	Mycil  Ointment  
+DECR48360NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  11, Porcelain
+LIBA19500NEMIS	Liquid Paraffin And Acetylated Wool Alcohols  Bath oil  65 % + 5 %
+DICR4836	Diflucortolone Valerate  Cream  0.1 %
+DIOI6777	Dithranol  Ointment  0.4 %
+DECA45020NEMIS	Dermacolor  Camouflage Creme  DM6
+LIOI75965NEMIS	Liquid Paraffin And Emulsifying  Ointment  50 % + 50 %
+AQSO27715EMIS	Aquasept  Solution  2 %
+ALCR33764EMIS	Aldara  Cream  5 %, 250 mg sachet
+CHSO29928NEMIS	Chloraprep  Solution  1.5 ml applicator
+ISCA3549NEMIS	Isotretinoin  Capsules  20 mg
+HYCR48123NEMIS	Hydromol Hc Intensive  Cream  
+DEFI47256NEMIS	Dermacolor  Fixing powder  Cool Beige
+PITO20876NEMIS	Pine Tar  Topical solution  2.3 %
+DECA36322NEMIS	Dermacolor  Camouflage Creme  D2
+MILI8502EGTON	Mildison  Lipocream  1 %
+ALAN84	Aluminium Chloride  Antiperspirant  Spray, 20 %
+ELTR20515NEMIS	Elenas  Trinity Soap And Shampoo  
+TOPO2880	Tolnaftate  Powder  1 %
+DECA36406NEMIS	Dermacolor  Camouflage Creme  DJ7
+DASH16165NEMIS	Dandrazol Anti-Dandruff  Shampoo  2 %
+EUCR82697NEMIS	Eucerin Anti-Redness Calming Night  Cream  
+ALLOEGTON8278	Alcoderm  Lotion  
+ULGE78884NEMIS	Ultrasun Sports  Gel  SPF 20
+KEMA74112NEMIS	Keromask  Masking cream  Light No 11
+SAOI52812NEMIS	Salicylic Acid 20 % In Emulsifying  Ointment  
+REOI29116NEMIS	Retapamulin  Ointment  1 %
+CXDU3465NEMIS	Cx Antiseptic  Dusting powder  1 %
+CXDU3465NEMIS	Cx Antiseptic  Dusting powder  1 %
+ROCAEGTON7263	Roaccutane  Capsules  5 mg
+DECA36289NEMIS	Dermacolor  Camouflage Creme  D070D6
+ZIOI52202NEMIS	Zinc Oxide And Ichthammol In Yellow Soft Paraffin  Ointment  15 % + 1 %
+AVPO13156NEMIS	Aveeno Colloidal  Powder sachets  15 grams
+EUCR1130	Eurax-Hydrocortisone  Cream  
+ALLOEGTON8278	Alcoderm  Lotion  
+AVPO13156NEMIS	Aveeno Colloidal  Powder sachets  15 grams
+THOI2850	Thovaline  Ointment  
+ALSH22044EMIS	Alphosyl 2 In 1  Shampoo  5 %
+DIOI3455	Diprosalic  Ointment  0.05 % + 3 %
+PHPA2254	Phytex  Paint  
+DEFI36215NEMIS	Dermacolor  Fixing powder  P5
+CHCR42217NEMIS	Chlorhexidine Gluconate  Cream  1 %
+BEOI357	Betnovate  Ointment  0.1 %
+COOI9895BRIDL	Cocois  Ointment  
+GROI3669	Gregoderm  Ointment  
+TOLI132960NEMIS	Tolnaftate  Liquid Spray  1 %
+RECR26772EMIS	Retinova  Cream  0.05 %
+CLCR641	Clobetasol Propionate  Cream  0.05 %
+ERLO981NEMIS	Erythromycin And Zinc Acetate  Lotion  40 mg/ml + 12 mg/ml
+SESH2524	Selenium Sulfide  Shampoo  2.5 %
+HYCR5007	Hydrocortisone Butyrate  Cream  0.1 %
+LAOI3820	Lasonil  Ointment  0.8 %
+BUCR431	Buffered  Cream  
+DIOI3453	Diprobase  Ointment  
+TRGE7249	Tretinoin  Gel  0.025 %
+HYCR13552NEMIS	Hydroquinone  Cream  2 %
+AKTO5257NEMIS	Aknemycin Plus  Topical solution  
+SAOI34803EMIS	Salicylic Acid  Ointment  bp
+BEWA9175HILLI	Benzoyl Peroxide  Wash  10 %
+ANGE27618EMIS	Anabact  Gel  0.75 %
+BEME37176NEMIS	Betesil  Medicated Plaster  2.25 mg
+ACGE14671NEMIS	Acea  Gel  0.75 %
+CEMO37473NEMIS	Cetaphil  Moisturising Cream  
+GLCR95764NEMIS	Glycopyrronium Bromide 2 % in Aqueous  Cream  
+AITA96528NEMIS	Aindeem  Tablets  1 mg
+DECA36351NEMIS	Dermacolor  Camouflage Creme  D52
+CACR470	Canesten  Cream  1 %
+FUOI3613	Fucidin H  Ointment  
+DEBA939NEMIS	Dermol 600  Bath emollient  
+VECO35705NEMIS	Veil  Cover cream  Sunglow
+DECA36317NEMIS	Dermacolor  Camouflage Creme  D1742
+STBA26063EMIS	Steripaste  Bandage  15 %, 7.5 cm x 6 m
+SOSO4324	Sodium Chloride  Solution  0.9%
+CHSO19833NEMIS	Chlorhexidine Gluconate And Cetrimide  Solution  0.015 % + 0.15 %, 25 ml sachet
+DOSC25443EMIS	Dovonex  Scalp solution  50 micrograms/ml
+DICR27177EMIS	Dithranol  Cream  0.5 %
+DEOI841	Dermovate  Ointment  0.05 %
+KEMA74116NEMIS	Keromask  Masking cream  Medium No 5
+TESO8797BRIDL	Tetracycline Hydrochloride  Solution  0.22 %
+DECA36292NEMIS	Dermacolor  Camouflage Creme  D071
+CLSHEGTON8210	Clinitar  Shampoo  2 %
+CASC25445EMIS	Calcipotriol  Scalp solution  50 micrograms/ml
+VECO35708NEMIS	Veil  Cover cream  Toffee
+SICR4319	Siopel  Cream  
+DECA36376NEMIS	Dermacolor  Camouflage Creme  D708
+REGE9532BRIDL	Retin-A  Gel  0.01 %
+TODR15480NEMIS	Tolnaftate  Dry powder spray  0.12 %
+AUOI251	Aureocort  Ointment  
+SUCR133899NEMIS	Sunsense Sensitive  Cream  SFP 50+
+NEOI10464BRIDL	Nerisone Forte  Ointment  0.3 %
+CCCR118016NEMIS	Ccs Foot Care  Cream  
+EFOI1027	Efcortelan  Ointment  1 %
+LOCR3847	Locoid  Cream  0.1 %
+DECA45029NEMIS	Dermacolor  Camouflage Creme  DM2.5
+BECR141018NEMIS	Betamethasone Dipropionate And Calcipotriol  Cream  0.05 % + 0.005 %
+SEOI15013NEMIS	Sebco  Ointment  
+DECA45021NEMIS	Dermacolor  Camouflage Creme  DM5.75
+FLOI19839NEMIS	Fluocinolone And Clioquinol  Ointment  0.025 % + 3 %
+ANSOEGTON7658	Anhydrol Forte  Solution  20 %
+SAGE8794EGTON	Salatac  Gel  
+PAAQ10050BRIDL	Panoxyl 10  Aquagel  10 %
+VECO35693NEMIS	Veil  Cover cream  Natural
+SPSP2670	Sprilon  Spray  
+BIDR90112NEMIS	Biobag  Dressing Kit  300, 6 cm x 12 cm
+ZIST29880EMIS	Zipzoc  Stocking  
+DILO21623NEMIS	Dimeticone  Lotion  4 %
+BECR16156NEMIS	Benadryl Skin Allergy Relief  Cream  
+HYLO5008	Hydrocortisone Butyrate  Scalp lotion  0.1 %
+DIEM19542EMIS	Diprobath  Emollient  
+SOCR102017NEMIS	Soolantra  Cream  10 mg/gram
+FUGE1268	Fusidic Acid  Gel  2 %
+HIGEEGTON7351	Hirudoid  Gel  0.3 %
+DACR793	Daktarin  Cream  2 %
+DUPAEGTON7269	Duofilm  Paint  
+DECA36325NEMIS	Dermacolor  Camouflage Creme  D21
+CHCL7830	Chlorhexidine Gluconate  Cleansing solution  20 % (Chlorhexidine Gluconate 4 %)
+NEGE1905NEMIS	Neutratop  Gel  0.75 %
+CAOIEGTON6429	Calamine And Coal Tar  Ointment  
+EUCR11329NEMIS	Eurax Hc  Cream  
+BEOI16169NEMIS	Bepanthen  Nappy Care Ointment  5 %
+WAOI16136NEMIS	Wartex  Ointment  50 %
+PECR4140	Pevaryl  Cream  1 %
+HACREGTON6272	Haelan  Cream  0.0125 %
+AVSI44779NEMIS	Avoca  Silver Nitrate Pencil  95 %
+BEGE82068NEMIS	Benzoyl Peroxide And Clindamycin  Gel  3 % + 1 %
+COOI89757NEMIS	Coal Tar Solution 10 % In Betamethasone Valerate 0.025 %  Ointment  
+BEGE6805	Benzoyl Peroxide  Gel  10 %
+DECA36358NEMIS	Dermacolor  Camouflage Creme  D58
+ALCR81	Alphaderm  Cream  1 % + 10 %
+CLTA22806NEMIS	Clairette  Tablets  
+HICREGTON7348	Hirudoid  Cream  0.3 %
+DAOI138402NEMIS	Dalbecal  Ointment  50 micrograms + 500 micrograms/gram
+URCR2988	Urea  Cream  10 %
+KEMA74106NEMIS	Keromask  Masking cream  Dark No 3
+WACR26899EMIS	Warticon  Cream  0.15 %
+SUSP2747	Surgical  Spirit  
+SOBA45680NEMIS	Soya Oil And Lauromacrogols  Bath oil  83.45 % + 15 %
+SYOI2764	Synalar  Ointment  0.025 %
+EULO32813EMIS	Eucerin  Lotion  10 %
+HYCR1391	Hydrocortisone  Cream  2.5 %
+BECR361	Betnovate-N  Cream  
+CLOI103455NEMIS	Clobetasol/Neomycin/Nystatin  Ointment  0.5 mg/gram + 5 mg/gram + 100,000 units/gram
+FOSO34743NEMIS	Formaldehyde  Solution  3 %
+BEGE25354EMIS	Benzamycin  Gel  
+DECA36402NEMIS	Dermacolor  Camouflage Creme  DJ3
+OICR6348NEMIS	Oilatum  Cream  
+BESH23485NEMIS	Benzalkonium Chloride  Shampoo  0.5 %
+DECA36298NEMIS	Dermacolor  Camouflage Creme  D1.5
+FUCR1253	Fucidin  Cream  2 %
+AQCR38720NEMIS	Aqua-Cool  Cream  0.5 %
+TINA7754	Tioconazole  Medicated Nail Lacquer  28 % (283 mg/ml)
+NIGE14938NEMIS	Nicam  Gel  4 %
+COOIEGTON6437	Coal Tar And Salicylic Acid  Ointment  BP
+ALLOEGTON6453	Alphosyl  Lotion  
+THOI2850	Thovaline  Ointment  
+XECR105361NEMIS	Xemacort  Cream  20 mg/gram + 1 mg/gram
+ZISP17922NEMIS	Zinc Oxide And Dimeticone  Spray  12.5 % + 1.04 %
+SCPO27545NEMIS	Scholl Corn Removal  Polymer Gel Plasters  40 % (4 plasters + 4 pads)
+CAOIEGTON6429	Calamine And Coal Tar  Ointment  
+DECA36410NEMIS	Dermacolor  Camouflage Creme  DV23
+BEOI19372NEMIS	Betamethasone Valerate And Clioquinol  Ointment  0.1 % + 3 %
+MECR32734EMIS	Metronidazole  Cream  1 %
+TASO116265NEMIS	Taltz  Solution for injection  80 mg/1 ml pre-filled pen
+NECR25988EMIS	Neutrogena Norwegian Formula  Cream  Dermatological 40 %
+NYCR19815NEMIS	Nystatin And Chlorhexidine  Cream  100,000 units/gram + 1 %
+COCL108926NEMIS	Covermark  Classic Foundation  10C
+BECR1689NEMIS	Benzoyl Peroxide  Cream  4 %
+GROIEGTON8146	Graneodin  Ointment  
+DEFO52067NEMIS	Dermablend  Foundation Coverstick  12
+DICR27176EMIS	Dithranol  Cream  0.25 %
+CRCR763	Crotamiton  Cream  10 %
+ANCR3173	Anethaine  Cream  1 %
+FLCR1181	Flamazine  Cream  1 %
+COCL108932NEMIS	Covermark  Classic Foundation  2C
+NYCR2058	Nystatin  Cream  100,000 units/gram
+BEOIEGTON8115	Benzoic Acid Compound  Ointment  
+DECA36331NEMIS	Dermacolor  Camouflage Creme  D305
+BEOI347	Betamethasone Valerate  Ointment  0.1 %
+ULCREGTON6268	Ultralanum Plain  Cream  
+OICR8441BRID	Oilatum  Cream  21 %
+ALCA31054NEMIS	Alitretinoin  Capsules  10 mg
+KESH10627BRIDL	Ketoconazole  Shampoo  2 %
+BEGE6746	Benzoyl Peroxide  Gel  2.5 %
+DECA85452NEMIS	Dermacolor  Camouflage Creme  DM1.25
+ALCREGTON6483	Alphosyl Hc  Cream  
+DICR9302BRIDL	Dithrocream  Cream  0.5 %
+VICR4514	Vioform-Hydrocortisone  Cream  
+CLOI82055NEMIS	Clobavate  Ointment  0.05 %
+CASC25445EMIS	Calcipotriol  Scalp solution  50 micrograms/ml
+CACR461	Calmurid  Cream  10 %
+DICR17623NEMIS	Dibrompropamidine  Cream  0.15 %
+FUCR984NEMIS	Fusidic Acid And Betamethasone Valerate  Cream  2 % + 0.1 %
+LONA9607EMIS	Loceryl  Medicated Nail Lacquer  5 %
+SOCR9912HILLI	Solarcaine  Cream  
+HYCR133334NEMIS	Hydrocortisone Acetate  Cream  1 %
+LOCR10176BRIDL	Lotriderm  Cream  
+TICR9489BRIDL	Tinaderm-M  Cream  
+LIGE7289	Lignocaine Hydrochloride  Gel  0.5 %
+SULOEGTON8011	Suleo-M  Lotion  0.5 %
+DACR793	Daktarin  Cream  2 %
+HYOI19808NEMIS	Hydrocortisone Butyrate And Chlorquinaldol  Ointment  0.1 % + 3 %
+DESH20095NEMIS	Dentinox Cradle Cap Treatment  Shampoo  
+BELO321	Benzoyl Peroxide  Lotion  5 %
+CLPO673	Clotrimazole  Powder  1 %
+CEGE44078NEMIS	Cepton Medicated Clear  Gel  0.5 %
+FITA12688NEMIS	Finasteride  Tablets  1 mg
+SAPA19693NEMIS	Salicylic Acid And Lactic Acid  Paint  16.7 % + 16.7 %
+BEOI17530NEMIS	Beclometasone  Ointment  0.025 %
+LIGE17700NEMIS	Lidocaine  Gel  0.5 %
+ERLO981NEMIS	Erythromycin And Zinc Acetate  Lotion  40 mg/ml + 12 mg/ml
+PHLI32184EMIS	Phenothrin  Liquid  0.5 %
+ACCA22022EMIS	Acitretin  Capsules  25 mg
+URLO390NEMIS	Urea  Lotion  3%
+DECR840	Dermovate  Cream  0.05 %
+GLSO1311	Glutarol  Solution  10 %
+BEGE320	Benzoyl Peroxide  Gel  5 %
+LACR22000EMIS	Lamisil  Cream  1 %
+DIGE30118EMIS	Differin  Gel  0.1 %
+PIGE77710NEMIS	Picato  Gel  500 micrograms/gram
+BECR19371NEMIS	Betamethasone Valerate And Clioquinol  Cream  0.1 % + 3 %
+MILI8502EGTON	Mildison  Lipocream  1 %
+TRGE90859NEMIS	Treclin  Gel  1 % + 0.025 %
+ZEBA36257NEMIS	Zerolatum Plus  Bath additive  
+CIPO619	Cicatrin  Dusting powder  
+LOOI9295BRIDL	Locoid C  Ointment  
+PEDE19809EMIS	Permethrin  Dermal cream  5 %
+LALO3812	Lacticare  Lotion  
+DICR951	Dithranol  Cream  0.1 %
+ESCREGTON7244	Eskamel  Cream  
+LOEM28231EMIS	Locoid Crelo  Emulsion  0.1 %
+DOOI12900NEMIS	Dovobet  Ointment  
+PAGEEGTON6567	Panoxyl 2.5  Aquagel  5 %
+FUCR3609	Fucibet  Cream  
+DICR952	Dithrocream  Cream  0.1 %
+VIOI4515	Vioform-Hydrocortisone  Ointment  
+UVSU22762NEMIS	Uvistat  Sun Cream  SPF 30
+SOLI5294NEMIS	Soap Spirit  Liquid  Methylated BP
+LAME21114NEMIS	Lanacane  Medicated Powder  
+AMSP39911NEMIS	Ambre Solaire Uv Sensitive  Spray Lotion  SPF 50 +
+DELO5236NEMIS	Delph Spf 30  Lotion  
+DOBA29048NEMIS	Doublebase  Bath additive  
+DELO28949EMIS	Dermol 500  Lotion  
+CHLO34260EMIS	Chlorhexidine Gluconate  Lotion  0.1 %
+COCL2026NEMIS	Covermark  Classic Foundation  No.3 Rose Fonce
+HYCR990NEMIS	Hydrocortisone And Miconazole  Cream  1 % + 2 %
+ISCA7262	Isotretinoin  Capsules  5 mg
+PHPA2254	Phytex  Paint  
+HYCR21343NEMIS	Hydrocortisone And Clioquinol  Cream  1 % + 3 %
+ICOIEGTON6520	Ichthammol  Ointment  10 % BP
+DECA36309NEMIS	Dermacolor  Camouflage Creme  D13
+HAOIEGTON6273	Haelan  Ointment  0.0125 %
+BAOIEGTON8155	Bactroban  Ointment  2 %
+CHCL7830	Chlorhexidine Gluconate  Cleansing solution  20 % (Chlorhexidine Gluconate 4 %)
+TEOI2821	Terra-Cortril  Ointment  
+CRLO764	Crotamiton  Lotion  10 %
+ALCREGTON8277	Alcoderm  Cream  
+VACR24306EMIS	Vaseline Dermacare  Cream  
+LOCR6963	Locoid Lipocream  Cream  0.1 %
+HYCR19697NEMIS	Hydrocortisone And Crotamiton  Cream  0.25 % + 10 %
+MICR1827	Miconazole Nitrate  Cream  2 %
+POAN7789	Povidone-Iodine  Antiseptic solution  10 %
+COCL108934NEMIS	Covermark  Classic Foundation  3C
+FLCR19836NEMIS	Fluocinolone And Neomycin  Cream  0.025 % + 0.5 %
+BIST21037NEMIS	Biobag  Sterile Maggots  BB003, medium, 200 larvae, 5 cm x 6 cm
+CLCU22350NEMIS	Clarelux  Foam  500 micrograms/gram
+WALI19657EMIS	E45 Emollient Wash  Cream  
+CUOI28149EMIS	Cutivate  Ointment  0.005 %
+SICA25528NEMIS	Silver Nitrate  Caustic Pencil  40 %
+EULO1128	Eurax  Lotion  10 %
+BECR19810NEMIS	Betamethasone Dipropionate And Clotrimazole  Cream  0.064 % + 1 %
+PALO34367EMIS	Panoxyl 10  Lotion  10 %
+INLI1467	Industrial Methylated Spirit  Liquid  95 %
+POAL7787	Povidone-Iodine  Alcoholic solution  10 %
+GRSP134272NEMIS	Grisol  Spray solution  1 %
+ZIPAEGTON6447	Zinc And Coal Tar  Paste  
+AZGE23017NEMIS	Azelaic Acid  Gel  15 %
+DEFO52072NEMIS	Dermablend  Foundation Coverstick  17
+FIGE23019NEMIS	Finacea  Gel  15 %
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+PITO20877NEMIS	Pinetarsol  Topical solution  2.3 %
+GLCR27826NEMIS	Glycerol  Cream  25 %
+EFOI1026	Efcortelan  Ointment  0.5 %
+DIEM19542EMIS	Diprobath  Emollient  
+HYSO51931NEMIS	Hydrogen Peroxide  Solution  9 %
+DACR28939NEMIS	Daktarin Aktiv  Cream  2 %
+POTA7707	Potassium Permanganate  Tablets For Cutaneous Solution  400 mg
+PESH26555EMIS	Pentrax  Shampoo  4.3 %
+VECO35676NEMIS	Veil  Cover cream  Biscuit
+POSO9830HILLI	Podophyllotoxin  Solution  0.5 %
+E4LO33886EMIS	E45  Lotion  
+CACR16120NEMIS	Candiden  Cream  1 %
+COOI88689NEMIS	Coal Tar Solution 5 % In White Soft Paraffin  Ointment  
+PEDE19809EMIS	Permethrin  Dermal cream  5 %
+RISO133222NEMIS	Risankizumab  Solution for injection  75 mg/0.83 ml pre-filled syringe
+DECA45039NEMIS	Dermacolor  Camouflage Creme  DM0
+DEFO52068NEMIS	Dermablend  Foundation Coverstick  13
+LIBA29047NEMIS	Liquid Paraffin  Bath additive  65 %
+DOCR34072EMIS	Doxepin Hydrochloride  Cream  5 %
+FUTA83109NEMIS	Fumaric Acid  Tablets  30 mg
+DICR3449	Dioderm  Cream  0.1 %
+DESP27011EMIS	Dermamist  Spray  10 %
+ALLOEGTON6453	Alphosyl  Lotion  
+GLSO1310	Glutaraldehyde  Solution  10 %
+SAME30110NEMIS	Salicylic Acid  Medicated Plaster  40 %
+BEMO28663EMIS	Betamethasone Valerate  Mousse  0.12 % (= 0.1 % betamethasone)
+OIEM23897NEMIS	Oilatum Junior  Bath additive  
+CLTO9238EMIS	Clindamycin  Aqueous Lotion  1 %
+DISC3458	Diprosone  Lotion  0.05 %
+CLOI48402NEMIS	Clobetasol/Neomycin/Nystatin (Essential Generics)  Ointment  0.5 mg/gram + 5 mg/gram + 100,000 units/gram
+BABA9587EMIS	Balneum Plus  Bath oil  
+NIGE26842EMIS	Nicotinamide  Gel  4 %
+DECA36407NEMIS	Dermacolor  Camouflage Creme  DJ8
+ADGE134773NEMIS	Adapalene And Benzoyl Peroxide  Gel  0.3 % + 2.5 %
+SICR17850NEMIS	Silver Sulfadiazine  Cream  1 %
+BEGE19510NEMIS	Benzoyl Peroxide And Clindamycin  Gel  5 % + 1 %
+DECA36368NEMIS	Dermacolor  Camouflage Creme  D67
+LIBA19473NEMIS	Liquid Paraffin And Lanolin  Bath oil  91.7 % + 3 %
+SEOI15013NEMIS	Sebco  Ointment  
+BEOI3241	Betnovate-Rd  Ointment  0.025 %
+SACO18438EMIS	Salicylic Acid  Collodion  12 %
+BELO6804	Benzoyl Peroxide  Lotion  10 %
+SUCR2722	Sulconazole Nitrate  Cream  1 %
+LACR17245NEMIS	Lansinoh  Ointment  
+LADR23808NEMIS	Larve Biofoam  Dressing Kit  2.5 cm x 4 cm, BFD25
+EPGE42895NEMIS	Epiduo  Gel  0.1 % + 2.5 %
+MECR23346NEMIS	Menthol In Aqueous  Cream  0.5 %
+CHCR134058NEMIS	Chlorhexidine Gluconate And Cetrimide  Cream  0.1 % + 0.5 %
+REGE9532BRIDL	Retin-A  Gel  0.01 %
+HYCR29928EMIS	Hydrogen Peroxide  Cream  1 %
+THCR47045NEMIS	Thornton & Ross Fuller's Earth  Cream  
+VECO35690NEMIS	Veil  Cover cream  Mauve
+ZIPAEGTON6536	Zinc And Salicylic Acid  Paste  
+ALOI3145	Alpha Keri Bath  Oil  
+CALO454	Calamine  Lotion  
+DECA36327NEMIS	Dermacolor  Camouflage Creme  D2W
+LIBA19799NEMIS	Liquid Paraffin Light And Isopropyl Myristate  Bath additive  37.8 % + 13 %
+DAOI137907NEMIS	Dalonev  Ointment  
+DASH16165NEMIS	Dandrazol Anti-Dandruff  Shampoo  2 %
+NISH8945BRIDL	Nizoral  Shampoo  2 %
+ISGE31078EMIS	Isotrexin  Gel  
+BEGE1572NEMIS	Becaplermin  Gel  0.01 %
+NYOI2048	Nystaform-Hc  Ointment  
+ELEU20529NEMIS	Elenas  Eureka Cream  
+DECA36210NEMIS	Dermacolor  Camouflage Creme  D54
+HICREGTON7821	Hibitane Obstetric  Cream  5 % (Chlorhexidine Gluconate 1 %)
+TRGE7249	Tretinoin  Gel  0.025 %
+SYCREGTON6250	Synalar 1 In 4 Dilution  Cream  0.00625 %
+MASH9676HILLI	Malathion  Cream shampoo  1 %
+CECR15462NEMIS	Cetrimide  Cream  1 %
+LONA9607EMIS	Loceryl  Medicated Nail Lacquer  5 %
+GLPO11714NEMIS	Glycopyrronium Bromide  Powder For Iontophoresis  
+SKCR22060EMIS	Skinoren  Cream  20 %
+DECA36388NEMIS	Dermacolor  Camouflage Creme  DF14
+HYEM28233EMIS	Hydrocortisone Butyrate  Emulsion  0.1 %
+COCL108941NEMIS	Covermark  Classic Foundation  7C
+ADGE42893NEMIS	Adapalene And Benzoyl Peroxide  Gel  0.1 % + 2.5 %
+SESH2524	Selenium Sulfide  Shampoo  2.5 %
+SYCREGTON6253	Synalar 1 In 10 Dilution  Cream  0.0025 %
+PRLOEGTON8014	Prioderm  Lotion  0.5 %
+ACCR15540NEMIS	Acriflex  Cream  0.25 %
+FLCR19986NEMIS	Fluocortolone Hexanoate And Fluocortolone Pivalate  Cream  0.25 % + 0.25 %
+GRSP20540NEMIS	Grisol Af  Spray solution  1 %
+CECR23273EMIS	Cetomacrogol  Cream  bp (formula a)
+OICR6523NEMIS	Oilatum Junior  Cream  
+CLCR12517NEMIS	Clearsore Aciclovir  Cream  5 %
+BEOI4642	Betamethasone  Ointment  0.05 % (as dipropionate)
+CACR86011NEMIS	Canesten Bifonazole Once Daily  Cream  1 %
+TRGE10792BRIDL	Tretinoin  Gel  0.01 %
+ZIPA9257BRIDL	Zinc Compound  Paste  
+FOGE31222EMIS	Formaldehyde Solution  Gel  0.75 %
+DECA36343NEMIS	Dermacolor  Camouflage Creme  D5
+FUCR986NEMIS	Fusidic Acid And Hydrocortisone Acetate  Cream  2 % + 1 %
+E4CR4770NEMIS	E45 Itch Relief  Cream  
+PODR7791	Povidone-Iodine  Dry powder spray  2.5 %
+CAOI9050EMIS	Calcipotriol  Ointment  50 micrograms/gram
+ULCREGTON6268	Ultralanum Plain  Cream  
+CAOI104989NEMIS	Catephen  Ointment  10 %
+ECCR42219NEMIS	Eczmol  Cream  1 %
+EUCR1127	Eurax  Cream  10 %
+ALOI4565	Alclometasone Dipropionate  Ointment  0.05 %
+COCL2025NEMIS	Covermark  Classic Foundation  No.2 Chair
+CASP22740NEMIS	Canesten Dermatological  Spray solution  1 %
+DECA36335NEMIS	Dermacolor  Camouflage Creme  D3W
+BACR30474EMIS	Balneum Plus  Cream  
+CUNA22658NEMIS	Curanail  Medicated Nail Lacquer  5 %
+VECO35711NEMIS	Veil  Cover cream  Wheat
+KEMA36685NEMIS	Keromask  Masking cream  Medium No 9
+ZECR31787NEMIS	Zenoxone  Cream  1 %
+POPA2292	Podophyllin Compound  Paint  15 %
+BAOIEGTON8155	Bactroban  Ointment  2 %
+NECA22018EMIS	Neotigason  Capsules  25 mg
+SALO28599EMIS	Salicylic Acid  Lotion  2 %
+VECO35677NEMIS	Veil  Cover cream  Brown
+DEOI17618NEMIS	Desoximetasone  Oily cream  0.05 %
+URCR19492NEMIS	Urea And Lactic Acid  Cream  10 % + 5 %
+FLOI7085	Fluocinolone Acetonide  Ointment  0.00625 %
+POSH15416NEMIS	Povidone-Iodine  Shampoo  4 %
+PAAQ9191BRIDL	Panoxyl 2.5  Aquagel  2.5 %
+VECO35712NEMIS	Veil  Cover cream  White
+VIDIEGTON7769	Videne  Disinfectant solution  10 %
+DECA36382NEMIS	Dermacolor  Camouflage Creme  D8W
+CLPO673	Clotrimazole  Powder  1 %
+BEOI3241	Betnovate-Rd  Ointment  0.025 %
+E4LO25728NEMIS	E45 Sun Reflective Sunscreen  Lotion  SPF 30+
+SASH19811NEMIS	Salicylic Acid And Sulfur  Shampoo  3 % + 5 %
+BRPA10423BRIDL	Brasivol No. 2  Paste  52.2 %
+URCR2988	Urea  Cream  10 %
+PRSO23278NEMIS	Proflavine  Solution  0.1 %
+STSO10934NEMIS	Steripod Chorhexidine/Cetrimide  Solution  20 ml unit dose vial
+SUCR2721	Sudocrem  Cream  
+XAGE33328NEMIS	Xamiol  Gel  
+HYOI1395	Hydrocortisone  Ointment  0.5 %
+ACCR15540NEMIS	Acriflex  Cream  0.25 %
+DICR27178EMIS	Dithranol  Cream  1 %
+BEOI19490NEMIS	Betamethasone Valerate And Neomycin  Ointment  0.1 % + 0.5 %
+CEBA16410NEMIS	Cetraben Emollient  Bath additive  82.8 %
+LISH19835EMIS	Liquid Paraffin  Shower gel  70 %
+ALCREGTON6452	Alphosyl  Cream  
+GRSP20538NEMIS	Griseofulvin  Spray solution  1 %
+OIEM2073	Oilatum  Emollient  
+MECR963NEMIS	Medicaid  Cream  
+SYCR2761	Synalar  Cream  0.025 %
+OISH40662NEMIS	Oilatum  Shower gel  fragrance-free 70 %
+LILI791NEMIS	Liquefied Phenol BP  Liquid  
+SESH5910	Selsun  Shampoo  2.5 %
+BEGE25354EMIS	Benzamycin  Gel  
+CENO30140NEMIS	Cetaphil  Non-Irritating Skin Cleanser  
+ACCR1532NEMIS	Acticin  Cream  0.025 %
+MEOI1809	Metosyn  Ointment  0.05 %
+VECO35675NEMIS	Veil  Cover cream  Beige
+MOSK135954NEMIS	Moogoo Sensitive  Skin Balm  
+MOOI3963	Modrasone  Ointment  0.05 %
+EXLO33003EMIS	Exorex  Lotion  5 % Cutaneous Emulsion (1 % prepared coal tar)
+DEOI3407	Dermovate-Nn  Ointment  
+HYOI19699NEMIS	Hydrocortisone And Sodium Fusidate  Ointment  1 % + 2 %
+DADUEGTON8098	Daktarin  Powder  2 %
+SPLO27879EMIS	Spectraban 25  Lotion  
+ERAC10389BRIDL	Erythromycin  Solution  2 %
+CECREGTON7914	Cetavlex  Cream  0.5 %
+SASO25910EMIS	Salicylic Acid  Solution  2 %
+ROCR32178EMIS	Rozex  Cream  0.75 %
+NEOI10462BRIDL	Nerisone Forte  Oily cream  0.3 %
+WHCR19816NEMIS	White Soft Paraffin And Liquid Paraffin Light  Cream  15 % + 6 %
+ZIIM5114NEMIS	Zinc Oxide  Impregnated Medicated Stocking  20 %
+URSC94965NEMIS	Urea  Scalp application  5 %
+VECO35682NEMIS	Veil  Cover cream  Cream
+PICR14319NEMIS	Pimecrolimus  Cream  1 %
+DECA36286NEMIS	Dermacolor  Camouflage Creme  D043
+BEGE320	Benzoyl Peroxide  Gel  5 %
+PSBA9884BRIDL	Psoriderm  Bath emulsion  40 %
+CHSO21660NEMIS	Chloroxylenol  Solution  4.8 %
+HYOI1405	Hydrous  Ointment  
+ISGE20670EMIS	Isotrex  Gel  0.05 %
+SICA132987NEMIS	Silver Nitrate  Caustic Applicator  95 %
+DAPO31081NEMIS	Daktarin Aktiv  Powder  2 %
+INBA5671NEMIS	Infaderm Therapeutic Oil  Bath emollient  
+DOOI9048EMIS	Dovonex  Ointment  50 micrograms/gram
+XAGE33328NEMIS	Xamiol  Gel  
+DECR77692NEMIS	Dermablend Dermasmooth Corrective Foundation  Cream  55, Bronze
+QUCR4250	Quinocort  Cream  
+DICR207NEMIS	Differin  Cream  0.1 %
+DECA36366NEMIS	Dermacolor  Camouflage Creme  D65
+INGE77706NEMIS	Ingenol Mebutate  Gel  500 micrograms/gram
+CHDU3464NEMIS	Chlorhexidine Acetate  Dusting powder  1 %
+CHGE44076NEMIS	Chlorhexidine  Gel  0.5 %
+QVWA26348NEMIS	Qv  Wash  
+SUSP2747	Surgical  Spirit  
+POLIEGTON8191	Polytar Plus  Liquid  
+POOIEGTON5997	Polyfax  Ointment  
+PESC9812HILLI	Permethrin  Cream rinse  1 %
+FLOI1200	Fluocinolone Acetonide  Ointment  0.025 %
+BECR16156NEMIS	Benadryl Skin Allergy Relief  Cream  
+COSH115229NEMIS	Coal Tar  Shampoo  4 %
+POTA7707	Potassium Permanganate  Tablets For Cutaneous Solution  400 mg
+USSO43588NEMIS	Ustekinumab  Solution for injection  45 mg/0.5 ml pre-filled syringe
+DECA36386NEMIS	Dermacolor  Camouflage Creme  DEF80
+TOCR2879	Tolnaftate  Cream  1 %
+CECR23274EMIS	Cetomacrogol  Cream  bp (formula b)
+GLCR25990EMIS	Glycerol  Cream  40 %
+SYCREGTON6253	Synalar 1 In 10 Dilution  Cream  0.0025 %
+SULI45465NEMIS	Sunsense  Lip Balm  SPF 50
+HYSU14781NEMIS	Hydrex  Surgical scrub  4 %
+SACR82704NEMIS	Salicylic Acid 1 % In Aqueous  Cream  
+DEFO52066NEMIS	Dermablend  Foundation Coverstick  11
+DECA36387NEMIS	Dermacolor  Camouflage Creme  DF1
+ADCR206NEMIS	Adapalene  Cream  0.1 %
+FLOI1202	Fluocinonide  Ointment  0.05 %
+NYOI2051	Nystan  Ointment  100000 units/g
+COBA3456NEMIS	Coal Tar  Bath emulsion  40 %
+EPGE42895NEMIS	Epiduo  Gel  0.1 % + 2.5 %
+CUMO123292NEMIS	Cuderm  Moisturising Hand Cream  
+ISSO29926NEMIS	Isopropyl Alcohol And Chlorhexidine Gluconate  Solution  70 % + 2 %, 26 ml applicator
+DECA36285NEMIS	Dermacolor  Camouflage Creme  D041
+VEOIEGTON7272	Verrugon Complete  Ointment  50 %
+TAOI28095EMIS	Tacalcitol Monohydrate  Ointment  4 micrograms/gram
+EUOI1125	Eumovate  Ointment  0.05 %
+LALO19805NEMIS	Lactic Acid And Sodium Pidolate  Lotion  5 % + 2.5 %
+VIDIEGTON7769	Videne  Disinfectant solution  10 %
+EMSO32879EMIS	Emulsifying Wax  Solid  bp
+DIOI4837	Diflucortolone Valerate  Ointment  0.1 %
+CYCR31092NEMIS	Cymex  Cream  
+HYOI5002	Hydrocortisone  Ointment  1 %
+DELO5232NEMIS	Delph Spf 20  Lotion  
+LOLO3848	Locoid  Scalp lotion  0.1 %
+EFOI1028	Efcortelan  Ointment  2.5 %
+TETA104157NEMIS	Teragezza  Tablets  2,000 micrograms + 35 micrograms
+OICR6348NEMIS	Oilatum  Cream  
+SOBA19479NEMIS	Soya Oil And Lauromacrogols  Bath oil  82.95 % + 15 %
+REGEEGTON7252	Retin-A  Gel  0.025 %
+DIOI9490EMIS	Diflucortolone Valerate  Oily cream  0.1 %
+DASH15772NEMIS	Dandrazol  Shampoo  2 %
+EULO138370NEMIS	Eucerin UreaRepair Plus Urea  Lotion  10 %
+COCL2028NEMIS	Covermark  Classic Foundation  No.5 Bistre
+DECR48361NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  13, Light
+CALI34079EMIS	Carylderm  Liquid  1 %
+LIBA102402NEMIS	Lipikar Baume Ap+ Lipid-Replenishing  Balm  
+CLGE12705NEMIS	Clindamycin  Gel  1 %
+MEGE15035NEMIS	Metrosa  Gel  0.75 %
+URCR19481NEMIS	Urea And Lauromacrogols  Cream  5 % + 3 %
+FLOI19837NEMIS	Fluocinolone And Neomycin  Ointment  0.025 % + 0.5 %
+RECU23918NEMIS	Regaine For Men Extra Strength  Scalp solution  5 %
+VECO35701NEMIS	Veil  Cover cream  Oyster
+FLCR24418EMIS	Fluticasone Propionate  Cream  0.05 %
+LICREGTON6096	Lipobase  Cream  
+ACCA22021EMIS	Acitretin  Capsules  10 mg
+PAGE2155	Panoxyl 5  Gel  5 %
+FIGE23019NEMIS	Finacea  Gel  15 %
+DECA36380NEMIS	Dermacolor  Camouflage Creme  D8
+MECR33882EMIS	Mepyramine  Cream  2 %
+PALO34365EMIS	Panoxyl 5  Lotion  5 %
+FUMO799NEMIS	Full Marks  Mousse  0.5 %
+HACREGTON7205	Halciderm Topical  Cream  0.1 %
+AMCR18106EMIS	Amorolfine Hydrochloride  Cream  0.25 %
+ECCR3490	Ecostatin  Cream  1 %
+BEDREGTON7798	Betadine  Dry powder spray  2.5 %
+SIOI12839NEMIS	Silkis  Ointment  3 micrograms/gram
+CLCR644	Clobetasone Butyrate  Cream  0.05 %
+ISGE31078EMIS	Isotrexin  Gel  
+TEGE17468NEMIS	Terbinafine Hydrochloride  Gel  1 %
+PIGE20878NEMIS	Pine Tar  Gel  1.6 %
+CAPO472	Canesten  Powder  1 %
+TRCR7248	Tretinoin  Cream  0.05 %
+TRSO7698	Triclosan  Solution  2 %
+ISLI360NEMIS	Isopropyl Alcohol  Liquid  Ph Eur
+DUPAEGTON7269	Duofilm  Paint  
+DECA36364NEMIS	Dermacolor  Camouflage Creme  D63
+BRPA10421BRIDL	Brasivol No. 1  Paste  38.09 %
+BEOI360	Betnovate-C  Ointment  
+HECR3547NEMIS	Heparinoid  Cream  0.3 %
+ZIPO137503NEMIS	Zinc Undecenoate And Undecenoic Acid  Powder  20 % + 2 %
+MALO10245BRIDL	Malathion  Alcoholic Lotion  0.5 %
+HYOI24450EMIS	Hydrocortisone Butyrate  Ointment  0.1 %
+UVLI13437NEMIS	Uvistat  Lipscreen  Spf 30
+MEGE1001EMIS	Metrotop  Gel  0.8 %
+FUCR3609	Fucibet  Cream  
+STPOEGTON7724	Ster-Zac  Dusting powder  0.33 %
+TECR17503NEMIS	Tetracaine  Cream  1 %
+NUCR4063	Nutraplus  Cream  10 %
+CACREGTON7230	Carbo-Dome  Cream  10 %
+MYSPEGTON8068	Mycota  Spray  
+DIOI9490EMIS	Diflucortolone Valerate  Oily cream  0.1 %
+BEOI16714NEMIS	Betamethasone Dipropionate And Calcipotriol  Ointment  0.05 % + 50 micrograms/gram
+SOGE133649NEMIS	Solacutan  Gel  3 %
+BECR346	Betamethasone Valerate  Cream  0.1 %
+BEOI20607EMIS	Betamethasone Valerate  Ointment  0.025 %
+BELO9285BRIDL	Betnovate  Lotion  0.1 %
+AVCR22602EMIS	Aveeno  Cream  
+FLGE1199	Fluocinolone Acetonide  Gel  0.025 %
+ALCREGTON8277	Alcoderm  Cream  
+LACU22030NEMIS	Lamisil Once  Cutaneous Solution  1 %
+DICR27177EMIS	Dithranol  Cream  0.5 %
+HISO39046NEMIS	Hibitane Plus 5 % Concentrate  Solution  
+CLCR671	Clotrimazole  Cream  1 %
+TEPU13231NEMIS	Terbinafine Hydrochloride  Pump spray  1 %
+HESP48408NEMIS	Hedrin  Spray  4 %
+AVHA44992NEMIS	Aveeno Intense Relief  Hand Cream  
+BECR32318EMIS	Betadine  Cream  5 %
+LOCR6963	Locoid Lipocream  Cream  0.1 %
+AQCR207	Aqueous  Cream  
+THOI6472NEMIS	The 50:50  Ointment  
+CHSK6474NEMIS	Chlorhexidine Gluconate  Skin Wash  1 %
+DECR77689NEMIS	Dermablend Dermasmooth Corrective Foundation  Cream  25, Nude
+DECA36371NEMIS	Dermacolor  Camouflage Creme  D6W
+CLSO674	Clotrimazole  Solution  1 %
+DIOI9416HILLI	Diflucortolone Valerate  Ointment  0.3 %
+SOCR102017NEMIS	Soolantra  Cream  10 mg/gram
+VECO35710NEMIS	Veil  Cover cream  Vanilla
+DICR17920NEMIS	Dimeticone  Cream  10 %
+DECA45023NEMIS	Dermacolor  Camouflage Creme  DM5.25
+FLCR7083	Fluocinolone Acetonide  Cream  0.0025 %
+DECA36294NEMIS	Dermacolor  Camouflage Creme  D080
+ODSP31051NEMIS	Odaban  Spray  20 %
+SYGE2763	Synalar  Gel  0.025 %
+CAOI104986NEMIS	Camellia Sinensis Extract  Ointment  10 %
+BEOI4642	Betamethasone  Ointment  0.05 % (as dipropionate)
+ZOCR3097	Zovirax  Cream  5 %
+LIGE17700NEMIS	Lidocaine  Gel  0.5 %
+ERAC10389BRIDL	Erythromycin  Solution  2 %
+ELCR22373EMIS	Elocon  Cream  0.1 %
+COWA15874NEMIS	Compound W  Wart Remover Paint  17 %
+VACR21747NEMIS	Vagisil Medicated  Cream  2 %
+CYCR33311NEMIS	Cymex Ultra  Cream  5 %
+DECA36304NEMIS	Dermacolor  Camouflage Creme  D11
+ZILOEGTON7696	Zinc Sulfate  Lotion  1 %
+LOCR18104EMIS	Loceryl  Cream  0.25 %
+RELOEGTON7253	Retin-A  Lotion  0.025 %
+FLTA41274NEMIS	Fludroxycortide  Tape  4 micrograms/square cm, 7.5 cm
+TRAN52129NEMIS	Triple Dry  Anti-Perspirant Spray  
+STSOEGTON7699	Ster-Zac Bath Concentrate  Solution  2 %
+BEOI8753BRIDL	Betnovate-N  Ointment  
+DECR48362NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  14, Nude
+ICOIEGTON6520	Ichthammol  Ointment  10 % BP
+ZIOI8382EGTON	Zinc  Ointment  
+CEMO115295NEMIS	Cetaphil Restoraderm Skin Restoring  Moisturiser  
+HYCR13552NEMIS	Hydroquinone  Cream  2 %
+STSO10387BRIDL	Stiemycin  Solution  2 %
+TEGE17468NEMIS	Terbinafine Hydrochloride  Gel  1 %
+BEOI347	Betamethasone Valerate  Ointment  0.1 %
+ICGL8864EGTON	Ichthammol Glycerin Bp  Liquid  
+DESP27011EMIS	Dermamist  Spray  10 %
+ASCREGTON7692	Aserbine  Cream  
+LIOI5242NEMIS	Liquid Paraffin And White Soft Paraffin  Ointment  50 % + 50 %
+WASO8569EGTON	Warticon  Solution  0.5 %
+ESCREGTON7244	Eskamel  Cream  
+SICA44780NEMIS	Silver Nitrate  Caustic Pencil  95 %
+COOI48106NEMIS	Coal Tar 5 % In Yellow Soft Paraffin  Ointment  
+VITA78649NEMIS	Viviscal Maximum Strength  Tablets  
+MEGE20333EMIS	Metrogel  Gel  0.75 %
+DICR8830EGTON	Dithrocream  Cream  0.25 %
+SICR2568	Silver Sulphadiazine  Cream  1 %
+COFIEGTON8249	Covermark  Finishing powder  
+INBA5671NEMIS	Infaderm Therapeutic Oil  Bath emollient  
+ZIBAEGTON7427	Zinc Paste And Calamine  Bandage  7.5 cm x 6 m
+EUSH78112NEMIS	Eucerin Dermocapillaire Calming Urea  Shampoo  
+SOGA8776EGTON	Sofra-Tulle  Gauze dressing  10 cm x 10 cm
+SOSP4332	Solarcaine  Spray  
+SACR36718NEMIS	Salicylic Acid 2 % in Aqueous  Cream  
+SULO6521NEMIS	Sunsense Ultra  Lotion  SPF 50+
+POEM2299	Polytar  Emollient  
+HYOI1397	Hydrocortisone  Ointment  2.5 %
+COOIEGTON6437	Coal Tar And Salicylic Acid  Ointment  BP
+PRCR2385	Propaderm  Cream  0.025 %
+PAAQ10048BRIDL	Panoxyl 5  Aquagel  5 %
+MALI10247BRIDL	Malathion  Aqueous Lotion  0.5 %
+UVLI22764NEMIS	Uvistat  Lipscreen  SPF 50
+DELO5230NEMIS	Delph Spf 15  Lotion  
+RESC51857NEMIS	Regaine For Men Extra Strength  Scalp foam  5 %
+NEGE1905NEMIS	Neutratop  Gel  0.75 %
+DIOI3457	Diprosone  Ointment  0.05 %
+PIGE77710NEMIS	Picato  Gel  500 micrograms/gram
+AVLO11647NEMIS	Aveeno  Lotion  
+ACOR45699NEMIS	Acitretin  Oral suspension  5 mg/5 ml
+DICR4836	Diflucortolone Valerate  Cream  0.1 %
+SACR101933NEMIS	Salicylic Acid And Sulfur In Aqueous  Cream  2 % + 2 %
+DECA36400NEMIS	Dermacolor  Camouflage Creme  DJ1
+EMOI1059	Emulsifying  Ointment  
+DECA45038NEMIS	Dermacolor  Camouflage Creme  DM0.5
+FLCR7083	Fluocinolone Acetonide  Cream  0.0025 %
+SCCR29383NEMIS	Scholl Advance Athletes Foot  Cream  1 %
+POSK7793	Povidone-Iodine  Skin cleanser solution  4 %
+ALOI29119NEMIS	Altargo  Ointment  1 %
+DEOI3407	Dermovate-Nn  Ointment  
+MOCR22380EMIS	Mometasone Furoate  Cream  0.1 %
+AUOI81521NEMIS	Audavate  Ointment  0.1 %
+FLCR17665NEMIS	Fludroxycortide  Cream  0.0125 %
+SASO25910EMIS	Salicylic Acid  Solution  2 %
+SYGE2763	Synalar  Gel  0.025 %
+ADGE30120EMIS	Adapalene  Gel  0.1 %
+MICR29931EMIS	Micanol  Cream  1 %
+DILO3454	Diprosalic  Scalp application  0.05 % + 2 %
+CACR11263NEMIS	Canesten Hydrocortisone  Cream  
+RESC117956NEMIS	Regaine For Women Once A Day  Scalp foam  5 %
+ZIBAEGTON7427	Zinc Paste And Calamine  Bandage  7.5 cm x 6 m
+ACCA22021EMIS	Acitretin  Capsules  10 mg
+AVCR47581NEMIS	Aveeno Moisturising  Creamy Oil  
+OISH19833EMIS	Oilatum  Shower gel  70 %
+KEMA36688NEMIS	Keromask  Masking cream  Light No 9
+CUOI28093EMIS	Curatoderm  Ointment  4 micrograms/gram
+BEMO28663EMIS	Betamethasone Valerate  Mousse  0.12 % (= 0.1 % betamethasone)
+DIOI3453	Diprobase  Ointment  
+ERGE33000EMIS	Eryacne  Gel  2 %
+TAGE31232EMIS	Tazarotene  Gel  0.05 %
+HYEM28233EMIS	Hydrocortisone Butyrate  Emulsion  0.1 %
+MOOI3971	Morhulin  Ointment  
+DICR19497NEMIS	Dimeticone And Benzalkonium Chloride  Cream  22 % + 0.1 %
+ALCA31056NEMIS	Alitretinoin  Capsules  30 mg
+BELO9285BRIDL	Betnovate  Lotion  0.1 %
+COOI71623NEMIS	Coal Tar Solution And Salicylic Acid In Emulsifying  Ointment  6 % + 2 %
+EUCR23302NEMIS	Eucerin Dry Skin Relief Face  Cream  5 %
+CICR8999EGTON	Cicatrin  Cream  
+PECR29213EMIS	Penciclovir  Cream  1 %
+COOI48104NEMIS	Coal Tar 10 % In Yellow Soft Paraffin  Ointment  
+KLOI141016NEMIS	Klisyri  Ointment  10 mg/gram, 250 mg sachet
+EUCR34330EMIS	Eucerin  Cream  10 %
+LOOI8683EGTON	Locoid  Ointment  0.1 %
+UNCR2978	Unguentum Merck  Cream  
+CHSO29927NEMIS	Chloraprep  Solution  0.67 ml applicator
+WHCR19494NEMIS	White Soft Paraffin And Liquid Paraffin Light  Cream  13.2 % + 10.5 %
+SOCR9912HILLI	Solarcaine  Cream  
+TICR2861	Timodine  Cream  
+SASO23972EMIS	Salicylic Acid  Solution  26 %
+NYCR117330NEMIS	Nystatin/Chlorhexidine Hydrochloride/Hydrocortisone  Cream  100,000 units/gram + 1 % + 0.5 %
+COWA15874NEMIS	Compound W  Wart Remover Paint  17 %
+TIOI141013NEMIS	Tirbanibulin  Ointment  10 mg/gram, 250 mg sachet
+INGE77706NEMIS	Ingenol Mebutate  Gel  500 micrograms/gram
+HEOI15472NEMIS	Heparinoid  Ointment  0.8 %
+KEMA36692NEMIS	Keromask  Masking Cream Mixer  White
+DEFO52069NEMIS	Dermablend  Foundation Coverstick  14
+DECA45037NEMIS	Dermacolor  Camouflage Creme  DM1
+AQCL22596NEMIS	Aquabar  Cleansing And Moisturising Bar  
+IMBA28369EMIS	Imuderm  Bath emollient  
+MAANEGTON7766	Manusept  Antibacterial hand rub  
+DUGE16408NEMIS	Duac Once Daily  Gel  5 % + 1 %
+AVCA33643EMIS	Avoca  Caustic Pencil  95 %, Treatment Set
+DICR27179EMIS	Dithranol  Cream  2 %
+DECR4880NEMIS	Decubal Clinic  Cream  
+VECR29211EMIS	Vectavir  Cream  1 %
+SAGE19498NEMIS	Salicylic Acid And Lactic Acid  Gel  11 % + 4 %
+VECO35688NEMIS	Veil  Cover cream  Honey
+MOLO22381EMIS	Mometasone Furoate  Scalp lotion  0.1 %
+EULO1128	Eurax  Lotion  10 %
+DOCR34072EMIS	Doxepin Hydrochloride  Cream  5 %
+ROGE26148EMIS	Rozex  Gel  0.75 %
+DEBA939NEMIS	Dermol 600  Bath emollient  
+CHSO29929NEMIS	Chloraprep  Solution  10.5 ml applicator
+MAPA1712	Magnesium Sulfate  Paste  
+CACR477	Canesten Hc  Cream  
+FUCR1267	Fusidic Acid  Cream  2 %
+DECA36299NEMIS	Dermacolor  Camouflage Creme  D10
+DECA36329NEMIS	Dermacolor  Camouflage Creme  D3.5
+SALO28599EMIS	Salicylic Acid  Lotion  2 %
+EFOI1028	Efcortelan  Ointment  2.5 %
+DOEM36512NEMIS	Doublebase  Emollient Wash Gel  
+TRSO130265NEMIS	Tremfya  Solution for injection  100 mg/1 ml pre-filled pen
+E4LO4934NEMIS	E45 Sun Spf 15  Lotion  
+MOCR22380EMIS	Mometasone Furoate  Cream  0.1 %
+FLCR1201	Fluocinonide  Cream  0.05 %
+T/SHEGTON8178	T/Gel  Therapeutic Shampoo  2 %
+CHSO23715NEMIS	Chloraprep  Solution  3 ml applicator
+QUCR2427	Quinoderm  Cream 5  
+MYPO34278EMIS	Mycil  Powder  
+BECR4093NEMIS	Benzyl Benzoate  Crystals  BP
+CESK6473NEMIS	Cepton Medicated  Skin Wash  1 %
+CHLO34260EMIS	Chlorhexidine Gluconate  Lotion  0.1 %
+DEFI36212NEMIS	Dermacolor  Fixing powder  P2
+FUCR986NEMIS	Fusidic Acid And Hydrocortisone Acetate  Cream  2 % + 1 %
+FLCR1181	Flamazine  Cream  1 %
+CHSO563	Chlorhexidine Gluconate  Solution  5 %
+BAGE3497NEMIS	Bazuka  Gel  
+ISTA44101NEMIS	Isotretinoin  Tablets  20 mg
+ZICR4546	Zinc  Cream  
+CESHEGTON8217	Ceanel Concentrate  Shampoo  
+CLOI646	Clobetasone Butyrate  Ointment  0.05 %
+ZOGE31229EMIS	Zorac  Gel  0.1 %
+PAJE4117	Paraffin Yellow Soft  yellow petroleum jelly  BP
+SAPA2476	Salactol  Paint  
+KEMA74114NEMIS	Keromask  Masking cream  Light No 15
+PIBA20873NEMIS	Pine Tar  Bath oil  2.3 %
+DECA36336NEMIS	Dermacolor  Camouflage Creme  D4
+TROI2905	Tri-Adcortyl  Ointment  
+UNSO15519NEMIS	Unisept  Solution  0.05 %, 25 ml sachet
+SKBA52124NEMIS	Skin Salvation  Bath oil  
+COCL2032NEMIS	Covermark  Classic Foundation  No.9 Bronze
+FUCR3611	Fucidin H  Cream  
+PSCREGTON6470	Psoriderm  Cream  
+ICPA91149NEMIS	Ichthammol  Paste  1 %
+DECA36293NEMIS	Dermacolor  Camouflage Creme  D079
+CASH9278EMIS	Capasal  Shampoo  
+BECR20606EMIS	Betamethasone Valerate  Cream  0.025 %
+HYCR9283BRIDL	Hydrocortisone  Cream  0.1 %
+ANSOEGTON7658	Anhydrol Forte  Solution  20 %
+ANST11323NEMIS	Anthisan Plus  Sting Relief Spray  
+CEBA16410NEMIS	Cetraben Emollient  Bath additive  82.8 %
+PAAQ10048BRIDL	Panoxyl 5  Aquagel  5 %
+IMCR33766EMIS	Imiquimod  Cream  5 %, 250 mg sachet
+BECR19831NEMIS	Benzoyl Peroxide And Potassium Hydroxyquinoline Sulfate  Cream  5 % + 0.5 %
+PALO9003EGTON	Panoxyl Wash  Lotion  10 %
+CESHEGTON8217	Ceanel Concentrate  Shampoo  
+ISCA51773NEMIS	Isotretinoin  Capsules  40 mg
+NUCR4063	Nutraplus  Cream  10 %
+DICR9302BRIDL	Dithrocream  Cream  0.5 %
+ACCR41	Aciclovir  Cream  5 %
+COSH3455NEMIS	Coal Tar  Shampoo  4.3 %
+DRAN997	Driclor  Antiperspirant  20 %
+DICR19497NEMIS	Dimeticone And Benzalkonium Chloride  Cream  22 % + 0.1 %
+USSO34945NEMIS	Ustekinumab  Solution for injection  45 mg/0.5 ml vial
+DECA45032NEMIS	Dermacolor  Camouflage Creme  DM2 1/8
+HYOI76712NEMIS	Hydrocortisone And Oxytetracycline  Ointment  1 % + 3 %
+POAN7789	Povidone-Iodine  Antiseptic solution  10 %
+DEFI36214NEMIS	Dermacolor  Fixing powder  P4
+CUOI28149EMIS	Cutivate  Ointment  0.005 %
+XECR34070EMIS	Xepin  Cream  5 %
+DEOI17618NEMIS	Desoximetasone  Oily cream  0.05 %
+LADR23810NEMIS	Larve Biofoam  Dressing Kit  7 cm x 7 cm, BFD70
+VECO35678NEMIS	Veil  Cover cream  Caramel
+SYOIEGTON6251	Synalar 1 In 4 Dilution  Ointment  0.00625 %
+HEGE3548NEMIS	Heparinoid  Gel  0.3 %
+POEM2299	Polytar  Emollient  
+TOPO2880	Tolnaftate  Powder  1 %
+SYCR9250BRIDL	Synalar N  Cream  
+ROPO11715NEMIS	Robinul  Powder For Solution For Iontophoresis  
+DICR207NEMIS	Differin  Cream  0.1 %
+OIBA26861NEMIS	Oilatum  Bath Formula  
+LIBA19801NEMIS	Liquid Paraffin Light And Almond Oil  Bath oil  69.6 % + 30 %
+PRTA12690NEMIS	Propecia  Tablets  1 mg
+DOBA29048NEMIS	Doublebase  Bath additive  
+BEME37226NEMIS	Betamethasone Valerate  Medicated Plaster  2.25 mg
+GACA9247EMIS	Gamolenic Acid  Capsules  80 mg
+FLGE1199	Fluocinolone Acetonide  Gel  0.025 %
+LAGE17469NEMIS	Lamisil At  Gel  1 %
+DECU49008NEMIS	Dermol Wash  Cutaneous Emulsion  
+TISO130417NEMIS	Tildrakizumab  Solution for injection  100 mg/1 ml pre-filled syringe
+FLCR1197	Fluocinolone Acetonide  Cream  0.025 %
+STSO105351NEMIS	Stelara  Solution for injection  90 mg/1 ml pre-filled syringe
+TICR22553EMIS	Tinaderm  Cream  1 %
+MICR29932EMIS	Micanol  Cream  3 %
+POCR32320EMIS	Povidone-Iodine  Cream  5 %
+CACR11263NEMIS	Canesten Hydrocortisone  Cream  
+COSO8914EGTON	Condyline  Solution  0.5 %
+PIGE20879NEMIS	Pinetarsol  Gel  1.6 %
+ACCA22022EMIS	Acitretin  Capsules  25 mg
+GECR131563NEMIS	Gentamicin  Cream  0.1 %
+MYDUEGTON8067	Mycota  Powder  
+CLCU22348NEMIS	Clobetasol Propionate  Foam  500 micrograms/gram
+POOI19818NEMIS	Polymyxin B And Bacitracin  Ointment  10,000 units/gram + 500 units/gram
+VECO35695NEMIS	Veil  Cover cream  Natural-Medium
+CEGE37471NEMIS	Cetaphil  Gentle Skin Cleanser  
+CUGEEGTON7266	Cuplex Verruca  Gel  
+POSH15416NEMIS	Povidone-Iodine  Shampoo  4 %
+HYSO7717	Hydrogen Peroxide  Solution  6 %
+CRLO764	Crotamiton  Lotion  10 %
+MECR122195NEMIS	Menthoderm  Cream  2 %
+PACR34369EMIS	Panoxyl  Cream  5 %
+ZIST29880EMIS	Zipzoc  Stocking  
+BEME37226NEMIS	Betamethasone Valerate  Medicated Plaster  2.25 mg
+ZOCR16091NEMIS	Zovirax Cold Sore  Cream  5 %
+ULLO38629NEMIS	Ultrasun Family  Lotion  SPF 30
+QUBA8740EGTON	Quinaband  Bandage  7.5 cm x 6 m
+MIDU8097	Miconazole Nitrate  Powder  2 %
+PRTA12690NEMIS	Propecia  Tablets  1 mg
+CUOI28093EMIS	Curatoderm  Ointment  4 micrograms/gram
+DECA36313NEMIS	Dermacolor  Camouflage Creme  D14
+UVLI22764NEMIS	Uvistat  Lipscreen  SPF 50
+WHCR119019NEMIS	White Soft Paraffin And Liquid Paraffin  Cream  15 % + 6 %
+MIST22998NEMIS	Milton No 2  Sterilising Fluid  2 %
+SACR97863NEMIS	Salicylic Acid  Cream  5 %
+ALOI29119NEMIS	Altargo  Ointment  1 %
+DECA36340NEMIS	Dermacolor  Camouflage Creme  D406
+OISH40662NEMIS	Oilatum  Shower gel  fragrance-free 70 %
+MECR88140NEMIS	Menthol In Aqueous  Cream  5 %
+BEOI19372NEMIS	Betamethasone Valerate And Clioquinol  Ointment  0.1 % + 3 %
+SACR108361NEMIS	Salicylic Acid 5% In Unguentum M  Cream  
+PSOIEGTON6512	Psorin  Ointment  
+CACR461	Calmurid  Cream  10 %
+CLGE90857NEMIS	Clindamycin And Tretinoin  Gel  1 % + 0.025 %
+EFOI1027	Efcortelan  Ointment  1 %
+EFCR1023	Efcortelan  Cream  0.5 %
+CLCR972NEMIS	Clotrimazole And Hydrocortisone  Cream  1 % + 1 %
+CLTO9239EMIS	Clindamycin  Topical solution  1 %
+COSOEGTON6473	Coal Tar  Solution  
+ROCA9318BRIDL	Roaccutane  Capsules  20 mg
+SPSP2670	Sprilon  Spray  
+PRTR13554NEMIS	Pro-Juven  Transdermal Cream  1.5 %
+COSO8914EGTON	Condyline  Solution  0.5 %
+BEMO28661EMIS	Bettamousse  Mousse  0.12 %
+HYCR990NEMIS	Hydrocortisone And Miconazole  Cream  1 % + 2 %
+BEAP324	Benzyl Benzoate  Application  25 %
+REGE1574NEMIS	Regranex  Gel  0.01 %
+BECR19830NEMIS	Benzoyl Peroxide And Potassium Hydroxyquinoline Sulfate  Cream  10 % + 0.5 %
+ISCA35653NEMIS	Isotretinoin  Capsules  10 mg
+DECA36367NEMIS	Dermacolor  Camouflage Creme  D66
+MYPO34278EMIS	Mycil  Powder  
+DECA36390NEMIS	Dermacolor  Camouflage Creme  DF2
+CAOI12837NEMIS	Calcitriol  Ointment  3 micrograms/gram
+POLI8759BRIDL	Polytar  Liquid  
+DISC19825NEMIS	Dithranol And Salicylic Acid  Scalp gel  0.25 % + 1.6 %
+MICR29931EMIS	Micanol  Cream  1 %
+OIBA24148EMIS	Oilatum Plus  Bath emollient  
+HYCR5007	Hydrocortisone Butyrate  Cream  0.1 %
+BELO3068NEMIS	Betamethasone  Lotion  0.05 % (as dipropionate)
+REGE25128NEMIS	Regaine For Men  Gel  2 %
+POAL7787	Povidone-Iodine  Alcoholic solution  10 %
+IXSO116260NEMIS	Ixekizumab  Solution for injection  80 mg/1 ml pre-filled syringe
+LIOI5242NEMIS	Liquid Paraffin And White Soft Paraffin  Ointment  50 % + 50 %
+SUCR51597NEMIS	Sunsense Sunsensitive  Cream  SPF 50+
+TRLO7250	Tretinoin  Lotion  0.025 %
+FLOI1200	Fluocinolone Acetonide  Ointment  0.025 %
+PAAQ10050BRIDL	Panoxyl 10  Aquagel  10 %
+SOLI5294NEMIS	Soap Spirit  Liquid  Methylated BP
+SPLO25140EMIS	Spectraban Ultra  Lotion  SPF 28
+ZICR138800NEMIS	Zinc Undecenoate And Undecenoic Acid  Cream  20 % + 5 %
+PROI2386	Propaderm  Ointment  0.025 %
+DUGE16408NEMIS	Duac Once Daily  Gel  5 % + 1 %
+CRCR763	Crotamiton  Cream  10 %
+HYOI1405	Hydrous  Ointment  
+BECR32318EMIS	Betadine  Cream  5 %
+DOSC25443EMIS	Dovonex  Scalp solution  50 micrograms/ml
+BECR19489NEMIS	Betamethasone Valerate And Neomycin  Cream  0.1 % + 0.5 %
+DESE22733EMIS	Dermablend  Setting powder  
+PAGEEGTON6569	Panoxyl 10  Gel  10 %
+ROCA22460NEMIS	Roaccutane  Capsules  10 mg
+LIBA19502NEMIS	Liquid Paraffin Light And Isopropyl Myristate  Bath emollient  46 % + 39 %
+XECR34070EMIS	Xepin  Cream  5 %
+MECR32180EMIS	Metronidazole  Cream  0.75 %
+HECR10885NEMIS	Hewletts  Cream  
+FLOI28151EMIS	Fluticasone Propionate  Ointment  0.005 %
+FLLI47913NEMIS	Flexible Collodion Methylated  Liquid  
+SOSP4332	Solarcaine  Spray  
+DEBA4930NEMIS	Dermalo  Bath emollient  
+PODR3779NEMIS	Povidone-Iodine  Dry powder spray  1.14 %
+HYCR19475NEMIS	Hydrocortisone And Urea  Cream  1 % + 10 %
+HATA41275NEMIS	Haelan  Tape  4 micrograms/square cm, 7.5 cm
+COCL2030NEMIS	Covermark  Classic Foundation  No.7 Naturel
+OIBA24148EMIS	Oilatum Plus  Bath emollient  
+DECA36344NEMIS	Dermacolor  Camouflage Creme  D50
+CLCR641	Clobetasol Propionate  Cream  0.05 %
+COSH8177	Coal Tar Extract  Shampoo  2 %
+ASSOEGTON7693	Aserbine  Solution  
+EFOI9262EMIS	Efalith  Ointment  
+ADSO140807NEMIS	Adtralza  Solution for injection  150 mg/1 ml, pre-filled syringe
+CASH9278EMIS	Capasal  Shampoo  
+BECR359	Betnovate-C  Cream  
+ACCR18904NEMIS	Acorvio Plus  Cream  
+DECA36373NEMIS	Dermacolor  Camouflage Creme  D701
+ANST11323NEMIS	Anthisan Plus  Sting Relief Spray  
+MECR88140NEMIS	Menthol In Aqueous  Cream  5 %
+AVLO25130NEMIS	Aveeno Skin Relief Moisturising  Lotion  With Shea Butter
+OCSO23970EMIS	Occlusal  Solution  26 %
+PIGE20878NEMIS	Pine Tar  Gel  1.6 %
+TAGE31233EMIS	Tazarotene  Gel  0.1 %
+PAJE4116	Paraffin White Soft  white petroleum jelly  BP
+TRCR10790BRIDL	Tretinoin  Cream  0.025 %
+DECA36395NEMIS	Dermacolor  Camouflage Creme  DFS36
+COOI47362NEMIS	Coal Tar 2 % In Yellow Soft Paraffin  Ointment  
+COCR132452NEMIS	Coal Tar  Cream  6 %
+PHLO19672EMIS	Phenothrin  Lotion  0.2 %
+BEOI357	Betnovate  Ointment  0.1 %
+DECA36361NEMIS	Dermacolor  Camouflage Creme  D6
+CLOI646	Clobetasone Butyrate  Ointment  0.05 %
+NIGE26842EMIS	Nicotinamide  Gel  4 %
+VICR358NEMIS	Virasorb  Cream  5 %
+BESC19374NEMIS	Betamethasone Dipropionate And Salicylic Acid  Scalp application  0.05 % + 2 %
+FUGE1254	Fucidin  Gel  2 %
+DILO21623NEMIS	Dimeticone  Lotion  4 %
+WASO23711EMIS	Warticon Fem  Solution  0.5 %
+SOGE10796NEMIS	Solaraze  Gel  3 %
+DECA45034NEMIS	Dermacolor  Camouflage Creme  DM1.75
+ISGE19803NEMIS	Isotretinoin And Erythromycin  Gel  0.05 % + 2 %
+KEFI8258	Keromask  Finishing powder  White Translucent
+COCR3458NEMIS	Coal Tar Extract  Cream  1 %
+EUCR34330EMIS	Eucerin  Cream  10 %
+VACO10042BRIDL	Varidase Topical  Combi pack  
+AUOI251	Aureocort  Ointment  
+POCR7929	Polynoxylin  Cream  10 %
+SOSO4324	Sodium Chloride  Solution  0.9%
+NYOI2051	Nystan  Ointment  100000 units/g
+BEGE6746	Benzoyl Peroxide  Gel  2.5 %
+LILI791NEMIS	Liquefied Phenol BP  Liquid
+GACA8477EGTON	Gamolenic Acid  Capsules  40 mg
+CUHA90890NEMIS	Cutan  Hand Sanitiser Foam  
+ELBO29089NEMIS	Elave  Body wash  
+AVCA33643EMIS	Avoca  Caustic Pencil  95 %, Treatment Set
+SKCR22060EMIS	Skinoren  Cream  20 %
+ROCR31783NEMIS	Rosiced  Cream  0.75 %
+FLCU50330NEMIS	Fluorouracil And Salicylic Acid  Cutaneous Solution  0.5 % + 10 %
+DEFO52071NEMIS	Dermablend  Foundation Coverstick  16
+ZOGE31228EMIS	Zorac  Gel  0.05 %
+MYOI1915	Mycil  Ointment  
+POSO2315	Potassium Permanganate  Solution  0.1 %
+KEMA74110NEMIS	Keromask  Masking cream  Light No 5
+BEOIEGTON7920	Betadine  Ointment  10 %
+KEFI74103NEMIS	Keromask  Finishing powder  Light
+PRCR9846HILLI	Proflavine  Cream  0.1 %
+ACLO37	Actinac  Lotion  
+DECA36291NEMIS	Dermacolor  Camouflage Creme  D070D8
+ZICR4546	Zinc  Cream  
+FULO19670EMIS	Full Marks  Lotion  0.2 %
+DECA36392NEMIS	Dermacolor  Camouflage Creme  DFD
+CHSK6474NEMIS	Chlorhexidine Gluconate  Skin Wash  1 %
+DOEM25445NEMIS	Doublebase  Emollient Shower Gel  
+IMCR78283NEMIS	Imiquimod  Cream  3.75 %, 250 mg sachet
+SAOI82550NEMIS	Salicylic Acid And Sulfur  Ointment  3 % + 3 %
+AMTO11882NEMIS	Ambre Solaire  Total Screen For Sun Intolerant Skin Lotion  SPF 60
+CLCR671	Clotrimazole  Cream  1 %
+ACCR41	Aciclovir  Cream  5 %
+MOOI3971	Morhulin  Ointment  
+QUCR4250	Quinocort  Cream  
+PITO20877NEMIS	Pinetarsol  Topical solution  2.3 %
+PAGE2155	Panoxyl 5  Gel  5 %
+DASP24753NEMIS	Daktarin Aktiv  Spray powder  0.16 %
+IVCR102015NEMIS	Ivermectin  Cream  10 mg/gram
+ZIGE12707NEMIS	Zindaclin  Gel  1 %
+DECA45028NEMIS	Dermacolor  Camouflage Creme  DM2.75
+E4LO4934NEMIS	E45 Sun Spf 15  Lotion  
+VICR51814NEMIS	Vita-E  Cream  50 units/gram
+EFOI9262EMIS	Efalith  Ointment  
+NEOI4021	Nerisone  Ointment  0.1 %
+BELO16155NEMIS	Benadryl Skin Allergy Relief  Lotion  
+VECO35683NEMIS	Veil  Cover cream  Dark
+CHSO19834NEMIS	Chlorhexidine Gluconate And Cetrimide  Solution  0.015 % + 0.15 %, 100 ml sachet
+TASO116264NEMIS	Taltz  Solution for injection  80 mg/1 ml pre-filled syringe
+CITA21616NEMIS	Cicafem  Tablets  2000/35
+VEGE10005HILLI	Veracur  Gel  0.75 %
+DOOI12900NEMIS	Dovobet  Ointment  
+SADI47053NEMIS	Savlon  Disinfectant Liquid  
+SYOI2765	Synalar-C  Ointment  
+CUMO123290NEMIS	Cuderm  Moisturising Cream  
+PSSC26051EMIS	Psorin  Scalp gel  
+CRCR29926EMIS	Crystacide  Cream  1 %
+ERGE33001EMIS	Eryacne  Gel  4 %
+AITA96528NEMIS	Aindeem  Tablets  1 mg
+DECA36374NEMIS	Dermacolor  Camouflage Creme  D706
+DESH23487NEMIS	Dermax  Shampoo  0.5 %
+RECR10646BRIDL	Retin-A  Cream  0.025 %
+DOGE103696NEMIS	Dovobet  Gel Applicator  
+ROCR31783NEMIS	Rosiced  Cream  0.75 %
+IMCR33766EMIS	Imiquimod  Cream  5 %, 250 mg sachet
+ZYCR78285NEMIS	Zyclara  Cream  3.75 %, 250 mg sachet
+DASH15772NEMIS	Dandrazol  Shampoo  2 %
+DITAEGTON7260	Dianette  Tablets  
+TRLI36550NEMIS	Triclosan  Liquid  1 %
+TIOI5100NEMIS	Titanium  Ointment  
+LICR26053NEMIS	Linola Gamma  Cream  20 %
+HELO21626NEMIS	Hedrin  Lotion  4 %
+FITA12688NEMIS	Finasteride  Tablets  1 mg
+COCL108927NEMIS	Covermark  Classic Foundation  11C
+HEPA1363	Herpid  Paint  
+WACR26899EMIS	Warticon  Cream  0.15 %
+THOI6472NEMIS	The 50:50  Ointment  
+AUCR81523NEMIS	Audavate Rd  Cream  0.025 %
+TAGE31233EMIS	Tazarotene  Gel  0.1 %
+DOGE51183NEMIS	Doublebase Dayleve  Gel  
+TROI19477NEMIS	Triamcinolone Acetonide And Chlortetracycline  Ointment  0.1 % + 3.09 %
+DECA36316NEMIS	Dermacolor  Camouflage Creme  D17
+K/PA29332NEMIS	K/L Magnesium Sulfate  Paste  
+CLGE90857NEMIS	Clindamycin And Tretinoin  Gel  1 % + 0.025 %
+VECO35713NEMIS	Veil  Cover cream  Yellow
+POPA30826NEMIS	Podophyllin  Paint  
+AVCA40346NEMIS	Avoca  Caustic Applicator  75 %
+QUCR28302EMIS	Quellada M  Cream shampoo  1 %
+SKOI52122NEMIS	Skin Salvation  Ointment  
+DECR28373NEMIS	Dermacool  Cream  1 %
+DECA36363NEMIS	Dermacolor  Camouflage Creme  D62
+BESHEGTON8229	Betadine  Shampoo  4 %
+CLCR48403NEMIS	Clobetasol/Neomycin/Nystatin (Essential Generics)  Cream  0.5 mg/gram + 5 mg/gram + 100,000 units/gram
+LOCR10176BRIDL	Lotriderm  Cream  
+TICR2861	Timodine  Cream  
+DECA45036NEMIS	Dermacolor  Camouflage Creme  DM1 2/3
+TRSO140805NEMIS	Tralokinumab  Solution for injection  150 mg/1 ml, pre-filled syringe
+STSO15953NEMIS	Sterets Tisept  Solution  25 ml sachet
+CABA22272EMIS	Calaband  Bandage  7.5 cm x 6 m
+ZIOI19813NEMIS	Zinc Oxide And Cod Liver Oil  Ointment  38 % + 11.4 %
+ALCREGTON6452	Alphosyl  Cream  
+LIBA16409NEMIS	Light Liquid Paraffin  Bath additive  82.8 %
+CAOI9281BRIDL	Calamine  Oily lotion  
+SKSK36551NEMIS	Skinsan  Skin Cleanser  1 %
+POCR26901EMIS	Podophyllotoxin  Cream  0.15 %
+DECA36333NEMIS	Dermacolor  Camouflage Creme  D32
+DATO10836BRIDL	Dalacin T  Topical solution  1 %
+LOOI9295BRIDL	Locoid C  Ointment  
+POAN7788	Povidone-Iodine  Antiseptic paint  10 %
+LOCR1680	Locoid C  Cream  
+SYCR10746BRIDL	Synalar C  Cream  
+TAPO46855NEMIS	Tar  Pomade  (RVI Newcastle Upon Tyne Formula)
+KEMA36691NEMIS	Keromask  Masking cream  Dark No 9
+DECR48362NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  14, Nude
+BRPA10421BRIDL	Brasivol No. 1  Paste  38.09 %
+COCL2033NEMIS	Covermark  Classic Foundation  No.10 Blanc
+DECA45035NEMIS	Dermacolor  Camouflage Creme  DM1.5
+ISGE20672EMIS	Isotretinoin  Gel  0.05 %
+SKSO133225NEMIS	Skyrizi  Solution for injection  75 mg/0.83 ml pre-filled syringe
+HYCR19695NEMIS	Hydrocortisone And Econazole  Cream  1 % + 1 %
+FLOI7085	Fluocinolone Acetonide  Ointment  0.00625 %
+TECR4401	Terra-Cortril Nystatin  Cream  
+VICR51811NEMIS	Vitamin E  Cream  50 units/gram
+CACR462	Calmurid Hc  Cream  
+EPGE42895NEMIS	Epiduo  Gel  0.1 % + 2.5 %
+BEME37176NEMIS	Betesil  Medicated Plaster  2.25 mg
+ZYCR78285NEMIS	Zyclara  Cream  3.75 %, 250 mg sachet
+PALO9003EGTON	Panoxyl Wash  Lotion  10 %
+ELCR19029NEMIS	Eldoquin  Cream  4 %
+ZYGE1721NEMIS	Zyomet  Gel  0.75 %
+MECR1808	Metosyn  Cream  0.05 %
+CACR477	Canesten Hc  Cream  
+AUOI81524NEMIS	Audavate Rd  Ointment  0.025 %
+LIOI106140NEMIS	Liquid Paraffin And White Soft Paraffin  Ointment  25 % + 75 %
+ACLO37	Actinac  Lotion  
+DRCR994	Drapolene  Cream  
+LAOI3820	Lasonil  Ointment  0.8 %
+ELBO20530NEMIS	Elenas  Body Lotion  
+DECA36301NEMIS	Dermacolor  Camouflage Creme  D101
+BEOI20607EMIS	Betamethasone Valerate  Ointment  0.025 %
+DICR952	Dithrocream  Cream  0.1 %
+HELO21626NEMIS	Hedrin  Lotion  4 %
+HYSO1401	Hydrogen Peroxide  Solution  3 %
+PIBA20875NEMIS	Pinetarsol  Bath oil  2.3 %
+QUCR28302EMIS	Quellada M  Cream shampoo  1 %
+AVPO4904NEMIS	Aveeno Colloidal  Powder sachets  50 grams
+FUGE1268	Fusidic Acid  Gel  2 %
+HACREGTON6272	Haelan  Cream  0.0125 %
+SPOI21669NEMIS	Special Ointment No.1  Ointment  
+BEOI19375NEMIS	Betamethasone Dipropionate And Salicylic Acid  Ointment  0.05 % + 3 %
+HEDU15241NEMIS	Hexachlorophane  Dusting powder  0.33 %
+DIPA47946NEMIS	Dithranol 1 % In Zinc And Salicylic Acid  Paste  
+CULO28858NEMIS	Curatoderm  Lotion  4 micrograms/gram
+AZGE23017NEMIS	Azelaic Acid  Gel  15 %
+DECA36354NEMIS	Dermacolor  Camouflage Creme  D55
+TRGE10792BRIDL	Tretinoin  Gel  0.01 %
+WHSP15515NEMIS	White Soft Paraffin  Spray  10 %
+DECA36399NEMIS	Dermacolor  Camouflage Creme  DIVORY
+DECA36314NEMIS	Dermacolor  Camouflage Creme  D15
+ALPA15492NEMIS	Aluminium Oxide  Paste  52.2 %
+ANOI24687NEMIS	Antipeol  Ointment  
+DATO9235EMIS	Dalacin T  Topical lotion  1 %
+AVPO4904NEMIS	Aveeno Colloidal  Powder sachets  50 grams
+COOI46791NEMIS	Coal Tar And Salicylic Acid In Emulsifying  Ointment  6 % + 1 %
+TAOI28095EMIS	Tacalcitol Monohydrate  Ointment  4 micrograms/gram
+INGE77708NEMIS	Ingenol Mebutate  Gel  150 micrograms/gram
+CHSO15517NEMIS	Chlorhexidine Gluconate  Solution  0.05 %, 25 ml sachet
+ALCR81	Alphaderm  Cream  1 % + 10 %
+DECR77688NEMIS	Dermablend Dermasmooth Corrective Foundation  Cream  15, Opal
+TECU22028NEMIS	Terbinafine Hydrochloride  Cutaneous Solution  1 %
+BICR14247NEMIS	Bifonazole  Cream  1%
+EXCR12876NEMIS	Exorex  Cream  
+BIST21035NEMIS	Biobag  Sterile Maggots  BB001, mini, 50 larvae, 2.5 cm x 4 cm
+DICR951	Dithranol  Cream  0.1 %
+PRCR2385	Propaderm  Cream  0.025 %
+DOCR23974EMIS	Dovonex  Cream  50 micrograms/gram
+HISO1371	Hibitane Concentrate  Solution  5 %
+MUOI8154	Mupirocin In A Water-Miscible Macrogol Basis  Ointment  2 %
+COCL108936NEMIS	Covermark  Classic Foundation  6C
+OICR6523NEMIS	Oilatum Junior  Cream  
+SOGA8776EGTON	Sofra-Tulle  Gauze dressing  10 cm x 10 cm
+PRCR9341BRIDL	Prioderm  Cream shampoo  1 %
+ISCA7262	Isotretinoin  Capsules  5 mg
+SICA40345NEMIS	Silver Nitrate  Caustic Applicator  75 %
+PHLO19672EMIS	Phenothrin  Lotion  0.2 %
+POSC115235NEMIS	Polytar  Scalp Shampoo  
+HACR7204	Halcinonide  Cream  0.1 %
+EUCR1123	Eumovate  Cream  0.05 %
+QUBA8740EGTON	Quinaband  Bandage  7.5 cm x 6 m
+MESH24956EMIS	Meted  Shampoo  
+CACREGTON7230	Carbo-Dome  Cream  10 %
+DICR17623NEMIS	Dibrompropamidine  Cream  0.15 %
+FUCR29325NEMIS	Fucibet Lipid  Cream  
+FLCR46805NEMIS	Flutrimazole  Cream  1 %
+DADUEGTON8098	Daktarin  Powder  2 %
+POLIEGTON8191	Polytar Plus  Liquid  
+DECA45019NEMIS	Dermacolor  Camouflage Creme  DM7
+TECR22002EMIS	Terbinafine Hydrochloride  Cream  1 %
+TROI2905	Tri-Adcortyl  Ointment  
+LICR114234NEMIS	Lidocaine  Cream  2 %
+DECR48360NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  11, Porcelain
+SYCR9250BRIDL	Synalar N  Cream  
+AROI8632BRID	Arachis  Oil  
+LABO75956NEMIS	Larvae 300  Boot Pack  
+NISH8945BRIDL	Nizoral  Shampoo  2 %
+BECR361	Betnovate-N  Cream  
+UNCR477NEMIS	Unguentum M  Cream  
+BEGE1572NEMIS	Becaplermin  Gel  0.01 %
+BEOIEGTON8115	Benzoic Acid Compound  Ointment  
+IVCR102015NEMIS	Ivermectin  Cream  10 mg/gram
+NYCR2049	Nystan  Cream  100000 units/g
+EFCR3499	Efudix  Cream  5 %
+BECR359	Betnovate-C  Cream  
+FLCR4934	Fluorouracil  Cream  5 %
+ETSO23191EMIS	Ether  Solvent  bp
+DICR3456	Diprosone  Cream  0.05 %
+STSO10387BRIDL	Stiemycin  Solution  2 %
+COOI48271NEMIS	Coal Tar 20 % In Yellow Soft Paraffin  Ointment  
+BECR4224NEMIS	Betamethasone  Cream  0.05 % (as dipropionate)
+DECA36288NEMIS	Dermacolor  Camouflage Creme  D070D10
+DECR48364NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  16, Bronze
+DOGE6700NEMIS	Doublebase  Gel  
+GACA119026NEMIS	Gamolen  Capsules  80 mg
+CACR462	Calmurid Hc  Cream  
+BEOI17530NEMIS	Beclometasone  Ointment  0.025 %
+BEDREGTON7798	Betadine  Dry powder spray  2.5 %
+BRSO124275NEMIS	Brodalumab  Solution for injection  210 mg/1.5 ml pre-filled syringe
+VECO35707NEMIS	Veil  Cover cream  Tan
+SESH5910	Selsun  Shampoo  2.5 %
+NYOI117942NEMIS	Nystatin/Chlorhexidine Acetate/Hydrocortisone  Ointment  100,000 units/gram + 1 % + 1 %
+DECA45027NEMIS	Dermacolor  Camouflage Creme  DM3
+HECR10885NEMIS	Hewletts  Cream  
+VAPE16134NEMIS	Vaseline  Petroleum Jelly  
+GLCR51825NEMIS	Glycopyrronium Bromide  Cream  1 %
+EMLI1058	Emulsiderm  Liquid  
+POCR32320EMIS	Povidone-Iodine  Cream  5 %
+NYCR2058	Nystatin  Cream  100,000 units/gram
+ASAPEGTON8047	Ascabiol  Application  25 %
+MEOI3894	Metanium Nappy Rash  Ointment  
+CECREGTON7914	Cetavlex  Cream  0.5 %
+ALSK21339NEMIS	Allergenics  Skin Lotion  
+ALCA31054NEMIS	Alitretinoin  Capsules  10 mg
+HEGE3548NEMIS	Heparinoid  Gel  0.3 %
+OIBA26861NEMIS	Oilatum  Bath Formula  
+MOLO22381EMIS	Mometasone Furoate  Scalp lotion  0.1 %
+RECR10646BRIDL	Retin-A  Cream  0.025 %
+DIGE30118EMIS	Differin  Gel  0.1 %
+TESO8797BRIDL	Tetracycline Hydrochloride  Solution  0.22 %
+NYCR2047	Nystaform-Hc  Cream  
+OMME76886NEMIS	Omicur  Medicated Nail Lacquer  5 %
+DECR88141NEMIS	Dermacool  Cream  5 %
+DAOI8859BRIDL	Daktacort  Ointment  
+DECA45022NEMIS	Dermacolor  Camouflage Creme  DM5.5
+DECA36342NEMIS	Dermacolor  Camouflage Creme  D4W
+CHSO30301EMIS	Chlorhexidine Gluconate  Solution  0.02 %
+VECR10490HILLI	Vesagex  Cream  1 %
+HICLEGTON7831	Hibiscrub  Cleansing solution  20 % (Chlorhexidine Gluconate 4 %)
+FLCR24418EMIS	Fluticasone Propionate  Cream  0.05 %
+EMCR118348NEMIS	Emcrem  Cream  
+COCR3356	Conotrane  Cream  
+STOI10474HILLI	Stiedex Lp  Oily cream  0.05 %
+EUCR11329NEMIS	Eurax Hc  Cream  
+ANCREGTON7933	Anaflex  Cream  10 %
+FRGE20107NEMIS	Freederm  Gel  4 %
+CLSH26226NEMIS	Clobetasol Propionate  Shampoo  500 micrograms/gram
+BEAP324	Benzyl Benzoate  Application  25 %
+BELO3068NEMIS	Betamethasone  Lotion  0.05 % (as dipropionate)
+DICR27178EMIS	Dithranol  Cream  1 %
+CHSO29927NEMIS	Chloraprep  Solution  0.67 ml applicator
+VICR358NEMIS	Virasorb  Cream  5 %
+MICR29932EMIS	Micanol  Cream  3 %
+PITO20876NEMIS	Pine Tar  Topical solution  2.3 %
+DELO28949EMIS	Dermol 500  Lotion  
+BEGE19487NEMIS	Benzoyl Peroxide And Erythromycin  Gel  5 % + 3 %
+SAOI8787EGTON	Salicylic Acid  Ointment  2 %
+MEOI1809	Metosyn  Ointment  0.05 %
+CLCU22348NEMIS	Clobetasol Propionate  Foam  500 micrograms/gram
+HYCR7679	Hydrogen Peroxide  Cream  1.5 %
+TOCA31059NEMIS	Toctino  Capsules  30 mg
+COOI9895BRIDL	Cocois  Ointment  
+FRGAEGTON7357	Framycetin Sulfate  Gauze dressing  Bp, 10 cm x 10 cm
+DECR48365NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  17, Coffee
+DICR8830EGTON	Dithrocream  Cream  0.25 %
+ANGE27618EMIS	Anabact  Gel  0.75 %
+TECR17503NEMIS	Tetracaine  Cream  1 %
+BEOI92009NEMIS	Beclometasone 0.0025 % In White Soft Paraffin  Ointment  
+TOCA31058NEMIS	Toctino  Capsules  10 mg
+IXSO116262NEMIS	Ixekizumab  Solution for injection  80 mg/1 ml pre-filled device
+FOSO5351NEMIS	Formaldehyde  Solution  BP
+DESC842	Dermovate  Scalp application  0.05 %
+DOGE103696NEMIS	Dovobet  Gel Applicator  
+ZEBA36257NEMIS	Zerolatum Plus  Bath additive  
+GACA8477EGTON	Gamolenic Acid  Capsules  40 mg
+MEGE15035NEMIS	Metrosa  Gel  0.75 %
+FULO19670EMIS	Full Marks  Lotion  0.2 %
+VECO35686NEMIS	Veil  Cover cream  Green
+SCWA27547NEMIS	Scholl Corn Removal  Washproof Plasters  40 %, (4 plasters + 4 pads)
+BACR3559NEMIS	Bactroban  Cream  2 %
+DECA36404NEMIS	Dermacolor  Camouflage Creme  DJ5
+MEOI3894	Metanium Nappy Rash  Ointment  
+SOBA19479NEMIS	Soya Oil And Lauromacrogols  Bath oil  82.95 % + 15 %
+MEGE20335EMIS	Metronidazole  Gel  0.75 %
+BABA19654EMIS	E45 Emollient  Bath oil  
+AMNA9609EMIS	Amorolfine Hydrochloride  Medicated Nail Lacquer  5 %
+ACCU50331NEMIS	Actikerall  Cutaneous Solution  5 mg/gram + 100 mg/gram
+CUMO123291NEMIS	Cuderm  Moisturising Lotion  
+KEMA36689NEMIS	Keromask  Masking cream  Medium No 3
+LOCR1680	Locoid C  Cream  
+USSO105350NEMIS	Ustekinumab  Solution for injection  90 mg/1 ml pre-filled syringe
+DECA45033NEMIS	Dermacolor  Camouflage Creme  DM2
+BEOI8753BRIDL	Betnovate-N  Ointment  
+DEFO52070NEMIS	Dermablend  Foundation Coverstick  15
+CASO473	Canesten  Solution  1 %
+FLCR4934	Fluorouracil  Cream  5 %
+PHMO798NEMIS	Phenothrin  Mousse  0.5 %
+SACR10190BRIDL	Savlon  Antiseptic Cream  
+BECR19489NEMIS	Betamethasone Valerate And Neomycin  Cream  0.1 % + 0.5 %
+MOSC114262NEMIS	Moogoo  Scalp Cream  
+QUFA25778NEMIS	Quinoderm  Face Wash  
+VECO35680NEMIS	Veil  Cover cream  Cinnamon
+BAOI3216	Balneum  Bath oil  84.75 %
+EFCR1025	Efcortelan  Cream  2.5 %
+MECR33882EMIS	Mepyramine  Cream  2 %
+MECR32180EMIS	Metronidazole  Cream  0.75 %
+ETSH26228NEMIS	Etrivex  Shampoo  500 micrograms/gram
+VEFI77730NEMIS	Veil  Finishing powder  Dusk
+ULOIEGTON6269	Ultralanum Plain  Ointment  
+ASCREGTON7692	Aserbine  Cream  
+BABA19654EMIS	E45 Emollient  Bath oil  
+ECCR3485	Econacort  Cream  
+NECA22017EMIS	Neotigason  Capsules  10 mg
+SADR3780NEMIS	Savlon  Dry powder spray  1.14 %
+TCLI18500NEMIS	Tcp  Liquid Antiseptic  0.68 % + 0.175 %
+ACSO25908EMIS	Acnisal  Solution  2 %
+HICREGTON7680	Hioxyl  Cream  1.5 %
+FLCR46805NEMIS	Flutrimazole  Cream  1 %
+PESH26555EMIS	Pentrax  Shampoo  4.3 %
+EULO32814EMIS	Eucerin  Lotion  3 %
+DECR4880NEMIS	Decubal Clinic  Cream  
+HYCREGTON6239	Hydrocortisone  Cream  1 %
+WALI19657EMIS	E45 Emollient Wash  Cream  
+ISSO29923NEMIS	Isopropyl Alcohol And Chlorhexidine Gluconate  Solution  70 % + 2 %, 0.67 ml applicator
+ULOIEGTON6269	Ultralanum Plain  Ointment  
+DICR8834EGTON	Dithrocream  Cream  2.0 %
+IMCR25243EMIS	Imuderm  Cream  
+LAST89771NEMIS	Larvae 100  Sterile Maggots  
+ASEM8958EMIS	Ashbourne  Emollient  
+CLSC643	Clobetasol Propionate  Scalp application  0.05 %
+EUSC94966NEMIS	Eucerin Dermocapillaire Calming Urea  Scalp Treatment  
+LASP13230NEMIS	Lamisil At  Pump spray  1 %
+PAAQ9191BRIDL	Panoxyl 2.5  Aquagel  2.5 %
+LICREGTON6096	Lipobase  Cream  
+FOGE31222EMIS	Formaldehyde Solution  Gel  0.75 %
+PRCR8887BRIDL	Pragmatar  Cream  
+ALCA31056NEMIS	Alitretinoin  Capsules  30 mg
+VACR18471NEMIS	Vaniqa  Cream  11.5 %
+PHMO798NEMIS	Phenothrin  Mousse  0.5 %
+STSO43589NEMIS	Stelara  Solution for injection  45 mg/0.5 ml pre-filled syringe
+COCL108930NEMIS	Covermark  Classic Foundation  1C
+CLCR12517NEMIS	Clearsore Aciclovir  Cream  5 %
+STSO34948NEMIS	Stelara  Solution for injection  45 mg/0.5 ml vial
+HICREGTON7680	Hioxyl  Cream  1.5 %
+VIOI4515	Vioform-Hydrocortisone  Ointment  
+E4CR4770NEMIS	E45 Itch Relief  Cream  
+EUCR1130	Eurax-Hydrocortisone  Cream  
+DEFI36211NEMIS	Dermacolor  Fixing powder  P1
+AVCR22602EMIS	Aveeno  Cream  
+DRCR994	Drapolene  Cream  
+CALO10893BRIDL	Carbaryl  Lotion  0.5 %
+VISUEGTON7778	Videne  Surgical scrub  7.5 %
+KEMA36687NEMIS	Keromask  Masking cream  Dark No 1
+ISSO29924NEMIS	Isopropyl Alcohol And Chlorhexidine Gluconate  Solution  70 % + 2 %, 1.5 ml applicator
+DECA36319NEMIS	Dermacolor  Camouflage Creme  D18
+DECR48365NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  17, Coffee
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %
+DUGE82069NEMIS	Duac Once Daily  Gel  3 % + 1 %
+DECR840	Dermovate  Cream  0.05 %
+SAOI88708NEMIS	Salicylic Acid 20 % In White Soft Paraffin  Ointment  
+ELOI22374EMIS	Elocon  Ointment  0.1 %
+ISSO29922NEMIS	Isopropyl Alcohol And Chlorhexidine Gluconate  Solution  70 % + 2 %, 3 ml applicator
+HICLEGTON7831	Hibiscrub  Cleansing solution  20 % (Chlorhexidine Gluconate 4 %)
+DOGE51183NEMIS	Doublebase Dayleve  Gel  
+PACR34369EMIS	Panoxyl  Cream  5 %
+DUGE82069NEMIS	Duac Once Daily  Gel  3 % + 1 %
+DILO3454	Diprosalic  Scalp application  0.05 % + 2 %
+ABCR11598NEMIS	Abtrim  Cream  1 %
+MYDUEGTON8067	Mycota  Powder  
+POSU7775	Povidone-Iodine  Surgical scrub  7.5 %
+ZOGE31228EMIS	Zorac  Gel  0.05 %
+PRCR8887BRIDL	Pragmatar  Cream  
+COCL108944NEMIS	Covermark  Classic Foundation  8A
+PETAEGTON7708	Permitabs  Tablets For Cutaneous Solution  400 mg
+PHLI32184EMIS	Phenothrin  Liquid  0.5 %
+NEOI4021	Nerisone  Ointment  0.1 %
+SASOEGTON7810	Hibicet Hospital Concentrate  Solution  7.5 %
+ZIOI4548	Zinc And Castor Oil  Ointment  
+HYCR1389	Hydrocortisone  Cream  0.5 %
+ADCR206NEMIS	Adapalene  Cream  0.1 %
+URCR388NEMIS	Urea  Cream  5 %
+LOEM28231EMIS	Locoid Crelo  Emulsion  0.1 %
+POOI2311	Posalfilin  Ointment  
+VECO35681NEMIS	Veil  Cover cream  Coffee
+BEFO114450NEMIS	Betamethasone Dipropionate And Calcipotriol  Foam  500 micrograms + 50 micrograms/gram
+BECR319	Benzoyl Peroxide  Cream  5 %
+AVBA24221EMIS	Aveeno  Bath oil  5 %
+BELO6804	Benzoyl Peroxide  Lotion  10 %
+DECR28374NEMIS	Dermacool  Cream  2 %
+MIGE89234NEMIS	Mirvaso  Gel  3 mg/gram
+COCL2024NEMIS	Covermark  Classic Foundation  No.1 Clair
+DELO5232NEMIS	Delph Spf 20  Lotion  
+DESK19261NEMIS	Derma Shield  Skin Protector Mousse  
+EULO32813EMIS	Eucerin  Lotion  10 %
+ELCR14322NEMIS	Elidel  Cream  1 %
+OILO21748NEMIS	Oilatum  Lotion  
+ICBA10492BRIDL	Icthaband  Bandage  7.5 cm x 6 m
+DECR3406	Dermovate-Nn  Cream  
+BAOI3216	Balneum  Bath oil  84.75 %
+SAOI8787EGTON	Salicylic Acid  Ointment  2 %
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+UNSO15520NEMIS	Unisept  Solution  0.05 %, 100 ml sachet
+FRGE20107NEMIS	Freederm  Gel  4 %
+CHCR138659NEMIS	Chlorhexidine Hydrochloride  Cream  0.5 %
+SAGE8794EGTON	Salatac  Gel  
+ZIBA5542NEMIS	Zincaband  Bandage  15 %, 7.5 cm x 6 m
+BESC348	Betamethasone Valerate  Scalp application  0.1 %
+STSOEGTON7699	Ster-Zac Bath Concentrate  Solution  2 %
+FLOI1202	Fluocinonide  Ointment  0.05 %
+BEANEGTON7796	Betadine  Antiseptic solution  10 %
+CUGEEGTON7266	Cuplex Verruca  Gel  
+SAOI105328NEMIS	Salicylic Acid 10 % In Yellow Soft Paraffin  Ointment  
+MAPA1712	Magnesium Sulfate  Paste  
+GUSO130264NEMIS	Guselkumab  Solution for injection  100 mg/1 ml pre-filled device
+RELOEGTON7253	Retin-A  Lotion  0.025 %
+VISUEGTON7778	Videne  Surgical scrub  7.5 %
+MECR23348NEMIS	Menthol In Aqueous  Cream  2 %
+VECO35689NEMIS	Veil  Cover cream  Latte
+FLTA41274NEMIS	Fludroxycortide  Tape  4 micrograms/square cm, 7.5 cm
+SOGE10796NEMIS	Solaraze  Gel  3 %
+PRCR9341BRIDL	Prioderm  Cream shampoo  1 %
+DECA36287NEMIS	Dermacolor  Camouflage Creme  D070
+HYOI21344NEMIS	Hydrocortisone And Clioquinol  Ointment  1 % + 3 %
+COOI40355NEMIS	Coal Tar Solution 5 % In Betamethasone Valerate 0.025 %  Ointment  
+HYLO5008	Hydrocortisone Butyrate  Scalp lotion  0.1 %
+ROCR9267BRIDL	Roc Sante Soleil High Protection  Cream  SPF25
+DITA1316NEMIS	Dianette  Tablets  (OC)
+SPLO25140EMIS	Spectraban Ultra  Lotion  SPF 28
+VALO24307EMIS	Vaseline Dermacare  Lotion  
+DICR3449	Dioderm  Cream  0.1 %
+COCL2031NEMIS	Covermark  Classic Foundation  No.8 Brun Rose
+BEGE6805	Benzoyl Peroxide  Gel  10 %
+QULI28303EMIS	Quellada M  Aqueous liquid  0.5 %
+TEPU13231NEMIS	Terbinafine Hydrochloride  Pump spray  1 %
+POOI7919	Povidone-Iodine  Ointment  10 %
+DECA36320NEMIS	Dermacolor  Camouflage Creme  D19
+SASO23972EMIS	Salicylic Acid  Solution  26 %
+VACR18471NEMIS	Vaniqa  Cream  11.5 %
+FLCR1197	Fluocinolone Acetonide  Cream  0.025 %
+KEMA74113NEMIS	Keromask  Masking cream  Light No 13
+CEBO115294NEMIS	Cetaphil Restoraderm Skin Restoring  Body wash  
+COSO40436NEMIS	Coal Tar  Solution  5 % Cutaneous Emulsion (1 % prepared coal tar)
+DICR3456	Diprosone  Cream  0.05 %
+ROCR9267BRIDL	Roc Sante Soleil High Protection  Cream  SPF25
+BEOI16714NEMIS	Betamethasone Dipropionate And Calcipotriol  Ointment  0.05 % + 50 micrograms/gram
+SICR17850NEMIS	Silver Sulfadiazine  Cream  1 %
+BIDR90110NEMIS	Biobag  Dressing Kit  100, 4 cm x 5 cm
+ALCR4564	Alclometasone Dipropionate  Cream  0.05 %
+GLCR120509NEMIS	Glycopyrronium Bromide 2 % in Cetomacrogol  Cream (Formula A)  
+MEGE9373EMIS	Metronidazole  Gel  0.8 %
+BEOIEGTON7920	Betadine  Ointment  10 %
+NYOI2060	Nystatin  Ointment  100000 units/g
+HYCR1391	Hydrocortisone  Cream  2.5 %
+HICREGTON7821	Hibitane Obstetric  Cream  5 % (Chlorhexidine Gluconate 1 %)
+DEOI130751NEMIS	Dexpanthenol  Ointment  5 %
+PAJE4116	Paraffin White Soft  white petroleum jelly  BP
+DECR48361NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  13, Light
+ZIPAEGTON6447	Zinc And Coal Tar  Paste  
+FUOI1255	Fucidin  Ointment  2 %
+ROPO11715NEMIS	Robinul  Powder For Solution For Iontophoresis  
+ECCR3485	Econacort  Cream  
+TRAN52128NEMIS	Triple Dry  Anti-Perspirant Roll-on  
+CLCR103454NEMIS	Clobetasol/Neomycin/Nystatin  Cream  0.5 mg/gram + 5 mg/gram + 100,000 units/gram
+QUCR2426	Quinoderm  Cream  10
+WYCR141020NEMIS	Wynzora  Cream  50 micrograms + 0.5 mg/gram
+EUSP22961NEMIS	Eucerin Dry Skin Relief Soothing  Spray  
+REOI29116NEMIS	Retapamulin  Ointment  1 %
+VIDIEGTON7776	Videne  Disinfectant tincture  10 %
+TRGE90859NEMIS	Treclin  Gel  1 % + 0.025 %
+FLCR19840NEMIS	Fluocinolone And Clioquinol  Cream  0.025 % + 3 %
+HISO45375NEMIS	Hibi  Liquid  Hand Rub+ 0.5 %
+BESC348	Betamethasone Valerate  Scalp application  0.1 %
+DACR28939NEMIS	Daktarin Aktiv  Cream  2 %
+ELDA20524NEMIS	Elenas  Day Cream Special  
+NEOI10458BRIDL	Nerisone  Oily cream  0.1 %
+CLOI642	Clobetasol Propionate  Ointment  0.05 %
+NYCR2049	Nystan  Cream  100000 units/g
+STBA26063EMIS	Steripaste  Bandage  15 %, 7.5 cm x 6 m
+VECO35696NEMIS	Veil  Cover cream  Natural-Tan
+MESH24956EMIS	Meted  Shampoo  
+DIOI9415HILLI	Diflucortolone Valerate  Oily cream  0.3 %
+VICR4514	Vioform-Hydrocortisone  Cream  
+E4CR1018	E45  Cream  
+CAAQ9794BRIDL	Calamine  Aqueous cream  
+PAGEEGTON6569	Panoxyl 10  Gel  10 %
+NECREGTON8152	Neomycin  Cream  0.5 %
+UVUL20559EMIS	Uvistat Factor 30  Ultrablock cream  
+LACU22030NEMIS	Lamisil Once  Cutaneous Solution  1 %
+BEANEGTON7795	Betadine  Antiseptic paint  10 %
+NECR4020	Nerisone  Cream  0.1 %
+CECR15461NEMIS	Cetrimide  Cream  0.5 %
+DECA45030NEMIS	Dermacolor  Camouflage Creme  DM2.25
+COCL2033NEMIS	Covermark  Classic Foundation  No.10 Blanc
+MECR32734EMIS	Metronidazole  Cream  1 %
+NECA22018EMIS	Neotigason  Capsules  25 mg
+EFCR1024	Efcortelan  Cream  1 %
+COCL2026NEMIS	Covermark  Classic Foundation  No.3 Rose Fonce
+POLI8759BRIDL	Polytar  Liquid  
+SYOI2766	Synalar-N  Ointment  
+LYCR10580BRIDL	Lyclear  Cream rinse  
+DECA36302NEMIS	Dermacolor  Camouflage Creme  D102
+BEALEGTON7794	Betadine  Alcoholic solution  10 %
+KELO3803	Keri  Lotion  16 %
+EXCR1132	Exelderm  Cream  1 %
+ALCR4564	Alclometasone Dipropionate  Cream  0.05 %
+ZIOI8382EGTON	Zinc  Ointment  
+COCR6832	Coal Tar Solution  Cream  10 %
+ZIBA31762NEMIS	Zinc Paste And Ichthammol  Bandage Bp  15 % + 2 %, 7.5 cm x 6 m
+URLO389NEMIS	Urea  Lotion  10 %
+BEOI19490NEMIS	Betamethasone Valerate And Neomycin  Ointment  0.1 % + 0.5 %
+PAHA26567EMIS	Paraffin  Hard  bp
+HYLI33779EMIS	Hydrex Pink Chlorhexidine Gluconate  Liquid  0.5 %
+TACR10968NEMIS	Tacalcitol Monohydrate  Ointment (pump dispenser)  4 micrograms/gram
+DECR48364NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  16, Bronze
+DECA36306NEMIS	Dermacolor  Camouflage Creme  D12
+MOPAEGTON8073	Monphytol  Paint  
+TICR22553EMIS	Tinaderm  Cream  1 %
+EXLO33003EMIS	Exorex  Lotion  5 % Cutaneous Emulsion (1 % prepared coal tar)
+EPGE134774NEMIS	Epiduo  Gel  0.3 % + 2.5 %
+IOSHEGTON8195	Ionil T  Shampoo  
+HYCREGTON6239	Hydrocortisone  Cream  1 %
+DICR9300BRIDL	Dithrocream  Cream  1 %
+CECR19508NEMIS	Cetrimide And Benzalkonium Chloride  Cream  0.2 % + 0.01 %
+DACR792	Daktacort  Cream  2 % + 1 %
+SOST22999NEMIS	Sodium Hypochlorite  Sterilising Fluid  2 %
+DIOI4837	Diflucortolone Valerate  Ointment  0.1 %
+SACR35801NEMIS	Salicylic Acid 10 % in Aqueous  Cream  
+MYCREGTON8066	Mycota  Cream  
+EUCR27831NEMIS	Eumocream  Cream  
+ISCA35653NEMIS	Isotretinoin  Capsules  10 mg
+DESC842	Dermovate  Scalp application  0.05 %
+KYSO124278NEMIS	Kyntheum  Solution for injection  210 mg/1.5 ml pre-filled syringe  
+CLCR10591BRIDL	Clinitar  Cream  1 %
+MOPAEGTON8073	Monphytol  Paint  
+COCR3356	Conotrane  Cream  
+DOGE45841NEMIS	Dovobet  Gel  
+CHLI33781EMIS	Chlorhexidine Gluconate  Liquid  0.5 %
+MASH9676HILLI	Malathion  Cream shampoo  1 %
+CLSC643	Clobetasol Propionate  Scalp application  0.05 %
+UDCR141537NEMIS	Udrate  Cream  
+BAGE3497NEMIS	Bazuka  Gel  
+DELIEGTON8017	Derbac-M  Liquid  0.5 %
+AMCR18106EMIS	Amorolfine Hydrochloride  Cream  0.25 %
+DOEM25445NEMIS	Doublebase  Emollient Shower Gel  
+DISC3458	Diprosone  Lotion  0.05 %
+BIDR90111NEMIS	Biobag  Dressing Kit  200, 5 cm x 6 cm
+DOCR23974EMIS	Dovonex  Cream  50 micrograms/gram
+NECR25988EMIS	Neutrogena Norwegian Formula  Cream  Dermatological 40 %
+CLGE12705NEMIS	Clindamycin  Gel  1 %
+STSO10934NEMIS	Steripod Chorhexidine/Cetrimide  Solution  20 ml unit dose vial
+ERGE387NEMIS	Erythromycin  Gel  4%
+OMME76886NEMIS	Omicur  Medicated Nail Lacquer  5 %
+TALO28857NEMIS	Tacalcitol Monohydrate  Lotion  4 micrograms/gram
+AMTO11882NEMIS	Ambre Solaire  Total Screen For Sun Intolerant Skin Lotion  SPF 60
+PSSC26051EMIS	Psorin  Scalp gel  
+INGE77708NEMIS	Ingenol Mebutate  Gel  150 micrograms/gram
+FLOI17666NEMIS	Fludroxycortide  Ointment  0.0125 %
+DITA19975NEMIS	Diva  Tablets  
+BELO25403EMIS	Betamethasone Valerate  Lotion  0.1 %
+STSO43589NEMIS	Stelara  Solution for injection  45 mg/0.5 ml pre-filled syringe
+SYOI2765	Synalar-C  Ointment  
+DECR36415NEMIS	Dermol  Cream  
+DOOI9048EMIS	Dovonex  Ointment  50 micrograms/gram
+ROCA9318BRIDL	Roaccutane  Capsules  20 mg
+CLSHEGTON8210	Clinitar  Shampoo  2 %
+OISH19833EMIS	Oilatum  Shower gel  70 %
+SYOI2764	Synalar  Ointment  0.025 %
+LACR17007NEMIS	Lamisil At  Cream  1 %
+DELI16115NEMIS	Dettol  Liquid  4.8 %
+CHSO15518NEMIS	Chlorhexidine Gluconate  Solution  0.05 %, 100 ml sachet
+TOCR2879	Tolnaftate  Cream  1 %
+MOCR3962	Modrasone  Cream  0.05 %
+GACA119025NEMIS	Gamolen  Capsules  40 mg
+PIGE77711NEMIS	Picato  Gel  150 micrograms/gram
+CALO454	Calamine  Lotion  
+DECA36337NEMIS	Dermacolor  Camouflage Creme  D4.5
+VACR4492	Vasogen  Cream  
+UNCR477NEMIS	Unguentum M  Cream  
+DECA36284NEMIS	Dermacolor  Camouflage Creme  D0
+CHSO46550NEMIS	Chloraprep With Tint  Solution  3 ml applicator
+EFCR19996NEMIS	Eflornithine  Cream  11.5 %
+FUCR1267	Fusidic Acid  Cream  2 %
+SOCR16167NEMIS	Soothelip  Cream  5 %
+AROI8632BRID	Arachis  Oil  
+EFCR1025	Efcortelan  Cream  2.5 %
+HYOI991NEMIS	Hydrocortisone And Miconazole  Ointment  1 % + 2 %
+KEMA74109NEMIS	Keromask  Masking cream  Light No 1
+ACCR18902NEMIS	Acorvio  Cream  2 %
+SOGE16161NEMIS	Solarcaine  Gel  0.5 %
+ZILOEGTON7696	Zinc Sulfate  Lotion  1 %
+URCR19492NEMIS	Urea And Lactic Acid  Cream  10 % + 5 %
+VECO35674NEMIS	Veil  Cover cream  Almond
+PICR14319NEMIS	Pimecrolimus  Cream  1 %
+KEFI74104NEMIS	Keromask  Finishing powder  Medium
+FLCR17665NEMIS	Fludroxycortide  Cream  0.0125 %
+SICR4319	Siopel  Cream  
+UVCR20554EMIS	Uvistat Factor 20  Cream  
+LADR89267NEMIS	Larvae 100  Dressing Pack  30 cm x 30 cm
+TRCR4456	Trimovate  Cream  
+BEGE82068NEMIS	Benzoyl Peroxide And Clindamycin  Gel  3 % + 1 %
+OCSO23970EMIS	Occlusal  Solution  26 %
+BECR319	Benzoyl Peroxide  Cream  5 %
+NICR2008	Nizoral  Cream  2 %
+ELSH29090NEMIS	Elave  Shampoo  
+QUCR2426	Quinoderm  Cream  10
+REGEEGTON7252	Retin-A  Gel  0.025 %
+WAOI16136NEMIS	Wartex  Ointment  50 %
+MEGE9373EMIS	Metronidazole  Gel  0.8 %
+POOI2311	Posalfilin  Ointment  
+HYCR19807NEMIS	Hydrocortisone Butyrate And Chlorquinaldol  Cream  0.1 % + 3 %
+SPAL25419NEMIS	Spirigel  Alcohol Hand Gel  
+ALSH22044EMIS	Alphosyl 2 In 1  Shampoo  5 %
+QULI28303EMIS	Quellada M  Aqueous liquid  0.5 %
+DECR48359NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  12, Opal
+GRSP20540NEMIS	Grisol Af  Spray solution  1 %
+KEFI8258	Keromask  Finishing powder  White Translucent
+CHGE44076NEMIS	Chlorhexidine  Gel  0.5 %
+DECA36378NEMIS	Dermacolor  Camouflage Creme  D742
+DECA36408NEMIS	Dermacolor  Camouflage Creme  DJ9
+CLCR76911NEMIS	Clobaderm  Cream  0.05 %
+CRCR29926EMIS	Crystacide  Cream  1 %
+CECR23273EMIS	Cetomacrogol  Cream  bp (formula a)
+EVCR15221NEMIS	Evening Primrose Oil  Cream  20 %
+NOCR32732EMIS	Noritate  Cream  1 %
+BRGE90765NEMIS	Brimonidine  Gel  3 mg/gram
+COCL2024NEMIS	Covermark  Classic Foundation  No.1 Clair
+UNSO15519NEMIS	Unisept  Solution  0.05 %, 25 ml sachet
+POSO9830HILLI	Podophyllotoxin  Solution  0.5 %
+RECU23910NEMIS	Regaine For Women Regular Strength  Cutaneous Solution  2 %
+SOGE10796NEMIS	Solaraze  Gel  3 %
+ADGE30120EMIS	Adapalene  Gel  0.1 %
+URSH78110NEMIS	Urea  Shampoo  5 %
+SIOI12839NEMIS	Silkis  Ointment  3 micrograms/gram
+ALSO7657	Aluminium Chloride Hexahydrate  Solution  20 %
+TRTO19471NEMIS	Tretinoin And Erythromycin  Topical solution  0.025 % + 4 %
+CHCR15538NEMIS	Chlorhexidine Gluconate  Cream  0.25 %
+CHMO127974NEMIS	Childs Farm Unfragranced  Moisturising Cream  
+AUOI81524NEMIS	Audavate Rd  Ointment  0.025 %
+CLCR76911NEMIS	Clobaderm  Cream  0.05 %
+COCR3356	Conotrane  Cream  
+MUCR3560NEMIS	Mupirocin  Cream  2 %
+FRGAEGTON7357	Framycetin Sulfate  Gauze dressing  Bp, 10 cm x 10 cm
+CHSO46550NEMIS	Chloraprep With Tint  Solution  3 ml applicator
+E4CR1018	E45  Cream  
+UVSU22762NEMIS	Uvistat  Sun Cream  SPF 30
+KELO3803	Keri  Lotion  16 %
+MYSPEGTON8068	Mycota  Spray  
+HYOI5002	Hydrocortisone  Ointment  1 %
+DEFI36213NEMIS	Dermacolor  Fixing powder  P3
+SACR46966NEMIS	Salicylic Acid 5 % in Aqueous  Cream  
+POCR26901EMIS	Podophyllotoxin  Cream  0.15 %
+DIOI3457	Diprosone  Ointment  0.05 %
+BECR3240	Betnovate-Rd  Cream  0.025 %
+SYCR2761	Synalar  Cream  0.025 %
+NIGE14938NEMIS	Nicam  Gel  4 %
+SACO18438EMIS	Salicylic Acid  Collodion  12 %
+ZIOI4548	Zinc And Castor Oil  Ointment  
+LIBA32803EMIS	Light Liquid Paraffin  Bath additive  63.4 %
+EUCR32812EMIS	Eucerin  Cream  5 %
+WASO8569EGTON	Warticon  Solution  0.5 %
+VECO35691NEMIS	Veil  Cover cream  Medium
+IDTO17633NEMIS	Idoxuridine In Dimethyl Sulfoxide  Topical solution  5 %
+DECA36369NEMIS	Dermacolor  Camouflage Creme  D68
+VALO24307EMIS	Vaseline Dermacare  Lotion  
+SYOI2766	Synalar-N  Ointment  
+SOCR15470NEMIS	Sodium Pidolate  Cream  2.5 %
+WOOI4531	Wool Alcohols  Ointment  
+POOIEGTON5997	Polyfax  Ointment  
+PIBA20873NEMIS	Pine Tar  Bath oil  2.3 %
+NYOI2060	Nystatin  Ointment  100000 units/g
+TICR9489BRIDL	Tinaderm-M  Cream  
+DESH34187EMIS	Dermol 200  Shower Emollient  
+SUMI30470NEMIS	Sunsense Toddler  Milk  SPF 50
+ASAPEGTON8047	Ascabiol  Application  25 %
+SAOI90987NEMIS	Salicylic Acid 5 % In Yellow Soft Paraffin  Ointment  
+MOOI22382EMIS	Mometasone Furoate  Ointment  0.1 %
+VEGE10005HILLI	Veracur  Gel  0.75 %
+VECO35702NEMIS	Veil  Cover cream  Peach
+DECA36332NEMIS	Dermacolor  Camouflage Creme  D31
+EUFL82695NEMIS	Eucerin Anti-Redness Neutralising Day  Fluid  
+ZITO9011EMIS	Zineryt  Topical solution  
+BIDR90116NEMIS	Biobag  Dressing Kit  50, 2.5 cm x 4 cm
+COCR3458NEMIS	Coal Tar Extract  Cream  1 %
+BOCR28310NEMIS	Boots Baby Sensitive Skin Moisturising  Cream  
+HYCR19030NEMIS	Hydroquinone  Cream  4 %
+BAGE3498NEMIS	Bazuka  Gel  Extra Strength, 26 %
+KEMA36690NEMIS	Keromask  Masking cream  Light No 3
+ETSH26228NEMIS	Etrivex  Shampoo  500 micrograms/gram
+CICR8999EGTON	Cicatrin  Cream  
+ACGE46807NEMIS	Acnecide Wash  Gel  5 %
+URCR19482NEMIS	Urea And Lauromacrogols  Cream pump pack  5 % + 3 %
+LOLO3848	Locoid  Scalp lotion  0.1 %
+ALEM13222NEMIS	Allergenics  Emollient Cream  
+DECA36405NEMIS	Dermacolor  Camouflage Creme  DJ6
+HYOI991NEMIS	Hydrocortisone And Miconazole  Ointment  1 % + 2 %
+CLOI76909NEMIS	Clobaderm  Ointment  0.05 %
+SAOI7271	Salicylic Acid  Ointment  50 %
+DELO5234NEMIS	Delph Spf 25  Lotion  
+EUCR16491NEMIS	Eumobase  Cream  
+HYCR7679	Hydrogen Peroxide  Cream  1.5 %
+DICR29934EMIS	Dithranol  Cream  3 %
+EMLI1058	Emulsiderm  Liquid  
+KECR1566	Ketoconazole  Cream  2 %
+MIDU8097	Miconazole Nitrate  Powder  2 %
+VECO35698NEMIS	Veil  Cover cream  No.3
+MECR122193NEMIS	Menthoderm  Cream  0.5 %
+NEOI10464BRIDL	Nerisone Forte  Ointment  0.3 %
+DECA36328NEMIS	Dermacolor  Camouflage Creme  D3
+DECA36396NEMIS	Dermacolor  Camouflage Creme  DG178
+GROIEGTON8146	Graneodin  Ointment  
+DIOI9416HILLI	Diflucortolone Valerate  Ointment  0.3 %
+RECR26772EMIS	Retinova  Cream  0.05 %
+FLCR21348NEMIS	Fluprednidene And Miconazole  Cream  0.1 % + 2 %
+POLIEGTON8191	Polytar Plus  Liquid  
+HACR7204	Halcinonide  Cream  0.1 %
+IMCR78283NEMIS	Imiquimod  Cream  3.75 %, 250 mg sachet
+PRSO22842EMIS	Proflavine  Solution  bpc 1949
+COCL2029NEMIS	Covermark  Classic Foundation  No.6 Peche
+CULO28858NEMIS	Curatoderm  Lotion  4 micrograms/gram
+EUCR16089NEMIS	Eumovate Eczema And Dermatitis  Cream  0.05 %
+COCL2029NEMIS	Covermark  Classic Foundation  No.6 Peche
+CALI34081EMIS	Carbaryl  Liquid  1 %
+MICR1827	Miconazole Nitrate  Cream  2 %
+HAOIEGTON6273	Haelan  Ointment  0.0125 %
+ELLO22376EMIS	Elocon  Scalp lotion  0.1 %
+SAGE19484NEMIS	Salicylic Acid And Lactic Acid  Gel  12 % + 4 %
+LASP13230NEMIS	Lamisil At  Pump spray  1 %
+DECA45025NEMIS	Dermacolor  Camouflage Creme  DM4.5
+DELO5230NEMIS	Delph Spf 15  Lotion  
+ZIBA26065EMIS	Zinc Paste  Bandage Bp  15 %, 7.5 cm x 6 m
+FLCR1201	Fluocinonide  Cream  0.05 %
+DICR29934EMIS	Dithranol  Cream  3 %
+EFOI1026	Efcortelan  Ointment  0.5 %
+BEOI360	Betnovate-C  Ointment  
+TRCR10790BRIDL	Tretinoin  Cream  0.025 %
+BIDR90115NEMIS	Biobag  Dressing Kit  400, 10 cm x 10 cm
+CLSO674	Clotrimazole  Solution  1 %
+USSO43588NEMIS	Ustekinumab  Solution for injection  45 mg/0.5 ml pre-filled syringe
+TRNAEGTON7755	Trosyl  Nail solution  28 % (283 mg/ml)
+STLO9650BRIDL	Stiedex  Lotion  
+AVLO11647NEMIS	Aveeno  Lotion  
+VECO35694NEMIS	Veil  Cover cream  Natural-Light
+E4LO33886EMIS	E45  Lotion  
+DELIEGTON8017	Derbac-M  Liquid  0.5 %
+PIGE77711NEMIS	Picato  Gel  150 micrograms/gram
+STOI10474HILLI	Stiedex Lp  Oily cream  0.05 %
+CLOI76909NEMIS	Clobaderm  Ointment  0.05 %
+DECR77691NEMIS	Dermablend Dermasmooth Corrective Foundation  Cream  45, Gold
+NEOI19701NEMIS	Neomycin And Gramicidin  Ointment  0.25 % + 0.025 %
+BACR30474EMIS	Balneum Plus  Cream  
+PROI2386	Propaderm  Ointment  0.025 %
+DICR8834EGTON	Dithrocream  Cream  2.0 %
+ZOCR3097	Zovirax  Cream  5 %
+COSH3455NEMIS	Coal Tar  Shampoo  4.3 %
+MIGE89234NEMIS	Mirvaso  Gel  3 mg/gram
+ZITO9011EMIS	Zineryt  Topical solution  
+DIGE10794NEMIS	Diclofenac Sodium  Gel  3 %
+HAWA13104NEMIS	Hamamelis  Water  BPC
+ACCR1532NEMIS	Acticin  Cream  0.025 %
+CLTA22806NEMIS	Clairette  Tablets  
+CHSO7824	Chlorhexidine Gluconate  Solution  20 %
+VECO35697NEMIS	Veil  Cover cream  No.2
+CLTO9238EMIS	Clindamycin  Aqueous Lotion  1 %
+TECR22002EMIS	Terbinafine Hydrochloride  Cream  1 %
+MYCREGTON8066	Mycota  Cream  
+GLTO86371NEMIS	Glycopyrronium Bromide  Topical solution  0.05 %
+BECR356	Betnovate  Cream  0.1 %
+SCFA27546NEMIS	Scholl Corn Removal  Fabric Plasters  40 %, (4 plasters + 4 pads)
+RECU23915NEMIS	Regaine For Men Regular Strength  Cutaneous Solution  2 %
+DIOI6777	Dithranol  Ointment  0.4 %
+NECR4020	Nerisone  Cream  0.1 %
+FUGE1254	Fucidin  Gel  2 %
+DECR29304NEMIS	Dermacort Hydrocortisone  Cream  0.1 %
+TECU22028NEMIS	Terbinafine Hydrochloride  Cutaneous Solution  1 %
+UVSU23407NEMIS	Uvistat  Sun Cream  SPF 50
+SAOI19820NEMIS	Salicylic Acid And Podophyllum Resin  Ointment  25 % + 20 %
+TAPO24907EMIS	Talc Dusting  Powder  bp
+HYSO1401	Hydrogen Peroxide  Solution  3 %
+BEGE19510NEMIS	Benzoyl Peroxide And Clindamycin  Gel  5 % + 1 %
+MISC51858NEMIS	Minoxidil  Scalp foam  5 %
+ALAN84	Aluminium Chloride  Antiperspirant  Spray, 20 %
+ROCAEGTON7263	Roaccutane  Capsules  5 mg
+DECA45026NEMIS	Dermacolor  Camouflage Creme  DM4
+DOEM36512NEMIS	Doublebase  Emollient Wash Gel  
+DEBA4930NEMIS	Dermalo  Bath emollient  
+DECR48363NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  15, Sand
+BACR127689NEMIS	Bascellex  Cream  50 mg/gram, 250 mg sachet
+CLSP675	Clotrimazole  Spray  1 %
+ELLO22376EMIS	Elocon  Scalp lotion  0.1 %
+URLO389NEMIS	Urea  Lotion  10 %
+AVCA25529NEMIS	Avoca  Caustic Pencil  40 %
+MEGE20333EMIS	Metrogel  Gel  0.75 %
+LYDE19807EMIS	Lyclear  Dermal cream  5 %
+DECA36379NEMIS	Dermacolor  Camouflage Creme  D7W
+CACR16120NEMIS	Candiden  Cream  1 %
+CUNA22658NEMIS	Curanail  Medicated Nail Lacquer  5 %
+FLOI28151EMIS	Fluticasone Propionate  Ointment  0.005 %
+POOI7919	Povidone-Iodine  Ointment  10 %
+KEFI74105NEMIS	Keromask  Finishing powder  Dark
+POSU7775	Povidone-Iodine  Surgical scrub  7.5 %
+DASP24753NEMIS	Daktarin Aktiv  Spray powder  0.16 %
+MISP9700HILLI	Miconazole Nitrate  Spray powder  0.16 %
+KEMA36693NEMIS	Keromask  Masking Cream Mixer  Yellow
+URCR388NEMIS	Urea  Cream  5 %
+COCL2032NEMIS	Covermark  Classic Foundation  No.9 Bronze
+USSO34945NEMIS	Ustekinumab  Solution for injection  45 mg/0.5 ml vial
+SAPA102009NEMIS	Salicylic Acid And Lactic Acid  Paint  16.7 % + 15 %
+BEWA9175HILLI	Benzoyl Peroxide  Wash  10 %
+NYCREGTON8085	Nystaform  Cream  
+DECA36360NEMIS	Dermacolor  Camouflage Creme  D5W
+TRCR2904	Tri-Adcortyl  Cream  
+SULOEGTON8011	Suleo-M  Lotion  0.5 %
+HYOI24450EMIS	Hydrocortisone Butyrate  Ointment  0.1 %
+KAOI1540	Kamillosan Chamomile  Ointment  10.5 %
+CLSP675	Clotrimazole  Spray  1 %
+POAN7788	Povidone-Iodine  Antiseptic paint  10 %
+FUOI1255	Fucidin  Ointment  2 %
+FOSO124955NEMIS	Formaldehyde  Solution  (Buffered) 4 %
+CECR15461NEMIS	Cetrimide  Cream  0.5 %
+BUCR431	Buffered  Cream  
+PIGE20879NEMIS	Pinetarsol  Gel  1.6 %
+RICR30133NEMIS	Richmond Antiseptic  Cream  0.5 %
+COCL108928NEMIS	Covermark  Classic Foundation  12C
+STPOEGTON7724	Ster-Zac  Dusting powder  0.33 %
+DUGE16408NEMIS	Duac Once Daily  Gel  5 % + 1 %
+CIPO619	Cicatrin  Dusting powder  
+POEM2299	Polytar  Emollient  
+BAGE3498NEMIS	Bazuka  Gel  Extra Strength, 26 %
+TOCA31058NEMIS	Toctino  Capsules  10 mg
+DATO9235EMIS	Dalacin T  Topical lotion  1 %
+CITA21616NEMIS	Cicafem  Tablets  2000/35
+QVWA26348NEMIS	Qv  Wash  
+FUGA85498NEMIS	Fumaderm  Gastro-resistant Tablets  215 mg
+BRCREGTON7917	Brulidine  Cream  0.15 %
+DECR77690NEMIS	Dermablend Dermasmooth Corrective Foundation  Cream  35, Sand
+VEFI22735EMIS	Veil  Finishing powder  Translucent
+NECA22017EMIS	Neotigason  Capsules  10 mg
+CACR23976EMIS	Calcipotriol  Cream  50 micrograms/gram
+BECR356	Betnovate  Cream  0.1 %
+NICR2008	Nizoral  Cream  2 %
+FULI32182EMIS	Full Marks  Liquid  0.5 %
+VECR29211EMIS	Vectavir  Cream  1 %
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+AUCR81523NEMIS	Audavate Rd  Cream  0.025 %
+SUCR2721	Sudocrem  Cream  
+DECR27866EMIS	Dermidex  Cream  
+BECR19371NEMIS	Betamethasone Valerate And Clioquinol  Cream  0.1 % + 3 %
+COTA6264NEMIS	Co-Cyprindiol  Tablets  2,000 micrograms + 35 micrograms
+CHLI33781EMIS	Chlorhexidine Gluconate  Liquid  0.5 %
+TOOI31083NEMIS	Tolnaftate And Benzalkonium Chloride  Ointment  1 % + 0.1 %
+LADR39298NEMIS	Larve Biofoam  Dressing Kit  10 cm x 10 cm, BFD100
+POCR7929	Polynoxylin  Cream  10 %
+BEPA116182NEMIS	Betamethasone Valerate 0.1 % Ointment 25 % In Coal Tar  Paste  
+COCL2025NEMIS	Covermark  Classic Foundation  No.2 Chair
+PRCR117248NEMIS	Propylene Glycol 40 % In Clobetasol 0.05 %  Cream  
+LIGE19505NEMIS	Liquid Paraffin And Isopropyl Myristate  Gel  15 % + 15 %
+SOBA5669NEMIS	Soya Oil  Bath oil  84.75 %
+HYCR1389	Hydrocortisone  Cream  0.5 %
+PIBA20875NEMIS	Pinetarsol  Bath oil  2.3 %
+VECO35706NEMIS	Veil  Cover cream  Suntan
+ENCU114458NEMIS	Enstilar  Cutaneous Foam  50 micrograms + 500 micrograms/gram
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+ELCR4205NEMIS	Eldoquin  Cream  2 %
+ABCR11598NEMIS	Abtrim  Cream  1 %
+BELO321	Benzoyl Peroxide  Lotion  5 %
+BRCR1691NEMIS	Brevoxyl  Cream  4 %
+VACR4492	Vasogen  Cream  
+BESC26818EMIS	Betacap  Scalp application  0.1 %
+GELIEGTON8202	Gelcotar  Liquid  
+SOBA5669NEMIS	Soya Oil  Bath oil  84.75 %
+SYCREGTON6250	Synalar 1 In 4 Dilution  Cream  0.00625 %
+ZIBA5542NEMIS	Zincaband  Bandage  15 %, 7.5 cm x 6 m
+CESK6473NEMIS	Cepton Medicated  Skin Wash  1 %
+SKDA113415NEMIS	Skin Salvation  Daily Moisturising Cream  
+TALO28857NEMIS	Tacalcitol Monohydrate  Lotion  4 micrograms/gram
+TAGE31232EMIS	Tazarotene  Gel  0.05 %
+ALOI4565	Alclometasone Dipropionate  Ointment  0.05 %
+CEGE44078NEMIS	Cepton Medicated Clear  Gel  0.5 %
+PESC9812HILLI	Permethrin  Cream rinse  1 %
+REGE1574NEMIS	Regranex  Gel  0.01 %
+E4LO71610NEMIS	E45 Intense Recovery  Lotion  
+ELOI22374EMIS	Elocon  Ointment  0.1 %
+DECA45031NEMIS	Dermacolor  Camouflage Creme  DM2 2/3
+NEOI10462BRIDL	Nerisone Forte  Oily cream  0.3 %
+PECR29213EMIS	Penciclovir  Cream  1 %
+HYCR48123NEMIS	Hydromol Hc Intensive  Cream  
+KECR1566	Ketoconazole  Cream  2 %
+CLCR972NEMIS	Clotrimazole And Hydrocortisone  Cream  1 % + 1 %
+EUCR1127	Eurax  Cream  10 %
+WOOI4531	Wool Alcohols  Ointment  
+VICR40329NEMIS	Vivaderm Ultra  Cream  
+MALI10247BRIDL	Malathion  Aqueous Lotion  0.5 %
+PECR4140	Pevaryl  Cream  1 %
+DOGE6700NEMIS	Doublebase  Gel  
+VECO35684NEMIS	Veil  Cover cream  Ebony
+DITAEGTON7260	Dianette  Tablets  
+FULI32182EMIS	Full Marks  Liquid  0.5 %
+DECR27866EMIS	Dermidex  Cream  
+FLOI17666NEMIS	Fludroxycortide  Ointment  0.0125 %
+SULO6521NEMIS	Sunsense Ultra  Lotion  SPF 50+
+KEMA74117NEMIS	Keromask  Masking cream  Medium No 7
+CACR470	Canesten  Cream  1 %
+ACCU50331NEMIS	Actikerall  Cutaneous Solution  5 mg/gram + 100 mg/gram
+GUSO125259NEMIS	Guselkumab  Solution for injection  100 mg/1 ml pre-filled syringe
+SYOIEGTON6251	Synalar 1 In 4 Dilution  Ointment  0.00625 %
+OIEM23897NEMIS	Oilatum Junior  Bath additive  
+AUCR126988NEMIS	Audavate  Cream  0.1 %
+TRCR7248	Tretinoin  Cream  0.05 %
+EFCR3499	Efudix  Cream  5 %
+DECA45024NEMIS	Dermacolor  Camouflage Creme  DM5
+BECR17529NEMIS	Beclometasone  Cream  0.025 %
+TRCR2904	Tri-Adcortyl  Cream  
+ACGE22048EMIS	Acnecide  Gel  5 %
+BICR14247NEMIS	Bifonazole  Cream  1%
+FUOI3613	Fucidin H  Ointment  
+ALSH15458NEMIS	Alcoholic Coal Tar Extract  Shampoo  5 %
+BEDREGTON7798	Betadine  Dry powder spray  2.5 %
+CACR23976EMIS	Calcipotriol  Cream  50 micrograms/gram
+CELO34256EMIS	Cepton Medicated  Lotion  0.1 %
+HYOI1395	Hydrocortisone  Ointment  0.5 %
+MECR23347NEMIS	Menthol In Aqueous  Cream  1 %
+GLSO1311	Glutarol  Solution  10 %
+HYCR9283BRIDL	Hydrocortisone  Cream  0.1 %
+CUCR24416EMIS	Cutivate  Cream  0.05 %
+SASP48406NEMIS	Savlon First Aid Wash  Spray  0.5 %
+BESUEGTON7801	Betadine  Surgical scrub  7.5 %
+CHLO34260EMIS	Chlorhexidine Gluconate  Lotion  0.1 %
+ICBA10492BRIDL	Icthaband  Bandage  7.5 cm x 6 m
+CECL30141NEMIS	Cetaphil  Cleansing Bar  
+NEOI10458BRIDL	Nerisone  Oily cream  0.1 %
+LOCR18104EMIS	Loceryl  Cream  0.25 %
+MITO9726HILLI	Minoxidil  Topical solution  2 %
+ELCR14322NEMIS	Elidel  Cream  1 %
+SAOI140216NEMIS	Salicylic Acid 10 % In Emulsifying  Ointment  
+ERGE386NEMIS	Erythromycin  Gel  2%
+BABA9587EMIS	Balneum Plus  Bath oil  
+BRCREGTON7917	Brulidine  Cream  0.15 %
+CHDU3464NEMIS	Chlorhexidine Acetate  Dusting powder  1 %
+DRAN997	Driclor  Antiperspirant  20 %
+MALO10245BRIDL	Malathion  Alcoholic Lotion  0.5 %
+KESH10627BRIDL	Ketoconazole  Shampoo  2 %
+DIOI9415HILLI	Diflucortolone Valerate  Oily cream  0.3 %
+T/SHEGTON8178	T/Gel  Therapeutic Shampoo  2 %
+EFCR1023	Efcortelan  Cream  0.5 %
+PSOIEGTON6512	Psorin  Ointment  
+POSK7793	Povidone-Iodine  Skin cleanser solution  4 %
+SACR10190BRIDL	Savlon  Antiseptic Cream  
+SUCR28919NEMIS	Sunsense Daily Face  Cream  SPF 50+
+HACREGTON7205	Halciderm Topical  Cream  0.1 %
+SAOI86944NEMIS	Salicylic Acid 5 % In Emulsifying  Ointment  
+CUCR24416EMIS	Cutivate  Cream  0.05 %
+CHSO29928NEMIS	Chloraprep  Solution  1.5 ml applicator
+TOSO8734EGTON	Topicycline  Solution  
+RECU23918NEMIS	Regaine For Men Extra Strength  Scalp solution  5 %
+VIDIEGTON7776	Videne  Disinfectant tincture  10 %
+PSCREGTON6470	Psoriderm  Cream  
+COOI89228NEMIS	Coconut Oil 25 % In Emulsifying  Ointment  
+ZIPA9257BRIDL	Zinc Compound  Paste  
+DECA36409NEMIS	Dermacolor  Camouflage Creme  DREDB
+SUGE51772NEMIS	Sunsense Sport  Gel  SPF 30
+EXCR1132	Exelderm  Cream  1 %
+STLO9650BRIDL	Stiedex  Lotion  
+ELCR22373EMIS	Elocon  Cream  0.1 %
+CASO473	Canesten  Solution  1 %
+DECA36362NEMIS	Dermacolor  Camouflage Creme  D61
+VECO35704NEMIS	Veil  Cover cream  Suede
+DECA36383NEMIS	Dermacolor  Camouflage Creme  D9
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %
+SUCR2722	Sulconazole Nitrate  Cream  1 %
+ETSO23191EMIS	Ether  Solvent  bp
+AMNA9609EMIS	Amorolfine Hydrochloride  Medicated Nail Lacquer  5 %
+COOI52803NEMIS	Coal Tar Solution Strong 5 % In Emulsifying  Ointment  
+ELNI20527NEMIS	Elenas  Night Cream Extra  
+DECR48359NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  12, Opal
+NYOI2048	Nystaform-Hc  Ointment  
+CAOI12837NEMIS	Calcitriol  Ointment  3 micrograms/gram
+MECR1808	Metosyn  Cream  0.05 %
+IDTO17633NEMIS	Idoxuridine In Dimethyl Sulfoxide  Topical solution  5 %
+BESC26818EMIS	Betacap  Scalp application  0.1 %
+TEOI2821	Terra-Cortril  Ointment  
+MITO28977EMIS	Minoxidil  Topical solution  5 %
+HYCR29928EMIS	Hydrogen Peroxide  Cream  1 %
+SOOI1175NEMIS	Sodium Fusidate  Ointment  2 %
+LALO3812	Lacticare  Lotion  
+GROI3669	Gregoderm  Ointment  
+EUOI1125	Eumovate  Ointment  0.05 %
+ZIIM5114NEMIS	Zinc Oxide  Impregnated Medicated Stocking  20 %
+CLCR644	Clobetasone Butyrate  Cream  0.05 %
+MYDR15479NEMIS	Mycil Athlete's Foot  Dry powder spray  0.12 %
+FUCR1253	Fucidin  Cream  2 %
+INLI1467	Industrial Methylated Spirit  Liquid  95 %
+DECA36330NEMIS	Dermacolor  Camouflage Creme  D30
+BELO16155NEMIS	Benadryl Skin Allergy Relief  Lotion  
+HALI18497NEMIS	Halogenated Phenols And Phenol  Liquid Antiseptic  0.68 % + 0.175 %
+COCL2027NEMIS	Covermark  Classic Foundation  No.4 Brun
+DESC16189NEMIS	Delacet Herbal Head Lice  Solution  
+LIOI104949NEMIS	Liquid Paraffin And White Soft Paraffin  Ointment  5 % + 95 %
+ECCR3490	Ecostatin  Cream  1 %
+BACR3559NEMIS	Bactroban  Cream  2 %
+IMBA28369EMIS	Imuderm  Bath emollient  
+COCL2027NEMIS	Covermark  Classic Foundation  No.4 Brun
+CHIR41297NEMIS	Chlorhexidine Acetate  Irrigation solution  0.05 %, 1 litre bottle
+BECR20606EMIS	Betamethasone Valerate  Cream  0.025 %
+LACR17007NEMIS	Lamisil At  Cream  1 %
+CAOI9050EMIS	Calcipotriol  Ointment  50 micrograms/gram
+LACR22000EMIS	Lamisil  Cream  1 %
+HYFA3734	Hydrous Wool  Fat  BP
+GLWA26347NEMIS	Glycerol  Wash  10 %
+FUMO799NEMIS	Full Marks  Mousse  0.5 %
+ALSO7657	Aluminium Chloride Hexahydrate  Solution  20 %
+ZIBA26065EMIS	Zinc Paste  Bandage Bp  15 %, 7.5 cm x 6 m
+ZYGE1721NEMIS	Zyomet  Gel  0.75 %
+SASOEGTON7810	Hibicet Hospital Concentrate  Solution  7.5 %
+VICR40332NEMIS	Vivaderm Daily  Cream  
+ANCR108578NEMIS	Anthelios Xl  Cream  SPF 50+
+TCLI18500NEMIS	Tcp  Liquid Antiseptic  0.68 % + 0.175 %
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+ISGE20672EMIS	Isotretinoin  Gel  0.05 %
+ECCR42219NEMIS	Eczmol  Cream  1 %
+BELO25403EMIS	Betamethasone Valerate  Lotion  0.1 %
+LYCR10580BRIDL	Lyclear  Cream rinse  
+ACSO25908EMIS	Acnisal  Solution  2 %
+SAOI17464NEMIS	Salicylic Acid  Ointment  5 %
+KEMA74107NEMIS	Keromask  Masking cream  Dark No 5
+ANCR176	Anthisan  Cream  2 %
+CLCR10591BRIDL	Clinitar  Cream  1 %
+ALCR33764EMIS	Aldara  Cream  5 %, 250 mg sachet
+MOOI22382EMIS	Mometasone Furoate  Ointment  0.1 %
+DECR48363NEMIS	Dermablend Ultra-Corrective Foundation  Cream Stick  15, Sand
+UNSO15520NEMIS	Unisept  Solution  0.05 %, 100 ml sachet
+ERGE387NEMIS	Erythromycin  Gel  4%
+FUCR3611	Fucidin H  Cream  
+NYCR2047	Nystaform-Hc  Cream  
+DECR28372NEMIS	Dermacool  Cream  0.5 %
+EUGE118057NEMIS	Eucerin Antiredness Soothing Care  Cream  
+BECR4224NEMIS	Betamethasone  Cream  0.05 % (as dipropionate)
+ULCR48125NEMIS	Ultrasun Anti-Ageing Face  Cream  SPF 30
+TRLO7250	Tretinoin  Lotion  0.025 %
+SAPA2476	Salactol  Paint  
+COOI48269NEMIS	Coal Tar 15 % In Yellow Soft Paraffin  Ointment  
+ALPO19844NEMIS	Aldioxa And Chloroxylenol  Powder  0.22 % + 0.5 %
+ANCREGTON7933	Anaflex  Cream  10 %
+URCR19481NEMIS	Urea And Lauromacrogols  Cream  5 % + 3 %
+ADGE42893NEMIS	Adapalene And Benzoyl Peroxide  Gel  0.1 % + 2.5 %
+SOOI1175NEMIS	Sodium Fusidate  Ointment  2 %
+SOCR16167NEMIS	Soothelip  Cream  5 %
+TRNAEGTON7755	Trosyl  Nail solution  28 % (283 mg/ml)
+PSSCEGTON8184	Psoriderm  Scalp lotion  
+ACCR18902NEMIS	Acorvio  Cream  2 %
+ALCREGTON6483	Alphosyl Hc  Cream  
+VACR24306EMIS	Vaseline Dermacare  Cream  
+ISGE20670EMIS	Isotrex  Gel  0.05 %
+ZEPO4544	Zeasorb  Powder  
+VECO35692NEMIS	Veil  Cover cream  Mocha
+DEFI36216NEMIS	Dermacolor  Fixing powder  P6
+POLI8759BRIDL	Polytar  Liquid  
+DECA36352NEMIS	Dermacolor  Camouflage Creme  D53
+DECA36311NEMIS	Dermacolor  Camouflage Creme  D133
+LADR30579NEMIS	Larve Biofoam  Dressing Kit  2 cm x 2 cm, BFD20C
+LADR23809NEMIS	Larve Biofoam  Dressing Kit  5 cm x 5 cm, BFD50
+HISO125621NEMIS	Hibiscrub Plus  Solution  4 %
+COCL2028NEMIS	Covermark  Classic Foundation  No.5 Bistre
+PICR48357NEMIS	Pigmanorm  Cream  
+DECA36347NEMIS	Dermacolor  Camouflage Creme  D51
+DELO5234NEMIS	Delph Spf 25  Lotion  
+DESH34187EMIS	Dermol 200  Shower Emollient  
+DECA36397NEMIS	Dermacolor  Camouflage Creme  DGOLD
+MITO9726HILLI	Minoxidil  Topical solution  2 %
+PRLOEGTON8014	Prioderm  Lotion  0.5 %
+DICR27176EMIS	Dithranol  Cream  0.25 %
+CABA22272EMIS	Calaband  Bandage  7.5 cm x 6 m
+DECR88141NEMIS	Dermacool  Cream  5 %
+CECR23274EMIS	Cetomacrogol  Cream  bp (formula b)
+CALOEGTON8043	Carylderm  Lotion  0.5 %
+HYOI1397	Hydrocortisone  Ointment  2.5 %
+COOI125502NEMIS	Coconut Oil 75 % In Emulsifying  Ointment  
+COCL2031NEMIS	Covermark  Classic Foundation  No.8 Brun Rose
+LAGE17469NEMIS	Lamisil At  Gel  1 %
+EFCR1024	Efcortelan  Cream  1 %
+COCL2030NEMIS	Covermark  Classic Foundation  No.7 Naturel
+BECR1689NEMIS	Benzoyl Peroxide  Cream  4 %
+ACOR45698NEMIS	Acitretin  Oral solution  5 mg/5 ml
+VECR10490HILLI	Vesagex  Cream  1 %
+MOOI3963	Modrasone  Ointment  0.05 %
+TAPO24907EMIS	Talc Dusting  Powder  bp
+MUCR3560NEMIS	Mupirocin  Cream  2 %
+ZIGE12707NEMIS	Zindaclin  Gel  1 %
+COCR6832	Coal Tar Solution  Cream  10 %
+PRCR128505NEMIS	Propylene Glycol 40 % In Aqueous  Cream  
+OIEM2073	Oilatum  Emollient  
+DICR27179EMIS	Dithranol  Cream  2 %
+NOCR32732EMIS	Noritate  Cream  1 %
+DACR792	Daktacort  Cream  2 % + 1 %
+BEGE33326NEMIS	Betamethasone Dipropionate And Calcipotriol  Gel  0.05 % + 50 micrograms/gram
+BEMO28661EMIS	Bettamousse  Mousse  0.12 %
+PODR7791	Povidone-Iodine  Dry powder spray  2.5 %
+VEFI22735EMIS	Veil  Finishing powder  Translucent
+FUCR984NEMIS	Fusidic Acid And Betamethasone Valerate  Cream  2 % + 0.1 %
+ACGE22048EMIS	Acnecide  Gel  5 %
+COSO27721EMIS	Coal Tar  Solution  strong, bp
+GELIEGTON8202	Gelcotar  Liquid  
+GLCR121904NEMIS	Glycopyrronium Bromide 0.5 % in Cetomacrogol  Cream (Formula A)  
+BESO32645EMIS	Beeswax White  Solid  
+MIGE25126NEMIS	Minoxidil  Gel  2 %
+BESC358	Betnovate  Scalp application  0.1 %
+CHSO29929NEMIS	Chloraprep  Solution  10.5 ml applicator
+DECA36375NEMIS	Dermacolor  Camouflage Creme  D707
+ERGE33001EMIS	Eryacne  Gel  4 %
+KAOI1540	Kamillosan Chamomile  Ointment  10.5 %
+DOGE45841NEMIS	Dovobet  Gel  
+AKTO5257NEMIS	Aknemycin Plus  Topical solution  
+DELO5236NEMIS	Delph Spf 30  Lotion  
+LOCR3847	Locoid  Cream  0.1 %
+MEGE1001EMIS	Metrotop  Gel  0.8 %

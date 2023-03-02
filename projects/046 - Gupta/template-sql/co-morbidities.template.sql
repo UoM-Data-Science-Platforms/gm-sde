@@ -92,21 +92,6 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 
 ----------------------------------------------------------------------------------------
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
-
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND EventDate < '2022-06-01';
-
 
 -- Set the date variables for the LTC code
 

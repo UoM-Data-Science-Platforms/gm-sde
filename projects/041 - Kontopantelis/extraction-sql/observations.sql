@@ -560,7 +560,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 

@@ -1,0 +1,1102 @@
+a23v.	Gaviscon Advance s/f susp
+a24t.	Peptac liquid
+a6bv.	Omeprazole 20mg e/c tablet
+a23A.	Gaviscon Advance peppmint susp
+a62y.	Ranitidine 300mg tablet
+a23f.	Infant Gaviscon 2g/sach pdr
+a4ex.	Mebeverine HCl 135mg tablet
+a23n.	Gaviscon 250 tablet
+a24z.	Peptac peppermint liquid
+aa31.	Asacol MR 400mg e/c tablet
+a6hv.	ESOMEPRAZOLE 20mg g/r capsules
+a4dz.	Alverine citrate 60mg capsule
+a681.	Famotidine 20mg tablet
+a6hz.	Esomeprazole 20mg tablet
+a6c3.	Lansoprazole 15mg capsule
+a4ev.	Mebeverine HCl 200mg m/r cap
+a47y.	Hyoscine butylbromide 10mg tab
+ae11.	Lactulose 3.35g/5mL oral soln
+af11.	Bisacodyl 10mg suppository
+a6b7.	Omeprazole 10mg capsule
+a6hy.	Esomeprazole 40mg tablet
+ac59.	Docusate sodium 100mg capsule
+aj1c.	Scheriproct ointment 30g
+a6b5.	Omeprazole 40mg capsule
+a4d2.	Spasmonal 60mg capsule
+aj1a.	Proctosedyl ointment 30g
+af15.	Glycerol 4g adult suppository
+a6c9.	Zoton FasTab 15mg disp tab
+aa3T.	MEZAVANT XL 1200mg m/r tablets
+b212.	Bendroflumethiazide 5mg tablet
+aj1t.	Xyloproct ointment 20g
+a6c8.	Lansoprazole 30mg disp tab
+a62w.	Ranitidine 150mg tablet
+bb3k.	Securon SR 240mg m/r tabs 28CP
+b311.	Furosemide 20mg tablet
+a83w.	Loperamide HCl 2mg disp tab
+ae4b.	MOVICOL PLAIN 13.7g/sachet pdr
+b32u.	Bumetanide 1mg tablet
+b28z.	Indapamide 2.5mg tablet
+ab21.	Fybogel 3.5g s/f granules
+a6b1.	Omeprazole 20mg capsule
+bd12.	Propranolol HCl 40mg tablet
+b45z.	Eplerenone 25mg tablet
+ac7v.	Senna 7.5mg/5mL s/f syrup
+b112.	Digoxin 125micrograms tablet
+bD1z.	RANOLAZINE 375mg m/r tablets
+bb3n.	Univer 240mg m/r capsules x28
+ac71.	Senna 7.5mg tablet
+a6c2.	Lansoprazole 30mg capsule
+bD1y.	RANOLAZINE 500mg m/r tablets
+bd6w.	Metoprolol 100mg tablet
+b111.	Digoxin 62.5micrograms tablet
+bd11.	Propranolol HCl 10mg tablet
+bd52.	Labetalol HCl 200mg tablet
+bdl5.	Carvedilol 3.125mg tablet
+ac84.	Dulco-lax 5mg/5mL liquid
+a6e5.	Pantoprazole 20mg e/c tablet
+bdfx.	Bisoprolol fumarate 2.5mg tab
+bdfy.	Bisoprolol fumarate 3.75mg tab
+b211.	Bendrofluazide 2.5mg tablet
+bd1x.	Propranolol HCl 160mg m/r cap
+bh61.	Doxazosin 1mg tablet
+bi33.	Lisinopril 10mg tablet
+b212.	Bendrofluazide 5mg tablet
+a6hu.	ESOMEPRAZOLE 40mg g/r capsules
+bi52.	Perindopril erbumine 4mg tab
+bh62.	Doxazosin 2mg tablet
+b211.	Bendroflumethiazide 2.5mg tab
+bd6x.	Metoprolol 50mg tablet
+bi51.	Perindopril tert-butyl 2mg tab
+bi34.	Lisinopril 20mg tablet
+bd35.	Atenolol 50mg tablet
+a83y.	Loperamide HCl 2mg capsule
+blc5.	Felodipine 2.5mg m/r tablet
+bh6y.	Doxazosin 8mg m/r tablet
+b312.	Furosemide 40mg tablet
+bdf1.	Bisoprolol fumarate 5mg tablet
+bi62.	Ramipril 2.5mg capsule
+bi61.	Ramipril 1.25mg capsule
+bdfw.	Bisoprolol fumarate 1.25mg tab
+aa31.	Asacol 400mg e/c tablet
+blcr.	CARDIOPLEN XL 2.5mg m/r tabs
+bi2z.	Enalapril mal 20mg tabs x28
+bd1y.	Propranolol HCl 80mg m/r cap
+bdfz.	Bisoprolol fumarate 7.5mg tab
+bkL2.	SACUBITRL+VALSRTN 24/26mg tabs
+bi63.	Ramipril 5mg capsule
+bi51.	Perindopril erbumine 2mg tab
+ac11.	Bisacodyl 5mg e/c tablet
+blh3.	Lercanidipine HCl 20mg tablet
+bi67.	Ramipril 10mg capsule
+bd3j.	Atenolol 25mg tablet
+bdmy.	NEBIVOLOL 2.5mg tablets
+blzI.	Glyceryl tri 400mcg CFC-fr spr
+bi6E.	Ramipril 10mg tablet
+bk32.	Losartan potassium 50mg tablet
+ae49.	Movicol Paed Plain 6.9g/sachet
+bu2B.	Aspirin 75mg e/c tablet
+bi6C.	Ramipril 2.5mg tablet
+bdf2.	Bisoprolol fumarate 10mg tab
+bl3d.	Isosorbide mono 50mg m/r cap
+bp1M.	JEXT 300micrograms/0.3mL pen
+bl5I.	Adizem-XL 240mg m/r capsule
+bk52.	Irbesartan 150mg tablet
+b311.	Frusemide 20mg tablet
+bxc8.	Fenofibrate 267mg capsule
+bk7z.	Candesartan cilexetil 32mg tab
+bdmz.	Nebivolol 5mg tablet
+bl3y.	Isosorbide mono 60mg m/r tab
+bs85.	EDOXABAN 30mg tablets
+bo4y.	Naftidrofuryl 100mg capsule
+bk71.	Candesartan cilexetil 2mg tab
+b312.	Frusemide 40mg tablet
+bxcA.	Fenofibrate 160mg m/r tablet
+bl8e.	Coracten SR 20mg m/r capsule
+bi32.	Lisinopril 5mg tablet
+blb1.	Amlodipine 5mg tablet
+bxi1.	Atorvastatin 10mg tablet
+bs18.	Warfarin sodium 3mg tablet
+bk72.	Candesartan cilexetil 4mg tab
+bb1x.	Amiodarone HCl 100mg tablet
+bxi2.	Atorvastatin 20mg tablet
+bl8U.	Nifedipress MR 20 m/r tablet
+bi52.	Perindopril tert-butyl 4mg tab
+blc2.	Felodipine 10mg m/r tablet
+bxiz.	Atorvastatin 80mg tablet
+bs4x.	DABIGATRAN ETEXILATE 150mg cap
+bl3W.	Chemydur 60XL m/r tablet
+bdl4.	Carvedilol 25mg tablet
+c14j.	Terbutaline 500mcg bth-act inh
+blc1.	Felodipine 5mg m/r tablet
+bi57.	Perindopril erbumine 8mg tab
+blh1.	Lercanidipine HCl 10mg tablet
+c13J.	Salbutamol 100mcg CFC-free inh
+bs6y.	RIVAROXABAN 15mg tablets
+blkN.	Monomil XL 60mg m/r tablet
+bf41.	Moxonidine 200micrograms tab
+c331.	Tiotropium 18mcg inhal cap
+bxdz.	Simvastatin 80mg tablet
+bk37.	Losartan potassium 100mg tab
+bu23.	Aspirin 75mg dispersible tab
+c13U.	Sal 100 CFC-fr br-act aero inh
+bs74.	APIXABAN 5mg tablets
+bs86.	EDOXABAN 60mg tablets
+bh63.	Doxazosin 4mg tablet
+c673.	Symbicort 400/12 Turbohaler
+bxe7.	Pravastatin sodium 40mg tablet
+bl5g.	Diltiazem HCl 240mg m/r cap
+bu51.	Clopidogrel 75mg tablet
+c1D6.	Seretide 250 Evohaler
+bu25.	Aspirin 75mg tablet
+bxd1.	Simvastatin 10mg tablet
+bi57.	Perindopril tert-butyl 8mg tab
+c6A1.	FOSTAIR 100mcg/6mcg inhaler
+c1D5.	Seretide 125 Evohaler
+blb2.	Amlodipine 10mg tablet
+bxa7.	Omacor 1g capsule
+c351.	INCRUSE ELLIPTA 55mcg/dose inh
+bxd5.	Simvastatin 40mg tablet
+bxd2.	Simvastatin 20mg tablet
+bi6D.	Ramipril 5mg tablet
+c6B2.	FLUTC FUR+VILANT 184/22mcg inh
+c1E8.	Easyhaler Salbut 200mcg inh
+bs6x.	RIVAROXABAN 20mg tablets
+c19z.	Salmeterol 25mcg CFC-free inh
+c51M.	SPIOLTO RESPIMT 2.5/2.5mcg inh
+bxi3.	Atorvastatin 40mg tablet
+bxkw.	Rosuvastatin 5mg tablet
+bk41.	Valsartan 40mg capsule
+c6B3.	RELVAR ELLIPTA 92mcg/22mcg inh
+c666.	Qvar 100 inhaler
+bxl1.	Ezetimibe 10mg tablet
+c333.	TIOTROPIUM 2.5mcg carts+device
+c665.	Qvar 50 inhaler
+c13o.	Salbutamol 5mg/2.5mL neb unit
+c1c2.	FLUTIFORM 125mcg/5mcg inhaler
+bk73.	Candesartan cilexetil 8mg tab
+d1hz.	MELATONIN 2mg m/r tablets
+c66c.	CLENIL MODULITE 50mcg inhaler
+c13T.	Ventolin 100mcg Evohaler
+c64c.	Pulmicort 100mcg turbo 200dose
+c6A3.	FOSTAIR 200mcg/6mcg inhaler
+c13v.	Salbutamol 100mcg inhaler
+c43f.	Uniphyllin Cont 200mg m/r tab
+bk74.	Candesartan cilexet 16mg tab
+d4s2.	Quetiapine 100mg tablet
+da52.	Sertraline 100mg tablet
+c31t.	Ipratrop br 20mcg CFC-free inh
+c66d.	CLENIL MODULITE 100mcg inhaler
+c84w.	Chlorphenir 2mg/5mL s/f syrup
+c13w.	Salbutam 2.5mg/2.5mL neb unit
+c66f.	CLENIL MODULITE 250mcg inhaler
+bs17.	Warfarin sodium 1mg tablet
+d4s3.	Quetiapine 200mg tablet
+da67.	PAROXETINE 10mg tablets
+c61t.	Beclometh dip 250mcg inhaler
+c8kx.	Alimemazine tartrate 10mg tab
+c8n1.	Cetirizine 10mg tablet
+c1A2.	Sodium chloride 0.9% neb unit
+d1d1.	Zopiclone 7.5mg tablet
+bs72.	APIXABAN 2.5mg tablets
+d711.	Amitriptyline HCl 10mg tablet
+da71.	Venlafaxine 37.5mg tablet
+c84w.	Chlorphena 2mg/5mL s/f syrup
+d28y.	Hydroxyzine HCl 25mg tablet
+c8p1.	Fexofenadine HCl 120mg tablet
+c31w.	Ipratropium 500mcg/2mL neb sol
+d4e4.	Promazine HCl 25mg tablet
+bxkx.	Rosuvastatin 10mg tablet
+da72.	Venlafaxine 75mg tablet
+da77.	Venlafaxine 75mg m/r capsule
+c8kx.	Trimeprazine tartrate 10mg tab
+d4ev.	Promazine HCl 25mg/5mL syrup
+d1d3.	Zopiclone 3.75mg tablet
+c6B1.	RELVAR ELLIPTA 184/22mcg inh
+d4jx.	Zuclopenthixol 2mg tablet
+c1Dw.	Salm+flut 25/250 CFC-free inh
+dB16.	MEMANTINE HCL 20mg tablets
+daC1.	Escitalopram 10mg tablet
+d2a1.	Lorazepam 1mg tablet
+d616.	Priadel 200mg m/r tablet
+d1f3.	Zolpidem tartrate 10mg tablet
+c841.	Chlorphenamine 4mg tablet
+d4sI.	SONDATE XL 200mg m/r tablets
+c61t.	Beclometa dip 250mcg inhaler
+dhed.	Prochlor mal 3mg buccal tablet
+dia6.	Co-dydramol 10mg/500mg tablet
+d75y.	Dothiepin HCl 25mg capsule
+d713.	Amitriptyline HCl 50mg tablet
+d75z.	Dothiepin HCl 75mg tablet
+c8o1.	Loratadine 10mg tablet
+d75z.	Dosulepin HCl 75mg tablet
+c6A2.	FOSTAIR NEXTHALER 100/6mcg inh
+di22.	Paracetamol 500mg sol tab
+djkr.	Oxycodone HCl 5mg/5mL s/f liq
+d7e5.	Trazodone HCl 150mg tablet
+d75y.	Dosulepin HCl 25mg capsule
+dh4y.	Cyclizine HCl 50mg tablet
+c8rz.	Desloratadine 5mg tablet
+da95.	Citalopram 40mg tablet
+c841.	Chlorpheniramine 4mg tablet
+di2q.	Paracetamol 500mg capsule
+dn35.	Tegretol 200mg tablet
+da61.	Paroxetine 20mg tablet
+da51.	Sertraline 50mg tablet
+dia7.	Paracet+dextropropoxy HCl tab
+cA1y.	Montelukast 4mg/sachet grans
+daB5.	Mirtazapine 15mg disp tab
+c8p3.	Fexofenadine HCl 180mg tablet
+djzj.	Zomorph 10mg m/r capsule
+dn39.	Tegretol Retard 400mg m/r tab
+da7q.	VENLAFAXINE 37.5mg m/r tablets
+da7Q.	VENSIR XL 150mg m/r capsules
+dibB.	Co-codamol 30/500mg eff tablet
+ce31.	Carbocisteine 375mg capsule
+daB7.	Mirtazapine 45mg disp tab
+cA11.	Montelukast 10mg tablet
+dnb7.	Sodium valproate 200mg e/c tab
+dnk7.	Topiramate 25mg tablet
+da7w.	VENLAFAXINE 225mg m/r capsules
+da91.	Citalopram 20mg tablet
+dj1l.	Oramorph 10mg/5mL liquid 100mL
+d214.	Diazepam 5mg tablet
+daC3.	Escitalopram 20mg tablet
+d1h1.	CIRCADIN 2mg m/r tablets
+dnbe.	Epilim Chrono 500 m/r tablet
+dnov.	Levetiractam 100mg/mL s/f soln
+daB1.	Mirtazapine 30mg tablet
+daBy.	Mirtazapine 45mg tablet
+dj1L.	Morphine sulph 10mg/5mL soln
+d4fz.	Sulpiride 200mg tablet
+daE2.	VORTIOXETINE 5mg tablets
+d213.	Diazepam 2mg tablet
+dnbK.	SODUM VALPROATE 300mg m/r caps
+dnpx.	Pregabalin 75mg capsule
+dh13.	Betahistine HCl 16mg tablet
+di21.	Paracetamol 500mg tablet
+dj3a.	Transtec 52.5mcg/hour patch
+d4s1.	Quetiapine 25mg tablet
+dB11.	Memantine HCl 10mg tablet
+d4rz.	Olanzapine 10mg disp tab
+dnj1.	Gabapentin 100mg capsule
+dw1y.	Methylphenidate HCl 5mg tab
+dher.	Prochlor mal 5mg tablet
+dibt.	Tylex capsule
+dj81.	Dihydrocodeine 30mg tablet
+d712.	Amitriptyline HCl 25mg tablet
+dB12.	Memantine HCl 10mg/g oral dps
+d615.	Priadel 400mg m/r tablet
+dnj2.	Gabapentin 300mg capsule
+e155.	Phenoxymethylpen 125mg/5mL liq
+di9y.	Nefopam HCl 30mg tablet
+dj41.	Codeine phosphate 15mg tablet
+djk8.	OxyNorm 5mg/5mL liquid
+d7ex.	Trazodone HCl 50mg capsule
+dheB.	Buccastem M 3mg buccal tablet
+di2n.	Paracetamol 120mg/5mL susp
+dnoz.	Levetiracetam 250mg tablet
+e31v.	Co-amoxiclav 125mg/5mL susp
+dibB.	Paracet+cod 500mg/30mg eff tab
+djAf.	MAROL 100mg m/r tablets
+dm1z.	Clonidine HCl 25mcg tablet
+da41.	Fluoxetine 20mg capsule
+dia2.	Paracet+codeine 500mg/8mg tab
+dia2.	Co-codamol 8mg/500mg tablet
+dnpw.	Pregabalin 150mg capsule
+e3zk.	Amoxicillin 125mg/5mL s/f susp
+dibD.	Co-codamol 30mg/500mg capsule
+djiv.	TRAMADOL HCL 50mg m/r tablets
+dq3A.	Half-Sinemet CR m/r tablet
+da93.	Citalopram 10mg tablet
+dia6.	Paracet+dihydroco 500/10mg tab
+dian.	Co-codamol 30mg/500mg tablet
+dnpz.	Pregabalin 25mg capsule
+e782.	Oxytetracycl dihyd 250mg tab
+dibD.	Paracet+codeine 500mg/30mg cap
+dl5A.	Sumatriptan 50mg tablet
+dqEx.	Pramipexole 0.088mg tablet
+daBz.	Mirtazapine 15mg tablet
+dia7.	Co-proxamol 32.5mg/325mg tab
+dibz.	Solpadol Caplet
+du8y.	VARENICLINE 500microgram tabs
+eh81.	Fluconazole 50mg capsule
+dic3.	Zapain Caplet
+dnbd.	Epilim Chrono 300 m/r tablet
+dqGu.	ROTIGOTINE 1mg/24hours patches
+dh1z.	Betahistine HCl 8mg tablet
+dic4.	Zapain capsule
+dj88.	Dihydrocodeine 60mg m/r tablet
+dw16.	Equasym XL 20mg m/r capsule
+ej76.	Quinine sulphate 300mg tablet
+djAh.	MAROL 200mg m/r tablets
+dnf5.	Lamotrigine 25mg tablet
+dr6y.	Procyclidine HCl 5mg tablet
+dh3z.	Cinnarizine 15mg tablet
+dj3o.	Buprenorphine 5mcg/hour patch
+dji2.	Tramadol HCl 50mg capsule
+dy3u.	Galantamine 16mg m/r capsule
+f41u.	METFORMIN HCL 1000mg m/r tabs
+djiG.	Tramadol HCl 100mg m/r capsule
+dnow.	Levetiracetam 750mg tablet
+dy12.	Donepezil HCl 10mg tablet
+di2r.	Paracetamol 120mg/5mL s/f soln
+dj3p.	Buprenorphine 10mcg/hour patch
+dnpt.	Pregabalin 300mg capsule
+e15w.	Phenoxymethylpen 125mg/5mL s/f
+ff2n.	Evorel 75 patch
+dnbc.	Epilim Chrono 200 m/r tablet
+e692.	Cephalexin 500mg capsule
+e311.	Amoxycillin 250mg capsule
+di2s.	Paracetamol 120mg/5mL s/f susp
+dj3X.	BUTEC 10mcg/hour patches
+dq22.	Madopar 125 capsule
+e923.	Clarithromycin 125mg/5mL susp
+fh1H.	Elleste Duet 2mg tablet
+dnjy.	Gabapentin 600mg tablet
+eiM4.	ZYCLARA 3.75% cream 250mg sach
+e31t.	Co-amoxiclav 250mg/125mg tab
+di2u.	Paracetamol 250mg/5mL s/f susp
+dn9z.	Phenytoin sodium 100mg capsule
+du8x.	VARENICLINE 500mcg+1mg tablets
+ec13.	Co-trimoxazole 960mg tablet
+ftk6.	ALOGLIPTIN 25mg tablets
+dnox.	Levetiracetam 1g tablet
+ff2N.	Elleste-Solo 1mg tablet
+e758.	Doxycycline 100mg capsule
+dian.	Paracet+codeine 500mg/30mg tab
+dnp7.	Lyrica 300mg capsule
+dw1r.	METHYLPHENIDATE 27mg m/r tabs
+eg1y.	Nitrofurantoin 50mg capsule
+g83E.	LEVEST tablets
+dnpu.	Pregabalin 200mg capsule
+fg53.	Utovlan 5mg tablet
+ej75.	Quinine sulphate 200mg tablet
+diaU.	Paracet+codeine 500mg/15mg tab
+dnpy.	Pregabalin 50mg capsule
+dw2w.	Atomoxetine 40mg capsule
+f35x.	GLICLAZIDE 40mg tablets
+gdA8.	MARIOSEA XL 4mg m/r capsules
+dq3b.	Co-careldop 25mg/100mg m/r tab
+ftn2.	CANAGLIFLOZIN 100mg tablets
+f298.	LANTUS 100iu/mL p/f pen 3mL
+dj42.	Codeine phosphate 30mg tablet
+dqEx.	Pramipexole HCl 0.125mg tablet
+e15x.	Phenoxymethlypen 250mg/5mL s/f
+f41y.	Metformin HCl 500mg tablet
+gh52.	Sildenafil 50mg tablet
+e3zn.	Amoxycillin 250mg/5mL susp
+g429.	Clotrimazole 1% cream
+f41x.	Metformin HCl 500mg m/r tab
+djkN.	LONGTEC 20mg m/r tablets
+e311.	Amoxicillin 250mg capsule
+e312.	Amoxycillin 500mg capsule
+fl1u.	Desmopressin 120mcg wafer
+h323.	Efudix cream
+e76z.	Lymecycline 408mg capsule
+g834.	Microgynon 30 tablet
+f929.	LEVOTHYROXINE 100mcg/5mL soln
+dnax.	PRIMIDONE 50mg tablets
+e77x.	Minocycline 100mg capsule
+e3zn.	Amoxicillin 250mg/5mL susp
+ft8z.	SITAGLIPTIN 100mg tablets
+h324.	Fluorouracil 5% cream
+ei18.	Acyclovir 400mg tablet
+ga27.	Mirena 52mg i-u system
+fe62.	Prednisolone 5mg tablet
+dnby.	Sodium valp 200mg/5mL s/f liq
+ei18.	Aciclovir 400mg tablet
+e927.	Clarithromycin 500mg tablet
+g8A5.	LUCETTE tablets
+h8E3.	STELARA 45mg/0.5mL inj pfs
+f144.	NovoRapid FlexPen 100u/mL 3mL
+gc71.	Tamsulosin HCl 400mcg m/r cap
+fh1q.	Ethinyl+norel 600mcg/6mg patch
+dnf1.	Lamotrigine 50mg tablet
+eiM3.	IMIQUIMOD 3.75% cream
+f41B.	BOLAMYN SR 500mg m/r tablets
+ga36.	Depo-Provera 150mg/1mL syringe
+h8E4.	USTEKINUMAB 45mg/0.5mL inj pfs
+f2A2.	Levemir 100iu/mL p/f pen 3mL
+gc76.	Tabphyn MR 400mcg m/r capsule
+fth4.	DAPAGLIFLOZIN 10mg tablets
+dnf2.	Lamotrigine 100mg tablet
+f2B1.	TRESIBA FLEXTOUCH 100iu/mL pen
+f41J.	SUKKARTO SR 1000mg m/r tablets
+gddz.	Solifenacin succinate 5mg tab
+i11t.	Ferrous fumarate 210mg tablet
+f3A3.	Glimepiride 1mg tablet
+gda3.	Oxybutynin HCl 5mg tablet
+ga8A.	Desogestrel 75mcg tablet
+dnjz.	Gabapentin 800mg tablet
+f921.	Levothyroxine Na 25mcg tablet
+f923.	Thyroxine sodium 100mcg tablet
+ip16.	Alfacalcidol 250nanograms cap
+ip3f.	Calcichew D3 Forte tablet
+f921.	Thyroxine sodium 25mcg tablet
+gdh4.	MIRABEGRON 50mg m/r tablets
+gdex.	Duloxetine 30mg g/r capsule
+dw1n.	METHYLPHENIDATE 54mg m/r tabs
+f922.	Levothyroxine Na 50mcg tablet
+fa1z.	Carbimazole 5mg tablet
+ip29.	Calcitriol 3mcg/g ointment
+ip3w.	ACCRETE D3 tablets
+f922.	Thyroxine sodium 50mcg tablet
+h8E2.	USTEKINUMAB 45mg/0.5mL inj
+gh53.	Sildenafil 100mg tablet
+dw31.	ELVANSE 30mg capsules
+ff41.	Premarin 625micrograms tablet
+fe32.	Dexamethasone 2mg tablet
+ip3j.	Adcal-D3 1.5g/10mcg chew tab
+j612.	Allopurinol 300mg tablet
+fh1M.	Elleste Duet 1mg tablet
+he42.	Tamoxifen 20mg tablet
+h32E.	FLUOROURAC+SALICYLIC 5/100mg/g
+e222.	Flucloxacillin 500mg capsule
+fg51.	Norethisterone 5mg tablet
+ff2z.	Oestradiol 2mg tablet
+j28Y.	Ibuprofen 100mg/5mL s/f susp
+ja1F.	Voltarol Emulgel gel 20g
+fh1O.	Evorel Conti patch
+heE1.	Letrozole 2.5mg tablet
+h71x.	Azathioprine 50mg tablet
+e312.	Amoxicillin 500mg capsule
+fg6t.	PROGESTERONE 100mg capsules
+fi65.	AINDEEM 1mg tablets
+j82z.	Baclofen 5mg/5mL s/f liquid
+k3g1.	Fusidic acid 1% m/r eye drops
+fi64.	Propecia 1mg tablet
+j282.	Ibuprofen 400mg tablet
+i332.	Folic acid 5mg tablet
+e3zk.	Amoxycillin 125mg/5mL s/f susp
+fi63.	Finasteride 1mg tablet
+fo44.	Fosamax Once Weekly 70mg tab
+ja1Y.	Diclofenac sodium 1% gel
+k8o3.	BIMATOPROST 0.1mg/mL eye drops
+fl18.	Desmopressin acetat 200mcg tab
+j2c1.	Naproxen 250mg tablet
+iddP.	NUTILIS CLEAR powder 175g
+e692.	Cefalexin 500mg capsule
+fl1t.	DESMOPRESSIN 240mcg wafer
+ft5x.	Pioglitazone 45mg tablet
+k65z.	Fluorometholone 0.1% eye drops
+ka33.	XAILIN NIGHT eye ointment 5g
+ftf2.	LINAGLIPTIN 5mg tablets
+ja2S.	Capsaicin 0.025% cream
+if12.	Ketovite liquid 100mL
+eg1w.	Nitrofurantoin 100mg m/r cap
+fo4y.	Alendronic acid 70mg tablet
+ftdz.	SAXAGLIPTIN 5mg tablets
+k8r1.	BIMATPRST 0.03%/TIMOL 0.5% e/d
+l12z.	Acetic acid 2% ear spray
+fth2.	FORXIGA 10mg tablets
+k8h1.	Dorzolamide 2% ophthalmic soln
+ip3R.	COLECALCIFEROL 20000iu caps
+eiM1.	Imiquimod 5% cream
+ftl2.	ALOGLP+METFORM 12.5/1000mg tab
+g83G.	RIGEVIDON tablets
+kb8R.	HYLO-CARE 0.1%/2% e/d 10mL
+l864.	Rinatec 0.03% aq nasal spray
+gh83.	Vardenafil 20mg tablet
+k8i1.	Latanoprost 0.005% eye drops
+ip3s.	CALCICHW D3 1.25g/400iu caplet
+f143.	NovoRapid Penfill 100u/mL 3mL
+fw22.	NovoMix 30 FlexPen pen 3mL
+g892.	Ethinyl+norgest 35/250mcg tab
+l8Dz.	Mometasone 0.05% nasal spray
+le2g.	CEPTON MED 1% skin wash 150mL
+i111.	Fersaday 322mg tablet
+k8lz.	Brinzolamide 10mg/mL eye drops
+j28Y.	Ibuprofen 100mg/5mL s/f syrup
+f29C.	ABASAGLAR KWIKPEN 100iu/mL 3mL
+g892.	Ethinyl+norges 35/250mcg tab
+gddy.	Solifenacin 7.5mg tablet
+lb13.	Difflam Sore Throat rnse 200mL
+m113.	Cetomacrogol Formula A crm BP
+ip3h.	Cacit D3 granules
+ka2y.	Hypromellose 0.5% eye drops
+j2c2.	Naproxen 500mg tablet
+f3A1.	Glimepiride 2mg tablet
+gdA1.	Tolterodine L-tart 1mg tablet
+gdew.	Duloxetine 60mg g/r capsule
+m115.	Diprobase cream 50g
+m21L.	Cetraben cream 125g
+j29A.	Indomethacin 75mg m/r tablet
+ka8z.	Carbomer-980 0.2% liq eye gel
+j2pW.	IBUPROFEN 400mg capsules
+f41A.	GLUCOPHAGE SR 1000mg m/r tabs
+i111.	Fersaday 304mg tablet
+h32D.	ACTIKERALL 5/100mg/g soln 25mL
+m21A.	E45 lotion
+m24w.	UREA 5% cream
+j2b1.	Mefenamic acid 250mg capsule
+l36w.	Betamethasone+neomycin drops
+j85y.	Methocarbamol 750mg tablet
+f923.	Levothyroxine Na 100mcg tablet
+i151.	Ferrous sulphate 200mg tablet
+i119.	Ferrous fumarate 322mg tablet
+m21q.	Aveeno cream 100mL
+m24y.	Urea 10% lotion
+j436.	Depo-Med+Lido 40/10mg/1mL inj
+l887.	FLUTICASONE 27.5mcg nasal spry
+ja18.	Algesal cream
+ff2z.	Estradiol 2mg tablet
+i312.	Hydroxocobalamin 1mg/1mL inj
+ip3e.	Calc+colecalc 1.25g/10mcg tab
+m25g.	Diprobath Emollient 500mL
+m25N.	DOUBLEBSE EMLLNT shwr gel 200g
+ja2M.	Fenbid 5% gel 30g
+m112.	Buffered cream BP
+ja1u.	Felbinac 3% gel
+fh1S.	Kliovance 1mg/0.5mg tablet
+i321.	Cyanocobalamin 1mg/1mL inj
+j29A.	Indometacin 75mg m/r tablet
+m277.	Dermol cream 100g
+m25P.	QV wash lotion 200mL
+k321.	Chloramphenicol 0.5% eye drops
+m114.	Cetomacrogol Formula B crm BP
+ja2h.	Ibuleve Max Strength gel 50g
+ft9y.	EXENATIDE 10mcg/0.04mL inj pen
+i962.	Water for injections inj 2mL
+j2n2.	Meloxicam 7.5mg tablet
+m28k.	DOUBLEBASE DAYLEVE gel 100g
+m25Q.	DOUBLEBASE EMOL bath add 500mL
+k8fy.	Timolol 0.25% eye drops
+m128.	Paraffin yellow soft BP
+ja2X.	Fenbid Forte 10% gel 100g
+g891.	Cilest tablet
+idmp.	Glutafin GF pasta spirals 500g
+ja1U.	Ibuprofen 5% gel
+m417.	Hydrocortisone 0.5% cream 15g
+m272.	Dermol 500 lotion
+k8i3.	MONOPOST 50mcg/mL e/dps 0.2mL
+m128.	Yellow soft paraffin
+k8sz.	BRINZOLAMD 1%/TIMOLOL 0.5% e/d
+ga27.	Mirena 20mcg/24hrs i-u system
+ip3i.	Ca+cholecalcif 1.5g/10mcg tab
+ja1y.	Piroxicam 0.5% gel
+m454.	Daktacort cream 30g
+m28b.	EPADERM cream 500g
+ka92.	CELLUVISC 0.5% s-d eye drops
+m215.	Zinc+castor oil ointment BP
+kb8P.	HYLO-TEAR 0.1% eye drops 10mL
+gdAA.	NEDITOL XL 4mg m/r capsules
+j54z.	Hydroxychloroq sulph 200mg tab
+ja2z.	Ibuprofen 10% gel
+m48G.	AUDAVATE RD 0.025% oint 100g
+m312.	Calamine 4% aqueous cream BP
+m11a.	Diprobase dispenser cream 500g
+m21D.	Dermamist spray
+kb8Q.	HYLO-FORTE 0.2% eye drops 10mL
+gddy.	Solifenacin succinate 10mg tab
+j611.	Allopurinol 100mg tablet
+k69y.	Sodium cromoglicate 2% e/d
+m49r.	BETAMTH+NEOMYCN 0.1%/0.5% oint
+m348.	Anthisan Plus Sting Relief spr
+m128.	Soft yellow paraffin
+m21z.	Epaderm ointment 500g
+l8B1.	Triamcinol acetonid 55mcg spry
+gddz.	Solifenacin 3.8mg tablet
+ja3C.	VOLTAROL 12 HOUR EMULGEL P 30g
+ka9B.	XAILIN FRSH 0.5% s-d e/d 0.4mL
+m4gz.	Fluocinolone acet 0.025% crm
+m351.	Doxepin hydrochloride 5% cream
+m12b.	Wool alcohols ointment BP
+m24Z.	FLEXITOL HEEL BALM 40g
+l8B2.	Nasacort 55mcg aq nasal spray
+gde3.	Cymbalta 30mg g/r capsule
+ja3E.	DICLOFENAC SODIUM 2% gel
+l81z.	Beclometh 50mcg aq nasl spray
+m4j2.	Haelan 0.0125% ointment 60g
+m421.	Hydrocortisone 0.5% oint 15g
+m151.	Zinc compound paste BP
+m25j.	Oilatum Emollient 250mL
+l8D1.	Nasonex 0.05% aqu nasal spray
+h341.	Methotrexate 2.5mg tablet
+k32w.	Chloramphenicol 1% eye oint
+m111.	Aqueous cream BP
+m4kz.	Halcinonide 0.1% cream
+m422.	Hydrocortisone 1% ointment 15g
+m213.	Zinc 32% cream BP
+m25z.	Aveeno Colloidal add 50g sach
+le2d.	CHLORHEXDNE GLUCON 0.1% lotion
+h82A.	Neoral 25mg capsule
+k8i2.	Xalatan 0.005% eye drops 2.5mL
+m124.	Hydrous wool fat BP
+m4q5.	Mometasone 0.1% lotion 30mL
+m45k.	Nystaform-HC 0.5% cream 30g
+m214.	Zinc 15% ointment BP
+m279.	DERMOL WASH emulsion 200mL
+le2f.	CHLORHEX GLUCON 1% wash lotion
+h8E1.	STELARA 45mg/0.5mL inj
+k8j4.	MIRVASO gel
+m127.	Paraffin white soft BP
+m518.	Carbo-Dome 10% cream 30g
+m45Z.	Hydrocort+clotrimaz 1%/1% crm
+m271.	Oilatum Plus bath emollient
+m288.	DOUBLEBASE EMOLLIENT gel 200g
+m128.	YSP - Yellow soft paraffin
+in44.	Thiamine HCl 50mg tablet
+k8k4.	DORZOL+TIMOL 2%/0.5% s-d drops
+m127.	White petroleum jelly
+m572.	Lassar's paste
+m482.	Betnovate 0.1% cream 30g
+m313.	Calamine lotion BP
+m342.	Anthisan cream 25g
+m21R.	E45 cream 500g pump
+ip3e.	Calc+cholecalc 1.25g/10mcg tab
+l8E1.	DYMISTA 137mcg/50mcg nsl spray
+m127.	WSP - White soft paraffin
+m581.	Gamolenic acid 40mg capsule
+m485.	Betnovate 0.1% ointment 30g
+m322.	Eurax 10% cream 30g
+m41m.	Mildison Lipocream 1% crm 30g
+m226.	Metanium ointment 25g
+ip3e.	Calc+cholecalc 1.25g/400iu tab
+le2h.	CHLORHEXIDINE GLUCON 0.5% gel
+m12k.	Liq paraffin+WSP 50%/50% oint
+m59J.	XAMIOL gel 60g
+m489.	Betnovate 0.1% appl 100mL
+m412.	Hydrocortisone 1% cream 30g
+m45s.	Timodine cream 30g
+m22D.	Gamolenic acid 20% cream
+ip3i.	Ca+colecalcif 1.5g/10mcg tab
+le2i.	CEPTON MEDICATED 0.5% gel 30g
+m215.	Zinc+castor oil cream BP
+m5A3.	Neotigason 25mg capsule
+m48o.	Betamethasone 0.1% scalp appn
+m453.	Canesten-HC cream 30g
+m45V.	Hydrocort+fusidic 1%/2% cream
+m238.	Sudocrem cream 125g
+ip3z.	COLECALCIFEROL 800iu capsules
+m122.	Ung emuls
+m221.	Kamillosan ointment 24g
+m5A4.	Acitretin 25mg capsule
+m4e1.	Nerisone 0.1% cream 30g
+m463.	Modrasone 0.05% ointment 15g
+m461.	Modrasone 0.05% cream 15g
+m23V.	ZERODOUBLE gel 100g
+j2n3.	Meloxicam 15mg tablet
+m123.	Hydrous ointment BP
+m418.	Hydrocortisone 0.5% cream 30g
+m5C1.	Tazarotene 0.05% aqueous gel
+m4e5.	Nerisone Forte 0.3% oint 15g
+m46z.	Alclometasone dip 0.05% oint
+m471.	Propaderm 0.025% cream 15g
+m248.	Urea 10% cream
+j82y.	Baclofen 10mg tablet
+m21x.	Emulsiderm lotion 300mL
+m45W.	Hydrocort+econazole 1%/1% crm
+m64z.	Tetracycline HCl 2.2mg/mL soln
+m4ew.	Diflucortolone val 0.1% oint
+m47z.	Beclometh dip 0.025% oint
+m47y.	Beclometh dip 0.025% cream
+m24A.	Urea+lauromacrogols 5%/3% crm
+k69y.	Sodium cromoglycate 2% e/d
+m24P.	DERMATONICS HEEL BALM 75g
+m47z.	Beclomet dip 0.025% oint
+m655.	Tretinoin 0.025% cream
+m4g9.	Synalar 1:10 cream 50g
+m48b.	Betnovate RD 0.025% oint 100g
+m48B.	Betamethasone val 0.12% foam
+m24B.	Balneum Plus cream 100g
+k6l2.	Opatanol 1mg/mL eye drops 5mL
+m25A.	Aveeno bath oil 250mL
+m48A.	Betacap scalp application
+m675.	Erythromycin 2% top soln
+m4j1.	Haelan 0.0125% cream 60g
+m48D.	BETESIL 2.25mg plasters
+m48r.	Betamethasone 0.1% ointment
+m314.	Calamine oily lotion
+k8k1.	Dorzolamide+timolol 2/0.5% e/d
+m25U.	OILATUM FRAG FREE SHW gel 150g
+m4ah.	ETRIVEX 500mcg/g shampoo 125mL
+m68E.	DUAC ONCE DAILY 3%/1% gel 30g
+m4jx.	Flurandrenolone 0.0125% oint
+m48m.	Betamethasone 0.025% cream
+m4bz.	Clobetasone butyr 0.05% oint
+m32y.	Crotamiton 10% lotion
+ka2v.	Hypromellose 0.3% eye drops
+m32z.	Crotamiton 10% cream
+m4aj.	CLOBADERM 0.05% cream 100g
+m6zo.	Benzoyl peroxide 5% lotion
+m4k1.	Halciderm Topical 0.1% crm 30g
+m48s.	Betamethasone 0.1% lotion
+m4g5.	Synalar 0.025% ointment 15g
+m487.	Betnovate 0.1% lotion 100mL
+ka32.	Lacri-Lube eye ointment 5g
+m339.	Emla cream 30g
+m4ev.	Diflucortol val 0.1% oily crm
+m6zp.	Benzoyl peroxide 5% cream
+m4l3.	Locoid 0.1% lipocream 30g
+m49f.	FUCIBET LIPID cream 30g
+m4h1.	Metosyn 0.05% cream 25g
+m48a.	Betnovate RD 0.025% cream 100g
+kb8t.	SODIUM HYALURON 0.2% s-d e/dps
+m411.	Hydrocortisone 1% cream 15g
+m4g4.	Synalar 0.025% gel 30g
+m831.	Veracur 0.75% gel 15g
+m511.	Calamine+coal tar ointment BP
+m49v.	Betameth+fusidic ac 0.1/2% crm
+m4h3.	Metosyn 0.05% ointment 25g
+m48q.	Betamethasone 0.1% cream
+l33z.	Clotrimazole 1% solution
+m41A.	Hydrocortisone 2.5% cream 15g
+m4gu.	Fluocinolone acet 0.025% oint
+mb1z.	Capasal shampoo 250mL
+m512.	Coal tar+salicyl acid oint BP
+m4al.	CLOBADERM 0.05% ointment 100g
+m4l2.	Locoid 0.1% cream 100g
+m4by.	Clobetasone butyrate 0.05% crm
+l812.	Beconase 50mcg aq nasal spry
+m42A.	Hydrocortisone 2.5% oint 15g
+m4i7.	Ultralanum Plain ointment 30g
+mb55.	DERMAX THERAPEUTIC 0.5% shmpoo
+m515.	Zinc+coal tar paste BP
+m4dz.	Desoximetasone 0.05% oily crm
+m53s.	Micanol 1% cream 50g
+m4gv.	Fluocinolone acet 0.00625% crm
+l81z.	Beclomet 50mcg aq nasl spray
+m45r.	Terra-cortril Nystatin crm 30g
+m4jw.	Fludroxycortide 0.0125% cream
+mc5z.	Mupirocin 2% ointment
+m53A.	Psorin scalp gel
+m4eu.	Diflucortolone val 0.1% cream
+m59P.	DOVOBET gel 60g+applicator
+m4jx.	Fludroxycortide 0.0125% oint
+l882.	Flixonase 50mcg nasal spry
+m46y.	Alclometasone dip 0.05% cream
+m4q6.	Mometasone 0.1% ointment 30g
+me21.	Whitfield's ointment
+m53t.	Micanol 3% cream 50g
+m4gi.	Synalar 1:4 ointment 50g
+m5F1.	Pimecrolimus 10mg/g cream
+m4l4.	Locoid 0.1% ointment 30g
+l886.	AVAMYS 27.5mcg nasal spray
+m484.	Betnovate 0.1% ointment 15g
+m4r5.	Fluticasone prop 0.005% oint
+med2.	Tinaderm cream
+m565.	Ichthaband 7.5cmx6m bandage
+m4hx.	Fluocinonide 0.05% cream
+m5zu.	Dithranol 0.25% cream
+m4lw.	Hydrocortisone but 0.1% crm
+lb12.	Difflam 0.15% spray
+m48E.	BETAMETHAS VAL 2.25mg plasters
+m5HY.	ALITRETINOIN 30mg capsules
+mejw.	Terbinafine HCl 1% solution
+m571.	Salicylic acid 2% ointment BP
+m4i5.	Ultralanum Plain cream 30g
+m652.	Retin-A Forte 0.025% gel 60g
+m51R.	Coal tar 40% bath emulsion
+m122.	Emulsifying ointment BP
+m48n.	Betamethasone 0.025% ointment
+m5z9.	Dithranol 3% cream
+mf11.	Zovirax 5% cream 2g
+m595.	Calcipotriol 50mcg/g cream
+m4r1.	Cutivate 0.05% cream
+m656.	Retin-A 0.01% gel 60g
+m598.	Dovonex 50mcg/g ointment
+m122.	Emulsifying soap
+m4dz.	Desoxymethasone 0.05% oily crm
+m687.	Clindamycin 1% gel
+mf1z.	Aciclovir 5% cream
+m59G.	Calcipot+beta 50/500mcg/g oint
+m4r2.	Fluticasone prop 0.05% crm
+m65x.	Tretinoin 0.05% cream
+m5A1.	Neotigason 10mg capsule
+m21x.	Emulsiderm emoll emuls 300mL
+m4e3.	Nerisone 0.1% ointment 30g
+m68H.	CLINDMYCN+TRETIN 1%/0.025% gel
+mg81.	Permethrin 1% scalp appn
+m59L.	DOVOBET gel 60g
+m572.	Zinc+salicylic acid paste BP
+m65y.	Tretinoin 0.025% gel
+m5G1.	PINE TAR 2.3% solution
+m22D.	Evening primrose oil 20% cream
+m4gw.	Fluocinolone acet 0.0025% crm
+m692.	Isotretinoin 0.05% gel 30g
+mh11.	Cetrimide 0.5% cream 50g
+m5G8.	PINETARSOL gel 100g
+m591.	Calcipotriol 50mcg/g oint
+m68F.	BENZOYL PEROX+CLIND 3%/1% gel
+m5G5.	PINETARSOL bath oil 200mL
+m22r.	Infaderm Therapeutic oil 250mL
+m4hy.	Fluocinonide 0.05% ointment
+m6A4.	FINACEA 15% gel 30g
+mh1y.	Povidone-iodine 10% ointment
+m5H2.	TOCTINO 30mg capsules
+m594.	Dovonex 50micrograms/g cream
+m6A3.	AZELAIC ACID 15% gel
+m5H1.	TOCTINO 10mg capsules
+m25S.	ZEROLATUM PLUS bath add 500mL
+m4j7.	HAELN 4mcg/sq cm 7.5x50cm tape
+m6Bz.	Salicylic acid 2% top soln
+mi5h.	Hibiscrub 4% solution 250mL
+m5zx.	Dithranol 0.1% cream
+m5B6.	TACALCITOL 4mcg/g lotion
+m6D6.	EPIDUO 0.1%/2.5% gel 45g
+m5z8.	Dithranol 2% cream
+m34z.	Mepyramine maleate 2% cream
+m4lt.	Hydrocortisone butyr 0.1% emul
+m6zn.	Benzoyl peroxide 2.5% gel
+mi6B.	Tisept 0.015/0.15% soln 100mL
+m62j.	PanOxyl 10% wash 150mL
+m5E2.	Tacrolimus monohydr 0.1% oint
+m6zm.	Benzoyl peroxide 4% cream
+m5zv.	Dithranol 0.5% cream
+m36C.	MENTHOL 5% in aqueous cream
+m4lz.	Hydrocortisone but 0.1% lotion
+m6zq.	Benzoyl peroxide 10% lotion
+mib2.	Hydrogen perox 6%(20vol) soln
+m62m.	Quinoderm 5% cream 50g
+m611.	Brasivol No.1 paste 75g
+m6zv.	Benzoyl peroxide 10% wash
+m654.	Retin-A 0.025% cream 60g
+m415.	Hydrocortisone 0.1% cream 30g
+m4q4.	Mometasone 0.1% cream 30g
+m81z.	Salicylic acid 50% ointment
+mv11.	SOOLANTRA 10mg/g cream 30g
+m676.	Erythro+Zn 40/12mg/mL top soln
+m657.	Retinova 0.05% cream
+m716.	CLAIRETTE 2000/35 tablets
+m6Dz.	Adapalene 0.1% cream
+m45X.	Hydrocort+miconazol 1%/2% oint
+m4r6.	Cutivate 0.005% ointment
+m923.	UVISTAT spf50 lipscreen 5g
+mv12.	IVERMECTIN 10mg/g cream
+m67B.	Erythromycin 4% topical gel
+m65w.	Tretinoin 0.01% gel
+m721.	Roaccutane 5mg capsule
+m819.	Occlusal 26% topical solution
+m45Y.	Hydrocort+miconazole 1%/2% crm
+m51m.	Polytar Emollient 350mL
+ma1k.	Veil finishing powder 35g
+o57u.	MIDAZOLM 2.5mg/0.5mL oral syrg
+m68G.	TRECLIN 1%/0.025% gel 30g
+m65z.	Tretinoin 0.025% lotion
+m72x.	ISOTRETINOIN 10mg capsules
+m81w.	Salicylic acid 26% top soln
+m47y.	Beclomet dip 0.025% cream
+m5B1.	Tacalcitol 4mcg/g ointment
+ma1z.	Covermark Classic No.10 foundn
+oazZ.	Lidocaine HCl 0.5% gel
+m6C3.	Nicam 4% topical gel
+m674.	Stiemycin solution
+m813.	Salicy acid collodion BP 12%
+m861.	Podophyllotoxin 0.5% solution
+m48F.	AUDAVATE RD 0.025% cream 100g
+m5C2.	Tazarotene 0.1% aqueous gel
+mb52.	Dandrazol 2% shampoo
+p1i1.	Gauze Type 13 10cmsq swab x100
+m6Dy.	ADAP 0.1% / BEN PEROX 2.5% gel
+m6D1.	Adapalene 0.1% topical gel
+m81F.	Compound W liquid
+m91A.	Spectraban 25 sunblock lotion
+m4ex.	Diflucortol val 0.3% oily crm
+m5zw.	Dithranol 1% cream
+mcA4.	RETAPAMULIN 1% ointment
+p5f5.	Quinaband 7.5cmx6m bandage
+m6zr.	Benzoyl peroxide 10% gel
+m714.	Diva 2000/35 tablet
+m83z.	Formaldehyde 0.75% gel
+m91B.	ROC Sante Soleil SPF25 crm
+m4ey.	Diflucortolone 0.3% ointment
+m683.	Clindamycin 1% roll-on lotion
+mea8.	Nystan 100000units/g oint 30g
+p5f8.	Zn oxide 20% oint impreg stckg
+m6zz.	Benzoyl peroxide 5% gel
+m72z.	Isotretinoin 20mg capsule
+m863.	Condyline 0.5% solution 3.5mL
+m91B.	ROC Total SPF25 c/less crm
+m4gt.	Fluocinolone acet 0.025% gel
+m684.	Clindamycin 1% alcoholic soln
+mec1.	Exelderm 1% cream 30g
+p8GR.	SpeediCath 28412 male catheter
+m712.	Dianette tablet
+m816.	Salactol 16.7% paint 10mL
+m864.	Warticon Fem 0.5% solution 3mL
+m91j.	Uvistat SPF30 cream 50g
+m4jv.	FLUDROXY 4mcg/sq cm 50cm tape
+m684.	Clindamycin 10mg/mL solution
+mee1.	Monphytol paint 18mL
+pA2K.	Mepitel 12cmx15cm dressing
+m723.	ROACCUTANE 10mg capsules
+m851.	Podophyllin compound 15% paint
+m866.	Warticon cream
+mb1v.	Ketoconazole 2% shampoo
+m4jw.	Flurandrenolone 0.0125% cream
+m68B.	Benz perox 5% / clindam 1% gel
+megA.	Metronidazole 0.75% cream
+pG2X.	Ultimate 15222 constrctr rings
+m817.	Verrugon 50% ointment 6g
+mb31.	Minoxidil 20mg/mL topical liq
+m924.	UVISTAT spf50 cream 125g
+md2w.	Fusidic acid 2% gel
+m4lb.	Locoid Crelo 0.1% emulsion
+m691.	Isotrex 0.05% gel 30g
+meh3.	Loceryl 0.25% cream 20g
+pu71.	Ketostix strips 50
+m852.	Posalfilin ointment 10g
+mc5y.	Mupirocin 2% cream
+ma1s.	Covermark Classic No.3 foundn
+me4y.	Clotrimazole 1% spray
+m4ly.	Hydrocortisone but 0.1% oint
+m722.	Roaccutane 20mg capsule
+meh6.	OMICUR 5% nail lacquer 2.5mL
+py43.	CATH-IT med-lge/908420 pack
+ma1v.	Covermark Classic No.6 foundn
+me71.	Miconazole 2% cream
+mb1l.	Polytar Plus liquid 150mL
+me7E.	DAKTARIN AKTIV pdr spray 100g
+m51g.	Psoriderm cream 225mL
+m72y.	Isotretinoin 5mg capsule
+mg12.	Ascabiol application 100mL
+me7x.	Miconazole 2% dusting powder
+mb1e.	Ionil T shampoo 200mL
+me7H.	DAKTARIN AKTIV cream 15g
+mb24.	Hedrin 4% scalp lotion
+mej3.	Terbinafine HCl 1% cream 15g
+m561.	Ichthammol 10% ointment BP
+ma1x.	Covermark Classic No.8 foundn
+mg84.	Lyclear 5% cream 30g
+mejx.	Terbinafine HCl 1% gel
+mb1F.	Polytar liquid 250mL
+meb1.	Phytex paint 25mL
+mc9z.	Silver sulfadiazine 1% cream
+mg54.	Prioderm 1% shampoo 40g
+m597.	Calcipotr. 50mcg/mL scalp soln
+mb33.	Minoxidil 50mg/mL topical liq
+mi5H.	CHLORAPREP ONE-STEP soln 26mL
+mh1V.	Benzalk Cl+cetr 0.01%/0.2% crm
+mb1H.	Meted shampoo 120mL
+megu.	Metronidazole 0.75% gel 30g
+mc9z.	Silver sulphadiazine 1% cream
+mi12.	Surgical spirit BP
+m5A2.	Acitretin 10mg capsule
+mc91.	Flamazine 1% cream 50g
+mi5I.	ECZMOL 1% cream 250mL
+micy.	Povidone-iodine alcoh 10% soln
+mb1K.	Povidone-iodine 4% shampoo
+meh4.	Amorolfine 0.25% cream
+me21.	Benzoic acid compound ointment
+ms11.	Liquefied phenol BP
+m5B5.	CURATODERM 4mcg/g lotion 30mL
+me45.	Canesten 1% powder 30g
+mi6v.	Steripod Yellow solution 20mL
+mt2z.	INGENOL MEBUTATE 150mcg/g gel
+mb1p.	Selsun 2.5% shampoo 50mL
+mejy.	Terbinafine HCL 1% spray
+me62.	Ketoconazole 2% cream
+p1iJ.	Non-wov fab sp28 10x10cm swab
+m5E1.	Tacrolimus monohydr 0.03% oint
+meay.	Nystatin 100000u/g ointment
+mr11.	Solvent ether BP
+ph7I.	CARESENS 0.36mm(28G) lancet
+mb25.	Dimeticone 4% scalp lotion
+mg75.	Phenothrin 0.5% liquid
+me7y.	Miconazole 0.16% powder spray
+megL.	ROSICED 0.75% cream 30g
+m5HZ.	ALITRETINOIN 10mg capsules
+mh1p.	Magnesium sulphate paste BP
+mt1z.	Diclofenac sodium 3% gel
+mej1.	Lamisil 1% cream 15g
+mb38.	REGAINE FOR MEN 5% soln 60mL
+mh1z.	Cetrimide 1% cream
+med5.	Tolnaftate 1% cream
+mek1.	Bifonazole 1% cream
+m653.	Retin-A 0.025% lotion 100mL
+micr.	Povidone-iodine 1.14% pdr spry
+mt21.	PICATO 150mcg/g gel 0.47g
+mf31.	Penciclovir 1% cream
+md22.	Fucidin 2% cream 30g
+micx.	Povidone-iodine antis 10% soln
+mee3.	Mycota powder 70g
+mg11.	Benzyl benzoate 25% applicatn
+m678.	Benzamycin topical gel
+ml1A.	DRICLOR 20% roll-on 75mL
+mt22.	PICATO 500mcg/g gel 0.47g
+mg7z.	Phenothrin 0.2% lotion
+md27.	Fucidin 2% ointment 15g
+oazZ.	Lignocaine HCl 0.5% gel
+mef1.	Tioconazole 28% solution 12mL
+mi6w.	Unisept solution 100mL
+m6C2.	Nicotinamide 4% topical gel
+p5fB.	Zinc paste 15% 7.5cmx6m bdg
+p17B.	Tegaderm 1624 6x7cm IV dressg
+micu.	Povidone-iodine 4% skin soln
+md2v.	Fusidic acid 2% cream
+sbz2.	HYDROFRAME WAFM33 flg extender
+mf21.	HERPID 5% application 5mL
+mo12.	Hirudoid cream
+m844.	Glutaraldehyde 10% solution
+slpC.	Nova 1 Urostomy 894-37 urobags
+p1LK.	MEDIHONEY barrier cream 50g
+p1f1.	Sofra-Tulle 10cmx10cm dressing
+md2z.	Sodium fusidate 2% ointment
+p1Ge.	3M Foam 10x11cm oval adh drssg
+mich.	Savlon Dry 1.14% spray 50mL
+p1wj.	Softpore 6cmx7cm dressing
+m865.	Podophyllotoxin 0.15% cream
+p432.	A&H Type 2 spacer device
+p5f7.	Steripaste 7.5cmx6m bandage
+p8N2.	Brillant Aqua 14Ch DA3101 cath
+mecz.	Sulconazole nitrate 1% cream
+ph8T.	BD MICRO-FINE+?4mm(32G) needle
+mid1.	Potassium permang 0.1% soln
+pur6.	GLUCORX NEXUS test strip
+mb1U.	Selenium sulphide 2.5% shampoo
+q6x3.	PROSYS PSU2 2L nght drain bags
+puhM.	Medisense Optium Pls electrode
+scXL.	SENSURA MIO CONVEX 16642 bags
+meg5.	Rozex 0.75% gel
+mo13.	Hirudoid gel
+mb23.	Salicylic acid 2% lotion
+q633.	SIMPLA PROFILE 2L/21578 bags
+meh5.	CURANAIL 5% lacquer 3mL
+p5f2.	Zincaband 7.5cmx6m bandage
+mb53.	Dandrazol Antidand 2% shampoo
+sksK.	NOVA 2 HIGH OUTPUT 1208-55 bag
+mf1z.	Acyclovir 5% cream
+p5f9.	Zipzoc 20% medicated stocking
+mc61.	Neomycin 0.5% cream BPC
+p8Wt.	HYDRO-KIT 12Ch 4201225 cath
+mg53.	Prioderm 0.5% lotion 55mL
+phCG.	TRICARE 4mm(32G) pen needle
+me4z.	Clotrimazole 1% dusting powder
+scxt.	Dansac Nova 1 825-15 ileobag
+mg73.	Full Marks 0.2% lotion 55mL
+meaw.	Nystatin 100000units/g cream
+mg83.	Permethrin 5% cream 30g
+meg3.	Metrogel 0.75% gel 40g
+mh1p.	Morison's paste
+megB.	Rozex 0.75% cream 30g
+mi5D.	CHLORAPREP ONESTEP soln 0.67mL
+megC.	Metronidazole 1% cream
+mi6y.	Savlon antiseptic cream
+meh1.	Amorolfine 5% nail lacquer
+mib3.	Hydrogen perox 3%(10vol) soln
+mej6.	Lamisil AT 1% spray
+mict.	Povidone-iodine 7.5% scrub
+mg5x.	Malathion 0.5% liquid
+mid2.	Permitab 400mg soln tab
+mg78.	Phenothrin 0.5% foam
+mn1B.	Hydrogen peroxide 1% cream
+mh13.	Proflavine cream BPC
+mt2y.	INGENOL MEBUTATE 500mcg/g gel
+mh1a.	Brulidine 0.15% cream 25g
+ph89.	NovoFine 6mm(31G) needle
+mh1B.	Drapolene cream
+ph93.	FASTCLIX 0.3mm(30guage) lancet
+mh1C.	Povidone-iodine 5% cream
+ph9i.	CARESENS 0.31mm(30G) lancet
+mi5J.	CHLORHEXIDINE GLUCONATE 1% crm
+ps72.	Tubifast Blue Line 7.5cmx1m
+mia2.	Ster-Zac powder 30g
+micw.	Povidone-iodine 2.5% pdr spray
+micz.	Povidone-iodine 10% paint
+ml19.	Anhydrol Forte 20% 60mL
+o57z.	Midazolam 10mg/2mL injection
+p5f6.	Calaband 7.5cmx6m bandage
+ph8a.	MYLIFE CLICKFINE 8mm(29G) ndle
+purO.	TEE2 blood glucose test strip
+s9l1.	DEO-MINT 130770 deodorant 50mL

@@ -58,7 +58,7 @@ FROM #PatientsToInclude;
 -- If patients have a tenancy id of 2 we take this as their most likely GP practice
 -- as this is the GP data feed and so most likely to be up to date
 IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
 AND GPPracticeCode IS NOT NULL
@@ -76,7 +76,7 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If every GPPracticeCode is the same for all their linked patient ids then we use that
 INSERT INTO #PatientPractice
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 AND GPPracticeCode IS NOT NULL
 GROUP BY FK_Patient_Link_ID
@@ -95,9 +95,9 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If there is a unique most recent gp practice then we use that
 INSERT INTO #PatientPractice
-SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM SharedCare.Patient p
 INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM SharedCare.Patient
 	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
@@ -199,7 +199,7 @@ INTO #AdmissionTypes FROM (
 			END
 		)	AS AdmissionId,
 		t.TenancyName AS AcuteProvider
-	FROM RLS.vw_Acute_Inpatients i
+	FROM SharedCare.Acute_Inpatients i
 	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 	WHERE EventType = 'Admission'
 	AND AdmissionDate >= @StartDate

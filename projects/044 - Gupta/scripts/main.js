@@ -1,4 +1,10 @@
+// This file contains the logic for extracting data when an RDE
+// is ready to generate the data for a study. When the SQL is compiled
+// this file is copied to the "scripts" directory of the project. In
+// this way we can update a single js file (this one) rather than having
+// a separate file in each project directory
 const fs = require('fs');
+const readline = require('readline');
 const mssql = require('mssql');
 const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
@@ -6,7 +12,6 @@ const inquirer = require('inquirer');
 const { join } = require('path');
 const puppeteer = require('puppeteer');
 require('clear')();
-const { version } = require('./package.json');
 
 const PROJECT_DIR = join(__dirname, '..');
 const EXTRACTION_DIR = join(PROJECT_DIR, 'extraction-sql');
@@ -464,7 +469,7 @@ async function getPatientPseudoIds() {
   return new Promise((resolve) => {
     const request = new mssql.Request();
     request.stream = true;
-    request.query('SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;');
+    request.query('SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link;');
 
     request.on('row', (row) => {
       // Emitted for each row in a recordset
@@ -477,19 +482,29 @@ async function getPatientPseudoIds() {
 ${err}`);
     });
 
-    request.on('done', () => {
+    request.on('done', async () => {
       // Always emitted as the last one
       if (!store.shouldOverwrite) {
         log('Loading the existing mapping file...');
         let maxPseudoId = 0;
-        fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
-          .split('\n')
-          .forEach((x) => {
-            if (x.trim().length < 2) return;
-            const [fkid, pseudoId] = x.split(',');
+
+        const fileStream = fs.createReadStream(PSEUDO_ID_FILE);
+
+        const rl = readline.createInterface({
+          input: fileStream,
+          crlfDelay: Infinity, // treat \r\n as single line break
+        });
+
+        // Process one line at a time rather than reading entire file
+        // in one go as that was causing out of memory exceptions
+        for await (const line of rl) {
+          if (line.trim().length >= 2) {
+            const [fkid, pseudoId] = line.split(',');
             store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
             maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
-          });
+          }
+        }
+
         log(`There are ${Object.keys(store.pseudoLookup).length} patient ids in the mapping file.`);
         const newPatientIds = patientIds.filter((patientId) => !store.pseudoLookup[patientId]);
         log(`There are ${newPatientIds.length} new patient ids from the database.`);
@@ -563,47 +578,11 @@ Please close any files and try again.`)
 }
 
 function writeReadme() {
-  fs.writeFileSync(
-    join(OUTPUT_DIR, '_README_FIRST.txt'),
-    `* NB. All analysis files should be stored in this shared drive. Although it is possible to store files elsewhere on this machine e.g. the C:\\ and D:\\ drives, these locations are not guaranteed to persist, and you could lose your files.
-
-* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
-
-* Data that you have processed through your scripts goes in the data/processed folder.
-
-* In some situations (see the RStudio issue below) it may be necessary to copy data elsewhere in the VDE. In these situations the data may only be copied to the "Documents" folder. All other locations are potentially visibile to analysts not working on this project.
-
-* Code goes in the 'code' folder.
-
-* ***For any summary data or figures that you wish to export you MUST conform to the following:
-
-  1. Files for export should first be placed in the output/check folder.
-  2. They should then be checked by another analyst for disclosure control risk. 
-  3. Once approved by another analyst they should then be placed in the output/approved folder. 
-  4. When files are exported from the VDE they should be placed in a subdirectory of output/export with a datestamp prior to copying off the machine.
-
-E.g. the folder structure will look as follows:
-
-output
-  |- export
-      |- 2021-05-12
-      |   |- file1.png
-      |   |- file2.png
-      |   |- file3.txt
-      |- 2021-06-30
-      |   |- fileA.png
-      |   |- fileB.csv
-
-Files should not be deleted from the 'output/export' folder***
-
-* Anything else (e.g. documentation that is not code) goes in the 'doc' folder.
-
-* NB. There are known issues with using RStudio on a network shared drive. If you experience slow performance please read the documentation here: https://drive.google.com/file/d/1nRuhT-FJ-Sioh0ntknktPN3kYQCc-5px/view?usp=sharing
-
-* ***NB. All studies must submit results and outputs for review by ERG and RGG prior to submission for publication, and for non-academic outputs, such as social media outputs, prior to publication.***
-
-v${version}`
+  const readMeContents = fs.readFileSync(
+    join(PROJECT_DIR, 'scripts', 'analyst-guidance.md'),
+    'utf8'
   );
+  fs.writeFileSync(join(OUTPUT_DIR, '_README_FIRST.txt'), readMeContents);
 }
 
 /**

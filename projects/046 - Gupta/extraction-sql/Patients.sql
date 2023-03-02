@@ -492,7 +492,7 @@ where (DeathWithin28Days = 'Y'
 	) and DeathDate <= DATEADD(dd,28, EventDate)
 --2414
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+-- TABLE OF GP EVENTS FOR COHORT TO SPEED UP SEVERAL REUSABLE QUERIES
 
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
@@ -503,9 +503,42 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
 	AND EventDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP VACCINATION QUERY
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
+AND MedicationDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+
 
 --┌─────────────────────┐
 --│ Patients with COVID │
@@ -552,32 +585,18 @@ CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -591,30 +610,17 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM #PatientEventData
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
@@ -715,7 +721,7 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #AllPatientBMI
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=2) 
 	AND EventDate <= @IndexDate
@@ -728,7 +734,7 @@ SELECT
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID,
 	[Value]
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=2)
 	AND EventDate <= @IndexDate
@@ -1333,7 +1339,7 @@ AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )

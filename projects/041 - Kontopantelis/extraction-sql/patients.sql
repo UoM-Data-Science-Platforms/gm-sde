@@ -584,7 +584,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -1059,7 +1059,7 @@ SELECT * FROM #PatientGPHistoryJustOneEntry;
 -- If patients have a tenancy id of 2 we take this as their most likely GP practice
 -- as this is the GP data feed and so most likely to be up to date
 IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
 AND GPPracticeCode IS NOT NULL
@@ -1077,7 +1077,7 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If every GPPracticeCode is the same for all their linked patient ids then we use that
 INSERT INTO #PatientPractice
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 AND GPPracticeCode IS NOT NULL
 GROUP BY FK_Patient_Link_ID
@@ -1096,9 +1096,9 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If there is a unique most recent gp practice then we use that
 INSERT INTO #PatientPractice
-SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM SharedCare.Patient p
 INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM SharedCare.Patient
 	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
@@ -1318,15 +1318,26 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 -- Get patient list of those with COVID death within 28 days of positive test
 -- 15.11.22: updated to deal with '28 days' flag over-reporting
 
+-- IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+-- SELECT DISTINCT FK_Patient_Link_ID 
+-- INTO #COVIDDeath FROM RLS.vw_COVID19
+-- WHERE DeathWithin28Days = 'Y'
+-- AND EventDate <= @EndDate
+-- AND (
+--   (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+--   (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+-- );
+
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-AND EventDate <= @EndDate
-AND (
-  (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-  (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-);
+INTO #COVIDDeath FROM SharedCare.COVID19
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+AND DATEDIFF(day,EventDate,DeathDate) <= 28
+AND EventDate < '2022-06-01';
 
 
 --┌─────┐
@@ -1442,7 +1453,7 @@ SELECT
 		ELSE 10
 	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
 INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND IMD_Score IS NOT NULL
 AND IMD_Score != -1;
@@ -1527,7 +1538,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
@@ -1612,7 +1623,7 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #AllPatientBMI
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=2) 
 	AND EventDate <= @IndexDate
@@ -1625,7 +1636,7 @@ SELECT
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID,
 	[Value]
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=2)
 	AND EventDate <= @IndexDate
@@ -1988,32 +1999,18 @@ CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [SharedCare].[COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '2020-01-01'
-		--AND EventDate <= GETDATE();
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -2027,30 +2024,17 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND EventDate <= @TEMPWithCovidEndDate
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM #PatientEventData
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate <= @TEMPWithCovidEndDate;
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM #PatientEventData
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
