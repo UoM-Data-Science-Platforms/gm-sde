@@ -2070,7 +2070,7 @@ AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
