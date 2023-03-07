@@ -125,6 +125,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
+<li>Find the first diagnosis of a particular disease</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Frailty score</li>
@@ -137,6 +138,23 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Patients with COVID</li>
 </ul>
 <p>Further details for each query can be found below.</p>
+<h3>Find the first diagnosis of a particular disease</h3>
+<p>To find the first diagnosis for a particular disease for every patient.</p>
+<p><em>Input</em></p>
+<pre><code>A variable:
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - temp-table-name: string - the name of the temp table that this will produce
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Temp tables as follows:
+ #Patients - list of patient ids of the cohort
+</code></pre>
+<p><em>File</em>: <code>query-get-first-diagnosis.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-first-diagnosis.sql">https://github.com/rw251/.../query-get-first-diagnosis.sql</a></p>
+<hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
 <p><em>Input</em></p>
@@ -351,7 +369,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -436,6 +454,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>copd v1</li>
 <li>asthma v1</li>
 <li>hypertension v1</li>
+<li>dementia v1</li>
 <li>amitriptyline v1</li>
 <li>buspirone v1</li>
 <li>clomipramine v1</li>
@@ -1651,7 +1670,7 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2">https://github.com/rw251/.../patient/bmi/2</a></p>
 <h3>HbA1c</h3>
-<p>A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>1003671000000109 - Haemoglobin A1c level</code>). It does not include codes that indicate a patient's BMI (<code>165679005 - Haemoglobin A1c (HbA1c) less than 7%</code>) without giving the actual value.</p>
+<p>A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>1003671000000109 - Haemoglobin A1c level</code>). It does not include codes that indicate a patient's HbA1c (<code>165679005 - Haemoglobin A1c (HbA1c) less than 7%</code>) without giving the actual value.</p>
 <p><strong>NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.</strong></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>44.93% - 50.88%</code> suggests that this code set is likely well defined.</p>
@@ -2804,6 +2823,46 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1">https://github.com/rw251/.../conditions/hypertension/1</a></p>
+<h3>Dementia</h3>
+<p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
+<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.67% - 0.81%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-20</td>
+<td>EMIS</td>
+<td>2438146</td>
+<td style="text-align:right">19770 (0.811%)</td>
+<td style="text-align:right">21772 (0.893%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>TPP</td>
+<td>198637</td>
+<td style="text-align:right">1427 (0.718%)</td>
+<td style="text-align:right">7445 (3.75%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>Vision</td>
+<td>327196</td>
+<td style="text-align:right">2244 (0.686%)</td>
+<td style="text-align:right">2265 (0.692%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></p>
 <h3>Amitriptyline</h3>
 <p>Category: &quot;antidepressants&quot;.</p>
 <p>Any prescription of amitriptyline.</p>
@@ -3831,7 +3890,7 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/carbamazepine/1">https://github.com/rw251/.../medications/carbamazepine/1</a></p>
 <h3>Lithium</h3>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.06% - 0.09%</code> suggests the code set is well defined across systems, however the prevalence seems low and may need checking.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.11% - 0.15%</code> suggests the code set is well defined across systems, however the prevalence seems low and may need checking.</p>
 <table>
 <thead>
 <tr>
@@ -3844,25 +3903,25 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 </thead>
 <tbody>
 <tr>
-<td>2022-04-29</td>
+<td>2022-09-15</td>
 <td>EMIS</td>
-<td>2661707</td>
-<td style="text-align:right">2433 (0.09%)</td>
-<td style="text-align:right">2433 (0.09%)</td>
+<td>2448321</td>
+<td style="text-align:right">3765 (0.15%)</td>
+<td style="text-align:right">3783 (0.15%)</td>
 </tr>
 <tr>
-<td>2022-04-29</td>
+<td>2022-09-15</td>
 <td>TPP</td>
-<td>212737</td>
-<td style="text-align:right">128 (0.06%)</td>
-<td style="text-align:right">130 (0.06%)</td>
+<td>198113</td>
+<td style="text-align:right">211 (0.11%)</td>
+<td style="text-align:right">259 (0.13%)</td>
 </tr>
 <tr>
-<td>2022-04-29</td>
+<td>2022-09-15</td>
 <td>Vision</td>
-<td>342156</td>
-<td style="text-align:right">201 (0.06%)</td>
-<td style="text-align:right">201 (0.06%)</td>
+<td>325847</td>
+<td style="text-align:right">460 (0.14%)</td>
+<td style="text-align:right">460 (0.14%)</td>
 </tr>
 </tbody>
 </table>

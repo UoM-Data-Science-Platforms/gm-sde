@@ -1,0 +1,18 @@
+h23..00	DOXORUBICIN HYDROCHLORIDE
+h231.00	*ADRIAMYCIN 10mg injection
+h232.00	*ADRIAMYCIN 50mg injection
+h233.00	DOXORUBICIN RAPID DISSOL 10mg injection (pdr for recon)
+h234.00	DOXORUBICIN RAPID DISSOL 50mg injection (pdr for recon)
+h235.00	DOXORUBICIN HCL 10mg injection (pdr for recon)
+h236.00	DOXORUBICIN HCL 50mg injection (pdr for recon)
+h237.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 20mg/10mL infusion concentrate
+h238.00	CAELYX 20mg/10mL infusion concentrate
+h239.00	DOXORUBICIN SOLUTION 10mg/5mL Cytosafe injection vials
+h23A.00	DOXORUBICIN SOLUTION 50mg/25mL Cytosafe injection vials
+h23B.00	CAELYX 50mg/25mL infusion concentrate
+h23C.00	DOXORUBICIN SOLUTION 200mg/100mL Cytosafe injection vial
+h23D.00	MYOCET 50mg injection (pdr for recon)
+h23w.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 50mg injection (pdr for recon)
+h23x.00	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 50mg/25mL infusion concentrate
+h23y.00	DOXORUBICIN HCL 10mg solution for injection
+h23z.00	DOXORUBICIN HCL 50mg solution for injection

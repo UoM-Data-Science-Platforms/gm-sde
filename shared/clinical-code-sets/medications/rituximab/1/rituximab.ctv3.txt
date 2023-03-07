@@ -1,0 +1,6 @@
+hh1..	Rituximab
+hh11.	Rituximab 100mg/10mL infusion concentrate
+hh12.	Rituximab 500mg/50mL infusion concentrate
+hh13.	Mabthera 100mg/10mL infusion concentrate
+hh14.	Mabthera 500mg/50mL infusion concentrate
+x04tb	Mabthera

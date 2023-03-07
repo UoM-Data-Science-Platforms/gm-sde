@@ -594,6 +594,7 @@ This project required the following clinical code sets:
 - anxiety v1
 - selfharm-episodes v1
 - uti v1
+- palliative-and-end-of-life-care v1
 - statins v1
 - ace-inhibitor v1
 - aspirin v1
@@ -1423,6 +1424,24 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/uti/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/uti/1)
 
+### Palliative and end of life care
+
+Codes indicating palliative or end of life care.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.01% - 1.25%` is too wide so these codes are not sufficiently well recorded in practice. Also the figure of `1.25%` is far lower than the actual figure is expected to be from public data.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-02-23 | EMIS            | 2441477    |    10325 (0.42%) |     11138 (0.46%) |
+| 2023-02-23 | TPP             | 198780     |      687 (0.35%) |      2857 (1.44%) |
+| 2023-02-23 | Vision          | 328107     |     1103 (0.34%) |      1109 (0.34%) |
+
+
+LINK: [https://github.com/rw251/.../patient/palliative-and-end-of-life-care/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/palliative-and-end-of-life-care/1)
+
 ### Statins
 
 This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list
@@ -1610,7 +1629,7 @@ LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://git
 
 ### HbA1c
 
-A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's HbA1c (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
 
 **NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
 #### Prevalence log

@@ -1,0 +1,12 @@
+^ESCT1225053	Dacarbazine (as dacarbazine citrate) 200 mg powder for solution for injection vial
+^ESCT1225054	Product containing precisely dacarbazine (as dacarbazine citrate) 200 milligram/1 vial powder for conventional release solution for injection
+^ESCTDA613798	Dacarbazine 200mg powder for solution for injection vials
+^ESCTDA613799	Dacarbazine 200mg injection (pdr for recon)
+^ESCTDA613800	Dacarbazine 200mg powder for injection solution vial
+^ESCTDA613801	Dacarbazine 200mg/vial powder for injection 20mL vial
+^ESCTDA896380	Dacarbazine 100mg powder for solution for injection vials
+DEIN4804	Dacarbazine  Powder For Solution For Injection  100 mg vial
+DEIN9482EMIS	Dacarbazine  Powder For Solution For Injection  200 mg vial
+^ESCTDT871201	DTIC-Dome 200mg powder for solution for injection vials (Bayer Plc)
+DTIN3476	Dtic-Dome  Injection  100 mg/vial
+DTIN9480EMIS	Dtic-Dome  Injection  200 mg/vial
