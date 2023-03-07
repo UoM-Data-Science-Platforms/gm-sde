@@ -61,9 +61,14 @@ FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
--- Table of all patients with COVID at least once
+-- Table of all patients with a GP record
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #PatientsToInclude
+SELECT DISTINCT FK_Patient_Link_ID
+INTO #Patients
+FROM SharedCare.Patient
+WHERE FK_Reference_Tenancy_ID=2
+AND GPPracticeCode NOT LIKE 'ZZZ%'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 --┌───────────────┐
 --│ Year of birth │
