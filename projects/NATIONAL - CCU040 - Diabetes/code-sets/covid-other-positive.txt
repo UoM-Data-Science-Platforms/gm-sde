@@ -1,0 +1,12 @@
+1240521000000100	Otitis media caused by 2019-nCoV (novel coronavirus) 
+1240531000000103	Myocarditis caused by 2019-nCoV (novel coronavirus) 
+1240541000000107	Upper respiratory tract infection caused by 2019-nCoV (novel coronavirus)
+1240551000000105	Pneumonia caused by 2019-nCoV (novel coronavirus) 
+1240561000000108	Encephalopathy caused by 2019-nCoV (novel coronavirus) 
+1240571000000101	Gastroenteritis caused by 2019-nCoV (novel coronavirus)
+1321241000000105	Cardiomyopathy caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1240751000000100	Disease caused by 2019-nCoV (novel coronavirus) 
+840539006	Disease caused by severe acute respiratory syndrome coronavirus 2
+840539006	Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1300731000000106	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed using clinical diagnostic criteria (situation)
+186747009	Coronavirus infection (disorder)
