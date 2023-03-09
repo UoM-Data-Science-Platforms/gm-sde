@@ -6,15 +6,10 @@
 -- 1st July 2022 - Richard Williams --
 --------------------------------------	
 
-
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-01';
 SET @EndDate = '2022-05-01';
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
 
 -- Set the date variables for the LTC code
 
@@ -23,11 +18,15 @@ DECLARE @MinDate datetime;
 SET @IndexDate = '2022-05-01';
 SET @MinDate = '1900-01-01';
 
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
 
 --> EXECUTE query-get-possible-patients.sql
---> EXECUTE query-patient-ltcs-date-range.sql 
+--> EXECUTE query-patient-ltcs-and-historical.sql 
 --> EXECUTE query-patient-ltcs-number-of.sql
 --> EXECUTE query-patient-year-of-birth.sql
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:RLS.vw_GP_Events all-patients:false
 
 
 -- FIND ALL PATIENTS WITH A MENTAL CONDITION
@@ -70,13 +69,10 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 
 
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC (DIAGNOSED BEFORE MARCH 2020)
+-- 
 
-IF OBJECT_ID('tempdb..#HistoryOfLTCs') IS NOT NULL DROP TABLE #HistoryOfLTCs;
+IF OBJECT_ID('tempdb..#HistoryOfLTCs_DiagnosesOnly') IS NOT NULL DROP TABLE #HistoryOfLTCs_DiagnosesOnly;
 SELECT FK_Patient_Link_ID,
-		HO_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
-		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
-		HO_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
-		HO_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
 		HO_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
 		HO_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
 		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
@@ -88,11 +84,7 @@ SELECT FK_Patient_Link_ID,
 		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
 		HO_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
 		HO_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
-		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
-		HO_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
-		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
 		HO_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
-		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
 		HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
 		HO_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
 		HO_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
@@ -113,19 +105,41 @@ SELECT FK_Patient_Link_ID,
 		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
 		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
 		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
-INTO #HistoryOfLTCs
+INTO #HistoryOfLTCs_DiagnosesOnly
 FROM #PatientsWithLTCs
 WHERE FirstDate < '2020-03-01'
 GROUP BY FK_Patient_Link_ID
 
+-- same as above but for LTCs that have more specific criteria (e.g. meds in past year)
+
+IF OBJECT_ID('tempdb..#HistoryOfLTCs_SpecificCriteria') IS NOT NULL DROP TABLE #HistoryOfLTCs_SpecificCriteria;
+SELECT FK_Patient_Link_ID,
+		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
+		HO_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
+		HO_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
+		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
+		HO_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
+		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
+		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
+INTO #HistoryOfLTCs_SpecificCriteria
+FROM #PatientsWithLTCs1
+WHERE FirstDate_Year <= '2020-03-01'
+GROUP BY FK_Patient_Link_ID
+
+-- same as above but for cancer (counts as LTC if diagnosis in last 5 years)
+
+IF OBJECT_ID('tempdb..#HistoryOfLTCs_Cancer') IS NOT NULL DROP TABLE #HistoryOfLTCs_Cancer;
+SELECT DISTINCT FK_Patient_Link_ID,
+		HO_cancer 	= 1
+INTO #HistoryOfLTCs_Cancer
+FROM #LTCCancerTemp
+WHERE EventDate <= '2020-03-01'
+
+
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE DEVELOPED A NEW LTC FROM MARCH 2020 ONWARDS
 
-IF OBJECT_ID('tempdb..#NewLTCs') IS NOT NULL DROP TABLE #NewLTCs;
+IF OBJECT_ID('tempdb..#NewLTCs_DiagnosesOnly') IS NOT NULL DROP TABLE #NewLTCs_DiagnosesOnly;
 SELECT FK_Patient_Link_ID,
-		NEW_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
-		NEW_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
-		NEW_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
-		NEW_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
 		NEW_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
 		NEW_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
 		NEW_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
@@ -137,11 +151,7 @@ SELECT FK_Patient_Link_ID,
 		NEW_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
 		NEW_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
 		NEW_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
-		NEW_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
-		NEW_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
-		NEW_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
 		NEW_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
-		NEW_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
 		NEW_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
 		NEW_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
 		NEW_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
@@ -162,11 +172,35 @@ SELECT FK_Patient_Link_ID,
 		NEW_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
 		NEW_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
 		NEW_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
-INTO #NewLTCs
+INTO #NewLTCs_DiagnosesOnly
 FROM #PatientsWithLTCs
 WHERE FirstDate >= '2020-03-01'
 GROUP BY FK_Patient_Link_ID
 
+-- same as above but for LTCs that have more specific criteria (e.g. meds in past year)
+
+IF OBJECT_ID('tempdb..#NewLTCs_SpecificCriteria') IS NOT NULL DROP TABLE #NewLTCs_SpecificCriteria;
+SELECT FK_Patient_Link_ID,
+		NEW_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
+		NEW_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
+		NEW_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
+		NEW_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
+		NEW_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
+		NEW_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
+		NEW_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
+INTO #NewLTCs_SpecificCriteria
+FROM #PatientsWithLTCs1
+WHERE LastDate_Year >= '2020-03-01'
+GROUP BY FK_Patient_Link_ID
+
+-- same as above but for cancer (counts as LTC if diagnosis in last 5 years)
+
+IF OBJECT_ID('tempdb..#NewLTCs_Cancer') IS NOT NULL DROP TABLE #NewLTCs_Cancer;
+SELECT DISTINCT FK_Patient_Link_ID,
+		NEW_cancer 	= 1
+INTO #NewLTCs_Cancer
+FROM #LTCCancerTemp
+WHERE EventDate >= '2020-03-01'
 
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
@@ -253,5 +287,9 @@ SELECT
 	,NEW_alcohol_problems = ISNULL(NEW_alcohol_problems, 0)
 	,NEW_psychoactive_substance_abuse = ISNULL(NEW_psychoactive_substance_abuse, 0)
 FROM #Cohort p 
-LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs_DiagnosesOnly ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs_SpecificCriteria ltcsc on ltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs_Cancer ltcsc on ltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #NewLTCs_DiagnosesOnly nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #NewLTCs_SpecificCriteria nltcsc on nltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #NewLTCs_Cancer nltcc on nltcc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
