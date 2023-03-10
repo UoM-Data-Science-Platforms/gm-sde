@@ -44,12 +44,13 @@ This project required the following reusable queries:
 - Sex
 - Patient GP encounters
 - COVID-related secondary admissions
-- Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
+- Long-term conditions and comorbidities
+- Patients with COVID
 - Year of birth
 - GET No. LTCS per patient
-- Long-term conditions and comorbidities
+- Long-term conditions (with information on historic LTCs)
 - Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
@@ -358,39 +359,6 @@ _File_: `query-admissions-covid-utilisation.sql`
 _Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
 
 ---
-### Patients with COVID
-To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
-
-_Input_
-```
-Takes three parameters
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-```
-
-_Output_
-```
-Three temp tables as follows:
- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- FirstCovidPositiveDate - earliest COVID diagnosis
- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- CovidPositiveDate - any COVID diagnosis
- #CovidPatientsMultipleDiagnoses
-	-	FK_Patient_Link_ID - unique patient id
-	-	FirstCovidPositiveDate - date of first COVID diagnosis
-	-	SecondCovidPositiveDate - date of second COVID diagnosis
-	-	ThirdCovidPositiveDate - date of third COVID diagnosis
-	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
-	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
-```
-_File_: `query-patients-with-covid.sql`
-
-_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
-
----
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
@@ -447,6 +415,65 @@ _File_: `query-get-discharges.sql`
 _Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
 
 ---
+### Long-term conditions and comorbidities
+To get long-term conditions for each patient within a date range.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ @IndexDate - The index date of the study
+ @MinDate - The minimum date that the study has access from
+```
+
+_Output_
+```
+A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs
+   FK_Patient_Link_ID,
+   Condition,
+   FirstDate,
+   LastDate
+```
+_File_: `query-patient-ltcs-date-range.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-date-range.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql)
+
+---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
+
+_Input_
+```
+Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Three temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+ #CovidPatientsMultipleDiagnoses
+	-	FK_Patient_Link_ID - unique patient id
+	-	FirstCovidPositiveDate - date of first COVID diagnosis
+	-	SecondCovidPositiveDate - date of second COVID diagnosis
+	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+
+---
 ### Year of birth
 To get the year of birth for each patient.
 
@@ -497,8 +524,8 @@ _File_: `query-patient-ltcs-number-of.sql`
 _Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
 
 ---
-### Long-term conditions and comorbidities
-To get long-term conditions for each patient within a date range.
+### Long-term conditions (with information on historic LTCs)
+To get every long-term condition for each patient. Additionally, this file will provide information on historic LTCs (years in the past where patients met the criteria)
 
 _Input_
 ```
@@ -511,18 +538,26 @@ Assumes there exists a temp table as follows:
 
 _Output_
 ```
-A temp table with a row for each patient and ltc combo
+temp tables with a row for each patient and ltc combo, and a table of cancer diagnosis dates
  #PatientsWithLTCs
    FK_Patient_Link_ID,
    Condition,
    FirstDate,
    LastDate,
-   NoInLastYear,number of times mentioned in year prior to index date
-   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
+	 ConditionOccurences
+ #PatientsWithLTCs_Historical - includes min and max calendar years in the past where patient met condition criteria
+	 FK_Patient_Link_ID,
+ 	 Condition,
+   FirstDate_Years,
+   LastDate_Years,
+   ConditionOccurences_Years
+ #LTCCancerTemp - can be used to find historical cancer diagnoses
+	 FK_Patient_Link_ID,
+   EventDate
 ```
-_File_: `query-patient-ltcs-date-range.sql`
+_File_: `query-patient-ltcs-and-historical.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-date-range.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql)
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-and-historical.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-and-historical.sql)
 
 ---
 ### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards

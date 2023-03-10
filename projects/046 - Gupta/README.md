@@ -486,9 +486,7 @@ A temp table with a row for each patient and ltc combo
    FK_Patient_Link_ID,
    Condition,
    FirstDate,
-   LastDate,
-   NoInLastYear,number of times mentioned in year prior to index date
-   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
+   LastDate
 ```
 _File_: `query-patient-ltcs-date-range.sql`
 
