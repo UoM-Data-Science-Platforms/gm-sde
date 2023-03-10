@@ -791,19 +791,13 @@ AND EventDate < @IndexDate
 GROUP BY FK_Patient_Link_ID
 
 -- IBS read code ever OR >= 4 Rx in last year
--- Irritable Bowel Syndrome >= 4 Rx in last year
-INSERT INTO #PatientsWithLTCs
-SELECT FK_Patient_Link_ID, Condition, 
-  MIN(MedicationDate) AS FirstDate, 
-  MAX(MedicationDate) AS LastDate,
-  COUNT(*) AS ConditionOccurences  
-FROM #LTCTempMedsLastYear
-WHERE Condition = 'Irritable Bowel Syndrome'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-GROUP BY FK_Patient_Link_ID, Condition
-HAVING COUNT(*) >= 4;
 
--- IBS read code ever
+	-- Irritable Bowel Syndrome >= 4 Rx in last year 
+
+		-- already added to #PatientsWithLTCs at line 717 - 725
+
+	-- IBS read code ever
+	
 INSERT INTO #PatientsWithLTCs
 SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome', 
   MIN(EventDate) AS FirstDate, 

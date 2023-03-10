@@ -998,19 +998,8 @@ GROUP BY FK_Patient_Link_ID, Condition
 
 -- Irritable Bowel Syndrome >= 4 Rx in last year
 
--- (already inserted into #PatientsWithLTCs_Historical on line 897) 
+	-- (already inserted into #PatientsWithLTCs_Historical on line 897) 
 
 -- IBS read code ever
-INSERT INTO #PatientsWithLTCs_Historical
-SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome', 
-  MIN(EventDate) AS FirstDate_Year, 
-  MAX(EventDate) AS LastDate_Year,
-  COUNT(*) AS ConditionOccurences_Years 
-FROM SharedCare.GP_Events e
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
-	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @IndexDate
-GROUP BY FK_Patient_Link_ID;
+
+	-- (already inserted into #PatientsWithLTCs on line 829)

@@ -104,7 +104,8 @@ SELECT FK_Patient_Link_ID,
 		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
 		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
 		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
-		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
+		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end),
+		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end)
 INTO #HistoryOfLTCs_DiagnosesOnly
 FROM #PatientsWithLTCs
 WHERE FirstDate < '2020-03-01'
@@ -123,7 +124,7 @@ SELECT FK_Patient_Link_ID,
 		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
 INTO #HistoryOfLTCs_SpecificCriteria
 FROM #PatientsWithLTCs_Historical
-WHERE FirstDate_Year <= '2020-03-01'
+WHERE FirstDate_Year <= 2020
 GROUP BY FK_Patient_Link_ID
 
 -- same as above but for cancer (counts as LTC if diagnosis in last 5 years)
@@ -171,7 +172,8 @@ SELECT FK_Patient_Link_ID,
 		NEW_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
 		NEW_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
 		NEW_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
-		NEW_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
+		NEW_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end),
+		NEW_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end)
 INTO #NewLTCs_DiagnosesOnly
 FROM #PatientsWithLTCs
 WHERE FirstDate >= '2020-03-01'
@@ -190,7 +192,7 @@ SELECT FK_Patient_Link_ID,
 		NEW_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
 INTO #NewLTCs_SpecificCriteria
 FROM #PatientsWithLTCs_Historical
-WHERE LastDate_Year >= '2020-03-01'
+WHERE LastDate_Year >= 2020
 GROUP BY FK_Patient_Link_ID
 
 -- same as above but for cancer (counts as LTC if diagnosis in last 5 years)
@@ -221,7 +223,7 @@ SELECT
 	,HO_chronic_liver_disease  = ISNULL(HO_chronic_liver_disease , 0)
 	,HO_diverticular_disease_of_intestine = ISNULL(HO_diverticular_disease_of_intestine, 0)
 	,HO_inflammatory_bowel_disease  = ISNULL(HO_inflammatory_bowel_disease , 0)
-	,HO_irritable_bowel_syndrome  = ISNULL(HO_irritable_bowel_syndrome , 0)
+	,HO_irritable_bowel_syndrome  = ISNULL(CASE WHEN ltc.HO_irritable_bowel_syndrome = 1 OR ltcsc.HO_irritable_bowel_syndrome = 1 THEN 1 ELSE 0 END, 0)
 	,HO_constipation = ISNULL(HO_constipation, 0)
 	,HO_dyspepsia = ISNULL(HO_dyspepsia, 0)
 	,HO_peptic_ulcer_disease  = ISNULL(HO_peptic_ulcer_disease , 0)
@@ -261,7 +263,7 @@ SELECT
 	,NEW_chronic_liver_disease  = ISNULL(NEW_chronic_liver_disease , 0)
 	,NEW_diverticular_disease_of_intestine = ISNULL(NEW_diverticular_disease_of_intestine, 0)
 	,NEW_inflammatory_bowel_disease  = ISNULL(NEW_inflammatory_bowel_disease , 0)
-	,NEW_irritable_bowel_syndrome  = ISNULL(NEW_irritable_bowel_syndrome , 0)
+	,NEW_irritable_bowel_syndrome  = ISNULL(CASE WHEN nltc.NEW_irritable_bowel_syndrome = 1 OR nltcsc.NEW_irritable_bowel_syndrome = 1 THEN 1 ELSE 0 END, 0)
 	,NEW_constipation = ISNULL(NEW_constipation, 0)
 	,NEW_dyspepsia = ISNULL(NEW_dyspepsia, 0)
 	,NEW_peptic_ulcer_disease  = ISNULL(NEW_peptic_ulcer_disease , 0)
