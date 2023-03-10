@@ -1,16 +1,33 @@
 --
---┌──────────────────────┐
---│ Long-term conditions │
---└──────────────────────┘
+--┌──────────────────────────────────────────────────────────┐
+--│ Long-term conditions (with information on historic LTCs) │
+--└──────────────────────────────────────────────────────────┘
 
--- OBJECTIVE: To get every long-term condition for each patient.
+-- OBJECTIVE: To get every long-term condition for each patient. 
+--  Additionally, this file will provide information on historic LTCs (years in the past where patients met the criteria)
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- @IndexDate - The index date of the study
+-- @MinDate - The minimum date that the study has access from
 
--- OUTPUT: A temp table with a row for each patient and ltc combo
--- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+-- OUTPUT: temp tables with a row for each patient and ltc combo, and a table of cancer diagnosis dates
+-- #PatientsWithLTCs 
+--   FK_Patient_Link_ID, 
+--   Condition, 
+--   FirstDate, 
+--   LastDate, 
+--	 ConditionOccurences
+-- #PatientsWithLTCs_Historical - includes min and max calendar years in the past where patient met condition criteria
+--	 FK_Patient_Link_ID, 
+-- 	 Condition, 
+--   FirstDate_Years,
+--   LastDate_Years,
+--   ConditionOccurences_Years
+-- #LTCCancerTemp - can be used to find historical cancer diagnoses
+--	 FK_Patient_Link_ID,
+--   EventDate
 
 -- Get the LTCs that each patient had prior to @IndexDate
 
@@ -631,7 +648,7 @@ SELECT
     ) THEN 'Psychoactive Substance Abuse'
   END AS Condition
 INTO #LTCTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema')) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema'))
@@ -641,7 +658,7 @@ AND EventDate BETWEEN @MinDate AND @IndexDate;
 
 IF OBJECT_ID('tempdb..#LTCCancerTemp') IS NOT NULL DROP TABLE #LTCCancerTemp;
 SELECT FK_Patient_Link_ID, EventDate INTO #LTCCancerTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Cancer') OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Cancer')
@@ -682,7 +699,7 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 		) THEN 'Dyspepsia'
 	END AS Condition 
 INTO #LTCTempMedsLastYear 
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine')) OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
@@ -693,7 +710,7 @@ AND MedicationDate >= DATEADD(year, -1, @IndexDate);
 
 -- Create temp table with PatientConditionsOccurences
 IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
-CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
+CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences INT);
 
 
 -- Painful condition >= 4 Rx in last year
@@ -729,73 +746,74 @@ HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @IndexDate);
 -- Epilepsy read code ever AND Rx in last year
 
 	-- table of patients that ever had a diagnosis before index date
-IF OBJECT_ID('tempdb..#EpilepsyDiagnosed') IS NOT NULL DROP TABLE #EpilepsyDiagnosed;
-SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDiagnosis
-INTO #EpilepsyDiagnosed FROM RLS.vw_GP_Events e
+IF OBJECT_ID('tempdb..#EpilepsyPatients') IS NOT NULL DROP TABLE #EpilepsyPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Epilepsy' as Condition
+INTO #EpilepsyPatients FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @IndexDate
-GROUP BY FK_Patient_Link_ID
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Epilepsy' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Epilepsy'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition;
 
-	-- find patients that ever had an epilepsy diagnosis, and info on which years they had epilepsy meds (as per criteria)
+	-- FOR ALL PATIENTS THAT MEET THE EPILEPSY CRITERIA, FIND THE MIN AND MAX DIAGNOSIS DATES, AND THE COUNT, AND ADD TO MAIN LTC TABLE
+
 INSERT INTO #PatientsWithLTCs
-SELECT FK_Patient_Link_ID, Condition,   
-  MIN(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS FirstDate_Year, 
-  MAX(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS LastDate_Year,
-  COUNT(*) AS ConditionOccurences_Years
-FROM 
-(
-SELECT lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate) AS [Year], EarliestDiagnosis
-FROM #LTCTempMedsLastYear lt
-LEFT JOIN #EpilepsyDiagnosed ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
-WHERE Condition IN ('Epilepsy')
-AND lt.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EpilepsyDiagnosed)
-GROUP BY lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate), EarliestDiagnosis
-HAVING COUNT(*) >= 1
-) sub
-WHERE [YEAR] >= YEAR(EarliestDiagnosis) -- ensure that the earliest diagnosis was the same year as the meds, or earlier
-GROUP BY FK_Patient_Link_ID, Condition
-
+SELECT FK_Patient_Link_ID, 'Epilepsy',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EpilepsyPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
 
 -- Psoriasis Or Eczema read code ever AND >= 4 Rx in last year
 
 	-- table of patients that ever had a diagnosis before index date
-IF OBJECT_ID('tempdb..#PsoriasisEczemaDiagnosed') IS NOT NULL DROP TABLE #PsoriasisEczemaDiagnosed;
-SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDiagnosis
-INTO #PsoriasisEczemaDiagnosed FROM RLS.vw_GP_Events e
+
+IF OBJECT_ID('tempdb..#PsoriasisEczemaPatients') IS NOT NULL DROP TABLE #PsoriasisEczemaPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Psoriasis Or Eczema' as Condition
+INTO #PsoriasisEczemaPatients FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @IndexDate
-GROUP BY FK_Patient_Link_ID
-
-	-- find patients that ever had an epilepsy diagnosis, and info on which years they had epilepsy meds (as per criteria)
-INSERT INTO #PatientsWithLTCs
-SELECT FK_Patient_Link_ID, Condition,   
-  MIN(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS FirstDate_Year, 
-  MAX(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS LastDate_Year,
-  COUNT(*) AS ConditionOccurences_Years
-FROM 
-(
-SELECT lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate) AS [Year], EarliestDiagnosis
-FROM #LTCTempMedsLastYear lt
-LEFT JOIN #PsoriasisEczemaDiagnosed ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
-WHERE Condition IN ('Psoriasis Or Eczema')
-AND lt.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PsoriasisEczemaDiagnosed)
-GROUP BY lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate), EarliestDiagnosis
-HAVING COUNT(*) >= 4
-) sub
-WHERE [YEAR] >= YEAR(EarliestDiagnosis) -- ensure that the earliest diagnosis was the same year as the meds, or earlier
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Psoriasis Or Eczema'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PsoriasisEczemaPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
 
 
 -- IBS read code ever OR >= 4 Rx in last year
--- Irritable Bowel Syndrome >= 4 Rx in last year
+-- Irritable Bowel Syndrome >= 4 Rx in last year (already inserted into #PatientsWithLTCs on lines )
 INSERT INTO #PatientsWithLTCs
 SELECT FK_Patient_Link_ID, Condition,
   MIN(MedicationDate) AS FirstDate, 
@@ -813,7 +831,7 @@ SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome',
   MIN(EventDate) AS FirstDate, 
   MAX(EventDate) AS LastDate, 
   COUNT(*) AS ConditionOccurences
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
@@ -843,8 +861,8 @@ GROUP BY FK_Patient_Link_ID, Condition
 -- now create a separate table to reflect which years in the past a patient met the criteria 
 -- (this only applies for the LTCs with more specific conditions than just 'read code ever' (e.g. >=4 meds in past year)
 
-IF OBJECT_ID('tempdb..#PatientsWithLTCs1') IS NOT NULL DROP TABLE #PatientsWithLTCs1;
-CREATE TABLE #PatientsWithLTCs1 (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate_Year DATE, LastDate_Year DATE, ConditionOccurences_Years BIGINT);
+IF OBJECT_ID('tempdb..#PatientsWithLTCs_Historical') IS NOT NULL DROP TABLE #PatientsWithLTCs_Historical;
+CREATE TABLE #PatientsWithLTCs_Historical (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate_Year INT, LastDate_Year INT, ConditionOccurences_Years INT);
 
 
 IF OBJECT_ID('tempdb..#LTCTempMeds') IS NOT NULL DROP TABLE #LTCTempMeds;
@@ -880,7 +898,7 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 		) THEN 'Dyspepsia'
 	END AS Condition 
 INTO #LTCTempMeds
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine')) OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
@@ -895,10 +913,10 @@ AND MedicationDate < @IndexDate
 -- Dyspepsia >= 4 Rx in last year
 -- Constipation >= 4 Rx in last year
 
-INSERT INTO #PatientsWithLTCs1
+INSERT INTO #PatientsWithLTCs_Historical
 SELECT FK_Patient_Link_ID, Condition,   
-  MIN(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS FirstDate_Year, 
-  MAX(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS LastDate_Year,
+  MIN(CAST([Year] AS INT)) AS FirstDate_Year, 
+  MAX(CAST([Year]  AS INT)) AS LastDate_Year,
   COUNT(*) AS ConditionOccurences_Years
 FROM 
 (
@@ -915,7 +933,7 @@ GROUP BY FK_Patient_Link_ID, Condition
 	-- table of patients that ever had a diagnosis before index date
 IF OBJECT_ID('tempdb..#EpilepsyDiagnosed1') IS NOT NULL DROP TABLE #EpilepsyDiagnosed1;
 SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDiagnosis
-INTO #EpilepsyDiagnosed1 FROM RLS.vw_GP_Events e
+INTO #EpilepsyDiagnosed1 FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
@@ -925,18 +943,17 @@ AND EventDate < @IndexDate
 GROUP BY FK_Patient_Link_ID
 
 	-- find patients that ever had an epilepsy diagnosis, and info on which years they had epilepsy meds (as per criteria)
-INSERT INTO #PatientsWithLTCs1
+INSERT INTO #PatientsWithLTCs_Historical
 SELECT FK_Patient_Link_ID, Condition,   
-  MIN(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS FirstDate_Year, 
-  MAX(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS LastDate_Year,
+  MIN(CAST([Year] AS INT)) AS FirstDate_Year, 
+  MAX(CAST([Year]  AS INT)) AS LastDate_Year,
   COUNT(*) AS ConditionOccurences_Years
 FROM 
 (
 SELECT lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate) AS [Year], EarliestDiagnosis
 FROM #LTCTempMeds lt
-LEFT JOIN #EpilepsyDiagnosed1 ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
+INNER JOIN #EpilepsyDiagnosed1 ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
 WHERE Condition IN ('Epilepsy')
-AND lt.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EpilepsyDiagnosed1)
 GROUP BY lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate), EarliestDiagnosis
 HAVING COUNT(*) >= 1
 ) sub
@@ -949,7 +966,7 @@ GROUP BY FK_Patient_Link_ID, Condition
 	-- table of patients that ever had a diagnosis before index date
 IF OBJECT_ID('tempdb..#PsoriasisEczemaDiagnosed1') IS NOT NULL DROP TABLE #PsoriasisEczemaDiagnosed1;
 SELECT FK_Patient_Link_ID, min(EventDate) as EarliestDiagnosis
-INTO #PsoriasisEczemaDiagnosed1 FROM RLS.vw_GP_Events e
+INTO #PsoriasisEczemaDiagnosed1 FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
@@ -959,18 +976,17 @@ AND EventDate < @IndexDate
 GROUP BY FK_Patient_Link_ID
 
 	-- find patients that ever had an epilepsy diagnosis, and info on which years they had epilepsy meds (as per criteria)
-INSERT INTO #PatientsWithLTCs1
+INSERT INTO #PatientsWithLTCs_Historical
 SELECT FK_Patient_Link_ID, Condition,   
-  MIN(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS FirstDate_Year, 
-  MAX(CAST(CAST([Year] AS VARCHAR) AS DATE)) AS LastDate_Year,
+  MIN(CAST([Year] AS INT)) AS FirstDate_Year, 
+  MAX(CAST([Year]  AS INT)) AS LastDate_Year,
   COUNT(*) AS ConditionOccurences_Years
 FROM 
 (
 SELECT lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate) AS [Year], EarliestDiagnosis
 FROM #LTCTempMeds lt
-LEFT JOIN #PsoriasisEczemaDiagnosed1 ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
+INNER JOIN #PsoriasisEczemaDiagnosed1 ed on ed.FK_Patient_Link_ID = lt.FK_Patient_Link_ID
 WHERE Condition IN ('Psoriasis Or Eczema')
-AND lt.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PsoriasisEczemaDiagnosed1)
 GROUP BY lt.FK_Patient_Link_ID, Condition, YEAR(MedicationDate), EarliestDiagnosis
 HAVING COUNT(*) >= 4
 ) sub
@@ -982,15 +998,15 @@ GROUP BY FK_Patient_Link_ID, Condition
 
 -- Irritable Bowel Syndrome >= 4 Rx in last year
 
--- (already inserted into #PatientsWithLTCs1 on line 897) 
+-- (already inserted into #PatientsWithLTCs_Historical on line 897) 
 
 -- IBS read code ever
-INSERT INTO #PatientsWithLTCs1
+INSERT INTO #PatientsWithLTCs_Historical
 SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome', 
   MIN(EventDate) AS FirstDate_Year, 
   MAX(EventDate) AS LastDate_Year,
-  COUNT(*) AS ConditionOccurences 
-FROM RLS.vw_GP_Events e
+  COUNT(*) AS ConditionOccurences_Years 
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')

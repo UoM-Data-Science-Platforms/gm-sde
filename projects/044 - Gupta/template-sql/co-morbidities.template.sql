@@ -122,7 +122,7 @@ SELECT FK_Patient_Link_ID,
 		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
 		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
 INTO #HistoryOfLTCs_SpecificCriteria
-FROM #PatientsWithLTCs1
+FROM #PatientsWithLTCs_Historical
 WHERE FirstDate_Year <= '2020-03-01'
 GROUP BY FK_Patient_Link_ID
 
@@ -189,7 +189,7 @@ SELECT FK_Patient_Link_ID,
 		NEW_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
 		NEW_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end)
 INTO #NewLTCs_SpecificCriteria
-FROM #PatientsWithLTCs1
+FROM #PatientsWithLTCs_Historical
 WHERE LastDate_Year >= '2020-03-01'
 GROUP BY FK_Patient_Link_ID
 
@@ -289,7 +289,7 @@ SELECT
 FROM #Cohort p 
 LEFT OUTER JOIN #HistoryOfLTCs_DiagnosesOnly ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs_SpecificCriteria ltcsc on ltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #HistoryOfLTCs_Cancer ltcsc on ltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs_Cancer ltcc on ltcc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs_DiagnosesOnly nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs_SpecificCriteria nltcsc on nltcsc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs_Cancer nltcc on nltcc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
