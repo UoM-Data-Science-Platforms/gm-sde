@@ -1,18 +1,9 @@
---┌────────────────────────────────────┐
---│ An example SQL generation template │
---└────────────────────────────────────┘
+﻿--> CODESET diabetes:1
+--> CODESET diabetes-type-i:1
+--> CODESET diabetes-type-ii:1
 
--- OUTPUT: Data with the following fields
--- 	- PatientId (int)
---  - DateOfFirstDiagnosis (YYYY-MM-DD) 
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
---> CODESET hypertension:1
-SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS DateOfFirstDiagnosis FROM [RLS].[vw_GP_Events]
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND Version = 1)
-)
-GROUP BY FK_Patient_Link_ID;
+IF OBJECT_ID('tempdb..#Sample') IS NOT NULL DROP TABLE #Sample;
+SELECT TOP 1000 FK_Patient_Link_ID INTO #Sample FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(CAST(StartDate AS DATE)) < '2022-06-01'
+ORDER BY NEWID();
