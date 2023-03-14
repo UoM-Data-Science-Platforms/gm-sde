@@ -1,0 +1,8 @@
+^ESCTRE687299	Referral to diabetes structured education program
+EMISNQDI105	Diabetic foot screening invitation
+EMISNQDI118	Diabetes monitoring in primary care
+EMISNQDI119	Diabetes monitoring in secondary care
+EMISNQDI158	Diabetes care planning test results sent to patient
+EMISNQPA15	Patient consent given for retinal screening
+EMISNQPR444	Pre-diabetes structured education programme declined
+EMISNQUN46	Unsuitable for DESMOND diabetes structured education programme
