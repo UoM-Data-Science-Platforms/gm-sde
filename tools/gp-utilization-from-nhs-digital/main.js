@@ -40,6 +40,7 @@ if (instruction === 'download') {
 } else {
   getDataFileUrls(datesToGetDataFor)
     .then(getDataFiles)
+    .then(unzipDataFiles)
     .then(processDataFiles)
     .then(combineFiles)
     .catch((err) => {
