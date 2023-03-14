@@ -1,0 +1,9063 @@
+{
+  "2018": {
+    "08": {
+      "10": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 71
+            },
+            "Other": {
+              "Unknown": 523
+            },
+            "GP": {
+              "Unknown": 528
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 52
+            },
+            "Other": {
+              "Unknown": 46
+            },
+            "GP": {
+              "Unknown": 239
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 21
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 37
+            },
+            "Other": {
+              "Unknown": 1259
+            },
+            "GP": {
+              "Unknown": 1615
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 3
+            },
+            "GP": {
+              "Unknown": 4
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1582
+            },
+            "GP": {
+              "Unknown": 1393
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 134
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 25
+            },
+            "GP": {
+              "Unknown": 13
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 214
+            },
+            "Other": {
+              "Unknown": 1224
+            },
+            "GP": {
+              "Unknown": 1716
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 413
+            },
+            "Other": {
+              "Unknown": 39
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 29
+            },
+            "Unknown": {
+              "Unknown": 32
+            },
+            "Other": {
+              "Unknown": 13
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1863
+            },
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 1335
+            }
+          }
+        },
+        "01G": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 6
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "Other": {
+              "Unknown": 582
+            },
+            "GP": {
+              "Unknown": 888
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 1957
+            },
+            "GP": {
+              "Unknown": 688
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 54
+            },
+            "Unknown": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 228
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 93
+            },
+            "GP": {
+              "Unknown": 287
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 44
+            },
+            "Other": {
+              "Unknown": 52
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 117
+            },
+            "Other": {
+              "Unknown": 1281
+            },
+            "GP": {
+              "Unknown": 2551
+            }
+          }
+        },
+        "01Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 79
+            },
+            "GP": {
+              "Unknown": 361
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 57
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 150
+            },
+            "Other": {
+              "Unknown": 1612
+            },
+            "GP": {
+              "Unknown": 1867
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 734
+            },
+            "Unknown": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 1365
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 30
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 65
+            },
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 253
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 92
+            },
+            "Unknown": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 118
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 62
+            },
+            "GP": {
+              "Unknown": 228
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1524
+            },
+            "GP": {
+              "Unknown": 2371
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 24
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 96
+            },
+            "GP": {
+              "Unknown": 761
+            },
+            "Unknown": {
+              "Unknown": 131
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2348
+            },
+            "GP": {
+              "Unknown": 4513
+            },
+            "Unknown": {
+              "Unknown": 292
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 44
+            },
+            "Unknown": {
+              "Unknown": 53
+            }
+          }
+        }
+      },
+      "11": {
+        "00T": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 53
+            },
+            "GP": {
+              "Unknown": 28
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 2
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 12
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 15
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 215
+            },
+            "Other": {
+              "Unknown": 76
+            },
+            "GP": {
+              "Unknown": 20
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 51
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 12
+            },
+            "GP": {
+              "Unknown": 24
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 96
+            },
+            "GP": {
+              "Unknown": 110
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 212
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 61
+            },
+            "GP": {
+              "Unknown": 62
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 49
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 163
+            },
+            "GP": {
+              "Unknown": 96
+            },
+            "Other": {
+              "Unknown": 61
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 4
+            },
+            "GP": {
+              "Unknown": 2
+            }
+          }
+        }
+      },
+      "12": {
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 170
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 11
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 14
+            },
+            "GP": {
+              "Unknown": 22
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 256
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 56
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 5
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 99
+            },
+            "GP": {
+              "Unknown": 45
+            },
+            "Other": {
+              "Unknown": 10
+            }
+          }
+        }
+      },
+      "13": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 81
+            },
+            "Other": {
+              "Unknown": 649
+            },
+            "GP": {
+              "Unknown": 628
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 39
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 61
+            },
+            "Other": {
+              "Unknown": 54
+            },
+            "GP": {
+              "Unknown": 320
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 1439
+            },
+            "GP": {
+              "Unknown": 1820
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2372
+            },
+            "GP": {
+              "Unknown": 1676
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 75
+            },
+            "GP": {
+              "Unknown": 183
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 32
+            },
+            "Other": {
+              "Unknown": 52
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 263
+            },
+            "Other": {
+              "Unknown": 1522
+            },
+            "GP": {
+              "Unknown": 2298
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 1782
+            },
+            "GP": {
+              "Unknown": 2406
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 46
+            },
+            "GP": {
+              "Unknown": 510
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 36
+            },
+            "GP": {
+              "Unknown": 56
+            },
+            "Unknown": {
+              "Unknown": 36
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2484
+            },
+            "GP": {
+              "Unknown": 852
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 32
+            },
+            "GP": {
+              "Unknown": 320
+            },
+            "Unknown": {
+              "Unknown": 13
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 659
+            },
+            "GP": {
+              "Unknown": 1075
+            },
+            "Unknown": {
+              "Unknown": 52
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 42
+            },
+            "Other": {
+              "Unknown": 162
+            },
+            "GP": {
+              "Unknown": 341
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 106
+            },
+            "Other": {
+              "Unknown": 53
+            },
+            "GP": {
+              "Unknown": 53
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 94
+            },
+            "Other": {
+              "Unknown": 1748
+            },
+            "GP": {
+              "Unknown": 2964
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 2
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 120
+            },
+            "GP": {
+              "Unknown": 455
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 80
+            },
+            "GP": {
+              "Unknown": 63
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2094
+            },
+            "Unknown": {
+              "Unknown": 160
+            },
+            "GP": {
+              "Unknown": 2233
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 73
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 377
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 34
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 909
+            },
+            "GP": {
+              "Unknown": 1803
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1753
+            },
+            "GP": {
+              "Unknown": 2847
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 107
+            },
+            "GP": {
+              "Unknown": 89
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 56
+            },
+            "GP": {
+              "Unknown": 279
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 19
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 37
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2974
+            },
+            "GP": {
+              "Unknown": 5713
+            },
+            "Unknown": {
+              "Unknown": 342
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 914
+            },
+            "Unknown": {
+              "Unknown": 173
+            },
+            "Other": {
+              "Unknown": 156
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 57
+            },
+            "Unknown": {
+              "Unknown": 58
+            },
+            "Other": {
+              "Unknown": 53
+            }
+          }
+        }
+      },
+      "14": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 105
+            },
+            "Other": {
+              "Unknown": 781
+            },
+            "GP": {
+              "Unknown": 504
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 19
+            },
+            "GP": {
+              "Unknown": 250
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 41
+            },
+            "GP": {
+              "Unknown": 22
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 1562
+            },
+            "GP": {
+              "Unknown": 1664
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 11
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2289
+            },
+            "GP": {
+              "Unknown": 1532
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 70
+            },
+            "GP": {
+              "Unknown": 170
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 282
+            },
+            "Other": {
+              "Unknown": 1681
+            },
+            "GP": {
+              "Unknown": 1997
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 8
+            },
+            "GP": {
+              "Unknown": 34
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 429
+            },
+            "Other": {
+              "Unknown": 36
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 1538
+            },
+            "GP": {
+              "Unknown": 2174
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 69
+            },
+            "GP": {
+              "Unknown": 241
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 713
+            },
+            "GP": {
+              "Unknown": 908
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2378
+            },
+            "GP": {
+              "Unknown": 782
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 120
+            },
+            "GP": {
+              "Unknown": 307
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 56
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 37
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 76
+            },
+            "Other": {
+              "Unknown": 1761
+            },
+            "GP": {
+              "Unknown": 2581
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 5
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 105
+            },
+            "GP": {
+              "Unknown": 428
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 74
+            },
+            "GP": {
+              "Unknown": 41
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 189
+            },
+            "Other": {
+              "Unknown": 2098
+            },
+            "GP": {
+              "Unknown": 2020
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1690
+            },
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 1044
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 55
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 318
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 20
+            },
+            "GP": {
+              "Unknown": 44
+            }
+          }
+        },
+        "02H": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 280
+            },
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 51
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 15
+            },
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 23
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2813
+            },
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 1772
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 114
+            },
+            "Unknown": {
+              "Unknown": 56
+            },
+            "Other": {
+              "Unknown": 173
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 20
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 289
+            },
+            "Other": {
+              "Unknown": 2848
+            },
+            "GP": {
+              "Unknown": 5348
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 58
+            },
+            "Unknown": {
+              "Unknown": 56
+            },
+            "GP": {
+              "Unknown": 61
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 147
+            },
+            "Other": {
+              "Unknown": 128
+            },
+            "GP": {
+              "Unknown": 836
+            }
+          }
+        }
+      },
+      "15": {
+        "00T": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 488
+            },
+            "Unknown": {
+              "Unknown": 73
+            },
+            "Other": {
+              "Unknown": 653
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 1
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 280
+            },
+            "Other": {
+              "Unknown": 31
+            },
+            "Unknown": {
+              "Unknown": 39
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 13
+            },
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1531
+            },
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 1545
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2272
+            },
+            "GP": {
+              "Unknown": 1652
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 42
+            },
+            "GP": {
+              "Unknown": 155
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 202
+            },
+            "Other": {
+              "Unknown": 1677
+            },
+            "GP": {
+              "Unknown": 1875
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 32
+            },
+            "Other": {
+              "Unknown": 22
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 390
+            },
+            "Other": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 1612
+            },
+            "GP": {
+              "Unknown": 2042
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 46
+            },
+            "GP": {
+              "Unknown": 225
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 43
+            },
+            "Other": {
+              "Unknown": 684
+            },
+            "GP": {
+              "Unknown": 858
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2061
+            },
+            "GP": {
+              "Unknown": 687
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 6
+            },
+            "Unknown": {
+              "Unknown": 2
+            },
+            "GP": {
+              "Unknown": 13
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 112
+            },
+            "GP": {
+              "Unknown": 301
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 58
+            },
+            "Other": {
+              "Unknown": 59
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 67
+            },
+            "Other": {
+              "Unknown": 1734
+            },
+            "GP": {
+              "Unknown": 2293
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 5
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 100
+            },
+            "GP": {
+              "Unknown": 360
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 62
+            },
+            "GP": {
+              "Unknown": 39
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 165
+            },
+            "Other": {
+              "Unknown": 1966
+            },
+            "GP": {
+              "Unknown": 1831
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 337
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 33
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 844
+            },
+            "GP": {
+              "Unknown": 1606
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 32
+            },
+            "Other": {
+              "Unknown": 117
+            },
+            "GP": {
+              "Unknown": 93
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 16
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1272
+            },
+            "GP": {
+              "Unknown": 1527
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 201
+            },
+            "Unknown": {
+              "Unknown": 3
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 13
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 268
+            },
+            "Other": {
+              "Unknown": 2511
+            },
+            "GP": {
+              "Unknown": 4460
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 45
+            },
+            "Other": {
+              "Unknown": 44
+            },
+            "GP": {
+              "Unknown": 62
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 116
+            },
+            "Other": {
+              "Unknown": 120
+            },
+            "GP": {
+              "Unknown": 756
+            }
+          }
+        }
+      },
+      "16": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 71
+            },
+            "Other": {
+              "Unknown": 751
+            },
+            "GP": {
+              "Unknown": 505
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 43
+            },
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 207
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 22
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 1428
+            },
+            "GP": {
+              "Unknown": 1611
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1940
+            },
+            "GP": {
+              "Unknown": 1423
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 161
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 196
+            },
+            "Other": {
+              "Unknown": 1519
+            },
+            "GP": {
+              "Unknown": 1913
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 32
+            },
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 37
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 1369
+            },
+            "GP": {
+              "Unknown": 1982
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 404
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 240
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 834
+            },
+            "GP": {
+              "Unknown": 869
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2173
+            },
+            "GP": {
+              "Unknown": 727
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 58
+            },
+            "Other": {
+              "Unknown": 1542
+            },
+            "GP": {
+              "Unknown": 2463
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 108
+            },
+            "GP": {
+              "Unknown": 290
+            },
+            "Unknown": {
+              "Unknown": 31
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 7
+            },
+            "Unknown": {
+              "Unknown": 66
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 4
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 67
+            },
+            "GP": {
+              "Unknown": 352
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 91
+            },
+            "GP": {
+              "Unknown": 48
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1917
+            },
+            "Unknown": {
+              "Unknown": 117
+            },
+            "GP": {
+              "Unknown": 1730
+            }
+          }
+        },
+        "02A": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 67
+            },
+            "Other": {
+              "Unknown": 19
+            },
+            "GP": {
+              "Unknown": 303
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 68
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 745
+            },
+            "GP": {
+              "Unknown": 1490
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 36
+            },
+            "Other": {
+              "Unknown": 129
+            },
+            "GP": {
+              "Unknown": 161
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 73
+            },
+            "GP": {
+              "Unknown": 256
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 19
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1992
+            },
+            "GP": {
+              "Unknown": 2474
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 4
+            },
+            "GP": {
+              "Unknown": 20
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 840
+            },
+            "Unknown": {
+              "Unknown": 112
+            },
+            "Other": {
+              "Unknown": 88
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 69
+            },
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 55
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 5331
+            },
+            "Unknown": {
+              "Unknown": 285
+            },
+            "Other": {
+              "Unknown": 2788
+            }
+          }
+        }
+      },
+      "17": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 72
+            },
+            "Other": {
+              "Unknown": 659
+            },
+            "GP": {
+              "Unknown": 524
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 55
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 268
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 4
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 1231
+            },
+            "GP": {
+              "Unknown": 1568
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1935
+            },
+            "GP": {
+              "Unknown": 1387
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 41
+            },
+            "GP": {
+              "Unknown": 136
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 17
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 201
+            },
+            "Other": {
+              "Unknown": 1369
+            },
+            "GP": {
+              "Unknown": 1745
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2008
+            },
+            "Other": {
+              "Unknown": 1242
+            },
+            "Unknown": {
+              "Unknown": 9
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 13
+            },
+            "Unknown": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 50
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 388
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 238
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 12
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 48
+            },
+            "Other": {
+              "Unknown": 567
+            },
+            "GP": {
+              "Unknown": 904
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 1983
+            },
+            "GP": {
+              "Unknown": 715
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 45
+            },
+            "Other": {
+              "Unknown": 96
+            },
+            "GP": {
+              "Unknown": 270
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 51
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 89
+            },
+            "Other": {
+              "Unknown": 1142
+            },
+            "GP": {
+              "Unknown": 2439
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1998
+            },
+            "Unknown": {
+              "Unknown": 183
+            },
+            "Other": {
+              "Unknown": 1613
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 59
+            },
+            "GP": {
+              "Unknown": 282
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 50
+            },
+            "GP": {
+              "Unknown": 47
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 4
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 59
+            },
+            "Other": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 325
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 27
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 726
+            },
+            "GP": {
+              "Unknown": 1485
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 39
+            },
+            "Other": {
+              "Unknown": 119
+            },
+            "GP": {
+              "Unknown": 134
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 73
+            },
+            "GP": {
+              "Unknown": 231
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 1440
+            },
+            "GP": {
+              "Unknown": 2306
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 18
+            }
+          }
+        },
+        "14L": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 45
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 43
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 135
+            },
+            "Other": {
+              "Unknown": 116
+            },
+            "GP": {
+              "Unknown": 783
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 279
+            },
+            "Other": {
+              "Unknown": 2283
+            },
+            "GP": {
+              "Unknown": 4651
+            }
+          }
+        }
+      },
+      "18": {
+        "00T": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 57
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 2
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 16
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 169
+            },
+            "GP": {
+              "Unknown": 22
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 12
+            },
+            "GP": {
+              "Unknown": 24
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 3
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 44
+            },
+            "GP": {
+              "Unknown": 115
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 157
+            },
+            "GP": {
+              "Unknown": 4
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 54
+            },
+            "GP": {
+              "Unknown": 59
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 57
+            },
+            "GP": {
+              "Unknown": 18
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 73
+            },
+            "Unknown": {
+              "Unknown": 207
+            },
+            "GP": {
+              "Unknown": 93
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 2
+            },
+            "Unknown": {
+              "Unknown": 2
+            }
+          }
+        }
+      },
+      "19": {
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 127
+            },
+            "GP": {
+              "Unknown": 8
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 9
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 198
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 44
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 38
+            },
+            "Unknown": {
+              "Unknown": 98
+            }
+          }
+        }
+      },
+      "20": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 85
+            },
+            "Other": {
+              "Unknown": 684
+            },
+            "GP": {
+              "Unknown": 705
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 55
+            },
+            "Other": {
+              "Unknown": 62
+            },
+            "GP": {
+              "Unknown": 338
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 1504
+            },
+            "GP": {
+              "Unknown": 1942
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 8
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2280
+            },
+            "GP": {
+              "Unknown": 1895
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 63
+            },
+            "GP": {
+              "Unknown": 163
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 249
+            },
+            "Other": {
+              "Unknown": 1770
+            },
+            "GP": {
+              "Unknown": 2135
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 1790
+            },
+            "GP": {
+              "Unknown": 2321
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 67
+            },
+            "GP": {
+              "Unknown": 460
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 57
+            },
+            "GP": {
+              "Unknown": 260
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 31
+            },
+            "Other": {
+              "Unknown": 611
+            },
+            "GP": {
+              "Unknown": 1143
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2568
+            },
+            "GP": {
+              "Unknown": 859
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 6
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 36
+            },
+            "Other": {
+              "Unknown": 125
+            },
+            "GP": {
+              "Unknown": 373
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 54
+            },
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 76
+            },
+            "Other": {
+              "Unknown": 1519
+            },
+            "GP": {
+              "Unknown": 2884
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 1
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 5
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 125
+            },
+            "GP": {
+              "Unknown": 411
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 77
+            },
+            "GP": {
+              "Unknown": 52
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 173
+            },
+            "Other": {
+              "Unknown": 2108
+            },
+            "GP": {
+              "Unknown": 2186
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 82
+            },
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 367
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 7
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 897
+            },
+            "GP": {
+              "Unknown": 1794
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 37
+            },
+            "Other": {
+              "Unknown": 103
+            },
+            "GP": {
+              "Unknown": 109
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 66
+            },
+            "GP": {
+              "Unknown": 272
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 1744
+            },
+            "GP": {
+              "Unknown": 2737
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 21
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 213
+            },
+            "Other": {
+              "Unknown": 146
+            },
+            "GP": {
+              "Unknown": 941
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 59
+            },
+            "Other": {
+              "Unknown": 63
+            },
+            "GP": {
+              "Unknown": 57
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 373
+            },
+            "Other": {
+              "Unknown": 3050
+            },
+            "GP": {
+              "Unknown": 5771
+            }
+          }
+        }
+      },
+      "21": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 80
+            },
+            "Other": {
+              "Unknown": 694
+            },
+            "GP": {
+              "Unknown": 555
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 41
+            },
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 250
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 1549
+            },
+            "GP": {
+              "Unknown": 1674
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 9
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2261
+            },
+            "GP": {
+              "Unknown": 1637
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 68
+            },
+            "GP": {
+              "Unknown": 161
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 13
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 220
+            },
+            "Other": {
+              "Unknown": 1716
+            },
+            "GP": {
+              "Unknown": 1916
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 44
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 1665
+            },
+            "GP": {
+              "Unknown": 1963
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 382
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 52
+            },
+            "GP": {
+              "Unknown": 229
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 816
+            },
+            "GP": {
+              "Unknown": 896
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2475
+            },
+            "GP": {
+              "Unknown": 710
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 2
+            },
+            "GP": {
+              "Unknown": 5
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 139
+            },
+            "GP": {
+              "Unknown": 289
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 34
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 79
+            },
+            "Other": {
+              "Unknown": 1716
+            },
+            "GP": {
+              "Unknown": 2465
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 5
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 100
+            },
+            "GP": {
+              "Unknown": 377
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 92
+            },
+            "GP": {
+              "Unknown": 37
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 177
+            },
+            "Other": {
+              "Unknown": 2002
+            },
+            "GP": {
+              "Unknown": 1826
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 314
+            },
+            "Unknown": {
+              "Unknown": 59
+            },
+            "Other": {
+              "Unknown": 29
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 37
+            },
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1476
+            },
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 1021
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 149
+            },
+            "GP": {
+              "Unknown": 79
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 5
+            },
+            "Other": {
+              "Unknown": 81
+            },
+            "GP": {
+              "Unknown": 272
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 1931
+            },
+            "GP": {
+              "Unknown": 2564
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 17
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 140
+            },
+            "Other": {
+              "Unknown": 111
+            },
+            "GP": {
+              "Unknown": 822
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 72
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 295
+            },
+            "Other": {
+              "Unknown": 2960
+            },
+            "GP": {
+              "Unknown": 5048
+            }
+          }
+        }
+      },
+      "22": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 63
+            },
+            "Other": {
+              "Unknown": 673
+            },
+            "GP": {
+              "Unknown": 466
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 51
+            },
+            "GP": {
+              "Unknown": 251
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 31
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 1488
+            },
+            "GP": {
+              "Unknown": 1386
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 11
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2044
+            },
+            "GP": {
+              "Unknown": 1557
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 54
+            },
+            "GP": {
+              "Unknown": 150
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 49
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 208
+            },
+            "Other": {
+              "Unknown": 1566
+            },
+            "GP": {
+              "Unknown": 1868
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 40
+            },
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 40
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 1613
+            },
+            "GP": {
+              "Unknown": 1750
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 324
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 218
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 5
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 38
+            },
+            "Other": {
+              "Unknown": 578
+            },
+            "GP": {
+              "Unknown": 887
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2255
+            },
+            "GP": {
+              "Unknown": 699
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 39
+            },
+            "Other": {
+              "Unknown": 134
+            },
+            "GP": {
+              "Unknown": 322
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 64
+            },
+            "Other": {
+              "Unknown": 73
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 68
+            },
+            "Other": {
+              "Unknown": 1662
+            },
+            "GP": {
+              "Unknown": 2340
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 3
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 100
+            },
+            "GP": {
+              "Unknown": 334
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 78
+            },
+            "GP": {
+              "Unknown": 40
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 171
+            },
+            "Other": {
+              "Unknown": 1867
+            },
+            "GP": {
+              "Unknown": 1616
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 58
+            },
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 279
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 27
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 943
+            },
+            "GP": {
+              "Unknown": 1432
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 80
+            },
+            "GP": {
+              "Unknown": 80
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 61
+            },
+            "GP": {
+              "Unknown": 177
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 1345
+            },
+            "GP": {
+              "Unknown": 1591
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 16
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 109
+            },
+            "Other": {
+              "Unknown": 127
+            },
+            "GP": {
+              "Unknown": 785
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 68
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 291
+            },
+            "Other": {
+              "Unknown": 2436
+            },
+            "GP": {
+              "Unknown": 4399
+            }
+          }
+        }
+      },
+      "23": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 59
+            },
+            "Other": {
+              "Unknown": 684
+            },
+            "GP": {
+              "Unknown": 541
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 214
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 36
+            },
+            "Other": {
+              "Unknown": 1516
+            },
+            "GP": {
+              "Unknown": 1653
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 9
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2072
+            },
+            "GP": {
+              "Unknown": 1451
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 151
+            },
+            "Unknown": {
+              "Unknown": 8
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 12
+            },
+            "Unknown": {
+              "Unknown": 20
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1372
+            },
+            "GP": {
+              "Unknown": 1771
+            },
+            "Unknown": {
+              "Unknown": 163
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 308
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 37
+            },
+            "Other": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 38
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 5
+            },
+            "Other": {
+              "Unknown": 1575
+            },
+            "GP": {
+              "Unknown": 1887
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 51
+            },
+            "GP": {
+              "Unknown": 217
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "Other": {
+              "Unknown": 799
+            },
+            "GP": {
+              "Unknown": 889
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2210
+            },
+            "GP": {
+              "Unknown": 751
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 40
+            },
+            "Other": {
+              "Unknown": 95
+            },
+            "GP": {
+              "Unknown": 301
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 82
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 16
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 69
+            },
+            "Other": {
+              "Unknown": 1476
+            },
+            "GP": {
+              "Unknown": 2356
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 2
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 68
+            },
+            "GP": {
+              "Unknown": 367
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 9
+            },
+            "Other": {
+              "Unknown": 118
+            },
+            "GP": {
+              "Unknown": 48
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 115
+            },
+            "Other": {
+              "Unknown": 1912
+            },
+            "GP": {
+              "Unknown": 1666
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 85
+            },
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 330
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 37
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 747
+            },
+            "GP": {
+              "Unknown": 1483
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 41
+            },
+            "Other": {
+              "Unknown": 99
+            },
+            "GP": {
+              "Unknown": 168
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 57
+            },
+            "GP": {
+              "Unknown": 269
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 1919
+            },
+            "GP": {
+              "Unknown": 2515
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 6
+            },
+            "GP": {
+              "Unknown": 26
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 5091
+            },
+            "Unknown": {
+              "Unknown": 285
+            },
+            "Other": {
+              "Unknown": 2796
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 114
+            },
+            "Other": {
+              "Unknown": 104
+            },
+            "GP": {
+              "Unknown": 786
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 53
+            },
+            "GP": {
+              "Unknown": 47
+            }
+          }
+        }
+      },
+      "24": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 42
+            },
+            "Other": {
+              "Unknown": 557
+            },
+            "GP": {
+              "Unknown": 508
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 64
+            },
+            "Other": {
+              "Unknown": 46
+            },
+            "GP": {
+              "Unknown": 271
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 2
+            },
+            "GP": {
+              "Unknown": 8
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 1173
+            },
+            "GP": {
+              "Unknown": 1365
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1717
+            },
+            "GP": {
+              "Unknown": 1354
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 167
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 172
+            },
+            "Other": {
+              "Unknown": 1216
+            },
+            "GP": {
+              "Unknown": 1914
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 368
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 14
+            },
+            "GP": {
+              "Unknown": 43
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 1252
+            },
+            "GP": {
+              "Unknown": 1875
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 71
+            },
+            "GP": {
+              "Unknown": 241
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 573
+            },
+            "GP": {
+              "Unknown": 833
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2041
+            },
+            "GP": {
+              "Unknown": 688
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 7
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 102
+            },
+            "GP": {
+              "Unknown": 316
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 44
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 81
+            },
+            "Other": {
+              "Unknown": 1239
+            },
+            "GP": {
+              "Unknown": 2367
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 3
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 75
+            },
+            "GP": {
+              "Unknown": 339
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 55
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1631
+            },
+            "Unknown": {
+              "Unknown": 70
+            },
+            "GP": {
+              "Unknown": 1889
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 60
+            },
+            "Other": {
+              "Unknown": 8
+            },
+            "GP": {
+              "Unknown": 298
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 56
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 716
+            },
+            "GP": {
+              "Unknown": 1543
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 35
+            },
+            "Other": {
+              "Unknown": 120
+            },
+            "GP": {
+              "Unknown": 121
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 54
+            },
+            "GP": {
+              "Unknown": 200
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 8
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1273
+            },
+            "GP": {
+              "Unknown": 2298
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 15
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 113
+            },
+            "Other": {
+              "Unknown": 99
+            },
+            "GP": {
+              "Unknown": 755
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 49
+            },
+            "Other": {
+              "Unknown": 37
+            },
+            "GP": {
+              "Unknown": 58
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 279
+            },
+            "Other": {
+              "Unknown": 2220
+            },
+            "GP": {
+              "Unknown": 4722
+            }
+          }
+        }
+      },
+      "25": {
+        "00T": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 38
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 15
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 148
+            },
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 18
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 11
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 42
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 34
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 219
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 63
+            },
+            "GP": {
+              "Unknown": 48
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 54
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 159
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 76
+            }
+          }
+        }
+      },
+      "26": {
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 154
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 9
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 20
+            },
+            "GP": {
+              "Unknown": 22
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 178
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 50
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 109
+            },
+            "GP": {
+              "Unknown": 45
+            }
+          }
+        }
+      },
+      "27": {
+        "00T": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 7
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 261
+            },
+            "GP": {
+              "Unknown": 29
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 12
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 5
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 1
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 23
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 169
+            },
+            "Other": {
+              "Unknown": 3
+            },
+            "GP": {
+              "Unknown": 1
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 148
+            },
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        }
+      },
+      "28": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 106
+            },
+            "Other": {
+              "Unknown": 827
+            },
+            "GP": {
+              "Unknown": 572
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 44
+            },
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 292
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 22
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 30
+            },
+            "Other": {
+              "Unknown": 1437
+            },
+            "GP": {
+              "Unknown": 1957
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2141
+            },
+            "GP": {
+              "Unknown": 1688
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 67
+            },
+            "GP": {
+              "Unknown": 202
+            },
+            "Unknown": {
+              "Unknown": 10
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 32
+            },
+            "GP": {
+              "Unknown": 15
+            },
+            "Unknown": {
+              "Unknown": 29
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1593
+            },
+            "GP": {
+              "Unknown": 2162
+            },
+            "Unknown": {
+              "Unknown": 269
+            }
+          }
+        },
+        "01D": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2231
+            },
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 1746
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 44
+            },
+            "Other": {
+              "Unknown": 19
+            },
+            "GP": {
+              "Unknown": 37
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 407
+            }
+          }
+        },
+        "01G": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 701
+            },
+            "GP": {
+              "Unknown": 949
+            },
+            "Unknown": {
+              "Unknown": 43
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 755
+            },
+            "Other": {
+              "Unknown": 2576
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 255
+            },
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 96
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 9
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 166
+            },
+            "GP": {
+              "Unknown": 367
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 84
+            },
+            "Other": {
+              "Unknown": 60
+            },
+            "GP": {
+              "Unknown": 61
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 78
+            },
+            "Other": {
+              "Unknown": 1953
+            },
+            "GP": {
+              "Unknown": 2633
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 95
+            },
+            "GP": {
+              "Unknown": 374
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 69
+            },
+            "GP": {
+              "Unknown": 62
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 190
+            },
+            "Other": {
+              "Unknown": 2233
+            },
+            "GP": {
+              "Unknown": 2272
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 68
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 337
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 19
+            },
+            "GP": {
+              "Unknown": 57
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 986
+            },
+            "GP": {
+              "Unknown": 1844
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 92
+            },
+            "Other": {
+              "Unknown": 152
+            },
+            "Unknown": {
+              "Unknown": 62
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 292
+            },
+            "Other": {
+              "Unknown": 69
+            },
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 15
+            },
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 39
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2721
+            },
+            "Other": {
+              "Unknown": 1761
+            },
+            "Unknown": {
+              "Unknown": 3
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 13
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 272
+            },
+            "Other": {
+              "Unknown": 115
+            },
+            "GP": {
+              "Unknown": 1052
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 54
+            },
+            "Other": {
+              "Unknown": 48
+            },
+            "GP": {
+              "Unknown": 92
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 330
+            },
+            "Other": {
+              "Unknown": 2901
+            },
+            "GP": {
+              "Unknown": 5590
+            }
+          }
+        }
+      },
+      "29": {
+        "00T": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 44
+            },
+            "GP": {
+              "Unknown": 281
+            },
+            "Unknown": {
+              "Unknown": 34
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 12
+            },
+            "Unknown": {
+              "Unknown": 18
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1430
+            },
+            "GP": {
+              "Unknown": 1561
+            },
+            "Unknown": {
+              "Unknown": 46
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 521
+            },
+            "Unknown": {
+              "Unknown": 83
+            },
+            "Other": {
+              "Unknown": 697
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2288
+            },
+            "GP": {
+              "Unknown": 1518
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 161
+            },
+            "Other": {
+              "Unknown": 57
+            },
+            "Unknown": {
+              "Unknown": 11
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 273
+            },
+            "GP": {
+              "Unknown": 2109
+            },
+            "Other": {
+              "Unknown": 1518
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "GP": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 49
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 28
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 1578
+            },
+            "GP": {
+              "Unknown": 2051
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 337
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 50
+            },
+            "GP": {
+              "Unknown": 192
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 54
+            },
+            "Other": {
+              "Unknown": 589
+            },
+            "GP": {
+              "Unknown": 1003
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2266
+            },
+            "GP": {
+              "Unknown": 833
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "Other": {
+              "Unknown": 122
+            },
+            "GP": {
+              "Unknown": 292
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 58
+            },
+            "Other": {
+              "Unknown": 73
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 57
+            },
+            "Other": {
+              "Unknown": 1723
+            },
+            "GP": {
+              "Unknown": 2421
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 1
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 102
+            },
+            "GP": {
+              "Unknown": 354
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 77
+            },
+            "GP": {
+              "Unknown": 54
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 163
+            },
+            "Other": {
+              "Unknown": 1783
+            },
+            "GP": {
+              "Unknown": 1840
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 52
+            },
+            "Other": {
+              "Unknown": 21
+            },
+            "GP": {
+              "Unknown": 307
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 26
+            },
+            "GP": {
+              "Unknown": 40
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 831
+            },
+            "GP": {
+              "Unknown": 1617
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 89
+            },
+            "GP": {
+              "Unknown": 84
+            },
+            "Unknown": {
+              "Unknown": 29
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 1631
+            },
+            "Other": {
+              "Unknown": 1443
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 171
+            },
+            "Unknown": {
+              "Unknown": 5
+            },
+            "Other": {
+              "Unknown": 60
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "GP": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 23
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 13
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 156
+            },
+            "Other": {
+              "Unknown": 135
+            },
+            "GP": {
+              "Unknown": 773
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 48
+            },
+            "Other": {
+              "Unknown": 39
+            },
+            "GP": {
+              "Unknown": 60
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 316
+            },
+            "Other": {
+              "Unknown": 2659
+            },
+            "GP": {
+              "Unknown": 4470
+            }
+          }
+        }
+      },
+      "30": {
+        "00T": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1511
+            },
+            "GP": {
+              "Unknown": 1541
+            },
+            "Unknown": {
+              "Unknown": 51
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 52
+            },
+            "Unknown": {
+              "Unknown": 52
+            },
+            "GP": {
+              "Unknown": 225
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 556
+            },
+            "Unknown": {
+              "Unknown": 68
+            },
+            "Other": {
+              "Unknown": 624
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 30
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2102
+            },
+            "GP": {
+              "Unknown": 1488
+            }
+          }
+        },
+        "00Y": {
+          "Home Visit": {
+            "GP": {
+              "Unknown": 10
+            },
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 35
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1799
+            },
+            "Unknown": {
+              "Unknown": 254
+            },
+            "Other": {
+              "Unknown": 1461
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 142
+            },
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 33
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 47
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 1521
+            },
+            "GP": {
+              "Unknown": 2050
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 365
+            }
+          }
+        },
+        "01G": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 5
+            },
+            "Unknown": {
+              "Unknown": 1
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 671
+            },
+            "GP": {
+              "Unknown": 948
+            },
+            "Unknown": {
+              "Unknown": 28
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 747
+            },
+            "Other": {
+              "Unknown": 2336
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 245
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "Unknown": {
+              "Unknown": 10
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 137
+            },
+            "GP": {
+              "Unknown": 263
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 65
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 69
+            },
+            "Other": {
+              "Unknown": 1608
+            },
+            "GP": {
+              "Unknown": 2374
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 3
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 68
+            },
+            "GP": {
+              "Unknown": 318
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 104
+            },
+            "GP": {
+              "Unknown": 44
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2018
+            },
+            "Unknown": {
+              "Unknown": 171
+            },
+            "GP": {
+              "Unknown": 1735
+            }
+          }
+        },
+        "02A": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 343
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "GP": {
+              "Unknown": 70
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 673
+            },
+            "GP": {
+              "Unknown": 1568
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1890
+            },
+            "GP": {
+              "Unknown": 2657
+            },
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 3
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 138
+            },
+            "Unknown": {
+              "Unknown": 66
+            },
+            "Other": {
+              "Unknown": 148
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 243
+            },
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 64
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 7
+            },
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 24
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 139
+            },
+            "Other": {
+              "Unknown": 127
+            },
+            "GP": {
+              "Unknown": 849
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 49
+            },
+            "Other": {
+              "Unknown": 44
+            },
+            "GP": {
+              "Unknown": 60
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 272
+            },
+            "Other": {
+              "Unknown": 2960
+            },
+            "GP": {
+              "Unknown": 5224
+            }
+          }
+        }
+      },
+      "31": {
+        "00T": {
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 561
+            },
+            "Unknown": {
+              "Unknown": 74
+            },
+            "Other": {
+              "Unknown": 540
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 213
+            },
+            "Unknown": {
+              "Unknown": 55
+            },
+            "Other": {
+              "Unknown": 44
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1273
+            },
+            "GP": {
+              "Unknown": 1538
+            },
+            "Unknown": {
+              "Unknown": 33
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 12
+            },
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 11
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1762
+            },
+            "GP": {
+              "Unknown": 1498
+            }
+          }
+        },
+        "00Y": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 11
+            },
+            "Unknown": {
+              "Unknown": 20
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 156
+            },
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 66
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1319
+            },
+            "GP": {
+              "Unknown": 1799
+            },
+            "Unknown": {
+              "Unknown": 279
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 47
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 372
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1305
+            },
+            "Unknown": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 2106
+            }
+          }
+        },
+        "01G": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 549
+            },
+            "Unknown": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 875
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 81
+            },
+            "GP": {
+              "Unknown": 272
+            },
+            "Unknown": {
+              "Unknown": 11
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 582
+            },
+            "Other": {
+              "Unknown": 2140
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 84
+            },
+            "GP": {
+              "Unknown": 284
+            },
+            "Unknown": {
+              "Unknown": 33
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 39
+            },
+            "GP": {
+              "Unknown": 8
+            },
+            "Unknown": {
+              "Unknown": 47
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1321
+            },
+            "GP": {
+              "Unknown": 2411
+            },
+            "Unknown": {
+              "Unknown": 78
+            }
+          }
+        },
+        "01Y": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 4
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 60
+            },
+            "GP": {
+              "Unknown": 321
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 5
+            },
+            "Other": {
+              "Unknown": 49
+            },
+            "GP": {
+              "Unknown": 49
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 131
+            },
+            "Other": {
+              "Unknown": 1681
+            },
+            "GP": {
+              "Unknown": 2017
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 57
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 296
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 26
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 774
+            },
+            "GP": {
+              "Unknown": 1531
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 42
+            },
+            "Other": {
+              "Unknown": 118
+            },
+            "GP": {
+              "Unknown": 91
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 71
+            },
+            "GP": {
+              "Unknown": 205
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 17
+            },
+            "Other": {
+              "Unknown": 36
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 1406
+            },
+            "GP": {
+              "Unknown": 2519
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 17
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 160
+            },
+            "Other": {
+              "Unknown": 81
+            },
+            "GP": {
+              "Unknown": 790
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 37
+            },
+            "GP": {
+              "Unknown": 55
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 257
+            },
+            "Other": {
+              "Unknown": 2444
+            },
+            "GP": {
+              "Unknown": 4932
+            }
+          }
+        }
+      },
+      "01": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 66
+            },
+            "Other": {
+              "Unknown": 706
+            },
+            "GP": {
+              "Unknown": 471
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "Other": {
+              "Unknown": 58
+            },
+            "GP": {
+              "Unknown": 254
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 1529
+            },
+            "GP": {
+              "Unknown": 1281
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 3
+            },
+            "GP": {
+              "Unknown": 3
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2284
+            },
+            "GP": {
+              "Unknown": 1398
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 20
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 131
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 226
+            },
+            "Other": {
+              "Unknown": 1510
+            },
+            "GP": {
+              "Unknown": 1598
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 35
+            },
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 42
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 1655
+            },
+            "GP": {
+              "Unknown": 1812
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 48
+            },
+            "GP": {
+              "Unknown": 377
+            }
+          }
+        },
+        "01G": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 798
+            },
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 703
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 219
+            },
+            "Other": {
+              "Unknown": 70
+            },
+            "Unknown": {
+              "Unknown": 4
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 10
+            },
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 10
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2361
+            },
+            "GP": {
+              "Unknown": 672
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 143
+            },
+            "GP": {
+              "Unknown": 299
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 52
+            },
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 13
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 79
+            },
+            "Other": {
+              "Unknown": 1724
+            },
+            "GP": {
+              "Unknown": 2322
+            }
+          }
+        },
+        "01Y": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 89
+            },
+            "GP": {
+              "Unknown": 41
+            },
+            "Unknown": {
+              "Unknown": 8
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2021
+            },
+            "GP": {
+              "Unknown": 1731
+            },
+            "Unknown": {
+              "Unknown": 133
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 297
+            },
+            "Other": {
+              "Unknown": 88
+            },
+            "Unknown": {
+              "Unknown": 13
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 4
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 42
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 333
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 28
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 944
+            },
+            "GP": {
+              "Unknown": 1568
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 70
+            },
+            "GP": {
+              "Unknown": 83
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 65
+            },
+            "GP": {
+              "Unknown": 170
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 4
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 1408
+            },
+            "GP": {
+              "Unknown": 1456
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 12
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 143
+            },
+            "Other": {
+              "Unknown": 141
+            },
+            "GP": {
+              "Unknown": 693
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 35
+            },
+            "GP": {
+              "Unknown": 55
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 267
+            },
+            "Other": {
+              "Unknown": 2704
+            },
+            "GP": {
+              "Unknown": 4420
+            }
+          }
+        }
+      },
+      "02": {
+        "00T": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 249
+            },
+            "Unknown": {
+              "Unknown": 55
+            },
+            "Other": {
+              "Unknown": 51
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 562
+            },
+            "Unknown": {
+              "Unknown": 77
+            },
+            "Other": {
+              "Unknown": 763
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 11
+            },
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1587
+            },
+            "Unknown": {
+              "Unknown": 60
+            },
+            "Other": {
+              "Unknown": 1509
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 3
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 1595
+            },
+            "Other": {
+              "Unknown": 1950
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1909
+            },
+            "Unknown": {
+              "Unknown": 220
+            },
+            "Other": {
+              "Unknown": 1590
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 12
+            },
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 37
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 49
+            },
+            "GP": {
+              "Unknown": 157
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 419
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 33
+            },
+            "Other": {
+              "Unknown": 17
+            },
+            "GP": {
+              "Unknown": 33
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 1702
+            },
+            "GP": {
+              "Unknown": 2059
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 719
+            },
+            "Other": {
+              "Unknown": 2290
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 828
+            },
+            "GP": {
+              "Unknown": 826
+            },
+            "Unknown": {
+              "Unknown": 37
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 249
+            },
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 62
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 5
+            },
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 12
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 41
+            },
+            "Other": {
+              "Unknown": 144
+            },
+            "GP": {
+              "Unknown": 313
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 40
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 6
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 80
+            },
+            "Other": {
+              "Unknown": 1673
+            },
+            "GP": {
+              "Unknown": 2450
+            }
+          }
+        },
+        "01Y": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 118
+            },
+            "Unknown": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 35
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 82
+            },
+            "GP": {
+              "Unknown": 347
+            },
+            "Unknown": {
+              "Unknown": 18
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2090
+            },
+            "GP": {
+              "Unknown": 1555
+            },
+            "Unknown": {
+              "Unknown": 158
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 788
+            },
+            "GP": {
+              "Unknown": 1568
+            },
+            "Unknown": {
+              "Unknown": 34
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 361
+            },
+            "Unknown": {
+              "Unknown": 81
+            },
+            "Other": {
+              "Unknown": 21
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 43
+            },
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 12
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 166
+            },
+            "Other": {
+              "Unknown": 156
+            },
+            "Unknown": {
+              "Unknown": 46
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 271
+            },
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 64
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 16
+            },
+            "Unknown": {
+              "Unknown": 22
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2456
+            },
+            "Other": {
+              "Unknown": 1677
+            },
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 4
+            },
+            "GP": {
+              "Unknown": 33
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 139
+            },
+            "Other": {
+              "Unknown": 135
+            },
+            "GP": {
+              "Unknown": 847
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 36
+            },
+            "GP": {
+              "Unknown": 66
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 256
+            },
+            "Other": {
+              "Unknown": 2896
+            },
+            "GP": {
+              "Unknown": 5251
+            }
+          }
+        }
+      },
+      "03": {
+        "00T": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 40
+            },
+            "Other": {
+              "Unknown": 1189
+            },
+            "GP": {
+              "Unknown": 1530
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 2
+            },
+            "GP": {
+              "Unknown": 2
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 646
+            },
+            "GP": {
+              "Unknown": 579
+            },
+            "Unknown": {
+              "Unknown": 78
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 262
+            },
+            "Unknown": {
+              "Unknown": 52
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 14
+            },
+            "Unknown": {
+              "Unknown": 21
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1580
+            },
+            "GP": {
+              "Unknown": 1293
+            }
+          }
+        },
+        "00Y": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 14
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 48
+            },
+            "GP": {
+              "Unknown": 147
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 192
+            },
+            "Other": {
+              "Unknown": 1381
+            },
+            "GP": {
+              "Unknown": 1609
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 36
+            },
+            "Other": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 42
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 11
+            },
+            "Other": {
+              "Unknown": 1418
+            },
+            "GP": {
+              "Unknown": 1960
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 55
+            },
+            "GP": {
+              "Unknown": 397
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 236
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 29
+            },
+            "Other": {
+              "Unknown": 720
+            },
+            "GP": {
+              "Unknown": 832
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2039
+            },
+            "GP": {
+              "Unknown": 710
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2205
+            },
+            "Unknown": {
+              "Unknown": 109
+            },
+            "Other": {
+              "Unknown": 1233
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 288
+            },
+            "Other": {
+              "Unknown": 101
+            },
+            "Unknown": {
+              "Unknown": 39
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 55
+            },
+            "GP": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 36
+            }
+          }
+        },
+        "01Y": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 46
+            },
+            "Unknown": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 46
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1779
+            },
+            "Unknown": {
+              "Unknown": 170
+            },
+            "Other": {
+              "Unknown": 1782
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 70
+            },
+            "GP": {
+              "Unknown": 389
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "GP": {
+              "Unknown": 308
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 12
+            },
+            "GP": {
+              "Unknown": 41
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 24
+            },
+            "Other": {
+              "Unknown": 718
+            },
+            "GP": {
+              "Unknown": 1372
+            }
+          }
+        },
+        "02H": {
+          "Home Visit": {
+            "GP": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "Unknown": {
+              "Unknown": 23
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 128
+            },
+            "Other": {
+              "Unknown": 109
+            },
+            "Unknown": {
+              "Unknown": 23
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 256
+            },
+            "Other": {
+              "Unknown": 69
+            },
+            "Unknown": {
+              "Unknown": 4
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "GP": {
+              "Unknown": 2370
+            },
+            "Other": {
+              "Unknown": 1294
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 15
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 127
+            },
+            "Other": {
+              "Unknown": 89
+            },
+            "GP": {
+              "Unknown": 790
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 39
+            },
+            "Other": {
+              "Unknown": 26
+            },
+            "GP": {
+              "Unknown": 49
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 295
+            },
+            "Other": {
+              "Unknown": 2368
+            },
+            "GP": {
+              "Unknown": 4699
+            }
+          }
+        }
+      },
+      "04": {
+        "00T": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 2
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 58
+            },
+            "GP": {
+              "Unknown": 39
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 12
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 13
+            }
+          }
+        },
+        "00Y": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 18
+            },
+            "GP": {
+              "Unknown": 30
+            },
+            "Unknown": {
+              "Unknown": 174
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1
+            },
+            "GP": {
+              "Unknown": 10
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 24
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 69
+            },
+            "Other": {
+              "Unknown": 50
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 5
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 6
+            },
+            "Unknown": {
+              "Unknown": 148
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 59
+            },
+            "GP": {
+              "Unknown": 62
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 68
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 2
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 3
+            },
+            "GP": {
+              "Unknown": 2
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 184
+            },
+            "Other": {
+              "Unknown": 55
+            },
+            "GP": {
+              "Unknown": 94
+            }
+          }
+        }
+      },
+      "06": {
+        "00T": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 293
+            },
+            "Other": {
+              "Unknown": 50
+            },
+            "Unknown": {
+              "Unknown": 58
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 19
+            },
+            "Unknown": {
+              "Unknown": 24
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1959
+            },
+            "Other": {
+              "Unknown": 1301
+            },
+            "Unknown": {
+              "Unknown": 40
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 651
+            },
+            "Unknown": {
+              "Unknown": 59
+            },
+            "Other": {
+              "Unknown": 602
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 2
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2152
+            },
+            "GP": {
+              "Unknown": 1781
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 60
+            },
+            "GP": {
+              "Unknown": 174
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 25
+            },
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 19
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 311
+            },
+            "Other": {
+              "Unknown": 1570
+            },
+            "GP": {
+              "Unknown": 2275
+            }
+          }
+        },
+        "01D": {
+          "Home Visit": {
+            "GP": {
+              "Unknown": 50
+            },
+            "Unknown": {
+              "Unknown": 45
+            },
+            "Other": {
+              "Unknown": 21
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2209
+            },
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 1881
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 76
+            },
+            "GP": {
+              "Unknown": 479
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2411
+            },
+            "GP": {
+              "Unknown": 791
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 57
+            },
+            "GP": {
+              "Unknown": 292
+            },
+            "Unknown": {
+              "Unknown": 23
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 608
+            },
+            "GP": {
+              "Unknown": 1028
+            },
+            "Unknown": {
+              "Unknown": 39
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 18
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 102
+            },
+            "GP": {
+              "Unknown": 2961
+            },
+            "Other": {
+              "Unknown": 1684
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 62
+            },
+            "Unknown": {
+              "Unknown": 81
+            },
+            "Other": {
+              "Unknown": 45
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 38
+            },
+            "Other": {
+              "Unknown": 131
+            },
+            "GP": {
+              "Unknown": 376
+            }
+          }
+        },
+        "01Y": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 424
+            },
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 96
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 62
+            },
+            "Other": {
+              "Unknown": 81
+            },
+            "Unknown": {
+              "Unknown": 16
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2106
+            },
+            "Other": {
+              "Unknown": 2015
+            },
+            "Unknown": {
+              "Unknown": 224
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 4
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 409
+            },
+            "Other": {
+              "Unknown": 29
+            },
+            "Unknown": {
+              "Unknown": 84
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 20
+            },
+            "Unknown": {
+              "Unknown": 25
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1743
+            },
+            "Other": {
+              "Unknown": 889
+            },
+            "Unknown": {
+              "Unknown": 27
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 2774
+            },
+            "Other": {
+              "Unknown": 1638
+            },
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "GP": {
+              "Unknown": 96
+            },
+            "Other": {
+              "Unknown": 115
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 37
+            },
+            "Unknown": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 67
+            },
+            "GP": {
+              "Unknown": 300
+            },
+            "Unknown": {
+              "Unknown": 6
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 23
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 209
+            },
+            "Other": {
+              "Unknown": 154
+            },
+            "GP": {
+              "Unknown": 897
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 66
+            },
+            "Other": {
+              "Unknown": 42
+            },
+            "GP": {
+              "Unknown": 84
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 366
+            },
+            "Other": {
+              "Unknown": 2812
+            },
+            "GP": {
+              "Unknown": 5761
+            }
+          }
+        }
+      },
+      "07": {
+        "00T": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 22
+            },
+            "Unknown": {
+              "Unknown": 30
+            }
+          },
+          "Telephone": {
+            "Other": {
+              "Unknown": 47
+            },
+            "GP": {
+              "Unknown": 258
+            },
+            "Unknown": {
+              "Unknown": 44
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1569
+            },
+            "GP": {
+              "Unknown": 1712
+            },
+            "Unknown": {
+              "Unknown": 28
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 1
+            }
+          },
+          "Unknown": {
+            "GP": {
+              "Unknown": 572
+            },
+            "Other": {
+              "Unknown": 715
+            },
+            "Unknown": {
+              "Unknown": 98
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 1988
+            },
+            "GP": {
+              "Unknown": 1708
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 38
+            },
+            "GP": {
+              "Unknown": 157
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 26
+            },
+            "Other": {
+              "Unknown": 30
+            },
+            "GP": {
+              "Unknown": 18
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 226
+            },
+            "Other": {
+              "Unknown": 1638
+            },
+            "GP": {
+              "Unknown": 1949
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 28
+            },
+            "GP": {
+              "Unknown": 477
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 27
+            },
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 48
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "Other": {
+              "Unknown": 1704
+            },
+            "GP": {
+              "Unknown": 2040
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 57
+            },
+            "GP": {
+              "Unknown": 254
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 35
+            },
+            "Other": {
+              "Unknown": 813
+            },
+            "GP": {
+              "Unknown": 871
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2527
+            },
+            "GP": {
+              "Unknown": 787
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 1
+            },
+            "Other": {
+              "Unknown": 5
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1908
+            },
+            "GP": {
+              "Unknown": 2610
+            },
+            "Unknown": {
+              "Unknown": 105
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 320
+            },
+            "Unknown": {
+              "Unknown": 41
+            },
+            "Other": {
+              "Unknown": 155
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 47
+            },
+            "Other": {
+              "Unknown": 39
+            },
+            "Unknown": {
+              "Unknown": 73
+            }
+          }
+        },
+        "01Y": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 113
+            },
+            "Unknown": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 369
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 4
+            },
+            "Other": {
+              "Unknown": 92
+            },
+            "GP": {
+              "Unknown": 55
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 219
+            },
+            "Other": {
+              "Unknown": 2067
+            },
+            "GP": {
+              "Unknown": 1965
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1577
+            },
+            "Other": {
+              "Unknown": 1014
+            },
+            "Unknown": {
+              "Unknown": 22
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 32
+            },
+            "Unknown": {
+              "Unknown": 21
+            },
+            "Other": {
+              "Unknown": 16
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 333
+            },
+            "Unknown": {
+              "Unknown": 46
+            },
+            "Other": {
+              "Unknown": 30
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 34
+            },
+            "Other": {
+              "Unknown": 162
+            },
+            "GP": {
+              "Unknown": 91
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 1664
+            },
+            "GP": {
+              "Unknown": 2686
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 2
+            },
+            "Other": {
+              "Unknown": 55
+            },
+            "GP": {
+              "Unknown": 274
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 19
+            },
+            "GP": {
+              "Unknown": 14
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 15
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 842
+            },
+            "Unknown": {
+              "Unknown": 167
+            },
+            "Other": {
+              "Unknown": 129
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 70
+            },
+            "Unknown": {
+              "Unknown": 41
+            },
+            "Other": {
+              "Unknown": 48
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 5426
+            },
+            "Unknown": {
+              "Unknown": 290
+            },
+            "Other": {
+              "Unknown": 3070
+            }
+          }
+        }
+      },
+      "08": {
+        "00T": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 56
+            },
+            "Other": {
+              "Unknown": 661
+            },
+            "GP": {
+              "Unknown": 538
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 48
+            },
+            "Other": {
+              "Unknown": 52
+            },
+            "GP": {
+              "Unknown": 282
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 19
+            },
+            "Other": {
+              "Unknown": 13
+            },
+            "GP": {
+              "Unknown": 7
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 40
+            },
+            "Other": {
+              "Unknown": 1464
+            },
+            "GP": {
+              "Unknown": 1437
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 1
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "Other": {
+              "Unknown": 2164
+            },
+            "GP": {
+              "Unknown": 1542
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 45
+            },
+            "GP": {
+              "Unknown": 158
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 40
+            },
+            "GP": {
+              "Unknown": 13
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 245
+            },
+            "Other": {
+              "Unknown": 1624
+            },
+            "GP": {
+              "Unknown": 1861
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 336
+            },
+            "Unknown": {
+              "Unknown": 1
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 22
+            },
+            "GP": {
+              "Unknown": 39
+            },
+            "Unknown": {
+              "Unknown": 29
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1559
+            },
+            "GP": {
+              "Unknown": 1914
+            },
+            "Unknown": {
+              "Unknown": 11
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 197
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 54
+            },
+            "Other": {
+              "Unknown": 679
+            },
+            "GP": {
+              "Unknown": 877
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2309
+            },
+            "GP": {
+              "Unknown": 650
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          }
+        },
+        "01W": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 122
+            },
+            "Unknown": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 343
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 44
+            },
+            "Other": {
+              "Unknown": 58
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 81
+            },
+            "Other": {
+              "Unknown": 1679
+            },
+            "GP": {
+              "Unknown": 2412
+            }
+          }
+        },
+        "01Y": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 23
+            },
+            "Other": {
+              "Unknown": 93
+            },
+            "GP": {
+              "Unknown": 343
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 2
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 86
+            },
+            "GP": {
+              "Unknown": 23
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 159
+            },
+            "Other": {
+              "Unknown": 1954
+            },
+            "GP": {
+              "Unknown": 1748
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 50
+            },
+            "Other": {
+              "Unknown": 33
+            },
+            "GP": {
+              "Unknown": 317
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 923
+            },
+            "GP": {
+              "Unknown": 1482
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 15
+            },
+            "GP": {
+              "Unknown": 35
+            }
+          }
+        },
+        "02H": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1613
+            },
+            "Unknown": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 1261
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 206
+            },
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 43
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 9
+            },
+            "Unknown": {
+              "Unknown": 13
+            },
+            "Other": {
+              "Unknown": 32
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 134
+            },
+            "Unknown": {
+              "Unknown": 32
+            },
+            "GP": {
+              "Unknown": 86
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 11
+            }
+          }
+        },
+        "14L": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 126
+            },
+            "Other": {
+              "Unknown": 116
+            },
+            "GP": {
+              "Unknown": 722
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 43
+            },
+            "Other": {
+              "Unknown": 32
+            },
+            "GP": {
+              "Unknown": 49
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 271
+            },
+            "Other": {
+              "Unknown": 2567
+            },
+            "GP": {
+              "Unknown": 4525
+            }
+          }
+        }
+      },
+      "09": {
+        "00T": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 26
+            },
+            "GP": {
+              "Unknown": 215
+            },
+            "Unknown": {
+              "Unknown": 37
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 1432
+            },
+            "GP": {
+              "Unknown": 1742
+            },
+            "Unknown": {
+              "Unknown": 36
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 696
+            },
+            "GP": {
+              "Unknown": 522
+            },
+            "Unknown": {
+              "Unknown": 80
+            }
+          },
+          "Home Visit": {
+            "Other": {
+              "Unknown": 8
+            },
+            "GP": {
+              "Unknown": 4
+            },
+            "Unknown": {
+              "Unknown": 27
+            }
+          },
+          "Video Conference/Online": {
+            "GP": {
+              "Unknown": 6
+            },
+            "Other": {
+              "Unknown": 2
+            }
+          }
+        },
+        "00V": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 1459
+            },
+            "Other": {
+              "Unknown": 1238
+            }
+          }
+        },
+        "00Y": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 141
+            },
+            "Unknown": {
+              "Unknown": 14
+            },
+            "Other": {
+              "Unknown": 40
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 15
+            },
+            "Unknown": {
+              "Unknown": 15
+            },
+            "Other": {
+              "Unknown": 32
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1818
+            },
+            "Unknown": {
+              "Unknown": 232
+            },
+            "Other": {
+              "Unknown": 1468
+            }
+          }
+        },
+        "01D": {
+          "Telephone": {
+            "Other": {
+              "Unknown": 24
+            },
+            "GP": {
+              "Unknown": 335
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 46
+            },
+            "Unknown": {
+              "Unknown": 43
+            },
+            "Other": {
+              "Unknown": 14
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 12
+            },
+            "GP": {
+              "Unknown": 1522
+            },
+            "Other": {
+              "Unknown": 1275
+            }
+          }
+        },
+        "01G": {
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 7
+            },
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 224
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 3
+            },
+            "Other": {
+              "Unknown": 11
+            },
+            "GP": {
+              "Unknown": 11
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 769
+            },
+            "GP": {
+              "Unknown": 927
+            }
+          },
+          "Unknown": {
+            "Other": {
+              "Unknown": 2370
+            },
+            "GP": {
+              "Unknown": 697
+            }
+          }
+        },
+        "01W": {
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 53
+            },
+            "Other": {
+              "Unknown": 31
+            },
+            "GP": {
+              "Unknown": 9
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 48
+            },
+            "Other": {
+              "Unknown": 101
+            },
+            "GP": {
+              "Unknown": 291
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 66
+            },
+            "Other": {
+              "Unknown": 1591
+            },
+            "GP": {
+              "Unknown": 2527
+            }
+          }
+        },
+        "01Y": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 352
+            },
+            "Unknown": {
+              "Unknown": 22
+            },
+            "Other": {
+              "Unknown": 90
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 35
+            },
+            "Unknown": {
+              "Unknown": 10
+            },
+            "Other": {
+              "Unknown": 100
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1623
+            },
+            "Unknown": {
+              "Unknown": 117
+            },
+            "Other": {
+              "Unknown": 2111
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 2
+            }
+          }
+        },
+        "02A": {
+          "Telephone": {
+            "GP": {
+              "Unknown": 361
+            },
+            "Unknown": {
+              "Unknown": 60
+            },
+            "Other": {
+              "Unknown": 20
+            }
+          },
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 1520
+            },
+            "Unknown": {
+              "Unknown": 18
+            },
+            "Other": {
+              "Unknown": 847
+            }
+          },
+          "Home Visit": {
+            "GP": {
+              "Unknown": 43
+            },
+            "Unknown": {
+              "Unknown": 28
+            },
+            "Other": {
+              "Unknown": 12
+            }
+          },
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 1
+            }
+          }
+        },
+        "02H": {
+          "Unknown": {
+            "Unknown": {
+              "Unknown": 86
+            },
+            "Other": {
+              "Unknown": 177
+            },
+            "GP": {
+              "Unknown": 134
+            }
+          },
+          "Telephone": {
+            "Unknown": {
+              "Unknown": 8
+            },
+            "Other": {
+              "Unknown": 63
+            },
+            "GP": {
+              "Unknown": 234
+            }
+          },
+          "Home Visit": {
+            "Unknown": {
+              "Unknown": 16
+            },
+            "Other": {
+              "Unknown": 27
+            },
+            "GP": {
+              "Unknown": 15
+            }
+          },
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 5
+            },
+            "Other": {
+              "Unknown": 1895
+            },
+            "GP": {
+              "Unknown": 2504
+            }
+          },
+          "Video Conference/Online": {
+            "Other": {
+              "Unknown": 4
+            },
+            "GP": {
+              "Unknown": 42
+            }
+          }
+        },
+        "14L": {
+          "Home Visit": {
+            "Other": {
+              "Unknown": 43
+            },
+            "GP": {
+              "Unknown": 56
+            },
+            "Unknown": {
+              "Unknown": 38
+            }
+          },
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 2848
+            },
+            "GP": {
+              "Unknown": 5127
+            },
+            "Unknown": {
+              "Unknown": 258
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 897
+            },
+            "Other": {
+              "Unknown": 100
+            },
+            "Unknown": {
+              "Unknown": 134
+            }
+          }
+        }
+      },
+      "05": {
+        "00Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 179
+            },
+            "GP": {
+              "Unknown": 12
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 6
+            }
+          }
+        },
+        "01G": {
+          "Unknown": {
+            "GP": {
+              "Unknown": 13
+            }
+          }
+        },
+        "01W": {
+          "Face-to-Face": {
+            "GP": {
+              "Unknown": 5
+            }
+          }
+        },
+        "01Y": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 228
+            }
+          }
+        },
+        "02A": {
+          "Face-to-Face": {
+            "Other": {
+              "Unknown": 76
+            },
+            "GP": {
+              "Unknown": 47
+            }
+          }
+        },
+        "14L": {
+          "Face-to-Face": {
+            "Unknown": {
+              "Unknown": 94
+            },
+            "Other": {
+              "Unknown": 9
+            },
+            "GP": {
+              "Unknown": 43
+            }
+          },
+          "Telephone": {
+            "GP": {
+              "Unknown": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
