@@ -46,6 +46,7 @@ This project required the following reusable queries:
 - Cohort matching on year of birth / sex
 - Year of birth
 - Sex
+- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
 
@@ -418,6 +419,23 @@ A temp table as follows:
 _File_: `query-patient-sex.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -425,6 +443,8 @@ This project required the following clinical code sets:
 - diabetes-type-ii v1
 - polycystic-ovarian-syndrome v1
 - gestational-diabetes v1
+- diabetes-clinic v1
+- mental-health-service-referral v1
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
@@ -500,6 +520,39 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-10-13 | Vision          | 338205     |     1402 (0.41%) |       290 (0.09%) |
 
 LINK: [https://github.com/rw251/.../conditions/gestational-diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1)
+
+### Diabetes Clinic or Monitoring
+
+Codes indicating that patient was referred to or seen in a diabetes service or clinic. 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.25% - 4.57%` suggests this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-14 | EMIS | 2444414 | 84832 (3.47%) | 85416 (3.49%) | 
+| 2023-03-14 | TPP | 199043 | 6462 (3.25%) | 9707 (4.88%) | 
+| 2023-03-14 | Vision | 328887 | 15029 (4.57%) | 15007 (4.56%) | 
+
+LINK: [https://github.com/rw251/.../patient/diabetes-clinic/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/diabetes-clinic/1)
+
+### Mental Health Service Referral
+
+Codes indicating a referral to mental health or psychiatric services (`8Hc..00 - Referral to mental health team`).
+
+Codes taken from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/69/codelist/res69-mhs-referrals/ 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%7.42 - 7.53%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-14 | EMIS            | 2442845    |   182031 (7.45%) |    180789 (7.40%) |
+| 2023-03-14 | TPP             | 198952     |    14991 (7.53%) |     17842 (8.98%) |
+| 2023-03-14 | Vision          | 328600     |    24390 (7.42%) |     24539 (7.45%) |
+
+LINK: [https://github.com/rw251/.../patient/mental-health-service-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/mental-health-service-referral/1)
 
 ### COVID-19 positive antigen test
 

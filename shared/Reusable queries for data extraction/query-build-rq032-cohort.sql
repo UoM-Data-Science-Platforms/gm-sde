@@ -17,16 +17,8 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- CREATE TABLE OF PATIENTS THAT WERE PROCESSED BEFORE COPI NOTICE EXPIRED
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
+--> EXECUTE query-get-possible-patients.sql
 --> CODESET diabetes-type-ii:1 polycystic-ovarian-syndrome:1 gestational-diabetes:1
-
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
 

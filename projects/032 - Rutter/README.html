@@ -135,6 +135,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Cohort matching on year of birth / sex</li>
 <li>Year of birth</li>
 <li>Sex</li>
+<li>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>Smoking status</h3>
@@ -432,12 +433,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-sex.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
+<hr>
+<h3>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</h3>
+<p>undefined</p>
+<p><em>Input</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>File</em>: <code>query-get-possible-patients.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql">https://github.com/rw251/.../query-get-possible-patients.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
 <li>diabetes-type-ii v1</li>
 <li>polycystic-ovarian-syndrome v1</li>
 <li>gestational-diabetes v1</li>
+<li>diabetes-clinic v1</li>
+<li>mental-health-service-referral v1</li>
 <li>covid-positive-antigen-test v1</li>
 <li>covid-positive-pcr-test v1</li>
 <li>covid-positive-test-other v1</li>
@@ -584,6 +598,85 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1">https://github.com/rw251/.../conditions/gestational-diabetes/1</a></p>
+<h3>Diabetes Clinic or Monitoring</h3>
+<p>Codes indicating that patient was referred to or seen in a diabetes service or clinic.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>3.25% - 4.57%</code> suggests this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-14</td>
+<td>EMIS</td>
+<td>2444414</td>
+<td style="text-align:right">84832 (3.47%)</td>
+<td style="text-align:right">85416 (3.49%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>TPP</td>
+<td>199043</td>
+<td style="text-align:right">6462 (3.25%)</td>
+<td style="text-align:right">9707 (4.88%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>Vision</td>
+<td>328887</td>
+<td style="text-align:right">15029 (4.57%)</td>
+<td style="text-align:right">15007 (4.56%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/diabetes-clinic/1">https://github.com/rw251/.../patient/diabetes-clinic/1</a></p>
+<h3>Mental Health Service Referral</h3>
+<p>Codes indicating a referral to mental health or psychiatric services (<code>8Hc..00 - Referral to mental health team</code>).</p>
+<p>Codes taken from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/69/codelist/res69-mhs-referrals/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%7.42 - 7.53%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-14</td>
+<td>EMIS</td>
+<td>2442845</td>
+<td style="text-align:right">182031 (7.45%)</td>
+<td style="text-align:right">180789 (7.40%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>TPP</td>
+<td>198952</td>
+<td style="text-align:right">14991 (7.53%)</td>
+<td style="text-align:right">17842 (8.98%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>Vision</td>
+<td>328600</td>
+<td style="text-align:right">24390 (7.42%)</td>
+<td style="text-align:right">24539 (7.45%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/mental-health-service-referral/1">https://github.com/rw251/.../patient/mental-health-service-referral/1</a></p>
 <h3>COVID-19 positive antigen test</h3>
 <p>A code that indicates that a person has a positive antigen test for COVID-19.</p>
 <h4>COVID positive tests in primary care</h4>
