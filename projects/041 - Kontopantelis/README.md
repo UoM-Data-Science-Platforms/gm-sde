@@ -595,6 +595,7 @@ This project required the following clinical code sets:
 - selfharm-episodes v1
 - uti v1
 - palliative-and-end-of-life-care v1
+- hypogonadotropic-hypogonadism v1
 - statins v1
 - ace-inhibitor v1
 - aspirin v1
@@ -644,6 +645,12 @@ This project required the following clinical code sets:
 - alcohol-moderate-drinker v1
 - alcohol-heavy-drinker v1
 - alcohol-weekly-intake v1
+- fsh v1
+- luteinising-hormone v1
+- oestradiol v1
+- testosterone v1
+- sex-hormone-binding-globulin v1
+- androgen-level v1
 
 Further details for each code set can be found below.
 
@@ -1427,6 +1434,8 @@ LINK: [https://github.com/rw251/.../conditions/uti/1](https://github.com/rw251/g
 ### Palliative and end of life care
 
 Codes indicating palliative or end of life care.
+
+Read codes were taken from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/183/codelist/res176-palliative-and-end-of-life-care/, and codes from the other coding systems were derived from these.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
@@ -1441,6 +1450,21 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 
 LINK: [https://github.com/rw251/.../patient/palliative-and-end-of-life-care/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/palliative-and-end-of-life-care/1)
+
+### Hypogonadotropic hypogonadism
+
+Codes indicating a diagnosis of hypogonadotropic hypogonadism . 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.04%` suggests this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-14 | EMIS | 2444004 | 891 (0.04%) | 886 (0.04%) | 
+| 2023-03-14 | TPP | 199012 | 56 (0.03%) | 52 (0.03%) | 
+| 2023-03-14 | Vision | 328821 | 111 (0.03%) | 111 (0.03%) | 
+
+LINK: [https://github.com/rw251/.../conditions/hypogonadotropic-hypogonadism/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypogonadotropic-hypogonadism/1)
 
 ### Statins
 
@@ -2154,6 +2178,101 @@ LINK: [https://github.com/rw251/.../patient/alcohol-heavy-drinker/1](https://git
 
 Any code indicative of a patient's alcohol intake per week.
 LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1)
+
+### Follicle Stimulating Hormone (level)
+
+A patient's follicle stimulating hormone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`443i. - Plasma FSH level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.55% - 12.17%` suggests that there are perhaps Readv2 codes missing (lower TPP prevalence).
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-05 | EMIS            | 2662112    |  301066 (11.31%) |   301066 (11.31%) |
+| 2022-05-05 | TPP             | 212726     |   22453 (10.55%) |    22453 (10.55%) |
+| 2022-05-05 | Vision          | 342310     |   41643 (12.17%) |    41643 (12.17%) |
+
+LINK: [https://github.com/rw251/.../tests/fsh/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/fsh/1)
+
+### Luteinising Hormone (level)
+
+A patient's luteinising hormone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`443e. - Serum LH level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%9.62 - 11.5%` suggests that there are perhaps Readv2 codes missing (lower TPP prevalence).
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-16 | EMIS | 2444004 | 268160 (11%) | 268672 (11%) | 
+| 2023-03-16 | TPP | 199012 | 19139 (9.62%) | 21861 (11%) | 
+| 2023-03-16 | Vision | 328821 | 37959 (11.5%) | 37967 (11.5%) | 
+
+
+LINK: [https://github.com/rw251/.../tests/luteinising-hormone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/luteinising-hormone/1)
+
+### Oestradiol
+
+This code set only includes codes that are accompanied by a value (e.g. `1010521000000102 - Serum oestradiol level`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%4.99 - 7.11%` suggests that there may be missing codes from TPP practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-11 | EMIS            | 2658708    |  132745 (4.99%)  |   132745 (4.99%)  |
+| 2022-04-11 | TPP             | 212645     |    5376 (2.53%)  |     5376 (2.53%)  |
+| 2022-04-11 | Vision          | 341667     |   24297 (7.11%)  |    24297 (7.11%)  |
+
+LINK: [https://github.com/rw251/.../tests/oestradiol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/oestradiol/1)
+
+### Testosterone (level)
+
+A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`4473.00 - Serum testosterone`). It does not include codes that indicate a patient's testosterone level (`4473100 - Serum testosterone level abnormal`) without giving the actual value.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    |   137971 (5.29%) |    137971 (5.29%) |
+| 2021-05-11 | TPP             | 210810     |    10359 (4.91%) |     10359 (4.91%) |
+| 2021-05-11 | Vision          | 334784     |    20903 (6.24%) |     20903 (6.24%) |
+
+LINK: [https://github.com/rw251/.../tests/testosterone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/testosterone/1)
+
+### SHBG (sex hormone binding globin)
+
+A patient's SHBG level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44CD.00 - Serum sex hormone binding globulin level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.57% - 3.72%` suggests that this code set is perhaps not well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2606497    |    87601 (3.36%) |     87601 (3.36%) |
+| 2021-05-07 | TPP             | 210810     |     5424 (2.57%) |      5424 (2.57%) |
+| 2021-05-07 | Vision          | 334784     |    12465 (3.72%) |     12465 (3.72%) |
+
+LINK: [https://github.com/rw251/.../tests/sex-hormone-binding-globulin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/sex-hormone-binding-globulin/1)
+
+### Androgen Level
+
+This code set only includes codes that are accompanied by a value (e.g. `XAJAm	- Androgen level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.0 - 1.19%` suggests that this code set is likely well defined.
+
+Update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-16 | EMIS | 2444004 | 470 (0.0192%) | 483 (0.0198%) | 
+| 2023-03-16 | TPP | 199012 | 2374 (1.19%) | 2271 (1.14%) | 
+| 2023-03-16 | Vision | 328821 | 25 (0.0076%) | 25 (0.0076%) | 
+
+LINK: [https://github.com/rw251/.../tests/androgen-level/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/androgen-level/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../041 - Kontopantelis/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/041%20-%20Kontopantelis/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

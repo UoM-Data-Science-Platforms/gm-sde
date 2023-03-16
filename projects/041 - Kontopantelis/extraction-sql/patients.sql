@@ -686,8 +686,8 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 	ON egfr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND egfr.TestName = 'egfr' 
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
-
 WHERE 
+	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
@@ -1337,7 +1337,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND DATEDIFF(day,EventDate,DeathDate) <= 28
-AND EventDate < '2022-06-01';
+AND EventDate < '2022-03-01';
 
 
 --┌─────┐
@@ -1741,29 +1741,36 @@ SELECT
 	a.FK_Patient_Link_ID,
 	EventDate,
 	CASE WHEN c.Concept IS NULL THEN s.Concept ELSE c.Concept END AS Concept,
-	-1 AS Severity
+	-1 AS SeverityWorst,
+	-1 AS SeverityCurrent
 INTO #AllPatientSmokingStatusConcept
 FROM #AllPatientSmokingStatusCodes a
 LEFT OUTER JOIN #VersionedCodeSets c on c.FK_Reference_Coding_ID = a.FK_Reference_Coding_ID
 LEFT OUTER JOIN #VersionedSnomedSets s on s.FK_Reference_SnomedCT_ID = a.FK_Reference_SnomedCT_ID;
 
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
+SET SeverityWorst = 2, 
+	SeverityCurrent = 2
 WHERE Concept IN ('smoking-status-current');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
+SET SeverityWorst = 2, 
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-ex');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
+SET SeverityWorst = 1,	
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-ex-trivial');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
+SET SeverityWorst = 1,
+	SeverityCurrent = 1
 WHERE Concept IN ('smoking-status-trivial');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
+SET SeverityWorst = 0,
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-never');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
+SET SeverityWorst = 0,
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-currently-not');
 
 -- passive smokers
@@ -1776,13 +1783,13 @@ IF OBJECT_ID('tempdb..#TempWorst') IS NOT NULL DROP TABLE #TempWorst;
 SELECT 
 	FK_Patient_Link_ID, 
 	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
+		WHEN MAX(SeverityWorst) = 2 THEN 'non-trivial-smoker'
+		WHEN MAX(SeverityWorst) = 1 THEN 'trivial-smoker'
+		WHEN MAX(SeverityWorst) = 0 THEN 'non-smoker'
 	END AS [Status]
 INTO #TempWorst
 FROM #AllPatientSmokingStatusConcept
-WHERE Severity >= 0
+WHERE SeverityWorst >= 0
 GROUP BY FK_Patient_Link_ID;
 
 -- For "current" smoking status
@@ -1790,15 +1797,15 @@ IF OBJECT_ID('tempdb..#TempCurrent') IS NOT NULL DROP TABLE #TempCurrent;
 SELECT 
 	a.FK_Patient_Link_ID, 
 	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
+		WHEN MAX(SeverityCurrent) = 2 THEN 'non-trivial-smoker'
+		WHEN MAX(SeverityCurrent) = 1 THEN 'trivial-smoker'
+		WHEN MAX(SeverityCurrent) = 0 THEN 'non-smoker'
 	END AS [Status]
 INTO #TempCurrent
 FROM #AllPatientSmokingStatusConcept a
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate FROM #AllPatientSmokingStatusConcept
-	WHERE Severity >= 0
+	WHERE SeverityCurrent >= 0
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
 GROUP BY a.FK_Patient_Link_ID;

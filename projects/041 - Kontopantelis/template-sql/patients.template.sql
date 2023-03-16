@@ -178,7 +178,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND DATEDIFF(day,EventDate,DeathDate) <= 28
-AND EventDate < '2022-06-01';
+AND EventDate < '2022-03-01';
 
 
 --> EXECUTE query-patient-sex.sql

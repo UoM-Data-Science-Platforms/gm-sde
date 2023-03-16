@@ -575,6 +575,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>selfharm-episodes v1</li>
 <li>uti v1</li>
 <li>palliative-and-end-of-life-care v1</li>
+<li>hypogonadotropic-hypogonadism v1</li>
 <li>statins v1</li>
 <li>ace-inhibitor v1</li>
 <li>aspirin v1</li>
@@ -624,6 +625,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>alcohol-moderate-drinker v1</li>
 <li>alcohol-heavy-drinker v1</li>
 <li>alcohol-weekly-intake v1</li>
+<li>fsh v1</li>
+<li>luteinising-hormone v1</li>
+<li>oestradiol v1</li>
+<li>testosterone v1</li>
+<li>sex-hormone-binding-globulin v1</li>
+<li>androgen-level v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Glomerular filtration rate (GFR)</h3>
@@ -2567,6 +2574,7 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/uti/1">https://github.com/rw251/.../conditions/uti/1</a></p>
 <h3>Palliative and end of life care</h3>
 <p>Codes indicating palliative or end of life care.</p>
+<p>Read codes were taken from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/183/codelist/res176-palliative-and-end-of-life-care/, and codes from the other coding systems were derived from these.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.01% - 1.25%</code> is too wide so these codes are not sufficiently well recorded in practice. Also the figure of <code>1.25%</code> is far lower than the actual figure is expected to be from public data.</p>
@@ -2605,6 +2613,45 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/palliative-and-end-of-life-care/1">https://github.com/rw251/.../patient/palliative-and-end-of-life-care/1</a></p>
+<h3>Hypogonadotropic hypogonadism</h3>
+<p>Codes indicating a diagnosis of hypogonadotropic hypogonadism .</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.03% - 0.04%</code> suggests this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-14</td>
+<td>EMIS</td>
+<td>2444004</td>
+<td style="text-align:right">891 (0.04%)</td>
+<td style="text-align:right">886 (0.04%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>TPP</td>
+<td>199012</td>
+<td style="text-align:right">56 (0.03%)</td>
+<td style="text-align:right">52 (0.03%)</td>
+</tr>
+<tr>
+<td>2023-03-14</td>
+<td>Vision</td>
+<td>328821</td>
+<td style="text-align:right">111 (0.03%)</td>
+<td style="text-align:right">111 (0.03%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypogonadotropic-hypogonadism/1">https://github.com/rw251/.../conditions/hypogonadotropic-hypogonadism/1</a></p>
 <h3>Statins</h3>
 <p>This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list</p>
 <h4>Prevalence log</h4>
@@ -4278,5 +4325,241 @@ Stanozolol (0604030T0)</p>
 <h3>Alcohol intake per week</h3>
 <p>Any code indicative of a patient's alcohol intake per week.
 LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1">https://github.com/rw251/.../patient/alcohol-weekly-intake/1</a></p>
+<h3>Follicle Stimulating Hormone (level)</h3>
+<p>A patient's follicle stimulating hormone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>443i. - Plasma FSH level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.55% - 12.17%</code> suggests that there are perhaps Readv2 codes missing (lower TPP prevalence).</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-05-05</td>
+<td>EMIS</td>
+<td>2662112</td>
+<td style="text-align:right">301066 (11.31%)</td>
+<td style="text-align:right">301066 (11.31%)</td>
+</tr>
+<tr>
+<td>2022-05-05</td>
+<td>TPP</td>
+<td>212726</td>
+<td style="text-align:right">22453 (10.55%)</td>
+<td style="text-align:right">22453 (10.55%)</td>
+</tr>
+<tr>
+<td>2022-05-05</td>
+<td>Vision</td>
+<td>342310</td>
+<td style="text-align:right">41643 (12.17%)</td>
+<td style="text-align:right">41643 (12.17%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/fsh/1">https://github.com/rw251/.../tests/fsh/1</a></p>
+<h3>Luteinising Hormone (level)</h3>
+<p>A patient's luteinising hormone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>443e. - Serum LH level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%9.62 - 11.5%</code> suggests that there are perhaps Readv2 codes missing (lower TPP prevalence).</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-16</td>
+<td>EMIS</td>
+<td>2444004</td>
+<td style="text-align:right">268160 (11%)</td>
+<td style="text-align:right">268672 (11%)</td>
+</tr>
+<tr>
+<td>2023-03-16</td>
+<td>TPP</td>
+<td>199012</td>
+<td style="text-align:right">19139 (9.62%)</td>
+<td style="text-align:right">21861 (11%)</td>
+</tr>
+<tr>
+<td>2023-03-16</td>
+<td>Vision</td>
+<td>328821</td>
+<td style="text-align:right">37959 (11.5%)</td>
+<td style="text-align:right">37967 (11.5%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/luteinising-hormone/1">https://github.com/rw251/.../tests/luteinising-hormone/1</a></p>
+<h3>Oestradiol</h3>
+<p>This code set only includes codes that are accompanied by a value (e.g. <code>1010521000000102 - Serum oestradiol level</code>).</p>
+<p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%4.99 - 7.11%</code> suggests that there may be missing codes from TPP practices.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-04-11</td>
+<td>EMIS</td>
+<td>2658708</td>
+<td style="text-align:right">132745 (4.99%)</td>
+<td style="text-align:right">132745 (4.99%)</td>
+</tr>
+<tr>
+<td>2022-04-11</td>
+<td>TPP</td>
+<td>212645</td>
+<td style="text-align:right">5376 (2.53%)</td>
+<td style="text-align:right">5376 (2.53%)</td>
+</tr>
+<tr>
+<td>2022-04-11</td>
+<td>Vision</td>
+<td>341667</td>
+<td style="text-align:right">24297 (7.11%)</td>
+<td style="text-align:right">24297 (7.11%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/oestradiol/1">https://github.com/rw251/.../tests/oestradiol/1</a></p>
+<h3>Testosterone (level)</h3>
+<p>A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>4473.00 - Serum testosterone</code>). It does not include codes that indicate a patient's testosterone level (<code>4473100 - Serum testosterone level abnormal</code>) without giving the actual value.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.91% - 6.24%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-11</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">137971 (5.29%)</td>
+<td style="text-align:right">137971 (5.29%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">10359 (4.91%)</td>
+<td style="text-align:right">10359 (4.91%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">20903 (6.24%)</td>
+<td style="text-align:right">20903 (6.24%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/testosterone/1">https://github.com/rw251/.../tests/testosterone/1</a></p>
+<h3>SHBG (sex hormone binding globin)</h3>
+<p>A patient's SHBG level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44CD.00 - Serum sex hormone binding globulin level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.57% - 3.72%</code> suggests that this code set is perhaps not well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">87601 (3.36%)</td>
+<td style="text-align:right">87601 (3.36%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">5424 (2.57%)</td>
+<td style="text-align:right">5424 (2.57%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">12465 (3.72%)</td>
+<td style="text-align:right">12465 (3.72%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/sex-hormone-binding-globulin/1">https://github.com/rw251/.../tests/sex-hormone-binding-globulin/1</a></p>
+<h3>Androgen Level</h3>
+<p>This code set only includes codes that are accompanied by a value (e.g. <code>XAJAm	- Androgen level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%0.0 - 1.19%</code> suggests that this code set is likely well defined.</p>
+<p>Update:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-16</td>
+<td>EMIS</td>
+<td>2444004</td>
+<td style="text-align:right">470 (0.0192%)</td>
+<td style="text-align:right">483 (0.0198%)</td>
+</tr>
+<tr>
+<td>2023-03-16</td>
+<td>TPP</td>
+<td>199012</td>
+<td style="text-align:right">2374 (1.19%)</td>
+<td style="text-align:right">2271 (1.14%)</td>
+</tr>
+<tr>
+<td>2023-03-16</td>
+<td>Vision</td>
+<td>328821</td>
+<td style="text-align:right">25 (0.0076%)</td>
+<td style="text-align:right">25 (0.0076%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/androgen-level/1">https://github.com/rw251/.../tests/androgen-level/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/041%20-%20Kontopantelis/clinical-code-sets.csv">https://github.com/rw251/.../041 - Kontopantelis/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

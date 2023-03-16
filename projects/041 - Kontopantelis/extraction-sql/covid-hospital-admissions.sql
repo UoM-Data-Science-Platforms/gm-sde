@@ -558,8 +558,8 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 	ON egfr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND egfr.TestName = 'egfr' 
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
-
 WHERE 
+	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
