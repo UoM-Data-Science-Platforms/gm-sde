@@ -989,7 +989,7 @@ select
 	Concept,
 	SnomedCode = rc.SnomedCT_ConceptID,
 	SuppliedCode = case when len(Term) < 3 then SuppliedCode + Term else SuppliedCode end, -- for Readcodes, add the term on the end
-	FullDescription = REPLACE(f.FullDescription, ',', '|'),
+	FullDescription = REPLACE(f.FullDescription, ',', '|'), --remove commas as they mess up the data files
 	[Value]
 from #final f
 left join SharedCare.Reference_Coding rc on rc.PK_Reference_Coding_ID = f.FK_Reference_Coding_ID

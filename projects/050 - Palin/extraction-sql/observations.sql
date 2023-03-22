@@ -584,7 +584,9 @@ VALUES ('diastolic-blood-pressure',1,'EMISNQDI86',NULL,'Diastolic blood pressure
 INSERT INTO #codesemis
 VALUES ('systolic-blood-pressure',1,'EMISNQSY8',NULL,'Systolic blood pressure - left arm'),('systolic-blood-pressure',1,'EMISNQSY9',NULL,'Systolic blood pressure - right arm');
 INSERT INTO #codesemis
-VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative')
+VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative');
+INSERT INTO #codesemis
+VALUES ('white-blood-cells',1,'^ESCTWB251054',NULL,'WBC count'),('white-blood-cells',1,'^ESCTWB251056',NULL,'WBC - White blood cell count'),('white-blood-cells',1,'^ESCTWC251055',NULL,'WCC - White blood cell count'),('white-blood-cells',1,'^ESCTWH251053',NULL,'White blood cell count'),('white-blood-cells',1,'^ESCTWH251057',NULL,'White blood cell count - observation')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
