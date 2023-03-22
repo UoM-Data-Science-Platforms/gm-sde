@@ -2,8 +2,6 @@
 
 Codes indicating that patient was referred to or seen in a diabetes service or clinic. 
 
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf 
-
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.25% - 4.57%` suggests this code set is likely well defined.
