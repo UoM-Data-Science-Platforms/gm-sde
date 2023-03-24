@@ -29,7 +29,7 @@ SET NOCOUNT ON;
 
 -- LOAD CODESETS FOR OBSERVATIONS WITH A VALUE (EXCEPT THOSE ALREADY LOADED AT START OF SCRIPT)
 
---> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1 bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 
+--> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1 bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 haematocrit:1
 --> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urine-protein-creatinine-ratio:1 urinary-albumin-creatinine-ratio:1
 --> CODESET alanine-aminotransferase:1 albumin:1 alkaline-phosphatase:1 total-bilirubin:1 gamma-glutamyl-transferase:1
 --> CODESET cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 urine-blood:1  
