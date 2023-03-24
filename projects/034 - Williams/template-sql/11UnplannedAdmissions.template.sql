@@ -22,7 +22,7 @@ SET NOCOUNT ON;
 -- Create a table with all patients (ID)=========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
+FROM SharedCare.Patient_GP_History
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < '2022-06-01';
 
@@ -35,9 +35,10 @@ FROM #PatientsToInclude;
 
 
 -- Create the table of secondary admision===============================================================================================================
-SELECT DISTINCT FK_Patient_Link_ID AS PatientId, AdmissionDate AS Date
+SELECT DISTINCT FK_Patient_Link_ID AS PatientId, AdmissionDate AS Date, AcuteProvider AS HospitalTrust
 FROM #AdmissionTypes
 WHERE AdmissionDate >= @StartDate AND AdmissionDate < @EndDate 
-      AND AdmissionType = 'Unplanned' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+      AND AdmissionType = 'Unplanned' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+ORDER BY FK_Patient_Link_ID;
 
 
