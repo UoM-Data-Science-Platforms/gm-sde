@@ -50,7 +50,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @EndDate;
 
@@ -62,7 +62,7 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < @EndDate;
 
@@ -78,7 +78,7 @@ SELECT
 	FK_Patient_Link_ID,
 	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
 INTO #PatientCareHomeStatus
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND NursingCareHomeFlag IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
@@ -104,6 +104,6 @@ LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = 
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID --ethnicity and deathdate
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID --ethnicity and deathdate
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.FK_Patient_Link_ID;

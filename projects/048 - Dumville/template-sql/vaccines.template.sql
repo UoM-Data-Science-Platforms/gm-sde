@@ -31,7 +31,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
 AND EventDate < @EndDate;
 
@@ -43,7 +43,7 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
 AND MedicationDate < @EndDate;
 

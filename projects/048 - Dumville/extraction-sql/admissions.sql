@@ -89,7 +89,7 @@ INTO #AdmissionTypes FROM (
 			END
 		)	AS AdmissionId,
 		t.TenancyName AS AcuteProvider
-	FROM RLS.vw_Acute_Inpatients i
+	FROM SharedCare.Acute_Inpatients i
 	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 	WHERE EventType = 'Admission'
 	AND AdmissionDate >= @StartDate
@@ -122,6 +122,10 @@ INTO #AdmissionTypes FROM (
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPAdmissionsEndDate datetime;
+SET @TEMPAdmissionsEndDate = '2022-06-01';
+
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
 -- on the same day (but only one discharge)
@@ -135,18 +139,20 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --┌──────────────────────┐
@@ -168,6 +174,10 @@ END
 --   on the same day to the same hopsital then it's most likely data duplication rather than two short
 --   hospital stays)
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPDischargesEndDate datetime;
+SET @TEMPDischargesEndDate = '2022-06-01';
+
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
 CREATE TABLE #Discharges (
@@ -179,18 +189,20 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;;
 END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14
