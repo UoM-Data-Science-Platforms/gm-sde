@@ -35,11 +35,16 @@ FROM #PatientsToInclude;
 
 -- Create a table of all patients with GP events after the start date========================================================================================================
 IF OBJECT_ID('tempdb..#AllergyAll') IS NOT NULL DROP TABLE #AllergyAll;
-SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, FK_Reference_Coding_ID
+SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, FK_Reference_Coding_ID, GPPracticeCode
 INTO #AllergyAll
 FROM SharedCare.GP_Events
 WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AND [Version] = 1)))
       AND EventDate < @EndDate;
+
+
+-- Found 2 codes with strange strikes in practice P87002. Exclude these codes in this practice==================================================================
+DELETE FROM #AllergyAll WHERE (GPPracticeCode = 'P87002' AND FK_Reference_Coding_ID = 607002) 
+                              OR (GPPracticeCode = 'P87002' AND FK_Reference_Coding_ID = 607018)
 
 
 -- Create the table of new allergy code=============================================================================================================

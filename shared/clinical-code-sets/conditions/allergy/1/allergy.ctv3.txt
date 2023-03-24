@@ -1537,7 +1537,6 @@ XaeXG	Allergy to stainless steel
 X77e9	Allergy skin test
 x05By	Beconase Allergy
 x05lq	Benadryl Allergy
-H171.	Feather allergy
 SN53.	Allergy, unspecified
 XaNfE	Oral allergy syndrome
 XaQah	Allergy to nebivolol
