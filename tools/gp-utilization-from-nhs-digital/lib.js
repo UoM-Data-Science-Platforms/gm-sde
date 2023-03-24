@@ -512,7 +512,7 @@ function combineFiles() {
         });
     });
   });
-  fs.writeFileSync(join(OUTPUT_DIR, 'gp-utlization-data-by-ccg.csv'), output.join('\n'));
+  fs.writeFileSync(join(OUTPUT_DIR, 'gp-utilization-data-by-ccg.csv'), output.join('\n'));
 }
 
 module.exports = {

@@ -2,7 +2,7 @@
 
 ## Quick summary
 
-If someone wants to know the number of appointments, broken down by health care professional (GP, nurse etc.) and by appointment type (face-2-face, telephone etc..) then give them the file: `output/gp-utlization-data-by-ccg.csv`.
+If someone wants to know the number of appointments, broken down by health care professional (GP, nurse etc.) and by appointment type (face-2-face, telephone etc..) then give them the file: `output/gp-utilization-data-by-ccg.csv`.
 
 If you need to update the file with more recent data then execute:
 
