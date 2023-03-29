@@ -556,22 +556,6 @@ This project required the following clinical code sets:
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
-- renal-replacement-therapy v1
-- acute-kidney-injury v1
-- polycystic-kidney-disease v1
-- family-history-kidney-disease v1
-- end-stage-renal-disease v1
-- ckd-stage-1 v1
-- ckd-stage-2 v1
-- ckd-stage-3 v1
-- ckd-stage-4 v1
-- ckd-stage-5 v1
-- chronic-kidney-disease v1
-- allergy-ace v1
-- allergy-arb v1
-- allergy-aspirin v1
-- allergy-clopidogrel v1
-- allergy-statin v1
 - sle v1
 - gout v1
 - haematuria v1
@@ -596,16 +580,32 @@ This project required the following clinical code sets:
 - uti v1
 - palliative-and-end-of-life-care v1
 - hypogonadotropic-hypogonadism v1
+- renal-replacement-therapy v1
+- acute-kidney-injury v1
+- polycystic-kidney-disease v1
+- family-history-kidney-disease v1
+- end-stage-renal-disease v1
+- ckd-stage-1 v1
+- ckd-stage-2 v1
+- ckd-stage-3 v1
+- ckd-stage-4 v1
+- ckd-stage-5 v1
+- chronic-kidney-disease v1
+- allergy-ace v1
+- allergy-arb v1
+- allergy-aspirin v1
+- allergy-clopidogrel v1
+- allergy-statin v1
+- hormone-replacement-therapy-meds v1
+- female-sex-hormones v1
+- male-sex-hormones v1
+- anabolic-steroids v1
 - statins v1
 - ace-inhibitor v1
 - aspirin v1
 - clopidogrel v1
 - sglt2-inhibitors v1
 - nsaids v1
-- hormone-replacement-therapy-meds v1
-- female-sex-hormones v1
-- male-sex-hormones v1
-- anabolic-steroids v1
 - hba1c v2
 - creatinine v1
 - triglycerides v1
@@ -617,6 +617,7 @@ This project required the following clinical code sets:
 - b12 v1
 - folate v1
 - haemoglobin v1
+- haematocrit v1
 - systolic-blood-pressure v1
 - diastolic-blood-pressure v1
 - urine-protein-creatinine-ratio v1
@@ -804,259 +805,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
-
-### Renal Replacement Therapy
-
-Codes indicating that the patient has had renal replacement therapy. Codes developed from OpenSafely.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-04 | EMIS            | 2662112    |     2286 (0.09%) |      2286 (0.09%) |
-| 2022-05-04 | TPP             | 212726     |      219 (0.10%) |       219 (0.10%) |
-| 2022-05-04 | Vision          | 342310     |      286 (0.08%) |       285 (0.08%) |
-
-LINK: [https://github.com/rw251/.../procedures/renal-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/renal-replacement-therapy/1)
-
-### Acute Kidney Injury
-
-This code set was created using getset.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.74% - 16.94%` suggests that this code set is missins Readv2 codes (underreporting TPP)
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-16 | EMIS            | 2662570    |  451145 (16.94%) |   450508 (16.92%) |
-| 2021-05-16 | TPP             | 212696     |    14326 (6.74%) |     14274 (6.71%) |
-| 2021-05-16 | Vision          | 342344     |   50937 (14.88%) |    50887 (14.86%) |
-
-LINK: [https://github.com/rw251/.../conditions/acute-kidney-injury/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/acute-kidney-injury/1)
-
-### Polycystic Kidney Disease
- 
-Codes from: https://www.opencodelists.org/ctv3/concept/PD11./
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.17% - 0.21%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-05 | EMIS            | 2660237    |     4789 (0.18%) |      1252 (0.05%) |
-| 2022-04-05 | TPP             | 212647     |      352 (0.17%) |       101 (0.05%) |
-| 2022-04-05 | Vision          | 341912     |      716 (0.21%) |       156 (0.05%) |
-
-
-LINK: [https://github.com/rw251/.../conditions/polycystic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-kidney-disease/1)
-
-### Family history of kidney disease
-
-Developed manually from GMCR reference code table.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.09%` suggests that codes in this code set are rarely used.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-20 | EMIS            | 2662570    |   2512 (0.09%)   |    2512 (0.09%)   |
-| 2022-05-20 | TPP             | 212696     |    112 (0.05%)   |     112 (0.05%)   |
-| 2022-05-20 | Vision          | 342344     |     19 (0.01%)   |      19 (0.01%)   |
-
-LINK: [https://github.com/rw251/.../conditions/family-history-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/family-history-kidney-disease/1)
-
-### End stage renal disease
-
-Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/30/codelist/res30-esrd/.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.20%` suggests that this code set is well defined.
-
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-20 | EMIS            | 2662570    |   3148 (0.12%)   |    5124 (0.19%)   |
-| 2022-05-20 | TPP             | 212696     |    184 (0.09%)   |     188 (0.09%)   |
-| 2022-05-20 | Vision          | 342344     |    394 (0.12%)   |     690 (0.20%)   |
-
-LINK: [https://github.com/rw251/.../conditions/end-stage-renal-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/end-stage-renal-disease/1)
-
-### Chronic kidney disease (CKD) - Stage 1 - diagnosis codes
-
-Developed from https://getset.ga.
-
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-1/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-1/1)
-
-### Chronic kidney disease stage 2
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-2/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-2/1)
-
-### Chronic kidney disease (CKD) stage 3
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-3/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-3/1)
-
-### Chronic kidney disease (CKD) stage 4 codes
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-4/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-4/1)
-
-### Chronic kidney disease (CKD) stage 5
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-update
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
-
-### Chronic kidney disease (CKD) diagnosis codes
-
-Developed from https://getset.ga.
-This list only includes CKD diagnosis codes (`XaNbn. - Chronic kidney disease stage 3ASerum cholesterol raised`), rather than codes which indicate that a patient might have CKD (`9Ni9.00 - Did not attend chronic kidney disease monitoring clinic`).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.18% - 4.30%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |  85992 (3.23%)   |   84567 (3.18%)   |
-| 2022-04-06 | TPP             | 212647     |   9146 (4.30%)   |    9143 (4.30%)   |
-| 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
-LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
-
-### Allergy to ACE inhibitors
-
-This list contains any code that indicates an allergy to ACE inhibitors.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.02 - 0.02%` suggests that this code set is rarely used but well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-09-20 | EMIS | 2446624 | 443 (0.0181%) | 444 (0.0181%) | 
-| 2022-09-20 | TPP | 198062 | 31 (0.0157%) | 44 (0.0222%) | 
-| 2022-09-20 | Vision | 325683 | 68 (0.0209%) | 68 (0.0209%) | 
-LINK: [https://github.com/rw251/.../conditions/allergy-ace/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-ace/1)
-
-### Allergy to angiotensin II receptor antagonists
-
-This list contains any code that indicates an allergy to ARBs.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.00 - 0.00%` suggests that this code set is rarely used but well defined.
-
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-09-20 | EMIS | 2448811 | 105 (0.00429%) | 106 (0.00433%) | 
-| 2022-09-20 | TPP | 198150 | 6 (0.00303%) | 8 (0.00404%) | 
-| 2022-09-20 | Vision | 325836 | 15 (0.0046%) | 15 (0.0046%) | 
-
-LINK: [https://github.com/rw251/.../conditions/allergy-arb/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-arb/1)
-
-### Allergy to aspirin.
-
-This list contains any code that indicates an allergy to aspirin.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-update:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
-| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
-| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
-
-LINK: [https://github.com/rw251/.../conditions/allergy-aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-aspirin/1)
-
-### Allergy to clopidogrel.
-
-This list contains any code that indicates an allergy to clopidogrel.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-update:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
-| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
-| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
-
-LINK: [https://github.com/rw251/.../conditions/allergy-clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-clopidogrel/1)
-
-### Allergy to statins
-
-This list contains any code that indicates an allergy to statins.
-Developed manually from reference coding table in GMCR.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-update:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
-| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
-| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
-
-LINK: [https://github.com/rw251/.../conditions/allergy-statin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-statin/1)
 
 ### Systemic Lupus Erythematosus
  
@@ -1466,6 +1214,350 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/hypogonadotropic-hypogonadism/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypogonadotropic-hypogonadism/1)
 
+### Renal Replacement Therapy
+
+Codes indicating that the patient has had renal replacement therapy. Codes developed from OpenSafely.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-04 | EMIS            | 2662112    |     2286 (0.09%) |      2286 (0.09%) |
+| 2022-05-04 | TPP             | 212726     |      219 (0.10%) |       219 (0.10%) |
+| 2022-05-04 | Vision          | 342310     |      286 (0.08%) |       285 (0.08%) |
+
+LINK: [https://github.com/rw251/.../procedures/renal-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/renal-replacement-therapy/1)
+
+### Acute Kidney Injury
+
+This code set was created using getset.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.74% - 16.94%` suggests that this code set is missins Readv2 codes (underreporting TPP)
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-16 | EMIS            | 2662570    |  451145 (16.94%) |   450508 (16.92%) |
+| 2021-05-16 | TPP             | 212696     |    14326 (6.74%) |     14274 (6.71%) |
+| 2021-05-16 | Vision          | 342344     |   50937 (14.88%) |    50887 (14.86%) |
+
+LINK: [https://github.com/rw251/.../conditions/acute-kidney-injury/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/acute-kidney-injury/1)
+
+### Polycystic Kidney Disease
+ 
+Codes from: https://www.opencodelists.org/ctv3/concept/PD11./
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.17% - 0.21%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-05 | EMIS            | 2660237    |     4789 (0.18%) |      1252 (0.05%) |
+| 2022-04-05 | TPP             | 212647     |      352 (0.17%) |       101 (0.05%) |
+| 2022-04-05 | Vision          | 341912     |      716 (0.21%) |       156 (0.05%) |
+
+
+LINK: [https://github.com/rw251/.../conditions/polycystic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-kidney-disease/1)
+
+### Family history of kidney disease
+
+Developed manually from GMCR reference code table.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.09%` suggests that codes in this code set are rarely used.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-20 | EMIS            | 2662570    |   2512 (0.09%)   |    2512 (0.09%)   |
+| 2022-05-20 | TPP             | 212696     |    112 (0.05%)   |     112 (0.05%)   |
+| 2022-05-20 | Vision          | 342344     |     19 (0.01%)   |      19 (0.01%)   |
+
+LINK: [https://github.com/rw251/.../conditions/family-history-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/family-history-kidney-disease/1)
+
+### End stage renal disease
+
+Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/30/codelist/res30-esrd/.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.20%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-20 | EMIS            | 2662570    |   3148 (0.12%)   |    5124 (0.19%)   |
+| 2022-05-20 | TPP             | 212696     |    184 (0.09%)   |     188 (0.09%)   |
+| 2022-05-20 | Vision          | 342344     |    394 (0.12%)   |     690 (0.20%)   |
+
+LINK: [https://github.com/rw251/.../conditions/end-stage-renal-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/end-stage-renal-disease/1)
+
+### Chronic kidney disease (CKD) - Stage 1 - diagnosis codes
+
+Developed from https://getset.ga.
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-1/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-1/1)
+
+### Chronic kidney disease stage 2
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-2/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-2/1)
+
+### Chronic kidney disease (CKD) stage 3
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-3/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-3/1)
+
+### Chronic kidney disease (CKD) stage 4 codes
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-4/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-4/1)
+
+### Chronic kidney disease (CKD) stage 5
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+update
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
+
+### Chronic kidney disease (CKD) diagnosis codes
+
+Developed from https://getset.ga.
+This list only includes CKD diagnosis codes (`XaNbn. - Chronic kidney disease stage 3ASerum cholesterol raised`), rather than codes which indicate that a patient might have CKD (`9Ni9.00 - Did not attend chronic kidney disease monitoring clinic`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.18% - 4.30%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |  85992 (3.23%)   |   84567 (3.18%)   |
+| 2022-04-06 | TPP             | 212647     |   9146 (4.30%)   |    9143 (4.30%)   |
+| 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
+LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
+
+### Allergy to ACE inhibitors
+
+This list contains any code that indicates an allergy to ACE inhibitors.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.02 - 0.02%` suggests that this code set is rarely used but well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-09-20 | EMIS | 2446624 | 443 (0.0181%) | 444 (0.0181%) | 
+| 2022-09-20 | TPP | 198062 | 31 (0.0157%) | 44 (0.0222%) | 
+| 2022-09-20 | Vision | 325683 | 68 (0.0209%) | 68 (0.0209%) | 
+LINK: [https://github.com/rw251/.../conditions/allergy-ace/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-ace/1)
+
+### Allergy to angiotensin II receptor antagonists
+
+This list contains any code that indicates an allergy to ARBs.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.00 - 0.00%` suggests that this code set is rarely used but well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-09-20 | EMIS | 2448811 | 105 (0.00429%) | 106 (0.00433%) | 
+| 2022-09-20 | TPP | 198150 | 6 (0.00303%) | 8 (0.00404%) | 
+| 2022-09-20 | Vision | 325836 | 15 (0.0046%) | 15 (0.0046%) | 
+
+LINK: [https://github.com/rw251/.../conditions/allergy-arb/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-arb/1)
+
+### Allergy to aspirin.
+
+This list contains any code that indicates an allergy to aspirin.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-aspirin/1)
+
+### Allergy to clopidogrel.
+
+This list contains any code that indicates an allergy to clopidogrel.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-clopidogrel/1)
+
+### Allergy to statins
+
+This list contains any code that indicates an allergy to statins.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-statin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-statin/1)
+
+### Hormone replacement therapy medications
+
+This code set was created from BNF codes starting with 060401. A mapping from prod codes to BNF was used.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.73% - 12.27%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |   259198 (9.73%) |  269103 (10.10%)  |
+| 2022-06-28 | TPP             | 212907     |   26115 (12.27%) |    20152 (9.47%)  |
+| 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
+LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
+
+### Female sex hormones medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Estradiol (0604011G0)
+Estradiol Acetate (0604011AB)
+Estradiol and estriol with progestogen (0604011J0)
+Estradiol, estriol and estrone (0604011H0)
+Estradiol valerate (0604011K0)
+Estradiol with progestogen (0604011L0)
+Estriol (0604011M0)
+Estropipate (0604011R0)
+Ethinylestradiol (0604011D0)
+Hydroxyprogesterone caproate (0604012J0)
+Medroxyprogesterone acetate (0604012M0)
+Norethisterone (0604012P0)
+Oestrogens conjugated (0604011P0)
+Oestrogens conjugated with bazedoxifene (0604011AD)
+Oestrogens conjugated with progestogen (0604011Q0)
+Progesterone (0604012S0)
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.87% - 12.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-11 | EMIS            | 2664831    |   252718 (9.48%) |   263048 (9.87%)  |
+| 2022-07-11 | TPP             | 212907     |   25361 (11.91%) |   26008 (12.22%)  |
+| 2022-07-11 | Vision          | 343146     |    34128 (9.95%) |   35227 (10.27%)  |
+
+
+LINK: [https://github.com/rw251/.../medications/female-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/female-sex-hormones/1)
+
+### Male sex hormones medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Testosterone (0604020K0)
+Testosterone (0604020K0)
+Testosterone enantate (0604020M0)
+Testosterone esters (0604020U0)
+Testosterone propionate (0604020P0)
+Testosterone undecanoate (0604020T0)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.21 - 0.28%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-07-11 | EMIS            | 2664831    |    7063 (0.27%)  |    7459 (0.28%)   |
+| 2022-07-11 | TPP             | 212907     |     434 (0.20%)  |     456 (0.21%)   |
+| 2022-07-11 | Vision          | 343146     |     848 (0.25%)  |     868 (0.25%)   |
+LINK: [https://github.com/rw251/.../medications/male-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/male-sex-hormones/1)
+
+### Anabolic steroids medications
+
+This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
+
+Androstanalone (0604030S0)
+Nandrolone decanoate (0604030L0)
+Oxandrolone (0604030P0)
+Prasterone (0604030Q0)
+Stanozolol (0604030T0)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0 - 0%` suggests that this code set is well defined but rarely used.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-22 | EMIS | 2444244 | 106 (0.00%) | 106 (0.00%) | 
+| 2023-03-22 | TPP | 199056 | 4 (0.00%) | 4 (0.00%) | 
+| 2023-03-22 | Vision | 328968 | 15 (0.00%) | 15 (0.00%) | 
+
+
+LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anabolic-steroids/1)
+
 ### Statins
 
 This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list
@@ -1560,96 +1652,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
 | 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
 LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
-
-### Hormone replacement therapy medications
-
-This code set was created from BNF codes starting with 060401. A mapping from prod codes to BNF was used.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.73% - 12.27%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-06-28 | EMIS            | 2664831    |   259198 (9.73%) |  269103 (10.10%)  |
-| 2022-06-28 | TPP             | 212907     |   26115 (12.27%) |    20152 (9.47%)  |
-| 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
-LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
-
-### Female sex hormones medications
-
-This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
-
-Estradiol (0604011G0)
-Estradiol Acetate (0604011AB)
-Estradiol and estriol with progestogen (0604011J0)
-Estradiol, estriol and estrone (0604011H0)
-Estradiol valerate (0604011K0)
-Estradiol with progestogen (0604011L0)
-Estriol (0604011M0)
-Estropipate (0604011R0)
-Ethinylestradiol (0604011D0)
-Hydroxyprogesterone caproate (0604012J0)
-Medroxyprogesterone acetate (0604012M0)
-Norethisterone (0604012P0)
-Oestrogens conjugated (0604011P0)
-Oestrogens conjugated with bazedoxifene (0604011AD)
-Oestrogens conjugated with progestogen (0604011Q0)
-Progesterone (0604012S0)
-
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.87% - 12.22%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-07-11 | EMIS            | 2664831    |   252718 (9.48%) |   263048 (9.87%)  |
-| 2022-07-11 | TPP             | 212907     |   25361 (11.91%) |   26008 (12.22%)  |
-| 2022-07-11 | Vision          | 343146     |    34128 (9.95%) |   35227 (10.27%)  |
-
-
-LINK: [https://github.com/rw251/.../medications/female-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/female-sex-hormones/1)
-
-### Male sex hormones medications
-
-This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
-
-Testosterone (0604020K0)
-Testosterone (0604020K0)
-Testosterone enantate (0604020M0)
-Testosterone esters (0604020U0)
-Testosterone propionate (0604020P0)
-Testosterone undecanoate (0604020T0)
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.21 - 0.28%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-07-11 | EMIS            | 2664831    |    7063 (0.27%)  |    7459 (0.28%)   |
-| 2022-07-11 | TPP             | 212907     |     434 (0.20%)  |     456 (0.21%)   |
-| 2022-07-11 | Vision          | 343146     |     848 (0.25%)  |     868 (0.25%)   |
-LINK: [https://github.com/rw251/.../medications/male-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/male-sex-hormones/1)
-
-### Anabolic steroids medications
-
-This code set was created from a BNF to SNOMED mapping file, using the following list from the PI for RQ041:
-
-Androstanalone (0604030S0)
-Nandrolone decanoate (0604030L0)
-Oxandrolone (0604030P0)
-Prasterone (0604030Q0)
-Stanozolol (0604030T0)
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0 - 0%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-07-11 | EMIS            | 2664831    |    97 (0.00%)    |     99 (0.00%)    |
-| 2022-07-11 | TPP             | 212907     |     4 (0.00%)    |      4 (0.00%)    |
-| 2022-07-11 | Vision          | 343146     |    12 (0.00%)    |     12 (0.00%)    |
-
-LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anabolic-steroids/1)
 
 ### HbA1c
 
@@ -1832,6 +1834,24 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
 | 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
 LINK: [https://github.com/rw251/.../tests/haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1)
+
+### Haematocrit
+
+A patient's haematocrit percentage as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`XE2Zq - Haematocrit - PCV level`). It does not include codes that indicate a patient's haematocrit (`4253 - Haematocrit - PCV - high`) without giving the actual value.
+
+Haematocrit codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
+
+**NB: This code set is intended to only indicate a patient's haematocrit percentage**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `57.2% - 65.6%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-03-22 | EMIS | 2444244 | 1455735 (59.6%) | 1457398 (59.6%) | 
+| 2023-03-22 | TPP | 199056 | 130631 (65.6%) | 137852 (69.3%) | 
+| 2023-03-22 | Vision | 328968 | 188030 (57.2%) | 188084 (57.2%) | 
+LINK: [https://github.com/rw251/.../tests/haematocrit/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haematocrit/1)
 
 ### Systolic Blood pressure
 
@@ -2262,7 +2282,7 @@ LINK: [https://github.com/rw251/.../tests/sex-hormone-binding-globulin/1](https:
 This code set only includes codes that are accompanied by a value (e.g. `XAJAm	- Androgen level`).
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.0 - 1.19%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.01 - 1.19%` suggests potential missing codes from EMIS and Vision practices.
 
 Update:
 
