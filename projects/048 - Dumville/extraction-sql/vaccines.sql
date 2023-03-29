@@ -20,6 +20,12 @@ SET @EndDate = '2022-07-01';
 
 -- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
 
+-- Remove admissions ahead of our cut-off date
+DELETE FROM #OxAtHome WHERE AdmissionDate > '2022-06-01';
+
+-- Censor discharges after cut-off to appear as NULL
+UPDATE #OxAtHome SET DischargeDate = NULL WHERE DischargeDate > '2022-06-01';
+
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
