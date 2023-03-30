@@ -278,9 +278,13 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 -- >>> Following code sets injected: allergy v1
 
 
+-- Delete code H171. in #AllCodes table==================================================================================================================================
+-- This will delete 5 codes: Cat allergy, Dander (animal) allergy, House dust allergy, Feather allergy, House dust mite allergy
+DELETE FROM #AllCodes WHERE Code = 'H171.'
+
 -- Create a table of all patients with GP events after the start date========================================================================================================
 IF OBJECT_ID('tempdb..#AllergyAll') IS NOT NULL DROP TABLE #AllergyAll;
-SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, FK_Reference_Coding_ID, GPPracticeCode
+SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, SuppliedCode, GPPracticeCode
 INTO #AllergyAll
 FROM SharedCare.GP_Events
 WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AND [Version] = 1)))
@@ -288,13 +292,13 @@ WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AN
 
 
 -- Found 2 codes with strange strikes in practice P87002. Exclude these codes in this practice==================================================================
-DELETE FROM #AllergyAll WHERE (GPPracticeCode = 'P87002' AND FK_Reference_Coding_ID = 607002) 
-                              OR (GPPracticeCode = 'P87002' AND FK_Reference_Coding_ID = 607018)
+DELETE FROM #AllergyAll WHERE (GPPracticeCode = 'P87002' AND SuppliedCode = 'TJC24') 
+                              OR (GPPracticeCode = 'P87002' AND SuppliedCode = 'TJC47')
 
 
 -- Create the table of new allergy code=============================================================================================================
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS Date
 FROM #AllergyAll
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-GROUP BY FK_Patient_Link_ID, FK_Reference_Coding_ID
+GROUP BY FK_Patient_Link_ID, SuppliedCode
 HAVING YEAR(MIN(EventDate)) >= 2019;
