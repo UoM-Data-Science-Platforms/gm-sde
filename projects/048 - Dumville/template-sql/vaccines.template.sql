@@ -56,5 +56,5 @@ AND MedicationDate < @EndDate;
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 
 SELECT FK_Patient_Link_ID AS PatientId, EventDate AS VaccineDate FROM #COVIDVaccines
-WHERE FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link); --ensure we don't include opt-outs
+WHERE FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link) --ensure we don't include opt-outs
 ORDER BY FK_Patient_Link_ID, EventDate;
