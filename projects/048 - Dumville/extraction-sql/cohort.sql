@@ -43,7 +43,8 @@ UPDATE #OxAtHome SET DischargeDate = NULL WHERE DischargeDate > '2022-06-01';
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
 WHERE AdmissionDate < @EndDate
-AND (DischargeDate IS NULL OR DischargeDate < @EndDate);
+AND (DischargeDate IS NULL OR DischargeDate < @EndDate)
+AND FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link); --ensure we don't include opt-outs
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
@@ -749,8 +750,8 @@ GROUP BY FK_Patient_Link_ID;
 -- Bring together for final output
 SELECT 
   m.FK_Patient_Link_ID AS PatientId,
-  m.AdmissionDate AS OximetryAtHomeStart,
-  m.DischargeDate AS OximetryAtHomeEnd,
+  o.AdmissionDate AS OximetryAtHomeStart,
+  o.DischargeDate AS OximetryAtHomeEnd,
   FirstCovidPositiveDate,
   SecondCovidPositiveDate,
   ThirdCovidPositiveDate,
@@ -762,7 +763,8 @@ SELECT
   MONTH(DeathDate) AS MonthOfDeath,
   YEAR(DeathDate) AS YearOfDeath,
   IsCareHomeResident
-FROM #OxAtHome m
+FROM #Patients m
+LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID

@@ -35,7 +35,8 @@ UPDATE #OxAtHome SET DischargeDate = NULL WHERE DischargeDate > '2022-06-01';
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
 WHERE AdmissionDate < @EndDate
-AND (DischargeDate IS NULL OR DischargeDate < @EndDate);
+AND (DischargeDate IS NULL OR DischargeDate < @EndDate)
+AND FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link); --ensure we don't include opt-outs
 
 --┌───────────────────────────────┐
 --│ Classify secondary admissions │
