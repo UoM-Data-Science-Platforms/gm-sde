@@ -40,6 +40,7 @@ This project required the following reusable queries:
 - Patient medication data splitter for EFI
 - Electronic Frailty Index subquery
 - Electronic Frailty Index subquery
+- Number of GP records
 - Find the closest value to a particular date
 - Find the first diagnosis of a particular disease
 - COVID vaccinations
@@ -165,6 +166,29 @@ None. This populates the pre-existing #EfiEvents table with the first time the p
 _File_: `subquery-efi.sql`
 
 _Link_: [https://github.com/rw251/.../subquery-efi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/subquery-efi.sql)
+
+---
+### Number of GP records
+To get the number of GP records for each patient. Some studies have found that there are "ghost" patients who have demographic info from the GP spine feed, but who have no other records or medications from their GP. This allows those patients with 0 records to be excluded if required.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #GPRecordCount (FK_Patient_Link_ID, NumberOfEvents, NumberOfMedications)
+ 	- FK_Patient_Link_ID - unique patient id
+	- NumberOfEvents - INT
+	- NumberOfMedications - INT
+```
+_File_: `query-patient-number-of-records.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-number-of-records.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-number-of-records.sql)
 
 ---
 ### Find the closest value to a particular date

@@ -128,6 +128,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Patient medication data splitter for EFI</li>
 <li>Electronic Frailty Index subquery</li>
 <li>Electronic Frailty Index subquery</li>
+<li>Number of GP records</li>
 <li>Find the closest value to a particular date</li>
 <li>Find the first diagnosis of a particular disease</li>
 <li>COVID vaccinations</li>
@@ -223,6 +224,23 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>subquery-efi.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/subquery-efi.sql">https://github.com/rw251/.../subquery-efi.sql</a></p>
+<hr>
+<h3>Number of GP records</h3>
+<p>To get the number of GP records for each patient. Some studies have found that there are &quot;ghost&quot; patients who have demographic info from the GP spine feed, but who have no other records or medications from their GP. This allows those patients with 0 records to be excluded if required.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #GPRecordCount (FK_Patient_Link_ID, NumberOfEvents, NumberOfMedications)
+ 	- FK_Patient_Link_ID - unique patient id
+	- NumberOfEvents - INT
+	- NumberOfMedications - INT
+</code></pre>
+<p><em>File</em>: <code>query-patient-number-of-records.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-number-of-records.sql">https://github.com/rw251/.../query-patient-number-of-records.sql</a></p>
 <hr>
 <h3>Find the closest value to a particular date</h3>
 <p>To find the first diagnosis for a particular disease for every patient.</p>

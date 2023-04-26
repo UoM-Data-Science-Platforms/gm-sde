@@ -208,6 +208,7 @@ CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patien
 --> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
+--> EXECUTE query-patient-number-of-records.sql
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
@@ -301,7 +302,9 @@ SELECT
   calcium.DateOfFirstValue AS DateOfCorrectedCalciumBefore,
   calcium.Value AS ValueOfCorrectedCalciumBefore,
   calciumPost.DateOfFirstValue AS DateOfCorrectedCalciumAfter,
-  calciumPost.Value AS ValueOfCorrectedCalciumAfter
+  calciumPost.Value AS ValueOfCorrectedCalciumAfter,
+  gpRecord.NumberOfEvents,
+  gpRecord.NumberOfMedications
 FROM #Patients pat
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -349,3 +352,4 @@ LEFT OUTER JOIN #PostStartAlkalinePhosphatase phosphatasePost ON phosphatasePost
 LEFT OUTER JOIN #PreStartAlkalinePhosphatase phosphatase ON phosphatase.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #GPRecordCount gpRecord ON gpRecord.FK_Patient_Link_ID = pat.FK_Patient_Link_ID

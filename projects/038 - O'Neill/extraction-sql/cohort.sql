@@ -2543,6 +2543,44 @@ WHERE (
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 
+--┌──────────────────────┐
+--│ Number of GP records │
+--└──────────────────────┘
+
+-- OBJECTIVE: To get the number of GP records for each patient. Some studies have found
+-- 						that there are "ghost" patients who have demographic info from the GP spine
+--						feed, but who have no other records or medications from their GP. This allows
+--						those patients with 0 records to be excluded if required.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #GPRecordCount (FK_Patient_Link_ID, NumberOfEvents, NumberOfMedications)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- NumberOfEvents - INT
+--	- NumberOfMedications - INT
+
+-- Get all patients GP event records count
+IF OBJECT_ID('tempdb..#GPEventsCount') IS NOT NULL DROP TABLE #GPEventsCount;
+SELECT FK_Patient_Link_ID, COUNT(*) AS NumberOfEvents INTO #GPEventsCount FROM SharedCare.GP_Events
+GROUP BY FK_Patient_Link_ID;
+
+-- Get all patients GP medication records count
+IF OBJECT_ID('tempdb..#GPMedicationsCount') IS NOT NULL DROP TABLE #GPMedicationsCount;
+SELECT FK_Patient_Link_ID, COUNT(*) AS NumberOfMedications INTO #GPMedicationsCount FROM SharedCare.GP_Medications
+GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#GPRecordCount') IS NOT NULL DROP TABLE #GPRecordCount;
+SELECT
+	p.FK_Patient_Link_ID,
+	CASE WHEN NumberOfEvents IS NULL THEN 0 ELSE NumberOfEvents END AS NumberOfEvents,
+	CASE WHEN NumberOfMedications IS NULL THEN 0 ELSE NumberOfMedications END AS NumberOfMedications
+INTO #GPRecordCount
+FROM #Patients p
+LEFT OUTER JOIN #GPEventsCount e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #GPMedicationsCount m ON m.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
@@ -2636,7 +2674,9 @@ SELECT
   calcium.DateOfFirstValue AS DateOfCorrectedCalciumBefore,
   calcium.Value AS ValueOfCorrectedCalciumBefore,
   calciumPost.DateOfFirstValue AS DateOfCorrectedCalciumAfter,
-  calciumPost.Value AS ValueOfCorrectedCalciumAfter
+  calciumPost.Value AS ValueOfCorrectedCalciumAfter,
+  gpRecord.NumberOfEvents,
+  gpRecord.NumberOfMedications
 FROM #Patients pat
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -2684,3 +2724,4 @@ LEFT OUTER JOIN #PostStartAlkalinePhosphatase phosphatasePost ON phosphatasePost
 LEFT OUTER JOIN #PreStartAlkalinePhosphatase phosphatase ON phosphatase.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #GPRecordCount gpRecord ON gpRecord.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
