@@ -563,12 +563,12 @@ IF OBJECT_ID('tempdb..#PsychoactiveSubstanceAbuseTable') IS NOT NULL DROP TABLE 
 SELECT FK_Patient_Link_ID, EventDate INTO #PsychoactiveSubstanceAbuseTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psychoactive Substance Abuse');
 IF OBJECT_ID('tempdb..#CancerTable') IS NOT NULL DROP TABLE #CancerTable;
 SELECT FK_Patient_Link_ID, EventDate INTO #CancerTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Cancer');
-IF OBJECT_ID('tempdb..#PsoriasisOrEczemaDxTable') IS NOT NULL DROP TABLE #PsoriasisOrEczemaDxTable;
-SELECT FK_Patient_Link_ID, EventDate INTO #PsoriasisOrEczemaDxTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema');
-IF OBJECT_ID('tempdb..#EpilepsyDxTable') IS NOT NULL DROP TABLE #EpilepsyDxTable;
-SELECT FK_Patient_Link_ID, EventDate INTO #EpilepsyDxTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy');
 IF OBJECT_ID('tempdb..#IrritableBowelSyndromeDxTable') IS NOT NULL DROP TABLE #IrritableBowelSyndromeDxTable;
 SELECT FK_Patient_Link_ID, EventDate INTO #IrritableBowelSyndromeDxTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome');
+IF OBJECT_ID('tempdb..#EpilepsyDxTable') IS NOT NULL DROP TABLE #EpilepsyDxTable;
+SELECT FK_Patient_Link_ID, EventDate INTO #EpilepsyDxTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy');
+IF OBJECT_ID('tempdb..#PsoriasisOrEczemaDxTable') IS NOT NULL DROP TABLE #PsoriasisOrEczemaDxTable;
+SELECT FK_Patient_Link_ID, EventDate INTO #PsoriasisOrEczemaDxTable FROM {param:gp-events-data} WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema');
 
 -- Now for each condition add in the codes from the reference coding id rather than the snomed one (will
 -- lead to duplicates but that doesn't matter)
@@ -638,12 +638,12 @@ INSERT INTO #PsychoactiveSubstanceAbuseTable
 SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psychoactive Substance Abuse');
 INSERT INTO #CancerTable
 SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Cancer');
-INSERT INTO #PsoriasisOrEczemaDxTable
-SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema');
-INSERT INTO #EpilepsyDxTable
-SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy');
 INSERT INTO #IrritableBowelSyndromeDxTable
 SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome');
+INSERT INTO #EpilepsyDxTable
+SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy');
+INSERT INTO #PsoriasisOrEczemaDxTable
+SELECT FK_Patient_Link_ID, EventDate FROM {param:gp-events-data} WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema');
 
 -- For medication codes we do a similar thing, but deduplicate as there is a high
 -- degree of overlap, and also we don't want to count a drug twice in one day as
@@ -668,7 +668,7 @@ IF OBJECT_ID('tempdb..#IrritableBowelSyndromeRxTableA') IS NOT NULL DROP TABLE #
 SELECT FK_Patient_Link_ID, MedicationDate INTO #IrritableBowelSyndromeRxTableA FROM {param:gp-medications-table} 
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome');
 INSERT INTO #IrritableBowelSyndromeRxTableA
-SELECT FK_Patient_Link_ID, MedicationDate FROM {param:gp-medications-table}
+SELECT FK_Patient_Link_ID, MedicationDate FROM {param:gp-medications-table} 
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome');
 IF OBJECT_ID('tempdb..#IrritableBowelSyndromeRxTable') IS NOT NULL DROP TABLE #IrritableBowelSyndromeRxTable;
 SELECT DISTINCT * INTO #IrritableBowelSyndromeRxTable FROM #IrritableBowelSyndromeRxTableA;
@@ -692,7 +692,7 @@ IF OBJECT_ID('tempdb..#PsoriasisOrEczemaRxTableA') IS NOT NULL DROP TABLE #Psori
 SELECT FK_Patient_Link_ID, MedicationDate INTO #PsoriasisOrEczemaRxTableA FROM {param:gp-medications-table} 
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema');
 INSERT INTO #PsoriasisOrEczemaRxTableA
-SELECT FK_Patient_Link_ID, MedicationDate FROM {param:gp-medications-table}
+SELECT FK_Patient_Link_ID, MedicationDate FROM {param:gp-medications-table} 
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema');
 IF OBJECT_ID('tempdb..#PsoriasisOrEczemaRxTable') IS NOT NULL DROP TABLE #PsoriasisOrEczemaRxTable;
 SELECT DISTINCT * INTO #PsoriasisOrEczemaRxTable FROM #PsoriasisOrEczemaRxTableA;
