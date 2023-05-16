@@ -124,6 +124,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>COVID vaccinations</li>
+<li>Long-term condition groups per patient at an index date</li>
+<li>undefined</li>
+<li>Cohort matching on year of birth / sex / imd / and an index date</li>
 <li>Index Multiple Deprivation</li>
 <li>Lower level super output area</li>
 <li>Sex</li>
@@ -160,6 +163,69 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
+<hr>
+<h3>Long-term condition groups per patient at an index date</h3>
+<p>To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory Provides Y/N flag for each condition at some index date unique to each person.</p>
+<p><em>Input</em></p>
+<pre><code>Takes two parameters
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is &quot;SharedCare.GP_Medications&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+  Assumes there exists a temp table as follows:
+    #PatientsWithIndexDates  (FK_Patient_Link_ID, IndexDate)
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient and 40 Y/N columns
+ #LTCOnIndexDate (FK_Patient_Link_ID, HasCOPD, HasAsthma, Has...)
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-at-index-date-without-code-sets.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-at-index-date-without-code-sets.sql">https://github.com/rw251/.../query-patient-ltcs-at-index-date-without-code-sets.sql</a></p>
+<hr>
+<h3>undefined</h3>
+<p>undefined</p>
+<p><em>Input</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-code-sets.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-code-sets.sql">https://github.com/rw251/.../query-patient-ltcs-code-sets.sql</a></p>
+<hr>
+<h3>Cohort matching on year of birth / sex / imd / and an index date</h3>
+<p>To take a primary cohort and find a 1:n matched cohort based on year of birth, sex, imd, and an index date of an event.</p>
+<p><em>Input</em></p>
+<pre><code>Takes two parameters
+  - yob-flex: integer - number of years each way that still allow a year of birth match
+  - index-date-flex: integer - number of days either side of the index date that we allow matching
+  - num-matches: integer - number of matches for each patient in the cohort
+ Requires two temp tables to exist as follows:
+ #MainCohort (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth,IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+ #PotentialMatches (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth, IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, IndexDate, MatchingPatientId, MatchingYearOfBirth, MatchingIndexDate)
+  - FK_Patient_Link_ID - unique patient id for primary cohort patient
+  - YearOfBirth - of the primary cohort patient
+  - Sex - of the primary cohort patient
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - of the primary cohort patient
+  - IndexDate - date of event of interest (YYYY-MM-DD)
+  - MatchingPatientId - id of the matched patient
+  - MatchingYearOfBirth - year of birth of the matched patient
+  - MatchingIndexDate - index date for the matched patient
+</code></pre>
+<p><em>File</em>: <code>query-cohort-matching-yob-sex-imd-index-date.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-imd-index-date.sql">https://github.com/rw251/.../query-cohort-matching-yob-sex-imd-index-date.sql</a></p>
 <hr>
 <h3>Index Multiple Deprivation</h3>
 <p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
