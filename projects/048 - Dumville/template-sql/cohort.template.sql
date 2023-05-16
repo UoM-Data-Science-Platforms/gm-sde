@@ -226,6 +226,7 @@ GROUP BY FK_Patient_Link_ID;
 -- Bring together for final output
 SELECT 
   m.*,
+  cohort.MatchingPatientId,
   o.AdmissionDate AS OximetryAtHomeStart,
   o.DischargeDate AS OximetryAtHomeEnd,
   FirstCovidPositiveDate,
@@ -240,11 +241,12 @@ SELECT
   YEAR(DeathDate) AS YearOfDeath,
   IsCareHomeResident
 FROM #LTCOnIndexDate m
-LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID --ethnicity and deathdate
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #CohortStore cohort ON cohort.PatientId = m.PatientId
+LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.PatientId --ethnicity and deathdate
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.PatientId;

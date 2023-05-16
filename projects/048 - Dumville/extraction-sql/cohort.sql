@@ -1508,7 +1508,7 @@ SELECT MatchingPatientId, MatchingIndexDate FROM #CohortStore;
 --    #PatientsWithIndexDates  (FK_Patient_Link_ID, IndexDate)
 
 -- OUTPUT: A temp table with a row for each patient and 40 Y/N columns
--- #LTCOnIndexDate (FK_Patient_Link_ID, HasCOPD, HasAsthma, Has...)
+-- #LTCOnIndexDate (PatientId, HasCOPD, HasAsthma, Has...)
 
 
 
@@ -1912,7 +1912,7 @@ ORDER BY patients.FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#LTCOnIndexDate') IS NOT NULL DROP TABLE #LTCOnIndexDate;
 SELECT 
-  patients.FK_Patient_Link_ID,
+  patients.FK_Patient_Link_ID AS PatientId,
   CASE WHEN SUM(CASE WHEN atrialfibrillation.EventDate IS NULL THEN 0 ELSE 1 END) > 0 THEN 'Y' ELSE 'N' END AS HasAtrialFibrillation,
   CASE WHEN SUM(CASE WHEN coronaryheartdisease.EventDate IS NULL THEN 0 ELSE 1 END) > 0 THEN 'Y' ELSE 'N' END AS HasCoronaryHeartDisease,
   CASE WHEN SUM(CASE WHEN heartfailure.EventDate IS NULL THEN 0 ELSE 1 END) > 0 THEN 'Y' ELSE 'N' END AS HasHeartFailure,
@@ -2011,7 +2011,8 @@ GROUP BY FK_Patient_Link_ID;
 
 -- Bring together for final output
 SELECT 
-  m.FK_Patient_Link_ID AS PatientId,
+  m.*,
+  cohort.MatchingPatientId,
   o.AdmissionDate AS OximetryAtHomeStart,
   o.DischargeDate AS OximetryAtHomeEnd,
   FirstCovidPositiveDate,
@@ -2025,12 +2026,13 @@ SELECT
   MONTH(DeathDate) AS MonthOfDeath,
   YEAR(DeathDate) AS YearOfDeath,
   IsCareHomeResident
-FROM #Patients m
-LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID --ethnicity and deathdate
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+FROM #LTCOnIndexDate m
+LEFT OUTER JOIN #CohortStore cohort ON cohort.PatientId = m.PatientId
+LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.PatientId --ethnicity and deathdate
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.PatientId
+LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.PatientId;

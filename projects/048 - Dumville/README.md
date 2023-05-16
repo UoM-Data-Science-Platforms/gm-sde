@@ -98,7 +98,7 @@ Takes two parameters
 _Output_
 ```
 A temp table with a row for each patient and 40 Y/N columns
- #LTCOnIndexDate (FK_Patient_Link_ID, HasCOPD, HasAsthma, Has...)
+ #LTCOnIndexDate (PatientId, HasCOPD, HasAsthma, Has...)
 ```
 _File_: `query-patient-ltcs-at-index-date-without-code-sets.sql`
 
