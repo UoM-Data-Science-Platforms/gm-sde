@@ -34,7 +34,7 @@
 --  - MatchingYearOfBirth - year of birth of the matched patient
 --  - MatchingIndexDate - index date for the matched patient
 
--- First we extend the #PrimaryCohort table to give each age-sex combo a unique number
+-- First we extend the #PrimaryCohort table to give each age-sex-imdQuintile-indexDate combo a unique number
 -- and to avoid polluting the #MainCohort table
 IF OBJECT_ID('tempdb..#Cases') IS NOT NULL DROP TABLE #Cases;
 SELECT FK_Patient_Link_ID AS PatientId, YearOfBirth, Sex, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, IndexDate, Row_Number() OVER(PARTITION BY YearOfBirth, Sex, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, IndexDate ORDER BY FK_Patient_Link_ID) AS CaseRowNumber
@@ -68,9 +68,9 @@ CREATE TABLE #CohortStore(
 ) ON [PRIMARY];
 
 --1. First match try to match people exactly. We do this as follows:
---    - For each YOB/Sex combination we find all potential matches. E.g. all patients
---      in the potential matches with sex='F' and yob=1957
---    - We then try to assign a single match to all cohort members with sex='F' and yob=1957
+--    - For each YOB/Sex/IMD/IndexDate combination we find all potential matches. E.g. all patients
+--      in the potential matches with sex='F', yob=1957, IMDQuintile=4 and IndexDate=2021-04-03
+--    - We then try to assign a single match to all cohort members with these characteristics
 --    - If there are still matches unused, we then assign a second match to all cohort members
 --    - This continues until we either run out of matches, or successfully match everyone with
 --      the desired number of matches.
@@ -141,6 +141,10 @@ BEGIN
 	END
 	SET @Counter2  = @Counter2  + 1
 END
+
+--Useful checks:
+-- These first two queries should give the same number
 --select count(*) from #CohortStore;
 --select count(distinct MatchingPatientId) from #CohortStore;
+-- This query shows how many people have how many matches
 --SELECT Num, COUNT(*) FROM ( SELECT PatientId, COUNT(*) AS Num FROM #CohortStore GROUP BY PatientId) sub GROUP BY Num UNION SELECT 0, x FROM (SELECT COUNT(*) AS x FROM (SELECT PatientId FROM #Cases EXCEPT SELECT PatientId FROM #CohortStore) sub1) sub ORDER BY Num;
