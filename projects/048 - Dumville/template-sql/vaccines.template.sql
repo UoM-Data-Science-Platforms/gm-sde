@@ -18,13 +18,7 @@ SET NOCOUNT ON;
 DECLARE @EndDate datetime;
 SET @EndDate = '2022-07-01';
 
--- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
-
--- Remove admissions ahead of our cut-off date
-DELETE FROM #OxAtHome WHERE AdmissionDate > '2022-06-01';
-
--- Censor discharges after cut-off to appear as NULL
-UPDATE #OxAtHome SET DischargeDate = NULL WHERE DischargeDate > '2022-06-01';
+--> EXECUTE query-build-rq048-cohort.sql
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
@@ -38,7 +32,7 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -50,7 +44,7 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
 FROM SharedCare.GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < @EndDate;
 
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
