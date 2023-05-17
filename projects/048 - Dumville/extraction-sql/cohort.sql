@@ -1421,7 +1421,9 @@ SELECT DISTINCT * FROM #LtcTempRefCodes;
 INSERT INTO #SNOMEDRefCodes
 SELECT DISTINCT * FROM #LtcTempSNOMEDRefCodes;
 
--- 1. Patients with a FK_Patient_Link_ID in our list
+-- Now we create a table of events for all the people in our cohort and the matched cohort.
+-- We do this for Ref_Coding_ID and SNOMED_ID separately for performance reasons.
+-- 1. Patients with a FK_Reference_Coding_ID in our list of LTCs
 IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
 SELECT 
   FK_Patient_Link_ID,
@@ -1435,7 +1437,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < '2022-06-01';
 --45s
 
--- 2. Patients with a FK_Reference_SnomedCT_ID in our list
+-- 2. Patients with a FK_Reference_SnomedCT_ID in our list of LTCs
 IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
 SELECT 
   FK_Patient_Link_ID,
@@ -1449,19 +1451,22 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < '2022-06-01';
 --42s
 
+-- 3. Merge the 2 tables together
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT * INTO #PatientEventData FROM #PatientEventData1
 UNION
 SELECT * FROM #PatientEventData2;
 --3s
 
+-- 4. Add indexes for future speed increase
 DROP INDEX IF EXISTS eventFKData1 ON #PatientEventData;
 CREATE INDEX eventFKData1 ON #PatientEventData (FK_Reference_Coding_ID) INCLUDE (FK_Patient_Link_ID, EventDate);
 DROP INDEX IF EXISTS eventFKData2 ON #PatientEventData;
 CREATE INDEX eventFKData2 ON #PatientEventData (FK_Reference_SnomedCT_ID) INCLUDE (FK_Patient_Link_ID, EventDate);
 --3s for both
 
--- 1. Patients with a FK_Patient_Link_ID in our list
+-- Now we do the same but for medications
+-- 1. Patients with a FK_Reference_Coding_ID in our list of LTCs
 IF OBJECT_ID('tempdb..#PatientMedicationData1') IS NOT NULL DROP TABLE #PatientMedicationData1;
 SELECT 
   FK_Patient_Link_ID,
@@ -1475,7 +1480,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < '2022-06-01';
 --13s
 
--- 2. Patients with a FK_Reference_SnomedCT_ID in our list
+-- 2. Patients with a FK_Reference_SnomedCT_ID in our list of LTCs
 IF OBJECT_ID('tempdb..#PatientMedicationData2') IS NOT NULL DROP TABLE #PatientMedicationData2;
 SELECT 
   FK_Patient_Link_ID,
@@ -1489,12 +1494,14 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < '2022-06-01';
 -- 13s
 
+-- 3. Merge the 2 tables together
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT * INTO #PatientMedicationData FROM #PatientMedicationData1
 UNION
 SELECT * FROM #PatientMedicationData2;
 -- 5s
 
+-- 4. Add indexes for future speed increase
 DROP INDEX IF EXISTS medFKData1 ON #PatientMedicationData;
 CREATE INDEX medFKData1 ON #PatientMedicationData (FK_Reference_Coding_ID) INCLUDE (FK_Patient_Link_ID, MedicationDate);
 DROP INDEX IF EXISTS medFKData2 ON #PatientMedicationData;
