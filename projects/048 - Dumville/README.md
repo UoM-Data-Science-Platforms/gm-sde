@@ -36,14 +36,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - COVID vaccinations
+- Long-term condition groups per patient at an index date
+- undefined
+- Secondary admissions and length of stay
+- Secondary discharges
+- Classify secondary admissions
+- Define Cohort for RQ048: Oximetry@Home
+- Cohort matching on year of birth / sex / imd / and an index date
 - Index Multiple Deprivation
 - Lower level super output area
 - Sex
 - Year of birth
 - Patients with COVID
-- Secondary admissions and length of stay
-- Secondary discharges
-- Classify secondary admissions
 
 Further details for each query can be found below.
 
@@ -78,6 +82,197 @@ A temp table as follows:
 _File_: `query-get-covid-vaccines.sql`
 
 _Link_: [https://github.com/rw251/.../query-get-covid-vaccines.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql)
+
+---
+### Long-term condition groups per patient at an index date
+To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory Provides Y/N flag for each condition at some index date unique to each person.
+
+_Input_
+```
+Takes two parameters
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+  Assumes there exists a temp table as follows:
+    #PatientsWithIndexDates  (FK_Patient_Link_ID, IndexDate)
+```
+
+_Output_
+```
+A temp table with a row for each patient and 40 Y/N columns
+ #LTCOnIndexDate (PatientId, HasCOPD, HasAsthma, Has...)
+```
+_File_: `query-patient-ltcs-at-index-date-without-code-sets.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-at-index-date-without-code-sets.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-at-index-date-without-code-sets.sql)
+
+---
+### undefined
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-patient-ltcs-code-sets.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-code-sets.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-code-sets.sql)
+
+---
+### Secondary admissions and length of stay
+To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+```
+_File_: `query-get-admissions-and-length-of-stay.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
+
+---
+### Secondary discharges
+To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
+
+_Input_
+```
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+```
+
+_Output_
+```
+A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+```
+_File_: `query-get-discharges.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+
+---
+### Classify secondary admissions
+To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
+
+_Assumptions_
+
+- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
+- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
+- We have used the following classifications based on the AdmissionTypeCode:
+	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
+	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
+	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
+	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
+	- OTHER: Anything else not previously classified
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+```
+_File_: `query-classify-secondary-admissions.sql`
+
+_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
+
+---
+### Define Cohort for RQ048: Oximetry@Home
+To build the cohort of patients needed for RQ048. This reduces duplication of code in the template scripts. The cohort is any patient who was recruited into the Oximetry@Home programme. This script also builds the matched cohort.
+
+_Input_
+```
+None
+```
+
+_Output_
+```
+Temp tables as follows:
+ #Patients - list of patient ids of the cohort and matched cohort
+ #MainCohort - patient attributes for the ox@home patients
+ #CohortStore - output from the cohort matching
+ #OximmetryPatients - deduplicated version of the oximetry@home patients
+```
+_File_: `query-build-rq048-cohort.sql`
+
+_Link_: [https://github.com/rw251/.../query-build-rq048-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq048-cohort.sql)
+
+---
+### Cohort matching on year of birth / sex / imd / and an index date
+To take a primary cohort and find a 1:n matched cohort based on year of birth, sex, imd, and an index date of an event.
+
+_Input_
+```
+Takes two parameters
+  - yob-flex: integer - number of years each way that still allow a year of birth match
+  - index-date-flex: integer - number of days either side of the index date that we allow matching
+  - num-matches: integer - number of matches for each patient in the cohort
+ Requires two temp tables to exist as follows:
+ #MainCohort (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth,IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+ #PotentialMatches (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth, IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+```
+
+_Output_
+```
+A temp table as follows:
+ #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, IndexDate, MatchingPatientId, MatchingYearOfBirth, MatchingIndexDate)
+  - FK_Patient_Link_ID - unique patient id for primary cohort patient
+  - YearOfBirth - of the primary cohort patient
+  - Sex - of the primary cohort patient
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - of the primary cohort patient
+  - IndexDate - date of event of interest (YYYY-MM-DD)
+  - MatchingPatientId - id of the matched patient
+  - MatchingYearOfBirth - year of birth of the matched patient
+  - MatchingIndexDate - index date for the matched patient
+```
+_File_: `query-cohort-matching-yob-sex-imd-index-date.sql`
+
+_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-imd-index-date.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-imd-index-date.sql)
 
 ---
 ### Index Multiple Deprivation
@@ -223,95 +418,6 @@ Three temp tables as follows:
 _File_: `query-patients-with-covid.sql`
 
 _Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
-
----
-### Secondary admissions and length of stay
-To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-```
-_File_: `query-get-admissions-and-length-of-stay.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
-
----
-### Secondary discharges
-To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
-```
-_File_: `query-get-discharges.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
-
----
-### Classify secondary admissions
-To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
-
-_Assumptions_
-
-- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
-- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
-- We have used the following classifications based on the AdmissionTypeCode:
-	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
-	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
-	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
-	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
-	- OTHER: Anything else not previously classified
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
-```
-_File_: `query-classify-secondary-admissions.sql`
-
-_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:

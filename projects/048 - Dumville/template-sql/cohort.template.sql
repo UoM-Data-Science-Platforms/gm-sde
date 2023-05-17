@@ -27,57 +27,103 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Set the end date
-DECLARE @EndDate datetime;
-SET @EndDate = '2022-07-01';
+--> EXECUTE query-build-rq048-cohort.sql
+--> EXECUTE query-patient-ltcs-code-sets.sql
 
--- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
-
--- Remove admissions ahead of our cut-off date
-DELETE FROM #OxAtHome WHERE AdmissionDate > '2022-06-01';
-
--- Censor discharges after cut-off to appear as NULL
-UPDATE #OxAtHome SET DischargeDate = NULL WHERE DischargeDate > '2022-06-01';
-
--- Table of all patients (not matching cohort - will do that subsequently)
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
-WHERE AdmissionDate < @EndDate
-AND (DischargeDate IS NULL OR DischargeDate < @EndDate)
-AND FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link); --ensure we don't include opt-outs
-
--- As it's a small cohort, it's quicker to get all data in to a temp table
--- and then all subsequent queries will target that data
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+-- Now we create a table of events for all the people in our cohort and the matched cohort.
+-- We do this for Ref_Coding_ID and SNOMED_ID separately for performance reasons.
+-- 1. Patients with a FK_Reference_Coding_ID in our list of LTCs
+IF OBJECT_ID('tempdb..#PatientEventData1') IS NOT NULL DROP TABLE #PatientEventData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
   FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @EndDate;
+  FK_Reference_Coding_ID
+INTO #PatientEventData1
+FROM [SharedCare].GP_Events
+WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Constipation','Dyspepsia','Painful Condition','Migraine'))
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < '2022-06-01';
+--45s
 
-IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+-- 2. Patients with a FK_Reference_SnomedCT_ID in our list of LTCs
+IF OBJECT_ID('tempdb..#PatientEventData2') IS NOT NULL DROP TABLE #PatientEventData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientEventData2
+FROM [SharedCare].GP_Events
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Constipation','Dyspepsia','Painful Condition','Migraine'))
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < '2022-06-01';
+--42s
+
+-- 3. Merge the 2 tables together
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT * INTO #PatientEventData FROM #PatientEventData1
+UNION
+SELECT * FROM #PatientEventData2;
+--3s
+
+-- 4. Add indexes for future speed increase
+DROP INDEX IF EXISTS eventFKData1 ON #PatientEventData;
+CREATE INDEX eventFKData1 ON #PatientEventData (FK_Reference_Coding_ID) INCLUDE (FK_Patient_Link_ID, EventDate);
+DROP INDEX IF EXISTS eventFKData2 ON #PatientEventData;
+CREATE INDEX eventFKData2 ON #PatientEventData (FK_Reference_SnomedCT_ID) INCLUDE (FK_Patient_Link_ID, EventDate);
+--3s for both
+
+-- Now we do the same but for medications
+-- 1. Patients with a FK_Reference_Coding_ID in our list of LTCs
+IF OBJECT_ID('tempdb..#PatientMedicationData1') IS NOT NULL DROP TABLE #PatientMedicationData1;
 SELECT 
   FK_Patient_Link_ID,
   CAST(MedicationDate AS DATE) AS MedicationDate,
-  SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
-INTO #PatientMedicationData
-FROM SharedCare.GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate < @EndDate;
+INTO #PatientMedicationData1
+FROM [SharedCare].GP_Medications
+WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < '2022-06-01';
+--13s
 
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-patient-year-of-birth.sql
---> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-imd.sql
+-- 2. Patients with a FK_Reference_SnomedCT_ID in our list of LTCs
+IF OBJECT_ID('tempdb..#PatientMedicationData2') IS NOT NULL DROP TABLE #PatientMedicationData2;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData2
+FROM [SharedCare].GP_Medications
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < '2022-06-01';
+-- 13s
+
+-- 3. Merge the 2 tables together
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT * INTO #PatientMedicationData FROM #PatientMedicationData1
+UNION
+SELECT * FROM #PatientMedicationData2;
+-- 5s
+
+-- 4. Add indexes for future speed increase
+DROP INDEX IF EXISTS medFKData1 ON #PatientMedicationData;
+CREATE INDEX medFKData1 ON #PatientMedicationData (FK_Reference_Coding_ID) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+DROP INDEX IF EXISTS medFKData2 ON #PatientMedicationData;
+CREATE INDEX medFKData2 ON #PatientMedicationData (FK_Reference_SnomedCT_ID) INCLUDE (FK_Patient_Link_ID, MedicationDate);
+-- 8s for both
+
+-- Get all patients with their index dates to work out what LTCs they had at that point in time
+IF OBJECT_ID('tempdb..#PatientsWithIndexDates') IS NOT NULL DROP TABLE #PatientsWithIndexDates;
+SELECT PatientId AS FK_Patient_Link_ID, IndexDate INTO #PatientsWithIndexDates FROM #CohortStore
+UNION
+SELECT MatchingPatientId, MatchingIndexDate FROM #CohortStore;
+
+--> EXECUTE query-patient-ltcs-at-index-date-without-code-sets.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 
 -- Get patient care home status
 IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
@@ -91,27 +137,51 @@ AND NursingCareHomeFlag IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 -- Bring together for final output
-SELECT 
-  m.FK_Patient_Link_ID AS PatientId,
-  o.AdmissionDate AS OximetryAtHomeStart,
-  o.DischargeDate AS OximetryAtHomeEnd,
-  FirstCovidPositiveDate,
-  SecondCovidPositiveDate,
-  ThirdCovidPositiveDate,
-  YearOfBirth,
-  Sex,
+-- Main Ox cohort
+SELECT
+  m.*,
+  NULL AS MatchingPatientId,
+  ox.AdmissionDate AS OximetryAtHomeStart,
+  ox.DischargeDate AS OximetryAtHomeEnd,
+  cov.FirstCovidPositiveDate,
+  cov.SecondCovidPositiveDate,
+  cov.ThirdCovidPositiveDate,
+  cohort.YearOfBirth,
+  cohort.Sex,
   LSOA_Code AS LSOA,
-  EthnicCategoryDescription,
-  IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-  MONTH(DeathDate) AS MonthOfDeath,
-  YEAR(DeathDate) AS YearOfDeath,
-  IsCareHomeResident
-FROM #Patients m
-LEFT OUTER JOIN #OxAtHome o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID --ethnicity and deathdate
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+  pl.EthnicCategoryDescription,
+  cohort.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
+  MONTH(pl.DeathDate) AS MonthOfDeath,
+  YEAR(pl.DeathDate) AS YearOfDeath,
+  chs.IsCareHomeResident
+FROM #MainCohort cohort
+LEFT OUTER JOIN #LTCOnIndexDate m ON m.PatientId = cohort.FK_Patient_Link_ID
+LEFT OUTER JOIN #OximmetryPatients ox ON ox.FK_Patient_Link_ID = cohort.FK_Patient_Link_ID AND ox.AdmissionDate = cohort.IndexDate
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = cohort.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = cohort.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = cohort.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = cohort.FK_Patient_Link_ID
+UNION
+-- matched cohort
+select 
+  m.*,
+  cohort.PatientId AS MatchingPatientId,
+  NULL AS OximetryAtHomeStart,
+  NULL AS OximetryAtHomeEnd,
+  cov.FirstCovidPositiveDate,
+  cov.SecondCovidPositiveDate,
+  cov.ThirdCovidPositiveDate,
+  cohort.MatchingYearOfBirth,
+  cohort.Sex,
+  LSOA_Code AS LSOA,
+  pl.EthnicCategoryDescription,
+  cohort.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
+  MONTH(pl.DeathDate) AS MonthOfDeath,
+  YEAR(pl.DeathDate) AS YearOfDeath,
+  chs.IsCareHomeResident
+FROM #CohortStore cohort
+LEFT OUTER JOIN #LTCOnIndexDate m ON m.PatientId = cohort.MatchingPatientId
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = cohort.MatchingPatientId
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = cohort.MatchingPatientId
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = cohort.MatchingPatientId
+LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = cohort.MatchingPatientId;
