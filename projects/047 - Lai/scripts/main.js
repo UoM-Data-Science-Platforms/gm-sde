@@ -1,4 +1,10 @@
+// This file contains the logic for extracting data when an RDE
+// is ready to generate the data for a study. When the SQL is compiled
+// this file is copied to the "scripts" directory of the project. In
+// this way we can update a single js file (this one) rather than having
+// a separate file in each project directory
 const fs = require('fs');
+const readline = require('readline');
 const mssql = require('mssql');
 const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
@@ -126,7 +132,7 @@ First you need to be authenticated.`);
       min: 0,
       idleTimeoutMillis: 30000,
     },
-    requestTimeout: 12 * 60 * 60 * 1000, //5 hours probably long enough
+    requestTimeout: 5 * 60 * 60 * 1000, //5 hours probably long enough
     options: { encrypt: true },
   };
   try {
@@ -476,19 +482,29 @@ async function getPatientPseudoIds() {
 ${err}`);
     });
 
-    request.on('done', () => {
+    request.on('done', async () => {
       // Always emitted as the last one
       if (!store.shouldOverwrite) {
         log('Loading the existing mapping file...');
         let maxPseudoId = 0;
-        fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
-          .split('\n')
-          .forEach((x) => {
-            if (x.trim().length < 2) return;
-            const [fkid, pseudoId] = x.split(',');
+
+        const fileStream = fs.createReadStream(PSEUDO_ID_FILE);
+
+        const rl = readline.createInterface({
+          input: fileStream,
+          crlfDelay: Infinity, // treat \r\n as single line break
+        });
+
+        // Process one line at a time rather than reading entire file
+        // in one go as that was causing out of memory exceptions
+        for await (const line of rl) {
+          if (line.trim().length >= 2) {
+            const [fkid, pseudoId] = line.split(',');
             store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
             maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
-          });
+          }
+        }
+
         log(`There are ${Object.keys(store.pseudoLookup).length} patient ids in the mapping file.`);
         const newPatientIds = patientIds.filter((patientId) => !store.pseudoLookup[patientId]);
         log(`There are ${newPatientIds.length} new patient ids from the database.`);

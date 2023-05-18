@@ -720,5 +720,9 @@ ESCTST2	Stewart-Treves syndrome
 ^ESCTFE534784	Ferguson-Smith tumour
 ^ESCTLY351613	Lymphangiosarcoma of Stewart and Treves
 ^ESCTLY351614	Lymphangiosarcoma of skin
+^ESCTBO593023	Bowenoid actinic keratosis
+^ESCTHY534800	Hypertrophic actinic keratosis
+^ESCTHY737419	Hyperkeratotic actinic keratosis
+^ESCTLI667724	Lichenoid actinic keratosis
 
 

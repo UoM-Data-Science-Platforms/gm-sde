@@ -177,3 +177,4 @@ BBE0.00	[M]Pigmented naevus NOS
 BBE0.11	[M]Hairy naevus NOS
 BBE0.12	[M]Naevus NOS
 BBEF.11	[M]Lentigo maligna
+7G098	Cryotherapy to actinic keratosis

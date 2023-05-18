@@ -1,4 +1,4 @@
---┌───────────────────────────────────────┐
+﻿--┌───────────────────────────────────────┐
 --│ Clinical concepts per clinical system │
 --└───────────────────────────────────────┘
 
@@ -26,7 +26,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET insert-concept-here:1
+--> CODESET skin-cancer:1
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
@@ -129,7 +129,7 @@ SELECT Concept, Version,
 -- The following code can be used to identify gaps in our code sets
 -- The always false if statement ensures we can execute the whole file
 -- without the following running.
-IF 1 > 2
+-- IF 1 > 2
 BEGIN
 
 	-- THIS IS FOR CODES THAT APPEAR IN THE GP_Events TABLE - SEE BELOW FOR MEDICATIONS
@@ -138,7 +138,7 @@ BEGIN
 
 	-- change this to find potentially misssing codes.
 	declare @concept varchar(55);
-	set @concept = 'insert-concepts-here';
+	set @concept = 'skin-cancer';
 
 	-- Patients identified by the ref coding or SNOMED FK ids - but not by the supplied clinical codes
 	IF OBJECT_ID('tempdb..#PatientsIdentifiedByIdButNotCode') IS NOT NULL DROP TABLE #PatientsIdentifiedByIdButNotCode;
