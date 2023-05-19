@@ -295,6 +295,9 @@ X78Um	Lymphangiosarcoma of skin
 X78Um	Lymphangiosarcoma of skin
 X78Um	Lymphangiosarcoma of Stewart and Treves
 BBEF.11	[M]Lentigo maligna
+X78Ri	Hypertrophic actinic keratosis
+Xa9zZ	Bowenoid actinic keratosis
+XaREo	Cryotherapy to actinic keratosis
 
 
 
