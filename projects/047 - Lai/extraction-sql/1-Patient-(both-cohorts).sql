@@ -736,10 +736,12 @@ SELECT
   Sex,
   Ethnicity,
   IMDGroup,
-  LSOA_Code AS LSOA
+  LSOA_Code AS LSOA,
+  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath
 FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID;
