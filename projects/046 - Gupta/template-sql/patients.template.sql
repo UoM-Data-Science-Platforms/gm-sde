@@ -93,8 +93,6 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 -- Get patient list of those with COVID death within 28 days of positive test
 -- 22.11.22: updated to deal with '28 days' flag under-reporting
 
--- Get patient list of those with COVID death within 28 days of positive test
--- 22.11.22: updated to deal with '28 days' flag under-reporting
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath 
@@ -123,7 +121,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR 
 		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
 	)
-	AND EventDate < '2022-06-01';
+	AND EventDate < @EndDate;
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS eventData ON #PatientEventData;
@@ -146,7 +144,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR 
 		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
 	)
-AND MedicationDate BETWEEN '2020-01-01' AND '2022-06-01'
+AND MedicationDate BETWEEN @StartDate AND @EndDate
 
 -- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
 DROP INDEX IF EXISTS medData ON #PatientMedicationData;

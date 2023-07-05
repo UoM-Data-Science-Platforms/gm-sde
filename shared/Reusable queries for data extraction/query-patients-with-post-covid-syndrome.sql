@@ -19,8 +19,8 @@
 
 --> CODESETS post-covid-syndrome:1 post-covid-referral:1 post-covid-assessment:1
 
-DECLARE @TEMPLongCovidEndDate DATE
-SET @TEMPLongCovidEndDate = '2022-06-01';
+--DECLARE @TEMPLongCovidEndDate DATE
+--SET @TEMPLongCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#TEMPPostCOVIDPatients') IS NOT NULL DROP TABLE #TEMPPostCOVIDPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstEventDate
@@ -28,7 +28,7 @@ INTO #TEMPPostCOVIDPatients
 FROM {param:gp-events-table}
 WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-syndrome' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
-AND EventDate <= @TEMPLongCovidEndDate
+--AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}
@@ -43,7 +43,7 @@ INTO #TEMPPostCOVIDReferralPatients
 FROM {param:gp-events-table}
 WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-referral' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
-AND EventDate <= @TEMPLongCovidEndDate
+--AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}
@@ -58,7 +58,7 @@ INTO #TEMPPostCOVIDAssessmentPatients
 FROM {param:gp-events-table}
 WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-assessment' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
-AND EventDate <= @TEMPLongCovidEndDate
+--AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}

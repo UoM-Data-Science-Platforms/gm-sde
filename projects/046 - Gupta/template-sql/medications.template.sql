@@ -72,8 +72,6 @@ WHERE 2020 - YearOfBirth >= 19 							-- Over 18 at study start date
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
 		)
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
-
 ----------------------------------------------------------------------------------------
 
 -- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP REUSABLE QUERIES

@@ -34,9 +34,9 @@
 --> CODESET covid-positive-antigen-test:1 covid-positive-pcr-test:1 covid-positive-test-other:1
 
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPWithCovidEndDate datetime;
-SET @TEMPWithCovidEndDate = '2022-06-01';
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPWithCovidEndDate datetime;
+--SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
@@ -52,7 +52,7 @@ WHERE (
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND EventDate > '{param:start-date}'
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 --AND EventDate <= GETDATE()
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
@@ -82,7 +82,7 @@ WHERE SuppliedCode IN (
 	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 	AND Version = 1
 )
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 {endif:all-patients}

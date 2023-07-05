@@ -37,7 +37,7 @@ WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
 AND EventDate > '2020-12-01'
-AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
+--AND EventDate < '2022-06-01'; -temp addition for COPI expiration -- not needed now
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
@@ -46,7 +46,7 @@ WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
 AND MedicationDate > '2020-12-01'
-AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
+--AND MedicationDate < '2022-06-01';--temp addition for COPI expiration -- not needed now
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents

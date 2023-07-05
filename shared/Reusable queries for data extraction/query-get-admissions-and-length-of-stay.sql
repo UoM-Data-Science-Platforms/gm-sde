@@ -23,9 +23,9 @@
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPAdmissionsEndDate datetime;
-SET @TEMPAdmissionsEndDate = '2022-06-01';
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPAdmissionsEndDate datetime;
+--SET @TEMPAdmissionsEndDate = '2022-06-01';
 
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
@@ -44,7 +44,7 @@ BEGIN
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND AdmissionDate >= @StartDate
-		AND AdmissionDate <= @TEMPAdmissionsEndDate;
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
@@ -53,7 +53,7 @@ BEGIN
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND AdmissionDate >= @StartDate
-		AND AdmissionDate <= @TEMPAdmissionsEndDate;
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --> EXECUTE query-get-discharges.sql all-patients:{param:all-patients}
