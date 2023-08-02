@@ -1,0 +1,42 @@
+A531z	Herpes zoster with other central nervous system complication NOS
+XE0RA	Herpes zoster with other central nervous system complication
+XE2x9	Herpes zoster infection
+A5321	Herpes zoster keratitis
+A5322	Herpes zoster iridocyclitis
+A53x.	Herpes zoster with other specified complication
+A53y.	Herpes zoster with unspecified complication
+A53z.	Herpes zoster NOS
+F5016	Geniculate herpes zoster
+X0016	Herpes zoster encephalitis
+X009c	Acute trigeminal herpes zoster
+X00mI	Acute herpes zoster pharyngitis
+X20RH	Herpes zoster infection of oral mucosa
+X70JF	Thoracic herpes zoster infection
+X70JG	Lumbar herpes zoster infection
+X70JN	HZV - Multidermatomal herpes zoster virus
+Xa3e3	Other herpes zoster
+A53x1	Disseminated zoster
+AyuA4	[X]Zoster with other complications
+AyuA5	[X]Zoster without complications
+XaBsP	Varicella-zoster virus infection
+A53xz	Herpes zoster with other specified complication NOS
+A532.	Herpes zoster with ophthalmic complication
+A5323	Herpes zoster ophthalmicus
+X70JI	Maxillary herpes zoster infection
+X70JJ	Mandibular herpes zoster infection
+A532z	Herpes zoster with other ophthalmic complication
+XaIrO	Varicella zoster nucleic acid detection
+XaZCN	Detection of Varicella zoster virus using polymerase chain reaction technique
+Xab7M	Varicella zoster nucleic acid detection assay
+Xabpz	Varicella zoster deoxyribonucleic acid detection assay
+x01LW	ZIG - Zoster immune globulin
+A53..	Herpes zoster [organism] or [infection - shingles]
+A5320	Herpes zoster with dermatitis of eyelid
+F0112	Meningitis due to herpes zoster virus
+F3744	Polyneuropathy in herpes zoster
+X002q	Amyotrophy due to herpes zoster
+65O2.	Anti-varic-Zoster immunoglob.
+X77aR	Varicella-zoster virus T-lymphocyte stimulation
+X80bu	Varicella-zoster virus antibody
+X80tJ	Varicella-zoster virus antigen
+XSEta	Serologic test for Varicella zoster virus

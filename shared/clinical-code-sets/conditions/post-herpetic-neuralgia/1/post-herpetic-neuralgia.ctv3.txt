@@ -1,0 +1,7 @@
+F300.	Post-herpetic trigeminal neuralgia
+X75sv	PHN - Post-herpetic neuralgia
+X00B6	Intercostal post-herpetic neuralgia
+A5313	Post-herpetic polyneuropathy
+Xa2C8	Post-herpetic neuritis
+Xa2C9	Intercostal post-herpetic neuritis
+A531.	Post-herpetic neuralgia
