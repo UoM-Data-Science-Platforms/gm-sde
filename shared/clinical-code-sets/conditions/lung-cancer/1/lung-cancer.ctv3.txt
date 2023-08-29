@@ -1,0 +1,6 @@
+X78QS	Non-small cell lung cancer
+Xa0KG	Lung cancer
+1J00.	Suspected lung cancer
+X78QN	SCLC - Small cell lung cancer
+XaMeH	Fast track referral for suspected lung cancer
+XaPyc	Seen in fast track suspected lung cancer clinic

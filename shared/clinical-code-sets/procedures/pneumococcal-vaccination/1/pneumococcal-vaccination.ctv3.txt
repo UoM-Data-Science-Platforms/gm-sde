@@ -1,0 +1,8 @@
+6572.	Pneumococcal vaccination
+XaYvC	Supplemental pneumococcal conjugated vaccination
+XaLqu	Third pneumococcal conjugated vaccination
+XaLqt	Second pneumococcal conjugated vaccination
+XaLqs	First pneumococcal conjugated vaccination
+XaIeO	Booster pneumococcal vaccination
+XaPyX	Pneumococcal vaccination given by other healthcare provider
+XaCKa	Pneumococcal vaccination given

@@ -1,0 +1,12 @@
+XaPVj	Bowel cancer screening programme: faecal occult blood result
+XaQ1z	Bowel cancer screening programme faecal occult blood testing incomplete participation
+XaPke	Bowel cancer screening programme faecal occult blood test abnormal
+XaPkd	Bowel cancer screening programme faecal occult blood test normal
+XaPkc	Bowel cancer screening programme faecal occult blood test result unclear
+XaPkb	Bowel cancer screening programme faecal occult blood test technical failure
+XaPka	Bowel cancer screening programme faecal occult blood testing kit spoilt
+XaN5B	Bowel cancer screening status
+XaN5C	Bowel cancer detected by national screening programme
+XaN2I	Bowel cancer screening programme administration
+XaMza	Bowel cancer screening programme
+XaabN	Bowel Cancer Screening Programme bowel scope screening test

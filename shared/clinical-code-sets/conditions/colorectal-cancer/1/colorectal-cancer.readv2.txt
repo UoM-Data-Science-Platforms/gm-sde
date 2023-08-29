@@ -1,0 +1,3 @@
+68W2400	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+B1z0.11	Cancer of bowel
+B139.00	Hereditary nonpolyposis colon cancer

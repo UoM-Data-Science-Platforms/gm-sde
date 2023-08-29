@@ -1,0 +1,2 @@
+A531.11	Post-herpetic neuralgia
+F300.00	Post-herpetic trigeminal neuralgia

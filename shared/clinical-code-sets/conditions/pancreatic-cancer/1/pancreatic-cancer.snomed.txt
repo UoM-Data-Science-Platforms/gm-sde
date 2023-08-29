@@ -1,0 +1,5 @@
+94459006	Cancer metastatic to pancreas
+255088001	Malignant tumor of exocrine pancreas (disorder)
+363418001	CA - Pancreatic cancer
+247591000000101	Suspected pancreatic cancer (situation)
+848901000000106	QCancer pancreatic cancer risk (observable entity)

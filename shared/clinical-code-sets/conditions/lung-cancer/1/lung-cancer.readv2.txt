@@ -1,0 +1,4 @@
+B22z.11	Lung cancer
+1J00.00	Suspected lung cancer
+8Hn7.00	Fast track referral for suspected lung cancer
+9Np8.00	Seen in fast track suspected lung cancer clinic

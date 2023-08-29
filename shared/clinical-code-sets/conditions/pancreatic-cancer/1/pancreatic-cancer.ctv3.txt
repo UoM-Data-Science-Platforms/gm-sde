@@ -1,0 +1,3 @@
+X78gc	Pancreatic exocrine cancer
+XaLqn	Suspected pancreatic cancer
+XaZew	QCancer pancreatic cancer risk

@@ -1,0 +1,7 @@
+2177002	Post-zoster neuralgia
+17974002	Post-herpetic trigeminal neuralgia (disorder)
+76462000	Nerve pain from shingles
+230597003	Intercostal post-herpetic neuralgia (disorder)
+282741006	Post-herpetic neuritis (disorder)
+282742004	Intercostal post-herpetic neuritis (disorder)
+403396008	Scarring due to herpes zoster
