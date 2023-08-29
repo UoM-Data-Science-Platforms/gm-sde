@@ -1,0 +1,24 @@
+92568009	Cancer in situ of colon
+94365007	Metastatic colorectal cancer
+109838007	Cancer of the colon, overlapping sites
+315058005	HNPCC - hereditary nonpolyposis colorectal cancer
+363351006	CA - Cancer of rectum
+363406005	Malignant neoplasm of colon
+363407001	Hepatic flexure colon cancer
+363408006	Transverse colon cancer
+363409003	Descending colon cancer
+363410008	Sigmoid colon cancer
+363412000	Ascending colon cancer
+363413005	Splenic flexure colon cancer
+363414004	Rectosigmoid colon cancer
+363508008	CA - Cancer of bowel
+363510005	Colorectal cancer
+737058005	Microsatellite instability-high colorectal cancer (disorder)
+884601000000103	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+422375001	Cancer of colon, stage 3
+422581008	Cancer of the colon, stage 2
+422985007	Colon cancer stage 4
+425213009	Colon cancer stage 1
+713613007	Hereditary nonpolyposis colon cancer gene mutation positive
+1099611000119109	HNPCC (hereditary non-polyposis colon cancer) gene mutation positive
+722731000000100	Colorectal cancer (qualifier value)

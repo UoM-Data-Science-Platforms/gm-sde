@@ -1,0 +1,18 @@
+384171000000104	Bowel cancer screening programme finding (finding)
+1101361000000103	Bowel cancer screening programme liquid faecal immunochemical test normal (finding)
+1101371000000105	Bowel cancer screening programme liquid faecal immunochemical test abnormal (finding)
+1101381000000107	Bowel cancer screening programme liquid faecal immunochemical test technical failure (finding)
+1101391000000109	Bowel cancer screening programme liquid faecal immunochemical test sample rejected (finding)
+375121000000106	Bowel cancer screening programme faecal occult blood testing kit spoilt
+375151000000101	Bowel cancer screening programme faecal occult blood test technical failure
+375181000000107	Bowel cancer screening programme faecal occult blood test result unclear
+375211000000108	Bowel cancer screening programme faecal occult blood test normal
+375241000000109	Bowel cancer screening programme faecal occult blood test abnormal
+384241000000100	Bowel cancer screening programme faecal occult blood testing incomplete participation
+286901000000107	Bowel cancer screening programme
+884521000000106	Bowel Cancer Screening Programme bowel scope screening test
+275978004	Colon cancer screening
+294301000000103	Bowel cancer detected by national screening programme
+368481000000103	Bowel cancer screening programme: faecal occult blood result
+708699002	Stool DNA-based colorectal cancer screening positive
+715101000000108	Bowel cancer screening programme administration
