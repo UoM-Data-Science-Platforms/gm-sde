@@ -11,6 +11,7 @@
 -- Ethnicity (White/ Mixed/ Black or Black British/ Asian or Asian British/ Other Ethnic Groups/ Refused and not stated group)
 -- IMDGroup (1, 2, 3, 4, 5)
 -- LSOA
+-- YearAndMonthOfDeath
 
 
 --> CODESET skin-cancer:1
