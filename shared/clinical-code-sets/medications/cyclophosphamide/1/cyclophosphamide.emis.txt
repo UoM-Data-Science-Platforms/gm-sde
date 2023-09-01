@@ -1,0 +1,37 @@
+^ESCT1188224	Product containing only cyclophosphamide 50 mg/1 each oral tablet
+^ESCT1224964	Product containing precisely cyclophosphamide 50 milligram/1 each conventional release oral tablet
+^ESCT1224965	Product containing precisely cyclophosphamide (as cyclophosphamide monohydrate) 200 milligram/1 vial powder for conventional release solution for injection
+^ESCT1224966	Cyclophosphamide (as cyclophosphamide monohydrate) 200 mg powder for solution for injection vial
+^ESCT1224967	Product containing precisely cyclophosphamide (as cyclophosphamide monohydrate) 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1224968	Cyclophosphamide (as cyclophosphamide monohydrate) 500 mg powder for solution for injection vial
+^ESCT1224969	Product containing precisely cyclophosphamide (as cyclophosphamide monohydrate) 1 gram/1 vial powder for conventional release solution for injection
+^ESCT1224970	Cyclophosphamide (as cyclophosphamide monohydrate) 1 g powder for solution for injection vial
+^ESCT1230111	Product containing precisely cyclophosphamide (as cyclophosphamide monohydrate) 2 gram/1 vial powder for conventional release solution for injection
+^ESCT1230112	Cyclophosphamide (as cyclophosphamide monohydrate) 2 g powder for solution for injection vial
+^ESCTCY613527	Cyclophosphamide 50mg tablets
+^ESCTCY613529	Cyclophosphamide 50 mg oral tablet
+^ESCTCY613530	Cyclophosphamide 200mg powder for solution for injection vials
+^ESCTCY613531	Cyclophosphamide 200mg powder for infusion solution vial
+^ESCTCY613532	Cyclophosphamide 200mg/vial powder for injection
+^ESCTCY613533	Cyclophosphamide 500mg powder for solution for injection vials
+^ESCTCY613534	Cyclophosphamide 500mg injection (pdr for recon)
+^ESCTCY613535	Cyclophosphamide 500mg/vial powder for injection
+^ESCTCY613536	Cyclophosphamide 500mg powder for injection solution vial
+^ESCTCY613537	Cyclophosphamide 1g powder for solution for injection vials
+^ESCTCY613538	Cyclophosphamide 1g injection (pdr for recon)
+^ESCTCY613539	Cyclophosphamide 1g/vial powder for injection
+^ESCTCY613540	Cyclophosphamide 1g powder for injection solution vial
+^ESCTCY664114	Cyclophosphamide 2g powder for solution for injection vials
+^ESCTCY664115	Cyclophosphamide 2g/vial powder for injection
+^ESCTCY664116	Cyclophosphamide 2g/vial injection
+^ESCTPR613528	Product containing cyclophosphamide 50 mg/1 each oral tablet
+CYIN30699EMIS	Cyclophosphamide  Powder For Solution For Injection  1 gram vial
+CYIN30700EMIS	Cyclophosphamide  Injection  200 mg/vial
+CYIN30701EMIS	Cyclophosphamide  Powder For Solution For Injection  500 mg vial
+CYIN9381HILLI	Cyclophosphamide  Injection  1.07 g/vial
+CYPO100685NEMIS	Cyclophosphamide  Powder For Solution For Injection  2 gram vial
+CYTA784	Cyclophosphamide  Tablets  50 mg
+CYTA785	Cyclophosphamide 50  Tablets  50 mg
+^ESCTEN863499	Endoxana 50mg tablets (Baxter Healthcare Ltd)
+ENTA1067	Endoxana  Tablets  10 mg
+ENTA1068	Endoxana  Tablets  50 mg

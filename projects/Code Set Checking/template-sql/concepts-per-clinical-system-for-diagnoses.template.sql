@@ -1,4 +1,4 @@
---┌───────────────────────────────────────┐
+﻿--┌───────────────────────────────────────┐
 --│ Clinical concepts per clinical system │
 --└───────────────────────────────────────┘
 
@@ -26,19 +26,19 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET gout:1
+--> CODESET skin-cancer:1
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
 IF OBJECT_ID('tempdb..#PatientsWithFKCode') IS NOT NULL DROP TABLE #PatientsWithFKCode;
-SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKCode FROM RLS.[vw_GP_Events]
+SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKCode FROM SharedCare.[GP_Events]
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets);
 --00:02:11
 
 -- Then get all patients from the GP_Events table who have a matching FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientsWithSNOMEDCode') IS NOT NULL DROP TABLE #PatientsWithSNOMEDCode;
-SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDCode FROM RLS.[vw_GP_Events]
+SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDCode FROM SharedCare.[GP_Events]
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets);
 --00:02:01
 
@@ -54,26 +54,26 @@ GROUP BY FK_Patient_Link_ID, Concept, [Version];
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithCodePerSystem') IS NOT NULL DROP TABLE #PatientsWithCodePerSystem;
-SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithCodePerSystem FROM RLS.vw_Patient p
+SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithCodePerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 INNER JOIN #PatientsWithCode c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM [SharedCare].Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
 --00:01:08
 
 -- Counts the number of patients per system
 IF OBJECT_ID('tempdb..#PatientsPerSystem') IS NOT NULL DROP TABLE #PatientsPerSystem;
-SELECT [System], count(*) as [Count] into #PatientsPerSystem FROM RLS.vw_Patient p
+SELECT [System], count(*) as [Count] into #PatientsPerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM [SharedCare].Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System];
 --00:00:15
 
 -- Finds all patients with one of the clinical codes in the events table
 IF OBJECT_ID('tempdb..#PatientsWithSuppliedCode') IS NOT NULL DROP TABLE #PatientsWithSuppliedCode;
-SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM RLS.[vw_GP_Events]
+SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM SharedCare.[GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes);
 --00:05:23
 
@@ -86,11 +86,11 @@ GROUP BY FK_Patient_Link_ID, [Concept], [Version];
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithSuppConceptPerSystem') IS NOT NULL DROP TABLE #PatientsWithSuppConceptPerSystem;
-SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithSuppConceptPerSystem FROM RLS.vw_Patient p
+SELECT [System], Concept, [Version], count(*) as [Count] into #PatientsWithSuppConceptPerSystem FROM SharedCare.Patient p
 INNER JOIN #PracticeSystemLookup s on s.PracticeId = p.GPPracticeCode
 INNER JOIN #PatientsWithSuppliedConcept c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2
-AND NOT EXISTS (SELECT * FROM [RLS].vw_Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
+AND NOT EXISTS (SELECT * FROM [SharedCare].Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
 --00:01:31
 
@@ -129,7 +129,7 @@ SELECT Concept, Version,
 -- The following code can be used to identify gaps in our code sets
 -- The always false if statement ensures we can execute the whole file
 -- without the following running.
-IF 1 > 2
+-- IF 1 > 2
 BEGIN
 
 	-- THIS IS FOR CODES THAT APPEAR IN THE GP_Events TABLE - SEE BELOW FOR MEDICATIONS
@@ -138,7 +138,7 @@ BEGIN
 
 	-- change this to find potentially misssing codes.
 	declare @concept varchar(55);
-	set @concept = 'insert-concepts-here';
+	set @concept = 'skin-cancer';
 
 	-- Patients identified by the ref coding or SNOMED FK ids - but not by the supplied clinical codes
 	IF OBJECT_ID('tempdb..#PatientsIdentifiedByIdButNotCode') IS NOT NULL DROP TABLE #PatientsIdentifiedByIdButNotCode;
@@ -153,7 +153,7 @@ BEGIN
 	select distinct FK_Patient_Link_ID from #PatientsWithCode where Concept = @concept
 
 	IF OBJECT_ID('tempdb..#PossibleExtraCodes') IS NOT NULL DROP TABLE #PossibleExtraCodes;
-	select distinct SuppliedCode into #PossibleExtraCodes from RLS.vw_GP_Events
+	select distinct SuppliedCode into #PossibleExtraCodes from SharedCare.GP_Events
 	where (
 		FK_Reference_Coding_ID in (select FK_Reference_Coding_ID from #VersionedCodeSets where Concept=@concept) or
 		FK_Reference_SnomedCT_ID in (select FK_Reference_SnomedCT_ID from #VersionedSnomedSets where Concept=@concept)
@@ -162,7 +162,7 @@ BEGIN
 
 
 	IF OBJECT_ID('tempdb..#PossibleExtraIds') IS NOT NULL DROP TABLE #PossibleExtraIds;
-	select distinct FK_Reference_Coding_ID into #PossibleExtraIds from RLS.vw_GP_Events
+	select distinct FK_Reference_Coding_ID into #PossibleExtraIds from SharedCare.GP_Events
 	where SuppliedCode in (select Code from #AllCodes where Concept=@concept)
 	and FK_Patient_Link_ID IN (select FK_Patient_Link_ID from #PatientsIdentifiedByCodeButNotId);
 
@@ -172,7 +172,7 @@ BEGIN
 		CASE 
 			WHEN Term198 IS NULL THEN (
 				CASE WHEN Term60 is null THEN (
-					CASE WHEN Term30 is null THEN FullDescription ELSE Term30 END
+					CASE WHEN Term30 is null THEN FullDescription COLLATE Latin1_General_CS_AS ELSE Term30 END
 				) ELSE Term60 END
 			) ELSE Term198 END AS Term from SharedCare.Reference_Coding
 	where PK_Reference_Coding_ID in (select FK_Reference_Coding_ID from #PossibleExtraIds)
@@ -182,7 +182,7 @@ BEGIN
 		CASE 
 			WHEN Term198 IS NULL THEN (
 				CASE WHEN Term60 is null THEN (
-					CASE WHEN Term30 is null THEN FullDescription ELSE Term30 END
+					CASE WHEN Term30 is null THEN FullDescription COLLATE Latin1_General_CS_AS ELSE Term30 END
 				) ELSE Term60 END
 			) ELSE Term198 END AS Term from SharedCare.Reference_Coding
 	where MainCode in (select SuppliedCode from #PossibleExtraCodes)

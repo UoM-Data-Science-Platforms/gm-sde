@@ -1,0 +1,31 @@
+1C12.	Hearing difficulty
+1C13.	Deafness
+1C131	Unilateral deafness
+1C132	Partial deafness
+1C133	Bilateral deafness
+1C16.	Deteriorating hearing
+2BM2.	O/E -tune fork=conductive deaf
+2BM3.	O/E tune fork=perceptive deaf
+2BM4.	O/E - High tone deafness
+2DG..	Hearing aid worn
+3134.	Auditory/vestib. test abnormal
+31340	Audiogram bilateral abnormal
+8D2..	Auditory aid
+8E3..	Deafness remedial therapy
+8HR2.	Refer for audiometry
+8HT2.	Referral to hearing aid clinic
+8HT3.	Referral to audiology clinic
+Eu446	[X]Dissoc anaesth/sensory loss
+F5801	Presbyacusis
+F59..	Hearing loss
+F590.	Conductive hearing loss
+F591.	Sensorineural hearing loss
+F5912	Neural hearing loss
+F5915	Ototoxicity - deafness
+F5916	Sensorineural hear loss,bilat
+F592.	Mixed conduct/sensori deafness
+F594.	High frequency deafness
+F595.	Low frequency deafness
+F59z.	Deafness NOS
+F5A..	Hearing impairment
+ZV532	[V]Hearing aid fitting/adjust.

@@ -1,0 +1,21 @@
+79275	Open angioplasty of coronary artery
+7928.	Percutaneous balloon angioplasty of coronary artery
+79280	Percutaneous transluminal balloon angioplasty of one coronary artery
+79281	Percutaneous transluminal balloon angioplasty of multiple coronary arteries
+79282	Percutaneous transluminal balloon angioplasty of bypass graft of coronary artery
+7928y	Other specified transluminal balloon angioplasty of coronary artery
+7928z	Transluminal balloon angioplasty of coronary artery NOS
+79290	Laser coronary angioplasty
+79293	Rotary blade coronary angioplasty
+X00tS	Balloon angioplasty of coronary artery
+XaC1g	[V]Status following coronary angioplasty NOS
+XaLgU	Percutaneous transluminal balloon angioplasty and stenting of coronary artery
+XaLgV	Percutaneous transluminal balloon angioplasty and insertion of 1-2 drug eluting stents into coronary artery
+XaLgW	Percutaneous transluminal balloon angioplasty and insertion of 3 or more drug eluting stents into coronary artery
+XaLgX	Percutaneous transluminal balloon angioplasty and insertion of 1-2 stents into coronary artery
+XaLgY	Percutaneous coronary balloon angioplasty and 3 or more stents into coronary artery NEC
+XaLgZ	Other specified percutaneous transluminal balloon angioplasty and stenting of coronary artery
+XaLga	Percutaneous transluminal balloon angioplasty and stenting of coronary artery NOS
+XaMKE	Percutaneous transluminal cutting balloon angioplasty of coronary artery
+XaX1p	Coronary angioplasty planned
+ZV458	[V]Presence of coronary angioplasty implant and graft

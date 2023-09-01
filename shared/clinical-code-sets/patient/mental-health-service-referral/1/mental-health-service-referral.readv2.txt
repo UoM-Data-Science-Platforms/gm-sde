@@ -1,0 +1,41 @@
+64R7.11	Child refer- clinical psychol.
+8H23.00	Admit psychiatric emergency
+8H23000	Emerg psychiatric admiss MHA
+8H2L.00	Admit psychogeriatric emergency
+8H2T.00	Emergency voluntary psychiatric admission Mental Health Act
+8H38.00	Non-urgent psychiatric admisn.
+8H3Q.00	Non-urgent psychogeriatric admission
+8H49.00	Psychiatric referral
+8H4D.00	Referral to psychogeriatrician
+8H4f.00	Referral to learning disabilities psychiatrist
+8H4P.00	Referral to child psychiatrist
+8H7T.00	Refer to psychologist
+8Hc..00	Referral to mental health team
+8Hc0.00	Referral to community mental health team
+8Hc2.00	Referral to primary care mental health team
+8HHn.00	Referral to non NHS mental health community service
+8HHo.00	Referral to older age communiy mental health team
+8HHR.00	Referral to child and adolescent psychiatry service
+8HHs.00	Referral to psychosis early intervention service
+8HHT.00	Referral to psychotherapist
+8HHu.00	Referral to primary care mental health gateway worker
+8HHv.00	Referral to primary care mental health graduate worker
+8HJ3.00	Psychiatric self-referral
+8HlB.00	Urgent referral to psychiatrist
+8HlD.00	Referral to forensic psychiatrist
+8HVi.00	Private referral to psychologist
+8HVO.00	Private referral to psychiatrist
+8HVS.00	Private referral to psychogeriatrician
+ZL5B.00	Referral to psychiatrist
+ZL5B100	Referral to child and adolescent psychiatrist
+ZL5B111	Referral to child psychiatrist
+ZL5B200	Referral to forensic psychiatrist
+ZL5B300	Referral to liaison psychiatrist
+ZL5B400	Referral to rehabilitation psychiatrist
+ZL5B500	Referral to psychiatrist for mental handicap
+ZL62A00	Referral to nurse behavioural therapist
+ZL62B00	Referral to nurse psychotherapist
+ZL62E00	Referral to psychiatric nurse
+ZL77.00	Referral to psychotherapist
+ZL78.00	Referral to psychologist
+ZL78.11	Refer to psychologist

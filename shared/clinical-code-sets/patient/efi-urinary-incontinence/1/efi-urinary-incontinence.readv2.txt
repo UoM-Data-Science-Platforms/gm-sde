@@ -1,0 +1,20 @@
+1593.	H/O: stress incontinence
+16F..	Double incontinence
+1A23.	Incontinence of urine
+1A24.	Stress incontinence
+1A26.	Urge incontinence of urine
+3940.	Bladder: incontinent
+3941.	Bladder: occasional accident
+7B338	Ins ret dev str urin incon NEC
+7B33C	Ins ret de fe str urin inc NEC
+7B421	Insert bulbar ureth prosthesis
+8D7..	Urinary bladder control
+8D71.	Incontinence control
+8HTX.	Referral to incontinence clin
+K198.	Stress incontinence
+K586.	Stress incontinence - female
+Kyu5A	[X]Oth spcf urinary incontince
+R083.	[D]Incontinence of urine
+R0831	[D]Urethral sphinct.incontin.
+R0832	[D] Urge incontinence
+R083z	[D]Incontinence of urine NOS

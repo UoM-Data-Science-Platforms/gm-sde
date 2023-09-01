@@ -1,0 +1,2695 @@
+^ESCT1164493	Trimipramine mesylate
+^ESCT1174240	Nortriptyline 50mg/5ml oral suspension 1 ml
+^ESCT1174241	Nortriptyline 50mg/5ml oral suspension (Special Order)
+^ESCT1174242	Nortriptyline 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1174382	Nortriptyline 50mg/5ml oral suspension
+^ESCT1174795	Trazodone 50mg/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1174796	Trazodone 50mg/5ml oral solution sugar free (Creo Pharma Ltd) 120 ml
+^ESCT1175470	Amitriptyline 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175471	Amitriptyline 10mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1175472	Amitriptyline 25mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175473	Amitriptyline 25mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1175474	Amitriptyline 50mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175475	Amitriptyline 50mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1176671	Trazodone 100mg/5ml oral solution sugar free 120 ml
+^ESCT1176672	Trazodone 100mg/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1176673	Trazodone 100mg/5ml oral solution sugar free (Creo Pharma Ltd) 120 ml
+^ESCT1176729	Trazodone 100mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1176730	Trazodone 100mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 120 ml
+^ESCT1176767	Trazodone 100mg/5ml oral solution sugar free
+^ESCT1177606	Trazodone 100mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1177607	Trazodone 100mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCT1178162	Product containing only perphenazine 2 mg/1 each oral tablet
+^ESCT1178163	Product containing only perphenazine 4 mg/1 each oral tablet
+^ESCT1178171	Product containing only amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCT1178172	Product containing only amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCT1178173	Product containing only dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1178174	Product containing only dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1178175	Product containing only doxepin 10 mg/1 each oral capsule
+^ESCT1178176	Product containing only doxepin 75 mg/1 each oral capsule
+^ESCT1178177	Product containing only mianserin hydrochloride 30 mg/1 each oral tablet
+^ESCT1178178	Product containing only trazodone hydrochloride 50 mg/1 each oral capsule
+^ESCT1178325	Product containing only trimipramine maleate 100 mg/1 each oral capsule
+^ESCT1178328	Product containing only amitriptyline hydrochloride 100 mg/1 each oral tablet
+^ESCT1178329	Product containing only amitriptyline hydrochloride 150 mg/1 each oral tablet
+^ESCT1178337	Product containing only imipramine pamoate 125 mg/1 each oral capsule
+^ESCT1178338	Product containing only imipramine pamoate 150 mg/1 each oral capsule
+^ESCT1178406	Product containing only desipramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1178407	Product containing only desipramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1178631	Product containing only doxepin 6 mg/1 each oral tablet
+^ESCT1179244	Product containing only amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCT1179261	Clomipramine 10mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1179264	Trazodone 100mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1179274	Product containing only nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1179275	Product containing only clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCT1179414	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1179508	Dosulepin 25mg capsules (Mylan) 100 capsule
+^ESCT1179611	Lofepramine 70mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1179631	Mianserin 20mg tablets (Mylan) 100 tablet
+^ESCT1179820	Clomipramine 50mg capsules (Mylan)
+^ESCT1179829	Mianserin 10mg tablets (Mylan)
+^ESCT1179837	Clomipramine 10mg capsules (Mylan)
+^ESCT1181095	Product containing only clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCT1181096	Product containing only doxepin 25 mg/1 each oral capsule
+^ESCT1181097	Product containing only imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181098	Product containing only lofepramine 70 mg/1 each oral tablet
+^ESCT1181099	Product containing only maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCT1181100	Product containing only maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCT1181101	Product containing only nortriptyline 25 mg/1 each oral tablet
+^ESCT1181102	Product containing only trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCT1181103	Product containing only amoxapine 50 mg/1 each oral tablet
+^ESCT1181104	Product containing only fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCT1181105	Product containing only fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCT1181106	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1181384	Product containing only amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCT1181385	Product containing only clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1181386	Product containing only doxepin 50 mg/1 each oral capsule
+^ESCT1181387	Product containing only imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181388	Product containing only maprotiline hydrochloride 75 mg/1 each oral tablet
+^ESCT1181389	Product containing only mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCT1181390	Product containing only nortriptyline 10 mg/1 each oral tablet
+^ESCT1181391	Product containing only trazodone hydrochloride 150 mg/1 each oral tablet
+^ESCT1181392	Product containing only trimipramine 50 mg/1 each oral capsule
+^ESCT1181393	Product containing only trimipramine 10 mg/1 each oral tablet
+^ESCT1181394	Product containing only amoxapine 100 mg/1 each oral tablet
+^ESCT1181408	Product containing only imipramine pamoate 100 mg/1 each oral capsule
+^ESCT1181543	Product containing only doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCT1181642	Product containing only trimipramine maleate 25 mg/1 each oral capsule
+^ESCT1181692	Product containing only perphenazine 16 mg/1 each oral tablet
+^ESCT1181730	Product containing only imipramine pamoate 75 mg/1 each oral capsule
+^ESCT1181731	Product containing only imipramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181750	Product containing only nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1181825	Product containing only desipramine hydrochloride 75 mg/1 each oral tablet
+^ESCT1181826	Product containing only desipramine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181894	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1183319	Product containing only amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1183387	Mianserin 30mg tablets (Mylan)
+^ESCT1183428	Dosulepin 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1183429	Dosulepin 25mg capsules (Mylan) 600 capsule
+^ESCT1183431	Dosulepin 75mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183432	Dosulepin 75mg tablets (Mylan) 500 tablet
+^ESCT1183463	Clomipramine 10mg capsules (Mylan) 100 capsule
+^ESCT1183464	Clomipramine 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1183465	Clomipramine 25mg capsules (Mylan) 100 capsule
+^ESCT1183473	Trazodone 50mg capsules (Mylan) 84 capsule 6 x 14 capsules
+^ESCT1183542	Mianserin 20mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183731	Trazodone 150mg tablets (Mylan)
+^ESCT1184265	Dosulepin 25mg capsules (Mylan)
+^ESCT1185371	Product containing only nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1185380	Product containing only protriptyline hydrochloride 5 mg/1 each oral tablet
+^ESCT1185387	Product containing only trazodone hydrochloride 50 mg/1 each oral tablet
+^ESCT1185388	Product containing only trazodone hydrochloride 100 mg/1 each oral tablet
+^ESCT1185477	Product containing only amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCT1185662	Clomipramine 50mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1185663	Clomipramine 50mg capsules (Mylan) 100 capsule
+^ESCT1185722	Lofepramine 70mg tablets (Mylan) 250 tablet
+^ESCT1185728	Trazodone 150mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185737	Mianserin 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185931	Clomipramine 25mg capsules (Mylan)
+^ESCT1185951	Trazodone 50mg capsules (Mylan)
+^ESCT1186379	Trazodone 100mg capsules (Mylan)
+^ESCT1186388	Dosulepin 75mg tablets (Mylan)
+^ESCT1187290	Product containing only clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1187291	Product containing only dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1187292	Product containing only dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1187293	Product containing only maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCT1187294	Product containing only mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCT1187295	Product containing only trimipramine 25 mg/1 each oral tablet
+^ESCT1187478	Product containing only amitriptyline hydrochloride 75 mg/1 each oral tablet
+^ESCT1187502	Product containing only doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCT1187566	Product containing only desipramine hydrochloride 10 mg/1 each oral tablet
+^ESCT1187567	Product containing only desipramine hydrochloride 150 mg/1 each oral tablet
+^ESCT1187582	Product containing only nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1188096	Product containing only doxepin 3 mg/1 each oral tablet
+^ESCT1188471	Product containing only perphenazine 8 mg/1 each oral tablet
+^ESCT1188474	Product containing only protriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCT1188546	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1188680	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1188681	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1188682	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1188826	Mianserin 10mg tablets (Mylan) 100 tablet
+^ESCT1188827	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1188828	Mianserin 30mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189489	Mianserin 20mg tablets (Mylan)
+^ESCT1189490	Lofepramine 70mg tablets (Mylan)
+^ESCT1193928	Trazodone 150mg tablets (Accord Healthcare Ltd)
+^ESCT1193929	Trazodone 150mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1196076	Lofepramine 70mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1196508	Lofepramine 70mg tablets (Accord Healthcare Ltd)
+^ESCT1198221	Nortriptyline 50mg/5ml oral solution 1 ml
+^ESCT1198222	Nortriptyline 50mg/5ml oral solution (Special Order)
+^ESCT1198223	Nortriptyline 50mg/5ml oral solution (Special Order) 1 ml
+^ESCT1198276	Nortriptyline 50mg/5ml oral solution
+^ESCT1198801	Lofepramine 70mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1198928	Lofepramine 70mg tablets (Actavis UK Ltd)
+^ESCT1199536	Lofepramine 70mg tablets (Accord Healthcare Ltd)
+^ESCT1199537	Lofepramine 70mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1203346	Clomipramine hydrochloride 75 mg prolonged-release oral tablet
+^ESCT1203347	Product containing precisely clomipramine hydrochloride 75 milligram/1 each prolonged-release oral tablet
+^ESCT1203897	Amitriptyline hydrochloride 50 mg prolonged-release oral capsule
+^ESCT1203898	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each prolonged-release oral capsule
+^ESCT1203947	Amitriptyline hydrochloride 25 mg prolonged-release oral capsule
+^ESCT1203948	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each prolonged-release oral capsule
+^ESCT1204457	Dothiepin hydrochloride 25mg/5mL conventional release oral elixir
+^ESCT1204458	Dothiepin hydrochloride 75mg/5mL conventional release oral elixir
+^ESCT1204469	Amitriptyline hydrochloride 5 mg/mL oral solution
+^ESCT1204470	Product containing precisely amitriptyline hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1204471	Amitriptyline hydrochloride 10 mg/mL oral solution
+^ESCT1204472	Product containing precisely amitriptyline hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1204531	Perphenazine 2mg/5mL conventional release oral solution
+^ESCT1204532	Perphenazine 4mg/5mL conventional release oral solution
+^ESCT1204581	Lofepramine (as lofepramine hydrochloride) 14 mg/mL oral suspension
+^ESCT1204582	Product containing precisely lofepramine (as lofepramine hydrochloride) 14 milligram/1 milliliter conventional release oral suspension
+^ESCT1206203	Amitriptyline and chlordiazepoxide product
+^ESCT1206204	Product containing amitriptyline and chlordiazepoxide
+^ESCT1206205	Amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206206	Product containing amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206207	Amitriptyline and perphenazine in oral dosage form
+^ESCT1206208	Product containing amitriptyline and perphenazine in oral dosage form
+^ESCT1206358	Dosulepin in oral dosage form
+^ESCT1206359	Dothiepin in oral dosage form
+^ESCT1206360	Product containing dosulepin in oral dosage form
+^ESCT1206413	Desipramine in oral dosage form
+^ESCT1206414	Product containing desipramine in oral dosage form
+^ESCT1206665	Nortriptyline in oral dosage form
+^ESCT1206666	Product containing nortriptyline in oral dosage form
+^ESCT1207063	Trimipramine in oral dosage form
+^ESCT1207064	Product containing trimipramine in oral dosage form
+^ESCT1207133	Lofepramine in oral dosage form
+^ESCT1207134	Product containing lofepramine in oral dosage form
+^ESCT1207214	Fluphenazine and nortriptyline in oral dosage form
+^ESCT1207215	Product containing fluphenazine and nortriptyline in oral dosage form
+^ESCT1208078	Clomipramine in parenteral dosage form
+^ESCT1208079	Product containing clomipramine in parenteral dosage form
+^ESCT1208088	Protriptyline in oral dosage form
+^ESCT1208089	Product containing protriptyline in oral dosage form
+^ESCT1208430	Imipramine hydrochloride 5 mg/mL oral solution
+^ESCT1208431	Product containing precisely imipramine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1209173	Clomipramine hydrochloride 25 mg/2 mL solution for injection ampoule
+^ESCT1209174	Clomipramine hydrochloride 25 mg/2 mL solution for injection ampule
+^ESCT1209175	Product containing precisely clomipramine hydrochloride 25 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1213874	Trazodone 100mg capsules (Dawa Ltd)
+^ESCT1213876	Trazodone 100mg capsules (Dawa Ltd) 56 capsule
+^ESCT1213879	Trazodone 50mg capsules (Dawa Ltd)
+^ESCT1213881	Trazodone 50mg capsules (Dawa Ltd) 84 capsule
+^ESCT1214686	Amitriptyline 25mg modified-release capsules
+^ESCT1214688	Amitriptyline 25mg/5ml oral solution sugar free
+^ESCT1214689	Amitriptyline 50mg modified-release capsules
+^ESCT1214690	Amitriptyline 50mg/5ml oral solution sugar free
+^ESCT1215121	Clomipramine 75mg modified-release tablets 1 tablet
+^ESCT1215122	Clomipramine 75mg modified-release tablets (Special Order)
+^ESCT1215123	Clomipramine 75mg modified-release tablets (Special Order) 1 tablet
+^ESCT1215498	Lofepramine 70mg/5ml oral suspension sugar free
+^ESCT1215540	Nortriptyline 10mg tablets (Medreich Plc)
+^ESCT1215543	Nortriptyline 10mg tablets (Medreich Plc) 100 tablet 10 x 10 tablets
+^ESCT1215545	Nortriptyline 25mg tablets (Medreich Plc)
+^ESCT1215548	Nortriptyline 25mg tablets (Medreich Plc) 100 tablet 10 x 10 tablets
+^ESCT1215559	Imipramine 25mg/5ml oral solution
+^ESCT1215861	Clomipramine 25mg/2ml solution for injection ampoules
+^ESCT1215862	Clomipramine 75mg modified-release tablets
+^ESCT1216158	Trazodone 50mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1216159	Trazodone 50mg/5ml oral solution sugar free (Accord Healthcare Ltd) 120 ml
+^ESCT1216923	Doxepin
+^ESCT1216924	Doxepin product
+^ESCT1216973	Nortriptyline
+^ESCT1216974	Nortriptyline product
+^ESCT1217849	Desipramine
+^ESCT1217850	Desipramine product
+^ESCT1217964	Imipramine
+^ESCT1217965	Imipramine product
+^ESCT1218158	Amitriptyline
+^ESCT1218159	Amitriptyline product
+^ESCT1218188	Perphenazine
+^ESCT1218189	Perphenazine product
+^ESCT1218537	Protriptyline
+^ESCT1218538	Protriptyline product
+^ESCT1220427	Trimipramine
+^ESCT1220428	Trimipramine product
+^ESCT1220623	Clomipramine
+^ESCT1220624	Clomipramine product
+^ESCT1221498	Butriptyline
+^ESCT1221499	Product containing butriptyline
+^ESCT1221500	Butriptyline product
+^ESCT1223424	Product containing precisely perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223425	Product containing precisely perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1223509	Product containing precisely amitriptyline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223510	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223511	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223512	Clomipramine hydrochloride 10 mg oral capsule
+^ESCT1223513	Product containing precisely clomipramine hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1223514	Clomipramine hydrochloride 25 mg oral capsule
+^ESCT1223515	Product containing precisely clomipramine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223516	Clomipramine hydrochloride 50 mg oral capsule
+^ESCT1223517	Product containing precisely clomipramine hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1223518	Dothiepin hydrochloride 25 mg oral capsule
+^ESCT1223519	Product containing precisely dosulepin hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223520	Dosulepin hydrochloride 25 mg oral capsule
+^ESCT1223521	Product containing precisely dosulepin hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1223522	Product containing precisely doxepin (as doxepin hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1223523	Doxepin (as doxepin hydrochloride) 10 mg oral capsule
+^ESCT1223524	Doxepin (as doxepin hydrochloride) 25 mg oral capsule
+^ESCT1223525	Product containing precisely doxepin (as doxepin hydrochloride) 25 milligram/1 each conventional release oral capsule
+^ESCT1223526	Doxepin (as doxepin hydrochloride) 50 mg oral capsule
+^ESCT1223527	Product containing precisely doxepin (as doxepin hydrochloride) 50 milligram/1 each conventional release oral capsule
+^ESCT1223528	Doxepin (as doxepin hydrochloride) 75 mg oral capsule
+^ESCT1223529	Product containing precisely doxepin (as doxepin hydrochloride) 75 milligram/1 each conventional release oral capsule
+^ESCT1223530	Product containing precisely imipramine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223531	Product containing precisely imipramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223532	Iprindole
+^ESCT1223533	Product containing iprindole
+^ESCT1223534	Iprindole product
+^ESCT1223535	Lofepramine
+^ESCT1223536	Lofepramine product
+^ESCT1223537	Product containing precisely lofepramine 70 milligram/1 each conventional release oral tablet
+^ESCT1223538	Product containing precisely maprotiline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223539	Product containing precisely maprotiline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223540	Product containing precisely maprotiline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223541	Product containing precisely maprotiline hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1223542	Product containing precisely mianserin hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223543	Product containing precisely mianserin hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1223544	Product containing precisely mianserin hydrochloride 30 milligram/1 each conventional release oral tablet
+^ESCT1223545	Product containing precisely nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1223546	Product containing precisely nortriptyline 25 milligram/1 each conventional release oral tablet
+^ESCT1223547	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1223548	Trazodone hydrochloride 100 mg oral capsule
+^ESCT1223549	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1223550	Trazodone hydrochloride 50 mg oral capsule
+^ESCT1223551	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1223552	Trimipramine (as trimipramine maleate) 50 mg oral capsule
+^ESCT1223553	Product containing precisely trimipramine (as trimipramine maleate) 50 milligram/1 each conventional release oral capsule
+^ESCT1223554	Trimipramine (as trimipramine maleate) 10 mg oral tablet
+^ESCT1223555	Product containing precisely trimipramine (as trimipramine maleate) 10 milligram/1 each conventional release oral tablet
+^ESCT1223556	Product containing precisely trimipramine (as trimipramine maleate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223557	Trimipramine (as trimipramine maleate) 25 mg oral tablet
+^ESCT1223558	Product containing precisely amoxapine 50 milligram/1 each conventional release oral tablet
+^ESCT1223559	Product containing precisely amoxapine 100 milligram/1 each conventional release oral tablet
+^ESCT1223568	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline 30 milligram/1 each conventional release oral tablet
+^ESCT1223569	Fluphenazine hydrochloride 500 microgram and nortriptyline 10 mg oral tablet
+^ESCT1223570	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1223571	Product containing precisely amitriptyline 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223572	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
+^ESCT1223573	Product containing precisely amitriptyline 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223574	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
+^ESCT1225914	Product containing precisely doxepin hydrochloride 50 milligram/1 gram conventional release cutaneous cream
+^ESCT1225915	Doxepin hydrochloride 50 mg/g cutaneous cream
+^ESCT1226763	Dosulepin
+^ESCT1226764	Dothiepin product
+^ESCT1226765	Dosulepin product
+^ESCT1227729	Trimipramine maleate 25 mg/1 each oral capsule
+^ESCT1227730	Trimipramine maleate 25 mg oral capsule
+^ESCT1227731	Product containing precisely trimipramine maleate 25 milligram/1 each conventional release oral capsule
+^ESCT1227732	Trimipramine maleate 100 mg/1 each oral capsule
+^ESCT1227733	Product containing precisely trimipramine maleate 100 milligram/1 each conventional release oral capsule
+^ESCT1227734	Trimipramine maleate 100 mg oral capsule
+^ESCT1227772	Product containing precisely amitriptyline hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1227774	Product containing precisely amitriptyline hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1227775	Product containing precisely amitriptyline hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1227829	Imipramine pamoate 100 mg/1 each oral capsule
+^ESCT1227830	Imipramine pamoate 100 mg oral capsule
+^ESCT1227831	Product containing precisely imipramine pamoate 100 milligram/1 each conventional release oral capsule
+^ESCT1227832	Imipramine pamoate 125 mg/1 each oral capsule
+^ESCT1227833	Imipramine pamoate 125 mg oral capsule
+^ESCT1227834	Product containing precisely imipramine pamoate 125 milligram/1 each conventional release oral capsule
+^ESCT1227835	Imipramine pamoate 150 mg/1 each oral capsule
+^ESCT1227836	Imipramine pamoate 150 mg oral capsule
+^ESCT1227837	Product containing precisely imipramine pamoate 150 milligram/1 each conventional release oral capsule
+^ESCT1227991	Doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCT1227992	Doxepin hydrochloride 150 mg oral capsule
+^ESCT1227993	Product containing precisely doxepin hydrochloride 150 milligram/1 each conventional release oral capsule
+^ESCT1228025	Imipramine pamoate 75 mg/1 each oral capsule
+^ESCT1228026	Product containing precisely imipramine pamoate 75 milligram/1 each conventional release oral capsule
+^ESCT1228027	Imipramine pamoate 75 mg oral capsule
+^ESCT1228030	Product containing precisely imipramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228159	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1228160	Product containing precisely nortriptyline hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1228161	Nortriptyline hydrochloride 50 mg oral capsule
+^ESCT1228272	Doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCT1228273	Doxepin hydrochloride 100 mg oral capsule
+^ESCT1228274	Product containing precisely doxepin hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1228361	Product containing precisely desipramine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1228362	Product containing precisely desipramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1228363	Product containing precisely desipramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228364	Product containing precisely desipramine hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1228365	Product containing precisely desipramine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228366	Product containing precisely desipramine hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1228497	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1228498	Product containing precisely nortriptyline hydrochloride 75 milligram/1 each conventional release oral capsule
+^ESCT1228499	Nortriptyline hydrochloride 75 mg oral capsule
+^ESCT1228628	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1228629	Nortriptyline hydrochloride 10 mg oral capsule
+^ESCT1228630	Product containing precisely nortriptyline hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1228637	Clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCT1228638	Product containing precisely clomipramine hydrochloride 75 milligram/1 each conventional release oral capsule
+^ESCT1228639	Clomipramine hydrochloride 75 mg oral capsule
+^ESCT1228643	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1228644	Product containing precisely nortriptyline hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1228645	Nortriptyline hydrochloride 25 mg oral capsule
+^ESCT1228652	Product containing precisely perphenazine 16 milligram/1 each conventional release oral tablet
+^ESCT1228654	Product containing precisely perphenazine 8 milligram/1 each conventional release oral tablet
+^ESCT1228686	Product containing precisely protriptyline hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1228687	Product containing precisely protriptyline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1228719	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228720	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1229245	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet
+^ESCT1229246	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229247	Product containing precisely amitriptyline 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229248	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229447	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229448	Amitriptyline 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229449	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229450	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229451	Amitriptyline 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229452	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1233410	Fluphenazine and nortriptyline product
+^ESCT1233412	Amitriptyline and perphenazine product
+^ESCT1234738	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234739	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234740	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet
+^ESCT1235343	Product containing precisely doxepin 3 milligram/1 each conventional release oral tablet
+^ESCT1235344	Product containing precisely doxepin 6 milligram/1 each conventional release oral tablet
+^ESCT1237595	Trazodone 50mg capsules (Actavis UK Ltd) 84 capsule
+^ESCT1237596	Trazodone 100mg capsules (Actavis UK Ltd) 56 capsule
+^ESCT1237597	Trazodone 150mg tablets (Actavis UK Ltd) 28 tablet
+^ESCT1250043	Triptafen tablets (Advanz Pharma)
+^ESCT1250127	Triptafen tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1250218	Fentazin 2mg tablets (Advanz Pharma)
+^ESCT1250220	Fentazin 4mg tablets (Advanz Pharma)
+^ESCT1250816	Trazodone 150mg tablets (Advanz Pharma)
+^ESCT1250817	Trazodone 150mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250818	Trazodone 50mg capsules (Advanz Pharma)
+^ESCT1250819	Trazodone 50mg capsules (Advanz Pharma) 84 capsule 6 x 14 capsules
+^ESCT1250820	Trazodone 100mg capsules (Advanz Pharma)
+^ESCT1250821	Trazodone 100mg capsules (Advanz Pharma) 56 capsule 4 x 14 capsules
+^ESCT1250822	Trimipramine 50mg capsules (Advanz Pharma)
+^ESCT1250823	Trimipramine 50mg capsules (Advanz Pharma) 28 capsule 2 x 14 capsules
+^ESCT1250824	Trimipramine 10mg tablets (Advanz Pharma)
+^ESCT1250825	Trimipramine 10mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250826	Trimipramine 25mg tablets (Advanz Pharma)
+^ESCT1250827	Trimipramine 25mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250828	Trazodone 50mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250829	Trazodone 50mg/5ml oral solution sugar free (Advanz Pharma) 120 ml
+^ESCT1250873	Nortriptyline 10mg tablets (Advanz Pharma)
+^ESCT1250874	Nortriptyline 25mg tablets (Advanz Pharma)
+^ESCT1250875	Nortriptyline 25mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250876	Nortriptyline 10mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250877	Nortriptyline 25mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250878	Nortriptyline 10mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250879	Nortriptyline 50mg tablets (Advanz Pharma)
+^ESCT1250880	Nortriptyline 50mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1254487	Imipramine 10mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1254488	Imipramine 10mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1254489	Imipramine 25mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1254490	Imipramine 25mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1255301	Trazodone 50mg capsules (Sovereign Medical Ltd)
+^ESCT1255302	Trazodone 50mg capsules (Sovereign Medical Ltd) 84 capsule 6 x 14 capsules
+^ESCT1255303	Trazodone 100mg capsules (Sovereign Medical Ltd)
+^ESCT1255304	Trazodone 100mg capsules (Sovereign Medical Ltd) 56 capsule 4 x 14 capsules
+^ESCT1255821	Trazodone 50mg capsules (Bristol Laboratories Ltd)
+^ESCT1255822	Trazodone 50mg capsules (Bristol Laboratories Ltd) 84 capsule 6 x 14 capsules
+^ESCT1255823	Trazodone 150mg tablets (Bristol Laboratories Ltd)
+^ESCT1255824	Trazodone 150mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255825	Trazodone 100mg capsules (Bristol Laboratories Ltd)
+^ESCT1255826	Trazodone 100mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCT1255914	Amitriptyline 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1255915	Amitriptyline 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255924	Amitriptyline 25mg tablets (Bristol Laboratories Ltd)
+^ESCT1255925	Amitriptyline 25mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255926	Amitriptyline 50mg tablets (Bristol Laboratories Ltd)
+^ESCT1255927	Amitriptyline 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255950	Nortriptyline 10mg tablets (Ria Generics Ltd)
+^ESCT1255951	Nortriptyline 10mg tablets 28 tablet
+^ESCT1255953	Nortriptyline 10mg tablets 84 tablet
+^ESCT1255954	Nortriptyline 10mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255957	Nortriptyline 10mg tablets (Ria Generics Ltd) 84 tablet 6 x 14 tablets
+^ESCT1255960	Nortriptyline 25mg tablets 28 tablet
+^ESCT1255961	Nortriptyline 25mg tablets 84 tablet
+^ESCT1255962	Nortriptyline 25mg tablets (Ria Generics Ltd)
+^ESCT1255963	Nortriptyline 25mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255964	Nortriptyline 25mg tablets (Ria Generics Ltd) 84 tablet 6 x 14 tablets
+^ESCT1257402	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257403	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1257404	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257407	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1257916	Trazodone 150mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257917	Trazodone 150mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257918	Trazodone 50mg capsules (Flamingo Pharma (UK) Ltd)
+^ESCT1257919	Trazodone 50mg capsules (Flamingo Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1257922	Trazodone 100mg capsules (Flamingo Pharma (UK) Ltd)
+^ESCT1257923	Trazodone 100mg capsules (Flamingo Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1258397	Dosulepin 25mg capsules (Strides Pharma UK Ltd)
+^ESCT1258398	Dosulepin 25mg capsules (Strides Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1258399	Dosulepin 75mg tablets (Strides Pharma UK Ltd)
+^ESCT1258400	Dosulepin 75mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259786	Trazodone 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1259787	Trazodone 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) 120 ml
+^ESCT1259839	Maprotiline 50mg tablets 1 tablet
+^ESCT1259840	Maprotiline 50mg tablets (Special Order)
+^ESCT1259841	Maprotiline 50mg tablets (Special Order) 1 tablet
+^ESCT1259955	Trazodone 50mg/5ml oral solution sugar free (Alissa Healthcare Research Ltd)
+^ESCT1259956	Trazodone 50mg/5ml oral solution sugar free (Alissa Healthcare Research Ltd) 120 ml
+^ESCT1263041	Clomipramine 250mg/5ml oral suspension 1 ml
+^ESCT1263042	Clomipramine 250mg/5ml oral suspension (Special Order)
+^ESCT1263060	Clomipramine 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1263216	Clomipramine 250mg/5ml oral suspension
+^ESCT1264366	Nortriptyline 10mg tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1264367	Nortriptyline 25mg tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1264383	Trazodone 50mg capsules (Manx Healthcare Ltd)
+^ESCT1264398	Trazodone 50mg capsules (Manx Healthcare Ltd) 84 capsule
+^ESCT1264399	Trazodone 100mg capsules (Manx Healthcare Ltd)
+^ESCT1264405	Amitriptyline 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264406	Amitriptyline 10mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1264422	Trazodone 100mg capsules (Manx Healthcare Ltd) 56 capsule
+^ESCT1266153	Doxepin 25mg capsules (DE Pharmaceuticals)
+^ESCT1266154	Doxepin 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1266155	Doxepin 50mg capsules (DE Pharmaceuticals)
+^ESCT1266156	Doxepin 50mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1267285	Imipramine 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1267286	Imipramine 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1267572	Nortriptyline 10mg tablets (DE Pharmaceuticals)
+^ESCT1267573	Nortriptyline 10mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1267574	Nortriptyline 50mg tablets (DE Pharmaceuticals)
+^ESCT1267575	Nortriptyline 50mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1267777	Nortriptyline 10mg tablets (Macleods Pharma UK Ltd)
+^ESCT1267778	Nortriptyline 10mg tablets (Macleods Pharma UK Ltd) 100 tablet
+^ESCT1267781	Nortriptyline 25mg tablets (Macleods Pharma UK Ltd)
+^ESCT1267782	Nortriptyline 25mg tablets (Macleods Pharma UK Ltd) 100 tablet
+^ESCT1269644	Nortriptyline 10mg tablets (Accord Healthcare Ltd)
+^ESCT1269645	Nortriptyline 10mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1269646	Nortriptyline 25mg tablets (Accord Healthcare Ltd)
+^ESCT1269647	Nortriptyline 25mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1270588	Nortriptyline 10mg tablets (Mylan)
+^ESCT1270589	Nortriptyline 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1270590	Nortriptyline 10mg tablets (Mylan) 100 tablet
+^ESCT1270591	Nortriptyline 25mg tablets (Mylan)
+^ESCT1270592	Nortriptyline 25mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1270593	Nortriptyline 25mg tablets (Mylan) 100 tablet
+^ESCT1270594	Nortriptyline 50mg tablets (Mylan)
+^ESCT1270595	Nortriptyline 50mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1274925	Trimipramine 25mg tablets 50 tablet
+^ESCT1274964	Trimipramine 25mg tablets 100 tablet
+^ESCT1275173	Trimipramine 10mg tablets 25 tablet
+^ESCT1275175	Trimipramine 10mg tablets 50 tablet
+^ESCT1275367	Nortriptyline 10mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1275368	Nortriptyline 25mg tablets (DE Pharmaceuticals)
+^ESCT1275369	Nortriptyline 25mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1275370	Nortriptyline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275371	Nortriptyline 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1275757	Trazodone 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275758	Trazodone 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 120 ml
+^ESCT1275769	Trimipramine 10mg tablets (DE Pharmaceuticals)
+^ESCT1275770	Trimipramine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275771	Trimipramine 25mg tablets (DE Pharmaceuticals)
+^ESCT1275772	Trimipramine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1276750	Nortriptyline 10mg/5ml oral solution sugar free 250 ml
+^ESCT1276751	Nortriptyline 10mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1276752	Nortriptyline 10mg/5ml oral solution sugar free (Colonis Pharma Ltd) 250 ml
+^ESCT1276753	Nortriptyline 25mg/5ml oral solution sugar free 250 ml
+^ESCT1276754	Nortriptyline 25mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1276755	Nortriptyline 25mg/5ml oral solution sugar free (Colonis Pharma Ltd) 250 ml
+^ESCT1276798	Nortriptyline 10mg/5ml oral solution sugar free
+^ESCT1276799	Nortriptyline 25mg/5ml oral solution sugar free
+^ESCT1276805	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1276806	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCT1276807	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1276816	Nortriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1276817	Nortriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 250 ml
+^ESCT1276818	Nortriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1276819	Nortriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 250 ml
+^ESCT1276820	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCT1276926	Imipramine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1276928	Imipramine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1276944	Imipramine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276945	Imipramine 25mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1278933	Lofepramine 70mg tablets (Zentiva)
+^ESCT1278934	Lofepramine 70mg tablets (Zentiva) 56 tablet
+^ESCT1278976	Nortriptyline 10mg tablets (Zentiva)
+^ESCT1278977	Nortriptyline 10mg tablets (Zentiva) 100 tablet 10 x 10 tablets
+^ESCT1278978	Nortriptyline 25mg tablets (Zentiva)
+^ESCT1278979	Nortriptyline 25mg tablets (Zentiva) 100 tablet 10 x 10 tablets
+^ESCT1279013	Trazodone 100mg/5ml oral solution sugar free (Zentiva)
+^ESCT1279014	Trazodone 100mg/5ml oral solution sugar free (Zentiva) 120 ml
+^ESCT1279122	Trazodone 50mg/5ml oral solution sugar free (NorthStar Healthcare Unlimited Company)
+^ESCT1279123	Trazodone 50mg/5ml oral solution sugar free (NorthStar Healthcare Unlimited Company) 120 ml
+^ESCT1279744	Amitriptyline 50mg tablets (Accord Healthcare Ltd)
+^ESCT1279751	Amitriptyline 50mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1300345	Lofepramine 70mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1300346	Lofepramine 70mg tablets (NorthStar Healthcare Unlimited Company) 56 tablet 4 x 14 tablets
+^ESCT1300928	Trazodone 50mg tablets 84 tablet
+^ESCT1300929	Trazodone 50mg tablets (Accord Healthcare Ltd)
+^ESCT1300930	Trazodone 50mg tablets (Accord Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1300931	Trazodone 100mg tablets 56 tablet
+^ESCT1300932	Trazodone 100mg tablets (Accord Healthcare Ltd)
+^ESCT1300933	Trazodone 100mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1300946	Trazodone 150mg tablets (Medreich Plc)
+^ESCT1300947	Trazodone 150mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1301149	Trazodone 100mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1301150	Trazodone 100mg/5ml oral solution sugar free (DE Pharmaceuticals) 120 ml
+^ESCT1301176	Trazodone 50mg tablets
+^ESCT1301177	Trazodone 100mg tablets
+^ESCT1303748	Nortriptyline 25mg capsules 100 capsule
+^ESCT1303749	Nortriptyline 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCT1303750	Nortriptyline 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCT1303751	Nortriptyline 10mg capsules 100 capsule
+^ESCT1303753	Nortriptyline 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCT1303754	Nortriptyline 10mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCT1303883	Nortriptyline 10mg capsules
+^ESCT1303884	Nortriptyline 25mg capsules
+^ESCT1374262	Doxepin 50mg capsules (Crescent Pharma Ltd)
+^ESCT1374263	Doxepin 50mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1374347	Doxepin 25mg capsules (Crescent Pharma Ltd)
+^ESCT1374349	Doxepin 25mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1374660	Amitriptyline 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374661	Amitriptyline 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374665	Amitriptyline 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374668	Amitriptyline 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374669	Amitriptyline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374670	Amitriptyline 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374671	Amitriptyline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374672	Amitriptyline 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374673	Amitriptyline 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374674	Amitriptyline 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374675	Amitriptyline 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374676	Amitriptyline 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375225	Clomipramine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375226	Clomipramine 10mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375227	Clomipramine 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375228	Clomipramine 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375231	Clomipramine 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375232	Clomipramine 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375524	Doxepin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375525	Doxepin 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375526	Doxepin 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375527	Doxepin 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1376151	Mianserin 10mg tablets (Imported)
+^ESCT1376152	Mianserin 10mg tablets (Imported) 28 tablet
+^ESCT1376153	Mianserin 30mg tablets (Imported)
+^ESCT1376154	Mianserin 30mg tablets (Imported) 28 tablet
+^ESCT1376239	Imipramine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376240	Imipramine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376241	Imipramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376242	Imipramine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376970	Desipramine-containing product
+^ESCT1378569	Butriptyline-containing product
+^ESCT1381072	Iprindole-containing product
+^ESCT1382056	Perphenazine-containing product in oral dose form
+^ESCT1382057	Perphenazine-containing product in parenteral dose form
+^ESCT1382069	Amitriptyline-containing product in oral dose form
+^ESCT1382070	Amitriptyline-containing product in parenteral dose form
+^ESCT1382072	Imipramine-containing product in parenteral dose form
+^ESCT1383621	Imipramine-containing product in oral dose form
+^ESCT1384019	Doxepin-containing product in oral dose form
+^ESCT1384918	Clomipramine-containing product in oral dose form
+^ESCT1385419	Trimipramine mesilate
+^ESCT1385919	Perphenazine 400 microgram/mL oral solution
+^ESCT1385920	Perphenazine 800 microgram/mL oral solution
+^ESCT1386159	Amitriptyline- and chlordiazepoxide-containing product
+^ESCT1386160	Amitriptyline- and chlordiazepoxide-containing product in oral dose form
+^ESCT1386161	Amitriptyline- and perphenazine-containing product in oral dose form
+^ESCT1386237	Dosulepin-containing product in oral dose form
+^ESCT1386238	Dothiepin-containing product in oral dose form
+^ESCT1386266	Desipramine-containing product in oral dose form
+^ESCT1386389	Nortriptyline-containing product in oral dose form
+^ESCT1386575	Trimipramine-containing product in oral dose form
+^ESCT1386612	Lofepramine-containing product in oral dose form
+^ESCT1386647	Fluphenazine- and nortriptyline-containing product in oral dose form
+^ESCT1386982	Clomipramine-containing product in parenteral dose form
+^ESCT1386987	Protriptyline-containing product in oral dose form
+^ESCT1402126	Lofepramine 70mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402127	Lofepramine 70mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402426	Nortriptyline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402427	Nortriptyline 50mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402428	Nortriptyline 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402429	Nortriptyline 10mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1402430	Nortriptyline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402431	Nortriptyline 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1402610	Nortriptyline 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402611	Nortriptyline 10mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCT1402612	Nortriptyline 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402613	Nortriptyline 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCT1403855	Imipramine 25mg tablets (Relonchem Ltd)
+^ESCT1403856	Imipramine 25mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1403968	Dosulepin 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403969	Dosulepin 75mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404746	Dosulepin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1404747	Dosulepin 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1404785	Doxepin 25mg capsules (Zentiva)
+^ESCT1404788	Doxepin 25mg capsules (Zentiva) 28 capsule
+^ESCT1404789	Doxepin 50mg capsules (Zentiva)
+^ESCT1404790	Doxepin 50mg capsules (Zentiva) 28 capsule
+^ESCT1405455	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1405456	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1409550	Prothiaden 25mg capsules (Teofarma S.r.l.)
+^ESCT1409733	Prothiaden 75mg tablets (Teofarma S.r.l.)
+^ESCT1409839	Prothiaden 25mg capsules (Teofarma S.r.l.) 100 capsule
+^ESCT1409840	Prothiaden 25mg capsules (Teofarma S.r.l.) 600 capsule
+^ESCT1409842	Prothiaden 75mg tablets (Teofarma S.r.l.) 28 tablet
+^ESCT1409843	Prothiaden 75mg tablets (Teofarma S.r.l.) 500 tablet
+^ESCT1410879	Prothiaden 25mg capsules (Teofarma S.r.l.) 28 capsule 2 x 14 capsules
+^ESCT1410971	Nortriptyline 10mg/5ml oral suspension (Special Order)
+^ESCT1410972	Nortriptyline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1411025	Trazodone 50mg capsules (Accord Healthcare Ltd)
+^ESCT1411026	Trazodone 50mg capsules (Accord Healthcare Ltd) 84 capsule
+^ESCT1411027	Trazodone 100mg capsules (Accord Healthcare Ltd)
+^ESCT1411028	Trazodone 100mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCT1412165	Amitriptyline 25mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412166	Amitriptyline 25mg/5ml oral solution sugar free (Accord Healthcare Ltd) 150 ml
+^ESCT1412167	Amitriptyline 50mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412168	Amitriptyline 50mg/5ml oral solution sugar free (Accord Healthcare Ltd) 150 ml
+^ESCT1412439	Nortriptyline 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1418329	Trazodone 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1418330	Trazodone 100mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1421584	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421659	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421664	Trazodone 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421669	Trazodone 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421676	Trazodone 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421702	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421915	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules
+^ESCT1421916	Trazodone 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules
+^ESCT1421917	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1421918	Trazodone 100mg capsules (Zentiva Pharma UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1421954	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1421955	Trazodone 150mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422417	Trazodone 50mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422418	Trazodone 50mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 120 ml
+^ESCT1422560	Trimipramine 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422561	Trimipramine 50mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1422562	Trimipramine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422563	Trimipramine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422564	Trimipramine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422565	Trimipramine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422700	Lofepramine 70mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422701	Lofepramine 70mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1422780	Nortriptyline 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422781	Nortriptyline 10mg tablets (Zentiva Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1422782	Nortriptyline 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422783	Nortriptyline 25mg tablets (Zentiva Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1422854	Trazodone 100mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422855	Trazodone 100mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 120 ml
+^ESCT1423118	Doxepin 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1423119	Doxepin 25mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1423120	Doxepin 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1423121	Doxepin 50mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1424771	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCT1424772	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCT1424835	Lofepramine 70mg tablets
+^ESCT1424857	Nortriptyline 10mg tablets
+^ESCT1424858	Nortriptyline 25mg tablets
+^ESCT1425158	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1425159	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCT1425505	Amitriptyline 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425508	Amitriptyline 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425527	Trazodone 150mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425546	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425620	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1425638	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425672	Trazodone 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425679	Amitriptyline 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425706	Trazodone 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425758	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425767	Clomipramine 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425773	Mianserin 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425781	Imipramine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425814	Mianserin 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425844	Mianserin 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425849	Lofepramine 70mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425906	Imipramine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425912	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426023	Amitriptyline 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426025	Amitriptyline 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426031	Amitriptyline 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426053	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426054	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1426055	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 600 capsule
+^ESCT1426060	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426061	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426177	Clomipramine 10mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426181	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426184	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426185	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1426220	Trazodone 50mg capsules (Kent Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1426221	Trazodone 100mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1426228	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1426364	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1426385	Lofepramine 70mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426409	Imipramine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426410	Imipramine 10mg tablets (Kent Pharma (UK) Ltd) 250 tablet
+^ESCT1426412	Imipramine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426413	Imipramine 25mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426419	Trazodone 150mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426481	Mianserin 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426482	Mianserin 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426483	Mianserin 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426733	Trimipramine 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426734	Trimipramine 50mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426735	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426736	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426737	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1426738	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426739	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426740	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1428062	Nortriptyline 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1428063	Nortriptyline 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1428064	Nortriptyline 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1428065	Nortriptyline 10mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1429325	Lofepramine 70mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1429327	Lofepramine 70mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1429407	Nortriptyline 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429408	Nortriptyline 10mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1429409	Nortriptyline 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429410	Nortriptyline 25mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1429686	Trazodone 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429687	Trazodone 100mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1429698	Trazodone 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429699	Trazodone 150mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429700	Trazodone 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429701	Trazodone 50mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1429706	Trazodone 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429707	Trazodone 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 120 ml
+^ESCT1429723	Trimipramine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429724	Trimipramine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429725	Trimipramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429726	Trimipramine 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1429761	Trimipramine 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429762	Trimipramine 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1430660	Imipramine 10mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1430661	Imipramine 10mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1430662	Imipramine 25mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1430663	Imipramine 25mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1431591	Amitriptyline 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431592	Amitriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431593	Amitriptyline 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431594	Amitriptyline 50mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1432354	Doxepin 25mg capsules (Dexcel-Pharma Ltd)
+^ESCT1432355	Doxepin 25mg capsules (Dexcel-Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1432356	Doxepin 50mg capsules (Dexcel-Pharma Ltd)
+^ESCT1432357	Doxepin 50mg capsules (Dexcel-Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1434862	Imipramine 25mg/5ml oral solution sugar free (Essential Pharma Ltd)
+^ESCT1434863	Imipramine 25mg/5ml oral solution sugar free (Essential Pharma Ltd) 150 ml
+^ESCT1434955	Lofepramine 70mg/5ml oral suspension sugar free (Essential Pharma Ltd)
+^ESCT1434956	Lofepramine 70mg/5ml oral suspension sugar free (Essential Pharma Ltd) 150 ml
+^ESCT1436784	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436807	Trazodone 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436816	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436844	Mianserin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436856	Trazodone 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436863	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436967	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437002	Mianserin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437008	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437014	Trazodone 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437053	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437075	Mianserin 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437196	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437197	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437198	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 600 capsule
+^ESCT1437202	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437203	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437281	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437282	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437283	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437284	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437285	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437286	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437310	Trazodone 50mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1437311	Trazodone 100mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437429	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437430	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1437442	Trazodone 150mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437476	Mianserin 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437477	Mianserin 10mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437479	Mianserin 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437480	Mianserin 20mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437481	Mianserin 30mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439152	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439153	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439154	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1439155	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439156	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439157	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1439158	Nortriptyline 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439159	Nortriptyline 50mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTAL820569	Allegron 25mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL831409	Allegron 10mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL855821	Allegron 10mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTAL855827	Allegron 25mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTAM1004576	Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004579	Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1004583	Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004584	Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1004585	Amitriptyline 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004586	Amitriptyline 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1007964	Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1007965	Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1007977	Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1007980	Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1010841	Amitriptyline 10mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010842	Amitriptyline 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1010843	Amitriptyline 25mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010844	Amitriptyline 25mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1021387	Amitriptyline 10mg/5ml oral solution 150 ml
+^ESCTAM1021388	Amitriptyline 10mg/5ml oral solution (Special Order) 150 ml
+^ESCTAM1021389	Amitriptyline 10mg/5ml oral suspension 100 ml
+^ESCTAM1021390	Amitriptyline 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCTAM1029010	Amitriptyline 10mg tablets (Arrow Generics Ltd)
+^ESCTAM1029011	Amitriptyline 10mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1029012	Amitriptyline 25mg tablets (Arrow Generics Ltd)
+^ESCTAM1029013	Amitriptyline 25mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1029014	Amitriptyline 50mg tablets (Arrow Generics Ltd)
+^ESCTAM1029015	Amitriptyline 50mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1041271	Amitriptyline 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAM1041273	Amitriptyline 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTAM1041274	Amitriptyline 50mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAM1041276	Amitriptyline 50mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTAM1041277	Amitriptyline 10mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041279	Amitriptyline 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1041281	Amitriptyline 25mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041283	Amitriptyline 50mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041285	Amitriptyline 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1041328	Amitriptyline 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1045389	Amitriptyline 50mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1045390	Amitriptyline 50mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 150 ml
+^ESCTAM1048882	Amitriptyline 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1048883	Amitriptyline 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1048884	Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1048885	Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1048886	Amitriptyline 10mg tablets (DE Pharmaceuticals)
+^ESCTAM1048887	Amitriptyline 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1048888	Amitriptyline 25mg tablets (DE Pharmaceuticals)
+^ESCTAM1048889	Amitriptyline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1048890	Amitriptyline 50mg tablets (DE Pharmaceuticals)
+^ESCTAM1048891	Amitriptyline 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1104002	Amitriptyline 25mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTAM1104003	Amitriptyline 25mg/5ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTAM1104004	Amitriptyline 50mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTAM1104005	Amitriptyline 50mg/5ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTAM1107816	Amoxapine 100mg tablets 30 tablet
+^ESCTAM1109605	Amitriptyline 25mg tablets (Crescent Pharma Ltd)
+^ESCTAM1109606	Amitriptyline 25mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1114452	Amitriptyline 10mg/5ml oral solution sugar free 150 ml
+^ESCTAM1114457	Amitriptyline 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114470	Amitriptyline 10mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1114496	Amitriptyline 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114499	Amitriptyline 25mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1114509	Amitriptyline 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114516	Amitriptyline 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1116067	Amitriptyline 10mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1116071	Amitriptyline 10mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1116120	Amitriptyline 10mg/5ml oral solution sugar free
+^ESCTAM1116808	Amitriptyline 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1116809	Amitriptyline 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1116810	Amitriptyline 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1116811	Amitriptyline 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1116812	Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM1116813	Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM1116814	Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM1116815	Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM1118873	Amitriptyline 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118874	Amitriptyline 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1118875	Amitriptyline 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118876	Amitriptyline 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1118877	Amitriptyline 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118878	Amitriptyline 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1120041	Amitriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1120042	Amitriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM1126511	Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1126512	Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM1140305	Amoxapine 100mg tablets 1 tablet
+^ESCTAM1140306	Amoxapine 100mg tablets (Special Order)
+^ESCTAM1140307	Amoxapine 100mg tablets (Special Order) 1 tablet
+^ESCTAM1146144	Amitriptyline 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1146146	Amitriptyline 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1153608	Amitriptyline 25mg/5ml oral suspension 1 ml
+^ESCTAM1153609	Amitriptyline 25mg/5ml oral suspension (Special Order)
+^ESCTAM1153610	Amitriptyline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM1153676	Amitriptyline 25mg/5ml oral suspension
+^ESCTAM1157646	Amitriptyline 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTAM1157647	Amitriptyline 10mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1157648	Amitriptyline 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTAM1157649	Amitriptyline 25mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM315339	Amitriptyline
+^ESCTAM328276	Amitriptyline hydrochloride
+^ESCTAM609585	Amitriptyline 10mg tablets
+^ESCTAM609587	Amitriptyline hydrochloride 10 mg oral tablet
+^ESCTAM609588	Amitriptyline 25mg tablets
+^ESCTAM609590	Amitriptyline hydrochloride 25 mg oral tablet
+^ESCTAM609591	Amitriptyline 50mg tablets
+^ESCTAM609593	Amitriptyline hydrochloride 50 mg oral tablet
+^ESCTAM609714	Amoxapine 50mg tablets
+^ESCTAM609716	Amoxapine 50 mg oral tablet
+^ESCTAM609717	Amoxapine 100mg tablets
+^ESCTAM609719	Amoxapine 100 mg oral tablet
+^ESCTAM609744	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCTAM609746	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCTAM609747	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCTAM609749	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCTAM637108	Amitriptyline
+^ESCTAM638806	Amitriptyline hydrochloride 75 mg oral tablet
+^ESCTAM638813	Amitriptyline hydrochloride 100 mg oral tablet
+^ESCTAM638815	Amitriptyline hydrochloride 150 mg oral tablet
+^ESCTAM642556	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg oral tablet
+^ESCTAM642559	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCTAM645166	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCTAM645168	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCTAM645785	Amitriptyline in oral dosage form
+^ESCTAM645787	Amitriptyline in parenteral dosage form
+^ESCTAM696985	Amitriptyline + Perphenazine
+^ESCTAM696986	Amitriptyline + perphenazine
+^ESCTAM710152	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCTAM801658	Amitriptyline 25mg tablets (Teva UK Ltd)
+^ESCTAM801751	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM801862	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM802358	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM802401	Amitriptyline 25mg tablets (Actavis UK Ltd)
+^ESCTAM803290	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM803519	Amitriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM805202	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM805357	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM808189	Amitriptyline 10mg tablets (Actavis UK Ltd)
+^ESCTAM810038	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM810381	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTAM812248	Amitriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM816154	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM819877	Amitriptyline 50mg tablets (Teva UK Ltd)
+^ESCTAM820041	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM820884	Amitriptyline 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAM821169	Amitriptyline 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM821297	Amitriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM822888	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM822951	Amitriptyline 50mg tablets (Actavis UK Ltd)
+^ESCTAM824046	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM824320	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM824778	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM830035	Amitriptyline 10mg tablets (Teva UK Ltd)
+^ESCTAM831499	Amitriptyline 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM835853	Amitriptyline 25mg tablets 500 tablet
+^ESCTAM836965	Amitriptyline 10mg / Perphenazine 2mg tablets 100 tablet
+^ESCTAM837962	Amitriptyline 25mg / Perphenazine 2mg tablets 100 tablet
+^ESCTAM840301	Amitriptyline 25mg/5ml oral solution sugar free 150 ml
+^ESCTAM847165	Amitriptyline 25mg tablets 28 tablet
+^ESCTAM847446	Amitriptyline 10mg tablets 28 tablet
+^ESCTAM847868	Amitriptyline 50mg/5ml oral solution sugar free 150 ml
+^ESCTAM848225	Amitriptyline 50mg tablets 28 tablet
+^ESCTAM849715	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849718	Amitriptyline 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849721	Amitriptyline 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849726	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAM849730	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849733	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849738	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTAM849739	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849742	Amitriptyline 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849743	Amitriptyline 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849744	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAM849745	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849746	Amitriptyline 25mg tablets (Ranbaxy (UK) Ltd) 500 tablet
+^ESCTAM849747	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849781	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849782	Amitriptyline 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849783	Amitriptyline 50mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849784	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849785	Amitriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849786	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM855013	Amitriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM855014	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTAM855015	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM855016	Amitriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM855018	Amitriptyline 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM855019	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM855020	Amitriptyline 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM864456	Amoxapine 50mg tablets 84 tablet
+^ESCTAM865691	Amoxapine 100mg tablets 56 tablet
+^ESCTAM870691	Amitriptyline 50mg modified-release capsules 56 capsule
+^ESCTAM870702	Amitriptyline 25mg modified-release capsules 56 capsule
+^ESCTAM876095	Amitriptyline 25mg tablets (Sandoz Ltd)
+^ESCTAM876096	Amitriptyline 25mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM904378	Amitriptyline 5mg/5ml oral solution 1 ml
+^ESCTAM904379	Amitriptyline 5mg/5ml oral solution (Special Order)
+^ESCTAM904381	Amitriptyline 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM904384	Amitriptyline 10mg/5ml oral suspension 1 ml
+^ESCTAM904386	Amitriptyline 5mg/5ml oral suspension 1 ml
+^ESCTAM904387	Amitriptyline 10mg/5ml oral suspension (Special Order)
+^ESCTAM904388	Amitriptyline 5mg/5ml oral suspension (Special Order)
+^ESCTAM904389	Amitriptyline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904390	Amitriptyline 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904736	Amitriptyline 10mg/5ml oral suspension
+^ESCTAM904737	Amitriptyline 5mg/5ml oral solution
+^ESCTAM904738	Amitriptyline 5mg/5ml oral suspension
+^ESCTAM923486	Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923487	Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM923488	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923489	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM923490	Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923491	Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM937016	Amitriptyline 25mg tablets (Wockhardt UK Ltd)
+^ESCTAM937017	Amitriptyline 25mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM937018	Amitriptyline 50mg tablets (Wockhardt UK Ltd)
+^ESCTAM937019	Amitriptyline 50mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM941927	Amitriptyline 1.25mg/5ml oral solution 1 ml
+^ESCTAM941928	Amitriptyline 1.25mg/5ml oral solution (Special Order)
+^ESCTAM941929	Amitriptyline 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941930	Amitriptyline 100mg/5ml oral solution 1 ml
+^ESCTAM941931	Amitriptyline 100mg/5ml oral solution (Special Order)
+^ESCTAM941932	Amitriptyline 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941933	Amitriptyline 150mg/5ml oral solution 1 ml
+^ESCTAM941934	Amitriptyline 150mg/5ml oral solution (Special Order)
+^ESCTAM941935	Amitriptyline 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941936	Amitriptyline 15mg/5ml oral solution 1 ml
+^ESCTAM941937	Amitriptyline 15mg/5ml oral solution (Special Order)
+^ESCTAM941938	Amitriptyline 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941939	Amitriptyline 2.5mg/5ml oral solution 1 ml
+^ESCTAM941940	Amitriptyline 2.5mg/5ml oral solution (Special Order)
+^ESCTAM941941	Amitriptyline 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941942	Amitriptyline 75mg/5ml oral solution 1 ml
+^ESCTAM941943	Amitriptyline 75mg/5ml oral solution (Special Order)
+^ESCTAM941945	Amitriptyline 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941948	Amitriptyline 80mg/5ml oral solution 1 ml
+^ESCTAM941950	Amitriptyline 80mg/5ml oral solution (Special Order)
+^ESCTAM941951	Amitriptyline 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM942264	Amitriptyline 1.25mg/5ml oral solution
+^ESCTAM942266	Amitriptyline 100mg/5ml oral solution
+^ESCTAM942269	Amitriptyline 150mg/5ml oral solution
+^ESCTAM942271	Amitriptyline 15mg/5ml oral solution
+^ESCTAM942273	Amitriptyline 2.5mg/5ml oral solution
+^ESCTAM942274	Amitriptyline 75mg/5ml oral solution
+^ESCTAM942275	Amitriptyline 80mg/5ml oral solution
+^ESCTAM958553	Amitriptyline 10mg tablets (Wockhardt UK Ltd)
+^ESCTAM958555	Amitriptyline 10mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM966689	Amitriptyline 10mg/5ml oral solution 1 ml
+^ESCTAM966690	Amitriptyline 10mg/5ml oral solution (Special Order)
+^ESCTAM966699	Amitriptyline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM966815	Amitriptyline 10mg/5ml oral solution
+^ESCTAM978002	Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978004	Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAN798283	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN803738	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN820721	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN821317	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN851069	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTAN851092	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTAN851121	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAN855092	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN870709	Anafranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN870710	Anafranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) 150 ml
+^ESCTAN870862	Anafranil 25mg/2ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN870863	Anafranil 25mg/2ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTAS864457	Asendis 50mg tablets (Mercury Pharma Group Ltd)
+^ESCTAS864458	Asendis 50mg tablets (Mercury Pharma Group Ltd) 84 tablet
+^ESCTAS865695	Asendis 100mg tablets (Mercury Pharma Group Ltd)
+^ESCTAS865697	Asendis 100mg tablets (Mercury Pharma Group Ltd) 56 tablet
+^ESCTBU425999	Butriptyline
+^ESCTBU646443	Butriptyline
+^ESCTCL1005353	Clomipramine 10mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005354	Clomipramine 10mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1005355	Clomipramine 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005356	Clomipramine 25mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1005357	Clomipramine 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005359	Clomipramine 50mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1006356	Clomipramine 10mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006357	Clomipramine 10mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1006358	Clomipramine 25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006359	Clomipramine 25mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1006360	Clomipramine 50mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006361	Clomipramine 50mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1042181	Clomipramine 10mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042182	Clomipramine 10mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1042183	Clomipramine 25mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042184	Clomipramine 25mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1042186	Clomipramine 50mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042187	Clomipramine 50mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1060462	Clomipramine 10mg capsules (DE Pharmaceuticals)
+^ESCTCL1060464	Clomipramine 10mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1060475	Clomipramine 25mg capsules (DE Pharmaceuticals)
+^ESCTCL1060486	Clomipramine 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1060491	Clomipramine 50mg capsules (DE Pharmaceuticals)
+^ESCTCL1060493	Clomipramine 50mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1117042	Clomipramine 10mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117043	Clomipramine 10mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1117044	Clomipramine 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117045	Clomipramine 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1117046	Clomipramine 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117047	Clomipramine 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1119085	Clomipramine 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119086	Clomipramine 10mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1119087	Clomipramine 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119088	Clomipramine 25mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1119089	Clomipramine 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119090	Clomipramine 50mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1126842	Clomipramine 50mg/5ml oral suspension 100 ml
+^ESCTCL1126843	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTCL406874	Clomipramine
+^ESCTCL609603	Clomipramine 10mg capsules
+^ESCTCL609605	Clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTCL609606	Clomipramine 25mg capsules
+^ESCTCL609608	Clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTCL609609	Clomipramine 50mg capsules
+^ESCTCL609610	Clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCTCL637295	Clomipramine
+^ESCTCL641191	Clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCTCL646479	Clomipramine hydrochloride
+^ESCTCL771471	Clomipramine in oral dosage form
+^ESCTCL800225	Clomipramine 10mg capsules (Teva UK Ltd)
+^ESCTCL802159	Clomipramine 25mg capsules (Mylan Ltd)
+^ESCTCL804683	Clomipramine 25mg capsules (Teva UK Ltd)
+^ESCTCL805150	Clomipramine 50mg capsules (Mylan Ltd)
+^ESCTCL806804	Clomipramine 50mg capsules (Actavis UK Ltd)
+^ESCTCL807364	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL807801	Clomipramine 10mg capsules (Actavis UK Ltd)
+^ESCTCL808840	Clomipramine 10mg capsules (Mylan Ltd)
+^ESCTCL809499	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL810054	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL811669	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL813878	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL819854	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL819898	Clomipramine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL820556	Clomipramine 50mg capsules (Teva UK Ltd)
+^ESCTCL820622	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL820690	Clomipramine 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL822855	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL823973	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL831245	Clomipramine 25mg capsules (Actavis UK Ltd)
+^ESCTCL833024	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL834844	Clomipramine 50mg capsules 100 capsule
+^ESCTCL835309	Clomipramine 10mg capsules 28 capsule
+^ESCTCL836397	Clomipramine 10mg capsules 84 capsule
+^ESCTCL840203	Clomipramine 10mg capsules 100 capsule
+^ESCTCL841120	Clomipramine 25mg capsules 28 capsule
+^ESCTCL847456	Clomipramine 75mg modified-release tablets 28 tablet
+^ESCTCL847852	Clomipramine 25mg capsules 84 capsule
+^ESCTCL848461	Clomipramine 25mg capsules 100 capsule
+^ESCTCL848663	Clomipramine 50mg capsules 28 capsule
+^ESCTCL848676	Clomipramine 50mg capsules 56 capsule
+^ESCTCL851055	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851056	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851058	Clomipramine 10mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851060	Clomipramine 10mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851061	Clomipramine 10mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851062	Clomipramine 10mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851064	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851066	Clomipramine 10mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851070	Clomipramine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851080	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851081	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851082	Clomipramine 25mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851083	Clomipramine 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851085	Clomipramine 25mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851086	Clomipramine 25mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851088	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851089	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851096	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851098	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTCL851103	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851104	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851105	Clomipramine 50mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851107	Clomipramine 50mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851110	Clomipramine 50mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851111	Clomipramine 50mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851116	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851117	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851119	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851123	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851494	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTCL863581	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTCL870708	Clomipramine 25mg/5ml oral solution 150 ml
+^ESCTCL870861	Clomipramine 25mg/2ml solution for injection ampoules 10 ampoule
+^ESCTCL870918	Clomipramine 25mg/5ml oral solution
+^ESCTCL880026	Clomipramine 75mg modified-release tablets 20 tablet
+^ESCTCL880028	Clomipramine 75mg modified-release tablets 30 tablet
+^ESCTCL905592	Clomipramine 37.5mg/5ml oral solution 1 ml
+^ESCTCL905618	Clomipramine 37.5mg/5ml oral solution
+^ESCTCL905625	Clomipramine 37.5mg/5ml oral solution (Special Order)
+^ESCTCL905626	Clomipramine 5mg/5ml oral solution 1 ml
+^ESCTCL905627	Clomipramine 5mg/5ml oral solution (Special Order)
+^ESCTCL905628	Clomipramine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905629	Clomipramine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905630	Clomipramine 37.5mg/5ml oral suspension 1 ml
+^ESCTCL905631	Clomipramine 37.5mg/5ml oral suspension (Special Order)
+^ESCTCL905632	Clomipramine 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905633	Clomipramine 5mg/5ml oral suspension 1 ml
+^ESCTCL905635	Clomipramine 5mg/5ml oral suspension (Special Order)
+^ESCTCL905636	Clomipramine 37.5mg/5ml oral suspension
+^ESCTCL905637	Clomipramine 5mg/5ml oral solution
+^ESCTCL905638	Clomipramine 5mg/5ml oral suspension
+^ESCTCL905639	Clomipramine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905640	Clomipramine 50mg/5ml oral solution 1 ml
+^ESCTCL905641	Clomipramine 50mg/5ml oral solution (Special Order)
+^ESCTCL905642	Clomipramine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905643	Clomipramine 50mg/5ml oral suspension 1 ml
+^ESCTCL905645	Clomipramine 25mg/5ml oral suspension 1 ml
+^ESCTCL905647	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCL905648	Clomipramine 25mg/5ml oral suspension (Special Order)
+^ESCTCL905649	Clomipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905650	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTCL905653	Clomipramine 25mg/5ml oral solution 1 ml
+^ESCTCL905656	Clomipramine 25mg/5ml oral solution (Special Order)
+^ESCTCL905658	Clomipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905683	Clomipramine 25mg/5ml oral suspension
+^ESCTCL905686	Clomipramine 50mg/5ml oral solution
+^ESCTCL905687	Clomipramine 50mg/5ml oral suspension
+^ESCTCL944716	Clomipramine 10mg/5ml oral suspension 1 ml
+^ESCTCL944717	Clomipramine 10mg/5ml oral suspension (Special Order)
+^ESCTCL944718	Clomipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL944719	Clomipramine 10mg/5ml oral solution 1 ml
+^ESCTCL944720	Clomipramine 10mg/5ml oral solution (Special Order)
+^ESCTCL944721	Clomipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL945496	Clomipramine 10mg/5ml oral solution
+^ESCTCL945498	Clomipramine 10mg/5ml oral suspension
+^ESCTDE1107959	Defanyl 100mg tablets (Imported (France))
+^ESCTDE1107960	Defanyl 100mg tablets (Imported (France)) 30 tablet
+^ESCTDE291805	Desipramine hydrochloride
+^ESCTDE303703	Desipramine
+^ESCTDE637085	Desipramine
+^ESCTDE640384	Desipramine hydrochloride 10 mg oral tablet
+^ESCTDE640386	Desipramine hydrochloride 25 mg oral tablet
+^ESCTDE640388	Desipramine hydrochloride 50 mg oral tablet
+^ESCTDE640390	Desipramine hydrochloride 75 mg oral tablet
+^ESCTDE640392	Desipramine hydrochloride 100 mg oral tablet
+^ESCTDE640394	Desipramine hydrochloride 150 mg oral tablet
+^ESCTDO1005658	Dosulepin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1005659	Dosulepin 25mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTDO1005660	Dosulepin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1005661	Dosulepin 75mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1009223	Dosulepin 25mg capsules (Strides Shasun (UK) Ltd)
+^ESCTDO1009224	Dosulepin 25mg capsules (Strides Shasun (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1009225	Dosulepin 75mg tablets (Strides Shasun (UK) Ltd)
+^ESCTDO1009226	Dosulepin 75mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1042839	Dosulepin 25mg capsules (Waymade Healthcare Plc)
+^ESCTDO1042840	Dosulepin 25mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDO1042841	Dosulepin 75mg tablets (Waymade Healthcare Plc)
+^ESCTDO1042842	Dosulepin 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDO1045788	Dosulepin 25mg/5ml oral solution 500 ml
+^ESCTDO1045789	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order) 500 ml
+^ESCTDO1056412	Dosulepin 75mg/5ml oral solution 150 ml
+^ESCTDO1056413	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTDO1056414	Dosulepin 75mg/5ml oral suspension 150 ml
+^ESCTDO1056415	Dosulepin 75mg/5ml oral suspension (Special Order) 150 ml
+^ESCTDO1061039	Dosulepin 25mg capsules (DE Pharmaceuticals)
+^ESCTDO1061040	Dosulepin 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTDO1061043	Dosulepin 75mg tablets (DE Pharmaceuticals)
+^ESCTDO1061044	Dosulepin 75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1066360	Doxepin 25mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTDO1066361	Doxepin 25mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1066362	Doxepin 50mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTDO1066363	Doxepin 50mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067260	Doxepin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1067261	Doxepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067262	Doxepin 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1067263	Doxepin 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067978	Doxepin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO1067979	Doxepin 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTDO1067980	Doxepin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO1067981	Doxepin 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTDO1104312	Doxepin 10mg capsules 1 capsule
+^ESCTDO1104313	Doxepin 10mg capsules (Special Order)
+^ESCTDO1104314	Doxepin 10mg capsules (Special Order) 1 capsule
+^ESCTDO1117472	Dosulepin 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDO1117473	Dosulepin 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDO1117475	Dosulepin 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117476	Dosulepin 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1120017	Dosulepin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1120018	Dosulepin 25mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTDO1120019	Dosulepin 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1120020	Dosulepin 75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1145468	Dosulepin 25mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTDO1145472	Dosulepin 25mg capsules (Genesis Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1145486	Dosulepin 75mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTDO1145487	Dosulepin 75mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO268854	Doxepin
+^ESCTDO388314	Doxepin hydrochloride
+^ESCTDO609625	Dosulepin 25mg capsules
+^ESCTDO609626	Dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609627	Dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609630	Dosulepin 75mg tablets
+^ESCTDO609633	Dosulepin hydrochloride 75 mg oral tablet
+^ESCTDO609634	Dothiepin hydrochloride 75 mg oral tablet
+^ESCTDO609635	Doxepin 10mg capsules
+^ESCTDO609636	Doxepin 10 mg/1 each oral capsule
+^ESCTDO609638	Doxepin 25mg capsules
+^ESCTDO609639	Doxepin 25 mg/1 each oral capsule
+^ESCTDO609641	Doxepin 50mg capsules
+^ESCTDO609642	Doxepin 50 mg/1 each oral capsule
+^ESCTDO609644	Doxepin 75mg capsules
+^ESCTDO609645	Doxepin 75 mg/1 each oral capsule
+^ESCTDO616016	Doxepin 5% cream
+^ESCTDO616017	Doxepin hydrochloride 5% cream
+^ESCTDO618924	Dosulepin
+^ESCTDO618925	Dothiepin
+^ESCTDO636952	Doxepin
+^ESCTDO639388	Doxepin hydrochloride 10mg/mL oral solution
+^ESCTDO639389	Doxepin hydrochloride 10mg/mL
+^ESCTDO639390	Doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCTDO640173	Doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCTDO656210	Dosulepin hydrochloride
+^ESCTDO656211	Dothiepin hydrochloride
+^ESCTDO685116	Dosulepin
+^ESCTDO685117	Dothiepin
+^ESCTDO720864	Doxepin in oral dosage form
+^ESCTDO722063	Doxepin in topical dosage form
+^ESCTDO729787	Doxepin 3 mg oral tablet
+^ESCTDO729789	Doxepin 6 mg oral tablet
+^ESCTDO800101	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO801989	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDO804679	Dosulepin 25mg capsules (Teva UK Ltd)
+^ESCTDO804881	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDO807612	Dosulepin 75mg tablets (Teva UK Ltd)
+^ESCTDO808070	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO811125	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO813483	Dosulepin 25mg capsules (Actavis UK Ltd)
+^ESCTDO814100	Dosulepin 75mg tablets (Sandoz Ltd)
+^ESCTDO814162	Dosulepin 25mg capsules (Sterwin Medicines)
+^ESCTDO817415	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO818865	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO819893	Dosulepin 25mg capsules (Sandoz Ltd)
+^ESCTDO820072	Dosulepin 75mg tablets (Sterwin Medicines)
+^ESCTDO820220	Dosulepin 25mg capsules (Mylan Ltd)
+^ESCTDO820359	Dosulepin 75mg tablets (Actavis UK Ltd)
+^ESCTDO820490	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTDO829042	Dosulepin 75mg tablets (Mylan Ltd)
+^ESCTDO832939	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO833505	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO834434	Dosulepin 25mg capsules 28 capsule
+^ESCTDO838291	Dosulepin 25mg capsules 84 capsule
+^ESCTDO843399	Doxepin 75mg capsules 28 capsule
+^ESCTDO843719	Doxepin 25mg capsules 28 capsule
+^ESCTDO847930	Dosulepin 25mg capsules 100 capsule
+^ESCTDO848154	Doxepin 10mg capsules 56 capsule
+^ESCTDO848162	Dosulepin 75mg tablets 500 tablet
+^ESCTDO848598	Dosulepin 75mg tablets 28 tablet
+^ESCTDO848741	Doxepin 50mg capsules 28 capsule
+^ESCTDO848781	Dosulepin 25mg capsules 600 capsule
+^ESCTDO849950	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849952	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTDO849953	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 600 capsule
+^ESCTDO849954	Dosulepin 25mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849955	Dosulepin 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849957	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd) 84 capsule
+^ESCTDO849965	Dosulepin 25mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849966	Dosulepin 25mg capsules (Mylan Ltd) 100 capsule
+^ESCTDO849967	Dosulepin 25mg capsules (Mylan Ltd) 600 capsule
+^ESCTDO849969	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849970	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTDO849971	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849973	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTDO849975	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 600 capsule
+^ESCTDO849982	Dosulepin 25mg capsules (Sandoz Ltd) 28 capsule
+^ESCTDO849989	Dosulepin 25mg capsules (Sterwin Medicines) 100 capsule
+^ESCTDO849992	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849994	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 600 capsule
+^ESCTDO849999	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850000	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTDO850003	Dosulepin 75mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850007	Dosulepin 75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850009	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTDO850014	Dosulepin 75mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850016	Dosulepin 75mg tablets (Mylan Ltd) 500 tablet
+^ESCTDO850020	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850022	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTDO850024	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTDO850033	Dosulepin 75mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850041	Dosulepin 75mg tablets (Sterwin Medicines) 28 tablet 2 x 14 tablets
+^ESCTDO850043	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850044	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTDO863583	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTDO906361	Dosulepin 75mg/5ml oral solution 1 ml
+^ESCTDO906362	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTDO906363	Dosulepin 25mg/5ml oral solution 1 ml
+^ESCTDO906364	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTDO906366	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTDO906368	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTDO906369	Dosulepin 75mg/5ml oral suspension 1 ml
+^ESCTDO906370	Dosulepin 75mg/5ml oral suspension (Special Order)
+^ESCTDO906373	Dosulepin 25mg/5ml oral suspension 1 ml
+^ESCTDO906374	Dosulepin 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906375	Dosulepin 25mg/5ml oral suspension (Special Order)
+^ESCTDO906378	Dosulepin 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906416	Dosulepin 75mg/5ml oral suspension
+^ESCTDO906417	Dosulepin 75mg/5ml oral solution
+^ESCTDO906418	Dosulepin 25mg/5ml oral suspension
+^ESCTDO906419	Dosulepin 25mg/5ml oral solution
+^ESCTDO906478	Doxepin 50mg/5ml oral solution 1 ml
+^ESCTDO906481	Doxepin 50mg/5ml oral solution (Special Order)
+^ESCTDO906483	Doxepin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO906484	Doxepin 50mg/5ml oral suspension 1 ml
+^ESCTDO906486	Doxepin 50mg/5ml oral suspension (Special Order)
+^ESCTDO906489	Doxepin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906715	Doxepin 50mg/5ml oral solution
+^ESCTDO906716	Doxepin 50mg/5ml oral suspension
+^ESCTDO923562	Dosulepin 25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTDO923563	Dosulepin 25mg capsules (Almus Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO923565	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDO923566	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO945805	Dosulepin 100mg/5ml oral solution 1 ml
+^ESCTDO945806	Dosulepin 100mg/5ml oral solution (Special Order)
+^ESCTDO945807	Dosulepin 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945810	Dosulepin 10mg/5ml oral solution 1 ml
+^ESCTDO945811	Dosulepin 10mg/5ml oral solution (Special Order)
+^ESCTDO945812	Dosulepin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945815	Dosulepin 125mg/5ml oral solution 1 ml
+^ESCTDO945816	Dosulepin 125mg/5ml oral solution (Special Order)
+^ESCTDO945818	Dosulepin 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945819	Dosulepin 150mg/5ml oral solution 1 ml
+^ESCTDO945821	Dosulepin 150mg/5ml oral solution (Special Order)
+^ESCTDO945823	Dosulepin 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945824	Dosulepin 20mg/5ml oral solution 1 ml
+^ESCTDO945827	Dosulepin 20mg/5ml oral solution (Special Order)
+^ESCTDO945828	Dosulepin 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945831	Dosulepin 250mg/5ml oral solution 1 ml
+^ESCTDO945833	Dosulepin 250mg/5ml oral solution (Special Order)
+^ESCTDO945835	Dosulepin 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945837	Dosulepin 37.5mg/5ml oral solution 1 ml
+^ESCTDO945839	Dosulepin 37.5mg/5ml oral solution (Special Order)
+^ESCTDO945840	Dosulepin 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945842	Dosulepin 50mg/5ml oral solution 1 ml
+^ESCTDO945844	Dosulepin 50mg/5ml oral solution (Special Order)
+^ESCTDO945845	Dosulepin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945850	Dosulepin 5mg/5ml oral solution 1 ml
+^ESCTDO945851	Dosulepin 5mg/5ml oral solution (Special Order)
+^ESCTDO945852	Dosulepin 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO946054	Dosulepin 100mg/5ml oral solution
+^ESCTDO946055	Dosulepin 10mg/5ml oral solution
+^ESCTDO946056	Dosulepin 125mg/5ml oral solution
+^ESCTDO946057	Dosulepin 150mg/5ml oral solution
+^ESCTDO946058	Dosulepin 20mg/5ml oral solution
+^ESCTDO946059	Dosulepin 250mg/5ml oral solution
+^ESCTDO946060	Dosulepin 37.5mg/5ml oral solution
+^ESCTDO946061	Dosulepin 50mg/5ml oral solution
+^ESCTDO946062	Dosulepin 5mg/5ml oral solution
+^ESCTDO999180	Dosulepin 25mg capsules (Sovereign Medical Ltd)
+^ESCTDO999181	Dosulepin 25mg capsules (Sovereign Medical Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO999182	Dosulepin 75mg tablets (Sovereign Medical Ltd)
+^ESCTDO999183	Dosulepin 75mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE821268	Feprapax 70mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTFE855446	Feprapax 70mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTFE863375	Fentazin 2mg tablets (AMCo)
+^ESCTFE863382	Fentazin 4mg tablets (AMCo)
+^ESCTFL609740	Fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg oral tablet
+^ESCTFL609743	Fluphenazine hydrochloride 0.5 mg and nortriptyline 10 mg oral tablet
+^ESCTFL696968	Fluphenazine + nortriptyline
+^ESCTGA803015	Gamanil 70mg tablets (Merck Serono Ltd)
+^ESCTGA855457	Gamanil 70mg tablets (Merck Serono Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA855459	Gamanil 70mg tablets (Merck Serono Ltd) 250 tablet
+^ESCTIM1003160	Imipramine 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM1003161	Imipramine 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTIM1006033	Imipramine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIM1006034	Imipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTIM1006035	Imipramine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIM1006060	Imipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTIM1013225	Imipramine 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTIM1013226	Imipramine 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTIM1041956	Imipramine 25mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTIM1041957	Imipramine 25mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 150 ml
+^ESCTIM1044020	Imipramine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTIM1044021	Imipramine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTIM1044023	Imipramine 10mg tablets (Waymade Healthcare Plc)
+^ESCTIM1044024	Imipramine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTIM1044026	Imipramine 25mg tablets (Waymade Healthcare Plc)
+^ESCTIM1044027	Imipramine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTIM1049217	Imipramine 25mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTIM1049218	Imipramine 25mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTIM1061685	Imipramine 10mg tablets (DE Pharmaceuticals)
+^ESCTIM1061686	Imipramine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIM1061687	Imipramine 25mg tablets (DE Pharmaceuticals)
+^ESCTIM1061688	Imipramine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIM1062410	Imipramine 25mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCTIM1062411	Imipramine 25mg/5ml oral solution sugar free (CST Pharma Ltd) 150 ml
+^ESCTIM1084649	Imipramine 25mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTIM1084652	Imipramine 25mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTIM1100339	Imipramine 25mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTIM1100340	Imipramine 25mg/5ml oral solution sugar free (J M McGill Ltd) 150 ml
+^ESCTIM1109029	Imipramine 25mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTIM1109030	Imipramine 25mg/5ml oral solution sugar free (Niche Pharma Ltd) 150 ml
+^ESCTIM1117866	Imipramine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIM1117867	Imipramine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIM1117868	Imipramine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIM1117869	Imipramine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIM1160776	Imipramine 25mg tablets (Crescent Pharma Ltd)
+^ESCTIM1160777	Imipramine 25mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTIM1160778	Imipramine 10mg tablets (Crescent Pharma Ltd)
+^ESCTIM1160779	Imipramine 10mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTIM255284	Imipramine hydrochloride
+^ESCTIM256598	Imipramine pamoate
+^ESCTIM308203	Imipramine
+^ESCTIM609647	Imipramine 10mg tablets
+^ESCTIM609649	Imipramine hydrochloride 10 mg oral tablet
+^ESCTIM609650	Imipramine 25mg tablets
+^ESCTIM609652	Imipramine hydrochloride 25 mg oral tablet
+^ESCTIM637098	Imipramine
+^ESCTIM639031	Imipramine pamoate 100 mg/1 each oral capsule
+^ESCTIM639033	Imipramine pamoate 125 mg/1 each oral capsule
+^ESCTIM639035	Imipramine pamoate 150 mg/1 each oral capsule
+^ESCTIM639460	Imipramine pamoate 75 mg/1 each oral capsule
+^ESCTIM639466	Imipramine hydrochloride 50 mg oral tablet
+^ESCTIM645942	Imipramine in parenteral dosage form
+^ESCTIM709262	Imipramine in oral dosage form
+^ESCTIM797664	Imipramine 25mg tablets (The Boots Company Plc)
+^ESCTIM808072	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM815124	Imipramine 10mg tablets (Actavis UK Ltd)
+^ESCTIM819995	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM820100	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM820127	Imipramine 25mg tablets (Actavis UK Ltd)
+^ESCTIM820893	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIM821372	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM832197	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIM835416	Imipramine 25mg/5ml oral solution 150 ml
+^ESCTIM836731	Imipramine 25mg tablets 28 tablet
+^ESCTIM836962	Imipramine 10mg tablets 28 tablet
+^ESCTIM847074	Imipramine 10mg tablets 250 tablet
+^ESCTIM847091	Imipramine 25mg tablets 500 tablet
+^ESCTIM848546	Imipramine 25mg tablets 84 tablet
+^ESCTIM855722	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855724	Imipramine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855730	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855731	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd) 250 tablet
+^ESCTIM855733	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855734	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTIM855741	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855743	Imipramine 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855746	Imipramine 25mg tablets (The Boots Company Plc) 500 tablet
+^ESCTIM855750	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855751	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTIM855760	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855762	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTIM878404	Imipramine 25mg tablets 100 tablet
+^ESCTIM903541	Imipramine 10mg tablets (Teva UK Ltd)
+^ESCTIM903542	Imipramine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTIM903543	Imipramine 25mg tablets (Teva UK Ltd)
+^ESCTIM903544	Imipramine 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCTIM907243	Imipramine 10mg/5ml oral solution 1 ml
+^ESCTIM907244	Imipramine 10mg/5ml oral solution (Special Order)
+^ESCTIM907246	Imipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907249	Imipramine 10mg/5ml oral suspension 1 ml
+^ESCTIM907250	Imipramine 10mg/5ml oral suspension (Special Order)
+^ESCTIM907251	Imipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907255	Imipramine 12.5mg/5ml oral solution 1 ml
+^ESCTIM907256	Imipramine 12.5mg/5ml oral solution (Special Order)
+^ESCTIM907257	Imipramine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907259	Imipramine 12.5mg/5ml oral suspension 1 ml
+^ESCTIM907261	Imipramine 12.5mg/5ml oral suspension (Special Order)
+^ESCTIM907263	Imipramine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907279	Imipramine 25mg/5ml oral solution 1 ml
+^ESCTIM907281	Imipramine 25mg/5ml oral solution (Special Order)
+^ESCTIM907284	Imipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907286	Imipramine 25mg/5ml oral suspension 1 ml
+^ESCTIM907289	Imipramine 25mg/5ml oral suspension (Special Order)
+^ESCTIM907290	Imipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907431	Imipramine 10mg/5ml oral solution
+^ESCTIM907432	Imipramine 10mg/5ml oral suspension
+^ESCTIM907433	Imipramine 12.5mg/5ml oral solution
+^ESCTIM907434	Imipramine 12.5mg/5ml oral suspension
+^ESCTIM907435	Imipramine 25mg/5ml oral suspension
+^ESCTIM923705	Imipramine 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIM923708	Imipramine 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM951441	Imipramine 100mg/5ml oral suspension 1 ml
+^ESCTIM951442	Imipramine 100mg/5ml oral suspension (Special Order)
+^ESCTIM951443	Imipramine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM951444	Imipramine 100mg/5ml oral solution 1 ml
+^ESCTIM951445	Imipramine 100mg/5ml oral solution (Special Order)
+^ESCTIM951446	Imipramine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM951447	Imipramine 40mg/5ml oral suspension 1 ml
+^ESCTIM951448	Imipramine 40mg/5ml oral suspension (Special Order)
+^ESCTIM951449	Imipramine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM951450	Imipramine 40mg/5ml oral solution 1 ml
+^ESCTIM951451	Imipramine 40mg/5ml oral solution (Special Order)
+^ESCTIM951452	Imipramine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM952115	Imipramine 100mg/5ml oral solution
+^ESCTIM952117	Imipramine 100mg/5ml oral suspension
+^ESCTIM952119	Imipramine 40mg/5ml oral solution
+^ESCTIM952122	Imipramine 40mg/5ml oral suspension
+^ESCTIM962226	Imipramine 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIM962227	Imipramine 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM980829	Imipramine 125mg/5ml oral solution 1 ml
+^ESCTIM980830	Imipramine 125mg/5ml oral solution (Special Order)
+^ESCTIM980832	Imipramine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM980834	Imipramine 125mg/5ml oral suspension 1 ml
+^ESCTIM980835	Imipramine 125mg/5ml oral suspension (Special Order)
+^ESCTIM980837	Imipramine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM980887	Imipramine 125mg/5ml oral suspension
+^ESCTIM980888	Imipramine 125mg/5ml oral solution
+^ESCTIM991738	Imipramine 25mg/5ml oral solution sugar free 150 ml
+^ESCTIM991739	Imipramine 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTIM991740	Imipramine 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTIM991753	Imipramine 25mg/5ml oral solution sugar free
+^ESCTIM994717	Imipramine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTIM994718	Imipramine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTIP609655	Iprindole
+^ESCTIP693252	Iprindole
+^ESCTLE870696	Lentizol 50mg modified-release capsules (Pfizer Ltd)
+^ESCTLE870701	Lentizol 50mg modified-release capsules (Pfizer Ltd) 56 capsule
+^ESCTLE870703	Lentizol 25mg modified-release capsules (Pfizer Ltd)
+^ESCTLE870704	Lentizol 25mg modified-release capsules (Pfizer Ltd) 56 capsule
+^ESCTLO1006090	Lofepramine 70mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1006091	Lofepramine 70mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLO1006413	Lofepramine 70mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1006415	Lofepramine 70mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTLO1044162	Lofepramine 70mg tablets (Waymade Healthcare Plc)
+^ESCTLO1044163	Lofepramine 70mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLO1065684	Lofepramine 70mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTLO1065685	Lofepramine 70mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCTLO1065686	Lofepramine 70mg tablets (DE Pharmaceuticals)
+^ESCTLO1065687	Lofepramine 70mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLO1089347	Lofepramine 70mg/5ml oral suspension sugar free (Ennogen Healthcare Ltd)
+^ESCTLO1089348	Lofepramine 70mg/5ml oral suspension sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTLO1103982	Lofepramine 70mg/5ml oral suspension sugar free (J M McGill Ltd)
+^ESCTLO1103983	Lofepramine 70mg/5ml oral suspension sugar free (J M McGill Ltd) 150 ml
+^ESCTLO1107742	Lofepramine 70mg/5ml oral suspension sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTLO1107743	Lofepramine 70mg/5ml oral suspension sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTLO1117657	Lofepramine 70mg/5ml oral suspension sugar free (Niche Pharma Ltd)
+^ESCTLO1117658	Lofepramine 70mg/5ml oral suspension sugar free (Niche Pharma Ltd) 150 ml
+^ESCTLO1118001	Lofepramine 70mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118002	Lofepramine 70mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLO1120951	Lofepramine 70mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1120952	Lofepramine 70mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLO1121471	Lofepramine 70mg tablets (Creo Pharma Ltd)
+^ESCTLO1121472	Lofepramine 70mg tablets (Creo Pharma Ltd) 56 tablet
+^ESCTLO1145150	Lofepramine 70mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTLO1145151	Lofepramine 70mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTLO1152592	Lofepramine 70mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLO1152593	Lofepramine 70mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTLO609656	Lofepramine
+^ESCTLO609660	Lofepramine 70mg tablets
+^ESCTLO609662	Lofepramine 70 mg oral tablet
+^ESCTLO655883	Lofepramine
+^ESCTLO725142	Lofepramine hydrochloride
+^ESCTLO803585	Lofepramine 70mg tablets (Teva UK Ltd)
+^ESCTLO812138	Lofepramine 70mg tablets (Sterwin Medicines)
+^ESCTLO818754	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO819981	Lofepramine 70mg tablets (Actavis UK Ltd)
+^ESCTLO820900	Lofepramine 70mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO821171	Lofepramine 70mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLO822113	Lofepramine 70mg tablets (Mylan Ltd)
+^ESCTLO825464	Lofepramine 70mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO846959	Lofepramine 70mg tablets 250 tablet
+^ESCTLO848370	Lofepramine 70mg tablets 56 tablet
+^ESCTLO855441	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855442	Lofepramine 70mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTLO855443	Lofepramine 70mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855444	Lofepramine 70mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855448	Lofepramine 70mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855450	Lofepramine 70mg tablets (Mylan Ltd) 250 tablet
+^ESCTLO855452	Lofepramine 70mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855454	Lofepramine 70mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO855460	Lofepramine 70mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTLO855462	Lofepramine 70mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO866945	Lofepramine 70mg/5ml oral suspension sugar free 150 ml
+^ESCTLO866946	Lomont 70mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd)
+^ESCTLO866947	Lomont 70mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTLO866948	Lofepramine 70mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO866949	Lofepramine 70mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTLO897869	Lofepramine 70mg tablets (Sandoz Ltd)
+^ESCTLO897870	Lofepramine 70mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO953299	Lofepramine 140mg/5ml oral suspension 1 ml
+^ESCTLO953317	Lofepramine 140mg/5ml oral solution 1 ml
+^ESCTLO953323	Lofepramine 140mg/5ml oral solution (Special Order)
+^ESCTLO953327	Lofepramine 140mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953337	Lofepramine 23mg/5ml oral suspension 1 ml
+^ESCTLO953341	Lofepramine 23mg/5ml oral suspension (Special Order)
+^ESCTLO953343	Lofepramine 23mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953349	Lofepramine 23mg/5ml oral solution 1 ml
+^ESCTLO953353	Lofepramine 23mg/5ml oral solution (Special Order)
+^ESCTLO953357	Lofepramine 23mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953367	Lofepramine 35mg/5ml oral suspension 1 ml
+^ESCTLO953369	Lofepramine 35mg/5ml oral suspension (Special Order)
+^ESCTLO953375	Lofepramine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953381	Lofepramine 35mg/5ml oral solution 1 ml
+^ESCTLO953387	Lofepramine 35mg/5ml oral solution (Special Order)
+^ESCTLO953390	Lofepramine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO953473	Lofepramine 140mg/5ml oral suspension (Special Order)
+^ESCTLO953475	Lofepramine 140mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO953749	Lofepramine 140mg/5ml oral solution
+^ESCTLO953751	Lofepramine 140mg/5ml oral suspension
+^ESCTLO953753	Lofepramine 23mg/5ml oral solution
+^ESCTLO953755	Lofepramine 23mg/5ml oral suspension
+^ESCTLO953757	Lofepramine 35mg/5ml oral solution
+^ESCTLO953759	Lofepramine 35mg/5ml oral suspension
+^ESCTLO954483	Lofepramine 5mg/5ml oral suspension 1 ml
+^ESCTLO954491	Lofepramine 5mg/5ml oral suspension (Special Order)
+^ESCTLO954493	Lofepramine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954495	Lofepramine 5mg/5ml oral solution 1 ml
+^ESCTLO954497	Lofepramine 5mg/5ml oral solution (Special Order)
+^ESCTLO954499	Lofepramine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954501	Lofepramine 70mg/5ml oral suspension 1 ml
+^ESCTLO954503	Lofepramine 70mg/5ml oral suspension (Special Order)
+^ESCTLO954507	Lofepramine 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954515	Lofepramine 70mg/5ml oral solution 1 ml
+^ESCTLO954519	Lofepramine 70mg/5ml oral solution (Special Order)
+^ESCTLO954523	Lofepramine 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954764	Lofepramine 5mg/5ml oral solution
+^ESCTLO954766	Lofepramine 5mg/5ml oral suspension
+^ESCTLO954768	Lofepramine 70mg/5ml oral solution
+^ESCTLO954770	Lofepramine 70mg/5ml oral suspension
+^ESCTLO962165	Lofepramine 70mg tablets (Arrow Generics Ltd)
+^ESCTLO962166	Lofepramine 70mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLO962167	Lofepramine 70mg tablets (Arrow Generics Ltd) 250 tablet
+^ESCTLO965973	Lofepramine 70mg tablets (Merck Serono Ltd)
+^ESCTLO965974	Lofepramine 70mg tablets (Merck Serono Ltd) 56 tablet 4 x 14 tablets
+^ESCTLU863407	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU863412	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU864559	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU864560	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU865094	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865095	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLU865097	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865098	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMA609663	Maprotiline 10mg tablets
+^ESCTMA609665	Maprotiline hydrochloride 10 mg oral tablet
+^ESCTMA609666	Maprotiline 25mg tablets
+^ESCTMA609668	Maprotiline hydrochloride 25 mg oral tablet
+^ESCTMA609669	Maprotiline 50mg tablets
+^ESCTMA609671	Maprotiline hydrochloride 50 mg oral tablet
+^ESCTMA609672	Maprotiline 75mg tablets
+^ESCTMA609674	Maprotiline hydrochloride 75 mg oral tablet
+^ESCTMA863406	Maprotiline 25mg tablets 28 tablet
+^ESCTMA864558	Maprotiline 75mg tablets 28 tablet
+^ESCTMA865093	Maprotiline 10mg tablets 30 tablet
+^ESCTMA865096	Maprotiline 50mg tablets 28 tablet
+^ESCTMI1041632	Mianserin 30mg tablets (Waymade Healthcare Plc)
+^ESCTMI1041633	Mianserin 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTMI1065838	Mianserin 10mg tablets (DE Pharmaceuticals)
+^ESCTMI1065839	Mianserin 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1065840	Mianserin 30mg tablets (DE Pharmaceuticals)
+^ESCTMI1065841	Mianserin 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1118252	Mianserin 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI1118253	Mianserin 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTMI1126789	Mianserin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126790	Mianserin 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTMI1126791	Mianserin 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126792	Mianserin 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTMI609677	Mianserin 10mg tablets
+^ESCTMI609679	Mianserin hydrochloride 10 mg oral tablet
+^ESCTMI609680	Mianserin 20mg tablets
+^ESCTMI609682	Mianserin hydrochloride 20 mg oral tablet
+^ESCTMI609683	Mianserin 30mg tablets
+^ESCTMI609685	Mianserin hydrochloride 30 mg oral tablet
+^ESCTMI805191	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI807829	Mianserin 10mg tablets (Mylan Ltd)
+^ESCTMI816256	Mianserin 10mg tablets (Teva UK Ltd)
+^ESCTMI816837	Mianserin 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTMI817735	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI819846	Mianserin 30mg tablets (Teva UK Ltd)
+^ESCTMI819943	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820077	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820323	Mianserin 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI820340	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820807	Mianserin 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI820962	Mianserin 30mg tablets (Actavis UK Ltd)
+^ESCTMI821326	Mianserin 20mg tablets (Mylan Ltd)
+^ESCTMI822977	Mianserin 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI824785	Mianserin 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI830977	Mianserin 10mg tablets (Actavis UK Ltd)
+^ESCTMI832550	Mianserin 30mg tablets (Mylan Ltd)
+^ESCTMI833977	Mianserin 20mg tablets (Actavis UK Ltd)
+^ESCTMI842679	Mianserin 10mg tablets 100 tablet
+^ESCTMI846375	Mianserin 30mg tablets 28 tablet
+^ESCTMI846626	Mianserin 10mg tablets 28 tablet
+^ESCTMI846640	Mianserin 20mg tablets 28 tablet
+^ESCTMI847856	Mianserin 30mg tablets 100 tablet
+^ESCTMI847989	Mianserin 20mg tablets 100 tablet
+^ESCTMI856575	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856577	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856580	Mianserin 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856581	Mianserin 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856583	Mianserin 10mg tablets (Mylan Ltd) 100 tablet
+^ESCTMI856586	Mianserin 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856588	Mianserin 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTMI856590	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856592	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTMI856595	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856597	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856599	Mianserin 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856600	Mianserin 20mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856601	Mianserin 20mg tablets (Mylan Ltd) 100 tablet
+^ESCTMI856602	Mianserin 20mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856603	Mianserin 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856604	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856605	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTMI856607	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTMI856608	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856609	Mianserin 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856610	Mianserin 30mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856611	Mianserin 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856612	Mianserin 30mg tablets (Teva UK Ltd) 100 tablet
+^ESCTMI856613	Mianserin 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856614	Mianserin 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI957204	Mianserin 10mg/5ml oral suspension 1 ml
+^ESCTMI957205	Mianserin 10mg/5ml oral suspension (Special Order)
+^ESCTMI957207	Mianserin 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957210	Mianserin 10mg/5ml oral solution 1 ml
+^ESCTMI957212	Mianserin 10mg/5ml oral solution (Special Order)
+^ESCTMI957215	Mianserin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957225	Mianserin 20mg/5ml oral suspension 1 ml
+^ESCTMI957227	Mianserin 20mg/5ml oral suspension (Special Order)
+^ESCTMI957229	Mianserin 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957231	Mianserin 20mg/5ml oral solution 1 ml
+^ESCTMI957234	Mianserin 20mg/5ml oral solution (Special Order)
+^ESCTMI957235	Mianserin 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957236	Mianserin 30mg/5ml oral suspension 1 ml
+^ESCTMI957237	Mianserin 30mg/5ml oral suspension (Special Order)
+^ESCTMI957238	Mianserin 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957240	Mianserin 30mg/5ml oral solution 1 ml
+^ESCTMI957242	Mianserin 30mg/5ml oral solution (Special Order)
+^ESCTMI957244	Mianserin 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957642	Mianserin 10mg/5ml oral solution
+^ESCTMI957643	Mianserin 10mg/5ml oral suspension
+^ESCTMI957644	Mianserin 20mg/5ml oral solution
+^ESCTMI957645	Mianserin 20mg/5ml oral suspension
+^ESCTMI957646	Mianserin 30mg/5ml oral solution
+^ESCTMI957647	Mianserin 30mg/5ml oral suspension
+^ESCTMO797054	Molipaxin 150mg tablets (Zentiva)
+^ESCTMO802355	Molipaxin 100mg capsules (Zentiva)
+^ESCTMO803899	Motival 10mg/500microgram tablets (Sanofi)
+^ESCTMO812072	Molipaxin 50mg capsules (Zentiva)
+^ESCTMO818665	Motipress tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO851425	Molipaxin 50mg capsules (Zentiva) 84 capsule 6 x 14 capsules
+^ESCTMO851432	Molipaxin 100mg capsules (Zentiva) 56 capsule 4 x 14 capsules
+^ESCTMO855609	Motival 10mg/500microgram tablets (Sanofi) 100 tablet
+^ESCTMO855847	Molipaxin 150mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTMO856907	Motipress tablets (Sanofi-Synthelabo Ltd) 28 tablet
+^ESCTMO865467	Molipaxin 50mg/5ml oral liquid (Sanofi)
+^ESCTMO865472	Molipaxin 50mg/5ml oral liquid (Sanofi) 120 ml
+^ESCTMO870851	Molipaxin CR 150mg tablets (Aventis Pharma)
+^ESCTMO870852	Molipaxin CR 150mg tablets (Aventis Pharma) 28 tablet
+^ESCTNO1009456	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1009457	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1009458	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1009459	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1012772	Nortriptyline 10mg tablets (King Pharmaceuticals Ltd)
+^ESCTNO1012773	Nortriptyline 10mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1014619	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1014620	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTNO1014730	Nortriptyline 25mg tablets (King Pharmaceuticals Ltd)
+^ESCTNO1014731	Nortriptyline 25mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1019361	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1019367	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTNO1068225	Nortriptyline 10mg tablets (Actavis UK Ltd)
+^ESCTNO1068226	Nortriptyline 10mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTNO1068229	Nortriptyline 25mg tablets (Actavis UK Ltd)
+^ESCTNO1068230	Nortriptyline 25mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTNO1118515	Nortriptyline 10mg tablets (Teva UK Ltd)
+^ESCTNO1118516	Nortriptyline 10mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1118517	Nortriptyline 25mg tablets (Teva UK Ltd)
+^ESCTNO1118518	Nortriptyline 25mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1156985	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156986	Nortriptyline 25mg tablets 30 tablet
+^ESCTNO1156987	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156988	Nortriptyline 10mg tablets 30 tablet
+^ESCTNO1156989	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156990	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156991	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1156992	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1156993	Nortriptyline 50mg tablets 30 tablet
+^ESCTNO1156994	Nortriptyline 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156995	Nortriptyline 50mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156996	Nortriptyline 50mg tablets
+^ESCTNO1157668	Nortriptyline 10mg tablets (Creo Pharma Ltd)
+^ESCTNO1157669	Nortriptyline 10mg tablets (Creo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1157670	Nortriptyline 25mg tablets (Creo Pharma Ltd)
+^ESCTNO1157671	Nortriptyline 25mg tablets (Creo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1158486	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1158487	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1158488	Nortriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1158489	Nortriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1159916	Nortriptyline 10mg/5ml oral suspension 100 ml
+^ESCTNO1159917	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNO1161026	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1161027	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1161029	Nortriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1161030	Nortriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1163008	Nortriptyline 25mg tablets (Alissa Healthcare Research Ltd)
+^ESCTNO1163009	Nortriptyline 25mg tablets (Alissa Healthcare Research Ltd) 100 tablet
+^ESCTNO1163010	Nortriptyline 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTNO1163011	Nortriptyline 10mg tablets (Alissa Healthcare Research Ltd) 100 tablet
+^ESCTNO271283	Nortriptyline
+^ESCTNO609686	Nortriptyline 10mg tablets
+^ESCTNO609688	Nortriptyline 10 mg oral tablet
+^ESCTNO609692	Nortriptyline 25mg tablets
+^ESCTNO609694	Nortriptyline 25 mg oral tablet
+^ESCTNO609738	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCTNO609741	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCTNO637025	Nortriptyline
+^ESCTNO639954	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTNO640769	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTNO641162	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTNO641216	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTNO696967	Nortriptyline + Fluphenazine
+^ESCTNO696970	Nortriptyline +Fluphenazine
+^ESCTNO835498	Nortriptyline 25mg tablets 100 tablet
+^ESCTNO846636	Nortriptyline 10mg tablets 100 tablet
+^ESCTNO848466	Nortriptyline 10mg / Fluphenazine 500microgram tablets 100 tablet
+^ESCTNO848669	Nortriptyline 30mg / Fluphenazine 1.5mg tablets 28 tablet
+^ESCTNO968035	Nortriptyline 25mg/5ml oral solution 1 ml
+^ESCTNO968036	Nortriptyline 25mg/5ml oral solution (Special Order)
+^ESCTNO968037	Nortriptyline 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTNO968038	Nortriptyline 25mg/5ml oral suspension 1 ml
+^ESCTNO968039	Nortriptyline 25mg/5ml oral suspension (Special Order)
+^ESCTNO968040	Nortriptyline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNO968362	Nortriptyline 25mg tablets 25 tablet
+^ESCTNO968397	Nortriptyline 25mg/5ml oral solution
+^ESCTNO968398	Nortriptyline 25mg/5ml oral suspension
+^ESCTNO977372	Nortriptyline 10mg/5ml oral solution 1 ml
+^ESCTNO977373	Nortriptyline 10mg/5ml oral solution (Special Order)
+^ESCTNO977374	Nortriptyline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTNO977375	Nortriptyline 10mg/5ml oral suspension 1 ml
+^ESCTNO977376	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNO977377	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNO977507	Nortriptyline 10mg/5ml oral solution
+^ESCTNO977508	Nortriptyline 10mg/5ml oral suspension
+^ESCTPE316278	Perphenazine
+^ESCTPE609313	Perphenazine 2mg tablets
+^ESCTPE609315	Perphenazine 2 mg oral tablet
+^ESCTPE609316	Perphenazine 4mg tablets
+^ESCTPE609318	Perphenazine 4 mg oral tablet
+^ESCTPE641228	Perphenazine 16 mg oral tablet
+^ESCTPE641238	Perphenazine 8 mg oral tablet
+^ESCTPE645731	Perphenazine in oral dosage form
+^ESCTPE645733	Perphenazine in parenteral dosage form
+^ESCTPE646798	Perphenazine
+^ESCTPR268855	Product containing doxepin
+^ESCTPR271284	Product containing nortriptyline
+^ESCTPR303704	Product containing desipramine
+^ESCTPR308204	Product containing imipramine
+^ESCTPR315340	Product containing amitriptyline
+^ESCTPR316279	Product containing perphenazine
+^ESCTPR325874	Protriptyline hydrochloride
+^ESCTPR329767	Protriptyline
+^ESCTPR329768	Product containing protriptyline
+^ESCTPR396975	Product containing trimipramine
+^ESCTPR406875	Product containing clomipramine
+^ESCTPR609314	Product containing perphenazine 2 mg/1 each oral tablet
+^ESCTPR609317	Product containing perphenazine 4 mg/1 each oral tablet
+^ESCTPR609586	Product containing amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609589	Product containing amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609592	Product containing amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609604	Product containing clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTPR609607	Product containing clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609611	Product containing clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCTPR609628	Product containing dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609629	Product containing dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609631	Product containing dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609632	Product containing dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609637	Product containing doxepin 10 mg/1 each oral capsule
+^ESCTPR609640	Product containing doxepin 25 mg/1 each oral capsule
+^ESCTPR609643	Product containing doxepin 50 mg/1 each oral capsule
+^ESCTPR609646	Product containing doxepin 75 mg/1 each oral capsule
+^ESCTPR609648	Product containing imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609651	Product containing imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609657	Product containing lofepramine
+^ESCTPR609661	Product containing lofepramine 70 mg/1 each oral tablet
+^ESCTPR609664	Product containing maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609667	Product containing maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609670	Product containing maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609673	Product containing maprotiline hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609678	Product containing mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609681	Product containing mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCTPR609684	Product containing mianserin hydrochloride 30 mg/1 each oral tablet
+^ESCTPR609687	Product containing nortriptyline 10 mg/1 each oral tablet
+^ESCTPR609693	Product containing nortriptyline 25 mg/1 each oral tablet
+^ESCTPR609696	Product containing trazodone hydrochloride 150 mg/1 each oral tablet
+^ESCTPR609700	Product containing trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCTPR609703	Product containing trazodone hydrochloride 50 mg/1 each oral capsule
+^ESCTPR609707	Product containing trimipramine 50 mg/1 each oral capsule
+^ESCTPR609709	Product containing trimipramine 10 mg/1 each oral tablet
+^ESCTPR609712	Product containing trimipramine 25 mg/1 each oral tablet
+^ESCTPR609715	Product containing amoxapine 50 mg/1 each oral tablet
+^ESCTPR609718	Product containing amoxapine 100 mg/1 each oral tablet
+^ESCTPR609739	Product containing fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCTPR609742	Product containing fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCTPR609745	Product containing amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR609748	Product containing amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR618926	Product containing dosulepin
+^ESCTPR618927	Product containing dothiepin
+^ESCTPR637143	Protriptyline
+^ESCTPR638727	Product containing trimipramine maleate 25 mg/1 each oral capsule
+^ESCTPR638730	Product containing trimipramine maleate 100 mg/1 each oral capsule
+^ESCTPR638807	Product containing amitriptyline hydrochloride 75 mg/1 each oral tablet
+^ESCTPR638814	Product containing amitriptyline hydrochloride 100 mg/1 each oral tablet
+^ESCTPR638816	Product containing amitriptyline hydrochloride 150 mg/1 each oral tablet
+^ESCTPR639032	Product containing imipramine pamoate 100 mg/1 each oral capsule
+^ESCTPR639034	Product containing imipramine pamoate 125 mg/1 each oral capsule
+^ESCTPR639036	Product containing imipramine pamoate 150 mg/1 each oral capsule
+^ESCTPR639391	Product containing doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCTPR639461	Product containing imipramine pamoate 75 mg/1 each oral capsule
+^ESCTPR639467	Product containing imipramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR639955	Product containing nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTPR640174	Product containing doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCTPR640385	Product containing desipramine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR640387	Product containing desipramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR640389	Product containing desipramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR640391	Product containing desipramine hydrochloride 75 mg/1 each oral tablet
+^ESCTPR640393	Product containing desipramine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR640395	Product containing desipramine hydrochloride 150 mg/1 each oral tablet
+^ESCTPR640770	Product containing nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTPR641163	Product containing nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTPR641192	Product containing clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCTPR641217	Product containing nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTPR641229	Product containing perphenazine 16 mg/1 each oral tablet
+^ESCTPR641239	Product containing perphenazine 8 mg/1 each oral tablet
+^ESCTPR641306	Protriptyline 5mg tablets
+^ESCTPR641307	Product containing protriptyline hydrochloride 5 mg/1 each oral tablet
+^ESCTPR641308	Protriptyline hydrochloride 5 mg oral tablet
+^ESCTPR641309	Protriptyline 10mg tablets
+^ESCTPR641310	Product containing protriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR641311	Protriptyline hydrochloride 10 mg oral tablet
+^ESCTPR641363	Product containing trazodone hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641365	Product containing trazodone hydrochloride 100 mg/1 each oral tablet
+^ESCTPR642557	Product containing amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCTPR642560	Product containing amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645167	Product containing amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645169	Product containing amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645732	Product containing perphenazine in oral dosage form
+^ESCTPR645734	Product containing perphenazine in parenteral dosage form
+^ESCTPR645786	Product containing amitriptyline in oral dosage form
+^ESCTPR645788	Product containing amitriptyline in parenteral dosage form
+^ESCTPR645943	Product containing imipramine in parenteral dosage form
+^ESCTPR696969	Product containing fluphenazine and nortriptyline
+^ESCTPR696987	Product containing amitriptyline and perphenazine
+^ESCTPR709263	Product containing imipramine in oral dosage form
+^ESCTPR710153	Product containing amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCTPR720865	Product containing doxepin in oral dosage form
+^ESCTPR722064	Product containing doxepin in topical dosage form
+^ESCTPR729788	Product containing doxepin 3 mg/1 each oral tablet
+^ESCTPR729790	Product containing doxepin 6 mg/1 each oral tablet
+^ESCTPR771472	Product containing clomipramine in oral dosage form
+^ESCTPR806720	Prothiaden 25mg capsules (Teofarma)
+^ESCTPR810624	Prepadine 75mg tablets (Teva UK Ltd)
+^ESCTPR813501	Prepadine 25mg capsules (Teva UK Ltd)
+^ESCTPR822875	Prothiaden 75mg tablets (Teofarma)
+^ESCTPR849960	Prepadine 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTPR849977	Prothiaden 25mg capsules (Teofarma) 100 capsule
+^ESCTPR849979	Prothiaden 25mg capsules (Teofarma) 600 capsule
+^ESCTPR850013	Prepadine 75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850029	Prothiaden 75mg tablets (Teofarma) 28 tablet
+^ESCTPR850031	Prothiaden 75mg tablets (Teofarma) 500 tablet
+^ESCTPR952450	Prothiaden 25mg capsules (Teofarma) 28 capsule 2 x 14 capsules
+^ESCTSI808116	Sinequan 10mg capsules (Pfizer Ltd)
+^ESCTSI808287	Sinequan 75mg capsules (Pfizer Ltd)
+^ESCTSI813649	Sinequan 25mg capsules (Pfizer Ltd)
+^ESCTSI820508	Sinequan 50mg capsules (Pfizer Ltd)
+^ESCTSI856768	Sinequan 10mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTSI856777	Sinequan 25mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI856781	Sinequan 50mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI856785	Sinequan 75mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI935631	Sinepin 25mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTSI935632	Sinepin 25mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI935634	Sinepin 50mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTSI935636	Sinepin 50mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTSU803184	Surmontil 50mg capsules (Sanofi)
+^ESCTSU818904	Surmontil 25mg tablets (Sanofi)
+^ESCTSU832243	Surmontil 10mg tablets (Sanofi)
+^ESCTSU855857	Surmontil 25mg tablets (Sanofi) 84 tablet 6 x 14 tablets
+^ESCTSU855859	Surmontil 25mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTSU855864	Surmontil 10mg tablets (Sanofi) 84 tablet 6 x 14 tablets
+^ESCTSU855865	Surmontil 10mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTSU855868	Surmontil 50mg capsules (Sanofi) 28 capsule 2 x 14 capsules
+^ESCTTH813516	Thaden 25mg capsules (Opus Pharmaceuticals Ltd)
+^ESCTTH821378	Thaden 75mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTTH849984	Thaden 25mg capsules (Opus Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTTH850036	Thaden 75mg tablets (Opus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTO801841	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTO806759	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTTO855551	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) 150 ml
+^ESCTTO855755	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR1005385	Trazodone 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005391	Trazodone 50mg capsules (Phoenix Healthcare Distribution Ltd) 84 capsule
+^ESCTTR1005392	Trazodone 100mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005393	Trazodone 100mg capsules (Phoenix Healthcare Distribution Ltd) 56 capsule
+^ESCTTR1005394	Trazodone 150mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005395	Trazodone 150mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTR1005412	Trimipramine 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005413	Trimipramine 50mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTTR1005414	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005415	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTR1005416	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005417	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005418	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005419	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTR1011428	Trazodone 50mg/5ml oral solution sugar free (Zentiva)
+^ESCTTR1011429	Trazodone 50mg/5ml oral solution sugar free (Zentiva) 120 ml
+^ESCTTR1013552	Trazodone 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTTR1013553	Trazodone 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 120 ml
+^ESCTTR1018903	Trazodone 50mg capsules (Mercury Pharma Group Ltd)
+^ESCTTR1018904	Trazodone 50mg capsules (Mercury Pharma Group Ltd) 84 capsule
+^ESCTTR1018905	Trazodone 100mg capsules (Mercury Pharma Group Ltd)
+^ESCTTR1018906	Trazodone 100mg capsules (Mercury Pharma Group Ltd) 56 capsule
+^ESCTTR1021167	Trazodone 50mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTTR1021168	Trazodone 50mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 120 ml
+^ESCTTR1022214	Trazodone 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR1022215	Trazodone 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCTTR1037736	Trimipramine 50mg capsules (Zentiva)
+^ESCTTR1037737	Trimipramine 50mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCTTR1037738	Trimipramine 25mg tablets (Zentiva)
+^ESCTTR1037739	Trimipramine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTTR1037740	Trimipramine 10mg tablets (Zentiva)
+^ESCTTR1037741	Trimipramine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTTR1042491	Trazodone 50mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042492	Trazodone 50mg capsules (Waymade Healthcare Plc) 84 capsule
+^ESCTTR1042493	Trazodone 100mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042494	Trazodone 100mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTTR1042495	Trazodone 150mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042496	Trazodone 150mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR1042497	Trazodone 50mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTTR1042498	Trazodone 50mg/5ml oral solution sugar free (Waymade Healthcare Plc) 120 ml
+^ESCTTR1042605	Trimipramine 50mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042606	Trimipramine 50mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTTR1042607	Trimipramine 10mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042608	Trimipramine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR1042609	Trimipramine 10mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1042610	Trimipramine 25mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042611	Trimipramine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR1042612	Trimipramine 25mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1058482	Trazodone 50mg capsules (Creo Pharma Ltd)
+^ESCTTR1058483	Trazodone 50mg capsules (Creo Pharma Ltd) 84 capsule
+^ESCTTR1058484	Trazodone 100mg capsules (Creo Pharma Ltd)
+^ESCTTR1058485	Trazodone 100mg capsules (Creo Pharma Ltd) 56 capsule
+^ESCTTR1058486	Trazodone 150mg tablets (Creo Pharma Ltd)
+^ESCTTR1058487	Trazodone 150mg tablets (Creo Pharma Ltd) 28 tablet
+^ESCTTR1106986	Trazodone 50mg capsules (Rivopharm (UK) Ltd)
+^ESCTTR1106987	Trazodone 50mg capsules (Rivopharm (UK) Ltd) 84 capsule
+^ESCTTR1106988	Trazodone 100mg capsules (Rivopharm (UK) Ltd)
+^ESCTTR1106991	Trazodone 100mg capsules (Rivopharm (UK) Ltd) 56 capsule
+^ESCTTR1106993	Trazodone 150mg tablets (Rivopharm (UK) Ltd)
+^ESCTTR1106995	Trazodone 150mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTTR1118256	Trazodone 150mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR1118257	Trazodone 150mg tablets (Focus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR1118260	Trazodone 50mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTTR1118262	Trazodone 50mg capsules (Focus Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR1118264	Trazodone 100mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTTR1118265	Trazodone 100mg capsules (Focus Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR1118268	Trimipramine 50mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTTR1118270	Trimipramine 50mg capsules (Focus Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTTR1118272	Trimipramine 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR1118275	Trimipramine 10mg tablets (Focus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR1118276	Trimipramine 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR1118277	Trimipramine 25mg tablets (Focus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR1118279	Trazodone 50mg/5ml oral solution sugar free (AMCo)
+^ESCTTR1118281	Trazodone 50mg/5ml oral solution sugar free (AMCo) 120 ml
+^ESCTTR1119860	Trazodone 50mg capsules (DE Pharmaceuticals)
+^ESCTTR1119861	Trazodone 50mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCTTR1119862	Trazodone 100mg capsules (DE Pharmaceuticals)
+^ESCTTR1119863	Trazodone 100mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTTR1119864	Trazodone 150mg tablets (DE Pharmaceuticals)
+^ESCTTR1119865	Trazodone 150mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTR1127809	Trimipramine 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127810	Trimipramine 50mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTTR392747	Trimipramine maleate
+^ESCTTR396974	Trimipramine
+^ESCTTR609695	Trazodone 150mg tablets
+^ESCTTR609697	Trazodone hydrochloride 150 mg oral tablet
+^ESCTTR609698	Trazodone 100mg capsules
+^ESCTTR609699	Trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCTTR609701	Trazodone 50mg capsules
+^ESCTTR609702	Trazodone hydrochloride 50 mg/1 each oral capsule
+^ESCTTR609705	Trimipramine 50mg capsules
+^ESCTTR609706	Trimipramine 50 mg/1 each oral capsule
+^ESCTTR609708	Trimipramine 10mg tablets
+^ESCTTR609710	Trimipramine 10 mg oral tablet
+^ESCTTR609711	Trimipramine 25mg tablets
+^ESCTTR609713	Trimipramine 25 mg oral tablet
+^ESCTTR638256	Trimipramine
+^ESCTTR638726	Trimipramine maleate 25 mg/1 each oral capsule
+^ESCTTR638729	Trimipramine maleate 100 mg/1 each oral capsule
+^ESCTTR641362	Trazodone hydrochloride 50 mg oral tablet
+^ESCTTR641364	Trazodone hydrochloride 100 mg oral tablet
+^ESCTTR803614	Trazodone 150mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR803773	Trazodone 150mg tablets (Zentiva)
+^ESCTTR804479	Trazodone 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR804757	Trazodone 150mg tablets (Mylan Ltd)
+^ESCTTR804854	Trazodone 100mg capsules (Zentiva)
+^ESCTTR805153	Trazodone 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR807067	Trazodone 50mg capsules (Zentiva)
+^ESCTTR808171	Trazodone 50mg capsules (Mylan Ltd)
+^ESCTTR811015	Trazodone 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR815060	Trazodone 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR818528	Triptafen-M tablets (Mercury Pharma Group Ltd)
+^ESCTTR818938	Trazodone 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR819322	Triptafen tablets (AMCo)
+^ESCTTR820193	Trazodone 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR820497	Trazodone 150mg tablets (Teva UK Ltd)
+^ESCTTR820806	Trazodone 100mg capsules (Teva UK Ltd)
+^ESCTTR820890	Trazodone 50mg capsules (Teva UK Ltd)
+^ESCTTR822878	Trazodone 100mg capsules (Mylan Ltd)
+^ESCTTR824443	Trazodone 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR830182	Trazodone 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR836437	Trimipramine 25mg tablets 28 tablet
+^ESCTTR840821	Trimipramine 10mg tablets 84 tablet
+^ESCTTR843577	Trimipramine 50mg capsules 28 capsule
+^ESCTTR846815	Trazodone 50mg capsules 84 capsule
+^ESCTTR847359	Trazodone 100mg capsules 56 capsule
+^ESCTTR847563	Trazodone 150mg tablets 28 tablet
+^ESCTTR847714	Trimipramine 10mg tablets 28 tablet
+^ESCTTR848538	Trimipramine 25mg tablets 84 tablet
+^ESCTTR851423	Trazodone 50mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR851424	Trazodone 50mg capsules (Teva UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR851426	Trazodone 50mg capsules (Mylan Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR851427	Trazodone 50mg capsules (Kent Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR851428	Trazodone 50mg capsules (Zentiva) 84 capsule 6 x 14 capsules
+^ESCTTR851429	Trazodone 50mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule
+^ESCTTR851430	Trazodone 100mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR851431	Trazodone 100mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR851433	Trazodone 100mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR851434	Trazodone 100mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR851435	Trazodone 100mg capsules (Zentiva) 56 capsule 4 x 14 capsules
+^ESCTTR851436	Trazodone 100mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTTR854989	Triptafen-M tablets (Mercury Pharma Group Ltd) 100 tablet 10 x 10 tablets
+^ESCTTR854995	Triptafen tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTTR855843	Trazodone 150mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR855845	Trazodone 150mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR855849	Trazodone 150mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR855851	Trazodone 150mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR855852	Trazodone 150mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTTR855853	Trazodone 150mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTTR865466	Trazodone 50mg/5ml oral solution sugar free 120 ml
+^ESCTTR865497	Trazodone 50mg/5ml oral solution sugar free
+^ESCTTR870850	Trazodone 150mg modified-release tablets 28 tablet
+^ESCTTR870912	Trazodone 150mg modified-release tablets
+^ESCTTR873030	Trimipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR873032	Trimipramine 50mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTTR873033	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR873035	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR873036	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR873039	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR873042	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR873046	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR916634	Trazodone 50mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTTR916636	Trazodone 50mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 7 x 12 capsules
+^ESCTTR916638	Trazodone 100mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTTR916640	Trazodone 100mg capsules (IVAX Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR922591	Trimipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR922594	Trimipramine 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTTR922595	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR922596	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR922597	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR922598	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR922599	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR928346	Trimipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928347	Trimipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTTR928348	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928349	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR928350	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928351	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR928352	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR936687	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR940655	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTTR961542	Trazodone 100mg/5ml oral suspension 1 ml
+^ESCTTR961543	Trazodone 100mg/5ml oral suspension (Special Order)
+^ESCTTR961544	Trazodone 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961545	Trazodone 10mg/5ml oral suspension 1 ml
+^ESCTTR961546	Trazodone 10mg/5ml oral suspension (Special Order)
+^ESCTTR961547	Trazodone 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961548	Trazodone 150mg/5ml oral suspension 1 ml
+^ESCTTR961549	Trazodone 150mg/5ml oral suspension (Special Order)
+^ESCTTR961550	Trazodone 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961551	Trazodone 250mg/5ml oral suspension 1 ml
+^ESCTTR961552	Trazodone 250mg/5ml oral suspension (Special Order)
+^ESCTTR961553	Trazodone 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961554	Trazodone 25mg/5ml oral suspension 1 ml
+^ESCTTR961555	Trazodone 25mg/5ml oral suspension (Special Order)
+^ESCTTR961557	Trazodone 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961559	Trazodone 50mg/5ml oral suspension 1 ml
+^ESCTTR961560	Trazodone 50mg/5ml oral suspension (Special Order)
+^ESCTTR961561	Trazodone 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961562	Trazodone 75mg/5ml oral suspension 1 ml
+^ESCTTR961563	Trazodone 75mg/5ml oral suspension (Special Order)
+^ESCTTR961564	Trazodone 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961565	Trazodone 100mg/5ml oral solution 1 ml
+^ESCTTR961566	Trazodone 100mg/5ml oral solution (Special Order)
+^ESCTTR961567	Trazodone 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961568	Trazodone 10mg/5ml oral solution 1 ml
+^ESCTTR961569	Trazodone 10mg/5ml oral solution (Special Order)
+^ESCTTR961570	Trazodone 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961571	Trazodone 150mg/5ml oral solution 1 ml
+^ESCTTR961572	Trazodone 150mg/5ml oral solution (Special Order)
+^ESCTTR961573	Trazodone 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961574	Trazodone 250mg/5ml oral solution 1 ml
+^ESCTTR961575	Trazodone 250mg/5ml oral solution (Special Order)
+^ESCTTR961576	Trazodone 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961577	Trazodone 25mg/5ml oral solution 1 ml
+^ESCTTR961578	Trazodone 25mg/5ml oral solution (Special Order)
+^ESCTTR961579	Trazodone 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961580	Trazodone 50mg/5ml oral solution 1 ml
+^ESCTTR961581	Trazodone 50mg/5ml oral solution (Special Order)
+^ESCTTR961582	Trazodone 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961583	Trazodone 75mg/5ml oral solution 1 ml
+^ESCTTR961584	Trazodone 75mg/5ml oral solution (Special Order)
+^ESCTTR961585	Trazodone 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961716	Trazodone 100mg/5ml oral solution
+^ESCTTR961717	Trazodone 100mg/5ml oral suspension
+^ESCTTR961718	Trazodone 10mg/5ml oral solution
+^ESCTTR961719	Trazodone 10mg/5ml oral suspension
+^ESCTTR961720	Trazodone 150mg/5ml oral solution
+^ESCTTR961721	Trazodone 150mg/5ml oral suspension
+^ESCTTR961722	Trazodone 250mg/5ml oral solution
+^ESCTTR961723	Trazodone 250mg/5ml oral suspension
+^ESCTTR961724	Trazodone 25mg/5ml oral solution
+^ESCTTR961725	Trazodone 25mg/5ml oral suspension
+^ESCTTR961726	Trazodone 50mg/5ml oral solution
+^ESCTTR961727	Trazodone 50mg/5ml oral suspension
+^ESCTTR961728	Trazodone 75mg/5ml oral solution
+^ESCTTR961729	Trazodone 75mg/5ml oral suspension
+^ESCTTR962551	Trimipramine 10mg/5ml oral solution 1 ml
+^ESCTTR962552	Trimipramine 10mg/5ml oral solution (Special Order)
+^ESCTTR962553	Trimipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962557	Trimipramine 10mg/5ml oral suspension 1 ml
+^ESCTTR962558	Trimipramine 10mg/5ml oral suspension (Special Order)
+^ESCTTR962559	Trimipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962560	Trimipramine 125mg/5ml oral solution 1 ml
+^ESCTTR962561	Trimipramine 125mg/5ml oral solution (Special Order)
+^ESCTTR962562	Trimipramine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962563	Trimipramine 125mg/5ml oral suspension 1 ml
+^ESCTTR962564	Trimipramine 125mg/5ml oral suspension (Special Order)
+^ESCTTR962565	Trimipramine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962568	Trimipramine 25mg/5ml oral solution 1 ml
+^ESCTTR962570	Trimipramine 25mg/5ml oral solution (Special Order)
+^ESCTTR962572	Trimipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962573	Trimipramine 25mg/5ml oral suspension 1 ml
+^ESCTTR962574	Trimipramine 25mg/5ml oral suspension (Special Order)
+^ESCTTR962575	Trimipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962579	Trimipramine 50mg/5ml oral solution 1 ml
+^ESCTTR962581	Trimipramine 50mg/5ml oral solution (Special Order)
+^ESCTTR962582	Trimipramine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962585	Trimipramine 50mg/5ml oral suspension 1 ml
+^ESCTTR962586	Trimipramine 50mg/5ml oral suspension (Special Order)
+^ESCTTR962587	Trimipramine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962642	Trimipramine 10mg/5ml oral solution
+^ESCTTR962643	Trimipramine 10mg/5ml oral suspension
+^ESCTTR962644	Trimipramine 125mg/5ml oral solution
+^ESCTTR962645	Trimipramine 125mg/5ml oral suspension
+^ESCTTR962646	Trimipramine 25mg/5ml oral solution
+^ESCTTR962647	Trimipramine 25mg/5ml oral suspension
+^ESCTTR962648	Trimipramine 50mg/5ml oral solution
+^ESCTTR962649	Trimipramine 50mg/5ml oral suspension
+^ESCTTR979334	Trazodone 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979335	Trazodone 100mg capsules (Sigma Pharmaceuticals Plc) 56 capsule
+^ESCTTR979336	Trazodone 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979337	Trazodone 50mg capsules (Sigma Pharmaceuticals Plc) 84 capsule
+^ESCTTR979352	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979353	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTR979354	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR979355	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979356	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTR979357	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR979359	Trimipramine 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979361	Trimipramine 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTTR989838	Trazodone 50mg capsules (Actavis UK Ltd)
+^ESCTTR989839	Trazodone 50mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTTR989840	Trazodone 100mg capsules (Actavis UK Ltd)
+^ESCTTR989841	Trazodone 100mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTTR989842	Trazodone 150mg tablets (Actavis UK Ltd)
+^ESCTTR989843	Trazodone 150mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTXE864110	Xepin 5% cream (Cambridge Healthcare Supplies Ltd)
+ALTA3141	Allegron  Tablets  10 mg
+ALTA3142	Allegron  Tablets  25 mg
+AMCA9586BRIDL	Amitriptyline Sr  Capsules  25 mg
+AMCA9588BRIDL	Amitriptyline Sr  Capsules  50 mg
+AMIN4586	Amitriptyline Hydrochloride  Injection  10mg/ml
+AMMI117	Amitriptyline Hydrochloride  Mixture  Sugar Free 10 mg/5 ml
+AMOR41284NEMIS	Amitriptyline Hydrochloride  Oral solution  10 mg/5 ml
+AMOR45599NEMIS	Amitriptyline Hydrochloride  Oral suspension  10 mg/5 ml
+AMSU101952NEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  10 mg/5 ml
+AMSU28391EMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml
+AMSU28392EMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml
+AMSU33715MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Rosemont Pharm)
+AMSU33716MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Unichem)
+AMSU33717MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Kent Pharm)
+AMSU33718MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (A.A.H. Pharm)
+AMSU33719MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (Rosemont Pharm)
+AMSU33720MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (A.A.H. Pharm)
+AMSU33721MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (Unichem)
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+AMTA33759MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Kent Pharm)
+AMTA33760MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+AMTA33761MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Unichem)
+AMTA33762MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Alpharma)
+AMTA33763MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+AMTA33764MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Teva UK)
+AMTA33765MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Kent Pharm)
+AMTA33766MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Teva UK)
+AMTA33767MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Unichem)
+AMTA33768MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Alpharma)
+AMTA33769MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+AMTA33770MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Ivax Pharmaceuticals)
+AMTA33771MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Teva UK)
+AMTA33772MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Alpharma)
+AMTA33773MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+AMTA33774MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Kent Pharm)
+AMTA33775MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Ranbaxy)
+AMTA33776MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Unichem)
+AMTA33777MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Ivax Pharmaceuticals)
+AMTA33778MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Sandoz)
+AMTA8386EGTON	Amitriptyline Hydrochloride  Tablets  10 mg
+AMTA8388EGTON	Amitriptyline Hydrochloride  Tablets  50 mg
+AMTA8390EGTON	Amitriptyline Hydrochloride  Tablets  25 mg
+AMTA9132HILLI	Amoxapine  Tablets  50 mg
+AMTA9134HILLI	Amoxapine  Tablets  100 mg
+ANCA166	Anafranil  Capsules  10 mg
+ANCA167	Anafranil  Capsules  25 mg
+ANCA168	Anafranil  Capsules  50 mg
+ANIN3166	Anafranil  Injection  12.5mg/ml
+ANSY169	Anafranil  Syrup  25 mg/5 ml
+ANTA3167	Anafranil Sr  M/R tablets  75 mg
+ASTA8892EGTON	Asendis  Tablets  100 mg
+ASTA8895EGTON	Asendis  Tablets  50 mg
+AVCA3205	Aventyl  Capsules  10 mg
+AVCA9002BRIDL	Aventyl  Capsules  25 mg
+AVLI3206	Aventyl  Liquid  10mg/5 ml
+BUTA4670	Butriptyline  Tablets  25 mg
+BUTA6888	Butriptyline  Tablets  50 mg
+CLCA34378MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Teva UK)
+CLCA34379MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Alpharma)
+CLCA34380MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Generics (UK))
+CLCA34381MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Ivax Pharmaceuticals)
+CLCA34382MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Unichem)
+CLCA34383MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Kent Pharm)
+CLCA34384MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (A.A.H. Pharm)
+CLCA34385MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Generics (UK))
+CLCA34386MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Teva UK)
+CLCA34387MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (A.A.H. Pharm)
+CLCA34388MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Ivax Pharmaceuticals)
+CLCA34389MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Kent Pharm)
+CLCA34390MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Unichem)
+CLCA34391MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Alpharma)
+CLCA34392MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Generics (UK))
+CLCA34393MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Alpharma)
+CLCA34394MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Ivax Pharmaceuticals)
+CLCA34395MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Teva UK)
+CLCA34396MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (A.A.H. Pharm)
+CLCA34397MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Unichem)
+CLCA34398MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Kent Pharm)
+CLCA650	Clomipramine Hydrochloride  Capsules  10 mg
+CLCA651	Clomipramine Hydrochloride  Capsules  25 mg
+CLCA652	Clomipramine Hydrochloride  Capsules  50 mg
+CLIN4748	Clomipramine Hydrochloride  Injection  12.5mg/ml
+CLOR29049NEMIS	Clomipramine Hydrochloride  Oral suspension  50 mg/5 ml
+CLSY653	Clomipramine Hydrochloride  Syrup  25 mg/5 ml
+CLTA4749	Clomipramine Hydrochloride  M/R tablets  75 mg
+COTA720	Concordin  Tablets  10 mg
+COTA721	Concordin  Tablets  5 mg
+DOCA17635NEMIS	Dosulepin  Capsules  25 mg
+DOCA18846EMIS	Dothapax 25  Capsules  25 mg
+DOCA38082MGEMIS	Dosulepin  Capsules  25 mg (Teva UK)
+DOCA38083MGEMIS	Dosulepin  Capsules  25 mg (A.A.H. Pharm)
+DOCA38084MGEMIS	Dosulepin  Capsules  25 mg (Alpharma)
+DOCA38085MGEMIS	Dosulepin  Capsules  25 mg (Sterwin Medicines)
+DOCA38086MGEMIS	Dosulepin  Capsules  25 mg (Unichem)
+DOCA38087MGEMIS	Dosulepin  Capsules  25 mg (Ivax Pharmaceuticals)
+DOCA38088MGEMIS	Dosulepin  Capsules  25 mg (Sandoz)
+DOCA38089MGEMIS	Dosulepin  Capsules  25 mg (Generics (UK))
+DOCA38090MGEMIS	Dosulepin  Capsules  25 mg (Kent Pharm)
+DOCA976	Dothiepin Hydrochloride  Capsules  25 mg
+DOCA979	Doxepin  Capsules  10 mg
+DOCA980	Doxepin  Capsules  25 mg
+DOCA981	Doxepin  Capsules  50 mg
+DOCA982	Doxepin  Capsules  75 mg
+DOCR34072EMIS	Doxepin Hydrochloride  Cream  5 %
+DOOR11684NEMIS	Dothiepin Hydrochloride  Oral solution  25 mg/5 ml
+DOOR11685NEMIS	Dothiepin Hydrochloride  Oral solution  75 mg/5 ml
+DOOR17637NEMIS	Dosulepin  Oral solution  25 mg/5 ml
+DOOR17638NEMIS	Dosulepin  Oral solution  75 mg/5 ml
+DOOR35142NEMIS	Doxepin  Oral solution  50 mg/5 ml
+DOOR45624NEMIS	Dosulepin  Oral suspension  25 mg/5 ml
+DOOR46730NEMIS	Dosulepin  Oral suspension  75 mg/5 ml
+DOTA17636NEMIS	Dosulepin  Tablets  75 mg
+DOTA18848EMIS	Dothapax 75  Tablets  75 mg
+DOTA3462	Domical  Tablets  10 mg
+DOTA3463	Domical  Tablets  25 mg
+DOTA3464	Domical  Tablets  50 mg
+DOTA38091MGEMIS	Dosulepin  Tablets  75 mg (A.A.H. Pharm)
+DOTA38092MGEMIS	Dosulepin  Tablets  75 mg (Kent Pharm)
+DOTA38093MGEMIS	Dosulepin  Tablets  75 mg (Teva UK)
+DOTA38094MGEMIS	Dosulepin  Tablets  75 mg (Ivax Pharmaceuticals)
+DOTA38095MGEMIS	Dosulepin  Tablets  75 mg (Sandoz)
+DOTA38096MGEMIS	Dosulepin  Tablets  75 mg (Sterwin Medicines)
+DOTA38097MGEMIS	Dosulepin  Tablets  75 mg (Alpharma)
+DOTA38098MGEMIS	Dosulepin  Tablets  75 mg (Generics (UK))
+DOTA38099MGEMIS	Dosulepin  Tablets  75 mg (Unichem)
+DOTA977	Dothiepin Hydrochloride  Tablets  75 mg
+ELTA3500	Elavil  Tablets  10 mg
+ELTA3501	Elavil  Tablets  25 mg
+EVTA3554	Evadyne  Tablets  25 mg
+EVTA3555	Evadyne  Tablets  50 mg
+FEIN1163	Fentazin  Injection  5 mg/ml
+FETA1164	Fentazin  Tablets  2 mg
+FETA1165	Fentazin  Tablets  4 mg
+FETA1166	Fentazin  Tablets  8 mg
+FETA5656NEMIS	Feprapax  Tablets  70 mg
+GATA1273	Gamanil  Tablets  70 mg
+IMOR39476NEMIS	Imipramine  Oral solution  25 mg/5 ml
+IMOR40910NEMIS	Imipramine  Oral Solution, Sugar Free  25 mg/5 ml
+IMSY7192	Imipramine Hydrochloride  Syrup  25 mg/5 ml
+IMTA1443	Imipramine  Tablets  25 mg
+IMTA35536MGEMIS	Imipramine  Tablets  25 mg (The Boots Company)
+IMTA35537MGEMIS	Imipramine  Tablets  25 mg (A.A.H. Pharm)
+IMTA35538MGEMIS	Imipramine  Tablets  25 mg (Alpharma)
+IMTA35539MGEMIS	Imipramine  Tablets  25 mg (Kent Pharm)
+IMTA35540MGEMIS	Imipramine  Tablets  25 mg (Unichem)
+IMTA35541MGEMIS	Imipramine  Tablets  25 mg (Teva UK)
+IMTA35542MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+IMTA35543MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Alpharma)
+IMTA35544MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Unichem)
+IMTA35545MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Kent Pharm)
+IMTA35546MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Teva UK)
+IMTA5022	Imipramine Hydrochloride  Tablets  10 mg
+IPTA5038	Iprindole  Tablets  15 mg
+IPTA7050	Iprindole  Tablets  30 mg
+LECA1645	Lentizol  Capsules  25 mg
+LECA1646	Lentizol  Capsules  50 mg
+LOOR46778NEMIS	Lofepramine  Oral solution  70 mg/5 ml
+LOOR46779NEMIS	Lofepramine  Oral suspension  70 mg/5 ml
+LOSU30214EMIS	Lofepramine  Suspension  Sugar Free 70 mg/5 ml
+LOSU35810MGEMIS	Lofepramine  Suspension  Sugar Free 70 mg/5 ml (Unichem)
+LOSU3814NEMIS	Lomont  Suspension  70 mg/5 ml
+LOTA1684	Lofepramine  Tablets  70 mg
+LOTA35818MGEMIS	Lofepramine  Tablets  70 mg (Teva UK)
+LOTA35819MGEMIS	Lofepramine  Tablets  70 mg (Sterwin Medicines)
+LOTA35820MGEMIS	Lofepramine  Tablets  70 mg (A.A.H. Pharm)
+LOTA35821MGEMIS	Lofepramine  Tablets  70 mg (Alpharma)
+LOTA35822MGEMIS	Lofepramine  Tablets  70 mg (Unichem)
+LOTA35823MGEMIS	Lofepramine  Tablets  70 mg (Ivax Pharmaceuticals)
+LOTA35824MGEMIS	Lofepramine  Tablets  70 mg (Generics (UK))
+LOTA35825MGEMIS	Lofepramine  Tablets  70 mg (Kent Pharm)
+LOTA35826MGEMIS	Lofepramine  Tablets  70 mg (Sandoz)
+LUTA3851	Ludiomil  Tablets  10 mg
+LUTA3852	Ludiomil  Tablets  25 mg
+LUTA3853	Ludiomil  Tablets  50 mg
+LUTA3854	Ludiomil  Tablets  75 mg
+MATA5110	Maprotiline Hydrochloride  Tablets  10 mg
+MATA6967	Maprotiline Hydrochloride  Tablets  25 mg
+MATA6968	Maprotiline Hydrochloride  Tablets  50 mg
+MATA6969	Maprotiline Hydrochloride  Tablets  75 mg
+MITA138294NEMIS	Mianserin Hydrochloride (Imported)  Tablets  10 mg
+MITA138295NEMIS	Mianserin Hydrochloride (Imported)  Tablets  30 mg
+MITA1822	Mianserin Hydrochloride  Tablets  10 mg
+MITA1823	Mianserin Hydrochloride  Tablets  20 mg
+MITA1824	Mianserin Hydrochloride  Tablets  30 mg
+MITA36059MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Unichem)
+MITA36060MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Generics (UK))
+MITA36061MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+MITA36062MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+MITA36063MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Kent Pharm)
+MITA36064MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Alpharma)
+MITA36065MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Ivax Pharmaceuticals)
+MITA36066MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Unichem)
+MITA36067MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+MITA36068MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Generics (UK))
+MITA36069MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Kent Pharm)
+MITA36070MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Alpharma)
+MITA36071MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Ivax Pharmaceuticals)
+MITA36072MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (A.A.H. Pharm)
+MITA36073MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Unichem)
+MITA36074MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Kent Pharm)
+MITA36075MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Alpharma)
+MITA36076MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Generics (UK))
+MOCA1869	Molipaxin  Capsules  50 mg
+MOCA3965	Molipaxin  Capsules  100 mg
+MOLI1870	Molipaxin  Liquid  50 mg/5 ml
+MOM/19682EMIS	Molipaxin  M/R tablets  150 mg
+MOTA3966	Molipaxin  Tablets  150 mg
+MOTA3976	Motipress  Tablets  
+MOTA3978	Motival  Tablets  
+NOCA5213	Nortriptyline  Capsules  10 mg
+NOCA6793	Nortriptyline  Capsules  25 mg
+NOLI5214	Nortriptyline  Liquid  10mg/5 ml
+NOOR110033NEMIS	Nortriptyline  Oral solution  10 mg/5 ml
+NOOR122928NEMIS	Nortriptyline  Oral suspension  10 mg/5 ml
+NOOR134216NEMIS	Nortriptyline  Oral Solution, Sugar Free  10 mg/5 ml
+NOOR134217NEMIS	Nortriptyline  Oral Solution, Sugar Free  25 mg/5 ml
+NOTA123310NEMIS	Nortriptyline  Tablets  50 mg
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+NOTA5215	Nortriptyline  Tablets  10 mg
+NOTA6760	Nortriptyline  Tablets  25 mg
+PEIN2201	Perphenazine  Injection  5 mg/ml
+PETA2202	Perphenazine  Tablets  2 mg
+PETA2203	Perphenazine  Tablets  4 mg
+PETA2204	Perphenazine  Tablets  8 mg
+PETA4137	Pertofran  Tablets  25 mg
+PRCA2401	Prothiaden  Capsules  25 mg
+PRCA24260EMIS	Prepadine  Capsules  25 mg
+PRTA2402	Prothiaden  Tablets  75 mg
+PRTA2403	Protriptyline Hydrochloride  Tablets  10 mg
+PRTA2404	Protriptyline Hydrochloride  Tablets  5 mg
+PRTA24262EMIS	Prepadine  Tablets  75 mg
+PRTA4193	Praminil  Tablets  10 mg
+PRTA4194	Praminil  Tablets  25 mg
+PRTA4219	Prondol  Tablets  15 mg
+PRTA4220	Prondol  Tablets  30 mg
+SICA23696NEMIS	Sinepin  Capsules  25 mg
+SICA23698NEMIS	Sinepin  Capsules  50 mg
+SICA2575	Sinequan  Capsules  10 mg
+SICA2576	Sinequan  Capsules  25 mg
+SICA2577	Sinequan  Capsules  50 mg
+SICA2578	Sinequan  Capsules  75 mg
+SUCA2748	Surmontil  Capsules  50 mg
+SUTA2749	Surmontil  Tablets  10 mg
+SUTA2750	Surmontil  Tablets  25 mg
+TOSYEGTON7193	Tofranil  Syrup  25 mg/5 ml
+TOTA2874	Tofranil  Tablets  10 mg
+TOTA2875	Tofranil  Tablets  25 mg
+TRCA2900	Trazodone Hydrochloride  Capsules  50 mg
+TRCA2940	Trimipramine  Capsules  50 mg
+TRCA2948	Tryptizol  Capsules  75 mg
+TRCA37278MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Winthrop Pharmaceuticals )
+TRCA37279MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Generics (UK))
+TRCA37280MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Kent Pharm)
+TRCA37281MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Unichem)
+TRCA37282MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Teva UK)
+TRCA37283MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (A.A.H. Pharm)
+TRCA37284MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Ivax Pharmaceuticals)
+TRCA37285MGEMIS	Trimipramine  Capsules  50 mg (Kent Pharm)
+TRCA37286MGEMIS	Trimipramine  Capsules  50 mg (A.A.H. Pharm)
+TRCA37290MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Unichem)
+TRCA37291MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Winthrop Pharmaceuticals )
+TRCA37292MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (A.A.H. Pharm)
+TRCA37293MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Kent Pharm)
+TRCA37294MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Teva UK)
+TRCA37295MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Generics (UK))
+TRCA37296MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Ivax Pharmaceuticals)
+TRCA4508NEMIS	Tranquax  Capsules  10 mg
+TRCA4509NEMIS	Tranquax  Capsules  25 mg
+TRCA4510NEMIS	Tranquax  Capsules  50 mg
+TRCA5464	Trazodone Hydrochloride  Capsules  100 mg
+TRIN4466	Tryptizol  Injection  10mg/ml
+TRLI2901	Trazodone Hydrochloride  Oral Solution, Sugar Free  50 mg/5 ml
+TRM/19684EMIS	Trazodone Hydrochloride  M/R tablets  150 mg
+TRMI2949	Tryptizol  Mixture  10 mg/5 ml
+TROR125688NEMIS	Trazodone Hydrochloride  Oral Solution, Sugar Free  100 mg/5 ml
+TRTA135916NEMIS	Trazodone Hydrochloride  Tablets  50 mg
+TRTA135919NEMIS	Trazodone Hydrochloride  Tablets  100 mg
+TRTA2941	Trimipramine  Tablets  10 mg
+TRTA2942	Trimipramine  Tablets  25 mg
+TRTA2950	Tryptizol  Tablets  10 mg
+TRTA2951	Tryptizol  Tablets  25 mg
+TRTA2952	Tryptizol  Tablets  50 mg
+TRTA37334MGEMIS	Trimipramine  Tablets  10 mg (Kent Pharm)
+TRTA37335MGEMIS	Trimipramine  Tablets  10 mg (A.A.H. Pharm)
+TRTA37336MGEMIS	Trimipramine  Tablets  25 mg (Kent Pharm)
+TRTA37337MGEMIS	Trimipramine  Tablets  25 mg (A.A.H. Pharm)
+TRTA37345MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Kent Pharm)
+TRTA37346MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Winthrop Pharmaceuticals )
+TRTA37347MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Generics (UK))
+TRTA37348MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Unichem)
+TRTA37349MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Teva UK)
+TRTA37350MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (A.A.H. Pharm)
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  
+TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
+XECR34070EMIS	Xepin  Cream  5 %

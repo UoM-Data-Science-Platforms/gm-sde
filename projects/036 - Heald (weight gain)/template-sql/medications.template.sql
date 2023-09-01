@@ -18,6 +18,16 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 --> CODESET bipolar:2 schizophrenia-psychosis:2 history-of-bipolar:1 antipsychotics:1
 
 IF OBJECT_ID('tempdb..#CodeDescriptions') IS NOT NULL DROP TABLE #CodeDescriptions;
@@ -47,66 +57,75 @@ from SharedCare.Reference_SnomedCT where PK_Reference_SnomedCT_ID in (SELECT FK_
 --> CODESET zotepine:1 zuclopenthixol:1
 IF OBJECT_ID('tempdb..#BipolarPatients') IS NOT NULL DROP TABLE #BipolarPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstBipolarDate INTO #BipolarPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('bipolar') AND [Version]=2) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('bipolar') AND [Version]=2)
 )
 AND EventDate IS NOT NULL
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#PsychosisSchizoPatients') IS NOT NULL DROP TABLE #PsychosisSchizoPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstPsychosisSchizophreniaDate INTO #PsychosisSchizoPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2)
 )
 AND EventDate IS NOT NULL
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#BipolarHistoryPatients') IS NOT NULL DROP TABLE #BipolarHistoryPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstBipolarHistoryCode INTO #BipolarHistoryPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1)
 )
 AND EventDate IS NOT NULL
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#PsychSchizoHistoryPatients') IS NOT NULL DROP TABLE #PsychSchizoHistoryPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstPsychosisSchizophreniaHistoryCode INTO #PsychSchizoHistoryPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1)
 )
 AND EventDate IS NOT NULL
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 
 IF OBJECT_ID('tempdb..#AntipsycoticPatients') IS NOT NULL DROP TABLE #AntipsycoticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(MedicationDate AS DATE)) AS FirstAntipsycoticDate INTO #AntipsycoticPatients
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('amisulpride', 'aripiprazole', 'asenapine', 'chlorpromazine', 'clozapine', 'flupentixol', 'fluphenazine', 'haloperidol', 'levomepromazine', 'loxapine', 'lurasidone', 'olanzapine', 'paliperidone', 'perphenazine', 'pimozide', 'quetiapine', 'risperidone', 'sertindole', 'sulpiride', 'thioridazine', 'trifluoperazine', 'zotepine', 'zuclopenthixol') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('amisulpride', 'aripiprazole', 'asenapine', 'chlorpromazine', 'clozapine', 'flupentixol', 'fluphenazine', 'haloperidol', 'levomepromazine', 'loxapine', 'lurasidone', 'olanzapine', 'paliperidone', 'perphenazine', 'pimozide', 'quetiapine', 'risperidone', 'sertindole', 'sulpiride', 'thioridazine', 'trifluoperazine', 'zotepine', 'zuclopenthixol') AND [Version]=1)
 )
 AND MedicationDate IS NOT NULL
+AND MedicationDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 -- Table of all patients with SMI or antipsycotic
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarPatients
-UNION
-SELECT FK_Patient_Link_ID FROM #BipolarHistoryPatients
-UNION
-SELECT FK_Patient_Link_ID FROM #PsychosisSchizoPatients
-UNION
-SELECT FK_Patient_Link_ID FROM #PsychSchizoHistoryPatients
-UNION
-SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients;
+(
+  SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarPatients
+  UNION
+  SELECT FK_Patient_Link_ID FROM #BipolarHistoryPatients
+  UNION
+  SELECT FK_Patient_Link_ID FROM #PsychosisSchizoPatients
+  UNION
+  SELECT FK_Patient_Link_ID FROM #PsychSchizoHistoryPatients
+  UNION
+  SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients
+)
+INTERSECT
+SELECT FK_Patient_Link_ID FROM #PatientsToInclude;
 
 -- First lets get all the medications in one place to improve query speed later on
 IF OBJECT_ID('tempdb..#allMedications') IS NOT NULL DROP TABLE #allMedications;
@@ -119,9 +138,10 @@ SELECT
 	Dosage,
 	FK_Reference_Coding_ID
 INTO #allMedications
-FROM RLS.vw_GP_Medications m
+FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #CodeDescriptions d on d.PK_Reference_Coding_ID = FK_Reference_Coding_ID
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+AND MedicationDate < '2022-06-01'
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Get all medications for the cohort

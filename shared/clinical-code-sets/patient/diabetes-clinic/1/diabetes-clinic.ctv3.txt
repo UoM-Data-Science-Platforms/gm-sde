@@ -1,0 +1,11 @@
+9OL..	Diabetes clinic administration
+9OLZ.	Diabetes monitoring admin.NOS
+XaE46	Referral to diabetes nurse
+XaJYg	Diabetes clinical management plan
+XaKaM	Seen in community diabetes specialist clinic
+XaKGy	Referral to diabetes structured education programme
+XaMhQ	Referral to community diabetes specialist nurse
+XaYaB	Referral to community diabetes service
+XaZRZ	Referral to community diabetes clinic
+XE2Nd	Diabetes monitoring admin.
+XM1Rs	Diabetes clinic administration

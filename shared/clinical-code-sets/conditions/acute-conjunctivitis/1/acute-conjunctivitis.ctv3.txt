@@ -1,0 +1,16 @@
+A774.	Acute haemorrhagic conjunctivitis
+F4C01	Serous conjunctivitis
+F4C02	Acute follicular conjunctivitis
+F4C04	Catarrhal conjunctivitis
+F4C06	Acute atopic conjunctivitis
+F4C0z	Acute conjunctivitis NOS
+FyuC0	[X]Other acute conjunctivitis
+XE16X	Acute conjunctivitis
+XE16Y	Unspecified acute conjunctivitis
+XE16Z	Acute mucopurulent conjunctivitis
+XE16a	Pseudomembranous conjunctivitis
+Xa01u	Acute adenoviral follicular conjunctivitis
+F4C0.	Acute conjunctivitis
+F4C00	Unspecified acute conjunctivitis
+F4C03	Acute mucopurulent conjunctivitis
+XE19F	Acute conjunctivitis

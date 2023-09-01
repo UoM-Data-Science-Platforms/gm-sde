@@ -1,0 +1,76 @@
+14A3.	H/O: myocardial infarct at less than 60
+14A4.	H/O: myocardial infarct at greater than 60
+323..	ECG: myocardial infarction
+3232.	ECG: old myocardial infarction
+3233.	ECG: anteroseptal infarction
+3234.	ECG:posterior/inferior infarct
+3235.	ECG: subendocardial infarct
+3236.	ECG: lateral infarction
+323Z.	ECG: myocardial infarct NOS
+32B..	Q wave
+32B2.	ECG: Q wave abnormal
+32B3.	Pathological Q wave
+32BZ.	ECG: Q wave NOS
+79291	Percut transluminal coronary thrombolysis with streptokinase
+G30..	(Myocard inf (& [ac][silent][card rupt])) or (coron thromb)
+G300.	Acute anterolateral myocardial infarction
+G301.	Other specified anterior myocardial infarction
+G3010	Acute anteroapical infarction
+G3011	Acute anteroseptal myocardial infarction
+G301z	Anterior myocardial infarction NOS
+G302.	Acute inferolateral myocardial infarction
+G303.	Acute inferoposterior infarction
+G304.	Posterior myocardial infarction NOS
+G305.	Lateral myocardial infarction NOS
+G306.	True posterior myocardial infarction
+G307.	Acute subendocardial infarction
+G308.	Inferior myocardial infarction NOS
+G30y.	Other acute myocardial infarction
+G30y0	Acute atrial infarction
+G30y1	Acute papillary muscle infarction
+G30y2	Acute septal infarction
+G30yz	Other acute myocardial infarction NOS
+G30z.	Acute myocardial infarction NOS
+G310.	Post-myocardial infarction syndrome
+G3110	Aborted myocardial infarction
+G31y1	Microinfarction of heart
+G32..	Myocard infarct: [old] or [healed] or [personal history of]
+G35..	Subsequent myocardial infarction
+G350.	Subsequent myocardial infarction of anterior wall
+G351.	Subsequent myocardial infarction of inferior wall
+G353.	Subsequent myocardial infarction of other sites
+G36..	Certain current complication follow acute myocardial infarct
+G360.	Haemopericardium/current comp folow acut myocard infarct
+G361.	Atrial septal defect/curr comp folow acut myocardal infarct
+G363.	Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI
+G364.	Ruptur chordae tendinae/curr comp fol acute myocard infarct
+G365.	Rupture papillary muscle/curr comp fol acute myocard infarct
+G366.	Thrombosis atrium,auric append&vent/curr comp foll acute MI
+Gyu31	[X]Other current complicatns following acute myocard infarct
+Gyu34	[X]Acute transmural myocardial infarction of unspecif site
+Gyu35	[X]Subsequent myocardial infarction of other sites
+Gyu36	[X]Subsequent myocardial infarction of unspecified site
+
+
+
+14AH.00	H/O: Myocardial infarction in last year
+14AT.00	History of myocardial infarction
+889A.00	Diabetes mellitus insulin-glucose infusion in acute myocardial infarction
+G307000	Acute non-Q wave infarction
+G307100	Acute non-ST segment elevation myocardial infarction
+G309.00	Acute Q-wave infarct
+G30B.00	Acute posterolateral myocardial infarction
+G30X.00	Acute transmural myocardial infarction of unspecified site
+G30X000	Acute ST segment elevation myocardial infarction
+G33z500	Post infarct angina
+G344.00	Silent myocardial ischaemia
+G35X.00	Subsequent myocardial infarction of unspecified site
+G362.00	Ventricular septal defect as current complication following acute myocardial infarction
+G38..00	Postoperative myocardial infarction
+G380.00	Postoperative transmural myocardial infarction of anterior wall
+G381.00	Postoperative transmural myocardial infarction of inferior wall
+G382.00	Postoperative transmural myocardial infarction of other sites
+G383.00	Postoperative transmural myocardial infarction of unspecified site
+G384.00	Postoperative subendocardial myocardial infarction
+G38z.00	Postoperative myocardial infarction, unspecified
+G501.00	Post infarction pericarditis

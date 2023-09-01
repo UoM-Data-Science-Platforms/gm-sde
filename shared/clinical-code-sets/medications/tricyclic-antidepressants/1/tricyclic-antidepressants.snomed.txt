@@ -1747,3 +1747,8 @@
 441539007	Lofepramine hydrochloride (substance)
 734496007	Trimipramine mesylate
 387229007	Perphenazine
+115544001	Butriptyline product
+386997004	Butriptyline
+3680311000001100	Fentazin 2mg tablets (Goldshield Healthcare Ltd) (product)
+3680911000001104	Fentazin 4mg tablets (Goldshield Healthcare Ltd) (product)
+3762111000001105	Xepin 5% cream (Cambridge Healthcare supplies Ltd) (product)

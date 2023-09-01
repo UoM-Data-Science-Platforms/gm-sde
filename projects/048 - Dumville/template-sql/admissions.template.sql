@@ -23,13 +23,7 @@ SET @StartDate = '2020-01-01';
 DECLARE @EndDate datetime;
 SET @EndDate = '2022-07-01';
 
--- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
-
--- Table of all patients (not matching cohort - will do that subsequently)
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
-WHERE AdmissionDate < @EndDate
-AND (DischargeDate IS NULL OR DischargeDate < @EndDate);
+--> EXECUTE query-build-rq048-cohort.sql
 
 --> EXECUTE query-classify-secondary-admissions.sql
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
@@ -38,8 +32,9 @@ SELECT
   o.FK_Patient_Link_ID AS PatientId,
   admit.AdmissionDate,
   los.DischargeDate,
-  admit.AdmissionType AS [Status]
-FROM #OxAtHome o
+  admit.AdmissionType AS [Status],
+  admit.AcuteProvider
+FROM #Patients o
 LEFT OUTER JOIN #AdmissionTypes admit ON admit.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 LEFT OUTER JOIN #LengthOfStay los 
   ON los.FK_Patient_Link_ID = o.FK_Patient_Link_ID

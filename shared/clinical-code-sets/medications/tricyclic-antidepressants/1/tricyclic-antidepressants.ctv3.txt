@@ -179,3 +179,58 @@ x02nL	Pertofran
 x02tX	Tryptizol
 x02hL	Lentizol
 x02b4	Elavil
+d72..	Butriptyline
+d72z.	Butriptyline 50mg tablet
+d722.	Evadyne 50mg tablet
+d72y.	Butriptyline 25mg tablet
+d721.	Evadyne 25mg tablet
+d7a1.	Ludiomil 10mg tablet
+d7a1.	Ludiomil 10mg tablet
+d7a2.	Ludiomil 25mg tablet
+d7a2.	Ludiomil 25mg tablet
+d7a3.	Ludiomil 50mg tablet
+d7a3.	Ludiomil 50mg tablet
+d7a4.	Ludiomil 75mg tablets x28CP
+d7a4.	Ludiomil 75mg tablets x28CP
+d7aw.	Maprotiline hydrochloride 10mg tablet
+d7aw.	Maprotiline hydrochloride 10mg tablet
+d7ax.	Maprotiline hydrochloride 25mg tablet
+d7ax.	Maprotiline hydrochloride 25mg tablet
+d7ay.	Maprotiline hydrochloride 50mg tablet
+d7ay.	Maprotiline hydrochloride 50mg tablet
+d7az.	Maprotiline hydrochloride 75mg tablet
+d7az.	Maprotiline hydrochloride 75mg tablet
+d7b1.	Mianserin hydrochloride 10mg tablet
+d7b1.	Mianserin hydrochloride 10mg tablet
+d7b2.	Mianserin hydrochloride 20mg tablet
+d7b2.	Mianserin hydrochloride 20mg tablet
+d7b3.	Mianserin hydrochloride 30mg tablet
+d7b3.	Mianserin hydrochloride 30mg tablet
+d7e1.	Molipaxin 50mg capsules x84CP
+d7e1.	Molipaxin 50mg capsules x84CP
+d7e2.	Molipaxin 100mg capsules x56CP
+d7e2.	Molipaxin 100mg capsules x56CP
+d7e3.	Molipaxin 50mg/5mL liquid
+d7e3.	Molipaxin 50mg/5mL liquid
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e5.	Trazodone hydrochloride 150mg tablet
+d7e5.	Trazodone hydrochloride 150mg tablet
+d7e6.	Molipaxin CR 150mg m/r tablets x28
+d7e6.	Molipaxin CR 150mg m/r tablets x28
+d7e7.	Trazodone hydrochloride 150mg m/r tablet
+d7e7.	Trazodone hydrochloride 150mg m/r tablet
+d7ew.	Trazodone hydrochloride 100mg capsule
+d7ew.	Trazodone hydrochloride 100mg capsule
+d7ex.	Trazodone hydrochloride 50mg capsule
+d7ex.	Trazodone hydrochloride 50mg capsule
+d7ez.	Trazodone hydrochloride 50mg/5mL liquid
+d7ez.	Trazodone hydrochloride 50mg/5mL liquid
+d7h2.	Amoxapine 50mg tablet
+d7h2.	Amoxapine 50mg tablet
+d7h3.	Amoxapine 100mg tablet
+d7h3.	Amoxapine 100mg tablet
+d7h6.	Asendis 50mg tablet
+d7h6.	Asendis 50mg tablet
+d7h7.	Asendis 100mg tablet
+d7h7.	Asendis 100mg tablet

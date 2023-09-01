@@ -21,22 +21,6 @@ SET @EndDate = '2022-03-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
--- DEFINE COHORT
 --> EXECUTE query-build-rq041-cohort.sql
 
 ---------------------------------------------------------------------------------------------------------
@@ -45,8 +29,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- LOAD CODESETS FOR OBSERVATIONS WITH A VALUE (EXCEPT THOSE ALREADY LOADED AT START OF SCRIPT)
 
---> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1 bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 
---> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urine-protein-creatinine-ratio:1
+--> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1 bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 haematocrit:1
+--> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urine-protein-creatinine-ratio:1 urinary-albumin-creatinine-ratio:1
 --> CODESET alanine-aminotransferase:1 albumin:1 alkaline-phosphatase:1 total-bilirubin:1 gamma-glutamyl-transferase:1
 --> CODESET cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 urine-blood:1  
 
@@ -91,7 +75,7 @@ SELECT DISTINCT
 	,TestDate = o.EventDate
 	,TestResult = TRY_CONVERT(NUMERIC (18,5), [Value]) -- convert to numeric so no text can appear.
 	,TestUnit = o.[Units]
-FROM #observations o
+FROM #all_observations o
 WHERE 
 	[Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
 	AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- REMOVES ANY TEXT VALUES

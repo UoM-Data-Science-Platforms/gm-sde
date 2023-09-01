@@ -1,0 +1,10 @@
+8CR2.	Diabetes clinical management plan
+8H7f.	Referral to diabetes nurse
+8Hj0.	Referral to diabetes structured education programme
+8Hl4.	Referral to community diabetes specialist nurse
+8Hlc.	Referral to community diabetes service
+8HTE1	Referral to community diabetes clinic
+9N0n.	Seen in community diabetes specialist clinic
+9OL..	Diabetes clinic administration
+9OLZ.	Diabetes monitoring admin.NOS
+9OLZ.00	Diabetes monitoring admin.NOS

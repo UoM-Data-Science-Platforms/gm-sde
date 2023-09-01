@@ -1,0 +1,9 @@
+h42..	Vinblastine sulphate
+h421.	Vinblastine 10mg injection
+h422.	Velbe 10mg injection (pdr for recon)+diluent
+h423.	Vinblastine sulphate 10mg injection (pdr for recon)+diluent
+h424.	Vinblastine sulphate 10mg/10mL injection
+x00Pu	Vinblastine sulphate 30mg/30mL infusion
+x00Pv	Vinblastine sulphate 50mg/50mL infusion
+x01Aj	Vinblastine
+x02uA	Velbe

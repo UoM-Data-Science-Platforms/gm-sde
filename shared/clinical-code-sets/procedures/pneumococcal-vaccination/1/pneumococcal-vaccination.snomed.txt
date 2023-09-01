@@ -1,0 +1,9 @@
+12866006	Pneumococcal vaccination (procedure)
+394678003	Booster pneumococcal vaccination
+820741000000108	Supplemental pneumococcal conjugated vaccination
+247631000000101	First pneumococcal conjugated vaccination
+247641000000105	Second pneumococcal conjugated vaccination
+247651000000108	Third pneumococcal conjugated vaccination
+43961000119109	Pneumococcal 7-valent conjugate vaccination given
+310578008	Pneumococcal vaccination given (finding)
+382551000000109	Pneumococcal vaccination given by other healthcare provider

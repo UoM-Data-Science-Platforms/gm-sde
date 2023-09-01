@@ -1,0 +1,6 @@
+13G8.	Domiciliary chiropody
+9N08.	Seen in chiropody clinic
+9N1y7	Seen in chiropody clinic
+9N2Q.	Seen by podiatrist
+M20..	Corns and callosities
+M2000	Hard corn

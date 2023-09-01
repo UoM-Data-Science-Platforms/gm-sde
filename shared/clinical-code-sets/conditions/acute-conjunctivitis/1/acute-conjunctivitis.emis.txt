@@ -1,0 +1,11 @@
+^ESCT1405571	Pink eye disease
+^ESCTAC254946	Acute adenoviral follicular conjunctivitis
+^ESCTAC360066	Acute allergic conjunctivitis
+^ESCTAN360064	Angelucci's syndrome
+^ESCTAP660110	Apollo conjunctivitis
+^ESCTAP660111	Apollo disease
+^ESCTCO316566	Conjunctival folliculosis
+^ESCTCR360065	Critical allergic conjunctivitis syndrome
+^ESCTEH660108	EHC - Epidemic haemorrhagic conjunctivitis
+^ESCTEH660109	EHC - Epidemic hemorrhagic conjunctivitis
+^ESCTEP660107	Epidemic hemorrhagic conjunctivitis

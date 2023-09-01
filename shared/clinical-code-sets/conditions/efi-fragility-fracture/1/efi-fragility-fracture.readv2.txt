@@ -1,0 +1,100 @@
+14G6.	H/O: fragility fracture
+14G7.	H/O: hip fracture
+14G8.	H/O: vertebral fracture
+7K1D0	Pry op red+int fxn prx fem #+
+7K1D6	Pry opn red+int fxn prx fem #+
+7K1H6	Rv op rd+int fxn prx fem #+scw
+7K1H8	Rv op rd+int fxn prx fem #+scw
+7K1J0	Cl rd+int fx prx fem #+scrw
+7K1J6	Py int fx(no rd)prx fem #+scw
+7K1J8	Rv int fxn(no rd)prx fem #+scw
+7K1JB	Pry cls rd+int fx prx fem #+sc
+7K1JD	Pry cls rd+int fx prx fem #+sc
+7K1Jd	Cl red intrac # NOF in fix DHS
+7K1L4	Closed reduction # hip
+7K1LL	Closed reduction # radius/ulna
+7K1Y0	Re intra fr nck fe fi us nl sc
+N1y1.	Fatigue fracture of vertebra
+N331.	Pathological fracture
+N3311	Pathological # - lumbar vert.
+N331A	Osteopor path # cerv vertebrae
+N331D	Collapsed vertebra NOS
+N331G	Collapse of lumbar vertebra
+N331H	Collap cerv vert due to osteop
+N331J	Collap lumb vert due to osteo
+N331K	Coll thorac vert due osteopor
+N331L	Collap vert due osteopor NOS
+N331M	Fragility # unsp osteoporosis
+N331N	Fragility fracture
+NyuB0	[X]Oth osteoporosis+patholog #
+S10..	#Spine - no cord lesion
+S1000	Clsd # unsp cerv vertebra
+S1005	Clsd # fifth cerv vertebra
+S1006	Clsd # sixth cerv vertebra
+S1007	Clsd # seventh cerv vertebra
+S100H	Clsd # cerv vert, wedge
+S100K	Cls # cerv vert, spinous prcss
+S102.	Clsd # thoracic vertebra
+S1020	Clsd # thoracic vert, burst
+S1021	Clsd # thoracic vert, wedge
+S102y	Othr spec clsd # thorac vert
+S102z	Clsd # thorac vert NOS
+S1031	Open # thorac vert, wedge
+S104.	Clsd # lumbar vert
+S1040	Clsd # lumbar vert, burst
+S1041	Clsd # lumbar vert, wedge
+S1042	Cls # lumbr vert-spondylolysis
+S10A0	Fracture/1st cervical vertebra
+S10B.	Fracture/lumbar spine+pelvis
+S10B0	Fracture of lumbar vertebra
+S10B6	Mult fractur/lumbar spine+pelv
+S112.	Closed thoracic #+cord lesion
+S114.	Closed lumbar # + cord lesion
+S1145	Cls spn # + cauda equina lesn
+S15..	Fracture of thoracic vertebra
+S150.	Multi fractures/thoracic spine
+S1500	Cl multi fractur of thor spine
+S23..	#Radius and ulna
+S234.	Closed #radius/ulna-lower end
+S2341	Closed Colles' fracture
+S2346	Clsd # radius+ulna, distal
+S2351	Open Colles' fracture
+S23B.	Fracture / lower end of radius
+S23C.	Fractr/lw end/both ulna+radius
+S23x1	Closed #radius alone unspecif.
+S23y.	Open #radius/ulna unspecified
+S3...	Fracture of lower limb
+S30..	#Neck of femur
+S300.	Cls # prox femur,transcerv
+S3000	Cl # prx fem,intrcp sctn,unsp
+S3001	Cls # prox fmur,transepiphys
+S3004	Closed fracture head of femur
+S3005	Cl # prx fem,sbcp,Gdn grd unsp
+S3006	Cl # prx fem,sbcap,Gdn grd I
+S3007	Cl # prx fem,sbcap,Gdn grd II
+S3009	Cl # prx fem,sbcap,Gdn grd IV
+S300y	Cls # prox fmur,othr transcerv
+S300z	Cls # prox fmur,transcerv NOS
+S3010	Op # prox fem,intcap sctn,unsp
+S3015	Op # prx fem subcap,Gdn gd uns
+S302.	Cls # prox femur,pertrochntrc
+S3020	Cl # prx fem-trchntrc sct unsp
+S3021	Cl # prx fem-intrtrchntrc-2 pt
+S3022	Cls # prox fmur-subtrchntrc
+S3023	Cl # prx fem-intertroch-commin
+S3024	Closed # femur, intertrochant
+S302z	Cl # prx fem-prtrchntr sct NOS
+S303.	Op # prox fem,pertrochanteric
+S3030	Op # prx fem,trchntrc sct,unsp
+S3032	Opn # prox fmur-subtrochntrc
+S3034	Open # femur, intertrochant
+S304.	Pertrochanteric fracture
+S305.	Subtrochanteric fracture
+S30y.	Closed #neck of femur NOS
+S30z.	Open #neck of femur NOS
+S31z.	#Femur NOS
+S4500	Cls trmtc dslctn hip, unsp
+S4E..	#-dslc/subluxation hip
+S4E0.	Closed #-dslc, hip joint
+S4E1.	Open #-dslc, hip joint
+S4E2.	Closed #-sublux, hip joint

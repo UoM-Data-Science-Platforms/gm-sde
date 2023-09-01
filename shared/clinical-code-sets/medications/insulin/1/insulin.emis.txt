@@ -399,3 +399,5 @@ KESY78712NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 
 MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
 NORE31135NEMIS	Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units
 SQDE21599NEMIS	Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004
+FISO122085NEMIS	Fiasp Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+FISO122084NEMIS	Fiasp  Solution for injection  100 units/ml, 10 ml vial

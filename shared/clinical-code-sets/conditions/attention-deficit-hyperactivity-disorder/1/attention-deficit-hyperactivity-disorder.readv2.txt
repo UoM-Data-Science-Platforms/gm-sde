@@ -9,3 +9,20 @@
 9Ol8.00	Attention deficit hyperactivity disorder monitoring invitation first letter
 Eu90011	[X]Attention deficit hyperactivity disorder
 6A61.00	Attention deficit hyperactivity disorder annual review
+E2E..	Childhood hyperkinetic syndrome
+E2E..00	Childhood hyperkinetic syndrome
+E2E..11	Overactive child syndrome
+E2Ey.	Other hyperkinetic manifestation
+E2Ey.00	Other hyperkinetic manifestation
+E2Ez.	Hyperkinetic syndrome NOS
+E2Ez.00	Hyperkinetic syndrome NOS
+Eu90.	[X]Hyperkinetic disorders
+Eu90.00	[X]Hyperkinetic disorders
+Eu90y	[X]Other hyperkinetic disorders
+Eu90y00	[X]Other hyperkinetic disorders
+Eu90z	[X]Hyperkinetic disorder, unspecified
+Eu90z00	[X]Hyperkinetic disorder, unspecified
+Eu90z11	[X]Hyperkinetic reaction of childhood or adolescence NOS
+Eu90z12	[X]Hyperkinetic syndrome NOS
+Eu9y7	[X]Attention deficit disorder
+Eu9y700	[X]Attention deficit disorder

@@ -124,14 +124,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>COVID vaccinations</li>
+<li>Long-term condition groups per patient at an index date</li>
+<li>undefined</li>
+<li>Secondary admissions and length of stay</li>
+<li>Secondary discharges</li>
+<li>Classify secondary admissions</li>
+<li>Define Cohort for RQ048: Oximetry@Home</li>
+<li>Cohort matching on year of birth / sex / imd / and an index date</li>
 <li>Index Multiple Deprivation</li>
 <li>Lower level super output area</li>
 <li>Sex</li>
 <li>Year of birth</li>
 <li>Patients with COVID</li>
-<li>Secondary admissions and length of stay</li>
-<li>Secondary discharges</li>
-<li>Classify secondary admissions</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>COVID vaccinations</h3>
@@ -160,6 +164,158 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
+<hr>
+<h3>Long-term condition groups per patient at an index date</h3>
+<p>To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory Provides Y/N flag for each condition at some index date unique to each person.</p>
+<p><em>Input</em></p>
+<pre><code>Takes two parameters
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is &quot;SharedCare.GP_Medications&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID and FK_Reference_SnomedCT_ID
+  Assumes there exists a temp table as follows:
+    #PatientsWithIndexDates  (FK_Patient_Link_ID, IndexDate)
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient and 40 Y/N columns
+ #LTCOnIndexDate (PatientId, HasCOPD, HasAsthma, Has...)
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-at-index-date-without-code-sets.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-at-index-date-without-code-sets.sql">https://github.com/rw251/.../query-patient-ltcs-at-index-date-without-code-sets.sql</a></p>
+<hr>
+<h3>undefined</h3>
+<p>undefined</p>
+<p><em>Input</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-code-sets.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-code-sets.sql">https://github.com/rw251/.../query-patient-ltcs-code-sets.sql</a></p>
+<hr>
+<h3>Secondary admissions and length of stay</h3>
+<p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+</code></pre>
+<p><em>File</em>: <code>query-get-admissions-and-length-of-stay.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql">https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql</a></p>
+<hr>
+<h3>Secondary discharges</h3>
+<p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+</code></pre>
+<p><em>File</em>: <code>query-get-discharges.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
+<hr>
+<h3>Classify secondary admissions</h3>
+<p>To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.</li>
+<li>Where patients have multiple admissions we choose the &quot;highest&quot; category for admission with the categories ranked as follows: Maternity &gt; Unplanned &gt; Planned &gt; Transfer &gt; Unknown</li>
+<li>We have used the following classifications based on the AdmissionTypeCode:
+<ul>
+<li>PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)</li>
+<li>UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&amp;E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&amp;E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)</li>
+<li>MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)</li>
+<li>TRANSFER: 81 (Transfer from other hosp (not A&amp;E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)</li>
+<li>OTHER: Anything else not previously classified</li>
+</ul>
+</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>No pre-requisites
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+</code></pre>
+<p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
+<hr>
+<h3>Define Cohort for RQ048: Oximetry@Home</h3>
+<p>To build the cohort of patients needed for RQ048. This reduces duplication of code in the template scripts. The cohort is any patient who was recruited into the Oximetry@Home programme. This script also builds the matched cohort.</p>
+<p><em>Input</em></p>
+<pre><code>None
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Temp tables as follows:
+ #Patients - list of patient ids of the cohort and matched cohort
+ #MainCohort - patient attributes for the ox@home patients
+ #CohortStore - output from the cohort matching
+ #OximmetryPatients - deduplicated version of the oximetry@home patients
+</code></pre>
+<p><em>File</em>: <code>query-build-rq048-cohort.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq048-cohort.sql">https://github.com/rw251/.../query-build-rq048-cohort.sql</a></p>
+<hr>
+<h3>Cohort matching on year of birth / sex / imd / and an index date</h3>
+<p>To take a primary cohort and find a 1:n matched cohort based on year of birth, sex, imd, and an index date of an event.</p>
+<p><em>Input</em></p>
+<pre><code>Takes two parameters
+  - yob-flex: integer - number of years each way that still allow a year of birth match
+  - index-date-flex: integer - number of days either side of the index date that we allow matching
+  - num-matches: integer - number of matches for each patient in the cohort
+ Requires two temp tables to exist as follows:
+ #MainCohort (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth,IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+ #PotentialMatches (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth, IMD2019Quintile1IsMostDeprived5IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - Integer 1-5
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, IndexDate, MatchingPatientId, MatchingYearOfBirth, MatchingIndexDate)
+  - FK_Patient_Link_ID - unique patient id for primary cohort patient
+  - YearOfBirth - of the primary cohort patient
+  - Sex - of the primary cohort patient
+  - IMD2019Quintile1IsMostDeprived5IsLeastDeprived - of the primary cohort patient
+  - IndexDate - date of event of interest (YYYY-MM-DD)
+  - MatchingPatientId - id of the matched patient
+  - MatchingYearOfBirth - year of birth of the matched patient
+  - MatchingIndexDate - index date for the matched patient
+</code></pre>
+<p><em>File</em>: <code>query-cohort-matching-yob-sex-imd-index-date.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-imd-index-date.sql">https://github.com/rw251/.../query-cohort-matching-yob-sex-imd-index-date.sql</a></p>
 <hr>
 <h3>Index Multiple Deprivation</h3>
 <p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
@@ -255,7 +411,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -275,80 +431,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
-<hr>
-<h3>Secondary admissions and length of stay</h3>
-<p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
-<p><em>Input</em></p>
-<pre><code>One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-</code></pre>
-<p><em>File</em>: <code>query-get-admissions-and-length-of-stay.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql">https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql</a></p>
-<hr>
-<h3>Secondary discharges</h3>
-<p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
-<p><em>Input</em></p>
-<pre><code>One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
-</code></pre>
-<p><em>File</em>: <code>query-get-discharges.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
-<hr>
-<h3>Classify secondary admissions</h3>
-<p>To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.</li>
-<li>Where patients have multiple admissions we choose the &quot;highest&quot; category for admission with the categories ranked as follows: Maternity &gt; Unplanned &gt; Planned &gt; Transfer &gt; Unknown</li>
-<li>We have used the following classifications based on the AdmissionTypeCode:
-<ul>
-<li>PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)</li>
-<li>UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&amp;E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&amp;E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)</li>
-<li>MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)</li>
-<li>TRANSFER: 81 (Transfer from other hosp (not A&amp;E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)</li>
-<li>OTHER: Anything else not previously classified</li>
-</ul>
-</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>No pre-requisites
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
-</code></pre>
-<p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
@@ -601,658 +683,4 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
 <h1>Clinical code sets</h1>
-<p>All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.</p>
-<table>
-<thead>
-<tr>
-<th>Clinical concept</th>
-<th>Terminology</th>
-<th>Code</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>covid-positive-antigen-test v1</td>
-<td>ctv3</td>
-<td>Y269d</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-antigen-test v1</td>
-<td>ctv3</td>
-<td>43kB1</td>
-<td>SARS-CoV-2 antigen positive</td>
-</tr>
-<tr>
-<td>covid-positive-antigen-test v1</td>
-<td>emis</td>
-<td>^ESCT1305304</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-antigen-test v1</td>
-<td>emis</td>
-<td>^ESCT1348538</td>
-<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen</td>
-</tr>
-<tr>
-<td>covid-positive-antigen-test v1</td>
-<td>readv2</td>
-<td>43kB1</td>
-<td>SARS-CoV-2 antigen positive</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>4J3R6</td>
-<td>SARS-CoV-2 RNA pos lim detect</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>Y240b</td>
-<td>Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>Y2a3b</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>A7952</td>
-<td>COVID-19 confirmed by laboratory test</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>Y228d</td>
-<td>Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>Y210e</td>
-<td>Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>43hF.</td>
-<td>Detection of SARS-CoV-2 by PCR</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>ctv3</td>
-<td>Y2a3d</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1305238</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1348314</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1305235</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1300228</td>
-<td>COVID-19 confirmed by laboratory test GP COVID-19</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1348316</td>
-<td>2019-nCoV (novel coronavirus) ribonucleic acid detected</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1301223</td>
-<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1348359</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1299053</td>
-<td>Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1300228</td>
-<td>COVID-19 confirmed by laboratory test</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>emis</td>
-<td>^ESCT1348359</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>readv2</td>
-<td>4J3R6</td>
-<td>SARS-CoV-2 RNA pos lim detect</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>readv2</td>
-<td>A7952</td>
-<td>COVID-19 confirmed by laboratory test</td>
-</tr>
-<tr>
-<td>covid-positive-pcr-test v1</td>
-<td>readv2</td>
-<td>43hF.</td>
-<td>Detection of SARS-CoV-2 by PCR</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>ctv3</td>
-<td>4J3R1</td>
-<td>2019-nCoV (novel coronavirus) detected</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>ctv3</td>
-<td>Y20d1</td>
-<td>Confirmed 2019-nCov (Wuhan) infection</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>ctv3</td>
-<td>Y23f7</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1303928</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1299074</td>
-<td>2019-nCoV (novel coronavirus) detected</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1301230</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>EMISNQCO303</td>
-<td>Confirmed 2019-nCoV (Wuhan) infectio</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1299075</td>
-<td>Wuhan 2019-nCoV (novel coronavirus) detected</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1300229</td>
-<td>COVID-19 confirmed using clinical diagnostic criteria</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1348575</td>
-<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1299074</td>
-<td>2019-nCoV (novel coronavirus) detected</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1300229</td>
-<td>COVID-19 confirmed using clinical diagnostic criteria</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>EMISNQCO303</td>
-<td>Confirmed 2019-nCoV (novel coronavirus) infection</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>EMISNQCO303</td>
-<td>Confirmed 2019-nCoV (novel coronavirus) infection</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>emis</td>
-<td>^ESCT1348575</td>
-<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)</td>
-</tr>
-<tr>
-<td>covid-positive-test-other v1</td>
-<td>readv2</td>
-<td>4J3R1</td>
-<td>2019-nCoV (novel coronavirus) detected</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y210d</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y29e7</td>
-<td>Administration of first dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y29e8</td>
-<td>Administration of second dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a0e</td>
-<td>SARS-2 Coronavirus vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a0f</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a3a</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>65F06</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>65F09</td>
-<td>Administration of third dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>65F0A</td>
-<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>9bJ..</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a10</td>
-<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a39</td>
-<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2b9d</td>
-<td>COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2f45</td>
-<td>Administration of third dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2f48</td>
-<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2f57</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y31cc</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y31e6</td>
-<td>Administration of SARS-CoV-2 mRNA vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y31e7</td>
-<td>Administration of first dose of SARS-CoV-2 mRNA vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y31e8</td>
-<td>Administration of second dose of SARS-CoV-2 mRNA vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348323</td>
-<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348324</td>
-<td>Administration of first dose of 2019-nCoV (novel coronavirus) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COCO138186NEMIS</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348325</td>
-<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348326</td>
-<td>Administration of second dose of 2019-nCoV (novel coronavirus) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1428354</td>
-<td>Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1428342</td>
-<td>Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1428348</td>
-<td>Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348298</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348301</td>
-<td>COVID-19 vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1299050</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1301222</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>CODI138564NEMIS</td>
-<td>Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>TASO138184NEMIS</td>
-<td>Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT18491_1375</td>
-<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT18491_1376</td>
-<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT18491_716</td>
-<td>Administration of second dose of SARS-CoV-2 vacc</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT18491_903</td>
-<td>Administration of first dose of SARS-CoV-2 vacccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT3370_2254</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT3919_2185</td>
-<td>Administration of first dose of SARS-CoV-2 vacccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT3919_662</td>
-<td>Administration of second dose of SARS-CoV-2 vacc</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT4803_1723</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT5823_2264</td>
-<td>Administration of second dose of SARS-CoV-2 vacc</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT5823_2757</td>
-<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>PCSDT5823_2902</td>
-<td>Administration of first dose of SARS-CoV-2 vacccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>^ESCT1348300</td>
-<td>Severe acute respiratory syndrome coronavirus 2 vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>ASSO138368NEMIS</td>
-<td>COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COCO141057NEMIS</td>
-<td>Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COSO141059NEMIS</td>
-<td>COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COSU138776NEMIS</td>
-<td>COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COSU138943NEMIS</td>
-<td>COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COSU141008NEMIS</td>
-<td>CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>emis</td>
-<td>COSU141037NEMIS</td>
-<td>COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0.</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0100</td>
-<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0200</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0600</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0700</td>
-<td>Immunisation course to achieve immunity against SARS-CoV-2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0800</td>
-<td>Immunisation course to maintain protection against SARS-CoV-2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0900</td>
-<td>Administration of third dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>65F0A00</td>
-<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>readv2</td>
-<td>9bJ..</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>snomed</td>
-<td>1240491000000103</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>snomed</td>
-<td>2807821000000115</td>
-<td>2019-nCoV (novel coronavirus) vaccination</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>snomed</td>
-<td>840534001</td>
-<td>Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)</td>
-</tr>
-</tbody>
-</table>
+<p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/048%20-%20Dumville/clinical-code-sets.csv">https://github.com/rw251/.../048 - Dumville/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

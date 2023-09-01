@@ -44,3 +44,39 @@ x02i2	Lustral
 x03h0	Seroxat
 x05ZY	Ranflutin
 x05JP	Oxactin
+da91.	Citalopram 20mg tablet
+da91.	Citalopram 20mg tablet
+da92.	Cipramil 20mg tablet
+da92.	Cipramil 20mg tablet
+da93.	Citalopram 10mg tablet
+da93.	Citalopram 10mg tablet
+da94.	Cipramil 10mg tablet
+da94.	Cipramil 10mg tablet
+da95.	Citalopram 40mg tablet
+da95.	Citalopram 40mg tablet
+da96.	Cipramil 40mg tablet
+da96.	Cipramil 40mg tablet
+da9z.	Citalopram 40mg/mL oral drops
+da9z.	Citalopram 40mg/mL oral drops
+daC1.	Escitalopram 10mg tablet
+daC1.	Escitalopram 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC3.	Escitalopram 20mg tablet
+daC3.	Escitalopram 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC5.	Escitalopram 5mg tablet
+daC5.	Escitalopram 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC8.	CIPRALEX 10mg/mL oral drops
+daC8.	CIPRALEX 10mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
+x054r	Cipramil 40mg/mL oral drops
+x054r	Cipramil 40mg/mL oral drops

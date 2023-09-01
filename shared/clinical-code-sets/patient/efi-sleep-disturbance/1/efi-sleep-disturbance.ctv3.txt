@@ -1,0 +1,11 @@
+R005.	[D]Sleep disturbances
+R0050	[D]Sleep disturbance, unspecified
+XE2cd	[D]Sleep disturbances (& [hypersomnia] or [insomnia])
+XaFqr	Poor sleep pattern
+R0052	[D]Insomnia NOS
+XE0ux	Insomnia (& symptom) or somnolence
+E274.	Non-organic sleep disorders (& [hypersomnia] or [insomnia])
+XM0CT	C/O - insomnia
+1B1B.	Insomnia (& C/O)
+XE2Pv	Insomnia
+XE2Q5	Non-organic sleep disorder

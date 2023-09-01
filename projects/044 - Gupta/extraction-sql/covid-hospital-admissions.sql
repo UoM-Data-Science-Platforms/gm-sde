@@ -22,10 +22,27 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -37,12 +54,9 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
+------------------------------------------
 
+-- OUTPUT: #Patients
 
 --------------------------------------------------------------------------------------------------------
 ----------------------------------- DEFINE MAIN COHORT -- ----------------------------------------------
@@ -55,10 +69,10 @@ DECLARE @MinDate datetime;
 SET @IndexDate = '2022-05-01';
 SET @MinDate = '1900-01-01';
 
---
---┌──────────────────────┐
+
+--┌────────────────────────────────────────┐
 --│ Long-term conditions and comorbidities │
---└──────────────────────┘
+--└────────────────────────────────────────┘
 
 -- OBJECTIVE: To get long-term conditions for each patient within a date range.
 
@@ -73,9 +87,7 @@ SET @MinDate = '1900-01-01';
 --   FK_Patient_Link_ID, 
 --   Condition, 
 --   FirstDate, 
---   LastDate, 
---   NoInLastYear,number of times mentioned in year prior to index date
---   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions. 
+--   LastDate
 
 -- NOTES: 
 --    The long term conditions clinical code sets are not being updated automatically. 
@@ -696,7 +708,7 @@ SELECT
     ) THEN 'Psychoactive Substance Abuse'
   END AS Condition
 INTO #LTCTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema')) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema'))
@@ -708,7 +720,7 @@ AND EventDate BETWEEN @MinDate AND @IndexDate;
 -- Get cancer conditions
 IF OBJECT_ID('tempdb..#LTCCancerTemp') IS NOT NULL DROP TABLE #LTCCancerTemp;
 SELECT FK_Patient_Link_ID, EventDate INTO #LTCCancerTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Cancer') OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Cancer')
@@ -753,7 +765,7 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 		) THEN 'Dyspepsia'
 	END AS Condition 
 INTO #LTCTempMedsLastYear 
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine')) OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
@@ -767,24 +779,110 @@ AND MedicationDate >= DATEADD(year, -1, @IndexDate);
 IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
 CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
 
+
+-- Painful condition >= 4 Rx in last year
+-- Migraine >= 4 Rx in last year
+-- Dyspepsia >= 4 Rx in last year
+-- Constipation >= 4 Rx in last year
+
 INSERT INTO #PatientsWithLTCs
-SELECT 
-  FK_Patient_Link_ID, 
-  Condition,
+SELECT FK_Patient_Link_ID, Condition, 
   MIN(MedicationDate) AS FirstDate, 
   MAX(MedicationDate) AS LastDate,
-  COUNT(*) AS ConditionOccurences
+  COUNT(*) AS ConditionOccurences 
 FROM #LTCTempMedsLastYear
-WHERE Condition IN (
-    'Painful Condition',
-    'Migraine',
-    'Dyspepsia',
-    'Constipation',
-    'Epilepsy',
-    'Psoriasis Or Eczema',
-    'Irritable Bowel Syndrome'
-  )
+WHERE Condition IN ('Painful Condition', 'Migraine', 'Dyspepsia', 'Constipation', 'irritable bowel syndrome')
 GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4
+
+-- Epilepsy read code ever AND Rx in last year
+
+IF OBJECT_ID('tempdb..#EpilepsyPatients') IS NOT NULL DROP TABLE #EpilepsyPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Epilepsy' as Condition
+INTO #EpilepsyPatients FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Epilepsy' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Epilepsy'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition;
+
+	-- FOR ALL PATIENTS THAT MEET THE EPILEPSY CRITERIA, FIND THE MIN AND MAX DIAGNOSIS DATES, AND THE COUNT, AND ADD TO MAIN LTC TABLE
+
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Epilepsy',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EpilepsyPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
+
+-- Psoriasis Or Eczema read code ever AND >= 4 Rx in last year
+
+
+IF OBJECT_ID('tempdb..#PsoriasisEczemaPatients') IS NOT NULL DROP TABLE #PsoriasisEczemaPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Psoriasis Or Eczema' as Condition
+INTO #PsoriasisEczemaPatients FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Psoriasis Or Eczema'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PsoriasisEczemaPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
+
+-- IBS read code ever OR >= 4 Rx in last year
+
+	-- Irritable Bowel Syndrome >= 4 Rx in last year 
+
+		-- already added to #PatientsWithLTCs at line 717 - 725
+
+	-- IBS read code ever
+	
+INSERT INTO #PatientsWithLTCs
+SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome', 
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate,
+  COUNT(*) AS ConditionOccurences 
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID;
+
 
 -- Cancer only if first diagnosis in last 5 years
 INSERT INTO #PatientsWithLTCs
@@ -808,7 +906,6 @@ SELECT
   COUNT(*) AS ConditionOccurences
 FROM #LTCTemp
 GROUP BY FK_Patient_Link_ID, Condition
-
 
 --┌──────────────────────────┐
 --│ GET No. LTCS per patient │
@@ -888,7 +985,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -975,6 +1072,10 @@ DROP TABLE #UnmatchedYobPatients;
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPAdmissionsEndDate datetime;
+SET @TEMPAdmissionsEndDate = '2022-06-01';
+
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
 -- on the same day (but only one discharge)
@@ -988,18 +1089,20 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-		FROM [RLS].[vw_Acute_Inpatients] i
+		FROM [SharedCare].[Acute_Inpatients] i
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND AdmissionDate >= @StartDate;
+		AND AdmissionDate >= @StartDate
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --┌──────────────────────┐
@@ -1021,6 +1124,10 @@ END
 --   on the same day to the same hopsital then it's most likely data duplication rather than two short
 --   hospital stays)
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPDischargesEndDate datetime;
+SET @TEMPDischargesEndDate = '2022-06-01';
+
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
 CREATE TABLE #Discharges (
@@ -1032,18 +1139,20 @@ BEGIN
 	IF 'false'='true'
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
-    FROM [RLS].[vw_Acute_Inpatients] i
+    FROM [SharedCare].[Acute_Inpatients] i
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-    AND DischargeDate >= @StartDate;
+    AND DischargeDate >= @StartDate
+    AND DischargeDate <= @TEMPDischargesEndDate;;
 END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14
@@ -1108,7 +1217,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- INPUT: Takes three parameters
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 --	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
---	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 
 -- OUTPUT: Three temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
@@ -1146,6 +1255,8 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 --!!! DO NOT EDIT THIS FILE MANUALLY !!!
 --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--#region Clinical code sets
 
 IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
@@ -1306,36 +1417,32 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
+--#endregion
+
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -1349,27 +1456,17 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM RLS.vw_GP_Events
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM RLS.vw_GP_Events
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM RLS.vw_GP_Events
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
@@ -1458,7 +1555,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
 
 --bring together for final output
 SELECT 

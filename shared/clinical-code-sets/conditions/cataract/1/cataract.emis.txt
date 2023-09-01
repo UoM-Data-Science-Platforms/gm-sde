@@ -1,0 +1,119 @@
+^ESCT1204878	Cataract co-occurrent with degenerative disorder of eye
+^ESCT1218322	Cataract co-occurrent and due to diabetes mellitus
+^ESCT1218323	Cataract due to diabetes mellitus
+^ESCT1222073	Cat. - cataract
+^ESCT1233210	Cataract due to diabetes mellitus type 2
+^ESCT1233211	Cataract co-occurrent and due to diabetes mellitus type 2
+^ESCT1233611	Cataract due to diabetes mellitus type 1
+^ESCT1233612	Cataract co-occurrent and due to diabetes mellitus type 1
+^ESCT1270236	Diabetic cataract associated with type 1 diabetes mellitus
+^ESCT1270239	Diabetic cataract associated with type 2 diabetes mellitus
+^ESCT1377076	Old-age related cataract
+^ESCT1377159	Cataract of eye due to diabetes mellitus
+^ESCT1378996	Cataract due to inflammatory disorder
+^ESCT1378997	After-cataract with vision obscured following extraction of cataract
+^ESCT1383301	Cataract of eye due to diabetes mellitus type 2
+^ESCT1383352	Cataract of eye due to diabetes mellitus type 1
+^ESCTAN254615	Andogsky's syndrome
+^ESCTAN605724	Anterior subcapsular cataract
+^ESCTAS605725	ASC - Anterior subcapsular cataract
+^ESCTAT254613	Atopic cataract
+^ESCTCA267452	Calcified cataract
+^ESCTCA326529	Capsular fibrosis
+^ESCTCA339066	Cataract extraction
+^ESCTCA365563	Cataract associated with radiation
+^ESCTCA374127	Cataract with neovascularization
+^ESCTCA406150	Cataracts
+^ESCTCA477243	Cat. - Cataract
+^ESCTCA477254	Cataracta complicata
+^ESCTCA502688	Cataract extraction, insertion of intraocular lens and trabeculectomy
+^ESCTCA503002	Cataract following rupture of capsule
+^ESCTCA503005	Cataract in systemic disorders
+^ESCTCA503006	Cataract in hypoparathyroidism
+^ESCTCA523861	Cataract form
+^ESCTCA523872	Cataract maturity
+^ESCTCE339067	CE - Cataract extraction
+^ESCTCE482355	Cerulean cataract
+^ESCTCE643848	CEIOL - Cataract extraction and insertion of intraocular lens
+^ESCTCL326530	Cloudy posterior capsule
+^ESCTCO258521	Congenital nuclear cataract
+^ESCTCO297587	Congenital total cataract
+^ESCTCO297588	Congenital complete cataract
+^ESCTCO353928	Congenital subtotal cataract
+^ESCTCO358140	Congenital cortical cataract
+^ESCTCO440767	Congenital anomaly of lens
+^ESCTCO440769	Congenital malformation of lens
+^ESCTCO477253	Complicated cataract
+^ESCTCO482348	Congenital lamellar cataract
+^ESCTCO502687	Combined operation with cataract extraction
+^ESCTCO503001	Concussion cataract
+^ESCTCO532711	Congenital polar cataract
+^ESCTCO532712	Congenital anterior polar cataract
+^ESCTCO532713	Congenital posterior polar cataract
+^ESCTCO532714	Congenital sutural cataract
+^ESCTCU523871	Cupuliform cataract
+^ESCTDE254614	Dermatogenous cataract
+^ESCTDI695980	Diabetic cataract associated with type II diabetes mellitus
+^ESCTDI695981	Diabetes type 2 with cataract
+^ESCTDI698043	Diabetic cataract associated with type I diabetes mellitus
+^ESCTDI698044	Diabetes type 1 with cataract
+^ESCTDR477256	Drug-induced cataract
+^ESCTEC598095	ECCE - Extracapsular cataract extraction and insertion of intraocular lens
+^ESCTEM258520	Embryonal nuclear cataract
+^ESCTEX339065	Excision of cataract
+^ESCTEX598094	Extracapsular cataract extraction and insertion of intraocular lens
+^ESCTHI454030	History of cataract
+^ESCTHI597458	History of - R cataract extraction
+^ESCTHI597459	History of right cataract extraction
+^ESCTHI597461	History of - L cataract extraction
+^ESCTHI597462	History of left cataract extraction
+^ESCTHI655714	History of bilateral cataract extraction
+^ESCTHI708995	History of cataract extraction
+^ESCTHY360979	Hypocalcaemic cataract
+^ESCTHY360980	Hypocalcemic cataract
+^ESCTIC598097	ICCE - Intracapsular cataract extraction and insertion of intraocular lens
+^ESCTIN406152	Intumescent cataract
+^ESCTIN598096	Intracapsular cataract extraction and insertion of intraocular lens
+^ESCTIO643847	IOL - Cataract extraction and insertion of intraocular lens
+^ESCTLA482350	Lamellar cataract
+^ESCTLE477241	Lenticular opacity
+^ESCTLE477242	Lens opacity
+^ESCTMA251203	Mature cataract
+^ESCTMA503007	Malnutrition-dehydration cataract
+^ESCTMI604994	Mixed type cataract
+^ESCTMO547620	Morgagnian cataract
+^ESCTNO662060	Nonsenile cataract
+^ESCTNO662061	Non age related cataract
+^ESCTNO662062	Non age-related cataract
+^ESCTNS337396	NS - Nuclear sclerosis
+^ESCTON455281	On examination - cataract present
+^ESCTON597496	On examination - right cataract present
+^ESCTON597498	On examination - left cataract present
+^ESCTPA477251	Partially resolved traumatic cataract
+^ESCTPC326531	PCF - Posterior capsular fibrosis
+^ESCTPC326532	PCO - Posterior capsule opacification
+^ESCTPH604120	Phakoemulsification with intraocular lens implantation
+^ESCTPH604121	Phacoemulsification with intraocular lens implantation
+^ESCTPO326533	Posterior capsular opacification
+^ESCTPO605726	Posterior subcapsular cataract
+^ESCTPR645808	Procedure on lens
+^ESCTPS605727	PSC - posterior subcapsular cataract
+^ESCTRA365564	Radiation cataract
+^ESCTRA365565	Radiation-induced cataract
+^ESCTRU532715	Rubella cataract
+^ESCTSE326528	Secondary cataract
+^ESCTSH523873	Shrunken cataract
+^ESCTSI519168	Situation with explicit context
+^ESCTSM604118	Small incision phakoemulsification of cataract and insertion of intraocular lens
+^ESCTSM604119	Small incision phacoemulsification of cataract and insertion of intraocular lens
+^ESCTSP523874	Spontaneous reabsorption of cataract
+^ESCTTO251204	Total cataract
+^ESCTTO312113	Toxic cataract
+^ESCTWA335008	Water clefts
+EMISQLA1	Laser treated diabetic retinopathy
+EMISQLE11	Left laser treated diabetic retinopathy
+EMISQLE8	Left non-proliferative diabetic retinopathy
+EMISQLE9	Left preproliferative diabetic retinopathy
+EMISQRI11	Right laser treated diabetic retinopathy
+EMISQRI8	Right non-proliferative diabetic retinopathy
+EMISQRI9	Right preproliferative diabetic retinopathy

@@ -17,3 +17,11 @@ x00fa	Molipaxin 150mg tablet
 da86.	Dutonin 50mg+100mg+200mg treatment initiation tablet pack
 da84.	Dutonin 200mg tablet
 da83.	Dutonin 100mg tablet
+d7e1.	Molipaxin 50mg capsules x84CP
+d7e1.	Molipaxin 50mg capsules x84CP
+d7e2.	Molipaxin 100mg capsules x56CP
+d7e2.	Molipaxin 100mg capsules x56CP
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e6.	Molipaxin CR 150mg m/r tablets x28
+d7e6.	Molipaxin CR 150mg m/r tablets x28

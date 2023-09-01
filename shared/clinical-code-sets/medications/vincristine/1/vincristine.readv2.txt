@@ -1,0 +1,16 @@
+h32v.00	VINCRISTINE 1mg/1mL prefilled syringe
+h43..00	VINCRISTINE SULFATE
+h43..11	VINCRISTINE SULPHATE
+h431.00	VINCRISTINE 1mg injection (pdr for recon)
+h432.00	VINCRISTINE 2mg injection (pdr for recon)
+h433.00	VINCRISTINE 5mg injection (pdr for recon)
+h434.00	ONCOVIN 1mg injection (pdr for recon)
+h435.00	*ONCOVIN POWDER 2mg injection
+h436.00	*ONCOVIN 5mg injection
+h437.00	ONCOVIN 1mg/1mL solution for injection
+h438.00	ONCOVIN 2mg/2ml solution for injection
+h43v.00	VINCRISTINE 1mg/1mL prefilled syringe
+h43w.00	VINCRISTINE 2mg/2mL prefilled syringe
+h43x.00	VINCRISTINE 5mg/5mL solution for injection
+h43y.00	VINCRISTINE 1mg/1mL solution for injection
+h43z.00	VINCRISTINE 2mg/2mL solution for injection

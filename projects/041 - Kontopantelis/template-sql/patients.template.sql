@@ -32,10 +32,14 @@
 -- Total GP appointments (01.03.18 - 01.03.22)
 -- evidenceOfCKD_egfr (1/0)
 -- evidenceOfCKD_acr (1/0)
+-- EarliestEgfrEvidence
+-- EarliestAcrEvidence 
 -- HypertensionAtStudyStart
 -- HypertensionDuringStudyPeriod
 -- DiabetesAtStudyStart
 -- DiabetesDuringStudyPeriod
+-- CKDAtStudyStart
+-- CKDDuringStudyPeriod
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -49,25 +53,9 @@ SET @IndexDate = '2020-03-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
--- DEFINE COHORT
 --> EXECUTE query-build-rq041-cohort.sql
 
---> CODESET hypertension:1 diabetes:1
+--> CODESET hypertension:1 diabetes:1 chronic-kidney-disease:1
 
 -- FIND WHICH PATIENTS IN THE COHORT HAD HYPERTENSION OR DIABETES AND THE DATE OF EARLIEST DIAGNOSIS
 
@@ -88,6 +76,17 @@ FROM #PatientEventData gp
 WHERE  (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND [Version]=1)
+	)
+GROUP BY FK_Patient_Link_ID
+
+
+IF OBJECT_ID('tempdb..#ckd') IS NOT NULL DROP TABLE #ckd;
+SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
+INTO #ckd
+FROM #PatientEventData gp
+WHERE  (
+	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'chronic-kidney-disease' AND [Version]=1) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'chronic-kidney-disease' AND [Version]=1)
 	)
 GROUP BY FK_Patient_Link_ID
 
@@ -158,11 +157,29 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
 
 -- Get patient list of those with COVID death within 28 days of positive test
+-- 15.11.22: updated to deal with '28 days' flag over-reporting
+
+-- IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+-- SELECT DISTINCT FK_Patient_Link_ID 
+-- INTO #COVIDDeath FROM RLS.vw_COVID19
+-- WHERE DeathWithin28Days = 'Y'
+-- AND EventDate <= @EndDate
+-- AND (
+--   (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+--   (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+-- );
+
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
+INTO #COVIDDeath FROM SharedCare.COVID19
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+AND DATEDIFF(day,EventDate,DeathDate) <= 28
+AND EventDate < '2022-03-01';
+
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
@@ -186,7 +203,7 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		YearOfBirth, 
 		Sex,
 		BMI,
-		BMIDate = bmi.EventDate,
+		BMIDate = bmi.DateOfBMIMeasurement,
 		EthnicMainGroup,
 	    LSOA_Code,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
@@ -194,7 +211,7 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		WorstSmokingStatus = smok.WorstSmokingStatus,
 		CurrentAlcoholIntake,
 		WorstAlcoholIntake,
-		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
 		Death_Year = YEAR(p.DeathDate),
 		Death_Month = MONTH(p.DeathDate),
 		FirstVaccineYear =  YEAR(VaccineDose1Date),
@@ -217,10 +234,14 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		EvidenceOfCKD_acr, -- acr tests indicating stages A2 or A3
 		HealthyEgfrResult, -- one or more healthy egfr result in between the two <60 results
 		HealthyAcrResult, -- one or more healthy acr result in between the two >3 results
+		EarliestEgfrEvidence,
+		EarliestAcrEvidence,
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
-		DiabetesDuringStudyPeriod = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END
+		DiabetesDuringStudyPeriod = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
+		CodedCKDAtStudyStart = CASE WHEN ckd.FK_Patient_Link_ID IS NOT NULL AND ckd.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
+		CodedCKDDuringStudyPeriod = CASE WHEN ckd.FK_Patient_Link_ID IS NOT NULL AND ckd.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END
 FROM #Cohort p
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -238,6 +259,7 @@ LEFT OUTER JOIN #GPEncountersCount gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patien
 LEFT OUTER JOIN #GPEncountersCount gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
 LEFT OUTER JOIN #hypertension hyp ON hyp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #diabetes dia ON dia.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #ckd ckd ON ckd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth > 18 -- EXTRA CHECK TO ENSURE OVER 18s ONLY
 --320,594

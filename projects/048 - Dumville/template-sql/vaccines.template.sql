@@ -18,7 +18,7 @@ SET NOCOUNT ON;
 DECLARE @EndDate datetime;
 SET @EndDate = '2022-07-01';
 
--- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
+--> EXECUTE query-build-rq048-cohort.sql
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
@@ -31,8 +31,8 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+FROM SharedCare.GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -43,11 +43,12 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+FROM SharedCare.GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < @EndDate;
 
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 
 SELECT FK_Patient_Link_ID AS PatientId, EventDate AS VaccineDate FROM #COVIDVaccines
+WHERE FK_Patient_Link_ID IN (SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link) --ensure we don't include opt-outs
 ORDER BY FK_Patient_Link_ID, EventDate;

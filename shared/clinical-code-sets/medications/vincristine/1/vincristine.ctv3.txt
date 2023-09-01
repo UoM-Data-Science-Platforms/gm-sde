@@ -1,0 +1,20 @@
+h43..	Vincristine sulphate
+h431.	Vincristine 1mg injection (pdr for recon)
+h432.	Vincristine 2mg injection (pdr for recon)
+h433.	Vincristine 5mg injection (pdr for recon)
+h434.	Oncovin 1mg injection (pdr for recon)
+h435.	Oncovin powder 2mg injection
+h436.	Oncovin 5mg injection
+h437.	Oncovin 1mg/1mL injection
+h438.	Oncovin 2mg/2mL injection
+h43v.	Vincristine sulphate 1mg/1mL prefilled syringe
+h43w.	Vincristine sulphate 2mg/2mL prefilled syringe
+h43x.	Vincristine sulphate 5mg/5mL injection
+h43y.	Vincristine sulphate 1mg/1mL injection
+h43z.	Vincristine sulphate 2mg/2mL injection
+x00Pw	Vincristine sulphate 5mg/25mL infusion
+x00Px	Vincristine sulphate 10mg/50mL infusion
+x00Py	Vincristine sulphate 5mg/50mL infusion
+x00Pz	Vincristine sulphate 10mg/100mL infusion
+x01Ak	Vincristine
+x02lp	Oncovin

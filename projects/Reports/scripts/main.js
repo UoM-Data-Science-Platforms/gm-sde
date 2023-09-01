@@ -140,7 +140,7 @@ First you need to be authenticated.`);
 function getQueryContent(files) {
   store.files = files.map((file) => ({
     filename: file,
-    sql: fs.readFileSync(join(EXTRACTION_DIR, file), 'utf8'),
+    sql: fs.readFileSync(join(EXTRACTION_DIR, file), 'utf8').replace(/^\uFEFF/, ''),
   }));
 }
 
@@ -463,7 +463,7 @@ async function getPatientPseudoIds() {
   return new Promise((resolve) => {
     const request = new mssql.Request();
     request.stream = true;
-    request.query('SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;');
+    request.query('SELECT PK_Patient_Link_ID FROM SharedCare.Patient_Link;');
 
     request.on('row', (row) => {
       // Emitted for each row in a recordset

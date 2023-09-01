@@ -1,0 +1,12 @@
+Y3356	Unable to get off floor
+TC...	Accidental fall
+16D..	Falls
+Xa6uG	Observation of falls
+TCz..	Accidental falls NOS
+Xa1GP	Recurrent falls
+Xa6uH	Elderly fall
+TC5..	Fall on same level from slipping, tripping or stumbling
+XaLqJ	Referral to falls service
+XaMGj	Referral to elderly falls prevention clinic
+XaN4s	Provision of telecare community alarm service
+YA756	Has pendant alarm services

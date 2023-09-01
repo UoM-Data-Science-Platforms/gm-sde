@@ -14,10 +14,27 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -29,11 +46,9 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
+------------------------------------------
+
+-- OUTPUT: #Patients
 
 -- Set the date variables for the LTC code
 
@@ -42,10 +57,10 @@ DECLARE @MinDate datetime;
 SET @IndexDate = '2022-05-01';
 SET @MinDate = '1900-01-01';
 
---
---┌──────────────────────┐
+
+--┌────────────────────────────────────────┐
 --│ Long-term conditions and comorbidities │
---└──────────────────────┘
+--└────────────────────────────────────────┘
 
 -- OBJECTIVE: To get long-term conditions for each patient within a date range.
 
@@ -60,9 +75,7 @@ SET @MinDate = '1900-01-01';
 --   FK_Patient_Link_ID, 
 --   Condition, 
 --   FirstDate, 
---   LastDate, 
---   NoInLastYear,number of times mentioned in year prior to index date
---   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions. 
+--   LastDate
 
 -- NOTES: 
 --    The long term conditions clinical code sets are not being updated automatically. 
@@ -683,7 +696,7 @@ SELECT
     ) THEN 'Psychoactive Substance Abuse'
   END AS Condition
 INTO #LTCTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema')) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Cancer','Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Psoriasis Or Eczema'))
@@ -695,7 +708,7 @@ AND EventDate BETWEEN @MinDate AND @IndexDate;
 -- Get cancer conditions
 IF OBJECT_ID('tempdb..#LTCCancerTemp') IS NOT NULL DROP TABLE #LTCCancerTemp;
 SELECT FK_Patient_Link_ID, EventDate INTO #LTCCancerTemp 
-FROM RLS.vw_GP_Events e
+FROM SharedCare.GP_Events e
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Cancer') OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Cancer')
@@ -740,7 +753,7 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 		) THEN 'Dyspepsia'
 	END AS Condition 
 INTO #LTCTempMedsLastYear 
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine')) OR
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
@@ -754,24 +767,110 @@ AND MedicationDate >= DATEADD(year, -1, @IndexDate);
 IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
 CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
 
+
+-- Painful condition >= 4 Rx in last year
+-- Migraine >= 4 Rx in last year
+-- Dyspepsia >= 4 Rx in last year
+-- Constipation >= 4 Rx in last year
+
 INSERT INTO #PatientsWithLTCs
-SELECT 
-  FK_Patient_Link_ID, 
-  Condition,
+SELECT FK_Patient_Link_ID, Condition, 
   MIN(MedicationDate) AS FirstDate, 
   MAX(MedicationDate) AS LastDate,
-  COUNT(*) AS ConditionOccurences
+  COUNT(*) AS ConditionOccurences 
 FROM #LTCTempMedsLastYear
-WHERE Condition IN (
-    'Painful Condition',
-    'Migraine',
-    'Dyspepsia',
-    'Constipation',
-    'Epilepsy',
-    'Psoriasis Or Eczema',
-    'Irritable Bowel Syndrome'
-  )
+WHERE Condition IN ('Painful Condition', 'Migraine', 'Dyspepsia', 'Constipation', 'irritable bowel syndrome')
 GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4
+
+-- Epilepsy read code ever AND Rx in last year
+
+IF OBJECT_ID('tempdb..#EpilepsyPatients') IS NOT NULL DROP TABLE #EpilepsyPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Epilepsy' as Condition
+INTO #EpilepsyPatients FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Epilepsy' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Epilepsy'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition;
+
+	-- FOR ALL PATIENTS THAT MEET THE EPILEPSY CRITERIA, FIND THE MIN AND MAX DIAGNOSIS DATES, AND THE COUNT, AND ADD TO MAIN LTC TABLE
+
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Epilepsy',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EpilepsyPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
+
+-- Psoriasis Or Eczema read code ever AND >= 4 Rx in last year
+
+
+IF OBJECT_ID('tempdb..#PsoriasisEczemaPatients') IS NOT NULL DROP TABLE #PsoriasisEczemaPatients;
+SELECT DISTINCT FK_Patient_Link_ID, 'Psoriasis Or Eczema' as Condition
+INTO #PsoriasisEczemaPatients FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Psoriasis Or Eczema'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema',
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate, 
+  COUNT(*) AS ConditionOccurences
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PsoriasisEczemaPatients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID
+
+-- IBS read code ever OR >= 4 Rx in last year
+
+	-- Irritable Bowel Syndrome >= 4 Rx in last year 
+
+		-- already added to #PatientsWithLTCs at line 717 - 725
+
+	-- IBS read code ever
+	
+INSERT INTO #PatientsWithLTCs
+SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome', 
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate,
+  COUNT(*) AS ConditionOccurences 
+FROM SharedCare.GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @IndexDate
+GROUP BY FK_Patient_Link_ID;
+
 
 -- Cancer only if first diagnosis in last 5 years
 INSERT INTO #PatientsWithLTCs
@@ -795,7 +894,6 @@ SELECT
   COUNT(*) AS ConditionOccurences
 FROM #LTCTemp
 GROUP BY FK_Patient_Link_ID, Condition
-
 
 --┌──────────────────────────┐
 --│ GET No. LTCS per patient │
@@ -876,7 +974,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -954,7 +1052,7 @@ DROP TABLE #UnmatchedYobPatients;
 -- INPUT: Takes three parameters
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 --	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
---	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 
 -- OUTPUT: Three temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
@@ -993,6 +1091,8 @@ DROP TABLE #UnmatchedYobPatients;
 --!!! DO NOT EDIT THIS FILE MANUALLY !!!
 --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+--#region Clinical code sets
+
 IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
@@ -1011,7 +1111,9 @@ CREATE TABLE #codesreadv2 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K..00',NULL,'Body Mass Index'),('bmi',1,'22KE.',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KE.00',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KD.',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KD.00',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KC.',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KC.00',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KB.',NULL,'Baseline body mass index'),('bmi',1,'22KB.00',NULL,'Baseline body mass index'),('bmi',1,'22KA.',NULL,'Target body mass index'),('bmi',1,'22KA.00',NULL,'Target body mass index'),('bmi',1,'22K9.',NULL,'Body mass index centile'),('bmi',1,'22K9.00',NULL,'Body mass index centile'),('bmi',1,'22K9K',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9K00',NULL,'Downs syndrome body mass index centile'),('bmi',1,'22K9J',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9J00',NULL,'Child body mass index greater than 99.6th centile'),('bmi',1,'22K9H',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9H00',NULL,'Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9G',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9G00',NULL,'Child body mass index on 98th centile'),('bmi',1,'22K9F',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9F00',NULL,'Child body mass index 92nd-97th centile'),('bmi',1,'22K9E',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9E00',NULL,'Child body mass index on 91st centile'),('bmi',1,'22K9D',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9D00',NULL,'Child body mass index 76th-90th centile'),('bmi',1,'22K9C',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9C00',NULL,'Child body mass index on 75th centile'),('bmi',1,'22K9B',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9B00',NULL,'Child body mass index 51st-74th centile'),('bmi',1,'22K9A',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K9A00',NULL,'Child body mass index on 50th centile'),('bmi',1,'22K99',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K9900',NULL,'Child body mass index 26th-49th centile'),('bmi',1,'22K98',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K9800',NULL,'Child body mass index on 25th centile'),('bmi',1,'22K97',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K9700',NULL,'Child body mass index 10th-24th centile'),('bmi',1,'22K96',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K9600',NULL,'Child body mass index on 9th centile'),('bmi',1,'22K95',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K9500',NULL,'Child body mass index 3rd-8th centile'),('bmi',1,'22K94',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K9400',NULL,'Child body mass index on 2nd centile'),('bmi',1,'22K93',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K9300',NULL,'Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K92',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K9200',NULL,'Child body mass index less than 0.4th centile'),('bmi',1,'22K91',NULL,'Child body mass index centile'),('bmi',1,'22K9100',NULL,'Child body mass index centile'),('bmi',1,'22K90',NULL,'Baseline body mass index centile'),('bmi',1,'22K9000',NULL,'Baseline body mass index centile'),('bmi',1,'22K8.',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K8.00',NULL,'Body mass index 20-24 - normal'),('bmi',1,'22K7.',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K7.00',NULL,'Body mass index 40+ - severely obese'),('bmi',1,'22K6.',NULL,'Body mass index less than 20'),('bmi',1,'22K6.00',NULL,'Body mass index less than 20'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K5.00',NULL,'Body mass index 30+ - obesity'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K4.00',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K3.00',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K2.00',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K1.00',NULL,'Body Mass Index normal K/M2'),('bmi',1,'C3808',NULL,'Childhood obesity'),('bmi',1,'C380800',NULL,'Childhood obesity'),('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index'),('bmi',2,'22K..00',NULL,'Body Mass Index');
+INSERT INTO #codesreadv2
+VALUES ('height',1,'229..',NULL,'O/E - height'),('height',1,'229..00',NULL,'O/E - height'),('height',1,'229Z.',NULL,'O/E - height NOS'),('height',1,'229Z.00',NULL,'O/E - height NOS');
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137P.00',NULL,'Cigarette smoker'),('smoking-status-current',1,'13p3.',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'13p3.00',NULL,'Smoking status at 52 weeks'),('smoking-status-current',1,'1374.',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'1374.00',NULL,'Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137G.00',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137R.00',NULL,'Current smoker'),('smoking-status-current',1,'1376.',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1376.00',NULL,'Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1375.',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1375.00',NULL,'Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1373.',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'1373.00',NULL,'Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137M.00',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137o.',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137o.00',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'137m.',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137m.00',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'137h.',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137h.00',NULL,'Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137g.',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137g.00',NULL,'Cigarette pack-years'),('smoking-status-current',1,'137f.',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137f.00',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'137e.',NULL,'Smoking restarted'),('smoking-status-current',1,'137e.00',NULL,'Smoking restarted'),('smoking-status-current',1,'137d.',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137d.00',NULL,'Not interested in stopping smoking'),('smoking-status-current',1,'137c.',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137c.00',NULL,'Thinking about stopping smoking'),('smoking-status-current',1,'137b.',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137b.00',NULL,'Ready to stop smoking'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137C.00',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137J.00',NULL,'Cigar smoker'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137H.00',NULL,'Pipe smoker'),('smoking-status-current',1,'137a.',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137a.00',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Z.00',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'137Y.',NULL,'Cigar consumption'),('smoking-status-current',1,'137Y.00',NULL,'Cigar consumption'),('smoking-status-current',1,'137X.',NULL,'Cigarette consumption'),('smoking-status-current',1,'137X.00',NULL,'Cigarette consumption'),('smoking-status-current',1,'137V.',NULL,'Smoking reduced'),('smoking-status-current',1,'137V.00',NULL,'Smoking reduced'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137Q.00',NULL,'Smoking started');
 INSERT INTO #codesreadv2
@@ -1027,29 +1129,15 @@ VALUES ('smoking-status-passive',1,'137I.',NULL,'Passive smoker'),('smoking-stat
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-trivial',1,'1372.',NULL,'Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.00',NULL,'Trivial smoker - < 1 cig/day');
 INSERT INTO #codesreadv2
-VALUES ('covid-vaccination',1,'65F0.',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F01',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0100',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F02',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0200',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F0600',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F07',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F0700',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F08',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F0800',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0900',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A00',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'9bJ..00',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)');
+VALUES ('weight',1,'22A..',NULL,'O/E - weight'),('weight',1,'22A..00',NULL,'O/E - weight'),('weight',1,'22AZ.',NULL,'O/E - weight NOS'),('weight',1,'22AZ.00',NULL,'O/E - weight NOS');
 INSERT INTO #codesreadv2
-VALUES ('cholesterol',1,'44P..',NULL,'Serum cholesterol'),('cholesterol',1,'44P..00',NULL,'Serum cholesterol'),('cholesterol',1,'44PZ.',NULL,'Serum cholesterol NOS'),('cholesterol',1,'44PZ.00',NULL,'Serum cholesterol NOS'),('cholesterol',1,'44PL.',NULL,'Non HDL cholesterol level'),('cholesterol',1,'44PL.00',NULL,'Non HDL cholesterol level'),('cholesterol',1,'44PL1',NULL,'Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL100',NULL,'Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL0',NULL,'Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PL000',NULL,'Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PK.',NULL,'Serum fasting total cholesterol'),('cholesterol',1,'44PK.00',NULL,'Serum fasting total cholesterol'),('cholesterol',1,'44PJ.',NULL,'Serum total cholesterol level'),('cholesterol',1,'44PJ.00',NULL,'Serum total cholesterol level'),('cholesterol',1,'44PI.',NULL,'Calculated LDL cholesterol level'),('cholesterol',1,'44PI.00',NULL,'Calculated LDL cholesterol level'),('cholesterol',1,'44PH.',NULL,'Total cholesterol measurement'),('cholesterol',1,'44PH.00',NULL,'Total cholesterol measurement'),('cholesterol',1,'44PG.',NULL,'HDL : total cholesterol ratio'),('cholesterol',1,'44PG.00',NULL,'HDL : total cholesterol ratio'),('cholesterol',1,'44PF.',NULL,'Total cholesterol:HDL ratio'),('cholesterol',1,'44PF.00',NULL,'Total cholesterol:HDL ratio'),('cholesterol',1,'44PE.',NULL,'Serum random LDL cholesterol level'),('cholesterol',1,'44PE.00',NULL,'Serum random LDL cholesterol level'),('cholesterol',1,'44PD.',NULL,'Serum fasting LDL cholesterol level'),('cholesterol',1,'44PD.00',NULL,'Serum fasting LDL cholesterol level'),('cholesterol',1,'44PC.',NULL,'Serum random HDL cholesterol level'),('cholesterol',1,'44PC.00',NULL,'Serum random HDL cholesterol level'),('cholesterol',1,'44PB.',NULL,'Serum fasting HDL cholesterol level'),('cholesterol',1,'44PB.00',NULL,'Serum fasting HDL cholesterol level'),('cholesterol',1,'44P9.',NULL,'Serum cholesterol studies'),('cholesterol',1,'44P9.00',NULL,'Serum cholesterol studies'),('cholesterol',1,'44P8.',NULL,'Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P8.00',NULL,'Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P7.',NULL,'Serum VLDL cholesterol level'),('cholesterol',1,'44P7.00',NULL,'Serum VLDL cholesterol level'),('cholesterol',1,'44P6.',NULL,'Serum LDL cholesterol level'),('cholesterol',1,'44P6.00',NULL,'Serum LDL cholesterol level'),('cholesterol',1,'44P5.',NULL,'Serum HDL cholesterol level'),('cholesterol',1,'44P5.00',NULL,'Serum HDL cholesterol level'),('cholesterol',1,'44P4.',NULL,'Serum cholesterol very high'),('cholesterol',1,'44P4.00',NULL,'Serum cholesterol very high'),('cholesterol',1,'44P3.',NULL,'Serum cholesterol raised'),('cholesterol',1,'44P3.00',NULL,'Serum cholesterol raised'),('cholesterol',1,'44P2.',NULL,'Serum cholesterol borderline'),('cholesterol',1,'44P2.00',NULL,'Serum cholesterol borderline'),('cholesterol',1,'44P1.',NULL,'Serum cholesterol normal'),('cholesterol',1,'44P1.00',NULL,'Serum cholesterol normal'),('cholesterol',1,'44PA.',NULL,'HDL : LDL ratio'),('cholesterol',1,'44PA.00',NULL,'HDL : LDL ratio'),('cholesterol',1,'44lM.',NULL,'Plasma LDL/HDL ratio'),('cholesterol',1,'44lM.00',NULL,'Plasma LDL/HDL ratio'),('cholesterol',1,'44lL.',NULL,'Serum LDL/HDL ratio'),('cholesterol',1,'44lL.00',NULL,'Serum LDL/HDL ratio'),('cholesterol',1,'44lK.',NULL,'Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lK.00',NULL,'Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.',NULL,'Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.00',NULL,'Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lI.',NULL,'Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lI.00',NULL,'Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lH.',NULL,'Serum cholesterol/LDL ratio'),('cholesterol',1,'44lH.00',NULL,'Serum cholesterol/LDL ratio'),('cholesterol',1,'44lG.',NULL,'Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lG.00',NULL,'Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lF.',NULL,'Serum cholesterol/HDL ratio'),('cholesterol',1,'44lF.00',NULL,'Serum cholesterol/HDL ratio'),('cholesterol',1,'44l2.',NULL,'Cholesterol/HDL ratio'),('cholesterol',1,'44l2.00',NULL,'Cholesterol/HDL ratio'),('cholesterol',1,'44dB.',NULL,'Plasma LDL cholesterol level'),('cholesterol',1,'44dB.00',NULL,'Plasma LDL cholesterol level'),('cholesterol',1,'44dA.',NULL,'Plasma HDL cholesterol level'),('cholesterol',1,'44dA.00',NULL,'Plasma HDL cholesterol level'),('cholesterol',1,'44d5.',NULL,'Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d5.00',NULL,'Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d4.',NULL,'Plasma random LDL cholesterol level'),('cholesterol',1,'44d4.00',NULL,'Plasma random LDL cholesterol level'),('cholesterol',1,'44d3.',NULL,'Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d3.00',NULL,'Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d2.',NULL,'Plasma random HDL cholesterol level'),('cholesterol',1,'44d2.00',NULL,'Plasma random HDL cholesterol level'),('cholesterol',1,'44R4.',NULL,'Lipoprotein electroph. - LDL'),('cholesterol',1,'44R4.00',NULL,'Lipoprotein electroph. - LDL'),('cholesterol',1,'44R3.',NULL,'Lipoprotein electroph. - HDL'),('cholesterol',1,'44R3.00',NULL,'Lipoprotein electroph. - HDL'),('cholesterol',1,'662a.',NULL,'Pre-treatment serum cholesterol level'),('cholesterol',1,'662a.00',NULL,'Pre-treatment serum cholesterol level'),('cholesterol',1,'44OE.',NULL,'Plasma total cholesterol level'),('cholesterol',1,'44OE.00',NULL,'Plasma total cholesterol level'),('cholesterol',1,'44lzY',NULL,'Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'44lzY00',NULL,'Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'4I3O.',NULL,'Fluid sample cholesterol level'),('cholesterol',1,'4I3O.00',NULL,'Fluid sample cholesterol level'),('cholesterol',2,'44P..',NULL,'Serum cholesterol'),('cholesterol',2,'44P..00',NULL,'Serum cholesterol'),('cholesterol',2,'44PZ.',NULL,'Serum cholesterol NOS'),('cholesterol',2,'44PZ.00',NULL,'Serum cholesterol NOS'),('cholesterol',2,'44PJ.',NULL,'Serum total cholesterol level'),('cholesterol',2,'44PJ.00',NULL,'Serum total cholesterol level'),('cholesterol',2,'44PH.',NULL,'Total cholesterol measurement'),('cholesterol',2,'44PH.00',NULL,'Total cholesterol measurement');
+VALUES ('covid-vaccination',1,'65F0.',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F01',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0100',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F02',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0200',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F0600',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F07',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F0700',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F08',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F0800',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0900',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A00',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'9bJ..00',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)');
 INSERT INTO #codesreadv2
 VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
 INSERT INTO #codesreadv2
 VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
 INSERT INTO #codesreadv2
-VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected');
-INSERT INTO #codesreadv2
-VALUES ('diastolic-blood-pressure',1,'246o1',NULL,'Non-invasive central diastolic blood pressure'),('diastolic-blood-pressure',1,'246o100',NULL,'Non-invasive central diastolic blood pressure'),('diastolic-blood-pressure',1,'246n0',NULL,'Baseline diastolic blood pressure'),('diastolic-blood-pressure',1,'246n000',NULL,'Baseline diastolic blood pressure'),('diastolic-blood-pressure',1,'246m.',NULL,'Average diastolic blood pressure'),('diastolic-blood-pressure',1,'246m.00',NULL,'Average diastolic blood pressure'),('diastolic-blood-pressure',1,'246i.',NULL,'Diastolic blood pressure centile'),('diastolic-blood-pressure',1,'246i.00',NULL,'Diastolic blood pressure centile'),('diastolic-blood-pressure',1,'246f.',NULL,'Ambulatory diastolic blood pressure'),('diastolic-blood-pressure',1,'246f.00',NULL,'Ambulatory diastolic blood pressure'),('diastolic-blood-pressure',1,'246c.',NULL,'Average home diastolic blood pressure'),('diastolic-blood-pressure',1,'246c.00',NULL,'Average home diastolic blood pressure'),('diastolic-blood-pressure',1,'246a.',NULL,'Average night interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246a.00',NULL,'Average night interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246X.',NULL,'Average day interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246X.00',NULL,'Average day interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246V.',NULL,'Average 24 hour diastolic blood pressure'),('diastolic-blood-pressure',1,'246V.00',NULL,'Average 24 hour diastolic blood pressure'),('diastolic-blood-pressure',1,'246T.',NULL,'Lying diastolic blood pressure'),('diastolic-blood-pressure',1,'246T.00',NULL,'Lying diastolic blood pressure'),('diastolic-blood-pressure',1,'246R.',NULL,'Sitting diastolic blood pressure'),('diastolic-blood-pressure',1,'246R.00',NULL,'Sitting diastolic blood pressure'),('diastolic-blood-pressure',1,'246P.',NULL,'Standing diastolic blood pressure'),('diastolic-blood-pressure',1,'246P.00',NULL,'Standing diastolic blood pressure'),('diastolic-blood-pressure',1,'246L.',NULL,'Target diastolic blood pressure'),('diastolic-blood-pressure',1,'246L.00',NULL,'Target diastolic blood pressure'),('diastolic-blood-pressure',1,'246A.',NULL,'O/E - Diastolic BP reading'),('diastolic-blood-pressure',1,'246A.00',NULL,'O/E - Diastolic BP reading');
-INSERT INTO #codesreadv2
-VALUES ('egfr',1,'451E.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451E.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451G.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451G.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451K.',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.00',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.00',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
-INSERT INTO #codesreadv2
-VALUES ('hba1c',1,'42c..',NULL,'HbA1 - diabetic control'),('hba1c',1,'42c..00',NULL,'HbA1 - diabetic control'),('hba1c',1,'42c3.',NULL,'HbA1 level (DCCT aligned)'),('hba1c',1,'42c3.00',NULL,'HbA1 level (DCCT aligned)'),('hba1c',1,'42c2.',NULL,'HbA1 > 10% - bad control'),('hba1c',1,'42c2.00',NULL,'HbA1 > 10% - bad control'),('hba1c',1,'42c1.',NULL,'HbA1 7 - 10% - borderline control'),('hba1c',1,'42c1.00',NULL,'HbA1 7 - 10% - borderline control'),('hba1c',1,'42c0.',NULL,'HbA1 < 7% - good control'),('hba1c',1,'42c0.00',NULL,'HbA1 < 7% - good control'),('hba1c',1,'42W..',NULL,'Hb. A1C - diabetic control'),('hba1c',1,'42W..00',NULL,'Hb. A1C - diabetic control'),('hba1c',1,'42WZ.',NULL,'Hb. A1C - diabetic control NOS'),('hba1c',1,'42WZ.00',NULL,'Hb. A1C - diabetic control NOS'),('hba1c',1,'42W3.',NULL,'Hb. A1C > 10% - bad control'),('hba1c',1,'42W3.00',NULL,'Hb. A1C > 10% - bad control'),('hba1c',1,'42W2.',NULL,'Hb. A1C 7-10% - borderline'),('hba1c',1,'42W2.00',NULL,'Hb. A1C 7-10% - borderline'),('hba1c',1,'42W1.',NULL,'Hb. A1C < 7% - good control'),('hba1c',1,'42W1.00',NULL,'Hb. A1C < 7% - good control'),('hba1c',1,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W5.00',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W51',NULL,'HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W5100',NULL,'HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50',NULL,'HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W5000',NULL,'HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.',NULL,'HbA1c level (DCCT aligned)'),('hba1c',1,'42W4.00',NULL,'HbA1c level (DCCT aligned)'),('hba1c',1,'44TL.',NULL,'Total glycosylated haemoglobin level'),('hba1c',1,'44TL.00',NULL,'Total glycosylated haemoglobin level'),('hba1c',1,'44TB.',NULL,'Haemoglobin A1c level'),('hba1c',1,'44TB.00',NULL,'Haemoglobin A1c level'),('hba1c',1,'44TB1',NULL,'Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB100',NULL,'Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB0',NULL,'Haemoglobin A1c (diagnostic reference range)'),('hba1c',1,'44TB000',NULL,'Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W5.00',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'42W4.00',NULL,'HbA1c level (DCCT aligned)');
-INSERT INTO #codesreadv2
-VALUES ('hdl-cholesterol',1,'44PC.',NULL,'Serum random HDL cholesterol level'),('hdl-cholesterol',1,'44PC.00',NULL,'Serum random HDL cholesterol level'),('hdl-cholesterol',1,'44P5.',NULL,'Serum HDL cholesterol level'),('hdl-cholesterol',1,'44P5.00',NULL,'Serum HDL cholesterol level'),('hdl-cholesterol',1,'44dA.',NULL,'Plasma HDL cholesterol level'),('hdl-cholesterol',1,'44dA.00',NULL,'Plasma HDL cholesterol level');
-INSERT INTO #codesreadv2
-VALUES ('ldl-cholesterol',1,'44PI.',NULL,'Calculated LDL cholesterol level'),('ldl-cholesterol',1,'44PI.00',NULL,'Calculated LDL cholesterol level'),('ldl-cholesterol',1,'44P6.',NULL,'Serum LDL cholesterol level'),('ldl-cholesterol',1,'44P6.00',NULL,'Serum LDL cholesterol level'),('ldl-cholesterol',1,'44dB.',NULL,'Plasma LDL cholesterol level'),('ldl-cholesterol',1,'44dB.00',NULL,'Plasma LDL cholesterol level');
-INSERT INTO #codesreadv2
-VALUES ('systolic-blood-pressure',1,'246o0',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246o000',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246n1',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246n100',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246l.',NULL,'Average systolic blood pressure'),('systolic-blood-pressure',1,'246l.00',NULL,'Average systolic blood pressure'),('systolic-blood-pressure',1,'246j.',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'246j.00',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'246e.',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246e.00',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246d.',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'246d.00',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'246b.',NULL,'Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246b.00',NULL,'Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.',NULL,'Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.00',NULL,'Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246W.',NULL,'Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246W.00',NULL,'Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246S.',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'246S.00',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'246Q.',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246Q.00',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246N.',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'246N.00',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'246K.',NULL,'Target systolic blood pressure'),('systolic-blood-pressure',1,'246K.00',NULL,'Target systolic blood pressure'),('systolic-blood-pressure',1,'2469.',NULL,'O/E - Systolic BP reading'),('systolic-blood-pressure',1,'2469.00',NULL,'O/E - Systolic BP reading');
-INSERT INTO #codesreadv2
-VALUES ('triglycerides',1,'44Q..',NULL,'Serum triglycerides'),('triglycerides',1,'44Q..00',NULL,'Serum triglycerides'),('triglycerides',1,'44Q4.',NULL,'Serum fasting triglyceride level'),('triglycerides',1,'44Q4.00',NULL,'Serum fasting triglyceride level'),('triglycerides',1,'44Q5.',NULL,'Serum random triglyceride level'),('triglycerides',1,'44Q5.00',NULL,'Serum random triglyceride level'),('triglycerides',1,'44QZ.',NULL,'Serum triglycerides NOS'),('triglycerides',1,'44QZ.00',NULL,'Serum triglycerides NOS')
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -1064,7 +1152,9 @@ CREATE TABLE #codesctv3 (
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
-VALUES ('bmi',1,'22K..',NULL,'Body Mass Index'),('bmi',1,'22K1.',NULL,'Body Mass Index normal K/M2'),('bmi',1,'22K2.',NULL,'Body Mass Index high K/M2'),('bmi',1,'22K3.',NULL,'Body Mass Index low K/M2'),('bmi',1,'22K4.',NULL,'Body mass index index 25-29 - overweight'),('bmi',1,'22K5.',NULL,'Body mass index 30+ - obesity'),('bmi',1,'X76CO',NULL,'Quetelet index'),('bmi',1,'Xa7wG',NULL,'Observation of body mass index'),('bmi',1,'Xaa0k',NULL,'Childhood obesity'),('bmi',1,'Xaatm',NULL,'Child BMI centile'),('bmi',1,'Xabdn',NULL,'Downs syndrome BMI centile'),('bmi',1,'XabHx',NULL,'Obese class I (BMI 30.0-34.9)'),('bmi',1,'XabHy',NULL,'Obese class II (BMI 35.0-39.9)'),('bmi',1,'XabHz',NULL,'Obese cls III (BMI eq/gr 40.0)'),('bmi',1,'XabSe',NULL,'Child BMI < 0.4th centile'),('bmi',1,'XabSf',NULL,'Child BMI 0.4th-1.9th centile'),('bmi',1,'XabSg',NULL,'Child BMI on 2nd centile'),('bmi',1,'XabSh',NULL,'Child BMI 3rd-8th centile'),('bmi',1,'XabSj',NULL,'Child BMI on 9th centile'),('bmi',1,'XabSk',NULL,'Child BMI 10th-24th centile'),('bmi',1,'XabSl',NULL,'Child BMI on 25th centile'),('bmi',1,'XabSm',NULL,'Child BMI 26th-49th centile'),('bmi',1,'XabSn',NULL,'Child BMI on 50th centile'),('bmi',1,'XabTe',NULL,'Child BMI on 75th centile'),('bmi',1,'XabTf',NULL,'Child BMI 76th-90th centile'),('bmi',1,'XabTg',NULL,'Child BMI on 91st centile'),('bmi',1,'XabTh',NULL,'Child BMI 92nd-97th centile'),('bmi',1,'XabTi',NULL,'Child BMI on 98th centile'),('bmi',1,'XabTj',NULL,'Child BMI 98.1-99.6 centile'),('bmi',1,'XabTk',NULL,'Child BMI > 99.6th centile'),('bmi',1,'XabTZ',NULL,'Child BMI 51st-74th centile'),('bmi',1,'XaCDR',NULL,'Body mass index less than 20'),('bmi',1,'XaJJH',NULL,'BMI 40+ - severely obese'),('bmi',1,'XaJqk',NULL,'Body mass index 20-24 - normal'),('bmi',1,'XaVwA',NULL,'Body mass index centile'),('bmi',1,'XaZck',NULL,'Baseline BMI centile'),('bmi',1,'XaZcl',NULL,'Baseline body mass index'),('bmi',2,'22K..',NULL,'Body Mass Index');
+VALUES ('bmi',2,'22K..',NULL,'Body Mass Index');
+INSERT INTO #codesctv3
+VALUES ('height',1,'229..',NULL,'O/E - height'),('height',1,'229Z.',NULL,'O/E - height NOS');
 INSERT INTO #codesctv3
 VALUES ('smoking-status-current',1,'1373.',NULL,'Lt cigaret smok, 1-9 cigs/day'),('smoking-status-current',1,'1374.',NULL,'Mod cigaret smok, 10-19 cigs/d'),('smoking-status-current',1,'1375.',NULL,'Hvy cigaret smok, 20-39 cigs/d'),('smoking-status-current',1,'1376.',NULL,'Very hvy cigs smoker,40+cigs/d'),('smoking-status-current',1,'137C.',NULL,'Keeps trying to stop smoking'),('smoking-status-current',1,'137D.',NULL,'Admitted tobacco cons untrue ?'),('smoking-status-current',1,'137G.',NULL,'Trying to give up smoking'),('smoking-status-current',1,'137H.',NULL,'Pipe smoker'),('smoking-status-current',1,'137J.',NULL,'Cigar smoker'),('smoking-status-current',1,'137M.',NULL,'Rolls own cigarettes'),('smoking-status-current',1,'137P.',NULL,'Cigarette smoker'),('smoking-status-current',1,'137Q.',NULL,'Smoking started'),('smoking-status-current',1,'137R.',NULL,'Current smoker'),('smoking-status-current',1,'137Z.',NULL,'Tobacco consumption NOS'),('smoking-status-current',1,'Ub1tI',NULL,'Cigarette consumption'),('smoking-status-current',1,'Ub1tJ',NULL,'Cigar consumption'),('smoking-status-current',1,'Ub1tK',NULL,'Pipe tobacco consumption'),('smoking-status-current',1,'XaBSp',NULL,'Smoking restarted'),('smoking-status-current',1,'XaIIu',NULL,'Smoking reduced'),('smoking-status-current',1,'XaIkW',NULL,'Thinking about stop smoking'),('smoking-status-current',1,'XaIkX',NULL,'Ready to stop smoking'),('smoking-status-current',1,'XaIkY',NULL,'Not interested stop smoking'),('smoking-status-current',1,'XaItg',NULL,'Reason for restarting smoking'),('smoking-status-current',1,'XaIuQ',NULL,'Cigarette pack-years'),('smoking-status-current',1,'XaJX2',NULL,'Min from wake to 1st tobac con'),('smoking-status-current',1,'XaWNE',NULL,'Failed attempt to stop smoking'),('smoking-status-current',1,'XaZIE',NULL,'Waterpipe tobacco consumption'),('smoking-status-current',1,'XE0og',NULL,'Tobacco smoking consumption'),('smoking-status-current',1,'XE0oq',NULL,'Cigarette smoker'),('smoking-status-current',1,'XE0or',NULL,'Smoking started');
 INSERT INTO #codesctv3
@@ -1080,29 +1170,15 @@ VALUES ('smoking-status-passive',1,'137I.',NULL,'Passive smoker'),('smoking-stat
 INSERT INTO #codesctv3
 VALUES ('smoking-status-trivial',1,'XagO3',NULL,'Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi',NULL,'Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.',NULL,'Trivial smoker - < 1 cig/day');
 INSERT INTO #codesctv3
-VALUES ('covid-vaccination',1,'Y210d',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7',NULL,'Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8',NULL,'Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e',NULL,'SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'Y2a10',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1'),('covid-vaccination',1,'Y2a39',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2'),('covid-vaccination',1,'Y2b9d',NULL,'COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2'),('covid-vaccination',1,'Y2f45',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f48',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f57',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster'),('covid-vaccination',1,'Y31cc',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination'),('covid-vaccination',1,'Y31e6',NULL,'Administration of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e7',NULL,'Administration of first dose of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e8',NULL,'Administration of second dose of SARS-CoV-2 mRNA vaccine');
+VALUES ('weight',1,'22A..',NULL,'O/E - weight'),('weight',1,'22AZ.',NULL,'O/E - weight NOS');
 INSERT INTO #codesctv3
-VALUES ('cholesterol',1,'X772L',NULL,'Cholesterol level'),('cholesterol',1,'X772M',NULL,'High density lipoprot chol lev'),('cholesterol',1,'X772N',NULL,'LDL-Low dens lipoprot chol lev'),('cholesterol',1,'X773m',NULL,'Percentage chol as ester'),('cholesterol',1,'X773W',NULL,'HDL/LDL ratio'),('cholesterol',1,'X80J1',NULL,'HDL - High density lipoprotein'),('cholesterol',1,'X80Nb',NULL,'Hi density lipoprot subfrac 2'),('cholesterol',1,'X80Nc',NULL,'Hi density lipoprot subfrac 3'),('cholesterol',1,'X80Ne',NULL,'LDL - Low density lipoprotein'),('cholesterol',1,'X80NT',NULL,'Free cholesterol'),('cholesterol',1,'X80NU',NULL,'Cholesterol ester'),('cholesterol',1,'XabE1',NULL,'Se non HDL cholesterol level'),('cholesterol',1,'XabT0',NULL,'Estim serum non-HDL cholest lv'),('cholesterol',1,'Xabub',NULL,'Se HDL chol:triglyceride ratio'),('cholesterol',1,'XaEil',NULL,'Hi dens lipoprt/tot chol ratio'),('cholesterol',1,'XaERR',NULL,'Cholesterol/HDL ratio'),('cholesterol',1,'XaEUp',NULL,'Lipoprotein cholesterol ratio'),('cholesterol',1,'XaEUq',NULL,'Serum cholesterol/HDL ratio'),('cholesterol',1,'XaEUr',NULL,'Plasma cholesterol/HDL ratio'),('cholesterol',1,'XaEUs',NULL,'Serum cholesterol/LDL ratio'),('cholesterol',1,'XaEUt',NULL,'Plasma cholesterol/LDL ratio'),('cholesterol',1,'XaEUu',NULL,'Serum cholesterol/VLDL ratio'),('cholesterol',1,'XaEUv',NULL,'Plasma cholesterol/VLDL ratio'),('cholesterol',1,'XaEVQ',NULL,'Serum LDL/HDL ratio'),('cholesterol',1,'XaEVr',NULL,'Plasma HDL cholesterol level'),('cholesterol',1,'XaEVR',NULL,'Plasma LDL/HDL ratio'),('cholesterol',1,'XaEVs',NULL,'Plasma LDL cholesterol level'),('cholesterol',1,'XaFs9',NULL,'Fasting cholesterol level'),('cholesterol',1,'XaIp4',NULL,'Calculated LDL cholesterol lev'),('cholesterol',1,'XaIqd',NULL,'Pre-treatmnt serum cholest lev'),('cholesterol',1,'XaIRd',NULL,'Plasma total cholesterol level'),('cholesterol',1,'XaIYp',NULL,'Fluid sample cholesterol level'),('cholesterol',1,'XaJe9',NULL,'Serum total cholesterol level'),('cholesterol',1,'XaLux',NULL,'Serum fastng total cholesterol'),('cholesterol',1,'XaN3z',NULL,'Non HDL cholesterol level'),('cholesterol',1,'XE28o',NULL,'HDL : LDL ratio'),('cholesterol',1,'XE2eD',NULL,'Serum cholesterol'),('cholesterol',1,'XE2mn',NULL,'Ser HDL/non-HDL cholest ratio'),('cholesterol',1,'XSK14',NULL,'Total cholesterol measurement'),('cholesterol',1,'44P..',NULL,'Serum cholesterol'),('cholesterol',1,'44PZ.',NULL,'Serum cholesterol NOS'),('cholesterol',1,'44PL.',NULL,'Non HDL cholesterol level'),('cholesterol',1,'44PL1',NULL,'Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL0',NULL,'Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PK.',NULL,'Serum fasting total cholesterol'),('cholesterol',1,'44PJ.',NULL,'Serum total cholesterol level'),('cholesterol',1,'44PI.',NULL,'Calculated LDL cholesterol level'),('cholesterol',1,'44PH.',NULL,'Total cholesterol measurement'),('cholesterol',1,'44PG.',NULL,'HDL : total cholesterol ratio'),('cholesterol',1,'44PF.',NULL,'Total cholesterol:HDL ratio'),('cholesterol',1,'44PE.',NULL,'Serum random LDL cholesterol level'),('cholesterol',1,'44PD.',NULL,'Serum fasting LDL cholesterol level'),('cholesterol',1,'44PC.',NULL,'Serum random HDL cholesterol level'),('cholesterol',1,'44PB.',NULL,'Serum fasting HDL cholesterol level'),('cholesterol',1,'44P9.',NULL,'Serum cholesterol studies'),('cholesterol',1,'44P8.',NULL,'Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P7.',NULL,'Serum VLDL cholesterol level'),('cholesterol',1,'44P6.',NULL,'Serum LDL cholesterol level'),('cholesterol',1,'44P5.',NULL,'Serum HDL cholesterol level'),('cholesterol',1,'44P4.',NULL,'Serum cholesterol very high'),('cholesterol',1,'44P3.',NULL,'Serum cholesterol raised'),('cholesterol',1,'44P2.',NULL,'Serum cholesterol borderline'),('cholesterol',1,'44P1.',NULL,'Serum cholesterol normal'),('cholesterol',1,'44PA.',NULL,'HDL : LDL ratio'),('cholesterol',1,'44lM.',NULL,'Plasma LDL/HDL ratio'),('cholesterol',1,'44lL.',NULL,'Serum LDL/HDL ratio'),('cholesterol',1,'44lK.',NULL,'Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.',NULL,'Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lI.',NULL,'Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lH.',NULL,'Serum cholesterol/LDL ratio'),('cholesterol',1,'44lG.',NULL,'Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lF.',NULL,'Serum cholesterol/HDL ratio'),('cholesterol',1,'44l2.',NULL,'Cholesterol/HDL ratio'),('cholesterol',1,'44dB.',NULL,'Plasma LDL cholesterol level'),('cholesterol',1,'44dA.',NULL,'Plasma HDL cholesterol level'),('cholesterol',1,'44d5.',NULL,'Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d4.',NULL,'Plasma random LDL cholesterol level'),('cholesterol',1,'44d3.',NULL,'Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d2.',NULL,'Plasma random HDL cholesterol level'),('cholesterol',1,'44R4.',NULL,'LDL - electrophoresis'),('cholesterol',1,'44R4.',NULL,'Lipoprotein electroph. - LDL'),('cholesterol',1,'44R3.',NULL,'HDL - electrophoresis'),('cholesterol',1,'44R3.',NULL,'Lipoprotein electroph. - HDL'),('cholesterol',1,'662a.',NULL,'Pre-treatment serum cholesterol level'),('cholesterol',1,'44OE.',NULL,'Plasma total cholesterol level'),('cholesterol',1,'44lzY',NULL,'Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'4I3O.',NULL,'Fluid sample cholesterol level'),('cholesterol',2,'XSK14',NULL,'Total cholesterol measurement'),('cholesterol',2,'44PH.',NULL,'Total cholesterol measurement'),('cholesterol',2,'44PJ.',NULL,'Serum total cholesterol level'),('cholesterol',2,'44P..',NULL,'Serum cholesterol'),('cholesterol',2,'44PZ.',NULL,'Serum cholesterol NOS'),('cholesterol',2,'XE2eD',NULL,'Serum cholesterol'),('cholesterol',2,'XaJe9',NULL,'Serum total cholesterol level');
+VALUES ('covid-vaccination',1,'Y210d',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7',NULL,'Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8',NULL,'Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e',NULL,'SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'Y2a10',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1'),('covid-vaccination',1,'Y2a39',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2'),('covid-vaccination',1,'Y2b9d',NULL,'COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2'),('covid-vaccination',1,'Y2f45',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f48',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f57',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster'),('covid-vaccination',1,'Y31cc',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination'),('covid-vaccination',1,'Y31e6',NULL,'Administration of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e7',NULL,'Administration of first dose of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e8',NULL,'Administration of second dose of SARS-CoV-2 mRNA vaccine');
 INSERT INTO #codesctv3
 VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
 INSERT INTO #codesctv3
 VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
 INSERT INTO #codesctv3
-VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive');
-INSERT INTO #codesctv3
-VALUES ('diastolic-blood-pressure',1,'X779S',NULL,'DAP-Diastolic arterial pressur'),('diastolic-blood-pressure',1,'X779T',NULL,'DAP-Diastolic arterial pressur'),('diastolic-blood-pressure',1,'Xac5K',NULL,'Baseline diastolic BP'),('diastolic-blood-pressure',1,'Xaedp',NULL,'Non-invasive centrl diastlc BP'),('diastolic-blood-pressure',1,'XaF4a',NULL,'Ave day diastol blood pressure'),('diastolic-blood-pressure',1,'XaF4b',NULL,'Ave 24h diastol blood pressure'),('diastolic-blood-pressure',1,'XaF4e',NULL,'24h diastolic blood pressure'),('diastolic-blood-pressure',1,'XaF4Q',NULL,'Min diastolic blood pressure'),('diastolic-blood-pressure',1,'XaF4R',NULL,'Max diastolic blood pressure'),('diastolic-blood-pressure',1,'XaF4S',NULL,'Ave diastolic blood pressure'),('diastolic-blood-pressure',1,'XaF4T',NULL,'Min day diastol blood pressure'),('diastolic-blood-pressure',1,'XaF4U',NULL,'Min night diast blood pressure'),('diastolic-blood-pressure',1,'XaF4V',NULL,'Min 24h diastol blood pressure'),('diastolic-blood-pressure',1,'XaF4W',NULL,'Max night diast blood pressure'),('diastolic-blood-pressure',1,'XaF4X',NULL,'Max day diast blood pressure'),('diastolic-blood-pressure',1,'XaF4Y',NULL,'Max 24h diastol blood pressure'),('diastolic-blood-pressure',1,'XaF4Z',NULL,'Ave night diast blood pressure'),('diastolic-blood-pressure',1,'XaIwk',NULL,'Standing diastolic BP'),('diastolic-blood-pressure',1,'XaJ2F',NULL,'Sitting diastolic BP'),('diastolic-blood-pressure',1,'XaJ2H',NULL,'Lying diastolic blood pressure'),('diastolic-blood-pressure',1,'XaKFw',NULL,'Average home diastolic BP'),('diastolic-blood-pressure',1,'XaKjG',NULL,'Ambulatory diastolic BP'),('diastolic-blood-pressure',1,'XaYg8',NULL,'Diastolic BP centile'),('diastolic-blood-pressure',1,'XM02Y',NULL,'DAP-Diastolic arterial pressur'),('diastolic-blood-pressure',1,'246o1',NULL,'Non-invasive central diastolic blood pressure'),('diastolic-blood-pressure',1,'246n0',NULL,'Baseline diastolic blood pressure'),('diastolic-blood-pressure',1,'246m.',NULL,'Average diastolic blood pressure'),('diastolic-blood-pressure',1,'246i.',NULL,'Diastolic blood pressure centile'),('diastolic-blood-pressure',1,'246f.',NULL,'Ambulatory diastolic blood pressure'),('diastolic-blood-pressure',1,'246c.',NULL,'Average home diastolic blood pressure'),('diastolic-blood-pressure',1,'246a.',NULL,'Average night interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246X.',NULL,'Average day interval diastolic blood pressure'),('diastolic-blood-pressure',1,'246V.',NULL,'Average 24 hour diastolic blood pressure'),('diastolic-blood-pressure',1,'246T.',NULL,'Lying diastolic blood pressure'),('diastolic-blood-pressure',1,'246R.',NULL,'Sitting diastolic blood pressure'),('diastolic-blood-pressure',1,'246P.',NULL,'Standing diastolic blood pressure'),('diastolic-blood-pressure',1,'246L.',NULL,'Target diastolic blood pressure'),('diastolic-blood-pressure',1,'246A.',NULL,'O/E - Diastolic BP reading');
-INSERT INTO #codesctv3
-VALUES ('egfr',1,'X70kK',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'X70kL',NULL,'Cr51- EDTA clearance - GFR'),('egfr',1,'X90kf',NULL,'With GFR'),('egfr',1,'XaK8y',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'XaMDA',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'XaZpN',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
-INSERT INTO #codesctv3
-VALUES ('hba1c',1,'X772q',NULL,'Haemoglobin A1c level'),('hba1c',1,'XE24t',NULL,'Hb. A1C - diabetic control'),('hba1c',1,'42W1.',NULL,'Hb. A1C < 7% - good control'),('hba1c',1,'42W2.',NULL,'Hb. A1C 7-10% - borderline'),('hba1c',1,'42W3.',NULL,'Hb. A1C > 10% - bad control'),('hba1c',1,'42WZ.',NULL,'Hb. A1C - diabetic control NOS'),('hba1c',1,'X80U4',NULL,'Glycosylat haemoglobin-c frac'),('hba1c',1,'XaCES',NULL,'HbA1 - diabetic control'),('hba1c',1,'XaCET',NULL,'HbA1 <7% - good control'),('hba1c',1,'XaCEV',NULL,'HbA1 >10% - bad control'),('hba1c',1,'XaCEU',NULL,'HbA1 7-10% - borderline contrl'),('hba1c',1,'XaERp',NULL,'HbA1c level (DCCT aligned)'),('hba1c',1,'XaPbt',NULL,'HbA1c levl - IFCC standardised'),('hba1c',1,'XabrE',NULL,'HbA1c (diagnostic refrn range)'),('hba1c',1,'XabrF',NULL,'HbA1c (monitoring ranges)'),('hba1c',1,'Xaezd',NULL,'HbA1c(diagnos ref rnge)IFCC st'),('hba1c',1,'Xaeze',NULL,'HbA1c(monitoring rnges)IFCC st'),('hba1c',1,'42W..',NULL,'Hb. A1C - diabetic control'),('hba1c',1,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W51',NULL,'HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50',NULL,'HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.',NULL,'HbA1c level (DCCT aligned)'),('hba1c',1,'44TB.',NULL,'Haemoglobin A1c level'),('hba1c',1,'44TB1',NULL,'Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB0',NULL,'Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'XaERp',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'XaPbt',NULL,'HbA1c levl - IFCC standardised'),('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)');
-INSERT INTO #codesctv3
-VALUES ('hdl-cholesterol',1,'44P5.',NULL,'Serum HDL cholesterol level'),('hdl-cholesterol',1,'44PC.',NULL,'Ser random HDL cholesterol lev'),('hdl-cholesterol',1,'XaEVr',NULL,'Plasma HDL cholesterol level');
-INSERT INTO #codesctv3
-VALUES ('ldl-cholesterol',1,'44P6.',NULL,'Serum LDL cholesterol level'),('ldl-cholesterol',1,'XaIp4',NULL,'Calculated LDL cholesterol lev'),('ldl-cholesterol',1,'XaEVs',NULL,'Plasma LDL cholesterol level');
-INSERT INTO #codesctv3
-VALUES ('systolic-blood-pressure',1,'X779Q',NULL,'Non-invasive systol art press'),('systolic-blood-pressure',1,'X779R',NULL,'Invasive systol arterial press'),('systolic-blood-pressure',1,'Xac5L',NULL,'Baseline systolic BP'),('systolic-blood-pressure',1,'Xaedo',NULL,'Non-invasive central systlc BP'),('systolic-blood-pressure',1,'XaF4d',NULL,'24h systolic blood pressure'),('systolic-blood-pressure',1,'XaF4D',NULL,'Min systolic blood pressure'),('systolic-blood-pressure',1,'XaF4E',NULL,'Max systolic blood pressure'),('systolic-blood-pressure',1,'XaF4F',NULL,'Ave systolic blood pressure'),('systolic-blood-pressure',1,'XaF4G',NULL,'Min day systol blood pressure'),('systolic-blood-pressure',1,'XaF4H',NULL,'Min night syst blood pressure'),('systolic-blood-pressure',1,'XaF4I',NULL,'Max night syst blood pressure'),('systolic-blood-pressure',1,'XaF4J',NULL,'Max day syst blood pressure'),('systolic-blood-pressure',1,'XaF4K',NULL,'Ave night syst blood pressure'),('systolic-blood-pressure',1,'XaF4L',NULL,'Ave day systol blood pressure'),('systolic-blood-pressure',1,'XaF4M',NULL,'Min 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4N',NULL,'Max 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4O',NULL,'Ave 24h systol blood pressure'),('systolic-blood-pressure',1,'XaIwj',NULL,'Standing systolic BP'),('systolic-blood-pressure',1,'XaJ2E',NULL,'Sitting systolic BP'),('systolic-blood-pressure',1,'XaJ2G',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'XaKFx',NULL,'Average home systolic BP'),('systolic-blood-pressure',1,'XaKjF',NULL,'Ambulatory systolic BP'),('systolic-blood-pressure',1,'XaXfX',NULL,'Post exerc sys BP respons norm'),('systolic-blood-pressure',1,'XaXfY',NULL,'Post exer sys BP respon abnorm'),('systolic-blood-pressure',1,'XaYg9',NULL,'Systolic BP centile'),('systolic-blood-pressure',1,'XM02X',NULL,'SAP - Systol arterial pressure'),('systolic-blood-pressure',1,'246o0',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246n1',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246l.',NULL,'Average systolic blood pressure'),('systolic-blood-pressure',1,'246j.',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'246e.',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246d.',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'246b.',NULL,'Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.',NULL,'Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246W.',NULL,'Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246S.',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'246Q.',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246N.',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'246K.',NULL,'Target systolic blood pressure'),('systolic-blood-pressure',1,'2469.',NULL,'O/E - Systolic BP reading');
-INSERT INTO #codesctv3
-VALUES ('triglycerides',1,'XE2q9',NULL,'Serum triglycerides'),('triglycerides',1,'XE2q9',NULL,'Serum triglyceride levels'),('triglycerides',1,'44Q4.',NULL,'Serum fasting triglyceride level'),('triglycerides',1,'44QZ.',NULL,'Serum triglycerides NOS')
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -1117,7 +1193,9 @@ CREATE TABLE #codessnomed (
 ) ON [PRIMARY];
 
 INSERT INTO #codessnomed
-VALUES ('bmi',1,'6497000',NULL,'Decreased body mass index (finding)'),('bmi',1,'35425004',NULL,'Normal body mass index (finding)'),('bmi',1,'48499001',NULL,'Increased body mass index (finding)'),('bmi',1,'162863004',NULL,'Body mass index 25-29 - overweight'),('bmi',1,'162864005',NULL,'BMI 30+ - obesity'),('bmi',1,'301331008',NULL,'Observation of body mass index'),('bmi',1,'310252000',NULL,'BMI less than 20'),('bmi',1,'408512008',NULL,'Body mass index 40+ - morbidly obese'),('bmi',1,'412768003',NULL,'Body mass index 20-24 - normal'),('bmi',1,'427090001',NULL,'Body mass index less than 16.5'),('bmi',1,'450451007',NULL,'Childhood overweight BMI greater than 85 percentile'),('bmi',1,'722595002',NULL,'Overweight in adulthood with BMI of 25 or more but less than 30'),('bmi',1,'920141000000102',NULL,'Child BMI (body mass index) less than 0.4th centile'),('bmi',1,'920161000000101',NULL,'Child BMI (body mass index) 0.4th-1.9th centile'),('bmi',1,'920181000000105',NULL,'Child BMI (body mass index) on 2nd centile'),('bmi',1,'920201000000109',NULL,'Child BMI (body mass index) 3rd-8th centile'),('bmi',1,'920231000000103',NULL,'Child BMI (body mass index) on 9th centile'),('bmi',1,'920251000000105',NULL,'Child BMI (body mass index) 10th-24th centile'),('bmi',1,'920271000000101',NULL,'Child BMI (body mass index) on 25th centile'),('bmi',1,'920291000000102',NULL,'Child BMI (body mass index) 26th-49th centile'),('bmi',1,'920311000000101',NULL,'Child BMI (body mass index) on 50th centile'),('bmi',1,'920841000000108',NULL,'Child BMI (body mass index) 51st-74th centile'),('bmi',1,'920931000000108',NULL,'Child BMI (body mass index) on 75th centile'),('bmi',1,'920951000000101',NULL,'Child BMI (body mass index) 76th-90th centile'),('bmi',1,'920971000000105',NULL,'Child BMI (body mass index) on 91st centile'),('bmi',1,'920991000000109',NULL,'Child BMI (body mass index) 92nd-97th centile'),('bmi',1,'921011000000105',NULL,'Child BMI (body mass index) on 98th centile'),('bmi',1,'921031000000102',NULL,'Child BMI (body mass index) 98.1st-99.6th centile'),('bmi',1,'921051000000109',NULL,'Child BMI (body mass index) greater than 99.6th centile'),('bmi',1,'914721000000105',NULL,'Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'914731000000107',NULL,'Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'914741000000103',NULL,'Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'443371000124107',NULL,'Body mass index 30.00 to 34.99'),('bmi',1,'443381000124105',NULL,'Body mass index 35.00 to 39.99'),('bmi',1,'60621009',NULL,'Quetelet index'),('bmi',1,'846931000000101',NULL,'Baseline BMI (body mass index)'),('bmi',1,'852451000000103',NULL,'Maximum body mass index (observable entity)'),('bmi',1,'852461000000100',NULL,'Minimum body mass index (observable entity)'),('bmi',1,'446974000',NULL,'Body mass index centile'),('bmi',1,'846911000000109',NULL,'Baseline BMI (body mass index) centile'),('bmi',1,'896691000000102',NULL,'Child BMI (body mass index) centile'),('bmi',1,'926011000000101',NULL,'Downs syndrome BMI (body mass index) centile'),('bmi',1,'722562008',NULL,'Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40'),('bmi',1,'722563003',NULL,'Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40'),('bmi',1,'705131003',NULL,'Child at risk for overweight body mass index greater than 85 percentile'),('bmi',1,'43991000119102',NULL,'History of childhood obesity BMI 95-100 percentile'),('bmi',1,'698094009',NULL,'Calculation of body mass index'),('bmi',1,'444862003',NULL,'Childhood obesity BMI 95-100 percentile'),('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
+VALUES ('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
+INSERT INTO #codessnomed
+VALUES ('height',1,'14456009',NULL,'Measuring height of patient'),('height',1,'50373000',NULL,'Body height measure'),('height',1,'139977008',NULL,'O/E - height'),('height',1,'162755006',NULL,'On examination - height'),('height',1,'248327008',NULL,'General finding of height'),('height',1,'248333004',NULL,'Standing height');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-current',1,'266929003',NULL,'Smoking started (life style)'),('smoking-status-current',1,'836001000000109',NULL,'Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002',NULL,'Smoker (life style)'),('smoking-status-current',1,'65568007',NULL,'Cigarette smoker (life style)'),('smoking-status-current',1,'394873005',NULL,'Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000',NULL,'Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007',NULL,'Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002',NULL,'Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008',NULL,'Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004',NULL,'Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006',NULL,'Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001',NULL,'Smoker (& cigarette)'),('smoking-status-current',1,'160619003',NULL,'Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005',NULL,'Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007',NULL,'Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002',NULL,'Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003',NULL,'Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004',NULL,'Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005',NULL,'Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006',NULL,'Cigar smoker (life style)'),('smoking-status-current',1,'446172000',NULL,'Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009',NULL,'Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003',NULL,'Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003',NULL,'Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006',NULL,'Smoking restarted (life style)'),('smoking-status-current',1,'230058003',NULL,'Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006',NULL,'Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008',NULL,'Pipe smoker (life style)');
 INSERT INTO #codessnomed
@@ -1133,22 +1211,9 @@ VALUES ('smoking-status-passive',1,'43381005',NULL,'Passive smoker (finding)'),(
 INSERT INTO #codessnomed
 VALUES ('smoking-status-trivial',1,'266920004',NULL,'Trivial cigarette smoker (less than one cigarette/day) (life style)'),('smoking-status-trivial',1,'428041000124106',NULL,'Occasional tobacco smoker (finding)');
 INSERT INTO #codessnomed
-VALUES ('covid-vaccination',1,'1240491000000103',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)');
+VALUES ('weight',1,'27113001',NULL,'Body weight'),('weight',1,'139985004',NULL,'O/E - weight'),('weight',1,'162763007',NULL,'On examination - weight'),('weight',1,'248341004',NULL,'General weight finding'),('weight',1,'248345008',NULL,'Body weight'),('weight',1,'271604008',NULL,'Weight finding'),('weight',1,'301333006',NULL,'Finding of measures of body weight'),('weight',1,'363808001',NULL,'Measured body weight'),('weight',1,'424927000',NULL,'Body weight with shoes'),('weight',1,'425024002',NULL,'Body weight without shoes'),('weight',1,'735395000',NULL,'Current body weight'),('weight',1,'784399000',NULL,'Self reported body weight');
 INSERT INTO #codessnomed
-VALUES ('cholesterol',1,'13067005',NULL,'Cholesteryl esters measurement (procedure)'),('cholesterol',1,'17888004',NULL,'High density lipoprotein measurement (procedure)'),('cholesterol',1,'28036006',NULL,'High density lipoprotein cholesterol level'),('cholesterol',1,'77068002',NULL,'Cholesterol measurement (procedure)'),('cholesterol',1,'104583003',NULL,'High density lipoprotein/total cholesterol ratio measurement'),('cholesterol',1,'104584009',NULL,'Intermediate density lipoprotein cholesterol measurement'),('cholesterol',1,'104585005',NULL,'Very low density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'104586006',NULL,'Cholesterol/triglyceride ratio measurement (procedure)'),('cholesterol',1,'104594004',NULL,'Cholesterol esterase measurement (procedure)'),('cholesterol',1,'104777003',NULL,'Lecithin cholesterol acyltransferase measurement (procedure)'),('cholesterol',1,'104781003',NULL,'Lipids, cholesterol measurement (procedure)'),('cholesterol',1,'104990004',NULL,'Triglyceride and ester in high density lipoprotein measurement (procedure)'),('cholesterol',1,'104992007',NULL,'Triglyceride and ester in low density lipoprotein measurement'),('cholesterol',1,'113079009',NULL,'Low density lipoprotein cholesterol level'),('cholesterol',1,'121751004',NULL,'Cholesterol sulfate measurement (procedure)'),('cholesterol',1,'121868005',NULL,'Total cholesterol measurement (procedure)'),('cholesterol',1,'166832000',NULL,'Serum high density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'166833005',NULL,'Serum low density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'166834004',NULL,'Serum very low density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'166838001',NULL,'Serum fasting high density lipoprotein cholesterol measurement'),('cholesterol',1,'166839009',NULL,'Serum random high density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'166840006',NULL,'Serum fasting low density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'166841005',NULL,'Serum random low density lipoprotein cholesterol measurement'),('cholesterol',1,'166842003',NULL,'Total cholesterol:high density lipoprotein ratio measurement'),('cholesterol',1,'167072001',NULL,'Plasma random high density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'167073006',NULL,'Plasma fasting high density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'167074000',NULL,'Plasma random low density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'167075004',NULL,'Plasma fasting low density lipoprotein cholesterol measurement'),('cholesterol',1,'250743005',NULL,'HDL/LDL ratio'),('cholesterol',1,'250759005',NULL,'Measurement of percentage cholesterol as ester (procedure)'),('cholesterol',1,'271059008',NULL,'Serum high density lipoprotein/non-high density lipoprotein cholesterol ratio measurement (procedure)'),('cholesterol',1,'313811003',NULL,'Cholesterol/High density lipoprotein ratio measurement'),('cholesterol',1,'313988001',NULL,'Lipoprotein cholesterol ratio measurement (procedure)'),('cholesterol',1,'313989009',NULL,'Serum cholesterol/high density lipoprotein ratio measurement'),('cholesterol',1,'313990000',NULL,'Plasma cholesterol/high density lipoprotein ratio measurement'),('cholesterol',1,'313991001',NULL,'Serum cholesterol/low density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'313992008',NULL,'Plasma cholesterol/low density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'313993003',NULL,'Serum cholesterol/very low density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'313994009',NULL,'Plasma cholesterol/very low density lipoprotein ratio measurement'),('cholesterol',1,'314012003',NULL,'Serum low density lipoprotein/high density lipoprotein ratio measurement'),('cholesterol',1,'314013008',NULL,'Plasma low density lipoprotein/high density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'314035000',NULL,'Plasma high density lipoprotein cholesterol measurement (procedure)'),('cholesterol',1,'314036004',NULL,'Plasma low density lipoprotein cholesterol measurement'),('cholesterol',1,'315017003',NULL,'Fasting cholesterol level (procedure)'),('cholesterol',1,'390956002',NULL,'Plasma total cholesterol level'),('cholesterol',1,'391291008',NULL,'Fluid sample cholesterol level'),('cholesterol',1,'395065005',NULL,'Calculated low density lipoprotein cholesterol level (procedure)'),('cholesterol',1,'395153009',NULL,'Pre-treatment serum cholesterol level'),('cholesterol',1,'412808005',NULL,'Serum total cholesterol level'),('cholesterol',1,'443915001',NULL,'Measurement of total cholesterol and triglycerides'),('cholesterol',1,'789381000000104',NULL,'Cholesterol/phospholipid ratio measurement (procedure)'),('cholesterol',1,'195861000000108',NULL,'Cholesterol content measurement (procedure)'),('cholesterol',1,'293821000000103',NULL,'Non high density lipoprotein cholesterol level'),('cholesterol',1,'194351000000100',NULL,'Cholesterol/low density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'194361000000102',NULL,'Cholesterol/very low density lipoprotein ratio measurement (procedure)'),('cholesterol',1,'247801000000106',NULL,'Serum fasting total cholesterol'),('cholesterol',1,'194801000000108',NULL,'High density lipoprotein/non-high density lipoprotein cholesterol ratio measurement (procedure)'),('cholesterol',1,'912151000000109',NULL,'Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'920471000000100',NULL,'Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'1006191000000106',NULL,'Serum non HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1102851000000101',NULL,'Estimated serum non high density lipoprotein cholesterol level (observable entity)'),('cholesterol',1,'1030411000000101',NULL,'Non HDL cholesterol level'),('cholesterol',1,'1005681000000107',NULL,'Serum HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1015271000000109',NULL,'Serum HDL (high density lipoprotein):non-HDL (high density lipoprotein) cholesterol ratio'),('cholesterol',1,'1015681000000109',NULL,'Serum cholesterol/HDL (high density lipoprotein) ratio'),('cholesterol',1,'1015741000000109',NULL,'Serum LDL (low density lipoprotein)/HDL (high density lipoprotein) ratio'),('cholesterol',1,'1015751000000107',NULL,'Plasma LDL/HDL (low density lipoprotein/high density lipoprotein) ratio'),('cholesterol',1,'1010581000000101',NULL,'Plasma HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1015701000000106',NULL,'Serum cholesterol/LDL (low density lipoprotein) ratio'),('cholesterol',1,'1015711000000108',NULL,'Plasma cholesterol/LDL (low density lipoprotein) ratio'),('cholesterol',1,'1010591000000104',NULL,'Plasma LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1014501000000104',NULL,'Calculated LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1022191000000100',NULL,'Serum LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1003441000000101',NULL,'Serum VLDL (very low density lipoprotein) cholesterol level'),('cholesterol',1,'1015721000000102',NULL,'Serum cholesterol/VLDL (very low density lipoprotein) ratio'),('cholesterol',1,'1015731000000100',NULL,'Plasma cholesterol/VLDL (very low density lipoprotein) ratio'),('cholesterol',1,'1024231000000104',NULL,'Fluid sample cholesterol level'),('cholesterol',1,'1031421000000101',NULL,'High density lipoprotein/total cholesterol ratio'),('cholesterol',1,'1026451000000102',NULL,'Serum fasting HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1026461000000104',NULL,'Serum random HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1107681000000108',NULL,'HDL (high density lipoprotein) cholesterol molar concentration in serum'),('cholesterol',1,'1028831000000106',NULL,'Plasma random HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1028841000000102',NULL,'Plasma fasting HDL (high density lipoprotein) cholesterol level'),('cholesterol',1,'1107661000000104',NULL,'HDL (high density lipoprotein) cholesterol molar concentration in plasma'),('cholesterol',1,'1028861000000101',NULL,'Plasma fasting LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1028851000000104',NULL,'Plasma random LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1026471000000106',NULL,'Serum fasting LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1026481000000108',NULL,'Serum random LDL (low density lipoprotein) cholesterol level'),('cholesterol',1,'1015691000000106',NULL,'Plasma cholesterol/HDL (high density lipoprotein) ratio'),('cholesterol',1,'994351000000103',NULL,'Serum total cholesterol level'),('cholesterol',1,'1005671000000105',NULL,'Serum cholesterol level'),('cholesterol',1,'1017161000000104',NULL,'Plasma total cholesterol level'),('cholesterol',1,'1107731000000104',NULL,'Ratio of high density lipoprotein cholesterol to total cholesterol in plasma (observable entity)'),('cholesterol',1,'1107741000000108',NULL,'Ratio of high density lipoprotein cholesterol to total cholesterol in serum (observable entity)'),('cholesterol',1,'1028551000000102',NULL,'Total cholesterol:HDL (high density lipoprotein) ratio'),('cholesterol',1,'1029071000000109',NULL,'HDL/LDL ratio'),('cholesterol',1,'1083861000000102',NULL,'Serum HDL (high density lipoprotein) cholesterol/triglyceride ratio'),('cholesterol',1,'1083761000000106',NULL,'Serum fasting total cholesterol level (observable entity)'),('cholesterol',1,'1106541000000101',NULL,'Cholesterol molar concentration in serum'),('cholesterol',1,'1106531000000105',NULL,'Cholesterol molar concentration in plasma'),('cholesterol',1,'9422000',NULL,'Alpha-lipoprotein'),('cholesterol',1,'9556009',NULL,'Acyl CoA cholesterol acyltransferase'),
-('cholesterol',1,'22244007',NULL,'LDL - Low density lipoprotein'),('cholesterol',1,'73427004',NULL,'Cholesterol ester'),('cholesterol',1,'88557001',NULL,'LCAT - Lecithin cholesterol acyltransferase'),('cholesterol',1,'102741009',NULL,'Free cholesterol'),('cholesterol',1,'115332003',NULL,'High density lipoprotein subfraction 2'),('cholesterol',1,'115333008',NULL,'High density lipoprotein subfraction 3'),('cholesterol',1,'416724002',NULL,'Cholesterol derivative'),('cholesterol',1,'707084003',NULL,'HDL cholesterol 2'),('cholesterol',1,'707086001',NULL,'HDL cholesterol 2a'),('cholesterol',1,'707091000',NULL,'IDL cholesterol 1'),('cholesterol',1,'707092007',NULL,'IDL cholesterol 2'),('cholesterol',1,'707093002',NULL,'LDL cholesterol pattern A'),('cholesterol',1,'707094008',NULL,'LDL cholesterol pattern BI'),('cholesterol',1,'707095009',NULL,'LDL cholesterol pattern BII'),('cholesterol',1,'707096005',NULL,'LDL cholesterol, acetylated'),('cholesterol',1,'707097001',NULL,'LDL cholesterol, narrow density'),('cholesterol',1,'707098006',NULL,'Cholesterol in lipoprotein a'),('cholesterol',1,'707099003',NULL,'VLDL cholesterol 3'),('cholesterol',1,'707100006',NULL,'VLDL cholesterol, acetylated'),('cholesterol',1,'707101005',NULL,'VLDL cholesterol, beta'),('cholesterol',1,'707124003',NULL,'HDL cholesterol 2b'),('cholesterol',1,'707125002',NULL,'HDL cholesterol 3'),('cholesterol',1,'707126001',NULL,'HDL cholesterol 3a'),('cholesterol',1,'707127005',NULL,'HDL cholesterol 3c'),('cholesterol',1,'707128000',NULL,'HDL cholesterol 3b'),('cholesterol',1,'712626002',NULL,'Cholesterol in chylomicrons'),('cholesterol',1,'13644009',NULL,'High cholesterol'),('cholesterol',1,'124055002',NULL,'Decreased cholesterol esters (finding)'),('cholesterol',1,'166828006',NULL,'Serum cholesterol normal (finding)'),('cholesterol',1,'166830008',NULL,'Serum cholesterol raised (finding)'),('cholesterol',1,'166831007',NULL,'Serum cholesterol very high (finding)'),('cholesterol',1,'365793008',NULL,'Finding of cholesterol level'),('cholesterol',1,'365794002',NULL,'Finding of serum cholesterol level'),('cholesterol',1,'370992007',NULL,'High blood cholesterol/triglycerides'),('cholesterol',1,'398036000',NULL,'Low density lipoprotein catabolic defect'),('cholesterol',1,'442234001',NULL,'Serum cholesterol borderline high (finding)'),('cholesterol',1,'442350007',NULL,'Serum cholesterol borderline low (finding)'),('cholesterol',1,'445445006',NULL,'Raised low density lipoprotein cholesterol'),('cholesterol',1,'67991000119104',NULL,'Serum cholesterol abnormal (finding)'),('cholesterol',1,'850981000000101',NULL,'Cholesterol level (observable entity)'),('cholesterol',1,'852401000000104',NULL,'Maximum cholesterol level (observable entity)'),('cholesterol',1,'852411000000102',NULL,'Minimum cholesterol level (observable entity)'),('cholesterol',1,'853681000000104',NULL,'Total cholesterol level (observable entity)'),('cholesterol',1,'404670008',NULL,'Hollenhorst plaque'),('cholesterol',1,'166854003',NULL,'Lipoprotein electrophoresis - High density lipoprotein (procedure)'),('cholesterol',1,'166855002',NULL,'Lipoprotein electrophoresis - Low density lipoprotein'),('cholesterol',1,'124054003',NULL,'Increased cholesterol esters (finding)'),('cholesterol',1,'439953004',NULL,'Elevated cholesterol/high density lipoprotein ratio'),('cholesterol',1,'102857004',NULL,'Urinary crystal, cholesterol (finding)'),('cholesterol',1,'939391000000100',NULL,'Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',2,'1005671000000105',NULL,'Serum cholesterol level'),('cholesterol',2,'412808005',NULL,'Serum total cholesterol level'),('cholesterol',2,'121868005',NULL,'Total cholesterol measurement (procedure)'),('cholesterol',2,'994351000000103',NULL,'Serum total cholesterol level');
-INSERT INTO #codessnomed
-VALUES ('diastolic-blood-pressure',1,'174255007',NULL,'Non-invasive diastolic blood pressure'),('diastolic-blood-pressure',1,'251073000',NULL,'Invasive diastolic blood pressure'),('diastolic-blood-pressure',1,'271650006',NULL,'Diastolic arterial pressure'),('diastolic-blood-pressure',1,'314451001',NULL,'Minimum diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314452008',NULL,'Maximum diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314453003',NULL,'Average diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314454009',NULL,'Minimum day interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314455005',NULL,'Minimum night interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314456006',NULL,'Minimum 24 hour diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314457002',NULL,'Maximum night interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314458007',NULL,'Maximum day interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314459004',NULL,'Maximum 24 hour diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314460009',NULL,'Average night interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314461008',NULL,'Average day interval diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314462001',NULL,'Average 24 hour diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'314465004',NULL,'24 hour diastolic blood pressure (observable entity)'),('diastolic-blood-pressure',1,'400975005',NULL,'Standing diastolic blood pressure'),('diastolic-blood-pressure',1,'407555005',NULL,'Sitting diastolic blood pressure'),('diastolic-blood-pressure',1,'407557002',NULL,'Lying diastolic blood pressure'),('diastolic-blood-pressure',1,'413605002',NULL,'Average home diastolic blood pressure'),('diastolic-blood-pressure',1,'446226005',NULL,'Diastolic blood pressure on admission'),('diastolic-blood-pressure',1,'716632005',NULL,'Baseline diastolic blood pressure'),('diastolic-blood-pressure',1,'198091000000104',NULL,'Ambulatory diastolic blood pressure'),('diastolic-blood-pressure',1,'814081000000101',NULL,'Diastolic blood pressure centile'),('diastolic-blood-pressure',1,'1091811000000102',NULL,'Diastolic arterial pressure (observable entity)'),('diastolic-blood-pressure',1,'1036571000000105',NULL,'Non-invasive central diastolic blood pressure'),('diastolic-blood-pressure',1,'23154005',NULL,'Increased diastolic arterial pressure (finding)'),('diastolic-blood-pressure',1,'42689008',NULL,'Decreased diastolic arterial pressure (finding)'),('diastolic-blood-pressure',1,'49844009',NULL,'Abnormal diastolic arterial pressure (finding)'),('diastolic-blood-pressure',1,'53813002',NULL,'Normal diastolic arterial pressure (finding)'),('diastolic-blood-pressure',1,'163031004',NULL,'On examination - Diastolic BP reading');
-INSERT INTO #codessnomed
-VALUES ('egfr',1,'1011481000000105',NULL,'eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1011491000000107',NULL,'eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1020291000000106',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'1107411000000104',NULL,'eGFR (estimated glomerular filtration rate) by laboratory calculation'),('egfr',1,'241373003',NULL,'Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)'),('egfr',1,'262300005',NULL,'With glomerular filtration rate'),('egfr',1,'737105002',NULL,'GFR (glomerular filtration rate) calculation technique'),('egfr',1,'80274001',NULL,'Glomerular filtration rate (observable entity)'),('egfr',1,'996231000000108',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin');
-INSERT INTO #codessnomed
-VALUES ('hba1c',1,'1019431000000105',NULL,'HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',1,'1003671000000109',NULL,'Haemoglobin A1c level'),('hba1c',1,'1049301000000100',NULL,'HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'1049321000000109',NULL,'HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'1107481000000106',NULL,'HbA1c (haemoglobin A1c) molar concentration in blood'),('hba1c',1,'999791000000106',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'1010941000000103',NULL,'Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'1010951000000100',NULL,'Haemoglobin A1c (diagnostic reference range)'),('hba1c',1,'165679005',NULL,'Haemoglobin A1c (HbA1c) less than 7% indicating good diabetic control'),('hba1c',1,'165680008',NULL,'Haemoglobin A1c (HbA1c) between 7%-10% indicating borderline diabetic control'),('hba1c',1,'165681007',NULL,'Hemoglobin A1c (HbA1c) greater than 10% indicating poor diabetic control'),('hba1c',1,'365845005',NULL,'Haemoglobin A1C - diabetic control finding'),('hba1c',1,'444751005',NULL,'High hemoglobin A1c level'),('hba1c',1,'43396009',NULL,'Hemoglobin A1c measurement (procedure)'),('hba1c',1,'313835008',NULL,'Hemoglobin A1c measurement aligned to the Diabetes Control and Complications Trial'),('hba1c',1,'371981000000106',NULL,'Hb A1c (Haemoglobin A1c) level - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'444257008',NULL,'Calculation of estimated average glucose based on haemoglobin A1c'),('hba1c',1,'269823000',NULL,'Haemoglobin A1C - diabetic control interpretation'),('hba1c',1,'443911005',NULL,'Ordinal level of hemoglobin A1c'),('hba1c',1,'733830002',NULL,'HbA1c - Glycated haemoglobin-A1c'),('hba1c',2,'1019431000000105',NULL,'HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',2,'999791000000106',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised');
-INSERT INTO #codessnomed
-VALUES ('hdl-cholesterol',1,'1005681000000107',NULL,'Serum high density lipoprotein cholesterol level (observable entity)'),('hdl-cholesterol',1,'1010581000000101',NULL,'Plasma high density lipoprotein cholesterol level (observable entity)'),('hdl-cholesterol',1,'1026461000000104',NULL,'Serum random high density lipoprotein cholesterol level (observable entity)');
-INSERT INTO #codessnomed
-VALUES ('ldl-cholesterol',1,'1010591000000104',NULL,'Plasma low density lipoprotein cholesterol level (observable entity)'),('ldl-cholesterol',1,'1014501000000104',NULL,'Calculated low density lipoprotein cholesterol level (observable entity)'),('ldl-cholesterol',1,'1022191000000100',NULL,'Serum low density lipoprotein cholesterol level (observable entity)');
-INSERT INTO #codessnomed
-VALUES ('systolic-blood-pressure',1,'72313002',NULL,'Systolic arterial pressure (observable entity)'),('systolic-blood-pressure',1,'251070002',NULL,'Non-invasive systolic blood pressure'),('systolic-blood-pressure',1,'251071003',NULL,'Invasive systolic blood pressure'),('systolic-blood-pressure',1,'271649006',NULL,'SAP - Systolic arterial pressure'),('systolic-blood-pressure',1,'314438006',NULL,'Minimum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314439003',NULL,'Maximum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314440001',NULL,'Average systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314441002',NULL,'Minimum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314442009',NULL,'Minimum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314443004',NULL,'Maximum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314444005',NULL,'Maximum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314445006',NULL,'Average night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314446007',NULL,'Average day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314447003',NULL,'Minimum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314448008',NULL,'Maximum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314449000',NULL,'Average 24 hour systolic blood pressure (observable entity'),('systolic-blood-pressure',1,'314464000',NULL,'24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'399304008',NULL,'Systolic blood pressure on admission'),('systolic-blood-pressure',1,'400974009',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'407554009',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'407556006',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'413606001',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'716579001',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'198081000000101',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'814101000000107',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'1036551000000101',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'1087991000000109',NULL,'Level of reduction in systolic blood pressure on standing (observable entity)'),('systolic-blood-pressure',1,'12929001',NULL,'Normal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18050000',NULL,'Increased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18352002',NULL,'Abnormal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'81010002',NULL,'Decreased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'163030003',NULL,'On examination - Systolic blood pressure reading'),('systolic-blood-pressure',1,'707303003',NULL,'Post exercise systolic blood pressure response abnormal'),('systolic-blood-pressure',1,'707304009',NULL,'Post exercise systolic blood pressure response normal (finding)')
+VALUES ('covid-vaccination',1,'1240491000000103',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -1163,19 +1228,13 @@ CREATE TABLE #codesemis (
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1',NULL,'BMI centile');
-INSERT INTO #codesemis
 VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)');
 INSERT INTO #codesemis
 VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
 INSERT INTO #codesemis
 VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
 INSERT INTO #codesemis
-VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)');
-INSERT INTO #codesemis
-VALUES ('diastolic-blood-pressure',1,'EMISNQDI86',NULL,'Diastolic blood pressure - left arm'),('diastolic-blood-pressure',1,'EMISNQDI87',NULL,'Diastolic blood pressure - right arm');
-INSERT INTO #codesemis
-VALUES ('systolic-blood-pressure',1,'EMISNQSY8',NULL,'Systolic blood pressure - left arm'),('systolic-blood-pressure',1,'EMISNQSY9',NULL,'Systolic blood pressure - right arm')
+VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -1260,36 +1319,32 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
+--#endregion
+
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
 	CovidPositiveDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
-	ELSE 
-		INSERT INTO #CovidPatientsAllDiagnoses
-		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
-		FROM [RLS].[vw_COVID19]
-		WHERE (
-			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-		AND EventDate > '2020-01-01'
-		AND EventDate <= GETDATE();
-END
+
+INSERT INTO #CovidPatientsAllDiagnoses
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+FROM [SharedCare].[COVID19]
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= GETDATE()
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -1303,27 +1358,17 @@ CREATE TABLE #AllPositiveTestsTemp (
 	FK_Patient_Link_ID BIGINT,
 	TestDate DATE
 );
-BEGIN
-	IF 'false'='true'
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM RLS.vw_GP_Events
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		);
-	ELSE 
-		INSERT INTO #AllPositiveTestsTemp
-		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
-		FROM RLS.vw_GP_Events
-		WHERE SuppliedCode IN (
-			select Code from #AllCodes 
-			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
-			AND Version = 1
-		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
-END
+
+INSERT INTO #AllPositiveTestsTemp
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+FROM RLS.vw_GP_Events
+WHERE SuppliedCode IN (
+	select Code from #AllCodes 
+	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+	AND Version = 1
+)
+AND EventDate <= @TEMPWithCovidEndDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
 CREATE TABLE #CovidPatientsMultipleDiagnoses (
@@ -1398,15 +1443,19 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
+
 
 -- Get patient list of those with COVID death within 28 days of positive test
+-- 22.11.22: updated to deal with '28 days' flag under-reporting
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
-
+INTO #COVIDDeath 
+FROM RLS.vw_COVID19
+where (DeathWithin28Days = 'Y' 
+        OR
+    (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))
+	) and DeathDate <= DATEADD(dd,28, EventDate)
+--2414
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -1417,11 +1466,39 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  Units
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND EventDate < '2022-06-01';
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS eventData ON #PatientEventData;
+CREATE INDEX eventData ON #PatientEventData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, EventDate, [Value]);
+
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP VACCINATION QUERY
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [SharedCare].GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND	(
+		SuppliedCode IN (SELECT Code FROM #AllCodes) OR
+	    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR 
+		FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
+	)
+AND MedicationDate BETWEEN '2020-01-01' AND '2022-06-01'
+
+-- Improve performance later with an index (creates in ~1 minute - saves loads more than that)
+DROP INDEX IF EXISTS medData ON #PatientMedicationData;
+CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patient_Link_ID, MedicationDate);
 
 
 --┌─────┐
@@ -1454,7 +1531,7 @@ SELECT
 	HDMModifDate,
 	Sex
 INTO #AllPatientSexs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Sex IS NOT NULL;
 
@@ -1537,7 +1614,7 @@ SELECT
 		ELSE 10
 	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
 INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND IMD_Score IS NOT NULL
 AND IMD_Score != -1;
@@ -1622,7 +1699,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
@@ -1707,9 +1784,9 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #AllPatientBMI
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
+	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=2) 
 	AND EventDate <= @IndexDate
 	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
@@ -1720,9 +1797,9 @@ SELECT
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID,
 	[Value]
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
+	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=2)
 	AND EventDate <= @IndexDate
 	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
@@ -1747,7 +1824,7 @@ IF OBJECT_ID('tempdb..#PatientBMI') IS NOT NULL DROP TABLE #PatientBMI;
 SELECT 
 	p.FK_Patient_Link_ID,
 	BMI = TRY_CONVERT(NUMERIC(16,5), [Value]),
-	EventDate
+	EventDate AS DateOfBMIMeasurement
 INTO #PatientBMI 
 FROM #Patients p
 LEFT OUTER JOIN #TempCurrentBMI c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1825,29 +1902,36 @@ SELECT
 	a.FK_Patient_Link_ID,
 	EventDate,
 	CASE WHEN c.Concept IS NULL THEN s.Concept ELSE c.Concept END AS Concept,
-	-1 AS Severity
+	-1 AS SeverityWorst,
+	-1 AS SeverityCurrent
 INTO #AllPatientSmokingStatusConcept
 FROM #AllPatientSmokingStatusCodes a
 LEFT OUTER JOIN #VersionedCodeSets c on c.FK_Reference_Coding_ID = a.FK_Reference_Coding_ID
 LEFT OUTER JOIN #VersionedSnomedSets s on s.FK_Reference_SnomedCT_ID = a.FK_Reference_SnomedCT_ID;
 
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
+SET SeverityWorst = 2, 
+	SeverityCurrent = 2
 WHERE Concept IN ('smoking-status-current');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
+SET SeverityWorst = 2, 
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-ex');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
+SET SeverityWorst = 1,	
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-ex-trivial');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
+SET SeverityWorst = 1,
+	SeverityCurrent = 1
 WHERE Concept IN ('smoking-status-trivial');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
+SET SeverityWorst = 0,
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-never');
 UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
+SET SeverityWorst = 0,
+	SeverityCurrent = 0
 WHERE Concept IN ('smoking-status-currently-not');
 
 -- passive smokers
@@ -1860,13 +1944,13 @@ IF OBJECT_ID('tempdb..#TempWorst') IS NOT NULL DROP TABLE #TempWorst;
 SELECT 
 	FK_Patient_Link_ID, 
 	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
+		WHEN MAX(SeverityWorst) = 2 THEN 'non-trivial-smoker'
+		WHEN MAX(SeverityWorst) = 1 THEN 'trivial-smoker'
+		WHEN MAX(SeverityWorst) = 0 THEN 'non-smoker'
 	END AS [Status]
 INTO #TempWorst
 FROM #AllPatientSmokingStatusConcept
-WHERE Severity >= 0
+WHERE SeverityWorst >= 0
 GROUP BY FK_Patient_Link_ID;
 
 -- For "current" smoking status
@@ -1874,15 +1958,15 @@ IF OBJECT_ID('tempdb..#TempCurrent') IS NOT NULL DROP TABLE #TempCurrent;
 SELECT 
 	a.FK_Patient_Link_ID, 
 	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
+		WHEN MAX(SeverityCurrent) = 2 THEN 'non-trivial-smoker'
+		WHEN MAX(SeverityCurrent) = 1 THEN 'trivial-smoker'
+		WHEN MAX(SeverityCurrent) = 0 THEN 'non-smoker'
 	END AS [Status]
 INTO #TempCurrent
 FROM #AllPatientSmokingStatusConcept a
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate FROM #AllPatientSmokingStatusConcept
-	WHERE Severity >= 0
+	WHERE SeverityCurrent >= 0
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
 GROUP BY a.FK_Patient_Link_ID;
@@ -1892,8 +1976,8 @@ IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmo
 SELECT 
 	p.FK_Patient_Link_ID,
 	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
+	CASE WHEN w.[Status] IS NULL THEN 'unknown-smoking-status' ELSE w.[Status] END AS WorstSmokingStatus,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown-smoking-status' ELSE c.[Status] END AS CurrentSmokingStatus
 INTO #PatientSmokingStatus FROM #Patients p
 LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -1950,7 +2034,7 @@ GROUP BY FK_Patient_Link_ID;
 -- If patients have a tenancy id of 2 we take this as their most likely GP practice
 -- as this is the GP data feed and so most likely to be up to date
 IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
 AND GPPracticeCode IS NOT NULL
@@ -1968,7 +2052,7 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If every GPPracticeCode is the same for all their linked patient ids then we use that
 INSERT INTO #PatientPractice
-SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM SharedCare.Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 AND GPPracticeCode IS NOT NULL
 GROUP BY FK_Patient_Link_ID
@@ -1987,9 +2071,9 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
 -- If there is a unique most recent gp practice then we use that
 INSERT INTO #PatientPractice
-SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM SharedCare.Patient p
 INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM SharedCare.Patient
 	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
@@ -2033,7 +2117,6 @@ FROM #Patients p
 LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
-
 --┌────────────────────┐
 --│ COVID vaccinations │
 --└────────────────────┘
@@ -2072,15 +2155,17 @@ FROM #PatientEventData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND EventDate > '2020-12-01';
+AND EventDate > '2020-12-01'
+AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
-AND MedicationDate > '2020-12-01';
+AND MedicationDate > '2020-12-01'
+AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
@@ -2182,233 +2267,80 @@ DROP TABLE #VacTemp7;
 
 
 
--- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
-
-IF OBJECT_ID('tempdb..#HistoryOfLTCs') IS NOT NULL DROP TABLE #HistoryOfLTCs;
-SELECT FK_Patient_Link_ID,
-		HO_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
-		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
-		HO_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
-		HO_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
-		HO_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
-		HO_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
-		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
-		HO_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
-		HO_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
-		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke and tia' then 1 else 0 end),
-		HO_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
-		HO_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
-		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
-		HO_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
-		HO_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
-		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
-		HO_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
-		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
-		HO_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
-		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
-		HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
-		HO_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
-		HO_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
-		HO_anorexia_bulimia 			= MAX(CASE WHEN LTC = 'anorexia or bulimia' then 1 else 0 end),
-		HO_anxiety_other_somatoform_disorders	= MAX(CASE WHEN LTC = 'anxiety and other somatoform disorders' then 1 else 0 end),
-		HO_dementia						= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
-		HO_depression					= MAX(CASE WHEN LTC = 'depression' then 1 else 0 end),
-		HO_schizophrenia_or_bipolar		= MAX(CASE WHEN LTC = 'schizophrenia or bipolar' then 1 else 0 end),
-		HO_chronic_kidney_disease		= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
-		HO_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders' then 1 else 0 end),
-		HO_asthma						= MAX(CASE WHEN LTC = 'asthma' then 1 else 0 end),
-		HO_bronchiectasis				= MAX(CASE WHEN LTC = 'bronchiectasis' then 1 else 0 end),
-		HO_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis' then 1 else 0 end),
-		HO_copd							= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
-		HO_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision' then 1 else 0 end),
-		HO_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma' then 1 else 0 end),
-		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
-		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
-		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
-		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
-INTO #HistoryOfLTCs
-FROM #PatientsWithLTCs
-WHERE FirstDate < '2020-03-01'
-GROUP BY FK_Patient_Link_ID
-
--- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE DEVELOPED A NEW LTC FROM MARCH 2020 ONWARDS
-
-IF OBJECT_ID('tempdb..#NewLTCs') IS NOT NULL DROP TABLE #NewLTCs;
-SELECT FK_Patient_Link_ID,
-		NEW_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
-		NEW_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
-		NEW_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
-		NEW_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
-		NEW_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
-		NEW_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
-		NEW_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
-		NEW_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
-		NEW_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
-		NEW_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke and tia' then 1 else 0 end),
-		NEW_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
-		NEW_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
-		NEW_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
-		NEW_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
-		NEW_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
-		NEW_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
-		NEW_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
-		NEW_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
-		NEW_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
-		NEW_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
-		NEW_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
-		NEW_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
-		NEW_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
-		NEW_anorexia_bulimia 			= MAX(CASE WHEN LTC = 'anorexia or bulimia' then 1 else 0 end),
-		NEW_anxiety_other_somatoform_disorders	= MAX(CASE WHEN LTC = 'anxiety and other somatoform disorders' then 1 else 0 end),
-		NEW_dementia						= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
-		NEW_depression					= MAX(CASE WHEN LTC = 'depression' then 1 else 0 end),
-		NEW_schizophrenia_or_bipolar		= MAX(CASE WHEN LTC = 'schizophrenia or bipolar' then 1 else 0 end),
-		NEW_chronic_kidney_disease		= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
-		NEW_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders' then 1 else 0 end),
-		NEW_asthma						= MAX(CASE WHEN LTC = 'asthma' then 1 else 0 end),
-		NEW_bronchiectasis				= MAX(CASE WHEN LTC = 'bronchiectasis' then 1 else 0 end),
-		NEW_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis' then 1 else 0 end),
-		NEW_copd							= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
-		NEW_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision' then 1 else 0 end),
-		NEW_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma' then 1 else 0 end),
-		NEW_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
-		NEW_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
-		NEW_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
-		NEW_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
-INTO #NewLTCs
-FROM #PatientsWithLTCs
-WHERE FirstDate >= '2020-03-01'
-GROUP BY FK_Patient_Link_ID
-
-
 ------------------------------- OBSERVATIONS -------------------------------------
 
--- >>> Following code sets injected: systolic-blood-pressure v1/diastolic-blood-pressure v1/hba1c v2
--- >>> Following code sets injected: cholesterol v2/ldl-cholesterol v1/hdl-cholesterol v1/triglycerides v1/egfr v1
+-- >>> Following code sets injected: height v1/weight v1
 
--- CREATE TABLE OF OBSERVATIONS REQUESTED BY THE PI
-
-IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
+IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 SELECT 
 	FK_Patient_Link_ID,
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
-	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
 	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
-INTO #observations
+INTO #all_observations
 FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
-	((gp.FK_Reference_SnomedCT_ID IN (
-		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets sn WHERE sn.Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR sn.Concept IN ('hba1c', 'cholesterol') AND sn.[Version] = 2 )
-		OR (gp.FK_Reference_Coding_ID   IN (
-		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets co WHERE co.Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR co.Concept IN ('hba1c', 'cholesterol') AND co.[Version] = 2 ))
-
-	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
+	(
+	gp.FK_Reference_SnomedCT_ID   IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets sn WHERE sn.Concept In ('height', 'weight') AND [Version] = 1) 
+	OR gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets co   WHERE co.Concept In ('height', 'weight') AND [Version] = 1)
+	)
+	AND [Value] IS NOT NULL AND [Value] != '0' AND [Value] <> '0.00000' AND (TRY_CONVERT(NUMERIC (18,5), [Value])) > 0 -- REMOVE NULL AND ZERO VALUES
+	AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- REMOVE TEXT VALUES
 
 
--- WHERE CODES EXIST IN BOTH VERSIONS OF THE CODE SET (OR IN OTHER SIMILAR CODE SETS), THERE WILL BE DUPLICATES, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT 
+-- create table of height and weight measurements
 
-IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
-select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Version]
-into #all_observations
-from #observations o
-except
-select FK_Patient_Link_ID, EventDate, Concept, [Value], [Version] 
-from #observations o
-where 
-	(o.Concept = 'cholesterol' and o.[Version] <> 2) OR -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
-	(o.Concept = 'hba1c' and o.[Version] <> 2) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
-	AND [Value] > 0
+IF OBJECT_ID('tempdb..#height_weight') IS NOT NULL DROP TABLE #height_weight;
+SELECT FK_Patient_Link_ID, [Value], EventDate, Concept
+INTO #height_weight
+FROM #all_observations
+WHERE Concept in ('height', 'weight')
+	AND EventDate <= @IndexDate
 
--- FIND CLOSEST OBSERVATIONS BEFORE AND AFTER FIRST COVID POSITIVE DATE
+-- For height and weight we want closest prior to index date
+IF OBJECT_ID('tempdb..#TempCurrentHeightWeight') IS NOT NULL DROP TABLE #TempCurrentHeightWeight;
+SELECT 
+	a.FK_Patient_Link_ID, 
+	a.Concept,
+	Max([Value]) as [Value],
+	Max(EventDate) as EventDate
+INTO #TempCurrentHeightWeight
+FROM #height_weight a
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
+	FROM #height_weight
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
+GROUP BY a.FK_Patient_Link_ID, a.Concept;
 
-IF OBJECT_ID('tempdb..#most_recent_date_before_covid') IS NOT NULL DROP TABLE #most_recent_date_before_covid;
-SELECT o.FK_Patient_Link_ID, Concept, MAX(EventDate) as MostRecentDate
-INTO #most_recent_date_before_covid
-FROM #all_observations o
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = o.FK_Patient_Link_ID
-WHERE EventDate < cv.FirstCovidPositiveDate
-GROUP BY o.FK_Patient_Link_ID, Concept
-
-IF OBJECT_ID('tempdb..#most_recent_date_after_covid') IS NOT NULL DROP TABLE #most_recent_date_after_covid;
-SELECT o.FK_Patient_Link_ID, Concept, MIN(EventDate) as MostRecentDate
-INTO #most_recent_date_after_covid
-FROM #all_observations o
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = o.FK_Patient_Link_ID
-WHERE EventDate >= cv.FirstCovidPositiveDate
-GROUP BY o.FK_Patient_Link_ID, Concept
-
-IF OBJECT_ID('tempdb..#closest_observations') IS NOT NULL DROP TABLE #closest_observations;
-SELECT o.FK_Patient_Link_ID, 
-	o.EventDate, 
-	o.Concept, 
-	o.[Value], 
-	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
-	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
-INTO #closest_observations
-FROM #all_observations o
-LEFT JOIN #most_recent_date_before_covid bef ON bef.FK_Patient_Link_ID = o.FK_Patient_Link_ID AND bef.MostRecentDate = o.EventDate and bef.Concept = o.Concept
-LEFT JOIN #most_recent_date_after_covid aft ON aft.FK_Patient_Link_ID = o.FK_Patient_Link_ID AND aft.MostRecentDate = o.EventDate and aft.Concept = o.Concept
-WHERE bef.MostRecentDate = o.EventDate OR aft.MostRecentDate = o.EventDate
-
--- CREATE WIDE TABLE WITH CLOSEST OBSERVATIONS BEFORE AND AFTER COVID POSITIVE DATE
-
-IF OBJECT_ID('tempdb..#observations_wide') IS NOT NULL DROP TABLE #observations_wide;
-SELECT
-	 FK_Patient_Link_ID
-	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,SystolicBP_2 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,SystolicBP_2_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,diastolicBP_1 = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,diastolicBP_1_dt = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,diastolicBP_2 = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,diastolicBP_2_dt = MAX(CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,cholesterol_1 = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,cholesterol_1_dt = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,cholesterol_2 = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,cholesterol_2_dt = MAX(CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,HDLcholesterol_1 = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,HDLcholesterol_1_dt = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,HDLcholesterol_2 = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,HDLcholesterol_2_dt = MAX(CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,LDL_cholesterol_1 = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,LDL_cholesterol_1_dt = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,LDL_cholesterol_2 = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,LDL_cholesterol_2_dt = MAX(CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,Triglyceride_1 = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,Triglyceride_1_dt = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,Triglyceride_2 = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,Triglyceride_2_dt = MAX(CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,egfr_1 = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,egfr_1_dt = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,egfr_2 = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,egfr_2_dt = MAX(CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-	,hba1c_1 = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE NULL END)
-	,hba1c_1_dt = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE NULL END)
-	,hba1c_2 = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE NULL END)
-	,hba1c_2_dt = MAX(CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE NULL END)
-INTO #observations_wide
-FROM #closest_observations
-WHERE ROW_NUM = 1
-GROUP BY FK_Patient_Link_ID
+-- bring together in a table that can be joined to
+IF OBJECT_ID('tempdb..#PatientHeightWeight') IS NOT NULL DROP TABLE #PatientHeightWeight;
+SELECT 
+	p.FK_Patient_Link_ID,
+	height = MAX(CASE WHEN c.Concept = 'height' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	height_dt = MAX(CASE WHEN c.Concept = 'height' THEN EventDate ELSE NULL END),
+	weight = MAX(CASE WHEN c.Concept = 'weight' THEN TRY_CONVERT(NUMERIC(16,5), [Value]) ELSE NULL END),
+	weight_dt = MAX(CASE WHEN c.Concept = 'weight' THEN EventDate ELSE NULL END)
+INTO #PatientHeightWeight
+FROM #Cohort p
+LEFT OUTER JOIN #TempCurrentHeightWeight c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY p.FK_Patient_Link_ID
 
 
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
-
 
 SELECT  
 	PatientId = p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
 	BMI,
-	BMIDate = bmi.EventDate,
+	BMIDate = DateOfBMIMeasurement,
+	height,
+	height_dt,
+	weight,
+	weight_dt,
 	CurrentSmokingStatus = smok.CurrentSmokingStatus,
 	WorstSmokingStatus = smok.WorstSmokingStatus,
 	p.EthnicMainGroup,
@@ -2416,7 +2348,7 @@ SELECT
 	PracticeCCG = prac.CCG,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	IsCareHomeResident,
-	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
 	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
 	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
 	FirstCovidPositiveDate,
@@ -2430,129 +2362,15 @@ SELECT
 	SecondVaccineMonth = MONTH(VaccineDose2Date),
 	ThirdVaccineYear =  YEAR(VaccineDose3Date),
 	ThirdVaccineMonth = MONTH(VaccineDose3Date)
-	,HO_cancer = ISNULL(HO_painful_condition, 0)
-	,HO_painful_condition = ISNULL(HO_painful_condition, 0)
-	,HO_migraine  = ISNULL(HO_migraine , 0)
-	,HO_epilepsy = ISNULL(HO_epilepsy, 0)
-	,HO_coronary_heart_disease  = ISNULL(HO_coronary_heart_disease , 0)
-	,HO_atrial_fibrillation  = ISNULL(HO_atrial_fibrillation , 0)
-	,HO_heart_failure = ISNULL(HO_heart_failure, 0)
-	,HO_hypertension = ISNULL(HO_hypertension, 0)
-	,HO_peripheral_vascular_disease = ISNULL(HO_peripheral_vascular_disease, 0)
-	,HO_stroke_and_transient_ischaemic_attack = ISNULL(HO_stroke_and_transient_ischaemic_attack, 0)
-	,HO_diabetes  = ISNULL(HO_diabetes , 0)
-	,HO_thyroid_disorders  = ISNULL(HO_thyroid_disorders , 0)
-	,HO_chronic_liver_disease  = ISNULL(HO_chronic_liver_disease , 0)
-	,HO_diverticular_disease_of_intestine = ISNULL(HO_diverticular_disease_of_intestine, 0)
-	,HO_inflammatory_bowel_disease  = ISNULL(HO_inflammatory_bowel_disease , 0)
-	,HO_irritable_bowel_syndrome  = ISNULL(HO_irritable_bowel_syndrome , 0)
-	,HO_constipation = ISNULL(HO_constipation, 0)
-	,HO_dyspepsia = ISNULL(HO_dyspepsia, 0)
-	,HO_peptic_ulcer_disease  = ISNULL(HO_peptic_ulcer_disease , 0)
-	,HO_psoriasis_or_eczema  = ISNULL(HO_psoriasis_or_eczema , 0)
-	,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies = ISNULL(HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies, 0)
-	,HO_multiple_sclerosis = ISNULL(HO_multiple_sclerosis, 0)
-	,HO_parkinsons_disease  = ISNULL(HO_parkinsons_disease , 0)
-	,HO_anorexia_bulimia  = ISNULL(HO_anorexia_bulimia , 0)
-	,HO_anxiety_other_somatoform_disorders = ISNULL(HO_anxiety_other_somatoform_disorders, 0)
-	,HO_dementia = ISNULL(HO_dementia, 0)
-	,HO_depression = ISNULL(HO_depression, 0)
-	,HO_schizophrenia_or_bipolar = ISNULL(HO_schizophrenia_or_bipolar, 0)
-	,HO_chronic_kidney_disease = ISNULL(HO_chronic_kidney_disease, 0)
-	,HO_prostate_disorders = ISNULL(HO_prostate_disorders, 0)
-	,HO_asthma = ISNULL(HO_asthma, 0)
-	,HO_bronchiectasis = ISNULL(HO_bronchiectasis, 0)
-	,HO_chronic_sinusitis = ISNULL(HO_chronic_sinusitis, 0)
-	,HO_copd = ISNULL(HO_copd, 0)
-	,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
-	,HO_glaucoma = ISNULL(HO_glaucoma, 0)
-	,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
-	,HO_learning_disability = ISNULL(HO_learning_disability, 0)
-	,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
-	,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
-	,NEW_cancer = ISNULL(NEW_painful_condition, 0)
-	,NEW_painful_condition = ISNULL(NEW_painful_condition, 0)
-	,NEW_migraine  = ISNULL(NEW_migraine , 0)
-	,NEW_epilepsy = ISNULL(NEW_epilepsy, 0)
-	,NEW_coronary_heart_disease  = ISNULL(NEW_coronary_heart_disease , 0)
-	,NEW_atrial_fibrillation  = ISNULL(NEW_atrial_fibrillation , 0)
-	,NEW_heart_failure = ISNULL(NEW_heart_failure, 0)
-	,NEW_hypertension = ISNULL(NEW_hypertension, 0)
-	,NEW_peripheral_vascular_disease = ISNULL(NEW_peripheral_vascular_disease, 0)
-	,NEW_stroke_and_transient_ischaemic_attack = ISNULL(NEW_stroke_and_transient_ischaemic_attack, 0)
-	,NEW_diabetes  = ISNULL(NEW_diabetes , 0)
-	,NEW_thyroid_disorders  = ISNULL(NEW_thyroid_disorders , 0)
-	,NEW_chronic_liver_disease  = ISNULL(NEW_chronic_liver_disease , 0)
-	,NEW_diverticular_disease_of_intestine = ISNULL(NEW_diverticular_disease_of_intestine, 0)
-	,NEW_inflammatory_bowel_disease  = ISNULL(NEW_inflammatory_bowel_disease , 0)
-	,NEW_irritable_bowel_syndrome  = ISNULL(NEW_irritable_bowel_syndrome , 0)
-	,NEW_constipation = ISNULL(NEW_constipation, 0)
-	,NEW_dyspepsia = ISNULL(NEW_dyspepsia, 0)
-	,NEW_peptic_ulcer_disease  = ISNULL(NEW_peptic_ulcer_disease , 0)
-	,NEW_psoriasis_or_eczema  = ISNULL(NEW_psoriasis_or_eczema , 0)
-	,NEW_rheumatoid_arthritis_other_inflammatory_polyarthropathies = ISNULL(NEW_rheumatoid_arthritis_other_inflammatory_polyarthropathies, 0)
-	,NEW_multiple_sclerosis = ISNULL(NEW_multiple_sclerosis, 0)
-	,NEW_parkinsons_disease  = ISNULL(NEW_parkinsons_disease , 0)
-	,NEW_anorexia_bulimia  = ISNULL(NEW_anorexia_bulimia , 0)
-	,NEW_anxiety_other_somatoform_disorders = ISNULL(NEW_anxiety_other_somatoform_disorders, 0)
-	,NEW_dementia = ISNULL(NEW_dementia, 0)
-	,NEW_depression = ISNULL(NEW_depression, 0)
-	,NEW_schizophrenia_or_bipolar = ISNULL(NEW_schizophrenia_or_bipolar, 0)
-	,NEW_chronic_kidney_disease = ISNULL(NEW_chronic_kidney_disease, 0)
-	,NEW_prostate_disorders = ISNULL(NEW_prostate_disorders, 0)
-	,NEW_asthma = ISNULL(NEW_asthma, 0)
-	,NEW_bronchiectasis = ISNULL(NEW_bronchiectasis, 0)
-	,NEW_chronic_sinusitis = ISNULL(NEW_chronic_sinusitis, 0)
-	,NEW_copd = ISNULL(NEW_copd, 0)
-	,NEW_blindness_low_vision = ISNULL(NEW_blindness_low_vision, 0)
-	,NEW_glaucoma = ISNULL(NEW_glaucoma, 0)
-	,NEW_hearing_loss = ISNULL(NEW_hearing_loss, 0)
-	,NEW_learning_disability = ISNULL(NEW_learning_disability, 0)
-	,NEW_alcohol_problems = ISNULL(NEW_alcohol_problems, 0)
-	,NEW_psychoactive_substance_abuse = ISNULL(NEW_psychoactive_substance_abuse, 0)
-	,SystolicBP_1
-	,SystolicBP_1_dt 
-	,SystolicBP_2
-	,SystolicBP_2_dt 
-	,diastolicBP_1
-	,diastolicBP_1_dt
-	,diastolicBP_2
-	,diastolicBP_2_dt
-	,cholesterol_1
-	,cholesterol_1_dt
-	,cholesterol_2
-	,cholesterol_2_dt
-	,HDLcholesterol_1
-	,HDLcholesterol_1_dt 
-	,HDLcholesterol_2
-	,HDLcholesterol_2_dt 
-	,LDL_cholesterol_1
-	,LDL_cholesterol_1_dt
-	,LDL_cholesterol_2
-	,LDL_cholesterol_2_dt
-	,Triglyceride_1
-	,Triglyceride_1_dt
-	,Triglyceride_2
-	,Triglyceride_2_dt
-	,egfr_1
-	,egfr_1_dt 
-	,egfr_2
-	,egfr_2_dt 
-	,hba1c_1
-	,hba1c_1_dt
-	,hba1c_2
-	,hba1c_2_dt
 FROM #Cohort p 
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHeightWeight heiwei ON heiwei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID
-LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #observations_wide obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus ch on ch.FK_Patient_Link_ID = p.FK_Patient_Link_ID 

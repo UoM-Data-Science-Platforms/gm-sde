@@ -1,0 +1,145 @@
+145..	H/O: blood disorder
+1451.	H/O: anaemia - iron deficient
+1452.	H/O: Anaemia vit.B12 deficient
+1453.	H/O: haemolytic anaemia
+1454.	H/O: anaemia NOS
+2C23.	O/E - clinically anaemic
+42R41	Ferritin level low
+42T2.	Serum vitamin B12 low
+66E5.	B12 injections - at surgery
+7Q090	Hypop hae ren anae drug Band 1
+7Q091	Hypopl hae ren ana drug Band 2
+B9370	Ref anaem,no siderobl,so state
+B9371	Refr anaemia with sideroblasts
+B9372	Refr anaem with excess blasts
+B9373	Ref anaem+exc blast with trnsf
+B937X	Refractory anaemia,unspecif
+BBmA.	[M]Refract anaemia+sideroblast
+BBmB.	[M]Refr anam+xs blst+transform
+BBmL.	[M] Refract anaem excess blast
+ByuHC	[X]Refractory anaemia,unspecif
+C2620	Folic acid deficiency
+C2621	Vitamin B12 deficiency
+D0...	Deficiency anaemias
+D00..	Iron deficiency anaemias
+D000.	Iron defic.anaemia-blood loss
+D001.	Iron defic.anaemia-dietary
+D00y.	Other spec. iron defic.anaemia
+D00y1	Microcytic hypochromic anaemia
+D00yz	Other spec iron def. anaem NOS
+D00z.	Unspec iron deficiency anaemia
+D00z0	Achlorhydric anaemia
+D00z1	Chlorotic anaemia
+D00z2	Idiopathic hypochromic anaemia
+D00zz	Iron deficiency anaemia NOS
+D01..	Other deficiency anaemias
+D010.	Pernicious anaemia
+D011.	Other vit.B12 defic. anaemias
+D0110	Vit.B12 defic.anaemia-dietary
+D0111	Vit.B12 defic.anaemia-malabs.
+D011X	Vit B12 defic anaemia, unsp
+D011z	Other vit.B12 defic anaem. NOS
+D012.	Folate-deficiency anaemia
+D0121	Folate-defic. anaemia-dietary
+D0122	Folate-defic. anaemia-drug ind
+D0123	Folate-defic. anaemia - malabs
+D0124	Folate-defic.anaemia-liver dis
+D0125	Macrocytic anaemia unspecified
+D012z	Folate-deficiency anaemia NOS
+D013.	Oth spec megalo anaemia NEC
+D0130	Combined B12+folate defic anae
+D013z	Megaloblastic anaemia NEC NOS
+D014.	Protein-deficiency anaemia
+D0140	Amino-acid deficiency anaemia
+D014z	Protein-deficiency anaemia NOS
+D01y.	Other nutrit. defic. anaemia
+D01yy	Other nutrit.defic.anaemia OS
+D01yz	Other nutrit.defic.anaemia NOS
+D01z.	Other deficiency anaemias NOS
+D01z0	[X]Megaloblastic anaemia NOS
+D0y..	Deficiency anaemias OS
+D0z..	Deficiency anaemias NOS
+D1...	Haemolytic anaemias
+D104.	Thalassaemia
+D1040	Thalassaemia major NEC
+D1047	Beta major thalassaemia
+D104z	Thalassaemia NOS
+D106.	Sickle-cell anaemia
+D1060	Sickle-cell unspecified type
+D1061	Sickle-cell anaemia-no crisis
+D1062	Sickle-cell with crisis
+D106z	Sickle-cell anaemia NOS
+D11..	Acquired haemolytic anaemias
+D110.	Autoimmune haemolytic anaemias
+D1100	Primary cold-type haemol.anaem
+D1101	Primary warm-type haemol.anaem
+D1102	Secondary cold-type haem.anaem
+D1103	Secondary warm-type haem.anaem
+D1104	Drug-induced autoim haem anaem
+D110z	Autoimmune haemol.anaemia NOS
+D111.	Non-autoimmune haemol.anaemia
+D1110	Mechanical haemolytic anaemia
+D1111	Microangiopathic haemol.anaem.
+D1112	Toxic haemolytic anaemia
+D1114	Drug-induced haemolyt anaemia
+D1115	Infective haemolytic anaemia
+D111y	Non-autoimm.haemol.anaemia OS
+D111z	Non-autoimm.haemol.anaemia NOS
+D112z	Haemolysis Hb-uria,extern,NOS
+D11z.	Acquired haemolytic anaem. NOS
+D1y..	Haemolytic anaemias OS
+D1z..	Haemolytic anaemias NOS
+D2...	Aplastic and other anaemias
+D20..	Aplastic anaemia
+D200.	Constitutional aplastic anaem.
+D2000	Congenital hypoplastic anaemia
+D2002	Constit aplas anaem + malform
+D200y	Constit.aplastic anaemia OS
+D200z	Constitut.aplastic anaemia NOS
+D201.	Acquired aplastic anaemia
+D2010	Aplastic anaemia-chronic dis.
+D2011	Aplastic anaemia due to drugs
+D2012	Aplastic anaemia-infection
+D2013	Aplastic anaemia-radiation
+D2014	Aplastic anaemia-toxic
+D2017	Transient hypoplastic anaemia
+D201z	Acquired aplastic anaemia NOS
+D204.	Idiopathic aplastic anaemia
+D20z.	Aplastic anaemia NOS
+D21..	Other and unspecified anaemias
+D210.	Sideroblastic anaemia
+D2101	Acquired sideroblastic anaemia
+D2103	2ndy sideroblstc anaem due/dis
+D2104	2ndy sidrblst anaem due/drg+tx
+D210z	Sideroblastic anaemia NOS
+D211.	Acute posthaemorrhagic anaemia
+D212.	Anaemia in neoplastic disease
+D2120	Anaemia in ovarian carcinoma
+D213.	Refractory Anaemia
+D214.	Chronic anaemia
+D215.	Anaemia second renal failure
+D2150	Anaemia secondary to CRF
+D21y.	Other specified anaemias
+D21yy	Other anaemia OS
+D21yz	Other specified anaemia NOS
+D21z.	Anaemia unspecified
+D2y..	Anaemias OS
+D2z..	Other anaemias NOS
+Dyu0.	[X]Nutritional anaemias
+Dyu00	[X]Oth iron deficncy anaemias
+Dyu01	[X]Oth dietry vit B12 def anem
+Dyu02	[X]Other vit B12 defic anaemia
+Dyu03	[X]Oth folat deficiency anaems
+Dyu04	[X]O megaloblast anaemias,NEC
+Dyu05	[X]Anaem(n-megblst)a o s nut d
+Dyu06	[X]Vit B12 defic anaemia, unsp
+Dyu1.	[X]Haemolytic anaemias
+Dyu15	[X]Oth autoim h'molytic anaems
+Dyu16	[X]O n-autoimm h'molytc anaema
+Dyu17	[X]Oth acqrd h'molytc anaemias
+Dyu2.	[X]Aplastic and other anaemias
+Dyu21	[X]Oth spcfd aplastic anaemias
+Dyu22	[X]Anaemia in oth chron dis CE
+Dyu23	[X]Oth sideroblastic anaemias
+Dyu24	[X]Other specified anaemias
+J6141	Chronic active hepatitis

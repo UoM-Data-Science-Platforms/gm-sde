@@ -1,0 +1,7 @@
+XaZdn	Diffuse large B-cell lymphoma
+BBgP.	[M]Malignant lymphoma, mixed small and large cell, diffuse
+BBgR.	[M]Malignant lymphoma, large cell, diffuse NOS
+BBgT.	[M]Malignant lymphoma, large cell, non-cleaved, diffuse
+Xa0TE	Diffuse high grade B-cell lymphoma
+Xa0TI	Diffuse malignant lymphoma - large non-cleaved cell
+XaFqN	Diffuse high grade B-cell lymphoma morphology
