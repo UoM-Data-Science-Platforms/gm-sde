@@ -8,3 +8,11 @@
 ^ESCT1348639	PCFS (Post-COVID-19 Functional Status) Scale structured interview nal scale grade
 ^ESCT1348641	Assessment using PCFS (Post-COVID-19 Functional Status) Scale structured interview
 ^ESCT1348643	PCFS (Post-COVID-19 Functional Status) Scale structured interview
+^ESCT1348630	COVID-19 Yorkshire Rehabilitation Screening tool
+^ESCT1348632	Assessment using COVID-19 Yorkshire Rehabilitation Screening tool
+^ESCT1348634	Post-COVID-19 Functional Status Scale patient self-report
+^ESCT1348636	Assessment using Post-COVID-19 Functional Status Scale patient self-report
+^ESCT1348638	Post-COVID-19 Functional Status Scale patient self-report final scale grade
+^ESCT1348640	Post-COVID-19 Functional Status Scale structured interview final scale grade
+^ESCT1348642	Assessment using Post-COVID-19 Functional Status Scale structured interview
+^ESCT1348644	Post-COVID-19 Functional Status Scale structured interview
