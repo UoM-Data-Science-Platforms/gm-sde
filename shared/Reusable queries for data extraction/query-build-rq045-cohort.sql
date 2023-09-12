@@ -4,7 +4,7 @@
 
 -- OBJECTIVE: To build the cohort of patients needed for RQ045. This reduces
 --						duplication of code in the template scripts. The cohort is any
---						patient who ...
+--						patient who have no missing data for YOB, sex, LSOA and ethnicity
 
 -- INPUT: assumes there exists one temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
@@ -12,3 +12,5 @@
 
 -- OUTPUT: Temp tables as follows:
 -- #Cohort - list of patient ids of the cohort
+
+-- 

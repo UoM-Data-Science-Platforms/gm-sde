@@ -1,0 +1,1 @@
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:SharedCare.GP_Events gp-medications-table:SharedCare.GP_Medications
