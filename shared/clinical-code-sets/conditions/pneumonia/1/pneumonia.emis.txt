@@ -1,0 +1,144 @@
+^ESCT1222081	Pneumonia co-occurrent and due to measles
+^ESCT1351825	Pneumonia caused by Influenza A virus
+^ESCTAC350573	Achromobacter pneumonia
+^ESCTAC435338	Acute bronchopneumonia
+^ESCTAC805262	Acute pneumonia due to coccidioidomycosis
+^ESCTAD316384	Adenoviral pneumonia
+^ESCTAD345677	Adenoviral bronchopneumonia
+^ESCTBI656694	Bilateral bronchopneumonia
+^ESCTBI675033	Bilateral pneumonia
+^ESCTBI705258	Bilateral lower lobe pneumonia
+^ESCTBR656692	Bronchial pneumonia
+^ESCTBR930930	Bronchopneumonia due to methicillin susceptible Staphylococcus aureus
+^ESCTBR930931	Bronchopneumonia caused by methicillin susceptible Staphylococcus aureus
+^ESCTCO435339	Confluent bronchopneumonia with abscess formation
+^ESCTCY262207	Cytomegaloviral pneumonia
+^ESCTCY262208	Cytomegalic inclusion virus pneumonia
+^ESCTCY262210	Cytomegaloviral (CMV) pneumonia
+^ESCTEA325915	Eaton's agent pneumonia
+^ESCTEN325909	Endemic pneumonia
+^ESCTGL505362	Glandular fever pneumonia
+^ESCTGR478114	Group B streptococcal pneumonia
+^ESCTGR711972	Gram negative pneumonia
+^ESCTGR725734	Group A streptococcal pneumonia
+^ESCTGR795294	Gram positive pneumonia
+^ESCTHA704473	HAP - hospital acquired pneumonia
+^ESCTHE676553	Healthcare associated pneumonia
+^ESCTHE676554	Healthcare associated bacterial pneumonia
+^ESCTIN316487	Influenzal bronchopneumonia
+^ESCTIN325910	Infection by PPLO
+^ESCTIN505361	Infectious mononucleosis pneumonia
+^ESCTLE478117	Legionnaire's disease
+^ESCTLE478118	Legionnaires' disease
+^ESCTLE478119	Legionnaires disease
+^ESCTLE588770	Left basal pneumonia
+^ESCTLE588772	Left lower lobe pneumonia
+^ESCTLE588782	Left upper lobe pneumonia
+^ESCTLL588771	LLL - Left lower lobe pneumonia
+^ESCTLL588773	LLZ - Left lower zone pneumonia
+^ESCTLO588768	Lower lobe pneumonia
+^ESCTLO588774	Lobar pneumonia left lower lobe
+^ESCTLO588780	Lobar pneumonia right lower lobe
+^ESCTLO588784	Lobar pneumonia left upper lobe
+^ESCTLO588788	Lobar pneumonia right middle lobe
+^ESCTLO588793	Lobar pneumonia right upper lobe
+^ESCTLO656693	Lobular pneumonia
+^ESCTLU588783	LUZ - Left upper zone pneumonia
+^ESCTME505343	Meningococcal pneumonia
+^ESCTMO505363	Mononuclear interstitial pneumonia
+^ESCTMY325912	Mycoplasma pneumoniae pneumonia
+^ESCTMY505356	Mycobacterial pneumonia
+^ESCTNE435340	Necrotising bronchopneumonia
+^ESCTNE435341	Necrotizing bronchopneumonia
+^ESCTNO704472	Nosocomial pneumonia
+^ESCTPA325908	PAP due to Mycoplasma pneumoniae
+^ESCTPA325918	PAP caused by Mycoplasma pneumoniae
+^ESCTPA355536	Parainfluenza virus bronchopneumonia
+^ESCTPA355537	Parainfluenza bronchopneumonia
+^ESCTPA355587	Parainfluenza virus pneumonia
+^ESCTPA355588	Parainfluenzal pneumonia
+^ESCTPA355590	Parainfluenza pneumonia
+^ESCTPE340426	Peribronchial pneumonia
+^ESCTPL348252	Pleurobronchopneumonia
+^ESCTPL348253	Pleuropneumonia
+^ESCTPN304781	Pneumonia due to Streptococcus
+^ESCTPN304783	Pneumonia caused by Streptococcus
+^ESCTPN316680	Pneumonia due to Pseudomonas
+^ESCTPN316682	Pneumonia caused by Pseudomonas
+^ESCTPN323103	Pneumonia in typhoid fever
+^ESCTPN325911	Pneumonia due to PPLO
+^ESCTPN325914	Pneumonia due to Mycoplasma pneumoniae
+^ESCTPN325916	Pneumonia caused by Mycoplasma pneumoniae
+^ESCTPN325919	Pneumonia caused by PPLO
+^ESCTPN333490	Pneumonia due to Escherichia coli
+^ESCTPN333491	Pneumonia due to E. coli
+^ESCTPN333493	Pneumonia caused by E. coli
+^ESCTPN333494	Pneumonia caused by Escherichia coli
+^ESCTPN346596	Pneumonia in pertussis
+^ESCTPN346597	Pneumonia in whooping cough
+^ESCTPN354859	Pneumonia caused by Klebsiella pneumoniae
+^ESCTPN355589	Pneumonia due to parainfluenza virus
+^ESCTPN478113	Pneumonia caused by respiratory syncytial virus
+^ESCTPN478120	Pneumonia due to pleuropneumonia-like organism
+^ESCTPN478121	Pneumonia caused by pleuropneumonia-like organism
+^ESCTPN505342	Pneumococcal pneumonia
+^ESCTPN505345	Pneumonia caused by Chlamydiaceae
+^ESCTPN678208	Pneumonia due to anaerobic bacteria
+^ESCTPN678209	Pneumonia caused by anaerobic bacteria
+^ESCTPN678210	Pneumonia due to aerobic bacteria
+^ESCTPN678211	Pneumonia caused by aerobic bacteria
+^ESCTPN711971	Pneumonia due to Gram-negative bacteria
+^ESCTPN711973	Pneumonia caused by Gram negative bacteria
+^ESCTPN711974	Pneumonia caused by Gram-negative bacteria
+^ESCTPN725222	Pneumonia due to Severe acute respiratory syndrome coronavirus
+^ESCTPN725223	Pneumonia caused by Severe acute respiratory syndrome coronavirus
+^ESCTPN725325	Pneumonia due to Staphylococcus aureus
+^ESCTPN725326	Pneumonia caused by Staphylococcus aureus
+^ESCTPN725733	Pneumonia due to infection by Streptococcus pyogenes
+^ESCTPN725735	Pneumonia caused by infection caused by Streptococcus pyogenes
+^ESCTPN725736	Pneumonia due to infection caused by Streptococcus pyogenes
+^ESCTPN725737	Pneumonia caused by infection by Streptococcus pyogenes
+^ESCTPN725956	Pneumonia due to Histoplasma
+^ESCTPN725957	Pneumonia caused by Histoplasma
+^ESCTPN730276	Pneumonia caused by Human metapneumovirus
+^ESCTPN769954	Pneumonia caused by Human coronavirus
+^ESCTPN785687	Pneumonia caused by Chlamydia pneumoniae
+^ESCTPN795293	Pneumonia caused by Gram positive bacteria
+^ESCTPN800222	Pneumonia due to influenza
+^ESCTPN800223	Pneumonia caused by influenza
+^ESCTPN803886	Pneumonia due to methicillin resistant Staphylococcus aureus
+^ESCTPN803887	Pneumonia caused by methicillin resistant Staphylococcus aureus
+^ESCTPN804057	Pneumonia due to methicillin susceptible Staphylococcus aureus
+^ESCTPN804058	Pneumonia caused by methicillin susceptible Staphylococcus aureus
+^ESCTPN804533	Pneumonia due to H1N1 influenza
+^ESCTPN804534	Pneumonia caused by H1N1 influenza
+^ESCTPN804557	Pneumonia due to avian influenza
+^ESCTPN804558	Pneumonia caused by avian influenza
+^ESCTPR325907	Primary atypical pneumonia due to Mycoplasma pneumoniae
+^ESCTPR325917	Primary atypical pneumonia caused by Mycoplasma pneumoniae
+^ESCTPR478115	Proteus pneumonia
+^ESCTRE770519	Recurrent bacterial pneumonia
+^ESCTRI588776	Right basal pneumonia
+^ESCTRI588779	Right lower lobe pneumonia
+^ESCTRI588787	Right middle lobe pneumonia
+^ESCTRI588792	Right upper lobe pneumonia
+^ESCTRL588777	RLZ - Right lower zone pneumonia
+^ESCTRL588778	RLL - Right lower lobe pneumonia
+^ESCTRM588786	RMZ - Right middle zone pneumonia
+^ESCTRU588790	RUL - Right upper lobe pneumonia
+^ESCTRU588791	RUZ - Right upper zone pneumonia
+^ESCTSE598328	Secondary bacterial pneumonia
+^ESCTTY323104	Typhoid pneumonia
+^ESCTUN358025	Unresolved lobar pneumonia
+EGTONPO1	Post influenzal debility
+EMISNQBI5	Bilateral basal pneumonia
+EMISNQBR25	Bronchopneumonia
+EMISNQCO132	Community acquired pneumonia
+EMISNQHO51	Hospital acquired pneumonia
+EMISNQLE7	Left lower zone pneumia
+EMISNQLI34	Lingular pneumonia
+EMISNQLO10	Lobar pneumonia
+EMISNQMI223	Middle East respiratory syndrome
+EMISNQRI4	Right lower zone pneumonia
+EMISNQRI5	Right middle zone pneumonia
+EMISNQRI6	Right upper zone pneumonia

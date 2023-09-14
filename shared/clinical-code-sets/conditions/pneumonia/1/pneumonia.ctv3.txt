@@ -1,0 +1,173 @@
+A0222	Salmonella pneumonia
+A3By4	Eatons agent pneumonia
+AB4z5	Histoplasmosis with pneumonia
+H2...	Pneumonia and influenza
+H20..	Chest infection - viral pneumonia
+H200.	Adenoviral pneumonia
+H201.	Pneumonia due to respiratory syncytial virus
+H202.	Parainfluenzal pneumonia
+H20y.	Viral pneumonia NEC
+H20z.	Viral pneumonia NOS
+H21..	Chest infection - pneumococcal pneumonia
+H22..	Chest infection - other bacterial pneumonia
+H220.	Pneumonia due to Klebsiella pneumoniae
+H221.	Pseudomonal pneumonia
+H222.	Haemophilus influenzae pneumonia
+H223.	Streptococcal pneumonia
+H2230	Group B streptococcal pneumonia
+H224.	Staphylococcal pneumonia
+H22y.	Pneumonia due to other specified bacteria
+H22y0	Escherichia coli pneumonia
+H22y1	Proteus pneumonia
+H22y2	Legionella pneumonia
+H22yz	Pneumonia due to bacteria NOS
+H22z.	Bacterial pneumonia NOS
+H23..	Chest infection - pneumonia organism OS
+H232.	Pneumonia due to pleuropneumonia-like organism
+H23z.	Pneumonia due to specified organism NOS
+H24..	Pneumonia with infectious diseases EC
+H240.	Measles pneumonia
+H241.	Cytomegaloviral pneumonitis
+H243.	Pertussis pneumonia
+H247.	Pneumonia with other systemic mycoses
+H24y.	Pneumonia with other infectious diseases EC
+H24y6	Typhoid pneumonia
+H24yz	Pneumonia with other infectious diseases EC NOS
+H24z.	Pneumonia with infectious diseases EC NOS
+H25..	Bronchopneumonia due to unspecified organism
+H26..	Pneumonia due to unspecified organism
+H260.	Lobar pneumonia due to unspecified organism
+H270.	Influenzal pneumonia
+H2700	Influenza with bronchopneumonia
+H2701	Influenza with pneumonia, influenza virus identified
+H270z	Influenza with pneumonia NOS
+H2y..	Other specified pneumonia or influenza
+H2z..	Pneumonia or influenza NOS
+Hyu08	[X]Other viral pneumonia
+Hyu09	[X]Pneumonia due to other aerobic gram-negative bacteria
+Hyu0A	[X]Other bacterial pneumonia
+Hyu0B	[X]Pneumonia due to other specified infectious organisms
+Hyu0C	[X]Pneumonia in bacterial diseases classified elsewhere
+Hyu0D	[X]Pneumonia in viral diseases classified elsewhere
+Hyu0G	[X]Pneumonia in other diseases classified elsewhere
+Hyu0H	[X]Other pneumonia, organism unspecified
+X100e	Glandular fever pneumonia
+X100E	Pneumonia
+X100f	Mononuclear interstitial pneumonia
+X100G	Atypical pneumonia
+X100H	Bacterial pneumonia
+X100J	Pneumococcal pneumonia
+X100L	Meningococcal pneumonia
+X100M	Bilateral bronchopneumonia
+X100M	Bronchopneumonia
+X100N	Chlamydial pneumonia
+X100Y	Mycobacterial pneumonia
+Xa0lY	Lobar pneumonia
+Xa7nL	Basal pneumonia
+Xa7nM	Left basal pneumonia
+Xa7nN	Right basal pneumonia
+Xa7nP	Left upper lobe pneumonia
+Xa7nT	Right middle lobe pneumonia
+Xa7nU	Right upper lobe pneumonia
+XaBE9	Basal pneumonia due to unspecified organism
+XaBfJ	Secondary bacterial pneumonia
+XaDsa	Infective pneumonia
+XaDtl	Legionnaire's disease
+XaeVO	Pneumonia due to Gram negative bacteria
+XaJEl	Bilateral pneumonia
+XaYYu	Pneumonia due to human metapneumovirus
+XaZ1k	Community acquired pneumonia
+XaZ1l	Hospital acquired pneumonia
+XE0TE	Legionnaire's disease
+XE0YG	Viral pneumonia
+XE0YH	Pneumococcal lobar pneumonia
+XE0YI	Pneumonia with infectious diseases EC
+XE0YJ	Bronchopneumonia due to unspecified organism
+XE0ZF	Pneumonia
+XE0ZH	Lobar pneumonia
+XM0rv	Pneumonia NOS
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
