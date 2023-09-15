@@ -1,0 +1,58 @@
+10692761000119107	Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)
+196001008	Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)
+293991000000106	Very severe chronic obstructive pulmonary disease (disorder)
+313296004	Mild chronic obstructive pulmonary disease (disorder)
+313297008	Moderate chronic obstructive pulmonary disease (disorder)
+313299006	Severe chronic obstructive pulmonary disease (disorder)
+371611000000107	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (procedure)
+847091000000104	Acute non-infective exacerbation of chronic obstructive pulmonary disease (disorder)
+16003001	Giant bullous emphysema (disorder)
+195957006	Chronic bullous emphysema (disorder)
+195958001	Segmental bullous emphysema (disorder)
+195959009	Zonal bullous emphysema (disorder)
+195963002	Acute vesicular emphysema (disorder)
+196026004	Chronic emphysema due to chemical fumes (disorder)
+233674008	Pulmonary emphysema in alpha-1 PI deficiency (disorder)
+233675009	Toxic emphysema (disorder)
+233677001	Scar emphysema (disorder)
+266355005	Bullous emphysema with collapse (disorder)
+266356006	Atrophic (senile) emphysema (disorder)
+45145000	Unilateral emphysema (disorder)
+47895001	Congenital emphysema (disorder)
+4981000	Panacinar emphysema (disorder)
+66987001	Congenital lobar emphysema (disorder)
+68328006	Centriacinar emphysema (disorder)
+87433001	Pulmonary emphysema (disorder)
+185086009	Chronic obstructive bronchitis (disorder)
+195949008	Chronic asthmatic bronchitis (disorder)
+195953005	Mixed simple and mucopurulent chronic bronchitis (disorder)
+266395007	Chronic: [bronchitis NOS] or [tracheobronchitis]
+425748003	Acute exacerbation of chronic bronchitis (disorder)
+52571006	Chronic tracheobronchitis (disorder)
+61937009	Simple chronic bronchitis (disorder)
+63480004	Chronic bronchitis (disorder)
+74417001	Mucopurulent chronic bronchitis (disorder)
+84409004	Fetid chronic bronchitis (disorder)
+866901000000103	Eosinophilic bronchitis (disorder)
+89549007	Catarrhal bronchitis (disorder)
+135836000	End stage chronic obstructive airways disease (disorder)
+195951007	Acute exacerbation of chronic obstructive airways disease (disorder)
+285381006	Acute infective exacerbation of chronic obstructive airways disease (disorder)
+40100001	Obliterative bronchiolitis (disorder)
+1751000119100	Acute exacerbation of chronic obstructive airways disease with asthma
+106001000119101	Chronic obstructive lung disease co-occurrent with acute bronchitis
+293241000119100	Acute exacerbation of chronic obstructive bronchitis
+13645005	Chronic obstructive lung disease
+16846004	Obstructive emphysema
+23958009	Vanishing lung
+31898008	Paraseptal emphysema
+49691004	Occupational bronchitis
+60805002	Hemolytic anemia with emphysema AND cutis laxa
+66110007	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapors
+70756004	Bronchial atresia with segmental pulmonary emphysema
+360470001	Chronic mucus hypersecretion
+785736001	Chronic bronchitis co-occurrent with wheeze
+836477007	Chronic emphysema caused by vapor
+840493007	Congenital lobar emphysema of bilateral lungs
+708030004	Pulmonary emphysema co-occurrent with fibrosis of lung
+
