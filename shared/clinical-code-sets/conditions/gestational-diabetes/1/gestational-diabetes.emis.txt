@@ -1,2 +1,8 @@
 ^ESCTGE801661	Gestational diabetes, delivered
 ^ESCTGE801662	Gestational diabetes mellitus complicating pregnancy
+^ESCTGD268606	GDM
+^ESCTGD268610	GDM - Gestational diabetes mellitus
+^ESCTGE268607	Gestational diabetes
+^ESCTGE801663	Gestational DM antepartum
+^ESCTMA268608	Maternal gestational diabetes mellitus
+^ESCTPO801660	Postpartum gestational diabetes mellitus

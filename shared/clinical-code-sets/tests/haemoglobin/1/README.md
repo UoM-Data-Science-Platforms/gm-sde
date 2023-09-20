@@ -8,10 +8,12 @@ Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/su
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `61% - 68.1%` suggests that this code set is likely well defined.
+
+update:
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
-| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
-| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+| 2023-09-18 | EMIS | 2463856 | 1501968 (61%) | 1502094 (61%) | 
+| 2023-09-18 | TPP | 200590 | 136648 (68.1%) | 136654 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 206665 (62.2%) | 206678 (62.2%) | 

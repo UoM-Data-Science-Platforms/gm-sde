@@ -1,0 +1,3 @@
+11687002	Gestational diabetes mellitus (disorder)
+40791000119105	Postpartum gestational diabetes mellitus (disorder)
+40801000119106	Gestational diabetes mellitus complicating pregnancy (disorder)

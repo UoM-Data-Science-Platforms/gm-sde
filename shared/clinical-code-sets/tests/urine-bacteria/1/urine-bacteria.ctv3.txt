@@ -2,3 +2,12 @@
 46B2.	Urine bacteria test: negative
 46B3.	Urine bacteria test: positive
 46H..	Bacteria in urine O/E
+46BZ.	Urine bacteria test NOS
+46HZ.	Urine micr.: orgs/FB's NOS
+46U8.	Urine culture - Bacteria OS
+K1900	Bacteriuria, site not specified
+XE0e1	Bacteriuria
+XE25r	Urine microscopy: orgs/FB's
+XM1VG	FB in urine -microscopy
+XM1VH	Bacteria in urine O/E
+XM1VI	Foreign body in urine
