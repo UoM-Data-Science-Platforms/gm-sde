@@ -1,0 +1,73 @@
+190330002	Diabetes mellitus, juvenile type, with hyperosmolar coma (disorder)
+190368000	Type I diabetes mellitus with ulcer (disorder)
+190372001	Type I diabetes mellitus maturity onset (disorder)
+237618001	Insulin-dependent diabetes mellitus secretory diarrhea syndrome (disorder)
+290002008	Unstable type I diabetes mellitus (disorder)
+313435000	Type I diabetes mellitus without complication (disorder)
+314771006	Type I diabetes mellitus with hypoglycemic coma (disorder)
+314893005	Type I diabetes mellitus with arthropathy (disorder)
+401110002	Type 1 diabetes mellitus with persistent microalbuminuria (disorder)
+444073006	Type I diabetes mellitus uncontrolled (finding)
+46635009	Diabetes mellitus type 1 (disorder)
+190369008	Type I diabetes mellitus with gangrene
+5368009	Drug-induced diabetes mellitus
+5969009	Diabetes mellitus associated with genetic syndrome
+8801005	Secondary diabetes mellitus
+44054006	Diabetes mellitus type 2
+51002006	Diabetes mellitus associated with pancreatic disease
+70694009	Diabetes mellitus AND insipidus with optic atrophy AND deafness
+75682002	Diabetes mellitus caused by insulin receptor antibodies
+127012008	Lipoatrophic diabetes
+190388001	Multiple complications due to type 2 diabetes mellitus
+190389009	Type II diabetes mellitus with ulcer
+190390000	Type II diabetes mellitus with gangrene
+237599002	Insulin treated type 2 diabetes mellitus
+237601000	Secondary endocrine diabetes mellitus
+237604008	Maturity onset diabetes of the young, type 2
+237613005	Hyperproinsulinemia
+237618001	Insulin-dependent diabetes mellitus secretory diarrhea syndrome
+237619009	Diabetes-deafness syndrome maternally transmitted
+284449005	Congenital total lipodystrophy
+313436004	Type II diabetes mellitus without complication
+314902007	Peripheral angiopathy due to type 2 diabetes mellitus
+314903002	Arthropathy due to type 2 diabetes mellitus
+314904008	Type II diabetes mellitus with neuropathic arthropathy
+395204000	Hyperosmolar non-ketotic state due to type 2 diabetes mellitus
+408540003	Diabetes mellitus caused by non-steroid drugs
+413183008	Diabetes mellitus caused by non-steroid drugs without complication
+420279001	Renal disorder due to type 2 diabetes mellitus
+420436000	Mononeuropathy due to type 2 diabetes mellitus
+420715001	Persistent microalbuminuria due to type 2 diabetes mellitus
+420756003	Cataract of eye due to diabetes mellitus type 2
+421326000	Disorder of nervous system due to type 2 diabetes mellitus
+421631007	Gangrene due to type 2 diabetes mellitus
+421750000	Ketoacidosis due to type 2 diabetes mellitus
+421779007	Exudative maculopathy due to type 2 diabetes mellitus
+421847006	Ketoacidotic coma due to type 2 diabetes mellitus
+421986006	Persistent proteinuria due to type 2 diabetes mellitus
+422034002	Retinopathy due to type 2 diabetes mellitus
+422099009	Disorder of eye due to type 2 diabetes mellitus
+426705001	Diabetes mellitus co-occurrent and due to cystic fibrosis
+443694000	Type II diabetes mellitus uncontrolled
+445353002	Brittle type II diabetes mellitus
+609561005	Maturity-onset diabetes of the young
+609562003	Maturity onset diabetes of the young, type 1
+609572000	Maturity-onset diabetes of the young, type 5
+703138006	Type II diabetes mellitus in remission
+713703005	Gastroparesis due to type 2 diabetes mellitus
+713706002	Polyneuropathy due to type 2 diabetes mellitus
+719216001	Hypoglycemic coma due to type 2 diabetes mellitus
+724276006	X-linked immune dysregulation, polyendocrinopathy, enteropathy syndrome
+737212004	Diabetes mellitus caused by chemical
+789567007	Ulcer of heel due to type 2 diabetes mellitus
+789568002	Ulcer of midfoot due to diabetes mellitus
+789569005	Neuropathic ulcer of heel due to type 2 diabetes mellitus
+789570006	Neuropathic ulcer of midfoot due to type 2 diabetes mellitus
+860712005	Disorder of macula of bilateral eyes due to diabetes mellitus present
+860883001	Generalized autonomic neuropathy due to diabetes mellitus
+781000119106	Neuropathic arthropathy due to type 2 diabetes mellitus
+1481000119100	Diabetes mellitus type 2 without retinopathy
+112991000000101	Lipoatrophic diabetes mellitus without complication
+335621000000101	Maternally inherited diabetes mellitus
+368591000119109	Cheiroarthropathy due to diabetes mellitus type 2
+368711000119106	Mild nonproliferative retinopathy due to secondary diabetes mellitus

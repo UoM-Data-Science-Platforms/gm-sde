@@ -1,0 +1,12 @@
+190330002	Diabetes mellitus, juvenile type, with hyperosmolar coma (disorder)
+190368000	Type I diabetes mellitus with ulcer (disorder)
+190372001	Type I diabetes mellitus maturity onset (disorder)
+237618001	Insulin-dependent diabetes mellitus secretory diarrhea syndrome (disorder)
+290002008	Unstable type I diabetes mellitus (disorder)
+313435000	Type I diabetes mellitus without complication (disorder)
+314771006	Type I diabetes mellitus with hypoglycemic coma (disorder)
+314893005	Type I diabetes mellitus with arthropathy (disorder)
+401110002	Type 1 diabetes mellitus with persistent microalbuminuria (disorder)
+444073006	Type I diabetes mellitus uncontrolled (finding)
+46635009	Diabetes mellitus type 1 (disorder)
+190369008	Type I diabetes mellitus with gangrene

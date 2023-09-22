@@ -352,3 +352,6 @@
 636011000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
 38411000001101	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
 17221711000001107	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+37148811000001109	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+37570511000001103	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+37927211000001109	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)

@@ -10,3 +10,21 @@ EMISNQCO303	Confirmed 2019-nCoV (Wuhan) infectio
 EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
 EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
 ^ESCT1348575	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1299076	2019 novel coronavirus detected
+^ESCT1303246	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) qualitative existence in specimen
+^ESCT1303247	2019-nCoV (novel coronavirus) qualitative existence in specimen
+^ESCT1348315	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detected
+^ESCT1348360	2019-nCoV (novel coronavirus) detection result positive at the limit of detection
+^ESCT1348394	Severe acute respiratory syndrome coronavirus 2 detected
+^ESCT1348395	COVID-19 detected
+^ESCT1300230	Probable COVID-19 confirmed using clinical diagnostic criteria
+^ESCT1300231	COVID-19 confirmed clinically
+^ESCT1305235	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive
+^ESCT1305238	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen
+^ESCT1348314	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive
+^ESCT1348316	2019-nCoV (novel coronavirus) ribonucleic acid detected
+^ESCT1348359	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection
+^ESCT1348576	Detection of Severe acute respiratory syndrome coronavirus 2
+^ESCT1348577	Detection of COVID-19
+^ESCT1348578	2019 novel coronavirus assay
+^ESCT1348579	Detection of 2019-nCoV (novel coronavirus)

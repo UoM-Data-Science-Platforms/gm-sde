@@ -1,0 +1,44 @@
+1201005	Benign essential hypertension (disorder)
+123799005	Renovascular hypertension (disorder)
+194783001	Secondary malignant renovascular hypertension (disorder)
+194785008	Secondary benign hypertension (disorder)
+194788005	Hypertension secondary to endocrine disorders (disorder)
+31992008	Secondary hypertension (disorder)
+48146000	Diastolic hypertension (disorder)
+56218007	Systolic hypertension (disorder)
+59621000	Essential hypertension (disorder)
+697929007	Intermittent hypertension (disorder)
+70272006	Malignant hypertension (disorder)
+73410007	Benign secondary renovascular hypertension (disorder)
+78975002	Malignant essential hypertension (disorder)
+843821000000102	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)
+843841000000109	Severe hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)
+846371000000103	Stage 2 hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)
+863191000000102	Nocturnal hypertension (disorder)
+89242004	Malignant secondary hypertension (disorder)
+908631000000108	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) without evidence of end organ damage (disorder)
+908651000000101	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) with evidence of end organ damage (disorder)
+24184005	Finding of increased blood pressure (finding)
+38341003	Raised blood pressure (disorder)
+10725009	Benign hypertension
+14973001	Renal sclerosis with hypertension
+19769006	High-renin essential hypertension
+46481004	Low-renin essential hypertension
+59720008	Sustained diastolic hypertension
+65518004	Labile diastolic hypertension
+74451002	Secondary diastolic hypertension
+84094009	Rebound hypertension
+371125006	Labile essential hypertension
+397748008	Hypertension with albuminuria
+427889009	Hypertension associated with transplantation
+428575007	Hypertension secondary to kidney transplant
+429457004	Systolic essential hypertension
+712832005	Supine hypertension
+762463000	Diastolic hypertension co-occurrent with systolic hypertension
+471521000000108	[X]Hypertensive diseases
+845891000000103	Hypertension resistant to drug therapy
+1078301000112109	Multiple drug intolerant hypertension
+16229371000119106	Labile systemic arterial hypertension
+
+
+
