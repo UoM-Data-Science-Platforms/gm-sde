@@ -1,0 +1,8 @@
+167316004	Urine bacteriuria test (procedure)
+167318003	Urine bacteria test: negative (finding)
+167362007	Urine microscopy: organisms &/or foreign bodies (& [bacteria] or [parasite])
+275766007	Foreign body in urine - microscopy (finding)
+275767003	Bacteria in urine O/E (context-dependent category)
+275768008	Foreign body in urine (finding)
+365696009	Finding of urine microscopy: organisms/foreign bodies (finding)
+61373006	Bacteriuria (finding)

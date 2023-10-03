@@ -1,3 +1,10 @@
 EMISQUR1	Urine dipstick for leucocytes
 EMISQUR2	Urine dipstick leucocytes positive
 EMISQUR3	Urine dipstick leucocytes negative
+^ESCTBL840095	Blood in urine test
+^ESCTUR460322	Urine: trace non-hemolyzed blood
+^ESCTUR460324	Urine: trace hemolyzed blood
+^ESCTUR531535	Urine dipstick for leucocyte esterase
+^ESCTUR531537	Urine dipstick for white cells
+^ESCTUR531538	Urine dipstick for leukocyte esterase
+^ESCTUR531539	Urine dipstick for leukocytes

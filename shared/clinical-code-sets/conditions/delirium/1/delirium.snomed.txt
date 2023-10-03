@@ -1,0 +1,36 @@
+10349009	Multi-infarct dementia with delirium
+10361001	Exhaustion delirium
+130987000	Acute confusion
+139929008	O/E - delirious
+142011000119109	Alzheimer's disease co-occurrent with delirium
+154849006	Senile dementia with delirium
+154859007	Delirium
+162703005	On examination - delirious
+191452002	Presenile dementia with delirium
+191461002	Senile dementia with delirium
+191506006	Acute confusional state NOS
+191507002	Subacute delirium
+192183008	[X]Delirium not superimposed on dementia, so described
+192184002	[X]Delirium superimposed on dementia
+192185001	[X] Delirium: [mixed origin] or[other]
+192186000	[X]Delirium, unspecified
+231440006	Delirium of mixed origin
+231441005	Delirium
+268677005	[X]Other delirium
+2776000	Delirium
+281793005	Intermittent confusion
+286933003	Confusional state
+363786006	Acute confusion
+386255004	Delirium management
+402771000000101	[X]Delirium superimposed on dementia
+414751000000103	[X]Delirium, unspecified
+419567006	Delirious
+426771000000107	[X]Other delirium
+470731000000107	[X] Delirium: [mixed origin] or[other]
+471881000000106	[X]Delirium not superimposed on dementia, so described
+4817008	Primary degenerative dementia of the Alzheimer type, senile onset, with delirium
+621191000000103	Acute confusional state NOS
+65096006	Primary degenerative dementia of the Alzheimer type, presenile onset, with delirium
+724746000	Delirium due to multiple etiological factors
+725898002	Delirium co-occurrent with dementia
+823991000000108	Delirium care

@@ -1,0 +1,11 @@
+^ESCTAA274036	AA - Alcohol abuse
+^ESCTAL261465	Alcoholism
+^ESCTBO497845	Bout drinker
+^ESCTDR391332	Drinks heavily
+^ESCTEP497846	Episodic drinker
+^ESCTET274035	Ethanol abuse
+^ESCTEX453343	Excessive ethanol consumption
+^ESCTEX453345	Excessive alcohol consumption
+^ESCTEX453346	Excessive alcohol use
+^ESCTXS453342	XS - Excessive ethanol consumption
+^ESCTXS453344	XS - Excessive alcohol consumption

@@ -1,0 +1,5 @@
+^ESCTAB412032	Abstinent
+^ESCTCU412038	Current non-drinker of alcohol
+^ESCTDO412035	Does not drink alcohol
+^ESCTNE412034	Never drinks
+^ESCTNO412037	Non - drinker alcohol

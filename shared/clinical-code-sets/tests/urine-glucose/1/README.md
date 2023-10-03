@@ -4,14 +4,12 @@ This code set includes codes that indicate the result of a urine glucose test. W
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.22% - 22.21%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.71% - 22.9%` suggests that this code set is missing codes.
 
 
-update
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-11 | EMIS            | 2662570    |  591452 (22.21%) |  591452 (22.21%)  |
-| 2022-05-11 | TPP             | 212696     |   38745 (18.22%) |   38745 (18.22%)  |
-| 2022-05-11 | Vision          | 342344     |   72806 (21.27%) |   72806 (21.27%)  |
-
+| 2023-09-20 | EMIS | 2466262 | 42174 (1.71%) | 42265 (1.71%) | 
+| 2023-09-20 | TPP | 200680 | 45942 (22.9%) | 45953 (22.9%) | 
+| 2023-09-20 | Vision | 332105 | 6499 (1.96%) | 6498 (1.96%) | 
