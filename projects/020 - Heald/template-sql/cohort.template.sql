@@ -25,14 +25,11 @@
 -- MEDICATIONS
 -- IsOnACEIorARB, IsOnAspirin, IsOnClopidogrel, IsOnMetformin, IsOnInsulin, 
 -- IsOnSGLTI, IsOnGLP1A, IsOnSulphonylurea
-
+-- LONG COVID
+-- FirstPostCOVIDDiagnosisDate, FirstPostCOVIDReferralDate, FirstPostCOVIDAssessmentDate
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
-
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ020EndDate datetime;
-SET @TEMPRQ020EndDate = '2022-06-01';
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -46,61 +43,51 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ020EndDate;
-
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
 --> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 --> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:SharedCare.GP_Events
 
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients
-FROM #CovidPatients;
+FROM #CovidPatients
+INTERSECT
+-- Table of all patients with a GP record
+SELECT FK_Patient_Link_ID
+FROM SharedCare.Patient
+WHERE FK_Reference_Tenancy_ID=2
+AND GPPracticeCode NOT LIKE 'ZZZ%';
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
@@ -176,9 +163,9 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
-AND EventDate < @TEMPRQ020EndDate
+AND EventDate < GETDATE()
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -189,9 +176,9 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
-AND MedicationDate < @TEMPRQ020EndDate
+AND MedicationDate < GETDATE()
 AND MedicationDate >= @MedicationsFromDate;
 
 --> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
@@ -225,7 +212,7 @@ SELECT
   FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #PatientValuesWithIds
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (
     SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (
@@ -256,7 +243,6 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate > @EventsFromDate
-AND EventDate < @TEMPRQ020EndDate
 AND [Value] IS NOT NULL
 AND [Value] != '0';
 
@@ -343,7 +329,7 @@ WHERE Concept = 'sex-hormone-binding-globulin';
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCOPD
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('copd') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('copd') AND [Version]=1))
@@ -354,7 +340,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesASTHMA
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('asthma') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('asthma') AND [Version]=1))
@@ -365,7 +351,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1))
@@ -376,7 +362,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesHYPERTENSION
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
@@ -391,7 +377,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsMETFORMIN
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('metformin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('metformin') AND [Version]=1))
@@ -405,7 +391,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsGLP1
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1))
@@ -419,7 +405,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsINSULIN
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('insulin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('insulin') AND [Version]=1))
@@ -433,7 +419,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsSGLT2I
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1))
@@ -447,7 +433,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsSULPHONYLUREAS
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1))
@@ -461,7 +447,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsACEI
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('ace-inhibitor') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('ace-inhibitor') AND [Version]=1))
@@ -475,7 +461,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsASPIRIN
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('aspirin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('aspirin') AND [Version]=1))
@@ -489,7 +475,7 @@ SELECT
 	FK_Patient_Link_ID,
 	CAST(MedicationDate AS DATE) AS MedicationDate
 INTO #PatientMedicationsCLOPIDOGREL
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('clopidogrel') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('clopidogrel') AND [Version]=1))
@@ -612,12 +598,14 @@ LEFT OUTER JOIN #TempPatMedsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_ID = p.F
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
+INTO #COVIDDeath FROM SharedCare.COVID19
 WHERE DeathWithin28Days = 'Y'
 AND (
   (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
   (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 );
+
+--> EXECUTE query-patients-with-post-covid-syndrome.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false
 
 -- Bring together for final output
 -- Patients in main cohort
@@ -625,8 +613,8 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
-  CASE WHEN DeathDate < @TEMPRQ020EndDate THEN DeathDate ELSE NULL END AS DeathDate,
-  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL OR DeathDate >= @TEMPRQ020EndDate THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
+  DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -663,9 +651,12 @@ SELECT
   IsOnInsulin,
   IsOnSGLTI,
   IsOnGLP1A,
-  IsOnSulphonylurea
+  IsOnSulphonylurea,
+  pcp.FirstPostCOVIDDiagnosisDate,
+  pcp.FirstPostCOVIDReferralDate,
+  pcp.FirstPostCOVIDAssessmentDate
 FROM #MainCohort m
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -685,6 +676,7 @@ LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostCOVIDPatients pcp ON pcp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
@@ -692,8 +684,8 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
-  CASE WHEN DeathDate < @TEMPRQ020EndDate THEN DeathDate ELSE NULL END AS DeathDate,
-  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL OR DeathDate >= @TEMPRQ020EndDate THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
+  DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -730,9 +722,12 @@ SELECT
   IsOnInsulin,
   IsOnSGLTI,
   IsOnGLP1A,
-  IsOnSulphonylurea
+  IsOnSulphonylurea,
+  pcp.FirstPostCOVIDDiagnosisDate,
+  pcp.FirstPostCOVIDReferralDate,
+  pcp.FirstPostCOVIDAssessmentDate
 FROM #MatchedCohort m
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -752,4 +747,5 @@ LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PostCOVIDPatients pcp ON pcp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
