@@ -4,3 +4,5 @@
 4695.	Urine blood test = +
 4696.	Urine blood test = ++
 4697.	Urine blood test = +++
+X77b9	Urine dipstick for leucocyte esterase
+XaBFN	Urine blood test

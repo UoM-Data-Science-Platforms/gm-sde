@@ -92,21 +92,6 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 
 ----------------------------------------------------------------------------------------
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
-
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND EventDate < '2022-06-01';
-
 
 -- Set the date variables for the LTC code
 
@@ -222,7 +207,7 @@ GROUP BY FK_Patient_Link_ID
 
 SELECT  
 	PatientId = p.FK_Patient_Link_ID
-	,HO_cancer = ISNULL(HO_painful_condition, 0)
+	,HO_cancer = ISNULL(HO_cancer, 0)
 	,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 	,HO_migraine  = ISNULL(HO_migraine , 0)
 	,HO_epilepsy = ISNULL(HO_epilepsy, 0)
@@ -262,7 +247,7 @@ SELECT
 	,HO_learning_disability = ISNULL(HO_learning_disability, 0)
 	,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
 	,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
-	,NEW_cancer = ISNULL(NEW_painful_condition, 0)
+	,NEW_cancer = ISNULL(NEW_cancer, 0)
 	,NEW_painful_condition = ISNULL(NEW_painful_condition, 0)
 	,NEW_migraine  = ISNULL(NEW_migraine , 0)
 	,NEW_epilepsy = ISNULL(NEW_epilepsy, 0)

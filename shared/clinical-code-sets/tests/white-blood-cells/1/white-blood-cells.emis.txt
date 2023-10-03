@@ -1,0 +1,5 @@
+^ESCTWB251054	WBC count
+^ESCTWB251056	WBC - White blood cell count
+^ESCTWC251055	WCC - White blood cell count
+^ESCTWH251053	White blood cell count
+^ESCTWH251057	White blood cell count - observation

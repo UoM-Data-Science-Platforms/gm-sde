@@ -1,0 +1,7 @@
+X78WM	Breast cancer
+XaIIt	Suspected breast cancer
+XaJU6	Breast cancer detected by national screening programme
+XaMeC	Fast track referral for suspected breast cancer
+XaPyQ	Seen in fast track suspected breast cancer clinic
+XaeZG	Discharge from secondary care breast cancer service
+Xaecg	Lymphoedema following breast cancer

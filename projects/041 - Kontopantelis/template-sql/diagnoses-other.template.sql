@@ -26,6 +26,7 @@ SET NOCOUNT ON;
 --> CODESET long-covid:1 menopause:1 myeloma:1 obese:1 haematuria:1 osteoporosis:1
 --> CODESET coronary-heart-disease:1 heart-failure:1 stroke:1 tia:1 peripheral-arterial-disease:1 
 --> CODESET depression:1 schizophrenia-psychosis:1 bipolar:1 eating-disorders:1 anxiety:1 selfharm-episodes:1 uti:1
+--> CODESET palliative-and-end-of-life-care:1 hypogonadotropic-hypogonadism:1
 
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
@@ -78,7 +79,9 @@ SELECT PatientId = FK_Patient_Link_ID,
 	bipolar = ISNULL(SUM(CASE WHEN Concept = 'bipolar' THEN 1 ELSE 0 END),0),
 	eating_disorders = ISNULL(SUM(CASE WHEN Concept = 'eating-disorders' THEN 1 ELSE 0 END),0),
 	selfharm = ISNULL(SUM(CASE WHEN Concept = 'selfharm-episodes' THEN 1 ELSE 0 END),0),
-	uti = ISNULL(SUM(CASE WHEN Concept = 'uti' THEN 1 ELSE 0 END),0)
+	uti = ISNULL(SUM(CASE WHEN Concept = 'uti' THEN 1 ELSE 0 END),0),
+	palliative_and_eol_care = ISNULL(SUM(CASE WHEN Concept = 'palliative-and-end-of-life-care' THEN 1 ELSE 0 END),0),
+	hypogonadotropic_hypogonadism = ISNULL(SUM(CASE WHEN Concept = 'hypogonadotropic-hypogonadism' THEN 1 ELSE 0 END),0)
 FROM #DiagnosesAndSymptoms
 GROUP BY FK_Patient_Link_ID, YEAR(EventDate)
 ORDER BY FK_Patient_Link_ID, YEAR(EventDate)

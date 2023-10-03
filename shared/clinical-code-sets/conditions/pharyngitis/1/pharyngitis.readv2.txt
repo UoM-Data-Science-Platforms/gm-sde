@@ -1,0 +1,31 @@
+2DC2.00	O/E - granular pharyngitis
+A340200	Streptococcal pharyngitis
+AA12.00	Vincent's pharyngitis
+H02..00	Acute pharyngitis
+H02..13	Throat infection - pharyngitis
+H020.00	Acute gangrenous pharyngitis
+H021.00	Acute phlegmonous pharyngitis
+H022.00	Acute ulcerative pharyngitis
+H023.00	Acute bacterial pharyngitis
+H023000	Acute pneumococcal pharyngitis
+H023100	Acute staphylococcal pharyngitis
+H023z00	Acute bacterial pharyngitis NOS
+H024.00	Acute viral pharyngitis
+H025.00	Allergic pharyngitis
+H02z.00	Acute pharyngitis NOS
+H12..00	Chronic pharyngitis and nasopharyngitis
+H121.00	Chronic pharyngitis
+H121000	Simple chronic pharyngitis
+H121100	Atrophic pharyngitis
+H121200	Granular pharyngitis
+H121300	Hypertrophic pharyngitis
+H121400	Pharyngitis keratosa
+H121500	Pharyngitis sicca
+H121600	Chronic follicular pharyngitis
+H121z00	Chronic pharyngitis NOS
+H12z.00	Chronic pharyngitis and nasopharyngitis NOS
+H271100	Influenza with pharyngitis
+Hyu0100	[X]Acute pharyngitis due to other specified organisms
+A340.00	Streptococcal sore throat
+A340000	Streptococcal angina
+A340z00	Streptococcal sore throat NOS

@@ -1,0 +1,9 @@
+13F6.	Nursing/other home
+13F61	Lives in a nursing home
+13FX.	Lives in care home
+13G6.	Home help
+13G61	Home help attends
+13WJ.	Help by relatives
+8GEB.	Care from friends
+918F.	Has a carer
+9N1G.	Seen in nursing home

@@ -1,0 +1,87 @@
+^ESCTAB459026	Absence of bladder continence
+^ESCTAN276142	Anorectal continence
+^ESCTAN276144	Anal continence
+^ESCTAN276148	Anorectal continence, function
+^ESCTBL459027	Bladder incontinence
+^ESCTBL628777	Bladder control - observation
+^ESCTBO276145	Bowel continence
+^ESCTBO367197	Bowel incontinence
+^ESCTCO276146	Control of bowel function
+^ESCTCO655046	Continence education
+^ESCTCO655049	Continence health education
+^ESCTDO377631	Double incontinence - urine and stool
+^ESCTFE347837	Female urinary stress incontinence
+^ESCTFR532308	Frewen regime
+^ESCTGE285400	Genuine stress incontinence
+^ESCTGS285406	GSI - Genuine stress incontinence
+^ESCTIN285403	Incontinence when straining
+^ESCTIN367198	Incontinence of feces
+^ESCTIN367199	Involuntary stool
+^ESCTIN367201	Incontinent of feces
+^ESCTIN367202	Incontinent of faeces
+^ESCTIN459023	Involuntary urination
+^ESCTLA392319	Lack of bladder control if desire resisted
+^ESCTLA392320	Lack of bladder control if desire urgent
+^ESCTLA459022	Lack of bladder control
+^ESCTLE459018	Leaking of urine
+^ESCTLO459028	Loss of bladder control
+^ESCTMU372086	Must hurry to pass urine
+^ESCTMU392318	Must urinate at once with urge
+^ESCTPR372087	Precipitancy of urine
+^ESCTRE276143	Rectal continence
+^ESCTRE346918	Repair of urinary stress incontinence
+^ESCTSI285404	SI - Stress incontinence
+^ESCTST285402	Stress bladder incontinence
+^ESCTST285407	Stress urinary incontinence
+^ESCTSU346919	Surgical repair of urinary stress incontinence
+^ESCTSU548711	Suspension of vagina
+^ESCTTO377630	Total incontinence
+^ESCTUI459025	UI - Urinary incontinence
+^ESCTUN459016	Unable to prevent bladder emptying
+^ESCTUN459020	Unable to control bladder
+^ESCTUN459021	Unable to hold urine
+^ESCTUN459024	Unable to hold fluids
+^ESCTUR285405	Urinary stress incontinence
+^ESCTUR359194	Urinary body odor
+^ESCTUR359195	Urinary body odour
+^ESCTUR372082	Urinary precipitancy
+^ESCTUR372084	Urgency - urination
+^ESCTUR372088	Urgency to micturate
+^ESCTUR372089	Urging to urinate
+^ESCTUR372090	Urgency to pass urine
+^ESCTUR392321	Urge urinary incontinence
+^ESCTUR459017	Urine incontinence
+^ESCTWE459029	Weak bladder
+EMISNQAB10	Able to stop urine flow midstream
+EMISNQAB11	Able to slow urine flow midstream
+EMISNQAW3	Aware of passing urine
+EMISNQAW5	Aware of being wet or soiled
+EMISNQCO241	Continence assessment - condition of skin
+EMISNQCO242	Coughing incontinence of urine
+EMISNQFO50	Follow-up bladder incontinence bothersome rating score
+EMISNQFO51	Follow-up bowel incontinence bothersome rating score
+EMISNQFO52	Follow-up bladder incontinence quality of life score
+EMISNQFO53	Follow-up bowel incontinence quality of life score
+EMISNQFU5	Functional incontinence of faeces
+EMISNQIN206	Incontinence bothersome rating scale
+EMISNQIN207	Initial bladder incontinence bothersome rating score
+EMISNQIN208	Initial bowel incontinence bothersome rating score
+EMISNQIN209	Incontinence bothersome rating scale not indicated
+EMISNQIN210	Incontinence bothersome rating scale not completed
+EMISNQIN211	Incontinence quality of life rating scale
+EMISNQIN212	Initial bladder incontinence quality of life score
+EMISNQIN213	Initial bowel incontinence quality of life score
+EMISNQIN214	Incontinence quality of life rating scale not indicated
+EMISNQIN215	Incontinence quality of life rating scale not completed
+EMISNQIN216	Incontinence affecting sexual activity
+EMISNQIN217	Incontinence of urine on walking
+EMISNQIN218	Incontinence of urine during sexual intercourse
+EMISNQIN219	Incontinence of urine during exercise
+EMISNQIN220	Incontinent of faeces - whole formed stool
+EMISNQLE33	Length of time can delay urination
+EMISNQLE34	Leaks urine all the time
+EMISNQNO143	Not aware of being wet or soiled
+EMISNQNU31	Number of incontinence pads used in 24 hours
+EMISNQSN2	Sneezing incontinence of urine
+EMISNQST52	Stress urinary incontinence at rest
+ESCTOV1	Overflow incontinence of urine

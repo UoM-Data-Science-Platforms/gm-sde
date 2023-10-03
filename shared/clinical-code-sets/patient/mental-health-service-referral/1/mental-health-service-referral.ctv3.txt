@@ -1,0 +1,30 @@
+64R7.	Child refer- clinical psychol.
+8H23.	Admit psychiatric emergency
+8H230	Emergency psychiatric admission MHA
+8H2L.	Admit psychogeriatric emergency
+8H38.	Non-urgent psychiatric admission
+8H3Q.	Non-urgent psychogeriatric admission
+8H49.	Referral to psychiatry service
+8H4D.	Referral to psychiatrist for the elderly mentally ill
+8HJ3.	Psychiatric self-referral
+8HVO.	Private referral to psychiatrist
+8HVS.	Private referral to psychogeriatrician
+XaAcy	Referral to child and adolescent psychiatry service
+XaAgA	Referral to child and adolescent psychiatrist
+XaAgB	Referral to forensic psychiatrist
+XaAgE	Referral to learning disabilities psychiatrist
+XaAhN	Referral to psychotherapist
+XaBTD	Referral to psychologist
+XaBvX	Child referral - clinical psychologist
+XaIkd	Referral to community mental health team
+XaIPw	Referral to mental health team
+XaL0o	Referral to non NHS mental health community service
+XaL0p	Referral to older age community mental health team
+XaL19	Referral to psychosis early intervention service
+XaLFk	Referral to primary care mental health graduate worker
+XaLFL	Referral to primary care mental health gateway worker
+XaMhM	Referral to primary care mental health team
+XaNlN	Emergency voluntary psychiatric admission under Mental Health Act
+XaPDH	Urgent referral to psychiatrist
+XaZIW	Private referral to psychologist
+XE1Sb	Child: clinical psychologist

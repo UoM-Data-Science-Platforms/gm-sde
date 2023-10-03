@@ -1,0 +1,50 @@
+14A7.	H/O: CVA/stroke
+14AB.	H/O: TIA
+14AK.	H/O: Stroke in last year
+662M.	Stroke monitoring
+662e.	Stroke/CVA annual review
+662o.	Haemorrhagic stroke monitoring
+7P242	Delivery rehabilitation stroke
+8HBJ.	Stroke / TIA referral
+8HHM.	Ref to stroke func improv serv
+8HTQ.	Referral to stroke clinic
+9N0p.	Seen in stroke clinic
+9N4X.	Did not attend stroke clinic
+9Om1.	Stroke/TIA monitor 2nd letter
+9Om2.	Stroke/TIA monitor 3rd letter
+9Om3.	Stroke/TIA monitor verb invit
+9Om4.	Stroke/TIA monitr phone invite
+9h21.	Except stroke qual ind: Pt uns
+9h22.	Exc stroke qual ind: Infor dis
+F4236	Amaurosis fugax
+G6...	Cerebrovascular disease
+G61..	Intracerebral haemorrhage
+G621.	Subdural haemorrhage-nontraum.
+G622.	Subdural haematoma - nontraum
+G631.	Carotid artery occlusion
+G634.	Carotid artery stenosis
+G64..	Cerebral arterial occlusion
+G640.	Cerebral thrombosis
+G65..	Transient cerebral ischaemia
+G65y.	Other transient cerebral isch.
+G65z.	Transient cerebral ischaem.NOS
+G65z1	Intermittent CVA
+G65zz	Transient cerebral ischaem.NOS
+G66..	Stroke/CVA unspecified
+G663.	Brain stem stroke syndrome
+G664.	Cerebellar stroke syndrome
+G667.	Left sided CVA
+G670.	Cerebral atherosclerosis
+G6711	Chronic cerebral ischaemia
+G682.	Seq/oth nontraum intrcran haem
+G68X.	Seql/strok,n spc/h'm,infarc
+Gyu6.	[X]Cerebrovascular diseases
+Gyu6B	[X]Seql/o n-traum intracrn h'm
+Gyu6C	[X]Seql/strok,n spc/h'm,infarc
+S62..	Cerebral haem'ge after injury
+S620.	Cls trm subarach haemorrhage
+S622.	Cls trm subdural haemorrhage
+S627.	Traum subarachnoid haemorrhage
+S628.	Traumatic subdural haemorrhage
+S629.	Traumatic subdural haematoma
+S6290	Trau subdl hae witht op int wo

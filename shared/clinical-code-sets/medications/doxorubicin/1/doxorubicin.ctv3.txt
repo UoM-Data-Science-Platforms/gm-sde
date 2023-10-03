@@ -1,0 +1,35 @@
+h23..	Doxorubicin hydrochloride
+h231.	Adriamycin 10mg injection
+h232.	Adriamycin 50mg injection
+h233.	Doxorubicin Rapid Dissolution 10mg injection (pdr for recon)
+h234.	Doxorubicin Rapid Dissolution 50mg injection (pdr for recon)
+h235.	Doxorubicin hydrochloride 10mg injection (pdr for recon)
+h236.	Doxorubicin hydrochloride 50mg injection (pdr for recon)
+h237.	Liposomal doxorubicin hydrochloride 20mg/10mL infusion concentrate
+h238.	Caelyx 20mg/10mL infusion concentrate
+h239.	Doxorubicin Solution 10mg/5mL Cytosafe injection vial
+h23A.	Doxorubicin Solution 50mg/25mL Cytosafe injection vial
+h23B.	Caelyx 50mg/25mL infusion concentrate
+h23C.	Doxorubicin Solution 200mg/100mL Cytosafe injection vial
+h23D.	MYOCET 50mg injection (pdr for recon)
+h23w.	LIPOSOMAL DOXORUBICIN HYDROCHLORIDE 50mg injection (pdr for recon)
+h23x.	Liposomal doxorubicin hydrochloride 50mg/25mL infusion concentrate
+h23y.	Doxorubicin HCl 10mg solution for injection
+h23z.	Doxorubicin HCl 50mg solution for injection
+x003C	Doxorubicin Solution 10mg/5mL injection
+x003D	Doxorubicin Solution 50mg/25mL injection
+x00DT	Doxorubicin hydrochloride 50mg/100mL bladder instillation
+x00DU	Doxorubicin hydrochloride 50mg/50mL bladder instillation
+x00No	Doxorubicin hydrochloride 150mg/75mL infusion
+x00Np	Doxorubicin hydrochloride 300mg/150mL infusion
+x00Nq	Doxorubicin hydrochloride 75mg/37.5mL infusion
+x01Ae	Adriamycin
+x02IA	Doxorubicin hydrochloride 10mg/5mL injection
+x02IB	Doxorubicin hydrochloride 50mg/25mL injection
+x03k3	Caelyx
+x03sQ	Doxorubicin Rapid Dissolution
+x03sR	Doxorubicin Solution
+x05Ms	Liposomal doxorubicin hydrochloride 50mg/25mL infusion concentrate (pdr for recon)+dil
+x05Mt	Myocet 50mg/25mL infusion concentrate (pdr for recon)+dil
+x05Mu	Myocet
+x05YX	Doxorubicin hydrochloride 200mg/100mL injection

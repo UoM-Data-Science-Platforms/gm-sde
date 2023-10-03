@@ -1,0 +1,28 @@
+H01..00	Acute sinusitis
+H010.00	Acute maxillary sinusitis
+H011.00	Acute frontal sinusitis
+H01..11	Sinusitis
+H012.00	Acute ethmoidal sinusitis
+H013.00	Acute sphenoidal sinusitis
+H014.00	Acute rhinosinusitis
+H01y.00	Other acute sinusitis
+H01yz00	Other acute sinusitis NOS
+H01z.00	Acute sinusitis NOS
+H13..00	Chronic sinusitis
+H130.00	Chronic maxillary sinusitis
+H130.11	Antritis - chronic
+H130.12	Maxillary sinusitis
+H131.00	Chronic frontal sinusitis
+H13..11	Chronic rhinosinusitis
+H131.11	Frontal sinusitis
+H132.00	Chronic ethmoidal sinusitis
+H134.00	Fistula of nasal sinus
+H135.00	Recurrent sinusitis
+H13y.00	Other chronic sinusitis
+H13y000	Chronic pansinusitis
+H13y100	Pansinusitis
+H13yz00	Other chronic sinusitis NOS
+H13z.00	Chronic sinusitis NOS
+Hyu0000	[X]Other acute sinusitis
+Hyu2200	[X]Other chronic sinusitis
+H133.00	Chronic sphenoidal sinusitis

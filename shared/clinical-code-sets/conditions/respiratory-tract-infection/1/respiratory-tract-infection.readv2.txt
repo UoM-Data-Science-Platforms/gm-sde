@@ -1,0 +1,104 @@
+H06..00	Acute bronchitis and bronchiolitis
+H060.00	Acute bronchitis
+H060000	Acute fibrinous bronchitis
+H060.11	Acute wheezy bronchitis
+H060300	Acute purulent bronchitis
+H060400	Acute croupous bronchitis
+H060500	Acute tracheobronchitis
+H060600	Acute pneumococcal bronchitis
+H060700	Acute streptococcal bronchitis
+H060800	Acute haemophilus influenzae bronchitis
+H060A00	Acute bronchitis due to mycoplasma pneumoniae
+H060x00	Acute bacterial bronchitis unspecified
+H060z00	Acute bronchitis NOS
+H061.00	Acute bronchiolitis
+H061000	Acute capillary bronchiolitis
+H061200	Acute bronchiolitis with bronchospasm
+H061300	Acute exudative bronchiolitis
+H061z00	Acute bronchiolitis NOS
+H062.00	Acute lower respiratory tract infection
+H06z.00	Acute bronchitis or bronchiolitis NOS
+H06z000	Chest infection NOS
+H06z011	Chest infection
+H06z100	Lower resp tract infection
+H06z111	Respiratory tract infection
+H06z112	Acute lower respiratory tract infection
+H06z200	Recurrent chest infection
+H24..11	Chest infection with infectious disease EC
+H30..00	Bronchitis unspecified
+H300.00	Tracheobronchitis NOS
+H301.00	Laryngotracheobronchitis
+H30..11	Chest infection - unspecified bronchitis
+H30..12	Recurrent wheezy bronchitis
+H302.00	Wheezy bronchitis
+H30z.00	Bronchitis NOS
+H34..00	Bronchiectasis
+H340.00	Recurrent bronchiectasis
+H341.00	Post-infective bronchiectasis
+H34z.00	Bronchiectasis NOS
+H50..00	Empyema
+H500100	Empyema with bronchopleural fistula
+H501200	Pleural empyema
+H501400	Purulent pleurisy
+H51..00	Pleurisy
+H510300	Acute dry pleurisy
+H510900	Pneumococcal pleurisy
+H583200	Eosinophilic bronchitis
+H0...00	Acute respiratory infections
+H04..00	Acute laryngitis and tracheitis
+H040.00	Acute laryngitis
+H040000	Acute oedematous laryngitis
+H040100	Acute ulcerative laryngitis
+H040200	Acute catarrhal laryngitis
+H040300	Acute phlegmonous laryngitis
+H040600	Acute suppurative laryngitis
+H040x00	Acute bacterial laryngitis unspecified
+H040z00	Acute laryngitis NOS
+H041.00	Acute tracheitis
+H041000	Acute tracheitis without obstruction
+H041100	Acute tracheitis with obstruction
+H041z00	Acute tracheitis NOS
+H042.00	Acute laryngotracheitis
+H042000	Acute laryngotracheitis without obstruction
+H042100	Acute laryngotracheitis with obstruction
+H042.11	Laryngotracheitis
+H042z00	Acute laryngotracheitis NOS
+H043.00	Acute epiglottitis (non strep
+H043000	Acute epiglottitis without obstruction
+H043200	Acute obstructive laryngitis
+H043z00	Acute epiglottitis NOS
+H04z.00	Acute laryngitis and tracheitis NOS
+H05..00	Other acute upper respiratory infections
+H050.00	Acute laryngopharyngitis
+H051.00	Acute upper respiratory tract infection
+H052.00	Pharyngotracheitis
+H053.00	Tracheopharyngitis
+H054.00	Recurrent upper respiratory tract infection
+H055.00	Pharyngolaryngitis
+H05y.00	Other upper respiratory infections of multiple sites
+H05z.00	Upper respiratory infection NOS
+H05z.11	Upper respiratory tract infection NOS
+H0y..00	Other specified acute respiratory infections
+H0z..00	Acute respiratory infection NOS
+H160100	Chronic catarrhal laryngitis
+Hyu0.00	[X]Acute upper respiratory infections
+Hyu0100	[X]Acute pharyngitis due to other specified organisms
+Hyu0200	[X]Acute tonsillitis due to other specified organisms
+H02..00	Acute pharyngitis
+H02z.00	Acute pharyngitis NOS
+H03..00	Acute tonsillitis
+H03z.00	Acute tonsillitis NOS
+H044.00	Croup
+H060100	Acute membranous bronchitis
+H060200	Acute pseudomembranous bronchitis
+H07..00	Chest cold
+H245.00	Pneumonia with anthrax
+H312000	Chronic asthmatic bronchitis
+H501300	Lung empyema NOS
+H501600	Pyothorax
+H50z.00	Empyema NOS
+H51z000	Exudative pleurisy NOS
+H51z100	Serofibrinous pleurisy NOS
+H51z200	Serous pleurisy NOS
+Hyu1.00	[X]Other acute lower respiratory infections
+Hyu1100	[X]Acute bronchiolitis due to other specified organisms

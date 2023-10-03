@@ -1,0 +1,14 @@
+X76CA	Weight loss
+XE0qb	Abnormal weight loss
+1625.	Abnormal weight loss (& [symptom])
+XaKwR	Complaining of weight loss
+XaQgK	Unexplained weight loss
+XaXTs	Unintentional weight loss
+XaIxC	Weight loss from baseline weight
+XE0uH	Weight loss (& abnormal)
+XaBmk	Excessive weight loss
+Ua1iv	Decrease in appetite
+1623.	Weight decreasing
+R032.	[D]Abnormal loss of weight
+XE24f	Appetite loss - anorexia
+R0300	[D]Appetite loss

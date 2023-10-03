@@ -276,7 +276,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -1068,18 +1068,18 @@ LINK: [https://github.com/rw251/.../tests/platelets/1](https://github.com/rw251/
 
 A patient's haematocrit percentage as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`XE2Zq - Haematocrit - PCV level`). It does not include codes that indicate a patient's haematocrit (`4253 - Haematocrit - PCV - high`) without giving the actual value.
 
-Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
+Haematocrit codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
 
 **NB: This code set is intended to only indicate a patient's haematocrit percentage**
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `57.2% - 65.6%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
-| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
-| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+| 2023-03-22 | EMIS | 2444244 | 1455735 (59.6%) | 1457398 (59.6%) | 
+| 2023-03-22 | TPP | 199056 | 130631 (65.6%) | 137852 (69.3%) | 
+| 2023-03-22 | Vision | 328968 | 188030 (57.2%) | 188084 (57.2%) | 
 LINK: [https://github.com/rw251/.../tests/haematocrit/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haematocrit/1)
 
 ### Mean corpuscular volume

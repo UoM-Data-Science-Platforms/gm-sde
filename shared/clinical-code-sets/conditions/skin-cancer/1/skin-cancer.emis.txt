@@ -1,47 +1,24 @@
 ^ESCT1166685	Excision of basal cell carcinoma from right postauricular region with closure
-^ESCT1167633	Primary squamous cell carcinoma of submandibular gland
-^ESCT1167634	Primary squamous cell carcinoma of sublingual gland
 ^ESCT1170898	Malignant melanoma of skin of right lower limb
 ^ESCT1192591	Malignant melanoma of other and unspecified parts of face
-^ESCT1202087	Squamous cell carcinoma of small intestine
-^ESCT1202088	Squamous cell carcinoma of small bowel
-^ESCT1202090	Squamous cell carcinoma of corpus uteri
-^ESCT1205053	Squamous cell carcinoma of gallbladder and extrahepatic biliary tract
-^ESCT1205054	Squamous cell carcinoma of rectum
-^ESCT1205055	Rectal squamous cell carcinoma
-^ESCT1205056	Squamous cell carcinoma of stomach
-^ESCT1205057	Gastric squamous cell carcinoma
-^ESCT1205058	Squamous cell carcinoma of colon
-^ESCT1205764	Intraepithelial squamous cell carcinoma of anogenital region
 ^ESCT1210785	Malignant melanoma of skin of left upper limb
-^ESCT1378990	Benign neoplasm of skin of scrotum
-^ESCTAB534990	Abrikossoff's tumour of skin
-^ESCTAB534991	Abrikossoff's tumor of skin
 ^ESCTAC276947	Acral lentiginous melanoma, malignant
 ^ESCTAC389711	Acantholytic squamous cell carcinoma
 ^ESCTAC534768	Acantholytic squamous cell carcinoma of skin
 ^ESCTAC534935	Acral lentiginous malignant melanoma of skin
 ^ESCTAC534936	Acral lentiginous melanoma of skin
 ^ESCTAC668933	Acantholytic squamous cell carcinoma
-^ESCTAD308049	Adenoma sebaceum
-^ESCTAD389708	Adenoid squamous cell carcinoma
-^ESCTAD761738	Adenoid squamous cell carcinoma of larynx
-^ESCTAD761828	Adenoid squamous cell carcinoma of hypopharynx
 ^ESCTAL534937	ALM - Acral lentiginous melanoma of skin
 ^ESCTAL534938	ALMM - Acral lentiginous malignant melanoma of skin
 ^ESCTAM559001	Amelanotic malignant melanoma of skin
 ^ESCTAM559002	Amelanotic melanoma
 ^ESCTAN308052	Angiokeratoma in tuberous sclerosis
-^ESCTAN535585	Anal squamous cell carcinoma
-^ESCTAN535586	Anal carcinoma
-^ESCTBA251974	Basal cell epithelioma
 ^ESCTBA251977	Basiloma
 ^ESCTBA310112	Basisquamous cell carcinoma
 ^ESCTBA319878	Basal cell carcinoma, fibroepithelial
 ^ESCTBA342052	Basal cell carcinoma, morpheic
 ^ESCTBA342053	Basal cell carcinoma, desmoplastic type
 ^ESCTBA362872	Basal cell carcinoma syndrome
-^ESCTBA362874	Basal cell nevus syndrome
 ^ESCTBA441215	Basaloid squamous cell carcinoma
 ^ESCTBA450548	Basal cell carcinoma - morpheic
 ^ESCTBA502811	Basal cell carcinoma of eyelid
@@ -129,11 +106,6 @@
 ^ESCTBA700933	Basal cell carcinoma of chest wall
 ^ESCTBA703073	Basal cell carcinoma of auricle of ear
 ^ESCTBA703074	Basal cell carcinoma of pinna
-^ESCTBA761672	Basaloid squamous cell carcinoma of trachea
-^ESCTBA761774	Basaloid squamous cell carcinoma of lung
-^ESCTBA761822	Basaloid squamous cell carcinoma of hypopharynx
-^ESCTBA762022	Basaloid squamous cell carcinoma of oropharynx
-^ESCTBA762161	Basaloid squamous cell carcinoma of larynx
 ^ESCTBA776157	Basal cell carcinoma of vulva
 ^ESCTBA777175	Basal cell carcinoma in situ
 ^ESCTBA801963	Basal cell carcinoma of naris
@@ -141,51 +113,18 @@
 ^ESCTBC251978	BCC - Basal cell carcinoma
 ^ESCTBC362877	BCNS - Basal cell naevus syndrome
 ^ESCTBC362880	BCNS - Basal cell nevus syndrome
-^ESCTBC534702	BC - Bronchogenic carcinoma
 ^ESCTBC534853	BCC - Basal cell carcinoma of skin
 ^ESCTBC534857	BCC - Metatypical basal cell carcinoma of skin
 ^ESCTBD388244	BD - Bowen's disease
-^ESCTBE399483	Benign neoplasm of adnexa of skin
-^ESCTBE399484	Benign tumor of epidermal appendage
-^ESCTBE399485	Benign tumour of epidermal appendage
-^ESCTBE400244	Benign tumour of skin
-^ESCTBE400245	Benign tumor of skin
-^ESCTBE475553	Benign tumour of scrotal skin
-^ESCTBE475554	Benign tumor of scrotal skin
-^ESCTBE534779	Benign epithelial neoplasm of skin
-^ESCTBE534780	Benign tumour of surface epithelium
-^ESCTBE534781	Benign tumor of surface epithelium
-^ESCTBE534831	Benign tumour of skin with pilar differentiation
-^ESCTBE534832	Benign tumor of skin with pilar differentiation
-^ESCTBE535713	Benign tumour of skin with sebaceous differentiation
-^ESCTBE535714	Benign tumor of skin with sebaceous differentiation
-^ESCTBE535715	Benign tumour of dermis
-^ESCTBE535716	Benign tumor of dermis
-^ESCTBE558493	Benign tumour of skin of penis
-^ESCTBE558494	Benign tumor of skin of penis
-^ESCTBE559064	Benign neoplasm of fibrous tissue of skin
-^ESCTBE559065	Benign tumor of fibrous tissue
-^ESCTBE559066	Benign tumour of fibrous tissue
 ^ESCTBE660933	Bednar tumour
 ^ESCTBE660934	Bednar tumor
-^ESCTBK535115	B-K mole (nevus) syndrome
 ^ESCTBO388246	Bowen disease
 ^ESCTBO668961	Borderline malignant melanoma
-^ESCTBR534703	Bronchial carcinoma
-^ESCTBR534704	Bronchogenic carcinoma
-^ESCTBR637780	Breast tumour, both pT4a and pT4b
-^ESCTBR637781	Breast tumor, both pT4a and pT4b
-^ESCTCA534431	Carcinoma of cheek mucosa
-^ESCTCA534433	Carcinoma of buccal mucosa
-^ESCTCA534700	Carcinoma of bronchus
-^ESCTCA534701	CA - Carcinoma of bronchus
 ^ESCTCA534778	Cancer in situ skin, squamous cell
 ^ESCTCA534855	Cancer of skin, basal cell
 ^ESCTCA535246	CA - Squamous cell carcinoma of vulva
 ^ESCTCA535268	Cancer of penile skin
 ^ESCTCA535583	Carcinoma of anal margin
-^ESCTCA559107	Cancer anal melanoma
-^ESCTCA559109	Cancer rectum melanoma
 ^ESCTCA636454	Cancer of skin
 ^ESCTCA662755	Carcinosarcomatous squamous cell carcinoma
 ^ESCTCA666637	Cancer of chin, basal cell
@@ -219,20 +158,9 @@
 ^ESCTCA703075	Cancer of auricle of ear, basal cell
 ^ESCTCA703943	Cancer of temple, squamous cell
 ^ESCTCA802428	Carcinoma in situ basal cell
-^ESCTCI535451	Ciliary body melanoma
 ^ESCTCI668944	Circumscribed solid basal cell carcinoma
 ^ESCTCI668948	Cicatrising basal cell carcinoma
-^ESCTCI735452	CIN III with early stromal invasion
-^ESCTCL270080	Clear cell sarcoma (except of Kidney M-89643)
-^ESCTCL270081	Clear cell sarcoma, of tendons and aponeuroses
 ^ESCTCL534764	Clear cell squamous cell carcinoma of skin
-^ESCTCL553175	Clear cell sarcoma
-^ESCTCL666713	Clear cell sarcoma
-^ESCTCL761670	Clear cell squamous cell carcinoma of trachea
-^ESCTCL761772	Clear cell squamous cell carcinoma of lung
-^ESCTCO283907	Combined small cell carcinoma
-^ESCTCO283910	Combined small cell-squamous cell carcinoma
-^ESCTCO283911	Combined small cell-adenocarcinoma
 ^ESCTCO396160	Condylomatous carcinoma
 ^ESCTCO666709	Congenital malignant melanoma
 ^ESCTCR587396	Cryotherapy of basal cell carcinoma
@@ -244,8 +172,6 @@
 ^ESCTCU534949	Cutaneous fibrous tissue tumour
 ^ESCTCU663536	Cutaneous vascular tumour
 ^ESCTCU663538	Cutaneous vascular tumor
-^ESCTCY355358	Cylindroma of skin
-^ESCTCY556749	Cylindroma of skin
 ^ESCTCY668946	Cystic basal cell carcinoma
 ^ESCTDE333891	Desmoplastic melanoma, malignant
 ^ESCTDE333893	Desmoplastic melanoma, amelanotic
@@ -254,7 +180,6 @@
 ^ESCTDE534959	Desmoid fibromatosis of skin
 ^ESCTDE534960	Desmoid tumor of skin
 ^ESCTDE534961	Desmoid tumour of skin
-^ESCTDE556748	Dermal cylindroma
 ^ESCTDE668965	Desmoplastic malignant melanoma
 ^ESCTDI588753	Disseminated squamous cell carcinoma
 ^ESCTDI657064	Distance of malignant melanoma from closest lateral margin
@@ -272,7 +197,6 @@
 ^ESCTEC662333	Eccrine basal cell carcinoma
 ^ESCTEC669005	Eccrine mixed tumour, malignant
 ^ESCTEC669007	Eccrine mixed tumor, malignant
-^ESCTEN795711	Endometrial squamous cell carcinoma
 ^ESCTEP259026	Epidermoid carcinoma in situ with questionable stromal invasion
 ^ESCTEP266364	Epidermoid carcinoma, spindle cell
 ^ESCTEP266366	Epidermoid carcinoma - spindle cell
@@ -290,15 +214,10 @@
 ^ESCTEX590006	Excision of malignant skin tumor
 ^ESCTEX709384	Excisional biopsy of basal cell carcinoma
 ^ESCTEX757654	Excision of postauricular basal cell carcinoma with closure
-^ESCTFA308050	Facial angiofibroma
-^ESCTFA535116	FAMMM - Familial atypical mole malignant melanoma syndrome
-^ESCTFA535118	Familial atypical mole malignant melanoma syndrome
 ^ESCTFA669060	Familial glomus tumour of skin
 ^ESCTFA669061	Familial glomus tumor of skin
 ^ESCTFA787620	Familial malignant melanoma of skin
 ^ESCTFA787621	Familial cutaneous malignant melanoma
-^ESCTFI308046	Fibrous skin tumour of tuberous sclerosis
-^ESCTFI308047	Fibrous skin tumor of tuberous sclerosis
 ^ESCTFI319880	Fibroepithelioma
 ^ESCTFI319881	Fibroepithelioma of Pinkus type
 ^ESCTFI319882	Fibroepithelial basal cell carcinoma, Pinkus type
@@ -312,9 +231,6 @@
 ^ESCTFO662768	Follicular basal cell carcinoma
 ^ESCTGL535051	Glomus tumour of skin
 ^ESCTGL535052	Glomus tumor of skin
-^ESCTGO362870	Gorlin syndrome
-^ESCTGO362873	Gorlin-Goltz syndrome
-^ESCTGO362881	Gorlin's syndrome
 ^ESCTGR534988	Granular cell tumour of skin
 ^ESCTGR534989	Granular cell myoblastoma of skin
 ^ESCTGR534992	Granular cell tumor of skin
@@ -332,7 +248,6 @@
 ^ESCTIN663408	Intraepithelial squamous cell carcinoma
 ^ESCTIN666706	In situ superficial spreading malignant melanoma
 ^ESCTIN666707	In situ acral lentiginous malignant melanoma
-^ESCTIR535448	Iris melanoma
 ^ESCTIS416180	ISM - In situ melanoma of skin
 ^ESCTIS416182	ISMM - In situ malignant melanoma of skin
 ^ESCTKE278642	Keratinising squamous cell carcinoma - large cell
@@ -340,8 +255,6 @@
 ^ESCTKE278644	Keratinizing squamous cell carcinoma - large cell
 ^ESCTKE278645	Keratinizing epidermoid carcinoma
 ^ESCTKE662457	Keratotic basal cell carcinoma
-^ESCTKE750320	Keratinising squamous cell carcinoma of nasopharynx
-^ESCTKE750321	Keratinizing squamous cell carcinoma of nasopharynx
 ^ESCTLE321660	Lentigo maligna melanoma
 ^ESCTLM591180	LM - Lentigo maligna
 ^ESCTLO605227	Local recurrence of malignant tumour of skin
@@ -420,8 +333,6 @@
 ^ESCTMA535266	Malignant tumor of penile skin
 ^ESCTMA535267	Malignant tumor of skin of penis
 ^ESCTMA535269	Malignant tumour of penile skin
-^ESCTMA535437	Malignant melanoma of conjunctiva
-^ESCTMA535450	Malignant melanoma of ciliary body
 ^ESCTMA535594	Malignant tumour of epidermal appendage
 ^ESCTMA535595	Malignant tumor of epidermal appendage
 ^ESCTMA535596	Malignant skin tumor with adnexal differentiation
@@ -433,9 +344,6 @@
 ^ESCTMA553176	Malignant melanoma of soft tissue
 ^ESCTMA558999	Malignant tumour of skin with pilar differentiation
 ^ESCTMA559000	Malignant tumor of skin with pilar differentiation
-^ESCTMA559106	Malignant melanoma of anus
-^ESCTMA559108	Malignant melanoma of rectum
-^ESCTMA560062	Malignant melanoma of meninges
 ^ESCTMA597037	Malignant blue naevus of skin
 ^ESCTMA597038	Malignant blue nevus of skin
 ^ESCTMA597039	Malignant melanoma in blue naevus
@@ -481,26 +389,6 @@
 ^ESCTMA735280	Malignant melanoma of skin of vulva
 ^ESCTMA737316	Malignant melanoma of skin of lower leg
 ^ESCTMA737317	Malignant melanoma of skin of upper arm
-^ESCTMA750370	Malignant melanoma of nasal cavity
-^ESCTMA750371	Malignant melanoma of vestibule of mouth
-^ESCTMA750372	Malignant melanoma of tongue
-^ESCTMA750373	Malignant melanoma of floor of mouth
-^ESCTMA750374	Malignant melanoma of palatine arch
-^ESCTMA750375	Malignant melanoma of tonsillar pillar
-^ESCTMA750376	Malignant melanoma of buccal mucosa
-^ESCTMA750710	Malignant melanoma of ethmoid sinus
-^ESCTMA750711	Malignant melanoma of ethmoidal sinus
-^ESCTMA750713	Malignant melanoma of palate
-^ESCTMA750714	Malignant melanoma of gum
-^ESCTMA750715	Malignant melanoma of gingiva
-^ESCTMA750716	Malignant melanoma of maxillary sinus
-^ESCTMA761577	Malignant melanoma of accessory sinus
-^ESCTMA761601	Malignant melanoma of frontal sinus
-^ESCTMA761603	Malignant melanoma of sphenoidal sinus
-^ESCTMA782054	Malignant melanoma of oesophagus
-^ESCTMA782055	Malignant melanoma of esophagus
-^ESCTMA845661	Malignant melanoma of left choroid
-^ESCTMA845666	Malignant melanoma of right choroid
 ^ESCTMA845672	Malignant melanoma of skin of left lower limb
 ^ESCTME253202	Melanoma
 ^ESCTME270082	Melanoma, malignant, of soft parts
@@ -521,13 +409,7 @@
 ^ESCTME666673	Metastatic basal cell carcinoma
 ^ESCTME666715	Metastatic malignant melanoma with diffuse hypermelanosis
 ^ESCTME668940	Metastatic squamous cell carcinoma
-^ESCTME701180	Melanoma of retina
 ^ESCTME727838	Metastatic malignant melanoma
-^ESCTME750712	Melanoma of ethmoidal sinus
-^ESCTME750717	Melanoma of maxillary sinus
-^ESCTME761578	Melanoma of accessory sinus
-^ESCTME761602	Melanoma of frontal sinus
-^ESCTME761604	Melanoma of sphenoidal sinus
 ^ESCTME796977	Metastasis to lymph node from squamous cell carcinoma
 ^ESCTMI283909	Mixed small cell carcinoma
 ^ESCTMI310110	Mixed basal-squamous cell carcinoma
@@ -545,10 +427,6 @@
 ^ESCTMU349282	Multicentric basal cell carcinoma
 ^ESCTMU668950	Multifocal basal cell carcinoma
 ^ESCTNA425553	Naevus AND/OR melanoma
-^ESCTNA750380	Nasopharyngeal carcinoma type 2b
-^ESCTNA750383	Nasopharyngeal carcinoma type 3
-^ESCTNB362878	NBCCS - Naevoid basal cell carcinoma syndrome
-^ESCTNB362879	NBCCS - Nevoid basal cell carcinoma syndrome
 ^ESCTNE333892	Neurotropic melanoma, malignant
 ^ESCTNE362871	Nevoid basal cell carcinoma syndrome
 ^ESCTNE425554	Nevus AND/OR melanoma
@@ -559,40 +437,16 @@
 ^ESCTNE662604	Neurotropic melanoma, malignant
 ^ESCTNE668966	Neurotropic malignant melanoma
 ^ESCTNM534934	NM - Nodular melanoma of skin
-^ESCTNO307514	Non-keratinising epidermoid carcinoma - small cell
-^ESCTNO307515	Non-keratinising squamous cell carcinoma - small cell
-^ESCTNO307516	Non-keratinizing squamous cell carcinoma - small cell
-^ESCTNO307517	Non-keratinizing epidermoid carcinoma - small cell
-^ESCTNO323408	Non-keratinising squamous cell carcinoma
-^ESCTNO323409	Non-keratinising epidermoid carcinoma - large cell
-^ESCTNO323410	Non-keratinising squamous cell carcinoma - large cell
-^ESCTNO323411	Non-keratinizing squamous cell carcinoma - large cell
-^ESCTNO323412	Non-keratinizing squamous cell carcinoma
-^ESCTNO323413	Non-keratinizing epidermoid carcinoma - large cell
 ^ESCTNO534932	Nodular malignant melanoma of skin
 ^ESCTNO534933	Nodular melanoma of skin
 ^ESCTNO668945	Nodulo-ulcerative basal cell carcinoma
 ^ESCTNO774503	Nodular basal cell carcinoma of skin
-^ESCTOV761743	Overlapping squamous cell carcinoma of larynx
-^ESCTOV761744	Overlapping squamous cell carcinoma of laryngeal cartilage
-^ESCTOV761917	Overlapping squamous cell carcinoma of oropharynx
-^ESCTOV762105	Overlapping squamous cell carcinoma of hypopharynx
-^ESCTPA312868	Papillary epidermoid carcinoma
-^ESCTPA441239	Papillary squamous cell carcinoma, non-invasive
-^ESCTPA441240	Papillary squamous cell carcinoma in situ
-^ESCTPA761674	Papillary squamous cell carcinoma of trachea
-^ESCTPA761740	Papillary squamous cell carcinoma of larynx
-^ESCTPA761776	Papillary squamous cell carcinoma of lung
-^ESCTPA761824	Papillary squamous cell carcinoma of hypopharynx
-^ESCTPA762026	Papillary squamous cell carcinoma of oropharynx
-^ESCTPA782853	Palmoplantar keratoderma, 46,XX sex reversal, predisposition to squamous cell carcinoma syndrome
 ^ESCTPE668154	Penile squamous cell carcinoma
 ^ESCTPI251975	Pigmented basal cell carcinoma
 ^ESCTPI319879	Pinkus tumor
 ^ESCTPI319883	Pinkus tumour
 ^ESCTPI660932	Pigmented dermatofibrosarcoma protuberans of skin
-^ESCTPI660935	Pigmented storiform neurofibroma
-^ESCTPI660936	Pigmented dermatofibrosarcoma
+^^ESCTPI660936	Pigmented dermatofibrosarcoma
 ^ESCTPI662516	Pigmented basal cell carcinoma
 ^ESCTPL669126	Plexiform fibrohistiocytic tumour of skin
 ^ESCTPL669127	Plexiform fibrohistiocytic tumor of skin
@@ -600,92 +454,10 @@
 ^ESCTPR308048	Pringle tumor
 ^ESCTPR308051	Pringle tumour
 ^ESCTPR723871	Primary squamous cell carcinoma of naris
-^ESCTPR761585	Primary squamous cell carcinoma of accessory sinus
-^ESCTPR761587	Primary squamous cell carcinoma of maxillary sinus
-^ESCTPR761589	Primary squamous cell carcinoma of sphenoidal sinus
-^ESCTPR761591	Primary squamous cell carcinoma of frontal sinus
-^ESCTPR761593	Primary squamous cell carcinoma of laryngeal cartilage
-^ESCTPR761595	Primary squamous cell carcinoma of larynx
-^ESCTPR761597	Primary squamous cell carcinoma of ethmoidal sinus
-^ESCTPR761668	Primary squamous cell carcinoma of trachea
-^ESCTPR761669	Primary clear cell squamous cell carcinoma of trachea
-^ESCTPR761671	Primary basaloid squamous cell carcinoma of trachea
-^ESCTPR761673	Primary papillary squamous cell carcinoma of trachea
-^ESCTPR761708	Primary small cell non-keratinising squamous cell carcinoma of lung
-^ESCTPR761709	Primary small cell non-keratinizing squamous cell carcinoma of lung
-^ESCTPR761731	Primary spindle cell squamous cell carcinoma of larynx
-^ESCTPR761737	Primary adenoid squamous cell carcinoma of larynx
-^ESCTPR761739	Primary papillary squamous cell carcinoma of larynx
-^ESCTPR761771	Primary clear cell squamous cell carcinoma of lung
-^ESCTPR761773	Primary basaloid squamous cell carcinoma of lung
-^ESCTPR761775	Primary papillary squamous cell carcinoma of lung
-^ESCTPR761821	Primary basaloid squamous cell carcinoma of hypopharynx
-^ESCTPR761823	Primary papillary squamous cell carcinoma of hypopharynx
-^ESCTPR761827	Primary adenoid squamous cell carcinoma of hypopharynx
-^ESCTPR761835	Primary spindle cell squamous cell carcinoma of hypopharynx
-^ESCTPR761841	Primary squamous cell carcinoma of hypopharynx
-^ESCTPR761846	Primary squamous cell adenoid carcinoma of trachea
-^ESCTPR761916	Primary squamous cell carcinoma of nasopharynx
-^ESCTPR761921	Primary squamous cell carcinoma of branchial cleft
-^ESCTPR761923	Primary squamous cell carcinoma of posterior wall of oropharynx
-^ESCTPR761926	Primary squamous cell carcinoma of lateral wall of oropharynx
-^ESCTPR761930	Primary squamous cell carcinoma of anterior surface of epiglottis
-^ESCTPR761931	Primary squamous cell carcinoma of vallecula
-^ESCTPR762013	Primary squamous cell carcinoma of supraglottis
-^ESCTPR762014	Primary squamous cell carcinoma of subglottis
-^ESCTPR762021	Primary basaloid squamous cell carcinoma of oropharynx
-^ESCTPR762025	Primary papillary squamous cell carcinoma of oropharynx
-^ESCTPR762027	Primary spindle cell squamous cell carcinoma of oropharynx
-^ESCTPR762033	Primary squamous cell carcinoma of oropharynx
-^ESCTPR762160	Primary basaloid squamous cell carcinoma of larynx
-^ESCTPR762163	Primary squamous cell carcinoma of glottis
-^ESCTPR762201	Primary squamous cell carcinoma of posterior wall of hypopharynx
-^ESCTPR762223	Primary squamous cell carcinoma of hypopharyngeal aspect of aryepiglottic fold
-^ESCTPR762231	Primary squamous cell carcinoma of postcricoid region
-^ESCTPR762233	Primary squamous cell carcinoma of pyriform sinus
-^ESCTPR781959	Primary malignant melanoma of vagina
-^ESCTPR782011	Primary squamous cell carcinoma of overlapping lesion of male genital organ
-^ESCTPR782012	Primary squamous cell carcinoma of overlapping lesion of accessory sinuses
-^ESCTPR782036	Primary squamous cell carcinoma of upper third of oesophagus
-^ESCTPR782037	Primary squamous cell carcinoma of upper third of esophagus
-^ESCTPR782038	Primary squamous cell carcinoma of middle third of oesophagus
-^ESCTPR782039	Primary squamous cell carcinoma of middle third of esophagus
-^ESCTPR782040	Primary squamous cell carcinoma of lower third of oesophagus
-^ESCTPR782041	Primary squamous cell carcinoma of lower third of esophagus
-^ESCTPR782042	Primary squamous cell carcinoma of overlapping lesion of oesophagus
-^ESCTPR782043	Primary squamous cell carcinoma of overlapping lesion of esophagus
 ^ESCTPR782749	Primary squamous cell carcinoma of ear
-^ESCTPR783290	Primary squamous cell carcinoma of pharyngeal tonsil
-^ESCTPR783291	Primary squamous cell carcinoma of adenoid
-^ESCTPR783309	Primary squamous cell carcinoma of anal canal
-^ESCTPR783310	Primary malignant melanoma of anal canal
-^ESCTPR783498	Primary malignant melanoma of cornea
-^ESCTPR783499	Primary squamous cell carcinoma of lacrimal apparatus
-^ESCTPR783505	Primary squamous cell carcinoma of base of tongue
-^ESCTPR783506	Primary squamous cell carcinoma of root of tongue
-^ESCTPR783507	Primary squamous cell carcinoma of lingual tonsil
-^ESCTPR783508	Primary squamous cell carcinoma of parotid gland
-^ESCTPR783514	Primary squamous cell carcinoma of middle ear
-^ESCTPR783516	Primary squamous cell carcinoma of vagina
-^ESCTPR784144	Primary squamous cell carcinoma of nasal cavity
-^ESCTPR784209	Primary squamous cell carcinoma of anus
-^ESCTPR784224	Primary malignant melanoma of anus
-^ESCTPR785622	Primary squamous cell carcinoma of overlapping lesion of urinary organs
-^ESCTPR795427	Primary squamous cell carcinoma of paraurethral gland
-^ESCTPR795693	Primary squamous cell carcinoma of oral cavity
 ^ESCTPR795694	Primary squamous cell carcinoma of lip
-^ESCTPR795695	Primary squamous cell carcinoma of pharynx
-^ESCTPR795708	Primary squamous cell carcinoma of intrathoracic organ
-^ESCTPR795709	Primary squamous cell carcinoma of respiratory system
-^ESCTPR795710	Primary squamous cell carcinoma of endometrium
-^ESCTPR796198	Primary intraosseous squamous cell carcinoma derived from odontogenic cyst
-^ESCTPR796199	Primary intraosseous squamous cell carcinoma derived from keratocystic odontogenic neoplasm
-^ESCTPR796420	Primary solid type intraosseous squamous cell carcinoma
-^ESCTPR800552	Primary squamous cell carcinoma of palatine tonsil
 ^ESCTPR801192	Primary squamous cell carcinoma of upper limb
 ^ESCTPR802773	Primary squamous cell carcinoma of chest wall
-^ESCTPR803282	Primary squamous cell carcinoma of thymus
-^ESCTPR803366	Primary squamous cell carcinoma of urethra
 ^ESCTPR807691	Primary squamous cell carcinoma of vermilion border of lip
 ^ESCTPR845442	Primary basal cell carcinoma of left upper limb
 ^ESCTPR845444	Primary basal cell carcinoma of left ear
@@ -768,9 +540,6 @@
 ^ESCTSC296473	SCC - Squamous cell carcinoma
 ^ESCTSC388245	SCC - Intraepidermal squamous cell carcinoma - Bowen's type
 ^ESCTSC396161	SCC - Verrucous squamous cell carcinoma
-^ESCTSC534432	SCC - Squamous cell carcinoma of buccal mucosa
-^ESCTSC534699	SCC - Squamous cell carcinoma of bronchus
-^ESCTSC534722	SCC - Squamous cell carcinoma of lung
 ^ESCTSC534760	SCC - Cutaneous squamous cell carcinoma
 ^ESCTSC534762	SCC - Squamous cell carcinoma of skin
 ^ESCTSC534765	SCC - Clear cell squamous cell carcinoma of skin
@@ -778,14 +547,6 @@
 ^ESCTSC534776	SCC - Squamous cell carcinoma in situ of skin
 ^ESCTSC535245	SCC - Squamous cell carcinoma of vulva
 ^ESCTSC535562	SCC - Squamous cell carcinoma of lip
-^ESCTSC535584	SCC - Squamous cell carcinoma of anal margin
-^ESCTSC541684	SCCA - Squamous cell carcinoma antigen
-^ESCTSC559079	SCC - Squamous cell carcinoma of oesophagus
-^ESCTSC559080	SCC - Squamous cell carcinoma of esophagus
-^ESCTSC559290	SCC - Squamous cell carcinoma of tongue
-^ESCTSC559292	SCC - Squamous cell carcinoma of gum
-^ESCTSC559295	SCC - Squamous cell carcinoma of floor of mouth
-^ESCTSC559308	SCC - Squamous cell carcinoma of palate
 ^ESCTSI668936	Signet ring squamous cell carcinoma
 ^ESCTSK438307	Skin tumour
 ^ESCTSK438309	Skin tumor
@@ -797,8 +558,6 @@
 ^ESCTSK636453	Skin cancer
 ^ESCTSM283908	Small cell-large cell carcinoma
 ^ESCTSM534931	SMM - Superficial spreading melanoma of skin
-^ESCTSM761710	Small cell non-keratinizing squamous cell carcinoma of lung
-^ESCTSM761711	Small cell non-keratinising squamous cell carcinoma of lung
 ^ESCTSP361942	Spitzoid malignant melanoma
 ^ESCTSP534763	Spinous cell carcinoma
 ^ESCTSP534766	Spindle cell squamous carcinoma of skin
@@ -807,9 +566,6 @@
 ^ESCTSP668931	Spindle cell squamous cell carcinoma
 ^ESCTSP668963	Spindle cell malignant melanoma
 ^ESCTSP668964	Spitzoid malignant melanoma
-^ESCTSP761732	Spindle cell squamous cell carcinoma of larynx
-^ESCTSP761836	Spindle cell squamous cell carcinoma of hypopharynx
-^ESCTSP762028	Spindle cell squamous cell carcinoma of oropharynx
 ^ESCTSQ259025	Squamous cell carcinoma in situ with questionable stromal invasion
 ^ESCTSQ266363	Squamous cell carcinoma, spindle cell
 ^ESCTSQ266365	Squamous cell carcinoma, sarcomatoid
@@ -839,39 +595,17 @@
 ^ESCTSQ441216	Squamous cell carcinoma, clear cell type
 ^ESCTSQ475697	Squamous cell carcinoma in situ
 ^ESCTSQ502810	Squamous cell carcinoma of eyelid
-^ESCTSQ534430	Squamous cell carcinoma of buccal mucosa
-^ESCTSQ534695	Squamous cell carcinoma of trachea
-^ESCTSQ534698	Squamous cell carcinoma of bronchus
 ^ESCTSQ534773	Squamous cell carcinoma in situ of skin
-^ESCTSQ535230	Squamous cell carcinoma of cervix
 ^ESCTSQ535243	Squamous cell carcinoma of vulva
-^ESCTSQ535436	Squamous cell carcinoma of conjunctiva
-^ESCTSQ535443	Squamous cell carcinoma of cornea
 ^ESCTSQ535561	Squamous cell carcinoma of lip
-^ESCTSQ535582	Squamous cell carcinoma of anal margin
-^ESCTSQ535615	Squamous cell carcinoma of bladder
 ^ESCTSQ541683	Squamous cell carcinoma antigen
-^ESCTSQ559077	Squamous cell carcinoma of oesophagus
-^ESCTSQ559078	Squamous cell carcinoma of esophagus
 ^ESCTSQ559155	Squamous cell carcinoma of scrotum
-^ESCTSQ559289	Squamous cell carcinoma of tongue
-^ESCTSQ559291	Squamous cell carcinoma of gum
-^ESCTSQ559293	Squamous cell carcinoma of gingiva
-^ESCTSQ559294	Squamous cell carcinoma of floor of mouth
-^ESCTSQ559307	Squamous cell carcinoma of palate
 ^ESCTSQ569969	Squamous cell carcinoma of skin of upper lip
 ^ESCTSQ569970	Squamous cell carcinoma of skin of lower lip
 ^ESCTSQ569971	Squamous cell carcinoma of skin of cheek
-^ESCTSQ596925	Squamous cell carcinoma of mouth
-^ESCTSQ602914	Squamous cell carcinoma of bronchus in left lower lobe
-^ESCTSQ602915	Squamous cell carcinoma of bronchus in left upper lobe
-^ESCTSQ602916	Squamous cell carcinoma of bronchus in right lower lobe
-^ESCTSQ602917	Squamous cell carcinoma of bronchus in right middle lobe
-^ESCTSQ602918	Squamous cell carcinoma of bronchus in right upper lobe
 ^ESCTSQ662373	Squamous cell carcinoma in post-traumatic skin lesion
 ^ESCTSQ662512	Squamous cell carcinoma, nonkeratinising, differentiated
 ^ESCTSQ662513	Squamous cell carcinoma, nonkeratinizing, differentiated
-^ESCTSQ662525	Squamous cell carcinoma of prostate
 ^ESCTSQ662690	Squamous cell carcinoma, nonkeratinising, mixed differentiated and undifferentiated
 ^ESCTSQ662691	Squamous cell carcinoma, nonkeratinizing, mixed differentiated and undifferentiated
 ^ESCTSQ663579	Squamous cell carcinoma - category
@@ -892,22 +626,11 @@
 ^ESCTSQ668928	Squamous cell carcinoma of skin of lower extremity
 ^ESCTSQ668929	Squamous cell cancer of skin of lower limb
 ^ESCTSQ668930	Squamous cell carcinoma of skin of trunk
-^ESCTSQ671893	Squamous cell carcinoma of larynx
-^ESCTSQ672306	Squamous cell carcinoma in situ of uterine cervix
-^ESCTSQ676518	Squamous cell carcinoma of epiglottis
-^ESCTSQ676519	Squamous cell carcinoma of pharynx
-^ESCTSQ692024	Squamous cell carcinoma of mucous membrane of lower lip
-^ESCTSQ693420	Squamous cell carcinoma of mucous membrane of upper lip
-^ESCTSQ694396	Squamous cell carcinoma of oral mucous membrane
 ^ESCTSQ698863	Squamous cell carcinoma of bridge of nose
 ^ESCTSQ699209	Squamous cell carcinoma of chin
 ^ESCTSQ699258	Squamous cell carcinoma of back
 ^ESCTSQ699403	Squamous cell carcinoma of ala nasi
-^ESCTSQ699426	Squamous cell carcinoma of nasopharynx
 ^ESCTSQ700484	Squamous cell carcinoma of skin of neck
-^ESCTSQ700503	Squamous cell carcinoma of lung, TNM stage 1
-^ESCTSQ700795	Squamous cell carcinoma of oropharynx
-^ESCTSQ700801	Squamous cell carcinoma of lung, TNM stage 2
 ^ESCTSQ700875	Squamous cell carcinoma of external auditory canal
 ^ESCTSQ701222	Squamous cell carcinoma of auricle of ear
 ^ESCTSQ701223	Squamous cell carcinoma of pinna
@@ -915,35 +638,10 @@
 ^ESCTSQ701611	Squamous cell carcinoma of tip of nose
 ^ESCTSQ702295	Squamous cell carcinoma of nasolabial fold
 ^ESCTSQ703942	Squamous cell carcinoma of temple
-^ESCTSQ704084	Squamous cell carcinoma of lung, TNM stage 3
-^ESCTSQ704336	Squamous cell carcinoma of lung, TNM stage 4
 ^ESCTSQ735080	Squamous cell carcinoma arising in chronic ulcer
 ^ESCTSQ736206	Squamous cell carcinoma of nose
 ^ESCTSQ736207	Squamous cell carcinoma of shoulder
-^ESCTSQ761586	Squamous cell carcinoma of accessory sinus
-^ESCTSQ761588	Squamous cell carcinoma of maxillary sinus
-^ESCTSQ761590	Squamous cell carcinoma of sphenoidal sinus
-^ESCTSQ761592	Squamous cell carcinoma of frontal sinus
-^ESCTSQ761594	Squamous cell carcinoma of laryngeal cartilage
-^ESCTSQ761596	Squamous cell carcinoma of larynx
-^ESCTSQ761598	Squamous cell carcinoma of ethmoidal sinus
-^ESCTSQ761847	Squamous cell adenoid carcinoma of trachea
-^ESCTSQ761918	Squamous cell carcinoma of overlapping lesion of oropharynx
-^ESCTSQ761922	Squamous cell carcinoma of branchial cleft
-^ESCTSQ761924	Squamous cell carcinoma of posterior wall of oropharynx
-^ESCTSQ761927	Squamous cell carcinoma of lateral wall of oropharynx
-^ESCTSQ761932	Squamous cell carcinoma of vallecula
-^ESCTSQ762034	Squamous cell carcinoma of oropharynx
-^ESCTSQ762106	Squamous cell carcinomas of overlapping lesion of hypopharynx
-^ESCTSQ762202	Squamous cell carcinomas of posterior wall of hypopharynx
-^ESCTSQ762224	Squamous cell carcinomas of aryepiglottic fold, hypopharyngeal aspect
-^ESCTSQ762232	Squamous cell carcinomas of postcricoid region
-^ESCTSQ762234	Squamous cell carcinoma of piriform sinus
 ^ESCTSQ775025	Squamous cell carcinoma of head and neck
-^ESCTSQ803283	Squamous cell carcinoma of vagina
-^ESCTSQ803284	Squamous cell cancer of vagina
-^ESCTSQ947869	Squamous cell carcinoma of left lung
-^ESCTSQ947870	Squamous cell carcinoma of right lung
 ^ESCTSS534930	SSMM - Superficial spreading malignant melanoma of skin
 ^ESCTSU534928	Superficial spreading malignant melanoma of skin
 ^ESCTSU534929	Superficial spreading melanoma of skin
@@ -954,16 +652,8 @@
 ^ESCTSU657066	Surgical deep margin involved by malignant melanoma
 ^ESCTSU668949	Superficial basal cell carcinoma
 ^ESCTSU668969	Subungual malignant melanoma
-^ESCTT3633285	T3: Aerodigestive tract tumour invades any of the following: bone of posterior wall of maxillary sinus, subcutaneous tissues, skin of cheek, floor or medial wall of orbit, infratemporal fossa, pterygoid plates, ethmoid sinuses
-^ESCTT3633286	T3: Aerodigestive tract tumor invades any of the following: bone of posterior wall of maxillary sinus, subcutaneous tissues, skin of cheek, floor or medial wall of orbit, infratemporal fossa, pterygoid plates, ethmoid sinuses
 ^ESCTT4633295	T4: Lip: Tumour invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face)
 ^ESCTT4633296	T4: Lip: Tumor invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face)
-^ESCTT4633297	T4: Oral Cavity: Tumour invades adjacent structures (cortical bone, deep (extrinsic) muscle of tongue, maxillary sinus, skin)
-^ESCTT4633298	T4: Oral Cavity: Tumor invades adjacent structures (cortical bone, deep (extrinsic) muscle of tongue, maxillary sinus, skin)
-^ESCTT4633315	T4: Aerodigestive tract tumour with intracranial extension, orbital extension including apex, involving sphenoid and/or frontal sinus and/or skin of nose
-^ESCTT4633316	T4: Aerodigestive tract tumor with intracranial extension, orbital extension including apex, involving sphenoid and/or frontal sinus and/or skin of nose
-^ESCTT4633366	T4: Breast tumour of any size with direct extension to chest wall or skin
-^ESCTT4633367	T4: Breast tumor of any size with direct extension to chest wall or skin
 ^ESCTTN534150	TNM Carcinoma of skin tumour staging
 ^ESCTTN534151	TNM Carcinoma of skin tumor staging
 ^ESCTTN534154	TNM Malignant melanoma of skin staging
@@ -1009,9 +699,6 @@
 ^ESCTTU558987	Tumour of skin with pilar differentiation
 ^ESCTTU558988	Tumor of skin with pilar differentiation
 ^ESCTUN737473	Undifferentiated nonkeratinizing squamous cell carcinoma
-^ESCTUN750379	Undifferentiated nonkeratinizing carcinoma of nasopharynx
-^ESCTUN750381	Undifferentiated nonkeratinising carcinoma of nasopharynx
-^ESCTUN750382	Undifferentiated nonkeratinizing squamous cell carcinoma of nasopharynx
 ^ESCTVA663534	Vascular neoplasm of skin
 ^ESCTVA663537	Vascular tumor of skin
 ^ESCTVE396157	Verrucous squamous cell carcinoma
@@ -1019,48 +706,23 @@
 ^ESCTVE668937	Verrucous squamous cell carcinoma
 ^ESCTVE668938	Verrucous epidermoid carcinoma
 ^ESCTWA396159	Warty carcinoma
-EMISNQAT15	Atypical mole syndrome
 EMISNQHI85	High risk basal cell carcinoma
-EMISNQMA25	Malignant melanoma of choroid
-EMISNQMA27	Malignant melanoma of iris
 EMISNQME101	[M]Metaplastic melanoma
 EMISNQMU16	Multiple self-healing epithelioma of Ferguson-Smith
 EMISNQSQ1	Squamous cell carcinoma of lung
-^ESCTBE663315	Benign melanocytic naevus of skin
-^ESCTBE663317	Benign melanocytic nevus of skin
-^ESCTME663314	Melanocytic nevus of skin
-^ESCTPI663316	Pigmented naevus of skin
-^ESCTPI663318	Pigmented nevus of skin
 ^ESCTPR402787	Primary malignant neoplasm of sebaceous gland
 ^ESCTPR402886	Primary malignant neoplasm of sweat gland
-EMISNQAD45	Adenocarcinoma of lung
-EMISNQLA74	Large cell carcinoma of lung
 EMISNQME100	[M]Metaplastic carcinoma
-EMISNQNO51	Non-small cell lung cancer
-EMISNQPR69	Primary malignant neoplasm of lung
-EMISNQSM10	Small cell lung cancer
 EMISNQTR25	Trichoblastoma
 ESCTST2	Stewart-Treves syndrome
-^ESCT1190817	Skin - benign mole and nevus
-^ESCTAC480682	Achrochordon
 ^ESCTBE283573	Benign melanoma
-^ESCTBE534968	Benign fibrous histiocytoma of skin
-^ESCTBL535077	Blue nevus of skin
-^ESCTFI534969	Fibrous xanthoma of skin
-^ESCTHA283571	Hairy nevus
-^ESCTHA283574	Hairy naevus
-^ESCTHI532478	Hidradenoma of skin
-^ESCTME283572	Melanocytic nevus
-^ESCTME283575	Melanocytic naevus
-^ESCTNA283570	Naevus
-^ESCTNE283569	Nevus
-^ESCTNO532477	Nodular hidradenoma
-^ESCTPI283568	Pigmented nevus
-^ESCTPI283576	Pigmented nevus, no ICD-O subtype
-^ESCTPI283577	Pigmented nevus, no International Classification of Diseases for Oncology subtype
-^ESCTSK480684	SKT - Skin tag
-^ESCTSK572095	Skin - benign mole and naevus
-^ESCTSO480683	Soft papilloma
-^ESCTSO480685	Soft fibroma
-^ESCTSY532476	Syringadenoma
-^ESCTSY591167	Syringoma of skin
+^ESCTFE534783	Ferguson-Smith tumor
+^ESCTFE534784	Ferguson-Smith tumour
+^ESCTLY351613	Lymphangiosarcoma of Stewart and Treves
+^ESCTLY351614	Lymphangiosarcoma of skin
+^ESCTBO593023	Bowenoid actinic keratosis
+^ESCTHY534800	Hypertrophic actinic keratosis
+^ESCTHY737419	Hyperkeratotic actinic keratosis
+^ESCTLI667724	Lichenoid actinic keratosis
+
+

@@ -1,0 +1,8 @@
+^ESCT1214991	Rituximab 100mg/10ml solution for infusion vials
+^ESCT1214992	Rituximab 500mg/50ml solution for infusion vials
+RIIN33640EMIS	Rituximab  Solution for infusion  100 mg/10 ml vial
+RIIN33641EMIS	Rituximab  Solution for infusion  500 mg/50 ml vial
+^ESCTMA899494	MabThera 100mg/10ml concentrate for solution for infusion vials (Roche Products Ltd)
+^ESCTMA899507	MabThera 500mg/50ml concentrate for solution for infusion vials (Roche Products Ltd)
+MAIN33636EMIS	Mabthera  Concentrate For Solution For Infusion  100 mg/10 ml vial
+MAIN33637EMIS	Mabthera  Concentrate For Solution For Infusion  500 mg/50 ml vial

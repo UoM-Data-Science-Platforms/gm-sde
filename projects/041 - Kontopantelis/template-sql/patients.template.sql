@@ -157,11 +157,29 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
 
 -- Get patient list of those with COVID death within 28 days of positive test
+-- 15.11.22: updated to deal with '28 days' flag over-reporting
+
+-- IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+-- SELECT DISTINCT FK_Patient_Link_ID 
+-- INTO #COVIDDeath FROM RLS.vw_COVID19
+-- WHERE DeathWithin28Days = 'Y'
+-- AND EventDate <= @EndDate
+-- AND (
+--   (GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+--   (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+-- );
+
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
+INTO #COVIDDeath FROM SharedCare.COVID19
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+AND DATEDIFF(day,EventDate,DeathDate) <= 28
+AND EventDate < '2022-03-01';
+
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
@@ -193,7 +211,7 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		WorstSmokingStatus = smok.WorstSmokingStatus,
 		CurrentAlcoholIntake,
 		WorstAlcoholIntake,
-		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IS NULL OR DeathDate >= @EndDate THEN 'N' ELSE 'Y' END,
 		Death_Year = YEAR(p.DeathDate),
 		Death_Month = MONTH(p.DeathDate),
 		FirstVaccineYear =  YEAR(VaccineDose1Date),

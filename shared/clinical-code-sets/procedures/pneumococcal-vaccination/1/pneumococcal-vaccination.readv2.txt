@@ -1,0 +1,8 @@
+6572000	Pneumococcal vaccination given
+657R.00	Supplemental pneumococcal conjugated vaccination
+657P.00	Pneumococcal vaccination given by other healthcare provider
+657N.00	Third pneumococcal conjugated vaccination
+657M.00	Second pneumococcal conjugated vaccination
+657L.00	First pneumococcal conjugated vaccination
+657K.00	Booster pneumococcal vaccination
+6572.00	Pneumococcal vaccination

@@ -1,0 +1,6 @@
+h54..	DIC - Dacarbazine
+h541.	DTIC-Dome 100mg injection (pdr for recon)
+h542.	DTIC-Dome 200mg injection (pdr for recon)
+h54y.	Dacarbazine 100mg injection (pdr for recon)
+h54z.	Dacarbazine 200mg injection (pdr for recon)
+x04AF	DTIC-Dome

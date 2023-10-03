@@ -1,0 +1,77 @@
+2177002	Post-zoster neuralgia
+4740000	Zoster
+10491005	Herpes zoster meningitis
+10698009	Herpes zoster iridocyclitis (disorder)
+42448002	Herpes zoster with keratoconjunctivitis
+49183009	Herpes zoster with complication (disorder)
+55560002	Disseminated herpes zoster (disorder)
+87513003	Zoster ophthalmicus
+111859007	Herpes zoster without complication (disorder)
+111861003	Herpes zoster with nervous system complication (disorder)
+186524006	Herpes zoster with ophthalmic complication (disorder)
+186525007	Herpes zoster dermatitis of eyelids
+230176008	Herpes zoster encephalitis (disorder)
+230262004	Amyotrophy caused by herpes zoster (disorder)
+230536009	Acute trigeminal herpes zoster (disorder)
+232400003	Acute herpes zoster pharyngitis (disorder)
+235059009	Herpes zoster infection of oral mucosa (disorder)
+240470005	Thoracic herpes zoster infection (disorder)
+240471009	Lumbar herpes zoster infection (disorder)
+240472002	Maxillary herpes zoster infection (disorder)
+240473007	Mandibular herpes zoster infection (disorder)
+240474001	Multidermatomal herpes zoster infection (disorder)
+309465005	Varicella-zoster virus infection (disorder)
+397573005	HZV keratitis
+400020001	Herpes zoster dermatitis
+402897003	Cervical herpes zoster
+402898008	Sacral herpes zoster
+410500004	Herpes zoster involving tip of nose
+410509003	Varicella virus conjunctivitis
+421029004	Herpes zoster retinitis
+422127002	Herpes zoster associated with acquired immunodeficiency syndrome
+422446008	Herpes zoster subepithelial infiltrates
+422471006	Herpes zoster acute retinal necrosis
+422666006	Herpes zoster corneal epitheliopathy
+423628002	Acute herpes zoster neuropathy
+424353002	Corneal haze caused by herpes zoster
+424435009	Herpes zoster pseudodendrites
+424801004	Herpes zoster corneal endotheliitis
+424941009	Herpes zoster radiculitis
+425356002	Herpes zoster retinal pigment epithelial detachment
+426570007	Herpes zoster interstitial keratitis
+449783002	Zoster sine herpete
+713250002	Gingival disease caused by varicella-zoster virus
+713733003	Herpes zoster infection co-occurrent with human immunodeficiency virus infection
+713964006	Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection
+723109003	Herpes zoster of skin and/or mucous membranes without complications
+15992311000119100	Keratitis of left eye due to herpes zoster
+15992271000119100	Keratitis of right eye due to herpes zoster
+331071000119101	Herpes zoster iritis (disorder)
+12551000132107	Cranial neuropathy due to Herpes zoster
+12571000132104	Pneumonitis due to Herpes zoster
+12561000132105	Bacterial infection co-occurrent and due to herpes zoster
+1087131000119102	Herpes zoster scleritis
+98541000119101	Herpes zoster myelitis
+19551004	Human herpesvirus 3 (organism)
+725469006	Varicella-zoster virus clade 1
+725470007	Varicella-zoster virus clade 2
+725471006	Varicella-zoster virus clade 3
+725472004	Varicella-zoster virus clade 4
+725473009	Varicella-zoster virus clade 5
+104326007	Varicella-zoster virus antibody assay
+259858000	Varicella immunoglobulin
+703486008	Varicella-zoster virus IgG antibody
+710704003	Anti-Varicella zoster virus IgM
+398503008	Varicella-zoster nucleic acid detection
+445133005	Detection of Varicella-zoster virus using polymerase chain reaction technique
+829501000000108	Detection of Varicella zoster virus using polymerase chain reaction technique
+76462000	Nerve pain from shingles
+193190005	Polyneuropathy in herpes zoster (disorder)
+428633000	Exanthem caused by herpes zoster (disorder)
+239981000000102	Shingles exanthem
+734285001	Varicella-zoster virus wild-type DNA detected
+1008021000000105	Varicella zoster deoxyribonucleic acid detection assay
+1031821000000103	Varicella zoster nucleic acid detection assay
+36292003	Otitis externa caused by Herpes zoster (disorder)
+416718008	Varicella-zoster virus eyelid dermatitis
+1111351000000104	Presence of varicella zoster virus antibody in serum (observable entity)

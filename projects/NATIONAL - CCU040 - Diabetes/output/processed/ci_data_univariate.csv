@@ -1,0 +1,76 @@
+Variable,Group,T1DM OR,T1DM Lower CI,T1DM Upper CI,T2DM OR,T2DM Lower CI,T2DM Upper CI
+Age,GMCR,1.04,1.02,1.05,1.03,1.03,1.03
+Sex,GMCR,1.04,0.66,1.63,1.25,1.14,1.37
+Townsend score (higher is more deprived),GMCR,1.05,0.99,1.12,1.03,1.02,1.05
+Latest BMI value,GMCR,1.04,1,1.08,1,0.99,1.01
+Latest HbA1c value,GMCR,1.01,1,1.02,1,1,1
+Latest cholesterol value,GMCR,0.86,0.67,1.08,0.9,0.87,0.94
+Latest LDL value,GMCR,0.75,0.54,1.01,0.83,0.78,0.88
+Latest HDL value,GMCR,0.41,0.21,0.8,1.03,0.89,1.18
+Latest eGFR value,GMCR,0.98,0.97,0.99,0.98,0.98,0.98
+Patient has COPD,GMCR,3.8,1.33,9.65,1.89,1.63,2.19
+Patient has asthma,GMCR,0.84,0.43,1.51,1.15,1.02,1.29
+Patient has SMI,GMCR,0.95,0.15,3.34,1.49,1.22,1.82
+Is on ACE inhibitor,GMCR,2.78,1.75,4.39,1.2,1.1,1.32
+Is on aspirin,GMCR,3.26,1.85,5.58,1.49,1.34,1.66
+Is on clopidogrel,GMCR,2.2,0.87,4.91,1.71,1.47,1.98
+Is on metformin,GMCR,2.29,1.31,3.86,0.71,0.65,0.78
+Patient has hypertension,GMCR,2.6,1.63,4.12,1.49,1.35,1.64
+Townsend quartile 2,GMCR,0.51,0.19,1.27,1.32,1.07,1.61
+Townsend quartile 3,GMCR,1.18,0.56,2.51,1.23,1.01,1.49
+Townsend quartile 4,GMCR,0.85,0.41,1.79,1.35,1.13,1.62
+Townsend quartile 5,GMCR,1.14,0.59,2.3,1.48,1.25,1.75
+Black,GMCR,2.7,0.96,6.6,1.56,1.25,1.93
+Asian,GMCR,0.81,0.3,1.79,0.87,0.78,0.98
+Mixed,GMCR,6,1.5,21.55,1.14,0.74,1.72
+Other,GMCR,1.61,0.53,3.98,1.29,1.04,1.6
+Age,National,1.025,1.023,1.026,1.036,1.035,1.036
+Sex,National,1.119820829,1.043841336,1.201923077,1.210653753,1.191895113,1.231527094
+Townsend score (higher is more deprived),National,1.056,1.046,1.067,1.031,1.029,1.033
+Latest BMI value,National,1.013,1.006,1.019,0.994,0.992,0.995
+Latest HbA1c value,National,1.018,1.016,1.02,1.004,1.003,1.004
+Latest cholesterol value,National,0.975,0.937,1.013,0.884,0.877,0.891
+Latest LDL value,National,0.907,0.849,0.967,0.85,0.839,0.861
+Latest HDL value,National,0.617,0.557,0.684,0.876,0.853,0.899
+Latest eGFR value,National,0.968,0.966,0.97,0.976,0.975,0.976
+Patient has COPD,National,3.604,2.979,4.336,2.34,2.28,2.401
+Patient has asthma,National,1.153,1.053,1.26,1.114,1.092,1.137
+Patient has SMI,National,2.626,2.031,3.356,1.536,1.464,1.611
+Is on ACE inhibitor,National,1.443,1.326,1.57,1.028,1.01,1.046
+Is on aspirin,National,3.086,2.812,3.383,1.662,1.629,1.696
+Is on clopidogrel,National,3.625,3.162,4.144,1.987,1.935,2.041
+Is on metformin,National,1.091,0.976,1.217,0.71,0.699,0.722
+Patient has hypertension,National,2.405,2.234,2.588,1.481,1.456,1.506
+Townsend quartile 2,National,1.111,0.988,1.25,1.049,1.019,1.079
+Townsend quartile 3,National,1.232,1.096,1.385,1.163,1.131,1.196
+Townsend quartile 4,National,1.356,1.207,1.524,1.255,1.221,1.289
+Townsend quartile 5,National,1.768,1.582,1.977,1.361,1.326,1.397
+Black,National,2.047,1.695,2.454,1.255,1.209,1.302
+Asian,National,1.444,1.238,1.676,0.916,0.896,0.937
+Mixed,National,1.035,0.772,1.359,1.029,0.958,1.104
+Other,National,0.916,0.639,1.271,1.061,0.998,1.129
+Age,SGSS,1.027,1.026,1.028,1.043,1.043,1.044
+Sex,SGSS,1.044,0.997,1.093,1.183,1.171,1.196
+Townsend score (higher is more deprived),SGSS,1.074,1.067,1.080,1.039,1.037,1.04
+Latest BMI value,SGSS,1.011,1.007,1.015,0.987,0.987,0.988
+Latest HbA1c value,SGSS,1.017,1.016,1.018,1.003,1.003,1.003
+Latest cholesterol value,SGSS,0.948,0.923,0.973,0.859,0.854,0.863
+Latest LDL value,SGSS,0.847,0.811,0.884,0.825,0.818,0.832
+Latest HDL value,SGSS,0.654,0.611,0.699,0.918,0.902,0.934
+Latest eGFR value,SGSS,0.968,0.967,0.969,0.974,0.974,0.974
+Patient has COPD,SGSS,4.248,3.737,4.821,2.601,2.555,2.648
+Patient has asthma,SGSS,1.153,1.086,1.223,1.136,1.12,1.152
+Patient has SMI,SGSS,2.647,2.231,3.125,1.563,1.514,1.614
+Is on ACE inhibitor,SGSS,1.617,1.530,1.709,1.066,1.053,1.078
+Is on aspirin,SGSS,3.532,3.319,3.756,1.794,1.77,1.819
+Is on clopidogrel,SGSS,4.380,4.005,4.787,2.168,2.129,2.208
+Is on metformin,SGSS,1.171,1.087,1.260,0.734,0.726,0.743
+Patient has hypertension,SGSS,2.714,2.586,2.849,1.64,1.621,1.659
+Townsend quartile 2,SGSS,1.123,1.038,1.216,1.057,1.036,1.078
+Townsend quartile 3,SGSS,1.261,1.166,1.364,1.152,1.13,1.175
+Townsend quartile 4,SGSS,1.576,1.461,1.700,1.252,1.228,1.275
+Townsend quartile 5,SGSS,2.023,1.880,2.178,1.444,1.419,1.47
+Black,SGSS,2.279,2.034,2.548,1.345,1.313,1.378
+Asian,SGSS,1.533,1.389,1.690,0.9,0.886,0.914
+Mixed,SGSS,1.217,1.028,1.431,0.999,0.952,1.048
+Other,SGSS,1.308,1.077,1.574,1.115,1.07,1.162

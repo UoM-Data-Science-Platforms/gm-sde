@@ -1,0 +1,15 @@
+^ESCT1248218	Admit psychiatric emergency
+^ESCT1248219	Admit psychogeriatric emergency
+^ESCT1248505	Emerg psychiatric admiss MHA
+^ESCTEM810119	Emergency informal psychiatric admission under Mental Health Act
+^ESCTEM813400	Emergency psychiatric admission under Mental Health Act 1983 (England and Wales)
+^ESCTPS472327	Psychiatric emergency hospital admission
+^ESCTPS472368	Psychogeriatric emergency hospital admission
+^ESCTRE472433	Referral to psychiatry service
+^ESCTRE472439	Referral to psychiatrist for the elderly mentally ill
+^ESCTRE595428	Referral to child and adolescent psychiatrist
+^ESCTRE595432	Referral to psychiatrist for mental handicap
+^ESCTRE597888	Referral to psychologist
+EMISNQPR144	Private referral to psychologist
+EMISNQRE33	Referral to child and adolescent psychiatry service
+EMISQEL1	Elderly psychiatric emergency admission

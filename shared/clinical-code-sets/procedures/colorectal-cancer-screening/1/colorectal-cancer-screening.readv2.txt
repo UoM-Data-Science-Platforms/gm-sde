@@ -1,0 +1,11 @@
+686C.00	Bowel cancer screening programme faecal occult blood testing incomplete participation
+686B.00	Bowel cancer screening programme faecal occult blood test abnormal
+686A.00	Bowel cancer screening programme faecal occult blood test normal
+6869.00	Bowel cancer screening programme faecal occult blood test result unclear
+6868.00	Bowel cancer screening programme faecal occult blood test technical failure
+6867.00	Bowel cancer screening programme faecal occult blood testing kit spoilt
+6866.00	Bowel cancer screening programme: faecal occult blood result
+9Ow..00	Bowel cancer screening programme administration
+9Ow1.00	Bowel cancer detected by national screening programme
+68W2.00	Bowel cancer screening programme
+68W2000	Bowel Cancer Screening Programme bowel scope screening test

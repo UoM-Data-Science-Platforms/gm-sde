@@ -43,7 +43,7 @@ INSERT INTO #PracticeSystemLookup VALUES
 
 -- Every unique person in the GMCR database
 IF OBJECT_ID('tempdb..#AllGMCRPatients') IS NOT NULL DROP TABLE #AllGMCRPatients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllGMCRPatients FROM RLS.vw_Patient_Link;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllGMCRPatients FROM SharedCare.Patient_Link;
 -- 5464180
 
 -- Populate patient table to get other demographic info
@@ -85,7 +85,7 @@ SELECT
 		ELSE 10
 	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
 INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND IMD_Score IS NOT NULL
 AND IMD_Score != -1;
@@ -153,7 +153,7 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
@@ -170,7 +170,7 @@ SELECT
 	HDMModifDate,
 	LSOA_Code
 INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND LSOA_Code IS NOT NULL;
 
@@ -181,7 +181,8 @@ IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
 SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
@@ -216,6 +217,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
 --┌─────┐
 --│ Sex │
 --└─────┘
@@ -246,7 +250,7 @@ SELECT
 	HDMModifDate,
 	Sex
 INTO #AllPatientSexs
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Sex IS NOT NULL;
 
@@ -257,7 +261,8 @@ IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
@@ -290,6 +295,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
 --┌───────────────┐
 --│ Year of birth │
 --└───────────────┘
@@ -320,7 +328,7 @@ SELECT
 	HDMModifDate,
 	YEAR(Dob) AS YearOfBirth
 INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND Dob IS NOT NULL;
 
@@ -331,7 +339,8 @@ IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearO
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
@@ -378,14 +387,18 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatient
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
 -- Every living unique person in the GMCR database
 IF OBJECT_ID('tempdb..#AllLivingGMCRPatients') IS NOT NULL DROP TABLE #AllLivingGMCRPatients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllLivingGMCRPatients FROM RLS.vw_Patient_Link WHERE Deceased='N';
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #AllLivingGMCRPatients FROM SharedCare.Patient_Link WHERE Deceased='N';
 -- 5238741
 
 -- Every unique person in the GMCR database who now or previously was registered with a GM GP
 IF OBJECT_ID('tempdb..#GMCRPatientsWithGPFeed') IS NOT NULL DROP TABLE #GMCRPatientsWithGPFeed;
-SELECT distinct FK_Patient_Link_ID INTO #GMCRPatientsWithGPFeed FROM RLS.vw_Patient WHERE FK_Reference_Tenancy_ID=2;
+SELECT distinct FK_Patient_Link_ID INTO #GMCRPatientsWithGPFeed FROM SharedCare.Patient WHERE FK_Reference_Tenancy_ID=2;
 -- 3487444
 
 -- Every unique living person in the GMCR database who now or previously was registered with a GM GP
@@ -397,7 +410,7 @@ SELECT FK_Patient_Link_ID FROM #AllLivingGMCRPatients;
 
 -- Every unique person in the GMCR database who is currently registered with a GM GP (includes dead people who died while registered at a GM GP)
 IF OBJECT_ID('tempdb..#GMCRPatientsWithGMGP') IS NOT NULL DROP TABLE #GMCRPatientsWithGMGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #GMCRPatientsWithGMGP FROM RLS.vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #GMCRPatientsWithGMGP FROM SharedCare.Patient
 WHERE GPPracticeCode NOT LIKE 'ZZ%'
 AND FK_Reference_Tenancy_ID=2;
 -- 3246326

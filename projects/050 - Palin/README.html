@@ -314,7 +314,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -1925,10 +1925,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <h3>Haematocrit</h3>
 <p>A patient's haematocrit percentage as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>XE2Zq - Haematocrit - PCV level</code>). It does not include codes that indicate a patient's haematocrit (<code>4253 - Haematocrit - PCV - high</code>) without giving the actual value.</p>
-<p>Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.</p>
+<p>Haematocrit codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.</p>
 <p><strong>NB: This code set is intended to only indicate a patient's haematocrit percentage</strong></p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.66% - 62.03%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>57.2% - 65.6%</code> suggests that this code set is likely well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1941,25 +1941,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-02-01</td>
+<td>2023-03-22</td>
 <td>EMIS</td>
-<td>2652511</td>
-<td style="text-align:right">1582390 (59.66%)</td>
-<td style="text-align:right">1582391 (59.66%)</td>
+<td>2444244</td>
+<td style="text-align:right">1455735 (59.6%)</td>
+<td style="text-align:right">1457398 (59.6%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-03-22</td>
 <td>TPP</td>
-<td>212213</td>
-<td style="text-align:right">129224 (60.89%)</td>
-<td style="text-align:right">129224 (60.89%)</td>
+<td>199056</td>
+<td style="text-align:right">130631 (65.6%)</td>
+<td style="text-align:right">137852 (69.3%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-03-22</td>
 <td>Vision</td>
-<td>340640</td>
-<td style="text-align:right">211312 (62.03%)</td>
-<td style="text-align:right">211312 (62.03%)</td>
+<td>328968</td>
+<td style="text-align:right">188030 (57.2%)</td>
+<td style="text-align:right">188084 (57.2%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haematocrit/1">https://github.com/rw251/.../tests/haematocrit/1</a></td>

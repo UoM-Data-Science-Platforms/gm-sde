@@ -1,0 +1,8 @@
+^ESCT1192867	Alcohol units per week
+^ESCTAI453315	AI - Alcohol intake
+^ESCTAL453314	Alcohol intake
+^ESCTAL453319	Alcoholic drink intake
+^ESCTAL498716	alcohol units/week
+^ESCTET453316	Ethanol intake
+^ESCTET453317	ETOH - Alcohol intake
+EGTON418	Alcohol intake

@@ -247,7 +247,7 @@ function parseQuery(queryFilename) {
   let lastIndent = 0;
   let lastIndentSize = 0;
   const props = { queryFilename };
-  while (trimmedLine === '' || trimmedLine.indexOf('--') === 0) {
+  while (trimmedLine === '' || trimmedLine.indexOf('--') === 0 || trimmedLine.indexOf('{') === 0) {
     if (trimmedLine.indexOf('--│') === 0 || trimmedLine.indexOf('--|') === 0) {
       props.name = trimmedLine.substr(3).replace(/[|│]/g, '').trim();
     } else if (trimmedLine.indexOf('--') === 0) {

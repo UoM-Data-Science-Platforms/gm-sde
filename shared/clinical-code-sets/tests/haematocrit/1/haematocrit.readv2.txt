@@ -1,5 +1,5 @@
-4258	Haematocrit
-4257	Packed cell volume
+4258.	Haematocrit
+4257.	Packed cell volume
 425..00	Haematocrit - PCV
 425..11	Packed cell volume - PCV
 425Z.00	Haematocrit - PCV - NOS

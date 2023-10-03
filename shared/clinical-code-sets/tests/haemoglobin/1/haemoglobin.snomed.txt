@@ -1,0 +1,2 @@
+1022431000000105	Haemoglobin estimation (observable entity)
+271026005	Hemoglobin level estimation (procedure)

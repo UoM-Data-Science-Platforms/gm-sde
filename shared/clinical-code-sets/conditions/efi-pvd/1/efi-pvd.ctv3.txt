@@ -1,0 +1,24 @@
+M2710	Ischaemic ulcer diabetic foot
+Xa0lV	Peripheral vascular disease
+XE10I	Diabetes mellitus with peripheral circulatory disorder
+X203T	Lower limb ischaemia
+G73..	(Peri vasc dis (& [isch][oth])) or (isch leg) or (peri isch)
+X203R	Upper limb ischaemia
+XaVyB	History of peripheral vascular disease
+XaFn7	Type II diabetes mellitus with peripheral angiopathy
+X203M	Arterial ischaemia
+X203S	Critical upper limb ischaemia
+X203U	Critical lower limb ischaemia
+Xa7lT	Ischaemia of feet
+X203Q	Peripheral ischaemia
+XaE3G	Critical ischaemia of foot
+C107.	Diabetes mellitus with: [gangrene] or [periph circul disord]
+XM1Qx	Diabetes mellitus with gangrene
+G670.	Atherosclerosis: [precerebral] or [cerebral]
+X203K	Abdominal aortic atherosclerosis
+C1086	Type I diabetes mellitus with gangrene
+G73z.	Peripheral vascular disease NOS
+24E9.	O/E - R.dorsalis pedis absent
+24F9.	O/E - L.dorsalis pedis absent
+XaBL8	O/E - Absent right foot pulses
+XaJD3	O/E - Right dorsalis pedis abnormal

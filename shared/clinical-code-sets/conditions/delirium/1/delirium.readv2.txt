@@ -1,0 +1,32 @@
+2233.00	O/E - delirious
+E001100	Presenile dementia with delirium
+E003.00	Senile dementia with delirium
+E030.00	Acute confusional state
+E030.11	Delirium - acute organic
+E030z00	Acute confusional state NOS
+E031.00	Subacute confusional state
+E031.11	Delirium - subacute organic
+E031z00	Subacute confusional state NOS
+Eu04.11	[X]Acute / subacute brain syndrome
+Eu04.14	[X]Acute / subacute organic reaction
+Eu04000	[X]Delirium not superimposed on dementia, so described
+Eu04100	[X]Delirium superimposed on dementia
+Eu04y00	[X]Other delirium
+Eu04y11	[X]Delirium of mixed origin
+Eu04z00	[X]Delirium, unspecified
+E030.00	Acute confusional state
+E030.11	Delirium - acute organic
+Eu04.11	[X]Acute / subacute brain syndrome
+Eu04.14	[X]Acute / subacute organic reaction
+E030.00	Acute confusional state
+E030.11	Delirium - acute organic
+Eu04.11	[X]Acute / subacute brain syndrome
+Eu04.14	[X]Acute / subacute organic reaction
+E030.00	Acute confusional state
+E030.11	Delirium - acute organic
+Eu04.11	[X]Acute / subacute brain syndrome
+Eu04.14	[X]Acute / subacute organic reaction
+E030.00	Acute confusional state
+E030.11	Delirium - acute organic
+Eu04.11	[X]Acute / subacute brain syndrome
+Eu04.14	[X]Acute / subacute organic reaction

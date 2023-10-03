@@ -1,0 +1,28 @@
+XM06a	Fainting
+R0021	[D]Fainting
+XE2pZ	[D]: [fainting] or [collapse]
+G870.	Orthostatic hypotension
+G87..	Hypotension
+X208R	Drug-induced hypotension
+G87z.	Hypotension NOS
+G872.	Idiopathic hypotension
+XaQi4	History of hypotension
+G871.	Chronic hypotension
+X70qY	Induced hypotension
+F1303	Parkinsonism with orthostatic hypotension
+X00CT	Sympathotonic orthostatic hypotension
+XM06c	Collapse
+XE2ah	Had a collapse
+1B62.	Syncope/vasovagal faint
+XaJDf	Dizziness on standing up
+R002.	[D]Syncope and collapse
+1B68.	Felt faint
+XM010	Syncope
+XM06b	Vasovagal syncope
+XM06g	Light-headedness
+X769i	Vasovagal symptom
+R0023	[D]Collapse
+R0042	[D]Light-headedness
+79370	Implantation of cardiac pacemaker system NEC
+R0022	[D]Vasovagal attack
+XM06a	Fainting

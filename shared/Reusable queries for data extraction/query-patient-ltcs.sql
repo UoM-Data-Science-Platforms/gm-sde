@@ -67,8 +67,8 @@ CREATE TABLE #ltccodesreadv2 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
   [diagnosisOrMedication] [varchar](255) NOT NULL,
-	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
-	[description] [varchar](255) NULL
+  [code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #ltccodesreadv2
@@ -225,8 +225,8 @@ CREATE TABLE #ltccodesctv3 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
   [diagnosisOrMedication] [varchar](255) NOT NULL,
-	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
-	[description] [varchar](255) NULL
+  [code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #ltccodesctv3
@@ -350,8 +350,8 @@ CREATE TABLE #ltccodessnomed (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
   [diagnosisOrMedication] [varchar](255) NOT NULL,
-	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
-	[description] [varchar](255) NULL
+  [code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #ltccodessnomed

@@ -17,16 +17,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- CREATE TABLE OF PATIENTS THAT WERE PROCESSED BEFORE COPI NOTICE EXPIRED
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
 --> CODESET diabetes-type-ii:1 polycystic-ovarian-syndrome:1 gestational-diabetes:1
-
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
 
@@ -85,7 +76,6 @@ WHERE
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM MWDH.Live_Header) 		-- My Way Diabetes Patients
 	AND p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)   -- Exclude pts with gestational diabetes
 	AND YEAR(@StartDate) - yob.YearOfBirth >= 19									-- Over 18s only
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 -- Define the population of potential matches for the cohort
@@ -94,11 +84,8 @@ SELECT DISTINCT FK_Patient_Link_ID, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
-
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:20
-
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -133,7 +120,6 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIds)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 --Outputs from this reusable query:
 -- #MainCohort

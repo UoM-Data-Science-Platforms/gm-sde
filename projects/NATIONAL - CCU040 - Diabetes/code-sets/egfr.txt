@@ -1,0 +1,5 @@
+1011481000000105	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres (observable entity)
+1011491000000107	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres (observable entity)
+1020291000000106	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation (observable entity)
+857971000000104	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula (observable entity)
+996231000000108	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin (observable entity)

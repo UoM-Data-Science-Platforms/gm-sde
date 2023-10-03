@@ -1,0 +1,23 @@
+92649001	Cancer in situ of lung
+93880001	Lung cancer
+94391008	Cancer metastatic to lung
+254632001	Small cell carcinoma of lung (disorder)
+254637007	Non-small cell lung cancer (disorder)
+363358000	CA - Lung cancer
+426964009	Epidermal growth factor receptor positive non-small cell lung cancer
+427038005	Epidermal growth factor receptor negative non-small cell lung cancer
+703228009	Non-small cell lung cancer with mutation in epidermal growth factor receptor
+703230006	Non-small cell lung cancer without mutation in epidermal growth factor receptor (disorder)
+722425009	ROS1 positive NSCLC - reactive oxygen species 1 positive non-small cell lung cancer
+723301009	Squamous NSCLC (non-small cell lung cancer)
+353561000119103	Secondary malignant neoplasm of right lung (disorder)
+353741000119106	Secondary malignant neoplasm of left lung
+429226001	History of non-small cell cancer of the lung
+1098961000119105	History of cancer metastatic to lung (situation)
+406067005	College of American Pathologists Cancer Checklist; Lung: Biopsy (record artifact)
+406068000	College of American Pathologists Cancer Checklist; Lung: Resection (record artifact)
+384756002	pT4: Tumour of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+384754004	pT2: Tumour of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+162573006	Suspected lung cancer (situation)
+276491000000101	Fast track referral for suspected lung cancer
+382681000000102	Seen in fast track suspected lung cancer clinic

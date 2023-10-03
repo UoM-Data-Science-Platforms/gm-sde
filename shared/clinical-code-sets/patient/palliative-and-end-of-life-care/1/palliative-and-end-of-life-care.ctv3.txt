@@ -1,0 +1,52 @@
+66S3.	Full care by hospice
+66S4.	Shared care - hospice and GP
+8BA2.	Caring for the dying
+8BA2.	End of life care
+8BA2.	End stage management
+8BA2.	Terminal care
+8HX0.	Urgent admission to hospice
+8HX1.	Routine admission to hospice
+8HX2.	Admission to hospice for respite
+Xa2l6	Hospice
+XaaD3	Prescription of palliative care anticipatory medication
+XaAeN	Referral to hospice
+XaAex	Referral for palliative care
+XaAex	Referral to palliative care service
+XaAMp	Admission to hospice
+XaAmT	Discharge from palliative care service
+XaApO	Discharge from hospice
+XaAPW	Under care of palliative care physician
+XaAZ4	Seen in hospice
+XabAa	Hospice community lodge
+Xabkk	Patient died in hospice community lodge
+XaEJE	Palliative care
+XaEK5	Patient died in hospice
+XaeYr	Has end of life care key worker
+XaIh7	Hospice - NHS
+XaIh8	Hospice - independent
+XaIiW	Palliative medicine
+XaIlk	Referred to community specialist palliative care team
+XaIpa	Discharged from community specialist palliative care team
+XaIpI	Palliative treatment
+XaIpl	Final days pathway
+XaIpR	Community specialist palliative care
+XaIpY	Specialist palliative care
+XaIsf	Specialist palliative care treatment - inpatient
+XaIt6	Specialist palliative care treatment - daycare
+XaIt7	Specialist palliative care treatment - outpatient
+XaJv2	On gold standards palliative care framework
+XaLkE	Under the care of community palliative care team
+XaLKI	Under care of palliative care service
+XaPmq	Issue of palliative care anticipatory medication box
+XaPmq	Issue of palliative care just in case box
+XaPxr	Seen by palliative care service
+XaQ8a	Notification to primary care out of hours service of palliative care plan in place
+XaQ8S	Anticipatory palliative care
+XaQkE	Has end of life care pathway key worker
+XaRFG	On end of life care register
+XaWym	Hospice acquired pressure ulcer
+XaZcg	Current palliative oncology treatment
+XaZe1	End of life care pathway
+XaZhw	Under care of palliative care specialist nurse
+XaZPX	Planned palliative oncology treatment
+ZV57C	[V]Palliative care

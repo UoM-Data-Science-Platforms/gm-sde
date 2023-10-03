@@ -1,0 +1,144 @@
+^ESCT1208589	Clinically significant macular oedema of right eye co-occurrent and due to diabetes mellitus
+^ESCT1208590	Clinically significant macular edema of right eye due to diabetes mellitus
+^ESCT1208591	Clinically significant macular edema of right eye co-occurrent and due to diabetes mellitus
+^ESCT1208592	Clinically significant macular oedema of left eye due to diabetes mellitus
+^ESCT1208593	Clinically significant macular oedema of left eye co-occurrent and due to diabetes mellitus
+^ESCT1208594	Clinically significant macular edema of left eye co-occurrent and due to diabetes mellitus
+^ESCT1208595	Clinically significant macular edema of left eye due to diabetes mellitus
+^ESCT1208628	Diabetic maculopathy of right eye
+^ESCT1208629	Maculopathy of right eye due to diabetes mellitus
+^ESCT1208630	Disorder of right macula co-occurrent and due to diabetes mellitus
+^ESCT1208632	Maculopathy of left eye due to diabetes mellitus
+^ESCT1208633	Diabetic maculopathy of left eye
+^ESCT1208634	Disorder of left macula co-occurrent and due to diabetes mellitus
+^ESCT1216610	Retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1216611	Retinopathy due to diabetes mellitus
+^ESCT1218988	Proliferative retinopathy with diabetes mellitus
+^ESCT1218989	PDR - proliferative diabetic retinopathy
+^ESCT1218990	Proliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1222068	Preproliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1222069	Advanced maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222070	Advanced maculopathy with diabetes mellitus
+^ESCT1222124	Disorder of macula co-occurrent and due to diabetes mellitus
+^ESCT1222125	Maculopathy due to diabetes mellitus
+^ESCT1222126	Maculopathy with diabetes mellitus
+^ESCT1222127	Traction retinal detachment with diabetes mellitus
+^ESCT1222128	Traction retinal detachment co-occurrent and due to diabetes mellitus
+^ESCT1222458	Advanced retinal disease co-occurrent and due to diabetes mellitus
+^ESCT1222459	Advanced retinal disease with diabetes mellitus
+^ESCT1222472	Mild nonproliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1222473	Moderate non-proliferative diabetic retinopathy
+^ESCT1222474	Moderate nonproliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1222475	Severe nonproliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1222476	Severe NPDR (nonproliferative diabetic retinopathy)
+^ESCT1222487	Diffuse exudative diabetic maculopathy
+^ESCT1222488	Diffuse exudative maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222489	Diffuse exudative maculopathy with diabetes mellitus
+^ESCT1222490	Focal exudative maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222491	Focal exudative diabetic maculopathy
+^ESCT1222492	Ischemic maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222493	Ischaemic maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222494	Ischemic maculopathy with diabetes mellitus
+^ESCT1222495	Ischaemic maculopathy with diabetes mellitus
+^ESCT1222496	Mixed maculopathy co-occurrent and due to diabetes mellitus
+^ESCT1222497	Mixed maculopathy due to diabetes mellitus
+^ESCT1222498	Mixed maculopathy with diabetes mellitus
+^ESCT1229544	Nonproliferative retinopathy co-occurrent and due to diabetes mellitus
+^ESCT1270502	Clinically significant macular oedema of right eye due to diabetes mellitus
+^ESCT1405942	Proliferative retinopathy due to diabetes mellitus
+^ESCT1407136	Preproliferative retinopathy due to diabetes mellitus
+^ESCT1407137	Advanced maculopathy due to diabetes mellitus
+^ESCT1407259	Disorder of macula due to diabetes mellitus
+^ESCT1407260	Proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus
+^ESCT1407261	Proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus
+^ESCT1407262	Traction detachment of retina due to diabetes mellitus
+^ESCT1407747	Advanced retinal disease due to diabetes mellitus
+^ESCT1407769	Mild nonproliferative retinopathy due to diabetes mellitus
+^ESCT1407770	Moderate nonproliferative retinopathy due to diabetes mellitus
+^ESCT1407771	Severe nonproliferative retinopathy due to diabetes mellitus
+^ESCT1407772	Non-high-risk proliferative retinopathy due to diabetes mellitus
+^ESCT1407773	High risk proliferative retinopathy due to diabetes mellitus
+^ESCT1407774	Quiescent proliferative retinopathy due to diabetes mellitus
+^ESCT1407775	Proliferative retinopathy with iris neovascularisation due to diabetes mellitus
+^ESCT1407785	Diffuse exudative maculopathy due to diabetes mellitus
+^ESCT1407786	Focal exudative maculopathy due to diabetes mellitus
+^ESCT1407787	Ischaemic maculopathy due to diabetes mellitus
+^ESCT1407968	Nonproliferative retinopathy due to diabetes mellitus
+^ESCT1408057	Visually threatening retinopathy due to diabetes mellitus
+^ESCT1409243	Disorder of right macula due to diabetes mellitus
+^ESCT1409244	Disorder of left macula due to diabetes mellitus
+^ESCTBD651521	BDR - Background diabetic retinopathy
+^ESCTCL602285	Clinically significant macular oedema
+^ESCTCL602286	Clinically significant macular edema
+^ESCTCL602287	Clinically significant diabetic macular oedema
+^ESCTCL602288	Clinically significant diabetic macular edema
+^ESCTCS602289	CSME
+^ESCTCS602290	CSME - Clinically significant macular oedema
+^ESCTCS602291	CSME - Clinically significant macular edema
+^ESCTDI503077	Diabetic traction retinal detachment
+^ESCTDI604133	Diffuse diabetic maculopathy
+^ESCTDR257643	DR - Diabetic retinopathy
+^ESCTEA602268	Early PDR
+^ESCTEA602269	Early proliferative diabetic retinopathy
+^ESCTFO604134	Focal diabetic maculopathy
+^ESCTHI602273	High risk proliferative retinopathy
+^ESCTHI602274	High risk PDR
+^ESCTIN602277	Inactive proliferative diabetic retinopathy
+^ESCTIN602278	Inactive PDR
+^ESCTIS604141	Ischaemic diabetic maculopathy
+^ESCTIS604142	Ischemic diabetic maculopathy
+^ESCTMI602258	Mild non-proliferative diabetic retinopathy
+^ESCTMI602259	Mild nonproliferative retinopathy
+^ESCTMI602260	Mild non proliferative retinopathy
+^ESCTMI602261	Mild nonproliferative diabetic retinopathy
+^ESCTMI604143	Mixed diabetic maculopathy
+^ESCTMO602262	Moderate nonproliferative diabetic retinopathy
+^ESCTMO602263	Moderate nonproliferative retinopathy
+^ESCTNO602271	Non-high risk PDR
+^ESCTNO651517	Nonproliferative diabetic retinopathy
+^ESCTNP651520	NPDR - Non proliferative diabetic retinopathy
+^ESCTON651545	On examination - diabetic maculopathy present both eyes
+^ESCTON676178	On examination - right eye background diabetic retinopathy
+^ESCTON676180	On examination - left eye background diabetic retinopathy
+^ESCTON676182	On examination - right eye preproliferative diabetic retinopathy
+^ESCTON676184	On examination - left eye preproliferative diabetic retinopathy
+^ESCTON676186	On examination - right eye proliferative diabetic retinopathy
+^ESCTON676188	On examination - left eye proliferative diabetic retinopathy
+^ESCTON686654	On examination - left eye stable treated proliferative diabetic retinopathy
+^ESCTON686690	On examination - right eye stable treated proliferative diabetic retinopathy
+^ESCTON691041	On examination - sight threatening diabetic retinopathy
+^ESCTPD346284	PDR
+^ESCTPD503072	PDR new vessels on disc
+^ESCTPD503073	PDR - NVD
+^ESCTPD503075	PDR - NVE
+^ESCTPD602270	PDR - non-high risk
+^ESCTPD602281	PDR iris neovascularisation
+^ESCTPD602282	PDR iris neovascularization
+^ESCTPP477142	PPDR - Preproliferative diabetic retinopathy
+^ESCTPR503069	Proliferative diabetic retinopathy with new vessels on disc
+^ESCTPR503070	Proliferative diabetic retinopathy new vessels on disc
+^ESCTPR503071	Proliferative retinopathy new vessels on disc
+^ESCTPR503074	Proliferative diabetic retinopathy with new vessels elsewhere than on disc
+^ESCTPR503076	Proliferative retinopathy with new vessels elsewhere than on disc
+^ESCTPR602267	Proliferative diabetic retinopathy - non high risk
+^ESCTPR602272	Proliferative diabetic retinopathy - high risk
+^ESCTPR602276	Proliferative diabetic retinopathy - quiescent
+^ESCTPR602279	Proliferative diabetic retinopathy - iris neovascularisation
+^ESCTPR602280	Proliferative diabetic retinopathy - iris neovascularization
+^ESCTSE602265	Severe nonproliferative retinopathy
+^ESCTSE602266	Severe NPDR
+^ESCTSI663071	Sight threatening diabetic retinopathy
+^ESCTVI663070	Visually threatening diabetic retinopathy
+EMISQLA1	Laser treated diabetic retinopathy
+EMISQLE10	Left proliferative diabetic retinopathy
+EMISQLE11	Left laser treated diabetic retinopathy
+EMISQLE12	Left diabetic maculopathy
+EMISQLE13	Left advanced diabetic retinal disease
+EMISQLE8	Left non-proliferative diabetic retinopathy
+EMISQLE9	Left preproliferative diabetic retinopathy
+EMISQRI10	Right proliferative diabetic retinopathy
+EMISQRI11	Right laser treated diabetic retinopathy
+EMISQRI12	Right diabetic maculopathy
+EMISQRI13	Right advanced diabetic retinal disease
+EMISQRI8	Right non-proliferative diabetic retinopathy
+EMISQRI9	Right preproliferative diabetic retinopathy

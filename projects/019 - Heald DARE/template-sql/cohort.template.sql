@@ -37,6 +37,30 @@
 -- IsOnACEIorARB, IsOnAspirin, IsOnClopidogrel, IsOnMetformin, IsOnInsulin, 
 -- IsOnSGLTI, IsOnGLP1A, IsOnSulphonylurea
 
+-- UPDATE. PI has requested the following that we have
+
+--  - Stroke
+--  - Heart Failure
+--  - MI
+--  - Angina
+--  - Coronary Angioplasty
+--  - Coronary Artery Bipass Grafting
+--  - CKD
+--  - Coronary Heart Disease
+--  - Respiratory Tract Infection
+--  - Pharyngitis and Sinusitis
+--  - Acute Conjunctivitis
+--  - Diabetic Retinopathy
+--  - Cataract
+
+-- - microalbuminuria also known as albumin / creatinine ratio / any other codes re this
+-- CHECK
+
+
+--  - units for hba1c
+
+
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
@@ -55,18 +79,18 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 -- NB this is where the filter to just DARE patients via NHS number occurs
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT DISTINCT p.FK_Patient_Link_ID INTO #Patients
-FROM [RLS].vw_Patient p
+FROM [SharedCare].[Patient] p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 -- Get lookup between nhs number and fk_patient_link_id
 SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
-FROM [RLS].vw_Patient p
+FROM [SharedCare].[Patient] p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 --Below is for testing without access to DARE nhs numbers
 --IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 --SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
---FROM [RLS].vw_Patient p
+--FROM [SharedCare].[Patient] p
 --GROUP BY FK_Patient_Link_ID;
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
@@ -80,7 +104,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -91,7 +115,7 @@ SELECT
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
-FROM [RLS].vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
@@ -268,6 +292,160 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID;
 
+--> CODESET stroke:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesstroke') IS NOT NULL DROP TABLE #PatientDiagnosesstroke;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesstroke
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('stroke') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('stroke') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET heart-failure:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesheartfailure') IS NOT NULL DROP TABLE #PatientDiagnosesheartfailure;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesheartfailure
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('heart-failure') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('heart-failure') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET myocardial-infarction:1
+IF OBJECT_ID('tempdb..#atientDiagnosesmyocardial-infarction') IS NOT NULL DROP TABLE #PatientDiagnosesmyocardialinfarction;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesmyocardialinfarction
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('myocardial-infarction') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('myocardial-infarction') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET angina:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesangina') IS NOT NULL DROP TABLE #PatientDiagnosesangina;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesangina
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('angina') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('angina') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET coronary-angioplasty:1
+IF OBJECT_ID('tempdb..#PatientDiagnosescoronaryangioplasty') IS NOT NULL DROP TABLE #PatientDiagnosescoronaryangioplasty;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosescoronaryangioplasty
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-angioplasty') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-angioplasty') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET coronary-artery-bypass-graft:1
+IF OBJECT_ID('tempdb..#PatientDiagnosescoronaryarterybypassgraft') IS NOT NULL DROP TABLE #PatientDiagnosescoronaryarterybypassgraft;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosescoronaryarterybypassgraft
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-artery-bypass-graft') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-artery-bypass-graft') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET chronic-kidney-disease:1
+IF OBJECT_ID('tempdb..#PatientDiagnoseschronickidneydisease') IS NOT NULL DROP TABLE #PatientDiagnoseschronickidneydisease;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnoseschronickidneydisease
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('chronic-kidney-disease') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('chronic-kidney-disease') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET coronary-heart-disease:1
+IF OBJECT_ID('tempdb..#PatientDiagnosescoronaryheartdisease') IS NOT NULL DROP TABLE #PatientDiagnosescoronaryheartdisease;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosescoronaryheartdisease
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET respiratory-tract-infection:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesrespiratorytractinfection') IS NOT NULL DROP TABLE #PatientDiagnosesrespiratorytractinfection;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesrespiratorytractinfection
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('respiratory-tract-infection') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('respiratory-tract-infection') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET pharyngitis:1
+IF OBJECT_ID('tempdb..#PatientDiagnosespharyngitis') IS NOT NULL DROP TABLE #PatientDiagnosespharyngitis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosespharyngitis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('pharyngitis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('pharyngitis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET sinusitis:1
+IF OBJECT_ID('tempdb..#PatientDiagnosessinusitis') IS NOT NULL DROP TABLE #PatientDiagnosessinusitis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosessinusitis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sinusitis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sinusitis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET acute-conjunctivitis:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesacuteconjunctivitis') IS NOT NULL DROP TABLE #PatientDiagnosesacuteconjunctivitis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesacuteconjunctivitis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('acute-conjunctivitis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('acute-conjunctivitis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET diabetic-retinopathy:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesdiabeticretinopathy') IS NOT NULL DROP TABLE #PatientDiagnosesdiabeticretinopathy;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesdiabeticretinopathy
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetic-retinopathy') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetic-retinopathy') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET cataract:1
+IF OBJECT_ID('tempdb..#PatientDiagnosescataract') IS NOT NULL DROP TABLE #PatientDiagnosescataract;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosescataract
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('cataract') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('cataract') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
 
 -- medications
 --> CODESET metformin:1
@@ -384,7 +562,7 @@ LEFT OUTER JOIN #PatientMedicationsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_I
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
+INTO #COVIDDeath FROM SharedCare.COVID19
 WHERE DeathWithin28Days = 'Y'
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -400,7 +578,7 @@ SELECT
   EthnicCategoryDescription,
   TownsendScoreHigherIsMoreDeprived,
   TownsendQuintileHigherIsMoreDeprived,
-  FirstDiagnosisDate,
+  dm.FirstDiagnosisDate,
   FirstT1DiagnosisDate,
   FirstT2DiagnosisDate,
   FirstCovidPositiveDate,
@@ -429,10 +607,24 @@ SELECT
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
-  copd.FirstDiagnosisDate AS COPDDiagnosisDate,
-  asthma.FirstDiagnosisDate AS ASTHMADiagnosisDate,
-  smi.FirstDiagnosisDate AS SMIDiagnosisDate,
-  htn.FirstDiagnosisDate AS HYPERTENSIONDiagnosisDate,
+  copd.FirstDiagnosisDate AS COPDFirstDiagnosisDate,
+  asthma.FirstDiagnosisDate AS ASTHMAFirstDiagnosisDate,
+  smi.FirstDiagnosisDate AS SMIFirstDiagnosisDate,
+  htn.FirstDiagnosisDate AS HYPERTENSIONFirstDiagnosisDate,
+  stroke.FirstDiagnosisDate AS STROKEFirstDiagnosisDate,
+  hf.FirstDiagnosisDate AS HEARTFAILUREFirstDiagnosisDate,
+  mi.FirstDiagnosisDate AS MYOCARDIALINFARCTIONFirstDiagnosisDate,
+  angina.FirstDiagnosisDate AS ANGINAFirstDiagnosisDate,
+  coronary.FirstDiagnosisDate AS CHDFirstDiagnosisDate,
+  cabg.FirstDiagnosisDate AS CABGDate,
+  ckd.FirstDiagnosisDate AS CKDFirstDiagnosisDate,
+  chd.FirstDiagnosisDate AS CHDFirstDiagnosisDate,
+  rti.FirstDiagnosisDate AS RTIFirstDiagnosisDate,
+  pharyngitis.FirstDiagnosisDate AS PHARYNGITISFirstDiagnosisDate,
+  sinusitis.FirstDiagnosisDate AS SINUSITISFirstDiagnosisDate,
+  acute.FirstDiagnosisDate AS ACUTECONJUNCTIVITISFirstDiagnosisDate,
+  diabetic.FirstDiagnosisDate AS DIABETICRETINOPATHYFirstDiagnosisDate,
+  cataract.FirstDiagnosisDate AS CATARACTFirstDiagnosisDate,
   VaccineDose1Date AS FirstVaccineDate,
   VaccineDose2Date AS SecondVaccineDate,
   IsOnInsulin,
@@ -441,7 +633,7 @@ SELECT
   IsOnSulphonylurea
 FROM #Patients m
 INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientFrailtyScore frail ON frail.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -460,4 +652,18 @@ LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_P
 LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsAdmissionsPostTest admit ON admit.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientsLOSPostTest los ON los.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientsLOSPostTest los ON los.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesstroke stroke ON stroke.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesheartfailure hf ON hf.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesmyocardialinfarction mi ON mi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesangina angina ON angina.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosescoronaryangioplasty coronary ON coronary.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosescoronaryarterybypassgraft cabg ON cabg.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnoseschronickidneydisease ckd ON ckd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosescoronaryheartdisease chd ON chd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesrespiratorytractinfection rti ON rti.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosespharyngitis pharyngitis ON pharyngitis.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosessinusitis sinusitis ON sinusitis.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesacuteconjunctivitis acute ON acute.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesdiabeticretinopathy diabetic ON diabetic.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosescataract cataract ON cataract.FK_Patient_Link_ID = m.FK_Patient_Link_ID

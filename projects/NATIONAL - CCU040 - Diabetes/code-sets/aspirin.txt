@@ -1,0 +1,371 @@
+10063011000001103	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
+10063211000001108	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
+10064711000001104	Aspirin 75mg effervescent tablets
+10287611000001106	Aspirin 300mg gastro-resistant tablets (Focus Pharmaceuticals Ltd)
+10450211000001102	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
+10450411000001103	Aspirin 300mg gastro-resistant tablets (Arrow Generics Ltd)
+10821811000001100	Aspirin 300mg gastro-resistant tablets (Teva UK Ltd)
+11257011000001103	Aspirin 500mg powder and solvent for solution for injection vials
+11257311000001100	Aspegic Injectable 500mg powder and solvent for solution for injection vials (Imported (France))
+11257611000001105	Aspirin 1g powder and solvent for solution for injection vials
+11257911000001104	Aspegic Injectable 1g powder and solvent for solution for injection vials (Imported (France))
+11692711000001109	Aspirin 100mg/5ml oral suspension (Special Order)
+11712811000001108	Aspirin 100mg/5ml oral suspension
+11748611000001102	Co-codaprin 8mg/400mg tablets (The Boots Company Plc)
+11762111000001100	Co-codaprin 8mg/400mg tablets
+11968411000001102	Aspirin 100mg/5ml oral solution (Special Order)
+11971811000001101	Aspirin 15mg/5ml oral suspension (Special Order)
+11972611000001106	Aspirin 15mg/5ml oral solution (Special Order)
+11973211000001103	Aspirin 25mg/5ml oral suspension (Special Order)
+11977111000001101	Aspirin 25mg/5ml oral solution (Special Order)
+11977711000001100	Aspirin 30mg/5ml oral suspension (Special Order)
+11978011000001101	Aspirin 30mg/5ml oral solution (Special Order)
+11978311000001103	Aspirin 37.5mg/5ml oral suspension (Special Order)
+11978911000001102	Aspirin 37.5mg/5ml oral solution (Special Order)
+11979511000001103	Aspirin 40mg/5ml oral suspension (Special Order)
+11980211000001101	Aspirin 40mg/5ml oral solution (Special Order)
+11980811000001100	Aspirin 62.5mg/5ml oral suspension (Special Order)
+11981411000001106	Aspirin 62.5mg/5ml oral solution (Special Order)
+11982011000001105	Aspirin 75mg/5ml oral suspension (Special Order)
+11982511000001102	Aspirin 75mg/5ml oral solution (Special Order)
+12012111000001104	Aspirin 100mg/5ml oral solution
+12012211000001105	Aspirin 15mg/5ml oral solution
+12012311000001102	Aspirin 15mg/5ml oral suspension
+12012511000001108	Aspirin 25mg/5ml oral solution
+12012611000001107	Aspirin 25mg/5ml oral suspension
+12012911000001101	Aspirin 30mg/5ml oral solution
+12013011000001109	Aspirin 30mg/5ml oral suspension
+12013211000001104	Aspirin 37.5mg/5ml oral solution
+12013311000001107	Aspirin 37.5mg/5ml oral suspension
+12013511000001101	Aspirin 40mg/5ml oral solution
+12013711000001106	Aspirin 40mg/5ml oral suspension
+12013811000001103	Aspirin 62.5mg/5ml oral solution
+12013911000001108	Aspirin 62.5mg/5ml oral suspension
+12014011000001106	Aspirin 75mg/5ml oral solution
+12014111000001107	Aspirin 75mg/5ml oral suspension
+12430611000001107	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
+12534011000001101	Aspirin Extra tablets (Lloyds Pharmacy Ltd)
+12534311000001103	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
+13115311000001108	Aspirin 300mg gastro-resistant tablets (Dowelhurst Ltd)
+13115811000001104	Aspirin 75mg gastro-resistant tablets (Dowelhurst Ltd)
+13177611000001103	Aspirin 300mg tablets (Dowelhurst Ltd)
+13178111000001107	Aspirin 75mg dispersible tablets (Dowelhurst Ltd)
+13379211000001100	Aspirin 300mg tablets (Wockhardt UK Ltd)
+13435711000001102	Aspirin 300mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+13585411000001105	Aspirin 300mg dispersible tablets (Doncaster Pharmaceuticals Ltd)
+13629811000001107	Paramed Extra Power Pain Control tablets (Galpharm International Ltd)
+13662111000001104	Aspirin 300mg dispersible tablets (Numark Management Ltd)
+13662311000001102	Aspirin 75mg dispersible tablets (Numark Management Ltd)
+138011000001102	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+13980411000001107	Aspirin 40mg oral powder sachets (Special Order)
+14012211000001103	Aspirin 40mg oral powder sachets
+15067611000001107	Aspirin 300mg tablets (Sigma Pharmaceuticals Plc)
+15069611000001102	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+15069811000001103	Aspirin 300mg dispersible tablets (Sigma Pharmaceuticals Plc)
+15124211000001102	Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+15967511000001101	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+15985111000001103	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+15985411000001108	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+15985711000001102	Aspirin 300mg tablets (Bristol Laboratories Ltd)
+16096411000001107	Aspirin 37.5mg oral powder sachets (Special Order)
+16100911000001108	Aspirin 37.5mg oral powder sachets
+163411000001106	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+16431611000001103	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+17221711000001107	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+173911000001105	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd)
+17423311000001108	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
+17629911000001105	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+17785711000001109	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+17786111000001102	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+17786711000001101	Aspirin 300mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+17879711000001102	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
+17958611000001108	Aspirin 300mg caplets (The Boots Company Plc)
+17962211000001101	Aspirin 300mg tablets (Almus Pharmaceuticals Ltd)
+18037811000001108	Co-codaprin
+18082911000001106	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+183311000001101	Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+18876011000001101	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)
+19429611000001108	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
+20536811000001105	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
+20549911000001105	Boots Aspirin and Codeine tablets (The Boots Company Plc)
+211011000001104	Aspirin 300mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+21109511000001106	Aspirin 100mg capsules
+21109811000001109	Aspirin 100mg capsules (Special Order)
+21776611000001101	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+21777011000001106	Aspirin 300mg dispersible tablets (Waymade Healthcare Plc)
+21777311000001109	Aspirin 75mg tablets (Waymade Healthcare Plc)
+21777511000001103	Aspirin 300mg tablets (Waymade Healthcare Plc)
+21777711000001108	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+21778211000001102	Aspirin 300mg gastro-resistant tablets (Waymade Healthcare Plc)
+22330911000001108	Aspirin 4% in Chloroform solution
+22331211000001105	Aspirin 4% in Chloroform solution (Special Order)
+22610611000001102	Aspirin 75mg dispersible tablets (Doncaster Pharmaceuticals Ltd)
+22611011000001100	Aspirin 300mg gastro-resistant tablets (Doncaster Pharmaceuticals Ltd)
+22611211000001105	Aspirin 75mg gastro-resistant tablets (Doncaster Pharmaceuticals Ltd)
+22611511000001108	Aspirin 300mg tablets (Doncaster Pharmaceuticals Ltd)
+22611811000001106	Aspirin 75mg tablets (Doncaster Pharmaceuticals Ltd)
+22833911000001102	Aspirin 150mg suppositories (Colorama Pharmaceuticals Ltd)
+22834111000001103	Aspirin 300mg suppositories (Colorama Pharmaceuticals Ltd)
+23241511000001106	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+24572811000001108	Numark Extra Power Pain Reliever tablets (Numark Ltd)
+24584511000001105	Aspirin 300mg tablets (Numark Management Ltd)
+27167811000001103	Aspirin 300mg caplets (Wockhardt UK Ltd)
+27963111000001100	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (A A H Pharmaceuticals Ltd)
+281311000001104	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+281711000001100	Aspirin 75mg gastro-resistant tablets (Alpharma Limited)
+28357711000001104	Bisoprolol 5mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+28358311000001102	Bisoprolol 10mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+28359411000001101	Bisoprolol 10mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+28360311000001109	Bisoprolol 5mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+28365311000001102	Bisoprolol 10mg / Aspirin 100mg capsules
+28365411000001109	Bisoprolol 10mg / Aspirin 75mg capsules
+28365611000001107	Bisoprolol 5mg / Aspirin 100mg capsules
+28365711000001103	Bisoprolol 5mg / Aspirin 75mg capsules
+295211000001106	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+29771011000001108	Aspirin 300mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+29771211000001103	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+29774911000001105	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
+29797311000001107	Co-codaprin 8mg/400mg dispersible tablets (Sigma Pharmaceuticals Plc)
+29995811000001103	Aspirin 300mg tablets (Mawdsley-Brooks & Company Ltd)
+29996011000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996411000001109	Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996711000001103	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+30023311000001109	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+30051211000001101	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (DE Pharmaceuticals)
+307211000001105	Aspirin 75mg gastro-resistant tablets (Unichem Plc)
+307411000001109	Aspirin 300mg suppositories (A A H Pharmaceuticals Ltd)
+30791611000001109	Aspirin 25mg capsules (Special Order)
+30798211000001103	Aspirin 25mg capsules
+30971911000001102	Boots Aspirin Extra tablets (The Boots Company Plc)
+30991911000001109	Boots Aspirin 300mg dispersible tablets (The Boots Company Plc)
+311111000001108	Aspirin 300mg tablets (Kent Pharmaceuticals Ltd)
+319360005	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+319361009	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+319773006	Aspirin 75mg dispersible tablets
+319775004	Product containing precisely aspirin 75 milligram/1 each conventional release oral tablet (clinical drug)
+319781007	Product containing precisely aspirin 75 milligram/1 each gastro-resistant oral tablet (clinical drug)
+319793003	Aspirin 75mg soluble tablet
+319797002	Dipyridamole+aspirin 200mg/25mg m/r capsule
+322225002	Product containing precisely aspirin 300 milligram/1 each gastro-resistant oral tablet (clinical drug)
+322231004	Aspirin 300mg soluble tablet
+322232006	Product containing precisely aspirin 300 milligram/1 each conventional release rectal suppository (clinical drug)
+322233001	Product containing precisely aspirin 150 milligram/1 each conventional release rectal suppository (clinical drug)
+322234007	Aspirin 500mg soluble tablet
+322310004	Co-codaprin 8mg/400mg dispersible tablets
+322321008	Aspirin 500mg / Papaveretum 7.71mg dispersible tablets sugar free
+322784004	Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free
+32394411000001100	Aspirin 75mg tablets (Kent Pharmaceuticals Ltd)
+3292511000001108	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+329525004	Product containing precisely aspirin 300 milligram/1 each conventional release oral tablet (clinical drug)
+329526003	Aspirin 300mg dispersible tablets
+32968711000001107	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
+33511000001106	Aspirin 75mg dispersible tablets (Teva UK Ltd)
+34175711000001102	Aspirin 75mg tablets (Accord Healthcare Ltd)
+3460911000001104	Imazin XL tablets (Napp Pharmaceuticals Ltd)
+34609311000001105	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+3461511000001104	Imazin XL forte tablets (Napp Pharmaceuticals Ltd)
+347070003	Aspirin+glycine 500mg/133mg dispersible tablet
+350314003	Aspirin in rectal dosage form
+35581511000001100	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+35841711000001101	Aspirin 75mg tablets (Intrapharm Laboratories Ltd)
+358427004	Aspirin in oral dosage form
+35903011000001102	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+35903111000001101	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+36069911000001109	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+3637911000001108	MigraMax oral powder sachets (Zentiva)
+36492711000001106	Aspirin 75mg tablets (Medreich Plc)
+36611211000001105	Aspirin 75mg tablets (Healthcare Pharma Ltd)
+3679811000001109	Co-codaprin 8mg/400mg dispersible tablets (A A H Pharmaceuticals Ltd)
+3680211000001108	Co-codaprin 8mg/400mg dispersible tablets (Actavis UK Ltd)
+3680611000001105	Co-codaprin 8mg/400mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+3690911000001103	Aspav dispersible tablets (Actavis UK Ltd)
+370164001	Aspirin 81mg chewable tablet
+370166004	Aspirin 325 mg oral tablet
+370167008	Aspirin 81mg e/c tablet
+370168003	Aspirin 165mg e/c tablet
+370169006	Aspirin 325mg e/c tablet
+370170007	Aspirin 650mg e/c tablet
+370171006	Aspirin 975mg e/c tablet
+370176001	Aspirin 120mg suppository
+370177005	Aspirin 200mg suppository
+370178000	Aspirin 600mg suppository
+370411000001104	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+371226001	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+37148811000001109	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+374744009	Aspirin 800 mg oral tablet
+37570511000001103	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+376250003	Aspirin 975 mg oral tablet
+377193004	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule
+377194005	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg oral tablet
+377195006	Aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule
+377196007	Aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+377197003	Aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+377199000	Aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+377200002	Aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+377201003	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+377202005	Aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg oral tablet
+377203000	Aspirin 325 mg and carisoprodol 200 mg oral tablet
+377204006	Aspirin 500 mg and hydrocodone bitartrate 5 mg oral tablet
+377205007	Aspirin 325 mg and meprobamate 200 mg oral tablet
+377206008	Aspirin 325 mg and methocarbamol 400 mg oral tablet
+377207004	Aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg oral tablet
+377209001	Aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg oral tablet
+37927211000001109	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+38411000001101	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
+386038008	Aspirin 500mg e/c tablet
+38796211000001102	Aspirin 300mg dispersible tablets (Medihealth (Northern) Ltd)
+38796411000001103	Aspirin 300mg tablets (Medihealth (Northern) Ltd)
+38796611000001100	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
+38796811000001101	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
+38797111000001106	Aspirin 300mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+38797311000001108	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+39695211000001102	Aspirin 300mg dispersible tablets
+398649009	Aspirin + carisoprodol
+398683002	Aspirin + meprobamate
+398767009	Aspirin and glycine
+398989001	Aspirin + butalbital + caffeine
+400489006	Aspirin + methocarbamol
+404785009	Aspirin 300 mg and codeine 8 mg oral tablet
+407906007	Co-codaprin 8mg/500mg dispersible tablet
+409311005	Aspirin+pravastatin
+409312003	Aspirin 81 mg and pravastatin 20 mg oral tablet
+409313008	Aspirin 81 mg and pravastatin 40 mg oral tablet
+409314002	Aspirin 81 mg and pravastatin 80 mg oral tablet
+409315001	Aspirin 325 mg and pravastatin 80 mg oral tablet
+409316000	Aspirin 325 mg and pravastatin 40 mg oral tablet
+409317009	Aspirin 325 mg and pravastatin 20 mg oral tablet
+412095002	Aspirin + cinnamedrine + caffeine
+412458007	Orphenadrine + aspirin + caffeine
+412566001	Buffered aspirin
+412567005	Buffered aspirin + caffeine
+412568000	Aspirin + caffeine + paracetamol
+412575004	Aspirin 325 mg and codeine 30 mg oral tablet
+412576003	Aspirin 325 mg and codeine 60 mg oral tablet
+412647005	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+413586006	Aspirin 250mg/paracetamol 250mg/caffeine 65mg tablet
+414311000001102	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+420711000001101	Aspirin 300mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+442511000001105	Aspirin 300mg dispersible tablets (Actavis UK Ltd)
+443311000001109	Aspirin 300mg suppositories (The Boots Company)
+445511000001104	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
+4532311000001104	Disprin CV 300mg modified-release tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+4558011000001103	Aspirin 300mg modified-release tablets
+4648711000001109	Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc)
+4649111000001101	Aspro Clear 300mg effervescent tablets (Bayer Plc)
+4650611000001100	Aspirin 500mg effervescent tablets sugar free
+4660611000001105	Aspirin 300mg effervescent tablets sugar free
+473711000001109	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+476711000001102	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
+4890011000001108	Alka Rapid Crystals 500mg granules sachets (Bayer Plc)
+4897611000001102	Aspirin 500mg granules sachets sugar free
+4906811000001106	Disprin Direct 300mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+4911611000001102	Disprin Extra dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+4914411000001103	Anadin Extra soluble tablets (Pfizer Consumer Healthcare Ltd)
+4915111000001107	Anadin Extra tablets (Pfizer Consumer Healthcare Ltd)
+4925711000001101	Alka-Seltzer effervescent tablets original (Bayer Plc)
+4926011000001107	Alka-Seltzer effervescent tablets lemon (Bayer Plc)
+4930811000001101	Aspirin 300mg / Paracetamol 200mg dispersible tablets sugar free
+4930911000001106	Aspirin 300mg orodispersible tablets sugar free
+4932311000001109	Generic Alka-Seltzer effervescent tablets sugar free
+4932411000001102	Generic Anadin Extra soluble tablets sugar free
+4932511000001103	Generic Anadin Extra tablets
+493511000001109	Aspirin 300mg tablets (Unichem Plc)
+4937411000001104	Beechams Powders oral powder sachets (GlaxoSmithKline Consumer Healthcare)
+4939011000001104	Aspirin 600mg / Caffeine 50mg oral powder sachets sugar free
+4951811000001105	Codis 500 dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+4956111000001107	Aspirin 500mg / Codeine 8mg dispersible tablets sugar free
+5019911000001105	Aspirin 300mg tablets (Vantage)
+50611000001102	Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+5135311000001107	Aspirin powder (A A H Pharmaceuticals Ltd)
+5135611000001102	Aspirin powder (J M Loveridge Ltd)
+5145711000001107	Aspirin powder
+5254111000001107	Original Phensic Aspirin tablets (Merck Consumer Health Products)
+5263811000001109	Aspirin 325mg / Caffeine 22mg tablets
+5336211000001102	Asasantin Retard capsules (Waymade Healthcare Plc)
+544911000001101	Disprin 300mg dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+5614311000001104	Asasantin Retard capsules (Dowelhurst Ltd)
+575111000001104	Aspirin 300mg gastro-resistant tablets (Sandoz Ltd)
+576411000001100	Aspirin 150mg suppositories (Unichem Plc)
+592811000001109	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+594611000001102	Aspirin 75mg dispersible tablets (The Boots Company)
+595211000001103	Aspirin 75mg dispersible tablets (Unichem Plc)
+607311000001106	Aspirin 300mg tablets (Actavis UK Ltd)
+621811000001104	Aspirin 300mg tablets (OBG Pharmaceuticals Ltd)
+636011000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
+65611000001104	Aspirin 300mg gastro-resistant tablets (The Boots Company)
+679211000001103	Aspirin 300mg suppositories (Unichem Plc)
+686211000001101	Aspirin 150mg suppositories (Martindale Pharmaceuticals Ltd)
+696811000001101	Aspirin 300mg tablets (Aspar Pharmaceuticals Ltd)
+698811000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+714511000001101	Aspirin 300mg dispersible tablets (Kent Pharmaceuticals Ltd)
+716511000001107	Aspirin 150mg suppositories (A A H Pharmaceuticals Ltd)
+722911000001109	Aspirin 300mg gastro-resistant tablets (Unichem Plc)
+763644001	Aspirin and omeprazole product
+764369003	Aspirin and omeprazole in oral dosage form
+764567002	Aspirin and pentazocine product
+764599008	Aspirin and cyclizine product
+765111000001108	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+765559002	Aspirin 975mg gastro-resistant oral tablet
+765570009	Aspirin 81mg gastro-resistant oral tablet
+765630009	Aspirin 800mg gastro-resistant oral tablet
+765676008	Aspirin 650mg gastro-resistant oral tablet
+766001006	Aspirin 25 mg and dipyridamole 200 mg prolonged-release oral capsule
+766070006	Aspirin 227.5mg prolonged-release oral gum
+767742009	Aspirin and dipyridamole in oral dosage form
+767897005	Aspirin and caffeine and paracetamol in oral dosage form
+767898000	Aspirin and hydrocodone in oral dosage form
+767899008	Aspirin and pravastatin in oral dosage form
+767900003	Aspirin and carisoprodol in oral dosage form
+767901004	Aspirin and meprobamate in oral dosage form
+767902006	Aspirin and methocarbamol in oral dosage form
+767919008	Aspirin and butalbital and caffeine in oral dosage form
+767920002	Aspirin and butalbital and caffeine and codeine product
+767922005	Aspirin and butalbital and caffeine and codeine in oral dosage form
+767923000	Aspirin and oxycodone product
+767924006	Aspirin and oxycodone in oral dosage form
+767925007	Aspirin and carisoprodol and codeine product
+767926008	Aspirin and carisoprodol and codeine in oral dosage form
+767927004	Aspirin and caffeine and orphenadrine in oral dosage form
+767929001	Aspirin and caffeine and dihydrocodeine product
+767930006	Aspirin and caffeine and dihydrocodeine in oral dosage form
+768404004	Aspirin and hydrocodone product
+785211000001100	Aspirin 300mg dispersible tablets (A A H Pharmaceuticals Ltd)
+7945911000001106	Lloydspharmacy Extra Power Pain Reliever tablets (Lloyds Pharmacy Ltd)
+795611000001102	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+7986611000001101	Aspirin 300mg tablets (Lloyds Pharmacy Ltd)
+799411000001102	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+8000111000001109	Generic Nurse Sykes oral powder sachets
+8000611000001101	Nurse Sykes oral powder sachets (Crescent Pharma OTC Ltd)
+800511000001106	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+802811000001105	Aspirin 300mg tablets (A A H Pharmaceuticals Ltd)
+8042711000001104	Generic Alka-Seltzer XS effervescent tablets
+8043011000001105	Alka-Seltzer XS effervescent tablets (Bayer Plc)
+8085211000001108	Askit oral powder sachets (Bayer Plc)
+8087711000001107	Generic Askit oral powder sachets sugar free
+8248411000001101	Aspirin 225mg/5ml oral solution (Special Order)
+8249211000001105	Aspirin 225mg/5ml oral suspension (Special Order)
+8252011000001109	Aspirin 300mg/5ml oral solution (Special Order)
+8252611000001102	Aspirin 300mg/5ml oral suspension (Special Order)
+8253111000001104	Aspirin 50mg/5ml oral solution (Special Order)
+8253811000001106	Aspirin 50mg/5ml oral suspension (Special Order)
+8280211000001109	Aspirin 225mg/5ml oral solution
+8280311000001101	Aspirin 225mg/5ml oral suspension
+8280511000001107	Aspirin 300mg/5ml oral solution
+8280611000001106	Aspirin 300mg/5ml oral suspension
+8280711000001102	Aspirin 50mg/5ml oral solution
+8280811000001105	Aspirin 50mg/5ml oral suspension
+841411000001106	Aspirin 300mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+844511000001107	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+852711000001109	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
+879911000001103	Aspirin 300mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+893011000001106	Aspirin 300mg suppositories (Martindale Pharmaceuticals Ltd)
+894511000001100	Aspirin 300mg dispersible tablets (Unichem Plc)
+8984711000001107	Anadin Original tablets (Pfizer Consumer Healthcare Ltd)
+8985811000001103	Aspirin 325mg / Caffeine 15mg tablets
+901211000001107	Caprin 300mg gastro-resistant tablets (Pinewood Healthcare)
+916711000001109	Aspirin 75mg dispersible tablets (Actavis UK Ltd)
+927411000001108	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+9789111000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9789911000001102	Aspirin 300mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9790111000001106	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+9827511000001106	Aspirin 300mg dispersible tablets (Lloyds Pharmacy Ltd)

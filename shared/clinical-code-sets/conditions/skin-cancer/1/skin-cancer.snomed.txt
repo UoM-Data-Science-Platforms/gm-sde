@@ -1,6 +1,4 @@
-36025004	Angiokeratoma in tuberous sclerosis
-91965004	Benign neoplasm of adnexa of skin (disorder)
-92384009	Benign tumor of skin
+
 93209006	Malignant melanoma of perianal skin (disorder)
 93210001	Malignant melanoma of skin of abdomen (disorder)
 93211002	Malignant melanoma of skin of ankle (disorder)
@@ -80,16 +78,11 @@
 188075008	Malignant melanoma of foot (disorder)
 188076009	Malignant melanoma of toe (disorder)
 188077000	Malignant melanoma of great toe (disorder)
-189138008	Benign tumor of scrotal skin (disorder)
 189565007	Squamous cell carcinoma in situ (disorder)
 231831002	Squamous cell carcinoma of eyelid (disorder)
 231832009	Basal cell carcinoma of eyelid (disorder)
 231834005	Malignant melanoma of eyelid (disorder)
 253001006	Merkel cell carcinoma (disorder)
-254437001	Squamous cell carcinoma of buccal mucosa (disorder)
-254620000	Squamous cell carcinoma of trachea (disorder)
-254622008	Squamous cell carcinoma of bronchus (disorder)
-254634000	Squamous cell carcinoma of lung (disorder)
 254649008	Epithelial neoplasm of skin
 254650008	Malignant epithelial neoplasm of skin
 254651007	Squamous cell carcinoma of skin (disorder)
@@ -97,8 +90,6 @@
 254653005	Spindle cell squamous carcinoma of skin (disorder)
 254654004	Acantholytic squamous cell carcinoma of skin (disorder)
 254656002	Cancer in situ skin, squamous cell
-254658001	Benign epithelial neoplasm of skin
-254691005	Benign tumor of skin with pilar differentiation (disorder)
 254701007	Cancer of skin, basal cell
 254702000	Basosquamous carcinoma of skin (disorder)
 254710004	Basal cell carcinoma with eccrine differentiation (disorder)
@@ -113,69 +104,37 @@
 254736006	Fibrous tissue neoplasm of skin
 254747004	Desmoid fibromatosis of skin (disorder)
 254749001	Fibrohistiocytic tumour of skin
-254758008	Skin mass of neural origin
 254763007	Granular cell tumor of skin (disorder)
 254765000	Skin tumor of smooth muscle origin (disorder)
 254795008	Glomus tumor of skin (disorder)
-254819008	Atypical mole syndrome (disorder)
-254886006	Squamous cell carcinoma of cervix (disorder)
 254895003	Squamous cell carcinoma of vulva (disorder)
 254896002	Malignant melanoma of vulva (disorder)
 254906005	Tumor of skin of penis (disorder)
 254908006	Malignant tumor of skin of penis (disorder)
-255003007	Squamous cell carcinoma of conjunctiva (disorder)
-255004001	Malignant melanoma of conjunctiva (disorder)
-255008003	Squamous cell carcinoma of cornea (disorder)
-255012009	Iris melanoma
-255015006	Ciliary body melanoma
-255021005	Malignant melanoma of choroid (disorder)
 255071008	Squamous cell carcinoma of lip (disorder)
-255084004	Squamous cell carcinoma of anal margin (disorder)
 255093003	Malignant skin tumour with adnexal differentiation
 255096006	Malignant tumor of dermis (disorder)
-255111004	Squamous cell carcinoma of bladder (disorder)
-255185000	Benign tumor of skin with sebaceous differentiation (disorder)
-255186004	Benign tumor of dermis (disorder)
 269578002	Malignant melanoma of head and neck (disorder)
 269579005	Malignant melanoma of trunk (disorder)
 269580008	Malignant melanoma of upper limb (disorder)
 269581007	Malignant melanoma of lower limb (disorder)
-274087000	Malignant melanoma of eye (disorder)
-274903001	Eccrine dermal cylindroma of skin
-276418007	Benign tumor of skin of penis (disorder)
 276728004	Melanocytic tumor of skin (disorder)
 276739001	Tumor of skin with pilar differentiation (disorder)
 276750003	Malignant tumor of skin with pilar differentiation (disorder)
 276751004	Amelanotic melanoma
-276798007	Benign neoplasm of fibrous tissue of skin
-276804009	Squamous cell carcinoma of esophagus (disorder)
-276821000	Cancer anal melanoma
-276822007	Cancer rectum melanoma
 276860003	Squamous cell carcinoma of scrotum (disorder)
-276952000	Squamous cell carcinoma of tongue (disorder)
-276953005	Squamous cell carcinoma of gum (disorder)
-276954004	Squamous cell carcinoma of floor of mouth (disorder)
-276962007	Squamous cell carcinoma of palate (disorder)
-277530005	Malignant melanoma of meninges (disorder)
 285307007	Squamous cell carcinoma of skin of upper lip (disorder)
 285308002	Squamous cell carcinoma of skin of lower lip (disorder)
 285309005	Squamous cell carcinoma of skin of cheek (disorder)
-307502000	Squamous cell carcinoma of mouth (disorder)
 307603002	Malignant melanoma in blue nevus
 310498001	Malignant melanoma of back (disorder)
 313248004	Malignant melanoma of chest wall (disorder)
-313353007	Squamous cell carcinoma of bronchus in left lower lobe (disorder)
-313354001	Squamous cell carcinoma of bronchus in left upper lobe (disorder)
-313355000	Squamous cell carcinoma of bronchus in right lower lobe (disorder)
-313356004	Squamous cell carcinoma of bronchus in right middle lobe (disorder)
-313357008	Squamous cell carcinoma of bronchus in right upper lobe (disorder)
 314975005	Local recurrence of malignant tumor of skin (disorder)
 314976006	Local recurrence of malignant melanoma of skin (disorder)
 314987003	Metastasis from malignant melanoma of skin (disorder)
 314988008	Metastasis from malignant tumor of skin (disorder)
 372244006	Melanosarcoma
 398670003	Pigmented dermatofibrosarcoma
-399590005	Squamous cell carcinoma of prostate
 399897004	Basal cell carcinoma of postauricular skin
 399934007	Basal cell carcinoma of preauricular skin
 399954008	Basal cell carcinoma of earlobe
@@ -288,36 +247,24 @@
 403923002	Spitzoid malignant melanoma
 403924008	Desmoplastic malignant melanoma
 403925009	Neurotropic malignant melanoma
-403926005	Malignant melanoma of oral cavity
 403927001	Subungual malignant melanoma
 403943008	Malignant chondroid syringoma of skin
 403952004	Lymphoepithelioma-like carcinoma of skin
 403972009	Familial glomus tumor of skin
 404011000	Plexiform fibrohistiocytic tumor of skin
 404091004	Malignant infiltration of skin by underlying tumor
-405822008	Cancer of the larynx, squamous cell
-408648004	Squamous cell carcinoma of epiglottis
-408649007	Cancer of the pharynx, squamous cell
-418372008	Squamous cell carcinoma of mucous membrane of lower lip
-419240004	Squamous cell carcinoma of mucous membrane of upper lip
-419842002	Squamous cell carcinoma of oral mucous membrane
 422378004	Cancer of the bridge of nose, squamous cell
 422572002	Squamous cell carcinoma of chin
 422599000	Cancer of the back, squamous cell
 422676009	Squamous cell carcinoma of ala nasi
-422691006	Squamous cell carcinoma of nasopharynx
 423280002	Malignant melanoma of skin of canthus of eye
 423284006	Cancer of skin of neck, squamous cell
-423295000	Squamous cell carcinoma of lung, TNM stage 1
 423325007	Basal cell carcinoma of external auditory canal
 423447006	Malignant melanoma of skin of lower eyelid
 423463003	Cancer of back, basal cell
-423464009	Cancer of oropharynx, squamous cell
-423468007	Squamous cell carcinoma of lung, TNM stage 2
 423494003	Malignant melanoma of skin of upper eyelid
 423506005	Squamous cell carcinoma of external auditory canal
 423535002	Cancer of chest wall, basal cell
-423673009	Melanoma of retina
 423700001	Squamous cell carcinoma of auricle
 423896007	Cancer of tip of nose, squamous cell
 424190005	Malignant melanoma of unknown primary
@@ -326,8 +273,6 @@
 424487008	Malignant melanoma of skin of upper lip
 424666005	Cancer of auricle of ear, basal cell
 425148008	Cancer of temple, squamous cell
-425230006	Squamous cell carcinoma of lung, TNM stage 3
-425376008	Squamous cell carcinoma of lung, TNM stage 4
 429114002	Malignant basal cell tumour of skin
 440527006	Primary squamous cell carcinoma of naris
 443493003	Metastatic malignant melanoma
@@ -340,117 +285,18 @@
 448931007	Squamous cell carcinoma of shoulder
 449636007	Malignant melanoma of skin of lower leg (disorder)
 449637003	Malignant melanoma of skin of upper arm (disorder)
-698011002	Keratinizing squamous cell carcinoma of nasopharynx
-698040004	Malignant melanoma of nasal cavity
-698041000	Malignant melanoma of vestibule of mouth
-698042007	Malignant melanoma of tongue (disorder)
-698043002	Malignant melanoma of floor of mouth
-698044008	Malignant melanoma of palatine arch (disorder)
-698045009	Malignant melanoma of buccal mucosa (disorder)
-698048006	Undifferentiated nonkeratinizing carcinoma of nasopharynx
-698285005	Melanoma of ethmoidal sinus
-698286006	Malignant melanoma of palate
-698287002	Malignant melanoma of gingiva
-698288007	Melanoma of maxillary sinus
-707350007	Malignant melanoma of accessory sinus (disorder)
-707353009	Squamous cell carcinoma of accessory sinus
-707354003	Squamous cell carcinoma of maxillary sinus
-707355002	Squamous cell carcinoma of sphenoidal sinus
-707356001	Squamous cell carcinoma of frontal sinus
-707357005	Squamous cell carcinoma of laryngeal cartilage
-707358000	Squamous cell carcinoma of larynx
-707359008	Squamous cell carcinoma of ethmoidal sinus
-707361004	Malignant melanoma of frontal sinus
-707362006	Melanoma of sphenoidal sinus
-707388009	Primary squamous cell carcinoma of trachea (disorder)
-707389001	Primary clear cell squamous cell carcinoma of trachea
-707390005	Primary basaloid squamous cell carcinoma of trachea (disorder)
-707391009	Primary papillary squamous cell carcinoma of trachea
-707408006	Small cell non-keratinising squamous cell carcinoma of lung
-707422006	Spindle cell squamous cell carcinoma of larynx
-707425008	Adenoid squamous cell carcinoma of larynx
-707426009	Papillary squamous cell carcinoma of larynx
-707429002	Overlapping squamous cell carcinoma of larynx (disorder)
-707430007	Overlapping squamous cell carcinoma of laryngeal cartilage
-707453008	Clear cell squamous cell carcinoma of lung
-707454002	Basaloid squamous cell carcinoma of lung
-707455001	Papillary squamous cell carcinoma of lung
-707481002	Basaloid squamous cell carcinoma of hypopharynx
-707482009	Papillary squamous cell carcinoma of hypopharynx
-707484005	Adenoid squamous cell carcinoma of hypopharynx
-707489000	Spindle cell squamous cell carcinoma of hypopharynx
-707492001	Primary squamous cell carcinoma of hypopharynx
-707495004	Squamous cell adenoid carcinoma of trachea
-707528007	Primary squamous cell carcinoma of nasopharynx
-707529004	Overlapping squamous cell carcinoma of oropharynx
-707531008	Primary squamous cell carcinoma of branchial cleft (disorder)
-707532001	Primary squamous cell carcinoma of posterior wall of oropharynx (disorder)
-707535004	Squamous cell carcinoma of lateral wall of oropharynx
-707537007	Primary squamous cell carcinoma of anterior surface of epiglottis (disorder)
-707538002	Primary squamous cell carcinoma of vallecula
-707575007	Primary squamous cell carcinoma of supraglottis (disorder)
-707576008	Primary squamous cell carcinoma of subglottis
-707579001	Primary basaloid squamous cell carcinoma of oropharynx (disorder)
-707581004	Papillary squamous cell carcinoma of oropharynx
-707582006	Primary spindle cell squamous cell carcinoma of oropharynx (disorder)
-707585008	Squamous cell carcinoma of oropharynx
-707628004	Squamous cell carcinomas of overlapping lesion of hypopharynx
-707662004	Basaloid squamous cell carcinoma of larynx
-707664003	Primary squamous cell carcinoma of glottis
-707686002	Squamous cell carcinomas of posterior wall of hypopharynx
-707697002	Squamous cell carcinomas of aryepiglottic fold, hypopharyngeal aspect
-707703001	Squamous cell carcinomas of postcricoid region
-707704007	Squamous cell carcinoma of piriform sinus
 716274007	Nodular basal cell carcinoma of skin
 716659002	Squamous cell carcinoma of head and neck
 717731002	Basal cell carcinoma of vulva
 719052006	Recurrent squamous cell carcinoma
-721563000	Primary malignant melanoma of vagina
 721604004	Primary squamous cell carcinoma of overlapping lesion of male genital organ
 721605003	Primary squamous cell carcinoma of overlapping lesion of accessory sinuses
-721618006	Primary squamous cell carcinoma of upper third of oesophagus
-721619003	Primary squamous cell carcinoma of middle third of oesophagus
-721620009	Primary squamous cell carcinoma of lower third of oesophagus
-721621008	Primary squamous cell carcinoma of overlapping lesion of oesophagus
-721627007	Malignant melanoma of oesophagus
 722112006	Primary squamous cell carcinoma of ear
-722202006	Palmoplantar keratoderma, 46,XX sex reversal, predisposition to squamous cell carcinoma syndrome
-722530005	Primary squamous cell carcinoma of adenoid
-722542000	Primary squamous cell carcinoma of anal canal
-722543005	Primary malignant melanoma of anal canal
-722665003	Primary malignant melanoma of cornea
-722666002	Primary squamous cell carcinoma of lacrimal apparatus
-722672002	Primary squamous cell carcinoma of base of tongue
-722673007	Primary squamous cell carcinoma of lingual tonsil
-722674001	Primary squamous cell carcinoma of parotid gland
-722676004	Primary squamous cell carcinoma of middle ear
-722678003	Primary squamous cell carcinoma of vagina
-723182009	Primary squamous cell carcinoma of nasal cavity
-723265000	Primary squamous cell carcinoma of anus
-723281005	Primary malignant melanoma of anus
-724467001	Primary squamous cell carcinoma of overlapping lesion of urinary organs
 726019003	Familial cutaneous malignant melanoma
-733134009	Primary squamous cell carcinoma of paraurethral gland (disorder)
-733343005	Primary squamous cell carcinoma of oral cavity
 733344004	Primary squamous cell carcinoma of lip
-733345003	Primary squamous cell carcinoma of pharynx
-733357007	Primary squamous cell carcinoma of intrathoracic organ (disorder)
-733358002	Primary squamous cell carcinoma of respiratory system
-733359005	Primary squamous cell carcinoma of endometrium
-737310005	Primary squamous cell carcinoma of submandibular gland (disorder)
-737311009	Primary squamous cell carcinoma of sublingual gland (disorder)
-764735002	Squamous cell carcinoma of small bowel
-764737005	Squamous cell carcinoma of corpus uteri
-766978002	Squamous cell carcinoma of gallbladder and extrahepatic biliary tract (disorder)
-766979005	Squamous cell carcinoma of rectum (disorder)
-766980008	Squamous cell carcinoma of stomach (disorder)
-766981007	Squamous cell carcinoma of colon
-767544007	Intraepithelial squamous cell carcinoma of anogenital region (disorder)
 24111000119105	Primary squamous cell carcinoma of upper limb (disorder)
 1082101000119106	Primary squamous cell carcinoma of skin of left lower limb
 1082221000119106	Primary squamous cell carcinoma of skin of right lower limb
-1080941000119109	Malignant melanoma of left choroid
-1080981000119104	Malignant melanoma of right choroid
 1081021000119109	Malignant melanoma of skin of left lower limb
 352001000119100	Malignant melanoma of skin of right lower limb
 352201000119105	Malignant melanoma of skin of left upper limb (disorder)
@@ -465,12 +311,7 @@
 1079191000119104	Primary basal cell carcinoma of right lower limb
 1079151000119109	Primary basal cell carcinoma of right upper limb
 242951000119108	Primary squamous cell carcinoma of vermilion border of lip (disorder)
-18121000119104	Primary squamous cell carcinoma of palatine tonsil (disorder)
-105111000119109	Primary squamous cell carcinoma of thymus (disorder)
-107591000119100	Primary squamous cell carcinoma of urethra
 91151000119103	Primary squamous cell carcinoma of chest wall (disorder)
-105121000119102	Squamous cell carcinoma of vagina (disorder)
-12240991000119102	Squamous cell carcinoma of right lung
 1082071000119102	Primary squamous cell carcinoma of left ear
 12240951000119107	Squamous cell carcinoma of left lung
 1082191000119100	Primary squamous cell carcinoma of right ear
@@ -568,18 +409,10 @@
 703499006	Excision of postauricular basal cell carcinoma with closure
 736465001	Excision of basal cell carcinoma from right postauricular region with closure
 254343003	Tumor-node-metastasis (TNM) malignant melanoma of eyelid staging
-254345005	Tumor-node-metastasis (TNM) malignant melanoma of conjunctiva staging
-254346006	Tumor-node-metastasis (TNM) malignant melanoma of uvea staging
-254347002	Tumor-node-metastasis (TNM) malignant melanoma of iris staging
-254348007	Tumor-node-metastasis (TNM) malignant melanoma of ciliary body staging
-254349004	Tumor-node-metastasis (TNM) malignant melanoma of choroid staging
 5688000	Squamous cell carcinoma in situ with questionable stromal invasion (morphologic abnormality)
 59529006	Squamous cell carcinoma in situ, no International Classification of Diseases for Oncology subtype
 128647004	Papillary squamous cell carcinoma, non-invasive (morphologic abnormality)
 369869004	T4: Lip: Tumor invades adjacent structures (cortical bone, inferior alveolar nerve, floor of mouth, skin of face) (finding)
-369870003	T4: Oral Cavity: Tumor invades adjacent structures (cortical bone, deep (extrinsic) muscle of tongue, maxillary sinus, skin) (finding)
-369879002	T4: Aerodigestive tract tumor with intracranial extension, orbital extension including apex, involving sphenoid and/or frontal sinus and/or skin of nose (finding)
-369902006	T4: Breast tumor of any size with direct extension to chest wall or skin (finding)
 422973004	Location of malignant melanoma in specimen with involved lateral margin
 424696000	Location of malignant melanoma in specimen with uninvolved lateral margin
 424949006	Location of malignant melanoma in specimen with uninvolved deep margin
@@ -587,22 +420,17 @@
 105966009	Tumor-like lesion of skin (navigational concept)
 188048001	Malignant melanoma of trunk (excluding scrotum) (navigational concept)
 254735005	Tumor of dermis (navigational concept)
-733912008	Primary intraosseous squamous cell carcinoma derived from odontogenic cyst
-733913003	Primary intraosseous squamous cell carcinoma derived from keratocystic odontogenic neoplasm
 734095001	Primary solid type intraosseous squamous cell carcinoma
 254324003	Tumor-node-metastasis (TNM) carcinoma of skin tumour staging
 254325002	Tumor-node-metastasis (TNM) malignant melanoma of skin staging
 396512000	Surgical lateral margin uninvolved by malignant melanoma
 396513005	Surgical lateral margin involved by malignant melanoma
 300987004	Disseminated squamous cell carcinoma (morphologic abnormality)
-369864009	T3: Aerodigestive tract tumor invades any of the following: bone of posterior wall of maxillary sinus, subcutaneous tissues, skin of cheek, floor or medial wall of orbit, infratemporal fossa, pterygoid plates, ethmoid sinuses (finding)
 399464005	Transitional cell carcinoma with squamous differentiation
 64773009	Eccrine dermal cylindroma (morphologic abnormality)
-406103009	Squamous cell carcinoma in situ of uterine cervix
 718396005	Basal cell carcinoma in situ
 396515003	Distance of malignant melanoma from closest lateral margin
 396518001	Distance of malignant melanoma from deep margin
-385402001	Surgical bronchial margin involved by squamous cell carcinoma in situ
 396517006	Surgical deep margin involved by malignant melanoma
 396516002	Surgical deep margin uninvolved by malignant melanoma
 403274000	Hypomelanosis surrounding malignant melanoma
@@ -616,7 +444,6 @@
 302836005	Lentigo maligna (disorder)
 372130007	Malignant neoplasm of skin (disorder)
 427858005	Family history of malignant melanoma (situation)
-69408002	Gorlin syndrome (disorder)
 95324001	Skin lesion (disorder)
 118285006	Epithelial neoplasm (morphologic abnormality)
 188083002	Malignant neoplasm of skin: [other] or [basal cell carcinoma] or [epithelioma] or [malignant neoplasm of sebaceous gland] or [malignant neoplasm of sweat gland] or [epithelioma basal cell]
@@ -632,3 +459,15 @@
 255184001	Papilloma of skin (disorder)
 286903005	Skin - benign mole and nevus (disorder)
 302828001	Syringoma (disorder)
+201101007	Actinic keratosis (disorder)
+856006	Actinic keratosis (morphologic abnormality)
+403200005	Atrophic actinic keratosis (disorder)
+304524009	Bowenoid actinic keratosis (disorder)
+449732002	Pigmented actinic keratosis (disorder)
+418686001	Actinic keratosis of eyelid (disorder)
+403198004	Lichenoid actinic keratosis (disorder)
+254667001	Hypertrophic solar keratosis (disorder)
+403199007	Acantholytic actinic keratosis (disorder)
+403201009	Proliferative actinic keratosis (disorder)
+449733007	Hyperkeratotic actinic keratosis (disorder)
+445111008	Cryotherapy of actinic keratosis (procedure)

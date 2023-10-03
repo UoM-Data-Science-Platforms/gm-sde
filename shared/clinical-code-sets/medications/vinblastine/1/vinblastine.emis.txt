@@ -1,0 +1,4 @@
+^ESCTVE872970	Velbe 10mg powder for solution for injection vials (Eli Lilly and Company Ltd)
+VEIN5719	Velbe  Injection  10 mg/vial
+VIIN4510	Vinblastine  Injection  10 mg vial
+VIIN7107	Vinblastine Sulfate  Injection  10 mg/vial

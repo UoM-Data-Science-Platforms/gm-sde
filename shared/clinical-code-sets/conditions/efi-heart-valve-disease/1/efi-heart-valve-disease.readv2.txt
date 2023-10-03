@@ -1,0 +1,4 @@
+G540.	Mitral valve incompetence
+G5402	Mitral valve prolapse
+G5415	Aortic stenosis
+G543.	Pulmonary valve disorders

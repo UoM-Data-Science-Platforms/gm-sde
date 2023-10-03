@@ -1,0 +1,8 @@
+^ESCTHA295458	Haematocrit
+^ESCTHA295460	Haematocrit - PCV level
+^ESCTHA840403	Haematocrit - packed cell volume
+^ESCTHC295455	Hct - Haematocrit
+^ESCTHC295457	Hct - Hematocrit
+^ESCTHE295456	Hematocrit - PCV
+^ESCTHE295459	Hematocrit
+^ESCTPA840404	Packed cell volume

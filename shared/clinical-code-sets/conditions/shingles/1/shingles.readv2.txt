@@ -1,0 +1,36 @@
+A53..00	Herpes zoster
+A53..11	Shingles
+A53z.00	Herpes zoster NOS
+A53y.00	Herpes zoster with unspecified complication
+A53x.00	Herpes zoster with other specified complication
+A53xz00	Herpes zoster with other specified complication NOS
+A53x100	Disseminated zoster
+A53x000	Herpes zoster otitis externa
+A532.00	Herpes zoster with ophthalmic complication
+A532z00	Herpes zoster with other ophthalmic complication
+A532400	Herpes zoster ophthalmicus
+A532300	Ophthalmic herpes zoster infection
+A532200	Herpes zoster iridocyclitis
+A532100	Herpes zoster with keratoconjunctivitis
+A532000	Herpes zoster with dermatitis of eyelid
+A531.00	Herpes zoster with other central nervous system complication
+A531z00	Herpes zoster with other central nervous system complication NOS
+A531400	Zoster encephalitis
+A531100	Geniculate herpes zoster
+A531000	Herpes zoster with other central nervous system complications
+A530.00	Herpes zoster with meningitis
+43jF.00	Varicella zoster nucleic acid detection
+43jF100	Varicella zoster deoxyribonucleic acid detection assay
+43jF000	Varicella zoster nucleic acid detection assay
+F011211	Herpes zoster meningitis
+F011200	Meningitis due to herpes zoster virus
+F030900	Encephalitis due to herpes zoster
+F030911	Herpes zoster encephalitis
+F501611	Herpes zoster - otitis externa
+F501600	Infective otitis externa due to herpes zoster
+AyuA500	[X]Zoster without complications
+AyuA400	[X]Zoster with other complications
+2Fa..00	Hutchinson's sign - herpes zoster involving nose tip
+F374400	Polyneuropathy in herpes zoster
+43wC.00	Detection of Varicella zoster virus using polymerase chain reaction technique
+65O2.00	Anti-varic-Zoster immunoglob.
