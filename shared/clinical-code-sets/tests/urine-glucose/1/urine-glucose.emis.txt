@@ -1,0 +1,4 @@
+^ESCTGL322843	Glucosuria
+^ESCTUR362820	Urinalysis, glucose, qualitative
+^ESCTUR362821	Urine test for glucose
+^ESCTUR838299	Urine dipstick for glucose
