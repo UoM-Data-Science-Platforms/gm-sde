@@ -6,3 +6,6 @@
 4666.	Urine glucose test = +++
 4667.	Urine glucose test = ++++
 4668.	Glycosuria
+4669.	Urine dipstick for glucose
+466Z.	Urine glucose test NOS
+R115.	[D]Glycosuria

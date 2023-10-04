@@ -6,10 +6,10 @@ Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.89% - 63.21%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.9% - 68.1%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-21 | EMIS            | 2604007    | 1592011 (59.89%) |  1592011 (59.89%) |
-| 2022-03-21 | TPP             | 132189     |  132189 (62.16%) |   135713 (62.16%) |
-| 2022-03-21 | Vision          | 333730     |  215935 (63.21%) |   215935 (63.21%) |
+| 2023-09-18 | EMIS | 2463856 | 1476970 (59.9%) | 1475393 (59.9%) | 
+| 2023-09-18 | TPP | 200590 | 136584 (68.1%) | 136587 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 208915 (62.9%) | 208785 (62.9%) | 

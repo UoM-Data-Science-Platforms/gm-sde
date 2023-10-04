@@ -10,28 +10,28 @@ Ethnicity-Asian,GMCR,1.387,0.715,2.533,1.244,1.116,1.384
 Ethnicity-Mixed,GMCR,4.145,1.293,11.183,1.996,1.432,2.733
 Ethnicity-Other,GMCR,1.42,0.556,3.144,1.196,0.999,1.424
 Patient has hypertension,GMCR,1.125,0.699,1.796,1.133,1.052,1.22
-Age,National,1.034,1.032,1.036,1.05,1.05,1.051
-Townsend Index,National,1.063,1.054,1.073,1.059,1.057,1.061
-Sex-male,National,0.929,0.872,0.989,1.287,1.272,1.304
-Patient has diabetes,National,2.043,1.917,2.177,1.291,1.274,1.308
-Patient has COPD,National,,,,,,
-Latest BMI value,National,1.004,0.999,1.009,1.027,1.026,1.028
-Ethnicity-Black,National,1.514,1.34,1.706,1.181,1.155,1.208
-Ethnicity-Asian,National,1.415,1.191,1.671,1.292,1.249,1.337
-Ethnicity-Mixed,National,1.163,0.889,1.495,1.228,1.154,1.306
-Ethnicity-Other,National,1.034,0.788,1.333,1.257,1.194,1.324
-Patient has hypertension,National,1.387,1.287,1.493,1.024,1.011,1.038
-Age,SGSS,1.034,1.032,1.035,1.056,1.055,1.056
-Townsend Index,SGSS,1.079,1.073,1.086,1.068,1.067,1.069
-Sex-male,SGSS,1.016,0.974,1.059,1.311,1.299,1.321
-Patient has diabetes,SGSS,2.066,1.979,2.156,1.353,1.341,1.366
-Patient has COPD,SGSS,,,,,,
-Latest BMI value,SGSS,0.998,0.995,1.002,1.021,1.021,1.022
-Ethnicity-Black,SGSS,1.249,1.146,1.36,1.179,1.16,1.198
-Ethnicity-Asian,SGSS,1.523,1.366,1.694,1.431,1.399,1.465
-Ethnicity-Mixed,SGSS,1.247,1.059,1.458,1.3,1.245,1.357
-Ethnicity-Other,SGSS,1.044,0.879,1.232,1.326,1.279,1.374
-Patient has hypertension,SGSS,1.442,1.37,1.516,1.054,1.044,1.063
+Age,National,1.031,1.029,1.033,1.048,1.048,1.049
+Townsend Index,National,1.059,1.049,1.068,1.053,1.051,1.055
+Sex-male,National,1.071,1.006,1.14,1.272,1.256,1.287
+Patient has diabetes,National,2.084,1.955,2.222,1.294,1.277,1.311
+Patient has COPD,National,2.261,1.983,2.572,1.865,1.831,1.899
+Latest BMI value,National,1.005,1,1.01,1.027,1.026,1.028
+Ethnicity-Black,National,1.572,1.392,1.772,1.251,1.223,1.28
+Ethnicity-Asian,National,1.484,1.249,1.752,1.386,1.339,1.434
+Ethnicity-Mixed,National,1.181,0.902,1.519,1.288,1.21,1.37
+Ethnicity-Other,National,1.074,0.818,1.384,1.33,1.262,1.4
+Patient has hypertension,National,1.382,1.283,1.489,1.033,1.02,1.047
+Age,SGSS,1.031,1.03,1.033,1.053,1.053,1.054
+Townsend Index,SGSS,1.074,1.068,1.081,1.061,1.06,1.063
+Sex-male,SGSS,0.98,0.94,1.022,1.292,1.28,1.302
+Patient has diabetes,SGSS,2.111,2.022,2.204,1.358,1.345,1.37
+Patient has COPD,SGSS,2.349,2.145,2.57,1.988,1.963,2.014
+Latest BMI value,SGSS,1,0.996,1.003,1.021,1.021,1.022
+Ethnicity-Black,SGSS,1.298,1.191,1.412,1.258,1.238,1.278
+Ethnicity-Asian,SGSS,1.596,1.432,1.776,1.547,1.512,1.583
+Ethnicity-Mixed,SGSS,1.264,1.073,1.479,1.37,1.312,1.43
+Ethnicity-Other,SGSS,1.085,0.914,1.28,1.408,1.358,1.459
+Patient has hypertension,SGSS,1.442,1.37,1.517,1.063,1.053,1.073
 Age,Adrian,1.023,1.021,1.025,,,
 Townsend Index,Adrian,1.071,1.063,1.079,,,
 Sex-male,Adrian,0.902,0.857,0.95,,,

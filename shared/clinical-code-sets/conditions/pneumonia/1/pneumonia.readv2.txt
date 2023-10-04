@@ -1,0 +1,77 @@
+A022200	Salmonella pneumonia
+A3By400	Pleuropneumonia-like organism (PPLO) infection
+A785000	Cytomegaloviral pneumonitis
+AB4z5	Histoplasmosis with pneumonia
+AB4z500	Histoplasmosis with pneumonia
+H2...00	Pneumonia and influenza
+H20..00	Viral pneumonia
+H20..11	Chest infection - viral pneumonia
+H200.00	Pneumonia due to adenovirus
+H201.00	Pneumonia due to respiratory syncytial virus
+H202.00	Pneumonia due to parainfluenza virus
+H203.00	Pneumonia due to human metapneumovirus
+H20y.00	Viral pneumonia NEC
+H20z.00	Viral pneumonia NOS
+H21..00	Lobar (pneumococcal) pneumonia
+H21..11	Chest infection - pneumococcal pneumonia
+H22..00	Other bacterial pneumonia
+H22..11	Chest infection - other bacterial pneumonia
+H220.00	Pneumonia due to klebsiella pneumoniae
+H221.00	Pneumonia due to pseudomonas
+H222.	Pneumonia due to haemophilus influenzae
+H222.00	Pneumonia due to haemophilus influenzae
+H222.11	Pneumonia due to haemophilus influenzae
+H223.00	Pneumonia due to streptococcus
+H223000	Pneumonia due to streptococcus, group B
+H224.00	Pneumonia due to staphylococcus
+H22y.00	Pneumonia due to other specified bacteria
+H22y000	Pneumonia due to escherichia coli
+H22y011	E.coli pneumonia
+H22y100	Pneumonia due to proteus
+H22y200	Pneumonia - Legionella
+H22y300	Pneumonia due to Gram negative bacteria
+H22yX00	Pneumonia due to other aerobic gram-negative bacteria
+H22yz00	Pneumonia due to bacteria NOS
+H22z.00	Bacterial pneumonia NOS
+H23..00	Pneumonia due to other specified organisms
+H23..11	Chest infection - pneumonia organism OS
+H230.00	Pneumonia due to Eaton's agent
+H231.00	Pneumonia due to mycoplasma pneumoniae
+H232.00	Pneumonia due to pleuropneumonia like organisms
+H233.00	Chlamydial pneumonia
+H23z.00	Pneumonia due to specified organism NOS
+H24..00	Pneumonia with infectious diseases EC
+H240.00	Pneumonia with measles
+H241.00	Pneumonia with cytomegalic inclusion disease
+H243.00	Pneumonia with whooping cough
+H243.11	Pneumonia with pertussis
+H247.00	Pneumonia with other systemic mycoses
+H24y.00	Pneumonia with other infectious diseases EC
+H24y400	Pneumonia with salmonellosis
+H24y600	Pneumonia with typhoid fever
+H24yz00	Pneumonia with other infectious diseases EC NOS
+H24z.00	Pneumonia with infectious diseases EC NOS
+H25..00	Bronchopneumonia due to unspecified organism
+H25..11	Chest infection - unspecified bronchopneumonia
+H26..00	Pneumonia due to unspecified organism
+H26..11	Chest infection - pnemonia due to unspecified organism
+H260.00	Lobar pneumonia due to unspecified organism
+H261.00	Basal pneumonia due to unspecified organism
+H270.00	Influenza with pneumonia
+H270.11	Chest infection - influenza with pneumonia
+H270000	Influenza with bronchopneumonia
+H270100	Influenza with pneumonia, influenza virus identified
+H270z00	Influenza with pneumonia NOS
+H28..00	Atypical pneumonia
+H2B..00	Community acquired pneumonia
+H2C..00	Hospital acquired pneumonia
+H2y..00	Other specified pneumonia or influenza
+H2z..00	Pneumonia or influenza NOS
+Hyu0800	[X]Other viral pneumonia
+Hyu0900	[X]Pneumonia due to other aerobic gram-negative bacteria
+Hyu0A00	[X]Other bacterial pneumonia
+Hyu0B00	[X]Pneumonia due to other specified infectious organisms
+Hyu0C00	[X]Pneumonia in bacterial diseases classified elsewhere
+Hyu0D00	[X]Pneumonia in viral diseases classified elsewhere
+Hyu0G00	[X]Pneumonia in other diseases classified elsewhere
+Hyu0H00	[X]Other pneumonia, organism unspecified

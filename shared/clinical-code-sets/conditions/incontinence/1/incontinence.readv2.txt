@@ -1,0 +1,96 @@
+1593	H/O: stress incontinence
+16F..00	Double incontinence
+19E3.00	Incontinent of faeces
+19E3.11	Incontinent of faeces symptom
+1A23.00	Incontinence of urine
+1A24.00	Stress incontinence
+1A24.11	Stress incontinence - symptom
+1A25.00	Urgency
+1A25.11	Urgency of micturition
+1A26.00	Urge incontinence of urine
+1A27.00	Urge to pass urine again shortly after finishing voiding
+1A27.11	Pis en deux
+1A36.00	Terminal dribbling of urine
+1A37.00	Dribbling of urine
+222K.00	Smells of urine
+3930	Bowels: incontinent
+3931	Bowels: occasional accident
+393..11	Bowels - continence
+393..12	Bowels-incontinence assessment
+3940	Bladder: incontinent
+3941	Bladder: occasional accident
+394..11	Bladder-incontinence assessmnt
+394..12	Bladder- continence assessment
+39H..00	Continence assessment
+39H0.00	Continence reassessment
+679H.00	Health education - continence
+679H.11	Promotion of continence
+7B31200	Colposuspension of bladder neck
+7B31211	Burch colposuspension
+7B33800	Insertion retropubic device stress urinary incontinence NEC
+7B33C00	Insertion retropubic dev fem stress urinary incontinence NEC
+7B42100	Insertion of bulbar urethral prosthesis
+7B42111	Insertion of Kaufman prosthesis for male incontinence
+7B42112	Insertion of prosthesis for compression bulb of male urethra
+7B42113	Insertion of Rosen prosthesis for male incontinence
+7D17.11	Colporrhaphy and amputation of cervix uteri
+8C14.00	Incontinence care
+8C14.11	Continence care
+8D7..00	Urinary bladder control
+8D71.00	Incontinence control
+8D7..11	Bladder control
+8D7..12	Incontinence control
+8D74.00	Indwelling urethral catheter
+8D74.11	Catheter in situ
+8D75.00	Penile sheath provision
+8D7Z.00	Urinary bladder control NOS
+8E97.00	Bladder training
+8E97000	Bladder drill
+8H7w.00	Referral to continence nurse
+8HR6.00	Refer to Urodynamic studies
+8HTX.00	Referral to incontinence clinic
+9Nl8.00	Seen by continence nurse
+K198.00	Stress incontinence
+K586.00	Stress incontinence - female
+Kyu5A00	[X]Other specified urinary incontinence
+R076.00	[D]Incontinence of faeces
+R076100	[D]Sphincter ani incontinence
+R076z00	[D]Incontinence of faeces NOS
+R083.00	[D]Incontinence of urine
+R083100	[D]Urethral sphincter incontinence
+R083200	[D] Urge incontinence
+R083z00	[D]Incontinence of urine NOS
+R086200	[D] Urgency of micturition
+Z121400	Assisting with toileting
+Z1J..00	Procedures to aid continence
+Z1J1.00	Taking the patient to toilet
+Z1J2.00	Attaching penile sheath
+Z1J3.00	Putting incontinence pad on
+Z1J4.00	Changing incontinence pad
+Z1S..00	Toileting regimes
+Z1S1.00	Regular toileting
+Z1S2.00	Planned voiding
+Z1S2100	Planned voiding two hourly
+Z89A.00	Ability to perform toileting activities
+Z89A100	Does not perform toileting activities
+Z89A200	Difficulty performing toileting activities
+Z89AE00	Unable to use urine bottle
+Z915.00	Urinary catheter appliance procedures
+Z915.11	Urinary catheter care
+ZL22400	Under care of continence nurse
+ZL62400	Referral to continence nurse
+ZLA2400	Seen by continence nurse
+ZLD7400	Discharge by continence nurse
+ZQ3C.00	Bowels incontinence assessment
+ZRas400	OPCS continence disability scale
+1A2..00	Micturition control
+1A2..11	Urinary control
+1A35.00	Precipitancy
+1A35.11	Precipitancy of micturition
+3930.00	Bowels: incontinent
+3940.00	Bladder: incontinent
+7D17200	Posterior colporrhaphy and amputation of cervix uteri NEC
+7D17y00	Other specified repair of vaginal prolapse and amputation of cervix uteri
+7D17z00	Repair of vaginal prolapse and amputation of cervix uteri NOS
+E276z00	Non-organic enuresis NOS
+R083000	[D]Enuresis NOS

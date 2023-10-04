@@ -4,11 +4,11 @@ This code set includes codes that indicate the result of bacteria in urine test.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.01 - 0.05%` suggests either underreporting or just not many occurences.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.02 - 0.52%` suggests a discrepancy between code sets.
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-11 | EMIS            | 2662570    | 	1206 (0.05%)   |  	1206 (0.05%)   |
-| 2022-05-11 | TPP             | 212696     |     14 (0.01%)   |      14 (0.01%)   |
-| 2022-05-11 | Vision          | 342344     |     55 (0.02%)   |      55 (0.02%)   |
+| 2023-09-20 | EMIS | 2466262 | 1117 (0.0453%) | 1062 (0.0431%) | 
+| 2023-09-20 | TPP | 200680 | 1052 (0.524%) | 1050 (0.523%) | 
+| 2023-09-20 | Vision | 332105 | 53 (0.016%) | 47 (0.0142%) | 

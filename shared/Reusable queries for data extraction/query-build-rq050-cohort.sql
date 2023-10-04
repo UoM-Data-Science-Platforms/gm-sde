@@ -32,7 +32,7 @@ SELECT
 	SuppliedCode,
 	EventDate
 INTO #PregnancyPatientsGP
-FROM [RLS].[vw_GP_Events]
+FROM [SharedCare].[GP_Events]
 WHERE 
     SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] LIKE 'pregnancy%' AND [Version] = 1)
 	AND EventDate BETWEEN @StartDate AND @EndDate
@@ -85,7 +85,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 --Outputs from this reusable query:
