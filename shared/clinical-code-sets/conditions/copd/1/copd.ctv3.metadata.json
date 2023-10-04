@@ -11,7 +11,9 @@
     "eosinophilic bronchitis",
     "asthma-chronic obstructive pulmonary disease overlap syndrome",
     "chronic asthmatic bronchitis",
-    "copd"
+    "copd",
+    "chronic obstructive lung",
+    "vanishing lung"
   ],
   "excludeTerms": [
     "sleep",
@@ -44,8 +46,10 @@
     "perinatal",
     "subcutaneous emphysema",
     "surgical emphysema",
+    "orbital emphysema",
     "pneumonia",
     "interstitial emphysema",
+    "mediastinal emphysema",
     "compensatory emphysema",
     "allergic",
     "asthma",
