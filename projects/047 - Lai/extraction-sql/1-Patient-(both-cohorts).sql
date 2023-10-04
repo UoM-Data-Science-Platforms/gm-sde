@@ -11,6 +11,7 @@
 -- Ethnicity (White/ Mixed/ Black or Black British/ Asian or Asian British/ Other Ethnic Groups/ Refused and not stated group)
 -- IMDGroup (1, 2, 3, 4, 5)
 -- LSOA
+-- YearAndMonthOfDeath
 
 
 -- >>> Codesets required... Inserting the code set code
@@ -219,7 +220,7 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = '2022-06-01';
+SET @EndDate = GETDATE();
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
