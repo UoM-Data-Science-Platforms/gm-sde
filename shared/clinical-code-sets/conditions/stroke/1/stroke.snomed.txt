@@ -118,3 +118,27 @@
 16218291000119100	Acute cerebral ischemia
 16896851000119101	History of embolic cerebrovascular accident
 16896891000119106	History of cerebrovascular accident due to ischemia
+57981008	Progressing stroke
+111297002	Nonparalytic stroke
+116288000	Paralytic stroke
+195168007	Intracerebral hemorrhage with intraventricular hemorrhage
+195209007	Middle cerebral artery syndrome
+195210002	Anterior cerebral artery syndrome
+195211003	Posterior cerebral artery syndrome
+195212005	Brainstem stroke syndrome
+195216008	Left sided cerebral hemisphere cerebrovascular accident
+195217004	Right sided cerebral hemisphere cerebrovascular accident
+230690007	Cerebrovascular accident
+230706003	Hemorrhagic cerebral infarction
+230707007	Anterior cerebral circulation hemorrhagic infarction
+230708002	Posterior cerebral circulation hemorrhagic infarction
+230713003	Stroke of uncertain pathology
+230714009	Anterior circulation stroke of uncertain pathology
+230715005	Posterior circulation stroke of uncertain pathology
+275434003	Stroke in the puerperium
+281240008	Extension of cerebrovascular accident
+297138001	Embolus of circle of Willis
+16371781000119100	Cerebellar stroke
+16644681000119102	Cerebrovascular accident due to occlusion of bilateral pontine arteries
+16661931000119102	Cerebrovascular accident due to stenosis of bilateral vertebral arteries
+16661971000119104	Cerebrovascular accident due to stenosis of bilateral carotid arteries

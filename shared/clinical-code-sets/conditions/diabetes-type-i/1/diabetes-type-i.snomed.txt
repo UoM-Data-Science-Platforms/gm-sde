@@ -10,3 +10,6 @@
 444073006	Type I diabetes mellitus uncontrolled (finding)
 46635009	Diabetes mellitus type 1 (disorder)
 190369008	Type I diabetes mellitus with gangrene
+23045005	Insulin dependent diabetes mellitus type IA
+28032008	Insulin dependent diabetes mellitus type IB
+199229001	Pre-existing type 1 diabetes mellitus

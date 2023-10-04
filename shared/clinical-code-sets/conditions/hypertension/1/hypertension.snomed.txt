@@ -39,6 +39,11 @@
 845891000000103	Hypertension resistant to drug therapy
 1078301000112109	Multiple drug intolerant hypertension
 16229371000119106	Labile systemic arterial hypertension
-
-
-
+766937004	Hypertension due to gain-of-function mutation in mineralocorticoid receptor
+871642009	Hypertension due to aortic arch obstruction
+71421000119105	Hypertension in chronic kidney disease due to type 2 diabetes mellitus
+71701000119105	Hypertension in chronic kidney disease due to type 1 diabetes mellitus
+140101000119109	Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus
+140111000119107	Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus
+140121000119100	Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus
+140131000119102	Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus

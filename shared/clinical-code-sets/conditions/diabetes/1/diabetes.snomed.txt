@@ -53,7 +53,6 @@
 609561005	Maturity-onset diabetes of the young
 609562003	Maturity onset diabetes of the young, type 1
 609572000	Maturity-onset diabetes of the young, type 5
-703138006	Type II diabetes mellitus in remission
 713703005	Gastroparesis due to type 2 diabetes mellitus
 713706002	Polyneuropathy due to type 2 diabetes mellitus
 719216001	Hypoglycemic coma due to type 2 diabetes mellitus
@@ -71,3 +70,6 @@
 335621000000101	Maternally inherited diabetes mellitus
 368591000119109	Cheiroarthropathy due to diabetes mellitus type 2
 368711000119106	Mild nonproliferative retinopathy due to secondary diabetes mellitus
+23045005	Insulin dependent diabetes mellitus type IA
+28032008	Insulin dependent diabetes mellitus type IB
+199229001	Pre-existing type 1 diabetes mellitus
