@@ -1,0 +1,16 @@
+190331003	Diabetes mellitus, adult onset, with hyperosmolar coma (disorder)
+190388001	Type II diabetes mellitus with multiple complications (disorder)
+190389009	Type II diabetes mellitus with ulcer (disorder)
+237599002	Insulin-treated non-insulin-dependent diabetes mellitus (disorder)
+237604008	Diabetes mellitus autosomal dominant type II (disorder)
+24471000000103	Type 2 diabetes on insulin (finding)
+24481000000101	Type 2 diabetes on diet only (finding)
+313436004	Type II diabetes mellitus without complication (disorder)
+314902007	Type II diabetes mellitus with peripheral angiopathy (disorder)
+314903002	Type II diabetes mellitus with arthropathy (disorder)
+314904008	Type II diabetes mellitus with neuropathic arthropathy (disorder)
+44054006	Diabetes mellitus type 2 (disorder)
+443694000	Type II diabetes mellitus uncontrolled (finding)
+190390000	Type II diabetes mellitus with gangrene
+1481000119100	Diabetes mellitus type 2 without retinopathy
+445353002	Brittle type II diabetes mellitus
