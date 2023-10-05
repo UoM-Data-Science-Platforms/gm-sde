@@ -1,0 +1,3 @@
+1322781000000102	Severe acute respiratory syndrome coronavirus 2 antigen detection result positive (finding)
+871553007	Detection of Severe acute respiratory syndrome coronavirus 2 antigen (observable entity)
+1240391000000107	Antigen of severe acute respiratory syndrome coronavirus 2

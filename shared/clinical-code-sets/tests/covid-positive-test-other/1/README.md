@@ -8,10 +8,13 @@ The codes used in primary care to indicate a positive COVID test can be split in
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |

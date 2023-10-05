@@ -242,18 +242,11 @@ WHERE (
 ) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM [SharedCare].[Patient_GP_History]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
+-- Create a table with all patients within th e skin cohort=========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #Patients 
-FROM #PatientsToInclude;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
+FROM SharedCare.Patient_Link
+WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort);
 
 
 -- >>> Following code sets injected: hydrochlorothiazide v1

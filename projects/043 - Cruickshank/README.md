@@ -287,7 +287,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -344,13 +344,16 @@ A code that indicates that a person has a positive antigen test for COVID-19.
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-antigen-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-antigen-test/1)
 
@@ -362,13 +365,16 @@ A code that indicates that a person has a positive pcr test for COVID-19.
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-pcr-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-pcr-test/1)
 
@@ -380,13 +386,16 @@ A code that indicates that a person has a positive test for COVID-19, but where 
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
 
@@ -498,11 +507,14 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
 
-| Date        | Practice system | Population | Patients from ID | Patient from code |
-| ----------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-12  | EMIS            | 2662570    |    24378 (0.92%) |     24359 (0.91%) |
-| 2022-05-12  | TPP             | 212696     |     2441 (1.45%) |      2445 (1.45%) |
-| 2022-05-12  | Vision          | 342344     |     3308 (0.97%) |      3307 (0.97%) |
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-12 | EMIS            | 2662570    |    24378 (0.92%) |     24359 (0.91%) |
+| 2022-05-12 | TPP             | 212696     |     2441 (1.45%) |      2445 (1.45%) |
+| 2022-05-12 | Vision          | 342344     |     3308 (0.97%) |      3307 (0.97%) |
+| 2023-09-12 | EMIS            | 2463856    |   23678 (0.961%) |    11237 (0.456%) |
+| 2023-09-12 | TPP             | 200590     |     2631 (1.31%) |      2593 (1.29%) |
+| 2023-09-12 | Vision          | 332095     |    3098 (0.933%) |     1699 (0.512%) |
 
 LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
 
@@ -520,6 +532,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |    11381 (0.44%) |     11381 (0.44%) |
 | 2021-05-07 | TPP             | 210817     |      887 (0.42%) |       887 (0.42%) |
 | 2021-05-07 | Vision          | 334632     |     1607 (0.48%) |      1607 (0.48%) |
+| 2023-09-12 | EMIS            | 2463856    |   10968 (0.445%) |    10223 (0.415%) |
+| 2023-09-12 | TPP             | 200590     |    1094 (0.545%) |     1090 (0.543%) |
+| 2023-09-12 | Vision          | 332095     |    1574 (0.474%) |     1455 (0.438%) |
+| 2023-09-15 | EMIS            | 2463856    |   10999 (0.446%) |    10253 (0.416%) |
+| 2023-09-15 | TPP             | 200590     |    1096 (0.546%) |     1092 (0.544%) |
+| 2023-09-15 | Vision          | 332095     |    1578 (0.475%) |     1459 (0.439%) |
 
 LINK: [https://github.com/rw251/.../conditions/diabetes-type-i/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-i/1)
 
@@ -537,6 +555,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |   133938 (5.14%) |    133938 (5.14%) |
 | 2021-05-07 | TPP             | 210817     |    10954 (5.20%) |     10954 (5.20%) |
 | 2021-05-07 | Vision          | 334632     |    16936 (5.06%) |     16933 (5.06%) |
+| 2023-09-12 | EMIS            | 2463856    |   139199 (5.65%) |    139230 (5.65%) |
+| 2023-09-12 | TPP             | 200590     |    13456 (6.71%) |     13458 (6.71%) |
+| 2023-09-12 | Vision          | 332095     |    17554 (5.29%) |     17542 (5.28%) |
+| 2023-09-15 | EMIS            | 2463856    |   139785 (5.67%) |    139814 (5.67%) |
+| 2023-09-15 | TPP             | 200590     |    13485 (6.72%) |     13487 (6.72%) |
+| 2023-09-15 | Vision          | 332095     |    17621 (5.31%) |      17609 (5.3%) |
 
 LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
 
@@ -547,13 +571,16 @@ Any suggestion of a diagnosis of COPD.
 Developed from https://getset.ga.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.10% - 2.33%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.17% - 2.48%` in 2023 suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    |    54668 (2.10%) |     54669 (2.10%) |
 | 2021-05-07 | TPP             | 210817     |     4537 (2.15%) |      4538 (2.15%) |
 | 2021-05-07 | Vision          | 334632     |     7789 (2.33%) |      7789 (2.33%) |
+| 2023-09-15 | EMIS            | 2463856    |    53577 (2.17%) |     53551 (2.17%) |
+| 2023-09-15 | TPP             | 200590     |     4959 (2.47%) |      4966 (2.48%) |
+| 2023-09-15 | Vision          | 332095     |     7382 (2.22%) |      7374 (2.22%) |
 
 LINK: [https://github.com/rw251/.../conditions/copd/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/copd/1)
 
@@ -571,6 +598,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-07-14 | EMIS            | 2615750    |  328350 (12.55%) |  328339 ( 12.55%) |
 | 2021-07-14 | TPP             | 211345     |   27363 (12.95%) |   27362 ( 12.95%) |
 | 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
+| 2023-09-12 | EMIS            | 2463856    |   348882 (14.2%) |    348930 (14.2%) |
+| 2023-09-12 | TPP             | 200590     |    33584 (16.7%) |     31906 (15.9%) |
+| 2023-09-12 | Vision          | 332095     |    45338 (13.7%) |     45277 (13.6%) |
+| 2023-09-15 | EMIS            | 2463856    |   350029 (14.2%) |    350075 (14.2%) |
+| 2023-09-15 | TPP             | 200590     |    33643 (16.8%) |     31967 (15.9%) |
+| 2023-09-15 | Vision          | 332095     |    45529 (13.7%) |     45467 (13.7%) |
 
 LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
 
