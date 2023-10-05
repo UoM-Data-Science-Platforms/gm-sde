@@ -216,12 +216,11 @@ WHERE (
 ) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients within 2 cohorts=========================================================================================================================
+-- Create a table with all patients within the gynae cohort=========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
 FROM SharedCare.Patient_Link
-WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort) 
-      OR PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #GynaeCohort);
+WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #GynaeCohort);
 
 
 -- >>> Following code sets injected: contraceptives-progesterone-only v1
