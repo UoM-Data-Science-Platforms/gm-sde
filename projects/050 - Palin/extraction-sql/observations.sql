@@ -15,7 +15,7 @@
 DECLARE @StartDate datetime;
 SET @StartDate = '2012-03-01';
 DECLARE @EndDate datetime;
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -40,31 +40,21 @@ SET NOCOUNT ON;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -235,13 +225,13 @@ VALUES ('diastolic-blood-pressure',1,'246o1',NULL,'Non-invasive central diastoli
 INSERT INTO #codesreadv2
 VALUES ('haematocrit',1,'4258.',NULL,'Haematocrit'),('haematocrit',1,'4258.00',NULL,'Haematocrit'),('haematocrit',1,'4257.',NULL,'Packed cell volume'),('haematocrit',1,'4257.00',NULL,'Packed cell volume'),('haematocrit',1,'425..',NULL,'Haematocrit - PCV'),('haematocrit',1,'425..00',NULL,'Haematocrit - PCV'),('haematocrit',1,'425Z.',NULL,'Haematocrit - PCV - NOS'),('haematocrit',1,'425Z.00',NULL,'Haematocrit - PCV - NOS');
 INSERT INTO #codesreadv2
-VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423C.',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423C.00',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423B.',NULL,'Haemoglobin abnormal'),('haemoglobin',1,'423B.00',NULL,'Haemoglobin abnormal');
+VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS');
 INSERT INTO #codesreadv2
 VALUES ('mean-corpuscular-haemoglobin',1,'428..',NULL,'Mean corpusc. haemoglobin(MCH)'),('mean-corpuscular-haemoglobin',1,'428..00',NULL,'Mean corpusc. haemoglobin(MCH)'),('mean-corpuscular-haemoglobin',1,'428z.',NULL,'MCH - NOS'),('mean-corpuscular-haemoglobin',1,'428z.00',NULL,'MCH - NOS');
 INSERT INTO #codesreadv2
 VALUES ('mean-corpuscular-volume',1,'42A..',NULL,'Mean corpuscular volume (MCV)'),('mean-corpuscular-volume',1,'42A..00',NULL,'Mean corpuscular volume (MCV)'),('mean-corpuscular-volume',1,'42AZ.',NULL,' MCV - NOS'),('mean-corpuscular-volume',1,'42AZ.00',NULL,' MCV - NOS');
 INSERT INTO #codesreadv2
-VALUES ('platelets',1,'42P..',NULL,'Platelet count'),('platelets',1,'42P..00',NULL,'Platelet count'),('platelets',1,'42P1.',NULL,'Platelet count normal'),('platelets',1,'42P1.00',NULL,'Platelet count normal'),('platelets',1,'42PZ.',NULL,'Platelet count NOS'),('platelets',1,'42PZ.00',NULL,'Platelet count NOS');
+VALUES ('platelets',1,'42P..',NULL,'Platelet count'),('platelets',1,'42P..00',NULL,'Platelet count'),('platelets',1,'42PZ.',NULL,'Platelet count NOS'),('platelets',1,'42PZ.00',NULL,'Platelet count NOS');
 INSERT INTO #codesreadv2
 VALUES ('red-blood-cells',1,'426..',NULL,'Red blood cell (RBC) count'),('red-blood-cells',1,'426..00',NULL,'Red blood cell (RBC) count'),('red-blood-cells',1,'426Z.',NULL,'RBC count NOS'),('red-blood-cells',1,'426Z.00',NULL,'RBC count NOS');
 INSERT INTO #codesreadv2
@@ -249,7 +239,7 @@ VALUES ('systolic-blood-pressure',1,'246o0',NULL,'Non-invasive central systolic 
 INSERT INTO #codesreadv2
 VALUES ('urine-blood',1,'469..',NULL,'Urine blood test'),('urine-blood',1,'469..00',NULL,'Urine blood test'),('urine-blood',1,'4692.',NULL,'Urine blood test = negative'),('urine-blood',1,'4692.00',NULL,'Urine blood test = negative'),('urine-blood',1,'4693.',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4693.00',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4694.',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4694.00',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4695.',NULL,'Urine blood test = +'),('urine-blood',1,'4695.00',NULL,'Urine blood test = +'),('urine-blood',1,'4696.',NULL,'Urine blood test = ++'),('urine-blood',1,'4696.00',NULL,'Urine blood test = ++'),('urine-blood',1,'4697.',NULL,'Urine blood test = +++'),('urine-blood',1,'4697.00',NULL,'Urine blood test = +++');
 INSERT INTO #codesreadv2
-VALUES ('urine-glucose',1,'466..',NULL,'Urine test for glucose'),('urine-glucose',1,'466..00',NULL,'Urine test for glucose'),('urine-glucose',1,'4662.',NULL,'Urine glucose test negative'),('urine-glucose',1,'4662.00',NULL,'Urine glucose test negative'),('urine-glucose',1,'4663.',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4663.00',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4664.',NULL,'Urine glucose test = +'),('urine-glucose',1,'4664.00',NULL,'Urine glucose test = +'),('urine-glucose',1,'4665.',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4665.00',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4666.',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4666.00',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4667.',NULL,'Urine glucose test = ++++'),('urine-glucose',1,'4667.00',NULL,'Urine glucose test = ++++'),('urine-glucose',1,'4668.',NULL,'Glycosuria'),('urine-glucose',1,'4668.00',NULL,'Glycosuria');
+VALUES ('urine-glucose',1,'466..',NULL,'Urine test for glucose'),('urine-glucose',1,'466..00',NULL,'Urine test for glucose'),('urine-glucose',1,'4662.',NULL,'Urine glucose test negative'),('urine-glucose',1,'4662.00',NULL,'Urine glucose test negative'),('urine-glucose',1,'4663.',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4663.00',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4664.',NULL,'Urine glucose test = +'),('urine-glucose',1,'4664.00',NULL,'Urine glucose test = +'),('urine-glucose',1,'4665.',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4665.00',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4666.',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4666.00',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4667.',NULL,'Urine glucose test = ++++'),('urine-glucose',1,'4667.00',NULL,'Urine glucose test = ++++'),('urine-glucose',1,'4668.',NULL,'Glycosuria'),('urine-glucose',1,'4668.00',NULL,'Glycosuria'),('urine-glucose',1,'4669.',NULL,'Urine dipstick for glucose'),('urine-glucose',1,'4669.00',NULL,'Urine dipstick for glucose'),('urine-glucose',1,'466Z.',NULL,'Urine glucose test NOS'),('urine-glucose',1,'466Z.00',NULL,'Urine glucose test NOS'),('urine-glucose',1,'R115.',NULL,'[D]Glycosuria'),('urine-glucose',1,'R115.00',NULL,'[D]Glycosuria');
 INSERT INTO #codesreadv2
 VALUES ('urine-ketones',1,'468..',NULL,'Urine ketone test'),('urine-ketones',1,'468..00',NULL,'Urine ketone test'),('urine-ketones',1,'4682.',NULL,'Urine ketone test negative'),('urine-ketones',1,'4682.00',NULL,'Urine ketone test negative'),('urine-ketones',1,'4683.',NULL,'Urine ketone test = trace'),('urine-ketones',1,'4683.00',NULL,'Urine ketone test = trace'),('urine-ketones',1,'4684.',NULL,'Urine ketone test = +'),('urine-ketones',1,'4684.00',NULL,'Urine ketone test = +'),('urine-ketones',1,'4685.',NULL,'Urine ketone test = ++'),('urine-ketones',1,'4685.00',NULL,'Urine ketone test = ++'),('urine-ketones',1,'4686.',NULL,'Urine ketone test = +++'),('urine-ketones',1,'4686.00',NULL,'Urine ketone test = +++'),('urine-ketones',1,'4687.',NULL,'Urine ketone test = ++++'),('urine-ketones',1,'4687.00',NULL,'Urine ketone test = ++++');
 INSERT INTO #codesreadv2
@@ -383,21 +373,21 @@ VALUES ('diastolic-blood-pressure',1,'X779S',NULL,'DAP-Diastolic arterial pressu
 INSERT INTO #codesctv3
 VALUES ('haematocrit',1,'X76tb',NULL,'Haematocrit'),('haematocrit',1,'X76tc',NULL,'Packed cell volume'),('haematocrit',1,'XE2Zq',NULL,'Haematocrit - PCV'),('haematocrit',1,'XE2Zq',NULL,'Haematocrit - PCV level'),('haematocrit',1,'425Z.',NULL,'Haematocrit - PCV - NOS'),('haematocrit',1,'425..',NULL,'Haematocrit - PCV');
 INSERT INTO #codesctv3
-VALUES ('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level');
+VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level'),('haemoglobin',1,'XM1Vu',NULL,'Hb estimation');
 INSERT INTO #codesctv3
 VALUES ('mean-corpuscular-haemoglobin',1,'428..',NULL,'Mean corpusc. Hb - MCH'),('mean-corpuscular-haemoglobin',1,'428Z.',NULL,'MCH - NOS');
 INSERT INTO #codesctv3
 VALUES ('mean-corpuscular-volume',1,'42A..',NULL,'Mean cell volume'),('mean-corpuscular-volume',1,'42AZ.',NULL,'MCV - NOS');
 INSERT INTO #codesctv3
-VALUES ('platelets',1,'42P..',NULL,'Platelet count'),('platelets',1,'42P1.',NULL,'Platelet count normal'),('platelets',1,'42PZ.',NULL,'Platelet count NOS');
+VALUES ('platelets',1,'42P..',NULL,'Platelet count'),('platelets',1,'42PZ.',NULL,'Platelet count NOS');
 INSERT INTO #codesctv3
 VALUES ('red-blood-cells',1,'426..',NULL,'Red blood cell count'),('red-blood-cells',1,'426Z.',NULL,'RBC count NOS');
 INSERT INTO #codesctv3
 VALUES ('systolic-blood-pressure',1,'X779Q',NULL,'Non-invasive systol art press'),('systolic-blood-pressure',1,'X779R',NULL,'Invasive systol arterial press'),('systolic-blood-pressure',1,'Xac5L',NULL,'Baseline systolic BP'),('systolic-blood-pressure',1,'Xaedo',NULL,'Non-invasive central systlc BP'),('systolic-blood-pressure',1,'XaF4d',NULL,'24h systolic blood pressure'),('systolic-blood-pressure',1,'XaF4D',NULL,'Min systolic blood pressure'),('systolic-blood-pressure',1,'XaF4E',NULL,'Max systolic blood pressure'),('systolic-blood-pressure',1,'XaF4F',NULL,'Ave systolic blood pressure'),('systolic-blood-pressure',1,'XaF4G',NULL,'Min day systol blood pressure'),('systolic-blood-pressure',1,'XaF4H',NULL,'Min night syst blood pressure'),('systolic-blood-pressure',1,'XaF4I',NULL,'Max night syst blood pressure'),('systolic-blood-pressure',1,'XaF4J',NULL,'Max day syst blood pressure'),('systolic-blood-pressure',1,'XaF4K',NULL,'Ave night syst blood pressure'),('systolic-blood-pressure',1,'XaF4L',NULL,'Ave day systol blood pressure'),('systolic-blood-pressure',1,'XaF4M',NULL,'Min 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4N',NULL,'Max 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4O',NULL,'Ave 24h systol blood pressure'),('systolic-blood-pressure',1,'XaIwj',NULL,'Standing systolic BP'),('systolic-blood-pressure',1,'XaJ2E',NULL,'Sitting systolic BP'),('systolic-blood-pressure',1,'XaJ2G',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'XaKFx',NULL,'Average home systolic BP'),('systolic-blood-pressure',1,'XaKjF',NULL,'Ambulatory systolic BP'),('systolic-blood-pressure',1,'XaXfX',NULL,'Post exerc sys BP respons norm'),('systolic-blood-pressure',1,'XaXfY',NULL,'Post exer sys BP respon abnorm'),('systolic-blood-pressure',1,'XaYg9',NULL,'Systolic BP centile'),('systolic-blood-pressure',1,'XM02X',NULL,'SAP - Systol arterial pressure'),('systolic-blood-pressure',1,'246o0',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246n1',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246l.',NULL,'Average systolic blood pressure'),('systolic-blood-pressure',1,'246j.',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'246e.',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246d.',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'246b.',NULL,'Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.',NULL,'Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246W.',NULL,'Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246S.',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'246Q.',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246N.',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'246K.',NULL,'Target systolic blood pressure'),('systolic-blood-pressure',1,'2469.',NULL,'O/E - Systolic BP reading');
 INSERT INTO #codesctv3
-VALUES ('urine-blood',1,'4692.',NULL,'Urine blood test = negative'),('urine-blood',1,'4693.',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4694.',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4695.',NULL,'Urine blood test = +'),('urine-blood',1,'4696.',NULL,'Urine blood test = ++'),('urine-blood',1,'4697.',NULL,'Urine blood test = +++');
+VALUES ('urine-blood',1,'4692.',NULL,'Urine blood test = negative'),('urine-blood',1,'4693.',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4694.',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4695.',NULL,'Urine blood test = +'),('urine-blood',1,'4696.',NULL,'Urine blood test = ++'),('urine-blood',1,'4697.',NULL,'Urine blood test = +++'),('urine-blood',1,'X77b9',NULL,'Urine dipstick for leucocyte esterase'),('urine-blood',1,'XaBFN',NULL,'Urine blood test');
 INSERT INTO #codesctv3
-VALUES ('urine-glucose',1,'466..',NULL,'Glucose - urine test'),('urine-glucose',1,'4662.',NULL,'Urine glucose test negative'),('urine-glucose',1,'4663.',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4664.',NULL,'Urine glucose test = +'),('urine-glucose',1,'4665.',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4666.',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4667.',NULL,'Urine glucose test = ++++');
+VALUES ('urine-glucose',1,'466..',NULL,'Glucose - urine test'),('urine-glucose',1,'4662.',NULL,'Urine glucose test negative'),('urine-glucose',1,'4663.',NULL,'Urine glucose test = trace'),('urine-glucose',1,'4664.',NULL,'Urine glucose test = +'),('urine-glucose',1,'4665.',NULL,'Urine glucose test = ++'),('urine-glucose',1,'4666.',NULL,'Urine glucose test = +++'),('urine-glucose',1,'4667.',NULL,'Urine glucose test = ++++'),('urine-glucose',1,'466Z.',NULL,'Urine glucose test NOS'),('urine-glucose',1,'R115.',NULL,'[D]Glycosuria'),('urine-glucose',1,'Xa1pb',NULL,'Glycosuria'),('urine-glucose',1,'XaBZE',NULL,'Urine test for glucose');
 INSERT INTO #codesctv3
 VALUES ('urine-ketones',1,'468..',NULL,'Urine ketone test'),('urine-ketones',1,'4682.',NULL,'Urine ketone test negative'),('urine-ketones',1,'4683.',NULL,'Urine ketone test = trace'),('urine-ketones',1,'4684.',NULL,'Urine ketone test = +'),('urine-ketones',1,'4685.',NULL,'Urine ketone test = ++'),('urine-ketones',1,'4686.',NULL,'Urine ketone test = +++'),('urine-ketones',1,'4687.',NULL,'Urine ketone test = ++++');
 INSERT INTO #codesctv3
@@ -489,9 +479,23 @@ VALUES ('diastolic-blood-pressure',1,'174255007',NULL,'Non-invasive diastolic bl
 INSERT INTO #codessnomed
 VALUES ('haematocrit',1,'1022291000000105',NULL,'Haematocrit (observable entity)');
 INSERT INTO #codessnomed
+VALUES ('haemoglobin',1,'1022431000000105',NULL,'Haemoglobin estimation (observable entity)'),('haemoglobin',1,'271026005',NULL,'Hemoglobin level estimation (procedure)');
+INSERT INTO #codessnomed
 VALUES ('mean-corpuscular-haemoglobin',1,'1022471000000107',NULL,'MCH - Mean corpuscular haemoglobin');
 INSERT INTO #codessnomed
-VALUES ('systolic-blood-pressure',1,'72313002',NULL,'Systolic arterial pressure (observable entity)'),('systolic-blood-pressure',1,'251070002',NULL,'Non-invasive systolic blood pressure'),('systolic-blood-pressure',1,'251071003',NULL,'Invasive systolic blood pressure'),('systolic-blood-pressure',1,'271649006',NULL,'SAP - Systolic arterial pressure'),('systolic-blood-pressure',1,'314438006',NULL,'Minimum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314439003',NULL,'Maximum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314440001',NULL,'Average systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314441002',NULL,'Minimum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314442009',NULL,'Minimum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314443004',NULL,'Maximum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314444005',NULL,'Maximum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314445006',NULL,'Average night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314446007',NULL,'Average day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314447003',NULL,'Minimum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314448008',NULL,'Maximum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314449000',NULL,'Average 24 hour systolic blood pressure (observable entity'),('systolic-blood-pressure',1,'314464000',NULL,'24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'399304008',NULL,'Systolic blood pressure on admission'),('systolic-blood-pressure',1,'400974009',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'407554009',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'407556006',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'413606001',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'716579001',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'198081000000101',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'814101000000107',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'1036551000000101',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'1087991000000109',NULL,'Level of reduction in systolic blood pressure on standing (observable entity)'),('systolic-blood-pressure',1,'12929001',NULL,'Normal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18050000',NULL,'Increased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18352002',NULL,'Abnormal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'81010002',NULL,'Decreased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'163030003',NULL,'On examination - Systolic blood pressure reading'),('systolic-blood-pressure',1,'707303003',NULL,'Post exercise systolic blood pressure response abnormal'),('systolic-blood-pressure',1,'707304009',NULL,'Post exercise systolic blood pressure response normal (finding)')
+VALUES ('mean-corpuscular-volume',1,'1022491000000106',NULL,'Mean corpuscular volume (observable entity)');
+INSERT INTO #codessnomed
+VALUES ('platelets',1,'1022651000000100',NULL,'Platelet count (observable entity)');
+INSERT INTO #codessnomed
+VALUES ('red-blood-cells',1,'1022451000000103',NULL,'Red blood cell count (observable entity)');
+INSERT INTO #codessnomed
+VALUES ('systolic-blood-pressure',1,'72313002',NULL,'Systolic arterial pressure (observable entity)'),('systolic-blood-pressure',1,'251070002',NULL,'Non-invasive systolic blood pressure'),('systolic-blood-pressure',1,'251071003',NULL,'Invasive systolic blood pressure'),('systolic-blood-pressure',1,'271649006',NULL,'SAP - Systolic arterial pressure'),('systolic-blood-pressure',1,'314438006',NULL,'Minimum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314439003',NULL,'Maximum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314440001',NULL,'Average systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314441002',NULL,'Minimum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314442009',NULL,'Minimum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314443004',NULL,'Maximum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314444005',NULL,'Maximum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314445006',NULL,'Average night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314446007',NULL,'Average day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314447003',NULL,'Minimum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314448008',NULL,'Maximum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314449000',NULL,'Average 24 hour systolic blood pressure (observable entity'),('systolic-blood-pressure',1,'314464000',NULL,'24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'399304008',NULL,'Systolic blood pressure on admission'),('systolic-blood-pressure',1,'400974009',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'407554009',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'407556006',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'413606001',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'716579001',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'198081000000101',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'814101000000107',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'1036551000000101',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'1087991000000109',NULL,'Level of reduction in systolic blood pressure on standing (observable entity)'),('systolic-blood-pressure',1,'12929001',NULL,'Normal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18050000',NULL,'Increased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18352002',NULL,'Abnormal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'81010002',NULL,'Decreased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'163030003',NULL,'On examination - Systolic blood pressure reading'),('systolic-blood-pressure',1,'707303003',NULL,'Post exercise systolic blood pressure response abnormal'),('systolic-blood-pressure',1,'707304009',NULL,'Post exercise systolic blood pressure response normal (finding)');
+INSERT INTO #codessnomed
+VALUES ('urine-blood',1,'1019581000000105',NULL,'Urine blood test (observable entity)'),('urine-blood',1,'167297006',NULL,'Urine blood test = negative (finding)'),('urine-blood',1,'167298001',NULL,'Urine: trace non-hemolyzed blood (finding)'),('urine-blood',1,'167299009',NULL,'Urine: trace hemolyzed blood (finding)'),('urine-blood',1,'167300001',NULL,'Urine blood test = + (finding)'),('urine-blood',1,'167301002',NULL,'Urine blood test = ++ (finding)'),('urine-blood',1,'167302009',NULL,'Urine blood test = +++ (finding)'),('urine-blood',1,'252385000',NULL,'Urine dipstick for leukocyte esterase (procedure)');
+INSERT INTO #codessnomed
+VALUES ('urine-glucose',1,'1003181000000102',NULL,'Urine test for glucose (observable entity)'),('urine-glucose',1,'167261002',NULL,'Urine glucose test negative (finding)'),('urine-glucose',1,'167262009',NULL,'Urine glucose test = trace (finding)'),('urine-glucose',1,'167264005',NULL,'Urine glucose test = + (finding)'),('urine-glucose',1,'167265006',NULL,'Urine glucose test = ++ (finding)'),('urine-glucose',1,'167266007',NULL,'Urine glucose test = +++ (finding)'),('urine-glucose',1,'167267003',NULL,'Urine glucose test = ++++ (finding)'),('urine-glucose',1,'45154002',NULL,'Glycosuria (finding)'),('urine-glucose',1,'69376001',NULL,'Urinalysis, glucose, qualitative (procedure)');
+INSERT INTO #codessnomed
+VALUES ('white-blood-cells',1,'1022541000000102',NULL,'Total white cell count (observable entity)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -586,9 +590,17 @@ VALUES ('diastolic-blood-pressure',1,'EMISNQDI86',NULL,'Diastolic blood pressure
 INSERT INTO #codesemis
 VALUES ('haematocrit',1,'^ESCTHA295458',NULL,'Haematocrit'),('haematocrit',1,'^ESCTHA295460',NULL,'Haematocrit - PCV level'),('haematocrit',1,'^ESCTHA840403',NULL,'Haematocrit - packed cell volume'),('haematocrit',1,'^ESCTHC295455',NULL,'Hct - Haematocrit'),('haematocrit',1,'^ESCTHC295457',NULL,'Hct - Hematocrit'),('haematocrit',1,'^ESCTHE295456',NULL,'Hematocrit - PCV'),('haematocrit',1,'^ESCTHE295459',NULL,'Hematocrit'),('haematocrit',1,'^ESCTPA840404',NULL,'Packed cell volume');
 INSERT INTO #codesemis
+VALUES ('haemoglobin',1,'^ESCTHA551918',NULL,'Haemoglobin level estimation'),('haemoglobin',1,'^ESCTHA551921',NULL,'Haemoglobin estimation level'),('haemoglobin',1,'^ESCTHB551922',NULL,'Hb estimation'),('haemoglobin',1,'^ESCTHE551919',NULL,'Hemoglobin estimation level'),('haemoglobin',1,'^ESCTHE551920',NULL,'Hemoglobin level estimation');
+INSERT INTO #codesemis
+VALUES ('mean-corpuscular-volume',1,'^ESCTMC410115',NULL,'MCV - Mean cell volume'),('mean-corpuscular-volume',1,'^ESCTME410116',NULL,'Mean cell volume'),('mean-corpuscular-volume',1,'^ESCTME840428',NULL,'Mean cell volume');
+INSERT INTO #codesemis
+VALUES ('red-blood-cells',1,'^ESCTRB840422',NULL,'RBC (red blood cell) count');
+INSERT INTO #codesemis
 VALUES ('systolic-blood-pressure',1,'EMISNQSY8',NULL,'Systolic blood pressure - left arm'),('systolic-blood-pressure',1,'EMISNQSY9',NULL,'Systolic blood pressure - right arm');
 INSERT INTO #codesemis
-VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative');
+VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative'),('urine-blood',1,'^ESCTBL840095',NULL,'Blood in urine test'),('urine-blood',1,'^ESCTUR460322',NULL,'Urine: trace non-hemolyzed blood'),('urine-blood',1,'^ESCTUR460324',NULL,'Urine: trace hemolyzed blood'),('urine-blood',1,'^ESCTUR531535',NULL,'Urine dipstick for leucocyte esterase'),('urine-blood',1,'^ESCTUR531537',NULL,'Urine dipstick for white cells'),('urine-blood',1,'^ESCTUR531538',NULL,'Urine dipstick for leukocyte esterase'),('urine-blood',1,'^ESCTUR531539',NULL,'Urine dipstick for leukocytes');
+INSERT INTO #codesemis
+VALUES ('urine-glucose',1,'^ESCTGL322843',NULL,'Glucosuria'),('urine-glucose',1,'^ESCTUR362820',NULL,'Urinalysis, glucose, qualitative'),('urine-glucose',1,'^ESCTUR362821',NULL,'Urine test for glucose'),('urine-glucose',1,'^ESCTUR838299',NULL,'Urine dipstick for glucose');
 INSERT INTO #codesemis
 VALUES ('white-blood-cells',1,'^ESCTWB251054',NULL,'WBC count'),('white-blood-cells',1,'^ESCTWB251056',NULL,'WBC - White blood cell count'),('white-blood-cells',1,'^ESCTWC251055',NULL,'WCC - White blood cell count'),('white-blood-cells',1,'^ESCTWH251053',NULL,'White blood cell count'),('white-blood-cells',1,'^ESCTWH251057',NULL,'White blood cell count - observation')
 
@@ -690,7 +702,7 @@ SELECT
 	SuppliedCode,
 	EventDate
 INTO #PregnancyPatientsGP
-FROM [RLS].[vw_GP_Events]
+FROM [SharedCare].[GP_Events]
 WHERE 
     SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] LIKE 'pregnancy%' AND [Version] = 1)
 	AND EventDate BETWEEN @StartDate AND @EndDate
@@ -976,7 +988,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 --Outputs from this reusable query:
