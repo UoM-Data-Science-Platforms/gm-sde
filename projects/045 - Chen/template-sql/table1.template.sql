@@ -4,16 +4,11 @@
 
 -- OBJECTIVE: To find patients' information (1 row for each ID)
 
--- INPUT: assumes there exists one temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
 -- OUTPUT: Data with the following fields
 -- PatientId
 -- Sex
 -- YearOfBirth
--- Ethnic
--- Religion
+-- Ethnicity
 -- BMI
 -- LSOA
 -- IMD
@@ -31,23 +26,9 @@
 SET NOCOUNT ON;
 
 
--- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2019-01-01';
-
-
--- Create a table with all patients (ID)=========================================================================================================================
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #Patients 
-FROM #PatientsToInclude;
-
+--> EXECUTE query-build-rq045-cohort.sql
+--> EXECUTE query-patient-imd.sql
+--> EXECUTE query-patient-care-home-resident.sql
 
 --> CODESET cancer:1
 --> CODESET asthma:1
@@ -55,10 +36,7 @@ FROM #PatientsToInclude;
 --> CODESET long-covid:1
 --> CODESET severe-mental-illness:1
 
---> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-care-home-resident.sql
 
 
@@ -67,7 +45,7 @@ IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
 SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #GPEvents
 FROM [RLS].[vw_GP_Events]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- Create cancer table==================================================================================================================================
@@ -136,22 +114,19 @@ WHERE FK_Reference_Tenancy_ID = 2;
 
 -- The final table==========================================================================
 SELECT
-  p.FK_Patient_Link_ID AS PatientId,
-  Sex,
-  Ethnic,
-  YearOfBirth,
+  p.PatientId,
+  p.Sex,
+  p.Ethnicity,
+  p.YearOfBirth,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived AS IMD,
   BMI,
   FORMAT (l.DeathDate , 'MMyyyy') AS DeathTime,
-  LSOA_Code AS LSOA,
+  p.LSOA_Code AS LSOA,
   IsCareHomeResident,
   CASE WHEN FK_Reference_Tenancy_ID = 2 THEN 'Y' ELSE 'N' END AS GPRegister
 FROM #Patients p
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLinkTable l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus care ON care.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsWithGP gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #Cancer c1 ON c1.FK_Patient_Link_ID = p.FK_Patient_Link_ID

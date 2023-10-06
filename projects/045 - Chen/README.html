@@ -128,8 +128,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Secondary discharges</li>
 <li>COVID vaccinations</li>
 <li>Care home status</li>
-<li>Lower level super output area</li>
 <li>Index Multiple Deprivation</li>
+<li>Define Cohort for RQ045: COVID-19 vaccine hesitancy and acceptance</li>
+<li>Lower level super output area</li>
 <li>Year of birth</li>
 <li>Sex</li>
 </ul>
@@ -276,6 +277,39 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-patient-care-home-resident.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-care-home-resident.sql">https://github.com/rw251/.../query-patient-care-home-resident.sql</a></p>
 <hr>
+<h3>Index Multiple Deprivation</h3>
+<p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+</code></pre>
+<p><em>File</em>: <code>query-patient-imd.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql">https://github.com/rw251/.../query-patient-imd.sql</a></p>
+<hr>
+<h3>Define Cohort for RQ045: COVID-19 vaccine hesitancy and acceptance</h3>
+<p>To build the cohort of patients needed for RQ045. This reduces duplication of code in the template scripts. The cohort is any patient who have no missing data for YOB, sex, LSOA and ethnicity</p>
+<p><em>Input</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp tables as follows:
+ #Patients
+ - PatientID
+ - Sex
+ - YOB
+ - LSOA
+ - Ethnicity
+</code></pre>
+<p><em>File</em>: <code>query-build-rq045-cohort.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq045-cohort.sql">https://github.com/rw251/.../query-build-rq045-cohort.sql</a></p>
+<hr>
 <h3>Lower level super output area</h3>
 <p>To get the LSOA for each patient.</p>
 <p><em>Assumptions</em></p>
@@ -299,22 +333,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
-<hr>
-<h3>Index Multiple Deprivation</h3>
-<p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-</code></pre>
-<p><em>File</em>: <code>query-patient-imd.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql">https://github.com/rw251/.../query-patient-imd.sql</a></p>
 <hr>
 <h3>Year of birth</h3>
 <p>To get the year of birth for each patient.</p>
@@ -513,7 +531,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/anxiety/1">https://github.com/rw251/.../conditions/anxiety/1</a></p>
 <h3>long covid</h3>
-<p>Any code indicating presence of long covid</p>
+<p>Any code indicating presence of long covid.</p>
+<p><em>NB this code set contains a mixture of diagnosis, assessment and referral codes. Please refer to the separate code sets for <a href="../../long-covid-diagnosis/">long-covid-diagnosis</a>, <a href="../../../patient/long-covid-assessment/">long-covid-assessment</a>, and <a href="../../../patient/long-covid-referral/">long-covid-referral</a> if granularity is required</em></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.55% - 13.96%</code> suggests missing codes from Vision and TPP practices.</p>
 <table>
@@ -749,7 +768,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -781,6 +800,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>
@@ -790,7 +830,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -822,6 +862,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>
@@ -831,7 +892,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -863,6 +924,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>

@@ -4,15 +4,11 @@
 
 -- OBJECTIVE: To find patients' information (1 row for each ID)
 
--- INPUT: assumes there exists one temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
 -- OUTPUT: Data with the following fields
 -- PatientId
 -- Sex
 -- YearOfBirth
--- Ethnic
+-- Ethnicity
 -- Religion
 -- BMI
 -- LSOA
@@ -31,22 +27,427 @@
 SET NOCOUNT ON;
 
 
--- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2019-01-01';
+--┌──────────────────────────────────────────────────────────────────────┐
+--│ Define Cohort for RQ045: COVID-19 vaccine hesitancy and acceptance   │
+--└──────────────────────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To build the cohort of patients needed for RQ045. This reduces
+--						duplication of code in the template scripts. The cohort is any
+--						patient who have no missing data for YOB, sex, LSOA and ethnicity
+
+-- OUTPUT: A temp tables as follows:
+-- #Patients
+-- - PatientID
+-- - Sex
+-- - YOB
+-- - LSOA
+-- - Ethnicity
 
 
--- Create a table with all patients (ID)=========================================================================================================================
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
+-- Create the #Patients table=========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #Patients 
-FROM #PatientsToInclude;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
+FROM SharedCare.Patient_Link
+
+
+--======================================================================================================================== 
+--┌─────┐
+--│ Sex │
+--└─────┘
+
+-- OBJECTIVE: To get the Sex for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientSex (FK_Patient_Link_ID, Sex)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- Sex - M/F
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+--	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+--	-	If every sex for a patient is the same, then we use that
+--	-	If there is a single most recently updated sex in the database then we use that
+--	-	Otherwise the patient's sex is considered unknown
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	Sex
+INTO #AllPatientSexs
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Sex IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely Sex
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
+SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If every Sex is the same for all their linked patient ids then we use that
+INSERT INTO #PatientSex
+SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedSexPatients;
+INSERT INTO #UnmatchedSexPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If there is a unique most recent Sex then use that
+INSERT INTO #PatientSex
+SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+--┌───────────────────────────────┐
+--│ Lower level super output area │
+--└───────────────────────────────┘
+
+-- OBJECTIVE: To get the LSOA for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientLSOA (FK_Patient_Link_ID, LSOA)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- LSOA_Code - nationally recognised LSOA identifier
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+--	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+--	-	If every LSOA for a paitent is the same, then we use that
+--	-	If there is a single most recently updated LSOA in the database then we use that
+--	-	Otherwise the patient's LSOA is considered unknown
+
+-- Get all patients LSOA for the cohort
+IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	LSOA_Code
+INTO #AllPatientLSOAs
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND LSOA_Code IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+-- 38710 rows
+-- 00:00:00
+
+-- If every LSOA_Code is the same for all their linked patient ids then we use that
+INSERT INTO #PatientLSOA
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedLsoaPatients;
+INSERT INTO #UnmatchedLsoaPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+
+-- If there is a unique most recent lsoa then use that
+INSERT INTO #PatientLSOA
+SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
+
+
+-- Create the table of ethnic================================================================================================================================
+IF OBJECT_ID('tempdb..#Ethnic') IS NOT NULL DROP TABLE #Ethnic;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity
+INTO #Ethnic
+FROM SharedCare.Patient_Link;
+
+
+-- The cohort table========================================================================================================================================
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
+SELECT
+  p.FK_Patient_Link_ID as PatientId,
+  YearOfBirth,
+  Sex,
+  Ethnicity,
+  LSOA_Code AS LSOA
+INTO #Cohort
+FROM #Patients p
+LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth y ON p.FK_Patient_Link_ID = y.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE e.Ethnicity IS NOT NULL AND y.YearOfBirth IS NOT NULL AND sex.Sex IS NOT NULL AND l.LSOA_Code IS NOT NULL;
+
+
+-- Change the cohort table name into #Patients to use for other reusable queries===========================================================================
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT * INTO #Patients FROM #Cohort 
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+
+-- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
+-- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
+IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	CASE 
+		WHEN IMD_Score <= 3284 THEN 1
+		WHEN IMD_Score <= 6568 THEN 2
+		WHEN IMD_Score <= 9853 THEN 3
+		WHEN IMD_Score <= 13137 THEN 4
+		WHEN IMD_Score <= 16422 THEN 5
+		WHEN IMD_Score <= 19706 THEN 6
+		WHEN IMD_Score <= 22990 THEN 7
+		WHEN IMD_Score <= 26275 THEN 8
+		WHEN IMD_Score <= 29559 THEN 9
+		ELSE 10
+	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
+INTO #AllPatientIMDDeciles
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND IMD_Score IS NOT NULL
+AND IMD_Score != -1;
+-- 972479 rows
+-- 00:00:11
+
+-- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+-- 247377 rows
+-- 00:00:00
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 38710 rows
+-- 00:00:00
+
+-- If every IMD_Score is the same for all their linked patient ids then we use that
+INSERT INTO #PatientIMDDecile
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 36656
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedImdPatients;
+INSERT INTO #UnmatchedImdPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 2054 rows
+-- 00:00:00
+
+-- If there is a unique most recent imd decile then use that
+INSERT INTO #PatientIMDDecile
+SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 489
+-- 00:00:00
+--┌──────────────────┐
+--│ Care home status │
+--└──────────────────┘
+
+-- OBJECTIVE: To get the care home status for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IsCareHomeResident - Y/N
+
+-- ASSUMPTIONS:
+--	-	If any of the patient records suggests the patients lives in a care home we will assume that they do
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
+SELECT 
+	FK_Patient_Link_ID,
+	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
+INTO #PatientCareHomeStatus
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND NursingCareHomeFlag IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
 
 
 -- >>> Codesets required... Inserting the code set code
@@ -387,375 +788,8 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 -- >>> Following code sets injected: long-covid v1
 -- >>> Following code sets injected: severe-mental-illness v1
 
---┌─────┐
---│ Sex │
---└─────┘
-
--- OBJECTIVE: To get the Sex for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientSex (FK_Patient_Link_ID, Sex)
--- 	- FK_Patient_Link_ID - unique patient id
---	- Sex - M/F
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
---	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
---	-	If every sex for a patient is the same, then we use that
---	-	If there is a single most recently updated sex in the database then we use that
---	-	Otherwise the patient's sex is considered unknown
-
--- Get all patients sex for the cohort
-IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	Sex
-INTO #AllPatientSexs
-FROM SharedCare.Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Sex IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely Sex
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
-SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientSex;
-
--- If every Sex is the same for all their linked patient ids then we use that
-INSERT INTO #PatientSex
-SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedSexPatients;
-INSERT INTO #UnmatchedSexPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientSex;
-
--- If there is a unique most recent Sex then use that
-INSERT INTO #PatientSex
-SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientSexs;
-DROP TABLE #UnmatchedSexPatients;
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
-
--- OBJECTIVE: To get the year of birth for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
--- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
-
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	YEAR(Dob) AS YearOfBirth
-INTO #AllPatientYearOfBirths
-FROM SharedCare.Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Dob IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely YOB
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If every YOB is the same for all their linked patient ids then we use that
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If there is a unique most recent YOB then use that
-INSERT INTO #PatientYearOfBirth
-SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- Otherwise just use the highest value (with the exception that can't be in the future)
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientYearOfBirths;
-DROP TABLE #UnmatchedYobPatients;
---┌────────────────────────────┐
---│ Index Multiple Deprivation │
---└────────────────────────────┘
-
--- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
--- 	- FK_Patient_Link_ID - unique patient id
---	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-
--- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
--- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
-IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	CASE 
-		WHEN IMD_Score <= 3284 THEN 1
-		WHEN IMD_Score <= 6568 THEN 2
-		WHEN IMD_Score <= 9853 THEN 3
-		WHEN IMD_Score <= 13137 THEN 4
-		WHEN IMD_Score <= 16422 THEN 5
-		WHEN IMD_Score <= 19706 THEN 6
-		WHEN IMD_Score <= 22990 THEN 7
-		WHEN IMD_Score <= 26275 THEN 8
-		WHEN IMD_Score <= 29559 THEN 9
-		ELSE 10
-	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
-INTO #AllPatientIMDDeciles
-FROM SharedCare.Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND IMD_Score IS NOT NULL
-AND IMD_Score != -1;
--- 972479 rows
--- 00:00:11
-
--- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
--- 247377 rows
--- 00:00:00
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 38710 rows
--- 00:00:00
-
--- If every IMD_Score is the same for all their linked patient ids then we use that
-INSERT INTO #PatientIMDDecile
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 36656
--- 00:00:00
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedImdPatients;
-INSERT INTO #UnmatchedImdPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 2054 rows
--- 00:00:00
-
--- If there is a unique most recent imd decile then use that
-INSERT INTO #PatientIMDDecile
-SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 489
--- 00:00:00
---┌───────────────────────────────┐
---│ Lower level super output area │
---└───────────────────────────────┘
-
--- OBJECTIVE: To get the LSOA for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientLSOA (FK_Patient_Link_ID, LSOA)
--- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA_Code - nationally recognised LSOA identifier
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
---	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
---	-	If every LSOA for a paitent is the same, then we use that
---	-	If there is a single most recently updated LSOA in the database then we use that
---	-	Otherwise the patient's LSOA is considered unknown
-
--- Get all patients LSOA for the cohort
-IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	LSOA_Code
-INTO #AllPatientLSOAs
-FROM SharedCare.Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND LSOA_Code IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
-SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientLSOA;
--- 38710 rows
--- 00:00:00
-
--- If every LSOA_Code is the same for all their linked patient ids then we use that
-INSERT INTO #PatientLSOA
-SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedLsoaPatients;
-INSERT INTO #UnmatchedLsoaPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientLSOA;
-
--- If there is a unique most recent lsoa then use that
-INSERT INTO #PatientLSOA
-SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientLSOAs;
-DROP TABLE #UnmatchedLsoaPatients;
---┌──────────────────┐
---│ Care home status │
---└──────────────────┘
-
--- OBJECTIVE: To get the care home status for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
--- 	- FK_Patient_Link_ID - unique patient id
---	- IsCareHomeResident - Y/N
-
--- ASSUMPTIONS:
---	-	If any of the patient records suggests the patients lives in a care home we will assume that they do
-
--- Get all patients sex for the cohort
-IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
-SELECT 
-	FK_Patient_Link_ID,
-	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
-INTO #PatientCareHomeStatus
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND NursingCareHomeFlag IS NOT NULL
-GROUP BY FK_Patient_Link_ID;
-
+-- >>> Ignoring following query as already injected: query-patient-imd.sql
+-- >>> Ignoring following query as already injected: query-patient-care-home-resident.sql
 
 
 -- Creat a smaller version of GP event table===========================================================================================================
@@ -763,7 +797,7 @@ IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
 SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #GPEvents
 FROM [RLS].[vw_GP_Events]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- Create cancer table==================================================================================================================================
@@ -832,22 +866,19 @@ WHERE FK_Reference_Tenancy_ID = 2;
 
 -- The final table==========================================================================
 SELECT
-  p.FK_Patient_Link_ID AS PatientId,
-  Sex,
-  Ethnic,
-  YearOfBirth,
+  p.PatientId,
+  p.Sex,
+  p.Ethnicity,
+  p.YearOfBirth,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived AS IMD,
   BMI,
   FORMAT (l.DeathDate , 'MMyyyy') AS DeathTime,
-  LSOA_Code AS LSOA,
+  p.LSOA_Code AS LSOA,
   IsCareHomeResident,
   CASE WHEN FK_Reference_Tenancy_ID = 2 THEN 'Y' ELSE 'N' END AS GPRegister
 FROM #Patients p
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLinkTable l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus care ON care.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsWithGP gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #Cancer c1 ON c1.FK_Patient_Link_ID = p.FK_Patient_Link_ID

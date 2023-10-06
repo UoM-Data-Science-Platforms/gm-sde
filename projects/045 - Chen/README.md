@@ -39,8 +39,9 @@ This project required the following reusable queries:
 - Secondary discharges
 - COVID vaccinations
 - Care home status
-- Lower level super output area
 - Index Multiple Deprivation
+- Define Cohort for RQ045: COVID-19 vaccine hesitancy and acceptance
+- Lower level super output area
 - Year of birth
 - Sex
 
@@ -224,6 +225,51 @@ _File_: `query-patient-care-home-resident.sql`
 _Link_: [https://github.com/rw251/.../query-patient-care-home-resident.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-care-home-resident.sql)
 
 ---
+### Index Multiple Deprivation
+To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+```
+_File_: `query-patient-imd.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### Define Cohort for RQ045: COVID-19 vaccine hesitancy and acceptance
+To build the cohort of patients needed for RQ045. This reduces duplication of code in the template scripts. The cohort is any patient who have no missing data for YOB, sex, LSOA and ethnicity
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+A temp tables as follows:
+ #Patients
+ - PatientID
+ - Sex
+ - YOB
+ - LSOA
+ - Ethnicity
+```
+_File_: `query-build-rq045-cohort.sql`
+
+_Link_: [https://github.com/rw251/.../query-build-rq045-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq045-cohort.sql)
+
+---
 ### Lower level super output area
 To get the LSOA for each patient.
 
@@ -252,28 +298,6 @@ A temp table as follows:
 _File_: `query-patient-lsoa.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
-
----
-### Index Multiple Deprivation
-To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-```
-_File_: `query-patient-imd.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
 
 ---
 ### Year of birth
@@ -408,17 +432,18 @@ LINK: [https://github.com/rw251/.../conditions/anxiety/1](https://github.com/rw2
 
 ### long covid
 
-Any code indicating presence of long covid
+Any code indicating presence of long covid.
+
+_NB this code set contains a mixture of diagnosis, assessment and referral codes. Please refer to the separate code sets for [long-covid-diagnosis](../../long-covid-diagnosis/), [long-covid-assessment](../../../patient/long-covid-assessment/), and [long-covid-referral](../../../patient/long-covid-referral/) if granularity is required_
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.55% - 13.96%` suggests missing codes from Vision and TPP practices.
 
-
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-03-11 | EMIS            | 2600658    |  371790 (13.96%) |    20088 (0.75%)  |
-| 2021-03-11 | TPP             | 210333     |     1179 (0.55%) |      141 (0.07%)  |
-| 2021-03-11 | Vision          | 333251     |     4084 (1.19%) |      676 (0.20%)  |
+| 2021-03-11 | EMIS            | 2600658    |  371790 (13.96%) |     20088 (0.75%) |
+| 2021-03-11 | TPP             | 210333     |     1179 (0.55%) |       141 (0.07%) |
+| 2021-03-11 | Vision          | 333251     |     4084 (1.19%) |       676 (0.20%) |
 
 LINK: [https://github.com/rw251/.../conditions/long-covid/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/long-covid/1)
 
@@ -500,13 +525,16 @@ A code that indicates that a person has a positive antigen test for COVID-19.
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-antigen-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-antigen-test/1)
 
@@ -518,13 +546,16 @@ A code that indicates that a person has a positive pcr test for COVID-19.
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-pcr-test/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-pcr-test/1)
 
@@ -536,13 +567,16 @@ A code that indicates that a person has a positive test for COVID-19, but where 
 The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of `covid-positive-antigen-test`, `covid-positive-pcr-test` and `covid-positive-test-other`.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.6% - 20.5%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-02-25 | EMIS            | 2656041    |   152972 (5.76%) |    545759 (20.5%) |
 | 2022-02-25 | TPP             | 212453     |      256 (0.12%) |     39503 (18.6%) |
 | 2022-02-25 | Vision          | 341354     |     9440 (2.77%) |     65963 (19.3%) |
+| 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
+| 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
+| 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
 # Clinical code sets
