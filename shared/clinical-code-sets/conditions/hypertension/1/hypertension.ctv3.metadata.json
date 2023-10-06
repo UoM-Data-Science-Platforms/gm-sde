@@ -46,7 +46,8 @@
     "hypertension not diagnosed",
     "hypertension of preg",
     "without diagnosis of hypertension",
-    "venous hypertension"
+    "venous hypertension",
+    "maternal"
   ],
   "terminology": "CTV3",
   "version": "20180401",

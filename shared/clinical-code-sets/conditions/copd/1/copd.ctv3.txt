@@ -30,10 +30,8 @@ H3y0.	Chronic obstructive pulmonary disease with acute lower respiratory infecti
 H3z..	Chronic obstructive pulmonary disease NOS
 H4640	Chronic emphysema due to chemical fumes
 H4641	Chemical bronchiolitis obliterans
-H581.	(Emphysema: [interstitial] or [mediastinal]) or (pneumomediastinum)
 Hyu30	[X]Other emphysema
 Hyu31	[X]Other specified chronic obstructive pulmonary disease
-X00Zc	Orbital emphysema
 X101i	Chronic obstructive pulmonary disease with acute exacerbation, unspecified
 X101l	Obliterative bronchiolitis
 X101m	Drug-induced bronchiolitis obliterans
