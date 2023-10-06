@@ -3,6 +3,8 @@
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
+-- George Tilston 06/10/23
+
 
 -- OUTPUT: Data with the following fields
 -- PatientId
