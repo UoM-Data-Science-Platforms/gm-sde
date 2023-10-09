@@ -37,11 +37,7 @@ FROM SharedCare.Patient_Link;
 -- The cohort table========================================================================================================================================
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
-  p.FK_Patient_Link_ID as PatientId,
-  YearOfBirth,
-  Sex,
-  Ethnicity,
-  LSOA_Code AS LSOA
+  p.FK_Patient_Link_ID
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -52,5 +48,6 @@ WHERE e.Ethnicity IS NOT NULL AND y.YearOfBirth IS NOT NULL AND sex.Sex IS NOT N
 
 
 -- Change the cohort table name into #Patients to use for other reusable queries===========================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT * INTO #Patients FROM #Cohort 
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT FK_Patient_Link_ID FROM #Cohort;

@@ -30,6 +30,7 @@ SET NOCOUNT ON;
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-care-home-resident.sql
 
+
 --> CODESET cancer:1
 --> CODESET asthma:1
 --> CODESET anxiety:1
@@ -100,7 +101,7 @@ WHERE (
 
 -- Select ethnicity and death date from PatientLink table================================================================================================================================
 IF OBJECT_ID('tempdb..#PatientLinkTable') IS NOT NULL DROP TABLE #PatientLinkTable;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicMainGroup AS Ethnic, DeathDate
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity, DeathDate
 INTO #PatientLinkTable
 FROM RLS.vw_Patient_Link;
 
@@ -134,3 +135,7 @@ LEFT OUTER JOIN #Anxiety c2 ON c2.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #Asthma c3 ON c3.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #LongCovid c4 ON c4.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #SevereMental c5 ON c5.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth y ON p.FK_Patient_Link_ID = y.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
