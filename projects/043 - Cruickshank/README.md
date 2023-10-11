@@ -35,6 +35,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Practice system lookup table
+- GET practice and ccg for each patient
+- CCG lookup table
 - Secondary admissions and length of stay
 - Secondary discharges
 - COVID vaccinations
@@ -47,6 +50,72 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Practice system lookup table
+To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often. This has now been updated on 11th October 2022. The data can be found here: https://digital.nhs.uk/data-and-information/publications/statistical/mi-patient-online-pomi/current I filter to GM, Cheshire & Mersey, Lancashire and Derby. I also take the list from below and find any that are no longer in the publication. These are probably closed practices, but it is useful to retain what system them had when they closed. NB make sure the INSERT is split into blocks of no more than 1000
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PracticeSystemLookup (PracticeId, System)
+ 	- PracticeId - Nationally recognised practice id
+	- System - EMIS, TPP, VISION
+```
+_File_: `query-practice-systems-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-practice-systems-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-practice-systems-lookup.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
@@ -280,7 +349,7 @@ _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://g
 
 ---
 ### Patients with COVID
-To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.
+To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection. NB this does not include antigen (LFT) tests.
 
 _Input_
 ```
@@ -307,9 +376,9 @@ Three temp tables as follows:
 	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
 	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
 ```
-_File_: `query-patients-with-covid.sql`
+_File_: `query-patients-with-covid-no-lft.sql`
 
-_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+_Link_: [https://github.com/rw251/.../query-patients-with-covid-no-lft.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid-no-lft.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -443,6 +512,8 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 **UPDATE - 12th April 2021**, latest prevalence figures.
 
 **UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
+
+**UPDATE - 11th October 2023** The ID system employed by GraphNet is no longer fully functional, so we must rely on the code supplied from the practice. The range for medications has radically changed for TPP and Vision suggesting the way GraphNet load codes for these practices has changed - likely to move vaccination events into the events table rather than the medications table. For medications the numbers are consistent with before ranging from `62.5% - 68.9%`. The previous medication range of `88.2% - 93.6%` for IDs is likely erroneous - but as we only use this code set on the supplied code from the GP this will have had no effect.
 
 MED
 
