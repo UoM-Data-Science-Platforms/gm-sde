@@ -7,9 +7,9 @@
 -- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
 -- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
 -- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
--- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
+-- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test
 -- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
--- entered into the primary care record several months after the actual infection.
+-- entered into the primary care record several months after the actual infection. NB this does not include antigen (LFT) tests.
 
 -- INPUT: Takes three parameters
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
@@ -32,11 +32,6 @@
 --	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
 
 --> CODESET covid-positive-antigen-test:1 covid-positive-pcr-test:1 covid-positive-test-other:1
-
-
--- Set the temp end date until new legal basis - OLD
---DECLARE @TEMPWithCovidEndDate datetime;
---SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
