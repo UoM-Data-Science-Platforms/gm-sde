@@ -10,6 +10,8 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 **UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
 
+**UPDATE - 11th October 2023** The ID system employed by GraphNet is no longer fully functional, so we must rely on the code supplied from the practice. The range for medications has radically changed for TPP and Vision suggesting the way GraphNet load codes for these practices has changed - likely to move vaccination events into the events table rather than the medications table. For medications the numbers are consistent with before ranging from `62.5% - 68.9%`. The previous medication range of `88.2% - 93.6%` for IDs is likely erroneous - but as we only use this code set on the supplied code from the GP this will have had no effect.
+
 MED
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
@@ -20,6 +22,9 @@ MED
 | 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
 | 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
 | 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
+| 2023-10-11 | EMIS            | 2470460    |    1530463 (62%) |     1530463 (62%) |
+| 2023-10-11 | TPP             | 200512     |     8140 (4.06%) |      8140 (4.06%) |
+| 2023-10-11 | Vision          | 332318     |    90934 (27.4%) |     90934 (27.4%) |
 
 EVENT
 
@@ -31,3 +36,6 @@ EVENT
 | 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
 | 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
 | 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
+| 2023-10-11 | EMIS            | 2470460    |   227951 (9.23%) |   1544370 (62.5%) |
+| 2023-10-11 | TPP             | 200512     |     2080 (1.04%) |    138085 (68.9%) |
+| 2023-10-11 | Vision          | 332318     |    30654 (9.22%) |    208638 (62.8%) |
