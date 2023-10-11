@@ -27,7 +27,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2012-01-01';
-SET @EndDate = '2022-01-01';
+SET @EndDate = '2023-08-31'; --'2022-01-01';
 
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2022-01-01';
@@ -70,14 +70,14 @@ FROM #GM_GP_range
 IF OBJECT_ID('tempdb..#COVIDDeathPositiveTest') IS NOT NULL DROP TABLE #COVIDDeathPositiveTest;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeathPositiveTest 
-FROM RLS.vw_COVID19
+FROM SharedCare.COVID19
 where DeathWithin28Days = 'Y' 
 
 -- Get patient list of those with COVID death within 28 days of positive test, and any deaths within 28 days of a confirmed covid-19 record
 IF OBJECT_ID('tempdb..#COVIDDeathConfirmed') IS NOT NULL DROP TABLE #COVIDDeathConfirmed;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeathConfirmed 
-FROM RLS.vw_COVID19
+FROM SharedCare.COVID19
 where (DeathWithin28Days = 'Y' 
         OR
     (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))

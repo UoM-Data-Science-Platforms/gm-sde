@@ -10,7 +10,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2012-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;

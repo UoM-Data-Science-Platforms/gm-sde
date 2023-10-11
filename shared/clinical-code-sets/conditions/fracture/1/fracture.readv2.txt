@@ -1,0 +1,1582 @@
+14G8.00	H/O: vertebral fracture
+7206100	Open reduction of fracture of orbit
+7206200	Removal of fixation from fracture of orbit
+7206400	Open reduction of fracture of orbit and internal fixation
+7206700	Packing of maxilla to correct blow-out fracture of orbit
+7206800	Internal fixation of fracture of orbit
+7403600	Outfracture of turbinates of nose
+7403900	Surgical outfracture of turbinate of nose
+7J02200	Elevation of depressed fracture of cranium
+7J02300	Repair of fracture of cranium NEC
+7J03.00	Reduction of fracture of facial bone
+7J03000	Reduction of fracture of nasoethmoid complex of bones
+7J03100	Reduction of fracture of nasal bones NEC  other
+7J03200	Reduction of fracture of zygomatic bones
+7J03300	Reduction of closed fracture of orbit bone
+7J03y00	Other specified reduction of fracture of facial bone
+7J03z00	Reduction of fracture of facial bone NOS
+7J12.00	Reduction of fracture of mandible
+7J12000	Reduction of fracture of alveolus of mandible
+7J12100	Open reduction of fracture of mandible NEC
+7J12.11	Reduction of fracture of jaw NEC
+7J12200	Closed reduction of fracture of mandible NEC
+7J12y00	Other specified reduction of fracture of mandible
+7J12z00	Reduction of fracture of mandible NOS
+7J13.00	Reduction of fracture of maxilla
+7J13000	Reduction of fracture of alveolus of maxilla
+7J13100	Open reduction of fracture of maxilla NEC
+7J13200	Closed reduction of fracture of maxilla NEC
+7J13300	Reduction of blowout fracture of orbital floor
+7J13400	Reduction of Le Fort 1 fracture of maxilla
+7J13500	Reduction of Le Fort 2 fracture of maxilla
+7J13600	Reduction of Le Fort 3 fracture of maxilla
+7J13y00	Other specified reduction of fracture of maxilla
+7J13z00	Reduction of fracture of maxilla NOS
+7J17700	Traction for fracture of jaw
+7J41.00	Decompression of fracture of spine
+7J41000	Complex decompression of fracture of spine
+7J41100	Anterior decompression of fracture of spine
+7J41200	Posterior decompression of fracture of spine
+7J41300	Vertebroplasty of fracture of spine
+7J41400	Posterior decompression of fracture of spine NEC
+7J41500	Balloon kyphoplasty of fracture of spine
+7J41y00	Other specified decompression of fracture of spine
+7J41z00	Decompression of fracture of spine NOS
+7J42.00	Other reduction of fracture of spine
+7J42000	Open reduction of fracture of spine & excis facet of spine
+7J42100	Open reduction of fracture of spine NEC
+7J42.11	Other reduction of fracture of spine and stabilisation
+7J42200	Manipulative reduction of fracture of spine
+7J42300	Spinal extension traction for fracture of spine
+7J42400	Halo skull traction for fracture of spine
+7J42500	Spinal traction for fracture of spine NEC
+7J42600	Primary bedrest stabilisation of spinal fracture
+7J42700	Primary collar stabilisation of spinal fracture
+7J42900	Primary cast stabilisation of spinal fracture
+7J42B00	Primary other external stabilisation of spinal fracture
+7J42C00	Revision to bedrest stabilisation of spinal fracture
+7J42D00	Revision to collar stabilisation of spinal fracture
+7J42G00	Revision to external fixation stabilisation spinal fracture
+7J42J00	Primary closed reduction spinal fracture alone
+7J42L00	Primary cls reduction spinal fracture+bedrest stabilisation
+7J42M00	Primary cls reduc spinal fracture+skull traction stabilisatn
+7J42y00	Other specified other reduction of fracture of spine
+7J42z00	Other reduction of fracture of spine NOS
+7J43.00	Fixation of fracture of spine
+7J43000	Primary open reduc spinal fracture+internal fix+plate
+7J43100	Fixation of fracture of spine using Harrington rod
+7J43.11	Internal fixation of fracture of spine
+7J43200	Fixation of fracture of spine and skull traction HFQ
+7J43211	Barr skull traction for fracture of spine
+7J43300	Primary open reduc spinal fracture+internal fix+wire
+7J43400	Primary open reduc spinal fracture+internal fix+rod system
+7J43700	Primary open reduc spinal fracture+other internal fix
+7J43900	Rvsn open reduc spinal fracture+internal fix+plate
+7J43A00	Rvsn open reduc spinal fracture+internal fix+rod system
+7J43C00	Rvsn open reduc spinal fracture+internal fix+internl fixator
+7J43E00	Removal of fracture fixation device from spine
+7J43y00	Other specified fixation of fracture of spine
+7J43z00	Fixation of fracture of spine NOS
+7K1D.00	Primary open reduction fracture bone & intramedull fixation
+7K1D000	Prmy open red+int fxn prox femoral #+screw/nail+plate device
+7K1D011	Prim open reduct # neck femur & op fix - Blount nail plate
+7K1D012	Prim op red # nck femur & op fix- Charnley compression screw
+7K1D013	Prim op red # nck femur & op fix - Deyerle multiple hip pin
+7K1D014	Prim open reduct # neck femur & op fix - Holt nail
+7K1D015	Prim open reduct # neck femur & op fix - Jewett nail plate
+7K1D017	Prim open red # neck femur & op fix - McLaughlin nail plate
+7K1D018	Prim open reduct # neck femur & op fix - Neufield nail plate
+7K1D019	Prim open reduct # neck femur & op fix - Pugh nail plate
+7K1D01A	Prim open reduct # neck femur & op fix - Richards screw
+7K1D01B	Prim open reduct # neck femur & op fix - Ross Brown nail
+7K1D01D	Prim op red # nck femur & op fix- Zickel intramed nail plate
+7K1D01E	DHS - Dynamic hip screw primary fixation of neck of femur
+7K1D01F	Dynamic hip screw primary fixation of neck of femur
+7K1D100	Prim open reduct fract long bone & fixation rigid
+7K1D400	Prim open reduction fragment of bone & fixation using
+7K1D511	K wiring of fracture
+7K1D600	Prmy open red+int fxn prox femoral #+screw/nail device alone
+7K1D700	Prmy open red+int fxn prox fem #+screw/nail+intramed device
+7K1D800	Prmy open reduction #+locked reamed intramedullary nail fxtn
+7K1DE00	Prim op red frac neck fem op fix us prox fem nail antirotatn
+7K1Dy00	Prim open reduction fracture bone & intramedullary fixatn OS
+7K1Dz00	Prim open reduction fracture bone & intramedull fixation NOS
+7K1E000	Prmy open reduction of #+internal fixation with plate NEC
+7K1E800	Prmy open reduction of #+internal fixation with screw(s)
+7K1Ez00	Prim open reduction fracture bone & extramedull fixation NOS
+7K1F.00	Primary open reduction of intraarticular fracture of bone
+7K1F300	Primary intraarticular fixation intraartic fracture bone NEC
+7K1F400	Prim extraarticular reduction intraartic fracture bone NEC
+7K1F500	Primary open reduction fracture patella fixat tension band
+7K1Fy00	Primary open reduction of intraarticular fracture bone OS
+7K1Fz00	Primary open reduction of intraarticular fracture bone NOS
+7K1G.00	Other primary open reduction of fracture of bone
+7K1G000	Prmy open reduction of fracture and skeletal traction
+7K1G100	Prmy open reduction of fracture and external fixation
+7K1G200	Primary open reduction+external fixation of femoral fracture
+7K1G300	Primary open reduction of fracture alone
+7K1G400	Primary open reduction of fracture and cast immobilisation
+7K1G500	Primary open reduction of fracture and functional bracing
+7K1G600	Primary open reduction of fracture and skin traction
+7K1Gy11	Primary open reduction of bone fracture & external fixation
+7K1Gz00	Other primary open reduction of fracture of bone NOS
+7K1H.00	Secondary open reduction of fracture of bone
+7K1H.11	Revision to open reduction of fracture of bone
+7K1H200	Secondary open reduction of intraarticular fracture of bone
+7K1H400	Secondary open reduct fracture bone & external fixation HFQ
+7K1H900	Revision to open reduction of fracture alone
+7K1HD00	Revision to open reduction of fracture and skeletal traction
+7K1HE00	Revision to open reduction of fracture and external fixation
+7K1Hy00	Other specified secondary open reduction of fracture of bone
+7K1Hz00	Secondary open reduction of fracture of bone NOS
+7K1J.00	Closed (or no) reduction of fracture and internal fixation
+7K1J000	Cls red+int fxn proximal femoral #+screw/nail device alone
+7K1J011	Cl red intracaps frac neck femur fix-Garden cannulated screw
+7K1J012	Cl red intracaps fract neck femur fix - Smith-Petersen nail
+7K1J013	Cls red+int fxn prox femoral #+Richard's cannulat hip screw
+7K1J300	Closed reduction fracture small bone & fixation using screw
+7K1J500	Primary int fxn(no red) prox fem #+screw/nail device alone
+7K1J600	Primary int fxn(no red) prox fem #+scrw/nail+intramed device
+7K1J700	Primary int fxn(no red) prox fem #+screw/nail+plate device
+7K1JB00	Primary cls red+int fxn prox fem #+screw/nail device alone
+7K1JC00	Prim cls rd+int fxn prox fem #+screw/nail+intramdulry device
+7K1Jd00	Closed reduction of intracapsular # NOF internal fixat DHS
+7K1JD00	Primary cls red+int fxn prox fem #+screw/nail+plate device
+7K1JH00	Primary wire fixation of fracture
+7K1JJ00	Revision to wire fixation of fracture
+7K1JK00	Primary closed reduction of fracture and wire fixation
+7K1JL00	Revision to closed reduction of fracture and wire fixation
+7K1Jy00	Closed reduction of bone fracture and internal fixation OS
+7K1Jz00	Closed reduction of bone fracture and internal fixation NOS
+7K1K.00	Closed (or no) reduction of fracture and external fixation
+7K1K000	Closed reduction fracture bone and fixation to skeleton HFQ
+7K1K200	Remanipulation of fracture of bone and external fixation HFQ
+7K1K300	Primary external fixation(without reduction) prox femoral #
+7K1K500	Primary cls reduction+external fixation proximal femoral #
+7K1K700	Primary functional bracing of fracture
+7K1K800	Primary external fixation of fracture
+7K1K900	Other primary external immobilisation of fracture
+7K1KA00	Revision to functional bracing of fracture
+7K1KB00	Revision to external fixation of fracture
+7K1KC00	Other revision to external immobilisation of fracture
+7K1KE00	Primary closed reduction of fracture and external fixation
+7K1Ky00	Closed reduction of bone fracture and external fixation OS
+7K1Kz00	Closed reduction of bone fracture and external fixation NOS
+7K1L.00	Other closed reduction of fracture of bone
+7K1L011	Manipulation of fracture and skeletal traction NEC
+7K1L100	Manipulation of fracture of bone NEC
+7K1L211	Remanipulation of fracture and skeletal traction NEC
+7K1L300	Remanipulation of fracture of bone NEC
+7K1L400	Closed reduction of fracture of hip
+7K1L500	Closed reduction of fracture of femur
+7K1L600	Closed reduction of fracture of knee
+7K1L700	Closed reduction of fracture of tibia and or fibula
+7K1L800	Closed reduction of fracture of ankle
+7K1L900	Closed reduction of fracture of metatarsus
+7K1La00	Revision to skin traction of fracture
+7K1LA00	Closed reduction of fracture of toe
+7K1Lb00	Primary cast immobilisation of fracture
+7K1LB00	Closed reduction of fracture of hallux
+7K1Lc00	Revision to cast immobilisation of fracture
+7K1LC00	Closed reduction of fracture of lower limb
+7K1Ld00	Primary arthroscopic reduction of fracture
+7K1LD00	Closed reduction of fracture of nasal bone
+7K1Le00	Primary arthroscopic reduction and fixation of fracture
+7K1LE00	Closed reduction of fracture of elbow
+7K1Lf00	Revision to arthroscopic reduction of fracture
+7K1LF00	Closed reduction of fracture of humerus
+7K1Lg00	Revision to arthroscopic reduction and fixation of fracture
+7K1LG00	Closed reduction of fracture of shoulder
+7K1LH00	Closed reduction of fracture of finger
+7K1LJ00	Closed reduction of fracture of thumb
+7K1LK00	Closed reduction of fracture of metacarpus
+7K1LL00	Closed reduction of fracture of radius and or ulna
+7K1LM00	Closed reduction of fracture of wrist
+7K1LN00	Closed reduction of fracture of upper limb
+7K1LT00	Primary closed reduction of fracture and cast immobilisation
+7K1LV00	Primary closed reduction of fracture alone
+7K1LW00	Primary closed reduction of fracture and skin traction
+7K1LX00	Revision to closed reduction of fracture alone
+7K1Ly00	Other specified other closed reduction of fracture of bone
+7K1Lz00	Other closed reduction of fracture of bone NOS
+7K1LZ00	Primary skin traction of fracture
+7K1N900	Primary skeletal traction of fracture
+7K1T100	Debridement of open fracture
+7K1Y.00	Second closed reduction fracture bone and internal fixation
+7K1Y100	Remanip fracture long bone and rigid internal fixation NEC
+7K1Yy00	OS second closed reduct fracture bone and internal fixation
+7K6F200	Primary open reduction of fracture dislocation of joint NEC
+7K6FE00	Primary open reduction of fracture dislocation alone
+7K6GN00	Closed reduction fracture disloc joint & internal fixation
+7K6GX00	Primary closed reduction of fracture dislocation alone
+7K6H200	Secondary open reduction fracture dislocation of joint NEC
+7K6H400	Revision to closed reduction of fracture dislocation alone
+7K6H411	Remanipulation of fracture dislocation alone
+7K6H700	Secondary open reduction fracture disloc joint & fixation
+7K6Hh00	Sec open red fracture dislocat joint and intern fixation NEC
+7K6HX00	Revision to open reduction fracture dislocation alone
+82...11	Closed reduction of fracture
+N1y1.00	Fatigue fracture of vertebra
+N1y2.00	Pars interarticularis stress fracture
+N331.00	Pathological fracture
+N331000	Pathological fracture of thoracic vertebra
+N331011	Collapse of thoracic vertebra
+N331100	Pathological fracture of lumbar vertebra
+N331.11	Collapse of spine NOS
+N331111	Collapse of lumbar vertebra
+N331.12	Collapse of vertebra NOS
+N331.13	Sponanteous fracture
+N331.14	Osteoporotic vertebral collapse
+N331200	Postoophorectomy osteoporosis with pathological fracture
+N331300	Osteoporosis of disuse with pathological fracture
+N331400	Postsurgical malabsorption osteoporosis with path fracture
+N331500	Drug-induced osteoporosis with pathological fracture
+N331600	Idiopathic osteoporosis with pathological fracture
+N331700	Fracture of bone in neoplastic disease
+N331800	Osteoporosis + pathological fracture lumbar vertebrae
+N331900	Osteoporosis + pathological fracture thoracic vertebrae
+N331A00	Osteoporosis + pathological fracture cervical vertebrae
+N331B00	Postmenopausal osteoporosis with pathological fracture
+N331C00	Pathological fracture of cervical vertebra
+N331D00	Collapsed vertebra NOS
+N331E00	Collapse of cervical vertebra
+N331F00	Collapse of thoracic vertebra
+N331G00	Collapse of lumbar vertebra
+N331H00	Collapse of cervical vertebra due to osteoporosis
+N331J00	Collapse of lumbar vertebra due to osteoporosis
+N331K00	Collapse of thoracic vertebra due to osteoporosis
+N331L00	Collapse of vertebra due to osteoporosis NOS
+N331M00	Fragility fracture due to unspecified osteoporosis
+N331M11	Minimal trauma fracture due to unspecified osteoporosis
+N331N00	Fragility fracture
+N331N11	Minimal trauma fracture
+N331y00	Other specified pathological fracture
+N331z00	Pathological fracture NOS
+N338.00	Malunion and nonunion of fracture
+N338000	Malunion of fracture
+N338100	Pseudoarthrosis - fracture nonunion
+N338111	Nonunion of fracture
+N338200	Hypertrophic non-union of fracture
+N338300	Atrophic non-union of fracture
+N338400	Angular mal-union of fracture
+N338500	Rotational mal-union of fracture
+N338600	Delayed union of fracture
+Nyu6700	[X]Collapsed vertebra in diseases classified elsewhere
+NyuB000	[X]Other osteoporosis with pathological fracture
+NyuB800	[X]Unspecified osteoporosis with pathological fracture
+S0...00	Fracture of skull
+S000.00	Closed fracture vault of skull without intracranial injury
+S001.00	Closed fracture vault of skull with intracranial injury
+S00..11	Frontal bone fracture
+S00..12	Parietal bone fracture
+S002.00	Open fracture vault of skull without intracranial injury
+S003.00	Open fracture vault of skull with intracranial injury
+S01..00	Fracture of base of skull
+S010.00	Closed fracture base of skull without intracranial injury
+S011.00	Closed fracture base of skull with intracranial injury
+S01..11	Anterior fossa fracture
+S01..12	Ethmoid sinus fracture
+S01..13	Frontal sinus fracture
+S01..14	Middle fossa fracture
+S01..15	Occiput bone fracture
+S01..16	Orbital roof fracture
+S01..17	Posterior fossa fracture
+S01..18	Sphenoid bone fracture
+S01..19	Temporal bone fracture
+S012.00	Open fracture base skull without mention intracranial injury
+S013.00	Open fracture base of skull with intracranial injury
+S01z.00	Fracture of base of skull NOS
+S02..00	Fracture of face bones
+S020.00	Closed fracture nose
+S020.11	Closed fracture nasal bone
+S021.00	Open fracture nose
+S021.11	Open fracture nasal bone
+S022.00	Fracture of mandible; closed
+S022000	Closed fracture mandible (site unspecified)
+S022100	Closed fracture of mandible; condylar process
+S022.12	Fracture of lower jaw; closed
+S022200	Closed fracture of mandible; subcondylar
+S022300	Closed fracture of mandible; coronoid process
+S022400	Closed fracture of mandible; ramus; unspecified
+S022500	Closed fracture of mandible; angle of jaw
+S022600	Closed fracture of mandible; symphysis of body
+S022700	Closed fracture of mandible; alveolar border of body
+S022800	Closed fracture of mandible; body; other and unspecified
+S022x00	Closed fracture of mandible; multiple sites
+S022z00	Fracture of mandible; closed; NOS
+S023000	Open fracture mandible (site unspecified)
+S023100	Open fracture of mandible; condylar process
+S023200	Open fracture of mandible; subcondylar
+S023400	Open fracture of mandible; ramus; unspecified
+S023500	Open fracture of mandible; angle of jaw
+S023600	Open fracture of mandible; symphysis of body
+S023700	Open fracture of mandible; alveolar border of body
+S023800	Open fracture of mandible; body; other and unspecified
+S023x00	Open fracture of mandible; multiple sites
+S024.00	Fracture of malar or maxillary bones; closed
+S024000	Closed fracture maxilla
+S024100	Closed fracture zygoma
+S025000	Open fracture maxilla
+S025100	Open fracture zygoma
+S026.00	Closed orbital blow-out fracture
+S027.00	Open orbital blow-out fracture
+S028000	Fracture of nasal bones
+S028100	Fracture of orbital floor
+S028300	Fracture of mandible
+S02A.00	Le Fort I fracture maxilla
+S02B.00	Le Fort II fracture maxilla
+S02C.00	Le Fort III fracture maxilla
+S02x.00	Closed fracture other facial bone
+S02x000	Fracture of alveolus; closed
+S02x100	Fracture of orbit NOS; closed
+S02y.00	Open fracture other facial bone
+S02z.11	Jaw fracture NOS
+S03..00	Other and unqualified skull fractures
+S030.00	Closed fracture of skull NOS without intracranial injury
+S031.00	Closed fracture of skull NOS with intracranial injury
+S033.00	Open fracture of skull NOS with intracranial injury
+S03z.00	Skull fracture NOS
+S03z.11	Depressed skull fracture NOS
+S04..00	Multiple fractures involving skull or face with other bones
+S04..11	Multiple face fractures
+S04..12	Multiple skull fractures
+S044.00	Multiple fractures involving skull and facial bones
+S04z.00	Multiple fractures involving skull/face with other bones NOS
+S1...00	Fracture of neck and trunk
+S10..00	Fracture of spine without mention of spinal cord injury
+S100.00	Closed fracture of cervical spine
+S100000	Closed fracture of unspecified cervical vertebra
+S100100	Closed fracture atlas
+S100111	C1 vertebra closed fracture - no spinal cord lesion
+S100200	Closed fracture axis
+S100211	C2 vertebra closed fracture without spinal cord lesion
+S100300	Closed fracture of third cervical vertebra
+S100311	C3 vertebra closed fracture without spinal cord lesion
+S100400	Closed fracture of fourth cervical vertebra
+S100411	C4 vertebra closed fracture without spinal cord lesion
+S100500	Closed fracture of fifth cervical vertebra
+S100511	C5 vertebra closed fracture without spinal cord lesion
+S100600	Closed fracture of sixth cervical vertebra
+S100611	C6 vertebra closed fracture without spinal cord lesion
+S100700	Closed fracture of seventh cervical vertebra
+S100711	C7 vertebra closed fracture without spinal cord lesion
+S100800	Closed fracture atlas; isolated arch or articular process
+S100900	Closed fracture atlas; comminuted
+S100A00	Closed fracture axis; odontoid process
+S100B00	Closed fracture axis; spondylolysis
+S100C00	Closed fracture axis; spinous process
+S100D00	Closed fracture axis; transverse process
+S100E00	Closed fracture axis; posterior arch
+S100G00	Closed fracture cervical vertebra; burst
+S100H00	Closed fracture cervical vertebra; wedge
+S100J00	Closed fracture cervical vertebra; spondylolysis
+S100K00	Closed fracture cervical vertebra; spinous process
+S100L00	Closed fracture cervical vertebra; transverse process
+S100M00	Closed fracture cervical vertebra; posterior arch
+S100x00	Multiple closed fractures of cervical vertebrae
+S100z00	Closed fracture of cervical spine not otherwise specified
+S101.00	Open fracture of cervical spine
+S101000	Open fracture of unspecified cervical vertebra
+S10..11	Fracture of transverse process spine - no spinal cord lesion
+S101100	Open fracture atlas
+S101111	C1 vertebra open fracture without spinal cord lesion
+S10..12	Fracture of vertebra without spinal cord lesion vert
+S101200	Open fracture axis
+S101211	C2 vertebra open fracture without spinal cord lesion
+S101311	C3 vertebra open fracture without spinal cord lesion
+S101500	Open fracture of fifth cervical vertebra
+S101511	C5 vertebra open fracture without spinal cord lesion
+S101600	Open fracture of sixth cervical vertebra
+S101611	C6 vertebra open fracture without spinal cord lesion
+S101711	C7 vertebra open fracture without spinal cord lesion
+S101900	Open fracture atlas; comminuted
+S101A00	Open fracture axis; odontoid process
+S101x00	Multiple open fractures of cervical vertebrae
+S102.00	Closed fracture thoracic vertebra
+S102000	Closed fracture thoracic vertebra; burst
+S102100	Closed fracture thoracic vertebra; wedge
+S102200	Closed fracture thoracic vertebra; spondylolysis
+S102300	Closed fracture thoracic vertebra; spinous process
+S102400	Closed fracture thoracic vertebra; transverse process
+S102500	Closed fracture thoracic vertebra; posterior arch
+S102y00	Other specified closed fracture thoracic vertebra
+S102z00	Closed fracture thoracic vertebra not otherwise specified
+S103.00	Open fracture thoracic vertebra
+S103100	Open fracture thoracic vertebra; wedge
+S103500	Open fracture thoracic vertebra; posterior arch
+S104.00	Closed fracture lumbar vertebra
+S104000	Closed fracture lumbar vertebra; burst
+S104100	Closed fracture lumbar vertebra; wedge
+S104200	Closed fracture lumbar vertebra; spondylolysis
+S104300	Closed fracture lumbar vertebra; spinous process
+S104400	Closed fracture lumbar vertebra; transverse process
+S104500	Closed fracture lumbar vertebra; posterior arch
+S104600	Closed fracture lumbar vertebra; tricolumnar
+S105.00	Open fracture lumbar vertebra
+S105000	Open fracture lumbar vertebra; burst
+S105100	Open fracture lumbar vertebra; wedge
+S105400	Open fracture lumbar vertebra; transverse process
+S106.00	Closed fracture sacrum
+S106000	Closed compression fracture sacrum
+S106100	Closed vertical fracture of sacrum
+S107.00	Open fracture sacrum
+S107000	Open compression fracture sacrum
+S107100	Open vertical fracture of sacrum
+S108.00	Closed fracture pelvis; coccyx
+S109.00	Open fracture pelvis; coccyx
+S10A.00	Fracture of neck
+S10A000	Fracture of first cervical vertebra
+S10A100	Fracture of second cervical vertebra
+S10A200	Multiple fractures of cervical spine
+S10B.00	Fracture of lumbar spine and pelvis
+S10B000	Fracture of lumbar vertebra
+S10B200	Fracture of coccyx
+S10B400	Fracture of acetabulum
+S10B500	Fracture of pubis
+S10B600	Multiple fractures of lumbar spine and pelvis
+S10x.00	Closed fracture of spine; unspecified;
+S10y.00	Open fracture of spine; unspecified;
+S10z.00	Fracture of spine without mention of spinal cord lesion NOS
+S11..00	Fracture of spine with spinal cord lesion
+S110.00	Closed fracture of cervical spine with cord lesion
+S110000	Cls spinal fracture with unspec cervical cord lesion; C1-4
+S110100	Cls spinal fracture with complete cervcl cord lesion; C1-4
+S110600	Cls spinal fracture with unspec cervical cord lesion; C5-7
+S110700	Cls spinal fracture with complete cervcl cord lesion; C5-7
+S110800	Cls spinal fracture with anterior cervcl cord lesion; C5-7
+S110z00	Closed fracture of cervical spine with cord lesion NOS
+S111.00	Open fracture of cervical spine with spinal cord lesion
+S11..12	Fracture of vertebra with spinal cord lesion
+S112.00	Closed fracture of thoracic spine with spinal cord lesion
+S112000	Cls spinal fracture with unspec thoracic cord lesion;T1-6
+S112100	Cls spinal fracture wth complete thoracic cord lesion;T1-6
+S112600	Cls spinal fracture with unspec thoracic cord lesion; T7-12
+S112700	Cls spinal fracture with complete thorac cord lesion; T7-12
+S112A00	Cls spinal fracture with posterior thorac cord lesion; T7-12
+S112z00	Closed fracture of thoracic spine with cord lesion NOS
+S113.00	Open fracture of thoracic spine with spinal cord lesion
+S113000	Opn spinal fracture with unspec thoracic cord lesion; T1-6
+S113A00	Opn spinal fracture with posterior thorac cord lesion; T7-12
+S114.00	Closed fracture of lumbar spine with spinal cord lesion
+S114000	Closed spinal fracture with unspecified lumbar cord lesion
+S114100	Closed spinal fracture with complete lumbar cord lesion
+S114500	Closed spinal fracture with cauda equina lesion
+S115.00	Open fracture of lumbar spine with spinal cord lesion
+S116.00	Closed fracture of sacrum with spinal cord lesion
+S116z00	Closed fracture of sacrum with spinal cord lesion NOS
+S117.00	Open fracture of sacrum with spinal cord lesion
+S117300	Open fracture of sacrum with other spinal cord injury
+S118.00	Closed fracture of coccyx with spinal cord lesion
+S118z00	Closed fracture of coccyx with spinal cord lesion NOS
+S11x.00	Closed fracture of spine with spinal cord lesion unspecified
+S11z.00	Fracture of spine with spinal cord lesion NOS
+S120.00	Closed fracture rib
+S120000	Closed fracture of rib; unspecified
+S120100	Closed fracture of one rib
+S120200	Closed fracture of two ribs
+S120300	Closed fracture of three ribs
+S120400	Closed fracture of four ribs
+S120500	Closed fracture of five ribs
+S120600	Closed fracture of six ribs
+S120700	Closed fracture of seven ribs
+S120800	Closed fracture of eight or more ribs
+S120900	Closed fracture multiple ribs
+S120A00	Cough fracture
+S120z00	Closed fracture of rib(s) NOS
+S121.00	Open fracture rib
+S121000	Open fracture of rib; unspecified
+S121200	Open fracture of two ribs
+S121700	Open fracture of seven ribs
+S121900	Open fracture multiple ribs
+S121z00	Open fracture of rib(s) NOS
+S122.00	Closed fracture sternum
+S123.00	Open fracture sternum
+S125100	Closed fracture of hyoid bone
+S126100	Open fracture of hyoid bone
+S127.00	Fracture of rib
+S127000	Multiple fractures of ribs
+S127100	Cough fracture of ribs
+S128.00	Fracture of sternum
+S12X000	Closed fracture of bony thorax part unspecified
+S12y000	Closed fracture of other parts of bony thorax
+S12z.11	Rib fracture NOS
+S12z.12	Sternum fracture NOS
+S13..00	Fracture or disruption of pelvis
+S130.00	Closed fracture acetabulum
+S130000	Closed fracture acetabulum; anterior lip alone
+S130100	Closed fracture acetabulum; posterior lip alone
+S130200	Closed fracture acetabulum; anterior column
+S130300	Closed fracture acetabulum; posterior column
+S130400	Closed fracture acetabulum; floor
+S130600	Closed fracture acetabulum; double column unspecified
+S130y00	Other specified closed fracture acetabulum
+S130z00	Closed fracture acetabulum NOS
+S131.00	Open fracture acetabulum
+S131y00	Other specified open fracture acetabulum
+S131z00	Open fracture acetabulum NOS
+S132.00	Closed fracture pubis
+S132000	Closed fracture pelvis; single pubic ramus
+S132100	Closed fracture pelvis; multiple pubic rami - stable
+S132200	Closed fracture pelvis; multiple pubic rami - unstable
+S132y00	Other specified closed fracture pubis
+S132z00	Closed fracture pubis NOS
+S133.00	Open fracture of pubis
+S133000	Open fracture pelvis; single pubic ramus
+S133100	Open fracture pelvis; multiple pubic rami - stable
+S133200	Open fracture pelvis; multiple pubic rami - unstable
+S133y00	Other specified open fracture of pubis
+S133z00	Open fracture of pubis NOS
+S134.00	Other or multiple closed fracture of pelvis
+S134000	Closed fracture of ilium; unspecified
+S134100	Closed fracture pelvis; ischium
+S134300	Closed fracture pelvis; ischial tuberosity
+S134400	Closed fracture pelvis; anterior superior iliac spine
+S134500	Closed fracture pelvis; anterior inferior iliac spine
+S134600	Closed fracture pelvis; iliac wing
+S134700	Closed vertical fracture of ilium
+S134800	Closed fracture dislocation of sacro-iliac joint
+S134z00	Other or multiple closed fracture of pelvis NOS
+S135.00	Other or multiple open fracture of pelvis
+S135000	Open fracture of ilium; unspecified
+S135100	Open fracture pelvis; ischium
+S135300	Open fracture pelvis; ischial tuberosity
+S135400	Open fracture pelvis; anterior superior iliac spine
+S135600	Open fracture pelvis; iliac wing
+S135800	Open fracture dislocation of sacro-iliac joint
+S135y00	Other open fracture of pelvis
+S135z00	Other/multiple open fracture of pelvis NOS
+S13y.00	Closed fracture of pelvis NOS
+S13z.00	Open fracture of pelvis NOS
+S140.00	Closed fracture of ill-defined bone of trunk
+S15..00	Fracture of thoracic vertebra
+S150.00	Multiple fractures of thoracic spine
+S150000	Closed multiple fractures of thoracic spine
+S150100	Open multiple fracture of thoracic spine
+S2...00	Fracture of upper limb
+S20..00	Fracture of clavicle
+S200.00	Closed fracture of clavicle
+S200000	Closed fracture of clavicle; unspecified part
+S200100	Closed fracture clavicle; medial end
+S200200	Closed fracture clavicle; shaft
+S200300	Closed fracture clavicle; lateral end
+S200z00	Closed fracture of clavicle NOS
+S201.00	Open fracture of clavicle
+S201000	Open fracture of clavicle; unspecified part
+S20..11	Collar bone fracture
+S201100	Open fracture clavicle; medial end
+S201200	Open fracture clavicle; shaft
+S201300	Open fracture clavicle; lateral end
+S201z00	Open fracture of clavicle NOS
+S21..00	Fracture of scapula
+S210.00	Closed fracture of scapula
+S210000	Closed fracture of scapula; unspecified part
+S210100	Closed fracture scapula; acromion
+S210200	Closed fracture scapula; coracoid
+S210300	Closed fracture scapula; glenoid
+S210400	Closed fracture scapula; blade
+S210500	Closed fracture scapula; spine
+S210600	Closed fracture scapula; neck
+S210z00	Closed fracture of scapula NOS
+S2...11	Arm fracture
+S211.00	Open fracture of scapula
+S211000	Open fracture of scapula; unspecified part
+S21..11	Shoulder blade fracture
+S211100	Open fracture scapula; acromion
+S211200	Open fracture scapula; coracoid
+S211300	Open fracture scapula; glenoid
+S211400	Open fracture scapula; blade
+S211600	Open fracture scapula; neck
+S211z00	Open fracture of scapula NOS
+S22..00	Fracture of humerus
+S220.00	Closed fracture of the proximal humerus
+S220000	Closed fracture of proximal humerus; unspecified part
+S220100	Closed fracture proximal humerus; neck
+S220200	Closed fracture of proximal humerus; anatomical neck
+S220300	Closed fracture proximal humerus; greater tuberosity
+S220400	Closed fracture proximal humerus; head
+S220500	Closed fracture of humerus; upper epiphysis
+S220600	Closed fracture proximal humerus; three part
+S220700	Closed fracture proximal humerus; four part
+S220z00	Closed fracture of proximal humerus not otherwise specified
+S221.00	Open fracture of the proximal humerus
+S221000	Open fracture of proximal humerus; unspecified part
+S221100	Open fracture proximal humerus; neck
+S221.11	Shoulder fracture - open
+S221200	Open fracture of proximal humerus; anatomical neck
+S221300	Open fracture proximal humerus; greater tuberosity
+S221400	Open fracture proximal humerus; head
+S221500	Open fracture of humerus; upper epiphysis
+S221600	Open fracture proximal humerus; three part
+S221700	Open fracture proximal humerus; four part
+S221z00	Open fracture of proximal humerus not otherwise specified
+S222.00	Closed fracture of humerus; shaft or unspecified part
+S222000	Closed fracture of humerus NOS
+S222100	Closed fracture of humerus; shaft
+S222z00	Closed fracture of humerus; shaft or unspecified part NOS
+S223.00	Open fracture of humerus; shaft or unspecified part
+S223000	Open fracture of humerus NOS
+S223100	Open fracture of humerus; shaft
+S223z00	Open fracture of humerus; shaft or unspecified part NOS
+S224.00	Closed fracture of the distal humerus
+S224000	Closed fracture of elbow; unspecified part
+S224100	Closed fracture distal humerus; supracondylar
+S224.11	Elbow fracture - closed
+S224200	Closed fracture distal humerus; lateral condyle
+S224300	Closed fracture distal humerus; medial condyle
+S224400	Closed fracture of distal humerus; condyle(s) unspecified
+S224500	Closed fracture of distal humerus; trochlea
+S224600	Closed fracture distal humerus; lateral epicondyle
+S224700	Closed fracture distal humerus; medial epicondyle
+S224800	Closed fracture distal humerus; capitellum
+S224900	Closed fracture distal humerus; bicondylar (T-Y fracture)
+S224x00	Closed fracture of distal humerus; multiple
+S224z00	Closed fracture of distal humerus; not otherwise specified
+S225.00	Open fracture of the distal humerus
+S225000	Open fracture of elbow; unspecified part
+S225100	Open fracture distal humerus; supracondylar
+S225.11	Elbow fracture - open
+S225200	Open fracture distal humerus; lateral condyle
+S225300	Open fracture distal humerus; medial condyle
+S225400	Open fracture of distal humerus; condyle(s) unspecified
+S225500	Open fracture of distal humerus; trochlea
+S225600	Open fracture distal humerus; lateral epicondyle
+S225700	Open fracture distal humerus; medial epicondyle
+S225800	Open fracture distal humerus; capitellum
+S225900	Open fracture distal humerus; bicondylar (T-Y fracture)
+S225x00	Open fracture of distal humerus; multiple
+S225z00	Open fracture of distal humerus; not otherwise specified
+S226.00	Fracture of upper end of humerus
+S227.00	Fracture of shaft of humerus
+S228.00	Fracture of lower end of humerus
+S22z.00	Fracture of humerus NOS
+S23..00	Fracture of radius and ulna
+S230.00	Closed fracture of proximal radius and ulna
+S230000	Closed fracture of proximal forearm; unspecified part
+S230100	Closed fracture olecranon; extra-articular
+S230200	Closed fracture of ulna; coronoid
+S230300	Closed Monteggia's fracture
+S230400	Closed fracture of proximal ulna; comminuted
+S230500	Closed fracture of the proximal ulna
+S230600	Closed fracture radius; head
+S230700	Closed fracture radius; neck
+S230800	Closed fracture proximal radius; comminuted
+S230900	Closed fracture of the proximal radius
+S230A00	Closed fracture radius and ulna; proximal
+S230B00	Closed fracture olecranon; intra-articular
+S230z00	Closed fracture of proximal forearm not otherwise specified
+S231.00	Open fracture of proximal radius and ulna
+S231000	Open fracture of proximal forearm; unspecified
+S23..11	Forearm fracture
+S231100	Open fracture olecranon; extra-articular
+S231200	Open fracture of ulna; coronoid
+S231300	Open Monteggia's fracture
+S231500	Open fracture of the proximal ulna
+S231600	Open fracture radial head
+S231700	Open fracture radial neck
+S231800	Open fracture proximal radius; comminuted
+S231900	Open fracture of the proximal radius
+S231A00	Open fracture radius and ulna; proximal
+S231B00	Open fracture olecranon; intra-articular
+S231z00	Open fracture of forearm; upper end; NOS
+S232.00	Closed fracture of radius and ulna; shaft
+S232000	Closed fracture of radius; shaft; unspecified
+S232100	Closed fracture of the radial shaft
+S232200	Closed fracture of the ulnar shaft
+S232300	Closed fracture radius and ulna; middle
+S232z00	Closed fracture of radius and ulna; shaft; NOS
+S233.00	Open fracture of radius and ulna; shaft
+S233000	Open fracture of radius; shaft; unspecified
+S233100	Open fracture of the radial shaft
+S233200	Open fracture of the ulnar shaft
+S233300	Open fracture radius and ulna; middle
+S233z00	Open fracture of radius and ulna; shaft; NOS
+S234.00	Closed fracture of radius and ulna; lower end
+S234000	Closed fracture of forearm; lower end; unspecified
+S234100	Closed Colles' fracture
+S234.11	Wrist fracture - closed
+S234111	Smith's fracture - closed
+S234200	Closed fracture of the distal radius; unspecified
+S234211	Dupuytren's fracture; radius - closed
+S234300	Closed fracture of ulna; styloid process
+S234400	Closed fracture of ulna; lower epiphysis
+S234500	Closed fracture distal ulna; unspecified
+S234600	Closed fracture radius and ulna; distal
+S234700	Closed Smith's fracture
+S234800	Closed Galeazzi fracture
+S234900	Closed volar Barton's fracture
+S234911	Closed volar Barton's fracture-dislocation
+S234912	Closed volar Barton fracture-subluxation
+S234A00	Closd dorsal Barton's fracture
+S234A11	Closed dorsal Barton's fracture-dislocation
+S234A12	Closed dorsal Barton fracture-subluxation
+S234B00	Closed fracture radial styloid
+S234C00	Closed fracture distal radius; intra-articular; die-punch
+S234D00	Closed fracture distal radius; extra-articular; other type
+S234E00	Closed fracture distal radius; intra-articular; other type
+S234F00	Closed Barton's fracture
+S234G00	Greenstick fracture of distal radius
+S234z00	Closed fracture of forearm; lower end; NOS
+S235.00	Open fracture of radius and ulna; lower end
+S235000	Open fracture of forearm; lower end; unspecified
+S235100	Open Colles' fracture
+S235.11	Wrist fracture - open
+S235111	Smith's fracture - open
+S235200	Open fracture of the distal radius; unspecified
+S235211	Dupuytren's fracture; radius - open
+S235300	Open fracture of ulna; styloid process
+S235400	Open fracture of ulna; lower epiphysis
+S235500	Open fracture distal ulna - other
+S235600	Open fracture radius and ulna; distal
+S235700	Open Smith's fracture
+S235800	Open Galeazzi fracture
+S235900	Open volar Barton's fracture
+S235A00	Open dorsal Barton's fracture
+S235B00	Open fracture radial styloid
+S235C00	Open fracture distal radius; intra-articular; die-punch
+S235D00	Open fracture distal radius; extra-articular other type
+S235E00	Open fracture distal radius; intra-articular other type
+S235F00	Open Barton's fracture
+S235z00	Open fracture of forearm; lower end; NOS
+S237.00	Fracture of upper end of radius
+S238.00	Fracture of shaft of ulna
+S239.00	Fracture of shaft of radius
+S23A.00	Fracture of shafts of both ulna and radius
+S23B.00	Fracture of lower end of radius
+S23C.00	Fracture of lower end of both ulna and radius
+S23x.00	Closed fracture of radius and ulna; unspecified part
+S23x000	Closed fracture of forearm; unspecified
+S23x100	Closed fracture of radius (alone); unspecified
+S23x111	Fracture of radius NOS
+S23x200	Closed fracture of ulna (alone); unspecified
+S23x211	Fracture of ulna NOS
+S23x300	Closed fracture of the radius and ulna
+S23xz00	Closed fracture of radius and ulna; NOS
+S23y.00	Open fracture of radius and ulna; unspecified part
+S23y000	Open fracture of forearm; unspecified
+S23y100	Open fracture of radius (alone); unspecified
+S23y200	Open fracture of ulna (alone); unspecified
+S23y300	Open fracture of the radius and ulna
+S23yz00	Open fracture of radius and ulna; NOS
+S23z.00	Fracture of radius and ulna; NOS
+S24..00	Fracture of carpal bone
+S240.00	Closed fracture of carpal bone
+S240000	Closed fracture of carpal bone; unspecified
+S240100	Closed fracture of the scaphoid
+S240200	Closed fracture lunate
+S240300	Closed fracture triquetral
+S240400	Closed fracture pisiform
+S240500	Closed fracture trapezium
+S240600	Closed fracture trapezoid
+S240700	Closed fracture capitate
+S240800	Closed fracture hamate
+S240900	Closed fracture hamate; hook
+S240A00	Closed fracture scaphoid; proximal pole
+S240B00	Closed fracture scaphoid; waist; transverse
+S240C00	Closed fracture scaphoid; waist; oblique
+S240D00	Closed fracture scaphoid; waist; comminuted
+S240E00	Closed fracture scaphoid; tuberosity
+S240F00	Closed fracture carpal bones; multiple
+S240y00	Closed fracture of other carpal bone
+S240z00	Closed fracture of carpal bone NOS
+S241.00	Open fracture of carpal bone
+S241000	Open fracture of carpal bone; unspecified
+S24..11	Hand fracture - carpal bone
+S241100	Open fracture of the scaphoid
+S241200	Open fracture lunate
+S241300	Open fracture triquetral
+S241400	Open fracture pisiform
+S241500	Open fracture trapezium
+S241600	Open fracture trapezoid
+S241700	Open fracture capitate
+S241800	Open fracture hamate
+S241900	Open fracture hamate; hook
+S241A00	Open fracture scaphoid; proximal pole
+S241B00	Open fracture scaphoid; waist; transverse
+S241C00	Open fracture scaphoid; waist; oblique
+S241D00	Open fracture scaphoid; waist; comminuted
+S241E00	Open fracture scaphoid; tuberosity
+S241z00	Open fracture of carpal bone NOS
+S242.00	Fracture at wrist and hand level
+S242000	Fracture of scaphoid
+S242100	Fracture of first metacarpal bone
+S242200	Fracture of other metacarpal bone
+S242300	Multiple fractures of metacarpal bones
+S25..00	Fracture of metacarpal bone
+S250.00	Closed fracture of metacarpal bone(s)
+S250000	Closed fracture of metacarpal bone (s); site unspecified
+S250200	Closed fracture finger metacarpal base
+S250300	Closed fracture finger metacarpal shaft
+S250400	Closed fracture finger metacarpal neck
+S250500	Closed fracture finger metacarpal head
+S250600	Closed fracture finger metacarpal
+S250700	Closed fracture finger metacarpal; multiple
+S250800	Closed fracture of thumb metacarpal
+S250A00	Closed fracture thumb metacarpal shaft
+S250B00	Closed fracture thumb metacarpal neck
+S250C00	Closed fracture thumb metacarpal head
+S250x00	Closed fractures of multiple sites of unspecified metacarpus
+S250z00	Closed fracture of metacarpal bone(s) NOS
+S251.00	Open fracture of metacarpal bone(s)
+S251000	Open fracture of metacarpal bone(s); site unspecified
+S25..11	Hand fracture - metacarpal bone
+S251200	Open fracture finger metacarpal base
+S251300	Open fracture finger metacarpal shaft
+S251400	Open fracture finger metacarpal neck
+S251500	Open fracture finger metacarpal head
+S251600	Open fracture finger metacarpal
+S251700	Open fracture finger metacarpal; multiple
+S251800	Open fracture of thumb metacarpal
+S251A00	Open fracture thumb metacarpal shaft
+S251C00	Open fracture thumb metacarpal head
+S251x00	Open fractures of multiple sites of unspecified metacarpus
+S251z00	Open fracture of metacarpal bone(s) NOS
+S252.00	Closed fracture sesamoid bone of hand
+S253.00	Open fracture sesamoid bone of hand
+S260.00	Closed fracture of one or more phalanges of hand
+S260000	Closed fracture of phalanx or phalanges; unspecified
+S260300	Closed fracture thumb proximal phalanx
+S260400	Closed fracture thumb proximal phalanx; base
+S260500	Closed fracture thumb proximal phalanx; shaft
+S260600	Closed fracture thumb proximal phalanx; neck
+S260700	Closed fracture thumb proximal phalanx; head
+S260800	Closed fracture thumb distal phalanx
+S260900	Closed fracture thumb distal phalanx; base
+S260A00	Closed fracture thumb distal phalanx; shaft
+S260B00	Closed fracture thumb distal phalanx; tuft
+S260C00	Closed fracture thumb distal phalanx; mallet
+S260D00	Closed fracture finger proximal phalanx
+S260E00	Closed fracture finger proximal phalanx; base
+S260F00	Closed fracture finger proximal phalanx; shaft
+S260G00	Closed fracture finger proximal phalanx; neck
+S260H00	Closed fracture finger proximal phalanx; head
+S260J00	Closed fracture finger proximal phalanx; multiple
+S260K00	Closed fracture finger middle phalanx
+S260L00	Closed fracture finger middle phalanx; base
+S260M00	Closed fracture finger middle phalanx; shaft
+S260N00	Closed fracture finger middle phalanx; neck
+S260P00	Closed fracture finger middle phalanx; head
+S260Q00	Closed fracture finger middle phalanx; multiple
+S260R00	Closed fracture finger distal phalanx
+S260S00	Closed fracture finger distal phalanx; base
+S260T00	Closed fracture finger distal phalanx; shaft
+S260U00	Closed fracture finger distal phalanx; tuft
+S260V00	Closed fracture finger distal phalanx; mallet
+S260W00	Closed fracture finger distal phalanx; multiple
+S260x00	Closed fractures of phalanx or phalanges; multiple sites
+S260z00	Closed fracture of one or more phalanges of hand NOS
+S261.00	Open fracture of one or more phalanges of hand
+S261000	Open fracture of phalanx or phalanges; unspecified
+S26..11	Finger fracture
+S26..12	Thumb fracture excluding base
+S261300	Open fracture thumb proximal phalanx
+S261400	Open fracture thumb proximal phalanx; base
+S261500	Open fracture thumb proximal phalanx; shaft
+S261600	Open fracture thumb proximal phalanx; neck
+S261700	Open fracture thumb proximal phalanx; head
+S261800	Open fracture thumb distal phalanx
+S261900	Open fracture thumb distal phalanx; base
+S261A00	Open fracture thumb distal phalanx; shaft
+S261B00	Open fracture thumb distal phalanx; tuft
+S261C00	Open fracture thumb distal phalanx; mallet
+S261D00	Open fracture finger proximal phalanx
+S261E00	Open fracture finger proximal phalanx; base
+S261F00	Open fracture finger proximal phalanx; shaft
+S261G00	Open fracture finger proximal phalanx; neck
+S261H00	Open fracture finger proximal phalanx; head
+S261J00	Open fracture finger proximal phalanx; multiple
+S261K00	Open fracture finger middle phalanx
+S261L00	Open fracture finger middle phalanx; base
+S261M00	Open fracture finger middle phalanx; shaft
+S261N00	Open fracture finger middle phalanx; neck
+S261P00	Open fracture finger middle phalanx; head
+S261R00	Open fracture finger distal phalanx
+S261S00	Open fracture finger distal phalanx; base
+S261T00	Open fracture finger distal phalanx; shaft
+S261U00	Open fracture finger distal phalanx; tuft
+S261V00	Open fracture finger distal phalanx; mallet
+S261W00	Open fracture finger distal phalanx; multiple
+S261x00	Open fracture of phalanx or phalanges; multiple sites
+S261z00	Open fracture of one or more phalanges of hand NOS
+S262.00	Fracture of thumb
+S263.00	Fracture of other finger
+S264.00	Multiple fractures of fingers
+S27..00	Multiple fractures of hand bones
+S270.00	Closed multiple fractures of hand bones
+S271.00	Open multiple fractures of hand bones
+S27z.00	Multiple fractures of hand bones NOS
+S28..00	Ill-defined fractures of upper limb
+S280.00	Closed ill-defined fractures of upper limb
+S281.00	Open ill-defined fractures of upper limb
+S28..11	Ill-defined fracture of arm
+S28z.00	Ill-defined fractures of upper limb NOS
+S29..11	Multiple fractures of arm
+S29..12	Multiple rib fractures
+S29..13	Multiple fractures of sternum
+S292.00	Multiple fractures of clavicle; scapula and humerus
+S292000	Closed multiple fractures of clavicle; scapula and humerus
+S292100	Open multiple fractures of clavicle; scapula and humerus
+S293.00	Multiple fractures of forearm
+S294000	Cl fractures involving multiple regions of both upper limbs
+S2B..00	Fracture of bone of hand
+S3...00	Fracture of lower limb
+S30..00	Fracture of neck of femur
+S300.00	Closed fracture proximal femur; transcervical
+S300000	Cls # prox femur; intracapsular section; unspecified
+S300100	Closed fracture proximal femur; transepiphyseal
+S300200	Closed fracture proximal femur; midcervical section
+S300300	Closed fracture proximal femur; basicervical
+S300311	Closed fracture; base of neck of femur
+S300400	Closed fracture head of femur
+S300500	Cls # prox femur; subcapital; Garden grade unspec.
+S300600	Closed fracture proximal femur; subcapital; Garden grade I
+S300700	Closed fracture proximal femur; subcapital; Garden grade II
+S300800	Closed fracture proximal femur; subcapital; Garden grade III
+S300900	Closed fracture proximal femur; subcapital; Garden grade IV
+S300A00	Closed fracture of femur; upper epiphysis
+S300y00	Closed fracture proximal femur; other transcervical
+S300y11	Closed fracture of femur; subcapital
+S300z00	Closed fracture proximal femur; transcervical; NOS
+S301.00	Open fracture proximal femur; transcervical
+S301000	Opn # proximal femur; intracapsular section; unspecified
+S30..11	Hip fracture
+S301100	Open fracture proximal femur; transepiphyseal
+S301311	Open fracture base of neck of femur
+S301400	Open fracture head; femur
+S301500	Open fracture proximal femur;subcapital; Garden grade unspec
+S301600	Open fracture proximal femur;subcapital; Garden grade I
+S301700	Open fracture proximal femur;subcapital; Garden grade II
+S301800	Open fracture proximal femur;subcapital; Garden grade III
+S301900	Open fracture proximal femur;subcapital; Garden grade IV
+S301A00	Open fracture of femur; upper epiphysis
+S301y00	Open fracture proximal femur; other transcervical
+S301y11	Open fracture of femur; subcapital
+S302.00	Closed fracture of proximal femur; pertrochanteric
+S302000	Cls # proximal femur; trochanteric section; unspecified
+S302011	Closed fracture of femur; greater trochanter
+S302012	Closed fracture of femur; lesser trochanter
+S302100	Closed fracture proximal femur; intertrochanteric; two part
+S302200	Closed fracture proximal femur; subtrochanteric
+S302300	Cls # proximal femur; intertrochanteric; comminuted
+S302400	Closed fracture of femur; intertrochanteric
+S302z00	Cls # of proximal femur; pertrochanteric section; NOS
+S303.00	Open fracture of proximal femur; pertrochanteric
+S303000	Open # of proximal femur; trochanteric section; unspecified
+S303011	Open fracture of femur; greater trochanter
+S303100	Open fracture proximal femur; intertrochanteric; two part
+S303200	Open fracture proximal femur; subtrochanteric
+S303300	Open fracture proximal femur; intertrochanteric; comminuted
+S303400	Open fracture of femur; intertrochanteric
+S303z00	Open fracture of proximal femur; pertrochanteric; NOS
+S304.00	Pertrochanteric fracture
+S305.00	Subtrochanteric fracture
+S30w.00	Closed fracture of unspecified proximal femur
+S30x.00	Open fracture of unspecified proximal femur
+S30y.00	Closed fracture of neck of femur NOS
+S30y.11	Hip fracture NOS
+S30z.00	Open fracture of neck of femur NOS
+S31..00	Other fracture of femur
+S310.00	Closed fracture of femur; shaft or unspecified part
+S310000	Closed fracture of femur; unspecified part
+S310011	Thigh fracture NOS
+S310012	Upper leg fracture NOS
+S310100	Closed fracture shaft of femur
+S310z00	Closed fracture of shaft or unspecified part; NOS
+S3...11	Leg fracture
+S311.00	Open fracture of femur; shaft or unspecified part
+S311000	Open fracture of femur; unspecified part
+S311100	Open fracture shaft of femur
+S311z00	Open fracture of femur; shaft or unspecified part; NOS
+S312.00	Closed fracture distal femur
+S312000	Closed fracture of distal femur; unspecified
+S312100	Closed fracture of femoral condyle; unspecified
+S312.11	Closed fracture of femur; distal end
+S312200	Closed fracture of femur; lower epiphysis
+S312300	Closed fracture distal femur; supracondylar
+S312400	Closed fracture distal femur; medial condyle
+S312500	Closed fracture distal femur; lateral condyle
+S312600	Closed fracture distal femur; bicondylar (T-Y fracture)
+S312x00	Closed fracture distal femur; comminuted/intra-articular
+S312z00	Closed fracture of distal femur not otherwise specified
+S313.00	Open fracture distal femur
+S313000	Open fracture distal femur; unspecified
+S313100	Open fracture of femoral condyle; unspecified
+S313.11	Open fracture of femur; distal end
+S313200	Open fracture of femur; lower epiphysis
+S313300	Open fracture distal femur; supracondylar
+S313400	Open fracture distal femur; medial condyle
+S313500	Open fracture distal femur; lateral condyle
+S313x00	Open fracture distal femur; comminuted/intra-articular
+S313z00	Open fracture of distal femur not otherwise specified
+S314.00	Fracture of shaft of femur
+S315.00	Fracture of lower end of femur
+S31z.00	Fracture of femur; NOS
+S32..00	Fracture of patella
+S320.00	Closed fracture of the patella
+S320000	Closed fracture patella; transverse
+S320100	Closed fracture patella; proximal pole
+S320200	Closed fracture patella; distal pole
+S320300	Closed fracture patella; vertical
+S320400	Closed fracture patella; comminuted (stellate)
+S321.00	Open fracture of the patella
+S321000	Open fracture patella; transverse
+S321100	Open fracture patella; proximal pole
+S321200	Open fracture patella; distal pole
+S321400	Open fracture patella; comminuted (stellate)
+S32z.00	Fracture of patella; NOS
+S33..00	Fracture of tibia and fibula
+S330.00	Closed fracture of tibia and fibula; proximal
+S330000	Closed fracture of the proximal tibia
+S330011	Closed fracture of tibial condyles
+S330012	Closed fracture of tibial tuberosity
+S330100	Closed fracture proximal fibula
+S330200	Closed fracture of tibia and fibula; proximal
+S330300	Closed fracture proximal tibia; medial condyle (plateau)
+S330400	Closed fracture proximal tibia; lateral condyle (plateau)
+S330500	Closed fracture proximal tibia; bicondylar
+S330600	Closed fracture spine; tibia
+S330700	Closed fracture tubercle; tibia
+S330800	Closed fracture fibula; head
+S330900	Closed fracture fibula; neck
+S330z00	Closed fracture of tibia and fibula; proximal NOS
+S331.00	Open fracture of tibia and fibula; proximal
+S331000	Open fracture of the proximal tibia
+S331011	Open fracture of tibial condyles
+S331012	Open fracture of tibial tuberosity
+S331100	Open fracture proximal fibula
+S331200	Open fracture of tibia and fibula; proximal
+S331300	Open fracture proximal tibia; medial condyle (plateau)
+S331400	Open fracture proximal tibia; lateral condyle (plateau)
+S331600	Open fracture spine; tibia
+S331700	Open fracture tubercle; tibia
+S331800	Open fracture fibula; head
+S331900	Open fracture fibula; neck
+S331A00	Open fracture tibial plateau
+S331z00	Open fracture of tibia and fibula; proximal NOS
+S332.00	Closed fracture of tibia/fibula; shaft
+S332000	Closed fracture shaft of tibia
+S332100	Closed fracture shaft of fibula
+S332200	Closed fracture of tibia and fibula; shaft
+S332z00	Closed fracture of tibia and fibula; shaft; NOS
+S333.00	Open fracture of tibia/fibula; shaft
+S333000	Open fracture shaft of tibia
+S333100	Open fracture shaft of fibula
+S333200	Open fracture of tibia and fibula; shaft
+S333z00	Open fracture of tibia and fibula; shaft; NOS
+S334.00	Closed fracture distal tibia
+S334000	Closed fracture distal tibia; extra-articular
+S334100	Closed fracture distal tibia; intra-articular
+S335.00	Open fracture distal tibia
+S335000	Open fracture distal tibia; extra-articular
+S335100	Open fracture distal tibia; intra-articular
+S336.00	Fracture of upper end of tibia
+S337.00	Fracture of shaft of tibia
+S338.00	Fracture of lower end of tibia
+S339.00	Fracture of fibula alone
+S339000	Closed fracture of distal fibula
+S339100	Open fracture of distal fibula
+S33B.00	Open fracture of distal tibia and fibula
+S33C.00	Closed fracture of distal tibia and fibula
+S33x.00	Closed fracture of tibia and fibula; unspecified part; NOS
+S33x000	Closed fracture of tibia; unspecified part; NOS
+S33x100	Closed fracture of fibula; unspecified part; NOS
+S33x.11	Lower leg fracture NOS
+S33x200	Closed fracture of tibia and fibula; unspecified part
+S33xz00	Closed fracture of tibia and fibula; unspecified part; NOS
+S33y.00	Open fracture of tibia and fibula; unspecified part; NOS
+S33y000	Open fracture of tibia; unspecified part; NOS
+S33y100	Open fracture of fibula; unspecified part; NOS
+S33y200	Open fracture of tibia and fibula; unspecified part
+S33yz00	Open fracture of tibia and fibula; unspecified part; NOS
+S34..00	Fracture of ankle
+S340.00	Closed fracture ankle; medial malleolus
+S341.00	Open fracture ankle; medial malleolus
+S342.00	Closed fracture ankle; lateral malleolus
+S342000	Closed fracture ankle; lateral malleolus; low
+S342100	Closed fracture ankle; lateral malleolus; high
+S343.00	Open fracture ankle; lateral malleolus
+S343000	Open fracture ankle; lateral malleolus; low
+S343100	Open fracture ankle; lateral malleolus; high
+S344.00	Closed fracture ankle; bimalleolar
+S344000	Closed fracture ankle; bimalleolar; low fibular fracture
+S344100	Closed fracture ankle; bimalleolar; high fibular fracture
+S344.11	Dupuytren's fracture; fibula
+S344.12	Pott's fracture - ankle
+S345.00	Open fracture ankle; bimalleolar
+S345000	Open fracture ankle; bimalleolar; low fibular fracture
+S345100	Open fracture ankle; bimalleolar; high fibular fracture
+S346.00	Closed fracture ankle; trimalleolar
+S346000	Closed fracture ankle; trimalleolar; low fibular fracture
+S346100	Closed fracture ankle; trimalleolar; high fibular fracture
+S347.00	Open fracture ankle; trimalleolar
+S347000	Open fracture ankle; trimalleolar; low fibular fracture
+S347100	Open fracture ankle; trimalleolar; high fibular fracture
+S349.00	Fracture of lateral malleolus
+S34x.00	Closed fracture ankle; unspecified
+S34y.00	Open fracture ankle; unspecified
+S34z.00	Fracture of ankle; NOS
+S35..00	Fracture of one or more tarsal and metatarsal bones
+S350.00	Closed fracture of calcaneus
+S350000	Closed fracture calcaneus; extra-articular
+S350100	Closed fracture calcaneus; intra-articular
+S350.11	Heel bone fracture
+S350.12	Os calcis fracture
+S351.00	Open fracture of calcaneus
+S35..11	Metatarsal bone fracture
+S351100	Open fractures calcaneus; intra-articular
+S35..12	Tarsal bone fracture
+S352.00	Closed fracture of other tarsal and metatarsal bones
+S352000	Closed fracture of tarsal bone; unspecified
+S352100	Closed fracture of talus
+S352.11	March fracture
+S352111	Closed fracture of astragalus
+S352200	Closed fracture navicular
+S352300	Closed fracture cuboid
+S352400	Closed fracture medial cuneiform
+S352500	Closed fracture intermediate cuneiform
+S352600	Closed fracture lateral cuneiform
+S352700	Closed fracture metatarsal
+S352800	Closed fracture talus; head
+S352900	Closed fracture talus; neck
+S352A00	Closed fracture talus; body
+S352B00	Closed fracture metatarsal base
+S352C00	Closed fracture metatarsal shaft
+S352D00	Closed fracture metatarsal neck
+S352E00	Closed fracture metatarsal head
+S352F00	Closed fracture metatarsal; multiple
+S352G00	Closed tarsal fractures; multiple
+S352H00	Closed fracture of cuneiforms
+S352J00	Closed fracture of base of fifth metatarsal
+S352z00	Closed fracture of one or more tarsal + metatarsal bones NOS
+S353.00	Open fracture of other tarsal and metatarsal bones
+S353000	Open fracture of tarsal bone; unspecified
+S353100	Open fracture of talus
+S353200	Open fracture navicular
+S353300	Open fracture cuboid
+S353400	Open fracture medial cuneiform
+S353500	Open fracture intermediate cuneiform
+S353600	Open fracture lateral cuneiform
+S353700	Open fracture metatarsal
+S353800	Open fracture talus; head
+S353900	Open fracture talus; neck
+S353A00	Open fracture talus; body
+S353B00	Open fracture metatarsal base
+S353C00	Open fracture metatarsal shaft
+S353D00	Open fracture metatarsal neck
+S353E00	Open fracture metatarsal head
+S353F00	Open fracture metatarsal; multiple
+S353H00	Open fracture cuneiforms
+S353J00	Open fracture of base of fifth metatarsal
+S353z00	Open fracture of tarsal and metatarsal bones NOS
+S355.00	Fracture of talus
+S356.00	Fracture of metatarsal bone
+S36..00	Fracture of one or more phalanges of foot
+S360.00	Closed fracture of one or more phalanges of foot
+S360000	Closed fracture proximal phalanx; toe
+S360100	Closed fracture middle phalanx; toe
+S360200	Closed fracture distal phalanx; toe
+S360300	Closed fracture multiple phalanges; toe
+S361.00	Open fracture of one or more phalanges of foot
+S361000	Open fracture proximal phalanx; toe
+S36..11	Toe fracture
+S361100	Open fracture middle phalanx; toe
+S361200	Open fracture distal phalanx; toe
+S361300	Open fracture multiple phalanges; toe
+S362000	Closed fracture of great toe
+S362100	Open fracture of great toe
+S363.00	Fracture of other toe
+S370.00	Closed fracture of lower limb; level unspecified
+S371.00	Open fracture of lower limb; level unspecified
+S3x..00	Other; multiple and ill-defined fractures of lower limb
+S3x0.00	Other; multiple and ill-defined closed fractures lower limb
+S3x1.00	Other; multiple and ill-defined open fractures of lower limb
+S3x2.00	Multiple fractures of femur
+S3x3.00	Multiple fractures of lower leg
+S3x4.00	Multiple fractures of foot
+S3xz.00	Other; multiple and ill-defined fractures of lower limb NOS
+S3z..00	Fracture of unspecified bones
+S3z0.00	Closed fracture of bones; unspecified
+S3z0000	Greenstick fracture
+S3z1.00	Open fracture of bones; unspecified
+S3z..11	Fracture NOS
+S3z2.00	Stress fracture
+S3zz.00	Fracture of bones NOS
+S4...13	Fracture dislocations and fracture subluxations
+S4A..00	Fracture-dislocation or subluxation shoulder
+S4A0.00	Closed fracture-dislocation shoulder
+S4A0000	Closed fracture-dislocation shoulder joint
+S4A0100	Closed fracture-dislocation acromio-clavicular joint
+S4A1.00	Open fracture-dislocation shoulder
+S4A1000	Open fracture-dislocation shoulder joint
+S4A1100	Open fracture-dislocation acromio-clavicular joint
+S4A2.00	Closed fracture-subluxation shoulder
+S4A2000	Closed fracture-subluxation shoulder joint
+S4A2100	Closed fracture-subluxation acromio-clavicular joint
+S4A3.00	Open fracture-subluxation shoulder
+S4A3100	Open fracture-subluxation acromio-clavicular joint
+S4B0.00	Closed fracture-dislocation elbow
+S4B0000	Closed fracture-dislocation elbow joint
+S4B0100	Closed fracture-dislocation superior radio-ulnar joint
+S4B1.00	Open fracture-dislocation elbow
+S4B1000	Open fracture-dislocation elbow joint
+S4B1100	Open fracture-dislocation superior radio-ulnar joint
+S4B2.00	Closed fracture-subluxation elbow
+S4B2000	Closed fracture-subluxation elbow joint
+S4B2100	Closed fracture-subluxation superior radio-ulnar joint
+S4B3.00	Open fracture-subluxation elbow
+S4C..00	Fracture-dislocation or subluxation of wrist
+S4C0.00	Closed fracture dislocation of wrist
+S4C0000	Closed fracture-dislocation distal radio-ulnar joint
+S4C0100	Closed fracture-dislocation radiocarpal joint
+S4C0200	Closed fracture-dislocation mid carpal
+S4C0300	Closed fracture-dislocation; carpometacarpal joint
+S4C0400	Closed fracture-dislocation lunate (volar)
+S4C0500	Closed fracture-dislocation peri-lunate (dorsal)
+S4C0600	Closed fracture-dislocation peri-lunate trans-scaphoid
+S4C1.00	Open fracture dislocation wrist
+S4C1000	Open fracture-dislocation; distal radio-ulnar joint
+S4C1100	Open fracture-dislocation radiocarpal joint
+S4C1300	Open fracture-dislocation carpometacarpal joint
+S4C1600	Open fracture-dislocation peri-lunate trans-scaphoid
+S4C2.00	Closed fracture-subluxation of the wrist
+S4C2000	Closed fracture-subluxation; distal radio-ulnar jt
+S4C2100	Closed fracture-subluxation radiocarpal joint
+S4C2200	Closed fracture-subluxation mid carpal
+S4C2300	Closed fracture-subluxation; carpometacarpal joint
+S4C2400	Closed fracture-subluxation lunate (volar)
+S4C2600	Closed fracture-subluxation peri-lunate trans-scaphoid
+S4C2y00	Closed fracture-subluxation other carpal
+S4C3.00	Open fracture-subluxation of the wrist
+S4C3000	Open fracture-subluxation; distal radio-ulnar joint
+S4C3100	Open fracture-subluxation radiocarpal joint
+S4C3300	Open fracture-subluxation; carpometacarpal joint
+S4C3600	Open fracture-subluxation peri-lunate trans-scaphoid
+S4D..00	Fracture-dislocation/subluxation finger/thumb
+S4D0.00	Closed fracture-dislocation digit
+S4D0000	Closed fracture-dislocation digit; unspecified
+S4D0100	Closed fracture-dislocation; metacarpophalangeal joint
+S4D0200	Closed fracture-dislocation IPJ; unspecified
+S4D0300	Closed fracture-dislocation; distal interphalangeal joint
+S4D0400	Closed fracture-dislocation; proximal interphalangeal joint
+S4D0500	Closed fracture-dislocation; interphalangeal joint thumb
+S4D0600	Closed fracture-dislocation multiple digits
+S4D1.00	Open fracture-dislocation digit
+S4D1000	Open fracture-dislocation digit; unspecified
+S4D1100	Open fracture-dislocation; metacarpophalangeal joint
+S4D1200	Open fracture-dislocation IPJ; unspecified
+S4D1300	Open fracture-dislocation; distal interphalangeal joint
+S4D1400	Open fracture-dislocation; proximal interphalangeal joint
+S4D1500	Open fracture-dislocation; interphalangeal joint thumb
+S4D1600	Open fracture-dislocation multiple digits
+S4D2.00	Closed fracture-subluxation digit
+S4D2000	Closed fracture-subluxation digit; unspecified
+S4D2100	Closed fracture-subluxation; metacarpophalangeal joint
+S4D2200	Closed fracture-subluxation IPJ; unspecified
+S4D2300	Closed fracture-subluxation; distal interphalangeal joint
+S4D2400	Closed fracture-subluxation; proximal interphalangeal joint
+S4D2500	Closed fracture-subluxation; interphalangeal joint thumb
+S4D2600	Closed fracture-subluxation multiple digits
+S4D3.00	Open fracture-subluxation digit
+S4D3100	Open fracture-subluxation; metacarpophalangeal joint
+S4D3300	Open fracture-subluxation; distal interphalangeal joint
+S4D3400	Open fracture-subluxation; proximal interphalangeal joint
+S4D3500	Open fracture-subluxation; interphalangeal joint thumb
+S4D3600	Open fracture-subluxation multiple digits
+S4E0.00	Closed fracture-dislocation; hip joint
+S4E1.00	Open fracture-dislocation; hip joint
+S4E2.00	Closed fracture-subluxation; hip joint
+S4F..00	Fracture-dislocation or subluxation knee
+S4F0.00	Closed fracture-dislocation; knee joint
+S4F1.00	Open fracture-dislocation; knee joint
+S4F2.00	Closed fracture-subluxation; knee joint
+S4F3.00	Open fracture-subluxation; knee joint
+S4F4.00	Closed fracture-dislocation; patello-femoral joint
+S4F5.00	Open fracture-dislocation; patello-femoral joint
+S4F6.00	Closed fracture-subluxation; patello-femoral joint
+S4F7.00	Open fracture-subluxation; patello-femoral joint
+S4G0.00	Closed fracture-dislocation; ankle joint
+S4G1.00	Open fracture-dislocation; ankle joint
+S4G2.00	Closed fracture-subluxation; ankle joint
+S4G3.00	Open fracture-subluxation; ankle joint
+S4H0.00	Closed fracture-dislocation foot
+S4H0000	Closed fracture-dislocation; subtalar joint
+S4H0100	Closed fracture-dislocation; midtarsal joint
+S4H0200	Closed fracture-dislocation; tarsometatarsal joint
+S4H0400	Closed fracture-dislocation; IPJ; single toe
+S4H0600	Closed fracture-dislocation; IPJ; multiple toes
+S4H1.00	Open fracture-dislocation; foot
+S4H1000	Open fracture-dislocation; subtalar joint
+S4H1100	Open fracture-dislocation; midtarsal joint
+S4H1200	Open fracture-dislocation; tarsometatarsal joint
+S4H1300	Open fracture-dislocation; metatarsophalangeal joint; single
+S4H1400	Open fracture-dislocation; IPJ; single toe
+S4H1600	Open fracture-dislocation; IPJ; multiple toes
+S4H2.00	Closed fracture-subluxation; foot
+S4H2000	Closed fracture-subluxation; subtalar joint
+S4H2100	Closed fracture-subluxation; midtarsal joint
+S4H2200	Closed fracture-subluxation; tarsometatarsal joint
+S4H2400	Closed fracture-subluxation; IPJ; single toe
+S4H2600	Closed fracture-subluxation; IPJ; multiple toes
+S4H3.00	Open fracture-subluxation; foot
+S4H3300	Open fracture-subluxation; metatarsophalangeal joint; single
+S4H3400	Open fracture-subluxation; IPJ; single toe
+S4J..00	Other fracture-dislocation or subluxation
+S4J0.00	Other closed fracture-dislocation
+S4J0000	Closed fracture-dislocation of sternum
+S4J0100	Closed fracture-dislocation of pelvis
+S4J1.00	Other open fracture-dislocation
+S4J1000	Open fracture-dislocation of sternum
+S4J1100	Open fracture-dislocation of pelvis
+S4J1200	Open fracture-dislocation sterno-clavicular joint; anterior
+S4J2.00	Other closed fracture-subluxation
+S4J2000	Closed fracture-subluxation of sternum
+S4J2100	Closed fracture-subluxation of pelvis
+S4J3.00	Other open fracture-subluxation
+S4J3000	Open fracture-subluxation of sternum
+S4J3100	Open fracture-subluxation of pelvis
+SC0X.00	Sequelae of other fracture of thorax and pelvis
+SC0z.11	Delayed union of fracture
+SC3C000	Sequelae of fracture at wrist and hand level
+SC3D400	Sequelae of fracture of femur
+SR10000	Closed fractures involving head with neck
+SR11.00	Fractures involving thorax with lower back and pelvis
+SR12000	Closed fractures involving multiple regions of one upp limb
+SR15000	Cl fractures involving multiple regions upper with lower lmb
+SR16000	Closed fracture inv thorax wth low back and pelvis and limbs
+SR1z.00	Multiple fractures; unspecified
+SR1z000	[X]Closed multiple fractures unspecified
+SR1z100	[X]Open multiple fractures unspecified
+Syu4200	[X]Multiple fractures of clavicle; scapula and humerus
+Syu4300	[X]Fracture of other parts of shoulder and upper arm
+Syu4400	[X]Fracture of shoulder and upper arm; unspecified
+Syu5300	[X]Fracture of other parts of forearm
+Syu5400	[X]Fracture of forearm; unspecified
+Syu6500	[X]Fracture of other & unspecified parts of wrist and hand
+SyuL400	[X]Sequelae of other fractures of lower limb
+TC7..00	Fracture; cause unspecified
+Zw02400	[Q] Stress fracture
+Zw02D00	[Q] Open fracture grade 1
+Zw02E00	[Q] Open fracture grade 2
+7J42H00	Revision to other external stabilisation of spinal fracture
+7J42Q00	Primary closed reduction spinal fracture and other external stabilisation
+7J43D00	Revision to open reduction spinal fracture and other internal fixation
+7K1DD00	Primary open reduction of fracture and intramedullary nail fixation
+7K1E.00	Primary open reduction of fracture of bone and extramedullary fixation
+7K1E300	Primary open reduction of fracture of long bone and complex extramedullary fixation NEC
+7K1Ey00	Primary open reduction of fracture and other internal(extramedullary) fixation
+7K1H000	Secondary open reduction of fracture of bone and intramedullary fixation however further qualified
+7K1H100	Secondary open reduction of fracture of bone and extramedullary fixation however further qualified
+7K1H300	Secondary open reduction of fracture of bone and skeletal traction however further qualified
+7K1HF00	Revision to open reduction of fracture and other external immobilisation
+7K1J200	Closed reduction of fracture of long bone and flexible internal fixation however further qualified
+7K1Ja00	Revision to closed reduction of fracture and other internal fixation
+7K1JR00	Primary closed reduction of fracture and internal fixation with wire
+7K1JT00	Primary closed reduction of fracture and other internal fixation
+7K1JY00	Revision to closed reduction of fracture and internal fixation with wire
+7K1KH00	Primary closed reduction of fracture and other external immobilisation
+7K1Y200	Remanipulation of fracture of long bone and flexible internal fixation HFQ
+7K1Yz00	Secondary closed reduction of fracture of bone and internal fixation NOS
+7K6FL00	Primary open reduction of fracture dislocation and other external immobilisation
+7K6FP00	Primary open reduction of fracture dislocation and other joint stabilisation
+7K6G200	Primary manipulative closed reduction of fracture dislocation of joint NEC
+7K6Gd00	Primary closed reduction of fracture dislocation and other external immobilisation
+7K6Hd00	Revision to open reduction of fracture dislocation and other external immobilisation
+7K6Hg00	Revision to open reduction of fracture dislocation and other stabilisation of joint
+7K6HW00	Revision to closed reduction of fracture dislocation and other external immobilisation
+N338z00	Fracture malunion or nonunion NOS
+NyuCE00	[X]Fracture of bone in neoplastic diseases classified elsewhere
+S000000	Closed fracture of vault of skull without mention of intracranial injury, state of consciousness unspecified
+S000100	Closed fracture of vault of skull without mention of intracranial injury, with no loss of consciousness
+S000200	Closed fracture of vault of skull without mention of intracranial injury, with less than 1 hour loss of consciousness
+S000300	Closed fracture of vault of skull without mention of intracranial injury, with 1-24 hours loss of consciousness
+S000400	Closed fracture of vault of skull without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S000500	Closed fracture of vault of skull without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S000600	Closed fracture of vault of skull without mention of intracranial injury, with loss of consciousness of unspecified duration
+S000z00	Closed fracture of vault of skull without mention of intracranial injury, with concussion, unspecified
+S001000	Closed fracture of vault of skull with intracranial injury, state of consciousness unspecified
+S001600	Closed fracture of vault of skull with intracranial injury, with loss of consciousness of unspecified duration
+S001z00	Closed fracture of vault of skull with intracranial injury, with concussion, unspecified
+S002000	Open fracture of vault of skull without mention of intracranial injury, state of consciousness unspecified
+S002100	Open fracture of vault of skull without mention of intracranial injury, with no loss of consciousness
+S002200	Open fracture of vault of skull without mention of intracranial injury, with less than 1 hour loss of consciousness
+S002300	Open fracture of vault of skull without mention of intracranial injury, with 1-24 hours loss of consciousness
+S002400	Open fracture of vault of skull without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing level of consciousness
+S002500	Open fracture of vault of skull without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S002600	Open fracture of vault of skull without mention of intracranial injury, with loss of consciousness of unspecified duration
+S002z00	Open fracture of vault of skull without mention of intracranial injury, with concussion, unspecified
+S003000	Open fracture of vault of skull with intracranial injury, unspecified state of consciousness
+S003600	Open fracture of vault of skull with intracranial injury, with loss of consciousness of unspecified duration
+S003z00	Open fracture of vault of skull with intracranial injury, with concussion, unspecified
+S010000	Closed fracture of base of skull without mention of intracranial injury, unspecified state of consciousness
+S010100	Closed fracture of base of skull without mention of intracranial injury, with no loss of consciousness
+S010200	Closed fracture of base of skull without mention of intracranial injury, with less than 1 hour loss of consciousness
+S010300	Closed fracture of base of skull without mention of intracranial injury, with 1-24 hours loss of consciousness
+S010400	Closed fracture of base of skull without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S010500	Closed fracture of base of skull without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S010600	Closed fracture of base of skull without mention of intracranial injury, with loss of consciousness of unspecified duration
+S010z00	Closed fracture of base of skull without mention of intracranial injury, with concussion, unspecified
+S011000	Closed fracture of base of skull with intracranial injury, unspecified state of consciousness
+S011600	Closed fracture of base of skull with intracranial injury, with loss of consciousness of unspecified duration
+S011z00	Closed fracture of base of skull with intracranial injury, with concussion, unspecified
+S012000	Open fracture of base of skull without mention of intracranial injury, unspecified state of consciousness
+S012100	Open fracture of base of skull without mention of intracranial injury, with no loss of consciousness
+S012200	Open fracture of base of skull without mention of intracranial injury, with less than 1 hour loss of consciousness
+S012300	Open fracture of base of skull without mention of intracranial injury, with 1-24 hours loss of consciousness
+S012400	Open fracture of base of skull without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S012500	Open fracture of base of skull without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S012600	Open fracture of base of skull without mention of intracranial injury, with loss of consciousness of unspecified duration
+S012z00	Open fracture of base of skull without mention of intracranial injury, with concussion, unspecified
+S013000	Open fracture of base of skull with intracranial injury, unspecified state of consciousness
+S013600	Open fracture of base of skull with intracranial injury, with loss of consciousness of unspecified duration
+S013z00	Open fracture of base of skull with intracranial injury, with concussion, unspecified
+S023.00	Fracture of mandible, open
+S023.11	Fracture of lower jaw, open
+S023z00	Fracture of mandible, open, NOS
+S024z00	Fracture of malar or maxillary bones, closed, NOS
+S025z00	Fracture of malar or maxillary bones, open, NOS
+S02xz00	Fracture of other facial bones, closed, NOS
+S02yz00	Fracture of other facial bones,open, NOS
+S032.00	Open fracture of skull NOS without mention of intracranial injury
+S032000	Open fracture of skull NOS without mention of intracranial injury, unspecified state of consciousness
+S032100	Open fracture of skull NOS without mention of intracranial injury, with no loss of consciousness
+S032200	Open fracture of skull NOS without mention of intracranial injury, with less than 1 hour loss of consciousness
+S032300	Open fracture of skull NOS without mention of intracranial injury, with 1-24 hours loss of consciousness
+S032400	Open fracture of skull NOS without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S032500	Open fracture of skull NOS without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S032600	Open fracture of skull NOS without mention of intracranial injury, with loss of consciousness of unspecified duration
+S032z00	Open fracture of skull NOS without mention of intracranial injury, with concussion, unspecified
+S033000	Open fracture of skull NOS with intracranial injury, unspecified state of consciousness
+S033100	Open fracture of skull NOS with intracranial injury, with no loss of consciousness
+S033200	Open fracture of skull NOS with intracranial injury, with less than 1 hour loss of consciousness
+S033300	Open fracture of skull NOS with intracranial injury, with 1-24 hours loss of consciousness
+S033400	Open fracture of skull NOS with intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S033500	Open fracture of skull NOS with intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S033600	Open fracture of skull NOS with intracranial injury, with loss of consciousness of unspecified duration
+S033z00	Open fracture of skull NOS with intracranial injury, with concussion, unspecified
+S040.00	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury
+S040000	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, unspecified state of consciousness
+S040100	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with no loss of consciousness
+S040200	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with less than 1 hour loss of consciousness
+S040300	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with 1-24 hours loss of consciousness
+S040400	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S040500	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious leve
+S040600	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with loss of consciousness of unspecified duration
+S040z00	Multiple closed fractures involving skull or face with other bones without mention of intracranial injury, with concussion, unspecified
+S041.00	Multiple closed fractures involving skull or face with other bones with intracranial injury
+S041000	Multiple closed fractures involving skull or face with other bones with intracranial injury, unspecified state of consciousness
+S041100	Multiple closed fractures involving skull or face with other bones with intracranial injury, with no loss of consciousness
+S041200	Multiple closed fractures involving skull or face with other bones with intracranial injury, with less than 1 hour loss of consciousness
+S041300	Multiple closed fractures involving skull or face with other bones with intracranial injury, with 1-24 hours loss of consciousness
+S041400	Multiple closed fractures involving skull or face with other bones with intracranial injury, with more than 24 hours loss of consciousness and return to pre-existing conscious level
+S041500	Multiple closed fractures involving skull or face with other bones with intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S041600	Multiple closed fractures involving skull or face with other bones with intracranial injury, with loss of consciousness of unspecified duration
+S041z00	Multiple closed fractures involving skull or face with other bones with intracranial injury, with concussion, unspecified
+S042.00	Multiple open fractures involving skull or face with other bones without mention of intracranial injury
+S042000	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, unspecified state of consciousness
+S042100	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with no loss of consciousness
+S042200	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with less than 1 hour loss of consciousness
+S042300	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with 1-24 hours loss of consciousness
+S042400	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with more than 24 hours loss of consciousness with return to pre-existing conscious level
+S042500	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S042600	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with loss of consciousness of unspecified duration
+S042z00	Multiple open fractures involving skull or face with other bones without mention of intracranial injury, with concussion, unspecified
+S043.00	Multiple open fractures involving skull or face with other bones with intracranial injury
+S043000	Multiple open fractures involving skull or face with other bones with intracranial injury, unspecified state of consciousness
+S043100	Multiple open fractures involving skull or face with other bones with intracranial injury, with no loss of consciousness
+S043200	Multiple open fractures involving skull or face with other bones with intracranial injury, with less than 1 hour loss of consciousness
+S043300	Multiple open fractures involving skull or face with other bones with intracranial injury, with 1-24 hours loss of consciousness
+S043400	Multiple open fractures involving skull or face with other bones with intracranial injury, with more than 24 hours loss of consciousness and return of pre-existing conscious level
+S043500	Multiple open fractures involving skull or face with other bones with intracranial injury, with more than 24 hours loss of consciousness without return to pre-existing conscious level
+S043600	Multiple open fractures involving skull or face with other bones with intracranial injury, with loss of consciousness of unspecified duration
+S043z00	Multiple open fractures involving skull or face with other bones with intracranial injury, with concussion, unspecified
+S0z..00	Fracture of skull NOS
+S101z00	Open fracture of cervical spine not otherwise specified
+S10B300	Fracture of ilium
+S111z00	Open fracture of cervical spine with spinal cord lesion NOS
+S112500	Closed spinal fracture with incomplete thoracic cord lesion, T1-6 not otherwise specified
+S112B00	Closed spinal fracture with incomplete thoracic cord lesion,T7-12 not otherwise specified
+S113500	Open spinal fracture with incomplete thoracic cord lesion, T1-6 not otherwise specified
+S113600	Open spinal fracture with unspecified thoracic cord lesion, T7-12
+S113B00	Open spinal fracture with incomplete thoracic cord lesion, T7-12 not otherwise specified
+S113z00	Open fracture of thoracic spine with spinal cord lesion NOS
+S115000	Open spinal fracture with unspecified lumbar cord lesion
+S115z00	Open spinal fracture with incomplete lumbar cord lesion not otherwise specified
+S116000	Closed fracture of sacrum with unspecified spinal cord lesion
+S116200	Closed fracture of sacrum with other cauda equina injury
+S116300	Closed fracture of sacrum with other spinal cord injury
+S117000	Open fracture of sacrum with unspecified spinal cord lesion
+S117200	Open fracture of sacrum with other cauda equina injury
+S117z00	Open fracture of sacrum with spinal cord lesion NOS
+S118000	Closed fracture of coccyx with unspecified spinal cord lesion
+S118200	Closed fracture of coccyx with other cauda equina injury
+S118300	Closed fracture of coccyx with other spinal cord injury
+S11y.00	Open fracture of spine with spinal cord lesion unspecified
+S12X100	Open fracture of bony thorax part unspecified
+S12y.00	Fracture of other parts of bony thorax
+S12y100	Open fracture of other parts of bony thorax
+S131600	Open fracture acetabulum, double column unspecified
+S1z..00	Fracture of neck and trunk NOS
+S20z.00	Fracture of clavicle NOS
+S21z.00	Fracture of scapula NOS
+S241y00	Open fracture of other carpal bone
+S24z.00	Fracture of carpal bone NOS
+S260200	Closed fracture of distal phalanx or phalanges, unspecified part
+S261100	Open fracture of middle or proximal phalanx or phalanges, unspecified part
+S261200	Open fracture of distal phalanx or phalanges, unspecified part
+S2A..00	Fracture of upper limb, level unspecified
+S2z..00	Fracture of upper limb NOS
+S301z00	Open fracture proximal femur, transcervical, not otherwise specified
+S33z.00	Fracture of tibia and fibula, NOS
+S354.00	Fracture of calcaneus
+S35z.00	Fracture of tarsal and metatarsal bones NOS
+S36z.00	Fracture of one or more phalanges of foot NOS
+S37..00	Fracture of lower limb, level unspecified
+S3X..00	Fracture of lower leg, part unspecified
+S3y..00	Multiple fractures involving both lower limbs, lower with upper limb, and lower limb(s) with rib(s) and sternum
+S3yz.00	Multiple fractures involving both lower limbs, lower with upper limb, and lower limb(s) with rib(s) and sternum, NOS
+S4A3000	Open fracture-subluxation shoulder joint
+S4B3000	Open fracture-subluxation elbow joint
+S4C0y00	Closed fracture-dislocation other carpal
+S4C1y00	Open fracture-dislocation other carpal
+S4C3y00	Open fracture-subluxation other carpal
+S4D3000	Open fracture-subluxation digit, unspecified
+S4D3200	Open fracture-subluxation, interphalangeal joint, unspecified
+S4z..00	Dislocation or subluxation not otherwise specified
+SB30X00	Injury of unspecified blood vessel at shoulder and upper arm level
+SC03.00	Late effect of fracture neck of femur
+SCW..00	Sequelae of unspecified injury of neck and trunk
+SK13.00	Other elbow, forearm and wrist injuries
+SK13111	Injury arm
+SK13z00	Other elbow, wrist and forearm injuries NOS
+SK1CW00	Injury of unspecified muscle and tendon at wrist and hand level
+Syu1500	[X]Fracture of other specified cervical vertebra
+Syu1600	[X]Fracture of other parts of neck
+Syu2.00	[X]Injuries to the thorax
+Syu2400	[X]Superficial injury of other and unspecified parts of thorax
+Syu2700	[X]Fracture of other parts of bony thorax
+Syu2L00	[X]Other specified injuries of thorax
+Syu3400	[X]Fracture of other and unspecified parts of lumbar spine and pelvis
+Syu4500	[X]Dislocation of other and unspecified parts of shoulder girdle
+Syu4900	[X]Injury of other blood vessels at shoulder and upper arm level
+Syu4A00	[X]Injury of unspecified blood vessel at shoulder and upper arm level
+Syu4B00	[X]Injury of other muscles and tendons at shoulder and upper arm level
+Syu4C00	[X]Injury of unspecified muscle and tendon at shoulder and upper arm level
+Syu5F00	[X]Other specified injuries of elbow and forearm
+Syu5G00	[X]Unspecified injury of elbow and forearm
+Syu6300	[X]Fracture of other carpal bone(s)
+Syu6400	[X]Fracture of other metacarpal bone
+Syu6B00	[X]Injury of extensor muscle and tendon of other finger at wrist and hand level
+Syu6C00	[X]Injury of intrinsic muscle and tendon of other finger at wrist and hand level
+Syu6D00	[X]Injury of other muscles and tendons at wrist and hand level
+Syu6E00	[X]Injury of unspecified muscle and tendon at wrist and hand level
+Syu6L00	[X]Other specified injuries of wrist and hand
+Syu7200	[X]Fractures of other parts of femur
+Syu8300	[X]Fractures of other parts of lower leg
+Syu8D00	[X]Fracture of lower leg, part unspecified
+Syu9400	[X]Fracture of other tarsal bones
+SyuB200	[X]Other specified injuries of arm, level unspecified
+SyuBB00	[X]Fracture of unspecified body region
+SyuBK00	[X]Dislocation sprain/strain unspecified joint and ligament upper limb level unspecified
+SyuBN00	[X]Unspecified injury of upper limb, level unspecified
+SyuL100	[X]Sequelae of other fracture of thorax and pelvis
+SyuL200	[X]Sequelae of other specified injuries of neck and trunk
+SyuLC00	[X]Sequelae of unspecified injury of neck and trunk

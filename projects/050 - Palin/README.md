@@ -48,7 +48,7 @@ This project required the following reusable queries:
 - Sex
 - Year of birth
 - Classify secondary admissions
-- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+- Create table of patients who are registered with a GM GP
 
 Further details for each query can be found below.
 
@@ -472,7 +472,7 @@ _File_: `query-classify-secondary-admissions.sql`
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 
 ---
-### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+### Create table of patients who are registered with a GM GP
 undefined
 
 _Input_
@@ -967,14 +967,13 @@ LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://g
 Any diagnosis of gestational diabetes.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.4% - 0.5%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.51% - 0.74%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 2629848    |    13962 (0.53%) |     13940 (0.53%) |
-| 2021-10-13 | TPP             | 211812     |     1158 (0.55%) |      1156 (0.55%) |
-| 2021-10-13 | Vision          | 338205     |     1402 (0.41%) |       290 (0.09%) |
-
+| 2023-09-20 | EMIS | 2466262 | 15451 (0.626%) | 15457 (0.627%) | 
+| 2023-09-20 | TPP | 200680 | 1489 (0.742%) | 1490 (0.742%) | 
+| 2023-09-20 | Vision | 332105 | 1694 (0.51%) | 1640 (0.494%) | 
 LINK: [https://github.com/rw251/.../conditions/gestational-diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1)
 
 ### Pre-eclampsia
@@ -1004,13 +1003,15 @@ Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/su
 **NB: This code set is intended to only indicate a patient's haemoglobin values.**
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `61% - 68.1%` suggests that this code set is likely well defined.
+
+update:
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
-| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
-| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+| 2023-09-18 | EMIS | 2463856 | 1501968 (61%) | 1502094 (61%) | 
+| 2023-09-18 | TPP | 200590 | 136648 (68.1%) | 136654 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 206665 (62.2%) | 206678 (62.2%) | 
 LINK: [https://github.com/rw251/.../tests/haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1)
 
 ### White blood cells
@@ -1020,13 +1021,13 @@ This code set only includes codes that are accompanied by a value (e.g. `42H.. -
 Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.89% - 63.21%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.9% - 68.1%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-21 | EMIS            | 2604007    | 1592011 (59.89%) |  1592011 (59.89%) |
-| 2022-03-21 | TPP             | 132189     |  132189 (62.16%) |   135713 (62.16%) |
-| 2022-03-21 | Vision          | 333730     |  215935 (63.21%) |   215935 (63.21%) |
+| 2023-09-18 | EMIS | 2463856 | 1476970 (59.9%) | 1475393 (59.9%) | 
+| 2023-09-18 | TPP | 200590 | 136584 (68.1%) | 136587 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 208915 (62.9%) | 208785 (62.9%) | 
 
 LINK: [https://github.com/rw251/.../tests/white-blood-cells/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/white-blood-cells/1)
 
@@ -1037,13 +1038,13 @@ This code set only includes codes that are accompanied by a value (e.g. `426Z.00
 Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 63.24%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `60.7% - 68.1%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-21 | EMIS            | 2604007    | 1585945 (59.66%) |  1585945 (59.66%) |
-| 2022-03-21 | TPP             | 132189     |  132068 (62.10%) |   132068 (62.10%) |
-| 2022-03-21 | Vision          | 333730     |  216011 (63.24%) |   216011 (63.24%) |
+| 2023-09-18 | EMIS | 2463856 | 1494757 (60.7%) | 1494900 (60.7%) | 
+| 2023-09-18 | TPP | 200590 | 136506 (68.1%) | 136513 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 208929 (62.9%) | 208946 (62.9%) | 
 
 
 LINK: [https://github.com/rw251/.../tests/red-blood-cells/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/red-blood-cells/1)
@@ -1055,13 +1056,13 @@ This code set only includes codes that are accompanied by a value (e.g. `42PZ. -
 Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.80 - 62.19%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%60.7 - 68%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-21 | EMIS            | 2658131    | 1589471 (59.80%) |  1589471 (59.80%) |
-| 2022-03-21 | TPP             | 212662     |  132101 (62.12%) |   132101 (62.12%) |
-| 2022-03-21 | Vision          | 341594     |  212437 (62.19%) |   212437 (62.19%) |
+| 2023-09-19 | EMIS | 2466262 | 1495899 (60.7%) | 1496040 (60.7%) | 
+| 2023-09-19 | TPP | 200680 | 136474 (68%) | 136481 (68%) | 
+| 2023-09-19 | Vision | 332105 | 205855 (62%) | 205868 (62%) | 
 LINK: [https://github.com/rw251/.../tests/platelets/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/platelets/1)
 
 ### Haematocrit
@@ -1089,13 +1090,13 @@ This code set only includes codes that are accompanied by a value (e.g. `42A..11
 Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%59.64 - 62.10%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `60.65 - 68%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-29 | EMIS            | 2659647    | 1586204 (59.64%) |  1586204 (59.64%) |
-| 2022-03-29 | TPP             | 212621     |  132039 (62.10%) |   132039 (62.10%) |
-| 2022-03-29 | Vision          | 341774     |  211983 (62.02%) |   211983 (62.02%) |
+| 2023-09-20 | EMIS | 2466262 | 1493789 (60.6%) | 1493877 (60.6%) | 
+| 2023-09-20 | TPP | 200680 | 136466 (68%) | 136468 (68%) | 
+| 2023-09-20 | Vision | 332105 | 205565 (61.9%) | 205584 (61.9%) | 
 
 LINK: [https://github.com/rw251/.../tests/mean-corpuscular-volume/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/mean-corpuscular-volume/1)
 
@@ -1164,6 +1165,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-05-19 | TPP             | 212696     |  26798 (12.60%)  |   26763 (12.58%)  |
 | 2022-05-19 | Vision          | 342344     |   10231 (2.99%)  |     9915 (2.90%)  |
 
+| 2023-09-20 | EMIS | 2466262 | 37760 (1.53%) | 37858 (1.54%) | 
+| 2023-09-20 | TPP | 200680 | 29414 (14.7%) | 29424 (14.7%) | 
+| 2023-09-20 | Vision | 332105 | 5714 (1.72%) | 5723 (1.72%) | 
 LINK: [https://github.com/rw251/.../tests/urine-blood/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1)
 
 ### Urine protein
@@ -1205,17 +1209,15 @@ LINK: [https://github.com/rw251/.../tests/urine-ketones/1](https://github.com/rw
 This code set includes codes that indicate the result of a urine glucose test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `18.22% - 22.21%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.71% - 22.9%` suggests that this code set is missing codes.
 
 
-update
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-11 | EMIS            | 2662570    |  591452 (22.21%) |  591452 (22.21%)  |
-| 2022-05-11 | TPP             | 212696     |   38745 (18.22%) |   38745 (18.22%)  |
-| 2022-05-11 | Vision          | 342344     |   72806 (21.27%) |   72806 (21.27%)  |
-
+| 2023-09-20 | EMIS | 2466262 | 42174 (1.71%) | 42265 (1.71%) | 
+| 2023-09-20 | TPP | 200680 | 45942 (22.9%) | 45953 (22.9%) | 
+| 2023-09-20 | Vision | 332105 | 6499 (1.96%) | 6498 (1.96%) | 
 
 LINK: [https://github.com/rw251/.../tests/urine-glucose/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-glucose/1)
 

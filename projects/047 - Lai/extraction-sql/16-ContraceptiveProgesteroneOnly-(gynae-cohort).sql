@@ -199,7 +199,7 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = '2022-06-01';
+SET @EndDate = GETDATE();
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -216,18 +216,11 @@ WHERE (
 ) AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 
--- Create a table with all patients for post COPI and within 2 cohorts=========================================================================================================================
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM [SharedCare].[Patient_GP_History]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #GynaeCohort)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
+-- Create a table with all patients within the gynae cohort=========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #Patients 
-FROM #PatientsToInclude;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
+FROM SharedCare.Patient_Link
+WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #GynaeCohort);
 
 
 -- >>> Following code sets injected: contraceptives-progesterone-only v1
