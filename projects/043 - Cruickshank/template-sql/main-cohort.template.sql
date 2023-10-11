@@ -56,20 +56,6 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ043EndDate datetime;
-SET @TEMPRQ043EndDate = '2022-06-01';
-
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ043EndDate;
-
 -- Get all the positive covid test patients
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
@@ -154,8 +140,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('asthma') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('asthma') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET coronary-heart-disease:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCHD') IS NOT NULL DROP TABLE #PatientDiagnosesCHD;
@@ -166,8 +151,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET stroke:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSTROKE') IS NOT NULL DROP TABLE #PatientDiagnosesSTROKE;
@@ -178,8 +162,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('stroke') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('stroke') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesT1DM') IS NOT NULL DROP TABLE #PatientDiagnosesT1DM;
@@ -190,8 +173,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesT2DM') IS NOT NULL DROP TABLE #PatientDiagnosesT2DM;
@@ -202,8 +184,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET copd:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
@@ -214,8 +195,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('copd') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('copd') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET hypertension:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
@@ -226,8 +206,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ043EndDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> CODESET bmi:2
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
@@ -243,8 +222,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
-AND [Value] != '0'
-AND EventDate < @TEMPRQ043EndDate;
+AND [Value] != '0';
 
 -- get most recent value at in the period [index date - 2 years, index date]
 IF OBJECT_ID('tempdb..#PatientValuesBMI') IS NOT NULL DROP TABLE #PatientValuesBMI;
@@ -287,7 +265,6 @@ from #PatientLSOA l
 left outer join RLS.vw_Patient_Address_History h
 	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 	and h.LSOA_Code = l.LSOA_Code
-WHERE StartDate < @TEMPRQ043EndDate
 group by l.FK_Patient_Link_ID;
 
 -- Now find the most recent end date for not their current LSOA
@@ -299,7 +276,6 @@ left outer join RLS.vw_Patient_Address_History h
 	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 	and h.LSOA_Code != l.LSOA_Code
 where EndDate is not null
-AND EndDate < @TEMPRQ043EndDate
 group by l.FK_Patient_Link_ID;
 
 -- Bring together. Either earliest start date or most recent end date of a different LSOA (if it exists).
@@ -328,8 +304,8 @@ SELECT
   LengthOfStayFirstAdmission2ndCOVIDTest,
   FirstAdmissionPost3rdCOVIDTest,
   LengthOfStayFirstAdmission3rdCOVIDTest,
-  CASE WHEN DeathDate < @TEMPRQ043EndDate THEN MONTH(DeathDate) ELSE NULL END AS MonthOfDeath,
-  CASE WHEN DeathDate < @TEMPRQ043EndDate THEN YEAR(DeathDate) ELSE NULL END AS YearOfDeath,
+  MONTH(DeathDate) AS MonthOfDeath,
+  YEAR(DeathDate) AS YearOfDeath,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   LSOA_Code AS LSOA,
   lsoaStart.LSOAStartDate AS LSOAStartDate,
