@@ -15,7 +15,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-01-01';
-SET @EndDate = '2022-01-01';
+SET @EndDate = '2023-08-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -25,7 +25,7 @@ SET NOCOUNT ON;
 ----------------------------------------
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
---> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-01' all-patients:false gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-01' all-patients:false gp-events-table:SharedCare.GP_Events
 
 ----- create anonymised identifier for each hospital
 -- this is included in case PI needs to consider hospitals that don't have as much historic data
