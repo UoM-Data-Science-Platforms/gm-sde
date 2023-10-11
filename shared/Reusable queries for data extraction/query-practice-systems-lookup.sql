@@ -6,7 +6,7 @@
 --            in the data so here is a lookup. This was accurate on 27th Jan 2021 and will
 --            likely drift out of date slowly as practices change systems. Though this doesn't 
 --            happen very often.
---            This has now been updated on 4th November 2022. The data can be found here:
+--            This has now been updated on 11th October 2022. The data can be found here:
 --            https://digital.nhs.uk/data-and-information/publications/statistical/mi-patient-online-pomi/current
 --            I filter to GM, Cheshire & Mersey, Lancashire and Derby. I also take the list from below and find any
 --            that are no longer in the publication. These are probably closed practices, but it is useful to retain
@@ -22,9 +22,9 @@
 IF OBJECT_ID('tempdb..#PracticeSystemLookup') IS NOT NULL DROP TABLE #PracticeSystemLookup;
 CREATE TABLE #PracticeSystemLookup (PracticeId nchar(6), System nvarchar(20));
 INSERT INTO #PracticeSystemLookup VALUES
-('C81003', 'EMIS'),('C81004', 'EMIS'),('C81016', 'EMIS'),('C81025', 'EMIS'),('C81028', 'EMIS'),('C81034', 'EMIS'),('C81038', 'EMIS'),
-('C81039', 'EMIS'),('C81049', 'EMIS'),('C81063', 'EMIS'),('C81065', 'EMIS'),('C81074', 'EMIS'),('C81075', 'EMIS'),('C81077', 'EMIS'),
-('C81080', 'EMIS'),('C81081', 'EMIS'),('C81082', 'EMIS'),('C81092', 'EMIS'),('C81106', 'EMIS'),('C81611', 'EMIS'),('C81615', 'EMIS'),
+('C81003', 'EMIS'),('C81004', 'EMIS'),('C81016', 'TPP'),('C81025', 'EMIS'),('C81028', 'TPP'),('C81034', 'EMIS'),('C81038', 'TPP'),
+('C81039', 'EMIS'),('C81049', 'TPP'),('C81063', 'EMIS'),('C81065', 'EMIS'),('C81074', 'EMIS'),('C81075', 'TPP'),('C81077', 'EMIS'),
+('C81080', 'EMIS'),('C81081', 'EMIS'),('C81082', 'EMIS'),('C81092', 'EMIS'),('C81106', 'EMIS'),('C81611', 'TPP'),('C81615', 'EMIS'),
 ('C81634', 'EMIS'),('C81640', 'EMIS'),('C81001', 'TPP'),('C81002', 'TPP'),('C81005', 'TPP'),('C81006', 'TPP'),('C81007', 'TPP'),('C81008', 'TPP'),
 ('C81009', 'TPP'),('C81010', 'TPP'),('C81012', 'TPP'),('C81013', 'TPP'),('C81014', 'TPP'),('C81015', 'TPP'),('C81017', 'TPP'),('C81020', 'TPP'),
 ('C81021', 'TPP'),('C81022', 'TPP'),('C81023', 'TPP'),('C81026', 'TPP'),('C81027', 'TPP'),('C81029', 'TPP'),('C81030', 'TPP'),('C81031', 'TPP'),
@@ -49,11 +49,11 @@ INSERT INTO #PracticeSystemLookup VALUES
 ('P82627', 'EMIS'),('P82633', 'EMIS'),('P82640', 'EMIS'),('P82643', 'EMIS'),('P82652', 'EMIS'),('Y00186', 'EMIS'),('Y02319', 'EMIS');
 INSERT INTO #PracticeSystemLookup VALUES
 ('Y02790', 'EMIS'),('Y03079', 'EMIS'),('P82002', 'TPP'),('P82003', 'TPP'),('P82004', 'TPP'),('P82005', 'TPP'),('P82007', 'TPP'),('P82008', 'TPP'),
-('P82015', 'TPP'),('P82025', 'TPP'),('P82634', 'TPP'),('Y03366', 'TPP'),('P82624', 'VISION'),('P82629', 'VISION'),('P82660', 'VISION'),
+('P82015', 'TPP'),('P82025', 'TPP'),('P82634', 'TPP'),('Y03366', 'EMIS'),('P82624', 'VISION'),('P82629', 'VISION'),('P82660', 'VISION'),
 ('P83001', 'EMIS'),('P83004', 'EMIS'),('P83006', 'EMIS'),('P83007', 'EMIS'),('P83009', 'EMIS'),('P83010', 'EMIS'),('P83011', 'EMIS'),
 ('P83012', 'EMIS'),('P83015', 'EMIS'),('P83017', 'EMIS'),('P83024', 'EMIS'),('P83025', 'EMIS'),('P83027', 'EMIS'),('P83603', 'EMIS'),
 ('P83605', 'EMIS'),('P83608', 'EMIS'),('P83609', 'EMIS'),('P83612', 'EMIS'),('P83621', 'EMIS'),('P83623', 'EMIS'),('Y02755', 'EMIS'),
-('P83021', 'VISION'),('P83611', 'VISION'),('P83620', 'VISION'),('P81010', 'EMIS'),('P81033', 'EMIS'),('P81038', 'EMIS'),('P81044', 'EMIS'),
+('P83021', 'EMIS'),('P83611', 'EMIS'),('P83620', 'EMIS'),('P81010', 'EMIS'),('P81033', 'EMIS'),('P81038', 'EMIS'),('P81044', 'EMIS'),
 ('P81057', 'EMIS'),('P81062', 'EMIS'),('P81076', 'EMIS'),('P81082', 'EMIS'),('P81083', 'EMIS'),('P81117', 'EMIS'),('P81127', 'EMIS'),
 ('P81143', 'EMIS'),('P81154', 'EMIS'),('P81171', 'EMIS'),('P81180', 'EMIS'),('P81181', 'EMIS'),('P81186', 'EMIS'),('P81655', 'EMIS'),
 ('P81687', 'EMIS'),('P81692', 'EMIS'),('P81701', 'EMIS'),('P81740', 'EMIS'),('P81741', 'EMIS'),('Y00347', 'EMIS'),('Y02466', 'EMIS'),
@@ -85,7 +85,7 @@ INSERT INTO #PracticeSystemLookup VALUES
 ('P87032', 'EMIS'),('P87035', 'EMIS'),('P87610', 'EMIS'),('P87613', 'EMIS'),('P87618', 'EMIS'),('P87624', 'EMIS'),('P87625', 'EMIS'),
 ('P87627', 'EMIS'),('P87630', 'EMIS'),('P87634', 'EMIS'),('P87639', 'EMIS'),('P87648', 'EMIS'),('P87649', 'EMIS'),('P87651', 'EMIS'),
 ('P87654', 'EMIS'),('P87657', 'EMIS'),('P87658', 'EMIS'),('P87661', 'EMIS'),('Y00445', 'EMIS'),('Y02622', 'EMIS'),('Y02625', 'EMIS'),
-('Y02767', 'EMIS'),('P87040', 'VISION'),('N83009', 'EMIS'),('N83013', 'EMIS'),('N83014', 'EMIS'),('N83015', 'EMIS'),('N83018', 'EMIS'),
+('Y02767', 'EMIS'),('P87040', 'EMIS'),('N83009', 'EMIS'),('N83013', 'EMIS'),('N83014', 'EMIS'),('N83015', 'EMIS'),('N83018', 'EMIS'),
 ('N83024', 'EMIS'),('N83025', 'EMIS'),('N83028', 'EMIS'),('N83030', 'EMIS'),('N83031', 'EMIS'),('N83032', 'EMIS'),('N83033', 'EMIS'),
 ('N83043', 'EMIS'),('N83047', 'EMIS'),('N83055', 'EMIS'),('N83601', 'EMIS'),('N83603', 'EMIS'),('N83605', 'EMIS'),('N83608', 'EMIS'),
 ('N83609', 'EMIS'),('N83610', 'EMIS'),('N83619', 'EMIS'),('N83621', 'EMIS'),('N83622', 'EMIS'),('N83633', 'EMIS'),('A82003', 'EMIS'),
@@ -164,7 +164,7 @@ INSERT INTO #PracticeSystemLookup VALUES
 ('N81093', 'EMIS'),('N81100', 'EMIS'),('N81101', 'EMIS'),('N81102', 'EMIS'),('N81111', 'EMIS'),('N81113', 'EMIS'),('N81115', 'EMIS'),
 ('N81117', 'EMIS'),('N81118', 'EMIS'),('N81120', 'EMIS'),('N81121', 'EMIS'),('N81123', 'EMIS'),('N81125', 'EMIS'),('N81127', 'EMIS'),
 ('N81607', 'EMIS'),('N81614', 'EMIS'),('N81624', 'EMIS'),('N81626', 'EMIS'),('N81632', 'EMIS'),('N81642', 'EMIS'),('N81655', 'EMIS'),
-('Y04664', 'EMIS'),('Y05750', 'EMIS'),('N81009', 'EMIS (I)'),('N81052', 'EMIS (I)'),('N82001', 'EMIS'),('N82002', 'EMIS'),('N82003', 'EMIS'),
+('Y04664', 'EMIS'),('Y05750', 'EMIS'),('N81009', 'EMIS'),('N81052', 'EMIS (I)'),('N82001', 'EMIS'),('N82002', 'EMIS'),('N82003', 'EMIS'),
 ('N82004', 'EMIS'),('N82009', 'EMIS'),('N82011', 'EMIS'),('N82014', 'EMIS'),('N82018', 'EMIS'),('N82019', 'EMIS'),('N82022', 'EMIS'),
 ('N82024', 'EMIS'),('N82026', 'EMIS'),('N82033', 'EMIS'),('N82034', 'EMIS'),('N82035', 'EMIS'),('N82036', 'EMIS'),('N82037', 'EMIS'),
 ('N82039', 'EMIS'),('N82041', 'EMIS'),('N82046', 'EMIS'),('N82048', 'EMIS'),('N82049', 'EMIS'),('N82050', 'EMIS'),('N82052', 'EMIS'),
@@ -176,8 +176,8 @@ INSERT INTO #PracticeSystemLookup VALUES
 ('N82108', 'EMIS'),('N82109', 'EMIS'),('N82110', 'EMIS'),('N82113', 'EMIS'),('N82115', 'EMIS'),('N82116', 'EMIS'),('N82117', 'EMIS'),
 ('N82617', 'EMIS'),('N82633', 'EMIS'),('N82641', 'EMIS'),('N82645', 'EMIS'),('N82646', 'EMIS'),('N82648', 'EMIS'),('N82650', 'EMIS'),
 ('N82651', 'EMIS'),('N82655', 'EMIS'),('N82662', 'EMIS'),('N82663', 'EMIS'),('N82664', 'EMIS'),('N82668', 'EMIS'),('N82669', 'EMIS'),
-('N82670', 'EMIS'),('N82671', 'EMIS'),('N82676', 'EMIS'),('N82678', 'EMIS'),('Y00110', 'EMIS'),('P83005', 'VISION'),('P83020', 'VISION'),
+('N82670', 'EMIS'),('N82671', 'EMIS'),('N82676', 'EMIS'),('N82678', 'EMIS'),('Y00110', 'EMIS'),('P83005', 'EMIS'),('P83020', 'VISION'),
 ('P86619', 'EMIS'),('P84616', 'EMIS'),('P84652', 'EMIS'),('P84665', 'EMIS'),('P85001', 'EMIS'),('P85008', 'EMIS'),('P85602', 'EMIS'),
-('P85607', 'EMIS'),('P85620', 'EMIS'),('P87003', 'VISION'),('P87015', 'VISION'),('P87022', 'VISION'),('P87039', 'VISION'),('P87620', 'VISION'),
+('P85607', 'EMIS'),('P85620', 'EMIS'),('P87003', 'VISION'),('P87015', 'EMIS'),('P87022', 'EMIS'),('P87039', 'VISION'),('P87620', 'EMIS'),
 ('P87659', 'VISION'),('P88607', 'EMIS'),('P88610', 'EMIS'),('C81660', 'EMIS'),('P91014', 'EMIS'),('P91026', 'EMIS'),('P91619', 'EMIS'),
-('P91625', 'EMIS'),('P92035', 'TPP'),('P92623', 'TPP'),('P92635', 'VISION');
+('P91625', 'EMIS'),('P92035', 'TPP'),('P92623', 'TPP'),('P92635', 'EMIS'),('Y02045', 'EMIS');
