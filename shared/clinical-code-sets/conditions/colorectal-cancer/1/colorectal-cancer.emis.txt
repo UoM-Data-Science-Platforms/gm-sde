@@ -1,0 +1,206 @@
+^ESCT1167330	Microsatellite instability-high colorectal cancer
+^ESCT1167331	Mismatch repair deficient colorectal cancer
+^ESCT1167332	MSI-H colorectal cancer
+^ESCT1167333	dMMR colorectal cancer
+^ESCT1190453	Rectal carcinoma
+^ESCT1192348	Carcinoma of rectum
+^ESCT1205054	Squamous cell carcinoma of rectum
+^ESCT1205055	Rectal squamous cell carcinoma
+^ESCT1205058	Squamous cell carcinoma of colon
+^ESCT1220496	Metastatic colorectal cancer
+^ESCT1276215	Malignant tumor of rectum
+^ESCT1276217	Malignant tumor of hepatic flexure
+^ESCT1276220	Malignant tumor of descending colon
+^ESCT1303148	Malignant tumor of rectum
+^ESCT1303150	Malignant tumor of hepatic flexure
+^ESCT1303152	Malignant tumor of descending colon
+^ESCT1360337	Secondary malignant neoplasm of colon and/or rectum
+^ESCT1360338	Metastasis to colon and/or rectum
+^ESCT1360339	Metastatic colorectal cancer
+^ESCT1360687	Malignant neoplasm of colon and/or rectum
+^ESCT1360688	Colorectal cancer
+^ESCT1368725	Primary adenocarcinoma of descending colon
+^ESCT1409779	Hereditary nonpolyposis colon cancer gene mutation positive
+^ESCTAD534646	Adenocarcinoma of rectum
+^ESCTAD589835	Adenocarcinoma of sigmoid colon
+^ESCTAD676514	Adenocarcinoma of large intestine
+^ESCTAD703996	Adenocarcinoma of rectosigmoid junction
+^ESCTAS624521	Ascending colon cancer
+^ESCTCA400632	Cancer in situ of colon
+^ESCTCA400695	Carcinoma in situ of hepatic flexure
+^ESCTCA403459	Cancer metastatic to large intestine
+^ESCTCA403823	Cancer metastatic to rectosigmoid junction
+^ESCTCA403832	Cancer metastatic to rectum
+^ESCTCA417060	Cancer of the colon, overlapping sites
+^ESCTCA475580	Carcinoma in situ of splenic flexure
+^ESCTCA551202	Carcinoma of colon
+^ESCTCA551203	Carcinoma of the rectosigmoid junction
+^ESCTCA551204	Cancer of the rectosigmoid junction
+^ESCTCA559109	Cancer rectum melanoma
+^ESCTCA569975	Carcinoma of sigmoid colon
+^ESCTCA601293	Carcinoma of ascending colon
+^ESCTCA601294	Carcinoma of transverse colon
+^ESCTCA601295	Carcinoma of descending colon
+^ESCTCA601296	Carcinoma of hepatic flexure
+^ESCTCA601297	Carcinoma of splenic flexure
+^ESCTCA624301	CA - Cancer of rectum
+^ESCTCA624500	CA - Cancer of colon
+^ESCTCA624501	Cancer of colon
+^ESCTCA624788	Cancer of intestine
+^ESCTCA624790	CA - Cancer of intestine
+^ESCTCA624793	CA - Cancer of bowel
+^ESCTCA624800	Cancer of large intestine
+^ESCTCA624801	Cancer of large bowel
+^ESCTCA624802	CA - Cancer of large bowel
+^ESCTCA698858	Carcinoma of colon, stage III
+^ESCTCA698860	Cancer of colon, stage 3
+^ESCTCA699223	Carcinoma of colon, stage II
+^ESCTCA699225	Cancer of the colon, stage 2
+^ESCTCA699957	Carcinoma of colon, stage IV
+^ESCTCA704054	Carcinoma of colon, stage I
+^ESCTCA736297	Carcinoma of upper rectum
+^ESCTCO624803	Colorectal cancer
+^ESCTCO698859	Colon cancer, stage 3
+^ESCTCO699224	Colon cancer, stage 2
+^ESCTCO699958	Colon cancer stage 4
+^ESCTCO704055	Colon cancer stage 1
+^ESCTCO822392	Colorectal cancer
+^ESCTDE624513	Descending colon cancer
+^ESCTHE624506	Hepatic flexure colon cancer
+^ESCTHE770661	Hereditary nonpolyposis colon cancer gene mutation positive
+^ESCTHE846850	Hereditary non-polyposis colon cancer gene mutation positive
+^ESCTHN605347	HNPCC - hereditary nonpolyposis colon cancer
+^ESCTHN605349	HNPCC - hereditary nonpolyposis colorectal cancer
+^ESCTHN846851	HNPCC (hereditary non-polyposis colon cancer) gene mutation positive
+^ESCTIN624791	Intestinal cancer
+^ESCTLO605209	Local recurrence of malignant tumour of colon
+^ESCTLO605210	Local recurrence of malignant tumor of colon
+^ESCTLO605211	Local recurrence of malignant tumour of rectum
+^ESCTLO605212	Local recurrence of malignant tumor of rectum
+^ESCTLY736663	Lymphoma of sigmoid colon
+^ESCTLY804201	Lymphoma of colon
+^ESCTMA534652	Malignant tumour of anorectal junction
+^ESCTMA534653	Malignant tumor of anorectal junction
+^ESCTMA559108	Malignant melanoma of rectum
+^ESCTMA624298	Malignant tumour of rectum
+^ESCTMA624499	Malignant tumor of colon
+^ESCTMA624503	Malignant tumour of hepatic flexure
+^ESCTMA624508	Malignant tumor of transverse colon
+^ESCTMA624511	Malignant tumour of descending colon
+^ESCTMA624515	Malignant tumor of sigmoid colon
+^ESCTMA624520	Malignant tumor of ascending colon
+^ESCTMA624522	Malignant tumour of splenic flexure
+^ESCTMA624523	Malignant tumor of splenic flexure
+^ESCTMA624527	Malignant tumor of rectosigmoid junction
+^ESCTMA624787	Malignant tumor of intestine
+^ESCTMA624789	Malignant neoplasm of intestine
+^ESCTMA624798	Malignant tumour of large intestine
+^ESCTMA624799	Malignant tumor of large intestine
+^ESCTMA632454	Malignant tumour involving rectum by direct extension from endometrium
+^ESCTMA632455	Malignant tumor involving rectum by direct extension from endometrium
+^ESCTMA632456	Malignant tumour involving rectum by direct extension from fallopian tube
+^ESCTMA632457	Malignant tumor involving rectum by direct extension from fallopian tube
+^ESCTMA632458	Malignant tumour involving rectum by direct extension from ovary
+^ESCTMA632459	Malignant tumor involving rectum by direct extension from ovary
+^ESCTMA632460	Malignant tumour involving rectum by direct extension from prostate
+^ESCTMA632461	Malignant tumor involving rectum by direct extension from prostate
+^ESCTMA632462	Malignant tumour involving rectum by direct extension from uterine cervix
+^ESCTMA632463	Malignant tumor involving rectum by direct extension from uterine cervix
+^ESCTMA632464	Malignant tumour involving rectum by direct extension from uterus
+^ESCTMA632465	Malignant tumor involving rectum by direct extension from uterus
+^ESCTMA632466	Malignant tumour involving rectum by direct extension from vagina
+^ESCTMA632467	Malignant tumor involving rectum by direct extension from vagina
+^ESCTMA632468	Malignant tumour involving rectum by separate metastasis from endometrium
+^ESCTMA632469	Malignant tumor involving rectum by separate metastasis from endometrium
+^ESCTMA632470	Malignant tumour involving rectum by separate metastasis from fallopian tube
+^ESCTMA632471	Malignant tumor involving rectum by separate metastasis from fallopian tube
+^ESCTMA632472	Malignant tumour involving rectum by separate metastasis from ovary
+^ESCTMA632473	Malignant tumor involving rectum by separate metastasis from ovary
+^ESCTMA632474	Malignant tumour involving rectum by separate metastasis from prostate
+^ESCTMA632475	Malignant tumor involving rectum by separate metastasis from prostate
+^ESCTMA632476	Malignant tumour involving rectum by separate metastasis from uterine cervix
+^ESCTMA632477	Malignant tumor involving rectum by separate metastasis from uterine cervix
+^ESCTMA632478	Malignant tumour involving rectum by separate metastasis from uterus
+^ESCTMA632479	Malignant tumor involving rectum by separate metastasis from uterus
+^ESCTMA632480	Malignant tumour involving rectum by separate metastasis from vagina
+^ESCTMA632481	Malignant tumor involving rectum by separate metastasis from vagina
+^ESCTMA736298	Malignant epithelial neoplasm of upper rectum
+^ESCTMA770608	Malignant carcinoid tumour of rectum
+^ESCTMA770609	Malignant carcinoid tumor of rectum
+^ESCTMA788126	Malignant carcinoid tumour of colon
+^ESCTMA788127	Malignant carcinoid tumor of colon
+^ESCTMA803047	Malignant neoplasm of rectosigmoid junction metastatic to brain
+^ESCTME403013	Metastatic malignant neoplasm to ascending colon
+^ESCTME403202	Metastatic malignant neoplasm to colon
+^ESCTME403226	Metastatic malignant neoplasm to descending colon
+^ESCTME403368	Metastatic malignant neoplasm to hepatic flexure of colon
+^ESCTME403457	Metastatic malignant neoplasm to large intestine
+^ESCTME403458	Metastasis to large intestine
+^ESCTME403822	Metastatic malignant neoplasm to rectosigmoid junction
+^ESCTME403831	Metastatic malignant neoplasm to rectum
+^ESCTME403891	Metastatic malignant neoplasm to sigmoid colon
+^ESCTME404046	Metastatic malignant neoplasm to splenic flexure of colon
+^ESCTME404152	Metastatic malignant neoplasm to transverse colon
+^ESCTME570362	Metastasis to colon of unknown primary
+^ESCTME570364	Metastasis to rectum of unknown primary
+^ESCTNE404463	Neoplasm of uncertain behavior of colon
+^ESCTNE438880	Neoplasm of colon
+^ESCTNE438887	Neoplasm of ascending colon
+^ESCTNE438890	Neoplasm of hepatic flexure of colon
+^ESCTNE438893	Neoplasm of transverse colon
+^ESCTNE438896	Neoplasm of splenic flexure of colon
+^ESCTNE438899	Neoplasm of descending colon
+^ESCTNE438902	Neoplasm of sigmoid colon
+^ESCTOV417059	Overlapping malignant neoplasm of colon
+^ESCTOV417061	Overlapping malignant neoplasm of rectum, anus and anal canal
+^ESCTOV803029	Overlapping malignant neoplasm of colon and rectum
+^ESCTPR402472	Primary malignant neoplasm of ascending colon
+^ESCTPR402546	Primary malignant neoplasm of colon
+^ESCTPR402559	Primary malignant neoplasm of descending colon
+^ESCTPR402610	Primary malignant neoplasm of hepatic flexure of colon
+^ESCTPR402763	Primary malignant neoplasm of rectosigmoid junction
+^ESCTPR402767	Primary malignant neoplasm of rectum
+^ESCTPR402794	Primary malignant neoplasm of sigmoid colon
+^ESCTPR402877	Primary malignant neoplasm of splenic flexure of colon
+^ESCTPR402910	Primary malignant neoplasm of transverse colon
+^ESCTPR782139	Primary adenocarcinoma of ascending colon and right flexure
+^ESCTPR782140	Primary adenocarcinoma of transverse colon
+^ESCTPR782141	Primary neuroendocrine carcinoma of colon
+^ESCTPR782142	Primary malignant neuroendocrine neoplasm of colon
+^ESCTPR782143	Primary adenocarcinoma of descending colon and splenic flexure
+^ESCTPR782144	Primary malignant neuroendocrine neoplasm of rectum
+^ESCTPR782145	Primary neuroendocrine carcinoma of rectum
+^ESCTPR797000	Primary adenocarcinoma of colon
+^ESCTPR805269	Primary adenocarcinoma of rectosigmoid junction
+^ESCTPR821114	Primary adenocarcinoma of ascending colon
+^ESCTRE551205	Rectosigmoid junction cancer
+^ESCTRE624300	Rectal cancer
+^ESCTRE624528	Rectosigmoid colon cancer
+^ESCTSE403012	Secondary malignant neoplasm of ascending colon
+^ESCTSE403225	Secondary malignant neoplasm of descending colon
+^ESCTSE403367	Secondary malignant neoplasm of hepatic flexure of colon
+^ESCTSE403456	Secondary malignant neoplasm of large intestine
+^ESCTSE403821	Secondary malignant neoplasm of rectosigmoid junction
+^ESCTSE403890	Secondary malignant neoplasm of sigmoid colon
+^ESCTSE404045	Secondary malignant neoplasm of splenic flexure of colon
+^ESCTSE404151	Secondary malignant neoplasm of transverse colon
+^ESCTSI624516	Sigmoid colon cancer
+^ESCTSP624525	Splenic flexure colon cancer
+^ESCTTR624510	Transverse colon cancer
+^ESCTTU438881	Tumor of colon
+^ESCTTU438882	Tumour of colon
+^ESCTTU438888	Tumor of ascending colon
+^ESCTTU438889	Tumour of ascending colon
+^ESCTTU438891	Tumour of hepatic flexure
+^ESCTTU438892	Tumor of hepatic flexure
+^ESCTTU438894	Tumour of transverse colon
+^ESCTTU438895	Tumor of transverse colon
+^ESCTTU438897	Tumour of splenic flexure
+^ESCTTU438898	Tumor of splenic flexure
+^ESCTTU438900	Tumour of descending colon
+^ESCTTU438901	Tumor of descending colon
+^ESCTTU438903	Tumour of sigmoid colon
+^ESCTTU438904	Tumor of sigmoid colon
+^ESCTUK570363	UKP - Metastasis to colon of unknown primary
+^ESCTUK570365	UKP - Metastasis to rectum of unknown primary
+EMISNQHE41	Hereditary nonpolyposis colon cancer

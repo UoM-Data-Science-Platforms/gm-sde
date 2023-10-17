@@ -9,3 +9,22 @@
 9Ow1.00	Bowel cancer detected by national screening programme
 68W2.00	Bowel cancer screening programme
 68W2000	Bowel Cancer Screening Programme bowel scope screening test
+6864.11	Colon neoplasm screen
+68W21	Bowel scope (flexible sigmoidoscopy) screen: normal - no further action
+68W2100	Bowel scope (flexible sigmoidoscopy) screen: normal - no further action
+68W22	Bowel scope (flexible sigmoidoscopy) screen: minor polyps removed - no follow up required
+68W2200	Bowel scope (flexible sigmoidoscopy) screen: minor polyps removed - no follow up required
+68W23	Bowel scope (flexible sigmoidoscopy) screen: referred for colonoscopy
+68W2300	Bowel scope (flexible sigmoidoscopy) screen: referred for colonoscopy
+68W24	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+68W2400	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+68W25	Bowel scope (flexible sigmoidoscopy) screen: suspected cancer detected
+68W2500	Bowel scope (flexible sigmoidoscopy) screen: suspected cancer detected
+68W26	Bowel scope (flexible sigmoidoscopy) screen: other abnormality detected
+68W2600	Bowel scope (flexible sigmoidoscopy) screen: other abnormality detected
+68W2C	Bowel scope (flexible sigmoidoscopy) screen: incidental findings
+68W2C00	Bowel scope (flexible sigmoidoscopy) screen: incidental findings
+6864.11	Colon neoplasm screen
+6864.11	Colon neoplasm screen
+6864.11	Colon neoplasm screen
+6864.11	Colon neoplasm screen
