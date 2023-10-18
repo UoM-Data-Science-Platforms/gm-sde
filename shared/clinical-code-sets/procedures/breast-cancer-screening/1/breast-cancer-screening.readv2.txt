@@ -1,0 +1,33 @@
+537..	Soft tissue X-ray breast
+537..00	Soft tissue X-ray breast
+537..11	Mammography - X-ray
+5372.	Mammography normal
+5372.00	Mammography normal
+5373.	Mammography abnormal
+5373.00	Mammography abnormal
+537Z.	Soft tissue X-ray breast NOS
+537Z.00	Soft tissue X-ray breast NOS
+6862.00	Breast neoplasm screen
+6862.11	Mammography - screening
+68620	Breast neoplasm screen normal
+6862000	Breast neoplasm screen normal
+68621	Breast neoplasm screen abnorm
+6862100	Breast neoplasm screen abnorm
+6865.	Breast neoplasm screen normal
+6865.00	Breast neoplasm screen normal
+7P0F2	Mammography
+7P0F200	Mammography
+9OH9.	Breast screen abnorm.-told pat
+9OH9.00	Breast screen abnorm.-told pat
+R1380	[D]Mammogram abnormal
+R138000	[D]Mammogram abnormal
+ZV761	[V]Screening for malignant neoplasm of breast
+ZV76100	[V]Screening for malignant neoplasm of breast
+6862.00	Breast neoplasm screen
+6862.11	Mammography - screening
+6862.00	Breast neoplasm screen
+6862.11	Mammography - screening
+6862.00	Breast neoplasm screen
+6862.11	Mammography - screening
+6862.00	Breast neoplasm screen
+6862.11	Mammography - screening

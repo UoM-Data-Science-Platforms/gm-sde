@@ -1,0 +1,5 @@
+^ESCTPC363622	PCO - Polycystic ovaries
+^ESCTPC363624	PCOS - Polycystic ovarian syndrome
+^ESCTPC363627	PCOD - Polycystic ovarian disease
+^ESCTPO363620	Polycystic ovarian disease
+^ESCTPO363626	Polycystic ovary syndrome

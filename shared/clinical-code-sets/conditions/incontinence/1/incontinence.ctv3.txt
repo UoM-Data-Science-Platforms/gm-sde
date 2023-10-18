@@ -1,0 +1,64 @@
+19E3.	Incontinence of faeces
+1A23.	Incontinence of urine
+1A24.	Stress incontinence
+1A25.	Must hurry to pass urine
+1A26.	Lack of bladder control if desire resisted
+1A36.	Terminal dribbling of urine
+393..	Bowels - continence
+394..	Bladder continence assessment
+3940.	Bladder: incontinent
+7B312	Burch colposuspension
+7B421	Insertion bulbar urethral prosthesis (& [Kaufman] or [Rosen])
+7D17.	Colporrhaphy and amputation of cervix uteri
+7D172	Posterior colporrhaphy and amputation of cervix uteri NEC
+7D17y	Other specified repair of vaginal prolapse and amputation of cervix uteri
+7D17z	Repair of vaginal prolapse and amputation of cervix uteri NOS
+8C14.	Continence care
+8D7..	Bladder control
+8D74.	Catheter in situ
+8D75.	Provision of penile sheath
+8D7Z.	Urinary bladder control NOS
+8E97.	Bladder training
+8HR6.	Refer to urodynamic studies
+E276z	Non-organic enuresis NOS
+K586.	Stress incontinence - female
+Kyu5A	[X]Other specified urinary incontinence
+R076.	[D]Incontinence of faeces
+R0761	[D]Sphincter ani incontinence
+R076z	[D]Incontinence of faeces NOS
+R083.	[D]Incontinence of urine
+R0830	[D]Enuresis NOS
+R0831	[D]Urethral sphincter incontinence
+R0832	[D] Urge incontinence
+R083z	[D]Incontinence of urine NOS
+R0862	[D]Urgency of micturition
+X30C5	Double incontinence
+X30F3	Bladder neck operation for female stress incontinence
+X76El	Smells of urine
+X76Y0	Dribbling of urine
+X77lL	Bladder drill
+Xa1ca	Bladder continence assessment
+Xa1cV	Bowels incontinence assessment
+Xa1cX	Bowel continence
+Xa1cZ	Bladder incontinence assessment
+Xa96j	Bladder control
+XaAgu	Referral to continence nurse
+XaATv	Seen by continence nurse
+XaIoo	Health education - continence
+XaJtx	Referral to incontinence clinic
+XaKdS	Continence assessment
+XaKdT	Continence reassessment
+XaMAm	Insertion of retropubic device for stress urinary incontinence NEC
+XaMtf	Insertion of retropubic device for female stress urinary incontinence NEC
+XaNFc	Urge to pass urine again shortly after finishing voiding
+XE0Gh	Implantation of bulbar urethral prosthesis for incontinence
+XE0GK	Colposuspension
+XE0HB	Repair of vaginal prolapse and amputation of cervix uteri NOS
+XE0iC	Urinary bladder control
+XE0iD	Catheter in situ
+XE0kn	Incontinence control
+XE0kp	Provision of penile sheath
+XE0rG	Bowels: incontinent
+XE0rR	Genuine stress incontinence
+XE0uj	Dribbling of urine
+XM08X	Sphincter ani incontinence

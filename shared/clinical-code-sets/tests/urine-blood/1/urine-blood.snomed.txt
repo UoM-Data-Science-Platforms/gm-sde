@@ -1,0 +1,8 @@
+1019581000000105	Urine blood test (observable entity)
+167297006	Urine blood test = negative (finding)
+167298001	Urine: trace non-hemolyzed blood (finding)
+167299009	Urine: trace hemolyzed blood (finding)
+167300001	Urine blood test = + (finding)
+167301002	Urine blood test = ++ (finding)
+167302009	Urine blood test = +++ (finding)
+252385000	Urine dipstick for leukocyte esterase (procedure)

@@ -1,2 +1,5 @@
+423..	Haemoglobin estimation
+423Z.	Haemoglobin estimation NOS
 Xa96v	Haemoglobin concentration
 XE2m6	Haemoglobin estimation level
+XM1Vu	Hb estimation

@@ -1,0 +1,14 @@
+^ESCT1211944	Bowel cancer screening programme liquid faecal immunochemical test normal
+^ESCT1211945	Bowel cancer screening programme liquid faecal immunochemical test abnormal
+^ESCT1211946	Bowel cancer screening programme liquid faecal immunochemical test technical failure
+^ESCT1211947	Bowel cancer screening programme liquid faecal immunochemical test sample rejected
+^ESCTBO812602	Bowel cancer screening programme finding
+^ESCTCO557967	Colon cancer screening
+^ESCTSC557964	Screening for malignant neoplasm of colon
+^ESCTSC557966	Screening for colon cancer
+^ESCTST763803	Stool DNA-based colorectal cancer screening positive
+EMISNQBO16	Bowel cancer screening - positive FOBs
+EMISNQBO17	Bowel cancer screening - negative FOBs
+EMISNQBO31	Bowel cancer screening programme invitation letter sent
+EMISNQBO33	Bowel cancer screening programme telephone invite
+EMISNQPA454	Patient requests BCSP faecal occult blood testing kit

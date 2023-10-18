@@ -23,9 +23,9 @@ SET NOCOUNT ON;
 
 --> EXECUTE query-practice-systems-lookup.sql
 
---> CODESET autism-spectrum-disorder:1
+--> CODESET breast-cancer-screening:1
 DECLARE @concept varchar(255);
-SET @concept = 'autism-spectrum-disorder';
+SET @concept = 'breast-cancer-screening';
 
 -- Finds all patients with one of the clinical codes for the concept of interest
 IF OBJECT_ID('tempdb..#PatientsWithCode') IS NOT NULL DROP TABLE #PatientsWithCode;

@@ -1,0 +1,19 @@
+2233.	O/E - delirious
+E0011	Presenile dementia with delirium
+E003.	Senile dementia with delirium
+E030.	Acute confusional state
+E030z	Acute confusional state NOS
+E031.	Subacute confusional state
+E031z	Subacute confusional state NOS
+Eu04.	[X]Acute / subacute brain syndrome
+Eu040	[X]Delirium not superimposed on dementia, so described
+Eu041	[X]Delirium superimposed on dementia
+Eu04y	[X]Delirium of mixed origin
+Eu04z	[X]Delirium, unspecified
+X00RJ	Delirium of mixed origin
+Xa1sZ	Intermittent confusion
+Xa3f0	Confusional state
+XaINE	Acute confusion
+XE1aK	Confusional state
+XE1Xv	Acute brain syndrome
+XE1Z8	[X]Other delirium

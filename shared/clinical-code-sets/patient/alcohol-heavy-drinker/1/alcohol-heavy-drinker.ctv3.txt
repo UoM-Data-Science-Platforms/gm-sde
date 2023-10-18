@@ -1,0 +1,14 @@
+136K.	Alcohol intake above recommended sensible limits
+E23..	Alcohol problem drinking
+Eu101	[X]Mental and behavioural disorders due to use of alcohol: harmful use
+Ub0lO	Drinks heavily
+Ub0lP	Very heavy drinker
+Ub0lt	Drinks in morning to get rid of hangover
+Ub0ly	Binge drinker
+Ub0mj	Feels should cut down drinking
+Xa1yZ	Alcohol abuse
+XaA1V	Ethanol abuse
+XaKvA	Hazardous alcohol use
+XaKvB	Harmful alcohol use
+XaXje	Higher risk drinking
+XE1YQ	Alcohol problem drinking

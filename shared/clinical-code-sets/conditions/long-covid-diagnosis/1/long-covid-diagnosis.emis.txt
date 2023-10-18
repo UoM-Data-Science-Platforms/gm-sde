@@ -1,0 +1,5 @@
+^ESCT1348645	Post-COVID-19 syndrome
+^ESCT1348648	Ongoing symptomatic COVID-19
+^ESCT1348649	Ongoing symptomatic disease caused by severe acute respiratory syndrome coronavirus 2
+^ESCT1416863	Chronic post-COVID-19 syndrome
+^ESCT1416864	Chronic COVID-19 syndrome

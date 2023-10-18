@@ -137,7 +137,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Sex</li>
 <li>Year of birth</li>
 <li>Classify secondary admissions</li>
-<li>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</li>
+<li>Create table of patients who are registered with a GM GP</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>BMI</h3>
@@ -473,7 +473,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
 <hr>
-<h3>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</h3>
+<h3>Create table of patients who are registered with a GM GP</h3>
 <p>undefined</p>
 <p><em>Input</em></p>
 <pre><code>undefined
@@ -1674,7 +1674,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>Gestational Diabetes</h3>
 <p>Any diagnosis of gestational diabetes.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.4% - 0.5%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.51% - 0.74%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1687,29 +1687,35 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2021-10-13</td>
+<td>2023-09-20</td>
 <td>EMIS</td>
-<td>2629848</td>
-<td style="text-align:right">13962 (0.53%)</td>
-<td style="text-align:right">13940 (0.53%)</td>
+<td>2466262</td>
+<td style="text-align:right">15451 (0.626%)</td>
+<td style="text-align:right">15457 (0.627%)</td>
 </tr>
 <tr>
-<td>2021-10-13</td>
+<td>2023-09-20</td>
 <td>TPP</td>
-<td>211812</td>
-<td style="text-align:right">1158 (0.55%)</td>
-<td style="text-align:right">1156 (0.55%)</td>
+<td>200680</td>
+<td style="text-align:right">1489 (0.742%)</td>
+<td style="text-align:right">1490 (0.742%)</td>
 </tr>
 <tr>
-<td>2021-10-13</td>
+<td>2023-09-20</td>
 <td>Vision</td>
-<td>338205</td>
-<td style="text-align:right">1402 (0.41%)</td>
-<td style="text-align:right">290 (0.09%)</td>
+<td>332105</td>
+<td style="text-align:right">1694 (0.51%)</td>
+<td style="text-align:right">1640 (0.494%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1">https://github.com/rw251/.../conditions/gestational-diabetes/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1">https://github.com/rw251/.../conditions/gestational-diabetes/1</a></p>
 <h3>Pre-eclampsia</h3>
 <p>Any suggestion of a diagnosis of pre-eclampsia.</p>
 <p>Developed from https://getset.ga.</p>
@@ -1755,7 +1761,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.</p>
 <p><strong>NB: This code set is intended to only indicate a patient's haemoglobin values.</strong></p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.66% - 62.03%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>61% - 68.1%</code> suggests that this code set is likely well defined.</p>
+<p>update:</p>
 <table>
 <thead>
 <tr>
@@ -1768,25 +1775,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>EMIS</td>
-<td>2652511</td>
-<td style="text-align:right">1582390 (59.66%)</td>
-<td style="text-align:right">1582391 (59.66%)</td>
+<td>2463856</td>
+<td style="text-align:right">1501968 (61%)</td>
+<td style="text-align:right">1502094 (61%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>TPP</td>
-<td>212213</td>
-<td style="text-align:right">129224 (60.89%)</td>
-<td style="text-align:right">129224 (60.89%)</td>
+<td>200590</td>
+<td style="text-align:right">136648 (68.1%)</td>
+<td style="text-align:right">136654 (68.1%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>Vision</td>
-<td>340640</td>
-<td style="text-align:right">211312 (62.03%)</td>
-<td style="text-align:right">211312 (62.03%)</td>
+<td>332095</td>
+<td style="text-align:right">206665 (62.2%)</td>
+<td style="text-align:right">206678 (62.2%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1">https://github.com/rw251/.../tests/haemoglobin/1</a></td>
@@ -1801,7 +1808,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This code set only includes codes that are accompanied by a value (e.g. <code>42H.. - White blood cell count</code>).</p>
 <p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.89% - 63.21%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.9% - 68.1%</code> suggests that this code set is likely well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1814,25 +1821,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>EMIS</td>
-<td>2604007</td>
-<td style="text-align:right">1592011 (59.89%)</td>
-<td style="text-align:right">1592011 (59.89%)</td>
+<td>2463856</td>
+<td style="text-align:right">1476970 (59.9%)</td>
+<td style="text-align:right">1475393 (59.9%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>TPP</td>
-<td>132189</td>
-<td style="text-align:right">132189 (62.16%)</td>
-<td style="text-align:right">135713 (62.16%)</td>
+<td>200590</td>
+<td style="text-align:right">136584 (68.1%)</td>
+<td style="text-align:right">136587 (68.1%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>Vision</td>
-<td>333730</td>
-<td style="text-align:right">215935 (63.21%)</td>
-<td style="text-align:right">215935 (63.21%)</td>
+<td>332095</td>
+<td style="text-align:right">208915 (62.9%)</td>
+<td style="text-align:right">208785 (62.9%)</td>
 </tr>
 </tbody>
 </table>
@@ -1841,7 +1848,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This code set only includes codes that are accompanied by a value (e.g. <code>426Z.00 - RBC count NOS</code>).</p>
 <p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.66% - 63.24%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>60.7% - 68.1%</code> suggests that this code set is likely well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1854,25 +1861,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>EMIS</td>
-<td>2604007</td>
-<td style="text-align:right">1585945 (59.66%)</td>
-<td style="text-align:right">1585945 (59.66%)</td>
+<td>2463856</td>
+<td style="text-align:right">1494757 (60.7%)</td>
+<td style="text-align:right">1494900 (60.7%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>TPP</td>
-<td>132189</td>
-<td style="text-align:right">132068 (62.10%)</td>
-<td style="text-align:right">132068 (62.10%)</td>
+<td>200590</td>
+<td style="text-align:right">136506 (68.1%)</td>
+<td style="text-align:right">136513 (68.1%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-18</td>
 <td>Vision</td>
-<td>333730</td>
-<td style="text-align:right">216011 (63.24%)</td>
-<td style="text-align:right">216011 (63.24%)</td>
+<td>332095</td>
+<td style="text-align:right">208929 (62.9%)</td>
+<td style="text-align:right">208946 (62.9%)</td>
 </tr>
 </tbody>
 </table>
@@ -1881,7 +1888,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This code set only includes codes that are accompanied by a value (e.g. <code>42PZ. - Platelet count NOS</code>).</p>
 <p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%59.80 - 62.19%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%60.7 - 68%</code> suggests that this code set is likely well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1894,25 +1901,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-19</td>
 <td>EMIS</td>
-<td>2658131</td>
-<td style="text-align:right">1589471 (59.80%)</td>
-<td style="text-align:right">1589471 (59.80%)</td>
+<td>2466262</td>
+<td style="text-align:right">1495899 (60.7%)</td>
+<td style="text-align:right">1496040 (60.7%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-19</td>
 <td>TPP</td>
-<td>212662</td>
-<td style="text-align:right">132101 (62.12%)</td>
-<td style="text-align:right">132101 (62.12%)</td>
+<td>200680</td>
+<td style="text-align:right">136474 (68%)</td>
+<td style="text-align:right">136481 (68%)</td>
 </tr>
 <tr>
-<td>2022-03-21</td>
+<td>2023-09-19</td>
 <td>Vision</td>
-<td>341594</td>
-<td style="text-align:right">212437 (62.19%)</td>
-<td style="text-align:right">212437 (62.19%)</td>
+<td>332105</td>
+<td style="text-align:right">205855 (62%)</td>
+<td style="text-align:right">205868 (62%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/platelets/1">https://github.com/rw251/.../tests/platelets/1</a></td>
@@ -1974,7 +1981,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This code set only includes codes that are accompanied by a value (e.g. <code>42A..11 - Mean cell volume</code>).</p>
 <p>Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%59.64 - 62.10%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>60.65 - 68%</code> suggests that this code set is likely well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1987,25 +1994,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-03-29</td>
+<td>2023-09-20</td>
 <td>EMIS</td>
-<td>2659647</td>
-<td style="text-align:right">1586204 (59.64%)</td>
-<td style="text-align:right">1586204 (59.64%)</td>
+<td>2466262</td>
+<td style="text-align:right">1493789 (60.6%)</td>
+<td style="text-align:right">1493877 (60.6%)</td>
 </tr>
 <tr>
-<td>2022-03-29</td>
+<td>2023-09-20</td>
 <td>TPP</td>
-<td>212621</td>
-<td style="text-align:right">132039 (62.10%)</td>
-<td style="text-align:right">132039 (62.10%)</td>
+<td>200680</td>
+<td style="text-align:right">136466 (68%)</td>
+<td style="text-align:right">136468 (68%)</td>
 </tr>
 <tr>
-<td>2022-03-29</td>
+<td>2023-09-20</td>
 <td>Vision</td>
-<td>341774</td>
-<td style="text-align:right">211983 (62.02%)</td>
-<td style="text-align:right">211983 (62.02%)</td>
+<td>332105</td>
+<td style="text-align:right">205565 (61.9%)</td>
+<td style="text-align:right">205584 (61.9%)</td>
 </tr>
 </tbody>
 </table>
@@ -2181,7 +2188,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1">https://github.com/rw251/.../tests/urine-blood/1</a></p>
+<p>| 2023-09-20 | EMIS | 2466262 | 37760 (1.53%) | 37858 (1.54%) |
+| 2023-09-20 | TPP | 200680 | 29414 (14.7%) | 29424 (14.7%) |
+| 2023-09-20 | Vision | 332105 | 5714 (1.72%) | 5723 (1.72%) |
+LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1">https://github.com/rw251/.../tests/urine-blood/1</a></p>
 <h3>Urine protein</h3>
 <p>This code set includes codes that indicate the result of a urine protein test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.</p>
 <h4>Prevalence log</h4>
@@ -2264,8 +2274,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>Urine glucose test</h3>
 <p>This code set includes codes that indicate the result of a urine glucose test. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.22% - 22.21%</code> suggests that this code set is well defined.</p>
-<p>update</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.71% - 22.9%</code> suggests that this code set is missing codes.</p>
 <table>
 <thead>
 <tr>
@@ -2278,25 +2287,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-05-11</td>
+<td>2023-09-20</td>
 <td>EMIS</td>
-<td>2662570</td>
-<td style="text-align:right">591452 (22.21%)</td>
-<td style="text-align:right">591452 (22.21%)</td>
+<td>2466262</td>
+<td style="text-align:right">42174 (1.71%)</td>
+<td style="text-align:right">42265 (1.71%)</td>
 </tr>
 <tr>
-<td>2022-05-11</td>
+<td>2023-09-20</td>
 <td>TPP</td>
-<td>212696</td>
-<td style="text-align:right">38745 (18.22%)</td>
-<td style="text-align:right">38745 (18.22%)</td>
+<td>200680</td>
+<td style="text-align:right">45942 (22.9%)</td>
+<td style="text-align:right">45953 (22.9%)</td>
 </tr>
 <tr>
-<td>2022-05-11</td>
+<td>2023-09-20</td>
 <td>Vision</td>
-<td>342344</td>
-<td style="text-align:right">72806 (21.27%)</td>
-<td style="text-align:right">72806 (21.27%)</td>
+<td>332105</td>
+<td style="text-align:right">6499 (1.96%)</td>
+<td style="text-align:right">6498 (1.96%)</td>
 </tr>
 </tbody>
 </table>

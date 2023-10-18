@@ -1,0 +1,30 @@
+^ESCT1273025	Acute confusional state NOS
+^ESCTAB254318	ABS - Acute brain syndrome
+^ESCTAC254316	Acute psycho-organic syndrome
+^ESCTAC254319	Acute brain syndrome
+^ESCTAC445236	Acute confusion
+^ESCTAL804498	Alzheimer's disease co-occurrent with delirium
+^ESCTCO572115	Confusional state
+^ESCTDE257574	Dementia of the Alzheimer's type, with late onset, with delirium
+^ESCTDE257575	Dementia Alzheimers type, late onset with delirium
+^ESCTDE355841	Dementia of the Alzheimer's type, with early onset, with delirium
+^ESCTDE502342	Delirium of mixed origin
+^ESCTDE645237	Delirium management
+^ESCTDE693937	Delirious
+^ESCTDE786063	Delirium due to multiple aetiological factors
+^ESCTDE786064	Delirium due to multiple etiological factors
+^ESCTDE787476	Delirium co-occurrent with dementia
+^ESCTDE787477	Delirium superimposed on dementia
+^ESCTDE827128	Delirium care
+^ESCTEX266476	Exhaustion delirium
+^ESCTIN565585	Intermittent confusion
+^ESCTMU266460	Multi-infarct dementia with delirium
+^ESCTMU266462	Multi infarct dementia with delirium
+^ESCTOB254315	OBS - Organic brain syndrome
+^ESCTON455063	On examination - delirious
+^ESCTOR254313	Organic brain syndrome
+^ESCTPR257573	Primary degenerative dementia of the Alzheimer type, senile onset, with delirium
+^ESCTPR355840	Primary degenerative dementia of the Alzheimer type, presenile onset, with delirium
+^ESCTSE476308	Senile delirium
+^ESCTSU476344	Subacute delirium
+^ESCTVA266461	Vascular dementia, with delirium

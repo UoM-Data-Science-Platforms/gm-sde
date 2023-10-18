@@ -16,3 +16,14 @@
 368481000000103	Bowel cancer screening programme: faecal occult blood result
 708699002	Stool DNA-based colorectal cancer screening positive
 715101000000108	Bowel cancer screening programme administration
+294301000000103	Bowel cancer detected by national screening programme
+368481000000103	Bowel cancer screening programme: faecal occult blood result
+375211000000108	Bowel cancer screening programme faecal occult blood test normal
+375241000000109	Bowel cancer screening programme faecal occult blood test abnormal
+884541000000104	Bowel scope (flexible sigmoidoscopy) screen: normal - no further action
+884561000000103	Bowel scope (flexible sigmoidoscopy) screen: minor polyps removed - no follow up required
+884581000000107	Bowel scope (flexible sigmoidoscopy) screen: referred for colonoscopy
+884601000000103	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+884621000000107	Bowel scope (flexible sigmoidoscopy) screen: suspected cancer detected
+884641000000100	Bowel scope (flexible sigmoidoscopy) screen: other abnormality detected
+921341000000109	Bowel scope (flexible sigmoidoscopy) screen: incidental findings

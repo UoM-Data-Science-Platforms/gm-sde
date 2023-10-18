@@ -28,7 +28,6 @@ G2...	Hypertensive disease
 G200.	Malignant essential hypertension
 G201.	Benign essential hypertension
 XE0Ud	Essential hypertension NOS
-Xa41E	Maternal hypertension
 Xab9L	Stage 1 hypertension (NICE 2011) without evidence of end organ damage
 Xab9M	Stage 1 hypertension (NICE 2011) with evidence of end organ damage
 G2y..	Other specified hypertensive disease

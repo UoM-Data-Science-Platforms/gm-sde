@@ -27,7 +27,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2012-01-01';
-SET @EndDate = '2022-01-01';
+SET @EndDate = '2023-08-31'; --'2022-01-01';
 
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2022-01-01';
@@ -55,31 +55,21 @@ SET NOCOUNT ON;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -683,7 +673,7 @@ SELECT
 	SuppliedCode,
 	EventDate
 INTO #PregnancyPatientsGP
-FROM [RLS].[vw_GP_Events]
+FROM [SharedCare].[GP_Events]
 WHERE 
     SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] LIKE 'pregnancy%' AND [Version] = 1)
 	AND EventDate BETWEEN @StartDate AND @EndDate
@@ -969,7 +959,7 @@ SELECT
   FK_Reference_Coding_ID,
   [Value]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 --Outputs from this reusable query:
@@ -1009,7 +999,7 @@ SELECT
 	FK_Patient_Link_ID, CASE WHEN GPPracticeCode like 'ZZZ%' THEN 'OutOfArea' ELSE GPPracticeCode END AS GPPracticeCode, 
 	CASE WHEN StartDate IS NULL THEN '1900-01-01' ELSE CAST(StartDate AS DATE) END AS StartDate, 
 	CASE WHEN EndDate IS NULL THEN '2100-01-01' ELSE CAST(EndDate AS DATE) END AS EndDate 
-INTO #AllGPHistoryData FROM rls.vw_Patient_GP_History
+INTO #AllGPHistoryData FROM SharedCare.Patient_GP_History
 WHERE FK_Reference_Tenancy_ID=2 -- limit to GP feed makes it easier than trying to deal with the conflicting data coming from acute care
 AND (StartDate < EndDate OR EndDate IS NULL) --Some time periods are instantaneous (start = end) - this ignores them
 AND GPPracticeCode IS NOT NULL;
@@ -1243,14 +1233,14 @@ FROM #GM_GP_range
 IF OBJECT_ID('tempdb..#COVIDDeathPositiveTest') IS NOT NULL DROP TABLE #COVIDDeathPositiveTest;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeathPositiveTest 
-FROM RLS.vw_COVID19
+FROM SharedCare.COVID19
 where DeathWithin28Days = 'Y' 
 
 -- Get patient list of those with COVID death within 28 days of positive test, and any deaths within 28 days of a confirmed covid-19 record
 IF OBJECT_ID('tempdb..#COVIDDeathConfirmed') IS NOT NULL DROP TABLE #COVIDDeathConfirmed;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeathConfirmed 
-FROM RLS.vw_COVID19
+FROM SharedCare.COVID19
 where (DeathWithin28Days = 'Y' 
         OR
     (GroupDescription = 'Confirmed' AND SubGroupDescription IN ('','Positive', 'Post complication', 'Post Assessment', 'Organism', NULL))

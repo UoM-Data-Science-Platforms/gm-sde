@@ -5,3 +5,7 @@
 4665.	Urine glucose test = ++
 4666.	Urine glucose test = +++
 4667.	Urine glucose test = ++++
+466Z.	Urine glucose test NOS
+R115.	[D]Glycosuria
+Xa1pb	Glycosuria
+XaBZE	Urine test for glucose

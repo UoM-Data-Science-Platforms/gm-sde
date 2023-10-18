@@ -5,33 +5,8 @@ B44y.	Malignant neoplasm of other site of uterine adnexa
 B44z.	Malignant neoplasm of uterine adnexa NOS
 Byu70	[X]Malignant neoplasm of uterine adnexa, unspecified
 XaFrN	Local recurrence of malignant tumour of cervix
-XE1w9	Benign neoplasm of ovary
-B7A..	Benign neoplasm of ovary
-XaKzK	Suspected gynaecological cancer
-XaFwn	Suspected endometrial cancer
-XaFwm	Suspected cervical cancer
-XaaIN	QCancer endometrial cancer risk
-XaZev	QCancer ovarian cancer risk
-XaaIO	QCancer cervical cancer risk
-XaE6w	Other abnormal uterine and vaginal bleeding
-XaE6z	Abnormal vaginal bleeding, unspecified
-XaE70	Abnormal uterine and vaginal bleeding, unspecified
-XaXsb	Referral to community gynaecology service
-8H58.	Gynaecological referral
-8HJ6.	Gynaecological self-referral
-8HV7.	Private referral to gynaecologist
-XaBTf	Referral to gynaecologist
-XaAgH	Referral to obstetrician and gynaecologist
-XaMeB	Fast track referral for suspected gynaecological cancer
-XaPyV	Seen in fast track suspected gynaecological cancer clinic
 XaFri	Metastasis from malignant tumour of cervix
 B912.	Neoplasm of uncertain behaviour of ovary
-Kyu9D	[X]Other specified abnormal uterine and vaginal bleeding
-Xa86A	Abnormal vaginal bleeding
-XaKJm	Postmenopausal postcoital bleeding
-XaAct	Referral to obstetrics and gynaecology service
-XaMA6	Referral to gynaecology special interest general practitioner
-Xaack	Referral to paediatric gynaecology service
 B41..	Cervical carcinoma (uterus)
 B41..	Malignant neoplasm of cervix uteri
 B41y.	Malignant neoplasm of other site of cervix
@@ -59,21 +34,12 @@ B586.	Secondary tumour to ovary
 B58y2	Secondary cancer of the cervix
 B58y2	Secondary malignant neoplasm of cervix uteri
 B58y2	Secondary malignant neoplasm of cervix uteri
-B790.	Benign neoplasm of cervix uteri NEC
 Byu7.	[X]Malignant neoplasm of female genital organs
 Byu7.	[X]Malignant neoplasm of female genital organs
 Byu71	[X]Malignant neoplasm of other specified female genital organs
 Byu71	[X]Malignant neoplasm of other specified female genital organs
 Byu73	[X]Malignant neoplasm of female genital organ, unspecified
 Byu73	[X]Malignant neoplasm of female genital organ, unspecified
-K5A1.	Bleeding after menopause
-K5A1.	PMB - Postmenopausal bleeding
-K5A1.	Postmenopausal bleeding
-K5A1.	Postmenopausal bleeding
-R0934	[D]Pelvic mass
-R0934	[D]Pelvic mass
-R0935	[D]Pelvic lump
-R0935	[D]Pelvic lump
 X407e	Tumour of cervix
 X407e	Tumour of cervix
 X78Wf	Ovarian tumour
@@ -86,23 +52,15 @@ X78Wm	Borderline epithelial tumour
 X78Wm	Borderline epithelial tumour
 X78Wo	Undifferentiated carcinoma of ovary
 X78Wo	Undifferentiated carcinoma of ovary
-X78XE	Benign teratoma of ovary
-X78XE	Benign teratoma of ovary
 X78XF	Dermoid cyst of ovary
 X78XF	Dermoid cyst of ovary
 X78XF	Mature cystic teratoma of ovary
-X78Xl	Benign tumour of cervix
-X78Xl	Benign tumour of cervix
-XaE6x	Abnormal uterine bleeding unrelated to menstrual cycle
-XaE6x	Abnormal uterine bleeding unrelated to menstrual cycle
 XE1vi	Ca cervix
 XE1vi	Cancer of cervix
 XE1vi	Malignant neoplasm of cervix
 XE1vi	Malignant neoplasm of cervix uteri
 XE1vi	Malignant tumour of cervix
 XE1vi	Malignant tumour of cervix
-XE1w8	Benign neoplasm of cervix uteri NEC
-XE1w8	Benign neoplasm of cervix uteri NEC
 XE1zN	Adenocarcinoma cervix uteri
 XE1zN	Carcinoma cervix uteri
 XE1zN	Carcinoma cervix uteri: [adenocarcinoma] or [invasive]
@@ -112,7 +70,306 @@ XE1zT	Ca cervix uteri NOS
 XE1zX	Ca ovary/other uterine adnexa
 XE1zX	Ca ovary/other uterine adnexa
 XE1zZ	Ca ovary/uterine adnexa NOS
-XM1Ca	Pelvic mass
-XM1Ca	Pelvic mass
-XM1CZ	Pelvic lump
-XM1CZ	Pelvic lump
+B441.	Fallopian tube Ca
+B441.	Malignant neoplasm of fallopian tube
+B441.	Malignant tumour of fallopian tube
+B441.	Malignant tumour of fallopian tube
+B7A..	Dermoid cyst of ovary
+BB18.	[M]Carcinoma, undifferentiated type, NOS
+BB18.	[M]Carcinoma, undifferentiated type, NOS
+BB1J.	[M]Small cell carcinoma NOS
+BB1J.	[M]Small cell carcinoma NOS
+BB24.	[M]Verrucous carcinoma NOS
+BB24.	[M]Verrucous carcinoma NOS
+BB26.	Papillary epidermoid carcinoma
+BB26.	Papillary squamous cell carcinoma
+BB26.	Papillary squamous cell carcinoma
+BB2D.	Non-keratinising epidermoid carcinoma - large cell
+BB2D.	Non-keratinising squamous cell carcinoma
+BB2D.	Non-keratinising squamous cell carcinoma - large cell
+BB2D.	Non-keratinising squamous cell carcinoma - large cell
+BB2M.	Lymphoepithelial carcinoma
+BB2M.	Lymphoepithelial carcinoma
+BB2M.	Lymphoepithelioma
+BB2M.	Schminke tumour
+BB31.	[M]Basal cell carcinoma NOS
+BB31.	[M]Basal cell carcinoma NOS
+BB43.	[M]Transitional cell carcinoma NOS
+BB43.	[M]Transitional cell carcinoma NOS
+BB4A.	Papillary transitional cell carcinoma
+BB4A.	Papillary transitional cell carcinoma
+BB5..	[M]Adenocarcinomas
+BB51.	Adenocarcinoma in situ
+BB51.	Adenocarcinoma in situ
+BB51.	AIS - Adenocarcinoma in situ
+BB52.	[M]Adenocarcinoma NOS
+BB52.	[M]Adenocarcinoma NOS
+BB57.	Adenocarcinoma - intestinal type
+BB57.	Adenocarcinoma - intestinal type
+BB57.	Carcinoma - intestinal type
+BB5d1	Mixed cell adenocarcinoma
+BB5d1	Mixed cell adenocarcinoma
+BB5J.	[M](Adenoid cystic carcinoma) or (cylindroid adenocarcinoma) or (cylindroid bronchial adenoma) or (cylindroma NOS)
+BB5J.	[M]Adenoid cystic carcinoma
+BB5J.	[M]Cylindroid adenocarcinoma
+BB5J.	[M]Cylindroid bronchial adenoma
+BB5j2	Endometrioid adenocarcinoma
+BB5j2	Endometrioid carcinoma
+BB5j2	Endometrioid carcinoma
+BB5j2	Endometrioid cystadenocarcinoma
+BB5R0	[M]Carcinoid tumour NOS
+BB5R0	[M]Carcinoid tumour NOS
+BB5RA	[M] Merkel cell carcinoma
+BB5RA	[M] Merkel cell carcinoma
+BB5X1	[M]Clear cell adenocarcinoma NOS
+BB5X1	[M]Clear cell adenocarcinoma NOS
+BB691	[M]Sebaceous adenocarcinoma
+BB691	[M]Sebaceous adenocarcinoma
+BB811	[M] Serous cystadenoma, borderline malignancy
+BB811	Serous cystadenoma - borderline malignancy
+BB811	Serous cystadenoma - borderline malignancy
+BB811	Serous tumour of low malignant potential
+BB812	[M]Serous cystadenocarcinoma, NOS
+BB812	[M]Serous cystadenocarcinoma, NOS
+BB813	[M]Papillary cystadenoma NOS
+BB813	[M]Papillary cystadenoma NOS
+BB818	Papillary serous adenocarcinoma
+BB818	Papillary serous cystadenocarcinoma
+BB818	Papillary serous cystadenocarcinoma
+BB81B	Serous surface papillary carcinoma
+BB81B	Serous surface papillary carcinoma
+BB821	Colloid adenocarcinoma
+BB821	Colloid carcinoma
+BB821	Gelatinous adenocarcinoma
+BB821	Gelatinous carcinoma
+BB821	Mucinous adenocarcinoma
+BB821	Mucinous adenocarcinoma
+BB821	Mucinous carcinoma
+BB821	Mucoid adenocarcinoma
+BB821	Mucoid carcinoma
+BB821	Mucous adenocarcinoma
+BB821	Mucous carcinoma
+BB850	Signet ring carcinoma
+BB850	Signet ring cell adenocarcinoma
+BB850	Signet ring cell carcinoma
+BB850	Signet ring cell carcinoma
+BB85z	[M]Signet ring carcinoma NOS
+BB85z	[M]Signet ring carcinoma NOS
+BB91.	Duct adenocarcinoma
+BB91.	Duct carcinoma
+BB91.	Duct cell carcinoma
+BB91.	Ductal carcinoma
+BB91.	Infiltrating duct adenocarcinoma
+BB91.	Infiltrating duct carcinoma
+BB91.	Infiltrating duct carcinoma
+BBB0.	Adenosquamous carcinoma
+BBB0.	Adenosquamous carcinoma
+BBB0.	Mixed adenocarcinoma and epidermoid carcinoma
+BBB0.	Mixed adenocarcinoma and squamous cell carcinoma
+BBB2.	Adenoacanthoma
+BBB2.	Adenocarcinoma with squamous metaplasia
+BBB2.	Adenocarcinoma with squamous metaplasia
+BBC4.	Granulosa cell carcinoma
+BBC4.	Malignant granulosa cell tumour
+BBC4.	Malignant granulosa cell tumour
+BBC7.	Sertoli-Leydig cell tumour
+BBC7.	Sertoli-Leydig cell tumour
+BBE1.	[M]Malignant melanoma NOS
+BBE1.	[M]Malignant melanoma NOS or melanocarcinoma or melanoma NOS
+BBE1.	[M]Melanocarcinoma
+BBE1.	[M]Naevocarcinoma
+BBe2.	Neurogenic sarcoma
+BBe2.	Neurosarcoma
+BBf2.	[M]Alveolar soft part sarcoma
+BBf2.	[M]Alveolar soft part sarcoma
+BBF6.	Epithelioid cell sarcoma
+BBF6.	Epithelioid sarcoma
+BBF6.	Epithelioid sarcoma
+BBG1.	[M]Fibrosarcoma NOS
+BBG1.	[M]Fibrosarcoma NOS
+BBG1.	Fibrosarcoma
+BBGL.	[M]Dermatofibroma protuberans
+BBGL.	[M]Dermatofibroma protuberans
+BBGM.	[M]Dermatofibrosarcoma NOS
+BBGM.	[M]Dermatofibrosarcoma NOS
+BBJ1.	[M]Liposarcoma NOS
+BBJ1.	[M]Liposarcoma NOS
+BBK04	Epithelioid leiomyosarcoma
+BBK04	Epithelioid leiomyosarcoma
+BBK31	[M]Rhabdomyosarcoma NOS
+BBK31	[M]Rhabdomyosarcoma NOS
+BBK36	Botryoid sarcoma
+BBK36	Embryonal rhabdomyosarcoma
+BBK36	Embryonal rhabdomyosarcoma
+BBK36	Sarcoma botryoides
+BBK37	Alveolar rhabdomyosarcoma
+BBK37	Alveolar rhabdomyosarcoma
+BBL0.	Endometrial sarcoma
+BBL0.	Endometrial stromal sarcoma
+BBL0.	Endometrial stromal sarcoma
+BBL0.	Stromal sarcoma
+BBL1.	Endolymphatic stromal myosis
+BBL1.	Endolymphatic stromal myosis
+BBL1.	Endometrial stromatosis
+BBL1.	Stromal endometriosis
+BBL1.	Stromal myosis
+BBL9.	[M]Carcinosarcoma NOS
+BBL9.	[M]Carcinosarcoma NOS
+BBLE.	[M]Adenosarcoma
+BBLE.	[M]Nephroblastoma NOS
+BBLE.	Adenosarcoma
+BBLE.	Adenosarcoma
+BBM01	Malignant Brenner tumour
+BBM01	Malignant Brenner tumour
+BBP1.	Malignant mesothelioma
+BBP1.	Malignant mesothelioma
+BBP1.	Mesothelioma of pleura
+BBQ0.	Dysgerminoma
+BBQ0.	Dysgerminoma
+BBQ3.	[M]Embryonal carcinoma NOS
+BBQ3.	[M]Embryonal carcinoma NOS
+BBQ4.	Endodermal sinus tumour
+BBQ4.	Endodermal sinus tumour
+BBQ4.	Infantile embryonal carcinoma
+BBQ4.	Orchioblastoma
+BBQ4.	Polyvesicular vitelline tumour
+BBQ4.	Yolk sac tumour
+BBQA.	[M]Strumal neoplasms
+BBQA.	[M]Strumal neoplasms
+BBQA1	Malignant struma ovarii
+BBQA1	Malignant struma ovarii
+BBQA2	Struma ovarii and carcinoid
+BBQA2	Strumal carcinoid
+BBQA2	Strumal carcinoid
+BBR1.	[M]Chorioadenoma
+BBR1.	[M]Chorioadenoma destruens
+BBR1.	[M]Invasive hydatidiform mole
+BBR1.	[M]Invasive hydatidiform mole
+BBR2.	[M]Choriocarcinoma
+BBR2.	[M]Choriocarcinoma
+BBR2.	[M]Chorioepithelioma
+BBR6.	[M] Placental site trophoblastic tumour
+BBR6.	[M] Placental site trophoblastic tumour
+BBS..	Mesonephric tumour
+BBS..	Mesonephroma
+BBS..	Mesonephroma
+BBS1.	[M]Mesonephric tumour
+BBS1.	[M]Mesonephric tumour
+BBS2.	Malignant mesonephroma
+BBS2.	Malignant mesonephroma
+BBS2.	Mesonephric adenocarcinoma
+BBS2.	Wolffian duct carcinoma
+BBT1.	Angiosarcoma
+BBT1.	Haemangiosarcoma
+BBT1.	Haemangiosarcoma
+BBTA.	[M]Kaposi's sarcoma
+BBTA.	[M]Kaposi's sarcoma
+X70Lc	Buschke-Lowenstein giant condyloma
+X70Lc	Buschke-Lowenstein tumour
+X70Lc	Giant acuminate warts
+X70Lc	Giant condyloma acuminata
+X70Lc	Giant condyloma acuminata
+X77mv	[M] Small cell carcinoma, intermediate cell
+X77mv	Small cell carcinoma - intermediate cell
+X77mv	Small cell carcinoma - intermediate cell
+X77nE	Adenocarcinoma
+X77nE	Adenocarcinoma
+X77nM	[M] Adenocarcinoma in tubulovillous adenoma
+X77nM	Adenocarcinoma in tubulovillous adenoma
+X77nM	Adenocarcinoma in tubulovillous adenoma
+X77o3	[M]Testicular stromal tumour
+X77o3	[M]Testicular stromal tumour
+X77o4	Gonadal stromal tumour
+X77of	[M] Myxoid leiomyosarcoma
+X77of	Myxoid leiomyosarcoma
+X77of	Myxoid leiomyosarcoma
+X77or	Adearcoma
+X77or	Adearcoma
+X77ow	[M] Mixed germ cell tumour
+X77ow	Mixed germ cell tumour
+X77ow	Mixed germ cell tumour
+X77pO	Epithelial ependymoma
+X77pO	Epithelial ependymoma
+X77pP	Cellular ependymoma
+X77pP	Cellular ependymoma
+X77pQ	Clear cell ependymoma
+X77pQ	Clear cell ependymoma
+Xa989	Reserve cell carcinoma
+Xa989	Round cell carcinoma
+Xa989	SCC - Small cell carcinoma
+Xa989	Small cell carcinoma
+Xa989	Small cell carcinoma
+Xa98B	SCC - Verrucous squamous cell carcinoma
+Xa98B	Verrucous carcinoma
+Xa98B	Verrucous carcinoma
+Xa98B	Verrucous epidermoid carcinoma
+Xa98B	Verrucous squamous cell carcinoma
+Xa98e	Clear cell adenocarcinoma
+Xa98e	Clear cell adenocarcinoma
+Xa98e	Clear cell carcinoma
+Xa98e	Mesonephroid clear cell adenocarcinoma
+Xa98E	Epidermoid carcinoma
+Xa98E	SCC - Squamous cell carcinoma
+Xa98E	Squamous carcinoma
+Xa98E	Squamous cell carcinoma
+Xa98E	Squamous cell carcinoma
+Xa98E	Squamous cell epithelioma
+Xa98F	[M]Squamous cell carcinoma, keratinising type NOS
+Xa98F	Keratinising epidermoid carcinoma
+Xa98F	Keratinising squamous cell carcinoma
+Xa98F	Keratinising squamous cell carcinoma
+Xa98F	Keratinising squamous cell carcinoma - large cell
+Xa98G	Basal cell carcinoma
+Xa98G	Basal cell carcinoma
+Xa98G	BCC - Basal cell carcinoma
+Xa98J	TCC - Transitional cell carcinoma
+Xa98J	Transitional carcinoma
+Xa98J	Transitional cell carcinoma
+Xa98J	Transitional cell carcinoma
+Xa98J	Urothelial carcinoma
+Xa98m	Serous adenocarcinoma
+Xa98m	Serous cystadenocarcinoma
+Xa98m	Serous cystadenocarcinoma
+Xa98n	Papillary cystadenoma
+Xa98n	Papillary cystadenoma
+Xa98Z	[M]Mucocarcinoid tumour, malignant
+Xa98Z	Goblet cell carcinoid
+Xa98Z	Goblet cell carcinoid
+Xa98Z	Mucinous carcinoid
+Xa98Z	Mucocarcinoid tumour
+Xa994	Ependymoma
+Xa994	Ependymoma
+Xa99f	Alveolar soft tissue sarcoma
+Xa99f	Alveolar soft tissue sarcoma
+Xa99r	Fibroliposarcoma
+Xa99r	Liposarcoma morphology
+Xa99r	Liposarcoma morphology
+Xa99S	Malignant melanoma
+Xa99S	Malignant melanoma
+Xa99S	MM - Malignant melanoma
+Xa99v	Leiomyosarcoma
+Xa99v	Leiomyosarcoma
+Xa99v	LMS - Leiomyosarcoma
+Xa99V	Malignant peripheral nerve sheath tumour
+Xa99V	Malignant peripheral nerve sheath tumour
+Xa99V	MPNST - Malignant peripheral nerve sheath tumour
+Xa9A1	Carcinosarcoma
+Xa9A1	Carcinosarcoma
+Xa9AG	Embryonal adenocarcinoma
+Xa9AG	Embryonal carcinoma
+Xa9AG	Embryonal carcinoma
+Xa9AI	[M]Teratoma, malignant, NOS
+Xa9AI	Immature teratoma
+Xa9AI	Malignant teratoblastoma
+Xa9AI	Malignant teratoma
+Xa9AI	Malignant teratoma
+XaZzi	[M]Peripheral neuroectodermal tumour
+XaZzi	[M]Peripheral neuroectodermal tumour
+XE1wT	Adenoid cystic carcinoma
+XE1wT	Adenoid cystic carcinoma
+XE1wX	[M]Malignant melanoma NOS
+XE1wX	[M]Malignant melanoma NOS
+XM1F6	Undifferentiated carcinoma
+XM1F6	Undifferentiated carcinoma
+XSN6y	Epithelioid trophoblastic tumour
+XSN6y	Epithelioid trophoblastic tumour

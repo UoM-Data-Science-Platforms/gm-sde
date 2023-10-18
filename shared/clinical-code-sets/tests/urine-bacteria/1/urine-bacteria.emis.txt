@@ -1,0 +1,4 @@
+^ESCTBA349718	Bacilluria
+^ESCTFI627631	Finding of urine microscopy: organisms/foreign bodies
+^ESCTFO557636	Foreign body in urine - microscopy
+^ESCTUR627629	Urine microscopy: orgs/FB's - finding

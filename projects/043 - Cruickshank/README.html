@@ -324,7 +324,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Three temp tables as follows:
@@ -373,7 +373,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -405,6 +405,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>
@@ -414,7 +435,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -446,6 +467,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>
@@ -455,7 +497,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>COVID positive tests in primary care</h4>
 <p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.7% - 25.4%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
 <table>
 <thead>
 <tr>
@@ -487,6 +529,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>341354</td>
 <td style="text-align:right">9440 (2.77%)</td>
 <td style="text-align:right">65963 (19.3%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>EMIS</td>
+<td>2465646</td>
+<td style="text-align:right">567107 (23%)</td>
+<td style="text-align:right">572342 (23.2%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>TPP</td>
+<td>200499</td>
+<td style="text-align:right">2840 (1.42%)</td>
+<td style="text-align:right">50964 (25.4%)</td>
+</tr>
+<tr>
+<td>2023-10-04</td>
+<td>Vision</td>
+<td>332029</td>
+<td style="text-align:right">62534 (18.8%)</td>
+<td style="text-align:right">65493 (19.7%)</td>
 </tr>
 </tbody>
 </table>
@@ -740,6 +803,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">3308 (0.97%)</td>
 <td style="text-align:right">3307 (0.97%)</td>
 </tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">23678 (0.961%)</td>
+<td style="text-align:right">11237 (0.456%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">2631 (1.31%)</td>
+<td style="text-align:right">2593 (1.29%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">3098 (0.933%)</td>
+<td style="text-align:right">1699 (0.512%)</td>
+</tr>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
@@ -779,6 +863,48 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>334632</td>
 <td style="text-align:right">1607 (0.48%)</td>
 <td style="text-align:right">1607 (0.48%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">10968 (0.445%)</td>
+<td style="text-align:right">10223 (0.415%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">1094 (0.545%)</td>
+<td style="text-align:right">1090 (0.543%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">1574 (0.474%)</td>
+<td style="text-align:right">1455 (0.438%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">10999 (0.446%)</td>
+<td style="text-align:right">10253 (0.416%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">1096 (0.546%)</td>
+<td style="text-align:right">1092 (0.544%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">1578 (0.475%)</td>
+<td style="text-align:right">1459 (0.439%)</td>
 </tr>
 </tbody>
 </table>
@@ -820,6 +946,48 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">16936 (5.06%)</td>
 <td style="text-align:right">16933 (5.06%)</td>
 </tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">139199 (5.65%)</td>
+<td style="text-align:right">139230 (5.65%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">13456 (6.71%)</td>
+<td style="text-align:right">13458 (6.71%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">17554 (5.29%)</td>
+<td style="text-align:right">17542 (5.28%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">139785 (5.67%)</td>
+<td style="text-align:right">139814 (5.67%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">13485 (6.72%)</td>
+<td style="text-align:right">13487 (6.72%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">17621 (5.31%)</td>
+<td style="text-align:right">17609 (5.3%)</td>
+</tr>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1">https://github.com/rw251/.../conditions/diabetes-type-ii/1</a></p>
@@ -827,7 +995,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>Any suggestion of a diagnosis of COPD.</p>
 <p>Developed from https://getset.ga.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.10% - 2.33%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.17% - 2.48%</code> in 2023 suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -859,6 +1027,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>334632</td>
 <td style="text-align:right">7789 (2.33%)</td>
 <td style="text-align:right">7789 (2.33%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">53577 (2.17%)</td>
+<td style="text-align:right">53551 (2.17%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">4959 (2.47%)</td>
+<td style="text-align:right">4966 (2.48%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">7382 (2.22%)</td>
+<td style="text-align:right">7374 (2.22%)</td>
 </tr>
 </tbody>
 </table>
@@ -899,6 +1088,48 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>336528</td>
 <td style="text-align:right">43389 (12.89%)</td>
 <td style="text-align:right">43389 ( 12.89%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">348882 (14.2%)</td>
+<td style="text-align:right">348930 (14.2%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">33584 (16.7%)</td>
+<td style="text-align:right">31906 (15.9%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">45338 (13.7%)</td>
+<td style="text-align:right">45277 (13.6%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">350029 (14.2%)</td>
+<td style="text-align:right">350075 (14.2%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">33643 (16.8%)</td>
+<td style="text-align:right">31967 (15.9%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">45529 (13.7%)</td>
+<td style="text-align:right">45467 (13.7%)</td>
 </tr>
 </tbody>
 </table>

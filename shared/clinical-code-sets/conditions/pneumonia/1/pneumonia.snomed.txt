@@ -1,0 +1,103 @@
+1033111000000100	Influenza with pneumonia due to seasonal influenza virus
+10624991000119100	Bronchopneumonia caused by Achromobacter
+10625031000119100	Bronchopneumonia caused by anaerobic bacteria
+10625071000119100	Bronchopneumonia caused by bacteria
+10625111000119100	Bronchopneumonia caused by Escherichia coli
+10625151000119100	Bronchopneumonia caused by Group A Streptococcus
+10625191000119100	Bronchopneumonia caused by Group B Streptococcus
+10625231000119100	Bronchopneumonia caused by Haemophilus influenzae
+10625271000119100	Bronchopneumonia caused by Human metapneumovirus
+10625311000119100	Bronchopneumonia caused by Klebsiella pneumoniae
+10625351000119100	Bronchopneumonia caused by methicillin resistant Staphylococcus aureus
+10625391000119100	Bronchopneumonia caused by methicillin susceptible Staphylococcus aureus
+10625431000119100	Bronchopneumonia caused by Mycoplasma pneumoniae
+10625471000119100	Bronchopneumonia caused by Proteus mirabilis
+10625511000119100	Bronchopneumonia caused by Pseudomonas
+10625551000119100	Bronchopneumonia caused by respiratory syncytial virus
+10625591000119100	Bronchopneumonia caused by Staphylococcus
+10625631000119100	Bronchopneumonia caused by Staphylococcus aureus
+10625671000119100	Bronchopneumonia caused by Streptococcus
+10625711000119100	Bronchopneumonia caused by Streptococcus pneumoniae
+10625751000119100	Bronchopneumonia due to virus
+1092361000119100	Rubella pneumonia
+1092951000119100	Pneumonia caused by Bordetella parapertussis
+123587001	Acute bronchopneumonia
+123588006	Confluent bronchopneumonia with abscess formation
+123589003	Necrotizing bronchopneumonia
+1240551000000100	Pneumonia caused by severe acute respiratory syndrome coronavirus 2
+124691000119101	Pneumonia caused by methicillin resistant Staphylococcus aureus
+128711000119106	Pneumonia caused by methicillin susceptible Staphylococcus aureus
+142931000119100	Pneumonia caused by H1N1 influenza
+143111000119103	Pneumonia caused by avian influenza
+16311000119108	Pneumonia caused by influenza
+184431000119108	Acute pneumonia due to coccidioidomycosis
+195878008	Pneumonia and influenza
+195881003	Pneumonia caused by respiratory syncytial virus
+195886008	Group B streptococcal pneumonia
+195888009	Proteus pneumonia
+195889001	Legionella pneumonia
+195896004	Pneumonia caused by pleuropneumonia-like organism
+195900001	Pneumonia co-occurrent and due to measles
+22754005	Staphylococcal pneumonia
+233604007	Pneumonia
+233606009	Atypical pneumonia
+233607000	Pneumococcal pneumonia
+233608005	Meningococcal pneumonia
+233609002	Pneumonia caused by Chlamydiaceae
+233618000	Mycobacterial pneumonia
+233622005	Infectious mononucleosis pneumonia
+233623000	Mononuclear interstitial pneumonia
+2523007	Salmonella pneumonia
+266350000	Pneumococcal lobar pneumonia
+278516003	Lobar pneumonia
+300999006	Basal pneumonia
+301000005	Left lower zone pneumonia
+301001009	Right lower zone pneumonia
+301002002	Left upper zone pneumonia
+301003007	Right middle zone pneumonia
+301004001	Right upper zone pneumonia
+308906005	Secondary bacterial pneumonia
+312342009	Infective pneumonia
+34020007	Pneumonia caused by Streptococcus
+385093006	Community acquired pneumonia
+396285007	Bronchopneumonia
+396286008	Bilateral bronchopneumonia
+407671000	Bilateral pneumonia
+408679000	Healthcare associated pneumonia
+408680002	Healthcare associated bacterial pneumonia
+409664000	Pneumonia caused by anaerobic bacteria
+409665004	Pneumonia caused by aerobic bacteria
+41207000	Adenoviral pneumonia
+41269000	Influenzal bronchopneumonia
+41381004	Pneumonia caused by Pseudomonas
+425464007	Nosocomial pneumonia
+425996009	Bilateral basal pneumonia
+426696003	Lingular pneumonia
+430395005	Pneumonia caused by Gram negative bacteria
+441590008	Pneumonia caused by Severe acute respiratory syndrome coronavirus
+441658007	Pneumonia caused by Staphylococcus aureus
+441942006	Pneumonia caused by infection caused by Streptococcus pyogenes
+442094008	Pneumonia caused by Histoplasma
+445096001	Pneumonia caused by Human metapneumovirus
+45312009	Pneumonia in typhoid fever
+46970008	Pneumonia caused by Mycoplasma pneumoniae
+51530003	Pneumonia caused by Escherichia coli
+53084003	Bacterial pneumonia
+55679008	Peribronchial pneumonia
+58890000	Adenoviral bronchopneumonia
+59475000	Pneumonia in pertussis
+60485005	Pleurobronchopneumonia
+61884008	Achromobacter pneumonia
+64479007	Pneumonia caused by Klebsiella pneumoniae
+64880000	Parainfluenza virus bronchopneumonia
+64917006	Parainfluenza virus pneumonia
+66429007	Unresolved lobar pneumonia
+70036007	Haemophilus influenzae pneumonia
+713084008	Pneumonia caused by Human coronavirus
+713525001	Recurrent bacterial pneumonia
+724498004	Pneumonia caused by Chlamydia pneumoniae
+733051000	Pneumonia caused by Gram positive bacteria
+75570004	Viral pneumonia
+7678002	Cytomegaloviral pneumonia
+772839003	Pneumonia caused by Influenza A virus
+

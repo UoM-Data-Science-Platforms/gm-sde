@@ -1,0 +1,4 @@
+228276006	Occasional drinker (life style)
+228277002	Light drinker (life style)
+266917007	Trivial drinker - <1u/day (life style)
+777671000000105	Lower risk alcohol drinking (finding)

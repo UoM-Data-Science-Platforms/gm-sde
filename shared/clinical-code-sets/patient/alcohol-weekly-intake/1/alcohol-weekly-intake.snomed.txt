@@ -1,0 +1,2 @@
+160573003	Alcohol intake (observable entity)
+228958009	alcohol units/week (qualifier value)

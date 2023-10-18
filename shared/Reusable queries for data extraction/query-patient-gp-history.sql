@@ -27,7 +27,7 @@ SELECT
 	FK_Patient_Link_ID, CASE WHEN GPPracticeCode like 'ZZZ%' THEN 'OutOfArea' ELSE GPPracticeCode END AS GPPracticeCode, 
 	CASE WHEN StartDate IS NULL THEN '1900-01-01' ELSE CAST(StartDate AS DATE) END AS StartDate, 
 	CASE WHEN EndDate IS NULL THEN '2100-01-01' ELSE CAST(EndDate AS DATE) END AS EndDate 
-INTO #AllGPHistoryData FROM rls.vw_Patient_GP_History
+INTO #AllGPHistoryData FROM SharedCare.Patient_GP_History
 WHERE FK_Reference_Tenancy_ID=2 -- limit to GP feed makes it easier than trying to deal with the conflicting data coming from acute care
 AND (StartDate < EndDate OR EndDate IS NULL) --Some time periods are instantaneous (start = end) - this ignores them
 AND GPPracticeCode IS NOT NULL;
