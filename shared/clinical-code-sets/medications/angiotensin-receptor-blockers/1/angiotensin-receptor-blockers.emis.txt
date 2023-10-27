@@ -117,3 +117,1632 @@ ENTA108562NEMIS	Entresto  Tablets  97 mg + 103 mg
 SATA108555NEMIS	Sacubitril And Valsartan  Tablets  24 mg + 26 mg
 SATA108557NEMIS	Sacubitril And Valsartan  Tablets  49 mg + 51 mg
 AZTA72356NEMIS	Azilsartan Medoxomil  Tablets  20 mg
+^ESCT1175499	Olmesartan medoxomil 10mg tablets (Accord Healthcare Ltd)
+^ESCT1175501	Olmesartan medoxomil 20mg tablets (Accord Healthcare Ltd)
+^ESCT1178581	Product containing only olmesartan medoxomil 10 mg/1 each oral tablet
+^ESCT1179243	Product containing only amlodipine 10 mg and olmesartan 20 mg/1 each oral tablet
+^ESCT1179246	Product containing only amlodipine 5 mg and olmesartan 40 mg/1 each oral tablet
+^ESCT1182663	Product containing only olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1182664	Product containing only olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1183118	Product containing only amlodipine 5 mg and olmesartan 20 mg/1 each oral tablet
+^ESCT1183303	Product containing only olmesartan medoxomil 40 mg/1 each oral tablet
+^ESCT1185106	Product containing only amlodipine 10 mg and olmesartan 40 mg/1 each oral tablet
+^ESCT1185335	Amlodipine and hydrochlorothiazide and olmesartan medoxomil
+^ESCT1185336	Product containing amlodipine and hydrochlorothiazide and olmesartan medoxomil
+^ESCT1185522	Product containing only olmesartan medoxomil 5 mg/1 each oral tablet
+^ESCT1188065	Product containing only olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188590	Product containing only olmesartan medoxomil 20 mg/1 each oral tablet
+^ESCT1206222	Amlodipine and olmesartan in oral dosage form
+^ESCT1206223	Product containing amlodipine and olmesartan in oral dosage form
+^ESCT1214208	Olmesartan medoxomil 40mg tablets (Accord Healthcare Ltd)
+^ESCT1229312	Olmesartan medoxomil
+^ESCT1229313	Olmesartan medoxomil product
+^ESCT1229316	Product containing precisely olmesartan medoxomil 5 milligram/1 each conventional release oral tablet
+^ESCT1229317	Product containing precisely olmesartan medoxomil 20 milligram/1 each conventional release oral tablet
+^ESCT1229318	Product containing precisely olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1230497	Product containing precisely olmesartan medoxomil 10 milligram/1 each conventional release oral tablet
+^ESCT1230612	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 20 milligram/1 each conventional release oral tablet
+^ESCT1230613	Hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1230614	Hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1230615	Product containing precisely hydrochlorothiazide 12.5 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1230616	Olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230617	Hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1230618	Product containing precisely hydrochlorothiazide 25 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1233995	Hydrochlorothiazide and olmesartan medoxomil product
+^ESCT1234648	Amlodipine and olmesartan product
+^ESCT1234722	Amlodipine 10 mg and olmesartan 20 mg oral tablet
+^ESCT1234723	Amlodipine besilate 10 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1234724	Product containing precisely amlodipine besilate 10 milligram and olmesartan medoxomil 20 milligram/1 each conventional release oral tablet
+^ESCT1234725	Amlodipine besylate 10 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1234781	Product containing precisely amlodipine (as amlodipine besilate) 5 milligram and olmesartan medoxomil 20 milligram/1 each conventional release oral tablet
+^ESCT1234782	Amlodipine (as amlodipine besilate) 5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1234783	Amlodipine (as amlodipine besylate) 5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1234784	Product containing precisely amlodipine (as amlodipine besilate) 5 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1234785	Amlodipine (as amlodipine besilate) 5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1234786	Amlodipine (as amlodipine besylate) 5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1234800	Product containing precisely amlodipine (as amlodipine besilate) 10 milligram and olmesartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1234801	Amlodipine (as amlodipine besylate) 10 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1234802	Amlodipine (as amlodipine besilate) 10 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1235398	Amlodipine and hydrochlorothiazide and olmesartan medoxomil product
+^ESCT1257806	Olmesartan medoxomil 10mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257808	Olmesartan medoxomil 20mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257810	Olmesartan medoxomil 40mg tablets (Macleods Pharma UK Ltd)
+^ESCT1259606	Olmesartan medoxomil 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259609	Olmesartan medoxomil 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259612	Olmesartan medoxomil 40mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259804	Olmesartan medoxomil 10mg tablets (Mylan)
+^ESCT1259806	Olmesartan medoxomil 20mg tablets (Mylan)
+^ESCT1259809	Olmesartan medoxomil 40mg tablets (Mylan)
+^ESCT1271297	Olmesartan medoxomil 10mg tablets (DE Pharmaceuticals)
+^ESCT1271299	Olmesartan medoxomil 20mg tablets (DE Pharmaceuticals)
+^ESCT1271301	Olmesartan medoxomil 40mg tablets (DE Pharmaceuticals)
+^ESCT1384202	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1384203	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet
+^ESCT1384204	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384205	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384206	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384207	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384208	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384209	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384213	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1384214	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet
+^ESCT1386169	Amlodipine- and olmesartan-containing product in oral dose form
+^ESCT1439080	Olmesartan medoxomil 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439082	Olmesartan medoxomil 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439084	Olmesartan medoxomil 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCTAM708643	Amlodipine + olmesartan
+^ESCTAM708645	Amlodipine + Olmesartan
+^ESCTAM709902	Amlodipine 10 mg and olmesartan 20 mg oral tablet
+^ESCTAM710431	Amlodipine 5 mg and olmesartan 20 mg oral tablet
+^ESCTAM710434	Amlodipine 5 mg and olmesartan 40 mg oral tablet
+^ESCTAM710707	Amlodipine 10 mg and olmesartan 40 mg oral tablet
+^ESCTAM733430	Amlodipine + hydrochlorothiazide + olmesartan medoxomil
+^ESCTAM733431	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 20mg tablet
+^ESCTAM733463	Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733464	Amlodipine 5mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733465	Amlodipine 10mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet
+^ESCTAM733582	Amlodipine 10mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet
+^ESCTHY701418	Hydrochlorothiazide + olmesartan
+^ESCTOL1157486	Olmesartan medoxomil 20mg tablets (Teva UK Ltd)
+^ESCTOL1157488	Olmesartan medoxomil 40mg tablets (Teva UK Ltd)
+^ESCTOL1157490	Olmesartan medoxomil 10mg tablets (Teva UK Ltd)
+^ESCTOL1158297	Olmesartan medoxomil 10mg tablets (Actavis UK Ltd)
+^ESCTOL1158299	Olmesartan medoxomil 20mg tablets (Actavis UK Ltd)
+^ESCTOL1158301	Olmesartan medoxomil 40mg tablets (Actavis UK Ltd)
+^ESCTOL1158410	Olmesartan medoxomil 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1158412	Olmesartan medoxomil 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1158415	Olmesartan medoxomil 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1158490	Olmesartan medoxomil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1158492	Olmesartan medoxomil 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1158494	Olmesartan medoxomil 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1162046	Olmesartan medoxomil 10mg tablets (Milpharm Ltd)
+^ESCTOL1162048	Olmesartan medoxomil 20mg tablets (Milpharm Ltd)
+^ESCTOL1162050	Olmesartan medoxomil 40mg tablets (Milpharm Ltd)
+^ESCTOL643852	Olmesartan medoxomil
+^ESCTOL643933	Olmesartan medoxomil 5 mg oral tablet
+^ESCTOL643935	Olmesartan medoxomil 20mg tablets
+^ESCTOL643937	Olmesartan medoxomil 20 mg oral tablet
+^ESCTOL643938	Olmesartan medoxomil 40mg tablets
+^ESCTOL643940	Olmesartan medoxomil 40 mg oral tablet
+^ESCTOL675610	Olmesartan medoxomil 10mg tablets
+^ESCTOL675612	Olmesartan medoxomil 10 mg oral tablet
+^ESCTOL677436	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTOL677438	Olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTOL677439	Olmesartan medoxomil 40mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTOL677441	Olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTOL677442	Olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTOL701417	Olmesartan + Hydrochlorothiazide
+^ESCTOL708642	Olmesartan + Amlodipine
+^ESCTOL710429	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets
+^ESCTOL710432	Olmesartan medoxomil 40mg / Amlodipine 5mg tablets
+^ESCTOL710705	Olmesartan medoxomil 40mg / Amlodipine 10mg tablets
+^ESCTOL733429	Olmesartan + Amlodipine + Hydrochlorothiazide
+^ESCTOL927633	Olmesartan medoxomil 20mg / Hydrochlorothiazide 25mg tablets
+^ESCTOL974168	Olmesartan medoxomil 10mg/5ml oral solution (Special Order)
+^ESCTOL974178	Olmesartan medoxomil 10mg/5ml oral suspension (Special Order)
+^ESCTOL974500	Olmesartan medoxomil 10mg/5ml oral solution
+^ESCTOL974501	Olmesartan medoxomil 10mg/5ml oral suspension
+^ESCTPR643853	Product containing olmesartan medoxomil
+^ESCTPR643934	Product containing olmesartan medoxomil 5 mg/1 each oral tablet
+^ESCTPR643936	Product containing olmesartan medoxomil 20 mg/1 each oral tablet
+^ESCTPR643939	Product containing olmesartan medoxomil 40 mg/1 each oral tablet
+^ESCTPR675611	Product containing olmesartan medoxomil 10 mg/1 each oral tablet
+^ESCTPR677437	Product containing olmesartan medoxomil 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677440	Product containing olmesartan medoxomil 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677443	Product containing olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR701419	Product containing hydrochlorothiazide and olmesartan medoxomil
+^ESCTPR708644	Product containing amlodipine and olmesartan
+^ESCTPR709903	Product containing amlodipine 10 mg and olmesartan 20 mg/1 each oral tablet
+^ESCTPR710430	Product containing amlodipine 5 mg and olmesartan 20 mg/1 each oral tablet
+^ESCTPR710433	Product containing amlodipine 5 mg and olmesartan 40 mg/1 each oral tablet
+^ESCTPR710706	Product containing amlodipine 10 mg and olmesartan 40 mg/1 each oral tablet
+^ESCT1175270	Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1175272	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Accord Healthcare Ltd)
+^ESCT1177981	Product containing only telmisartan 20 mg/1 each oral tablet
+^ESCT1178022	Product containing only telmisartan 40 mg/1 each oral tablet
+^ESCT1179467	Product containing only telmisartan 80 mg and amlodipine 10 mg/1 each oral tablet
+^ESCT1182639	Product containing only telmisartan 80 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185283	Product containing only telmisartan 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185561	Product containing only telmisartan 40 mg and amlodipine 5 mg/1 each oral tablet
+^ESCT1187027	Telmisartan 20mg tablets (Mylan)
+^ESCT1187217	Product containing only telmisartan 80 mg/1 each oral tablet
+^ESCT1188634	Product containing only telmisartan 40 mg and amlodipine 10 mg/1 each oral tablet
+^ESCT1188635	Product containing only telmisartan 80 mg and amlodipine 5 mg/1 each oral tablet
+^ESCT1190150	Telmisartan 80mg tablets (Mylan)
+^ESCT1190151	Telmisartan 40mg tablets (Mylan)
+^ESCT1206826	Telmisartan in oral dosage form
+^ESCT1206827	Product containing telmisartan in oral dosage form
+^ESCT1206840	Amlodipine and telmisartan in oral dosage form
+^ESCT1206841	Product containing amlodipine and telmisartan in oral dosage form
+^ESCT1206842	Hydrochlorothiazide and telmisartan in oral dosage form
+^ESCT1206843	Product containing hydrochlorothiazide and telmisartan in oral dosage form
+^ESCT1213543	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1221931	Product containing precisely telmisartan 20 milligram/1 each conventional release oral tablet
+^ESCT1223036	Product containing precisely telmisartan 40 milligram/1 each conventional release oral tablet
+^ESCT1223037	Product containing precisely telmisartan 80 milligram/1 each conventional release oral tablet
+^ESCT1229834	Hydrochlorothiazide and telmisartan product
+^ESCT1230426	Hydrochlorothiazide 12.5 mg and telmisartan 40 mg oral tablet
+^ESCT1230427	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 40 milligram/1 each conventional release oral tablet
+^ESCT1230428	Hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet
+^ESCT1230429	Product containing precisely hydrochlorothiazide 12.5 milligram and telmisartan 80 milligram/1 each conventional release oral tablet
+^ESCT1235294	Telmisartan 40 mg and amlodipine 5 mg oral tablet
+^ESCT1235295	Amlodipine 5 mg and telmisartan 40 mg oral tablet
+^ESCT1235296	Product containing precisely amlodipine 5 milligram and telmisartan 40 milligram/1 each conventional release oral tablet
+^ESCT1235298	Telmisartan 40 mg and amlodipine 10 mg oral tablet
+^ESCT1235299	Product containing precisely amlodipine 10 milligram and telmisartan 40 milligram/1 each conventional release oral tablet
+^ESCT1235300	Amlodipine 10 mg and telmisartan 40 mg oral tablet
+^ESCT1235301	Telmisartan 80 mg and amlodipine 10 mg oral tablet
+^ESCT1235302	Amlodipine 10 mg and telmisartan 80 mg oral tablet
+^ESCT1235303	Product containing precisely amlodipine 10 milligram and telmisartan 80 milligram/1 each conventional release oral tablet
+^ESCT1235309	Telmisartan 80 mg and amlodipine 5 mg oral tablet
+^ESCT1235310	Product containing precisely amlodipine 5 milligram and telmisartan 80 milligram/1 each conventional release oral tablet
+^ESCT1235311	Amlodipine 5 mg and telmisartan 80 mg oral tablet
+^ESCT1235312	Telmisartan + amlodipine
+^ESCT1235313	Amlodipine and telmisartan product
+^ESCT1254404	Telmisartan 20mg tablets (Xiromed)
+^ESCT1254406	Telmisartan 40mg tablets (Xiromed)
+^ESCT1254408	Telmisartan 80mg tablets (Xiromed)
+^ESCT1259210	Telmisartan 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259211	Telmisartan 40mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259213	Telmisartan 80mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1262886	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267773	Telmisartan 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1275698	Telmisartan 20mg tablets (DE Pharmaceuticals)
+^ESCT1275700	Telmisartan 40mg tablets (DE Pharmaceuticals)
+^ESCT1275702	Telmisartan 80mg tablets (DE Pharmaceuticals)
+^ESCT1384161	Amlodipine- and telmisartan-containing product
+^ESCT1386460	Telmisartan-containing product in oral dose form
+^ESCT1386467	Amlodipine- and telmisartan-containing product in oral dose form
+^ESCT1386468	Hydrochlorothiazide- and telmisartan-containing product in oral dose form
+^ESCT1412084	Telmisartan 20mg tablets (Accord Healthcare Ltd)
+^ESCT1412086	Telmisartan 40mg tablets (Accord Healthcare Ltd)
+^ESCT1412088	Telmisartan 80mg tablets (Accord Healthcare Ltd)
+^ESCT1438808	Telmisartan 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438810	Telmisartan 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438812	Telmisartan 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCTHY661056	Hydrochlorothiazide + telmisartan
+^ESCTPR450775	Product containing telmisartan 20 mg/1 each oral tablet
+^ESCTPR607519	Product containing telmisartan 40 mg/1 each oral tablet
+^ESCTPR607522	Product containing telmisartan 80 mg/1 each oral tablet
+^ESCTPR661057	Product containing hydrochlorothiazide and telmisartan
+^ESCTPR675369	Product containing telmisartan 40 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR675372	Product containing telmisartan 80 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR728621	Product containing telmisartan 40 mg and amlodipine 5 mg/1 each oral tablet
+^ESCTPR728796	Product containing telmisartan 40 mg and amlodipine 10 mg/1 each oral tablet
+^ESCTPR728823	Product containing telmisartan 80 mg and amlodipine 10 mg/1 each oral tablet
+^ESCTPR728965	Product containing telmisartan 80 mg and amlodipine 5 mg/1 each oral tablet
+^ESCTPR729151	Product containing amlodipine and telmisartan
+^ESCTTE1001565	Telmisartan 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001567	Telmisartan 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1008425	Telmisartan 20mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008427	Telmisartan 40mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008429	Telmisartan 80mg tablets (Necessity Supplies Ltd)
+^ESCTTE1012289	Telmisartan 80mg tablets (DE Pharmaceuticals)
+^ESCTTE1012792	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTTE1025130	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Lexon (UK) Ltd)
+^ESCTTE1058462	Telmisartan 20mg tablets (Teva UK Ltd)
+^ESCTTE1058464	Telmisartan 40mg tablets (Teva UK Ltd)
+^ESCTTE1058466	Telmisartan 80mg tablets (Teva UK Ltd)
+^ESCTTE1058747	Telmisartan 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE1058749	Telmisartan 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE1058751	Telmisartan 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE1058982	Telmisartan 20mg tablets (Actavis UK Ltd)
+^ESCTTE1058984	Telmisartan 40mg tablets (Actavis UK Ltd)
+^ESCTTE1058986	Telmisartan 80mg tablets (Actavis UK Ltd)
+^ESCTTE1059087	Telmisartan 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1059089	Telmisartan 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1059091	Telmisartan 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1064322	Telmisartan 20mg tablets (Sandoz Ltd)
+^ESCTTE1064324	Telmisartan 40mg tablets (Sandoz Ltd)
+^ESCTTE1064326	Telmisartan 80mg tablets (Sandoz Ltd)
+^ESCTTE1066206	Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1066208	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1066210	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE1066980	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTTE1066982	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)
+^ESCTTE1127340	Telmisartan 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1127344	Telmisartan 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1146177	Telmisartan 40mg/5ml oral suspension (Special Order)
+^ESCTTE1146232	Telmisartan 40mg/5ml oral suspension
+^ESCTTE1153122	Telmisartan 80mg tablets (Mylan Ltd)
+^ESCTTE1153124	Telmisartan 40mg tablets (Mylan Ltd)
+^ESCTTE1153126	Telmisartan 20mg tablets (Mylan Ltd)
+^ESCTTE1156468	Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (Somex Pharma)
+^ESCTTE1156472	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Somex Pharma)
+^ESCTTE1156477	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Somex Pharma)
+^ESCTTE450774	Telmisartan 20mg tablets
+^ESCTTE450776	Telmisartan 20 mg oral tablet
+^ESCTTE607518	Telmisartan 40mg tablets
+^ESCTTE607520	Telmisartan 40 mg oral tablet
+^ESCTTE607521	Telmisartan 80mg tablets
+^ESCTTE607523	Telmisartan 80 mg oral tablet
+^ESCTTE661055	Telmisartan + Hydrochlorothiazide
+^ESCTTE675368	Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTTE675370	Telmisartan 40 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTTE675371	Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTTE675373	Telmisartan 80 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTTE728620	Telmisartan 40 mg and amlodipine 5 mg oral tablet
+^ESCTTE728795	Telmisartan 40 mg and amlodipine 10 mg oral tablet
+^ESCTTE728822	Telmisartan 80 mg and amlodipine 10 mg oral tablet
+^ESCTTE728964	Telmisartan 80 mg and amlodipine 5 mg oral tablet
+^ESCTTE729150	Telmisartan + amlodipine
+^ESCTTE878341	Telmisartan 20mg tablets (Waymade Healthcare Plc)
+^ESCTTE929570	Telmisartan 20mg tablets (Dowelhurst Ltd)
+^ESCTTE936645	Telmisartan 80mg tablets (Waymade Healthcare Plc)
+^ESCTTE937845	Telmisartan 40mg tablets (Waymade Healthcare Plc)
+^ESCTTE960224	Telmisartan 40mg tablets (Dowelhurst Ltd)
+^ESCTTE965318	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets
+^ESCTTE967752	Telmisartan 20mg tablets (DE Pharmaceuticals)
+^ESCTTE967756	Telmisartan 40mg tablets (DE Pharmaceuticals)
+^ESCTTE973969	Telmisartan 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE973971	Telmisartan 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE973973	Telmisartan 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE990153	Telmisartan 20mg tablets (Lexon (UK) Ltd)
+^ESCTTE990159	Telmisartan 40mg tablets (Lexon (UK) Ltd)
+^ESCTTE990165	Telmisartan 80mg tablets (Lexon (UK) Ltd)
+^ESCT1176999	Candesartan 2mg tablets (Milpharm Ltd)
+^ESCT1177004	Candesartan 4mg tablets (Milpharm Ltd)
+^ESCT1177008	Candesartan 8mg tablets (Milpharm Ltd)
+^ESCT1177010	Candesartan 16mg tablets (Milpharm Ltd)
+^ESCT1177012	Candesartan 32mg tablets (Milpharm Ltd)
+^ESCT1178602	Product containing only candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181285	Product containing only candesartan cilexetil 2 mg/1 each oral tablet
+^ESCT1181286	Product containing only candesartan cilexetil 4 mg/1 each oral tablet
+^ESCT1183165	Product containing only candesartan cilexetil 32 mg/1 each oral tablet
+^ESCT1183189	Product containing only candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1184962	Candesartan 8mg tablets (Mylan)
+^ESCT1186985	Candesartan 32mg tablets (Mylan)
+^ESCT1187215	Product containing only candesartan cilexetil 8 mg/1 each oral tablet
+^ESCT1187216	Product containing only candesartan cilexetil 16 mg/1 each oral tablet
+^ESCT1190112	Candesartan 4mg tablets (Mylan)
+^ESCT1190113	Candesartan 16mg tablets (Mylan)
+^ESCT1206548	Candesartan in oral dosage form
+^ESCT1206549	Product containing candesartan in oral dosage form
+^ESCT1206550	Candesartan and hydrochlorothiazide in oral dosage form
+^ESCT1206551	Product containing candesartan and hydrochlorothiazide in oral dosage form
+^ESCT1207915	Candesartan and hydrochlorothiazide product
+^ESCT1207916	Product containing candesartan and hydrochlorothiazide
+^ESCT1220934	Candesartan cilexetil
+^ESCT1220935	Candesartan cilexetil product
+^ESCT1223032	Product containing precisely candesartan cilexetil 2 milligram/1 each conventional release oral tablet
+^ESCT1223033	Product containing precisely candesartan cilexetil 4 milligram/1 each conventional release oral tablet
+^ESCT1223034	Product containing precisely candesartan cilexetil 8 milligram/1 each conventional release oral tablet
+^ESCT1223035	Product containing precisely candesartan cilexetil 16 milligram/1 each conventional release oral tablet
+^ESCT1228866	Product containing precisely candesartan cilexetil 32 milligram/1 each conventional release oral tablet
+^ESCT1228990	Product containing precisely candesartan cilexetil 16 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230611	Product containing precisely candesartan cilexetil 32 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1254320	Candesartan 8mg tablets (Xiromed)
+^ESCT1254322	Candesartan 16mg tablets (Xiromed)
+^ESCT1254394	Candesartan 32mg tablets (Xiromed)
+^ESCT1259472	Candesartan 2mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259474	Candesartan 4mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259476	Candesartan 8mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259478	Candesartan 16mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259480	Candesartan 32mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259670	Candesartan 16mg/5ml oral solution (Special Order)
+^ESCT1259922	Candesartan 16mg/5ml oral solution
+^ESCT1263885	Candesartan 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263901	Candesartan 32mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263951	Candesartan 8mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263953	Candesartan 16mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1271032	Candesartan 8mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1271034	Candesartan 16mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1271053	Candesartan 32mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1276675	Candesartan 8mg tablets (Bristol Laboratories Ltd)
+^ESCT1386332	Candesartan-containing product in oral dose form
+^ESCT1386333	Candesartan- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386929	Candesartan- and hydrochlorothiazide-containing product
+^ESCT1411565	Candesartan 2mg tablets (Accord Healthcare Ltd)
+^ESCT1422474	Candesartan 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422476	Candesartan 8mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422478	Candesartan 16mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422480	Candesartan 32mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1427639	Candesartan 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427642	Candesartan 32mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1438646	Candesartan 4mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438648	Candesartan 8mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438650	Candesartan 16mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438652	Candesartan 32mg tablets (Viatris UK Healthcare Ltd)
+^ESCTCA1029365	Candesartan 4mg tablets (Teva UK Ltd)
+^ESCTCA1029368	Candesartan 8mg tablets (Teva UK Ltd)
+^ESCTCA1029370	Candesartan 16mg tablets (Teva UK Ltd)
+^ESCTCA1029372	Candesartan 32mg tablets (Teva UK Ltd)
+^ESCTCA1029427	Candesartan 4mg tablets (Actavis UK Ltd)
+^ESCTCA1029430	Candesartan 8mg tablets (Actavis UK Ltd)
+^ESCTCA1029432	Candesartan 16mg tablets (Actavis UK Ltd)
+^ESCTCA1029434	Candesartan 32mg tablets (Actavis UK Ltd)
+^ESCTCA1029523	Candesartan 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA1029543	Candesartan 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA1029547	Candesartan 8mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA1029550	Candesartan 16mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA1029559	Candesartan 32mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA1029665	Candesartan 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1029667	Candesartan 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1029670	Candesartan 8mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1029672	Candesartan 16mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1029675	Candesartan 32mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA1029859	Candesartan 4mg tablets (Consilient Health Ltd)
+^ESCTCA1029862	Candesartan 8mg tablets (Consilient Health Ltd)
+^ESCTCA1029864	Candesartan 16mg tablets (Consilient Health Ltd)
+^ESCTCA1029866	Candesartan 32mg tablets (Consilient Health Ltd)
+^ESCTCA1030206	Candesartan 8mg tablets (Arrow Generics Ltd)
+^ESCTCA1030208	Candesartan 4mg tablets (Arrow Generics Ltd)
+^ESCTCA1030211	Candesartan 16mg tablets (Arrow Generics Ltd)
+^ESCTCA1030213	Candesartan 32mg tablets (Arrow Generics Ltd)
+^ESCTCA1030462	Candesartan 2mg tablets (Teva UK Ltd)
+^ESCTCA1033567	Candesartan 4mg tablets (Zentiva)
+^ESCTCA1033569	Candesartan 8mg tablets (Zentiva)
+^ESCTCA1033571	Candesartan 16mg tablets (Zentiva)
+^ESCTCA1033573	Candesartan 32mg tablets (Zentiva)
+^ESCTCA1040425	Candesartan 2mg tablets (Actavis UK Ltd)
+^ESCTCA1041743	Candesartan 2mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041745	Candesartan 4mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041748	Candesartan 16mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041750	Candesartan 8mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041752	Candesartan 32mg tablets (Waymade Healthcare Plc)
+^ESCTCA1049228	Candesartan 16mg tablets (DE Pharmaceuticals)
+^ESCTCA1049230	Candesartan 2mg tablets (DE Pharmaceuticals)
+^ESCTCA1049232	Candesartan 32mg tablets (DE Pharmaceuticals)
+^ESCTCA1049234	Candesartan 4mg tablets (DE Pharmaceuticals)
+^ESCTCA1049237	Candesartan 8mg tablets (DE Pharmaceuticals)
+^ESCTCA1052138	Candesartan 4mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCA1052162	Candesartan 8mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCA1052166	Candesartan 16mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCA1052192	Candesartan 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCA1058774	Candesartan 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1058776	Candesartan 4mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1058779	Candesartan 8mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1058781	Candesartan 16mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1058783	Candesartan 32mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1066953	Candesartan 4mg tablets (Sandoz Ltd)
+^ESCTCA1066956	Candesartan 8mg tablets (Sandoz Ltd)
+^ESCTCA1066958	Candesartan 16mg tablets (Sandoz Ltd)
+^ESCTCA1066960	Candesartan 32mg tablets (Sandoz Ltd)
+^ESCTCA1068004	Candesartan 2mg tablets (Sandoz Ltd)
+^ESCTCA1116933	Candesartan 16mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116935	Candesartan 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116937	Candesartan 32mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116940	Candesartan 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116942	Candesartan 8mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1141763	Candesartan 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA1141766	Candesartan 32mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA1143227	Candesartan 8mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA1143231	Candesartan 16mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA1143237	Candesartan 32mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA1145044	Candesartan 8mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCA1145046	Candesartan 16mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCA1145048	Candesartan 32mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCA1152810	Candesartan 4mg tablets (Mylan Ltd)
+^ESCTCA1152812	Candesartan 8mg tablets (Mylan Ltd)
+^ESCTCA1152814	Candesartan 16mg tablets (Mylan Ltd)
+^ESCTCA1152817	Candesartan 32mg tablets (Mylan Ltd)
+^ESCTCA1156767	Candesartan 16mg tablets (Crescent Pharma Ltd)
+^ESCTCA1156776	Candesartan 32mg tablets (Crescent Pharma Ltd)
+^ESCTCA1156778	Candesartan 4mg tablets (Crescent Pharma Ltd)
+^ESCTCA1156781	Candesartan 8mg tablets (Crescent Pharma Ltd)
+^ESCTCA1156784	Candesartan 2mg tablets (Crescent Pharma Ltd)
+^ESCTCA1162870	Candesartan 4mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1162875	Candesartan 8mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1162877	Candesartan 16mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1162879	Candesartan 32mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA415559	Candesartan cilexetil
+^ESCTCA607506	Candesartan 2mg tablets
+^ESCTCA607508	Candesartan cilexetil 2 mg oral tablet
+^ESCTCA607509	Candesartan 4mg tablets
+^ESCTCA607511	Candesartan cilexetil 4 mg oral tablet
+^ESCTCA607512	Candesartan 8mg tablets
+^ESCTCA607514	Candesartan cilexetil 8 mg oral tablet
+^ESCTCA607515	Candesartan 16mg tablets
+^ESCTCA607517	Candesartan cilexetil 16 mg oral tablet
+^ESCTCA641671	Candesartan 32mg tablets
+^ESCTCA641673	Candesartan cilexetil 32 mg oral tablet
+^ESCTCA641983	Candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA677433	Candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA877646	Candesartan 4mg tablets (Waymade Healthcare Plc)
+^ESCTCA877652	Candesartan 8mg tablets (Waymade Healthcare Plc)
+^ESCTCA877669	Candesartan 16mg tablets (Waymade Healthcare Plc)
+^ESCTCA878554	Candesartan 16mg tablets (Dowelhurst Ltd)
+^ESCTCA878615	Candesartan 8mg tablets (Dowelhurst Ltd)
+^ESCTCA878795	Candesartan 4mg tablets (Dowelhurst Ltd)
+^ESCTCA966320	Candesartan 4mg tablets (DE Pharmaceuticals)
+^ESCTCA966322	Candesartan 8mg tablets (DE Pharmaceuticals)
+^ESCTCA966324	Candesartan 16mg tablets (DE Pharmaceuticals)
+^ESCTCA970884	Candesartan 8mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA970902	Candesartan 16mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA970911	Candesartan 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA985513	Candesartan 4mg/5ml oral suspension (Special Order)
+^ESCTCA985594	Candesartan 4mg/5ml oral suspension
+^ESCTCA985843	Candesartan 8mg/5ml oral suspension (Special Order)
+^ESCTCA985846	Candesartan 8mg/5ml oral solution (Special Order)
+^ESCTCA985858	Candesartan 8mg/5ml oral solution
+^ESCTCA985859	Candesartan 8mg/5ml oral suspension
+^ESCTCA986131	Candesartan 4mg/5ml oral solution (Special Order)
+^ESCTCA986393	Candesartan 4mg/5ml oral solution
+^ESCTCA991040	Candesartan 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA991045	Candesartan 8mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA991047	Candesartan 16mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR415560	Product containing candesartan cilexetil
+^ESCTPR607507	Product containing candesartan cilexetil 2 mg/1 each oral tablet
+^ESCTPR607510	Product containing candesartan cilexetil 4 mg/1 each oral tablet
+^ESCTPR607513	Product containing candesartan cilexetil 8 mg/1 each oral tablet
+^ESCTPR607516	Product containing candesartan cilexetil 16 mg/1 each oral tablet
+^ESCTPR641672	Product containing candesartan cilexetil 32 mg/1 each oral tablet
+^ESCTPR641984	Product containing candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677434	Product containing candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1177243	Losartan 25mg tablets (Milpharm Ltd)
+^ESCT1177245	Losartan 50mg tablets (Milpharm Ltd)
+^ESCT1177251	Losartan 100mg tablets (Milpharm Ltd)
+^ESCT1177255	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCT1177257	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCT1177259	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Milpharm Ltd)
+^ESCT1178099	Product containing only losartan potassium 50 mg/1 each oral tablet
+^ESCT1178100	Product containing only losartan potassium 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1180007	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Mylan)
+^ESCT1181280	Product containing only losartan potassium 25 mg/1 each oral tablet
+^ESCT1182935	Product containing only losartan potassium 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1183912	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1183913	Losartan 25mg tablets (Mylan)
+^ESCT1183915	Losartan 50mg tablets (Mylan)
+^ESCT1184971	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1188044	Product containing only losartan potassium 100 mg/1 each oral tablet
+^ESCT1189405	Losartan 100mg tablets (Mylan)
+^ESCT1195473	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Crescent Pharma Ltd)
+^ESCT1196325	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196476	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1199316	Losartan 25mg tablets (Consilient Health Ltd)
+^ESCT1199319	Losartan 50mg tablets (Consilient Health Ltd)
+^ESCT1199321	Losartan 100mg tablets (Consilient Health Ltd)
+^ESCT1199346	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)
+^ESCT1199349	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)
+^ESCT1199351	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Consilient Health Ltd)
+^ESCT1207537	Hydrochlorothiazide and losartan product
+^ESCT1207538	Product containing hydrochlorothiazide and losartan
+^ESCT1207549	Losartan in oral dosage form
+^ESCT1207550	Product containing losartan in oral dosage form
+^ESCT1207553	Hydrochlorothiazide and losartan in oral dosage form
+^ESCT1207554	Product containing hydrochlorothiazide and losartan in oral dosage form
+^ESCT1214245	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Medreich Plc)
+^ESCT1214272	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Medreich Plc)
+^ESCT1215353	Losartan 100mg tablets (Medreich Plc)
+^ESCT1215550	Losartan 12.5mg tablets (Medreich Plc)
+^ESCT1215554	Losartan 25mg tablets (Medreich Plc)
+^ESCT1215556	Losartan 50mg tablets (Medreich Plc)
+^ESCT1215852	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Crescent Pharma Ltd)
+^ESCT1223019	Product containing precisely losartan potassium 25 milligram/1 each conventional release oral tablet
+^ESCT1223020	Product containing precisely losartan potassium 50 milligram/1 each conventional release oral tablet
+^ESCT1223021	Product containing precisely hydrochlorothiazide 12.5 milligram and losartan potassium 50 milligram/1 each conventional release oral tablet
+^ESCT1223022	Hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet
+^ESCT1229646	Product containing precisely hydrochlorothiazide 25 milligram and losartan potassium 100 milligram/1 each conventional release oral tablet
+^ESCT1229647	Hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet
+^ESCT1230379	Product containing precisely losartan potassium 100 milligram/1 each conventional release oral tablet
+^ESCT1254304	Losartan 25mg tablets (Xiromed)
+^ESCT1254306	Losartan 50mg tablets (Xiromed)
+^ESCT1254308	Losartan 100mg tablets (Xiromed)
+^ESCT1254392	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Xiromed)
+^ESCT1254422	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Xiromed)
+^ESCT1259750	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259752	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259817	Losartan 12.5mg/5ml oral suspension (Special Order)
+^ESCT1259932	Losartan 12.5mg/5ml oral suspension
+^ESCT1384163	Hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet
+^ESCT1386782	Hydrochlorothiazide- and losartan-containing product
+^ESCT1386790	Losartan-containing product in oral dose form
+^ESCT1386793	Hydrochlorothiazide- and losartan-containing product in oral dose form
+^ESCT1388827	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1388831	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Accord Healthcare Ltd)
+^ESCT1388968	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1422386	Losartan 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422388	Losartan 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422390	Losartan 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422392	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1427742	Losartan 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427744	Losartan 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427746	Losartan 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1438243	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438245	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438247	Losartan 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438249	Losartan 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438251	Losartan 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438697	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCTLO1003428	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)
+^ESCTLO1003430	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Arrow Generics Ltd)
+^ESCTLO1003432	Losartan 25mg tablets (Arrow Generics Ltd)
+^ESCTLO1003434	Losartan 50mg tablets (Arrow Generics Ltd)
+^ESCTLO1003436	Losartan 100mg tablets (Arrow Generics Ltd)
+^ESCTLO1005835	Losartan 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLO1005837	Losartan 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLO1007908	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007910	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007912	Losartan 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007914	Losartan 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007916	Losartan 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1007918	Losartan 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1008117	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTLO1008162	Losartan 100mg tablets (Pfizer Ltd)
+^ESCTLO1008165	Losartan 50mg tablets (Pfizer Ltd)
+^ESCTLO1008167	Losartan 25mg tablets (Pfizer Ltd)
+^ESCTLO1009172	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO1009179	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO1009372	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)
+^ESCTLO1010902	Losartan 100mg tablets (Accord Healthcare Ltd)
+^ESCTLO1010904	Losartan 25mg tablets (Accord Healthcare Ltd)
+^ESCTLO1010906	Losartan 50mg tablets (Accord Healthcare Ltd)
+^ESCTLO1011025	Losartan 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLO1011027	Losartan 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLO1011029	Losartan 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLO1011186	Losartan 50mg tablets (Necessity Supplies Ltd)
+^ESCTLO1011710	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLO1012315	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1020510	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTLO1025847	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLO1027780	Losartan 25mg tablets (Sandoz Ltd)
+^ESCTLO1027782	Losartan 50mg tablets (Sandoz Ltd)
+^ESCTLO1027784	Losartan 100mg tablets (Sandoz Ltd)
+^ESCTLO1027786	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCTLO1027792	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Sandoz Ltd)
+^ESCTLO1030238	Losartan 25mg tablets (Wockhardt UK Ltd)
+^ESCTLO1030242	Losartan 50mg tablets (Wockhardt UK Ltd)
+^ESCTLO1030245	Losartan 100mg tablets (Wockhardt UK Ltd)
+^ESCTLO1033873	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTLO1034676	Losartan 25mg tablets (Bristol Laboratories Ltd)
+^ESCTLO1034700	Losartan 50mg tablets (Bristol Laboratories Ltd)
+^ESCTLO1034713	Losartan 100mg tablets (Bristol Laboratories Ltd)
+^ESCTLO1041522	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTLO1041524	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Waymade Healthcare Plc)
+^ESCTLO1041529	Losartan 25mg tablets (Waymade Healthcare Plc)
+^ESCTLO1041531	Losartan 50mg tablets (Waymade Healthcare Plc)
+^ESCTLO1041534	Losartan 100mg tablets (Waymade Healthcare Plc)
+^ESCTLO1043404	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCTLO1046639	Losartan 25mg tablets (Aptil Pharma Ltd)
+^ESCTLO1046641	Losartan 50mg tablets (Aptil Pharma Ltd)
+^ESCTLO1046643	Losartan 100mg tablets (Aptil Pharma Ltd)
+^ESCTLO1058960	Losartan 25mg tablets (Sovereign Medical Ltd)
+^ESCTLO1058962	Losartan 50mg tablets (Sovereign Medical Ltd)
+^ESCTLO1058964	Losartan 100mg tablets (Sovereign Medical Ltd)
+^ESCTLO1065706	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTLO1065708	Losartan 100mg / Hydrochlorothiazide 25mg tablets (DE Pharmaceuticals)
+^ESCTLO1065710	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTLO1065712	Losartan 100mg tablets (DE Pharmaceuticals)
+^ESCTLO1065714	Losartan 12.5mg tablets (DE Pharmaceuticals)
+^ESCTLO1065716	Losartan 25mg tablets (DE Pharmaceuticals)
+^ESCTLO1065718	Losartan 50mg tablets (DE Pharmaceuticals)
+^ESCTLO1095450	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Lupin (Europe) Ltd)
+^ESCTLO1101000	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Lupin (Europe) Ltd)
+^ESCTLO1118035	Losartan 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118038	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118040	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118043	Losartan 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118046	Losartan 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118049	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1118090	Losartan 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO1126605	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1126607	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1126609	Losartan 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1126611	Losartan 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1126746	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1126748	Losartan 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1127027	Losartan 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1141914	Losartan 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLO1141916	Losartan 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLO1141945	Losartan 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO1141947	Losartan 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO1141949	Losartan 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLO1142666	Losartan 25mg tablets (Brown & Burk UK Ltd)
+^ESCTLO1142668	Losartan 50mg tablets (Brown & Burk UK Ltd)
+^ESCTLO1143824	Losartan 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1143826	Losartan 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1143828	Losartan 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLO1144219	Losartan 12.5mg tablets (Consilient Health Ltd)
+^ESCTLO1145109	Losartan 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLO1146166	Losartan 20mg/5ml oral suspension (Special Order)
+^ESCTLO1146208	Losartan 20mg/5ml oral suspension
+^ESCTLO1152916	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTLO607477	Losartan 25mg tablets
+^ESCTLO607479	Losartan potassium 25 mg oral tablet
+^ESCTLO607480	Losartan 50mg tablets
+^ESCTLO607482	Losartan potassium 50 mg oral tablet
+^ESCTLO607483	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLO607485	Losartan potassium 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLO655569	Losartan 100mg / Hydrochlorothiazide 25mg tablets
+^ESCTLO655571	Losartan potassium 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTLO675227	Losartan 100mg tablets
+^ESCTLO675229	Losartan potassium 100 mg oral tablet
+^ESCTLO729568	Losartan potassium 100mg + hydrochlorothiazide 12.5mg oral tablet
+^ESCTLO878811	Losartan 50mg tablets (Dowelhurst Ltd)
+^ESCTLO927045	Losartan + Hydrochlorothiazide
+^ESCTLO930361	Losartan 50mg tablets (Waymade Healthcare Plc)
+^ESCTLO959305	Losartan 100mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLO967139	Losartan 50mg tablets (DE Pharmaceuticals)
+^ESCTLO968671	Losartan 50mg/5ml oral solution (Special Order)
+^ESCTLO968678	Losartan 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTLO969422	Losartan 50mg/5ml oral solution
+^ESCTLO969423	Losartan 50mg/5ml oral suspension
+^ESCTLO969738	Losartan 25mg/5ml oral suspension (Special Order)
+^ESCTLO969741	Losartan 25mg/5ml oral solution (Special Order)
+^ESCTLO969857	Losartan 25mg/5ml oral solution
+^ESCTLO969858	Losartan 25mg/5ml oral suspension
+^ESCTLO971096	Losartan 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO978844	Losartan 12.5mg tablets
+^ESCTLO981684	Losartan 100mg/5ml oral solution (Special Order)
+^ESCTLO981687	Losartan 100mg/5ml oral suspension (Special Order)
+^ESCTLO981758	Losartan 100mg/5ml oral solution
+^ESCTLO981759	Losartan 100mg/5ml oral suspension
+^ESCTLO982256	Losartan 2.5mg/ml oral suspension sugar free
+^ESCTLO992649	Losartan 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO994725	Losartan 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO994727	Losartan 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO994867	Losartan 25mg tablets (Zentiva)
+^ESCTLO994869	Losartan 25mg tablets (Actavis UK Ltd)
+^ESCTLO994871	Losartan 50mg tablets (Zentiva)
+^ESCTLO994873	Losartan 50mg tablets (Actavis UK Ltd)
+^ESCTLO994875	Losartan 100mg tablets (Actavis UK Ltd)
+^ESCTLO994876	Losartan 100mg tablets (Zentiva)
+^ESCTLO994879	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Zentiva)
+^ESCTLO997061	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Mylan Ltd)
+^ESCTLO997063	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTLO997065	Losartan 25mg tablets (Mylan Ltd)
+^ESCTLO997067	Losartan 50mg tablets (Mylan Ltd)
+^ESCTLO997069	Losartan 100mg tablets (Mylan Ltd)
+^ESCTLO997327	Losartan 12.5mg tablets (Dexcel-Pharma Ltd)
+^ESCTLO997330	Losartan 25mg tablets (Dexcel-Pharma Ltd)
+^ESCTLO997335	Losartan 50mg tablets (Dexcel-Pharma Ltd)
+^ESCTLO997340	Losartan 100mg tablets (Dexcel-Pharma Ltd)
+^ESCTLO997478	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO997480	Losartan 100mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO997482	Losartan 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO997484	Losartan 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO997556	Losartan 25mg tablets (Teva UK Ltd)
+^ESCTLO997558	Losartan 50mg tablets (Teva UK Ltd)
+^ESCTLO997560	Losartan 100mg tablets (Teva UK Ltd)
+^ESCTLO997562	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTLO997564	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)
+^ESCTLO997567	Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO997569	Losartan 100mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO997571	Losartan 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO997573	Losartan 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO997575	Losartan 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO997577	Losartan 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR607478	Product containing losartan potassium 25 mg/1 each oral tablet
+^ESCTPR607481	Product containing losartan potassium 50 mg/1 each oral tablet
+^ESCTPR607484	Product containing losartan potassium 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR655570	Product containing losartan potassium 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR675228	Product containing losartan potassium 100 mg/1 each oral tablet
+LOOR46491NEMIS	Losartan Potassium  Oral solution  100 mg/5 ml
+LOOR46492NEMIS	Losartan Potassium  Oral suspension  100 mg/5 ml
+^ESCT1177419	Valsartan 40mg capsules (Milpharm Ltd)
+^ESCT1177421	Valsartan 80mg capsules (Milpharm Ltd)
+^ESCT1177423	Valsartan 160mg capsules (Milpharm Ltd)
+^ESCT1179349	Product containing only hydrochlorothiazide 12.5 mg and valsartan 80 mg/1 each oral tablet
+^ESCT1180497	Valsartan 3mg/ml oral solution
+^ESCT1181281	Product containing only valsartan 80 mg/1 each oral capsule
+^ESCT1181282	Product containing only valsartan 160 mg/1 each oral capsule
+^ESCT1181526	Product containing only valsartan 80 mg/1 each oral tablet
+^ESCT1181527	Product containing only valsartan 160 mg/1 each oral tablet
+^ESCT1182502	Product containing only valsartan 40 mg/1 each oral tablet
+^ESCT1182937	Product containing only hydrochlorothiazide 12.5 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1183089	Product containing only amlodipine 5 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1183092	Product containing only amlodipine 10 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1183360	Product containing amlodipine and hydrochlorothiazide and valsartan
+^ESCT1183361	Amlodipine and hydrochlorothiazide and valsartan
+^ESCT1184435	Valsartan 320mg tablets (Mylan)
+^ESCT1184436	Valsartan 40mg tablets (Mylan)
+^ESCT1184483	Product containing only amlodipine 10 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1184485	Product containing only amlodipine 5 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1184685	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1185308	Product containing only hydrochlorothiazide 25 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1185559	Product containing only aliskiren 150 mg and valsartan 160 mg/1 each oral tablet
+^ESCT1186537	Valsartan 40mg capsules (Mylan)
+^ESCT1186684	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1186686	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Aurobindo Pharma Ltd)
+^ESCT1187213	Product containing only valsartan 40 mg/1 each oral capsule
+^ESCT1187709	Product containing only hydrochlorothiazide 25 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1187724	Product containing only hydrochlorothiazide 12.5 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1188468	Product containing only valsartan 320 mg/1 each oral tablet
+^ESCT1188630	Product containing only aliskiren 300 mg and valsartan 320 mg/1 each oral tablet
+^ESCT1189623	Valsartan 160mg capsules (Mylan)
+^ESCT1189624	Valsartan 80mg capsules (Mylan)
+^ESCT1199299	Valsartan 40mg tablets (Crescent Pharma Ltd)
+^ESCT1200652	Sacubitril and valsartan product
+^ESCT1200653	Product containing sacubitril and valsartan
+^ESCT1201308	Sacubitril and valsartan in oral dosage form
+^ESCT1201309	Product containing sacubitril and valsartan in oral dosage form
+^ESCT1206143	Aliskiren and valsartan in oral dosage form
+^ESCT1206144	Product containing aliskiren and valsartan in oral dosage form
+^ESCT1206218	Amlodipine and valsartan in oral dosage form
+^ESCT1206219	Product containing amlodipine and valsartan in oral dosage form
+^ESCT1207048	Valsartan in oral dosage form
+^ESCT1207049	Product containing valsartan in oral dosage form
+^ESCT1207921	Hydrochlorothiazide and valsartan in oral dosage form
+^ESCT1207922	Product containing hydrochlorothiazide and valsartan in oral dosage form
+^ESCT1213570	Valsartan 80mg tablets (Crescent Pharma Ltd)
+^ESCT1215187	Valsartan 160mg tablets (Crescent Pharma Ltd)
+^ESCT1223023	Product containing precisely valsartan 40 milligram/1 each conventional release oral capsule
+^ESCT1223024	Valsartan 40 mg oral capsule
+^ESCT1223025	Product containing precisely valsartan 80 milligram/1 each conventional release oral capsule
+^ESCT1223026	Valsartan 80 mg oral capsule
+^ESCT1223027	Valsartan 160 mg oral capsule
+^ESCT1223028	Product containing precisely valsartan 160 milligram/1 each conventional release oral capsule
+^ESCT1228151	Product containing precisely valsartan 80 milligram/1 each conventional release oral tablet
+^ESCT1228152	Product containing precisely valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1228631	Product containing precisely valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1229191	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 80 milligram/1 each conventional release oral tablet
+^ESCT1229654	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1229830	Hydrochlorothiazide and valsartan product
+^ESCT1230687	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1232536	Product containing precisely valsartan 40 milligram/1 each conventional release oral tablet
+^ESCT1233280	Product containing precisely hydrochlorothiazide 25 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1233379	Product containing precisely hydrochlorothiazide 12.5 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1234351	Amlodipine 10 mg and valsartan 320 mg oral tablet
+^ESCT1234352	Product containing precisely amlodipine besilate 10 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1234353	Amlodipine besylate 10 mg and valsartan 320 mg oral tablet
+^ESCT1234354	Amlodipine besilate 10 mg and valsartan 320 mg oral tablet
+^ESCT1234358	Amlodipine 5 mg and valsartan 160 mg oral tablet
+^ESCT1234359	Amlodipine besylate 5 mg and valsartan 160 mg oral tablet
+^ESCT1234360	Product containing precisely amlodipine besilate 5 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1234361	Amlodipine besilate 5 mg and valsartan 160 mg oral tablet
+^ESCT1234415	Amlodipine and valsartan product
+^ESCT1234435	Amlodipine 5 mg and valsartan 320 mg oral tablet
+^ESCT1234436	Product containing precisely amlodipine besilate 5 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1234437	Amlodipine besilate 5 mg and valsartan 320 mg oral tablet
+^ESCT1234438	Amlodipine besylate 5 mg and valsartan 320 mg oral tablet
+^ESCT1234440	Amlodipine 10 mg and valsartan 160 mg oral tablet
+^ESCT1234441	Product containing precisely amlodipine besilate 10 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1234442	Amlodipine besylate 10 mg and valsartan 160 mg oral tablet
+^ESCT1234443	Amlodipine besilate 10 mg and valsartan 160 mg oral tablet
+^ESCT1235169	Amlodipine and hydrochlorothiazide and valsartan
+^ESCT1235170	Amlodipine and hydrochlorothiazide and valsartan product
+^ESCT1235265	Aliskiren + valsartan
+^ESCT1235266	Aliskiren and valsartan product
+^ESCT1235281	Product containing precisely aliskiren 150 milligram and valsartan 160 milligram/1 each conventional release oral tablet
+^ESCT1235282	Product containing precisely aliskiren 300 milligram and valsartan 320 milligram/1 each conventional release oral tablet
+^ESCT1254480	Valsartan 160mg capsules (Crescent Pharma Ltd)
+^ESCT1254482	Valsartan 80mg capsules (Crescent Pharma Ltd)
+^ESCT1254484	Valsartan 40mg capsules (Crescent Pharma Ltd)
+^ESCT1258073	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCT1258075	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Sandoz Ltd)
+^ESCT1258077	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCT1265872	Valsartan 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1265874	Valsartan 80mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1384105	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCT1384106	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCT1384107	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCT1384108	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCT1384109	Amlodipine- and hydrochlorothiazide- and valsartan-containing product
+^ESCT1384113	Amlodipine (as amlodipine besilate) 10 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384114	Amlodipine (as amlodipine besylate) 10 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384116	Amlodipine (as amlodipine besilate) 5 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384117	Amlodipine (as amlodipine besylate) 5 mg and hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCT1384149	Aliskiren- and valsartan-containing product
+^ESCT1385551	Sacubitril- and valsartan-containing product
+^ESCT1385643	Sacubitril- and valsartan-containing product in oral dose form
+^ESCT1386138	Aliskiren- and valsartan-containing product in oral dose form
+^ESCT1386167	Amlodipine- and valsartan-containing product in oral dose form
+^ESCT1386567	Valsartan-containing product in oral dose form
+^ESCT1386932	Hydrochlorothiazide- and valsartan-containing product in oral dose form
+^ESCT1389080	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCT1389082	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCT1422530	Valsartan 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422532	Valsartan 80mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422534	Valsartan 160mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422536	Valsartan 320mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1427832	Valsartan 40mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1438339	Valsartan 320mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438341	Valsartan 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438343	Valsartan 40mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438345	Valsartan 160mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438347	Valsartan 80mg capsules (Viatris UK Healthcare Ltd)
+^ESCTAL727756	Aliskiren + valsartan
+^ESCTAL728034	Aliskiren 150 mg and valsartan 160 mg oral tablet
+^ESCTAL728036	Aliskiren 300 mg and valsartan 320 mg oral tablet
+^ESCTAM705019	Amlodipine 10 mg and valsartan 320 mg oral tablet
+^ESCTAM705217	Amlodipine 5 mg and valsartan 160 mg oral tablet
+^ESCTAM705965	Amlodipine + Valsartan
+^ESCTAM705966	Amlodipine + valsartan
+^ESCTAM706283	Amlodipine 5 mg and valsartan 320 mg oral tablet
+^ESCTAM706292	Amlodipine 10 mg and valsartan 160 mg oral tablet
+^ESCTAM726132	Amlodipine 10mg + hydrochlorothiazide 25mg + Valsartan 320mg tablet
+^ESCTAM726200	Amlodipine 5mg + hydrochlorothiazide 25mg + Valsartan 160mg tablet
+^ESCTAM726238	Amlodipine + hydrochlorothiazide + valsartan
+^ESCTAM726382	Amlodipine 10mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet
+^ESCTAM726484	Amlodipine 5mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet
+^ESCTAM936857	Amlodipine 10mg / Valsartan 160mg tablets
+^ESCTAM936858	Amlodipine 5mg / Valsartan 160mg tablets
+^ESCTAM936859	Amlodipine 5mg / Valsartan 80mg tablets
+^ESCTHY642435	Hydrochlorothiazide 12.5 mg and valsartan 80 mg oral tablet
+^ESCTHY655612	Hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet
+^ESCTHY661042	Hydrochlorothiazide + valsartan
+^ESCTHY677630	Hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet
+^ESCTHY696351	Hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet
+^ESCTHY696787	Hydrochlorothiazide 12.5 mg and valsartan 320 mg oral tablet
+^ESCTPR607488	Product containing valsartan 40 mg/1 each oral capsule
+^ESCTPR607491	Product containing valsartan 80 mg/1 each oral capsule
+^ESCTPR607494	Product containing valsartan 160 mg/1 each oral capsule
+^ESCTPR639933	Product containing valsartan 80 mg/1 each oral tablet
+^ESCTPR639936	Product containing valsartan 160 mg/1 each oral tablet
+^ESCTPR641165	Product containing valsartan 320 mg/1 each oral tablet
+^ESCTPR642434	Product containing hydrochlorothiazide 12.5 mg and valsartan 80 mg/1 each oral tablet
+^ESCTPR655611	Product containing hydrochlorothiazide 12.5 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR661043	Product containing hydrochlorothiazide and valsartan
+^ESCTPR677629	Product containing hydrochlorothiazide 25 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR689329	Product containing valsartan 40 mg/1 each oral tablet
+^ESCTPR696352	Product containing hydrochlorothiazide 25 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR696788	Product containing hydrochlorothiazide 12.5 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR705020	Product containing amlodipine 10 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR705218	Product containing amlodipine 5 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR705967	Product containing amlodipine and valsartan
+^ESCTPR706284	Product containing amlodipine 5 mg and valsartan 320 mg/1 each oral tablet
+^ESCTPR706293	Product containing amlodipine 10 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR727757	Product containing aliskiren and valsartan
+^ESCTPR728035	Product containing aliskiren 150 mg and valsartan 160 mg/1 each oral tablet
+^ESCTPR728037	Product containing aliskiren 300 mg and valsartan 320 mg/1 each oral tablet
+^ESCTSA1129596	Sacubitril + Valsartan
+^ESCTSA1129616	Sacubitril 24mg / Valsartan 26mg tablets
+^ESCTSA1129617	Sacubitril 49mg / Valsartan 51mg tablets
+^ESCTSA1129618	Sacubitril 97mg / Valsartan 103mg tablets
+^ESCTVA1008239	Valsartan 160mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1021712	Valsartan 160mg capsules (Teva UK Ltd)
+^ESCTVA1021714	Valsartan 40mg capsules (Teva UK Ltd)
+^ESCTVA1021716	Valsartan 80mg capsules (Teva UK Ltd)
+^ESCTVA1021718	Valsartan 40mg tablets (Teva UK Ltd)
+^ESCTVA1021720	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTVA1021722	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTVA1021724	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)
+^ESCTVA1021726	Valsartan 320mg tablets (Teva UK Ltd)
+^ESCTVA1022196	Valsartan 40mg tablets (Dexcel-Pharma Ltd)
+^ESCTVA1022198	Valsartan 320mg tablets (Dexcel-Pharma Ltd)
+^ESCTVA1022200	Valsartan 40mg capsules (Dexcel-Pharma Ltd)
+^ESCTVA1022203	Valsartan 80mg capsules (Dexcel-Pharma Ltd)
+^ESCTVA1022206	Valsartan 160mg capsules (Dexcel-Pharma Ltd)
+^ESCTVA1022239	Valsartan 40mg tablets (Actavis UK Ltd)
+^ESCTVA1022241	Valsartan 40mg capsules (Actavis UK Ltd)
+^ESCTVA1022243	Valsartan 80mg capsules (Actavis UK Ltd)
+^ESCTVA1022245	Valsartan 160mg capsules (Actavis UK Ltd)
+^ESCTVA1022247	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTVA1022249	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTVA1022251	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)
+^ESCTVA1022572	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)
+^ESCTVA1022574	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)
+^ESCTVA1022576	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Consilient Health Ltd)
+^ESCTVA1023242	Valsartan 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023244	Valsartan 80mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023252	Valsartan 160mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023254	Valsartan 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023256	Valsartan 320mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023258	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023260	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023262	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVA1023312	Valsartan 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTVA1023314	Valsartan 80mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTVA1023316	Valsartan 160mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTVA1023318	Valsartan 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVA1023320	Valsartan 320mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVA1023322	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVA1023324	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVA1023326	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVA1023492	Valsartan 320mg tablets (Mylan Ltd)
+^ESCTVA1023494	Valsartan 40mg tablets (Mylan Ltd)
+^ESCTVA1023496	Valsartan 40mg capsules (Mylan Ltd)
+^ESCTVA1023498	Valsartan 160mg capsules (Mylan Ltd)
+^ESCTVA1023500	Valsartan 80mg capsules (Mylan Ltd)
+^ESCTVA1023799	Valsartan 160mg tablets (Aspire Pharma Ltd)
+^ESCTVA1023817	Valsartan 80mg tablets (Aspire Pharma Ltd)
+^ESCTVA1023828	Valsartan 40mg tablets (Aspire Pharma Ltd)
+^ESCTVA1024937	Valsartan 3mg/1ml oral solution
+^ESCTVA1025063	Valsartan 40mg capsules (Arrow Generics Ltd)
+^ESCTVA1025065	Valsartan 80mg capsules (Arrow Generics Ltd)
+^ESCTVA1025068	Valsartan 160mg capsules (Arrow Generics Ltd)
+^ESCTVA1025070	Valsartan 40mg tablets (Arrow Generics Ltd)
+^ESCTVA1025072	Valsartan 320mg tablets (Arrow Generics Ltd)
+^ESCTVA1025074	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)
+^ESCTVA1025076	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)
+^ESCTVA1025078	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Arrow Generics Ltd)
+^ESCTVA1033623	Valsartan 40mg tablets (Zentiva)
+^ESCTVA1033625	Valsartan 80mg tablets (Zentiva)
+^ESCTVA1033627	Valsartan 160mg tablets (Zentiva)
+^ESCTVA1033629	Valsartan 320mg tablets (Zentiva)
+^ESCTVA1033836	Valsartan 320mg tablets (Actavis UK Ltd)
+^ESCTVA1042622	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042624	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042627	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042631	Valsartan 40mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042635	Valsartan 80mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042637	Valsartan 160mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042639	Valsartan 320mg tablets (Waymade Healthcare Plc)
+^ESCTVA1042758	Valsartan 40mg capsules (Waymade Healthcare Plc)
+^ESCTVA1042760	Valsartan 80mg capsules (Waymade Healthcare Plc)
+^ESCTVA1042762	Valsartan 160mg capsules (Waymade Healthcare Plc)
+^ESCTVA1061769	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCTVA1061771	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCTVA1061773	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Milpharm Ltd)
+^ESCTVA1116021	Valsartan 40mg tablets (Macleods Pharma UK Ltd)
+^ESCTVA1116023	Valsartan 80mg tablets (Macleods Pharma UK Ltd)
+^ESCTVA1116025	Valsartan 160mg tablets (Macleods Pharma UK Ltd)
+^ESCTVA1116027	Valsartan 320mg tablets (Macleods Pharma UK Ltd)
+^ESCTVA1119879	Valsartan 40mg capsules (DE Pharmaceuticals)
+^ESCTVA1119881	Valsartan 80mg capsules (DE Pharmaceuticals)
+^ESCTVA1119883	Valsartan 160mg capsules (DE Pharmaceuticals)
+^ESCTVA1119885	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTVA1119892	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTVA1119894	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (DE Pharmaceuticals)
+^ESCTVA1119896	Valsartan 40mg tablets (DE Pharmaceuticals)
+^ESCTVA1119898	Valsartan 320mg tablets (DE Pharmaceuticals)
+^ESCTVA1127815	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1127817	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1127819	Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1127821	Valsartan 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1127823	Valsartan 320mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1142257	Valsartan 40mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTVA607486	Valsartan 40mg capsules
+^ESCTVA607487	Valsartan 40 mg/1 each oral capsule
+^ESCTVA607489	Valsartan 80mg capsules
+^ESCTVA607490	Valsartan 80 mg/1 each oral capsule
+^ESCTVA607492	Valsartan 160mg capsules
+^ESCTVA607493	Valsartan 160 mg/1 each oral capsule
+^ESCTVA639932	Valsartan 80mg tablets
+^ESCTVA639934	Valsartan 80 mg oral tablet
+^ESCTVA639935	Valsartan 160mg tablets
+^ESCTVA639937	Valsartan 160 mg oral tablet
+^ESCTVA641164	Valsartan 320mg tablets
+^ESCTVA641166	Valsartan 320 mg oral tablet
+^ESCTVA642433	Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTVA655610	Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTVA661041	Valsartan + Hydrochlorothiazide
+^ESCTVA677628	Valsartan 160mg / Hydrochlorothiazide 25mg tablets
+^ESCTVA689328	Valsartan 40mg tablets
+^ESCTVA689330	Valsartan 40 mg oral tablet
+^ESCTVA878386	Valsartan 80mg capsules (Waymade Healthcare Plc)
+^ESCTVA878685	Valsartan 80mg capsules (Dowelhurst Ltd)
+^ESCTVA878691	Valsartan 40mg capsules (Dowelhurst Ltd)
+^ESCTVA879079	Valsartan 160mg capsules (Dowelhurst Ltd)
+^ESCTVA929852	Valsartan 160mg capsules (Waymade Healthcare Plc)
+^ESCTVA967528	Valsartan 80mg capsules (DE Pharmaceuticals)
+^ESCTVA967539	Valsartan 160mg capsules (DE Pharmaceuticals)
+^ESCTVA974590	Valsartan 160mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTVA974592	Valsartan 80mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTVA983739	Valsartan 40mg/5ml oral solution (Special Order)
+^ESCTVA983742	Valsartan 40mg/5ml oral suspension (Special Order)
+^ESCTVA983745	Valsartan 160mg/5ml oral suspension (Special Order)
+^ESCTVA983751	Valsartan 160mg/5ml oral solution (Special Order)
+^ESCTVA985114	Valsartan 160mg/5ml oral solution
+^ESCTVA985115	Valsartan 160mg/5ml oral suspension
+^ESCTVA985116	Valsartan 40mg/5ml oral solution
+^ESCTVA985117	Valsartan 40mg/5ml oral suspension
+^ESCT1177714	Product containing only irbesartan 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178027	Product containing only irbesartan 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1180920	Irbesartan 150mg tablets (Mylan)
+^ESCT1181283	Product containing only irbesartan 150 mg/1 each oral tablet
+^ESCT1181284	Product containing only irbesartan 300 mg/1 each oral tablet
+^ESCT1184980	Irbesartan 300mg tablets (Mylan)
+^ESCT1187214	Product containing only irbesartan 75 mg/1 each oral tablet
+^ESCT1190126	Irbesartan 75mg tablets (Mylan)
+^ESCT1190131	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1190132	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1190133	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Mylan)
+^ESCT1195850	Irbesartan 300mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195857	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195905	Irbesartan 75mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195954	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196236	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196247	Irbesartan 150mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1221927	Product containing precisely hydrochlorothiazide 12.5 milligram and irbesartan 300 milligram/1 each conventional release oral tablet
+^ESCT1221928	Hydrochlorothiazide 12.5 mg and irbesartan 300 mg oral tablet
+^ESCT1221929	Hydrochlorothiazide 12.5 mg and irbesartan 150 mg oral tablet
+^ESCT1221930	Product containing precisely hydrochlorothiazide 12.5 milligram and irbesartan 150 milligram/1 each conventional release oral tablet
+^ESCT1223029	Product containing precisely irbesartan 75 milligram/1 each conventional release oral tablet
+^ESCT1223030	Product containing precisely irbesartan 150 milligram/1 each conventional release oral tablet
+^ESCT1223031	Product containing precisely irbesartan 300 milligram/1 each conventional release oral tablet
+^ESCT1229970	Hydrochlorothiazide and irbesartan product
+^ESCT1255805	Irbesartan 75mg tablets (Bristol Laboratories Ltd)
+^ESCT1255807	Irbesartan 150mg tablets (Bristol Laboratories Ltd)
+^ESCT1255809	Irbesartan 300mg tablets (Bristol Laboratories Ltd)
+^ESCT1257871	Irbesartan 100mg/5ml oral suspension (Special Order)
+^ESCT1257897	Irbesartan 100mg/5ml oral suspension
+^ESCT1259392	Irbesartan 75mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259394	Irbesartan 150mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259398	Irbesartan 300mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1265829	Irbesartan 75mg tablets (Zentiva)
+^ESCT1265833	Irbesartan 150mg tablets (Zentiva)
+^ESCT1265835	Irbesartan 300mg tablets (Zentiva)
+^ESCT1412063	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1412065	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)
+^ESCT1412067	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Accord Healthcare Ltd)
+^ESCT1422947	Irbesartan 75mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422949	Irbesartan 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422951	Irbesartan 300mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1427709	Irbesartan 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427711	Irbesartan 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1438715	Irbesartan 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438717	Irbesartan 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438719	Irbesartan 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438733	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438735	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438737	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCTCO936846	Co-Irbesartan 150mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO936848	Co-Irbesartan 300mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTIR1009104	Irbesartan 150mg tablets (Necessity Supplies Ltd)
+^ESCTIR1009107	Irbesartan 300mg tablets (Necessity Supplies Ltd)
+^ESCTIR1009109	Irbesartan 75mg tablets (Necessity Supplies Ltd)
+^ESCTIR1014230	Irbesartan 20mg oral powder sachets (Special Order)
+^ESCTIR1014492	Irbesartan 20mg oral powder sachets
+^ESCTIR1018616	Irbesartan 30mg oral powder sachets (Special Order)
+^ESCTIR1018638	Irbesartan 30mg oral powder sachets
+^ESCTIR1020465	Irbesartan 37.5mg oral powder sachets (Special Order)
+^ESCTIR1020480	Irbesartan 37.5mg oral powder sachets
+^ESCTIR1034517	Irbesartan 75mg tablets (Dexcel-Pharma Ltd)
+^ESCTIR1034519	Irbesartan 150mg tablets (Dexcel-Pharma Ltd)
+^ESCTIR1034596	Irbesartan 300mg tablets (Dexcel-Pharma Ltd)
+^ESCTIR1035318	Irbesartan 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1035416	Irbesartan 75mg tablets (Teva UK Ltd)
+^ESCTIR1035433	Irbesartan 150mg tablets (Teva UK Ltd)
+^ESCTIR1035435	Irbesartan 300mg tablets (Teva UK Ltd)
+^ESCTIR1035521	Irbesartan 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1035526	Irbesartan 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1035531	Irbesartan 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1036348	Irbesartan 75mg tablets (Actavis UK Ltd)
+^ESCTIR1036350	Irbesartan 150mg tablets (Actavis UK Ltd)
+^ESCTIR1036352	Irbesartan 300mg tablets (Actavis UK Ltd)
+^ESCTIR1036429	Irbesartan 75mg tablets (Arrow Generics Ltd)
+^ESCTIR1036431	Irbesartan 150mg tablets (Arrow Generics Ltd)
+^ESCTIR1036451	Irbesartan 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1036453	Irbesartan 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1036922	Irbesartan 75mg tablets (Accord Healthcare Ltd)
+^ESCTIR1036929	Irbesartan 150mg tablets (Accord Healthcare Ltd)
+^ESCTIR1036934	Irbesartan 300mg tablets (Accord Healthcare Ltd)
+^ESCTIR1040056	Irbesartan 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTIR1040061	Irbesartan 150mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTIR1040063	Irbesartan 300mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTIR1043406	Irbesartan 75mg tablets (Sandoz Ltd)
+^ESCTIR1043408	Irbesartan 150mg tablets (Sandoz Ltd)
+^ESCTIR1043410	Irbesartan 300mg tablets (Sandoz Ltd)
+^ESCTIR1046626	Irbesartan 75mg tablets (Aptil Pharma Ltd)
+^ESCTIR1046628	Irbesartan 150mg tablets (Aptil Pharma Ltd)
+^ESCTIR1046630	Irbesartan 300mg tablets (Aptil Pharma Ltd)
+^ESCTIR1052170	Irbesartan 75mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIR1052173	Irbesartan 150mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIR1052184	Irbesartan 300mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIR1055647	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTIR1055649	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTIR1055651	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)
+^ESCTIR1057119	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTIR1057121	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)
+^ESCTIR1057123	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)
+^ESCTIR1057182	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1057186	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1057190	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIR1057201	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1057203	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1057205	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIR1058320	Irbesartan 75mg tablets (Waymade Healthcare Plc)
+^ESCTIR1058322	Irbesartan 150mg tablets (Waymade Healthcare Plc)
+^ESCTIR1058324	Irbesartan 300mg tablets (Waymade Healthcare Plc)
+^ESCTIR1058954	Irbesartan 150mg tablets (Sovereign Medical Ltd)
+^ESCTIR1058956	Irbesartan 75mg tablets (Sovereign Medical Ltd)
+^ESCTIR1058958	Irbesartan 300mg tablets (Sovereign Medical Ltd)
+^ESCTIR1061742	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCTIR1061744	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCTIR1061746	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Milpharm Ltd)
+^ESCTIR1061775	Irbesartan 75mg tablets (Milpharm Ltd)
+^ESCTIR1061777	Irbesartan 150mg tablets (Milpharm Ltd)
+^ESCTIR1061779	Irbesartan 300mg tablets (Milpharm Ltd)
+^ESCTIR1063845	Irbesartan 150mg tablets (DE Pharmaceuticals)
+^ESCTIR1063849	Irbesartan 300mg tablets (DE Pharmaceuticals)
+^ESCTIR1088484	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1088495	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1088497	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1096536	Irbesartan 75mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1096545	Irbesartan 150mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1096780	Irbesartan 300mg tablets (Lupin (Europe) Ltd)
+^ESCTIR1115988	Irbesartan 75mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1115990	Irbesartan 150mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1115992	Irbesartan 300mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1115994	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1115996	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1115998	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Macleods Pharma UK Ltd)
+^ESCTIR1117890	Irbesartan 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1117892	Irbesartan 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1117893	Irbesartan 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1117895	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1117897	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1117898	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR1119407	Irbesartan 75mg tablets (DE Pharmaceuticals)
+^ESCTIR1120883	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR1120887	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR1120889	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR1121252	Irbesartan 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR1141869	Irbesartan 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIR1141871	Irbesartan 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIR1152945	Irbesartan 75mg tablets (Mylan Ltd)
+^ESCTIR1152947	Irbesartan 150mg tablets (Mylan Ltd)
+^ESCTIR1152949	Irbesartan 300mg tablets (Mylan Ltd)
+^ESCTIR1152969	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTIR1152971	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTIR1152973	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Mylan Ltd)
+^ESCTIR450768	Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTIR450770	Irbesartan 300 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTIR450771	Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTIR450773	Irbesartan 150 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTIR607495	Irbesartan 75mg tablets
+^ESCTIR607497	Irbesartan 75 mg oral tablet
+^ESCTIR607498	Irbesartan 150mg tablets
+^ESCTIR607500	Irbesartan 150 mg oral tablet
+^ESCTIR607501	Irbesartan 300mg tablets
+^ESCTIR607503	Irbesartan 300 mg oral tablet
+^ESCTIR661402	Irbesartan + Hydrochlorothiazide
+^ESCTIR661403	Irbesartan + hydrochlorothiazide
+^ESCTIR878132	Irbesartan 150mg tablets (Waymade Healthcare Plc)
+^ESCTIR907287	Irbesartan 150mg/5ml oral suspension (Special Order)
+^ESCTIR907619	Irbesartan 150mg/5ml oral suspension
+^ESCTIR929924	Irbesartan 75mg tablets (Dowelhurst Ltd)
+^ESCTIR929927	Irbesartan 150mg tablets (Dowelhurst Ltd)
+^ESCTIR929929	Irbesartan 300mg tablets (Dowelhurst Ltd)
+^ESCTIR930374	Irbesartan 300mg tablets (Waymade Healthcare Plc)
+^ESCTIR934704	Irbesartan 300mg / Hydrochlorothiazide 25mg tablets
+^ESCTIR935494	Irbesartan 75mg tablets (Waymade Healthcare Plc)
+^ESCTIR951579	Irbesartan 300mg/5ml oral suspension (Special Order)
+^ESCTIR952159	Irbesartan 300mg/5ml oral suspension
+^ESCTIR967050	Irbesartan 75mg tablets (DE Pharmaceuticals)
+^ESCTIR967052	Irbesartan 150mg tablets (DE Pharmaceuticals)
+^ESCTIR967054	Irbesartan 300mg tablets (DE Pharmaceuticals)
+^ESCTIR970385	Irbesartan 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR970387	Irbesartan 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIR986140	Irbesartan 300mg oral powder sachets (Special Order)
+^ESCTIR986400	Irbesartan 300mg oral powder sachets
+^ESCTIR992835	Irbesartan 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR992837	Irbesartan 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIR992839	Irbesartan 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR450769	Product containing irbesartan 300 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR450772	Product containing irbesartan 150 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607496	Product containing irbesartan 75 mg/1 each oral tablet
+^ESCTPR607499	Product containing irbesartan 150 mg/1 each oral tablet
+^ESCTPR607502	Product containing irbesartan 300 mg/1 each oral tablet
+^ESCTPR661404	Product containing hydrochlorothiazide and irbesartan
+IROR35148NEMIS	Irbesartan  Oral suspension  300 mg/5 ml
+IROR46480NEMIS	Irbesartan  Oral suspension  150 mg/5 ml
+IROR48805NEMIS	Irbesartan  Oral powder sachets  20 mg
+IROR51531NEMIS	Irbesartan  Oral powder sachets  30 mg
+IROR51683NEMIS	Irbesartan  Oral powder sachets  37.5 mg
+^ESCT1178101	Product containing only eprosartan 300 mg/1 each oral tablet
+^ESCT1178844	Product containing only eprosartan 600 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178845	Product containing only eprosartan 600 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181287	Product containing only eprosartan 400 mg/1 each oral tablet
+^ESCT1184975	Eprosartan 400mg tablets (Mylan)
+^ESCT1184976	Eprosartan 300mg tablets (Mylan)
+^ESCT1187218	Product containing only eprosartan 600 mg/1 each oral tablet
+^ESCT1188278	Product containing eprosartan and hydrochlorothiazide
+^ESCT1188279	Eprosartan and hydrochlorothiazide
+^ESCT1190125	Eprosartan 600mg tablets (Mylan)
+^ESCT1206870	Eprosartan in oral dosage form
+^ESCT1206871	Product containing eprosartan in oral dosage form
+^ESCT1206895	Eprosartan and hydrochlorothiazide in oral dosage form
+^ESCT1206896	Product containing eprosartan and hydrochlorothiazide in oral dosage form
+^ESCT1223040	Product containing precisely eprosartan (as eprosartan mesylate) 300 milligram/1 each conventional release oral tablet
+^ESCT1223041	Eprosartan (as eprosartan mesilate) 300 mg oral tablet
+^ESCT1223042	Eprosartan (as eprosartan mesylate) 300 mg oral tablet
+^ESCT1223043	Eprosartan (as eprosartan mesylate) 400 mg oral tablet
+^ESCT1223044	Product containing precisely eprosartan (as eprosartan mesylate) 400 milligram/1 each conventional release oral tablet
+^ESCT1223045	Eprosartan (as eprosartan mesilate) 400 mg oral tablet
+^ESCT1223046	Eprosartan (as eprosartan mesilate) 600 mg oral tablet
+^ESCT1223047	Product containing precisely eprosartan (as eprosartan mesylate) 600 milligram/1 each conventional release oral tablet
+^ESCT1223048	Eprosartan (as eprosartan mesylate) 600 mg oral tablet
+^ESCT1230883	Eprosartan and hydrochlorothiazide
+^ESCT1230884	Eprosartan and hydrochlorothiazide product
+^ESCT1230885	Eprosartan 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230886	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1230887	Eprosartan mesylate 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230888	Eprosartan mesilate 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230889	Eprosartan 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230890	Eprosartan mesilate 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230891	Product containing precisely eprosartan mesylate 600 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230892	Eprosartan mesylate 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1382613	Eprosartan- and hydrochlorothiazide-containing product
+^ESCT1386482	Eprosartan-containing product in oral dose form
+^ESCT1386494	Eprosartan- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1438702	Eprosartan 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438704	Eprosartan 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438706	Eprosartan 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCTEP1036439	Eprosartan 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEP1036441	Eprosartan 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEP1036443	Eprosartan 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEP1036474	Eprosartan 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEP1036476	Eprosartan 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEP1036478	Eprosartan 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEP1058283	Eprosartan 300mg tablets (Waymade Healthcare Plc)
+^ESCTEP1058285	Eprosartan 400mg tablets (Waymade Healthcare Plc)
+^ESCTEP1058287	Eprosartan 600mg tablets (Waymade Healthcare Plc)
+^ESCTEP1061366	Eprosartan 300mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEP1061369	Eprosartan 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEP1061372	Eprosartan 600mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEP1061933	Eprosartan 600mg tablets (DE Pharmaceuticals)
+^ESCTEP1117609	Eprosartan 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP1117611	Eprosartan 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP1117614	Eprosartan 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP1119369	Eprosartan 300mg tablets (DE Pharmaceuticals)
+^ESCTEP1119371	Eprosartan 400mg tablets (DE Pharmaceuticals)
+^ESCTEP1120039	Eprosartan 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEP1121465	Eprosartan 300mg tablets (Creo Pharma Ltd)
+^ESCTEP1121467	Eprosartan 400mg tablets (Creo Pharma Ltd)
+^ESCTEP1121469	Eprosartan 600mg tablets (Creo Pharma Ltd)
+^ESCTEP1126207	Eprosartan 300mg tablets (Teva UK Ltd)
+^ESCTEP1126210	Eprosartan 400mg tablets (Teva UK Ltd)
+^ESCTEP1126213	Eprosartan 600mg tablets (Teva UK Ltd)
+^ESCTEP1152927	Eprosartan 600mg tablets (Mylan Ltd)
+^ESCTEP1152934	Eprosartan 400mg tablets (Mylan Ltd)
+^ESCTEP1152936	Eprosartan 300mg tablets (Mylan Ltd)
+^ESCTEP1157650	Eprosartan 300mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTEP1157652	Eprosartan 400mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTEP1157654	Eprosartan 600mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTEP607526	Eprosartan 300mg tablets
+^ESCTEP607528	Eprosartan 300 mg oral tablet
+^ESCTEP607529	Eprosartan 400mg tablets
+^ESCTEP607531	Eprosartan 400 mg oral tablet
+^ESCTEP607532	Eprosartan 600mg tablets
+^ESCTEP607534	Eprosartan 600 mg oral tablet
+^ESCTEP680375	Eprosartan+hydrochlorothiazide
+^ESCTEP680376	Eprosartan mesylate+hydrochlorothiazide
+^ESCTEP680377	Eprosartan 600 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTEP680379	Eprosartan 600 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTEP984192	Eprosartan 300mg/5ml oral solution (Special Order)
+^ESCTEP984201	Eprosartan 300mg/5ml oral suspension (Special Order)
+^ESCTEP985101	Eprosartan 300mg/5ml oral solution
+^ESCTEP985102	Eprosartan 300mg/5ml oral suspension
+^ESCTPR607527	Product containing eprosartan 300 mg/1 each oral tablet
+^ESCTPR607530	Product containing eprosartan 400 mg/1 each oral tablet
+^ESCTPR607533	Product containing eprosartan 600 mg/1 each oral tablet
+^ESCTPR680378	Product containing eprosartan 600 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR680380	Product containing eprosartan 600 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178643	Product containing only azilsartan medoxomil 80 mg/1 each oral tablet
+^ESCT1182774	Product containing only azilsartan medoxomil 40 mg/1 each oral tablet
+^ESCT1206326	Azilsartan in oral dosage form
+^ESCT1206327	Product containing azilsartan in oral dosage form
+^ESCT1235454	Product containing precisely azilsartan medoxomil 40 milligram/1 each conventional release oral tablet
+^ESCT1235460	Product containing precisely azilsartan medoxomil 80 milligram/1 each conventional release oral tablet
+^ESCT1235466	Azilsartan medoxomil
+^ESCT1235467	Azilsartan medoxomil product
+^ESCT1386221	Azilsartan-containing product in oral dose form
+^ESCTAZ1028819	Azilsartan medoxomil 20mg tablets
+^ESCTAZ736484	Azilsartan medoxomil 40mg tablets
+^ESCTAZ736486	Azilsartan medoxomil 40 mg oral tablet
+^ESCTAZ736846	Azilsartan medoxomil 80mg tablets
+^ESCTAZ736848	Azilsartan medoxomil 80 mg oral tablet
+^ESCTAZ737221	Azilsartan medoxomil
+^ESCTPR736485	Product containing azilsartan medoxomil 40 mg/1 each oral tablet
+^ESCTPR736847	Product containing azilsartan medoxomil 80 mg/1 each oral tablet
+^ESCTPR737222	Product containing azilsartan medoxomil
+AZTA72359NEMIS	Azilsartan Medoxomil  Tablets  80 mg
+^ESCT1412117	Actelsar HCT 80mg/25mg tablets (Accord Healthcare Ltd)
+^ESCTAC1066085	Actelsar HCT 40mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTAC1066096	Actelsar HCT 80mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTAC1066107	Actelsar HCT 80mg/25mg tablets (Actavis UK Ltd)
+ACTA89230NEMIS	Actelsar Hct  Tablets  40 mg + 12.5 mg
+ACTA89231NEMIS	Actelsar Hct  Tablets  80 mg + 12.5 mg
+ACTA89232NEMIS	Actelsar Hct  Tablets  80 mg + 25 mg
+^ESCT1433875	Amias 8mg tablets (Neon Healthcare Ltd)
+^ESCT1433877	Amias 2mg tablets (Neon Healthcare Ltd)
+^ESCT1433883	Amias 4mg tablets (Neon Healthcare Ltd)
+^ESCT1433884	Amias 16mg tablets (Neon Healthcare Ltd)
+^ESCT1433909	Amias 32mg tablets (Neon Healthcare Ltd)
+^ESCTAM1001847	Amias 16mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1002712	Amias 16mg tablets (Necessity Supplies Ltd)
+^ESCTAM1002715	Amias 4mg tablets (Necessity Supplies Ltd)
+^ESCTAM1002719	Amias 8mg tablets (Necessity Supplies Ltd)
+^ESCTAM1011094	Amias 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1011642	Amias 32mg tablets (DE Pharmaceuticals)
+^ESCTAM1022600	Amias 8mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1022671	Amias 4mg tablets (Waymade Healthcare Plc)
+^ESCTAM1023825	Amias 4mg tablets (Lexon (UK) Ltd)
+^ESCTAM1023829	Amias 8mg tablets (Lexon (UK) Ltd)
+^ESCTAM1023831	Amias 16mg tablets (Lexon (UK) Ltd)
+^ESCTAM1042238	Amias 32mg tablets (Waymade Healthcare Plc)
+^ESCTAM1116581	Amias 2mg tablets (Waymade Healthcare Plc)
+^ESCTAM1118588	Amias 2mg tablets (Lexon (UK) Ltd)
+^ESCTAM1118590	Amias 32mg tablets (Lexon (UK) Ltd)
+^ESCTAM801553	Amias 8mg tablets (Takeda UK Ltd)
+^ESCTAM803059	Amias 2mg tablets (Takeda UK Ltd)
+^ESCTAM829452	Amias 4mg tablets (Takeda UK Ltd)
+^ESCTAM832279	Amias 16mg tablets (Takeda UK Ltd)
+^ESCTAM877531	Amias 8mg tablets (Waymade Healthcare Plc)
+^ESCTAM877533	Amias 16mg tablets (Waymade Healthcare Plc)
+^ESCTAM878550	Amias 8mg tablets (Dowelhurst Ltd)
+^ESCTAM878552	Amias 16mg tablets (Dowelhurst Ltd)
+^ESCTAM879109	Amias 4mg tablets (Dowelhurst Ltd)
+^ESCTAM911630	Amias 32mg tablets (Takeda UK Ltd)
+^ESCTAM966192	Amias 4mg tablets (DE Pharmaceuticals)
+^ESCTAM966195	Amias 8mg tablets (DE Pharmaceuticals)
+^ESCTAM990055	Amias 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM990058	Amias 32mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAP1002737	Aprovel 75mg tablets (Necessity Supplies Ltd)
+^ESCTAP1002743	Aprovel 150mg tablets (Necessity Supplies Ltd)
+^ESCTAP1002746	Aprovel 300mg tablets (Necessity Supplies Ltd)
+^ESCTAP1118594	Aprovel 75mg tablets (Lexon (UK) Ltd)
+^ESCTAP1118596	Aprovel 150mg tablets (Lexon (UK) Ltd)
+^ESCTAP1118598	Aprovel 300mg tablets (Lexon (UK) Ltd)
+^ESCTAP810352	Aprovel 300mg tablets (Sanofi)
+^ESCTAP815748	Aprovel 75mg tablets (Sanofi)
+^ESCTAP829604	Aprovel 150mg tablets (Sanofi)
+^ESCTAP877546	Aprovel 75mg tablets (Waymade Healthcare Plc)
+^ESCTAP877548	Aprovel 150mg tablets (Waymade Healthcare Plc)
+^ESCTAP877550	Aprovel 300mg tablets (Waymade Healthcare Plc)
+^ESCTAP929504	Aprovel 150mg tablets (Dowelhurst Ltd)
+^ESCTAP929509	Aprovel 300mg tablets (Dowelhurst Ltd)
+^ESCTAP929512	Aprovel 75mg tablets (Dowelhurst Ltd)
+^ESCTAP966202	Aprovel 75mg tablets (DE Pharmaceuticals)
+^ESCTAP966204	Aprovel 150mg tablets (DE Pharmaceuticals)
+^ESCTAP966206	Aprovel 300mg tablets (DE Pharmaceuticals)
+^ESCTAP969758	Aprovel 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAP969760	Aprovel 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAP969762	Aprovel 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAP990087	Aprovel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAP990091	Aprovel 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAP990094	Aprovel 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1008670	CoAprovel 150mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTCO1008672	CoAprovel 300mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTCO821124	CoAprovel 300mg/12.5mg tablets (Sanofi)
+^ESCTCO825091	CoAprovel 150mg/12.5mg tablets (Sanofi)
+^ESCTCO877735	CoAprovel 150mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO877743	CoAprovel 300mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO929754	CoAprovel 300mg/12.5mg tablets (Dowelhurst Ltd)
+^ESCTCO934688	CoAprovel 300mg/25mg tablets (Sanofi)
+^ESCTCO959253	CoAprovel 150mg/12.5mg tablets (Dowelhurst Ltd)
+^ESCTCO966454	CoAprovel 150mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO966456	CoAprovel 300mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO974827	CoAprovel 150mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO974831	CoAprovel 300mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO992658	CoAprovel 150mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992668	CoAprovel 300mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992671	CoAprovel 300mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1007123	Co-Diovan 160mg/25mg tablets (Lexon (UK) Ltd)
+^ESCTCO1008677	Co-Diovan 160mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTCO1008680	Co-Diovan 80mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTCO899246	Co-Diovan 160mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO899249	Co-Diovan 160mg/25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO903536	Co-Diovan 80mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCO929992	Co-Diovan 160mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTCO933573	Co-Diovan 160mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO939184	Co-Diovan 80mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO959256	Co-Diovan 160mg/12.5mg tablets (Dowelhurst Ltd)
+^ESCTCO959258	Co-Diovan 160mg/25mg tablets (Dowelhurst Ltd)
+^ESCTCO966458	Co-Diovan 80mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO966460	Co-Diovan 160mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO966462	Co-Diovan 160mg/25mg tablets (DE Pharmaceuticals)
+^ESCTCO969879	Co-Diovan 160mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO969881	Co-Diovan 160mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO969883	Co-Diovan 80mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO988822	Co-Diovan 80mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCTCO988824	Co-Diovan 160mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCTCO992642	Co-Diovan 160mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992644	Co-Diovan 160mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992646	Co-Diovan 80mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1001959	Diovan 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1008941	Diovan 160mg capsules (Necessity Supplies Ltd)
+^ESCTDI1008943	Diovan 80mg capsules (Necessity Supplies Ltd)
+^ESCTDI1024889	Diovan 3mg/1ml oral solution (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI803667	Diovan 160mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI819972	Diovan 80mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI824284	Diovan 40mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI877793	Diovan 80mg capsules (Waymade Healthcare Plc)
+^ESCTDI879259	Diovan 160mg capsules (Dowelhurst Ltd)
+^ESCTDI879265	Diovan 80mg capsules (Dowelhurst Ltd)
+^ESCTDI879269	Diovan 40mg capsules (Dowelhurst Ltd)
+^ESCTDI904590	Diovan 40mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI939193	Diovan 40mg tablets (Waymade Healthcare Plc)
+^ESCTDI959587	Diovan 320mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTDI966565	Diovan 40mg tablets (DE Pharmaceuticals)
+^ESCTDI966567	Diovan 80mg capsules (DE Pharmaceuticals)
+^ESCTDI966569	Diovan 160mg capsules (DE Pharmaceuticals)
+^ESCTDI970957	Diovan 40mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDI970961	Diovan 160mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDI970968	Diovan 80mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDI993179	Diovan 80mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI993185	Diovan 160mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1409478	Cozaar 50mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409561	Cozaar 100mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409562	Cozaar-Comp 50mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409565	Cozaar 25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410703	Cozaar-Comp 100mg/25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410885	Cozaar-Comp 100mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410977	Cozaar 12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1411000	Cozaar 2.5mg/ml oral suspension (Organon Pharma (UK) Ltd)
+^ESCTCO1007125	Cozaar 50mg tablets (Lexon (UK) Ltd)
+^ESCTCO1007127	Cozaar-Comp 100mg/25mg tablets (Lexon (UK) Ltd)
+^ESCTCO1007129	Cozaar-Comp 50mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCTCO1008704	Cozaar-Comp 50mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTCO1008708	Cozaar 100mg tablets (Necessity Supplies Ltd)
+^ESCTCO1008712	Cozaar 50mg tablets (Necessity Supplies Ltd)
+^ESCTCO1020924	Cozaar-Comp 100mg/25mg tablets (DE Pharmaceuticals)
+^ESCTCO1020926	Cozaar-Comp 50mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO1023882	Cozaar 100mg tablets (Lexon (UK) Ltd)
+^ESCTCO801844	Cozaar 50mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO807841	Cozaar 100mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO808086	Cozaar-Comp 50mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO808172	Cozaar 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO877749	Cozaar 50mg tablets (Waymade Healthcare Plc)
+^ESCTCO877791	Cozaar-Comp 50mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO879278	Cozaar 50mg tablets (Dowelhurst Ltd)
+^ESCTCO879307	Cozaar-Comp 50mg/12.5mg tablets (Dowelhurst Ltd)
+^ESCTCO920247	Cozaar-Comp 100mg/25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO930003	Cozaar 100mg tablets (Waymade Healthcare Plc)
+^ESCTCO959124	Cozaar-Comp 100mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO962569	Cozaar-Comp 100mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTCO966473	Cozaar 50mg tablets (DE Pharmaceuticals)
+^ESCTCO966475	Cozaar 100mg tablets (DE Pharmaceuticals)
+^ESCTCO969910	Cozaar 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO969913	Cozaar-Comp 100mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO969917	Cozaar-Comp 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO969919	Cozaar 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO978762	Cozaar 12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO982250	Cozaar 2.5mg/ml oral suspension (Merck Sharp & Dohme Ltd)
+^ESCTCO992751	Cozaar-Comp 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992755	Cozaar-Comp 100mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992759	Cozaar-Comp 100mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992762	Cozaar 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992765	Cozaar 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1188113	Teveten 300mg tablets (Mylan)
+^ESCT1189501	Teveten 600mg tablets (Mylan)
+^ESCT1436897	Teveten 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437061	Teveten 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCTTE1001594	Teveten 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001597	Teveten 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001599	Teveten 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1008437	Teveten 300mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008439	Teveten 600mg tablets (Necessity Supplies Ltd)
+^ESCTTE804742	Teveten 400mg tablets (Abbott Healthcare Products Ltd)
+^ESCTTE813697	Teveten 300mg tablets (Mylan Ltd)
+^ESCTTE830374	Teveten 600mg tablets (Mylan Ltd)
+^ESCTTE878363	Teveten 300mg tablets (Waymade Healthcare Plc)
+^ESCTTE878366	Teveten 600mg tablets (Waymade Healthcare Plc)
+^ESCTTE879761	Teveten 600mg tablets (Dowelhurst Ltd)
+^ESCTTE880096	Teveten 300mg tablets (Dowelhurst Ltd)
+^ESCTTE967778	Teveten 300mg tablets (DE Pharmaceuticals)
+^ESCTTE967782	Teveten 600mg tablets (DE Pharmaceuticals)
+^ESCTTE974343	Teveten 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974350	Teveten 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE990183	Teveten 300mg tablets (Lexon (UK) Ltd)
+^ESCTTE990189	Teveten 600mg tablets (Lexon (UK) Ltd)
+^ESCTTE994227	Teveten 300mg tablets (Stephar (U.K.) Ltd)
+^ESCTED1028177	Edarbi 20mg tablets (Takeda UK Ltd)
+^ESCTED1028180	Edarbi 40mg tablets (Takeda UK Ltd)
+^ESCTED1028186	Edarbi 80mg tablets (Takeda UK Ltd)
+EDTA72361NEMIS	Edarbi  Tablets  20 mg
+EDTA72362NEMIS	Edarbi  Tablets  40 mg
+EDTA72363NEMIS	Edarbi  Tablets  80 mg
+^ESCTEN1129569	Entresto 49mg/51mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEN1129572	Entresto 24mg/26mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEN1129583	Entresto 97mg/103mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX1021547	Exforge 10mg/160mg tablets (DE Pharmaceuticals)
+^ESCTEX1021549	Exforge 5mg/160mg tablets (DE Pharmaceuticals)
+^ESCTEX1021551	Exforge 5mg/80mg tablets (DE Pharmaceuticals)
+^ESCTEX1030145	Exforge 5mg/80mg tablets (Waymade Healthcare Plc)
+^ESCTEX1030147	Exforge 5mg/160mg tablets (Waymade Healthcare Plc)
+^ESCTEX1059052	Exforge 10mg/160mg tablets (Waymade Healthcare Plc)
+^ESCTEX936863	Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX936871	Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX936874	Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX959781	Exforge 5mg/80mg tablets (Dowelhurst Ltd)
+^ESCTEX959784	Exforge 5mg/160mg tablets (Dowelhurst Ltd)
+^ESCTEX959787	Exforge 10mg/160mg tablets (Dowelhurst Ltd)
+^ESCTEX970103	Exforge 10mg/160mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEX970105	Exforge 5mg/160mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEX970107	Exforge 5mg/80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEX993328	Exforge 5mg/80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993330	Exforge 10mg/160mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993332	Exforge 5mg/160mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIF1050063	Ifirmasta 75mg tablets (Consilient Health Ltd)
+^ESCTIF1050065	Ifirmasta 150mg tablets (Consilient Health Ltd)
+^ESCTIF1050067	Ifirmasta 300mg tablets (Consilient Health Ltd)
+IFTA82329NEMIS	Ifirmasta  Tablets  75 mg
+IFTA82330NEMIS	Ifirmasta  Tablets  150 mg
+IFTA82331NEMIS	Ifirmasta  Tablets  300 mg
+^ESCTMI1002703	Micardis 20mg tablets (Necessity Supplies Ltd)
+^ESCTMI1002710	Micardis 40mg tablets (Necessity Supplies Ltd)
+^ESCTMI1002714	Micardis 80mg tablets (Necessity Supplies Ltd)
+^ESCTMI1002718	MicardisPlus 80mg/12.5mg tablets (Necessity Supplies Ltd)
+^ESCTMI1014896	MicardisPlus 80mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1116684	MicardisPlus 40mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTMI819767	Micardis 80mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI820737	Micardis 20mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI833324	Micardis 40mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI864531	MicardisPlus 40mg/12.5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI864537	MicardisPlus 80mg/12.5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI878057	Micardis 40mg tablets (Waymade Healthcare Plc)
+^ESCTMI878061	Micardis 80mg tablets (Waymade Healthcare Plc)
+^ESCTMI929801	Micardis 20mg tablets (Dowelhurst Ltd)
+^ESCTMI929805	Micardis 40mg tablets (Dowelhurst Ltd)
+^ESCTMI929809	Micardis 80mg tablets (Dowelhurst Ltd)
+^ESCTMI930285	Micardis 20mg tablets (Waymade Healthcare Plc)
+^ESCTMI930289	MicardisPlus 80mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTMI965196	MicardisPlus 80mg/25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMI967197	Micardis 20mg tablets (DE Pharmaceuticals)
+^ESCTMI967199	Micardis 40mg tablets (DE Pharmaceuticals)
+^ESCTMI967203	Micardis 80mg tablets (DE Pharmaceuticals)
+^ESCTMI967206	MicardisPlus 80mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTMI974769	MicardisPlus 80mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI974771	Micardis 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI974773	Micardis 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI974776	Micardis 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI989345	Micardis 20mg tablets (Lexon (UK) Ltd)
+^ESCTMI989347	MicardisPlus 80mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCTMI993106	MicardisPlus 40mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI993108	MicardisPlus 80mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI993112	Micardis 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI993114	Micardis 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI993118	Micardis 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1000489	Olmetec 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1000491	Olmetec 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1000493	Olmetec 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1003015	Olmetec 10mg tablets (Necessity Supplies Ltd)
+^ESCTOL1003020	Olmetec 40mg tablets (Necessity Supplies Ltd)
+^ESCTOL1011077	Olmetec Plus 20mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1012171	Olmetec Plus 20mg/25mg tablets (DE Pharmaceuticals)
+^ESCTOL1030151	Olmetec Plus 20mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTOL871449	Olmetec 10mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL871452	Olmetec 20mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL871455	Olmetec 40mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL927549	Olmetec Plus 20mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL927552	Olmetec Plus 20mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTOL933635	Olmetec 10mg tablets (Waymade Healthcare Plc)
+^ESCTOL933637	Olmetec 20mg tablets (Waymade Healthcare Plc)
+^ESCTOL933639	Olmetec 40mg tablets (Waymade Healthcare Plc)
+^ESCTOL959984	Olmetec 10mg tablets (Dowelhurst Ltd)
+^ESCTOL959989	Olmetec 20mg tablets (Dowelhurst Ltd)
+^ESCTOL959995	Olmetec 40mg tablets (Dowelhurst Ltd)
+^ESCTOL967300	Olmetec 10mg tablets (DE Pharmaceuticals)
+^ESCTOL967302	Olmetec 20mg tablets (DE Pharmaceuticals)
+^ESCTOL967304	Olmetec 40mg tablets (DE Pharmaceuticals)
+^ESCTOL974387	Olmetec 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL974392	Olmetec 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL974396	Olmetec 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL989593	Olmetec 10mg tablets (Lexon (UK) Ltd)
+^ESCTOL989596	Olmetec 20mg tablets (Lexon (UK) Ltd)
+^ESCTOL989599	Olmetec 40mg tablets (Lexon (UK) Ltd)
+^ESCTOL999393	Olmetec Plus 40mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSA1039093	Sabervel 75mg tablets (Aspire Pharma Ltd)
+^ESCTSA1039095	Sabervel 150mg tablets (Aspire Pharma Ltd)
+^ESCTSA1039097	Sabervel 300mg tablets (Aspire Pharma Ltd)
+SATA77637NEMIS	Sabervel  Tablets  75 mg
+SATA77638NEMIS	Sabervel  Tablets  150 mg
+SATA77639NEMIS	Sabervel  Tablets  300 mg
+^ESCTGE1015820	Generic Sevikar HCT 20mg/5mg/12.5mg tablets
+^ESCTGE1015821	Generic Sevikar HCT 40mg/10mg/12.5mg tablets
+^ESCTGE1015822	Generic Sevikar HCT 40mg/10mg/25mg tablets
+^ESCTGE1015823	Generic Sevikar HCT 40mg/5mg/12.5mg tablets
+^ESCTGE1015824	Generic Sevikar HCT 40mg/5mg/25mg tablets
+^ESCTSE1015806	Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015809	Sevikar HCT 40mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015812	Sevikar HCT 40mg/10mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015815	Sevikar HCT 40mg/5mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE1015818	Sevikar HCT 40mg/10mg/25mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE985087	Sevikar 40mg/10mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE985090	Sevikar 40mg/5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTSE985093	Sevikar 20mg/5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCTTO1067405	Tolura 20mg tablets (Consilient Health Ltd)
+^ESCTTO1067407	Tolura 40mg tablets (Consilient Health Ltd)
+^ESCTTO1067409	Tolura 80mg tablets (Consilient Health Ltd)
+TOTA89859NEMIS	Tolura  Tablets  20 mg
+TOTA89860NEMIS	Tolura  Tablets  40 mg
+TOTA89862NEMIS	Tolura  Tablets  80 mg
+^ESCTTO1067566	Tolucombi 40mg/12.5mg tablets (Consilient Health Ltd)
+^ESCTTO1067568	Tolucombi 80mg/12.5mg tablets (Consilient Health Ltd)
+^ESCTTO1067570	Tolucombi 80mg/25mg tablets (Consilient Health Ltd)
+TOTA90745NEMIS	Tolucombi  Tablets  40 mg + 12.5 mg
+TOTA90746NEMIS	Tolucombi  Tablets  80 mg + 12.5 mg
+TOTA90747NEMIS	Tolucombi  Tablets  80 mg + 25 mg
