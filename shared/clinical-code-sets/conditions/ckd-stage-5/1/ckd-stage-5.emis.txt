@@ -1,0 +1,53 @@
+^ESCT1192455	End-stage renal disease
+^ESCT1270447	End-stage renal disease
+^ESCT1371635	Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease
+^ESCTAN761537	Anaemia in end stage renal disease
+^ESCTAN761538	Anemia in end stage renal disease
+^ESCTAN761539	Anemia co-occurrent and due to end stage renal disease
+^ESCTAN761540	Anaemia co-occurrent and due to end stage renal disease
+^ESCTAN821236	Anaemia in chronic kidney disease stage 5
+^ESCTAN821237	Anemia co-occurrent and due to chronic kidney disease stage 5
+^ESCTAN821238	Anaemia co-occurrent and due to chronic kidney disease stage 5
+^ESCTAN821239	Anemia in chronic kidney disease stage 5
+^ESCTCH771489	Chronic kidney disease stage 5 on dialysis
+^ESCTCH771490	Chronic kidney disease 5d
+^ESCTCH771492	Chronic kidney disease stage 5 with transplant
+^ESCTCH771493	Chronic kidney disease 5t
+^ESCTCH796661	Chronic kidney disease stage 5 due to type 2 diabetes mellitus
+^ESCTCH796663	Chronic kidney disease stage 5 due to type II diabetes mellitus
+^ESCTCH802749	Chronic kidney disease stage 5 due to type 1 diabetes mellitus
+^ESCTCH802750	Chronic kidney disease stage 5 due to type I diabetes mellitus
+^ESCTCH804067	Chronic kidney disease stage 5 due to hypertension
+^ESCTCH808709	Chronic kidney disease stage 5 due to benign hypertension
+^ESCTCH834617	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+^ESCTCH834620	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+^ESCTCH834622	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+^ESCTCK717485	CKD stage 5
+^ESCTCK771491	CKD (chronic kidney disease) stage 5d
+^ESCTCK771494	CKD (chronic kidney disease) stage 5t
+^ESCTCK810451	CKD (chronic kidney disease) stage 5 with proteinuria
+^ESCTCK810455	CKD (chronic kidney disease) stage 5 without proteinuria
+^ESCTDE709585	Dependence on peritoneal dialysis due to end stage renal disease
+^ESCTDE709652	Dependence on haemodialysis due to end stage renal disease
+^ESCTDE709653	Dependence on hemodialysis due to end stage renal disease
+^ESCTDE709794	Dependence on dialysis due to end stage renal disease
+^ESCTDI796662	Diabetic stage 5 chronic renal impairment due to type 2 diabetes mellitus
+^ESCTEN324584	End stage kidney disease
+^ESCTEN324588	End stage chronic renal failure
+^ESCTEN509415	End stage renal failure untreated by renal replacement therapy
+^ESCTEN509416	End stage renal failure on dialysis
+^ESCTEN509417	End stage renal failure with renal transplant
+^ESCTEN769149	End stage renal disease due to benign hypertension
+^ESCTEN803525	End stage renal disease due to hypertension
+^ESCTEN804800	End stage renal disease on dialysis due to hypertension
+^ESCTES324585	ESRF - End stage renal failure
+^ESCTES324586	ESCRF - End stage chronic renal failure
+^ESCTES324587	ESRD - End stage renal disease
+^ESCTES769150	ESRD (End stage renal disease) due to benign hypertension
+^ESCTES803526	ESRD (End stage renal disease) due to hypertension
+^ESCTHY803041	Hypertensive heart AND chronic kidney disease stage 5
+^ESCTHY804401	Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus
+^ESCTHY804402	Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus
+^ESCTMA804797	Malignant hypertensive chronic kidney disease stage 5
+^ESCTMA808765	Malignant hypertensive end stage renal disease
+^ESCTMA808813	Malignant hypertensive end stage renal disease on dialysis
