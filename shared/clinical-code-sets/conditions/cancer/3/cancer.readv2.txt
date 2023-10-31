@@ -1,0 +1,1571 @@
+B....11	Cancers
+B0...00	Malignant neoplasm of lip, oral cavity and pharynx
+B0...11	Carcinoma of lip, oral cavity and pharynx
+B00..00	Malignant neoplasm of lip
+B00..11	Carcinoma of lip
+B000.00	Malignant neoplasm of upper lip, vermilion border
+B000000	Malignant neoplasm of upper lip, external
+B000100	Malignant neoplasm of upper lip, lipstick area
+B000z00	Malignant neoplasm of upper lip, vermilion border NOS
+B001.00	Malignant neoplasm of lower lip, vermilion border
+B001000	Malignant neoplasm of lower lip, external
+B001100	Malignant neoplasm of lower lip, lipstick area
+B001z00	Malignant neoplasm of lower lip, vermilion border NOS
+B002.00	Malignant neoplasm of upper lip, inner aspect
+B002000	Malignant neoplasm of upper lip, buccal aspect
+B002100	Malignant neoplasm of upper lip, frenulum
+B002200	Malignant neoplasm of upper lip, mucosa
+B002300	Malignant neoplasm of upper lip, oral aspect
+B002z00	Malignant neoplasm of upper lip, inner aspect NOS
+B003.00	Malignant neoplasm of lower lip, inner aspect
+B003000	Malignant neoplasm of lower lip, buccal aspect
+B003100	Malignant neoplasm of lower lip, frenulum
+B003200	Malignant neoplasm of lower lip, mucosa
+B003300	Malignant neoplasm of lower lip, oral aspect
+B003z00	Malignant neoplasm of lower lip, inner aspect NOS
+B004.00	Malignant neoplasm of lip unspecified, inner aspect
+B004000	Malignant neoplasm of lip unspecified, buccal aspect
+B004100	Malignant neoplasm of lip unspecified, frenulum
+B004200	Malignant neoplasm of lip unspecified, mucosa
+B004300	Malignant neoplasm of lip, oral aspect
+B004z00	Malignant neoplasm of lip, inner aspect NOS
+B005.00	Malignant neoplasm of commissure of lip
+B006.00	Malignant neoplasm of overlapping lesion of lip
+B007.00	Malignant neoplasm of lip, unspecified
+B00y.00	Malignant neoplasm of other sites of lip
+B00z.00	Malignant neoplasm of vermilion border of lip unspecified
+B00z000	Malignant neoplasm of lip, unspecified, external
+B00z100	Malignant neoplasm of lip, unspecified, lipstick area
+B00zz00	Malignant neoplasm of lip, vermilion border NOS
+B01..00	Malignant neoplasm of tongue
+B010.00	Malignant neoplasm of base of tongue
+B010.11	Malignant neoplasm of posterior third of tongue
+B010000	Malignant neoplasm of base of tongue dorsal surface
+B010z00	Malignant neoplasm of fixed part of tongue NOS
+B011.00	Malignant neoplasm of dorsal surface of tongue
+B011000	Malignant neoplasm of anterior 2/3 of tongue dorsal surface
+B011100	Malignant neoplasm of midline of tongue
+B011z00	Malignant neoplasm of dorsum of tongue NOS
+B012.00	Malignant neoplasm of tongue, tip and lateral border
+B013.00	Malignant neoplasm of ventral surface of tongue
+B013000	Malignant neoplasm of anterior 2/3 of tongue ventral surface
+B013100	Malignant neoplasm of frenulum linguae
+B013z00	Malignant neoplasm of ventral tongue surface NOS
+B014.00	Malignant neoplasm of anterior 2/3 of tongue unspecified
+B015.00	Malignant neoplasm of tongue, junctional zone
+B016.00	Malignant neoplasm of lingual tonsil
+B017.00	Malignant overlapping lesion of tongue
+B01y.00	Malignant neoplasm of other sites of tongue
+B01z.00	Malignant neoplasm of tongue NOS
+B02..00	Malignant neoplasm of major salivary glands
+B020.00	Malignant neoplasm of parotid gland
+B021.00	Malignant neoplasm of submandibular gland
+B022.00	Malignant neoplasm of sublingual gland
+B023.00	Malignant neoplasm, overlapping lesion of major salivary glands
+B02y.00	Malignant neoplasm of other major salivary glands
+B02z.00	Malignant neoplasm of major salivary gland NOS
+B03..00	Malignant neoplasm of gum
+B030.00	Malignant neoplasm of upper gum
+B031.00	Malignant neoplasm of lower gum
+B03y.00	Malignant neoplasm of other sites of gum
+B03z.00	Malignant neoplasm of gum NOS
+B04..00	Malignant neoplasm of floor of mouth
+B040.00	Malignant neoplasm of anterior portion of floor of mouth
+B041.00	Malignant neoplasm of lateral portion of floor of mouth
+B042.00	Malignant neoplasm, overlapping lesion of floor of mouth
+B04y.00	Malignant neoplasm of other sites of floor of mouth
+B04z.00	Malignant neoplasm of floor of mouth NOS
+B05..00	Malignant neoplasm of other and unspecified parts of mouth
+B050.00	Malignant neoplasm of cheek mucosa
+B050.11	Malignant neoplasm of buccal mucosa
+B051.00	Malignant neoplasm of vestibule of mouth
+B051000	Malignant neoplasm of upper buccal sulcus
+B051100	Malignant neoplasm of lower buccal sulcus
+B051200	Malignant neoplasm of upper labial sulcus
+B051300	Malignant neoplasm of lower labial sulcus
+B051z00	Malignant neoplasm of vestibule of mouth NOS
+B052.00	Malignant neoplasm of hard palate
+B053.00	Malignant neoplasm of soft palate
+B054.00	Malignant neoplasm of uvula
+B055.00	Malignant neoplasm of palate unspecified
+B055000	Malignant neoplasm of junction of hard and soft palate
+B055100	Malignant neoplasm of roof of mouth
+B055z00	Malignant neoplasm of palate NOS
+B056.00	Malignant neoplasm of retromolar area
+B057.00	Overlapping lesion of other and unspecified parts of mouth
+B05y.00	Malignant neoplasm of other specified mouth parts
+B05z.00	Malignant neoplasm of mouth NOS
+B05z000	Kaposi's sarcoma of palate
+B06..00	Malignant neoplasm of oropharynx
+B060.00	Malignant neoplasm of tonsil
+B060000	Malignant neoplasm of faucial tonsil
+B060100	Malignant neoplasm of palatine tonsil
+B060200	Malignant neoplasm of overlapping lesion of tonsil
+B060z00	Malignant neoplasm tonsil NOS
+B061.00	Malignant neoplasm of tonsillar fossa
+B062.00	Malignant neoplasm of tonsillar pillar
+B062000	Malignant neoplasm of faucial pillar
+B062100	Malignant neoplasm of glossopalatine fold
+B062200	Malignant neoplasm of palatoglossal arch
+B062300	Malignant neoplasm of palatopharyngeal arch
+B062z00	Malignant neoplasm of tonsillar fossa NOS
+B063.00	Malignant neoplasm of vallecula
+B064.00	Malignant neoplasm of anterior epiglottis
+B064000	Malignant neoplasm of epiglottis, free border
+B064100	Malignant neoplasm of glossoepiglottic fold
+B064z00	Malignant neoplasm of anterior epiglottis NOS
+B065.00	Malignant neoplasm of junctional region of epiglottis
+B066.00	Malignant neoplasm of lateral wall of oropharynx
+B067.00	Malignant neoplasm of posterior wall of oropharynx
+B06y.00	Malignant neoplasm of oropharynx, other specified sites
+B06y000	Malignant neoplasm of branchial cleft
+B06yz00	Malignant neoplasm of other specified site of oropharynx NOS
+B06z.00	Malignant neoplasm of oropharynx NOS
+B07..00	Malignant neoplasm of nasopharynx
+B070.00	Malignant neoplasm of roof of nasopharynx
+B071.00	Malignant neoplasm of posterior wall of nasopharynx
+B071000	Malignant neoplasm of adenoid
+B071100	Malignant neoplasm of pharyngeal tonsil
+B071z00	Malignant neoplasm of posterior wall of nasopharynx NOS
+B072.00	Malignant neoplasm of lateral wall of nasopharynx
+B072000	Malignant neoplasm of pharyngeal recess
+B072100	Malignant neoplasm of opening of auditory tube
+B072z00	Malignant neoplasm of lateral wall of nasopharynx NOS
+B073.00	Malignant neoplasm of anterior wall of nasopharynx
+B073000	Malignant neoplasm of floor of nasopharynx
+B073100	Malignant neoplasm of nasopharyngeal soft palate surface
+B073200	Malignant neoplasm of posterior margin of nasal septum and choanae
+B073z00	Malignant neoplasm of anterior wall of nasopharynx NOS
+B074.00	Malignant neoplasm, overlapping lesion of nasopharynx
+B07y.00	Malignant neoplasm of other specified site of nasopharynx
+B07z.00	Malignant neoplasm of nasopharynx NOS
+B08..00	Malignant neoplasm of hypopharynx
+B080.00	Malignant neoplasm of postcricoid region
+B081.00	Malignant neoplasm of pyriform sinus
+B082.00	Malignant neoplasm of aryepiglottic fold, hypopharyngeal aspect
+B083.00	Malignant neoplasm of posterior pharynx
+B084.00	Malignant neoplasm, overlapping lesion of hypopharynx
+B08y.00	Malignant neoplasm of other specified hypopharyngeal site
+B08z.00	Malignant neoplasm of hypopharynx NOS
+B0z..00	Malignant neoplasm of other and ill-defined sites within the lip, oral cavity and pharynx
+B0z0.00	Malignant neoplasm of pharynx unspecified
+B0z1.00	Malignant neoplasm of Waldeyer's ring
+B0z2.00	Malignant neoplasm of laryngopharynx
+B0zy.00	Malignant neoplasm of other sites of lip, oral cavity and pharynx
+B0zz.00	Malignant neoplasm of lip, oral cavity and pharynx NOS
+B10..00	Malignant neoplasm of oesophagus
+B100.00	Malignant neoplasm of cervical oesophagus
+B101.00	Malignant neoplasm of thoracic oesophagus
+B102.00	Malignant neoplasm of abdominal oesophagus
+B103.00	Malignant neoplasm of upper third of oesophagus
+B104.00	Malignant neoplasm of middle third of oesophagus
+B105.00	Malignant neoplasm of lower third of oesophagus
+B106.00	Malignant neoplasm, overlapping lesion of oesophagus
+B107.00	Siewert type I adenocarcinoma
+B10y.00	Malignant neoplasm of other specified part of oesophagus
+B10z.00	Malignant neoplasm of oesophagus NOS
+B10z.11	Oesophageal cancer
+B11..00	Malignant neoplasm of stomach
+B110.00	Malignant neoplasm of cardia of stomach
+B110000	Malignant neoplasm of cardiac orifice of stomach
+B110100	Malignant neoplasm of cardio-oesophageal junction of stomach
+B110111	Malignant neoplasm of gastro-oesophageal junction
+B110z00	Malignant neoplasm of cardia of stomach NOS
+B111.00	Malignant neoplasm of pylorus of stomach
+B111000	Malignant neoplasm of prepylorus of stomach
+B111100	Malignant neoplasm of pyloric canal of stomach
+B111z00	Malignant neoplasm of pylorus of stomach NOS
+B112.00	Malignant neoplasm of pyloric antrum of stomach
+B113.00	Malignant neoplasm of fundus of stomach
+B114.00	Malignant neoplasm of body of stomach
+B115.00	Malignant neoplasm of lesser curve of stomach unspecified
+B116.00	Malignant neoplasm of greater curve of stomach unspecified
+B117.00	Malignant neoplasm, overlapping lesion of stomach
+B118.00	Siewert type II adenocarcinoma
+B119.00	Siewert type III adenocarcinoma
+B11y.00	Malignant neoplasm of other specified site of stomach
+B11y000	Malignant neoplasm of anterior wall of stomach NEC
+B11y100	Malignant neoplasm of posterior wall of stomach NEC
+B11yz00	Malignant neoplasm of other specified site of stomach NOS
+B11z.00	Malignant neoplasm of stomach NOS
+B12..00	Malignant neoplasm of small intestine and duodenum
+B120.00	Malignant neoplasm of duodenum
+B121.00	Malignant neoplasm of jejunum
+B122.00	Malignant neoplasm of ileum
+B123.00	Malignant neoplasm of Meckel's diverticulum
+B124.00	Malignant neoplasm, overlapping lesion of small intestine
+B12y.00	Malignant neoplasm of other specified site of small intestine
+B12z.00	Malignant neoplasm of small intestine NOS
+B13..00	Malignant neoplasm of colon
+B130.00	Malignant neoplasm of hepatic flexure of colon
+B131.00	Malignant neoplasm of transverse colon
+B132.00	Malignant neoplasm of descending colon
+B133.00	Malignant neoplasm of sigmoid colon
+B134.00	Malignant neoplasm of caecum
+B134.11	Carcinoma of caecum
+B135.00	Malignant neoplasm of appendix
+B136.00	Malignant neoplasm of ascending colon
+B137.00	Malignant neoplasm of splenic flexure of colon
+B138.00	Malignant neoplasm, overlapping lesion of colon
+B139.00	Hereditary nonpolyposis colon cancer
+B13y.00	Malignant neoplasm of other specified sites of colon
+B13z.00	Malignant neoplasm of colon NOS
+B13z.11	Colonic cancer
+B14..00	Malignant neoplasm of rectum, rectosigmoid junction and anus
+B140.00	Malignant neoplasm of rectosigmoid junction
+B141.00	Malignant neoplasm of rectum
+B141.11	Carcinoma of rectum
+B141.12	Rectal carcinoma
+B142.00	Malignant neoplasm of anal canal
+B142.11	Anal carcinoma
+B142000	Malignant neoplasm of cloacogenic zone
+B143.00	Malignant neoplasm of anus unspecified
+B14y.00	Malignant neoplasm of other sites of rectum, rectosigmoid junction and anus
+B14z.00	Malignant neoplasm of rectum, rectosigmoid junction and anus NOS
+B15..00	Malignant neoplasm of liver and intrahepatic bile ducts
+B150.00	Primary malignant neoplasm of liver
+B150000	Primary carcinoma of liver
+B150100	Hepatoblastoma of liver
+B150200	Primary angiosarcoma of liver
+B150300	Hepatocellular carcinoma
+B150z00	Primary malignant neoplasm of liver NOS
+B151.00	Malignant neoplasm of intrahepatic bile ducts
+B151000	Malignant neoplasm of interlobular bile ducts
+B151100	Malignant neoplasm of interlobular biliary canals
+B151200	Malignant neoplasm of intrahepatic biliary passages
+B151300	Malignant neoplasm of intrahepatic canaliculi
+B151400	Malignant neoplasm of intrahepatic gall duct
+B151z00	Malignant neoplasm of intrahepatic bile ducts NOS
+B152.00	Malignant neoplasm of liver unspecified
+B153.00	Secondary malignant neoplasm of liver
+B15z.00	Malignant neoplasm of liver and intrahepatic bile ducts NOS
+B16..00	Malignant neoplasm of gallbladder and extrahepatic bile ducts
+B160.00	Malignant neoplasm of gallbladder
+B160.11	Carcinoma gallbladder
+B161.00	Malignant neoplasm of extrahepatic bile ducts
+B161000	Malignant neoplasm of cystic duct
+B161100	Malignant neoplasm of hepatic duct
+B161200	Malignant neoplasm of common bile duct
+B161211	Carcinoma common bile duct
+B161300	Malignant neoplasm of sphincter of Oddi
+B161z00	Malignant neoplasm of extrahepatic bile ducts NOS
+B162.00	Malignant neoplasm of ampulla of Vater
+B163.00	Malignant neoplasm, overlapping lesion of biliary tract
+B16y.00	Malignant neoplasm of other gallbladder and extrahepatic bile ducts
+B16z.00	Malignant neoplasm of gallbladder and extrahepatic bile ducts NOS
+B17..00	Malignant neoplasm of pancreas
+B170.00	Malignant neoplasm of head of pancreas
+B171.00	Malignant neoplasm of body of pancreas
+B172.00	Malignant neoplasm of tail of pancreas
+B173.00	Malignant neoplasm of pancreatic duct
+B174.00	Malignant neoplasm of Islets of Langerhans
+B175.00	Malignant neoplasm, overlapping lesion of pancreas
+B176.00	Somatostatinoma of pancreas
+B17y.00	Malignant neoplasm of other specified sites of pancreas
+B17y000	Malignant neoplasm of ectopic pancreatic tissue
+B17yz00	Malignant neoplasm of specified site of pancreas NOS
+B17z.00	Malignant neoplasm of pancreas NOS
+B18..00	Malignant neoplasm of retroperitoneum and peritoneum
+B180.00	Malignant neoplasm of retroperitoneum
+B180000	Malignant neoplasm of periadrenal tissue
+B180100	Malignant neoplasm of perinephric tissue
+B180200	Malignant neoplasm of retrocaecal tissue
+B180z00	Malignant neoplasm of retroperitoneum NOS
+B181.00	Mesothelioma of peritoneum
+B182.00	Overlapping malignant lesion of retroperitoneum and peritoneum
+B18y.00	Malignant neoplasm of specified parts of peritoneum
+B18y000	Malignant neoplasm of mesocolon
+B18y100	Malignant neoplasm of mesocaecum
+B18y200	Malignant neoplasm of mesorectum
+B18y300	Malignant neoplasm of omentum
+B18y400	Malignant neoplasm of parietal peritoneum
+B18y500	Malignant neoplasm of pelvic peritoneum
+B18y600	Malignant neoplasm of the pouch of Douglas
+B18y700	Malignant neoplasm of mesentery
+B18yz00	Malignant neoplasm of specified parts of peritoneum NOS
+B18z.00	Malignant neoplasm of retroperitoneum and peritoneum NOS
+B1z..00	Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum
+B1z0.00	Malignant neoplasm of intestinal tract, part unspecified
+B1z0.11	Cancer of bowel
+B1z1.00	Malignant neoplasm of spleen NEC
+B1z1000	Angiosarcoma of spleen
+B1z1100	Fibrosarcoma of spleen
+B1z1z00	Malignant neoplasm of spleen NOS
+B1z2.00	Malignant neoplasm, overlapping lesion of digestive system
+B1zy.00	Malignant neoplasm of other specified site of digestive tract and peritoneum
+B1zz.00	Malignant neoplasm of digestive tract and peritoneum NOS
+B2...00	Malignant neoplasm of respiratory tract and intrathoracic organs
+B2...11	Carcinoma of respiratory tract and intrathoracic organs
+B20..00	Malignant neoplasm of nasal cavities, middle ear and accessory sinuses
+B200.00	Malignant neoplasm of nasal cavities
+B200000	Malignant neoplasm of cartilage of nose
+B200100	Malignant neoplasm of nasal conchae
+B200200	Malignant neoplasm of septum of nose
+B200300	Malignant neoplasm of vestibule of nose
+B200z00	Malignant neoplasm of nasal cavities NOS
+B201.00	Malignant neoplasm of auditory tube, middle ear and mastoid air cells
+B201000	Malignant neoplasm of auditory (Eustachian) tube
+B201100	Malignant neoplasm of tympanic cavity
+B201200	Malignant neoplasm of tympanic antrum
+B201300	Malignant neoplasm of mastoid air cells
+B201z00	Malignant neoplasm of auditory tube, middle ear and mastoid air cells NOS
+B202.00	Malignant neoplasm of maxillary sinus
+B203.00	Malignant neoplasm of ethmoid sinus
+B204.00	Malignant neoplasm of frontal sinus
+B205.00	Malignant neoplasm of sphenoidal sinus
+B206.00	Malignant neoplasm, overlapping lesion of accessory sinuses
+B20y.00	Malignant neoplasm of other sites of nasal cavity, middle ear and accessory sinuses
+B20z.00	Malignant neoplasm of accessory sinus NOS
+B21..00	Malignant neoplasm of larynx
+B210.00	Malignant neoplasm of glottis
+B211.00	Malignant neoplasm of supraglottis
+B212.00	Malignant neoplasm of subglottis
+B213.00	Malignant neoplasm of laryngeal cartilage
+B213000	Malignant neoplasm of arytenoid cartilage
+B213100	Malignant neoplasm of cricoid cartilage
+B213200	Malignant neoplasm of cuneiform cartilage
+B213300	Malignant neoplasm of thyroid cartilage
+B213z00	Malignant neoplasm of laryngeal cartilage NOS
+B214.00	Malignant neoplasm, overlapping lesion of larynx
+B215.00	Malignant neoplasm of epiglottis NOS
+B21y.00	Malignant neoplasm of larynx, other specified site
+B21z.00	Malignant neoplasm of larynx NOS
+B22..00	Malignant neoplasm of trachea, bronchus and lung
+B220.00	Malignant neoplasm of trachea
+B220000	Malignant neoplasm of cartilage of trachea
+B220100	Malignant neoplasm of mucosa of trachea
+B220z00	Malignant neoplasm of trachea NOS
+B221.00	Malignant neoplasm of main bronchus
+B221000	Malignant neoplasm of carina of bronchus
+B221100	Malignant neoplasm of hilus of lung
+B221z00	Malignant neoplasm of main bronchus NOS
+B222.00	Malignant neoplasm of upper lobe, bronchus or lung
+B222.11	Pancoast's syndrome
+B222000	Malignant neoplasm of upper lobe bronchus
+B222100	Malignant neoplasm of upper lobe of lung
+B222z00	Malignant neoplasm of upper lobe, bronchus or lung NOS
+B223.00	Malignant neoplasm of middle lobe, bronchus or lung
+B223000	Malignant neoplasm of middle lobe bronchus
+B223100	Malignant neoplasm of middle lobe of lung
+B223z00	Malignant neoplasm of middle lobe, bronchus or lung NOS
+B224.00	Malignant neoplasm of lower lobe, bronchus or lung
+B224000	Malignant neoplasm of lower lobe bronchus
+B224100	Malignant neoplasm of lower lobe of lung
+B224z00	Malignant neoplasm of lower lobe, bronchus or lung NOS
+B225.00	Malignant neoplasm of overlapping lesion of bronchus and lung
+B22y.00	Malignant neoplasm of other sites of bronchus or lung
+B22z.00	Malignant neoplasm of bronchus or lung NOS
+B22z.11	Lung cancer
+B23..00	Malignant neoplasm of pleura
+B230.00	Malignant neoplasm of parietal pleura
+B231.00	Malignant neoplasm of visceral pleura
+B232.00	Mesothelioma of pleura
+B23y.00	Malignant neoplasm of other specified pleura
+B23z.00	Malignant neoplasm of pleura NOS
+B24..00	Malignant neoplasm of thymus, heart and mediastinum
+B240.00	Malignant neoplasm of thymus
+B241.00	Malignant neoplasm of heart
+B241000	Malignant neoplasm of endocardium
+B241100	Malignant neoplasm of epicardium
+B241200	Malignant neoplasm of myocardium
+B241300	Malignant neoplasm of pericardium
+B241400	Mesothelioma of pericardium
+B241z00	Malignant neoplasm of heart NOS
+B242.00	Malignant neoplasm of anterior mediastinum
+B243.00	Malignant neoplasm of posterior mediastinum
+B24X.00	Malignant neoplasm of mediastinum, part unspecified
+B24y.00	Malignant neoplasm of other site of heart, thymus and mediastinum
+B24z.00	Malignant neoplasm of heart, thymus and mediastinum NOS
+B25..00	Malignant neoplasm, overlapping lesion of heart, mediastinum and pleura
+B26..00	Malignant neoplasm, overlapping lesion of respiratory and intrathoracic organs
+B2z..00	Malignant neoplasm of other and ill-defined sites within the respiratory and intrathoracic organs
+B2z0.00	Malignant neoplasm of upper respiratory tract, part unspecified
+B2zy.00	Malignant neoplasm of other site of respiratory tract
+B2zz.00	Malignant neoplasm of respiratory tract NOS
+B3...00	Malignant neoplasm of bone, connective tissue, skin and breast
+B3...11	Carcinoma of bone, connective tissue, skin and breast
+B3...12	Sarcoma of bone and connective tissue
+B30..00	Malignant neoplasm of bone and articular cartilage
+B300.00	Malignant neoplasm of bones of skull and face
+B300000	Malignant neoplasm of ethmoid bone
+B300100	Malignant neoplasm of frontal bone
+B300200	Malignant neoplasm of malar bone
+B300300	Malignant neoplasm of nasal bone
+B300400	Malignant neoplasm of occipital bone
+B300500	Malignant neoplasm of orbital bone
+B300600	Malignant neoplasm of parietal bone
+B300700	Malignant neoplasm of sphenoid bone
+B300800	Malignant neoplasm of temporal bone
+B300900	Malignant neoplasm of zygomatic bone
+B300A00	Malignant neoplasm of maxilla
+B300B00	Malignant neoplasm of turbinate
+B300C00	Malignant neoplasm of vomer
+B300z00	Malignant neoplasm of bones of skull and face NOS
+B301.00	Malignant neoplasm of mandible
+B302.00	Malignant neoplasm of vertebral column
+B302000	Malignant neoplasm of cervical vertebra
+B302100	Malignant neoplasm of thoracic vertebra
+B302200	Malignant neoplasm of lumbar vertebra
+B302z00	Malignant neoplasm of vertebral column NOS
+B303.00	Malignant neoplasm of ribs, sternum and clavicle
+B303000	Malignant neoplasm of rib
+B303100	Malignant neoplasm of sternum
+B303200	Malignant neoplasm of clavicle
+B303300	Malignant neoplasm of costal cartilage
+B303400	Malignant neoplasm of costo-vertebral joint
+B303500	Malignant neoplasm of xiphoid process
+B303z00	Malignant neoplasm of rib, sternum and clavicle NOS
+B304.00	Malignant neoplasm of scapula and long bones of upper arm
+B304000	Malignant neoplasm of scapula
+B304100	Malignant neoplasm of acromion
+B304200	Malignant neoplasm of humerus
+B304300	Malignant neoplasm of radius
+B304400	Malignant neoplasm of ulna
+B304z00	Malignant neoplasm of scapula and long bones of upper arm NOS
+B305.00	Malignant neoplasm of hand bones
+B305.11	Malignant neoplasm of carpal bones
+B305.1212	Malignant neoplasm of metacarpal bones
+B305000	Malignant neoplasm of carpal bone - scaphoid
+B305100	Malignant neoplasm of carpal bone - lunate
+B305200	Malignant neoplasm of carpal bone - triquetrum
+B305300	Malignant neoplasm of carpal bone - pisiform
+B305400	Malignant neoplasm of carpal bone - trapezium
+B305500	Malignant neoplasm of carpal bone - trapezoid
+B305600	Malignant neoplasm of carpal bone - capitate
+B305700	Malignant neoplasm of carpal bone - hamate
+B305800	Malignant neoplasm of first metacarpal bone
+B305900	Malignant neoplasm of second metacarpal bone
+B305A00	Malignant neoplasm of third metacarpal bone
+B305B00	Malignant neoplasm of fourth metacarpal bone
+B305C00	Malignant neoplasm of fifth metacarpal bone
+B305D00	Malignant neoplasm of phalanges of hand
+B305z00	Malignant neoplasm of hand bones NOS
+B306.00	Malignant neoplasm of pelvic bones, sacrum and coccyx
+B306000	Malignant neoplasm of ilium
+B306100	Malignant neoplasm of ischium
+B306200	Malignant neoplasm of pubis
+B306300	Malignant neoplasm of sacral vertebra
+B306400	Malignant neoplasm of coccygeal vertebra
+B306500	Malignant sacral teratoma
+B306z00	Malignant neoplasm of pelvis, sacrum or coccyx NOS
+B307.00	Malignant neoplasm of long bones of leg
+B307000	Malignant neoplasm of femur
+B307100	Malignant neoplasm of fibula
+B307200	Malignant neoplasm of tibia
+B307z00	Malignant neoplasm of long bones of leg NOS
+B308.00	Malignant neoplasm of short bones of leg
+B308.11	Malignant neoplasm of metatarsal bones of foot
+B308000	Malignant neoplasm of patella
+B308100	Malignant neoplasm of talus
+B308200	Malignant neoplasm of calcaneum
+B308300	Malignant neoplasm of medial cuneiform
+B308400	Malignant neoplasm of intermediate cuneiform
+B308500	Malignant neoplasm of lateral cuneiform
+B308600	Malignant neoplasm of cuboid
+B308700	Malignant neoplasm of navicular
+B308800	Malignant neoplasm of first metatarsal bone
+B308900	Malignant neoplasm of second metatarsal bone
+B308A00	Malignant neoplasm of third metatarsal bone
+B308B00	Malignant neoplasm of fourth metatarsal bone
+B308C00	Malignant neoplasm of fifth metatarsal bone
+B308D00	Malignant neoplasm of phalanges of foot
+B308z00	Malignant neoplasm of short bones of leg NOS
+B309.00	Malignant neoplasm, overlapping lesion of bone and articular cartilage of limbs
+B30W.00	Malignant neoplasm of overlapping lesion of bone and articular cartilage
+B30X.00	Malignant neoplasm of bones and articular cartilage of limb, unspecified
+B30z.00	Malignant neoplasm of bone and articular cartilage NOS
+B30z000	Osteosarcoma
+B31..00	Malignant neoplasm of connective and other soft tissue
+B310.00	Malignant neoplasm of connective and soft tissue of head, face and neck
+B310000	Malignant neoplasm of soft tissue of head
+B310100	Malignant neoplasm of soft tissue of face
+B310200	Malignant neoplasm of soft tissue of neck
+B310300	Malignant neoplasm of cartilage of ear
+B310400	Malignant neoplasm of tarsus of eyelid
+B310500	Malignant neoplasm soft tissues of cervical spine
+B310z00	Malignant neoplasm of connective and soft tissue of head, face, and neck
+B311.00	Malignant neoplasm of connective and soft tissue of upper limb and shoulder
+B311000	Malignant neoplasm of connective and soft tissue of shoulder
+B311100	Malignant neoplasm of connective and soft tissue, upper arm
+B311200	Malignant neoplasm of connective and soft tissue of fore-arm
+B311300	Malignant neoplasm of connective and soft tissue of hand
+B311400	Malignant neoplasm of connective and soft tissue of finger
+B311500	Malignant neoplasm of connective and soft tissue of thumb
+B311z00	Malignant neoplasm of connective and soft tissue of upper limb and shoulder NOS
+B312.00	Malignant neoplasm of connective and soft tissue of hip and lower limb
+B312000	Malignant neoplasm of connective and soft tissue of hip
+B312100	Malignant neoplasm of connective and soft tissue of thigh and upper leg
+B312200	Malignant neoplasm of connective and soft tissue of popliteal space
+B312300	Malignant neoplasm of connective and soft tissue of lower leg
+B312400	Malignant neoplasm of connective and soft tissue of foot
+B312500	Malignant neoplasm of connective and soft tissue of toe
+B312600	Malignant neoplasm of connective and soft tissue of great toe
+B312z00	Malignant neoplasm of connective and soft tissue of hip and lower limb NOS
+B313.00	Malignant neoplasm of connective and soft tissue of thorax
+B313000	Malignant neoplasm of connective and soft tissue of axilla
+B313100	Malignant neoplasm of diaphragm
+B313200	Malignant neoplasm of great vessels
+B313300	Malignant neoplasm of connective and soft tissues of thoracic spine
+B313z00	Malignant neoplasm of connective and soft tissue of thorax NOS
+B314.00	Malignant neoplasm of connective and soft tissue of abdomen
+B314000	Malignant neoplasm of connective and soft tissue of abdominal wall
+B314100	Malignant neoplasm of connective and soft tissues of lumbar spine
+B314z00	Malignant neoplasm of connective and soft tissue of abdomen NOS
+B315.00	Malignant neoplasm of connective and soft tissue of pelvis
+B315000	Malignant neoplasm of connective and soft tissue of buttock
+B315100	Malignant neoplasm of connective and soft tissue of inguinal region
+B315200	Malignant neoplasm of connective and soft tissue of perineum
+B315300	Malignant neoplasm of connective and soft tissue of sacrum or coccyx
+B315z00	Malignant neoplasm of connective and soft tissue of pelvis NOS
+B316.00	Malignant neoplasm of connective and soft tissue of trunk unspecified
+B31y.00	Malignant neoplasm of connective and soft tissue of other specified site
+B31z.00	Malignant neoplasm of connective and soft tissue, site NOS
+B31z000	Kaposi's sarcoma of soft tissue
+B32..00	Malignant melanoma of skin
+B320.00	Malignant melanoma of lip
+B321.00	Malignant melanoma of eyelid including canthus
+B322.00	Malignant melanoma of ear and external auricular canal
+B322000	Malignant melanoma of auricle (ear)
+B322100	Malignant melanoma of external auditory meatus
+B322z00	Malignant melanoma of ear and external auricular canal NOS
+B323.00	Malignant melanoma of other and unspecified parts of face
+B323000	Malignant melanoma of external surface of cheek
+B323100	Malignant melanoma of chin
+B323200	Malignant melanoma of eyebrow
+B323300	Malignant melanoma of forehead
+B323400	Malignant melanoma of external surface of nose
+B323500	Malignant melanoma of temple
+B323z00	Malignant melanoma of face NOS
+B324.00	Malignant melanoma of scalp and neck
+B324000	Malignant melanoma of scalp
+B324100	Malignant melanoma of neck
+B324z00	Malignant melanoma of scalp and neck NOS
+B325.00	Malignant melanoma of trunk (excluding scrotum)
+B325000	Malignant melanoma of axilla
+B325100	Malignant melanoma of breast
+B325200	Malignant melanoma of buttock
+B325300	Malignant melanoma of groin
+B325400	Malignant melanoma of perianal skin
+B325500	Malignant melanoma of perineum
+B325600	Malignant melanoma of umbilicus
+B325700	Malignant melanoma of back
+B325800	Malignant melanoma of chest wall
+B325z00	Malignant melanoma of trunk, excluding scrotum, NOS
+B326.00	Malignant melanoma of upper limb and shoulder
+B326000	Malignant melanoma of shoulder
+B326100	Malignant melanoma of upper arm
+B326200	Malignant melanoma of fore-arm
+B326300	Malignant melanoma of hand
+B326400	Malignant melanoma of finger
+B326500	Malignant melanoma of thumb
+B326z00	Malignant melanoma of upper limb or shoulder NOS
+B327.00	Malignant melanoma of lower limb and hip
+B327000	Malignant melanoma of hip
+B327100	Malignant melanoma of thigh
+B327200	Malignant melanoma of knee
+B327300	Malignant melanoma of popliteal fossa area
+B327400	Malignant melanoma of lower leg
+B327500	Malignant melanoma of ankle
+B327600	Malignant melanoma of heel
+B327700	Malignant melanoma of foot
+B327800	Malignant melanoma of toe
+B327900	Malignant melanoma of great toe
+B327z00	Malignant melanoma of lower limb or hip NOS
+B32y.00	Malignant melanoma of other specified skin site
+B32y000	Overlapping malignant melanoma of skin
+B32z.00	Malignant melanoma of skin NOS
+B33..1414	Malignant neoplasm of sebaceous gland
+B33..1515	Malignant neoplasm of sweat gland
+B331.00	Malignant neoplasm of eyelid including canthus
+B331000	Malignant neoplasm of canthus
+B331100	Malignant neoplasm of upper eyelid
+B331200	Malignant neoplasm of lower eyelid
+B332200	Malignant neoplasm of pinna NEC
+B334.00	Malignant neoplasm of scalp and skin of neck
+B334z00	Malignant neoplasm of scalp or skin of neck NOS
+B335900	Malignant neoplasm of perianal skin
+B339.00	Dermatofibrosarcoma protuberans
+B33A.00	Stewart-Treves syndrome
+B33X.00	Malignant neoplasm overlapping lesion of skin
+B33z000	Kaposi's sarcoma of skin
+B33z100	Naevoid basal cell carcinoma syndrome
+B33z111	Basal cell naevus syndrome
+B34..00	Malignant neoplasm of female breast
+B34..11	Ca female breast
+B340.00	Malignant neoplasm of nipple and areola of female breast
+B340000	Malignant neoplasm of nipple of female breast
+B340100	Malignant neoplasm of areola of female breast
+B340z00	Malignant neoplasm of nipple or areola of female breast NOS
+B341.00	Malignant neoplasm of central part of female breast
+B342.00	Malignant neoplasm of upper-inner quadrant of female breast
+B343.00	Malignant neoplasm of lower-inner quadrant of female breast
+B344.00	Malignant neoplasm of upper-outer quadrant of female breast
+B345.00	Malignant neoplasm of lower-outer quadrant of female breast
+B346.00	Malignant neoplasm of axillary tail of female breast
+B347.00	Malignant neoplasm, overlapping lesion of breast
+B34y.00	Malignant neoplasm of other site of female breast
+B34y000	Malignant neoplasm of ectopic site of female breast
+B34yz00	Malignant neoplasm of other site of female breast NOS
+B34z.00	Malignant neoplasm of female breast NOS
+B35..00	Malignant neoplasm of male breast
+B350.00	Malignant neoplasm of nipple and areola of male breast
+B350000	Malignant neoplasm of nipple of male breast
+B350100	Malignant neoplasm of areola of male breast
+B350z00	Malignant neoplasm of nipple or areola of male breast NOS
+B35z.00	Malignant neoplasm of other site of male breast
+B35z000	Malignant neoplasm of ectopic site of male breast
+B35zz00	Malignant neoplasm of male breast NOS
+B36..00	Local recurrence of malignant tumour of breast
+B3y..00	Malignant neoplasm of bone, connective tissue, skin and breast otherwise specified
+B3z..00	Malignant neoplasm of bone, connective tissue, skin and breast NOS
+B4...00	Malignant neoplasm of genitourinary organ
+B4...11	Carcinoma of genitourinary organ
+B40..00	Malignant neoplasm of uterus, part unspecified
+B41..00	Malignant neoplasm of cervix uteri
+B41..11	Cervical carcinoma (uterus)
+B410.00	Malignant neoplasm of endocervix
+B410000	Malignant neoplasm of endocervical canal
+B410100	Malignant neoplasm of endocervical gland
+B410z00	Malignant neoplasm of endocervix NOS
+B411.00	Malignant neoplasm of exocervix
+B412.00	Malignant neoplasm, overlapping lesion of cervix uteri
+B41y.00	Malignant neoplasm of other site of cervix
+B41y000	Malignant neoplasm of cervical stump
+B41y100	Malignant neoplasm of squamocolumnar junction of cervix
+B41yz00	Malignant neoplasm of other site of cervix NOS
+B41z.00	Malignant neoplasm of cervix uteri NOS
+B42..00	Malignant neoplasm of placenta
+B420.00	Choriocarcinoma
+B43..00	Malignant neoplasm of body of uterus
+B430.00	Malignant neoplasm of corpus uteri, excluding isthmus
+B430000	Malignant neoplasm of cornu of corpus uteri
+B430100	Malignant neoplasm of fundus of corpus uteri
+B430200	Malignant neoplasm of endometrium of corpus uteri
+B430211	Malignant neoplasm of endometrium
+B430300	Malignant neoplasm of myometrium of corpus uteri
+B430z00	Malignant neoplasm of corpus uteri NOS
+B431.00	Malignant neoplasm of isthmus of uterine body
+B431000	Malignant neoplasm of lower uterine segment
+B431z00	Malignant neoplasm of isthmus of uterine body NOS
+B432.00	Malignant neoplasm of overlapping lesion of corpus uteri
+B43y.00	Malignant neoplasm of other site of uterine body
+B43z.00	Malignant neoplasm of body of uterus NOS
+B44..00	Malignant neoplasm of ovary and other uterine adnexa
+B440.00	Malignant neoplasm of ovary
+B440.11	Cancer of ovary
+B441.00	Malignant neoplasm of fallopian tube
+B442.00	Malignant neoplasm of broad ligament
+B443.00	Malignant neoplasm of parametrium
+B444.00	Malignant neoplasm of round ligament
+B44y.00	Malignant neoplasm of other site of uterine adnexa
+B44z.00	Malignant neoplasm of uterine adnexa NOS
+B45..00	Malignant neoplasm of other and unspecified female genital organs
+B450.00	Malignant neoplasm of vagina
+B450000	Malignant neoplasm of Gartner's duct
+B450100	Malignant neoplasm of vaginal vault
+B450z00	Malignant neoplasm of vagina NOS
+B451.00	Malignant neoplasm of labia majora
+B451000	Malignant neoplasm of greater vestibular (Bartholin's) gland
+B451z00	Malignant neoplasm of labia majora NOS
+B452.00	Malignant neoplasm of labia minora
+B453.00	Malignant neoplasm of clitoris
+B454.00	Malignant neoplasm of vulva unspecified
+B454.11	Primary vulval cancer
+B45X.00	Malignant neoplasm of overlapping lesion of female genital organs
+B45y.00	Malignant neoplasm of other specified female genital organ
+B45y000	Malignant neoplasm of overlapping lesion of vulva
+B45z.00	Malignant neoplasm of female genital organ NOS
+B46..00	Malignant neoplasm of prostate
+B47..00	Malignant neoplasm of testis
+B470.00	Malignant neoplasm of undescended testis
+B470000	Malignant neoplasm of ectopic testis
+B470100	Malignant neoplasm of retained testis
+B470200	Seminoma of undescended testis
+B470300	Teratoma of undescended testis
+B470z00	Malignant neoplasm of undescended testis NOS
+B471.00	Malignant neoplasm of descended testis
+B471000	Seminoma of descended testis
+B471100	Teratoma of descended testis
+B471z00	Malignant neoplasm of descended testis NOS
+B47z.00	Malignant neoplasm of testis NOS
+B47z.11	Seminoma of testis
+B47z.1212	Teratoma of testis
+B48..00	Malignant neoplasm of penis and other male genital organs
+B481.00	Malignant neoplasm of glans penis
+B482.00	Malignant neoplasm of body of penis
+B483.00	Malignant neoplasm of penis, part unspecified
+B484.00	Malignant neoplasm of epididymis
+B485.00	Malignant neoplasm of spermatic cord
+B486.00	Malignant neoplasm of scrotum
+B487.00	Malignant neoplasm, overlapping lesion of penis
+B48y.00	Malignant neoplasm of other male genital organ
+B48y000	Malignant neoplasm of seminal vesicle
+B48y100	Malignant neoplasm of tunica vaginalis
+B48y200	Malignant neoplasm, overlapping lesion of male genital organs
+B48yz00	Malignant neoplasm of other male genital organ NOS
+B48z.00	Malignant neoplasm of penis and other male genital organ NOS
+B49..00	Malignant neoplasm of urinary bladder
+B490.00	Malignant neoplasm of trigone of urinary bladder
+B491.00	Malignant neoplasm of dome of urinary bladder
+B492.00	Malignant neoplasm of lateral wall of urinary bladder
+B493.00	Malignant neoplasm of anterior wall of urinary bladder
+B494.00	Malignant neoplasm of posterior wall of urinary bladder
+B495.00	Malignant neoplasm of bladder neck
+B496.00	Malignant neoplasm of ureteric orifice
+B497.00	Malignant neoplasm of urachus
+B498.00	Local recurrence of malignant tumour of urinary bladder
+B49y.00	Malignant neoplasm of other site of urinary bladder
+B49y000	Malignant neoplasm, overlapping lesion of bladder
+B49z.00	Malignant neoplasm of urinary bladder NOS
+B4A..00	Malignant neoplasm of kidney and other unspecified urinary organs
+B4A..11	Renal malignant neoplasm
+B4A0.00	Malignant neoplasm of kidney parenchyma
+B4A0000	Hypernephroma
+B4A1.00	Malignant neoplasm of renal pelvis
+B4A1000	Malignant neoplasm of renal calyces
+B4A1100	Malignant neoplasm of ureteropelvic junction
+B4A1z00	Malignant neoplasm of renal pelvis NOS
+B4A2.00	Malignant neoplasm of ureter
+B4A3.00	Malignant neoplasm of urethra
+B4A4.00	Malignant neoplasm of paraurethral glands
+B4Ay.00	Malignant neoplasm of other urinary organs
+B4Ay000	Malignant neoplasm of overlapping lesion of urinary organs
+B4Az.00	Malignant neoplasm of kidney or urinary organs NOS
+B4y..00	Malignant neoplasm of genitourinary organ otherwise specified
+B4z..00	Malignant neoplasm of genitourinary organ NOS
+B5...00	Malignant neoplasm of other and unspecified sites
+B5...11	Carcinoma of other and unspecified sites
+B50..00	Malignant neoplasm of eye
+B500.00	Malignant neoplasm of eyeball excluding conjunctiva, cornea, retina and choroid
+B500000	Malignant neoplasm of ciliary body
+B500100	Malignant neoplasm of iris
+B500200	Malignant neoplasm of crystalline lens
+B500300	Malignant neoplasm of sclera
+B500z00	Malignant neoplasm of eyeball NOS
+B501.00	Malignant neoplasm of orbit
+B501000	Malignant neoplasm of connective tissue of orbit
+B501100	Malignant neoplasm of extraocular muscle of orbit
+B501z00	Malignant neoplasm of orbit NOS
+B502.00	Malignant neoplasm of lacrimal gland
+B503.00	Malignant neoplasm of conjunctiva
+B504.00	Malignant neoplasm of cornea
+B505.00	Malignant neoplasm of retina
+B506.00	Malignant neoplasm of choroid
+B507.00	Malignant neoplasm of lacrimal duct
+B507000	Malignant neoplasm of lacrimal sac
+B507100	Malignant neoplasm of nasolacrimal duct
+B507z00	Malignant neoplasm of lacrimal duct NOS
+B508.00	Malignant neoplasm, overlapping lesion of eye and adnexa
+B509.00	Malignant melanoma of eye
+B50y.00	Malignant neoplasm of other specified site of eye
+B50z.00	Malignant neoplasm of eye NOS
+B51..00	Malignant neoplasm of brain
+B51..11	Cerebral tumour - malignant
+B510.00	Malignant neoplasm of cerebrum (excluding lobes and ventricles)
+B510000	Malignant neoplasm of basal ganglia
+B510100	Malignant neoplasm of cerebral cortex
+B510200	Malignant neoplasm of corpus striatum
+B510300	Malignant neoplasm of globus pallidus
+B510400	Malignant neoplasm of hypothalamus
+B510500	Malignant neoplasm of thalamus
+B510z00	Malignant neoplasm of cerebrum NOS
+B511.00	Malignant neoplasm of frontal lobe
+B512.00	Malignant neoplasm of temporal lobe
+B512000	Malignant neoplasm of hippocampus
+B512100	Malignant neoplasm of uncus
+B512z00	Malignant neoplasm of temporal lobe NOS
+B513.00	Malignant neoplasm of parietal lobe
+B514.00	Malignant neoplasm of occipital lobe
+B515.00	Malignant neoplasm of cerebral ventricles
+B515000	Malignant neoplasm of choroid plexus
+B515100	Malignant neoplasm of floor of cerebral ventricle
+B515z00	Malignant neoplasm of cerebral ventricle NOS
+B516.00	Malignant neoplasm of cerebellum
+B517.00	Malignant neoplasm of brain stem
+B517000	Malignant neoplasm of cerebral peduncle
+B517100	Malignant neoplasm of medulla oblongata
+B517200	Malignant neoplasm of midbrain
+B517300	Malignant neoplasm of pons
+B517z00	Malignant neoplasm of brain stem NOS
+B51y.00	Malignant neoplasm of other parts of brain
+B51y000	Malignant neoplasm of corpus callosum
+B51y100	Malignant neoplasm of tapetum
+B51y200	Malignant neoplasm, overlapping lesion of brain
+B51yz00	Malignant neoplasm of other part of brain NOS
+B51z.00	Malignant neoplasm of brain NOS
+B52..00	Malignant neoplasm of other and unspecified parts of nervous system
+B520.00	Malignant neoplasm of cranial nerves
+B520000	Malignant neoplasm of olfactory bulb
+B520100	Malignant neoplasm of optic nerve
+B520200	Malignant neoplasm of acoustic nerve
+B520z00	Malignant neoplasm of cranial nerves NOS
+B521.00	Malignant neoplasm of cerebral meninges
+B521000	Malignant neoplasm of cerebral dura mater
+B521100	Malignant neoplasm of cerebral arachnoid mater
+B521200	Malignant neoplasm of cerebral pia mater
+B521z00	Malignant neoplasm of cerebral meninges NOS
+B522.00	Malignant neoplasm of spinal cord
+B523.00	Malignant neoplasm of spinal meninges
+B523000	Malignant neoplasm of spinal dura mater
+B523100	Malignant neoplasm of spinal arachnoid mater
+B523200	Malignant neoplasm of spinal pia mater
+B523z00	Malignant neoplasm of spinal meninges NOS
+B524.00	Malignant neoplasm of peripheral nerves and autonomic nervous system
+B524000	Malignant neoplasm of peripheral nerves of head, face and neck
+B524100	Malignant neoplasm of peripheral nerves of upper limb, including shoulder
+B524200	Malignant neoplasm of peripheral nerves of lower limb, including hip
+B524300	Malignant neoplasm of peripheral nerve of thorax
+B524400	Malignant neoplasm of peripheral nerve of abdomen
+B524500	Malignant neoplasm of peripheral nerve of pelvis
+B524600	Malignant neoplasm, overlapping lesion of peripheral nerves and autonomic nervous system
+B524W00	Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified
+B524X00	Malignant neoplasm of peripheral nerves of trunk, unspecified
+B525.00	Malignant neoplasm of cauda equina
+B52W.00	Malignant neoplasm, overlapping lesion of brain and other part of central nervous system
+B52X.00	Malignant neoplasm of meninges, unspecified
+B52y.00	Malignant neoplasm of other specified part of nervous system
+B52z.00	Malignant neoplasm of nervous system NOS
+B53..00	Malignant neoplasm of thyroid gland
+B54..00	Malignant neoplasm of other endocrine glands and related structures
+B540.00	Malignant neoplasm of adrenal gland
+B540.11	Phaeochromocytoma
+B540000	Malignant neoplasm of adrenal cortex
+B540100	Malignant neoplasm of adrenal medulla
+B540z00	Malignant neoplasm of adrenal gland NOS
+B541.00	Malignant neoplasm of parathyroid gland
+B542.00	Malignant neoplasm of pituitary gland and craniopharyngeal duct
+B542000	Malignant neoplasm of pituitary gland
+B542100	Malignant neoplasm of craniopharyngeal duct
+B542z00	Malignant neoplasm of pituitary gland or craniopharyngeal duct NOS
+B543.00	Malignant neoplasm of pineal gland
+B544.00	Malignant neoplasm of carotid body
+B545.00	Malignant neoplasm of aortic body and other paraganglia
+B545000	Malignant neoplasm of glomus jugulare
+B545100	Malignant neoplasm of aortic body
+B545200	Malignant neoplasm of coccygeal body
+B545z00	Malignant neoplasm of aortic body or paraganglia NOS
+B54X.00	Malignant neoplasm - pluriglandular involvement, unspecified
+B54y.00	Malignant neoplasm of other specified endocrine gland
+B54z.00	Malignant neoplasm of endocrine gland or related structure NOS
+B55..00	Malignant neoplasm of other and ill-defined sites
+B550.00	Malignant neoplasm of head, neck and face
+B550000	Malignant neoplasm of head NOS
+B550100	Malignant neoplasm of cheek NOS
+B550200	Malignant neoplasm of nose NOS
+B550300	Malignant neoplasm of jaw NOS
+B550400	Malignant neoplasm of neck NOS
+B550500	Malignant neoplasm of supraclavicular fossa NOS
+B550z00	Malignant neoplasm of head, neck and face NOS
+B551.00	Malignant neoplasm of thorax
+B551000	Malignant neoplasm of axilla NOS
+B551100	Malignant neoplasm of chest wall NOS
+B551200	Malignant neoplasm of intrathoracic site NOS
+B551z00	Malignant neoplasm of thorax NOS
+B552.00	Malignant neoplasm of abdomen
+B553.00	Malignant neoplasm of pelvis
+B553000	Malignant neoplasm of inguinal region NOS
+B553100	Malignant neoplasm of presacral region
+B553200	Malignant neoplasm of sacrococcygeal region
+B553z00	Malignant neoplasm of pelvis NOS
+B554.00	Malignant neoplasm of upper limb NOS
+B555.00	Malignant neoplasm of lower limb NOS
+B55y.00	Malignant neoplasm of other specified sites
+B55y200	Malignant neoplasm of flank NOS
+B55yz00	Malignant neoplasm of specified site NOS
+B55z.00	Malignant neoplasm of other and ill defined site NOS
+B56..00	Secondary and unspecified malignant neoplasm of lymph nodes
+B56..11	Lymph node metastases
+B560.00	Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck
+B560000	Secondary and unspecified malignant neoplasm of superficial parotid lymph nodes
+B560100	Secondary and unspecified malignant neoplasm of mastoid lymph nodes
+B560200	Secondary and unspecified malignant neoplasm of superficial cervical lymph nodes
+B560300	Secondary and unspecified malignant neoplasm of occipital lymph nodes
+B560400	Secondary and unspecified malignant neoplasm of deep parotid lymph nodes
+B560500	Secondary and unspecified malignant neoplasm of submandibular lymph nodes
+B560600	Secondary and unspecified malignant neoplasm of facial lymph nodes
+B560700	Secondary and unspecified malignant neoplasm of submental lymph nodes
+B560800	Secondary and unspecified malignant neoplasm of anterior cervical lymph nodes
+B560900	Secondary and unspecified malignant neoplasm of deep cervical lymph nodes
+B560z00	Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck NOS
+B561.00	Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes
+B561000	Secondary and unspecified malignant neoplasm of internal mammary lymph nodes
+B561100	Secondary and unspecified malignant neoplasm of intercostal lymph nodes
+B561200	Secondary and unspecified malignant neoplasm of diaphragmatic lymph nodes
+B561300	Secondary and unspecified malignant neoplasm of anterior mediastinal lymph nodes
+B561400	Secondary and unspecified malignant neoplasm of posterior mediastinal lymph nodes
+B561500	Secondary and unspecified malignant neoplasm of paratracheal lymph nodes
+B561600	Secondary and unspecified malignant neoplasm of superficial tracheobronchial lymph nodes
+B561700	Secondary and unspecified malignant neoplasm of inferior tracheobronchial lymph nodes
+B561800	Secondary and unspecified malignant neoplasm of bronchopulmonary lymph nodes
+B561900	Secondary and unspec malig neop pulmonary lymph nodes
+B561z00	Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes NOS
+B562.00	Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes
+B562000	Secondary and unspecified malignant neoplasm of coeliac lymph nodes
+B562100	Secondary and unspecified malignant neoplasm of superficial mesenteric lymph nodes
+B562200	Secondary and unspecified malignant neoplasm of inferior mesenteric lymph nodes
+B562300	Secondary and unspecified malignant neoplasm of common iliac lymph nodes
+B562400	Secondary and unspecified malignant neoplasm of external iliac lymph nodes
+B562z00	Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes NOS
+B563.00	Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes
+B563000	Secondary and unspecified malignant neoplasm of axillary lymph nodes
+B563100	Secondary and unspecified malignant neoplasm of supratrochlear lymph nodes
+B563200	Secondary and unspecified malignant neoplasm of infraclavicular lymph nodes
+B563300	Secondary and unspecified malignant neoplasm of pectoral lymph nodes
+B563z00	Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes NOS
+B564.00	Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes
+B564000	Secondary and unspecified malignant neoplasm of superficial inguinal lymph nodes
+B564100	Secondary and unspecified malignant neoplasm of deep inguinal lymph nodes
+B564200	Secondary and unspecified malignant neoplasm of popliteal lymph nodes
+B564z00	Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes NOS
+B565.00	Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes
+B565000	Secondary and unspecified malignant neoplasm of internal iliac lymph nodes
+B565100	Secondary and unspecified malignant neoplasm of inferior epigastric lymph nodes
+B565200	Secondary and unspecified malignant neoplasm of circumflex iliac lymph nodes
+B565300	Secondary and unspecified malignant neoplasm of sacral lymph nodes
+B565400	Secondary and unspecified malignant neoplasm of obturator lymph nodes
+B565z00	Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes NOS
+B56y.00	Secondary and unspecified malignant neoplasm of lymph nodes in multiple sites
+B56z.00	Secondary and unspecified malignant neoplasm of lymph nodes NOS
+B57..00	Secondary malignant neoplasm of respiratory and digestive systems
+B57..11	Metastases of respiratory and/or digestive systems
+B57..1212	Secondary carcinoma of respiratory and/or digestive systems
+B570.00	Secondary malignant neoplasm of lung
+B571.00	Secondary malignant neoplasm of mediastinum
+B572.00	Secondary malignant neoplasm of pleura
+B573.00	Secondary malignant neoplasm of other respiratory organs
+B574.00	Secondary malignant neoplasm of small intestine and duodenum
+B574000	Secondary malignant neoplasm of duodenum
+B574100	Secondary malignant neoplasm of jejunum
+B574200	Secondary malignant neoplasm of ileum
+B574z00	Secondary malignant neoplasm of small intestine or duodenum NOS
+B575.00	Secondary malignant neoplasm of large intestine and rectum
+B575000	Secondary malignant neoplasm of colon
+B575100	Secondary malignant neoplasm of rectum
+B575z00	Secondary malignant neoplasm of large intestine or rectum NOS
+B576.00	Secondary malignant neoplasm of retroperitoneum and peritoneum
+B576000	Secondary malignant neoplasm of retroperitoneum
+B576100	Secondary malignant neoplasm of peritoneum
+B576200	Malignant ascites
+B576z00	Secondary malignant neoplasm of retroperitoneum or peritoneum NOS
+B577.00	Secondary malignant neoplasm of liver
+B577.11	Liver metastases
+B577000	Secondary malignant neoplasm of liver and intrahepatic bile duct
+B57y.00	Secondary malignant neoplasm of other digestive organ
+B57z.00	Secondary malignant neoplasm of respiratory or digestive system NOS
+B58..00	Secondary malignant neoplasm of other specified sites
+B58..11	Secondary carcinoma of other specified sites
+B580.00	Secondary malignant neoplasm of kidney
+B581.00	Secondary malignant neoplasm of other urinary organs
+B581000	Secondary malignant neoplasm of ureter
+B581100	Secondary malignant neoplasm of bladder
+B581200	Secondary malignant neoplasm of urethra
+B581z00	Secondary malignant neoplasm of other urinary organ NOS
+B582.00	Secondary malignant neoplasm of skin
+B582000	Secondary malignant neoplasm of skin of head
+B582100	Secondary malignant neoplasm of skin of face
+B582200	Secondary malignant neoplasm of skin of neck
+B582300	Secondary malignant neoplasm of skin of trunk
+B582400	Secondary malignant neoplasm of skin of shoulder and arm
+B582500	Secondary malignant neoplasm of skin of hip and leg
+B582600	Secondary malignant neoplasm of skin of breast
+B582z00	Secondary malignant neoplasm of skin NOS
+B583.00	Secondary malignant neoplasm of brain and spinal cord
+B583000	Secondary malignant neoplasm of brain
+B583100	Secondary malignant neoplasm of spinal cord
+B583200	Cerebral metastasis
+B583z00	Secondary malignant neoplasm of brain or spinal cord NOS
+B584.00	Secondary malignant neoplasm of other part of nervous system
+B585.00	Secondary malignant neoplasm of bone and bone marrow
+B586.00	Secondary malignant neoplasm of ovary
+B587.00	Secondary malignant neoplasm of adrenal gland
+B58y.00	Secondary malignant neoplasm of other specified sites
+B58y000	Secondary malignant neoplasm of breast
+B58y100	Secondary malignant neoplasm of uterus
+B58y200	Secondary malignant neoplasm of cervix uteri
+B58y211	Secondary cancer of the cervix
+B58y300	Secondary malignant neoplasm of vagina
+B58y400	Secondary malignant neoplasm of vulva
+B58y411	Secondary cancer of the vulva
+B58y500	Secondary malignant neoplasm of prostate
+B58y600	Secondary malignant neoplasm of testis
+B58y700	Secondary malignant neoplasm of penis
+B58y800	Secondary malignant neoplasm of epididymis and vas deferens
+B58y900	Secondary malignant neoplasm of tongue
+B58yz00	Secondary malignant neoplasm of other specified site NOS
+B58z.00	Secondary malignant neoplasm of other specified site NOS
+B59..00	Malignant neoplasm of unspecified site
+B590.00	Disseminated malignancy NOS
+B590.11	Carcinomatosis
+B591.00	Other malignant neoplasm NOS
+B592.00	Malignant neoplasms of independent (primary) multiple sites
+B592X00	Kaposi's sarcoma of multiple organs
+B593.00	Primary malignant neoplasm of unknown site
+B594.00	Secondary malignant neoplasm of unknown site
+B595.00	Malignant tumour of unknown origin
+B59z.00	Malignant neoplasm of unspecified site NOS
+B59zX00	Kaposi's sarcoma, unspecified
+B5y..00	Malignant neoplasm of other and unspecified site otherwise specified
+B5z..00	Malignant neoplasm of other and unspecified site NOS
+B6...00	Malignant neoplasm of lymphatic and haemopoietic tissue
+B6...11	Malignant neoplasm of histiocytic tissue
+B60..00	Lymphosarcoma and reticulosarcoma
+B600.00	Reticulosarcoma
+B600000	Reticulosarcoma of unspecified site
+B600100	Reticulosarcoma of lymph nodes of head, face and neck
+B600200	Reticulosarcoma of intrathoracic lymph nodes
+B600300	Reticulosarcoma of intra-abdominal lymph nodes
+B600400	Reticulosarcoma of lymph nodes of axilla and upper limb
+B600500	Reticulosarcoma of lymph nodes of inguinal region and lower limb
+B600600	Reticulosarcoma of intrapelvic lymph nodes
+B600700	Reticulosarcoma of spleen
+B600800	Reticulosarcoma of lymph nodes of multiple sites
+B600z00	Reticulosarcoma NOS
+B601.00	Lymphosarcoma
+B601000	Lymphosarcoma of unspecified site
+B601100	Lymphosarcoma of lymph nodes of head, face and neck
+B601200	Lymphosarcoma of intrathoracic lymph nodes
+B601300	Lymphosarcoma of intra-abdominal lymph nodes
+B601400	Lymphosarcoma of lymph nodes of axilla and upper limb
+B601500	Lymphosarcoma of lymph nodes of inguinal region and lower limb
+B601600	Lymphosarcoma of intrapelvic lymph nodes
+B601700	Lymphosarcoma of spleen
+B601800	Lymphosarcoma of lymph nodes of multiple sites
+B601z00	Lymphosarcoma NOS
+B602.00	Burkitt's lymphoma
+B602000	Burkitt's lymphoma of unspecified site
+B602100	Burkitt's lymphoma of lymph nodes of head, face and neck
+B602200	Burkitt's lymphoma of intrathoracic lymph nodes
+B602300	Burkitt's lymphoma of intra-abdominal lymph nodes
+B602400	Burkitt's lymphoma of lymph nodes of axilla and upper limb
+B602500	Burkitt's lymphoma of lymph nodes of inguinal region and lower limb
+B602600	Burkitt's lymphoma of intrapelvic lymph nodes
+B602700	Burkitt's lymphoma of spleen
+B602800	Burkitt's lymphoma of lymph nodes of multiple sites
+B602z00	Burkitt's lymphoma NOS
+B60y.00	Other specified reticulosarcoma or lymphosarcoma
+B60z.00	Reticulosarcoma or lymphosarcoma NOS
+B61..00	Hodgkin's disease
+B61..11	Hodgkin lymphoma
+B610.00	Hodgkin's paragranuloma
+B610000	Hodgkin's paragranuloma of unspecified site
+B610100	Hodgkin's paragranuloma of lymph nodes of head, face, and neck
+B610200	Hodgkin's paragranuloma of intrathoracic lymph nodes
+B610300	Hodgkin's paragranuloma of intra-abdominal lymph nodes
+B610400	Hodgkin's paragranuloma of lymph nodes of axilla and upper limb
+B610500	Hodgkin's paragranuloma of lymph nodes of inguinal region and lower limb
+B610600	Hodgkin's paragranuloma of intrapelvic lymph nodes
+B610700	Hodgkin's paragranuloma of spleen
+B610800	Hodgkin's paragranuloma of lymph nodes of multiple sites
+B610z00	Hodgkin's paragranuloma NOS
+B611.00	Hodgkin's granuloma
+B611000	Hodgkin's granuloma of unspecified site
+B611100	Hodgkin's granuloma of lymph nodes of head, face and neck
+B611200	Hodgkin's granuloma of intrathoracic lymph nodes
+B611300	Hodgkin's granuloma of intra-abdominal lymph nodes
+B611400	Hodgkin's granuloma of lymph nodes of axilla and upper limb
+B611500	Hodgkin's granuloma of lymph nodes of inguinal region and lower limb
+B611600	Hodgkin's granuloma of intrapelvic lymph nodes
+B611700	Hodgkin's granuloma of spleen
+B611800	Hodgkin's granuloma of lymph nodes of multiple sites
+B611z00	Hodgkin's granuloma NOS
+B612.00	Hodgkin's sarcoma
+B612000	Hodgkin's sarcoma of unspecified site
+B612100	Hodgkin's sarcoma of lymph nodes of head, face and neck
+B612200	Hodgkin's sarcoma of intrathoracic lymph nodes
+B612300	Hodgkin's sarcoma of intra-abdominal lymph nodes
+B612400	Hodgkin's sarcoma of lymph nodes of axilla and upper limb
+B612500	Hodgkin's sarcoma of lymph nodes of inguinal region and lower limb
+B612600	Hodgkin's sarcoma of intrapelvic lymph nodes
+B612700	Hodgkin's sarcoma of spleen
+B612800	Hodgkin's sarcoma of lymph nodes of multiple sites
+B612z00	Hodgkin's sarcoma NOS
+B613.00	Hodgkin's disease, lymphocytic-histiocytic predominance
+B613.11	Hodgkin lymphoma, lymphocyte-rich
+B613000	Hodgkin's disease, lymphocytic-histiocytic predominance of unspecified site
+B613100	Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of head, face and neck
+B613200	Hodgkin's disease, lymphocytic-histiocytic predominance of intrathoracic lymph nodes
+B613300	Hodgkin's disease, lymphocytic-histiocytic predominance of intra-abdominal lymph nodes
+B613400	Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of axilla and upper limb
+B613500	Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of inguinal region and lower limb
+B613600	Hodgkin's disease, lymphocytic-histiocytic predominance of intrapelvic lymph nodes
+B613700	Hodgkin's, lymphocytic-histiocytic predominance of spleen
+B613800	Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of multiple sites
+B613z00	Hodgkin's, lymphocytic-histiocytic predominance NOS
+B614.00	Hodgkin's disease, nodular sclerosis
+B614000	Hodgkin's disease, nodular sclerosis of unspecified site
+B614100	Hodgkin's disease, nodular sclerosis of lymph nodes of head, face and neck
+B614200	Hodgkin's disease, nodular sclerosis of intrathoracic lymph nodes
+B614300	Hodgkin's disease, nodular sclerosis of intra-abdominal lymph nodes
+B614400	Hodgkin's disease, nodular sclerosis of lymph nodes of axilla and upper limb
+B614500	Hodgkin's disease, nodular sclerosis of lymph nodes of inguinal region and lower limb
+B614600	Hodgkin's disease, nodular sclerosis of intrapelvic lymph nodes
+B614700	Hodgkin's disease, nodular sclerosis of spleen
+B614800	Hodgkin's disease, nodular sclerosis of lymph nodes of multiple sites
+B614z00	Hodgkin's disease, nodular sclerosis NOS
+B615.00	Hodgkin's disease, mixed cellularity
+B615000	Hodgkin's disease, mixed cellularity of unspecified site
+B615100	Hodgkin's disease, mixed cellularity of lymph nodes of head, face and neck
+B615200	Hodgkin's disease, mixed cellularity of intrathoracic lymph nodes
+B615300	Hodgkin's disease, mixed cellularity of intra-abdominal lymph nodes
+B615400	Hodgkin's disease, mixed cellularity of lymph nodes of axilla and upper limb
+B615500	Hodgkin's disease, mixed cellularity of lymph nodes of inguinal region and lower limb
+B615600	Hodgkin's disease, mixed cellularity of intrapelvic lymph nodes
+B615700	Hodgkin's disease, mixed cellularity of spleen
+B615800	Hodgkin's disease, mixed cellularity of lymph nodes of multiple sites
+B615z00	Hodgkin's disease, mixed cellularity NOS
+B616.00	Hodgkin's disease, lymphocytic depletion
+B616000	Hodgkin's lymphocytic depletion of unspecified site
+B616100	Hodgkin's disease, lymphocytic depletion of lymph nodes of head, face and neck
+B616200	Hodgkin's disease, lymphocytic depletion of intrathoracic lymph nodes
+B616300	Hodgkin's disease, lymphocytic depletion of intra-abdominal lymph nodes
+B616400	Hodgkin's disease, lymphocytic depletion of lymph nodes of axilla and upper limb
+B616500	Hodgkin's disease, lymphocytic depletion of lymph nodes of inguinal region and lower limb
+B616600	Hodgkin's disease, lymphocytic depletion of intrapelvic lymph nodes
+B616700	Hodgkin's disease, lymphocytic depletion of spleen
+B616800	Hodgkin's disease, lymphocytic depletion of lymph nodes of multiple sites
+B616z00	Hodgkin's disease, lymphocytic depletion NOS
+B617.00	Nodular lymphocyte predominant Hodgkin lymphoma
+B618.00	Nodular sclerosis classical Hodgkin lymphoma
+B619.00	Mixed cellularity classical Hodgkin lymphoma
+B61A.00	Lymphocyte depleted classical Hodgkin lymphoma
+B61B.00	Lymphocyte-rich classical Hodgkin lymphoma
+B61C.00	Other classical Hodgkin lymphoma
+B61z.00	Hodgkin's disease NOS
+B61z.11	Hodgkin lymphoma NOS
+B61z000	Hodgkin's disease NOS, unspecified site
+B61z100	Hodgkin's disease NOS of lymph nodes of head, face and neck
+B61z200	Hodgkin's disease NOS of intrathoracic lymph nodes
+B61z300	Hodgkin's disease NOS of intra-abdominal lymph nodes
+B61z400	Hodgkin's disease NOS of lymph nodes of axilla and upper limb
+B61z500	Hodgkin's disease NOS of lymph nodes of inguinal region and lower limb
+B61z600	Hodgkin's disease NOS of intrapelvic lymph nodes
+B61z700	Hodgkin's disease NOS of spleen
+B61z800	Hodgkin's disease NOS of lymph nodes of multiple sites
+B61zz00	Hodgkin's disease NOS
+B620.00	Nodular lymphoma (Brill - Symmers disease)
+B620.11	Reticulosarcoma - follicular or nodular
+B620000	Nodular lymphoma of unspecified site
+B620100	Nodular lymphoma of lymph nodes of head, face and neck
+B620200	Nodular lymphoma of intrathoracic lymph nodes
+B620300	Nodular lymphoma of intra-abdominal lymph nodes
+B620400	Nodular lymphoma of lymph nodes of axilla and upper limb
+B620500	Nodular lymphoma of lymph nodes of inguinal region and lower limb
+B620600	Nodular lymphoma of intrapelvic lymph nodes
+B620700	Nodular lymphoma of spleen
+B620800	Nodular lymphoma of lymph nodes of multiple sites
+B620z00	Nodular lymphoma NOS
+B621.00	Mycosis fungoides
+B621000	Mycosis fungoides of unspecified site
+B621100	Mycosis fungoides of the lymph nodes of head, face and neck
+B621200	Mycosis fungoides of intrathoracic lymph nodes
+B621300	Mycosis fungoides of intra-abdominal lymph nodes
+B621400	Mycosis fungoides of lymph nodes of axilla and upper limb
+B621500	Mycosis fungoides of lymph nodes of inguinal region and lower limb
+B621600	Mycosis fungoides of intrapelvic lymph nodes
+B621700	Mycosis fungoides of spleen
+B621800	Mycosis fungoides of lymph nodes of multiple sites
+B621z00	Mycosis fungoides NOS
+B622.00	Sezary's disease
+B622.11	Sezary disease
+B622000	Sezary's disease of unspecified site
+B622100	Sezary's disease of lymph nodes of head, face and neck
+B622200	Sezary's disease of intrathoracic lymph nodes
+B622300	Sezary's disease of intra-abdominal lymph nodes
+B622400	Sezary's disease of lymph nodes of axilla and upper limb
+B622500	Sezary's disease of lymph nodes of inguinal region and lower limb
+B622600	Sezary's disease of intrapelvic lymph nodes
+B622700	Sezary's disease of spleen
+B622800	Sezary's disease of lymph nodes of multiple sites
+B622z00	Sezary's disease NOS
+B623.00	Malignant histiocytosis
+B623000	Malignant histiocytosis of unspecified site
+B623100	Malignant histiocytosis of lymph nodes of head, face and neck
+B623200	Malignant histiocytosis of intrathoracic lymph nodes
+B623300	Malignant histiocytosis of intra-abdominal lymph nodes
+B623400	Malignant histiocytosis of lymph nodes of axilla and upper limb
+B623500	Malignant histiocytosis of lymph nodes of inguinal region and lower limb
+B623600	Malignant histiocytosis of intrapelvic lymph nodes
+B623700	Malignant histiocytosis of spleen
+B623800	Malignant histiocytosis of lymph nodes of multiple sites
+B623z00	Malignant histiocytosis NOS
+B624.00	Leukaemic reticuloendotheliosis
+B624.11	Leukaemic reticuloendotheliosis
+B624.1212	Hairy cell leukaemia
+B624000	Leukaemic reticuloendotheliosis of unspecified sites
+B624100	Leukaemic reticuloendotheliosis of lymph nodes of head, face and neck
+B624200	Leukaemic reticuloendotheliosis of intrathoracic lymph nodes
+B624300	Leukaemic reticuloendotheliosis of intra-abdominal lymph nodes
+B624400	Leukaemic reticuloendotheliosis of lymph nodes of axilla and upper limb
+B624500	Leukaemic reticuloendotheliosis of lymph nodes of inguinal region and lower limb
+B624600	Leukaemic reticuloendotheliosis of intrapelvic lymph nodes
+B624700	Leukaemic reticuloendotheliosis of spleen
+B624800	Leukaemic reticuloendotheliosis of lymph nodes of multiple sites
+B624z00	Leukaemic reticuloendotheliosis NOS
+B625.00	Letterer-Siwe disease
+B625.11	Histiocytosis X (acute, progressive)
+B625000	Letterer-Siwe disease of unspecified sites
+B625100	Letterer-Siwe disease of lymph nodes of head, face and neck
+B625200	Letterer-Siwe disease of intrathoracic lymph nodes
+B625300	Letterer-Siwe disease of intra-abdominal lymph nodes
+B625400	Letterer-Siwe disease of lymph nodes of axilla and upper limb
+B625500	Letterer-Siwe disease of lymph nodes of inguinal region and lower limb
+B625600	Letterer-Siwe disease of intrapelvic lymph nodes
+B625700	Letterer-Siwe disease of spleen
+B625800	Letterer-Siwe disease of lymph nodes of multiple sites
+B625z00	Letterer-Siwe disease NOS
+B626.00	Malignant mast cell tumours
+B626000	Mast cell malignancy of unspecified site
+B626100	Mast cell malignancy of lymph nodes of head, face and neck
+B626200	Mast cell malignancy of intrathoracic lymph nodes
+B626300	Mast cell malignancy of intra-abdominal lymph nodes
+B626400	Mast cell malignancy of lymph nodes of axilla and upper limb
+B626500	Mast cell malignancy of lymph nodes of inguinal region and lower limb
+B626600	Mast cell malignancy of intrapelvic lymph nodes
+B626700	Mast cell malignancy of spleen
+B626800	Mast cell malignancy of lymph nodes of multiple sites
+B626z00	Malignant mast cell tumour NOS
+B627.00	Non - Hodgkin's lymphoma
+B627.11	Non-Hodgkin lymphoma
+B627000	Follicular non-Hodgkin's small cleaved cell lymphoma
+B627100	Follicular non-Hodgkin's mixed small cleaved and large cell lymphoma
+B627200	Follicular non-Hodgkin's large cell lymphoma
+B627300	Diffuse non-Hodgkin's small cell (diffuse) lymphoma
+B627400	Diffuse non-Hodgkin's small cleaved cell (diffuse) lymphoma
+B627500	Diffuse non-Hodgkin's mixed small and large cell (diffuse) lymphoma
+B627600	Diffuse non-Hodgkin's immunoblastic (diffuse) lymphoma
+B627700	Diffuse non-Hodgkin's lymphoblastic (diffuse) lymphoma
+B627800	Diffuse non-Hodgkin's lymphoma undifferentiated (diffuse)
+B627900	Mucosa-associated lymphoma
+B627911	Maltoma
+B627A00	Diffuse non-Hodgkin's large cell lymphoma
+B627B00	Other types of follicular non-Hodgkin's lymphoma
+B627C00	Follicular non-Hodgkin's lymphoma
+B627C11	Follicular lymphoma NOS
+B627D00	Diffuse non-Hodgkin's centroblastic lymphoma
+B627E00	Diffuse large B-cell lymphoma
+B627F00	Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue
+B627G00	Mediastinal (thymic) large B-cell lymphoma
+B627W00	Unspecified B-cell non-Hodgkin's lymphoma
+B627X00	Diffuse non-Hodgkin's lymphoma, unspecified
+B628.00	Follicular lymphoma
+B628000	Follicular lymphoma grade 1
+B628100	Follicular lymphoma grade 2
+B628200	Follicular lymphoma grade 3
+B628300	Follicular lymphoma grade 3a
+B628400	Follicular lymphoma grade 3b
+B628500	Diffuse follicle centre lymphoma
+B628600	Cutaneous follicle centre lymphoma
+B628700	Other types of follicular lymphoma
+B629.00	Multifocal and multisystemic (disseminated) Langerhans-cell histiocytosis
+B62A.00	Sarcoma of dendritic cells
+B62B.00	Multifocal and unisystemic Langerhans-cell histiocytosis
+B62C.00	Unifocal Langerhans-cell histiocytosis
+B62D.00	Histiocytic sarcoma
+B62E.00	T/NK-cell lymphoma
+B62E000	Mature T/NK-cell lymphoma
+B62E100	Anaplastic large cell lymphoma, ALK-positive
+B62E200	Anaplastic large cell lymphoma, ALK-negative
+B62E300	Cutaneous T-cell lymphoma
+B62E400	Extranodal NK/T-cell lymphoma, nasal type
+B62E500	Hepatosplenic T-cell lymphoma
+B62E600	Enteropathy-associated T-cell lymphoma
+B62E611	Enteropathy-type (intestinal) T-cell lymphoma
+B62E700	Subcutaneous panniculitic T-cell lymphoma
+B62E711	Subcutaneous panniculitis-like T-cell lymphoma
+B62E800	Blastic NK-cell lymphoma
+B62E900	Angioimmunoblastic T-cell lymphoma
+B62EA00	Primary cutaneous CD30-positive T-cell proliferations
+B62Ew00	Other mature T/NK-cell lymphoma
+B62F.00	Nonfollicular lymphoma
+B62F.11	Non-follicular lymphoma
+B62F000	Small cell B-cell lymphoma
+B62F100	Mantle cell lymphoma
+B62F200	Lymphoblastic (diffuse) lymphoma
+B62Fy00	Other non-follicular lymphoma
+B62x.00	Malignant lymphoma otherwise specified
+B62x000	T-zone lymphoma
+B62x100	Lymphoepithelioid lymphoma
+B62x200	Peripheral T-cell lymphoma
+B62x300	Malignant reticuloendotheliosis
+B62x400	Malignant reticulosis
+B62x500	Malignant immunoproliferative small intestinal disease
+B62x600	True histiocytic lymphoma
+B62xX00	Other and unspecified peripheral and cutaneous T-cell lymphomas
+B62y.00	Malignant lymphoma NOS
+B62y000	Malignant lymphoma NOS of unspecified site
+B62y100	Malignant lymphoma NOS of lymph nodes of head, face and neck
+B62y200	Malignant lymphoma NOS of intrathoracic lymph nodes
+B62y300	Malignant lymphoma NOS of intra-abdominal lymph nodes
+B62y400	Malignant lymphoma NOS of lymph nodes of axilla and upper limb
+B62y500	Malignant lymphoma NOS of lymph nodes of inguinal region and lower limb
+B62y600	Malignant lymphoma NOS of intrapelvic lymph nodes
+B62y700	Malignant lymphoma NOS of spleen
+B62y800	Malignant lymphoma NOS of lymph nodes of multiple sites
+B62yz00	Malignant lymphoma NOS
+B62z.00	Malignant neoplasms of lymphoid and histiocytic tissue NOS
+B62z000	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of unspecified site
+B62z100	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of lymph nodes of head, face and neck
+B62z200	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of intrathoracic lymph nodes
+B62z300	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of intra-abdominal lymph nodes
+B62z400	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of lymph nodes of axilla and upper limb
+B62z500	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of lymph nodes of inguinal region and lower limb
+B62z600	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of intrapelvic lymph nodes
+B62z700	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of spleen
+B62z800	Unspecified malignant neoplasm of lymphoid and histiocytic tissue of lymph nodes of multiple sites
+B62zz00	Lymphoid and histiocytic malignancy NOS
+B62zz11	Immunoproliferative neoplasm
+B63..00	Multiple myeloma and immunoproliferative neoplasms
+B630.00	Multiple myeloma
+B630.11	Kahler's disease
+B630.1212	Myelomatosis
+B630000	Malignant plasma cell neoplasm, extramedullary plasmacytoma
+B630011	Extramedullary plasmacytoma
+B630100	Solitary myeloma
+B630200	Plasmacytoma NOS
+B630300	Lambda light chain myeloma
+B630400	Solitary plasmacytoma
+B631.00	Plasma cell leukaemia
+B63y.00	Other immunoproliferative neoplasms
+B63z.00	Immunoproliferative neoplasm or myeloma NOS
+B64..00	Lymphoid leukaemia
+B64..11	Lymphatic leukaemia
+B640.00	Acute lymphoid leukaemia
+B640000	B-cell acute lymphoblastic leukaemia
+B640011	Mature B-cell leukaemia Burkitt-type
+B641.00	Chronic lymphoid leukaemia
+B641.11	Chronic lymphatic leukaemia
+B641000	B-cell chronic lymphocytic leukaemia
+B641011	Chronic lymphocytic leukaemia of B-cell type
+B641100	Clinical stage A chronic lymphocytic leukaemia
+B641200	Clinical stage B chronic lymphocytic leukaemia
+B641300	Clinical stage C chronic lymphocytic leukaemia
+B642.00	Subacute lymphoid leukaemia
+B64y.00	Other lymphoid leukaemia
+B64y000	Aleukaemic lymphoid leukaemia
+B64y100	Prolymphocytic leukaemia
+B64y200	Adult T-cell leukaemia
+B64y300	B-cell prolymphocytic leukaemia
+B64y311	Prolymphocytic leukaemia of B-cell type
+B64y400	T-cell prolymphocytic leukaemia
+B64y411	Prolymphocytic leukaemia of T-cell type
+B64y500	Adult T-cell lymphoma/leukaemia (HTLV-1-associated)
+B64yz00	Other lymphoid leukaemia NOS
+B64z.00	Lymphoid leukaemia NOS
+B65..00	Myeloid leukaemia
+B650.00	Acute myeloid leukaemia
+B650000	Acute myeloid leukaemia with 11q23 abnormality
+B650100	Acute myeloid leukaemia with multilineage dysplasia
+B651.00	Chronic myeloid leukaemia
+B651.11	Chronic granulocytic leukaemia
+B651000	Chronic eosinophilic leukaemia
+B651100	Chronic myeloid leukaemia, BCR/ABL positive
+B651200	Chronic neutrophilic leukaemia
+B651300	Atypical chronic myeloid leukaemia, BCR/ABL negative
+B651z00	Chronic myeloid leukaemia NOS
+B652.00	Subacute myeloid leukaemia
+B653.00	Myeloid sarcoma
+B653000	Chloroma
+B653100	Granulocytic sarcoma
+B653z00	Myeloid sarcoma NOS
+B654.00	Acute myeloblastic leukaemia
+B65y.00	Other myeloid leukaemia
+B65y000	Aleukaemic myeloid leukaemia
+B65y100	Acute promyelocytic leukaemia
+B65yz00	Other myeloid leukaemia NOS
+B65z.00	Myeloid leukaemia NOS
+B66..00	Monocytic leukaemia
+B66..11	Histiocytic leukaemia
+B66..1212	Monoblastic leukaemia
+B660.00	Acute monocytic leukaemia
+B661.00	Chronic monocytic leukaemia
+B662.00	Subacute monocytic leukaemia
+B663.00	Acute monoblastic leukaemia
+B66y.00	Other monocytic leukaemia
+B66y000	Aleukaemic monocytic leukaemia
+B66yz00	Other monocytic leukaemia NOS
+B66z.00	Monocytic leukaemia NOS
+B67..00	Other specified leukaemia
+B670.00	Acute erythraemia and erythroleukaemia
+B670.11	Di Guglielmo's disease
+B671.00	Chronic erythraemia
+B671.11	Heilmeyer - Schoner disease
+B672.00	Megakaryocytic leukaemia
+B672.11	Thrombocytic leukaemia
+B673.00	Mast cell leukaemia
+B674.00	Acute panmyelosis
+B675.00	Acute myelofibrosis
+B675.11	Acute panmyelosis with myelofibrosis
+B676.00	Acute erythroid leukaemia
+B67y.00	Other and unspecified leukaemia
+B67y000	Lymphosarcoma cell leukaemia
+B67yz00	Other and unspecified leukaemia NOS
+B67z.00	Other specified leukaemia NOS
+B68..00	Leukaemia of unspecified cell type
+B680.00	Acute leukaemia NOS
+B681.00	Chronic leukaemia NOS
+B682.00	Subacute leukaemia NOS
+B68y.00	Other leukaemia of unspecified cell type
+B68z.00	Leukaemia NOS
+B69..00	Myelomonocytic leukaemia
+B690.00	Acute myelomonocytic leukaemia
+B691.00	Chronic myelomonocytic leukaemia
+B692.00	Subacute myelomonocytic leukaemia
+B693.00	Juvenile myelomonocytic leukaemia
+B6y..00	Malignant neoplasm of lymphatic or haematopoietic tissue otherwise specified
+B6y0.00	Myeloproliferative disorder
+B6y0.11	Myeloproliferative disease
+B6y1.00	Myelosclerosis with myeloid metaplasia
+B6y1.11	Megakaryocytic myelosclerosis
+B6y1.1212	Osteomyelofibrosis
+B6z..00	Malignant neoplasm lymphatic or haematopoietic tissue NOS
+B6z0.00	Kaposi's sarcoma of lymph nodes
+B911000	Malignant hydatidiform mole
+B911011	Choriadenoma (destruens)
+B91101212	Invasive mole - placenta
+B91101313	Choriocarcinoma
+B934.00	Polycythaemia vera
+B934.11	Polycythaemia rubra vera
+B934.1212	Primary polycythaemia
+B936.11	Myeloma - solitary
+B936.1212	Plasmacytoma NOS
+B937.1212	Idiopathic thrombocythaemia
+B937.1313	Megakaryocytic myelosclerosis
+B937.1414	Myelodysplasia
+B937000	Refractory anaemia without sideroblasts, so stated
+B937100	Refractory anaemia with sideroblasts
+B937200	Refractory anaemia with excess of blasts
+B937300	Refractory anaemia with excess of blasts with transformation
+B937400	Essential (haemorrhagic) thrombocythaemia
+B937411	Primary thrombocythaemia
+B937500	Idiopathic thrombocythaemia
+B937600	Refractory anaemia without ring sideroblasts
+B937700	Refractory anaemia with ring sideroblasts
+B937800	Refractory anaemia with multilineage dysplasia
+B937900	5Q minus syndrome
+B937911	Myelodysplastic syndrome with isolated del(5q) chromosomal abnormality
+B937W00	Myelodysplastic syndrome, unspecified
+B937W11	Myelodysplasia
+B937X00	Refractory anaemia, unspecified
+BB02.00	[M]Neoplasm, malignant
+BB5R111	[M]Carcinoid bronchial adenoma
+BBe2.00	[M]Neurofibrosarcoma
+BBL711212	[M]Wilms' tumour
+BBmJ.00	[M] Angioendotheliomatosis
+BBn0.11	[M]Multiple myeloma
+BBr4.00	[M]Erythroleukaemias
+BBr4000	[M]Erythroleukaemia
+BBr4011	[M]Erythraemic myelosis
+BBrA400	[M]Hairy cell leukaemia
+BBrA411	[M]Leukaemic reticuloendotheliosis
+BBrA800	[M]Leukaemic reticuloendotheliosis
+BBv1.00	[M]Angioendotheliomatosis
+BBy1.00	[M]No microscopic confirmation of tumour, clinically malignant
+BBy2.00	[M]No microscopic confirmation of tumour, clinically metastatic
+Byu0.00	[X]Malignant neoplasm of lip, oral cavity and pharynx
+Byu1.00	[X]Malignant neoplasm of digestive organs
+Byu1000	[X]Other sarcomas of the liver
+Byu1100	[X]Other specified carcinomas of liver
+Byu1200	[X]Malignant neoplasm of intestinal tract, part unspecified
+Byu1300	[X]Malignant neoplasm of ill-defined sites within the digestive system
+Byu2000	[X]Malignant neoplasm of bronchus or lung, unspecified
+Byu2100	[X]Malignant neoplasm of overlapping lesion of heart, mediastinum and pleura
+Byu2200	[X]Malignant neoplasm of upper respiratory tract, part unspecified
+Byu2300	[X]Malignant neoplasm of overlapping lesion of respiratory and intrathoracic organs
+Byu2400	[X]Malignant neoplasm of ill-defined sites within the respiratory system
+Byu2500	[X]Malignant neoplasm of mediastinum, part unspecified
+Byu3.00	[X]Malignant neoplasm of bone and articular cartilage
+Byu3000	[X]Malignant neoplasm of overlapping lesion of bone and articular cartilage of limbs
+Byu3100	[X]Malignant neoplasm of bones and articular cartilage of limb, unspecified
+Byu3200	[X]Malignant neoplasm of overlapping lesion of bone and articular cartilage
+Byu3300	[X]Malignant neoplasm of bone and articular cartilage, unspecified
+Byu4000	[X]Malignant melanoma of other and unspecified parts of face
+Byu4100	[X]Malignant melanoma of skin, unspecified
+Byu5000	[X]Mesothelioma of other sites
+Byu5011	[X]Mesothelioma of lung
+Byu5100	[X]Mesothelioma, unspecified
+Byu5200	[X]Kaposi's sarcoma of multiple organs
+Byu5300	[X]Kaposi's sarcoma, unspecified
+Byu5400	[X]Malignant neoplasm of peripheral nerves of trunk, unspecified
+Byu5500	[X]Malignant neoplasm of overlapping lesion of peripheral nerves and autonomic nervous system
+Byu5600	[X]Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified
+Byu5700	[X]Malignant neoplasm of peritoneum, unspecified
+Byu5800	[X]Malignant neoplasm of connective and soft tissue of trunk, unspecified
+Byu5900	[X]Malignant neoplasm of connective and soft tissue, unspecified
+Byu5A00	[X]Malignant neoplasm overlapping lesion of skin
+Byu5B00	[X]Kaposi's sarcoma of other sites
+Byu6.00	[X]Malignant neoplasm of breast
+Byu7.00	[X]Malignant neoplasm of female genital organs
+Byu7000	[X]Malignant neoplasm of uterine adnexa, unspecified
+Byu7100	[X]Malignant neoplasm of other specified female genital organs
+Byu7200	[X]Malignant neoplasm of overlapping lesion of female genital organs
+Byu7300	[X]Malignant neoplasm of female genital organ, unspecified
+Byu8.00	[X]Malignant neoplasm of male genital organs
+Byu8000	[X]Malignant neoplasm of other specified male genital organs
+Byu8100	[X]Malignant neoplasm of overlapping lesion of male genital organs
+Byu8200	[X]Malignant neoplasm of male genital organ, unspecified
+Byu9.00	[X]Malignant neoplasm of urinary tract
+Byu9000	[X]Malignant neoplasm of urinary organ, unspecified
+ByuA.00	[X]Malignant neoplasm of eye, brain and other parts of central nervous system
+ByuA000	[X]Malignant neoplasm of other and unspecified cranial nerves
+ByuA100	[X]Malignant neoplasm of central nervous system, unspecified
+ByuA200	[X]Malignant neoplasm of meninges, unspecified
+ByuA300	[X]Malignant neoplasm, overlapping lesion of brain and other part of central nervous system
+ByuB.00	[X]Malignant neoplasm of thyroid and other endocrine glands
+ByuB000	[X]Malignant neoplasm - pluriglandular involvement, unspecified
+ByuB100	[X]Malignant neoplasm of endocrine gland, unspecified
+ByuC.00	[X]Malignant neoplasm of ill-defined, secondary and unspecified sites
+ByuC000	[X]Malignant neoplasm of other specified sites
+ByuC100	[X]Malignant neoplasm of overlapping lesion of other and ill-defined sites
+ByuC200	[X]Secondary and unspecified malignant neoplasm lymph nodes of multiple regions
+ByuC300	[X]Secondary malignant neoplasm of other and unspecified respiratory organs
+ByuC400	[X]Secondary malignant neoplasm of other and unspecified digestive organs
+ByuC500	[X]Secondary malignant neoplasm of bladder and other and unspecified urinary organs
+ByuC600	[X]Secondary malignant neoplasm of other and unspecified parts of nervous system
+ByuC700	[X]Secondary malignant neoplasm of other specified sites
+ByuC800	[X]Malignant neoplasm without specification of site
+ByuD.00	[X]Malignant neoplasms of lymphoid, haematopoietic and related tissue
+ByuD000	[X]Other Hodgkin's disease
+ByuD100	[X]Other types of follicular non-Hodgkin's lymphoma
+ByuD200	[X]Other types of diffuse non-Hodgkin's lymphoma
+ByuD300	[X]Other specified types of non-Hodgkin's lymphoma
+ByuD400	[X]Other malignant immunoproliferative diseases
+ByuD500	[X]Other lymphoid leukaemia
+ByuD600	[X]Other myeloid leukaemia
+ByuD700	[X]Other monocytic leukaemia
+ByuD800	[X]Other specified leukaemias
+ByuD900	[X]Other leukaemia of unspecified cell type
+ByuDA00	[X]Other specified malignant neoplasms of lymphoid, haematopoietic and related tissue
+ByuDB00	[X]Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+ByuDC00	[X]Diffuse non-Hodgkin's lymphoma, unspecified
+ByuDD00	[X]Other and unspecified peripheral and cutaneous T-cell lymphomas
+ByuDE00	[X]Unspecified B-cell non-Hodgkin's lymphoma
+ByuDF00	[X]Non-Hodgkin's lymphoma, unspecified type
+ByuDF11	[X]Non-Hodgkin's lymphoma NOS
+ByuE.00	[X]Malignant neoplasms of independent (primary) multiple sites
+ByuE000	[X]Malignant neoplasms of independent (primary) multiple sites
+ByuH600	[X]Neoplasm of uncertain and unknown behaviour of other myelodysplastic syndromes
+ByuHC00	[X]Refractory anaemia, unspecified
+ByuHD00	[X]Myelodysplastic syndrome, unspecified
+1429.00	H/O: * leukaemia
+9Ow1.00	Bowel cancer detected by national screening programme
+C184.00	Multiple endocrine neoplasia syndrome type 1
+C1z2.00	Carcinoid syndrome
+C333000	Waldenstrom's macroglobulinaemia
+C333100	Alpha heavy chain disease
+C333200	Gamma heavy chain disease
+C333300	Heavy chain disease
+C37y000	Hand - Schuller - Christian disease
+C37y100	Eosinophilic granuloma
+C37y500	Histiocytosis X , chronic
+C37y600	Histiocytosis X , unspecified
+C37y700	Histiocytosis, unspecified
+C37yB00	Langerhans' cell histiocytosis
+C37yD00	Tumour lysis syndrome
+D213.00	Refractory Anaemia
+D3y0.00	Essential thrombocytosis
+G753.00	Lethal midline granuloma
+K551000	Anaplasia of cervix
+M162800	Lymphomatoid papulosis
+M21y900	Poikiloderma vasculare atrophicans
+ZV10600	[V]Personal history of leukaemia
+ZVu6G00	[X]Personal history of other malignant neoplasms of lymphoid, haematopoietic and related tissues
