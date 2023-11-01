@@ -22,13 +22,16 @@
 413606001	Average home systolic blood pressure
 716579001	Baseline systolic blood pressure
 198081000000101	Ambulatory systolic blood pressure
-814101000000107	Systolic blood pressure centile
 1036551000000101	Non-invasive central systolic blood pressure
-1087991000000109	Level of reduction in systolic blood pressure on standing (observable entity)
-12929001	Normal systolic arterial pressure (finding)
-18050000	Increased systolic arterial pressure (finding)
-18352002	Abnormal systolic arterial pressure (finding)
-81010002	Decreased systolic arterial pressure (finding)
 163030003	On examination - Systolic blood pressure reading
-707303003	Post exercise systolic blood pressure response abnormal
-707304009	Post exercise systolic blood pressure response normal (finding)
+213041000000101	Ambulatory systolic blood pressure
+79401000000106	Standing systolic blood pressure
+945881000000109	Baseline systolic blood pressure
+95301000000105	Lying systolic blood pressure
+100151000000109	Sitting systolic blood pressure
+100171000000100	Lying systolic blood pressure
+1162737008	Self reported systolic blood pressure (observable entity)
+213031000000105	Ambulatory systolic blood pressure
+75131000000106	Standing systolic blood pressure
+945871000000107	Baseline systolic blood pressure (observable entity)
+95281000000109	Sitting systolic blood pressure
