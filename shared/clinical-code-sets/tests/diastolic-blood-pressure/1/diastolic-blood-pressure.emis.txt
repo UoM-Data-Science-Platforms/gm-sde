@@ -1,2 +1,24 @@
 EMISNQDI86	Diastolic blood pressure - left arm
 EMISNQDI87	Diastolic blood pressure - right arm
+^ESCT1192438	O/E - Diastolic BP reading
+^ESCT24604632	24 hour diastolic blood pressure
+^ESCTAM805799	Ambulatory diastolic BP (blood pressure)
+^ESCTDA552722	DAP - Diastolic arterial pressure
+^ESCTDB552723	DBP - Diastolic blood pressure
+^ESCTDI552721	Diastolic blood pressure
+^ESCTDI552724	Diastolic arterial pressure
+^ESCTDI732123	Diastolic blood pressure on admission
+^ESCTIN529508	Invasive diastolic arterial pressure
+^ESCTIN529509	Invasive diastolic blood pressure
+^ESCTMA604619	Maximum diastolic blood pressure
+^ESCTMA604624	Maximum night interval diastolic blood pressure
+^ESCTMA604625	Maximum day interval diastolic blood pressure
+^ESCTMA604626	Maximum 24 hour diastolic blood pressure
+^ESCTMI604618	Minimum diastolic blood pressure
+^ESCTMI604621	Minimum day interval diastolic blood pressure
+^ESCTMI604622	Minimum night interval diastolic blood pressure
+^ESCTMI604623	Minimum 24 hour diastolic blood pressure
+^ESCTNO466071	Non-invasive diastolic arterial pressure
+^ESCTNO466072	Non-invasive diastolic blood pressure
+^ESCTON455662	On examination - Diastolic blood pressure reading
+^ESCTON455663	On examination - Diastolic BP reading
