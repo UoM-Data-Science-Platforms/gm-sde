@@ -33,25 +33,241 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Find the first prescription of a medication
+- Gets a patient's height
+- Find the most recent value for a given code
+- GET practice and ccg for each patient
+- CCG lookup table
+- Index Multiple Deprivation
+- Year of birth
+- Sex
 - Define Cohort for Gendius project: patients with T2D but no CKD
 - Find the first diagnosis of a particular disease
 
 Further details for each query can be found below.
 
-### Define Cohort for Gendius project: patients with T2D but no CKD
-To build the cohort of patients needed for the Gendius project. This reduces duplication of code in the template scripts.
+### Find the first prescription of a medication
+To find the first prescription of a particular medication for each patient
 
 _Input_
 ```
-A single variable:
-  - index-date: date - (YYYY-MM-DD) the date of the extract
+A variable:
+  -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+  - gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "SharedCare.GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, MedicationDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - temp-table-name: string - the name of the temp table that this will produce
 ```
 
 _Output_
 ```
-TODO A temp table as follows:
- #Cohort (FK_Patient_Link_ID)
- #PatientEventData
+Temp table `temp-table-name`
+	- FK_Patient_Link_ID - unique patient id
+	- FirstPrescriptionDate - date (YYYY-MM-DD) date of first prescription
+```
+_File_: `query-get-first-prescription.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-first-prescription.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-first-prescription.sql)
+
+---
+### Gets a patient's height
+Gets the most recent measurement of a person's height
+
+_Input_
+```
+A variable:
+  -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+  - gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Temp tables as follows:
+ #PatientHeight - two column table linking patient link id with the most recent height value
+```
+_File_: `query-get-height.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-height.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-height.sql)
+
+---
+### Find the most recent value for a given code
+For a given code set, find the most recent value
+
+_Input_
+```
+A variable:
+  - min-value: number - the smallest permitted value. Values lower than this will be disregarded.
+  - max-value: number - the largest permitted value. Values higher than this will be disregarded.
+  - unit: string - if a particular unit is required can enter it here. If any then use '%'
+  -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+  - gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  - code-set: string - the name of the code set to be used. Must be one from the repository.
+  - version: number - the code set version
+  - max-or-min: string (max/min) if two or more values on the same day should we choose the max or min
+  - temp-table-name: string - the name of the temp table that this will produce
+```
+
+_Output_
+```
+Temp tables as follows:
+ {temp-table-name} - two column table linking patient link id with the most recent value
+```
+_File_: `query-get-most-recent-value.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-most-recent-value.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-most-recent-value.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
+### Index Multiple Deprivation
+To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+```
+_File_: `query-patient-imd.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### Year of birth
+To get the year of birth for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+- If every YOB for a patient is the same, then we use that
+- If there is a single most recently updated YOB in the database then we use that
+- Otherwise we take the highest YOB for the patient that is not in the future
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
+### Sex
+To get the Sex for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+- If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+- If every sex for a patient is the same, then we use that
+- If there is a single most recently updated sex in the database then we use that
+- Otherwise the patient's sex is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSex (FK_Patient_Link_ID, Sex)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+```
+_File_: `query-patient-sex.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### Define Cohort for Gendius project: patients with T2D but no CKD
+To build the cohort of patients needed for the Gendius project. This reduces duplication of code in the template scripts.  Index date = 2.5 years prior to extraction date. Adults who (1) have a type 2 diabetes diagnosis before the date of extraction, (2) were registered with a GP in GM between the index and extraction date, (3) at the index date: - are alive,and - do not have a diagnosis of CKD stage 3-5.
+
+_Input_
+```
+A single variable:
+  - extraction-date: date - (YYYY-MM-DD) the date of the extract
+```
+
+_Output_
+```
+Four temp tables:
+  - #Patients - list of all patients in the cohort
+  -   - FK_Patient_Link_ID - int
+  - #Cohort - table with each patient in the cohort and dx details
+  -   - FK_Patient_Link_ID - int
+  -   - FirstT2dDiagnosisYear - int
+  -   - FirstT2dDiagnosisMonth  - int
+  -   - FirstCkdDiagnosisYear - int
+  -   - FirstCkdDiagnosisMonth - int
+  -   - DeathDate - date (YYYY-MM-DD)
+  - #PatientEventData - table with all GP_Event codes for cohort
+  - #PatientMedicationDate - table with all GP_Medication codes for cohort
 ```
 _File_: `query-build-industry-001-cohort.sql`
 
@@ -84,8 +300,22 @@ _Link_: [https://github.com/rw251/.../query-get-first-diagnosis.sql](https://git
 This project required the following clinical code sets:
 
 - diabetes-type-ii v1
-- chronic-kidney-disease v1
-- hypertension v1
+- ckd-stage-3 v1
+- ckd-stage-4 v1
+- ckd-stage-5 v1
+- height v1
+- ace-inhibitor v2
+- angiotensin-receptor-blockers v1
+- sglt2-inhibitors v1
+- heart-failure v1
+- cancer v3
+- egfr v1
+- urinary-albumin-creatinine-ratio v1
+- creatinine v1
+- bmi v2
+- weight v1
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
 
 Further details for each code set can be found below.
 
@@ -112,43 +342,382 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
 
-### Chronic kidney disease (CKD) diagnosis codes
+### Chronic kidney disease (CKD) stage 3
 
-Developed from https://getset.ga.
-This list only includes CKD diagnosis codes (`XaNbn. - Chronic kidney disease stage 3ASerum cholesterol raised`), rather than codes which indicate that a patient might have CKD (`9Ni9.00 - Did not attend chronic kidney disease monitoring clinic`).
+Codes showing a diagnosis of stage 3 CKD.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.18% - 4.30%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.9% - 3.2%` for EMIS and Vision suggests that this code set is well defined. TPP practices are a bit higher at `4.3%` which may be down to the way CKD is recorded there.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |  85992 (3.23%)   |   84567 (3.18%)   |
-| 2022-04-06 | TPP             | 212647     |   9146 (4.30%)   |    9143 (4.30%)   |
-| 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
-LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
+| 2023-10-31 | EMIS            | 2472595    |    72486 (2.93%) |     72556 (2.93%) |
+| 2023-10-31 | TPP             | 200603     |      8619 (4.3%) |       8619 (4.3%) |
+| 2023-10-31 | Vision          | 332447     |    10540 (3.17%) |     10551 (3.17%) |
+#### Audit log
 
-### Hypertension
+- Find_missing_codes last run 2023-10-31
 
-Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-3/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-3/1)
 
-Developed from https://getset.ga.
+### Chronic kidney disease (CKD) stage 4 codes
+
+Codes showing a diagnosis of stage 4 CKD.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.55% - 12.95%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.21% - 0.22%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-14 | EMIS            | 2615750    |  328350 (12.55%) |  328339 ( 12.55%) |
-| 2021-07-14 | TPP             | 211345     |   27363 (12.95%) |   27362 ( 12.95%) |
-| 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
-| 2023-09-12 | EMIS            | 2463856    |   348882 (14.2%) |    348930 (14.2%) |
-| 2023-09-12 | TPP             | 200590     |    33584 (16.7%) |     31906 (15.9%) |
-| 2023-09-12 | Vision          | 332095     |    45338 (13.7%) |     45277 (13.6%) |
-| 2023-09-15 | EMIS            | 2463856    |   350029 (14.2%) |    350075 (14.2%) |
-| 2023-09-15 | TPP             | 200590     |    33643 (16.8%) |     31967 (15.9%) |
-| 2023-09-15 | Vision          | 332095     |    45529 (13.7%) |     45467 (13.7%) |
+| 2023-10-31 | EMIS            | 2472595    |    5456 (0.221%) |     5465 (0.221%) |
+| 2023-10-31 | TPP             | 200603     |     444 (0.221%) |      444 (0.221%) |
+| 2023-10-31 | Vision          | 332447     |     682 (0.205%) |      682 (0.205%) |
+#### Audit log
 
-LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
+- Find_missing_codes last run 2023-10-31
+
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-4/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-4/1)
+
+### Chronic kidney disease (CKD) stage 5
+
+Codes showing a diagnosis of stage 5 CKD. Also includes codes for "end stage renal failure".
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.075% - 0.085%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-10-31 | EMIS            | 2472595    |   2099 (0.0849%) |     2101 (0.085%) |
+| 2023-10-31 | TPP             | 200603     |    151 (0.0753%) |     151 (0.0753%) |
+| 2023-10-31 | Vision          | 332447     |    247 (0.0743%) |     248 (0.0746%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-31
+
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
+
+### Height
+
+A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
+
+Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
+
+_Update **2023/10/26**: prevalence now `71.5% - 74.6%`_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
+| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
+| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
+| 2023-10-26 | EMIS            | 2472595    |  1808301 (73.1%) |   1808353 (73.1%) |
+| 2023-10-26 | TPP             | 200603     |   149581 (74.6%) |    149584 (74.6%) |
+| 2023-10-26 | Vision          | 332447     |   237730 (71.5%) |    237732 (71.5%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-26
+
+LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
+
+### ACE Inhibitors
+
+Any code for a prescription of an ACE Inhibitor.
+
+**_NB This does not include ARBs. Please use v1 of this code set for a combined ACEI/ARB code set_**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `11.00% - 11.82%` suggests that this code set is well defined.
+
+_Update **2023-10-27**: Prevalence now 11% in both EMIS and Vision practices, with TPP slightly higher at 13.8%, possibly reflecting a population with higher prevalence_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |  289565 (11.04%) |   289582 (11.04%) |
+| 2021-08-26 | TPP             | 211610     |   25005 (11.82%) |    25005 (11.82%) |
+| 2021-08-26 | Vision          | 337028     |   37078 (11.00%) |    37078 (11.00%) |
+| 2023-10-27 | EMIS            | 2472595    |   269910 (10.9%) |    269944 (10.9%) |
+| 2023-10-27 | TPP             | 200603     |    27698 (13.8%) |     27702 (13.8%) |
+| 2023-10-27 | Vision          | 332447     |      36458 (11%) |       36461 (11%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-27
+
+LINK: [https://github.com/rw251/.../medications/ace-inhibitor/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/2)
+
+### Angiotensin receptor blockers (ARBs)
+
+Any code for a prescription of an angiotensin receptor blocker (ARB).
+
+**_NB This does not include ACEIs. Please use v1 of the ACEI code set for a combined ACEI/ARB code set_**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.43% - 4.80%` suggests that this code set is well defined.
+
+_Update **2023-10-27**: Prevalence remains at 4.4% and 4.5% in Vision and EMIS practices respectively. Prevalence in TPP practices slightly higher at 5.5%, possibly reflecting a population with higher prevalence_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |   117732 (4.49%) |    117727 (4.49%) |
+| 2021-08-26 | TPP             | 211610     |    10150 (4.80%) |     10150 (4.80%) |
+| 2021-08-26 | Vision          | 337028     |    14934 (4.43%) |     14934 (4.43%) |
+| 2023-10-27 | EMIS            | 2472595    |   111566 (4.51%) |    111587 (4.51%) |
+| 2023-10-27 | TPP             | 200603     |    11113 (5.54%) |     11116 (5.54%) |
+| 2023-10-27 | Vision          | 332447     |    14726 (4.43%) |     14727 (4.43%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-27
+
+LINK: [https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1)
+
+### SGLT2 inhibitors (gliflozins)
+
+Any prescription of a SGLT2 inhibitor (gliflozin).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
+
+_Update **2023-10-27**: Prevalence is now in the range `2.07% - 2.19%` which suggests this code set is now more consistent._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    32817 (1.25%) |     32817 (1.25%) |
+| 2021-08-26 | TPP             | 211610     |     1899 (0.90%) |      1899 (0.90%) |
+| 2021-08-26 | Vision          | 337028     |     4211 (1.25%) |      4211 (1.25%) |
+| 2023-10-27 | EMIS            | 2472595    |    51233 (2.07%) |     51239 (2.07%) |
+| 2023-10-27 | TPP             | 200603     |     4387 (2.19%) |      4387 (2.19%) |
+| 2023-10-27 | Vision          | 332447     |     6960 (2.09%) |      6961 (2.09%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-27
+
+LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
+
+### Heart failure
+
+Any code indicating a diagnosis, or presence of heart failure. Does not include "History of" heart failure codes.
+
+- Excludes "Cor pulmonale" as although this usually leads to heart failure, but is not heart failure.
+- Also does not include "Chronic pulmonary heart disease" or "pulmonary oedema". Both of which can lead to heart failure but are not heart failure.
+#### Notes
+
+The code `G581.` (read v2 and CTV3) includes "Left ventricular failure" and "Pulmonary oedema - acute" as synonyms for CTV3 but not read v2. These are not synonyms and we want the former but not the latter. Given the read v2 code is just "left ventricular failure" we include this code, but it is possible we match some patients with only a pulmonary oedema.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.92% - 1.15%` is sufficiently narrow that this code set is likely well defined.
+
+_Update **2023-10-27**: Prevalence now 1.03% - 1.26%. TPP still with slightly higher prevalence, but sufficiently close to EMIS and Vision._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-11 | EMIS            | 2600658    |    23923 (0.92%) |     23923 (0.92%) |
+| 2021-03-11 | TPP             | 210333     |     2415 (1.15%) |      2416 (1.15%) |
+| 2021-03-11 | Vision          | 333251     |     3157 (0.95%) |      3157 (0.95%) |
+| 2023-10-31 | EMIS            | 2472595    |    25714 (1.04%) |     25591 (1.03%) |
+| 2023-10-31 | TPP             | 200603     |     2515 (1.25%) |      2519 (1.26%) |
+| 2023-10-31 | Vision          | 332447     |     3552 (1.07%) |      3538 (1.06%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-31
+
+LINK: [https://github.com/rw251/.../conditions/heart-failure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/heart-failure/1)
+
+### Cancer
+
+This version of the code set is based on the PCD ref set for cancer QOF reporting.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.28% - 3.46%` for EMIS and Vision suggests that this code set is well defined. TPP practices are a bit higher at `3.83%` which may be down to the way cancer is recorded there, or a higher prevalence in those practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-10-31 | EMIS            | 2472595    |    81360 (3.29%) |     81210 (3.28%) |
+| 2023-10-31 | TPP             | 200603     |     7909 (3.94%) |      7674 (3.83%) |
+| 2023-10-31 | Vision          | 332447     |    11410 (3.43%) |     11506 (3.46%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-10-31
+
+LINK: [https://github.com/rw251/.../conditions/cancer/3](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/3)
+
+### Glomerular filtration rate (GFR)
+
+Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `54.1% - 55.3%` for EMIS and VISION. TPP higher at 66.5%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
+| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
+| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
+| 2023-11-01 | EMIS            | 2472595    |  1336794 (54.1%) |   1336942 (54.1%) |
+| 2023-11-01 | TPP             | 200603     |   133383 (66.5%) |    133388 (66.5%) |
+| 2023-11-01 | Vision          | 332447     |   183868 (55.3%) |    183888 (55.3%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
+
+### Urinary Albmin Creatinine Ratio
+
+A patient's urinary albumin creatinine ratio as recorded via clinical code and value. This code set only includes codes that are accompanied by a value. It does not include codes that indicate a patient's ratio without giving the actual value. Also includes codes that don't mention urine, and also microalbumin creatine ratio which is the same thing (units are mg/g).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.91% - 14.61%` is possibly not sufficiently narrow to guarantee that this code set is well defined.
+
+_Update **2023/11/01**: prevalence now `11%-12%` for EMIS and VISION. TPP higher at 18.4%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-28 | EMIS            | 2658708    |  329218 (12.38%) |   329218 (12.38%) |
+| 2022-03-28 | TPP             | 212645     |   31083 (14.61%) |    31083 (14.61%) |
+| 2022-03-28 | Vision          | 341667     |   37285 (10.91%) |    37285 (10.91%) |
+| 2023-11-01 | EMIS            | 2472595    |     297473 (12%) |      297819 (12%) |
+| 2023-11-01 | TPP             | 200603     |    36996 (18.4%) |     37009 (18.4%) |
+| 2023-11-01 | Vision          | 332447     |    35211 (10.6%) |     35247 (10.6%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1)
+
+### Creatinine (level)
+
+A patient's creatinine level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44J3.00 - Serum creatinine`). It does not include codes that indicate a patient's creatinine (`44J3300 - Serum creatinine raised') without giving the actual value.
+
+Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `59% - 61%` for EMIS and VISION. TPP higher at 67%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1518402 (57.74%) |  1518402 (57.74%) |
+| 2021-10-13 | TPP             | 211812     |  125622 (59.31%) |   125622 (59.31%) |
+| 2021-10-13 | Vision          | 338205     |  207191 (61.26%) |   207191 (61.26%) |
+| 2023-11-01 | EMIS            | 2472595    |  1453342 (58.8%) |   1453495 (58.8%) |
+| 2023-11-01 | TPP             | 200603     |   134652 (67.1%) |    134654 (67.1%) |
+| 2023-11-01 | Vision          | 332447     |     202923 (61%) |      202947 (61%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/creatinine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1)
+
+### Body Mass Index (BMI)
+
+A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+
+**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
+
+_Update **2023/11/01**: prevalence now `61.2% - 65.7%` for EMIS and VISION. TPP higher at 73%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
+| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
+| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
+| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
+| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
+| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+| 2023-11-01 | EMIS            | 2472595    |  1624196 (65.7%) |   1624289 (65.7%) |
+| 2023-11-01 | TPP             | 200603     |     146449 (73%) |      146448 (73%) |
+| 2023-11-01 | Vision          | 332447     |   203333 (61.2%) |    203347 (61.2%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
+
+### Weight
+
+A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.
+
+Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `73.09% - 79.68%` suggests that this code set is well defined.
+
+_Update **2023/11/01**: prevalence now `78.9% - 82.9%`_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 2054449 (78.12%) |  2053717 (78.09%) |
+| 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
+| 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
+| 2023-11-01 | EMIS            | 2472595    |  1972703 (79.8%) |   1972747 (79.8%) |
+| 2023-11-01 | TPP             | 200603     |   166253 (82.9%) |    166253 (82.9%) |
+| 2023-11-01 | Vision          | 332447     |   262280 (78.9%) |    262280 (78.9%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
+
+### Systolic Blood pressure
+
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `64.7% - 65.4%` for EMIS and VISION. TPP higher at 71.6%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+| 2023-11-01 | EMIS            | 2472595    |  1616315 (65.4%) |   1616514 (65.4%) |
+| 2023-11-01 | TPP             | 200603     |   143575 (71.6%) |    143581 (71.6%) |
+| 2023-11-01 | Vision          | 332447     |   215223 (64.7%) |    215244 (64.7%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
+
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `64.8% - 65.4%` for EMIS and VISION. TPP higher at 71.6%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+| 2023-11-01 | EMIS            | 2472595    |  1617373 (65.4%) |   1617566 (65.4%) |
+| 2023-11-01 | TPP             | 200603     |   143567 (71.6%) |    143576 (71.6%) |
+| 2023-11-01 | Vision          | 332447     |   215402 (64.8%) |    215424 (64.8%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../Industry - 001 - Gendius/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/Industry%20-%20001%20-%20Gendius/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

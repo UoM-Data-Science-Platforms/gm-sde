@@ -26,7 +26,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET skin-cancer:1
+--> CODESET cancer:3
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
