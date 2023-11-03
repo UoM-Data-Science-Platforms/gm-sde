@@ -1,2 +1,3 @@
 22A..	O/E - weight
 22AZ.	O/E - weight NOS
+X76C7	Body weight - observation

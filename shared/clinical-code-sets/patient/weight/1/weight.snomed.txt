@@ -10,3 +10,4 @@
 425024002	Body weight without shoes
 735395000	Current body weight
 784399000	Self reported body weight
+55491000237100	Patient weight (observable entity)
