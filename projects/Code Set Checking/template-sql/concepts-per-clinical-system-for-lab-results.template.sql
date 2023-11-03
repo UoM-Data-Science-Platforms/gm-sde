@@ -17,7 +17,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 creatinine:1 bmi:2 weight:1 systolic-blood-pressure:1 diastolic-blood-pressure:1
+--> CODESET insert-concepts-here:version-number
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
