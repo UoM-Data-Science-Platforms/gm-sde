@@ -17,7 +17,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET insert-concepts-here:version-number
+--> CODESET insert-concept-here:1
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
