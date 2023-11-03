@@ -1,6 +1,464 @@
 X78QS	Non-small cell lung cancer
 Xa0KG	Lung cancer
-1J00.	Suspected lung cancer
 X78QN	SCLC - Small cell lung cancer
-XaMeH	Fast track referral for suspected lung cancer
-XaPyc	Seen in fast track suspected lung cancer clinic
+B22..	Malignant neoplasm of trachea, bronchus and lung
+B220.	Malignant tumour of trachea
+B2200	Malignant neoplasm of cartilage of trachea
+B2201	Malignant neoplasm of mucosa of trachea
+B220z	Malignant neoplasm of trachea NOS
+B221.	Malignant neoplasm of main bronchus
+B2210	Malignant neoplasm of carina of bronchus
+B2211	Malignant neoplasm of hilus of lung
+B221z	Malignant neoplasm of main bronchus NOS
+B222.	Malig neopl of upper lobe/bronchus/lung: (& [Pancoast synd])
+B2220	Malignant neoplasm of upper lobe bronchus
+B2221	Malignant neoplasm of upper lobe of lung
+B222z	Malignant neoplasm of upper lobe, bronchus or lung NOS
+B223.	Malignant neoplasm of middle lobe, bronchus or lung
+B2230	Malignant neoplasm of middle lobe bronchus
+B2231	Malignant neoplasm of middle lobe of lung
+B223z	Malignant neoplasm of middle lobe, bronchus or lung NOS
+B224.	Malignant neoplasm of lower lobe, bronchus or lung
+B2240	Malignant neoplasm of lower lobe bronchus
+B2241	Malignant neoplasm of lower lobe of lung
+B224z	Malignant neoplasm of lower lobe, bronchus or lung NOS
+B225.	Malignant neoplasm of overlapping lesion of bronchus & lung
+B22y.	Malignant neoplasm of other sites of bronchus or lung
+B22z.	Malig neopl lung: [of bronchus or lung NOS] or [lung cancer]
+B23..	Malignant tumour of pleura
+B230.	Malignant neoplasm of parietal pleura
+B231.	Malignant neoplasm of visceral pleura
+B232.	Malignant mesothelioma of pleura
+B23y.	Malignant neoplasm of other specified pleura
+B23z.	Malignant neoplasm of pleura NOS
+B2zy.	Malignant neoplasm of other site of respiratory tract
+B2zz.	Malignant neoplasm of respiratory tract NOS
+BB1K.	Oat cell carcinoma
+BB1L.	Small cell carcinoma - fusiform cell
+BB5S2	[M]Bronchiolo-alveolar adenocarcinoma
+BB5S4	Alveolar adenocarcinoma
+Byu20	[X]Malignant neoplasm of bronchus or lung, unspecified
+Byu5.	[X]Malignant neoplasm of mesothelial and soft tissue
+Byu50	(Mesothelioma of lung) or ([X]mesothelioma of other sites)
+Byu51	[X]Mesothelioma, unspecified
+X2032	Pulmonary tumour embolism
+X77mv	Small cell carcinoma - intermediate cell
+X77mw	Small cell - large cell carcinoma
+X77nT	Carcinoid bronchial adenoma
+X77oo	Pulmonary blastoma
+X78Q1	Adenoid cystic carcinoma of trachea
+X78Q2	Squamous cell carcinoma of trachea
+X78Q7	Malignant tumour of bronchus
+X78Q8	Squamous cell carcinoma of bronchus
+X78Qc	Malignant mesothelioma of pleura
+X78QF	Malignant tumour of lung parenchyma
+X78QG	Adenocarcinoma of lung
+X78QI	Carcinoid tumour of lung
+X78QJ	Carcinoma of lung parenchyma
+X78QK	Large cell carcinoma of lung
+X78QL	Clear cell carcinoma of lung
+X78QM	Giant cell carcinoma of lung
+X78QN	Small cell carcinoma of lung
+X78QO	Oat cell carcinoma of lung
+X78QP	Squamous cell carcinoma of lung
+X78QQ	Epithelioid haemangioendothelioma of lung
+X78QR	Lymphomatoid granulomatosis of lung
+X78QS	Non-small cell lung cancer
+X78QT	Pancoast tumour
+Xa0bg	Pancoast's syndrome
+Xa0KG	Malignant tumour of lung
+XaBAp	Bronchioloalveolar adenocarcinoma of lung
+XaEJe	Squamous cell carcinoma of bronchus in left lower lobe
+XaEJf	Squamous cell carcinoma of bronchus in left upper lobe
+XaEJg	Squamous cell carcinoma of bronchus in right lower lobe
+XaEJh	Squamous cell carcinoma of bronchus in right middle lobe
+XaEJi	Squamous cell carcinoma of bronchus in right upper lobe
+XaFr7	Local recurrence of malignant tumour of lung
+XaFrw	Metastasis from malignant tumour of lung
+XaZzj	Non-small cell carcinoma
+XE1vb	Malignant neoplasm of upper lobe, bronchus or lung
+XE1vc	Malignant neoplasm of bronchus or lung NOS
+XE1yF	(Bronchus carc) or (lung carc) or (Ca trachea/bronchus/lung)
+XE1yH	(Trachea carcinoma) or (Pancoast's tumour) or (Ca trachea)
+XE1yJ	Ca main bronchus
+XE1yL	Ca upper lobe bronchus/lung
+XE1yN	Ca middle lobe bronchus/lung
+XE1yP	Ca lower lobe bronchus/lung
+XE1yR	Ca trachea/bronchus/lung NOS
+B010.	Malignant neoplasm of base of tongue
+B010.	Malignant neoplasm of posterior third of tongue
+B010.	Malignant tumour of base of tongue
+B010.	Malignant tumour of base of tongue
+B010.	Malignant tumour of fixed part of tongue
+B010.	Malignant tumour of posterior third of tongue
+B010.	Malignant tumour of tongue posterior to vallate papillae
+B0100	Malignant neoplasm of base of tongue dorsal surface
+B0100	Malignant neoplasm of base of tongue dorsal surface
+B010z	Malignant neoplasm of fixed part of tongue NOS
+B010z	Malignant neoplasm of fixed part of tongue NOS
+B015.	Malignant neoplasm of tongue, junctional zone
+B015.	Malignant tumour of junctional zone of tongue
+B015.	Malignant tumour of junctional zone of tongue
+B016.	Malignant neoplasm of lingual tonsil
+B016.	Malignant tumour of lingual tonsil
+B016.	Malignant tumour of lingual tonsil
+B053.	Malignant neoplasm of soft palate
+B053.	Malignant tumour of soft palate
+B053.	Malignant tumour of soft palate
+B054.	Malignant neoplasm of uvula
+B054.	Malignant tumour of uvula
+B054.	Malignant tumour of uvula
+B06..	CA - Cancer of oropharynx
+B06..	Cancer of oropharynx
+B06..	Malignant neoplasm of oropharynx
+B06..	Malignant tumour of mesopharynx
+B06..	Malignant tumour of oropharynx
+B06..	Malignant tumour of oropharynx
+B060.	CA - Cancer of tonsil
+B060.	Cancer of tonsil
+B060.	Malignant neoplasm of tonsil
+B060.	Malignant tumour of faucial tonsil
+B060.	Malignant tumour of palatine tonsil
+B060.	Malignant tumour of tonsil
+B060.	Malignant tumour of tonsil
+B0600	Malignant neoplasm of faucial tonsil
+B0600	Malignant neoplasm of faucial tonsil
+B0601	Malignant neoplasm of palatine tonsil
+B0601	Malignant neoplasm of palatine tonsil
+B0602	Malignant neoplasm of overlapping lesion of tonsil
+B0602	Malignant neoplasm of overlapping lesion of tonsil
+B060z	Malignant neoplasm tonsil NOS
+B060z	Malignant neoplasm tonsil NOS
+B061.	Malignant neoplasm of tonsillar fossa
+B061.	Malignant tumour of tonsillar fossa
+B061.	Malignant tumour of tonsillar fossa
+B062.	Malignant neoplasm of faucial pillar
+B062.	Malignant neoplasm of tonsillar pillar
+B062.	Malignant tumour of palatopharyngeal arch
+B062.	Malignant tumour of pharyngopalatine arch
+B062.	Malignant tumour of posterior faucial pillar
+B062.	Malignant tumour of posterior tonsillar pillar
+B062.	Malignant tumour of tonsillar pillar
+B062.	Malignant tumour of tonsillar pillar
+B0621	Malignant neoplasm of glossopalatine fold
+B0621	Malignant tumour of glossopalatine fold
+B0621	Malignant tumour of glossopalatine fold
+B0622	Malignant neoplasm of palatoglossal arch
+B0622	Malignant tumour of anterior faucial pillar
+B0622	Malignant tumour of anterior tonsillar pillar
+B0622	Malignant tumour of anterior tonsillar pillar
+B0622	Malignant tumour of palatoglossal arch
+B062z	Malignant neoplasm of tonsillar fossa NOS
+B062z	Malignant neoplasm of tonsillar fossa NOS
+B063.	Malignant neoplasm of vallecula
+B063.	Malignant tumour of vallecula
+B063.	Malignant tumour of vallecula
+B064.	Malignant neoplasm of anterior epiglottis
+B064.	Malignant neoplasm of anterior epiglottis
+B0640	Malignant neoplasm of epiglottis, free border
+B0640	Malignant neoplasm of epiglottis, free border
+B0641	Malignant neoplasm of glossoepiglottic fold
+B0641	Malignant neoplasm of glossoepiglottic fold
+B064z	Malignant neoplasm of anterior epiglottis NOS
+B064z	Malignant neoplasm of anterior epiglottis NOS
+B065.	Malignant neoplasm of junctional region of epiglottis
+B065.	Malignant neoplasm of junctional region of epiglottis
+B066.	Malignant neoplasm of lateral wall of oropharynx
+B066.	Malignant neoplasm of lateral wall of oropharynx
+B067.	Malignant neoplasm of posterior wall of oropharynx
+B067.	Malignant tumour of posterior wall of oropharynx
+B067.	Malignant tumour of posterior wall of oropharynx
+B06y.	Malignant neoplasm of oropharynx, other specified sites
+B06y.	Malignant neoplasm of oropharynx, other specified sites
+B06yz	Malignant neoplasm of other specified site of oropharynx NOS
+B06yz	Malignant neoplasm of other specified site of oropharynx NOS
+B06z.	Malignant neoplasm of oropharynx NOS
+B06z.	Malignant neoplasm of oropharynx NOS
+B07..	CA - Cancer of nasopharynx
+B07..	Cancer of nasopharynx
+B07..	Malignant neoplasm of nasopharynx
+B07..	Malignant tumour of epipharynx
+B07..	Malignant tumour of nasopharynx
+B07..	Malignant tumour of nasopharynx
+B07..	Malignant tumour of postnasal space
+B070.	Malignant neoplasm of roof of nasopharynx
+B070.	Malignant tumour of roof of nasopharynx
+B070.	Malignant tumour of roof of nasopharynx
+B070.	Malignant tumour of superior wall of nasopharynx
+B071.	Malignant neoplasm of posterior wall of nasopharynx
+B071.	Malignant tumour of posterior wall of nasopharynx
+B071.	Malignant tumour of posterior wall of nasopharynx
+B0710	Malignant neoplasm of adenoid
+B0710	Malignant neoplasm of pharyngeal tonsil
+B0710	Malignant tumour of adenoid
+B0710	Malignant tumour of adenoid
+B0710	Malignant tumour of nasopharyngeal tonsil
+B0710	Malignant tumour of pharyngeal tonsil
+B071z	Malignant neoplasm of posterior wall of nasopharynx NOS
+B071z	Malignant neoplasm of posterior wall of nasopharynx NOS
+B072.	Malignant neoplasm of lateral wall of nasopharynx
+B072.	Malignant tumour of lateral wall of nasopharynx
+B072.	Malignant tumour of lateral wall of nasopharynx
+B0720	Malignant neoplasm of pharyngeal recess
+B0720	Malignant tumour of fossa of Rosenmuller
+B0720	Malignant tumour of pharyngeal recess
+B0720	Malignant tumour of pharyngeal recess
+B0721	Malignant neoplasm of opening of auditory tube
+B0721	Malignant tumour of opening of auditory tube
+B0721	Malignant tumour of opening of auditory tube
+B072z	Malignant neoplasm of lateral wall of nasopharynx NOS
+B072z	Malignant neoplasm of lateral wall of nasopharynx NOS
+B073.	Malignant neoplasm of anterior wall of nasopharynx
+B073.	Malignant tumour of anterior wall of nasopharynx
+B073.	Malignant tumour of anterior wall of nasopharynx
+B0730	Malignant neoplasm of floor of nasopharynx
+B0730	Malignant neoplasm of floor of nasopharynx
+B0731	Malignant neoplasm of nasopharyngeal soft palate surface
+B0731	Malignant tumour of nasopharyngeal soft palate surface
+B0731	Malignant tumour of nasopharyngeal soft palate surface
+B0732	Malignant neoplasm of posterior margin of nasal septum and choanae
+B0732	Malignant tumour posterior margin nasal septum and choanae
+B0732	Malignant tumour posterior margin nasal septum and choanae
+B073z	Malignant neoplasm of anterior wall of nasopharynx NOS
+B073z	Malignant neoplasm of anterior wall of nasopharynx NOS
+B074.	Malignant neoplasm, overlapping lesion of nasopharynx
+B074.	Malignant neoplasm, overlapping lesion of nasopharynx
+B07y.	Malignant neoplasm of other specified site of nasopharynx
+B07y.	Malignant neoplasm of other specified site of nasopharynx
+B07z.	Malignant neoplasm of nasopharynx NOS
+B07z.	Malignant neoplasm of nasopharynx NOS
+B08..	Malignant neoplasm of hypopharynx
+B08..	Malignant neoplasm of laryngopharynx
+B08..	Malignant tumour of hypopharynx
+B08..	Malignant tumour of hypopharynx
+B08..	Malignant tumour of laryngopharynx
+B080.	Malignant neoplasm of postcricoid region
+B080.	Malignant tumour of pharyngo-oesophageal junction
+B080.	Malignant tumour of postcricoid region
+B080.	Malignant tumour of postcricoid region
+B081.	Malignant neoplasm of pyriform sinus
+B081.	Malignant tumour of pyriform fossa
+B081.	Malignant tumour of pyriform fossa
+B081.	Malignant tumour of pyriform sinus
+B082.	Malignant neoplasm of aryepiglottic fold, hypopharyngeal aspect
+B082.	Malignant tumour aryepiglottic fold - hypopharyngeal aspect
+B082.	Malignant tumour aryepiglottic fold - hypopharyngeal aspect
+B083.	Malignant neoplasm of posterior pharynx
+B083.	Malignant neoplasm of posterior pharynx
+B084.	Malignant neoplasm, overlapping lesion of hypopharynx
+B084.	Malignant neoplasm, overlapping lesion of hypopharynx
+B08y.	Malignant neoplasm of other specified hypopharyngeal site
+B08y.	Malignant neoplasm of other specified hypopharyngeal site
+B08z.	Malignant neoplasm of hypopharynx NOS
+B08z.	Malignant neoplasm of hypopharynx NOS
+B0z0.	Malignant neoplasm of pharynx unspecified
+B0z0.	Malignant neoplasm of pharynx unspecified
+B0z1.	Malignant neoplasm of Waldeyer's ring
+B0z1.	Malignant tumour of Waldeyer's ring
+B0z1.	Malignant tumour of Waldeyer's ring
+B200.	Malignant neoplasm of nasal cavities
+B200.	Malignant tumour of nasal cavity
+B200.	Malignant tumour of nasal cavity
+B2001	Malignant neoplasm of nasal conchae
+B2001	Malignant neoplasm of nasal conchae
+B2002	Malignant neoplasm of septum of nose
+B2002	Malignant tumour of nasal septum
+B2002	Malignant tumour of nasal septum
+B2003	Malignant neoplasm of vestibule of nose
+B2003	Malignant tumour of nasal vestibule
+B2003	Malignant tumour of nasal vestibule
+B200z	Malignant neoplasm of nasal cavities NOS
+B200z	Malignant neoplasm of nasal cavities NOS
+B202.	Malignant neoplasm of maxillary sinus
+B202.	Malignant tumour of maxillary antrum
+B202.	Malignant tumour of maxillary sinus
+B202.	Malignant tumour of maxillary sinus
+B203.	Malignant neoplasm of ethmoid sinus
+B203.	Malignant tumour of ethmoid sinus
+B203.	Malignant tumour of ethmoid sinus
+B204.	Malignant neoplasm of frontal sinus
+B204.	Malignant tumour of frontal sinus
+B204.	Malignant tumour of frontal sinus
+B205.	Malignant neoplasm of sphenoidal sinus
+B205.	Malignant tumour of sphenoid sinus
+B205.	Malignant tumour of sphenoid sinus
+B206.	Malignant neoplasm, overlapping lesion of accessory sinuses
+B206.	Malignant neoplasm, overlapping lesion of accessory sinuses
+B20z.	Malignant neoplasm of accessory sinus NOS
+B20z.	Malignant neoplasm of accessory sinus NOS
+B21..	CA - Cancer of larynx
+B21..	Cancer of larynx
+B21..	Laryngeal cancer
+B21..	Malignant neoplasm of larynx
+B21..	Malignant tumour of larynx
+B21..	Malignant tumour of larynx
+B210.	Malignant neoplasm of glottis
+B210.	Malignant tumour of glottis
+B210.	Malignant tumour of glottis
+B211.	Malignant neoplasm of supraglottis
+B211.	Malignant tumour of supraglottis
+B211.	Malignant tumour of supraglottis
+B212.	Malignant neoplasm of subglottis
+B212.	Malignant tumour of subglottis
+B212.	Malignant tumour of subglottis
+B213.	Malignant neoplasm of laryngeal cartilage
+B213.	Malignant tumour of laryngeal cartilage
+B213.	Malignant tumour of laryngeal cartilage
+B2130	Malignant neoplasm of arytenoid cartilage
+B2130	Malignant neoplasm of arytenoid cartilage
+B2131	Malignant neoplasm of cricoid cartilage
+B2131	Malignant neoplasm of cricoid cartilage
+B2132	Malignant neoplasm of cuneiform cartilage
+B2132	Malignant neoplasm of cuneiform cartilage
+B2133	Malignant neoplasm of thyroid cartilage
+B2133	Malignant neoplasm of thyroid cartilage
+B213z	Malignant neoplasm of laryngeal cartilage NOS
+B213z	Malignant neoplasm of laryngeal cartilage NOS
+B214.	Malignant neoplasm, overlapping lesion of larynx
+B214.	Malignant neoplasm, overlapping lesion of larynx
+B21y.	Malignant neoplasm of larynx, other specified site
+B21y.	Malignant neoplasm of larynx, other specified site
+B21z.	Malignant neoplasm of larynx NOS
+B21z.	Malignant neoplasm of larynx NOS
+B25..	Malignant neoplasm, overlapping lesion of heart, mediastinum and pleura
+B25..	Malignant neoplasm, overlapping lesion of heart, mediastinum and pleura
+B300B	Malignant neoplasm of turbinate
+B300B	Malignant neoplasm of turbinate
+B300C	Malignant neoplasm of vomer
+B300C	Malignant neoplasm of vomer
+B3131	Malignant neoplasm of diaphragm
+B3131	Malignant neoplasm of diaphragm
+B570.	Metastasis to lung
+B570.	Metastasis to lung
+B570.	Pulmonary metastasis
+B570.	Secondary cancer of lung
+B570.	Secondary malignant neoplasm of lung
+B570.	Secondary malignant tumour of lung
+B572.	Metastasis to pleura
+B572.	Metastasis to pleura
+B572.	Pleural seedling
+B572.	Secondary malignant neoplasm of pleura
+B572.	Secondary malignant tumour of pleura
+B573.	Secondary malignant neoplasm of other respiratory organs
+B573.	Secondary malignant neoplasm of other respiratory organs
+Byu24	[X]Malignant neoplasm of ill-defined sites within the respiratory system
+Byu24	[X]Malignant neoplasm of ill-defined sites within the respiratory system
+ByuC3	[X]Secondary malignant neoplasm of other and unspecified respiratory organs
+ByuC3	[X]Secondary malignant neoplasm of other and unspecified respiratory organs
+X78fI	Malignant tumour of nasal cavity and nasopharynx
+X78fI	Malignant tumour of nasal cavity and nasopharynx
+X78fK	Malignant tumour of lateral nasal wall
+X78fK	Malignant tumour of lateral nasal wall
+X78fN	Malignant tumour of nasal sinuses
+X78fN	Malignant tumour of nasal sinuses
+X78fO	CA - Cancer of pharynx
+X78fO	Cancer of pharynx
+X78fO	Malignant tumour of pharynx
+X78fO	Malignant tumour of pharynx
+X78Hw	Malignant tumour of glossoepiglottic fold
+X78Hw	Malignant tumour of glossoepiglottic fold
+X78Hz	Carcinoma of lingual tonsil
+X78Hz	Carcinoma of lingual tonsil
+X78Ib	Carcinoma of uvula
+X78Ib	Carcinoma of uvula
+X78IW	Carcinoma of soft palate
+X78IW	Carcinoma of soft palate
+X78JC	Malignant tumour of anterior pillar of fauces
+X78JC	Malignant tumour of anterior pillar of fauces
+X78Jt	Malignant tumour of inferior turbinate
+X78Jt	Malignant tumour of inferior turbinate
+X78Jw	Malignant tumour of middle turbinate
+X78Jw	Malignant tumour of middle turbinate
+X78K0	Malignant tumour of posterior margin of nasal septum and choanae
+X78K0	Malignant tumour of posterior margin of nasal septum and choanae
+X78kU	Metastasis to trachea
+X78kU	Metastasis to trachea
+X78kU	Secondary malignant tumour of trachea
+X78kV	Metastasis to bronchus
+X78kV	Metastasis to bronchus
+X78kV	Secondary malignant tumour of bronchus
+X78kY	Lymphangitis carcinomatosa
+X78kY	Lymphangitis carcinomatosa
+X78LA	Malignant tumour of inferior surface of soft palate
+X78LA	Malignant tumour of inferior surface of soft palate
+X78Ld	Malignant tumour of posterior commissure
+X78Ld	Malignant tumour of posterior commissure
+X78Li	Malignant tumour of suprahyoid epiglottis
+X78Li	Malignant tumour of suprahyoid epiglottis
+X78Ll	Malignant tumour of infrahyoid epiglottis
+X78Ll	Malignant tumour of infrahyoid epiglottis
+X78Lo	Malignant tumour of aryepiglottic fold - laryngeal aspect
+X78Lo	Malignant tumour of aryepiglottic fold - laryngeal aspect
+X78Lr	Malignant tumour of arytenoid
+X78Lr	Malignant tumour of arytenoid
+X78Lu	Malignant tumour of false cord
+X78Lu	Malignant tumour of false cord
+X78Lu	Malignant tumour of ventricular band
+X78Lu	Malignant tumour of vestibular fold
+X78LV	CA - Cancer of vocal cord
+X78LV	Cancer of vocal cord
+X78LV	Malignant tumour of vocal cord
+X78LV	Malignant tumour of vocal cord
+X78LV	Malignant tumour of vocal fold
+X78Lx	Malignant tumour of laryngeal ventricle
+X78Lx	Malignant tumour of laryngeal ventricle
+X78Lx	Malignant tumour of laryngeal ventricular cavity
+X78Lx	Malignant tumour of laryngeal ventricular sinus
+X78LZ	Malignant tumour of anterior commissure
+X78LZ	Malignant tumour of anterior commissure
+X78M9	Malignant tumour of parapharyngeal space
+X78M9	Malignant tumour of parapharyngeal space
+X78QU	Carcinoma in situ of lung parenchyma
+X78QU	Carcinoma in situ of lung parenchyma
+X78VS	Malignant mesothelioma of peritoneum
+X78VS	Malignant mesothelioma of peritoneum
+X78VS	Mesothelioma of peritoneum
+X78VT	Malignant mesothelioma of pericardium
+X78VT	Malignant mesothelioma of pericardium
+X78VT	Mesothelioma of pericardium
+Xa0Ge	Carcinoma of larynx
+Xa0Ge	Carcinoma of larynx
+Xa0Ge	Laryngeal carcinoma
+Xa0Pj	Soft tissue tumour
+Xa0Pj	Tumour of soft tissue
+Xa0Pj	Tumour of soft tissue
+Xa1oQ	Carcinoma of vocal cord
+Xa1oQ	Carcinoma of vocal cord
+Xa39z	Metastasis to trachea of unknown primary
+Xa39z	Metastasis to trachea of unknown primary
+Xa39z	UKP - Metastasis to trachea of unknown primary
+Xa3A4	Metastasis to bronchus of unknown primary
+Xa3A4	Metastasis to bronchus of unknown primary
+Xa3A4	UKP - Metastasis to bronchus of unknown primary
+Xa3A5	Metastasis to lung of unknown primary
+Xa3A5	Metastasis to lung of unknown primary
+Xa3A5	UKP - Metastasis to lung of unknown primary
+Xa3A6	Metastasis to pleura of unknown primary
+Xa3A6	Metastasis to pleura of unknown primary
+Xa3A6	UKP - Metastasis to pleura of unknown primary
+Xa9EA	Malignant tumour of posterior wall of hypopharynx
+Xa9EA	Malignant tumour of posterior wall of hypopharynx
+XaBLv	Malignant neoplasm of epiglottis NOS
+XaBLv	Malignant neoplasm of epiglottis NOS
+XE1wg	[X]Mesothelioma of other sites
+XE1wg	[X]Mesothelioma of other sites
+XE1wv	(Ca oro/naso/hypopharynx) or (carcinoma: [pharynx] or [tonsil])
+XE1wv	Ca oro/naso/hypopharynx
+XE1wv	Carcinoma oropharynx/nasopharynx/hypopharynx
+XE1wv	Pharynx carcinoma
+XE1wv	Tonsil carcinoma
+XE1y7	Ca larynx - glottis
+XE1y7	Ca larynx - glottis
+XE1y9	Ca larynx - supraglottis
+XE1y9	Ca larynx - supraglottis
+XE1yB	Ca larynx - subglottis
+XE1yB	Ca larynx - subglottis
+XE1yD	Ca larynx - NOS
+XE1yD	Ca larynx - NOS
+XM0Ac	Carcinoma of base of tongue
+XM0Ac	Carcinoma of base of tongue
+XM0pb	Tonsil carcinoma
+XM0pb	Tonsil carcinoma
+XM1QO	Carcinoma of tongue base - dorsal surface
+XM1QO	Carcinoma of tongue base - dorsal surface
+BA01.	Neoplasm of unspecified nature of respiratory system

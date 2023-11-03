@@ -1,2 +1,16 @@
 268547008	Screening for breast cancer
 94361000000105	Breast cancer detected by national screening programme (disorder)
+24623002	Screening mammography
+71651007	Mammography
+168749009	Mammography normal
+168750009	Mammography abnormal
+171175005	Breast neoplasm screening normal
+171176006	Breast neoplasm screening abnormal
+185710003	Breast screening abnormal - told patient
+268547008	Screening for malignant neoplasm of breast
+609223006	Magnetic resonance imaging of breast for screening for malignant neoplasm
+94361000000105	Breast cancer detected by national screening programme
+384151000119104	Screening mammography of bilateral breasts
+392521000119107	Screening mammography of right breast
+392531000119105	Screening mammography of left breast
+455921000000104	[V]Screening for malignant neoplasm of breast

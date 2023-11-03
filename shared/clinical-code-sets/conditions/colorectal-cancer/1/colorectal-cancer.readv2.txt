@@ -1,3 +1,67 @@
 68W2400	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
 B1z0.11	Cancer of bowel
-B139.00	Hereditary nonpolyposis colon cancer
+B13..	Malignant neoplasm of colon
+B13..00	Malignant neoplasm of colon
+B130.	Malignant neoplasm of hepatic flexure of colon
+B130.00	Malignant neoplasm of hepatic flexure of colon
+B131.	Malignant neoplasm of transverse colon
+B131.00	Malignant neoplasm of transverse colon
+B132.	Malignant neoplasm of descending colon
+B132.00	Malignant neoplasm of descending colon
+B133.	Malignant neoplasm of sigmoid colon
+B133.00	Malignant neoplasm of sigmoid colon
+B136.	Malignant neoplasm of ascending colon
+B136.00	Malignant neoplasm of ascending colon
+B137.	Malignant neoplasm of splenic flexure of colon
+B137.00	Malignant neoplasm of splenic flexure of colon
+B138.	Malignant neoplasm, overlapping lesion of colon
+B138.00	Malignant neoplasm, overlapping lesion of colon
+B13y.	Malignant neoplasm of other specified sites of colon
+B13y.00	Malignant neoplasm of other specified sites of colon
+B13z.	Malignant neoplasm of colon NOS
+B13z.00	Malignant neoplasm of colon NOS
+B13z.11	Colonic cancer
+B14..	Malignant neoplasm of rectum, rectosigmoid junction and anus
+B14..00	Malignant neoplasm of rectum, rectosigmoid junction and anus
+B140.	Malignant neoplasm of rectosigmoid junction
+B140.00	Malignant neoplasm of rectosigmoid junction
+B141.00	Malignant neoplasm of rectum
+B141.11	Carcinoma of rectum
+B141.12	Rectal carcinoma
+B14y.	Malignant neoplasm of other sites of rectum, rectosigmoid junction and anus
+B14y.00	Malignant neoplasm of other sites of rectum, rectosigmoid junction and anus
+B14z.	Malignant neoplasm of rectum, rectosigmoid junction and anus NOS
+B14z.00	Malignant neoplasm of rectum, rectosigmoid junction and anus NOS
+B18y0	Malignant neoplasm of mesocolon
+B18y000	Malignant neoplasm of mesocolon
+B575.	Secondary malignant neoplasm of large intestine and rectum
+B575.00	Secondary malignant neoplasm of large intestine and rectum
+B5750	Secondary malignant neoplasm of colon
+B575000	Secondary malignant neoplasm of colon
+B5751	Secondary malignant neoplasm of rectum
+B575100	Secondary malignant neoplasm of rectum
+B575z	Secondary malignant neoplasm of large intestine or rectum NOS
+B575z00	Secondary malignant neoplasm of large intestine or rectum NOS
+B803.	Carcinoma in situ of colon
+B803.00	Carcinoma in situ of colon
+B8030	Carcinoma in situ of hepatic flexure of colon
+B803000	Carcinoma in situ of hepatic flexure of colon
+B8031	Carcinoma in situ of transverse colon
+B803100	Carcinoma in situ of transverse colon
+B8032	Carcinoma in situ of descending colon
+B803200	Carcinoma in situ of descending colon
+B8033	Carcinoma in situ of sigmoid colon
+B803300	Carcinoma in situ of sigmoid colon
+B8036	Carcinoma in situ of ascending colon
+B803600	Carcinoma in situ of ascending colon
+B8037	Carcinoma in situ of splenic flexure of colon
+B803700	Carcinoma in situ of splenic flexure of colon
+B803z	Carcinoma in situ of colon NOS
+B803z00	Carcinoma in situ of colon NOS
+B9024	Neoplasm of uncertain behaviour of colon
+B902400	Neoplasm of uncertain behaviour of colon
+Byu12	[X]Malignant neoplasm of intestinal tract, part unspecified
+Byu1200	[X]Malignant neoplasm of intestinal tract, part unspecified
+B141.00	Malignant neoplasm of rectum
+B141.11	Carcinoma of rectum
+B141.12	Rectal carcinoma

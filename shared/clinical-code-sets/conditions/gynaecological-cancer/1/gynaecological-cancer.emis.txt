@@ -1,20 +1,9 @@
-^ESCT1199845	Suspected ovarian cancer
-^ESCT1202154	Borderline epithelial tumour of ovary
-^ESCT1202155	Borderline ovarian epithelial tumor
-^ESCT1202156	Borderline ovarian epithelial tumour
-^ESCT1202157	Borderline epithelial tumor of ovary
-^ESCT1202158	Borderline epithelial neoplasm of ovary
+
 ^ESCT1247309	Malignant tumor of female genital organ
-^ESCTBE399649	Benign neoplasm of uterine cervix
-^ESCTBE399650	Benign neoplasm of cervix uteri
-^ESCTBE399651	Benign tumour of cervix
-^ESCTBE399652	Benign tumor of cervix
-^ESCTBE400041	Benign ovarian tumor
 ^ESCTBI748490	Bilateral oophorectomy for malignant neoplasm of ovary
 ^ESCTBI748491	Bilateral oophorectomy for ovarian malignancy
 ^ESCTBI748492	Bilateral oophorectomy for malignant tumor of ovary
 ^ESCTBI748493	Bilateral oophorectomy for malignant tumour of ovary
-^ESCTBL374815	Bleeding after menopause
 ^ESCTCA403543	Cancer metastatic to neck lymph nodes
 ^ESCTCA403692	Cancer metastatic to ovary
 ^ESCTCA475133	Cancer metastatic to cervix
@@ -38,7 +27,6 @@
 ^ESCTCE803550	Cervical cancer Papanicolaou smear screening declined
 ^ESCTCL689609	Clear cell (mesonephric) neoplasm of ovary
 ^ESCTDE732582	Debulking of neoplasm of ovary
-^ESCTEL716188	Elevated cancer antigen 125
 ^ESCTFI274652	FIGO CC stage I
 ^ESCTFI291047	FIGO CC stage Ib
 ^ESCTFI298928	FIGO EC stage II
@@ -69,9 +57,6 @@
 ^ESCTFI763414	FIGO EC stage IVA
 ^ESCTFI763420	FIGO EC stage IVB
 ^ESCTFI763570	FIGO EC stage IIIA
-^ESCTGY472470	Gynecological referral
-^ESCTGY472575	Gynecological self-referral
-^ESCTHE776943	Hereditary breast and ovarian cancer syndrome
 ^ESCTIN274653	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage I
 ^ESCTIN274654	International Federation of Gynecology and Obstetrics cervical cancer stage I
 ^ESCTIN274655	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage I
@@ -115,7 +100,6 @@
 ^ESCTIN392956	International Federation of Gynaecology and Obstetrics cervical cancer stage Ib occ
 ^ESCTIN392957	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
 ^ESCTIN701748	Invasive cervical cancer
-^ESCTIN716186	Increased cancer antigen 125
 ^ESCTIN763215	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage IA1
 ^ESCTIN763216	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA1
 ^ESCTIN763223	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA2
@@ -195,27 +179,13 @@
 ^ESCTOV700825	Ovarian cancer stage 3
 ^ESCTOV702728	Ovarian cancer stage 2
 ^ESCTOV702951	Ovarian cancer stage 1
-^ESCTPA786697	Patient refused referral to gynecologist
-^ESCTPA786700	Patient refused referral to gynaecologist
-^ESCTPE370768	Pelvic lump
-^ESCTPM374814	PMB - Postmenopausal bleeding
 ^ESCTPR402715	Primary malignant neoplasm of ovary
 ^ESCTPR402929	Primary malignant neoplasm of uterine adnexa
-^ESCTPR472843	Private referral to gynecologist
 ^ESCTPR632595	Primary malignant neoplasm of left ovary
 ^ESCTPR632608	Primary malignant neoplasm of right ovary
 ^ESCTPR636302	Primary malignant neoplasm of uterine cervix
 ^ESCTPR699569	Primary malignant neoplasm of ovary, with widespread metastatic disease
 ^ESCTRA716187	Raised cancer antigen 125
-^ESCTRE472469	Referral to gynaecology service
-^ESCTRE472472	Referral to gynecology service
-^ESCTRE595195	Referral to obstetrics and gynaecology service
-^ESCTRE595196	Referral to obstetrics and gynecology service
-^ESCTRE595438	Referral to obstetrician and gynecologist
-^ESCTRE597926	Referral to gynecologist
-^ESCTRE753131	Referral to pediatric gynecology service
-^ESCTRE786695	Referral to gynaecologist declined by subject
-^ESCTRE786696	Referral to gynecologist declined by subject
 ^ESCTSC797919	Screening for malignant neoplasm of cervix not done
 ^ESCTSE403540	Secondary malignant neoplasm of lymph nodes of neck
 ^ESCTSE403686	Secondary tumor to ovary
@@ -225,11 +195,6 @@
 ^ESCTSE475132	Secondary malignant neoplasm of uterine cervix
 ^ESCTSE632596	Secondary malignant neoplasm of left ovary
 ^ESCTSE632609	Secondary malignant neoplasm of right ovary
-^ESCTSU659110	Suspected gynecological cancer
-^ESCTSU786698	Subject declined referral to gynecologist
-^ESCTSU786699	Subject refused referral to gynecologist
-^ESCTSU786701	Subject declined referral to gynaecologist
-^ESCTSU786702	Subject refused referral to gynaecologist
 ^ESCTT3633184	T3 (III): Endometrial tumour with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings
 ^ESCTT3633185	T3 (III): Endometrial tumor with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings
 ^ESCTTH775303	Theca steroid producing cell malignant neoplasm of ovary
@@ -241,7 +206,341 @@
 ^ESCTTU435666	Tumor of ovary
 ^ESCTUN535181	Undifferentiated carcinoma of ovary
 ^ESCTUN535182	Undifferentiated ovarian cancer
-EMISNQQC5	QCancer ovarian cancer risk score
-EMISNQQC8	QCancer cervical cancer risk score
-EMISNQQC9	QCancer endometrial cancer risk score
-EMISNQSU3	Suspected gynaecological cancer
+^ESCT1190726	[M]Infiltrating ductular carcinoma
+^ESCT1190784	Mesonephric tumor
+^ESCT1190934	[M]Urothelial carcinoma
+^ESCT1198954	Mesonephric tumor
+^ESCT1202154	Borderline epithelial tumour of ovary
+^ESCT1202155	Borderline ovarian epithelial tumor
+^ESCT1202156	Borderline ovarian epithelial tumour
+^ESCT1202157	Borderline epithelial tumor of ovary
+^ESCT1202158	Borderline epithelial neoplasm of ovary
+^ESCT1276176	[M]Dermatofibroma protuberans
+^ESCT1276208	Mesothelioma
+^ESCT1406178	Malignant cystosarcoma phyllodes
+^ESCT1406194	Papillary serous cystadenocarcinoma
+^ESCT1406195	Papillary serous adenocarcinoma
+^ESCT1406196	Serous surface papillary carcinoma
+^ESCT1408738	Micropapillary serous carcinoma
+^ESCTAD258979	Adenocarcinoma in tubulovillous adenoma
+^ESCTAD268578	Adenocarcinoma, cylindroid
+^ESCTAD268579	Adenocystic carcinoma
+^ESCTAD274051	Adenoacanthoma
+^ESCTAD290253	Adenocarcinoma, intestinal type
+^ESCTAD300702	Adenosarcoma
+^ESCTAD307842	Adenocarcinoma, no subtype
+^ESCTAD441218	Adenoid basal carcinoma
+^ESCTAD441337	Adenocarcinoma with neuroendocrine differentiation
+^ESCTAI333691	AIS - Adenocarcinoma in situ
+^ESCTAL393309	Alveolar soft part sarcoma
+^ESCTAT441258	Atypical carcinoid tumour
+^ESCTAT441259	Atypical carcinoid tumor
+^ESCTAT441814	Atypical proliferating serous tumor
+^ESCTAT441815	Atypical proliferating serous tumour
+^ESCTBA251974	Basal cell epithelioma
+^ESCTBA251977	Basiloma
+^ESCTBA441215	Basaloid squamous cell carcinoma
+^ESCTBC251978	BCC - Basal cell carcinoma
+^ESCTBO272601	Botryoid sarcoma
+^ESCTBR318011	Brenner tumour, malignant
+^ESCTBR318012	Brenner tumor, malignant
+^ESCTCA290254	Carcinoma, intestinal type
+^ESCTCA290255	Carcinoma - intestinal type
+^ESCTCA382738	Carcinoid tumor
+^ESCTCA382739	Carcinoid tumour no ICD-O subtype
+^ESCTCA382740	Carcinoid tumor no ICD-O subtype
+^ESCTCA382741	Carcinoid
+^ESCTCA382742	Carcinoid tumor no International Classification of Diseases for Oncology subtype
+^ESCTCA441338	Carcinoma with neuroendocrine differentiation
+^ESCTCE343773	Cellular ependymoma
+^ESCTCH279834	Chorioadenoma destruens
+^ESCTCH279835	Chorioadenoma
+^ESCTCH322198	Choriocarcinoma
+^ESCTCH322199	Chorionepithelioma
+^ESCTCH322200	Chorioepithelioma
+^ESCTCH322204	Choriocarcinoma, no ICD-O subtype
+^ESCTCH322205	Choriocarcinoma, no International Classification of Diseases for Oncology subtype
+^ESCTCL299191	Clear cell adenocarcinoma, mesonephroid
+^ESCTCL299192	Clear cell carcinoma
+^ESCTCL343772	Clear cell ependymoma
+^ESCTCO367881	Colloid adenocarcinoma
+^ESCTCO367882	Colloid carcinoma
+^ESCTCO396160	Condylomatous carcinoma
+^ESCTCO662236	Condylomatous carcinoma
+^ESCTCY268580	Cylindroma (except Cylindroma of skin, M-82000)
+^ESCTCY392876	Cystosarcoma phyllodes, malignant
+^ESCTDE374577	Dermatofibrosarcoma protuberans
+^ESCTDE374579	Dermatofibrosarcoma, no International Classification of Diseases for Oncology subtype
+^ESCTDE374580	Dermatofibrosarcoma, no ICD-O subtype
+^ESCTDE441415	Desmoplastic small round cell tumour
+^ESCTDE441416	Desmoplastic small round cell tumor
+^ESCTDU384555	Duct cell carcinoma
+^ESCTDU384556	Ductal carcinoma
+^ESCTDU384557	Duct adenocarcinoma
+^ESCTEL716188	Elevated cancer antigen 125
+^ESCTEM272602	Embryonal rhabdomyosarcoma, pleomorphic
+^ESCTEM280899	Embryonal teratoma
+^ESCTEM295022	Embryonal adenocarcinoma
+^ESCTEM370958	Embryonal carcinoma, infantile
+^ESCTEN298775	Endometrioid adenocarcinoma
+^ESCTEN298776	Endometrioid cystadenocarcinoma
+^ESCTEN364737	Endometrial stromal sarcoma, high grade
+^ESCTEN364739	Endometrial sarcoma
+^ESCTEN364740	Endometrioid stromal sarcoma, high grade
+^ESCTEN370954	Endodermal sinus tumor
+^ESCTEN441298	Endometrioid adenocarcinoma, secretory variant
+^ESCTEN441398	Endometrial stromal sarcoma, low grade
+^ESCTEN441401	Endometrial stromatosis
+^ESCTEN441403	Endometrioid stromal sarcoma, low grade
+^ESCTEP278638	Epidermoid carcinoma, keratinizing
+^ESCTEP278639	Epidermoid carcinoma, keratinising
+^ESCTEP318340	Epithelioid leiomyosarcoma
+^ESCTEP323404	Epidermoid carcinoma, large cell, nonkeratinizing
+^ESCTEP323406	Epidermoid carcinoma, large cell, nonkeratinising
+^ESCTEP343770	Ependymoma
+^ESCTEP343771	Epithelial ependymoma
+^ESCTEP343774	Ependymoma, no ICD-O subtype
+^ESCTEP343775	Ependymoma, no International Classification of Diseases for Oncology subtype
+^ESCTEP346227	Epithelioid sarcoma
+^ESCTFI329978	Fibroliposarcoma
+^ESCTFI337006	Fibrosarcoma
+^ESCTGA441467	Gastrointestinal stromal sarcoma
+^ESCTGA441468	Gastrointestinal stromal tumor, malignant
+^ESCTGA441470	Gastrointestinal stromal tumour, malignant
+^ESCTGE367883	Gelatinous adenocarcinoma
+^ESCTGE367884	Gelatinous carcinoma
+^ESCTGE441443	Genital rhabdomyoma
+^ESCTGE441444	Genital type rhabdomyoma
+^ESCTGI441469	GIST, malignant
+^ESCTGL441211	Glassy cell carcinoma
+^ESCTGO366215	Gonadal stromal tumor
+^ESCTGO366221	Gonadal stromal tumour
+^ESCTGR279939	Granulosa cell tumour, malignant
+^ESCTGR279940	Granulosa cell tumor, malignant
+^ESCTGR279941	Granulosa cell carcinoma
+^ESCTGR279942	Granulosa cell tumor, sarcomatoid
+^ESCTGR279943	Granulosa cell tumour, sarcomatoid
+^ESCTHE312773	Hemangiosarcoma
+^ESCTHE370960	Hepatoid yolk sac tumor
+^ESCTHE370962	Hepatoid yolk sac tumour
+^ESCTHI757798	High grade serous carcinoma
+^ESCTIM280902	Immature teratoma, malignant
+^ESCTIN279832	Invasive hydatidiform mole
+^ESCTIN279836	Invasive mole
+^ESCTIN370963	Infantile embryonal carcinoma
+^ESCTIN384554	Infiltrating duct adenocarcinoma
+^ESCTIN384559	Invasive breast carcinoma of no special type
+^ESCTIN716186	Increased cancer antigen 125
+^ESCTKA330847	Kaposi's sarcoma
+^ESCTKA330851	Kaposi's sarcoma, morphology
+^ESCTKA330852	Kaposi sarcoma, morphology
+^ESCTKE278642	Keratinising squamous cell carcinoma - large cell
+^ESCTKE278643	Keratinising epidermoid carcinoma
+^ESCTKE278644	Keratinizing squamous cell carcinoma - large cell
+^ESCTKE278645	Keratinizing epidermoid carcinoma
+^ESCTLA441209	Large cell neuroendocrine carcinoma
+^ESCTLE333524	Leiomyosarcoma
+^ESCTLE333526	Leiomyosarcoma, no subtype
+^ESCTLI329977	Liposarcoma
+^ESCTLI329979	Liposarcoma morphology
+^ESCTLI329980	Liposarcoma, no ICD-O subtype
+^ESCTLI329981	Liposarcoma, no International Classification of Diseases for Oncology subtype
+^ESCTLM333525	LMS - Leiomyosarcoma
+^ESCTLO441418	Localized fibrous tumor
+^ESCTLO441420	Localised fibrous tumour
+^ESCTLO757796	Low grade serous carcinoma
+^ESCTLY261620	Lymphoepithelial carcinoma
+^ESCTLY261621	Lymphoepithelioma
+^ESCTLY261624	Lymphoepithelioma-like carcinoma
+^ESCTMA253204	Malignant melanoma, no ICD-O subtype
+^ESCTMA253205	Malignant melanoma, no International Classification of Diseases for Oncology subtype
+^ESCTMA279833	Malignant hydatidiform mole
+^ESCTMA279927	Malignant struma ovarii
+^ESCTMA279945	Malignant granulosa cell tumor
+^ESCTMA280904	Malignant teratoblastoma
+^ESCTMA281577	Malignant peripheral nerve sheath tumour
+^ESCTMA281585	Malignant peripheral nerve sheath tumor
+^ESCTMA318013	Malignant Brenner tumour
+^ESCTMA318014	Malignant Brenner tumor
+^ESCTMA350860	Malignant mesothelioma
+^ESCTMA392877	Malignant phyllodes tumour
+^ESCTMA392878	Malignant phyllodes tumor
+^ESCTMA624616	Malignant tumour of fallopian tube
+^ESCTMA624617	Malignant tumor of fallopian tube
+^ESCTME253202	Melanoma
+^ESCTME253433	Mesonephroma, malignant
+^ESCTME253434	Mesonephric adenocarcinoma
+^ESCTME253436	Mesonephroma
+^ESCTME258012	Merkel cell carcinoma
+^ESCTME258013	Merkel cell tumor
+^ESCTME258015	Merkel cell tumour
+^ESCTME270743	Mesonephric tumour
+^ESCTME281581	Melanotic psammomatous MPNST
+^ESCTME281582	Melanotic MPNST
+^ESCTME299193	Mesonephroid clear cell adenocarcinoma
+^ESCTME350858	Mesothelioma, malignant
+^ESCTMI302870	Mixed germ cell tumor
+^ESCTMI302871	Mixed teratoma and seminoma
+^ESCTMI312693	Mixed cell adenocarcinoma
+^ESCTMI346415	Mixed adenocarcinoma and squamous cell carcinoma
+^ESCTMI346416	Mixed adenocarcinoma and epidermoid carcinoma
+^ESCTMI396762	Micropapillary serous carcinoma
+^ESCTMI672296	Mixed germ cell-sex cord-stromal tumour
+^ESCTMI672297	Mixed germ cell-sex cord-stromal tumor
+^ESCTMM253203	MM - Malignant melanoma
+^ESCTMP281583	MPNST
+^ESCTMP281584	MPNST with mesenchymal differentiation
+^ESCTMP281586	MPNST - Malignant peripheral nerve sheath tumour
+^ESCTMP281587	MPNST - Malignant peripheral nerve sheath tumor
+^ESCTMU300599	Mucocarcinoid tumor
+^ESCTMU300600	Mucinous carcinoid
+^ESCTMU300601	Mucocarcinoid tumour
+^ESCTMU300603	Mucocarcinoid tumor, malignant
+^ESCTMU300604	Mucocarcinoid tumour, malignant
+^ESCTMU330848	Multiple hemorrhagic sarcoma
+^ESCTMU330849	Multiple haemorrhagic sarcoma
+^ESCTMU367879	Mucous carcinoma
+^ESCTMU367880	Mucinous carcinoma
+^ESCTMU367885	Mucoid adenocarcinoma
+^ESCTMU367886	Mucoid carcinoma
+^ESCTMU367887	Mucous adenocarcinoma
+^ESCTMU441321	Mucinous adenocarcinoma, endocervical type
+^ESCTMY275512	Myxoid leiomyosarcoma
+^ESCTNE281578	Neurosarcoma [obs]
+^ESCTNE281579	Neurogenic sarcoma [obs]
+^ESCTNE281580	Neurofibrosarcoma [obs]
+^ESCTNE369782	Neuroectodermal tumor
+^ESCTNE369785	Neuroectodermal tumour
+^ESCTNO323408	Non-keratinising squamous cell carcinoma
+^ESCTNO323409	Non-keratinising epidermoid carcinoma - large cell
+^ESCTNO323410	Non-keratinising squamous cell carcinoma - large cell
+^ESCTNO323411	Non-keratinizing squamous cell carcinoma - large cell
+^ESCTNO323412	Non-keratinizing squamous cell carcinoma
+^ESCTNO323413	Non-keratinizing epidermoid carcinoma - large cell
+^ESCTOR370957	Orchioblastoma
+^ESCTOV366217	Ovarian stromal tumor
+^ESCTOV366219	Ovarian stromal tumour
+^ESCTPA258981	Papillotubular adenocarcinoma
+^ESCTPA269740	Papillary urothelial carcinoma
+^ESCTPA312868	Papillary epidermoid carcinoma
+^ESCTPA396760	Papillary serous cystadenocarcinoma
+^ESCTPA396761	Papillary serous adenocarcinoma
+^ESCTPE369781	Peripheral neuroectodermal tumor
+^ESCTPE369783	Peripheral primitive neuroectodermal tumor
+^ESCTPE369786	Peripheral primitive neuroectodermal tumour
+^ESCTPE757867	Perivascular epithelioid tumour, malignant
+^ESCTPE757868	Perivascular epithelioid tumor, malignant
+^ESCTPE757869	PEComa, malignant
+^ESCTPH392874	Phyllodes tumour, malignant
+^ESCTPH392875	Phyllodes tumor, malignant
+^ESCTPI251975	Pigmented basal cell carcinoma
+^ESCTPL372473	Placental site trophoblastic tumour
+^ESCTPL372474	Placental site trophoblastic tumor
+^ESCTPO370956	Polyvesicular vitelline tumor
+^ESCTPO370961	Polyvesicular vitelline tumour
+^ESCTPP369784	PPNET
+^ESCTPR258014	Primary cutaneous neuroendocrine carcinoma
+^ESCTPR274863	Primary serous papillary carcinoma of peritoneum
+^ESCTPS367888	Pseudomyxoma peritonei with unknown primary site
+^ESCTRE370879	Reserve cell carcinoma
+^ESCTRH299849	Rhabdosarcoma
+^ESCTRH299850	Rhabdomyosarcoma, no subtype
+^ESCTRO251976	Rodent ulcer
+^ESCTRO370880	Round cell carcinoma
+^ESCTSA272600	Sarcoma botryoides
+^ESCTSC261622	Schminke tumor
+^ESCTSC261623	Schminke tumour
+^ESCTSC296473	SCC - Squamous cell carcinoma
+^ESCTSC370881	SCC - Small cell carcinoma
+^ESCTSC396161	SCC - Verrucous squamous cell carcinoma
+^ESCTSE304938	Sertoli-Leydig cell tumour, well differentiated
+^ESCTSE304939	Sertoli-Leydig cell tumor, well differentiated
+^ESCTSE338832	Sebaceous adenocarcinoma
+^ESCTSE338833	Sebaceous carcinoma
+^ESCTSE366212	Sex cord-stromal tumour
+^ESCTSE366213	Sex cord-stromal tumor
+^ESCTSE366214	Sex cord tumor
+^ESCTSE366220	Sex cord tumour
+^ESCTSE366222	Sex cord-stromal tumour, no ICD-O subtype
+^ESCTSE366223	Sex cord-stromal tumor, no ICD-O subtype
+^ESCTSE366224	Sex cord-stromal tumor, no International Classification of Diseases for Oncology subtype
+^ESCTSE397451	Serous adenocarcinoma
+^ESCTSE397452	Serous carcinoma
+^ESCTSE441390	Sertoli-Leydig cell tumour, retiform
+^ESCTSE441391	Sertoli-Leydig cell tumor, retiform
+^ESCTSE441392	Sertoli-Leydig cell tumour, intermediate differentiation, with heterologous elements
+^ESCTSE441393	Sertoli-Leydig cell tumor, retiform, with heterologous elements
+^ESCTSE441394	Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements
+^ESCTSE441395	Sertoli-Leydig cell tumour, retiform, with heterologous elements
+^ESCTSE441396	Sertoli-Leydig cell tumour, moderately differentiated, with heterologous elements
+^ESCTSE441397	Sertoli-Leydig cell tumor, moderately differentiated, with heterologous elements
+^ESCTSE441404	Sertoli-Leydig cell tumour, poorly differentiated, with heterologous elements
+^ESCTSE441405	Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements
+^ESCTSE441812	Serous cystadenoma, borderline malignancy
+^ESCTSE441813	Serous tumor of low malignant potential
+^ESCTSE441816	Serous tumour of low malignant potential
+^ESCTSE441818	Serous borderline tumor
+^ESCTSE441819	Serous tumor, atypical proliferative
+^ESCTSE441820	Serous borderline tumour
+^ESCTSE441821	Serous tumour, atypical proliferative
+^ESCTSE441963	Sertoli-Leydig cell tumour of intermediate differentiation
+^ESCTSE441964	Sertoli-Leydig cell tumor
+^ESCTSE441965	Sertoli-Leydig cell tumor of intermediate differentiation
+^ESCTSE441966	Sertoli-Leydig cell tumour
+^ESCTSE441967	Sertoli-Leydig cell tumour, moderately differentiated
+^ESCTSE441968	Sertoli-Leydig cell tumor, moderately differentiated
+^ESCTSE441969	Sertoli-Leydig cell tumour, poorly differentiated
+^ESCTSE441970	Sertoli-Leydig cell tumor, sarcomatoid
+^ESCTSE441971	Sertoli-Leydig cell tumor, poorly differentiated
+^ESCTSE441972	Sertoli-Leydig cell tumour, sarcomatoid
+^ESCTSE757791	Serous intraepithelial carcinoma
+^ESCTSE757806	Seromucinous carcinoma
+^ESCTSI392602	Signet ring cell adenocarcinoma
+^ESCTSM259458	Small cell carcinoma, intermediate cell
+^ESCTSO441417	Solitary fibrous tumour
+^ESCTSO441419	Solitary fibrous tumor
+^ESCTSQ278635	Squamous cell carcinoma, keratinising
+^ESCTSQ278636	Squamous cell carcinoma, keratinizing
+^ESCTSQ278637	Squamous cell carcinoma, large cell, keratinizing
+^ESCTSQ278640	Squamous cell carcinoma, large cell, keratinising
+^ESCTSQ296469	Squamous cell carcinoma
+^ESCTSQ296470	Squamous carcinoma
+^ESCTSQ296471	Squamous cell epithelioma
+^ESCTSQ296474	Squamous cell carcinoma, no ICD-O subtype
+^ESCTSQ296475	Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype
+^ESCTSQ323402	Squamous cell carcinoma, large cell, nonkeratinising
+^ESCTSQ323403	Squamous cell carcinoma, large cell, nonkeratinizing
+^ESCTSQ323405	Squamous cell carcinoma, nonkeratinizing
+^ESCTSQ323407	Squamous cell carcinoma, nonkeratinising
+^ESCTST279926	Struma ovarii, malignant
+^ESCTST301645	Strumal carcinoid
+^ESCTST301646	Struma ovarii and carcinoid
+^ESCTST441399	Stromal myosis
+^ESCTST441400	Stromal endometriosis
+^ESCTST441973	Steroid cell tumour, malignant
+^ESCTST441974	Steroid cell tumor, malignant
+^ESCTSY322201	Syncytioma
+^ESCTTC293397	TCC - Transitional cell carcinoma
+^ESCTTE280898	Teratoma, malignant
+^ESCTTE280900	Teratoblastoma, malignant
+^ESCTTE280905	Teratoma, malignant, no ICD-O subtype
+^ESCTTE280906	Teratoma, malignant, no International Classification of Diseases for Oncology subtype
+^ESCTTE366216	Testicular stromal tumor
+^ESCTTE366218	Testicular stromal tumour
+^ESCTTR293395	Transitional carcinoma
+^ESCTTR441489	Trophoblastic tumor, epithelioid
+^ESCTTU258980	Tubulopapillary adenocarcinoma
+^ESCTTY382737	Typical carcinoid
+^ESCTUN312068	Undifferentiated carcinoma
+^ESCTUN441414	Undifferentiated sarcoma
+^ESCTUR293396	Urothelial carcinoma
+^ESCTVE396157	Verrucous squamous cell carcinoma
+^ESCTVE396158	Verrucous epidermoid carcinoma
+^ESCTWA396159	Warty carcinoma
+^ESCTWA662235	Warty (condylomatous) carcinoma
+^ESCTWA662237	Warty carcinoma
+^ESCTWO253435	Wolffian duct carcinoma
+^ESCTWO270745	Wolffian duct tumor
+^ESCTWO270746	Wolffian duct tumour
+^ESCTYO370955	Yolk sac tumor
+^ESCTYO370959	Yolk sac tumour
