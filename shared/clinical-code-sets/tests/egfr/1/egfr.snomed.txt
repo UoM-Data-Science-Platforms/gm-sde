@@ -7,3 +7,10 @@
 737105002	GFR (glomerular filtration rate) calculation technique
 80274001	Glomerular filtration rate (observable entity)
 996231000000108	GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
+857971000000104	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula (observable entity)
+963601000000106	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation (observable entity)
+963611000000108	Estimated glomerular filtration rate using cystatin C per 1.73 square metres
+963621000000102	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation (observable entity)
+963631000000100	Estimated glomerular filtration rate using serum creatinine per 1.73 square metres
+857981000000102	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres
+	
