@@ -4,3 +4,7 @@
 162755006	On examination - height
 248327008	General finding of height
 248333004	Standing height
+1162419008	Self reported body height (observable entity)
+1153637007	Body height (observable entity)
+1230278008	Self reported peak adult body height (observable entity)
+54871000237100	Patient height (observable entity)
