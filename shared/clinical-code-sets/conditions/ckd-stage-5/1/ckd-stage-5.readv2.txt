@@ -6,3 +6,4 @@
 1Z1K.00	Chronic kidney disease stage 5 with proteinuria
 K055.00	Chronic kidney disease stage 5
 K0D..	End-stage renal disease
+K050.00	End stage renal failure

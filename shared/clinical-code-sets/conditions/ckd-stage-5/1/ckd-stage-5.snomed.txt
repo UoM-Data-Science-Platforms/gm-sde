@@ -14,3 +14,17 @@
 950311000000102	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
 691411000119101	Anaemia in chronic kidney disease stage 5
 46177005	End-stage renal disease
+714153000	Chronic kidney disease stage 5 with transplant
+707324008	Anemia co-occurrent and due to end stage renal disease (disorder)
+16320631000119104	Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease (finding)
+429075005	Dependence on dialysis due to end stage renal disease (finding)
+428982002	Dependence on hemodialysis due to end stage renal disease (finding)
+428937001	Dependence on peritoneal dialysis due to end stage renal disease (finding)
+111411000119103	End stage renal disease due to hypertension (disorder)
+236435004	End stage renal failure on dialysis (disorder)
+236434000	End stage renal failure untreated by renal replacement therapy (disorder)
+236436003	End stage renal failure with renal transplant (disorder)
+712487000	End stage renal disease due to benign hypertension (disorder)
+153891000119101	End stage renal disease on dialysis due to hypertension (disorder)
+285841000119104	Malignant hypertensive end stage renal disease (disorder)
+286371000119107	Malignant hypertensive end stage renal disease on dialysis (disorder)
