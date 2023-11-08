@@ -16,8 +16,10 @@
 --  - max-or-min: string (max/min) if two or more values on the same day should we choose the max or min
 --  - temp-table-name: string - the name of the temp table that this will produce
 
--- OUTPUT: Temp tables as follows:
--- {temp-table-name} - two column table linking patient link id with the most recent value
+-- OUTPUT: Temp table `temp-table-name` with columns:
+--  - FK_Patient_Link_ID - unique patient id
+--  - MostRecentDate - date (YYYY/MM/DD) - date of the most recent value
+--  - MostRecentValue - float - the most recent value
 {endif:verbose}
 
 --> CODESET {param:code-set}:{param:version}
