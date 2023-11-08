@@ -10,6 +10,8 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 **UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
 
+_Update **2023/11/01**: prevalence now `61.2% - 65.7%` for EMIS and VISION. TPP higher at 73%._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
@@ -18,3 +20,10 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
 | 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
 | 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+| 2023-11-01 | EMIS            | 2472595    |  1624196 (65.7%) |   1624289 (65.7%) |
+| 2023-11-01 | TPP             | 200603     |     146449 (73%) |      146448 (73%) |
+| 2023-11-01 | Vision          | 332447     |   203333 (61.2%) |    203347 (61.2%) |
+
+## Audit log
+
+- Find_missing_codes last run 2023-11-01
