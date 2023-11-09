@@ -19,7 +19,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --┌──────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for RQ041: patients with biochemical evidence of CKD   │
@@ -37,31 +37,21 @@ SET @EndDate = '2022-03-01';
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -461,7 +451,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #EGFR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
@@ -476,7 +466,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #ACR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
@@ -573,7 +563,7 @@ WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #kidney_damage
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
@@ -713,7 +703,7 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
 WHERE 
-	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
+	(DeathDate < @EndDate OR DeathDate IS NULL) AND 
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
@@ -736,7 +726,7 @@ SELECT
   [Value],
   [Units]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 
@@ -770,7 +760,7 @@ SELECT
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
 INTO #medications_rx
-FROM RLS.vw_GP_Medications m
+FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
