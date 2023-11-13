@@ -1,0 +1,14 @@
+^ESCT1191812	[X]Malignant neoplasm of breast
+^ESCTBR535151	Breast cancer
+^ESCTBR802998	Breast cancer detected by national screening programme
+^ESCTCA535152	CA - Breast cancer
+^ESCTCA636364	Cancer of female breast
+^ESCTFE636363	Female breast cancer
+^ESCTMA535149	Malignant tumour of breast
+^ESCTMA535150	Malignant tumor of breast
+^ESCTMA535153	Malignant neoplasm of breast
+^ESCTPR402467	Primary malignant neoplasm of areola of female breast
+^ESCTPR402702	Primary malignant neoplasm of nipple of female breast
+^ESCTTN761093	TNBC - Triple-negative breast cancer
+^ESCTTR761091	Triple-negative breast cancer
+^ESCTTR761092	Triple negative malignant neoplasm of breast

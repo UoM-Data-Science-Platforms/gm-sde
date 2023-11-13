@@ -1,0 +1,57 @@
+^ESCTFA710401	Fall from high place
+^ESCT1192475	Fall on moving sidewalk
+^ESCT1407194	Fall down stairs
+^ESCT1407195	Fall down steps
+^ESCTFA278380	Fall with wheelchair
+^ESCTFA278382	Fall involving wheelchair
+^ESCTFA283255	Fall involving bed
+^ESCTFA385820	Fall involving chair
+^ESCTFA488555	Fall on stairs in water transport
+^ESCTFA488928	Fall whilst on board aircraft
+^ESCTFA488929	Fall while on board aircraft
+^ESCTFA489982	Fall on or from moving staircase
+^ESCTFA490022	Fall on travelling pavement
+^ESCTFA517094	Fall from stationary railway vehicle
+^ESCTFA517134	Fall down stairs of motor bus whilst boarding or alighting
+^ESCTFA517135	Fall down stairs of motor bus while boarding or alighting
+^ESCTFA517138	Fall from car in street whilst boarding or alighting
+^ESCTFA517139	Fall from car in street while boarding or alighting
+^ESCTFA517140	Fall from car whilst boarding or alighting due to tripping on seat belt
+^ESCTFA517141	Fall from car while boarding or alighting due to tripping on seat belt
+^ESCTFA517226	Fall on wet deck on board vessel
+^ESCTFA517444	Fall due to polished surface
+^ESCTFA517445	Fall due to discarded object
+^ESCTFA517446	Fall in bath or shower
+^ESCTFA517447	Fall due to defective pavement
+^ESCTFA517448	Fall due to accidental trip by another person
+^ESCTFA517449	Fall due to trip on loose carpet
+^ESCTFA517450	Fall due to trip on loose rug
+^ESCTFA517451	Fall due to uneven surface indoors
+^ESCTFA517453	Fall due to loss of equilibrium
+^ESCTFA517454	Fall due to failure of support
+^ESCTFA517455	Fall due to failure of rail
+^ESCTFA517456	Fall due to leaning on insecure furniture
+^ESCTFA517457	Fall on same level due to accidental impact with another person
+^ESCTFA517459	Fall due to impact against pedestrian conveyance
+^ESCTFA517460	Fall due to impact against pram
+^ESCTFA517461	Fall due to impact against baby buggy
+^ESCTFA517462	Fall due to impact against push chair
+^ESCTFA517463	Fall due to impact against perambulator
+^ESCTFA517464	Fall due to impact against baby carriage
+^ESCTFA517465	Fall due to impact against supermarket trolley
+^ESCTFA517466	Fall due to impact against shopping trolley
+^ESCTFA517467	Fall due to impact against supermarket shopping cart
+^ESCTFA517468	Fall due to impact against shopping cart
+^ESCTFA517469	Fall due to impact against wheelbarrow
+^ESCTFA517476	Fall from stool
+^ESCTFA517479	Fall from ambulance stretcher
+^ESCTFA517480	Fall from toilet seat
+^ESCTFA551287	Fall on same level from impact against object
+^ESCTFA556770	Fall on same level due to nature of surface
+^ESCTFA556771	Fall on same level due to impact against another person
+^ESCTFE493572	Fell onto outstretched hand
+^ESCTFO493573	FOOSH - Fell onto outstretched hand
+^ESCTUN670524	Unexplained recurrent falls
+EMISNQPA3	Patient has had a fall
+EMISNQUN2	Unexplained fall
+JHCFA6	Fall from height
