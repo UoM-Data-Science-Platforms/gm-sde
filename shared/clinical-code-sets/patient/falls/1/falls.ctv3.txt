@@ -1,0 +1,243 @@
+16D..	Falls
+T040.	Fall in train
+T040y	Fall in train, other specified person injured
+T040z	Fall in train, unspecified person injured
+T041.	Fall on train
+T041y	Fall on train, other specified person injured
+T041z	Fall on train, unspecified person injured
+T042.	Fall from train
+T042y	Fall from train, other specified person injured
+T042z	Fall from train, unspecified person injured
+T430.	Fall on stairs in water transport
+T4302	Fall-stairs water transport - crew other watercraft injured
+T4303	Fall-stairs water transport - passenger other watercraft inj
+T430y	Fall-stairs water transport - other specified person injured
+T430z	Fall-stairs water transport - unspecified person injured
+T532.	Fall while on board aircraft
+T5323	Fall in aircraft - other occ comm aircraft surf/surf injured
+T5325	Fall in aircraft - occupant other powered aircraft injured
+T532z	Fall in aircraft - other person injured
+TC0..	Fall on or from stairs or steps
+TC00.	Fall on or from escalator
+TC001	Fall from escalator
+TC00z	Fall on or from escalator NOS
+TC01.	Fall on or from stairs
+TC010	Fall on stairs
+TC011	Fall from stairs
+TC01z	Fall on or from stairs NOS
+TC02.	Fall on or from steps
+TC020	Fall on steps
+TC021	Fall from steps
+TC02z	Fall on or from steps NOS
+TC0z.	Fall on or from stairs or steps NOS
+TC305	Accident caused by fall into swimming pool
+TC321	Accidental fall into storm drain
+TC3y1	Fall into dock
+TC420	Fall from chair
+TC421	Fall from bed
+TC4y2	Fall from stationary vehicle
+TC50.	Fall on same level from slipping
+TC51.	Fall on same level from tripping
+TC52.	Fall on same level from stumbling
+TC53.	Fall on moving sidewalk
+TC6..	Fall on same level- collision/push/shove by/with oth person
+TC6y.	Fall on same level from other push/shove/collide oth person
+TC6y0	Fall on same level from collision with other person, unspec
+TC6y1	Fall on same level from pushing by other person, unspecified
+TC6y2	Fall on same level from shoving by other person, unspecified
+TC6yz	Other fall on same level- push/shove/collide-oth person NOS
+TC6z.	Fall on same level- push/shove/collide - other person NOS
+TCy..	Other falls
+TCy0.	Fall from bump against object
+U10..	[X]Falls
+U100.	[X]Fall on same level involving ice and snow
+U1000	[X]Fall on same level involving ice and snow occurrn home
+U1001	[X]Fall same level involv ice / snow occurrn resid instit'n
+U1002	[X]Fall sam lvl inv ice/snw occ sch oth inst/pub admin area
+U1003	[X]Fall same levl involv ice/snow, occ sport/athlet area
+U1004	[X]Fall same levl inv ice and snow, occ street / highway
+U1005	[X]Fall same levl inv ice / snow, occ trade / service area
+U1006	[X]Fall same levl inv ice/snow, occ indust / construct area
+U1007	[X]Fall on same levl involving ice and snow occurrn on farm
+U100y	[X]Fall same levl inv ice / snow, occ at other specif place
+U100z	[X]Fall same levl inv ice / snow, occ at unspecified place
+U102.	[X]Fall involv ice-skates skis roller-skates or skateboards
+U1020	[X]Fall inv ice-skate skis roll-skate/skateboard, occ home
+U1021	[X]Fall inv ice-skat ski roll-skat/skateboard occ resid inst
+U1022	[X]Fall, ice-skt ski rol-skt/skbd, sch oth inst/pub adm area
+U1023	[X]Fall inv ice-skt ski rol-skt/skbrd occ sport/athlet area
+U1024	[X]Fall inv ice-skat ski roll-skat/skbrd occ street/highway
+U1025	[X]Fall inv ice-skt ski rol-skt/skbrd occ trade/servce area
+U1026	[X]Fall inv ice-skt ski rol-skt/skbrd indust/construct area
+U1027	[X]Fall inv ice-skat ski roll-skat/skatebrd, occur on farm
+U102y	[X]Fall inv ice-skt ski roll-skt/skbrd, occ oth spec place
+U102z	[X]Fall inv ice-skat ski roll-skat/skbrd occ unspecif place
+U103.	[X]Oth fall same levl due collisn/pushing by another person
+U1030	[X]Oth fall same levl, collisn/push by anoth pers, occ home
+U1031	[X]Oth fall same levl collisn/push anoth pers occ resid inst
+U1032	[X]Oth fall lvl col/push anoth per occ sch/inst/pub adm area
+U1033	[X]Oth fall sme levl col/push anoth pers occ sport/athl area
+U1034	[X]Oth fall sme levl coll/push anoth pers occ street/h'way
+U1035	[X]Oth fall sme levl coll/push anth pers occ trad/serv area
+U1036	[X]Oth fall sme lvl col/push anoth per occ indus/constr area
+U1037	[X]Oth fall sme levl, collisn/push by anoth pers, occ farm
+U103y	[X]Oth fall sme levl coll/push anoth per occ oth spec place
+U103z	[X]Oth fall same levl coll/push anoth pers occ unspec place
+U104.	[X]Fall while being carried or supported by other persons
+U1041	[X]Fall whle carried/supported oth persons occ resid instit
+U1042	[X]Fall whle crd/sprtd oth per occ sch oth inst/pub adm area
+U1043	[X]Fall whle carr'd/supportd oth pers occ sport/athlet area
+U1044	[X]Fall whle carr'd/supprtd by oth pers occ on street/h'way
+U1045	[X]Fall whle carr'd/supprtd by oth per occ trade/serv area
+U1046	[X]Fall whle carr'd/supprtd oth pers occ indust/constr area
+U1047	[X]Fall whle carr'd/supportd by other persons, occ on farm
+U104y	[X]Fall whle carr'd/supportd oth per occ other specif place
+U104z	[X]Fall whle carr'd/supportd by oth per, occ unspecif place
+U105.	[X]Fall involving wheelchair
+U1050	[X]Fall involving wheelchair, occurrence at home
+U1051	[X]Fall involvng wheelchair occurrence residential instit'n
+U1052	[X]Fall invlv w'chair occ school oth instit/pub admin area
+U1053	[X]Fall involving wheelchair, occurrn at sport/athlet area
+U1054	[X]Fall involving wheelchair, occurrence on street/highway
+U1055	[X]Fall involvng wheelchair occurrnce at trade/service area
+U1056	[X]Fall involv wheelchair, occurrnce at indust/constr area
+U1057	[X]Fall involving wheelchair, occurrence on farm
+U105y	[X]Fall involv wheelchair, occurrnce at other specif place
+U105z	[X]Fall involving wheelchair occurrnce at unspecified place
+U106.	[X]Fall involving bed
+U1060	[X]Fall involving bed, occurrence at home
+U1061	[X]Fall involving bed, occurrence in residential institution
+U1062	[X]Fall involv bed occurrn school oth instit/pub admin area
+U1063	[X]Fall involving bed occurrence at sports / athletics area
+U1064	[X]Fall involving bed, occurrence on street and highway
+U1065	[X]Fall involving bed, occurrence at trade and service area
+U1066	[X]Fall involv bed occurrn at industrial/construction area
+U1067	[X]Fall involving bed, occurrence on farm
+U106y	[X]Fall involving bed, occurrence at other specified place
+U106z	[X]Fall involving bed, occurrence at unspecified place
+U107.	[X]Fall involving chair
+U1070	[X]Fall involving chair, occurrence at home
+U1071	[X]Fall involving chair occurrence in residential instit'n
+U1072	[X]Fall invlv chair occ at school oth instit/pub admin area
+U1073	[X]Fall involving chair occurrence at sports/athletics area
+U1074	[X]Fall involving chair, occurrence on street and highway
+U1075	[X]Fall involv chair, occurrence at trade and service area
+U1076	[X]Fall involving chair occurrence at indust/construct area
+U1077	[X]Fall involving chair, occurrence on farm
+U107y	[X]Fall involving chair, occurrence at other specified place
+U107z	[X]Fall involving chair, occurrence at unspecified place
+U108.	[X]Fall involving other furniture
+U1080	[X]Fall involving other furniture, occurrence at home
+U1081	[X]Fall involv other furniture occurrn resident institut'n
+U1082	[X]Fall inv oth furnitur occ schl oth instit/pub admin area
+U1083	[X]Fall involv oth furniture occurrnce at sport/athlet area
+U1084	[X]Fall involv other furniture occurrnce on street/highway
+U1085	[X]Fall involv oth furniture occurrnce at trade/serv area
+U1086	[X]Fall involv oth furnitre occurrnce at indust/constr area
+U1087	[X]Fall involving other furniture, occurrence on farm
+U108y	[X]Fall involv oth furnitur occurrnce at other specif place
+U108z	[X]Fall involv oth furniture, occurrnce at unspecif place
+U10A.	[X]Fall on and from stairs and steps
+U10A0	[X]Fall on and from stairs and steps, occurrence at home
+U10A1	[X]Fall on + from stair + step occurrnce resident instit'n
+U10A2	[X]Fall on + frm stair + step occ sch oth inst/pub adm area
+U10A3	[X]Fall on + from stair + step occurrn at sport/athlet area
+U10A4	[X]Fall on + from stairs + steps occurrn on street/highway
+U10A5	[X]Fall on + from stair + step occurrn at trade/servce area
+U10A6	[X]Fall on + from stair + step occurrnce indust/constr area
+U10A7	[X]Fall on and from stairs and steps, occurrence on farm
+U10Ay	[X]Fall on + from stair + step occurrn at oth specif place
+U10Az	[X]Fall on + from stair + step occurrnce at unspecif place
+U10H0	[X]Other fall from one level to another, occurrence at home
+U10H1	[X]Othr fall frm one level to anothr occurrn in resid inst
+U10H2	[X]Othr fall frm one level to anothr, sch inst/pub adm area
+U10H3	[X]Othr fall from one level to anothr occ sport/athlet area
+U10H4	[X]Othr fall from one level to anothr occurrn street/h'way
+U10H5	[X]Other fall frm one level to anothr occ at trde/serv area
+U10H6	[X]Other fall frm one level to anoth occ indust/constr area
+U10H7	[X]Other fall from one level to another, occurrence on farm
+U10Hy	[X]Other fall frm one levl to anothr occ at oth specif plce
+U10Hz	[X]Othr fall frm one level to anothr occurrn at unspec plce
+U10J.	[X]Other fall on same level
+U10J0	[X]Other fall on same level, occurrence at home
+U10J1	[X]Other fall on same level, occurrnce in resident instit'n
+U10J2	[X]Other fall on same levl occ schl oth inst/pub admin area
+U10J3	[X]Other fall on same level occurrn at sports/athletic area
+U10J4	[X]Other fall on same level, occurrence on street / highway
+U10J5	[X]Other fall on same level occurrnce at trade/service area
+U10J6	[X]Other fall on same levl, occurrn at indust/constuct area
+U10J7	[X]Other fall on same level, occurrence on farm
+U10Jy	[X]Other fall on same level occurrn at oth specified place
+U10Jz	[X]Other fall on same level, occurrence at unspecified place
+U10z.	[X]Unspecified fall
+U10z0	[X]Unspecified fall, occurrence at home
+U10z1	[X]Unspecified fall, occurrence in residential institution
+U10z2	[X]Unspecif fall occurrnce school oth instit/pub admin area
+U10z3	[X]Unspecified fall, occurrence at sports and athletics area
+U10z4	[X]Unspecified fall, occurrence on street and highway
+U10z5	[X]Unspecified fall, occurrence at trade and service area
+U10z6	[X]Unspecified fall occurrn at industrial/construction area
+U10z7	[X]Unspecified fall, occurrence on farm
+U10zy	[X]Unspecified fall, occurrence at other specified place
+U10zz	[X]Unspecified fall, occurrence at unspecified place
+Ua1AN	Fell onto outstretched hand
+X70yi	Fall from stationary railway vehicle
+X70zC	Fall down stairs of motor bus while boarding or alighting
+X70zE	Fall from car in street while boarding or alighting
+X70zF	Fall from car while boarding/alighting-tripping on seat belt
+X710V	Fall on wet deck on board vessel
+X713i	Fall due to slipping on ice or snow
+X713k	Fall due to wet surface
+X713l	Fall due to polished surface
+X713m	Fall due to discarded object
+X713n	Fall in bath or shower
+X713o	Fall due to defective pavement
+X713p	Fall due to accidental trip by another person
+X713q	Fall due to trip on loose carpet
+X713r	Fall due to uneven surface indoors
+X713t	Fall due to loss of equilibrium
+X713u	Fall due to failure of support
+X713v	Fall due to failure of rail
+X713w	Fall due to leaning on insecure furniture
+X713x	Fall on same level- accidental impact with another person
+X713z	Fall due to impact against pedestrian conveyance
+X7140	Fall due to impact against pram
+X7141	Fall due to impact against supermarket trolley
+X7142	Fall due to impact against wheelbarrow
+X7149	Fall from stool
+X714B	Fall from wheelchair
+X714C	Fall from ambulance stretcher
+X714E	Fall from toilet seat
+Xa1GP	Recurrent falls
+Xa3j2	Fall - on same level
+Xaasz	Fall
+XaJHb	Falls caused by medication
+XE21s	Fall on same level from impact against object
+XM1Fe	Fall on same level due to nature of surface
+XM1Ff	Fall on same level due to impact against another person
+U4B..	[X]Falling, jumping or pushed from a high place, undetermined intent
+U4B..	[X]Falling, jumping or pushed from a high place, undetermined intent
+U4B0.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at home
+U4B1.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence in residential institution
+U4B2.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at school, other institution and public administrative area
+U4B3.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at sports and athletics area
+U4B3.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at sports and athletics area
+U4B4.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence on street and highway
+U4B4.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence on street and highway
+U4B5.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at trade and service area
+U4B6.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at industrial and construction area
+U4B7.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence on farm
+U4By.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at other specified place
+U4Bz.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at unspecified place
+U4B..	[X]Falling, jumping or pushed from a high place, undetermined intent
+U4B0.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at home
+U4B1.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence in residential institution
+U4B2.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at school, other institution and public administrative area
+U4B3.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at sports and athletics area
+U4B3.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at sports and athletics area
+U4B4.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence on street and highway
+U4B5.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at trade and service area
+U4B6.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at industrial and construction area
+U4B7.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence on farm
+U4By.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at other specified place
+U4Bz.	[X]Falling, jumping or pushed from a high place, undetermined intent, occurrence at unspecified place

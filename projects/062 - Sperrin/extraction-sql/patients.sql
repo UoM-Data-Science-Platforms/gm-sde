@@ -1,13 +1,17 @@
 --+--------------------------------------------------------------------------------+
 --¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
+-- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BRTH FOR THE TABLE BELOW. THANKS.
+-- !!! NEED TO DO: GO THROUGH SURG TO CHECK IF WE CAN PROVIDE ALL THE INFORMATION BELOW OR NEED TO REDUCE SOME COLUMNS FOR PROTECTING PID.
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
+
 
 -- OUTPUT: Data with the following fields
 -- PatientId
 -- WeekOfBirth (dd/mm/yyyy)
 -- MonthAndYearOfBirth (mm/yyyy)
+-- YearAndMonthOfDeath
 -- Sex
 -- Ethnicity
 -- GPID
@@ -26,6 +30,8 @@ SET NOCOUNT ON;
 --│ Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013 │
 --└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
+-- NEED TO DO!!!: CHANGE YEAR AND MONTH OF BIRTH INTO WEEK OF BIRTH LATER WHEN THE WEEK OF BIRTH DATA IS AVAILABLE
+
 -- OBJECTIVE: To build the cohort of patients needed for RQ062. This reduces duplication of code in the template scripts.
 
 -- COHORT: All individuals who registered with a GP, and were aged 50 years or older on September 1 2013 (the start of the herpes zoster vaccine programme in the UK)
@@ -34,7 +40,6 @@ SET NOCOUNT ON;
 -- #Patients (FK_Patient_Link_ID)
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Create table #Patients for the reusable queries =========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -239,3 +244,551 @@ HAVING MAX(YearAndQuarterMonthOfBirth) <= GETDATE();
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
 DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
+
+
+-- Merge information========================================================================================================================================================
+IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+SELECT
+  p.FK_Patient_Link_ID as PatientId, 
+  gp.GPPracticeCode, 
+  yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
+INTO #Table
+FROM #Patients p
+LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+
+
+-- Reduce #Patients table to just the cohort patients========================================================================================================================
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT PatientId
+FROM #Table
+WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
+--┌─────┐
+--│ Sex │
+--└─────┘
+
+-- OBJECTIVE: To get the Sex for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientSex (FK_Patient_Link_ID, Sex)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- Sex - M/F
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+--	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+--	-	If every sex for a patient is the same, then we use that
+--	-	If there is a single most recently updated sex in the database then we use that
+--	-	Otherwise the patient's sex is considered unknown
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	Sex
+INTO #AllPatientSexs
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Sex IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely Sex
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
+SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If every Sex is the same for all their linked patient ids then we use that
+INSERT INTO #PatientSex
+SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedSexPatients;
+INSERT INTO #UnmatchedSexPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If there is a unique most recent Sex then use that
+INSERT INTO #PatientSex
+SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
+-- >>> Ignoring following query as already injected: query-patient-year-and-quarter-month-of-birth.sql
+--┌────────────────────┐
+--│ Patient GP history │
+--└────────────────────┘
+
+-- OBJECTIVE: To produce a table showing the start and end dates for each practice the patient
+--            has been registered at.
+
+-- ASSUMPTIONS:
+--	-	We do not have data on patients who move out of GM, though we do know that it happened. 
+--    For these patients we record the GPPracticeCode as OutOfArea
+--  - Where two adjacent time periods either overlap, or have a gap between them, we assume that
+--    the most recent registration is more accurate and adjust the end date of the first time
+--    period accordingly. This is an infrequent occurrence.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - national GP practice id system
+--	- StartDate - date the patient registered at the practice
+--	- EndDate - date the patient left the practice
+
+-- First let's get the raw data from the GP history table
+IF OBJECT_ID('tempdb..#AllGPHistoryData') IS NOT NULL DROP TABLE #AllGPHistoryData;
+SELECT 
+	FK_Patient_Link_ID, CASE WHEN GPPracticeCode like 'ZZZ%' THEN 'OutOfArea' ELSE GPPracticeCode END AS GPPracticeCode, 
+	CASE WHEN StartDate IS NULL THEN '1900-01-01' ELSE CAST(StartDate AS DATE) END AS StartDate, 
+	CASE WHEN EndDate IS NULL THEN '2100-01-01' ELSE CAST(EndDate AS DATE) END AS EndDate 
+INTO #AllGPHistoryData FROM SharedCare.Patient_GP_History
+WHERE FK_Reference_Tenancy_ID=2 -- limit to GP feed makes it easier than trying to deal with the conflicting data coming from acute care
+AND (StartDate < EndDate OR EndDate IS NULL) --Some time periods are instantaneous (start = end) - this ignores them
+AND GPPracticeCode IS NOT NULL;
+--4147852
+
+IF OBJECT_ID('tempdb..#PatientGPHistory') IS NOT NULL DROP TABLE #PatientGPHistory;
+CREATE TABLE #PatientGPHistory(FK_Patient_Link_ID BIGINT, GPPracticeCode NVARCHAR(50), StartDate DATE, EndDate DATE);
+
+IF OBJECT_ID('tempdb..#AllGPHistoryDataOrdered') IS NOT NULL DROP TABLE #AllGPHistoryDataOrdered;
+CREATE TABLE #AllGPHistoryDataOrdered(FK_Patient_Link_ID BIGINT, GPPracticeCode NVARCHAR(50), StartDate DATE, EndDate DATE, RowNumber INT);
+
+IF OBJECT_ID('tempdb..#AllGPHistoryDataOrderedJoined') IS NOT NULL DROP TABLE #AllGPHistoryDataOrderedJoined;
+CREATE TABLE #AllGPHistoryDataOrderedJoined(
+  FK_Patient_Link_ID BIGINT,
+  GP1 NVARCHAR(50),
+  R1 INT,
+  S1 DATE,
+  E1 DATE,
+  GP2 NVARCHAR(50),
+  S2 DATE,
+  E2 DATE,
+  R2 INT,
+);
+
+-- Easier to get rid of everyone who only has one GP history entry
+IF OBJECT_ID('tempdb..#PatientGPHistoryJustOneEntryIds') IS NOT NULL DROP TABLE #PatientGPHistoryJustOneEntryIds;
+SELECT FK_Patient_Link_ID INTO #PatientGPHistoryJustOneEntryIds FROM #AllGPHistoryData
+GROUP BY FK_Patient_Link_ID
+HAVING COUNT(*) = 1;
+
+-- Holding table for their data
+IF OBJECT_ID('tempdb..#PatientGPHistoryJustOneEntry') IS NOT NULL DROP TABLE #PatientGPHistoryJustOneEntry;
+SELECT * INTO #PatientGPHistoryJustOneEntry FROM #AllGPHistoryData
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientGPHistoryJustOneEntryIds);
+
+-- Remove from main table
+DELETE FROM #AllGPHistoryData
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientGPHistoryJustOneEntryIds);
+
+DECLARE @size INT;
+SET @size = (SELECT COUNT(*) FROM #AllGPHistoryData) + 1;
+
+WHILE(@size > (SELECT COUNT(*) FROM #AllGPHistoryData))
+BEGIN
+  SET @size = (SELECT COUNT(*) FROM #AllGPHistoryData);
+
+  -- Add row numbers so we can join with next row
+  TRUNCATE TABLE #AllGPHistoryDataOrdered;
+  INSERT INTO #AllGPHistoryDataOrdered
+  SELECT *, ROW_NUMBER() OVER (PARTITION BY FK_Patient_Link_ID ORDER BY StartDate) AS RowNumber from #AllGPHistoryData;
+
+  -- Join each patient row with the next one, but only look at the odd numbers to avoid duplicating
+  TRUNCATE TABLE #AllGPHistoryDataOrderedJoined;
+  INSERT INTO #AllGPHistoryDataOrderedJoined
+  SELECT 
+    o1.FK_Patient_Link_ID,o1.GPPracticeCode AS GP1,o1.RowNumber AS R1, 
+    o1.StartDate AS S1, o1.EndDate AS E1, o2.GPPracticeCode AS GP2, 
+    o2.StartDate as S2, o2.EndDate as E2, o2.RowNumber as R2
+  FROM #AllGPHistoryDataOrdered o1
+  LEFT OUTER JOIN #AllGPHistoryDataOrdered o2 ON o1.FK_Patient_Link_ID = o2.FK_Patient_Link_ID AND o1.RowNumber = o2.RowNumber - 1
+  WHERE o1.RowNumber % 2 = 1
+  ORDER BY o1.FK_Patient_Link_ID DESC, o1.StartDate;
+
+  -- If GP is the same, then merge the time periods
+  TRUNCATE TABLE #PatientGPHistory;
+  INSERT INTO #PatientGPHistory
+  SELECT FK_Patient_Link_ID, GP1, S1, CASE WHEN E2 > E1 THEN E2 ELSE E1 END AS E
+  FROM #AllGPHistoryDataOrderedJoined
+  WHERE GP1 = GP2;
+
+  -- If GP is different, first insert the GP2 record
+  INSERT INTO #PatientGPHistory
+  SELECT FK_Patient_Link_ID, GP2, S2, E2 FROM #AllGPHistoryDataOrderedJoined
+  WHERE GP1 != GP2;
+
+  --  then insert the GP1 record
+  INSERT into #PatientGPHistory
+  SELECT FK_Patient_Link_ID, GP1, S1, S2 FROM #AllGPHistoryDataOrderedJoined
+  WHERE GP1 != GP2;
+
+  -- If the GP2 is null, implies it's the last row and didn't have a subsequent
+  -- row to match on, so we just put it back in the gp history table
+  INSERT into #PatientGPHistory
+  SELECT FK_Patient_Link_ID, GP1, S1, E1 FROM #AllGPHistoryDataOrderedJoined
+  WHERE GP2 IS NULL;
+
+  -- Nuke the AllGPHistoryData table
+  TRUNCATE TABLE #AllGPHistoryData;
+
+  -- Repopulate with the current "final" snapshot
+  INSERT INTO #AllGPHistoryData
+  SELECT * FROM #PatientGPHistory;
+
+END
+
+-- Finally re-add the people with only one record
+INSERT INTO #PatientGPHistory
+SELECT * FROM #PatientGPHistoryJustOneEntry;
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+
+-- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
+-- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
+IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	CASE 
+		WHEN IMD_Score <= 3284 THEN 1
+		WHEN IMD_Score <= 6568 THEN 2
+		WHEN IMD_Score <= 9853 THEN 3
+		WHEN IMD_Score <= 13137 THEN 4
+		WHEN IMD_Score <= 16422 THEN 5
+		WHEN IMD_Score <= 19706 THEN 6
+		WHEN IMD_Score <= 22990 THEN 7
+		WHEN IMD_Score <= 26275 THEN 8
+		WHEN IMD_Score <= 29559 THEN 9
+		ELSE 10
+	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
+INTO #AllPatientIMDDeciles
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND IMD_Score IS NOT NULL
+AND IMD_Score != -1;
+-- 972479 rows
+-- 00:00:11
+
+-- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+-- 247377 rows
+-- 00:00:00
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 38710 rows
+-- 00:00:00
+
+-- If every IMD_Score is the same for all their linked patient ids then we use that
+INSERT INTO #PatientIMDDecile
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 36656
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedImdPatients;
+INSERT INTO #UnmatchedImdPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 2054 rows
+-- 00:00:00
+
+-- If there is a unique most recent imd decile then use that
+INSERT INTO #PatientIMDDecile
+SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 489
+-- 00:00:00
+--┌───────────────────────────────┐
+--│ Lower level super output area │
+--└───────────────────────────────┘
+
+-- OBJECTIVE: To get the LSOA for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientLSOA (FK_Patient_Link_ID, LSOA)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- LSOA_Code - nationally recognised LSOA identifier
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+--	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+--	-	If every LSOA for a paitent is the same, then we use that
+--	-	If there is a single most recently updated LSOA in the database then we use that
+--	-	Otherwise the patient's LSOA is considered unknown
+
+-- Get all patients LSOA for the cohort
+IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	LSOA_Code
+INTO #AllPatientLSOAs
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND LSOA_Code IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+-- 38710 rows
+-- 00:00:00
+
+-- If every LSOA_Code is the same for all their linked patient ids then we use that
+INSERT INTO #PatientLSOA
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedLsoaPatients;
+INSERT INTO #UnmatchedLsoaPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+
+-- If there is a unique most recent lsoa then use that
+INSERT INTO #PatientLSOA
+SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
+--┌───────────────────────┐
+--│ Patient GP encounters │
+--└───────────────────────┘
+
+-- OBJECTIVE: To produce a table of GP encounters for a list of patients.
+-- This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured.
+-- This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+-- ASSUMPTIONS:
+--	- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- Also takes parameters:
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+--  - start-date: string - (YYYY-MM-DD) the date to count encounters from.
+--  - end-date: string - (YYYY-MM-DD) the date to count encounters to.
+
+
+-- OUTPUT: A temp table as follows:
+-- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- EncounterDate - date the patient had a GP encounter
+
+
+-- Create a table with all GP encounters ========================================================================================================
+
+IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
+SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+INTO #CodingClassifier
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '1%'
+	or MainCode like '2%'
+	or MainCode in ('6A2..','6A9..','6AA..','6AB..','662d.','662e.','66AS.','66AS0','66AT.','66BB.','66f0.','66YJ.','66YM.','661Q.','66480','6AH..','6A9..','66p0.','6A2..','66Ay.','66Az.','69DC.')
+	or MainCode like '6A%'
+	or MainCode like '65%'
+	or MainCode like '8B31[356]%'
+	or MainCode like '8B3[3569ADEfilOqRxX]%'
+	or MainCode in ('8BS3.')
+	or MainCode like '8H[4-8]%' 
+	or MainCode like '94Z%'
+	or MainCode like '9N1C%' 
+	or MainCode like '9N21%'
+	or MainCode in ('9kF1.','9kR..','9HB5.')
+	or MainCode like '9H9%'
+);
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '8H9%'
+	or MainCode like '9N31%'
+	or MainCode like '9N3A%'
+);
+
+-- Add the equivalent CTV3 codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+-- Add the equivalent EMIS codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
+);
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
+);
+
+-- All above takes ~30s
+
+IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
+CREATE TABLE #GPEncounters (
+	FK_Patient_Link_ID BIGINT,
+	EncounterDate DATE
+);
+
+BEGIN
+  IF 'false'='true'
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM SharedCare.GP_Events
+    WHERE 
+      FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '1800-01-01' AND '2013-09-01'
+  ELSE 
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM SharedCare.GP_Events
+    WHERE 
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '1800-01-01' AND '2013-09-01'
+  END
+
+
+-- Create the table of ethnic================================================================================================================================
+IF OBJECT_ID('tempdb..#Ethnic') IS NOT NULL DROP TABLE #Ethnic;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity
+INTO #Ethnic
+FROM SharedCare.Patient_Link;
+
+
+-- Count GP encouters========================================================================================================================================
+IF OBJECT_ID('tempdb..#GPEncounterCount') IS NOT NULL DROP TABLE #GPEncounterCount;
+SELECT FK_Patient_Link_ID ,COUNT(FK_Patient_Link_ID) AS NumberGPEncounterBeforeSept2013
+INTO #GPEncounterCount
+FROM #GPEncounters
+GROUP BY FK_Patient_Link_ID
+
+
+-- The final table===========================================================================================================================================
+SELECT
+  p.FK_Patient_Link_ID as PatientId,
+  YearAndQuarterMonthOfBirth,
+  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath,
+  Sex,
+  Ethnicity,
+  IMD2019Decile1IsMostDeprived10IsLeastDeprived,
+  LSOA_Code AS LSOA,
+  GPPracticeCode,
+  StartDate AS RegistrationGPDate,
+  EndDate AS DeregistrationGPDate,
+  NumberGPEncounterBeforeSept2013
+FROM #Patients p
+LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #GPEncounterCount c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientGPHistory gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
+LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID;

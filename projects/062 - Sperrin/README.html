@@ -122,12 +122,160 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
+<li>Patient GP encounters</li>
+<li>Lower level super output area</li>
+<li>Index Multiple Deprivation</li>
+<li>Patient GP history</li>
+<li>Sex</li>
+<li>Secondary discharges</li>
+<li>Create listing tables for each GP events - RQ062</li>
 <li>Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013</li>
 <li>Year and quarter month of birth</li>
 <li>GET practice and ccg for each patient</li>
 <li>CCG lookup table</li>
 </ul>
 <p>Further details for each query can be found below.</p>
+<h3>Patient GP encounters</h3>
+<p>To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+	- FK_Patient_Link_ID - unique patient id
+	- EncounterDate - date the patient had a GP encounter
+</code></pre>
+<p><em>File</em>: <code>query-patient-gp-encounters.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-encounters.sql">https://github.com/rw251/.../query-patient-gp-encounters.sql</a></p>
+<hr>
+<h3>Lower level super output area</h3>
+<p>To get the LSOA for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:</li>
+<li>If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every LSOA for a paitent is the same, then we use that</li>
+<li>If there is a single most recently updated LSOA in the database then we use that</li>
+<li>Otherwise the patient's LSOA is considered unknown</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA_Code - nationally recognised LSOA identifier
+</code></pre>
+<p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
+<hr>
+<h3>Index Multiple Deprivation</h3>
+<p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+</code></pre>
+<p><em>File</em>: <code>query-patient-imd.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql">https://github.com/rw251/.../query-patient-imd.sql</a></p>
+<hr>
+<h3>Patient GP history</h3>
+<p>To produce a table showing the start and end dates for each practice the patient has been registered at.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea</li>
+<li>Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>No pre-requisites
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - national GP practice id system
+	- StartDate - date the patient registered at the practice
+	- EndDate - date the patient left the practice
+</code></pre>
+<p><em>File</em>: <code>query-patient-gp-history.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql">https://github.com/rw251/.../query-patient-gp-history.sql</a></p>
+<hr>
+<h3>Sex</h3>
+<p>To get the Sex for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:</li>
+<li>If the patients has a sex in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every sex for a patient is the same, then we use that</li>
+<li>If there is a single most recently updated sex in the database then we use that</li>
+<li>Otherwise the patient's sex is considered unknown</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientSex (FK_Patient_Link_ID, Sex)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+</code></pre>
+<p><em>File</em>: <code>query-patient-sex.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
+<hr>
+<h3>Secondary discharges</h3>
+<p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+</code></pre>
+<p><em>File</em>: <code>query-get-discharges.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
+<hr>
+<h3>Create listing tables for each GP events - RQ062</h3>
+<p>To build the tables listing each requested GP events for RQ062. This reduces duplication of code in the template scripts.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists one temp table as follows:
+ #GPEvents (FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, SuppliedCode)
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table #{param:conditionname} with columns:
+ - PatientId
+ - EventDate
+ - EventCode
+ - EventDescription
+ - EventCodeSystem (SNOMED, EMIS, ReadV2, CTV3)
+</code></pre>
+<p><em>File</em>: <code>query-build-rq062-gp-events.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq062-gp-events.sql">https://github.com/rw251/.../query-build-rq062-gp-events.sql</a></p>
+<hr>
 <h3>Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013</h3>
 <p>To build the cohort of patients needed for RQ062. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
@@ -199,6 +347,959 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-ccg-lookup.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql">https://github.com/rw251/.../query-ccg-lookup.sql</a></p>
 <h2>Clinical code sets</h2>
-<p>This project did not require any clinical code sets.</p>
+<p>This project required the following clinical code sets:</p>
+<ul>
+<li>shingles v1</li>
+<li>post-herpetic-neuralgia v1</li>
+<li>coronary-heart-disease v1</li>
+<li>stroke v1</li>
+<li>dementia v1</li>
+<li>copd v1</li>
+<li>lung-cancer v1</li>
+<li>pancreatic-cancer v1</li>
+<li>colorectal-cancer v1</li>
+<li>breast-cancer v1</li>
+<li>falls v1</li>
+<li>back-problems v1</li>
+<li>diabetes v1</li>
+<li>flu-vaccination v1</li>
+<li>pneumococcal-vaccination v1</li>
+<li>breast-cancer-screening v1</li>
+<li>colorectal-cancer-screening v1</li>
+<li>respiratory-tract-infection v1</li>
+</ul>
+<p>Further details for each code set can be found below.</p>
+<h3>Shingles codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;shingles&quot;,
+&quot;herpes zoster&quot;,
+&quot;zoster&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;vaccination&quot;,
+&quot;tablets&quot;,
+&quot;tablet&quot;,
+&quot;zovirax&quot;,
+&quot;vaccine&quot;,
+&quot;history of&quot;,
+&quot;scarring due to&quot;,
+&quot;procedure&quot;,
+&quot;injection&quot;,
+&quot;adverse reaction&quot;,
+&quot;allergy&quot;,
+&quot;level&quot;,
+&quot;measurement&quot;,
+&quot;product&quot;,
+&quot;ramsay hunt syndrome 2&quot;,
+&quot;substance&quot;
+]</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.1% - 4.7%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-11</td>
+<td>EMIS</td>
+<td>2470460</td>
+<td style="text-align:right">101279 (4.1%)</td>
+<td style="text-align:right">100470 (4.1%)</td>
+</tr>
+<tr>
+<td>2023-10-11</td>
+<td>TPP</td>
+<td>200512</td>
+<td style="text-align:right">9540 (4.8%)</td>
+<td style="text-align:right">9392 (4.7%)</td>
+</tr>
+<tr>
+<td>2023-10-11</td>
+<td>Vision</td>
+<td>332318</td>
+<td style="text-align:right">14841 (4.5%)</td>
+<td style="text-align:right">14694 (4.4%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/shingles/1">https://github.com/rw251/.../conditions/shingles/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Post herpetic neuralgia codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;post-herpetic neuralgia&quot;,
+&quot;post-zoster&quot;,
+&quot;post-herpetic&quot;,
+&quot;post zoster&quot;,
+&quot;post herpetic&quot;
+],
+&quot;excludeTerms&quot;: [],</p>
+<h2>Prevalence log</h2>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.18% - 0.24%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-12</td>
+<td>EMIS</td>
+<td>2470460</td>
+<td style="text-align:right">5882 (0.24%)</td>
+<td style="text-align:right">5886 (0.24%)</td>
+</tr>
+<tr>
+<td>2023-10-12</td>
+<td>TPP</td>
+<td>200512</td>
+<td style="text-align:right">374 (0.18%)</td>
+<td style="text-align:right">374 (0.18%)</td>
+</tr>
+<tr>
+<td>2023-10-12</td>
+<td>Vision</td>
+<td>332318</td>
+<td style="text-align:right">695 (0.21%)</td>
+<td style="text-align:right">692 (0.21%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/post-herpetic-neuralgia/1">https://github.com/rw251/.../conditions/post-herpetic-neuralgia/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Coronary heart disease</h3>
+<p>This code set was developed from https://www.phpc.cam.ac.uk/pcu/research/research-groups/crmh/cprd_cam/codelists/v11/. Codes indicate a diagnosis of CHD.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.75% - 3.09%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-18</td>
+<td>EMIS</td>
+<td>2662570</td>
+<td style="text-align:right">73153 (2.75%)</td>
+<td style="text-align:right">73156 (2.75%)</td>
+</tr>
+<tr>
+<td>2021-05-18</td>
+<td>TPP</td>
+<td>212696</td>
+<td style="text-align:right">6550 (3.08%)</td>
+<td style="text-align:right">6576 (3.09%)</td>
+</tr>
+<tr>
+<td>2021-05-18</td>
+<td>Vision</td>
+<td>342344</td>
+<td style="text-align:right">10209 (2.98%)</td>
+<td style="text-align:right">10209 (2.98%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/1">https://github.com/rw251/.../conditions/coronary-heart-disease/1</a></p>
+<h3>Stroke</h3>
+<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.91% - 1.45%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-05-12</td>
+<td>EMIS</td>
+<td>2662570</td>
+<td style="text-align:right">24378 (0.92%)</td>
+<td style="text-align:right">24359 (0.91%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>TPP</td>
+<td>212696</td>
+<td style="text-align:right">2441 (1.45%)</td>
+<td style="text-align:right">2445 (1.45%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>Vision</td>
+<td>342344</td>
+<td style="text-align:right">3308 (0.97%)</td>
+<td style="text-align:right">3307 (0.97%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">23678 (0.961%)</td>
+<td style="text-align:right">11237 (0.456%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">2631 (1.31%)</td>
+<td style="text-align:right">2593 (1.29%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">3098 (0.933%)</td>
+<td style="text-align:right">1699 (0.512%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
+<h3>Dementia</h3>
+<p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
+<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.67% - 0.81%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-20</td>
+<td>EMIS</td>
+<td>2438146</td>
+<td style="text-align:right">19770 (0.811%)</td>
+<td style="text-align:right">21772 (0.893%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>TPP</td>
+<td>198637</td>
+<td style="text-align:right">1427 (0.718%)</td>
+<td style="text-align:right">7445 (3.75%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>Vision</td>
+<td>327196</td>
+<td style="text-align:right">2244 (0.686%)</td>
+<td style="text-align:right">2265 (0.692%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></p>
+<h3>COPD</h3>
+<p>Any suggestion of a diagnosis of COPD.</p>
+<p>Developed from https://getset.ga.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.17% - 2.48%</code> in 2023 suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">54668 (2.10%)</td>
+<td style="text-align:right">54669 (2.10%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">4537 (2.15%)</td>
+<td style="text-align:right">4538 (2.15%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">7789 (2.33%)</td>
+<td style="text-align:right">7789 (2.33%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">53577 (2.17%)</td>
+<td style="text-align:right">53551 (2.17%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">4959 (2.47%)</td>
+<td style="text-align:right">4966 (2.48%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">7382 (2.22%)</td>
+<td style="text-align:right">7374 (2.22%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/copd/1">https://github.com/rw251/.../conditions/copd/1</a></p>
+<h3>Lung cancer codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;lung cancer&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;family history of&quot;,
+&quot;screening declined&quot;,
+&quot;no fh of&quot;,
+&quot;lung cancer risk calculator&quot;,
+&quot;fh: lung cancer&quot;,
+&quot;lung cancer screening&quot;,
+&quot;qcancer lung cancer risk&quot;
+]</p>
+<h2>Prevalence log</h2>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.18% - 0.24%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-12</td>
+<td>EMIS</td>
+<td>2470460</td>
+<td style="text-align:right">5882 (0.24%)</td>
+<td style="text-align:right">5886 (0.24%)</td>
+</tr>
+<tr>
+<td>2023-10-12</td>
+<td>TPP</td>
+<td>200512</td>
+<td style="text-align:right">374 (0.18%)</td>
+<td style="text-align:right">374 (0.18%)</td>
+</tr>
+<tr>
+<td>2023-10-12</td>
+<td>Vision</td>
+<td>332318</td>
+<td style="text-align:right">695 (0.21%)</td>
+<td style="text-align:right">692 (0.21%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/lung-cancer/1">https://github.com/rw251/.../conditions/lung-cancer/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<p>&quot;includeTerms&quot;: [
+&quot;pancreatic cancer&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;family history of&quot;,
+&quot;assessment using qcancer pancreatic cancer risk calculator (procedure)&quot;,
+&quot;qcancer pancreatic cancer risk calculator&quot;
+]
+LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/pancreatic-cancer/1">https://github.com/rw251/.../conditions/pancreatic-cancer/1</a></p>
+<h3>Colorectal cancer codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;colorectal cancer&quot;,
+&quot;bowel cancer&quot;,
+&quot;rectal cancer&quot;,
+&quot;colon cancer&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;family history of&quot;,
+&quot;screening&quot;,
+&quot;patient given advice about&quot;,
+&quot;fh:&quot;,
+&quot;cancer risk&quot;,
+&quot;suspected&quot;,
+&quot;discharge from secondary care colorectal cancer service&quot;,
+&quot;college of american pathologists cancer checklist&quot;
+]</p>
+<p>and OpenCodelists (https://www.opencodelists.org/codelist/phc/phc-colorectal-cancer-ctv3/0706cfd2/#full-list and https://www.opencodelists.org/codelist/phc/phc-colorectal-cancer-snomed/3925b63c/#full-list)</p>
+<h2>Prevalence log</h2>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.33% - 0.42%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-13</td>
+<td>EMIS</td>
+<td>2470460</td>
+<td style="text-align:right">8214 (0.33%)</td>
+<td style="text-align:right">8228 (0.33%)</td>
+</tr>
+<tr>
+<td>2023-10-13</td>
+<td>TPP</td>
+<td>200512</td>
+<td style="text-align:right">848 (0.42%)</td>
+<td style="text-align:right">848 (0.42%)</td>
+</tr>
+<tr>
+<td>2023-10-13</td>
+<td>Vision</td>
+<td>332318</td>
+<td style="text-align:right">1158 (0.34%)</td>
+<td style="text-align:right">1159 (0.34%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/colorectal-cancer/1">https://github.com/rw251/.../conditions/colorectal-cancer/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Breast cancer codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;breast cancer&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;no fh of&quot;,
+&quot;familial cancer of breast&quot;,
+&quot;no history of&quot;,
+&quot;national cancer institute breast cancer risk assessment tool&quot;,
+&quot;education about risk of breast cancer&quot;,
+&quot;family history of&quot;,
+&quot;fear of breast cancer&quot;,
+&quot;breast cancer screening declined&quot;,
+&quot;claus model&quot;,
+&quot;screening for breast cancer&quot;,
+&quot;bcrat - breast cancer risk assessment tool&quot;,
+&quot;nottingham histologic grading system for breast cancer&quot;,
+&quot;fh:&quot;,
+&quot;meets nice clinical guideline cg164 familial breast cancer referral criteria for assessment and management in secondary care&quot;,
+&quot;national cancer institute breast cancer risk assessment score&quot;,
+&quot;at risk of breast cancer (finding)&quot;,
+&quot;qcancer breast cancer risk&quot;
+]</p>
+<p>and clinicalcodes.org (https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/24/codelist/res24-breast-cancer/)</p>
+<h2>Prevalence log</h2>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.8% - 0.9%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-25</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">20089 (0.8%)</td>
+<td style="text-align:right">20102 (0.8%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">1808 (0.9%)</td>
+<td style="text-align:right">1808 (0.9%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">2900 (0.9%)</td>
+<td style="text-align:right">2901 (0.9%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/breast-cancer/1">https://github.com/rw251/.../conditions/breast-cancer/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Falls</h3>
+<p>Codes taken from OpenCodelists https://www.opencodelists.org/codelist/opensafely/falls/2020-07-09/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/falls_cod/20200812/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.7% - 2.8%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-25</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">54002 (2.2%)</td>
+<td style="text-align:right">54015 (2.2%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">5597 (2.8%)</td>
+<td style="text-align:right">5598 (2.8%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">5537 (1.7%)</td>
+<td style="text-align:right">5545 (1.7%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/falls/1">https://github.com/rw251/.../patient/falls/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Back problems</h3>
+<p>Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/6/codelist/back-pain/</p>
+<p>SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-low-back-diagnoses/ and https://www.opencodelists.org/snomedct/concept/279038004/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>27.3% - 32.4%</code> suggests this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-03-03</td>
+<td>EMIS</td>
+<td>2656596</td>
+<td style="text-align:right">782005 (29.44%)</td>
+<td style="text-align:right">781204 (29.41%)</td>
+</tr>
+<tr>
+<td>2022-03-03</td>
+<td>TPP</td>
+<td>212503</td>
+<td style="text-align:right">57991 (27.29%)</td>
+<td style="text-align:right">57990 (27.29%)</td>
+</tr>
+<tr>
+<td>2022-03-03</td>
+<td>Vision</td>
+<td>341299</td>
+<td style="text-align:right">110555 (32.39%)</td>
+<td style="text-align:right">110552 (32.39%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/back-problems/1">https://github.com/rw251/.../conditions/back-problems/1</a></p>
+<h3>Diabetes mellitus</h3>
+<p>Code set for any diagnosis of diabetes mellitus (type I/type II/other).</p>
+<p>Developed from https://getset.ga.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.96% - 6.05%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">155421 (5.96%)</td>
+<td style="text-align:right">155398 (5.96%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">12743 (6.04%)</td>
+<td style="text-align:right">12745 (6.05%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">20145 (6.02%)</td>
+<td style="text-align:right">20145 (6.02%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">162625 (6.6%)</td>
+<td style="text-align:right">148520 (6.03%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">15745 (7.85%)</td>
+<td style="text-align:right">15685 (7.82%)</td>
+</tr>
+<tr>
+<td>2023-09-15</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">21031 (6.33%)</td>
+<td style="text-align:right">18869 (5.68%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1">https://github.com/rw251/.../conditions/diabetes/1</a></p>
+<h3>Flu vaccination</h3>
+<p>Any code that indicates that the patient has had a flu vaccine. Includes procedure codes and admin codes confirming a vaccination has been administered. <strong>NB it does not include the flu vaccine product - see the <code>flu-vaccine</code> code set</strong></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/flu-vaccination/1">https://github.com/rw251/.../procedures/flu-vaccination/1</a></p>
+<h3>Pneumococcal vaccination</h3>
+<p>Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pcv_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pneuvac1_cod/20210127/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>34.2% - 34.8%</code> for EMIS and Vision suggests that this code set is well defined. TPP practices are a lot lower at <code>16.2%</code> which may be down to the way the codes are recorded there.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-01</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">722523 (29.2%)</td>
+<td style="text-align:right">862422 (34.8%)</td>
+</tr>
+<tr>
+<td>2023-11-01</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">30992 (15.4%)</td>
+<td style="text-align:right">32488 (16.2%)</td>
+</tr>
+<tr>
+<td>2023-11-01</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">110871 (33.3%)</td>
+<td style="text-align:right">113668 (34.2%)</td>
+</tr>
+</tbody>
+</table>
+<p>MED</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-10</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">43312 (1.74%)</td>
+<td style="text-align:right">43313 (1.74%)</td>
+</tr>
+<tr>
+<td>2023-11-10</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">73 (0.0363%)</td>
+<td style="text-align:right">74 (0.0368%)</td>
+</tr>
+<tr>
+<td>2023-11-10</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">2702 (0.81%)</td>
+<td style="text-align:right">2702 (0.81%)</td>
+</tr>
+</tbody>
+</table>
+<p>EVENT</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-10</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">722186 (29.1%)</td>
+<td style="text-align:right">860756 (34.7%)</td>
+</tr>
+<tr>
+<td>2023-11-10</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">31354 (15.6%)</td>
+<td style="text-align:right">32487 (16.2%)</td>
+</tr>
+<tr>
+<td>2023-11-10</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">110696 (33.2%)</td>
+<td style="text-align:right">113431 (34%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/pneumococcal-vaccination/1">https://github.com/rw251/.../procedures/pneumococcal-vaccination/1</a></p>
+<h3>Breast cancer screening codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;breast cancer screening&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;breast cancer screening declined&quot;
+]</p>
+<p>and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/brcanscr_cod/20200812/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>12.7% - 16.2%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-17</td>
+<td>EMIS</td>
+<td>2468919</td>
+<td style="text-align:right">313158 (12.7%)</td>
+<td style="text-align:right">313277 (12.7%)</td>
+</tr>
+<tr>
+<td>2023-10-17</td>
+<td>TPP</td>
+<td>200465</td>
+<td style="text-align:right">32464 (16.2%)</td>
+<td style="text-align:right">32467 (16.2%)</td>
+</tr>
+<tr>
+<td>2023-10-17</td>
+<td>Vision</td>
+<td>332162</td>
+<td style="text-align:right">45707 (13.7%)</td>
+<td style="text-align:right">45724 (13.7%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/breast-cancer-screening/1">https://github.com/rw251/.../procedures/breast-cancer-screening/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Colorectal cancer screening codes</h3>
+<p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
+<p>&quot;includeTerms&quot;: [
+&quot;colorectal cancer screening&quot;,
+&quot;colon cancer screening&quot;,
+&quot;rectal cancer screening&quot;,
+&quot;bowel cancer screening&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;colon cancer screening declined&quot;,
+&quot;screening for malignant neoplasm of large intestine not done&quot;,
+&quot;not eligible&quot;,
+&quot;did not attend&quot;,
+&quot;no response to bowel cancer screening programme invitation&quot;,
+&quot;declined&quot;,
+&quot;advice given about bowel cancer screening programme&quot;,
+&quot;invitation&quot;,
+&quot;provision of written information about bowel cancer screening programme&quot;
+]
+and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/colcanscr_cod/20200812/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.8% - 25.3%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-17</td>
+<td>EMIS</td>
+<td>2470047</td>
+<td style="text-align:right">489640 (19.8%)</td>
+<td style="text-align:right">489820 (19.8%)</td>
+</tr>
+<tr>
+<td>2023-10-17</td>
+<td>TPP</td>
+<td>200464</td>
+<td style="text-align:right">50735 (25.3%)</td>
+<td style="text-align:right">50743 (25.3%)</td>
+</tr>
+<tr>
+<td>2023-10-17</td>
+<td>Vision</td>
+<td>332273</td>
+<td style="text-align:right">67508 (20.3%)</td>
+<td style="text-align:right">67525 (20.3%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/colorectal-cancer-screening/1">https://github.com/rw251/.../procedures/colorectal-cancer-screening/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Respiratory tract infection</h3>
+<p>Any indication of a respiratory tract infection.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>56.3% - 62.2%</code> suggests that this code set is well defined.</p>
+<p>update:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-07</td>
+<td>EMIS</td>
+<td>2438760</td>
+<td style="text-align:right">1373106 (56.3%)</td>
+<td style="text-align:right">1374853 (56.4%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>TPP</td>
+<td>198672</td>
+<td style="text-align:right">123546 (62.2%)</td>
+<td style="text-align:right">125113 (63%)</td>
+</tr>
+<tr>
+<td>2022-12-07</td>
+<td>Vision</td>
+<td>327081</td>
+<td style="text-align:right">192697 (58.9%)</td>
+<td style="text-align:right">192482 (58.8%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/respiratory-tract-infection/1">https://github.com/rw251/.../conditions/respiratory-tract-infection/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/062%20-%20Sperrin/clinical-code-sets.csv">https://github.com/rw251/.../062 - Sperrin/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

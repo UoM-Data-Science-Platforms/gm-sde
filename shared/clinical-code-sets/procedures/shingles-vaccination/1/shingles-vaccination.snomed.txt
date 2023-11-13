@@ -1,0 +1,6 @@
+722215002	Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+737081007	Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox
+859641000000109	Herpes zoster vaccination
+868511000000106	Herpes zoster vaccination given by other health care provider
+1326101000000105	Administration of first dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+1326111000000107	Administration of second dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles

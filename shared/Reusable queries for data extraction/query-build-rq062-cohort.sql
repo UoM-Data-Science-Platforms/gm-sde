@@ -34,9 +34,9 @@ LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
--- Create the cohort========================================================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+-- Reduce #Patients table to just the cohort patients========================================================================================================================
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
 SELECT PatientId
-INTO #Patients
 FROM #Table
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
