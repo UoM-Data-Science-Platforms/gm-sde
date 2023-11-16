@@ -1,6 +1,8 @@
 # Aortic aneurysm
 
-Any code indicating an aortic aneurysm. Includes both abdominal aortic aneurysms (AAA), and the less common thoracis aortic aneurysm. Includes diagnosis codes, as well as codes indicating that a stent has been fitted.
+Any code indicating an aortic aneurysm. Includes both abdominal aortic aneurysms (AAA), and the less common thoracis aortic aneurysm (TAA). Includes diagnosis codes, as well as codes indicating that a stent has been fitted.
+
+AAA codes primarily from the Primary Care Domain Reference Set Portal. TAA codes from SNOMED browser. All other codes from mapping files.
 
 ## Prevalence log
 
