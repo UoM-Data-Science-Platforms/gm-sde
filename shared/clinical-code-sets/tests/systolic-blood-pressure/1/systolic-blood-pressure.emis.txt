@@ -1,2 +1,28 @@
 EMISNQSY8	Systolic blood pressure - left arm
 EMISNQSY9	Systolic blood pressure - right arm
+^ESCT1190337	O/E - Systolic BP reading
+^ESCT1407388	Non-invasive SAP (systolic arterial pressure)
+^ESCT1407389	Invasive SAP (systolic arterial pressure)
+^ESCT24604631	24 hour systolic blood pressure
+^ESCTAM805797	Ambulatory systolic BP (blood pressure)
+^ESCTIN529505	Invasive systolic arterial pressure
+^ESCTIN529507	Invasive systolic blood pressure
+^ESCTMA604606	Maximum systolic blood pressure
+^ESCTMA604610	Maximum night interval systolic blood pressure
+^ESCTMA604611	Maximum day interval systolic blood pressure
+^ESCTMA604615	Maximum 24 hour systolic blood pressure
+^ESCTMI604605	Minimum systolic blood pressure
+^ESCTMI604608	Minimum day interval systolic blood pressure
+^ESCTMI604609	Minimum night interval systolic blood pressure
+^ESCTMI604614	Minimum 24 hour systolic blood pressure
+^ESCTNO529502	Non-invasive systolic arterial pressure
+^ESCTNO529504	Non-invasive systolic blood pressure
+^ESCTON455659	On examination - Systolic BP reading
+^ESCTON455660	On examination - Systolic blood pressure reading
+^ESCTSA529503	SAP - Systolic arterial pressure
+^ESCTSA529506	SAP - Systolic arterial pressure
+^ESCTSA552720	SAP - Systolic arterial pressure
+^ESCTSY367626	Systolic arterial pressure
+^ESCTSY367627	Systolic blood pressure
+^ESCTSY552719	Systolic blood pressure
+^ESCTSY662059	Systolic blood pressure on admission

@@ -1,7 +1,6 @@
 246o000	Non-invasive central systolic blood pressure
 246n100	Baseline systolic blood pressure
 246l.00	Average systolic blood pressure
-246j.00	Systolic blood pressure centile
 246e.00	Ambulatory systolic blood pressure
 246d.00	Average home systolic blood pressure
 246b.00	Average night interval systolic blood pressure
@@ -10,5 +9,4 @@
 246S.00	Lying systolic blood pressure
 246Q.00	Sitting systolic blood pressure
 246N.00	Standing systolic blood pressure
-246K.00	Target systolic blood pressure
 2469.00	O/E - Systolic BP reading
