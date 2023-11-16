@@ -1,0 +1,52 @@
+7A11.00	Replacement of aneurysmal bifurcation of aorta
+7A11000	Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery
+7A11100	Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery
+7A11200	Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+7A11211	Y graft of abdominal Aortic aneurysm (emergency)
+7A11300	Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+7A11311	Y graft abdominal Aortic aneurysm
+7A11y00	Other specified replacement of aneurysmal bifurcation of aorta
+7A11z00	Replacement of aneurysmal bifurcation of aorta NOS
+7A13200	Emergency replacement of aneurysmal segment of suprarenal abdominal aorta by anastomosis of aorta to aorta
+7A13300	Emergency replacement of aneurysmal segment of infrarenal abdominal aorta by anastomosis of aorta to aorta
+7A13411	Tube graft abdominal Aortic aneurysm (emergency)
+7A14411	Tube graft of Abdominal aortic aneurysm
+7A1B000	Endovascular stenting of infrarenal abdominal aortic aneurysm
+7A1B100	Endovascular stenting of suprarenal aortic aneurysm
+7A1B400	Endovascular stenting of aortic bifurcation NEC
+7A1B500	Endovascular stenting of aorto-uniiliac aneurysm
+7A1B600	Endovascular stenting for aortic aneurysm of bifurcation NEC
+7A1B700	Endovascular stenting for aorto-uniiliac aneurysm
+7A1B800	Endovascular insertion of stent for infrarenal abdominal aortic aneurysm
+7A1B900	Endovascular insertion of stent for suprarenal aortic aneurysm
+7A1BC00	Endovascular insertion of stent for aortic aneurysm of bifurcation NEC
+7A1BD00	Endovascular insertion of stent for aorto-uniiliac aneurysm
+7A1C000	Endovascular insertion of stent graft for infrarenal abdominal aortic aneurysm
+7A1C100	Endovascular insertion of stent graft for suprarenal aortic aneurysm
+7A1C500	Endovascular insertion of stent graft for aorto-uniiliac aneurysm
+A930.00	Syphilitic aortic aneurysm
+G71..00	Aortic aneurysm
+G711.00	Thoracic aortic aneurysm which has ruptured
+G711.11	Ruptured thoracic aortic aneurysm
+G712.00	Thoracic aortic aneurysm without mention of rupture
+G713.00	Abdominal aortic aneurysm which has ruptured
+G713.11	Ruptured abdominal aortic aneurysm
+G713000	Ruptured suprarenal aortic aneurysm
+G714.00	Abdominal aortic aneurysm without mention of rupture
+G714.11	AAA - Abdominal aortic aneurysm without mention of rupture
+G714000	Juxtarenal aortic aneurysm
+G714100	Inflammatory abdominal aortic aneurysm
+G714200	Infrarenal abdominal aortic aneurysm
+G714300	Aneurysm of suprarenal aorta
+G715.00	Ruptured aortic aneurysm NOS
+G715000	Thoracoabdominal aortic aneurysm, ruptured
+G716.00	Aortic aneurysm without mention of rupture NOS
+G716000	Thoracoabdominal aortic aneurysm, without mention of rupture
+G717.00	Aortic aneurysm - syphilitic
+G718.00	Leaking abdominal aortic aneurysm
+G71z.00	Aortic aneurysm NOS
+Gyu7100	[X]Aortic aneurysm of unspecified site, ruptured
+Gyu7200	[X]Aortic aneurysm of unspecified site, nonruptured
+Gyu7800	[X]Aneurysm of aorta in diseases classified elsewhere
+P72z000	Aneurysm of sinus of Valsalva
+P72z100	Congenital aneurysm of aorta
