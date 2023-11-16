@@ -1,0 +1,100 @@
+^ESCT1165672	Perforation of abdominal aorta co-occurrent and due to aneurysm of abdominal aorta
+^ESCT1165673	Abdominal aortic aneurysm with perforation
+^ESCT1165674	Perforation of thoracoabdominal aorta co-occurrent and due to aneurysm of thoracoabdominal aorta
+^ESCT1165675	Thoracoabdominal aortic aneurysm with perforation
+^ESCT1167441	Post-procedural aortic aneurysm
+^ESCT1167442	Aneurysm of aorta due to and following procedure
+^ESCT1245004	Y graft of abdominal Aortic aneurysm (emergency)
+^ESCT1245084	Tube graft abdominal Aortic aneurysm (emergency)
+^ESCT1270515	Repair of suprarenal abdominal aortic aneurysm with insertion of endovascular stent
+^ESCT1271877	Abdominal aortic aneurysm without mention of rupture
+^ESCT1275921	AAA - Abdominal aortic aneurysm without mention of rupture
+^ESCT1350285	Repair of abdominal aortic aneurysm with insertion of stent
+^ESCT1393832	Aortic aneurysm due to Loeys-Dietz syndrome
+^ESCT1397028	Aneurysm of pararenal aorta
+^ESCT1397029	Pararenal aortic aneurysm
+^ESCT1397186	Aneurysm of aorta at coarctation site following procedure
+^ESCT1397187	Post procedural aneurysm of aorta at coarctation site
+^ESCT1421093	Endovascular repair of abdominal aortic aneurysm using fluoroscopic guidance with contrast
+^ESCTAA359596	AA - Aortic aneurysm
+^ESCTAA466641	AAA - Repair of abdominal aortic aneurysm using bifurcation graft
+^ESCTAA504989	AAA - Repair of abdominal aortic aneurysm using straight graft
+^ESCTAA505844	AAA - Abdominal aortic aneurysm
+^ESCTAB373381	Abdominal aortic aneurysm without rupture
+^ESCTAN359595	Aneurysm of aorta
+^ESCTAN533272	Annuloaortic ectasia
+^ESCTAN705213	Aneurysm of ascending aorta
+^ESCTAN706667	Aneurysm of descending aorta
+^ESCTAN707465	Aneurysm of supraceliac aorta
+^ESCTAN717325	Aneurysm of thoracic aorta
+^ESCTAN734987	Aneurysm of aortic sinus of Valsalva with protrusion into pulmonary artery
+^ESCTAN734988	Aneurysm of aortic sinus of Valsalva with protrusion into right atrium
+^ESCTAN734989	Aneurysm of aortic sinus of Valsalva with protrusion into right ventricle
+^ESCTAN735011	Aneurysm of aortic sinus of Valsalva with protrusion into left atrium
+^ESCTAN735012	Aneurysm of aortic sinus of Valsalva with protrusion into left ventricle
+^ESCTAN735013	Aneurysm of aortic sinus of Valsalva with protrusion into pericardial cavity
+^ESCTAN735321	Aneurysm of aortic sinus of Valsalva without rupture
+^ESCTAN735636	Aneurysm of aortic sinus of Valsalva with rupture to pericardial cavity
+^ESCTAN735924	Aneurysm of aortic sinus of Valsalva with rupture to left atrium
+^ESCTAN735925	Aneurysm of aortic sinus of Valsalva with rupture to left ventricle
+^ESCTAN735952	Aneurysm of aortic sinus of Valsalva with rupture to pulmonary artery
+^ESCTAN735953	Aneurysm of aortic sinus of Valsalva with rupture to right atrium
+^ESCTAN735954	Aneurysm of aortic sinus of Valsalva with rupture to right ventricle
+^ESCTAN769260	Aneurysm of aortic arch
+^ESCTAN797497	Aneurysm of descending thoracic aorta
+^ESCTAO730565	Aortic sinus of Valsalva aneurysm from noncoronary sinus
+^ESCTAO730566	Aortic sinus of Valsalva aneurysm from left coronary sinus
+^ESCTAO730567	Aortic sinus of Valsalva aneurysm from right coronary sinus
+^ESCTCO337855	Congenital aneurysm of sinus of Valsalva
+^ESCTCO533271	Congenital aneurysm of ascending aorta
+^ESCTEL751562	Elective repair of infrarenal abdominal aortic aneurysm
+^ESCTEL751563	Elective repair of suprarenal abdominal aortic aneurysm
+^ESCTEM751559	Emergency repair of ruptured infrarenal abdominal aortic aneurysm
+^ESCTEM751561	Emergency repair of ruptured suprarenal abdominal aortic aneurysm
+^ESCTEN704931	Enlarging abdominal aortic aneurysm
+^ESCTEN720789	Endovascular repair of abdominal aortic aneurysm with insertion of visceral extension prosthesis
+^ESCTEN729489	Endovascular repair of abdominal aortic aneurysm
+^ESCTEN751734	Endovascular repair of abdominal aortic aneurysm using fluoroscopic guidance
+^ESCTEN759725	Endovascular insertion of stent graft into aneurysm of bifurcation of aorta
+^ESCTEN825253	Endovascular insertion of stent graft for aneurysm of aortic bifurcation
+^ESCTEN825307	Endovascular insertion of stent for aneurysm of aortic bifurcation
+^ESCTFA773109	Familial abdominal aortic aneurysm
+^ESCTFL751735	Fluoroscopy guided endovascular repair of abdominal aortic aneurysm
+^ESCTHA753487	Hand-assisted laparoscopic repair of aneurysm of abdominal aorta
+^ESCTHI709982	History of repair of aneurysm of abdominal aorta
+^ESCTHI709983	History of abdominal aortic aneurysm repair
+^ESCTHI711564	History of stable aneurysm of abdominal aorta
+^ESCTHI786793	History of repair of dissection of abdominal aorta
+^ESCTHI804396	History of endovascular stent graft for repair of abdominal aortic aneurysm
+^ESCTLA269475	Late quaternary syphilitic aortic aneurysm
+^ESCTLA753486	Laparoscopic hand assisted repair of abdominal aortic aneurysm
+^ESCTLA828217	Laparoscopic repair of abdominal aortic aneurysm
+^ESCTLE827136	Leaking thoracic aortic aneurysm
+^ESCTOP748993	Open repair of thoracoabdominal aortic aneurysm
+^ESCTRE284313	Repair of aneurysm of abdominal aorta with graft
+^ESCTRE287693	Repair of ruptured aneurysm of abdominal aorta with graft
+^ESCTRE296393	Repair of ruptured aneurysm of abdominal aorta involving iliac vessels with graft
+^ESCTRE331096	Repair of aneurysm of abdominal aorta involving iliac vessels with graft
+^ESCTRE342311	Repair of aneurysm of abdominal aorta involving visceral vessels with graft
+^ESCTRE466640	Repair of aortic aneurysm using bifurcation graft
+^ESCTRE504988	Repair of aortic aneurysm using straight graft
+^ESCTRE605669	Recurrent abdominal aortic aneurysm
+^ESCTRE605744	Repair of thoracoabdominal aortic aneurysm
+^ESCTRE671499	Repair of aneurysm of abdominal aorta
+^ESCTRE709928	Repair of infrarenal abdominal aortic aneurysm with insertion of endovascular stent graft
+^ESCTRE710750	Repair of suprarenal aortic aneurysm with insertion of endovascular stent graft
+^ESCTRE726013	Repair of aneurysm of suprarenal abdominal aorta with insertion of endovascular stent
+^ESCTRE751718	Repair of aneurysm of abdominal aorta with insertion of endovascular stent
+^ESCTRE752537	Repair of abdominal aortic aneurysm with insertion of endovascular stent graft
+^ESCTRE759724	Repair of aneurysm of bifurcation of aorta with insertion of endovascular stent graft
+^ESCTRE786794	Repair of dissection of abdominal aorta
+^ESCTRU272712	Ruptured aneurysm of abdominal aorta
+^ESCTRU368854	Ruptured aneurysm of aorta
+^ESCTSI337856	Sinus of Valsalva aneurysm
+^ESCTSY269472	Syphilitic aneurysm of aorta
+^ESCTSY269473	Syphilitic dilatation of aorta
+^ESCTTH371732	Thoracic aortic aneurysm without rupture
+^ESCTTU504991	Tube graft abdominal aortic aneurysm - emergency
+^ESCTYG504985	Y graft of abdominal aortic aneurysm - emergency
+EMISNQAN23	Aneurysm of suprarenal aorta
+EMISNQIN59	Infrarenal abdominal aortic aneurysm
