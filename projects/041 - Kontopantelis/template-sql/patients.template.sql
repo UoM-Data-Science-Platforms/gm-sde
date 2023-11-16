@@ -45,7 +45,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2020-03-01';
@@ -91,7 +91,7 @@ WHERE  (
 GROUP BY FK_Patient_Link_ID
 
 
---> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:RLS.vw_GP_Medications
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:SharedCare.GP_Medications
 --> EXECUTE query-patient-gp-history.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 
@@ -118,7 +118,7 @@ SELECT *,
 INTO #GPExitDates
 FROM #GM_GP_range
 
---> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:#PatientEventData start-date:'2018-03-01' end-date:'2022-03-01'
+--> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:#PatientEventData start-date:'2018-03-01' end-date:'2023-08-31'
 
 
 -- -- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
@@ -144,7 +144,7 @@ SELECT a.FK_Patient_Link_ID,
 	a.AttendanceDate, 
 	BeforeOrAfter1stMarch2020 = CASE WHEN a.AttendanceDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END -- before and after covid started
 INTO #ae_encounters
-FROM RLS.vw_Acute_AE a
+FROM SharedCare.Acute_AE a
 WHERE EventType = 'Attendance'
 AND a.AttendanceDate BETWEEN @StartDate AND @EndDate
 AND a.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
@@ -161,7 +161,7 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
 -- IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 -- SELECT DISTINCT FK_Patient_Link_ID 
--- INTO #COVIDDeath FROM RLS.vw_COVID19
+-- INTO #COVIDDeath FROM SharedCare.COVID19
 -- WHERE DeathWithin28Days = 'Y'
 -- AND EventDate <= @EndDate
 -- AND (

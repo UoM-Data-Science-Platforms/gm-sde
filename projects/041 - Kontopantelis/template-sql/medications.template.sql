@@ -19,7 +19,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --> EXECUTE query-build-rq041-cohort.sql
 
@@ -44,7 +44,7 @@ SELECT
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
 INTO #medications_rx
-FROM RLS.vw_GP_Medications m
+FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
@@ -73,7 +73,7 @@ select
 	[female-sex-hormones] = ISNULL(SUM(CASE WHEN Concept = 'female-sex-hormones' then 1 else 0 end),0),
 	[male-sex-hormones] = ISNULL(SUM(CASE WHEN Concept = 'male-sex-hormones' then 1 else 0 end),0),
 	[anabolic-steroids] = ISNULL(SUM(CASE WHEN Concept = 'anabolic-steroids' then 1 else 0 end),0),
-	[hormone-replacement-therapy] = ISNULL(SUM(CASE WHEN Concept = 'hormone-replacement-therapy' then 1 else 0 end),0)
+	[hormone-replacement-therapy] = ISNULL(SUM(CASE WHEN Concept = 'hormone-replacement-therapy-meds' then 1 else 0 end),0)
 from #medications_rx
 group by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
 order by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)

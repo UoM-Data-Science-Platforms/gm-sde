@@ -16,7 +16,7 @@
 DECLARE @StartDate datetime;
 SET @StartDate = '2018-03-01';
 DECLARE @EndDate datetime;
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -37,31 +37,21 @@ SET NOCOUNT ON;
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -154,7 +144,7 @@ VALUES ('gamma-glutamyl-transferase',1,'44G7.',NULL,'Plasma gamma-glutamyl trans
 INSERT INTO #codesreadv2
 VALUES ('haematocrit',1,'4258.',NULL,'Haematocrit'),('haematocrit',1,'4258.00',NULL,'Haematocrit'),('haematocrit',1,'4257.',NULL,'Packed cell volume'),('haematocrit',1,'4257.00',NULL,'Packed cell volume'),('haematocrit',1,'425..',NULL,'Haematocrit - PCV'),('haematocrit',1,'425..00',NULL,'Haematocrit - PCV'),('haematocrit',1,'425Z.',NULL,'Haematocrit - PCV - NOS'),('haematocrit',1,'425Z.00',NULL,'Haematocrit - PCV - NOS');
 INSERT INTO #codesreadv2
-VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423C.',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423C.00',NULL,'Haemoglobin H inclusion'),('haemoglobin',1,'423B.',NULL,'Haemoglobin abnormal'),('haemoglobin',1,'423B.00',NULL,'Haemoglobin abnormal');
+VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423..00',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'423Z.00',NULL,'Haemoglobin estimation NOS');
 INSERT INTO #codesreadv2
 VALUES ('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W5.00',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'42W4.00',NULL,'HbA1c level (DCCT aligned)');
 INSERT INTO #codesreadv2
@@ -228,7 +218,7 @@ VALUES ('gamma-glutamyl-transferase',1,'44G4.',NULL,'Gamma-glutamyl transferase 
 INSERT INTO #codesctv3
 VALUES ('haematocrit',1,'X76tb',NULL,'Haematocrit'),('haematocrit',1,'X76tc',NULL,'Packed cell volume'),('haematocrit',1,'XE2Zq',NULL,'Haematocrit - PCV'),('haematocrit',1,'XE2Zq',NULL,'Haematocrit - PCV level'),('haematocrit',1,'425Z.',NULL,'Haematocrit - PCV - NOS'),('haematocrit',1,'425..',NULL,'Haematocrit - PCV');
 INSERT INTO #codesctv3
-VALUES ('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level');
+VALUES ('haemoglobin',1,'423..',NULL,'Haemoglobin estimation'),('haemoglobin',1,'423Z.',NULL,'Haemoglobin estimation NOS'),('haemoglobin',1,'Xa96v',NULL,'Haemoglobin concentration'),('haemoglobin',1,'XE2m6',NULL,'Haemoglobin estimation level'),('haemoglobin',1,'XM1Vu',NULL,'Hb estimation');
 INSERT INTO #codesctv3
 VALUES ('hba1c',2,'XaERp',NULL,'HbA1c level (DCCT aligned)'),('hba1c',2,'XaPbt',NULL,'HbA1c levl - IFCC standardised'),('hba1c',2,'42W5.',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.',NULL,'HbA1c level (DCCT aligned)');
 INSERT INTO #codesctv3
@@ -246,7 +236,7 @@ VALUES ('urea',1,'XM0lt',NULL,'Serum urea level'),('urea',1,'X771P',NULL,'Blood 
 INSERT INTO #codesctv3
 VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'XE2n3',NULL,'Urine albumin:creatinine ratio');
 INSERT INTO #codesctv3
-VALUES ('urine-blood',1,'4692.',NULL,'Urine blood test = negative'),('urine-blood',1,'4693.',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4694.',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4695.',NULL,'Urine blood test = +'),('urine-blood',1,'4696.',NULL,'Urine blood test = ++'),('urine-blood',1,'4697.',NULL,'Urine blood test = +++');
+VALUES ('urine-blood',1,'4692.',NULL,'Urine blood test = negative'),('urine-blood',1,'4693.',NULL,'Urine: trace non-haemol. blood'),('urine-blood',1,'4694.',NULL,'Urine: trace haemolysed blood'),('urine-blood',1,'4695.',NULL,'Urine blood test = +'),('urine-blood',1,'4696.',NULL,'Urine blood test = ++'),('urine-blood',1,'4697.',NULL,'Urine blood test = +++'),('urine-blood',1,'X77b9',NULL,'Urine dipstick for leucocyte esterase'),('urine-blood',1,'XaBFN',NULL,'Urine blood test');
 INSERT INTO #codesctv3
 VALUES ('urine-protein-creatinine-ratio',1,'XaEMS',NULL,'Urine protein/creatinine ratio');
 INSERT INTO #codesctv3
@@ -288,6 +278,8 @@ VALUES ('gamma-glutamyl-transferase',1,'69480007',NULL,'Gammaglutamyl transferas
 INSERT INTO #codessnomed
 VALUES ('haematocrit',1,'1022291000000105',NULL,'Haematocrit (observable entity)');
 INSERT INTO #codessnomed
+VALUES ('haemoglobin',1,'1022431000000105',NULL,'Haemoglobin estimation (observable entity)'),('haemoglobin',1,'271026005',NULL,'Hemoglobin level estimation (procedure)');
+INSERT INTO #codessnomed
 VALUES ('hba1c',2,'1019431000000105',NULL,'HbA1c level (Diabetes Control and Complications Trial aligned)'),('hba1c',2,'999791000000106',NULL,'Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised');
 INSERT INTO #codessnomed
 VALUES ('hdl-cholesterol',1,'1005681000000107',NULL,'Serum high density lipoprotein cholesterol level (observable entity)'),('hdl-cholesterol',1,'1010581000000101',NULL,'Plasma high density lipoprotein cholesterol level (observable entity)'),('hdl-cholesterol',1,'1026461000000104',NULL,'Serum random high density lipoprotein cholesterol level (observable entity)');
@@ -297,6 +289,8 @@ INSERT INTO #codessnomed
 VALUES ('systolic-blood-pressure',1,'72313002',NULL,'Systolic arterial pressure (observable entity)'),('systolic-blood-pressure',1,'251070002',NULL,'Non-invasive systolic blood pressure'),('systolic-blood-pressure',1,'251071003',NULL,'Invasive systolic blood pressure'),('systolic-blood-pressure',1,'271649006',NULL,'SAP - Systolic arterial pressure'),('systolic-blood-pressure',1,'314438006',NULL,'Minimum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314439003',NULL,'Maximum systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314440001',NULL,'Average systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314441002',NULL,'Minimum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314442009',NULL,'Minimum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314443004',NULL,'Maximum night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314444005',NULL,'Maximum day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314445006',NULL,'Average night interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314446007',NULL,'Average day interval systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314447003',NULL,'Minimum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314448008',NULL,'Maximum 24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'314449000',NULL,'Average 24 hour systolic blood pressure (observable entity'),('systolic-blood-pressure',1,'314464000',NULL,'24 hour systolic blood pressure (observable entity)'),('systolic-blood-pressure',1,'399304008',NULL,'Systolic blood pressure on admission'),('systolic-blood-pressure',1,'400974009',NULL,'Standing systolic blood pressure'),('systolic-blood-pressure',1,'407554009',NULL,'Sitting systolic blood pressure'),('systolic-blood-pressure',1,'407556006',NULL,'Lying systolic blood pressure'),('systolic-blood-pressure',1,'413606001',NULL,'Average home systolic blood pressure'),('systolic-blood-pressure',1,'716579001',NULL,'Baseline systolic blood pressure'),('systolic-blood-pressure',1,'198081000000101',NULL,'Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'814101000000107',NULL,'Systolic blood pressure centile'),('systolic-blood-pressure',1,'1036551000000101',NULL,'Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'1087991000000109',NULL,'Level of reduction in systolic blood pressure on standing (observable entity)'),('systolic-blood-pressure',1,'12929001',NULL,'Normal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18050000',NULL,'Increased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'18352002',NULL,'Abnormal systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'81010002',NULL,'Decreased systolic arterial pressure (finding)'),('systolic-blood-pressure',1,'163030003',NULL,'On examination - Systolic blood pressure reading'),('systolic-blood-pressure',1,'707303003',NULL,'Post exercise systolic blood pressure response abnormal'),('systolic-blood-pressure',1,'707304009',NULL,'Post exercise systolic blood pressure response normal (finding)');
 INSERT INTO #codessnomed
 VALUES ('urinary-albumin-creatinine-ratio',1,'271075006',NULL,'Urine albumin/creatinine ratio measurement');
+INSERT INTO #codessnomed
+VALUES ('urine-blood',1,'1019581000000105',NULL,'Urine blood test (observable entity)'),('urine-blood',1,'167297006',NULL,'Urine blood test = negative (finding)'),('urine-blood',1,'167298001',NULL,'Urine: trace non-hemolyzed blood (finding)'),('urine-blood',1,'167299009',NULL,'Urine: trace hemolyzed blood (finding)'),('urine-blood',1,'167300001',NULL,'Urine blood test = + (finding)'),('urine-blood',1,'167301002',NULL,'Urine blood test = ++ (finding)'),('urine-blood',1,'167302009',NULL,'Urine blood test = +++ (finding)'),('urine-blood',1,'252385000',NULL,'Urine dipstick for leukocyte esterase (procedure)');
 INSERT INTO #codessnomed
 VALUES ('urine-protein-creatinine-ratio',1,'1028731000000100',NULL,'Urine protein/creatinine ratio');
 INSERT INTO #codessnomed
@@ -319,9 +313,11 @@ VALUES ('diastolic-blood-pressure',1,'EMISNQDI86',NULL,'Diastolic blood pressure
 INSERT INTO #codesemis
 VALUES ('haematocrit',1,'^ESCTHA295458',NULL,'Haematocrit'),('haematocrit',1,'^ESCTHA295460',NULL,'Haematocrit - PCV level'),('haematocrit',1,'^ESCTHA840403',NULL,'Haematocrit - packed cell volume'),('haematocrit',1,'^ESCTHC295455',NULL,'Hct - Haematocrit'),('haematocrit',1,'^ESCTHC295457',NULL,'Hct - Hematocrit'),('haematocrit',1,'^ESCTHE295456',NULL,'Hematocrit - PCV'),('haematocrit',1,'^ESCTHE295459',NULL,'Hematocrit'),('haematocrit',1,'^ESCTPA840404',NULL,'Packed cell volume');
 INSERT INTO #codesemis
+VALUES ('haemoglobin',1,'^ESCTHA551918',NULL,'Haemoglobin level estimation'),('haemoglobin',1,'^ESCTHA551921',NULL,'Haemoglobin estimation level'),('haemoglobin',1,'^ESCTHB551922',NULL,'Hb estimation'),('haemoglobin',1,'^ESCTHE551919',NULL,'Hemoglobin estimation level'),('haemoglobin',1,'^ESCTHE551920',NULL,'Hemoglobin level estimation');
+INSERT INTO #codesemis
 VALUES ('systolic-blood-pressure',1,'EMISNQSY8',NULL,'Systolic blood pressure - left arm'),('systolic-blood-pressure',1,'EMISNQSY9',NULL,'Systolic blood pressure - right arm');
 INSERT INTO #codesemis
-VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative')
+VALUES ('urine-blood',1,'EMISQUR1',NULL,'Urine dipstick for leucocytes'),('urine-blood',1,'EMISQUR2',NULL,'Urine dipstick leucocytes positive'),('urine-blood',1,'EMISQUR3',NULL,'Urine dipstick leucocytes negative'),('urine-blood',1,'^ESCTBL840095',NULL,'Blood in urine test'),('urine-blood',1,'^ESCTUR460322',NULL,'Urine: trace non-hemolyzed blood'),('urine-blood',1,'^ESCTUR460324',NULL,'Urine: trace hemolyzed blood'),('urine-blood',1,'^ESCTUR531535',NULL,'Urine dipstick for leucocyte esterase'),('urine-blood',1,'^ESCTUR531537',NULL,'Urine dipstick for white cells'),('urine-blood',1,'^ESCTUR531538',NULL,'Urine dipstick for leukocyte esterase'),('urine-blood',1,'^ESCTUR531539',NULL,'Urine dipstick for leukocytes')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -419,7 +415,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #EGFR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
@@ -434,7 +430,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #ACR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
@@ -531,7 +527,7 @@ WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #kidney_damage
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
@@ -671,7 +667,7 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
 WHERE 
-	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
+	(DeathDate < @EndDate OR DeathDate IS NULL) AND 
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
@@ -694,7 +690,7 @@ SELECT
   [Value],
   [Units]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 

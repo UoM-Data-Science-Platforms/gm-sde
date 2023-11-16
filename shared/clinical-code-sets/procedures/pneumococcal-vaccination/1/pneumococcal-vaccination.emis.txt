@@ -1,0 +1,45 @@
+^ESCT1170545	Pneumococcal 7-valent conjugate vaccination given
+^ESCT1389903	Pneumococcal vaccination given
+^ESCT1397434	Subcutaneous injection of pneumococcal vaccine
+^ESCT1405591	Pneumococcal immunisation
+^ESCT1407979	Pneumococcal booster vaccination
+^ESCT1407980	Pneumococcal booster immunisation
+EMISNQFI7	First pneumococcal conjugated vaccination
+EMISNQSE15	Second pneumococcal conjugated vaccination
+EMISNQTH9	Third pneumococcal conjugated vaccination
+^ESCT1405590	Administration of pneumococcal vaccine
+^ESCT1405592	Administration of vaccine product containing only Streptococcus pneumoniae antigen
+^ESCT1407978	Administration of booster dose of pneumococcal vaccine
+^ESCT1407981	Administration of booster dose of vaccine product containing only Streptococcus pneumoniae antigen
+^ESCTIM602223	Immunization against bacterial disease
+EMISHA1	Haemophilus influenza B vaccination
+EMISNQBO34	Booster meningitis C vaccination
+EMISNQFI17	First rMenB (recombinant meningococcal group B) vaccination
+EMISNQFO18	Fourth rMenB (recombinant meningococcal group B) vaccination
+EMISNQRM2	rMenB (recombinant meningococcal group B) vaccination
+EMISNQSE46	Second rMenB (recombinant meningococcal group B) vaccination
+EMISNQTH21	Third rMenB (recombinant meningococcal group B) vaccination
+EMISSI1	Single haemophilus influenza B vaccination
+^ESCT1173890	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (A A H Pharmaceuticals Ltd)
+^ESCT1176746	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Alliance Healthcare (Distribution) Ltd)
+^ESCT1179650	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+^ESCT1183555	Pneumovax II vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+^ESCT1249899	Pneumovax 23 solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+^ESCT1410058	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (Organon Pharma (UK) Ltd)
+^ESCT1410064	Pneumovax II vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+^ESCT1412154	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+^ESCT1412571	Pneumovax 23 solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+^ESCTPN1094686	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+^ESCTPN858623	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
+^ESCTPN858746	Pneumovax II vaccine solution for injection 0.5ml vials (sanofi pasteur MSD Ltd)
+^ESCTPN858754	Pnu-Imune vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+^ESCTPN861868	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml vials
+^ESCTPN861869	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
+^ESCTPN861870	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials
+^ESCTPN927419	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+^ESCTPR993974	Prevenar 13 vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+PNIN9413BRIDL	Pneumovax 11  Injection  25 micrograms/0.5 ml vial
+PNPR5193NEMIS	Pneumovax 11  Pre-Filled Syringe  0.5 ml
+PNSO128492NEMIS	Pneumovax 23  Solution for injection  0.5 ml pre-filled syringe
+PNVA30368EMIS	Pnu-Imune  Vaccine  0.5 ml vial
+PRSU40435NEMIS	Prevenar 13 Vaccine  Suspension For Injection  0.5 ml pre-filled syringe
