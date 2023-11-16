@@ -54,3 +54,258 @@ DATA77715NEMIS	Dapagliflozin  Tablets  10 mg
 DATA77713NEMIS	Dapagliflozin  Tablets  5 mg
 SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
 EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+^ESCT1180531	Vokanamet 50mg/1000mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1186817	Vokanamet 50mg/850mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTVO1100562	Vokanamet 50mg/850mg tablets (Janssen-Cilag Ltd)
+^ESCTVO1100581	Vokanamet 50mg/1000mg tablets (Janssen-Cilag Ltd)
+^ESCT1182249	Product containing only canagliflozin 100 mg/1 each oral tablet
+^ESCT1188651	Canagliflozin + Metformin
+^ESCT1203392	Canagliflozin 300 mg conventional release oral tablet
+^ESCT1206546	Canagliflozin in oral dosage form
+^ESCT1206547	Product containing canagliflozin in oral dosage form
+^ESCT1236029	Canagliflozin
+^ESCT1236030	Canagliflozin product
+^ESCT1236031	Product containing precisely canagliflozin 100 milligram/1 each conventional release oral tablet
+^ESCT1236614	Product containing canagliflozin and metformin
+^ESCT1236615	Canagliflozin and metformin product
+^ESCT1385139	Canagliflozin- and metformin-containing product in oral dose form
+^ESCT1385839	Canagliflozin 300 mg oral tablet
+^ESCT1386331	Canagliflozin-containing product in oral dose form
+^ESCT1425186	Canagliflozin 100mg tablets
+^ESCTCA1063152	Canagliflozin 300mg tablets
+^ESCTCA1100793	Canagliflozin 50mg / Metformin 1g tablets
+^ESCTCA1100794	Canagliflozin 50mg / Metformin 850mg tablets
+^ESCTCA757992	Canagliflozin
+^ESCTCA758003	Canagliflozin
+^ESCTCA758005	Canagliflozin 100mg tablets
+^ESCTCA758007	Canagliflozin 100 mg oral tablet
+^ESCTCA772423	Canagliflozin + metformin
+^ESCTCA772424	Canagliflozin and metformin in oral dosage form
+^ESCTCA787194	Canagliflozin hemihydrate
+^ESCTPR758004	Product containing canagliflozin
+^ESCTPR758006	Product containing canagliflozin 100 mg/1 each oral tablet
+^ESCTPR772425	Product containing canagliflozin and metformin in oral dosage form
+^ESCT1182300	Product containing only empagliflozin 25 mg/1 each oral tablet
+^ESCT1183381	Empagliflozin + Metformin
+^ESCT1188433	Product containing only empagliflozin 10 mg/1 each oral tablet
+^ESCT1206715	Empagliflozin in oral dosage form
+^ESCT1206716	Product containing empagliflozin in oral dosage form
+^ESCT1236117	Empagliflozin
+^ESCT1236118	Empagliflozin product
+^ESCT1236119	Product containing precisely empagliflozin 10 milligram/1 each conventional release oral tablet
+^ESCT1236120	Product containing precisely empagliflozin 25 milligram/1 each conventional release oral tablet
+^ESCT1236581	Empagliflozin + linagliptin
+^ESCT1236582	Product containing empagliflozin and linagliptin
+^ESCT1236583	Empagliflozin and linagliptin product
+^ESCT1236584	Product containing empagliflozin and metformin
+^ESCT1236585	Empagliflozin and metformin product
+^ESCT1385128	Empagliflozin- and linagliptin-containing product
+^ESCT1386415	Empagliflozin-containing product in oral dose form
+^ESCTEM1074337	Empagliflozin 10mg tablets
+^ESCTEM1074338	Empagliflozin 25mg tablets
+^ESCTEM1121862	Empagliflozin 12.5mg / Metformin 1g tablets
+^ESCTEM1121863	Empagliflozin 12.5mg / Metformin 850mg tablets
+^ESCTEM1121864	Empagliflozin 5mg / Metformin 1g tablets
+^ESCTEM1121865	Empagliflozin 5mg / Metformin 850mg tablets
+^ESCTEM758352	Empagliflozin
+^ESCTEM758353	Empagliflozin
+^ESCTEM758355	Empagliflozin 10 mg oral tablet
+^ESCTEM758357	Empagliflozin 25 mg oral tablet
+^ESCTEM772310	Empagliflozin + linagliptin
+^ESCTEM772311	Empagliflozin + metformin
+^ESCTPR758354	Product containing empagliflozin
+^ESCTPR758356	Product containing empagliflozin 10 mg/1 each oral tablet
+^ESCTPR758358	Product containing empagliflozin 25 mg/1 each oral tablet
+^ESCT1185893	Product containing only dapagliflozin 5 mg/1 each oral tablet
+^ESCT1185894	Product containing only dapagliflozin 10 mg/1 each oral tablet
+^ESCT1206385	Dapagliflozin in oral dosage form
+^ESCT1206386	Product containing dapagliflozin in oral dosage form
+^ESCT1236023	Dapagliflozin
+^ESCT1236024	Dapagliflozin product
+^ESCT1236025	Dapagliflozin propanediol 5 mg oral tablet
+^ESCT1236026	Product containing precisely dapagliflozin propanediol 5 milligram/1 each conventional release oral tablet
+^ESCT1236027	Product containing precisely dapagliflozin propanediol 10 milligram/1 each conventional release oral tablet
+^ESCT1236028	Dapagliflozin propanediol 10 mg oral tablet
+^ESCT1386251	Dapagliflozin-containing product in oral dose form
+^ESCT1424749	Dapagliflozin 10mg tablets
+^ESCT1424750	Dapagliflozin 5mg tablets
+^ESCTDA1062682	Dapagliflozin 5mg / Metformin 1g tablets
+^ESCTDA1062683	Dapagliflozin 5mg / Metformin 850mg tablets
+^ESCTDA757990	Dapagliflozin
+^ESCTDA757991	Dapagliflozin propanediol
+^ESCTDA757995	Dapagliflozin
+^ESCTDA757997	Dapagliflozin 5mg tablets
+^ESCTDA757999	Dapagliflozin 5 mg oral tablet
+^ESCTDA758000	Dapagliflozin 10mg tablets
+^ESCTDA758002	Dapagliflozin 10 mg oral tablet
+^ESCTPR757996	Product containing dapagliflozin
+^ESCTPR757998	Product containing dapagliflozin 5 mg/1 each oral tablet
+^ESCTPR758001	Product containing dapagliflozin 10 mg/1 each oral tablet
+^ESCT1186692	Invokana 100mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1189834	Invokana 300mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTIN1063007	Invokana 300mg tablets (Janssen-Cilag Ltd)
+^ESCTIN1063010	Invokana 100mg tablets (Janssen-Cilag Ltd)
+^ESCT1201406	Ertugliflozin
+^ESCT1201407	Ertugliflozin product
+^ESCT1201408	Product containing ertugliflozin
+^ESCT1201409	Ertugliflozin in oral dosage form
+^ESCT1201410	Product containing ertugliflozin in oral dosage form
+^ESCT1385672	Ertugliflozin-containing product
+^ESCT1385673	Ertugliflozin-containing product in oral dose form
+^ESCTFO1039919	Forxiga 5mg tablets (AstraZeneca UK Ltd)
+^ESCTFO1039922	Forxiga 10mg tablets (AstraZeneca UK Ltd)
+^ESCTJA1073847	Jardiance 10mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJA1073856	Jardiance 25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120491	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120498	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120507	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120514	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTXI1062326	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)
+^ESCTXI1062329	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)
+^ESCT1280700	Canagliflozin 100mg tablets 28 tablet
+^ESCTCA1063006	Canagliflozin 300mg tablets 30 tablet
+^ESCTCA1063009	Canagliflozin 100mg tablets 30 tablet
+^ESCTCA1100559	Canagliflozin 50mg / Metformin 850mg tablets 60 tablet
+^ESCTCA1100578	Canagliflozin 50mg / Metformin 1g tablets 60 tablet
+^ESCT1259825	Dapagliflozin 10mg tablets 30 tablet
+^ESCT1439790	Dapagliflozin 5mg tablets 30 tablet
+^ESCTDA1039917	Dapagliflozin 5mg tablets 28 tablet
+^ESCTDA1039921	Dapagliflozin 10mg tablets 28 tablet
+^ESCTDA1062325	Dapagliflozin 5mg / Metformin 850mg tablets 56 tablet
+^ESCTDA1062328	Dapagliflozin 5mg / Metformin 1g tablets 56 tablet
+^ESCTSA1153703	Saxagliptin 5mg / Dapagliflozin 10mg tablets 28 tablet
+^ESCTSA1154285	Saxagliptin 5mg / Dapagliflozin 10mg tablets
+SATA119013NEMIS	Saxagliptin And Dapagliflozin  Tablets  5 mg + 10 mg
+^ESCT1258068	Empagliflozin 10mg tablets 30 tablet
+^ESCT1258071	Empagliflozin 25mg tablets 30 tablet
+^ESCT1265478	Empagliflozin 10mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265481	Empagliflozin 25mg / Linagliptin 5mg tablets 28 tablet
+^ESCT1265954	Empagliflozin 10mg / Linagliptin 5mg tablets
+^ESCT1265956	Empagliflozin 25mg / Linagliptin 5mg tablets
+^ESCT1276727	Empagliflozin 5mg / Metformin 1g tablets 60 tablet
+^ESCT1276729	Empagliflozin 12.5mg / Metformin 1g tablets 60 tablet
+^ESCTEM1073846	Empagliflozin 10mg tablets 28 tablet
+^ESCTEM1073853	Empagliflozin 25mg tablets 28 tablet
+^ESCTEM1120490	Empagliflozin 5mg / Metformin 850mg tablets 56 tablet
+^ESCTEM1120496	Empagliflozin 5mg / Metformin 1g tablets 56 tablet
+^ESCTEM1120504	Empagliflozin 12.5mg / Metformin 850mg tablets 56 tablet
+^ESCTEM1120513	Empagliflozin 12.5mg / Metformin 1g tablets 56 tablet
+EMTA133082NEMIS	Empagliflozin And Linagliptin  Tablets  10 mg + 5 mg
+EMTA133083NEMIS	Empagliflozin And Linagliptin  Tablets  25 mg + 5 mg
+^ESCT1254503	Ertugliflozin 5mg tablets 28 tablet
+^ESCT1254506	Ertugliflozin 15mg tablets 28 tablet
+^ESCT1254556	Ertugliflozin 15mg tablets
+^ESCT1254557	Ertugliflozin 5mg tablets
+ERTA130344NEMIS	Ertugliflozin  Tablets  5 mg
+ERTA130346NEMIS	Ertugliflozin  Tablets  15 mg
+^ESCT1259826	Forxiga 10mg tablets (Pharmaram Ltd)
+^ESCT1259827	Forxiga 10mg tablets (Pharmaram Ltd) 28 tablet
+^ESCT1259828	Forxiga 10mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1267425	Forxiga 10mg tablets (CST Pharma Ltd)
+^ESCT1267426	Forxiga 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267427	Forxiga 10mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267428	Forxiga 5mg tablets (CST Pharma Ltd)
+^ESCT1267429	Forxiga 5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1274535	Forxiga 10mg tablets (Pilsco Ltd)
+^ESCT1274536	Forxiga 10mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1274537	Forxiga 10mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1280695	Forxiga 5mg tablets (Pharmaram Ltd)
+^ESCT1280696	Forxiga 5mg tablets (Pharmaram Ltd) 28 tablet
+^ESCT1300710	Forxiga 5mg tablets (DE Pharmaceuticals)
+^ESCT1300711	Forxiga 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300712	Forxiga 10mg tablets (DE Pharmaceuticals)
+^ESCT1300713	Forxiga 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300714	Forxiga 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1375827	Forxiga 5mg tablets (Ethigen Ltd)
+^ESCT1375828	Forxiga 5mg tablets (Ethigen Ltd) 28 tablet
+^ESCT1389503	Forxiga 10mg tablets (Ethigen Ltd)
+^ESCT1389504	Forxiga 10mg tablets (Ethigen Ltd) 28 tablet
+^ESCT1389505	Forxiga 10mg tablets (Ethigen Ltd) 30 tablet
+^ESCT1439791	Forxiga 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTFO1039920	Forxiga 5mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFO1039923	Forxiga 10mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFO1100266	Forxiga 10mg tablets (Waymade Healthcare Plc)
+^ESCTFO1100267	Forxiga 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTFO1104357	Forxiga 5mg tablets (Waymade Healthcare Plc)
+^ESCTFO1104358	Forxiga 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCT1265479	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265480	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCT1265482	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265483	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+GLTA133085NEMIS	Glyxambi  Tablets  10 mg + 5 mg
+GLTA133086NEMIS	Glyxambi  Tablets  25 mg + 5 mg
+^ESCT1189835	Invokana 300mg tablets (Napp Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1189836	Invokana 100mg tablets (Napp Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267866	Invokana 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267867	Invokana 100mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1267868	Invokana 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267869	Invokana 300mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1274549	Invokana 100mg tablets (Pilsco Ltd)
+^ESCT1274550	Invokana 100mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1280699	Invokana 100mg tablets (Pharmaram Ltd)
+^ESCT1280701	Invokana 100mg tablets (Pharmaram Ltd) 28 tablet
+^ESCT1300761	Invokana 100mg tablets (DE Pharmaceuticals)
+^ESCT1300762	Invokana 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1389510	Invokana 100mg tablets (Ethigen Ltd)
+^ESCT1389511	Invokana 100mg tablets (Ethigen Ltd) 30 tablet
+^ESCT1434479	Invokana 300mg tablets (Pilsco Ltd)
+^ESCT1434480	Invokana 300mg tablets (Pilsco Ltd) 30 tablet
+^ESCTIN1063008	Invokana 300mg tablets (Janssen-Cilag Ltd) 30 tablet 3 x 10 tablets
+^ESCTIN1063011	Invokana 100mg tablets (Janssen-Cilag Ltd) 30 tablet 3 x 10 tablets
+^ESCT1258067	Jardiance 10mg tablets (Originalis B.V.)
+^ESCT1258069	Jardiance 10mg tablets (Originalis B.V.) 30 tablet
+^ESCT1258070	Jardiance 25mg tablets (Originalis B.V.)
+^ESCT1258072	Jardiance 25mg tablets (Originalis B.V.) 30 tablet
+^ESCT1267458	Jardiance 10mg tablets (CST Pharma Ltd)
+^ESCT1267459	Jardiance 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267460	Jardiance 10mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267461	Jardiance 25mg tablets (CST Pharma Ltd)
+^ESCT1267462	Jardiance 25mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267463	Jardiance 25mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267963	Jardiance 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267964	Jardiance 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1267966	Jardiance 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267968	Jardiance 25mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1274564	Jardiance 10mg tablets (Pilsco Ltd)
+^ESCT1274566	Jardiance 10mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1300773	Jardiance 10mg tablets (DE Pharmaceuticals)
+^ESCT1300774	Jardiance 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300775	Jardiance 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300776	Jardiance 25mg tablets (DE Pharmaceuticals)
+^ESCT1300777	Jardiance 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300778	Jardiance 25mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1389520	Jardiance 10mg tablets (Ethigen Ltd)
+^ESCT1389521	Jardiance 10mg tablets (Ethigen Ltd) 30 tablet
+^ESCTJA1073848	Jardiance 10mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCTJA1073860	Jardiance 25mg tablets (Boehringer Ingelheim Ltd) 28 tablet 4 x 7 tablets
+^ESCTQT1153704	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd)
+^ESCTQT1153705	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+QTTA119016NEMIS	Qtern  Tablets  5 mg + 10 mg
+^ESCT1254504	Steglatro 5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1254505	Steglatro 5mg tablets (Merck Sharp & Dohme Ltd) 28 tablet 4 x 7 tablets
+^ESCT1254507	Steglatro 15mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1254508	Steglatro 15mg tablets (Merck Sharp & Dohme Ltd) 28 tablet 4 x 7 tablets
+^ESCT1412576	Steglatro 5mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1412577	Steglatro 5mg tablets (Merck Sharp & Dohme (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1412578	Steglatro 15mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1412579	Steglatro 15mg tablets (Merck Sharp & Dohme (UK) Ltd) 28 tablet 4 x 7 tablets
+STTA130348NEMIS	Steglatro  Tablets  5 mg
+STTA130349NEMIS	Steglatro  Tablets  15 mg
+^ESCT1276726	Synjardy 5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1276728	Synjardy 5mg/1000mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1276730	Synjardy 12.5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1276731	Synjardy 12.5mg/1000mg tablets (CST Pharma Ltd) 60 tablet
+^ESCTSY1120493	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120499	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120509	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCTSY1120516	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd) 56 tablet 8 x 7 tablets
+^ESCT1184814	Vokanamet 50mg/850mg tablets (Napp Pharmaceuticals Ltd) 60 tablet
+^ESCT1186818	Vokanamet 50mg/1000mg tablets (Napp Pharmaceuticals Ltd) 60 tablet
+^ESCTVO1100566	Vokanamet 50mg/850mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTVO1100583	Vokanamet 50mg/1000mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCT1270876	Xigduo 5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1270877	Xigduo 5mg/1000mg tablets (CST Pharma Ltd) 56 tablet
+^ESCT1301082	Xigduo 5mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1301083	Xigduo 5mg/1000mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTXI1062327	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTXI1062330	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
