@@ -1,1 +1,3 @@
-46TC.	Urine albumin:creatinine ratio
+46TC.00	Urine albumin:creatinine ratio
+44J7.00	Albumin / creatinine ratio
+46TD.00	Urine microalbumin:creatinine ratio
