@@ -1,0 +1,12 @@
+^ESCT1262086	Creatinine substance concentration in plasma
+^ESCT1262087	Creatinine molar concentration in plasma
+^ESCT1262136	Creatinine substance concentration in serum
+^ESCT1262137	Creatinine molar concentration in serum
+^ESCT1262444	Creatinine substance concentration in plasma by colorimetric method
+^ESCT1262445	Creatinine molar concentration in plasma by colorimetric method
+^ESCT1262446	Creatinine substance concentration in plasma by enzymatic method
+^ESCT1262447	Creatinine molar concentration in plasma by enzymatic method
+^ESCT1262448	Creatinine substance concentration in serum by colorimetric method
+^ESCT1262449	Creatinine molar concentration in serum by colorimetric method
+^ESCT1262450	Creatinine substance concentration in serum by enzymatic method
+^ESCT1262451	Creatinine molar concentration in serum by enzymatic method
