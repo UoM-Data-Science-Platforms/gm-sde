@@ -1,0 +1,20 @@
+^ESCT1167392	Glomerular filtration rate calculation technique
+^ESCT1167393	GFR - Glomerular filtration rate calculation technique
+^ESCT1237005	GFR (glomerular filtration rate) calculation technique
+^ESCT1249126	eGFR (estimated glomerular filtration rate) using CKD-Epi (Chronic Kidney Disease Epidemiology Collaboration) formula per 1.73 square metres
+^ESCT1262192	Estimated glomerular filtration rate by laboratory calculation
+^ESCT1262193	eGFR (estimated glomerular filtration rate) by laboratory calculation
+^ESCT1268044	GFR - glomerular filtration rate
+^ESCT1437095	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
+^ESCT1437099	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+^ESCT1437100	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+^ESCTEG829482	eGFR (estimated glomerular filtration rate) using CKD-Epi (Chronic Kidney Disease Epidemiology Collaboration) formula
+^ESCTEG835295	eGFR (estimated glomerular filtration rate) using cystatin C CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration) equation
+^ESCTEG835298	eGFR (estimated glomerular filtration rate) using creatinine CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration) equation
+^ESCTES829480	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula
+^ESCTES835294	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation
+^ESCTES835297	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation
+^ESCTTC515939	Tc99m-DTPA clearance - GFR
+^ESCTTE515940	Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate
+^ESCTWI545152	With GFR
+^ESCTWI545153	With glomerular filtration rate
