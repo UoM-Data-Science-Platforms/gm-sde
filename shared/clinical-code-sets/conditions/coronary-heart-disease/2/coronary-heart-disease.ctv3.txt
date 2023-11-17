@@ -1,0 +1,152 @@
+ZV457	[V]Presence of aortocoronary bypass graft
+XaeVd	Non-obstructive coronary atherosclerosis
+XaYYq	Coronary microvascular disease
+XaX1p	Coronary angioplasty planned
+XaVvs	Coronary artery bypass graft operation planned
+XaQk7	History of myocardial infarction
+XaJX0	Acute posterolateral myocardial infarction
+XaJIU	Coronary artery bypass graft occlusion
+XaIwY	Acute non-ST segment elevation myocardial infarction
+XaIwM	Acute ST segment elevation myocardial infarction
+XaIf1	First myocardial infarction
+XaINF	Acute coronary syndrome
+XaG1Q	Asymptomatic coronary heart disease
+XaFx7	Diabetes mellitus insulin-glucose infusion in acute myocardial infarction
+XaFsH	Transient myocardial ischaemia
+XaFsG	Refractory angina
+XaEgZ	Non-Q wave myocardial infarction
+XaEXt	Post infarct angina
+XaD2i	Postoperative myocardial infarction, unspecified
+XaD2h	Postoperative subendocardial myocardial infarction
+XaD2g	Postoperative transmural myocardial infarction of unspecified site
+XaD2f	Postoperative transmural myocardial infarction of other sites
+XaD2e	Postoperative transmural myocardial infarction of inferior wall
+XaD2d	Postoperative transmural myocardial infarction of anterior wall
+XaD2b	Postoperative myocardial infarction
+XaBL1	H/O: Myocardial infarction in last year
+XaBEB	[V]Presence of coronary artery bypass graft
+XaAzi	Acute non-Q wave infarction
+XaAC3	Acute Q wave myocardial infarction
+Xa7nH	Exercise-induced angina
+Xa1dR	Hibernating myocardium
+Xa1dQ	Stunned myocardium
+Xa1dP	Ischaemic myocardial dysfunction
+Xa0YL	Acute anterior myocardial infarction
+XSDT6	Coronary artery atheroma
+XM0rN	Coronary atheroma
+XE2uV	CAD - Coronary artery disease
+XE2aA	Old myocardial infarction
+XE0WG	Chronic ischaemic heart disease NOS
+XE0WE	Chronic ischaemic heart disease NOS
+XE0WC	Acute/subacute ischaemic heart disease NOS
+XE0WA	Myocardial infarct
+XE0Ui	Pre-infarction syndrome
+XE0Uh	Acute myocardial infarction
+X778X	Coronary graft occluded
+X778W	Coronary graft stenosis
+X778Q	Coronary artery occluded
+X203v	Coronary artery thrombosis
+X203e	Coronary artery stenosis
+X201u	Post-infarction pericarditis
+X200e	Cardiac rupture after acute myocardial infarction
+X200d	Post-infarction ventricular septal defect
+X200b	Accelerated coronary artery disease in transplanted heart
+X200a	Silent myocardial infarction
+X200Z	Old posterior myocardial infarction
+X200Y	Old lateral myocardial infarction
+X200X	Old inferior myocardial infarction
+X200W	Old anterior myocardial infarction
+X200V	Acute posterior myocardial infarction
+X200U	Acute non-Q wave infarction - widespread
+X200T	Acute Q wave infarction - widespread
+X200S	Acute widespread myocardial infarction
+X200R	Acute non-Q wave infarction - lateral
+X200Q	Acute Q wave infarction - lateral
+X200P	Acute lateral myocardial infarction
+X200O	Acute non-Q wave infarction - inferolateral
+X200N	Acute Q wave infarction - inferolateral
+X200M	Acute non-Q wave infarction - inferior
+X200L	Acute Q wave infarction - inferior
+X200K	Acute inferior myocardial infarction
+X200J	Acute non-Q wave infarction - anterolateral
+X200I	Acute Q wave infarction - anterolateral
+X200H	Acute non-Q wave infarction - anteroseptal
+X200G	Acute Q wave infarction - anteroseptal
+X200E	CT - Coronary thrombosis
+X200D	Silent myocardial ischaemia
+X200C	Myocardial ischaemia
+X200A	New onset angina
+X2009	Unstable angina
+X2008	Stable angina
+X2007	Angina at rest
+X2006	Triple vessel disease of the heart
+Ua1eH	Ischaemic chest pain
+Gyu36	[X]Subsequent myocardial infarction of unspecified site
+Gyu35	[X]Subsequent myocardial infarction of other sites
+Gyu34	[X]Acute transmural myocardial infarction of unspecified site
+Gyu33	[X]Other forms of chronic ischaemic heart disease
+Gyu32	[X]Other forms of acute ischaemic heart disease
+Gyu30	[X]Other forms of angina pectoris
+G3z..	Ischaemic heart disease NOS
+G3y..	Other specified ischaemic heart disease
+G366.	Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction
+G365.	Rupture of papillary muscle as current complication following acute myocardial infarction
+G364.	Rupture of chordae tendinae as current complication following acute myocardial infarction
+G363.	Rupture of cardiac wall without haemopericardium as current complication following acute myocardial infarction
+G361.	Atrial septal defect as current complication following acute myocardial infarction
+G360.	Haemopericardium as current complication following acute myocardial infarction
+G36..	Certain current complications following acute myocardial infarction
+G353.	Subsequent myocardial infarction of other sites
+G351.	Subsequent myocardial infarction of inferior wall
+G350.	Subsequent myocardial infarction of anterior wall
+G35..	Subsequent myocardial infarction
+G34z.	Other chronic ischaemic heart disease NOS
+G34yz	Other specified chronic ischaemic heart disease NOS
+G34y1	Chronic myocardial ischaemia
+G34y.	Other specified chronic ischaemic heart disease
+G343.	Generalised ischaemic myocardial dysfunction
+G3401	Double coronary vessel disease
+G3400	Single coronary vessel disease
+G340.	Triple vessel disease of the heart
+G34..	Other chronic ischaemic heart disease
+G33z2	Syncope anginosa
+G33z1	Stenocardia
+G33z0	Status anginosus
+G33z.	Angina pectoris NOS
+G330z	Angina decubitus NOS
+G3300	Nocturnal angina
+G330.	Angina decubitus
+G33..	Angina
+G32..	Old myocardial infarction
+G31yz	Other acute and subacute ischaemic heart disease NOS
+G31y2	Subendocardial ischaemia
+G31y1	Microinfarction of heart
+G31y0	Acute coronary insufficiency
+G312.	Coronary thrombosis not resulting in myocardial infarction
+G311z	Preinfarction syndrome NOS
+G3110	Aborted myocardial infarction
+G311.	Angina at rest
+G310.	Post-myocardial infarction syndrome
+G31..	Other acute and subacute ischaemic heart disease
+G30z.	Acute myocardial infarction NOS
+G30yz	Other acute myocardial infarction NOS
+G30y2	Acute septal infarction
+G30y1	Acute papillary muscle infarction
+G30y0	Acute atrial infarction
+G30y.	Other acute myocardial infarction
+G308.	Inferior myocardial infarction NOS
+G307.	Acute subendocardial infarction
+G306.	True posterior myocardial infarction
+G305.	Lateral myocardial infarction NOS
+G304.	Posterior myocardial infarction NOS
+G303.	Acute inferoposterior infarction
+G302.	Acute inferolateral myocardial infarction
+G301z	Anterior myocardial infarction NOS
+G3011	Acute anteroseptal myocardial infarction
+G3010	Acute anteroapical infarction
+G301.	Other specified anterior myocardial infarction
+G300.	Acute anterolateral myocardial infarction
+G30..	Acute myocardial infarction
+G3...	Ischaemic heart disease
+14A4.	H/O: myocardial infarct at greater than 60
+14A3.	H/O: myocardial infarct at less than 60
