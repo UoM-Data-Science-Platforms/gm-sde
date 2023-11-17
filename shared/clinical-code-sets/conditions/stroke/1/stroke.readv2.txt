@@ -36,8 +36,6 @@ G64z111	Lateral medullary syndrome
 G64z200	Left sided cerebral infarction
 G64z300	Right sided cerebral infarction
 G64z400	Infarction of basal ganglia
-G650.00	Basilar artery syndrome
-G651000	Vertebro-basilar artery syndrome
 G66..00	Stroke and cerebrovascular accident unspecified
 G66..11	CVA unspecified
 G66..12	Stroke unspecified
@@ -61,3 +59,13 @@ Gyu6500	[X]Occlusion and stenosis of other precerebral arteries
 Gyu6600	[X]Occlusion and stenosis of other cerebral arteries
 Gyu6F00	[X]Intracerebral haemorrhage in hemisphere, unspecified
 Gyu6G00	[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries
+G60..00	Subarachnoid haemorrhage
+G603.00	Subarachnoid haemorrhage from anterior communicating artery
+G604.00	Subarachnoid haemorrhage from posterior communicating artery
+G60X.00	Subarachnoid haemorrhage from intracranial artery, unspecified
+G60z.00	Subarachnoid haemorrhage NOS
+G617.00	Intracerebral haemorrhage, intraventricular
+Gyu6000	[X]Subarachnoid haemorrhage from other intracranial arteries
+Gyu6100	[X]Other subarachnoid haemorrhage
+Gyu6E00	[X]Subarachnoid haemorrhage from intracranial artery, unspecified
+L440.12	Stroke in the puerperium
