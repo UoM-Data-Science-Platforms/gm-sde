@@ -71,11 +71,14 @@ GROUP BY FK_Patient_Link_ID
 HAVING MIN(StartDate) < @TEMPRQ043EndDate;
 
 -- Get all the positive covid test patients
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
+--> EXECUTE query-patients-with-covid-no-lft.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
+-- Update - filter to patients registered to a GP practice (tenancy=2)
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients
-FROM #CovidPatients;
+SELECT DISTINCT cp.FK_Patient_Link_ID INTO #Patients
+FROM #CovidPatients cp
+LEFT OUTER JOIN SharedCare.Patient p ON p.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
+WHERE p.FK_Reference_Tenancy_ID = 2;
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
@@ -317,6 +320,10 @@ from #PatientLSOAEarliestStart s
 left outer join #PatientLSOALatestEnd e
 on e.FK_Patient_Link_ID = s.FK_Patient_Link_ID;
 
+-- Get the patients gp practice so we can identify the GP system
+--> EXECUTE query-patient-practice-and-ccg.sql
+--> EXECUTE query-practice-systems-lookup.sql
+
 SELECT 
   m.FK_Patient_Link_ID AS PatientId,
   FirstCovidPositiveDate,
@@ -351,7 +358,8 @@ SELECT
   VaccineDose2Date,
   VaccineDose3Date,
   VaccineDose4Date,
-  VaccineDose5Date
+  VaccineDose5Date,
+  sys.System
   --,Occupation
 FROM #Patients m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -373,4 +381,6 @@ LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsAdmissionsPostTest admit ON admit.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsLOSPostTest los ON los.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPractice prac on prac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PracticeSystemLookup sys on sys.PracticeId = prac.GPPracticeCode;

@@ -6,18 +6,6 @@ To get round this we provide the clinical codes in two columns:
 - The [ExcelCode] column behaves when opened in Excel and is to be used if the column needs to be copy/pasted
 
 Name,Version,Terminology,Code,ExcelCode,Description
-"covid-positive-antigen-test",1,"ctv3",Y269d,Y269d,"SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive"
-"covid-positive-antigen-test",1,"ctv3",43kB1,43kB1,"SARS-CoV-2 antigen positive "
-"covid-positive-antigen-test",1,"emis",^ESCT1305304,^ESCT1305304,"SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive"
-"covid-positive-antigen-test",1,"emis",^ESCT1348538,^ESCT1348538,"Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen"
-"covid-positive-antigen-test",1,"emis",^ESCT1305305,^ESCT1305305,"2019-nCoV (novel coronavirus) antigen detection result positive"
-"covid-positive-antigen-test",1,"emis",^ESCT1348539,^ESCT1348539,"Detection of Severe acute respiratory syndrome coronavirus 2 antigen"
-"covid-positive-antigen-test",1,"emis",^ESCT1348540,^ESCT1348540,"Detection of 2019 novel coronavirus antigen"
-"covid-positive-antigen-test",1,"emis",^ESCT1348541,^ESCT1348541,"Detection of 2019-nCoV (novel coronavirus) antigen"
-"covid-positive-antigen-test",1,"readv2",43kB1,43kB1,"SARS-CoV-2 antigen positive "
-"covid-positive-antigen-test",1,"snomed",1322781000000102,"=""1322781000000102""","Severe acute respiratory syndrome coronavirus 2 antigen detection result positive (finding)"
-"covid-positive-antigen-test",1,"snomed",871553007,"=""871553007""","Detection of Severe acute respiratory syndrome coronavirus 2 antigen (observable entity)"
-"covid-positive-antigen-test",1,"snomed",1240391000000107,"=""1240391000000107""","Antigen of severe acute respiratory syndrome coronavirus 2"
 "covid-positive-pcr-test",1,"ctv3",4J3R6,4J3R6,"SARS-CoV-2 RNA pos lim detect"
 "covid-positive-pcr-test",1,"ctv3",Y240b,Y240b,"Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)"
 "covid-positive-pcr-test",1,"ctv3",Y2a3b,Y2a3b,"SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive"
