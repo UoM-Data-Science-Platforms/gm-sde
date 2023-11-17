@@ -1661,6 +1661,8 @@ FROM (
 	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientAA
 	UNION
 	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientPAD
+	UNION
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientHF
 ) sub
 GROUP BY FK_Patient_Link_ID;
 
@@ -1669,6 +1671,8 @@ SELECT
 	pp.GPPracticeCode,
 	imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	yob.YearOfBirth,
+	YEAR(t2d.DateOfFirstDiagnosis) AS FirstT2DYear,
+	MONTH(t2d.DateOfFirstDiagnosis) AS FirstT2DMonth,
 	sex.Sex,
 	h.HeightInCentimetres,
 	pl.EthnicMainGroup AS Ethnicity,
@@ -1696,6 +1700,7 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHeight h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientT2D t2d ON t2d.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientACEI acei ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientARB arb ON arb.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSGLT2i sglt2i ON sglt2i.FK_Patient_Link_ID = p.FK_Patient_Link_ID
