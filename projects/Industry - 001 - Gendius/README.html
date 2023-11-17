@@ -157,11 +157,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>Input</em></p>
 <pre><code>A variable:
   -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-  - gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  -	gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- #PatientHeight - two column table linking patient link id with the most recent height value
+<pre><code>Temp table called #PatientHeight with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	- HeightInCentimetres - int - the most recent height in cm
+	-	HeightDate - date (YYYY/MM/DD) - the date of the most recent height measurement
 </code></pre>
 <p><em>File</em>: <code>query-get-height.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-height.sql">https://github.com/rw251/.../query-get-height.sql</a></p>
@@ -181,8 +183,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
   - temp-table-name: string - the name of the temp table that this will produce
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- {temp-table-name} - two column table linking patient link id with the most recent value
+<pre><code>Temp table `temp-table-name` with columns:
+  - FK_Patient_Link_ID - unique patient id
+  - MostRecentDate - date (YYYY/MM/DD) - date of the most recent value
+  - MostRecentValue - float - the most recent value
 </code></pre>
 <p><em>File</em>: <code>query-get-most-recent-value.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-most-recent-value.sql">https://github.com/rw251/.../query-get-most-recent-value.sql</a></p>
@@ -319,8 +323,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
   - temp-table-name: string - the name of the temp table that this will produce
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- #Patients - list of patient ids of the cohort
+<pre><code>Temp table with the name of the provided parameter `temp-table-name` with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	-	DateOfFirstDiagnosis - date (YYY/MM/DD) - the date of the first diagnosis
 </code></pre>
 <p><em>File</em>: <code>query-get-first-diagnosis.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-first-diagnosis.sql">https://github.com/rw251/.../query-get-first-diagnosis.sql</a></p>
@@ -337,6 +342,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>sglt2-inhibitors v1</li>
 <li>heart-failure v1</li>
 <li>cancer v3</li>
+<li>coronary-heart-disease v2</li>
+<li>stroke v1</li>
+<li>tia v1</li>
+<li>aortic-aneurysm v1</li>
+<li>peripheral-arterial-disease v1</li>
 <li>egfr v1</li>
 <li>urinary-albumin-creatinine-ratio v1</li>
 <li>creatinine v1</li>
@@ -562,7 +572,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>66.10% - 72.59%</code> suggests that this code set is well defined.</p>
-<p><em>Update <strong>2023/10/26</strong>: prevalence now <code>71.5% - 74.6%</code></em></p>
+<p><em>Update <strong>2023/11/07</strong>: prevalence now <code>71% - 74%</code></em></p>
 <table>
 <thead>
 <tr>
@@ -596,31 +606,31 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">245440 (72.57%)</td>
 </tr>
 <tr>
-<td>2023-10-26</td>
+<td>2023-11-07</td>
 <td>EMIS</td>
-<td>2472595</td>
-<td style="text-align:right">1808301 (73.1%)</td>
-<td style="text-align:right">1808353 (73.1%)</td>
+<td>2482563</td>
+<td style="text-align:right">1797419 (72.4%)</td>
+<td style="text-align:right">1797473 (72.4%)</td>
 </tr>
 <tr>
-<td>2023-10-26</td>
+<td>2023-11-07</td>
 <td>TPP</td>
-<td>200603</td>
-<td style="text-align:right">149581 (74.6%)</td>
-<td style="text-align:right">149584 (74.6%)</td>
+<td>201030</td>
+<td style="text-align:right">149385 (74.3%)</td>
+<td style="text-align:right">149388 (74.3%)</td>
 </tr>
 <tr>
-<td>2023-10-26</td>
+<td>2023-11-07</td>
 <td>Vision</td>
-<td>332447</td>
-<td style="text-align:right">237730 (71.5%)</td>
-<td style="text-align:right">237732 (71.5%)</td>
+<td>333490</td>
+<td style="text-align:right">236514 (70.9%)</td>
+<td style="text-align:right">236518 (70.9%)</td>
 </tr>
 </tbody>
 </table>
 <h4>Audit log</h4>
 <ul>
-<li>Find_missing_codes last run 2023-10-26</li>
+<li>Find_missing_codes last run 2023-11-07</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1">https://github.com/rw251/.../patient/height/1</a></p>
 <h3>ACE Inhibitors</h3>
@@ -935,6 +945,234 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Find_missing_codes last run 2023-10-31</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/3">https://github.com/rw251/.../conditions/cancer/3</a></p>
+<h3>Coronary heart disease v2</h3>
+<p>This code set was derived from the Primary Care Domain Reference Set Portal. Non SNOMED codes from standard mappings.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.75% - 3.09%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-17</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">70163 (2.83%)</td>
+<td style="text-align:right">70279 (2.83%)</td>
+</tr>
+<tr>
+<td>2023-11-17</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">6984 (3.47%)</td>
+<td style="text-align:right">6986 (3.48%)</td>
+</tr>
+<tr>
+<td>2023-11-17</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">9654 (2.89%)</td>
+<td style="text-align:right">9664 (2.9%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-17</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/2">https://github.com/rw251/.../conditions/coronary-heart-disease/2</a></p>
+<h3>Stroke</h3>
+<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.91% - 1.45%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-05-12</td>
+<td>EMIS</td>
+<td>2662570</td>
+<td style="text-align:right">24378 (0.92%)</td>
+<td style="text-align:right">24359 (0.91%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>TPP</td>
+<td>212696</td>
+<td style="text-align:right">2441 (1.45%)</td>
+<td style="text-align:right">2445 (1.45%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>Vision</td>
+<td>342344</td>
+<td style="text-align:right">3308 (0.97%)</td>
+<td style="text-align:right">3307 (0.97%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td style="text-align:right">23678 (0.961%)</td>
+<td style="text-align:right">11237 (0.456%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>TPP</td>
+<td>200590</td>
+<td style="text-align:right">2631 (1.31%)</td>
+<td style="text-align:right">2593 (1.29%)</td>
+</tr>
+<tr>
+<td>2023-09-12</td>
+<td>Vision</td>
+<td>332095</td>
+<td style="text-align:right">3098 (0.933%)</td>
+<td style="text-align:right">1699 (0.512%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
+<h3>Transient ischaemic attach</h3>
+<p>Any code indicating a diagnosis of a transient ischaemic attack (TIA).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.78% - 0.99%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-05-16</td>
+<td>EMIS</td>
+<td>2662570</td>
+<td style="text-align:right">20798 (0.78%)</td>
+<td style="text-align:right">20798 (0.78%)</td>
+</tr>
+<tr>
+<td>2022-05-16</td>
+<td>TPP</td>
+<td>212696</td>
+<td style="text-align:right">1806 (0.85%)</td>
+<td style="text-align:right">1811 (0.85%)</td>
+</tr>
+<tr>
+<td>2022-05-16</td>
+<td>Vision</td>
+<td>342344</td>
+<td style="text-align:right">3409 (0.99%)</td>
+<td style="text-align:right">3409 (0.99%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tia/1">https://github.com/rw251/.../conditions/tia/1</a></p>
+<h3>Aortic aneurysm</h3>
+<p>Any code indicating an aortic aneurysm. Includes both abdominal aortic aneurysms (AAA), and the less common thoracis aortic aneurysm (TAA). Includes diagnosis codes, as well as codes indicating that a stent has been fitted.</p>
+<p>AAA codes primarily from the Primary Care Domain Reference Set Portal. TAA codes from SNOMED browser. All other codes from mapping files.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.22% - 0.28%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-16</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">6307 (0.254%)</td>
+<td style="text-align:right">6280 (0.253%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">568 (0.283%)</td>
+<td style="text-align:right">567 (0.282%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">739 (0.222%)</td>
+<td style="text-align:right">739 (0.222%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-16</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/aortic-aneurysm/1">https://github.com/rw251/.../conditions/aortic-aneurysm/1</a></p>
+<h3>Peripheral arterial disease</h3>
+<p>Any code indicating a diagnosis of peripheral arterial disease (PAD). Also known as peripheral vascular disease (PVD).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.58% - 0.62%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-05-12</td>
+<td>EMIS</td>
+<td>2662570</td>
+<td style="text-align:right">15457 (0.58%)</td>
+<td style="text-align:right">15411 (0.58%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>TPP</td>
+<td>212696</td>
+<td style="text-align:right">1241 (0.58%)</td>
+<td style="text-align:right">1242 (0.58%)</td>
+</tr>
+<tr>
+<td>2022-05-12</td>
+<td>Vision</td>
+<td>342344</td>
+<td style="text-align:right">2125 (0.62%)</td>
+<td style="text-align:right">2079 (0.61%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/peripheral-arterial-disease/1">https://github.com/rw251/.../conditions/peripheral-arterial-disease/1</a></p>
 <h3>Glomerular filtration rate (GFR)</h3>
 <p>Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).</p>
 <h4>Prevalence log</h4>

@@ -19,9 +19,6 @@
 --  - YearMonthCVDdiagnosis (earliest diagnosis date)
 --  - YearMonthCancerdiagnosis (earliest diagnosis date)
 --  - YearMonthDeath
---  - YearMonthRegistrationwith a GM primary care practice (only to be provided if not registered at index date)
---  - YearMonthDeregistration from GM primary care practice (only to be provided if not registered at extract date)
-
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -41,6 +38,31 @@ SET NOCOUNT ON;
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:heart-failure version:1 temp-table-name:#PatientHF
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:cancer version:3 temp-table-name:#PatientCANCER
 
+-- To get first CVD diagnosis we first find the earliest date for each CVD component
+-- PI has requested: CHD, stroke, TIA, PAD, aortic aneurysm and heart failure (but we already have heart-failure from above)
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:coronary-heart-disease version:2 temp-table-name:#PatientCHD
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:stroke version:1 temp-table-name:#PatientSTROKE
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:tia version:1 temp-table-name:#PatientTIA
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:aortic-aneurysm version:1 temp-table-name:#PatientAA
+--> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:peripheral-arterial-disease version:1 temp-table-name:#PatientPAD
+
+-- Now bring together
+IF OBJECT_ID('tempdb..#PatientCVD') IS NOT NULL DROP TABLE #PatientCVD;
+SELECT FK_Patient_Link_ID, MIN(DateOfFirstDiagnosis) AS DateOfFirstDiagnosis
+INTO #PatientCVD
+FROM (
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientCHD
+	UNION
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientSTROKE
+	UNION
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientTIA
+	UNION
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientAA
+	UNION
+	SELECT FK_Patient_Link_ID, DateOfFirstDiagnosis FROM #PatientPAD
+) sub
+GROUP BY FK_Patient_Link_ID;
+
 SELECT
 	p.FK_Patient_Link_ID AS PatientId,
 	pp.GPPracticeCode,
@@ -59,13 +81,12 @@ SELECT
 	c.FirstCkdDiagnosisMonth,
 	YEAR(hf.DateOfFirstDiagnosis) AS FirstHFYear,
 	MONTH(hf.DateOfFirstDiagnosis) AS FirstHFMonth,
---  - YearMonthCVDdiagnosis (earliest diagnosis date)
+	YEAR(cvd.DateOfFirstDiagnosis) AS FirstCVDYear,
+	MONTH(cvd.DateOfFirstDiagnosis) AS FirstCVDMonth,
 	YEAR(cancer.DateOfFirstDiagnosis) AS FirstCancerYear,
 	MONTH(cancer.DateOfFirstDiagnosis) AS FirstCancerMonth,
   YEAR(c.DeathDate) AS DeathDateYear,
 	MONTH(c.DeathDate) AS DeathDateMonth
---  - YearMonthRegistrationwith a GM primary care practice (only to be provided if not registered at index date)
---  - YearMonthDeregistration from GM primary care practice (only to be provided if not registered at extract date)
 FROM #Patients p
 LEFT OUTER JOIN #Cohort c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -79,3 +100,4 @@ LEFT OUTER JOIN #PatientARB arb ON arb.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSGLT2i sglt2i ON sglt2i.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHF hf ON hf.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCANCER cancer ON cancer.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientCVD cvd ON cvd.FK_Patient_Link_ID = p.FK_Patient_Link_ID

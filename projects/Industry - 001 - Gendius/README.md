@@ -77,13 +77,15 @@ _Input_
 ```
 A variable:
   -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-  - gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+  -	gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
 ```
-Temp tables as follows:
- #PatientHeight - two column table linking patient link id with the most recent height value
+Temp table called #PatientHeight with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	- HeightInCentimetres - int - the most recent height in cm
+	-	HeightDate - date (YYYY/MM/DD) - the date of the most recent height measurement
 ```
 _File_: `query-get-height.sql`
 
@@ -109,8 +111,10 @@ A variable:
 
 _Output_
 ```
-Temp tables as follows:
- {temp-table-name} - two column table linking patient link id with the most recent value
+Temp table `temp-table-name` with columns:
+  - FK_Patient_Link_ID - unique patient id
+  - MostRecentDate - date (YYYY/MM/DD) - date of the most recent value
+  - MostRecentValue - float - the most recent value
 ```
 _File_: `query-get-most-recent-value.sql`
 
@@ -289,8 +293,9 @@ A variable:
 
 _Output_
 ```
-Temp tables as follows:
- #Patients - list of patient ids of the cohort
+Temp table with the name of the provided parameter `temp-table-name` with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	-	DateOfFirstDiagnosis - date (YYY/MM/DD) - the date of the first diagnosis
 ```
 _File_: `query-get-first-diagnosis.sql`
 
@@ -309,6 +314,11 @@ This project required the following clinical code sets:
 - sglt2-inhibitors v1
 - heart-failure v1
 - cancer v3
+- coronary-heart-disease v2
+- stroke v1
+- tia v1
+- aortic-aneurysm v1
+- peripheral-arterial-disease v1
 - egfr v1
 - urinary-albumin-creatinine-ratio v1
 - creatinine v1
@@ -405,19 +415,19 @@ Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.0
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
 
-_Update **2023/10/26**: prevalence now `71.5% - 74.6%`_
+_Update **2023/11/07**: prevalence now `71% - 74%`_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
 | 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
 | 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
-| 2023-10-26 | EMIS            | 2472595    |  1808301 (73.1%) |   1808353 (73.1%) |
-| 2023-10-26 | TPP             | 200603     |   149581 (74.6%) |    149584 (74.6%) |
-| 2023-10-26 | Vision          | 332447     |   237730 (71.5%) |    237732 (71.5%) |
+| 2023-11-07 | EMIS            | 2482563    |  1797419 (72.4%) |   1797473 (72.4%) |
+| 2023-11-07 | TPP             | 201030     |   149385 (74.3%) |    149388 (74.3%) |
+| 2023-11-07 | Vision          | 333490     |   236514 (70.9%) |    236518 (70.9%) |
 #### Audit log
 
-- Find_missing_codes last run 2023-10-26
+- Find_missing_codes last run 2023-11-07
 
 LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
 
@@ -542,6 +552,98 @@ By examining the prevalence of codes (number of patients with the code in their 
 - Find_missing_codes last run 2023-10-31
 
 LINK: [https://github.com/rw251/.../conditions/cancer/3](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/3)
+
+### Coronary heart disease v2
+
+This code set was derived from the Primary Care Domain Reference Set Portal. Non SNOMED codes from standard mappings.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.75% - 3.09%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-11-17 | EMIS            | 2482563    |    70163 (2.83%) |     70279 (2.83%) |
+| 2023-11-17 | TPP             | 201030     |     6984 (3.47%) |      6986 (3.48%) |
+| 2023-11-17 | Vision          | 333490     |     9654 (2.89%) |       9664 (2.9%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-17
+
+LINK: [https://github.com/rw251/.../conditions/coronary-heart-disease/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/2)
+
+### Stroke
+
+Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-12 | EMIS            | 2662570    |    24378 (0.92%) |     24359 (0.91%) |
+| 2022-05-12 | TPP             | 212696     |     2441 (1.45%) |      2445 (1.45%) |
+| 2022-05-12 | Vision          | 342344     |     3308 (0.97%) |      3307 (0.97%) |
+| 2023-09-12 | EMIS            | 2463856    |   23678 (0.961%) |    11237 (0.456%) |
+| 2023-09-12 | TPP             | 200590     |     2631 (1.31%) |      2593 (1.29%) |
+| 2023-09-12 | Vision          | 332095     |    3098 (0.933%) |     1699 (0.512%) |
+
+LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
+
+### Transient ischaemic attach
+
+Any code indicating a diagnosis of a transient ischaemic attack (TIA).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.78% - 0.99%` suggests that this code set is well defined.
+
+| Date        | Practice system | Population | Patients from ID | Patient from code |
+| ----------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-16  | EMIS            | 2662570    |    20798 (0.78%) |     20798 (0.78%) |
+| 2022-05-16  | TPP             | 212696     |     1806 (0.85%) |      1811 (0.85%) |
+| 2022-05-16  | Vision          | 342344     |     3409 (0.99%) |      3409 (0.99%) |
+
+LINK: [https://github.com/rw251/.../conditions/tia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tia/1)
+
+### Aortic aneurysm
+
+Any code indicating an aortic aneurysm. Includes both abdominal aortic aneurysms (AAA), and the less common thoracis aortic aneurysm (TAA). Includes diagnosis codes, as well as codes indicating that a stent has been fitted.
+
+AAA codes primarily from the Primary Care Domain Reference Set Portal. TAA codes from SNOMED browser. All other codes from mapping files.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.22% - 0.28%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-11-16 | EMIS            | 2482563    |    6307 (0.254%) |     6280 (0.253%) |
+| 2023-11-16 | TPP             | 201030     |     568 (0.283%) |      567 (0.282%) |
+| 2023-11-16 | Vision          | 333490     |     739 (0.222%) |      739 (0.222%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-16
+
+LINK: [https://github.com/rw251/.../conditions/aortic-aneurysm/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/aortic-aneurysm/1)
+
+### Peripheral arterial disease
+
+Any code indicating a diagnosis of peripheral arterial disease (PAD). Also known as peripheral vascular disease (PVD).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.58% - 0.62%` suggests that this code set is well defined.
+
+| Date        | Practice system | Population | Patients from ID | Patient from code |
+| ----------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-12  | EMIS            | 2662570    |    15457 (0.58%) |     15411 (0.58%) |
+| 2022-05-12  | TPP             | 212696     |     1241 (0.58%) |      1242 (0.58%) |
+| 2022-05-12  | Vision          | 342344     |     2125 (0.62%) |      2079 (0.61%) |
+
+LINK: [https://github.com/rw251/.../conditions/peripheral-arterial-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/peripheral-arterial-disease/1)
 
 ### Glomerular filtration rate (GFR)
 

@@ -253,6 +253,10 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 --#endregion
 
 -- >>> Following code sets injected: diabetes-type-ii v1
+-- We find the first occurrence of the relevant code for each patient. For performance reasons
+-- we first search by FK_Reference_Coding_ID, and then later, separately, for FK_Reference_SnomedCT_ID.
+-- Combining these into an OR statement in a WHERE clause in a single query is substantially slower than
+-- searching for each individually and then combining.
 IF OBJECT_ID('tempdb..#PatientT2Dtemppart1') IS NOT NULL DROP TABLE #PatientT2Dtemppart1;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientT2Dtemppart1
@@ -261,6 +265,7 @@ WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCo
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- As per above now we find the first instance of the code based on the FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientT2Dtemppart2') IS NOT NULL DROP TABLE #PatientT2Dtemppart2;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientT2Dtemppart2
@@ -269,6 +274,10 @@ WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #Version
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- We now join the two tables above. By doing a FULL JOIN we include all records from both tables.
+-- In each row, at least one of the DateOfFirstDiagnosis will be non NULL. Therefore if one field
+-- is NULL, then we use the other. If both are non NULL, then we take the earliest as the goal is
+-- to get the first occurrence of the code for each patient.
 IF OBJECT_ID('tempdb..#PatientT2D') IS NOT NULL DROP TABLE #PatientT2D;
 SELECT
 	CASE WHEN p1.FK_Patient_Link_ID IS NULL THEN p2.FK_Patient_Link_ID ELSE p1.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
@@ -361,6 +370,10 @@ CREATE INDEX medicationData1 ON #PatientMedicationData (SuppliedCode) INCLUDE (F
 -- Get first CKD stage 3 diagnosis date
 
 -- >>> Following code sets injected: ckd-stage-3 v1
+-- We find the first occurrence of the relevant code for each patient. For performance reasons
+-- we first search by FK_Reference_Coding_ID, and then later, separately, for FK_Reference_SnomedCT_ID.
+-- Combining these into an OR statement in a WHERE clause in a single query is substantially slower than
+-- searching for each individually and then combining.
 IF OBJECT_ID('tempdb..#PatientCKD3temppart1') IS NOT NULL DROP TABLE #PatientCKD3temppart1;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD3temppart1
@@ -369,6 +382,7 @@ WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCo
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- As per above now we find the first instance of the code based on the FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientCKD3temppart2') IS NOT NULL DROP TABLE #PatientCKD3temppart2;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD3temppart2
@@ -377,6 +391,10 @@ WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #Version
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- We now join the two tables above. By doing a FULL JOIN we include all records from both tables.
+-- In each row, at least one of the DateOfFirstDiagnosis will be non NULL. Therefore if one field
+-- is NULL, then we use the other. If both are non NULL, then we take the earliest as the goal is
+-- to get the first occurrence of the code for each patient.
 IF OBJECT_ID('tempdb..#PatientCKD3') IS NOT NULL DROP TABLE #PatientCKD3;
 SELECT
 	CASE WHEN p1.FK_Patient_Link_ID IS NULL THEN p2.FK_Patient_Link_ID ELSE p1.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
@@ -393,6 +411,10 @@ FULL JOIN #PatientCKD3temppart2 p2 on p1.FK_Patient_Link_ID = p2.FK_Patient_Link
 -- Get first CKD stage 4 diagnosis date
 
 -- >>> Following code sets injected: ckd-stage-4 v1
+-- We find the first occurrence of the relevant code for each patient. For performance reasons
+-- we first search by FK_Reference_Coding_ID, and then later, separately, for FK_Reference_SnomedCT_ID.
+-- Combining these into an OR statement in a WHERE clause in a single query is substantially slower than
+-- searching for each individually and then combining.
 IF OBJECT_ID('tempdb..#PatientCKD4temppart1') IS NOT NULL DROP TABLE #PatientCKD4temppart1;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD4temppart1
@@ -401,6 +423,7 @@ WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCo
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- As per above now we find the first instance of the code based on the FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientCKD4temppart2') IS NOT NULL DROP TABLE #PatientCKD4temppart2;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD4temppart2
@@ -409,6 +432,10 @@ WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #Version
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- We now join the two tables above. By doing a FULL JOIN we include all records from both tables.
+-- In each row, at least one of the DateOfFirstDiagnosis will be non NULL. Therefore if one field
+-- is NULL, then we use the other. If both are non NULL, then we take the earliest as the goal is
+-- to get the first occurrence of the code for each patient.
 IF OBJECT_ID('tempdb..#PatientCKD4') IS NOT NULL DROP TABLE #PatientCKD4;
 SELECT
 	CASE WHEN p1.FK_Patient_Link_ID IS NULL THEN p2.FK_Patient_Link_ID ELSE p1.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
@@ -425,6 +452,10 @@ FULL JOIN #PatientCKD4temppart2 p2 on p1.FK_Patient_Link_ID = p2.FK_Patient_Link
 -- Get first CKD stage 5 diagnosis date
 
 -- >>> Following code sets injected: ckd-stage-5 v1
+-- We find the first occurrence of the relevant code for each patient. For performance reasons
+-- we first search by FK_Reference_Coding_ID, and then later, separately, for FK_Reference_SnomedCT_ID.
+-- Combining these into an OR statement in a WHERE clause in a single query is substantially slower than
+-- searching for each individually and then combining.
 IF OBJECT_ID('tempdb..#PatientCKD5temppart1') IS NOT NULL DROP TABLE #PatientCKD5temppart1;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD5temppart1
@@ -433,6 +464,7 @@ WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCo
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- As per above now we find the first instance of the code based on the FK_Reference_SnomedCT_ID
 IF OBJECT_ID('tempdb..#PatientCKD5temppart2') IS NOT NULL DROP TABLE #PatientCKD5temppart2;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateOfFirstDiagnosis
 INTO #PatientCKD5temppart2
@@ -441,6 +473,10 @@ WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #Version
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
+-- We now join the two tables above. By doing a FULL JOIN we include all records from both tables.
+-- In each row, at least one of the DateOfFirstDiagnosis will be non NULL. Therefore if one field
+-- is NULL, then we use the other. If both are non NULL, then we take the earliest as the goal is
+-- to get the first occurrence of the code for each patient.
 IF OBJECT_ID('tempdb..#PatientCKD5') IS NOT NULL DROP TABLE #PatientCKD5;
 SELECT
 	CASE WHEN p1.FK_Patient_Link_ID IS NULL THEN p2.FK_Patient_Link_ID ELSE p1.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
