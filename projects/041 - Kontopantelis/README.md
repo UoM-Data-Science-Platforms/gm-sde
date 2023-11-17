@@ -50,7 +50,7 @@ This project required the following reusable queries:
 - Secondary discharges
 - Define Cohort for RQ041: patients with biochemical evidence of CKD
 - Year of birth
-- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+- Create table of patients who are registered with a GM GP
 
 Further details for each query can be found below.
 
@@ -528,7 +528,7 @@ _File_: `query-patient-year-of-birth.sql`
 _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
 
 ---
-### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+### Create table of patients who are registered with a GM GP
 undefined
 
 _Input_
@@ -813,15 +813,13 @@ Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-ery
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.09% - 0.12%` suggests that this code set is well defined.
+The prevalence range `0.16% - 0.21%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-05 | EMIS            | 2660237    |     2872 (0.11%) |      2872 (0.11%) |
-| 2022-04-05 | TPP             | 212647     |      197 (0.09%) |       197 (0.09%) |
-| 2022-04-05 | Vision          | 341912     |      416 (0.12%) |       412 (0.12%) |
-
-
+| 2023-10-03 | EMIS | 2469004 | 4340 (0.176%) | 2866 (0.116%) | 
+| 2023-10-03 | TPP | 200687 | 326 (0.162%) | 209 (0.104%) | 
+| 2023-10-03 | Vision | 332247 | 712 (0.214%) | 420 (0.126%) | 
 LINK: [https://github.com/rw251/.../conditions/sle/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1)
 
 ### Gout
@@ -894,18 +892,19 @@ LINK: [https://github.com/rw251/.../procedures/hormone-replacement-therapy/1](ht
 
 ### long covid
 
-Any code indicating presence of long covid
+Any code indicating presence of long covid.
+
+_NB this code set contains a mixture of diagnosis, assessment and referral codes. Please refer to the separate code sets for [long-covid-diagnosis](../../long-covid-diagnosis/), [long-covid-assessment](../../../patient/long-covid-assessment/), and [long-covid-referral](../../../patient/long-covid-referral/) if granularity is required_
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.55% - 13.96%` suggests missing codes from Vision and TPP practices.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.02% - 0.98%` suggests potential missing codes or under-reporting.
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-03-11 | EMIS            | 2600658    |  371790 (13.96%) |    20088 (0.75%)  |
-| 2021-03-11 | TPP             | 210333     |     1179 (0.55%) |      141 (0.07%)  |
-| 2021-03-11 | Vision          | 333251     |     4084 (1.19%) |      676 (0.20%)  |
-
+| 2023-10-03 | EMIS | 2469004 | 24617 (0.997%) | 24622 (0.997%) | 
+| 2023-10-03 | TPP | 200687 | 39 (0.0194%) | 203 (0.101%) | 
+| 2023-10-03 | Vision | 332247 | 1153 (0.347%) | 1181 (0.355%) | 
 LINK: [https://github.com/rw251/.../conditions/long-covid/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/long-covid/1)
 
 ### Menopause
@@ -1826,13 +1825,15 @@ Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/su
 **NB: This code set is intended to only indicate a patient's haemoglobin values.**
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59.66% - 62.03%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `61% - 68.1%` suggests that this code set is likely well defined.
+
+update:
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-01 | EMIS            | 2652511    | 1582390 (59.66%) |  1582391 (59.66%) |
-| 2022-02-01 | TPP             | 212213     |  129224 (60.89%) |   129224 (60.89%) |
-| 2022-02-01 | Vision          | 340640     |  211312 (62.03%) |   211312 (62.03%) |
+| 2023-09-18 | EMIS | 2463856 | 1501968 (61%) | 1502094 (61%) | 
+| 2023-09-18 | TPP | 200590 | 136648 (68.1%) | 136654 (68.1%) | 
+| 2023-09-18 | Vision | 332095 | 206665 (62.2%) | 206678 (62.2%) | 
 LINK: [https://github.com/rw251/.../tests/haemoglobin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1)
 
 ### Haematocrit
@@ -2043,6 +2044,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-05-19 | TPP             | 212696     |  26798 (12.60%)  |   26763 (12.58%)  |
 | 2022-05-19 | Vision          | 342344     |   10231 (2.99%)  |     9915 (2.90%)  |
 
+| 2023-09-20 | EMIS | 2466262 | 37760 (1.53%) | 37858 (1.54%) | 
+| 2023-09-20 | TPP | 200680 | 29414 (14.7%) | 29424 (14.7%) | 
+| 2023-09-20 | Vision | 332105 | 5714 (1.72%) | 5723 (1.72%) | 
 LINK: [https://github.com/rw251/.../tests/urine-blood/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1)
 
 ### Hypertension

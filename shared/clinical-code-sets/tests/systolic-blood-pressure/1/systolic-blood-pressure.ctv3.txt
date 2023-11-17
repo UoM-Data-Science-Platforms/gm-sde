@@ -20,14 +20,10 @@ XaJ2E	Sitting systolic BP
 XaJ2G	Lying systolic blood pressure
 XaKFx	Average home systolic BP
 XaKjF	Ambulatory systolic BP
-XaXfX	Post exerc sys BP respons norm
-XaXfY	Post exer sys BP respon abnorm
-XaYg9	Systolic BP centile
 XM02X	SAP - Systol arterial pressure
 246o0	Non-invasive central systolic blood pressure
 246n1	Baseline systolic blood pressure
 246l.	Average systolic blood pressure
-246j.	Systolic blood pressure centile
 246e.	Ambulatory systolic blood pressure
 246d.	Average home systolic blood pressure
 246b.	Average night interval systolic blood pressure
@@ -36,5 +32,4 @@ XM02X	SAP - Systol arterial pressure
 246S.	Lying systolic blood pressure
 246Q.	Sitting systolic blood pressure
 246N.	Standing systolic blood pressure
-246K.	Target systolic blood pressure
 2469.	O/E - Systolic BP reading

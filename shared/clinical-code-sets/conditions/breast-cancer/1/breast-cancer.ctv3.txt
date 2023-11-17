@@ -1,7 +1,36 @@
 X78WM	Breast cancer
-XaIIt	Suspected breast cancer
 XaJU6	Breast cancer detected by national screening programme
-XaMeC	Fast track referral for suspected breast cancer
-XaPyQ	Seen in fast track suspected breast cancer clinic
-XaeZG	Discharge from secondary care breast cancer service
-Xaecg	Lymphoedema following breast cancer
+B34..	Malignant neoplasm of female breast
+B34..	Malignant neoplasm of female breast
+B340.	Malignant neoplasm of nipple and areola of female breast
+B340.	Malignant neoplasm of nipple and areola of female breast
+B3400	Malignant neoplasm of nipple of female breast
+B3400	Malignant neoplasm of nipple of female breast
+B3401	Malignant neoplasm of areola of female breast
+B3401	Malignant neoplasm of areola of female breast
+B340z	Malignant neoplasm of nipple or areola of female breast NOS
+B340z	Malignant neoplasm of nipple or areola of female breast NOS
+B341.	Malignant neoplasm of central part of female breast
+B341.	Malignant neoplasm of central part of female breast
+B342.	Malignant neoplasm of upper-inner quadrant of female breast
+B342.	Malignant neoplasm of upper-inner quadrant of female breast
+B343.	Malignant neoplasm of lower-inner quadrant of female breast
+B343.	Malignant neoplasm of lower-inner quadrant of female breast
+B344.	Malignant neoplasm of upper-outer quadrant of female breast
+B344.	Malignant neoplasm of upper-outer quadrant of female breast
+B345.	Malignant neoplasm of lower-outer quadrant of female breast
+B345.	Malignant neoplasm of lower-outer quadrant of female breast
+B346.	Malignant neoplasm of axillary tail of female breast
+B346.	Malignant neoplasm of axillary tail of female breast
+B347.	Malignant neoplasm, overlapping lesion of breast
+B347.	Malignant neoplasm, overlapping lesion of breast
+B34y.	Malignant neoplasm of other site of female breast
+B34y.	Malignant neoplasm of other site of female breast
+B34y0	Malignant neoplasm of ectopic site of female breast
+B34y0	Malignant neoplasm of ectopic site of female breast
+B34yz	Malignant neoplasm of other site of female breast NOS
+B34yz	Malignant neoplasm of other site of female breast NOS
+B34z.	Malignant neoplasm of female breast NOS
+B34z.	Malignant neoplasm of female breast NOS
+Byu6.	[X]Malignant neoplasm of breast
+Byu6.	[X]Malignant neoplasm of breast

@@ -1,0 +1,10 @@
+^ESCT1190514	O/E - height
+^ESCTBO331571	Body height measure
+^ESCTBO331572	Body height
+^ESCTGE525607	General finding of height
+^ESCTGE525608	General appraisal of height
+^ESCTME272902	Measuring height of patient
+^ESCTON455167	On examination - height
+^ESCTST525615	Standing height
+EMISNQES11	Estimated height
+EMISNQRE470	Reported height

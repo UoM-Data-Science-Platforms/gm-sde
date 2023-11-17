@@ -1,0 +1,57 @@
+7A11.	Repair of aortic aneurysm using bifurcation graft
+7A110	Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery
+7A111	Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery
+7A112	Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+7A113	Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+7A11y	Other specified replacement of aneurysmal bifurcation of aorta
+7A11z	Replacement of aneurysmal bifurcation of aorta NOS
+7A132	Emergency replacement of aneurysmal segment of suprarenal abdominal aorta by anastomosis of aorta to aorta
+7A133	Emergency replacement of aneurysmal segment of infrarenal abdominal aorta by anastomosis of aorta to aorta
+7A134	Emergency tube graft abdominal aortic aneurysm (& NEC)
+7A144	Tube graft abdominal aortic aneurysm (& NEC)
+G71..	Aneurysm of aorta
+G711.	Ruptured thoracic aortic aneurysm
+G712.	Thoracic aortic aneurysm without mention of rupture
+G713.	Ruptured abdominal aortic aneurysm
+G714.	Abdominal aortic aneurysm without mention of rupture
+G715.	Ruptured aortic aneurysm NOS
+G7150	Thoracoabdominal aortic aneurysm, ruptured
+G716.	Aortic aneurysm without mention of rupture NOS
+G7160	Thoracoabdominal aortic aneurysm, without mention of rupture
+G717.	Late quaternary syphilitic aortic aneurysm
+G718.	Leaking abdominal aortic aneurysm
+G71z.	Aortic aneurysm NOS
+Gyu71	[X]Aortic aneurysm of unspecified site, ruptured
+Gyu72	[X]Aortic aneurysm of unspecified site, nonruptured
+Gyu78	[X]Aneurysm of aorta in diseases classified elsewhere
+P72z0	Sinus of Valsalva aneurysm
+P72z1	Congenital aneurysm of aorta
+X015v	Y graft of abdominal Aortic aneurysm (emergency)
+X015x	Repair of aortic aneurysm using straight graft
+X015y	Tube graft abdominal Aortic aneurysm (emergency)
+X204L	Aneurysm of thoracic aorta
+X204M	Thoracoabdominal aortic aneurysm
+X204N	Abdominal aortic aneurysm
+X780f	Congenital aneurysm of ascending aorta
+X90Z0	Inflammatory aneurysm
+XaBD1	Abdominal aortic aneurysm stenting
+XaEed	Ruptured suprarenal aortic aneurysm
+XaEee	Ruptured aortic aneurysm
+XaEef	Juxtarenal aortic aneurysm
+XaEeg	Inflammatory abdominal aortic aneurysm
+XaFxb	Recurrent abdominal aortic aneurysm
+XaG2L	Repair of thoracoabdominal aortic aneurysm
+XaLhF	Endovascular insertion of stent for infrarenal abdominal aortic aneurysm
+XaLhG	Endovascular insertion of stent for suprarenal aortic aneurysm
+XaLhJ	Endovascular stenting of aortic bifurcation NEC
+XaLhK	Endovascular insertion of stent for aorto-uniiliac aneurysm
+XaMmH	Endovascular insertion of stent graft for infrarenal abdominal aortic aneurysm
+XaMmI	Endovascular insertion of stent graft for suprarenal aortic aneurysm
+XaMmK	Endovascular insertion of stent graft for aorto-uniiliac aneurysm
+XaMrD	Endovascular insertion of stent for aortic aneurysm of bifurcation NEC
+XaW51	Infrarenal abdominal aortic aneurysm
+XaX6B	Aneurysm of suprarenal aorta
+XE0Ey	Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+XE0Ez	Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery
+XE1KP	Congenital aneurysm of aorta
+XM1Ib	Y graft abdominal Aortic aneurysm

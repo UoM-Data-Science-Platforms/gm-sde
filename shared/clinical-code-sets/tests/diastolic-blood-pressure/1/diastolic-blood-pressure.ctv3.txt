@@ -20,12 +20,10 @@ XaJ2F	Sitting diastolic BP
 XaJ2H	Lying diastolic blood pressure
 XaKFw	Average home diastolic BP
 XaKjG	Ambulatory diastolic BP
-XaYg8	Diastolic BP centile
 XM02Y	DAP-Diastolic arterial pressur
 246o1	Non-invasive central diastolic blood pressure
 246n0	Baseline diastolic blood pressure
 246m.	Average diastolic blood pressure
-246i.	Diastolic blood pressure centile
 246f.	Ambulatory diastolic blood pressure
 246c.	Average home diastolic blood pressure
 246a.	Average night interval diastolic blood pressure
@@ -34,5 +32,4 @@ XM02Y	DAP-Diastolic arterial pressur
 246T.	Lying diastolic blood pressure
 246R.	Sitting diastolic blood pressure
 246P.	Standing diastolic blood pressure
-246L.	Target diastolic blood pressure
 246A.	O/E - Diastolic BP reading

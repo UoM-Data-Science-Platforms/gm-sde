@@ -1,0 +1,17 @@
+^ESCT1246083	[V]Screening for malignant neoplasm of breast
+^ESCTBR473829	Breast screening abnormal - told patient
+^ESCTBR550605	Breast cancer screening
+^ESCTBR802998	Breast cancer detected by national screening programme
+^ESCTMA289306	Mammogram - screening
+^ESCTMA749500	Magnetic resonance imaging of breast for screening for malignant neoplasm
+^ESCTMR749501	MRI of breast for screening for malignant neoplasm
+^ESCTRA366537	Radiographic examination of breast
+^ESCTSC289304	Screening mammography
+^ESCTSC550603	Screening for malignant neoplasm of breast
+^ESCTSC550606	Screening for breast cancer
+^ESCTSC812597	Screening mammography of bilateral breasts
+^ESCTSC812598	Screening mammogram of bilateral breasts
+^ESCTSC813137	Screening mammography of right breast
+^ESCTSC813138	Screening mammogram of right breast
+^ESCTSC813139	Screening mammography of left breast
+^ESCTSC813140	Screening mammogram of left breast

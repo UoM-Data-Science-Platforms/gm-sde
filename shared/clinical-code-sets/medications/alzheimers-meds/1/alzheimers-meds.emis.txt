@@ -1,0 +1,496 @@
+^ESCT1164467	Donepezil hydrochloride monohydrate
+^ESCT1178608	Product containing only memantine hydrochloride 5 mg/1 each oral tablet
+^ESCT1178640	Product containing only donepezil hydrochloride 23 mg/1 each oral tablet
+^ESCT1178693	Product containing only donepezil hydrochloride 10 mg/1 each oral tablet
+^ESCT1178694	Product containing only rivastigmine 1.5 mg/1 each oral capsule
+^ESCT1180475	Rivastigmine 3mg capsules (Mylan)
+^ESCT1180476	Rivastigmine 3mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1180477	Rivastigmine 3mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1180478	Rivastigmine 1.5mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1180908	Donepezil 5mg orodispersible tablets sugar free (Mylan)
+^ESCT1180909	Donepezil 5mg orodispersible tablets sugar free (Mylan) 28 tablet
+^ESCT1180910	Donepezil 10mg orodispersible tablets sugar free (Mylan) 28 tablet
+^ESCT1181700	Product containing only rivastigmine 6 mg/1 each oral capsule
+^ESCT1181701	Product containing only galantamine 4 mg/1 each oral tablet
+^ESCT1181702	Product containing only galantamine 8 mg/1 each oral tablet
+^ESCT1181998	Product containing only rivastigmine 4.5 mg/1 each oral capsule
+^ESCT1184439	Rivastigmine 1.5mg capsules (Mylan)
+^ESCT1184982	Memantine 20mg tablets (Mylan) 28 tablet
+^ESCT1186986	Donepezil 10mg orodispersible tablets sugar free (Mylan)
+^ESCT1187015	Memantine 20mg tablets (Mylan)
+^ESCT1188046	Product containing only memantine hydrochloride 10 mg/1 each oral tablet
+^ESCT1188124	Product containing only donepezil hydrochloride 5 mg/1 each oral tablet
+^ESCT1188125	Product containing only rivastigmine 3 mg/1 each oral capsule
+^ESCT1188126	Product containing only galantamine 12 mg/1 each oral tablet
+^ESCT1189631	Rivastigmine 1.5mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1194547	Galzemic 4mg/ml oral solution (Creo Pharma Ltd)
+^ESCT1194548	Galzemic 4mg/ml oral solution (Creo Pharma Ltd) 100 ml
+^ESCT1195813	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196255	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196483	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd) 7 tablet
+^ESCT1203790	Galantamine 8mg prolonged-release oral capsule
+^ESCT1203828	Galantamine 24mg prolonged-release oral capsule
+^ESCT1203865	Galantamine 16mg prolonged-release oral capsule
+^ESCT1204508	Galantamine 4mg/mL conventional release oral solution
+^ESCT1206361	Donepezil in oral dosage form
+^ESCT1206362	Product containing donepezil in oral dosage form
+^ESCT1207246	Galantamine in oral dosage form
+^ESCT1207247	Product containing galantamine in oral dosage form
+^ESCT1208611	Rivastigmine in transdermal dosage form
+^ESCT1208612	Product containing rivastigmine in transdermal dosage form
+^ESCT1216213	Memantine 20mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCT1220875	Donepezil
+^ESCT1220876	Donepezil product
+^ESCT1224029	Product containing precisely donepezil hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224030	Product containing precisely donepezil hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1224031	Rivastigmine
+^ESCT1224032	Rivastigmine product
+^ESCT1224033	Rivastigmine (as rivastigmine tartrate) 1.5 mg oral capsule
+^ESCT1224034	Product containing precisely rivastigmine (as rivastigmine tartrate) 1.5 milligram/1 each conventional release oral capsule
+^ESCT1224035	Product containing precisely rivastigmine (as rivastigmine tartrate) 3 milligram/1 each conventional release oral capsule
+^ESCT1224036	Rivastigmine (as rivastigmine tartrate) 3 mg oral capsule
+^ESCT1224037	Rivastigmine (as rivastigmine tartrate) 4.5 mg oral capsule
+^ESCT1224038	Product containing precisely rivastigmine (as rivastigmine tartrate) 4.5 milligram/1 each conventional release oral capsule
+^ESCT1224039	Product containing precisely rivastigmine (as rivastigmine tartrate) 6 milligram/1 each conventional release oral capsule
+^ESCT1224040	Rivastigmine (as rivastigmine tartrate) 6 mg oral capsule
+^ESCT1224041	Galantamine
+^ESCT1224042	Galantamine product
+^ESCT1224043	Product containing precisely galantamine (as galantamine hydrobromide) 4 milligram/1 each conventional release oral tablet
+^ESCT1224044	Galantamine (as galantamine hydrobromide) 4 mg oral tablet
+^ESCT1224045	Galantamine (as galantamine hydrobromide) 8 mg oral tablet
+^ESCT1224046	Product containing precisely galantamine (as galantamine hydrobromide) 8 milligram/1 each conventional release oral tablet
+^ESCT1224047	Galantamine (as galantamine hydrobromide) 12 mg oral tablet
+^ESCT1224048	Product containing precisely galantamine (as galantamine hydrobromide) 12 milligram/1 each conventional release oral tablet
+^ESCT1230300	Memantine
+^ESCT1230301	Memantine product
+^ESCT1230415	Product containing precisely memantine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1230552	Rivastigmine (as rivastigmine tartrate) 2 mg/mL oral solution
+^ESCT1230553	Product containing precisely rivastigmine (as rivastigmine tartrate) 2 milligram/1 milliliter conventional release oral solution
+^ESCT1230649	Product containing precisely memantine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1235432	Product containing precisely donepezil hydrochloride 23 milligram/1 each conventional release oral tablet
+^ESCT1236801	Donepezil + memantine
+^ESCT1236802	Product containing donepezil and memantine
+^ESCT1236803	Donepezil and memantine product
+^ESCT1255710	Memantine 20mg tablets (Bristol Laboratories Ltd)
+^ESCT1255711	Memantine 20mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259161	Reminyl 4mg/ml oral solution (Originalis B.V.)
+^ESCT1259162	Reminyl 4mg/ml oral solution (Originalis B.V.) 100 ml
+^ESCT1259499	Memantine 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259501	Memantine 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259884	Rivastigmine 1.5mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259885	Rivastigmine 1.5mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259886	Rivastigmine 3mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259887	Rivastigmine 3mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259904	Memantine 20mg tablets (Torrent Pharma (UK) Ltd) 7 tablet
+^ESCT1263987	Donepezil 5mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263988	Donepezil 5mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263990	Donepezil 10mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263991	Donepezil 10mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1265811	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265822	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267034	Reminyl 4mg/ml oral solution (CST Pharma Ltd)
+^ESCT1267036	Reminyl 4mg/ml oral solution (CST Pharma Ltd) 100 ml
+^ESCT1267824	Galantamine 20mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1267825	Galantamine 20mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1271271	Galantamine 20mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1271272	Galantamine 20mg/5ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCT1274938	Galantamine 20mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCT1274939	Galantamine 20mg/5ml oral solution sugar free (CST Pharma Ltd) 100 ml
+^ESCT1279357	Memantine 20mg tablets (Dawa Ltd)
+^ESCT1279358	Memantine 20mg tablets (Dawa Ltd) 28 tablet
+^ESCT1375983	Galantamine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375984	Galantamine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1383732	Rivastigmine-containing product in oral dose form
+^ESCT1384194	Memantine hydrochloride 7 mg prolonged-release oral capsule
+^ESCT1384195	Memantine hydrochloride 14 mg prolonged-release oral capsule
+^ESCT1384217	Memantine hydrochloride 21 mg prolonged-release oral capsule
+^ESCT1384218	Memantine hydrochloride 28 mg prolonged-release oral capsule
+^ESCT1385232	Donepezil- and memantine-containing product
+^ESCT1385233	Donepezil- and memantine-containing product in oral dose form
+^ESCT1385915	Galantamine (as galantamine hydrobromide) 4 mg/mL oral solution
+^ESCT1386239	Donepezil-containing product in oral dose form
+^ESCT1386664	Galantamine-containing product in oral dose form
+^ESCT1387097	Rivastigmine-containing product in transdermal dose form
+^ESCT1402202	Memantine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402203	Memantine 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402226	Memantine 20mg tablets (Medihealth (Northern) Ltd) 7 tablet
+^ESCT1403914	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403915	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1403918	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403919	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1404538	Rivastigmine 1.5mg capsules (Bristol Laboratories Ltd)
+^ESCT1404539	Rivastigmine 1.5mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1404540	Rivastigmine 3mg capsules (Bristol Laboratories Ltd)
+^ESCT1404541	Rivastigmine 3mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1404825	Galantamine 20mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1404826	Galantamine 20mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCT1422655	Memantine 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422656	Memantine 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426608	Reminyl 4mg/ml oral solution (Takeda UK Ltd)
+^ESCT1426609	Reminyl 4mg/ml oral solution (Takeda UK Ltd) 100 ml
+^ESCT1427948	Galzemic 4mg/ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1427949	Galzemic 4mg/ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1429483	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1429486	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1435533	Donepezil 5mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1435535	Donepezil 5mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1435536	Donepezil 10mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1435537	Donepezil 10mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1435557	Memantine 20mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCT1438359	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438360	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438361	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438362	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438363	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438364	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438654	Donepezil 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438655	Donepezil 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438656	Donepezil 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438657	Donepezil 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438746	Memantine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438747	Memantine 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTAR1001865	Aricept Evess 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR1001866	Aricept Evess 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAR1002235	Aricept Evess 10mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1002236	Aricept Evess 10mg orodispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1020902	Aricept Evess 10mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTAR1020903	Aricept Evess 10mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1023839	Aricept Evess 10mg orodispersible tablets (Lexon (UK) Ltd)
+^ESCTAR1023841	Aricept Evess 10mg orodispersible tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAR1121392	Aricept Evess 10mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTAR1121393	Aricept Evess 10mg orodispersible tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAR936606	Aricept Evess 5mg orodispersible tablets (Eisai Ltd)
+^ESCTAR936607	Aricept Evess 5mg orodispersible tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR936609	Aricept Evess 10mg orodispersible tablets (Eisai Ltd)
+^ESCTAR936610	Aricept Evess 10mg orodispersible tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1024498	Donepezil 5mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTDO1024499	Donepezil 5mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1024500	Donepezil 10mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTDO1024502	Donepezil 10mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1025491	Donepezil 5mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTDO1025492	Donepezil 5mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025493	Donepezil 10mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTDO1025494	Donepezil 10mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1026610	Donepezil 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026611	Donepezil 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1026612	Donepezil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026613	Donepezil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1026659	Donepezil 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDO1026660	Donepezil 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1026661	Donepezil 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDO1026662	Donepezil 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1027556	Donepezil 5mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTDO1027557	Donepezil 5mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTDO1027558	Donepezil 10mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTDO1027559	Donepezil 10mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTDO1028977	Donepezil 5mg orodispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTDO1028978	Donepezil 5mg orodispersible tablets sugar free (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028979	Donepezil 10mg orodispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTDO1028980	Donepezil 10mg orodispersible tablets sugar free (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1029693	Donepezil 5mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd)
+^ESCTDO1029694	Donepezil 5mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1029695	Donepezil 10mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd)
+^ESCTDO1029696	Donepezil 10mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1152827	Donepezil 5mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTDO1152828	Donepezil 5mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet
+^ESCTDO1152829	Donepezil 10mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTDO1152830	Donepezil 10mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet
+^ESCTDO415474	Donepezil
+^ESCTDO611048	Donepezil 5mg tablets
+^ESCTDO611050	Donepezil hydrochloride 5 mg oral tablet
+^ESCTDO611051	Donepezil 10mg tablets
+^ESCTDO611053	Donepezil hydrochloride 10 mg oral tablet
+^ESCTDO646302	Donepezil
+^ESCTDO646303	Donepezil hydrochloride
+^ESCTDO685110	Donepezil 10mg orally disintegrating tablet
+^ESCTDO685111	Donepezil hydrochloride 10mg orally disintegrating tablet
+^ESCTDO685112	Donepezil 1mg/mL oral solution
+^ESCTDO685113	Donepezil hydrochloride 1mg/mL oral solution
+^ESCTDO685114	Donepezil 5mg orally disintegrating tablet
+^ESCTDO685115	Donepezil hydrochloride 5mg orally disintegrating tablet
+^ESCTDO733635	Donepezil hydrochloride 23 mg oral tablet
+^ESCTDO773763	Donepezil + memantine
+^ESCTDO773764	Donepezil and memantine in oral dosage form
+^ESCTDO936605	Donepezil 5mg orodispersible tablets sugar free 28 tablet
+^ESCTDO936608	Donepezil 10mg orodispersible tablets sugar free 28 tablet
+^ESCTDO936663	Donepezil 10mg orodispersible tablets sugar free
+^ESCTDO936664	Donepezil 5mg orodispersible tablets sugar free
+^ESCTEB1022731	Ebixa 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEB1022732	Ebixa 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTEB967030	Ebixa 20mg tablets (Lundbeck Ltd)
+^ESCTEB967031	Ebixa 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTEB968475	Ebixa 20mg tablets (Lundbeck Ltd) 7 tablet
+^ESCTEX1001976	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEX1007151	Exelon 1.5mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007152	Exelon 1.5mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1007153	Exelon 3mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007154	Exelon 3mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1009008	Exelon 1.5mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009009	Exelon 1.5mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009012	Exelon 3mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009013	Exelon 3mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009319	Exelon 1.5mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009320	Exelon 1.5mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1009321	Exelon 3mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009322	Exelon 3mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1023540	Exelon 1.5mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTEX1023541	Exelon 3mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTEX864067	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX864069	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX864071	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX864074	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX864076	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX864079	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX877839	Exelon 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTEX877840	Exelon 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX877842	Exelon 3mg capsules (Waymade Healthcare Plc)
+^ESCTEX877843	Exelon 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX930005	Exelon 1.5mg capsules (Dowelhurst Ltd)
+^ESCTEX930007	Exelon 1.5mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX930009	Exelon 3mg capsules (Dowelhurst Ltd)
+^ESCTEX930011	Exelon 3mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX966643	Exelon 1.5mg capsules (DE Pharmaceuticals)
+^ESCTEX966644	Exelon 1.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX966645	Exelon 3mg capsules (DE Pharmaceuticals)
+^ESCTEX966646	Exelon 3mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX970094	Exelon 1.5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970096	Exelon 1.5mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX970097	Exelon 3mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970098	Exelon 3mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX993320	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993321	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTEX993322	Exelon 3mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993323	Exelon 3mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTGA1023939	Galantamine 20mg/5ml oral solution sugar free (Sandoz Ltd)
+^ESCTGA1023940	Galantamine 20mg/5ml oral solution sugar free (Sandoz Ltd) 100 ml
+^ESCTGA1024946	Galantamine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTGA1024947	Galantamine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTGA1026616	Galantamine 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1026617	Galantamine 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTGA1051076	Galantamine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTGA1051077	Galantamine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 100 ml
+^ESCTGA1061428	Galantamine 20mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1061429	Galantamine 20mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTGA1081592	Galantamine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTGA1081594	Galantamine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 100 ml
+^ESCTGA1101091	Galantamine 20mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTGA1101092	Galantamine 20mg/5ml oral solution sugar free (J M McGill Ltd) 100 ml
+^ESCTGA1117647	Galantamine 20mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTGA1117648	Galantamine 20mg/5ml oral solution sugar free (Niche Pharma Ltd) 100 ml
+^ESCTGA1117782	Galantamine 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTGA1117783	Galantamine 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTGA442713	Galantamine hydrobromide
+^ESCTGA611068	Galantamine
+^ESCTGA611070	Galantamine 4mg tablets
+^ESCTGA611072	Galantamine 4 mg oral tablet
+^ESCTGA611073	Galantamine 8mg tablets
+^ESCTGA611075	Galantamine 8 mg oral tablet
+^ESCTGA611076	Galantamine 12mg tablets
+^ESCTGA611078	Galantamine 12 mg oral tablet
+^ESCTGA655823	Galantamine
+^ESCTGA861922	Galantamine 20mg/5ml oral solution sugar free 100 ml
+^ESCTGA862079	Galantamine 20mg/5ml oral solution sugar free
+^ESCTKE1043990	Kerstipon 1.5mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043991	Kerstipon 1.5mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTKE1043992	Kerstipon 3mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043993	Kerstipon 3mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTMA1047464	Marixino 20mg tablets (Consilient Health Ltd)
+^ESCTMA1047465	Marixino 20mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1045601	Memantine 20mg tablets (Teva UK Ltd)
+^ESCTME1045602	Memantine 20mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1045677	Memantine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME1045679	Memantine 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTME1045807	Memantine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1045808	Memantine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTME1056326	Memantine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTME1056328	Memantine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTME1065783	Memantine 20mg tablets (DE Pharmaceuticals)
+^ESCTME1065785	Memantine 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTME1067504	Memantine 20mg tablets (Zentiva)
+^ESCTME1067505	Memantine 20mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTME1098903	Memantine 20mg tablets (Accord Healthcare Ltd)
+^ESCTME1098904	Memantine 20mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTME1100328	Memantine 20mg tablets (Lupin (Europe) Ltd)
+^ESCTME1100329	Memantine 20mg tablets (Lupin (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1116019	Memantine 20mg tablets (Macleods Pharma UK Ltd)
+^ESCTME1116020	Memantine 20mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTME1118099	Memantine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118100	Memantine 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTME1131838	Memantine 20mg tablets (Creo Pharma Ltd)
+^ESCTME1131839	Memantine 20mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTME1153002	Memantine 20mg tablets (Mylan Ltd)
+^ESCTME1153005	Memantine 20mg tablets (Mylan Ltd) 28 tablet
+^ESCTME1156844	Memantine 20mg tablets (Crescent Pharma Ltd)
+^ESCTME1156845	Memantine 20mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1158261	Memantine 20mg tablets (Lupin (Europe) Ltd) 7 tablet
+^ESCTME1160863	Memantine 20mg tablets (Niche Generics Ltd)
+^ESCTME1160864	Memantine 20mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTME672807	Memantine
+^ESCTME672809	Memantine
+^ESCTME675331	Memantine 10mg tablets
+^ESCTME675333	Memantine hydrochloride 10 mg oral tablet
+^ESCTME677492	Memantine 5mg tablets
+^ESCTME677494	Memantine hydrochloride 5 mg oral tablet
+^ESCTME689913	Memantine 2mg/mL oral solution
+^ESCTME689914	Memantine hydrochloride 2mg/mL oral solution
+^ESCTME706174	Memantine hydrochloride
+^ESCTME732539	Memantine hydrochloride 7mg extended release capsule
+^ESCTME732540	Memantine hydrochloride 14mg extended release capsule
+^ESCTME733613	Memantine hydrochloride 21mg extended release capsule
+^ESCTME733614	Memantine hydrochloride 28mg extended release capsule
+^ESCTME967029	Memantine 20mg tablets 28 tablet
+^ESCTME967275	Memantine 20mg tablets
+^ESCTME968474	Memantine 20mg tablets 7 tablet
+^ESCTME993098	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME993099	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTNE1049546	Nemdatine 20mg tablets (Actavis UK Ltd)
+^ESCTNE1049547	Nemdatine 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE1144133	Nemdatine 20mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTNI1022555	Nimvastid 1.5mg capsules (Consilient Health Ltd)
+^ESCTNI1022556	Nimvastid 1.5mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTNI1022566	Nimvastid 3mg capsules (Consilient Health Ltd)
+^ESCTNI1022568	Nimvastid 3mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTPR415475	Product containing donepezil
+^ESCTPR611049	Product containing donepezil hydrochloride 5 mg/1 each oral tablet
+^ESCTPR611052	Product containing donepezil hydrochloride 10 mg/1 each oral tablet
+^ESCTPR611055	Product containing rivastigmine
+^ESCTPR611058	Product containing rivastigmine 1.5 mg/1 each oral capsule
+^ESCTPR611061	Product containing rivastigmine 3 mg/1 each oral capsule
+^ESCTPR611064	Product containing rivastigmine 4.5 mg/1 each oral capsule
+^ESCTPR611067	Product containing rivastigmine 6 mg/1 each oral capsule
+^ESCTPR611069	Product containing galantamine
+^ESCTPR611071	Product containing galantamine 4 mg/1 each oral tablet
+^ESCTPR611074	Product containing galantamine 8 mg/1 each oral tablet
+^ESCTPR611077	Product containing galantamine 12 mg/1 each oral tablet
+^ESCTPR672808	Product containing memantine
+^ESCTPR675332	Product containing memantine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR677493	Product containing memantine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR711604	Product containing rivastigmine in oral dosage form
+^ESCTPR712508	Product containing rivastigmine in topical dosage form
+^ESCTPR733636	Product containing donepezil hydrochloride 23 mg/1 each oral tablet
+^ESCTPR773765	Product containing donepezil and memantine in oral dosage form
+^ESCTRE1002785	Reminyl 4mg/ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTRE1002787	Reminyl 4mg/ml oral solution (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTRE1012230	Reminyl 4mg/ml oral solution (DE Pharmaceuticals)
+^ESCTRE1012231	Reminyl 4mg/ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTRE1012435	Reminyl 4mg/ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1012436	Reminyl 4mg/ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTRE1061543	Reminyl 4mg/ml oral solution (Waymade Healthcare Plc)
+^ESCTRE1061544	Reminyl 4mg/ml oral solution (Waymade Healthcare Plc) 100 ml
+^ESCTRE861924	Reminyl 4mg/ml oral solution (Shire Pharmaceuticals Ltd)
+^ESCTRE861926	Reminyl 4mg/ml oral solution (Shire Pharmaceuticals Ltd) 100 ml
+^ESCTRI1022147	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022148	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022149	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd) 56 capsule
+^ESCTRI1022150	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022151	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022152	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023231	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023232	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023233	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1023234	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023235	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023236	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1023513	Rivastigmine 3mg capsules (Mylan Ltd)
+^ESCTRI1023514	Rivastigmine 3mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023515	Rivastigmine 3mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023516	Rivastigmine 1.5mg capsules (Mylan Ltd)
+^ESCTRI1023517	Rivastigmine 1.5mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023518	Rivastigmine 1.5mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1026518	Rivastigmine 1.5mg capsules (Actavis UK Ltd)
+^ESCTRI1026519	Rivastigmine 1.5mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026520	Rivastigmine 1.5mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1026521	Rivastigmine 3mg capsules (Actavis UK Ltd)
+^ESCTRI1026522	Rivastigmine 3mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026523	Rivastigmine 3mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028801	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028802	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028803	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028804	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028805	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028806	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033423	Rivastigmine 1.5mg capsules (Sandoz Ltd)
+^ESCTRI1033426	Rivastigmine 1.5mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033429	Rivastigmine 1.5mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033434	Rivastigmine 3mg capsules (Sandoz Ltd)
+^ESCTRI1033435	Rivastigmine 3mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033438	Rivastigmine 3mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033845	Rivastigmine 1.5mg capsules (Teva UK Ltd)
+^ESCTRI1033846	Rivastigmine 1.5mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033847	Rivastigmine 1.5mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033848	Rivastigmine 3mg capsules (Teva UK Ltd)
+^ESCTRI1033849	Rivastigmine 3mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033850	Rivastigmine 3mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1042441	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042442	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042443	Rivastigmine 3mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042444	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042449	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1042450	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1109692	Rivastigmine 1.5mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109693	Rivastigmine 1.5mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1109695	Rivastigmine 3mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109696	Rivastigmine 3mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1119732	Rivastigmine 1.5mg capsules (DE Pharmaceuticals)
+^ESCTRI1119733	Rivastigmine 1.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119734	Rivastigmine 1.5mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1119735	Rivastigmine 3mg capsules (DE Pharmaceuticals)
+^ESCTRI1119736	Rivastigmine 3mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119737	Rivastigmine 3mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1127268	Rivastigmine 1.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127271	Rivastigmine 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI1127272	Rivastigmine 3mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127273	Rivastigmine 3mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI438136	Rivastigmine hydrogen tartrate
+^ESCTRI438137	Rivastigmine tartrate
+^ESCTRI611054	Rivastigmine
+^ESCTRI611056	Rivastigmine 1.5mg capsules
+^ESCTRI611057	Rivastigmine 1.5 mg/1 each oral capsule
+^ESCTRI611059	Rivastigmine 3mg capsules
+^ESCTRI611060	Rivastigmine 3 mg/1 each oral capsule
+^ESCTRI611062	Rivastigmine 4.5mg capsules
+^ESCTRI611063	Rivastigmine 4.5 mg/1 each oral capsule
+^ESCTRI611065	Rivastigmine 6mg capsules
+^ESCTRI611066	Rivastigmine 6 mg/1 each oral capsule
+^ESCTRI655999	Rivastigmine
+^ESCTRI676486	Rivastigmine 2mg/ml oral solution
+^ESCTRI676487	Rivastigmine 2mg/mL oral solution
+^ESCTRI708420	Rivastigmine 4.6mg/24 hours transdermal patch
+^ESCTRI708894	Rivastigmine 9.5mg/24 hours transdermal patch
+^ESCTRI711603	Rivastigmine in oral dosage form
+^ESCTRI712507	Rivastigmine in topical dosage form
+^ESCTRI864065	Rivastigmine 1.5mg capsules 28 capsule
+^ESCTRI864066	Rivastigmine 1.5mg capsules 56 capsule
+^ESCTRI864072	Rivastigmine 3mg capsules 28 capsule
+^ESCTRI864073	Rivastigmine 3mg capsules 56 capsule
+^ESCTRI933567	Rivastigmine 3mg capsules (Waymade Healthcare Plc)
+^ESCTRI933568	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI933569	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI933570	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+AROR23861NEMIS	Aricept Evess  Orodispersible tablets  5 mg
+AROR23862NEMIS	Aricept Evess  Orodispersible tablets  10 mg
+DOOR23858NEMIS	Donepezil Hydrochloride  Orodispersible Tablets (Sugar Free)  5 mg
+DOOR23859NEMIS	Donepezil Hydrochloride  Orodispersible Tablets (Sugar Free)  10 mg
+DOTA30546EMIS	Donepezil Hydrochloride  Tablets  10 mg
+DOTA30547EMIS	Donepezil Hydrochloride  Tablets  5 mg
+EBTA31267NEMIS	Ebixa  Tablets  20 mg
+EXCA33018EMIS	Exelon  Capsules  1.5 mg
+EXCA33019EMIS	Exelon  Capsules  3 mg
+GAOR127241NEMIS	Galzemic  Oral solution  4 mg/ml
+GAOR13846NEMIS	Galantamine Hydrobromide  Oral solution  Sugar Free 4 mg/ml
+GATA5327NEMIS	Galantamine Hydrobromide  Tablets  4 mg
+GATA5329NEMIS	Galantamine Hydrobromide  Tablets  8 mg
+GATA5330NEMIS	Galantamine Hydrobromide  Tablets  12 mg
+KECA78595NEMIS	Kerstipon  Capsules  1.5 mg
+KECA78596NEMIS	Kerstipon  Capsules  3 mg
+MATA116914NEMIS	Marixino  Tablets  20 mg
+META14270NEMIS	Memantine Hydrochloride  Tablets  10 mg
+META31266NEMIS	Memantine Hydrochloride  Tablets  20 mg
+NETA82051NEMIS	Nemdatine  Tablets  20 mg
+NICA52131NEMIS	Nimvastid  Capsules  1.5 mg
+NICA52132NEMIS	Nimvastid  Capsules  3 mg
+REOR13847NEMIS	Reminyl  Oral solution  4 mg/ml
+RICA33026EMIS	Rivastigmine Hydrogen Tartrate  Capsules  1.5 mg
+RICA33027EMIS	Rivastigmine Hydrogen Tartrate  Capsules  3 mg
+RICA33028EMIS	Rivastigmine Hydrogen Tartrate  Capsules  4.5 mg
+RICA33029EMIS	Rivastigmine Hydrogen Tartrate  Capsules  6 mg

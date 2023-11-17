@@ -1,5 +1,18 @@
-1J0I.00	Suspected breast cancer
-8Hgg000	Discharge from secondary care breast cancer service
-8Hn2.00	Fast track referral for suspected breast cancer
-9Np2.00	Seen in fast track suspected breast cancer clinic
-G861500	Lymphoedema following breast cancer
+B34..00	Malig neop female breast (f)
+B340.00	Malig neop nipple/areola (f)
+B340000	Malig neop nipple of breast(f)
+B340100	Malig neop areola of breast(f)
+B340z00	Malig neop nippl/areol (f) NOS
+B341.00	Malig neop cent part breast(f)
+B342.00	Malig neop upp-inner quad (f)
+B343.00	Malig neop low-inner quad (f)
+B344.00	Malig neop upp-outer quad (f)
+B345.00	Malig neop low-outer quad (f)
+B346.00	Malig neop axillary tail (f)
+B347.00	Mal neopl - overlapping breast
+B34y.00	Malig neop oth site breast (f)
+B34y000	Malig neop ectopic breast (f)
+B34yz00	Malig neop oth breast (f) NOS
+B34z.00	Malig neop female breast NOS
+Byu6.	[X]Malignant neoplasm of breast
+Byu6.00	[X]Malignant neoplasm of breast

@@ -1,1 +1,4 @@
 22K..	Body Mass Index
+X76CO	Quetelet index
+Xa7wG	Observation of body mass index
+XaZcl	Baseline body mass index

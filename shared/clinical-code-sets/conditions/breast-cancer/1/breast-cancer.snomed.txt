@@ -1,27 +1,15 @@
 254837009	Malignant neoplasm of breast
 372064008	Cancer of female breast
 706970001	Triple-negative breast cancer
-716593008	Salivary gland type cancer of breast
-718220008	Hereditary breast and ovarian cancer syndrome
-767444009	Germline BRCA-mutated human epidermal growth factor receptor 2 negative metastatic carcinoma of breast (disorder)
 94361000000105	Breast cancer detected by national screening programme (disorder)
-412736006	Breast cancer 1, early onset gene mutation negative
-412739004	Breast cancer 2, early onset gene mutation negative
-445180002	Breast cancer genetic marker of susceptibility negative
-412734009	Breast cancer 1, early onset gene mutation positive
-412738007	Breast cancer 2, early onset gene mutation positive
-445333001	Breast cancer genetic marker of susceptibility positive
-851181000000109	Re-excision of local recurrence of breast tumour (procedure)
-851221000000104	Wide excision of local recurrence of breast cancer
-405823003	Breast cancer 1, early onset gene mutation carrier detection test
-405826006	Breast cancer 2, early onset gene mutation carrier detection test
-405827002	BRCA1 gene product
-405828007	BRCA2 gene product
-134405005	Suspected breast cancer (situation)
-406100007	Seen by breast cancer nurse
-406030002	College of American Pathologists Cancer Checklist; Breast: Excision Less Than Total Mastectomy (Includes Wire-Guided Localization Excisions); Total Mastectomy, Modified Radical Mastectomy, Radical Mastectomy (record artifact)
-373167007	pN3b: Tumour of breast with metastasis as per American Joint Committee on Cancer 6th Edition definition (breast)
-1034381000000107	Discharge from secondary care breast cancer service
-1035841000000108	Lymphoedema following breast cancer
-276341000000100	Fast track referral for suspected breast cancer
-382431000000103	Seen in fast track suspected breast cancer clinic
+188147009	Malignant neoplasm of nipple and areola of female breast (disorder)
+188151006	Malignant neoplasm of central part of female breast (disorder)
+188152004	Malignant neoplasm of upper-inner quadrant of female breast (disorder)
+188153009	Malignant neoplasm of lower-inner quadrant of female breast (disorder)
+188154003	Malignant neoplasm of upper-outer quadrant of female breast (disorder)
+188155002	Malignant neoplasm of lower-outer quadrant of female breast (disorder)
+188156001	Malignant neoplasm of axillary tail of female breast (disorder)
+188157005	Malignant neoplasm, overlapping lesion of breast (disorder)
+188159008	Malignant neoplasm of ectopic site of female breast (disorder)
+93680004	Primary malignant neoplasm of areola of female breast (disorder)
+93924008	Primary malignant neoplasm of nipple of female breast (disorder)

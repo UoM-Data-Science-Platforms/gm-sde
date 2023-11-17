@@ -1,0 +1,13 @@
+^ESCT1165415	Current body weight
+^ESCT1190501	O/E - weight
+^ESCT1363823	Self reported body weight
+^ESCT1381584	Measured body weight
+^ESCTBO293430	Body weight
+^ESCTBO625115	Body weight measure
+^ESCTBO703549	Body weight with shoes
+^ESCTBO703716	Body weight without shoes
+^ESCTON455181	On examination - weight
+^ESCTWE293431	Weight
+^ESCTWE625116	Weight measurement
+EMISNQES10	Estimated weight
+EMISNQRE469	Reported weight

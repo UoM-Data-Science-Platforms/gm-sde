@@ -1,2 +1,5 @@
 229..	O/E - height
 229Z.	O/E - height NOS
+X76Bl	General appraisal of height
+X76Bs	Body height
+X76Bt	Standing height
