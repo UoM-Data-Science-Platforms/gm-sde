@@ -1,144 +1,274 @@
-7713009	Intrapontine hemorrhage
-20908003	Subcortical cerebral hemorrhage
-49422009	Cortical hemorrhage
-52201006	Internal capsule hemorrhage
-75038005	Cerebellar hemorrhage
-95454007	Brain stem hemorrhage
-195165005	Basal ganglia hemorrhage
-195167002	External capsule hemorrhage
-195169004	Intracerebral hemorrhage, multiple localized
-230709005	Massive supratentorial cerebral hemorrhage
-230710000	Lobar cerebral hemorrhage
-230711001	Thalamic hemorrhage
-230712008	Lacunar hemorrhage
-274100004	Cerebral hemorrhage
-276722003	Intracerebellar and posterior fossa hemorrhage
-308128006	Right sided intracerebral hemorrhage, unspecified
-732923001	Hemorrhage of medulla oblongata
-291511000119103	Spontaneous hemorrhage of deep cerebral hemisphere
-291521000119105	Spontaneous hemorrhage of cortical intracerebral hemisphere
-291531000119108	Spontaneous hemorrhage of cerebral hemisphere
-291541000119104	Spontaneous hemorrhage of brain stem
-1078001000000105	Haemorrhagic stroke
-14309005	Anterior choroidal artery syndrome
-20059004	Occlusion of cerebral artery
-24654003	Weber-Gubler syndrome
-25133001	Completed stroke
-56267009	Multi-infarct dementia
-71444005	Cerebral arterial thrombosis
-75543006	Cerebral embolism
-78569004	Posterior inferior cerebellar artery syndrome
-87555007	Claude's syndrome
-90099008	Subcortical leukoencephalopathy
-95457000	Brain stem infarction
-95460007	Cerebellar infarction
-195185009	Cerebral infarct due to thrombosis of precerebral arteries
-195186005	Cerebral infarction due to embolism of precerebral arteries
-195189003	Cerebral infarction due to thrombosis of cerebral arteries
-195190007	Cerebral infarction due to embolism of cerebral arteries
-195213000	Cerebellar stroke syndrome
-195230003	Cerebral infarction due to cerebral venous thrombosis, non-pyogenic
-230691006	Cerebrovascular accident due to occlusion of cerebral artery
-230692004	Infarction - precerebral
-230693009	Anterior cerebral circulation infarction
-230694003	Total anterior cerebral circulation infarction
-230695002	Partial anterior cerebral circulation infarction
-230696001	Posterior cerebral circulation infarction
-230698000	Lacunar infarction
-230699008	Pure motor lacunar infarction
-230700009	Pure sensory lacunar infarction
-230701008	Pure sensorimotor lacunar infarction
-230702001	Lacunar ataxic hemiparesis
-230703006	Dysarthria-clumsy hand syndrome
-230704000	Multi-infarct state
-276219001	Occipital cerebral infarction
-276220007	Foville syndrome
-276221006	Millard-Gubler syndrome
-276222004	Top of basilar syndrome
-307363008	Multiple lacunar infarcts
-307766002	Left sided cerebral infarction
-307767006	Right sided cerebral infarction
-371040005	Thrombotic stroke
-371041009	Embolic stroke
-373606000	Occlusive stroke
-413102000	Infarction of basal ganglia
-413758000	Cardioembolic stroke
-426107000	Acute lacunar infarction
-426983002	Infarction of medulla oblongata
-432504007	Cerebral infarction
-444657001	Superior cerebellar artery syndrome
-723082006	Silent cerebral infarct
-724424009	Cerebral ischemic stroke due to small artery occlusion
-724429004	Stroke co-occurrent with migraine
-734383005	Thrombosis of left middle cerebral artery
-734384004	Thrombosis of right middle cerebral artery
-734961002	Embolus of left posterior cerebral artery
-734963004	Embolus of right posterior cerebral artery
-734964005	Embolus of left middle cerebral artery
-734965006	Embolus of right middle cerebral artery
-762629007	Occlusion of right middle cerebral artery by embolus
-762630002	Occlusion of left middle cerebral artery by embolus
-762651004	Occlusion of right posterior cerebral artery by embolus
-762652006	Occlusion of left posterior cerebral artery by embolus
-788455001	Occlusion of bilateral pontine arteries
-788880006	Cerebral ischemic stroke due to dissection of artery
-788881005	Cerebral ischemic stroke due to aortic arch embolism
-788882003	Cerebral ischemic stroke due to global hypoperfusion with watershed infarct
-788883008	Cerebral ischemic stroke due to hypercoagulable state
-788884002	Cerebral ischemic stroke due to subarachnoid hemorrhage
-870544005	Occlusion of distal basilar artery
-870579007	Occlusion of branch of basilar artery
-125081000119106	Cerebral infarction due to occlusion of precerebral artery
-140921000119102	Ischemic stroke without coma
-292851000119109	Lacunar ataxic hemiparesis of right dominant side
-292861000119106	Lacunar ataxic hemiparesis of left dominant side
-329361000119107	Cerebrovascular accident due to occlusion of right middle cerebral artery by embolus
-329371000119101	Cerebrovascular accident due to occlusion of left middle cerebral artery by embolus
-329421000119107	Cerebrovascular accident due to occlusion of right posterior cerebral artery by embolus
-329431000119105	Cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus
-329461000119102	Cerebrovascular accident due to occlusion of left cerebellar artery by embolus
-329481000119106	Occlusion of right middle cerebral artery
-329491000119109	Occlusion of left middle cerebral artery
-329561000119101	Occlusion of right posterior cerebral artery
-329571000119107	Occlusion of left posterior cerebral artery
-329641000119104	Cerebrovascular accident due to thrombus of basilar artery
-329651000119102	Cerebrovascular accident due to thrombus of right carotid artery
-330411000119109	Lacunar ataxic hemiparesis of left nondominant side
-330421000119102	Lacunar ataxic hemiparesis of right nondominant side
-330791000119108	Cerebrovascular accident due to thrombus of left carotid artery
-1089411000000104	Cerebral infarction due to occlusion of cerebral artery
-1089421000000105	Cerebral infarction due to stenosis of cerebral artery
-15978431000119106	Thrombosis of right vertebral artery
-16000351000119109	Cerebrovascular accident due to occlusion of left posterior cerebral artery
-16000391000119104	Cerebrovascular accident due to occlusion of right posterior cerebral artery
-16000431000119109	Cerebrovascular accident due to occlusion of right middle cerebral artery
-16000511000119103	Cerebrovascular accident due to occlusion of left middle cerebral artery
-16002031000119102	Cerebrovascular accident due to thrombus of right middle cerebral artery
-16002111000119106	Cerebrovascular accident due to thrombus of left middle cerebral artery
-16218291000119100	Acute cerebral ischemia
-16896851000119101	History of embolic cerebrovascular accident
-16896891000119106	History of cerebrovascular accident due to ischemia
-57981008	Progressing stroke
-111297002	Nonparalytic stroke
-116288000	Paralytic stroke
-195168007	Intracerebral hemorrhage with intraventricular hemorrhage
-195209007	Middle cerebral artery syndrome
-195210002	Anterior cerebral artery syndrome
-195211003	Posterior cerebral artery syndrome
-195212005	Brainstem stroke syndrome
-195216008	Left sided cerebral hemisphere cerebrovascular accident
-195217004	Right sided cerebral hemisphere cerebrovascular accident
-230690007	Cerebrovascular accident
-230706003	Hemorrhagic cerebral infarction
-230707007	Anterior cerebral circulation hemorrhagic infarction
-230708002	Posterior cerebral circulation hemorrhagic infarction
-230713003	Stroke of uncertain pathology
-230714009	Anterior circulation stroke of uncertain pathology
-230715005	Posterior circulation stroke of uncertain pathology
-275434003	Stroke in the puerperium
-281240008	Extension of cerebrovascular accident
-297138001	Embolus of circle of Willis
-16371781000119100	Cerebellar stroke
-16644681000119102	Cerebrovascular accident due to occlusion of bilateral pontine arteries
-16661931000119102	Cerebrovascular accident due to stenosis of bilateral vertebral arteries
-16661971000119104	Cerebrovascular accident due to stenosis of bilateral carotid arteries
+1089411000000104	Cerebral infarction due to occlusion of cerebral artery (disorder)
+1089421000000105	Cerebral infarction due to stenosis of cerebral artery (disorder)
+1153544008	Occlusion of right anterior cerebral artery (disorder)
+1153546005	Occlusion of bilateral posterior cerebral arteries (disorder)
+1153612002	Embolism of right anterior cerebral artery (disorder)
+1153632001	Embolism of bilateral middle cerebral arteries (disorder)
+1153634000	Embolism of bilateral anterior cerebral arteries (disorder)
+1155697006	Embolism of left vertebral artery (disorder)
+1155699009	Embolism of bilateral vertebral arteries (disorder)
+1156018007	Thrombosis of left cerebellar artery (disorder)
+1156019004	Thrombosis of right cerebellar artery (disorder)
+1156027008	Thrombus of dural sinus in pregnancy (disorder)
+1156029006	Thrombus of dural sinus in puerperium (disorder)
+117776611000119102	Cerebrovascular accident due to occlusion of left posterior communicating artery (disorder)
+1197363004	Pediatric arterial ischemic stroke (disorder)
+137592291000119101	Acute cerebrovascular accident due to occlusion of right posterior cerebral artery (disorder)
+140921000119102	Ischemic stroke without coma (disorder)
+14309005	Anterior choroidal artery syndrome (disorder)
+15978431000119106	Thrombosis of right vertebral artery (disorder)
+16000431000119109	Cerebrovascular accident due to occlusion of right middle cerebral artery (disorder)
+16000511000119103	Cerebrovascular accident due to occlusion of left middle cerebral artery (disorder)
+16002031000119102	Cerebrovascular accident due to thrombus of right middle cerebral artery (disorder)
+16023911000119108	Cerebrovascular accident due to occlusion of right carotid artery (disorder)
+16024111000119109	Cerebrovascular accident due to occlusion of left carotid artery (disorder)
+16024151000119105	Cerebrovascular accident due to occlusion of left cerebellar artery (disorder)
+16026951000119102	Cerebrovascular accident due to stenosis of right carotid artery (disorder)
+16644681000119102	Cerebrovascular accident due to occlusion of bilateral pontine arteries (disorder)
+16661971000119104	Cerebrovascular accident due to stenosis of bilateral carotid arteries (disorder)
+16891111000119104	Cryptogenic stroke (disorder)
+182960891000119101	Cerebrovascular accident due to occlusion of left anterior cerebral artery (disorder)
+195165005	Basal ganglia hemorrhage (disorder)
+195169004	Intracerebral hemorrhage, multiple localized (disorder)
+195190007	Cerebral infarction due to embolism of cerebral arteries (disorder)
+195210002	Anterior cerebral artery syndrome (disorder)
+195211003	Posterior cerebral artery syndrome (disorder)
+195213000	Cerebellar stroke syndrome (disorder)
+195216008	Left sided cerebral hemisphere cerebrovascular accident (disorder)
+195217004	Right sided cerebral hemisphere cerebrovascular accident (disorder)
+195230003	Cerebral infarction due to cerebral venous thrombosis, non-pyogenic (disorder)
+20059004	Occlusion of cerebral artery (disorder)
+230523009	Infarction of optic radiation (disorder)
+230690007	Cerebrovascular accident (disorder)
+230692004	Infarction - precerebral (disorder)
+230694003	Total anterior cerebral circulation infarction (disorder)
+230695002	Partial anterior cerebral circulation infarction (disorder)
+230699008	Pure motor lacunar infarction (disorder)
+230700009	Pure sensory lacunar infarction (disorder)
+230701008	Pure sensorimotor lacunar infarction (disorder)
+230702001	Lacunar ataxic hemiparesis (disorder)
+230706003	Hemorrhagic cerebral infarction (disorder)
+230707007	Anterior cerebral circulation hemorrhagic infarction (disorder)
+230708002	Posterior cerebral circulation hemorrhagic infarction (disorder)
+230713003	Stroke of uncertain pathology (disorder)
+230714009	Anterior circulation stroke of uncertain pathology (disorder)
+239965291000119107	Cerebrovascular accident due to occlusion of basilar artery (disorder)
+25133001	Completed stroke (disorder)
+251770561000119107	Cerebrovascular accident due to embolism of left anterior cerebral artery (disorder)
+272202251000119109	Acute cerebrovascular accident due to occlusion of right middle cerebral artery (disorder)
+274100004	Cerebral hemorrhage (disorder)
+276221006	Millard-Gubler syndrome (disorder)
+276222004	Top of basilar syndrome (disorder)
+276722003	Intracerebellar and posterior fossa hemorrhage (disorder)
+291511000119103	Spontaneous hemorrhage of deep cerebral hemisphere (disorder)
+291531000119108	Spontaneous hemorrhage of cerebral hemisphere (disorder)
+291541000119104	Spontaneous hemorrhage of brain stem (disorder)
+292851000119109	Lacunar ataxic hemiparesis of right dominant side (disorder)
+302904002	Infarction of visual cortex (disorder)
+307766002	Left sided cerebral infarction (disorder)
+308128006	Right sided intracerebral hemorrhage, unspecified (disorder)
+329361000119107	Cerebrovascular accident due to occlusion of right middle cerebral artery by embolus (disorder)
+329371000119101	Cerebrovascular accident due to occlusion of left middle cerebral artery by embolus (disorder)
+329431000119105	Cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus (disorder)
+329451000119104	Cerebrovascular accident due to occlusion of right cerebellar artery by embolus (disorder)
+329481000119106	Occlusion of right middle cerebral artery (disorder)
+329491000119109	Occlusion of left middle cerebral artery (disorder)
+329541000119100	Occlusion of bilateral anterior cerebral arteries (disorder)
+329641000119104	Cerebrovascular accident due to thrombus of basilar artery (disorder)
+329651000119102	Cerebrovascular accident due to thrombus of right carotid artery (disorder)
+330421000119102	Lacunar ataxic hemiparesis of right nondominant side (disorder)
+371041009	Embolic stroke (disorder)
+38595071000119104	Cerebrovascular accident due to thrombosis of right posterior cerebral artery (disorder)
+40076141000119107	Acute cerebrovascular accident due to occlusion of left posterior cerebral artery (disorder)
+407573811000119100	Acute cerebrovascular accident due to occlusion of right carotid artery (disorder)
+422504002	Ischemic stroke (disorder)
+432504007	Cerebral infarction (disorder)
+496369931000119104	Cerebrovascular accident due to thrombosis of right cerebellar artery (disorder)
+502836591000119106	Acute cerebrovascular accident due to occlusion of left carotid artery (disorder)
+5571000124103	Cerebrovascular accident with intracranial hemorrhage (disorder)
+58173271000119101	Cerebrovascular accident due to embolism of bilateral cerebellar arteries (disorder)
+595899961000119100	Cerebrovascular accident of basal ganglia (disorder)
+652287331000119104	Cerebrovascular accident of brainstem (disorder)
+71444005	Cerebral arterial thrombosis (disorder)
+734963004	Embolus of right posterior cerebral artery (disorder)
+734964005	Embolus of left middle cerebral artery (disorder)
+734965006	Embolus of right middle cerebral artery (disorder)
+738211801000119107	Acute cerebrovascular accident due to thrombosis of right middle cerebral artery (disorder)
+762005171000119101	Acute cerebrovascular accident due to ischemia (disorder)
+762652006	Occlusion of left posterior cerebral artery by embolus (disorder)
+78569004	Posterior inferior cerebellar artery syndrome (disorder)
+788883008	Cerebral ischemic stroke due to hypercoagulable state (disorder)
+806161651000119106	Cerebrovascular accident due to embolism of right vertebral artery (disorder)
+859422751000119101	Cerebrovascular accident due to embolism of left carotid artery (disorder)
+86553761000119103	Cerebrovascular accident due to occlusion of bilateral posterior cerebral arteries (disorder)
+870544005	Occlusion of distal basilar artery (disorder)
+898941951000119108	Cerebrovascular accident due to occlusion of bilateral vertebral arteries (disorder)
+936648941000119105	Acute cerebrovascular accident due to embolism of left middle cerebral artery (disorder)
+939885431000119109	Cerebrovascular accident due to embolism of bilateral middle cerebral arteries (disorder)
+95457000	Brain stem infarction (disorder)
+95460007	Cerebellar infarction (disorder)
+107557061000119108	Cerebrovascular accident due to embolism of bilateral anterior cerebral arteries (disorder)
+1078001000000105	Haemorrhagic stroke (disorder)
+111297002	Nonparalytic stroke (disorder)
+1153543002	Occlusion of anterior cerebral artery (disorder)
+1153545009	Occlusion of left anterior cerebral artery (disorder)
+1153607003	Occlusion of right posterior communicating artery (disorder)
+1153608008	Occlusion of left posterior communicating artery (disorder)
+1153611009	Embolism of left anterior cerebral artery (disorder)
+1153630009	Embolism of left carotid artery (disorder)
+1153631008	Embolism of right carotid artery (disorder)
+1153633006	Embolism of bilateral posterior cerebral arteries (disorder)
+1153638002	Occlusion of bilateral cerebellar arteries (disorder)
+1155688007	Embolism of bilateral carotid arteries (disorder)
+1155689004	Embolism of bilateral cerebellar arteries (disorder)
+1155698001	Embolism of right vertebral artery (disorder)
+1156016006	Thrombosis of left posterior cerebral artery (disorder)
+1156017002	Thrombosis of right posterior cerebral artery (disorder)
+116288000	Paralytic stroke (disorder)
+1163482004	Hemorrhagic cerebral infarction caused by Aspergillus (disorder)
+1179360000	Fetal epilepsy due to perinatal stroke (disorder)
+1204189004	Asymptomatic occlusion of intracranial vertebral artery (disorder)
+1204202004	Occlusion of cerebral artery due to infection (disorder)
+1231168008	Malignant middle cerebral artery syndrome (disorder)
+125081000119106	Cerebral infarction due to occlusion of precerebral artery (disorder)
+1259499007	Dementia due to hemorrhagic cerebral infarction due to hypertension (disorder)
+1260271009	Hemorrhagic cerebral infarction due to hypertension (disorder)
+152148641000119104	Cerebrovascular accident due to embolism of bilateral carotid arteries (disorder)
+16000351000119109	Cerebrovascular accident due to occlusion of left posterior cerebral artery (disorder)
+16000391000119104	Cerebrovascular accident due to occlusion of right posterior cerebral artery (disorder)
+16002111000119106	Cerebrovascular accident due to thrombus of left middle cerebral artery (disorder)
+16024271000119107	Cerebrovascular accident due to occlusion of right cerebellar artery (disorder)
+16026991000119107	Cerebrovascular accident due to stenosis of left carotid artery (disorder)
+16218291000119100	Acute cerebral ischemia (disorder)
+16371781000119100	Cerebellar stroke (disorder)
+16661931000119102	Cerebrovascular accident due to stenosis of bilateral vertebral arteries (disorder)
+168747591000119109	Cerebrovascular accident due to embolism of bilateral posterior cerebral arteries (disorder)
+188174841000119103	Cerebrovascular accident due to occlusion of bilateral middle cerebral arteries (disorder)
+195167002	External capsule hemorrhage (disorder)
+195168007	Intracerebral hemorrhage with intraventricular hemorrhage (disorder)
+195185009	Cerebral infarct due to thrombosis of precerebral arteries (disorder)
+195186005	Cerebral infarction due to embolism of precerebral arteries (disorder)
+195189003	Cerebral infarction due to thrombosis of cerebral arteries (disorder)
+195209007	Middle cerebral artery syndrome (disorder)
+195212005	Brainstem stroke syndrome (disorder)
+20908003	Subcortical cerebral hemorrhage (disorder)
+230518009	Infarction of optic tract (disorder)
+230691006	Cerebrovascular accident due to occlusion of cerebral artery (disorder)
+230693009	Anterior cerebral circulation infarction (disorder)
+230696001	Posterior cerebral circulation infarction (disorder)
+230698000	Lacunar infarction (disorder)
+230703006	Dysarthria-clumsy hand syndrome (disorder)
+230704000	Multi-infarct state (disorder)
+230709005	Massive supratentorial cerebral hemorrhage (disorder)
+230710000	Lobar cerebral hemorrhage (disorder)
+230711001	Thalamic hemorrhage (disorder)
+230712008	Lacunar hemorrhage (disorder)
+230715005	Posterior circulation stroke of uncertain pathology (disorder)
+24654003	Weber-Gubler syndrome (disorder)
+275434003	Stroke in the puerperium (disorder)
+276219001	Occipital cerebral infarction (disorder)
+276220007	Foville syndrome (disorder)
+281240008	Extension of cerebrovascular accident (disorder)
+290641000119107	Dysphagia due to and following non-traumatic intracerebral hemorrhage (disorder)
+291521000119105	Spontaneous hemorrhage of cortical intracerebral hemisphere (disorder)
+292861000119106	Lacunar ataxic hemiparesis of left dominant side (disorder)
+297138001	Embolus of circle of Willis (disorder)
+302902003	Infarction of optic chiasm (disorder)
+307363008	Multiple lacunar infarcts (disorder)
+307767006	Right sided cerebral infarction (disorder)
+329421000119107	Cerebrovascular accident due to occlusion of right posterior cerebral artery by embolus (disorder)
+329461000119102	Cerebrovascular accident due to occlusion of left cerebellar artery by embolus (disorder)
+329501000119102	Occlusion of bilateral middle cerebral arteries (disorder)
+329561000119101	Occlusion of right posterior cerebral artery (disorder)
+329571000119107	Occlusion of left posterior cerebral artery (disorder)
+330411000119109	Lacunar ataxic hemiparesis of left nondominant side (disorder)
+330791000119108	Cerebrovascular accident due to thrombus of left carotid artery (disorder)
+346410121000119101	Acute cerebrovascular accident due to thrombosis of left middle cerebral artery (disorder)
+346674811000119104	Cerebrovascular accident due to occlusion of bilateral cerebellar arteries (disorder)
+371040005	Thrombotic stroke (disorder)
+373606000	Occlusive stroke (disorder)
+384430101000119103	Cerebrovascular accident due to embolism of right carotid artery (disorder)
+413102000	Infarction of basal ganglia (disorder)
+413758000	Cardioembolic stroke (disorder)
+426107000	Acute lacunar infarction (disorder)
+426983002	Infarction of medulla oblongata (disorder)
+444657001	Superior cerebellar artery syndrome (disorder)
+46583221000119102	Acute cerebrovascular accident due to stenosis of left carotid artery (disorder)
+49422009	Cortical hemorrhage (disorder)
+511452481000119102	Cerebrovascular accident due to thrombosis of right vertebral artery (disorder)
+517253051000119105	Cerebrovascular accident due to embolism of left vertebral artery (disorder)
+52201006	Internal capsule hemorrhage (disorder)
+57981008	Progressing stroke (disorder)
+63230211000119103	Acute cerebrovascular accident due to occlusion of left middle cerebral artery (disorder)
+655081461000119101	Cerebrovascular accident due to occlusion of right anterior cerebral artery (disorder)
+693158221000119105	Acute cerebrovascular accident due to stenosis of right carotid artery (disorder)
+720261501000119107	Cerebrovascular accident due to occlusion of bilateral anterior cerebral arteries (disorder)
+723082006	Silent cerebral infarct (disorder)
+724424009	Cerebral ischemic stroke due to small artery occlusion (disorder)
+724429004	Stroke co-occurrent with migraine (disorder)
+732330391000119107	Cerebrovascular accident due to embolism of bilateral vertebral arteries (disorder)
+732923001	Hemorrhage of medulla oblongata (disorder)
+734383005	Thrombosis of left middle cerebral artery (disorder)
+734384004	Thrombosis of right middle cerebral artery (disorder)
+734961002	Embolus of left posterior cerebral artery (disorder)
+738478141000119101	Acute cerebrovascular accident due to occlusion of right cerebellar artery (disorder)
+75038005	Cerebellar hemorrhage (disorder)
+75543006	Cerebral embolism (disorder)
+759950981000119101	Cerebrovascular accident due to thrombosis of left vertebral artery (disorder)
+762629007	Occlusion of right middle cerebral artery by embolus (disorder)
+762630002	Occlusion of left middle cerebral artery by embolus (disorder)
+762651004	Occlusion of right posterior cerebral artery by embolus (disorder)
+769023031000119104	Cerebrovascular accident of thalamus (disorder)
+7713009	Intrapontine hemorrhage (disorder)
+788310011000119109	Acute cerebrovascular accident due to occlusion of left cerebellar artery (disorder)
+788455001	Occlusion of bilateral pontine arteries (disorder)
+788880006	Cerebral ischemic stroke due to dissection of artery (disorder)
+788881005	Cerebral ischemic stroke due to aortic arch embolism (disorder)
+788882003	Cerebral ischemic stroke due to global hypoperfusion with watershed infarct (disorder)
+788884002	Cerebral ischemic stroke due to subarachnoid hemorrhage (disorder)
+849488701000119104	Cerebrovascular accident due to embolism of right anterior cerebral artery (disorder)
+849579281000119106	Cerebrovascular accident due to occlusion of right posterior communicating artery (disorder)
+851365731000119106	Cerebrovascular accident due to thrombosis of left posterior cerebral artery (disorder)
+870579007	Occlusion of branch of basilar artery (disorder)
+87555007	Claude's syndrome (disorder)
+881694631000119107	Cerebrovascular accident of medulla oblongata (disorder)
+915141931000119109	Cerebrovascular accident due to embolism of basilar artery (disorder)
+931164671000119105	Acute cerebrovascular accident due to embolism of right middle cerebral artery (disorder)
+95454007	Brain stem hemorrhage (disorder)
+957319791000119104	Cerebrovascular accident due to thrombosis of left cerebellar artery (disorder)
+99451000119105	Cerebral infarction due to stenosis of carotid artery (disorder)
+195165005	Basal ganglia hemorrhage (disorder)
+195169004	Intracerebral hemorrhage, multiple localized (disorder)
+230709005	Massive supratentorial cerebral hemorrhage (disorder)
+230710000	Lobar cerebral hemorrhage (disorder)
+230711001	Thalamic hemorrhage (disorder)
+276722003	Intracerebellar and posterior fossa hemorrhage (disorder)
+290641000119107	Dysphagia due to and following non-traumatic intracerebral hemorrhage (disorder)
+291531000119108	Spontaneous hemorrhage of cerebral hemisphere (disorder)
+308128006	Right sided intracerebral hemorrhage, unspecified (disorder)
+732923001	Hemorrhage of medulla oblongata (disorder)
+1078001000000105	Haemorrhagic stroke (disorder)
+195167002	External capsule hemorrhage (disorder)
+195168007	Intracerebral hemorrhage with intraventricular hemorrhage (disorder)
+20908003	Subcortical cerebral hemorrhage (disorder)
+230712008	Lacunar hemorrhage (disorder)
+274100004	Cerebral hemorrhage (disorder)
+291511000119103	Spontaneous hemorrhage of deep cerebral hemisphere (disorder)
+291521000119105	Spontaneous hemorrhage of cortical intracerebral hemisphere (disorder)
+291541000119104	Spontaneous hemorrhage of brain stem (disorder)
+49422009	Cortical hemorrhage (disorder)
+52201006	Internal capsule hemorrhage (disorder)
+5571000124103	Cerebrovascular accident with intracranial hemorrhage (disorder)
+75038005	Cerebellar hemorrhage (disorder)
+7713009	Intrapontine hemorrhage (disorder)
+95454007	Brain stem hemorrhage (disorder)
+99451000119105	Cerebral infarction due to stenosis of carotid artery (disorder)	
+1508000	Intracerebral hemorrhage (disorder)
+195163003	Intracerebral haemorrhage (& [cerebrovascular accident due to])
+195188006	Cerebral arterial occlusion(&[cerebrovascular accident due to] or [stroke due to]) or (cerebral infarction)
+21454007	Subarachnoid hemorrhage (disorder)
+230722002	Cerebral venous thrombosis of cortical vein (disorder)
+230723007	Cerebral venous thrombosis of great cerebral vein (disorder)
+266312006	Cerebrovascular: [disease] or [accident]
+266315008	(Cerebral infarct) or (cerebrovascular accident) or (undefined stroke/CVA) or (stroke NOS)
+41713005	Benedikt's syndrome (disorder)

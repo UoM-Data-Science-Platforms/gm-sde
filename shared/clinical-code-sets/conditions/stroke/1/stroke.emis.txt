@@ -1,0 +1,296 @@
+^ESCT1164367	Thrombosis of left middle cerebral artery
+^ESCT1164368	Left middle cerebral artery thrombosis
+^ESCT1164369	Thrombosis of right middle cerebral artery
+^ESCT1164370	Right middle cerebral artery thrombosis
+^ESCT1164935	Embolus of left posterior cerebral artery
+^ESCT1164936	Embolus of right posterior cerebral artery
+^ESCT1164937	Embolus of left middle cerebral artery
+^ESCT1164938	Embolus of right middle cerebral artery
+^ESCT1169370	Occlusion of right middle cerebral artery by embolus
+^ESCT1169371	Occlusion of left middle cerebral artery by embolus
+^ESCT1169387	Occlusion of right posterior cerebral artery by embolus
+^ESCT1169388	Occlusion of left posterior cerebral artery by embolus
+^ESCT1170669	Dysphagia due to and following non-traumatic intracerebral haemorrhage
+^ESCT1170670	Dysphagia as sequela of non-traumatic intracerebral hemorrhage
+^ESCT1170671	Dysphagia due to and following non-traumatic intracerebral hemorrhage
+^ESCT1170672	Dysphagia as late effect of spontaneous intracerebral hemorrhage
+^ESCT1170673	Dysphagia as sequela of non-traumatic intracerebral haemorrhage
+^ESCT1170674	Dysphagia as late effect of spontaneous intracerebral haemorrhage
+^ESCT1170706	Spontaneous haemorrhage of deep cerebral hemisphere
+^ESCT1170707	Spontaneous hemorrhage of deep cerebral hemisphere
+^ESCT1170708	Nontraumatic hemorrhage of deep cerebral hemisphere
+^ESCT1170709	Nontraumatic haemorrhage of deep cerebral hemisphere
+^ESCT1170710	Spontaneous haemorrhage of cortical intracerebral hemisphere
+^ESCT1170711	Nontraumatic hemispheric cortical intracerebral haemorrhage
+^ESCT1170712	Nontraumatic hemispheric cortical intracerebral hemorrhage
+^ESCT1170713	Spontaneous hemorrhage of cortical intracerebral hemisphere
+^ESCT1170714	Spontaneous haemorrhage of cerebral hemisphere
+^ESCT1170715	Nontraumatic hemorrhage of cerebral hemisphere
+^ESCT1170716	Nontraumatic haemorrhage of cerebral hemisphere
+^ESCT1170717	Spontaneous hemorrhage of cerebral hemisphere
+^ESCT1170718	Spontaneous haemorrhage of brain stem
+^ESCT1170719	Nontraumatic hemorrhage of brain stem
+^ESCT1170720	Spontaneous hemorrhage of brain stem
+^ESCT1170721	Nontraumatic haemorrhage of brain stem
+^ESCT1170821	Lacunar ataxic hemiparesis of right dominant side
+^ESCT1170822	Lacunar ataxic hemiparesis of left dominant side
+^ESCT1170849	Cerebrovascular accident due to occlusion of right middle cerebral artery by embolus
+^ESCT1170850	Cerebrovascular accident due to occlusion of left middle cerebral artery by embolus
+^ESCT1170851	Cerebrovascular accident due to occlusion of right posterior cerebral artery by embolus
+^ESCT1170852	Cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus
+^ESCT1170853	Cerebrovascular accident due to occlusion of right cerebellar artery by embolus
+^ESCT1170854	Cerebrovascular accident due to occlusion of left cerebellar artery by embolus
+^ESCT1170855	Left hemispheric cerebellar artery embolism with stroke
+^ESCT1170856	Occlusion of right middle cerebral artery
+^ESCT1170857	Occlusion of left middle cerebral artery
+^ESCT1170858	Occlusion of right posterior cerebral artery
+^ESCT1170859	Occlusion of left posterior cerebral artery
+^ESCT1170860	Cerebrovascular accident due to thrombus of basilar artery
+^ESCT1170861	Stroke due to basilar artery thrombus
+^ESCT1170862	Cerebrovascular accident due to thrombus of right carotid artery
+^ESCT1170863	Stroke due to thrombus of right carotid artery
+^ESCT1170881	Lacunar ataxic hemiparesis of left nondominant side
+^ESCT1170882	Lacunar ataxic hemiparesis of right nondominant side
+^ESCT1170889	Cerebrovascular accident due to thrombus of left carotid artery
+^ESCT1170890	Stroke due to thrombus of left carotid artery
+^ESCT1171762	Cerebral infarction due to occlusion of cerebral artery
+^ESCT1171763	Cerebral infarction due to stenosis of cerebral artery
+^ESCT1172869	Thrombosis of right vertebral artery
+^ESCT1172897	Cerebrovascular accident due to occlusion of left posterior cerebral artery
+^ESCT1172898	Cerebrovascular accident due to occlusion of right posterior cerebral artery
+^ESCT1172899	Cerebrovascular accident due to occlusion of right middle cerebral artery
+^ESCT1172900	Cerebrovascular accident due to occlusion of left middle cerebral artery
+^ESCT1172901	Cerebrovascular accident due to thrombus of right middle cerebral artery
+^ESCT1172902	Stroke due to thrombus of right middle cerebral artery
+^ESCT1172903	Cerebrovascular accident due to thrombus of left middle cerebral artery
+^ESCT1172904	Stroke due to thrombus of left middle cerebral artery
+^ESCT1172973	Cerebrovascular accident due to occlusion of left carotid artery
+^ESCT1172974	Cerebrovascular accident due to occlusion of left cerebellar artery
+^ESCT1172975	Cerebrovascular accident due to occlusion of right cerebellar artery
+^ESCT1173136	Acute cerebral ischaemia
+^ESCT1173137	Acute cerebral ischemia
+^ESCT1184393	Cerebrovascular accident due to stenosis of right carotid artery
+^ESCT1184394	Cerebrovascular accident due to stenosis of left carotid artery
+^ESCT1186505	Cerebrovascular accident due to occlusion of right carotid artery
+^ESCT1187851	Cerebrovascular accident due to occlusion of cerebral artery
+^ESCT1190357	Stroke due to intracerebral haemorrhage
+^ESCT1191957	[X]Other intracerebral haemorrhage
+^ESCT1222310	Intracerebral haemorrhage
+^ESCT1222311	Intracerebral hemorrhage
+^ESCT1222312	ICH - intracerebral haemorrhage
+^ESCT1222313	ICH - intracerebral hemorrhage
+^ESCT1272248	Right sided intracerebral haemorrhage, unspecified
+^ESCT1275861	Right sided intracerebral hemorrhage, unspecified
+^ESCT1276190	Subarachnoid hemorrhage
+^ESCT1276202	Cerebral hemorrhage
+^ESCT1303119	Cerebral hemorrhage
+^ESCT1371717	Cerebrovascular accident due to stenosis of bilateral carotid arteries
+^ESCT1371718	Cerebrovascular accident due to stenosis of both carotid arteries
+^ESCT1390530	Bilateral occlusion of pontine arteries
+^ESCT1390531	Occlusion of bilateral pontine arteries
+^ESCT1390532	Occlusion of both pontine arteries
+^ESCT1390986	Cerebral ischaemic stroke due to dissection of artery
+^ESCT1390987	Cerebral ischaemic stroke due to aortic arch embolism
+^ESCT1390988	Cerebral ischaemic stroke due to global hypoperfusion with watershed infarct
+^ESCT1390989	Cerebral ischaemic stroke due to hypercoagulable state
+^ESCT1390990	Cerebral ischaemic stroke co-occurrent with subarachnoid haemorrhage
+^ESCT1396682	Occlusion of distal basilar artery
+^ESCT1396720	Occlusion of branch of basilar artery
+^ESCT1401425	Cerebrovascular accident due to occlusion of bilateral pontine arteries
+^ESCT1401426	Cerebrovascular accident due to occlusion of both pontine arteries
+^ESCT1401428	Cerebrovascular accident due to stenosis of bilateral vertebral arteries
+^ESCT1401429	Cerebrovascular accident due to stenosis of both vertebral arteries
+^ESCT1417290	Bilateral occlusion of middle cerebral arteries
+^ESCT1417291	Occlusion of both middle cerebral arteries
+^ESCT1417292	Occlusion of bilateral middle cerebral arteries
+^ESCT1417293	Bilateral occlusion of anterior cerebral arteries
+^ESCT1417294	Occlusion of bilateral anterior cerebral arteries
+^ESCT1417295	Occlusion of both anterior cerebral arteries
+^ESCT1418262	Cryptogenic stroke
+^ESCT1419415	Acute cerebrovascular accident due to occlusion of left posterior cerebral artery
+^ESCT1419416	Acute stroke due to occlusion of left posterior cerebral artery
+^ESCT1419419	Acute cerebrovascular accident due to stenosis of left carotid artery
+^ESCT1419420	Acute stroke due to stenosis of left carotid artery
+^ESCT1419421	Acute cerebrovascular accident due to occlusion of left middle cerebral artery
+^ESCT1419422	Acute stroke due to occlusion of left middle cerebral artery
+^ESCT1419428	Acute cerebrovascular accident due to occlusion of right posterior cerebral artery
+^ESCT1419429	Acute stroke due to occlusion of right posterior cerebral artery
+^ESCT1419433	Acute cerebrovascular accident due to occlusion of right middle cerebral artery
+^ESCT1419434	Acute stroke due to occlusion of right middle cerebral artery
+^ESCT1419440	Acute cerebrovascular accident due to thrombosis of left middle cerebral artery
+^ESCT1419441	Acute stroke due to thrombosis of left middle cerebral artery
+^ESCT1419449	Acute cerebrovascular accident due to occlusion of right carotid artery
+^ESCT1419450	Acute stroke due to occlusion of right carotid artery
+^ESCT1419457	Acute cerebrovascular accident due to occlusion of left carotid artery
+^ESCT1419458	Acute stroke due to occlusion of left carotid artery
+^ESCT1419461	Acute cerebrovascular accident of basal ganglia
+^ESCT1419462	Acute stroke of basal ganglia
+^ESCT1419464	Acute cerebrovascular accident of brainstem
+^ESCT1419465	Acute stroke of brainstem
+^ESCT1419466	Acute cerebrovascular accident due to stenosis of right carotid artery
+^ESCT1419467	Acute stroke due to stenosis of right carotid artery
+^ESCT1419472	Acute cerebrovascular accident due to thrombosis of right middle cerebral artery
+^ESCT1419473	Acute stroke due to thrombosis of right middle cerebral artery
+^ESCT1419474	Acute cerebrovascular accident due to occlusion of right cerebellar artery
+^ESCT1419475	Acute stroke due to occlusion of right cerebellar artery
+^ESCT1419480	Acute cerebrovascular accident due to ischaemia
+^ESCT1419481	Acute ischaemic stroke
+^ESCT1419484	Acute cerebrovascular accident due to occlusion of left cerebellar artery
+^ESCT1419485	Acute stroke due to occlusion of left cerebellar artery
+^ESCT1419488	Acute cerebrovascular accident of medulla oblongata
+^ESCT1419489	Acute stroke of medulla oblongata
+^ESCT1419491	Acute cerebrovascular accident due to embolism of basilar artery
+^ESCT1419492	Acute stroke due to embolism of basilar artery
+^ESCT1419494	Acute cerebrovascular accident due to embolism of right middle cerebral artery
+^ESCT1419495	Acute stroke due to embolism of right middle cerebral artery
+^ESCT1419497	Acute cerebrovascular accident due to embolism of left middle cerebral artery
+^ESCT1419498	Acute stroke due to embolism of left middle cerebral artery
+^ESCTAC705417	Acute lacunar infarction
+^ESCTAN272659	Anterior choroidal artery syndrome
+^ESCTAN501104	Anterior cerebral circulation infarction
+^ESCTAN501133	Anterior cerebral circulation haemorrhagic infarction
+^ESCTAN501134	Anterior cerebral circulation hemorrhagic infarction
+^ESCTAN501146	Anterior circulation stroke of uncertain pathology
+^ESCTBA477781	Basal ganglia hemorrhage
+^ESCTBA683705	Basal ganglion stroke
+^ESCTBA683706	Basal ganglion infarct
+^ESCTBE317216	Benedikt's syndrome
+^ESCTBE317218	Benedict syndrome
+^ESCTBE317219	Benedikt syndrome
+^ESCTBR405693	Brain stem haemorrhage
+^ESCTBR405694	Brain stem hemorrhage
+^ESCTBR405695	Brainstem haemorrhage
+^ESCTBR405696	Brainstem hemorrhage
+^ESCTBR405703	Brain stem infarct
+^ESCTBR405704	Brain stem stroke
+^ESCTCA684614	Cardioembolic stroke
+^ESCTCE352269	Cerebrovascular lesion
+^ESCTCE366232	Cerebral arterial thrombosis
+^ESCTCE371985	Cerebellar hemorrhage
+^ESCTCE372845	Cerebral arterial embolism
+^ESCTCE501102	Cerebrovascular accident due to cerebral artery occlusion
+^ESCTCE501166	Cerebral venous thrombosis of cortical vein
+^ESCTCE501167	Cerebral venous thrombosis of great cerebral vein
+^ESCTCE785563	Cerebral ischaemic stroke due to small artery occlusion
+^ESCTCE785564	Cerebral ischemic stroke due to small artery occlusion
+^ESCTCE803128	Cerebral infarction due to stenosis of carotid artery
+^ESCTCE987564	Cerebrovascular accident due to right carotid artery occlusion
+^ESCTCE987595	Cerebrovascular accident due to right carotid artery stenosis
+^ESCTCE987596	Cerebrovascular accident due to left carotid artery stenosis
+^ESCTCE991227	Cerebellar stroke
+^ESCTCL392313	Claude's syndrome
+^ESCTCL392315	Claude syndrome
+^ESCTCO290157	Completed stroke
+^ESCTCO329962	Cortical hemorrhage
+^ESCTCT366233	CT - Cerebral thrombosis
+^ESCTCV352270	CVD - Cerebrovascular disease
+^ESCTCV564922	CVA - Extension of cerebrovascular accident
+^ESCTDY501125	Dysarthria-clumsy hand syndrome
+^ESCTEM583672	Embolus of circle of Willis
+^ESCTEM634830	Embolic stroke
+^ESCTEX477783	External capsule hemorrhage
+^ESCTEX564920	Extension of cerebrovascular accident
+^ESCTEX564921	Extension of stroke
+^ESCTFO558232	Foville syndrome
+^ESCTGU558234	Gubler syndrome
+^ESCTHA371986	Haemorrhagic cerebellum
+^ESCTHA501129	Haemorrhagic cerebral infarction
+^ESCTHA501131	Haemorrhagic stroke
+^ESCTHA795127	Haemorrhage of medulla oblongata
+^ESCTHA845303	Haemorrhagic stroke
+^ESCTHE371987	Hemorrhagic cerebellum
+^ESCTHE501130	Hemorrhagic cerebral infarction
+^ESCTHE501132	Hemorrhagic stroke
+^ESCTHE795128	Hemorrhage of medulla oblongata
+^ESCTIN262263	Intrapontine haemorrhage
+^ESCTIN262264	Intrapontine hemorrhage
+^ESCTIN334605	Internal capsule hemorrhage
+^ESCTIN377801	Inferior cerebellar artery syndrome
+^ESCTIN405705	Infarction of brain stem
+^ESCTIN477785	Intracerebral hemorrhage, intraventricular
+^ESCTIN477786	Intracerebral haemorrhage with intraventricular haemorrhage
+^ESCTIN477787	Intracerebral hemorrhage with intraventricular hemorrhage
+^ESCTIN477788	Intracerebral haemorrhage, multiple localised
+^ESCTIN477789	Intracerebral hemorrhage, multiple localized
+^ESCTIN500904	Infarction of optic tract
+^ESCTIN500909	Infarction of optic radiation
+^ESCTIN556016	Intracerebral hemorrhage (ICH)
+^ESCTIN558964	Intracerebellar and posterior fossa haemorrhage
+^ESCTIN558965	Intracerebellar and posterior fossa hemorrhage
+^ESCTIN591279	Infarction of optic chiasm
+^ESCTIN591281	Infarction of visual cortex
+^ESCTIN706729	Infarction of medulla oblongata
+^ESCTIS699098	Ischaemic stroke
+^ESCTIS699099	Ischemic stroke
+^ESCTIS804448	Ischaemic stroke without coma
+^ESCTIS804449	Ischemic stroke without coma
+^ESCTLA501116	Lacunar stroke
+^ESCTLA501117	LACI - Lacunar infarction
+^ESCTLA501124	Lacunar ataxic hemiparesis
+^ESCTLA501143	Lacunar haemorrhage
+^ESCTLA501144	Lacunar hemorrhage
+^ESCTLE477818	Left sided cerebral hemisphere cerebrovascular accident
+^ESCTLI501118	LI - Lacunar infarction
+^ESCTLM377802	LMS - Lateral medullary syndrome
+^ESCTLO501140	Lobar cerebral hemorrhage
+^ESCTMA501137	Massive supratentorial cerebral haemorrhage
+^ESCTMA501138	Massive supratentorial cerebral hemorrhage
+^ESCTME317217	Mesencephalic tegmental paralysis
+^ESCTME706730	Medulla oblongata stroke
+^ESCTMI501127	MIS - Multiple infarct state
+^ESCTMI558233	Millard-Gubler syndrome
+^ESCTMI785573	Migraine-induced stroke
+^ESCTMO272660	Monakow's syndrome
+^ESCTMU501126	Multi-infarct state
+^ESCTMU501128	Multiple infarct state
+^ESCTMU596739	Multiple lacunar infarcts
+^ESCTNO419364	Nonparalytic stroke
+^ESCTOC281882	Occlusion of cerebral artery
+^ESCTOC558231	Occipital cerebral infarction
+^ESCTPA427036	Paralytic stroke
+^ESCTPA501109	Partial anterior cerebral circulation infarction
+^ESCTPA501110	PACI - Partial anterior cerebral circulation infarction
+^ESCTPA501111	Partial anterior cerebral circulation stroke
+^ESCTPA501112	PACS - Partial anterior cerebral circulation stroke
+^ESCTPO262265	Pontine hemorrhage
+^ESCTPO377798	Posterior inferior cerebellar artery syndrome
+^ESCTPO501113	Posterior cerebral circulation infarction
+^ESCTPO501114	Posterior cerebral circulation stroke
+^ESCTPO501135	Posterior cerebral circulation haemorrhagic infarction
+^ESCTPO501136	Posterior cerebral circulation hemorrhagic infarction
+^ESCTPO501147	Posterior circulation stroke of uncertain pathology
+^ESCTPR344183	Progressing stroke
+^ESCTPU501119	Pure motor lacunar infarction
+^ESCTPU501121	Pure sensory lacunar infarction
+^ESCTPU501123	Pure sensorimotor lacunar infarction
+^ESCTRI477820	Right sided cerebral hemisphere cerebrovascular accident
+^ESCTRU392314	Rubrospinal cerebellar peduncle syndrome
+^ESCTSA284114	SAH - Subarachnoid haemorrhage
+^ESCTSA284115	SAH - Subarachnoid hemorrhage
+^ESCTSI783999	Silent cerebral infarct
+^ESCTST344184	Stroke-in-evolution syndrome
+^ESCTST501098	Stroke
+^ESCTST501145	Stroke of uncertain pathology
+^ESCTST785571	Stroke co-occurrent with migraine
+^ESCTST785572	Stroke and migraine
+^ESCTSU283265	Subcortical haemorrhage
+^ESCTSU283266	Subcortical hemorrhage
+^ESCTSU283267	Subcortical cerebral haemorrhage
+^ESCTSU283268	Subcortical cerebral hemorrhage
+^ESCTSU284116	Subarachnoid intracranial haemorrhage
+^ESCTSU284117	Subarachnoid intracranial hemorrhage
+^ESCTSU729596	Superior cerebellar artery syndrome
+^ESCTTA501106	TACI - Total anterior cerebral circulation infarction
+^ESCTTA501108	TACS - Total anterior cerebral circulation stroke
+^ESCTTH366231	Thrombosis of cerebral arteries
+^ESCTTH501141	Thalamic haemorrhage
+^ESCTTH501142	Thalamic hemorrhage
+^ESCTTH634829	Thrombotic stroke
+^ESCTTO501105	Total anterior cerebral circulation infarction
+^ESCTTO501107	Total anterior cerebral circulation stroke
+^ESCTTO558235	Top of basilar syndrome
+^ESCTWE289354	Weber-Gubler syndrome
+^ESCTWE289355	Weber syndrome
+EMISNQCE11	Cerebral venous thrombosis
+EMISNQCE4	Cerebral infarction with haemorrhagic transformation
+ESCTOC3	Occlusive stroke

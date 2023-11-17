@@ -1,0 +1,22 @@
+^ESCT1173136	Acute cerebral ischaemia
+^ESCT1173137	Acute cerebral ischemia
+^ESCT1192012	Transient cerebral ischemia
+^ESCTAN501149	Anterior circulation transient ischaemic attack
+^ESCTAN501150	Anterior circulation transient ischemic attack
+^ESCTCA477807	Carotid artery syndrome
+^ESCTCA501151	Carotid territory transient ischemic attack
+^ESCTIM477810	Impending cerebral ischemia
+^ESCTIN477812	Intermittent cerebral ischemia
+^ESCTPO501154	Posterior circulation transient ischemic attack
+^ESCTPO501155	Posterior circulation transient ischaemic attack
+^ESCTRE728912	Recurrent transient cerebral ischaemic attack
+^ESCTRE728913	Recurrent transient cerebral ischemic attack
+^ESCTTE549218	Temporary cerebral vascular dysfunction
+^ESCTTI549217	TIA
+^ESCTTI549220	TIA - Transient ischaemic attack
+^ESCTTR549222	Transient ischemic attack
+^ESCTTR706469	Transient cerebral ischaemia due to atrial fibrillation
+^ESCTTR706470	Transient cerebral ischemia due to atrial fibrillation
+^ESCTVE354078	Vertebrobasilar arterial insufficiency
+^ESCTVE501152	Vertebrobasilar territory transient ischaemic attack
+^ESCTVE501153	Vertebrobasilar territory transient ischemic attack

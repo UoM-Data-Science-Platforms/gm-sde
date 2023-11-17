@@ -14,7 +14,5 @@ X00DU	Carotid territory transient ischaemic attack
 X00DV	Posterior circulation transient ischaemic attack
 X00DW	Vertebrobasilar insufficiency
 XaEGK	Transient ischaemic attacks
-XaRCF	Transient ischaemic attack monthly review
-XaZp5	High risk of TIA (transient ischaemic attack)
 XE0VK	Transient ischaemic attack
 XE0X0	Vertebro basilar insufficiency
