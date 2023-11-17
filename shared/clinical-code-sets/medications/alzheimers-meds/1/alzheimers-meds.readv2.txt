@@ -1,0 +1,23 @@
+dB11.	MEMANTINE HYDROCHLORIDE 10mg tablets
+dB15.	EBIXA 20mg tablets
+dB16.	MEMANTINE HYDROCHLORIDE 20mg tablets
+dB19.	NEMDATINE 20mg tablets
+dy11.	DONEPEZIL HYDROCHLORIDE 5mg tablets
+dy12.	DONEPEZIL HYDROCHLORIDE 10mg tablets
+dy15.	ARICEPT EVESS 5mg oro-dispersible tablets
+dy16.	ARICEPT EVESS 10mg oro-dispersible tablets
+dy1y.	DONEPEZIL HYDROCHLORIDE 10mg oro-dispersible tablets
+dy1z.	DONEPEZIL HYDROCHLORIDE 5mg oro-dispersible tablets
+dy21.	RIVASTIGMINE 1.5mg capsules
+dy22.	RIVASTIGMINE 3mg capsules
+dy23.	RIVASTIGMINE 4.5mg capsules
+dy24.	RIVASTIGMINE 6mg capsules
+dy25.	EXELON 1.5mg capsules
+dy26.	EXELON 3mg capsules
+dy2F.	NIMVASTID 1.5mg capsules
+dy2G.	NIMVASTID 3mg capsules
+dy34.	REMINYL 4mg/mL sugar free oral solution
+dy3w.	GALANTAMINE 4mg/mL sugar free oral solution
+dy3x.	*GALANTAMINE 4mg tablets
+dy3y.	GALANTAMINE 8mg tablets
+dy3z.	GALANTAMINE 12mg tablets
