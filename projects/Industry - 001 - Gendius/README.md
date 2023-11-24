@@ -573,12 +573,16 @@ LINK: [https://github.com/rw251/.../conditions/coronary-heart-disease/2](https:/
 
 ### Stroke
 
-Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.
+Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes. Does not include codes for types of vascular dementia such as multi infarct dementia, which are usually caused by a series of mini strokes. Excludes "history of" codes.
+
+Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
+
+_Update **2023-11-16**: Prevalence now 1.2% - 1.5% when examining codes_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -588,23 +592,39 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2023-09-12 | EMIS            | 2463856    |   23678 (0.961%) |    11237 (0.456%) |
 | 2023-09-12 | TPP             | 200590     |     2631 (1.31%) |      2593 (1.29%) |
 | 2023-09-12 | Vision          | 332095     |    3098 (0.933%) |     1699 (0.512%) |
+| 2023-11-16 | EMIS            | 2482563    |    33303 (1.34%) |     30532 (1.23%) |
+| 2023-11-16 | TPP             | 201030     |     3195 (1.59%) |      2963 (1.47%) |
+| 2023-11-16 | Vision          | 333490     |     4302 (1.29%) |      3924 (1.18%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-16
 
 LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
 
 ### Transient ischaemic attach
 
-Any code indicating a diagnosis of a transient ischaemic attack (TIA).
+Any code indicating a diagnosis of a transient ischaemic attack (TIA). Excludes history of codes. Excludes "drop attack" codes unless they also refer to an ischaemic attack or vertebro-basilar insufficiency. Includes "Vertebral artery syndrome" but not "Vertebral artery compression syndrome".
+
+Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.78% - 0.99%` suggests that this code set is well defined.
 
-| Date        | Practice system | Population | Patients from ID | Patient from code |
-| ----------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-16  | EMIS            | 2662570    |    20798 (0.78%) |     20798 (0.78%) |
-| 2022-05-16  | TPP             | 212696     |     1806 (0.85%) |      1811 (0.85%) |
-| 2022-05-16  | Vision          | 342344     |     3409 (0.99%) |      3409 (0.99%) |
+_Update **2023-11-16**: Prevalence now 0.81% - 0.96%_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-16 | EMIS            | 2662570    |    20798 (0.78%) |     20798 (0.78%) |
+| 2022-05-16 | TPP             | 212696     |     1806 (0.85%) |      1811 (0.85%) |
+| 2022-05-16 | Vision          | 342344     |     3409 (0.99%) |      3409 (0.99%) |
+| 2023-11-16 | EMIS            | 2482563    |    20103 (0.81%) |    20005 (0.806%) |
+| 2023-11-16 | TPP             | 201030     |    1936 (0.963%) |     1936 (0.963%) |
+| 2023-11-16 | Vision          | 333490     |    3029 (0.908%) |     3013 (0.903%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-16
 
 LINK: [https://github.com/rw251/.../conditions/tia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tia/1)
 
@@ -631,17 +651,27 @@ LINK: [https://github.com/rw251/.../conditions/aortic-aneurysm/1](https://github
 ### Peripheral arterial disease
 
 Any code indicating a diagnosis of peripheral arterial disease (PAD). Also known as peripheral vascular disease (PVD).
+
+Includes any peripheral circulatory disorder, including those attributed to diabetes. Does not include "history of" codes.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.58% - 0.62%` suggests that this code set is well defined.
 
-| Date        | Practice system | Population | Patients from ID | Patient from code |
-| ----------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-12  | EMIS            | 2662570    |    15457 (0.58%) |     15411 (0.58%) |
-| 2022-05-12  | TPP             | 212696     |     1241 (0.58%) |      1242 (0.58%) |
-| 2022-05-12  | Vision          | 342344     |     2125 (0.62%) |      2079 (0.61%) |
+_Update **2023-11-16**: Prevalence now 0.62% - 0.66%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-12 | EMIS            | 2662570    |    15457 (0.58%) |     15411 (0.58%) |
+| 2022-05-12 | TPP             | 212696     |     1241 (0.58%) |      1242 (0.58%) |
+| 2022-05-12 | Vision          | 342344     |     2125 (0.62%) |      2079 (0.61%) |
+| 2023-11-16 | EMIS            | 2482563    |   16341 (0.658%) |    16356 (0.659%) |
+| 2023-11-16 | TPP             | 201030     |    1334 (0.664%) |     1334 (0.664%) |
+| 2023-11-16 | Vision          | 333490     |    2074 (0.622%) |     2073 (0.622%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-16
 
 LINK: [https://github.com/rw251/.../conditions/peripheral-arterial-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/peripheral-arterial-disease/1)
 
