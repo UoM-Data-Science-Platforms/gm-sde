@@ -1,2 +1,69 @@
 ^ESCTLI800928	Limb ischaemia
 ESCTUP1	Upper limb ischaemia
+^ESCT1192365	Claudication
+^ESCT1212223	Bilateral lower limb atherosclerosis pain at rest co-occurrent and due to atherosclerosis
+^ESCT1212224	Pain at rest of bilateral lower limbs co-occurrent and due to atherosclerosis
+^ESCT1212225	Pain at rest of both lower limbs co-occurrent and due to atherosclerosis
+^ESCT1212576	Bilateral atherosclerosis of lower limbs with gangrene
+^ESCT1212577	Gangrene of bilateral lower limbs co-occurrent and due to atherosclerosis
+^ESCT1212578	Gangrene of both lower limbs co-occurrent and due to atherosclerosis
+^ESCT1391963	Limb pain at rest due to atherosclerosis of artery of lower limb
+^ESCT1391965	Ulcer of heel due to atherosclerosis of artery of lower limb
+^ESCT1391969	Ulcer of ankle due to atherosclerosis of artery of lower limb
+^ESCT1391978	Ulcer of calf due to atherosclerosis of artery of lower limb
+^ESCT1394484	Peripheral arterial disease
+^ESCT1394485	Peripheral arterial vascular disease
+^ESCT1394486	Peripheral artery disease
+^ESCT1407839	Peripheral angiopathy due to type 2 diabetes mellitus
+^ESCT1408064	PVD - peripheral vascular disease
+^ESCT1418019	Bilateral intermittent claudication of lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418020	Intermittent claudication of bilateral lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418021	Intermittent claudication of both lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418022	Intermittent claudication of bilateral lower extremities due to atherosclerosis of nonbiological bypass graft
+^ESCTAC784870	Acute occlusion of artery of lower limb co-occurrent and due to thromboembolus
+^ESCTAC784871	Acute thromboembolic occlusion of artery of lower limb
+^ESCTCR505811	Critical lower limb ischaemia
+^ESCTCR505812	Critical lower limb ischemia
+^ESCTCR602173	Critical ischaemia of foot
+^ESCTCR602174	Critical ischemia of foot
+^ESCTDI439220	Diabetic peripheral vascular disease
+^ESCTDI439221	Diabetes with peripheral circulatory disorder
+^ESCTGA983705	Gangrene of right lower limb due to atherosclerosis
+^ESCTGA983707	Gangrene of left lower limb due to atherosclerosis
+^ESCTIC353266	IC - Intermittent claudication
+^ESCTIS505803	Ischaemic arm
+^ESCTIS505804	Ischemic arm
+^ESCTIS505809	Ischemic leg
+^ESCTIS588671	Ischaemia of feet
+^ESCTIS588672	Ischemia of feet
+^ESCTIS589834	Ischemic foot
+^ESCTIS596796	Ischemic toe
+^ESCTIS770365	Ischemic foot pain at rest
+^ESCTIS827856	Ischaemic lower limb pain at rest
+^ESCTIS827857	Ischaemic leg pain at rest
+^ESCTLI800929	Limb ischemia
+^ESCTLO505807	Lower limb ischaemia
+^ESCTLO505808	Lower limb ischemia
+^ESCTPA663223	PAOD - Peripheral arterial occlusive disease
+^ESCTPA947817	Pain at rest of left lower limb co-occurrent and due to atherosclerosis
+^ESCTPA947820	Pain at rest of right lower limb co-occurrent and due to atherosclerosis
+^ESCTPE439222	Peripheral angiopathy due to diabetes mellitus
+^ESCTPE505798	Peripheral ischemic vascular disease
+^ESCTPE505800	Peripheral ischemia
+^ESCTPE663222	Peripheral arterial occlusive disease
+^ESCTPE663225	Peripheral angiopathy
+^ESCTPE663227	Peripheral artery occlusive disease
+^ESCTPE801449	Peripheral vascular disease due to type I diabetes
+^ESCTPE801527	Peripheral vascular disease associated with another disorder
+^ESCTPV663226	PVD - Peripheral vascular disease
+^ESCTPV663385	PVD-peripheral vascular disease
+^ESCTSE801528	Secondary peripheral vascular disease
+^ESCTTR596791	Trash foot
+^ESCTUP505802	Upper limb ischemia
+^ESCTVE405673	Venous intermittent claudication
+^ESCTVE405674	Venous claudication
+EMISNQIS4	Ischaemic foot
+^ESCT1233598	Peripheral vascular disorder co-occurrent and due to diabetes mellitus
+^ESCT1233599	Peripheral vascular disorder due to diabetes mellitus
+^ESCT1270441	Peripheral circulatory disorder associated with diabetes mellitus
+^ESCTDI698004	Diabetic peripheral circulatory disorder
