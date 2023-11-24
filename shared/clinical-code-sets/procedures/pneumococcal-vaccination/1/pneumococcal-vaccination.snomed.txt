@@ -22,3 +22,4 @@
 3439111000001102	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml vials
 10245211000001108	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
 27396511000001105	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+3003511000001107	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
