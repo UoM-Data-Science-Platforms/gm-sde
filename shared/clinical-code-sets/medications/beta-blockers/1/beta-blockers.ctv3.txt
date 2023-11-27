@@ -1,0 +1,172 @@
+bd11.	Propranolol hydrochloride 10mg tablet
+bd12.	Propranolol hydrochloride 40mg tablet
+bd13.	Propranolol hydrochloride 80mg tablet
+bd14.	Propranolol hydrochloride 160mg tablet
+bd1g.	Bedranol SR 160mg m/r capsule
+bd1G.	Beta-Prograne 160mg m/r capsule
+bd1H.	Propranolol hydrochloride 1mg/1mL injection
+bd1I.	Propranolol hydrochloride 5mg/5mL syrup
+bd1J.	Propranolol hydrochloride 50mg/5mL syrup
+bd1l.	Half-Inderal LA 80mg m/r capsule
+bd1L.	Half Beta-Prograne 80mg m/r capsule
+bd1m.	Inderal 10mg tablet
+bd1n.	Inderal 40mg tablet
+bd1o.	Inderal 80mg tablet
+bd1P.	Propranolol hydrochloride 10mg/5mL syrup
+bd1q.	Inderal 1mg/1mL injection
+bd1Q.	Propranolol hydrochloride 40mg/5mL syrup
+bd1r.	Inderal-LA 160mg m/r capsule
+bd1x.	Propranolol hydrochloride 160mg m/r capsule
+bd1y.	Propranolol hydrochloride 80mg m/r capsule
+bd1z.	Syprol 10mg/5mL oral solution
+bd1Z.	Syprol 5mg/5mL oral solution
+bd21.	Sectral 100mg capsule
+bd22.	Sectral 200mg capsule
+bd23.	Sectral 400mg tablet
+bd2w.	Acebutolol 100mg capsule
+bd2x.	Acebutolol 200mg capsule
+bd2y.	Acebutolol 400mg tablet
+bd31.	Tenormin 100mg tablet
+bd32.	Tenormin 25mg/5mL syrup
+bd33.	Tenormin 5mg/10mL injection
+bd34.	Tenormin LS 50mg tablet
+bd35.	Atenolol 50mg tablet
+bd36.	Atenolol 100mg tablet
+bd3a.	Antipressan 50mg tablet
+bd3b.	Antipressan 100mg tablet
+bd3c.	Tenormin 25 tablet
+bd3f.	Atenix 50mg tablet
+bd3g.	Atenix 100mg tablet
+bd3j.	Atenolol 25mg tablet
+bd3l.	Antipressan 25mg tablet
+bd3x.	Atenolol 25mg/5mL syrup
+bd3y.	Atenolol 5mg/10mL injection
+bd3z.	Atenix 25mg tablet
+bd41.	Kerlone 20mg tablet
+bd4z.	Betaxolol hydrochloride 20mg tablet
+bd51.	Labetalol hydrochloride 100mg tablet
+bd53.	Labetalol hydrochloride 400mg tablet
+bd57.	Trandate 50mg tablet
+bd58.	Trandate 100mg tablet
+bd59.	Trandate 200mg tablet
+bd5a.	Trandate 400mg tablet
+bd5b.	Trandate 100mg/20mL injection
+bd5u.	Labetalol 200mg tablets
+bd5v.	Labetalol hydrochloride 50mg tablet
+bd5z.	Labetalol hydrochloride 100mg/20mL injection
+bd61.	Betaloc 50mg tablet
+bd62.	Betaloc 100mg tablet
+bd63.	Betaloc 5mg/5mL injection
+bd64.	Betaloc-SA 200mg Durule
+bd65.	Lopresor 50mg tablet
+bd66.	Lopresor 100mg tablet
+bd6b.	Lopresor SR 200mg m/r tablet
+bd6w.	Metoprolol tartrate 100mg tablet
+bd6x.	Metoprolol tartrate 50mg tablet
+bd6y.	Metoprolol tartrate 5mg/5mL injection
+bd6z.	Metoprolol tartrate 200mg m/r tablet
+bd71.	Corgard 40mg tablet
+bd72.	Corgard 80mg tablet
+bd7y.	Nadolol 40mg tablet
+bd7z.	Nadolol 80mg tablet
+bd81.	Oxprenolol hydrochloride 20mg tablet
+bd82.	Oxprenolol hydrochloride 40mg tablet
+bd83.	Oxprenolol hydrochloride 80mg tablet
+bd8e.	Slow-Trasicor 160mg m/r tablet
+bd8f.	Trasicor 20mg tablet
+bd8g.	Trasicor 40mg tablet
+bd8h.	Trasicor 80mg tablet
+bd8u.	Oxprenolol hydrochloride 160mg m/r tablet
+bda1.	Visken 5mg tablet
+bda2.	Visken 15mg tablet
+bday.	Pindolol 5mg tablet
+bdaz.	Pindolol 15mg tablet
+bdc1.	Beta-Cardone 40mg tablet
+bdc2.	Beta-Cardone 80mg tablet
+bdc3.	Beta-Cardone 200mg tablet
+bdc4.	Sotacor 80mg tablet
+bdc5.	Sotacor 160mg tablet
+bdc8.	Sotacor 40mg/4mL injection
+bdcs.	Sotalol hydrochloride 40mg/4mL injection
+bdcu.	Sotalol hydrochloride 40mg tablet
+bdcv.	Sotalol hydrochloride 80mg tablet
+bdcw.	Sotalol hydrochloride 200mg tablet
+bdcx.	Sotalol hydrochloride 160mg tablet
+bdd1.	Betim 10mg tablet
+bddz.	Timolol maleate 10mg tablet
+bde1.	Co-Betaloc tablet
+bde2.	Co-Betaloc SA tablet
+bde3.	Corgaretic 40mg tablet
+bde4.	Corgaretic 80mg tablet
+bde5.	Inderetic capsule
+bde6.	Inderex capsule
+bde7.	Kalten capsule
+bdea.	Moducren tablet
+bdeA.	Metoprolol tartrate+hydrochlorothiazide 100mg/12.5mg tablet
+bdeb.	Prestim tablet
+bded.	Secadrex tablet
+bdeg.	Tenoret 50 tablet
+bdeG.	Pindolol+clopamide 10mg/5mg tablet
+bdeh.	Tenoretic tablet
+bdej.	Trasidrex tablet
+bdek.	Viskaldix tablet
+bdem.	Atenolol+chlortalidone 50mg/12.5mg tablet
+bdem.	Atenolol+chlorthalidone 50mg/12.5mg tablet
+bdem.	Co-tenidone 50mg/12.5mg tablet
+bden.	Atenolol+chlortalidone 100mg/25mg tablet
+bden.	Atenolol+chlorthalidone 100mg/25mg tablet
+bden.	Co-tenidone 100mg/25mg tablet
+bdeo.	AtenixCo 50mg/12.5mg tablet
+bdep.	AtenixCo 100mg/25mg tablet
+bdeq.	Tenchlor 50mg/12.5mg tablet
+bdeQ.	Tenben capsule
+bder.	Tenchlor 100mg/25mg tablet
+bdes.	Beta-Adalat capsule
+bdet.	Tenif capsule
+bdeu.	Co-prenozide 160mg/0.25mg m/r tablet
+bdex.	Acebutolol+hydrochlorothiazide 200mg/12.5mg tablet
+bdf1.	Bisoprolol fumarate 5mg tablet
+bdf2.	Bisoprolol fumarate 10mg tablet
+bdf3.	Monocor 5mg tablet
+bdf4.	Monocor 10mg tablet
+bdf5.	Emcor LS 5mg tablet
+bdf6.	Emcor 10mg tablet
+bdf7.	Monozide 10 tablet
+bdf9.	Cardicor 1.25mg tablet
+bdfA.	Cardicor 2.5mg tablet
+bdfB.	Cardicor 3.75mg tablet
+bdfC.	Cardicor 5mg tablet
+bdfD.	Cardicor 7.5mg tablet
+bdfE.	Cardicor 10mg tablet
+bdfF.	Bipranix 5mg tablet
+bdfG.	Bipranix 10mg tablet
+bdfH.	Soloc 5mg tablet
+bdfI.	Soloc 10mg tablet
+bdfJ.	Vivacor 10mg tablet
+bdfK.	Vivacor 5mg tablet
+bdfw.	Bisoprolol fumarate 1.25mg tablet
+bdfx.	Bisoprolol fumarate 2.5mg tablet
+bdfy.	Bisoprolol fumarate 3.75mg tablet
+bdfz.	Bisoprolol fumarate 7.5mg tablet
+bdj1.	Celiprolol hydrochloride 200mg tablet
+bdj3.	Celectol 200mg tablet
+bdj4.	Celiprolol hydrochloride 400mg tablet
+bdj5.	Celectol 400mg tablet
+bdl1.	Eucardic 12.5 tablet
+bdl2.	Eucardic 25 tablet
+bdl3.	Carvedilol 12.5mg tablet
+bdl4.	Carvedilol 25mg tablet
+bdl5.	Carvedilol 3.125mg tablet
+bdl6.	Carvedilol 6.25mg tablet
+bdl7.	Eucardic 3.125 tablet
+bdl8.	Eucardic 6.25 tablet
+bdm1.	Nebilet 5mg tablet
+bdm2.	HYPOLOC 5mg tablets
+bdmy.	NEBIVOLOL 2.5mg tablets
+bdmz.	Nebivolol 5mg tablet
+bdn1.	Syprol 50mg/5mL oral solution
+bdn2.	Bedranol SR 80mg m/r capsule
+bdn3.	Rapranol SR 80mg m/r capsule
+bdn4.	Rapranol SR 160mg m/r capsule
+bdn5.	SYPROL 40mg/5mL oral solution
+bdn6.	PROPRANOLOL HYDROCHLORIDE 40mg/5mL sugar free oral solution
