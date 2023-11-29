@@ -1,0 +1,645 @@
+398895004	Diazepam 2mg/5ml oral solution sugar free
+33315001000027100	Valium 10mg Tablet (Roche Products Ltd)
+183755001000027000	Temazepam 30mg capsules
+76485001000027100	Primalan 5mg Tablet (Rhone-Poulenc Rorer Ltd)
+195001000027101	Actidil 2.5mg Tablet (Wellcome Medical Division)
+95025001000027100	Azatadine maleate 1mg tablets
+4658511000001100	Xanax 250microgram tablets (Pfizer Ltd)
+104775001000027000	Cyproheptadine 2mg/5ml oral solution
+4540511000001100	Zaditen 1mg capsules (Novartis Pharmaceuticals UK Ltd)
+320666001	Ketotifen 1mg capsules
+11115001000027100	Fabahistin 50mg/5ml Liquid (Bayer Plc)
+321294008	Lorazepam 1mg tablets
+175875001000027000	Paracetamol with promethazine hydrochloride 120mg+1.5mg/5ml suspension
+2055001000027100	Ativan 1mg Tablet (Wyeth Pharmaceuticals)
+348476002	Promethazine hydrochloride 20mg tablets
+321242006	Alprazolam 500microgram tablets
+746811000001100	Piriton Allergy 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+205001000027101	Actidil 2mg/5ml Oral solution (Wellcome Medical Division)
+3650911000001100	Tavegil 500micrograms/5ml elixir (Novartis Consumer Health UK Ltd)
+24415001000027100	Periactin 2mg/5ml Oral solution (Merck Sharp & Dohme Ltd)
+36097611000001100	Diazepam 10mg/2ml solution for injection ampoules
+138355001000027000	Promethazine hydrochloride 25mg/ml injection
+36097511000001100	Diazepam 10mg/2ml emulsion for injection ampoules
+145735001000027000	Triprolidine hcl 2mg/5ml elixir
+21895001000027100	Normison 10mg Capsule (Wyeth Pharmaceuticals)
+42465001000027100	Dimotane 2mg/5ml Oral solution (Wyeth Pharmaceuticals)
+185295001000027000	Temazepam gelthix 20mg Capsule (Pharmacia Ltd)
+17155001000027100	Librium 5mg Capsule (ICN Pharmaceuticals France S.A.)
+26045001000027100	Pro-actidil 10mg Tablet (Wellcome Medical Division)
+4659411000001100	Xanax 500microgram tablets (Pfizer Ltd)
+7895001000027100	Dimotane la 12mg Tablet (Wyeth Pharmaceuticals)
+13893211000001100	Diazepam 10mg/5ml oral suspension
+8019811000001100	Diphenhydramine 6.25mg/5ml oral solution sugar free
+36137711000001100	Chlorphenamine 10mg/1ml solution for injection ampoules
+305485001000027000	Clonazepam 2mg/5ml oral solution sugar free
+8659811000001100	Lorazepam 500micrograms/5ml oral suspension
+36125511000001100	Midazolam 5mg/5ml solution for injection ampoules
+36125211000001100	Midazolam 2mg/2ml solution for injection ampoules
+3971111000001100	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd)
+3766111000001100	Ephedrine hydrochloride 15mg / Chlorphenamine 10mg tablets
+321198003	Diazepam 10mg tablets
+3759911000001100	Haymine tablets (Chemidex Pharma Ltd)
+8799011000001100	Zopiclone 3.75mg/5ml oral suspension
+109675001000027000	PROMETHAZINE 50 MG INJ
+321248005	Chlordiazepoxide 10mg capsules
+8397211000001100	Clonazepam 500micrograms/5ml oral suspension
+227211000001108	Phenergan Nightime 25mg tablets (Sanofi)
+92425001000027100	Diphenydramine 50mg capsules
+80205001000027100	Temazepam 10mg/5ml Oral solution (Generics (UK) Ltd)
+145725001000027000	Triprolidine hcl 2.5mg Tablet
+321286001	Hydroxyzine 25mg tablets
+37083011000001100	Chlorphenamine 2mg/5ml oral solution
+21365001000027100	Nitrados 5mg Tablet (Rorer Pharmaceuticals Ltd)
+322897008	Clonazepam 500microgram tablets
+562111000001100	Zileze 7.5 tablets (Opus Pharmaceuticals Ltd)
+134411000001102	Phenergan 5mg/5ml elixir (Sanofi)
+47515001000027100	Librium 100mg Injection (Roche Products Ltd)
+133835001000027000	Thephorin 25mg Tablet (Sinclair IS Pharma Plc)
+798211000001106	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd)
+7960911000001100	Hayleve 4mg tablets (Genesis Pharmaceuticals Ltd)
+33185001000027100	Valium 5mg/ml Injection (Roche Products Ltd)
+133805001000027000	Phenindamine tartrate 25mg tablet
+210755001000027000	Diazepam rectubes 20mg Rectal tubes (C P Pharmaceuticals Ltd)
+45435001000027100	Piriject 10mg/ml Injection (Link Pharmaceuticals Ltd)
+3379711000001100	Nytol 25mg tablets (Omega Pharma Ltd)
+37605001000027100	Vallergan forte 30mg/5ml Oral solution (Castlemead Healthcare Ltd)
+321153009	Temazepam 20mg tablets
+17225001000027100	Librium 10mg Tablet (ICN Pharmaceuticals France S.A.)
+241345001000027000	Clonazepam 500micrograms/5ml solution sugar free
+864411000001102	Ucerax 25mg tablets (UCB Pharma Ltd)
+2065001000027100	Ativan 2.5mg Tablet (Wyeth Pharmaceuticals)
+849211000001108	Librium 5mg capsules (Meda Pharmaceuticals Ltd)
+4018811000001100	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free
+21555001000027100	Noctamid 1mg Tablet (Schering Health Care Ltd)
+283311000001103	Diazepam 2.5mg RecTubes (Wockhardt UK Ltd)
+36069711000001100	Diphenhydramine 10mg/5ml oral solution
+4026811000001100	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules
+1945001000027100	Atarax 10mg Tablet (Pfizer Ltd)
+33245001000027100	Valium 5mg Capsule (Roche Products Ltd)
+514911000001107	Mogadon 5mg tablets (Meda Pharmaceuticals Ltd)
+320777001	Promethazine 5mg/5ml oral solution sugar free
+321152004	Temazepam 10mg tablets
+33235001000027100	Valium 2mg Capsule (Roche Products Ltd)
+321183000	Zolpidem 5mg tablets
+320730006	Diphenhydramine 50mg tablets
+185185001000027000	Temazepam 10mg gel-fill capsules
+33365001000027100	Valium 10mg Suppository (Roche Products Ltd)
+111215001000027000	Dimenhydrinate 50mg tablets
+322898003	Clonazepam 2mg tablets
+603811000001108	Diazepam 5mg RecTubes (Wockhardt UK Ltd)
+185315001000027000	Temazepam gelthix 30mg Capsule (Pharmacia Ltd)
+26811000001102	Diazepam 10mg RecTubes (Wockhardt UK Ltd)
+321295009	Lorazepam 2.5mg tablets
+9765211000001100	Diazepam 2mg/5ml oral solution sugar free (Actavis UK Ltd)
+135335001000027000	PROMETHAZINE HCl 2 % CRE
+196985001000027000	Medinex 10mg/5ml Oral solution (Wyeth Consumer Healthcare)
+321247000	Chlordiazepoxide 5mg capsules
+4214611000001100	Sominex 20mg tablets (Teva UK Ltd)
+39245001000027100	Loramet 1mg Capsule (Wyeth Pharmaceuticals)
+21905001000027100	Normison 20mg Capsule (Wyeth Pharmaceuticals)
+222415001000027000	Paracetamol with promethazine hydrochloride 120mg+1.5mg/5ml suspension sugar free colour free
+193265001000027000	Nytol 25mg Tablet (Stafford-Miller Ltd)
+222425001000027000	Promethazine hydrochloride 1.5mg with paracetamol 120mg/5ml oral solution colour free and sugar free
+7958511000001100	Allerief 2mg/5ml oral solution (Crescent Pharma Ltd)
+185285001000027000	Temazepam gelthix 15mg Capsule (Pharmacia Ltd)
+121595001000027000	Dormonoct 1mg Tablet (Hoechst Marion Roussel)
+36057911000001100	Hydroxyzine 10mg/5ml oral solution
+321199006	Diazepam 2mg/5ml oral solution
+165695001000027000	Diphenydramine paediatric oral solution
+200005001000027000	Diazepam 20mg rectal tubes
+3166211000001100	Somnite 2.5mg/5ml oral suspension (Norgine Pharmaceuticals Ltd)
+88045001000027100	Alunex 4mg Tablet (M A Steinhard Ltd)
+33295001000027100	Valium 2mg Tablet (Roche Products Ltd)
+142665001000027000	Temazepam 20mg capsules
+145315001000027000	Triazolam 250microgram Tablet
+33385001000027100	Vallergan 10mg Tablet (Castlemead Healthcare Ltd)
+129255001000027000	Nitrazepam 5mg Capsule
+591711000001108	Zopiclone 7.5mg tablets (Actavis UK Ltd)
+107195001000027000	Paxane 30mg Capsule (M A Steinhard Ltd)
+175865001000027000	Paracetamol with promethazine hydrochloride tablet
+218811000001104	Librium 10mg capsules (Meda Pharmaceuticals Ltd)
+98295001000027100	Chlordiazepozide 100mg injection
+130745001000027000	Oxanid 10mg Tablet (M A Steinhard Ltd)
+35896911000001100	Alimemazine 30mg/5ml oral solution
+25245001000027100	Piriton 12mg Spandets (Stafford-Miller Ltd)
+111425001000027000	Fenostil retard 2.5mg Tablet (Novartis Consumer Health UK Ltd)
+0	MIDAZOLAM (2ML)
+36125411000001100	Midazolam 50mg/10ml solution for injection ampoules
+139511000001104	Calimal 4mg tablets (Sussex Pharmaceutical Ltd)
+3379111000001100	Nightcalm 25mg tablets (Galpharm International Ltd)
+111325001000027000	Dimethindene maleate 2.5mg modified-release tablets
+852811000001101	Temazepam 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+193255001000027000	Nytol 25mg Tablet (Stafford-Miller Ltd)
+0	TRIAZOLAM
+469311000001102	Chlorphenamine 4mg tablets (Sussex Pharmaceutical Ltd)
+87065001000027100	Surem 5mg Capsule (Galen Ltd)
+307711000001103	Tropium 5mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+4030311000001100	Ketotifen 1mg/5ml oral solution sugar free
+166225001000027000	Pholcodine with promethazine hydrochloride linctus
+11105001000027100	Fabahistin 50mg Tablet (Bayer Plc)
+11805001000027100	Diazepam 2mg Tablet (Crosspharma Ltd)
+33355001000027100	Valium 5mg Suppository (Roche Products Ltd)
+87435001000027100	Evacalm 5mg Tablet (Unimed Pharmaceuticals Ltd)
+45635001000027100	Chlordiazepoxide 5mg Tablet (DDSA Pharmaceuticals Ltd)
+300111000001100	Zopiclone 3.75mg tablets (Actavis UK Ltd)
+37035001000027100	Euhypnos forte 20mg Capsule (Pharmacia Ltd)
+223875001000027000	Promethazine hydrochloride 1.5mg with pholcodine 1.5mg/5ml oral solution
+120455001000027000	Zolpidem 5mg Tablet (Winthrop Pharmaceuticals Ltd)
+574211000001109	Chlorphenamine 4mg tablets (A A H Pharmaceuticals Ltd)
+463011000001103	Diazepam 2mg tablets (Ranbaxy (UK) Ltd)
+328811000001103	Zopiclone 3.75mg tablets (IVAX Pharmaceuticals UK Ltd)
+204011000001103	Tropium 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+33275001000027100	Valium 2mg/5ml Oral solution (Roche Products Ltd)
+916611000001100	Zopiclone 3.75mg tablets (Mylan)
+3105001000027100	Benylin children's cough Oral solution (Warner Lambert UK Ltd)
+21295001000027100	Temazepam 20mg Tablet (Wyeth Pharmaceuticals)
+1965001000027100	Atarax 10mg/5ml Oral solution (Pfizer Ltd)
+570811000001100	Chlorphenamine 10mg/1ml solution for injection ampoules (Kyowa Kirin Ltd)
+3200311000001100	Zolpidem 10mg tablets (A A H Pharmaceuticals Ltd)
+730411000001100	Temazepam 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+3380611000001100	Dreemon 25mg tablets (E M Pharma)
+4657811000001100	Dalmane 30mg capsules (Meda Pharmaceuticals Ltd)
+3206111000001100	Stilnoct 5mg tablets (Sanofi)
+102445001000027000	Aller-eze original 1mg Tablet (Novartis Consumer Health UK Ltd)
+98275001000027100	Chlordiazepoxide 10mg tablets
+610211000001100	Chlorphenamine 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+3824311000001100	Valclair 10mg suppositories (Durbin Plc)
+205495001000027000	Unichem allergy relief 4mg Tablet (Unichem)
+3206911000001100	Zolpidem 5mg tablets (A A H Pharmaceuticals Ltd)
+670311000001102	Chlorphenamine 2mg/5ml oral solution sugar free (Sandoz Ltd)
+320803005	Alimemazine 10mg tablets
+8000511000001100	Ziz 10mg tablets (Chatfield Laboratories)
+146105001000027000	Brompheniramine maleate 12mg modified-release tablets
+109835001000027000	Diazepam 5mg
+17235001000027100	Librium 25mg Tablet (ICN Pharmaceuticals France S.A.)
+126611000001106	Chlorphenamine 4mg tablets (Actavis UK Ltd)
+61811000001103	Diazepam 5mg tablets (Actavis UK Ltd)
+185205001000027000	Temazepam 20mg gel-fill capsules
+126795001000027000	Midazolam 5mg/ml Injection
+687511000001101	Diazepam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+50811000001103	Pollenase Antihistamine 4mg tablets (E M Pharma)
+8395711000001100	Clonazepam 250micrograms/5ml oral solution
+909511000001106	Temazepam 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+182011000001108	Diazepam 2mg/5ml oral solution (Sandoz Ltd)
+10679811000001100	Midazolam 10mg/2ml solution for injection ampoules (Advanz Pharma)
+856611000001104	Chlorphenamine 4mg tablets (Teva UK Ltd)
+878811000001101	Zopiclone 7.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+87505001000027100	Solis 5mg Capsule (Galen Ltd)
+842411000001101	Lorazepam 1mg tablets (Teva UK Ltd)
+810511000001108	Zimovane 7.5mg tablets (Sanofi)
+175955001000027000	Promethazine hydrochloride 1.5mg with paracetamol 120mg/5ml oral solution
+321123002	Lormetazepam 1mg tablets
+121635001000027000	Lormetazepam 1mg Capsule
+21305001000027100	Temazepam 10mg Tablet (Wyeth Pharmaceuticals)
+20411000001101	Zopiclone 7.5mg tablets (Mylan)
+889411000001101	Diazepam 2mg tablets (A A H Pharmaceuticals Ltd)
+320718000	Cyproheptadine 4mg tablets
+320667005	Ketotifen 1mg tablets
+5083111000001100	Diazepam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+5334411000001100	Zolpidem 10mg tablets (Mylan)
+210105001000027000	Promethazine hydrochloride 50mg with pethidine 100mg/2ml injection
+104711000001104	Temazepam 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+707111000001103	Diazepam 5mg/2.5ml rectal solution tube (Sandoz Ltd)
+798311000001103	Diazepam 5mg/5ml oral solution (Sandoz Ltd)
+101415001000027000	Chlorphenamine 12mg modified-release tablets
+898611000001106	Lormetazepam 500microgram tablets (A A H Pharmaceuticals Ltd)
+878511000001104	Diazepam 10mg tablets (Mylan)
+245211000001103	Temazepam 10mg tablets (A A H Pharmaceuticals Ltd)
+223511000001101	Diazepam 2mg tablets (Teva UK Ltd)
+849711000001101	Diazepam 2mg tablets (Mylan)
+253911000001109	Diazepam 10mg tablets (Ranbaxy (UK) Ltd)
+327611000001101	Lormetazepam 500microgram tablets (Thornton & Ross Ltd)
+11415811000001100	Zopiclone 7.5mg tablets (PLIVA Pharma Ltd)
+152611000001106	Temazepam 10mg tablets (Teva UK Ltd)
+116211000001104	Nitrazepam 5mg tablets (A A H Pharmaceuticals Ltd)
+42425001000027100	Dimotane 4mg Tablet (Wyeth Pharmaceuticals)
+647011000001103	Diazepam 5mg tablets (Teva UK Ltd)
+20019211000001100	Clonazepam 2mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+938611000001107	Temazepam 10mg tablets (Mylan)
+529711000001100	Lormetazepam 1mg tablets (Mylan)
+790811000001109	Diazepam 2mg tablets (Actavis UK Ltd)
+15185001000027100	Lormetazepam 1mg Tablet (Wyeth Pharmaceuticals)
+418911000001108	Nitrazepam 5mg tablets (Wockhardt UK Ltd)
+113145001000027000	Diazepam 2mg Tablet (Regent Laboratories Ltd)
+377911000001108	Temazepam 20mg tablets (Mylan)
+733311000001101	Zopiclone 3.75mg tablets (A A H Pharmaceuticals Ltd)
+75811000001106	Diazepam 10mg/2.5ml rectal solution tube (Sandoz Ltd)
+606511000001102	Diazepam 5mg tablets (Mylan)
+224211000001101	Diazepam 5mg tablets (A A H Pharmaceuticals Ltd)
+195911000001100	Lormetazepam 500microgram tablets (Mylan)
+52211000001103	Diazepam 2mg tablets (IVAX Pharmaceuticals UK Ltd)
+11815001000027100	Diazepam 5mg Tablet (Crosspharma Ltd)
+199211000001107	Nitrazepam 5mg tablets (Teva UK Ltd)
+171511000001102	Lormetazepam 1mg tablets (Thornton & Ross Ltd)
+3384011000001100	Midazolam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+28345001000027100	Nitrazepam 5mg Tablet (DDSA Pharmaceuticals Ltd)
+105911000001103	Zopiclone 3.75mg tablets (Teva UK Ltd)
+156511000001108	Nitrazepam 5mg tablets (Mylan)
+486211000001103	Diazepam 10mg tablets (Actavis UK Ltd)
+286011000001109	Zopiclone 7.5mg tablets (Teva UK Ltd)
+254811000001101	Zopiclone 7.5mg tablets (Kent Pharmaceuticals Ltd)
+11495001000027100	Diazepam 2mg Tablet (Berk Pharmaceuticals Ltd)
+11505001000027100	Diazepam 5mg Tablet (Berk Pharmaceuticals Ltd)
+467411000001100	Zopiclone 3.75mg tablets (Kent Pharmaceuticals Ltd)
+43525001000027100	Chlordiazepoxide 5mg Capsule (DDSA Pharmaceuticals Ltd)
+320776005	Promethazine hydrochloride 25mg tablets
+8945001000027100	Nitrazepam 5mg Tablet (Berk Pharmaceuticals Ltd)
+321127001	Nitrazepam 5mg tablets
+85355001000027100	Mogadon 5mg Capsule (Roche Products Ltd)
+4508111000001100	Midazolam 50mg/50ml solution for infusion vials
+60711000001103	Phenergan 25mg/1ml solution for injection ampoules (Sanofi)
+320713009	Clemastine 1mg tablets
+351811000001108	Phenergan 25mg tablets (Sanofi)
+35931511000001100	Promethazine 25mg/1ml solution for injection ampoules
+478511000001108	Lorazepam 2.5mg tablets (Teva UK Ltd)
+299111000001103	Chlordiazepoxide 5mg capsules (A A H Pharmaceuticals Ltd)
+123945001000027000	Mequitazine 5mg Tablet
+9480811000001100	Lorazepam 1mg tablets (Mylan)
+2005001000027100	Atensine 10mg Tablet (Rorer Pharmaceuticals Ltd)
+4735511000001100	Pollenase Allergy 2mg/5ml syrup (E M Pharma)
+103835001000027000	Temazepam 20mg Tablet (Pharmacia Ltd)
+498511000001100	Oxazepam 10mg tablets (A A H Pharmaceuticals Ltd)
+10855001000027100	Euhypnos 10mg/5ml Oral solution (Pharmacia Ltd)
+129285001000027000	Nitrazepam 10mg Tablet
+321122007	Lormetazepam 500microgram tablets
+13574711000001100	ALLERcalm Allergy Relief 4mg tablets (Actavis UK Ltd)
+5127511000001100	Midazolam 90mg/18ml solution for injection ampoules
+129345001000027000	Remnos 10mg Tablet (DDSA Pharmaceuticals Ltd)
+3199611000001100	Stilnoct 10mg tablets (Sanofi)
+8624511000001100	Lorazepam 1mg/5ml oral suspension
+8624311000001100	Lorazepam 1mg/5ml oral solution
+9795311000001100	Chlorphenamine 4mg tablets (Almus Pharmaceuticals Ltd)
+34865001000027100	Zaditen 1mg Tablet (Novartis Pharmaceuticals UK Ltd)
+209735001000027000	Nytol 25mg Tablet (GlaxoSmithKline Consumer Healthcare)
+7977911000001100	Midazolam 100mg/50ml solution for infusion vials
+156945001000027000	Diazepam 5mg Rectal tubes (Hillcross Pharmaceuticals Ltd)
+21155001000027100	Temazepam 10mg Capsule (Berk Pharmaceuticals Ltd)
+21165001000027100	Temazepam 20mg Capsule (Berk Pharmaceuticals Ltd)
+109825001000027000	Diazepam 2mg capsules
+917211000001100	Lorazepam 1mg tablets (Genus Pharmaceuticals Ltd)
+321117007	Flurazepam 15mg capsules
+4657511000001100	Dalmane 15mg capsules (Meda Pharmaceuticals Ltd)
+9106811000001100	Tensium 10mg tablets (DDSA Pharmaceuticals Ltd)
+45625001000027100	Chlordiazepoxide 25mg Tablet (DDSA Pharmaceuticals Ltd)
+445611000001100	Vallergan 7.5mg/5ml syrup (Sanofi)
+238035001000027000	Sleep aid 50mg Tablet (A A H Pharmaceuticals Ltd)
+439511000001100	Atarax 25mg tablets (Alliance Pharmaceuticals Ltd)
+658211000001105	Vallergan 10mg tablets (Sanofi)
+509211000001102	Atarax 10mg tablets (Alliance Pharmaceuticals Ltd)
+232611000001109	Vallergan Forte 30mg/5ml syrup (Sanofi)
+123165001000027000	Mebhydrolin 50mg Tablet
+74165001000027100	Daneral sa 75mg Tablet (Hoechst Marion Roussel)
+380111000001104	Nitrazepam 5mg tablets (Actavis UK Ltd)
+10387311000001100	Lorazepam 1mg tablets (Arrow Generics Ltd)
+130705001000027000	Oxazepam 30mg Capsule
+321315007	Oxazepam 15mg tablets
+647511000001106	Oxazepam 15mg tablets (A A H Pharmaceuticals Ltd)
+62805001000027100	Temazepam 10mg Tablet (IVAX Pharmaceuticals UK Ltd)
+214711000001104	Oxazepam 10mg tablets (Actavis UK Ltd)
+4231211000001100	Zolpidem 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+76635001000027100	Oxazepam 10mg Tablet (IVAX Pharmaceuticals UK Ltd)
+616111000001109	Oxazepam 10mg tablets (Genus Pharmaceuticals Ltd)
+44865001000027100	Temazepam 10mg Tablet (Pharmacia Ltd)
+57695001000027100	Chlordiazepoxide 10mg Capsule (Approved Prescription Services Ltd)
+56315001000027100	Chlordiazepoxide 10mg Capsule (IVAX Pharmaceuticals UK Ltd)
+620311000001103	Chlordiazepoxide 5mg capsules (Actavis UK Ltd)
+805211000001104	Chlordiazepoxide 10mg capsules (Actavis UK Ltd)
+436211000001107	Loprazolam 1mg tablets (Zentiva)
+76625001000027100	Oxazepam 15mg Tablet (IVAX Pharmaceuticals UK Ltd)
+191811000001107	Oxazepam 15mg tablets (Actavis UK Ltd)
+57685001000027100	Chlordiazepoxide 5mg Capsule (Approved Prescription Services Ltd)
+366511000001107	Diazepam 10mg tablets (Teva UK Ltd)
+80505001000027100	Benadryl 25mg Capsule (Parke-davis Research Laboratories)
+43535001000027100	Chlordiazepoxide 10mg Capsule (DDSA Pharmaceuticals Ltd)
+734911000001103	Diazepam 10mg tablets (A A H Pharmaceuticals Ltd)
+21245001000027100	Temazepam 20mg Capsule (Hillcross Pharmaceuticals Ltd)
+43505001000027100	Diazepam 10mg Suppository (Sinclair IS Pharma Plc)
+3207711000001100	Zolpidem 5mg tablets (Teva UK Ltd)
+4231011000001100	Zolpidem 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+415711000001104	Temazepam 20mg tablets (A A H Pharmaceuticals Ltd)
+21235001000027100	Temazepam 10mg Capsule (Hillcross Pharmaceuticals Ltd)
+323074003	Diazepam 10mg/2.5ml rectal solution tube
+35725001000027100	Triazolam 0.25mg Tablet (Berk Pharmaceuticals Ltd)
+178011000001104	Zimovane LS 3.75mg tablets (Sanofi)
+43545001000027100	Chlordiazepoxide 10mg Tablet (DDSA Pharmaceuticals Ltd)
+154775001000027000	Chlorphenamine 4mg Tablet (Genesis Medical Ltd)
+120465001000027000	Zolpidem 10mg Tablet (Winthrop Pharmaceuticals Ltd)
+109111000001104	Diazepam 5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+845311000001102	Lorazepam 2.5mg tablets (Genus Pharmaceuticals Ltd)
+122815001000027000	Brompheniramine maleate 4mg tablets
+8973511000001100	Histergan 10mg/5ml syrup (Norma Chemicals Ltd)
+33305001000027100	Valium 5mg Tablet (Roche Products Ltd)
+12018311000001100	Chlorphenamine 50mg/5ml oral solution
+8425311000001100	Chlordiazepoxide 5mg tablets (A A H Pharmaceuticals Ltd)
+466711000001108	Zopiclone 7.5mg tablets (A A H Pharmaceuticals Ltd)
+246885001000027000	Hydroxyzine Oral suspension
+248115001000027000	Midazolam Oral solution
+97805001000027100	Chlorphenamine 4mg Tablet (Family Health)
+3201011000001100	Zolpidem 10mg tablets (Teva UK Ltd)
+82011000001104	Stesolid 5mg rectal tube (Accord Healthcare Ltd)
+3777611000001100	Zaditen 1mg tablets (CD Pharma Srl)
+153811000001102	Tropium 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+305635001000027000	Midazolam maleate buccal solution
+7662511000001100	Clonazepam 2.5mg/ml drops sugar free
+4027611000001100	Zaditen 1mg/5ml elixir (CD Pharma Srl)
+174985001000027000	Clonazepam 500microgram/5ml Oral solution (Rosemont Pharmaceuticals Ltd)
+118315001000027000	Diazepam 2mg Tablet (M & A Pharmachem Ltd)
+924411000001103	Diazepam 5mg tablets (Ranbaxy (UK) Ltd)
+610411000001101	Chlordiazepoxide 10mg capsules (A A H Pharmaceuticals Ltd)
+213011000001103	Diazepam 5mg tablets (Sandoz Ltd)
+652111000001102	Temazepam 10mg tablets (Actavis UK Ltd)
+209411000001106	Temazepam 10mg tablets (Genus Pharmaceuticals Ltd)
+9790311000001100	Diazepam 2mg tablets (Almus Pharmaceuticals Ltd)
+7378411000001100	Zopiclone 7.5mg tablets (Sandoz Ltd)
+98235001000027100	Chlordiazepoxide 5mg tablets
+17021011000001100	Midazolam 5mg/1ml oromucosal solution pre-filled oral syringes
+321314006	Oxazepam 10mg tablets
+10516711000001100	Midazolam 2.5mg/ml oral solution
+12533011000001100	Lorazepam 1mg tablets (Sandoz Ltd)
+321196004	Diazepam 2mg tablets
+473511000001104	Temazepam 20mg tablets (Genus Pharmaceuticals Ltd)
+17020811000001100	Midazolam 10mg/2ml oromucosal solution pre-filled oral syringes
+17021111000001100	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes
+19609611000001100	Zopiclone 3.75mg/5ml oral solution
+17020911000001100	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes
+8659611000001100	Lorazepam 500micrograms/5ml oral solution
+248165001000027000	Triazolam (roi) 125microgram Tablet
+230211000001106	Diazepam 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+520211000001100	Chlorphenamine 4mg tablets (Vantage)
+616211000001103	Temazepam 20mg tablets (Teva UK Ltd)
+500711000001102	Oxazepam 15mg tablets (Genus Pharmaceuticals Ltd)
+120111000001101	Nitrazepam 5mg tablets (Ranbaxy (UK) Ltd)
+185311000001100	Temazepam 20mg tablets (Actavis UK Ltd)
+833711000001100	Diazepam 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+321197008	Diazepam 5mg tablets
+16324511000001100	Promethazine 50mg/2ml solution for injection ampoules
+8397111000001100	Clonazepam 500micrograms/5ml oral solution
+926111000001101	Ucerax 10mg/5ml syrup (UCB Pharma Ltd)
+8660311000001100	Lormetazepam 1mg/5ml oral suspension
+20128211000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+17017211000001100	Midazolam 10mg/2ml oromucosal solution pre-filled syringes (Special Order)
+17016611000001100	Midazolam 5mg/1ml oromucosal solution pre-filled syringes (Special Order)
+17016311000001100	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled syringes (Special Order)
+19722811000001100	Midazolam 10mg/1ml oromucosal solution pre-filled oral syringes
+19744311000001100	Midazolam 10mg/ml oromucosal solution
+502705001000027000	Midazolam 5mg/0.5ml oromucosal solution pre-filled syringes
+635511000001101	Temazepam 10mg tablets (Sandoz Ltd)
+10517111000001100	Midazolam 10mg/ml oral solution
+19619311000001100	Phenergan 25mg tablets (DE Pharmaceuticals)
+20065611000001100	Clonazepam 2mg/5ml oral solution sugar free
+18042811000001100	Sleepeaze 25mg tablets (The Boots Company Plc)
+224011000001106	Zileze 3.75 tablets (Opus Pharmaceuticals Ltd)
+17016911000001100	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled syringes (Special Order)
+8792711000001100	Diazepam 10mg/5ml oral solution
+208895001000027000	Nytol one a night 50mg Tablet (Stafford-Miller Ltd)
+249465001000027000	Dimenhydrinate oral liquid
+321120004	Loprazolam 1mg tablets
+434211000001102	Diazepam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+19677811000001100	Diazepam 2mg/5ml oral suspension
+20032211000001100	Zimovane 7.5mg tablets (Lexon (UK) Ltd)
+16101511000001100	Midazolam 12.5mg/5ml oral suspension
+321250002	Chlordiazepoxide 10mg tablets
+18600111000001100	Midazolam 7.5mg tablets
+25225001000027100	Piriton 4mg Tablet (Stafford-Miller Ltd)
+17861111000001100	Clonazepam 500microgram tablets (Phoenix Healthcare Distribution Ltd)
+19571011000001100	Diazepam 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+321191009	Zaleplon 10mg capsules
+8792911000001100	Diazepam 2.5mg/5ml oral solution
+15077211000001100	Clonazepam 2mg tablets (Sigma Pharmaceuticals Plc)
+502745001000027000	Midazolam 7.5mg/0.75ml oromucosal solution pre-filled syringes
+320726008	Diphenhydramine 25mg tablets
+321184006	Zolpidem 10mg tablets
+118385001000027000	Diazepam 10mg Tablet (M & A Pharmachem Ltd)
+35715001000027100	Triazolam 0.125mg Tablet (Berk Pharmaceuticals Ltd)
+17337911000001100	Chlorphenamine 4mg tablets (Strides Pharma UK Ltd)
+320775009	Promethazine hydrochloride 10mg tablets
+13739311000001100	Temazepam 10mg/5ml oral solution sugar free (Advanz Pharma)
+19858911000001100	Phenergan 25mg tablets (Lexon (UK) Ltd)
+19722811000001100	Midazolam 10mg/1ml oromucosal solution pre-filled oral syringes
+146411000001106	Periactin 4mg tablets (Teva UK Ltd)
+13937911000001100	Diazepam 2mg tablets (Wockhardt UK Ltd)
+8659911000001100	Lorazepam 5mg/5ml oral solution
+7986011000001100	Lloydspharmacy Allergy Relief 2mg/5ml syrup (Lloyds Pharmacy Ltd)
+22066511000001100	Temazepam 10mg tablets (F.Maltby & Sons Ltd)
+21790611000001100	Temazepam 10mg tablets (Ethigen Ltd)
+22154711000001100	Midazolam 5mg/2ml solution for injection ampoules
+12533211000001100	Lorazepam 2.5mg tablets (Sandoz Ltd)
+37083111000001100	Chlorphenamine 2mg/5ml oral solution sugar free
+10681711000001100	Midazolam 2mg/2ml solution for injection ampoules (Advanz Pharma)
+8395811000001100	Clonazepam 250micrograms/5ml oral suspension
+21925611000001100	Diazepam 5mg tablets (Waymade Healthcare Plc)
+17197011000001100	Diazepam 5mg tablets (Sovereign Medical Ltd)
+223295001000027000	Stesolid 10mg Rectal tubes (Dumex Ltd)
+9797111000001100	Zopiclone 3.75mg tablets (Almus Pharmaceuticals Ltd)
+323069006	Diazepam 2.5mg/1.25ml rectal solution tube
+11955611000001100	Clonazepam 312.5micrograms/5ml oral suspension
+13653211000001100	Clonazepam 500microgram tablets (A A H Pharmaceuticals Ltd)
+13009111000001100	Midazolam 10mg/5ml oral solution
+126785001000027000	Midazolam 2mg/ml Injection
+22452511000001100	Chlorphenamine 4mg tablets (Waymade Healthcare Plc)
+22328211000001100	Diazepam 10mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+22326511000001100	Diazepam 5mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+321190005	Zaleplon 5mg capsules
+17966511000001100	Clonazepam 500microgram tablets (Almus Pharmaceuticals Ltd)
+13577211000001100	Diazepam 5mg tablets (DE Pharmaceuticals)
+15075611000001100	Chlorphenamine 4mg tablets (Sigma Pharmaceuticals Plc)
+8798911000001100	Zopiclone 7.5mg/5ml oral suspension
+3383311000001100	Midazolam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+126805001000027000	Midazolam 1mg/ml Injection
+321249002	Chlordiazepoxide 5mg tablets
+850011000001108	Chlorphenamine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+267711000001107	Temazepam 20mg tablets (Sandoz Ltd)
+10400411000001100	Diazepam 5mg tablets (Arrow Generics Ltd)
+17999911000001100	Clonazepam 500microgram oral lyophilisates sugar free
+13010411000001100	Midazolam 5mg/5ml oral suspension
+15246411000001100	Numark Antihistamine 4mg tablets (Numark Ltd)
+20534211000001100	Boots Allergy Relief Antihistamine 4mg tablets (The Boots Company Plc)
+21290611000001100	Midazolam 2.5mg/0.25ml oromucosal solution pre-filled oral syringes
+295711000001104	Lorazepam 1mg tablets (A A H Pharmaceuticals Ltd)
+24510911000001100	Zopiclone 7.5mg/5ml oral solution
+15627711000001100	Clonazepam 500microgram tablets (Teva UK Ltd)
+12141311000001100	Nitrazepam 2mg/5ml oral suspension
+13010311000001100	Midazolam 5mg/5ml oral solution
+10517311000001100	Midazolam 10mg/ml oral solution (Special Order)
+8660011000001100	Lorazepam 5mg/5ml oral suspension
+9790811000001100	Diazepam 10mg tablets (Almus Pharmaceuticals Ltd)
+8425711000001100	Chlordiazepoxide 10mg tablets (A A H Pharmaceuticals Ltd)
+13009211000001100	Midazolam 10mg/5ml oral suspension
+17196711000001100	Diazepam 2mg tablets (Sovereign Medical Ltd)
+13149211000001100	Promethazine 25mg/5ml oral suspension
+72525001000027100	Temazepam 20mg Tablet (Lagap)
+3380211000001100	Histergan 25mg tablets (Norma Chemicals Ltd)
+29311000001104	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare)
+15811000001101	Dimotane 2mg/5ml elixir (Mercury Pharma Group Ltd)
+13149011000001100	Promethazine 25mg/5ml oral solution
+21925411000001100	Diazepam 2mg tablets (Waymade Healthcare Plc)
+15203611000001100	Zopiclone 7.5mg tablets (Sigma Pharmaceuticals Plc)
+160615001000027000	Midazolam 5mg/ml Injection (Hameln Pharmaceuticals Ltd)
+21565001000027100	Noctamid 0.5mg Tablet (Schering Health Care Ltd)
+185245001000027000	Temazepam 30mg gel-fill capsules
+118095001000027000	Midazolam 5mg/ml Injection (Phoenix Healthcare Distribution Ltd)
+18107111000001100	Diazepam 2mg tablets (Phoenix Healthcare Distribution Ltd)
+22710211000001100	Midazolam 5mg/5ml solution for injection pre-filled syringes
+28611000001100	Diazepam 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+17855811000001100	Chlordiazepoxide 10mg tablets (Phoenix Healthcare Distribution Ltd)
+8397411000001100	Clonazepam 5mg/5ml oral suspension
+23466511000001100	Clonazepam 2.5mg/ml drops
+20324811000001100	Lorazepam 1mg tablets (Genesis Pharmaceuticals Ltd)
+12144111000001100	Nitrazepam 10mg/5ml oral suspension
+8659511000001100	Lorazepam 2mg/5ml oral suspension
+28772911000001100	Nitrazepam 2.5mg/5ml oral suspension sugar free
+177705001000027000	Chlordiazepoxide 25mg tablets
+20920211000001100	Zolpidem 10mg tablets (Zentiva)
+8382911000001100	Clonazepam 10mg/5ml oral solution
+17877911000001100	Zopiclone 7.5mg tablets (Phoenix Healthcare Distribution Ltd)
+11656311000001100	Alimemazine 5mg/5ml oral solution
+321175006	Zopiclone 7.5mg tablets
+144565001000027000	Midazolam 1mg/ml Injection (Antigen Pharmaceuticals)
+36040511000001100	Lorazepam 4mg/1ml solution for injection ampoules
+16553011000001100	Loprazolam 1mg tablets (Stephar (U.K.) Ltd)
+32655111000001100	Midazolam 10mg/2ml oromucosal solution pre-filled oral syringes sugar free
+8560211000001100	Hydroxyzine 5mg/5ml oral suspension
+32655311000001100	Midazolam 5mg/1ml oromucosal solution pre-filled oral syringes sugar free
+32655411000001100	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes sugar free
+32655211000001100	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes sugar free
+32635511000001100	Diazepam 5mg/5ml oral suspension (Sandoz Ltd)
+32635111000001100	Diazepam 2mg/5ml oral suspension (Sandoz Ltd)
+8560111000001100	Hydroxyzine 5mg/5ml oral solution
+22192111000001100	Brompheniramine 12mg modified-release capsules
+426016003	Diazepam 25mg/5ml oral solution
+30021611000001100	Diazepam 2mg tablets (Mawdsley-Brooks & Company Ltd)
+323073009	Diazepam 5mg/2.5ml rectal solution tube
+13403911000001100	Lorazepam 1mg tablets (Almus Pharmaceuticals Ltd)
+19741411000001100	Midazolam 10mg/ml oromucosal solution (Special Order)
+13938111000001100	Diazepam 5mg tablets (Wockhardt UK Ltd)
+12636011000001100	Hydroxyzine 25mg/5ml oral solution
+32903211000001100	Diazepam 5mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+1955001000027100	Atarax 25mg Tablet (Pfizer Ltd)
+28972511000001100	Diazepam 2mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+5104211000001100	Midazolam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+372011000001107	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+22709211000001100	Midazolam 10mg/10ml solution for injection pre-filled syringes
+36125311000001100	Midazolam 2mg/ml oral solution sugar free
+17870411000001100	Clonazepam 500microgram orodispersible tablets
+248175001000027000	Triazolam (roi) 250microgram Tablet
+32903011000001100	Diazepam 2mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+28921811000001100	Diazepam 5mg tablets (Crescent Pharma Ltd)
+12635911000001100	Hydroxyzine 20mg/5ml oral solution
+34466711000001100	Midazolam 10mg/1ml oromucosal solution pre-filled oral syringes sugar free
+776711000001107	Temazepam 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+431711000001106	Chlorphenamine 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+8792811000001100	Diazepam 1mg/5ml oral solution
+23430411000001100	Midazolam 2mg/2ml solution for injection ampoules (J M McGill Ltd)
+34697811000001100	Lorazepam 1mg/ml oral solution sugar free
+15203311000001100	Zopiclone 3.75mg tablets (Sigma Pharmaceuticals Plc)
+296211000001100	Chlorphenamine 4mg tablets (Kent Pharmaceuticals Ltd)
+21029111000001100	Chlorphenamine 4mg tablets (Bristol Laboratories Ltd)
+19830311000001100	Midazolam 10mg/2ml solution for injection ampoules (Special Order)
+20480211000001100	Nitrazepam 5mg tablets (Pharmvit Ltd)
+21040311000001100	Zopiclone 3.75mg tablets (Bristol Laboratories Ltd)
+14764911000001100	Zaditen 1mg tablets (Sigma Pharmaceuticals Plc)
+16329911000001100	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd)
+10286311000001100	Diazepam 5mg tablets (Relonchem Ltd)
+13577011000001100	Diazepam 2mg tablets (DE Pharmaceuticals)
+34511211000001100	Sleep Aid 25mg tablets (Tor Generics Ltd)
+321177003	Zopiclone 3.75mg tablets
+13009611000001100	Midazolam 2.5mg/5ml oral suspension
+13009511000001100	Midazolam 2.5mg/5ml oral solution
+77085001000027100	Stesolid 5mg/ml Injection (Actavis UK Ltd)
+305505001000027000	Midazolam 10mg/ml buccal solution
+22656111000001100	Zopiclone 7.5mg tablets (DE Pharmaceuticals)
+22709811000001100	Midazolam 2mg/2ml solution for injection pre-filled syringes
+21205001000027100	Temazepam 20mg Capsule (C P Pharmaceuticals Ltd)
+28922011000001100	Diazepam 2mg tablets (Crescent Pharma Ltd)
+9799011000001100	Nitrazepam 5mg tablets (Almus Pharmaceuticals Ltd)
+11430011000001100	Chlorphenamine 2mg/5ml oral solution sugar free (Teva UK Ltd)
+32654611000001100	Diazepam 5mg/5ml oral suspension
+521111000001100	Diazepam 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36124911000001100	Midazolam 10mg/2ml solution for injection ampoules
+17303311000001100	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd)
+36125011000001100	Midazolam 10mg/5ml solution for injection ampoules
+248415001000027000	Nightaid 25mg Tablet (Ambe Medical Group)
+8358211000001100	Chlordiazepoxide 5mg/5ml oral suspension
+20359311000001100	Clonazepam 500micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+9790611000001100	Diazepam 5mg tablets (Almus Pharmaceuticals Ltd)
+24715001000027100	Phenergan 25mg/ml Injection (Aventis Pharma)
+8395911000001100	Clonazepam 2mg/5ml oral solution
+11944711000001100	Clonazepam 125micrograms/5ml oral suspension
+3925811000001100	Ativan 4mg/1ml solution for injection ampoules (Pfizer Ltd)
+12635811000001100	Hydroxyzine 2.5mg/5ml oral solution
+22082011000001100	Clonazepam 2mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+3210511000001100	Zolpidem 5mg tablets (Sandoz Ltd)
+3660911000001100	Zolpidem 5mg tablets (Actavis UK Ltd)
+251335001000027000	Promethazine hydrochloride oral solution
+23675911000001100	Lorazepam 2mg/1ml solution for injection ampoules
+13883811000001100	Diazepam 10mg/5ml oral suspension (Special Order)
+21795611000001100	Temazepam 20mg tablets (Ethigen Ltd)
+20018711000001100	Clonazepam 500micrograms/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+8396011000001100	Clonazepam 2mg/5ml oral suspension
+11944611000001100	Clonazepam 125micrograms/5ml oral solution
+261545001000027000	Midazolam buccal solution
+30762111000001100	Diazepam 2mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+249975001000027000	Nitrazepam Oral solution
+10681911000001100	Midazolam 5mg/5ml solution for injection ampoules (Advanz Pharma)
+16589411000001100	Alimemazine 7.5mg/5ml oral solution (Zentiva)
+34345211000001100	Hydroxyzine 10mg/5ml oral solution (Special Order)
+35577711000001100	Hydroxyzine 10mg/5ml oral suspension
+18094711000001100	Chlorphenamine 2mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+19608811000001100	Zopiclone 3.75mg/5ml oral solution (Drug Tariff Special Order)
+13892111000001100	Diazepam 2.5mg/5ml oral suspension (Special Order)
+32398011000001100	Clonazepam 500microgram tablets (Kent Pharmaceuticals Ltd)
+31745001000027100	Temazepam 10mg Capsule (Wyeth Pharmaceuticals)
+321118002	Flurazepam 30mg capsules
+167735001000027000	Temazepam planpak Capsule (Manufacturer unknown)
+142675001000027000	Temazepam 15mg capsules
+145305001000027000	Triazolam 125microgram Tablet
+15857711000001100	Zolpidem 5mg oral powder sachets
+133925001000027000	Pheniramine maleate 75mg tablet
+30946911000001100	Zopiclone 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+60865001000027100	Diazepam 2.5mg/5ml Liquid (Rosemont Pharmaceuticals Ltd)
+8599511000001100	Lorazepam 500micrograms/5ml oral suspension (Drug Tariff Special Order)
+9105111000001100	Sleepeaze 50mg tablets (The Boots Company Plc)
+185195001000027000	Temazepam 15mg gel-fill capsules
+146195001000027000	Brompheniramine maleate Co paediatric oral solution
+11956511000001100	Clonazepam 50micrograms/5ml oral solution
+146705001000027000	Aller-eze plus Tablet (Novartis Consumer Health UK Ltd)
+22735001000027100	Optimine 1mg Tablet (Schering-Plough Ltd)
+19605001000027100	Mogadon 5mg Tablet (ICN Pharmaceuticals France S.A.)
+35915311000001100	Temazepam 10mg/5ml oral solution sugar free
+321129003	Nitrazepam 2.5mg/5ml oral suspension
+4217711000001100	Clonazepam 1mg/1ml solution for injection ampoules and diluent
+321238008	Diazepam 10mg suppositories
+35911911000001100	Brompheniramine 2mg/5ml oral solution
+109855001000027000	Diazepam 5mg suppository
+142611000001108	Stesolid 10mg rectal tube (Accord Healthcare Ltd)
+35905911000001100	Azatadine 500micrograms/5ml oral solution
+145775001000027000	Triprolidine hcl 10mg modified-release tablet
+320714003	Clemastine 500micrograms/5ml oral solution sugar free
+3650211000001100	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare)
+98285001000027100	Chlordiazepoxide 25mg tablets
+31785001000027100	Tinset Tablet (Janssen-Cilag Ltd)
+130665001000027000	Oxatomide Tablet
+93015001000027100	Oxazepam 30mg Tablet
+321285002	Hydroxyzine 10mg tablets
+4535411000001100	Optimine 500micrograms/5ml syrup (Schering-Plough Ltd)
+185275001000027000	Temazepam gelthix 10mg Capsule (Pharmacia Ltd)
+111795001000027000	Diphenydramine 25mg capsules
+320697002	Chlorphenamine 4mg tablets
+17165001000027100	Librium 10mg Capsule (ICN Pharmaceuticals France S.A.)
+85445001000027100	Dramamine 50mg Tablet (Pharmacia Ltd)
+196665001000027000	Diazepam 1mg/5ml suspension
+17175001000027100	Librium 5mg Tablet (ICN Pharmaceuticals France S.A.)
+321203006	Diazepam 5mg/5ml oral solution
+211325001000027000	Diazepam 10mg capsules
+547211000001103	Phenergan 10mg tablets (Sanofi)
+187745001000027000	CODEINE PHOS/EPHEDRINE HYD/PROMETHAZINE LIN
+142655001000027000	Temazepam 10mg capsules
+13893311000001100	Diazepam 2.5mg/5ml oral suspension
+35897011000001100	Alimemazine 7.5mg/5ml oral solution
+33395001000027100	Vallergan 7.5mg/5ml Oral solution (Castlemead Healthcare Ltd)
+25235001000027100	Piriton 2mg/5ml Oral solution (Stafford-Miller Ltd)
+34875001000027100	Zaditen 1mg/5ml Oral solution (Novartis Pharmaceuticals UK Ltd)
+321241004	Alprazolam 250microgram tablets
+321141005	Nitrazepam 5mg/5ml oral suspension
+322157007	Promethazine teoclate 25mg tablets

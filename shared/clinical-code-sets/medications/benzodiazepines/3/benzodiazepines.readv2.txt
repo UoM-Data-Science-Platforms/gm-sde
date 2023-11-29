@@ -1,0 +1,77 @@
+c736.	KETOTIFEN 1mg/5mL elixir
+c832.	*DIMOTANE 2mg/5mL elixir
+c843.	PIRITON 4mg tablets
+c845.	PIRITON 2mg/5mL syrup
+c84z.	CHLORPHENAMINE MALEATE 10mg/1mL injection
+c861.	PERIACTIN 4mg tablets
+c86y.	CYPROHEPTADINE HCL 4mg tablets
+c883.	DIPHENHYDRAMINE HCL 25mg tablets
+c886.	NYTOL ONE-A-NIGHT 50mg tablets
+c887.	DIPHENHYDRAMINE HYDROCHLORIDE 50mg tablets
+c8i1.	PHENERGAN 10mg tablets
+c8i2.	PHENERGAN 25mg tablets
+c8i3.	PHENERGAN 5mg/5mL elixir
+c8i4.	PHENERGAN 25mg/1mL injection
+c8i6.	PHENERGAN NIGHTIME 25mg tablets
+c8iv.	PROMETHAZINE 10mg tablets
+c8iw.	PROMETHAZINE 25mg tablets
+c8k1.	*VALLERGAN 10mg tablets
+c8k2.	*VALLERGAN 7.5mg/5mL syrup
+c8k3.	*VALLERGAN FORTE 30mg/5mL syrp
+c8kx.	ALIMEMAZINE 10mg tablets
+c8kz.	ALIMEMAZINE 30mg/5mL syrup
+d151.	DALMANE 15mg capsules
+d15y.	FLURAZEPAM 15mg capsules
+d15z.	FLURAZEPAM 30mg capsules
+d171.	LORMETAZEPAM 500micrograms tablets
+d172.	LORMETAZEPAM 1mg tablets
+d182.	NITRAZEPAM 5mg tablets
+d184.	NITRAZEPAM 2.5mg/5mL mixture
+d186.	MOGADON 5mg tablets
+d1a9.	TEMAZEPAM 10mg tablets
+d1aa.	TEMAZEPAM 20mg tablets
+d1d1.	ZOPICLONE 7.5mg tablets
+d1d2.	ZIMOVANE 7.5mg tablets
+d1d3.	ZOPICLONE 3.75mg tablets
+d1d4.	ZIMOVANE LS 3.75mg tablets
+d1f2.	ZOLPIDEM TARTRATE 5mg tablets
+d1f3.	ZOLPIDEM TARTRATE 10mg tablets
+d1gy.	ZALEPLON 5mg capsules
+d1gz.	ZALEPLON 10mg capsules
+d213.	DIAZEPAM 2mg tablets
+d214.	DIAZEPAM 5mg tablets
+d215.	DIAZEPAM 10mg tablets
+d216.	DIAZEPAM 2mg/5mL elixir
+d21A.	DIAZEPAM 5mg/5mL oral solution
+d21k.	STESOLID 5mg rectal solution
+d21l.	STESOLID 10mg rectal solution
+d21z.	*DIAZEPAM 10mg suppositories
+d22y.	ALPRAZOLAM 250microgram tablets
+d22z.	ALPRAZOLAM 500microgram tablets
+d241.	CHLORDIAZEPOXIDE 5mg capsules
+d242.	CHLORDIAZEPOXIDE 10mg capsules
+d243.	CHLORDIAZEPOXIDE HYDROCHLORIDE 5mg tablets
+d244.	CHLORDIAZEPOXIDE HYDROCHLORIDE 10mg tablets
+d249.	LIBRIUM 5mg capsules
+d24a.	LIBRIUM 10mg capsules
+d24f.	TROPIUM 5mg capsules
+d24h.	TROPIUM 5mg tablets
+d24i.	TROPIUM 10mg tablets
+d281.	ATARAX 10mg tablets
+d282.	ATARAX 25mg tablets
+d284.	UCERAX 25mg tablets
+d285.	UCERAX 10mg/5mL syrup
+d28x.	HYDROXYZINE HCL 10mg tablets
+d28y.	HYDROXYZINE HCL 25mg tablets
+d2a1.	LORAZEPAM 1mg tablets
+d2a2.	LORAZEPAM 2.5mg tablets
+d2d2.	OXAZEPAM 10mg tablets
+d2d3.	OXAZEPAM 15mg tablets
+dn4y.	CLONAZEPAM 500microgram tablets
+dn4z.	CLONAZEPAM 2mg tablets
+do18.	DIAZEPAM 5mg/2.5mL RecTubes
+do19.	DIAZEPAM 10mg/2.5mL RecTubes
+do1A.	DIAZEPAM 2.5mg/1.25mL RecTubes
+do1t.	DIAZEPAM 2.5mg/1.25mL rectal solution
+do1y.	DIAZEPAM 10mg/2.5mL rectal solution
+o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
