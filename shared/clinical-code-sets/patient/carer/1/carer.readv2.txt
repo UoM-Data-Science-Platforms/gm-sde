@@ -1,0 +1,22 @@
+918A.00	carer
+918G.00	is a carer
+9d46.00	carer
+918H.00	primary carer
+ZW4..11	is a carer
+918W.00	carer of a person with learning disability
+918X.00	carer of a person with physical disability
+918Y.00	carer of a person with sensory impairment
+918a.00	carer of a person with substance misuse
+918b.00	carer of a person with alcohol misuse
+918c.00	carer of a person with chronic disease
+918d.00	carer of a person with mental health problem
+918m.00	carer of a person with a terminal illness
+8HkY.00	referral to princess royal trust carers centre
+8IAk.00	referral to princess royal trust carers centre declined
+918y.00	carer of person with dementia
+8IEP.00	carer annual health check declined
+8HHN000	referral to voluntary support service for carers
+9NSS.00	carer health check offered
+69DE.00	carer health check
+8BAr.00	carer health check completed
+8IHE.00	carer health check declined
