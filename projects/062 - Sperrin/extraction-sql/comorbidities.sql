@@ -1,8 +1,8 @@
 --+--------------------------------------------------------------------------------+
 --¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
--- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BRTH FOR THE TABLE BELOW. THANKS.
--- !!! NEED TO DO: GO THROUGH SURG TO CHECK IF WE CAN PROVIDE ALL THE INFORMATION BELOW OR NEED TO REDUCE SOME COLUMNS FOR PROTECTING PID.
+-- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BRTH FOR THE TABLE BELOW.
+-- !!! NEED TO DO: DISCUSS TO MAKE SURE THE PROVIDED DATA IS NOT IDENTIFIABLE.
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
@@ -34,7 +34,7 @@ SET NOCOUNT ON;
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries =========================================================================================================================
+-- Create table #Patients for the reusable queries 
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
 FROM [SharedCare].[Patient_Link]
@@ -239,7 +239,7 @@ DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
 
--- Merge information========================================================================================================================================================
+-- Merge information
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
@@ -251,7 +251,8 @@ LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
--- Reduce #Patients table to just the cohort patients========================================================================================================================
+
+-- Reduce #Patients table to just the cohort patients
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
@@ -432,7 +433,7 @@ VALUES ('colorectal-cancer-screening',1,'XaPVj',NULL,'Bowel cancer screening pro
 INSERT INTO #codesctv3
 VALUES ('flu-vaccination',1,'65E..',NULL,'Influenza vaccination'),('flu-vaccination',1,'Xaa9G',NULL,'Administration of intranasal influenza vaccination'),('flu-vaccination',1,'Xaac1',NULL,'Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac2',NULL,'Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac3',NULL,'Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac4',NULL,'Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac5',NULL,'First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac6',NULL,'Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac7',NULL,'First intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac8',NULL,'Second intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaaED',NULL,'Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'XaaEF',NULL,'Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'XaaZp',NULL,'Seasonal influenza vaccination given while hospital inpatient'),('flu-vaccination',1,'XabvT',NULL,'Second intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xac5J',NULL,'First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xad9j',NULL,'Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xad9k',NULL,'Administration of second inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xaeet',NULL,'First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeeu',NULL,'Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeev',NULL,'First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeew',NULL,'Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'XafhP',NULL,'Seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhQ',NULL,'First inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhR',NULL,'Second inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XaLK4',NULL,'Booster influenza vaccination'),('flu-vaccination',1,'XaLNG',NULL,'First pandemic influenza vaccination'),('flu-vaccination',1,'XaLNH',NULL,'Second pandemic influenza vaccination'),('flu-vaccination',1,'XaPwi',NULL,'First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPwj',NULL,'Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPyT',NULL,'Influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhk',NULL,'CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhl',NULL,'CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhm',NULL,'PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhn',NULL,'PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQho',NULL,'CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhp',NULL,'CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhq',NULL,'PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhr',NULL,'PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZ0d',NULL,'Seasonal influenza vaccination'),('flu-vaccination',1,'XaZ0e',NULL,'Seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZfY',NULL,'Seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'ZV048',NULL,'[V]Flu - influenza vaccination'),('flu-vaccination',1,'Y0c3f',NULL,'First influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'Y0c40',NULL,'Second influenza A (H1N1v) 2009 vaccination given');
 INSERT INTO #codesctv3
-VALUES ('pneumococcal-vaccination',1,'6572.',NULL,'Pneumococcal vaccination'),('pneumococcal-vaccination',1,'XaYvC',NULL,'Supplemental pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqu',NULL,'Third pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqt',NULL,'Second pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqs',NULL,'First pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaIeO',NULL,'Booster pneumococcal vaccination'),('pneumococcal-vaccination',1,'XaPyX',NULL,'Pneumococcal vaccination given by other healthcare provider'),('pneumococcal-vaccination',1,'XaCKa',NULL,'Pneumococcal vaccination given'),('pneumococcal-vaccination',1,'XaBZP',NULL,'Subcutaneous injection of Pneumovax II')
+VALUES ('pneumococcal-vaccination',1,'6572.',NULL,'Pneumococcal vaccination'),('pneumococcal-vaccination',1,'XaYvC',NULL,'Supplemental pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqu',NULL,'Third pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqt',NULL,'Second pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaLqs',NULL,'First pneumococcal conjugated vaccination'),('pneumococcal-vaccination',1,'XaIeO',NULL,'Booster pneumococcal vaccination'),('pneumococcal-vaccination',1,'XaPyX',NULL,'Pneumococcal vaccination given by other healthcare provider'),('pneumococcal-vaccination',1,'XaCKa',NULL,'Pneumococcal vaccination given'),('pneumococcal-vaccination',1,'XaBZP',NULL,'Subcutaneous injection of Pneumovax II'),('pneumococcal-vaccination',1,'n4b2.',NULL,'Pneumovax II injection 0.5mL'),('pneumococcal-vaccination',1,'n4b7.',NULL,'PREVENAR 13 vaccine prefilled syringe 0.5mL'),('pneumococcal-vaccination',1,'x03kp',NULL,'Pnu-Imune vaccine injection')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -645,7 +646,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #Shingles
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Shingles
 SET EventCodeSystem = 'EMIS'
@@ -693,7 +694,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #PostherpeticNeuralgia
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PostherpeticNeuralgia
 SET EventCodeSystem = 'EMIS'
@@ -741,7 +742,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #CHD
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #CHD
 SET EventCodeSystem = 'EMIS'
@@ -789,7 +790,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #Stroke
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Stroke
 SET EventCodeSystem = 'EMIS'
@@ -837,7 +838,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #Dementia
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Dementia
 SET EventCodeSystem = 'EMIS'
@@ -885,7 +886,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #COPD
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #COPD
 SET EventCodeSystem = 'EMIS'
@@ -933,7 +934,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #LungCancer
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #LungCancer
 SET EventCodeSystem = 'EMIS'
@@ -981,7 +982,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #PancreaticCancer
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PancreaticCancer
 SET EventCodeSystem = 'EMIS'
@@ -1029,7 +1030,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #ColorectalCancer
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #ColorectalCancer
 SET EventCodeSystem = 'EMIS'
@@ -1077,7 +1078,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #BreastCancer
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BreastCancer
 SET EventCodeSystem = 'EMIS'
@@ -1125,7 +1126,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #Falls
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Falls
 SET EventCodeSystem = 'EMIS'
@@ -1173,7 +1174,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #BackProblems
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BackProblems
 SET EventCodeSystem = 'EMIS'
@@ -1221,7 +1222,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #Diabetes
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Diabetes
 SET EventCodeSystem = 'EMIS'
@@ -1269,7 +1270,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #FluVaccine
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #FluVaccine
 SET EventCodeSystem = 'EMIS'
@@ -1317,7 +1318,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #PneumococcalVaccine
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PneumococcalVaccine
 SET EventCodeSystem = 'EMIS'
@@ -1365,7 +1366,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #BreastCancerScreening
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BreastCancerScreening
 SET EventCodeSystem = 'EMIS'
@@ -1413,7 +1414,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #ColorectalCancerScreening
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #ColorectalCancerScreening
 SET EventCodeSystem = 'EMIS'
@@ -1461,7 +1462,7 @@ SET EventCodeSystem = 'ReadV2/CTV3'
 
 UPDATE #RTI
 SET EventCodeSystem = 'SNOMED'
-WHERE UPPER(EventCode) LIKE '%[0-9][0-9][0-9][0-9][0-9][0-9]%'
+WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #RTI
 SET EventCodeSystem = 'EMIS'

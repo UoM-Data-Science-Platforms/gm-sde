@@ -15,6 +15,12 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
+SET @StartDate = '2011-01-01';
+SET @EndDate = '2023-09-30';
+
+
 
 --> EXECUTE query-build-rq062-cohort.sql
 
@@ -91,7 +97,7 @@ FROM SharedCare.GP_Events
 WHERE 
       FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
       AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-      AND EventDate BETWEEN '2011-01-01' AND @EndDate;
+      AND EventDate BETWEEN @StartDate AND @EndDate;
 
 
 -- Merge with GP encounter types=================================================================================================================================

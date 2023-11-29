@@ -15,6 +15,12 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
+SET @StartDate = '2011-01-01';
+SET @EndDate = '2023-09-30';
+
+
 
 --┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013 │
@@ -31,7 +37,7 @@ SET NOCOUNT ON;
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries =========================================================================================================================
+-- Create table #Patients for the reusable queries 
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
 FROM [SharedCare].[Patient_Link]
@@ -236,7 +242,7 @@ DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
 
--- Merge information========================================================================================================================================================
+-- Merge information
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
@@ -248,15 +254,15 @@ LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
--- Reduce #Patients table to just the cohort patients========================================================================================================================
+
+-- Reduce #Patients table to just the cohort patients
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
 FROM #Table
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 
--- Create a table with all GP encounters ========================================================================================================
-
+-- Create a table with all GP encounters ====================================================================================================================
 IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
 SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #CodingClassifier
@@ -319,12 +325,28 @@ WHERE (
 IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
 CREATE TABLE #GPEncounters (
 	FK_Patient_Link_ID BIGINT,
-	EncounterDate DATE
+	EncounterDate DATE,
+	FK_Reference_Coding_ID INT
 );
 
 INSERT INTO #GPEncounters 
-SELECT DISTINCT FK_Patient_Link_ID AS PatientID, CAST(EventDate AS DATE) AS EncounterDate
-FROM [SharedCare].[GP_Events]
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate, FK_Reference_Coding_ID
+FROM SharedCare.GP_Events
 WHERE 
       FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1);
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN @StartDate AND @EndDate;
+
+
+-- Merge with GP encounter types=================================================================================================================================
+IF OBJECT_ID('tempdb..#GPEncountersFinal') IS NOT NULL DROP TABLE #GPEncountersFinal;
+SELECT FK_Patient_Link_ID, EncounterDate, c.EncounterType
+INTO #GPEncountersFinal
+FROM #GPEncounters g
+LEFT OUTER JOIN #CodingClassifier c ON g.FK_Reference_Coding_ID = c.PK_Reference_Coding_ID
+
+
+-- The final table===============================================================================================================================================
+SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
+FROM #GPEncountersFinal
+ORDER BY FK_Patient_Link_ID, EncounterDate;

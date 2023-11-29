@@ -18,7 +18,7 @@ SET NOCOUNT ON;
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '1800-01-01';
+SET @StartDate = '2014-01-01';
 
 
 --> EXECUTE query-build-rq062-cohort.sql
@@ -54,14 +54,34 @@ SELECT
 	a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider, 
 	MIN(d.DischargeDate) AS DischargeDate, 
 	1 + DATEDIFF(day,a.AdmissionDate, MIN(d.DischargeDate)) AS LengthOfStay
-	INTO #LengthOfStay
+INTO #LengthOfStay
 FROM #Admissions a
 INNER JOIN #Discharges d ON d.FK_Patient_Link_ID = a.FK_Patient_Link_ID AND d.DischargeDate >= a.AdmissionDate AND d.AcuteProvider = a.AcuteProvider
 GROUP BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider
 ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 
+----- create anonymised identifier for each hospital
+-- this is included in case PI wants to consider the fact that each hospitalstarted providing complete data on different dates
+
+IF OBJECT_ID('tempdb..#hospitals') IS NOT NULL DROP TABLE #hospitals;
+SELECT DISTINCT AcuteProvider
+INTO #hospitals
+FROM #LengthOfStay
+
+IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
+SELECT AcuteProvider
+	, HospitalID = ROW_NUMBER() OVER (order by newid())
+INTO #RandomiseHospital
+FROM #hospitals
 
 -- Create the final table
-SELECT FK_Patient_Link_ID AS PatientID, AdmissionDate, DischargeDate 
-FROM #LengthOfStay
+SELECT FK_Patient_Link_ID AS PatientID,
+ 	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate),
+	   LengthOfStayDays = LengthOfStay,
+	   HospitalID 
+FROM #LengthOfStay los
+LEFT JOIN #RandomiseHospital rh ON rh.AcuteProvider = los.AcuteProvider
 ORDER BY FK_Patient_Link_ID, AdmissionDate
+
+
+------ advise team that some hospitals only started providing data in 2020/21. Show them table on this page: https://github.com/rw251/gm-idcr/blob/master/docs/index.md
