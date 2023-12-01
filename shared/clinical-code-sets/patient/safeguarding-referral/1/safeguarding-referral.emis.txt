@@ -1,0 +1,10 @@
+^ESCT1421775	Adult safeguarding concern
+^ESCTAD832323	Adult safeguarding report
+^ESCTLI826988	Liaison with safeguarding adult team
+^ESCTRE827869	Referral to safeguarding coordinator
+^ESCTSA824391	Safeguarding vulnerable adult case management
+^ESCTSA842820	Safeguarding intervention
+^ESCTUN825166	Under care of safeguarding adult team
+EMISNQAD72	Adult safeguarding concern
+EMISNQRE131	Referral to safeguarding adults team
+EMISNQSA81	Safeguarding report sent
