@@ -1,0 +1,469 @@
+^ESCT1178785	Product containing only azathioprine 50 mg/1 each oral tablet
+^ESCT1178786	Product containing only azathioprine 25 mg/1 each oral tablet
+^ESCT1183509	Azathioprine 25mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCT1184260	Azathioprine 25mg tablets (Mylan)
+^ESCT1185701	Azathioprine 25mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185702	Azathioprine 25mg tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1185703	Azathioprine 50mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1185704	Azathioprine 50mg tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1186387	Azathioprine 50mg tablets (Mylan)
+^ESCT1215911	Azathioprine 50mg tablets (Ennogen Pharma Ltd)
+^ESCT1215912	Azathioprine 50mg tablets (Ennogen Pharma Ltd) 56 tablet
+^ESCT1225088	Product containing precisely azathioprine 50 milligram/1 each conventional release oral tablet
+^ESCT1225089	Product containing precisely azathioprine 25 milligram/1 each conventional release oral tablet
+^ESCT1225090	Product containing precisely azathioprine 50 milligram/1 vial powder for conventional release solution for injection
+^ESCT1225091	Azathioprine 50 mg powder for solution for injection vial
+^ESCT1258385	Azathioprine 50mg tablets (Strides Pharma UK Ltd)
+^ESCT1258386	Azathioprine 50mg tablets (Strides Pharma UK Ltd) 56 tablet 7 x 8 tablets
+^ESCT1258387	Azathioprine 50mg tablets (Strides Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1263940	Azathioprine 50mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1264159	Azathioprine 50mg tablets (Relonchem Ltd)
+^ESCT1264160	Azathioprine 50mg tablets (Relonchem Ltd) 56 tablet
+^ESCT1264161	Azathioprine 50mg tablets (Relonchem Ltd) 100 tablet
+^ESCT1374840	Azathioprine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374841	Azathioprine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374843	Azathioprine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374844	Azathioprine 50mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1389440	Azathioprine 50mg tablets (Relonchem Ltd) 56 tablet 4 x 14 tablets
+^ESCT1389441	Azathioprine 50mg tablets (Relonchem Ltd) 100 tablet 10 x 10 tablets
+^ESCT1418874	Azathioprine 25mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCT1418875	Azathioprine 50mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCT1425626	Azathioprine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425888	Azathioprine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426353	Azathioprine 25mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426354	Azathioprine 50mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1427021	Azathioprine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427120	Azathioprine 50mg tablets (Kent Pharma (UK) Ltd) 100 tablet 4 x 25 tablets
+^ESCT1428977	Azathioprine 25mg tablets (Healthcare Pharma Ltd)
+^ESCT1428978	Azathioprine 25mg tablets (Healthcare Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1428979	Azathioprine 25mg tablets (Healthcare Pharma Ltd) 100 tablet 4 x 25 tablets
+^ESCT1428980	Azathioprine 50mg tablets (Healthcare Pharma Ltd)
+^ESCT1428981	Azathioprine 50mg tablets (Healthcare Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCT1428982	Azathioprine 50mg tablets (Healthcare Pharma Ltd) 100 tablet 4 x 25 tablets
+^ESCT1429023	Azathioprine 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1434098	Azathioprine 50mg tablets (Resolution Chemicals Ltd)
+^ESCT1434099	Azathioprine 50mg tablets (Resolution Chemicals Ltd) 56 tablet 2 x 28 tablets
+^ESCT1434100	Azathioprine 50mg tablets (Resolution Chemicals Ltd) 100 tablet 4 x 25 tablets
+^ESCT1436955	Azathioprine 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437048	Azathioprine 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437382	Azathioprine 25mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437383	Azathioprine 25mg tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1437384	Azathioprine 50mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437385	Azathioprine 50mg tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ1004684	Azathioprine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAZ1004685	Azathioprine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAZ1004686	Azathioprine 25mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTAZ1004693	Azathioprine 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAZ1004696	Azathioprine 50mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTAZ1004697	Azathioprine 50mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTAZ1009211	Azathioprine 50mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAZ1009212	Azathioprine 50mg tablets (Strides Shasun (UK) Ltd) 56 tablet 7 x 8 tablets
+^ESCTAZ1009213	Azathioprine 50mg tablets (Strides Shasun (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ1011218	Azathioprine 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAZ1011219	Azathioprine 50mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCTAZ1021494	Azathioprine 50mg/5ml oral suspension 50 ml
+^ESCTAZ1021495	Azathioprine 50mg/5ml oral suspension (Drug Tariff Special Order) 50 ml
+^ESCTAZ1024252	Azathioprine 50mg/5ml oral suspension 100 ml
+^ESCTAZ1024253	Azathioprine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTAZ1040122	Azathioprine 25mg/5ml oral suspension 100 ml
+^ESCTAZ1040123	Azathioprine 25mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTAZ1041447	Azathioprine 25mg tablets (Waymade Healthcare Plc)
+^ESCTAZ1041448	Azathioprine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAZ1041449	Azathioprine 25mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTAZ1041450	Azathioprine 50mg tablets (Waymade Healthcare Plc)
+^ESCTAZ1041451	Azathioprine 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTAZ1041452	Azathioprine 50mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTAZ1049115	Azathioprine 25mg tablets (DE Pharmaceuticals)
+^ESCTAZ1049116	Azathioprine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAZ1049122	Azathioprine 50mg tablets (DE Pharmaceuticals)
+^ESCTAZ1049124	Azathioprine 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTAZ1049125	Azathioprine 50mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTAZ1064067	Azathioprine 50mg tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ1066948	Azathioprine 25mg tablets (Sandoz Ltd)
+^ESCTAZ1066950	Azathioprine 25mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAZ1066951	Azathioprine 25mg tablets (Sandoz Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ1087472	Azapress 50mg tablets (Ennogen Pharma Ltd)
+^ESCTAZ1087474	Azapress 50mg tablets (Ennogen Pharma Ltd) 56 tablet 2 x 28 tablets
+^ESCTAZ1099223	Azathioprine 25mg/5ml oral suspension 150 ml
+^ESCTAZ1099224	Azathioprine 25mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTAZ1100263	Azathioprine 50mg tablets (Ennogen Healthcare Ltd)
+^ESCTAZ1100264	Azathioprine 50mg tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTAZ1116903	Azathioprine 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTAZ1116904	Azathioprine 50mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTAZ1118114	Azathioprine 50mg tablets (Sandoz Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ1118930	Azathioprine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAZ1118931	Azathioprine 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAZ1118932	Azathioprine 25mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTAZ1118933	Azathioprine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAZ1118934	Azathioprine 50mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTAZ1119191	Azathioprine 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTAZ1126707	Azathioprine 100mg/5ml oral suspension 100 ml
+^ESCTAZ1126708	Azathioprine 100mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTAZ1126713	Azathioprine 20mg/5ml oral suspension 100 ml
+^ESCTAZ1126714	Azathioprine 20mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTAZ1128346	Azathioprine 65mg/5ml oral suspension 1 ml
+^ESCTAZ1128347	Azathioprine 65mg/5ml oral suspension (Special Order)
+^ESCTAZ1128349	Azathioprine 65mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ1128364	Azathioprine 65mg/5ml oral suspension
+^ESCTAZ613895	Azathioprine 50mg tablets
+^ESCTAZ613897	Azathioprine 50 mg oral tablet
+^ESCTAZ613898	Azathioprine 25mg tablets
+^ESCTAZ613900	Azathioprine 25 mg oral tablet
+^ESCTAZ613901	Azathioprine 50mg powder for solution for injection vials
+^ESCTAZ613902	Azathioprine 50mg injection
+^ESCTAZ613903	Azathioprine 50mg powder for injection solution vial
+^ESCTAZ801678	Azathioprine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAZ805197	Azathioprine 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAZ810820	Azathioprine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAZ810880	Azathioprine 50mg tablets (Actavis UK Ltd)
+^ESCTAZ815335	Azathioprine 50mg tablets (Sandoz Ltd)
+^ESCTAZ819903	Azathioprine 25mg tablets (Mylan Ltd)
+^ESCTAZ820427	Azathioprine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAZ821709	Azathioprine 50mg tablets (Teva UK Ltd)
+^ESCTAZ822958	Azathioprine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAZ828421	Azathioprine 50mg tablets (Mylan Ltd)
+^ESCTAZ829862	Azathioprine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAZ831132	Azathioprine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAZ834416	Azathioprine 50mg powder for solution for injection vials 1 vial
+^ESCTAZ834495	Azathioprine 25mg tablets 100 tablet
+^ESCTAZ837811	Azathioprine 50mg tablets 56 tablet
+^ESCTAZ838855	Azathioprine 25mg tablets 28 tablet
+^ESCTAZ847544	Azathioprine 50mg tablets 100 tablet
+^ESCTAZ854286	Azathioprine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAZ854287	Azathioprine 25mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTAZ854293	Azathioprine 25mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAZ854294	Azathioprine 25mg tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ854296	Azathioprine 25mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTAZ854297	Azathioprine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTAZ854298	Azathioprine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ854299	Azathioprine 50mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTAZ854300	Azathioprine 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ854301	Azathioprine 50mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTAZ854302	Azathioprine 50mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTAZ854304	Azathioprine 50mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTAZ854305	Azathioprine 50mg tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ854326	Azathioprine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTAZ854328	Azathioprine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTAZ854329	Azathioprine 50mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTAZ854330	Azathioprine 50mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTAZ854331	Azathioprine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCTAZ854332	Azathioprine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTAZ863508	Azathioprine 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAZ863509	Azathioprine 25mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTAZ878850	Azathioprine 25mg tablets 50 tablet
+^ESCTAZ878870	Azathioprine 50mg tablets 50 tablet
+^ESCTAZ882416	Azathioprine 25mg tablets (Actavis UK Ltd)
+^ESCTAZ882420	Azathioprine 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAZ904555	Azathioprine 100mg/5ml oral solution 1 ml
+^ESCTAZ904556	Azathioprine 100mg/5ml oral solution (Special Order)
+^ESCTAZ904557	Azathioprine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904558	Azathioprine 100mg/5ml oral suspension 1 ml
+^ESCTAZ904559	Azathioprine 100mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTAZ904560	Azathioprine 100mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTAZ904561	Azathioprine 120mg/5ml oral solution 1 ml
+^ESCTAZ904562	Azathioprine 120mg/5ml oral solution (Special Order)
+^ESCTAZ904563	Azathioprine 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904565	Azathioprine 120mg/5ml oral suspension 1 ml
+^ESCTAZ904566	Azathioprine 120mg/5ml oral suspension (Special Order)
+^ESCTAZ904568	Azathioprine 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904569	Azathioprine 150mg/5ml oral solution 1 ml
+^ESCTAZ904570	Azathioprine 150mg/5ml oral solution (Special Order)
+^ESCTAZ904572	Azathioprine 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904576	Azathioprine 13mg/5ml oral solution 1 ml
+^ESCTAZ904579	Azathioprine 13mg/5ml oral solution (Special Order)
+^ESCTAZ904580	Azathioprine 13mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904582	Azathioprine 150mg/5ml oral suspension 1 ml
+^ESCTAZ904584	Azathioprine 10mg/5ml oral solution 1 ml
+^ESCTAZ904585	Azathioprine 15mg/5ml oral solution 1 ml
+^ESCTAZ904586	Azathioprine 10mg/5ml oral solution (Special Order)
+^ESCTAZ904587	Azathioprine 150mg/5ml oral suspension (Special Order)
+^ESCTAZ904588	Azathioprine 13mg/5ml oral suspension 1 ml
+^ESCTAZ904589	Azathioprine 15mg/5ml oral solution (Special Order)
+^ESCTAZ904591	Azathioprine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904592	Azathioprine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904593	Azathioprine 13mg/5ml oral suspension (Special Order)
+^ESCTAZ904595	Azathioprine 13mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904596	Azathioprine 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904597	Azathioprine 10mg/5ml oral suspension 1 ml
+^ESCTAZ904598	Azathioprine 15mg/5ml oral suspension 1 ml
+^ESCTAZ904599	Azathioprine 10mg/5ml oral suspension (Special Order)
+^ESCTAZ904600	Azathioprine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904601	Azathioprine 15mg/5ml oral suspension (Special Order)
+^ESCTAZ904602	Azathioprine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904603	Azathioprine 17.5mg/5ml oral solution 1 ml
+^ESCTAZ904604	Azathioprine 17.5mg/5ml oral solution (Special Order)
+^ESCTAZ904607	Azathioprine 12mg/5ml oral solution 1 ml
+^ESCTAZ904609	Azathioprine 17.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904612	Azathioprine 12mg/5ml oral solution (Special Order)
+^ESCTAZ904614	Azathioprine 12mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904615	Azathioprine 17.5mg/5ml oral suspension 1 ml
+^ESCTAZ904616	Azathioprine 2.5mg/5ml oral solution 1 ml
+^ESCTAZ904617	Azathioprine 2.5mg/5ml oral solution (Special Order)
+^ESCTAZ904618	Azathioprine 17.5mg/5ml oral suspension (Special Order)
+^ESCTAZ904620	Azathioprine 12mg/5ml oral suspension (Special Order)
+^ESCTAZ904623	Azathioprine 12mg/5ml oral suspension 1 ml
+^ESCTAZ904624	Azathioprine 20mg/5ml oral solution 1 ml
+^ESCTAZ904626	Azathioprine 12mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904627	Azathioprine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904628	Azathioprine 17.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904630	Azathioprine 20mg/5ml oral solution (Special Order)
+^ESCTAZ904632	Azathioprine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904635	Azathioprine 2.5mg/5ml oral suspension 1 ml
+^ESCTAZ904636	Azathioprine 2.5mg/5ml oral suspension (Special Order)
+^ESCTAZ904637	Azathioprine 20mg/5ml oral suspension 1 ml
+^ESCTAZ904638	Azathioprine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904639	Azathioprine 20mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTAZ904640	Azathioprine 20mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTAZ904641	Azathioprine 25mg/5ml oral solution 1 ml
+^ESCTAZ904642	Azathioprine 30mg/5ml oral solution 1 ml
+^ESCTAZ904643	Azathioprine 30mg/5ml oral solution (Special Order)
+^ESCTAZ904644	Azathioprine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904645	Azathioprine 25mg/5ml oral solution (Special Order)
+^ESCTAZ904646	Azathioprine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904647	Azathioprine 30mg/5ml oral suspension 1 ml
+^ESCTAZ904648	Azathioprine 25mg/5ml oral suspension 1 ml
+^ESCTAZ904649	Azathioprine 30mg/5ml oral suspension (Special Order)
+^ESCTAZ904655	Azathioprine 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTAZ904657	Azathioprine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904664	Azathioprine 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTAZ904666	Azathioprine 40mg/5ml oral solution 1 ml
+^ESCTAZ904681	Azathioprine 40mg/5ml oral solution (Special Order)
+^ESCTAZ904684	Azathioprine 5mg/5ml oral solution 1 ml
+^ESCTAZ904691	Azathioprine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904692	Azathioprine 5mg/5ml oral solution (Special Order)
+^ESCTAZ904695	Azathioprine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904700	Azathioprine 50mg/5ml oral solution 1 ml
+^ESCTAZ904706	Azathioprine 50mg/5ml oral solution (Special Order)
+^ESCTAZ904710	Azathioprine 5mg/5ml oral suspension 1 ml
+^ESCTAZ904714	Azathioprine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904717	Azathioprine 5mg/5ml oral suspension (Special Order)
+^ESCTAZ904722	Azathioprine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904723	Azathioprine 40mg/5ml oral suspension 1 ml
+^ESCTAZ904734	Azathioprine 50mg/5ml oral suspension 1 ml
+^ESCTAZ904735	Azathioprine 40mg/5ml oral suspension (Special Order)
+^ESCTAZ904743	Azathioprine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTAZ904747	Azathioprine 75mg/5ml oral solution 1 ml
+^ESCTAZ904748	Azathioprine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904750	Azathioprine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTAZ904752	Azathioprine 75mg/5ml oral solution (Special Order)
+^ESCTAZ904754	Azathioprine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904759	Azathioprine 75mg/5ml oral suspension 1 ml
+^ESCTAZ904762	Azathioprine 75mg/5ml oral suspension (Special Order)
+^ESCTAZ904767	Azathioprine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904777	Azathioprine 100mg/5ml oral solution
+^ESCTAZ904778	Azathioprine 100mg/5ml oral suspension
+^ESCTAZ904779	Azathioprine 10mg/5ml oral solution
+^ESCTAZ904780	Azathioprine 10mg/5ml oral suspension
+^ESCTAZ904781	Azathioprine 120mg/5ml oral solution
+^ESCTAZ904782	Azathioprine 120mg/5ml oral suspension
+^ESCTAZ904783	Azathioprine 12mg/5ml oral solution
+^ESCTAZ904784	Azathioprine 12mg/5ml oral suspension
+^ESCTAZ904785	Azathioprine 13mg/5ml oral solution
+^ESCTAZ904786	Azathioprine 13mg/5ml oral suspension
+^ESCTAZ904787	Azathioprine 150mg/5ml oral solution
+^ESCTAZ904788	Azathioprine 150mg/5ml oral suspension
+^ESCTAZ904789	Azathioprine 15mg/5ml oral solution
+^ESCTAZ904790	Azathioprine 15mg/5ml oral suspension
+^ESCTAZ904791	Azathioprine 17.5mg/5ml oral solution
+^ESCTAZ904792	Azathioprine 17.5mg/5ml oral suspension
+^ESCTAZ904793	Azathioprine 2.5mg/5ml oral solution
+^ESCTAZ904794	Azathioprine 2.5mg/5ml oral suspension
+^ESCTAZ904796	Azathioprine 20mg/5ml oral solution
+^ESCTAZ904797	Azathioprine 20mg/5ml oral suspension
+^ESCTAZ904798	Azathioprine 25mg/5ml oral solution
+^ESCTAZ904799	Azathioprine 25mg/5ml oral suspension
+^ESCTAZ904800	Azathioprine 30mg/5ml oral solution
+^ESCTAZ904836	Azathioprine 60mg/5ml oral solution 1 ml
+^ESCTAZ904839	Azathioprine 60mg/5ml oral solution (Special Order)
+^ESCTAZ904845	Azathioprine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904853	Azathioprine 60mg/5ml oral suspension 1 ml
+^ESCTAZ904855	Azathioprine 60mg/5ml oral suspension (Special Order)
+^ESCTAZ904856	Azathioprine 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ904866	Azathioprine 90mg/5ml oral solution 1 ml
+^ESCTAZ904868	Azathioprine 90mg/5ml oral solution (Special Order)
+^ESCTAZ904869	Azathioprine 90mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ904874	Azathioprine 90mg/5ml oral suspension 1 ml
+^ESCTAZ904876	Azathioprine 90mg/5ml oral suspension (Special Order)
+^ESCTAZ904880	Azathioprine 90mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ905028	Azathioprine 90mg/5ml oral suspension
+^ESCTAZ905030	Azathioprine 90mg/5ml oral solution
+^ESCTAZ905031	Azathioprine 75mg/5ml oral suspension
+^ESCTAZ905032	Azathioprine 75mg/5ml oral solution
+^ESCTAZ905033	Azathioprine 60mg/5ml oral suspension
+^ESCTAZ905034	Azathioprine 60mg/5ml oral solution
+^ESCTAZ905035	Azathioprine 5mg/5ml oral suspension
+^ESCTAZ905036	Azathioprine 5mg/5ml oral solution
+^ESCTAZ905037	Azathioprine 50mg/5ml oral suspension
+^ESCTAZ905038	Azathioprine 50mg/5ml oral solution
+^ESCTAZ905039	Azathioprine 40mg/5ml oral suspension
+^ESCTAZ905040	Azathioprine 40mg/5ml oral solution
+^ESCTAZ905041	Azathioprine 30mg/5ml oral suspension
+^ESCTAZ905775	Azathioprine 25mg tablets (Teva UK Ltd)
+^ESCTAZ905776	Azathioprine 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAZ909109	Azathioprine 10mg capsules 1 capsule
+^ESCTAZ909110	Azathioprine 10mg capsules (Special Order)
+^ESCTAZ909111	Azathioprine 10mg capsules (Special Order) 1 capsule
+^ESCTAZ909202	Azathioprine 5mg capsules 1 capsule
+^ESCTAZ909203	Azathioprine 5mg capsules (Special Order)
+^ESCTAZ909204	Azathioprine 30mg capsules 1 capsule
+^ESCTAZ909205	Azathioprine 5mg capsules (Special Order) 1 capsule
+^ESCTAZ909206	Azathioprine 30mg capsules (Special Order)
+^ESCTAZ909207	Azathioprine 30mg capsules (Special Order) 1 capsule
+^ESCTAZ909650	Azathioprine 10mg capsules
+^ESCTAZ909651	Azathioprine 30mg capsules
+^ESCTAZ909652	Azathioprine 5mg capsules
+^ESCTAZ918264	Azathioprine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAZ927777	Azathioprine 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAZ927779	Azathioprine 50mg tablets (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTAZ931167	Azathioprine 25mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ931168	Azathioprine 50mg tablets (Teva UK Ltd) 100 tablet
+^ESCTAZ939166	Azathioprine 50mg tablets (Kent Pharmaceuticals Ltd) 100 tablet 4 x 25 tablets
+^ESCTAZ945917	Azathioprine 125mg/5ml oral suspension 1 ml
+^ESCTAZ945919	Azathioprine 125mg/5ml oral suspension (Special Order)
+^ESCTAZ945920	Azathioprine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ945921	Azathioprine 125mg/5ml oral solution 1 ml
+^ESCTAZ945922	Azathioprine 125mg/5ml oral solution (Special Order)
+^ESCTAZ945925	Azathioprine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ945931	Azathioprine 175mg/5ml oral suspension 1 ml
+^ESCTAZ945935	Azathioprine 175mg/5ml oral suspension (Special Order)
+^ESCTAZ945936	Azathioprine 175mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ945939	Azathioprine 175mg/5ml oral solution 1 ml
+^ESCTAZ945941	Azathioprine 175mg/5ml oral solution (Special Order)
+^ESCTAZ946013	Azathioprine 175mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ946034	Azathioprine 125mg/5ml oral solution
+^ESCTAZ946035	Azathioprine 125mg/5ml oral suspension
+^ESCTAZ946036	Azathioprine 175mg/5ml oral solution
+^ESCTAZ946037	Azathioprine 175mg/5ml oral suspension
+^ESCTAZ946208	Azathioprine 17mg/5ml oral suspension 1 ml
+^ESCTAZ946210	Azathioprine 17mg/5ml oral suspension (Special Order)
+^ESCTAZ946212	Azathioprine 17mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ946213	Azathioprine 17mg/5ml oral solution 1 ml
+^ESCTAZ946215	Azathioprine 17mg/5ml oral solution (Special Order)
+^ESCTAZ946217	Azathioprine 17mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ946219	Azathioprine 200mg/5ml oral suspension 1 ml
+^ESCTAZ946221	Azathioprine 200mg/5ml oral suspension (Special Order)
+^ESCTAZ946223	Azathioprine 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ946225	Azathioprine 200mg/5ml oral solution 1 ml
+^ESCTAZ946227	Azathioprine 200mg/5ml oral solution (Special Order)
+^ESCTAZ946229	Azathioprine 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ946231	Azathioprine 35mg/5ml oral suspension 1 ml
+^ESCTAZ946233	Azathioprine 35mg/5ml oral suspension (Special Order)
+^ESCTAZ946235	Azathioprine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ946237	Azathioprine 35mg/5ml oral solution 1 ml
+^ESCTAZ946239	Azathioprine 35mg/5ml oral solution (Special Order)
+^ESCTAZ946241	Azathioprine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ946267	Azathioprine 17mg/5ml oral solution
+^ESCTAZ946268	Azathioprine 17mg/5ml oral suspension
+^ESCTAZ946269	Azathioprine 200mg/5ml oral solution
+^ESCTAZ946270	Azathioprine 200mg/5ml oral suspension
+^ESCTAZ946271	Azathioprine 35mg/5ml oral solution
+^ESCTAZ946272	Azathioprine 35mg/5ml oral suspension
+^ESCTAZ947374	Azathioprine 37.5mg/5ml oral suspension 1 ml
+^ESCTAZ947375	Azathioprine 37.5mg/5ml oral suspension (Special Order)
+^ESCTAZ947377	Azathioprine 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947382	Azathioprine 37.5mg/5ml oral solution 1 ml
+^ESCTAZ947383	Azathioprine 37.5mg/5ml oral solution (Special Order)
+^ESCTAZ947384	Azathioprine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947395	Azathioprine 45mg/5ml oral suspension 1 ml
+^ESCTAZ947396	Azathioprine 37.5mg/5ml oral solution
+^ESCTAZ947397	Azathioprine 37.5mg/5ml oral suspension
+^ESCTAZ947398	Azathioprine 45mg/5ml oral suspension
+^ESCTAZ947402	Azathioprine 45mg/5ml oral suspension (Special Order)
+^ESCTAZ947404	Azathioprine 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947415	Azathioprine 4mg/5ml oral suspension 1 ml
+^ESCTAZ947417	Azathioprine 4mg/5ml oral suspension (Special Order)
+^ESCTAZ947418	Azathioprine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947423	Azathioprine 70mg/5ml oral suspension 1 ml
+^ESCTAZ947424	Azathioprine 70mg/5ml oral suspension (Special Order)
+^ESCTAZ947425	Azathioprine 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947426	Azathioprine 7mg/5ml oral suspension 1 ml
+^ESCTAZ947427	Azathioprine 7mg/5ml oral suspension (Special Order)
+^ESCTAZ947428	Azathioprine 7mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947429	Azathioprine 80mg/5ml oral suspension 1 ml
+^ESCTAZ947430	Azathioprine 80mg/5ml oral suspension (Special Order)
+^ESCTAZ947431	Azathioprine 80mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ947432	Azathioprine 45mg/5ml oral solution 1 ml
+^ESCTAZ947433	Azathioprine 45mg/5ml oral solution (Special Order)
+^ESCTAZ947434	Azathioprine 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947437	Azathioprine 4mg/5ml oral solution 1 ml
+^ESCTAZ947439	Azathioprine 4mg/5ml oral solution (Special Order)
+^ESCTAZ947440	Azathioprine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947450	Azathioprine 70mg/5ml oral solution 1 ml
+^ESCTAZ947453	Azathioprine 70mg/5ml oral solution (Special Order)
+^ESCTAZ947455	Azathioprine 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947458	Azathioprine 7mg/5ml oral solution 1 ml
+^ESCTAZ947460	Azathioprine 7mg/5ml oral solution (Special Order)
+^ESCTAZ947462	Azathioprine 7mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947464	Azathioprine 80mg/5ml oral solution 1 ml
+^ESCTAZ947466	Azathioprine 80mg/5ml oral solution (Special Order)
+^ESCTAZ947468	Azathioprine 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ947538	Azathioprine 45mg/5ml oral solution
+^ESCTAZ947540	Azathioprine 4mg/5ml oral solution
+^ESCTAZ947542	Azathioprine 4mg/5ml oral suspension
+^ESCTAZ947544	Azathioprine 70mg/5ml oral solution
+^ESCTAZ947546	Azathioprine 70mg/5ml oral suspension
+^ESCTAZ947549	Azathioprine 7mg/5ml oral solution
+^ESCTAZ947551	Azathioprine 7mg/5ml oral suspension
+^ESCTAZ947553	Azathioprine 80mg/5ml oral solution
+^ESCTAZ947555	Azathioprine 80mg/5ml oral suspension
+^ESCTAZ961993	Azathioprine 50mg tablets (Arrow Generics Ltd)
+^ESCTAZ961994	Azathioprine 50mg tablets (Arrow Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCTAZ961995	Azathioprine 50mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTAZ965402	Azathioprine 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTAZ965403	Azathioprine 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTAZ965404	Azathioprine 50mg tablets (Tillomed Laboratories Ltd) 100 tablet
+^ESCTAZ965405	Azathioprine 25mg tablets (Tillomed Laboratories Ltd) 100 tablet
+^ESCTAZ978187	Azathioprine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAZ978188	Azathioprine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAZ978189	Azathioprine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAZ978190	Azathioprine 50mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTAZ987430	Azathioprine 250mg/5ml oral solution 1 ml
+^ESCTAZ987433	Azathioprine 250mg/5ml oral solution (Special Order)
+^ESCTAZ987436	Azathioprine 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTAZ987456	Azathioprine 250mg/5ml oral suspension 1 ml
+^ESCTAZ987458	Azathioprine 250mg/5ml oral suspension (Special Order)
+^ESCTAZ987459	Azathioprine 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAZ987696	Azathioprine 250mg/5ml oral solution
+^ESCTAZ987697	Azathioprine 250mg/5ml oral suspension
+^ESCTIM808674	Imuran 25mg tablets (Aspen Pharma Trading Ltd)
+^ESCTIM810198	Immunoprin 50mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTIM820988	Imuran 50mg tablets (Aspen Pharma Trading Ltd)
+^ESCTIM832163	Imuran 50mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+^ESCTIM854295	Imuran 25mg tablets (Aspen Pharma Trading Ltd) 100 tablet 10 x 10 tablets
+^ESCTIM854303	Immunoprin 50mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTIM854306	Imuran 50mg tablets (Aspen Pharma Trading Ltd) 100 tablet 10 x 10 tablets
+^ESCTIM857050	Imuran 50mg powder for solution for injection vials (Aspen Pharma Trading Ltd) 1 vial
+^ESCTPR613896	Product containing azathioprine 50 mg/1 each oral tablet
+^ESCTPR613899	Product containing azathioprine 25 mg/1 each oral tablet
+AZCA18881NEMIS	Azathioprine  Capsules  10 mg
+AZIN4620	Azathioprine  Powder For Solution For Injection  50 mg vial
+AZOR45627NEMIS	Azathioprine  Oral solution  50 mg/5 ml
+AZOR46696NEMIS	Azathioprine  Oral suspension  100 mg/5 ml
+AZOR47617NEMIS	Azathioprine  Oral suspension  30 mg/5 ml
+AZOR81507NEMIS	Azathioprine  Oral solution  250 mg/5 ml
+AZOR96779NEMIS	Azathioprine  Oral suspension  75 mg/5 ml
+AZSU17135NEMIS	Azathioprine  Suspension  20 mg/5 ml
+AZSU18407NEMIS	Azathioprine  Suspension  50 mg/5 ml
+AZSU19246NEMIS	Azathioprine  Suspension  25 mg/5 ml
+AZTA10446BRIDL	Azathioprine  Tablets  25 mg
+AZTA262	Azathioprine  Tablets  50 mg
+AZTA33906MGEMIS	Azathioprine  Tablets  25 mg (Kent Pharm)
+AZTA33907MGEMIS	Azathioprine  Tablets  25 mg (Generics (UK))
+AZTA33908MGEMIS	Azathioprine  Tablets  25 mg (Unichem)
+AZTA33909MGEMIS	Azathioprine  Tablets  25 mg (A.A.H. Pharm)
+AZTA33910MGEMIS	Azathioprine  Tablets  25 mg (Ivax Pharmaceuticals)
+AZTA33911MGEMIS	Azathioprine  Tablets  25 mg (Alpharma)
+AZTA33912MGEMIS	Azathioprine  Tablets  25 mg (Teva UK)
+AZTA33913MGEMIS	Azathioprine  Tablets  50 mg (A.A.H. Pharm)
+AZTA33914MGEMIS	Azathioprine  Tablets  50 mg (Ivax Pharmaceuticals)
+AZTA33915MGEMIS	Azathioprine  Tablets  50 mg (Alpharma)
+AZTA33916MGEMIS	Azathioprine  Tablets  50 mg (Sandoz)
+AZTA33917MGEMIS	Azathioprine  Tablets  50 mg (Teva UK)
+AZTA33918MGEMIS	Azathioprine  Tablets  50 mg (Generics (UK))
+AZTA33919MGEMIS	Azathioprine  Tablets  50 mg (Kent Pharm)
+AZTA33920MGEMIS	Azathioprine  Tablets  50 mg (Unichem)
+AZTA95157NEMIS	Azapress  Tablets  50 mg
+IMIN3756	Imuran  Powder For Solution For Injection  50 mg vial
+IMTA1447	Imuran  Tablets  50 mg
+IMTA3757	Imuran  Tablets  25 mg
+IMTA9237BRIDL	Immunoprin  Tablets  50 mg
