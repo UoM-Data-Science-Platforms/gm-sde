@@ -1,0 +1,78 @@
+Term_Code	DM_D_Product_Description
+bu...	ANTIPLATELET DRUGS 
+bu12.	PERSANTIN 100mg tablets 
+bu1..	DIPYRIDAMOLE 
+bu13.	PERSANTIN 10mg/2mL injection 
+bu11.	*PERSANTIN 25mg tablets 
+bu14.	DIPYRIDAMOLE 25mg tablets 
+bu15.	DIPYRIDAMOLE 100mg tablets 
+bu16.	*VASYROL 25mg tablets 
+bu17.	*VASYROL 100mg tablets 
+bu18.	*CEREBROVASE 25mg tablets 
+bu19.	*CEREBROVASE 100mg tablets 
+bu1A.	*MODAPLATE 100mg tablets 
+bu1B.	*MODAPLATE 25mg tablets 
+bu1C.	DIPYRIDAMOLE 200mg m/r capsules 
+bu1D.	PERSANTIN RETARD 200mg m/r capsules 
+bu1E.	DIPYRIDAMOLE 50mg/5mL oral suspension 
+bu1F.	ATTIA 200mg m/r capsules 
+bu1G.	OFCRAM PR 200mg m/r capsules 
+bu1z.	DIPYRIDAMOLE 10mg/2mL injection 
+bu2..	ASPIRIN [ANTIPLATELET] 
+bu21.	ASPIRIN 100mg effervescent tablets 
+bu22.	PLATET 100mg effervescent tablets 
+bu23.	ASPIRIN 75mg dispersible tablets 
+bu24.	*ANGETTES 75mg tablets 
+bu25.	*ASPIRIN 75mg tablets 
+bu26.	PLATET 300mg effervescent tablets 
+bu27.	ASPIRIN 300mg effervescent tablets 
+bu28.	*DISPRIN CV 100mg m/r tablets 
+bu29.	*ASPIRIN 100mg m/r tablets 
+bu2a.	*DISPRIN CV 300mg m/r tablets 
+bu2A.	NU-SEALS ASPIRIN 75mg e/c tablets 
+bu2b.	*ASPIRIN 300mg m/r tablets 
+bu2B.	ASPIRIN 75mg e/c tablets 
+bu2c.	ASPIRIN 75mg soluble tablets 
+bu2C.	*POSTMI 300mg e/c tablets 
+bu2d.	FLAMASACARD 162.5mg m/r capsules 
+bu2D.	POSTMI 75mg dispersible tablets 
+bu2E.	*POSTMI 75mg e/c tablets 
+bu2F.	*CAPRIN 75mg e/c tablets 
+bu2G.	NU-SEALS CARDIO 75 e/c tablets 
+bu2H.	*ENPRIN 75mg e/c tablets 
+bu2I.	ASPIRIN 162.5mg m/r capsules 
+bu2K.	MICROPIRIN 75mg e/c tablets 
+bu3..	ABCIXIMAB 
+bu31.	ABCIXIMAB 10mg/5mL injection 
+bu32.	REOPRO 10mg/5mL injection 
+bu4..	DIPYRIDAMOLE+ASPIRIN 
+bu41.	DIPYRIDAMOLE+ASPIRIN 200mg/25mg m/r capsules 
+bu42.	ASASANTIN RETARD m/r capsules 
+bu43.	MOLITA 200mg/25mg m/r capsules 
+bu5..	CLOPIDOGREL 
+bu51.	CLOPIDOGREL 75mg tablets 
+bu52.	PLAVIX 75mg tablets 
+bu53.	PLAVIX 300mg tablets 
+bu54.	CLOPIDOGREL 300mg tablets 
+bu55.	GREPID 75mg tablets 
+bu6..	TICLOPIDINE 
+bu61.	TICLOPIDINE HYDROCHLORIDE 250mg tablets 
+bu62.	*TICLID 250mg tablets 
+bu7..	EPTIFIBATIDE 
+bu71.	INTEGRILIN 20mg/10mL injection 
+bu72.	INTEGRILIN 75mg/100mL infusion 
+bu7y.	EPTIFIBATIDE 20mg/10mL injection 
+bu7z.	EPTIFIBATIDE 75mg/100mL infusion 
+bu8..	TIROFIBAN 
+bu81.	AGGRASTAT 12.5mg/50mL infusion concentrate 
+bu82.	AGGRASTAT 12.5mg/250mL infusion solution 
+bu8y.	TIROFIBAN 12.5mg/250mL infusion solution 
+bu8z.	TIROFIBAN 12.5mg/50mL infusion concentrate 
+buA..	PRASUGREL 
+buA1.	EFIENT 5mg tablets 
+buA2.	PRASUGREL 5mg tablets 
+buA3.	EFIENT 10mg tablets 
+buA4.	PRASUGREL 10mg tablets 
+buB..	TICAGRELOR 
+buB1.	BRILIQUE 90mg tablets 
+buBz.	TICAGRELOR 90mg tablets 
