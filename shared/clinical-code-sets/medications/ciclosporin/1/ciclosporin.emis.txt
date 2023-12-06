@@ -1,0 +1,235 @@
+^ESCT1177576	Capsorin 100mg/ml oral solution (Morningside Healthcare Ltd)
+^ESCT1177577	Capsorin 100mg/ml oral solution (Morningside Healthcare Ltd) 50 ml
+^ESCT1178787	Product containing only ciclosporin 25 mg/1 each oral capsule
+^ESCT1178788	Product containing only cyclosporine 25 mg/1 each oral capsule
+^ESCT1180849	Capimune 50mg capsules (Mylan)
+^ESCT1180850	Capimune 50mg capsules (Mylan) 30 capsule 6 x 5 capsules
+^ESCT1180851	Capimune 100mg capsules (Mylan) 30 capsule 6 x 5 capsules
+^ESCT1180852	Capimune 25mg capsules (Mylan)
+^ESCT1180853	Capimune 25mg capsules (Mylan) 30 capsule 6 x 5 capsules
+^ESCT1182260	Product containing only cyclosporine 100 mg/1 each oral capsule
+^ESCT1182261	Product containing only ciclosporin 100 mg/1 each oral capsule
+^ESCT1186929	Capimune 100mg capsules (Mylan)
+^ESCT1188230	Product containing only cyclosporine 50 mg/1 each oral capsule
+^ESCT1188231	Product containing only ciclosporin 50 mg/1 each oral capsule
+^ESCT1188232	Product containing only cyclosporine 10 mg/1 each oral capsule
+^ESCT1188233	Product containing only ciclosporin 10 mg/1 each oral capsule
+^ESCT1216085	Ciclosporin 100mg/ml oral solution sugar free
+^ESCT1216086	Ciclosporin 250mg/5ml solution for infusion ampoules
+^ESCT1216087	Ciclosporin 50mg/1ml solution for infusion ampoules
+^ESCT1225095	Product containing precisely ciclosporin 25 milligram/1 each conventional release oral capsule
+^ESCT1225096	Cyclosporine 25 mg oral capsule
+^ESCT1225097	Ciclosporin 25 mg oral capsule
+^ESCT1225098	Cyclosporine 100 mg oral capsule
+^ESCT1225099	Product containing precisely ciclosporin 100 milligram/1 each conventional release oral capsule
+^ESCT1225100	Ciclosporin 100 mg oral capsule
+^ESCT1225101	Product containing precisely ciclosporin 50 milligram/1 each conventional release oral capsule
+^ESCT1225102	Cyclosporine 50 mg oral capsule
+^ESCT1225103	Ciclosporin 50 mg oral capsule
+^ESCT1225104	Product containing precisely ciclosporin 10 milligram/1 each conventional release oral capsule
+^ESCT1225105	Cyclosporine 10 mg oral capsule
+^ESCT1225106	Ciclosporin 10 mg oral capsule
+^ESCT1438280	Capimune 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438281	Capimune 50mg capsules (Viatris UK Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCT1438282	Capimune 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438283	Capimune 100mg capsules (Viatris UK Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCT1438284	Capimune 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438285	Capimune 25mg capsules (Viatris UK Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1003476	Capimune 50mg capsules (Mylan Ltd)
+^ESCTCA1003477	Capimune 50mg capsules (Mylan Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1003478	Capimune 100mg capsules (Mylan Ltd)
+^ESCTCA1003479	Capimune 100mg capsules (Mylan Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1003488	Capimune 25mg capsules (Mylan Ltd)
+^ESCTCA1003489	Capimune 25mg capsules (Mylan Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1019504	Capsorin 100mg capsules (Morningside Healthcare Ltd)
+^ESCTCA1019505	Capsorin 100mg capsules (Morningside Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1019506	Capsorin 50mg capsules (Morningside Healthcare Ltd)
+^ESCTCA1019507	Capsorin 50mg capsules (Morningside Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCTCA1019508	Capsorin 25mg capsules (Morningside Healthcare Ltd)
+^ESCTCA1019509	Capsorin 25mg capsules (Morningside Healthcare Ltd) 30 capsule 6 x 5 capsules
+^ESCTCI1005315	Ciclosporin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005316	Ciclosporin 25mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTCI1005317	Ciclosporin 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005318	Ciclosporin 50mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTCI1005319	Ciclosporin 100mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005320	Ciclosporin 100mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTCI1036727	Ciclosporin 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCI1036728	Ciclosporin 25mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTCI1036729	Ciclosporin 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCI1036730	Ciclosporin 50mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTCI1036731	Ciclosporin 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCI1036732	Ciclosporin 100mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTCI1041960	Ciclosporin 100mg capsules (Cubic Pharmaceuticals Ltd)
+^ESCTCI1041961	Ciclosporin 100mg capsules (Cubic Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1041962	Ciclosporin 50mg capsules (Cubic Pharmaceuticals Ltd)
+^ESCTCI1041963	Ciclosporin 50mg capsules (Cubic Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1041964	Ciclosporin 25mg capsules (Cubic Pharmaceuticals Ltd)
+^ESCTCI1041965	Ciclosporin 25mg capsules (Cubic Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1047273	Ciclosporin 25mg capsules (DE Pharmaceuticals)
+^ESCTCI1047274	Ciclosporin 25mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTCI1047275	Ciclosporin 50mg capsules (DE Pharmaceuticals)
+^ESCTCI1047276	Ciclosporin 50mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTCI1047277	Ciclosporin 100mg capsules (DE Pharmaceuticals)
+^ESCTCI1047278	Ciclosporin 100mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTCI1049016	Ciclosporin 100mg capsules (Colorama Pharmaceuticals Ltd)
+^ESCTCI1049017	Ciclosporin 100mg capsules (Colorama Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1049018	Ciclosporin 25mg capsules (Colorama Pharmaceuticals Ltd)
+^ESCTCI1049019	Ciclosporin 25mg capsules (Colorama Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1049020	Ciclosporin 50mg capsules (Colorama Pharmaceuticals Ltd)
+^ESCTCI1049021	Ciclosporin 50mg capsules (Colorama Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1056720	Ciclosporin 100mg capsules (J M McGill Ltd)
+^ESCTCI1056721	Ciclosporin 100mg capsules (J M McGill Ltd) 30 capsule
+^ESCTCI1056722	Ciclosporin 25mg capsules (J M McGill Ltd)
+^ESCTCI1056723	Ciclosporin 25mg capsules (J M McGill Ltd) 30 capsule
+^ESCTCI1056724	Ciclosporin 50mg capsules (J M McGill Ltd)
+^ESCTCI1056725	Ciclosporin 50mg capsules (J M McGill Ltd) 30 capsule
+^ESCTCI1059056	Ciclosporin 100mg capsules 50 capsule
+^ESCTCI1061583	Ciclosporin 100mg capsules (Niche Pharma Ltd)
+^ESCTCI1061584	Ciclosporin 100mg capsules (Niche Pharma Ltd) 30 capsule
+^ESCTCI1061585	Ciclosporin 25mg capsules (Niche Pharma Ltd)
+^ESCTCI1061586	Ciclosporin 50mg capsules (Niche Pharma Ltd)
+^ESCTCI1061587	Ciclosporin 25mg capsules (Niche Pharma Ltd) 30 capsule
+^ESCTCI1061588	Ciclosporin 50mg capsules (Niche Pharma Ltd) 30 capsule
+^ESCTCI1063231	Ciclosporin 100mg capsules (Lexon (UK) Ltd)
+^ESCTCI1063235	Ciclosporin 100mg capsules (Lexon (UK) Ltd) 30 capsule
+^ESCTCI1063653	Ciclosporin 25mg capsules (Ethigen Ltd)
+^ESCTCI1063654	Ciclosporin 25mg capsules (Ethigen Ltd) 30 capsule
+^ESCTCI1063655	Ciclosporin 50mg capsules (Ethigen Ltd)
+^ESCTCI1063656	Ciclosporin 50mg capsules (Ethigen Ltd) 30 capsule
+^ESCTCI1063657	Ciclosporin 100mg capsules (Ethigen Ltd)
+^ESCTCI1063658	Ciclosporin 100mg capsules (Ethigen Ltd) 30 capsule
+^ESCTCI1067076	Ciclosporin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1067077	Ciclosporin 25mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTCI1067078	Ciclosporin 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1067079	Ciclosporin 50mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTCI1067080	Ciclosporin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1067081	Ciclosporin 100mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTCI1078081	Ciclosporin 25mg capsules (Icarus Pharmaceuticals Ltd)
+^ESCTCI1078083	Ciclosporin 25mg capsules (Icarus Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1078088	Ciclosporin 50mg capsules (Icarus Pharmaceuticals Ltd)
+^ESCTCI1078090	Ciclosporin 50mg capsules (Icarus Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1078092	Ciclosporin 100mg capsules (Icarus Pharmaceuticals Ltd)
+^ESCTCI1078093	Ciclosporin 100mg capsules (Icarus Pharmaceuticals Ltd) 30 capsule
+^ESCTCI1081245	Ciclosporin 100mg capsules (Ennogen Healthcare Ltd)
+^ESCTCI1081248	Ciclosporin 100mg capsules (Ennogen Healthcare Ltd) 30 capsule
+^ESCTCI1081266	Ciclosporin 25mg capsules (Ennogen Healthcare Ltd)
+^ESCTCI1081271	Ciclosporin 25mg capsules (Ennogen Healthcare Ltd) 30 capsule
+^ESCTCI1081276	Ciclosporin 50mg capsules (Ennogen Healthcare Ltd)
+^ESCTCI1081295	Ciclosporin 50mg capsules (Ennogen Healthcare Ltd) 30 capsule
+^ESCTCI1097825	Ciclosporin 50mg capsules 50 capsule
+^ESCTCI1101484	Ciclosporin 100mg capsules (Pharma-z Ltd)
+^ESCTCI1101487	Ciclosporin 100mg capsules (Pharma-z Ltd) 30 capsule
+^ESCTCI1101489	Ciclosporin 25mg capsules (Pharma-z Ltd)
+^ESCTCI1101490	Ciclosporin 25mg capsules (Pharma-z Ltd) 30 capsule
+^ESCTCI1101495	Ciclosporin 50mg capsules (Pharma-z Ltd)
+^ESCTCI1101496	Ciclosporin 50mg capsules (Pharma-z Ltd) 30 capsule
+^ESCTCI613905	Ciclosporin 25mg capsules
+^ESCTCI613909	Ciclosporin 25 mg/1 each oral capsule
+^ESCTCI613910	Ciclosporin 100mg capsules
+^ESCTCI613912	Ciclosporin 100 mg/1 each oral capsule
+^ESCTCI613915	Ciclosporin 50mg capsules
+^ESCTCI613918	Ciclosporin 50 mg/1 each oral capsule
+^ESCTCI613920	Ciclosporin 10mg capsules
+^ESCTCI613924	Ciclosporin 10 mg/1 each oral capsule
+^ESCTCI837469	Ciclosporin 250mg/5ml solution for infusion ampoules 10 ampoule
+^ESCTCI841385	Ciclosporin 50mg/1ml solution for infusion ampoules 10 ampoule
+^ESCTCI847148	Ciclosporin 10mg capsules 30 capsule
+^ESCTCI847319	Ciclosporin 100mg capsules 30 capsule
+^ESCTCI847437	Ciclosporin 25mg capsules 30 capsule
+^ESCTCI848790	Ciclosporin 50mg capsules 30 capsule
+^ESCTCI862233	Ciclosporin 100mg/ml oral solution sugar free 50 ml
+^ESCTCI877855	Ciclosporin 10mg capsules 60 capsule
+^ESCTCI879614	Ciclosporin 25mg capsules 50 capsule
+^ESCTCI993051	Ciclosporin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCI993052	Ciclosporin 25mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTCI993053	Ciclosporin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCI993054	Ciclosporin 50mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTCI993055	Ciclosporin 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCI993056	Ciclosporin 100mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTCY613908	Cyclosporine 25 mg/1 each oral capsule
+^ESCTCY613913	Cyclosporine 100 mg/1 each oral capsule
+^ESCTCY613917	Cyclosporine 50 mg/1 each oral capsule
+^ESCTCY613923	Cyclosporine 10 mg/1 each oral capsule
+^ESCTDE990522	Deximune 25mg capsules (Dexcel-Pharma Ltd)
+^ESCTDE990523	Deximune 25mg capsules (Dexcel-Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTDE990524	Deximune 50mg capsules (Dexcel-Pharma Ltd)
+^ESCTDE990525	Deximune 50mg capsules (Dexcel-Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTDE990526	Deximune 100mg capsules (Dexcel-Pharma Ltd)
+^ESCTDE990527	Deximune 100mg capsules (Dexcel-Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTNE809650	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTNE810211	Neoral 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTNE817217	Neoral 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTNE820832	Neoral 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTNE855524	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTNE855526	Neoral 25mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule 6 x 5 capsules
+^ESCTNE855528	Neoral 50mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule 6 x 5 capsules
+^ESCTNE855530	Neoral 100mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule 6 x 5 capsules
+^ESCTNE862234	Neoral 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+^ESCTNE862237	Neoral 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd) 50 ml
+^ESCTNE877857	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd) 60 capsule
+^ESCTPR613906	Product containing ciclosporin 25 mg/1 each oral capsule
+^ESCTPR613907	Product containing cyclosporine 25 mg/1 each oral capsule
+^ESCTPR613911	Product containing ciclosporin 100 mg/1 each oral capsule
+^ESCTPR613914	Product containing cyclosporine 100 mg/1 each oral capsule
+^ESCTPR613916	Product containing ciclosporin 50 mg/1 each oral capsule
+^ESCTPR613919	Product containing cyclosporine 50 mg/1 each oral capsule
+^ESCTPR613921	Product containing ciclosporin 10 mg/1 each oral capsule
+^ESCTPR613922	Product containing cyclosporine 10 mg/1 each oral capsule
+^ESCTSA802646	Sandimmun 250mg/5ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA805148	Sandimmun 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA811212	Sandimmun 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA820640	Sandimmun 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA832601	Sandimmun 50mg/1ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA855525	Sandimmun 25mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule
+^ESCTSA855527	Sandimmun 50mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule
+^ESCTSA855529	Sandimmun 100mg capsules (Novartis Pharmaceuticals UK Ltd) 30 capsule
+^ESCTSA857091	Sandimmun 50mg/1ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTSA857092	Sandimmun 250mg/5ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTSA862238	Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+^ESCTSA862239	Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd) 50 ml
+^ESCTVA1103584	Vanquoral 25mg capsules (Teva UK Ltd)
+^ESCTVA1103586	Vanquoral 25mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTVA1103598	Vanquoral 50mg capsules (Teva UK Ltd)
+^ESCTVA1103604	Vanquoral 50mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTVA1103613	Vanquoral 100mg capsules (Teva UK Ltd)
+^ESCTVA1103615	Vanquoral 100mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTVA1118363	Vanquoral 10mg capsules (Teva UK Ltd)
+^ESCTVA1118365	Vanquoral 10mg capsules (Teva UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTVA1125933	Vanquoral 10mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+CACA45632NEMIS	Capimune  Capsules  100 mg
+CACA45633NEMIS	Capimune  Capsules  25 mg
+CACA45634NEMIS	Capimune  Capsules  50 mg
+CACA51166NEMIS	Capsorin  Capsules  25 mg
+CACA51167NEMIS	Capsorin  Capsules  50 mg
+CACA51168NEMIS	Capsorin  Capsules  100 mg
+CICA17607NEMIS	Ciclosporin  Capsules  10 mg
+CICA17608NEMIS	Ciclosporin  Capsules  25 mg
+CICA17609NEMIS	Ciclosporin  Capsules  100 mg
+CICA17610NEMIS	Ciclosporin  Capsules  50 mg
+CICO18472NEMIS	Ciclosporin  Concentrate For Solution For Infusion  50 mg/ml, 1 ml ampoule
+CICO18473NEMIS	Ciclosporin  Concentrate For Solution For Infusion  50 mg/ml, 5 ml ampoule
+CIOR17611NEMIS	Ciclosporin  Oral Solution, Sugar Free  100 mg/ml
+CYCA19706EMIS	Cyclosporin  Capsules  50 mg
+CYCA33599EMIS	Cyclosporin  Capsules  10 mg
+CYCA8746BRIDL	Cyclosporin  Capsules  100 mg
+CYCA9189BRIDL	Cyclosporin  Capsules  25 mg
+CYSU1749NEMIS	Cyclosporin  Sugar-free oral solution  100 mg/ml
+DECA39571NEMIS	Deximune  Capsules  100 mg
+DECA39572NEMIS	Deximune  Capsules  50 mg
+DECA39573NEMIS	Deximune  Capsules  25 mg
+NECA26623EMIS	Neoral  Capsules  100 mg
+NECA26624EMIS	Neoral  Capsules  25 mg
+NECA26625EMIS	Neoral  Capsules  50 mg
+NECA33597EMIS	Neoral  Capsules  10 mg
+NEOR26626EMIS	Neoral  Oral solution  100 mg/ml
+SACA10699BRIDL	Sandimmun  Capsules  25 mg
+SACA10701BRIDL	Sandimmun  Capsules  100 mg
+SACA19708EMIS	Sandimmun  Capsules  50 mg
+SACO18474NEMIS	Sandimmun  Concentrate For Solution For Infusion  50 mg/ml, 1 ml ampoule
+SACO18475NEMIS	Sandimmun  Concentrate For Solution For Infusion  50 mg/ml, 5 ml ampoule
+SAIN4306	Sandimmun  Intravenous infusion  50 mg/ml
+SAOR4307	Sandimmun  Oral solution  100 mg/ml
+VACA104990NEMIS	Vanquoral  Capsules  10 mg
+VACA97922NEMIS	Vanquoral  Capsules  100 mg
+VACA97923NEMIS	Vanquoral  Capsules  50 mg
+VACA97924NEMIS	Vanquoral  Capsules  25 mg
