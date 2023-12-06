@@ -1,0 +1,166 @@
+^ESCT1178790	Product containing only mycophenolate mofetil 250 mg/1 each oral capsule
+^ESCT1180864	Mycophenolate mofetil 500mg tablets (Mylan)
+^ESCT1181934	Product containing only mycophenolate mofetil 500 mg/1 each oral tablet
+^ESCT1184920	Mycophenolate mofetil 500mg tablets (Mylan) 50 tablet 5 x 10 tablets
+^ESCT1199408	Mycophenolate mofetil 500mg tablets (Tillomed Laboratories Ltd)
+^ESCT1199409	Mycophenolate mofetil 500mg tablets (Tillomed Laboratories Ltd) 50 tablet
+^ESCT1225113	Mycophenolate mofetil 250 mg oral capsule
+^ESCT1225114	Product containing precisely mycophenolate mofetil 250 milligram/1 each conventional release oral capsule
+^ESCT1225115	Product containing precisely mycophenolate mofetil 500 milligram/1 each conventional release oral tablet
+^ESCT1225116	Mycophenolate mofetil (as mycophenolate mofetil hydrochloride) 500 mg powder for solution for injection vial
+^ESCT1225117	Product containing precisely mycophenolate mofetil (as mycophenolate mofetil hydrochloride) 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1306242	Mycophenolate mofetil 250mg capsules 300 capsule
+^ESCT1306243	Mycophenolate mofetil 250mg capsules (Tillomed Laboratories Ltd)
+^ESCT1306244	Mycophenolate mofetil 250mg capsules (Tillomed Laboratories Ltd) 300 capsule 30 x 10 capsules
+^ESCT1306245	Mycophenolate mofetil 250mg capsules (Tillomed Laboratories Ltd) 100 capsule 10 x 10 capsules
+^ESCT1402340	Mycophenolate mofetil 250mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402341	Mycophenolate mofetil 250mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1422398	Arzip 500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422399	Arzip 500mg tablets (Zentiva Pharma UK Ltd) 50 tablet 5 x 10 tablets
+^ESCT1422400	Arzip 250mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422401	Arzip 250mg capsules (Zentiva Pharma UK Ltd) 100 capsule 10 x 10 capsules
+^ESCT1427762	Mycophenolate mofetil 250mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427763	Mycophenolate mofetil 250mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1427764	Mycophenolate mofetil 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427765	Mycophenolate mofetil 500mg tablets (Kent Pharma (UK) Ltd) 50 tablet
+^ESCT1429396	Mycophenolate mofetil 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429399	Mycophenolate mofetil 500mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1433153	Mycophenolate mofetil 500mg tablets (Wockhardt UK Ltd)
+^ESCT1433154	Mycophenolate mofetil 500mg tablets (Wockhardt UK Ltd) 50 tablet 5 x 10 tablets
+^ESCT1433155	Mycophenolate mofetil 500mg tablets (Sandoz Ltd)
+^ESCT1433156	Mycophenolate mofetil 500mg tablets (Sandoz Ltd) 50 tablet
+^ESCT1438290	Mycophenolate mofetil 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438291	Mycophenolate mofetil 500mg tablets (Viatris UK Healthcare Ltd) 50 tablet 5 x 10 tablets
+^ESCTAR1008131	Arzip 500mg tablets (Zentiva)
+^ESCTAR1008132	Arzip 500mg tablets (Zentiva) 50 tablet 5 x 10 tablets
+^ESCTAR1008133	Arzip 250mg capsules (Zentiva)
+^ESCTAR1008134	Arzip 250mg capsules (Zentiva) 100 capsule 10 x 10 capsules
+^ESCTCE863188	CellCept 250mg capsules (Roche Products Ltd)
+^ESCTCE863190	CellCept 250mg capsules (Roche Products Ltd) 100 capsule 10 x 10 capsules
+^ESCTCE863205	CellCept 500mg tablets (Roche Products Ltd)
+^ESCTCE863207	CellCept 500mg tablets (Roche Products Ltd) 50 tablet 5 x 10 tablets
+^ESCTCE869207	CellCept 500mg powder for solution for infusion vials (Roche Products Ltd)
+^ESCTCE869208	CellCept 500mg powder for solution for infusion vials (Roche Products Ltd) 4 vial
+^ESCTCE873603	CellCept 1g/5ml oral suspension (Roche Products Ltd)
+^ESCTCE873604	CellCept 1g/5ml oral suspension (Roche Products Ltd) 175 ml
+^ESCTMY1008105	Myfenax 500mg tablets (Teva UK Ltd)
+^ESCTMY1008106	Myfenax 500mg tablets (Teva UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTMY1008107	Myfenax 250mg capsules (Teva UK Ltd)
+^ESCTMY1008108	Myfenax 250mg capsules (Teva UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTMY1008109	Mycophenolate mofetil 250mg capsules (Actavis UK Ltd)
+^ESCTMY1008110	Mycophenolate mofetil 250mg capsules (Actavis UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTMY1008111	Mycophenolate mofetil 500mg tablets (Actavis UK Ltd)
+^ESCTMY1008112	Mycophenolate mofetil 500mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTMY1009452	Mycophenolate mofetil 250mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTMY1009453	Mycophenolate mofetil 250mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTMY1009454	Mycophenolate mofetil 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMY1009455	Mycophenolate mofetil 500mg tablets (A A H Pharmaceuticals Ltd) 50 tablet 5 x 10 tablets
+^ESCTMY1009760	Mycophenolate mofetil 250mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMY1009761	Mycophenolate mofetil 250mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTMY1009762	Mycophenolate mofetil 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMY1009763	Mycophenolate mofetil 500mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTMY1010412	Mycophenolate mofetil 500mg tablets (Mylan Ltd)
+^ESCTMY1010413	Mycophenolate mofetil 500mg tablets (Mylan Ltd) 50 tablet 5 x 10 tablets
+^ESCTMY1010908	Mycophenolate mofetil 250mg capsules (Accord Healthcare Ltd)
+^ESCTMY1010909	Mycophenolate mofetil 250mg capsules (Accord Healthcare Ltd) 100 capsule
+^ESCTMY1010910	Mycophenolate mofetil 500mg tablets (Accord Healthcare Ltd)
+^ESCTMY1010911	Mycophenolate mofetil 500mg tablets (Accord Healthcare Ltd) 50 tablet
+^ESCTMY1011031	Mycophenolate mofetil 500mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTMY1011032	Mycophenolate mofetil 500mg tablets (Dr Reddy's Laboratories (UK) Ltd) 50 tablet
+^ESCTMY1011033	Mycophenolate mofetil 250mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTMY1011034	Mycophenolate mofetil 250mg capsules (Dr Reddy's Laboratories (UK) Ltd) 100 capsule
+^ESCTMY1012353	Mycophenolate mofetil 250mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTMY1012354	Mycophenolate mofetil 250mg capsules (Phoenix Healthcare Distribution Ltd) 100 capsule
+^ESCTMY1012355	Mycophenolate mofetil 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMY1012356	Mycophenolate mofetil 500mg tablets (Phoenix Healthcare Distribution Ltd) 50 tablet
+^ESCTMY1013335	Mycophenolate mofetil 250mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTMY1013338	Mycophenolate mofetil 250mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTMY1013347	Mycophenolate mofetil 500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMY1013350	Mycophenolate mofetil 500mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTMY1020002	Mycophenolate motefil 500mg tablets (Wockhardt UK Ltd)
+^ESCTMY1020003	Mycophenolate motefil 500mg tablets (Wockhardt UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTMY1027818	Mycophenolate mofetil 250mg capsules (Sandoz Ltd)
+^ESCTMY1027819	Mycophenolate mofetil 250mg capsules (Sandoz Ltd) 100 capsule
+^ESCTMY1027820	Mycophenolate motefil 500mg tablets (Sandoz Ltd)
+^ESCTMY1027821	Mycophenolate motefil 500mg tablets (Sandoz Ltd) 50 tablet
+^ESCTMY1041711	Mycophenolate mofetil 250mg capsules (Waymade Healthcare Plc)
+^ESCTMY1041712	Mycophenolate mofetil 250mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTMY1041713	Mycophenolate mofetil 500mg tablets (Waymade Healthcare Plc)
+^ESCTMY1041714	Mycophenolate mofetil 500mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTMY1042028	Mycophenolate mofetil 250mg capsules (Cubic Pharmaceuticals Ltd)
+^ESCTMY1042030	Mycophenolate mofetil 250mg capsules (Cubic Pharmaceuticals Ltd) 100 capsule
+^ESCTMY1046774	Mycophenolate mofetil 250mg capsules (AM Distributions (Yorkshire) Ltd)
+^ESCTMY1046775	Mycophenolate mofetil 250mg capsules (AM Distributions (Yorkshire) Ltd) 100 capsule
+^ESCTMY1047289	Mycophenolate mofetil 250mg capsules (DE Pharmaceuticals)
+^ESCTMY1047290	Mycophenolate mofetil 250mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCTMY1047772	Mycophenolate mofetil 500mg tablets (Arrow Generics Ltd)
+^ESCTMY1047773	Mycophenolate mofetil 500mg tablets (Arrow Generics Ltd) 50 tablet
+^ESCTMY1049034	Mycophenolate mofetil 250mg capsules (Colorama Pharmaceuticals Ltd)
+^ESCTMY1049035	Mycophenolate mofetil 250mg capsules (Colorama Pharmaceuticals Ltd) 100 capsule
+^ESCTMY1054803	Mycophenolate mofetil 250mg capsules (J M McGill Ltd)
+^ESCTMY1054805	Mycophenolate mofetil 250mg capsules (J M McGill Ltd) 100 capsule
+^ESCTMY1061789	Mycophenolate mofetil 250mg capsules (Niche Pharma Ltd)
+^ESCTMY1061791	Mycophenolate mofetil 250mg capsules (Niche Pharma Ltd) 100 capsule
+^ESCTMY1062422	Mycophenolate mofetil 250mg capsules (CST Pharma Ltd)
+^ESCTMY1062423	Mycophenolate mofetil 250mg capsules (CST Pharma Ltd) 100 capsule
+^ESCTMY1066032	Mycophenolate mofetil 500mg tablets (DE Pharmaceuticals)
+^ESCTMY1066033	Mycophenolate mofetil 500mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTMY1067546	Mycophenolate mofetil 250mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTMY1067547	Mycophenolate mofetil 250mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCTMY1079904	Mycophenolate mofetil 250mg capsules (Icarus Pharmaceuticals Ltd)
+^ESCTMY1079906	Mycophenolate mofetil 250mg capsules (Icarus Pharmaceuticals Ltd) 100 capsule
+^ESCTMY1126971	Mycophenolate mofetil 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMY1126972	Mycophenolate mofetil 500mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTMY1142015	Mycophenolate mofetil 250mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTMY1142016	Mycophenolate mofetil 250mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTMY1142017	Mycophenolate mofetil 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMY1142018	Mycophenolate mofetil 500mg tablets (Kent Pharmaceuticals Ltd) 50 tablet
+^ESCTMY1150568	Mycophenolate mofetil 500mg powder for concentrate for solution for infusion vials (Accord Healthcare Ltd)
+^ESCTMY1150570	Mycophenolate mofetil 500mg powder for concentrate for solution for infusion vials (Accord Healthcare Ltd) 4 vial
+^ESCTMY613950	Mycophenolate mofetil 250mg capsules
+^ESCTMY613951	Mycophenolate mofetil 250 mg/1 each oral capsule
+^ESCTMY613953	Mycophenolate mofetil 500mg tablets
+^ESCTMY613955	Mycophenolate mofetil 500 mg oral tablet
+^ESCTMY613956	Mycophenolate mofetil 500mg powder for solution for infusion vials
+^ESCTMY613957	Mycophenolate mofetil 500mg infusion concentrate (pdr for recon)
+^ESCTMY613958	Mycophenolate mofetil 500mg powder for infusion solution vial
+^ESCTMY863185	Mycophenolate mofetil 250mg capsules 100 capsule
+^ESCTMY863201	Mycophenolate mofetil 500mg tablets 50 tablet
+^ESCTMY869206	Mycophenolate mofetil 500mg powder for solution for infusion vials 4 vial
+^ESCTMY873601	Mycophenolate mofetil 1g/5ml oral suspension sugar free 175 ml
+^ESCTMY873748	Mycophenolate mofetil 1g/5ml oral suspension sugar free
+^ESCTMY929695	Mycophenolate mofetil 500mg tablets 150 tablet
+^ESCTMY957398	Mycophenolate mofetil 100mg/5ml oral suspension 1 ml
+^ESCTMY957400	Mycophenolate mofetil 100mg/5ml oral suspension (Special Order)
+^ESCTMY957402	Mycophenolate mofetil 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMY957404	Mycophenolate mofetil 125mg/5ml oral suspension 1 ml
+^ESCTMY957406	Mycophenolate mofetil 125mg/5ml oral suspension (Special Order)
+^ESCTMY957408	Mycophenolate mofetil 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMY957417	Mycophenolate mofetil 250mg/5ml oral suspension 1 ml
+^ESCTMY957420	Mycophenolate mofetil 250mg/5ml oral suspension (Special Order)
+^ESCTMY957421	Mycophenolate mofetil 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMY957425	Mycophenolate mofetil 300mg/5ml oral suspension 1 ml
+^ESCTMY957429	Mycophenolate mofetil 300mg/5ml oral suspension (Special Order)
+^ESCTMY957430	Mycophenolate mofetil 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMY957434	Mycophenolate mofetil 500mg/5ml oral suspension 1 ml
+^ESCTMY957438	Mycophenolate mofetil 500mg/5ml oral suspension (Special Order)
+^ESCTMY957439	Mycophenolate mofetil 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMY957560	Mycophenolate mofetil 100mg/5ml oral suspension
+^ESCTMY957561	Mycophenolate mofetil 125mg/5ml oral suspension
+^ESCTMY957562	Mycophenolate mofetil 250mg/5ml oral suspension
+^ESCTMY957563	Mycophenolate mofetil 300mg/5ml oral suspension
+^ESCTMY957564	Mycophenolate mofetil 500mg/5ml oral suspension
+^ESCTPR613952	Product containing mycophenolate mofetil 250 mg/1 each oral capsule
+^ESCTPR613954	Product containing mycophenolate mofetil 500 mg/1 each oral tablet
+ARCA47248NEMIS	Arzip  Capsules  250 mg
+ARTA47249NEMIS	Arzip  Tablets  500 mg
+CECA28264EMIS	Cellcept  Capsules  250 mg
+CEIN185NEMIS	Cellcept  Powder for solution for infusion  500 mg vial
+CEOR12886NEMIS	Cellcept  Oral suspension  1 gram/5 ml
+CETA31623EMIS	Cellcept  Tablets  500 mg
+MYCA28266EMIS	Mycophenolate Mofetil  Capsules  250 mg
+MYCA47253NEMIS	Myfenax  Capsules  250 mg
+MYIN184NEMIS	Mycophenolate Mofetil  Powder for solution for infusion  500 mg vial
+MYOR12885NEMIS	Mycophenolate Mofetil  Oral Suspension Sugar Free  1 gram/5 ml
+MYTA31625EMIS	Mycophenolate Mofetil  Tablets  500 mg
+MYTA47254NEMIS	Myfenax  Tablets  500 mg

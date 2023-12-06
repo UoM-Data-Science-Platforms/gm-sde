@@ -1,0 +1,10 @@
+h841.	Mycophenolate mofetil 250mg capsule
+h842.	CellCept 250mg capsule
+h843.	Mycophenolate mofetil 500mg tablet
+h844.	CellCept 500mg tablet
+h845.	CellCept 500mg infusion concentrate (pdr for recon)
+h846.	Mycophenolate mofetil 1g/5mL oral suspension
+h847.	CellCept 1g/5mL oral suspension
+h84a.	ARZIP 250mg capsules
+h84b.	ARZIP 500mg tablets
+h84z.	Mycophenolate mofetil 500mg infusion concentrate (pdr for recon)
