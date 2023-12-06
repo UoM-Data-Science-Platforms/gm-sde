@@ -1,0 +1,8 @@
+239892009	Primary antiphospholipid syndrome (disorder)
+239893004	Primary antiphospholipid syndrome with organ/system involvement (disorder)
+239894005	Primary antiphospholipid syndrome with multisystem involvement (disorder)
+239895006	Secondary antiphospholipid syndrome (disorder)
+239896007	Secondary antiphospholipid syndrome with organ/system involvement (disorder)
+239897003	Secondary antiphospholipid syndrome with multisystem involvement (disorder)
+26843008	Antiphospholipid syndrome (disorder)
+878791000000101	Lupus anticoagulant positive (finding)
