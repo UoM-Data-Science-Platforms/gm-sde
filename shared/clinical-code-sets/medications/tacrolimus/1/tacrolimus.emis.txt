@@ -1,0 +1,42 @@
+^ESCT1230433	Tacrolimus 0.03% ointment
+^ESCT1230434	Product containing precisely tacrolimus (as tacrolimus monohydrate) 300 microgram/1 gram conventional release cutaneous ointment
+^ESCT1230435	Tacrolimus (as tacrolimus monohydrate) 300 microgram/g cutaneous ointment
+^ESCT1230436	Tacrolimus 0.1% ointment
+^ESCT1230437	Tacrolimus (as tacrolimus monohydrate) 1 mg/g cutaneous ointment
+^ESCT1230438	Product containing precisely tacrolimus (as tacrolimus monohydrate) 1 milligram/1 gram conventional release cutaneous ointment
+^ESCT1249925	Tacrolimus 0.1% ointment (Teva UK Ltd)
+^ESCT1249926	Tacrolimus 0.1% ointment (Teva UK Ltd) 30 gram
+^ESCT1249927	Tacrolimus 0.1% ointment (Teva UK Ltd) 60 gram
+^ESCT1254536	Tacrolimus 0.1% ointment (Accord Healthcare Ltd)
+^ESCT1254537	Tacrolimus 0.1% ointment (Accord Healthcare Ltd) 30 gram
+^ESCT1254538	Tacrolimus 0.1% ointment (Accord Healthcare Ltd) 60 gram
+^ESCT1254558	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd)
+^ESCT1254559	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCT1254563	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd) 60 gram
+^ESCT1256677	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCT1256680	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCT1256684	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd) 60 gram
+^ESCT1275653	Tacrolimus 0.1% ointment (DE Pharmaceuticals)
+^ESCT1275655	Tacrolimus 0.1% ointment (DE Pharmaceuticals) 30 gram
+^ESCT1275657	Tacrolimus 0.1% ointment (DE Pharmaceuticals) 60 gram
+^ESCT1404209	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd)
+^ESCT1404210	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd) 30 gram
+^ESCT1404212	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd) 60 gram
+^ESCTPR861467	Protopic 0.03% ointment (LEO Pharma)
+^ESCTPR861471	Protopic 0.03% ointment (LEO Pharma) 30 gram
+^ESCTPR861474	Protopic 0.03% ointment (LEO Pharma) 60 gram
+^ESCTPR861486	Protopic 0.1% ointment (LEO Pharma)
+^ESCTPR861487	Protopic 0.1% ointment (LEO Pharma) 30 gram
+^ESCTPR861490	Protopic 0.1% ointment (LEO Pharma) 60 gram
+^ESCTTA675422	Tacrolimus 0.03% ointment
+^ESCTTA675423	Tacrolimus monohydrate 0.03% ointment
+^ESCTTA675424	Tacrolimus 0.1% ointment
+^ESCTTA675425	Tacrolimus monohydrate 0.1% ointment
+^ESCTTA861462	Tacrolimus 0.03% ointment 30 gram
+^ESCTTA861463	Tacrolimus 0.03% ointment 60 gram
+^ESCTTA861483	Tacrolimus 0.1% ointment 30 gram
+^ESCTTA861485	Tacrolimus 0.1% ointment 60 gram
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %

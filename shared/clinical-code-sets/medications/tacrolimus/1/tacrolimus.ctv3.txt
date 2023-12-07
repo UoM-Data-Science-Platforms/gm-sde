@@ -1,0 +1,4 @@
+m5E1.	Tacrolimus monohydrate 0.03% ointment
+m5E2.	Tacrolimus monohydrate 0.1% ointment
+x05cp	Protopic 0.03% ointment
+x05cq	Protopic 0.1% ointment

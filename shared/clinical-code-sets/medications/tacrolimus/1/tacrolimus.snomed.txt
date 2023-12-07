@@ -1,0 +1,30 @@
+407889001	Tacrolimus 0.03% ointment
+3382511000001102	Tacrolimus 0.03% ointment
+3382611000001103	Tacrolimus 0.03% ointment
+3383011000001101	Protopic 0.03% ointment (LEO Pharma)
+3383411000001105	Protopic 0.03% ointment (LEO Pharma)
+3383711000001104	Protopic 0.03% ointment (LEO Pharma)
+407890005	Tacrolimus 0.1% ointment
+3384411000001108	Tacrolimus 0.1% ointment
+3384611000001106	Tacrolimus 0.1% ointment
+3384711000001102	Protopic 0.1% ointment (LEO Pharma)
+3384811000001105	Protopic 0.1% ointment (LEO Pharma)
+3385111000001104	Protopic 0.1% ointment (LEO Pharma)
+36466111000001106	Tacrolimus 0.1% ointment (Teva UK Ltd)
+36466211000001100	Tacrolimus 0.1% ointment (Teva UK Ltd)
+36466311000001108	Tacrolimus 0.1% ointment (Teva UK Ltd)
+36526411000001103	Tacrolimus 0.1% ointment (Accord Healthcare Ltd)
+36526511000001104	Tacrolimus 0.1% ointment (Accord Healthcare Ltd)
+36526611000001100	Tacrolimus 0.1% ointment (Accord Healthcare Ltd)
+36529611000001108	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd)
+36529711000001104	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd)
+39264311000001106	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd)
+39264411000001104	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd)
+39264611000001101	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd)
+36530211000001102	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd)
+36647211000001107	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd)
+36647511000001105	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd)
+36647911000001103	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd)
+37817211000001109	Tacrolimus 0.1% ointment (DE Pharmaceuticals)
+37817411000001108	Tacrolimus 0.1% ointment (DE Pharmaceuticals)
+37817611000001106	Tacrolimus 0.1% ointment (DE Pharmaceuticals)
