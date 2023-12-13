@@ -187,7 +187,7 @@
 7K1LF00	Closed reduction of fracture of humerus
 7K1Lg00	Revision to arthroscopic reduction and fixation of fracture
 7K1LG00	Closed reduction of fracture of shoulder
-7K1LH00	Closed reduction of fracture of finger
+7K1LH00	Closed reduction of fracture of fingert
 7K1LJ00	Closed reduction of fracture of thumb
 7K1LK00	Closed reduction of fracture of metacarpus
 7K1LL00	Closed reduction of fracture of radius and or ulna

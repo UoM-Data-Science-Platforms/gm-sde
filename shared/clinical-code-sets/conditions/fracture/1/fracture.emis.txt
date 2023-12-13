@@ -1,0 +1,591 @@
+^ESCT1177931	Injury of thorax
+^ESCT1190495	Open fracture of the proximal humerus
+^ESCT1192378	Closed fracture of radius and ulna, shaft, NOS
+^ESCT1192381	Cls # prox femur, intracapsular section, unspecified
+^ESCT1205396	Open fracture of coccyx
+^ESCT1222096	Closed fracture intercondylar spine of tibia
+^ESCT1222097	Closed fracture of tibial spine
+^ESCT1222098	Closed fracture of tibial eminence
+^ESCT1222099	Open fracture intercondylar spine of tibia
+^ESCT1222100	Open fracture tibial eminence
+^ESCT1222101	Open fracture tibial spine
+^ESCT1245180	Revision to collar stabilisation of spinal fracture
+^ESCT1245244	Prmy open reduction of fracture and skeletal traction
+^ESCT1245247	Primary collar stabilisation of spinal fracture
+^ESCT1245318	Open fracture spine, tibia
+^ESCT1248406	Closed fracture of tibia or fibula, shaft
+^ESCT1248408	Closed fracture spine, tibia
+^ESCT1248411	Closed reduction of fracture of radius and or ulna
+^ESCT1248412	Closed reduction of fracture of tibia and or fibula
+^ESCT1270272	Open fracture distal humerus, medial condyle
+^ESCT1270427	Closed fracture distal humerus, medial condyle
+^ESCT1376409	Fracture of multiple sites of bone
+^ESCT1378466	Intracranial injury co-occurrent and due to closed fracture of base of skull
+^ESCT1378468	Intracranial injury co-occurrent and due to closed skull fracture
+^ESCT1379029	Pathological fracture co-occurrent and due to post-surgical malabsorption osteoporosis
+^ESCT1379030	Pathological fracture co-occurrent and due to drug-induced osteoporosis
+^ESCT1379033	Intracranial injury co-occurrent and due to closed fracture of vault of skull
+^ESCT1379034	Intracranial injury co-occurrent and due to open fracture vault of skull
+^ESCT1379035	Cauda equina lesion co-occurrent and due to closed spinal fracture
+^ESCT1379051	Disorder due to and following fracture at wrist and/or hand level
+^ESCT1379052	Late effect of fracture at wrist and/or hand level
+^ESCT1379053	Sequela of fracture at wrist and/or hand level
+^ESCT1379668	Closed subcapital fracture of neck of femur
+^ESCT1407183	Closed fracture subluxation of elbow joint
+^ESCT1407184	Open fracture dislocation of distal interphalangeal joint of finger
+^ESCT1407482	Closed reduction of fracture of arm
+^ESCT1419638	Open fracture of distal radius and ulna
+^ESCT1419715	Open fracture of midshaft of radius and ulna
+^ESCT1419716	Open subcapital fracture of proximal femur Garden grade I
+^ESCT1419717	Open subcapital fracture of proximal femur Garden grade II
+^ESCT1419718	Open subcapital fracture of proximal femur Garden grade III
+^ESCT1419719	Open subcapital fracture of proximal femur Garden grade IV
+^ESCT1419870	Closed fracture involving thorax with lower back and pelvis and limbs
+^ESCTAN275553	Ankle fracture
+^ESCTAN482134	Angular malunion of fracture
+^ESCTAN565278	Ankle fracture - lateral malleolus
+^ESCTAP513648	Application of spinal traction system
+^ESCTBI546255	Bimalleolar fracture of ankle
+^ESCTBO556377	Bone immobilisation
+^ESCTBO556378	Bone immobilization
+^ESCTBR437883	Broken bone
+^ESCTBR546163	Broken nose
+^ESCTCL250422	Closed fracture of trapezoidal bone of wrist
+^ESCTCL250423	Closed fracture of small multangular bone of wrist
+^ESCTCL252497	Closed fracture of acromial end of clavicle
+^ESCTCL252564	Closed fracture of cervicotrochanteric section of femur
+^ESCTCL253547	Closed fracture of proximal end of forearm
+^ESCTCL255038	Closed fracture of shaft of radius
+^ESCTCL257534	Closed fracture of zygoma
+^ESCTCL257536	Closed fracture of malar bone
+^ESCTCL260695	Closed trimalleolar fracture
+^ESCTCL265096	Closed fracture of carpal bone of wrist
+^ESCTCL265623	Closed fracture of cuboid bone of foot
+^ESCTCL268768	Closed fracture of axis without spinal cord injury
+^ESCTCL269427	Closed fracture of multiple ribs
+^ESCTCL274412	Closed fracture of medial malleolus
+^ESCTCL277320	Closed fracture of lower end of radius
+^ESCTCL280569	Closed fracture of upper end of radius AND ulna
+^ESCTCL281945	Closed fracture of intracapsular section of femur
+^ESCTCL288618	Closed fracture of intermediate cuneiform bone of foot
+^ESCTCL289656	Closed reduction of jaw fracture
+^ESCTCL290646	Closed fracture of thigh
+^ESCTCL290647	Closed fracture of upper leg
+^ESCTCL295073	Closed fracture of shaft of bone of forearm
+^ESCTCL295074	Closed fracture of shaft of radius and/or ulna
+^ESCTCL295535	Closed fracture of head of fibula
+^ESCTCL296706	Closed Monteggia fracture
+^ESCTCL297893	Closed fracture of shoulder blade
+^ESCTCL299359	Closed fracture of triquetral bone of wrist
+^ESCTCL299360	Closed fracture of cuneiform bone of wrist
+^ESCTCL299813	Closed supracondylar fracture of femur
+^ESCTCL303186	Closed fracture of proximal end of ulna
+^ESCTCL303298	Closed fracture of acetabulum
+^ESCTCL303424	Closed fracture of lower end of radius AND ulna
+^ESCTCL305187	Closed fracture of lateral malleolus
+^ESCTCL307093	Closed fracture of distal end of forearm
+^ESCTCL308693	Closed fracture of ischium
+^ESCTCL309496	Closed fracture of metatarsal bone
+^ESCTCL309869	Closed fracture of hamate bone of wrist
+^ESCTCL309870	Closed fracture of unciform bone of wrist
+^ESCTCL310603	Closed fracture of lunate bone of wrist
+^ESCTCL310604	Closed fracture of semilunar bone of wrist
+^ESCTCL316099	Closed fracture of styloid process of ulna
+^ESCTCL317663	Closed fracture of lateral cuneiform bone of foot
+^ESCTCL318187	Closed fracture of cuneiform bone of foot
+^ESCTCL318727	Closed fracture of proximal end of humerus
+^ESCTCL319032	Closed fracture of scaphoid bone of wrist
+^ESCTCL319034	Closed fracture of navicular bone of wrist
+^ESCTCL319760	Closed fracture of upper arm
+^ESCTCL320474	Closed fracture of pisiform bone of wrist
+^ESCTCL326410	Closed reduction of fracture with internal fixation
+^ESCTCL326411	Closed fracture reduction and internal fixation
+^ESCTCL328591	Closed fracture of sternal end of clavicle
+^ESCTCL329829	Closed fracture of orbital floor (blow-out)
+^ESCTCL329831	Closed blow-out fracture orbit
+^ESCTCL331613	Closed fracture of lower end of ulna
+^ESCTCL331614	Closed fracture of lower epiphysis
+^ESCTCL337220	Closed fracture of shaft of ulna
+^ESCTCL342815	Closed fracture of trapezium bone of wrist
+^ESCTCL342816	Closed fracture of larger multangular bone of wrist
+^ESCTCL345154	Closed supracondylar fracture of humerus
+^ESCTCL346878	Closed fracture of upper end of fibula
+^ESCTCL355181	Closed fracture of heel bone
+^ESCTCL355182	Closed fracture of os calcis
+^ESCTCL357511	Closed fracture of sternum
+^ESCTCL359698	Closed fracture of medial cuneiform bone of foot
+^ESCTCL361928	Closed fracture of coronoid process of ulna
+^ESCTCL361980	Closed fracture of head of radius
+^ESCTCL365724	Closed fracture of proximal end of radius
+^ESCTCL367891	Closed fracture of neck of radius
+^ESCTCL372452	Closed fracture of navicular bone of foot
+^ESCTCL372453	Closed fracture of scaphoid bone of foot
+^ESCTCL373904	Closed fracture of alveolar border of body of mandible
+^ESCTCL373905	Closed fracture of mandibular alveolar ridge
+^ESCTCL374982	Closed fracture of distal phalanx of finger
+^ESCTCL376593	Closed fracture of shaft of fibula
+^ESCTCL382644	Closed fracture of phalanx of foot
+^ESCTCL382645	Closed fracture of toe
+^ESCTCL382762	Closed fracture of nasal bones
+^ESCTCL392051	Closed fracture of shaft of clavicle
+^ESCTCL396486	Closed fracture of capitate bone of wrist
+^ESCTCL396487	Closed fracture of os magnum of wrist
+^ESCTCL396682	Closed fracture of shaft of humerus
+^ESCTCL419804	Closed skull fracture with intracranial injury
+^ESCTCL419814	Closed fracture of acromial process of scapula
+^ESCTCL419815	Closed fracture of acromion of scapula
+^ESCTCL419822	Closed fracture of upper end of lower leg
+^ESCTCL419823	Closed fracture of upper end of tibia AND fibula
+^ESCTCL442453	Clinical actions
+^ESCTCL442454	Clinical action
+^ESCTCL468796	Closed reduction of fracture of tibia and/or fibula
+^ESCTCL468807	Closed reduction of fracture of radius and/or ulna
+^ESCTCL483939	Closed fracture of lower jaw bone
+^ESCTCL483940	Closed fracture of mandible
+^ESCTCL483941	Closed fracture of inferior maxilla
+^ESCTCL483943	Closed fracture of condylar process of mandible
+^ESCTCL483945	Closed fracture of coronoid process of mandible
+^ESCTCL483947	Closed fracture of angle of jaw
+^ESCTCL483948	Closed fracture of symphysis of body of mandible
+^ESCTCL483951	Closed fracture of multiple sites of mandible
+^ESCTCL484139	Closed fracture of pubis
+^ESCTCL484152	Closed fracture dislocation of sacroiliac joint
+^ESCTCL484180	Closed fracture of anatomical neck of humerus
+^ESCTCL484195	Closed fracture of trochlea of humerus
+^ESCTCL484200	Closed multiple fractures of lower end of humerus
+^ESCTCL484219	Closed Smith's fracture
+^ESCTCL484223	Closed volar Barton's fracture subluxation
+^ESCTCL484224	Closed volar Barton's fracture dislocation
+^ESCTCL484225	Closed volar Barton fracture
+^ESCTCL484227	Closed dorsal Barton's fracture subluxation
+^ESCTCL484228	Closed dorsal Barton's fracture dislocation
+^ESCTCL484229	Closed dorsal Barton fracture
+^ESCTCL484294	Closed fracture of sesamoid bone of hand
+^ESCTCL484373	Closed fracture of head of femur
+^ESCTCL484391	Closed subtrochanteric fracture of femur
+^ESCTCL484400	Closed fracture of lower epiphysis of femur
+^ESCTCL484880	Closed fracture dislocation superior radioulnar joint
+^ESCTCL484884	Closed fracture subluxation elbow
+^ESCTCL484885	Closed fracture subluxation elbow joint
+^ESCTCL484886	Closed fracture subluxation superior radioulnar joint
+^ESCTCL484892	Closed fracture dislocation radiocarpal joint
+^ESCTCL484893	Closed fracture dislocation midcarpal
+^ESCTCL484894	Closed fracture dislocation of carpometacarpal joint
+^ESCTCL484896	Closed fracture dislocation lunate (volar)
+^ESCTCL484897	Closed fracture dislocation perilunate (dorsal)
+^ESCTCL484898	Closed fracture dislocation perilunate transscaphoid
+^ESCTCL484909	Closed fracture subluxation of distal radioulnar joint
+^ESCTCL484910	Closed fracture subluxation radiocarpal joint
+^ESCTCL484911	Closed fracture subluxation midcarpal
+^ESCTCL484912	Closed fracture subluxation of carpometacarpal joint
+^ESCTCL484913	Closed fracture subluxation lunate (volar)
+^ESCTCL484915	Closed fracture subluxation perilunate transscaphoid
+^ESCTCL484926	Closed fracture dislocation of metacarpophalangeal joint
+^ESCTCL484928	Closed fracture dislocation of distal interphalangeal joint
+^ESCTCL484929	Closed fracture dislocation of proximal interphalangeal joint
+^ESCTCL484931	Closed fracture dislocation of interphalangeal joint of thumb
+^ESCTCL484932	Closed fracture dislocation multiple digits
+^ESCTCL484940	Closed fracture subluxation of metacarpophalangeal joint
+^ESCTCL484941	Closed fracture subluxation of distal interphalangeal joint
+^ESCTCL484942	Closed fracture subluxation of proximal interphalangeal joint
+^ESCTCL484943	Closed fracture subluxation of interphalangeal joint of thumb
+^ESCTCL484944	Closed fracture subluxation multiple digits
+^ESCTCL484952	Closed fracture dislocation of hip joint
+^ESCTCL484955	Closed fracture subluxation of hip joint
+^ESCTCL484958	Closed fracture dislocation of knee joint
+^ESCTCL484962	Closed fracture subluxation of knee joint
+^ESCTCL484965	Closed fracture dislocation of patellofemoral joint
+^ESCTCL484968	Closed fracture subluxation of patellofemoral joint
+^ESCTCL484971	Closed fracture dislocation of ankle joint
+^ESCTCL484975	Closed fracture subluxation of ankle joint
+^ESCTCL484979	Closed fracture dislocation of subtalar joint
+^ESCTCL484980	Closed fracture dislocation of midtarsal joint
+^ESCTCL484981	Closed fracture dislocation of tarsometatarsal joint
+^ESCTCL484982	Closed Lisfranc fracture dislocation
+^ESCTCL484984	Closed fracture dislocation of interphalangeal joint of single toe
+^ESCTCL484987	Closed fracture dislocation of interphalangeal joint of multiple toes
+^ESCTCL484999	Closed fracture subluxation of foot
+^ESCTCL485001	Closed fracture subluxation of subtalar joint
+^ESCTCL485002	Closed fracture subluxation of midtarsal joint
+^ESCTCL485003	Closed fracture subluxation of tarsometatarsal joint
+^ESCTCL485005	Closed fracture subluxation of interphalangeal joint of single toe
+^ESCTCL485008	Closed fracture subluxation of interphalangeal joint of multiple toes
+^ESCTCL485017	Closed fracture dislocation of sternum
+^ESCTCL485025	Closed fracture subluxation of sternum
+^ESCTCL485026	Closed fracture subluxation of pelvis
+^ESCTCL513300	Closed reduction and internal fixation of proximal femoral fracture with Richard cannulated hip screw
+^ESCTCL546134	Closed fracture of upper jaw bone
+^ESCTCL546240	Closed fracture of lower end of femur
+^ESCTCL546248	Closed fracture of tuberosity of tibia
+^ESCTCL550981	Closed fracture of first cervical vertebra
+^ESCTCL550983	Closed fracture of second cervical vertebra
+^ESCTCL551000	Closed fracture of lower end of humerus
+^ESCTCL551001	Closed fracture of distal end of humerus
+^ESCTCL557228	Closed subcapital fracture of femur
+^ESCTCL557232	Closed fracture of greater trochanter of femur
+^ESCTCL557234	Closed fracture of lesser trochanter of femur
+^ESCTCL565591	Closed reduction and fixation of fracture
+^ESCTCL590436	Closed fracture of elbow
+^ESCTCL596653	Closed reduction maxillary fracture
+^ESCTCL597198	Closed Barton fracture
+^ESCTCL600979	Closed multiple fractures of clavicle and/or scapula and/or humerus
+^ESCTCL700215	Closed fracture
+^ESCTCL730767	Closed fracture of distal tibia and distal fibula
+^ESCTCL764118	Closed reduction and screw of fracture of proximal femur
+^ESCTCO386874	Collapsed vertebra
+^ESCTCO606075	Compound grade I
+^ESCTCO606077	Compound grade II
+^ESCTCR309646	Craniofacial dysjunction
+^ESCTDE295084	Delayed union of fracture
+^ESCTDI415352	Dislocation of joint
+^ESCTDI415353	Dislocated joint
+^ESCTEL364805	Elevation of skull fracture fragments
+^ESCTEL364806	Elevation of skull fracture
+^ESCTEX513308	External skeletal fixation procedure
+^ESCTEX513309	External skeletal fixation
+^ESCTFA287296	Fatigue fracture
+^ESCTFE259385	Femoral neck fracture
+^ESCTFI513310	Fixation of fracture using external fixator
+^ESCTFI513311	Fixation of fracture using ExFix
+^ESCTFO357275	Forearm fracture
+^ESCTFO437867	Forearm injury
+^ESCTFR252608	Fracture of vertebral column with spinal cord injury
+^ESCTFR252611	Fracture of occipital bone
+^ESCTFR258685	Fracture, multiple
+^ESCTFR258686	Fracture, multiple, bone
+^ESCTFR258687	Fracture, multiple bone sites
+^ESCTFR259386	Fracture of hip
+^ESCTFR264804	Fracture of multiple sites of metacarpus
+^ESCTFR265419	Fracture of shoulder blade
+^ESCTFR275552	Fracture of distal end of tibia and fibula
+^ESCTFR278872	Fracture of finger
+^ESCTFR282600	Fracture of hand
+^ESCTFR282601	Fracture of hand bone
+^ESCTFR287329	Fracture of arm
+^ESCTFR287330	Fracture of bone of upper limb
+^ESCTFR294040	Fracture of face bones
+^ESCTFR294041	Fracture of facial bones
+^ESCTFR295085	Fracture, delayed union
+^ESCTFR301489	Fracture of navicular bone of wrist
+^ESCTFR301491	Fracture of scaphoid bone
+^ESCTFR306062	Fracture of posterior fossa
+^ESCTFR308227	Fracture of pubic bone
+^ESCTFR323766	Fracture of multiple bones of upper limb
+^ESCTFR325757	Fracture of leg
+^ESCTFR331696	Fracture of spine
+^ESCTFR331698	Fracture of spinal vertebra
+^ESCTFR331699	Fracture of vertebra
+^ESCTFR331700	Fractured spine
+^ESCTFR332702	Fracture of knee-cap
+^ESCTFR344456	Fracture of collar bone
+^ESCTFR357835	Fracture of upper arm
+^ESCTFR362495	Fracture of upper end of lower leg
+^ESCTFR362496	Fracture of upper end of tibia AND fibula
+^ESCTFR366492	Fracture of thigh
+^ESCTFR366493	Fracture of upper leg
+^ESCTFR366529	Fractured skull
+^ESCTFR375145	Fracture of multiple sites of phalanges of hand
+^ESCTFR376084	Fracture of pelvis
+^ESCTFR383451	Fracture of carpus
+^ESCTFR437885	Fracture of cervical vertebra
+^ESCTFR437887	Fracture of thoracic spine
+^ESCTFR437889	Fracture of lumbar spine
+^ESCTFR439604	Fracture of proximal end of humerus
+^ESCTFR484055	Fracture of lumbar spine and/or pelvis
+^ESCTFR484266	Fracture of metacarpus
+^ESCTFR484866	Fracture dislocation or subluxation of shoulder
+^ESCTFR546074	Fracture subluxation of joint
+^ESCTFR546082	Fracture subluxation of wrist
+^ESCTFR546085	Fracture subluxation of joint of hand
+^ESCTFR546162	Fractured nasal bones
+^ESCTFR546164	Fractured nose
+^ESCTFR546165	Fracture of nose
+^ESCTFR546166	Fracture of nasal complex
+^ESCTFR546191	Fracture of distal end of humerus
+^ESCTFR546194	Fracture of proximal end of radius
+^ESCTFR546199	Fracture of distal end of radius
+^ESCTFR546210	Fracture of shaft of radius and/or ulna
+^ESCTFR546212	Fracture of distal end of radius and ulna
+^ESCTFR546224	Fracture of proximal end of femur
+^ESCTFR546237	Fracture of distal end of femur
+^ESCTFR546257	Fracture of medial and lateral malleoli
+^ESCTFR546261	Fracture of os calcis
+^ESCTFR550979	Fracture of spine without spinal cord injury
+^ESCTFR556068	Fracture of thoracic spine with cord lesion
+^ESCTFR556069	Fracture of lumbar spine with cord lesion
+^ESCTFR556070	Fracture of phalanx of thumb
+^ESCTFR561439	Fracture of distal end of tibia
+^ESCTGU353552	Guerin's fracture
+^ESCTGU353554	Guerin's fracture of maxilla
+^ESCTHI309649	High transverse fracture of maxilla
+^ESCTHI651885	History of vertebral fracture
+^ESCTHO353553	Horizontal maxillary fracture
+^ESCTIN439592	Injury of upper limb
+^ESCTLE309645	Le Fort's fracture, type III
+^ESCTLE309651	Le Fort fracture, type III
+^ESCTLE322457	Le Fort's fracture, type II
+^ESCTLE322462	Le Fort fracture, type II
+^ESCTLE353551	Le Fort's fracture, type I
+^ESCTLE353557	Le Fort fracture, type I
+^ESCTLF309650	LF3 - Le Fort III fracture of maxilla
+^ESCTLF322459	LFII - Le Fort II fracture of maxilla
+^ESCTLF322460	LF2 - Le Fort II fracture of maxilla
+^ESCTLF353556	LF1 - Le Fort I fracture of maxilla
+^ESCTLF468351	LF1 - Reduction of Le Fort 1 fracture of maxilla
+^ESCTLF468352	LFI - Reduction of Le Fort I fracture of maxilla
+^ESCTLF468354	LFII - Reduction of LFII fracture of maxilla
+^ESCTLF468355	LF2 - Reduction of Le Fort 2 fracture of maxilla
+^ESCTLF468357	LFIII - Reduction of Le Fort III fracture of maxilla
+^ESCTLF468358	LF3 - Reduction of Le Fort 3 fracture of maxilla
+^ESCTMA334438	Malunion of fracture
+^ESCTMA468488	Manipulation of spinal fracture
+^ESCTMA590721	Manipulation of fractured nasal bone
+^ESCTMU484057	Multiple fractures of lumbar spine and/or pelvis
+^ESCTMU484167	Multiple fracture of thoracic vertebrae
+^ESCTMU484357	Multiple closed fractures of hand bones
+^ESCTMU484358	Multiple open fractures of hand bones
+^ESCTMU546223	Multiple pelvic fractures
+^ESCTNO259387	NOF - Fracture of neck of femur
+^ESCTOP252028	Open fracture of metacarpal bone
+^ESCTOP255359	Open fracture of orbital floor (blow-out)
+^ESCTOP255360	Open blow-out fracture orbit
+^ESCTOP257354	Open fracture of lateral malleolus
+^ESCTOP260585	Open fracture of shaft of femur
+^ESCTOP262611	Open fracture of triquetral bone of wrist
+^ESCTOP262612	Open fracture of cuneiform bone of wrist
+^ESCTOP264905	Open fracture of upper end of tibia AND fibula
+^ESCTOP270268	Open transcervical fracture of femur
+^ESCTOP281262	Open reduction of spinal fracture
+^ESCTOP282916	Open reduction of fracture with internal fixation
+^ESCTOP282917	Open reduction and internal fixation of fracture
+^ESCTOP285420	Open fracture of shaft of tibia
+^ESCTOP286700	Open fracture of intermediate cuneiform bone of foot
+^ESCTOP287891	Open fracture of shaft of humerus
+^ESCTOP287993	Open fracture of proximal end of radius
+^ESCTOP289854	Open fracture of heel bone
+^ESCTOP289855	Open fracture of os calcis
+^ESCTOP292680	Open fracture of cuboid bone of foot
+^ESCTOP293092	Open bimalleolar fracture
+^ESCTOP295077	Open fracture of multiple ribs
+^ESCTOP295911	Open fracture of thigh
+^ESCTOP295912	Open fracture of upper leg
+^ESCTOP296665	Open fracture of carpal bone of wrist
+^ESCTOP305673	Open Monteggia fracture
+^ESCTOP305807	Open fracture of hamate bone of wrist
+^ESCTOP305808	Open fracture of unciform bone of wrist
+^ESCTOP311863	Open fracture of acromial process of scapula
+^ESCTOP311864	Open fracture of acromion of scapula
+^ESCTOP314349	Open fracture of shaft of radius and ulna
+^ESCTOP315368	Open fracture of nasal bones
+^ESCTOP316890	Open fracture of distal phalanx of finger
+^ESCTOP318659	Open fracture of trapezoidal bone of wrist
+^ESCTOP318660	Open fracture of small multangular bone of wrist
+^ESCTOP318939	Open fracture of shaft of ulna
+^ESCTOP319819	Open fracture of alveolar border of body of mandible
+^ESCTOP321700	Open fracture of capitate bone of wrist
+^ESCTOP321701	Open fracture of os magnum of wrist
+^ESCTOP324321	Open fracture of cuneiform bone of foot
+^ESCTOP327433	Open fracture of shoulder blade
+^ESCTOP336361	Open fracture of lunate bone of wrist
+^ESCTOP336362	Open fracture of semilunar bone of wrist
+^ESCTOP337714	Open fracture of medial cuneiform bone of foot
+^ESCTOP338491	Open fracture of medial malleolus
+^ESCTOP346735	Open fracture of upper end of fibula
+^ESCTOP349456	Open fracture of symphysis of body of mandible
+^ESCTOP351346	Open supracondylar fracture of humerus
+^ESCTOP356953	Open fracture of upper end of radius AND ulna
+^ESCTOP357735	Open fracture of shaft of radius
+^ESCTOP358898	Open fracture of lateral cuneiform bone of foot
+^ESCTOP359139	Open fracture of trapezium of wrist
+^ESCTOP359140	Open fracture of larger multangular bone of wrist
+^ESCTOP360729	Open fracture of navicular bone of wrist
+^ESCTOP360730	Open fracture of scaphoid bone of wrist
+^ESCTOP362908	Open fracture of head of radius
+^ESCTOP365555	Open fracture of shaft of clavicle
+^ESCTOP367790	Open fracture of acromial end of clavicle
+^ESCTOP368772	Open fracture of navicular bone of foot
+^ESCTOP368773	Open fracture of scaphoid bone of foot
+^ESCTOP370930	Open fracture of phalanx of foot
+^ESCTOP370931	Open fracture of toe
+^ESCTOP375050	Open fracture of ischium
+^ESCTOP376191	Open fracture of metatarsal bone
+^ESCTOP376254	Open fracture of acetabulum
+^ESCTOP377678	Open fracture of proximal end of ulna
+^ESCTOP378445	Open fracture of distal end of forearm
+^ESCTOP380094	Open supracondylar fracture of femur
+^ESCTOP386827	Open fracture of malar bone
+^ESCTOP390416	Open fracture of coronoid process of ulna
+^ESCTOP390625	Open # reduction
+^ESCTOP391201	Open fracture of upper end of humerus
+^ESCTOP391202	Open fracture of proximal end of humerus
+^ESCTOP391818	Open fracture of sternum
+^ESCTOP393200	Open fracture of lower end of radius AND ulna
+^ESCTOP394930	Open fracture of pisiform bone of wrist
+^ESCTOP395143	Open fracture of upper arm
+^ESCTOP396851	Open trimalleolar fracture
+^ESCTOP419812	Open fracture of sternal end of clavicle
+^ESCTOP419818	Open fracture of neck of radius
+^ESCTOP419825	Open fracture of upper end of tibia
+^ESCTOP419827	Open fracture of shaft of fibula
+^ESCTOP483953	Open fracture of condylar process of mandible
+^ESCTOP483955	Open subcondylar fracture of mandible
+^ESCTOP483959	Open fracture of angle of jaw
+^ESCTOP483963	Open fracture of multiple sites of mandible
+^ESCTOP483964	Open fracture of maxilla
+^ESCTOP484158	Open fracture dislocation of sacroiliac joint
+^ESCTOP484239	Open volar Barton's fracture subluxation
+^ESCTOP484240	Open volar Barton's fracture dislocation
+^ESCTOP484241	Open volar Barton fracture
+^ESCTOP484243	Open dorsal Barton's fracture dislocation
+^ESCTOP484244	Open dorsal Barton's fracture subluxation
+^ESCTOP484245	Open dorsal Barton fracture
+^ESCTOP484289	Open fracture of first metacarpal
+^ESCTOP484296	Open fracture of sesamoid bone of hand
+^ESCTOP484396	Open subtrochanteric fracture of femur
+^ESCTOP484406	Open fracture of lower epiphysis of femur
+^ESCTOP484437	Open fracture of tibia and/or fibula, shaft
+^ESCTOP484871	Open fracture dislocation acromioclavicular joint
+^ESCTOP484876	Open fracture subluxation shoulder joint
+^ESCTOP484877	Open fracture subluxation of acromioclavicular joint
+^ESCTOP484881	Open fracture dislocation elbow joint
+^ESCTOP484882	Open fracture dislocation elbow
+^ESCTOP484883	Open fracture dislocation superior radioulnar joint
+^ESCTOP484887	Open fracture subluxation of elbow joint
+^ESCTOP484900	Open fracture dislocation of distal radioulnar joint
+^ESCTOP484902	Open fracture dislocation radiocarpal joint
+^ESCTOP484904	Open fracture dislocation carpometacarpal joint
+^ESCTOP484907	Open fracture dislocation perilunate transscaphoid
+^ESCTOP484916	Open fracture subluxation of the wrist
+^ESCTOP484917	Open fracture subluxation of distal radioulnar joint
+^ESCTOP484918	Open fracture subluxation radiocarpal joint
+^ESCTOP484920	Open fracture subluxation of carpometacarpal joint
+^ESCTOP484923	Open fracture subluxation perilunate transscaphoid
+^ESCTOP484933	Open fracture dislocation digit
+^ESCTOP484934	Open fracture dislocation of metacarpophalangeal joint
+^ESCTOP484935	Open fracture dislocation of distal interphalangeal joint
+^ESCTOP484936	Open fracture dislocation of proximal interphalangeal joint
+^ESCTOP484937	Open fracture dislocation of interphalangeal joint of thumb
+^ESCTOP484938	Open fracture dislocation multiple digits
+^ESCTOP484945	Open fracture subluxation digit
+^ESCTOP484946	Open fracture subluxation of metacarpophalangeal joint
+^ESCTOP484947	Open fracture subluxation of distal interphalangeal joint
+^ESCTOP484948	Open fracture subluxation of proximal interphalangeal joint
+^ESCTOP484949	Open fracture subluxation of interphalangeal joint of thumb
+^ESCTOP484950	Open fracture subluxation of multiple digits
+^ESCTOP484954	Open fracture dislocation of hip joint
+^ESCTOP484960	Open fracture dislocation of knee joint
+^ESCTOP484964	Open fracture subluxation of knee joint
+^ESCTOP484967	Open fracture dislocation of patellofemoral joint
+^ESCTOP484969	Open fracture subluxation of patellofemoral joint
+^ESCTOP484973	Open fracture dislocation of ankle joint
+^ESCTOP484976	Open fracture subluxation of ankle joint
+^ESCTOP484988	Open fracture dislocation of foot
+^ESCTOP484990	Open fracture dislocation of subtalar joint
+^ESCTOP484991	Open fracture dislocation of midtarsal joint
+^ESCTOP484992	Open fracture dislocation of tarsometatarsal joint
+^ESCTOP484993	Open Lisfranc fracture dislocation
+^ESCTOP484994	Open fracture dislocation of single metatarsophalangeal joint
+^ESCTOP484995	Open fracture dislocation of interphalangeal joint of single toe
+^ESCTOP484998	Open fracture dislocation of interphalangeal joint of multiple toes
+^ESCTOP485009	Open fracture subluxation of foot
+^ESCTOP485013	Open fracture subluxation of single metatarsophalangeal joint
+^ESCTOP485014	Open fracture subluxation of interphalangeal joint of single toe
+^ESCTOP485021	Open fracture dislocation of sternum
+^ESCTOP485022	Open fracture dislocation of pelvis
+^ESCTOP485023	Open fracture dislocation sternoclavicular joint, anterior
+^ESCTOP485029	Open fracture subluxation of sternum
+^ESCTOP485030	Open fracture subluxation of pelvis
+^ESCTOP513289	Operation on fracture
+^ESCTOP513312	Open reduction of fracture without fixation
+^ESCTOP513646	Operation for spinal trauma
+^ESCTOP546185	Open fracture of first cervical vertebra without spinal cord lesion
+^ESCTOP546188	Open fracture of second cervical vertebra without spinal cord lesion
+^ESCTOP546234	Open fracture of base of neck of femur
+^ESCTOP546243	Open fracture of lower end of femur
+^ESCTOP546244	Open fracture of distal end of femur
+^ESCTOP551003	Open fracture of lower end of humerus
+^ESCTOP551004	Open fracture of distal end of humerus
+^ESCTOP557230	Open subcapital fracture of femur
+^ESCTOP557236	Open fracture of lesser trochanter of femur
+^ESCTOP557238	Open fracture of greater trochanter of femur
+^ESCTOP590448	Open fracture of elbow
+^ESCTOP596650	Open reduction maxillary fracture
+^ESCTOP597196	Open Barton fracture
+^ESCTOP600981	Open multiple fractures of clavicle and/or scapula and/or humerus
+^ESCTOP606074	Open grade I
+^ESCTOP606076	Open grade II
+^ESCTOP635009	Open fracture of skull
+^ESCTOP730611	Open fracture of distal tibia and distal fibula
+^ESCTOP730613	Open fracture of tibia and fibula, distal
+^ESCTOR282918	ORIF - Open reduction and internal fixation of fracture
+^ESCTOR483968	Orbital floor fracture
+^ESCTPE376085	Pelvic fracture
+^ESCTPR468492	Primary bedrest stabilization of spinal fracture
+^ESCTPR468493	Primary collar stabilisation of cervical spine fracture
+^ESCTPR468495	Primary collar stabilization of cervical spine fracture
+^ESCTPR468499	Primary cast stabilization of spinal fracture
+^ESCTPR468517	Primary closed reduction spinal fracture and bedrest stabilization
+^ESCTPR468519	Primary closed reduction spinal fracture and skull traction stabilization
+^ESCTPR468719	Primary open reduction of fracture and skeletal traction
+^ESCTPR468724	Primary open reduction of fracture and cast immobilization
+^ESCTPR468813	Primary closed reduction of fracture and cast immobilization
+^ESCTPR468821	Primary cast immobilization of fracture
+^ESCTPR588836	Primary closed reduction of fracture dislocation
+^ESCTPR600616	Primary closed reduction of spinal fracture
+^ESCTPS680289	Pseudarthrosis
+^ESCTPY322458	Pyramidal fracture
+^ESCTPY322461	Pyramidal fracture of maxilla
+^ESCTRE281795	Reduction of fracture of bone of face
+^ESCTRE468330	Reduction of fracture of malar bone
+^ESCTRE468349	Reduction of blow-out fracture of orbital floor
+^ESCTRE468503	Revision to bedrest stabilization of spinal fracture
+^ESCTRE468504	Revision to collar stabilisation of cervical spine fracture
+^ESCTRE468506	Revision to collar stabilization of cervical spine fracture
+^ESCTRE468512	Revision to external fixation stabilization of spinal fracture
+^ESCTRE468823	Revision to cast immobilization of fracture
+^ESCTRE548817	Reduction of fracture of jaw
+^ESCTRE588837	Revision to closed reduction of fracture dislocation
+^ESCTRE588838	Revision to open reduction of fracture dislocation
+^ESCTRE600547	Revision closed reduction and internal fixation of fracture
+^ESCTRO482135	Rotational malunion of fracture
+^ESCTSE468729	Secondary open reduction of intra-articular fracture of bone
+^ESCTSM484220	Smith fracture - closed
+^ESCTSM484236	Smith fracture - open
+^ESCTSP331697	Spinal fracture
+^ESCTSP386875	Spondylomalacia
+^ESCTSP550299	Spontaneous fracture
+^ESCTST481608	Stress fracture of vertebra
+^ESCTST514453	Stress fracture
+^ESCTST810751	Stress fracture of pars interarticularis
+^ESCTSU264690	Surgical fracture of nasal turbinates
+^ESCTSU306063	Suboccipital fracture
+^ESCTSU546232	Subtrochanteric fracture of femur
+^ESCTTH264691	Therapeutic fracture of nasal turbinates
+^ESCTTH545391	Thoracic injury
+^ESCTTR309647	Transverse facial fracture
+^ESCTTR749757	Traumatic and/or non-traumatic injury of anatomical site
+EMISNQCL16	Closed fracture of tibia and fibula, distal
+EMISNQFR14	Fracture of tibial plateau
+EMISNQOP7	Open fracture of tibia and fibula, distal
+EMISNQOP8	Open fracture of tibial plateau
+EMISNQPE27	Periprosthetic fracture
+ESCTCL10	Closed fracture of lower leg
+ESCTCL11	Closed fracture of foot
+ESCTCL4	Closed fracture of skull
+ESCTCL5	Closed fracture of facial bone
+ESCTCL6	Closed fracture of forearm
+ESCTCL7	Closed fracture of phalanx of finger
+ESCTCL8	Closed fracture of phalanx of thumb
+ESCTCL9	Closed fracture of bone of knee joint
+ESCTOP10	Open fracture of lower leg
+ESCTOP11	Open fracture of foot
+ESCTOP5	Open fracture of facial bones
+ESCTOP6	Open fracture of forearm
+ESCTOP7	Open fracture of phalanx of finger
+ESCTOP8	Open fracture of phalanx of thumb
+ESCTOP9	Open fracture of bone of knee joint
+^ESCT1246204	[X]Fracture of bone following insertion of orthopaedic implant, joint prosthesis, or bone plate
+^ESCT1248405	Closed fracture of skull NOS with intracranial injury
+^ESCTCL288972	Closed fracture of finger
+^ESCTFR725159	Fracture of bone adjacent to prosthesis
+^ESCTOP284522	Open fracture of finger
