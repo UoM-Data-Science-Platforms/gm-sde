@@ -1398,3 +1398,159 @@
 39686011000001104	Cilazapril 500microgram tablets (product)
 39691911000001109	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (product)
 39693411000001102	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (product)
+42239311000001109	Lisinopril 10mg tablets (Brown & Burk UK Ltd)
+42374111000001102	Enalapril 2.5mg tablets
+42373811000001106	Co-zidocapt 12.5mg/25mg tablets
+8146611000001101	Ranace 2.5mg capsules (Ranbaxy (UK) Ltd) (product)
+42376411000001104	Lisinopril 20mg tablets
+13524611000001100	Ramipril 2.5mg/5ml oral solution sugar free (Special Order) (product)
+38793111000001103	Ramipril 2.5mg capsules (Milpharm Ltd)
+39206011000001102	Ramipril 10mg capsules (Medihealth (Northern) Ltd)
+38240211000001100	Lisoretic 10mg/12.5mg tablets (Bristol Laboratories Ltd)
+39891011000001100	Ramipril 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+41974611000001100	Perindopril erbumine 4mg tablets (Medley Pharma Ltd)
+40699911000001106	Captopril 12.5mg tablets (Crescent Pharma Ltd)
+41966311000001107	Ramipril 10mg capsules (Milpharm Ltd)
+39018011000001108	Lisinopril 10mg tablets (Medihealth (Northern) Ltd)
+5352011000001109	Coversyl 2mg tablets (Waymade Healthcare Plc)
+38739511000001103	Ramipril 5mg capsules (Crescent Pharma Ltd)
+42372311000001107	Captopril 25mg tablets
+41429711000001109	Enalapril 10mg tablets (Rudipharm Ltd)
+39185311000001105	Perindopril erbumine 4mg tablets (Medihealth (Northern) Ltd)
+42377511000001103	Moexipril 15mg tablets
+38880811000001104	Enalapril 2.5mg tablets (Medihealth (Northern) Ltd)
+13239611000001108	Perindopril 8mg tablets (Dowelhurst Ltd) (product)
+40457911000001109	Enalapril 20mg tablets (Ria Generics Ltd)
+5015111000001105	Ramipril 5mg tablets (product)
+39915611000001100	Trandolapril 1mg capsules (Medihealth (Northern) Ltd)
+39019111000001102	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+39207711000001102	Ramipril 2.5mg tablets (Medihealth (Northern) Ltd)
+42374811000001109	Felodipine 5mg modified-release / Ramipril 5mg tablets
+5014811000001104	Ramipril 1.25mg tablets (product)
+42383511000001104	Trandolapril 1mg capsules
+13532511000001106	Ramipril 2.5mg/5ml oral solution sugar free (product)
+40703711000001101	Captopril 25mg tablets (Crescent Pharma Ltd)
+42373911000001101	Co-zidocapt 25mg/50mg tablets
+39915811000001101	Trandolapril 2mg capsules (Medihealth (Northern) Ltd)
+39207911000001100	Ramipril 5mg capsules (Medihealth (Northern) Ltd)
+5014911000001109	Ramipril 10mg tablets (product)
+40981711000001107	Captopril 5mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+38793311000001101	Ramipril 5mg capsules (Milpharm Ltd)
+42379211000001107	Perindopril erbumine 2mg tablets
+20168911000001102	Perindopril erbumine 8mg tablets (Accord-UK Ltd)
+41965811000001106	Ramipril 1.25mg capsules (Milpharm Ltd)
+39019311000001100	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+42381111000001107	Ramipril 1.25mg tablets
+39206411000001106	Ramipril 10mg tablets (Medihealth (Northern) Ltd)
+42381511000001103	Ramipril 2.5mg tablets
+38818811000001103	Captopril 25mg tablets (Medihealth (Northern) Ltd)
+41558811000001101	Captopril 5mg/5ml oral solution sugar free (Martindale Pharmaceuticals Ltd)
+39018911000001107	Lisinopril 5mg tablets (Medihealth (Northern) Ltd)
+5535211000001106	Coversyl 2mg tablets (Dowelhurst Ltd)
+42381011000001106	Ramipril 1.25mg capsules
+39205811000001100	Ramipril 1.25mg tablets (Medihealth (Northern) Ltd)
+11604111000001103	Lisinopril 5mg/5ml oral solution sugar free (Special Order) (product)
+42383611000001100	Trandolapril 2mg capsules
+5015011000001109	Ramipril 2.5mg tablets (product)
+18571511000001104	Coversyl Arginine 5mg tablets (Doncaster Pharmaceuticals Ltd) (product)
+39916011000001103	Trandolapril 4mg capsules (Medihealth (Northern) Ltd)
+42380811000001108	Quinapril 40mg tablets
+39207411000001108	Ramipril 2.5mg capsules (Medihealth (Northern) Ltd)
+42372211000001104	Captopril 12.5mg tablets
+39018511000001100	Lisinopril 20mg tablets (Medihealth (Northern) Ltd)
+38880611000001103	Enalapril 10mg tablets (Medihealth (Northern) Ltd)
+41734411000001107	Lisinopril 5mg tablets (Medreich Plc)
+42380711000001100	Quinapril 20mg tablets
+42210611000001103	Fosinopril 20mg tablets
+42374711000001101	Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets
+41613611000001108	Enalapril 10mg tablets (Medley Pharma Ltd)
+42376111000001109	Lisinopril 10mg tablets
+39184911000001107	Perindopril erbumine 8mg tablets (Medihealth (Northern) Ltd)
+42381411000001102	Ramipril 2.5mg capsules
+39185111000001108	Perindopril erbumine 2mg tablets (Medihealth (Northern) Ltd)
+39165311000001107	Perindopril erbumine 8mg tablets (Medreich Plc)
+38819011000001104	Captopril 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+16521211000001107	Coversyl Arginine 5mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+37259911000001107	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+37404611000001109	Triapin 5mg/5mg modified-release tablets (CST Pharma Ltd)
+42375111000001103	Imidapril 5mg tablets
+37418011000001109	Zestril 10mg tablets (CST Pharma Ltd)
+37419311000001101	Zestril 5mg tablets (CST Pharma Ltd)
+37419511000001107	Zestril 20mg tablets (CST Pharma Ltd)
+37421011000001107	Zestoretic 10 tablets (CST Pharma Ltd)
+42383711000001109	Trandolapril 4mg capsules
+38578211000001109	Ramipril 2.5mg capsules (Crescent Pharma Ltd)
+318975001	Verapamil 180mg modified-release / Trandolapril 2mg capsules
+8146411000001104	Ranace 1.25mg capsules (Ranbaxy (UK) Ltd) (product)
+42211811000001107	Imidapril 10mg tablets
+41613811000001107	Enalapril 20mg tablets (Medley Pharma Ltd)
+42375011000001104	Imidapril 20mg tablets
+38240011000001105	Lisoretic 20mg/12.5mg tablets (Bristol Laboratories Ltd)
+42239511000001103	Lisinopril 20mg tablets (Brown & Burk UK Ltd)
+37889611000001103	Zestoretic 20 tablets (CST Pharma Ltd)
+42381311000001109	Ramipril 10mg tablets
+42374211000001108	Enalapril 20mg tablets
+11612511000001100	Lisinopril 5mg/5ml oral solution sugar free (product)
+42381711000001108	Ramipril 5mg tablets
+42380611000001109	Quinapril 10mg tablets
+40981911000001109	Captopril 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+42376511000001100	Lisinopril 5mg tablets
+8146811000001102	Ranace 5mg capsules (Ranbaxy (UK) Ltd) (product)
+13108611000001107	Coversyl 8mg tablets (Dowelhurst Ltd) (product)
+38924411000001109	Fosinopril 10mg tablets (Medihealth (Northern) Ltd)
+41429911000001106	Enalapril 5mg tablets (Rudipharm Ltd)
+42379311000001104	Perindopril erbumine 4mg tablets
+42204111000001104	Lisinopril 5mg tablets (Brown & Burk UK Ltd)
+39165111000001105	Perindopril erbumine 4mg tablets (Medreich Plc)
+42379411000001106	Perindopril erbumine 8mg tablets
+39205611000001104	Ramipril 1.25mg capsules (Medihealth (Northern) Ltd)
+38819211000001109	Captopril 50mg tablets (Medihealth (Northern) Ltd)
+41734611000001105	Lisinopril 10mg tablets (Medreich Plc)
+40230111000001108	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+41733911000001101	Lisinopril 2.5mg tablets (Medreich Plc)
+42381211000001101	Ramipril 10mg capsules
+42383811000001101	Trandolapril 500microgram capsules
+41735111000001103	Lisinopril 20mg tablets (Medreich Plc)
+39018311000001106	Lisinopril 2.5mg tablets (Medihealth (Northern) Ltd)
+42203611000001109	Lisinopril 2.5mg tablets (Brown & Burk UK Ltd)
+39208211000001108	Ramipril 5mg tablets (Medihealth (Northern) Ltd)
+39164911000001109	Perindopril erbumine 2mg tablets (Medreich Plc)
+38881211000001106	Enalapril 5mg tablets (Medihealth (Northern) Ltd)
+38881011000001101	Enalapril 20mg tablets (Medihealth (Northern) Ltd)
+38955411000001109	Enalapril 20mg tablets (Imported)
+42372411000001100	Captopril 50mg tablets
+42377611000001104	Moexipril 7.5mg tablets
+42210511000001102	Fosinopril 10mg tablets
+42381611000001104	Ramipril 5mg capsules
+38577011000001100	Ramipril 10mg capsules (Crescent Pharma Ltd)
+42376211000001103	Lisinopril 2.5mg tablets
+41974111000001108	Perindopril erbumine 2mg tablets (Medley Pharma Ltd)
+38819511000001107	Captopril 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+42374311000001100	Enalapril 5mg tablets
+39415811000001103	Enalapril 5mg tablets (Imported)
+39915411000001103	Trandolapril 500microgram capsules (Medihealth (Northern) Ltd)
+5709411000001103	Trandolapril 4mg capsules (product)
+42288711000001107	Captopril 25mg/5ml oral solution sugar free (Martindale Pharmaceuticals Ltd)
+38818611000001102	Captopril 12.5mg tablets (Medihealth (Northern) Ltd)
+41974811000001101	Perindopril erbumine 8mg tablets (Medley Pharma Ltd)
+42380911000001103	Quinapril 5mg tablets
+5457211000001107	Perindopril erbumine 4mg tablets (Dowelhurst Ltd)
+11599111000001105	Lisinopril 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+42376311000001106	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets
+10512411000001100	Coversyl 4mg tablets (Waymade Healthcare Plc)
+5538211000001104	Coversyl 4mg tablets (Dowelhurst Ltd)
+42374011000001103	Enalapril 10mg tablets
+40457511000001102	Enalapril 5mg tablets (Ria Generics Ltd)
+38881411000001105	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+13239011000001101	Perindopril 2mg tablets (Dowelhurst Ltd) (product)
+3805811000001108	Perindopril 8mg tablets (product)
+8147011000001106	Ranace 10mg capsules (Ranbaxy (UK) Ltd) (product)
+40457711000001107	Enalapril 10mg tablets (Ria Generics Ltd)
+40700111000001109	Captopril 50mg tablets (Crescent Pharma Ltd)
+42213111000001104	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets
+5015111000001105	Ramipril 5mg tablets (product)
+5014811000001104	Ramipril 1.25mg tablets (product)
+5014911000001109	Ramipril 10mg tablets (product)
+5015011000001109	Ramipril 2.5mg tablets (product)
+5709411000001103	Trandolapril 4mg capsules (product)
+3805811000001108	Perindopril 8mg tablets (product)

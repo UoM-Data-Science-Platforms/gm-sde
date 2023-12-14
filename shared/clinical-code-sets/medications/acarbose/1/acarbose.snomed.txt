@@ -66,3 +66,14 @@
 38738011000001101	Acarbose 100mg tablets
 38762711000001107	Acarbose 100mg tablets
 38762811000001104	Acarbose 100mg tablets
+5465811000001107	Acarbose 50mg tablets (Dowelhurst Ltd)
+42080311000001100	Acarbose 50mg tablets
+42080211000001108	Acarbose 100mg tablets
+5441111000001105	Acarbose 100mg tablets (Dowelhurst Ltd)
+5548011000001108	Glucobay 50mg tablets (Dowelhurst Ltd)
+5372211000001101	Glucobay 100mg tablets (Waymade Healthcare Plc)
+18265411000001102	Glucobay 50mg tablets (Necessity Supplies Ltd) (product)
+5371611000001105	Glucobay 50mg tablets (Waymade Healthcare Plc)
+5440011000001100	Glucobay 100mg tablets (Dowelhurst Ltd)
+18265111000001107	Glucobay 100mg tablets (Necessity Supplies Ltd) (product)
+17558911000001107	Glucobay 100mg tablets (Sigma Pharmaceuticals Plc) (product)
