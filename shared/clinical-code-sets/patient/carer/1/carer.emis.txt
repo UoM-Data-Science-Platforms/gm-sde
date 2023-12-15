@@ -1,3 +1,7 @@
+^ESCT1248931	Other regular care provider
+^ESCT1378879	Carer
+^ESCT1379156	Caregiver
+^ESCT1382463	Informal caregiver
 ^ESCT1382464	Primary caregiver
 ^ESCT1383075	Caregiver of person with alcohol misuse
 ^ESCT1383076	Caregiver of a person with chronic disease
@@ -6,31 +10,15 @@
 ^ESCT1383079	Caregiver of a person with physical disability
 ^ESCT1383080	Caregiver of a person with sensory impairment
 ^ESCT1383081	Caregiver of a person with substance misuse
-^ESCT1384396	Referral to voluntary support service for caregivers
-^ESCT1385250	Carer health cheque completed
-^ESCT1408995	Caregiver health check completed
+^ESCTCA450527	Caregiver
+^ESCTCA492855	Cares for a neighbor
+^ESCTCA804758	Cares for sick or handicapped family member
+^ESCTCA804759	Care of sick or handicapped person in family
+^ESCTCA808886	Cares for dependent relative at home
+^ESCTDE808887	Dependent relative needing care at home
+^ESCTIN674874	Informal carer
 ^ESCTPA492851	Patient themselves providing care
 EMISNQCA66	Carer able to cope
-EMISNQCA966	Carer annual health check declined
 EMISNQIS11	Is a young carer
 EMISQCA6	Carer needs assessed
-224484003	Patient themselves providing care (finding)
-248611000000108	Carer of a person with a terminal illness (finding)
-407543004	Primary carer (person)
-413759008	Carer of a person with alcohol misuse (finding)
-413760003	Carer of a person with chronic disease (finding)
-413761004	Carer of a person with learning disability (finding)
-413762006	Carer of a person with mental health problem (finding)
-413763001	Carer of a person with physical disability (finding)
-413764007	Carer of a person with sensory impairment (finding)
-413765008	Carer of a person with substance misuse (finding)
-702982008	Referral to voluntary support service for carers (procedure)
-70862002	Contact person (person)
-710291000000104	Referral to Princess Royal Trust carers centre (procedure)
-710311000000103	Referral to Princess Royal Trust carers centre declined (situation)
-718312008	Carer health check completed (situation)
-824401000000105	Carer of person with dementia (finding)
-837271000000107	Carer annual health check declined (situation)
-962621000000107	Carer health check declined (situation)
-962641000000100	Carer health check offered (situation)
-962701000000105	Carer health check (procedure)
+JHCLO9	Looks after someone

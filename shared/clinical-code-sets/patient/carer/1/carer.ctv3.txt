@@ -1,43 +1,28 @@
-
+Ua0bD	Informal carer
 Ua0bE	Primary carer
-Ua0bE	Primary carer
-Ua0VL	Is a carer
 Ua0VL	Patient themselves providing care
-Ua0VL	Patient themselves providing care
-XaaUc	Referral to voluntary support service for carers
-XaaUc	Referral to voluntary support service for carers
-XacRt	Carer health check declined
-XacRt	Carer health check declined
-XacRu	Carer health check offered
-XacRu	Carer health check offered
-XacRv	Carer health check completed
-XacRv	Carer health check completed
-XacRx	Carer health check
-XacRx	Carer health check
-XaIfk	Other person in contact
-XaIfk	Other person in contact
-XaKBe	Carer of a person with learning disability
+Ua0VN	Cares for a friend
+Ua0VO	Cares for a neighbour
+Ub1ju	Carer
+Xa96e	Cares for a relative
+XaIfy	Other regular care provider
 XaKBe	Carer of a person with learning disability
 XaKBf	Carer of a person with physical disability
-XaKBf	Carer of a person with physical disability
-XaKBg	Carer of a person with sensory impairment
 XaKBg	Carer of a person with sensory impairment
 XaKBh	Carer of a person with substance misuse
-XaKBh	Carer of a person with substance misuse
-XaKBi	Carer of a person with alcohol misuse
 XaKBi	Carer of a person with alcohol misuse
 XaKBj	Carer of a person with chronic disease
-XaKBj	Carer of a person with chronic disease
-XaKBl	Carer of a person with mental health problem
 XaKBl	Carer of a person with mental health problem
 XaMHZ	Carer of a person with a terminal illness
-XaMHZ	Carer of a person with a terminal illness
-XaVwP	Referral to Princess Royal Trust carers centre
-XaVwP	Referral to Princess Royal Trust carers centre
-XaVwQ	Referral to Princess Royal Trust carers centre declined
-XaVwQ	Referral to Princess Royal Trust carers centre declined
 XaZ4h	Carer of person with dementia
-XaZ4h	Carer of person with dementia
-XaZKp	Carer annual health check declined
-XaZKp	Carer annual health check declined
-
+XE0pF	Looks after chronically sick relative
+XM1Zl	Looks after someone
+XM1Zm	Cares for mentally handicapped dependent
+XM1Zn	Looks after chronically sick father
+XM1Zo	Looks after chronically sick husband
+XM1Zp	Looks after chronically sick mother
+XM1Zq	Looks after chronically sick spouse
+XM1Zr	Looks after chronically sick wife
+XM1Zs	Looks after elderly dependent
+XM1Zt	Looks after physically handicapped dependent
+ZV4F7	[V]Dependent relative needing care at home
