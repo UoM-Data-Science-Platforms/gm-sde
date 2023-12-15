@@ -1,0 +1,736 @@
+^ESCT1178342	Product containing only levothyroxine sodium 25 microgram/1 each oral tablet
+^ESCT1178343	Product containing only levothyroxine sodium 150 microgram/1 each oral tablet
+^ESCT1178344	Product containing only levothyroxine sodium 200 microgram/1 each oral tablet
+^ESCT1178345	Product containing only levothyroxine sodium 137 microgram/1 each oral tablet
+^ESCT1178380	Product containing only levothyroxine sodium 250 microgram/1 each oral tablet
+^ESCT1179312	Product containing only levothyroxine sodium 125 microgram/1 each oral tablet
+^ESCT1179313	Product containing only levothyroxine sodium 75 microgram/1 each oral tablet
+^ESCT1180345	Levothyroxine sodium 100microgram tablets (Mylan)
+^ESCT1181413	Product containing only levothyroxine sodium 50 microgram/1 each oral tablet
+^ESCT1181414	Product containing only levothyroxine sodium 100 microgram/1 each oral tablet
+^ESCT1181415	Product containing only levothyroxine sodium 175 microgram/1 each oral tablet
+^ESCT1181416	Product containing only levothyroxine sodium 300 microgram/1 each oral tablet
+^ESCT1181417	Product containing only levothyroxine sodium 88 microgram/1 each oral tablet
+^ESCT1181666	Product containing only levothyroxine sodium 112 microgram/1 each oral tablet
+^ESCT1183058	Product containing only levothyroxine sodium 100 microgram/1 each oral capsule
+^ESCT1183069	Product containing only levothyroxine sodium 125 microgram/1 each oral capsule
+^ESCT1183240	Product containing only levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCT1183565	Levothyroxine sodium 25microgram tablets (Mylan)
+^ESCT1184147	Product containing only levothyroxine sodium 150 microgram/1 each oral capsule
+^ESCT1184152	Product containing only levothyroxine sodium 75 microgram/1 each oral capsule
+^ESCT1184461	Product containing only levothyroxine sodium 25 microgram/1 each oral capsule
+^ESCT1185471	Product containing only levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCT1185472	Product containing only levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCT1185473	Product containing only levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCT1186416	Levothyroxine sodium 50microgram tablets (Mylan)
+^ESCT1187783	Product containing only levothyroxine sodium 50 microgram/1 each oral capsule
+^ESCT1188542	Product containing only levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCT1188543	Product containing only levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCT1197725	Armour Thyroid 180mg (3 grains) tablets (Imported (United States))
+^ESCT1197874	NP Thyroid 30mg (half grain) tablets (Imported (United States))
+^ESCT1207476	Levothyroxine + Liothyronine
+^ESCT1207477	Levothyroxine and liothyronine product
+^ESCT1207478	Product containing levothyroxine and liothyronine
+^ESCT1207479	Levothyroxine product
+^ESCT1207480	Product containing levothyroxine
+^ESCT1207481	Levothyroxine in oral dosage form
+^ESCT1207482	Product containing levothyroxine in oral dosage form
+^ESCT1207485	Levothyroxine and liothyronine in oral dosage form
+^ESCT1207486	Product containing levothyroxine and liothyronine in oral dosage form
+^ESCT1216313	Levothyroxine sodium 125micrograms/5ml oral solution (Colonis Pharma Ltd)
+^ESCT1216316	Levothyroxine sodium 25micrograms/5ml oral solution (Colonis Pharma Ltd)
+^ESCT1216319	Levothyroxine sodium 100micrograms/5ml oral solution (Colonis Pharma Ltd)
+^ESCT1216324	Levothyroxine sodium 50micrograms/5ml oral solution (Colonis Pharma Ltd)
+^ESCT1227865	Levothyroxine sodium 25 microgram oral tablet
+^ESCT1227866	Product containing precisely levothyroxine sodium 25 microgram/1 each conventional release oral tablet
+^ESCT1227867	Product containing precisely levothyroxine sodium 50 microgram/1 each conventional release oral tablet
+^ESCT1227868	Levothyroxine sodium 50 microgram oral tablet
+^ESCT1227869	Product containing precisely levothyroxine sodium 100 microgram/1 each conventional release oral tablet
+^ESCT1227870	Levothyroxine sodium 100 microgram oral tablet
+^ESCT1227871	Levothyroxine sodium 150 microgram/1 each oral tablet
+^ESCT1227872	Levothyroxine sodium 150 microgram oral tablet
+^ESCT1227873	Product containing precisely levothyroxine sodium 150 microgram/1 each conventional release oral tablet
+^ESCT1227874	Levothyroxine sodium 175 microgram/1 each oral tablet
+^ESCT1227875	Levothyroxine sodium 175 microgram oral tablet
+^ESCT1227876	Product containing precisely levothyroxine sodium 175 microgram/1 each conventional release oral tablet
+^ESCT1227877	Levothyroxine sodium 200 microgram/1 each oral tablet
+^ESCT1227878	Levothyroxine sodium 200 microgram oral tablet
+^ESCT1227879	Product containing precisely levothyroxine sodium 200 microgram/1 each conventional release oral tablet
+^ESCT1227880	Levothyroxine sodium 300 microgram/1 each oral tablet
+^ESCT1227881	Product containing precisely levothyroxine sodium 300 microgram/1 each conventional release oral tablet
+^ESCT1227882	Levothyroxine sodium 300 microgram oral tablet
+^ESCT1227883	Levothyroxine sodium 88 microgram/1 each oral tablet
+^ESCT1227884	Product containing precisely levothyroxine sodium 88 microgram/1 each conventional release oral tablet
+^ESCT1227885	Levothyroxine sodium 88 microgram oral tablet
+^ESCT1227886	Levothyroxine sodium 112 microgram/1 each oral tablet
+^ESCT1227887	Levothyroxine sodium 112 microgram oral tablet
+^ESCT1227888	Product containing precisely levothyroxine sodium 112 microgram/1 each conventional release oral tablet
+^ESCT1227889	Levothyroxine sodium 137 microgram/1 each oral tablet
+^ESCT1227890	Levothyroxine sodium 137 microgram oral tablet
+^ESCT1227891	Product containing precisely levothyroxine sodium 137 microgram/1 each conventional release oral tablet
+^ESCT1228165	Levothyroxine sodium 250 microgram/1 each oral tablet
+^ESCT1228166	Levothyroxine sodium 250 microgram oral tablet
+^ESCT1228167	Product containing precisely levothyroxine sodium 250 microgram/1 each conventional release oral tablet
+^ESCT1228859	Levothyroxine sodium 125 microgram/1 each oral tablet
+^ESCT1228860	Product containing precisely levothyroxine sodium 125 microgram/1 each conventional release oral tablet
+^ESCT1228861	Levothyroxine sodium 125 microgram oral tablet
+^ESCT1228862	Product containing precisely levothyroxine sodium 75 microgram/1 each conventional release oral tablet
+^ESCT1228863	Levothyroxine sodium 75 microgram oral tablet
+^ESCT1229198	Product containing precisely levothyroxine sodium 38 microgram and liothyronine sodium 9 microgram/1 each conventional release oral tablet
+^ESCT1229199	Levothyroxine sodium 38 microgram and liothyronine sodium 9 microgram oral tablet
+^ESCT1229200	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCT1229201	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram oral tablet
+^ESCT1229202	Product containing precisely levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each conventional release oral tablet
+^ESCT1229203	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCT1229204	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram oral tablet
+^ESCT1229205	Product containing precisely levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each conventional release oral tablet
+^ESCT1229206	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCT1229207	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram oral tablet
+^ESCT1229208	Product containing precisely levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each conventional release oral tablet
+^ESCT1229209	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCT1229210	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram oral tablet
+^ESCT1229211	Product containing precisely levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each conventional release oral tablet
+^ESCT1229212	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCT1229213	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram oral tablet
+^ESCT1229214	Product containing precisely levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each conventional release oral tablet
+^ESCT1233774	Levothyroxine sodium 150 microgram oral capsule
+^ESCT1233775	Product containing precisely levothyroxine sodium 150 microgram/1 each conventional release oral capsule
+^ESCT1233893	Product containing precisely levothyroxine sodium 75 microgram/1 each conventional release oral capsule
+^ESCT1233894	Levothyroxine sodium 75 microgram oral capsule
+^ESCT1234083	Levothyroxine sodium 50 microgram oral capsule
+^ESCT1234084	Product containing precisely levothyroxine sodium 50 microgram/1 each conventional release oral capsule
+^ESCT1234129	Levothyroxine sodium 25 microgram oral capsule
+^ESCT1234130	Product containing precisely levothyroxine sodium 25 microgram/1 each conventional release oral capsule
+^ESCT1234153	Product containing precisely levothyroxine sodium 100 microgram/1 each conventional release oral capsule
+^ESCT1234154	Levothyroxine sodium 100 microgram oral capsule
+^ESCT1234271	Levothyroxine sodium 125 microgram/1 each oral capsule
+^ESCT1234272	Levothyroxine sodium 125 microgram oral capsule
+^ESCT1234273	Product containing precisely levothyroxine sodium 125 microgram/1 each conventional release oral capsule
+^ESCT1237516	Levothyroxine sodium 50microgram tablets (Zanza Specials International Ltd)
+^ESCT1237518	Levothyroxine sodium 100microgram tablets (Zanza Specials International Ltd)
+^ESCT1249709	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1249711	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1249713	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1249736	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1249738	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1249740	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1249743	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1249749	Levothyroxine sodium 125micrograms/5ml oral solution sugar free
+^ESCT1250036	Eltroxin 25microgram tablets (Advanz Pharma)
+^ESCT1250045	Eltroxin 100microgram tablets (Advanz Pharma)
+^ESCT1250053	Eltroxin 50microgram tablets (Advanz Pharma)
+^ESCT1250567	Levothyroxine sodium 100microgram tablets (Advanz Pharma)
+^ESCT1250569	Levothyroxine sodium 50microgram tablets (Advanz Pharma)
+^ESCT1250610	Eltroxin 25micrograms/5ml oral solution (Advanz Pharma)
+^ESCT1250612	Eltroxin 50micrograms/5ml oral solution (Advanz Pharma)
+^ESCT1250614	Eltroxin 100micrograms/5ml oral solution (Advanz Pharma)
+^ESCT1250635	Levothyroxine sodium 25microgram tablets (Advanz Pharma)
+^ESCT1250720	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250722	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250724	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1255675	NP Thyroid 60mg (1 grain) tablets (Imported (United States))
+^ESCT1257883	Levothyroxine sodium 375microgram capsules (Special Order)
+^ESCT1257886	Levothyroxine sodium 175microgram capsules (Special Order)
+^ESCT1257889	Levothyroxine sodium 225microgram capsules (Special Order)
+^ESCT1257900	Levothyroxine sodium 175microgram capsules
+^ESCT1257901	Levothyroxine sodium 225microgram capsules
+^ESCT1257902	Levothyroxine sodium 375microgram capsules
+^ESCT1264509	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1264514	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1264519	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1267321	Levothyroxine sodium 75microgram tablets (DE Pharmaceuticals)
+^ESCT1267726	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1270206	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1271282	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1271284	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1271286	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1271288	Levothyroxine sodium 12.5microgram tablets (DE Pharmaceuticals)
+^ESCT1273885	Levothyroxine sodium 25microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1273908	Levothyroxine sodium 100microgram tablets (Aristo Pharma Ltd)
+^ESCT1275448	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1275450	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1275452	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1279044	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (Zentiva)
+^ESCT1279057	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Zentiva)
+^ESCT1279059	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Zentiva)
+^ESCT1279061	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Zentiva)
+^ESCT1279593	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1369984	Levothyroxine sodium 25microgram capsules
+^ESCT1369985	Levothyroxine sodium 50microgram capsules
+^ESCT1369986	Levothyroxine sodium 75microgram capsules
+^ESCT1369987	Levothyroxine sodium 100microgram capsules
+^ESCT1369988	Levothyroxine sodium 150microgram capsules
+^ESCT1386766	Levothyroxine-containing product
+^ESCT1386767	Levothyroxine-containing product in oral dose form
+^ESCT1386769	Levothyroxine- and liothyronine-containing product in oral dose form
+^ESCT1402011	Levothyroxine sodium 100microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402013	Levothyroxine sodium 12.5microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402015	Levothyroxine sodium 25microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402017	Levothyroxine sodium 50microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402019	Levothyroxine sodium 75microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1409476	Levothyroxine sodium 50microgram tablets (Accord Healthcare Ltd)
+^ESCT1409566	Levothyroxine sodium 100microgram tablets (Accord Healthcare Ltd)
+^ESCT1422862	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422990	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422992	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422994	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1424820	Levothyroxine sodium 38microgram / Liothyronine 9microgram tablets
+^ESCT1424821	Levothyroxine sodium 100microgram capsules
+^ESCT1424822	Levothyroxine sodium 100microgram tablets
+^ESCT1424824	Levothyroxine sodium 150microgram capsules
+^ESCT1424825	Levothyroxine sodium 25microgram capsules
+^ESCT1424826	Levothyroxine sodium 25microgram tablets
+^ESCT1424828	Levothyroxine sodium 50microgram capsules
+^ESCT1424829	Levothyroxine sodium 50microgram tablets
+^ESCT1424831	Levothyroxine sodium 75microgram capsules
+^ESCT1424832	Levothyroxine sodium 75microgram tablets
+^ESCT1425373	Levothyroxine sodium 125micrograms/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1425611	Levothyroxine sodium 50microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425839	Levothyroxine sodium 100microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425865	Levothyroxine sodium 25microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1429659	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1429661	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1429665	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1429794	Levothyroxine sodium 75micrograms/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1429828	Levothyroxine sodium 75micrograms/5ml oral solution sugar free
+^ESCT1433858	Levothyroxine sodium 75micrograms/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1437571	Levothyroxine sodium 25microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437680	Levothyroxine sodium 50microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437683	Levothyroxine sodium 100microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1440916	Levothyroxine sodium 100microgram capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1440922	Levothyroxine sodium 50microgram capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1440924	Levothyroxine sodium 25microgram capsules (Part VIIID Drug Tariff Special Order)
+^ESCTAR1020489	Armour Thyroid 15mg (quarter grain) tablets (Imported (United States))
+^ESCTAR964665	Armour Thyroid 30mg (half grain) tablets (Imported (United States))
+^ESCTAR964668	Armour Thyroid 120mg (2 grains) tablets (Imported (United States))
+^ESCTAR969746	Armour Thyroid 60mg (1 grain) tablets (Imported (United States))
+^ESCTAR969749	Armour Thyroid 90mg (1 and a half grains) tablets (Imported (United States))
+^ESCTEL1028834	Eltroxin 25micrograms/5ml oral solution (AMCo)
+^ESCTEL1028836	Eltroxin 50micrograms/5ml oral solution (AMCo)
+^ESCTEL1028838	Eltroxin 100micrograms/5ml oral solution (AMCo)
+^ESCTEL816107	Eltroxin 25microgram tablets (AMCo)
+^ESCTEL819531	Eltroxin 100microgram tablets (AMCo)
+^ESCTEL820648	Eltroxin 50microgram tablets (AMCo)
+^ESCTER1036782	Erfa Thyroid 30mg (half grain) tablets (Imported (Canada))
+^ESCTER1049334	Erfa Thyroid 125mg (2 grains) tablets (Imported (Canada))
+^ESCTER1049340	Erfa Thyroid 60mg (1 grain) tablets (Imported (Canada))
+^ESCTEV932262	Evotrox 25micrograms/5ml oral solution (Kappin Ltd)
+^ESCTEV932266	Evotrox 50micrograms/5ml oral solution (Kappin Ltd)
+^ESCTEV932281	Evotrox 100micrograms/5ml oral solution (Kappin Ltd)
+^ESCTLE1006071	Levothyroxine sodium 25microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006073	Levothyroxine sodium 50microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006075	Levothyroxine sodium 100microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006417	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTLE1006423	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTLE1006427	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTLE1006602	Levothyroxine sodium 114microgram / Liothyronine 27microgram tablets (Special Order)
+^ESCTLE1006605	Levothyroxine sodium 152microgram / Liothyronine 36microgram tablets (Special Order)
+^ESCTLE1006608	Levothyroxine sodium 190microgram / Liothyronine 45microgram tablets (Special Order)
+^ESCTLE1006611	Levothyroxine sodium 19microgram / Liothyronine 4.5microgram tablets (Special Order)
+^ESCTLE1006617	Levothyroxine sodium 38microgram / Liothyronine 9microgram tablets (Special Order)
+^ESCTLE1006620	Levothyroxine sodium 76microgram / Liothyronine 18microgram tablets (Special Order)
+^ESCTLE1006623	Levothyroxine sodium 9.5microgram / Liothyronine 2.25microgram tablets (Special Order)
+^ESCTLE1006626	Levothyroxine sodium 57microgram / Liothyronine 13.5microgram tablets (Special Order)
+^ESCTLE1006642	Levothyroxine sodium 114microgram / Liothyronine 27microgram tablets
+^ESCTLE1006643	Levothyroxine sodium 152microgram / Liothyronine 36microgram tablets
+^ESCTLE1006644	Levothyroxine sodium 190microgram / Liothyronine 45microgram tablets
+^ESCTLE1006645	Levothyroxine sodium 9.5microgram / Liothyronine 2.25microgram tablets
+^ESCTLE1018915	Levothyroxine sodium 100microgram tablets (AMCo)
+^ESCTLE1018918	Levothyroxine sodium 50microgram tablets (AMCo)
+^ESCTLE1023657	Levothyroxine sodium 100microgram tablets lactose free (Imported (Germany))
+^ESCTLE1023660	Levothyroxine sodium 25microgram tablets lactose free (Imported (Germany))
+^ESCTLE1023663	Levothyroxine sodium 50microgram tablets lactose free (Imported (Germany))
+^ESCTLE1029927	Levothyroxine sodium 25microgram tablets (AMCo)
+^ESCTLE1036779	Levothyroxine 18microgram / Liothyronine 4microgram tablets
+^ESCTLE1036833	Levothyroxine sodium 200microgram powder for solution for injection vials (Special Order)
+^ESCTLE1038039	Levothyroxine sodium 500microgram powder for solution for injection vials (Special Order)
+^ESCTLE1044141	Levothyroxine sodium 25microgram tablets (Waymade Healthcare Plc)
+^ESCTLE1044143	Levothyroxine sodium 50microgram tablets (Waymade Healthcare Plc)
+^ESCTLE1044145	Levothyroxine sodium 100microgram tablets (Waymade Healthcare Plc)
+^ESCTLE1044508	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTLE1044510	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTLE1044512	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTLE1047133	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTLE1047135	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTLE1047138	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTLE1049366	Levothyroxine 73microgram / Liothyronine 17microgram tablets
+^ESCTLE1049421	Levothyroxine 35microgram / Liothyronine 8microgram tablets
+^ESCTLE1055617	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (AMCo)
+^ESCTLE1055621	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (AMCo)
+^ESCTLE1055623	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (AMCo)
+^ESCTLE1117987	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLE1117989	Levothyroxine sodium 25microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117991	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLE1117993	Levothyroxine sodium 50microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117995	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLE1120935	Levothyroxine sodium 25microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120937	Levothyroxine sodium 50microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120939	Levothyroxine sodium 100microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1144849	Levothyroxine sodium 110microgram oral powder sachets (Special Order)
+^ESCTLE1145069	Levothyroxine sodium 110microgram oral powder sachets
+^ESCTLE1145609	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTLE1145622	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTLE1153120	Levothyroxine sodium 75microgram tablets (Teva UK Ltd)
+^ESCTLE1153130	Levothyroxine sodium 12.5microgram tablets (Teva UK Ltd)
+^ESCTLE1153151	Levothyroxine sodium 12.5microgram tablets
+^ESCTLE1153376	Levothyroxine sodium 12.5microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1153378	Levothyroxine sodium 75microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1153503	Levothyroxine sodium 12.5microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1153505	Levothyroxine sodium 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1163195	Levothyroxine sodium 50microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCTLE1163197	Levothyroxine sodium 100microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCTLE438224	Levothyroxine sodium
+^ESCTLE639092	Levothyroxine sodium 25microgram tablets
+^ESCTLE639093	Levothyroxine sodium 25 microgram/1 each oral tablet
+^ESCTLE639095	Levothyroxine sodium 50microgram tablets
+^ESCTLE639096	Levothyroxine sodium 50 microgram/1 each oral tablet
+^ESCTLE639098	Levothyroxine sodium 100microgram tablets
+^ESCTLE639099	Levothyroxine sodium 100 microgram/1 each oral tablet
+^ESCTLE639101	Levothyroxine sodium 150 microgram/1 each oral tablet
+^ESCTLE639103	Levothyroxine sodium 175 microgram/1 each oral tablet
+^ESCTLE639105	Levothyroxine sodium 200 microgram/1 each oral tablet
+^ESCTLE639107	Levothyroxine sodium 300 microgram/1 each oral tablet
+^ESCTLE639109	Levothyroxine sodium 88 microgram/1 each oral tablet
+^ESCTLE639111	Levothyroxine sodium 112 microgram/1 each oral tablet
+^ESCTLE639113	Levothyroxine sodium 137 microgram/1 each oral tablet
+^ESCTLE639959	Levothyroxine sodium 250 microgram/1 each oral tablet
+^ESCTLE641657	Levothyroxine sodium 125 microgram/1 each oral tablet
+^ESCTLE641659	Levothyroxine sodium 75microgram tablets
+^ESCTLE641660	Levothyroxine sodium 75 microgram/1 each oral tablet
+^ESCTLE642480	Levothyroxine sodium 38microgram / Liothyronine 9microgram tablets
+^ESCTLE642481	Levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCTLE642483	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTLE642485	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCTLE642488	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCTLE642490	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCTLE642492	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCTLE699069	Levothyroxine sodium 150microgram capsules
+^ESCTLE699070	Levothyroxine sodium 150 microgram/1 each oral capsule
+^ESCTLE700445	Levothyroxine sodium 75microgram capsules
+^ESCTLE700446	Levothyroxine sodium 75 microgram/1 each oral capsule
+^ESCTLE702353	Levothyroxine sodium 50microgram capsules
+^ESCTLE702354	Levothyroxine sodium 50 microgram/1 each oral capsule
+^ESCTLE702679	Levothyroxine sodium 25microgram capsules
+^ESCTLE702680	Levothyroxine sodium 25 microgram/1 each oral capsule
+^ESCTLE702967	Levothyroxine sodium 100microgram capsules
+^ESCTLE702968	Levothyroxine sodium 100 microgram/1 each oral capsule
+^ESCTLE703929	Levothyroxine sodium 125 microgram/1 each oral capsule
+^ESCTLE767938	Levothyroxine
+^ESCTLE801253	Levothyroxine sodium 25microgram tablets (Teva UK Ltd)
+^ESCTLE801537	Levothyroxine sodium 50microgram tablets (Actavis UK Ltd)
+^ESCTLE801756	Levothyroxine sodium 25microgram tablets (Actavis UK Ltd)
+^ESCTLE802483	Levothyroxine sodium 50microgram tablets (Teva UK Ltd)
+^ESCTLE802490	Levothyroxine sodium 50microgram tablets (The Boots Company Plc)
+^ESCTLE803327	Levothyroxine sodium 50microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLE805258	Levothyroxine sodium 50microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE806731	Levothyroxine sodium 100microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLE808144	Levothyroxine sodium 25microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE808185	Levothyroxine sodium 100microgram tablets (Actavis UK Ltd)
+^ESCTLE809889	Levothyroxine sodium 50microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE810117	Levothyroxine sodium 100microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE819961	Levothyroxine sodium 25microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLE820061	Levothyroxine sodium 25microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE820934	Levothyroxine sodium 100microgram tablets (The Boots Company Plc)
+^ESCTLE822947	Levothyroxine sodium 25microgram tablets (Wockhardt UK Ltd)
+^ESCTLE824455	Levothyroxine sodium 100microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE827708	Levothyroxine sodium 25microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE828286	Levothyroxine sodium 100microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE829806	Levothyroxine sodium 50microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE830226	Levothyroxine sodium 25microgram tablets (The Boots Company Plc)
+^ESCTLE831866	Levothyroxine sodium 100microgram tablets (Teva UK Ltd)
+^ESCTLE860938	Levothyroxine sodium 25microgram tablets (Mylan Ltd)
+^ESCTLE868130	Levothyroxine sodium 50microgram tablets (Mylan Ltd)
+^ESCTLE868134	Levothyroxine sodium 100microgram tablets (Mylan Ltd)
+^ESCTLE907495	Levothyroxine sodium 100micrograms/5ml oral solution (Special Order)
+^ESCTLE907502	Levothyroxine sodium 100micrograms/5ml oral suspension (Special Order)
+^ESCTLE907510	Levothyroxine sodium 12.5micrograms/5ml oral solution (Special Order)
+^ESCTLE907513	Levothyroxine sodium 10micrograms/5ml oral solution (Special Order)
+^ESCTLE907514	Levothyroxine sodium 12.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE907518	Levothyroxine sodium 125micrograms/5ml oral solution (Special Order)
+^ESCTLE907522	Levothyroxine sodium 10micrograms/5ml oral suspension (Special Order)
+^ESCTLE907524	Levothyroxine sodium 150micrograms/5ml oral solution (Special Order)
+^ESCTLE907528	Levothyroxine sodium 150micrograms/5ml oral suspension (Special Order)
+^ESCTLE907529	Levothyroxine sodium 125micrograms/5ml oral suspension (Special Order)
+^ESCTLE907533	Levothyroxine sodium 15micrograms/5ml oral solution (Special Order)
+^ESCTLE907536	Levothyroxine sodium 15micrograms/5ml oral suspension (Special Order)
+^ESCTLE907542	Levothyroxine sodium 175micrograms/5ml oral solution (Special Order)
+^ESCTLE907546	Levothyroxine sodium 175micrograms/5ml oral suspension (Special Order)
+^ESCTLE907549	Levothyroxine sodium 200micrograms/5ml oral solution (Special Order)
+^ESCTLE907551	Levothyroxine sodium 20micrograms/5ml oral solution (Special Order)
+^ESCTLE907553	Levothyroxine sodium 200micrograms/5ml oral suspension (Special Order)
+^ESCTLE907557	Levothyroxine sodium 20micrograms/5ml oral suspension (Special Order)
+^ESCTLE907560	Levothyroxine sodium 300micrograms/5ml oral solution (Special Order)
+^ESCTLE907563	Levothyroxine sodium 25micrograms/5ml oral solution (Special Order)
+^ESCTLE907566	Levothyroxine sodium 300micrograms/5ml oral suspension (Special Order)
+^ESCTLE907570	Levothyroxine sodium 25micrograms/5ml oral suspension (Special Order)
+^ESCTLE907573	Levothyroxine sodium 30micrograms/5ml oral solution (Special Order)
+^ESCTLE907575	Levothyroxine sodium 250micrograms/5ml oral solution (Special Order)
+^ESCTLE907579	Levothyroxine sodium 30micrograms/5ml oral suspension (Special Order)
+^ESCTLE907580	Levothyroxine sodium 250micrograms/5ml oral suspension (Special Order)
+^ESCTLE907585	Levothyroxine sodium 400micrograms/5ml oral solution (Special Order)
+^ESCTLE907586	Levothyroxine sodium 500micrograms/5ml oral solution (Special Order)
+^ESCTLE907591	Levothyroxine sodium 400micrograms/5ml oral suspension (Special Order)
+^ESCTLE907592	Levothyroxine sodium 40micrograms/5ml oral solution (Special Order)
+^ESCTLE907596	Levothyroxine sodium 40micrograms/5ml oral suspension (Special Order)
+^ESCTLE907599	Levothyroxine sodium 500micrograms/5ml oral suspension (Special Order)
+^ESCTLE907650	Levothyroxine sodium 100micrograms/5ml oral solution
+^ESCTLE907651	Levothyroxine sodium 100micrograms/5ml oral suspension
+^ESCTLE907652	Levothyroxine sodium 10micrograms/5ml oral solution
+^ESCTLE907653	Levothyroxine sodium 10micrograms/5ml oral suspension
+^ESCTLE907654	Levothyroxine sodium 12.5micrograms/5ml oral solution
+^ESCTLE907655	Levothyroxine sodium 12.5micrograms/5ml oral suspension
+^ESCTLE907656	Levothyroxine sodium 125micrograms/5ml oral solution
+^ESCTLE907657	Levothyroxine sodium 125micrograms/5ml oral suspension
+^ESCTLE907658	Levothyroxine sodium 150micrograms/5ml oral solution
+^ESCTLE907659	Levothyroxine sodium 150micrograms/5ml oral suspension
+^ESCTLE907660	Levothyroxine sodium 15micrograms/5ml oral solution
+^ESCTLE907661	Levothyroxine sodium 15micrograms/5ml oral suspension
+^ESCTLE907662	Levothyroxine sodium 200micrograms/5ml oral solution
+^ESCTLE907663	Levothyroxine sodium 200micrograms/5ml oral suspension
+^ESCTLE907664	Levothyroxine sodium 20micrograms/5ml oral solution
+^ESCTLE907665	Levothyroxine sodium 20micrograms/5ml oral suspension
+^ESCTLE907666	Levothyroxine sodium 25micrograms/5ml oral solution
+^ESCTLE907667	Levothyroxine sodium 25micrograms/5ml oral suspension
+^ESCTLE907668	Levothyroxine sodium 300micrograms/5ml oral solution
+^ESCTLE907669	Levothyroxine sodium 300micrograms/5ml oral suspension
+^ESCTLE907670	Levothyroxine sodium 30micrograms/5ml oral solution
+^ESCTLE907671	Levothyroxine sodium 30micrograms/5ml oral suspension
+^ESCTLE907672	Levothyroxine sodium 400micrograms/5ml oral solution
+^ESCTLE907673	Levothyroxine sodium 400micrograms/5ml oral suspension
+^ESCTLE907674	Levothyroxine sodium 40micrograms/5ml oral solution
+^ESCTLE907675	Levothyroxine sodium 40micrograms/5ml oral suspension
+^ESCTLE907676	Levothyroxine sodium 175micrograms/5ml oral solution
+^ESCTLE907677	Levothyroxine sodium 175micrograms/5ml oral suspension
+^ESCTLE907678	Levothyroxine sodium 250micrograms/5ml oral solution
+^ESCTLE907679	Levothyroxine sodium 250micrograms/5ml oral suspension
+^ESCTLE907680	Levothyroxine sodium 500micrograms/5ml oral solution
+^ESCTLE907681	Levothyroxine sodium 500micrograms/5ml oral suspension
+^ESCTLE907683	Levothyroxine sodium 50micrograms/5ml oral solution (Special Order)
+^ESCTLE907686	Levothyroxine sodium 50micrograms/5ml oral suspension (Special Order)
+^ESCTLE907691	Levothyroxine sodium 62.5micrograms/5ml oral solution (Special Order)
+^ESCTLE907696	Levothyroxine sodium 62.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE907699	Levothyroxine sodium 60micrograms/5ml oral solution (Special Order)
+^ESCTLE907703	Levothyroxine sodium 750micrograms/5ml oral solution (Special Order)
+^ESCTLE907706	Levothyroxine sodium 750micrograms/5ml oral suspension (Special Order)
+^ESCTLE907710	Levothyroxine sodium 60micrograms/5ml oral suspension (Special Order)
+^ESCTLE907716	Levothyroxine sodium 75micrograms/5ml oral solution (Special Order)
+^ESCTLE907724	Levothyroxine sodium 75micrograms/5ml oral suspension (Special Order)
+^ESCTLE907978	Levothyroxine sodium 50micrograms/5ml oral solution
+^ESCTLE907979	Levothyroxine sodium 50micrograms/5ml oral suspension
+^ESCTLE907980	Levothyroxine sodium 60micrograms/5ml oral solution
+^ESCTLE907981	Levothyroxine sodium 60micrograms/5ml oral suspension
+^ESCTLE907982	Levothyroxine sodium 62.5micrograms/5ml oral solution
+^ESCTLE907983	Levothyroxine sodium 62.5micrograms/5ml oral suspension
+^ESCTLE907985	Levothyroxine sodium 750micrograms/5ml oral solution
+^ESCTLE907986	Levothyroxine sodium 750micrograms/5ml oral suspension
+^ESCTLE907987	Levothyroxine sodium 75micrograms/5ml oral solution
+^ESCTLE907988	Levothyroxine sodium 75micrograms/5ml oral suspension
+^ESCTLE909258	Levothyroxine sodium 100microgram capsules (Special Order)
+^ESCTLE909263	Levothyroxine sodium 150microgram capsules (Special Order)
+^ESCTLE909598	Levothyroxine sodium 10microgram capsules (Special Order)
+^ESCTLE909601	Levothyroxine sodium 12.5microgram capsules (Special Order)
+^ESCTLE909609	Levothyroxine sodium 50microgram capsules (Special Order)
+^ESCTLE909612	Levothyroxine sodium 25microgram capsules (Special Order)
+^ESCTLE909615	Levothyroxine sodium 75microgram capsules (Special Order)
+^ESCTLE909697	Levothyroxine sodium 10microgram capsules
+^ESCTLE909698	Levothyroxine sodium 12.5microgram capsules
+^ESCTLE909745	Levothyroxine sodium 200microgram capsules (Special Order)
+^ESCTLE909774	Levothyroxine sodium 15microgram capsules (Special Order)
+^ESCTLE909780	Levothyroxine sodium 100microgram oral powder sachets (Special Order)
+^ESCTLE909786	Levothyroxine sodium 125microgram oral powder sachets (Special Order)
+^ESCTLE909789	Levothyroxine sodium 150microgram oral powder sachets (Special Order)
+^ESCTLE909792	Levothyroxine sodium 200microgram oral powder sachets (Special Order)
+^ESCTLE909795	Levothyroxine sodium 25microgram oral powder sachets (Special Order)
+^ESCTLE909798	Levothyroxine sodium 30microgram oral powder sachets (Special Order)
+^ESCTLE909801	Levothyroxine sodium 250microgram oral powder sachets (Special Order)
+^ESCTLE909804	Levothyroxine sodium 40microgram oral powder sachets (Special Order)
+^ESCTLE909807	Levothyroxine sodium 50microgram oral powder sachets (Special Order)
+^ESCTLE909810	Levothyroxine sodium 60microgram oral powder sachets (Special Order)
+^ESCTLE909813	Levothyroxine sodium 75microgram oral powder sachets (Special Order)
+^ESCTLE909834	Levothyroxine sodium 100microgram oral powder sachets
+^ESCTLE909835	Levothyroxine sodium 125microgram oral powder sachets
+^ESCTLE909836	Levothyroxine sodium 150microgram oral powder sachets
+^ESCTLE909837	Levothyroxine sodium 15microgram capsules
+^ESCTLE909838	Levothyroxine sodium 200microgram capsules
+^ESCTLE909839	Levothyroxine sodium 200microgram oral powder sachets
+^ESCTLE909840	Levothyroxine sodium 250microgram oral powder sachets
+^ESCTLE909841	Levothyroxine sodium 25microgram oral powder sachets
+^ESCTLE909842	Levothyroxine sodium 30microgram oral powder sachets
+^ESCTLE909843	Levothyroxine sodium 40microgram oral powder sachets
+^ESCTLE909844	Levothyroxine sodium 50microgram oral powder sachets
+^ESCTLE909845	Levothyroxine sodium 60microgram oral powder sachets
+^ESCTLE909846	Levothyroxine sodium 75microgram oral powder sachets
+^ESCTLE923734	Levothyroxine sodium 100microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTLE923736	Levothyroxine sodium 50microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTLE929268	Levothyroxine sodium 50microgram tablets (Arrow Generics Ltd)
+^ESCTLE929270	Levothyroxine sodium 100microgram tablets (Arrow Generics Ltd)
+^ESCTLE931108	Levothyroxine sodium 500microgram powder for solution for injection vials
+^ESCTLE931110	Levothroid 500microgram powder for solution for injection vials (Imported (Spain))
+^ESCTLE932362	Levothyroxine sodium 100micrograms/5ml oral solution sugar free
+^ESCTLE932368	Levothyroxine sodium 25micrograms/5ml oral solution sugar free
+^ESCTLE932369	Levothyroxine sodium 50micrograms/5ml oral solution sugar free
+^ESCTLE933272	Levothyroxine sodium 200microgram powder for solution for injection vials
+^ESCTLE933274	Levothyroxine sodium 200microgram powder for solution for injection vials (Imported (United States))
+^ESCTLE933363	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE933365	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE933367	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE937766	Levothyroxine sodium 25micrograms/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLE937768	Levothyroxine sodium 50micrograms/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLE937770	Levothyroxine sodium 100micrograms/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLE951953	Levothyroxine sodium 120micrograms/5ml oral suspension (Special Order)
+^ESCTLE951970	Levothyroxine sodium 120micrograms/5ml oral solution (Special Order)
+^ESCTLE951988	Levothyroxine sodium 187.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE952014	Levothyroxine sodium 187.5micrograms/5ml oral solution (Special Order)
+^ESCTLE952025	Levothyroxine sodium 1mg/5ml oral suspension (Special Order)
+^ESCTLE952038	Levothyroxine sodium 1mg/5ml oral solution (Special Order)
+^ESCTLE952052	Levothyroxine sodium 2.5mg/5ml oral suspension (Special Order)
+^ESCTLE952066	Levothyroxine sodium 2.5mg/5ml oral solution (Special Order)
+^ESCTLE952301	Levothyroxine sodium 120micrograms/5ml oral solution
+^ESCTLE952303	Levothyroxine sodium 120micrograms/5ml oral suspension
+^ESCTLE952305	Levothyroxine sodium 187.5micrograms/5ml oral solution
+^ESCTLE952307	Levothyroxine sodium 187.5micrograms/5ml oral suspension
+^ESCTLE952309	Levothyroxine sodium 1mg/5ml oral solution
+^ESCTLE952311	Levothyroxine sodium 1mg/5ml oral suspension
+^ESCTLE952312	Levothyroxine sodium 2.5mg/5ml oral solution
+^ESCTLE952314	Levothyroxine sodium 2.5mg/5ml oral suspension
+^ESCTLE952323	Levothyroxine sodium 225micrograms/5ml oral suspension (Special Order)
+^ESCTLE952329	Levothyroxine sodium 225micrograms/5ml oral solution (Special Order)
+^ESCTLE952341	Levothyroxine sodium 24micrograms/5ml oral suspension (Special Order)
+^ESCTLE952347	Levothyroxine sodium 24micrograms/5ml oral solution (Special Order)
+^ESCTLE952350	Levothyroxine sodium 275micrograms/5ml oral suspension (Special Order)
+^ESCTLE952353	Levothyroxine sodium 275micrograms/5ml oral solution (Special Order)
+^ESCTLE952372	Levothyroxine sodium 27micrograms/5ml oral suspension (Special Order)
+^ESCTLE952386	Levothyroxine sodium 27micrograms/5ml oral solution (Special Order)
+^ESCTLE952389	Levothyroxine sodium 285micrograms/5ml oral suspension (Special Order)
+^ESCTLE952397	Levothyroxine sodium 285micrograms/5ml oral solution (Special Order)
+^ESCTLE952487	Levothyroxine sodium 225micrograms/5ml oral solution
+^ESCTLE952488	Levothyroxine sodium 225micrograms/5ml oral suspension
+^ESCTLE952489	Levothyroxine sodium 24micrograms/5ml oral solution
+^ESCTLE952490	Levothyroxine sodium 24micrograms/5ml oral suspension
+^ESCTLE952491	Levothyroxine sodium 275micrograms/5ml oral solution
+^ESCTLE952492	Levothyroxine sodium 275micrograms/5ml oral suspension
+^ESCTLE952493	Levothyroxine sodium 27micrograms/5ml oral solution
+^ESCTLE952494	Levothyroxine sodium 27micrograms/5ml oral suspension
+^ESCTLE952495	Levothyroxine sodium 285micrograms/5ml oral solution
+^ESCTLE952496	Levothyroxine sodium 285micrograms/5ml oral suspension
+^ESCTLE952712	Levothyroxine sodium 325micrograms/5ml oral suspension (Special Order)
+^ESCTLE952718	Levothyroxine sodium 325micrograms/5ml oral solution (Special Order)
+^ESCTLE952736	Levothyroxine sodium 312.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE952742	Levothyroxine sodium 312.5micrograms/5ml oral solution (Special Order)
+^ESCTLE952745	Levothyroxine sodium 32micrograms/5ml oral suspension (Special Order)
+^ESCTLE952752	Levothyroxine sodium 32micrograms/5ml oral solution (Special Order)
+^ESCTLE952760	Levothyroxine sodium 350micrograms/5ml oral suspension (Special Order)
+^ESCTLE952766	Levothyroxine sodium 350micrograms/5ml oral solution (Special Order)
+^ESCTLE952772	Levothyroxine sodium 35micrograms/5ml oral suspension (Special Order)
+^ESCTLE952778	Levothyroxine sodium 35micrograms/5ml oral solution (Special Order)
+^ESCTLE952784	Levothyroxine sodium 37.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE952793	Levothyroxine sodium 37.5micrograms/5ml oral solution (Special Order)
+^ESCTLE952799	Levothyroxine sodium 375micrograms/5ml oral suspension (Special Order)
+^ESCTLE952802	Levothyroxine sodium 375micrograms/5ml oral solution (Special Order)
+^ESCTLE952812	Levothyroxine sodium 312.5micrograms/5ml oral solution
+^ESCTLE952813	Levothyroxine sodium 312.5micrograms/5ml oral suspension
+^ESCTLE952814	Levothyroxine sodium 325micrograms/5ml oral solution
+^ESCTLE952815	Levothyroxine sodium 325micrograms/5ml oral suspension
+^ESCTLE952816	Levothyroxine sodium 32micrograms/5ml oral solution
+^ESCTLE952817	Levothyroxine sodium 32micrograms/5ml oral suspension
+^ESCTLE952818	Levothyroxine sodium 350micrograms/5ml oral solution
+^ESCTLE952819	Levothyroxine sodium 350micrograms/5ml oral suspension
+^ESCTLE952820	Levothyroxine sodium 35micrograms/5ml oral solution
+^ESCTLE952821	Levothyroxine sodium 35micrograms/5ml oral suspension
+^ESCTLE952822	Levothyroxine sodium 37.5micrograms/5ml oral solution
+^ESCTLE952823	Levothyroxine sodium 37.5micrograms/5ml oral suspension
+^ESCTLE952824	Levothyroxine sodium 375micrograms/5ml oral solution
+^ESCTLE952825	Levothyroxine sodium 375micrograms/5ml oral suspension
+^ESCTLE952908	Levothyroxine sodium 37micrograms/5ml oral suspension (Special Order)
+^ESCTLE952920	Levothyroxine sodium 37micrograms/5ml oral solution (Special Order)
+^ESCTLE952925	Levothyroxine sodium 425micrograms/5ml oral suspension (Special Order)
+^ESCTLE952930	Levothyroxine sodium 425micrograms/5ml oral solution (Special Order)
+^ESCTLE952937	Levothyroxine sodium 450micrograms/5ml oral suspension (Special Order)
+^ESCTLE952940	Levothyroxine sodium 450micrograms/5ml oral solution (Special Order)
+^ESCTLE952943	Levothyroxine sodium 45micrograms/5ml oral suspension (Special Order)
+^ESCTLE952947	Levothyroxine sodium 45micrograms/5ml oral solution (Special Order)
+^ESCTLE952953	Levothyroxine sodium 48micrograms/5ml oral suspension (Special Order)
+^ESCTLE952960	Levothyroxine sodium 48micrograms/5ml oral solution (Special Order)
+^ESCTLE952971	Levothyroxine sodium 55micrograms/5ml oral suspension (Special Order)
+^ESCTLE952974	Levothyroxine sodium 55micrograms/5ml oral solution (Special Order)
+^ESCTLE952977	Levothyroxine sodium 56micrograms/5ml oral suspension (Special Order)
+^ESCTLE952980	Levothyroxine sodium 56micrograms/5ml oral solution (Special Order)
+^ESCTLE952983	Levothyroxine sodium 5micrograms/5ml oral suspension (Special Order)
+^ESCTLE952986	Levothyroxine sodium 5micrograms/5ml oral solution (Special Order)
+^ESCTLE952989	Levothyroxine sodium 6.25micrograms/5ml oral suspension (Special Order)
+^ESCTLE952992	Levothyroxine sodium 6.25micrograms/5ml oral solution (Special Order)
+^ESCTLE952995	Levothyroxine sodium 625micrograms/5ml oral suspension (Special Order)
+^ESCTLE952998	Levothyroxine sodium 625micrograms/5ml oral solution (Special Order)
+^ESCTLE953001	Levothyroxine sodium 7.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE953004	Levothyroxine sodium 7.5micrograms/5ml oral solution (Special Order)
+^ESCTLE953027	Levothyroxine sodium 700micrograms/5ml oral suspension (Special Order)
+^ESCTLE953030	Levothyroxine sodium 700micrograms/5ml oral solution (Special Order)
+^ESCTLE953034	Levothyroxine sodium 70micrograms/5ml oral suspension (Special Order)
+^ESCTLE953038	Levothyroxine sodium 70micrograms/5ml oral solution (Special Order)
+^ESCTLE953045	Levothyroxine sodium 80micrograms/5ml oral suspension (Special Order)
+^ESCTLE953049	Levothyroxine sodium 80micrograms/5ml oral solution (Special Order)
+^ESCTLE953057	Levothyroxine sodium 87.5micrograms/5ml oral suspension (Special Order)
+^ESCTLE953062	Levothyroxine sodium 87.5micrograms/5ml oral solution (Special Order)
+^ESCTLE953075	Levothyroxine sodium 90micrograms/5ml oral suspension (Special Order)
+^ESCTLE953080	Levothyroxine sodium 90micrograms/5ml oral solution (Special Order)
+^ESCTLE953669	Levothyroxine sodium 37micrograms/5ml oral solution
+^ESCTLE953671	Levothyroxine sodium 37micrograms/5ml oral suspension
+^ESCTLE953673	Levothyroxine sodium 425micrograms/5ml oral solution
+^ESCTLE953675	Levothyroxine sodium 425micrograms/5ml oral suspension
+^ESCTLE953677	Levothyroxine sodium 450micrograms/5ml oral solution
+^ESCTLE953679	Levothyroxine sodium 450micrograms/5ml oral suspension
+^ESCTLE953681	Levothyroxine sodium 45micrograms/5ml oral solution
+^ESCTLE953683	Levothyroxine sodium 45micrograms/5ml oral suspension
+^ESCTLE953685	Levothyroxine sodium 48micrograms/5ml oral solution
+^ESCTLE953687	Levothyroxine sodium 48micrograms/5ml oral suspension
+^ESCTLE953689	Levothyroxine sodium 55micrograms/5ml oral solution
+^ESCTLE953691	Levothyroxine sodium 55micrograms/5ml oral suspension
+^ESCTLE953693	Levothyroxine sodium 56micrograms/5ml oral solution
+^ESCTLE953695	Levothyroxine sodium 56micrograms/5ml oral suspension
+^ESCTLE953697	Levothyroxine sodium 5micrograms/5ml oral solution
+^ESCTLE953699	Levothyroxine sodium 5micrograms/5ml oral suspension
+^ESCTLE953701	Levothyroxine sodium 6.25micrograms/5ml oral solution
+^ESCTLE953703	Levothyroxine sodium 6.25micrograms/5ml oral suspension
+^ESCTLE953705	Levothyroxine sodium 625micrograms/5ml oral solution
+^ESCTLE953707	Levothyroxine sodium 625micrograms/5ml oral suspension
+^ESCTLE953709	Levothyroxine sodium 7.5micrograms/5ml oral solution
+^ESCTLE953711	Levothyroxine sodium 7.5micrograms/5ml oral suspension
+^ESCTLE953713	Levothyroxine sodium 700micrograms/5ml oral solution
+^ESCTLE953715	Levothyroxine sodium 700micrograms/5ml oral suspension
+^ESCTLE953717	Levothyroxine sodium 70micrograms/5ml oral solution
+^ESCTLE953719	Levothyroxine sodium 70micrograms/5ml oral suspension
+^ESCTLE953721	Levothyroxine sodium 80micrograms/5ml oral solution
+^ESCTLE953723	Levothyroxine sodium 80micrograms/5ml oral suspension
+^ESCTLE953725	Levothyroxine sodium 87.5micrograms/5ml oral solution
+^ESCTLE953727	Levothyroxine sodium 87.5micrograms/5ml oral suspension
+^ESCTLE953729	Levothyroxine sodium 90micrograms/5ml oral solution
+^ESCTLE953731	Levothyroxine sodium 90micrograms/5ml oral suspension
+^ESCTLE963859	Levothyroxine sodium 100microgram tablets (DE Pharmaceuticals)
+^ESCTLE963865	Levothyroxine sodium 25microgram tablets (DE Pharmaceuticals)
+^ESCTLE963867	Levothyroxine sodium 50microgram tablets (DE Pharmaceuticals)
+^ESCTLE964675	Levothyroxine sodium 19microgram / Liothyronine 4.5microgram tablets
+^ESCTLE964676	Levothyroxine sodium 76microgram / Liothyronine 18microgram tablets
+^ESCTLE969855	Levothyroxine sodium 57microgram / Liothyronine 13.5microgram tablets
+^ESCTLE978536	Levothyroxine sodium 100microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE986970	Levothyroxine sodium 50microgram tablets (Zanza Laboratories Ltd)
+^ESCTLE986974	Levothyroxine sodium 100microgram tablets (Zanza Laboratories Ltd)
+^ESCTNA1023391	Nature-Throid 65mg (1 grain) tablets (Imported (United States))
+^ESCTNA1023399	Nature-Throid 32.5mg (half grain) tablets (Imported (United States))
+^ESCTNA1055619	Nature-Throid 130mg (2 grains) tablets (Imported (United States))
+^ESCTNA1069890	Nature-Throid 16.25mg (quarter grain) tablets (Imported (United States))
+^ESCTPR639094	Product containing levothyroxine sodium 25 microgram/1 each oral tablet
+^ESCTPR639097	Product containing levothyroxine sodium 50 microgram/1 each oral tablet
+^ESCTPR639100	Product containing levothyroxine sodium 100 microgram/1 each oral tablet
+^ESCTPR639102	Product containing levothyroxine sodium 150 microgram/1 each oral tablet
+^ESCTPR639104	Product containing levothyroxine sodium 175 microgram/1 each oral tablet
+^ESCTPR639106	Product containing levothyroxine sodium 200 microgram/1 each oral tablet
+^ESCTPR639108	Product containing levothyroxine sodium 300 microgram/1 each oral tablet
+^ESCTPR639110	Product containing levothyroxine sodium 88 microgram/1 each oral tablet
+^ESCTPR639112	Product containing levothyroxine sodium 112 microgram/1 each oral tablet
+^ESCTPR639114	Product containing levothyroxine sodium 137 microgram/1 each oral tablet
+^ESCTPR639960	Product containing levothyroxine sodium 250 microgram/1 each oral tablet
+^ESCTPR641658	Product containing levothyroxine sodium 125 microgram/1 each oral tablet
+^ESCTPR641661	Product containing levothyroxine sodium 75 microgram/1 each oral tablet
+^ESCTPR642482	Product containing levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCTPR642484	Product containing levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTPR642486	Product containing levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCTPR642489	Product containing levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCTPR642491	Product containing levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCTPR642493	Product containing levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCTPR699071	Product containing levothyroxine sodium 150 microgram/1 each oral capsule
+^ESCTPR700447	Product containing levothyroxine sodium 75 microgram/1 each oral capsule
+^ESCTPR702355	Product containing levothyroxine sodium 50 microgram/1 each oral capsule
+^ESCTPR702681	Product containing levothyroxine sodium 25 microgram/1 each oral capsule
+^ESCTPR702969	Product containing levothyroxine sodium 100 microgram/1 each oral capsule
+^ESCTPR703930	Product containing levothyroxine sodium 125 microgram/1 each oral capsule
+^ESCTTI1066899	Tirosint 25microgram capsules (Imported (United States))
+^ESCTTI1066902	Tirosint 50microgram capsules (Imported (United States))
+^ESCTTI1104163	Tirosint 100microgram capsules (Imported (United States))
+^ESCTWP1002184	WP Thyroid 65mg (1 grain) tablets (Imported (United States))
+ARTA16943NEMIS	Armour Thyroid  Tablets  30 mg (1/2 grain)
+ARTA16945NEMIS	Armour Thyroid  Tablets  60 mg (1 grain)
+ARTA18186NEMIS	Armour Thyroid  Tablets  120 mg (2 grain)
+ARTA22988NEMIS	Armour Thyroid  Tablets  15 mg (1/4 grain)
+ARTA76875NEMIS	Armour Thyroid  Tablets  90 mg (one and a half grain)
+ELOR74100NEMIS	Eltroxin  Oral solution  25 micrograms/5 ml
+ELOR74101NEMIS	Eltroxin  Oral solution  50 micrograms/5 ml
+ELOR74102NEMIS	Eltroxin  Oral solution  100 micrograms/5 ml
+ELTA1055	Eltroxin  Tablets  100 micrograms
+ELTA1056	Eltroxin  Tablets  50 micrograms
+ELTA5339NEMIS	Eltroxin  Tablets  25 micrograms
+ERTA127687NEMIS	Erfa Thyroid  Tablets  30 mg (half grain)
+ERTA78938NEMIS	Erfa Thyroid  Tablets  125 mg (2 grains)
+ERTA86962NEMIS	Erfa Thyroid  Tablets  60 mg (1 grain)
+EVOR23333NEMIS	Evotrox  Oral solution  100 micrograms/5 ml
+EVOR23334NEMIS	Evotrox  Oral solution  50 micrograms/5 ml
+EVOR23335NEMIS	Evotrox  Oral solution  25 micrograms/5 ml
+LECA117709NEMIS	Levothyroxine Sodium  Capsules  100 micrograms
+LECA141702NEMIS	Levothyroxine Sodium  Capsules  25 micrograms
+LECA141703NEMIS	Levothyroxine Sodium  Capsules  50 micrograms
+LECA78894NEMIS	Levothyroxine Sodium  Capsules  10 micrograms
+LEOR128266NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 125 micrograms/5 ml
+LEOR140459NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 75 micrograms/5 ml
+LEOR23329NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 100 micrograms/5 ml
+LEOR23330NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 25 micrograms/5 ml
+LEOR23331NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 50 micrograms/5 ml
+LEOR46777NEMIS	Levothyroxine Sodium  Oral solution  125 micrograms/5 ml
+LEOR48251NEMIS	Levothyroxine Sodium  Oral solution  150 micrograms/5 ml
+LEOR51929NEMIS	Levothyroxine Sodium  Oral powder sachets  100 micrograms
+LESU17791NEMIS	Levothyroxine Sodium  Suspension  100 micrograms/5 ml
+LESU17792NEMIS	Levothyroxine Sodium  Suspension  125 micrograms/5 ml
+LESU17793NEMIS	Levothyroxine Sodium  Suspension  25 micrograms/5 ml
+LESU17794NEMIS	Levothyroxine Sodium  Suspension  250 micrograms/5 ml
+LESU17795NEMIS	Levothyroxine Sodium  Suspension  50 micrograms/5 ml
+LESU18923NEMIS	Levothyroxine Sodium  Suspension  37.5 micrograms/5 ml
+LETA117853NEMIS	Levothyroxine Sodium  Tablets  12.5 micrograms
+LETA117857NEMIS	Levothyroxine Sodium  Tablets  75 micrograms
+LETA140065NEMIS	Levothyroxine Sodium (Accord Healthcare Ltd)  Tablets  50 micrograms
+LETA140066NEMIS	Levothyroxine Sodium (Accord Healthcare Ltd)  Tablets  100 micrograms
+LETA140068NEMIS	Levothyroxine Sodium (Advanz Pharma)  Tablets  25 micrograms
+LETA140069NEMIS	Levothyroxine Sodium (Advanz Pharma)  Tablets  50 micrograms
+LETA140070NEMIS	Levothyroxine Sodium (Advanz Pharma)  Tablets  100 micrograms
+LETA140072NEMIS	Levothyroxine Sodium (Almus Pharmaceuticals Ltd)  Tablets  50 micrograms
+LETA140073NEMIS	Levothyroxine Sodium (Almus Pharmaceuticals Ltd)  Tablets  100 micrograms
+LETA140075NEMIS	Levothyroxine Sodium (Aristo Pharma Ltd)  Tablets  100 micrograms
+LETA140077NEMIS	Levothyroxine Sodium (Teva UK Ltd)  Tablets  12.5 micrograms
+LETA140078NEMIS	Levothyroxine Sodium (Teva UK Ltd)  Tablets  25 micrograms
+LETA140079NEMIS	Levothyroxine Sodium (Teva UK Ltd)  Tablets  50 micrograms
+LETA140080NEMIS	Levothyroxine Sodium (Teva UK Ltd)  Tablets  75 micrograms
+LETA140081NEMIS	Levothyroxine Sodium (Teva UK Ltd)  Tablets  100 micrograms
+LETA140083NEMIS	Levothyroxine Sodium (Wockhardt UK Ltd)  Tablets  25 micrograms
+LETA17796NEMIS	Levothyroxine Sodium  Tablets  100 micrograms
+LETA17798NEMIS	Levothyroxine Sodium  Tablets  25 micrograms
+LETA17800NEMIS	Levothyroxine Sodium  Tablets  50 micrograms
+LETA31077NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  76 micrograms + 18 micrograms
+LETA31079NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  19 micrograms + 4.5 micrograms
+LETA38212MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (Ivax Pharmaceuticals)
+LETA38214MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (Unichem)
+LETA38215MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (The Boots Company)
+LETA38216MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (Kent Pharm)
+LETA38217MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (A.A.H. Pharm)
+LETA38219MGEMIS	Levothyroxine Sodium  Tablets  100 micrograms (Generics (UK))
+LETA38221MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (Alpharma)
+LETA38222MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (A.A.H. Pharm)
+LETA38223MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (Ivax Pharmaceuticals)
+LETA38224MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (Unichem)
+LETA38226MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (Kent Pharm)
+LETA38227MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (The Boots Company)
+LETA38228MGEMIS	Levothyroxine Sodium  Tablets  25 micrograms (Generics (UK))
+LETA38231MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (The Boots Company)
+LETA38232MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (Ivax Pharmaceuticals)
+LETA38233MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (Unichem)
+LETA38234MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (Kent Pharm)
+LETA38235MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (A.A.H. Pharm)
+LETA38236MGEMIS	Levothyroxine Sodium  Tablets  50 micrograms (Generics (UK))
+LETA51695NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  9.5 micrograms + 2.25 micrograms
+LETA51696NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  38 micrograms + 9 micrograms
+LETA76873NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  57 micrograms + 13.5 micrograms
+NATA25544NEMIS	Nature-Throid  Tablets  32.5 mg (1/2 grain)
+NATA25546NEMIS	Nature-Throid Nt-1  Tablets  65 mg (1 grain)
+NATA85475NEMIS	Nature-Throid  Tablets  130 mg (2 grains)
+THTA2853	Thyroxine Sodium  Tablets  100 micrograms
+THTA2854	Thyroxine Sodium  Tablets  50 micrograms
+THTA4415	Thyroxine  Tablets  100 micrograms
+THTA4416	Thyroxine  Tablets  25 micrograms
+THTA4417	Thyroxine  Tablets  50 micrograms
+THTA8902BRIDL	Thyroxine Sodium  Tablets  25 micrograms

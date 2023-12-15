@@ -1,0 +1,15 @@
+f921.	LEVOTHYROXINE SODIUM 25micrograms tablets
+f922.	LEVOTHYROXINE SODIUM 50micrograms tablets
+f923.	LEVOTHYROXINE SODIUM 100micrograms tablets
+f924.	ELTROXIN 50micrograms tablets
+f925.	ELTROXIN 100micrograms tablets
+f926.	ELTROXIN 25micrograms tablets
+f927.	LEVOTHYROXINE SODIUM 25micrograms/5mL oral solution
+f928.	LEVOTHYROXINE SODIUM 50micrograms/5mL oral solution
+f929.	LEVOTHYROXINE SODIUM 100micrograms/5mL oral solution
+f92A.	EVOTROX 25micrograms/5mL oral solution
+f92B.	EVOTROX 50micrograms/5mL oral solution
+f92C.	EVOTROX 100micrograms/5mL oral solution
+f92D.	ELTROXIN 25micrograms/5mL oral solution
+f92E.	ELTROXIN 50micrograms/5mL oral solution
+f92F.	ELTROXIN 100micrograms/5mL oral solution

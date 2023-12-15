@@ -1,0 +1,3 @@
+f911.	TERTROXIN 20micrograms tablets
+f91y.	LIOTHYRONINE SOD 20microgram tablets
+f91z.	LIOTHYRONINE SOD 20microgram injection
