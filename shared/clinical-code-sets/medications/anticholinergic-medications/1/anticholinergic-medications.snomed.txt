@@ -1,55 +1,977 @@
-11474411000001104	Androstanolone 2.5% gel
-11474511000001100	Androstanolone 2.5% gel
-15863711000001109	Androstanolone 2.5% gel
-11474611000001101	Andractim 2.5% gel (Imported (France))
-11474711000001105	Andractim 2.5% gel (Imported (France))
-15863611000001100	Androstanolone 2.5% gel (Special Order)
-15863811000001101	Androstanolone 2.5% gel (Special Order)
-36029311000001101	Nandrolone 50mg/1ml solution for injection ampoules
-3879811000001103	Nandrolone 50mg/1ml solution for injection ampoules
-3880011000001109	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
-3880311000001107	Deca-Durabolin 50mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
-375797005	Oxandrolone 2.5mg tablets
-11506411000001109	Oxandrolone 2.5mg tablets
-15878011000001105	Oxandrolone 2.5mg tablets
-11506511000001108	Oxandrin 2.5mg tablets (Imported (Australia))
-11506611000001107	Oxandrin 2.5mg tablets (Imported (Australia))
-15878111000001106	Oxandrolone 2.5mg tablets (Special Order)
-15878211000001100	Oxandrolone 2.5mg tablets (Special Order)
-18119511000001103	Prasterone 10mg / Calcium carbonate 47mg tablets
-18113211000001103	Prasterone 10mg / Calcium carbonate 47mg tablets
-18113311000001106	Natrol DHEA 10mg tablets (Imported (United States))
-18113411000001104	Natrol DHEA 10mg tablets (Imported (United States))
-413957004	Prasterone 10mg tablets
-20921711000001104	Prasterone 10mg tablets
-20921811000001107	DHEA 10mg tablets (Imported (United States))
-20921911000001102	DHEA 10mg tablets (Imported (United States))
-413959001	Prasterone 25mg tablets
-20922011000001109	Prasterone 25mg tablets
-36773011000001101	Prasterone 25mg tablets
-20922111000001105	DHEA 25mg tablets (Imported (United States))
-20922211000001104	DHEA 25mg tablets (Imported (United States))
-36773111000001100	Prasterone 25mg tablets (Special Order)
-36773211000001106	Prasterone 25mg tablets (Special Order)
-413958009	Prasterone 25mg capsules
-20922311000001107	Prasterone 25mg capsules
-20922611000001102	Prasterone 25mg capsules
-20922411000001100	DHEA 25mg capsules (Imported (United States))
-20922511000001101	DHEA 25mg capsules (Imported (United States))
-20922711000001106	DHEA 25mg capsules (Imported (United States))
-413960006	Prasterone 50mg capsules
-20922811000001103	Prasterone 50mg capsules
-20922911000001108	DHEA 50mg capsules (Imported (United States))
-20923011000001100	DHEA 50mg capsules (Imported (United States))
-36915211000001107	Prasterone 6.5mg pessaries
-36914211000001106	Prasterone 6.5mg pessaries
-36914311000001103	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)
-36914411000001105	Intrarosa 6.5mg pessaries (Theramex HQ UK Ltd)
-325740006	Stanozolol 5mg tablets
-4563211000001109	Stanozolol 5mg tablets
-4563311000001101	Stromba 5mg tablets (Sanofi-Synthelabo Ltd)
-4563411000001108	Stromba 5mg tablets (Sanofi-Synthelabo Ltd)
-15243711000001107	Stanozolol 2mg tablets
-15237811000001109	Stanozolol 2mg tablets
-15237911000001104	Stanozolol 2mg tablets (Special Order)
-15238011000001102	Stanozolol 2mg tablets (Special Order)
+228545001000027000	Quetiapine Starter Pack
+259211000001103	Sinequan 10mg capsules (Pfizer Ltd)
+189115001000027000	Largactil 25mg/5ml Oral solution (Hawgreen Ltd)
+150311000001100	Cystrin 5mg tablets (Sanofi)
+138295001000027000	Promazine 50mg/5ml oral solution
+104775001000027000	Cyproheptadine 2mg/5ml oral solution
+53525001000027100	Dosulepin 75mg/5ml oral solution sugar free
+348476002	Promethazine hydrochloride 20mg tablets
+321546005	Trifluoperazine 5mg/5ml oral solution sugar free
+36143511000001100	Trifluoperazine 2mg modified-release capsules
+208811000001101	Prothiaden 25mg capsules (Teofarma)
+746811000001100	Piriton Allergy 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+60965001000027100	Hyoscine hydrobromide 600microgram Tablet
+3650911000001100	Tavegil 500micrograms/5ml elixir (Novartis Consumer Health UK Ltd)
+24415001000027100	Periactin 2mg/5ml Oral solution (Merck Sharp & Dohme Ltd)
+621711000001107	Sinequan 50mg capsules (Pfizer Ltd)
+400611000001102	Sinequan 25mg capsules (Pfizer Ltd)
+39345001000027100	Sparine 25mg Tablet (Wyeth Pharmaceuticals)
+323256002	Procyclidine 5mg tablets
+138355001000027000	Promethazine hydrochloride 25mg/ml injection
+47911000001107	Stemetil 25mg suppositories (Sanofi)
+58665001000027100	Aventyl 25mg Capsule (Eli Lilly and Company Ltd)
+21705001000027100	Norflex 100mg Tablet (3M Health Care Ltd)
+321548006	Trifluoperazine 5mg tablets
+321614001	Olanzapine 10mg tablets
+36021911000001100	Procyclidine 5mg/5ml oral solution sugar free
+58675001000027100	Aventyl 10mg/5ml Liquid (Eli Lilly and Company Ltd)
+317109009	Dicycloverine 10mg tablets
+317084000	Atropine 600microgram tablets
+8019811000001100	Diphenhydramine 6.25mg/5ml oral solution sugar free
+3997611000001100	Kwells Kids 150microgram tablets (Bayer Plc)
+2968111000001100	Ditropan XL 10mg tablets (Janssen-Cilag Ltd)
+326563008	Oxybutynin 5mg tablets
+36137711000001100	Chlorphenamine 10mg/1ml solution for injection ampoules
+321816001	Imipramine 10mg tablets
+36143311000001100	Trifluoperazine 1mg/5ml oral solution sugar free
+45811000001107	Stelazine 5mg tablets (Mercury Pharma Group Ltd)
+325311000001103	Stelazine 1mg tablets (Mercury Pharma Group Ltd)
+29235001000027100	Sparine 50mg/ml Injection (Wyeth Pharmaceuticals)
+775511000001109	Ditropan 5mg tablets (Sanofi)
+25511000001107	Arpicolin 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+354911000001100	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+486611000001101	Zyprexa 10mg tablets (Eli Lilly and Company Ltd)
+18595001000027100	Merbentyl 10mg Tablet (Florizel Ltd)
+897111000001104	Zyprexa 10mg Velotabs (Eli Lilly and Company Ltd)
+321966008	Paroxetine 30mg tablets
+3832011000001100	Clozaril 100mg tablets (Mylan)
+322149009	Prochlorperazine 5mg suppositories
+766011000001103	Stemetil 12.5mg/1ml solution for injection ampoules (Sanofi)
+36021511000001100	Prochlorperazine 12.5mg/1ml solution for injection ampoules
+276511000001108	Sinequan 75mg capsules (Pfizer Ltd)
+138335001000027000	Promazine 50mg/5ml oral solution sugar free
+91711000001108	Zyprexa 5mg Velotabs (Eli Lilly and Company Ltd)
+4111000001106	Seroquel 150mg tablets (AstraZeneca UK Ltd)
+596211000001109	Seroquel 25mg tablets (AstraZeneca UK Ltd)
+4528911000001100	Lyrinel XL 5mg tablets (Janssen-Cilag Ltd)
+227211000001108	Phenergan Nightime 25mg tablets (Sanofi)
+92425001000027100	Diphenydramine 50mg capsules
+3688011000001100	Orap 4mg tablets (Eumedica Pharmaceuticals)
+179385001000027000	Promazine 50mg/ml injection
+138305001000027000	Promazine 12.5mg/5ml oral solution
+160895001000027000	Prochlorperazine maleate 15mg modified release capsul
+37083011000001100	Chlorphenamine 2mg/5ml oral solution
+35905511000001100	Atropine 400micrograms/1ml solution for injection ampoules
+927011000001104	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd)
+738111000001107	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd)
+4529411000001100	Lyrinel XL 10mg tablets (Janssen-Cilag Ltd)
+134411000001102	Phenergan 5mg/5ml elixir (Sanofi)
+305515001000027000	Olanzapine 20mg Orodispersible tablet
+437611000001106	Zyprexa 15mg Velotabs (Eli Lilly and Company Ltd)
+798211000001106	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd)
+7960911000001100	Hayleve 4mg tablets (Genesis Pharmaceuticals Ltd)
+45435001000027100	Piriject 10mg/ml Injection (Link Pharmaceuticals Ltd)
+36028211000001100	Pethidine 100mg/2ml solution for injection ampoules
+35905011000001100	Atropine 1mg/1ml solution for injection ampoules
+3379711000001100	Nytol 25mg tablets (Omega Pharma Ltd)
+58655001000027100	Aventyl 10mg Capsule (Eli Lilly and Company Ltd)
+101495001000027000	Chloractil 25mg Tablet (DDSA Pharmaceuticals Ltd)
+37605001000027100	Vallergan forte 30mg/5ml Oral solution (Castlemead Healthcare Ltd)
+213711000001101	Stelazine 10mg Spansules (Mercury Pharma Group Ltd)
+158775001000027000	Pethidine 50mg Tablet (Roche Products Ltd)
+2894511000001100	Kemadrin 10mg/2ml solution for injection ampoules (Auden McKenzie (Pharma Division) Ltd)
+321502002	Promazine 50mg/5ml oral solution
+34225001000027100	Vertigon spansule 15 15mg Spansule (GlaxoSmithKline Consumer Healthcare)
+3830311000001100	Clozaril 25mg tablets (Mylan)
+3998111000001100	Joy-rides 150microgram chewable tablets (Teva UK Ltd)
+340911000001108	Seroquel 100mg tablets (AstraZeneca UK Ltd)
+467011000001109	Zyprexa 5mg tablets (Eli Lilly and Company Ltd)
+321817005	Imipramine 25mg tablets
+59335001000027100	Tryptizol 10mg/ml Injection (Merck Sharp & Dohme Ltd)
+29465001000027100	Stelazine 10mg/ml Concentrate (Goldshield Pharmaceuticals Ltd)
+337311000001109	Zyprexa 2.5mg tablets (Eli Lilly and Company Ltd)
+321547001	Trifluoperazine 1mg tablets
+145365001000027000	Trifluoperazine 10mg/ml concentrate
+323233006	Orphenadrine 25mg/5ml oral solution sugar free
+321747004	Amitriptyline 50mg tablets
+36069711000001100	Diphenhydramine 10mg/5ml oral solution
+67285001000027100	Largactil 100mg Suppository (Rhone-Poulenc Rorer Ltd)
+53535001000027100	Dosulepin 25mg/5ml mixture
+600711000001109	Dosulepin 75mg tablets (Actavis UK Ltd)
+14911000001107	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd)
+3232111000001100	Avomine 25mg tablets (Manx Healthcare Ltd)
+249611000001103	Arpicolin 2.5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+95265001000027100	Amitriptyline 10mg/ml injection
+322150009	Prochlorperazine 25mg suppositories
+511111000001106	Zyprexa 15mg tablets (Eli Lilly and Company Ltd)
+320777001	Promethazine 5mg/5ml oral solution sugar free
+58815001000027100	Domical 25mg Tablet (Berk Pharmaceuticals Ltd)
+320730006	Diphenhydramine 50mg tablets
+321888007	Trimipramine 25mg tablets
+111215001000027000	Dimenhydrinate 50mg tablets
+15825001000027100	Kemadrin 5mg Tablet (Wellcome Medical Division)
+196985001000027000	Medinex 10mg/5ml Oral solution (Wyeth Consumer Healthcare)
+709611000001101	Thaden 75mg tablets (Opus Pharmaceuticals Ltd)
+7974011000001100	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd)
+123295001000027000	Veractil 25mg Tablet (Rhone-Poulenc Rorer Ltd)
+4214611000001100	Sominex 20mg tablets (Teva UK Ltd)
+321368001	Chlorpromazine 100mg tablets
+4989111000001100	Seroquel 300mg tablets (AstraZeneca UK Ltd)
+756711000001105	Symmetrel 50mg/5ml syrup (Alliance Pharmaceuticals Ltd)
+317110004	Dicycloverine 10mg/5ml oral solution
+329511000001107	Prepadine 75mg tablets (Teva UK Ltd)
+397711000001101	Prepadine 25mg capsules (Teva UK Ltd)
+219265001000027000	Promictuline 2.5mg Tablet (Ashbourne Pharmaceuticals Ltd)
+776911000001109	Zyprexa 7.5mg tablets (Eli Lilly and Company Ltd)
+219275001000027000	Promictuline 5mg Tablet (Ashbourne Pharmaceuticals Ltd)
+61395001000027100	Amitriptyline 10mg/5ml Oral solution (Rosemont Pharmaceuticals Ltd)
+36138211000001100	Chlorpromazine 25mg/1ml solution for injection ampoules
+620411000001105	Stemetil 5mg suppositories (Sanofi)
+323234000	Orphenadrine 50mg tablets
+323232001	Orphenadrine 50mg/5ml oral solution sugar free
+193265001000027000	Nytol 25mg Tablet (Stafford-Miller Ltd)
+7958511000001100	Allerief 2mg/5ml oral solution (Crescent Pharma Ltd)
+733111000001103	Prothiaden 75mg tablets (Teofarma)
+158735001000027000	Pethidine 25mg tablet
+254111000001108	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd)
+5818311000001100	Olanzapine 10mg powder for solution for injection vials
+36028411000001100	Pethidine 50mg/5ml solution for injection ampoules
+165695001000027000	Diphenydramine paediatric oral solution
+88045001000027100	Alunex 4mg Tablet (M A Steinhard Ltd)
+33385001000027100	Vallergan 10mg Tablet (Castlemead Healthcare Ltd)
+18605001000027100	Merbentyl 20mg Tablet (Florizel Ltd)
+440811000001107	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)
+268711000001108	Amitriptyline 10mg tablets (Actavis UK Ltd)
+78811000001102	Amitriptyline 25mg tablets (Actavis UK Ltd)
+40611000001100	Amitriptyline 25mg tablets (Teva UK Ltd)
+865611000001103	Amitriptyline 10mg tablets (Teva UK Ltd)
+322612004	Pethidine 50mg tablets
+87995001000027100	Elavil 10mg Tablet (DDSA Pharmaceuticals Ltd)
+321365003	Chlorpromazine 10mg tablets
+4534311000001100	Lentizol 25mg modified-release capsules (Pfizer Ltd)
+321490002	Pimozide 2mg tablets
+24675001000027100	Pethidine 10mg/ml injection
+647811000001109	Ditropan 2.5mg tablets (Sanofi)
+95245001000027100	Amitriptyline 75mg modified-release capsules
+326553000	Tolterodine 1mg tablets
+101711000001102	Surmontil 50mg capsules (Sanofi)
+498211000001103	Surmontil 25mg tablets (Sanofi)
+101505001000027000	Chloractil 50mg Tablet (DDSA Pharmaceuticals Ltd)
+35896911000001100	Alimemazine 30mg/5ml oral solution
+59085001000027100	Tofranil 10mg Tablet (Novartis Pharmaceuticals UK Ltd)
+574611000001106	Lysovir 100mg capsules (Alliance Pharmaceuticals Ltd)
+25245001000027100	Piriton 12mg Spandets (Stafford-Miller Ltd)
+58805001000027100	Domical 10mg Tablet (Berk Pharmaceuticals Ltd)
+231185001000027000	Contimin 2.5mg Tablet (Berk Pharmaceuticals Ltd)
+248211000001105	Muscinil 5mg tablets (Opus Pharmaceuticals Ltd)
+231195001000027000	Contimin 5mg Tablet (Berk Pharmaceuticals Ltd)
+273711000001105	Detrusitol 2mg tablets (Pfizer Ltd)
+36089011000001100	Clomipramine 25mg/2ml solution for injection ampoules
+321618003	Olanzapine 2.5mg tablets
+231545001000027000	Urimin 5mg Tablet (Opus Pharmaceuticals Ltd)
+21715001000027100	Norflex 30mg/ml Injection (3M Health Care Ltd)
+82295001000027100	Trihexyphenidyl 2mg Tablet (DDSA Pharmaceuticals Ltd)
+58825001000027100	Domical 50mg Tablet (Berk Pharmaceuticals Ltd)
+139511000001104	Calimal 4mg tablets (Sussex Pharmaceutical Ltd)
+3379111000001100	Nightcalm 25mg tablets (Galpharm International Ltd)
+714111000001105	Stelazine 2mg Spansules (Mercury Pharma Group Ltd)
+36143111000001100	Trifluoperazine 10mg modified-release capsules
+82935001000027100	Orap 10mg Tablet (Janssen-Cilag Ltd)
+193255001000027000	Nytol 25mg Tablet (Stafford-Miller Ltd)
+469311000001102	Chlorphenamine 4mg tablets (Sussex Pharmaceutical Ltd)
+243635001000027000	Hyoscine hydrobromide 300microgram/5ml Oral solution
+67055001000027100	Largactil 25mg Tablet (Hawgreen Ltd)
+237945001000027000	Levinan 6mg Tablet (Link Pharmaceuticals Ltd)
+130525001000027000	Orphenadrine citrate 30mg/ml Injection
+101515001000027000	Chloractil 100mg Tablet (DDSA Pharmaceuticals Ltd)
+28945001000027100	Pethidine 50mg/ml Injection (Martindale Pharmaceuticals Ltd)
+374054003	Olanzapine 20mg tablets
+26085001000027100	Pro-banthine 15mg Tablet (Concord Pharmaceuticals Ltd)
+24665001000027100	Pethidine 50mg/ml injection
+321498009	Promazine 25mg tablets
+6711000001103	Biorphen 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+4533611000001100	Lentizol 50mg modified-release capsules (Pfizer Ltd)
+574211000001109	Chlorphenamine 4mg tablets (A A H Pharmaceuticals Ltd)
+582911000001100	Dosulepin 25mg capsules (Mylan)
+73185001000027100	Trihexyphenidyl 2mg Tablet (Genus Pharmaceuticals Ltd)
+7740511000001100	Stelazine Forte 1mg/ml oral solution (Mercury Pharma Group Ltd)
+4192611000001100	Trihexyphenidyl 2mg tablets (Teva UK Ltd)
+41455001000027100	Pethidine powder
+4551211000001100	Anafranil 25mg/2ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd)
+398211000001107	Thaden 25mg capsules (Opus Pharmaceuticals Ltd)
+3105001000027100	Benylin children's cough Oral solution (Warner Lambert UK Ltd)
+7972911000001100	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd)
+713711000001109	Oxybutynin 5mg tablets (Sterwin Medicines)
+3858211000001100	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals 
+570811000001100	Chlorphenamine 10mg/1ml solution for injection ampoules (Kyowa Kirin Ltd)
+3380611000001100	Dreemon 25mg tablets (E M Pharma)
+430911000001101	Chlorpromazine 50mg tablets (A A H Pharmaceuticals Ltd)
+206411000001104	Chlorpromazine 50mg tablets (Teva UK Ltd)
+290211000001102	Chlorpromazine 25mg tablets (A A H Pharmaceuticals Ltd)
+249311000001108	Chlorpromazine 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+39911000001101	Oxybutynin 5mg tablets (Actavis UK Ltd)
+122635001000027000	Pethidine 50mg/ml Injection (Auden McKenzie (Pharma Division) Ltd)
+35904811000001100	Atropine 1.25mg/1ml solution for injection ampoules
+102445001000027000	Aller-eze original 1mg Tablet (Novartis Consumer Health UK Ltd)
+610211000001100	Chlorphenamine 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+205495001000027000	Unichem allergy relief 4mg Tablet (Unichem)
+35905111000001100	Atropine 1mg/5ml solution for injection pre-filled syringes
+670311000001102	Chlorphenamine 2mg/5ml oral solution sugar free (Sandoz Ltd)
+496511000001101	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+344311000001104	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd)
+321861002	Nortriptyline 10mg tablets
+320803005	Alimemazine 10mg tablets
+36028111000001100	Pethidine 100mg/10ml solution for injection ampoules
+8000511000001100	Ziz 10mg tablets (Chatfield Laboratories)
+17795001000027100	Pethidine 50mg Tablet (Roche Products Ltd)
+459511000001104	Procyclidine 5mg tablets (Teva UK Ltd)
+321785001	Clomipramine 10mg capsules
+321886006	Trimipramine 50mg capsules
+184055001000027000	Promazine 100mg tablet
+246211000001109	Prochlorperazine 5mg tablets (Actavis UK Ltd)
+62611000001108	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd)
+10677611000001100	Prochlorperazine 12.5mg/1ml solution for injection ampoules (Advanz Pharma)
+126611000001106	Chlorphenamine 4mg tablets (Actavis UK Ltd)
+39355001000027100	Sparine 50mg Tablet (Wyeth Pharmaceuticals)
+39445001000027100	Sparine 50mg/5ml Liquid (Wyeth Pharmaceuticals)
+321499001	Promazine 50mg tablets
+4425001000027100	Amitriptyline 25mg Tablet (Sussex Pharmaceutical Ltd)
+50811000001103	Pollenase Antihistamine 4mg tablets (E M Pharma)
+83015001000027100	Stemetil 12.5mg/ml Injection (Castlemead Healthcare Ltd)
+516511000001106	Prochlorperazine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+84311000001108	Prochlorperazine 5mg tablets (Mylan)
+321612002	Olanzapine 5mg tablets
+326554006	Tolterodine 2mg tablets
+17785001000027100	Pethidine 100mg/2ml Injection (Roche Products Ltd)
+8150911000001100	Imipramine 10mg tablets (Teva UK Ltd)
+784511000001103	Prochlorperazine 5mg tablets (Teva UK Ltd)
+4116911000001100	Paroxetine 20mg tablets (Actavis UK Ltd)
+35904911000001100	Atropine 1mg/10ml solution for injection pre-filled syringes
+856611000001104	Chlorphenamine 4mg tablets (Teva UK Ltd)
+90895001000027100	Praminil 10mg Tablet (DDSA Pharmaceuticals Ltd)
+310911000001104	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+543311000001104	Dosulepin 25mg capsules (Sandoz Ltd)
+321367006	Chlorpromazine 50mg tablets
+39365001000027100	Sparine 100mg Tablet (Wyeth Pharmaceuticals)
+540811000001101	Amitriptyline 50mg tablets (Teva UK Ltd)
+272611000001106	Trihexyphenidyl 2mg tablets (A A H Pharmaceuticals Ltd)
+320718000	Cyproheptadine 4mg tablets
+9891011000001100	Zyprexa 20mg Velotabs (Eli Lilly and Company Ltd)
+21811000001107	Paroxetine 20mg tablets (Mylan)
+241511000001103	Dosulepin 75mg tablets (Teva UK Ltd)
+11176811000001100	Amitriptyline 50mg tablets (Wockhardt UK Ltd)
+11176611000001100	Amitriptyline 25mg tablets (Wockhardt UK Ltd)
+101415001000027000	Chlorphenamine 12mg modified-release tablets
+55411000001107	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)
+4185001000027100	Amitriptyline 25mg Tablet (Berk Pharmaceuticals Ltd)
+424211000001100	Imipramine 10mg tablets (Actavis UK Ltd)
+148811000001109	Dosulepin 25mg capsules (Teva UK Ltd)
+75911000001101	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+235711000001109	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd)
+563711000001107	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+771511000001106	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+36023211000001100	Oxybutynin 2.5mg/5ml oral solution
+341711000001103	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+31211000001109	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+572011000001105	Imipramine 25mg tablets (Actavis UK Ltd)
+13059111000001100	Amitriptyline 10mg tablets (Wockhardt UK Ltd)
+570611000001104	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd)
+198111000001108	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+4365001000027100	Amitriptyline 25mg Tablet (Regent Laboratories Ltd)
+788611000001109	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+851011000001104	Dosulepin 75mg tablets (Mylan)
+473611000001100	Oxybutynin 2.5mg tablets (Mylan)
+645511000001102	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+723211000001106	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd)
+7384811000001100	Paroxetine 30mg tablets (A A H Pharmaceuticals Ltd)
+4819111000001100	Chlorpromazine 50mg tablets (Thornton & Ross Ltd)
+743811000001109	Amitriptyline 50mg tablets (Actavis UK Ltd)
+17197611000001100	Dosulepin 25mg capsules (Sovereign Medical Ltd)
+9792111000001100	Dosulepin 25mg capsules (Almus Pharmaceuticals Ltd)
+391411000001104	Chlorpromazine 25mg tablets (Teva UK Ltd)
+577911000001106	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd)
+4818811000001100	Chlorpromazine 25mg tablets (Thornton & Ross Ltd)
+47511000001100	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)
+47811000001102	Chlorpromazine 100mg tablets (Teva UK Ltd)
+397111000001102	Dosulepin 25mg capsules (Actavis UK Ltd)
+196311000001106	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+190511000001102	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+569911000001107	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+730311000001107	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd)
+14185001000027100	Imipramine 25mg Tablet (C P Pharmaceuticals Ltd)
+4165001000027100	Amitriptyline 10mg Tablet (Berk Pharmaceuticals Ltd)
+641811000001102	Procyclidine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+320776005	Promethazine hydrochloride 25mg tablets
+421041006	Paroxetine 10mg tablets
+11270611000001100	Seroxat 10mg tablets (GlaxoSmithKline UK Ltd)
+317139004	Propantheline bromide 15mg tablets
+11044311000001100	Sinepin 25mg capsules (Marlborough Pharmaceuticals Ltd)
+19947211000001100	Hyoscine hydrobromide 500micrograms/5ml oral suspension
+60711000001103	Phenergan 25mg/1ml solution for injection ampoules (Sanofi)
+11044611000001100	Sinepin 50mg capsules (Marlborough Pharmaceuticals Ltd)
+326561005	Oxybutynin 2.5mg tablets
+321812004	Doxepin 25mg capsules
+61325001000027100	Oxybutynin 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+320713009	Clemastine 1mg tablets
+351811000001108	Phenergan 25mg tablets (Sanofi)
+35931511000001100	Promethazine 25mg/1ml solution for injection ampoules
+35905411000001100	Atropine 3mg/30ml solution for injection pre-filled syringes
+36138411000001100	Chlorpromazine 50mg/2ml solution for injection ampoules
+16811000001109	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd)
+10878511000001100	Zyprexa 20mg tablets (Eli Lilly and Company Ltd)
+191105001000027000	Artane sustets 5mg Sustets (Bio-Diagnostics Ltd)
+647111000001102	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+4735511000001100	Pollenase Allergy 2mg/5ml syrup (E M Pharma)
+321786000	Clomipramine 25mg capsules
+35905611000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+13574711000001100	ALLERcalm Allergy Relief 4mg tablets (Actavis UK Ltd)
+593211000001102	Stemetil Eff 5mg sachets (Sanofi)
+10679211000001100	Pethidine 50mg/1ml solution for injection ampoules (Advanz Pharma)
+181645001000027000	Chlorpromazine 100mg/5ml suspension
+67065001000027100	Largactil 50mg Tablet (Hawgreen Ltd)
+196745001000027000	Amitriptyline 10mg/5ml sugar free oral solution
+9795311000001100	Chlorphenamine 4mg tablets (Almus Pharmaceuticals Ltd)
+32965001000027100	Chlorpromazine 25mg/5ml Oral solution (Rosemont Pharmaceuticals Ltd)
+12303411000001100	Pethidine 50mg capsules
+81011000001107	Promazine 50mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+41425001000027100	Pethidine 25mg Tablet (Roche Products Ltd)
+209735001000027000	Nytol 25mg Tablet (GlaxoSmithKline Consumer Healthcare)
+9470911000001100	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+8377611000001100	Clomipramine 50mg/5ml oral suspension
+321811006	Doxepin 10mg capsules
+322081002	Hyoscine hydrobromide 300microgram tablets
+12211000001107	Detrusitol XL 4mg capsules (Pfizer Ltd)
+426954000	Quetiapine 400mg modified-release tablets
+14042811000001100	Quetiapine 50mg modified-release tablets
+426401009	Quetiapine 300mg modified-release tablets
+426802009	Quetiapine 200mg modified-release tablets
+14026511000001100	Seroquel XL 50mg tablets (AstraZeneca UK Ltd)
+14025311000001100	Seroquel XL 200mg tablets (AstraZeneca UK Ltd)
+14026011000001100	Seroquel XL 300mg tablets (AstraZeneca UK Ltd)
+321864005	Nortriptyline 25mg tablets
+130005001000027000	Nortriptyline 10mg/5ml Liquid
+784411000001102	Detrusitol 1mg tablets (Pfizer Ltd)
+14025711000001100	Seroquel XL 400mg tablets (AstraZeneca UK Ltd)
+321787009	Clomipramine 50mg capsules
+322145003	Prochlorperazine 25mg tablets
+36143211000001100	Trifluoperazine 15mg modified-release capsules
+36138311000001100	Chlorpromazine 25mg/5ml oral solution
+97511000001109	Stemetil 5mg tablets (Sanofi)
+425811000001103	Merbentyl 10mg tablets (Sanofi)
+482911000001108	Merbentyl 10mg/5ml syrup (Sanofi)
+344011000001102	Stemetil 5mg/5ml syrup (Sanofi)
+881611000001104	Merbentyl 20 tablets (Sanofi)
+18284111000001100	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd)
+73711000001104	Trifluoperazine 1mg tablets (A A H Pharmaceuticals Ltd)
+6330111000001100	Paroxetine 30mg tablets (Actavis UK Ltd)
+257811000001105	Pethidine 50mg tablets (Martindale Pharmaceuticals Ltd)
+665811000001106	Promazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+4175001000027100	Amitriptyline 50mg Tablet (Berk Pharmaceuticals Ltd)
+445611000001100	Vallergan 7.5mg/5ml syrup (Sanofi)
+238035001000027000	Sleep aid 50mg Tablet (A A H Pharmaceuticals Ltd)
+658211000001105	Vallergan 10mg tablets (Sanofi)
+418754000	Clozapine 50mg tablets
+15506211000001100	Clozapine 200mg tablets
+232611000001109	Vallergan Forte 30mg/5ml syrup (Sanofi)
+256215001000027000	Doxepin 25mg/5ml oral suspension
+14018611000001100	Quetiapine 100mg/5ml oral solution
+258125001000027000	Levomepromazine 6mg Tablet
+9034711000001100	Paroxetine 20mg tablets (Genus Pharmaceuticals Ltd)
+14018711000001100	Quetiapine 100mg/5ml oral suspension
+15498911000001100	Denzapine 50mg tablets (Britannia Pharmaceuticals Ltd)
+129985001000027000	Nortriptyline 10mg Capsule
+8151111000001100	Imipramine 25mg tablets (Teva UK Ltd)
+15505711000001100	Denzapine 200mg tablets (Britannia Pharmaceuticals Ltd)
+36021811000001100	Procyclidine 2.5mg/5ml oral solution sugar free
+3791211000001100	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals 
+28855001000027100	Pethidine 100mg/2ml Injection (C P Pharmaceuticals Ltd)
+299811000001105	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+355011000001100	Oxybutynin 5mg tablets (Teva UK Ltd)
+404711000001100	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd)
+80505001000027100	Benadryl 25mg Capsule (Parke-davis Research Laboratories)
+312211000001109	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+238411000001108	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+57775001000027100	Chlorpromazine 25mg/ml Injection (Antigen Pharmaceuticals)
+110511000001103	Oxybutynin 2.5mg tablets (Sterwin Medicines)
+148011000001103	Trifluoperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+254311000001105	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+4245001000027100	Amitriptyline 25mg Tablet (Celltech Pharma Europe Ltd)
+4209511000001100	Promazine 50mg tablets (Teva UK Ltd)
+82305001000027100	Trihexyphenidyl 5mg Tablet (DDSA Pharmaceuticals Ltd)
+80885001000027100	Promazine 50mg/ml Injection (Genus Pharmaceuticals Ltd)
+154775001000027000	Chlorphenamine 4mg Tablet (Genesis Medical Ltd)
+9784711000001100	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)
+194311000001100	Procyclidine 5mg tablets (Actavis UK Ltd)
+9710311000001100	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+15506311000001100	Clozapine 50mg/ml oral suspension sugar free
+16423411000001100	Imipramine 25mg/5ml oral solution sugar free
+3790611000001100	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (UCB Pharma Ltd)
+158745001000027000	Pethidine 50mg/ml injection
+701911000001108	Nozinan 25mg tablets (Sanofi)
+4295001000027100	Amitriptyline 25mg Tablet (Crosspharma Ltd)
+7979811000001100	Atropine 3mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+158785001000027000	Pethidine 50mg/ml intramuscular injection (Roche Products Ltd)
+9792411000001100	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd)
+4192811000001100	Trihexyphenidyl 5mg tablets (Teva UK Ltd)
+920911000001101	Buccastem 3mg tablets (Alliance Pharmaceuticals Ltd)
+12082411000001100	Dosulepin 100mg/5ml oral solution
+870711000001107	Pro-Banthine 15mg tablets (Kyowa Kirin Ltd)
+321887002	Trimipramine 10mg tablets
+8973511000001100	Histergan 10mg/5ml syrup (Norma Chemicals Ltd)
+12018311000001100	Chlorphenamine 50mg/5ml oral solution
+73195001000027100	Trihexyphenidyl 5mg Tablet (Genus Pharmaceuticals Ltd)
+11012111000001100	Prochlorperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+97805001000027100	Chlorphenamine 4mg Tablet (Family Health)
+4222311000001100	Orphenadrine 50mg tablets (Teva UK Ltd)
+68245001000027100	Oxybutynin 2.5mg Tablet (Pharmacia Ltd)
+16411000001107	Clomipramine 10mg capsules (Teva UK Ltd)
+179395001000027000	Promazine 50mg/ml injection
+17037611000001100	Olanzapine embonate 210mg powder and solvent for suspension for injection vials
+160885001000027000	Prochlorperazine maleate 10mg modified release capsule
+17828611000001100	Quetiapine 150mg modified-release tablets
+214311000001103	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+67811000001105	Chlorpromazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+183511000001107	Kemadrin 5mg tablets (Aspen Pharma Trading Ltd)
+17689811000001100	Seroquel XL 150mg tablets (AstraZeneca UK Ltd)
+8359711000001100	Chlorpromazine 50mg/5ml oral solution
+4182911000001100	Nozinan 25mg/1ml solution for injection ampoules (Sanofi)
+619511000001105	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd)
+9710511000001100	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+105411000001106	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+4544911000001100	Orap 2mg tablets (Janssen-Cilag Ltd)
+4415001000027100	Amitriptyline 10mg Tablet (Sussex Pharmaceutical Ltd)
+13003011000001100	Orphenadrine 25mg/5ml oral solution
+15381911000001100	Chlorpromazine 100mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+115011000001100	Disipal 50mg tablets (Astellas Pharma Ltd)
+636911000001101	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+250005001000027000	Pethidine injection
+149111000001109	Clomipramine 25mg capsules (Teva UK Ltd)
+15506011000001100	Denzapine 50mg/ml oral suspension (Britannia Pharmaceuticals Ltd)
+60905001000027100	Dosulepin 25mg/5ml Oral solution (Rosemont Pharmaceuticals Ltd)
+13012311000001100	Quetiapine 25mg/5ml oral suspension
+19015001000027100	Procyclidine 5mg Tablet (Berk Pharmaceuticals Ltd)
+5694111000001100	Zyprexa 10mg powder for solution for injection vials (Eli Lilly and Company Ltd)
+9801711000001100	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd)
+17038211000001100	Olanzapine embonate 300mg powder and solvent for suspension for injection vials
+206815001000027000	Dicycloverine hc 10mg/5ml Oral solution (Sanofi)
+13011611000001100	Quetiapine 12.5mg/5ml oral solution
+13892411000001100	Amitriptyline 10mg/5ml oral solution
+36021711000001100	Procyclidine 10mg/2ml solution for injection ampoules
+8277811000001100	Amitriptyline 10mg/5ml oral suspension
+35901511000001100	Amitriptyline 50mg modified-release capsules
+13011711000001100	Quetiapine 12.5mg/5ml oral suspension
+35901611000001100	Amitriptyline 50mg/5ml oral solution sugar free
+520211000001100	Chlorphenamine 4mg tablets (Vantage)
+30015001000027100	Promazine 25mg Tablet (Biorex Laboratories Ltd)
+227311000001100	Chlorpromazine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+778911000001108	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+19626711000001100	Olanzapine 10mg orodispersible tablets
+19627011000001100	Olanzapine 5mg orodispersible tablets
+16324511000001100	Promethazine 50mg/2ml solution for injection ampoules
+19609111000001100	Olanzapine 10mg orodispersible tablets sugar free
+19626911000001100	Olanzapine 20mg orodispersible tablets
+19609411000001100	Olanzapine 20mg orodispersible tablets sugar free
+19609511000001100	Olanzapine 5mg orodispersible tablets sugar free
+19609311000001100	Olanzapine 15mg orodispersible tablets sugar free
+19626811000001100	Olanzapine 15mg orodispersible tablets
+8838911000001100	Zaponex 25mg tablets (Leyden Delta B.V.)
+321622008	Olanzapine 5mg oral lyophilisates sugar free
+8839511000001100	Zaponex 100mg tablets (Leyden Delta B.V.)
+321623003	Olanzapine 10mg oral lyophilisates sugar free
+3434911000001100	Olanzapine 15mg oral lyophilisates sugar free
+386213008	Olanzapine 20mg oral lyophilisates sugar free
+322143005	Prochlorperazine 3mg buccal tablets
+245605001000027000	Amitriptyline oral solution
+36044411000001100	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules
+748611000001103	Pethidine 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+15628611000001100	Pethidine 100mg/2ml solution for injection ampoules (Actavis UK Ltd)
+18311011000001100	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+14160411000001100	Tolterodine 2mg/5ml oral solution
+348445008	Hyoscine hydrobromide 150microgram tablets
+35901211000001100	Amitriptyline 25mg modified-release capsules
+321746008	Amitriptyline 25mg tablets
+16249911000001100	Stemetil 5mg tablets (Lexon (UK) Ltd)
+8671011000001100	Oxybutynin 5mg/5ml oral suspension
+13863811000001100	Detrusitol 1mg tablets (DE Pharmaceuticals)
+8560811000001100	Hyoscine hydrobromide 500micrograms/5ml oral solution
+19809011000001100	Levinan 6mg tablets (Kyowa Kirin Ltd)
+13012211000001100	Quetiapine 25mg/5ml oral solution
+4033811000001100	Hyoscine hydrobromide 150microgram chewable tablets sugar free
+19619311000001100	Phenergan 25mg tablets (DE Pharmaceuticals)
+321964006	Paroxetine 20mg tablets
+153375001000027000	Buccastem 3mg Tablet (Reckitt Benckiser Healthcare (UK) Ltd)
+16255911000001100	Detrusitol XL 4mg capsules (Mawdsley-Brooks & Company Ltd)
+321461008	Levomepromazine 25mg tablets
+19627011000001100	Olanzapine 5mg orodispersible tablets
+8670911000001100	Oxybutynin 5mg/5ml oral solution
+321625005	Quetiapine 100mg tablets
+321635004	Quetiapine 150mg tablets
+18614811000001100	Stemetil 5mg tablets (DE Pharmaceuticals)
+18042811000001100	Sleepeaze 25mg tablets (The Boots Company Plc)
+8454311000001100	Dosulepin 25mg/5ml oral solution
+321813009	Doxepin 50mg capsules
+8560711000001100	Hyoscine hydrobromide 300micrograms/5ml oral solution
+18250711000001100	Detrusitol XL 4mg capsules (Necessity Supplies Ltd)
+15452111000001100	Quetiapine 50mg/5ml oral suspension
+29535001000027100	Stemetil 5mg Tablet (Castlemead Healthcare Ltd)
+208895001000027000	Nytol one a night 50mg Tablet (Stafford-Miller Ltd)
+249465001000027000	Dimenhydrinate oral liquid
+227815001000027000	Ditropan xl 5mg Tablet (Sanofi-Synthelabo Ltd)
+17456011000001100	Stemetil 5mg tablets (Mawdsley-Brooks & Company Ltd)
+14401911000001100	Stemetil 5mg tablets (Sigma Pharmaceuticals Plc)
+16586411000001100	Prothiaden 25mg capsules (Stephar (U.K.) Ltd)
+19303211000001100	Dicycloverine 20mg tablets (Zentiva)
+18250311000001100	Detrusitol 1mg tablets (Necessity Supplies Ltd)
+21221911000001100	Tolterodine 2mg tablets (Actavis UK Ltd)
+21375911000001100	Tolterodine 1mg tablets (A A H Pharmaceuticals Ltd)
+19543711000001100	Olanzapine 2.5mg tablets (Aspire Pharma Ltd)
+446111000001102	Pethidine 100mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+14306811000001100	Detrusitol XL 4mg capsules (Sigma Pharmaceuticals Plc)
+5356511000001100	Detrusitol 1mg tablets (Waymade Healthcare Plc)
+35905711000001100	Atropine 600micrograms/1ml solution for injection ampoules
+36565911000001100	Paroxetine 10mg/5ml oral suspension sugar free
+321624009	Quetiapine 25mg tablets
+16214511000001100	Nozinan 25mg/1ml solution for injection ampoules (Lexon (UK) Ltd)
+18457211000001100	Amitriptyline 10mg tablets (Accord Healthcare Ltd)
+20356011000001100	Sondate XL 50mg tablets (Teva UK Ltd)
+8377511000001100	Clomipramine 50mg/5ml oral solution
+920211000001105	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+25225001000027100	Piriton 4mg Tablet (Stafford-Miller Ltd)
+323133000	Amantadine 100mg capsules
+13003411000001100	Oxybutynin 3mg/5ml oral solution
+20917511000001100	Quetiapine 25mg tablets (Zentiva)
+321623003	Olanzapine 10mg oral lyophilisates sugar free
+7857911000001100	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+13760711000001100	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd)
+249485001000027000	Pethidine oral liquid
+17866611000001100	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+19608211000001100	Zalasta 5mg orodispersible tablets (Consilient Health Ltd)
+240611000001109	Pethidine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+12646611000001100	Levomepromazine 6.25mg/5ml oral solution
+21234911000001100	Tolterodine 1mg tablets (Pfizer Ltd)
+21514811000001100	Hyoscine hydrobromide 300micrograms/5ml oral suspension
+326579009	Oxybutynin 10mg modified-release tablets
+249995001000027000	Pethidine capsule
+5414111000001100	Stemetil 5mg tablets (Waymade Healthcare Plc)
+92605001000027100	Prochlorperazine 5mg Tablet (Teva UK Ltd)
+20356411000001100	Sondate XL 300mg tablets (Teva UK Ltd)
+320726008	Diphenhydramine 25mg tablets
+13760911000001100	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd)
+21666011000001100	Pethidine 50mg tablets (Teva UK Ltd)
+18457411000001100	Amitriptyline 25mg tablets (Accord Healthcare Ltd)
+367711000001104	Stemetil 25mg tablets (Sanofi)
+511000001103	Largactil 25mg tablets (Sanofi)
+911311000001102	Largactil 10mg tablets (Sanofi)
+21410111000001100	Paroxetine 20mg tablets (Medreich Plc)
+15177311000001100	Prochlorperazine 5mg tablets (Sigma Pharmaceuticals Plc)
+179415001000027000	Prochlorperazine mesilate 12.5mg/ml injection
+21298111000001100	Mariosea XL 4mg capsules (Teva UK Ltd)
+735211000001108	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+323223003	Trihexyphenidyl 2mg tablets
+17038411000001100	Zypadhera 300mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+227825001000027000	Ditropan xl 10mg Tablet (Sanofi-Synthelabo Ltd)
+20156311000001100	Trifluoperazine 1mg/5ml oral solution sugar free (Advanz Pharma)
+9784511000001100	Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd)
+17337911000001100	Chlorphenamine 4mg tablets (Strides Pharma UK Ltd)
+16243711000001100	Seroxat 30mg tablets (Lexon (UK) Ltd)
+320775009	Promethazine hydrochloride 10mg tablets
+19626711000001100	Olanzapine 10mg orodispersible tablets
+19559411000001100	Olanzapine 15mg tablets (Actavis UK Ltd)
+21341711000001100	Efflosomyl XL 4mg capsules (Mylan)
+326578001	Oxybutynin 5mg modified-release tablets
+19858911000001100	Phenergan 25mg tablets (Lexon (UK) Ltd)
+17775001000027100	Pethidine 50mg/ml Injection (Roche Products Ltd)
+28955001000027100	Pethidine 10mg/ml Injection (Martindale Pharmaceuticals Ltd)
+251645001000027000	Quetiapine oral liquid
+30125001000027100	Promazine 50mg/5ml Liquid (Rosemont Pharmaceuticals Ltd)
+8799311000001100	Trihexyphenidyl 2mg/5ml oral suspension
+8799211000001100	Trihexyphenidyl 2mg/5ml oral solution
+21656311000001100	Neditol XL 4mg capsules (Aspire Pharma Ltd)
+234355001000027000	Detrusitol xl 4mg Capsule (Pharmacia Ltd)
+18670211000001100	Nortriptyline 10mg tablets (King Pharmaceuticals Ltd)
+196535001000027000	Pethidine 50mg Capsule (Martindale Pharmaceuticals Ltd)
+19626911000001100	Olanzapine 20mg orodispersible tablets
+146411000001106	Periactin 4mg tablets (Teva UK Ltd)
+19626811000001100	Olanzapine 15mg orodispersible tablets
+321622008	Olanzapine 5mg oral lyophilisates sugar free
+15452011000001100	Quetiapine 50mg/5ml oral solution
+386213008	Olanzapine 20mg oral lyophilisates sugar free
+14608411000001100	Tolterodine 4mg modified-release capsules
+16276511000001100	Tofranil 25mg tablets (Lexon (UK) Ltd)
+321613007	Olanzapine 7.5mg tablets
+3434911000001100	Olanzapine 15mg oral lyophilisates sugar free
+22226311000001100	Tolterodine 2mg modified-release capsules
+20438511000001100	Quetiapine 300mg tablets (Arrow Generics Ltd)
+7986011000001100	Lloydspharmacy Allergy Relief 2mg/5ml syrup (Lloyds Pharmacy Ltd)
+144011000001107	Chlorpromazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+269811000001107	Pethidine 50mg tablets (A A H Pharmaceuticals Ltd)
+13360511000001100	Trihexyphenidyl 5mg/5ml oral suspension
+20356211000001100	Sondate XL 200mg tablets (Teva UK Ltd)
+3807711000001100	Atropine 600microgram tablets (A A H Pharmaceuticals Ltd)
+17778011000001100	Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd)
+184475001000027000	Hyoscine hydrobromide 400microgram/ml Injection
+321622008	Olanzapine 5mg oral lyophilisates sugar free
+14015911000001100	Olanzapine 2.5mg/5ml oral suspension
+22174911000001100	Neditol XL 2mg capsules (Aspire Pharma Ltd)
+37083111000001100	Chlorphenamine 2mg/5ml oral solution sugar free
+13360111000001100	Trihexyphenidyl 1mg/5ml oral solution
+20356611000001100	Sondate XL 400mg tablets (Teva UK Ltd)
+15125211000001100	Oxybutynin 5mg/30ml bladder irrigation vials
+379911000001101	Largactil 25mg/5ml syrup (Sanofi)
+60975001000027100	Hyoscine hydrobromide 150microgram Tablet
+16249411000001100	Stelazine 1mg tablets (Lexon (UK) Ltd)
+16243111000001100	Seroquel XL 400mg tablets (Lexon (UK) Ltd)
+17594611000001100	Seroquel XL 50mg tablets (Sigma Pharmaceuticals Plc)
+19561911000001100	Olanzapine 20mg tablets (Teva UK Ltd)
+21515011000001100	Oxybutynin 2.5mg/5ml oral suspension
+3808111000001100	Atropine 600microgram tablets (Wockhardt UK Ltd)
+2969611000001100	Ditropan 2.5mg/5ml elixir (Sanofi)
+8454111000001100	Dosulepin 75mg/5ml oral solution
+179011000001109	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+21907111000001100	Trimipramine 25mg tablets (Waymade Healthcare Plc)
+13011911000001100	Quetiapine 125mg/5ml oral suspension
+19921111000001100	Olanzapine 10mg tablets (Zentiva)
+183111000001103	Pethidine 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+321491003	Pimozide 4mg tablets
+11757911000001100	Travel Calm 300microgram tablets (The Boots Company Plc)
+18612411000001100	Seroquel XL 50mg tablets (DE Pharmaceuticals)
+21842111000001100	Chlorpromazine 100mg tablets (Waymade Healthcare Plc)
+432111000001100	Largactil 100mg tablets (Sanofi)
+910611000001102	Largactil 50mg tablets (Sanofi)
+36044311000001100	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+313711000001105	Pethidine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+321366002	Chlorpromazine 25mg tablets
+22452511000001100	Chlorphenamine 4mg tablets (Waymade Healthcare Plc)
+20415911000001100	Quetiapine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+19558611000001100	Olanzapine 10mg tablets (Actavis UK Ltd)
+22409511000001100	Tenprolide XL 400mg tablets (Actavis UK Ltd)
+21248811000001100	Tenprolide XL 50mg tablets (Actavis UK Ltd)
+23165411000001100	Prochlorperazine 3mg buccal tablets (Advanz Pharma)
+19560911000001100	Olanzapine 2.5mg tablets (Teva UK Ltd)
+21762711000001100	Amitriptyline 10mg tablets (Waymade Healthcare Plc)
+21706311000001100	Quetiapine 150mg tablets (Ranbaxy (UK) Ltd)
+98005001000027100	Oxybutynin 5mg/5ml oral solution sugar free
+21541611000001100	Paroxetine 10mg tablets (Actavis UK Ltd)
+15075611000001100	Chlorphenamine 4mg tablets (Sigma Pharmaceuticals Plc)
+196011000001108	Buccastem M 3mg tablets (Alliance Pharmaceuticals Ltd)
+18146311000001100	Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+22658511000001100	Levomepromazine 25mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+22104811000001100	Blerone XL 4mg capsules (Zentiva)
+2965311000001100	Ditropan XL 5mg tablets (Janssen-Cilag Ltd)
+305455001000027000	Olanzapine 10mg Orodispersible tablet
+13716811000001100	Levomepromazine 3mg/5ml oral solution
+850011000001108	Chlorphenamine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+35899611000001100	Amantadine 50mg/5ml oral solution sugar free
+17778711000001100	Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd)
+36021611000001100	Prochlorperazine 5mg/5ml oral solution
+18148011000001100	Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+6411000001109	Promazine 25mg tablets (A A H Pharmaceuticals Ltd)
+113115001000027000	Dosulepin 25mg/5ml oral solution sugar free
+321460009	Levomepromazine 25mg/1ml solution for injection ampoules
+8583111000001100	Levomepromazine 5mg/5ml oral solution
+20360711000001100	Quetiapine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+20176811000001100	Chlorpromazine 10mg capsules
+23680211000001100	Prochlorperazine 3mg buccal tablets (A A H Pharmaceuticals Ltd)
+21678411000001100	Levomepromazine 25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3434911000001100	Olanzapine 15mg oral lyophilisates sugar free
+15246411000001100	Numark Antihistamine 4mg tablets (Numark Ltd)
+17856011000001100	Chlorpromazine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+20534211000001100	Boots Allergy Relief Antihistamine 4mg tablets (The Boots Company Plc)
+24517211000001100	Tolterodine 2mg tablets (Sandoz Ltd)
+25803211000001100	Ebesque XL 50mg tablets (Ethypharm UK Ltd)
+13483111000001100	Prochlorperazine 5mg tablets (Almus Pharmaceuticals Ltd)
+25806011000001100	Ebesque XL 400mg tablets (Ethypharm UK Ltd)
+25804911000001100	Ebesque XL 300mg tablets (Ethypharm UK Ltd)
+25804311000001100	Ebesque XL 200mg tablets (Ethypharm UK Ltd)
+22589711000001100	Amitriptyline 10mg tablets (DE Pharmaceuticals)
+12637211000001100	Hyoscine hydrobromide 400micrograms/5ml oral solution
+21907811000001100	Preblacon XL 4mg capsules (Actavis UK Ltd)
+20326611000001100	Prochlorperazine 5mg tablets (Genesis Pharmaceuticals Ltd)
+3790211000001100	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+590811000001108	Trihexyphenidyl 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+27842811000001100	Atrolak XL 400mg tablets (Accord Healthcare Ltd)
+13149211000001100	Promethazine 25mg/5ml oral suspension
+286811000001103	Clomipramine 10mg capsules (Mylan)
+244455001000027000	Tolterodine tartrate (roi) 2mg Modified-release capsule
+407811000001104	Dosulepin 75mg tablets (Sandoz Ltd)
+3380211000001100	Histergan 25mg tablets (Norma Chemicals Ltd)
+29311000001104	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare)
+28400811000001100	Biquelle XL 400mg tablets (Aspire Pharma Ltd)
+13149011000001100	Promethazine 25mg/5ml oral solution
+28400211000001100	Biquelle XL 50mg tablets (Aspire Pharma Ltd)
+28400611000001100	Biquelle XL 300mg tablets (Aspire Pharma Ltd)
+35901411000001100	Amitriptyline 25mg/5ml oral solution sugar free
+28400411000001100	Biquelle XL 150mg tablets (Aspire Pharma Ltd)
+19558411000001100	Olanzapine 7.5mg tablets (Actavis UK Ltd)
+79611000001105	Pethidine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+19359611000001100	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+21195211000001100	Tolterodine 2mg tablets (Teva UK Ltd)
+28401011000001100	Biquelle XL 200mg tablets (Aspire Pharma Ltd)
+28412111000001100	Zaluron XL 300mg tablets (Fontus Health Ltd)
+28412311000001100	Zaluron XL 400mg tablets (Fontus Health Ltd)
+28411911000001100	Zaluron XL 200mg tablets (Fontus Health Ltd)
+28411511000001100	Zaluron XL 50mg tablets (Fontus Health Ltd)
+572611000001103	Promazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+19591711000001100	Olanzapine 2.5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+28411711000001100	Zaluron XL 150mg tablets (Fontus Health Ltd)
+28994911000001100	Mintreleq XL 150mg tablets (Aristo Pharma Ltd)
+19920211000001100	Olanzapine 2.5mg tablets (Zentiva)
+28994711000001100	Mintreleq XL 50mg tablets (Aristo Pharma Ltd)
+29732411000001100	Oxybutynin 5mg/5ml oral solution sugar free
+29732311000001100	Oxybutynin 2.5mg/5ml oral solution sugar free
+29686711000001100	Amitriptyline 10mg/5ml oral solution sugar free
+21634811000001100	Oxybutynin 10mg/30ml bladder irrigation vials
+305445001000027000	Olanzapine 5mg Orodispersible tablet
+8277911000001100	Amitriptyline 5mg/5ml oral solution
+21577811000001100	Stelazine 5mg tablets (Imported (South Africa))
+22223311000001100	Inconex XL 4mg capsules (Sandoz Ltd)
+35905811000001100	Atropine 600micrograms/1ml solution for injection pre-filled syringes
+9784911000001100	Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd)
+35931311000001100	Promazine 25mg/5ml oral solution
+8377211000001100	Clomipramine 25mg/5ml oral suspension
+22635511000001100	Quetiapine 200mg/5ml oral suspension
+376769007	Pimozide 1mg tablets
+28995611000001100	Mintreleq XL 300mg tablets (Aristo Pharma Ltd)
+22589911000001100	Amitriptyline 25mg tablets (DE Pharmaceuticals)
+12646111000001100	Levomepromazine 10mg/5ml oral suspension
+21714411000001100	Sondate XL 150mg tablets (Teva UK Ltd)
+7332211000001100	Paroxetine 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+243411000001103	Oxybutynin 5mg tablets (Kent Pharmaceuticals Ltd)
+16110911000001100	Tolterodine 1mg/5ml oral solution
+20366611000001100	Quetiapine 300mg tablets (A A H Pharmaceuticals Ltd)
+23216511000001100	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (J M McGill Ltd)
+13455611000001100	Trimipramine 50mg/5ml oral solution
+18310811000001100	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+8359611000001100	Chlorpromazine 10mg/5ml oral suspension
+472711000001101	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+5162711000001100	Amitriptyline 25mg tablets (Sandoz Ltd)
+9709811000001100	Trimipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+4209211000001100	Promazine 25mg tablets (Teva UK Ltd)
+196695001000027000	Trihexyphenidyl hc 2mg/5ml sugar free Oral solution
+36143711000001100	Trihexyphenidyl 5mg/5ml oral solution
+11656311000001100	Alimemazine 5mg/5ml oral solution
+19607611000001100	Olanzapine 20mg orodispersible tablets sugar free (Actavis UK Ltd)
+21859411000001100	Clomipramine 25mg capsules (Waymade Healthcare Plc)
+27924411000001100	Amantadine 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+627711000001103	Clomipramine 50mg capsules (Teva UK Ltd)
+12646911000001100	Levomepromazine 6mg/5ml oral suspension
+12646711000001100	Levomepromazine 6.25mg/5ml oral suspension
+29763811000001100	Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc)
+21705911000001100	Quetiapine 25mg tablets (Ranbaxy (UK) Ltd)
+19836311000001100	Olanzapine 2.5mg tablets (Mylan)
+28978311000001100	Amitriptyline 25mg tablets (Crescent Pharma Ltd)
+14377311000001100	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc)
+27842411000001100	Atrolak XL 200mg tablets (Accord Healthcare Ltd)
+27991411000001100	Seroxat 10mg tablets (Waymade Healthcare Plc)
+744211000001106	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd)
+21286911000001100	Quetiapine 25mg tablets (Accord Healthcare Ltd)
+13455511000001100	Trimipramine 25mg/5ml oral suspension
+15051511000001100	Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc)
+29991511000001100	Amitriptyline 10mg tablets (Mawdsley-Brooks & Company Ltd)
+29991711000001100	Amitriptyline 25mg tablets (Mawdsley-Brooks & Company Ltd)
+17964611000001100	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd)
+21906611000001100	Trimipramine 50mg capsules (Waymade Healthcare Plc)
+23481811000001100	Prochlorperazine 3mg buccal tablets (Alliance Healthcare (Distribution) Ltd)
+22589511000001100	Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+10981911000001100	Largactil 50mg tablets (Waymade Healthcare Plc)
+13004411000001100	Paroxetine 10mg/5ml oral solution
+16202711000001100	Seroquel XL 50mg tablets (Waymade Healthcare Plc)
+10679411000001100	Pethidine 100mg/2ml solution for injection ampoules (Advanz Pharma)
+918611000001104	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+13481011000001100	Chlorpromazine 25mg tablets (Almus Pharmaceuticals Ltd)
+13148611000001100	Promazine 50mg/5ml oral suspension
+21577511000001100	Stelazine 1mg tablets (Imported (South Africa))
+13133511000001100	Procyclidine 5mg/5ml oral solution
+13892711000001100	Chlorpromazine 100mg/5ml oral suspension
+13411811000001100	Imipramine 10mg tablets (Almus Pharmaceuticals Ltd)
+14344411000001100	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc)
+15000711000001100	Nortriptyline 10mg/5ml oral suspension
+422084009	Paroxetine 40mg tablets
+19588711000001100	Zalasta 20mg tablets (Consilient Health Ltd)
+19587911000001100	Zalasta 5mg tablets (Consilient Health Ltd)
+20160911000001100	Quetiapine 25mg tablets (Teva UK Ltd)
+305345001000027000	Olanzapine 15mg Orodispersible tablet
+376807001	Olanzapine 15mg tablets
+8672611000001100	Propantheline bromide 7.5mg/5ml oral suspension
+372011000001107	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+476411000001108	Seroquel 200mg tablets (AstraZeneca UK Ltd)
+17965811000001100	Clomipramine 10mg capsules (Almus Pharmaceuticals Ltd)
+30078711000001100	Prochlorperazine 5mg tablets (DE Pharmaceuticals)
+17038711000001100	Olanzapine embonate 405mg powder and solvent for suspension for injection vials
+30069211000001100	Orphenadrine 50mg tablets (DE Pharmaceuticals)
+724011000001104	Procyclidine 5mg tablets (Mylan)
+34034111000001100	Nortriptyline 50mg tablets
+35905311000001100	Atropine 3mg/10ml solution for injection pre-filled syringes
+30951311000001100	Mariosea XL 2mg capsules (Teva UK Ltd)
+19561511000001100	Olanzapine 10mg tablets (Teva UK Ltd)
+27842211000001100	Atrolak XL 50mg tablets (Accord Healthcare Ltd)
+16432611000001100	Trihexyphenidyl 5mg tablets (Waymade Healthcare Plc)
+28995811000001100	Mintreleq XL 400mg tablets (Aristo Pharma Ltd)
+28995111000001100	Mintreleq XL 200mg tablets (Aristo Pharma Ltd)
+14015811000001100	Olanzapine 2.5mg/5ml oral solution
+29764011000001100	Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc)
+21249511000001100	Tenprolide XL 300mg tablets (Actavis UK Ltd)
+8560511000001100	Hyoscine hydrobromide 150micrograms/5ml oral solution
+13587111000001100	Quetiapine 400mg/5ml oral suspension
+33391011000001100	Quetiapine 20mg/ml oral suspension sugar free
+19623611000001100	Olanzapine 5mg orodispersible tablets (Teva UK Ltd)
+29877211000001100	Imipramine 10mg tablets (Sigma Pharmaceuticals Plc)
+30800511000001100	Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+431711000001106	Chlorphenamine 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+20366211000001100	Quetiapine 200mg tablets (A A H Pharmaceuticals Ltd)
+30082811000001100	Quetiapine 100mg tablets (DE Pharmaceuticals)
+19564611000001100	Olanzapine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+429830008	Quetiapine 300mg tablets
+19561711000001100	Olanzapine 15mg tablets (Teva UK Ltd)
+30986911000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+12646811000001100	Levomepromazine 6mg/5ml oral solution
+19682711000001100	Olanzapine 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+321814003	Doxepin 75mg capsules
+8454211000001100	Dosulepin 25mg/5ml oral suspension
+32655611000001100	Olanzapine 12.5mg/5ml oral suspension
+33261411000001100	Quetiapine 20mg/ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+21234311000001100	Tolterodine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+3946111000001100	Atropine 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+39465001000027100	Dosulepin 25mg Capsule (Celltech Pharma Europe Ltd)
+17441511000001100	Seroquel 25mg tablets (Mawdsley-Brooks & Company Ltd)
+8672411000001100	Propantheline bromide 15mg/5ml oral suspension
+296211000001100	Chlorphenamine 4mg tablets (Kent Pharmaceuticals Ltd)
+20438711000001100	Amitriptyline 10mg tablets (Arrow Generics Ltd)
+21706111000001100	Quetiapine 100mg tablets (Ranbaxy (UK) Ltd)
+17950511000001100	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+11603211000001100	Dosulepin 25mg/5ml oral solution sugar free (Special Order)
+20438911000001100	Amitriptyline 25mg tablets (Arrow Generics Ltd)
+21029111000001100	Chlorphenamine 4mg tablets (Bristol Laboratories Ltd)
+17197811000001100	Dosulepin 75mg tablets (Sovereign Medical Ltd)
+16329911000001100	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd)
+33690711000001100	Levomepromazine 62.5mg/5ml oral suspension
+14160511000001100	Tolterodine 2mg/5ml oral suspension
+23947811000001100	Imipramine 10mg tablets (DE Pharmaceuticals)
+19607911000001100	Olanzapine 5mg orodispersible tablets sugar free (Actavis UK Ltd)
+16533411000001100	Kemadrin 5mg tablets (Mawdsley-Brooks & Company Ltd)
+16159311000001100	Ditropan 5mg tablets (Lexon (UK) Ltd)
+552911000001107	Promazine 50mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+16249611000001100	Stelazine 5mg tablets (Lexon (UK) Ltd)
+19563711000001100	Olanzapine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+34511211000001100	Sleep Aid 25mg tablets (Tor Generics Ltd)
+19564211000001100	Olanzapine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+17039011000001100	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+13133311000001100	Procyclidine 2.5mg/5ml oral solution
+8583211000001100	Levomepromazine 5mg/5ml oral suspension
+27946311000001100	Levomepromazine 100mg tablets
+29948311000001100	Oxybutynin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+3798211000001100	Broflex 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+16111211000001100	Tolterodine 4mg/5ml oral suspension
+19564411000001100	Olanzapine 7.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+15000611000001100	Nortriptyline 10mg/5ml oral solution
+245575001000027000	Chlorpromazine oral liquid
+20971911000001100	Trifluoperazine 1mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+375373003	Amantadine 100mg tablets
+16063311000001100	Prochlorperazine 5mg tablets (Bristol Laboratories Ltd)
+8484811000001100	Doxepin 50mg/5ml oral solution
+21376111000001100	Tolterodine 2mg tablets (A A H Pharmaceuticals Ltd)
+13012111000001100	Quetiapine 150mg/5ml oral suspension
+16243511000001100	Seroxat 20mg tablets (Lexon (UK) Ltd)
+11427211000001100	Paroxetine 20mg tablets (Almus Pharmaceuticals Ltd)
+11430011000001100	Chlorphenamine 2mg/5ml oral solution sugar free (Teva UK Ltd)
+21249311000001100	Tenprolide XL 200mg tablets (Actavis UK Ltd)
+9536311000001100	Levomepromazine 6mg tablets
+17303311000001100	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd)
+248415001000027000	Nightaid 25mg Tablet (Ambe Medical Group)
+321806009	Dosulepin 75mg tablets
+18587211000001100	Kemadrin 5mg tablets (DE Pharmaceuticals)
+5378811000001100	Kemadrin 5mg tablets (Waymade Healthcare Plc)
+348374003	Chlorpromazine 25mg suppositories
+855811000001108	Symmetrel 100mg capsules (Alliance Pharmaceuticals Ltd)
+24715001000027100	Phenergan 25mg/ml Injection (Aventis Pharma)
+18612611000001100	Seroxat 20mg tablets (DE Pharmaceuticals)
+27842611000001100	Atrolak XL 300mg tablets (Accord Healthcare Ltd)
+68255001000027100	Oxybutynin 5mg Tablet (Pharmacia Ltd)
+251335001000027000	Promethazine hydrochloride oral solution
+13011811000001100	Quetiapine 125mg/5ml oral solution
+29505001000027100	Stelazine 1mg/ml Injection (Goldshield Pharmaceuticals Ltd)
+16193611000001100	Kemadrin 5mg tablets (Lexon (UK) Ltd)
+13838111000001100	Buccastem 3mg tablets (DE Pharmaceuticals)
+19607011000001100	Olanzapine 10mg orodispersible tablets sugar free (Actavis UK Ltd)
+19624211000001100	Olanzapine 20mg orodispersible tablets (Teva UK Ltd)
+5409511000001100	Seroquel 200mg tablets (Waymade Healthcare Plc)
+19623311000001100	Olanzapine 15mg orodispersible tablets (Teva UK Ltd)
+19610411000001100	Zalasta 20mg orodispersible tablets (Consilient Health Ltd)
+67085001000027100	Largactil 100mg Tablet (Hawgreen Ltd)
+251425001000027000	Paroxetine oral liquid
+869511000001104	Largactil 50mg/2ml solution for injection ampoules (Sanofi)
+13133611000001100	Procyclidine 5mg/5ml oral suspension
+701211000001104	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+16589411000001100	Alimemazine 7.5mg/5ml oral solution (Zentiva)
+21871311000001100	Quetiapine 25mg tablets (Waymade Healthcare Plc)
+18094711000001100	Chlorphenamine 2mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+32530511000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+30802311000001100	Oxybutynin 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+33568811000001100	Brancico XL 300mg tablets (Zentiva)
+33569011000001100	Brancico XL 200mg tablets (Zentiva)
+496611000001102	Pethidine 100mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+676311000001104	Pethidine 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+744011000001101	Oxybutynin 2.5mg tablets (Kent Pharmaceuticals Ltd)
+13148111000001100	Promazine 12.5mg/5ml oral solution
+29545001000027100	Stemetil 5mg/5ml Oral solution (Castlemead Healthcare Ltd)
+1765001000027100	Artane 5mg Tablet (Wyeth Pharmaceuticals)
+21235111000001100	Santizor XL 4mg capsules (Pfizer Ltd)
+29681411000001100	Amitriptyline 10mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+32696011000001100	Olanzapine 15mg/5ml oral solution
+18281511000001100	Dosulepin 25mg capsules (Strides Pharma UK Ltd)
+9105111000001100	Sleepeaze 50mg tablets (The Boots Company Plc)
+21234711000001100	Tolterodine 2mg tablets (Pfizer Ltd)
+35852411000001100	Prochlorperazine 3mg buccal tablets (Medreich Plc)
+893811000001100	Allegron 10mg tablets (King Pharmaceuticals Ltd)
+129995001000027000	Nortriptyline 25mg Capsule
+5511000001101	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+59305001000027100	Tryptizol 25mg Tablet (Merck Sharp & Dohme Ltd)
+38011000001105	Cystrin 3mg tablets (Sanofi)
+1755001000027100	Artane 2mg Tablet (Wyeth Pharmaceuticals)
+119411000001107	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+53511000001107	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+710411000001106	Stelazine 15mg Spansules (Mercury Pharma Group Ltd)
+321573006	Clozapine 25mg tablets
+321574000	Clozapine 100mg tablets
+36046511000001100	Imipramine 25mg/5ml oral solution
+326565001	Oxybutynin 3mg tablets
+36028311000001100	Pethidine 50mg/1ml solution for injection ampoules
+321745007	Amitriptyline 10mg tablets
+317108001	Dicycloverine 20mg tablets
+181705001000027000	Chlorpromazine 25mg/ml injection
+59315001000027100	Tryptizol 50mg Tablet (Merck Sharp & Dohme Ltd)
+321805008	Dosulepin 25mg capsules
+477511000001109	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd)
+320714003	Clemastine 500micrograms/5ml oral solution sugar free
+3650211000001100	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare)
+18615001000027100	Merbentyl 10mg/5ml Oral solution (Florizel Ltd)
+322144004	Prochlorperazine 5mg tablets
+181755001000027000	Chlorpromazine 100mg suppository
+8359411000001100	Chlorpromazine 100mg/5ml oral solution
+145395001000027000	Trifluoperazine 1mg/ml Injection
+323224009	Trihexyphenidyl 5mg tablets
+135105001000027000	Pimozide 10mg tablet
+151265001000027000	Kemadrin 5mg/ml Injection (Wellcome Medical Division)
+629711000001106	Allegron 25mg tablets (King Pharmaceuticals Ltd)
+36089111000001100	Clomipramine 75mg modified-release tablets
+34215001000027100	Vertigon spansule 10 10mg Spansule (GlaxoSmithKline Consumer Healthcare)
+4534911000001100	Anafranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+4557811000001100	Clomipramine 25mg/5ml oral solution
+59295001000027100	Tryptizol 10mg Tablet (Merck Sharp & Dohme Ltd)
+67045001000027100	Largactil 10mg Tablet (Hawgreen Ltd)
+111795001000027000	Diphenydramine 25mg capsules
+59345001000027100	Tryptizol mr 75mg Modified-release capsule (Merck Sharp & Dohme Ltd)
+320697002	Chlorphenamine 4mg tablets
+59395001000027100	Tryptizol 10mg/5ml sugar free Oral solution (Merck Sharp and Dohme Ltd)
+908011000001108	Surmontil 10mg tablets (Sanofi)
+85445001000027100	Dramamine 50mg Tablet (Pharmacia Ltd)
+636711000001103	Stelazine 1mg/5ml syrup (Mercury Pharma Group Ltd)
+547211000001103	Phenergan 10mg tablets (Sanofi)
+18956611000001100	Chlorpromazine 25mg/5ml oral solution sugar free
+35897011000001100	Alimemazine 7.5mg/5ml oral solution
+33395001000027100	Vallergan 7.5mg/5ml Oral solution (Castlemead Healthcare Ltd)
+322142000	Prochlorperazine 5mg effervescent granules sachets sugar free
+25235001000027100	Piriton 2mg/5ml Oral solution (Stafford-Miller Ltd)
+321626006	Quetiapine 200mg tablets
+517511000001108	Kwells 300microgram tablets (Bayer Plc)
+322157007	Promethazine teoclate 25mg tablets
