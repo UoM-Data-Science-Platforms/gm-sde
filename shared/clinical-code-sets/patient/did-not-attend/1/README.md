@@ -1,6 +1,6 @@
 # Did not attend
 
-Codes indicating that patient did not attend an appointment
+Codes indicating that patient did not attend an appointment. Read codes provided by study PI for SDELS-003.
 
 ## Prevalence log
 
