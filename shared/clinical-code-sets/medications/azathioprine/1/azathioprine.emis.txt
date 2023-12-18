@@ -467,3 +467,4 @@ IMIN3756	Imuran  Powder For Solution For Injection  50 mg vial
 IMTA1447	Imuran  Tablets  50 mg
 IMTA3757	Imuran  Tablets  25 mg
 IMTA9237BRIDL	Immunoprin  Tablets  50 mg
+^ESCTAZ878853	Azathioprine 25mg tablets (Dowelhurst Ltd)
