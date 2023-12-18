@@ -1,6 +1,6 @@
 # Dementia care plan review
 
-Codes referencing a dementia care plan. NB This code set also includes care plan review declines.
+Codes referencing a dementia care plan review. NB This code set also includes care plan review declines.
 This code set is a subset of dementia-care-plan
 
 ## Prevalence log
