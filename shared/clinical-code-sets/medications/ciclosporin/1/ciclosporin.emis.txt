@@ -233,3 +233,18 @@ VACA104990NEMIS	Vanquoral  Capsules  10 mg
 VACA97922NEMIS	Vanquoral  Capsules  100 mg
 VACA97923NEMIS	Vanquoral  Capsules  50 mg
 VACA97924NEMIS	Vanquoral  Capsules  25 mg
+^ESCTCI613925	Ciclosporin 100mg/ml oral solution sugar free
+^ESCTCI613926	Ciclosporin 100mg/mL s/f oral solution
+^ESCTCI613929	Ciclosporin 50mg/1ml solution for infusion ampoules
+^ESCTCI613930	Ciclosporin 50mg/1mL oily infusion concentrate
+^ESCTCI613933	Ciclosporin 250mg/5ml solution for infusion ampoules
+^ESCTCI613934	Ciclosporin 250mg/5mL oily infusion concentrate
+^ESCTCY613927	Cyclosporine 100mg/mL s/f oral solution
+^ESCTCY613928	Cyclosporin 100mg/mL s/f oral solution
+^ESCTCY613931	Cyclosporine 50mg/1mL oily infusion concentrate
+^ESCTCY613932	Cyclosporin 50mg/1mL oily infusion concentrate
+^ESCTCY613935	Cyclosporine 250mg/5mL oily infusion concentrate
+^ESCTCY613936	Cyclosporin 250mg/5mL oily infusion concentrate
+^ESCTNE879618	Neoral 25mg capsules (Dowelhurst Ltd)
+^ESCTNE971233	Neoral 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE993207	Neoral 100mg capsules (Mawdsley-Brooks & Company Ltd)
