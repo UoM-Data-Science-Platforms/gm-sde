@@ -8,3 +8,4 @@ h847.	CellCept 1g/5mL oral suspension
 h84a.	ARZIP 250mg capsules
 h84b.	ARZIP 500mg tablets
 h84z.	Mycophenolate mofetil 500mg infusion concentrate (pdr for recon)
+h84y.	Mycophenolic acid 360mg gastro-resistant tablet
