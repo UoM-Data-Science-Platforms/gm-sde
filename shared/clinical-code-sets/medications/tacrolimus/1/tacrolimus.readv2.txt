@@ -1,2 +1,12 @@
 m5E1.	TACROLIMUS MONOHYDRATE 0.03% ointment
 m5E2.	TACROLIMUS MONOHYDRATE 0.1% ointment
+h831.	TACROLIMUS 1mg capsules
+h832.	TACROLIMUS 5mg capsules
+h834.	PROGRAF 1mg capsules
+h835.	PROGRAF 5mg capsules
+h837.	PROGRAF 0.5mg capsules
+h83A.	ADVAGRAF 5mg m/r capsules
+h83E.	ADOPORT 500micrograms capsules
+h83L.	CAPEXION 1mg capsules
+h83S.	ENVARSUS 4mg m/r tablets
+h83z.	TACROLIMUS 0.5mg capsules
