@@ -2,6 +2,8 @@
 
 This code set for antiplatelet medications was created from BNF codes beginning with 0209.
 
+Extra codes were added from the two antiplatelet code lists at: https://nhs-drug-refset.pages.dev/. One was excluding aspiris, and one was based on salicylate. 
+
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `8.54% - 10.5%` suggests that this code set is well defined.

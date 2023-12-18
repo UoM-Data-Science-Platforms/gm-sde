@@ -979,3 +979,23 @@ TITA47517NEMIS	Ticagrelor  Tablets  90 mg
 TITA60NEMIS	Ticlopidine Hydrochloride  Tablets  250 mg
 TITA63NEMIS	Ticlid  Tablets  250 mg
 TRM/122219NEMIS	Trolactin  M/R capsules  200 mg
+^ESCT1178389	Product containing only cilostazol 50 mg/1 each oral tablet
+^ESCT1181538	Product containing only cilostazol 100 mg/1 each oral tablet
+^ESCT1228247	Product containing precisely cilostazol 100 milligram/1 each conventional release oral tablet
+^ESCT1228251	Product containing precisely cilostazol 50 milligram/1 each conventional release oral tablet
+^ESCT1267062	Efient 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1362978	Prasugrel (as prasugrel hydrochloride) 10 mg oral tablet
+^ESCT1362979	Prasugrel (as prasugrel hydrochloride) 5 mg oral tablet
+^ESCT1370656	Prasugrel 10mg tablets
+^ESCT1375117	Cilostazol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1416225	Ticagrelor 60 mg oral tablet
+^ESCTCI1070771	Cilostazol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI640128	Cilostazol 100mg tablets
+^ESCTCI640130	Cilostazol 100 mg oral tablet
+^ESCTCI640133	Cilostazol 50mg tablets
+^ESCTCI640135	Cilostazol 50 mg oral tablet
+^ESCTDI660876	Dipyridamole 50mg/5ml oral suspension sugar free
+^ESCTPR640129	Product containing cilostazol 100 mg/1 each oral tablet
+^ESCTPR640134	Product containing cilostazol 50 mg/1 each oral tablet
+CITA13253NEMIS	Cilostazol  Tablets  100 mg
+CITA21757NEMIS	Cilostazol  Tablets  50 mg

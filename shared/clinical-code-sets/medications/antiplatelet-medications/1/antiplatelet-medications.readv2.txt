@@ -76,3 +76,4 @@ buA4.	PRASUGREL 10mg tablets
 buB..	TICAGRELOR 
 buB1.	BRILIQUE 90mg tablets 
 buBz.	TICAGRELOR 90mg tablets 
+bu91.	CILOSTAZOL 100mg tablets

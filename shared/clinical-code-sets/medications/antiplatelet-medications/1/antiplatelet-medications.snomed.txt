@@ -1,761 +1,1061 @@
-10064711000001104	Aspirin 75mg effervescent tablets
-10062911000001106	Aspirin 75mg effervescent tablets
-10063011000001103	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
-10063111000001102	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
-10063211000001108	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
-12012111000001104	Aspirin 100mg/5ml oral solution
-11968211000001101	Aspirin 100mg/5ml oral solution
-11968411000001102	Aspirin 100mg/5ml oral solution (Special Order)
-11968511000001103	Aspirin 100mg/5ml oral solution (Special Order)
-12012311000001102	Aspirin 15mg/5ml oral suspension
-11971511000001104	Aspirin 15mg/5ml oral suspension
-11971811000001101	Aspirin 15mg/5ml oral suspension (Special Order)
-11972011000001104	Aspirin 15mg/5ml oral suspension (Special Order)
-12012211000001105	Aspirin 15mg/5ml oral solution
-11972411000001108	Aspirin 15mg/5ml oral solution
-11972611000001106	Aspirin 15mg/5ml oral solution (Special Order)
-12013011000001109	Aspirin 30mg/5ml oral suspension
-11977511000001105	Aspirin 30mg/5ml oral suspension
-11977711000001100	Aspirin 30mg/5ml oral suspension (Special Order)
-11977811000001108	Aspirin 30mg/5ml oral suspension (Special Order)
-12012911000001101	Aspirin 30mg/5ml oral solution
-11977911000001103	Aspirin 30mg/5ml oral solution
-11978111000001100	Aspirin 30mg/5ml oral solution (Special Order)
-12013311000001107	Aspirin 37.5mg/5ml oral suspension
-11978211000001106	Aspirin 37.5mg/5ml oral suspension
-11978311000001103	Aspirin 37.5mg/5ml oral suspension (Special Order)
-11978411000001105	Aspirin 37.5mg/5ml oral suspension (Special Order)
-12013211000001104	Aspirin 37.5mg/5ml oral solution
-11978611000001108	Aspirin 37.5mg/5ml oral solution
-11978911000001102	Aspirin 37.5mg/5ml oral solution (Special Order)
-11979011000001106	Aspirin 37.5mg/5ml oral solution (Special Order)
-12013711000001106	Aspirin 40mg/5ml oral suspension
-11979211000001101	Aspirin 40mg/5ml oral suspension
-11979511000001103	Aspirin 40mg/5ml oral suspension (Special Order)
-11979711000001108	Aspirin 40mg/5ml oral suspension (Special Order)
-12013511000001101	Aspirin 40mg/5ml oral solution
-11980011000001106	Aspirin 40mg/5ml oral solution
-11980211000001101	Aspirin 40mg/5ml oral solution (Special Order)
-11980411000001102	Aspirin 40mg/5ml oral solution (Special Order)
-12013911000001108	Aspirin 62.5mg/5ml oral suspension
-11980611000001104	Aspirin 62.5mg/5ml oral suspension
-11980811000001100	Aspirin 62.5mg/5ml oral suspension (Special Order)
-11981011000001102	Aspirin 62.5mg/5ml oral suspension (Special Order)
-12013811000001103	Aspirin 62.5mg/5ml oral solution
-11981211000001107	Aspirin 62.5mg/5ml oral solution
-11981411000001106	Aspirin 62.5mg/5ml oral solution (Special Order)
-11981611000001109	Aspirin 62.5mg/5ml oral solution (Special Order)
-12014111000001107	Aspirin 75mg/5ml oral suspension
-12029711000001103	Dipyridamole 30mg/5ml oral suspension
-12023211000001108	Dipyridamole 30mg/5ml oral suspension
-12023911000001104	Dipyridamole 30mg/5ml oral suspension (Special Order)
-12024211000001106	Dipyridamole 30mg/5ml oral suspension (Special Order)
-12029611000001107	Dipyridamole 30mg/5ml oral solution
-12025311000001104	Dipyridamole 30mg/5ml oral solution
-12025511000001105	Dipyridamole 30mg/5ml oral solution (Special Order)
-12025811000001108	Dipyridamole 30mg/5ml oral solution (Special Order)
-12029911000001101	Dipyridamole 5mg/5ml oral suspension
-12026811000001100	Dipyridamole 5mg/5ml oral suspension
-12027211000001104	Dipyridamole 5mg/5ml oral suspension (Special Order)
-10063311000001100	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
-12028411000001101	Dipyridamole 10mg/5ml oral suspension
-12010211000001109	Dipyridamole 10mg/5ml oral suspension
-12010311000001101	Dipyridamole 10mg/5ml oral suspension (Special Order)
-12010411000001108	Dipyridamole 10mg/5ml oral suspension (Special Order)
-12028311000001108	Dipyridamole 10mg/5ml oral solution
-12010911000001100	Dipyridamole 10mg/5ml oral solution
-12011211000001103	Dipyridamole 10mg/5ml oral solution (Special Order)
-12011311000001106	Dipyridamole 10mg/5ml oral solution (Special Order)
-12028811000001104	Dipyridamole 12.5mg/5ml oral suspension
-12011811000001102	Dipyridamole 12.5mg/5ml oral suspension
-12011911000001107	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
-12012011000001100	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
-12028711000001107	Dipyridamole 12.5mg/5ml oral solution
-12012411000001109	Dipyridamole 12.5mg/5ml oral solution
-12012711000001103	Dipyridamole 12.5mg/5ml oral solution (Special Order)
-12013111000001105	Dipyridamole 12.5mg/5ml oral solution (Special Order)
-12029211000001105	Dipyridamole 15mg/5ml oral suspension
-12014511000001103	Dipyridamole 15mg/5ml oral suspension
-12014911000001105	Dipyridamole 15mg/5ml oral suspension (Special Order)
-12015111000001106	Dipyridamole 15mg/5ml oral suspension (Special Order)
-12029011000001100	Dipyridamole 15mg/5ml oral solution
-12015911000001109	Dipyridamole 15mg/5ml oral solution
-12016511000001109	Dipyridamole 15mg/5ml oral solution (Special Order)
-12017011000001103	Dipyridamole 15mg/5ml oral solution (Special Order)
-12029511000001108	Dipyridamole 20mg/5ml oral suspension
-12018011000001102	Dipyridamole 20mg/5ml oral suspension
-12018111000001101	Dipyridamole 20mg/5ml oral suspension (Special Order)
-12018411000001106	Dipyridamole 20mg/5ml oral suspension (Special Order)
-12029311000001102	Dipyridamole 20mg/5ml oral solution
-12019211000001102	Dipyridamole 20mg/5ml oral solution
-12021211000001109	Dipyridamole 20mg/5ml oral solution (Special Order)
-12021511000001107	Dipyridamole 20mg/5ml oral solution (Special Order)
-11981811000001108	Aspirin 75mg/5ml oral suspension
-11982011000001105	Aspirin 75mg/5ml oral suspension (Special Order)
-11982311000001108	Aspirin 75mg/5ml oral suspension (Special Order)
-12014011000001106	Aspirin 75mg/5ml oral solution
-11982411000001101	Aspirin 75mg/5ml oral solution
-11982511000001102	Aspirin 75mg/5ml oral solution (Special Order)
-11982611000001103	Aspirin 75mg/5ml oral solution (Special Order)
-443469008	Prasugrel 10mg tablets
-15240111000001104	Prasugrel 10mg tablets
-21278911000001100	Prasugrel 10mg tablets
-15240211000001105	Efient 10mg tablets (Daiichi Sankyo UK Ltd)
-15240311000001102	Efient 10mg tablets (Daiichi Sankyo UK Ltd)
-36655711000001109	Prasugrel 10mg tablets (Aristo Pharma Ltd)
-36655811000001101	Prasugrel 10mg tablets (Aristo Pharma Ltd)
-36760211000001105	Prasugrel 10mg tablets (Consilient Health Ltd)
-36760311000001102	Prasugrel 10mg tablets (Consilient Health Ltd)
-36778111000001109	Prasugrel 10mg tablets (Teva UK Ltd)
-36778211000001103	Prasugrel 10mg tablets (Teva UK Ltd)
-36781111000001108	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd)
-36781211000001102	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd)
-36825111000001101	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd)
-36825211000001107	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd)
-36826611000001104	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd)
-12027511000001101	Dipyridamole 5mg/5ml oral suspension (Special Order)
-12029811000001106	Dipyridamole 5mg/5ml oral solution
-12028211000001100	Dipyridamole 5mg/5ml oral solution
-12028511000001102	Dipyridamole 5mg/5ml oral solution (Special Order)
-12028911000001109	Dipyridamole 5mg/5ml oral solution (Special Order)
-429540001	Clopidogrel 300mg tablets
-13663311000001107	Clopidogrel 300mg tablets
-13663511000001101	Plavix 300mg tablets (Sanofi)
-13663611000001102	Plavix 300mg tablets (Sanofi)
-16100911000001108	Aspirin 37.5mg oral powder sachets
-16096311000001100	Aspirin 37.5mg oral powder sachets
-16072911000001108	Clopidogrel 25mg/5ml oral suspension
-16059911000001101	Clopidogrel 25mg/5ml oral suspension
-16060011000001104	Clopidogrel 25mg/5ml oral suspension (Special Order)
-16060111000001103	Clopidogrel 25mg/5ml oral suspension (Special Order)
-36760111000001104	Prasugrel 5mg tablets (Consilient Health Ltd)
-36780911000001104	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd)
-36781011000001107	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd)
-36824911000001102	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd)
-36825011000001102	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd)
-36825511000001105	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd)
-36825611000001109	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd)
-36882311000001104	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd)
-36882411000001106	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd)
-36917111000001105	Prasugrel 5mg tablets (Sovereign Medical Ltd)
-36917211000001104	Prasugrel 5mg tablets (Sovereign Medical Ltd)
-36927711000001101	Prasugrel 5mg tablets (Accord Healthcare Ltd)
-36927811000001109	Prasugrel 5mg tablets (Accord Healthcare Ltd)
-37118511000001100	Prafsia 5mg tablets (Northumbria Pharma Ltd)
-37118611000001101	Prafsia 5mg tablets (Northumbria Pharma Ltd)
-37268211000001101	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd)
-37268311000001109	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd)
-37777711000001105	Prasugrel 5mg tablets (DE Pharmaceuticals)
-11978011000001101	Aspirin 30mg/5ml oral solution (Special Order)
-12012511000001108	Aspirin 25mg/5ml oral solution
-11977011000001102	Aspirin 25mg/5ml oral solution
-11977111000001101	Aspirin 25mg/5ml oral solution (Special Order)
-11977211000001107	Aspirin 25mg/5ml oral solution (Special Order)
-37118911000001107	Prafsia 10mg tablets (Northumbria Pharma Ltd)
-37268411000001102	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd)
-37268611000001104	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd)
-37777911000001107	Prasugrel 10mg tablets (DE Pharmaceuticals)
-37778011000001109	Prasugrel 10mg tablets (DE Pharmaceuticals)
-443088009	Prasugrel 5mg tablets
-18747911000001101	Clopidogrel 1mg/ml oral suspension
-18739711000001105	Clopidogrel 1mg/ml oral suspension
-24433211000001107	Clopidogrel 1mg/ml oral suspension
-18739811000001102	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
-18739911000001107	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
-24433311000001104	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
-11712811000001108	Aspirin 100mg/5ml oral suspension
-11692511000001104	Aspirin 100mg/5ml oral suspension
-11692711000001109	Aspirin 100mg/5ml oral suspension (Special Order)
-11692811000001101	Aspirin 100mg/5ml oral suspension (Special Order)
-22402511000001104	Clopidogrel 75mg/5ml oral solution
-15241011000001109	Prasugrel 5mg tablets
-15241111000001105	Efient 5mg tablets (Daiichi Sankyo UK Ltd)
-15241211000001104	Efient 5mg tablets (Daiichi Sankyo UK Ltd)
-36655911000001106	Prasugrel 5mg tablets (Aristo Pharma Ltd)
-36656011000001103	Prasugrel 5mg tablets (Aristo Pharma Ltd)
-36760011000001100	Prasugrel 5mg tablets (Consilient Health Ltd)
-704465002	Ticagrelor 90mg tablets
-18290211000001107	Ticagrelor 90mg tablets
-18290311000001104	Brilique 90mg tablets (AstraZeneca UK Ltd)
-18290411000001106	Brilique 90mg tablets (AstraZeneca UK Ltd)
-30919611000001101	Clopidogrel 6mg oral powder sachets
-30874711000001108	Clopidogrel 6mg oral powder sachets
-36826711000001108	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd)
-36882611000001109	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd)
-36882711000001100	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd)
-36916911000001105	Prasugrel 10mg tablets (Sovereign Medical Ltd)
-36917011000001109	Prasugrel 10mg tablets (Sovereign Medical Ltd)
-36927911000001104	Prasugrel 10mg tablets (Accord Healthcare Ltd)
-36928011000001102	Prasugrel 10mg tablets (Accord Healthcare Ltd)
-37118811000001102	Prafsia 10mg tablets (Northumbria Pharma Ltd)
-31140711000001100	Clopidogrel 3.5mg oral powder sachets
-31135711000001109	Clopidogrel 3.5mg oral powder sachets
-31135811000001101	Clopidogrel 3.5mg oral powder sachets (Special Order)
-37777811000001102	Prasugrel 5mg tablets (DE Pharmaceuticals)
-16089411000001101	Clopidogrel 11mg oral powder sachets
-16087111000001100	Clopidogrel 11mg oral powder sachets
-16087211000001106	Clopidogrel 11mg oral powder sachets (Special Order)
-16087311000001103	Clopidogrel 11mg oral powder sachets (Special Order)
-22342711000001109	Clopidogrel 4mg oral powder sachets
-22334711000001100	Clopidogrel 4mg oral powder sachets
-22334911000001103	Clopidogrel 4mg oral powder sachets (Special Order)
-22335411000001107	Clopidogrel 4mg oral powder sachets (Special Order)
-32392111000001102	Clopidogrel 6mg/ml oral suspension
-32338111000001106	Clopidogrel 6mg/ml oral suspension
-22244111000001109	Clopidogrel 75mg/5ml oral solution
-22244211000001103	Clopidogrel 75mg/5ml oral solution
-22244311000001106	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
-22244511000001100	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
-22244411000001104	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
-32472211000001106	Ticagrelor 60mg tablets
-32447311000001100	Ticagrelor 60mg tablets
-32447511000001106	Brilique 60mg tablets (AstraZeneca UK Ltd)
-32447711000001101	Brilique 60mg tablets (AstraZeneca UK Ltd)
-36893911000001109	Clopidogrel 5mg/5ml oral solution
-36894011000001107	Clopidogrel 5mg/5ml oral solution (Special Order)
-11972911000001100	Aspirin 15mg/5ml oral solution (Special Order)
-12012611000001107	Aspirin 25mg/5ml oral suspension
-11973011000001108	Aspirin 25mg/5ml oral suspension
-11973211000001103	Aspirin 25mg/5ml oral suspension (Special Order)
-11976611000001107	Aspirin 25mg/5ml oral suspension (Special Order)
-14012211000001103	Aspirin 40mg oral powder sachets
-13980311000001100	Aspirin 40mg oral powder sachets
-13980411000001107	Aspirin 40mg oral powder sachets (Special Order)
-13980511000001106	Aspirin 40mg oral powder sachets (Special Order)
-36894111000001108	Clopidogrel 5mg/5ml oral solution (Special Order)
-36903411000001109	Clopidogrel 5mg/5ml oral solution
-16096411000001107	Aspirin 37.5mg oral powder sachets (Special Order)
-16096511000001106	Aspirin 37.5mg oral powder sachets (Special Order)
-28415011000001107	Clopidogrel 5mg oral powder sachets
-28407011000001103	Clopidogrel 5mg oral powder sachets
-28407211000001108	Clopidogrel 5mg oral powder sachets (Special Order)
-28407311000001100	Clopidogrel 5mg oral powder sachets (Special Order)
-30798211000001103	Aspirin 25mg capsules
-30791511000001105	Aspirin 25mg capsules
-30791611000001109	Aspirin 25mg capsules (Special Order)
-30791711000001100	Aspirin 25mg capsules (Special Order)
-17785911000001106	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
-31135911000001106	Clopidogrel 3.5mg oral powder sachets (Special Order)
-1361711000001108	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
-596611000001106	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-1613511000001108	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-11020711000001109	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-11020811000001101	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-17893111000001109	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
-17893211000001103	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
-17968711000001106	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
-17969011000001104	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
-32338411000001101	Clopidogrel 6mg/ml oral suspension (Special Order)
-32338511000001102	Clopidogrel 6mg/ml oral suspension (Special Order)
-319759002	Dipyridamole 100mg tablets
-1103711000001101	Dipyridamole 100mg tablets
-1076911000001106	Dipyridamole 100mg tablets
-151611000001100	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
-1359911000001104	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
-787811000001109	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
-1360011000001102	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
-623011000001106	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
-1360111000001101	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
-17786011000001103	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
-19429611000001108	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
-19429711000001104	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
-21776611000001101	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
-21776711000001105	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
-21776811000001102	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
-21776911000001107	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
-22610611000001102	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
-22610711000001106	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
-22610811000001103	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
-22610911000001108	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
-29996011000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
-29996111000001104	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
-29996211000001105	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
-29996311000001102	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
-32968711000001107	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
-32968811000001104	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
-35581511000001100	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
-35581611000001101	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
-35581711000001105	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
-31948811000001109	Dipyridamole 200mg/5ml oral suspension sugar free
-31939811000001101	Dipyridamole 200mg/5ml oral suspension sugar free
-31940111000001104	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
-31940811000001106	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
-32419011000001102	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
-32419111000001101	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
-32502011000001103	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
-32502111000001102	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
-319773006	Aspirin 75mg dispersible tablets
-969811000001108	Aspirin 75mg dispersible tablets
-1163911000001103	Aspirin 75mg dispersible tablets
-1113811000001107	Aspirin 75mg dispersible tablets
-1269911000001102	Aspirin 75mg dispersible tablets
-765111000001108	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
-1387111000001103	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
-18274711000001102	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
-1387411000001108	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
-1387611000001106	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
-916711000001109	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
-1387711000001102	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
-1387811000001105	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
-1387911000001100	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
-33511000001106	Aspirin 75mg dispersible tablets (Teva UK Ltd)
-1388011000001103	Aspirin 75mg dispersible tablets (Teva UK Ltd)
-1388211000001108	Aspirin 75mg dispersible tablets (Teva UK Ltd)
-636011000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
-1388311000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
-594611000001102	Aspirin 75mg dispersible tablets (The Boots Company Plc)
-1388711000001101	Aspirin 75mg dispersible tablets (The Boots Company Plc)
-319766001	Dipyridamole 200mg modified-release capsules
-1249311000001108	Dipyridamole 200mg modified-release capsules
-5600811000001100	Dipyridamole 200mg modified-release capsules
-452911000001101	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
-1370411000001104	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
-23610211000001109	Persantin Retard 200mg capsules (Consilient Health Ltd)
-23610311000001101	Persantin Retard 200mg capsules (Consilient Health Ltd)
-24435511000001109	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
-24435611000001108	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
-26779111000001103	Ofcram PR 200mg capsules (Advanz Pharma)
-1388911000001104	Aspirin 75mg dispersible tablets (The Boots Company Plc)
-163411000001106	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
-10258311000001106	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
-1389111000001109	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
-173911000001105	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
-1389311000001106	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
-1389411000001104	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
-1389611000001101	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
-852711000001109	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
-1389911000001107	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
-595211000001103	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
-1390011000001104	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
-1390311000001101	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
-1390511000001107	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
-698811000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
-5627511000001107	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
-1612811000001103	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
-1612911000001108	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
-9789111000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
-9789411000001105	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
-9789511000001109	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
-9789811000001107	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
-12430611000001107	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
-12430711000001103	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
-13662311000001102	Aspirin 75mg dispersible tablets (Numark Ltd)
-13662411000001109	Aspirin 75mg dispersible tablets (Numark Ltd)
-15069611000001102	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
-29770811000001105	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
-15069711000001106	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
-29770911000001100	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
-15985111000001103	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
-15985211000001109	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
-15985311000001101	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
-17221711000001107	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
-17221811000001104	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
-17221911000001109	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
-17785711000001109	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
-17785811000001101	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
-752511000001101	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
-1360211000001107	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
-477911000001102	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
-1360511000001105	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
-1360611000001109	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
-650711000001100	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
-34713411000001108	Ticagrelor 90mg orodispersible tablets sugar free
-34671911000001103	Ticagrelor 90mg orodispersible tablets sugar free
-34672011000001105	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd)
-34672111000001106	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd)
-1376511000001103	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
-665111000001104	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
-1377311000001107	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
-1377411000001100	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
-894811000001102	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
-1377711000001106	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
-1377811000001103	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
-269311000001103	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-1613411000001109	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-11020511000001104	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-11020611000001100	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-17892911000001100	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
-17893011000001108	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
-21931011000001109	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
-21931111000001105	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
-23877911000001104	Dipyridamole 25mg tablets (DE Pharmaceuticals)
-23878111000001101	Dipyridamole 25mg tablets (DE Pharmaceuticals)
-29830011000001104	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
-29830211000001109	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
-17786311000001100	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
-30874811000001100	Clopidogrel 6mg oral powder sachets (Special Order)
-30874911000001105	Clopidogrel 6mg oral powder sachets (Special Order)
-26779011000001104	Ofcram PR 200mg capsules (Advanz Pharma)
-319775004	Aspirin 75mg tablets
-1041711000001104	Aspirin 75mg tablets
-800511000001106	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
-1662811000001104	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-473711000001109	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
-1663011000001101	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
-1663311000001103	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
-1663411000001105	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
-795611000001102	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
-1663511000001109	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
-445511000001104	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
-1663611000001108	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
-844511000001107	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
-1663911000001102	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
-592811000001109	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
-1664011000001104	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
-50611000001102	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
-1664111000001103	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
-1664211000001109	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
-476711000001102	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
-1664311000001101	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
-414311000001102	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
-1664711000001102	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
-927411000001108	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-1664811000001105	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-1665011000001100	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-1665111000001104	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-370411000001104	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
-1665311000001102	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
-1665211000001105	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
-307211000001105	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
-1665411000001109	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
-1665511000001108	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
-9790111000001106	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
-9790411000001101	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
-9790211000001100	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
-10450211000001102	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
-10450311000001105	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
-12534311000001103	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
-12534411000001105	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
-15967511000001101	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
-15967611000001102	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
-15967711000001106	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
-15985411000001108	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
-15985511000001107	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
-15985611000001106	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
-16431611000001103	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-16431711000001107	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-16437611000001107	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
-17786111000001102	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
-17786511000001106	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
-20536811000001105	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
-20536911000001100	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
-21777711000001108	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
-21777811000001100	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
-21778111000001108	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
-22611211000001105	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
-22611311000001102	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
-22611411000001109	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
-29771211000001103	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
-29771311000001106	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
-29771411000001104	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
-29996711000001103	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
-29996811000001106	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
-29996911000001101	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
-37927211000001109	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-37927311000001101	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-37927411000001108	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-38797311000001108	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
-38797511000001102	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
-38797411000001101	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
-34175911000001100	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
-34176011000001108	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
-15923111000001109	Clopidogrel 75mg tablets (Arrow Generics Ltd)
-17659511000001104	Clopidogrel 75mg tablets (Arrow Generics Ltd)
-15926111000001104	Clopidogrel 75mg tablets (Teva UK Ltd)
-15926211000001105	Clopidogrel 75mg tablets (Teva UK Ltd)
-15927711000001100	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
-15927811000001108	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
-15927911000001103	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
-15933611000001103	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
-15933711000001107	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
-15933811000001104	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
-15981011000001101	Clopidogrel 75mg tablets (Actavis UK Ltd)
-16441211000001101	Clopidogrel 75mg tablets (Actavis UK Ltd)
-15981111000001100	Clopidogrel 75mg tablets (Actavis UK Ltd)
-16247711000001100	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
-16247811000001108	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
-17217211000001101	Clopidogrel 75mg tablets (Consilient Health Ltd)
-17217311000001109	Clopidogrel 75mg tablets (Consilient Health Ltd)
-17217411000001102	Clopidogrel 75mg tablets (Consilient Health Ltd)
-17561911000001105	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
-17562011000001103	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
-17861911000001109	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
-17862111000001101	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
-17862511000001105	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
-18045011000001105	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
-18045111000001106	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
-20065511000001109	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
-18474811000001106	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-18474911000001101	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-18475011000001101	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
-18548711000001103	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
-18548811000001106	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
-18567911000001109	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
-18720411000001107	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
-18720611000001105	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
-21643011000001107	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
-21643111000001108	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
-21936211000001107	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
-21936911000001103	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
-1659511000001102	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
-17423311000001108	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
-17423511000001102	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
-17629911000001105	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
-17630011000001100	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
-17879711000001102	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
-17879811000001105	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
-18082911000001106	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
-18083011000001103	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
-21777311000001109	Aspirin 75mg tablets (Waymade Healthcare Plc)
-21937011000001104	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
-22700111000001103	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
-22700211000001109	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
-23953911000001104	Clopidogrel 75mg tablets (Milpharm Ltd)
-23954011000001101	Clopidogrel 75mg tablets (Milpharm Ltd)
-24108111000001101	Clopidogrel 75mg tablets (Sandoz Ltd)
-24108211000001107	Clopidogrel 75mg tablets (Sandoz Ltd)
-27841311000001100	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
-30784211000001108	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
-27841411000001107	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
-29667511000001107	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
-21777411000001102	Aspirin 75mg tablets (Waymade Healthcare Plc)
-22611811000001106	Aspirin 75mg tablets (DE Pharmaceuticals)
-22611911000001101	Aspirin 75mg tablets (DE Pharmaceuticals)
-29774911000001105	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
-29775011000001105	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
-32394411000001100	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
-32394511000001101	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
-34175711000001102	Aspirin 75mg tablets (Accord Healthcare Ltd)
-34175811000001105	Aspirin 75mg tablets (Accord Healthcare Ltd)
-35841711000001101	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
-35841811000001109	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
-29667611000001106	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
-30015311000001101	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
-30015411000001108	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
-30138011000001107	Clopidogrel 75mg tablets (DE Pharmaceuticals)
-30138111000001108	Clopidogrel 75mg tablets (DE Pharmaceuticals)
-30138211000001102	Clopidogrel 75mg tablets (DE Pharmaceuticals)
-32398611000001107	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
-32398711000001103	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
-32398811000001106	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
-36870711000001106	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
-36870811000001103	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
-36492711000001106	Aspirin 75mg tablets (Medreich Plc)
-36492811000001103	Aspirin 75mg tablets (Medreich Plc)
-36611211000001105	Aspirin 75mg tablets (Healthcare Pharma Ltd)
-36611311000001102	Aspirin 75mg tablets (Healthcare Pharma Ltd)
-37570511000001103	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
-37570611000001104	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
-38796811000001101	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
-38796911000001106	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
-319781007	Aspirin 75mg gastro-resistant tablets
-1250711000001103	Aspirin 75mg gastro-resistant tablets
-1005911000001107	Aspirin 75mg gastro-resistant tablets
-37148811000001109	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
-37148911000001104	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
-38796611000001100	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
-38796711000001109	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
-38797011000001105	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
-319799004	Clopidogrel 75mg tablets
-1005311000001106	Clopidogrel 75mg tablets
-12183611000001106	Clopidogrel 75mg tablets
-12887911000001102	Clopidogrel 75mg tablets
-454611000001104	Plavix 75mg tablets (Sanofi)
-1994611000001108	Plavix 75mg tablets (Sanofi)
-983511000001105	Aspirin 75mg gastro-resistant tablets
-1267611000001103	Aspirin 75mg gastro-resistant tablets
-138011000001102	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
-1660011000001106	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
-1660111000001107	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
-281711000001100	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
-1660511000001103	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
-1660711000001108	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
-295211000001106	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
-7648111000001104	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
 319758005	Dipyridamole 25mg tablets
-944411000001101	Dipyridamole 25mg tablets
-1066411000001109	Dipyridamole 25mg tablets
-848311000001106	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
-1375311000001104	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
-203211000001105	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
-1376011000001106	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
-635611000001102	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
-36069811000001104	Dipyridamole 10mg/2ml solution for injection ampoules
-1049811000001108	Dipyridamole 10mg/2ml solution for injection ampoules
-642111000001104	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
-2767111000001100	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
-36070011000001108	Dipyridamole 50mg/5ml oral suspension sugar free
-1210711000001105	Dipyridamole 50mg/5ml oral suspension sugar free
-339811000001108	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
-2570911000001106	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
-104211000001106	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
-2571711000001101	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
-3995111000001105	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
-3995211000001104	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
-21931211000001104	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
-21931311000001107	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
-23877611000001105	Dipyridamole 100mg tablets (DE Pharmaceuticals)
-23877711000001101	Dipyridamole 100mg tablets (DE Pharmaceuticals)
-29829411000001101	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
-29829611000001103	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
+319759002	Dipyridamole 100mg tablets
+319766001	Dipyridamole 200mg modified-release capsules
+319773006	Aspirin 75mg dispersible tablets
+319775004	Aspirin 75mg tablets
+319781007	Aspirin 75mg gastro-resistant tablets
+319799004	Clopidogrel 75mg tablets
 319801001	Ticlopidine 250mg tablets
-4120411000001103	Ticlopidine 250mg tablets
-13982611000001106	Ticlopidine 250mg tablets
-4120811000001101	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd)
-4121011000001103	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd)
-38779911000001107	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
-36069911000001109	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
-3291211000001103	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
-23241211000001108	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
-3292511000001108	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
-3293611000001102	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
-23241511000001106	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
-36237511000001107	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
-23241611000001105	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
-1661711000001100	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+375252000	Cilostazol 100mg tablets
+375254004	Cilostazol 50mg tablets
+398638003	Dipyridamole 50mg/5ml oral suspension sugar free
+429540001	Clopidogrel 300mg tablets
+443088009	Prasugrel 5mg tablets
+443469008	Prasugrel 10mg tablets
+704465002	Ticagrelor 90mg tablets
+783368008	Product containing precisely prasugrel (as prasugrel hydrochloride) 10 milligram/1 each conventional release oral tablet (clinical drug)
+783369000	Product containing precisely prasugrel (as prasugrel hydrochloride) 5 milligram/1 each conventional release oral tablet (clinical drug)
+1010542009	Product containing precisely ticagrelor 60 milligram/1 each conventional release oral tablet (clinical drug)
+33511000001106	Aspirin 75mg dispersible tablets (Teva UK Ltd)
 38411000001101	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
-1662311000001108	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
-799411000001102	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
-1662511000001102	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+50611000001102	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+104211000001106	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+138011000001102	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+151611000001100	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
+163411000001106	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+173911000001105	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+203211000001105	Dipyridamole 25mg tablets (Accord-UK Ltd)
+203211000001105	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
+269311000001103	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
 281311000001104	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-1748711000001107	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
-35891811000001100	Abciximab 10mg/5ml solution for injection vials
-4780611000001103	Abciximab 10mg/5ml solution for injection vials
-4780711000001107	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd)
-34682711000001102	Clopidogrel 7mg/ml oral suspension
-34676711000001106	Clopidogrel 7mg/ml oral suspension
-34676811000001103	Clopidogrel 7mg/ml oral suspension (Special Order)
-34676911000001108	Clopidogrel 7mg/ml oral suspension (Special Order)
-38243311000001102	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd)
-38243411000001109	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd)
-36064411000001100	Eptifibatide 75mg/100ml solution for infusion vials
+281711000001100	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
+295211000001106	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+307211000001105	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+339811000001108	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+370411000001104	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+414311000001102	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+445511000001104	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
+452911000001101	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
+454611000001104	Plavix 75mg tablets (Sanofi)
+473711000001109	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+476711000001102	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
+477911000001102	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
+592811000001109	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+594611000001102	Aspirin 75mg dispersible tablets (The Boots Company Plc)
+595211000001103	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+596611000001106	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+623011000001106	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
+635611000001102	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
+636011000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
+642111000001104	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
+650711000001100	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+665111000001104	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
+698811000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+752511000001101	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
+765111000001108	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+787811000001109	Dipyridamole 100mg tablets (Accord-UK Ltd)
+787811000001109	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
+795611000001102	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+799411000001102	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+800511000001106	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+844511000001107	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+848311000001106	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
+852711000001109	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
+894811000001102	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+916711000001109	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+927411000001108	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+944411000001101	Dipyridamole 25mg tablets
+969811000001108	Aspirin 75mg dispersible tablets
+983511000001105	Aspirin 75mg gastro-resistant tablets
+1005311000001100	Clopidogrel 75mg tablets
+1005911000001100	Aspirin 75mg gastro-resistant tablets
+1041711000001100	Aspirin 75mg tablets
+1049811000001100	Dipyridamole 10mg/2ml solution for injection ampoules
+1066411000001100	Dipyridamole 25mg tablets
+1076911000001100	Dipyridamole 100mg tablets
+1103711000001100	Dipyridamole 100mg tablets
+1113811000001100	Aspirin 75mg dispersible tablets
+1163911000001100	Aspirin 75mg dispersible tablets
+1210711000001100	Dipyridamole 50mg/5ml oral suspension sugar free
+1249311000001100	Dipyridamole 200mg modified-release capsules
+1250711000001100	Aspirin 75mg gastro-resistant tablets
+1267611000001100	Aspirin 75mg gastro-resistant tablets
+1269911000001100	Aspirin 75mg dispersible tablets
+1359911000001100	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
+1360011000001100	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
+1360111000001100	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
+1360211000001100	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
+1360511000001100	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
+1360611000001100	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
+1361711000001100	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+1370411000001100	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
+1375311000001100	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
+1376011000001100	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
+1376511000001100	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
+1377311000001100	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
+1377411000001100	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
+1377711000001100	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+1377811000001100	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+1387111000001100	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+1387411000001100	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+1387611000001100	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+1387711000001100	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+1387811000001100	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+1387911000001100	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+1388011000001100	Aspirin 75mg dispersible tablets (Teva UK Ltd)
+1388211000001100	Aspirin 75mg dispersible tablets (Teva UK Ltd)
+1388311000001100	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
+1388711000001100	Aspirin 75mg dispersible tablets (The Boots Company Plc)
+1388911000001100	Aspirin 75mg dispersible tablets (The Boots Company Plc)
+1389111000001100	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+1389311000001100	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+1389411000001100	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+1389611000001100	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+1389911000001100	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
+1390011000001100	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+1390311000001100	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+1390511000001100	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+1612811000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+1612911000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+1613411000001100	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+1613511000001100	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+1659511000001100	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+1660011000001100	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+1660111000001100	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+1660511000001100	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
+1660711000001100	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
+1661711000001100	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+1662311000001100	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
+1662511000001100	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+1662811000001100	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+1663011000001100	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+1663311000001100	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+1663411000001100	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+1663511000001100	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+1663611000001100	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
+1663911000001100	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+1664011000001100	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+1664111000001100	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+1664211000001100	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+1664311000001100	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
+1664711000001100	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+1664811000001100	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+1665011000001100	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+1665111000001100	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+1665211000001100	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+1665311000001100	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+1665411000001100	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+1665511000001100	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+1748711000001100	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+1994611000001100	Plavix 75mg tablets (Sanofi)
+2570911000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+2571711000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+2767111000001100	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
+3291211000001100	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+3292511000001100	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+3293611000001100	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+3393211000001100	Pletal 100mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+3558411000001100	Cilostazol 100mg tablets
+3995111000001100	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+3995211000001100	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+4120411000001100	Ticlopidine 250mg tablets
+4120811000001100	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd)
+4121011000001100	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd)
+4532311000001100	Disprin CV 300mg modified-release tablets (Reckitt Benckiser Plc)
+4558011000001100	Aspirin 300mg modified-release tablets
+4780611000001100	Abciximab 10mg/5ml solution for injection vials
+4780711000001100	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd)
+4780811000001100	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd)
+4848711000001100	Eptifibatide 20mg/10ml solution for injection vials
+4848811000001100	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd)
+4848911000001100	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd)
 4849811000001100	Eptifibatide 75mg/100ml solution for infusion vials
-4849911000001105	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd)
-4850011000001101	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd)
-15082611000001107	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
-15082711000001103	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
-22392411000001108	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
-22392511000001107	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
-23969411000001103	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
-23969511000001104	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
-29674811000001105	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
-29674911000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
-36064311000001107	Eptifibatide 20mg/10ml solution for injection vials
-34609311000001105	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
-34609411000001103	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
-35941811000001102	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd)
-35941911000001107	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd)
-8426611000001103	Clopidogrel 75mg/5ml oral suspension
-8400311000001103	Clopidogrel 75mg/5ml oral suspension
-22244611000001101	Clopidogrel 75mg/5ml oral suspension
-8400511000001109	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
-8400611000001108	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
-22244711000001105	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
-4848711000001104	Eptifibatide 20mg/10ml solution for injection vials
-4848811000001107	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd)
-4848911000001102	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd)
-34702911000001109	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
-34703011000001101	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
-8280711000001102	Aspirin 50mg/5ml oral solution
-8252911000001108	Aspirin 50mg/5ml oral solution
-8253111000001104	Aspirin 50mg/5ml oral solution (Special Order)
-8253311000001102	Aspirin 50mg/5ml oral solution (Special Order)
-8280811000001105	Aspirin 50mg/5ml oral suspension
-8456611000001102	Dipyridamole 100mg/5ml oral solution
-8441611000001107	Dipyridamole 100mg/5ml oral solution
-8441811000001106	Dipyridamole 100mg/5ml oral solution (Special Order)
-8441911000001101	Dipyridamole 100mg/5ml oral solution (Special Order)
-8456511000001101	Dipyridamole 100mg/5ml oral suspension
-8442011000001108	Dipyridamole 100mg/5ml oral suspension
-19598311000001105	Dipyridamole 100mg/5ml oral suspension
-8442111000001109	Dipyridamole 100mg/5ml oral suspension (Special Order)
-8442311000001106	Dipyridamole 100mg/5ml oral suspension (Special Order)
-19598511000001104	Dipyridamole 100mg/5ml oral suspension (Special Order)
-8456411000001100	Dipyridamole 200mg/5ml oral solution
+4849911000001100	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd)
+4850011000001100	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd)
+5399711000001100	Persantin Retard 200mg capsules (Waymade Healthcare Plc)
+5400911000001100	Plavix 75mg tablets (Waymade Healthcare Plc)
+5600811000001100	Dipyridamole 200mg modified-release capsules
+5601011000001100	Persantin Retard 200mg capsules (Dowelhurst Ltd)
+5627511000001100	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+7603211000001100	Tirofiban hydrochloride 12.5mg/250ml solution for injection bags
+7603411000001100	Aggrastat 12.5mg/250ml solution for injection bags (Merck Sharp & Dohme Ltd)
+7648111000001100	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+8248311000001100	Aspirin 225mg/5ml oral solution
+8248411000001100	Aspirin 225mg/5ml oral solution (Special Order)
+8248811000001100	Aspirin 225mg/5ml oral solution (Special Order)
+8249111000001100	Aspirin 225mg/5ml oral suspension
+8249211000001100	Aspirin 225mg/5ml oral suspension (Special Order)
+8249311000001100	Aspirin 225mg/5ml oral suspension (Special Order)
+8252911000001100	Aspirin 50mg/5ml oral solution
+8253111000001100	Aspirin 50mg/5ml oral solution (Special Order)
+8253311000001100	Aspirin 50mg/5ml oral solution (Special Order)
+8253611000001100	Aspirin 50mg/5ml oral suspension
+8253811000001100	Aspirin 50mg/5ml oral suspension (Special Order)
+8253911000001100	Aspirin 50mg/5ml oral suspension (Special Order)
+8280211000001100	Aspirin 225mg/5ml oral solution
+8280311000001100	Aspirin 225mg/5ml oral suspension
+8280711000001100	Aspirin 50mg/5ml oral solution
+8280811000001100	Aspirin 50mg/5ml oral suspension
+8400311000001100	Clopidogrel 75mg/5ml oral suspension
+8400511000001100	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+8400611000001100	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+8426611000001100	Clopidogrel 75mg/5ml oral suspension
+8441611000001100	Dipyridamole 100mg/5ml oral solution
+8441811000001100	Dipyridamole 100mg/5ml oral solution (Special Order)
+8441911000001100	Dipyridamole 100mg/5ml oral solution (Special Order)
+8442011000001100	Dipyridamole 100mg/5ml oral suspension
+8442111000001100	Dipyridamole 100mg/5ml oral suspension (Special Order)
+8442311000001100	Dipyridamole 100mg/5ml oral suspension (Special Order)
 8443911000001100	Dipyridamole 200mg/5ml oral solution
-8444111000001101	Dipyridamole 200mg/5ml oral solution (Special Order)
-8444211000001107	Dipyridamole 200mg/5ml oral solution (Special Order)
-8456311000001107	Dipyridamole 200mg/5ml oral suspension
-8444411000001106	Dipyridamole 200mg/5ml oral suspension
-24434111000001104	Dipyridamole 200mg/5ml oral suspension
-8444611000001109	Dipyridamole 200mg/5ml oral suspension (Special Order)
-8444811000001108	Dipyridamole 200mg/5ml oral suspension (Special Order)
-24434211000001105	Dipyridamole 200mg/5ml oral suspension (Special Order)
-8456211000001104	Dipyridamole 250mg/5ml oral solution
-8444911000001103	Dipyridamole 250mg/5ml oral solution
-8445011000001103	Dipyridamole 250mg/5ml oral solution (Special Order)
-8445111000001102	Dipyridamole 250mg/5ml oral solution (Special Order)
-8455811000001106	Dipyridamole 50mg/5ml oral solution
-8445211000001108	Dipyridamole 50mg/5ml oral solution
+8444111000001100	Dipyridamole 200mg/5ml oral solution (Special Order)
+8444211000001100	Dipyridamole 200mg/5ml oral solution (Special Order)
+8444411000001100	Dipyridamole 200mg/5ml oral suspension
+8444611000001100	Dipyridamole 200mg/5ml oral suspension (Special Order)
+8444811000001100	Dipyridamole 200mg/5ml oral suspension (Special Order)
+8444911000001100	Dipyridamole 250mg/5ml oral solution
+8445011000001100	Dipyridamole 250mg/5ml oral solution (Special Order)
+8445111000001100	Dipyridamole 250mg/5ml oral solution (Special Order)
+8445211000001100	Dipyridamole 50mg/5ml oral solution
 8445311000001100	Dipyridamole 50mg/5ml oral solution (Special Order)
-8445611000001105	Dipyridamole 50mg/5ml oral solution (Special Order)
-8456111000001105	Dipyridamole 250mg/5ml oral suspension
-8445411000001107	Dipyridamole 250mg/5ml oral suspension
-8445511000001106	Dipyridamole 250mg/5ml oral suspension (Special Order)
-8445811000001109	Dipyridamole 250mg/5ml oral suspension (Special Order)
-8456011000001109	Dipyridamole 25mg/5ml oral solution
-4780811000001104	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd)
-39689111000001106	Clopidogrel 75mg tablets
-40020611000001107	Clopidogrel 75mg tablets (Relonchem Ltd)
-40020711000001103	Clopidogrel 75mg tablets (Relonchem Ltd)
-39170011000001109	Prasugrel 10mg tablets (Medihealth (Northern) Ltd)
-39170311000001107	Prasugrel 10mg tablets (Medihealth (Northern) Ltd)
-39170711000001106	Prasugrel 5mg tablets (Medihealth (Northern) Ltd)
-39170911000001108	Prasugrel 5mg tablets (Medihealth (Northern) Ltd)
-8280211000001109	Aspirin 225mg/5ml oral solution
-8248311000001108	Aspirin 225mg/5ml oral solution
-8248411000001101	Aspirin 225mg/5ml oral solution (Special Order)
-34702711000001107	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd)
-34702811000001104	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd)
-38242911000001108	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd)
-38243211000001105	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd)
-40314711000001101	Clopidogrel 75mg tablets
-40314811000001109	Clopidogrel 75mg tablets (Medreich Plc)
-40315011000001104	Clopidogrel 75mg tablets (Medreich Plc)
-40314911000001104	Clopidogrel 75mg tablets (Medreich Plc)
-40373411000001101	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
-12184311000001104	Plavix 75mg tablets (Sanofi)
-15907411000001101	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
-16113411000001106	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
-15907511000001102	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
-15923011000001108	Clopidogrel 75mg tablets (Arrow Generics Ltd)
-39020811000001108	Dipyridamole 200mg modified-release capsules
-8248811000001104	Aspirin 225mg/5ml oral solution (Special Order)
-8280311000001101	Aspirin 225mg/5ml oral suspension
-8249111000001104	Aspirin 225mg/5ml oral suspension
-8249211000001105	Aspirin 225mg/5ml oral suspension (Special Order)
-8249311000001102	Aspirin 225mg/5ml oral suspension (Special Order)
-8253611000001107	Aspirin 50mg/5ml oral suspension
-8253811000001106	Aspirin 50mg/5ml oral suspension (Special Order)
-8253911000001101	Aspirin 50mg/5ml oral suspension (Special Order)
-8816311000001106	Clopidogrel 75mg oral powder sachets
-8808511000001101	Clopidogrel 75mg oral powder sachets
-8808611000001102	Clopidogrel 75mg oral powder sachets (Special Order)
-8808711000001106	Clopidogrel 75mg oral powder sachets (Special Order)
-38846011000001103	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
-38846111000001102	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
-40559511000001104	Clopidogrel 75mg tablets (NorthStar Healthcare Unlimited Company)
-40559711000001109	Clopidogrel 75mg tablets (NorthStar Healthcare Unlimited Company)
-8445711000001101	Dipyridamole 25mg/5ml oral solution
-8445911000001104	Dipyridamole 25mg/5ml oral solution (Special Order)
-8446011000001107	Dipyridamole 25mg/5ml oral solution (Special Order)
-8455911000001101	Dipyridamole 25mg/5ml oral suspension
-8446111000001108	Dipyridamole 25mg/5ml oral suspension
-20463011000001107	Dipyridamole 25mg/5ml oral suspension
-8446211000001102	Dipyridamole 25mg/5ml oral suspension (Special Order)
-8446311000001105	Dipyridamole 25mg/5ml oral suspension (Special Order)
-20463111000001108	Dipyridamole 25mg/5ml oral suspension (Special Order)
-33581711000001104	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
-40373311000001108	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
-39702811000001103	Prasugrel 10mg tablets
-39702911000001108	Prasugrel 5mg tablets
-13982711000001102	Ticlopidine 250mg tablets (Special Order)
-13982811000001105	Ticlopidine 250mg tablets (Special Order)
-38873911000001106	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
-38874011000001109	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
-38874111000001105	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
-38874211000001104	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
-4532311000001104	Disprin CV 300mg modified-release tablets (Reckitt Benckiser Plc) (product)
-4558011000001103	Aspirin 300mg modified-release tablets (product)
-7603211000001105	Tirofiban hydrochloride 12.5mg/250ml solution for injection bags (product)
-7603411000001109	Aggrastat 12.5mg/250ml solution for injection bags (Merck Sharp & Dohme Ltd) (product)
+8445411000001100	Dipyridamole 250mg/5ml oral suspension
+8445511000001100	Dipyridamole 250mg/5ml oral suspension (Special Order)
+8445611000001100	Dipyridamole 50mg/5ml oral solution (Special Order)
+8445711000001100	Dipyridamole 25mg/5ml oral solution
+8445811000001100	Dipyridamole 250mg/5ml oral suspension (Special Order)
+8445911000001100	Dipyridamole 25mg/5ml oral solution (Special Order)
+8446011000001100	Dipyridamole 25mg/5ml oral solution (Special Order)
+8446111000001100	Dipyridamole 25mg/5ml oral suspension
+8446211000001100	Dipyridamole 25mg/5ml oral suspension (Special Order)
+8446311000001100	Dipyridamole 25mg/5ml oral suspension (Special Order)
+8455811000001100	Dipyridamole 50mg/5ml oral solution
+8455911000001100	Dipyridamole 25mg/5ml oral suspension
+8456011000001100	Dipyridamole 25mg/5ml oral solution
+8456111000001100	Dipyridamole 250mg/5ml oral suspension
+8456211000001100	Dipyridamole 250mg/5ml oral solution
+8456311000001100	Dipyridamole 200mg/5ml oral suspension
+8456411000001100	Dipyridamole 200mg/5ml oral solution
+8456511000001100	Dipyridamole 100mg/5ml oral suspension
+8456611000001100	Dipyridamole 100mg/5ml oral solution
+8808511000001100	Clopidogrel 75mg oral powder sachets
+8808611000001100	Clopidogrel 75mg oral powder sachets (Special Order)
+8808711000001100	Clopidogrel 75mg oral powder sachets (Special Order)
+8816311000001100	Clopidogrel 75mg oral powder sachets
+9737911000001100	Pletal 50mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+9789111000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9789411000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9789511000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9789811000001100	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+9790111000001100	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+9790211000001100	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+9790411000001100	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+10062911000001100	Aspirin 75mg effervescent tablets
+10063011000001100	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
+10063111000001100	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
+10063211000001100	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
+10063311000001100	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
+10064711000001100	Aspirin 75mg effervescent tablets
+10258311000001100	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+10450211000001100	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
+10450311000001100	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
+10484111000001100	Clopidogrel 75mg tablets (Dowelhurst Ltd)
+10485911000001100	Plavix 75mg tablets (Dowelhurst Ltd)
+10511211000001100	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+11020511000001100	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11020611000001100	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11020711000001100	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11020811000001100	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11692511000001100	Aspirin 100mg/5ml oral suspension
+11692711000001100	Aspirin 100mg/5ml oral suspension (Special Order)
+11692811000001100	Aspirin 100mg/5ml oral suspension (Special Order)
+11712811000001100	Aspirin 100mg/5ml oral suspension
+11938111000001100	Dipyridamole 100mg/5ml oral suspension sugar free (Special Order)
+11945111000001100	Dipyridamole 100mg/5ml oral suspension sugar free
+11968211000001100	Aspirin 100mg/5ml oral solution
+11968411000001100	Aspirin 100mg/5ml oral solution (Special Order)
+11968511000001100	Aspirin 100mg/5ml oral solution (Special Order)
+11971511000001100	Aspirin 15mg/5ml oral suspension
+11971811000001100	Aspirin 15mg/5ml oral suspension (Special Order)
+11972011000001100	Aspirin 15mg/5ml oral suspension (Special Order)
+11972411000001100	Aspirin 15mg/5ml oral solution
+11972611000001100	Aspirin 15mg/5ml oral solution (Special Order)
+11972911000001100	Aspirin 15mg/5ml oral solution (Special Order)
+11973011000001100	Aspirin 25mg/5ml oral suspension
+11973211000001100	Aspirin 25mg/5ml oral suspension (Special Order)
+11976611000001100	Aspirin 25mg/5ml oral suspension (Special Order)
+11977011000001100	Aspirin 25mg/5ml oral solution
+11977111000001100	Aspirin 25mg/5ml oral solution (Special Order)
+11977211000001100	Aspirin 25mg/5ml oral solution (Special Order)
+11977511000001100	Aspirin 30mg/5ml oral suspension
+11977711000001100	Aspirin 30mg/5ml oral suspension (Special Order)
+11977811000001100	Aspirin 30mg/5ml oral suspension (Special Order)
+11977911000001100	Aspirin 30mg/5ml oral solution
+11978011000001100	Aspirin 30mg/5ml oral solution (Special Order)
+11978111000001100	Aspirin 30mg/5ml oral solution (Special Order)
+11978211000001100	Aspirin 37.5mg/5ml oral suspension
+11978311000001100	Aspirin 37.5mg/5ml oral suspension (Special Order)
+11978411000001100	Aspirin 37.5mg/5ml oral suspension (Special Order)
+11978611000001100	Aspirin 37.5mg/5ml oral solution
+11978911000001100	Aspirin 37.5mg/5ml oral solution (Special Order)
+11979011000001100	Aspirin 37.5mg/5ml oral solution (Special Order)
+11979211000001100	Aspirin 40mg/5ml oral suspension
+11979511000001100	Aspirin 40mg/5ml oral suspension (Special Order)
+11979711000001100	Aspirin 40mg/5ml oral suspension (Special Order)
+11980011000001100	Aspirin 40mg/5ml oral solution
+11980211000001100	Aspirin 40mg/5ml oral solution (Special Order)
+11980411000001100	Aspirin 40mg/5ml oral solution (Special Order)
+11980611000001100	Aspirin 62.5mg/5ml oral suspension
+11980811000001100	Aspirin 62.5mg/5ml oral suspension (Special Order)
+11981011000001100	Aspirin 62.5mg/5ml oral suspension (Special Order)
+11981211000001100	Aspirin 62.5mg/5ml oral solution
+11981411000001100	Aspirin 62.5mg/5ml oral solution (Special Order)
+11981611000001100	Aspirin 62.5mg/5ml oral solution (Special Order)
+11981811000001100	Aspirin 75mg/5ml oral suspension
+11982011000001100	Aspirin 75mg/5ml oral suspension (Special Order)
+11982311000001100	Aspirin 75mg/5ml oral suspension (Special Order)
+11982411000001100	Aspirin 75mg/5ml oral solution
+11982511000001100	Aspirin 75mg/5ml oral solution (Special Order)
+11982611000001100	Aspirin 75mg/5ml oral solution (Special Order)
+12010211000001100	Dipyridamole 10mg/5ml oral suspension
+12010311000001100	Dipyridamole 10mg/5ml oral suspension (Special Order)
+12010411000001100	Dipyridamole 10mg/5ml oral suspension (Special Order)
+12010911000001100	Dipyridamole 10mg/5ml oral solution
+12011211000001100	Dipyridamole 10mg/5ml oral solution (Special Order)
+12011311000001100	Dipyridamole 10mg/5ml oral solution (Special Order)
+12011811000001100	Dipyridamole 12.5mg/5ml oral suspension
+12011911000001100	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
+12012011000001100	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
+12012111000001100	Aspirin 100mg/5ml oral solution
+12012211000001100	Aspirin 15mg/5ml oral solution
+12012311000001100	Aspirin 15mg/5ml oral suspension
+12012411000001100	Dipyridamole 12.5mg/5ml oral solution
+12012511000001100	Aspirin 25mg/5ml oral solution
+12012611000001100	Aspirin 25mg/5ml oral suspension
+12012711000001100	Dipyridamole 12.5mg/5ml oral solution (Special Order)
+12012911000001100	Aspirin 30mg/5ml oral solution
+12013011000001100	Aspirin 30mg/5ml oral suspension
+12013111000001100	Dipyridamole 12.5mg/5ml oral solution (Special Order)
+12013211000001100	Aspirin 37.5mg/5ml oral solution
+12013311000001100	Aspirin 37.5mg/5ml oral suspension
+12013511000001100	Aspirin 40mg/5ml oral solution
+12013711000001100	Aspirin 40mg/5ml oral suspension
+12013811000001100	Aspirin 62.5mg/5ml oral solution
+12013911000001100	Aspirin 62.5mg/5ml oral suspension
+12014011000001100	Aspirin 75mg/5ml oral solution
+12014111000001100	Aspirin 75mg/5ml oral suspension
+12014511000001100	Dipyridamole 15mg/5ml oral suspension
+12014911000001100	Dipyridamole 15mg/5ml oral suspension (Special Order)
+12015111000001100	Dipyridamole 15mg/5ml oral suspension (Special Order)
+12015911000001100	Dipyridamole 15mg/5ml oral solution
+12016511000001100	Dipyridamole 15mg/5ml oral solution (Special Order)
+12017011000001100	Dipyridamole 15mg/5ml oral solution (Special Order)
+12018011000001100	Dipyridamole 20mg/5ml oral suspension
+12018111000001100	Dipyridamole 20mg/5ml oral suspension (Special Order)
+12018411000001100	Dipyridamole 20mg/5ml oral suspension (Special Order)
+12019211000001100	Dipyridamole 20mg/5ml oral solution
+12021211000001100	Dipyridamole 20mg/5ml oral solution (Special Order)
+12021511000001100	Dipyridamole 20mg/5ml oral solution (Special Order)
+12023211000001100	Dipyridamole 30mg/5ml oral suspension
+12023911000001100	Dipyridamole 30mg/5ml oral suspension (Special Order)
+12024211000001100	Dipyridamole 30mg/5ml oral suspension (Special Order)
+12025311000001100	Dipyridamole 30mg/5ml oral solution
+12025511000001100	Dipyridamole 30mg/5ml oral solution (Special Order)
+12025811000001100	Dipyridamole 30mg/5ml oral solution (Special Order)
+12026811000001100	Dipyridamole 5mg/5ml oral suspension
+12027211000001100	Dipyridamole 5mg/5ml oral suspension (Special Order)
+12027511000001100	Dipyridamole 5mg/5ml oral suspension (Special Order)
+12028211000001100	Dipyridamole 5mg/5ml oral solution
+12028311000001100	Dipyridamole 10mg/5ml oral solution
+12028411000001100	Dipyridamole 10mg/5ml oral suspension
+12028511000001100	Dipyridamole 5mg/5ml oral solution (Special Order)
+12028711000001100	Dipyridamole 12.5mg/5ml oral solution
+12028811000001100	Dipyridamole 12.5mg/5ml oral suspension
+12028911000001100	Dipyridamole 5mg/5ml oral solution (Special Order)
+12029011000001100	Dipyridamole 15mg/5ml oral solution
+12029211000001100	Dipyridamole 15mg/5ml oral suspension
+12029311000001100	Dipyridamole 20mg/5ml oral solution
+12029511000001100	Dipyridamole 20mg/5ml oral suspension
+12029611000001100	Dipyridamole 30mg/5ml oral solution
+12029711000001100	Dipyridamole 30mg/5ml oral suspension
+12029811000001100	Dipyridamole 5mg/5ml oral solution
+12029911000001100	Dipyridamole 5mg/5ml oral suspension
+12183611000001100	Clopidogrel 75mg tablets
+12184311000001100	Plavix 75mg tablets (Sanofi)
+12430611000001100	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
+12430711000001100	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
+12534311000001100	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
+12534411000001100	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
+12887911000001100	Clopidogrel 75mg tablets
+13662311000001100	Aspirin 75mg dispersible tablets (Numark Ltd)
+13662411000001100	Aspirin 75mg dispersible tablets (Numark Ltd)
+13663311000001100	Clopidogrel 300mg tablets
+13663511000001100	Plavix 300mg tablets (Sanofi)
+13663611000001100	Plavix 300mg tablets (Sanofi)
+13852611000001100	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+13945211000001100	Persantin Retard 200mg capsules (DE Pharmaceuticals)
+13945811000001100	Plavix 75mg tablets (DE Pharmaceuticals)
+13980311000001100	Aspirin 40mg oral powder sachets
+13980411000001100	Aspirin 40mg oral powder sachets (Special Order)
+13980511000001100	Aspirin 40mg oral powder sachets (Special Order)
+13982611000001100	Ticlopidine 250mg tablets
+13982711000001100	Ticlopidine 250mg tablets (Special Order)
+13982811000001100	Ticlopidine 250mg tablets (Special Order)
+14012211000001100	Aspirin 40mg oral powder sachets
+14709911000001100	Persantin Retard 200mg capsules (Sigma Pharmaceuticals Plc)
+14714411000001100	Clopidogrel 75mg tablets (PI) (Sigma Pharmaceuticals Plc)
+14721411000001100	Plavix 75mg tablets (Sigma Pharmaceuticals Plc)
+15069611000001100	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+15069711000001100	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+15082611000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+15082711000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+15240111000001100	Prasugrel 10mg tablets
+15240211000001100	Efient 10mg tablets (Vygoris Ltd)
+15240211000001100	Efient 10mg tablets (Daiichi Sankyo UK Ltd)
+15240311000001100	Efient 10mg tablets (Daiichi Sankyo UK Ltd)
+15241011000001100	Prasugrel 5mg tablets
+15241111000001100	Efient 5mg tablets (Vygoris Ltd)
+15241111000001100	Efient 5mg tablets (Daiichi Sankyo UK Ltd)
+15241211000001100	Efient 5mg tablets (Daiichi Sankyo UK Ltd)
+15362111000001100	Prasugrel 10mg tablets
+15362211000001100	Prasugrel 5mg tablets
+15907411000001100	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
+15907511000001100	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
+15923011000001100	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+15923111000001100	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+15926111000001100	Clopidogrel 75mg tablets (Teva UK Ltd)
+15926211000001100	Clopidogrel 75mg tablets (Teva UK Ltd)
+15927711000001100	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+15927811000001100	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+15927911000001100	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+15933611000001100	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+15933711000001100	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+15933811000001100	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+15967511000001100	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+15967611000001100	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+15967711000001100	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+15981011000001100	Clopidogrel 75mg tablets (Actavis UK Ltd)
+15981111000001100	Clopidogrel 75mg tablets (Actavis UK Ltd)
+15985111000001100	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+15985211000001100	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+15985311000001100	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+15985411000001100	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+15985511000001100	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+15985611000001100	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+16059911000001100	Clopidogrel 25mg/5ml oral suspension
+16060011000001100	Clopidogrel 25mg/5ml oral suspension (Drug Tariff Special Order)
+16060011000001100	Clopidogrel 25mg/5ml oral suspension (Special Order)
+16060111000001100	Clopidogrel 25mg/5ml oral suspension (Special Order)
+16072911000001100	Clopidogrel 25mg/5ml oral suspension
+16087111000001100	Clopidogrel 11mg oral powder sachets
+16087211000001100	Clopidogrel 11mg oral powder sachets (Special Order)
+16087311000001100	Clopidogrel 11mg oral powder sachets (Special Order)
+16089411000001100	Clopidogrel 11mg oral powder sachets
+16096311000001100	Aspirin 37.5mg oral powder sachets
+16096411000001100	Aspirin 37.5mg oral powder sachets (Special Order)
+16096511000001100	Aspirin 37.5mg oral powder sachets (Special Order)
+16100911000001100	Aspirin 37.5mg oral powder sachets
+16113411000001100	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
+16247711000001100	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
+16247811000001100	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
+16431611000001100	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+16431711000001100	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+16437611000001100	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+16441211000001100	Clopidogrel 75mg tablets (Actavis UK Ltd)
+16508911000001100	Clopidogrel 75mg tablets (PI) (Mawdsley-Brooks & Company Ltd)
+17217211000001100	Clopidogrel 75mg tablets (Krka UK Ltd)
+17217211000001100	Clopidogrel 75mg tablets (Consilient Health Ltd)
+17217311000001100	Clopidogrel 75mg tablets (Consilient Health Ltd)
+17217411000001100	Clopidogrel 75mg tablets (Consilient Health Ltd)
+17221711000001100	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+17221811000001100	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+17221911000001100	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+17419511000001100	Plavix 75mg tablets (Mawdsley-Brooks & Company Ltd)
+17423311000001100	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
+17423511000001100	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
+17561911000001100	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
+17562011000001100	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
+17619011000001100	Persantin Retard 200mg capsules (Necessity Supplies Ltd)
+17620011000001100	Plavix 75mg tablets (Necessity Supplies Ltd)
+17629911000001100	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+17630011000001100	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+17659511000001100	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+17785711000001100	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+17785811000001100	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+17785911000001100	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+17786011000001100	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+17786111000001100	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+17786311000001100	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+17786511000001100	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+17861911000001100	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+17862111000001100	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+17862511000001100	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+17879711000001100	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
+17879811000001100	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
+17884611000001100	Pletal 100mg tablets (Sigma Pharmaceuticals Plc)
+17892911000001100	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
+17893011000001100	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
+17893111000001100	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
+17893211000001100	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
+17957511000001100	Pletal 100mg tablets (Waymade Healthcare Plc)
+17968711000001100	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
+17969011000001100	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
+18045011000001100	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+18045111000001100	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+18063411000001100	Plavix 75mg tablets (Lexon (UK) Ltd)
+18065511000001100	Pletal 100mg tablets (Lexon (UK) Ltd)
+18082911000001100	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+18083011000001100	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+18204911000001100	Pletal 100mg tablets (Mawdsley-Brooks & Company Ltd)
+18221811000001100	Clopidogrel 75mg tablets (Necessity Supplies Ltd)
+18274711000001100	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+18290211000001100	Ticagrelor 90mg tablets
+18290311000001100	Brilique 90mg tablets (AstraZeneca UK Ltd)
+18290411000001100	Brilique 90mg tablets (AstraZeneca UK Ltd)
+18291611000001100	Ticagrelor 90mg tablets
+18295111000001100	Pletal 100mg tablets (Stephar (U.K.) Ltd)
+18474811000001100	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+18474911000001100	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+18475011000001100	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+18548711000001100	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+18548811000001100	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+18567911000001100	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+18605911000001100	Pletal 100mg tablets (DE Pharmaceuticals)
+18720411000001100	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+18720611000001100	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+18739711000001100	Clopidogrel 1mg/ml oral suspension
+18739811000001100	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+18739911000001100	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+18747911000001100	Clopidogrel 1mg/ml oral suspension
+18877511000001100	Persantin Retard 200mg capsules (Mawdsley-Brooks & Company Ltd)
+19429611000001100	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
+19429711000001100	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
+19527211000001100	Efient 10mg tablets (Waymade Healthcare Plc)
+19598311000001100	Dipyridamole 100mg/5ml oral suspension
+19598511000001100	Dipyridamole 100mg/5ml oral suspension (Special Order)
+20065511000001100	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+20463011000001100	Dipyridamole 25mg/5ml oral suspension
+20463111000001100	Dipyridamole 25mg/5ml oral suspension (Special Order)
+20536811000001100	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
+20536911000001100	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
+21278911000001100	Prasugrel 10mg tablets
+21643011000001100	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
+21643111000001100	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
+21776611000001100	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+21776711000001100	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+21776811000001100	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+21776911000001100	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+21777311000001100	Aspirin 75mg tablets (Waymade Healthcare Plc)
+21777411000001100	Aspirin 75mg tablets (Waymade Healthcare Plc)
+21777711000001100	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+21777811000001100	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+21778111000001100	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+21931011000001100	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
+21931111000001100	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
+21931211000001100	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
+21931311000001100	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
+21936211000001100	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+21936911000001100	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+21937011000001100	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+22244111000001100	Clopidogrel 75mg/5ml oral solution
+22244211000001100	Clopidogrel 75mg/5ml oral solution
+22244311000001100	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+22244411000001100	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+22244511000001100	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+22244611000001100	Clopidogrel 75mg/5ml oral suspension
+22244711000001100	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+22334711000001100	Clopidogrel 4mg oral powder sachets
+22334911000001100	Clopidogrel 4mg oral powder sachets (Special Order)
+22335411000001100	Clopidogrel 4mg oral powder sachets (Special Order)
+22342711000001100	Clopidogrel 4mg oral powder sachets
+22392411000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+22392511000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+22402511000001100	Clopidogrel 75mg/5ml oral solution
+22610611000001100	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+22610711000001100	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+22610811000001100	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+22610911000001100	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+22611211000001100	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
+22611311000001100	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
+22611411000001100	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
+22611811000001100	Aspirin 75mg tablets (DE Pharmaceuticals)
+22611911000001100	Aspirin 75mg tablets (DE Pharmaceuticals)
+22700111000001100	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
+22700211000001100	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
+23241211000001100	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+23241511000001100	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+23241611000001100	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+23610211000001100	Persantin Retard 200mg capsules (Consilient Health Ltd)
+23610311000001100	Persantin Retard 200mg capsules (Consilient Health Ltd)
+23613111000001100	Cilostazol 100mg tablets (Teva UK Ltd)
+23640511000001100	Cilostazol 100mg tablets (A A H Pharmaceuticals Ltd)
+23642511000001100	Cilostazol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+23877611000001100	Dipyridamole 100mg tablets (DE Pharmaceuticals)
+23877711000001100	Dipyridamole 100mg tablets (DE Pharmaceuticals)
+23877911000001100	Dipyridamole 25mg tablets (DE Pharmaceuticals)
+23878111000001100	Dipyridamole 25mg tablets (DE Pharmaceuticals)
+23953911000001100	Clopidogrel 75mg tablets (Milpharm Ltd)
+23954011000001100	Clopidogrel 75mg tablets (Milpharm Ltd)
+23969411000001100	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+23969511000001100	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+24108111000001100	Clopidogrel 75mg tablets (Sandoz Ltd)
+24108211000001100	Clopidogrel 75mg tablets (Sandoz Ltd)
+24433211000001100	Clopidogrel 1mg/ml oral suspension
+24433311000001100	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+24434111000001100	Dipyridamole 200mg/5ml oral suspension
+24434211000001100	Dipyridamole 200mg/5ml oral suspension (Special Order)
+24435511000001100	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+24435611000001100	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+24538511000001100	Cilostazol 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+24619611000001100	Dipyridamole 200mg modified-release capsules (A A H Pharmaceuticals Ltd)
+24918111000001100	Cilostazol 50mg tablets (A A H Pharmaceuticals Ltd)
+26779011000001100	Ofcram PR 200mg capsules (Advanz Pharma)
+26779111000001100	Ofcram PR 200mg capsules (Advanz Pharma)
+27841311000001100	Clopidogrel 75mg tablets (Accord-UK Ltd)
+27841311000001100	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+27841411000001100	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+28407011000001100	Clopidogrel 5mg oral powder sachets
+28407211000001100	Clopidogrel 5mg oral powder sachets (Special Order)
+28407311000001100	Clopidogrel 5mg oral powder sachets (Special Order)
+28415011000001100	Clopidogrel 5mg oral powder sachets
+28981811000001100	Cilostazol 100mg tablets (Advanz Pharma)
+29667511000001100	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
+29667611000001100	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
+29674811000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
+29674911000001100	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
+29770811000001100	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+29770911000001100	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+29771211000001100	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+29771311000001100	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+29771411000001100	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+29774911000001100	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
+29775011000001100	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
+29787711000001100	Cilostazol 100mg tablets (Sigma Pharmaceuticals Plc)
+29787911000001100	Cilostazol 50mg tablets (Sigma Pharmaceuticals Plc)
+29829411000001100	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
+29829611000001100	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
+29830011000001100	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
+29830211000001100	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
+29980211000001100	Brilique 90mg tablets (Lexon (UK) Ltd)
+29996011000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996111000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996211000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996311000001100	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+29996711000001100	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+29996811000001100	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+29996911000001100	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+30014111000001100	Cilostazol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+30015311000001100	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+30015411000001100	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+30030111000001100	Cilostazol 100mg tablets (DE Pharmaceuticals)
+30043011000001100	Brilique 90mg tablets (Waymade Healthcare Plc)
+30051411000001100	Dipyridamole 200mg modified-release capsules (DE Pharmaceuticals)
+30138011000001100	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+30138111000001100	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+30138211000001100	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+30270411000001100	Efient 5mg tablets (Waymade Healthcare Plc)
+30784211000001100	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+30791511000001100	Aspirin 25mg capsules
+30791611000001100	Aspirin 25mg capsules (Special Order)
+30791711000001100	Aspirin 25mg capsules (Special Order)
+30798211000001100	Aspirin 25mg capsules
+30874711000001100	Clopidogrel 6mg oral powder sachets
+30874811000001100	Clopidogrel 6mg oral powder sachets (Special Order)
+30874911000001100	Clopidogrel 6mg oral powder sachets (Special Order)
+30919611000001100	Clopidogrel 6mg oral powder sachets
+31135711000001100	Clopidogrel 3.5mg oral powder sachets
+31135811000001100	Clopidogrel 3.5mg oral powder sachets (Special Order)
+31135911000001100	Clopidogrel 3.5mg oral powder sachets (Special Order)
+31140711000001100	Clopidogrel 3.5mg oral powder sachets
+31939811000001100	Dipyridamole 200mg/5ml oral suspension sugar free
+31940111000001100	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
+31940811000001100	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
+31948811000001100	Dipyridamole 200mg/5ml oral suspension sugar free
+32338111000001100	Clopidogrel 6mg/ml oral suspension
+32338411000001100	Clopidogrel 6mg/ml oral suspension (Special Order)
+32338511000001100	Clopidogrel 6mg/ml oral suspension (Special Order)
+32392111000001100	Clopidogrel 6mg/ml oral suspension
+32394411000001100	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+32394511000001100	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+32398611000001100	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
+32398711000001100	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
+32398811000001100	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
+32419011000001100	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+32419111000001100	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+32447311000001100	Ticagrelor 60mg tablets
+32447511000001100	Brilique 60mg tablets (AstraZeneca UK Ltd)
+32447711000001100	Brilique 60mg tablets (AstraZeneca UK Ltd)
+32472211000001100	Ticagrelor 60mg tablets
+32502011000001100	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+32502111000001100	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+32963211000001100	Selexipag 200microgram tablets
+32963411000001100	Uptravi 200microgram tablets (Janssen-Cilag Ltd)
+32964011000001100	Selexipag 400microgram tablets
+32964211000001100	Uptravi 400microgram tablets (Janssen-Cilag Ltd)
+32964411000001100	Selexipag 600microgram tablets
+32964611000001100	Uptravi 600microgram tablets (Janssen-Cilag Ltd)
+32964811000001100	Selexipag 800microgram tablets
+32965011000001100	Uptravi 800microgram tablets (Janssen-Cilag Ltd)
+32965211000001100	Selexipag 1mg tablets
+32965411000001100	Uptravi 1,000microgram tablets (Janssen-Cilag Ltd)
+32965611000001100	Selexipag 1.2mg tablets
+32965811000001100	Uptravi 1,200microgram tablets (Janssen-Cilag Ltd)
+32966011000001100	Selexipag 1.4mg tablets
+32966211000001100	Uptravi 1,400microgram tablets (Janssen-Cilag Ltd)
+32966411000001100	Selexipag 1.6mg tablets
+32966611000001100	Uptravi 1,600microgram tablets (Janssen-Cilag Ltd)
+32968711000001100	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
+32968811000001100	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
+33581711000001100	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
+33589011000001100	Cilostazol 100mg tablets (Viatris UK Healthcare Ltd)
+33589311000001100	Cilostazol 50mg tablets (Viatris UK Healthcare Ltd)
+34175711000001100	Aspirin 75mg tablets (Accord Healthcare Ltd)
+34175811000001100	Aspirin 75mg tablets (Accord Healthcare Ltd)
+34175911000001100	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
+34176011000001100	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
+34609311000001100	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+34609411000001100	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+34671911000001100	Ticagrelor 90mg orodispersible tablets sugar free
+34672011000001100	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd)
+34672111000001100	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd)
+34676711000001100	Clopidogrel 7mg/ml oral suspension
+34676811000001100	Clopidogrel 7mg/ml oral suspension (Special Order)
+34676911000001100	Clopidogrel 7mg/ml oral suspension (Special Order)
+34682711000001100	Clopidogrel 7mg/ml oral suspension
+34702711000001100	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd)
+34702811000001100	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd)
+34702911000001100	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
+34703011000001100	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
+34713411000001100	Ticagrelor 90mg orodispersible tablets sugar free
+35581511000001100	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+35581611000001100	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+35581711000001100	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+35648611000001100	Cilostazol 50mg tablets (Consilient Health Ltd)
+35648811000001100	Cilostazol 100mg tablets (Consilient Health Ltd)
+35841711000001100	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+35841811000001100	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+35891811000001100	Abciximab 10mg/5ml solution for injection vials
+35941811000001100	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd)
+35941911000001100	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd)
+36064311000001100	Eptifibatide 20mg/10ml solution for injection vials
+36064411000001100	Eptifibatide 75mg/100ml solution for infusion vials
+36069811000001100	Dipyridamole 10mg/2ml solution for injection ampoules
+36069911000001100	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+36070011000001100	Dipyridamole 50mg/5ml oral suspension sugar free
+36237511000001100	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+36492711000001100	Aspirin 75mg tablets (Medreich Plc)
+36492811000001100	Aspirin 75mg tablets (Medreich Plc)
+36611211000001100	Aspirin 75mg tablets (Healthcare Pharma Ltd)
+36611311000001100	Aspirin 75mg tablets (Healthcare Pharma Ltd)
+36655711000001100	Prasugrel 10mg tablets (Aristo Pharma Ltd)
+36655811000001100	Prasugrel 10mg tablets (Aristo Pharma Ltd)
+36655911000001100	Prasugrel 5mg tablets (Aristo Pharma Ltd)
+36656011000001100	Prasugrel 5mg tablets (Aristo Pharma Ltd)
+36760011000001100	Prasugrel 5mg tablets (Krka UK Ltd)
+36760011000001100	Prasugrel 5mg tablets (Consilient Health Ltd)
+36760111000001100	Prasugrel 5mg tablets (Consilient Health Ltd)
+36760211000001100	Prasugrel 10mg tablets (Krka UK Ltd)
+36760211000001100	Prasugrel 10mg tablets (Consilient Health Ltd)
+36760311000001100	Prasugrel 10mg tablets (Consilient Health Ltd)
+36778111000001100	Prasugrel 10mg tablets (Teva UK Ltd)
+36778211000001100	Prasugrel 10mg tablets (Teva UK Ltd)
+36780911000001100	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd)
+36781011000001100	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd)
+36781111000001100	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd)
+36781211000001100	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd)
+36824911000001100	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd)
+36825011000001100	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd)
+36825111000001100	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd)
+36825211000001100	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd)
+36825511000001100	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36825611000001100	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+36826611000001100	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+36826711000001100	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+36870711000001100	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+36870811000001100	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+36882311000001100	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd)
+36882411000001100	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd)
+36882611000001100	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd)
+36882711000001100	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd)
+36893911000001100	Clopidogrel 5mg/5ml oral solution
+36894011000001100	Clopidogrel 5mg/5ml oral solution (Special Order)
+36894111000001100	Clopidogrel 5mg/5ml oral solution (Special Order)
+36903411000001100	Clopidogrel 5mg/5ml oral solution
+36916911000001100	Prasugrel 10mg tablets (Sovereign Medical Ltd)
+36917011000001100	Prasugrel 10mg tablets (Sovereign Medical Ltd)
+36917111000001100	Prasugrel 5mg tablets (Sovereign Medical Ltd)
+36917211000001100	Prasugrel 5mg tablets (Sovereign Medical Ltd)
+36927711000001100	Prasugrel 5mg tablets (Accord-UK Ltd)
+36927711000001100	Prasugrel 5mg tablets (Accord Healthcare Ltd)
+36927811000001100	Prasugrel 5mg tablets (Accord Healthcare Ltd)
+36927911000001100	Prasugrel 10mg tablets (Accord-UK Ltd)
+36927911000001100	Prasugrel 10mg tablets (Accord Healthcare Ltd)
+36928011000001100	Prasugrel 10mg tablets (Accord Healthcare Ltd)
+37118511000001100	Prafsia 5mg tablets (Northumbria Pharma Ltd)
+37118611000001100	Prafsia 5mg tablets (Northumbria Pharma Ltd)
+37118811000001100	Prafsia 10mg tablets (Northumbria Pharma Ltd)
+37118911000001100	Prafsia 10mg tablets (Northumbria Pharma Ltd)
+37148811000001100	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+37148911000001100	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+37166511000001100	Cilostazol 50mg tablets (DE Pharmaceuticals)
+37268211000001100	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd)
+37268311000001100	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd)
+37268411000001100	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd)
+37268611000001100	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd)
+37351011000001100	Brilique 90mg tablets (Mawdsley-Brooks & Company Ltd)
+37361711000001100	Pletal 100mg tablets (CST Pharma Ltd)
+37398711000001100	Efient 10mg tablets (Mawdsley-Brooks & Company Ltd)
+37430811000001100	Brilique 90mg tablets (CST Pharma Ltd)
+37434811000001100	Efient 10mg tablets (CST Pharma Ltd)
+37435011000001100	Efient 5mg tablets (CST Pharma Ltd)
+37528411000001100	Plavix 75mg tablets (CST Pharma Ltd)
+37570511000001100	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+37570611000001100	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+37621911000001100	Brilique 90mg tablets (Ethigen Ltd)
+37693411000001100	Plavix 75mg tablets (Ethigen Ltd)
+37743111000001100	Cilostazol 50mg tablets (CST Pharma Ltd)
+37777711000001100	Prasugrel 5mg tablets (DE Pharmaceuticals)
+37777811000001100	Prasugrel 5mg tablets (DE Pharmaceuticals)
+37777911000001100	Prasugrel 10mg tablets (DE Pharmaceuticals)
+37778011000001100	Prasugrel 10mg tablets (DE Pharmaceuticals)
+37927211000001100	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+37927311000001100	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+37927411000001100	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+37980211000001100	Brilique 90mg tablets (Pharmaram Ltd)
+38121211000001100	Brilique 60mg tablets (DE Pharmaceuticals)
+38131611000001100	Efient 10mg tablets (DE Pharmaceuticals)
+38242911000001100	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd)
+38243211000001100	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd)
+38243311000001100	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd)
+38243411000001100	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd)
+38606211000001100	Efient 10mg tablets (Pharmaram Ltd)
+38779911000001100	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+38796611000001100	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
+38796711000001100	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
+38796811000001100	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
+38796911000001100	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
+38797011000001100	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
+38797311000001100	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+38797411000001100	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+38797511000001100	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+38832111000001100	Cilostazol 100mg tablets (Medihealth (Northern) Ltd)
+38832311000001100	Cilostazol 50mg tablets (Medihealth (Northern) Ltd)
+38846011000001100	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
+38846111000001100	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
+38873911000001100	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
+38874011000001100	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
+38874111000001100	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
+38874211000001100	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
+39020811000001100	Dipyridamole 200mg modified-release capsules
+39170011000001100	Prasugrel 10mg tablets (Medihealth (Northern) Ltd)
+39170311000001100	Prasugrel 10mg tablets (Medihealth (Northern) Ltd)
+39170711000001100	Prasugrel 5mg tablets (Medihealth (Northern) Ltd)
+39170911000001100	Prasugrel 5mg tablets (Medihealth (Northern) Ltd)
+39689111000001100	Clopidogrel 75mg tablets
+39702811000001100	Prasugrel 10mg tablets
+39702911000001100	Prasugrel 5mg tablets
+39968911000001100	Brilique 60mg tablets (CST Pharma Ltd)
+40020611000001100	Clopidogrel 75mg tablets (Relonchem Ltd)
+40020711000001100	Clopidogrel 75mg tablets (Relonchem Ltd)
+40314711000001100	Clopidogrel 75mg tablets
+40314811000001100	Clopidogrel 75mg tablets (Medreich Plc)
+40314911000001100	Clopidogrel 75mg tablets (Medreich Plc)
+40315011000001100	Clopidogrel 75mg tablets (Medreich Plc)
+40373311000001100	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+40373411000001100	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+40379311000001100	Brilique 90mg tablets (DE Pharmaceuticals)
+40559511000001100	Clopidogrel 75mg tablets (NorthStar Healthcare Unlimited Company)
+40559711000001100	Clopidogrel 75mg tablets (NorthStar Healthcare Unlimited Company)
+40749011000001100	Brilique 60mg tablets (Pilsco Ltd)
+41508611000001100	Prasugrel 5mg tablets (Somex Pharma)
+41508811000001100	Prasugrel 10mg tablets (Somex Pharma)
+41619511000001100	Prasugrel 5mg tablets (Teva UK Ltd)
+42292911000001100	Cilostazol 100mg tablets
+42293011000001100	Cilostazol 50mg tablets
+42293111000001100	Clopidogrel 300mg tablets
+42293911000001100	Dipyridamole 100mg tablets
+42294011000001100	Dipyridamole 25mg tablets
+42298811000001100	Ticagrelor 90mg tablets
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
