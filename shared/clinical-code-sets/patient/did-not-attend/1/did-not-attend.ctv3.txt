@@ -20,7 +20,7 @@
 9N4F.	Failed encounter - message left on answer machine
 9N4G.	Failed encounter - phone number unobtainable
 9N4Z.	Failed encounter NOS
-9NC3.	Letter sent to patient
+9NC32	Letter sent about missed general practitioner appointment
 9NFC.	Home visit - no reply
 9Q11.	MRC coronary screen DNA
 Xa1kG	Did not attend
