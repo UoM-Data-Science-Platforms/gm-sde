@@ -143,7 +143,6 @@ XaXHm	Did not attend psychotherapy appointment
 XaXNA	Did not attend walk in centre
 XaXpb	Did not attend abdominal aortic aneurysm screening
 XaZ3Z	Letter sent about missed general practitioner appointment
-XE1Of	Auditory/vestibular testing
 XE2NM	Did not attend - no reason
 XE2NM	DNA - Did not attend - no reason
 XM1Tu	Patient defaulted from follow-up

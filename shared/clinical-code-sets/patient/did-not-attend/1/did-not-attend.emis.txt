@@ -119,8 +119,6 @@ EMISNQNE33	Newborn hearg screening prog incomplete as did not attend apptmt
 EMISNQPA169	Patient failed to make appointment
 EMISNQPA173	Partnership appointment cancelled by patient
 EMISNQPA415	Patient unable to attend appointment
-EMISNQPA7	Patient unable to contact OOH doctor
 EMISNQRE146	Referral cancelled by patient
 EMISNQRE322	Return appointment cancelled by patient
-EMISNQUN7	Unsuccessful attempt to contact GP by telephone
 ESCTDI5	Did not wait for treatment
