@@ -1,0 +1,211 @@
+^ESCT1177960	Tertiary hypothyroidism
+^ESCT1182324	Borderline hypothyroidism
+^ESCT1187826	Hypothyroidism in pregnancy, antepartum
+^ESCT1201167	Short stature with delayed bone age due to thyroid hormone metabolism deficiency
+^ESCT1270433	Endemic cretinism
+^ESCT1350364	X-linked central congenital hypothyroidism with late-onset testicular enlargement
+^ESCT1350365	IGSF1 (immunoglobulin superfamily member 1) deficiency syndrome
+^ESCT1350366	X-linked central congenital hypothyroidism with late-onset macroorchidism
+^ESCT1389897	Primary hypothyroidism
+^ESCT1405916	Compensated euthyroidism
+^ESCTAC783842	Acquired central hypothyroidism
+^ESCTAD320086	Adult myxoedema
+^ESCTAD320087	Adult myxedema
+^ESCTAT340708	Athyrotic hypothyroidism sequence
+^ESCTAT386127	Atrophic thyroiditis
+^ESCTAT783051	Athyroidal hypothyroidism with spiky hair and cleft palate syndrome
+^ESCTAU510835	Autoimmune hypothyroidism
+^ESCTAU510836	Autoimmune myxedema
+^ESCTBA783050	Bamforth Lazarus syndrome
+^ESCTCE292753	Central hypothyroidism
+^ESCTCO287563	Congenital thyroid hormone coupling defect
+^ESCTCO331577	Congenital unresponsiveness to thyrotropin
+^ESCTCO354875	Congenital myxedema
+^ESCTCO354876	Congenital myxoedema
+^ESCTCO401283	Congenital absence of thyroid gland
+^ESCTCO401922	Congenital malposition of the thyroid gland
+^ESCTCO401923	Congenital malpositioned thyroid gland
+^ESCTCO401924	Congenital thyroid dystopia
+^ESCTCO488567	Congenital hypothyroidism with ectopic thyroid
+^ESCTCO490435	Congenital iodine deficiency syndrome
+^ESCTCO490436	Congenital goitre
+^ESCTCO490437	Congenital goiter
+^ESCTCO490439	Congenital hypothyroidism not due to iodine deficiency
+^ESCTCO510830	Congenital hypothyroidism without goiter
+^ESCTCO510831	Congenital thyroid hypoplasia
+^ESCTCO510832	Congenital atrophy of thyroid
+^ESCTCO510844	Compensated hypothyroidism
+^ESCTCO510846	Compensated euthyroidism
+^ESCTCO510893	Congenital iodine deficiency syndrome - mixed type
+^ESCTCO510895	Congenital iodine deficiency syndrome - neurological type
+^ESCTCO561408	Congenital hypothyroidism with diffuse goiter
+^ESCTCO773695	Congenital absence of half of thyroid
+^ESCTCO773696	Congenital hemiagenesis of thyroid
+^ESCTCO775962	Congenital hypothyroidism due to transplacental passage of maternal thyroid stimulating hormone binding inhibitory antibody
+^ESCTCO775963	Congenital hypothyroidism due to transplacental passage of maternal TSH-binding inhibitory antibody
+^ESCTCO777617	Congenital hypothyroidism due to absence of thyroid gland
+^ESCTCO783840	Congenital central hypothyroidism
+^ESCTCO783841	Congenital hypothyroidism due to iodine deficiency
+^ESCTCO786930	Congenital central hypothyroidism due to thyrotropin-releasing hormone receptor deficiency
+^ESCTCR489634	Cretin dwarf
+^ESCTDE278374	Deiodinase deficiency
+^ESCTDR811866	Drug-induced hypothyroidism
+^ESCTDY264162	Dyshormonogenetic goitre AND iodide leak
+^ESCTDY264163	Dyshormonogenetic goiter AND iodide leak
+^ESCTDY475794	Dyshormonogenic goiter
+^ESCTEN372039	Endemic cretinism - hypothyroid
+^ESCTEN510894	Endemic cretinism - mixed type
+^ESCTEN510896	Endemic cretinism - neurological type
+^ESCTEN723204	Endemic congenital iodine deficiency syndrome of myxoedematous type
+^ESCTEN723205	Endemic cretinism - myxedematous type
+^ESCTEN723206	Endemic cretinism - myxoedematous type
+^ESCTEN723207	Endemic congenital iodine deficiency syndrome of myxedematous type
+^ESCTEU510847	Euthyroid with thyroid antibodies
+^ESCTFA510874	Familial dyshormonogenetic goitre
+^ESCTFA510875	Familial dyshormonogenetic goiter
+^ESCTFA776887	Familial thyroid dyshormonogenesis
+^ESCTFE490440	Fetal iodine deficiency syndrome
+^ESCTFO490442	Foetal iodine deficiency syndrome
+^ESCTGD278375	GDTH IV
+^ESCTGD285945	GDTH I
+^ESCTGD287564	GDTH III
+^ESCTGD335491	GDTH IIA
+^ESCTGD352644	GDTH V
+^ESCTGD364407	GDTH IIB
+^ESCTGE278373	Genetic defect in thyroid hormonogenesis IV
+^ESCTGE285944	Genetic defect in thyroid hormonogenesis I
+^ESCTGE287566	Genetic defect in thyroid hormonogenesis III
+^ESCTGE335492	Genetic defect in thyroid hormonogenesis II A
+^ESCTGE352643	Genetic defect in thyroid hormonogenesis V
+^ESCTGE364406	Genetic defect in thyroid hormonogenesis II B
+^ESCTGE510889	Generalised thyroid hormone resistance
+^ESCTGE510890	Generalized thyroid hormone resistance
+^ESCTGE510891	General resistance to thyrotropin
+^ESCTGO364405	Goiter-deafness syndrome
+^ESCTGO364408	Goitre-deafness syndrome
+^ESCTGU386129	Gull disease
+^ESCTHO774581	Hoffman syndrome
+^ESCTHY273433	Hypothyroidism following external radiotherapy
+^ESCTHY278372	Hypothyroidism due to iodotyrosine deiodinase defect
+^ESCTHY278378	Hypothyroidism due to deiodase defect
+^ESCTHY283809	Hypothyroid coma
+^ESCTHY285941	Hypothyroidism due to iodide concentration defect
+^ESCTHY285942	Hypothyroidism due to iodide transport defect
+^ESCTHY287567	Hypothyroidism due to coupling defect
+^ESCTHY293335	Hypothyroidism after surgery
+^ESCTHY298672	Hypothyroidism due to infiltrative disease
+^ESCTHY310308	Hypothalamic hypothyroidism
+^ESCTHY310309	Hypothyroidism due to TRH deficiency
+^ESCTHY313464	Hypothyroidism due to fibrous invasive thyroiditis
+^ESCTHY313465	Hypothyroidism due to Riedel's thyroiditis
+^ESCTHY315264	Hypothyroidism following radioiodine therapy
+^ESCTHY315266	Hypothyroidism, postradioiodine therapy
+^ESCTHY315917	Hypothyroid
+^ESCTHY318972	Hypothyroidism due to cystinosis
+^ESCTHY330657	Hypothyroidism due to food stuff
+^ESCTHY330658	Hypothyroidism caused by food stuff
+^ESCTHY331576	Hypothyroidism due to thyroid insensitivity to TSH
+^ESCTHY335488	Hypothyroidism due to iodide organification defect I
+^ESCTHY340709	Hypothyroidism sequence
+^ESCTHY341057	Hypothyroidism due to defect in thyroid hormone synthesis
+^ESCTHY341058	Hypothyroidism due to defective thyroid hormonogenesis
+^ESCTHY348659	Hypothyroidism due to amyloidosis
+^ESCTHY352619	Hypothyroidism due to systemic sclerosis
+^ESCTHY352620	Hypothyroidism due to scleroderma
+^ESCTHY352642	Hypothyroidism due to thyroglobulin biosynthetic defect
+^ESCTHY352645	Hypothyroidism due to thyroglobulin synthesis defect
+^ESCTHY364191	Hypothyroidism due to iodide excess
+^ESCTHY364192	Hypothyroidism caused by iodide excess
+^ESCTHY364403	Hypothyroidism with sensorineural deafness
+^ESCTHY377813	Hypothyroidism due to sarcoidosis
+^ESCTHY384371	Hypothyrotropic hypothyroidism
+^ESCTHY489633	Hypothyroid dwarfism
+^ESCTHY510834	Hypothyroid goiter, acquired
+^ESCTHY510838	Hypothyroidism with positive thyroid antibodies
+^ESCTHY510839	Hypothyroidism due to Hashimoto's thyroiditis
+^ESCTHY510840	Hypothyroidism due to Hashimoto thyroiditis
+^ESCTHY510841	Hypothyroidism due to TSH receptor blocking antibody
+^ESCTHY510842	Hypothyroidism due to thyroid stimulating hormone receptor blocking antibody
+^ESCTHY510876	Hypothyroidism due to iodide trapping defect
+^ESCTHY510877	Hypothyroidism due to iodide organification defect
+^ESCTHY572101	Hypothyroidism - congenital and acquired
+^ESCTHY708432	Hypothyroidism in pregnancy
+^ESCTHY776898	Hypothyroidism due to mutation in transcription factor of pituitary development
+^ESCTHY783052	Hypothyroidism and cleft palate syndrome
+^ESCTHY803212	Hypothyroidism due to thyroiditis
+^ESCTHY811865	Hypothyroidism caused by drug
+^ESCTHY933128	Hypothyroidism in childbirth
+^ESCTID386126	Idiopathic atrophic hypothyroidism
+^ESCTID386128	Idiopathic atrophic myxedema
+^ESCTID386130	Idiopathic atrophic myxoedema
+^ESCTID511124	Idiopathic TSH deficiency
+^ESCTID511125	Idiopathic thyroid stimulating hormone deficiency
+^ESCTID775964	Idiopathic congenital hypothyroidism
+^ESCTIN490441	Infantile hypothyroidism
+^ESCTIN671639	Infant hypothyroidism
+^ESCTIN671640	Infant hypothyroidism to 24 months of age
+^ESCTIN751006	Infant hypothyroidism due to maternal drug
+^ESCTIN751007	Infant hypothyroidism caused by maternal drug
+^ESCTIO278371	Iodotyrosine deiodination defect
+^ESCTIO278376	Iodotyrosine deiodinase deficiency
+^ESCTIO278377	Iodotyrosine dehalogenase deficiency
+^ESCTIO285940	Iodide transport defect
+^ESCTIO285943	Iodine accumulation defect
+^ESCTIO285946	Iodide transport failure
+^ESCTIO285947	Iodine transport defect
+^ESCTIO287562	Iodotyrosyl coupling defect
+^ESCTIO335487	Iodide oxidation defect
+^ESCTIO335489	Iodide organification defect I
+^ESCTIS395088	Isolated thyrotropin deficiency
+^ESCTIS395089	Isolated thyrotropic hormone deficiency
+^ESCTIS395090	Isolated TSH deficiency
+^ESCTJU267042	Juvenile myxoedema
+^ESCTJU267043	Juvenile myxedema
+^ESCTKO774583	Kocher Debre Semelaigne syndrome
+^ESCTMU774582	Muscular pseudohypertrophy and hypothyroidism syndrome
+^ESCTMY257301	Myxoedema heart disease
+^ESCTMY257302	Myxedema heart disease
+^ESCTMY283808	Myxedema coma
+^ESCTMY319547	Myxedema
+^ESCTMY354873	Myxoedematous form of cretinism
+^ESCTMY354874	Myxedematous form of cretinism
+^ESCTNE419385	Neurologic form of cretinism
+^ESCTOB782663	Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome
+^ESCTPE364409	Pendred syndrome
+^ESCTPE776897	Peripheral resistance to thyroid hormone
+^ESCTPI384369	Pituitary hypothyroidism
+^ESCTPI621228	Pituitary thyroid hormone resistance
+^ESCTPO293332	Postoperative hypothyroidism
+^ESCTPO293334	Postsurgical hypothyroidism
+^ESCTPO510849	Post-infectious hypothyroidism
+^ESCTPR419734	Primary hypothyroidism
+^ESCTRA315265	Radioactive iodine-induced hypothyroidism
+^ESCTRE510886	Resistance to thyrotropin
+^ESCTRE510887	Resistance to thyroid stimulating hormone
+^ESCTRE786931	Resistance to thyrotropin-releasing hormone syndrome
+^ESCTSE384367	Secondary hypothyroidism
+^ESCTSE386630	Severe hypothyroidism
+^ESCTSP387890	Sporadic cretinism
+^ESCTTH287565	Thyroid hormone coupling defect
+^ESCTTH331574	Thyroid hormone responsiveness defect
+^ESCTTH331575	Thyroid hormone unresponsiveness
+^ESCTTH335490	Thyroid hormone organification defect II A
+^ESCTTH352641	Thyroglobulin synthesis defect
+^ESCTTH364404	Thyroid hormone organification defect II B
+^ESCTTH510884	Thyroid hormone resistance syndrome
+^ESCTTH510885	Thyroid hormone resistance
+^ESCTTH773694	Thyroid hemiagenesis
+^ESCTTR254547	Transient hypothyroidism
+^ESCTTR279546	Transient decreased production of T>4<
+^ESCTTR318132	Transient decreased production of T>3<
+^ESCTTR558813	Transient hypothyrotropinaemia
+^ESCTTR558814	Transient hypothyrotropinemia
+^ESCTTR786932	TRH (thyrotropin-releasing hormone) resistance syndrome
+^ESCTTS384368	TSH - Thyroid stimulating hormone deficiency
+^ESCTTS510888	TSH resistance
+^ESCTUN331578	Unresponsiveness of thyroid gland to thyrotropin
+EMISNQSE16	Secondary hypothyroidism
+^ESCTEU510870	Euthyroid hypothyroxinaemia
+^ESCTEU510871	Euthyroid hypothyroxinemia
+^ESCTTR558811	Transient hypothyroxinaemia
+^ESCTTR558812	Transient hypothyroxinemia

@@ -1,0 +1,72 @@
+C03..	Congenital hypothyroidism
+C030.	Pendred's syndrome
+C03y.	Other specified congenital hypothyroidism
+C03z.	Congenital hypothyroidism NOS
+C04..	Acquired hypothyroidism
+C040.	Post ablative hypothyroidism
+C041.	Other postablative hypothyroidism
+C0410	Irradiation hypothyroidism
+C041z	Postablative hypothyroidism NOS
+C042.	Iodine hypothyroidism
+C043.	Other iatrogenic hypothyroidism
+C0430	Hypothyroidism resulting from para-aminosalicylic acid
+C0431	Hypothyroidism resulting from phenylbutazone
+C0432	Hypothyroidism resulting from resorcinol
+C043z	Iatrogenic hypothyroidism NOS
+C04y.	Other acquired hypothyroidism
+C04z.	Hypothyroidism NOS
+C061.	Dyshormonogenic goitre
+C06y1	Thyroid atrophy
+C1343	Secondary hypothyroidism
+Cyu10	[X]Other iodine-deficiency related thyroid disorders and allied conditions
+Cyu11	[X]Other specified hypothyroidism
+X005I	Hypothyroid coma
+X005I	Myxoedema coma
+X40H8	Congenital hypothyroidism without goitre
+X40HA	Congenital thyroid hypoplasia
+X40HB	Congenital atrophy of thyroid
+X40HC	Congenital hypothyroidism with ectopic thyroid
+X40HD	Hypothyroid goitre, acquired
+X40HE	Autoimmune hypothyroidism
+X40HF	Hypothyroidism due to Hashimoto's thyroiditis
+X40HG	Hypothyroidism due to TSH receptor blocking antibody
+X40HH	Borderline hypothyroidism
+X40HI	Compensated hypothyroidism
+X40HJ	Compensated euthyroidism
+X40HK	Euthyroid with thyroid antibodies
+X40HL	Iatrogenic hypothyroidism
+X40HM	Postablative hypothyroidism
+X40HN	Radioactive iodine-induced hypothyroidism
+X40HO	Drug-induced hypothyroidism
+X40HP	Post-infectious hypothyroidism
+X40Hu	Familial dyshormonogenetic goitre
+X40Hv	Hypothyroidism due to iodide trapping defect
+X40Hw	Hypothyroidism due to iodide organification defect
+X40Hx	Hypothyroidism due to coupling defect
+X40Hy	Hypothyroidism due to deiodase defect
+X40Hz	Hypothyroidism due to thyroglobulin synthesis defect
+X40I2	Thyroid hormone resistance syndrome
+X40I3	Generalised thyroid hormone resistance
+X40I4	Pituitary thyroid hormone resistance
+X40I5	Iodine deficiency syndrome
+X40I6	Congenital iodine deficiency syndrome
+X40I7	Congenital iodine deficiency hypothyroidism
+X40I8	Congenital iodine deficiency syndrome - myxoedematous type
+X40I9	Endemic cretinism - mixed type
+X40IA	Congenital iodine deficiency syndrome - neurological type
+X40IB	Subclinical iodine deficiency hypothyroidism
+X40IQ	Hypothyroid
+X40LB	Isolated TSH deficiency
+X40LC	Idiopathic TSH deficiency
+Xa09x	Transient hypothyrotropinaemia
+Xa0l7	Congenital hypothyroidism with diffuse goitre
+Xa3ec	Hypothyroidism - congenital and acquired
+Xa3ed	Acquired hypothyroidism NOS
+XaJ9F	Subclinical hypothyroidism
+XE107	Congenital hypothyroidism NOS
+XE108	Acquired hypothyroidism
+XE109	Post-surgical hypothyroidism
+XE10A	Hypothyroidism NOS
+XE124	Hypothyroidism
+X40Hq	Euthyroid hypothyroxinaemia
+Xa09w	Transient hypothyroxinaemia
