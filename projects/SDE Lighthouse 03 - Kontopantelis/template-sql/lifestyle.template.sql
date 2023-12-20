@@ -18,8 +18,6 @@ SET @EndDate = '2023-10-31';
 
 
 --bring together for final output
---patients in main cohort
-
 
 IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
 SELECT 
