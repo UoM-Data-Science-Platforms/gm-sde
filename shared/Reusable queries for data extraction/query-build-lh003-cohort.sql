@@ -15,18 +15,15 @@
 
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-year-of-birth.sql
---> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-imd.sql
 
 --> CODESET dementia:1 
 
 -- table of dementia coding events
 
-IF OBJECT_ID('tempdb..#DementiaCodes') IS NOT NULL DROP #DementiaCodes;
+IF OBJECT_ID('tempdb..#DementiaCodes') IS NOT NULL DROP TABLE #DementiaCodes;
 SELECT FK_Patient_Link_ID AS PatientId, EventDate, COUNT(*) AS NumberOfDementiaCodes
 INTO #DementiaCodes
-FROM [RLS].[vw_GP_Events]
+FROM SharedCare.GP_Events
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dementia' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dementia' AND Version = 1)
@@ -35,23 +32,17 @@ GROUP BY FK_Patient_Link_ID, EventDate
 
 -- create cohort of patients with a dementia diagnosis in the study period
 
-IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP #Cohort;
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
 	 p.FK_Patient_Link_ID
 	,yob.YearOfBirth
-	,sex.Sex
-	,lsoa.LSOA_Code
-	,p.EthnicMainGroup ----- CHANGE TO MORE SPECIFIC ETHNICITY ?
-	,imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived
+	,p.EthnicGroupDescription 
 	,p.DeathDate
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE p.FK_Patient_Link_ID IN 
-	(SELECT DISTINCT FK_Patient_Link_ID
+	(SELECT DISTINCT PatientId
 	 FROM #DementiaCodes
 	 WHERE NumberOfDementiaCodes >= 1)
 AND YEAR(@StartDate) - YearOfBirth > 18
