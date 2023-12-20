@@ -1,5 +1,5 @@
 --┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 03 - Kontopantelis  │
+--│ SDELS03 - Kontopantelis - Demographics   │
 --└──────────────────────────────────────────┘
 
 --Just want the output, not the messages
@@ -7,18 +7,31 @@ SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2006-01-01'; -- CHECK THIS AND  - CURRENTLY EXCLUDING ANY PATIENTS THAT WEREN'T 18 IN 2006
-SET @EndDate = '2022-12-31';
+SET @StartDate = '2006-01-01'; 
+SET @EndDate = '2023-10-31';
 
 --> EXECUTE query-build-lh003-cohort.sql
+--> EXECUTE query-patient-sex.sql
+--> EXECUTE query-patient-lsoa.sql
+--> EXECUTE query-patient-imd.sql
+
+-- Date of first dementia diagnosis
+SELECT PatientId, MIN(EventDate) as FirstDiagnosis
+INTO #FirstDementiaDiagnosis
+FROM #DementiaCodes 
+GROUP BY PatientId
 
 --bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
+SELECT	 PatientId = m.FK_Patient_Link_ID
 		,YearOfBirth
 		,Sex
 		,LSOA_Code
-		,EthnicMainGroup ----- CHANGE TO MORE SPECIFIC ETHNICITY ?
+		,EthnicGroupDescription
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate
+		,DeathDate = CONVERT(DATE,DeathDate)
+		,FirstDementiaDiagnosis = CONVERT(DATE,fdd.FirstDiagnosis)
 FROM #Cohort m
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #FirstDementiaDiagnosis fdd ON fdd.PatientId = m.FK_Patient_Link_ID
