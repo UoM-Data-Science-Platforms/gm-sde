@@ -28,7 +28,6 @@ SET @EndDate = '2023-08-31';
 /* antihypertensives */
 --> CODESET calcium-channel-blockers:1 beta-blockers:1
 
-
 --> CODESET statins:1 ace-inhibitor:1 diuretic:1
 --> CODESET angiotensin-receptor-blockers:1 acetylcholinesterase-inhibitors:1 
 
@@ -46,17 +45,32 @@ IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
+		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END,
+		Dosage,
+		Quantity
 INTO #medications_rx
 FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
-WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 	AND 
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
+		(m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
 		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
+		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1))
 
+-- Dosage information *might* contain sensitive information, so let's 
+-- restrict to dosage instructions that occur >= 50 times
+IF OBJECT_ID('tempdb..#SafeDosages') IS NOT NULL DROP TABLE #SafeDosages;
+SELECT Dosage INTO #SafeDosages FROM #medications_rx
+group by Dosage
+having count(*) >= 50;
+
+
+select FK_Patient_Link_ID,
+		PrescriptionDate,
+		Concept,
+		Dosage = LEFT(REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' '),50),
+		Quantity
+from #medications_rx
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage

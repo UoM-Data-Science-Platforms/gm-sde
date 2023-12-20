@@ -1,7 +1,7 @@
 --+--------------------------------------------------------------------------------+
 --¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
--- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BRTH FOR THE TABLE BELOW. THANKS.
+-- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BIRTH FOR THE TABLE BELOW. THANKS.
 -- !!! NEED TO DO: GO THROUGH SURG TO CHECK IF WE CAN PROVIDE ALL THE INFORMATION BELOW OR NEED TO REDUCE SOME COLUMNS FOR PROTECTING PID.
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -30,6 +30,7 @@ SET NOCOUNT ON;
 --> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-lsoa.sql
+--> EXECUTE query-patient-practice-and-ccg.sql
 --> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:SharedCare.GP_Events start-date:1800-01-01 end-date:2013-09-01
 
 
@@ -67,8 +68,6 @@ SELECT
   LSOA_Code AS LSOA,
   --GPPracticeCode,
   RandomPracticeID,
-  StartDate AS RegistrationGPDate, -- these dates aren't reliable
-  EndDate AS DeregistrationGPDate, -- these dates aren't reliable
   NumberGPEncounterBeforeSept2013
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -76,6 +75,6 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #GPEncounterCount c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientGPHistory gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #RandomisePractice gpr ON GP.GPPracticeCode = gpr.GPPracticeCode
+LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
+LEFT OUTER JOIN #RandomisePractice gpr ON gp.GPPracticeCode = gpr.GPPracticeCode
 LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID;

@@ -37,7 +37,7 @@ SET @EndDate = '2023-09-30';
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries 
+-- Create table #Patients for the reusable queries =========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
 FROM [SharedCare].[Patient_Link]
@@ -242,7 +242,7 @@ DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
 
--- Merge information
+-- Merge information========================================================================================================================================================
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
@@ -254,8 +254,7 @@ LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
-
--- Reduce #Patients table to just the cohort patients
+-- Reduce #Patients table to just the cohort patients========================================================================================================================
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId

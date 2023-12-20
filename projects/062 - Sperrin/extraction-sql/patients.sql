@@ -1,7 +1,7 @@
 --+--------------------------------------------------------------------------------+
 --¦ Patient information                                                            ¦
 --+--------------------------------------------------------------------------------+
--- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BRTH FOR THE TABLE BELOW. THANKS.
+-- !!! NEED TO DO: WHEN WE HAVE WEEK OF BIRTH, PLEASE CHANGE THE QUERY-BUILD-RQ062-COHORT.SQL TO UPDATE THE COHORT. ALSO ADD WEEK OF BIRTH FOR THE TABLE BELOW. THANKS.
 -- !!! NEED TO DO: GO THROUGH SURG TO CHECK IF WE CAN PROVIDE ALL THE INFORMATION BELOW OR NEED TO REDUCE SOME COLUMNS FOR PROTECTING PID.
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -40,7 +40,7 @@ SET NOCOUNT ON;
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries 
+-- Create table #Patients for the reusable queries =========================================================================================================================
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
 FROM [SharedCare].[Patient_Link]
@@ -245,7 +245,7 @@ DROP TABLE #AllPatientYearAndQuarterMonthOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
 
--- Merge information
+-- Merge information========================================================================================================================================================
 IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
@@ -257,8 +257,7 @@ LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
-
--- Reduce #Patients table to just the cohort patients
+-- Reduce #Patients table to just the cohort patients========================================================================================================================
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
@@ -513,6 +512,7 @@ HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
 DROP TABLE #AllPatientLSOAs;
 DROP TABLE #UnmatchedLsoaPatients;
+-- >>> Ignoring following query as already injected: query-patient-practice-and-ccg.sql
 --┌───────────────────────┐
 --│ Patient GP encounters │
 --└───────────────────────┘
@@ -661,8 +661,6 @@ SELECT
   LSOA_Code AS LSOA,
   --GPPracticeCode,
   RandomPracticeID,
-  StartDate AS RegistrationGPDate, -- these dates aren't reliable
-  EndDate AS DeregistrationGPDate, -- these dates aren't reliable
   NumberGPEncounterBeforeSept2013
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -670,6 +668,6 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #GPEncounterCount c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientGPHistory gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #RandomisePractice gpr ON GP.GPPracticeCode = gpr.GPPracticeCode
+LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
+LEFT OUTER JOIN #RandomisePractice gpr ON gp.GPPracticeCode = gpr.GPPracticeCode
 LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID;

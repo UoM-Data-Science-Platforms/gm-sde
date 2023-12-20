@@ -345,12 +345,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>breast-cancer-screening v1</li>
 <li>colorectal-cancer-screening v1</li>
 <li>respiratory-tract-infection v1</li>
+<li>calcium-channel-blockers v1</li>
+<li>beta-blockers v1</li>
 <li>statins v1</li>
 <li>ace-inhibitor v1</li>
 <li>diuretic v1</li>
 <li>angiotensin-receptor-blockers v1</li>
-<li>alzheimers-meds v1</li>
-<li>calcium-channel-blockers v1</li>
+<li>acetylcholinesterase-inhibitors v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Shingles codes</h3>
@@ -514,10 +515,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/1">https://github.com/rw251/.../conditions/coronary-heart-disease/1</a></p>
 <h3>Stroke</h3>
-<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.</p>
+<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes. Does not include codes for types of vascular dementia such as multi infarct dementia, which are usually caused by a series of mini strokes. Excludes &quot;history of&quot; codes.</p>
+<p>Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.91% - 1.45%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2023-11-16</strong>: Prevalence now 1.2% - 1.5% when examining codes</em></p>
 <table>
 <thead>
 <tr>
@@ -571,8 +574,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">3098 (0.933%)</td>
 <td style="text-align:right">1699 (0.512%)</td>
 </tr>
+<tr>
+<td>2023-11-16</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">33303 (1.34%)</td>
+<td style="text-align:right">30532 (1.23%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">3195 (1.59%)</td>
+<td style="text-align:right">2963 (1.47%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">4302 (1.29%)</td>
+<td style="text-align:right">3924 (1.18%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-16</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
 <h3>Dementia</h3>
 <p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
@@ -1285,6 +1313,85 @@ and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/respiratory-tract-infection/1">https://github.com/rw251/.../conditions/respiratory-tract-infection/1</a></p>
+<h3>Calcium Channel Blockers</h3>
+<p>Code set for calcium channel blockers. This code set was created from BNF codes (mapped to SNOMED) starting with 020602.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.7% - 13.3%</code> suggests that this code set is well defined. Potential over-reporting from TPP.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-13</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">268522 (10.8%)</td>
+<td style="text-align:right">268563 (10.8%)</td>
+</tr>
+<tr>
+<td>2023-11-13</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">26770 (13.3%)</td>
+<td style="text-align:right">26773 (13.3%)</td>
+</tr>
+<tr>
+<td>2023-11-13</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">35632 (10.7%)</td>
+<td style="text-align:right">35635 (10.7%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/calcium-channel-blockers/1">https://github.com/rw251/.../medications/calcium-channel-blockers/1</a></p>
+<h3>Beta blockers</h3>
+<p>This code set has been autogenerated by identifying the relevant codes in the BNF files (starting with 0204). The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.01% - 0.02%</code> suggests that this code set is well defined.</p>
+<p>update:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-06-28</td>
+<td>EMIS</td>
+<td>2664831</td>
+<td style="text-align:right">199 (0.01%)</td>
+<td style="text-align:right">204 (0.01%)</td>
+</tr>
+<tr>
+<td>2022-06-28</td>
+<td>TPP</td>
+<td>212907</td>
+<td style="text-align:right">19 (0.01%)</td>
+<td style="text-align:right">18 (0.01%)</td>
+</tr>
+<tr>
+<td>2022-06-28</td>
+<td>Vision</td>
+<td>343146</td>
+<td style="text-align:right">67 (0.02%)</td>
+<td style="text-align:right">67 (0.02%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/beta-blockers/1">https://github.com/rw251/.../medications/beta-blockers/1</a></p>
 <h3>Statins</h3>
 <p>This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list</p>
 <h4>Prevalence log</h4>
@@ -1475,18 +1582,18 @@ and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-
 <li>Find_missing_codes last run 2023-10-27</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1">https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1</a></p>
-<h3>Medications for Alzheimers</h3>
-<p>Codes developed from BNF codes (mapped to SNOMED) with descriptions containing the following terms:</p>
+<h3>Acetylcholinesterase inhibitors - medications for Alzheimers/Dementia</h3>
+<p>Codes developed from BNF codes starting with 0411</p>
+<p>Getset was also used to identify codes, using search terms:</p>
 <ul>
 <li>galantamine</li>
 <li>rivastigmine</li>
 <li>donepezil</li>
 <li>memantine</li>
 </ul>
-<p>Getset was also used to identify codes, using the search terms above.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.</p>
-<p>Here is a log for this code set. The prevalence range <code>%0.19 - 0.54%</code> suggests overreporting from TPP and a potential lack of codes across all systems.</p>
+<p>Here is a log for this code set. The prevalence range <code>%0.42 - 0.59%</code> suggests this code set is well defined. Large difference between those identified by code and those by ID - so use code in scripts.</p>
 <table>
 <thead>
 <tr>
@@ -1499,28 +1606,28 @@ and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-
 </thead>
 <tbody>
 <tr>
-<td>2023-11-10</td>
+<td>2023-11-24</td>
 <td>EMIS</td>
-<td>2482563</td>
-<td style="text-align:right">4549 (0.183%)</td>
-<td style="text-align:right">5018 (0.202%)</td>
+<td>2513488</td>
+<td style="text-align:right">5971 (0.238%)</td>
+<td style="text-align:right">10668 (0.424%)</td>
 </tr>
 <tr>
-<td>2023-11-10</td>
+<td>2023-11-24</td>
 <td>TPP</td>
-<td>201030</td>
-<td style="text-align:right">1087 (0.541%)</td>
-<td style="text-align:right">1088 (0.541%)</td>
+<td>201173</td>
+<td style="text-align:right">1155 (0.574%)</td>
+<td style="text-align:right">1186 (0.59%)</td>
 </tr>
 <tr>
-<td>2023-11-10</td>
+<td>2023-11-24</td>
 <td>Vision</td>
-<td>333490</td>
-<td style="text-align:right">528 (0.158%)</td>
-<td style="text-align:right">626 (0.188%)</td>
+<td>333676</td>
+<td style="text-align:right">687 (0.206%)</td>
+<td style="text-align:right">1587 (0.476%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/alzheimers-meds/1">https://github.com/rw251/.../medications/alzheimers-meds/1</a></td>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/acetylcholinesterase-inhibitors/1">https://github.com/rw251/.../medications/acetylcholinesterase-inhibitors/1</a></td>
 <td></td>
 <td></td>
 <td style="text-align:right"></td>
@@ -1528,44 +1635,5 @@ and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-
 </tr>
 </tbody>
 </table>
-<h3>Calcium Channel Blockers</h3>
-<p>Code set for calcium channel blockers. This code set was created from BNF codes (mapped to SNOMED) starting with 020602.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.7% - 13.3%</code> suggests that this code set is well defined. Potential over-reporting from TPP.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2023-11-13</td>
-<td>EMIS</td>
-<td>2482563</td>
-<td style="text-align:right">268522 (10.8%)</td>
-<td style="text-align:right">268563 (10.8%)</td>
-</tr>
-<tr>
-<td>2023-11-13</td>
-<td>TPP</td>
-<td>201030</td>
-<td style="text-align:right">26770 (13.3%)</td>
-<td style="text-align:right">26773 (13.3%)</td>
-</tr>
-<tr>
-<td>2023-11-13</td>
-<td>Vision</td>
-<td>333490</td>
-<td style="text-align:right">35632 (10.7%)</td>
-<td style="text-align:right">35635 (10.7%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/calcium-channel-blockers/1">https://github.com/rw251/.../medications/calcium-channel-blockers/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/062%20-%20Sperrin/clinical-code-sets.csv">https://github.com/rw251/.../062 - Sperrin/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
