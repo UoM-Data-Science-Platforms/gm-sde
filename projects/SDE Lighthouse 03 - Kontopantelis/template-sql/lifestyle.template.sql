@@ -14,7 +14,7 @@ SET @EndDate = '2023-10-31';
 
 --> CODESET bmi:2 alcohol-weekly-intake:1 alcohol-heavy-drinker:1 
 --> CODESET alcohol-light-drinker:1 alcohol-moderate-drinker:1 alcohol-non-drinker:1
---> CODESET smoking-status:1 smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
+--> CODESET smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
 
 
 --bring together for final output

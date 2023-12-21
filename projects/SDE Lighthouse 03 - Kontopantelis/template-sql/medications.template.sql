@@ -33,7 +33,9 @@ SELECT
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		[concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END,
-		[description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
+		[description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END,
+		Dosage,
+		Quantity
 INTO #medications
 FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
@@ -46,13 +48,23 @@ AND (
 );
 
 
+-- Dosage information *might* contain sensitive information, so let's 
+-- restrict to dosage instructions that occur >= 50 times
+IF OBJECT_ID('tempdb..#SafeDosages') IS NOT NULL DROP TABLE #SafeDosages;
+SELECT Dosage INTO #SafeDosages FROM #medications
+group by Dosage
+having count(*) >= 50;
+
+
+
 -- CREATE TABLE OF ALL ANTIPSYCHOTIC RX FOR THE DEMENTIA COHORT, WITH THE MEDICATION TYPE AND PRESCRIPTION DATE
 
 SELECT 
 	PatientId = FK_Patient_Link_ID,
 	PrescriptionDate,
-	concept
-FROM #medications 
-
-
-
+	concept,
+	Description = REPLACE(Description, ',',' '),
+	Dosage = LEFT(REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' '),50),
+	Quantity
+FROM #medications m
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
