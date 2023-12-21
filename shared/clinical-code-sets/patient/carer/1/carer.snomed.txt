@@ -27,3 +27,8 @@
 413764007	Caregiver of a person with sensory impairment
 413765008	Caregiver of a person with substance misuse
 824401000000105	Carer of person with dementia
+1186934000	Caregiver of dependent with intellectual disability (finding)
+1364141000000107	Unpaid caregiver (person)
+794111000000107	Receiving carer allowance (finding)
+1252665000	Looks after chronically ill partner (finding)
+1366321000000106	Has Carer Contingency Plan (finding)
