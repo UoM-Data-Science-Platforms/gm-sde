@@ -26,7 +26,7 @@ SET @EndDate = '2023-10-31';
 
 --> CODESET antipsychotics:1 acetylcholinesterase-inhibitors:1 anticholinergic-medications:1 drowsy-medications:3
 
--- DEMENTIA PATIENTS WITH RX OF PSYCHOTROPIC MEDS SINCE 31.07.19
+-- DEMENTIA PATIENTS WITH RX OF CERTAIN MEDS SINCE 31.07.19
 
 IF OBJECT_ID('tempdb..#medications') IS NOT NULL DROP TABLE #medications;
 SELECT 
