@@ -75,3 +75,40 @@ do1A.	DIAZEPAM 2.5mg/1.25mL RecTubes
 do1t.	DIAZEPAM 2.5mg/1.25mL rectal solution
 do1y.	DIAZEPAM 10mg/2.5mL rectal solution
 o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+c731.	*ZADITEN 1mg capsules
+c732.	ZADITEN 1mg tablets
+c733.	ZADITEN 1mg/5mL elixir
+c822.	OPTIMINE 500micrograms/5mL syrup
+c82z.	AZATADINE MALEATE 500micrograms/5mL syrup
+c83y.	BROMPHENIRAMINE 2mg/5mL elixir
+c84A.	ALLERIEF 2mg/5mL sugar free oral solution
+c84w.	CHLORPHENAMINE MALEATE 2mg/5mL sugar free syrup
+c84y.	CHLORPHENAMINE MALEATE 2mg/5mL syrup
+c851.	TAVEGIL 1mg tablets
+c852.	TAVEGIL 500micrograms/5mL elixir
+c888.	*NIGHTCALM 25mg tablets
+c88B.	DREEMON 25mg tablets
+c8iy.	PROMETHAZINE 25mg/1mL injection
+c8ky.	ALIMEMAZINE 7.5mg/5mL syrup
+ci1e.	HAYMINE m/r tablets
+d152.	DALMANE 30mg capsules
+d18c.	*SOMNITE 2.5mg/5mL mixture
+d1ao.	TEMAZEPAM 10mg/5mL sugar free oral solution
+d1f1.	STILNOCT 5mg tablets
+d1f4.	STILNOCT 10mg tablets
+d21d.	DIAZEMULS 10mg/2mL ampoules
+d21G.	*VALCLAIR 10mg suppositories
+d21J.	DIAZEPAM 10mg/5mL suspension
+d21o.	TENSIUM 10mg tablets
+d221.	XANAX 250micrograms tablets
+d222.	XANAX 500micrograms tablets
+d28z.	HYDROXYZINE HCL 10mg/5mL syrup
+d2a7.	ATIVAN 4mg/1mL injection
+d2az.	LORAZEPAM 4mg/1mL injection
+dn4x.	CLONAZEPAM 2mg/5mL sugar free oral solution
+o57r.	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o57s.	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57u.	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
+o57w.	MIDAZOLAM 50mg/50mL injection
+o57y.	MIDAZOLAM 10mg/5mL injection
+o57z.	MIDAZOLAM 10mg/2mL injection

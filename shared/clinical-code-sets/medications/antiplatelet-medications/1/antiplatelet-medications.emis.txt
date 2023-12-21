@@ -999,3 +999,164 @@ TRM/122219NEMIS	Trolactin  M/R capsules  200 mg
 ^ESCTPR640134	Product containing cilostazol 50 mg/1 each oral tablet
 CITA13253NEMIS	Cilostazol  Tablets  100 mg
 CITA21757NEMIS	Cilostazol  Tablets  50 mg
+^ESCT1181956	Product containing only aspirin 300 mg/1 each oral tablet
+^ESCT1186919	Aspirin 300mg gastro-resistant tablets (Mylan)
+^ESCT1214703	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1214704	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1223673	Aspirin 300 mg gastro-resistant oral tablet
+^ESCT1223674	Product containing precisely aspirin 300 milligram/1 each gastro-resistant oral tablet
+^ESCT1223675	Aspirin 300 mg rectal suppository
+^ESCT1223676	Product containing precisely aspirin 300 milligram/1 each conventional release rectal suppository
+^ESCT1223677	Aspirin 150 mg rectal suppository
+^ESCT1223678	Product containing precisely aspirin 150 milligram/1 each conventional release rectal suppository
+^ESCT1225364	Product containing precisely aspirin 300 milligram/1 each conventional release oral tablet
+^ESCT1250353	Aspirin 300mg gastro-resistant tablets (Advanz Pharma)
+^ESCT1374784	Aspirin 300mg dispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1374786	Aspirin 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374793	Aspirin 300mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1409606	Aspirin 300mg dispersible tablets (Accord Healthcare Ltd)
+^ESCT1409688	Aspirin 300mg tablets (Accord Healthcare Ltd)
+^ESCT1424795	Aspirin 300mg dispersible tablets
+^ESCT1425613	Aspirin 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425804	Aspirin 300mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425872	Aspirin 300mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1438065	Aspirin 300mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCTAL873689	Alka Rapid Crystals 500mg granules sachets (Bayer Plc)
+^ESCTAS1004660	Aspirin 300mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1006288	Aspirin 300mg caplets (The Boots Company Plc)
+^ESCTAS1006321	Aspirin 300mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS1014725	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1035400	Aspirin 100mg capsules
+^ESCTAS1035403	Aspirin 100mg capsules (Special Order)
+^ESCTAS1041413	Aspirin 300mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTAS1041418	Aspirin 300mg tablets (Waymade Healthcare Plc)
+^ESCTAS1041425	Aspirin 300mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTAS1049085	Aspirin 300mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTAS1049090	Aspirin 300mg tablets (DE Pharmaceuticals)
+^ESCTAS1051086	Aspirin 150mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1051088	Aspirin 300mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1067662	Aspirin 300mg tablets (Numark Ltd)
+^ESCTAS1092420	Aspirin 300mg caplets (Wockhardt UK Ltd)
+^ESCTAS1116880	Aspirin 300mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1118910	Aspirin 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118916	Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS607672	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS607674	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS609985	Aspirin 300mg gastro-resistant tablets
+^ESCTAS609986	Aspirin 300mg e/c tablet
+^ESCTAS609988	Aspirin 300mg suppositories
+^ESCTAS609989	Aspirin 300mg suppository
+^ESCTAS609990	Aspirin 150mg suppositories
+^ESCTAS609991	Aspirin 150mg suppository
+^ESCTAS614950	Aspirin 300mg tablets
+^ESCTAS614952	Aspirin 300 mg oral tablet
+^ESCTAS614953	Aspirin 300mg dispersible tablets
+^ESCTAS614954	Aspirin 300mg dispersible tablet
+^ESCTAS802093	Aspirin 300mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTAS806736	Aspirin 300mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS809943	Aspirin 300mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS810040	Aspirin 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS814876	Aspirin 300mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS816283	Aspirin 300mg dispersible tablets (Actavis UK Ltd)
+^ESCTAS816399	Aspirin 300mg suppositories (The Boots Company Plc)
+^ESCTAS818750	Aspirin 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820168	Aspirin 300mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTAS820180	Aspirin 150mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820406	Aspirin 300mg tablets (Actavis UK Ltd)
+^ESCTAS820509	Aspirin 300mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTAS821074	Aspirin 300mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS821167	Aspirin 150mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS821290	Aspirin 300mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS821618	Aspirin 300mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS821805	Aspirin 150mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS822408	Aspirin 300mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS824591	Aspirin 300mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS825694	Aspirin 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS828296	Aspirin 300mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS830701	Aspirin 300mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+^ESCTAS831338	Aspirin 300mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS831458	Aspirin 300mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS871669	Aspro Clear 300mg effervescent tablets (Bayer Plc)
+^ESCTAS871684	Aspirin 500mg effervescent tablets sugar free
+^ESCTAS871769	Aspirin 300mg effervescent tablets sugar free
+^ESCTAS873746	Aspirin 500mg granules sachets sugar free
+^ESCTAS874020	Aspirin 300mg orodispersible tablets sugar free
+^ESCTAS874741	Aspirin 300mg tablets (Vantage)
+^ESCTAS877577	Asasantin Retard capsules (Waymade Healthcare Plc)
+^ESCTAS880016	Asasantin Retard capsules (Dowelhurst Ltd)
+^ESCTAS902114	Aspirin 300mg tablets (Lloyds Pharmacy Ltd)
+^ESCTAS904481	Aspirin 300mg/5ml oral solution (Special Order)
+^ESCTAS904487	Aspirin 300mg/5ml oral suspension (Special Order)
+^ESCTAS904763	Aspirin 300mg/5ml oral solution
+^ESCTAS904764	Aspirin 300mg/5ml oral suspension
+^ESCTAS923540	Aspirin 300mg dispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923848	Aspirin 300mg dispersible tablets (Lloyds Pharmacy Ltd)
+^ESCTAS927772	Aspirin 300mg gastro-resistant tablets (Focus Pharmaceuticals Ltd)
+^ESCTAS929400	Aspirin 300mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTAS933268	Aspirin 300mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTAS959330	Aspirin 300mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959335	Aspirin 75mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959923	Aspirin 300mg tablets (Dowelhurst Ltd)
+^ESCTAS959928	Aspirin 75mg dispersible tablets (Dowelhurst Ltd)
+^ESCTAS961918	Aspirin 300mg tablets (Wockhardt UK Ltd)
+^ESCTAS962452	Aspirin 300mg gastro-resistant tablets (Mylan Ltd)
+^ESCTAS963910	Aspirin 300mg dispersible tablets (DE Pharmaceuticals)
+^ESCTAS964649	Aspirin 300mg dispersible tablets (Numark Ltd)
+^ESCTAS978160	Aspirin 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS978181	Aspirin 300mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS987095	Aspirin 300mg tablets (Bristol Laboratories Ltd)
+^ESCTBO1128278	Boots Aspirin 300mg dispersible tablets (The Boots Company Plc)
+^ESCTCA831814	Caprin 300mg gastro-resistant tablets (Pinewood Healthcare)
+^ESCTDI1100041	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDI1119163	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119348	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (DE Pharmaceuticals)
+^ESCTDI608121	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCTDI608122	Dipyridamole+aspirin 200mg/25mg m/r capsule
+^ESCTDI819906	Disprin 300mg dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI873813	Disprin Direct 300mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTIM862063	Imazin XL tablets (Napp Pharmaceuticals Ltd)
+^ESCTIM862069	Imazin XL forte tablets (Napp Pharmaceuticals Ltd)
+^ESCTIS607673	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+^ESCTIS607675	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+^ESCTMA871665	Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc)
+^ESCTNU805251	Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTPR614951	Product containing aspirin 300 mg/1 each oral tablet
+ASDI223	Aspirin  Dispersible tablets  300 mg
+ASDI33798MGEMIS	Aspirin  Dispersible tablets  300 mg (Aspar)
+ASDI33799MGEMIS	Aspirin  Dispersible tablets  300 mg (Alpharma)
+ASDI33800MGEMIS	Aspirin  Dispersible tablets  300 mg (Kent Pharm)
+ASDI33801MGEMIS	Aspirin  Dispersible tablets  300 mg (A.A.H. Pharm)
+ASDI33802MGEMIS	Aspirin  Dispersible tablets  300 mg (Unichem)
+ASE/24522EMIS	Aspirin  E/c tablets  300 mg
+ASE/33822MGEMIS	Aspirin  E/c tablets  300 mg (The Boots Company)
+ASE/33823MGEMIS	Aspirin  E/c tablets  300 mg (A.A.H. Pharm)
+ASE/33824MGEMIS	Aspirin  E/c tablets  300 mg (Sandoz)
+ASE/33825MGEMIS	Aspirin  E/c tablets  300 mg (Unichem)
+ASE/33826MGEMIS	Aspirin  E/c tablets  300 mg (Kent Pharm)
+ASEF29054NEMIS	Aspro Clear  Effervescent tablets  300 mg
+ASEF29056NEMIS	Aspro Clear Maximum Strength  Effervescent tablets  500 mg
+ASSU3023NEMIS	Aspirin  Suppositories  300 mg
+ASSU3024NEMIS	Aspirin  Suppositories  150 mg
+ASSU37686MGEMIS	Aspirin  Suppositories  300 mg (A.A.H. Pharm)
+ASSU37687MGEMIS	Aspirin  Suppositories  300 mg (The Boots Company)
+ASSU37688MGEMIS	Aspirin  Suppositories  300 mg (Unichem)
+ASSU37689MGEMIS	Aspirin  Suppositories  300 mg (Martindale)
+ASSU37690MGEMIS	Aspirin  Suppositories  150 mg (Unichem)
+ASSU37691MGEMIS	Aspirin  Suppositories  150 mg (Martindale)
+ASSU37692MGEMIS	Aspirin  Suppositories  150 mg (A.A.H. Pharm)
+ASTA10221BRIDL	Aspirin E/C  Tablets  300 mg
+ASTA225	Aspirin  Tablets  300 mg
+ASTA33850MGEMIS	Aspirin  Tablets  300 mg (Kent Pharm)
+ASTA33851MGEMIS	Aspirin  Tablets  300 mg (Unichem)
+ASTA33852MGEMIS	Aspirin  Tablets  300 mg (Alpharma)
+ASTA33853MGEMIS	Aspirin  Tablets  300 mg (OBG Pharm)
+ASTA33854MGEMIS	Aspirin  Tablets  300 mg (Aspar)
+ASTA33855MGEMIS	Aspirin  Tablets  300 mg (A.A.H. Pharm)
+ASTA33856MGEMIS	Aspirin  Tablets  300 mg (Vantage)
+ASTA33857MGEMIS	Aspirin  Tablets  300 mg (Lloyds)
+CATA3282	Caprin  E/c tablets  300 mg
+IMM/35359EMIS	Imazin Xl  M/R tablets  
+IMM/35362EMIS	Imazin Xl Forte  M/R tablets  
+ISM/18556NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 75 mg
+ISM/18557NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 150 mg
+NUTA2039	Nu-Seals Aspirin  E/c tablets  300 mg

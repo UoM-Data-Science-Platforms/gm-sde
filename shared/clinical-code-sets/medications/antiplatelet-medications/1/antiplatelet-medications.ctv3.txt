@@ -44,3 +44,14 @@ buA3.	EFIENT 10mg tablets
 buA4.	PRASUGREL 10mg tablets
 buB1.	BRILIQUE 90mg tablets
 buBz.	TICAGRELOR 90mg tablets
+blm1.	IMAZIN XL 60mg/75mg m/r tablet
+blmy.	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+blmz.	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+bu91.	Cilostazol 100mg tablet
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+di1f.	Aspirin 300mg e/c tablet
+di1k.	Caprin 300mg e/c tablet
+di1n.	Aspirin 300mg suppository
+di1o.	Aspirin 150mg suppository
+j111.	Aspirin 300mg tablet
+j112.	Aspirin 300mg dispersible tablet

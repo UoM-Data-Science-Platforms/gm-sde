@@ -10,3 +10,32 @@ h83E.	ADOPORT 500micrograms capsules
 h83L.	CAPEXION 1mg capsules
 h83S.	ENVARSUS 4mg m/r tablets
 h83z.	TACROLIMUS 0.5mg capsules
+h833.	TACROLIMUS 5mg/1mL intravenous infusion concentrate
+h836.	PROGRAF 5mg/1mL intravenous infusion concentrate
+h838.	ADVAGRAF 0.5mg m/r capsules
+h839.	ADVAGRAF 1mg m/r capsules
+h83B.	ADVAGRAF 3mg m/r capsules
+h83C.	MODIGRAF 200micrograms/sachet granules for oral suspension
+h83D.	MODIGRAF 1mg/sachet granules for oral suspension
+h83F.	ADOPORT 1mg capsules
+h83G.	ADOPORT 5mg capsules
+h83H.	VIVADEX 500micrograms capsules
+h83I.	VIVADEX 1mg capsules
+h83J.	VIVADEX 5mg capsules
+h83K.	CAPEXION 500micrograms capsules
+h83M.	CAPEXION 5mg capsules
+h83o.	TACROLIMUS 2mg capsules
+h83p.	TACROLIMUS 750micrograms capsules
+h83q.	TACROLIMUS 4mg m/r tablets
+h83Q.	ENVARSUS 750micrograms m/r tablets
+h83r.	TACROLIMUS 1mg m/r tablets
+h83R.	ENVARSUS 1mg m/r tablets
+h83s.	TACROLIMUS 750micrograms m/r tablets
+h83t.	TACROLIMUS 1mg/sachet granules for oral suspension
+h83T.	ADOPORT 0.75mg capsules
+h83u.	TACROLIMUS 200micrograms/sachet granules for oral suspension
+h83U.	ADOPORT 2mg capsules
+h83v.	TACROLIMUS 3mg m/r capsules
+h83w.	TACROLIMUS 5mg m/r capsules
+h83x.	TACROLIMUS 1mg m/r capsules
+h83y.	TACROLIMUS 500microgram m/r capsules

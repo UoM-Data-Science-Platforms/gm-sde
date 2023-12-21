@@ -169,3 +169,31 @@ MYTA47254NEMIS	Myfenax  Tablets  500 mg
 ^ESCTCE992142	CellCept 250mg capsules (Mawdsley-Brooks & Company Ltd)
 ^ESCTMY902905	Mycophenolic acid 360mg gastro-resistant tablets
 MYGA18754NEMIS	Mycophenolic Acid  Gastro-resistant Tablets  360 mg
+^ESCT1174093	Ceptava 180mg gastro-resistant tablets (Sandoz Ltd)
+^ESCT1174095	Ceptava 360mg gastro-resistant tablets (Sandoz Ltd)
+^ESCT1175187	Mycophenolic acid 180mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1175189	Mycophenolic acid 360mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1194754	Mycophenolic acid 180mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCT1194756	Mycophenolic acid 360mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCT1257789	CellCept 250mg capsules (Originalis B.V.)
+^ESCT1267379	CellCept 250mg capsules (CST Pharma Ltd)
+^ESCT1267381	CellCept 500mg tablets (CST Pharma Ltd)
+^ESCT1274152	CellCept 250mg capsules (Pilsco Ltd)
+^ESCT1274154	CellCept 500mg tablets (Pilsco Ltd)
+^ESCT1389477	CellCept 250mg capsules (Ethigen Ltd)
+^ESCT1389479	CellCept 500mg tablets (Ethigen Ltd)
+^ESCTCE1023858	CellCept 500mg tablets (Lexon (UK) Ltd)
+^ESCTCE877683	CellCept 250mg capsules (Waymade Healthcare Plc)
+^ESCTCE877689	CellCept 500mg tablets (Waymade Healthcare Plc)
+^ESCTCE929693	CellCept 500mg tablets (Dowelhurst Ltd)
+^ESCTCE966397	CellCept 250mg capsules (DE Pharmaceuticals)
+^ESCTCE966399	CellCept 500mg tablets (DE Pharmaceuticals)
+^ESCTCE992144	CellCept 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMY902904	Mycophenolic acid 180mg gastro-resistant tablets
+^ESCTMY902910	Myfortic 180mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTMY902913	Myfortic 360mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+CEGA124733NEMIS	Ceptava  Gastro-resistant Tablets  180 mg
+CEGA124734NEMIS	Ceptava  Gastro-resistant Tablets  360 mg
+MYGA18752NEMIS	Mycophenolic Acid  Gastro-resistant Tablets  180 mg
+MYGA18756NEMIS	Myfortic  Gastro-resistant Tablets  180 mg
+MYGA18757NEMIS	Myfortic  Gastro-resistant Tablets  360 mg

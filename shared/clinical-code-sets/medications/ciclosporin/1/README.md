@@ -1,6 +1,6 @@
 # Ciclosporin
 
-This code set was created from BNF codes beginning with 0802020G0.
+This code set was created from the ciclosporin code set at: https://nhs-drug-refset.pages.dev/ .
 
 ## Prevalence log
 
@@ -8,7 +8,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-06 | EMIS | 2514724 | 1424 (0.0566%) | 1425 (0.0567%) | 
-| 2023-12-06 | TPP | 201240 | 183 (0.0909%) | 183 (0.0909%) | 
-| 2023-12-06 | Vision | 333881 | 160 (0.0479%) | 160 (0.0479%) | 
-
+| 2023-12-21 | EMIS | 2516480 | 1429 (0.0568%) | 2422 (0.0962%) | 
+| 2023-12-21 | TPP | 201282 | 183 (0.0909%) | 187 (0.0929%) | 
+| 2023-12-21 | Vision | 334130 | 163 (0.0488%) | 212 (0.0634%) | 

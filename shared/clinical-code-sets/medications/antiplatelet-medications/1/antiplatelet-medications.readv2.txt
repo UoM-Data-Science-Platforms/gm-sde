@@ -77,3 +77,13 @@ buB..	TICAGRELOR
 buB1.	BRILIQUE 90mg tablets 
 buBz.	TICAGRELOR 90mg tablets 
 bu91.	CILOSTAZOL 100mg tablets
+blm1.	IMAZIN XL 60mg/75mg m/r tablets
+blmy.	ISOSORBIDE MONONITRATE+ASPIRIN 60mg/150mg m/r tablets
+blmz.	ISOSORBIDE MONONITRATE+ASPIRIN 60mg/75mg m/r tablets
+di1c.	NU-SEALS ASPIRIN 300mg e/c tablets
+di1f.	ASPIRIN 300mg e/c tablets
+di1k.	*CAPRIN 300mg e/c tablets
+di1n.	ASPIRIN 300mg suppositories
+di1o.	ASPIRIN 150mg suppositories
+j111.	ASPIRIN 300mg tablets
+j112.	ASPIRIN 300mg dispersible tablets

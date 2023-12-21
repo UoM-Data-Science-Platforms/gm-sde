@@ -7,10 +7,10 @@ These medications have been grouped as they all have drowsy/sedative effects **C
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.48 - 19.4%` suggests an issue with codes from TPP practices. This may also be due to variation in how practices prescribe over the counter meds like hayfever meds, sleeping pills etc vs telling you to just buy it in a pharmacy.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.3 - 25%` suggests an issue with codes from TPP practices. This may also be due to variation in how practices prescribe over the counter meds like hayfever meds, sleeping pills etc vs telling you to just buy it in a pharmacy.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-15 | EMIS | 2515618 | 112689 (4.48%) | 112699 (4.48%) | 
-| 2023-12-15 | TPP | 201264 | 39113 (19.4%) | 39114 (19.4%) | 
-| 2023-12-15 | Vision | 334040 | 15353 (4.6%) | 15355 (4.6%) | 
+| 2023-12-21 | EMIS | 2516480 | 259591 (10.3%) | 257953 (10.3%) | 
+| 2023-12-21 | TPP | 201282 | 50392 (25%) | 50390 (25%) | 
+| 2023-12-21 | Vision | 334130 | 35992 (10.8%) | 35963 (10.8%) | 
