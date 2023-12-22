@@ -1,0 +1,8 @@
+^ESCTFR840810	Free T3 (triiodothyronine) level
+^ESCT1262452	Free T3 (triiodothyronine) mass concentration in plasma
+^ESCT1262453	Free T3 (triiodothyronine) mass concentration in serum
+^ESCT1262455	Free T3 (triiodothyronine) substance concentration in plasma
+^ESCT1262456	Free T3 (triiodothyronine) molar concentration in plasma
+^ESCT1262459	Free T3 (triiodothyronine) substance concentration in serum
+^ESCT1262460	Free T3 (triiodothyronine) molar concentration in serum
+^ESCT1262550	Total T3 (triiodothyronine) mass concentration in serum
