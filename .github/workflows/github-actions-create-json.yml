@@ -16,10 +16,15 @@ jobs:
       - name: Parse files and extract json
         run: node tools/code-set-lookup/index.js
 
-      - name: Deploy 🚀
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
+      - name: Update changes in GitHub repository 🚀
+        if: steps.git-check.outputs.modified == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "<>"
-          git add .
-          git commit -m "Automated JSON creation for github pages"
+          git add -A
+          git commit -m '[automated commit] JSON creation for github pages'
           git push
