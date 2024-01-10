@@ -1,0 +1,20 @@
+name: Create json
+run-name: Creating the json files for github-pages 🚀
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Create-Code-Set-Readme-JSON:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Parse files and extract json
+        run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+
+      - name: Deploy 🚀
+        run: |
+          git commit -am "Automated JSON creation for github pages"
+          git push
