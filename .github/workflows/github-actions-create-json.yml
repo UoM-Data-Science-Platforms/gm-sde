@@ -4,17 +4,25 @@ on:
   push:
     branches:
       - master
+permissions:
+  contents: write
 jobs:
   Create-Code-Set-Readme-JSON:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            tools
+            shared/clinical-code-sets
 
       - name: Parse files and extract json
         run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
       - name: Deploy 🚀
         run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git commit -am "Automated JSON creation for github pages"
           git push
