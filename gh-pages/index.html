@@ -1,1 +1,42 @@
-Test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Code set overview</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://rw251.github.io/gm-idcr/" />
+    <meta name="description" content="Example site for showing code set overviews" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Code set overview" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rw251.github.io/gm-idcr/" />
+    <meta property="og:description" content="Example site for showing code set overviews" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="drawdown.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div style="padding: 16px">
+        <input
+          type="text"
+          id="lookup"
+          placeholder="Loading code set data..."
+          value=""
+          autocomplete="off"
+          disabled
+        />
+
+        <ul id="results" style="max-height: 75vh; overflow-y: auto"></ul>
+      </div>
+      <div id="readme"></div>
+    </div>
+  </body>
+</html>
