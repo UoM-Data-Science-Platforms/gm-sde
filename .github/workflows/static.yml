@@ -34,14 +34,22 @@ jobs:
         with:
           sparse-checkout: |
             gh-pages
+            tools/code-set-lookup
+            shared/clinical-code-sets
           sparse-checkout-cone-mode: false
+
+      - name: Parse files and extract json
+        run: node tools/code-set-lookup/index.js
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload just gh-pages file
           path: 'gh-pages'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
