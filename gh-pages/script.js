@@ -4,7 +4,7 @@ const $readme = document.getElementById('readme');
 let data;
 
 async function getData() {
-  data = await fetch('/code-set-readme.json').then((x) => x.json());
+  data = await fetch('code-set-readme.json').then((x) => x.json());
   $input.removeAttribute('disabled');
   $input.placeholder = 'Search for code set...';
   //$input.focus();
