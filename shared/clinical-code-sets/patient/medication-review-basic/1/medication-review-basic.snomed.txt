@@ -11,7 +11,9 @@
 870661000000100	Polypharmacy medication review
 961831000000100	Medication review done by medicines management pharmacist
 961861000000105	Medication review done by medicines management technician
-1079381000000100	Medication review by community nurse
-1127441000000100	Medication review done by clinical pharmacist
+1079381000000109	Medication review by community nurse
+1127441000000107	Medication review done by clinical pharmacist
 1239511000000100	Structured medication review
 938551000000108	Dementia medication review
+413143000	Mental health medication review (procedure)
+473225006	Hypertension medication review (procedure)
