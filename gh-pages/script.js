@@ -6,6 +6,8 @@ const $tab = document.querySelector('.tab');
 let data;
 let $list;
 
+const loader = '<div class="lds-facebook"><div></div><div></div><div></div></div>';
+
 async function getData() {
   data = await fetch('code-set-readme.json').then((x) => x.json());
   $input.removeAttribute('disabled');
@@ -35,12 +37,15 @@ const rawUrl = 'https://raw.githubusercontent.com/rw251/gm-idcr/master/shared/cl
 
 $results.addEventListener('click', (e) => {
   const { version, category, name } = e.target.dataset;
+  const displayName = e.target.innerText;
   $list.forEach((x) => x.classList.remove('selected'));
   e.target.classList.add('selected');
 
   $tab.classList.remove('hide');
   openTab('Description');
   $readme.style.display = 'block';
+
+  $readme.innerHTML = `<h1>${displayName}</h1>${loader}`;
 
   fetch(`${rawUrl}/${category}/${name}/${version}/README.md`)
     .then((x) => x.text())
