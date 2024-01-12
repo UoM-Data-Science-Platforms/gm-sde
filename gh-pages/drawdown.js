@@ -175,7 +175,8 @@ function markdown(src) {
     var [head, body] = table.split(sep);
     var elHead = element('thead', tableRows(head, align, true));
     var elBody = element('tbody', tableRows(body, align));
-    return '\n' + element('table', elHead + elBody);
+    var elTable = element('table', elHead + elBody);
+    return '\n' + element('div', elTable, `style="overflow-x:auto"`);
   });
 
   // heading

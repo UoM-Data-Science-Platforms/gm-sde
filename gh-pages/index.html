@@ -23,8 +23,15 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="banner">
+      <span class="title">Clinical code sets</span>
+    </div>
+    <div class="tab hide">
+      <button class="tablinks" onclick="openTab('Search')">Search</button>
+      <button class="tablinks" onclick="openTab('Description')">Code set description</button>
+    </div>
     <div class="wrapper">
-      <div style="padding: 16px">
+      <div id="search-wrapper" style="padding: 16px">
         <input
           type="text"
           id="lookup"
@@ -34,9 +41,9 @@
           disabled
         />
 
-        <ul id="results" style="max-height: 75vh; overflow-y: auto"></ul>
+        <ul id="results" class="code-set-results"></ul>
       </div>
-      <div id="readme"></div>
+      <div id="readme" style="display: none" class="tab-content"></div>
     </div>
   </body>
 </html>

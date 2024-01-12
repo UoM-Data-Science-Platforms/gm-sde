@@ -8,9 +8,12 @@ input {
   background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
-  border-radius: 4px;
   padding: 0.5rem 1rem;
-  width: 300px
+  width: 100%;
+}
+
+input:focus {
+  outline: 1px solid #550000;
 }
 
 html,
@@ -22,17 +25,18 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 1fr;
   padding: 0;
-  height: 100%;
+  height: calc(100% - 88px);
 }
 
-li {
-cursor:pointer;
+#search-wrapper {
+  text-align: center;
+  padding: 16px 0 0 16px;
 }
-table{
+
+table {
   border-collapse: collapse;
-  width: max-content;
   overflow: hidden;
   margin-bottom: 10px;
   table-layout: fixed;
@@ -42,46 +46,165 @@ thead > tr {
   font-weight: bold;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   padding: 8px;
   position: relative;
 }
 
 code {
-  font-family: monospace, monospace;
+  font-family: monospace, monospace; /* See https://stackoverflow.com/questions/38781089/font-family-monospace-monospace */
   background-color: #f2f2d8;
   color: #46008b;
 }
 
+.banner {
+  padding: 5px;
+  text-align: center;
+  background: #14ba99;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/*TABS*/
+
+.tab-content {
+  transform: translateX(-4000px);
+  position: absolute;
+}
+
+.tab-content.focus {
+  transform: translateX(0px);
+}
+
+@media (min-width: 768px) {
+  .tab {
+    display: none;
+  }
+  .wrapper {
+    grid-template-columns: minmax(300px, 1fr) 3fr;
+    column-gap: 10px;
+    height: calc(100% - 38px);
+  }
+  #readme {
+    height: 100%;
+  }
+  #search-wrapper {
+    text-align: inherit;
+  }
+  .tab-content {
+    transform: translateX(0px);
+    position: inherit;
+  }
+}
+
+.tab.hide {
+  display: none;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: black;
+  margin: 0;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #dd2024-01-12d;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #cccccc;
+}
+
+ul.code-set-results {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin: 0;
+  max-height: 75vh;
+  overflow-y: auto;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+}
+
+ul.code-set-results li {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+}
+ul.code-set-results li:hover {
+  background-color: #cccccc;
+}
+ul.code-set-results li.selected {
+  background-color: yellow;
+  cursor: default;
+}
+
+/* README specific css*/
 #readme {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   color: rgb(31, 35, 40);
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
   padding: 24px;
-  padding-top:0px;
-  height:100%;
-  overflow-y:auto;
+  padding-top: 0px;
+  height: calc(100% - 88px);
+  overflow-y: auto;
 }
 
 #readme li + li {
-  margin-top: .25em;
+  margin-top: 0.25em;
 }
 
 #readme h1 {
-  padding-bottom: .3em;
+  padding-bottom: 0.3em;
   font-size: 2em;
   border-bottom: 1px solid rgb(216, 222, 228);
 }
 
 #readme h2 {
-  padding-bottom: .3em;
+  padding-bottom: 0.3em;
   font-size: 1.5em;
   border-bottom: 1px solid rgb(216, 222, 228);
 }
-#readme h1, #readme h2, #readme h3, #readme h4, #readme h5, #readme h6 {
+#readme h1,
+#readme h2,
+#readme h3,
+#readme h4,
+#readme h5,
+#readme h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
@@ -89,7 +212,7 @@ code {
 }
 
 #readme * {
-  max-width: 100%
+  max-width: 100%;
 }
 
 #readme pre {
@@ -103,7 +226,8 @@ code {
   border-radius: 6px;
   word-wrap: normal;
   margin-top: 0;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
 }
 
 #readme pre code {
@@ -122,7 +246,7 @@ code {
 }
 
 #readme hr {
-  height: .15em;
+  height: 0.15em;
   margin: 24px 0;
   background-color: rgb(208, 215, 222);
   border: 0;
