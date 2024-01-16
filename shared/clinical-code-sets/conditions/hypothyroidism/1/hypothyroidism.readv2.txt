@@ -34,3 +34,4 @@ C3A..00	Iodine-deficiency syndromes
 Cyu1000	Other iodine-deficiency related thyroid disorders and allied conditions
 Cyu1100	Other sp cified hypothyroidism
 PK25100	Congenital absence of thyroid gland
+Q433700	Neonatal jaundice with congenital hypothyroidism

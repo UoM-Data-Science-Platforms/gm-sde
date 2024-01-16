@@ -70,3 +70,6 @@ XE10A	Hypothyroidism NOS
 XE124	Hypothyroidism
 X40Hq	Euthyroid hypothyroxinaemia
 Xa09w	Transient hypothyroxinaemia
+PK251	Congenital thyroid aplasia
+Q4337	Neonatal jaundice with congenital hypothyroidism
+Xa08g	Transient neonatal hypothyroidism

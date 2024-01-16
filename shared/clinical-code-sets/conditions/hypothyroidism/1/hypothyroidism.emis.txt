@@ -209,3 +209,14 @@ EMISNQSE16	Secondary hypothyroidism
 ^ESCTEU510871	Euthyroid hypothyroxinemia
 ^ESCTTR558811	Transient hypothyroxinaemia
 ^ESCTTR558812	Transient hypothyroxinemia
+^ESCT1349322	Genetic transient congenital hypothyroidism
+^ESCT1352912	Transient neonatal hypothyroidism due to neonatal iodine exposure
+^ESCT1362794	Congenital hypothyroidism due to maternal intake of antithyroid drug
+^ESCT1368622	Hypothyroidism caused by amiodarone
+^ESCTAP401284	Aplasia of thyroid with myxedema
+^ESCTAP401286	Aplasia of thyroid with myxoedema
+^ESCTCO401285	Congenital thyroid aplasia
+^ESCTHY629831	Hypoplasia of thyroid
+^ESCTHY803732	Hypothyroxinaemia of prematurity
+^ESCTHY803733	Hypothyroxinemia of prematurity
+^ESCTTR558717	Transient neonatal hypothyroidism
