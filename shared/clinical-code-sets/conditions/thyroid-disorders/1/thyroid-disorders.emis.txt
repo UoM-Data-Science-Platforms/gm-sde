@@ -1,0 +1,641 @@
+^ESCT1170559	Hyperthyroidism in pregnancy
+^ESCT1177960	Tertiary hypothyroidism
+^ESCT1182324	Borderline hypothyroidism
+^ESCT1187826	Hypothyroidism in pregnancy, antepartum
+^ESCT1190373	Goiter
+^ESCT1191864	Neonatal goiter
+^ESCT1198961	Neonatal goiter
+^ESCT1201167	Short stature with delayed bone age due to thyroid hormone metabolism deficiency
+^ESCT1202984	Familial glucocorticoid deficiency
+^ESCT1270433	Endemic cretinism
+^ESCT1276171	Substernal goiter
+^ESCT1276212	Malignant tumor of thyroid gland
+^ESCT1303120	Substernal goiter
+^ESCT1303145	Malignant tumor of thyroid gland
+^ESCT1349322	Genetic transient congenital hypothyroidism
+^ESCT1350090	Steroid-responsive encephalopathy associated with autoimmune thyroiditis
+^ESCT1350091	Hashimoto encephalitis
+^ESCT1350092	SREAT - steroid-responsive encephalopathy associated with autoimmune thyroiditis
+^ESCT1350364	X-linked central congenital hypothyroidism with late-onset testicular enlargement
+^ESCT1350365	IGSF1 (immunoglobulin superfamily member 1) deficiency syndrome
+^ESCT1350366	X-linked central congenital hypothyroidism with late-onset macroorchidism
+^ESCT1351898	Primary differentiated carcinoma of thyroid gland
+^ESCT1351899	DTC - differentiated thyroid cancer
+^ESCT1351900	Differentiated thyroid cancer
+^ESCT1352911	Neonatal iodine exposure
+^ESCT1352912	Transient neonatal hypothyroidism due to neonatal iodine exposure
+^ESCT1362794	Congenital hypothyroidism due to maternal intake of antithyroid drug
+^ESCT1365514	Familial nonmedullary thyroid carcinoma
+^ESCT1365515	FNMTC - familial nonmedullary thyroid carcinoma
+^ESCT1365516	Familial non medullary thyroid carcinoma
+^ESCT1368622	Hypothyroidism caused by amiodarone
+^ESCT1389897	Primary hypothyroidism
+^ESCT1405916	Compensated euthyroidism
+^ESCT1406190	Thyrotoxicosis without goitre or other cause
+^ESCT1407484	Ectopic thyroid tissue
+^ESCT1408648	Hypothyroidism, dysmorphism, postaxial polydactyly, intellectual disability syndrome
+^ESCT1419794	Euthyroid goitre
+^ESCTAC323284	Achalasia-addisonian syndrome
+^ESCTAC475791	Acute non-suppurative thyroiditis
+^ESCTAC510850	Acute viral thyroiditis
+^ESCTAC510883	Acquired thyroid atrophy
+^ESCTAC783842	Acquired central hypothyroidism
+^ESCTAD320086	Adult myxoedema
+^ESCTAD320087	Adult myxedema
+^ESCTAD349047	Adenomatous goiter
+^ESCTAD349050	Adenomatous thyroid goitre
+^ESCTAD349051	Adenomatous thyroid goiter
+^ESCTAL323285	Allgrove syndrome
+^ESCTAL323287	Alacrimia-achalasia-addisonianism
+^ESCTAL755808	Allan-Herndon-Dudley syndrome
+^ESCTAL755810	Allan-Herndon syndrome
+^ESCTAM350847	Amiodarone-induced thyrotoxicosis
+^ESCTAN535480	Anaplastic thyroid carcinoma
+^ESCTAP401284	Aplasia of thyroid with myxedema
+^ESCTAP401286	Aplasia of thyroid with myxoedema
+^ESCTAP510810	Apathetic thyrotoxicosis
+^ESCTAT340708	Athyrotic hypothyroidism sequence
+^ESCTAT386127	Atrophic thyroiditis
+^ESCTAT510881	Atrophy of thyroid - acquired
+^ESCTAT621979	Atypical subacute thyroiditis
+^ESCTAT783051	Athyroidal hypothyroidism with spiky hair and cleft palate syndrome
+^ESCTAU283983	Autosomal dominant variant form of albumin
+^ESCTAU284976	Autoimmune lymphocytic chronic thyroiditis
+^ESCTAU357628	Autosomal dominant excess of transthyretin
+^ESCTAU357629	Autosomal dominant excess of thyroxine-binding prealbumin
+^ESCTAU358849	Autoimmune thyroiditis
+^ESCTAU510804	Autoimmune thyrotoxicosis
+^ESCTAU510808	Autonomous thyroid function
+^ESCTAU510809	Autonomous thyroid function - suppressed TSH with normal T4 and T3
+^ESCTAU510835	Autoimmune hypothyroidism
+^ESCTAU510836	Autoimmune myxedema
+^ESCTAU802130	Autonomously functioning thyroid goitre
+^ESCTAU802131	Autonomously functioning thyroid goiter
+^ESCTBA619645	Basedow disease
+^ESCTBA783050	Bamforth Lazarus syndrome
+^ESCTBE400368	Benign tumour of thyroid gland
+^ESCTBE400369	Benign tumor of thyroid gland
+^ESCTBL751988	Blepharophimosis-mental retardation syndrome, Say-Barber-Biesecker-Young-Simpson type
+^ESCTBL751990	Blepharophimosis-intellectual deficit syndrome, Say-Barber/Biesecker/Young-Simpson type
+^ESCTBO510807	Borderline thyrotoxicosis
+^ESCTCA400894	Carcinoma in situ of thyroid gland
+^ESCTCA400896	Cancer in situ of thyroid
+^ESCTCA404128	Cancer metastatic to thyroid
+^ESCTCA700267	Cancer of thyroid, Hurthle cell
+^ESCTCA730670	Calcifying cyst of thyroid
+^ESCTCA735158	Carcinoma of thyroid
+^ESCTCC510873	C-cell hyperplasia of thyroid
+^ESCTCE292753	Central hypothyroidism
+^ESCTCE342301	Cervical thyroid remnant
+^ESCTCH265106	Chronic suppurative thyroiditis
+^ESCTCH387255	Chronic thyroiditis, fibrous variant
+^ESCTCH396994	Chronic nonsuppurative thyroiditis
+^ESCTCH764435	Chronic fibrous thyroiditis
+^ESCTCO287563	Congenital thyroid hormone coupling defect
+^ESCTCO302268	Congenital anomaly of the thyroid gland
+^ESCTCO302269	Congenital malformation of thyroid gland
+^ESCTCO331577	Congenital unresponsiveness to thyrotropin
+^ESCTCO349175	Colloid goiter
+^ESCTCO354875	Congenital myxedema
+^ESCTCO354876	Congenital myxoedema
+^ESCTCO401283	Congenital absence of thyroid gland
+^ESCTCO401285	Congenital thyroid aplasia
+^ESCTCO401922	Congenital malposition of the thyroid gland
+^ESCTCO401923	Congenital malpositioned thyroid gland
+^ESCTCO401924	Congenital thyroid dystopia
+^ESCTCO435564	Complex thyroid endocrine disorder
+^ESCTCO488567	Congenital hypothyroidism with ectopic thyroid
+^ESCTCO490435	Congenital iodine deficiency syndrome
+^ESCTCO490436	Congenital goitre
+^ESCTCO490437	Congenital goiter
+^ESCTCO490439	Congenital hypothyroidism not due to iodine deficiency
+^ESCTCO510830	Congenital hypothyroidism without goiter
+^ESCTCO510831	Congenital thyroid hypoplasia
+^ESCTCO510832	Congenital atrophy of thyroid
+^ESCTCO510893	Congenital iodine deficiency syndrome - mixed type
+^ESCTCO510895	Congenital iodine deficiency syndrome - neurological type
+^ESCTCO545682	Contusion of thyroid gland
+^ESCTCO561408	Congenital hypothyroidism with diffuse goiter
+^ESCTCO773695	Congenital absence of half of thyroid
+^ESCTCO773696	Congenital hemiagenesis of thyroid
+^ESCTCO775962	Congenital hypothyroidism due to transplacental passage of maternal thyroid stimulating hormone binding inhibitory antibody
+^ESCTCO775963	Congenital hypothyroidism due to transplacental passage of maternal TSH-binding inhibitory antibody
+^ESCTCO777617	Congenital hypothyroidism due to absence of thyroid gland
+^ESCTCO783840	Congenital central hypothyroidism
+^ESCTCO783841	Congenital hypothyroidism due to iodine deficiency
+^ESCTCO786930	Congenital central hypothyroidism due to thyrotropin-releasing hormone receptor deficiency
+^ESCTCR489634	Cretin dwarf
+^ESCTCU795364	Cutler Bass Romshe syndrome
+^ESCTDA784375	Daneman Davy Mancer syndrome
+^ESCTDE278374	Deiodinase deficiency
+^ESCTDE365392	Decrease thyroid hormone production associated with illness
+^ESCTDE383142	Defective iodide peroxidase activity
+^ESCTDI510796	Diffuse goitre
+^ESCTDI510797	Diffuse goiter
+^ESCTDI545684	Disruption of thyroid gland
+^ESCTDI550005	Diffuse toxic goitre
+^ESCTDI550009	Diffuse toxic goiter
+^ESCTDI764233	Diffuse sclerosing papillary thyroid carcinoma
+^ESCTDI768954	Diffuse hyperplastic goitre
+^ESCTDI768955	Diffuse hyperplastic goiter
+^ESCTDI811880	Diffuse thyroid goitre without thyrotoxicosis
+^ESCTDI811881	Diffuse thyroid goiter without thyrotoxicosis
+^ESCTDR510855	Drug-induced thyroiditis
+^ESCTDR510856	Drug induced thyroiditis
+^ESCTDR510863	Drug interference with thyroid-binding globulin
+^ESCTDR811866	Drug-induced hypothyroidism
+^ESCTDY264162	Dyshormonogenetic goitre AND iodide leak
+^ESCTDY264163	Dyshormonogenetic goiter AND iodide leak
+^ESCTDY475794	Dyshormonogenic goiter
+^ESCTDY510868	Dysprealbuminaemic euthyroidal hyperthyroxinaemia
+^ESCTDY510869	Dysprealbuminemic euthyroidal hyperthyroxinemia
+^ESCTEC357268	Echinococcus granulosus thyroid gland infection
+^ESCTEN255811	Enlargement of thyroid
+^ESCTEN342268	Endemic goitre
+^ESCTEN342269	Endemic goiter
+^ESCTEN372039	Endemic cretinism - hypothyroid
+^ESCTEN510894	Endemic cretinism - mixed type
+^ESCTEN510896	Endemic cretinism - neurological type
+^ESCTEN723204	Endemic congenital iodine deficiency syndrome of myxoedematous type
+^ESCTEN723205	Endemic cretinism - myxedematous type
+^ESCTEN723206	Endemic cretinism - myxoedematous type
+^ESCTEN723207	Endemic congenital iodine deficiency syndrome of myxedematous type
+^ESCTEU510847	Euthyroid with thyroid antibodies
+^ESCTEU510870	Euthyroid hypothyroxinaemia
+^ESCTEU510871	Euthyroid hypothyroxinemia
+^ESCTEU510872	Euthyroid hyperthyroxinamia
+^ESCTEU801568	Euthyroid thyroiditis
+^ESCTEX619642	Exophthalmic goiter
+^ESCTEX619643	Exophthalmic goitre
+^ESCTFA257919	Factitious hyperthyroidism
+^ESCTFA257920	Factitious hyperthyroidism from ingestion of excessive thyroid material
+^ESCTFA510866	Familial dysalbuminemic hyperthyroxinemia
+^ESCTFA510874	Familial dyshormonogenetic goitre
+^ESCTFA510875	Familial dyshormonogenetic goiter
+^ESCTFA757378	Familial gestational hyperthyroidism
+^ESCTFA775021	Familial papillary thyroid carcinoma with renal papillary neoplasia syndrome
+^ESCTFA775133	Familial non-autoimmune autosomal dominant hyperthyroidism
+^ESCTFA775134	Familial hyperthyroidism due to mutation in thyroid stimulating hormone receptor
+^ESCTFA775135	Familial non-immune hyperthyroidism
+^ESCTFA776887	Familial thyroid dyshormonogenesis
+^ESCTFA783844	Familial hyperthyroidism
+^ESCTFE490440	Fetal iodine deficiency syndrome
+^ESCTFI387253	Fibrous autoimmune thyroiditis
+^ESCTFO393185	Focal thyroiditis
+^ESCTFO490442	Foetal iodine deficiency syndrome
+^ESCTFO535473	Follicular thyroid carcinoma
+^ESCTFO535479	Follicular variant of papillary thyroid carcinoma
+^ESCTFO734489	Follicular neoplasm of thyroid
+^ESCTFO734566	Follicular adenoma of ectopic thyroid tissue
+^ESCTFR545683	Fragmentation of thyroid gland
+^ESCTFT535474	FTC - Follicular thyroid carcinoma
+^ESCTGD278375	GDTH IV
+^ESCTGD285945	GDTH I
+^ESCTGD287564	GDTH III
+^ESCTGD335491	GDTH IIA
+^ESCTGD352644	GDTH V
+^ESCTGD364407	GDTH IIB
+^ESCTGE278373	Genetic defect in thyroid hormonogenesis IV
+^ESCTGE285944	Genetic defect in thyroid hormonogenesis I
+^ESCTGE287566	Genetic defect in thyroid hormonogenesis III
+^ESCTGE335492	Genetic defect in thyroid hormonogenesis II A
+^ESCTGE352643	Genetic defect in thyroid hormonogenesis V
+^ESCTGE364406	Genetic defect in thyroid hormonogenesis II B
+^ESCTGE510812	Gestational thyrotoxicosis
+^ESCTGE510889	Generalised thyroid hormone resistance
+^ESCTGE510890	Generalized thyroid hormone resistance
+^ESCTGE510891	General resistance to thyrotropin
+^ESCTGI708254	Giant cell thyroiditis
+^ESCTGL323283	Glucocorticoid deficiency with achalasia
+^ESCTGO364405	Goiter-deafness syndrome
+^ESCTGO364408	Goitre-deafness syndrome
+^ESCTGO803335	Goitre due to thyroiditis
+^ESCTGO803336	Goiter due to thyroiditis
+^ESCTGR250633	Graves' disease with pretibial myxoedema AND with thyrotoxic crisis
+^ESCTGR250634	Graves' disease with pretibial myxedema AND with thyrotoxic crisis
+^ESCTGR250635	Graves' disease with pretibial myxedema AND with thyrotoxic storm
+^ESCTGR250636	Graves' disease with pretibial myxoedema AND with thyrotoxic storm
+^ESCTGR274532	Graves' disease with acropachy
+^ESCTGR291853	Graves' disease with acropachy AND with thyrotoxic crisis
+^ESCTGR291854	Graves' disease with acropachy AND with thyrotoxic storm
+^ESCTGR347792	Graves' disease with thyrotoxic crisis
+^ESCTGR347793	Graves' disease with thyrotoxic storm
+^ESCTGR347879	Graves' disease with pretibial myxedema
+^ESCTGR347880	Graves' disease with pretibial myxoedema
+^ESCTGR511288	Graves' dermopathy
+^ESCTGR619646	Graves disease
+^ESCTGR708251	Granulomatous thyroiditis
+^ESCTGR804305	Graves' disease in remission
+^ESCTGU386129	Gull disease
+^ESCTHA254699	Haemorrhage of thyroid
+^ESCTHA284975	Hashimoto thyroiditis
+^ESCTHA284983	Hashimoto's thyroiditis
+^ESCTHA294176	Hashitoxicosis
+^ESCTHA387256	Hashimoto thyroiditis, fibrous variant
+^ESCTHA510805	Hashitoxicosis - transient
+^ESCTHC510813	HCG-induced thyrotoxicosis
+^ESCTHE254700	Hemorrhage of thyroid
+^ESCTHO774581	Hoffman syndrome
+^ESCTHU281132	Hurthle cell metaplasia of thyroid gland
+^ESCTHU510814	Human chorionic gonadotrophin (HCG)-induced thyrotoxicosis
+^ESCTHU510815	Human chorionic gonadotropin (HCG)-induced thyrotoxicosis
+^ESCTHU510816	Human chorionic gonadotrophin-induced thyrotoxicosis
+^ESCTHU700266	Hurthle cell carcinoma of thyroid
+^ESCTHY250724	Hypersecretion of calcitonin
+^ESCTHY250725	Hypersecretion of thyrocalcitonin
+^ESCTHY259261	Hyperthyroidism secondary to potassium iodide
+^ESCTHY259262	Hyperthyroidism caused by potassium iodide
+^ESCTHY273433	Hypothyroidism following external radiotherapy
+^ESCTHY278372	Hypothyroidism due to iodotyrosine deiodinase defect
+^ESCTHY278378	Hypothyroidism due to deiodase defect
+^ESCTHY285941	Hypothyroidism due to iodide concentration defect
+^ESCTHY285942	Hypothyroidism due to iodide transport defect
+^ESCTHY287567	Hypothyroidism due to coupling defect
+^ESCTHY289949	Hyperthyroidism due to struma ovarii
+^ESCTHY293335	Hypothyroidism after surgery
+^ESCTHY294175	Hyperthyroidism with Hashimoto disease
+^ESCTHY298672	Hypothyroidism due to infiltrative disease
+^ESCTHY310308	Hypothalamic hypothyroidism
+^ESCTHY310309	Hypothyroidism due to TRH deficiency
+^ESCTHY313464	Hypothyroidism due to fibrous invasive thyroiditis
+^ESCTHY313465	Hypothyroidism due to Riedel's thyroiditis
+^ESCTHY315264	Hypothyroidism following radioiodine therapy
+^ESCTHY315266	Hypothyroidism, postradioiodine therapy
+^ESCTHY315357	Hyperthyroidism due to hydatidiform mole with thyrotoxic crisis
+^ESCTHY315358	Hyperthyroidism due to hydatidiform mole with thyrotoxic storm
+^ESCTHY315917	Hypothyroid
+^ESCTHY318972	Hypothyroidism due to cystinosis
+^ESCTHY322157	Hyperthyroidism due to molar thyrotropin
+^ESCTHY322158	Hyperthyroidism due to hydatidiform mole
+^ESCTHY330657	Hypothyroidism due to food stuff
+^ESCTHY330658	Hypothyroidism caused by food stuff
+^ESCTHY331576	Hypothyroidism due to thyroid insensitivity to TSH
+^ESCTHY335488	Hypothyroidism due to iodide organification defect I
+^ESCTHY340709	Hypothyroidism sequence
+^ESCTHY341057	Hypothyroidism due to defect in thyroid hormone synthesis
+^ESCTHY341058	Hypothyroidism due to defective thyroid hormonogenesis
+^ESCTHY348659	Hypothyroidism due to amyloidosis
+^ESCTHY349048	Hyperplastic goiter
+^ESCTHY349049	Hyperplastic goitre
+^ESCTHY350846	Hyperthyroidism secondary to amiodarone
+^ESCTHY350848	Hyperthyroidism caused by amiodarone
+^ESCTHY352619	Hypothyroidism due to systemic sclerosis
+^ESCTHY352620	Hypothyroidism due to scleroderma
+^ESCTHY352642	Hypothyroidism due to thyroglobulin biosynthetic defect
+^ESCTHY352645	Hypothyroidism due to thyroglobulin synthesis defect
+^ESCTHY360134	Hyperthyroidism secondary to radio contrast dye
+^ESCTHY360135	Hyperthyroidism caused by radio contrast dye
+^ESCTHY364191	Hypothyroidism due to iodide excess
+^ESCTHY364192	Hypothyroidism caused by iodide excess
+^ESCTHY364403	Hypothyroidism with sensorineural deafness
+^ESCTHY377813	Hypothyroidism due to sarcoidosis
+^ESCTHY384371	Hypothyrotropic hypothyroidism
+^ESCTHY391826	Hyperthyroidism due to ectopic thyroid nodule
+^ESCTHY475778	Hyperthyroidism due to ectopic thyroid tissue
+^ESCTHY489633	Hypothyroid dwarfism
+^ESCTHY510834	Hypothyroid goiter, acquired
+^ESCTHY510838	Hypothyroidism with positive thyroid antibodies
+^ESCTHY510839	Hypothyroidism due to Hashimoto's thyroiditis
+^ESCTHY510840	Hypothyroidism due to Hashimoto thyroiditis
+^ESCTHY510841	Hypothyroidism due to TSH receptor blocking antibody
+^ESCTHY510842	Hypothyroidism due to thyroid stimulating hormone receptor blocking antibody
+^ESCTHY510876	Hypothyroidism due to iodide trapping defect
+^ESCTHY510877	Hypothyroidism due to iodide organification defect
+^ESCTHY629831	Hypoplasia of thyroid
+^ESCTHY708432	Hypothyroidism in pregnancy
+^ESCTHY736468	Hyperfunctioning follicular adenoma of thyroid gland
+^ESCTHY776898	Hypothyroidism due to mutation in transcription factor of pituitary development
+^ESCTHY783052	Hypothyroidism and cleft palate syndrome
+^ESCTHY803212	Hypothyroidism due to thyroiditis
+^ESCTHY803732	Hypothyroxinaemia of prematurity
+^ESCTHY803733	Hypothyroxinemia of prematurity
+^ESCTHY811865	Hypothyroidism caused by drug
+^ESCTHY932490	Hyperthyroidism in childbirth
+^ESCTHY933128	Hypothyroidism in childbirth
+^ESCTIA510817	Iatrogenic thyrotoxicosis
+^ESCTIA510818	Iatrogenic hyperthyroidism
+^ESCTID386126	Idiopathic atrophic hypothyroidism
+^ESCTID386128	Idiopathic atrophic myxedema
+^ESCTID386130	Idiopathic atrophic myxoedema
+^ESCTID511124	Idiopathic TSH deficiency
+^ESCTID511125	Idiopathic thyroid stimulating hormone deficiency
+^ESCTID775964	Idiopathic congenital hypothyroidism
+^ESCTIN255492	Infectious thyroiditis
+^ESCTIN268881	Infarction of thyroid
+^ESCTIN309589	Inherited disorder of thyroid metabolism
+^ESCTIN357958	Intrathoracic goiter
+^ESCTIN357959	Intrathoracic goitre
+^ESCTIN380630	Intrathyroidal calcification AND goitre syndrome
+^ESCTIN380631	Intrathyroidal calcification AND goiter syndrome
+^ESCTIN394698	Invasive fibrous thyroiditis
+^ESCTIN490441	Infantile hypothyroidism
+^ESCTIN510907	Injury of thyroid gland
+^ESCTIN671639	Infant hypothyroidism
+^ESCTIN671640	Infant hypothyroidism to 24 months of age
+^ESCTIN751006	Infant hypothyroidism due to maternal drug
+^ESCTIN751007	Infant hypothyroidism caused by maternal drug
+^ESCTIN802487	Incidentaloma of thyroid gland
+^ESCTIO278371	Iodotyrosine deiodination defect
+^ESCTIO278376	Iodotyrosine deiodinase deficiency
+^ESCTIO278377	Iodotyrosine dehalogenase deficiency
+^ESCTIO285940	Iodide transport defect
+^ESCTIO285943	Iodine accumulation defect
+^ESCTIO285946	Iodide transport failure
+^ESCTIO285947	Iodine transport defect
+^ESCTIO287562	Iodotyrosyl coupling defect
+^ESCTIO323377	Iodine deficiency disease, non goitre
+^ESCTIO323378	Iodine deficiency disease, non goiter
+^ESCTIO323379	Iodine deficiency disease, non-goitre
+^ESCTIO323380	Iodine deficiency disease, non-goiter
+^ESCTIO335487	Iodide oxidation defect
+^ESCTIO335489	Iodide organification defect I
+^ESCTIO383141	Iodide peroxidase defect
+^ESCTIO510820	Iodine-induced hyperthyroidism
+^ESCTIO510822	Iodine-induced thyrotoxicosis
+^ESCTIO510824	Iodide-induced hyperthyroidism
+^ESCTIO510905	Iodine-deficiency-related multinodular endemic goitre
+^ESCTIO510906	Iodine-deficiency-related multinodular endemic goiter
+^ESCTIO553183	Iodine-deficiency-related diffuse (endemic) goiter
+^ESCTIO553184	Iodine-deficiency-related endemic goiter
+^ESCTIS395088	Isolated thyrotropin deficiency
+^ESCTIS395089	Isolated thyrotropic hormone deficiency
+^ESCTIS395090	Isolated TSH deficiency
+^ESCTJO510821	Jod-Basedow thyrotoxicosis
+^ESCTJO510823	Jod-Basedow phenomenon
+^ESCTJO510825	Jod Basedow iodine induced hyperthyroidism
+^ESCTJU267042	Juvenile myxoedema
+^ESCTJU267043	Juvenile myxedema
+^ESCTJU511286	Juvenile Graves' disease
+^ESCTKO774583	Kocher Debre Semelaigne syndrome
+^ESCTLA591374	Laceration of thyroid gland
+^ESCTLI283836	Lingual thyroid
+^ESCTLI373034	Lingual goitre
+^ESCTLI373035	Lingual goiter
+^ESCTLI394697	Ligneous thyroiditis
+^ESCTLO605188	Local recurrence of malignant tumour of thyroid gland
+^ESCTLO605189	Local recurrence of malignant tumor of thyroid gland
+^ESCTLY284977	Lymphocytic thyroiditis
+^ESCTMA560804	Malignant lymphoma of thyroid gland
+^ESCTMA624693	Malignant tumour of thyroid gland
+^ESCTMA735159	Malignant epithelial neoplasm of thyroid
+^ESCTME404126	Metastatic malignant neoplasm to thyroid gland
+^ESCTME404127	Metastasis to thyroid
+^ESCTME535481	Medullary thyroid carcinoma
+^ESCTME535482	Medullary carcinoma of thyroid
+^ESCTMI535477	Mixed follicular and papillary thyroid carcinoma
+^ESCTMO755809	Monocarboxylate transporter 8 deficiency
+^ESCTMT535483	MTC - Medullary thyroid carcinoma
+^ESCTMU308412	Multinodular non-toxic goiter
+^ESCTMU308413	Multinodular non-toxic goitre
+^ESCTMU367244	Mumps thyroiditis
+^ESCTMU510900	Multinodular goitre
+^ESCTMU510901	Multiple thyroid nodules
+^ESCTMU510902	Multinodular goiter
+^ESCTMU731534	Multifocal granulomatous folliculitis of the thyroid
+^ESCTMU774582	Muscular pseudohypertrophy and hypothyroidism syndrome
+^ESCTMU784373	Multinodular goitre, cystic kidney, polydactyly syndrome
+^ESCTMU784374	Multinodular goiter, cystic kidney, polydactyly syndrome
+^ESCTMY257301	Myxoedema heart disease
+^ESCTMY257302	Myxedema heart disease
+^ESCTMY319547	Myxedema
+^ESCTMY354873	Myxoedematous form of cretinism
+^ESCTMY354874	Myxedematous form of cretinism
+^ESCTNE258897	Neonatal transient hyperthyroidism
+^ESCTNE347373	Neonatal Graves' disease
+^ESCTNE405157	Neoplasm of uncertain behavior of thyroid gland
+^ESCTNE439224	Neoplasm of thyroid gland
+^ESCTNE558715	Neonatal goitre
+^ESCTNO308411	Non-toxic multinodular goiter
+^ESCTNO349176	Non-toxic colloid goiter
+^ESCTNO349177	Non-toxic diffuse colloid goiter
+^ESCTNO349178	Non-toxic colloid goitre
+^ESCTNO349179	Non-toxic diffuse colloid goitre
+^ESCTNO387254	Noninvasive fibrous thyroiditis
+^ESCTNO475757	Non-toxic nodular goiter
+^ESCTNO475758	Nontoxic nodular thyroid goitre
+^ESCTNO475759	Nontoxic nodular thyroid goiter
+^ESCTNO475761	Non-toxic single thyroid nodule
+^ESCTNO475762	Non-toxic uninodular goiter
+^ESCTNO475763	Nontoxic uninodular thyroid goiter
+^ESCTNO475764	Nontoxic uninodular thyroid goitre
+^ESCTNO549997	Non-toxic goiter
+^ESCTNO549998	Non-toxic simple goiter
+^ESCTNO550000	Non-toxic simple goitre
+^ESCTNO550001	Non-toxic goitre
+^ESCTNO693269	Nodular goitre
+^ESCTNO693270	Nodular goiter
+^ESCTNO693271	Nodular hyperplasia of thyroid
+^ESCTNO708252	Non-suppurative subacute thyroiditis
+^ESCTNO811882	Nontoxic diffuse thyroid goiter
+^ESCTNO811883	Nontoxic diffuse thyroid goitre
+^ESCTOB782663	Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome
+^ESCTOH751987	Ohdo syndrome, Say-Barber-Biesecker-Young-Simpson variant
+^ESCTOP390330	Open wound of thyroid gland without complication
+^ESCTPA510858	Painless thyroiditis
+^ESCTPA535475	Papillary thyroid carcinoma
+^ESCTPA535478	Papillary thyroid carcinoma, follicular variant
+^ESCTPA731533	Palpation thyroiditis
+^ESCTPA776160	Papillary thyroid carcinoma with renal papillary neoplasia
+^ESCTPE364409	Pendred syndrome
+^ESCTPE776897	Peripheral resistance to thyroid hormone
+^ESCTPI384369	Pituitary hypothyroidism
+^ESCTPI621228	Pituitary thyroid hormone resistance
+^ESCTPL343882	Plummer's disease
+^ESCTPO293332	Postoperative hypothyroidism
+^ESCTPO293334	Postsurgical hypothyroidism
+^ESCTPO510849	Post-infectious hypothyroidism
+^ESCTPR402903	Primary malignant neoplasm of thyroid gland
+^ESCTPR419734	Primary hypothyroidism
+^ESCTPR785774	Primary poorly differentiated carcinoma of thyroid gland
+^ESCTPR785775	Primary undifferentiated carcinoma of thyroid gland
+^ESCTPS312342	Pseudogranulomatous thyroiditis
+^ESCTPT535476	PTC - Papillary thyroid carcinoma
+^ESCTPY290753	Pyogenic thyroiditis
+^ESCTRA315265	Radioactive iodine-induced hypothyroidism
+^ESCTRE357960	Retrosternal goitre
+^ESCTRE357961	Retrosternal goiter
+^ESCTRE419735	Refetoff syndrome
+^ESCTRE510886	Resistance to thyrotropin
+^ESCTRE510887	Resistance to thyroid stimulating hormone
+^ESCTRE786931	Resistance to thyrotropin-releasing hormone syndrome
+^ESCTRI394699	Riedel thyroiditis
+^ESCTSA751989	Say-Barber-Biesecker-Young-Simpson syndrome
+^ESCTSA751991	Say-Barber-Biesecker-Young-Simpson variant of Ohdo syndrome
+^ESCTSE292247	Secondary thyroid hyperplasia
+^ESCTSE384367	Secondary hypothyroidism
+^ESCTSE386630	Severe hypothyroidism
+^ESCTSE404125	Secondary malignant neoplasm of thyroid gland
+^ESCTSE783843	Secondary hyperthyroidism
+^ESCTSI342270	Simple iodine deficiency goiter
+^ESCTSI342271	Simple iodine deficiency goitre
+^ESCTSI510857	Silent thyroiditis
+^ESCTSI510859	Sick-euthyroid syndrome
+^ESCTSI510860	Sick euthyroid syndrome
+^ESCTSI549999	Simple goiter
+^ESCTSP387890	Sporadic cretinism
+^ESCTSP389080	Sporadic goitre
+^ESCTSP389081	Sporadic goiter
+^ESCTST255812	Struma of thyroid
+^ESCTST255817	Struma - goiter
+^ESCTST284978	Struma lymphomatosa
+^ESCTST284980	Struma lymphomatosis
+^ESCTST394696	Struma fibrosa thyroid
+^ESCTSU283837	Sublingual thyroid gland
+^ESCTSU357956	Substernal goitre
+^ESCTSU357962	Substernal thyroid goiter
+^ESCTSU621977	Subacute autoimmune thyroiditis
+^ESCTSU621978	Subacute lymphocytic thyroiditis
+^ESCTSU708250	Subacute granulomatous thyroiditis
+^ESCTSW255814	Swelling of thyroid gland
+^ESCTT3285624	T>3< thyrotoxicosis
+^ESCTT3285625	T3 toxicosis
+^ESCTTH254702	Thyroid hemorrhage
+^ESCTTH255813	Thyromegaly
+^ESCTTH255818	Thyroid goiter
+^ESCTTH255819	Thyroid goitre
+^ESCTTH272651	Thyroid disease
+^ESCTTH287565	Thyroid hormone coupling defect
+^ESCTTH289950	Thyrotoxicosis due to struma ovarii
+^ESCTTH292248	Thyrotoxicosis due to multinodular goiter
+^ESCTTH292249	Thyrotoxicosis with toxic multinodular goiter
+^ESCTTH292250	Thyrotoxicosis due to multinodular goitre
+^ESCTTH292251	Thyrotoxicosis with toxic multinodular goitre
+^ESCTTH294177	Thyrotoxicosis due to Hashimoto's thyroiditis
+^ESCTTH296680	Thyrotoxic crisis
+^ESCTTH296681	Thyroid storm
+^ESCTTH319994	Thyroglobulin proteolysis defect
+^ESCTTH331574	Thyroid hormone responsiveness defect
+^ESCTTH331575	Thyroid hormone unresponsiveness
+^ESCTTH335490	Thyroid hormone organification defect II A
+^ESCTTH341172	Thyroxine transport defect
+^ESCTTH346069	Thyroid disease in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTTH352641	Thyroglobulin synthesis defect
+^ESCTTH361354	Thyrotoxic myopathy
+^ESCTTH364404	Thyroid hormone organification defect II B
+^ESCTTH370096	Thyrotoxicosis with toxic single thyroid nodule
+^ESCTTH370097	Thyrotoxicosis due to uninodular goitre
+^ESCTTH370098	Thyrotoxicosis due to uninodular goiter
+^ESCTTH379267	Thyroxine plasma membrane transport defect
+^ESCTTH391828	Thyrotoxicosis from ectopic thyroid tissue
+^ESCTTH394199	Thyrotoxicosis factitia with thyrotoxic crisis
+^ESCTTH394200	Thyrotoxicosis factitia with thyrotoxic storm
+^ESCTTH395846	Thyrotoxicosis without goitre OR other cause
+^ESCTTH395847	Thyrotoxicosis without goiter OR other cause
+^ESCTTH439225	Thyroid tumour
+^ESCTTH439227	Thyroid tumor
+^ESCTTH475796	Thyroid hemorrhage and infarction
+^ESCTTH510803	Thyrotoxicosis due to Graves' disease
+^ESCTTH510806	Thyrotoxicosis due to acute thyroiditis
+^ESCTTH510811	Thyrotoxicosis in pregnancy
+^ESCTTH510819	Thyrotoxicosis on thyroxine therapy
+^ESCTTH510826	Thyrotoxicosis due to TSHoma
+^ESCTTH510827	Thyrotoxicosis due to thyrotropin-secreting pituitary adenoma
+^ESCTTH510861	Thyroid hormone binding abnormality
+^ESCTTH510862	Thyroid-binding globulin deficiency
+^ESCTTH510864	Thyroid-binding globulin high
+^ESCTTH510867	Thyroid pre-albumin binding abnormality
+^ESCTTH510884	Thyroid hormone resistance syndrome
+^ESCTTH510885	Thyroid hormone resistance
+^ESCTTH510903	Thyroid goiter multinodular
+^ESCTTH510904	Thyroid goitre multinodular
+^ESCTTH535485	Thyroid follicular adenoma
+^ESCTTH545680	Thyroid gland haematoma
+^ESCTTH545681	Thyroid gland hematoma
+^ESCTTH547767	Thyroid dysfunction
+^ESCTTH550004	Thyrotoxicosis with diffuse goitre
+^ESCTTH550007	Thyrotoxicosis with diffuse goiter
+^ESCTTH556028	Thyroid disease in pregnancy
+^ESCTTH572099	Thyrotoxicosis with or without goitre
+^ESCTTH572100	Thyrotoxicosis with or without goiter
+^ESCTTH601621	Thyroid infection
+^ESCTTH621235	Thyrotoxicosis due to pituitary thyroid hormone resistance
+^ESCTTH621240	Thyrotoxicosis due to overproduction of thyroid stimulating hormone
+^ESCTTH621242	Thyrotoxicosis due to inappropriate TSH secretion
+^ESCTTH621243	Thyrotoxicosis due to inappropriate thyroid stimulating hormone secretion
+^ESCTTH624695	Thyroid cancer
+^ESCTTH624696	Thyroid Ca
+^ESCTTH773694	Thyroid hemiagenesis
+^ESCTTH784376	Thyroid, renal, digital anomaly syndrome
+^ESCTTH795363	Thyrocerebrorenal syndrome
+^ESCTTH811809	Thyroiditis caused by amiodarone
+^ESCTTH932595	Thyroid disease in mother complicating childbirth
+^ESCTTH932596	Thyroid disease in childbirth
+^ESCTTH932598	Thyroiditis in mother complicating childbirth
+^ESCTTH932599	Thyroiditis in childbirth
+^ESCTTH932615	Thyroiditis in pregnancy
+^ESCTTO274530	Toxic diffuse goitre with acropachy
+^ESCTTO274531	Toxic diffuse goiter with acropachy
+^ESCTTO292246	Toxic multinodular goiter
+^ESCTTO292252	Toxic multinodular thyroid goiter
+^ESCTTO292253	Toxic multinodular thyroid goitre
+^ESCTTO299960	Toxic nodular goitre with thyrotoxic storm
+^ESCTTO299961	Toxic nodular goiter with thyrotoxic storm
+^ESCTTO299962	Toxic nodular goiter with thyrotoxic crisis
+^ESCTTO299963	Toxic nodular goitre with thyrotoxic crisis
+^ESCTTO343879	Toxic nodular goiter
+^ESCTTO343880	Toxic adenomatous goiter
+^ESCTTO343881	Toxic struma nodosa
+^ESCTTO343883	Toxic adenomatous goitre
+^ESCTTO347789	Toxic diffuse goitre with thyrotoxic crisis
+^ESCTTO347790	Toxic diffuse goiter with thyrotoxic crisis
+^ESCTTO347791	Toxic diffuse goiter with thyrotoxic storm
+^ESCTTO347794	Toxic diffuse goitre with thyrotoxic storm
+^ESCTTO347877	Toxic diffuse goitre with pretibial myxoedema
+^ESCTTO347878	Toxic diffuse goiter with pretibial myxedema
+^ESCTTO351187	Toxic multinodular goitre with thyrotoxic crisis
+^ESCTTO351188	Toxic multinodular goiter with thyrotoxic crisis
+^ESCTTO351189	Toxic multinodular goiter with thyrotoxic storm
+^ESCTTO351190	Toxic multinodular goitre with thyrotoxic storm
+^ESCTTO362748	Toxic uninodular goitre with thyrotoxic crisis
+^ESCTTO362749	Toxic uninodular goiter with thyrotoxic crisis
+^ESCTTO362750	Toxic uninodular goiter with thyrotoxic storm
+^ESCTTO362751	Toxic uninodular goitre with thyrotoxic storm
+^ESCTTO370094	Toxic uninodular goiter
+^ESCTTO370095	Toxic thyroid nodule
+^ESCTTO370099	Toxic uninodular thyroid goitre
+^ESCTTO370100	Toxic uninodular thyroid goiter
+^ESCTTO475766	Toxic diffuse goiter with no crisis
+^ESCTTO475768	Toxic diffuse goiter with crisis
+^ESCTTO475770	Toxic uninodular goiter with no crisis
+^ESCTTO475774	Toxic multinodular goiter with no crisis
+^ESCTTO510802	Toxic goiter
+^ESCTTO550006	Toxic primary thyroid hyperplasia
+^ESCTTO550008	Toxic diffuse goiter
+^ESCTTO550010	Toxic diffuse thyroid goitre
+^ESCTTO550011	Toxic diffuse thyroid goiter
+^ESCTTO736467	Toxic thyroid adenoma
+^ESCTTR254547	Transient hypothyroidism
+^ESCTTR258898	Transient neonatal hyperthyroidism
+^ESCTTR279546	Transient decreased production of T>4<
+^ESCTTR318132	Transient decreased production of T>3<
+^ESCTTR323286	Triple A syndrome
+^ESCTTR365391	Transient decreased production of thyroid hormone
+^ESCTTR558717	Transient neonatal hypothyroidism
+^ESCTTR558811	Transient hypothyroxinaemia
+^ESCTTR558812	Transient hypothyroxinemia
+^ESCTTR558813	Transient hypothyrotropinaemia
+^ESCTTR558814	Transient hypothyrotropinemia
+^ESCTTR786932	TRH (thyrotropin-releasing hormone) resistance syndrome
+^ESCTTS384368	TSH - Thyroid stimulating hormone deficiency
+^ESCTTS510888	TSH resistance
+^ESCTTU439226	Tumour of thyroid gland
+^ESCTTU439228	Tumor of thyroid gland
+^ESCTUN331578	Unresponsiveness of thyroid gland to thyrotropin
+^ESCTUN510898	Uninodular goitre
+^ESCTUN510899	Uninodular goiter
+^ESCTVI326590	Viral thyroiditis
+^ESCTWO394695	Woody thyroiditis
+^ESCTXL253470	X-linked absence of thyroxine-binding globulin
+^ESCTXL316550	X-linked reduction of thyroxine-binding globulin
+^ESCTXL339791	X-linked excess of thyroxine-binding globulin
+^ESCTXL368855	X-linked variant form of thyroxine-binding globulin
+^ESCTYO751992	Young-Simpson syndrome
+EMISNQSE16	Secondary hypothyroidism
+EMISNQSU54	Subclinical hyperthyroidism
+ESCTFA1	Familial dysalbuminaemic hyperthyroxinaemia
+^ESCTCO510844	Compensated hypothyroidism
+^ESCTCO510846	Compensated euthyroidism
+^ESCTHY283809	Hypothyroid coma
+^ESCTHY572101	Hypothyroidism - congenital and acquired
+^ESCTMY283808	Myxedema coma
+^ESCTNE419385	Neurologic form of cretinism
