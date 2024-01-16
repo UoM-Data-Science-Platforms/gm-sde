@@ -500,12 +500,16 @@ LINK: [https://github.com/rw251/.../conditions/coronary-heart-disease/1](https:/
 
 ### Stroke
 
-Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.
+Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes. Does not include codes for types of vascular dementia such as multi infarct dementia, which are usually caused by a series of mini strokes. Excludes "history of" codes.
+
+Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
+
+_Update **2023-11-16**: Prevalence now 1.2% - 1.5% when examining codes_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -515,6 +519,12 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2023-09-12 | EMIS            | 2463856    |   23678 (0.961%) |    11237 (0.456%) |
 | 2023-09-12 | TPP             | 200590     |     2631 (1.31%) |      2593 (1.29%) |
 | 2023-09-12 | Vision          | 332095     |    3098 (0.933%) |     1699 (0.512%) |
+| 2023-11-16 | EMIS            | 2482563    |    33303 (1.34%) |     30532 (1.23%) |
+| 2023-11-16 | TPP             | 201030     |     3195 (1.59%) |      2963 (1.47%) |
+| 2023-11-16 | Vision          | 333490     |     4302 (1.29%) |      3924 (1.18%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-16
 
 LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
 
@@ -618,6 +628,8 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 **UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
 
+_Update **2023/11/01**: prevalence now `61.2% - 65.7%` for EMIS and VISION. TPP higher at 73%._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
@@ -626,8 +638,14 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
 | 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
 | 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+| 2023-11-01 | EMIS            | 2472595    |  1624196 (65.7%) |   1624289 (65.7%) |
+| 2023-11-01 | TPP             | 200603     |     146449 (73%) |      146448 (73%) |
+| 2023-11-01 | Vision          | 332447     |   203333 (61.2%) |    203347 (61.2%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
 
 LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
 # Clinical code sets
 
-All code sets required for this analysis are available here: [https://github.com/rw251/.../043 - Cruickshank/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/043%20-%20Cruickshank/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
+All code sets required for this analysis are available here: [https://github.com/rw251/.../043 - Hyman/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/043%20-%20Hyman/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
