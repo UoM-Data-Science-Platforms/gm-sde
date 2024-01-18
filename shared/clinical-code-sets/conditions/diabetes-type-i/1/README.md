@@ -19,3 +19,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-09-15 | EMIS            | 2463856    |   10999 (0.446%) |    10253 (0.416%) |
 | 2023-09-15 | TPP             | 200590     |    1096 (0.546%) |     1092 (0.544%) |
 | 2023-09-15 | Vision          | 332095     |    1578 (0.475%) |     1459 (0.439%) |
+
+## Audit log
+
+- Find_missing_codes last run 2024-01-18

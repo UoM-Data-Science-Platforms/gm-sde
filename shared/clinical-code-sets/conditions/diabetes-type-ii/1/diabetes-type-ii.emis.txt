@@ -1,0 +1,38 @@
+^ESCT1245075	Type 2 diabetes mellitus with gangrene
+^ESCT1245077	Type II diabetes mellitus with gangrene
+^ESCT1245414	Non-insulin-dependent diabetes mellitus with gangrene
+^ESCT1248544	NIDDM with peripheral circulatory disorder
+^ESCT1248985	Type II diabetes mellitus with exudative maculopathy
+^ESCT1270241	Type II diabetes mellitus with neurological complications
+^ESCT1270242	Type II diabetes mellitus with ophthalmic complications
+^ESCTBR730675	Brittle type 2 diabetes mellitus
+^ESCTBR730676	Brittle type II diabetes mellitus
+^ESCTDI320943	Diabetes mellitus type II
+^ESCTDI320944	Diabetes mellitus type 2
+^ESCTDI382573	Diabetes mellitus type 2 in obese
+^ESCTDI510946	Diabetes type 2 on insulin
+^ESCTDI620475	Diabetes mellitus type 2 in nonobese
+^ESCTDI695981	Diabetes type 2 with cataract
+^ESCTDI696993	Diabetes type 2 with neurological disorder
+^ESCTDI697743	Diabetes type 2 with ketoacidosis
+^ESCTDI697925	Diabetes mellitus type 2 with ketoacidotic coma
+^ESCTDI698252	Diabetes type 2 with retinopathy
+^ESCTDI796875	Diabetes mellitus type 2 without retinopathy
+^ESCTLA730677	Labile type II diabetes mellitus
+^ESCTMA510956	Maturity onset diabetes of the young, type 2
+^ESCTMA510958	Maturity onset diabetes in youth type II
+^ESCTMO510959	MODY - Maturity onset diabetes in youth type II
+^ESCTMO510961	MODY - Maturity onset diabetes in youth type 2
+^ESCTMO510962	MODY - Maturity onset diabetes glucokinase-related
+^ESCTMO510963	MODY2
+^ESCTTY382572	Type 2 diabetes mellitus in obese
+^ESCTTY475801	Type 2 diabetes mellitus with hyperosmolar coma
+^ESCTTY620474	Type 2 diabetes mellitus in nonobese
+^ESCTTY728151	Type 2 diabetes mellitus uncontrolled
+^ESCTTY728819	Type 2 diabetes mellitus well controlled
+^ESCTTY728820	Type II diabetes mellitus well controlled
+^ESCTTY801206	Type 2 diabetic on insulin
+^ESCTTY801207	Type II diabetes on insulin
+^ESCTTY801208	Type 2 diabetic on diet only
+^ESCTTY801209	Type II diabetes on diet only
+^ESCTUN730678	Unstable type II diabetes mellitus
