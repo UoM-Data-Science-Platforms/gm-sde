@@ -7,4 +7,3 @@
 722451000000101	Passive smoking (qualifier value)
 1104241000000108	Ex-smoker in household (situation)
 94151000119101	Smoker in home environment
-443877004	Family history of smoking
