@@ -32,3 +32,5 @@ XE0V9	Heart failure NOS
 XE0Wo	Right heart failure
 XE2QG	Left heart failure
 XM1Qn	Impaired left ventricular function
+SP111	Heart failure as a complication of care
+X202k	Heart failure as a complication of care

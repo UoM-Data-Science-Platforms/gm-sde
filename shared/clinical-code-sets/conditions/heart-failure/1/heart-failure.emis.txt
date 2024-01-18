@@ -89,3 +89,7 @@
 ^ESCTBE271941	Bernheim syndrome
 ^ESCTBI400530	Biventricular failure
 ^ESCTCA378238	Cardiopathia nigra
+^ESCT1397130	Low output heart failure due to and following Fontan operation
+^ESCT1397131	Failure of Fontan type circulation
+^ESCT1415115	Heart failure due to thyrotoxicosis
+^ESCT1415116	Thyrotoxic heart failure

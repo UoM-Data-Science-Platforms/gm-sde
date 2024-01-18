@@ -18,7 +18,6 @@
 89242004	Malignant secondary hypertension (disorder)
 908631000000108	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) without evidence of end organ damage (disorder)
 908651000000101	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) with evidence of end organ damage (disorder)
-24184005	Finding of increased blood pressure (finding)
 38341003	Raised blood pressure (disorder)
 10725009	Benign hypertension
 14973001	Renal sclerosis with hypertension
@@ -47,3 +46,22 @@
 140111000119107	Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus
 140121000119100	Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus
 140131000119102	Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus
+128001000119105	Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus (disorder)
+57684003	Parenchymal renal hypertension (disorder)
+123800009	Goldblatt hypertension (disorder)
+443482000	Hypertensive urgency (disorder)
+28119000	Renal hypertension (disorder)
+59997006	Endocrine hypertension (disorder)
+1208839002	Secondary hypertension due to renal tubular disorder (disorder)
+132721000119104	Hypertensive emergency (disorder)
+1204139007	Hypertension due to congenital adrenal hyperplasia (disorder)
+367821000119106	Hypertension due to compression of renal parenchyma (disorder)
+706882009	Hypertensive crisis (disorder)
+127991000119101	Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus (disorder)
+194791005	Hypertension caused by drug (disorder)
+1208845005	Secondary hypertension due to congenital heart disorder (disorder)
+169465000	Hypertension caused by oral contraceptive pill (disorder)
+39018007	Renal arterial hypertension (disorder)
+40511000119107	Postpartum pre-existing essential hypertension (disorder)
+704667004	Hypertension concurrent and due to end stage renal disease on dialysis (disorder)
+720568003	Brachydactyly and arterial hypertension syndrome (disorder)
