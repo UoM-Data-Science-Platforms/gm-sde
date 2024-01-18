@@ -1,2 +1,111 @@
 EMISNQAC878	Acute non-infective exacerbation of chronic obstructive pulmonary disease
 ESCTAC8	Acute infective exacerbation of chronic obstructive airways disease
+
+
+
+
+
+
+
+
+
+
+
+
+
+^ESCT1177971	CLE - Congenital lobar emphysema
+^ESCT1182857	Bronchiolitis fibrosa obliterans
+^ESCT1248980	Admit COPD emergency
+^ESCT1365146	Chronic bronchitis co-occurrent with wheeze
+^ESCT1393679	Chronic emphysema due to vapour
+^ESCT1393680	Chronic emphysema caused by vapour
+^ESCT1394395	Bilateral congenital lobar emphysema
+^ESCT1394396	Congenital lobar emphysema of bilateral lungs
+^ESCT1394397	Congenital lobar emphysema of both lungs
+^ESCT1407139	COPD (chronic obstructive pulmonary disease) with acute lower respiratory infection
+^ESCT1416137	Emphysema of left lung
+^ESCT1416138	Emphysema of right lung
+^ESCTAC478142	Acute exacerbation of COPD
+^ESCTAC478143	Acute exacerbation of chronic obstructive pulmonary disease
+^ESCTAC704901	Acute exacerbation of chronic bronchitis
+^ESCTAC797017	Acute exacerbation of chronic obstructive airways disease with asthma
+^ESCTAC809019	Acute exacerbation of chronic obstructive bronchitis
+^ESCTAC828717	Acute non-infective exacerbation of COPD (chronic obstructive pulmonary disease)
+^ESCTAC931734	ACOS - asthma-chronic obstructive pulmonary disease overlap syndrome
+^ESCTAL257891	Alveolar emphysema of lung
+^ESCTAS931733	Asthma-COPD overlap syndrome (ACOS)
+^ESCTBI505491	BIP - Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCTBR365087	Bronchial atresia with segmental pulmonary emphysema
+^ESCTBR473300	Bronchitis with airway obstruction
+^ESCTBR505490	Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCTBU478147	Bullous emphysema
+^ESCTCA271627	CAFL - Chronic airflow limitation
+^ESCTCA271629	CAO - Chronic airflow obstruction
+^ESCTCA271631	CAL - Chronic airflow limitation
+^ESCTCA395562	Catarrhal bronchitis
+^ESCTCE361179	Centriacinar emphysema
+^ESCTCH271623	Chronic obstructive lung disease
+^ESCTCH271624	Chronic airway obstruction
+^ESCTCH271625	Chronic irreversible airway obstruction
+^ESCTCH271626	Chronic airflow obstruction
+^ESCTCH271630	Chronic airflow limitation
+^ESCTCH271634	Chronic airway disease
+^ESCTCH302430	Chronic obliterative bronchiolitis due to inhalation of chemical fumes AND/OR vapours
+^ESCTCH302431	Chronic obliterative bronchiolitis due to inhalation of chemical fumes AND/OR vapors
+^ESCTCH302432	Chronic bronchiolitis obliterans due to chemical fumes
+^ESCTCH302433	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapors
+^ESCTCH302434	Chronic bronchiolitis obliterans caused by chemical fumes
+^ESCTCH302435	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapours
+^ESCTCH357506	Chronic diffuse emphysema due to inhalation of chemical fumes AND/OR vapours
+^ESCTCH357507	Chronic diffuse emphysema due to inhalation of chemical fumes AND/OR vapors
+^ESCTCH357508	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapors
+^ESCTCH357509	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapours
+^ESCTCH473299	Chronic bronchitis with emphysema
+^ESCTCH473303	Chronic obstructive bronchitis
+^ESCTCH478182	Chronic emphysema caused by chemical fumes
+^ESCTCH478184	Chemical bronchiolitis obliterans
+^ESCTCH505430	Chemical emphysema
+^ESCTCH621364	Chronic mucus hypersecretion
+^ESCTCH803322	Chronic obstructive lung disease co-occurrent with acute bronchitis
+^ESCTCL327487	CLE - Congenital lobar emphysema
+^ESCTCO271632	COPD - Chronic obstructive pulmonary disease
+^ESCTCO271635	COLD - Chronic obstructive lung disease
+^ESCTCO327486	Congenital emphysema
+^ESCTCO358923	Congenital lobar emphysema
+^ESCTCO473301	COB - Chronic obstructive bronchitis
+^ESCTCO762716	Combined pulmonary fibrosis and emphysema syndrome
+^ESCTCO812098	COPD (Chronic obstructive pulmonary disease) patient unsuitable for pulmonary rehabilitation
+^ESCTCP762715	CPFE - combined pulmonary fibrosis and emphysema
+^ESCTDR505426	Drug-induced bronchiolitis obliterans
+^ESCTEM392136	Emphysema of lung
+^ESCTEM478146	Emphysematous bulla
+^ESCTEM676323	Emergency hospital admission for chronic obstructive pulmonary disease
+^ESCTEM676325	Emergency hospital admission for COPD (chronic obstructive pulmonary disease)
+^ESCTEN451080	End stage chronic obstructive pulmonary disease
+^ESCTFE387319	Fetid chronic bronchitis
+^ESCTHA348778	Haemolytic anaemia with emphysema AND cutis laxa
+^ESCTHE348779	Hemolytic anemia with emphysema AND cutis laxa
+^ESCTIN327488	Infantile lobar emphysema
+^ESCTIN330431	Industrial bronchitis
+^ESCTMA322831	MacLeod's syndrome
+^ESCTOB276742	Obstructive emphysema
+^ESCTOB314522	Obliterative bronchiolitis
+^ESCTOB314523	OB - Obliterative bronchiolitis
+^ESCTOB473302	Obstructive chronic bronchitis
+^ESCTOC330430	Occupational bronchitis
+^ESCTOC330432	Occupational chronic bronchitis
+^ESCTPA257888	Panacinar emphysema
+^ESCTPA301380	Paraseptal emphysema
+^ESCTPE301381	Peripheral lobular emphysema
+^ESCTPU505427	Pulmonary emphysema in alpha-1 PI deficiency
+^ESCTPU505428	Pulmonary emphysema in alpha-1 primary immunodeficiency deficiency
+^ESCTPU762714	Pulmonary emphysema co-occurrent with fibrosis of lung
+^ESCTSC505431	Scar emphysema
+^ESCTSU301382	Subpleural emphysema
+^ESCTSW322833	Swyer-James syndrome
+^ESCTTO478183	Toxic bronchiolitis obliterans
+^ESCTTO505429	Toxic emphysema
+^ESCTUN322830	Unilateral emphysema
+^ESCTUN322832	Unilateral hyperlucent lung
+^ESCTVA288231	Vanishing lung
+^ESCTVE257890	Vesicular emphysema

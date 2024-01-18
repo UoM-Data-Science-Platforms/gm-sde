@@ -4,6 +4,8 @@ Any suggestion of a diagnosis of COPD.
 
 Developed from https://getset.ga.
 
+- Includes "obliterative bronchiolitis" as a similar condition to COPD. Might not be required for all studies.
+
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.17% - 2.48%` in 2023 suggests that this code set is well defined.
@@ -16,3 +18,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-09-15 | EMIS            | 2463856    |    53577 (2.17%) |     53551 (2.17%) |
 | 2023-09-15 | TPP             | 200590     |     4959 (2.47%) |      4966 (2.48%) |
 | 2023-09-15 | Vision          | 332095     |     7382 (2.22%) |      7374 (2.22%) |
+
+## Audit log
+
+- Find_missing_codes last run 2024-01-17
