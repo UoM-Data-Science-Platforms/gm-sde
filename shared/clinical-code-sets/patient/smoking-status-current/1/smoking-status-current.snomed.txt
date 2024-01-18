@@ -5,7 +5,6 @@
 394873005	Not interested in stopping smoking (finding)
 394872000	Ready to stop smoking (finding)
 394871007	Thinking about stopping smoking (observable entity)
-266918002	Tobacco smoking consumption (observable entity)
 230057008	Cigar consumption (observable entity)
 230056004	Cigarette consumption (observable entity)
 160623006	Smoking: [started] or [restarted]
@@ -26,3 +25,21 @@
 230058003	Pipe tobacco consumption (observable entity)
 134406006	Smoking reduced (observable entity)
 82302008	Pipe smoker (life style)
+56578002	Moderate smoker (20 or less per day) (finding)
+56771006	Heavy smoker (over 20 per day) (finding)
+160613002	Admitted tobacco consumption possibly untrue
+230060001	Light cigarette smoker (finding)
+230062009	Moderate cigarette smoker (finding)
+230063004	Heavy cigarette smoker (finding)
+230064005	Very heavy cigarette smoker (finding)
+230065006	Chain smoker (finding)
+449868002	Smokes tobacco daily (finding)
+203191000000107	Wants to stop smoking
+228487000	Total time smoked (observable entity)
+228488005	Age at starting smoking (observable entity)
+864091000000103	Number of previous attempts to stop smoking
+1092481000000104	Number of calculated smoking pack years (observable entity)
+26663004	Cigar smoking tobacco (substance)
+66562002	Cigarette smoking tobacco (substance)
+84498003	Pipe smoking tobacco (substance)
+698289004	Hookah pipe smoker (finding)
