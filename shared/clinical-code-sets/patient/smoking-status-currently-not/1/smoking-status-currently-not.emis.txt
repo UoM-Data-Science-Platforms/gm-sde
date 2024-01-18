@@ -1,0 +1,7 @@
+^ESCTAG621746	Aggressive non-smoker
+^ESCTCU671807	Current non smoker but past smoking history unknown
+^ESCTIN621756	Intolerant non-smoker
+^ESCTNO412028	Non-smoker for personal reasons
+^ESCTNO412029	Non-smoker for religious reasons
+^ESCTNO412030	Non-smoker for medical reasons
+^ESCTTO392605	Tolerant non-smoker
