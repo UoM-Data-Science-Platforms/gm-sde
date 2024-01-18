@@ -7,10 +7,8 @@
 3235.	ECG: subendocardial infarct
 3236.	ECG: lateral infarction
 323Z.	ECG: myocardial infarct NOS
-32B..	Q wave
 32B2.	ECG: Q wave abnormal
 32B3.	Pathological Q wave
-32BZ.	ECG: Q wave NOS
 79291	Percut transluminal coronary thrombolysis with streptokinase
 G30..	(Myocard inf (& [ac][silent][card rupt])) or (coron thromb)
 G300.	Acute anterolateral myocardial infarction
@@ -78,10 +76,6 @@ X200Y	Old lateral myocardial infarction
 X200Z	Old posterior myocardial infarction
 X201u	Post-infarction pericarditis
 X203v	Coronary artery thrombosis
-X77Cr	Q wave height
-X77Cs	Q wave height increased
-X77Ct	Q wave height decreased
-X77DK	Q wave shape
 Xa0YL	Acute anterior myocardial infarction
 Xa1dP	Ischaemic myocardial dysfunction
 XaAC3	Acute Q wave myocardial infarction
@@ -100,7 +94,6 @@ XaFx7	Diab mellit insulin-glucose infus acute myocardial infarct
 XaIf1	First myocardial infarction
 XaIwM	Acute ST segment elevation myocardial infarction
 XaIwY	Acute non-ST segment elevation myocardial infarction
-XaJIU	Coronary artery bypass graft occlusion
 XaJX0	Acute posterolateral myocardial infarction
 XaQk7	History of myocardial infarction
 XaRFL	Exception reporting: myocardial infarction quality indicator
@@ -110,3 +103,4 @@ XE0Uh	Acute myocardial infarction
 XE0WA	Myocardial infarction (& [acute]) or coronary thrombosis
 XE2aA	Old myocardial infarction
 Y1eef	Mixed myocardial ischaemia and infarction
+XaINF	Acute coronary syndrome

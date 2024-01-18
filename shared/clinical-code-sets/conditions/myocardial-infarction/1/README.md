@@ -1,6 +1,9 @@
-# Myocardial infarction
+# Myocardial infarction (MI)
 
 Any code that indicates that a person has had a myocardial infarction. NB This includes "history" codes as well so is not best suited if you solely want to know when a diagnosis occurred.
+
+- Includes acute coronary syndrome
+- Includes aborted myocardial infarction
 
 ## Prevalence log
 
