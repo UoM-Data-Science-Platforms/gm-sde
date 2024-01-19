@@ -1,0 +1,6 @@
+9631008	Ankylosing spondylitis (disorder)
+786077003	Ankylosing spondylitis co-occurrent with anterior uveitis (disorder)
+239811003	Ankylosing spondylitis with multisystem involvement (disorder)
+239810002	Ankylosing spondylitis with organ / system involvement (disorder)
+239806000	Juvenile spondyloarthropathy (disorder)
+239805001	Juvenile ankylosing spondylitis (disorder)

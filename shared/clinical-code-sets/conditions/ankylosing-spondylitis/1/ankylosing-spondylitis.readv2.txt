@@ -1,0 +1,2 @@
+N045000	Juvenile ankylosing spondylitis
+N100.00	Ankylosing spondylitis
