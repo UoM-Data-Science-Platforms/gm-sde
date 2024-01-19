@@ -6,3 +6,14 @@
 1300731000000106	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed using clinical diagnostic criteria (situation)
 1240751000000100 	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2
 189486241000119100 	Asymptomatic Severe acute respiratory syndrome coronavirus 2 infection
+871555000	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 (observable entity)
+50321000237103	Qualitative result of severe acute respiratory syndrome coronavirus 2 ribonucleic acid nucleic acid amplification (observable entity)
+871560001	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 using polymerase chain reaction (observable entity)
+1269559008	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 using microchip real time polymerase chain reaction (observable entity)
+871559006	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 in bronchoalveolar lavage fluid (observable entity)
+871558003	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 in sputum (observable entity)
+871557008	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 in oropharyngeal swab (observable entity)
+871556004	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 in nasopharyngeal swab (observable entity)
+871553007	Detection of severe acute respiratory syndrome coronavirus 2 antigen (observable entity)
+51631000237101	Qualitative result of severe acute respiratory syndrome coronavirus 2 antigen in serum (observable entity)
+840539006	Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)

@@ -1,3 +1,6 @@
 4J3R6	SARS-CoV-2 RNA pos lim detect
 A7952	COVID-19 confirmed by laboratory test
 43hF.	Detection of SARS-CoV-2 by PCR 
+43jS.00	Coronavirus nucleic acid detection
+43jS000	Coronavirus nucleic acid detection assay
+43jS100	Coronavirus ribonucleic acid detection assay

@@ -10,3 +10,12 @@
 ^ESCT1348359	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection
 ^ESCT1299054	Detection of Wuhan 2019-nCoV (novel coronavirus) using polymerase chain reaction technique
 ^ESCT1299055	Detection of 2019 novel coronavirus using polymerase chain reaction technique
+^ESCT1348570	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction
+^ESCT1348571	Detection of ribonucleic acid of COVID-19 using polymerase chain reaction
+^ESCT1348572	Detection of ribonucleic acid of 2019 novel coronavirus using polymerase chain reaction
+^ESCT1348573	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 using polymerase chain reaction
+^ESCT1348574	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) using polymerase chain reaction
+^ESCTCO806483	Coronavirus nucleic acid detection
+^ESCTCO832162	Coronavirus nucleic acid detection assay
+^ESCTCO833909	Coronavirus RNA (ribonucleic acid) detection assay
+^ESCT1348315	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detected
