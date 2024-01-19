@@ -11,8 +11,6 @@
 ^ESCTAT300270	Attention deficit hyperactivity disorder combined
 ^ESCTAT306815	Attention deficit hyperactivity disorder, predominantly inattentive type
 ^ESCTAT672862	Attention deficit hyperkinetic disorder
-^ESCTAT751145	Attention deficit hyperactivity disorder, predominantly inattentive type in remission
-^ESCTAT751148	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type in remission
 ^ESCTAT756697	Attention deficit hyperactivity disorder, inattentive presentation (restrictive)
 ^ESCTDR756267	Drug therapy for attention deficit hyperactivity disorder
 ^ESCTHY672858	Hyperkinetic disorder
@@ -21,3 +19,7 @@
 ^ESCTLO803683	Long term ADHD medication therapy
 ^ESCTNO757383	Non-stimulant drug therapy for attention deficit hyperactivity disorder
 ^ESCTST756264	Stimulant drug therapy for attention deficit hyperactivity disorder
+^ESCTAD306817	ADD - Attention deficit disorder without hyperactivity
+^ESCTAT306818	Attention deficit disorder without hyperactivity
+^ESCTDA499839	DAMP - Deficits in attention motor control and perception
+^ESCTUN286909	Undifferentiated attention deficit disorder

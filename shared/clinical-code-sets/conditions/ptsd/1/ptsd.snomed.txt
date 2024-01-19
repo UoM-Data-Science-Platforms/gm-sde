@@ -1,0 +1,25 @@
+154959008	Acute reaction to stress (& [post-traumatic] or [shell-shock])
+154968005	Chronic post-traumatic stress disorder
+191501001	Acute confusional state, post-traumatic
+191508007	Subacute confusional state, post-traumatic
+192036009	Acute reaction to stress (& [combat fatigue])
+192062000	Other post-traumatic stress disorder
+192414001	[X] Acute stress reaction (& [crisis reaction] or [crisis state] or [psychic shock] or [combat fatigue])
+192415000	Post-traumatic stress disorder
+229675006	Post-traumatic mutism
+268791005	Acute reaction to stress (& [post-traumatic] or [shell-shock])
+275277000	Post-traumatic amnesia
+279611005	Shell shock
+428687006	Nightmares associated with chronic post-traumatic stress disorder
+620181000000106	Other post-traumatic stress disorder
+39093002	Post-trauma response
+1149252007	Improvement in response to trauma
+47505003	Posttraumatic stress disorder (disorder)
+443919007	Complex posttraumatic stress disorder (disorder)
+318784009	Posttraumatic stress disorder, delayed onset (disorder)
+446180007	Delayed posttraumatic stress disorder following military combat (disorder)
+313182004	Chronic post-traumatic stress disorder (disorder)
+699241002	Chronic post-traumatic stress disorder following military combat (disorder)
+192042008	Acute post-trauma stress state (disorder)
+446175003	Acute posttraumatic stress disorder following military combat (disorder)
+61157009	Combat fatigue

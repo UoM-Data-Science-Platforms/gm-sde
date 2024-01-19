@@ -6,7 +6,7 @@ Developed from https://getset.ga.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.42% - 0.48%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.42% - 0.55%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -19,6 +19,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-09-15 | EMIS            | 2463856    |   10999 (0.446%) |    10253 (0.416%) |
 | 2023-09-15 | TPP             | 200590     |    1096 (0.546%) |     1092 (0.544%) |
 | 2023-09-15 | Vision          | 332095     |    1578 (0.475%) |     1459 (0.439%) |
+| 2024-01-19 | EMIS            | 2519438    |   11460 (0.455%) |    10629 (0.422%) |
+| 2024-01-19 | TPP             | 201469     |    1118 (0.555%) |     1101 (0.546%) |
+| 2024-01-19 | Vision          | 334528     |    1612 (0.482%) |     1486 (0.444%) |
 
 ## Audit log
 

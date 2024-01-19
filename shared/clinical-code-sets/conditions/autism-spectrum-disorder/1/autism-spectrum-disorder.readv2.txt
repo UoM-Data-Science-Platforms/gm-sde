@@ -35,3 +35,10 @@ Eu84314	[X]Symbiotic psychosis
 Eu84300	[X]Other childhood disintegrative disorder
 Eu84312	[X]Disintegrative psychosis
 Eu84314	[X]Symbiotic psychosis
+E141.00	Disintegrative psychosis
+E141000	Active disintegrative psychoses
+E141100	Residual disintegrative psychoses
+E141z00	Disintegrative psychosis NOS
+Eu84200	[X]Rett's syndrome
+Eu84500	[X]Asperger's syndrome
+Eu84600	Pathological demand avoidance

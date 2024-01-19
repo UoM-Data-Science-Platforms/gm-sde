@@ -19,3 +19,86 @@
 ^ESCTPR843868	Pre-school Autism Communication Therapy
 ^ESCTRE846354	Referral to autism assessment service
 EGTON219	Suspected autism
+
+
+
+^ESCT1235866	X-linked intellectual disability-psychosis-macroorchidism syndrome
+^ESCT1349549	Developmental delay with autism spectrum disorder and gait instability
+^ESCT1350280	Autism epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency
+^ESCT1350370	Autism spectrum disorder due to AUTS2 deficiency
+^ESCT1350371	Autism spectrum disorder due to AUTS2 activator of transcription and developmental regulator deficiency
+^ESCT1350372	AUTS2 syndrome
+^ESCT1362668	Macrocephaly, intellectual disability, autism syndrome
+^ESCT1396332	Pervasive developmental disorder with marked impairment of functional language with loss of previously acquired skills
+^ESCT1396333	Autism spectrum disorder with marked impairment of functional language with loss of previously acquired skills
+^ESCT1396334	Pervasive developmental disorder with marked impairment of functional language without loss of previously acquired skills
+^ESCT1396335	Autism spectrum disorder with marked impairment of functional language without loss of previously acquired skills
+^ESCT1396336	Pervasive developmental disorder with disorder of intellectual development without loss of previously acquired skills
+^ESCT1396337	Autism spectrum disorder with disorder of intellectual development and with mild or no impairment of functional language without loss of previously acquired skills
+^ESCT1396338	Pervasive developmental disorder with impairment of functional language
+^ESCT1396339	Autism spectrum disorder with impaired functional language
+^ESCT1396340	Pervasive developmental disorder with disorder of intellectual development and pervasive impairment of functional language without loss of previously acquired skills
+^ESCT1396341	Autism spectrum disorder with disorder of intellectual development and absence of functional language without loss of previously acquired skills
+^ESCT1396342	Pervasive developmental disorder with disorder of intellectual development with loss of previously acquired skills
+^ESCT1396343	Autism spectrum disorder with disorder of intellectual development and with mild or no impairment of functional language with loss of previously acquired skills
+^ESCT1396344	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language with loss of previously acquired skills
+^ESCT1396345	Autism spectrum disorder with disorder of intellectual development and with impaired functional language with loss of previously acquired skills
+^ESCT1396346	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language without loss of previously acquired skills
+^ESCT1396347	Autism spectrum disorder with disorder of intellectual development and impaired functional language without loss of previously acquired skills
+^ESCT1396348	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills
+^ESCT1396349	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills
+^ESCT1396350	Pervasive developmental disorder with disorder of intellectual development and abscence of functional language with loss of previously acquired skills
+^ESCT1396351	Autism spectrum disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills
+^ESCT1396352	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills
+^ESCT1396353	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills
+^ESCT1396368	Pervasive developmental disorder with severe impairment of functional language with loss of previously acquired skills
+^ESCT1396369	Autism spectrum disorder with severe impairment of functional language with loss of previously acquired skills
+^ESCT1396372	Pervasive developmental disorder with severe impairment of functional language without loss of previously acquired skills
+^ESCT1396373	Autism spectrum disorder with severe impairment of functional language without loss of previously acquired skills
+^ESCT1396402	Pervasive developmental disorder with complete impairment of functional language with loss of previously acquired skills
+^ESCT1396403	Autism spectrum disorder with complete impairment of functional language with loss of previously acquired skills
+^ESCT1396404	Pervasive developmental disorder with complete impairment of functional language without loss of previously acquired skills
+^ESCT1396405	Autism spectrum disorder with complete impairment of functional language without loss of previously acquired skills
+^ESCT1396406	Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language
+^ESCT1396407	Autism spectrum disorder with disorder of intellectual development and impaired functional language
+^ESCT1396408	Pervasive developmental disorder with complete impairment of functional language
+^ESCT1396409	Autism spectrum disorder with complete impairment of functional language
+^ESCT1396410	Pervasive developmental disorder with abscence of functional language
+^ESCT1396411	Autism spectrum disorder with absence of functional language
+^ESCT1396412	Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language
+^ESCT1396413	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language
+^ESCT1408715	Lindsay Burn syndrome
+^ESCT1421528	Pervasive developmental disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills
+^ESCT1P778878	1p21.3 microdeletion syndrome
+^ESCTAS287598	Asperger's disorder
+^ESCTAS287601	Asperger disorder
+^ESCTAS287602	Aspergers disorder
+^ESCTAS846578	Assessment using ADI-R (Autism Diagnostic Interview-Revised)
+^ESCTAT777171	Atypical Rett syndrome
+^ESCTAU638332	Autistic spectrum disorder with isolated skills
+^ESCTAU795967	Autism spectrum disorder, epilepsy, arthrogryposis syndrome
+^ESCTCD367062	CDD - Childhood disintegrative disorder
+^ESCTCE361655	Cerebroatrophic hyperammonemia
+^ESCTCE361656	Cerebroatrophic hyperammonaemia
+^ESCTCH367058	Childhood disintegrative disorder
+^ESCTDE367060	Dementia infantilis
+^ESCTDU784270	Duplication/inversion 15q11
+^ESCTFO756115	FOXG1 syndrome
+^ESCTIN784272	Inverted duplication 15
+^ESCTIS784269	Isodicentric chromosome 15 syndrome
+^ESCTIS784271	Isodicentric 15 chromosome
+^ESCTMO778879	Monosomy 1p21.3
+^ESCTNO784273	Non-distal tetrasomy 15q
+^ESCTPD769682	PDA (Pathological demand avoidance)
+^ESCTPE801639	Pervasive developmental disorder of residual state
+^ESCTPP755877	PPM-X syndrome
+^ESCTPP755878	PPMX - Mental retardation with psychosis, pyramidal signs, and macroorchidism
+^ESCTRE361653	Rett's disorder
+^ESCTRE361658	Rett disorder
+^ESCTRE361659	Retts syndrome
+^ESCTRE762723	Residual Asperger's disorder
+^ESCTRT361657	RTS - Rett syndrome
+^ESCTSA715284	Savant syndrome
+^ESCTSC287599	Schizoid disorder of childhood
+^ESCTSL795968	SLC35A3-CDG - solute carrier family 35 member A3 congenital disorder of glycosylation
+^ESCTXL755879	X-linked mental retardation, syndromic 13

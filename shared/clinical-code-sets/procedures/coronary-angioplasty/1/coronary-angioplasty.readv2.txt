@@ -16,6 +16,5 @@
 793G300	Percutaneous coronary balloon angioplasty and 3 or more stents into coronary artery NEC
 793Gy00	Other specified percutaneous transluminal balloon angioplasty and stenting of coronary artery
 793Gz00	Percutaneous transluminal balloon angioplasty and stenting of coronary artery NOS
-8L41.00	Coronary angioplasty planned
 ZV45800	[V]Presence of coronary angioplasty implant and graft
 ZV45L00	[V]Status following coronary angioplasty NOS
