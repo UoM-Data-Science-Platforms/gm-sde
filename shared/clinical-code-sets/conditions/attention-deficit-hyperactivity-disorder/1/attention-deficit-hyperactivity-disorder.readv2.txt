@@ -26,3 +26,11 @@ Eu90z11	[X]Hyperkinetic reaction of childhood or adolescence NOS
 Eu90z12	[X]Hyperkinetic syndrome NOS
 Eu9y7	[X]Attention deficit disorder
 Eu9y700	[X]Attention deficit disorder
+E2E0.00	Child attention deficit disorder
+E2E0000	Attention deficit without hyperactivity
+E2E0100	Attention deficit with hyperactivity
+E2E0z00	Child attention deficit disorder NOS
+E2E1.00	Hyperkinesis with developmental delay
+E2E2.00	Hyperkinetic conduct disorder
+Eu90100	[X]Hyperkinetic conduct disorder
+Eu90200	[X]Deficits in attention, motor control and perception
