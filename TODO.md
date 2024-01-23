@@ -18,23 +18,22 @@
 - type 2 diabetes
 - MI
 - stroke
-
-### Awaiting everything
-
+- Smoking status
 - cancer
 - COVID-19 vaccinations
 - positive COVID-19 test
-- Smoking status
-
-# Secondary
-
 - ADHD
 - Autism Spectrum Disorder
 - CABG
-- connective tissue disorders (especially rheumatoid arthritis, SLE, undifferentiated connective tissue disorders and ankylosing spondylitis)
 - coronary angioplasty
 - PTSD
+- rheumatoid arthritis
+- ankylosing spondylitis
+- sle
+
+### Awaiting everything
 
 # Too hard
 
 - alcohol intake (units per week)
+- undifferentiated connective tissue disorders
