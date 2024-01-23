@@ -1,0 +1,5 @@
+N100.	Ankylosing spondylitis
+X701x	Juvenile ankylosing spondylitis
+X701y	Juvenile spondyloarthropathy
+X7023	Ankylosing spondylitis with organ / system involvement
+X7024	Ankylosing spondylitis with multisystem involvement
