@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Code set overview</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://rw251.github.io/gm-idcr/" />
+    <meta name="description" content="Example site for showing code set overviews" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Code set overview" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rw251.github.io/gm-idcr/" />
+    <meta property="og:description" content="Example site for showing code set overviews" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="drawdown.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="banner">
+      <span class="title">Clinical code sets</span>
+    </div>
+    <div class="tab hide">
+      <button class="tablinks" onclick="openTab('Search')">Search</button>
+      <button class="tablinks" onclick="openTab('Description')">Code set description</button>
+    </div>
+    <div class="wrapper">
+      <div id="search-wrapper" style="padding: 16px">
+        <input
+          type="text"
+          id="lookup"
+          placeholder="Loading code set data..."
+          value=""
+          autocomplete="off"
+          disabled
+        />
+
+        <ul id="results" class="code-set-results"></ul>
+      </div>
+      <div id="readme" style="display: none" class="tab-content"></div>
+    </div>
+  </body>
+</html>

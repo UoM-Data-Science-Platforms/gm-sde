@@ -767,10 +767,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/1">https://github.com/rw251/.../conditions/coronary-heart-disease/1</a></p>
 <h3>Stroke</h3>
-<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.</p>
+<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes. Does not include codes for types of vascular dementia such as multi infarct dementia, which are usually caused by a series of mini strokes. Excludes &quot;history of&quot; codes.</p>
+<p>Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.91% - 1.45%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2023-11-16</strong>: Prevalence now 1.2% - 1.5% when examining codes</em></p>
 <table>
 <thead>
 <tr>
@@ -824,8 +826,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">3098 (0.933%)</td>
 <td style="text-align:right">1699 (0.512%)</td>
 </tr>
+<tr>
+<td>2023-11-16</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">33303 (1.34%)</td>
+<td style="text-align:right">30532 (1.23%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">3195 (1.59%)</td>
+<td style="text-align:right">2963 (1.47%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">4302 (1.29%)</td>
+<td style="text-align:right">3924 (1.18%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-16</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
 <h3>Diabetes mellitus type 1</h3>
 <p>Any diagnosis of T1DM. A super set of the QOF business rule.</p>
@@ -1140,6 +1167,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
 <p><strong>UPDATE</strong> By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes <code>62.48% - 64.93%</code> which suggests that this code set is well defined.</p>
+<p><em>Update <strong>2023/11/01</strong>: prevalence now <code>61.2% - 65.7%</code> for EMIS and VISION. TPP higher at 73%.</em></p>
 <table>
 <thead>
 <tr>
@@ -1193,8 +1221,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">209175 (62.48%)</td>
 <td style="text-align:right">209175 (62.48%)</td>
 </tr>
+<tr>
+<td>2023-11-01</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">1624196 (65.7%)</td>
+<td style="text-align:right">1624289 (65.7%)</td>
+</tr>
+<tr>
+<td>2023-11-01</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">146449 (73%)</td>
+<td style="text-align:right">146448 (73%)</td>
+</tr>
+<tr>
+<td>2023-11-01</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">203333 (61.2%)</td>
+<td style="text-align:right">203347 (61.2%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-01</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2">https://github.com/rw251/.../patient/bmi/2</a></p>
 <h1>Clinical code sets</h1>
-<p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/043%20-%20Cruickshank/clinical-code-sets.csv">https://github.com/rw251/.../043 - Cruickshank/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
+<p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/043%20-%20Hyman/clinical-code-sets.csv">https://github.com/rw251/.../043 - Hyman/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
