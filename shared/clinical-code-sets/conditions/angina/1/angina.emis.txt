@@ -17,3 +17,40 @@
 ^ESCTVA392000	Variant angina pectoris
 ^ESCTVA392001	Variant angina
 EGTON458	Unstable angina
+^ESCT1212595	Arteriosclerosis of autologous vein coronary artery bypass graft with angina
+^ESCT1212596	Angina co-occurrent and due to arteriosclerosis of autologous vein coronary artery bypass graft
+^ESCT1212597	Unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft
+^ESCT1212598	Arteriosclerosis of coronary artery bypass graft with unstable angina
+^ESCT1227627	Progressive angina
+^ESCT1371807	Stable angina due to coronary arteriosclerosis
+^ESCT1371808	Coronary arteriosclerosis with stable angina
+^ESCT1401195	Unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft
+^ESCT1409458	Angina due to type 2 diabetes mellitus
+^ESCT1412742	Angina associated with type II diabetes mellitus
+^ESCT1412743	Diabetic angina pectoris associated with type 2 diabetes mellitus
+^ESCT1417949	Unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart
+^ESCT1417950	Unstable angina due to arteriosclerosis of autologous arterial coronary artery bypass graft
+^ESCTAN316614	Angina, class II
+^ESCTAN349900	Angina, class I
+^ESCTAN388675	Angina, class III
+^ESCTAN395199	Angina, class IV
+^ESCTAN796693	Angina associated with type 2 diabetes mellitus
+^ESCTAN796694	Angina associated with type II diabetes mellitus
+^ESCTAN986848	Angina co-occurrent and due to coronary arteriosclerosis
+^ESCTAN986851	Angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft
+^ESCTAT636039	Atypical angina
+^ESCTDI796695	Diabetic angina pectoris associated with type 2 diabetes mellitus
+^ESCTIN257153	Intermediate coronary syndrome
+^ESCTPR636038	Progressive Angina
+^ESCTRE636040	Recurrent angina after percutaneous transluminal coronary angioplasty
+^ESCTRE636041	Recurrent angina status post percutaneous transluminal coronary angioplasty
+^ESCTRE636042	Recurrent angina after coronary stent placement
+^ESCTRE636043	Recurrent angina status post coronary stent placement
+^ESCTRE636044	Recurrent angina after coronary artery bypass graft
+^ESCTRE636045	Recurrent angina status post coronary artery bypass graft
+^ESCTRE636046	Recurrent angina post rotational atherectomy
+^ESCTRE636047	Recurrent angina status post rotational atherectomy
+^ESCTRE636048	Recurrent angina after directional coronary atherectomy
+^ESCTRE636049	Recurrent angina status post directional coronary atherectomy
+^ESCTTY710524	Typical angina
+^ESCTUN986846	Unstable angina co-occurrent and due to coronary arteriosclerosis
