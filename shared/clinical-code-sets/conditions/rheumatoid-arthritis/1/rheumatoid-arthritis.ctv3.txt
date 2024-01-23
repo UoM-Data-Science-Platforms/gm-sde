@@ -37,9 +37,7 @@ N0430	Juvenile rheumatoid arthropathy unspecified
 N0431	Acute polyarticular juvenile rheumatoid arthritis
 N0433	Monarticular juvenile rheumatoid arthritis
 N043z	Juvenile rheumatoid arthritis NOS
-N04y.	Other specified inflammatory polyarthropathy
 N04y0	Caplan's syndrome
-N04yz	Other specified inflammatory polyarthropathy NOS
 N04z.	Inflammatory polyarthropathy NOS
 Nyu10	[X]Rheumatoid arthritis with involvement of other organs or systems
 Nyu11	[X]Other seropositive rheumatoid arthritis
@@ -65,3 +63,12 @@ Xa3gO	Rheumatoid arthritis - other joint
 Xa3gP	Rheumatoid arthritis NOS
 Xa3wk	Still's disease - juvenile rheumatoid arthritis
 XaBMO	Seropositive errosive rheumatoid arthritis
+F3964	Myopathy due to rheumatoid arthritis
+G1yz.	Other and unspecified rheumatic heart disease
+G1yz0	Rheumatic heart disease unspecified
+G1yzz	Other rheumatic heart disease NOS
+Gyu14	[X]Other specified rheumatic heart diseases
+X103Y	Rheumatoid pneumoconiosis
+XaDyG	Rheumatic heart disease
+XaFTl	Rheumatoid melting disorder of cornea
+XE0W6	Rheumatic heart disease NOS
