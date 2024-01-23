@@ -1,2 +1,185 @@
 EMISNQAC876	Acute infective exacerbation of asthma
 EMISNQAC877	Acute non-infective exacerbation of asthma
+^ESCT1164869	Moderate acute exacerbation of asthma
+^ESCT1165691	Acute severe exacerbation of asthma co-occurrent and due to allergic asthma
+^ESCT1165692	Allergic asthma with status asthmaticus
+^ESCT1165693	Uncomplicated allergic asthma
+^ESCT1165694	Uncomplicated non-allergic asthma
+^ESCT1169266	Exacerbation of allergic asthma
+^ESCT1170560	Asthma in pregnancy
+^ESCT1190365	Life threatening acute exacerbation of asthma
+^ESCT1190385	Severe asthma attack
+^ESCT1192285	Acute asthma
+^ESCT1192467	Extrinsic asthma with status asthmaticus
+^ESCT1192637	Intrinsic asthma with status asthmaticus
+^ESCT1248506	Emergency admission, asthma
+^ESCT1261834	Severe asthma with fungal sensitisation
+^ESCT1261835	SAFS - severe asthma with fungal sensitisation
+^ESCT1361985	Acute severe exacerbation of allergic asthma
+^ESCT1361996	Exacerbation of allergic asthma due to infection
+^ESCT1365984	Near fatal asthma
+^ESCT1365985	NFA - near fatal asthma
+^ESCT1377423	Asthma caused by wood dust
+^ESCT1377550	Allergic asthma without status asthmaticus
+^ESCT1383457	Allergic atopic asthma
+^ESCT1384434	Asthma caused by house dust mite, Dermatophagoides pteronyssinus
+^ESCT1384435	Asthma caused by house dust mite, Dermatophagoides farinae
+^ESCT1393032	Thunderstorm asthma
+^ESCT1393033	Asthma exacerbation due to thunderstorm
+^ESCT1393034	Thunderstorm-induced asthma
+^ESCT1399703	Intermittent allergic asthma
+^ESCTAC725858	Acute exacerbation of chronic asthmatic bronchitis
+^ESCTAC762652	Acute severe exacerbation of severe persistent asthma
+^ESCTAC762653	Acute severe exacerbation of moderate persistent asthma
+^ESCTAC762654	Acute severe exacerbation of mild persistent asthma
+^ESCTAC762724	Acute exacerbation of asthma
+^ESCTAC762819	Acute severe exacerbation of asthma
+^ESCTAC762827	Acute exacerbation of extrinsic asthma
+^ESCTAC762828	Acute exacerbation of immunoglobulin E-mediated allergic asthma
+^ESCTAC762830	Acute severe exacerbation of allergic asthma
+^ESCTAC762831	Acute severe exacerbation of extrinsic asthma
+^ESCTAC762832	Acute severe exacerbation of immunoglobin E-mediated allergic asthma
+^ESCTAC762833	Acute severe exacerbation of intrinsic asthma
+^ESCTAC796127	Acute severe refractory exacerbation of asthma
+^ESCTAC796128	Acute severe asthma
+^ESCTAC797017	Acute exacerbation of chronic obstructive airways disease with asthma
+^ESCTAC803120	Acute exacerbation of asthma co-occurrent with allergic rhinitis
+^ESCTAC804257	Acute exacerbation of moderate persistent asthma
+^ESCTAC804258	Acute exacerbation of mild persistent asthma
+^ESCTAC931496	Acute severe exacerbation of asthma co-occurrent with allergic rhinitis
+^ESCTAC931510	Acute severe exacerbation of severe persistent allergic asthma
+^ESCTAC931511	Acute severe exacerbation of severe persistent asthma co-occurrent with allergic rhinitis
+^ESCTAC931522	Acute severe exacerbation of mild persistent allergic asthma
+^ESCTAC931523	Acute severe exacerbation of mild persistent allergic asthma co-occurrent with allergic rhinitis
+^ESCTAC931537	Acute severe exacerbation of moderate persistent allergic asthma
+^ESCTAC931539	Acute severe exacerbation of moderate persistent asthma co-occurrent with allergic rhinitis
+^ESCTAC931734	ACOS - asthma-chronic obstructive pulmonary disease overlap syndrome
+^ESCTAE931727	AERD - aspirin exacerbated respiratory disease
+^ESCTAI478152	Airway hyperreactivity
+^ESCTAL298874	Allergic-infective asthma
+^ESCTAL758451	Allergic asthma due to Dermatophagoides pteronyssinus
+^ESCTAL758453	Allergic asthma caused by Dermatophagoides pteronyssinus
+^ESCTAL758454	Allergic asthma due to Dermatophagoides farinae
+^ESCTAL758456	Allergic asthma caused by Dermatophagoides farinae
+^ESCTAS340234	Asthma without status asthmaticus
+^ESCTAS478153	Asthmatic
+^ESCTAS505443	Asthmatic pulmonary eosinophilia
+^ESCTAS549245	Asthma due to internal immunological process
+^ESCTAS672072	Asthmatic bronchitis
+^ESCTAS796549	Asthma with irreversible airway obstruction
+^ESCTAS931726	Aspirin exacerbated respiratory disease
+^ESCTAS931733	Asthma-COPD overlap syndrome (ACOS)
+^ESCTAS932256	Asthma in mother complicating childbirth
+^ESCTAS932257	Asthma in childbirth
+^ESCTAT651238	Atopic asthma
+^ESCTBA304773	Bakers' asthma
+^ESCTBA304775	Baker's asthma
+^ESCTCH400959	Chemical-induced asthma
+^ESCTCH670384	Cheese-makers' asthma
+^ESCTCH931731	Chronic obstructive asthma co-occurrent with acute exacerbation of asthma
+^ESCTCO389408	Cotton workers' lung disease
+^ESCTCO389409	Cotton-dust asthma
+^ESCTCO505437	Colophony asthma
+^ESCTCO678207	Cough variant asthma
+^ESCTDE316956	Detergent workers' lung
+^ESCTDE758452	Dermatophagoides pteronyssinus allergic asthma
+^ESCTDE758455	Dermatophagoides farinae allergic asthma
+^ESCTDR402051	Drug-induced asthma
+^ESCTEI300580	EIA - Exercise-induced asthma
+^ESCTEM472376	Emergency hospital admission for asthma
+^ESCTEN316957	Enzyme detergent lung
+^ESCTEN316958	Enzyme detergent respiratory disease
+^ESCTEN316959	Enzyme lung
+^ESCTEN316960	Enzyme lung disease
+^ESCTEX300581	Exercise induced asthma
+^ESCTEX564919	Exacerbation of asthma
+^ESCTEX705222	Exacerbation of intermittent asthma
+^ESCTEX761761	Exacerbation of mild persistent asthma
+^ESCTEX761762	Exacerbation of moderate persistent asthma
+^ESCTEX761763	Exacerbation of severe persistent asthma
+^ESCTFE269015	Feather-pickers' disease
+^ESCTFE269016	Feather asthma
+^ESCTFL304774	Flour asthma
+^ESCTGR268528	Grain worker's asthma
+^ESCTHI454077	History of asthma
+^ESCTIG703031	IgE-mediated allergic asthma
+^ESCTIG703032	IgE mediated asthma
+^ESCTIG703034	IgE mediated allergic asthma
+^ESCTIM703035	Immunoglobulin E-mediated allergic asthma
+^ESCTIN343597	Industrial asthma
+^ESCTIN707633	Intermittent asthma
+^ESCTIN796629	Intermittent asthma well controlled
+^ESCTIN797013	Intermittent asthma uncontrolled
+^ESCTIN803897	Intermittent asthma co-occurrent with allergic rhinitis
+^ESCTIS670388	Isocyanate induced asthma
+^ESCTLA505434	Late-onset asthma
+^ESCTLI846537	Life threatening acute exacerbation of allergic asthma
+^ESCTLI846538	Life threatening acute exacerbation of extrinsic asthma
+^ESCTLI846539	Life threatening acute exacerbation of intrinsic asthma
+^ESCTLI846540	Life threatening acute exacerbation of non-allergic asthma
+^ESCTME281500	Meat-wrappers' asthma
+^ESCTMI268525	Millers' asthma
+^ESCTMI268526	Mill-workers' asthma
+^ESCTMI268527	Millers' cough
+^ESCTMI389410	Mill fever
+^ESCTMI706721	Mild persistent asthma
+^ESCTMI707748	Mild intermittent asthma
+^ESCTMI803896	Mild persistent asthma co-occurrent with allergic rhinitis
+^ESCTMI931520	Mild persistent allergic asthma
+^ESCTMI931525	Mild persistent allergic asthma controlled
+^ESCTMI931526	Mild persistent asthma controlled
+^ESCTMI931528	Mild persistent asthma controlled co-occurrent with allergic rhinitis
+^ESCTMI931529	Mild persistent allergic asthma uncontrolled
+^ESCTMI931530	Mild persistent asthma uncontrolled
+^ESCTMI931532	Mild persistent asthma uncontrolled co-occurrent with allergic rhinitis
+^ESCTMO707189	Moderate persistent asthma
+^ESCTMO803894	Moderate persistent asthma co-occurrent with allergic rhinitis
+^ESCTMO843744	Moderate acute exacerbation of asthma
+^ESCTMO931534	Moderate persistent asthma controlled
+^ESCTMO931535	Moderate persistent allergic asthma
+^ESCTMO931540	Moderate persistent allergic asthma controlled
+^ESCTMO931541	Moderate persistent controlled asthma co-occurrent with allergic rhinitis
+^ESCTMO931543	Moderate persistent allergic asthma uncontrolled
+^ESCTMO931544	Moderate persistent asthma uncontrolled co-occurrent with allergic rhinitis
+^ESCTMO931546	Moderate persistent asthma uncontrolled
+^ESCTNO549244	Non-allergic asthma
+^ESCTNO655013	Nocturnal asthma
+^ESCTNO701599	Non-IgE mediated allergic asthma
+^ESCTNO701600	Non IgE mediated allergic asthma
+^ESCTNO701601	Non-immunoglobulin E mediated allergic asthma
+^ESCTOR993431	Oral steroid-dependent asthma
+^ESCTPL670382	Platinum asthma
+^ESCTPR278620	Printers' asthma
+^ESCTSA342538	Saw dust asthma
+^ESCTSA931728	Samter syndrome
+^ESCTSA931729	Samter triad
+^ESCTSE706242	Severe persistent asthma
+^ESCTSE730794	Seasonal asthma
+^ESCTSE803893	Severe persistent asthma co-occurrent with allergic rhinitis
+^ESCTSE931507	Severe controlled persistent asthma
+^ESCTSE931509	Severe persistent allergic asthma
+^ESCTSE931512	Severe persistent allergic asthma controlled
+^ESCTSE931514	Severe persistent asthma controlled co-occurrent with allergic rhinitis
+^ESCTSE931515	Severe persistent allergic asthma uncontrolled
+^ESCTSE931517	Severe persistent asthma uncontrolled co-occurrent with allergic rhinitis
+^ESCTSE931518	Severe uncontrolled persistent asthma
+^ESCTST270861	Strippers' disease
+^ESCTST270862	Stripper's asthma
+^ESCTST796129	Status asthmaticus
+^ESCTST855568	Steroid dependent asthma
+^ESCTSU505438	Sulphite-induced asthma
+^ESCTSU505439	Sulfite-induced asthma
+^ESCTSU702180	Substance induced asthma
+^ESCTTE692063	Tea-makers' asthma
+^ESCTUN761760	Uncomplicated asthma
+^ESCTUN761879	Uncomplicated mild persistent asthma
+^ESCTUN761880	Uncomplicated moderate persistent asthma
+^ESCTUN761881	Uncomplicated severe persistent asthma
+^ESCTWE347101	Weavers' cough
+^ESCTWO342534	Wood asthma
+^ESCTWO342535	Wood-workers' asthma
+^ESCTWO342537	Wood dust asthma
+^ESCTFL270863	Flax dressers disease
+^ESCTWO342536	Wood-workers' lung
+^ESCTWO342539	Wood dust pneumonitis
+^ESCTWO342540	Wood pulp workers' lung
