@@ -225,5 +225,4 @@
 567021000000109	Rheumatoid arthritis and other inflammatory polyarthropathies (disorder)
 23685000	Rheumatic heart disease (disorder)
 239920006	Adult onset Still's disease (disorder)
-3723001	Arthritis (disorder)
 703119002	Carditis due to rheumatic fever (disorder)
