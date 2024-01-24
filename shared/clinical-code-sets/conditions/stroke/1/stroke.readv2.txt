@@ -69,3 +69,7 @@ Gyu6000	[X]Subarachnoid haemorrhage from other intracranial arteries
 Gyu6100	[X]Other subarachnoid haemorrhage
 Gyu6E00	[X]Subarachnoid haemorrhage from intracranial artery, unspecified
 L440.12	Stroke in the puerperium
+G63y.00	Other precerebral artery occlusion
+G63z.00	Precerebral artery occlusion NOS
+L440000	Puerperal cerebrovascular disorder unspecified
+L440z00	Puerperal cerebrovascular disorder NOS

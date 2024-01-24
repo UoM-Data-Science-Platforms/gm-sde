@@ -294,3 +294,5 @@
 EMISNQCE11	Cerebral venous thrombosis
 EMISNQCE4	Cerebral infarction with haemorrhagic transformation
 ESCTOC3	Occlusive stroke
+^ESCT1222297	Occlusion of precerebral artery
+^ESCTNA251517	Narrowing of precerebral artery
