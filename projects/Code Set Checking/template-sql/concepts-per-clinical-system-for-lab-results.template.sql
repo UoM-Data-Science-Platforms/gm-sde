@@ -20,19 +20,32 @@ SET NOCOUNT ON;
 --> CODESET insert-concept-here:1
 --> EXECUTE query-practice-systems-lookup.sql
 
+
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID
+IF OBJECT_ID('tempdb..#PatientsWithFKCodeNoValueRestriction') IS NOT NULL DROP TABLE #PatientsWithFKCodeNoValueRestriction;
+SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID, [Value] INTO #PatientsWithFKCodeNoValueRestriction FROM SharedCare.[GP_Events]
+WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets);
+--00:01:38
+
+-- Filter to just those with a numeric non zero value
 IF OBJECT_ID('tempdb..#PatientsWithFKCode') IS NOT NULL DROP TABLE #PatientsWithFKCode;
-SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKCode FROM SharedCare.[GP_Events]
-WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-AND [Value] IS NOT NULL AND [Value] <> '0';
---00:02:11
+SELECT FK_Patient_Link_ID, FK_Reference_Coding_ID INTO #PatientsWithFKCode FROM #PatientsWithFKCodeNoValueRestriction
+WHERE [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- REMOVE RECORDS WITH TEXT 
+--00:00:00
 
 -- Then get all patients from the GP_Events table who have a matching FK_Reference_SnomedCT_ID
+IF OBJECT_ID('tempdb..#PatientsWithSNOMEDCodeNoValueRestriction') IS NOT NULL DROP TABLE #PatientsWithSNOMEDCodeNoValueRestriction;
+SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID, [Value] INTO #PatientsWithSNOMEDCodeNoValueRestriction FROM SharedCare.[GP_Events]
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets);
+--00:01:24
+
+-- Filter to just those with a numeric non zero value
 IF OBJECT_ID('tempdb..#PatientsWithSNOMEDCode') IS NOT NULL DROP TABLE #PatientsWithSNOMEDCode;
-SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDCode FROM SharedCare.[GP_Events]
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
-AND [Value] IS NOT NULL AND [Value] <> '0';
---00:02:01
+SELECT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID INTO #PatientsWithSNOMEDCode FROM #PatientsWithSNOMEDCodeNoValueRestriction
+WHERE [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- REMOVE RECORDS WITH TEXT 
+--00:00:00
 
 -- Link the above temp tables with the concept tables to find a list of patients with events
 IF OBJECT_ID('tempdb..#PatientsWithCode') IS NOT NULL DROP TABLE #PatientsWithCode;
@@ -42,7 +55,7 @@ UNION
 SELECT FK_Patient_Link_ID, Concept, [Version] FROM #PatientsWithSNOMEDCode p
 INNER JOIN #VersionedSnomedSets v ON v.FK_Reference_SnomedCT_ID = p.FK_Reference_SnomedCT_ID
 GROUP BY FK_Patient_Link_ID, Concept, [Version];
---00:02:34
+--00:00:00
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithCodePerSystem') IS NOT NULL DROP TABLE #PatientsWithCodePerSystem;
@@ -52,7 +65,7 @@ INNER JOIN #PatientsWithCode c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2
 AND NOT EXISTS (SELECT * FROM [SharedCare].Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
---00:01:08
+--00:00:02
 
 -- Counts the number of patients per system
 IF OBJECT_ID('tempdb..#PatientsPerSystem') IS NOT NULL DROP TABLE #PatientsPerSystem;
@@ -64,17 +77,23 @@ GROUP BY [System];
 --00:00:15
 
 -- Finds all patients with one of the clinical codes in the events table
+IF OBJECT_ID('tempdb..#PatientsWithSuppliedCodeNoValueRestriction') IS NOT NULL DROP TABLE #PatientsWithSuppliedCodeNoValueRestriction;
+SELECT FK_Patient_Link_ID, SuppliedCode, [Value] INTO #PatientsWithSuppliedCodeNoValueRestriction FROM SharedCare.[GP_Events]
+WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes);
+--00:02:14
+
+-- Finds all patients with one of the clinical codes in the events table
 IF OBJECT_ID('tempdb..#PatientsWithSuppliedCode') IS NOT NULL DROP TABLE #PatientsWithSuppliedCode;
-SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM SharedCare.[GP_Events]
-WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes)
-AND [Value] IS NOT NULL AND [Value] <> '0';
---00:05:23
+SELECT FK_Patient_Link_ID, SuppliedCode INTO #PatientsWithSuppliedCode FROM #PatientsWithSuppliedCodeNoValueRestriction
+WHERE [Value] IS NOT NULL AND TRY_CONVERT(NUMERIC (18,5), [Value]) <> 0 AND [Value] <> '0' -- REMOVE NULLS AND ZEROES
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- REMOVE RECORDS WITH TEXT 
+--00:00:00
 
 IF OBJECT_ID('tempdb..#PatientsWithSuppliedConcept') IS NOT NULL DROP TABLE #PatientsWithSuppliedConcept;
 SELECT FK_Patient_Link_ID, Concept, [Version] AS [Version] INTO #PatientsWithSuppliedConcept FROM #PatientsWithSuppliedCode p
 INNER JOIN #AllCodes a on a.Code = p.SuppliedCode
 GROUP BY FK_Patient_Link_ID, [Concept], [Version];
---00:05:17
+--00:00:00
 
 -- Counts the number of patients for each version of each concept for each clinical system
 IF OBJECT_ID('tempdb..#PatientsWithSuppConceptPerSystem') IS NOT NULL DROP TABLE #PatientsWithSuppConceptPerSystem;
@@ -84,7 +103,7 @@ INNER JOIN #PatientsWithSuppliedConcept c on c.FK_Patient_Link_ID = p.FK_Patient
 WHERE FK_Reference_Tenancy_ID = 2
 AND NOT EXISTS (SELECT * FROM [SharedCare].Patient_Link WHERE PK_Patient_Link_ID = p.FK_Patient_Link_ID and Deceased = 'Y')
 GROUP BY [System], Concept, [Version];
---00:01:31
+--00:00:01
 
 -- Populate table with system/event type possibilities
 IF OBJECT_ID('tempdb..#SystemEventCombos') IS NOT NULL DROP TABLE #SystemEventCombos;
