@@ -64,3 +64,14 @@ ZV45K11	[V]Presence of coronary artery bypass graft - CABG
 792y.00	Other specified operations on coronary artery
 792z.00	Coronary artery operations NOS
 ZV45700	[V]Presence of aortocoronary bypass graft
+7923000	Prosthetic replacement of one coronary artery
+7923100	Prosthetic replacement of two coronary arteries
+7923200	Prosthetic replacement of three coronary arteries
+7923300	Prosthetic replacement of four or more coronary arteries
+7925000	Double anastomosis of mammary arteries to coronary arteries
+7925100	Double implantation of mammary arteries into coronary arteries
+7925200	Single anastomosis of mammary artery to left anterior descending coronary artery
+7925400	Single implantation of mammary artery into coronary artery
+7924100	Revision of bypass for two coronary arteries
+7924200	Revision of bypass for three coronary arteries
+7924300	Revision of bypass for four or more coronary arteries
