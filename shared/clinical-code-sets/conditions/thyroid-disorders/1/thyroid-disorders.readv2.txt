@@ -1,0 +1,163 @@
+C00..00	Simple and unspecified goitre
+C000.00	Simple goitre
+C000.11	Retrosternal thyroid goitre
+C000.12	Substernal thyroid goitre
+C000.14	Colloid goitre
+C00z.00	Goitre NOS
+C01..00	Nontoxic nodular goitre
+C010.00	Nontoxic uninodular goitre
+C011.00	Nontoxic multinodular goitre
+C01z.00	Nontoxic nodular goitre NOS
+C01z.11	Adenomatous goitre
+C02..12	Toxic goitre
+C020.00	Toxic diffuse goitre
+C020000	Toxic diffuse goitre with no crisis
+C020100	Toxic diffuse goitre with crisis
+C020z00	Toxic diffuse goitre NOS
+C021.00	Toxic uninodular goitre
+C021000	Toxic uninodular goitre with no crisis
+C021100	Toxic uninodular goitre with crisis
+C021z00	Toxic uninodular goitre NOS
+C022.00	Toxic multinodular goitre
+C022000	Toxic multinodular goitre with no crisis
+C022100	Toxic multinodular goitre with crisis
+C022z00	Toxic multinodular goitre NOS
+C023.00	Toxic nodular goitre unspecified
+C023000	Toxic nodular goitre unspecified with no crisis
+C023100	Toxic nodular goitre unspecified with crisis
+C023z00	Toxic nodular goitre NOS
+C04z.13	Hypothyroid goitre, acquired
+C061.00	Dyshormonogenic goitre
+C0A3.00	Iodine-deficiency-related diffuse (endemic) goitre
+C0A4.00	Iodine-deficiency-related multinodular (endemic) goitre
+C0AX.00	Iodine-deficiency-related (endemic) goitre, unspecified
+Cyu1200	[X]Other specified nontoxic goitre
+Cyu1600	[X]Iodine-deficiency-related (endemic) goitre, unspecified
+
+C02z.00	Thyrotoxicosis without mention of goitre or other cause
+C02z000	Thyrotoxicosis without mention of goitre or other cause with no crisis
+C02z100	Thyrotoxicosis without mention of goitre or other cause with crisis
+C02..00	Thyrotoxicosis
+C024.00	Thyrotoxicosis from ectopic thyroid nodule
+C024000	Thyrotoxicosis from ectopic thyroid nodule with no crisis
+C024100	Thyrotoxicosis from ectopic thyroid nodule with crisis
+C024z00	Thyrotoxicosis from ectopic thyroid nodule NOS
+C02y.00	Thyrotoxicosis of other specified origin
+C02y.11	Factitia thyrotoxicosis
+C02y000	Thyrotoxicosis of other specified origin with no crisis
+C02y100	Thyrotoxicosis of other specified origin with crisis
+C02y200	Thyrotoxicosis factitia
+C02yz00	Thyrotoxicosis of other specified origin NOS
+C02zz00	Thyrotoxicosis NOS
+Cyu1300	[X]Other thyrotoxicosis
+F381600	Myasthenic syndrome due to thyrotoxicosis
+F395400	Myopathy due to thyrotoxicosis
+
+C05y400	Chronic thyroiditis with transient thyrotoxicosis
+C05..00	Thyroiditis
+C050.00	Acute thyroiditis
+C050000	Acute nonsuppurative thyroiditis
+C050100	Acute suppurative thyroiditis
+C050z00	Acute thyroiditis NOS
+C051.00	Subacute thyroiditis
+C051.11	De Quervain's thyroiditis
+C052.00	Chronic lymphocytic thyroiditis
+C052.11	Autoimmune thyroiditis
+C053.00	Chronic fibrous thyroiditis
+C053.11	Riedel's thyroiditis
+C054.00	Iatrogenic thyroiditis
+C05y.00	Other and unspecified chronic thyroiditis
+C05z.00	Thyroiditis NOS
+Cyu1400	[X]Other chronic thyroiditis
+L181500	Postpartum thyroiditis
+C000.13	Thyroid nodule
+C00z.11	Thyroid enlargement
+C02..11	Hyperthyroidism
+C020.11	Basedow's disease
+C020.12	Graves' disease
+C020200	Thyroid-associated dermopathy
+C02y300	Thyroid crisis
+C045.00	Acquired atrophy of thyroid
+C050200	Abscess of thyroid
+C052.12	Hashimoto's disease
+C06..00	Other disorders of thyroid
+C060.00	Disorder of thyrocalcitonin secretion
+C062.00	Thyroid cyst
+C063.00	Thyroid haemorrhage and infarction
+C063000	Thyroid haemorrhage
+C063100	Thyroid infarction
+C063z00	Thyroid haemorrhage or infarction NOS
+C06y.00	Other specified thyroid disorders
+C06y000	Thyroid-binding globulin abnormality
+C06y100	Thyroid atrophy
+C06yz00	Other specified thyroid disorder NOS
+C06z.00	Thyroid disorder NOS
+C0A..00	Congenital iodine deficiency syndrome
+C0A0.00	Congenital iodine-deficiency syndrome, neurological type
+C0A2.00	Congenital iodine-deficiency syndrome, mixed type
+Cyu1.00	[X]Disorders of thyroid gland
+Cyu1000	[X]Other iodine-deficiency related thyroid disorders and allied conditions
+Cyu1500	[X]Other specified disorders of thyroid
+Cyu4J00	[X]Disorders of thyroid gland in diseases classified elsewhere
+A175.00	Tuberculosis of thyroid gland
+AC22.00	Thyroid echinococcus granulosus
+B53..00	Malignant neoplasm of thyroid gland
+B7G..00	Benign neoplasm of thyroid gland
+B7G..11	Adenoma of thyroid gland
+B8yy000	Carcinoma in situ of thyroid gland
+B924000	Neoplasm of uncertain behaviour of thyroid gland
+C0...00	Disorders of thyroid gland
+C0...11	Struma - goitre
+C025.00	Subclinical hyperthyroidism
+C03..00	Congenital hypothyroidism
+C03..11	Cretinism
+C030.00	Pendred's syndrome
+C031.00	Goitrous cretin
+C03y.00	Other specified congenital hypothyroidism
+C03y000	Congenital hypothyroidism with diffuse goitre
+C03y100	Congenital hypothyroidism without goitre
+C03z.00	Congenital hypothyroidism NOS
+C03z.11	Congenital thyroid insufficiency
+C03z.12	Cretinism
+C04..00	Acquired hypothyroidism
+C04..11	Myxoedema
+C04..12	Thyroid deficiency
+C04..13	Hypothyroidism
+C040.00	Postsurgical hypothyroidism
+C040.11	Post ablative hypothyroidism
+C041.00	Other postablative hypothyroidism
+C041000	Irradiation hypothyroidism
+C041z00	Postablative hypothyroidism NOS
+C042.00	Iodine hypothyroidism
+C043.00	Other iatrogenic hypothyroidism
+C043000	Hypothyroidism resulting from para-aminosalicylic acid
+C043100	Hypothyroidism resulting from phenylbutazone
+C043200	Hypothyroidism resulting from resorcinol
+C043z00	Iatrogenic hypothyroidism NOS
+C044.00	Postinfectious hypothyroidism
+C046.00	Autoimmune myxoedema
+C047.00	Subclinical hypothyroidism
+C04y.00	Other acquired hypothyroidism
+C0A1.00	Congenital iodine-deficiency syndrome, myxoedematous type
+C0A5.00	Subclinical iodine-deficiency hypothyroidism
+C134300	TSH - thyroid-stimulating hormone deficiency
+C3A..00	Iodine-deficiency syndromes
+Cyu1100	[X]Other sp cified hypothyroidism
+L181.00	Thyroid dysfunction during pregnancy, childbirth and the puerperium
+L181000	Thyroid dysfunction - unspecified whether during pregnancy or the puerperium
+L181z00	Thyroid dysfunction durin pregnancy, childbirth or the puerperium NOS
+PK21.00	Accessory thyroid gland
+PK25.00	Anomalies of thyroid gland NEC
+PK25000	Aberrant thyroid gland
+PK25011	Retrosternal thyroid gland
+PK25100	Congenital absence of thyroid gland
+PK25z00	Anomaly of thyroid gland NEC NOS
+Q433700	Neonatal jaundice with congenital hypothyroidism
+Q443.00	Neonatal thyrotoxicosis
+Q44V.00	Neonatal goitre, not elsewhere classified
+Qyu6400	[X]Other transitory neonatal disorders of thyroid function, not elsewhere classified
+Qyu6A00	[X]Neonatal goitre, not elsewhere classified
+S842.00	Open wound of thyroid
+S843.00	Open wound of thyroid with complication
+C04z.00	Hypothyroidism NOS
+C04z100	Myxoedema coma
