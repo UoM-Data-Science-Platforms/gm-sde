@@ -1,18 +1,32 @@
-8392000	Non-smoker (finding)
-8517006	Ex-smoker (finding)
-43381005	Exposed to second hand tobacco smoke
-53896009	Tolerant ex-smoker (finding)
+81703003	Chews tobacco (finding)
+228509002	Tobacco chewing
+228514003	Chews plug tobacco (finding)
+228515002	Chews twist tobacco (finding)
+228516001	Chews loose leaf tobacco (finding)
+228517005	Chews fine cut tobacco (finding)
+228518000	Chews products containing tobacco (finding)
+228510007	Chewed tobacco consumption (observable entity)
+228519008	Frequency of chewing tobacco (observable entity)
+228520002	Time since stopped chewing tobacco (observable entity)
+228521003	Total time chewed tobacco (observable entity)
+228522005	Age at starting chewing tobacco (observable entity)
+363907005	Details of tobacco chewing (observable entity)
+81911001	Chewing tobacco (substance)
+16077171000119107	Tobacco dependence caused by chewing tobacco
+228512004	Never chewed tobacco (finding)
+228511006	Does not chew tobacco (finding)
+228513009	Ex-tobacco chewer (finding)
+228500003	Moist tobacco consumption (observable entity)
+735112005	Date ceased using moist tobacco
+230059006	Occasional cigarette smoker (finding)
+428041000124106	Occasional tobacco smoker (finding)
+266920004	Trivial cigarette smoker (less than one cigarette/day) (finding)
 56578002	Moderate smoker (20 or less per day) (finding)
 56771006	Heavy smoker (over 20 per day) (finding)
 59978006	Cigar smoker (finding)
 65568007	Cigarette smoker (finding)
 77176002	Smoker (finding)
-81703003	Chews tobacco (finding)
 82302008	Pipe smoker (finding)
-87739003	Tolerant non-smoker (finding)
-105539002	Non-smoker for personal reasons (finding)
-105540000	Non-smoker for religious reasons (finding)
-105541001	Non-smoker for medical reasons (finding)
 134406006	Smoking reduced (finding)
 160603005	Light cigarette smoker (1-9 cigs/day) (finding)
 160604004	Moderate cigarette smoker (10-19 cigs/day) (finding)
@@ -20,101 +34,94 @@
 160606002	Very heavy cigarette smoker (40+ cigs/day) (finding)
 160612007	Keeps trying to stop smoking (finding)
 160613002	Admitted tobacco consumption possibly untrue
-160614008	Tobacco consumption unknown (finding)
 160616005	Trying to give up smoking (finding)
-160617001	Stopped smoking (finding)
-160618006	Current non-smoker (finding)
 160619003	Rolls own cigarettes (finding)
-160620009	Ex-pipe smoker (finding)
-160621008	Ex-cigar smoker (finding)
-228509002	Tobacco chewing
-228511006	Does not chew tobacco (finding)
-228512004	Never chewed tobacco (finding)
-228513009	Ex-tobacco chewer (finding)
-228514003	Chews plug tobacco (finding)
-228515002	Chews twist tobacco (finding)
-228516001	Chews loose leaf tobacco (finding)
-228517005	Chews fine cut tobacco (finding)
-228518000	Chews products containing tobacco (finding)
-230059006	Occasional cigarette smoker (finding)
 230060001	Light cigarette smoker (finding)
 230062009	Moderate cigarette smoker (finding)
 230063004	Heavy cigarette smoker (finding)
 230064005	Very heavy cigarette smoker (finding)
 230065006	Chain smoker (finding)
-266919005	Never smoked tobacco (finding)
-266920004	Trivial cigarette smoker (less than one cigarette/day) (finding)
-266921000	Ex-trivial cigarette smoker (<1/day) (finding)
-266922007	Ex-light cigarette smoker (1-9/day) (finding)
-266923002	Ex-moderate cigarette smoker (10-19/day) (finding)
-266924008	Ex-heavy cigarette smoker (20-39/day) (finding)
-266925009	Ex-very heavy cigarette smoker (40+/day) (finding)
-266927001	Tobacco smoking consumption unknown (finding)
-266928006	Ex-cigarette smoker amount unknown (finding)
 266929003	Smoking started
-281018007	Ex-cigarette smoker (finding)
 308438006	Smoking restarted
-360890004	Intolerant ex-smoker (finding)
-360900008	Aggressive ex-smoker (finding)
-360918006	Aggressive non-smoker (finding)
-360929005	Intolerant non-smoker (finding)
 365981007	Finding of tobacco smoking behavior
 365982000	Finding of tobacco smoking consumption
 394871007	Thinking about stopping smoking (finding)
 394872000	Ready to stop smoking
 394873005	Not interested in stopping smoking
-405746006	Current non smoker but past smoking history unknown
 446172000	Failed attempt to stop smoking
-449345000	Smoked before confirmation of pregnancy
-449368009	Stopped smoking during pregnancy
-449369001	Stopped smoking before pregnancy
 449868002	Smokes tobacco daily (finding)
+203191000000107	Wants to stop smoking
+228487000	Total time smoked (observable entity)
+228488005	Age at starting smoking (observable entity)
+230056004	Cigarette consumption (observable entity)
+230057008	Cigar consumption (observable entity)
+230058003	Pipe tobacco consumption (observable entity)
+266918002	Amount and type of tobacco smoked
+401159003	Reason for restarting smoking
+401201003	Cigarette pack-years
+413173009	Minutes from waking to first tobacco consumption
+864091000000103	Number of previous attempts to stop smoking
+836001000000109	Waterpipe tobacco consumption
+1092481000000104	Number of calculated smoking pack years (observable entity)
+26663004	Cigar smoking tobacco (substance)
+66562002	Cigarette smoking tobacco (substance)
+84498003	Pipe smoking tobacco (substance)
+698289004	Hookah pipe smoker (finding)
+160601007	Non-smoker (& [never smoked tobacco])
+266919005	Never smoked tobacco (life style)
+221000119102	Never smoked any substance (finding)
+43381005	Passive smoker (finding)
+161080002	Passive smoking risk (environment)
+228523000	Exposed to tobacco smoke at work (finding)
+228524006	Exposed to tobacco smoke at home (finding)
+228525007	Exposed to tobacco smoke in public places (finding)
+713142003	At risk from passive smoking (finding)
+722451000000101	Passive smoking (qualifier value)
+1104241000000108	Ex-smoker in household (situation)
+94151000119101	Smoker in home environment
+443877004	Family history of smoking
+87739003	Tolerant non-smoker (finding)
+105539002	Non-smoker for personal reasons (finding)
+105540000	Non-smoker for religious reasons (finding)
+105541001	Non-smoker for medical reasons (finding)
+160618006	Current non-smoker (finding)
+360918006	Aggressive non-smoker (finding)
+360929005	Intolerant non-smoker (finding)
+8392000	Non-smoker (finding)
+405746006	Current non smoker but past smoking history unknown
+266921000	Ex-trivial cigarette smoker (<1/day) (finding)
+1092131000000107	Ex-trivial smoker (<1/day) (finding)
+8517006	Ex-smoker (finding)
+53896009	Tolerant ex-smoker (finding)
+160620009	Ex-pipe smoker (finding)
+160621008	Ex-cigar smoker (finding)
+266922007	Ex-light cigarette smoker (1-9/day) (finding)
+266923002	Ex-moderate cigarette smoker (10-19/day) (finding)
+266924008	Ex-heavy cigarette smoker (20-39/day) (finding)
+266925009	Ex-very heavy cigarette smoker (40+/day) (finding)
+266928006	Ex-cigarette smoker amount unknown (finding)
+281018007	Ex-cigarette smoker (finding)
+360890004	Intolerant ex-smoker (finding)
+360900008	Aggressive ex-smoker (finding)
 735128000	Ex-smoker for less than 1 year
 1092031000000108	Ex-smoker amount unknown (finding)
 1092041000000104	Ex-very heavy smoker (40+/day) (finding)
 1092071000000105	Ex-heavy smoker (20-39/day) (finding)
 1092091000000109	Ex-moderate smoker (10-19/day) (finding)
 1092111000000104	Ex-light smoker (1-9/day) (finding)
-1092131000000107	Ex-trivial smoker (<1/day) (finding)
 48031000119106	Ex-smoker for more than 1 year
-203191000000107	Wants to stop smoking
+160617001	Stopped smoking (finding)
+449369001	Stopped smoking before pregnancy
 492191000000103	Ex roll-up cigarette smoker
-428041000124106	Occasional tobacco smoker (finding)
 517211000000106	Recently stopped smoking
 160625004	Date ceased smoking (observable entity)
 228486009	Time since stopped smoking (observable entity)
-228487000	Total time smoked (observable entity)
-228488005	Age at starting smoking (observable entity)
-228500003	Moist tobacco consumption (observable entity)
-228510007	Chewed tobacco consumption (observable entity)
-228519008	Frequency of chewing tobacco (observable entity)
-228520002	Time since stopped chewing tobacco (observable entity)
-228521003	Total time chewed tobacco (observable entity)
-228522005	Age at starting chewing tobacco (observable entity)
-230056004	Cigarette consumption (observable entity)
-230057008	Cigar consumption (observable entity)
-230058003	Pipe tobacco consumption (observable entity)
-266918002	Amount and type of tobacco smoked
-363907005	Details of tobacco chewing (observable entity)
+395177003	Smoking free weeks
 390902009	Smoking status at 4 weeks
 390903004	Smoking status between 4 and 52 weeks
 390904005	Smoking status at 52 weeks
-395177003	Smoking free weeks
-401159003	Reason for restarting smoking
-401201003	Cigarette pack-years
-413173009	Minutes from waking to first tobacco consumption
-735112005	Date ceased using moist tobacco
-864091000000103	Number of previous attempts to stop smoking
-836001000000109	Waterpipe tobacco consumption
-1092481000000104	Number of calculated smoking pack years (observable entity)
 766931000000106	Smoking status at 12 weeks
-26663004	Cigar smoking tobacco (substance)
-66562002	Cigarette smoking tobacco (substance)
-81911001	Chewing tobacco (substance)
-84498003	Pipe smoking tobacco (substance)
-94151000119101	Smoker in home environment
-1104241000000108	Ex-smoker in household (situation)
-443877004	Family history of smoking
-698289004	Hookah pipe smoker (finding)
-221000119102	Never smoked any substance (finding)
-16077171000119107	Tobacco dependence caused by chewing tobacco
+160614008	Tobacco consumption unknown (finding)
+266927001	Tobacco smoking consumption unknown (finding)
+449345000	Smoked before confirmation of pregnancy
+449368009	Stopped smoking during pregnancy

@@ -1,0 +1,17 @@
+^ESCT1165113	Ex-smoker for less than 1 year
+^ESCT1172035	Ex-smoker amount unknown
+^ESCT1172036	Ex-very heavy smoker (40+/day)
+^ESCT1172039	Ex-heavy smoker (20-39/day)
+^ESCT1172042	Ex-moderate smoker (10-19/day)
+^ESCT1172045	Ex-light smoker (1-9/day)
+^ESCTAG621728	Aggressive ex-smoker
+^ESCTCE263604	Cessation of smoking
+^ESCTEX549603	Ex-cigarette smoker amount unknown
+^ESCTEX801757	Ex-smoker for more than 1 year
+^ESCTIN621715	Intolerant ex-smoker
+^ESCTST736897	Stopped smoking before pregnancy
+^ESCTTI498056	Time since stopped smoking
+^ESCTTO337414	Tolerant ex-smoker
+EGTON1026	Ex-cigar smoker
+EGTON1027	Ex- Rolled Tobacco Smoker
+EGTON322	Ex-Cigarette Smoker
