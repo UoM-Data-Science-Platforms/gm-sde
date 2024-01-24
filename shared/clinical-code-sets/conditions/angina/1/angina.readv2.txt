@@ -24,4 +24,4 @@ G33z600	New onset angina
 G33z700	Stable angina
 G33zz00	Angina pectoris NOS
 Gyu3000	[X]Other forms of angina pectoris
-G343.00	Ischaemic cardiomyopathy	
+G31y000	Acute coronary insufficiency
