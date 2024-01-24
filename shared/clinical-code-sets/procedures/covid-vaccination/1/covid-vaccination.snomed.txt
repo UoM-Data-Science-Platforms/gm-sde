@@ -102,3 +102,6 @@
 1162646009	Administration of second dose of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (procedure)
 1157196000	Administration of vaccine product containing only inactivated whole severe acute respiratory syndrome coronavirus 2 antigen (procedure)
 1157197009	Administration of second dose of vaccine product containing only inactivated whole severe acute respiratory syndrome coronavirus 2 antigen (procedure)
+1362591000000103	Immunisation course to maintain protection against severe acute respiratory syndrome coronavirus 2 (regime/therapy)
+1324671000000103	Immunisation course to achieve immunity against severe acute respiratory syndrome coronavirus 2 (regime/therapy)
+1362611000000106	Severe acute respiratory syndrome coronavirus 2 immunisation course done (situation)

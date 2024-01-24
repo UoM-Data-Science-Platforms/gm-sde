@@ -10,7 +10,7 @@ The codes used in primary care to indicate a positive COVID test can be split in
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.7% - 25.4%` suggests that this code set is likely well defined. _NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids._
 
-_Update **2024-01-19**: Prevalence now 22% - 25%._
+_Update **2024-01-23**: Prevalence now 23% - 25%._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -20,10 +20,10 @@ _Update **2024-01-19**: Prevalence now 22% - 25%._
 | 2023-10-04 | EMIS            | 2465646    |     567107 (23%) |    572342 (23.2%) |
 | 2023-10-04 | TPP             | 200499     |     2840 (1.42%) |     50964 (25.4%) |
 | 2023-10-04 | Vision          | 332029     |    62534 (18.8%) |     65493 (19.7%) |
-| 2024-01-19 | EMIS            | 2519438    |   585996 (23.3%) |    591174 (23.5%) |
-| 2024-01-19 | TPP             | 201469     |     3138 (1.56%) |     50788 (25.2%) |
-| 2024-01-19 | Vision          | 334528     |    71942 (21.5%) |     73018 (21.8%) |
+| 2024-01-23 | EMIS            | 2520311    |   618005 (24.5%) |    623202 (24.7%) |
+| 2024-01-23 | TPP             | 201513     |     3349 (1.66%) |     50954 (25.3%) |
+| 2024-01-23 | Vision          | 334747     |    76501 (22.9%) |     77578 (23.2%) |
 
 ## Audit log
 
-- Find_missing_codes last run 2024-01-17
+- Find_missing_codes last run 2024-01-23

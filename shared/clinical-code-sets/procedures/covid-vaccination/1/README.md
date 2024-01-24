@@ -10,6 +10,8 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 **UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
 
+**UPDATE - 24th January 2024** There has clearly been a reporting change as the prevalence of the vaccine as a medication has gone down. The event codes for the administration of the COVID vaccine seem to be the reliable place to find this informaiton.
+
 ### MED
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
@@ -20,9 +22,9 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
 | 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
 | 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
-| 2024-01-19 | EMIS            | 2519438    |  1548887 (61.5%) |   1548887 (61.5%) |
-| 2024-01-19 | TPP             | 201469     |     8768 (4.35%) |      8768 (4.35%) |
-| 2024-01-19 | Vision          | 334528     |   127550 (38.1%) |    127550 (38.1%) |
+| 2024-01-23 | EMIS            | 2520311    |  1547833 (61.4%) |   1547833 (61.4%) |
+| 2024-01-23 | TPP             | 201513     |     8819 (4.38%) |      8819 (4.38%) |
+| 2024-01-23 | Vision          | 334747     |   127541 (38.1%) |    127541 (38.1%) |
 
 ### EVENT
 
@@ -34,10 +36,10 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
 | 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
 | 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
-| 2024-01-19 | EMIS            | 2519438    |   240495 (9.55%) |   1556149 (61.8%) |
-| 2024-01-19 | TPP             | 201469     |     2290 (1.14%) |    137382 (68.2%) |
-| 2024-01-19 | Vision          | 334528     |    31846 (9.52%) |    207703 (62.1%) |
+| 2024-01-23 | EMIS            | 2520311    |   243506 (9.66%) |   1571372 (62.3%) |
+| 2024-01-23 | TPP             | 201513     |     2322 (1.15%) |    137349 (68.2%) |
+| 2024-01-23 | Vision          | 334747     |     32138 (9.6%) |    209223 (62.5%) |
 
 ## Audit log
 
-- Find_missing_codes last run 2024-01-17
+- Find_missing_codes last run 2024-01-23
