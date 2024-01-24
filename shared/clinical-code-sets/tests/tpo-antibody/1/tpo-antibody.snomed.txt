@@ -1,0 +1,4 @@
+54421000237102	Arbitrary concentration of thyroperoxidase antibody in plasma (observable entity)
+1030111000000108	Thyroid peroxidase antibody level (observable entity)
+1004401000000101	Serum thyroid peroxidase antibody concentration (observable entity)
+57721000237103	Arbitrary concentration of thyroperoxidase antibody in serum (observable entity)
