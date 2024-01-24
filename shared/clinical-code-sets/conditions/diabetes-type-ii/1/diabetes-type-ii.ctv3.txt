@@ -36,3 +36,6 @@ XaIzQ	Type 2 diabetes mellitus with persistent proteinuria
 XaIzR	Type 2 diabetes mellitus with persistent microalbuminuria
 XaJQp	Type II diabetes mellitus with exudative maculopathy
 XaKyX	Type II diabetes mellitus with gastroparesis
+C1001	Diabetes mellitus, adult onset, with no mention of complication
+C1074	NIDDM with peripheral circulatory disorder
+XE12A	Diabetes mellitus: [adult onset] or [noninsulin dependent]
