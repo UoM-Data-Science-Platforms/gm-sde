@@ -4,3 +4,7 @@
 ^ESCT1348539	Detection of Severe acute respiratory syndrome coronavirus 2 antigen
 ^ESCT1348540	Detection of 2019 novel coronavirus antigen
 ^ESCT1348541	Detection of 2019-nCoV (novel coronavirus) antigen
+^ESCT1299023	Antigen of 2019-nCoV (novel coronavirus)
+^ESCT1299024	Antigen of Wuhan 2019-nCoV (novel coronavirus)
+^ESCT1299025	Antigen of 2019 novel coronavirus
+^ESCT1301213	Antigen of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
