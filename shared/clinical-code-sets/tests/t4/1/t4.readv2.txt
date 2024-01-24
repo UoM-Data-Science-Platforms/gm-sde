@@ -1,0 +1,6 @@
+4426.00	Serum T4 level
+4427.00	Free T4 level
+442a.00	Plasma total T4 level
+442b.00	Serum total T4 level
+442c.00	Plasma free T4 level
+442V.00	Serum free T4 level
