@@ -1,0 +1,6 @@
+f911.	Tertroxin 20mcg tablet
+f911.	Tertroxin 20mcg tablet
+f91y.	Liothyronine sodium 20micrograms tablet
+f91y.	Liothyronine sodium 20micrograms tablet
+f91z.	Liothyronine sodium 20micrograms injection (pdr for recon)
+f91z.	Liothyronine sodium 20micrograms injection (pdr for recon)
