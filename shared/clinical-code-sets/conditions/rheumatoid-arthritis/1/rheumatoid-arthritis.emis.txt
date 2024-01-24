@@ -1,0 +1,157 @@
+^ESCT1165709	Erosion of joint surface co-occurrent and due to rheumatoid arthritis
+^ESCT1165710	Rheumatoid arthritis with erosion
+^ESCT1165711	Rheumatoid arthritis without erosion
+^ESCT1171326	Rheumatoid arthritis of left hand
+^ESCT1171327	Rheumatoid arthritis of left hip
+^ESCT1171328	Rheumatoid arthritis of right hand
+^ESCT1171329	Rheumatoid arthritis of right hip
+^ESCT1171330	Deformity of right hand co-occurrent and due to rheumatoid arthritis
+^ESCT1171331	Deformity of left hand co-occurrent and due to rheumatoid arthritis
+^ESCT1171332	Deformity of right foot co-occurrent and due to rheumatoid arthritis
+^ESCT1171333	Deformity of left foot co-occurrent and due to rheumatoid arthritis
+^ESCT1182615	Pericarditis co-occurrent with extraarticular rheumatoid arthritis
+^ESCT1190391	Seropositive errosive rheumatoid arthritis
+^ESCT1190443	Rheumatoid bursitis
+^ESCT1211405	Rheumatoid arthritis of left shoulder
+^ESCT1211406	Rheumatoid arthritis of right shoulder
+^ESCT1360500	Rheumatoid arthritis of joint of spine
+^ESCT1360501	Rheumatoid arthritis of spine
+^ESCT1367753	Seronegative rheumatoid arthritis of multiple sites
+^ESCT1367754	Rheumatoid nodule of subcutaneous tissue of left elbow
+^ESCT1367755	Rheumatoid nodule of left elbow
+^ESCT1367756	Rheumatoid nodule of subcutaneous tissue of left hand
+^ESCT1367757	Rheumatoid nodule of left hand
+^ESCT1367758	Rheumatoid nodule of subcutaneous tissue of right elbow
+^ESCT1367759	Rheumatoid nodule of right elbow
+^ESCT1367760	Rheumatoid nodule of subcutaneous tissue of right hand
+^ESCT1367761	Rheumatoid nodule of right hand
+^ESCT1368768	Rheumatoid arthritis of left foot
+^ESCT1368769	Rheumatoid arthritis of left wrist
+^ESCT1368770	Rheumatoid arthritis of right foot
+^ESCT1368771	Rheumatoid arthritis of right wrist
+^ESCT1370869	Bilateral rheumatoid nodule of subcutaneous tissue of elbows
+^ESCT1370870	Rheumatoid nodule of subcutaneous tissue of both elbows
+^ESCT1370871	Rheumatoid nodule of subcutaneous tissue of bilateral elbows
+^ESCT1370872	Bilateral rheumatoid nodule of subcutaneous tissue of hands
+^ESCT1370873	Rheumatoid nodule of subcutaneous tissue of both hands
+^ESCT1370874	Rheumatoid nodule of subcutaneous tissue of bilateral hands
+^ESCT1370951	Bilateral rheumatoid arthritis of feet
+^ESCT1370952	Rheumatoid arthritis of bilateral feet
+^ESCT1370953	Rheumatoid arthritis of both feet
+^ESCT1370954	Bilateral rheumatoid arthritis of knees
+^ESCT1370955	Rheumatoid arthritis of both knees
+^ESCT1370956	Rheumatoid arthritis of bilateral knees
+^ESCT1370957	Bilateral rheumatoid arthritis of hands
+^ESCT1370958	Rheumatoid arthritis of both hands
+^ESCT1370959	Rheumatoid arthritis of bilateral hands
+^ESCT1393672	Spindling of fingers of bilateral hands due to rheumatoid arthritis
+^ESCT1393673	Spindling of fingers of both hands due to rheumatoid arthritis
+^ESCT1401104	Bilateral deformity of hands due to rheumatoid arthritis
+^ESCT1401105	Deformity of both hands due to rheumatoid arthritis
+^ESCT1401106	Deformity of bilateral hands due to rheumatoid arthritis
+^ESCT1401107	Bilateral deformity of wrists due to rheumatoid arthritis
+^ESCT1401108	Deformity of bilateral wrists due to rheumatoid arthritis
+^ESCT1401109	Deformity of both wrists due to rheumatoid arthritis
+^ESCT1401110	Bilateral deformity of feet due to rheumatoid arthritis
+^ESCT1401111	Deformity of bilateral feet due to rheumatoid arthritis
+^ESCT1401112	Deformity of both feet due to rheumatoid arthritis
+^ESCTCU666527	Cutaneous atrophy due to rheumatoid arthritis
+^ESCTDE714415	Deformity of wrist due to rheumatoid arthritis
+^ESCTDE717649	Deformity of foot due to rheumatoid arthritis
+^ESCTDE803035	Deformity of hand due to rheumatoid arthritis
+
+
+^ESCT1417278	Seropositive rheumatoid arthritis of left hand
+^ESCT1417279	Seropositive rheumatoid arthritis of right hand
+^ESCT1417791	Bilateral seronegative rheumatoid arthritis of knees
+^ESCT1417792	Seronegative rheumatoid arthritis of bilateral knees
+^ESCT1417793	Seronegative rheumatoid arthritis of both knees
+^ESCT1417794	Bilateral seronegative rheumatoid arthritis of wrists
+^ESCT1417795	Seronegative rheumatoid arthritis of bilateral wrists
+^ESCT1417796	Seronegative rheumatoid arthritis of both wrists
+^ESCT1417797	Bilateral seropositive rheumatoid arthritis of knees
+^ESCT1417798	Seropositive rheumatoid arthritis of bilateral knees
+^ESCT1417799	Seropositive rheumatoid arthritis of both knees
+^ESCT1418044	Bilateral seropositive rheumatoid arthritis of feet
+^ESCT1418045	Seropositive rheumatoid arthritis of bilateral feet
+^ESCT1418046	Seropositive rheumatoid arthritis of both feet
+^ESCTAC373289	Acute juvenile rheumatoid arthritis
+^ESCTCH253000	Chronic polyarticular juvenile rheumatoid arthritis
+^ESCTDI284070	Dilated cardiomyopathy secondary to rheumatoid arthritis
+^ESCTJR680258	JRA - Juvenile rheumatoid arthritis
+^ESCTJU680260	Juvenile rheumatoid arthritis, seropositive
+^ESCTMO480934	Monoarticular juvenile rheumatoid arthritis
+^ESCTPA370925	Pauciarticular juvenile rheumatoid arthritis
+^ESCTPE262095	Pericarditis secondary to rheumatoid arthritis
+^ESCTPO730878	Polyarticular juvenile rheumatoid arthritis
+^ESCTRA363654	RA - Rheumatoid arthritis
+^ESCTRH342889	Rheumatoid arthritis, leukopenia AND splenomegaly
+^ESCTRH342890	Rheumatoid arthritis, leucopenia AND splenomegaly
+^ESCTRH363656	RhA - Rheumatoid arthritis
+^ESCTRH480910	Rheumatoid arthritis of distal radioulnar joint
+^ESCTRH480918	Rheumatoid arthritis of tibiofibular joint
+^ESCTRH480922	Rheumatoid arthritis of first metatarsophalangeal joint
+^ESCTRH513935	Rheumatoid arthritis with multisystem involvement
+^ESCTRH572143	Rheumatoid arthritis of multiple joints
+^ESCTRH572145	Rheumatoid arthritis - hand joint
+^ESCTRH572146	Rheumatoid arthritis of hand joint
+^ESCTRH572147	Rheumatoid arthritis of hand
+^ESCTRH572148	Rheumatoid arthritis - ankle and/or foot
+^ESCTRH572149	Rheumatoid arthritis - ankle/foot
+^ESCTRH572150	Rheumatoid arthritis of ankle and/or foot
+^ESCTRH707850	Rheumatoid arthritis of temporomandibular joint
+^ESCTRH709964	Rheumatoid arthritis of foot
+^ESCTRH804566	Rheumatoid arthritis in remission
+^ESCTRH810219	Rheumatoid lung disease with rheumatoid arthritis
+^ESCTRH844718	Rheumatoid arthritis of left knee
+^ESCTRH844728	Rheumatoid arthritis of right knee
+^ESCTSE935744	Seropositive rheumatoid arthritis of multiple joints
+^ESCTSY480930	Systemic onset juvenile rheumatoid arthritis
+^ESCTUV390175	Uveitis-rheumatoid arthritis syndrome
+^ESCT1382341	Systemic rheumatoid vasculitis
+^ESCTAC666522	Accelerated rheumatoid nodulosis
+^ESCTAC666523	Accelerated rheumatoid nodulosis due to methotrexate
+^ESCTAT363651	Atrophic arthritis
+^ESCTBY666530	Bywater lesions
+^ESCTCA660878	Caplan's syndrome
+^ESCTCA660879	Caplans syndrome
+^ESCTCH304258	Chronic rheumatoid nodular fibrosis
+^ESCTCH363652	Chronic rheumatic arthritis
+^ESCTCU666531	Cutaneous complication of rheumatoid disease
+^ESCTDI267034	Diffuse interstitial rheumatoid disease of lung
+^ESCTEX335376	Extra-articular rheumatoid process
+^ESCTFE342891	Felty syndrome
+^ESCTJC370926	JCA - Pauciarticular onset juvenile chronic arthritis
+^ESCTJU680259	Juvenile seropositive polyarthritis
+^ESCTJU680262	Juvenile seropositive arthritis
+^ESCTJU680263	Juvenile chronic arthritis, polyarticular seropositive
+^ESCTLI666525	Linear subcutaneous bands in rheumatoid disease
+^ESCTNA514169	Nailfold rheumatoid vasculitis
+^ESCTNA666529	Nailfold/finger-pulp infarcts in rheumatoid disease
+^ESCTNE514171	Necrotising rheumatoid vasculitis
+^ESCTNE514172	Necrotizing rheumatoid vasculitis
+^ESCTPA370927	Pauciarticular onset juvenile arthritis
+^ESCTPO442767	Poulet's disease
+^ESCTPR363657	Proliferative arthritis
+^ESCTPS666526	Pseudoscleroderma due to rheumatoid disease
+^ESCTRH312567	Rheumatoid aortitis
+^ESCTRH339041	Rheumatoid fibrosing alveolitis
+^ESCTRH346105	Rheumatoid scleritis
+^ESCTRH363653	Rheumatic gout
+^ESCTRH363655	Rheumatoid disease
+^ESCTRH376149	Rheumatoid episcleritis
+^ESCTRH442766	Rheumatoid osteoperiostitis
+^ESCTRH604993	Rheumatoid melting disorder of cornea
+^ESCTRH660877	Rheumatoid pneumoconiosis
+^ESCTRH663162	Rheumatoid arteritis
+^ESCTRH666521	Rheumatoid nodulosis
+^ESCTRH666524	Rheumatoid linear subcutaneous bands
+^ESCTRH666528	Rheumatoid neutrophilic dermatitis
+^ESCTRH714416	Rheumatoid wrist deformity
+^ESCTRH803036	Rheumatoid hand deformity
+^ESCTSU304257	Subcutaneous rheumatoid nodule
+^ESCTSY514170	Systemic rheumatoid vasculitis
+^ESCT1407340	Wissler-Fanconi syndrome
+^ESCTAD514132	Adult onset Still disease
+^ESCTBE265339	Bekhterev's disease
+^ESCTRH287799	Rheumatic pancarditis
