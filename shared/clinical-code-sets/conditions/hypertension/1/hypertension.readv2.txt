@@ -32,3 +32,6 @@ G200.00	Malignant essential hypertension
 Gyu2.00	[X]Hypertensive diseases
 Gyu2100	[X]Hypertension secondary to other renal disorders
 Gyu2000	[X]Other secondary hypertension
+6146200	Hypertension induced by oral contraceptive pill
+G24z100	Hypertension secondary to drug
+G27..00	Hypertension resistant to drug therapy

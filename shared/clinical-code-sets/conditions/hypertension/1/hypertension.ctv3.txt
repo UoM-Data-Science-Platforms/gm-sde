@@ -35,3 +35,6 @@ G2z..	Hypertensive disease NOS
 Gyu2.	[X]Hypertensive diseases
 XM19D	[EDTA] Renal vascular disease due to hypertension (no primary renal disease) associated with renal failure
 XM19E	[EDTA] Renal vascular disease due to malignant hypertension (no primary renal disease) associated with renal failure
+61462	Hypertension induced by oral contraceptive pill
+G24z1	Hypertension secondary to drug
+XaZbT	Hypertension resistant to drug therapy
