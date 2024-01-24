@@ -1,0 +1,37 @@
+C03..00	Congenital hypothyroidism
+C030.00	Pendred's syndrome
+C031.00	Goitrous cretin
+C03y.00	Other specified congenital hypothyroidism
+C03y000	Congenital hypothyroidism with diffuse goitre
+C03y100	Congenital hypothyroidism without goitre
+C03z.00	Congenital hypothyroidism NOS
+C04..00	Acquired hypothyroidism
+C040.00	Postsurgical hypothyroidism
+C041.00	Other postablative hypothyroidism
+C041000	Irradiation hypothyroidism
+C041z00	Postablative hypothyroidism NOS
+C042.00	Iodine hypothyroidism
+C043.00	Other iatrogenic hypothyroidism
+C043000	Hypothyroidism resulting from para-aminosalicylic acid
+C043100	Hypothyroidism resulting from phenylbutazone
+C043200	Hypothyroidism resulting from resorcinol
+C043z00	Iatrogenic hypothyroidism NOS
+C044.00	Postinfectious hypothyroidism
+C046.00	Autoimmune myxoedema
+C047.00	Subclinical hypothyroidism
+C04y.00	Other acquired hypothyroidism
+C04z.00	Hypothyroidism NOS
+C04z100	Myxoedema coma
+C061.00	Dyshormonogenic goitre
+C06y100	Thyroid atrophy
+C0A..00	Congenital iodine deficiency syndrome
+C0A0.00	Congenital iodine-deficiency syndrome, neurological type
+C0A1.00	Congenital iodine-deficiency syndrome, myxoedematous type
+C0A2.00	Congenital iodine-deficiency syndrome, mixed type
+C0A5.00	Subclinical iodine-deficiency hypothyroidism
+C134300	TSH - thyroid-stimulating hormone deficiency
+C3A..00	Iodine-deficiency syndromes
+Cyu1000	Other iodine-deficiency related thyroid disorders and allied conditions
+Cyu1100	Other sp cified hypothyroidism
+PK25100	Congenital absence of thyroid gland
+Q433700	Neonatal jaundice with congenital hypothyroidism
