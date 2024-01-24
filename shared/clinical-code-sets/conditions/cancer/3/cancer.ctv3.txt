@@ -2103,3 +2103,177 @@ XM1R8	H/O: * lung
 XSA0M	Secondary malignant neoplasm of mouth
 ZV106	[V]Personal history of leukaemia
 ZVu6G	[X]Personal history of other malignant neoplasms of lymphoid, haematopoietic and related tissues
+A7886	Human immunodeficiency virus with secondary cancers
+A7895	HIV disease resulting in Kaposi's sarcoma
+A7896	HIV disease resulting in Burkitt's lymphoma
+A7897	HIV disease resulting in other types of non-Hodgkin's lymphoma
+A7898	HIV disease resulting in multiple malignant neoplasms
+AyuC6	[X]HIV disease resulting in other non-Hodgkin's lymphoma
+AyuC8	[X]HIV disease resulting in other malignant neoplasms
+B33y.	Malignant neoplasm of other specified skin sites
+B8yy0	Carcinoma in situ of thyroid
+B93..	Neoplasm of uncertain behaviour of other and unspecified sites and tissues
+B931.	Neoplasm of uncertain behaviour of connective and other soft tissue
+B93y.	Neoplasm of uncertain behaviour of other specified sites
+B93yz	Neop of uncertain behaviour of other specified sites NOS
+B93z.	Neoplasm of uncertain behaviour of other and unspecified sites and tissues NOS
+B9y..	Neoplasm of uncertain behaviour otherwise specified
+B9z..	Neoplasm of uncertain behaviour NOS
+BA...	Unspecified nature neoplasm
+BA0..	Neoplasm of unspecified nature
+BA00.	Neoplasm of unspecified nature of digestive system
+BA01.	Neoplasm of unspecified nature of respiratory system
+BA02.	Neoplasm of unspecified nature of bone, skin and soft tissue
+BA020	Neoplasm of unspecified nature of bone
+BA021	Neoplasm of unspecified nature of soft tissue
+BA02z	Neoplasm of unspecified nature of bone, skin or soft tissue NOS
+BA04.	Neoplasm of unspecified nature of bladder
+BA05.	Neoplasm of unspecified nature of other genitourinary organs
+BA07.	Neoplasm of unspecified nature of endocrine glands and other parts of nervous system
+BA0y.	Neoplasm of unspecified nature of other specified sites
+BAz..	Neoplasm of unspecified nature NOS
+BB1..	[M]Epithelial neoplasms NOS
+BB1z.	[M]Unspecified epithelial neoplasm
+BBE..	[M]Naevi and melanomas
+BBEz.	[M]Naevi or melanoma NOS
+BBW..	[M]Chondromatous neoplasms
+BBW2.	[M]Chondroma NOS
+BBWz.	[M]Chondromatous neoplasm NOS
+BBy..	[M]No microscopic confirmation of tumour
+BByz.	[M]No microscopic confirmation of tumour, clinically NOS
+By...	Neoplasms otherwise specified
+Byu..	[X]Additional neoplasm classification terms
+Byu4.	[X]Melanoma and other malignant neoplasms of skin
+Byu43	[X]Malignant neoplasm of skin, unspecified
+Bz...	Neoplasms NOS
+C180.	Multiple endocrine adenomatosis (& [Wermer's syndrome])
+N3309	Osteoporosis in multiple myelomatosis
+X3023	Tumour of stomach
+X30Og	Tumour of urinary bladder
+X30Ot	Tumour of prostate
+X77mu	Epithelial tumour
+X77oH	Melanocytic lesion morphology
+X78b3	Mucoepidermoid tumour of lacrimal gland
+X78bM	Squamous cell carcinoma of conjunctiva
+X78eh	Sarcoma of bone and connective tissue
+X78el	Squamous cell carcinoma of lip
+X78gQ	Malignant tumour of anus and anal canal
+X78gs	Malignant tumour of skin
+X78h1	Malignant neoplasm of sebaceous gland
+X78Hp	Carcinoma of fraenum linguae
+X78Ig	Squamous cell carcinoma of buccal mucosa
+X78J3	Carcinoma of lower labial sulcus
+X78jJ	Malignant tumour of pituitary and hypothalamus
+X78kS	Secondary carcinoma of respiratory and/or digestive systems
+X78kv	Metastasis to renal pelvis
+X78kX	Secondary lymphangitic carcinoma
+X78ky	Metastasis to pituitary
+X78kz	Metastasis to optic nerve
+X78l8	Local tumour spread
+X78LA	Malignant tumour of inferior surface of soft palate
+X78MM	Carcinoma of thoracic part of oesophagus
+X78Mr	Carcinoma of fundus of stomach
+X78MW	Carcinoma of upper third of oesophagus
+X78qc	Localised malignant reticulohistiocytoma
+X78Ql	Malignant tumour of mediastinum
+X78SS	Basal cell carcinoma of skin
+X78TD	Nodular malignant melanoma of skin
+X78Wn	Mixed epithelial tumour of ovary
+X78Wo	Undifferentiated carcinoma of ovary
+X78XH	Endodermal sinus tumour of ovary
+X78Xj	Carcinoma of cervix stage 0
+Xa0bT	Intraduct carcinoma of breast
+Xa0Dp	Malignant glioma of brain
+Xa0Dq	Malignant glioma of spinal cord
+Xa0QI	Lymphoproliferative disorder
+Xa0Se	Refractory anaemia with ringed sideroblasts
+Xa0Sf	Refractory anaemia with excess blasts
+Xa0Sg	Refractory anaemia with excess blasts in transformation
+Xa0SH	T-cell acute lymphoblastic leukaemia
+Xa0SJ	Monoclonal gammopathy of uncertain significance
+Xa0SL	Light chain myeloma
+Xa0SM	Heavy chain disease
+Xa0SN	Non-secretory myeloma
+Xa0SV	Juvenile chronic myeloid leukaemia
+Xa0Sx	Hodgkin's disease, nodular sclerosis - lymphocytic depletion
+Xa0SY	Myelodysplastic syndrome
+Xa0Th	Peripheral T-cell lymphoma
+Xa0Ti	T-zone lymphoma
+Xa0Ty	True histiocytic lymphoma
+Xa3En	Intermediate grade B-cell lymphoma
+Xa99P	Phaeochromocytoma
+Xa99S	Malignant melanoma
+Xa99V	Malignant peripheral nerve sheath tumour
+Xa99y	Rhabdomyosarcoma
+Xa9AU	Osteoma
+Xa9AY	Chondroma
+XaabR	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+XaBBC	Neutrophilic leukaemia
+XaBBf	Malignant lymphoma, centroblastic-centrocytic, follicular
+XaBBo	Malignant lymphoma, lymphocytic, poorly differentiated, nodular
+XaBBp	Malignant lymphoma, centroblastic type, follicular
+XacIa	Malignant melanoma stage IIIB
+XacIb	Malignant melanoma stage IIIC
+XacId	Malignant melanoma stage IV M1a
+XacIe	Malignant melanoma stage IV M1b
+XacIf	Malignant melanoma stage IV M1c
+XacIU	Malignant melanoma stage IA
+XacIV	Malignant melanoma stage IB
+XacIW	Malignant melanoma stage IIA
+XacIX	Malignant melanoma stage IIB
+XacIY	Malignant melanoma stage IIC
+XacIZ	Malignant melanoma stage IIIA
+XaFrd	Metastasis from malignant melanoma of skin
+XaFre	Metastasis from malignant tumour of skin
+XaFrf	Metastasis from malignant tumour of soft tissues
+XaFrg	Metastasis from malignant tumour of bone
+XaFrh	Metastasis from malignant tumour of adrenal gland
+XaFri	Metastasis from malignant tumour of cervix
+XaFrj	Metastasis from malignant tumour of uterus
+XaFrk	Metastasis from malignant tumour of prostate
+XaFrl	Metastasis from malignant tumour of bladder
+XaFrm	Metastasis from malignant tumour of kidney
+XaFrn	Metastasis from malignant tumour of rectum
+XaFrq	Metastasis from malignant tumour of liver
+XaFrr	Metastasis from malignant tumour of gallbladder
+XaFrt	Metastasis from malignant tumour of oesophagus
+XaIJA	Pathological fracture due to metastatic bone disease
+XaYii	Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue
+XaYiK	Myelodysplastic and myeloproliferative disease
+XaYil	Follicular lymphoma grade 3a
+XaYiN	Hepatosplenic T-cell lymphoma
+XE1vh	Other malignant neoplasm of skin
+XE1vo	Malignant tumour of lymphoid haemopoietic and related tissue
+XE1vP	Malignant neoplasm of digestive organs and peritoneum
+XE1vQ	Malignant neoplasm of oesophagus NOS
+XE1vR	Malignant tumour of stomach
+XE1w4	Benign tumour of bone and articular cartilage
+XE1w6	Benign neoplasm of bone or articular cartilage NOS
+XE1wP	Neoplasm of uncertain behaviour of plasma cells
+XE1wQ	Neoplasm of uncertain behaviour of other lymphatic and haematopoietic tissue
+XE1wX	[M]Malignant melanoma NOS
+XE1xB	Ca fundus - stomach
+XE1xd	Ca colon NOS
+XE1xf	Ca rectum with Ca anus
+XE1xh	Carcinoma of the rectosigmoid junction
+XE1xJ	Ca stomach NOS
+XE1xL	Carcinoma of colon
+XE1xP	Ca transverse colon
+XE1xr	Ca intrahepatic bile ducts
+XE1xt	Gallbladder Ca
+XE1xv	Ca extrahepatic bile ducts
+XE1xx	Ca liver/biliary system NOS
+XE1xZ	Ca splenic flexure - colon
+XE1yb	Ca upper limb bones/scapula
+XE1yd	Ca pelvic bones/sacrum/coccyx
+XE1yl	Malignant melanoma of head and neck
+XE1yn	Malignant melanoma of trunk
+XE1yp	Malignant melanoma of upper limb
+XE1yr	Malignant melanoma of lower limb
+XE1z5	Ca skin - other NOS
+XE1zf	Ca penis
+XE1zJ	Ca breast - male
+XE1zl	Ca kidney/other urinary organs
+XE1zr	Other primary carcinomas
+XE1zt	Ca uterus NOS: [carcinoma] or [cancer]
+XM1ML	Epithelioma basal cell
