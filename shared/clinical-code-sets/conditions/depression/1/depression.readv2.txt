@@ -1,4 +1,3 @@
-readcode	Description
 12K8.00	Maternal postnatal depression
 1B17.00	Depressed
 1B17.11	C/O - feeling depressed
@@ -13,7 +12,6 @@ readcode	Description
 62T1.00	Puerperal depression
 6659000	Antidepressant drug treatment started
 6G00.00	Postnatal depression counselling
-8BIB.00	Patient unhappy with medication regime
 8BK0.00	Depression management programme
 8CAa.00	Patient given advice about management of depression
 8HHq.00	Referral for guided self-help for depression
@@ -75,12 +73,9 @@ E291.00	Prolonged depressive reaction
 E2B..00	Depressive disorder NEC
 E2B0.00	Postviral depression
 E2B1.00	Chronic depression
-Eu05300	[X]Organic mood [affective] disorders
-Eu06y11	[X]Right hemispheric organic affective disorder
 Eu20400	[X]Post-schizophrenic depression
 Eu25100	[X]Schizoaffective disorder, depressive type
 Eu25111	[X]Schizoaffective psychosis, depressive type
-Eu3..00	[X]Mood - affective disorders
 Eu32.00	[X]Depressive episode
 Eu32.11	[X]Single episode of depressive reaction
 Eu32.12	[X]Single episode of psychogenic depression
@@ -134,21 +129,12 @@ Eu33400	[X]Recurrent depressive disorder, currently in remission
 Eu33y00	[X]Other recurrent depressive disorders
 Eu33z00	[X]Recurrent depressive disorder, unspecified
 Eu33z11	[X]Monopolar depression NOS
-Eu34.00	[X]Persistent mood affective disorders
 Eu34100	[X]Dysthymia
 Eu34111	[X]Depressive neurosis
 Eu34112	[X]Depressive personality disorder
 Eu34113	[X]Neurotic depression
 Eu34114	[X]Persistant anxiety depression
-Eu34y00	[X]Other persistent mood affective disorders
-Eu34z00	[X]Persistent mood affective disorder, unspecified
-Eu3y.00	[X]Other mood affective disorders
-Eu3y000	[X]Other single mood affective disorders
-Eu3y011	[X]Mixed affective episode
-Eu3y100	[X]Other recurrent mood affective disorders
 Eu3y111	[X]Recurrent brief depressive episodes
-Eu3yy00	[X]Other specified mood affective disorders
-Eu3z.00	[X]Unspecified mood affective disorder
 Eu41200	[X]Mixed anxiety and depressive disorder
 Eu41211	[X]Mild anxiety depression
 Eu43212	[X]Grief reaction
@@ -156,3 +142,13 @@ Eu53011	[X]Postnatal depression NOS
 Eu53012	[X]Postpartum depression NOS
 Eu92000	[X]Depressive conduct disorder
 R007z13	[D]Postoperative depression
+13Hc.00	Bereavement
+E001300	Presenile dementia with depression
+E002100	Senile dementia with depression
+E115400	Bipolar affective disorder, currently depressed, severe, with psychosis
+E115600	Bipolar affective disorder, currently depressed, in full remission
+Eu22200	[X]Cotard syndrome
+Eu31500	[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms
+Eu41300	[X]Other mixed anxiety disorders
+ZV62800	[V]Uncomplicated bereavement
+Eu3y2	[X]Premenstrual dysphoric disorder
