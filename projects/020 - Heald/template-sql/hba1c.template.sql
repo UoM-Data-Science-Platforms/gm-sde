@@ -12,10 +12,6 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ020EndDate datetime;
-SET @TEMPRQ020EndDate = '2022-06-01';
-
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -31,8 +27,7 @@ SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ020EndDate;
+GROUP BY FK_Patient_Link_ID;
 
 --> CODESET hba1c:2
 

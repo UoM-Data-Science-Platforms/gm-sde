@@ -36,6 +36,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - Patient GP history
+- Patients with post-COVID syndrome (long COVID)
 - Secondary admissions and length of stay
 - Secondary discharges
 - COVID vaccinations
@@ -74,6 +75,32 @@ A temp table as follows:
 _File_: `query-patient-gp-history.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-gp-history.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql)
+
+---
+### Patients with post-COVID syndrome (long COVID)
+To get tables of all patients with a post-COVID syndrome code in their record. Separated into diagnosis, assessment and referral codes. 
+
+_Input_
+```
+Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+
+```
+
+_Output_
+```
+One temp table as follows:
+ #PostCOVIDPatients
+	-	FK_Patient_Link_ID - unique patient id
+  - FirstPostCOVIDDiagnosisDate - First date of a post COVID diagnosis
+  - FirstPostCOVIDAssessmentDate - First date of a post COVID assessment
+  - FirstPostCOVIDReferralDate - First date of a post COVID referral
+```
+_File_: `query-patients-with-post-covid-syndrome.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-post-covid-syndrome.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-post-covid-syndrome.sql)
 
 ---
 ### Secondary admissions and length of stay
@@ -355,7 +382,7 @@ _Input_
 Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -417,6 +444,9 @@ This project required the following clinical code sets:
 - ace-inhibitor v1
 - aspirin v1
 - clopidogrel v1
+- long-covid-diagnosis v1
+- long-covid-referral v1
+- long-covid-assessment v1
 
 Further details for each code set can be found below.
 
@@ -618,7 +648,7 @@ LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-i
 
 ### HbA1c
 
-A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's HbA1c (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
 
 **NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
 #### Prevalence log
@@ -944,6 +974,51 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | Vision          | 334632     |     9568 (2.86%) |      9568 (2.86%) |
 
 LINK: [https://github.com/rw251/.../medications/clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1)
+
+### Long COVID diagnosis
+
+Any code indicating a diagnosis of long-covid / post-covid syndrome. There are also code sets for [long-covid-assessment](../../../patient/long-covid-assessment/) and [long-covid-referral](../../../patient/long-covid-referral/).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.095% - 0.401%` suggests missing codes from TPP practices. However, there is literature showing that all long covid codes are poorly used (https://doi.org/10.3399%2FBJGP.2021.0301 and https://www.adruk.org/fileadmin/uploads/adruk/Documents/Data_Insights/Clinical_coding_and_capture_of_Long_COVID_V.3__4_.pdf).
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-09-12 | EMIS            | 2463856    |    9874 (0.401%) |     9879 (0.401%) |
+| 2023-09-12 | TPP             | 200590     |      26 (0.013%) |     191 (0.0952%) |
+| 2023-09-12 | Vision          | 332095     |     808 (0.243%) |      810 (0.244%) |
+
+LINK: [https://github.com/rw251/.../conditions/long-covid-diagnosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/long-covid-diagnosis/1)
+
+### Long COVID referral
+
+Any code indicating a referral for long-covid / post-covid syndrome. There are also code sets for [long-covid-diagnosis](../../../conditions/long-covid-diagnosis/) and [long-covid-assessment](../../long-covid-assessment/).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.15% - 0.657%` suggests missing codes from Vision and TPP practices. However, there is literature showing that all long covid codes are poorly used (https://doi.org/10.3399%2FBJGP.2021.0301 and https://www.adruk.org/fileadmin/uploads/adruk/Documents/Data_Insights/Clinical_coding_and_capture_of_Long_COVID_V.3__4_.pdf).
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-09-12 | EMIS            | 2463856    |   16167 (0.656%) |    16176 (0.657%) |
+| 2023-09-12 | TPP             | 200590     |    11 (0.00548%) |      425 (0.212%) |
+| 2023-09-12 | Vision          | 332095     |     467 (0.141%) |       498 (0.15%) |
+
+LINK: [https://github.com/rw251/.../patient/long-covid-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/long-covid-referral/1)
+
+### Long COVID assessment
+
+Any code indicating an assessment of long-covid / post-covid syndrome. There are also code sets for [long-covid-diagnosis](../../../conditions/long-covid-diagnosis/) and [long-covid-referral](../../long-covid-referral/).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0% - 0.007%` suggests missing codes from all practices. However, there is literature showing that all long covid codes are poorly used (https://doi.org/10.3399%2FBJGP.2021.0301 and https://www.adruk.org/fileadmin/uploads/adruk/Documents/Data_Insights/Clinical_coding_and_capture_of_Long_COVID_V.3__4_.pdf). So this is probably lack of use rather than missing codes.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-09-12 | EMIS            | 2463856    |   166 (0.00674%) |    166 (0.00674%) |
+| 2023-09-12 | TPP             | 200590     |           0 (0%) |            0 (0%) |
+| 2023-09-12 | Vision          | 332095     |    1 (0.000301%) |     1 (0.000301%) |
+
+LINK: [https://github.com/rw251/.../patient/long-covid-assessment/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/long-covid-assessment/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../020 - Heald/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/020%20-%20Heald/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
