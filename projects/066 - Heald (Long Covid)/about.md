@@ -1,0 +1,7 @@
+# The influence of COVID-19 infections and vaccinations on the likelihood of the development of long COVID.
+
+## Summary
+
+Since early 2020, the world has continued to be challenged by the pandemic caused by the SARS-CoV-2 virus (COVID-19) and its successive variant forms. It was apparent from the early phase of the pandemic that a multi-system syndrome can develop in the weeks following a COVID-19 infection, now referred to as long COVID.
+
+While work has already been done to determine the risk factors for the development of long COVID, the influence of multiple acute COVID-19 infections and number of COVID-19 vaccinations is unclear. We have already undertaken a study using GMCR data which show that recorded long COVID was more prevalent in men with T2D than in matched non-T2D controls with the opposite seen for T2D women, with recorded long COVID rates being similar for T2D men and women. Younger age, female sex, mixed ethnicity, and higher BMI were all associated with a greater likelihood of developing long COVID when taken as individual variables. We plan to look at the entirety of long COVID diagnoses/referrals for specialist assessment in adults whose data is recorded in the GMCR from 1st March 2020 till 31st December 2023. We will determine the influence of the number of acute COVID-19 infections and number of COVID-19 vaccinations on the likelihood of the development of long COVID.We will also examine the independent relations of age, sex, ethnicity, social disadvantage, and major comorbidities on the likelihood of long COVID developing.
