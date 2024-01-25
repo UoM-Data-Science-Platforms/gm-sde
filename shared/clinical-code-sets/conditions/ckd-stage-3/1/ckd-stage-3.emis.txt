@@ -1,0 +1,26 @@
+^ESCTAN821240	Anaemia co-occurrent and due to chronic kidney disease stage 3
+^ESCTAN821241	Anemia co-occurrent and due to chronic kidney disease stage 3
+^ESCTCH796669	Chronic kidney disease stage 3 due to type 2 diabetes mellitus
+^ESCTCH796671	Chronic kidney disease stage 3 due to type II diabetes mellitus
+^ESCTCH802745	Chronic kidney disease stage 3 due to type 1 diabetes mellitus
+^ESCTCH802746	Chronic kidney disease stage 3 due to type I diabetes mellitus
+^ESCTCH804068	Chronic kidney disease stage 3 due to hypertension
+^ESCTCH808707	Chronic kidney disease stage 3 due to benign hypertension
+^ESCTCH834588	Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1
+^ESCTCH834590	Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2
+^ESCTCH834593	Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3
+^ESCTCH834600	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1
+^ESCTCH834602	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2
+^ESCTCH834604	Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3
+^ESCTCK717479	CKD stage 3
+^ESCTCK810423	CKD (chronic kidney disease) stage 3 with proteinuria
+^ESCTCK810426	CKD (chronic kidney disease) stage 3 without proteinuria
+^ESCTCK810430	CKD (chronic kidney disease) stage 3A with proteinuria
+^ESCTCK810435	CKD (chronic kidney disease) stage 3A without proteinuria
+^ESCTCK810438	CKD (chronic kidney disease) stage 3B with proteinuria
+^ESCTCK810441	CKD (chronic kidney disease) stage 3B without proteinuria
+^ESCTDI796670	Diabetic stage 3 chronic renal impairment due to type 2 diabetes mellitus
+^ESCTHY803043	Hypertensive heart AND chronic kidney disease stage 3
+^ESCTHY804406	Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus
+^ESCTHY804407	Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus
+^ESCTMA808769	Malignant hypertensive chronic kidney disease stage 3

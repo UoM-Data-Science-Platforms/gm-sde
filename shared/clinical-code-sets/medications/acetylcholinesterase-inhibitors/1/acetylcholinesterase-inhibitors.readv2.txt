@@ -1,0 +1,76 @@
+dB11.	MEMANTINE HYDROCHLORIDE 10mg tablets
+dB12.	MEMANTINE HYDROCHLORIDE 10mg/g oral drops
+dB13.	EBIXA 10mg tablets
+dB14.	EBIXA 10mg/g oral drops
+dB15.	EBIXA 20mg tablets
+dB16.	MEMANTINE HYDROCHLORIDE 20mg tablets
+dB17.	EBIXA TREATMENT INITIATION PACK tablets
+dB18.	NEMDATINE 10mg tablets
+dB19.	NEMDATINE 20mg tablets
+dy11.	DONEPEZIL HYDROCHLORIDE 5mg tablets
+dy12.	DONEPEZIL HYDROCHLORIDE 10mg tablets
+dy13.	ARICEPT 5mg tablets
+dy14.	ARICEPT 10mg tablets
+dy15.	ARICEPT EVESS 5mg oro-dispersible tablets
+dy16.	ARICEPT EVESS 10mg oro-dispersible tablets
+dy1y.	DONEPEZIL HYDROCHLORIDE 10mg oro-dispersible tablets
+dy1z.	DONEPEZIL HYDROCHLORIDE 5mg oro-dispersible tablets
+dy21.	RIVASTIGMINE 1.5mg capsules
+dy22.	RIVASTIGMINE 3mg capsules
+dy23.	RIVASTIGMINE 4.5mg capsules
+dy24.	RIVASTIGMINE 6mg capsules
+dy25.	EXELON 1.5mg capsules
+dy26.	EXELON 3mg capsules
+dy27.	EXELON 4.5mg capsules
+dy28.	EXELON 6mg capsules
+dy29.	RIVASTIGMINE 2mg/mL oral solution
+dy2A.	EXELON 2mg/mL oral solution
+dy2B.	EXELON 4.6mg/24hours transdermal patches
+dy2C.	EXELON 9.5mg/24hours transdermal patches
+dy2D.	RIVASTIGMINE 4.6mg/24hrs patches
+dy2E.	RIVASTIGMINE 9.5mg/24hrs patches
+dy2F.	NIMVASTID 1.5mg capsules
+dy2G.	NIMVASTID 3mg capsules
+dy2H.	NIMVASTID 4.5mg capsules
+dy2I.	NIMVASTID 6mg capsules
+dy2J.	EXELON 13.3mg/24hours transdermal patches
+dy2K.	RIVASTIGMINE 13.3mg/24hours transdermal patches
+dy2L.	ALZEST 4.6mg/24hours transdermal patches
+dy2M.	ALZEST 9.5mg/24hours transdermal patches
+dy2N.	PROMETAX 4.6mg/24hours transdermal patches
+dy2O.	PROMETAX 9.5mg/24hours transdermal patches
+dy2P.	SOMNITON 4.6mg/24hours transdermal patches
+dy2Q.	SOMNITON 9.5mg/24hours transdermal patches
+dy2R.	VOLEZE 4.6mg/24hours transdermal patches
+dy2S.	VOLEZE 9.5mg/24hours transdermal patches
+dy2U.	ELUDEN 4.6mg/24hours transdermal patches
+dy2V.	ELUDEN 9.5mg/24hours transdermal patches
+dy31.	*REMINYL 4mg tablets
+dy32.	REMINYL 8mg tablets
+dy33.	REMINYL 12mg tablets
+dy34.	REMINYL 4mg/mL sugar free oral solution
+dy35.	REMINYL XL 8mg m/r capsules
+dy36.	REMINYL XL 16mg m/r capsules
+dy37.	REMINYL XL 24mg m/r capsules
+dy38.	GALSYA XL 8mg m/r capsules
+dy39.	GALSYA XL 16mg m/r capsules
+dy3A.	GALSYA XL 24mg m/r capsules
+dy3B.	ACUMOR XL 8mg m/r capsules
+dy3C.	ACUMOR XL 16mg m/r capsules
+dy3D.	ACUMOR XL 24mg m/r capsules
+dy3E.	LOTPROSIN XL 8mg m/r capsules
+dy3F.	LOTPROSIN XL 16mg m/r capsules
+dy3G.	LOTPROSIN XL 24mg m/r capsules
+dy3H.	ELMINO XL 8mg m/r capsules
+dy3I.	ELMINO XL 16mg m/r capsules
+dy3J.	ELMINO XL 24mg m/r capsules
+dy3K.	LUVENTA XL 8mg m/r capsules
+dy3L.	LUVENTA XL 16mg m/r capsules
+dy3M.	LUVENTA XL 24mg m/r capsules
+dy3t.	GALANTAMINE 8mg m/r capsules
+dy3u.	GALANTAMINE 16mg m/r capsules
+dy3v.	GALANTAMINE 24mg m/r capsules
+dy3w.	GALANTAMINE 4mg/mL sugar free oral solution
+dy3x.	*GALANTAMINE 4mg tablets
+dy3y.	GALANTAMINE 8mg tablets
+dy3z.	GALANTAMINE 12mg tablets

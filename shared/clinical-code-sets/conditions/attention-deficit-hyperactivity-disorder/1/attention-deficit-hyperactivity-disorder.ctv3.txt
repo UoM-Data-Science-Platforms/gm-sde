@@ -23,3 +23,11 @@ Eu90z	[X]Hyperkinetic disorder, unspecified
 XE2Q6	ADD - Attention deficit disorder with hyperactivity
 XE2Q6	Attention deficit hyperactivity disorder
 XE2Q6	Attention deficit hyperkinetic disorder
+E2E0.	Child attention deficit disorder
+E2E00	Attention deficit without hyperactivity
+E2E0z	Child attention deficit disorder NOS
+E2E1.	Hyperkinesis with developmental delay
+E2E2.	Hyperkinetic conduct disorder
+Ub1Tv	[Attention] and/or deficit [disorder]
+Ub1Tx	Deficits in attention motor control and perception
+Ub1Ty	MBD - Minimal brain dysfunction

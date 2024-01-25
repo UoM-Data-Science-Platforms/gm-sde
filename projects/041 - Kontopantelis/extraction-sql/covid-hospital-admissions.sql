@@ -16,7 +16,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -37,31 +37,21 @@ SET NOCOUNT ON;
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -307,7 +297,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #EGFR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
@@ -322,7 +312,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #ACR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
@@ -419,7 +409,7 @@ WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #kidney_damage
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
@@ -559,7 +549,7 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
 WHERE 
-	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
+	(DeathDate < @EndDate OR DeathDate IS NULL) AND 
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
@@ -582,7 +572,7 @@ SELECT
   [Value],
   [Units]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 
@@ -625,9 +615,9 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPAdmissionsEndDate datetime;
-SET @TEMPAdmissionsEndDate = '2022-06-01';
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPAdmissionsEndDate datetime;
+--SET @TEMPAdmissionsEndDate = '2022-06-01';
 
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
@@ -646,7 +636,7 @@ BEGIN
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND AdmissionDate >= @StartDate
-		AND AdmissionDate <= @TEMPAdmissionsEndDate;
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
@@ -655,7 +645,7 @@ BEGIN
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND AdmissionDate >= @StartDate
-		AND AdmissionDate <= @TEMPAdmissionsEndDate;
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --┌──────────────────────┐
@@ -678,8 +668,8 @@ END
 --   hospital stays)
 
 -- Set the temp end date until new legal basis
-DECLARE @TEMPDischargesEndDate datetime;
-SET @TEMPDischargesEndDate = '2022-06-01';
+--DECLARE @TEMPDischargesEndDate datetime;
+--SET @TEMPDischargesEndDate = '2022-06-01';
 
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
@@ -696,7 +686,7 @@ BEGIN
     LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
     WHERE EventType = 'Discharge'
     AND DischargeDate >= @StartDate
-    AND DischargeDate <= @TEMPDischargesEndDate;
+   -- AND DischargeDate <= @TEMPDischargesEndDate;
   ELSE
 		INSERT INTO #Discharges
     SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
@@ -705,7 +695,7 @@ BEGIN
     WHERE EventType = 'Discharge'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
     AND DischargeDate >= @StartDate
-    AND DischargeDate <= @TEMPDischargesEndDate;;
+    --AND DischargeDate <= @TEMPDischargesEndDate;;
 END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14
@@ -790,9 +780,9 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPWithCovidEndDate datetime;
-SET @TEMPWithCovidEndDate = '2022-06-01';
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPWithCovidEndDate datetime;
+--SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
@@ -808,7 +798,7 @@ WHERE (
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND EventDate > '2020-01-01'
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 --AND EventDate <= GETDATE()
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -833,7 +823,7 @@ WHERE SuppliedCode IN (
 	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 	AND Version = 1
 )
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;

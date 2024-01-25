@@ -1,1 +1,2 @@
 22K..00	Body Mass Index
+22KB.00	Baseline body mass index

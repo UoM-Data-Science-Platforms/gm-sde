@@ -1,0 +1,2 @@
+136..	AI - Alcohol intake
+Ub173	Alcohol units per week

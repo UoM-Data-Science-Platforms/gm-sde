@@ -1,20 +1,69 @@
-74285003	Mass of pelvic structure
-92056006	Benign tumor of cervix
-92260003	Benign ovarian tumor
-93934004	Primary malignant neoplasm of ovary (disorder)
-94126000	Primary malignant neoplasm of uterine adnexa (disorder)
-94455000	Cancer metastatic to ovary
-94664002	Secondary malignant neoplasm of uterine adnexa (disorder)
-94792004	Neoplasm of uncertain behavior of uterine cervix (disorder)
-94974001	Neoplasm of uncertain behavior of ovary (disorder)
+703563003	High-grade serous carcinoma   
 109880006	Overlapping malignant neoplasm of uterine cervix (disorder)
+11671000	Adenoid cystic carcinoma (morphologic abnormality) 
 123841004	Tumor of cervix
 123843001	Tumor of ovary
+12400006	Papillary transitional cell carcinoma (morphologic abnormality) 
+128628002	Large cell neuroendocrine carcinoma (morphologic abnormality) 
+128630000	Glassy cell carcinoma (morphologic abnormality) 
+128634009	Basaloid squamous cell carcinoma (morphologic abnormality) 
+128637002	Adenoid basal carcinoma (morphologic abnormality) 
+128658008	Atypical carcinoid tumor (morphologic abnormality) 
+128680006	Endometrioid adenocarcinoma, secretory variant (morphologic abnormality) 
+128695008	Mucinous adenocarcinoma, endocervical type (morphologic abnormality) 
+128704005	Adenocarcinoma with neuroendocrine differentiation (morphologic abnormality) 
+128724009	Sertoli-Leydig cell tumor, retiform (morphologic abnormality) 
+128725005	Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements (morphologic abnormality) 
+128726006	Endometrial stromal sarcoma, low grade (morphologic abnormality)    
+128727002	Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements (morphologic abnormality) 
+128734000	Undifferentiated sarcoma (morphologic abnormality) 
+128735004	Desmoplastic small round cell tumor (morphologicabnormality) 
+128736003	Solitary fibrous tumor, malignant (morphologic abnormality)
+128748000	Genital rhabdomyoma (morphologic abnormality) 
+128756002	Gastrointestinal stromal sarcoma (morphologic abnormality) 
+128767001	Trophoblastic tumor, epithelioid (morphologic abnormality) 
+128849004	Serous cystadenoma, borderline malignancy (morphologic abnormality) 
+128905000	Sertoli-Leydig cell tumor of intermediate differentiation (morphologic abnormality) 
+128906004	Sertoli-Leydig cell tumor, poorlydifferentiated (morphologic abnormality) 
+128907008	Steroid cell tumor,malignant (morphologic abnormality)  
+13071008	Mesonephric tumor (morphologic abnormality) 
+1338007	Basal cell carcinoma (morphologic abnormality) 
+14269005	Embryonal rhabdomyosarcoma (morphologic abnormality) 
+15176003	Adenocarcinoma with squamous metaplasia (morphologic abnormality) 
+15540006	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage I
+15674004	Serous surface papillary carcinoma (morphologic abnormality) 
+16090008	Myxoid leiomyosarcoma (morphologic abnormality) 
+18048008	Squamous cell carcinoma, keratinizing (morphologic abnormality) 
+18799007	Invasive hydatidiform mole (morphologic abnormality) 
 188192002	Malignant neoplasm of endometrium of corpus uteri (disorder)
 188469005	Cancer metastatic to cervix
+18854008	Struma ovarii, malignant (morphologic abnormality) 
+18861007	Granulosa cell tumor, malignant (morphologicabnormality)    
+19467007	Teratoma, malignant, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+19897006	Malignant peripheral nerve sheath tumor (morphologic abnormality) 
+2092003	Malignant melanoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+2221008	Mesonephroma, malignant (morphologic abnormality) 
+2495009	Mucinous adenocarcinoma 
+25190001	Adenocarcinoma, intestinal type (morphologic abnormality) 
 254856004	Undifferentiated ovarian cancer
+25654007	FIGO CC stage Ib
+27090000	Transitional cell carcinoma (morphologic abnormality) 
+28047004	Embryonal carcinoma (morphologic abnormality) 
+28899001	Squamous cell carcinoma, no International Classification of Diseases for Oncologysubtype (morphologic abnormality) 
+30289006	Endometrioid carcinoma  
+30382004	International Federation of Gynecology and Obstetrics endometrial cancer stage II
+30546008	Clear cell adenocarcinoma   
+30924005	Rhabdomyosarcoma, no subtype (morphologic abnormality) 
+31396002	Goblet cell carcinoid (morphologic abnormality) 
+31470003	Adenosarcoma    
 314970000	Local recurrence of malignant tumor of cervix (disorder)
 314992001	Metastasis from malignant tumor of cervix (disorder)
+32071008	Strumal carcinoid (morphologic abnormality) 
+32140001	Papillary cystadenoma (morphologic abnormality) 
+32844007	Mixed germ cell tumor (morphologic abnormality) 
+34110004	Sertoli-Leydig cell tumor, well differentiated (morphologic abnormality) 
+34537009	International Federation of Gynecology and Obstetrics endometrial cancer stage IV
+35917007	Adenocarcinoma, no subtype (morphologic abnormality) 
 363354003	Cervical cancer
 363443007	Ovarian cancer
 363514001	Malignant tumor of female genital organ (disorder)
@@ -22,26 +71,54 @@
 369523007	Cancer metastatic to left ovary
 369529006	Primary malignant neoplasm of right ovary (disorder)
 369530001	Cancer metastatic to right ovary
+369814002	T3 (III): Endometrial tumor with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings (finding)
 372024009	Primary malignant neoplasm of uterine cervix
-416712009	Clear cell (mesonephric) neoplasm of ovary
+38549000	Epithelial tumours undifferentiated carcinoma  
+38958001	Mixed cell adenocarcinoma (morphologic abnormality) 
+39000009	Hemangiosarcoma (morphologic abnormality) 
+39056008	Papillary squamous cell carcinoma (morphologic abnormality) 
+399408005	Warty (condylomatous) carcinoma (morphologic abnormality) 
+406096006	Mixed germ cell-sex cord-stromal tumor (morphologic abnormality) 
+42194009	Brenner tumor malignant 
 422782004	Primary malignant neoplasm of ovary, with widespread metastatic disease
 423274005	Ovarian cancer stage 4
 423480004	Cancer of ovary, stage 3
+42392001	Epithelioid leiomyosarcoma (morphologic abnormality) 
 423973006	Invasive cervical cancer
 424486004	Cancer of ovary, stage 2
 424600001	Ovarian cancer stage 1
 428322007	Malignant neoplasm of uterine adnexa
-716855006	Theca steroid producing cell malignant tumour of ovary
-718220008	Hereditary breast and ovarian cancer syndrome
-764791008	Borderline epithelial neoplasm of ovary (disorder)
-33521000119105	Neoplasm of low malignant potential behavior of ovary (disorder)
-15540006	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage I
-25654007	FIGO CC stage Ib
+44769000	Choriocarcinoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+45490001	Squamous cell carcinoma, large cell, nonkeratinizing (morphologic abnormality) 
+46756001	International Federation of Gynecology and Obstetrics endometrial cancer stage I A
 49219005	International Federation of Gynecology and Obstetrics cervical cancer stage Ia
+49430005	Liposarcoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+49937004	Kaposi's sarcoma, morphology (morphologic abnormality) 
+50237009	International Federation of Gynecology and Obstetrics endometrial cancer stage I
+5052009	Merkel cell carcinoma (morphologic abnormality) 
+51549004	Leiomyosarcoma, no subtype (morphologic abnormality) 
+51642000	Adenocarcinoma in situ (morphologic abnormality) 
 52708004	International Federation of Gynecology and Obstetrics cervical cancer stage III (finding)
+53654007	Fibrosarcoma (morphologic abnormality) 
+54734006	Sebaceous adenocarcinoma (morphologic abnormality) 
+5658009	Adenocarcinoma in tubulovillous adenoma (morphologic abnormality) 
+57706008	Ependymoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+59238007	Epithelioid sarcoma (morphologic abnormality) 
+59367005	Adenosquamous carcinoma (morphologic abnormality) 
+5958006	Small cell carcinoma, intermediate cell (morphologic abnormality) 
+60275007	International Federation of Gynecology and Obstetrics endometrial cancer stage I B (finding)
+60718004	Dysgerminoma (morphologic abnormality) 
+62064005	Mesothelioma, malignant (morphologic abnormality) 
+62064005	Mesothelioma, malignant (morphologic abnormality) 
+63264007	Carcinosarcoma (morphologic abnormality) 
+63449009	Alveolar rhabdomyosarcoma (morphologic abnormality) 
 68240008	International Federation of Gynecology and Obstetrics cervical cancer stage II (finding)
-81822003	International Federation of Gynecology and Obstetrics cervical cancer stage IV (finding)
-87977001	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
+703558002	Serous intraepithelial carcinoma (morphologic abnormality) 
+703558002	Serous intraepithelial carcinoma (morphologic abnormality) 
+703561001	Low-grade serous carcinoma   
+703568007	Seromucinous carcinoma  
+703605001	Perivascular epithelioid tumor, malignant (morphologic abnormality) 
+70555003	Endometrial stromal sarcoma, high grade (morphologic abnormality)   
 708327004	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA1 (finding)
 708331005	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IA2 (finding)
 708340009	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IB1 (finding)
@@ -53,41 +130,32 @@
 708395003	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IIIB (finding)
 708400002	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVA (finding)
 708404006	International Federation of Gynecology and Obstetrics cervical cancer (FIGO CC) stage IVB (finding)
-315266007	Suspected cervical cancer (situation)
-315267003	Suspected endometrial cancer (situation)
-397682005	Suspected gynecological cancer (situation)
-725275004	Subject refused referral to gynaecologist
-762997004	Suspected ovarian cancer
-4461000175108	Screening for malignant neoplasm of cervix not done
-112241000119107	Cervical cancer Papanicolaou smear screening declined
-30382004	International Federation of Gynecology and Obstetrics endometrial cancer stage II
-34537009	International Federation of Gynecology and Obstetrics endometrial cancer stage IV
-46756001	International Federation of Gynecology and Obstetrics endometrial cancer stage I A
-50237009	International Federation of Gynecology and Obstetrics endometrial cancer stage I
-60275007	International Federation of Gynecology and Obstetrics endometrial cancer stage I B (finding)
-80975007	International Federation of Gynecology and Obstetrics endometrial cancer stage III (finding)
 708415001	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIB
 708432002	International Federation of Gynaecology and Obstetrics endometrial cancer stage IIIC1
 708435000	International Federation of Gynecology and Obstetrics endometrial cancer stage IIIC2
 708443005	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVA (finding)
 708446002	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IVB (finding)
 708533009	International Federation of Gynecology and Obstetrics endometrial cancer (FIGO EC) stage IIIA
-785781000000101	Referral to community gynaecology service
-76742009	Postmenopausal bleeding (finding)
-301822002	Abnormal vaginal bleeding (finding)
-415149004	Postmenopausal postcoital bleeding
-874231000000101	QCancer endometrial cancer risk
-848891000000105	QCancer ovarian cancer risk (observable entity)
-874251000000108	QCancer cervical cancer risk
-369814002	T3 (III): Endometrial tumor with local and/or regional spread as specified in T3a, b, N1 and FIGO IIIA, B, and C below or adnexa (direct extension or metastasis) and/or cancer cells in ascites or peritoneal washings (finding)
-446526009	Debulking of neoplasm of ovary
-473239006	Bilateral oophorectomy for malignant tumour of ovary
-94397007	Cancer metastatic to neck lymph nodes
-700125004	Referral to paediatric gynaecology service
-432519008	Elevated cancer antigen 125
-276311000000101	Fast track referral for suspected gynaecological cancer
-382511000000105	Seen in fast track suspected gynaecological cancer clinic
-249011000000106	Referral to gynaecology special interest general practitioner
-119423009	Benign teratoma of ovary (disorder)
-189116006	Benign neoplasm of ovary (& dermoid cyst)
-312984006	Abnormal uterine bleeding unrelated to menstrual cycle (disorder)
+71440001	Sex cord-stromal tumor, no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+72495009	Mucinous adenocarcinoma (morphologic abnormality) 
+7300000	Lymphoepithelial carcinoma (morphologic abnormality) 
+73676002	Peripheral neuroectodermal tumor (morphologic abnormality) 
+74364000	Small cell carcinoma (morphologic abnormality) 
+74409009	Endodermal sinus tumor (morphologic abnormality) 
+75320001	Placental site trophoblastic tumor (morphologic abnormality) 
+76594008	Dermatofibrosarcoma (morphologic abnormality) 
+80975007	International Federation of Gynecology and Obstetrics endometrial cancer stage III (finding)
+81622000	Carcinoid tumor no International Classification of Diseases for Oncology subtype (morphologic abnormality) 
+81822003	International Federation of Gynecology and Obstetrics cervical cancer stage IV (finding)
+82711006	Infiltrating duct carcinoma (morphologic abnormality) 
+87737001	Signet ring cell carcinoma (morphologic abnormality) 
+87913009	Phyllodes tumor, malignant (morphologic abnormality) 
+87977001	International Federation of Gynaecology and Obstetrics cervical cancer (FIGO CC) stage Ib occ
+88195001	Alveolar soft part sarcoma (morphologic abnormality) 
+89906000	Verrucous carcinoma (morphologic abnormality) 
+90282004	Papillary serous cystadenocarcinoma (morphologic abnormality) 
+90725004	Serous cystadenocarcinoma (morphologic abnormality) 
+93934004	Primary malignant neoplasm of ovary (disorder)
+94126000	Primary malignant neoplasm of uterine adnexa (disorder)
+94455000	Cancer metastatic to ovary
+94664002	Secondary malignant neoplasm of uterine adnexa (disorder)

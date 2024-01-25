@@ -1,0 +1,7 @@
+160588008	Spirit drinker (life style)
+160589000	Beer drinker (life style)
+160590009	Drinks beer and spirits (life style)
+160591008	Drinks wine (life style)
+160593006	Alcohol intake within recommended sensible limits (finding)
+28127009	Social drinker (life style)
+43783005	Moderate drinker (life style)

@@ -10,10 +10,10 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-03-01';
+--DECLARE @IndexDate datetime;
+--SET @IndexDate = '2020-03-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;

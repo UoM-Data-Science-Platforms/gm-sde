@@ -1,2 +1,109 @@
 XaabR	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
 XE1vW	Rectal cancer
+B13..	Malignant tumour of colon
+B130.	Malignant tumour of hepatic flexure
+B131.	Malignant tumour of transverse colon
+B132.	Malignant tumour of descending colon
+B133.	Malignant tumour of sigmoid colon
+B136.	Malignant tumour of ascending colon
+B137.	Malignant tumour of splenic flexure
+B138.	Malignant neoplasm, overlapping lesion of colon
+B13y.	Malignant neoplasm of other specified sites of colon
+B13z.	Malignant neoplasm of colon (& NOS)
+B18y0	Malignant neoplasm of mesocolon
+B575.	Sec malignant neoplasm of large intestine(AND/OR?[rectum])
+B5750	Secondary malignant neoplasm of colon
+B575z	Secondary malig neop of large intestine or rectum NOS
+B803.	Carcinoma in situ of colon
+B8030	Carcinoma in situ of hepatic flexure
+B8031	Carcinoma in situ of transverse colon
+B8032	Carcinoma in situ of descending colon
+B8033	Carcinoma in situ of sigmoid colon
+B8036	Carcinoma in situ of ascending colon
+B8037	Carcinoma in situ of splenic flexure
+B803z	Carcinoma in situ of colon NOS
+B9024	Neoplasm of uncertain behaviour of colon
+X78gO	Adenocarcinoma of colon
+X78Np	Tumour of colon
+X78Nq	Tumour of ascending colon
+X78Nu	Tumour of hepatic flexure
+X78Ny	Tumour of transverse colon
+X78O2	Tumour of splenic flexure
+X78O6	Tumour of descending colon
+X78OA	Tumour of sigmoid colon
+Xa34H	Carcinoma of sigmoid colon
+Xa3AC	Metastasis to colon of unknown primary
+Xa84V	Adenocarcinoma of sigmoid colon
+XaDc5	Carcinoma of ascending colon
+XaDc6	Carcinoma of transverse colon
+XaDc7	Carcinoma of descending colon
+XaDc8	Carcinoma of hepatic flexure
+XaDc9	Carcinoma of splenic flexure
+XaFrI	Local recurrence of malignant tumour of colon
+XaFsw	Hereditary nonpolyposis colon cancer
+XaXQk	Secondary malignant neoplasm of large intestine and rectum
+XE1vV	Malignant neoplasm of colon NOS
+XE1xd	Ca colon NOS
+XE1xL	Carcinoma of colon
+XE1xN	Ca hepatic flexure - colon
+XE1xP	Ca transverse colon
+XE1xR	Ca descending colon
+XE1xT	Ca sigmoid colon
+XE1xX	Ca ascending colon
+XE1xZ	Ca splenic flexure - colon
+Y5827	Carcinoma colon
+B14..	Malignant neoplasm of rectum, rectosigmoid junction and anus
+B14..	Malignant neoplasm of rectum, rectosigmoid junction and anus
+B140.	Malignant neoplasm of rectosigmoid junction
+B140.	Malignant tumour of rectosigmoid junction
+B140.	Malignant tumour of rectosigmoid junction
+B141.	Carcinoma of rectum
+B141.	Malignant neoplasm of rectum
+B141.	Rectal carcinoma
+B14y.	Malignant neoplasm of other sites of rectum, rectosigmoid junction and anus
+B14y.	Malignant neoplasm of other sites of rectum, rectosigmoid junction and anus
+B14z.	Malignant neoplasm of rectum, rectosigmoid junction and anus NOS
+B14z.	Malignant neoplasm of rectum, rectosigmoid junction and anus NOS
+B1z0.	Cancer of bowel
+B1z0.	Malignant neoplasm of intestinal tract, part unspecified
+B1z0.	Malignant neoplasm of intestinal tract, part unspecified
+B5751	Secondary malignant neoplasm of rectum
+B5751	Secondary malignant neoplasm of rectum
+Byu12	[X]Malignant neoplasm of intestinal tract, part unspecified
+Byu12	[X]Malignant neoplasm of intestinal tract, part unspecified
+X78gK	CA - Cancer of bowel
+X78gK	CA - Cancer of intestine
+X78gK	Cancer of bowel
+X78gK	Cancer of intestine
+X78gK	Intestinal cancer
+X78gK	Malignant tumour of intestine
+X78gK	Malignant tumour of intestine
+X78gN	CA - Cancer of large bowel
+X78gN	Cancer of large bowel
+X78gN	Cancer of large intestine
+X78gN	Malignant tumour of large intestine
+X78gN	Malignant tumour of large intestine
+X78OK	Adenocarcinoma of rectum
+X78OK	Adenocarcinoma of rectum
+X78OK	Carcinoma of rectum
+X78OK	Rectal carcinoma
+X78OX	Malignant tumour of anorectal junction
+X78OX	Malignant tumour of anorectal junction
+X78OX	Malignant tumour of anorectum
+Xa0Dj	Malignant melanoma of rectum
+Xa0Dj	Malignant melanoma of rectum
+Xa3AD	Metastasis to rectum of unknown primary
+Xa3AD	Metastasis to rectum of unknown primary
+Xa3AD	UKP - Metastasis to rectum of unknown primary
+XaFrJ	Local recurrence of malignant tumour of rectum
+XaFrJ	Local recurrence of malignant tumour of rectum
+XE1xh	Ca rectosigmoid junction
+XE1xh	Carcinoma of the rectosigmoid junction
+XE1xh	Carcinoma of the rectosigmoid junction
+XE1xj	(Ca rectum) or (rectum carcinoma)
+XE1xj	(Ca rectum) or (rectum carcinoma)
+XE1xj	Ca rectum
+XE1xj	Carcinoma of rectum
+XE1xj	Rectum carcinoma
+XM0Ad	Metastasis to large intestine
+XM0Ad	Metastasis to large intestine

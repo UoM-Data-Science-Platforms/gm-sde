@@ -7,3 +7,19 @@
 43961000119109	Pneumococcal 7-valent conjugate vaccination given
 310578008	Pneumococcal vaccination given (finding)
 382551000000109	Pneumococcal vaccination given by other healthcare provider
+170337005	Pneumococcal vaccination given
+871833000	Subcutaneous injection of pneumococcal vaccine
+308753004	Subcutaneous injection of Pneumovax II (procedure)
+34783011000001102	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (A A H Pharmaceuticals Ltd)
+35111211000001108	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Alliance Healthcare (Distribution) Ltd)
+3017311000001106	Pneumovax II vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+3005011000001103	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+36461211000001108	Pneumovax 23 solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+3018111000001105	Pnu-Imune vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+16649411000001104	Prevenar 13 vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+3439311000001100	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials
+3439211000001108	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
+3439111000001102	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml vials
+10245211000001108	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+27396511000001105	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+3003511000001107	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes

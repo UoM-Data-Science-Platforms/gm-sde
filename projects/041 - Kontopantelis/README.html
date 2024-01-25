@@ -139,7 +139,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Secondary discharges</li>
 <li>Define Cohort for RQ041: patients with biochemical evidence of CKD</li>
 <li>Year of birth</li>
-<li>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</li>
+<li>Create table of patients who are registered with a GM GP</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>Alcohol Intake</h3>
@@ -514,7 +514,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
 <hr>
-<h3>Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards</h3>
+<h3>Create table of patients who are registered with a GM GP</h3>
 <p>undefined</p>
 <p><em>Input</em></p>
 <pre><code>undefined
@@ -1004,7 +1004,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.09% - 0.12%</code> suggests that this code set is well defined.</p>
+<p>The prevalence range <code>0.16% - 0.21%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1017,29 +1017,35 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-04-05</td>
+<td>2023-10-03</td>
 <td>EMIS</td>
-<td>2660237</td>
-<td style="text-align:right">2872 (0.11%)</td>
-<td style="text-align:right">2872 (0.11%)</td>
+<td>2469004</td>
+<td style="text-align:right">4340 (0.176%)</td>
+<td style="text-align:right">2866 (0.116%)</td>
 </tr>
 <tr>
-<td>2022-04-05</td>
+<td>2023-10-03</td>
 <td>TPP</td>
-<td>212647</td>
-<td style="text-align:right">197 (0.09%)</td>
-<td style="text-align:right">197 (0.09%)</td>
+<td>200687</td>
+<td style="text-align:right">326 (0.162%)</td>
+<td style="text-align:right">209 (0.104%)</td>
 </tr>
 <tr>
-<td>2022-04-05</td>
+<td>2023-10-03</td>
 <td>Vision</td>
-<td>341912</td>
-<td style="text-align:right">416 (0.12%)</td>
-<td style="text-align:right">412 (0.12%)</td>
+<td>332247</td>
+<td style="text-align:right">712 (0.214%)</td>
+<td style="text-align:right">420 (0.126%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1">https://github.com/rw251/.../conditions/sle/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1">https://github.com/rw251/.../conditions/sle/1</a></p>
 <h3>Gout</h3>
 <p>Codes from: https://www.opencodelists.org/ctv3/concept/X702o/</p>
 <h4>Prevalence log</h4>
@@ -1200,9 +1206,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/hormone-replacement-therapy/1">https://github.com/rw251/.../procedures/hormone-replacement-therapy/1</a></p>
 <h3>long covid</h3>
-<p>Any code indicating presence of long covid</p>
+<p>Any code indicating presence of long covid.</p>
+<p><em>NB this code set contains a mixture of diagnosis, assessment and referral codes. Please refer to the separate code sets for <a href="../../long-covid-diagnosis/">long-covid-diagnosis</a>, <a href="../../../patient/long-covid-assessment/">long-covid-assessment</a>, and <a href="../../../patient/long-covid-referral/">long-covid-referral</a> if granularity is required</em></p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.55% - 13.96%</code> suggests missing codes from Vision and TPP practices.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.02% - 0.98%</code> suggests potential missing codes or under-reporting.</p>
 <table>
 <thead>
 <tr>
@@ -1215,29 +1222,35 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2021-03-11</td>
+<td>2023-10-03</td>
 <td>EMIS</td>
-<td>2600658</td>
-<td style="text-align:right">371790 (13.96%)</td>
-<td style="text-align:right">20088 (0.75%)</td>
+<td>2469004</td>
+<td style="text-align:right">24617 (0.997%)</td>
+<td style="text-align:right">24622 (0.997%)</td>
 </tr>
 <tr>
-<td>2021-03-11</td>
+<td>2023-10-03</td>
 <td>TPP</td>
-<td>210333</td>
-<td style="text-align:right">1179 (0.55%)</td>
-<td style="text-align:right">141 (0.07%)</td>
+<td>200687</td>
+<td style="text-align:right">39 (0.0194%)</td>
+<td style="text-align:right">203 (0.101%)</td>
 </tr>
 <tr>
-<td>2021-03-11</td>
+<td>2023-10-03</td>
 <td>Vision</td>
-<td>333251</td>
-<td style="text-align:right">4084 (1.19%)</td>
-<td style="text-align:right">676 (0.20%)</td>
+<td>332247</td>
+<td style="text-align:right">1153 (0.347%)</td>
+<td style="text-align:right">1181 (0.355%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/long-covid/1">https://github.com/rw251/.../conditions/long-covid/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/long-covid/1">https://github.com/rw251/.../conditions/long-covid/1</a></p>
 <h3>Menopause</h3>
 <p>Codes developed from GetSet. Includes any codes that mention menopause.</p>
 <h4>Prevalence log</h4>
@@ -3507,7 +3520,8 @@ Stanozolol (0604030T0)</p>
 <p>Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.</p>
 <p><strong>NB: This code set is intended to only indicate a patient's haemoglobin values.</strong></p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>59.66% - 62.03%</code> suggests that this code set is likely well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>61% - 68.1%</code> suggests that this code set is likely well defined.</p>
+<p>update:</p>
 <table>
 <thead>
 <tr>
@@ -3520,25 +3534,25 @@ Stanozolol (0604030T0)</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>EMIS</td>
-<td>2652511</td>
-<td style="text-align:right">1582390 (59.66%)</td>
-<td style="text-align:right">1582391 (59.66%)</td>
+<td>2463856</td>
+<td style="text-align:right">1501968 (61%)</td>
+<td style="text-align:right">1502094 (61%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>TPP</td>
-<td>212213</td>
-<td style="text-align:right">129224 (60.89%)</td>
-<td style="text-align:right">129224 (60.89%)</td>
+<td>200590</td>
+<td style="text-align:right">136648 (68.1%)</td>
+<td style="text-align:right">136654 (68.1%)</td>
 </tr>
 <tr>
-<td>2022-02-01</td>
+<td>2023-09-18</td>
 <td>Vision</td>
-<td>340640</td>
-<td style="text-align:right">211312 (62.03%)</td>
-<td style="text-align:right">211312 (62.03%)</td>
+<td>332095</td>
+<td style="text-align:right">206665 (62.2%)</td>
+<td style="text-align:right">206678 (62.2%)</td>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/haemoglobin/1">https://github.com/rw251/.../tests/haemoglobin/1</a></td>
@@ -4081,7 +4095,10 @@ Stanozolol (0604030T0)</p>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1">https://github.com/rw251/.../tests/urine-blood/1</a></p>
+<p>| 2023-09-20 | EMIS | 2466262 | 37760 (1.53%) | 37858 (1.54%) |
+| 2023-09-20 | TPP | 200680 | 29414 (14.7%) | 29424 (14.7%) |
+| 2023-09-20 | Vision | 332105 | 5714 (1.72%) | 5723 (1.72%) |
+LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-blood/1">https://github.com/rw251/.../tests/urine-blood/1</a></p>
 <h3>Hypertension</h3>
 <p>Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.</p>
 <p>Developed from https://getset.ga.</p>

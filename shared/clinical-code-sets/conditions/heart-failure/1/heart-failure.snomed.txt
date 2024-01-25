@@ -1,6 +1,5 @@
 153931000119109	Acute combined systolic and diastolic heart failure
 10633002	Acute congestive heart failure
-49584005	Acute cor pulmonale
 443343001	Acute diastolic heart failure
 698296002	Acute exacerbation of chronic congestive heart failure
 56675007	Acute heart failure
@@ -21,7 +20,6 @@
 410431009	Cardiorespiratory failure
 153941000119100	Chronic combined systolic and diastolic heart failure
 88805009	Chronic congestive heart failure
-79955004	Chronic cor pulmonale
 441530006	Chronic diastolic heart failure
 48447003	Chronic heart failure
 5375005	Chronic left-sided congestive heart failure
@@ -32,7 +30,6 @@
 195112003	Compensated cardiac failure
 206586007	Congenital cardiac failure
 42343007	Congestive heart failure
-72481000119103	Congestive heart failure as early postoperative complication
 101281000119107	Congestive heart failure due to cardiomyopathy
 426263006	Congestive heart failure due to left ventricular systolic dysfunction
 426611007	Congestive heart failure due to valvular disease
@@ -43,16 +40,13 @@
 67431000119105	Congestive heart failure stage D
 23341000119109	Congestive heart failure with right heart failure
 82523003	Congestive rheumatic heart failure
-83291003	Cor pulmonale
 195111005	Decompensated cardiac failure
 424404003	Decompensated chronic heart failure
-371862006	Depression of left ventricular systolic function
 418304008	Diastolic heart failure
 120891000119109	Diastolic heart failure stage C
 120881000119106	Diastolic heart failure stage D
 96311000119109	Exacerbation of congestive heart failure
 84114007	Heart failure
-233924009	Heart failure as a complication of care
 471880001	Heart failure due to end stage congenital heart disease
 446221000	Heart failure with normal ejection fraction
 703272007	Heart failure with reduced ejection fraction
@@ -68,7 +62,6 @@
 46113002	Hypertensive heart failure
 275514001	Impaired left ventricular function
 85232009	Left heart failure
-44088000	Low cardiac output syndrome
 25544003	Low output heart failure
 83105008	Malignant hypertensive heart disease with congestive heart failure
 314206003	Refractory heart failure
@@ -77,9 +70,32 @@
 426012001	Right heart failure due to pulmonary hypertension
 44313006	Right heart failure secondary to left heart failure
 367363000	Right ventricular failure
-15964701000119109	Saddle embolus of pulmonary artery with acute cor pulmonale
 698594003	Symptomatic congestive heart failure
 417996009	Systolic heart failure
 120861000119102	Systolic heart failure stage C
 15629741000119102	Systolic heart failure stage C due to ischaemic cardiomyopathy
 120851000119104	Systolic heart failure stage D
+788950000	Heart failure with mid range ejection fraction
+16838951000119100	Acute on chronic right-sided congestive heart failure
+195108009	Heart failure: [right] or [congestive]
+195113008	(Left ventricular: [failure] or [impaired function]) or (cardiac asthma) or (acute pulmonary oedema)
+395105005	Heart failure confirmed (context-dependent category)
+416683003	Admit heart failure emergency (procedure)
+420300004	New York Heart Association Classification - Class I (finding)
+420913000	New York Heart Association Classification - Class III (finding)
+421704003	New York Heart Association Classification - Class II (finding)
+422293003	New York Heart Association Classification - Class IV (finding)
+266308000	(Congestive cardiac failure) or (dropsy) or (cardiac insufficiency) or (right heart failure) or (right ventricular failure)
+233924009	Heart failure as a complication of care (disorder)
+1204206001	Left ventricular failure with normal ejection fraction due to cardiomyopathy (disorder)
+1204203009	Left ventricular failure with normal ejection fraction due to coronary arteriosclerosis (disorder)
+898208007	Heart failure due to thyrotoxicosis (disorder)
+1208850004	Right ventricular failure due to right ventricular infarction (disorder)
+871617000	Low output heart failure due to and following Fontan operation (disorder)
+1208843003	Right ventricular failure due to heart valve disorder (disorder)
+1208848007	Right ventricular failure due to disorder of pulmonary circulation (disorder)
+1208846006	Right ventricular failure due to disorder of lung (disorder)
+1204204003	Left ventricular failure with normal ejection fraction due to myocarditis (disorder)
+1204462004	Left ventricular failure with sepsis (disorder)
+1204468000	Right ventricular failure with sepsis (disorder)
+1204200007	Left ventricular failure with normal ejection fraction due to valvular heart disease (disorder)

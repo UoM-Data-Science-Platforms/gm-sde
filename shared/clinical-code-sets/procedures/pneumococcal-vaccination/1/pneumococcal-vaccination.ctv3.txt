@@ -6,3 +6,7 @@ XaLqs	First pneumococcal conjugated vaccination
 XaIeO	Booster pneumococcal vaccination
 XaPyX	Pneumococcal vaccination given by other healthcare provider
 XaCKa	Pneumococcal vaccination given
+XaBZP	Subcutaneous injection of Pneumovax II
+n4b2.	Pneumovax II injection 0.5mL
+n4b7.	PREVENAR 13 vaccine prefilled syringe 0.5mL
+x03kp	Pnu-Imune vaccine injection

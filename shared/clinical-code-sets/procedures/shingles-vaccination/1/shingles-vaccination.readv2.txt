@@ -1,0 +1,5 @@
+65FY.	Herpes zoster vaccination
+65FY.00	Herpes zoster vaccination
+65FY.11	Shingles vaccination
+65FY0	Herpes zoster vaccination given by other health care provider
+65FY000	Herpes zoster vaccination given by other health care provider

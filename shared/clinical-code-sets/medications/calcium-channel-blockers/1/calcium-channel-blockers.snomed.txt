@@ -1,0 +1,1554 @@
+318248001	Verapamil 160mg tablets
+982511000001103	Verapamil 160mg tablets
+1259111000001109	Verapamil 160mg tablets
+1027111000001105	Verapamil 160mg tablets
+526311000001106	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd)
+1327911000001107	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd)
+1328011000001109	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd)
+390711000001102	Verapamil 160mg tablets (Accord-UK Ltd)
+1328111000001105	Verapamil 160mg tablets (Accord-UK Ltd)
+596111000001103	Verapamil 160mg tablets (Viatris UK Healthcare Ltd)
+1329111000001103	Verapamil 160mg tablets (Viatris UK Healthcare Ltd)
+783511000001101	Cordilox 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+1329311000001101	Cordilox 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+25811000001105	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+1329411000001108	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+1329511000001107	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+156611000001107	Verapamil 160mg tablets (Kent Pharma (UK) Ltd)
+2282811000001100	Verapamil 160mg tablets (Kent Pharma (UK) Ltd)
+1329611000001106	Verapamil 160mg tablets (Kent Pharma (UK) Ltd)
+820611000001102	Verapamil 160mg tablets (Sandoz Ltd)
+1329811000001105	Verapamil 160mg tablets (Sandoz Ltd)
+690411000001100	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+1629811000001103	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+3708611000001101	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+15201811000001105	Verapamil 160mg tablets (Sigma Pharmaceuticals Plc)
+15201911000001100	Verapamil 160mg tablets (Sigma Pharmaceuticals Plc)
+30111811000001101	Verapamil 160mg tablets (DE Pharmaceuticals)
+30111911000001106	Verapamil 160mg tablets (DE Pharmaceuticals)
+39918811000001105	Verapamil 160mg tablets (Medihealth (Northern) Ltd)
+39918911000001100	Verapamil 160mg tablets (Medihealth (Northern) Ltd)
+318206008	Verapamil 120mg tablets
+1153011000001108	Verapamil 120mg tablets
+1284711000001102	Verapamil 120mg tablets
+1038611000001101	Verapamil 120mg tablets
+127711000001104	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd)
+1333111000001104	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd)
+1333011000001100	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd)
+469111000001104	Verapamil 120mg tablets (Accord-UK Ltd)
+1333211000001105	Verapamil 120mg tablets (Accord-UK Ltd)
+590011000001102	Verapamil 120mg tablets (Teva UK Ltd)
+1333311000001102	Verapamil 120mg tablets (Teva UK Ltd)
+485611000001106	Verapamil 120mg tablets (Viatris UK Healthcare Ltd)
+1333411000001109	Verapamil 120mg tablets (Viatris UK Healthcare Ltd)
+867011000001103	Cordilox 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+1333511000001108	Cordilox 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+896311000001100	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+1333711000001103	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+1333611000001107	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+887611000001108	Verapamil 120mg tablets (Kent Pharma (UK) Ltd)
+1333811000001106	Verapamil 120mg tablets (Kent Pharma (UK) Ltd)
+4582211000001100	Verapamil 120mg tablets (Kent Pharma (UK) Ltd)
+140411000001109	Securon 120mg tablets (Abbott Laboratories Ltd)
+1333911000001101	Securon 120mg tablets (Abbott Laboratories Ltd)
+642311000001102	Verapamil 120mg tablets (Sandoz Ltd)
+1334011000001103	Verapamil 120mg tablets (Sandoz Ltd)
+409311000001103	Verapamil 120mg tablets (Alliance Healthcare (Distribution) Ltd)
+1334111000001102	Verapamil 120mg tablets (Alliance Healthcare (Distribution) Ltd)
+15201611000001106	Verapamil 120mg tablets (Sigma Pharmaceuticals Plc)
+15201711000001102	Verapamil 120mg tablets (Sigma Pharmaceuticals Plc)
+30111611000001100	Verapamil 120mg tablets (DE Pharmaceuticals)
+30111711000001109	Verapamil 120mg tablets (DE Pharmaceuticals)
+30944511000001107	Verapamil 120mg tablets (Mawdsley-Brooks & Company Ltd)
+30944611000001106	Verapamil 120mg tablets (Mawdsley-Brooks & Company Ltd)
+36405911000001103	Verapamil 120mg tablets (Genesis Pharmaceuticals Ltd)
+36406011000001106	Verapamil 120mg tablets (Genesis Pharmaceuticals Ltd)
+39919011000001109	Verapamil 120mg tablets (Medihealth (Northern) Ltd)
+39919111000001105	Verapamil 120mg tablets (Medihealth (Northern) Ltd)
+40603411000001102	Verapamil 120mg tablets (Ennogen Pharma Ltd)
+40603511000001103	Verapamil 120mg tablets (Ennogen Pharma Ltd)
+318205007	Verapamil 80mg tablets
+1198211000001102	Verapamil 80mg tablets
+962411000001100	Verapamil 80mg tablets
+100911000001107	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd)
+1334211000001108	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd)
+1334311000001100	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd)
+7911000001103	Verapamil 80mg tablets (Accord-UK Ltd)
+1334411000001107	Verapamil 80mg tablets (Accord-UK Ltd)
+279811000001100	Verapamil 80mg tablets (Teva UK Ltd)
+1334511000001106	Verapamil 80mg tablets (Teva UK Ltd)
+803411000001104	Verapamil 80mg tablets (Viatris UK Healthcare Ltd)
+1334611000001105	Verapamil 80mg tablets (Viatris UK Healthcare Ltd)
+258911000001104	Cordilox 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+1334711000001101	Cordilox 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+534011000001101	Verapamil 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+1334811000001109	Verapamil 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+569211000001103	Verapamil 80mg tablets (Kent Pharma (UK) Ltd)
+1334911000001104	Verapamil 80mg tablets (Kent Pharma (UK) Ltd)
+1335011000001104	Verapamil 80mg tablets (Kent Pharma (UK) Ltd)
+783211000001104	Verapamil 80mg tablets (Sandoz Ltd)
+1335111000001103	Verapamil 80mg tablets (Sandoz Ltd)
+223411000001100	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+1335211000001109	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+3708411000001104	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+21911511000001106	Verapamil 80mg tablets (Waymade Healthcare Plc)
+21911611000001105	Verapamil 80mg tablets (Waymade Healthcare Plc)
+30111411000001103	Verapamil 80mg tablets (DE Pharmaceuticals)
+30111511000001104	Verapamil 80mg tablets (DE Pharmaceuticals)
+36405711000001100	Verapamil 80mg tablets (Genesis Pharmaceuticals Ltd)
+36405811000001108	Verapamil 80mg tablets (Genesis Pharmaceuticals Ltd)
+37272411000001108	Verapamil 80mg tablets (Mawdsley-Brooks & Company Ltd)
+37272511000001107	Verapamil 80mg tablets (Mawdsley-Brooks & Company Ltd)
+39918211000001109	Verapamil 80mg tablets (Medihealth (Northern) Ltd)
+39918311000001101	Verapamil 80mg tablets (Medihealth (Northern) Ltd)
+40602911000001103	Verapamil 80mg tablets (Ennogen Pharma Ltd)
+40603111000001107	Verapamil 80mg tablets (Ennogen Pharma Ltd)
+318204006	Verapamil 40mg tablets
+969111000001101	Verapamil 40mg tablets
+1067011000001102	Verapamil 40mg tablets
+413611000001109	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd)
+1335311000001101	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd)
+1335411000001108	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd)
+797711000001100	Verapamil 40mg tablets (Accord-UK Ltd)
+1335511000001107	Verapamil 40mg tablets (Accord-UK Ltd)
+454211000001101	Verapamil 40mg tablets (Teva UK Ltd)
+1335611000001106	Verapamil 40mg tablets (Teva UK Ltd)
+90311000001104	Verapamil 40mg tablets (Viatris UK Healthcare Ltd)
+1335711000001102	Verapamil 40mg tablets (Viatris UK Healthcare Ltd)
+557111000001106	Cordilox 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+1335811000001105	Cordilox 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+422111000001103	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+1335911000001100	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+1336011000001108	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+81311000001105	Verapamil 40mg tablets (Kent Pharma (UK) Ltd)
+1336111000001109	Verapamil 40mg tablets (Kent Pharma (UK) Ltd)
+1336211000001103	Verapamil 40mg tablets (Kent Pharma (UK) Ltd)
+669211000001108	Verapamil 40mg tablets (Sandoz Ltd)
+1336311000001106	Verapamil 40mg tablets (Sandoz Ltd)
+232211000001107	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+1336411000001104	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+3708311000001106	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+21911311000001100	Verapamil 40mg tablets (Waymade Healthcare Plc)
+21911411000001107	Verapamil 40mg tablets (Waymade Healthcare Plc)
+30111211000001102	Verapamil 40mg tablets (DE Pharmaceuticals)
+30111311000001105	Verapamil 40mg tablets (DE Pharmaceuticals)
+36405511000001105	Verapamil 40mg tablets (Genesis Pharmaceuticals Ltd)
+36405611000001109	Verapamil 40mg tablets (Genesis Pharmaceuticals Ltd)
+37272211000001109	Verapamil 40mg tablets (Mawdsley-Brooks & Company Ltd)
+37272311000001101	Verapamil 40mg tablets (Mawdsley-Brooks & Company Ltd)
+39918611000001106	Verapamil 40mg tablets (Medihealth (Northern) Ltd)
+39918711000001102	Verapamil 40mg tablets (Medihealth (Northern) Ltd)
+40602711000001100	Verapamil 40mg tablets (Ennogen Pharma Ltd)
+40602811000001108	Verapamil 40mg tablets (Ennogen Pharma Ltd)
+35367911000001103	Verapamil 120mg modified-release tablets
+1080011000001101	Verapamil 120mg modified-release tablets
+18633511000001109	Verapamil 120mg modified-release tablets
+19874111000001105	Verapamil 120mg modified-release tablets
+19930411000001101	Verapamil 120mg modified-release tablets
+846611000001102	Half Securon SR 120mg tablets (Viatris UK Healthcare Ltd)
+1336511000001100	Half Securon SR 120mg tablets (Viatris UK Healthcare Ltd)
+7418511000001104	Vera-Til SR 120mg tablets (Tillomed Laboratories Ltd)
+7418611000001100	Vera-Til SR 120mg tablets (Tillomed Laboratories Ltd)
+16449211000001100	Vera-Til SR 120mg tablets (Accord-UK Ltd)
+16449411000001101	Vera-Til SR 120mg tablets (Accord-UK Ltd)
+39732011000001102	Amlodipine 5mg tablets
+995011000001102	Amlodipine 5mg tablets
+5332511000001100	Amlodipine 5mg tablets
+37075711000001101	Amlodipine 5mg tablets
+172711000001100	Istin 5mg tablets (Viatris UK Healthcare Ltd)
+1336811000001102	Istin 5mg tablets (Viatris UK Healthcare Ltd)
+7304611000001104	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+7304711000001108	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+39538811000001106	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+7305311000001108	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+7305511000001102	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+37766111000001102	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+7305711000001107	Amlodipine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+7305811000001104	Amlodipine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+7333311000001100	Amlodipine 5mg tablets (Teva UK Ltd)
+7333411000001107	Amlodipine 5mg tablets (Teva UK Ltd)
+7376311000001107	Amlodipine 5mg tablets (Sandoz Ltd)
+7376411000001100	Amlodipine 5mg tablets (Sandoz Ltd)
+7378711000001105	Amlodipine 5mg tablets (Kent Pharma (UK) Ltd)
+7378811000001102	Amlodipine 5mg tablets (Kent Pharma (UK) Ltd)
+7391211000001101	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd)
+7393311000001105	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd)
+37075911000001104	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd)
+7535711000001103	Amlodipine 5mg tablets (Sterwin Medicines)
+7535811000001106	Amlodipine 5mg tablets (Sterwin Medicines)
+8038211000001107	Amlodipine 5mg tablets (Actavis UK Ltd)
+8038311000001104	Amlodipine 5mg tablets (Actavis UK Ltd)
+8046211000001107	Amlostin 5mg tablets (Discovery Pharmaceuticals)
+8046311000001104	Amlostin 5mg tablets (Discovery Pharmaceuticals)
+9557111000001102	Amlodipine 5mg tablets (Zentiva Pharma UK Ltd)
+9557211000001108	Amlodipine 5mg tablets (Zentiva Pharma UK Ltd)
+10287111000001103	Amlodipine 5mg tablets (Advanz Pharma)
+10287311000001101	Amlodipine 5mg tablets (Advanz Pharma)
+10378211000001106	Amlodipine 5mg tablets (Arrow Generics Ltd)
+10378411000001105	Amlodipine 5mg tablets (Arrow Generics Ltd)
+11008811000001105	Amlodipine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11009011000001109	Amlodipine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11398511000001109	Amlodipine 5mg tablets (Almus Pharmaceuticals Ltd)
+11398711000001104	Amlodipine 5mg tablets (Almus Pharmaceuticals Ltd)
+13764411000001106	Amlodipine 5mg tablets (Apotex UK Ltd)
+13764511000001105	Amlodipine 5mg tablets (Apotex UK Ltd)
+14112311000001100	Amlodipine 5mg tablets (Consilient Health Ltd)
+14112711000001101	Amlodipine 5mg tablets (Consilient Health Ltd)
+14768911000001108	Amlodipine 5mg tablets (Wockhardt UK Ltd)
+14769011000001104	Amlodipine 5mg tablets (Wockhardt UK Ltd)
+15064611000001101	Amlodipine 5mg tablets (Sigma Pharmaceuticals Plc)
+15064811000001102	Amlodipine 5mg tablets (Sigma Pharmaceuticals Plc)
+15981411000001105	Amlodipine 5mg tablets (Bristol Laboratories Ltd)
+15981511000001109	Amlodipine 5mg tablets (Bristol Laboratories Ltd)
+17779111000001100	Amlodipine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+17779411000001105	Amlodipine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+18458011000001107	Amlodipine 5mg tablets (Accord-UK Ltd)
+18458111000001108	Amlodipine 5mg tablets (Accord-UK Ltd)
+39412311000001101	Amlodipine 5mg tablets (Accord-UK Ltd)
+19164711000001109	Amlodipine 5mg tablets (Somex Pharma)
+19164811000001101	Amlodipine 5mg tablets (Somex Pharma)
+19705311000001103	Amlodipine 5mg tablets (DE Pharmaceuticals)
+19705511000001109	Amlodipine 5mg tablets (DE Pharmaceuticals)
+37755511000001107	Amlodipine 5mg tablets (DE Pharmaceuticals)
+19833111000001106	Amlodipine 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+19833211000001100	Amlodipine 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+22080611000001107	Amlodipine 5mg tablets (Waymade Healthcare Plc)
+22080711000001103	Amlodipine 5mg tablets (Waymade Healthcare Plc)
+29992111000001103	Amlodipine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+29995611000001102	Amlodipine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+35134611000001100	Amlodipine 5mg tablets (Milpharm Ltd)
+35134711000001109	Amlodipine 5mg tablets (Milpharm Ltd)
+36837111000001108	Amlodipine 5mg tablets (Torrent Pharma (UK) Ltd)
+36837311000001105	Amlodipine 5mg tablets (Torrent Pharma (UK) Ltd)
+37565711000001108	Amlodipine 5mg tablets (FDC Pharma)
+37565311000001109	Amlodipine 5mg tablets (FDC Pharma)
+37893211000001101	Amlodipine 5mg tablets (Dawa Ltd)
+37893311000001109	Amlodipine 5mg tablets (Dawa Ltd)
+38437411000001104	Amlodipine 5mg tablets (NorthStar Healthcare Unlimited Company)
+38438011000001109	Amlodipine 5mg tablets (NorthStar Healthcare Unlimited Company)
+38785011000001102	Amlodipine 5mg tablets (Medihealth (Northern) Ltd)
+38785111000001101	Amlodipine 5mg tablets (Medihealth (Northern) Ltd)
+39842211000001105	Amlodipine 5mg tablets (Medihealth (Northern) Ltd)
+40200411000001107	Amlodipine 5mg tablets (Crescent Pharma Ltd)
+40200611000001105	Amlodipine 5mg tablets (Crescent Pharma Ltd)
+41103211000001109	Amlodipine 5mg tablets (Ipca Laboratories UK Ltd)
+41103311000001101	Amlodipine 5mg tablets (Ipca Laboratories UK Ltd)
+38750211000001107	Verapamil 240mg modified-release tablets
+987811000001102	Verapamil 240mg modified-release tablets
+10492611000001108	Verapamil 240mg modified-release tablets
+14754111000001106	Verapamil 240mg modified-release tablets
+525311000001101	Verapress MR 240mg tablets (Dexcel-Pharma Ltd)
+1336911000001107	Verapress MR 240mg tablets (Dexcel-Pharma Ltd)
+782111000001104	Ethimil MR 240mg tablets (Genus Pharmaceuticals Ltd)
+1337111000001107	Ethimil MR 240mg tablets (Genus Pharmaceuticals Ltd)
+740811000001102	Cordilox MR 240mg tablets (Teva UK Ltd)
+1337211000001101	Cordilox MR 240mg tablets (Teva UK Ltd)
+540111000001108	Securon SR 240mg tablets (Viatris UK Healthcare Ltd)
+1337311000001109	Securon SR 240mg tablets (Viatris UK Healthcare Ltd)
+675611000001104	Vertab SR 240 tablets (Chiesi Ltd)
+1337411000001102	Vertab SR 240 tablets (Chiesi Ltd)
+3634111000001100	Ranvera MR 240mg tablets (Ranbaxy (UK) Ltd)
+3634211000001106	Ranvera MR 240mg tablets (Ranbaxy (UK) Ltd)
+7380911000001104	Verapamil 240mg modified-release tablets (Kent Pharma (UK) Ltd)
+7381011000001107	Verapamil 240mg modified-release tablets (Kent Pharma (UK) Ltd)
+7418711000001109	Vera-Til SR 240mg tablets (Tillomed Laboratories Ltd)
+7418811000001101	Vera-Til SR 240mg tablets (Tillomed Laboratories Ltd)
+7852611000001103	Verapress MR 240mg tablets (Sandoz Ltd)
+7852711000001107	Verapress MR 240mg tablets (Sandoz Ltd)
+7855011000001100	Verapress MR 240mg tablets (Actavis UK Ltd)
+7855111000001104	Verapress MR 240mg tablets (Actavis UK Ltd)
+9208311000001103	Verapamil 240mg modified-release tablets (Viatris UK Healthcare Ltd)
+9208511000001109	Verapamil 240mg modified-release tablets (Viatris UK Healthcare Ltd)
+9527111000001101	Verapamil 240mg modified-release tablets (Teva UK Ltd)
+9527211000001107	Verapamil 240mg modified-release tablets (Teva UK Ltd)
+10415911000001109	Verapamil 240mg modified-release tablets (Arrow Generics Ltd)
+10416111000001100	Verapamil 240mg modified-release tablets (Arrow Generics Ltd)
+10910611000001109	Verapress MR 240mg tablets (Teva UK Ltd)
+10910711000001100	Verapress MR 240mg tablets (Teva UK Ltd)
+16438111000001103	Vera-Til SR 240mg tablets (Accord-UK Ltd)
+16438211000001109	Vera-Til SR 240mg tablets (Accord-UK Ltd)
+39731911000001109	Amlodipine 10mg tablets
+1269311000001103	Amlodipine 10mg tablets
+5332411000001104	Amlodipine 10mg tablets
+5449311000001106	Amlodipine 10mg tablets
+37076011000001107	Amlodipine 10mg tablets
+408111000001107	Istin 10mg tablets (Viatris UK Healthcare Ltd)
+1337011000001106	Istin 10mg tablets (Viatris UK Healthcare Ltd)
+7304811000001100	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+7304911000001105	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+39541711000001109	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+7305011000001105	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+7305211000001100	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+37765911000001106	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+7308711000001100	Amlodipine 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+7308811000001108	Amlodipine 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+7333511000001106	Amlodipine 10mg tablets (Teva UK Ltd)
+7333611000001105	Amlodipine 10mg tablets (Teva UK Ltd)
+7376511000001101	Amlodipine 10mg tablets (Sandoz Ltd)
+7376611000001102	Amlodipine 10mg tablets (Sandoz Ltd)
+7378911000001107	Amlodipine 10mg tablets (Kent Pharma (UK) Ltd)
+7379011000001103	Amlodipine 10mg tablets (Kent Pharma (UK) Ltd)
+7391311000001109	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd)
+7391411000001102	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd)
+37076111000001108	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd)
+7536011000001109	Amlodipine 10mg tablets (Sterwin Medicines)
+7536111000001105	Amlodipine 10mg tablets (Sterwin Medicines)
+8038411000001106	Amlodipine 10mg tablets (Actavis UK Ltd)
+8038511000001105	Amlodipine 10mg tablets (Actavis UK Ltd)
+8046411000001106	Amlostin 10mg tablets (Discovery Pharmaceuticals)
+8046511000001105	Amlostin 10mg tablets (Discovery Pharmaceuticals)
+9557311000001100	Amlodipine 10mg tablets (Zentiva Pharma UK Ltd)
+9557411000001107	Amlodipine 10mg tablets (Zentiva Pharma UK Ltd)
+10286711000001100	Amlodipine 10mg tablets (Advanz Pharma)
+10286911000001103	Amlodipine 10mg tablets (Advanz Pharma)
+10378511000001109	Amlodipine 10mg tablets (Arrow Generics Ltd)
+10378711000001104	Amlodipine 10mg tablets (Arrow Generics Ltd)
+11009211000001104	Amlodipine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11009411000001100	Amlodipine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+11399011000001106	Amlodipine 10mg tablets (Almus Pharmaceuticals Ltd)
+11399111000001107	Amlodipine 10mg tablets (Almus Pharmaceuticals Ltd)
+13764211000001107	Amlodipine 10mg tablets (Apotex UK Ltd)
+13764311000001104	Amlodipine 10mg tablets (Apotex UK Ltd)
+14113111000001108	Amlodipine 10mg tablets (Consilient Health Ltd)
+14113211000001102	Amlodipine 10mg tablets (Consilient Health Ltd)
+14769111000001103	Amlodipine 10mg tablets (Wockhardt UK Ltd)
+14769211000001109	Amlodipine 10mg tablets (Wockhardt UK Ltd)
+15064211000001103	Amlodipine 10mg tablets (Sigma Pharmaceuticals Plc)
+15064311000001106	Amlodipine 10mg tablets (Sigma Pharmaceuticals Plc)
+15981211000001106	Amlodipine 10mg tablets (Bristol Laboratories Ltd)
+15981311000001103	Amlodipine 10mg tablets (Bristol Laboratories Ltd)
+17779511000001109	Amlodipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+17779711000001104	Amlodipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+18457811000001100	Amlodipine 10mg tablets (Accord-UK Ltd)
+18457911000001105	Amlodipine 10mg tablets (Accord-UK Ltd)
+39412411000001108	Amlodipine 10mg tablets (Accord-UK Ltd)
+19164911000001106	Amlodipine 10mg tablets (Somex Pharma)
+19165011000001106	Amlodipine 10mg tablets (Somex Pharma)
+19704911000001101	Amlodipine 10mg tablets (DE Pharmaceuticals)
+19705111000001100	Amlodipine 10mg tablets (DE Pharmaceuticals)
+37755611000001106	Amlodipine 10mg tablets (DE Pharmaceuticals)
+19833311000001108	Amlodipine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+19833411000001101	Amlodipine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+22080811000001106	Amlodipine 10mg tablets (Waymade Healthcare Plc)
+22080911000001101	Amlodipine 10mg tablets (Waymade Healthcare Plc)
+29992411000001108	Amlodipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+29992511000001107	Amlodipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+35134811000001101	Amlodipine 10mg tablets (Milpharm Ltd)
+35134911000001106	Amlodipine 10mg tablets (Milpharm Ltd)
+36837811000001101	Amlodipine 10mg tablets (Torrent Pharma (UK) Ltd)
+36837911000001106	Amlodipine 10mg tablets (Torrent Pharma (UK) Ltd)
+37565411000001102	Amlodipine 10mg tablets (FDC Pharma)
+37565511000001103	Amlodipine 10mg tablets (FDC Pharma)
+37892911000001103	Amlodipine 10mg tablets (Dawa Ltd)
+37893111000001107	Amlodipine 10mg tablets (Dawa Ltd)
+38259611000001106	Amlodipine 10mg tablets (NorthStar Healthcare Unlimited Company)
+38259811000001105	Amlodipine 10mg tablets (NorthStar Healthcare Unlimited Company)
+38784811000001107	Amlodipine 10mg tablets (Medihealth (Northern) Ltd)
+38784911000001102	Amlodipine 10mg tablets (Medihealth (Northern) Ltd)
+39841911000001107	Amlodipine 10mg tablets (Medihealth (Northern) Ltd)
+40200211000001108	Amlodipine 10mg tablets (Crescent Pharma Ltd)
+40200311000001100	Amlodipine 10mg tablets (Crescent Pharma Ltd)
+41103411000001108	Amlodipine 10mg tablets (Ipca Laboratories UK Ltd)
+41103711000001102	Amlodipine 10mg tablets (Ipca Laboratories UK Ltd)
+41125011000001109	Amlodipine 10mg tablets (Amarox Ltd)
+41125211000001104	Amlodipine 10mg tablets (Amarox Ltd)
+39020311000001104	Felodipine 2.5mg modified-release tablets
+1006911000001100	Felodipine 2.5mg modified-release tablets
+5401611000001106	Felodipine 2.5mg modified-release tablets
+12787511000001106	Felodipine 2.5mg modified-release tablets
+562711000001104	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd)
+1354711000001102	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd)
+35477411000001106	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd)
+3800311000001106	Cabren 2.5mg modified-release tablets (Teva UK Ltd)
+3800411000001104	Cabren 2.5mg modified-release tablets (Teva UK Ltd)
+11493211000001105	Neofel XL 2.5mg tablets (Kent Pharma (UK) Ltd)
+11493311000001102	Neofel XL 2.5mg tablets (Kent Pharma (UK) Ltd)
+11506711000001103	Cardioplen XL 2.5mg tablets (Chiesi Ltd)
+11506811000001106	Cardioplen XL 2.5mg tablets (Chiesi Ltd)
+13127311000001107	Felotens XL 2.5mg tablets (Thornton & Ross Ltd)
+13127411000001100	Felotens XL 2.5mg tablets (Thornton & Ross Ltd)
+13565311000001101	Folpik XL 2.5mg tablets (Teva UK Ltd)
+13565411000001108	Folpik XL 2.5mg tablets (Teva UK Ltd)
+18167311000001103	Neofel XL 2.5mg tablets (Actavis UK Ltd)
+18167411000001105	Neofel XL 2.5mg tablets (Actavis UK Ltd)
+18681211000001100	Neofel XL 2.5mg tablets (Almus Pharmaceuticals Ltd)
+18681311000001108	Neofel XL 2.5mg tablets (Almus Pharmaceuticals Ltd)
+24221811000001105	Parmid XL 2.5mg tablets (Sandoz Ltd)
+24222011000001107	Parmid XL 2.5mg tablets (Sandoz Ltd)
+40122211000001100	Folpik XL 2.5mg tablets (NorthStar Healthcare Unlimited Company)
+40122311000001108	Folpik XL 2.5mg tablets (NorthStar Healthcare Unlimited Company)
+40695211000001100	Delofine XL 2.5mg tablets (Morningside Healthcare Ltd)
+40695311000001108	Delofine XL 2.5mg tablets (Morningside Healthcare Ltd)
+39020511000001105	Felodipine 10mg modified-release tablets
+1004711000001106	Felodipine 10mg modified-release tablets
+4785311000001101	Felodipine 10mg modified-release tablets
+48511000001101	Plendil 10mg modified-release tablets (AstraZeneca UK Ltd)
+1355111000001104	Plendil 10mg modified-release tablets (AstraZeneca UK Ltd)
+3800711000001105	Cabren 10mg modified-release tablets (Teva UK Ltd)
+3800811000001102	Cabren 10mg modified-release tablets (Teva UK Ltd)
+4785511000001107	Felotens XL 10mg tablets (Thornton & Ross Ltd)
+8990211000001107	Felotens XL 10mg tablets (Thornton & Ross Ltd)
+4785811000001105	Felotens XL 10mg tablets (Thornton & Ross Ltd)
+4973011000001100	Felogen XL 10mg tablets (Viatris UK Healthcare Ltd)
+4973211000001105	Felogen XL 10mg tablets (Viatris UK Healthcare Ltd)
+5008911000001100	Folpik XL 10mg tablets (Teva UK Ltd)
+5009011000001109	Folpik XL 10mg tablets (Teva UK Ltd)
+5638811000001106	Vascalpha 10mg modified-release tablets (Accord-UK Ltd)
+5639011000001105	Vascalpha 10mg modified-release tablets (Accord-UK Ltd)
+7388311000001103	Parmid XL 10mg tablets (Sandoz Ltd)
+7388511000001109	Parmid XL 10mg tablets (Sandoz Ltd)
+7887511000001107	Cardioplen XL 10mg tablets (Chiesi Ltd)
+7887611000001106	Cardioplen XL 10mg tablets (Chiesi Ltd)
+8089811000001107	Neofel XL 10mg tablets (Kent Pharma (UK) Ltd)
+8089911000001102	Neofel XL 10mg tablets (Kent Pharma (UK) Ltd)
+9359611000001103	Pinefeld XL 10mg tablets (Tillomed Laboratories Ltd)
+9359711000001107	Pinefeld XL 10mg tablets (Tillomed Laboratories Ltd)
+10284611000001100	Keloc SR 10mg tablets (Teva UK Ltd)
+10284711000001109	Keloc SR 10mg tablets (Teva UK Ltd)
+11404811000001107	Felodipine 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+11404911000001102	Felodipine 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+18252511000001100	Vascalpha 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+18252811000001102	Vascalpha 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+38249811000001108	Vascalpha 10mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+38249911000001103	Vascalpha 10mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+40695611000001103	Delofine XL 10mg tablets (Morningside Healthcare Ltd)
+40695711000001107	Delofine XL 10mg tablets (Morningside Healthcare Ltd)
+39020611000001109	Felodipine 5mg modified-release tablets
+1097211000001109	Felodipine 5mg modified-release tablets
+4785011000001104	Felodipine 5mg modified-release tablets
+490211000001101	Plendil 5mg modified-release tablets (AstraZeneca UK Ltd)
+1355211000001105	Plendil 5mg modified-release tablets (AstraZeneca UK Ltd)
+3800511000001100	Cabren 5mg modified-release tablets (Teva UK Ltd)
+3800611000001101	Cabren 5mg modified-release tablets (Teva UK Ltd)
+4785111000001103	Felotens XL 5mg tablets (Thornton & Ross Ltd)
+8990111000001101	Felotens XL 5mg tablets (Thornton & Ross Ltd)
+4785211000001109	Felotens XL 5mg tablets (Thornton & Ross Ltd)
+4972811000001103	Felogen XL 5mg tablets (Viatris UK Healthcare Ltd)
+4972911000001108	Felogen XL 5mg tablets (Viatris UK Healthcare Ltd)
+5008511000001107	Folpik XL 5mg tablets (Teva UK Ltd)
+5008811000001105	Folpik XL 5mg tablets (Teva UK Ltd)
+5638311000001102	Vascalpha 5mg modified-release tablets (Accord-UK Ltd)
+5638511000001108	Vascalpha 5mg modified-release tablets (Accord-UK Ltd)
+7387911000001103	Parmid XL 5mg tablets (Sandoz Ltd)
+7388111000001100	Parmid XL 5mg tablets (Sandoz Ltd)
+7887011000001104	Cardioplen XL 5mg tablets (Chiesi Ltd)
+7887111000001103	Cardioplen XL 5mg tablets (Chiesi Ltd)
+8090111000001106	Neofel XL 5mg tablets (Kent Pharma (UK) Ltd)
+8090311000001108	Neofel XL 5mg tablets (Kent Pharma (UK) Ltd)
+10284411000001103	Keloc SR 5mg tablets (Teva UK Ltd)
+10284511000001104	Keloc SR 5mg tablets (Teva UK Ltd)
+11404611000001108	Felodipine 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+11404711000001104	Felodipine 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+18250911000001108	Vascalpha 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+18251311000001102	Vascalpha 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+38250011000001107	Vascalpha 5mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+38250111000001108	Vascalpha 5mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+40695411000001101	Delofine XL 5mg tablets (Morningside Healthcare Ltd)
+40695511000001102	Delofine XL 5mg tablets (Morningside Healthcare Ltd)
+319300008	Lacidipine 2mg tablets
+982111000001107	Lacidipine 2mg tablets
+1274811000001104	Lacidipine 2mg tablets
+910911000001108	Motens 2mg tablets (GlaxoSmithKline UK Ltd)
+1356011000001109	Motens 2mg tablets (GlaxoSmithKline UK Ltd)
+1356111000001105	Motens 2mg tablets (GlaxoSmithKline UK Ltd)
+18565411000001107	Lacidipine 2mg tablets (Teva UK Ltd)
+18565511000001106	Lacidipine 2mg tablets (Teva UK Ltd)
+18642411000001100	Lacidipine 2mg tablets (A A H Pharmaceuticals Ltd)
+18642511000001101	Lacidipine 2mg tablets (A A H Pharmaceuticals Ltd)
+22055911000001101	Lacidipine 2mg tablets (Waymade Healthcare Plc)
+22056011000001109	Lacidipine 2mg tablets (Waymade Healthcare Plc)
+27864211000001102	Lacidipine 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+27864311000001105	Lacidipine 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+27925211000001102	Lacidipine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+27925311000001105	Lacidipine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+29882711000001105	Lacidipine 2mg tablets (Sigma Pharmaceuticals Plc)
+29882811000001102	Lacidipine 2mg tablets (Sigma Pharmaceuticals Plc)
+30059811000001104	Lacidipine 2mg tablets (DE Pharmaceuticals)
+30059911000001109	Lacidipine 2mg tablets (DE Pharmaceuticals)
+32414311000001100	Lacidipine 2mg tablets (Kent Pharma (UK) Ltd)
+32414411000001107	Lacidipine 2mg tablets (Kent Pharma (UK) Ltd)
+34880711000001106	Lacidipine 2mg tablets (Zentiva Pharma UK Ltd)
+34880811000001103	Lacidipine 2mg tablets (Zentiva Pharma UK Ltd)
+36943311000001105	Lacidipine 2mg tablets (Viatris UK Healthcare Ltd)
+36943411000001103	Lacidipine 2mg tablets (Viatris UK Healthcare Ltd)
+37093811000001104	Lacidipine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+37094111000001108	Lacidipine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+39010711000001108	Lacidipine 2mg tablets (Medihealth (Northern) Ltd)
+39010811000001100	Lacidipine 2mg tablets (Medihealth (Northern) Ltd)
+319301007	Lacidipine 4mg tablets
+1196711000001105	Lacidipine 4mg tablets
+1159611000001104	Lacidipine 4mg tablets
+333011000001100	Motens 4mg tablets (GlaxoSmithKline UK Ltd)
+1356211000001104	Motens 4mg tablets (GlaxoSmithKline UK Ltd)
+1356311000001107	Motens 4mg tablets (GlaxoSmithKline UK Ltd)
+18565211000001108	Lacidipine 4mg tablets (Teva UK Ltd)
+18565311000001100	Lacidipine 4mg tablets (Teva UK Ltd)
+18642611000001102	Lacidipine 4mg tablets (A A H Pharmaceuticals Ltd)
+18642711000001106	Lacidipine 4mg tablets (A A H Pharmaceuticals Ltd)
+22056111000001105	Lacidipine 4mg tablets (Waymade Healthcare Plc)
+22056211000001104	Lacidipine 4mg tablets (Waymade Healthcare Plc)
+27864411000001103	Lacidipine 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+27864511000001104	Lacidipine 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+27925411000001103	Lacidipine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+27925511000001104	Lacidipine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+28882211000001100	Molap 4mg tablets (Rivopharm (UK) Ltd)
+28882311000001108	Molap 4mg tablets (Rivopharm (UK) Ltd)
+29882911000001107	Lacidipine 4mg tablets (Sigma Pharmaceuticals Plc)
+29883011000001104	Lacidipine 4mg tablets (Sigma Pharmaceuticals Plc)
+30060011000001106	Lacidipine 4mg tablets (DE Pharmaceuticals)
+30060111000001107	Lacidipine 4mg tablets (DE Pharmaceuticals)
+32414511000001106	Lacidipine 4mg tablets (Kent Pharma (UK) Ltd)
+32414611000001105	Lacidipine 4mg tablets (Kent Pharma (UK) Ltd)
+34880911000001108	Lacidipine 4mg tablets (Zentiva Pharma UK Ltd)
+34881011000001100	Lacidipine 4mg tablets (Zentiva Pharma UK Ltd)
+36943511000001104	Lacidipine 4mg tablets (Viatris UK Healthcare Ltd)
+36943611000001100	Lacidipine 4mg tablets (Viatris UK Healthcare Ltd)
+37094311000001105	Lacidipine 4mg tablets (Mawdsley-Brooks & Company Ltd)
+37094411000001103	Lacidipine 4mg tablets (Mawdsley-Brooks & Company Ltd)
+39010911000001105	Lacidipine 4mg tablets (Medihealth (Northern) Ltd)
+39011011000001102	Lacidipine 4mg tablets (Medihealth (Northern) Ltd)
+319316005	Lercanidipine 10mg tablets
+963911000001101	Lercanidipine 10mg tablets
+11766611000001109	Lercanidipine 10mg tablets
+13983311000001106	Lercanidipine 10mg tablets
+14765311000001103	Lercanidipine 10mg tablets
+20011000001105	Zanidip 10mg tablets (Recordati Pharmaceuticals Ltd)
+1367411000001105	Zanidip 10mg tablets (Recordati Pharmaceuticals Ltd)
+15608411000001103	Lercanidipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+15608511000001104	Lercanidipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+16606811000001100	Lercanidipine 10mg tablets (Accord-UK Ltd)
+16607111000001105	Lercanidipine 10mg tablets (Accord-UK Ltd)
+16640211000001105	Lercanidipine 10mg tablets (Zentiva Pharma UK Ltd)
+16640311000001102	Lercanidipine 10mg tablets (Zentiva Pharma UK Ltd)
+16666611000001103	Lercanidipine 10mg tablets (Viatris UK Healthcare Ltd)
+16666711000001107	Lercanidipine 10mg tablets (Viatris UK Healthcare Ltd)
+16725911000001102	Lercanidipine 10mg tablets (Teva UK Ltd)
+16726011000001105	Lercanidipine 10mg tablets (Teva UK Ltd)
+16732011000001109	Lercanidipine 10mg tablets (A A H Pharmaceuticals Ltd)
+16732111000001105	Lercanidipine 10mg tablets (A A H Pharmaceuticals Ltd)
+17935311000001108	Lercanidipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+17935611000001103	Lercanidipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+20290611000001105	Lercanidipine 10mg tablets (Sandoz Ltd)
+20290711000001101	Lercanidipine 10mg tablets (Sandoz Ltd)
+20911211000001100	Lercanidipine 10mg tablets (Arrow Generics Ltd)
+20911311000001108	Lercanidipine 10mg tablets (Arrow Generics Ltd)
+21857411000001103	Lercanidipine 10mg tablets (Recordati Pharmaceuticals Ltd)
+21857811000001101	Lercanidipine 10mg tablets (Recordati Pharmaceuticals Ltd)
+22063511000001104	Lercanidipine 10mg tablets (Waymade Healthcare Plc)
+22063611000001100	Lercanidipine 10mg tablets (Waymade Healthcare Plc)
+22337311000001108	Lercanidipine 10mg tablets (Aptil Pharma Ltd)
+22337611000001103	Lercanidipine 10mg tablets (Aptil Pharma Ltd)
+24363711000001103	Lercanidipine 10mg tablets (DE Pharmaceuticals)
+24363911000001101	Lercanidipine 10mg tablets (DE Pharmaceuticals)
+29884811000001108	Lercanidipine 10mg tablets (Sigma Pharmaceuticals Plc)
+29884911000001103	Lercanidipine 10mg tablets (Sigma Pharmaceuticals Plc)
+30219211000001104	Lercanidipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+30219311000001107	Lercanidipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+32414711000001101	Lercanidipine 10mg tablets (Kent Pharma (UK) Ltd)
+32414811000001109	Lercanidipine 10mg tablets (Kent Pharma (UK) Ltd)
+36817911000001104	Lercanidipine 10mg tablets (Torrent Pharma (UK) Ltd)
+36818011000001102	Lercanidipine 10mg tablets (Torrent Pharma (UK) Ltd)
+39012511000001102	Lercanidipine 10mg tablets (Medihealth (Northern) Ltd)
+39012711000001107	Lercanidipine 10mg tablets (Medihealth (Northern) Ltd)
+41493611000001109	Lercanidipine 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+41493711000001100	Lercanidipine 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+36565011000001105	Verapamil 120mg modified-release capsules
+1101711000001102	Verapamil 120mg modified-release capsules
+219711000001103	Univer 120mg modified-release capsules (Teva UK Ltd)
+1385611000001104	Univer 120mg modified-release capsules (Teva UK Ltd)
+36149411000001103	Verapamil 180mg modified-release capsules
+1094511000001104	Verapamil 180mg modified-release capsules
+391811000001102	Univer 180mg modified-release capsules (Teva UK Ltd)
+1385811000001100	Univer 180mg modified-release capsules (Teva UK Ltd)
+39021011000001106	Verapamil 240mg modified-release capsules
+1086111000001102	Verapamil 240mg modified-release capsules
+65411000001102	Univer 240mg modified-release capsules (Teva UK Ltd)
+1386011000001102	Univer 240mg modified-release capsules (Teva UK Ltd)
+319218009	Nicardipine 30mg capsules
+994811000001107	Nicardipine 30mg capsules
+710711000001100	Nicardipine 30mg capsules (Viatris UK Healthcare Ltd)
+1494611000001106	Nicardipine 30mg capsules (Viatris UK Healthcare Ltd)
+170911000001102	Nicardipine 30mg capsules (Kent Pharma (UK) Ltd)
+1495311000001102	Nicardipine 30mg capsules (Kent Pharma (UK) Ltd)
+28211000001102	Nicardipine 30mg capsules (Alliance Healthcare (Distribution) Ltd)
+1495511000001108	Nicardipine 30mg capsules (Alliance Healthcare (Distribution) Ltd)
+291111000001102	Cardene 30mg capsules (Laboratoires X.O)
+1495811000001106	Cardene 30mg capsules (Laboratoires X.O)
+743711000001101	Nicardipine 30mg capsules (A A H Pharmaceuticals Ltd)
+1629711000001106	Nicardipine 30mg capsules (A A H Pharmaceuticals Ltd)
+3656911000001106	Nicardipine 30mg capsules (Teva UK Ltd)
+3657011000001105	Nicardipine 30mg capsules (Teva UK Ltd)
+13760511000001101	Nicardipine 30mg capsules (Tillomed Laboratories Ltd)
+13760611000001102	Nicardipine 30mg capsules (Tillomed Laboratories Ltd)
+15237411000001107	Nicardipine 30mg capsules (Sigma Pharmaceuticals Plc)
+15237511000001106	Nicardipine 30mg capsules (Sigma Pharmaceuticals Plc)
+17946311000001104	Nicardipine 30mg capsules (Phoenix Healthcare Distribution Ltd)
+17946411000001106	Nicardipine 30mg capsules (Phoenix Healthcare Distribution Ltd)
+39052611000001106	Nicardipine 30mg capsules (Medihealth (Northern) Ltd)
+39052711000001102	Nicardipine 30mg capsules (Medihealth (Northern) Ltd)
+39021711000001108	Nicardipine 30mg modified-release capsules
+1257211000001109	Nicardipine 30mg modified-release capsules
+540311000001105	Cardene SR 30mg capsules (Astellas Pharma Ltd)
+1498511000001100	Cardene SR 30mg capsules (Astellas Pharma Ltd)
+39021811000001100	Nicardipine 45mg modified-release capsules
+976411000001105	Nicardipine 45mg modified-release capsules
+16144811000001102	Nicardipine 45mg modified-release capsules
+118811000001102	Cardene SR 45mg capsules (Astellas Pharma Ltd)
+1499711000001101	Cardene SR 45mg capsules (Astellas Pharma Ltd)
+319217004	Nicardipine 20mg capsules
+1236911000001104	Nicardipine 20mg capsules
+5498111000001108	Nicardipine 20mg capsules
+854411000001105	Nicardipine 20mg capsules (Viatris UK Healthcare Ltd)
+1500711000001102	Nicardipine 20mg capsules (Viatris UK Healthcare Ltd)
+373211000001108	Nicardipine 20mg capsules (Kent Pharma (UK) Ltd)
+1501211000001103	Nicardipine 20mg capsules (Kent Pharma (UK) Ltd)
+513111000001107	Nicardipine 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+1501711000001105	Nicardipine 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+344811000001108	Cardene 20mg capsules (Laboratoires X.O)
+1502111000001104	Cardene 20mg capsules (Laboratoires X.O)
+403011000001104	Nicardipine 20mg capsules (A A H Pharmaceuticals Ltd)
+1629611000001102	Nicardipine 20mg capsules (A A H Pharmaceuticals Ltd)
+3656311000001105	Nicardipine 20mg capsules (Teva UK Ltd)
+3656611000001100	Nicardipine 20mg capsules (Teva UK Ltd)
+13760311000001107	Nicardipine 20mg capsules (Tillomed Laboratories Ltd)
+13760411000001100	Nicardipine 20mg capsules (Tillomed Laboratories Ltd)
+15237211000001108	Nicardipine 20mg capsules (Sigma Pharmaceuticals Plc)
+15237311000001100	Nicardipine 20mg capsules (Sigma Pharmaceuticals Plc)
+17946111000001101	Nicardipine 20mg capsules (Phoenix Healthcare Distribution Ltd)
+17946211000001107	Nicardipine 20mg capsules (Phoenix Healthcare Distribution Ltd)
+39052411000001108	Nicardipine 20mg capsules (Medihealth (Northern) Ltd)
+39052511000001107	Nicardipine 20mg capsules (Medihealth (Northern) Ltd)
+319223009	Nifedipine 10mg capsules
+1097411000001108	Nifedipine 10mg capsules
+951911000001109	Nifedipine 10mg capsules
+1223611000001102	Nifedipine 10mg capsules
+5329211000001108	Nifedipine 10mg capsules
+498311000001106	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd)
+1717111000001100	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd)
+39881311000001101	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd)
+639811000001100	Nifedipine 10mg capsules (Actavis UK Ltd)
+1717211000001106	Nifedipine 10mg capsules (Actavis UK Ltd)
+295511000001109	Nifedipine 10mg capsules (Teva UK Ltd)
+1717311000001103	Nifedipine 10mg capsules (Teva UK Ltd)
+811311000001107	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd)
+1717411000001105	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd)
+782511000001108	Adalat 10mg capsules (Bayer Plc)
+1717511000001109	Adalat 10mg capsules (Bayer Plc)
+460311000001106	Nifedipine 10mg capsules (The Boots Company Plc)
+1717611000001108	Nifedipine 10mg capsules (The Boots Company Plc)
+868811000001108	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd)
+1717711000001104	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd)
+652811000001109	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+1717811000001107	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+1718211000001105	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+483111000001104	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd)
+1718311000001102	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd)
+874811000001109	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+1718411000001109	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+37874911000001104	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+18283911000001107	Nifedipine 10mg capsules (Strides Pharma UK Ltd)
+18284011000001105	Nifedipine 10mg capsules (Strides Pharma UK Ltd)
+21819811000001100	Nifedipine 10mg capsules (Waymade Healthcare Plc)
+21819911000001105	Nifedipine 10mg capsules (Waymade Healthcare Plc)
+37210011000001108	Nifedipine 10mg capsules (Relonchem Ltd)
+37210211000001103	Nifedipine 10mg capsules (Relonchem Ltd)
+39057611000001109	Nifedipine 10mg capsules (Medihealth (Northern) Ltd)
+39057811000001108	Nifedipine 10mg capsules (Medihealth (Northern) Ltd)
+39057711000001100	Nifedipine 10mg capsules (Medihealth (Northern) Ltd)
+42091411000001102	Nifedipine 10mg capsules (Ennogen Pharma Ltd)
+42091511000001103	Nifedipine 10mg capsules (Ennogen Pharma Ltd)
+39022511000001106	Nifedipine 20mg modified-release capsules
+1229811000001101	Nifedipine 20mg modified-release capsules
+389611000001101	Coracten SR 20mg capsules (UCB Pharma Ltd)
+1718911000001101	Coracten SR 20mg capsules (UCB Pharma Ltd)
+39022611000001105	Nifedipine 60mg modified-release tablets
+1044111000001102	Nifedipine 60mg modified-release tablets
+235511000001104	Adalat LA 60mg tablets (Bayer Plc)
+1719111000001106	Adalat LA 60mg tablets (Bayer Plc)
+630411000001107	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd)
+1719211000001100	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd)
+9049911000001105	Adipine XL 60mg tablets (Chiesi Ltd)
+9050011000001101	Adipine XL 60mg tablets (Chiesi Ltd)
+10189311000001108	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals)
+10189411000001101	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals)
+10751411000001101	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd)
+10751511000001102	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd)
+13402111000001101	Valni XL 60mg tablets (Zentiva Pharma UK Ltd)
+13402211000001107	Valni XL 60mg tablets (Zentiva Pharma UK Ltd)
+17666211000001101	Adanif XL 60mg tablets (Advanz Pharma)
+17666311000001109	Adanif XL 60mg tablets (Advanz Pharma)
+34685811000001103	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd)
+34685911000001108	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd)
+38990711000001102	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd)
+38990811000001105	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd)
+39022711000001101	Nifedipine 10mg modified-release tablets
+1229911000001106	Nifedipine 10mg modified-release tablets
+568911000001104	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd)
+1730611000001102	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd)
+569011000001108	Adalat retard 10mg tablets (Bayer Plc)
+1732011000001108	Adalat retard 10mg tablets (Bayer Plc)
+904011000001104	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd)
+1732311000001106	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd)
+413111000001101	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+1732711000001105	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+25911000001100	Cardilate MR 10mg tablets (Teva UK Ltd)
+1733011000001104	Cardilate MR 10mg tablets (Teva UK Ltd)
+712411000001107	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd)
+1733411000001108	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd)
+627111000001104	Calchan MR 10 tablets (Ranbaxy (UK) Ltd)
+1733811000001105	Calchan MR 10 tablets (Ranbaxy (UK) Ltd)
+833611000001109	Adipine MR 10 tablets (Chiesi Ltd)
+1734011000001102	Adipine MR 10 tablets (Chiesi Ltd)
+4878111000001101	Hypolar Retard 10mg tablets (Sandoz Ltd)
+4878211000001107	Hypolar Retard 10mg tablets (Sandoz Ltd)
+7856211000001104	Nifedipress MR 10 tablets (Teva UK Ltd)
+7856511000001101	Nifedipress MR 10 tablets (Teva UK Ltd)
+32425911000001106	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd)
+32426011000001103	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd)
+39022811000001109	Nifedipine 20mg modified-release tablets
+1090911000001101	Nifedipine 20mg modified-release tablets
+1022611000001100	Nifedipine 20mg modified-release tablets
+1014111000001107	Nifedipine 20mg modified-release tablets
+5341311000001101	Nifedipine 20mg modified-release tablets
+5341411000001108	Nifedipine 20mg modified-release tablets
+14042911000001100	Nifedipine 20mg modified-release tablets
+865011000001105	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd)
+1736311000001105	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd)
+5011000001109	Adalat retard 20mg tablets (Bayer Plc)
+1736411000001103	Adalat retard 20mg tablets (Bayer Plc)
+881811000001100	Adalat LA 20mg tablets (Bayer Plc)
+1736511000001104	Adalat LA 20mg tablets (Bayer Plc)
+619111000001101	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd)
+1736611000001100	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd)
+17011000001100	Calchan MR 20 tablets (Ranbaxy (UK) Ltd)
+1736811000001101	Calchan MR 20 tablets (Ranbaxy (UK) Ltd)
+309611000001102	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd)
+1737111000001106	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd)
+385611000001104	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+1737311000001108	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+280811000001100	Nifopress Retard 20mg tablets (Advanz Pharma)
+1737511000001102	Nifopress Retard 20mg tablets (Advanz Pharma)
+1737611000001103	Nifopress Retard 20mg tablets (Advanz Pharma)
+905711000001103	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+1737911000001109	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+677411000001108	Hypolar Retard 20 tablets (Sandoz Ltd)
+1738311000001109	Hypolar Retard 20 tablets (Sandoz Ltd)
+693311000001101	Valni 20 Retard tablets (Tillomed Laboratories Ltd)
+1738611000001104	Valni 20 Retard tablets (Tillomed Laboratories Ltd)
+67711000001102	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd)
+1738811000001100	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd)
+843411000001105	Slofedipine 20mg tablets (Sterwin Medicines)
+1739211000001106	Slofedipine 20mg tablets (Sterwin Medicines)
+74111000001103	Adipine MR 20 tablets (Chiesi Ltd)
+1739311000001103	Adipine MR 20 tablets (Chiesi Ltd)
+7855311000001102	Nifedipress MR 20 tablets (Actavis UK Ltd)
+7855411000001109	Nifedipress MR 20 tablets (Actavis UK Ltd)
+7856611000001102	Nifedipress MR 20 tablets (Teva UK Ltd)
+7856711000001106	Nifedipress MR 20 tablets (Teva UK Ltd)
+9485111000001105	Nifopress MR 20mg tablets (Teva UK Ltd)
+9485211000001104	Nifopress MR 20mg tablets (Teva UK Ltd)
+32426111000001102	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd)
+32426211000001108	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd)
+39214711000001106	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd)
+39214811000001103	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd)
+39022911000001104	Nifedipine 10mg modified-release capsules
+1284011000001104	Nifedipine 10mg modified-release capsules
+126411000001108	Coracten SR 10mg capsules (UCB Pharma Ltd)
+1739411000001105	Coracten SR 10mg capsules (UCB Pharma Ltd)
+319222004	Nifedipine 5mg capsules
+1052511000001103	Nifedipine 5mg capsules
+1164511000001108	Nifedipine 5mg capsules
+1107611000001102	Nifedipine 5mg capsules
+720511000001103	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd)
+1739511000001109	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd)
+39881411000001108	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd)
+287311000001105	Nifedipine 5mg capsules (Actavis UK Ltd)
+1739611000001108	Nifedipine 5mg capsules (Actavis UK Ltd)
+168411000001100	Nifedipine 5mg capsules (Teva UK Ltd)
+1739711000001104	Nifedipine 5mg capsules (Teva UK Ltd)
+27111000001107	Adalat 5mg capsules (Bayer Plc)
+1739811000001107	Adalat 5mg capsules (Bayer Plc)
+726811000001103	Nifedipine 5mg capsules (The Boots Company Plc)
+1739911000001102	Nifedipine 5mg capsules (The Boots Company Plc)
+652011000001103	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd)
+1743311000001100	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd)
+814611000001100	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd)
+1743411000001107	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd)
+1743511000001106	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd)
+145411000001102	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd)
+1743611000001105	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd)
+440211000001106	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+1743711000001101	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+37874811000001109	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+15057011000001106	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc)
+15057111000001107	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc)
+18283711000001105	Nifedipine 5mg capsules (Strides Pharma UK Ltd)
+18283811000001102	Nifedipine 5mg capsules (Strides Pharma UK Ltd)
+21819611000001104	Nifedipine 5mg capsules (Waymade Healthcare Plc)
+21819711000001108	Nifedipine 5mg capsules (Waymade Healthcare Plc)
+37209611000001109	Nifedipine 5mg capsules (Relonchem Ltd)
+37209811000001108	Nifedipine 5mg capsules (Relonchem Ltd)
+39883511000001106	Nifedipine 5mg capsules (Medihealth (Northern) Ltd)
+39883611000001105	Nifedipine 5mg capsules (Medihealth (Northern) Ltd)
+40362911000001109	Nifedipine 5mg capsules (DE Pharmaceuticals)
+40363011000001101	Nifedipine 5mg capsules (DE Pharmaceuticals)
+42078311000001106	Nifedipine 5mg capsules (Ennogen Pharma Ltd)
+42079211000001108	Nifedipine 5mg capsules (Ennogen Pharma Ltd)
+39023011000001107	Diltiazem 60mg modified-release capsules
+1245111000001109	Diltiazem 60mg modified-release capsules
+721811000001108	Zildil SR 60mg capsules (Healthcare Pharma Ltd)
+1790311000001100	Zildil SR 60mg capsules (Healthcare Pharma Ltd)
+417111000001109	Dilzem SR 60 capsules (Teva UK Ltd)
+1790711000001101	Dilzem SR 60 capsules (Teva UK Ltd)
+937011000001101	Dilcardia SR 60mg capsules (Viatris UK Healthcare Ltd)
+1790911000001104	Dilcardia SR 60mg capsules (Viatris UK Healthcare Ltd)
+591411000001102	Horizem SR 60mg capsules (Horizon lifecare)
+1791411000001103	Horizem SR 60mg capsules (Horizon lifecare)
+469811000001106	Disogram SR 60mg capsules (Ranbaxy (UK) Ltd)
+1791611000001100	Disogram SR 60mg capsules (Ranbaxy (UK) Ltd)
+540011000001107	Bi-Carzem SR 60mg capsules (Tillomed Laboratories Ltd)
+1791811000001101	Bi-Carzem SR 60mg capsules (Tillomed Laboratories Ltd)
+8885711000001100	Kenzem SR 60mg capsules (Kent Pharma (UK) Ltd)
+8886011000001106	Kenzem SR 60mg capsules (Kent Pharma (UK) Ltd)
+39023111000001108	Diltiazem 90mg modified-release capsules
+1226311000001103	Diltiazem 90mg modified-release capsules
+200811000001104	Zildil 90mg modified-release capsules (Healthcare Pharma Ltd)
+1792411000001108	Zildil 90mg modified-release capsules (Healthcare Pharma Ltd)
+682311000001105	Dilzem SR 90 capsules (Teva UK Ltd)
+1792611000001106	Dilzem SR 90 capsules (Teva UK Ltd)
+353011000001101	Dilcardia SR 90mg capsules (Viatris UK Healthcare Ltd)
+1793111000001109	Dilcardia SR 90mg capsules (Viatris UK Healthcare Ltd)
+157511000001105	Horizem SR 90mg capsules (Horizon lifecare)
+1793311000001106	Horizem SR 90mg capsules (Horizon lifecare)
+256611000001109	Disogram SR 90mg capsules (Ranbaxy (UK) Ltd)
+1793911000001107	Disogram SR 90mg capsules (Ranbaxy (UK) Ltd)
+764511000001100	Bi-Carzem SR 90mg capsules (Tillomed Laboratories Ltd)
+1794411000001101	Bi-Carzem SR 90mg capsules (Tillomed Laboratories Ltd)
+857011000001109	Angitil SR 90 capsules (Ethypharm UK Ltd)
+1795211000001104	Angitil SR 90 capsules (Ethypharm UK Ltd)
+2887011000001102	Adizem-SR 90mg capsules (Napp Pharmaceuticals Ltd)
+2887111000001101	Adizem-SR 90mg capsules (Napp Pharmaceuticals Ltd)
+8886211000001101	Kenzem SR 90mg capsules (Kent Pharma (UK) Ltd)
+8886311000001109	Kenzem SR 90mg capsules (Kent Pharma (UK) Ltd)
+39023211000001102	Diltiazem 120mg modified-release capsules
+1261611000001107	Diltiazem 120mg modified-release capsules
+1310011000001103	Diltiazem 120mg modified-release capsules
+655411000001104	Zildil SR 120mg capsules (Healthcare Pharma Ltd)
+1796111000001104	Zildil SR 120mg capsules (Healthcare Pharma Ltd)
+5711000001106	Dilzem SR 120 capsules (Teva UK Ltd)
+1796311000001102	Dilzem SR 120 capsules (Teva UK Ltd)
+243111000001108	Dilzem XL 120 capsules (Teva UK Ltd)
+1796411000001109	Dilzem XL 120 capsules (Teva UK Ltd)
+105211000001107	Zemtard 120 XL capsules (Galen Ltd)
+1796811000001106	Zemtard 120 XL capsules (Galen Ltd)
+723811000001107	Dilcardia SR 120mg capsules (Viatris UK Healthcare Ltd)
+1797011000001102	Dilcardia SR 120mg capsules (Viatris UK Healthcare Ltd)
+32311000001105	Viazem XL 120mg capsules (Thornton & Ross Ltd)
+1797211000001107	Viazem XL 120mg capsules (Thornton & Ross Ltd)
+758511000001104	Horizem SR 120mg capsules (Horizon lifecare)
+1797511000001105	Horizem SR 120mg capsules (Horizon lifecare)
+130211000001109	Slozem 120mg capsules (Zentiva Pharma UK Ltd)
+1797611000001109	Slozem 120mg capsules (Zentiva Pharma UK Ltd)
+116711000001106	Disogram SR 120mg capsules (Ranbaxy (UK) Ltd)
+1797911000001103	Disogram SR 120mg capsules (Ranbaxy (UK) Ltd)
+580711000001101	Bi-Carzem SR 120mg capsules (Tillomed Laboratories Ltd)
+1798211000001106	Bi-Carzem SR 120mg capsules (Tillomed Laboratories Ltd)
+298811000001103	Angitil SR 120 capsules (Ethypharm UK Ltd)
+1798411000001105	Angitil SR 120 capsules (Ethypharm UK Ltd)
+2887311000001104	Adizem-SR 120mg capsules (Napp Pharmaceuticals Ltd)
+2887511000001105	Adizem-SR 120mg capsules (Napp Pharmaceuticals Ltd)
+2937811000001108	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd)
+2937911000001103	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd)
+8886511000001103	Kenzem SR 120mg capsules (Kent Pharma (UK) Ltd)
+8886611000001104	Kenzem SR 120mg capsules (Kent Pharma (UK) Ltd)
+21965711000001100	Uard 120XL capsules (Ennogen Healthcare Ltd)
+21965811000001108	Uard 120XL capsules (Ennogen Healthcare Ltd)
+39023311000001105	Diltiazem 180mg modified-release capsules
+968911000001106	Diltiazem 180mg modified-release capsules
+1278711000001104	Diltiazem 180mg modified-release capsules
+10502211000001101	Diltiazem 180mg modified-release capsules
+254911000001106	Dilzem XL 180 capsules (Teva UK Ltd)
+1799311000001109	Dilzem XL 180 capsules (Teva UK Ltd)
+813611000001103	Zemtard 180 XL capsules (Galen Ltd)
+1799511000001103	Zemtard 180 XL capsules (Galen Ltd)
+33211000001108	Viazem XL 180mg capsules (Thornton & Ross Ltd)
+1799811000001100	Viazem XL 180mg capsules (Thornton & Ross Ltd)
+119211000001108	Slozem 180mg capsules (Zentiva Pharma UK Ltd)
+1800011000001103	Slozem 180mg capsules (Zentiva Pharma UK Ltd)
+924711000001109	Zemret 180 XL capsules (Tillomed Laboratories Ltd)
+1800111000001102	Zemret 180 XL capsules (Tillomed Laboratories Ltd)
+713411000001103	Disogram SR 180mg capsules (Ranbaxy (UK) Ltd)
+1800311000001100	Disogram SR 180mg capsules (Ranbaxy (UK) Ltd)
+336611000001101	Angitil SR 180 capsules (Ethypharm UK Ltd)
+1800411000001107	Angitil SR 180 capsules (Ethypharm UK Ltd)
+2886711000001103	Adizem-SR 180mg capsules (Napp Pharmaceuticals Ltd)
+2886811000001106	Adizem-SR 180mg capsules (Napp Pharmaceuticals Ltd)
+2938011000001101	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd)
+2938111000001100	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd)
+21965911000001103	Uard 180XL capsules (Ennogen Healthcare Ltd)
+21966011000001106	Uard 180XL capsules (Ennogen Healthcare Ltd)
+39023411000001103	Diltiazem 200mg modified-release capsules
+1006211000001109	Diltiazem 200mg modified-release capsules
+5426511000001107	Diltiazem 200mg modified-release capsules
+261611000001107	Tildiem LA 200 capsules (Sanofi)
+1800711000001101	Tildiem LA 200 capsules (Sanofi)
+2886511000001108	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd)
+2886611000001107	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd)
+39023511000001104	Diltiazem 240mg modified-release capsules
+1026111000001107	Diltiazem 240mg modified-release capsules
+733511000001107	Dilzem XL 240 capsules (Teva UK Ltd)
+1801111000001108	Dilzem XL 240 capsules (Teva UK Ltd)
+345411000001107	Zemtard 240 XL capsules (Galen Ltd)
+1801311000001105	Zemtard 240 XL capsules (Galen Ltd)
+886511000001107	Viazem XL 240mg capsules (Thornton & Ross Ltd)
+1801411000001103	Viazem XL 240mg capsules (Thornton & Ross Ltd)
+599811000001104	Slozem 240mg capsules (Zentiva Pharma UK Ltd)
+1801511000001104	Slozem 240mg capsules (Zentiva Pharma UK Ltd)
+823511000001107	Zemret 240 XL capsules (Tillomed Laboratories Ltd)
+1801811000001101	Zemret 240 XL capsules (Tillomed Laboratories Ltd)
+108711000001107	Disogram SR 240mg capsules (Ranbaxy (UK) Ltd)
+1802111000001103	Disogram SR 240mg capsules (Ranbaxy (UK) Ltd)
+884811000001103	Bi-Carzem XL 240mg capsules (Tillomed Laboratories Ltd)
+1802511000001107	Bi-Carzem XL 240mg capsules (Tillomed Laboratories Ltd)
+75111000001104	Angitil XL 240 capsules (Ethypharm UK Ltd)
+1802211000001109	Angitil XL 240 capsules (Ethypharm UK Ltd)
+2886311000001102	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd)
+2886411000001109	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd)
+21966111000001107	Uard 240XL capsules (Ennogen Healthcare Ltd)
+21966211000001101	Uard 240XL capsules (Ennogen Healthcare Ltd)
+39023611000001100	Diltiazem 300mg modified-release capsules
+1188811000001100	Diltiazem 300mg modified-release capsules
+866811000001107	Zemtard 300 XL capsules (Galen Ltd)
+1803111000001109	Zemtard 300 XL capsules (Galen Ltd)
+407011000001105	Viazem XL 300mg capsules (Thornton & Ross Ltd)
+1803411000001104	Viazem XL 300mg capsules (Thornton & Ross Ltd)
+550211000001104	Slozem 300mg capsules (Zentiva Pharma UK Ltd)
+1803611000001101	Slozem 300mg capsules (Zentiva Pharma UK Ltd)
+640311000001101	Zemret 300 XL capsules (Tillomed Laboratories Ltd)
+1804011000001105	Zemret 300 XL capsules (Tillomed Laboratories Ltd)
+893111000001107	Tildiem LA 300 capsules (Sanofi)
+1804211000001100	Tildiem LA 300 capsules (Sanofi)
+158411000001105	Bi-Carzem XL 300mg capsules (Tillomed Laboratories Ltd)
+1804311000001108	Bi-Carzem XL 300mg capsules (Tillomed Laboratories Ltd)
+467111000001105	Angitil XL 300 capsules (Ethypharm UK Ltd)
+1804511000001102	Angitil XL 300 capsules (Ethypharm UK Ltd)
+34711000001104	Disogram SR 300mg capsules (Ranbaxy (UK) Ltd)
+2634511000001103	Disogram SR 300mg capsules (Ranbaxy (UK) Ltd)
+2886111000001104	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd)
+2886211000001105	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd)
+21965511000001105	Uard 300XL capsules (Ennogen Healthcare Ltd)
+21965611000001109	Uard 300XL capsules (Ennogen Healthcare Ltd)
+39023711000001109	Diltiazem 360mg modified-release capsules
+1089211000001104	Diltiazem 360mg modified-release capsules
+648211000001107	Viazem XL 360mg capsules (Thornton & Ross Ltd)
+1804911000001109	Viazem XL 360mg capsules (Thornton & Ross Ltd)
+39023811000001101	Diltiazem 60mg modified-release tablets
+952711000001100	Diltiazem 60mg modified-release tablets
+1291811000001109	Diltiazem 60mg modified-release tablets
+1035911000001101	Diltiazem 60mg modified-release tablets
+37730511000001101	Diltiazem 60mg modified-release tablets
+215411000001106	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+1806711000001103	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+1806811000001106	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+896111000001102	Diltiazem 60mg modified-release tablets (Accord-UK Ltd)
+1806911000001101	Diltiazem 60mg modified-release tablets (Accord-UK Ltd)
+19432211000001101	Diltiazem 60mg modified-release tablets (Accord-UK Ltd)
+391911000001107	Diltiazem 60mg modified-release tablets (Teva UK Ltd)
+1807011000001102	Diltiazem 60mg modified-release tablets (Teva UK Ltd)
+672311000001103	Angiozem 60mg modified-release tablets (Ashbourne Pharmaceuticals Ltd)
+1807111000001101	Angiozem 60mg modified-release tablets (Ashbourne Pharmaceuticals Ltd)
+749011000001100	Diltiazem 60mg modified-release tablets (C P Pharmaceuticals Ltd)
+1807211000001107	Diltiazem 60mg modified-release tablets (C P Pharmaceuticals Ltd)
+502211000001105	Diltiazem 60mg modified-release tablets (Viatris UK Healthcare Ltd)
+1807411000001106	Diltiazem 60mg modified-release tablets (Viatris UK Healthcare Ltd)
+544111000001104	Diltiazem 60mg modified-release tablets (IVAX Pharmaceuticals UK Ltd)
+1807711000001100	Diltiazem 60mg modified-release tablets (IVAX Pharmaceuticals UK Ltd)
+865711000001107	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd)
+33649211000001106	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd)
+1808111000001100	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd)
+527711000001108	Optil 60mg modified-release tablets (Opus Pharmaceuticals Ltd)
+1808511000001109	Optil 60mg modified-release tablets (Opus Pharmaceuticals Ltd)
+762011000001102	Tildiem 60mg modified-release tablets (Sanofi)
+1808711000001104	Tildiem 60mg modified-release tablets (Sanofi)
+673611000001103	Diltiazem 60mg modified-release tablets (Sterwin Medicines)
+1809111000001107	Diltiazem 60mg modified-release tablets (Sterwin Medicines)
+526711000001105	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+1809311000001109	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+1809511000001103	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+10402111000001102	Diltiazem 60mg modified-release tablets (Arrow Generics Ltd)
+10402211000001108	Diltiazem 60mg modified-release tablets (Arrow Generics Ltd)
+14107311000001101	Diltiazem 60mg modified-release tablets (Niche Generics Ltd)
+14107411000001108	Diltiazem 60mg modified-release tablets (Niche Generics Ltd)
+15082411000001109	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+24597011000001106	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+15082511000001108	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+23833311000001105	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+23833411000001103	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+23833611000001100	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+30139111000001101	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals)
+30139211000001107	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals)
+30139311000001104	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals)
+32405111000001100	Diltiazem 60mg modified-release tablets (Kent Pharma (UK) Ltd)
+32405211000001106	Diltiazem 60mg modified-release tablets (Kent Pharma (UK) Ltd)
+35526611000001102	Diltiazem 60mg modified-release tablets (Crescent Pharma Ltd)
+35526711000001106	Diltiazem 60mg modified-release tablets (Crescent Pharma Ltd)
+41957411000001105	Zeyam 60mg modified-release tablets (Ennogen Pharma Ltd)
+41957511000001109	Zeyam 60mg modified-release tablets (Ennogen Pharma Ltd)
+39023911000001106	Diltiazem 90mg modified-release tablets
+1200511000001102	Diltiazem 90mg modified-release tablets
+5423311000001105	Diltiazem 90mg modified-release tablets
+14667211000001106	Diltiazem 90mg modified-release tablets
+440711000001104	Angiozem CR 90mg tablets (Ashbourne Pharmaceuticals Ltd)
+1810811000001106	Angiozem CR 90mg tablets (Ashbourne Pharmaceuticals Ltd)
+219611000001107	Calcicard CR 90mg tablets (Teva UK Ltd)
+1811111000001105	Calcicard CR 90mg tablets (Teva UK Ltd)
+103611000001105	Tildiem Retard 90mg tablets (Sanofi)
+1811211000001104	Tildiem Retard 90mg tablets (Sanofi)
+39024011000001109	Diltiazem 120mg modified-release tablets
+1191411000001105	Diltiazem 120mg modified-release tablets
+5423611000001100	Diltiazem 120mg modified-release tablets
+13209111000001109	Diltiazem 120mg modified-release tablets
+144811000001101	Angiozem CR 120mg tablets (Ashbourne Pharmaceuticals Ltd)
+1811711000001106	Angiozem CR 120mg tablets (Ashbourne Pharmaceuticals Ltd)
+104111000001100	Calcicard CR 120mg tablets (Teva UK Ltd)
+1811811000001103	Calcicard CR 120mg tablets (Teva UK Ltd)
+383911000001109	Tildiem Retard 120mg tablets (Sanofi)
+1812011000001101	Tildiem Retard 120mg tablets (Sanofi)
+2885611000001102	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd)
+2885811000001103	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd)
+39107511000001109	Nifedipine 30mg modified-release capsules
+941911000001106	Nifedipine 30mg modified-release capsules
+162811000001100	Coracten XL 30mg capsules (UCB Pharma Ltd)
+2165711000001100	Coracten XL 30mg capsules (UCB Pharma Ltd)
+39107611000001108	Nifedipine 40mg modified-release tablets
+1266011000001107	Nifedipine 40mg modified-release tablets
+188711000001108	Fortipine LA 40 tablets (Advanz Pharma)
+2167211000001104	Fortipine LA 40 tablets (Advanz Pharma)
+39111711000001105	Nifedipine 30mg modified-release tablets
+2881111000001108	Nifedipine 30mg modified-release tablets
+18186511000001105	Nifedipine 30mg modified-release tablets
+2881311000001105	Adalat LA 30mg tablets (Bayer Plc)
+2881611000001100	Adalat LA 30mg tablets (Bayer Plc)
+2881811000001101	Hypolar XL 30 tablets (Sandoz Ltd)
+2881911000001106	Hypolar XL 30 tablets (Sandoz Ltd)
+2882011000001104	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd)
+2882111000001103	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd)
+9049711000001108	Adipine XL 30mg tablets (Chiesi Ltd)
+9049811000001100	Adipine XL 30mg tablets (Chiesi Ltd)
+10189111000001106	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals)
+10189211000001100	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals)
+10751211000001100	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd)
+10751311000001108	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd)
+13401911000001109	Valni XL 30mg tablets (Zentiva Pharma UK Ltd)
+13402011000001102	Valni XL 30mg tablets (Zentiva Pharma UK Ltd)
+17666011000001106	Adanif XL 30mg tablets (Advanz Pharma)
+17666111000001107	Adanif XL 30mg tablets (Advanz Pharma)
+34685211000001104	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd)
+34685711000001106	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd)
+38994311000001109	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd)
+38994611000001104	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd)
+38896511000001101	Nifedipine 60mg modified-release capsules
+3381311000001104	Nifedipine 60mg modified-release capsules
+3381511000001105	Coracten XL 60mg capsules (UCB Pharma Ltd)
+3381711000001100	Coracten XL 60mg capsules (UCB Pharma Ltd)
+319280009	Isradipine 2.5mg tablets
+3689611000001104	Isradipine 2.5mg tablets
+3689711000001108	Prescal 2.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+3689811000001100	Prescal 2.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+22133211000001103	Isradipine 2.5mg tablets (Sandoz Ltd)
+22133511000001100	Isradipine 2.5mg tablets (Sandoz Ltd)
+22450011000001103	Isradipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+22450111000001102	Isradipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+22582411000001107	Isradipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+22582511000001106	Isradipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+30059011000001105	Isradipine 2.5mg tablets (DE Pharmaceuticals)
+30059111000001106	Isradipine 2.5mg tablets (DE Pharmaceuticals)
+36031811000001107	Nisoldipine 10mg modified-release tablets
+3876911000001104	Nisoldipine 10mg modified-release tablets
+18175411000001106	Nisoldipine 10mg modified-release tablets
+3877011000001100	Syscor MR 10 tablets (Forest Laboratories UK Ltd)
+3877211000001105	Syscor MR 10 tablets (Forest Laboratories UK Ltd)
+18175611000001109	Nisoldipine 10mg modified-release tablets (Special Order)
+18175711000001100	Nisoldipine 10mg modified-release tablets (Special Order)
+323273000	Nimodipine 30mg tablets
+3879111000001105	Nimodipine 30mg tablets
+3879211000001104	Nimotop 30mg tablets (Bayer Plc)
+3879411000001100	Nimotop 30mg tablets (Bayer Plc)
+36032011000001109	Nisoldipine 30mg modified-release tablets
+4069011000001103	Nisoldipine 30mg modified-release tablets
+18176111000001107	Nisoldipine 30mg modified-release tablets
+4069211000001108	Syscor MR 30 tablets (Forest Laboratories UK Ltd)
+4069411000001107	Syscor MR 30 tablets (Forest Laboratories UK Ltd)
+18176211000001101	Nisoldipine 30mg modified-release tablets (Special Order)
+18176311000001109	Nisoldipine 30mg modified-release tablets (Special Order)
+36031911000001102	Nisoldipine 20mg modified-release tablets
+4069911000001104	Nisoldipine 20mg modified-release tablets
+18175811000001108	Nisoldipine 20mg modified-release tablets
+4070011000001100	Syscor MR 20 tablets (Forest Laboratories UK Ltd)
+4070111000001104	Syscor MR 20 tablets (Forest Laboratories UK Ltd)
+18175911000001103	Nisoldipine 20mg modified-release tablets (Special Order)
+18176011000001106	Nisoldipine 20mg modified-release tablets (Special Order)
+4139411000001106	Verapamil 40mg/5ml oral solution sugar free
+4129411000001108	Verapamil 40mg/5ml oral solution sugar free
+4129511000001107	Zolvera 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+4129711000001102	Zolvera 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+21267011000001108	Verapamil 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+21267111000001109	Verapamil 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+21838611000001100	Verapamil 40mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+21838711000001109	Verapamil 40mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+21911011000001103	Verapamil 40mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+21911111000001102	Verapamil 40mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+22833311000001103	Verapamil 40mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+22833411000001105	Verapamil 40mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+24413411000001101	Verapamil 40mg/5ml oral solution sugar free (CST Pharma Ltd)
+24413511000001102	Verapamil 40mg/5ml oral solution sugar free (CST Pharma Ltd)
+26460111000001109	Verapamil 40mg/5ml oral solution sugar free (Icarus Pharmaceuticals Ltd)
+26461211000001109	Verapamil 40mg/5ml oral solution sugar free (Icarus Pharmaceuticals Ltd)
+28038411000001109	Verapamil 40mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+28038511000001108	Verapamil 40mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+31518211000001106	Verapamil 40mg/5ml oral solution sugar free (J M McGill Ltd)
+31518711000001104	Verapamil 40mg/5ml oral solution sugar free (J M McGill Ltd)
+32760311000001101	Verapamil 40mg/5ml oral solution sugar free (Essential Pharma Ltd)
+32760411000001108	Verapamil 40mg/5ml oral solution sugar free (Essential Pharma Ltd)
+33139011000001101	Verapamil 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+33139111000001100	Verapamil 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+33560811000001102	Verapamil 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+33560911000001107	Verapamil 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+39918411000001108	Verapamil 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+39918511000001107	Verapamil 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+36031711000001104	Nimodipine 10mg/50ml solution for infusion vials
+4386511000001104	Nimodipine 10mg/50ml solution for infusion vials
+37306211000001108	Nimodipine 10mg/50ml solution for infusion vials
+4387211000001100	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc)
+4387311000001108	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc)
+37306311000001100	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc)
+36149611000001100	Verapamil 5mg/2ml solution for injection ampoules
+4399611000001109	Verapamil 5mg/2ml solution for injection ampoules
+4399811000001108	Securon IV 5mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+4399911000001103	Securon IV 5mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+8278211000001104	Amlodipine 2.5mg/5ml oral suspension
+8246211000001101	Amlodipine 2.5mg/5ml oral suspension
+8246411000001102	Amlodipine 2.5mg/5ml oral suspension (Special Order)
+8246611000001104	Amlodipine 2.5mg/5ml oral suspension (Special Order)
+8278311000001107	Amlodipine 5mg/5ml oral suspension
+8247011000001109	Amlodipine 5mg/5ml oral suspension
+19594611000001105	Amlodipine 5mg/5ml oral suspension
+8247211000001104	Amlodipine 5mg/5ml oral suspension (Special Order)
+8247611000001102	Amlodipine 5mg/5ml oral suspension (Special Order)
+19594811000001109	Amlodipine 5mg/5ml oral suspension (Special Order)
+8278111000001105	Amlodipine 10mg/5ml oral suspension
+8247511000001101	Amlodipine 10mg/5ml oral suspension
+19594111000001102	Amlodipine 10mg/5ml oral suspension
+19933011000001100	Amlodipine 10mg/5ml oral suspension
+8247711000001106	Amlodipine 10mg/5ml oral suspension (Special Order)
+8248011000001105	Amlodipine 10mg/5ml oral suspension (Special Order)
+19594211000001108	Amlodipine 10mg/5ml oral suspension (Special Order)
+19933111000001104	Amlodipine 10mg/5ml oral suspension (Special Order)
+8456811000001103	Diltiazem 90mg/5ml oral solution
+8442411000001104	Diltiazem 90mg/5ml oral solution
+8442611000001101	Diltiazem 90mg/5ml oral solution (Special Order)
+8442811000001102	Diltiazem 90mg/5ml oral solution (Special Order)
+8457011000001107	Diltiazem 60mg/5ml oral solution
+8442711000001105	Diltiazem 60mg/5ml oral solution
+8443011000001104	Diltiazem 60mg/5ml oral solution (Special Order)
+8443211000001109	Diltiazem 60mg/5ml oral solution (Special Order)
+8456711000001106	Diltiazem 90mg/5ml oral suspension
+8443311000001101	Diltiazem 90mg/5ml oral suspension
+8443611000001106	Diltiazem 90mg/5ml oral suspension (Special Order)
+8443811000001105	Diltiazem 90mg/5ml oral suspension (Special Order)
+8456911000001108	Diltiazem 60mg/5ml oral suspension
+8444311000001104	Diltiazem 60mg/5ml oral suspension
+23390411000001101	Diltiazem 60mg/5ml oral suspension
+8444511000001105	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order)
+8444711000001100	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order)
+23390511000001102	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order)
+8670011000001105	Nifedipine 100mg/5ml oral suspension
+8639511000001107	Nifedipine 100mg/5ml oral suspension
+8639811000001105	Nifedipine 100mg/5ml oral suspension (Special Order)
+8640011000001106	Nifedipine 100mg/5ml oral suspension (Special Order)
+8670111000001106	Nifedipine 10mg/5ml oral suspension
+8640311000001109	Nifedipine 10mg/5ml oral suspension
+23394211000001108	Nifedipine 10mg/5ml oral suspension
+8640411000001102	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order)
+8640611000001104	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order)
+23394311000001100	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order)
+8670411000001101	Nifedipine 60mg/5ml oral suspension
+8641011000001102	Nifedipine 60mg/5ml oral suspension
+8641111000001101	Nifedipine 60mg/5ml oral suspension (Special Order)
+8641311000001104	Nifedipine 60mg/5ml oral suspension (Special Order)
+8670211000001100	Nifedipine 20mg/5ml oral suspension
+8641411000001106	Nifedipine 20mg/5ml oral suspension
+8641711000001100	Nifedipine 20mg/5ml oral suspension (Special Order)
+8641811000001108	Nifedipine 20mg/5ml oral suspension (Special Order)
+8670311000001108	Nifedipine 5mg/5ml oral suspension
+8642111000001106	Nifedipine 5mg/5ml oral suspension
+27880211000001108	Nifedipine 5mg/5ml oral suspension
+8642511000001102	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order)
+8642711000001107	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order)
+27880311000001100	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order)
+9096811000001100	Nifedipine 20mg/ml oral drops
+9072511000001108	Nifedipine 20mg/ml oral drops
+9072611000001107	Nifedipine 20mg/ml oral drops
+15878311000001108	Nifedipine 20mg/ml oral drops
+9072711000001103	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany))
+9072811000001106	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany))
+9072911000001101	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany))
+15878411000001101	Nifedipine 20mg/ml oral drops (Part VIIID Drug Tariff Special Order)
+39564411000001107	Nifedipine 20mg/ml oral drops (Part VIIID Drug Tariff Special Order)
+15878511000001102	Nifedipine 20mg/ml oral drops (Part VIIID Drug Tariff Special Order)
+10225911000001102	Lercanidipine 20mg tablets
+10198611000001106	Lercanidipine 20mg tablets
+11540111000001107	Lercanidipine 20mg tablets
+11766811000001108	Lercanidipine 20mg tablets
+12200711000001107	Lercanidipine 20mg tablets
+10198711000001102	Zanidip 20mg tablets (Recordati Pharmaceuticals Ltd)
+10198811000001105	Zanidip 20mg tablets (Recordati Pharmaceuticals Ltd)
+15608611000001100	Lercanidipine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+15608711000001109	Lercanidipine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+16607211000001104	Lercanidipine 20mg tablets (Accord-UK Ltd)
+16607311000001107	Lercanidipine 20mg tablets (Accord-UK Ltd)
+16640011000001100	Lercanidipine 20mg tablets (Zentiva Pharma UK Ltd)
+16640111000001104	Lercanidipine 20mg tablets (Zentiva Pharma UK Ltd)
+16666411000001101	Lercanidipine 20mg tablets (Viatris UK Healthcare Ltd)
+16666511000001102	Lercanidipine 20mg tablets (Viatris UK Healthcare Ltd)
+16726111000001106	Lercanidipine 20mg tablets (Teva UK Ltd)
+16726211000001100	Lercanidipine 20mg tablets (Teva UK Ltd)
+16732211000001104	Lercanidipine 20mg tablets (A A H Pharmaceuticals Ltd)
+16732311000001107	Lercanidipine 20mg tablets (A A H Pharmaceuticals Ltd)
+17935511000001102	Lercanidipine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+17944011000001107	Lercanidipine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+20911411000001101	Lercanidipine 20mg tablets (Arrow Generics Ltd)
+20911511000001102	Lercanidipine 20mg tablets (Arrow Generics Ltd)
+21857911000001106	Lercanidipine 20mg tablets (Recordati Pharmaceuticals Ltd)
+21858011000001108	Lercanidipine 20mg tablets (Recordati Pharmaceuticals Ltd)
+22063711000001109	Lercanidipine 20mg tablets (Waymade Healthcare Plc)
+22063811000001101	Lercanidipine 20mg tablets (Waymade Healthcare Plc)
+22337711000001107	Lercanidipine 20mg tablets (Aptil Pharma Ltd)
+22337811000001104	Lercanidipine 20mg tablets (Aptil Pharma Ltd)
+24364011000001103	Lercanidipine 20mg tablets (DE Pharmaceuticals)
+24364111000001102	Lercanidipine 20mg tablets (DE Pharmaceuticals)
+29885011000001103	Lercanidipine 20mg tablets (Sigma Pharmaceuticals Plc)
+29885111000001102	Lercanidipine 20mg tablets (Sigma Pharmaceuticals Plc)
+30219411000001100	Lercanidipine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+30219511000001101	Lercanidipine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+36818111000001101	Lercanidipine 20mg tablets (Torrent Pharma (UK) Ltd)
+36818311000001104	Lercanidipine 20mg tablets (Torrent Pharma (UK) Ltd)
+39012811000001104	Lercanidipine 20mg tablets (Medihealth (Northern) Ltd)
+39013011000001101	Lercanidipine 20mg tablets (Medihealth (Northern) Ltd)
+41493811000001108	Lercanidipine 20mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+41493911000001103	Lercanidipine 20mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+11160111000001107	Amlodipine 10mg / Valsartan 160mg tablets
+11160611000001104	Amlodipine 10mg / Valsartan 160mg tablets
+13163711000001105	Amlodipine 10mg / Valsartan 160mg tablets
+11160711000001108	Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+11161211000001107	Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+40876711000001103	Amlodipine 10mg / Valsartan 160mg tablets (Zentiva Pharma UK Ltd)
+40876811000001106	Amlodipine 10mg / Valsartan 160mg tablets (Zentiva Pharma UK Ltd)
+41326211000001101	Amlodipine 10mg / Valsartan 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+41326311000001109	Amlodipine 10mg / Valsartan 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+42051711000001103	Amlodipine 10mg / Valsartan 160mg tablets (A A H Pharmaceuticals Ltd)
+42052111000001109	Amlodipine 10mg / Valsartan 160mg tablets (A A H Pharmaceuticals Ltd)
+11160211000001101	Amlodipine 5mg / Valsartan 160mg tablets
+11161411000001106	Amlodipine 5mg / Valsartan 160mg tablets
+13163411000001104	Amlodipine 5mg / Valsartan 160mg tablets
+11161511000001105	Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+11161611000001109	Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+40876511000001108	Amlodipine 5mg / Valsartan 160mg tablets (Zentiva Pharma UK Ltd)
+40876611000001107	Amlodipine 5mg / Valsartan 160mg tablets (Zentiva Pharma UK Ltd)
+41938311000001103	Amlodipine 5mg / Valsartan 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+41938411000001105	Amlodipine 5mg / Valsartan 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+42052411000001104	Amlodipine 5mg / Valsartan 160mg tablets (A A H Pharmaceuticals Ltd)
+42052511000001100	Amlodipine 5mg / Valsartan 160mg tablets (A A H Pharmaceuticals Ltd)
+11160311000001109	Amlodipine 5mg / Valsartan 80mg tablets
+11161711000001100	Amlodipine 5mg / Valsartan 80mg tablets
+13163111000001109	Amlodipine 5mg / Valsartan 80mg tablets
+40524111000001106	Amlodipine 5mg / Valsartan 80mg tablets
+11161811000001108	Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd)
+11161911000001103	Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd)
+40876211000001105	Amlodipine 5mg / Valsartan 80mg tablets (Zentiva Pharma UK Ltd)
+40876311000001102	Amlodipine 5mg / Valsartan 80mg tablets (Zentiva Pharma UK Ltd)
+41326411000001102	Amlodipine 5mg / Valsartan 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+41326611000001104	Amlodipine 5mg / Valsartan 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+42052211000001103	Amlodipine 5mg / Valsartan 80mg tablets (A A H Pharmaceuticals Ltd)
+42052311000001106	Amlodipine 5mg / Valsartan 80mg tablets (A A H Pharmaceuticals Ltd)
+11712011000001102	Amlodipine 4mg/5ml oral suspension
+11685811000001107	Amlodipine 4mg/5ml oral suspension
+11685911000001102	Amlodipine 4mg/5ml oral suspension (Special Order)
+11686011000001105	Amlodipine 4mg/5ml oral suspension (Special Order)
+11711911000001109	Amlodipine 4mg/5ml oral solution
+11686111000001106	Amlodipine 4mg/5ml oral solution
+11686211000001100	Amlodipine 4mg/5ml oral solution (Special Order)
+11686311000001108	Amlodipine 4mg/5ml oral solution (Special Order)
+11712211000001107	Amlodipine 50mg/5ml oral suspension
+11686711000001107	Amlodipine 50mg/5ml oral suspension
+11686811000001104	Amlodipine 50mg/5ml oral suspension (Special Order)
+11686911000001109	Amlodipine 50mg/5ml oral suspension (Special Order)
+11712111000001101	Amlodipine 50mg/5ml oral solution
+11687311000001106	Amlodipine 50mg/5ml oral solution
+11687411000001104	Amlodipine 50mg/5ml oral solution (Special Order)
+11687511000001100	Amlodipine 50mg/5ml oral solution (Special Order)
+12027011000001109	Diltiazem 100mg/5ml oral solution
+12001111000001107	Diltiazem 100mg/5ml oral solution
+12001211000001101	Diltiazem 100mg/5ml oral solution (Special Order)
+12001311000001109	Diltiazem 100mg/5ml oral solution (Special Order)
+12027111000001105	Diltiazem 10mg/5ml oral solution
+12001511000001103	Diltiazem 10mg/5ml oral solution
+12001611000001104	Diltiazem 10mg/5ml oral solution (Special Order)
+12001811000001100	Diltiazem 10mg/5ml oral solution (Special Order)
+12027311000001107	Diltiazem 120mg/5ml oral solution
+12002111000001102	Diltiazem 120mg/5ml oral solution
+12002311000001100	Diltiazem 120mg/5ml oral solution (Special Order)
+12002511000001106	Diltiazem 120mg/5ml oral solution (Special Order)
+12027611000001102	Diltiazem 20mg/5ml oral solution
+12002611000001105	Diltiazem 20mg/5ml oral solution
+12002711000001101	Diltiazem 20mg/5ml oral solution (Special Order)
+12002811000001109	Diltiazem 20mg/5ml oral solution (Special Order)
+12027811000001103	Diltiazem 30mg/5ml oral solution
+12003011000001107	Diltiazem 30mg/5ml oral solution
+12003311000001105	Diltiazem 30mg/5ml oral solution (Special Order)
+12003711000001109	Diltiazem 30mg/5ml oral solution (Special Order)
+12027911000001108	Diltiazem 50mg/5ml oral solution
+12003911000001106	Diltiazem 50mg/5ml oral solution
+12004111000001105	Diltiazem 50mg/5ml oral solution (Special Order)
+12004311000001107	Diltiazem 50mg/5ml oral solution (Special Order)
+12302611000001109	Nicardipine 20mg/5ml oral solution
+12277111000001101	Nicardipine 20mg/5ml oral solution
+12277211000001107	Nicardipine 20mg/5ml oral solution (Special Order)
+12278211000001106	Nicardipine 20mg/5ml oral solution (Special Order)
+12302711000001100	Nicardipine 20mg/5ml oral suspension
+12278611000001108	Nicardipine 20mg/5ml oral suspension
+12278911000001102	Nicardipine 20mg/5ml oral suspension (Special Order)
+12279111000001107	Nicardipine 20mg/5ml oral suspension (Special Order)
+12303011000001106	Nifedipine 1mg/5ml oral suspension
+12281211000001107	Nifedipine 1mg/5ml oral suspension
+12281311000001104	Nifedipine 1mg/5ml oral suspension (Special Order)
+12284311000001101	Nifedipine 1mg/5ml oral suspension (Special Order)
+12303111000001107	Nifedipine 2.2mg/5ml oral suspension
+12284411000001108	Nifedipine 2.2mg/5ml oral suspension
+12284511000001107	Nifedipine 2.2mg/5ml oral suspension (Special Order)
+12284611000001106	Nifedipine 2.2mg/5ml oral suspension (Special Order)
+12303311000001109	Nifedipine 2.5mg/5ml oral suspension
+12284711000001102	Nifedipine 2.5mg/5ml oral suspension
+12284811000001105	Nifedipine 2.5mg/5ml oral suspension (Special Order)
+12284911000001100	Nifedipine 2.5mg/5ml oral suspension (Special Order)
+12862311000001102	Nifedipine 25mg/5ml oral suspension
+12818711000001101	Nifedipine 25mg/5ml oral suspension
+12818811000001109	Nifedipine 25mg/5ml oral suspension (Special Order)
+12818911000001104	Nifedipine 25mg/5ml oral suspension (Special Order)
+12862411000001109	Nifedipine 2mg/5ml oral suspension
+12819011000001108	Nifedipine 2mg/5ml oral suspension
+12819111000001109	Nifedipine 2mg/5ml oral suspension (Special Order)
+12819211000001103	Nifedipine 2mg/5ml oral suspension (Special Order)
+12862511000001108	Nifedipine 30mg/5ml oral suspension
+12819311000001106	Nifedipine 30mg/5ml oral suspension
+12819411000001104	Nifedipine 30mg/5ml oral suspension (Special Order)
+12819511000001100	Nifedipine 30mg/5ml oral suspension (Special Order)
+12862611000001107	Nifedipine 4mg/5ml oral suspension
+12819611000001101	Nifedipine 4mg/5ml oral suspension
+12819711000001105	Nifedipine 4mg/5ml oral suspension (Special Order)
+12819811000001102	Nifedipine 4mg/5ml oral suspension (Special Order)
+12862711000001103	Nifedipine 7.5mg/5ml oral suspension
+12819911000001107	Nifedipine 7.5mg/5ml oral suspension
+12820011000001109	Nifedipine 7.5mg/5ml oral suspension (Special Order)
+12820111000001105	Nifedipine 7.5mg/5ml oral suspension (Special Order)
+12865111000001106	Nimodipine 30mg/5ml oral suspension
+12820211000001104	Nimodipine 30mg/5ml oral suspension
+12820311000001107	Nimodipine 30mg/5ml oral suspension (Special Order)
+12820411000001100	Nimodipine 30mg/5ml oral suspension (Special Order)
+12941011000001107	Verapamil 10mg/5ml oral suspension
+12933311000001105	Verapamil 10mg/5ml oral suspension
+12933411000001103	Verapamil 10mg/5ml oral suspension (Special Order)
+12933511000001104	Verapamil 10mg/5ml oral suspension (Special Order)
+12940911000001104	Verapamil 10mg/5ml oral solution
+12933611000001100	Verapamil 10mg/5ml oral solution
+12933711000001109	Verapamil 10mg/5ml oral solution (Special Order)
+12933811000001101	Verapamil 10mg/5ml oral solution (Special Order)
+13014411000001108	Verapamil 120mg/5ml oral suspension
+12941111000001108	Verapamil 120mg/5ml oral suspension
+12941211000001102	Verapamil 120mg/5ml oral suspension (Special Order)
+12941311000001105	Verapamil 120mg/5ml oral suspension (Special Order)
+13014311000001101	Verapamil 120mg/5ml oral solution
+12941411000001103	Verapamil 120mg/5ml oral solution
+12941511000001104	Verapamil 120mg/5ml oral solution (Special Order)
+12941611000001100	Verapamil 120mg/5ml oral solution (Special Order)
+13014611000001106	Verapamil 20mg/5ml oral suspension
+12941711000001109	Verapamil 20mg/5ml oral suspension
+12941811000001101	Verapamil 20mg/5ml oral suspension (Special Order)
+12941911000001106	Verapamil 20mg/5ml oral suspension (Special Order)
+13014511000001107	Verapamil 20mg/5ml oral solution
+12942011000001104	Verapamil 20mg/5ml oral solution
+12942111000001103	Verapamil 20mg/5ml oral solution (Special Order)
+12942211000001109	Verapamil 20mg/5ml oral solution (Special Order)
+13014811000001105	Verapamil 240mg/5ml oral suspension
+12942311000001101	Verapamil 240mg/5ml oral suspension
+12942411000001108	Verapamil 240mg/5ml oral suspension (Special Order)
+12942511000001107	Verapamil 240mg/5ml oral suspension (Special Order)
+13014711000001102	Verapamil 240mg/5ml oral solution
+12942611000001106	Verapamil 240mg/5ml oral solution
+12942711000001102	Verapamil 240mg/5ml oral solution (Special Order)
+12942811000001105	Verapamil 240mg/5ml oral solution (Special Order)
+13015011000001100	Verapamil 250mg/5ml oral suspension
+12942911000001100	Verapamil 250mg/5ml oral suspension
+12943011000001108	Verapamil 250mg/5ml oral suspension (Special Order)
+12943111000001109	Verapamil 250mg/5ml oral suspension (Special Order)
+13014911000001100	Verapamil 250mg/5ml oral solution
+12943211000001103	Verapamil 250mg/5ml oral solution
+12943311000001106	Verapamil 250mg/5ml oral solution (Special Order)
+12943411000001104	Verapamil 250mg/5ml oral solution (Special Order)
+13015211000001105	Verapamil 30mg/5ml oral suspension
+12943511000001100	Verapamil 30mg/5ml oral suspension
+12943611000001101	Verapamil 30mg/5ml oral suspension (Special Order)
+12943711000001105	Verapamil 30mg/5ml oral suspension (Special Order)
+13015111000001104	Verapamil 30mg/5ml oral solution
+12943811000001102	Verapamil 30mg/5ml oral solution
+12943911000001107	Verapamil 30mg/5ml oral solution (Special Order)
+12944011000001105	Verapamil 30mg/5ml oral solution (Special Order)
+13015411000001109	Verapamil 40mg/5ml oral suspension
+12944111000001106	Verapamil 40mg/5ml oral suspension
+12944211000001100	Verapamil 40mg/5ml oral suspension (Special Order)
+12944311000001108	Verapamil 40mg/5ml oral suspension (Special Order)
+13015311000001102	Verapamil 40mg/5ml oral solution
+12944411000001101	Verapamil 40mg/5ml oral solution
+12944511000001102	Verapamil 40mg/5ml oral solution (Special Order)
+12944611000001103	Verapamil 40mg/5ml oral solution (Special Order)
+13015611000001107	Verapamil 45mg/5ml oral suspension
+12944711000001107	Verapamil 45mg/5ml oral suspension
+12944811000001104	Verapamil 45mg/5ml oral suspension (Special Order)
+12944911000001109	Verapamil 45mg/5ml oral suspension (Special Order)
+13015511000001108	Verapamil 45mg/5ml oral solution
+12945011000001109	Verapamil 45mg/5ml oral solution
+12945111000001105	Verapamil 45mg/5ml oral solution (Special Order)
+12945211000001104	Verapamil 45mg/5ml oral solution (Special Order)
+13015811000001106	Verapamil 50mg/5ml oral suspension
+12945311000001107	Verapamil 50mg/5ml oral suspension
+12945411000001100	Verapamil 50mg/5ml oral suspension (Special Order)
+12945511000001101	Verapamil 50mg/5ml oral suspension (Special Order)
+13015711000001103	Verapamil 50mg/5ml oral solution
+12945611000001102	Verapamil 50mg/5ml oral solution
+12945711000001106	Verapamil 50mg/5ml oral solution (Special Order)
+12945811000001103	Verapamil 50mg/5ml oral solution (Special Order)
+13016011000001109	Verapamil 80mg/5ml oral suspension
+12945911000001108	Verapamil 80mg/5ml oral suspension
+12946011000001100	Verapamil 80mg/5ml oral suspension (Special Order)
+12946111000001104	Verapamil 80mg/5ml oral suspension (Special Order)
+13015911000001101	Verapamil 80mg/5ml oral solution
+12946211000001105	Verapamil 80mg/5ml oral solution
+12946311000001102	Verapamil 80mg/5ml oral solution (Special Order)
+12946411000001109	Verapamil 80mg/5ml oral solution (Special Order)
+13892511000001100	Amlodipine 5mg/5ml oral solution
+13882411000001103	Amlodipine 5mg/5ml oral solution
+19594311000001100	Amlodipine 5mg/5ml oral solution
+13882511000001104	Amlodipine 5mg/5ml oral solution (Special Order)
+13882611000001100	Amlodipine 5mg/5ml oral solution (Special Order)
+19594411000001107	Amlodipine 5mg/5ml oral solution (Special Order)
+15243911000001109	Trimetazidine 20mg tablets
+15236911000001102	Trimetazidine 20mg tablets
+15873711000001101	Trimetazidine 20mg tablets
+15237611000001105	Vastarel 20mg tablets (Imported (France))
+15237711000001101	Vastarel 20mg tablets (Imported (France))
+15873311000001100	Trimetazidine 20mg tablets (Special Order)
+15873911000001104	Trimetazidine 20mg tablets (Special Order)
+15773711000001103	Amlodipine 2mg/5ml oral suspension
+15654911000001106	Amlodipine 2mg/5ml oral suspension
+15655011000001106	Amlodipine 2mg/5ml oral suspension (Special Order)
+15655111000001107	Amlodipine 2mg/5ml oral suspension (Special Order)
+15773611000001107	Amlodipine 2mg/5ml oral solution
+15655211000001101	Amlodipine 2mg/5ml oral solution
+15655311000001109	Amlodipine 2mg/5ml oral solution (Special Order)
+15655411000001102	Amlodipine 2mg/5ml oral solution (Special Order)
+15773411000001109	Amlodipine 1.5mg/5ml oral solution
+15655511000001103	Amlodipine 1.5mg/5ml oral solution
+15655611000001104	Amlodipine 1.5mg/5ml oral solution (Special Order)
+15655711000001108	Amlodipine 1.5mg/5ml oral solution (Special Order)
+15773511000001108	Amlodipine 1.5mg/5ml oral suspension
+15655811000001100	Amlodipine 1.5mg/5ml oral suspension
+15655911000001105	Amlodipine 1.5mg/5ml oral suspension (Special Order)
+15656011000001102	Amlodipine 1.5mg/5ml oral suspension (Special Order)
+18029311000001107	Felodipine 2.5mg/5ml oral solution
+18026811000001109	Felodipine 2.5mg/5ml oral solution
+18026911000001104	Felodipine 2.5mg/5ml oral solution (Special Order)
+18027011000001100	Felodipine 2.5mg/5ml oral solution (Special Order)
+18029411000001100	Felodipine 5mg/5ml oral solution
+18027111000001104	Felodipine 5mg/5ml oral solution
+18027211000001105	Felodipine 5mg/5ml oral solution (Special Order)
+18027311000001102	Felodipine 5mg/5ml oral solution (Special Order)
+20478011000001105	Amlodipine 10mg/5ml oral solution
+20428211000001104	Amlodipine 10mg/5ml oral solution
+20428311000001107	Amlodipine 10mg/5ml oral solution
+20428411000001100	Amlodipine 10mg/5ml oral solution (Special Order)
+20428611000001102	Amlodipine 10mg/5ml oral solution (Special Order)
+20428811000001103	Amlodipine 10mg/5ml oral solution (Special Order)
+20456111000001105	Trimetazidine 35mg modified-release tablets
+20431611000001108	Trimetazidine 35mg modified-release tablets
+20434211000001108	Trimetazidine 35mg modified-release tablets
+20431711000001104	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order)
+20431811000001107	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order)
+40533711000001107	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order)
+20434311000001100	Vastarel MR 35mg tablets (Imported (France))
+20434511000001106	Vastarel MR 35mg tablets (Imported (France))
+29826211000001109	Amlodipine 10mg/5ml oral solution sugar free
+29780111000001108	Amlodipine 10mg/5ml oral solution sugar free
+29780211000001102	Amlodipine 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+29780311000001105	Amlodipine 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+29781411000001107	Amlodipine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+29781511000001106	Amlodipine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+29932711000001105	Amlodipine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+29932811000001102	Amlodipine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30217411000001109	Amlodipine 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+30217611000001107	Amlodipine 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+30822011000001101	Amlodipine 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+30822111000001100	Amlodipine 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+32872011000001107	Amlodipine 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+32872111000001108	Amlodipine 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+29826311000001101	Amlodipine 5mg/5ml oral solution sugar free
+29780611000001100	Amlodipine 5mg/5ml oral solution sugar free
+29780711000001109	Amlodipine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+29780811000001101	Amlodipine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+29781211000001108	Amlodipine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+29781311000001100	Amlodipine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+29932511000001100	Amlodipine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+29932611000001101	Amlodipine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30216911000001104	Amlodipine 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+30217111000001104	Amlodipine 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+30821811000001103	Amlodipine 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+30821911000001108	Amlodipine 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+39842311000001102	Amlodipine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+39842411000001109	Amlodipine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+40621911000001104	Amlodipine 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+40622011000001106	Amlodipine 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+32877511000001101	Lacidipine 2mg/5ml oral suspension
+32859311000001100	Lacidipine 2mg/5ml oral suspension
+32859511000001106	Lacidipine 2mg/5ml oral suspension (Special Order)
+32859611000001105	Lacidipine 2mg/5ml oral suspension (Special Order)
+34447411000001102	Felodipine 2.5mg/5ml oral suspension
+34431411000001106	Felodipine 2.5mg/5ml oral suspension
+34431711000001100	Felodipine 2.5mg/5ml oral suspension (Special Order)
+34431811000001108	Felodipine 2.5mg/5ml oral suspension (Special Order)
+36237311000001101	Amlodipine 5mg/5ml oral suspension sugar free
+36168911000001107	Amlodipine 5mg/5ml oral suspension sugar free
+36169111000001102	Amlodipine 5mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+36169211000001108	Amlodipine 5mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+36644511000001102	Amlodipine 5mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+36644911000001109	Amlodipine 5mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+37180311000001107	Amlodipine 5mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+37180411000001100	Amlodipine 5mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+40331111000001108	Amlodipine 5mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+40331211000001102	Amlodipine 5mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+38019311000001102	Lacidipine 6mg tablets
+38017711000001106	Lacidipine 6mg tablets
+38017811000001103	Lacidipine 6mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+38018111000001106	Lacidipine 6mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+429828006	Amlodipine 2.5mg tablets
+38095411000001105	Amlodipine 2.5mg tablets
+38095611000001108	Amlodipine 2.5mg tablets (Bristol Laboratories Ltd)
+38095711000001104	Amlodipine 2.5mg tablets (Bristol Laboratories Ltd)
+38739711000001108	Amlodipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+38739811000001100	Amlodipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+38952611000001103	Amlodipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+38952711000001107	Amlodipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+39842011000001100	Amlodipine 2.5mg tablets (Medihealth (Northern) Ltd)
+39842111000001104	Amlodipine 2.5mg tablets (Medihealth (Northern) Ltd)
+40330911000001104	Amlodipine 2.5mg tablets (DE Pharmaceuticals)
+40331011000001107	Amlodipine 2.5mg tablets (DE Pharmaceuticals)
+40836811000001109	Amlodipine 2.5mg tablets (Zentiva Pharma UK Ltd)
+40836911000001104	Amlodipine 2.5mg tablets (Zentiva Pharma UK Ltd)

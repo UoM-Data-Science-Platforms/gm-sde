@@ -1,0 +1,8 @@
+1240581000000104	Severe acute respiratory syndrome coronavirus 2 detected (finding)
+1321301000000101	Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)
+1324601000000106	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detected (finding)
+1324881000000100	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detection result positive at the limit of detection (finding)
+871562009	Detection of Severe acute respiratory syndrome coronavirus 2 (observable entity)
+1300731000000106	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed using clinical diagnostic criteria (situation)
+1240751000000100 	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2
+189486241000119100 	Asymptomatic Severe acute respiratory syndrome coronavirus 2 infection

@@ -45,7 +45,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2018-03-01';
-SET @EndDate = '2022-03-01';
+SET @EndDate = '2023-08-31';
 
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2020-03-01';
@@ -69,31 +69,21 @@ SET NOCOUNT ON;
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
---┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
---└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
 
 -- INPUT REQUIREMENTS: @StartDate
 
-DECLARE @TempEndDate datetime;
-SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
-	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+	(DeathDate IS NULL OR (DeathDate >= @StartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP
@@ -233,9 +223,15 @@ VALUES ('kidney-stones',1,'XE0dk',NULL,'Calculus of kidney'),('kidney-stones',1,
 INSERT INTO #codesctv3
 VALUES ('vasculitis',1,'C3321',NULL,'Cryoglobulinaemic vasculitis'),('vasculitis',1,'X205F',NULL,'Secondary systemic vasculitis'),('vasculitis',1,'X205G',NULL,'Vasculitis secondary to drug'),('vasculitis',1,'X701l',NULL,'Rheumatoid vasculitis'),('vasculitis',1,'X705w',NULL,'Lupus vasculitis'),('vasculitis',1,'X205D',NULL,'Systemic vasculitis'),('vasculitis',1,'X705t',NULL,'Nailfold rheumatoid vasculitis'),('vasculitis',1,'X705u',NULL,'Systemic rheumatoid vasculitis'),('vasculitis',1,'X705v',NULL,'Necrotising rheumatoid vasculitis'),('vasculitis',1,'G76B.',NULL,'Vasculitis'),('vasculitis',1,'X7061',NULL,'Essential cryoglobulinaemic vasculitis'),('vasculitis',1,'X50BC',NULL,'Primary cutaneous vasculitis'),('vasculitis',1,'X50BG',NULL,'Gougerot-Ruiter vasculitis'),('vasculitis',1,'X705x',NULL,'Hypocomplementaemic vasculitis'),('vasculitis',1,'X50BI',NULL,'Secondary cutaneous vasculitis'),('vasculitis',1,'Myu7A',NULL,'[X]Other vasculitis limited to the skin'),('vasculitis',1,'Myu7G',NULL,'[X]Vasculitis limited to skin, unspecified'),('vasculitis',1,'X50BK',NULL,'Nodular vasculitis'),('vasculitis',1,'X00Dw',NULL,'Cerebral arteritis in systemic vasculitis'),('vasculitis',1,'X00Dz',NULL,'Primary central nervous system granulomatous vasculitis'),('vasculitis',1,'X705i',NULL,'Churg-Strauss vasculitis'),('vasculitis',1,'F421E',NULL,'Retinal vasculitis NOS'),('vasculitis',1,'X00dO',NULL,'Retinal vasculitis'),('vasculitis',1,'X309p',NULL,'Peritoneal vasculitis'),('vasculitis',1,'XaXlI',NULL,'H/O vasculitis'),('vasculitis',1,'D310.',NULL,'Allergic purpura'),('vasculitis',1,'D3100',NULL,'Acute vascular purpura'),('vasculitis',1,'F371.',NULL,'Neuropathy in vasculitis and connective tissue disease'),('vasculitis',1,'G750.',NULL,'(Polyarteritis nodosa) or (necrotising angiitis)'),('vasculitis',1,'G750.',NULL,'Polyarteritis nodosa'),('vasculitis',1,'G752.',NULL,'Hypersensitivity: [angiitis] or [arteritis]'),('vasculitis',1,'G752z',NULL,'Hypersensitivity angiitis NOS'),('vasculitis',1,'X203B',NULL,'Post-arteritic pulmonary hypertension'),('vasculitis',1,'XE0VV',NULL,'Hypersensitivity angiitis');
 INSERT INTO #codesctv3
+VALUES ('alcohol-heavy-drinker',1,'136K.',NULL,'Alcohol intake above recommended sensible limits'),('alcohol-heavy-drinker',1,'E23..',NULL,'Alcohol problem drinking'),('alcohol-heavy-drinker',1,'Eu101',NULL,'[X]Mental and behavioural disorders due to use of alcohol: harmful use'),('alcohol-heavy-drinker',1,'Ub0lO',NULL,'Drinks heavily'),('alcohol-heavy-drinker',1,'Ub0lP',NULL,'Very heavy drinker'),('alcohol-heavy-drinker',1,'Ub0lt',NULL,'Drinks in morning to get rid of hangover'),('alcohol-heavy-drinker',1,'Ub0ly',NULL,'Binge drinker'),('alcohol-heavy-drinker',1,'Ub0mj',NULL,'Feels should cut down drinking'),('alcohol-heavy-drinker',1,'Xa1yZ',NULL,'Alcohol abuse'),('alcohol-heavy-drinker',1,'XaA1V',NULL,'Ethanol abuse'),('alcohol-heavy-drinker',1,'XaKvA',NULL,'Hazardous alcohol use'),('alcohol-heavy-drinker',1,'XaKvB',NULL,'Harmful alcohol use'),('alcohol-heavy-drinker',1,'XaXje',NULL,'Higher risk drinking'),('alcohol-heavy-drinker',1,'XE1YQ',NULL,'Alcohol problem drinking');
+INSERT INTO #codesctv3
 VALUES ('alcohol-light-drinker',1,'1362.00',NULL,'Trivial drinker - <1u/day');
 INSERT INTO #codesctv3
+VALUES ('alcohol-moderate-drinker',1,'136F.',NULL,'Spirit drinker'),('alcohol-moderate-drinker',1,'136G.',NULL,'Beer drinker'),('alcohol-moderate-drinker',1,'136H.',NULL,'Drinks beer and spirits'),('alcohol-moderate-drinker',1,'136I.',NULL,'Drinks wine'),('alcohol-moderate-drinker',1,'136J.',NULL,'Social drinker'),('alcohol-moderate-drinker',1,'136L.',NULL,'Alcohol intake within recommended sensible limits'),('alcohol-moderate-drinker',1,'136Z.',NULL,'Alcohol consumption NOS'),('alcohol-moderate-drinker',1,'Ub0lM',NULL,'Moderate drinker'),('alcohol-moderate-drinker',1,'XaXjd',NULL,'Increasing risk drinking'),('alcohol-moderate-drinker',1,'XaXjd',NULL,'Increasing risk drinking');
+INSERT INTO #codesctv3
 VALUES ('alcohol-non-drinker',1,'1361.',NULL,'Teetotaller'),('alcohol-non-drinker',1,'136M.',NULL,'Current non-drinker');
+INSERT INTO #codesctv3
+VALUES ('alcohol-weekly-intake',1,'136..',NULL,'AI - Alcohol intake'),('alcohol-weekly-intake',1,'Ub173',NULL,'Alcohol units per week');
 INSERT INTO #codesctv3
 VALUES ('bmi',2,'22K..',NULL,'Body Mass Index');
 INSERT INTO #codesctv3
@@ -290,6 +286,16 @@ VALUES ('kidney-stones',1,'95570007',NULL,'Kidney stone (disorder)'),('kidney-st
 INSERT INTO #codessnomed
 VALUES ('vasculitis',1,'228007',NULL,'Lucio phenomenon (disorder)'),('vasculitis',1,'9177003',NULL,'Histiocytic vasculitis of skin (disorder)'),('vasculitis',1,'11791001',NULL,'Necrotizing vasculitis (disorder)'),('vasculitis',1,'31996006',NULL,'Vasculitis (disorder)'),('vasculitis',1,'46286007',NULL,'Lymphocytic vasculitis of skin (disorder)'),('vasculitis',1,'46956008',NULL,'Polyangiitis'),('vasculitis',1,'53312001',NULL,'Vasculitis of the skin (disorder)'),('vasculitis',1,'55275006',NULL,'Non-tubercular erythema induratum'),('vasculitis',1,'56780006',NULL,'Segmental hyalinizing vasculitis (disorder)'),('vasculitis',1,'60555002',NULL,'Hypersensitivity angiitis (disorder)'),('vasculitis',1,'64832003',NULL,'Neutrophilic vasculitis of skin (disorder)'),('vasculitis',1,'77628002',NULL,'Retinal vasculitis (disorder)'),('vasculitis',1,'95578000',NULL,'Renal vasculitis (disorder)'),('vasculitis',1,'190815001',NULL,'Cryoglobulinemic vasculitis (disorder)'),('vasculitis',1,'191306005',NULL,'Henoch-Schönlein purpura (disorder)'),('vasculitis',1,'230731002',NULL,'Cerebral arteritis in systemic vasculitis (disorder)'),('vasculitis',1,'230733004',NULL,'Isolated angiitis of central nervous system (disorder)'),('vasculitis',1,'234019004',NULL,'Secondary systemic vasculitis (disorder)'),('vasculitis',1,'234020005',NULL,'Vasculitis caused by drug'),('vasculitis',1,'238762002',NULL,'Livedoid vasculitis (disorder)'),('vasculitis',1,'238785001',NULL,'Primary cutaneous vasculitis (disorder)'),('vasculitis',1,'238786000',NULL,'Gougerot-Ruiter purpura (disorder)'),('vasculitis',1,'238787009',NULL,'Secondary cutaneous vasculitis (disorder)'),('vasculitis',1,'239924002',NULL,'Primary necrotizing systemic vasculitis (disorder)'),('vasculitis',1,'239933000',NULL,'Primary necrotizing vasculitis with granulomata (disorder)'),('vasculitis',1,'239941000',NULL,'Nailfold rheumatoid vasculitis (disorder)'),('vasculitis',1,'239942007',NULL,'Systemic rheumatoid vasculitis (disorder)'),('vasculitis',1,'239943002',NULL,'Necrotizing rheumatoid vasculitis (disorder)'),('vasculitis',1,'239944008',NULL,'Lupus erythematosus-associated vasculitis'),('vasculitis',1,'239945009',NULL,'Hypocomplementemic urticarial vasculitis (disorder)'),('vasculitis',1,'239947001',NULL,'Essential mixed cryoglobulinemia (disorder)'),('vasculitis',1,'400054000',NULL,'Rheumatoid vasculitis'),('vasculitis',1,'402416000',NULL,'Urticarial vasculitis with monoclonal immunoglobulin M component, Schnitzler'),('vasculitis',1,'402655006',NULL,'Necrotizing cutaneous vasculitis'),('vasculitis',1,'402656007',NULL,'Urticarial vasculitis'),('vasculitis',1,'402657003',NULL,'Necrotizing vasculitis secondary to connective tissue disease'),('vasculitis',1,'402658008',NULL,'Serum sickness type vasculitis'),('vasculitis',1,'402659000',NULL,'Drug-induced necrotizing vasculitis'),('vasculitis',1,'402660005',NULL,'Necrotizing vasculitis secondary to infection'),('vasculitis',1,'402661009',NULL,'Paraneoplastic vasculitis'),('vasculitis',1,'402662002',NULL,'Necrotizing vasculitis due to mixed cryoglobulinemia'),('vasculitis',1,'402663007',NULL,'Pustular vasculitis'),('vasculitis',1,'402664001',NULL,'Localized cutaneous vasculitis'),('vasculitis',1,'402855009',NULL,'Normocomplementemic urticarial vasculitis'),('vasculitis',1,'402859003',NULL,'Necrotizing vasculitis of undetermined etiology'),('vasculitis',1,'402958005',NULL,'Pustular vasculitis due to gonococcal bacteremia'),('vasculitis',1,'403510002',NULL,'Urticarial vasculitis due to lupus erythematosus'),('vasculitis',1,'403511003',NULL,'Necrotizing vasculitis due to lupus erythematosus'),('vasculitis',1,'403518009',NULL,'Necrotizing vasculitis due to scleroderma'),('vasculitis',1,'403616000',NULL,'Drug-induced lymphocytic vasculitis'),('vasculitis',1,'407530004',NULL,'Primary systemic vasculitis'),('vasculitis',1,'416703007',NULL,'Retinal vasculitis due to polyarteritis nodosa'),('vasculitis',1,'417303004',NULL,'Retinal vasculitis due to systemic lupus erythematosus'),('vasculitis',1,'427020007',NULL,'Cerebral vasculitis'),('vasculitis',1,'427213005',NULL,'Autoimmune vasculitis'),('vasculitis',1,'427356003',NULL,'Eosinophilic vasculitis of skin'),('vasculitis',1,'718217000',NULL,'Cutaneous small vessel vasculitis'),('vasculitis',1,'721664001',NULL,'Mesenteric arteritis'),('vasculitis',1,'722191003',NULL,'Antineutrophil cytoplasmic antibody (ANCA) positive vasculitis'),('vasculitis',1,'722858009',NULL,'Vasculitis of large intestine'),('vasculitis',1,'724063005',NULL,'Postinfective vasculitis'),('vasculitis',1,'724597006',NULL,'Large vessel vasculitis'),('vasculitis',1,'724598001',NULL,'Medium sized vessel vasculitis'),('vasculitis',1,'724599009',NULL,'Small vessel vasculitis'),('vasculitis',1,'724600007',NULL,'Immune complex small vessel vasculitis'),('vasculitis',1,'724601006',NULL,'Vasculitis caused by antineutrophil cytoplasmic antibody'),('vasculitis',1,'724602004',NULL,'Single organ vasculitis'),('vasculitis',1,'724996005',NULL,'Vasculitic lumbosacral plexopathy'),('vasculitis',1,'737184001',NULL,'Interstitial lung disease with systemic vasculitis'),('vasculitis',1,'762302008',NULL,'Drug-associated immune complex vasculitis'),('vasculitis',1,'762352004',NULL,'Demyelination due to systemic vasculitis'),('vasculitis',1,'762537007',NULL,'Livedoid vasculitis of lower limb due to varicose veins of lower limb'),('vasculitis',1,'985941000000100',NULL,'Medium vessel vasculitis (disorder)'),('vasculitis',1,'101711000119105',NULL,'Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis'),('vasculitis',1,'985971000000106',NULL,'Sarcoid vasculitis (disorder)'),('vasculitis',1,'988101000000109',NULL,'Vasculitis co-occurrent and due to Hepatitis B virus infection (disorder)'),('vasculitis',1,'988081000000103',NULL,'Antineutrophil cytoplasmic antibody associated vasculitis caused by drug (disorder)'),('vasculitis',1,'988111000000106',NULL,'Cryoglobulinaemic vasculitis co-occurrent and due to Hepatitis C virus infection (disorder)'),('vasculitis',1,'233948000',NULL,'Pulmonary hypertension in vasculitis'),('vasculitis',1,'703355003',NULL,'Pulmonary hypertension due to vasculitis (disorder)'),('vasculitis',1,'404658009',NULL,'Optic disc vasculitis'),('vasculitis',1,'193177003',NULL,'Polyneuropathy in collagen vascular disease (disorder)'),('vasculitis',1,'472974007',NULL,'History of vasculitis');
 INSERT INTO #codessnomed
+VALUES ('alcohol-heavy-drinker',1,'15167005',NULL,'Alcohol abuse (disorder)'),('alcohol-heavy-drinker',1,'160592001',NULL,'Alcohol intake above recommended sensible limits (finding)'),('alcohol-heavy-drinker',1,'198421000000108',NULL,'Hazardous alcohol use (observable entity)'),('alcohol-heavy-drinker',1,'198431000000105',NULL,'Harmful alcohol use (observable entity)'),('alcohol-heavy-drinker',1,'228279004',NULL,'Very heavy drinker (life style)'),('alcohol-heavy-drinker',1,'228310006',NULL,'Drinks in morning to get rid of hangover (finding)'),('alcohol-heavy-drinker',1,'228315001',NULL,'Binge drinker (finding)'),('alcohol-heavy-drinker',1,'228362008',NULL,'Feels should cut down drinking (finding)'),('alcohol-heavy-drinker',1,'7200002',NULL,'Alcoholism (disorder)'),('alcohol-heavy-drinker',1,'777651000000101',NULL,'Higher risk alcohol drinking (finding)'),('alcohol-heavy-drinker',1,'86933000',NULL,'Heavy drinker (life style)');
+INSERT INTO #codessnomed
+VALUES ('alcohol-light-drinker',1,'228276006',NULL,'Occasional drinker (life style)'),('alcohol-light-drinker',1,'228277002',NULL,'Light drinker (life style)'),('alcohol-light-drinker',1,'266917007',NULL,'Trivial drinker - <1u/day (life style)'),('alcohol-light-drinker',1,'777671000000105',NULL,'Lower risk alcohol drinking (finding)');
+INSERT INTO #codessnomed
+VALUES ('alcohol-moderate-drinker',1,'160588008',NULL,'Spirit drinker (life style)'),('alcohol-moderate-drinker',1,'160589000',NULL,'Beer drinker (life style)'),('alcohol-moderate-drinker',1,'160590009',NULL,'Drinks beer and spirits (life style)'),('alcohol-moderate-drinker',1,'160591008',NULL,'Drinks wine (life style)'),('alcohol-moderate-drinker',1,'160593006',NULL,'Alcohol intake within recommended sensible limits (finding)'),('alcohol-moderate-drinker',1,'28127009',NULL,'Social drinker (life style)'),('alcohol-moderate-drinker',1,'43783005',NULL,'Moderate drinker (life style)');
+INSERT INTO #codessnomed
+VALUES ('alcohol-non-drinker',1,'105542008',NULL,'Teetotaller (life style)');
+INSERT INTO #codessnomed
+VALUES ('alcohol-weekly-intake',1,'160573003',NULL,'Alcohol intake (observable entity)'),('alcohol-weekly-intake',1,'228958009',NULL,'alcohol units/week (qualifier value)');
+INSERT INTO #codessnomed
 VALUES ('bmi',2,'301331008',NULL,'Finding of body mass index (finding)');
 INSERT INTO #codessnomed
 VALUES ('smoking-status-current',1,'266929003',NULL,'Smoking started (life style)'),('smoking-status-current',1,'836001000000109',NULL,'Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002',NULL,'Smoker (life style)'),('smoking-status-current',1,'65568007',NULL,'Cigarette smoker (life style)'),('smoking-status-current',1,'394873005',NULL,'Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000',NULL,'Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007',NULL,'Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002',NULL,'Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008',NULL,'Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004',NULL,'Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006',NULL,'Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001',NULL,'Smoker (& cigarette)'),('smoking-status-current',1,'160619003',NULL,'Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005',NULL,'Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007',NULL,'Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002',NULL,'Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003',NULL,'Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004',NULL,'Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005',NULL,'Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006',NULL,'Cigar smoker (life style)'),('smoking-status-current',1,'446172000',NULL,'Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009',NULL,'Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003',NULL,'Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003',NULL,'Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006',NULL,'Smoking restarted (life style)'),('smoking-status-current',1,'230058003',NULL,'Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006',NULL,'Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008',NULL,'Pipe smoker (life style)');
@@ -330,6 +336,16 @@ INSERT INTO #codesemis
 VALUES ('diabetes',1,'^ESCTGE801661',NULL,'Gestational diabetes, delivered'),('diabetes',1,'^ESCTGE801662',NULL,'Gestational diabetes mellitus complicating pregnancy'),('diabetes',1,'^ESCTMA257526',NULL,'Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn'),('diabetes',1,'EMISQNU2',NULL,'Number of admissions for ketoacidosis'),('diabetes',1,'ESCTDI20',NULL,'Diabetic ketoacidosis without coma'),('diabetes',1,'ESCTDI22',NULL,'Diabetic severe hyperglycaemia'),('diabetes',1,'ESCTDI23',NULL,'Diabetic hyperosmolar non-ketotic state'),('diabetes',1,'ESCTDR3',NULL,'Drug-induced diabetes mellitus'),('diabetes',1,'ESCTSE11',NULL,'Secondary endocrine diabetes mellitus');
 INSERT INTO #codesemis
 VALUES ('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension'),('hypertension',1,'^ESCTMA364280',NULL,'Malignant hypertension'),('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension');
+INSERT INTO #codesemis
+VALUES ('alcohol-heavy-drinker',1,'^ESCTAA274036',NULL,'AA - Alcohol abuse'),('alcohol-heavy-drinker',1,'^ESCTAL261465',NULL,'Alcoholism'),('alcohol-heavy-drinker',1,'^ESCTBO497845',NULL,'Bout drinker'),('alcohol-heavy-drinker',1,'^ESCTDR391332',NULL,'Drinks heavily'),('alcohol-heavy-drinker',1,'^ESCTEP497846',NULL,'Episodic drinker'),('alcohol-heavy-drinker',1,'^ESCTET274035',NULL,'Ethanol abuse'),('alcohol-heavy-drinker',1,'^ESCTEX453343',NULL,'Excessive ethanol consumption'),('alcohol-heavy-drinker',1,'^ESCTEX453345',NULL,'Excessive alcohol consumption'),('alcohol-heavy-drinker',1,'^ESCTEX453346',NULL,'Excessive alcohol use'),('alcohol-heavy-drinker',1,'^ESCTXS453342',NULL,'XS - Excessive ethanol consumption'),('alcohol-heavy-drinker',1,'^ESCTXS453344',NULL,'XS - Excessive alcohol consumption');
+INSERT INTO #codesemis
+VALUES ('alcohol-light-drinker',1,'^ESCTDR497797',NULL,'Drinks on special occasions');
+INSERT INTO #codesemis
+VALUES ('alcohol-moderate-drinker',1,'^ESCTDR453336',NULL,'Drinker of hard liquor'),('alcohol-moderate-drinker',1,'^ESCTDR453339',NULL,'Drinks beer and hard liquor');
+INSERT INTO #codesemis
+VALUES ('alcohol-non-drinker',1,'^ESCTAB412032',NULL,'Abstinent'),('alcohol-non-drinker',1,'^ESCTCU412038',NULL,'Current non-drinker of alcohol'),('alcohol-non-drinker',1,'^ESCTDO412035',NULL,'Does not drink alcohol'),('alcohol-non-drinker',1,'^ESCTNE412034',NULL,'Never drinks'),('alcohol-non-drinker',1,'^ESCTNO412037',NULL,'Non - drinker alcohol');
+INSERT INTO #codesemis
+VALUES ('alcohol-weekly-intake',1,'^ESCT1192867',NULL,'Alcohol units per week'),('alcohol-weekly-intake',1,'^ESCTAI453315',NULL,'AI - Alcohol intake'),('alcohol-weekly-intake',1,'^ESCTAL453314',NULL,'Alcohol intake'),('alcohol-weekly-intake',1,'^ESCTAL453319',NULL,'Alcoholic drink intake'),('alcohol-weekly-intake',1,'^ESCTAL498716',NULL,'alcohol units/week'),('alcohol-weekly-intake',1,'^ESCTET453316',NULL,'Ethanol intake'),('alcohol-weekly-intake',1,'^ESCTET453317',NULL,'ETOH - Alcohol intake'),('alcohol-weekly-intake',1,'EGTON418',NULL,'Alcohol intake');
 INSERT INTO #codesemis
 VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)');
 INSERT INTO #codesemis
@@ -435,7 +451,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #EGFR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND [Version]=1))
@@ -450,7 +466,7 @@ SELECT gp.FK_Patient_Link_ID,
 	CAST(GP.EventDate AS DATE) AS EventDate, 
 	[value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #ACR_TESTS
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE 
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'urinary-albumin-creatinine-ratio' AND [Version]=1) OR
 	 gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'urinary-albumin-creatinine-ratio'  AND [Version]=1))
@@ -547,7 +563,7 @@ WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #kidney_damage
-FROM [RLS].[vw_GP_Events] gp
+FROM SharedCare.GP_Events gp
 WHERE (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
@@ -687,7 +703,7 @@ LEFT OUTER JOIN #EarliestEvidence egfr
 LEFT OUTER JOIN #EarliestEvidence acr 
 	ON acr.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND acr.TestName = 'acr' 
 WHERE 
-	(DeathDate < '2022-03-01' OR DeathDate IS NULL) AND
+	(DeathDate < @EndDate OR DeathDate IS NULL) AND 
 	(YEAR(@StartDate) - YearOfBirth > 18) AND 								-- OVER 18s ONLY
 		( 
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_cohort ) -- egfr indicating stages 3-5
@@ -710,7 +726,7 @@ SELECT
   [Value],
   [Units]
 INTO #PatientEventData
-FROM [RLS].vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 
@@ -798,16 +814,16 @@ WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
 AND EventDate > '2020-12-01'
-AND EventDate < '2022-06-01'; --TODO temp addition for COPI expiration
+--AND EventDate < '2022-06-01'; -temp addition for COPI expiration -- not needed now
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM RLS.vw_GP_Medications
+FROM SharedCare.GP_Medications
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
 AND MedicationDate > '2020-12-01'
-AND MedicationDate < '2022-06-01';--TODO temp addition for COPI expiration
+--AND MedicationDate < '2022-06-01';--temp addition for COPI expiration -- not needed now
 
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
@@ -937,7 +953,7 @@ SELECT
 	FK_Patient_Link_ID, CASE WHEN GPPracticeCode like 'ZZZ%' THEN 'OutOfArea' ELSE GPPracticeCode END AS GPPracticeCode, 
 	CASE WHEN StartDate IS NULL THEN '1900-01-01' ELSE CAST(StartDate AS DATE) END AS StartDate, 
 	CASE WHEN EndDate IS NULL THEN '2100-01-01' ELSE CAST(EndDate AS DATE) END AS EndDate 
-INTO #AllGPHistoryData FROM rls.vw_Patient_GP_History
+INTO #AllGPHistoryData FROM SharedCare.Patient_GP_History
 WHERE FK_Reference_Tenancy_ID=2 -- limit to GP feed makes it easier than trying to deal with the conflicting data coming from acute care
 AND (StartDate < EndDate OR EndDate IS NULL) --Some time periods are instantaneous (start = end) - this ignores them
 AND GPPracticeCode IS NOT NULL;
@@ -1268,7 +1284,7 @@ BEGIN
     FROM #PatientEventData
     WHERE 
       FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+      AND EventDate BETWEEN '2018-03-01' AND '2023-08-31'
   ELSE 
     INSERT INTO #GPEncounters 
     SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
@@ -1276,7 +1292,7 @@ BEGIN
     WHERE 
       FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
       AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+      AND EventDate BETWEEN '2018-03-01' AND '2023-08-31'
   END
 
 
@@ -1303,7 +1319,7 @@ SELECT a.FK_Patient_Link_ID,
 	a.AttendanceDate, 
 	BeforeOrAfter1stMarch2020 = CASE WHEN a.AttendanceDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END -- before and after covid started
 INTO #ae_encounters
-FROM RLS.vw_Acute_AE a
+FROM SharedCare.Acute_AE a
 WHERE EventType = 'Attendance'
 AND a.AttendanceDate BETWEEN @StartDate AND @EndDate
 AND a.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
@@ -1320,7 +1336,7 @@ ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
 -- IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 -- SELECT DISTINCT FK_Patient_Link_ID 
--- INTO #COVIDDeath FROM RLS.vw_COVID19
+-- INTO #COVIDDeath FROM SharedCare.COVID19
 -- WHERE DeathWithin28Days = 'Y'
 -- AND EventDate <= @EndDate
 -- AND (
@@ -1997,9 +2013,9 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 -- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPWithCovidEndDate datetime;
-SET @TEMPWithCovidEndDate = '2022-06-01';
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPWithCovidEndDate datetime;
+--SET @TEMPWithCovidEndDate = '2022-06-01';
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
@@ -2015,7 +2031,7 @@ WHERE (
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
 AND EventDate > '2020-01-01'
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 --AND EventDate <= GETDATE()
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -2040,7 +2056,7 @@ WHERE SuppliedCode IN (
 	where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 	AND Version = 1
 )
-AND EventDate <= @TEMPWithCovidEndDate
+--AND EventDate <= @TEMPWithCovidEndDate
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;

@@ -6,3 +6,7 @@
 657L.00	First pneumococcal conjugated vaccination
 657K.00	Booster pneumococcal vaccination
 6572.00	Pneumococcal vaccination
+7L197	Subcutaneous injection of Pneumovax II
+7L19700	Subcutaneous injection of Pneumovax II
+n4b2.	*PNEUMOVAX II injection 0.5mL
+n4b7.	PREVENAR 13 vaccine prefilled syringe 0.5mL

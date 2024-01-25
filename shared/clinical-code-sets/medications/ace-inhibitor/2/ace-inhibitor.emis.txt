@@ -255,3 +255,2260 @@ ENOR46735NEMIS	Enalapril Maleate  Oral suspension  5 mg/5 ml
 LIOR105352NEMIS	Lisinopril  Oral Solution, Sugar Free  5 mg/5 ml
 CAOR88580NEMIS	Captopril  Oral Solution, Sugar Free  25 mg/5 ml
 PETA88542NEMIS	Perindopril Erbumine And Amlodipine  Tablets  8 mg + 5 mg
+^ESCT1177345	Ramipril 5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177347	Ramipril 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177876	Product containing only felodipine 5 mg and ramipril 5 mg/1 each oral tablet
+^ESCT1178017	Product containing only ramipril 5 mg/1 each oral capsule
+^ESCT1178018	Product containing only ramipril 10 mg/1 each oral capsule
+^ESCT1178580	Product containing only ramipril 10 mg/1 each oral tablet
+^ESCT1179852	Ramipril 10mg tablets (Mylan)
+^ESCT1181275	Product containing only ramipril 1.25 mg/1 each oral capsule
+^ESCT1181276	Product containing only ramipril 2.5 mg/1 each oral capsule
+^ESCT1182647	Product containing only ramipril 5 mg/1 each oral tablet
+^ESCT1183755	Ramipril 2.5mg tablets (Mylan)
+^ESCT1183756	Ramipril 5mg tablets (Mylan)
+^ESCT1183967	Ramipril 10mg capsules (Mylan)
+^ESCT1185968	Ramipril 1.25mg tablets (Mylan)
+^ESCT1187187	Product containing only felodipine 2.5 mg and ramipril 2.5 mg/1 each oral tablet
+^ESCT1188052	Product containing only ramipril 1.25 mg/1 each oral tablet
+^ESCT1188053	Product containing only ramipril 2.5 mg/1 each oral tablet
+^ESCT1188727	Ramipril 1.25mg capsules (Mylan)
+^ESCT1188729	Ramipril 2.5mg capsules (Mylan)
+^ESCT1188981	Ramipril 5mg capsules (Mylan)
+^ESCT1206446	Felodipine and ramipril in oral dosage form
+^ESCT1206447	Product containing felodipine and ramipril in oral dosage form
+^ESCT1206789	Ramipril in oral dosage form
+^ESCT1206790	Product containing ramipril in oral dosage form
+^ESCT1222793	Felodipine and ramipril product
+^ESCT1222794	Product containing precisely felodipine 2.5 milligram and ramipril 2.5 milligram/1 each conventional release oral tablet
+^ESCT1222795	Product containing precisely felodipine 5 milligram and ramipril 5 milligram/1 each conventional release oral tablet
+^ESCT1222985	Product containing precisely ramipril 1.25 milligram/1 each conventional release oral capsule
+^ESCT1222986	Ramipril 1.25 mg oral capsule
+^ESCT1222987	Product containing precisely ramipril 2.5 milligram/1 each conventional release oral capsule
+^ESCT1222988	Ramipril 2.5 mg oral capsule
+^ESCT1222989	Product containing precisely ramipril 5 milligram/1 each conventional release oral capsule
+^ESCT1222990	Ramipril 5 mg oral capsule
+^ESCT1222991	Ramipril 10 mg oral capsule
+^ESCT1222992	Product containing precisely ramipril 10 milligram/1 each conventional release oral capsule
+^ESCT1230482	Product containing precisely ramipril 1.25 milligram/1 each conventional release oral tablet
+^ESCT1230491	Product containing precisely ramipril 2.5 milligram/1 each conventional release oral tablet
+^ESCT1230492	Product containing precisely ramipril 5 milligram/1 each conventional release oral tablet
+^ESCT1230493	Product containing precisely ramipril 10 milligram/1 each conventional release oral tablet
+^ESCT1259260	Ramipril 1.25mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259262	Ramipril 2.5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259264	Ramipril 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259270	Ramipril 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1264708	Ramipril 1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1386284	Felodipine- and ramipril-containing product in oral dose form
+^ESCT1386441	Ramipril-containing product in oral dose form
+^ESCT1389390	Ramipril 5mg tablets (Milpharm Ltd)
+^ESCT1389392	Ramipril 10mg tablets (Milpharm Ltd)
+^ESCT1410607	Ramipril 1.25mg capsules (Accord Healthcare Ltd)
+^ESCT1410609	Ramipril 2.5mg capsules (Accord Healthcare Ltd)
+^ESCT1410611	Ramipril 5mg capsules (Accord Healthcare Ltd)
+^ESCT1410613	Ramipril 10mg capsules (Accord Healthcare Ltd)
+^ESCT1410748	Ramipril 2.5mg tablets (Accord Healthcare Ltd)
+^ESCT1410750	Ramipril 5mg tablets (Accord Healthcare Ltd)
+^ESCT1410752	Ramipril 10mg tablets (Accord Healthcare Ltd)
+^ESCT1422058	Ramipril 2.5mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422060	Ramipril 5mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422062	Ramipril 10mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422074	Ramipril 1.25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422076	Ramipril 1.25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422078	Ramipril 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422080	Ramipril 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422082	Ramipril 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1426771	Ramipril 1.25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426773	Ramipril 2.5mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426775	Ramipril 5mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426777	Ramipril 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426848	Ramipril 1.25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426850	Ramipril 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426852	Ramipril 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426854	Ramipril 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1437766	Ramipril 1.25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437768	Ramipril 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437770	Ramipril 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437772	Ramipril 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437805	Ramipril 1.25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437807	Ramipril 2.5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437809	Ramipril 5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437811	Ramipril 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCTFE606831	Felodipine + Ramipril
+^ESCTFE606832	Felodipine+ramipril
+^ESCTFE606834	Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets
+^ESCTFE606836	Felodipine 2.5 mg and ramipril 2.5 mg oral tablet
+^ESCTFE606837	Felodipine 5mg modified-release / Ramipril 5mg tablets
+^ESCTFE606839	Felodipine 5 mg and ramipril 5 mg oral tablet
+^ESCTPR606833	Product containing felodipine and ramipril
+^ESCTPR606835	Product containing felodipine 2.5 mg and ramipril 2.5 mg/1 each oral tablet
+^ESCTPR606838	Product containing felodipine 5 mg and ramipril 5 mg/1 each oral tablet
+^ESCTPR607414	Product containing ramipril 1.25 mg/1 each oral capsule
+^ESCTPR607417	Product containing ramipril 2.5 mg/1 each oral capsule
+^ESCTPR607420	Product containing ramipril 5 mg/1 each oral capsule
+^ESCTPR607423	Product containing ramipril 10 mg/1 each oral capsule
+^ESCTPR675583	Product containing ramipril 1.25 mg/1 each oral tablet
+^ESCTPR675599	Product containing ramipril 2.5 mg/1 each oral tablet
+^ESCTPR675602	Product containing ramipril 5 mg/1 each oral tablet
+^ESCTPR675605	Product containing ramipril 10 mg/1 each oral tablet
+^ESCTRA1005920	Ramipril 1.25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005922	Ramipril 2.5mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005924	Ramipril 5mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005926	Ramipril 10mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005929	Ramipril 1.25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005933	Ramipril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005937	Ramipril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005941	Ramipril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1023558	Ramipril 1.25mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTRA1023560	Ramipril 2.5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTRA1023562	Ramipril 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTRA1023564	Ramipril 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTRA1023890	Ramipril 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTRA1023943	Ramipril 2.5mg/5ml oral solution sugar free
+^ESCTRA1024918	Ramipril 5mg tablets (Pfizer Ltd)
+^ESCTRA1024920	Ramipril 10mg tablets (Pfizer Ltd)
+^ESCTRA1024934	Ramipril 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRA1024960	Ramipril 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA1042348	Ramipril 1.25mg capsules (Waymade Healthcare Plc)
+^ESCTRA1042350	Ramipril 2.5mg capsules (Waymade Healthcare Plc)
+^ESCTRA1042352	Ramipril 5mg capsules (Waymade Healthcare Plc)
+^ESCTRA1042354	Ramipril 10mg capsules (Waymade Healthcare Plc)
+^ESCTRA1042356	Ramipril 2.5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTRA1042358	Ramipril 1.25mg tablets (Waymade Healthcare Plc)
+^ESCTRA1042360	Ramipril 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTRA1042362	Ramipril 5mg tablets (Waymade Healthcare Plc)
+^ESCTRA1042364	Ramipril 10mg tablets (Waymade Healthcare Plc)
+^ESCTRA1107765	Ramipril 1.25mg capsules (Ennogen Pharma Ltd)
+^ESCTRA1107767	Ramipril 2.5mg capsules (Ennogen Pharma Ltd)
+^ESCTRA1107769	Ramipril 5mg capsules (Ennogen Pharma Ltd)
+^ESCTRA1107771	Ramipril 10mg capsules (Ennogen Pharma Ltd)
+^ESCTRA1119680	Ramipril 1.25mg capsules (DE Pharmaceuticals)
+^ESCTRA1119682	Ramipril 2.5mg capsules (DE Pharmaceuticals)
+^ESCTRA1119684	Ramipril 5mg capsules (DE Pharmaceuticals)
+^ESCTRA1119686	Ramipril 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTRA1119688	Ramipril 10mg capsules (DE Pharmaceuticals)
+^ESCTRA1119690	Ramipril 1.25mg tablets (DE Pharmaceuticals)
+^ESCTRA1119692	Ramipril 2.5mg tablets (DE Pharmaceuticals)
+^ESCTRA1119694	Ramipril 5mg tablets (DE Pharmaceuticals)
+^ESCTRA1119696	Ramipril 10mg tablets (DE Pharmaceuticals)
+^ESCTRA1127121	Ramipril 1.25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127131	Ramipril 2.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127135	Ramipril 5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127140	Ramipril 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127143	Ramipril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127145	Ramipril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1127147	Ramipril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1142691	Ramipril 1.25mg capsules (Brown & Burk UK Ltd)
+^ESCTRA1142693	Ramipril 2.5mg capsules (Brown & Burk UK Ltd)
+^ESCTRA1142695	Ramipril 5mg capsules (Brown & Burk UK Ltd)
+^ESCTRA1142697	Ramipril 10mg capsules (Brown & Burk UK Ltd)
+^ESCTRA1163257	Ramipril 1.25mg capsules (Wockhardt UK Ltd)
+^ESCTRA1163259	Ramipril 2.5mg capsules (Wockhardt UK Ltd)
+^ESCTRA1163261	Ramipril 5mg capsules (Wockhardt UK Ltd)
+^ESCTRA1163263	Ramipril 10mg capsules (Wockhardt UK Ltd)
+^ESCTRA607412	Ramipril 1.25mg capsules
+^ESCTRA607413	Ramipril 1.25 mg/1 each oral capsule
+^ESCTRA607415	Ramipril 2.5mg capsules
+^ESCTRA607416	Ramipril 2.5 mg/1 each oral capsule
+^ESCTRA607418	Ramipril 5mg capsules
+^ESCTRA607419	Ramipril 5 mg/1 each oral capsule
+^ESCTRA607421	Ramipril 10mg capsules
+^ESCTRA607422	Ramipril 10 mg/1 each oral capsule
+^ESCTRA675582	Ramipril 1.25mg tablets
+^ESCTRA675584	Ramipril 1.25 mg oral tablet
+^ESCTRA675598	Ramipril 2.5mg tablets
+^ESCTRA675600	Ramipril 2.5 mg oral tablet
+^ESCTRA675601	Ramipril 5mg tablets
+^ESCTRA675603	Ramipril 5 mg oral tablet
+^ESCTRA675604	Ramipril 10mg tablets
+^ESCTRA675606	Ramipril 10 mg oral tablet
+^ESCTRA879068	Ramipril 1.25mg capsules (Dowelhurst Ltd)
+^ESCTRA879764	Ramipril 1.25mg capsules (Teva UK Ltd)
+^ESCTRA879769	Ramipril 2.5mg capsules (Teva UK Ltd)
+^ESCTRA879774	Ramipril 5mg capsules (Teva UK Ltd)
+^ESCTRA879786	Ramipril 10mg capsules (Teva UK Ltd)
+^ESCTRA879789	Ramipril 1.25mg tablets (Teva UK Ltd)
+^ESCTRA879797	Ramipril 2.5mg tablets (Teva UK Ltd)
+^ESCTRA879802	Ramipril 5mg tablets (Teva UK Ltd)
+^ESCTRA879808	Ramipril 10mg tablets (Teva UK Ltd)
+^ESCTRA880099	Ramipril 1.25mg capsules (Sandoz Ltd)
+^ESCTRA880101	Ramipril 2.5mg capsules (Sandoz Ltd)
+^ESCTRA880109	Ramipril 5mg capsules (Sandoz Ltd)
+^ESCTRA880111	Ramipril 10mg capsules (Sandoz Ltd)
+^ESCTRA880121	Ramipril 1.25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA880123	Ramipril 2.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA880125	Ramipril 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA880127	Ramipril 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA880149	Ramipril 2.5mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTRA880155	Ramipril 5mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTRA880158	Ramipril 10mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTRA880164	Ramipril 1.25mg tablets (Mylan Ltd)
+^ESCTRA880167	Ramipril 2.5mg tablets (Mylan Ltd)
+^ESCTRA880170	Ramipril 5mg tablets (Mylan Ltd)
+^ESCTRA880172	Ramipril 10mg tablets (Mylan Ltd)
+^ESCTRA880174	Ramipril 2.5mg capsules (Zentiva)
+^ESCTRA880176	Ramipril 5mg capsules (Zentiva)
+^ESCTRA880178	Ramipril 10mg capsules (Zentiva)
+^ESCTRA880181	Ramipril 1.25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTRA880183	Ramipril 2.5mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTRA880185	Ramipril 5mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTRA880187	Ramipril 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTRA880888	Ramipril 1.25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA880901	Ramipril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA880930	Ramipril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA880940	Ramipril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA882476	Ramipril 1.25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRA882497	Ramipril 2.5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRA882523	Ramipril 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRA882543	Ramipril 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRA882549	Ramipril 1.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA882583	Ramipril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA882590	Ramipril 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA882597	Ramipril 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA882925	Ramipril 1.25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA882939	Ramipril 2.5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA882957	Ramipril 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA882978	Ramipril 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA883001	Ramipril 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA883008	Ramipril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA883050	Ramipril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA883102	Ramipril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA896521	Ramipril 1.25mg capsules (Zentiva)
+^ESCTRA896523	Ramipril 1.25mg tablets (Zentiva)
+^ESCTRA896525	Ramipril 2.5mg tablets (Zentiva)
+^ESCTRA896527	Ramipril 5mg tablets (Zentiva)
+^ESCTRA896529	Ramipril 10mg tablets (Zentiva)
+^ESCTRA897332	Ramipril 1.25mg capsules (Mylan Ltd)
+^ESCTRA897334	Ramipril 2.5mg capsules (Mylan Ltd)
+^ESCTRA897336	Ramipril 5mg capsules (Mylan Ltd)
+^ESCTRA897339	Ramipril 10mg capsules (Mylan Ltd)
+^ESCTRA898415	Ramipril 1.25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA898417	Ramipril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA898419	Ramipril 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA898421	Ramipril 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA900604	Ramipril 1.25mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA900616	Ramipril 2.5mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA900621	Ramipril 5mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA900623	Ramipril 10mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA904619	Ramipril 1.25mg capsules (Actavis UK Ltd)
+^ESCTRA904622	Ramipril 2.5mg capsules (Actavis UK Ltd)
+^ESCTRA904629	Ramipril 5mg capsules (Actavis UK Ltd)
+^ESCTRA904633	Ramipril 10mg capsules (Actavis UK Ltd)
+^ESCTRA908703	Ramipril 10mg/5ml oral solution (Special Order)
+^ESCTRA908704	Ramipril 2.5mg/5ml oral solution (Special Order)
+^ESCTRA908708	Ramipril 10mg/5ml oral suspension (Special Order)
+^ESCTRA908711	Ramipril 2.5mg/5ml oral suspension (Special Order)
+^ESCTRA908714	Ramipril 1.25mg/5ml oral solution (Special Order)
+^ESCTRA908720	Ramipril 5mg/5ml oral solution (Special Order)
+^ESCTRA908726	Ramipril 1.25mg/5ml oral suspension (Special Order)
+^ESCTRA908729	Ramipril 5mg/5ml oral suspension (Special Order)
+^ESCTRA908978	Ramipril 1.25mg/5ml oral solution
+^ESCTRA908979	Ramipril 1.25mg/5ml oral suspension
+^ESCTRA908980	Ramipril 10mg/5ml oral solution
+^ESCTRA908981	Ramipril 10mg/5ml oral suspension
+^ESCTRA908982	Ramipril 2.5mg/5ml oral solution
+^ESCTRA908983	Ramipril 2.5mg/5ml oral suspension
+^ESCTRA908984	Ramipril 5mg/5ml oral solution
+^ESCTRA908985	Ramipril 5mg/5ml oral suspension
+^ESCTRA923697	Ramipril 2.5mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRA923701	Ramipril 1.25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRA927860	Ramipril 5mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTRA927862	Ramipril 2.5mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTRA927866	Ramipril 10mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTRA927869	Ramipril 1.25mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTRA929057	Ramipril 1.25mg capsules (Arrow Generics Ltd)
+^ESCTRA929059	Ramipril 2.5mg capsules (Arrow Generics Ltd)
+^ESCTRA929061	Ramipril 5mg capsules (Arrow Generics Ltd)
+^ESCTRA929064	Ramipril 10mg capsules (Arrow Generics Ltd)
+^ESCTRA929312	Ramipril 1.25mg tablets (Niche Generics Ltd)
+^ESCTRA929314	Ramipril 10mg tablets (Niche Generics Ltd)
+^ESCTRA929316	Ramipril 2.5mg tablets (Niche Generics Ltd)
+^ESCTRA929318	Ramipril 5mg tablets (Niche Generics Ltd)
+^ESCTRA932032	Ramipril 2.5mg tablets (Actavis UK Ltd)
+^ESCTRA932034	Ramipril 5mg tablets (Actavis UK Ltd)
+^ESCTRA932037	Ramipril 10mg tablets (Actavis UK Ltd)
+^ESCTRA939413	Ramipril 5mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRA939416	Ramipril 10mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRA939464	Ramipril 1.25mg tablets (PLIVA Pharma Ltd)
+^ESCTRA939466	Ramipril 10mg tablets (PLIVA Pharma Ltd)
+^ESCTRA939468	Ramipril 2.5mg tablets (PLIVA Pharma Ltd)
+^ESCTRA939470	Ramipril 5mg tablets (PLIVA Pharma Ltd)
+^ESCTRA940691	Ramipril 1.25mg tablets (Sandoz Ltd)
+^ESCTRA940693	Ramipril 2.5mg tablets (Sandoz Ltd)
+^ESCTRA940695	Ramipril 5mg tablets (Sandoz Ltd)
+^ESCTRA940697	Ramipril 10mg tablets (Sandoz Ltd)
+^ESCTRA957486	Ramipril 750micrograms/5ml oral suspension (Special Order)
+^ESCTRA957492	Ramipril 750micrograms/5ml oral solution (Special Order)
+^ESCTRA957690	Ramipril 750micrograms/5ml oral solution
+^ESCTRA957691	Ramipril 750micrograms/5ml oral suspension
+^ESCTRA960675	Ramipril 10mg capsules (Dowelhurst Ltd)
+^ESCTRA960677	Ramipril 2.5mg capsules (Dowelhurst Ltd)
+^ESCTRA960679	Ramipril 5mg capsules (Dowelhurst Ltd)
+^ESCTRA960681	Ramipril 1.25mg tablets (Dowelhurst Ltd)
+^ESCTRA960683	Ramipril 10mg tablets (Dowelhurst Ltd)
+^ESCTRA960685	Ramipril 2.5mg tablets (Dowelhurst Ltd)
+^ESCTRA960687	Ramipril 5mg tablets (Dowelhurst Ltd)
+^ESCTRA965598	Ramipril 1.25mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA965600	Ramipril 2.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA965602	Ramipril 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA965604	Ramipril 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA979167	Ramipril 1.25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRA979173	Ramipril 1.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA979177	Ramipril 10mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRA979182	Ramipril 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA979186	Ramipril 2.5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRA979191	Ramipril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA979194	Ramipril 5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRA979198	Ramipril 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA987982	Ramipril 1.25mg capsules (Bristol Laboratories Ltd)
+^ESCTRA987984	Ramipril 2.5mg capsules (Bristol Laboratories Ltd)
+^ESCTRA987986	Ramipril 5mg capsules (Bristol Laboratories Ltd)
+^ESCTRA987988	Ramipril 10mg capsules (Bristol Laboratories Ltd)
+RACA36817MGEMIS	Ramipril  Capsules  1.25 mg (Teva UK)
+RACA36818MGEMIS	Ramipril  Capsules  1.25 mg (Sandoz)
+RACA36819MGEMIS	Ramipril  Capsules  1.25 mg (Kent Pharm)
+RACA36820MGEMIS	Ramipril  Capsules  1.25 mg (A.A.H. Pharm)
+RACA36821MGEMIS	Ramipril  Capsules  1.25 mg (Unichem)
+RACA36822MGEMIS	Ramipril  Capsules  1.25 mg (Winthrop Pharmaceuticals )
+RACA36823MGEMIS	Ramipril  Capsules  1.25 mg (Generics (UK))
+RACA36824MGEMIS	Ramipril  Capsules  1.25 mg (Ranbaxy)
+RACA36825MGEMIS	Ramipril  Capsules  1.25 mg (Alpharma)
+^ESCT1177237	Lisinopril 5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177239	Lisinopril 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177241	Lisinopril 20mg tablets (Aurobindo Pharma Ltd)
+^ESCT1178011	Product containing only lisinopril 2.5 mg/1 each oral tablet
+^ESCT1178012	Product containing only lisinopril 20 mg/1 each oral tablet
+^ESCT1178013	Product containing only lisinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178014	Product containing only lisinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178090	Product containing only lisinopril 5 mg/1 each oral tablet
+^ESCT1178680	Lisinopril 10mg tablets (Mylan)
+^ESCT1179846	Lisinopril 2.5mg tablets (Mylan)
+^ESCT1181273	Product containing only lisinopril 10 mg/1 each oral tablet
+^ESCT1181652	Product containing only lisinopril 30 mg/1 each oral tablet
+^ESCT1184264	Lisinopril 20mg tablets (Mylan)
+^ESCT1185469	Product containing only hydrochlorothiazide 25 mg and lisinopril 20 mg/1 each oral tablet
+^ESCT1188482	Product containing only lisinopril 40 mg/1 each oral tablet
+^ESCT1189232	Lisinopril 5mg tablets (Mylan)
+^ESCT1189303	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1195264	Lisinopril 2.5mg tablets (Crescent Pharma Ltd)
+^ESCT1195268	Lisinopril 5mg tablets (Crescent Pharma Ltd)
+^ESCT1195271	Lisinopril 10mg tablets (Crescent Pharma Ltd)
+^ESCT1195274	Lisinopril 20mg tablets (Crescent Pharma Ltd)
+^ESCT1195767	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195846	Lisinopril 10mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195851	Lisinopril 5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195940	Lisinopril 20mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196261	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196374	Lisinopril 2.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1207998	Lisinopril in oral dosage form
+^ESCT1207999	Product containing lisinopril in oral dosage form
+^ESCT1208002	Hydrochlorothiazide and lisinopril in oral dosage form
+^ESCT1208003	Product containing hydrochlorothiazide and lisinopril in oral dosage form
+^ESCT1222965	Product containing precisely lisinopril 2.5 milligram/1 each conventional release oral tablet
+^ESCT1222966	Product containing precisely lisinopril 5 milligram/1 each conventional release oral tablet
+^ESCT1222967	Product containing precisely lisinopril 10 milligram/1 each conventional release oral tablet
+^ESCT1222968	Product containing precisely lisinopril 20 milligram/1 each conventional release oral tablet
+^ESCT1222969	Hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet
+^ESCT1222970	Product containing precisely hydrochlorothiazide 12.5 milligram and lisinopril 20 milligram/1 each conventional release oral tablet
+^ESCT1222971	Product containing precisely hydrochlorothiazide 12.5 milligram and lisinopril 10 milligram/1 each conventional release oral tablet
+^ESCT1222972	Hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet
+^ESCT1227776	Product containing precisely lisinopril 30 milligram/1 each conventional release oral tablet
+^ESCT1228777	Product containing precisely lisinopril 40 milligram/1 each conventional release oral tablet
+^ESCT1229166	Product containing precisely hydrochlorothiazide 25 milligram and lisinopril 20 milligram/1 each conventional release oral tablet
+^ESCT1229933	Hydrochlorothiazide and lisinopril product
+^ESCT1386948	Lisinopril-containing product in oral dose form
+^ESCT1386950	Hydrochlorothiazide- and lisinopril-containing product in oral dose form
+^ESCT1389378	Lisinopril 5mg tablets (Milpharm Ltd)
+^ESCT1389380	Lisinopril 10mg tablets (Milpharm Ltd)
+^ESCT1389382	Lisinopril 20mg tablets (Milpharm Ltd)
+^ESCT1421699	Lisinopril 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421752	Lisinopril 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421756	Lisinopril 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421760	Lisinopril 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1425733	Lisinopril 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425750	Lisinopril 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425800	Lisinopril 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425866	Lisinopril 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426884	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426886	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1434936	Lisinopril 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1436770	Lisinopril 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436964	Lisinopril 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436991	Lisinopril 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437758	Lisinopril 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437899	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCTHY642404	Hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet
+^ESCTHY661323	Hydrochlorothiazide + lisinopril
+^ESCTLI1006078	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1006080	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1006082	Lisinopril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1006084	Lisinopril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1006086	Lisinopril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1006088	Lisinopril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLI1010896	Lisinopril 10mg tablets (Accord Healthcare Ltd)
+^ESCTLI1010898	Lisinopril 20mg tablets (Accord Healthcare Ltd)
+^ESCTLI1010900	Lisinopril 5mg tablets (Accord Healthcare Ltd)
+^ESCTLI1030037	Lisinopril 40mg/5ml oral suspension (Special Order)
+^ESCTLI1030093	Lisinopril 40mg/5ml oral suspension
+^ESCTLI1044148	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTLI1044150	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTLI1044154	Lisinopril 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTLI1044156	Lisinopril 5mg tablets (Waymade Healthcare Plc)
+^ESCTLI1044158	Lisinopril 10mg tablets (Waymade Healthcare Plc)
+^ESCTLI1044160	Lisinopril 20mg tablets (Waymade Healthcare Plc)
+^ESCTLI1065662	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTLI1065665	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTLI1065668	Lisinopril 10mg tablets (DE Pharmaceuticals)
+^ESCTLI1065674	Lisinopril 2.5mg tablets (DE Pharmaceuticals)
+^ESCTLI1065680	Lisinopril 20mg tablets (DE Pharmaceuticals)
+^ESCTLI1065682	Lisinopril 5mg tablets (DE Pharmaceuticals)
+^ESCTLI1094494	Lisinopril 2.5mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1094496	Lisinopril 5mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1094498	Lisinopril 10mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1094500	Lisinopril 20mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1095448	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1101930	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Lupin (Europe) Ltd)
+^ESCTLI1117997	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI1117999	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI1120941	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1120943	Lisinopril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1120945	Lisinopril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1120947	Lisinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1120949	Lisinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1120964	Lisinopril 5mg/5ml oral solution sugar free (Essential Pharmaceuticals Ltd)
+^ESCTLI1121233	Lisinopril 5mg/5ml oral solution sugar free
+^ESCTLI1126517	Lisinopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI1128240	Lisinopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLI607372	Lisinopril 2.5mg tablets
+^ESCTLI607374	Lisinopril 2.5 mg oral tablet
+^ESCTLI607375	Lisinopril 5mg tablets
+^ESCTLI607377	Lisinopril 5 mg oral tablet
+^ESCTLI607378	Lisinopril 10mg tablets
+^ESCTLI607380	Lisinopril 10 mg oral tablet
+^ESCTLI607381	Lisinopril 20mg tablets
+^ESCTLI607383	Lisinopril 20 mg oral tablet
+^ESCTLI607384	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLI607386	Lisinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLI607387	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTLI607389	Lisinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTLI638817	Lisinopril 30 mg oral tablet
+^ESCTLI641465	Lisinopril 40 mg oral tablet
+^ESCTLI661322	Lisinopril + Hydrochlorothiazide
+^ESCTLI800550	Lisinopril 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI801522	Lisinopril 5mg tablets (Actavis UK Ltd)
+^ESCTLI801548	Lisinopril 5mg tablets (Mylan Ltd)
+^ESCTLI801937	Lisinopril 2.5mg tablets (Teva UK Ltd)
+^ESCTLI802259	Lisinopril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI803038	Lisinopril 2.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLI804634	Lisinopril 10mg tablets (Sandoz Ltd)
+^ESCTLI804825	Lisinopril 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLI807897	Lisinopril 10mg tablets (Actavis UK Ltd)
+^ESCTLI810814	Lisinopril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI811492	Lisinopril 20mg tablets (Zentiva)
+^ESCTLI817453	Lisinopril 2.5mg tablets (Actavis UK Ltd)
+^ESCTLI817462	Lisinopril 20mg tablets (Actavis UK Ltd)
+^ESCTLI817580	Lisinopril 2.5mg tablets (Zentiva)
+^ESCTLI818619	Lisinopril 20mg tablets (Teva UK Ltd)
+^ESCTLI818927	Lisinopril 10mg tablets (Zentiva)
+^ESCTLI819786	Lisinopril 5mg tablets (Teva UK Ltd)
+^ESCTLI819815	Lisinopril 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI820026	Lisinopril 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI820159	Lisinopril 5mg tablets (Zentiva)
+^ESCTLI820181	Lisinopril 20mg tablets (Mylan Ltd)
+^ESCTLI820204	Lisinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI820403	Lisinopril 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI820623	Lisinopril 20mg tablets (Sandoz Ltd)
+^ESCTLI820664	Lisinopril 10mg tablets (Teva UK Ltd)
+^ESCTLI820804	Lisinopril 10mg tablets (Mylan Ltd)
+^ESCTLI820902	Lisinopril 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI821131	Lisinopril 5mg tablets (Sandoz Ltd)
+^ESCTLI821382	Lisinopril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI827733	Lisinopril 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI829412	Lisinopril 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLI830424	Lisinopril 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLI830551	Lisinopril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI830631	Lisinopril 2.5mg tablets (Sandoz Ltd)
+^ESCTLI832695	Lisinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI863510	Lisinopril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLI863512	Lisinopril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLI863514	Lisinopril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLI863516	Lisinopril 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLI876925	Lisinopril 2.5mg tablets (Mylan Ltd)
+^ESCTLI879073	Lisinopril 10mg tablets (Dowelhurst Ltd)
+^ESCTLI879074	Lisinopril 2.5mg tablets (Dowelhurst Ltd)
+^ESCTLI879082	Lisinopril 20mg tablets (Dowelhurst Ltd)
+^ESCTLI879084	Lisinopril 5mg tablets (Dowelhurst Ltd)
+^ESCTLI896487	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTLI896489	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTLI897927	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI897935	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI898107	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI898109	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI902036	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI902039	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI903710	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCTLI903714	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCTLI907717	Lisinopril 10mg/5ml oral solution (Special Order)
+^ESCTLI907721	Lisinopril 10mg/5ml oral suspension (Special Order)
+^ESCTLI907727	Lisinopril 2.5mg/5ml oral solution (Special Order)
+^ESCTLI907730	Lisinopril 2.5mg/5ml oral suspension (Special Order)
+^ESCTLI907733	Lisinopril 7.5mg/5ml oral solution (Special Order)
+^ESCTLI907736	Lisinopril 20mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTLI907739	Lisinopril 7.5mg/5ml oral suspension (Special Order)
+^ESCTLI907743	Lisinopril 20mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTLI907747	Lisinopril 5mg/5ml oral solution (Special Order)
+^ESCTLI907750	Lisinopril 5mg/5ml oral suspension (Special Order)
+^ESCTLI907992	Lisinopril 10mg/5ml oral solution
+^ESCTLI907993	Lisinopril 10mg/5ml oral suspension
+^ESCTLI907994	Lisinopril 2.5mg/5ml oral solution
+^ESCTLI907995	Lisinopril 2.5mg/5ml oral suspension
+^ESCTLI907996	Lisinopril 20mg/5ml oral solution
+^ESCTLI907997	Lisinopril 20mg/5ml oral suspension
+^ESCTLI907998	Lisinopril 5mg/5ml oral solution
+^ESCTLI907999	Lisinopril 5mg/5ml oral suspension
+^ESCTLI908001	Lisinopril 7.5mg/5ml oral solution
+^ESCTLI908002	Lisinopril 7.5mg/5ml oral suspension
+^ESCTLI912555	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTLI923738	Lisinopril 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI923740	Lisinopril 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI923742	Lisinopril 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI923744	Lisinopril 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI927795	Lisinopril 10mg tablets (Relonchem Ltd)
+^ESCTLI927799	Lisinopril 2.5mg tablets (Relonchem Ltd)
+^ESCTLI927805	Lisinopril 20mg tablets (Relonchem Ltd)
+^ESCTLI927812	Lisinopril 5mg tablets (Relonchem Ltd)
+^ESCTLI928795	Lisinopril 2.5mg tablets (Arrow Generics Ltd)
+^ESCTLI928798	Lisinopril 5mg tablets (Arrow Generics Ltd)
+^ESCTLI928802	Lisinopril 10mg tablets (Arrow Generics Ltd)
+^ESCTLI928807	Lisinopril 20mg tablets (Arrow Generics Ltd)
+^ESCTLI953222	Lisinopril 15mg/5ml oral suspension (Special Order)
+^ESCTLI953230	Lisinopril 15mg/5ml oral solution (Special Order)
+^ESCTLI953243	Lisinopril 30mg/5ml oral suspension (Special Order)
+^ESCTLI953260	Lisinopril 30mg/5ml oral solution (Special Order)
+^ESCTLI953272	Lisinopril 500micrograms/5ml oral suspension (Special Order)
+^ESCTLI953280	Lisinopril 500micrograms/5ml oral solution (Special Order)
+^ESCTLI953761	Lisinopril 15mg/5ml oral solution
+^ESCTLI953763	Lisinopril 15mg/5ml oral suspension
+^ESCTLI953765	Lisinopril 30mg/5ml oral solution
+^ESCTLI953767	Lisinopril 30mg/5ml oral suspension
+^ESCTLI953769	Lisinopril 500micrograms/5ml oral solution
+^ESCTLI953771	Lisinopril 500micrograms/5ml oral suspension
+^ESCTLI965522	Lisinopril 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTLI965524	Lisinopril 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTLI965526	Lisinopril 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTLI965528	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTLI965530	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTLI966372	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI966374	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTLI967635	Lisinopril 37.5mg/5ml oral solution (Special Order)
+^ESCTLI967638	Lisinopril 37.5mg/5ml oral suspension (Special Order)
+^ESCTLI967994	Lisinopril 37.5mg/5ml oral solution
+^ESCTLI967995	Lisinopril 37.5mg/5ml oral suspension
+^ESCTLI969056	Lisinopril 2.5mg tablets (Consilient Health Ltd)
+^ESCTLI969058	Lisinopril 5mg tablets (Consilient Health Ltd)
+^ESCTLI969060	Lisinopril 10mg tablets (Consilient Health Ltd)
+^ESCTLI969062	Lisinopril 20mg tablets (Consilient Health Ltd)
+^ESCTLI978538	Lisinopril 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI978540	Lisinopril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI978542	Lisinopril 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI978544	Lisinopril 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI986105	Lisinopril 14mg/5ml oral solution (Special Order)
+^ESCTLI986108	Lisinopril 14mg/5ml oral suspension (Special Order)
+^ESCTLI986115	Lisinopril 14mg/5ml oral solution
+^ESCTLI986116	Lisinopril 14mg/5ml oral suspension
+^ESCTLI987938	Lisinopril 2.5mg tablets (Bristol Laboratories Ltd)
+^ESCTLI987941	Lisinopril 5mg tablets (Bristol Laboratories Ltd)
+^ESCTLI987943	Lisinopril 10mg tablets (Bristol Laboratories Ltd)
+^ESCTLI987945	Lisinopril 20mg tablets (Bristol Laboratories Ltd)
+^ESCTLI987947	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCTLI987949	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCTPR607373	Product containing lisinopril 2.5 mg/1 each oral tablet
+^ESCTPR607376	Product containing lisinopril 5 mg/1 each oral tablet
+^ESCTPR607379	Product containing lisinopril 10 mg/1 each oral tablet
+^ESCTPR607382	Product containing lisinopril 20 mg/1 each oral tablet
+^ESCTPR607385	Product containing lisinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607388	Product containing lisinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR638818	Product containing lisinopril 30 mg/1 each oral tablet
+^ESCTPR641466	Product containing lisinopril 40 mg/1 each oral tablet
+^ESCTPR642405	Product containing hydrochlorothiazide 25 mg and lisinopril 20 mg/1 each oral tablet
+^ESCTPR661324	Product containing hydrochlorothiazide and lisinopril
+LIOR42141NEMIS	Lisinopril  Oral suspension  40 mg/5 ml
+LIOR46487NEMIS	Lisinopril  Oral solution  2.5 mg/5 ml
+LIOR47355NEMIS	Lisinopril  Oral suspension  20 mg/5 ml
+LITA35756MGEMIS	Lisinopril  Tablets  10 mg (Sandoz)
+LITA35757MGEMIS	Lisinopril  Tablets  10 mg (Alpharma)
+LITA35758MGEMIS	Lisinopril  Tablets  10 mg (Winthrop Pharmaceuticals )
+LITA35759MGEMIS	Lisinopril  Tablets  10 mg (A.A.H. Pharm)
+LITA35760MGEMIS	Lisinopril  Tablets  10 mg (Teva UK)
+LITA35761MGEMIS	Lisinopril  Tablets  10 mg (Generics (UK))
+LITA35762MGEMIS	Lisinopril  Tablets  10 mg (Kent Pharm)
+LITA35763MGEMIS	Lisinopril  Tablets  10 mg (Ranbaxy)
+LITA35764MGEMIS	Lisinopril  Tablets  10 mg (Unichem)
+LITA35765MGEMIS	Lisinopril  Tablets  10 mg (Ivax Pharmaceuticals)
+LITA35766MGEMIS	Lisinopril  Tablets  2.5 mg (Teva UK)
+LITA35767MGEMIS	Lisinopril  Tablets  2.5 mg (Ranbaxy)
+LITA35768MGEMIS	Lisinopril  Tablets  2.5 mg (Unichem)
+LITA35769MGEMIS	Lisinopril  Tablets  2.5 mg (Alpharma)
+LITA35770MGEMIS	Lisinopril  Tablets  2.5 mg (Winthrop Pharmaceuticals )
+LITA35771MGEMIS	Lisinopril  Tablets  2.5 mg (Kent Pharm)
+LITA35772MGEMIS	Lisinopril  Tablets  2.5 mg (A.A.H. Pharm)
+LITA35773MGEMIS	Lisinopril  Tablets  2.5 mg (Sandoz)
+LITA35774MGEMIS	Lisinopril  Tablets  2.5 mg (Ivax Pharmaceuticals)
+LITA35775MGEMIS	Lisinopril  Tablets  2.5 mg (Generics (UK))
+LITA35776MGEMIS	Lisinopril  Tablets  20 mg (Ranbaxy)
+LITA35777MGEMIS	Lisinopril  Tablets  20 mg (Winthrop Pharmaceuticals )
+LITA35778MGEMIS	Lisinopril  Tablets  20 mg (Alpharma)
+LITA35779MGEMIS	Lisinopril  Tablets  20 mg (Teva UK)
+LITA35780MGEMIS	Lisinopril  Tablets  20 mg (Generics (UK))
+LITA35781MGEMIS	Lisinopril  Tablets  20 mg (Unichem)
+LITA35782MGEMIS	Lisinopril  Tablets  20 mg (Kent Pharm)
+LITA35783MGEMIS	Lisinopril  Tablets  20 mg (Sandoz)
+LITA35784MGEMIS	Lisinopril  Tablets  20 mg (A.A.H. Pharm)
+LITA35785MGEMIS	Lisinopril  Tablets  20 mg (Ivax Pharmaceuticals)
+LITA35786MGEMIS	Lisinopril  Tablets  5 mg (A.A.H. Pharm)
+LITA35787MGEMIS	Lisinopril  Tablets  5 mg (Alpharma)
+LITA35788MGEMIS	Lisinopril  Tablets  5 mg (Generics (UK))
+LITA35789MGEMIS	Lisinopril  Tablets  5 mg (Unichem)
+LITA35790MGEMIS	Lisinopril  Tablets  5 mg (Teva UK)
+LITA35791MGEMIS	Lisinopril  Tablets  5 mg (Kent Pharm)
+LITA35792MGEMIS	Lisinopril  Tablets  5 mg (Winthrop Pharmaceuticals )
+LITA35793MGEMIS	Lisinopril  Tablets  5 mg (Sandoz)
+LITA35794MGEMIS	Lisinopril  Tablets  5 mg (Ranbaxy)
+LITA35795MGEMIS	Lisinopril  Tablets  5 mg (Ivax Pharmaceuticals)
+LITA38317MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg (Teva UK)
+LITA38318MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg (A.A.H. Pharm)
+LITA38319MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg (Unichem)
+LITA38320MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg (Kent Pharm)
+LITA38321MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg (Sandoz)
+LITA38322MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Teva UK)
+LITA38323MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (A.A.H. Pharm)
+LITA38324MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Unichem)
+LITA38325MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Kent Pharm)
+LITA38326MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Sandoz)
+LITA38327MGEMIS	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Generics (UK))
+^ESCT1178007	Product containing only captopril 12.5 mg/1 each oral tablet
+^ESCT1178008	Product containing only captopril 25 mg/1 each oral tablet
+^ESCT1181208	Product containing only captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181209	Product containing only captopril 50 mg/1 each oral tablet
+^ESCT1181752	Product containing only captopril 100 mg/1 each oral tablet
+^ESCT1183190	Product containing only captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183191	Product containing only captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183744	Captopril 12.5mg tablets (Mylan)
+^ESCT1184295	Captopril 50mg tablets (Mylan)
+^ESCT1185435	Product containing only captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1185950	Captopril 25mg tablets (Mylan)
+^ESCT1187207	Product containing only captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1197330	Captopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1197687	Captopril 25mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCT1197697	Captopril 5mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCT1197969	Captopril 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1199417	Captopril 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1199419	Captopril 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1206552	Captopril in oral dosage form
+^ESCT1206553	Product containing captopril in oral dosage form
+^ESCT1206554	Captopril and hydrochlorothiazide in oral dosage form
+^ESCT1206555	Product containing captopril and hydrochlorothiazide in oral dosage form
+^ESCT1213388	Captopril 5mg/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1213390	Captopril 25mg/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1216255	Captopril 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCT1216257	Captopril 5mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCT1222954	Product containing precisely captopril 25 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222955	Product containing precisely captopril 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1222956	Product containing precisely captopril 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222957	Product containing precisely captopril 25 milligram/1 each conventional release oral tablet
+^ESCT1222958	Product containing precisely captopril 50 milligram/1 each conventional release oral tablet
+^ESCT1228171	Product containing precisely captopril 100 milligram/1 each conventional release oral tablet
+^ESCT1228991	Product containing precisely captopril 25 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1228992	Product containing precisely captopril 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1228993	Product containing precisely captopril 50 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1230226	Captopril + hydrochlorothiazide
+^ESCT1230227	Captopril and hydrochlorothiazide product
+^ESCT1249935	Captopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249937	Captopril 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1264459	Captopril 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264461	Captopril 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1382417	Captopril- and hydrochlorothiazide-containing product
+^ESCT1386334	Captopril-containing product in oral dose form
+^ESCT1386335	Captopril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1425603	Captopril 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425629	Captopril 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425780	Captopril 12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1436852	Captopril 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436876	Captopril 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437045	Captopril 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCTCA1004969	Captopril 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1004972	Captopril 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1004979	Captopril 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1023386	Captopril 8mg/5ml oral suspension (Special Order)
+^ESCTCA1023450	Captopril 8mg/5ml oral suspension
+^ESCTCA1030377	Captopril 3mg capsules
+^ESCTCA1030381	Captopril 3mg capsules (Special Order)
+^ESCTCA1041756	Captopril 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041767	Captopril 25mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041772	Captopril 50mg tablets (Waymade Healthcare Plc)
+^ESCTCA1049239	Captopril 12.5mg tablets (DE Pharmaceuticals)
+^ESCTCA1049241	Captopril 25mg tablets (DE Pharmaceuticals)
+^ESCTCA1049243	Captopril 50mg tablets (DE Pharmaceuticals)
+^ESCTCA1057183	Captopril 12.5mg tablets (Accord Healthcare Ltd)
+^ESCTCA1057188	Captopril 25mg tablets (Accord Healthcare Ltd)
+^ESCTCA1057191	Captopril 50mg tablets (Accord Healthcare Ltd)
+^ESCTCA1059350	Captopril 25mg/5ml oral solution sugar free
+^ESCTCA1059352	Captopril 5mg/5ml oral solution sugar free
+^ESCTCA1116944	Captopril 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116946	Captopril 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116948	Captopril 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA607343	Captopril 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA607346	Captopril 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA607347	Captopril 12.5mg tablets
+^ESCTCA607349	Captopril 12.5 mg oral tablet
+^ESCTCA607350	Captopril 25mg tablets
+^ESCTCA607352	Captopril 25 mg oral tablet
+^ESCTCA607353	Captopril 50mg tablets
+^ESCTCA607355	Captopril 50 mg oral tablet
+^ESCTCA639973	Captopril 100 mg oral tablet
+^ESCTCA641985	Captopril 25 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA641987	Captopril 25 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA641989	Captopril 50 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA670420	Captopril + hydrochlorothiazide
+^ESCTCA797756	Captopril 50mg tablets (Teva UK Ltd)
+^ESCTCA800728	Captopril 12.5mg tablets (Teva UK Ltd)
+^ESCTCA806744	Captopril 50mg tablets (Sandoz Ltd)
+^ESCTCA807074	Captopril 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA807940	Captopril 50mg tablets (Actavis UK Ltd)
+^ESCTCA808129	Captopril 25mg tablets (Mylan Ltd)
+^ESCTCA808992	Captopril 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA809648	Captopril 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA810656	Captopril 12.5mg tablets (Mylan Ltd)
+^ESCTCA811158	Captopril 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA815141	Captopril 25mg tablets (Teva UK Ltd)
+^ESCTCA815402	Captopril 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA818946	Captopril 25mg tablets (Actavis UK Ltd)
+^ESCTCA820391	Captopril 12.5mg tablets (Actavis UK Ltd)
+^ESCTCA820450	Captopril 25mg tablets (Sandoz Ltd)
+^ESCTCA820777	Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA820790	Captopril 12.5mg tablets (Sandoz Ltd)
+^ESCTCA820876	Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA820931	Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA823660	Captopril 25mg tablets (Sterwin Medicines)
+^ESCTCA823665	Captopril 12.5mg tablets (Sterwin Medicines)
+^ESCTCA825812	Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA827370	Captopril 50mg tablets (Sterwin Medicines)
+^ESCTCA827552	Captopril 50mg tablets (Mylan Ltd)
+^ESCTCA878628	Captopril 25mg tablets (Dowelhurst Ltd)
+^ESCTCA899178	Captopril 5mg/ml oral solution sugar free
+^ESCTCA905053	Captopril 10mg/5ml oral solution (Special Order)
+^ESCTCA905057	Captopril 10mg/5ml oral suspension (Special Order)
+^ESCTCA905062	Captopril 1.25mg/5ml oral solution (Special Order)
+^ESCTCA905065	Captopril 11.25mg/5ml oral solution (Special Order)
+^ESCTCA905068	Captopril 1.25mg/5ml oral suspension (Special Order)
+^ESCTCA905069	Captopril 11.25mg/5ml oral suspension (Special Order)
+^ESCTCA905074	Captopril 12.5mg/5ml oral solution (Special Order)
+^ESCTCA905078	Captopril 1.5mg/5ml oral solution (Special Order)
+^ESCTCA905079	Captopril 15mg/5ml oral solution (Special Order)
+^ESCTCA905085	Captopril 15mg/5ml oral suspension (Special Order)
+^ESCTCA905086	Captopril 1.5mg/5ml oral suspension (Special Order)
+^ESCTCA905087	Captopril 12.5mg/5ml oral suspension (Special Order)
+^ESCTCA905091	Captopril 17mg/5ml oral solution (Special Order)
+^ESCTCA905094	Captopril 17mg/5ml oral suspension (Special Order)
+^ESCTCA905098	Captopril 20mg/5ml oral solution (Special Order)
+^ESCTCA905101	Captopril 2.5mg/5ml oral solution (Special Order)
+^ESCTCA905103	Captopril 1mg/5ml oral solution (Special Order)
+^ESCTCA905105	Captopril 20mg/5ml oral suspension (Special Order)
+^ESCTCA905109	Captopril 1mg/5ml oral suspension (Special Order)
+^ESCTCA905112	Captopril 2.5mg/5ml oral suspension (Special Order)
+^ESCTCA905115	Captopril 25mg/5ml oral solution (Special Order)
+^ESCTCA905118	Captopril 2mg/5ml oral solution (Special Order)
+^ESCTCA905121	Captopril 25mg/5ml oral suspension (Special Order)
+^ESCTCA905124	Captopril 2mg/5ml oral suspension (Special Order)
+^ESCTCA905131	Captopril 3.25mg/5ml oral solution (Special Order)
+^ESCTCA905137	Captopril 3.25mg/5ml oral suspension (Special Order)
+^ESCTCA905143	Captopril 3.125mg/5ml oral solution (Special Order)
+^ESCTCA905146	Captopril 500micrograms/5ml oral solution (Special Order)
+^ESCTCA905151	Captopril 500micrograms/5ml oral suspension (Special Order)
+^ESCTCA905153	Captopril 3.125mg/5ml oral suspension (Special Order)
+^ESCTCA905157	Captopril 50mg/5ml oral solution (Special Order)
+^ESCTCA905163	Captopril 50mg/5ml oral suspension (Special Order)
+^ESCTCA905166	Captopril 4mg/5ml oral solution (Special Order)
+^ESCTCA905169	Captopril 6.25mg/5ml oral solution (Special Order)
+^ESCTCA905173	Captopril 6.25mg/5ml oral suspension (Special Order)
+^ESCTCA905178	Captopril 4mg/5ml oral suspension (Special Order)
+^ESCTCA905181	Captopril 6.5mg/5ml oral solution (Special Order)
+^ESCTCA905185	Captopril 3mg/5ml oral solution (Special Order)
+^ESCTCA905187	Captopril 6.5mg/5ml oral suspension (Special Order)
+^ESCTCA905192	Captopril 9mg/5ml oral solution (Special Order)
+^ESCTCA905193	Captopril 3mg/5ml oral suspension (Special Order)
+^ESCTCA905198	Captopril 9mg/5ml oral suspension (Special Order)
+^ESCTCA905199	Captopril 7.5mg/5ml oral solution (Special Order)
+^ESCTCA905202	Captopril 31.25mg/5ml oral solution (Special Order)
+^ESCTCA905204	Captopril 5mg/5ml oral solution (Special Order)
+^ESCTCA905210	Captopril 7.5mg/5ml oral suspension (Special Order)
+^ESCTCA905223	Captopril 31.25mg/5ml oral suspension (Special Order)
+^ESCTCA905231	Captopril 5mg/5ml oral suspension (Special Order)
+^ESCTCA905240	Captopril 6mg/5ml oral solution (Special Order)
+^ESCTCA905258	Captopril 6mg/5ml oral suspension (Special Order)
+^ESCTCA905402	Captopril 1.25mg/5ml oral solution
+^ESCTCA905403	Captopril 1.25mg/5ml oral suspension
+^ESCTCA905404	Captopril 1.5mg/5ml oral solution
+^ESCTCA905405	Captopril 1.5mg/5ml oral suspension
+^ESCTCA905406	Captopril 10mg/5ml oral solution
+^ESCTCA905407	Captopril 10mg/5ml oral suspension
+^ESCTCA905408	Captopril 11.25mg/5ml oral solution
+^ESCTCA905409	Captopril 11.25mg/5ml oral suspension
+^ESCTCA905410	Captopril 12.5mg/5ml oral solution
+^ESCTCA905411	Captopril 12.5mg/5ml oral suspension
+^ESCTCA905412	Captopril 15mg/5ml oral solution
+^ESCTCA905413	Captopril 15mg/5ml oral suspension
+^ESCTCA905414	Captopril 17mg/5ml oral solution
+^ESCTCA905415	Captopril 17mg/5ml oral suspension
+^ESCTCA905417	Captopril 1mg/5ml oral solution
+^ESCTCA905418	Captopril 1mg/5ml oral suspension
+^ESCTCA905419	Captopril 2.5mg/5ml oral solution
+^ESCTCA905420	Captopril 2.5mg/5ml oral suspension
+^ESCTCA905421	Captopril 20mg/5ml oral solution
+^ESCTCA905422	Captopril 20mg/5ml oral suspension
+^ESCTCA905424	Captopril 25mg/5ml oral solution
+^ESCTCA905425	Captopril 25mg/5ml oral suspension
+^ESCTCA905426	Captopril 2mg/5ml oral solution
+^ESCTCA905427	Captopril 2mg/5ml oral suspension
+^ESCTCA905436	Captopril 3.125mg/5ml oral solution
+^ESCTCA905438	Captopril 3.125mg/5ml oral suspension
+^ESCTCA905439	Captopril 3.25mg/5ml oral solution
+^ESCTCA905440	Captopril 3.25mg/5ml oral suspension
+^ESCTCA905441	Captopril 31.25mg/5ml oral solution
+^ESCTCA905442	Captopril 31.25mg/5ml oral suspension
+^ESCTCA905444	Captopril 3mg/5ml oral solution
+^ESCTCA905445	Captopril 3mg/5ml oral suspension
+^ESCTCA905447	Captopril 4mg/5ml oral solution
+^ESCTCA905448	Captopril 4mg/5ml oral suspension
+^ESCTCA905449	Captopril 500micrograms/5ml oral solution
+^ESCTCA905450	Captopril 500micrograms/5ml oral suspension
+^ESCTCA905451	Captopril 50mg/5ml oral solution
+^ESCTCA905454	Captopril 50mg/5ml oral suspension
+^ESCTCA905455	Captopril 5mg/5ml oral solution
+^ESCTCA905457	Captopril 5mg/5ml oral suspension
+^ESCTCA905458	Captopril 6.25mg/5ml oral solution
+^ESCTCA905459	Captopril 6.25mg/5ml oral suspension
+^ESCTCA905472	Captopril 6.5mg/5ml oral solution
+^ESCTCA905473	Captopril 6.5mg/5ml oral suspension
+^ESCTCA905474	Captopril 6mg/5ml oral solution
+^ESCTCA905475	Captopril 6mg/5ml oral suspension
+^ESCTCA905477	Captopril 7.5mg/5ml oral solution
+^ESCTCA905478	Captopril 7.5mg/5ml oral suspension
+^ESCTCA905481	Captopril 9mg/5ml oral solution
+^ESCTCA905482	Captopril 9mg/5ml oral suspension
+^ESCTCA909209	Captopril 2mg capsules (Special Order)
+^ESCTCA909212	Captopril 4mg capsules (Special Order)
+^ESCTCA909655	Captopril 2mg capsules
+^ESCTCA909656	Captopril 4mg capsules
+^ESCTCA909747	Captopril 3mg oral powder sachets (Special Order)
+^ESCTCA909831	Captopril 3mg oral powder sachets
+^ESCTCA940229	Captopril 5mg tablets (Special Order)
+^ESCTCA940282	Captopril 5mg tablets
+^ESCTCA948339	Captopril 1.6mg/5ml oral solution (Special Order)
+^ESCTCA948351	Captopril 1.75mg/5ml oral solution (Special Order)
+^ESCTCA948431	Captopril 1.6mg/5ml oral solution
+^ESCTCA948432	Captopril 1.75mg/5ml oral solution
+^ESCTCA948573	Captopril 100micrograms/5ml oral solution (Special Order)
+^ESCTCA948576	Captopril 100mg/5ml oral solution (Special Order)
+^ESCTCA948581	Captopril 12mg/5ml oral solution (Special Order)
+^ESCTCA948594	Captopril 15.625mg/5ml oral solution (Special Order)
+^ESCTCA948600	Captopril 17.5mg/5ml oral solution (Special Order)
+^ESCTCA948606	Captopril 18.5mg/5ml oral solution (Special Order)
+^ESCTCA948612	Captopril 22.5mg/5ml oral solution (Special Order)
+^ESCTCA948621	Captopril 3.5mg/5ml oral solution (Special Order)
+^ESCTCA948627	Captopril 30mg/5ml oral solution (Special Order)
+^ESCTCA948630	Captopril 5.4mg/5ml oral solution (Special Order)
+^ESCTCA948638	Captopril 100mg/5ml oral solution
+^ESCTCA948639	Captopril 100micrograms/5ml oral solution
+^ESCTCA948640	Captopril 12mg/5ml oral solution
+^ESCTCA948641	Captopril 15.625mg/5ml oral solution
+^ESCTCA948642	Captopril 17.5mg/5ml oral solution
+^ESCTCA948643	Captopril 18.5mg/5ml oral solution
+^ESCTCA948644	Captopril 22.5mg/5ml oral solution
+^ESCTCA948645	Captopril 3.5mg/5ml oral solution
+^ESCTCA948646	Captopril 30mg/5ml oral solution
+^ESCTCA948647	Captopril 5.4mg/5ml oral solution
+^ESCTCA948718	Captopril 7mg/5ml oral solution (Special Order)
+^ESCTCA948724	Captopril 8mg/5ml oral solution (Special Order)
+^ESCTCA948859	Captopril 62.5mg/5ml oral solution (Special Order)
+^ESCTCA949184	Captopril 62.5mg/5ml oral solution
+^ESCTCA949185	Captopril 7mg/5ml oral solution
+^ESCTCA949186	Captopril 8mg/5ml oral solution
+^ESCTCA960108	Captopril 12.5mg tablets (Dowelhurst Ltd)
+^ESCTCA960114	Captopril 50mg tablets (Dowelhurst Ltd)
+^ESCTCA965407	Captopril 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965410	Captopril 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965413	Captopril 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA975545	Captopril 50mg capsules (Special Order)
+^ESCTCA975599	Captopril 50mg capsules
+^ESCTCA982474	Captopril 1.5mg capsules (Special Order)
+^ESCTCA982503	Captopril 1.5mg capsules
+^ESCTCA985963	Captopril 5mg/ml oral solution sugar free (Special Order)
+^ESCTCA987116	Captopril 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCTCA987118	Captopril 25mg tablets (Bristol Laboratories Ltd)
+^ESCTCA987120	Captopril 50mg tablets (Bristol Laboratories Ltd)
+^ESCTPR607342	Product containing captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607345	Product containing captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607348	Product containing captopril 12.5 mg/1 each oral tablet
+^ESCTPR607351	Product containing captopril 25 mg/1 each oral tablet
+^ESCTPR607354	Product containing captopril 50 mg/1 each oral tablet
+^ESCTPR639974	Product containing captopril 100 mg/1 each oral tablet
+^ESCTPR641986	Product containing captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR641988	Product containing captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR641990	Product containing captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR670421	Product containing captopril and hydrochlorothiazide
+CACA22817NEMIS	Captopril  Capsules  2 mg
+CACA40909NEMIS	Captopril  Capsules  4 mg
+CAOR35745NEMIS	Captopril  Oral suspension  10 mg/5 ml
+CAOR40309NEMIS	Captopril  Oral suspension  15 mg/5 ml
+CAOR45713NEMIS	Captopril  Oral suspension  12.5 mg/5 ml
+CAOR45714NEMIS	Captopril  Oral solution  6.25 mg/5 ml
+CAOR45715NEMIS	Captopril  Oral suspension  6.25 mg/5 ml
+CASU12628NEMIS	Captopril  Suspension  20 mg/5 ml
+CASU20906NEMIS	Captopril  Suspension  8 mg/5 ml
+CATA34093MGEMIS	Captopril  Tablets  12.5 mg (Teva UK)
+CATA34094MGEMIS	Captopril  Tablets  12.5 mg (A.A.H. Pharm)
+CATA34095MGEMIS	Captopril  Tablets  12.5 mg (Generics (UK))
+CATA34096MGEMIS	Captopril  Tablets  12.5 mg (Alpharma)
+CATA34097MGEMIS	Captopril  Tablets  12.5 mg (Unichem)
+CATA34098MGEMIS	Captopril  Tablets  12.5 mg (Sandoz)
+CATA34099MGEMIS	Captopril  Tablets  12.5 mg (Kent Pharm)
+CATA34100MGEMIS	Captopril  Tablets  12.5 mg (Sterwin Medicines)
+CATA34101MGEMIS	Captopril  Tablets  25 mg (Generics (UK))
+CATA34102MGEMIS	Captopril  Tablets  25 mg (A.A.H. Pharm)
+CATA34103MGEMIS	Captopril  Tablets  25 mg (Kent Pharm)
+CATA34104MGEMIS	Captopril  Tablets  25 mg (Teva UK)
+CATA34105MGEMIS	Captopril  Tablets  25 mg (Alpharma)
+CATA34106MGEMIS	Captopril  Tablets  25 mg (Sandoz)
+CATA34107MGEMIS	Captopril  Tablets  25 mg (Unichem)
+CATA34108MGEMIS	Captopril  Tablets  25 mg (Sterwin Medicines)
+CATA34109MGEMIS	Captopril  Tablets  50 mg (Teva UK)
+CATA34110MGEMIS	Captopril  Tablets  50 mg (Sandoz)
+CATA34111MGEMIS	Captopril  Tablets  50 mg (Alpharma)
+CATA34112MGEMIS	Captopril  Tablets  50 mg (Kent Pharm)
+CATA34113MGEMIS	Captopril  Tablets  50 mg (A.A.H. Pharm)
+CATA34114MGEMIS	Captopril  Tablets  50 mg (Unichem)
+CATA34115MGEMIS	Captopril  Tablets  50 mg (Sterwin Medicines)
+CATA34116MGEMIS	Captopril  Tablets  50 mg (Generics (UK))
+^ESCT1177343	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+^ESCT1178015	Product containing only quinapril 5 mg/1 each oral tablet
+^ESCT1178016	Product containing only quinapril 20 mg/1 each oral tablet
+^ESCT1179541	Quinapril 40mg tablets (Mylan)
+^ESCT1181274	Product containing only quinapril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1184123	Quinapril + Hydrochlorothiazide
+^ESCT1185640	Quinapril 5mg tablets (Mylan)
+^ESCT1185641	Quinapril 20mg tablets (Mylan)
+^ESCT1187208	Product containing only quinapril 10 mg/1 each oral tablet
+^ESCT1187209	Product containing only quinapril 40 mg/1 each oral tablet
+^ESCT1188538	Product containing only hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCT1188539	Product containing only hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCT1188721	Quinapril 10mg tablets (Mylan)
+^ESCT1195812	Quinapril 5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195883	Quinapril 20mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196070	Quinapril 40mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196378	Quinapril 10mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1206797	Quinapril in oral dosage form
+^ESCT1206798	Product containing quinapril in oral dosage form
+^ESCT1206885	Hydrochlorothiazide and quinapril in oral dosage form
+^ESCT1206886	Product containing hydrochlorothiazide and quinapril in oral dosage form
+^ESCT1222973	Quinapril (as quinapril hydrochloride) 5 mg oral tablet
+^ESCT1222974	Product containing precisely quinapril (as quinapril hydrochloride) 5 milligram/1 each conventional release oral tablet
+^ESCT1222975	Product containing precisely quinapril (as quinapril hydrochloride) 10 milligram/1 each conventional release oral tablet
+^ESCT1222976	Quinapril (as quinapril hydrochloride) 10 mg oral tablet
+^ESCT1222977	Quinapril (as quinapril hydrochloride) 20 mg oral tablet
+^ESCT1222978	Product containing precisely quinapril (as quinapril hydrochloride) 20 milligram/1 each conventional release oral tablet
+^ESCT1222979	Hydrochlorothiazide 12.5 mg and quinapril 10 mg oral tablet
+^ESCT1222980	Product containing precisely hydrochlorothiazide 12.5 milligram and quinapril 10 milligram/1 each conventional release oral tablet
+^ESCT1222981	Product containing precisely quinapril (as quinapril hydrochloride) 40 milligram/1 each conventional release oral tablet
+^ESCT1222982	Quinapril (as quinapril hydrochloride) 40 mg oral tablet
+^ESCT1229174	Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCT1229175	Product containing precisely hydrochlorothiazide 12.5 milligram and quinapril 20 milligram/1 each conventional release oral tablet
+^ESCT1229176	Hydrochlorothiazide 12.5 mg and quinapril 20 mg oral tablet
+^ESCT1229177	Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCT1229178	Hydrochlorothiazide 25 mg and quinapril 20 mg oral tablet
+^ESCT1229179	Product containing precisely hydrochlorothiazide 25 milligram and quinapril 20 milligram/1 each conventional release oral tablet
+^ESCT1233590	Hydrochlorothiazide and quinapril product
+^ESCT1386445	Quinapril-containing product in oral dose form
+^ESCT1386489	Hydrochlorothiazide- and quinapril-containing product in oral dose form
+^ESCT1424777	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1426840	Quinapril 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426842	Quinapril 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426844	Quinapril 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426846	Quinapril 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1437786	Quinapril 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437788	Quinapril 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437790	Quinapril 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437792	Quinapril 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCTHY607402	Hydrochlorothiazide 12.5mg / Quinapril 10mg tablets
+^ESCTHY642419	Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCTHY642421	Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet
+^ESCTHY697934	Hydrochlorothiazide + Quinapril
+^ESCTHY697935	Hydrochlorothiazide + quinapril
+^ESCTPR607391	Product containing quinapril 5 mg/1 each oral tablet
+^ESCTPR607394	Product containing quinapril 10 mg/1 each oral tablet
+^ESCTPR607397	Product containing quinapril 20 mg/1 each oral tablet
+^ESCTPR607401	Product containing quinapril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607404	Product containing quinapril 40 mg/1 each oral tablet
+^ESCTPR642420	Product containing hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCTPR642422	Product containing hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg/1 each oral tablet
+^ESCTPR697936	Product containing hydrochlorothiazide and quinapril
+^ESCTQU1005839	Quinapril 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1005841	Quinapril 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1005843	Quinapril 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1008155	Quinapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1008157	Quinapril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1008159	Quinapril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1008161	Quinapril 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1042323	Quinapril 5mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042325	Quinapril 10mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042328	Quinapril 20mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042331	Quinapril 40mg tablets (Waymade Healthcare Plc)
+^ESCTQU1050668	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1096815	Quinapril 5mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1096830	Quinapril 10mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1096845	Quinapril 20mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1097494	Quinapril 40mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1119653	Quinapril 5mg tablets (DE Pharmaceuticals)
+^ESCTQU1119656	Quinapril 10mg tablets (DE Pharmaceuticals)
+^ESCTQU1119659	Quinapril 20mg tablets (DE Pharmaceuticals)
+^ESCTQU1119662	Quinapril 40mg tablets (DE Pharmaceuticals)
+^ESCTQU1127083	Quinapril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127085	Quinapril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127087	Quinapril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127089	Quinapril 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU607390	Quinapril 5mg tablets
+^ESCTQU607392	Quinapril 5 mg oral tablet
+^ESCTQU607393	Quinapril 10mg tablets
+^ESCTQU607395	Quinapril 10 mg oral tablet
+^ESCTQU607396	Quinapril 20mg tablets
+^ESCTQU607398	Quinapril 20 mg oral tablet
+^ESCTQU607399	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTQU607400	Quinapril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTQU607403	Quinapril 40mg tablets
+^ESCTQU607405	Quinapril 40 mg oral tablet
+^ESCTQU878975	Quinapril 5mg tablets (Dowelhurst Ltd)
+^ESCTQU896954	Quinapril 5mg tablets (Mylan Ltd)
+^ESCTQU896957	Quinapril 10mg tablets (Mylan Ltd)
+^ESCTQU896959	Quinapril 20mg tablets (Mylan Ltd)
+^ESCTQU896961	Quinapril 40mg tablets (Mylan Ltd)
+^ESCTQU896994	Quinapril 5mg tablets (Teva UK Ltd)
+^ESCTQU896996	Quinapril 10mg tablets (Teva UK Ltd)
+^ESCTQU896998	Quinapril 20mg tablets (Teva UK Ltd)
+^ESCTQU897000	Quinapril 40mg tablets (Teva UK Ltd)
+^ESCTQU897943	Quinapril 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU897960	Quinapril 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU897962	Quinapril 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU897964	Quinapril 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU898033	Quinapril 5mg tablets (Actavis UK Ltd)
+^ESCTQU898035	Quinapril 10mg tablets (Actavis UK Ltd)
+^ESCTQU898037	Quinapril 20mg tablets (Actavis UK Ltd)
+^ESCTQU898111	Quinapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU898113	Quinapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU898115	Quinapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU898117	Quinapril 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU898407	Quinapril 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU898409	Quinapril 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU898411	Quinapril 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU898413	Quinapril 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU902630	Quinapril 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTQU902633	Quinapril 10mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTQU902635	Quinapril 20mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTQU903044	Quinapril 40mg tablets (Actavis UK Ltd)
+^ESCTQU929040	Quinapril 5mg tablets (Arrow Generics Ltd)
+^ESCTQU929042	Quinapril 10mg tablets (Arrow Generics Ltd)
+^ESCTQU929044	Quinapril 20mg tablets (Arrow Generics Ltd)
+^ESCTQU929046	Quinapril 40mg tablets (Arrow Generics Ltd)
+^ESCTQU960644	Quinapril 10mg tablets (Dowelhurst Ltd)
+^ESCTQU960649	Quinapril 20mg tablets (Dowelhurst Ltd)
+^ESCTQU960656	Quinapril 40mg tablets (Dowelhurst Ltd)
+^ESCTQU979139	Quinapril 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTQU979149	Quinapril 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTQU979152	Quinapril 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTQU979158	Quinapril 5mg tablets (Sigma Pharmaceuticals Plc)
+QUTA36770MGEMIS	Quinapril  Tablets  5 mg (Generics (UK))
+QUTA36771MGEMIS	Quinapril  Tablets  5 mg (Teva UK)
+QUTA36772MGEMIS	Quinapril  Tablets  5 mg (A.A.H. Pharm)
+QUTA36773MGEMIS	Quinapril  Tablets  5 mg (Alpharma)
+QUTA36774MGEMIS	Quinapril  Tablets  5 mg (Unichem)
+QUTA36775MGEMIS	Quinapril  Tablets  5 mg (Kent Pharm)
+QUTA36776MGEMIS	Quinapril  Tablets  5 mg (Genus Pharm)
+QUTA36777MGEMIS	Quinapril  Tablets  10 mg (Generics (UK))
+QUTA36778MGEMIS	Quinapril  Tablets  10 mg (Teva UK)
+QUTA36779MGEMIS	Quinapril  Tablets  10 mg (A.A.H. Pharm)
+QUTA36780MGEMIS	Quinapril  Tablets  10 mg (Alpharma)
+QUTA36781MGEMIS	Quinapril  Tablets  10 mg (Unichem)
+QUTA36782MGEMIS	Quinapril  Tablets  10 mg (Kent Pharm)
+QUTA36783MGEMIS	Quinapril  Tablets  10 mg (Genus Pharm)
+QUTA36784MGEMIS	Quinapril  Tablets  20 mg (Generics (UK))
+QUTA36785MGEMIS	Quinapril  Tablets  20 mg (Teva UK)
+QUTA36786MGEMIS	Quinapril  Tablets  20 mg (A.A.H. Pharm)
+QUTA36787MGEMIS	Quinapril  Tablets  20 mg (Alpharma)
+QUTA36788MGEMIS	Quinapril  Tablets  20 mg (Unichem)
+QUTA36789MGEMIS	Quinapril  Tablets  20 mg (Kent Pharm)
+QUTA36790MGEMIS	Quinapril  Tablets  20 mg (Genus Pharm)
+QUTA36791MGEMIS	Quinapril  Tablets  40 mg (Generics (UK))
+QUTA36792MGEMIS	Quinapril  Tablets  40 mg (Teva UK)
+QUTA36793MGEMIS	Quinapril  Tablets  40 mg (A.A.H. Pharm)
+QUTA36794MGEMIS	Quinapril  Tablets  40 mg (Unichem)
+QUTA36795MGEMIS	Quinapril  Tablets  40 mg (Kent Pharm)
+QUTA36796MGEMIS	Quinapril  Tablets  40 mg (Alpharma)
+^ESCT1178009	Product containing only enalapril maleate 2.5 mg/1 each oral tablet
+^ESCT1178010	Product containing only enalapril maleate 10 mg/1 each oral tablet
+^ESCT1178651	Enalapril 10mg tablets (Mylan)
+^ESCT1179336	Product containing only enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181210	Product containing only enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181271	Product containing only enalapril maleate 5 mg/1 each oral tablet
+^ESCT1181272	Product containing only enalapril maleate 20 mg/1 each oral tablet
+^ESCT1184966	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+^ESCT1185577	Enalapril 20mg tablets (Mylan)
+^ESCT1186360	Enalapril 2.5mg tablets (Mylan)
+^ESCT1188522	Product containing only diltiazem malate 219 mg and enalapril maleate 5 mg/1 each oral tablet
+^ESCT1188526	Product containing only enalapril maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1189495	Enalapril 5mg tablets (Mylan)
+^ESCT1206677	Diltiazem and enalapril product
+^ESCT1206678	Product containing diltiazem and enalapril
+^ESCT1206679	Diltiazem and enalapril in oral dosage form
+^ESCT1206680	Product containing diltiazem and enalapril in oral dosage form
+^ESCT1206721	Enalapril and hydrochlorothiazide in oral dosage form
+^ESCT1206722	Product containing enalapril and hydrochlorothiazide in oral dosage form
+^ESCT1222959	Enalapril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1222960	Product containing precisely enalapril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222961	Product containing precisely enalapril maleate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1222962	Product containing precisely enalapril maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1222963	Product containing precisely enalapril maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222964	Product containing precisely enalapril maleate 20 milligram/1 each conventional release oral tablet
+^ESCT1229066	Diltiazem malate 219 mg and enalapril maleate 5 mg oral tablet
+^ESCT1229067	Diltiazem maleate 219 mg and enalapril maleate 5 mg oral tablet
+^ESCT1229068	Product containing precisely diltiazem maleate 219 milligram and enalapril maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1229079	Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1229080	Enalapril 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1229081	Product containing precisely enalapril 10 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1229082	Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1229083	Product containing precisely enalapril 5 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1229084	Enalapril 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1233648	Enalapril and hydrochlorothiazide product
+^ESCT1237490	Enalapril 10mg tablets (Zanza Specials International Ltd)
+^ESCT1237492	Enalapril 20mg tablets (Zanza Specials International Ltd)
+^ESCT1237494	Enalapril 2.5mg tablets (Zanza Specials International Ltd)
+^ESCT1237496	Enalapril 5mg tablets (Zanza Specials International Ltd)
+^ESCT1255891	Enalapril 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1255897	Enalapril 20mg tablets (Bristol Laboratories Ltd)
+^ESCT1257581	Enalapril 5mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257587	Enalapril 10mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257593	Enalapril 20mg tablets (Noumed Life Sciences Ltd)
+^ESCT1385087	Enalapril-containing product in oral dose form
+^ESCT1386396	Diltiazem- and enalapril-containing product
+^ESCT1386397	Diltiazem- and enalapril-containing product in oral dose form
+^ESCT1386418	Enalapril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1409709	Enalapril 20mg tablets (Accord Healthcare Ltd)
+^ESCT1409752	Enalapril 2.5mg tablets (Accord Healthcare Ltd)
+^ESCT1421660	Enalapril 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421661	Enalapril 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421680	Enalapril 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421697	Enalapril 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424764	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1425506	Enalapril 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425530	Enalapril 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425576	Enalapril 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425831	Enalapril 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1436899	Enalapril 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436932	Enalapril 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437025	Enalapril 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437086	Enalapril 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438662	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCTDI642168	Diltiazem malate 219 mg and enalapril maleate 5 mg oral tablet
+^ESCTEN1005725	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEN1005727	Enalapril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEN1005729	Enalapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEN1005731	Enalapril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEN1005733	Enalapril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTEN1013480	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+^ESCTEN1017785	Enalapril 2.5mg tablets (Milpharm Ltd)
+^ESCTEN1017787	Enalapril 5mg tablets (Milpharm Ltd)
+^ESCTEN1017789	Enalapril 10mg tablets (Milpharm Ltd)
+^ESCTEN1017791	Enalapril 20mg tablets (Milpharm Ltd)
+^ESCTEN1022601	Enalapril 5mg tablets (Medreich Plc)
+^ESCTEN1022606	Enalapril 10mg tablets (Medreich Plc)
+^ESCTEN1022608	Enalapril 20mg tablets (Medreich Plc)
+^ESCTEN1025755	Enalapril 5mg/5ml oral suspension sugar free
+^ESCTEN1025758	Enalapril 5mg/5ml oral suspension sugar free (Special Order)
+^ESCTEN1036900	Enalapril 5mg tablets (Accord Healthcare Ltd)
+^ESCTEN1042852	Enalapril 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTEN1042854	Enalapril 5mg tablets (Waymade Healthcare Plc)
+^ESCTEN1042856	Enalapril 10mg tablets (Waymade Healthcare Plc)
+^ESCTEN1042858	Enalapril 20mg tablets (Waymade Healthcare Plc)
+^ESCTEN1057228	Enalapril 10mg tablets (Accord Healthcare Ltd)
+^ESCTEN1061054	Enalapril 10mg tablets (DE Pharmaceuticals)
+^ESCTEN1061056	Enalapril 2.5mg tablets (DE Pharmaceuticals)
+^ESCTEN1061058	Enalapril 5mg tablets (DE Pharmaceuticals)
+^ESCTEN1061925	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+^ESCTEN1061927	Enalapril 20mg tablets (DE Pharmaceuticals)
+^ESCTEN1117594	Enalapril 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEN1117596	Enalapril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEN1117598	Enalapril 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEN1117600	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEN1120031	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEN1120033	Enalapril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEN1120035	Enalapril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEN1120037	Enalapril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEN1152847	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan Ltd)
+^ESCTEN607357	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTEN607359	Enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTEN607360	Enalapril 2.5mg tablets
+^ESCTEN607362	Enalapril maleate 2.5 mg oral tablet
+^ESCTEN607363	Enalapril 5mg tablets
+^ESCTEN607365	Enalapril maleate 5 mg oral tablet
+^ESCTEN607366	Enalapril 10mg tablets
+^ESCTEN607368	Enalapril maleate 10 mg oral tablet
+^ESCTEN607369	Enalapril 20mg tablets
+^ESCTEN607371	Enalapril maleate 20 mg oral tablet
+^ESCTEN642200	Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTEN642202	Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTEN698218	Enalapril + Hydrochlorothiazide
+^ESCTEN698219	Enalapril+hydrochlorothiazide
+^ESCTEN772143	Enalapril in oral dosage form
+^ESCTEN798082	Enalapril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEN801351	Enalapril 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEN801798	Enalapril 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTEN801814	Enalapril 5mg tablets (Sandoz Ltd)
+^ESCTEN802857	Enalapril 5mg tablets (Actavis UK Ltd)
+^ESCTEN803202	Enalapril 2.5mg tablets (Zentiva)
+^ESCTEN803264	Enalapril 10mg tablets (Zentiva)
+^ESCTEN803625	Enalapril 10mg tablets (Teva UK Ltd)
+^ESCTEN803998	Enalapril 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTEN807055	Enalapril 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEN807315	Enalapril 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTEN808115	Enalapril 5mg tablets (Zentiva)
+^ESCTEN808945	Enalapril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEN810215	Enalapril 5mg tablets (Teva UK Ltd)
+^ESCTEN811164	Enalapril 20mg tablets (Zentiva)
+^ESCTEN811861	Enalapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEN812475	Enalapril 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEN813372	Enalapril 2.5mg tablets (Sandoz Ltd)
+^ESCTEN813734	Enalapril 10mg tablets (Mylan Ltd)
+^ESCTEN814538	Enalapril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEN816898	Enalapril 10mg tablets (Sandoz Ltd)
+^ESCTEN817189	Enalapril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEN818627	Enalapril 2.5mg tablets (Mylan Ltd)
+^ESCTEN819727	Enalapril 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEN820874	Enalapril 20mg tablets (Actavis UK Ltd)
+^ESCTEN820990	Enalapril 10mg tablets (Actavis UK Ltd)
+^ESCTEN821186	Enalapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEN821278	Enalapril 20mg tablets (Teva UK Ltd)
+^ESCTEN822810	Enalapril 20mg tablets (Sandoz Ltd)
+^ESCTEN823864	Enalapril 5mg tablets (Mylan Ltd)
+^ESCTEN824106	Enalapril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTEN825072	Enalapril 2.5mg tablets (Actavis UK Ltd)
+^ESCTEN825214	Enalapril 2.5mg tablets (Teva UK Ltd)
+^ESCTEN829442	Enalapril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTEN833222	Enalapril 20mg tablets (Mylan Ltd)
+^ESCTEN834048	Enalapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEN870168	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+^ESCTEN878982	Enalapril 10mg tablets (Dowelhurst Ltd)
+^ESCTEN878986	Enalapril 20mg tablets (Dowelhurst Ltd)
+^ESCTEN880113	Enalapril 2.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTEN880115	Enalapril 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTEN880117	Enalapril 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTEN880119	Enalapril 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTEN900822	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTEN906460	Enalapril 1.25mg/5ml oral solution (Special Order)
+^ESCTEN906465	Enalapril 1.25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTEN906471	Enalapril 15mg/5ml oral solution (Special Order)
+^ESCTEN906477	Enalapril 10mg/5ml oral solution (Special Order)
+^ESCTEN906479	Enalapril 15mg/5ml oral suspension (Special Order)
+^ESCTEN906488	Enalapril 2.5mg/5ml oral solution (Special Order)
+^ESCTEN906491	Enalapril 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTEN906494	Enalapril 2.5mg/5ml oral suspension (Special Order)
+^ESCTEN906497	Enalapril 20mg/5ml oral solution (Special Order)
+^ESCTEN906500	Enalapril 4mg/5ml oral solution (Special Order)
+^ESCTEN906504	Enalapril 20mg/5ml oral suspension (Special Order)
+^ESCTEN906509	Enalapril 4mg/5ml oral suspension (Special Order)
+^ESCTEN906512	Enalapril 5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTEN906515	Enalapril 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTEN906722	Enalapril 1.25mg/5ml oral solution
+^ESCTEN906723	Enalapril 1.25mg/5ml oral suspension
+^ESCTEN906724	Enalapril 10mg/5ml oral solution
+^ESCTEN906725	Enalapril 10mg/5ml oral suspension
+^ESCTEN906727	Enalapril 15mg/5ml oral solution
+^ESCTEN906728	Enalapril 15mg/5ml oral suspension
+^ESCTEN906729	Enalapril 2.5mg/5ml oral solution
+^ESCTEN906732	Enalapril 20mg/5ml oral solution
+^ESCTEN906733	Enalapril 20mg/5ml oral suspension
+^ESCTEN906734	Enalapril 4mg/5ml oral solution
+^ESCTEN906735	Enalapril 4mg/5ml oral suspension
+^ESCTEN906736	Enalapril 5mg/5ml oral solution
+^ESCTEN906737	Enalapril 5mg/5ml oral suspension
+^ESCTEN906762	Enalapril 2.5mg/5ml oral suspension
+^ESCTEN914668	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTEN923580	Enalapril 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTEN923582	Enalapril 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTEN923585	Enalapril 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTEN923587	Enalapril 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTEN928992	Enalapril 2.5mg tablets (Arrow Generics Ltd)
+^ESCTEN928994	Enalapril 5mg tablets (Arrow Generics Ltd)
+^ESCTEN928996	Enalapril 10mg tablets (Arrow Generics Ltd)
+^ESCTEN928998	Enalapril 20mg tablets (Arrow Generics Ltd)
+^ESCTEN940881	Enalapril 2.5mg tablets (Dexcel-Pharma Ltd)
+^ESCTEN940883	Enalapril 5mg tablets (Dexcel-Pharma Ltd)
+^ESCTEN940885	Enalapril 10mg tablets (Dexcel-Pharma Ltd)
+^ESCTEN940887	Enalapril 20mg tablets (Dexcel-Pharma Ltd)
+^ESCTEN945957	Enalapril 1.2mg/5ml oral suspension (Special Order)
+^ESCTEN945963	Enalapril 1.2mg/5ml oral solution (Special Order)
+^ESCTEN945966	Enalapril 1.5mg/5ml oral suspension (Special Order)
+^ESCTEN945969	Enalapril 1.5mg/5ml oral solution (Special Order)
+^ESCTEN945972	Enalapril 12.5mg/5ml oral suspension (Special Order)
+^ESCTEN945975	Enalapril 12.5mg/5ml oral solution (Special Order)
+^ESCTEN945978	Enalapril 1mg/5ml oral suspension (Special Order)
+^ESCTEN945981	Enalapril 1mg/5ml oral solution (Special Order)
+^ESCTEN945988	Enalapril 25mg/5ml oral suspension (Special Order)
+^ESCTEN945996	Enalapril 25mg/5ml oral solution (Special Order)
+^ESCTEN946002	Enalapril 2mg/5ml oral suspension (Special Order)
+^ESCTEN946005	Enalapril 2mg/5ml oral solution (Special Order)
+^ESCTEN946008	Enalapril 3.5mg/5ml oral suspension (Special Order)
+^ESCTEN946011	Enalapril 3.5mg/5ml oral solution (Special Order)
+^ESCTEN946081	Enalapril 1.2mg/5ml oral solution
+^ESCTEN946082	Enalapril 1.2mg/5ml oral suspension
+^ESCTEN946083	Enalapril 1.5mg/5ml oral solution
+^ESCTEN946084	Enalapril 1.5mg/5ml oral suspension
+^ESCTEN946085	Enalapril 12.5mg/5ml oral solution
+^ESCTEN946086	Enalapril 12.5mg/5ml oral suspension
+^ESCTEN946087	Enalapril 1mg/5ml oral solution
+^ESCTEN946088	Enalapril 1mg/5ml oral suspension
+^ESCTEN946089	Enalapril 25mg/5ml oral solution
+^ESCTEN946090	Enalapril 25mg/5ml oral suspension
+^ESCTEN946092	Enalapril 2mg/5ml oral solution
+^ESCTEN946095	Enalapril 2mg/5ml oral suspension
+^ESCTEN946097	Enalapril 3.5mg/5ml oral solution
+^ESCTEN946099	Enalapril 3.5mg/5ml oral suspension
+^ESCTEN948004	Enalapril 3.75mg/5ml oral suspension (Special Order)
+^ESCTEN948008	Enalapril 3.75mg/5ml oral solution (Special Order)
+^ESCTEN948011	Enalapril 3mg/5ml oral suspension (Special Order)
+^ESCTEN948018	Enalapril 3mg/5ml oral solution (Special Order)
+^ESCTEN948022	Enalapril 40mg/5ml oral suspension (Special Order)
+^ESCTEN948027	Enalapril 40mg/5ml oral solution (Special Order)
+^ESCTEN948031	Enalapril 500micrograms/5ml oral suspension (Special Order)
+^ESCTEN948035	Enalapril 500micrograms/5ml oral solution (Special Order)
+^ESCTEN948041	Enalapril 600micrograms/5ml oral suspension (Special Order)
+^ESCTEN948046	Enalapril 600micrograms/5ml oral solution (Special Order)
+^ESCTEN948052	Enalapril 7.5mg/5ml oral suspension (Special Order)
+^ESCTEN948057	Enalapril 7.5mg/5ml oral solution (Special Order)
+^ESCTEN948061	Enalapril 7mg/5ml oral suspension (Special Order)
+^ESCTEN948064	Enalapril 7mg/5ml oral solution (Special Order)
+^ESCTEN948067	Enalapril 8mg/5ml oral suspension (Special Order)
+^ESCTEN948075	Enalapril 8mg/5ml oral solution (Special Order)
+^ESCTEN948443	Enalapril 3.75mg/5ml oral solution
+^ESCTEN948444	Enalapril 3.75mg/5ml oral suspension
+^ESCTEN948445	Enalapril 3mg/5ml oral solution
+^ESCTEN948446	Enalapril 3mg/5ml oral suspension
+^ESCTEN948447	Enalapril 40mg/5ml oral solution
+^ESCTEN948448	Enalapril 40mg/5ml oral suspension
+^ESCTEN948449	Enalapril 500micrograms/5ml oral solution
+^ESCTEN948450	Enalapril 500micrograms/5ml oral suspension
+^ESCTEN948451	Enalapril 600micrograms/5ml oral solution
+^ESCTEN948452	Enalapril 600micrograms/5ml oral suspension
+^ESCTEN948453	Enalapril 7.5mg/5ml oral solution
+^ESCTEN948454	Enalapril 7.5mg/5ml oral suspension
+^ESCTEN948455	Enalapril 7mg/5ml oral solution
+^ESCTEN948456	Enalapril 7mg/5ml oral suspension
+^ESCTEN948457	Enalapril 8mg/5ml oral solution
+^ESCTEN948458	Enalapril 8mg/5ml oral suspension
+^ESCTEN965480	Enalapril 2.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTEN965482	Enalapril 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTEN965484	Enalapril 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTEN965487	Enalapril 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTEN965490	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTEN986935	Enalapril 10mg tablets (Zanza Laboratories Ltd)
+^ESCTEN986938	Enalapril 20mg tablets (Zanza Laboratories Ltd)
+^ESCTEN986944	Enalapril 2.5mg tablets (Zanza Laboratories Ltd)
+^ESCTEN986950	Enalapril 5mg tablets (Zanza Laboratories Ltd)
+^ESCTPR607358	Product containing enalapril maleate 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607361	Product containing enalapril maleate 2.5 mg/1 each oral tablet
+^ESCTPR607364	Product containing enalapril maleate 5 mg/1 each oral tablet
+^ESCTPR607367	Product containing enalapril maleate 10 mg/1 each oral tablet
+^ESCTPR607370	Product containing enalapril maleate 20 mg/1 each oral tablet
+^ESCTPR642169	Product containing diltiazem malate 219 mg and enalapril maleate 5 mg/1 each oral tablet
+^ESCTPR642201	Product containing enalapril maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR642203	Product containing enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR698220	Product containing enalapril and hydrochlorothiazide
+^ESCTPR772144	Product containing enalapril in oral dosage form
+ENOR46443NEMIS	Enalapril Maleate  Oral solution  10 mg/5 ml
+ENOR46444NEMIS	Enalapril Maleate  Oral suspension  10 mg/5 ml
+ENOR46961NEMIS	Enalapril Maleate  Oral solution  1.25 mg/5 ml
+ENOR46962NEMIS	Enalapril Maleate  Oral suspension  1.25 mg/5 ml
+ENTA34912MGEMIS	Enalapril Maleate  Tablets  10 mg (Winthrop Pharmaceuticals )
+ENTA34913MGEMIS	Enalapril Maleate  Tablets  10 mg (Teva UK)
+ENTA34914MGEMIS	Enalapril Maleate  Tablets  10 mg (Kent Pharm)
+ENTA34915MGEMIS	Enalapril Maleate  Tablets  10 mg (A.A.H. Pharm)
+ENTA34916MGEMIS	Enalapril Maleate  Tablets  10 mg (Generics (UK))
+ENTA34917MGEMIS	Enalapril Maleate  Tablets  10 mg (Ivax Pharmaceuticals)
+ENTA34918MGEMIS	Enalapril Maleate  Tablets  10 mg (Sandoz)
+ENTA34919MGEMIS	Enalapril Maleate  Tablets  10 mg (Alpharma)
+ENTA34920MGEMIS	Enalapril Maleate  Tablets  10 mg (Unichem)
+ENTA34921MGEMIS	Enalapril Maleate  Tablets  10 mg (Ranbaxy)
+ENTA34922MGEMIS	Enalapril Maleate  Tablets  20 mg (Kent Pharm)
+ENTA34923MGEMIS	Enalapril Maleate  Tablets  20 mg (Winthrop Pharmaceuticals )
+ENTA34924MGEMIS	Enalapril Maleate  Tablets  20 mg (Unichem)
+ENTA34925MGEMIS	Enalapril Maleate  Tablets  20 mg (Ivax Pharmaceuticals)
+ENTA34926MGEMIS	Enalapril Maleate  Tablets  20 mg (A.A.H. Pharm)
+ENTA34927MGEMIS	Enalapril Maleate  Tablets  20 mg (Alpharma)
+ENTA34928MGEMIS	Enalapril Maleate  Tablets  20 mg (Teva UK)
+ENTA34929MGEMIS	Enalapril Maleate  Tablets  20 mg (Sandoz)
+ENTA34930MGEMIS	Enalapril Maleate  Tablets  20 mg (Generics (UK))
+ENTA34931MGEMIS	Enalapril Maleate  Tablets  20 mg (Ranbaxy)
+ENTA34932MGEMIS	Enalapril Maleate  Tablets  5 mg (A.A.H. Pharm)
+ENTA34933MGEMIS	Enalapril Maleate  Tablets  5 mg (Kent Pharm)
+ENTA34934MGEMIS	Enalapril Maleate  Tablets  5 mg (Sandoz)
+ENTA34935MGEMIS	Enalapril Maleate  Tablets  5 mg (Alpharma)
+ENTA34936MGEMIS	Enalapril Maleate  Tablets  5 mg (Winthrop Pharmaceuticals )
+ENTA34937MGEMIS	Enalapril Maleate  Tablets  5 mg (Teva UK)
+ENTA34938MGEMIS	Enalapril Maleate  Tablets  5 mg (Generics (UK))
+ENTA34939MGEMIS	Enalapril Maleate  Tablets  5 mg (Ivax Pharmaceuticals)
+ENTA34940MGEMIS	Enalapril Maleate  Tablets  5 mg (Unichem)
+ENTA34941MGEMIS	Enalapril Maleate  Tablets  5 mg (Ranbaxy)
+ENTA34942MGEMIS	Enalapril Maleate  Tablets  2.5 mg (A.A.H. Pharm)
+ENTA34943MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Winthrop Pharmaceuticals )
+ENTA34944MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Unichem)
+ENTA34945MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Sandoz)
+ENTA34946MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Ivax Pharmaceuticals)
+ENTA34947MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Generics (UK))
+ENTA34948MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Kent Pharm)
+ENTA34949MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Alpharma)
+ENTA34950MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Teva UK)
+ENTA34951MGEMIS	Enalapril Maleate  Tablets  2.5 mg (Ranbaxy)
+ENTA38328MGEMIS	Enalapril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Sandoz)
+ENTA38329MGEMIS	Enalapril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (Unichem)
+ENTA38330MGEMIS	Enalapril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg (A.A.H. Pharm)
+^ESCT1178019	Product containing only cilazapril 1 mg/1 each oral tablet
+^ESCT1178094	Product containing only cilazapril 0.5 milligram/1 each oral tablet
+^ESCT1187210	Product containing only cilazapril 2.5 mg/1 each oral tablet
+^ESCT1187211	Product containing only cilazapril 5 mg/1 each oral tablet
+^ESCT1206605	Cilazapril in oral dosage form
+^ESCT1206606	Product containing cilazapril in oral dosage form
+^ESCT1222997	Product containing precisely cilazapril 500 microgram/1 each conventional release oral tablet
+^ESCT1222998	Cilazapril 500 microgram oral tablet
+^ESCT1222999	Product containing precisely cilazapril 1 milligram/1 each conventional release oral tablet
+^ESCT1223000	Product containing precisely cilazapril 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223001	Product containing precisely cilazapril 5 milligram/1 each conventional release oral tablet
+^ESCT1386361	Cilazapril-containing product in oral dose form
+^ESCT1424703	Cilazapril 1mg tablets
+^ESCT1424704	Cilazapril 2.5mg tablets
+^ESCT1424710	Cilazapril 5mg tablets
+^ESCT1424711	Cilazapril 500microgram tablets
+^ESCTCI1037104	Cilazapril 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCI1040517	Cilazapril 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI1058787	Cilazapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1062139	Cilazapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI1117020	Cilazapril 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1119210	Cilazapril 5mg tablets (DE Pharmaceuticals)
+^ESCTCI1126234	Cilazapril 5mg tablets (Ennogen Healthcare Ltd)
+^ESCTCI1131647	Cilazapril 5mg tablets (J M McGill Ltd)
+^ESCTCI607432	Cilazapril 500microgram tablets
+^ESCTCI607433	Cilazapril 0.5 mg oral tablet
+^ESCTCI607435	Cilazapril 1mg tablets
+^ESCTCI607437	Cilazapril 1 mg oral tablet
+^ESCTCI607438	Cilazapril 2.5mg tablets
+^ESCTCI607440	Cilazapril 2.5 mg oral tablet
+^ESCTCI607441	Cilazapril 5mg tablets
+^ESCTCI607443	Cilazapril 5 mg oral tablet
+^ESCTPR607434	Product containing cilazapril 0.5 milligram/1 each oral tablet
+^ESCTPR607436	Product containing cilazapril 1 mg/1 each oral tablet
+^ESCTPR607439	Product containing cilazapril 2.5 mg/1 each oral tablet
+^ESCTPR607442	Product containing cilazapril 5 mg/1 each oral tablet
+^ESCT1178020	Product containing only trandolapril 0.5 milligram/1 each oral capsule
+^ESCT1178021	Product containing only trandolapril 2 mg/1 each oral capsule
+^ESCT1178095	Product containing only trandolapril 1 mg/1 each oral capsule
+^ESCT1181751	Product containing only trandolapril 4 mg/1 each oral tablet
+^ESCT1182026	Product containing only trandolapril 4 mg/1 each oral capsule
+^ESCT1183874	Trandolapril 500microgram capsules (Mylan)
+^ESCT1183875	Trandolapril 1mg capsules (Mylan)
+^ESCT1183877	Trandolapril 4mg capsules (Mylan)
+^ESCT1187534	Product containing only trandolapril 1 mg/1 each oral tablet
+^ESCT1187535	Product containing only trandolapril 2 mg/1 each oral tablet
+^ESCT1187766	Product containing trandolapril and verapamil
+^ESCT1187767	Trandolapril and verapamil
+^ESCT1189355	Trandolapril 2mg capsules (Mylan)
+^ESCT1195870	Trandolapril 1mg capsules (Lupin Healthcare (UK) Ltd)
+^ESCT1196385	Trandolapril 2mg capsules (Lupin Healthcare (UK) Ltd)
+^ESCT1203264	Trandolapril+verapamil hydrochloride 4mg/240mg prolonged-release oral tablet
+^ESCT1203327	Trandolapril+verapamil hydrochloride 1mg/240mg prolonged-release oral tablet
+^ESCT1203349	Trandolapril+verapamil hydrochloride 2mg/240mg prolonged-release oral tablet
+^ESCT1203409	Trandolapril+verapamil hydrochloride 2mg/180mg prolonged-release oral tablet
+^ESCT1203744	Trandolapril 2 mg and verapamil hydrochloride 180 mg prolonged-release oral capsule
+^ESCT1203745	Product containing precisely trandolapril 2 milligram and verapamil hydrochloride 180 milligram/1 each prolonged-release oral capsule
+^ESCT1206081	Trandolapril and verapamil in oral dosage form
+^ESCT1206082	Product containing trandolapril and verapamil in oral dosage form
+^ESCT1207250	Trandolapril in oral dosage form
+^ESCT1207251	Product containing trandolapril in oral dosage form
+^ESCT1216123	Verapamil 180mg modified-release / Trandolapril 2mg capsules
+^ESCT1223002	Product containing precisely trandolapril 500 microgram/1 each conventional release oral capsule
+^ESCT1223003	Trandolapril 500 microgram oral capsule
+^ESCT1223004	Trandolapril 1 mg oral capsule
+^ESCT1223005	Product containing precisely trandolapril 1 milligram/1 each conventional release oral capsule
+^ESCT1223006	Product containing precisely trandolapril 2 milligram/1 each conventional release oral capsule
+^ESCT1223007	Trandolapril 2 mg oral capsule
+^ESCT1228168	Product containing precisely trandolapril 1 milligram/1 each conventional release oral tablet
+^ESCT1228169	Product containing precisely trandolapril 2 milligram/1 each conventional release oral tablet
+^ESCT1228170	Product containing precisely trandolapril 4 milligram/1 each conventional release oral tablet
+^ESCT1230946	Product containing precisely trandolapril 4 milligram/1 each conventional release oral capsule
+^ESCT1230947	Trandolapril 4 mg oral capsule
+^ESCT1233821	Trandolapril and verapamil product
+^ESCT1268524	Trandolapril 500microgram capsules (Accord Healthcare Ltd)
+^ESCT1268526	Trandolapril 1mg capsules (Accord Healthcare Ltd)
+^ESCT1268528	Trandolapril 2mg capsules (Accord Healthcare Ltd)
+^ESCT1268530	Trandolapril 4mg capsules (Accord Healthcare Ltd)
+^ESCT1386114	Trandolapril- and verapamil-containing product in oral dose form
+^ESCT1386666	Trandolapril-containing product in oral dose form
+^ESCT1427190	Trandolapril 2mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427192	Trandolapril 4mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1438101	Trandolapril 500microgram capsules (Viatris UK Healthcare Ltd)
+^ESCT1438103	Trandolapril 1mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438105	Trandolapril 2mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438107	Trandolapril 4mg capsules (Viatris UK Healthcare Ltd)
+^ESCTPR607446	Product containing trandolapril 0.5 milligram/1 each oral capsule
+^ESCTPR607449	Product containing trandolapril 1 mg/1 each oral capsule
+^ESCTPR607452	Product containing trandolapril 2 mg/1 each oral capsule
+^ESCTPR639967	Product containing trandolapril 1 mg/1 each oral tablet
+^ESCTPR639969	Product containing trandolapril 2 mg/1 each oral tablet
+^ESCTPR639971	Product containing trandolapril 4 mg/1 each oral tablet
+^ESCTPR680517	Product containing trandolapril 4 mg/1 each oral capsule
+^ESCTTR1003444	Trandolapril 2mg capsules (Arrow Generics Ltd)
+^ESCTTR1005369	Trandolapril 500microgram capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005372	Trandolapril 1mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005375	Trandolapril 2mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005378	Trandolapril 4mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1042483	Trandolapril 500microgram capsules (Waymade Healthcare Plc)
+^ESCTTR1042485	Trandolapril 1mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042487	Trandolapril 2mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042489	Trandolapril 4mg capsules (Waymade Healthcare Plc)
+^ESCTTR1100211	Trandolapril 1mg capsules (Lupin (Europe) Ltd)
+^ESCTTR1100214	Trandolapril 2mg capsules (Lupin (Europe) Ltd)
+^ESCTTR1119850	Trandolapril 1mg capsules (DE Pharmaceuticals)
+^ESCTTR1119852	Trandolapril 2mg capsules (DE Pharmaceuticals)
+^ESCTTR1119854	Trandolapril 4mg capsules (DE Pharmaceuticals)
+^ESCTTR1126827	Trandolapril 500microgram capsules (DE Pharmaceuticals)
+^ESCTTR1127791	Trandolapril 1mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127793	Trandolapril 2mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127795	Trandolapril 4mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTR607444	Trandolapril 500microgram capsules
+^ESCTTR607445	Trandolapril 0.5 mg oral capsule
+^ESCTTR607447	Trandolapril 1mg capsules
+^ESCTTR607448	Trandolapril 1 mg/1 each oral capsule
+^ESCTTR607450	Trandolapril 2mg capsules
+^ESCTTR607451	Trandolapril 2 mg/1 each oral capsule
+^ESCTTR639966	Trandolapril 1 mg oral tablet
+^ESCTTR639968	Trandolapril 2 mg oral tablet
+^ESCTTR639970	Trandolapril 4 mg oral tablet
+^ESCTTR680515	Trandolapril 4mg capsules
+^ESCTTR680516	Trandolapril 4 mg/1 each oral capsule
+^ESCTTR699520	Trandolapril+verapamil
+^ESCTTR699521	Trandolapril + Verapamil
+^ESCTTR878733	Trandolapril 500microgram capsules (Dowelhurst Ltd)
+^ESCTTR878744	Trandolapril 2mg capsules (Dowelhurst Ltd)
+^ESCTTR962417	Trandolapril 500microgram capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR962419	Trandolapril 1mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR962421	Trandolapril 2mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR962423	Trandolapril 4mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR962429	Trandolapril 500microgram capsules (Teva UK Ltd)
+^ESCTTR962431	Trandolapril 1mg capsules (Teva UK Ltd)
+^ESCTTR962433	Trandolapril 2mg capsules (Teva UK Ltd)
+^ESCTTR962785	Trandolapril 500microgram capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR962787	Trandolapril 1mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR962789	Trandolapril 2mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR962791	Trandolapril 4mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR963028	Trandolapril 4mg capsules (Teva UK Ltd)
+^ESCTTR964943	Trandolapril 500microgram capsules (Mylan Ltd)
+^ESCTTR964949	Trandolapril 1mg capsules (Mylan Ltd)
+^ESCTTR964951	Trandolapril 2mg capsules (Mylan Ltd)
+^ESCTTR964954	Trandolapril 4mg capsules (Mylan Ltd)
+^ESCTTR965073	Trandolapril 2mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR965075	Trandolapril 4mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR968165	Trandolapril 2mg/5ml oral suspension (Special Order)
+^ESCTTR968411	Trandolapril 2mg/5ml oral suspension
+^ESCTTR971843	Trandolapril 500microgram capsules (Actavis UK Ltd)
+^ESCTTR971850	Trandolapril 1mg capsules (Actavis UK Ltd)
+^ESCTTR971858	Trandolapril 2mg capsules (Actavis UK Ltd)
+^ESCTTR971864	Trandolapril 4mg capsules (Actavis UK Ltd)
+^ESCTTR978984	Trandolapril 4mg capsules (Arrow Generics Ltd)
+^ESCTTR978998	Trandolapril 1mg capsules (Arrow Generics Ltd)
+^ESCTTR979318	Trandolapril 500microgram capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979322	Trandolapril 1mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979325	Trandolapril 2mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979327	Trandolapril 4mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTVE699519	Verapamil + Trandolapril
+^ESCT1178091	Product containing only perindopril erbumine 2 mg/1 each oral tablet
+^ESCT1178092	Product containing only perindopril erbumine 4 mg/1 each oral tablet
+^ESCT1181735	Product containing only perindopril erbumine 8 mg/1 each oral tablet
+^ESCT1183903	Perindopril erbumine 8mg tablets (Mylan)
+^ESCT1186083	Perindopril erbumine 4mg tablets (Mylan)
+^ESCT1189393	Perindopril erbumine 2mg tablets (Mylan)
+^ESCT1222983	Product containing precisely perindopril erbumine 2 milligram/1 each conventional release oral tablet
+^ESCT1222984	Product containing precisely perindopril erbumine 4 milligram/1 each conventional release oral tablet
+^ESCT1228042	Product containing precisely perindopril erbumine 8 milligram/1 each conventional release oral tablet
+^ESCT1259303	Perindopril erbumine 2mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259306	Perindopril erbumine 4mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259311	Perindopril erbumine 8mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1264605	Perindopril erbumine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1389048	Perindopril erbumine 8mg tablets (Milpharm Ltd)
+^ESCT1389050	Perindopril erbumine 4mg tablets (Milpharm Ltd)
+^ESCT1389052	Perindopril erbumine 2mg tablets (Milpharm Ltd)
+^ESCT1427091	Perindopril erbumine 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427093	Perindopril erbumine 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427130	Perindopril erbumine 8mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1438215	Perindopril erbumine 8mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438217	Perindopril erbumine 4mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438219	Perindopril erbumine 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCTPE1006263	Perindopril erbumine 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPE1006265	Perindopril erbumine 4mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPE1006267	Perindopril erbumine 8mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPE1009460	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1010546	Perindopril erbumine 2mg tablets (Somex Pharma)
+^ESCTPE1010552	Perindopril erbumine 4mg tablets (Somex Pharma)
+^ESCTPE1010566	Perindopril erbumine 8mg tablets (Somex Pharma)
+^ESCTPE1025861	Perindopril erbumine 8mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPE1027890	Perindopril erbumine 8mg tablets (Sandoz Ltd)
+^ESCTPE1037020	Perindopril erbumine 2mg tablets (Accord Healthcare Ltd)
+^ESCTPE1037024	Perindopril erbumine 4mg tablets (Accord Healthcare Ltd)
+^ESCTPE1037027	Perindopril erbumine 8mg tablets (Accord Healthcare Ltd)
+^ESCTPE1042051	Perindopril erbumine 2mg tablets (Waymade Healthcare Plc)
+^ESCTPE1042054	Perindopril erbumine 4mg tablets (Waymade Healthcare Plc)
+^ESCTPE1042057	Perindopril erbumine 8mg tablets (Waymade Healthcare Plc)
+^ESCTPE1042654	Perindopril tosilate 5mg / Indapamide 1.25mg tablets (Teva UK Ltd)
+^ESCTPE1042657	Perindopril tosilate 2.5mg tablets (Teva UK Ltd)
+^ESCTPE1042660	Perindopril tosilate 5mg tablets (Teva UK Ltd)
+^ESCTPE1042663	Perindopril tosilate 10mg tablets (Teva UK Ltd)
+^ESCTPE1042792	Perindopril tosilate 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1042794	Perindopril tosilate 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1042796	Perindopril tosilate 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1042798	Perindopril tosilate 5mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1042901	Perindopril tosilate 10mg tablets
+^ESCTPE1042902	Perindopril tosilate 2.5mg tablets
+^ESCTPE1042903	Perindopril tosilate 5mg / Indapamide 1.25mg tablets
+^ESCTPE1042904	Perindopril tosilate 5mg tablets
+^ESCTPE1047001	Perindopril erbumine 8mg tablets (Aurobindo Pharma Ltd)
+^ESCTPE1047003	Perindopril erbumine 4mg tablets (Aurobindo Pharma Ltd)
+^ESCTPE1047005	Perindopril erbumine 2mg tablets (Aurobindo Pharma Ltd)
+^ESCTPE1056456	Perindopril erbumine 4mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTPE1057114	Perindopril erbumine 4mg/5ml oral solution
+^ESCTPE1061906	Perindopril erbumine 4mg / Amlodipine 5mg tablets (Consilient Health Ltd)
+^ESCTPE1061909	Perindopril erbumine 4mg / Amlodipine 10mg tablets (Consilient Health Ltd)
+^ESCTPE1061912	Perindopril erbumine 8mg / Amlodipine 10mg tablets (Consilient Health Ltd)
+^ESCTPE1061915	Perindopril erbumine 8mg / Amlodipine 5mg tablets (Consilient Health Ltd)
+^ESCTPE1062026	Perindopril erbumine 4mg / Amlodipine 10mg tablets
+^ESCTPE1062027	Perindopril erbumine 4mg / Amlodipine 5mg tablets
+^ESCTPE1062028	Perindopril erbumine 8mg / Amlodipine 10mg tablets
+^ESCTPE1062029	Perindopril erbumine 8mg / Amlodipine 5mg tablets
+^ESCTPE1067828	Perindopril erbumine 4mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE1067830	Perindopril erbumine 4mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE1067832	Perindopril erbumine 8mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE1067834	Perindopril erbumine 8mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE1067967	Perindopril erbumine 4mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1067969	Perindopril erbumine 4mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1067971	Perindopril erbumine 8mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1067973	Perindopril erbumine 8mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE1088664	Perindopril erbumine 2mg tablets (Tillomed Laboratories Ltd)
+^ESCTPE1088669	Perindopril erbumine 4mg tablets (Tillomed Laboratories Ltd)
+^ESCTPE1088672	Perindopril erbumine 8mg tablets (Tillomed Laboratories Ltd)
+^ESCTPE1118806	Perindopril tosilate 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE1118808	Perindopril tosilate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE1118810	Perindopril tosilate 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE1119572	Perindopril erbumine 2mg tablets (DE Pharmaceuticals)
+^ESCTPE1119574	Perindopril erbumine 4mg tablets (DE Pharmaceuticals)
+^ESCTPE1119576	Perindopril erbumine 8mg tablets (DE Pharmaceuticals)
+^ESCTPE1127039	Perindopril erbumine 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPE1127041	Perindopril erbumine 8mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPE1146183	Perindopril erbumine 3mg/5ml oral solution (Special Order)
+^ESCTPE1146235	Perindopril erbumine 3mg/5ml oral solution
+^ESCTPE607406	Perindopril erbumine 2mg tablets
+^ESCTPE607408	Perindopril erbumine 2 mg oral tablet
+^ESCTPE607409	Perindopril erbumine 4mg tablets
+^ESCTPE607411	Perindopril erbumine 4 mg oral tablet
+^ESCTPE639506	Perindopril erbumine 8mg tablets
+^ESCTPE639508	Perindopril erbumine 8 mg oral tablet
+^ESCTPE861854	Perindopril erbumine 4mg / Indapamide 1.25mg tablets
+^ESCTPE908243	Perindopril erbumine 2mg/5ml oral suspension (Special Order)
+^ESCTPE908251	Perindopril erbumine 4mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTPE908484	Perindopril erbumine 2mg/5ml oral suspension
+^ESCTPE908485	Perindopril erbumine 4mg/5ml oral suspension
+^ESCTPE932264	Perindopril erbumine 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPE932273	Perindopril erbumine 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPE933335	Perindopril erbumine 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE933337	Perindopril erbumine 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE933340	Perindopril erbumine 8mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE943985	Perindopril erbumine 2mg tablets (Teva UK Ltd)
+^ESCTPE943987	Perindopril erbumine 4mg tablets (Teva UK Ltd)
+^ESCTPE943989	Perindopril erbumine 8mg tablets (Teva UK Ltd)
+^ESCTPE944395	Perindopril erbumine 8mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPE945841	Perindopril erbumine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE945846	Perindopril erbumine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE945848	Perindopril erbumine 8mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE950469	Perindopril erbumine 2mg tablets (Actavis UK Ltd)
+^ESCTPE950471	Perindopril erbumine 4mg tablets (Actavis UK Ltd)
+^ESCTPE950473	Perindopril erbumine 8mg tablets (Actavis UK Ltd)
+^ESCTPE957516	Perindopril erbumine 1mg/5ml oral suspension (Special Order)
+^ESCTPE957522	Perindopril erbumine 1mg/5ml oral solution (Special Order)
+^ESCTPE957669	Perindopril erbumine 1mg/5ml oral solution
+^ESCTPE957670	Perindopril erbumine 1mg/5ml oral suspension
+^ESCTPE962633	Perindopril arginine 10mg tablets
+^ESCTPE962634	Perindopril arginine 2.5mg tablets
+^ESCTPE962635	Perindopril arginine 5mg / Indapamide 1.25mg tablets
+^ESCTPE962636	Perindopril arginine 5mg tablets
+^ESCTPE964545	Perindopril erbumine 2mg tablets (Sandoz Ltd)
+^ESCTPE964548	Perindopril erbumine 4mg tablets (Sandoz Ltd)
+^ESCTPE965656	Perindopril erbumine 2mg tablets (Apotex UK Ltd)
+^ESCTPE965658	Perindopril erbumine 4mg tablets (Apotex UK Ltd)
+^ESCTPE965660	Perindopril erbumine 8mg tablets (Apotex UK Ltd)
+^ESCTPE968159	Perindopril erbumine 8mg/5ml oral solution (Special Order)
+^ESCTPE968162	Perindopril erbumine 8mg/5ml oral suspension (Special Order)
+^ESCTPE968399	Perindopril erbumine 8mg/5ml oral solution
+^ESCTPE968400	Perindopril erbumine 8mg/5ml oral suspension
+^ESCTPE969087	Perindopril erbumine 2mg tablets (Consilient Health Ltd)
+^ESCTPE969090	Perindopril erbumine 4mg tablets (Consilient Health Ltd)
+^ESCTPE978926	Perindopril erbumine 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE978930	Perindopril erbumine 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE978934	Perindopril erbumine 8mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPE983568	Perindopril erbumine 2mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTPE983574	Perindopril erbumine 4mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTPE983586	Perindopril erbumine 8mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTPE987805	Perindopril erbumine 2mg oral powder sachets (Special Order)
+^ESCTPE988079	Perindopril erbumine 2mg oral powder sachets
+^ESCTPE988158	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Ratiopharm UK Ltd)
+^ESCTPE989490	Perindopril erbumine 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPE989498	Perindopril erbumine 4mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPE993830	Perindopril erbumine 8mg tablets (Mylan Ltd)
+^ESCTPE993832	Perindopril erbumine 4mg tablets (Mylan Ltd)
+^ESCTPE993834	Perindopril erbumine 2mg tablets (Mylan Ltd)
+^ESCTPE993904	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE999370	Perindopril erbumine 8mg tablets (Consilient Health Ltd)
+^ESCTPR607407	Product containing perindopril erbumine 2 mg/1 each oral tablet
+^ESCTPR607410	Product containing perindopril erbumine 4 mg/1 each oral tablet
+^ESCTPR639507	Product containing perindopril erbumine 8 mg/1 each oral tablet
+PEOR78651NEMIS	Perindopril Erbumine  Oral solution  8 mg/5 ml
+PEOR78652NEMIS	Perindopril Erbumine  Oral suspension  4 mg/5 ml
+PEOR78653NEMIS	Perindopril Erbumine  Oral suspension  8 mg/5 ml
+PEOR85809NEMIS	Perindopril Erbumine  Oral solution  4 mg/5 ml
+PETA78471NEMIS	Perindopril Tosilate  Tablets  2.5 mg
+PETA78473NEMIS	Perindopril Tosilate  Tablets  5 mg
+PETA78474NEMIS	Perindopril Tosilate  Tablets  10 mg
+PETA78476NEMIS	Perindopril Tosilate And Indapamide  Tablets  5 mg + 1.25 mg
+PETA88541NEMIS	Perindopril Erbumine And Amlodipine  Tablets  4 mg + 10 mg
+PETA88543NEMIS	Perindopril Erbumine And Amlodipine  Tablets  8 mg + 10 mg
+^ESCT1178093	Product containing only fosinopril sodium 10 mg/1 each oral tablet
+^ESCT1179289	Product containing only fosinopril sodium 40 mg/1 each oral tablet
+^ESCT1181277	Product containing only fosinopril sodium 20 mg/1 each oral tablet
+^ESCT1182755	Product containing only fosinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1184523	Fosinopril 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1185319	Product containing only fosinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1188899	Fosinopril 10mg tablets (Mylan)
+^ESCT1188901	Fosinopril 20mg tablets (Mylan)
+^ESCT1189669	Fosinopril 20mg tablets (Aurobindo Pharma Ltd)
+^ESCT1207200	Fosinopril in oral dosage form
+^ESCT1207201	Product containing fosinopril in oral dosage form
+^ESCT1207216	Fosinopril and hydrochlorothiazide in oral dosage form
+^ESCT1207217	Product containing fosinopril and hydrochlorothiazide in oral dosage form
+^ESCT1222993	Product containing precisely fosinopril sodium 10 milligram/1 each conventional release oral tablet
+^ESCT1222994	Product containing precisely fosinopril sodium 20 milligram/1 each conventional release oral tablet
+^ESCT1228725	Product containing precisely fosinopril sodium 40 milligram/1 each conventional release oral tablet
+^ESCT1230818	Fosinopril+hydrochlorothiazide
+^ESCT1230819	Fosinopril and hydrochlorothiazide product
+^ESCT1230820	Product containing precisely fosinopril 10 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1230821	Product containing precisely fosinopril 20 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1264167	Fosinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264173	Fosinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1301404	Fosinopril 10mg tablets (Accord Healthcare Ltd)
+^ESCT1382588	Fosinopril- and hydrochlorothiazide-containing product
+^ESCT1386640	Fosinopril-containing product in oral dose form
+^ESCT1386648	Fosinopril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1388964	Fosinopril 10mg tablets (Milpharm Ltd)
+^ESCT1388966	Fosinopril 20mg tablets (Milpharm Ltd)
+^ESCT1410669	Fosinopril 20mg tablets (Accord Healthcare Ltd)
+^ESCT1422125	Fosinopril 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422127	Fosinopril 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1427023	Fosinopril 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427025	Fosinopril 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1437985	Fosinopril 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437987	Fosinopril 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCTFO1033692	Fosinopril 10mg tablets (Milpharm Ltd)
+^ESCTFO1033785	Fosinopril 20mg tablets (Milpharm Ltd)
+^ESCTFO1043651	Fosinopril 10mg tablets (Waymade Healthcare Plc)
+^ESCTFO1061998	Fosinopril 10mg tablets (DE Pharmaceuticals)
+^ESCTFO1062000	Fosinopril 20mg tablets (DE Pharmaceuticals)
+^ESCTFO607424	Fosinopril 10mg tablets
+^ESCTFO607426	Fosinopril sodium 10 mg oral tablet
+^ESCTFO607427	Fosinopril 20mg tablets
+^ESCTFO607429	Fosinopril sodium 20 mg oral tablet
+^ESCTFO641374	Fosinopril sodium 40 mg oral tablet
+^ESCTFO677907	Fosinopril+hydrochlorothiazide
+^ESCTFO677909	Fosinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTFO677911	Fosinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTFO877874	Fosinopril 10mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTFO877879	Fosinopril 20mg tablets (Waymade Healthcare Plc)
+^ESCTFO878681	Fosinopril 10mg tablets (Dowelhurst Ltd)
+^ESCTFO878702	Fosinopril 20mg tablets (Dowelhurst Ltd)
+^ESCTFO918040	Fosinopril 10mg tablets (Actavis UK Ltd)
+^ESCTFO918044	Fosinopril 20mg tablets (Actavis UK Ltd)
+^ESCTFO918104	Fosinopril 10mg tablets (Zentiva)
+^ESCTFO918108	Fosinopril 20mg tablets (Zentiva)
+^ESCTFO918136	Fosinopril 10mg tablets (Teva UK Ltd)
+^ESCTFO918140	Fosinopril 20mg tablets (Teva UK Ltd)
+^ESCTFO918268	Fosinopril 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFO918274	Fosinopril 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFO918535	Fosinopril 10mg tablets (Sandoz Ltd)
+^ESCTFO918539	Fosinopril 20mg tablets (Sandoz Ltd)
+^ESCTFO918589	Fosinopril 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFO918593	Fosinopril 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFO919016	Fosinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFO919025	Fosinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFO920026	Fosinopril 10mg tablets (Mylan Ltd)
+^ESCTFO920030	Fosinopril 20mg tablets (Mylan Ltd)
+^ESCTFO927840	Fosinopril 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTFO927842	Fosinopril 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTFO929258	Fosinopril 10mg tablets (Arrow Generics Ltd)
+^ESCTFO929260	Fosinopril 20mg tablets (Arrow Generics Ltd)
+^ESCTFO945308	Fosinopril 20mg/5ml oral suspension (Special Order)
+^ESCTFO945311	Fosinopril 20mg/5ml oral solution (Special Order)
+^ESCTFO945587	Fosinopril 20mg/5ml oral solution
+^ESCTFO945588	Fosinopril 20mg/5ml oral suspension
+^ESCTFO965636	Fosinopril 10mg tablets (Apotex UK Ltd)
+^ESCTFO965638	Fosinopril 20mg tablets (Apotex UK Ltd)
+^ESCTFO978367	Fosinopril 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFO979443	Fosinopril 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR607425	Product containing fosinopril sodium 10 mg/1 each oral tablet
+^ESCTPR607428	Product containing fosinopril sodium 20 mg/1 each oral tablet
+^ESCTPR641375	Product containing fosinopril sodium 40 mg/1 each oral tablet
+^ESCTPR677908	Product containing fosinopril and hydrochlorothiazide
+^ESCTPR677910	Product containing fosinopril 10 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR677912	Product containing fosinopril 20 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+FOTA35231MGEMIS	Fosinopril Sodium  Tablets  10 mg (Alpharma)
+FOTA35232MGEMIS	Fosinopril Sodium  Tablets  10 mg (Winthrop Pharmaceuticals )
+FOTA35233MGEMIS	Fosinopril Sodium  Tablets  10 mg (Teva UK)
+FOTA35234MGEMIS	Fosinopril Sodium  Tablets  10 mg (Kent Pharm)
+FOTA35235MGEMIS	Fosinopril Sodium  Tablets  10 mg (Sandoz)
+FOTA35236MGEMIS	Fosinopril Sodium  Tablets  10 mg (A.A.H. Pharm)
+FOTA35237MGEMIS	Fosinopril Sodium  Tablets  10 mg (Unichem)
+FOTA35238MGEMIS	Fosinopril Sodium  Tablets  10 mg (Generics (UK))
+FOTA35239MGEMIS	Fosinopril Sodium  Tablets  20 mg (Alpharma)
+FOTA35240MGEMIS	Fosinopril Sodium  Tablets  20 mg (Winthrop Pharmaceuticals )
+FOTA35241MGEMIS	Fosinopril Sodium  Tablets  20 mg (Teva UK)
+FOTA35242MGEMIS	Fosinopril Sodium  Tablets  20 mg (Kent Pharm)
+FOTA35243MGEMIS	Fosinopril Sodium  Tablets  20 mg (Sandoz)
+FOTA35244MGEMIS	Fosinopril Sodium  Tablets  20 mg (A.A.H. Pharm)
+FOTA35245MGEMIS	Fosinopril Sodium  Tablets  20 mg (Unichem)
+FOTA35246MGEMIS	Fosinopril Sodium  Tablets  20 mg (Generics (UK))
+^ESCT1178096	Product containing only moexipril hydrochloride 7.5 mg/1 each oral tablet
+^ESCT1178850	Product containing only moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178851	Product containing only moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1187212	Product containing only moexipril hydrochloride 15 mg/1 each oral tablet
+^ESCT1188283	Product containing only moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1207994	Moexipril in oral dosage form
+^ESCT1207995	Product containing moexipril in oral dosage form
+^ESCT1208004	Hydrochlorothiazide and moexipril product
+^ESCT1208005	Product containing hydrochlorothiazide and moexipril
+^ESCT1208006	Hydrochlorothiazide and moexipril in oral dosage form
+^ESCT1208007	Product containing hydrochlorothiazide and moexipril in oral dosage form
+^ESCT1223008	Product containing precisely moexipril hydrochloride 7.5 milligram/1 each conventional release oral tablet
+^ESCT1223009	Product containing precisely moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1230908	Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230909	Hydrochlorothiazide 12.5 mg and moexipril hydrochloride 7.5 mg oral tablet
+^ESCT1230910	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 7.5 milligram/1 each conventional release oral tablet
+^ESCT1230911	Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1230912	Hydrochlorothiazide 12.5 mg and moexipril hydrochloride 15 mg oral tablet
+^ESCT1230913	Product containing precisely hydrochlorothiazide 12.5 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1230914	Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230915	Hydrochlorothiazide 25 mg and moexipril hydrochloride 15 mg oral tablet
+^ESCT1230916	Product containing precisely hydrochlorothiazide 25 milligram and moexipril hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1386946	Moexipril-containing product in oral dose form
+^ESCT1386951	Hydrochlorothiazide- and moexipril-containing product
+^ESCT1386952	Hydrochlorothiazide- and moexipril-containing product in oral dose form
+^ESCTMO607454	Moexipril 7.5mg tablets
+^ESCTMO607456	Moexipril hydrochloride 7.5 mg oral tablet
+^ESCTMO607457	Moexipril 15mg tablets
+^ESCTMO607459	Moexipril hydrochloride 15 mg oral tablet
+^ESCTMO680421	Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTMO680423	Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTMO680425	Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTPR607455	Product containing moexipril hydrochloride 7.5 mg/1 each oral tablet
+^ESCTPR607458	Product containing moexipril hydrochloride 15 mg/1 each oral tablet
+^ESCTPR680422	Product containing moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680424	Product containing moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR680426	Product containing moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1178097	Product containing only imidapril hydrochloride 20 mg/1 each oral tablet
+^ESCT1178098	Product containing only imidapril hydrochloride 10 mg/1 each oral tablet
+^ESCT1181278	Product containing only imidapril hydrochloride 5 mg/1 each oral tablet
+^ESCT1207996	Imidapril in oral dosage form
+^ESCT1207997	Product containing imidapril in oral dosage form
+^ESCT1223010	Product containing precisely imidapril hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1223011	Product containing precisely imidapril hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1223012	Product containing precisely imidapril hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1386947	Imidapril-containing product in oral dose form
+^ESCTIM607460	Imidapril 20mg tablets
+^ESCTIM607462	Imidapril hydrochloride 20 mg oral tablet
+^ESCTIM607463	Imidapril 5mg tablets
+^ESCTIM607465	Imidapril hydrochloride 5 mg oral tablet
+^ESCTIM607466	Imidapril 10mg tablets
+^ESCTIM607468	Imidapril hydrochloride 10 mg oral tablet
+^ESCTPR607461	Product containing imidapril hydrochloride 20 mg/1 each oral tablet
+^ESCTPR607464	Product containing imidapril hydrochloride 5 mg/1 each oral tablet
+^ESCTPR607467	Product containing imidapril hydrochloride 10 mg/1 each oral tablet
+^ESCT1237101	Accuretic 10mg/12.5mg tablets (Pfizer Ltd)
+^ESCT1237225	Accuretic 10mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCT1237432	Accuretic 10mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCT1237593	Accuretic 10mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCT1237598	Accuretic 10mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC808125	Accuretic 12.5mg/10mg tablets (Pfizer Ltd)
+^ESCTAC877509	Accuretic 12.5mg/10mg tablets (Waymade Healthcare Plc)
+^ESCTAC968196	Accuretic 12.5mg/10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC988651	Accuretic 12.5mg/10mg tablets (Lexon (UK) Ltd)
+^ESCTAC990001	Accuretic 12.5mg/10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC802580	Accupro 40mg tablets (Pfizer Ltd)
+^ESCTAC807231	Accupro 10mg tablets (Pfizer Ltd)
+^ESCTAC820217	Accupro 5mg tablets (Pfizer Ltd)
+^ESCTAC827558	Accupro 20mg tablets (Pfizer Ltd)
+^ESCTAC877495	Accupro 5mg tablets (Waymade Healthcare Plc)
+^ESCTAC880040	Accupro 5mg tablets (Dowelhurst Ltd)
+^ESCTAC989995	Accupro 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC819464	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC820829	Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC826281	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC808151	Acezide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA1008041	Capoten 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA804231	Capoten 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA812769	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA817178	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA877657	Capoten 25mg tablets (Waymade Healthcare Plc)
+^ESCTCA877672	Capoten 50mg tablets (Waymade Healthcare Plc)
+^ESCTCA879197	Capoten 12.5mg tablets (Dowelhurst Ltd)
+^ESCTCA879212	Capoten 25mg tablets (Dowelhurst Ltd)
+^ESCTCA879227	Capoten 50mg tablets (Dowelhurst Ltd)
+^ESCTCA899172	Capoten 5mg/ml oral solution (Imported (United States))
+^ESCTCA971055	Capoten 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971058	Capoten 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA992946	Capoten 50mg tablets (Stephar (U.K.) Ltd)
+^ESCTCA992948	Capoten 25mg tablets (Stephar (U.K.) Ltd)
+^ESCTCA800379	Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA819916	Capozide LS 12.5mg/25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA877684	Capozide 25mg/50mg tablets (Waymade Healthcare Plc)
+^ESCTCA880074	Capozide 25mg/50mg tablets (Dowelhurst Ltd)
+^ESCTCA966347	Capozide 25mg/50mg tablets (DE Pharmaceuticals)
+^ESCTCA971078	Capozide 25mg/50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA812126	Captomex 12.5mg tablets (Actavis UK Ltd)
+^ESCTCA820027	Captomex 25mg tablets (Actavis UK Ltd)
+^ESCTCA823487	Captomex 50mg tablets (Actavis UK Ltd)
+^ESCT1410094	Carace 20 Plus tablets (Organon Pharma (UK) Ltd)
+^ESCT1410096	Carace 10 Plus tablets (Organon Pharma (UK) Ltd)
+^ESCTCA801870	Carace 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA810136	Carace 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA810275	Carace 2.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA824313	Carace 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA859497	Carace 20 Plus tablets (Merck Sharp & Dohme Ltd)
+^ESCTCA859507	Carace 10 Plus tablets (Merck Sharp & Dohme Ltd)
+^ESCTCA896900	Caralpha 20mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCA896902	Caralpha 10mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCO1002272	Coversyl Arginine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1008702	Coversyl Arginine Plus 5mg/1.25mg tablets (Necessity Supplies Ltd)
+^ESCTCO1011873	Coversyl Arginine Plus 5mg/1.25mg tablets (DE Pharmaceuticals)
+^ESCTCO1011875	Coversyl Arginine 10mg tablets (DE Pharmaceuticals)
+^ESCTCO1013475	Coversyl Arginine Plus 5mg/1.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1022546	Coversyl Arginine 5mg tablets (DE Pharmaceuticals)
+^ESCTCO1022548	Coversyl Arginine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO801758	Coversyl 2mg tablets (Servier Laboratories Ltd)
+^ESCTCO820032	Coversyl Plus tablets (Servier Laboratories Ltd)
+^ESCTCO831885	Coversyl 4mg tablets (Servier Laboratories Ltd)
+^ESCTCO864508	Coversyl 8mg tablets (Servier Laboratories Ltd)
+^ESCTCO947261	Coversyl Plus tablets (Waymade Healthcare Plc)
+^ESCTCO959261	Coversyl Plus tablets (Dowelhurst Ltd)
+^ESCTCO962535	Coversyl Arginine Plus 5mg/1.25mg tablets (Servier Laboratories Ltd)
+^ESCTCO962538	Coversyl Arginine 10mg tablets (Servier Laboratories Ltd)
+^ESCTCO962541	Coversyl Arginine 5mg tablets (Servier Laboratories Ltd)
+^ESCTCO962544	Coversyl Arginine 2.5mg tablets (Servier Laboratories Ltd)
+^ESCTCO967281	Coversyl Arginine Plus 5mg/1.25mg tablets (Waymade Healthcare Plc)
+^ESCTCO969907	Coversyl Arginine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO981437	Coversyl Arginine 5mg tablets (Waymade Healthcare Plc)
+^ESCTCO981439	Coversyl Arginine 10mg tablets (Waymade Healthcare Plc)
+^ESCTCO988841	Coversyl Arginine 10mg tablets (Lexon (UK) Ltd)
+^ESCTCO988906	Coversyl Arginine 5mg tablets (Lexon (UK) Ltd)
+^ESCTCO992745	Coversyl Arginine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992747	Coversyl Arginine Plus 5mg/1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1426751	Co-zidocapt 12.5mg/25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426753	Co-zidocapt 25mg/50mg tablets (Kent Pharma (UK) Ltd)
+^ESCTCO1006993	Co-zidocapt
+^ESCTCO607341	Co-zidocapt 12.5mg/25mg tablets
+^ESCTCO607344	Co-zidocapt 25mg/50mg tablets
+^ESCTCO806706	Co-zidocapt 12.5mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO809961	Co-zidocapt 25mg/50mg tablets (Sandoz Ltd)
+^ESCTCO820447	Co-zidocapt 25mg/50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO820681	Co-zidocapt 25mg/50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO823820	Co-zidocapt 12.5mg/25mg tablets (Sandoz Ltd)
+^ESCTCO878757	Co-zidocapt 12.5mg/25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO878759	Co-zidocapt 25mg/50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO897907	Co-zidocapt 12.5mg/25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO965458	Co-zidocapt 12.5mg/25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCO965460	Co-zidocapt 25mg/50mg tablets (Tillomed Laboratories Ltd)
+^ESCT1250014	Ecopace 12.5mg tablets (Advanz Pharma)
+^ESCT1250069	Ecopace 50mg tablets (Advanz Pharma)
+^ESCT1250072	Ecopace 25mg tablets (Advanz Pharma)
+^ESCTEC806882	Ecopace 12.5mg tablets (AMCo)
+^ESCTEC823925	Ecopace 50mg tablets (AMCo)
+^ESCTEC826532	Ecopace 25mg tablets (AMCo)
+^ESCT1409575	Innovace 20mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409579	Innovace 10mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409732	Innovace 5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409741	Innovace 2.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCTIN809593	Innovace 20mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN810160	Innovace 10mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN822854	Innovace 5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN823044	Innovace 2.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN879670	Innovace 10mg tablets (Dowelhurst Ltd)
+^ESCTIN929932	Innovace 5mg tablets (Dowelhurst Ltd)
+^ESCTIN929935	Innovace 20mg tablets (Dowelhurst Ltd)
+^ESCTIN932735	Innovace 20mg tablets (Waymade Healthcare Plc)
+^ESCTIN933458	Innovace 5mg tablets (Waymade Healthcare Plc)
+^ESCTIN933462	Innovace 10mg tablets (Waymade Healthcare Plc)
+^ESCTIN967048	Innovace 5mg tablets (DE Pharmaceuticals)
+^ESCTIN992672	Innovace 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIN992677	Innovace 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIN992682	Innovace 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1409533	Innozide 20mg/12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCTIN1030149	Innozide 20mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTIN804652	Innozide 20mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN970321	Innozide 20mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIN989211	Innozide 20mg/12.5mg tablets (Lexon (UK) Ltd)
+^ESCTIN992687	Innozide 20mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1436950	Tanatril 20mg tablets (Northumbria Pharma Ltd)
+^ESCT1436994	Tanatril 10mg tablets (Northumbria Pharma Ltd)
+^ESCT1437036	Tanatril 5mg tablets (Northumbria Pharma Ltd)
+^ESCTTA819821	Tanatril 20mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+^ESCTTA821088	Tanatril 10mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+^ESCTTA825417	Tanatril 5mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+^ESCTTA973950	Tanatril 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTA990079	Tanatril 5mg tablets (Lexon (UK) Ltd)
+^ESCTGO1009074	Gopten 2mg capsules (Necessity Supplies Ltd)
+^ESCTGO1038920	Gopten 4mg capsules (Waymade Healthcare Plc)
+^ESCTGO808064	Gopten 500microgram capsules (Abbott Laboratories Ltd)
+^ESCTGO808224	Gopten 2mg capsules (Abbott Laboratories Ltd)
+^ESCTGO811168	Gopten 1mg capsules (Abbott Laboratories Ltd)
+^ESCTGO877916	Gopten 500microgram capsules (Waymade Healthcare Plc)
+^ESCTGO879394	Gopten 500microgram capsules (Dowelhurst Ltd)
+^ESCTGO879402	Gopten 2mg capsules (Dowelhurst Ltd)
+^ESCTGO880310	Gopten 4mg capsules (Abbott Laboratories Ltd)
+^ESCTGO992567	Gopten 2mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTKA818436	Kaplon 25mg tablets (Teva UK Ltd)
+^ESCTKA820143	Kaplon 50mg tablets (Teva UK Ltd)
+^ESCTKA824289	Kaplon 12.5mg tablets (Teva UK Ltd)
+^ESCTLI903510	Lisicostad 10mg/12.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTLI903512	Lisicostad 20mg/12.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTLI896314	Lisopress 2.5mg tablets (Teva UK Ltd)
+^ESCTLI896316	Lisopress 5mg tablets (Teva UK Ltd)
+^ESCTLI896319	Lisopress 10mg tablets (Teva UK Ltd)
+^ESCTLI896321	Lisopress 20mg tablets (Teva UK Ltd)
+^ESCTLO901774	Lopace 2.5mg capsules (Discovery Pharmaceuticals)
+^ESCTLO901776	Lopace 5mg capsules (Discovery Pharmaceuticals)
+^ESCTLO901778	Lopace 10mg capsules (Discovery Pharmaceuticals)
+^ESCTNO1059098	Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTNO1059101	Noyada 5mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+NOOR86936NEMIS	Noyada  Oral solution  25 mg/5 ml
+^ESCTOD804421	Odrik 2mg capsules (Aventis Pharma)
+^ESCTOD807114	Odrik 500microgram capsules (Aventis Pharma)
+^ESCTOD815629	Odrik 1mg capsules (Aventis Pharma)
+^ESCTPE866647	Perdix 15mg tablets (UCB Pharma Ltd)
+^ESCTPE866655	Perdix 7.5mg tablets (UCB Pharma Ltd)
+^ESCTPR816781	Pralenal 2.5 tablets (Opus Pharmaceuticals Ltd)
+^ESCTPR819143	Pralenal 20 tablets (Opus Pharmaceuticals Ltd)
+^ESCTPR820190	Pralenal 5 tablets (Opus Pharmaceuticals Ltd)
+^ESCTPR823544	Pralenal 10 tablets (Opus Pharmaceuticals Ltd)
+^ESCTQU913813	Quinil 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTQU913821	Quinil 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTQU913827	Quinil 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTQU913833	Quinil 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTST811220	Staril 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTST817629	Staril 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTST879344	Staril 20mg tablets (Dowelhurst Ltd)
+^ESCTTA863470	Tarka modified-release capsules (Abbott Laboratories Ltd)
+^ESCTTA879746	Tarka modified-release capsules (Dowelhurst Ltd)
+^ESCTTA973956	Tarka modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTTA990082	Tarka modified-release capsules (Lexon (UK) Ltd)
+^ESCTTE820339	Tensopril 25mg tablets (Teva UK Ltd)
+^ESCTTE820775	Tensopril 50mg tablets (Teva UK Ltd)
+^ESCTTE820968	Tensopril 12.5mg tablets (Teva UK Ltd)
+^ESCTTR1001638	Triapin 5mg/5mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR865315	Triapin 5mg/5mg modified-release tablets (Sanofi)
+^ESCTTR867164	Triapin 2.5mg/2.5mg modified-release tablets (Sanofi)
+^ESCTTR941122	Triapin 5mg/5mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTTR967962	Triapin 5mg/5mg modified-release tablets (DE Pharmaceuticals)
+^ESCTTR974539	Triapin 5mg/5mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR990257	Triapin 2.5mg/2.5mg modified-release tablets (Lexon (UK) Ltd)
+^ESCTTR990259	Triapin 5mg/5mg modified-release tablets (Lexon (UK) Ltd)
+TRTA78494NEMIS	Triapin  M/R tablets  2.5 mg + 2.5 mg
+^ESCTGE862091	Generic Tritace titration pack capsules
+^ESCTGE964149	Generic Tritace titration pack tablets
+^ESCTTR1121449	Tritace 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTTR801700	Tritace 10mg capsules (Sanofi)
+^ESCTTR803528	Tritace 1.25mg capsules (Aventis Pharma)
+^ESCTTR825663	Tritace 5mg capsules (Sanofi)
+^ESCTTR827773	Tritace 2.5mg capsules (Sanofi)
+^ESCTTR858920	Tritace titration pack capsules (Sanofi)
+^ESCTTR874681	Tritace 1.25mg tablets (Sanofi)
+^ESCTTR874684	Tritace 2.5mg tablets (Sanofi)
+^ESCTTR874687	Tritace 5mg tablets (Sanofi)
+^ESCTTR874690	Tritace 10mg tablets (Sanofi)
+^ESCTTR879801	Tritace 1.25mg capsules (Dowelhurst Ltd)
+^ESCTTR879807	Tritace 2.5mg capsules (Dowelhurst Ltd)
+^ESCTTR964057	Tritace titration pack tablets (Sanofi)
+^ESCTGE862091	Generic Tritace titration pack capsules
+^ESCTGE964149	Generic Tritace titration pack tablets
+^ESCTTR1121449	Tritace 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTTR801700	Tritace 10mg capsules (Sanofi)
+^ESCTTR803528	Tritace 1.25mg capsules (Aventis Pharma)
+^ESCTTR825663	Tritace 5mg capsules (Sanofi)
+^ESCTTR827773	Tritace 2.5mg capsules (Sanofi)
+^ESCTTR858920	Tritace titration pack capsules (Sanofi)
+^ESCTTR874681	Tritace 1.25mg tablets (Sanofi)
+^ESCTTR874684	Tritace 2.5mg tablets (Sanofi)
+^ESCTTR874687	Tritace 5mg tablets (Sanofi)
+^ESCTTR874690	Tritace 10mg tablets (Sanofi)
+^ESCTTR879801	Tritace 1.25mg capsules (Dowelhurst Ltd)
+^ESCTTR879807	Tritace 2.5mg capsules (Dowelhurst Ltd)
+^ESCTTR964057	Tritace titration pack tablets (Sanofi)
+^ESCTGE862091	Generic Tritace titration pack capsules
+^ESCTGE964149	Generic Tritace titration pack tablets
+^ESCTTR1121449	Tritace 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTTR801700	Tritace 10mg capsules (Sanofi)
+^ESCTTR803528	Tritace 1.25mg capsules (Aventis Pharma)
+^ESCTTR825663	Tritace 5mg capsules (Sanofi)
+^ESCTTR827773	Tritace 2.5mg capsules (Sanofi)
+^ESCTTR858920	Tritace titration pack capsules (Sanofi)
+^ESCTTR874681	Tritace 1.25mg tablets (Sanofi)
+^ESCTTR874684	Tritace 2.5mg tablets (Sanofi)
+^ESCTTR874687	Tritace 5mg tablets (Sanofi)
+^ESCTTR874690	Tritace 10mg tablets (Sanofi)
+^ESCTTR879801	Tritace 1.25mg capsules (Dowelhurst Ltd)
+^ESCTTR879807	Tritace 2.5mg capsules (Dowelhurst Ltd)
+^ESCTTR964057	Tritace titration pack tablets (Sanofi)
+^ESCTGE862091	Generic Tritace titration pack capsules
+^ESCTGE964149	Generic Tritace titration pack tablets
+^ESCTTR1121449	Tritace 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTTR801700	Tritace 10mg capsules (Sanofi)
+^ESCTTR803528	Tritace 1.25mg capsules (Aventis Pharma)
+^ESCTTR825663	Tritace 5mg capsules (Sanofi)
+^ESCTTR827773	Tritace 2.5mg capsules (Sanofi)
+^ESCTTR858920	Tritace titration pack capsules (Sanofi)
+^ESCTTR874681	Tritace 1.25mg tablets (Sanofi)
+^ESCTTR874684	Tritace 2.5mg tablets (Sanofi)
+^ESCTTR874687	Tritace 5mg tablets (Sanofi)
+^ESCTTR874690	Tritace 10mg tablets (Sanofi)
+^ESCTTR879801	Tritace 1.25mg capsules (Dowelhurst Ltd)
+^ESCTTR879807	Tritace 2.5mg capsules (Dowelhurst Ltd)
+^ESCTTR964057	Tritace titration pack tablets (Sanofi)
+^ESCTVA863279	Vascace 1mg tablets (Roche Products Ltd)
+^ESCTVA863295	Vascace 5mg tablets (Roche Products Ltd)
+^ESCTVA863306	Vascace 2.5mg tablets (Roche Products Ltd)
+^ESCTVA863916	Vascace 500microgram tablets (Roche Products Ltd)
+^ESCTVA879866	Vascace 1mg tablets (Dowelhurst Ltd)
+^ESCTVA879872	Vascace 5mg tablets (Dowelhurst Ltd)
+^ESCTVA879875	Vascace 500microgram tablets (Dowelhurst Ltd)
+^ESCTVA879888	Vascace 2.5mg tablets (Dowelhurst Ltd)
+^ESCTVA975155	Vascace 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTVA975157	Vascace 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTVA975159	Vascace 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTVA994243	Vascace 2.5mg tablets (Stephar (U.K.) Ltd)
+^ESCTZE1001743	Zestril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZE1008536	Zestril 20mg tablets (Necessity Supplies Ltd)
+^ESCTZE1008538	Zestril 5mg tablets (Necessity Supplies Ltd)
+^ESCTZE1121457	Zestril 10mg tablets (Waymade Healthcare Plc)
+^ESCTZE820305	Zestril 2.5mg tablets (AstraZeneca UK Ltd)
+^ESCTZE827065	Zestril 5mg tablets (AstraZeneca UK Ltd)
+^ESCTZE827246	Zestril 10mg tablets (AstraZeneca UK Ltd)
+^ESCTZE831254	Zestril 20mg tablets (AstraZeneca UK Ltd)
+^ESCTZE878427	Zestril 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTZE878432	Zestril 5mg tablets (Waymade Healthcare Plc)
+^ESCTZE878436	Zestril 20mg tablets (Waymade Healthcare Plc)
+^ESCTZE879862	Zestril 10mg tablets (Dowelhurst Ltd)
+^ESCTZE879869	Zestril 2.5mg tablets (Dowelhurst Ltd)
+^ESCTZE879876	Zestril 20mg tablets (Dowelhurst Ltd)
+^ESCTZE879879	Zestril 5mg tablets (Dowelhurst Ltd)
+^ESCTZE975332	Zestril 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZE992041	Zestril 5mg tablets (Lexon (UK) Ltd)
+^ESCTZE1008534	Zestoretic 20 tablets (Necessity Supplies Ltd)
+^ESCTZE859493	Zestoretic 20 tablets (AstraZeneca UK Ltd)
+^ESCTZE859505	Zestoretic 10 tablets (AstraZeneca UK Ltd)
+^ESCTZE878418	Zestoretic 20 tablets (Waymade Healthcare Plc)
+^ESCTZE879895	Zestoretic 20 tablets (Dowelhurst Ltd)
+^ESCTZE929721	Zestoretic 10 tablets (Waymade Healthcare Plc)
+^ESCTZE960316	Zestoretic 10 tablets (Dowelhurst Ltd)
+^ESCTZE967705	Zestoretic 20 tablets (DE Pharmaceuticals)
+^ESCTZE975328	Zestoretic 10 tablets (Sigma Pharmaceuticals Plc)
+^ESCTZE975330	Zestoretic 20 tablets (Sigma Pharmaceuticals Plc)
+^ESCTZE992039	Zestoretic 20 tablets (Lexon (UK) Ltd)
+^ESCTZO1146030	Zofenil 7.5mg tablets (Imported (Ireland))
+^ESCTZO1146040	Zofenil 30mg tablets (Imported (Ireland))
+^ESCTZO1146025	Zofenopril 7.5mg tablets
+^ESCTZO1146035	Zofenopril 30mg tablets
+^ESCT1265785	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267114	Triapin 5mg/5mg modified-release tablets (CST Pharma Ltd)
+^ESCT1267245	Zestril 10mg tablets (CST Pharma Ltd)
+^ESCT1267257	Zestril 5mg tablets (CST Pharma Ltd)
+^ESCT1267259	Zestril 20mg tablets (CST Pharma Ltd)
+^ESCT1267273	Zestoretic 10 tablets (CST Pharma Ltd)
+^ESCT1276849	Zestoretic 20 tablets (CST Pharma Ltd)
+^ESCT1303779	Lisoretic 20mg/12.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1303781	Lisoretic 10mg/12.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1306493	Ramipril 10mg capsules (Crescent Pharma Ltd)
+^ESCT1306495	Ramipril 2.5mg capsules (Crescent Pharma Ltd)
+^ESCT1374272	Ramipril 5mg capsules (Crescent Pharma Ltd)
+^ESCT1374756	Ramipril 2.5mg capsules (Milpharm Ltd)
+^ESCT1374758	Ramipril 5mg capsules (Milpharm Ltd)
+^ESCT1374995	Captopril 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374997	Captopril 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374999	Captopril 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375001	Captopril 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375003	Captopril 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375561	Enalapril 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375563	Enalapril 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375565	Enalapril 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375567	Enalapril 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375569	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375933	Fosinopril 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376110	Enalapril 20mg tablets (Imported)
+^ESCT1402028	Lisinopril 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402031	Lisinopril 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402033	Lisinopril 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402035	Lisinopril 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402037	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402039	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403319	Perindopril erbumine 2mg tablets (Medreich Plc)
+^ESCT1403321	Perindopril erbumine 4mg tablets (Medreich Plc)
+^ESCT1403323	Perindopril erbumine 8mg tablets (Medreich Plc)
+^ESCT1403506	Perindopril erbumine 8mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403508	Perindopril erbumine 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403510	Perindopril erbumine 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403691	Ramipril 1.25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403693	Ramipril 1.25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403695	Ramipril 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403699	Ramipril 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403709	Ramipril 2.5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403712	Ramipril 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403714	Ramipril 5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403717	Ramipril 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1405480	Enalapril 5mg tablets (Imported)
+^ESCT1429462	Ramipril 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429670	Trandolapril 500microgram capsules (Medihealth (Northern) Ltd)
+^ESCT1429672	Trandolapril 1mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429674	Trandolapril 2mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429676	Trandolapril 4mg capsules (Medihealth (Northern) Ltd)
+^ESCT1433766	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1436494	Enalapril 5mg tablets (Ria Generics Ltd)
+^ESCT1436496	Enalapril 10mg tablets (Ria Generics Ltd)
+^ESCT1436498	Enalapril 20mg tablets (Ria Generics Ltd)
+^ESCTCO877731	Coversyl 2mg tablets (Waymade Healthcare Plc)
+^ESCTCO879261	Coversyl 2mg tablets (Dowelhurst Ltd)
+^ESCTCO879290	Coversyl 4mg tablets (Dowelhurst Ltd)
+^ESCTCO930001	Coversyl 4mg tablets (Waymade Healthcare Plc)
+^ESCTCO959265	Coversyl 8mg tablets (Dowelhurst Ltd)
+^ESCTPE878654	Perindopril erbumine 4mg tablets (Dowelhurst Ltd)
+^ESCTPE960533	Perindopril erbumine 2mg tablets (Dowelhurst Ltd)
+^ESCTPE960539	Perindopril erbumine 8mg tablets (Dowelhurst Ltd)
+^ESCTTR607505	Trandolapril+verapamil hydrochloride 2mg/180mg m/r capsule	
+^ESCTVE607504	Verapamil 180mg modified-release / Trandolapril 2mg capsules	
+ENTA138199NEMIS	Enalapril Maleate (Imported)  Tablets  20 mg	
+ENTA138924NEMIS	Enalapril Maleate (Imported)  Tablets  5 mg	
+LITA135909NEMIS	Lisoretic  Tablets  10 mg + 12.5 mg	
+LITA135910NEMIS	Lisoretic  Tablets  20 mg + 12.5 mg	

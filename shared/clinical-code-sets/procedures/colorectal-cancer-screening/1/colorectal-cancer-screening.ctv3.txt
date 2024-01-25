@@ -10,3 +10,20 @@ XaN5C	Bowel cancer detected by national screening programme
 XaN2I	Bowel cancer screening programme administration
 XaMza	Bowel cancer screening programme
 XaabN	Bowel Cancer Screening Programme bowel scope screening test
+6864.	Colon neoplasm screen
+XaabO	Bowel scope (flexible sigmoidoscopy) screen: normal - no further action
+XaabO	Bowel scope (flexible sigmoidoscopy) screen: normal - no further action
+XaabP	Bowel scope (flexible sigmoidoscopy) screen: minor polyps removed - no follow up required
+XaabP	Bowel scope (flexible sigmoidoscopy) screen: minor polyps removed - no follow up required
+XaabQ	Bowel scope (flexible sigmoidoscopy) screen: referred for colonoscopy
+XaabQ	Bowel scope (flexible sigmoidoscopy) screen: referred for colonoscopy
+XaabR	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+XaabR	Bowel scope (flexible sigmoidoscopy) screen: cancer detected
+XaabS	Bowel scope (flexible sigmoidoscopy) screen: suspected cancer detected
+XaabS	Bowel scope (flexible sigmoidoscopy) screen: suspected cancer detected
+XaabT	Bowel scope (flexible sigmoidoscopy) screen: other abnormality detected
+XaabT	Bowel scope (flexible sigmoidoscopy) screen: other abnormality detected
+XabUF	Bowel scope (flexible sigmoidoscopy) screen: incidental findings
+XabUF	Bowel scope (flexible sigmoidoscopy) screen: incidental findings
+XM1Yi	Colon neoplasm screening
+XM1Yi	Colon neoplasm screening

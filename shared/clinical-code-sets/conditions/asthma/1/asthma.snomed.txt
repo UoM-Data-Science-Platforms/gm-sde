@@ -49,7 +49,6 @@
 707447008	Exacerbation of severe persistent asthma
 31387002	Exercise-induced asthma
 63088003	Extrinsic asthma without status asthmaticus
-13151001	Flax-dressers' disease
 161527007	H/O: asthma
 233683003	Hay fever with asthma
 424643009	IgE-mediated allergic asthma
@@ -100,3 +99,54 @@
 56968009	Wood asthma
 2010031000006100	Acute infective exacerbation of asthma
 2010041000006105	Acute non-infective exacerbation of asthma
+10676071000119109	Mild persistent asthma controlled (finding)
+10676631000119100	Moderate persistent allergic asthma uncontrolled (finding)
+10676351000119103	Moderate persistent asthma controlled (finding)
+735588005	Uncomplicated allergic asthma (disorder)
+370220003	Occasional asthma (disorder)
+10676031000119106	Mild persistent allergic asthma controlled (finding)
+735589002	Uncomplicated non-allergic asthma (disorder)
+782520007	Exacerbation of allergic asthma due to infection (disorder)
+89099002	Chronic allergic bronchitis (disorder)
+786836003	Near fatal asthma (disorder)
+442025000	Acute exacerbation of chronic asthmatic bronchitis (disorder)
+370218001	Mild asthma (disorder)
+427679007	Mild intermittent asthma (disorder)
+72301000119103	Asthma in pregnancy (disorder)
+10676591000119100	Moderate persistent controlled asthma co-occurrent with allergic rhinitis (disorder)
+405944004	Asthmatic bronchitis (disorder)
+10675591000119109	Severe persistent allergic asthma controlled (finding)
+10675631000119109	Severe persistent asthma controlled co-occurrent with allergic rhinitis (disorder)
+10676271000119104	Acute exacerbation of moderate persistent allergic asthma (disorder)
+735587000	Acute severe exacerbation of asthma co-occurrent and due to allergic asthma (disorder)
+10676551000119105	Moderate persistent allergic asthma controlled (finding)
+1103911000000103	Severe asthma with fungal sensitisation (disorder)
+10676191000119106	Mild persistent asthma uncontrolled (finding)
+10676671000119102	Moderate persistent asthma uncontrolled co-occurrent with allergic rhinitis (disorder)
+195949008	Chronic asthmatic bronchitis (disorder)
+10674991000119104	Intermittent allergic asthma (disorder)
+10676111000119102	Mild persistent asthma controlled co-occurrent with allergic rhinitis (disorder)
+233691007	Asthmatic pulmonary eosinophilia (disorder)
+829976001	Thunderstorm asthma (disorder)
+10675711000119106	Severe persistent asthma uncontrolled co-occurrent with allergic rhinitis (disorder)
+10674791000119101	Acute exacerbation of intermittent allergic asthma (disorder)
+10676231000119102	Mild persistent asthma uncontrolled co-occurrent with allergic rhinitis (disorder)
+407674008	Aspirin-induced asthma (disorder)
+10676151000119101	Mild persistent allergic asthma uncontrolled (finding)
+782513000	Acute severe exacerbation of allergic asthma (disorder)
+11944003	Feather-pickers' disease (disorder)
+10676711000119103	Moderate persistent asthma uncontrolled (finding)
+10675671000119107	Severe persistent allergic asthma uncontrolled (finding)
+762521001	Exacerbation of allergic asthma (disorder)
+641000119106	Intermittent asthma well controlled (finding)
+312453004	Asthma - currently active (finding)
+10692681000119108	Aspirin exacerbated respiratory disease (disorder)
+395022009	Asthma night-time symptoms (finding)
+195968006	Asthma: [extrinsic - atopic] or [allergic] or [pollen] or [childhood] or [with hay fever]
+195973000	(Intrinsic asthma) or (late onset asthma)
+195983001	(Asthma: [exercise induced] or [allergic NEC] or [NOS]) or (allergic bronchitis NEC)
+266396008	Extrinsic asthma - atopy (& pollen)
+266397004	Asthma: [intrinsic] or [late onset]
+266398009	Asthma: [NOS] or [attack]
+13151001	Flax-dressers' disease (disorder)
+85761009	Byssinosis (disorder)

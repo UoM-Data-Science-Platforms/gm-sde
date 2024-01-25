@@ -82,3 +82,16 @@ ACTA23754EMIS	Acarbose  Tablets  100 mg
 ACTA23755EMIS	Acarbose  Tablets  50 mg
 GLTA23750EMIS	Glucobay  Tablets  100 mg
 GLTA23751EMIS	Glucobay  Tablets  50 mg
+^ESCT1438595	Acarbose 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438596	Acarbose 50mg tablets (Viatris UK Healthcare Ltd) 90 tablet
+^ESCT1438597	Acarbose 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438598	Acarbose 100mg tablets (Viatris UK Healthcare Ltd) 90 tablet
+^ESCTAC878536	Acarbose 100mg tablets (Dowelhurst Ltd)
+^ESCTAC878735	Acarbose 50mg tablets (Dowelhurst Ltd)
+^ESCTGL1002486	Glucobay 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1009068	Glucobay 100mg tablets (Necessity Supplies Ltd)
+^ESCTGL1009071	Glucobay 50mg tablets (Necessity Supplies Ltd)
+^ESCTGL877907	Glucobay 50mg tablets (Waymade Healthcare Plc)
+^ESCTGL877913	Glucobay 100mg tablets (Waymade Healthcare Plc)
+^ESCTGL878527	Glucobay 100mg tablets (Dowelhurst Ltd)
+^ESCTGL879387	Glucobay 50mg tablets (Dowelhurst Ltd)

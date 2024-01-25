@@ -1,0 +1,64 @@
+1912002	Fall
+17886000	Fall from wheelchair
+20902002	Fall from bed
+33036003	Fall on same level
+40104005	Fall in home
+83468000	Fall from chair
+161898004	Falls
+213912005	Fall in train
+213917004	Fall on train
+213925002	Fall from train
+215634008	Fall on stairs in water transport
+216131006	Fall while on board aircraft
+217083007	Fall on or from stairs or steps
+217084001	Fall on or from escalator
+217086004	Fall from escalator
+217088003	Fall on or from stairs
+217090002	Fall from stairs
+217092005	Fall on or from steps
+217093000	Fall on steps
+217094006	Fall from steps
+217121009	Accident caused by fall into swimming pool
+217126004	Accidental fall into storm drain
+217130001	Fall into dock
+217150002	Fall from stationary vehicle
+217155007	Fall on same level from slipping
+217156008	Fall on same level from tripping
+217157004	Fall on same level from stumbling
+217158009	Fall on moving sidewalk
+217173005	Fall from bump against object
+225054009	Fell onto outstretched hand
+242079006	Fall from stationary railway vehicle
+242109009	Fall down stairs of motor bus while boarding or alighting
+242111000	Fall from car in street while boarding or alighting
+242112007	Fall from car while boarding or alighting due to tripping on seat belt
+242185001	Fall on wet deck on board vessel
+242387001	Fall due to slipping on ice or snow
+242389003	Fall due to wet surface
+242390007	Fall due to polished surface
+242391006	Fall due to discarded object
+242392004	Fall in bath or shower
+242393009	Fall due to defective pavement
+242394003	Fall due to accidental trip by another person
+242395002	Fall due to trip on loose carpet
+242396001	Fall due to uneven surface indoors
+242398000	Fall due to loss of equilibrium
+242399008	Fall due to failure of support
+242400001	Fall due to failure of rail
+242401002	Fall due to leaning on insecure furniture
+242402009	Fall on same level due to accidental impact with another person
+242404005	Fall due to impact against pedestrian conveyance
+242405006	Fall due to impact against baby buggy
+242406007	Fall due to impact against supermarket shopping cart
+242407003	Fall due to impact against wheelbarrow
+242414001	Fall from stool
+242417008	Fall from ambulance stretcher
+242419006	Fall from toilet seat
+269699007	Fall on same level from impact against object
+274918000	Fall on same level due to nature of surface
+274919008	Fall on same level due to impact against another person
+279992002	Recurrent falls
+404911003	Unexplained recurrent falls
+408561005	Falls caused by medication
+414190009	Fall on stairs
+429482004	Fall from high place (event)

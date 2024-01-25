@@ -1,0 +1,2200 @@
+^ESCT1174727	Lacidipine 2mg tablets (Creo Pharma Ltd)
+^ESCT1174728	Lacidipine 2mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1174729	Lacidipine 4mg tablets (Creo Pharma Ltd)
+^ESCT1174730	Lacidipine 4mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1176956	Amlodipine 5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176957	Amlodipine 5mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCT1176958	Amlodipine 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176959	Amlodipine 10mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCT1177878	Product containing only verapamil hydrochloride 120 mg/1 each oral tablet
+^ESCT1177914	Product containing only verapamil hydrochloride 40 mg/1 each oral tablet
+^ESCT1177915	Product containing only verapamil hydrochloride 80 mg/1 each oral tablet
+^ESCT1178023	Product containing only nicardipine hydrochloride 30 mg/1 each oral capsule
+^ESCT1178024	Product containing only nifedipine 10 mg/1 each oral capsule
+^ESCT1178102	Product containing only lacidipine 2 mg/1 each oral tablet
+^ESCT1178104	Product containing only lercanidipine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178666	Diltiazem 60mg modified-release tablets (Mylan)
+^ESCT1178685	Nicardipine 30mg capsules (Mylan)
+^ESCT1179484	Half Securon SR 120mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1179485	Securon SR 240mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1179517	Nicardipine 20mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1179543	Amlodipine 5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1179574	Tensipine MR 10 tablets (Thornton & Ross Ltd) 56 tablet 4 x 14 tablets
+^ESCT1179577	Adalat LA 20mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1179578	Tensipine MR 20 tablets (Thornton & Ross Ltd) 56 tablet 4 x 14 tablets
+^ESCT1179585	Dilcardia SR 60mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1179586	Diltiazem 60mg modified-release tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1179639	Adalat LA 30mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1180315	Verapamil 80mg tablets (Mylan)
+^ESCT1180348	Securon IV 5mg/2ml solution for injection ampoules (Mylan)
+^ESCT1180373	Felotens XL 5mg tablets (Thornton & Ross Ltd)
+^ESCT1180388	Felogen XL 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1181181	Product containing only verapamil hydrochloride 160 mg/1 each oral tablet
+^ESCT1181288	Product containing only nifedipine 5 mg/1 each oral capsule
+^ESCT1181289	Product containing only isradipine 2.5 mg/1 each oral tablet
+^ESCT1181996	Product containing only nimodipine 30 mg/1 each oral tablet
+^ESCT1183492	Nifedipine 5mg capsules (Mylan) 84 capsule 6 x 14 capsules
+^ESCT1183729	Verapamil 40mg tablets (Mylan)
+^ESCT1183831	Verapamil 240mg modified-release tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183961	Amlodipine 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184279	Dilcardia SR 120mg capsules (Mylan)
+^ESCT1184299	Nicardipine 20mg capsules (Mylan)
+^ESCT1184331	Securon IV 5mg/2ml solution for injection ampoules (Mylan) 5 ampoule
+^ESCT1184341	Felotens XL 10mg tablets (Thornton & Ross Ltd)
+^ESCT1185108	Product containing only amlodipine 2.5 mg/1 each oral tablet
+^ESCT1185578	Dilcardia SR 60mg capsules (Mylan)
+^ESCT1185584	Verapamil 160mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185585	Verapamil 120mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185586	Verapamil 80mg tablets (Mylan) 84 tablet 4 x 21 tablets
+^ESCT1185587	Verapamil 40mg tablets (Mylan) 84 tablet 4 x 21 tablets
+^ESCT1185616	Nicardipine 30mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1185637	Amlodipine 10mg tablets (Mylan)
+^ESCT1185690	Dilcardia SR 120mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1185944	Adalat LA 60mg tablets (Bayer Plc)
+^ESCT1185956	Coroday MR 20mg tablets (Mylan)
+^ESCT1185961	Dilcardia SR 90mg capsules (Mylan)
+^ESCT1186086	Lercanidipine 20mg tablets (Mylan)
+^ESCT1186087	Lercanidipine 10mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1186359	Verapamil 120mg tablets (Mylan)
+^ESCT1186389	Nifedipine 10mg capsules (Mylan)
+^ESCT1186390	Adalat LA 20mg tablets (Bayer Plc)
+^ESCT1186438	Felotens XL 10mg tablets (Thornton & Ross Ltd) 30 tablet 3 x 10 tablets
+^ESCT1186449	Felogen XL 5mg tablets (Mylan)
+^ESCT1186913	Felotens XL 2.5mg tablets (Thornton & Ross Ltd)
+^ESCT1186914	Felotens XL 2.5mg tablets (Thornton & Ross Ltd) 28 tablet 4 x 7 tablets
+^ESCT1187222	Product containing only nicardipine hydrochloride 20 mg/1 each oral capsule
+^ESCT1187224	Product containing only lacidipine 4 mg/1 each oral tablet
+^ESCT1188110	Tensipine MR 20 tablets (Thornton & Ross Ltd)
+^ESCT1188115	Tensipine MR 10 tablets (Thornton & Ross Ltd)
+^ESCT1188718	Amlodipine 5mg tablets (Mylan)
+^ESCT1188775	Nifedipine 10mg capsules (Mylan) 84 capsule 6 x 14 capsules
+^ESCT1188776	Adalat LA 60mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1188779	Coroday MR 20mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1188787	Dilcardia SR 90mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1188837	Adalat LA 30mg tablets (Bayer Plc)
+^ESCT1189299	Felotens XL 5mg tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCT1189300	Felotens XL 10mg tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCT1189326	Verapamil 240mg modified-release tablets (Mylan)
+^ESCT1189397	Lercanidipine 20mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1189398	Lercanidipine 10mg tablets (Mylan)
+^ESCT1189477	Securon SR 240mg tablets (Mylan)
+^ESCT1189481	Verapamil 160mg tablets (Mylan)
+^ESCT1189485	Nifedipine 5mg capsules (Mylan)
+^ESCT1189499	Half Securon SR 120mg tablets (Mylan)
+^ESCT1189539	Felotens XL 5mg tablets (Thornton & Ross Ltd) 30 tablet 3 x 10 tablets
+^ESCT1189552	Felogen XL 5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189553	Felogen XL 10mg tablets (Mylan)
+^ESCT1195051	Verapamil 120mg modified-release tablets
+^ESCT1195448	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd) 98 tablet 7 x 14 tablets
+^ESCT1195512	Diltiazem 60mg modified-release tablets (Crescent Pharma Ltd)
+^ESCT1195513	Diltiazem 60mg modified-release tablets (Crescent Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCT1199558	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1199612	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+^ESCT1199616	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1199676	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+^ESCT1215411	Nimodipine 10mg/50ml solution for infusion vials
+^ESCT1215412	Nisoldipine 10mg modified-release tablets
+^ESCT1215413	Nisoldipine 20mg modified-release tablets
+^ESCT1215414	Nisoldipine 30mg modified-release tablets
+^ESCT1216124	Verapamil 180mg modified-release capsules
+^ESCT1216125	Verapamil 5mg/2ml solution for injection ampoules
+^ESCT1216147	Amlodipine 5mg/5ml oral suspension sugar free 150 ml
+^ESCT1216148	Amlodipine 5mg/5ml oral suspension sugar free (Essential Pharmaceuticals Ltd)
+^ESCT1216149	Amlodipine 5mg/5ml oral suspension sugar free (Essential Pharmaceuticals Ltd) 150 ml
+^ESCT1216180	Amlodipine 5mg/5ml oral suspension sugar free
+^ESCT1216326	Verapamil 40mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1216327	Verapamil 40mg tablets (Genesis Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCT1216328	Verapamil 80mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1216329	Verapamil 80mg tablets (Genesis Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCT1216330	Verapamil 120mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1216331	Verapamil 120mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1222798	Product containing precisely verapamil hydrochloride 40 milligram/1 each conventional release oral tablet
+^ESCT1222799	Product containing precisely verapamil hydrochloride 80 milligram/1 each conventional release oral tablet
+^ESCT1222800	Product containing precisely verapamil hydrochloride 120 milligram/1 each conventional release oral tablet
+^ESCT1222801	Product containing precisely verapamil hydrochloride 160 milligram/1 each conventional release oral tablet
+^ESCT1223055	Product containing precisely nicardipine hydrochloride 20 milligram/1 each conventional release oral capsule
+^ESCT1223056	Nicardipine hydrochloride 20 mg oral capsule
+^ESCT1223057	Nicardipine hydrochloride 30 mg oral capsule
+^ESCT1223058	Product containing precisely nicardipine hydrochloride 30 milligram/1 each conventional release oral capsule
+^ESCT1223059	Product containing precisely nifedipine 5 milligram/1 each conventional release oral capsule
+^ESCT1223060	Nifedipine 5 mg oral capsule
+^ESCT1223061	Product containing precisely nifedipine 10 milligram/1 each conventional release oral capsule
+^ESCT1223062	Nifedipine 10 mg oral capsule
+^ESCT1223063	Product containing precisely isradipine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223075	Product containing precisely lacidipine 2 milligram/1 each conventional release oral tablet
+^ESCT1223076	Product containing precisely lacidipine 4 milligram/1 each conventional release oral tablet
+^ESCT1223081	Product containing precisely lercanidipine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1224010	Product containing precisely nimodipine 30 milligram/1 each conventional release oral tablet
+^ESCT1234827	Amlodipine 2.5 mg oral tablet
+^ESCT1234828	Amlodipine besilate 2.5 mg oral tablet
+^ESCT1234829	Product containing precisely amlodipine besilate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1234830	Amlodipine besylate 2.5 mg oral tablet
+^ESCT1250012	Fortipine LA 40 tablets (Advanz Pharma)
+^ESCT1250019	Nifopress Retard 20mg tablets (Advanz Pharma)
+^ESCT1250103	Nifopress Retard 20mg tablets (Advanz Pharma) 56 tablet 2 x 28 tablets
+^ESCT1250104	Nifopress Retard 20mg tablets (Advanz Pharma) 112 tablet 8 x 14 tablets
+^ESCT1250125	Fortipine LA 40 tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250349	Amlodipine 10mg tablets (Advanz Pharma)
+^ESCT1250350	Amlodipine 10mg tablets (Advanz Pharma) 28 tablet
+^ESCT1250351	Amlodipine 5mg tablets (Advanz Pharma)
+^ESCT1250352	Amlodipine 5mg tablets (Advanz Pharma) 28 tablet
+^ESCT1250534	Adanif XL 30mg tablets (Advanz Pharma)
+^ESCT1250535	Adanif XL 30mg tablets (Advanz Pharma) 28 tablet
+^ESCT1250536	Adanif XL 60mg tablets (Advanz Pharma)
+^ESCT1250537	Adanif XL 60mg tablets (Advanz Pharma) 28 tablet
+^ESCT1255496	Verapamil 120mg modified-release capsules
+^ESCT1256652	Amlodipine 5mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1256656	Amlodipine 5mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1258417	Nifedipine 5mg capsules (Strides Pharma UK Ltd)
+^ESCT1258418	Nifedipine 5mg capsules (Strides Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1258419	Nifedipine 10mg capsules (Strides Pharma UK Ltd)
+^ESCT1258420	Nifedipine 10mg capsules (Strides Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1259106	Lercanidipine 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259107	Lercanidipine 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259108	Lercanidipine 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259110	Lercanidipine 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259287	Amlodipine 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259289	Amlodipine 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259294	Amlodipine 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259295	Amlodipine 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1264145	Amlodipine 5mg tablets 500 tablet
+^ESCT1264147	Amlodipine 5mg tablets (Mylan) 500 tablet
+^ESCT1264148	Amlodipine 10mg tablets 500 tablet
+^ESCT1264149	Amlodipine 10mg tablets (Mylan) 500 tablet
+^ESCT1264310	Lacidipine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264313	Lacidipine 2mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264315	Lacidipine 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264316	Lacidipine 4mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1265072	Amlodipine 5mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1265073	Amlodipine 5mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1265352	Nifedipine 5mg capsules (Relonchem Ltd)
+^ESCT1265354	Nifedipine 5mg capsules (Relonchem Ltd) 90 capsule 9 x 10 capsules
+^ESCT1265356	Nifedipine 10mg capsules (Relonchem Ltd)
+^ESCT1265358	Nifedipine 10mg capsules (Relonchem Ltd) 90 capsule 9 x 10 capsules
+^ESCT1265882	Verapamil 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265883	Verapamil 40mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCT1265884	Verapamil 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265885	Verapamil 80mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCT1266201	Nimodipine 10mg/50ml solution for infusion vials 1 vial
+^ESCT1266202	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc) 1 vial
+^ESCT1268087	Zildil 90mg modified-release capsules (Healthcare Pharma Ltd)
+^ESCT1268112	Zildil SR 120mg capsules (Healthcare Pharma Ltd)
+^ESCT1268115	Zildil SR 60mg capsules (Healthcare Pharma Ltd)
+^ESCT1268151	Zildil SR 60mg capsules (Healthcare Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1268152	Zildil 90mg modified-release capsules (Healthcare Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1268153	Zildil SR 120mg capsules (Healthcare Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1270572	Lacidipine 2mg tablets (Mylan)
+^ESCT1270573	Lacidipine 2mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1270574	Lacidipine 4mg tablets (Mylan)
+^ESCT1270575	Lacidipine 4mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1271096	Amlodipine 5mg tablets (F D C International Ltd) 28 tablet
+^ESCT1271097	Amlodipine 10mg tablets (F D C International Ltd)
+^ESCT1271098	Amlodipine 10mg tablets (F D C International Ltd) 28 tablet
+^ESCT1271099	Amlodipine 5mg tablets (F D C International Ltd)
+^ESCT1275129	Diltiazem 60mg modified-release tablets 50 tablet
+^ESCT1275330	Amlodipine 5mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCT1275331	Amlodipine 10mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCT1275413	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1275414	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1276165	Amlodipine 5mg tablets (FDC International Ltd) 28 tablet
+^ESCT1276166	Amlodipine 10mg tablets (FDC International Ltd)
+^ESCT1276167	Amlodipine 10mg tablets (FDC International Ltd) 28 tablet
+^ESCT1276168	Amlodipine 5mg tablets (FDC International Ltd)
+^ESCT1276814	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd) 90 capsule 9 x 10 capsules
+^ESCT1276815	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 90 capsule 9 x 10 capsules
+^ESCT1276858	Amlodipine 10mg tablets (Dawa Ltd)
+^ESCT1276859	Amlodipine 10mg tablets (Dawa Ltd) 28 tablet
+^ESCT1276860	Amlodipine 5mg tablets (Dawa Ltd)
+^ESCT1276861	Amlodipine 5mg tablets (Dawa Ltd) 28 tablet
+^ESCT1279007	Lacidipine 2mg tablets (Zentiva)
+^ESCT1279008	Lacidipine 2mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCT1279009	Lacidipine 4mg tablets (Zentiva)
+^ESCT1279010	Lacidipine 4mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCT1279783	Vascalpha 5mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1279784	Vascalpha 5mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1279785	Vascalpha 10mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1279786	Vascalpha 10mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1280033	Amlodipine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1280897	Lacidipine 6mg tablets 28 tablet
+^ESCT1280898	Lacidipine 6mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1280899	Lacidipine 6mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1280909	Lacidipine 6mg tablets
+^ESCT1299835	Lercanidipine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1299836	Lercanidipine 10mg tablets (Accord Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1299837	Lercanidipine 20mg tablets (Accord Healthcare Ltd)
+^ESCT1299838	Lercanidipine 20mg tablets (Accord Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1300388	Amlodipine 2.5mg tablets 28 tablet
+^ESCT1300390	Amlodipine 2.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1300391	Amlodipine 2.5mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1301178	Amlodipine 2.5mg tablets
+^ESCT1301184	Istin 5mg tablets (Upjohn Ltd)
+^ESCT1301192	Istin 10mg tablets (Upjohn Ltd)
+^ESCT1301249	Istin 5mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1301250	Istin 10mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303067	Amlodipine 5mg tablets (FDC Pharma) 28 tablet
+^ESCT1303068	Amlodipine 10mg tablets (FDC Pharma)
+^ESCT1303069	Amlodipine 10mg tablets (FDC Pharma) 28 tablet
+^ESCT1303070	Amlodipine 5mg tablets (FDC Pharma)
+^ESCT1303901	Istin 5mg tablets (Upjohn UK Ltd)
+^ESCT1303909	Istin 10mg tablets (Upjohn UK Ltd)
+^ESCT1303930	Istin 5mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303931	Istin 10mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1304621	Vascalpha 10mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1304622	Vascalpha 10mg modified-release tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1304623	Vascalpha 5mg modified-release tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1304624	Vascalpha 5mg modified-release tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1304625	Amlodipine 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1304626	Amlodipine 10mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1372316	Amlodipine 5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1372322	Amlodipine 5mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1374274	Amlodipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1374275	Amlodipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1374362	Verapamil 240mg modified-release tablets
+^ESCT1374677	Amlodipine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374678	Amlodipine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374679	Amlodipine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374680	Amlodipine 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375693	Nifedipine 60mg modified-release capsules
+^ESCT1376096	Amlodipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1376097	Amlodipine 2.5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376193	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1376194	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376216	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1376219	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389334	Amlodipine 5mg tablets (Milpharm Ltd)
+^ESCT1389335	Amlodipine 5mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1389336	Amlodipine 10mg tablets (Milpharm Ltd)
+^ESCT1389337	Amlodipine 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1401956	Lacidipine 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401957	Lacidipine 2mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1401958	Lacidipine 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401959	Lacidipine 4mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1401973	Lercanidipine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401975	Lercanidipine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1401976	Lercanidipine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401978	Lercanidipine 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402049	Felodipine 2.5mg modified-release tablets
+^ESCT1402051	Felodipine 10mg modified-release tablets
+^ESCT1402052	Felodipine 5mg modified-release tablets
+^ESCT1402056	Verapamil 240mg modified-release capsules
+^ESCT1402063	Nicardipine 30mg modified-release capsules
+^ESCT1402064	Nicardipine 45mg modified-release capsules
+^ESCT1402071	Nifedipine 20mg modified-release capsules
+^ESCT1402072	Nifedipine 60mg modified-release tablets
+^ESCT1402073	Nifedipine 10mg modified-release tablets
+^ESCT1402074	Nifedipine 20mg modified-release tablets
+^ESCT1402075	Nifedipine 10mg modified-release capsules
+^ESCT1402076	Diltiazem 60mg modified-release capsules
+^ESCT1402077	Diltiazem 90mg modified-release capsules
+^ESCT1402078	Diltiazem 120mg modified-release capsules
+^ESCT1402079	Diltiazem 180mg modified-release capsules
+^ESCT1402080	Diltiazem 200mg modified-release capsules
+^ESCT1402081	Diltiazem 240mg modified-release capsules
+^ESCT1402082	Diltiazem 300mg modified-release capsules
+^ESCT1402083	Diltiazem 360mg modified-release capsules
+^ESCT1402084	Diltiazem 60mg modified-release tablets
+^ESCT1402085	Diltiazem 90mg modified-release tablets
+^ESCT1402086	Diltiazem 120mg modified-release tablets
+^ESCT1402345	Nicardipine 20mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402346	Nicardipine 20mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1402347	Nicardipine 30mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402348	Nicardipine 30mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1402394	Nifedipine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402395	Nifedipine 10mg capsules (Medihealth (Northern) Ltd) 90 capsule
+^ESCT1402396	Nifedipine 10mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1402835	Nifedipine 30mg modified-release capsules
+^ESCT1402836	Nifedipine 40mg modified-release tablets
+^ESCT1402877	Nifedipine 30mg modified-release tablets
+^ESCT1403780	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd)
+^ESCT1403781	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd) 56 tablet 2 x 28 tablets
+^ESCT1405452	Amlodipine 5mg tablets (Accord Healthcare Ltd) 500 tablet
+^ESCT1405453	Amlodipine 10mg tablets (Accord Healthcare Ltd) 500 tablet
+^ESCT1409468	Verapamil 80mg tablets (Accord Healthcare Ltd)
+^ESCT1409514	Slozem 180mg capsules (Zentiva)
+^ESCT1409521	Slozem 120mg capsules (Zentiva)
+^ESCT1409598	Verapamil 160mg tablets (Accord Healthcare Ltd)
+^ESCT1409612	Verapamil 120mg tablets (Accord Healthcare Ltd)
+^ESCT1409639	Slozem 300mg capsules (Zentiva)
+^ESCT1409685	Slozem 240mg capsules (Zentiva)
+^ESCT1409753	Verapamil 40mg tablets (Accord Healthcare Ltd)
+^ESCT1409770	Diltiazem 60mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1409786	Verapamil 160mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1409790	Verapamil 120mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409791	Verapamil 80mg tablets (Accord Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1409792	Verapamil 40mg tablets (Accord Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1409904	Slozem 120mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCT1409905	Slozem 180mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCT1409906	Slozem 240mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCT1409907	Slozem 300mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCT1409908	Diltiazem 60mg modified-release tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1411046	Vera-Til SR 240mg tablets (Accord Healthcare Ltd)
+^ESCT1411048	Vera-Til SR 240mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1411050	Vera-Til SR 120mg tablets (Accord Healthcare Ltd)
+^ESCT1411051	Vera-Til SR 120mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1411452	Diltiazem 60mg modified-release tablets (Accord Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1419081	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCT1419084	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCT1421663	Slozem 180mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421667	Slozem 120mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421757	Slozem 300mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421764	Slozem 240mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421766	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd)
+^ESCT1421920	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1421921	Slozem 120mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1421922	Slozem 180mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1421923	Slozem 240mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1421924	Slozem 300mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1421969	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421970	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422129	Amlodipine 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422130	Amlodipine 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422131	Amlodipine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422132	Amlodipine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422249	Valni XL 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422250	Valni XL 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422251	Valni XL 60mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422252	Valni XL 60mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422377	Lercanidipine 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422378	Lercanidipine 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422379	Lercanidipine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422380	Lercanidipine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422840	Lacidipine 2mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422841	Lacidipine 2mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422842	Lacidipine 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422843	Lacidipine 4mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1423931	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order) 30 ml
+^ESCT1425160	Amlodipine 10mg tablets
+^ESCT1425161	Amlodipine 5mg tablets
+^ESCT1425514	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd)
+^ESCT1425522	Verapamil 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425537	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425542	Verapamil 160mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425553	Nicardipine 30mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425644	Nicardipine 20mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425695	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425737	Verapamil 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425803	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd)
+^ESCT1425890	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1425895	Verapamil 120mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425921	Verapamil 160mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425925	Verapamil 120mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425926	Verapamil 80mg tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1425927	Verapamil 80mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425928	Verapamil 40mg tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1425929	Verapamil 40mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426105	Nicardipine 30mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1426114	Nicardipine 20mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1426241	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1426246	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426247	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426248	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1426251	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd) 100 tablet 4 x 25 tablets
+^ESCT1426378	Verapamil 160mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426695	Verapamil 120mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426800	Amlodipine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426801	Amlodipine 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426802	Amlodipine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426803	Amlodipine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426819	Verapamil 240mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1426820	Verapamil 240mg modified-release tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426896	Neofel XL 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426897	Neofel XL 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426898	Neofel XL 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426899	Neofel XL 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426936	Kenzem SR 60mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426937	Kenzem SR 60mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1426938	Kenzem SR 90mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426939	Kenzem SR 90mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1426940	Kenzem SR 120mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426941	Kenzem SR 120mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427096	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427097	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427098	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427099	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427123	Neofel XL 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427124	Neofel XL 2.5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427241	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order)
+^ESCT1427242	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order) 1 ml
+^ESCT1427679	Diltiazem 60mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427680	Diltiazem 60mg modified-release tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1427721	Lacidipine 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427722	Lacidipine 2mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427723	Lacidipine 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427724	Lacidipine 4mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427725	Lercanidipine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427726	Lercanidipine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427774	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427775	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1427776	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427777	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1427886	Retalzem 60 modified-release tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1429015	Amlodipine 10mg tablets (Medihealth (Northern) Ltd) 500 tablet
+^ESCT1429016	Amlodipine 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429017	Amlodipine 2.5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429018	Amlodipine 5mg tablets (Medihealth (Northern) Ltd) 500 tablet
+^ESCT1429019	Amlodipine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429020	Amlodipine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1429377	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd) 90 capsule
+^ESCT1429378	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd) 90 capsule
+^ESCT1429397	Nifedipine 5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429398	Nifedipine 5mg capsules (Medihealth (Northern) Ltd) 90 capsule
+^ESCT1429688	Verapamil 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429689	Verapamil 80mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1429690	Verapamil 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429691	Verapamil 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1429692	Verapamil 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429693	Verapamil 40mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1429694	Verapamil 160mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429695	Verapamil 160mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429696	Verapamil 120mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429697	Verapamil 120mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1433031	Amlodipine 10mg tablets (Crescent Pharma Ltd)
+^ESCT1433032	Amlodipine 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433033	Amlodipine 5mg tablets (Crescent Pharma Ltd)
+^ESCT1433035	Amlodipine 5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1434103	Folpik XL 2.5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1434104	Folpik XL 2.5mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1434589	Amlodipine 2.5mg tablets (DE Pharmaceuticals)
+^ESCT1434590	Amlodipine 2.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1434591	Amlodipine 5mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1434592	Amlodipine 5mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1434742	Nifedipine 5mg capsules (DE Pharmaceuticals)
+^ESCT1434743	Nifedipine 5mg capsules (DE Pharmaceuticals) 90 capsule
+^ESCT1434959	Verapamil 40mg/5ml oral solution sugar free (Essential Pharma Ltd)
+^ESCT1434960	Verapamil 40mg/5ml oral solution sugar free (Essential Pharma Ltd) 150 ml
+^ESCT1435001	Amlodipine 5mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1435002	Amlodipine 5mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1436788	Verapamil 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436815	Istin 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436868	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436883	Dilcardia SR 90mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436902	Istin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436931	Verapamil 120mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436935	Diltiazem 60mg modified-release tablets (Viatris UK Healthcare Ltd)
+^ESCT1436953	Securon SR 240mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436972	Verapamil 160mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436989	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437004	Nicardipine 30mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437010	Dilcardia SR 120mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437037	Verapamil 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437049	Half Securon SR 120mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437054	Nicardipine 20mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437060	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437091	Dilcardia SR 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437103	Verapamil 160mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437107	Verapamil 120mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437108	Verapamil 80mg tablets (Viatris UK Healthcare Ltd) 84 tablet 4 x 21 tablets
+^ESCT1437109	Verapamil 40mg tablets (Viatris UK Healthcare Ltd) 84 tablet 4 x 21 tablets
+^ESCT1437110	Half Securon SR 120mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437111	Istin 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437112	Istin 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437113	Securon SR 240mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437232	Nicardipine 30mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437239	Nicardipine 20mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437316	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1437320	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437321	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1437328	Dilcardia SR 60mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437329	Dilcardia SR 90mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437330	Dilcardia SR 120mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1437331	Diltiazem 60mg modified-release tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1437697	Securon IV 5mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437698	Securon IV 5mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd) 5 ampoule
+^ESCT1437750	Felogen XL 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437751	Felogen XL 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437752	Felogen XL 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437753	Felogen XL 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437779	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437780	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437781	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437798	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437921	Verapamil 240mg modified-release tablets (Viatris UK Healthcare Ltd)
+^ESCT1437922	Verapamil 240mg modified-release tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438229	Lercanidipine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438230	Lercanidipine 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1438231	Lercanidipine 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438232	Lercanidipine 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1439106	Lacidipine 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439107	Lacidipine 2mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1439108	Lacidipine 4mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439109	Lacidipine 4mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1439118	Amlodipine 5mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1439119	Amlodipine 10mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1439788	Amlodipine 5mg / Valsartan 80mg tablets 30 tablet
+^ESCT1439873	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order) 60 tablet
+^ESCT1441018	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order)
+^ESCT1441019	Trimetazidine 35mg modified-release tablets (Part VIIID Drug Tariff Special Order) 1 tablet
+^ESCTAD1003480	Adanif XL 30mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAD1003481	Adanif XL 30mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAD1003482	Adanif XL 60mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAD1003483	Adanif XL 60mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAD798149	Adalat retard 20mg tablets (Bayer Plc)
+^ESCTAD801371	Adalat 5mg capsules (Bayer Plc)
+^ESCTAD802323	Adipine MR 20 tablets (Chiesi Ltd)
+^ESCTAD807361	Adalat LA 60 tablets (Bayer Plc)
+^ESCTAD820094	Adalat retard 10mg tablets (Bayer Plc)
+^ESCTAD824416	Adalat 10mg capsules (Bayer Plc)
+^ESCTAD827739	Adipine MR 10 tablets (Chiesi Ltd)
+^ESCTAD830791	Adalat LA 20 tablets (Bayer Plc)
+^ESCTAD852564	Adalat 10mg capsules (Bayer Plc) 90 capsule 9 x 10 capsules
+^ESCTAD852580	Adalat LA 60 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD852669	Adalat retard 10mg tablets (Bayer Plc) 56 tablet 4 x 14 tablets
+^ESCTAD852684	Adipine MR 10 tablets (Chiesi Ltd) 56 tablet 4 x 14 tablets
+^ESCTAD852708	Adalat retard 20mg tablets (Bayer Plc) 56 tablet 4 x 14 tablets
+^ESCTAD852709	Adalat LA 20 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD852732	Adipine MR 20 tablets (Chiesi Ltd) 56 tablet 4 x 14 tablets
+^ESCTAD852737	Adalat 5mg capsules (Bayer Plc) 90 capsule 9 x 10 capsules
+^ESCTAD857714	Adalat LA 30 tablets (Bayer Plc)
+^ESCTAD857715	Adalat LA 30 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD857732	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTAD857734	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAD857737	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857738	Adizem-XL 300mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD857739	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857740	Adizem-XL 240mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD857741	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857742	Adizem-XL 200mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD857743	Adizem-SR 180mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857744	Adizem-SR 180mg capsules (Napp Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAD857745	Adizem-SR 90mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857746	Adizem-SR 90mg capsules (Napp Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAD857748	Adizem-SR 120mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD857749	Adizem-SR 120mg capsules (Napp Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAD858180	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD858181	Adizem-XL 120mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD858182	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTAD858183	Adizem-XL 180mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD912181	Adipine XL 30mg tablets (Chiesi Ltd)
+^ESCTAD912182	Adipine XL 30mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTAD912183	Adipine XL 60mg tablets (Chiesi Ltd)
+^ESCTAD912184	Adipine XL 60mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1004587	Amlodipine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004590	Amlodipine 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1004591	Amlodipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004593	Amlodipine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1010847	Amlodipine 10mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010848	Amlodipine 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1010849	Amlodipine 5mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010850	Amlodipine 5mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1017552	Amlodipine 5mg tablets (Somex Pharma)
+^ESCTAM1017553	Amlodipine 5mg tablets (Somex Pharma) 28 tablet 2 x 14 tablets
+^ESCTAM1017554	Amlodipine 10mg tablets (Somex Pharma)
+^ESCTAM1017555	Amlodipine 10mg tablets (Somex Pharma) 28 tablet 2 x 14 tablets
+^ESCTAM1021391	Amlodipine 10mg/5ml oral suspension 100 ml
+^ESCTAM1021392	Amlodipine 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCTAM1021393	Amlodipine 5mg/5ml oral solution 150 ml
+^ESCTAM1021394	Amlodipine 5mg/5ml oral solution (Special Order) 150 ml
+^ESCTAM1021396	Amlodipine 5mg/5ml oral suspension 100 ml
+^ESCTAM1021398	Amlodipine 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTAM1022393	Amlodipine 10mg tablets (DE Pharmaceuticals)
+^ESCTAM1022395	Amlodipine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1022397	Amlodipine 5mg tablets (DE Pharmaceuticals)
+^ESCTAM1022399	Amlodipine 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1023544	Amlodipine 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTAM1023545	Amlodipine 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1023546	Amlodipine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTAM1023547	Amlodipine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1024250	Amlodipine 10mg/5ml oral suspension 70 ml
+^ESCTAM1024251	Amlodipine 10mg/5ml oral suspension (Special Order) 70 ml
+^ESCTAM1028908	Amlodipine 10mg/5ml oral solution 1 ml
+^ESCTAM1028909	Amlodipine 10mg/5ml oral solution 150 ml
+^ESCTAM1028910	Amlodipine 10mg/5ml oral solution (Special Order)
+^ESCTAM1028912	Amlodipine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM1028914	Amlodipine 10mg/5ml oral solution (Special Order) 150 ml
+^ESCTAM1029381	Amlodipine 10mg/5ml oral solution
+^ESCTAM1044233	Amlodipine 5mg tablets (Waymade Healthcare Plc)
+^ESCTAM1044234	Amlodipine 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1044235	Amlodipine 10mg tablets (Waymade Healthcare Plc)
+^ESCTAM1044236	Amlodipine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1116959	Amlodipine 10mg/5ml oral solution sugar free 150 ml
+^ESCTAM1116960	Amlodipine 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM1116961	Amlodipine 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM1116962	Amlodipine 5mg/5ml oral solution sugar free 150 ml
+^ESCTAM1116963	Amlodipine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM1116964	Amlodipine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM1116967	Amlodipine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1116968	Amlodipine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM1116969	Amlodipine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1116970	Amlodipine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM1117393	Amlodipine 10mg/5ml oral solution sugar free
+^ESCTAM1117394	Amlodipine 5mg/5ml oral solution sugar free
+^ESCTAM1118342	Amlodipine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1118343	Amlodipine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM1118344	Amlodipine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1118345	Amlodipine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM1118879	Amlodipine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118880	Amlodipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118881	Amlodipine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1118908	Amlodipine 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1120898	Amlodipine 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1120900	Amlodipine 5mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1120903	Amlodipine 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1120905	Amlodipine 10mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1126703	Amlodipine 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1126704	Amlodipine 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1126705	Amlodipine 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1126706	Amlodipine 10mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1146150	Amlodipine 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1146151	Amlodipine 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM710953	Amlodipine 2.5 mg oral tablet
+^ESCTAM837406	Amlodipine 5mg tablets 28 tablet
+^ESCTAM848285	Amlodipine 10mg tablets 28 tablet
+^ESCTAM877540	Amlodipine 10mg tablets 30 tablet
+^ESCTAM877541	Amlodipine 5mg tablets 30 tablet
+^ESCTAM878576	Amlodipine 10mg tablets 14 tablet
+^ESCTAM896240	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM896241	Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896242	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM896243	Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896244	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM896245	Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896246	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM896247	Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896248	Amlodipine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM896249	Amlodipine 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896268	Amlodipine 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM896269	Amlodipine 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896475	Amlodipine 5mg tablets (Teva UK Ltd)
+^ESCTAM896476	Amlodipine 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896477	Amlodipine 10mg tablets (Teva UK Ltd)
+^ESCTAM896478	Amlodipine 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896816	Amlodipine 5mg tablets (Sandoz Ltd)
+^ESCTAM896817	Amlodipine 5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896818	Amlodipine 10mg tablets (Sandoz Ltd)
+^ESCTAM896819	Amlodipine 10mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896838	Amlodipine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM896839	Amlodipine 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896840	Amlodipine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM896841	Amlodipine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896947	Amlodipine 5mg tablets (Mylan Ltd)
+^ESCTAM896948	Amlodipine 10mg tablets (Mylan Ltd)
+^ESCTAM896949	Amlodipine 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM896968	Amlodipine 5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM898232	Amlodipine 5mg tablets (Sterwin Medicines)
+^ESCTAM898233	Amlodipine 5mg tablets (Sterwin Medicines) 28 tablet 2 x 14 tablets
+^ESCTAM898235	Amlodipine 10mg tablets (Sterwin Medicines)
+^ESCTAM898236	Amlodipine 10mg tablets (Sterwin Medicines) 28 tablet 2 x 14 tablets
+^ESCTAM902579	Amlodipine 5mg tablets (Actavis UK Ltd)
+^ESCTAM902580	Amlodipine 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM902581	Amlodipine 10mg tablets (Actavis UK Ltd)
+^ESCTAM902582	Amlodipine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM902643	Amlostin 5mg tablets (Discovery Pharmaceuticals)
+^ESCTAM902644	Amlostin 5mg tablets (Discovery Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTAM902645	Amlostin 10mg tablets (Discovery Pharmaceuticals)
+^ESCTAM902646	Amlostin 10mg tablets (Discovery Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTAM904423	Amlodipine 2.5mg/5ml oral suspension 1 ml
+^ESCTAM904425	Amlodipine 2.5mg/5ml oral suspension (Special Order)
+^ESCTAM904427	Amlodipine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904431	Amlodipine 5mg/5ml oral suspension 1 ml
+^ESCTAM904433	Amlodipine 5mg/5ml oral suspension (Special Order)
+^ESCTAM904436	Amlodipine 10mg/5ml oral suspension 1 ml
+^ESCTAM904437	Amlodipine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904438	Amlodipine 10mg/5ml oral suspension (Special Order)
+^ESCTAM904441	Amlodipine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904739	Amlodipine 10mg/5ml oral suspension
+^ESCTAM904740	Amlodipine 2.5mg/5ml oral suspension
+^ESCTAM904741	Amlodipine 5mg/5ml oral suspension
+^ESCTAM920068	Amlodipine 5mg tablets (Zentiva)
+^ESCTAM920069	Amlodipine 5mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTAM920071	Amlodipine 10mg tablets (Zentiva)
+^ESCTAM920073	Amlodipine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTAM927763	Amlodipine 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAM927765	Amlodipine 10mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAM927767	Amlodipine 5mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAM927769	Amlodipine 5mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAM928729	Amlodipine 5mg tablets (Arrow Generics Ltd)
+^ESCTAM928731	Amlodipine 5mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTAM928732	Amlodipine 10mg tablets (Arrow Generics Ltd)
+^ESCTAM928734	Amlodipine 10mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTAM935266	Amlodipine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAM935269	Amlodipine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTAM935271	Amlodipine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAM935273	Amlodipine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTAM936857	Amlodipine 10mg / Valsartan 160mg tablets
+^ESCTAM936858	Amlodipine 5mg / Valsartan 160mg tablets
+^ESCTAM936859	Amlodipine 5mg / Valsartan 80mg tablets
+^ESCTAM936862	Amlodipine 10mg / Valsartan 160mg tablets 28 tablet
+^ESCTAM936870	Amlodipine 5mg / Valsartan 160mg tablets 28 tablet
+^ESCTAM936873	Amlodipine 5mg / Valsartan 80mg tablets 28 tablet
+^ESCTAM939321	Amlodipine 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM939323	Amlodipine 5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM939325	Amlodipine 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM939326	Amlodipine 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM941963	Amlodipine 4mg/5ml oral suspension 1 ml
+^ESCTAM941964	Amlodipine 4mg/5ml oral suspension (Special Order)
+^ESCTAM941965	Amlodipine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM941966	Amlodipine 4mg/5ml oral solution 1 ml
+^ESCTAM941967	Amlodipine 4mg/5ml oral solution (Special Order)
+^ESCTAM941968	Amlodipine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941972	Amlodipine 50mg/5ml oral suspension 1 ml
+^ESCTAM941973	Amlodipine 50mg/5ml oral suspension (Special Order)
+^ESCTAM941974	Amlodipine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM941978	Amlodipine 50mg/5ml oral solution 1 ml
+^ESCTAM941979	Amlodipine 50mg/5ml oral solution (Special Order)
+^ESCTAM941980	Amlodipine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM942277	Amlodipine 4mg/5ml oral solution
+^ESCTAM942278	Amlodipine 4mg/5ml oral suspension
+^ESCTAM942280	Amlodipine 50mg/5ml oral solution
+^ESCTAM942282	Amlodipine 50mg/5ml oral suspension
+^ESCTAM959780	Amlodipine 5mg / Valsartan 80mg tablets 14 tablet
+^ESCTAM959783	Amlodipine 5mg / Valsartan 160mg tablets 14 tablet
+^ESCTAM959786	Amlodipine 10mg / Valsartan 160mg tablets 14 tablet
+^ESCTAM965622	Amlodipine 10mg tablets (Apotex UK Ltd)
+^ESCTAM965623	Amlodipine 10mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM965624	Amlodipine 5mg tablets (Apotex UK Ltd)
+^ESCTAM965625	Amlodipine 5mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM966724	Amlodipine 5mg/5ml oral solution 1 ml
+^ESCTAM966725	Amlodipine 5mg/5ml oral solution (Special Order)
+^ESCTAM966726	Amlodipine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM966816	Amlodipine 5mg/5ml oral solution
+^ESCTAM968950	Amlodipine 5mg tablets (Consilient Health Ltd)
+^ESCTAM968954	Amlodipine 5mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTAM968958	Amlodipine 10mg tablets (Consilient Health Ltd)
+^ESCTAM968959	Amlodipine 10mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTAM975343	Amlodipine 5mg tablets (Wockhardt UK Ltd)
+^ESCTAM975344	Amlodipine 5mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM975345	Amlodipine 10mg tablets (Wockhardt UK Ltd)
+^ESCTAM975346	Amlodipine 10mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM978127	Amlodipine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978128	Amlodipine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM978131	Amlodipine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978132	Amlodipine 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM983759	Amlodipine 2mg/5ml oral suspension 1 ml
+^ESCTAM983760	Amlodipine 2mg/5ml oral suspension (Special Order)
+^ESCTAM983761	Amlodipine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM983762	Amlodipine 2mg/5ml oral solution 1 ml
+^ESCTAM983763	Amlodipine 2mg/5ml oral solution (Special Order)
+^ESCTAM983764	Amlodipine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM983765	Amlodipine 1.5mg/5ml oral solution 1 ml
+^ESCTAM983766	Amlodipine 1.5mg/5ml oral solution (Special Order)
+^ESCTAM983767	Amlodipine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM983768	Amlodipine 1.5mg/5ml oral suspension 1 ml
+^ESCTAM983769	Amlodipine 1.5mg/5ml oral suspension (Special Order)
+^ESCTAM983770	Amlodipine 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM985095	Amlodipine 1.5mg/5ml oral solution
+^ESCTAM985096	Amlodipine 1.5mg/5ml oral suspension
+^ESCTAM985097	Amlodipine 2mg/5ml oral solution
+^ESCTAM985098	Amlodipine 2mg/5ml oral suspension
+^ESCTAM987052	Amlodipine 10mg tablets (Bristol Laboratories Ltd)
+^ESCTAM987053	Amlodipine 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM987054	Amlodipine 5mg tablets (Bristol Laboratories Ltd)
+^ESCTAM987055	Amlodipine 5mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN802351	Angitil XL 240 capsules (Ethypharm UK Ltd)
+^ESCTAN804604	Angiozem CR 120mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN809437	Angitil SR 120 capsules (Ethypharm UK Ltd)
+^ESCTAN810795	Angitil SR 180 capsules (Ethypharm UK Ltd)
+^ESCTAN816146	Angiozem CR 90mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN817865	Angitil XL 300 capsules (Ethypharm UK Ltd)
+^ESCTAN820093	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN820954	Angiozem 60mg modified-release tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN826093	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN829449	Angitil SR 90 capsules (Ethypharm UK Ltd)
+^ESCTAN829990	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN852563	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd) 84 capsule
+^ESCTAN852659	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN852707	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN853125	Angitil SR 90 capsules (Ethypharm UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAN853141	Angitil SR 120 capsules (Ethypharm UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAN853160	Angitil SR 180 capsules (Ethypharm UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAN853173	Angitil XL 240 capsules (Ethypharm UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTAN853185	Angitil XL 300 capsules (Ethypharm UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTAN853193	Angiozem 60mg modified-release tablets (Ashbourne Pharmaceuticals Ltd) 84 tablet
+^ESCTAN853214	Angiozem CR 90mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN853219	Angiozem CR 120mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTBI804852	Bi-Carzem XL 300mg capsules (Tillomed Laboratories Ltd)
+^ESCTBI819870	Bi-Carzem SR 60mg capsules (Tillomed Laboratories Ltd)
+^ESCTBI820205	Bi-Carzem SR 120mg capsules (Tillomed Laboratories Ltd)
+^ESCTBI823769	Bi-Carzem SR 90mg capsules (Tillomed Laboratories Ltd)
+^ESCTBI830929	Bi-Carzem XL 240mg capsules (Tillomed Laboratories Ltd)
+^ESCTBI853114	Bi-Carzem SR 60mg capsules (Tillomed Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCTBI853123	Bi-Carzem SR 90mg capsules (Tillomed Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCTBI853140	Bi-Carzem SR 120mg capsules (Tillomed Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCTBI853174	Bi-Carzem XL 240mg capsules (Tillomed Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCTBI853184	Bi-Carzem XL 300mg capsules (Tillomed Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCTCA800319	Calchan MR 20 tablets (Ranbaxy (UK) Ltd)
+^ESCTCA801345	Cardilate MR 10mg tablets (Teva UK Ltd)
+^ESCTCA803252	Calcicard CR 120mg tablets (Teva UK Ltd)
+^ESCTCA803720	Cardene SR 45mg capsules (Astellas Pharma Ltd)
+^ESCTCA806812	Calcicard CR 90mg tablets (Teva UK Ltd)
+^ESCTCA808978	Cardene 30mg capsules (Astellas Pharma Ltd)
+^ESCTCA811141	Cardene 20mg capsules (Astellas Pharma Ltd)
+^ESCTCA819873	Cardene SR 30mg capsules (Astellas Pharma Ltd)
+^ESCTCA820552	Calchan MR 10 tablets (Ranbaxy (UK) Ltd)
+^ESCTCA832101	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA850472	Cardene 30mg capsules (Astellas Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCTCA850499	Cardene SR 30mg capsules (Astellas Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCTCA850511	Cardene SR 45mg capsules (Astellas Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCTCA850535	Cardene 20mg capsules (Astellas Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCTCA852676	Cardilate MR 10mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852682	Calchan MR 10 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852712	Calchan MR 20 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852721	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTCA853215	Calcicard CR 90mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA853220	Calcicard CR 120mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA864474	Cabren 2.5mg modified-release tablets (Teva UK Ltd)
+^ESCTCA864475	Cabren 2.5mg modified-release tablets (Teva UK Ltd) 28 tablet
+^ESCTCA864476	Cabren 5mg modified-release tablets (Teva UK Ltd)
+^ESCTCA864477	Cabren 5mg modified-release tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTCA864478	Cabren 10mg modified-release tablets (Teva UK Ltd)
+^ESCTCA864479	Cabren 10mg modified-release tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTCA901194	Cardioplen XL 5mg tablets (Chiesi Ltd)
+^ESCTCA901195	Cardioplen XL 5mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA901199	Cardioplen XL 10mg tablets (Chiesi Ltd)
+^ESCTCA901200	Cardioplen XL 10mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA940433	Cardioplen XL 2.5mg tablets (Chiesi Ltd)
+^ESCTCA940434	Cardioplen XL 2.5mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO803954	Coracten SR 10mg capsules (UCB Pharma Ltd)
+^ESCTCO804895	Coracten XL 30mg capsules (UCB Pharma Ltd)
+^ESCTCO808114	Cordilox 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO810001	Coroday MR 20mg tablets (Mylan Ltd)
+^ESCTCO812983	Coracten SR 20mg capsules (UCB Pharma Ltd)
+^ESCTCO819993	Cordilox 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO822932	Cordilox MR 240mg tablets (Teva UK Ltd)
+^ESCTCO824480	Cordilox 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO830118	Cordilox 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO848808	Cordilox 160mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCO848850	Cordilox 120mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCO848862	Cordilox 80mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTCO848873	Cordilox 40mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTCO848887	Cordilox MR 240mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO852578	Coracten SR 20mg capsules (UCB Pharma Ltd) 60 capsule 5 x 12 capsules
+^ESCTCO852714	Coroday MR 20mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCO852733	Coracten SR 10mg capsules (UCB Pharma Ltd) 60 capsule 5 x 12 capsules
+^ESCTCO854906	Coracten XL 30mg capsules (UCB Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTCO861452	Coracten XL 60mg capsules (UCB Pharma Ltd)
+^ESCTCO861454	Coracten XL 60mg capsules (UCB Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI1020024	Diltiazem 60mg modified-release tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTDI1056410	Diltiazem 60mg/5ml oral suspension 100 ml
+^ESCTDI1056411	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTDI1060577	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1060578	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1060580	Diltiazem 60mg modified-release tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTDI1067777	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1120168	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals)
+^ESCTDI1120169	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1120170	Diltiazem 60mg modified-release tablets (DE Pharmaceuticals) 100 tablet
+^ESCTDI1141838	Diltiazem 60mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI1141839	Diltiazem 60mg modified-release tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTDI798333	Dilzem SR 120 capsules (Teva UK Ltd)
+^ESCTDI801523	Disogram SR 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI803422	Disogram SR 240mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI803660	Disogram SR 120mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI806766	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI807703	Dilzem XL 120 capsules (Teva UK Ltd)
+^ESCTDI808078	Dilzem XL 180 capsules (Teva UK Ltd)
+^ESCTDI808095	Disogram SR 90mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI811330	Dilcardia SR 90mg capsules (Mylan Ltd)
+^ESCTDI813095	Diltiazem 60mg modified-release tablets (Teva UK Ltd)
+^ESCTDI814683	Dilzem SR 60 capsules (Teva UK Ltd)
+^ESCTDI817978	Disogram SR 60mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI818963	Diltiazem 60mg modified-release tablets (Mylan Ltd)
+^ESCTDI819733	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI819899	Diltiazem 60mg modified-release tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI820967	Diltiazem 60mg modified-release tablets (Sterwin Medicines)
+^ESCTDI821122	Dilzem SR 90 capsules (Teva UK Ltd)
+^ESCTDI821525	Disogram SR 180mg capsules (Ranbaxy (UK) Ltd)
+^ESCTDI822503	Dilcardia SR 120mg capsules (Mylan Ltd)
+^ESCTDI822879	Dilzem XL 240 capsules (Teva UK Ltd)
+^ESCTDI823005	Diltiazem 60mg modified-release tablets (C P Pharmaceuticals Ltd)
+^ESCTDI831547	Diltiazem 60mg modified-release tablets (Actavis UK Ltd)
+^ESCTDI834068	Dilcardia SR 60mg capsules (Mylan Ltd)
+^ESCTDI834743	Diltiazem 60mg modified-release tablets 84 tablet
+^ESCTDI835419	Diltiazem 180mg modified-release capsules 28 capsule
+^ESCTDI838634	Diltiazem 200mg modified-release capsules 28 capsule
+^ESCTDI840711	Diltiazem 240mg modified-release capsules 28 capsule
+^ESCTDI841493	Diltiazem 60mg modified-release tablets 90 tablet
+^ESCTDI846641	Diltiazem 360mg modified-release capsules 28 capsule
+^ESCTDI847604	Diltiazem 300mg modified-release capsules 28 capsule
+^ESCTDI847626	Diltiazem 120mg modified-release tablets 56 tablet
+^ESCTDI847699	Diltiazem 90mg modified-release tablets 56 tablet
+^ESCTDI847909	Diltiazem 90mg modified-release capsules 56 capsule
+^ESCTDI848075	Diltiazem 60mg modified-release capsules 56 capsule
+^ESCTDI848220	Diltiazem 120mg modified-release capsules 56 capsule
+^ESCTDI848367	Diltiazem 180mg modified-release capsules 56 capsule
+^ESCTDI848479	Diltiazem 60mg modified-release tablets 100 tablet
+^ESCTDI848640	Diltiazem 120mg modified-release capsules 28 capsule
+^ESCTDI853107	Dilzem SR 60 capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853109	Dilcardia SR 60mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853113	Disogram SR 60mg capsules (Ranbaxy (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853117	Dilzem SR 90 capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853119	Dilcardia SR 90mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853122	Disogram SR 90mg capsules (Ranbaxy (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853129	Dilzem SR 120 capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853130	Dilzem XL 120 capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI853133	Dilcardia SR 120mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853138	Disogram SR 120mg capsules (Ranbaxy (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853149	Dilzem XL 180 capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI853159	Disogram SR 180mg capsules (Ranbaxy (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTDI853165	Dilzem XL 240 capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI853172	Disogram SR 240mg capsules (Ranbaxy (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI853189	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI853190	Diltiazem 60mg modified-release tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTDI853191	Diltiazem 60mg modified-release tablets (Actavis UK Ltd) 84 tablet
+^ESCTDI853192	Diltiazem 60mg modified-release tablets (Teva UK Ltd) 84 tablet
+^ESCTDI853194	Diltiazem 60mg modified-release tablets (C P Pharmaceuticals Ltd) 84 tablet
+^ESCTDI853196	Diltiazem 60mg modified-release tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTDI853197	Diltiazem 60mg modified-release tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTDI853204	Diltiazem 60mg modified-release tablets (Sterwin Medicines) 100 tablet
+^ESCTDI853206	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTDI853208	Diltiazem 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTDI856579	Disogram SR 300mg capsules (Ranbaxy (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDI878390	Diltiazem 90mg modified-release tablets 60 tablet
+^ESCTDI878393	Diltiazem 120mg modified-release tablets 60 tablet
+^ESCTDI878414	Diltiazem 200mg modified-release capsules 30 capsule
+^ESCTDI906300	Diltiazem 90mg/5ml oral solution 1 ml
+^ESCTDI906302	Diltiazem 90mg/5ml oral solution (Special Order)
+^ESCTDI906303	Diltiazem 60mg/5ml oral solution 1 ml
+^ESCTDI906304	Diltiazem 90mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906306	Diltiazem 60mg/5ml oral solution (Special Order)
+^ESCTDI906308	Diltiazem 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906309	Diltiazem 90mg/5ml oral suspension 1 ml
+^ESCTDI906312	Diltiazem 90mg/5ml oral suspension (Special Order)
+^ESCTDI906314	Diltiazem 90mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906319	Diltiazem 60mg/5ml oral suspension 1 ml
+^ESCTDI906321	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTDI906323	Diltiazem 60mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTDI906443	Diltiazem 90mg/5ml oral suspension
+^ESCTDI906444	Diltiazem 90mg/5ml oral solution
+^ESCTDI906445	Diltiazem 60mg/5ml oral suspension
+^ESCTDI906446	Diltiazem 60mg/5ml oral solution
+^ESCTDI928959	Diltiazem 60mg modified-release tablets (Arrow Generics Ltd)
+^ESCTDI928960	Diltiazem 60mg modified-release tablets (Arrow Generics Ltd) 84 tablet
+^ESCTDI929901	Diltiazem 180mg modified-release capsules 30 capsule
+^ESCTDI945255	Diltiazem 100mg/5ml oral solution 1 ml
+^ESCTDI945256	Diltiazem 100mg/5ml oral solution (Special Order)
+^ESCTDI945257	Diltiazem 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945259	Diltiazem 10mg/5ml oral solution 1 ml
+^ESCTDI945260	Diltiazem 10mg/5ml oral solution (Special Order)
+^ESCTDI945262	Diltiazem 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945265	Diltiazem 120mg/5ml oral solution 1 ml
+^ESCTDI945267	Diltiazem 120mg/5ml oral solution (Special Order)
+^ESCTDI945269	Diltiazem 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945270	Diltiazem 20mg/5ml oral solution 1 ml
+^ESCTDI945271	Diltiazem 20mg/5ml oral solution (Special Order)
+^ESCTDI945272	Diltiazem 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945274	Diltiazem 30mg/5ml oral solution 1 ml
+^ESCTDI945277	Diltiazem 30mg/5ml oral solution (Special Order)
+^ESCTDI945281	Diltiazem 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945283	Diltiazem 50mg/5ml oral solution 1 ml
+^ESCTDI945285	Diltiazem 50mg/5ml oral solution (Special Order)
+^ESCTDI945287	Diltiazem 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945512	Diltiazem 100mg/5ml oral solution
+^ESCTDI945513	Diltiazem 10mg/5ml oral solution
+^ESCTDI945515	Diltiazem 120mg/5ml oral solution
+^ESCTDI945518	Diltiazem 20mg/5ml oral solution
+^ESCTDI945519	Diltiazem 30mg/5ml oral solution
+^ESCTDI945520	Diltiazem 50mg/5ml oral solution
+^ESCTDI960234	Diltiazem 120mg modified-release tablets 30 tablet
+^ESCTDI968898	Diltiazem 60mg modified-release tablets (Niche Generics Ltd)
+^ESCTDI968899	Diltiazem 60mg modified-release tablets (Niche Generics Ltd) 100 tablet
+^ESCTDI974376	Diltiazem 90mg modified-release tablets 30 tablet
+^ESCTDI978305	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI978306	Diltiazem 60mg modified-release tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTET824393	Ethimil MR 240mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTET848886	Ethimil MR 240mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTEX936863	Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX936868	Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTEX936871	Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX936872	Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTEX936874	Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX936875	Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE1006906	Felodipine 2.5mg/5ml oral solution 1 ml
+^ESCTFE1006907	Felodipine 2.5mg/5ml oral solution (Special Order)
+^ESCTFE1006908	Felodipine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFE1006909	Felodipine 5mg/5ml oral solution 1 ml
+^ESCTFE1006910	Felodipine 5mg/5ml oral solution (Special Order)
+^ESCTFE1006911	Felodipine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFE1006923	Felodipine 2.5mg/5ml oral solution
+^ESCTFE1006924	Felodipine 5mg/5ml oral solution
+^ESCTFE1160711	Felodipine 2.5mg/5ml oral suspension 1 ml
+^ESCTFE1160714	Felodipine 2.5mg/5ml oral suspension (Special Order)
+^ESCTFE1160715	Felodipine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFE1160837	Felodipine 2.5mg/5ml oral suspension
+^ESCTFE838466	Felodipine 10mg modified-release tablets 28 tablet
+^ESCTFE838715	Felodipine 2.5mg modified-release tablets 28 tablet
+^ESCTFE846805	Felodipine 5mg modified-release tablets 28 tablet
+^ESCTFE872760	Felodipine 5mg modified-release tablets 30 tablet
+^ESCTFE872761	Felotens XL 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTFE872762	Felotens XL 5mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE872763	Felodipine 10mg modified-release tablets 30 tablet
+^ESCTFE872765	Felotens XL 10mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTFE872768	Felotens XL 10mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE874342	Felogen XL 5mg tablets (Mylan Ltd)
+^ESCTFE874343	Felogen XL 5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE874344	Felogen XL 10mg tablets (Mylan Ltd)
+^ESCTFE874346	Felogen XL 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE878192	Felodipine 2.5mg modified-release tablets 30 tablet
+^ESCTFE911680	Felotens XL 5mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE911681	Felotens XL 10mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE939381	Felodipine 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTFE939382	Felodipine 5mg modified-release tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE939383	Felodipine 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTFE939384	Felodipine 10mg modified-release tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFE954274	Felodipine 2.5mg modified-release tablets 98 tablet
+^ESCTFE959440	Felotens XL 2.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTFE959441	Felotens XL 2.5mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTFO805334	Fortipine LA 40 tablets (AMCo)
+^ESCTFO854912	Fortipine LA 40 tablets (AMCo) 30 tablet 3 x 10 tablets
+^ESCTFO874661	Folpik XL 5mg tablets (Teva UK Ltd)
+^ESCTFO874664	Folpik XL 5mg tablets (Teva UK Ltd) 28 tablet
+^ESCTFO874665	Folpik XL 10mg tablets (Teva UK Ltd)
+^ESCTFO874666	Folpik XL 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTFO963707	Folpik XL 2.5mg tablets (Teva UK Ltd)
+^ESCTFO963708	Folpik XL 2.5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA828677	Half Securon SR 120mg tablets (Mylan Ltd)
+^ESCTHA848880	Half Securon SR 120mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTHO804846	Horizem SR 90mg capsules (Horizon lifecare)
+^ESCTHO820296	Horizem SR 60mg capsules (Horizon lifecare)
+^ESCTHO823353	Horizem SR 120mg capsules (Horizon lifecare)
+^ESCTHO853112	Horizem SR 60mg capsules (Horizon lifecare) 56 capsule 4 x 14 capsules
+^ESCTHO853120	Horizem SR 90mg capsules (Horizon lifecare) 56 capsule 4 x 14 capsules
+^ESCTHO853135	Horizem SR 120mg capsules (Horizon lifecare) 56 capsule 4 x 14 capsules
+^ESCTHY821005	Hypolar Retard 20 tablets (Sandoz Ltd)
+^ESCTHY852724	Hypolar Retard 20 tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTHY857716	Hypolar XL 30 tablets (Sandoz Ltd)
+^ESCTHY857717	Hypolar XL 30 tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTHY873571	Hypolar Retard 10mg tablets (Sandoz Ltd)
+^ESCTHY873572	Hypolar Retard 10mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1044728	Isradipine 2.5mg tablets (Sandoz Ltd)
+^ESCTIS1044731	Isradipine 2.5mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1047646	Isradipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS1047647	Isradipine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1048813	Isradipine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS1048814	Isradipine 2.5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1119420	Isradipine 2.5mg tablets (DE Pharmaceuticals)
+^ESCTIS1119421	Isradipine 2.5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS607622	Isradipine 2.5mg tablets
+^ESCTIS607624	Isradipine 2.5 mg oral tablet
+^ESCTIS805149	Istin 5mg tablets (Pfizer Ltd)
+^ESCTIS814131	Istin 10mg tablets (Pfizer Ltd)
+^ESCTIS848883	Istin 5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS848885	Istin 10mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS863463	Isradipine 2.5mg tablets 56 tablet
+^ESCTKE802126	Kentipine MR 20 tablets (Kent Pharmaceuticals Ltd)
+^ESCTKE821508	Kentipine MR 10 tablets (Kent Pharmaceuticals Ltd)
+^ESCTKE852678	Kentipine MR 10 tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTKE852727	Kentipine MR 20 tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTKE910519	Kenzem SR 60mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE910522	Kenzem SR 60mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTKE910524	Kenzem SR 90mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE910525	Kenzem SR 90mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTKE910527	Kenzem SR 120mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE910528	Kenzem SR 120mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTKE927740	Keloc SR 5mg tablets (Teva UK Ltd)
+^ESCTKE927741	Keloc SR 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTKE927742	Keloc SR 10mg tablets (Teva UK Ltd)
+^ESCTKE927743	Keloc SR 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1011818	Lacidipine 4mg tablets (Teva UK Ltd)
+^ESCTLA1011819	Lacidipine 4mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1011820	Lacidipine 2mg tablets (Teva UK Ltd)
+^ESCTLA1011821	Lacidipine 2mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1012528	Lacidipine 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA1012529	Lacidipine 2mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTLA1012530	Lacidipine 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA1012531	Lacidipine 4mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTLA1044005	Lacidipine 2mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044006	Lacidipine 2mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLA1044007	Lacidipine 4mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044008	Lacidipine 4mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLA1099112	Lacidipine 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1099113	Lacidipine 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTLA1099114	Lacidipine 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1099115	Lacidipine 4mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTLA1099699	Lacidipine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA1099700	Lacidipine 2mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTLA1099701	Lacidipine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA1099702	Lacidipine 4mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTLA1117915	Lacidipine 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA1117916	Lacidipine 2mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLA1117917	Lacidipine 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA1117918	Lacidipine 4mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLA1119428	Lacidipine 2mg tablets (DE Pharmaceuticals)
+^ESCTLA1119429	Lacidipine 2mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLA1119430	Lacidipine 4mg tablets (DE Pharmaceuticals)
+^ESCTLA1119431	Lacidipine 4mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLA1141922	Lacidipine 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA1141923	Lacidipine 2mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTLA1141924	Lacidipine 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA1141925	Lacidipine 4mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTLA1146031	Lacidipine 2mg/5ml oral suspension 1 ml
+^ESCTLA1146033	Lacidipine 2mg/5ml oral suspension (Special Order)
+^ESCTLA1146034	Lacidipine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA1146204	Lacidipine 2mg/5ml oral suspension
+^ESCTLA607644	Lacidipine 2mg tablets
+^ESCTLA607646	Lacidipine 2 mg oral tablet
+^ESCTLA607647	Lacidipine 4mg tablets
+^ESCTLA607649	Lacidipine 4 mg oral tablet
+^ESCTLA836346	Lacidipine 2mg tablets 28 tablet
+^ESCTLA847357	Lacidipine 4mg tablets 14 tablet
+^ESCTLA847670	Lacidipine 4mg tablets 28 tablet
+^ESCTLA848333	Lacidipine 2mg tablets 14 tablet
+^ESCTLE1006066	Lercanidipine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006067	Lercanidipine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006068	Lercanidipine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTLE1006152	Lercanidipine 20mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTLE1027614	Lercanidipine 10mg tablets (Sandoz Ltd)
+^ESCTLE1027615	Lercanidipine 10mg tablets (Sandoz Ltd) 28 tablet
+^ESCTLE1033551	Lercanidipine 10mg tablets (Arrow Generics Ltd)
+^ESCTLE1033552	Lercanidipine 10mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE1033553	Lercanidipine 20mg tablets (Arrow Generics Ltd)
+^ESCTLE1033554	Lercanidipine 20mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE1042163	Lercanidipine 10mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLE1042167	Lercanidipine 10mg tablets (Recordati Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE1042168	Lercanidipine 20mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLE1042169	Lercanidipine 20mg tablets (Recordati Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE1044075	Lercanidipine 10mg tablets (Waymade Healthcare Plc)
+^ESCTLE1044076	Lercanidipine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLE1044077	Lercanidipine 20mg tablets (Waymade Healthcare Plc)
+^ESCTLE1044078	Lercanidipine 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLE1046632	Lercanidipine 10mg tablets (Aptil Pharma Ltd)
+^ESCTLE1046635	Lercanidipine 10mg tablets (Aptil Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE1046636	Lercanidipine 20mg tablets (Aptil Pharma Ltd)
+^ESCTLE1046637	Lercanidipine 20mg tablets (Aptil Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE1065631	Lercanidipine 10mg tablets (DE Pharmaceuticals)
+^ESCTLE1065633	Lercanidipine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLE1065634	Lercanidipine 20mg tablets (DE Pharmaceuticals)
+^ESCTLE1065635	Lercanidipine 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLE1117936	Lercanidipine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117937	Lercanidipine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLE1117938	Lercanidipine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117939	Lercanidipine 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLE1120921	Lercanidipine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120922	Lercanidipine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLE1120923	Lercanidipine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120924	Lercanidipine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLE1141926	Lercanidipine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE1141927	Lercanidipine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTLE607664	Lercanidipine 10mg tablets
+^ESCTLE607666	Lercanidipine hydrochloride 10 mg oral tablet
+^ESCTLE835307	Lercanidipine 10mg tablets 28 tablet
+^ESCTLE927021	Lercanidipine 20mg tablets 28 tablet
+^ESCTLE927270	Lercanidipine 20mg tablets
+^ESCTLE940755	Lercanidipine 20mg tablets 100 tablet
+^ESCTLE942873	Lercanidipine 10mg tablets 50 tablet
+^ESCTLE942875	Lercanidipine 20mg tablets 50 tablet
+^ESCTLE947291	Lercanidipine 20mg tablets 30 tablet
+^ESCTLE967700	Lercanidipine 10mg tablets 100 tablet
+^ESCTLE975307	Lercanidipine 10mg tablets 25 tablet
+^ESCTLE983188	Lercanidipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE983189	Lercanidipine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE983190	Lercanidipine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE983191	Lercanidipine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE993602	Lercanidipine 10mg tablets (Actavis UK Ltd)
+^ESCTLE993605	Lercanidipine 10mg tablets (Actavis UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE993606	Lercanidipine 20mg tablets (Actavis UK Ltd)
+^ESCTLE993607	Lercanidipine 20mg tablets (Actavis UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE993889	Lercanidipine 20mg tablets (Zentiva)
+^ESCTLE993890	Lercanidipine 20mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTLE993891	Lercanidipine 10mg tablets (Zentiva)
+^ESCTLE993892	Lercanidipine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTLE994127	Lercanidipine 20mg tablets (Mylan Ltd)
+^ESCTLE994128	Lercanidipine 20mg tablets (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE994129	Lercanidipine 10mg tablets (Mylan Ltd)
+^ESCTLE994130	Lercanidipine 10mg tablets (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTLE994671	Lercanidipine 10mg tablets (Teva UK Ltd)
+^ESCTLE994672	Lercanidipine 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE994673	Lercanidipine 20mg tablets (Teva UK Ltd)
+^ESCTLE994674	Lercanidipine 20mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLE994721	Lercanidipine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE994722	Lercanidipine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTLE994723	Lercanidipine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE994724	Lercanidipine 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTMO1108712	Molap 4mg tablets (Rivopharm (UK) Ltd)
+^ESCTMO1108713	Molap 4mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTMO810663	Motens 4mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTMO832498	Motens 2mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTMO849074	Motens 2mg tablets (GlaxoSmithKline UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTMO849075	Motens 2mg tablets (GlaxoSmithKline UK Ltd) 14 tablet 2 x 7 tablets
+^ESCTMO849076	Motens 4mg tablets (GlaxoSmithKline UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTMO849077	Motens 4mg tablets (GlaxoSmithKline UK Ltd) 14 tablet 2 x 7 tablets
+^ESCTNE1008137	Neofel XL 2.5mg tablets (Actavis UK Ltd)
+^ESCTNE1008138	Neofel XL 2.5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE1012872	Neofel XL 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNE1012873	Neofel XL 2.5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE903019	Neofel XL 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE903020	Neofel XL 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE903021	Neofel XL 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE903022	Neofel XL 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE932400	Neozipine XL 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE932401	Neozipine XL 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE932405	Neozipine XL 60mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE932409	Neozipine XL 60mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE940307	Neofel XL 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE940308	Neofel XL 2.5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI1006172	Nicardipine 20mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTNI1006173	Nicardipine 20mg capsules (Phoenix Healthcare Distribution Ltd) 56 capsule
+^ESCTNI1006174	Nicardipine 30mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTNI1006175	Nicardipine 30mg capsules (Phoenix Healthcare Distribution Ltd) 56 capsule
+^ESCTNI1008212	Nisoldipine 10mg modified-release tablets 1 tablet
+^ESCTNI1008214	Nisoldipine 10mg modified-release tablets (Special Order)
+^ESCTNI1008215	Nisoldipine 10mg modified-release tablets (Special Order) 1 tablet
+^ESCTNI1008216	Nisoldipine 20mg modified-release tablets 1 tablet
+^ESCTNI1008217	Nisoldipine 20mg modified-release tablets (Special Order)
+^ESCTNI1008218	Nisoldipine 20mg modified-release tablets (Special Order) 1 tablet
+^ESCTNI1008219	Nisoldipine 30mg modified-release tablets 1 tablet
+^ESCTNI1008220	Nisoldipine 30mg modified-release tablets (Special Order)
+^ESCTNI1008221	Nisoldipine 30mg modified-release tablets (Special Order) 1 tablet
+^ESCTNI1008316	Nifedipine 30mg modified-release tablets 14 tablet
+^ESCTNI1009243	Nifedipine 5mg capsules (Strides Shasun (UK) Ltd)
+^ESCTNI1009244	Nifedipine 5mg capsules (Strides Shasun (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCTNI1009245	Nifedipine 10mg capsules (Strides Shasun (UK) Ltd)
+^ESCTNI1009246	Nifedipine 10mg capsules (Strides Shasun (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCTNI1041809	Nifedipine 5mg capsules (Waymade Healthcare Plc)
+^ESCTNI1041810	Nifedipine 5mg capsules (Waymade Healthcare Plc) 84 capsule
+^ESCTNI1041811	Nifedipine 10mg capsules (Waymade Healthcare Plc)
+^ESCTNI1041812	Nifedipine 10mg capsules (Waymade Healthcare Plc) 84 capsule
+^ESCTNI1056448	Nifedipine 10mg/5ml oral suspension 100 ml
+^ESCTNI1056449	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNI1099268	Nifedipine 5mg/5ml oral suspension 100 ml
+^ESCTNI1099269	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNI1142030	Nifedipine 10mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTNI1142031	Nifedipine 10mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1142032	Nifedipine 20mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTNI1142033	Nifedipine 20mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1162931	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCTNI1162932	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI1162933	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCTNI1162934	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI607591	Nicardipine 20mg capsules
+^ESCTNI607592	Nicardipine hydrochloride 20 mg/1 each oral capsule
+^ESCTNI607594	Nicardipine 30mg capsules
+^ESCTNI607595	Nicardipine hydrochloride 30 mg/1 each oral capsule
+^ESCTNI607597	Nifedipine 5mg capsules
+^ESCTNI607598	Nifedipine 5 mg/1 each oral capsule
+^ESCTNI607600	Nifedipine 10mg capsules
+^ESCTNI607601	Nifedipine 10 mg/1 each oral capsule
+^ESCTNI610982	Nimodipine 30mg tablets
+^ESCTNI610984	Nimodipine 30 mg oral tablet
+^ESCTNI801397	Nicardipine 30mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI804622	Nifedipine 5mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI805111	Nifedipine 5mg capsules (Teva UK Ltd)
+^ESCTNI805130	Nicardipine 30mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI808562	Nifopress Retard 20mg tablets (AMCo)
+^ESCTNI808854	Nifedipine 5mg capsules (Actavis UK Ltd)
+^ESCTNI809132	Nifedipine 10mg capsules (Teva UK Ltd)
+^ESCTNI812143	Nicardipine 20mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI813762	Nicardipine 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI816119	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI817475	Nifedipine 10mg capsules (The Boots Company Plc)
+^ESCTNI818586	Nifedipine 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI818907	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI819262	Nicardipine 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI820487	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd)
+^ESCTNI820649	Nifedipine 10mg capsules (Actavis UK Ltd)
+^ESCTNI820761	Nifedipine 5mg capsules (Mylan Ltd)
+^ESCTNI820771	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTNI821424	Nicardipine 30mg capsules (Mylan Ltd)
+^ESCTNI822164	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI822761	Nifedipine 5mg capsules (The Boots Company Plc)
+^ESCTNI822950	Nicardipine 30mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI826294	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTNI829378	Nicardipine 20mg capsules (Mylan Ltd)
+^ESCTNI830208	Nifedipine 10mg capsules (Mylan Ltd)
+^ESCTNI830562	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI831977	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd)
+^ESCTNI834234	Nifedipine 30mg modified-release capsules 28 capsule
+^ESCTNI834695	Nifedipine 10mg capsules 90 capsule
+^ESCTNI835988	Nicardipine 45mg modified-release capsules 56 capsule
+^ESCTNI837385	Nicardipine 30mg capsules 56 capsule
+^ESCTNI839486	Nifedipine 20mg modified-release tablets 112 tablet
+^ESCTNI840445	Nifedipine 20mg modified-release tablets 28 tablet
+^ESCTNI842216	Nifedipine 60mg modified-release tablets 28 tablet
+^ESCTNI842710	Nifedipine 5mg capsules 100 capsule
+^ESCTNI846706	Nifedipine 20mg modified-release tablets 56 tablet
+^ESCTNI846807	Nifedipine 10mg capsules 84 capsule
+^ESCTNI846925	Nifedipine 5mg capsules 90 capsule
+^ESCTNI847399	Nifedipine 5mg capsules 84 capsule
+^ESCTNI847884	Nifedipine 10mg capsules 100 capsule
+^ESCTNI847940	Nifedipine 20mg modified-release capsules 60 capsule
+^ESCTNI847941	Nifedipine 10mg modified-release tablets 56 tablet
+^ESCTNI848002	Nicardipine 20mg capsules 56 capsule
+^ESCTNI848181	Nicardipine 30mg modified-release capsules 56 capsule
+^ESCTNI848259	Nifedipine 40mg modified-release tablets 30 tablet
+^ESCTNI848412	Nifedipine 10mg modified-release capsules 60 capsule
+^ESCTNI850460	Nicardipine 30mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTNI850467	Nicardipine 30mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTNI850469	Nicardipine 30mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTNI850521	Nicardipine 20mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTNI850526	Nicardipine 20mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTNI850531	Nicardipine 20mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTNI851766	Nicardipine 20mg capsules (A A H Pharmaceuticals Ltd) 56 capsule
+^ESCTNI851767	Nicardipine 30mg capsules (A A H Pharmaceuticals Ltd) 56 capsule
+^ESCTNI852560	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852561	Nifedipine 10mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852562	Nifedipine 10mg capsules (Teva UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852565	Nifedipine 10mg capsules (The Boots Company Plc) 84 capsule
+^ESCTNI852566	Nifedipine 10mg capsules (Mylan Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852567	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852571	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTNI852572	Nifedipine 10mg capsules (Kent Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852573	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852671	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI852710	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI852717	Nifopress Retard 20mg tablets (AMCo) 56 tablet 2 x 28 tablets
+^ESCTNI852718	Nifopress Retard 20mg tablets (AMCo) 112 tablet 8 x 14 tablets
+^ESCTNI852734	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852735	Nifedipine 5mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852736	Nifedipine 5mg capsules (Teva UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852738	Nifedipine 5mg capsules (The Boots Company Plc) 84 capsule
+^ESCTNI852768	Nifedipine 5mg capsules (Mylan Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852769	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTNI852770	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 3 x 28 capsules
+^ESCTNI852771	Nifedipine 5mg capsules (Kent Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852772	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI857713	Nifedipine 30mg modified-release tablets 28 tablet
+^ESCTNI861450	Nifedipine 60mg modified-release capsules 28 capsule
+^ESCTNI863153	Nicardipine 20mg capsules (Teva UK Ltd)
+^ESCTNI863156	Nicardipine 20mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTNI863159	Nicardipine 30mg capsules (Teva UK Ltd)
+^ESCTNI863160	Nicardipine 30mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTNI865216	Nisoldipine 10mg modified-release tablets 28 tablet
+^ESCTNI865238	Nimodipine 30mg tablets 100 tablet
+^ESCTNI865239	Nimotop 30mg tablets (Bayer Plc)
+^ESCTNI865241	Nimotop 30mg tablets (Bayer Plc) 100 tablet 10 x 10 tablets
+^ESCTNI866923	Nisoldipine 30mg modified-release tablets 28 tablet
+^ESCTNI866932	Nisoldipine 20mg modified-release tablets 28 tablet
+^ESCTNI869560	Nimodipine 10mg/50ml solution for infusion vials 5 vial
+^ESCTNI869567	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc)
+^ESCTNI869568	Nimotop 0.02% solution for infusion 50ml vials (Bayer Plc) 5 vial
+^ESCTNI877508	Nifedipine 10mg capsules 50 capsule
+^ESCTNI877625	Nifedipine 20mg modified-release tablets 60 tablet
+^ESCTNI877626	Nifedipine 20mg modified-release tablets 100 tablet
+^ESCTNI878901	Nicardipine 20mg capsules 60 capsule
+^ESCTNI900896	Nifedipress MR 20 tablets (Actavis UK Ltd)
+^ESCTNI900897	Nifedipress MR 20 tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI900903	Nifedipress MR 10 tablets (Teva UK Ltd)
+^ESCTNI900906	Nifedipress MR 10 tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI900907	Nifedipress MR 20 tablets (Teva UK Ltd)
+^ESCTNI900908	Nifedipress MR 20 tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI908168	Nifedipine 100mg/5ml oral suspension 1 ml
+^ESCTNI908171	Nifedipine 100mg/5ml oral suspension (Special Order)
+^ESCTNI908173	Nifedipine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908176	Nifedipine 10mg/5ml oral suspension 1 ml
+^ESCTNI908177	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNI908182	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNI908191	Nifedipine 60mg/5ml oral suspension 1 ml
+^ESCTNI908192	Nifedipine 60mg/5ml oral suspension (Special Order)
+^ESCTNI908194	Nifedipine 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908195	Nifedipine 20mg/5ml oral suspension 1 ml
+^ESCTNI908198	Nifedipine 20mg/5ml oral suspension (Special Order)
+^ESCTNI908199	Nifedipine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908202	Nifedipine 5mg/5ml oral suspension 1 ml
+^ESCTNI908206	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNI908208	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNI908472	Nifedipine 100mg/5ml oral suspension
+^ESCTNI908473	Nifedipine 10mg/5ml oral suspension
+^ESCTNI908474	Nifedipine 20mg/5ml oral suspension
+^ESCTNI908475	Nifedipine 5mg/5ml oral suspension
+^ESCTNI908476	Nifedipine 60mg/5ml oral suspension
+^ESCTNI912401	Nifedipine 20mg/ml oral drops 30 ml
+^ESCTNI912402	Nifedipine 20mg/ml oral drops 100 ml
+^ESCTNI912403	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany))
+^ESCTNI912404	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany)) 30 ml
+^ESCTNI912405	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany)) 100 ml
+^ESCTNI912623	Nifedipine 20mg/ml oral drops
+^ESCTNI918767	Nifopress MR 20mg tablets (Teva UK Ltd)
+^ESCTNI918769	Nifopress MR 20mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI926931	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals)
+^ESCTNI926932	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTNI926933	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals)
+^ESCTNI926934	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTNI948284	Nicardipine 20mg/5ml oral solution 1 ml
+^ESCTNI948285	Nicardipine 20mg/5ml oral solution (Special Order)
+^ESCTNI948299	Nicardipine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTNI948303	Nicardipine 20mg/5ml oral suspension 1 ml
+^ESCTNI948306	Nicardipine 20mg/5ml oral suspension (Special Order)
+^ESCTNI948308	Nicardipine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948329	Nifedipine 1mg/5ml oral suspension 1 ml
+^ESCTNI948330	Nifedipine 1mg/5ml oral suspension (Special Order)
+^ESCTNI948360	Nifedipine 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948361	Nifedipine 2.2mg/5ml oral suspension 1 ml
+^ESCTNI948362	Nifedipine 2.2mg/5ml oral suspension (Special Order)
+^ESCTNI948363	Nifedipine 2.2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948364	Nifedipine 2.5mg/5ml oral suspension 1 ml
+^ESCTNI948365	Nifedipine 2.5mg/5ml oral suspension (Special Order)
+^ESCTNI948366	Nifedipine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948542	Nicardipine 20mg/5ml oral solution
+^ESCTNI948543	Nicardipine 20mg/5ml oral suspension
+^ESCTNI948546	Nifedipine 1mg/5ml oral suspension
+^ESCTNI948547	Nifedipine 2.2mg/5ml oral suspension
+^ESCTNI948549	Nifedipine 2.5mg/5ml oral suspension
+^ESCTNI954885	Nifedipine 25mg/5ml oral suspension 1 ml
+^ESCTNI954887	Nifedipine 25mg/5ml oral suspension (Special Order)
+^ESCTNI954889	Nifedipine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954891	Nifedipine 2mg/5ml oral suspension 1 ml
+^ESCTNI954893	Nifedipine 2mg/5ml oral suspension (Special Order)
+^ESCTNI954895	Nifedipine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954897	Nifedipine 30mg/5ml oral suspension 1 ml
+^ESCTNI954899	Nifedipine 30mg/5ml oral suspension (Special Order)
+^ESCTNI954901	Nifedipine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954903	Nifedipine 4mg/5ml oral suspension 1 ml
+^ESCTNI954905	Nifedipine 4mg/5ml oral suspension (Special Order)
+^ESCTNI954907	Nifedipine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954909	Nifedipine 7.5mg/5ml oral suspension 1 ml
+^ESCTNI954911	Nifedipine 7.5mg/5ml oral suspension (Special Order)
+^ESCTNI954913	Nifedipine 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954915	Nimodipine 30mg/5ml oral suspension 1 ml
+^ESCTNI954917	Nimodipine 30mg/5ml oral suspension (Special Order)
+^ESCTNI954919	Nimodipine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI955748	Nifedipine 25mg/5ml oral suspension
+^ESCTNI955750	Nifedipine 2mg/5ml oral suspension
+^ESCTNI955752	Nifedipine 30mg/5ml oral suspension
+^ESCTNI955754	Nifedipine 4mg/5ml oral suspension
+^ESCTNI955755	Nifedipine 7.5mg/5ml oral suspension
+^ESCTNI955800	Nimodipine 30mg/5ml oral suspension
+^ESCTNI965584	Nicardipine 20mg capsules (Tillomed Laboratories Ltd)
+^ESCTNI965585	Nicardipine 20mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCTNI965586	Nicardipine 30mg capsules (Tillomed Laboratories Ltd)
+^ESCTNI965587	Nicardipine 30mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCTNI968259	Nifedipine 20mg modified-release tablets 14 tablet
+^ESCTNI978057	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNI978058	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc) 84 capsule
+^ESCTNI979715	Nicardipine 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNI979716	Nicardipine 20mg capsules (Sigma Pharmaceuticals Plc) 56 capsule
+^ESCTNI979717	Nicardipine 30mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNI979718	Nicardipine 30mg capsules (Sigma Pharmaceuticals Plc) 56 capsule
+^ESCTNI986095	Nifedipine 20mg/ml oral drops 1 ml
+^ESCTNI986096	Nifedipine 20mg/ml oral drops (Special Order)
+^ESCTNI986097	Nifedipine 20mg/ml oral drops (Special Order) 1 ml
+^ESCTNI988768	Nicardipine 45mg modified-release capsules 60 capsule
+^ESCTOP819771	Optil 60mg modified-release tablets (Opus Pharmaceuticals Ltd)
+^ESCTOP853201	Optil 60mg modified-release tablets (Opus Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTPA1064271	Parmid XL 2.5mg tablets (Sandoz Ltd)
+^ESCTPA1064272	Parmid XL 2.5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA896919	Parmid XL 5mg tablets (Sandoz Ltd)
+^ESCTPA896921	Parmid XL 5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA896923	Parmid XL 10mg tablets (Sandoz Ltd)
+^ESCTPA896925	Parmid XL 10mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI916605	Pinefeld XL 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTPI916607	Pinefeld XL 10mg tablets (Tillomed Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCTPL801761	Plendil 10mg modified-release tablets (AstraZeneca UK Ltd)
+^ESCTPL818643	Plendil 5mg modified-release tablets (AstraZeneca UK Ltd)
+^ESCTPL820033	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd)
+^ESCTPL849061	Plendil 2.5mg modified-release tablets (AstraZeneca UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTPL849065	Plendil 10mg modified-release tablets (AstraZeneca UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTPL849066	Plendil 5mg modified-release tablets (AstraZeneca UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTPR606878	Product containing verapamil hydrochloride 40 mg/1 each oral tablet
+^ESCTPR606881	Product containing verapamil hydrochloride 80 mg/1 each oral tablet
+^ESCTPR606884	Product containing verapamil hydrochloride 120 mg/1 each oral tablet
+^ESCTPR606904	Product containing verapamil hydrochloride 160 mg/1 each oral tablet
+^ESCTPR607593	Product containing nicardipine hydrochloride 20 mg/1 each oral capsule
+^ESCTPR607596	Product containing nicardipine hydrochloride 30 mg/1 each oral capsule
+^ESCTPR607599	Product containing nifedipine 5 mg/1 each oral capsule
+^ESCTPR607602	Product containing nifedipine 10 mg/1 each oral capsule
+^ESCTPR607623	Product containing isradipine 2.5 mg/1 each oral tablet
+^ESCTPR607645	Product containing lacidipine 2 mg/1 each oral tablet
+^ESCTPR607648	Product containing lacidipine 4 mg/1 each oral tablet
+^ESCTPR607665	Product containing lercanidipine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR610983	Product containing nimodipine 30 mg/1 each oral tablet
+^ESCTPR710954	Product containing amlodipine 2.5 mg/1 each oral tablet
+^ESCTPR863464	Prescal 2.5mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTPR863465	Prescal 2.5mg tablets (Novartis Pharmaceuticals UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTRA862950	Ranvera MR 240mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA862951	Ranvera MR 240mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTRE1153422	Retalzem 60 modified-release tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTRE830041	Retalzem 60 modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTRE853199	Retalzem 60 modified-release tablets (Kent Pharmaceuticals Ltd) 100 tablet 4 x 25 tablets
+^ESCTSE804419	Securon 120mg tablets (Abbott Laboratories Ltd)
+^ESCTSE819871	Securon SR 240mg tablets (Mylan Ltd)
+^ESCTSE848854	Securon 120mg tablets (Abbott Laboratories Ltd) 60 tablet 3 x 20 tablets
+^ESCTSE848888	Securon SR 240mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE869680	Securon IV 5mg/2ml solution for injection ampoules (Mylan Ltd)
+^ESCTSE869681	Securon IV 5mg/2ml solution for injection ampoules (Mylan Ltd) 5 ampoule
+^ESCTSL803734	Slozem 180mg capsules (Merck Serono Ltd)
+^ESCTSL804102	Slozem 120mg capsules (Merck Serono Ltd)
+^ESCTSL819942	Slozem 300mg capsules (Merck Serono Ltd)
+^ESCTSL820353	Slozem 240mg capsules (Merck Serono Ltd)
+^ESCTSL820575	Slofedipine XL 60 tablets (Zentiva)
+^ESCTSL828422	Slofedipine 20mg tablets (Sterwin Medicines)
+^ESCTSL852581	Slofedipine XL 60 tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSL852731	Slofedipine 20mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTSL853136	Slozem 120mg capsules (Merck Serono Ltd) 28 capsule 2 x 14 capsules
+^ESCTSL853156	Slozem 180mg capsules (Merck Serono Ltd) 28 capsule 2 x 14 capsules
+^ESCTSL853168	Slozem 240mg capsules (Merck Serono Ltd) 28 capsule 2 x 14 capsules
+^ESCTSL853180	Slozem 300mg capsules (Merck Serono Ltd) 28 capsule 2 x 14 capsules
+^ESCTSL857718	Slofedipine XL 30mg tablets (Zentiva)
+^ESCTSL857719	Slofedipine XL 30mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSY865217	Syscor MR 10 tablets (Forest Laboratories UK Ltd)
+^ESCTSY865219	Syscor MR 10 tablets (Forest Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSY866925	Syscor MR 30 tablets (Forest Laboratories UK Ltd)
+^ESCTSY866927	Syscor MR 30 tablets (Forest Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSY866933	Syscor MR 20 tablets (Forest Laboratories UK Ltd)
+^ESCTSY866934	Syscor MR 20 tablets (Forest Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE812700	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+^ESCTTE814447	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+^ESCTTE852674	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE852715	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTI803225	Tildiem Retard 90mg tablets (Sanofi)
+^ESCTTI808138	Tildiem LA 200 capsules (Sanofi)
+^ESCTTI812581	Tildiem Retard 120mg tablets (Sanofi)
+^ESCTTI823610	Tildiem 60mg modified-release tablets (Sanofi)
+^ESCTTI831347	Tildiem LA 300 capsules (Sanofi)
+^ESCTTI853162	Tildiem LA 200 capsules (Sanofi) 28 capsule 2 x 14 capsules
+^ESCTTI853183	Tildiem LA 300 capsules (Sanofi) 28 capsule 2 x 14 capsules
+^ESCTTI853203	Tildiem 60mg modified-release tablets (Sanofi) 90 tablet 6 x 15 tablets
+^ESCTTI853216	Tildiem Retard 90mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTTI853221	Tildiem Retard 120mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTTR1028942	Trimetazidine 35mg modified-release tablets 1 tablet
+^ESCTTR1028943	Trimetazidine 35mg modified-release tablets (Special Order)
+^ESCTTR1028944	Trimetazidine 35mg modified-release tablets (Special Order) 1 tablet
+^ESCTTR1028965	Trimetazidine 35mg modified-release tablets 60 tablet
+^ESCTTR1029180	Trimetazidine 35mg modified-release tablets
+^ESCTTR979712	Trimetazidine 20mg tablets 60 tablet
+^ESCTTR979777	Trimetazidine 20mg tablets
+^ESCTTR986046	Trimetazidine 20mg tablets (Special Order)
+^ESCTTR986050	Trimetazidine 20mg tablets 1 tablet
+^ESCTTR986052	Trimetazidine 20mg tablets (Special Order) 1 tablet
+^ESCTUA1043140	Uard 300XL capsules (Ennogen Healthcare Ltd)
+^ESCTUA1043141	Uard 300XL capsules (Ennogen Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTUA1043142	Uard 120XL capsules (Ennogen Healthcare Ltd)
+^ESCTUA1043143	Uard 120XL capsules (Ennogen Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTUA1043144	Uard 180XL capsules (Ennogen Healthcare Ltd)
+^ESCTUA1043145	Uard 180XL capsules (Ennogen Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTUA1043146	Uard 240XL capsules (Ennogen Healthcare Ltd)
+^ESCTUA1043147	Uard 240XL capsules (Ennogen Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTUN802081	Univer 240mg modified-release capsules (Teva UK Ltd)
+^ESCTUN806813	Univer 120mg modified-release capsules (Teva UK Ltd)
+^ESCTUN813089	Univer 180mg modified-release capsules (Teva UK Ltd)
+^ESCTUN849370	Univer 120mg modified-release capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTUN849372	Univer 180mg modified-release capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTUN849374	Univer 240mg modified-release capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTVA1008929	Vascalpha 5mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTVA1008933	Vascalpha 5mg modified-release tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTVA1008945	Vascalpha 10mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTVA1008948	Vascalpha 10mg modified-release tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTVA1028966	Vastarel MR 35mg tablets (Imported (France))
+^ESCTVA1028968	Vastarel MR 35mg tablets (Imported (France)) 60 tablet
+^ESCTVA821262	Valni 20 Retard tablets (Tillomed Laboratories Ltd)
+^ESCTVA852725	Valni 20 Retard tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTVA880225	Vascalpha 5mg modified-release tablets (Actavis UK Ltd)
+^ESCTVA880226	Vascalpha 5mg modified-release tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVA880228	Vascalpha 10mg modified-release tablets (Actavis UK Ltd)
+^ESCTVA880229	Vascalpha 10mg modified-release tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVA962143	Valni XL 30mg tablets (Zentiva)
+^ESCTVA962144	Valni XL 30mg tablets (Zentiva) 28 tablet
+^ESCTVA962145	Valni XL 60mg tablets (Zentiva)
+^ESCTVA962146	Valni XL 60mg tablets (Zentiva) 28 tablet
+^ESCTVA979719	Vastarel 20mg tablets (Imported (France))
+^ESCTVA979720	Vastarel 20mg tablets (Imported (France)) 60 tablet 2 x 30 tablets
+^ESCTVE1012449	Verapamil 120mg modified-release tablets 30 tablet
+^ESCTVE1023918	Verapamil 120mg modified-release tablets 40 tablet
+^ESCTVE1024236	Verapamil 120mg modified-release tablets 20 tablet
+^ESCTVE1036764	Verapamil 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTVE1036765	Verapamil 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTVE1041991	Verapamil 40mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTVE1041992	Verapamil 40mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 150 ml
+^ESCTVE1042646	Verapamil 40mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTVE1042647	Verapamil 40mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTVE1042649	Verapamil 40mg tablets (Waymade Healthcare Plc)
+^ESCTVE1042650	Verapamil 40mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTVE1042651	Verapamil 80mg tablets (Waymade Healthcare Plc)
+^ESCTVE1042652	Verapamil 80mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTVE1051080	Verapamil 40mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTVE1051081	Verapamil 40mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTVE1066105	Verapamil 40mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCTVE1066106	Verapamil 40mg/5ml oral solution sugar free (CST Pharma Ltd) 150 ml
+^ESCTVE1085547	Verapamil 40mg/5ml oral solution sugar free (Icarus Pharmaceuticals Ltd)
+^ESCTVE1085558	Verapamil 40mg/5ml oral solution sugar free (Icarus Pharmaceuticals Ltd) 150 ml
+^ESCTVE1100714	Verapamil 40mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTVE1100715	Verapamil 40mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTVE1119912	Verapamil 40mg tablets (DE Pharmaceuticals)
+^ESCTVE1119913	Verapamil 40mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTVE1119914	Verapamil 80mg tablets (DE Pharmaceuticals)
+^ESCTVE1119915	Verapamil 80mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTVE1119916	Verapamil 120mg tablets (DE Pharmaceuticals)
+^ESCTVE1119917	Verapamil 120mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTVE1119918	Verapamil 160mg tablets (DE Pharmaceuticals)
+^ESCTVE1119919	Verapamil 160mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTVE1127829	Verapamil 120mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVE1127830	Verapamil 120mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTVE1133190	Verapamil 40mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTVE1133195	Verapamil 40mg/5ml oral solution sugar free (J M McGill Ltd) 150 ml
+^ESCTVE1145166	Verapamil 40mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTVE1145167	Verapamil 40mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTVE1148607	Verapamil 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTVE1148608	Verapamil 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTVE1152620	Verapamil 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTVE1152621	Verapamil 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTVE606877	Verapamil 40mg tablets
+^ESCTVE606879	Verapamil hydrochloride 40 mg oral tablet
+^ESCTVE606880	Verapamil 80mg tablets
+^ESCTVE606882	Verapamil hydrochloride 80 mg oral tablet
+^ESCTVE606883	Verapamil 120mg tablets
+^ESCTVE606885	Verapamil hydrochloride 120 mg oral tablet
+^ESCTVE606903	Verapamil 160mg tablets
+^ESCTVE606905	Verapamil hydrochloride 160 mg oral tablet
+^ESCTVE798801	Verapamil 80mg tablets (Actavis UK Ltd)
+^ESCTVE801331	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTVE802445	Verapamil 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTVE802728	Verapamil 40mg tablets (Mylan Ltd)
+^ESCTVE803159	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVE804026	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVE804837	Verapamil 160mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTVE806996	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVE807289	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVE808524	Verapamil 80mg tablets (Teva UK Ltd)
+^ESCTVE813017	Verapamil 160mg tablets (Actavis UK Ltd)
+^ESCTVE814187	Verapamil 120mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVE814495	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVE814961	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTVE817082	Verapamil 40mg tablets (Teva UK Ltd)
+^ESCTVE817936	Verapamil 120mg tablets (Actavis UK Ltd)
+^ESCTVE818603	Verapamil 120mg tablets (Mylan Ltd)
+^ESCTVE819685	Verapress MR 240mg tablets (Dexcel-Pharma Ltd)
+^ESCTVE819717	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTVE819824	Verapamil 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTVE820095	Verapamil 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTVE820285	Verapamil 120mg tablets (Teva UK Ltd)
+^ESCTVE820328	Verapamil 160mg tablets (Mylan Ltd)
+^ESCTVE820682	Verapamil 120mg tablets (Sandoz Ltd)
+^ESCTVE820905	Verapamil 40mg tablets (Sandoz Ltd)
+^ESCTVE820987	Vertab SR 240 tablets (Chiesi Ltd)
+^ESCTVE821203	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTVE824466	Verapamil 80mg tablets (Sandoz Ltd)
+^ESCTVE825395	Verapamil 40mg tablets (Actavis UK Ltd)
+^ESCTVE825733	Verapamil 80mg tablets (Mylan Ltd)
+^ESCTVE826837	Verapamil 160mg tablets (Sandoz Ltd)
+^ESCTVE831083	Verapamil 120mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTVE831560	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTVE835235	Verapamil 80mg tablets 100 tablet
+^ESCTVE835432	Verapamil 40mg tablets 84 tablet
+^ESCTVE836366	Verapamil 160mg tablets 56 tablet
+^ESCTVE836776	Verapamil 240mg modified-release tablets 28 tablet
+^ESCTVE840807	Verapamil 160mg tablets 100 tablet
+^ESCTVE841669	Verapamil 120mg tablets 28 tablet
+^ESCTVE844006	Verapamil 40mg tablets 100 tablet
+^ESCTVE845547	Verapamil 120mg modified-release tablets 28 tablet
+^ESCTVE846437	Verapamil 240mg modified-release capsules 28 capsule
+^ESCTVE846779	Verapamil 180mg modified-release capsules 56 capsule
+^ESCTVE846871	Verapamil 120mg modified-release capsules 28 capsule
+^ESCTVE847300	Verapamil 120mg tablets 100 tablet
+^ESCTVE847683	Verapamil 80mg tablets 84 tablet
+^ESCTVE848197	Verapamil 160mg tablets 28 tablet
+^ESCTVE848419	Verapamil 120mg tablets 60 tablet
+^ESCTVE848794	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTVE848795	Verapamil 160mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848796	Verapamil 160mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVE848806	Verapamil 160mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848809	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVE848810	Verapamil 160mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTVE848811	Verapamil 160mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848813	Verapamil 160mg tablets (Sandoz Ltd) 100 tablet
+^ESCTVE848845	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848846	Verapamil 120mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848847	Verapamil 120mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848848	Verapamil 120mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848849	Verapamil 120mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848851	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848852	Verapamil 120mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTVE848853	Verapamil 120mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848855	Verapamil 120mg tablets (Sandoz Ltd) 100 tablet
+^ESCTVE848856	Verapamil 120mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848857	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTVE848858	Verapamil 80mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848859	Verapamil 80mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTVE848860	Verapamil 80mg tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTVE848861	Verapamil 80mg tablets (Mylan Ltd) 84 tablet 4 x 21 tablets
+^ESCTVE848863	Verapamil 80mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTVE848864	Verapamil 80mg tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTVE848865	Verapamil 80mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848866	Verapamil 80mg tablets (Sandoz Ltd) 100 tablet
+^ESCTVE848867	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCTVE848868	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTVE848869	Verapamil 40mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848870	Verapamil 40mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTVE848871	Verapamil 40mg tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTVE848872	Verapamil 40mg tablets (Mylan Ltd) 84 tablet 4 x 21 tablets
+^ESCTVE848874	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet
+^ESCTVE848875	Verapamil 40mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTVE848876	Verapamil 40mg tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTVE848877	Verapamil 40mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTVE848878	Verapamil 40mg tablets (Sandoz Ltd) 100 tablet
+^ESCTVE848879	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCTVE848884	Verapress MR 240mg tablets (Dexcel-Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE848889	Vertab SR 240 tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE851768	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTVE855306	Verapamil 160mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTVE863636	Verapamil 40mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTVE863637	Verapamil 80mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTVE863639	Verapamil 160mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTVE867456	Verapamil 40mg/5ml oral solution sugar free 150 ml
+^ESCTVE867510	Verapamil 40mg/5ml oral solution sugar free
+^ESCTVE869678	Verapamil 5mg/2ml solution for injection ampoules 5 ampoule
+^ESCTVE871124	Verapamil 120mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE896860	Verapamil 240mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTVE896861	Verapamil 240mg modified-release tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE897197	Vera-Til SR 120mg tablets (Tillomed Laboratories Ltd)
+^ESCTVE897198	Vera-Til SR 120mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTVE897199	Vera-Til SR 240mg tablets (Tillomed Laboratories Ltd)
+^ESCTVE897200	Vera-Til SR 240mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTVE900873	Verapress MR 240mg tablets (Sandoz Ltd)
+^ESCTVE900874	Verapress MR 240mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE900894	Verapress MR 240mg tablets (Actavis UK Ltd)
+^ESCTVE900895	Verapress MR 240mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE913825	Verapamil 240mg modified-release tablets (Mylan Ltd)
+^ESCTVE913829	Verapamil 240mg modified-release tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE919523	Verapamil 240mg modified-release tablets (Teva UK Ltd)
+^ESCTVE919525	Verapamil 240mg modified-release tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE929096	Verapamil 240mg modified-release tablets (Arrow Generics Ltd)
+^ESCTVE929098	Verapamil 240mg modified-release tablets (Arrow Generics Ltd) 28 tablet
+^ESCTVE929811	Verapamil 240mg modified-release tablets 30 tablet
+^ESCTVE934152	Verapress MR 240mg tablets (Teva UK Ltd)
+^ESCTVE934153	Verapress MR 240mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE956897	Verapamil 10mg/5ml oral suspension 1 ml
+^ESCTVE956898	Verapamil 10mg/5ml oral suspension (Special Order)
+^ESCTVE956899	Verapamil 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE956900	Verapamil 10mg/5ml oral solution 1 ml
+^ESCTVE956901	Verapamil 10mg/5ml oral solution (Special Order)
+^ESCTVE956902	Verapamil 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE956972	Verapamil 10mg/5ml oral solution
+^ESCTVE956973	Verapamil 10mg/5ml oral suspension
+^ESCTVE956974	Verapamil 120mg/5ml oral suspension 1 ml
+^ESCTVE956975	Verapamil 120mg/5ml oral suspension (Special Order)
+^ESCTVE956976	Verapamil 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE956977	Verapamil 120mg/5ml oral solution 1 ml
+^ESCTVE956978	Verapamil 120mg/5ml oral solution (Special Order)
+^ESCTVE956979	Verapamil 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE956980	Verapamil 20mg/5ml oral suspension 1 ml
+^ESCTVE956981	Verapamil 20mg/5ml oral suspension (Special Order)
+^ESCTVE956982	Verapamil 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE956983	Verapamil 20mg/5ml oral solution 1 ml
+^ESCTVE956984	Verapamil 20mg/5ml oral solution (Special Order)
+^ESCTVE956985	Verapamil 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE956986	Verapamil 240mg/5ml oral suspension 1 ml
+^ESCTVE956987	Verapamil 240mg/5ml oral suspension (Special Order)
+^ESCTVE956988	Verapamil 240mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE956989	Verapamil 240mg/5ml oral solution 1 ml
+^ESCTVE956990	Verapamil 240mg/5ml oral solution (Special Order)
+^ESCTVE956991	Verapamil 240mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE956992	Verapamil 250mg/5ml oral suspension 1 ml
+^ESCTVE956993	Verapamil 250mg/5ml oral suspension (Special Order)
+^ESCTVE956994	Verapamil 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE956995	Verapamil 250mg/5ml oral solution 1 ml
+^ESCTVE956996	Verapamil 250mg/5ml oral solution (Special Order)
+^ESCTVE956997	Verapamil 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE956998	Verapamil 30mg/5ml oral suspension 1 ml
+^ESCTVE956999	Verapamil 30mg/5ml oral suspension (Special Order)
+^ESCTVE957000	Verapamil 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE957001	Verapamil 30mg/5ml oral solution 1 ml
+^ESCTVE957002	Verapamil 30mg/5ml oral solution (Special Order)
+^ESCTVE957003	Verapamil 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE957004	Verapamil 40mg/5ml oral suspension 1 ml
+^ESCTVE957005	Verapamil 40mg/5ml oral suspension (Special Order)
+^ESCTVE957006	Verapamil 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE957007	Verapamil 40mg/5ml oral solution 1 ml
+^ESCTVE957008	Verapamil 40mg/5ml oral solution (Special Order)
+^ESCTVE957009	Verapamil 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE957010	Verapamil 45mg/5ml oral suspension 1 ml
+^ESCTVE957011	Verapamil 45mg/5ml oral suspension (Special Order)
+^ESCTVE957012	Verapamil 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE957013	Verapamil 45mg/5ml oral solution 1 ml
+^ESCTVE957014	Verapamil 45mg/5ml oral solution (Special Order)
+^ESCTVE957015	Verapamil 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE957016	Verapamil 50mg/5ml oral suspension 1 ml
+^ESCTVE957017	Verapamil 50mg/5ml oral suspension (Special Order)
+^ESCTVE957018	Verapamil 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE957019	Verapamil 50mg/5ml oral solution 1 ml
+^ESCTVE957020	Verapamil 50mg/5ml oral solution (Special Order)
+^ESCTVE957021	Verapamil 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE957022	Verapamil 80mg/5ml oral suspension 1 ml
+^ESCTVE957023	Verapamil 80mg/5ml oral suspension (Special Order)
+^ESCTVE957024	Verapamil 80mg/5ml oral suspension (Special Order) 1 ml
+^ESCTVE957025	Verapamil 80mg/5ml oral solution 1 ml
+^ESCTVE957026	Verapamil 80mg/5ml oral solution (Special Order)
+^ESCTVE957027	Verapamil 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTVE957700	Verapamil 120mg/5ml oral solution
+^ESCTVE957701	Verapamil 120mg/5ml oral suspension
+^ESCTVE957702	Verapamil 20mg/5ml oral solution
+^ESCTVE957703	Verapamil 20mg/5ml oral suspension
+^ESCTVE957704	Verapamil 240mg/5ml oral solution
+^ESCTVE957705	Verapamil 240mg/5ml oral suspension
+^ESCTVE957706	Verapamil 250mg/5ml oral solution
+^ESCTVE957708	Verapamil 250mg/5ml oral suspension
+^ESCTVE957709	Verapamil 30mg/5ml oral solution
+^ESCTVE957710	Verapamil 30mg/5ml oral suspension
+^ESCTVE957711	Verapamil 40mg/5ml oral solution
+^ESCTVE957712	Verapamil 40mg/5ml oral suspension
+^ESCTVE957713	Verapamil 45mg/5ml oral solution
+^ESCTVE957714	Verapamil 45mg/5ml oral suspension
+^ESCTVE957715	Verapamil 50mg/5ml oral solution
+^ESCTVE957716	Verapamil 50mg/5ml oral suspension
+^ESCTVE957718	Verapamil 80mg/5ml oral solution
+^ESCTVE957720	Verapamil 80mg/5ml oral suspension
+^ESCTVE975197	Verapamil 240mg modified-release tablets 20 tablet
+^ESCTVE979363	Verapamil 120mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTVE979364	Verapamil 120mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTVE979365	Verapamil 160mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTVE979366	Verapamil 160mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTVE991905	Vera-Til SR 240mg tablets (Actavis UK Ltd)
+^ESCTVE991906	Vera-Til SR 240mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVE992033	Vera-Til SR 120mg tablets (Actavis UK Ltd)
+^ESCTVE992035	Vera-Til SR 120mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVI801463	Viazem XL 120mg capsules (Thornton & Ross Ltd)
+^ESCTVI801490	Viazem XL 180mg capsules (Thornton & Ross Ltd)
+^ESCTVI814037	Viazem XL 300mg capsules (Thornton & Ross Ltd)
+^ESCTVI820733	Viazem XL 360mg capsules (Thornton & Ross Ltd)
+^ESCTVI830999	Viazem XL 240mg capsules (Thornton & Ross Ltd)
+^ESCTVI853134	Viazem XL 120mg capsules (Thornton & Ross Ltd) 28 capsule 4 x 7 capsules
+^ESCTVI853154	Viazem XL 180mg capsules (Thornton & Ross Ltd) 28 capsule 4 x 7 capsules
+^ESCTVI853167	Viazem XL 240mg capsules (Thornton & Ross Ltd) 28 capsule 4 x 7 capsules
+^ESCTVI853179	Viazem XL 300mg capsules (Thornton & Ross Ltd) 28 capsule 4 x 7 capsules
+^ESCTVI853187	Viazem XL 360mg capsules (Thornton & Ross Ltd) 28 capsule 4 x 7 capsules
+^ESCTZA800773	Zanidip 10mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTZA849188	Zanidip 10mg tablets (Recordati Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZA927022	Zanidip 20mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTZA927023	Zanidip 20mg tablets (Recordati Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZE803286	Zemtard 120 XL capsules (Galen Ltd)
+^ESCTZE811154	Zemtard 240 XL capsules (Galen Ltd)
+^ESCTZE820661	Zemret 300 XL capsules (Tillomed Laboratories Ltd)
+^ESCTZE826238	Zemtard 180 XL capsules (Galen Ltd)
+^ESCTZE827083	Zemret 240 XL capsules (Tillomed Laboratories Ltd)
+^ESCTZE830108	Zemtard 300 XL capsules (Galen Ltd)
+^ESCTZE833303	Zemret 180 XL capsules (Tillomed Laboratories Ltd)
+^ESCTZE853132	Zemtard 120 XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853151	Zemtard 180 XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853157	Zemret 180 XL capsules (Tillomed Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853166	Zemtard 240 XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853170	Zemret 240 XL capsules (Tillomed Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853178	Zemtard 300 XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTZE853181	Zemret 300 XL capsules (Tillomed Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCTZI806057	Zildil 90mg modified-release capsules (Chanelle Medical UK Ltd)
+^ESCTZI820796	Zildil SR 120mg capsules (Chanelle Medical UK Ltd)
+^ESCTZI822301	Zildil SR 60mg capsules (Chanelle Medical UK Ltd)
+^ESCTZI853105	Zildil SR 60mg capsules (Chanelle Medical UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTZI853116	Zildil 90mg modified-release capsules (Chanelle Medical UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTZI853128	Zildil SR 120mg capsules (Chanelle Medical UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTZO867457	Zolvera 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTZO867459	Zolvera 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+ADCA11816NEMIS	Adizem-Xl  M/R capsules  200 mg
+ADCA46	Adalat  Capsules  10 mg
+ADCA47	Adalat  Capsules  5 mg
+ADM/19382NEMIS	Adipine Xl  M/R tablets  30 mg
+ADM/19383NEMIS	Adipine Xl  M/R tablets  60 mg
+ADM/19822EMIS	Adalat La  M/R tablets  30 mg
+ADM/19823EMIS	Adalat La  M/R tablets  60 mg
+ADM/22255EMIS	Adizem-Sr  M/R capsules  120 mg
+ADM/22256EMIS	Adizem-Sr  M/R capsules  180 mg
+ADM/22258EMIS	Adizem-Sr  M/R capsules  90 mg
+ADM/24027EMIS	Adizem-Xl  M/R capsules  120 mg
+ADM/24028EMIS	Adizem-Xl  M/R capsules  180 mg
+ADM/24029EMIS	Adizem-Xl  M/R capsules  240 mg
+ADM/24030EMIS	Adizem-Xl  M/R capsules  300 mg
+ADM/27060EMIS	Adipine Mr 20  M/R tablets  20 mg
+ADM/28056EMIS	Adipine Mr 10  M/R tablets  10 mg
+ADM/45636NEMIS	Adanif Xl  M/R tablets  30 mg
+ADM/45637NEMIS	Adanif Xl  M/R tablets  60 mg
+ADM/4NEMIS	Adalat La  M/R tablets  20 mg
+ADTA48	Adalat Retard  Tablets  20 mg
+ADTA8424EGTON	Adalat Retard 10  Tablets  10 mg
+ADTA9102HILLI	Adizem-Sr  M/R tablets  120 mg
+AMOR102552NEMIS	Amlodipine  Oral Solution, Sugar Free  10 mg/5 ml
+AMOR128197NEMIS	Amlodipine  Oral Suspension Sugar Free  5 mg/5 ml
+AMOR23122NEMIS	Amlodipine  Oral suspension  10 mg/5 ml
+AMOR29966NEMIS	Amlodipine  Oral Solution, Sugar Free  5 mg/5 ml
+AMOR34433NEMIS	Amlodipine  Oral suspension  1.5 mg/5 ml
+AMOR41285NEMIS	Amlodipine  Oral solution  5 mg/5 ml
+AMOR45600NEMIS	Amlodipine  Oral suspension  5 mg/5 ml
+AMOR72197NEMIS	Amlodipine  Oral solution  10 mg/5 ml
+AMTA10145BRIDL	Amlodipine Besilate  Tablets  5 mg
+AMTA135622NEMIS	Amlodipine  Tablets  2.5 mg
+AMTA17004NEMIS	Amlodipine  Tablets  5 mg
+AMTA17006NEMIS	Amlodipine  Tablets  10 mg
+AMTA18891NEMIS	Amlostin  Tablets  5 mg
+AMTA18892NEMIS	Amlostin  Tablets  10 mg
+AMTA23851NEMIS	Amlodipine And Valsartan  Tablets  5 mg + 80 mg
+AMTA23852NEMIS	Amlodipine And Valsartan  Tablets  5 mg + 160 mg
+AMTA23853NEMIS	Amlodipine And Valsartan  Tablets  10 mg + 160 mg
+AMTA9080EMIS	Amlodipine Besilate  Tablets  10 mg
+ANCA10524BRIDL	Angiopine  Capsules  10 mg
+ANM/25441EMIS	Angiopine  M/R tablets  20 mg
+ANM/26808EMIS	Angitil Sr 90  M/R capsules  90 mg
+ANM/26810EMIS	Angitil Sr 120  M/R capsules  120 mg
+ANM/26917EMIS	Angitil Sr 180  M/R capsules  180 mg
+ANM/30196EMIS	Angiozem Cr 90  M/R tablets  90 mg
+ANM/30198EMIS	Angiozem Cr 120  M/R tablets  120 mg
+ANM/31403EMIS	Angiopine  M/R tablets  10 mg
+ANM/32893EMIS	Angitil Xl 240  M/R capsules  240 mg
+ANM/32895EMIS	Angitil Xl 300  M/R capsules  300 mg
+ANTA8816EGTON	Angiozem  Tablets  60 mg
+BIM/13547NEMIS	Bi-Carzem Sr  M/R capsules  60 mg
+BIM/13548NEMIS	Bi-Carzem Sr  M/R capsules  90 mg
+BIM/13549NEMIS	Bi-Carzem Sr  M/R capsules  120 mg
+BIM/44774NEMIS	Bi-Carzem Xl  M/R capsules  240 mg
+BIM/44775NEMIS	Bi-Carzem Xl  M/R capsules  300 mg
+CACA10620BRIDL	Cardene  Capsules  20 mg
+CACA10622BRIDL	Cardene  Capsules  30 mg
+CAM/15554NEMIS	Cabren  M/R tablets  2.5 mg
+CAM/15555NEMIS	Cabren  M/R tablets  5 mg
+CAM/15556NEMIS	Cabren  M/R tablets  10 mg
+CAM/18447NEMIS	Cardioplen Xl  M/R tablets  5 mg
+CAM/18448NEMIS	Cardioplen Xl  M/R tablets  10 mg
+CAM/21922EMIS	Cardene Sr  M/R capsules  30 mg
+CAM/21923EMIS	Cardene Sr  M/R capsules  45 mg
+CAM/25338EMIS	Cardilate Mr  M/R tablets  20 mg
+CAM/25482NEMIS	Cardioplen Xl  M/R tablets  2.5 mg
+CAM/30073EMIS	Calcicard Cr  M/R tablets  120 mg
+CAM/30074EMIS	Calcicard Cr  M/R tablets  90 mg
+CAM/32324EMIS	Cardilate Mr  M/R tablets  10 mg
+CAM/6711NEMIS	Calchan Mr  M/R tablets  10 mg
+CAM/6712NEMIS	Calchan Mr  M/R tablets  20 mg
+COM/19775EMIS	Coracten  M/R capsules  10 mg
+COM/3460NEMIS	Coroday MR  M/R tablets  20 mg
+COM/35189EMIS	Coracten Xl  M/R capsules  30 mg
+COM/35190EMIS	Coracten Xl  M/R capsules  60 mg
+COM/4526NEMIS	Cordilox  M/R tablets  240 mg
+COSR10743BRIDL	Coracten  M/R capsules  20 mg
+COTA731	Cordilox  Tablets  120 mg
+COTA732	Cordilox  Tablets  160 mg
+COTA733	Cordilox  Tablets  40 mg
+COTA734	Cordilox  Tablets  80 mg
+DEM/138914NEMIS	Dexipress Mr  M/R tablets  20 mg
+DEM/142071NEMIS	Delofine Xl  M/R tablets  2.5 mg
+DEM/142072NEMIS	Delofine Xl  M/R tablets  5 mg
+DEM/142073NEMIS	Delofine Xl  M/R tablets  10 mg
+DIM/12092NEMIS	Disogram Sr  M/R capsules  60 mg
+DIM/12094NEMIS	Disogram Sr  M/R capsules  90 mg
+DIM/12096NEMIS	Disogram Sr  M/R capsules  120 mg
+DIM/12098NEMIS	Disogram Sr  M/R capsules  180 mg
+DIM/12101NEMIS	Disogram Sr  M/R capsules  240 mg
+DIM/12104NEMIS	Disogram Sr  M/R capsules  300 mg
+DIM/21945EMIS	Diltiazem Hydrochloride  M/R capsules  300 mg
+DIM/22263EMIS	Diltiazem Hydrochloride  M/R capsules  120 mg
+DIM/22264EMIS	Diltiazem Hydrochloride  M/R capsules  180 mg
+DIM/22265EMIS	Diltiazem Hydrochloride  M/R capsules  300 mg
+DIM/22266EMIS	Diltiazem Hydrochloride  M/R capsules  90 mg
+DIM/23136EMIS	Dilzem Sr 60  M/R capsules  60 mg
+DIM/23138EMIS	Dilzem Sr 90  M/R capsules  90 mg
+DIM/23140EMIS	Dilzem Sr 120  M/R capsules  120 mg
+DIM/23454EMIS	Diltiazem Hydrochloride  M/R capsules  60 mg
+DIM/24040EMIS	Dilzem Xl  M/R capsules  120 mg
+DIM/24041EMIS	Dilzem Xl  M/R capsules  180 mg
+DIM/24042EMIS	Dilzem Xl  M/R capsules  240 mg
+DIM/27367EMIS	Diltiazem Hydrochloride  M/R capsules  240 mg
+DIM/28229EMIS	Diltiazem Hydrochloride  M/R capsules  200 mg
+DIM/30235EMIS	Diltiazem Hydrochloride  M/R tablets  60 mg
+DIM/32631EMIS	Dilcardia  M/R capsules  120 mg
+DIM/32632EMIS	Dilcardia  M/R capsules  60 mg
+DIM/32633EMIS	Dilcardia  M/R capsules  90 mg
+DIM/34755MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (A.A.H. Pharm)
+DIM/34756MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Teva UK)
+DIM/34757MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Generics (UK))
+DIM/34758MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Unichem)
+DIM/34759MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Ivax Pharmaceuticals)
+DIM/34760MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Sterwin Medicines)
+DIM/34761MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Cp Pharm)
+DIM/34762MGEMIS	Diltiazem Hydrochloride  M/R tablets  60 mg (Alpharma)
+DIM/423NEMIS	Diltiazem Hydrochloride  M/R capsules  360 mg
+DIOR35137NEMIS	Diltiazem Hydrochloride  Oral suspension  60 mg/5 ml
+DIOR46726NEMIS	Diltiazem Hydrochloride  Oral solution  60 mg/5 ml
+DIS/9119EMIS	Diltiazem Hydrochloride  M/R tablets  90 mg
+DISR10514BRIDL	Diltiazem Hydrochloride  M/R tablets  120 mg
+ETM/4226NEMIS	Ethimil Mr 240  M/R tablets  240 mg
+EXTA23855NEMIS	Exforge  Tablets  5 mg/80 mg
+EXTA23856NEMIS	Exforge  Tablets  5 mg/160 mg
+EXTA23857NEMIS	Exforge  Tablets  10 mg/160 mg
+FEM/16278NEMIS	Felotens Xl  M/R tablets  5 mg
+FEM/16279NEMIS	Felotens Xl  M/R tablets  10 mg
+FEM/18733NEMIS	Felogen Xl  M/R tablets  5 mg
+FEM/18734NEMIS	Felogen Xl  M/R tablets  10 mg
+FEM/29020NEMIS	Felotens Xl  M/R tablets  2.5 mg
+FEM/29632EMIS	Felodipine  M/R tablets  2.5 mg
+FES/9144EMIS	Felodipine  M/R tablets  10 mg
+FES/9145EMIS	Felodipine  M/R tablets  5 mg
+FOM/30026EMIS	Fortipine La  M/R tablets  40 mg
+FOM/42235NEMIS	Folpik Xl  M/R tablets  10 mg
+FOM/42236NEMIS	Folpik Xl  M/R tablets  2.5 mg
+FOM/42237NEMIS	Folpik Xl  M/R tablets  5 mg
+HAM/21986EMIS	Half Securon Sr  M/R tablets  120 mg
+HOM/12930NEMIS	Horizem Sr  M/R capsules  120 mg
+HOM/12931NEMIS	Horizem Sr  M/R capsules  90 mg
+HYM/13497NEMIS	Hypolar Xl 30  M/R tablets  30 mg
+HYM/29964EMIS	Hypolar Retard 20  M/R tablets  20 mg
+ISTA10255BRIDL	Isradipine  Tablets  2.5 mg
+ISTA9943BRIDL	Istin  Tablets  5 mg
+ISTA9945BRIDL	Istin  Tablets  10 mg
+KEM/88694NEMIS	Kenzem Sr  M/R capsules  60 mg
+KEM/88695NEMIS	Kenzem Sr  M/R capsules  90 mg
+KEM/88696NEMIS	Kenzem Sr  M/R capsules  120 mg
+LATA134746NEMIS	Lacidipine  Tablets  6 mg
+LATA23421EMIS	Lacidipine  Tablets  2 mg
+LATA23422EMIS	Lacidipine  Tablets  4 mg
+LETA22327NEMIS	Lercanidipine Hydrochloride  Tablets  20 mg
+LETA32002EMIS	Lercanidipine Hydrochloride  Tablets  10 mg
+MOTA100694NEMIS	Molap  Tablets  4 mg
+MOTA23417EMIS	Motens  Tablets  2 mg
+MOTA23418EMIS	Motens  Tablets  4 mg
+NEM/30136NEMIS	Neofel Xl  M/R tablets  2.5 mg
+NEM/30137NEMIS	Neofel Xl  M/R tablets  5 mg
+NEM/30138NEMIS	Neofel Xl  M/R tablets  10 mg
+NEM/44782NEMIS	Neozipine Xl  M/R tablets  30 mg
+NEM/44783NEMIS	Neozipine Xl  M/R tablets  60 mg
+NICA10469BRIDL	Nicardipine Hydrochloride  Capsules  30 mg
+NICA1986	Nifedipine  Capsules  10 mg
+NICA1987	Nifedipine  Capsules  5 mg
+NICA36209MGEMIS	Nicardipine Hydrochloride  Capsules  30 mg (Unichem)
+NICA36210MGEMIS	Nicardipine Hydrochloride  Capsules  30 mg (Kent Pharm)
+NICA36211MGEMIS	Nicardipine Hydrochloride  Capsules  30 mg (Generics (UK))
+NICA36212MGEMIS	Nicardipine Hydrochloride  Capsules  30 mg (A.A.H. Pharm)
+NICA36213MGEMIS	Nicardipine Hydrochloride  Capsules  30 mg (Teva UK)
+NICA36214MGEMIS	Nifedipine  Capsules  10 mg (Teva UK)
+NICA36215MGEMIS	Nifedipine  Capsules  10 mg (The Boots Company)
+NICA36216MGEMIS	Nifedipine  Capsules  10 mg (Kent Pharm)
+NICA36217MGEMIS	Nifedipine  Capsules  10 mg (A.A.H. Pharm)
+NICA36218MGEMIS	Nifedipine  Capsules  10 mg (Alpharma)
+NICA36219MGEMIS	Nifedipine  Capsules  10 mg (Ivax Pharmaceuticals)
+NICA36220MGEMIS	Nifedipine  Capsules  10 mg (Generics (UK))
+NICA36221MGEMIS	Nifedipine  Capsules  10 mg (Unichem)
+NICA36222MGEMIS	Nifedipine  Capsules  5 mg (Kent Pharm)
+NICA36223MGEMIS	Nifedipine  Capsules  5 mg (Teva UK)
+NICA36224MGEMIS	Nifedipine  Capsules  5 mg (Alpharma)
+NICA36225MGEMIS	Nifedipine  Capsules  5 mg (Unichem)
+NICA36226MGEMIS	Nifedipine  Capsules  5 mg (Generics (UK))
+NICA36227MGEMIS	Nifedipine  Capsules  5 mg (A.A.H. Pharm)
+NICA36228MGEMIS	Nifedipine  Capsules  5 mg (The Boots Company)
+NICA36229MGEMIS	Nifedipine  Capsules  5 mg (Ivax Pharmaceuticals)
+NICA36230MGEMIS	Nicardipine Hydrochloride  Capsules  20 mg (Kent Pharm)
+NICA36231MGEMIS	Nicardipine Hydrochloride  Capsules  20 mg (A.A.H. Pharm)
+NICA36232MGEMIS	Nicardipine Hydrochloride  Capsules  20 mg (Unichem)
+NICA36233MGEMIS	Nicardipine Hydrochloride  Capsules  20 mg (Generics (UK))
+NICA36234MGEMIS	Nicardipine Hydrochloride  Capsules  20 mg (Teva UK)
+NICA5200	Nicardipine Hydrochloride  Capsules  20 mg
+NIIN9085EMIS	Nimodipine  Intravenous infusion  10 mg/50 ml vial
+NIIN9090EMIS	Nimotop  Intravenous infusion  0.02 %, 50 ml vial
+NIM/124308NEMIS	Nidef  M/R tablets  30 mg
+NIM/124309NEMIS	Nidef  M/R tablets  60 mg
+NIM/172NEMIS	Nifedipine  M/R capsules  30 mg
+NIM/173NEMIS	Nifedipine  M/R capsules  60 mg
+NIM/19537EMIS	Nifedipine  M/R tablets  20 mg
+NIM/19777EMIS	Nifedipine  M/R capsules  10 mg
+NIM/19826EMIS	Nifedipine  M/R tablets  30 mg
+NIM/19827EMIS	Nifedipine  M/R tablets  60 mg
+NIM/21926EMIS	Nicardipine Hydrochloride  M/R capsules  30 mg
+NIM/21927EMIS	Nicardipine Hydrochloride  M/R capsules  45 mg
+NIM/22979NEMIS	Nimodrel Xl  M/R tablets  30 mg
+NIM/22980NEMIS	Nimodrel Xl  M/R tablets  60 mg
+NIM/28058EMIS	Nifedipine  M/R tablets  10 mg
+NIM/29918EMIS	Nisoldipine  M/R tablets  10 mg
+NIM/29919EMIS	Nisoldipine  M/R tablets  20 mg
+NIM/29920EMIS	Nisoldipine  M/R tablets  30 mg
+NIM/30028EMIS	Nifedipine  M/R tablets  40 mg
+NIM/35381EMIS	Nifedipress Mr  M/R tablets  10 mg
+NIM/35382EMIS	Nifedipress Mr  M/R tablets  20 mg
+NIM/5299NEMIS	Nifopress Retard  M/R tablets  20 mg
+NIOR11615NEMIS	Nifedipine  Oral drops  20 mg/ml
+NIOR36283NEMIS	Nifedipine  Oral suspension  5 mg/5 ml
+NIOR40325NEMIS	Nifedipine  Oral suspension  2.5 mg/5 ml
+NIOR46511NEMIS	Nifedipine  Oral suspension  10 mg/5 ml
+NISR9016EMIS	Nifedipine  M/R capsules  20 mg
+NITA9086EMIS	Nimodipine  Tablets  30 mg
+NITA9566BRIDL	Nimotop  Tablets  30 mg
+OPM/33748EMIS	Optil  M/R tablets  60 mg
+PAM/88744NEMIS	Parmid Xl  M/R tablets  2.5 mg
+PAM/88745NEMIS	Parmid Xl  M/R tablets  5 mg
+PAM/88746NEMIS	Parmid Xl  M/R tablets  10 mg
+PLM/29630EMIS	Plendil  M/R tablets  2.5 mg
+PLS/9140EMIS	Plendil  M/R tablets  10 mg
+PLS/9141EMIS	Plendil  M/R tablets  5 mg
+PRTA9451BRIDL	Prescal  Tablets  2.5 mg
+RAM/14404NEMIS	Ranvera Mr  M/R tablets  240 mg
+REM/31044NEMIS	Retalzem 60  M/R tablets  60 mg
+SEIN9401BRIDL	Securon  Injection  2.5 mg/ml, 2 ml ampoule
+SETA2513	Securon  Tablets  120 mg
+SETA2517	Securon Sr  Tablets  240 mg
+SLM/26055EMIS	Slozem  M/R capsules  120 mg
+SLM/26056EMIS	Slozem  M/R capsules  180 mg
+SLM/26057EMIS	Slozem  M/R capsules  240 mg
+SLM/35167EMIS	Slofedipine Xl  M/R tablets  30 mg
+SLM/35168EMIS	Slofedipine Xl  M/R tablets  60 mg
+SLM/6255NEMIS	Slozem  M/R capsules  300 mg
+SLTA32947EMIS	Slofedipine  M/R tablets  20 mg
+SYM/29912EMIS	Syscor Mr  M/R tablets  10 mg
+SYM/29913EMIS	Syscor Mr  M/R tablets  20 mg
+SYM/29914EMIS	Syscor Mr  M/R tablets  30 mg
+TEM/29664EMIS	Tensipine Mr  M/R tablets  10 mg
+TEM/29665EMIS	Tensipine Mr  M/R tablets  20 mg
+TIM/21943EMIS	Tildiem La  M/R capsules  300 mg
+TIM/28227EMIS	Tildiem La  M/R capsules  200 mg
+TIS/9116EMIS	Tildiem  S/r tablets  120 mg
+TIS/9117EMIS	Tildiem  S/r tablets  90 mg
+TIS/9223EMIS	Tildiem Retard  S/r tablets  120 mg
+TIS/9224EMIS	Tildiem Retard  S/r tablets  90 mg
+TITA2860	Tildiem  M/R tablets  60 mg
+TRM/103695NEMIS	Trimetazidine  M/R tablets  35 mg
+TRTA72279NEMIS	Trimetazidine  Tablets  20 mg
+UNS/8593EGTON	Univer  M/R capsules  120 mg
+UNS/8594EGTON	Univer  M/R capsules  180 mg
+UNS/8595EGTON	Univer  M/R capsules  240 mg
+VAM/15924NEMIS	Valni 20 Retard  M/R tablets  20 mg
+VAM/16955NEMIS	Vascalpha  M/R tablets  5 mg
+VAM/16956NEMIS	Vascalpha  M/R tablets  10 mg
+VAM/29308NEMIS	Valni Xl  M/R tablets  30 mg
+VAM/29309NEMIS	Valni Xl  M/R tablets  60 mg
+VAM/41320NEMIS	Vastarel Mr  M/R tablets  35 mg
+VEM/15052NEMIS	Vera-Til Sr  M/R tablets  120 mg
+VEM/15053NEMIS	Vera-Til Sr  M/R tablets  240 mg
+VEM/21988EMIS	Verapamil Hydrochloride  M/R tablets  120 mg
+VEM/24136EMIS	Verapamil Hydrochloride  M/R tablets  240 mg
+VEM/35155EMIS	Vertab Sr 240  M/R tablets  240 mg
+VEM/37365MGEMIS	Verapamil Hydrochloride  M/R tablets  240 mg (Kent Pharm)
+VEM/37366MGEMIS	Verapamil Hydrochloride  M/R tablets  240 mg (Generics (UK))
+VEM/37367MGEMIS	Verapamil Hydrochloride  M/R tablets  240 mg (Teva UK)
+VEM/816NEMIS	Verapress MR  M/R tablets  240 mg
+VEOR24587EMIS	Verapamil Hydrochloride  Oral solution  Sugar Free 40 mg/5 ml
+VES/8688EGTON	Verapamil Hydrochloride  M/R capsules  120 mg
+VES/8689EGTON	Verapamil Hydrochloride  M/R capsules  180 mg
+VES/8690EGTON	Verapamil Hydrochloride  M/R capsules  240 mg
+VESO26888NEMIS	Verapamil Hydrochloride  Solution for injection  2.5 mg/ml, 2 ml ampoule
+VESR8691EGTON	Verapamil Hydrochloride  M/R capsules  240 mg
+VETA37368MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (A.A.H. Pharm)
+VETA37369MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Unichem)
+VETA37370MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Alpharma)
+VETA37371MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Generics (UK))
+VETA37372MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Teva UK)
+VETA37373MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Sandoz)
+VETA37374MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Kent Pharm)
+VETA37375MGEMIS	Verapamil Hydrochloride  Tablets  120 mg (Ivax Pharmaceuticals)
+VETA37376MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Ivax Pharmaceuticals)
+VETA37377MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Kent Pharm)
+VETA37378MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Alpharma)
+VETA37379MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (A.A.H. Pharm)
+VETA37380MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Generics (UK))
+VETA37381MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Unichem)
+VETA37382MGEMIS	Verapamil Hydrochloride  Tablets  160 mg (Sandoz)
+VETA37383MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Kent Pharm)
+VETA37384MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Generics (UK))
+VETA37385MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Unichem)
+VETA37386MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (A.A.H. Pharm)
+VETA37387MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Ivax Pharmaceuticals)
+VETA37388MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Teva UK)
+VETA37389MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Sandoz)
+VETA37390MGEMIS	Verapamil Hydrochloride  Tablets  40 mg (Alpharma)
+VETA37391MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Alpharma)
+VETA37392MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (A.A.H. Pharm)
+VETA37393MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Unichem)
+VETA37394MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Teva UK)
+VETA37395MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Ivax Pharmaceuticals)
+VETA37396MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Kent Pharm)
+VETA37397MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Sandoz)
+VETA37398MGEMIS	Verapamil Hydrochloride  Tablets  80 mg (Generics (UK))
+VETA5495	Verapamil Hydrochloride  Tablets  120 mg
+VETA6807	Verapamil Hydrochloride  Tablets  160 mg
+VETA6808	Verapamil Hydrochloride  Tablets  40 mg
+VETA6809	Verapamil Hydrochloride  Tablets  80 mg
+VIM/31932EMIS	Viazem Xl  M/R capsules  120 mg
+VIM/31933EMIS	Viazem Xl  M/R capsules  180 mg
+VIM/31934EMIS	Viazem Xl  M/R capsules  240 mg
+VIM/31935EMIS	Viazem Xl  M/R capsules  300 mg
+VIM/31936EMIS	Viazem Xl  M/R capsules  360 mg
+ZATA22328NEMIS	Zanidip  Tablets  20 mg
+ZATA32000EMIS	Zanidip  Tablets  10 mg
+ZEM/15926NEMIS	Zemret 180 Xl  M/R capsules  180 mg
+ZEM/15928NEMIS	Zemret 240 Xl  M/R capsules  240 mg
+ZEM/15930NEMIS	Zemret 300 Xl  M/R capsules  300 mg
+ZEM/809NEMIS	Zemtard 120XL  M/R capsules  120 mg
+ZEM/810NEMIS	Zemtard 180XL  M/R capsules  180 mg
+ZEM/811NEMIS	Zemtard 240XL  M/R capsules  240 mg
+ZEM/812NEMIS	Zemtard 300XL  M/R capsules  300 mg
+ZIM/15870NEMIS	Zildil Sr  M/R capsules  60 mg
+ZIM/15871NEMIS	Zildil Sr  M/R capsules  90 mg
+ZIM/15872NEMIS	Zildil Sr  M/R capsules  120 mg
+ZOOR11640NEMIS	Zolvera  Oral solution  40 mg/5 ml

@@ -1,0 +1,2 @@
+XabCy	Serum thyroid peroxidase antibody concentration
+XaDvU	Thyroid peroxidase antibody level
