@@ -17,18 +17,14 @@
 --  - FirstPostCOVIDAssessmentDate - First date of a post COVID assessment
 --  - FirstPostCOVIDReferralDate - First date of a post COVID referral
 
---> CODESETS post-covid-syndrome:1 post-covid-referral:1 post-covid-assessment:1
-
---DECLARE @TEMPLongCovidEndDate DATE
---SET @TEMPLongCovidEndDate = '2022-06-01';
+--> CODESETS long-covid-diagnosis:1 long-covid-referral:1 long-covid-assessment:1
 
 IF OBJECT_ID('tempdb..#TEMPPostCOVIDPatients') IS NOT NULL DROP TABLE #TEMPPostCOVIDPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstEventDate
 INTO #TEMPPostCOVIDPatients
 FROM {param:gp-events-table}
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-syndrome' AND [Version] = 1)
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'long-covid-diagnosis' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
---AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}
@@ -41,9 +37,8 @@ IF OBJECT_ID('tempdb..#TEMPPostCOVIDReferralPatients') IS NOT NULL DROP TABLE #T
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstEventDate
 INTO #TEMPPostCOVIDReferralPatients
 FROM {param:gp-events-table}
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-referral' AND [Version] = 1)
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'long-covid-referral' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
---AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}
@@ -56,9 +51,8 @@ IF OBJECT_ID('tempdb..#TEMPPostCOVIDAssessmentPatients') IS NOT NULL DROP TABLE 
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstEventDate
 INTO #TEMPPostCOVIDAssessmentPatients
 FROM {param:gp-events-table}
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'post-covid-assessment' AND [Version] = 1)
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'long-covid-assessment' AND [Version] = 1)
 AND EventDate > '{param:start-date}'
---AND EventDate <= @TEMPLongCovidEndDate
 {if:all-patients=true}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 {endif:all-patients}
@@ -77,8 +71,8 @@ SELECT FK_Patient_Link_ID FROM #TEMPPostCOVIDReferralPatients;
 IF OBJECT_ID('tempdb..#PostCOVIDPatients') IS NOT NULL DROP TABLE #PostCOVIDPatients;
 SELECT p.FK_Patient_Link_ID,
   post.FirstEventDate AS FirstPostCOVIDDiagnosisDate,
-  refer.FirstEventDate AS FirstPostCOVIDAssessmentDate,
-  assess.FirstEventDate AS FirstPostCOVIDReferralDate
+  refer.FirstEventDate AS FirstPostCOVIDReferralDate,
+  assess.FirstEventDate AS FirstPostCOVIDAssessmentDate
 INTO #PostCOVIDPatients
 FROM #TEMPPostCOVIDPatientIds p
 LEFT OUTER JOIN #TEMPPostCOVIDPatients post ON post.FK_Patient_Link_ID = p.FK_Patient_Link_ID
