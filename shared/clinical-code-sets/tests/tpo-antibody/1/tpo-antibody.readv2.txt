@@ -1,0 +1,2 @@
+43Gd.00	Thyroid peroxidase antibody level
+43Gd000	Serum thyroid peroxidase antibody concentration
