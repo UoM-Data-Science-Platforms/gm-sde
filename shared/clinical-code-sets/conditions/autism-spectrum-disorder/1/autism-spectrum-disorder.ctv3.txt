@@ -28,3 +28,12 @@ X00TN	Atypical autism
 X00TN	Atypical autistic syndrome
 XE1aA	[X]Other childhood disintegrative disorder
 XE1aA	[X]Other childhood disintegrative disorder
+E141.	Childhood disintegrative disorder
+E1410	Active disintegrative psychoses
+E1411	Residual disintegrative psychoses
+E141z	Disintegrative psychosis NOS
+Ub1Ts	Idiot savant
+Ub1Tw	Persistent developmental avoidance
+X005S	Rett syndrome
+X00TP	Asperger syndrome
+XaesO	Pathological demand avoidance
