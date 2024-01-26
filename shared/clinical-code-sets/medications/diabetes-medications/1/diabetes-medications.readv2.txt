@@ -105,6 +105,10 @@ f2B5.	TRESIBA PENFILL 100iu/mL injection cartridges
 f2B6.	INSULIN DEGLUDEC 100iu/mL injection cartridges
 f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
 f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+f321.	CHLORPROPAMIDE 100mg tablets
+f322.	CHLORPROPAMIDE 250mg tablets
+f331.	GLIBENCLAMIDE 2.5mg tablets
+f332.	GLIBENCLAMIDE 5mg tablets
 f333.	*DAONIL 5mg tablets
 f334.	*SEMI-DAONIL 2.5mg tablets
 f335.	*EUGLUCON 2.5mg tablets
@@ -123,11 +127,20 @@ f35B.	VAMJU 60mg m/r tablets
 f35w.	GLICLAZIDE 60mg m/r tablets
 f35x.	GLICLAZIDE 40mg tablets
 f35y.	GLICLAZIDE 30mg m/r tablets
+f35z.	GLICLAZIDE 80mg tablets
+f361.	GLIPIZIDE 5mg tablets
 f362.	*GLIBENESE 5mg tablets
 f363.	*MINODIAB 2.5mg tablets
 f364.	MINODIAB 5mg tablets
+f36z.	GLIPIZIDE 2.5mg tablets
 f371.	*GLURENORM 30mg tablets
+f37z.	*GLIQUIDONE 30mg tablets
+f3a1.	TOLBUTAMIDE 500mg tablets
+f3A1.	GLIMEPIRIDE 2mg tablets
 f3A2.	AMARYL 2mg tablets
+f3A3.	GLIMEPIRIDE 1mg tablets
+f3A4.	GLIMEPIRIDE 3mg tablets
+f3A5.	GLIMEPIRIDE 4mg tablets
 f3A6.	AMARYL 1mg tablets
 f3A7.	AMARYL 3mg tablets
 f3A8.	AMARYL 4mg tablets
@@ -154,14 +167,15 @@ f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
 f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
 f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
 f41x.	METFORMIN HYDROCHLORIDE 500mg m/r tablets
-f512.	*GUAREM granules 5g/sachet
-f711.	EUDEMINE 50mg tablets
-f724.	GLUCAGEN KIT 1mg(1iu) injection
-f72z.	GLUCAGON 1mg(1unit) injection (pdr for recon)
-f731.	HYPOSTOP gel
-f735.	DEXTROGEL oral gel 80g
+f41y.	METFORMIN HYDROCHLORIDE 500mg tablets
+f41z.	METFORMIN HYDROCHLORIDE 850mg tablets
+ft11.	ACARBOSE 50mg tablets
+ft12.	ACARBOSE 100mg tablets
 ft13.	GLUCOBAY 50 tablets
 ft14.	GLUCOBAY 100 tablets
+ft31.	REPAGLINIDE 0.5mg tablets
+ft32.	REPAGLINIDE 1mg tablets
+ft33.	REPAGLINIDE 2mg tablets
 ft34.	*NOVONORM 0.5mg tablets
 ft35.	*NOVONORM 1mg tablets
 ft36.	*NOVONORM 2mg tablets
@@ -174,16 +188,32 @@ ft43.	*AVANDAMET 1mg / 500mg tablets
 ft44.	*AVANDAMET 2mg / 500mg tablets
 ft45.	AVANDAMET 2mg / 1000mg tablets
 ft46.	AVANDAMET 4mg / 1000mg tablets
+ft4u.	ROSIGLITAZONE 2mg / METFORMIN 1000mg tablets
+ft4v.	ROSIGLITAZONE 4mg / METFORMIN 1000mg tablets
+ft4w.	ROSIGLITAZONE 2mg / METFORMIN 500mg tablets
+ft4x.	ROSIGLITAZONE 1mg / METFORMIN 500mg tablets
+ft4y.	*ROSIGLITAZONE 8mg tablets
+ft4z.	*ROSIGLITAZONE 4mg tablets
 ft51.	ACTOS 15mg tablets
 ft52.	ACTOS 30mg tablets
 ft53.	ACTOS 45mg tablets
+ft5x.	PIOGLITAZONE 45mg tablets
+ft5y.	PIOGLITAZONE 30mg tablets
+ft5z.	PIOGLITAZONE 15mg tablets
 ft61.	STARLIX 60mg tablets
 ft62.	STARLIX 120mg tablets
 ft63.	STARLIX 180mg tablets
+ft6x.	NATEGLINIDE 180mg tablets
+ft6y.	NATEGLINIDE 120mg tablets
+ft6z.	NATEGLINIDE 60mg tablets
 ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
 ft81.	JANUVIA 100mg tablets
 ft82.	JANUVIA 50mg tablets
 ft83.	JANUVIA 25mg tablets
+ft8x.	SITAGLIPTIN 25mg tablets
+ft8y.	SITAGLIPTIN 50mg tablets
+ft8z.	SITAGLIPTIN 100mg tablets
 ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
 ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
 ft93.	BYDUREON 2mg powder and solvent for suspension for injection
@@ -261,83 +291,9 @@ ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
 ftr7.	SYNJARDY 12.5mg/1000mg tablets
 ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
 fw11.	HUMALOG MIX25 100iu/mL cartridges 3mL
+fw13.	HUMALOG MIX50 100iu/mL prefilled pen 3mL
 fw14.	HUMALOG MIX50 100iu/mL cartridges 3mL
 fw15.	HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL
 fw16.	HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL
 fw21.	NOVOMIX 30 PENFILL 100units/mL injection cartridges 3mL
 fw22.	NOVOMIX 30 FLEXPEN 100units/mL injection prefilled pen 3mL
-pu55.	MEDI-TEST GLUCOSE strips
-pu56.	MISSION GLUCOSE 1G strips
-pu71.	KETOSTIX strips 50
-pu72.	*KETUR TEST strips 50
-pu74.	MISSION KETONE 1K strips
-pu75.	GLUCORX KETORX STICKS 2GK urine testing strips
-puh3.	GLUCOSTIX blood glucose testing strip x50
-puh5.	EXACTECH blood glucose testing strip x50
-puh6.	HYPOGUARD SUPREME blood glucose testing strip x50
-puh7.	BM ACCUTEST blood glucose testing strip x50
-puha.	FINETOUCH blood glucose testing tip
-puhb.	GLUCOMEN GM blood glucose testing strip
-puhc.	CLEVER CHEK blood glucose testing strip
-puhe.	ACCU-CHEK MOBILE blood glucose testing cassette
-puhE.	MEDI-TEST GLYCAEMIE C blood glucose testing strip
-puhF.	MEDISENSE G2 blood glucose testing strip
-puhG.	GLUCOTIDE blood glucose testing strip
-puhh.	GLUCOMEN SENSOR blood glucose testing strip
-puhH.	GLUCOMETER ESPRIT blood glucose test sensor disc
-puhJ.	POCKETSCAN blood glucose testing strip
-puhk.	PRESTIGE SMART SYSTEM blood glucose testing strip
-puhK.	MEDISENSE OPTIUM blood glucose testing electrode
-puhl.	ACTIVE blood glucose testing strip
-puhm.	MEDISENSE SOFT-SENSE blood glucose testing strip
-puhn.	GLUCOFLEX-R blood glucose testing strip
-puhO.	BREEZE 2 blood glucose test sensor disc
-puhp.	ONE TOUCH ULTRA blood glucose testing strip
-puhP.	BETACHEK G5 blood glucose testing strip
-puhq.	FREESTYLE blood glucose testing strip
-puhQ.	FREESTYLE LITE blood glucose testing strip
-puhR.	BIONIME RIGHTEST GS300 blood glucose testing strip
-puhs.	ASCENSIA AUTODISC blood glucose test sensor disc
-puhS.	MICRODOT blood glucose testing strip
-puht.	ASCENSIA MICROFILL blood glucose testing strip
-puhT.	GLUCOMEN LX SENSOR blood glucose testing strip
-puhu.	TRUETRACK SMART SYSTEM blood glucose testing strip
-puhU.	ONE TOUCH VITA blood glucose testing strip
-puhv.	SENOVA blood glucose testing strip
-puhV.	WAVESENSE JAZZ blood glucose testing strip
-puhw.	SENSOCARD blood glucose testing strip
-puhW.	BETACHEK VISUAL blood glucose testing strip
-puhx.	AVIVA blood glucose testing strip
-puhy.	GLUCOMEN VISIO SENSOR blood glucose testing strip
-puhY.	CARESENS N blood glucose testing strip
-puhZ.	PURA blood glucose testing strip
-pun3.	GLUCOMEN LX blood ketone test strips
-pup1.	NEUROPAD neuropathy sweat detection pads
-pur2.	IME-DC blood glucose testing strip
-pur3.	OMNITEST 3 blood glucose testing strip
-pur4.	ONETOUCH VERIO blood glucose testing strip
-pur5.	ON-CALL ADVANCED blood glucose testing strip
-pur6.	GLUCORX NEXUS blood glucose testing strip
-pur7.	SUPERCHECK 2 blood glucose testing strip
-pur8.	GLUCOLAB blood glucose testing strip
-pur9.	ELEMENT blood glucose testing strip
-purA.	BGSTAR blood glucose testing strip
-purB.	CONTOUR NEXT blood glucose testing strip
-purD.	GLUCODOCK blood glucose testing strip
-purE.	MEDITOUCH blood glucose testing strip
-purG.	TRUERESULT blood glucose testing strip
-purH.	SD CODEFREE blood glucose testing strip
-purI.	TRUEYOU blood glucose testing strip
-purJ.	WAVESENSE JAZZ duo pack blood glucose testing strip
-purK.	MYLIFE UNIO blood glucose testing strip
-purM.	AUTOSENSE blood glucose testing strip
-purN.	SURESIGN RESURE blood glucose testing strip
-purO.	TEE2 blood glucose testing strip
-purP.	CONTOUR TS blood glucose testing strip
-purQ.	DARIO blood glucose testing strip
-purR.	GLUNEO blood glucose testing strip
-purS.	GLUCOMEN AREO SENSOR blood glucose testing strip
-purT.	SUPERCHECK PLUS blood glucose testing strip
-purU.	ONETOUCH SELECT PLUS blood glucose testing strip
-purV.	ADVOCATE REDI-CODE+ blood glucose testing strip
-purW.	ACCU-CHEK PERFORMA blood glucose testing strip

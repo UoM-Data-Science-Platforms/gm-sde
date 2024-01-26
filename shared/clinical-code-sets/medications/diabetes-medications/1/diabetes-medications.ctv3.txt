@@ -50,7 +50,6 @@ f25H.	INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL
 f25o.	Humulin I 100iu/mL cartridges 3mL
 f25r.	Pork Insulatard 100units/mL injection 10mL
 f25v.	Hypurin Bovine Isophane 100iu/mL injection 10mL
-f25v.	Hypurin isophane 100iu/mL injection 10mL
 f25w.	Hypurin Porcine Isophane 100iu/mL injection 10mL
 f25y.	Insuman Basal 100iu/mL injection vial 5mL
 f25Y.	Human isophane insulin 100units/mL injection vial
@@ -58,31 +57,16 @@ f25z.	Insuman Basal 100iu/mL injection cartridge 3mL
 f26z.	Protamine zinc insulin 100units/mL injection vial
 f27C.	Humaject M3 100iu/mL prefilled pen
 f27J.	Human Mixtard 10 Penfill 1.5mL
-f27J.	PenMix 10/90 cartridges 1.5mL
 f27K.	Human Mixtard 20 Penfill 1.5mL
-f27K.	PenMix 20/80 cartridges 1.5mL
 f27L.	Human Mixtard 30 Penfill 1.5mL
-f27L.	PenMix 30/70 cartridges 1.5mL
 f27M.	Human Mixtard 40 Penfill 1.5mL
-f27M.	PenMix 40/60 cartridges 1.5mL
 f27N.	Human Mixtard 50 Penfill 1.5mL
-f27N.	PenMix 50/50 cartridges 1.5mL
 f27O.	Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL
-f27P.	Human Mixtard 10 prefilled pen
 f27P.	Mixtard 10 NovoLet prefilled pen
-f27P.	PenMix 10/90 (pyr) 100iu/mL preloaded injection pen
-f27Q.	Human Mixtard 20 prefilled pen
 f27Q.	Mixtard 20 NovoLet prefilled pen
-f27Q.	PenMix 20/80 (pyr) 100iu/mL preloaded injection pen
-f27R.	Human Mixtard 30 prefilled pen
 f27R.	Mixtard 30 NovoLet prefilled pen
-f27R.	PenMix 30/70 (pyr) 100iu/mL preloaded injection pen
-f27S.	Human Mixtard 40 prefilled pen
 f27S.	Mixtard 40 NovoLet prefilled pen
-f27S.	PenMix 40/60 (pyr) 100iu/mL preloaded injection pen
-f27T.	Human Mixtard 50 prefilled pen
 f27T.	Mixtard 50 NovoLet prefilled pen
-f27T.	PenMix 50/50 (pyr) 100iu/mL preloaded injection pen
 f27u.	Humulin M5 50/50 injection vial 10mL
 f27x.	Humulin M2 20/80 cartridges 3mL
 f27y.	Insuman Comb 25 100iu/mL injection cartridge 3mL
@@ -122,6 +106,10 @@ f2B5.	TRESIBA PENFILL 100iu/mL injection cartridges
 f2B6.	INSULIN DEGLUDEC 100iu/mL injection cartridges
 f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
 f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+f321.	Chlorpropamide 100mg tablet
+f322.	Chlorpropamide 250mg tablet
+f331.	Glibenclamide 2.5mg tablet
+f332.	Glibenclamide 5mg tablet
 f333.	Daonil 5mg tablet
 f334.	Semi-Daonil 2.5mg tablet
 f335.	Euglucon 2.5mg tablet
@@ -140,11 +128,20 @@ f35B.	VAMJU 60mg m/r tablets
 f35w.	GLICLAZIDE 60mg m/r tablets
 f35x.	GLICLAZIDE 40mg tablets
 f35y.	Gliclazide 30mg m/r tablet
+f35z.	Gliclazide 80mg tablet
+f361.	Glipizide 5mg tablet
 f362.	Glibenese 5mg tablet
 f363.	Minodiab 2.5mg tablet
 f364.	Minodiab 5mg tablet
+f36z.	Glipizide 2.5mg tablet
 f371.	Glurenorm 30mg tablet
+f37z.	Gliquidone 30mg tablet
+f3a1.	Tolbutamide 500mg tablet
+f3A1.	Glimepiride 2mg tablet
 f3A2.	Amaryl 2mg tablet
+f3A3.	Glimepiride 1mg tablet
+f3A4.	Glimepiride 3mg tablet
+f3A5.	Glimepiride 4mg tablet
 f3A6.	Amaryl 1mg tablet
 f3A7.	Amaryl 3mg tablet
 f3A8.	Amaryl 4mg tablet
@@ -171,16 +168,15 @@ f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
 f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
 f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
 f41x.	Metformin hydrochloride 500mg m/r tablet
-f512.	Guarem 5g/sachet granules
-f711.	Eudemine 50mg tablet
-f724.	GlucaGen HypoKit 1mg(1iu) injection
-f724.	GlucaGen kit 1mg(1iu) injection
-f72z.	Glucagon 1mg(1unit) injection (pdr for recon)
-f731.	Glucogel dextrose gel
-f731.	Hypostop dextrose gel
-f735.	DEXTROGEL oral gel 80g
+f41y.	Metformin hydrochloride 500mg tablet
+f41z.	Metformin hydrochloride 850mg tablet
+ft11.	Acarbose 50mg tablet
+ft12.	Acarbose 100mg tablet
 ft13.	Glucobay 50mg tablet
 ft14.	Glucobay 100mg tablet
+ft31.	Repaglinide 0.5mg tablet
+ft32.	Repaglinide 1mg tablet
+ft33.	Repaglinide 2mg tablet
 ft34.	NovoNorm 0.5mg tablet
 ft35.	NovoNorm 1mg tablet
 ft36.	NovoNorm 2mg tablet
@@ -193,16 +189,32 @@ ft43.	Avandamet 1mg / 500mg tablet
 ft44.	Avandamet 2mg / 500mg tablet
 ft45.	Avandamet 2mg / 1000mg tablet
 ft46.	Avandamet 4mg / 1000mg tablet
+ft4u.	Rosiglitazone 2mg / Metformin 1000mg tablet
+ft4v.	Rosiglitazone 4mg / Metformin 1000mg tablet
+ft4w.	Rosiglitazone 2mg / metformin 500mg tablet
+ft4x.	Rosiglitazone 1mg / metformin 500mg tablet
+ft4y.	Rosiglitazone 8mg tablet
+ft4z.	Rosiglitazone 4mg tablet
 ft51.	Actos 15mg tablet
 ft52.	Actos 30mg tablet
 ft53.	Actos 45mg tablet
+ft5x.	Pioglitazone 45mg tablet
+ft5y.	Pioglitazone 30mg tablet
+ft5z.	Pioglitazone 15mg tablet
 ft61.	Starlix 60mg tablet
 ft62.	Starlix 120mg tablet
 ft63.	Starlix 180mg tablet
+ft6x.	Nateglinide 180mg tablet
+ft6y.	Nateglinide 120mg tablet
+ft6z.	Nateglinide 60mg tablet
 ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
 ft81.	JANUVIA 100mg tablets
 ft82.	JANUVIA 50mg tablets
 ft83.	JANUVIA 25mg tablets
+ft8x.	SITAGLIPTIN 25mg tablets
+ft8y.	SITAGLIPTIN 50mg tablets
+ft8z.	SITAGLIPTIN 100mg tablets
 ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
 ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
 ft93.	BYDUREON 2mg powder and solvent for suspension for injection
@@ -280,108 +292,22 @@ ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
 ftr7.	SYNJARDY 12.5mg/1000mg tablets
 ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
 fw11.	Humalog Mix25 100iu/mL cartridge 3mL
+fw13.	Humalog Mix50 100iu/mL prefilled pen 3mL
 fw14.	HUMALOG MIX50 100iu/mL cartridges 3mL
 fw15.	HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL
 fw16.	HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL
 fw21.	NovoMix 30 Penfill 100units/mL injection cartridge 3mL
 fw22.	NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL
-pu55.	Medi-Test Glucose urine glucose testing strip
-pu56.	MISSION GLUCOSE 1G strips
-pu71.	Ketostix strips 50
-pu72.	Ketur test strips 50
-pu74.	MISSION KETONE 1K strips
-pu75.	GLUCORX KETORX STICKS 2GK urine testing strips
-puh3.	Glucostix blood Glucose testing strip x50
-puh5.	Exactech blood Glucose testing strip x50
-puh6.	Hypoguard Supreme blood Glucose testing strip x50
-puh7.	BM Accutest blood Glucose testing strip x50
-puha.	FINETOUCH blood glucose testing tip
-puhb.	GLUCOMEN GM blood glucose testing strip
-puhc.	CLEVER CHEK blood glucose testing strip
-puhe.	ACCU-CHEK MOBILE blood glucose testing cassette
-puhE.	Medi-Test Glycaemie C blood glucose testing strip
-puhF.	MediSense G2 blood glucose testing strip
-puhG.	Glucotide blood glucose testing strip
-puhh.	GlucoMen Sensor blood glucose testing strip
-puhH.	Ascensia Glucodisc blood glucose test sensor disc
-puhH.	Glucometer Esprit blood glucose test sensor disc
-puhJ.	PocketScan blood glucose testing strip
-puhk.	Prestige Smart System blood glucose testing strip
-puhK.	MediSense Optium blood glucose testing electrode
-puhl.	Active blood glucose testing strip
-puhm.	MediSense Soft-Sense blood glucose testing strip
-puhn.	Glucoflex-R blood glucose testing strip
-puhO.	BREEZE 2 blood glucose test sensor disc
-puhp.	ONE TOUCH Ultra blood glucose testing strip
-puhP.	BETACHEK G5 blood glucose testing strip
-puhq.	FreeStyle blood glucose testing strip
-puhQ.	FREESTYLE LITE blood glucose testing strip
-puhR.	BIONIME RIGHTEST GS300 blood glucose testing strip
-puhs.	Ascensia AUTODISC blood glucose test sensor disc
-puhS.	MICRODOT blood glucose testing strip
-puht.	Ascensia MICROFILL blood glucose testing strip
-puhT.	GLUCOMEN LX SENSOR blood glucose testing strip
-puhu.	TrueTrack Smart System blood glucose test strip
-puhU.	ONE TOUCH VITA blood glucose testing strip
-puhv.	SeNova blood glucose testing strip
-puhV.	WAVESENSE JAZZ blood glucose testing strip
-puhw.	SensoCard blood glucose testing strip
-puhW.	BETACHEK VISUAL blood glucose testing strip
-puhx.	Aviva blood glucose testing strip
-puhy.	GlucoMen Visio Sensor blood glucose testing strip
-puhY.	CARESENS N blood glucose testing strip
-puhZ.	PURA blood glucose testing strip
-pun3.	GLUCOMEN LX blood ketone test strips
-pup1.	NEUROPAD neuropathy sweat detection pads
-pur2.	IME-DC blood glucose testing strip
-pur3.	OMNITEST 3 blood glucose testing strip
-pur4.	ONETOUCH VERIO blood glucose testing strip
-pur5.	ON-CALL ADVANCED blood glucose testing strip
-pur6.	GLUCORX NEXUS blood glucose testing strip
-pur7.	SUPERCHECK 2 blood glucose testing strip
-pur8.	GLUCOLAB blood glucose testing strip
-pur9.	ELEMENT blood glucose testing strip
-purA.	BGSTAR blood glucose testing strip
-purB.	CONTOUR NEXT blood glucose testing strip
-purD.	GLUCODOCK blood glucose testing strip
-purE.	MEDITOUCH blood glucose testing strip
-purG.	TRUERESULT blood glucose testing strip
-purH.	SD CODEFREE blood glucose testing strip
-purI.	TRUEYOU blood glucose testing strip
-purJ.	WAVESENSE JAZZ duo pack blood glucose testing strip
-purK.	MYLIFE UNIO blood glucose testing strip
-purM.	AUTOSENSE blood glucose testing strip
-purN.	SURESIGN RESURE blood glucose testing strip
-purO.	TEE2 blood glucose testing strip
-purP.	CONTOUR TS blood glucose testing strip
-purQ.	DARIO blood glucose testing strip
-purR.	GLUNEO blood glucose testing strip
-purS.	GLUCOMEN AREO SENSOR blood glucose testing strip
-purT.	SUPERCHECK PLUS blood glucose testing strip
-purU.	ONETOUCH SELECT PLUS blood glucose testing strip
-purV.	ADVOCATE REDI-CODE+ blood glucose testing strip
-purW.	ACCU-CHEK PERFORMA blood glucose testing strip
-x005Q	Human Actraphane 30/70 (pyr) 100units/mL injection vial
-x005Q	Human Mixtard 30 ge 100units/mL injection vial
 x005Q	Mixtard 30 100units/mL injection vial
 x005R	Actrapid (pyr) 100iu/mL injection vial
-x005R	Human Actrapid (pyr) 100iu/mL injection vial
-x005W	Human Monotard (pyr) 100iu/mL injection vial
 x005W	Monotard (pyr) 100iu/mL injection vial
-x005Z	Human Ultratard (pyr) 100iu/mL injection vial
 x005Z	Ultratard (pyr) 100iu/mL injection vial
-x01Lh	Human Insulatard 100units/mL prefilled pen
 x01Lh	Insulatard NovoLet 100units/mL prefilled pen
 x01LZ	Actrapid NovoLet 100iu/mL prefilled pen
-x01LZ	Human Actrapid 100iu/mL prefilled pen
-x0298	Albustix urine proteins testing strip
-x029A	Diabur Test 5000 urine glucose testing strip
-x029B	Diastix urine glucose testing strip
-x029C	Acetest reagent tablet
-x029J	BM Test 1-44 blood glucose testing strip
 x03aj	Pork Mixtard 30 100units/mL injection
 x03eI	Humalog 100iu/mL injection vial
 x03lo	Hypurin Bovine Isophane 100iu/mL injection cartridge
 x03lq	Hypurin Porcine Isophane 100iu/mL injection cartridge
+x04wo	Humalog Mix25 100iu/mL prefilled pen
 x053d	NovoRapid NovoLet 100units/mL prefilled syringe
-x05Bx	Hypoguard Supreme Spectrum blood glucose testing strip
+x059L	Humalog-Pen 100iu/mL prefilled pen
