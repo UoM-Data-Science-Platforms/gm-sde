@@ -19,9 +19,6 @@
 ^ESCTPR843868	Pre-school Autism Communication Therapy
 ^ESCTRE846354	Referral to autism assessment service
 EGTON219	Suspected autism
-
-
-
 ^ESCT1235866	X-linked intellectual disability-psychosis-macroorchidism syndrome
 ^ESCT1349549	Developmental delay with autism spectrum disorder and gait instability
 ^ESCT1350280	Autism epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency

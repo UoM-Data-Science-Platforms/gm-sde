@@ -3,6 +3,7 @@
 Any code indicating that a patient has received a coronary angioplasty.
 
 - Does not include coronary atherectomy (laser treatment) unless angioplasty, stent or balloon is also mentioned
+- Includes "history of" codes so not suitable if you need to know when it occurred
 
 ## Prevalence log
 

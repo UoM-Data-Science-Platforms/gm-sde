@@ -55,7 +55,7 @@ AND EventDate > '{param:start-date}'
 --AND EventDate <= @TEMPWithCovidEndDate
 --AND EventDate <= GETDATE()
 {if:all-patients=true}
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+;
 {endif:all-patients}
 {if:all-patients=false}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
@@ -84,7 +84,7 @@ WHERE SuppliedCode IN (
 )
 --AND EventDate <= @TEMPWithCovidEndDate
 {if:all-patients=true}
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+;
 {endif:all-patients}
 {if:all-patients=false}
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);

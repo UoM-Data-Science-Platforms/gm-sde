@@ -31,9 +31,6 @@ COSU138776NEMIS	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40
 COSU138943NEMIS	COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)
 COSU141008NEMIS	CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)
 COSU141037NEMIS	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)
-
-
-
 ^ESCT1299051	Wuhan 2019-nCoV (novel coronavirus) vaccination
 ^ESCT1299052	2019 novel coronavirus vaccination
 ^ESCT1348299	2019 novel coronavirus vaccination

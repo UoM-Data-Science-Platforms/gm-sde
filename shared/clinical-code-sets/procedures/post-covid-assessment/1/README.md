@@ -1,18 +1,22 @@
 # Post-COVID syndrome assessment (long COVID)
 
-Any code indicating an assessment of a patient with post-COVID syndrome (aka long COVID). There are also code sets for:
+This code set has been superseded by the following code set:
 
-- Post-COVID syndrome (diagnosis)
-- Post-COVID referral
+- [long-covid-assessment](../../../patient/long-covid-assessment/1/)
 
-Codes obtained from OPENSafely, in turn from the NICE guidance.
+~~Any code indicating an assessment of a patient with post-COVID syndrome (aka long COVID). There are also code sets for:~~
 
-## Prevalence log
+~~- Post-COVID syndrome (diagnosis)~~
+~~- Post-COVID referral~~
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0% - 0.003%` suggests that this code is not used in practice.
+~~Codes obtained from OPENSafely, in turn from the NICE guidance.~~
 
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-12-02 | EMIS            | 2437477    |    83 (0.00341%) |     83 (0.00341%) |
-| 2022-12-02 | TPP             | 198613     |           0 (0%) |            0 (0%) |
-| 2022-12-02 | Vision          | 327022     |           0 (0%) |            0 (0%) |
+~~## Prevalence log~~
+
+~~By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0% - 0.003%` suggests that this code is not used in practice.~~
+
+~~| Date | Practice system | Population | Patients from ID | Patient from code |~~
+~~| ---------- | --------------- | ---------- | ---------------: | ----------------: |~~
+~~| 2022-12-02 | EMIS | 2437477 | 83 (0.00341%) | 83 (0.00341%) |~~
+~~| 2022-12-02 | TPP | 198613 | 0 (0%) | 0 (0%) |~~
+~~| 2022-12-02 | Vision | 327022 | 0 (0%) | 0 (0%) |~~

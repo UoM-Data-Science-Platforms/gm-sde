@@ -1,6 +1,6 @@
 # TPO antibody (thyroid peroxidase antibody test)
 
-Codes for a TPO antibody test. Only includes codes that will have a value, i.e. not codes such as "normal" which indicate the result without a numeric value.
+Codes for a TPO antibody test. Only includes codes that will have a value, i.e. not codes such as "normal" which indicate the result without a numeric value. SNOMED codes taken from https://termbrowser.nhs.uk/ and then mapped to Readv2 and CTV3 for backward compatibility.
 
 ## Prevalence log
 
