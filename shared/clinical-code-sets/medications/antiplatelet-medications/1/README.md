@@ -1,6 +1,6 @@
 # Antiplatelet medications
 
-This code set was built from the two antiplatelet code lists at: https://nhs-drug-refset.pages.dev/. One was excluding aspiris, and one was based on salicylate. 
+This code set was built from the two antiplatelet code lists at: https://nhs-drug-refset.pages.dev/. One was excluding aspirin, and one was based on salicylate. 
 
 ## Prevalence log
 
