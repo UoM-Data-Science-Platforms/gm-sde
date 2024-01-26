@@ -1,4 +1,13 @@
 1240511000000106	Detection of 2019 novel coronavirus using polymerase chain reaction technique (procedure)
 1300721000000109	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)
-204351000000100	Coronavirus nucleic acid detection
-1029481000000103	Coronavirus nucleic acid detection assay
+871560001	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 using polymerase chain reaction (observable entity)
+1269559008	Detection of ribonucleic acid of severe acute respiratory syndrome coronavirus 2 using microchip real time polymerase chain reaction (observable entity)
+204351000000100	Coronavirus nucleic acid detection (procedure)
+906711000000107	Coronavirus nucleic acid detection assay (procedure)
+933791000000101	Coronavirus ribonucleic acid detection assay (procedure)
+817111000000102	Measurement of coronavirus ribonucleic acid by nucleic acid amplification test (procedure)
+1029481000000103	Coronavirus nucleic acid detection assay (observable entity)
+1008541000000105	Coronavirus ribonucleic acid detection assay (observable entity)
+1321301000000101	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid qualitative existence in specimen (observable entity)
+1324601000000106	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detected (finding)
+1324881000000100	Severe acute respiratory syndrome coronavirus 2 ribonucleic acid detection result positive at the limit of detection (finding)
