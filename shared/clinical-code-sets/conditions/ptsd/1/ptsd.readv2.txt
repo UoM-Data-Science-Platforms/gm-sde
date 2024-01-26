@@ -1,0 +1,8 @@
+E030000	Acute confusional state, post traumatic
+E031000	Subacute confusional state, post traumatic
+E283100	Acute posttrauma stress state
+E29y100	Other post-traumatic stress disorder
+Eu43100	[X]Post - traumatic stress disorder
+Eu43300	[X]Acute post-traumatic stress disorder following military combat
+Eu43400	[X]Chronic post-traumatic stress disorder following military combat
+Eu43500	[X]Delayed post-traumatic stress disorder following military combat

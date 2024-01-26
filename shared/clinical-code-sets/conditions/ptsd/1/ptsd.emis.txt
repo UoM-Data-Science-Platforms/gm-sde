@@ -1,0 +1,19 @@
+^ESCT1273010	Other post-traumatic stress disorder
+^ESCTAC476339	Acute confusional state, post-traumatic
+^ESCTCH602709	Chronic post-traumatic stress disorder
+^ESCTCO728532	Complex posttraumatic stress disorder
+^ESCTMU499785	Mutism after head trauma
+^ESCTNI709220	Nightmares associated with chronic post-traumatic stress disorder
+^ESCTPO312926	Post-trauma response
+^ESCTPO312927	Post-trauma syndrome
+^ESCTPO326806	Posttraumatic stress disorder
+^ESCTPO326809	Post-traumatic stress syndrome
+^ESCTPO499784	Post-traumatic mutism
+^ESCTPO557151	Post-traumatic amnesia
+^ESCTPO557153	Posttraumatic amnesia
+^ESCTPO607340	Posttraumatic stress disorder, delayed onset
+^ESCTPT326808	PTSD - Post-traumatic stress disorder
+^ESCTPT557152	PTA - Post-traumatic amnesia
+^ESCTSH562833	Shell shock
+^ESCTSU476346	Subacute confusional state, post-traumatic
+^ESCTTR326807	Traumatic neurosis
