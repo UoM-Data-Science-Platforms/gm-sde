@@ -1,0 +1,21 @@
+14947311000001109	Rasilez 150mg tablets (Waymade Healthcare Plc) (product)
+17427811000001105	Rasilez 150mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+11961711000001103	Rasilez 300mg tablets (Noden Pharma DAC)
+18609311000001108	Rasilez 300mg tablets (DE Pharmaceuticals)
+11960911000001108	Rasilez 150mg tablets (Noden Pharma DAC)
+11960611000001102	Aliskiren 150mg tablets (product)
+18609111000001106	Rasilez 150mg tablets (DE Pharmaceuticals)
+18066211000001104	Rasilez 300mg tablets (Lexon (UK) Ltd) (product)
+39731511000001102	Aliskiren 300mg tablets
+425960005	Aliskiren 150mg tablets
+39731411000001101	Aliskiren 150mg tablets
+37532311000001105	Rasilez 150mg tablets (CST Pharma Ltd)
+37532711000001109	Rasilez 300mg tablets (CST Pharma Ltd)
+11960711000001106	Aliskiren 300mg tablets (product)
+17193511000001105	Rasilez 300mg tablets (Waymade Healthcare Plc) (product)
+17590311000001101	Rasilez 150mg tablets (Sigma Pharmaceuticals Plc) (product)
+17884811000001100	Rasilez 300mg tablets (Sigma Pharmaceuticals Plc) (product)
+17428011000001103	Rasilez 300mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+425669009	Aliskiren 300mg tablets
+11960611000001102	Aliskiren 150mg tablets (product)
+11960711000001106	Aliskiren 300mg tablets (product)
