@@ -47,15 +47,21 @@ N043z00	Juvenile rheumatoid arthritis NOS
 N045500	Juvenile rheumatoid arthritis
 N047.00	Seropositive errosive rheumatoid arthritis
 N04X.00	Seropositive rheumatoid arthritis, unspecified
-N04y.00	Other specified inflammatory polyarthropathy
 N04y000	Rheumatoid lung
 N04y011	Caplan's syndrome
 N04y012	Fibrosing alveolitis associated with rheumatoid arthritis
 N04y200	Adult-onset Still's disease
-N04yz00	Other specified inflammatory polyarthropathy NOS
 N04z.00	Inflammatory polyarthropathy NOS
 Nyu1000	[X]Rheumatoid arthritis with involvement of other organs or systems
 Nyu1100	[X]Other seropositive rheumatoid arthritis
 Nyu1200	[X]Other specified rheumatoid arthritis
 Nyu1G00	[X]Seropositive rheumatoid arthritis, unspecified
 N0420	Rheumatic carditis
+F396400	Myopathy due to rheumatoid arthritis
+G1yz.00	Other and unspecified rheumatic heart disease
+G1yz000	Rheumatic heart disease unspecified
+G1yzz00	Other rheumatic heart disease NOS
+GA...00	Rheumatic heart disease
+GA0..00	Carditis due to rheumatic fever
+Gyu1400	[X]Other specified rheumatic heart diseases
+
