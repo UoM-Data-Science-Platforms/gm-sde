@@ -17,3 +17,6 @@ XE0ok	Ex-light cigaret smok, 1-9/day
 XE0ol	Ex-mod cigaret smok, 10-19/day
 XE0om	Ex-heav cigaret smok,20-39/day
 XE0on	Ex-very hv cigaret smk,40+/day
+Ub0p1	Time since stopped smoking
+XaXP8	Stopped smoking before pregnancy
+XE0op	Ex-cigarette smoker amount unknown

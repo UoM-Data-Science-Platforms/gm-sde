@@ -1,0 +1,24 @@
+^ESCT1172093	Number of calculated smoking pack years
+^ESCT1248230	Admitted tobacco cons untrue ?
+^ESCTAD453353	Admitted tobacco consumption possibly untrue
+^ESCTAG498058	Age at starting smoking
+^ESCTCH500319	Chain smoker
+^ESCTCI292703	Cigar smoking tobacco
+^ESCTCI358245	Cigarette smoking tobacco
+^ESCTHE342222	Heavy smoker (over 20 per day)
+^ESCTHE500317	Heavy cigarette smoker
+^ESCTHO750718	Hookah pipe smoker
+^ESCTLI500315	Light cigarette smoker
+^ESCTMO341910	Moderate smoker (20 or less per day)
+^ESCTMO500316	Moderate cigarette smoker
+^ESCTNU829927	Number of previous attempts to stop smoking
+^ESCTPI387464	Pipe smoking tobacco
+^ESCTSM737599	Smokes tobacco daily
+^ESCTVE500318	Very heavy cigarette smoker
+^ESCTWA750719	Water pipe smoker
+^ESCTWA806318	Wants to stop smoking
+EGTON1025	Current Smoker NOS
+EMISNQSM14	Smoking increased
+EMISQNO1	Not interested in stopping smoking
+EMISQRE12	Ready to stop smoking
+EMISSMRE1	Smoker (Read codes)

@@ -11,3 +11,16 @@
 492191000000103	Ex roll-up cigarette smoker (finding)
 517211000000106	Recently stopped smoking (finding)
 8517006	Ex-smoker (life style)
+53896009	Tolerant ex-smoker (finding)
+266928006	Ex-cigarette smoker amount unknown (finding)
+360890004	Intolerant ex-smoker (finding)
+360900008	Aggressive ex-smoker (finding)
+735128000	Ex-smoker for less than 1 year
+1092031000000108	Ex-smoker amount unknown (finding)
+1092041000000104	Ex-very heavy smoker (40+/day) (finding)
+1092071000000105	Ex-heavy smoker (20-39/day) (finding)
+1092091000000109	Ex-moderate smoker (10-19/day) (finding)
+1092111000000104	Ex-light smoker (1-9/day) (finding)
+48031000119106	Ex-smoker for more than 1 year
+449369001	Stopped smoking before pregnancy
+228486009	Time since stopped smoking (observable entity)
