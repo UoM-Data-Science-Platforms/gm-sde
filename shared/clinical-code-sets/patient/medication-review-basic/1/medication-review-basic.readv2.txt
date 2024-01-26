@@ -16,3 +16,5 @@
 8BT..00	Medication review - additional
 8BT2.00	Medication review by practice nurse
 8BM0.00	Mental health medication review
+8BT3.00	Anticoagulant medication review
+8CAu.00	Patient advised of anticoagulant dose

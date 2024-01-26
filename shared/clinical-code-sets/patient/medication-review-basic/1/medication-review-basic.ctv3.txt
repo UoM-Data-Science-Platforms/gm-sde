@@ -15,3 +15,5 @@ XaXBe	Medication review done by medicines management pharmacist
 XaYO4	Medication review by practice nurse
 XaJr3	Mental health medication review
 XagC8	Medication review by community nurse
+XabYj	Anticoagulant medication review
+XaPx8	Patient advised of anticoagulant dose

@@ -21,3 +21,6 @@ EMISNQPR138	Prescribing for Key Performance Indicator reviewed
 EMISQNE3	Neuroleptic depot injection review
 ^ESCT1273681	Medication review done by clinical pharmacist
 ^ESCTME845480	Medication review by community nurse
+^ESCTHE748471	Heart failure medication review
+EMISNQNO133	Novel oral anticoagulant medication review
+EMISNQNO134	Novel oral anticoagulant annual review

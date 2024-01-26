@@ -17,3 +17,6 @@
 938551000000108	Dementia medication review
 413143000	Mental health medication review (procedure)
 473225006	Hypertension medication review (procedure)
+473226007	Heart failure medication review (procedure)
+922731000000106	Anticoagulant medication review (procedure)
+381381000000101	Patient advised of anticoagulant dose (situation)
