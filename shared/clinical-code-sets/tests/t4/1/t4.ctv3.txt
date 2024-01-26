@@ -1,0 +1,6 @@
+4426.	Serum T4 level
+XaERr	Serum free T4 level
+XaERs	Plasma free T4 level
+XaESF	Plasma total T4 level
+XaESG	Serum total T4 level
+4427.	Free thyroxine level
