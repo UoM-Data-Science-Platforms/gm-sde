@@ -101,10 +101,15 @@ Gyu6E	[X]Subarachnoid haemorrhage from intracranial artery, unspecified
 L440.	Stroke in the puerperium
 X0096	Infarction of optic tract
 X009B	Infarction of optic radiation
-X00DW	Vertebrobasilar insufficiency
 Xa1uW	Subarachnoid haemorrhage
 Xa3fV	Cerebral artery occlusion NOS
 Xa9Bf	Infarction of optic chiasm
 Xa9Bg	Infarction of visual cortex
-XE0X0	Vertebrobasilar insufficiency
 XM1PL	Stroke in the puerperium
+G63y.	Other precerebral artery occlusion
+G63z.	Precerebral artery occlusion NOS
+L4400	Puerperal cerebrovascular disorder unspecified
+L440z	Puerperal cerebrovascular disorder NOS
+X203V	Stenosis of precerebral arteries
+XE0VG	Precerebral arterial occlusion
+XE2sl	Cerebrovascular disorders in the puerperium
