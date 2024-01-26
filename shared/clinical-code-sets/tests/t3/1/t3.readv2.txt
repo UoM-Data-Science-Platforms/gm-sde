@@ -1,0 +1,5 @@
+4424.00	Serum T3 level
+4425.00	Free T3 level
+442U.00	Serum free triiodothyronine level
+442Y.00	Plasma free triiodothyronine level
+442f.00	Serum total T3 level
