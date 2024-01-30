@@ -1,0 +1,196 @@
+^ESCT1174398	Liothyronine 20microgram tablets (Morningside Healthcare Ltd)
+^ESCT1174725	Liothyronine 20microgram tablets (Teva UK Ltd)
+^ESCT1178368	Product containing only liothyronine sodium 25 microgram/1 each oral tablet
+^ESCT1181741	Product containing only liothyronine sodium 5 microgram/1 each oral tablet
+^ESCT1183240	Product containing only levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCT1185471	Product containing only levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCT1185472	Product containing only levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCT1185473	Product containing only levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCT1187522	Product containing only liothyronine sodium 50 microgram/1 each oral tablet
+^ESCT1188184	Product containing only liothyronine sodium 20 microgram/1 each oral tablet
+^ESCT1188542	Product containing only levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCT1188543	Product containing only levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCT1195082	Iraksin 20microgram tablets (Morningside Healthcare Ltd)
+^ESCT1197725	Armour Thyroid 180mg (3 grains) tablets (Imported (United States))
+^ESCT1197874	NP Thyroid 30mg (half grain) tablets (Imported (United States))
+^ESCT1197884	Liothyronine 25micrograms/5ml oral suspension (Special Order)
+^ESCT1197935	Liothyronine 25micrograms/5ml oral suspension
+^ESCT1207476	Levothyroxine + Liothyronine
+^ESCT1207477	Levothyroxine and liothyronine product
+^ESCT1207478	Product containing levothyroxine and liothyronine
+^ESCT1207485	Levothyroxine and liothyronine in oral dosage form
+^ESCT1207486	Product containing levothyroxine and liothyronine in oral dosage form
+^ESCT1214047	Liothyronine 20microgram tablets (Actavis UK Ltd)
+^ESCT1214101	Liothyronine 50microgram tablets (Special Order)
+^ESCT1214144	Liothyronine 50microgram tablets
+^ESCT1224631	Liothyronine sodium 20 microgram oral tablet
+^ESCT1224632	Product containing precisely liothyronine sodium 20 microgram/1 each conventional release oral tablet
+^ESCT1224633	Liothyronine sodium 20 microgram powder for solution for injection ampule
+^ESCT1224634	Product containing precisely liothyronine sodium 20 microgram/1 ampule powder for conventional release solution for injection
+^ESCT1227015	Liothyronine
+^ESCT1227016	Liothyronine product
+^ESCT1228090	Liothyronine sodium 5 microgram oral tablet
+^ESCT1228091	Product containing precisely liothyronine sodium 5 microgram/1 each conventional release oral tablet
+^ESCT1228092	Product containing precisely liothyronine sodium 25 microgram/1 each conventional release oral tablet
+^ESCT1228093	Liothyronine sodium 25 microgram oral tablet
+^ESCT1228094	Liothyronine sodium 50 microgram/1 each oral tablet
+^ESCT1228095	Liothyronine sodium 50 microgram oral tablet
+^ESCT1228096	Product containing precisely liothyronine sodium 50 microgram/1 each conventional release oral tablet
+^ESCT1229198	Product containing precisely levothyroxine sodium 38 microgram and liothyronine sodium 9 microgram/1 each conventional release oral tablet
+^ESCT1229199	Levothyroxine sodium 38 microgram and liothyronine sodium 9 microgram oral tablet
+^ESCT1229200	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCT1229201	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram oral tablet
+^ESCT1229202	Product containing precisely levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each conventional release oral tablet
+^ESCT1229203	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCT1229204	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram oral tablet
+^ESCT1229205	Product containing precisely levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each conventional release oral tablet
+^ESCT1229206	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCT1229207	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram oral tablet
+^ESCT1229208	Product containing precisely levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each conventional release oral tablet
+^ESCT1229209	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCT1229210	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram oral tablet
+^ESCT1229211	Product containing precisely levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each conventional release oral tablet
+^ESCT1229212	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCT1229213	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram oral tablet
+^ESCT1229214	Product containing precisely levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each conventional release oral tablet
+^ESCT1250459	Liothyronine 20microgram tablets (Advanz Pharma)
+^ESCT1250577	Liothyronine 20microgram powder for solution for injection vials (Advanz Pharma)
+^ESCT1255675	NP Thyroid 60mg (1 grain) tablets (Imported (United States))
+^ESCT1264857	Thyrotardin-inject 103.4microgram powder and solvent for solution for injection vials (Imported (Germany))
+^ESCT1265021	Liothyronine 103.4microgram powder and solvent for solution for injection vials
+^ESCT1267325	Liothyronine 20microgram tablets (DE Pharmaceuticals)
+^ESCT1276602	Liothyronine 5microgram tablets (Morningside Healthcare Ltd)
+^ESCT1276605	Liothyronine 10microgram tablets (Morningside Healthcare Ltd)
+^ESCT1279611	Liothyronine 5microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1279614	Liothyronine 10microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1300472	Liothyronine 5microgram tablets (DE Pharmaceuticals)
+^ESCT1300474	Liothyronine 10microgram tablets (DE Pharmaceuticals)
+^ESCT1384074	Liothyronine-containing product in parenteral dose form
+^ESCT1384075	Liothyronine-containing product in oral dose form
+^ESCT1386769	Levothyroxine- and liothyronine-containing product in oral dose form
+^ESCT1402021	Liothyronine 10microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402023	Liothyronine 5microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1402025	Liothyronine 20microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1403085	Liothyronine 5microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCT1412529	Liothyronine 20microgram tablets (Accord Healthcare Ltd)
+^ESCT1436623	Liothyronine 10microgram capsules (Roma Pharmaceuticals Ltd)
+^ESCT1436626	Liothyronine 5microgram capsules (Roma Pharmaceuticals Ltd)
+^ESCT1436629	Liothyronine 20microgram capsules (Roma Pharmaceuticals Ltd)
+^ESCT1436701	Liothyronine 20microgram capsules
+^ESCT1436702	Liothyronine 5microgram capsules
+^ESCT1439642	Liothyronine 10microgram capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1439644	Liothyronine 20microgram capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1439646	Liothyronine 5microgram capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1440967	Liothyronine 2.5microgram capsules (Part VIIID Drug Tariff Special Order)
+^ESCTAR1020489	Armour Thyroid 15mg (quarter grain) tablets (Imported (United States))
+^ESCTAR964665	Armour Thyroid 30mg (half grain) tablets (Imported (United States))
+^ESCTAR964668	Armour Thyroid 120mg (2 grains) tablets (Imported (United States))
+^ESCTAR969746	Armour Thyroid 60mg (1 grain) tablets (Imported (United States))
+^ESCTAR969749	Armour Thyroid 90mg (1 and a half grains) tablets (Imported (United States))
+^ESCTCY1002347	Cytomel 5microgram tablets (Imported (United States))
+^ESCTCY1104278	Cytomel 25microgram tablets (Imported (United States))
+^ESCTER1036782	Erfa Thyroid 30mg (half grain) tablets (Imported (Canada))
+^ESCTER1049334	Erfa Thyroid 125mg (2 grains) tablets (Imported (Canada))
+^ESCTER1049340	Erfa Thyroid 60mg (1 grain) tablets (Imported (Canada))
+^ESCTLE642480	Levothyroxine sodium 38microgram / Liothyronine 9microgram tablets
+^ESCTLE642481	Levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCTLE642483	Levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTLE642485	Levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCTLE642488	Levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCTLE642490	Levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCTLE642492	Levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCTLI1019578	Liothyronine 20microgram powder for solution for injection vials (AMCo)
+^ESCTLI1020174	Liothyronine 20microgram powder for solution for injection vials
+^ESCTLI1025061	Liothyronine 20microgram powder for solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI1044420	Liothyronine 10micrograms/5ml oral suspension (Special Order)
+^ESCTLI1044936	Liothyronine 10micrograms/5ml oral suspension
+^ESCTLI1065811	Liothyronine 20microgram solution for injection ampoules (Special Order)
+^ESCTLI1070780	Liothyronine 20microgram powder for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTLI1160774	Liothyronine 25microgram tablets (Special Order)
+^ESCTLI1162595	Liothyronine 20micrograms/5ml oral suspension (Special Order)
+^ESCTLI1162622	Liothyronine 10microgram tablets (Special Order)
+^ESCTLI1162758	Liothyronine 10microgram tablets
+^ESCTLI1162759	Liothyronine 20micrograms/5ml oral suspension
+^ESCTLI438227	Liothyronine sodium
+^ESCTLI612490	Liothyronine 20microgram tablets
+^ESCTLI612491	Liothyronine sodium 20 microgram/1 each oral tablet
+^ESCTLI612493	Liothyronine 20microgram solution for injection ampoules
+^ESCTLI612494	Liothyronine sodium 20micrograms powder for injection solution ampoule
+^ESCTLI612495	Liothyronine sodium 20micrograms powder for injection solution ampule
+^ESCTLI619367	Liothyronine
+^ESCTLI639578	Liothyronine 5microgram tablets
+^ESCTLI639579	Liothyronine sodium 5 microgram/1 each oral tablet
+^ESCTLI639581	Liothyronine 25microgram tablets
+^ESCTLI639582	Liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTLI639584	Liothyronine sodium 50 microgram/1 each oral tablet
+^ESCTLI723361	Liothyronine in parenteral dosage form
+^ESCTLI723363	Liothyronine in oral dosage form
+^ESCTLI874451	Liothyronine 20microgram solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTLI874455	Liothyronine 20microgram solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI951055	Liothyronine 20microgram tablets (AMCo)
+^ESCTLI953093	Liothyronine 100micrograms/5ml oral suspension (Special Order)
+^ESCTLI953098	Liothyronine 100micrograms/5ml oral solution (Special Order)
+^ESCTLI953107	Liothyronine 37.5micrograms/5ml oral suspension (Special Order)
+^ESCTLI953112	Liothyronine 37.5micrograms/5ml oral solution (Special Order)
+^ESCTLI953125	Liothyronine 50micrograms/5ml oral suspension (Special Order)
+^ESCTLI953139	Liothyronine 50micrograms/5ml oral solution (Special Order)
+^ESCTLI953169	Liothyronine 5micrograms/5ml oral suspension (Special Order)
+^ESCTLI953183	Liothyronine 5micrograms/5ml oral solution (Special Order)
+^ESCTLI953733	Liothyronine 100micrograms/5ml oral solution
+^ESCTLI953735	Liothyronine 100micrograms/5ml oral suspension
+^ESCTLI953737	Liothyronine 37.5micrograms/5ml oral solution
+^ESCTLI953739	Liothyronine 37.5micrograms/5ml oral suspension
+^ESCTLI953741	Liothyronine 50micrograms/5ml oral solution
+^ESCTLI953743	Liothyronine 50micrograms/5ml oral suspension
+^ESCTLI953745	Liothyronine 5micrograms/5ml oral solution
+^ESCTLI953747	Liothyronine 5micrograms/5ml oral suspension
+^ESCTLI954124	Liothyronine 20microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI959417	Liothyronine 20microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI967632	Liothyronine 2.5microgram capsules (Special Order)
+^ESCTLI967993	Liothyronine 2.5microgram capsules
+^ESCTLI977328	Liothyronine 10microgram capsules (Special Order)
+^ESCTLI977356	Liothyronine 10microgram capsules
+^ESCTLI988263	Liothyronine 5microgram tablets (Special Order)
+^ESCTNA1023391	Nature-Throid 65mg (1 grain) tablets (Imported (United States))
+^ESCTNA1023399	Nature-Throid 32.5mg (half grain) tablets (Imported (United States))
+^ESCTNA1055619	Nature-Throid 130mg (2 grains) tablets (Imported (United States))
+^ESCTNA1069890	Nature-Throid 16.25mg (quarter grain) tablets (Imported (United States))
+^ESCTPR612492	Product containing liothyronine sodium 20 microgram/1 each oral tablet
+^ESCTPR619368	Product containing triiodothyronine
+^ESCTPR639580	Product containing liothyronine sodium 5 microgram/1 each oral tablet
+^ESCTPR639583	Product containing liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTPR639585	Product containing liothyronine sodium 50 microgram/1 each oral tablet
+^ESCTPR642482	Product containing levothyroxine 38 microgram and liothyronine 9 microgram/1 each oral tablet
+^ESCTPR642484	Product containing levothyroxine sodium 100 microgram and liothyronine sodium 25 microgram/1 each oral tablet
+^ESCTPR642486	Product containing levothyroxine sodium 12.5 microgram and liothyronine sodium 3.1 microgram/1 each oral tablet
+^ESCTPR642489	Product containing levothyroxine sodium 150 microgram and liothyronine sodium 37.5 microgram/1 each oral tablet
+^ESCTPR642491	Product containing levothyroxine sodium 25 microgram and liothyronine sodium 6.25 microgram/1 each oral tablet
+^ESCTPR642493	Product containing levothyroxine sodium 50 microgram and liothyronine sodium 12.5 microgram/1 each oral tablet
+^ESCTPR723362	Product containing liothyronine in parenteral dosage form
+^ESCTPR723364	Product containing liothyronine in oral dosage form
+^ESCTTE802360	Tertroxin 20microgram tablets (Mercury Pharma Group Ltd)
+^ESCTTR874453	Tri-iodothyronine 20microgram solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTWP1002184	WP Thyroid 65mg (1 grain) tablets (Imported (United States))
+ARTA16943NEMIS	Armour Thyroid  Tablets  30 mg (1/2 grain)
+ARTA16945NEMIS	Armour Thyroid  Tablets  60 mg (1 grain)
+ARTA18186NEMIS	Armour Thyroid  Tablets  120 mg (2 grain)
+ARTA22988NEMIS	Armour Thyroid  Tablets  15 mg (1/4 grain)
+ARTA76875NEMIS	Armour Thyroid  Tablets  90 mg (one and a half grain)
+CYTA22715NEMIS	Cytomel  Tablets  5 micrograms
+ERTA127687NEMIS	Erfa Thyroid  Tablets  30 mg (half grain)
+ERTA78938NEMIS	Erfa Thyroid  Tablets  125 mg (2 grains)
+ERTA86962NEMIS	Erfa Thyroid  Tablets  60 mg (1 grain)
+LICA141313NEMIS	Liothyronine Sodium  Capsules  5 micrograms
+LICA141314NEMIS	Liothyronine Sodium  Capsules  10 micrograms
+LICA141315NEMIS	Liothyronine Sodium  Capsules  20 micrograms
+LICA141400NEMIS	Liothyronine Sodium  Capsules  2.5 micrograms
+LICA17242NEMIS	Liothyronine  Capsules  2.5 micrograms
+LIIN5088	Liothyronine Sodium  Injection  20 micrograms/amp
+LIPO51568NEMIS	Liothyronine Sodium  Powder For Solution For Injection  20 micrograms/vial
+LITA134006NEMIS	Liothyronine Sodium  Tablets  10 micrograms
+LITA134458NEMIS	Liothyronine Sodium  Tablets  5 micrograms
+LITA5089	Liothyronine Sodium  Tablets  20 micrograms
+NATA25544NEMIS	Nature-Throid  Tablets  32.5 mg (1/2 grain)
+NATA25546NEMIS	Nature-Throid Nt-1  Tablets  65 mg (1 grain)
+NATA85475NEMIS	Nature-Throid  Tablets  130 mg (2 grains)
+TETA4404	Tertroxin  Tablets  20 micrograms
