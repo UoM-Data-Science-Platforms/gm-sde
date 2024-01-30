@@ -19,19 +19,25 @@ INTO #Patients
 FROM SharedCare.Patient
 WHERE FK_Reference_Tenancy_ID=2
 AND GPPracticeCode NOT LIKE 'ZZZ%';
+-- 33s
 
 --> EXECUTE query-patient-year-of-birth.sql
+-- 41s
 
 -- Now restrict to those >=18
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth
 WHERE YearOfBirth <= YEAR(GETDATE()) - 18;
+-- 3s
 
 -- NB get-first-diagnosis is fine even though T4 level is not a diagnosis as both codes appear in the Events table
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:SharedCare.GP_Events code-set:t4 version:1 temp-table-name:#FirstT4Level
+-- 1m26
 
 -- Now restrict patients to just those with a T4 level
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT FK_Patient_Link_ID FROM #FirstT4Level;
+-- 0s
+-- 1,133,737 patients

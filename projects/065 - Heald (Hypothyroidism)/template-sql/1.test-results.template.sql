@@ -15,7 +15,9 @@ SET NOCOUNT ON;
 
 -- Get the cohort of patients
 --> EXECUTE query-build-rq065-cohort.sql
+-- 2m43
 --> EXECUTE query-build-rq065-cohort-events.sql
+-- 4m25
 
 --> CODESET tsh:1 t3:1 t4:1 tpo-antibody:1 bmi:2
 
@@ -30,48 +32,53 @@ CREATE TABLE #Measurements (
 
 -- tsh
 INSERT INTO #Measurements
-SELECT FK_Patient_Link_ID, 'tsh' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit, EventDate AS MeasurementDate
+SELECT FK_Patient_Link_ID, EventDate AS MeasurementDate, 'tsh' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit
 FROM #PatientEventData
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'tsh' AND [Version] = 1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
 AND [Value] != 0;
+-- 10s
 
 -- t3
 INSERT INTO #Measurements
-SELECT FK_Patient_Link_ID, 't3' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit, EventDate AS MeasurementDate
+SELECT FK_Patient_Link_ID, EventDate AS MeasurementDate, 't3' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit
 FROM #PatientEventData
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 't3' AND [Version] = 1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
 AND [Value] != 0;
+-- 0s
 
 -- t4
 INSERT INTO #Measurements
-SELECT FK_Patient_Link_ID, 't4' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit, EventDate AS MeasurementDate
+SELECT FK_Patient_Link_ID, EventDate AS MeasurementDate, 't4' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit
 FROM #PatientEventData
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 't4' AND [Version] = 1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
 AND [Value] != 0;
+-- 18s
 
 -- tpo-antibody
 INSERT INTO #Measurements
-SELECT FK_Patient_Link_ID, 'tpo-antibody' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit, EventDate AS MeasurementDate
+SELECT FK_Patient_Link_ID, EventDate AS MeasurementDate, 'tpo-antibody' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit
 FROM #PatientEventData
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'tpo-antibody' AND [Version] = 1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
 AND [Value] != 0;
+-- 0s
 
 -- bmi
 INSERT INTO #Measurements
-SELECT FK_Patient_Link_ID, 'bmi' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit, EventDate AS MeasurementDate
+SELECT FK_Patient_Link_ID, EventDate AS MeasurementDate, 'bmi' AS MeasurementLabel, [Value] AS MeasurementValue, Units AS MeasurementUnit
 FROM #PatientEventData
-WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'bmi' AND [Version] = 1)
+WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'bmi' AND [Version] = 2)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND [Value] IS NOT NULL
 AND [Value] != 0;
+-- 14s
 
 SELECT 
   FK_Patient_Link_ID AS PatientId,

@@ -16,7 +16,9 @@ SET NOCOUNT ON;
 
 -- Get the cohort of patients
 --> EXECUTE query-build-rq065-cohort.sql
+-- 2m43
 --> EXECUTE query-build-rq065-cohort-medications.sql
+-- 2m37
 
 --> CODESET levothyroxine:1 liothyronine:1
 

@@ -20,15 +20,21 @@ SET NOCOUNT ON;
 
 -- Get the cohort of patients
 --> EXECUTE query-build-rq065-cohort.sql
+-- 2m30
 --> EXECUTE query-build-rq065-cohort-events.sql
+-- 2m08
 
 --> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-year-of-birth.sql
+-- 26s
 --> EXECUTE query-patient-lsoa.sql
+-- 34s
 --> EXECUTE query-patient-townsend.sql
+-- 10s
 --> EXECUTE query-patient-practice-and-ccg.sql
+-- 42s
 
 --> EXECUTE query-get-first-diagnosis.sql all-patients:false gp-events-table:#PatientEventData code-set:hypothyroidism version:1 temp-table-name:#PatientHYPOTHYROIDISM
+-- 7s
 
 SELECT
 	p.FK_Patient_Link_ID AS PatientId,
@@ -48,3 +54,4 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN SharedCare.Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHYPOTHYROIDISM hypo ON hypo.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+--14s
