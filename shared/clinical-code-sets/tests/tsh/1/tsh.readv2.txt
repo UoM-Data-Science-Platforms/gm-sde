@@ -1,0 +1,3 @@
+442A.00	TSH - thyroid stim. hormone
+442W.00	Serum TSH level
+442X.00	Plasma TSH level

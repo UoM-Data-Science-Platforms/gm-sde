@@ -1,0 +1,13 @@
+E0300	Acute confusional state, post-traumatic
+E0310	Subacute confusional state, post-traumatic
+E2831	Acute post-trauma stress state
+E29y1	Other post-traumatic stress disorder
+Ub1T9	Post-traumatic mutism
+X00Sf	Post-traumatic stress disorder
+Xa18j	Combat fatigue
+Xa18v	Shell shock
+XaEFB	Chronic post-traumatic stress disorder
+XaX55	Acute post-traumatic stress disorder following military combat
+XaX56	Chronic post-traumatic stress disorder following military combat
+XaX58	Delayed post-traumatic stress disorder following military combat
+XM1MZ	Post-traumatic amnesia

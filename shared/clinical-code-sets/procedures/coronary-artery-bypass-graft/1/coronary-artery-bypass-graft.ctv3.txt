@@ -37,7 +37,6 @@ X00tK	CABG x 5 - Coronary artery bypass grafts x 5
 X00tL	CABG >5 - Coronary artery bypass grafts greater than five
 XaBEB	[V]Presence of coronary artery bypass graft
 XaJIU	Coronary artery bypass graft occlusion
-XaVvs	CABG (coronary artery bypass graft) operation planned
 7923y	Other specified prosthetic replacement of coronary artery
 7923z	Prosthetic replacement of coronary artery NOS
 7925.	Connection of mammary artery to coronary artery
@@ -68,7 +67,23 @@ XaVvs	CABG (coronary artery bypass graft) operation planned
 X00tI	Coronary artery bypass grafts x 3
 X778X	Coronary graft occluded
 Xa3kl	Heart - arterial implant NOS
-XE0Em	Coronary artery operation
 XE2Px	Single anastomosis of mammary artery to coronary artery NEC
 XE2r7	Coronary A by-pass anastam NOS
 ZV457	[V]Presence of aortocoronary bypass graft
+79230	Prosthetic replacement of one coronary artery
+79231	Prosthetic replacement of two coronary arteries
+79232	Prosthetic replacement of three coronary arteries
+79233	Prosthetic replacement of four or more coronary arteries
+79250	Double anastomosis of mammary arteries to coronary arteries
+79251	Double implantation of mammary arteries into coronary arteries
+79251	Double implantation of mammary arteries into coronary arteries
+79252	Single anastomosis of mammary artery to left anterior descending coronary artery
+79254	Single implantation of mammary artery into coronary artery
+XE0En	Double anastomosis of mammary arteries to coronary arteries
+XM1LR	LIMA single anastomosis
+XM1LS	RIMA single anastomosis
+79241	Revision of bypass for two coronary arteries
+79242	Revision of bypass for three coronary arteries
+79243	Revision of bypass for four or more coronary arteries
+XM1M3	LIMA sequential anastomosis
+XM1M4	RIMA sequential anastomosis

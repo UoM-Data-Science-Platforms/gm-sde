@@ -1,3 +1,88 @@
 EMISNQST25	Stage 2 hypertension
 ^ESCTMA364280	Malignant hypertension
 EMISNQST25	Stage 2 hypertension
+^ESCT1169188	Combined diastolic and systolic hypertension
+^ESCT1169189	Diastolic hypertension co-occurrent with systolic hypertension
+^ESCT1204982	Hypertension due to gain-of-function mutation in mineralocorticoid receptor
+^ESCT1204983	Pseudohyperaldosteronism type 2
+^ESCT1204984	Early-onset hypertension with exacerbation in pregnancy
+^ESCT1368801	Multiple drug intolerant hypertension
+^ESCT1368802	Multi-drug intolerant hypertension
+^ESCT1378998	Endocrine hypertension
+^ESCT1397162	Hypertension due to aortic arch obstruction
+^ESCTAC378437	Accelerated essential hypertension
+^ESCTAC395063	Accelerated secondary hypertension
+^ESCTAD347437	Adrenal hypertension
+^ESCTBE267051	Benign hypertension
+^ESCTBE369371	Benign secondary renovascular hypertension
+^ESCTBI780542	Bilginturan brachydactyly
+^ESCTBI780543	Bilginturan syndrome
+^ESCTBP311745	BP - High blood pressure
+^ESCTBP311750	BP+ - Hypertension
+^ESCTBR780541	Brachydactyly and arterial hypertension syndrome
+^ESCTBR780544	Brachydactyly type E with short stature and hypertension
+^ESCTEN347436	Endocrine hypertension
+^ESCTGO435609	Goldblatt hypertension
+^ESCTHB311747	HBP - High blood pressure
+^ESCTHI281398	High-renin essential hypertension
+^ESCTHI311741	High blood pressure
+^ESCTHI311749	High blood pressure disorder
+^ESCTHT311748	HT - Hypertension
+^ESCTHT311751	HTN - Hypertension
+^ESCTHY311742	Hypertensive vascular disease
+^ESCTHY311743	Hypertensive vascular degeneration
+^ESCTHY311752	Hypertensive disorder, systemic arterial
+^ESCTHY435608	Hypertension due to renovascular disease
+^ESCTHY462322	Hypertension caused by oral contraceptive pill
+^ESCTHY477583	Hypertension secondary to endocrine disorder
+^ESCTHY477586	Hypertension caused by drug
+^ESCTHY659216	Hypertension with albuminuria
+^ESCTHY708038	Hypertension associated with transplantation
+^ESCTHY709048	Hypertension secondary to kidney transplant
+^ESCTHY727817	Hypertensive urgency
+^ESCTHY759368	Hypertension concurrent and due to end stage renal disease on dialysis
+^ESCTHY760971	Hypertensive crisis
+^ESCTHY802236	Hypertension in chronic kidney disease due to type 2 diabetes mellitus
+^ESCTHY802237	Hypertension in chronic kidney disease due to type II diabetes mellitus
+^ESCTHY802240	Hypertension in chronic kidney disease due to type 1 diabetes mellitus
+^ESCTHY802241	Hypertension in chronic kidney disease due to type I diabetes mellitus
+^ESCTHY804033	Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus
+^ESCTHY804034	Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus
+^ESCTHY804170	Hypertensive emergency
+^ESCTHY804401	Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus
+^ESCTHY804402	Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus
+^ESCTHY804404	Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus
+^ESCTHY804405	Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus
+^ESCTHY804406	Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus
+^ESCTHY804407	Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus
+^ESCTHY804408	Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus
+^ESCTHY804409	Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus
+^ESCTHY811892	Hypertension due to compression of renal parenchyma
+^ESCTID346849	Idiopathic hypertension
+^ESCTIN750204	Intermittent hypertension
+^ESCTLA356537	Labile diastolic hypertension
+^ESCTLA634946	Labile essential hypertension
+^ESCTLA989751	Labile systemic arterial hypertension
+^ESCTLO325080	Low-renin essential hypertension
+^ESCTMA477579	Malignant secondary renovascular hypertension
+^ESCTNO829868	Nocturnal hypertension
+^ESCTPA343738	Parenchymal renal hypertension
+^ESCTPA811891	Page kidney
+^ESCTPO801654	Postpartum pre-existing essential hypertension
+^ESCTPR801655	Pre-existing essential hypertension in postpartum
+^ESCTRE273725	Renal sclerosis with hypertension
+^ESCTRE295123	Renal hypertension
+^ESCTRE312804	Renal arterial hypertension
+^ESCTRE386803	Rebound hypertension
+^ESCTRE828632	Resistant hypertension
+^ESCTSE371019	Secondary diastolic hypertension
+^ESCTST828658	Stage 2 hypertension
+^ESCTSU347000	Sustained diastolic hypertension
+^ESCTSU769603	Supine hypertension
+^ESCTSY311746	Systemic arterial hypertension
+^ESCTSY346850	Systemic primary arterial hypertension
+^ESCTSY710358	Systolic essential hypertension
+^ESCTXH818073	[X]Hypertensive diseases
+EMISNQSE73	Severe hypertension
+EMISNQST24	Stage 1 hypertension
+^ESCT1169187	Diastolic hypertension and systolic hypertension

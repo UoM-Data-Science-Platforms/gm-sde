@@ -28,3 +28,61 @@ EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
 ^ESCT1348577	Detection of COVID-19
 ^ESCT1348578	2019 novel coronavirus assay
 ^ESCT1348579	Detection of 2019-nCoV (novel coronavirus)
+^ESCT1299074	2019-nCoV (novel coronavirus) detected
+^ESCT1299075	Wuhan 2019-nCoV (novel coronavirus) detected
+^ESCT1299076	2019 novel coronavirus detected
+^ESCT1301230	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected
+^ESCT1303246	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) qualitative existence in specimen
+^ESCT1303247	2019-nCoV (novel coronavirus) qualitative existence in specimen
+^ESCT1303928	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive
+^ESCT1348360	2019-nCoV (novel coronavirus) detection result positive at the limit of detection
+^ESCT1348394	Severe acute respiratory syndrome coronavirus 2 detected
+^ESCT1348395	COVID-19 detected
+^ESCT1299113	Disease caused by 2019-nCoV (novel coronavirus)
+^ESCT1299114	Disease caused by Wuhan 2019-nCoV (novel coronavirus)
+^ESCT1299115	Disease caused by 2019 novel coronavirus
+^ESCT1301243	COVID-19
+^ESCT1301244	COVID-19 caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1348538	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen
+^ESCT1348539	Detection of Severe acute respiratory syndrome coronavirus 2 antigen
+^ESCT1348540	Detection of 2019 novel coronavirus antigen
+^ESCT1348541	Detection of 2019-nCoV (novel coronavirus) antigen
+^ESCT1348542	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2
+^ESCT1348543	Detection of ribonucleic acid of COVID-19
+^ESCT1348544	2019 novel coronavirus ribonucleic acid assay
+^ESCT1348545	COVID-19 ribonucleic acid assay
+^ESCT1348546	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) in nasopharyngeal swab
+^ESCT1348547	Detection of ribonucleic acid of 2019 novel coronavirus in nasopharyngeal swab
+^ESCT1348548	Nasopharyngeal swab COVID-19 ribonucleic acid assay
+^ESCT1348549	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 in nasopharyngeal swab
+^ESCT1348550	Detection of ribonucleic acid of COVID-19 in nasopharyngeal swab
+^ESCT1348551	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) in nasopharyngeal swab
+^ESCT1348552	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) in oropharyngeal swab
+^ESCT1348553	Detection of ribonucleic acid of 2019 novel coronavirus in oropharyngeal swab
+^ESCT1348554	Oropharyngeal swab COVID-19 ribonucleic acid assay
+^ESCT1348555	Detection of ribonucleic acid of COVID-19 in oropharyngeal swab
+^ESCT1348556	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 in oropharyngeal swab
+^ESCT1348557	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) in oropharyngeal swab
+^ESCT1348558	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) in sputum
+^ESCT1348559	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 in sputum
+^ESCT1348560	Sputum COVID-19 ribonucleic acid assay
+^ESCT1348561	Detection of ribonucleic acid of COVID-19 in sputum
+^ESCT1348562	Detection of ribonucleic acid of 2019 novel coronavirus in sputum
+^ESCT1348563	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) in sputum
+^ESCT1348564	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) in bronchoalveolar lavage fluid
+^ESCT1348565	Detection of ribonucleic acid of COVID-19 in bronchoalveolar lavage fluid
+^ESCT1348566	Bronchoalveolar lavage fluid COVID-19 ribonucleic acid assay
+^ESCT1348567	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 in bronchoalveolar lavage fluid
+^ESCT1348568	Detection of ribonucleic acid of 2019 novel coronavirus in bronchoalveolar lavage fluid
+^ESCT1348569	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) in bronchoalveolar lavage fluid
+^ESCT1348570	Detection of RNA (ribonucleic acid) of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction
+^ESCT1348571	Detection of ribonucleic acid of COVID-19 using polymerase chain reaction
+^ESCT1348572	Detection of ribonucleic acid of 2019 novel coronavirus using polymerase chain reaction
+^ESCT1348573	Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 using polymerase chain reaction
+^ESCT1348574	Detection of ribonucleic acid of 2019-nCoV (novel coronavirus) using polymerase chain reaction
+^ESCT1348656	Asymptomatic SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) infection
+^ESCT1348657	Asymptomatic COVID-19
+^ESCT1348658	Asymptomatic 2019 novel coronavirus
+^ESCT1348659	Asymptomatic Severe acute respiratory syndrome coronavirus 2 infection
+^ESCT1348660	Asymptomatic 2019-nCoV (novel coronavirus) infection
+^ESCT1421535	Detection of ribonucleic acid of SARS-CoV-2 in bronchoalveolar lavage fluid

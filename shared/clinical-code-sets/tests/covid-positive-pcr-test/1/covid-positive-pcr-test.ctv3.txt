@@ -6,3 +6,6 @@ Y228d	Coronavirus disease 19 caused by severe acute respiratory syndrome coronav
 Y210e	Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique
 43hF.	Detection of SARS-CoV-2 by PCR 
 Y2a3d	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection
+Xab7a	Coronavirus nucleic acid detection assay
+Xaboe	Coronavirus ribonucleic acid detection assay
+XaLTE	Coronavirus nucleic acid detection

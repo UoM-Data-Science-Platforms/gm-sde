@@ -1,0 +1,6 @@
+^ESCTFR841185	Free T4 level
+^ESCTFR841186	Free T4
+^ESCTFT841184	FT4 - Free thyroxine level
+^ESCT1262441	Free T4 (thyroxine) mass concentration in plasma
+^ESCT1262442	Free T4 (thyroxine) mass concentration in serum
+^ESCT1262549	Total T4 (thyroxine) mass concentration in serum

@@ -13,3 +13,5 @@
 23045005	Insulin dependent diabetes mellitus type IA
 28032008	Insulin dependent diabetes mellitus type IB
 199229001	Pre-existing type 1 diabetes mellitus
+1255271005	Juvenile-onset diabetes mellitus, central and peripheral neurodegeneration syndrome (disorder)
+426875007	Latent autoimmune diabetes mellitus in adult (disorder)

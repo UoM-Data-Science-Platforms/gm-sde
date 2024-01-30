@@ -121,3 +121,4 @@ C10FR00	Type 2 diabetes mellitus with gastroparesis
 C10FR11	Type II diabetes mellitus with gastroparesis
 C10y100	Diabetes mellitus, adult onset, with other specified manifestation
 C10z100	Diabetes mellitus, adult onset, with unspecified complication
+C107400	NIDDM with peripheral circulatory disorder

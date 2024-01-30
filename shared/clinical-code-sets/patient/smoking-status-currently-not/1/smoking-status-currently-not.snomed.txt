@@ -1,2 +1,9 @@
 160618006	Current non-smoker (life style)
 8392000	Non-smoker (life style)
+87739003	Tolerant non-smoker (finding)
+105539002	Non-smoker for personal reasons (finding)
+105540000	Non-smoker for religious reasons (finding)
+105541001	Non-smoker for medical reasons (finding)
+360918006	Aggressive non-smoker (finding)
+360929005	Intolerant non-smoker (finding)
+405746006	Current non smoker but past smoking history unknown

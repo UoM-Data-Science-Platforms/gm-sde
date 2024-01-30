@@ -1,0 +1,32 @@
+{
+  "includeTerms": [
+    "liothyronine",
+    "triiodothyronine",
+    "tertroxin",
+    "tri-iodothyronine",
+    "cytomel",
+    "thyrotardin",
+    "iraksin"
+  ],
+  "excludeTerms": [
+    "adverse reaction",
+    "poisoning",
+    "triiodothyronine level",
+    "overdose",
+    "triiodothyronine uptake",
+    "free triiodothyronine",
+    "allergy",
+    "test",
+    "procedure",
+    "level",
+    "antibody",
+    "finding",
+    "in plasma",
+    "reverse triiodothyronine",
+    "in serum"
+  ],
+  "terminology": "SNOMED CT",
+  "version": "uk_sct2cl_29.3.0_20200610000001",
+  "createdOn": "2023-12-15T09:30:31.519Z",
+  "lastUpdated": "2023-12-15T09:30:31.519Z"
+}

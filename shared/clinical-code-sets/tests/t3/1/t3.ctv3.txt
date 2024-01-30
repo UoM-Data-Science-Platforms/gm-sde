@@ -1,0 +1,5 @@
+4424.	Serum T3 level
+4425.	Free triiodothyronine level
+XaERq	Serum free T3 level
+XaERt	Plasma free T3 level
+XaIzH	Serum total T3 level
