@@ -428,7 +428,7 @@ CREATE INDEX medicationData1 ON #PatientMedicationData (SuppliedCode) INCLUDE (F
 
 -- >>> Following code sets injected: levothyroxine v1/liothyronine v1
 
-SELECT FK_Patient_Link_ID, MedicationDate, a.description AS Medication, Units AS Method, Dosage As DosageInstruction, Quantity
+SELECT FK_Patient_Link_ID AS PatientId, MedicationDate, a.description AS Medication, Units AS Method, Dosage As DosageInstruction, Quantity
 FROM #PatientMedicationData m
 LEFT OUTER JOIN #AllCodes a ON a.Code = SuppliedCode
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('levothyroxine','liothyronine') AND [Version] = 1);

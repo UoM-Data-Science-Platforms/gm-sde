@@ -435,7 +435,7 @@ GROUP BY Code;
 -- 0s
 
 SELECT
-	FK_Patient_Link_ID AS PatientID,
+	FK_Patient_Link_ID AS PatientId,
 	EventDate,
 	Concept AS ThyroidDisorder,
 	[Definition]
