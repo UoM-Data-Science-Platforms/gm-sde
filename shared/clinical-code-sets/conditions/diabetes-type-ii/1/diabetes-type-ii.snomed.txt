@@ -14,3 +14,9 @@
 190390000	Type II diabetes mellitus with gangrene
 1481000119100	Diabetes mellitus type 2 without retinopathy
 445353002	Brittle type II diabetes mellitus
+609567009	Pre-existing type 2 diabetes mellitus in pregnancy (disorder)
+199230006	Pre-existing type 2 diabetes mellitus (disorder)	
+81531005	Diabetes mellitus type 2 in obese (disorder)	
+444110003	Type II diabetes mellitus well controlled (finding)
+359642000	Diabetes mellitus type 2 in nonobese (disorder)
+390716007	Diabetes mellitus autosomal dominant type 2 (disorder)
