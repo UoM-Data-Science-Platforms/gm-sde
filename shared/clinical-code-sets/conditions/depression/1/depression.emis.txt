@@ -3,9 +3,161 @@ EMISICD10|F3210	Moderate depressive episode, without somatic syndrome
 EMISICD10|F3301	Recurrent depressive disorder, current episode mild, with somatic syndrome
 EMISICD10|F2048	Post-schizophrenic depression, other
 EMISICD10|F3311	Recurrent depressive disorder, current episode moderate, with somatic syndrome
-EMISICD10|F3800	Other single mood affective disorders, mixed affective episode
 EMISICD10|F3200	Mild depressive episode, without somatic syndrome
 EMISICD10|F3300	Recurrent depressive disorder, current episode mild, without somatic syndrome
 EMISICD10|F3310	Recurrent depressive disorder, current episode moderate, without somatic syndrome
-EMISICD10|F3810	Other recurrent mood affective disorders, recurrent brief depressive disorder
-
+^ESCT1170581	Postpartum major depression in remission
+^ESCT1171772	Recurrent depression with current severe episode and psychotic features
+^ESCT1171782	Recurrent depression with current severe episode without psychotic features
+^ESCT1171783	Recurrent depression with current moderate episode
+^ESCT1177666	[X]Single episode major depression w'out psychotic symptoms
+^ESCT1177938	[X]Single episode agitated depressn w'out psychotic symptoms
+^ESCT1190375	Single major depressive episode
+^ESCT1190377	Single major depressive episode, in full remission
+^ESCT1190378	Single major depressive episode, mild
+^ESCT1190379	Single major depressive episode, moderate
+^ESCT1190380	Single major depressive episode, severe
+^ESCT1191490	[X]Depressive personality disorder
+^ESCT1191835	[X] Manic-depressive psychosis, depressed type without psychotic symptoms
+^ESCT1191853	[X]Mild depressive episode
+^ESCT1191856	[X]Moderate depressive episode
+^ESCT1192114	[X]Recurrent severe episodes/reactive depressive psychosis
+^ESCT1192130	[X]Severe depressive episode without psychotic symptoms
+^ESCT1192131	[X] Single episode agitated depression without psychotic symptoms
+^ESCT1192132	[X] Single episode major depression without psychotic symptoms
+^ESCT1201942	Antidepressant therapy started
+^ESCT1212753	Recurrent mild major depressive disorder co-occurrent with anxiety
+^ESCT1212754	Recurrent severe major depressive disorder co-occurrent with anxiety
+^ESCT1212755	Recurrent moderate major depressive disorder co-occurrent with anxiety
+^ESCT1212756	Recurrent major depressive disorder co-occurrent with anxiety in full remission
+^ESCT1212757	Recurrent major depressive disorder in partial remission co-occurrent with anxiety
+^ESCT1245145	Single major depressive episode, in full remission
+^ESCT1245146	Single major depressive episode, moderate
+^ESCT1245212	Recurrent major depressive episodes, in full remission
+^ESCT1246336	Bipolar affective disorder, currently depressed, severe, with psychosis
+^ESCT1371601	Depressive disorder caused by amphetamine
+^ESCT1371602	Depressive disorder due to amphetamine
+^ESCT1390242	Antenatal depression
+^ESCT1401379	Depressive disorder caused by methamphetamine
+^ESCTAB493532	Abnormal grief reaction
+^ESCTAB493533	Abnormal bereavement reaction
+^ESCTAB493535	Abnormal grief reaction to life event
+^ESCTAN502407	Anxiety depression
+^ESCTAT493534	Atypical grief reaction
+^ESCTBE371105	Bereavement due to life event
+^ESCTCH272468	Chronic major depressive disorder, single episode
+^ESCTCH725902	Chronic depressive personality disorder
+^ESCTCO553272	Complaining of feeling depressed
+^ESCTCO553275	Complaining of feeling unhappy
+^ESCTCO620156	Cotard's syndrome
+^ESCTCO620157	Cotard syndrome
+^ESCTCO655079	Counseling for postnatal depression
+^ESCTCO655080	Counselling for postnatal depression
+^ESCTCY646187	Cycloid personality
+^ESCTCY646190	Cyclothymic personality
+^ESCTDE307179	Depressive illness
+^ESCTDE307180	Depressed
+^ESCTDE502451	Depressive conduct disorder
+^ESCTDE524738	Depressive delusion of catastrophe
+^ESCTDE524739	Depressive delusion of poverty
+^ESCTDE524741	Depressive hypochondriacal delusion
+^ESCTDE524853	Depressive preoccupation
+^ESCTDE524891	Depression worse in morning
+^ESCTDE524893	Depression worse later in day
+^ESCTDE593464	Depressive position relationship
+^ESCTDE664963	Depression management program
+^ESCTDE751515	Depressive disorder in remission
+^ESCTDE845947	Depression monitoring invitation email
+^ESCTDE845949	Depression monitoring invitation SMS (short message service) text message
+^ESCTDE846086	Depressive personality disorder
+^ESCTDI806693	Discussion about maternal wellbeing - postnatal depression
+^ESCTDR476336	Drug-induced depression
+^ESCTDY299685	Dysphoria
+^ESCTFE524892	Feels low in the mornings
+^ESCTIN609558	Involutional depression
+^ESCTIN609559	Involutional melancholia
+^ESCTMA280982	Major depression, single episode, in complete remission
+^ESCTMA280983	Major depression, single episode, in full remission
+^ESCTMA291484	Major depressive disorder, single episode with postpartum onset
+^ESCTMA299309	Major depression in partial remission
+^ESCTMA309494	Major depression, single episode
+^ESCTMA309495	Major depressive disorder, single episode
+^ESCTMA319022	Major depression in remission
+^ESCTMA319023	Major depression, in remission
+^ESCTMA319206	Major depressive disorder, single episode with atypical features
+^ESCTMA353137	Major depression in complete remission
+^ESCTMA353138	Major depression in full remission
+^ESCTMA353726	Major depressive disorder, single episode with melancholic features
+^ESCTMA362847	Major depressive disorder, single episode with catatonic features
+^ESCTMA365077	Major depression, single episode, in partial remission
+^ESCTMA633749	Major depressive disorder
+^ESCTMA633750	Major depression
+^ESCTMI314966	Mild recurrent major depression
+^ESCTMI378958	Mild major depression, single episode
+^ESCTMI510605	Mild postnatal depression
+^ESCTMI600069	Mild depression
+^ESCTMI780373	Minimal major depression single episode
+^ESCTMI780374	Minimal major depression one episode
+^ESCTMI990116	Mild major depressive disorder co-occurrent with anxiety single episode
+^ESCTMO274803	Moderate major depression, single episode
+^ESCTMO279869	Moderate recurrent major depression
+^ESCTMO307181	Mood disorder of depressed type
+^ESCTMO371102	Mourning
+^ESCTMO600071	Moderate depression
+^ESCTMO780371	Moderately severe major depression single episode
+^ESCTMO780372	Moderately severe major depression one episode
+^ESCTMO990126	Moderate major depressive disorder co-occurrent with anxiety single episode
+^ESCTNO562869	Normal grief reaction
+^ESCTNO562870	Normal bereavement reaction
+^ESCTNO562871	Normal grief reaction to life event
+^ESCTON455095	On examination - depressed
+^ESCTPO502390	Post-schizophrenic depression
+^ESCTPO655078	Postnatal depression counseling
+^ESCTPR706122	Premenstrual dysphoric disorder in remission
+^ESCTPR846533	Prolonged single episode of reactive depression
+^ESCTPS370091	Psychotic depression
+^ESCTPS511184	Pseudo-Cushing's syndrome of depression
+^ESCTPS511185	Pseudo-Cushing syndrome of depression
+^ESCTRE303326	Recurrent major depression in partial remission
+^ESCTRE315307	Recurrent brief depressive disorder
+^ESCTRE324707	Recurrent major depression in full remission
+^ESCTRE324708	Recurrent major depression in complete remission
+^ESCTRE357885	Recurrent major depression
+^ESCTRE357886	Recurrent major depressive disorder
+^ESCTRE360641	Recurrent major depression in remission
+^ESCTRE808930	Reactive depressive psychosis, single episode
+^ESCTRE823259	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+^ESCTRE823783	Recurrent major depressive episodes, in partial remission
+^ESCTRE826285	Referral to postnatal depression group
+^ESCTRE846496	Recurrent reactive depressive episodes, severe, with psychosis
+^ESCTRE846532	Reactive depression, prolonged single episode
+^ESCTSC387861	Schizophreniform psychosis, depressive type
+^ESCTSE282173	Severe major depression, single episode, with psychotic features, mood-incongruent
+^ESCTSE295731	Severe recurrent major depression with psychotic features
+^ESCTSE308797	Severe recurrent major depression without psychotic features
+^ESCTSE374345	Severe major depression, single episode, without psychotic features
+^ESCTSE376753	Severe major depression, single episode, with psychotic features, mood-congruent
+^ESCTSE510606	Severe postnatal depression
+^ESCTSE600072	Severe depression
+^ESCTSE796513	Severe major depression, single episode
+^ESCTSE990128	Severe major depressive disorder co-occurrent with anxiety single episode
+^ESCTSI280981	Single episode of major depression in full remission
+^ESCTSI823257	Single major depressive episode, severe, with psychosis, psychosis in remission
+^ESCTSI823785	Single major depressive episode, in remission
+^ESCTXS813500	[X]Severe depressive episode with psychotic symptoms
+EMISICD10|F2040	Post-schizophrenic depression, continuous
+EMISICD10|F2041	Post-schizophrenic depression, episodic with progressive deficit
+EMISICD10|F2042	Post-schizophrenic depression, episodic with stable deficit
+EMISICD10|F2043	Post-schizophrenic depression, episodic remittent
+EMISICD10|F2044	Post-schizophrenic depression, incomplete remission
+EMISICD10|F2045	Post-schizophrenic depression, complete remission
+EMISICD10|F2049	Post-schizophrenic depression, course uncertain, period of observation too short
+EMISICD10|F3201	Mild depressive episode, with somatic syndrome
+EMISNQAN25	Antenatal depression
+EMISNQPR48	Premenstrual dysphoric disorder
+^ESCTGR493463	Grief finding
+^ESCTGR493464	Grief observations
+^ESCTGR493465	Grief
+^ESCTPO383712	Postoperative depression
+EMISICD10|F4322	Mixed anxiety and depressive reaction
+ESCTSI25	Signposting to depression self-help group
