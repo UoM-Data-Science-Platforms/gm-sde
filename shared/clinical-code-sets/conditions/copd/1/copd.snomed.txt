@@ -55,4 +55,10 @@
 836477007	Chronic emphysema caused by vapor
 840493007	Congenital lobar emphysema of bilateral lungs
 708030004	Pulmonary emphysema co-occurrent with fibrosis of lung
-
+1010333003	Emphysema of left lung (disorder)	
+1010334009	Emphysema of right lung (disorder)
+233723008	Bronchiolitis obliterans with usual interstitial pneumonitis (disorder)
+196027008	Toxic bronchiolitis obliterans (disorder)
+233673002	Drug-induced bronchiolitis obliterans (disorder)
+32544004	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapors (disorder)
+408501008	Admit COPD emergency (procedure)

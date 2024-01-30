@@ -52,7 +52,7 @@ H3z..00	Chronic obstructive airways disease NOS
 H3z..11	Chronic obstructive pulmonary disease NOS
 H464000	Chronic emphysema due to chemical fumes
 H464100	Obliterative bronchiolitis due to chemical fumes
-H581.00	Interstitial emphysema
 H583200	Eosinophilic bronchitis
 Hyu3000	[X]Other emphysema
 Hyu3100	[X]Other specified chronic obstructive pulmonary disease
+H061400	Obliterating fibrous bronchiolitis
