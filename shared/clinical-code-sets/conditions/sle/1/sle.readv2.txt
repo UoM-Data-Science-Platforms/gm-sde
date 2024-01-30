@@ -18,3 +18,10 @@ N000.	Systemic lupus erythematosus
 N0002	Drug-induced systemic lupus erythematosus
 N000z	Systemic lupus erythematosus NOS
 Nyu43	[X]Other forms of systemic lupus erythematosus
+K0B4000	Renal tubulo-interstitial disorder in systemic lupus erythematosus
+M154700	Subacute cutaneous lupus erythematosus
+N000000	Disseminated lupus erythematosus
+N000300	Systemic lupus erythematosus with organ or system involvement
+N000400	Systemic lupus erythematosus with pericarditis
+N000500	Neonatal lupus erythematosus
+N000600	Cerebral lupus
