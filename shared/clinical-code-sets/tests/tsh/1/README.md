@@ -1,6 +1,6 @@
 # TSH level (thyroid-stimulating hormone)
 
-Codes for a TSH level test. Only includes codes that will have a value, i.e. not codes such as "TSH normal" which indicate the result without a numeric value.
+Codes for a TSH level test. Only includes codes that will have a value, i.e. not codes such as "TSH normal" which indicate the result without a numeric value. SNOMED codes taken from https://termbrowser.nhs.uk/ and then mapped to Readv2 and CTV3 for backward compatibility.
 
 Excludes
 
