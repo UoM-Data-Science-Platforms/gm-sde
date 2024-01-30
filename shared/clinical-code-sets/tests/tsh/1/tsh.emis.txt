@@ -1,0 +1,15 @@
+^ESCTME603010	Measurement of serum thyroid stimulating hormone
+^ESCTME603014	Measurement of plasma thyroid stimulating hormone
+^ESCTPL603012	Plasma TSH measurement
+^ESCTPL603013	Plasma TSH level
+^ESCTPL603015	Plasma thyroid stimulating hormone measurement
+^ESCTSE603008	Serum TSH measurement
+^ESCTSE603009	Serum TSH level
+^ESCTSE603011	Serum thyroid stimulating hormone measurement
+^ESCTTH349400	Thyroid stimulating hormone measurement
+^ESCTTH349402	Thyrotropin measurement
+^ESCTTH349403	Thyrotropin stimulating hormone measurement
+^ESCTTH349405	Thyroid stimulating hormone level
+^ESCTTS349401	TSH measurement
+^ESCTTS349404	TSH - Thyroid stimulating hormone level
+^ESCTTS349406	TSH level
