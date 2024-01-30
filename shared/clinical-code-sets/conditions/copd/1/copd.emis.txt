@@ -1,18 +1,5 @@
 EMISNQAC878	Acute non-infective exacerbation of chronic obstructive pulmonary disease
 ESCTAC8	Acute infective exacerbation of chronic obstructive airways disease
-
-
-
-
-
-
-
-
-
-
-
-
-
 ^ESCT1177971	CLE - Congenital lobar emphysema
 ^ESCT1182857	Bronchiolitis fibrosa obliterans
 ^ESCT1248980	Admit COPD emergency
