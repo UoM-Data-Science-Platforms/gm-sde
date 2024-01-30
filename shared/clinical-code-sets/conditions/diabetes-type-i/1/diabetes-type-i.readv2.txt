@@ -142,3 +142,4 @@ C10EQ00	Type 1 diabetes mellitus with gastroparesis
 C10EQ11	Type I diabetes mellitus with gastroparesis
 C10y000	Diabetes mellitus, juvenile type, with other specified manifestation
 C10z000	Diabetes mellitus, juvenile type, with unspecified complication
+C10ER00	Latent autoimmune diabetes mellitus in adult

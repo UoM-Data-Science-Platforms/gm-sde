@@ -1,0 +1,33 @@
+^ESCT1245076	Type I diabetes mellitus with gangrene
+^ESCT1248958	Type 1 diabetes mellitus with gangrene
+^ESCTBR268356	Brittle diabetes mellitus
+^ESCTBR575458	Brittle type 1 diabetes mellitus
+^ESCTBR575461	Brittle type I diabetes mellitus
+^ESCTCO510983	Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhea
+^ESCTDI325323	Diabetes mellitus type I
+^ESCTDI325324	Diabetes mellitus type 1
+^ESCTDI695109	Diabetes type 1 with ketoacidosis
+^ESCTDI696044	Diabetes type 1 with retinopathy
+^ESCTDI696110	Diabetes type 1 with gangrene
+^ESCTDI696557	Diabetes mellitus type 1 with ketoacidotic coma
+^ESCTDI697245	Diabetes type 1 with neurological disorder
+^ESCTDI698044	Diabetes type 1 with cataract
+^ESCTDI802247	Diabetes mellitus type 1 with diabetic Charcot's arthropathy
+^ESCTIN286742	Insulin dependent diabetes mellitus type 1A
+^ESCTIN286743	Insulin dependent diabetes mellitus type IA
+^ESCTIN294987	Insulin dependent diabetes mellitus type 1B
+^ESCTIN294988	Insulin dependent diabetes mellitus type IB
+^ESCTIN475806	Insulin-dependent diabetes mellitus with ulcer
+^ESCTIN475808	Insulin-dependent diabetes mellitus with gangrene
+^ESCTIN475812	Insulin-dependent diabetes maturity onset
+^ESCTIN510985	Insulin-dependent diabetes mellitus secretory diarrhea syndrome
+^ESCTIN603000	Insulin-dependent diabetes without complication
+^ESCTIN605004	Insulin dependent diabetes mellitus with hypoglycaemic coma
+^ESCTIN605007	Insulin dependent diabetes mellitus with hypoglycemic coma
+^ESCTIN605117	Insulin dependent diabetes mellitus with arthropathy
+^ESCTLA575462	Labile type I diabetes mellitus
+^ESCTLA706553	Latent autoimmune diabetes mellitus in adult (LADA)
+^ESCTTY605006	Type I diabetes mellitus with hypoglycemic coma
+^ESCTTY605008	Type 1 diabetes mellitus with hypoglycemic coma
+^ESCTTY728761	Type 1 diabetes mellitus uncontrolled
+^ESCTTY728762	Type I diabetes mellitus uncontrolled
