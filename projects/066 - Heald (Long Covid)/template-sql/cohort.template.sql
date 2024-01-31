@@ -115,6 +115,8 @@ SELECT
   bmi.Value AS ValueOfBMIBefore,
   bmiPost.DateOfFirstValue AS DateOfBMIAfter,
   bmiPost.Value AS ValueOfBMIAfter,
+  bmiRecent.DateOfFirstValue AS DateOfBMIMostRecent,
+  bmiRecent.Value AS ValueOfBMIMostRecent,
   covid.FirstCovidPositiveDate, admission.FirstAdmissionPost1stCOVIDTest, los.LengthOfStay1stAdmission1stCOVIDTest,
   covid.SecondCovidPositiveDate, admission.FirstAdmissionPost2ndCOVIDTest, los.LengthOfStay1stAdmission2ndCOVIDTest,
   covid.ThirdCovidPositiveDate, admission.FirstAdmissionPost3rdCOVIDTest, los.LengthOfStay1stAdmission3rdCOVIDTest,
@@ -156,6 +158,7 @@ LEFT OUTER JOIN #PatientPractice practice ON practice.FK_Patient_Link_ID = pat.F
 LEFT OUTER JOIN #PostCOVIDPatients postCovid ON postCovid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PostStartBMI bmiPost ON bmiPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartBMI bmi ON bmi.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #RecentBMI bmiRecent ON bmiRecent.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses covid ON covid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsAdmissionsPostTest admission ON admission.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsLOSPostTest los on los.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
