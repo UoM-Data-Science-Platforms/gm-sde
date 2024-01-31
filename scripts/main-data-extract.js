@@ -523,14 +523,23 @@ ${err}`);
         pseudoFileWriter.on('error', function (err) {
           throw err;
         });
-        pseudoFileWriter.on('finish', () => {
+        pseudoFileWriter.on('close', () => {
           log(`Patient ids written to the pseudo id lookup file.`);
           return resolve();
         });
-        patientIdRows.forEach(function (v) {
-          pseudoFileWriter.write(v + '\n');
-        });
-        pseudoFileWriter.end();
+        let i = 0;
+        function writeToFile() {
+          let ok = true;
+          while (ok && i < patientIdRows.length) {
+            ok = pseudoFileWriter.write(patientIdRows[i] + '\n');
+            i++;
+          }
+          if (i === patientIdRows.length) pseudoFileWriter.end();
+          else pseudoFileWriter.once('drain', writeToFile);
+        }
+        writeToFile();
+
+        // pseudoFileWriter.end();
         // fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
       }
     });
