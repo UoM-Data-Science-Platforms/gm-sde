@@ -510,16 +510,29 @@ ${err}`);
         log(`There are ${newPatientIds.length} new patient ids from the database.`);
         if (newPatientIds.length > 0) {
           const newPatientIdRows = randomIdGenerator(maxPseudoId, newPatientIds);
+          log('Appending new patient ids to the lookup file...');
           fs.writeFileSync(PSEUDO_ID_FILE, '\n' + newPatientIdRows.join('\n'), { flag: 'a' });
           log(`New patient ids added to the pseudo id lookup file.`);
         }
+        return resolve();
       } else {
         log(chalk.bold(`${patientIds.length} patient ids retrived.`));
         const patientIdRows = randomIdGenerator(0, patientIds);
-        fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
-        log(`Patient ids written to the pseudo id lookup file.`);
+        log('Writing new patient ids to the lookup file...');
+        const pseudoFileWriter = fs.createWriteStream(PSEUDO_ID_FILE);
+        pseudoFileWriter.on('error', function (err) {
+          throw err;
+        });
+        pseudoFileWriter.on('finish', () => {
+          log(`Patient ids written to the pseudo id lookup file.`);
+          return resolve();
+        });
+        patientIdRows.forEach(function (v) {
+          pseudoFileWriter.write(v + '\n');
+        });
+        pseudoFileWriter.end();
+        // fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
       }
-      return resolve();
     });
   });
 }
@@ -527,6 +540,7 @@ ${err}`);
 function randomIdGenerator(start = 0, ids) {
   log('Randomly assigning ids...');
   shuffleArray(ids);
+  log('Array shuffling complete');
   return ids.map((id, i) => {
     store.highestId = start + i + 1;
     store.pseudoLookup[id] = store.highestId;
