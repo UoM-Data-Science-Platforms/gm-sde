@@ -1,0 +1,124 @@
+^ESCT1271541	MRC coronary screen DNA
+^ESCTAP473467	Appointment cancelled by patient
+^ESCTAP473470	Appointment canceled by patient
+^ESCTDI473463	Did not attend - appointment mix-up
+^ESCTDI604670	Did not attend hospital appointment
+^ESCTDI604673	Did not attend - hospital appointment
+^ESCTDI651636	Did not attend cholesterol clinic
+^ESCTDI651638	Did not attend hypertension clinic
+^ESCTDI683130	Did not attend psychiatry clinic
+^ESCTDI685005	Did not attend community psychiatric nurse review
+^ESCTDI685008	Did not attend peripheral vascular disease clinic
+^ESCTDI685010	Did not attend substance misuse clinic
+^ESCTDI801275	Did not attend smoking cessation clinic
+^ESCTDI802640	Did not attend hyperthyroidism clinic
+^ESCTDI802940	Did not attend cancer clinic
+^ESCTDI803452	Did not attend cryotherapy clinic
+^ESCTDI803478	Did not attend chronic obstructive pulmonary disease clinic
+^ESCTDI806071	Did not attend mental health review
+^ESCTDI809928	Did not attend dose adjustment for normal eating diabetes structured education programme
+^ESCTDI809930	Did not attend DAFNE (dose adjustment for normal eating) diabetes structured education programme
+^ESCTDI809931	Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme
+^ESCTDI809933	Did not attend DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme
+^ESCTDI809934	Did not attend expert patient education versus routine treatment diabetes structured education programme
+^ESCTDI809936	Did not attend XPERT (expert patient education versus routine treatment) diabetes structured education programme
+^ESCTDI819482	Did not attend DTaP (diphtheria, tetanus, acellular pertussis) and polio vaccination
+^ESCTDI821777	Did not attend community DMARD (disease modifying antirheumatic drug) monitoring
+^ESCTDN473461	DNA - Did not attend - reason given
+^ESCTDN551652	DNA - Did not attend - no reason
+^ESCTDN565121	DNA - Did not attend
+^ESCTDN604672	DNA - hospital appointment
+^ESCTDN651633	DNA - Did not attend diabetic clinic
+^ESCTDN651635	DNA - Did not attend cardiac clinic
+^ESCTDN664997	DNA - Did not attend mental health appointment
+^ESCTDN664999	DNA (did not attend) mental health appointment
+^ESCTDN802642	DNA (did not attend) hyperthyroidism clinic
+^ESCTDN802645	DNA (did not attend) stroke clinic
+^ESCTDN802699	DNA (did not attend) asthma clinic
+^ESCTDN802942	DNA (did not attend) cancer clinic
+^ESCTDN802944	DNA (did not attend) epilepsy clinic
+^ESCTDN805992	DNA cognitive behaviour therap
+^ESCTDN808269	DNA (did not attend) breast screening clinic
+^ESCTDN812499	DNA (did not attend) cardiovascular disease primary prevention programme
+^ESCTDN823671	DNA (did not attend) diabetes foot screening
+^ESCTDN823696	DNA (did not attend) psychotherapy appointment
+^ESCTDN830289	DNA (did not attend) CAMHS (child and adolescent mental health service) appointment
+^ESCTFA565120	Failed to attend
+^ESCTIN808311	Incomplete appointment missed
+^ESCTLE827120	Letter sent about missed GP (general practitioner) appointment
+^ESCTNO565122	No show
+^ESCTPC473468	PCA - Appt cancelled by patient
+EMISNQAP28	Appointment cancelled and not rescheduled by patient
+EMISNQAS42	Assessment appointment cancelled by patient
+EMISNQCH134	Choice appointment cancelled by patient
+EMISNQCH221	Child not brought to appointment
+EMISNQCO191	Counselling appointment cancelled by patient
+EMISNQDI102	Did not attend Choice appointment
+EMISNQDI103	Did not attend Partnership appointment
+EMISNQDI104	Did not attend Return appointment
+EMISNQDI112	Did not attend child and adolescent mental health appointment
+EMISNQDI115	Did not attend atrial fibrillation monitoring
+EMISNQDI116	Did not attend clinic
+EMISNQDI117	Did not attend dementia monitoring
+EMISNQDI120	Did not attend learning disability monitoring
+EMISNQDI127	Did not attend counselling appointment
+EMISNQDI130	Did not attend assessment appointment
+EMISNQDI144	Did not attend antenatal appointment
+EMISNQDI145	Did not attend nurse appointment
+EMISNQDI146	Did not attend GP consultation
+EMISNQDI159	Did not attend health care assistant appointment
+EMISNQDI161	Did not attend hospice outpatient appointment
+EMISNQDI191	Did not attend hospice day care
+EMISNQDI192	Did not attend psychological therapy
+EMISNQDI235	Did not attend NHS diabetes prevention programme
+EMISNQDI257	Did not attend - appointment no longer required
+EMISNQDI258	Did not attend - forgot appointment
+EMISNQDI259	Did not attend - unable to cancel as practice phone line busy
+EMISNQDI260	Did not attend - unable to contact patient
+EMISNQDI261	Did not attend appointment at home
+EMISNQDI28	Did not attend chronic kidney disease monitoring clinic
+EMISNQDI30	Did not attend bowel cancer screening
+EMISNQDI31	Did not attend minor surgery clinic
+EMISNQDI35	Did not attend neuroleptic injection
+EMISNQDI37	Did not attend speech and language clinic
+EMISNQDI39	Did not attend genitourinary medicine clinic
+EMISNQDI48	Did not attend cervical smear
+EMISNQDI50	Did not attend colposcopy clinic
+EMISNQDI51	Did not attend spirometry clinic
+EMISNQDI53	DNA weight management special interest general practitioner clin
+EMISNQDI54	Did not attend psychotherapy appointment
+EMISNQDI61	Did not attend walk in centre
+EMISNQDI63	Did not attend abdominal aortic aneurysm screening
+EMISNQDN1	DNA - Did not attend Podiatry clinic
+EMISNQDN10	DNA - 1st human papillomavirus virus vaccination
+EMISNQDN11	DNA - 2nd human papillomavirus virus vaccination
+EMISNQDN12	DNA - 3rd human papillomavirus virus vaccination
+EMISNQDN13	DNA - Did not attend extended hours clinic
+EMISNQDN14	DNA - Did not attend MMR Catch-up vaccination
+EMISNQDN15	DNA surgery appointment - final warning
+EMISNQDN18	DNA surgery appointment - SMS text message sent
+EMISNQDN19	DNA surgery appointment - 2nd SMS text message sent
+EMISNQDN2	DNA - Diabetes, Heart disease & Stroke prevention pilot project
+EMISNQDN20	DNA surgery appointment - 1st telephone call to patient
+EMISNQDN3	DNA - Did not attend hypothyroidism clinic
+EMISNQDN4	DNA - Did not attend peripheral vascular disease clinic
+EMISNQDN5	DNA - Did not attend dietetic clinic
+EMISNQDN6	DNA Flu vaccination appointment
+EMISNQDN7	DNA surgery appointment - 1st letter
+EMISNQDN8	DNA surgery appointment - 2nd letter
+EMISNQDN9	DNA surgery appointment - 3rd letter
+EMISNQEX33	Excluded from National Child Measurement Programme (NCMP)
+EMISNQFA14	Failed encounter - letter not collected
+EMISNQFA40	Failed encounter - SMS text message delivery failure
+EMISNQFA48	Failed encounter - hospital appointment
+EMISNQFA6	Failure to opt-in to hospital appointment
+EMISNQFA77	Fast track appointment cancelled by patient
+EMISNQGP1	GP appointment not available
+EMISNQLE9	Letter sent to patient about missed GP appointment
+EMISNQNE33	Newborn hearg screening prog incomplete as did not attend apptmt
+EMISNQPA169	Patient failed to make appointment
+EMISNQPA173	Partnership appointment cancelled by patient
+EMISNQPA415	Patient unable to attend appointment
+EMISNQRE146	Referral cancelled by patient
+EMISNQRE322	Return appointment cancelled by patient
+ESCTDI5	Did not wait for treatment

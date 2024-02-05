@@ -1,0 +1,35 @@
+^ESCT1184001	Rasilez 150mg tablets (Noden Pharma DAC)
+^ESCT1186128	Rasilez 300mg tablets (Noden Pharma DAC)
+^ESCT1187798	Product containing only aliskiren 300 mg/1 each oral tablet
+^ESCT1187801	Product containing only aliskiren 150 mg/1 each oral tablet
+^ESCT1234341	Product containing precisely aliskiren fumarate 300 milligram/1 each conventional release oral tablet
+^ESCT1234342	Aliskiren fumarate 300 mg oral tablet
+^ESCT1234356	Aliskiren fumarate 150 mg oral tablet
+^ESCT1234357	Product containing precisely aliskiren fumarate 150 milligram/1 each conventional release oral tablet
+^ESCT1270818	Rasilez 150mg tablets (CST Pharma Ltd)
+^ESCT1270822	Rasilez 300mg tablets (CST Pharma Ltd)
+^ESCT1370532	Aliskiren 150mg tablets
+^ESCT1370533	Aliskiren 300mg tablets
+^ESCT1425155	Aliskiren 150mg tablets
+^ESCT1425156	Aliskiren 300mg tablets
+^ESCTAL704778	Aliskiren 300mg tablets
+^ESCTAL704780	Aliskiren 300 mg oral tablet
+^ESCTAL705206	Aliskiren 150mg tablets
+^ESCTAL705208	Aliskiren 150 mg oral tablet
+^ESCTPR704779	Product containing aliskiren 300 mg/1 each oral tablet
+^ESCTPR705207	Product containing aliskiren 150 mg/1 each oral tablet
+^ESCTRA1001287	Rasilez 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1001289	Rasilez 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1002781	Rasilez 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA1005571	Rasilez 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA1007233	Rasilez 300mg tablets (Lexon (UK) Ltd)
+^ESCTRA1012225	Rasilez 150mg tablets (DE Pharmaceuticals)
+^ESCTRA1012227	Rasilez 300mg tablets (DE Pharmaceuticals)
+^ESCTRA944742	Rasilez 150mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTRA944750	Rasilez 300mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTRA977013	Rasilez 150mg tablets (Waymade Healthcare Plc)
+^ESCTRA999143	Rasilez 300mg tablets (Waymade Healthcare Plc)
+ALTA26380NEMIS	Aliskiren  Tablets  150 mg
+ALTA26382NEMIS	Aliskiren  Tablets  300 mg
+RATA26384NEMIS	Rasilez  Tablets  150 mg
+RATA26385NEMIS	Rasilez  Tablets  300 mg

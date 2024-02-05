@@ -1,0 +1,148 @@
+62S4.	Maternal P/N exam. defaulted
+9N4..	Failed encounter
+9N4..	Other failed encounter
+9N41.	Did not attend - reason given
+9N41.	DNA - Did not attend - reason given
+9N42.	Did not attend - no reason
+9N42.	Patient defaulted from follow up
+9N42.	Patient defaulted from follow-up
+9N43.	Patient too late
+9N44.	Did not attend - appointment mix-up
+9N44.	DNA - appointment mix-up
+9N45.	Patient walked out
+9N47.	Appointment cancelled by patient
+9N47.	Appt cancelled by patient
+9N47.	PCA - Appt cancelled by patient
+9N4B.	Poor attender
+9N4C.	Failed encounter - no answer when rang back
+9N4D.	Failed encounter - message left with work place
+9N4E.	Failed encounter - message left with household member
+9N4F.	Failed encounter - message left on answer machine
+9N4G.	Failed encounter - phone number unobtainable
+9N4Z.	Failed encounter NOS
+9NC32	Letter sent about missed general practitioner appointment
+9NFC.	Home visit - no reply
+9Q11.	MRC coronary screen DNA
+Xa1kG	Did not attend
+Xa1kG	DNA - Did not attend
+Xa1kG	Failed to attend
+Xa6oz	Number of appointments missed
+Xaa2M	Failed encounter - short message service text message delivery failure
+Xaa2M	Failed encounter - SMS (short message service) text message delivery failure
+Xaa2N	Did not attend NHS Health Check annual review
+Xaabj	Bowel scope (flexible-sigmoidoscopy) appointment: did not attend
+XaaC8	Did not attend child and adolescent mental health service appointment
+XaaC8	DNA (did not attend) CAMHS (child and adolescent mental health service) appointment
+Xaang	Did not wait for treatment
+Xaanv	Failed encounter - hospital appointment
+XaaSp	Did not attend CAMHS (Child and Adolescent Mental Health Service) choice appointment
+XaaSq	Did not attend CAMHS (Child and Adolescent Mental Health Service) partnership appointment
+XaaSr	Did not attend CAMHS (Child and Adolescent Mental Health Service) return appointment
+XaaUi	Did not attend postnatal examination
+XaaWG	Did not attend counselling appointment
+XabbH	Did not attend general practitioner appointment
+XabPP	Did not attend antenatal appointment
+XabTE	Did not attend nurse appointment
+Xac9a	Did not attend contraceptive clinic
+XacIw	Did not attend health visitor 3 to 4 month contact with family
+XacSG	Did not attend clinic
+Xad2g	NHS abdominal aortic aneurysm screening programme initial screening incomplete, did not attend
+Xad2p	NHS abdominal aortic aneurysm screening programme surveillance screening incomplete, did not attend
+XaF81	Did not attend hospital appointment
+XaF81	DNA hospital appointment
+XaIpo	Did not attend smoking cessation clinic
+XaIpo	DNA - Did not attend smoking cessation clinic
+XaIR4	Did not attend diabetic clinic
+XaIR4	DNA - Did not attend diabetic clinic
+XaIR5	Did not attend cardiac clinic
+XaIR5	DNA - Did not attend cardiac clinic
+XaIR6	Did not attend cholesterol clinic
+XaIR6	DNA - Did not attend cholesterol clinic
+XaIR7	Did not attend hypertension clinic
+XaIR7	DNA - Did not attend hypertension clinic
+XaIuR	Did not attend mental health appointment
+XaJ2A	Did not attend asthma clinic
+XaJ2A	DNA - Did not attend asthma clinic
+XaJ2B	Did not attend cryotherapy clinic
+XaJ2B	DNA - Did not attend cryotherapy clinic
+XaJDT	Did not attend cancer clinic
+XaJDT	DNA - Did not attend cancer clinic
+XaJDU	Did not attend hyperthyroidism clinic
+XaJDU	DNA - Did not attend hyperthyroidism clinic
+XaJDV	Did not attend epilepsy clinic
+XaJDV	DNA - Did not attend epilepsy clinic
+XaJDW	Did not attend chronic obstructive pulmonary disease clinic
+XaJDW	DNA - Did not attend chronic obstructive pulmonary disease clinic
+XaJDX	Did not attend stroke clinic
+XaJDX	DNA - Did not attend stroke clinic
+XaJi3	Did not attend podiatry clinic
+XaJJJ	Did not attend physiotherapy appointment
+XaJpO	Did not attend psychiatry clinic
+XaJpO	DNA - Did not attend psychiatry clinic
+XaJsx	Did not attend peripheral vascular disease clinic
+XaJsx	DNA - Did not attend peripheral vascular disease clinic
+XaJsy	Did not attend substance misuse clinic
+XaJsy	DNA - Did not attend substance misuse clinic
+XaK1f	Did not attend community psychiatric nurse review
+XaK1f	DNA - Did not attend community psychiatric nurse review
+XaK3u	Failed encounter - practitioner access denied
+XaKH2	Did not attend dietetic clinic
+XaKic	Did not attend vaginal swab
+XaKie	Did not attend blood test
+XaL1S	Did not attend diabetic retinopathy clinic
+XaLCQ	Did not attend cognitive behaviour therapy
+XaLGJ	Did not attend practice nurse heart failure clinic
+XaLIb	DNA - Did not attend mental health review
+XaLKT	Did not attend community anticoagulation clinic
+XaLLL	Did not attend retinal screening
+XaLLO	Did not attend cervical smear
+XaMAk	Did not attend weight monitoring clinic
+XaMdn	Did not attend breast screening clinic
+XaMHD	Did not attend heart failure clinic
+XaMJm	Did not attend general practitioner chronic disease monitoring clinic
+XaMzQ	Did not attend renal clinic
+XaN2H	Did not attend bowel cancer screening programme nurse clinic
+XaN4t	Did not attend bowel cancer screening
+XaN7X	Did not attend cardiology special interest general practitioner clinic
+XaNCL	Did not attend chronic kidney disease monitoring clinic
+XaNG9	Did not attend for community disease modifying antirheumatic drug monitoring
+XaNG9	Did not attend for community DMARD monitoring
+XaNG9	DNA community DMARD monitoring
+XaNTa	Did not attend diabetes structured education programme
+XaNU1	Did not attend DAFNE diabetes structured education programme
+XaNU1	Did not attend dose adjustment for normal eating diabetes structured education programme
+XaNU2	Did not attend DESMOND diabetes structured education programme
+XaNU2	Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme
+XaNU3	Did not attend expert patient education versus routine treatment diabetes structured education programme
+XaNU3	Did not attend XPERT diabetes structured education programme
+XaNU4	Did not attend expert patients programme
+XaOcN	Did not attend minor surgery clinic
+XaPCf	Did not attend general practitioner anticoagulant clinic
+XaPCZ	Did not attend hospital anticoagulation clinic
+XaPl4	Did not attend cardiovascular disease risk assessment
+XaPNg	Did not attend hospital disease monitoring antirheumatic drug monitoring clinic
+XaPNg	Did not attend hospital DMARD (disease monitoring antirheumatic drug) monitoring clinic
+XaPNh	Did not attend general practitioner disease modifying antirheumatic drug monitoring clinic
+XaPNh	Did not attend general practitioner DMARD (disease modifying antirheumatic drug) monitoring clinic
+XaPyD	Did not attend cardiovascular disease primary prevention programme
+XaQHa	Did not attend genitourinary medicine clinic
+XaQkD	Newborn hearing screening programme incomplete as did not attend appointment
+XaQN0	Did not attend extended hours clinic
+XaQnw	Did not attend learning disabilities annual health assessment
+XaQnw	Did not attend learning disabilities annual health check
+XaQwd	Did not attend new patient screening
+XaR3O	Did not attend diphtheria, tetanus, acellular pertussis and polio vaccination
+XaRAA	Did not attend NHS Health Check
+XaXA2	Did not attend spirometry clinic
+XaXAU	Did not attend colposcopy clinic
+XaXeJ	Did not attend fast track suspected cancer clinic
+XaXeK	Did not attend fast track suspected gynaecological cancer clinic
+XaXEU	Did not attend congenital heart disease clinic
+XaXHD	Did not attend diabetes foot screening
+XaXHm	Did not attend psychotherapy appointment
+XaXNA	Did not attend walk in centre
+XaXpb	Did not attend abdominal aortic aneurysm screening
+XaZ3Z	Letter sent about missed general practitioner appointment
+XE2NM	Did not attend - no reason
+XE2NM	DNA - Did not attend - no reason
+XM1Tu	Patient defaulted from follow-up

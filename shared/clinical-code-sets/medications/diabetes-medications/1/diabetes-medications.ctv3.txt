@@ -1,0 +1,313 @@
+f125.	Velosulin 100iu/mL injection 10mL
+f12a.	Humulin S 100iu/mL injection 10mL
+f12A.	Human Actrapid 100iu/mL Penfill cartridge 1.5mL
+f12C.	Humaject S 100iu/mL prefilled pen
+f12I.	Hypurin Porcine Neutral 100iu/mL injection 10mL
+f12L.	Insuman Rapid 100iu/mL injection vial 5mL
+f12M.	Insuman Rapid 100iu/mL injection cartridge 3mL
+f12Q.	Insuman Rapid OptiSet 100iu/mL prefilled pen 3mL
+f12s.	Humulin S 100iu/mL cartridges 3mL
+f12S.	Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL
+f12T.	Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL
+f12U.	EXUBERA 1mg powder for inhalation
+f12V.	EXUBERA 3mg powder for inhalation
+f12Y.	INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL
+f12Z.	INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL
+f131.	Insulin lispro 100iu/mL injection vial
+f133.	Insulin lispro 100iu/mL injection cartridge
+f134.	Humalog 100iu/mL cartridges 1.5mL
+f135.	Humalog 100iu/mL cartridge 3mL
+f136.	Insulin lispro 100iu/mL prefilled pen
+f138.	HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL
+f139.	HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL
+f141.	NovoRapid 100units/mL injection vial
+f143.	NovoRapid Penfill 100units/mL cartridge 3mL
+f144.	NovoRapid FlexPen 100units/mL prefilled pen 3mL
+f145.	NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL
+f146.	NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL
+f14x.	Insulin aspart 100units/mL injection vial
+f14z.	Insulin aspart 100units/mL cartridge
+f151.	Apidra 100iu/mL injection vials 10mL
+f152.	Apidra 100iu/mL injection cartridges 3mL
+f154.	APIDRA 100iu/mL OptiClik cartridges 3mL
+f155.	APIDRA 100iu/mL SoloStar prefilled pen 3mL
+f15x.	Insulin glulisine 100iu/mL injection prefilled pen
+f15y.	Insulin glulisine 100iu/mL injection cartridge
+f15z.	Insulin glulisine 100iu/mL injection vial
+f227.	Humulin Lente 100iu/mL injection 10mL
+f242.	Humulin Zn 100iu/mL injection 10mL
+f253.	Insulatard 100iu/mL injection 10mL
+f25a.	Humulin I 100iu/mL injection 10mL
+f25A.	Humulin I 100iu/mL prefilled pen 3mL
+f25B.	Insuman Basal Optiset 100iu/mL prefilled pen 3mL
+f25C.	Insulatard InnoLet 100units/mL prefilled syringe 3mL
+f25D.	Insulatard FlexPen 100iu/mL prefilled pen 3mL
+f25E.	Hypurin Bovine Isophane 100iu/mL injection cartridge 3mL
+f25F.	Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL
+f25g.	Humulin M3 injection 10mL
+f25G.	HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL
+f25H.	INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL
+f25o.	Humulin I 100iu/mL cartridges 3mL
+f25r.	Pork Insulatard 100units/mL injection 10mL
+f25v.	Hypurin Bovine Isophane 100iu/mL injection 10mL
+f25w.	Hypurin Porcine Isophane 100iu/mL injection 10mL
+f25y.	Insuman Basal 100iu/mL injection vial 5mL
+f25Y.	Human isophane insulin 100units/mL injection vial
+f25z.	Insuman Basal 100iu/mL injection cartridge 3mL
+f26z.	Protamine zinc insulin 100units/mL injection vial
+f27C.	Humaject M3 100iu/mL prefilled pen
+f27J.	Human Mixtard 10 Penfill 1.5mL
+f27K.	Human Mixtard 20 Penfill 1.5mL
+f27L.	Human Mixtard 30 Penfill 1.5mL
+f27M.	Human Mixtard 40 Penfill 1.5mL
+f27N.	Human Mixtard 50 Penfill 1.5mL
+f27O.	Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL
+f27P.	Mixtard 10 NovoLet prefilled pen
+f27Q.	Mixtard 20 NovoLet prefilled pen
+f27R.	Mixtard 30 NovoLet prefilled pen
+f27S.	Mixtard 40 NovoLet prefilled pen
+f27T.	Mixtard 50 NovoLet prefilled pen
+f27u.	Humulin M5 50/50 injection vial 10mL
+f27x.	Humulin M2 20/80 cartridges 3mL
+f27y.	Insuman Comb 25 100iu/mL injection cartridge 3mL
+f27z.	Humulin M3 30/70 cartridges 3mL
+f27Z.	Insuman Comb 25 100iu/mL injection vial 5mL
+f286.	Insuman Comb 15 100iu/mL injection cartridge 3mL
+f287.	Insuman Comb 50 100iu/mL injection vial 5mL
+f288.	Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL
+f289.	Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL
+f28A.	Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL
+f28B.	Insuman Comb 15 100iu/mL injection vial 5mL
+f28C.	Insuman Comb 50 100iu/mL injection cartridge 3mL
+f28E.	HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL
+f28F.	INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL
+f291.	Insulin glargine 100iu/mL injection cartridge
+f292.	Insulin glargine 100iu/mL injection vial
+f293.	Insulin glargine 100iu/mL prefilled pen
+f294.	Lantus 100iu/mL injection cartridge 3mL
+f295.	Lantus 100iu/mL injection vial 10mL
+f296.	Lantus 100iu/mL OptiSet prefilled pen 3mL
+f297.	Lantus 100iu/mL OptiClik cartridges 3mL
+f298.	LANTUS 100iu/mL SoloStar prefilled pen 3mL
+f299.	TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL
+f29A.	INSULIN GLARGINE 300iu/mL prefilled pen
+f29B.	ABASAGLAR 100iu/mL solution for injection cartridges 3mL
+f29C.	ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL
+f2A1.	Levemir Penfill 100iu/mL injection cartridge 3mL
+f2A2.	Levemir FlexPen 100iu/mL prefilled pen 3mL
+f2A3.	LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL
+f2Ay.	Insulin detemir 100iu/mL prefilled pen
+f2Az.	Insulin detemir 100iu/mL injection cartridge
+f2B1.	TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL
+f2B2.	INSULIN DEGLUDEC 100iu/mL prefilled pen
+f2B3.	TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL
+f2B4.	INSULIN DEGLUDEC 200iu/mL prefilled pen
+f2B5.	TRESIBA PENFILL 100iu/mL injection cartridges
+f2B6.	INSULIN DEGLUDEC 100iu/mL injection cartridges
+f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
+f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+f321.	Chlorpropamide 100mg tablet
+f322.	Chlorpropamide 250mg tablet
+f331.	Glibenclamide 2.5mg tablet
+f332.	Glibenclamide 5mg tablet
+f333.	Daonil 5mg tablet
+f334.	Semi-Daonil 2.5mg tablet
+f335.	Euglucon 2.5mg tablet
+f336.	Euglucon 5mg tablet
+f33d.	Diabetamide 2.5mg tablet
+f33e.	Diabetamide 5mg tablet
+f351.	Diamicron 80mg tablet
+f352.	Diaglyk 80mg tablet
+f354.	Diamicron MR 30mg m/r tablet
+f355.	NAZDOL MR 30mg m/r tablets
+f357.	ZICRON 40mg tablets
+f358.	VITILE XL 30mg m/r tablets
+f359.	LAAGLYDA MR 60mg m/r tablets
+f35A.	VAMJU 30mg m/r tablets
+f35B.	VAMJU 60mg m/r tablets
+f35w.	GLICLAZIDE 60mg m/r tablets
+f35x.	GLICLAZIDE 40mg tablets
+f35y.	Gliclazide 30mg m/r tablet
+f35z.	Gliclazide 80mg tablet
+f361.	Glipizide 5mg tablet
+f362.	Glibenese 5mg tablet
+f363.	Minodiab 2.5mg tablet
+f364.	Minodiab 5mg tablet
+f36z.	Glipizide 2.5mg tablet
+f371.	Glurenorm 30mg tablet
+f37z.	Gliquidone 30mg tablet
+f3a1.	Tolbutamide 500mg tablet
+f3A1.	Glimepiride 2mg tablet
+f3A2.	Amaryl 2mg tablet
+f3A3.	Glimepiride 1mg tablet
+f3A4.	Glimepiride 3mg tablet
+f3A5.	Glimepiride 4mg tablet
+f3A6.	Amaryl 1mg tablet
+f3A7.	Amaryl 3mg tablet
+f3A8.	Amaryl 4mg tablet
+f3A9.	NIDDARYL 1mg tablets
+f3AA.	NIDDARYL 2mg tablets
+f3AB.	NIDDARYL 3mg tablets
+f3AC.	NIDDARYL 4mg tablets
+f411.	Glucophage 500mg tablet
+f412.	Glucophage 850mg tablet
+f417.	Glucophage SR 500mg m/r tablet
+f418.	METSOL 500mg/5mL oral solution
+f419.	GLUCOPHAGE SR 750mg m/r tablets
+f41A.	GLUCOPHAGE SR 1000mg m/r tablets
+f41B.	BOLAMYN SR 500mg m/r tablets
+f41C.	GLUCOPHAGE 500mg/sachet oral powder
+f41D.	GLUCOPHAGE 1000mg/sachet oral powder
+f41E.	METABET SR 500mg m/r tablets
+f41F.	METABET SR 1000mg m/r tablets
+f41G.	GLUCIENT SR 500mg m/r tablets
+f41H.	DIAGEMET XL 500mg m/r tablets
+f41I.	SUKKARTO SR 500mg m/r tablets
+f41J.	SUKKARTO SR 1000mg m/r tablets
+f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
+f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
+f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
+f41x.	Metformin hydrochloride 500mg m/r tablet
+f41y.	Metformin hydrochloride 500mg tablet
+f41z.	Metformin hydrochloride 850mg tablet
+ft11.	Acarbose 50mg tablet
+ft12.	Acarbose 100mg tablet
+ft13.	Glucobay 50mg tablet
+ft14.	Glucobay 100mg tablet
+ft31.	Repaglinide 0.5mg tablet
+ft32.	Repaglinide 1mg tablet
+ft33.	Repaglinide 2mg tablet
+ft34.	NovoNorm 0.5mg tablet
+ft35.	NovoNorm 1mg tablet
+ft36.	NovoNorm 2mg tablet
+ft37.	PRANDIN 500micrograms tablets
+ft38.	PRANDIN 1mg tablets
+ft39.	PRANDIN 2mg tablets
+ft41.	Avandia 4mg tablet
+ft42.	Avandia 8mg tablet
+ft43.	Avandamet 1mg / 500mg tablet
+ft44.	Avandamet 2mg / 500mg tablet
+ft45.	Avandamet 2mg / 1000mg tablet
+ft46.	Avandamet 4mg / 1000mg tablet
+ft4u.	Rosiglitazone 2mg / Metformin 1000mg tablet
+ft4v.	Rosiglitazone 4mg / Metformin 1000mg tablet
+ft4w.	Rosiglitazone 2mg / metformin 500mg tablet
+ft4x.	Rosiglitazone 1mg / metformin 500mg tablet
+ft4y.	Rosiglitazone 8mg tablet
+ft4z.	Rosiglitazone 4mg tablet
+ft51.	Actos 15mg tablet
+ft52.	Actos 30mg tablet
+ft53.	Actos 45mg tablet
+ft5x.	Pioglitazone 45mg tablet
+ft5y.	Pioglitazone 30mg tablet
+ft5z.	Pioglitazone 15mg tablet
+ft61.	Starlix 60mg tablet
+ft62.	Starlix 120mg tablet
+ft63.	Starlix 180mg tablet
+ft6x.	Nateglinide 180mg tablet
+ft6y.	Nateglinide 120mg tablet
+ft6z.	Nateglinide 60mg tablet
+ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
+ft81.	JANUVIA 100mg tablets
+ft82.	JANUVIA 50mg tablets
+ft83.	JANUVIA 25mg tablets
+ft8x.	SITAGLIPTIN 25mg tablets
+ft8y.	SITAGLIPTIN 50mg tablets
+ft8z.	SITAGLIPTIN 100mg tablets
+ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
+ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
+ft93.	BYDUREON 2mg powder and solvent for suspension for injection
+ft9x.	EXENATIDE 2mg powder+solvent for suspension for injection
+ft9y.	EXENATIDE 10micrograms/0.04mL injection prefilled pen
+ft9z.	EXENATIDE 5micrograms/0.02mL injection prefilled pen
+fta1.	GALVUS 50mg tablets
+ftaZ.	VILDAGLIPTIN 50mg tablets
+ftb1.	EUCREAS 50mg/850mg tablets
+ftb2.	EUCREAS 50mg/1000mg tablets
+ftby.	VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets
+ftbz.	VILDAGLIPTIN/METFORMIN 50mg/850mg tablets
+ftc1.	VICTOZA 6mg/mL solution for injection prefilled pen 3mL
+ftc2.	LIRAGLUTIDE 6mg/mL solution for injection prefilled pen
+ftd1.	ONGLYZA 5mg tablets
+ftd2.	ONGLYZA 2.5mg tablets
+ftdy.	SAXAGLIPTIN 2.5mg tablets
+ftdz.	SAXAGLIPTIN 5mg tablets
+fte1.	JANUMET 50mg/1000mg tablets
+ftez.	SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftf1.	TRAJENTA 5mg tablets
+ftf2.	LINAGLIPTIN 5mg tablets
+ftg1.	JENTADUETO 2.5mg/850mg tablets
+ftg2.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+ftg3.	JENTADUETO 2.5mg/1000mg tablets
+ftg4.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+fth1.	FORXIGA 5mg tablets
+fth2.	FORXIGA 10mg tablets
+fth3.	DAPAGLIFLOZIN 5mg tablets
+fth4.	DAPAGLIFLOZIN 10mg tablets
+fti1.	KOMBOGLYZE 2.5mg/850mg tablets
+fti2.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+fti3.	KOMBOGLYZE 2.5mg/1000mg tablets
+fti4.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+ftj1.	LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj2.	LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL
+ftj3.	LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj4.	LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL
+ftj5.	LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL
+ftj6.	LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL
+ftk1.	VIPIDIA 6.25mg tablets
+ftk2.	ALOGLIPTIN 6.25mg tablets
+ftk3.	VIPIDIA 12.5mg tablets
+ftk4.	ALOGLIPTIN 12.5mg tablets
+ftk5.	VIPIDIA 25mg tablets
+ftk6.	ALOGLIPTIN 25mg tablets
+ftl1.	VIPDOMET 12.5mg/1000mg tablets
+ftl2.	ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+ftm1.	XIGDUO 5mg/850mg tablets
+ftm2.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftm3.	XIGDUO 5mg/1000mg tablets
+ftm4.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftn1.	INVOKANA 100mg tablets
+ftn2.	CANAGLIFLOZIN 100mg tablets
+ftn3.	INVOKANA 300mg tablets
+ftn4.	CANAGLIFLOZIN 300mg tablets
+fto1.	JARDIANCE 10mg tablets
+fto2.	EMPAGLIFLOZIN 10mg tablets
+fto3.	JARDIANCE 25mg tablets
+fto4.	EMPAGLIFLOZIN 25mg tablets
+ftp1.	VOKANAMET 50mg/850mg tablets
+ftp2.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets
+ftp3.	VOKANAMET 50mg/1000mg tablets
+ftp4.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftq1.	TRULICITY 750micrograms/0.5mL soln for injection p/f pen
+ftq2.	DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen
+ftq3.	TRULICITY 1.5mg/0.5mL solution for injection prefilled pen
+ftq4.	DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen
+ftr1.	SYNJARDY 5mg/850mg tablets
+ftr2.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftr3.	SYNJARDY 5mg/1000mg tablets
+ftr4.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftr5.	SYNJARDY 12.5mg/850mg tablets
+ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
+ftr7.	SYNJARDY 12.5mg/1000mg tablets
+ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+fw11.	Humalog Mix25 100iu/mL cartridge 3mL
+fw13.	Humalog Mix50 100iu/mL prefilled pen 3mL
+fw14.	HUMALOG MIX50 100iu/mL cartridges 3mL
+fw15.	HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL
+fw16.	HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL
+fw21.	NovoMix 30 Penfill 100units/mL injection cartridge 3mL
+fw22.	NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL
+x005Q	Mixtard 30 100units/mL injection vial
+x005R	Actrapid (pyr) 100iu/mL injection vial
+x005W	Monotard (pyr) 100iu/mL injection vial
+x005Z	Ultratard (pyr) 100iu/mL injection vial
+x01Lh	Insulatard NovoLet 100units/mL prefilled pen
+x01LZ	Actrapid NovoLet 100iu/mL prefilled pen
+x03aj	Pork Mixtard 30 100units/mL injection
+x03eI	Humalog 100iu/mL injection vial
+x03lo	Hypurin Bovine Isophane 100iu/mL injection cartridge
+x03lq	Hypurin Porcine Isophane 100iu/mL injection cartridge
+x04wo	Humalog Mix25 100iu/mL prefilled pen
+x053d	NovoRapid NovoLet 100units/mL prefilled syringe
+x059L	Humalog-Pen 100iu/mL prefilled pen

@@ -1,0 +1,1173 @@
+^ESCT1177893	Product containing only atropine sulfate 0.6 milligram/1 each oral tablet
+^ESCT1178051	Product containing only dicyclomine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178052	Product containing only dicycloverine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178053	Product containing only propantheline bromide 15 mg/1 each oral tablet
+^ESCT1178138	Product containing only clemastine 1 mg/1 each oral tablet
+^ESCT1178139	Product containing only promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178155	Product containing only chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1178164	Product containing only pimozide 2 mg/1 each oral tablet
+^ESCT1178165	Product containing only trifluoperazine 5 mg/1 each oral tablet
+^ESCT1178168	Product containing only olanzapine 7.5 mg/1 each oral tablet
+^ESCT1178169	Product containing only quetiapine 200 mg/1 each oral tablet
+^ESCT1178171	Product containing only amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCT1178172	Product containing only amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCT1178173	Product containing only dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1178174	Product containing only dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1178175	Product containing only doxepin 10 mg/1 each oral capsule
+^ESCT1178176	Product containing only doxepin 75 mg/1 each oral capsule
+^ESCT1178186	Product containing only scopolamine hydrobromide 0.3 milligram/1 each oral tablet
+^ESCT1178532	Product containing only scopolamine hydrobromide 0.15 milligram/1 each oral tablet
+^ESCT1178688	Product containing only procyclidine hydrochloride 5 mg/1 each oral tablet
+^ESCT1178779	Product containing only tolterodine l-tartrate 1 mg/1 each oral tablet
+^ESCT1178780	Product containing only oxybutynin hydrochloride 5 mg/1 each oral tablet
+^ESCT1179837	Clomipramine 10mg capsules (Mylan)
+^ESCT1180332	Clozaril 100mg tablets (Mylan)
+^ESCT1180891	Quetiapine 20mg/ml oral suspension sugar free
+^ESCT1181049	Product containing only cyproheptadine hydrochloride 4 mg/1 each oral tablet
+^ESCT1181050	Product containing only diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181052	Product containing only trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCT1181053	Product containing only alimemazine tartrate 10 mg/1 each oral tablet
+^ESCT1181074	Product containing only chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181075	Product containing only chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181079	Product containing only promazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181080	Product containing only promazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181085	Product containing only clozapine 100 mg/1 each oral tablet
+^ESCT1181089	Product containing only olanzapine 5 mg/1 each oral tablet
+^ESCT1181090	Product containing only olanzapine 2.5 mg/1 each oral tablet
+^ESCT1181095	Product containing only clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCT1181096	Product containing only doxepin 25 mg/1 each oral capsule
+^ESCT1181097	Product containing only imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181101	Product containing only nortriptyline 25 mg/1 each oral tablet
+^ESCT1181115	Product containing only prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCT1181116	Product containing only promethazine theoclate 25 mg/1 each oral tablet
+^ESCT1181133	Product containing only pethidine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181134	Product containing only meperidine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181310	Product containing only chlorpheniramine maleate 4 mg/1 each oral tablet
+^ESCT1181311	Product containing only chlorphenamine maleate 4 mg/1 each oral tablet
+^ESCT1181312	Product containing only diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181313	Product containing only promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181382	Product containing only olanzapine 10 mg/1 each oral tablet
+^ESCT1181384	Product containing only amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCT1181385	Product containing only clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1181386	Product containing only doxepin 50 mg/1 each oral capsule
+^ESCT1181387	Product containing only imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181390	Product containing only nortriptyline 10 mg/1 each oral tablet
+^ESCT1181392	Product containing only trimipramine 50 mg/1 each oral capsule
+^ESCT1181393	Product containing only trimipramine 10 mg/1 each oral tablet
+^ESCT1181544	Product containing only amantadine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181654	Product containing only olanzapine 20 mg/1 each oral tablet
+^ESCT1181694	Product containing only benzhexol hydrochloride 5 mg/1 each oral tablet
+^ESCT1181695	Product containing only orphenadrine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181881	Product containing only tolterodine l-tartrate 2 mg/1 each oral tablet
+^ESCT1181898	Product containing only paroxetine 20 mg/1 each oral tablet
+^ESCT1181908	Product containing only prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCT1181990	Product containing only amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCT1181995	Product containing only benzhexol hydrochloride 2 mg/1 each oral tablet
+^ESCT1182193	Product containing only oxybutynin hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1182205	Product containing only clozapine 50 mg/1 each oral tablet
+^ESCT1183000	Product containing only paroxetine 10 mg/1 each oral tablet
+^ESCT1183124	Product containing only quetiapine 300 mg/1 each oral tablet
+^ESCT1183157	Product containing only olanzapine 15 mg/1 each oral tablet
+^ESCT1183720	Paroxetine 20mg tablets (Mylan)
+^ESCT1184137	Product containing only paroxetine 40 mg/1 each oral tablet
+^ESCT1184265	Dosulepin 25mg capsules (Mylan)
+^ESCT1184281	Trihexyphenidyl 5mg tablets (Thornton & Ross Ltd)
+^ESCT1185932	Prochlorperazine 5mg tablets (Mylan)
+^ESCT1186358	Oxybutynin 2.5mg tablets (Mylan)
+^ESCT1186378	Procyclidine 5mg tablets (Mylan)
+^ESCT1186388	Dosulepin 75mg tablets (Mylan)
+^ESCT1187161	Product containing only dicyclomine hydrochloride 20 mg/1 each oral tablet
+^ESCT1187162	Product containing only dicycloverine hydrochloride 20 mg/1 each oral tablet
+^ESCT1187272	Product containing only chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1187274	Product containing only levomepromazine maleate 25 mg/1 each oral tablet
+^ESCT1187275	Product containing only methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCT1187277	Product containing only pimozide 4 mg/1 each oral tablet
+^ESCT1187279	Product containing only trifluoperazine 1 mg/1 each oral tablet
+^ESCT1187282	Product containing only clozapine 25 mg/1 each oral tablet
+^ESCT1187285	Product containing only quetiapine 25 mg/1 each oral tablet
+^ESCT1187286	Product containing only quetiapine 100 mg/1 each oral tablet
+^ESCT1187287	Product containing only quetiapine 150 mg/1 each oral tablet
+^ESCT1187290	Product containing only clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1187291	Product containing only dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1187292	Product containing only dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1187295	Product containing only trimipramine 25 mg/1 each oral tablet
+^ESCT1187300	Product containing only paroxetine 30 mg/1 each oral tablet
+^ESCT1187991	Product containing only promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCT1188221	Product containing only oxybutynin hydrochloride 3 mg/1 each oral tablet
+^ESCT1188480	Product containing only pimozide 1 mg/1 each oral tablet
+^ESCT1199615	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1214642	Alimemazine 30mg/5ml oral solution
+^ESCT1214724	Atropine 1mg/5ml solution for injection pre-filled syringes
+^ESCT1215378	Pethidine 50mg/5ml solution for injection ampoules
+^ESCT1216075	Chlorphenamine 10mg/1ml solution for injection ampoules
+^ESCT1222519	Product containing precisely atropine sulfate 600 microgram/1 each conventional release oral tablet
+^ESCT1222520	Atropine sulfate 600 microgram oral tablet
+^ESCT1222521	Product containing precisely dicycloverine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1222522	Product containing precisely dicycloverine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1222523	Dicycloverine hydrochloride 2 mg/mL oral solution
+^ESCT1222524	Dicyclomine hydrochloride 2 mg/mL oral solution
+^ESCT1222525	Product containing precisely dicycloverine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1222528	Product containing precisely propantheline bromide 15 milligram/1 each conventional release oral tablet
+^ESCT1223241	Product containing precisely chlorphenamine 4 milligram/1 each conventional release oral tablet
+^ESCT1223242	Chlorphenamine 4 mg oral tablet
+^ESCT1223243	Chlorpheniramine 4 mg oral tablet
+^ESCT1223244	Product containing precisely clemastine 1 milligram/1 each conventional release oral tablet
+^ESCT1223245	Product containing precisely cyproheptadine hydrochloride 4 milligram/1 each conventional release oral tablet
+^ESCT1223246	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223247	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223257	Product containing precisely promethazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223258	Product containing precisely promethazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223261	Product containing precisely alimemazine tartrate 10 milligram/1 each conventional release oral tablet
+^ESCT1223389	Product containing precisely chlorpromazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223390	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223391	Product containing precisely chlorpromazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223392	Product containing precisely chlorpromazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223416	Product containing precisely levomepromazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1223426	Product containing precisely pimozide 2 milligram/1 each conventional release oral tablet
+^ESCT1223427	Product containing precisely pimozide 4 milligram/1 each conventional release oral tablet
+^ESCT1223428	Product containing precisely promazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223429	Product containing precisely promazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223444	Product containing precisely trifluoperazine 1 milligram/1 each conventional release oral tablet
+^ESCT1223445	Product containing precisely trifluoperazine 5 milligram/1 each conventional release oral tablet
+^ESCT1223455	Product containing precisely clozapine 25 milligram/1 each conventional release oral tablet
+^ESCT1223456	Product containing precisely clozapine 100 milligram/1 each conventional release oral tablet
+^ESCT1223469	Product containing precisely olanzapine 5 milligram/1 each conventional release oral tablet
+^ESCT1223470	Product containing precisely olanzapine 7.5 milligram/1 each conventional release oral tablet
+^ESCT1223471	Product containing precisely olanzapine 10 milligram/1 each conventional release oral tablet
+^ESCT1223472	Product containing precisely olanzapine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223473	Quetiapine (as quetiapine fumarate) 25 mg oral tablet
+^ESCT1223474	Product containing precisely quetiapine (as quetiapine fumarate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223475	Product containing precisely quetiapine (as quetiapine fumarate) 100 milligram/1 each conventional release oral tablet
+^ESCT1223476	Quetiapine (as quetiapine fumarate) 100 mg oral tablet
+^ESCT1223477	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each conventional release oral tablet
+^ESCT1223478	Quetiapine (as quetiapine fumarate) 200 mg oral tablet
+^ESCT1223479	Product containing precisely quetiapine 150 milligram/1 each conventional release oral tablet
+^ESCT1223509	Product containing precisely amitriptyline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223510	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223511	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223512	Clomipramine hydrochloride 10 mg oral capsule
+^ESCT1223513	Product containing precisely clomipramine hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1223514	Clomipramine hydrochloride 25 mg oral capsule
+^ESCT1223515	Product containing precisely clomipramine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223516	Clomipramine hydrochloride 50 mg oral capsule
+^ESCT1223517	Product containing precisely clomipramine hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1223518	Dothiepin hydrochloride 25 mg oral capsule
+^ESCT1223519	Product containing precisely dosulepin hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223520	Dosulepin hydrochloride 25 mg oral capsule
+^ESCT1223521	Product containing precisely dosulepin hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1223522	Product containing precisely doxepin (as doxepin hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1223523	Doxepin (as doxepin hydrochloride) 10 mg oral capsule
+^ESCT1223524	Doxepin (as doxepin hydrochloride) 25 mg oral capsule
+^ESCT1223525	Product containing precisely doxepin (as doxepin hydrochloride) 25 milligram/1 each conventional release oral capsule
+^ESCT1223526	Doxepin (as doxepin hydrochloride) 50 mg oral capsule
+^ESCT1223527	Product containing precisely doxepin (as doxepin hydrochloride) 50 milligram/1 each conventional release oral capsule
+^ESCT1223528	Doxepin (as doxepin hydrochloride) 75 mg oral capsule
+^ESCT1223529	Product containing precisely doxepin (as doxepin hydrochloride) 75 milligram/1 each conventional release oral capsule
+^ESCT1223530	Product containing precisely imipramine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223531	Product containing precisely imipramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223545	Product containing precisely nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1223546	Product containing precisely nortriptyline 25 milligram/1 each conventional release oral tablet
+^ESCT1223552	Trimipramine (as trimipramine maleate) 50 mg oral capsule
+^ESCT1223553	Product containing precisely trimipramine (as trimipramine maleate) 50 milligram/1 each conventional release oral capsule
+^ESCT1223554	Trimipramine (as trimipramine maleate) 10 mg oral tablet
+^ESCT1223555	Product containing precisely trimipramine (as trimipramine maleate) 10 milligram/1 each conventional release oral tablet
+^ESCT1223556	Product containing precisely trimipramine (as trimipramine maleate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223557	Trimipramine (as trimipramine maleate) 25 mg oral tablet
+^ESCT1223594	Product containing precisely paroxetine 20 milligram/1 each conventional release oral tablet
+^ESCT1223595	Product containing precisely paroxetine 30 milligram/1 each conventional release oral tablet
+^ESCT1223632	Product containing precisely scopolamine hydrobromide 300 microgram/1 each conventional release oral tablet
+^ESCT1223633	Scopolamine hydrobromide 300 microgram oral tablet
+^ESCT1223634	Hyoscine hydrobromide 300 microgram oral tablet
+^ESCT1223644	Prochlorperazine mesylate 5 mg effervescent oral granules sachet
+^ESCT1223645	Product containing precisely prochlorperazine mesylate 5 milligram/1 sachet conventional release effervescent oral granules
+^ESCT1223646	Product containing precisely prochlorperazine maleate 3 milligram/1 each conventional release buccal tablet
+^ESCT1223647	Prochlorperazine maleate 3 mg buccal tablet
+^ESCT1223648	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1223649	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1223650	Prochlorperazine maleate 5 mg rectal suppository
+^ESCT1223651	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release rectal suppository
+^ESCT1223652	Prochlorperazine maleate 25 mg rectal suppository
+^ESCT1223653	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release rectal suppository
+^ESCT1223654	Product containing precisely promethazine theoclate 25 milligram/1 each conventional release oral tablet
+^ESCT1223655	Promethazine teoclate 25 mg oral tablet
+^ESCT1223804	Pethidine 50 mg oral tablet
+^ESCT1223805	Product containing precisely pethidine 50 milligram/1 each conventional release oral tablet
+^ESCT1223806	Meperidine 50 mg oral tablet
+^ESCT1223966	Product containing precisely amantadine hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1223967	Amantadine hydrochloride 100 mg oral capsule
+^ESCT1223996	Trihexyphenidyl hydrochloride 2 mg oral tablet
+^ESCT1223997	Product containing precisely trihexyphenidyl hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1223998	Product containing precisely trihexyphenidyl hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1223999	Trihexyphenidyl hydrochloride 5 mg oral tablet
+^ESCT1224000	Product containing precisely orphenadrine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1224001	Orphenadrine hydrochloride 5 mg/mL oral solution
+^ESCT1224002	Product containing precisely orphenadrine 50 milligram/1 each conventional release oral tablet
+^ESCT1224003	Orphenadrine 50 mg oral tablet
+^ESCT1224006	Product containing precisely procyclidine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224937	Product containing precisely tolterodine tartrate 1 milligram/1 each conventional release oral tablet
+^ESCT1224938	Tolterodine tartrate 1 mg oral tablet
+^ESCT1224939	Tolterodine tartrate 2 mg oral tablet
+^ESCT1224940	Product containing precisely tolterodine tartrate 2 milligram/1 each conventional release oral tablet
+^ESCT1224942	Product containing precisely oxybutynin chloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224943	Oxybutynin chloride 2.5 mg oral tablet
+^ESCT1224944	Product containing precisely oxybutynin chloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224945	Oxybutynin chloride 5 mg oral tablet
+^ESCT1224946	Oxybutynin chloride 3 mg oral tablet
+^ESCT1224947	Product containing precisely oxybutynin chloride 3 milligram/1 each conventional release oral tablet
+^ESCT1226708	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 25 milligram/1 each conventional release rectal suppository
+^ESCT1226709	Chlorpromazine (as chlorpromazine hydrochloride) 25 mg rectal suppository
+^ESCT1226712	Hyoscine hydrobromide 150 microgram oral tablet
+^ESCT1226713	Product containing precisely scopolamine hydrobromide 150 microgram/1 each conventional release oral tablet
+^ESCT1226714	Scopolamine hydrobromide 150 microgram oral tablet
+^ESCT1226720	Product containing precisely promethazine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1227779	Product containing precisely olanzapine 20 milligram/1 each conventional release oral tablet
+^ESCT1228293	Product containing precisely amantadine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228772	Product containing precisely pimozide 1 milligram/1 each conventional release oral tablet
+^ESCT1228795	Product containing precisely olanzapine 15 milligram/1 each conventional release oral tablet
+^ESCT1232825	Product containing precisely clozapine 50 milligram/1 each conventional release oral tablet
+^ESCT1233310	Product containing precisely paroxetine 10 milligram/1 each conventional release oral tablet
+^ESCT1233684	Product containing precisely paroxetine 40 milligram/1 each conventional release oral tablet
+^ESCT1234409	Quetiapine (as quetiapine fumarate) 300 mg prolonged-release oral tablet
+^ESCT1234410	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each prolonged-release oral tablet
+^ESCT1234454	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each prolonged-release oral tablet
+^ESCT1234455	Quetiapine (as quetiapine fumarate) 200 mg prolonged-release oral tablet
+^ESCT1234472	Quetiapine (as quetiapine fumarate) 400 mg prolonged-release oral tablet
+^ESCT1234473	Product containing precisely quetiapine (as quetiapine fumarate) 400 milligram/1 each prolonged-release oral tablet
+^ESCT1234831	Quetiapine (as quetiapine fumarate) 300 mg oral tablet
+^ESCT1234832	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each conventional release oral tablet
+^ESCT1250267	Joy-rides 150microgram chewable tablets (Teva UK Ltd)
+^ESCT1250376	Prochlorperazine 12.5mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1260161	Cystrin 5mg tablets (Sanofi)
+^ESCT1275895	Pollenase Antihistamine 4mg tablets (East Midlands Pharma Ltd)
+^ESCT1276926	Imipramine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1276928	Imipramine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1279744	Amitriptyline 50mg tablets (Accord Healthcare Ltd)
+^ESCT1301179	Detrusitol XL 4mg capsules (Upjohn Ltd)
+^ESCT1301188	Detrusitol 2mg tablets (Upjohn Ltd)
+^ESCT1301204	Detrusitol 1mg tablets (Upjohn Ltd)
+^ESCT1303896	Detrusitol XL 4mg capsules (Upjohn UK Ltd)
+^ESCT1303905	Detrusitol 2mg tablets (Upjohn UK Ltd)
+^ESCT1303919	Detrusitol 1mg tablets (Upjohn UK Ltd)
+^ESCT1304238	Olanzapine 5mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1306815	Ditropan 2.5mg tablets (Cheplapharm Arzneimittel GmbH)
+^ESCT1306816	Ditropan 5mg tablets (Cheplapharm Arzneimittel GmbH)
+^ESCT1381069	Olanzapine 5 mg orodispersible tablet
+^ESCT1381070	Olanzapine 10 mg orodispersible tablet
+^ESCT1382048	Olanzapine 20 mg orodispersible tablet
+^ESCT1387177	Kwells 300microgram tablets (Dexcel-Pharma Ltd)
+^ESCT1409473	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409543	Procyclidine 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409550	Prothiaden 25mg capsules (Teofarma S.r.l.)
+^ESCT1409584	Seroquel 100mg tablets (Luye Pharma Ltd)
+^ESCT1409595	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409614	Seroquel 200mg tablets (Luye Pharma Ltd)
+^ESCT1409683	Seroquel 25mg tablets (Luye Pharma Ltd)
+^ESCT1409705	Ditropan 2.5mg tablets (Neon Healthcare Ltd)
+^ESCT1409733	Prothiaden 75mg tablets (Teofarma S.r.l.)
+^ESCT1409738	Piriton Allergy 4mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409745	Ditropan 5mg tablets (Neon Healthcare Ltd)
+^ESCT1422768	Brancico XL 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1425505	Amitriptyline 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425508	Amitriptyline 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425582	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425605	Chlorphenamine 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425679	Amitriptyline 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425758	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425813	Oxybutynin 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425912	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426787	Zyprexa 10mg powder for solution for injection vials (Parapharm Development Ltd)
+^ESCT1436759	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436765	Paroxetine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436786	Prochlorperazine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436858	Detrusitol 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436863	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436926	Oxybutynin 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436967	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437011	Procyclidine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437030	Detrusitol 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437053	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437654	Clozaril 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCTAL608840	Alimemazine 10mg tablets
+^ESCTAL608843	Alimemazine tartrate 10 mg oral tablet
+^ESCTAL820569	Allegron 25mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL831409	Allegron 10mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL941666	Alimemazine 5mg/5ml oral solution
+^ESCTAM609585	Amitriptyline 10mg tablets
+^ESCTAM609587	Amitriptyline hydrochloride 10 mg oral tablet
+^ESCTAM609588	Amitriptyline 25mg tablets
+^ESCTAM609590	Amitriptyline hydrochloride 25 mg oral tablet
+^ESCTAM609591	Amitriptyline 50mg tablets
+^ESCTAM609593	Amitriptyline hydrochloride 50 mg oral tablet
+^ESCTAM610854	Amantadine 100mg capsules
+^ESCTAM610855	Amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCTAM640246	Amantadine 100mg tablets
+^ESCTAM640248	Amantadine hydrochloride 100 mg oral tablet
+^ESCTAM801658	Amitriptyline 25mg tablets (Teva UK Ltd)
+^ESCTAM801751	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM801862	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM802358	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM802401	Amitriptyline 25mg tablets (Actavis UK Ltd)
+^ESCTAM803290	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM805202	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM805357	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM808189	Amitriptyline 10mg tablets (Actavis UK Ltd)
+^ESCTAM810038	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM816154	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM819877	Amitriptyline 50mg tablets (Teva UK Ltd)
+^ESCTAM820041	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM822888	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM822951	Amitriptyline 50mg tablets (Actavis UK Ltd)
+^ESCTAM824046	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM824320	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM824778	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM830035	Amitriptyline 10mg tablets (Teva UK Ltd)
+^ESCTAM923488	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAN798283	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN803738	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN820721	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN821317	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAR801296	Arpicolin 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTAR808038	Arpicolin 2.5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTAT1098914	Atrolak XL 400mg tablets (Accord Healthcare Ltd)
+^ESCTAT1128230	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTAT606128	Atropine 600microgram tablets
+^ESCTAT606130	Atropine sulfate 0.6 mg oral tablet
+^ESCTBE610932	Benzhexol hydrochloride 2 mg oral tablet
+^ESCTBE610935	Benzhexol hydrochloride 5 mg oral tablet
+^ESCTBI798666	Biorphen 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTBR1152688	Brancico XL 200mg tablets (Zentiva)
+^ESCTBR864453	Broflex 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTBU805624	Buccastem M 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTBU833063	Buccastem 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTBU966299	Buccastem 3mg tablets (DE Pharmaceuticals)
+^ESCTCA804382	Calimal 4mg tablets (Sussex Pharmaceutical Ltd)
+^ESCTCH1007495	Chlorphenamine 2mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTCH608782	Chlorphenamine 4mg tablets
+^ESCTCH608785	Chlorpheniramine maleate 4 mg oral tablet
+^ESCTCH608786	Chlorphenamine maleate 4 mg oral tablet
+^ESCTCH609205	Chlorpromazine 10mg tablets
+^ESCTCH609207	Chlorpromazine hydrochloride 10 mg oral tablet
+^ESCTCH609208	Chlorpromazine 25mg tablets
+^ESCTCH609210	Chlorpromazine hydrochloride 25 mg oral tablet
+^ESCTCH609211	Chlorpromazine 50mg tablets
+^ESCTCH609213	Chlorpromazine hydrochloride 50 mg oral tablet
+^ESCTCH609214	Chlorpromazine 100mg tablets
+^ESCTCH609216	Chlorpromazine hydrochloride 100 mg oral tablet
+^ESCTCH618749	Chlorpromazine 25mg suppositories
+^ESCTCH618750	Chlorpromazine 25mg suppository
+^ESCTCH801754	Chlorpromazine 100mg tablets (Teva UK Ltd)
+^ESCTCH802132	Chlorpromazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTCH803958	Chlorphenamine 4mg tablets (Actavis UK Ltd)
+^ESCTCH804585	Chlorpromazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTCH806700	Chlorpromazine 50mg tablets (Teva UK Ltd)
+^ESCTCH807106	Chlorpromazine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCH808032	Chlorpromazine 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCH808948	Chlorpromazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH809253	Chlorphenamine 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCH813057	Chlorpromazine 25mg tablets (Teva UK Ltd)
+^ESCTCH815520	Chlorpromazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH815576	Chlorphenamine 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH817947	Chlorphenamine 4mg tablets (Sussex Pharmaceutical Ltd)
+^ESCTCH819562	Chlorphenamine 4mg tablets (Vantage)
+^ESCTCH820109	Chlorphenamine 10mg/1ml solution for injection ampoules (Kyowa Kirin Ltd)
+^ESCTCH820160	Chlorphenamine 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH820421	Chlorphenamine 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCH820932	Chlorphenamine 2mg/5ml oral solution sugar free (Sandoz Ltd)
+^ESCTCH828955	Chlorphenamine 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH829446	Chlorphenamine 4mg tablets (Teva UK Ltd)
+^ESCTCH873028	Chlorpromazine 25mg tablets (Thornton & Ross Ltd)
+^ESCTCH873031	Chlorpromazine 50mg tablets (Thornton & Ross Ltd)
+^ESCTCH905533	Chlorpromazine 10mg/5ml oral suspension
+^ESCTCL608798	Clemastine 1mg tablets
+^ESCTCL608800	Clemastine 1 mg oral tablet
+^ESCTCL608801	Clemastine 500micrograms/5ml oral solution sugar free
+^ESCTCL608802	Clemastine 500micrograms/5mL elixir
+^ESCTCL609401	Clozapine 25mg tablets
+^ESCTCL609403	Clozapine 25 mg oral tablet
+^ESCTCL609404	Clozapine 100mg tablets
+^ESCTCL609406	Clozapine 100 mg oral tablet
+^ESCTCL609603	Clomipramine 10mg capsules
+^ESCTCL609605	Clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTCL609606	Clomipramine 25mg capsules
+^ESCTCL609608	Clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTCL609609	Clomipramine 50mg capsules
+^ESCTCL609610	Clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCTCL692639	Clozapine 50mg tablets
+^ESCTCL692641	Clozapine 50 mg oral tablet
+^ESCTCL800225	Clomipramine 10mg capsules (Teva UK Ltd)
+^ESCTCL804683	Clomipramine 25mg capsules (Teva UK Ltd)
+^ESCTCL807364	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL808840	Clomipramine 10mg capsules (Mylan Ltd)
+^ESCTCL809499	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL810054	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL813878	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL820556	Clomipramine 50mg capsules (Teva UK Ltd)
+^ESCTCL820622	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL822855	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL833024	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL864782	Clozaril 100mg tablets (Mylan Ltd)
+^ESCTCY608803	Cyproheptadine 4mg tablets
+^ESCTCY608805	Cyproheptadine hydrochloride 4 mg oral tablet
+^ESCTCY801599	Cystrin 3mg tablets (Sanofi)
+^ESCTCY804701	Cystrin 5mg tablets (Zentiva)
+^ESCTDE799541	Detrusitol XL 4mg capsules (Pfizer Ltd)
+^ESCTDE808230	Detrusitol 2mg tablets (Pfizer Ltd)
+^ESCTDE824539	Detrusitol 1mg tablets (Pfizer Ltd)
+^ESCTDE877774	Detrusitol 1mg tablets (Waymade Healthcare Plc)
+^ESCTDI606138	Dicycloverine 20mg tablets
+^ESCTDI606141	Dicycloverine hydrochloride 20 mg oral tablet
+^ESCTDI606142	Dicyclomine hydrochloride 20 mg oral tablet
+^ESCTDI606143	Dicycloverine 10mg tablets
+^ESCTDI606146	Dicycloverine hydrochloride 10 mg oral tablet
+^ESCTDI606147	Dicyclomine hydrochloride 10 mg oral tablet
+^ESCTDI606148	Dicycloverine 10mg/5ml oral solution
+^ESCTDI606149	Dicyclomine hydrochloride 10mg/5mL oral liquid
+^ESCTDI606150	Dicycloverine hydrochloride 10mg/5mL oral liquid
+^ESCTDI606151	Dicyclomine hydrochloride 10mg/5ml syrup
+^ESCTDI608806	Diphenhydramine 25mg tablets
+^ESCTDI608808	Diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTDI608811	Diphenhydramine 50mg tablets
+^ESCTDI608813	Diphenhydramine hydrochloride 50 mg oral tablet
+^ESCTDI803623	Disipal 50mg tablets (Astellas Pharma Ltd)
+^ESCTDI820729	Ditropan 2.5mg tablets (Sanofi)
+^ESCTDI824222	Ditropan 5mg tablets (Sanofi)
+^ESCTDO609625	Dosulepin 25mg capsules
+^ESCTDO609626	Dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609627	Dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609630	Dosulepin 75mg tablets
+^ESCTDO609633	Dosulepin hydrochloride 75 mg oral tablet
+^ESCTDO609634	Dothiepin hydrochloride 75 mg oral tablet
+^ESCTDO609635	Doxepin 10mg capsules
+^ESCTDO609636	Doxepin 10 mg/1 each oral capsule
+^ESCTDO609638	Doxepin 25mg capsules
+^ESCTDO609639	Doxepin 25 mg/1 each oral capsule
+^ESCTDO609641	Doxepin 50mg capsules
+^ESCTDO609642	Doxepin 50 mg/1 each oral capsule
+^ESCTDO609644	Doxepin 75mg capsules
+^ESCTDO609645	Doxepin 75 mg/1 each oral capsule
+^ESCTDO800101	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO801989	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDO804679	Dosulepin 25mg capsules (Teva UK Ltd)
+^ESCTDO807612	Dosulepin 75mg tablets (Teva UK Ltd)
+^ESCTDO808070	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO811125	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO813483	Dosulepin 25mg capsules (Actavis UK Ltd)
+^ESCTDO814100	Dosulepin 75mg tablets (Sandoz Ltd)
+^ESCTDO818865	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO819893	Dosulepin 25mg capsules (Sandoz Ltd)
+^ESCTDO820220	Dosulepin 25mg capsules (Mylan Ltd)
+^ESCTDO820359	Dosulepin 75mg tablets (Actavis UK Ltd)
+^ESCTDO820490	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTDO829042	Dosulepin 75mg tablets (Mylan Ltd)
+^ESCTDO832939	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO833505	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO923565	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTEB1079134	Ebesque XL 50mg tablets (Ethypharm UK Ltd)
+^ESCTHY1024381	Hyoscine hydrobromide 500micrograms/5ml oral suspension
+^ESCTHY1039034	Hyoscine hydrobromide 300micrograms/5ml oral suspension
+^ESCTHY609865	Hyoscine hydrobromide 300microgram tablets
+^ESCTHY618760	Hyoscine hydrobromide 150microgram tablets
+^ESCTIM609647	Imipramine 10mg tablets
+^ESCTIM609649	Imipramine hydrochloride 10 mg oral tablet
+^ESCTIM609650	Imipramine 25mg tablets
+^ESCTIM609652	Imipramine hydrochloride 25 mg oral tablet
+^ESCTIM808072	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM815124	Imipramine 10mg tablets (Actavis UK Ltd)
+^ESCTIM820100	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM820127	Imipramine 25mg tablets (Actavis UK Ltd)
+^ESCTIM991753	Imipramine 25mg/5ml oral solution sugar free
+^ESCTJO866251	Joy-rides 150microgram chewable tablets (Forest Laboratories UK Ltd)
+^ESCTKE805253	Kemadrin 5mg tablets (Aspen Pharma Trading Ltd)
+^ESCTKW819450	Kwells 300microgram tablets (Bayer Plc)
+^ESCTLA796585	Largactil 25mg tablets (Sanofi)
+^ESCTLA812416	Largactil 25mg/5ml syrup (Sanofi)
+^ESCTLA815597	Largactil 100mg tablets (Sanofi)
+^ESCTLA830243	Largactil 50mg/2ml solution for injection ampoules (Sanofi)
+^ESCTLA832466	Largactil 50mg tablets (Sanofi)
+^ESCTLA832540	Largactil 10mg tablets (Sanofi)
+^ESCTLE609284	Levomepromazine 25mg/1ml solution for injection ampoules
+^ESCTLE609285	Levomepromazine hydrochloride 25mg/1mL injection
+^ESCTLE609287	Levomepromazine 25mg tablets
+^ESCTLE609290	Levomepromazine maleate 25 mg oral tablet
+^ESCTLE952283	Levomepromazine 10mg/5ml oral suspension
+^ESCTLE965168	Levomepromazine 3mg/5ml oral solution
+^ESCTLY820164	Lysovir 100mg capsules (Alliance Pharmaceuticals Ltd)
+^ESCTME609286	Methotrimeprazine hydrochloride 25mg/1mL injection
+^ESCTME609291	Methotrimeprazine maleate 25 mg oral tablet
+^ESCTME610340	Meperidine hydrochloride 50 mg oral tablet
+^ESCTME815185	Merbentyl 10mg tablets (Sanofi)
+^ESCTME818584	Merbentyl 10mg/5ml syrup (Sanofi)
+^ESCTME830769	Merbentyl 20 tablets (Sanofi)
+^ESCTMI1109772	Mintreleq XL 400mg tablets (Aristo Pharma Ltd)
+^ESCTMU807957	Muscinil 5mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTNO1009456	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO609686	Nortriptyline 10mg tablets
+^ESCTNO609688	Nortriptyline 10 mg oral tablet
+^ESCTNO609692	Nortriptyline 25mg tablets
+^ESCTNO609694	Nortriptyline 25 mg oral tablet
+^ESCTNO821322	Nozinan 25mg tablets (Sanofi)
+^ESCTNY825447	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd)
+^ESCTOL1021118	Olanzapine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021518	Olanzapine 5mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTOL1021533	Olanzapine 5mg orodispersible tablets sugar free
+^ESCTOL609438	Olanzapine 5mg tablets
+^ESCTOL609440	Olanzapine 5 mg oral tablet
+^ESCTOL609441	Olanzapine 7.5mg tablets
+^ESCTOL609443	Olanzapine 7.5 mg oral tablet
+^ESCTOL609444	Olanzapine 10mg tablets
+^ESCTOL609446	Olanzapine 10 mg oral tablet
+^ESCTOL609447	Olanzapine 2.5mg tablets
+^ESCTOL609449	Olanzapine 2.5 mg oral tablet
+^ESCTOL609450	Olanzapine 5mg oral lyophilisates sugar free
+^ESCTOL609451	Olanzapine 5mg dispersible tablet
+^ESCTOL609452	Olanzapine 10mg oral lyophilisates sugar free
+^ESCTOL609453	Olanzapine 10mg dispersible tablet
+^ESCTOL638829	Olanzapine 20mg tablets
+^ESCTOL638831	Olanzapine 20 mg oral tablet
+^ESCTOL641492	Olanzapine 15mg tablets
+^ESCTOL641494	Olanzapine 15 mg oral tablet
+^ESCTOL645175	Olanzapine 20mg oral lyophilisates sugar free
+^ESCTOL645176	Olanzapine 20mg disintegrating tablet
+^ESCTOL861847	Olanzapine 15mg oral lyophilisates sugar free
+^ESCTOL997671	Olanzapine embonate 300mg powder and solvent for suspension for injection vials
+^ESCTOR610939	Orphenadrine 50mg/5ml oral solution sugar free
+^ESCTOR610940	Orphenadrine hydrochloride 50mg/5mL syrup
+^ESCTOR610941	Orphenadrine 25mg/5ml oral solution sugar free
+^ESCTOR610942	Orphenadrine hydrochloride 25mg/5mL oral liquid
+^ESCTOR610943	Orphenadrine 50mg tablets
+^ESCTOR610945	Orphenadrine hydrochloride 50 mg oral tablet
+^ESCTOX1116540	Oxybutynin 2.5mg/5ml oral solution sugar free
+^ESCTOX613420	Oxybutynin 2.5mg tablets
+^ESCTOX613422	Oxybutynin hydrochloride 2.5 mg oral tablet
+^ESCTOX613423	Oxybutynin 5mg tablets
+^ESCTOX613425	Oxybutynin hydrochloride 5 mg oral tablet
+^ESCTOX613426	Oxybutynin 3mg tablets
+^ESCTOX613428	Oxybutynin hydrochloride 3 mg oral tablet
+^ESCTOX613434	Oxybutynin 5mg modified-release tablets
+^ESCTOX613435	Oxybutynin hydrochloride 5mg m/r tablet
+^ESCTOX613436	Oxybutynin 10mg modified-release tablets
+^ESCTOX613437	Oxybutynin hydrochloride 10mg m/r tablet
+^ESCTOX801638	Oxybutynin 5mg tablets (Actavis UK Ltd)
+^ESCTOX803494	Oxybutynin 2.5mg tablets (Sterwin Medicines)
+^ESCTOX805632	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX805800	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+^ESCTOX807462	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+^ESCTOX807713	Oxybutynin 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOX811392	Oxybutynin 5mg tablets (Teva UK Ltd)
+^ESCTOX818119	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX818188	Oxybutynin 2.5mg tablets (Mylan Ltd)
+^ESCTOX820187	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd)
+^ESCTOX820706	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX821552	Oxybutynin 5mg tablets (Sterwin Medicines)
+^ESCTOX822953	Oxybutynin 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPA609785	Paroxetine 20mg tablets
+^ESCTPA609787	Paroxetine 20 mg oral tablet
+^ESCTPA609788	Paroxetine 30mg tablets
+^ESCTPA609790	Paroxetine 30 mg oral tablet
+^ESCTPA696497	Paroxetine 10mg tablets
+^ESCTPA696499	Paroxetine 10 mg oral tablet
+^ESCTPA698343	Paroxetine 40mg tablets
+^ESCTPA698345	Paroxetine 40 mg oral tablet
+^ESCTPA800935	Paroxetine 20mg tablets (Mylan Ltd)
+^ESCTPA801447	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPA820107	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE610337	Pethidine 50mg tablets
+^ESCTPE610341	Pethidine hydrochloride 50 mg oral tablet
+^ESCTPE802422	Pethidine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE804647	Periactin 4mg tablets (Teva UK Ltd)
+^ESCTPE805248	Pethidine 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE807562	Pethidine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE808105	Pethidine 50mg tablets (Martindale Pharmaceuticals Ltd)
+^ESCTPE808200	Pethidine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE810116	Pethidine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE816599	Pethidine 100mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE818872	Pethidine 100mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTPE820991	Pethidine 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE822994	Pethidine 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPH801946	Phenergan 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTPH804227	Phenergan 5mg/5ml elixir (Sanofi)
+^ESCTPH807102	Phenergan Nightime 25mg tablets (Sanofi)
+^ESCTPH811299	Phenergan 25mg tablets (Sanofi)
+^ESCTPH819919	Phenergan 10mg tablets (Sanofi)
+^ESCTPI609319	Pimozide 2mg tablets
+^ESCTPI609321	Pimozide 2 mg oral tablet
+^ESCTPI609322	Pimozide 4mg tablets
+^ESCTPI609324	Pimozide 4 mg oral tablet
+^ESCTPI641456	Pimozide 1mg tablets
+^ESCTPI641458	Pimozide 1 mg oral tablet
+^ESCTPI801414	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare)
+^ESCTPI812120	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPI822975	Piriton Allergy 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPO801807	Pollenase Antihistamine 4mg tablets (E M Pharma)
+^ESCTPR606129	Product containing atropine sulfate 0.6 milligram/1 each oral tablet
+^ESCTPR606139	Product containing dicyclomine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR606140	Product containing dicycloverine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR606144	Product containing dicyclomine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR606145	Product containing dicycloverine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR606162	Propantheline bromide 15mg tablets
+^ESCTPR606163	Product containing propantheline bromide 15 mg/1 each oral tablet
+^ESCTPR606164	Propantheline bromide 15 mg oral tablet
+^ESCTPR608783	Product containing chlorphenamine maleate 4 mg/1 each oral tablet
+^ESCTPR608784	Product containing chlorpheniramine maleate 4 mg/1 each oral tablet
+^ESCTPR608799	Product containing clemastine 1 mg/1 each oral tablet
+^ESCTPR608804	Product containing cyproheptadine hydrochloride 4 mg/1 each oral tablet
+^ESCTPR608807	Product containing diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608812	Product containing diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR608819	Promethazine hydrochloride 10mg tablets
+^ESCTPR608820	Product containing promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR608821	Promethazine hydrochloride 10 mg oral tablet
+^ESCTPR608822	Promethazine hydrochloride 25mg tablets
+^ESCTPR608823	Product containing promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608824	Promethazine hydrochloride 25 mg oral tablet
+^ESCTPR608825	Promethazine 5mg/5ml oral solution sugar free
+^ESCTPR608826	Promethazine hydrochloride 5mg/5mL elixir
+^ESCTPR608841	Product containing alimemazine tartrate 10 mg/1 each oral tablet
+^ESCTPR608842	Product containing trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCTPR609206	Product containing chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609209	Product containing chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609212	Product containing chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609215	Product containing chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR609288	Product containing methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCTPR609289	Product containing levomepromazine maleate 25 mg/1 each oral tablet
+^ESCTPR609320	Product containing pimozide 2 mg/1 each oral tablet
+^ESCTPR609323	Product containing pimozide 4 mg/1 each oral tablet
+^ESCTPR609325	Promazine 25mg tablets
+^ESCTPR609326	Product containing promazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609327	Promazine hydrochloride 25 mg oral tablet
+^ESCTPR609328	Promazine 50mg tablets
+^ESCTPR609329	Product containing promazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609330	Promazine hydrochloride 50 mg oral tablet
+^ESCTPR609334	Promazine 50mg/5ml oral solution
+^ESCTPR609335	Promazine hydrochloride 50mg/5mL syrup
+^ESCTPR609369	Product containing trifluoperazine 1 mg/1 each oral tablet
+^ESCTPR609372	Product containing trifluoperazine 5 mg/1 each oral tablet
+^ESCTPR609402	Product containing clozapine 25 mg/1 each oral tablet
+^ESCTPR609405	Product containing clozapine 100 mg/1 each oral tablet
+^ESCTPR609439	Product containing olanzapine 5 mg/1 each oral tablet
+^ESCTPR609442	Product containing olanzapine 7.5 mg/1 each oral tablet
+^ESCTPR609445	Product containing olanzapine 10 mg/1 each oral tablet
+^ESCTPR609448	Product containing olanzapine 2.5 mg/1 each oral tablet
+^ESCTPR609455	Product containing quetiapine 25 mg/1 each oral tablet
+^ESCTPR609458	Product containing quetiapine 100 mg/1 each oral tablet
+^ESCTPR609461	Product containing quetiapine 200 mg/1 each oral tablet
+^ESCTPR609465	Product containing quetiapine 150 mg/1 each oral tablet
+^ESCTPR609586	Product containing amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609589	Product containing amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609592	Product containing amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609604	Product containing clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTPR609607	Product containing clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609611	Product containing clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCTPR609628	Product containing dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609629	Product containing dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609631	Product containing dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609632	Product containing dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609637	Product containing doxepin 10 mg/1 each oral capsule
+^ESCTPR609640	Product containing doxepin 25 mg/1 each oral capsule
+^ESCTPR609643	Product containing doxepin 50 mg/1 each oral capsule
+^ESCTPR609646	Product containing doxepin 75 mg/1 each oral capsule
+^ESCTPR609648	Product containing imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609651	Product containing imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609687	Product containing nortriptyline 10 mg/1 each oral tablet
+^ESCTPR609693	Product containing nortriptyline 25 mg/1 each oral tablet
+^ESCTPR609707	Product containing trimipramine 50 mg/1 each oral capsule
+^ESCTPR609709	Product containing trimipramine 10 mg/1 each oral tablet
+^ESCTPR609712	Product containing trimipramine 25 mg/1 each oral tablet
+^ESCTPR609786	Product containing paroxetine 20 mg/1 each oral tablet
+^ESCTPR609789	Product containing paroxetine 30 mg/1 each oral tablet
+^ESCTPR609867	Product containing scopolamine hydrobromide 0.3 milligram/1 each oral tablet
+^ESCTPR609902	Prochlorperazine 5mg effervescent granules sachets sugar free
+^ESCTPR609903	Prochlorperazine mesylate 5mg/sachet effervescent granules
+^ESCTPR609904	Prochlorperazine 3mg buccal tablets
+^ESCTPR609905	Prochlorperazine maleate 3mg buccal tablet
+^ESCTPR609906	Prochlorperazine 5mg tablets
+^ESCTPR609907	Product containing prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCTPR609908	Prochlorperazine maleate 5 mg oral tablet
+^ESCTPR609909	Prochlorperazine 25mg tablets
+^ESCTPR609910	Product containing prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCTPR609911	Prochlorperazine maleate 25 mg oral tablet
+^ESCTPR609918	Prochlorperazine 5mg suppositories
+^ESCTPR609919	Prochlorperazine maleate 5mg suppository
+^ESCTPR609920	Prochlorperazine 25mg suppositories
+^ESCTPR609921	Prochlorperazine maleate 25mg suppository
+^ESCTPR609922	Prochlorperazine maleate 25mg pessary
+^ESCTPR609923	Prochlorperazine 25mg suppository
+^ESCTPR609925	Promethazine teoclate 25mg tablets
+^ESCTPR609926	Product containing promethazine theoclate 25 mg/1 each oral tablet
+^ESCTPR609927	Promethazine theoclate 25 mg oral tablet
+^ESCTPR610338	Product containing meperidine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR610339	Product containing pethidine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR610856	Product containing amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCTPR610931	Product containing benzhexol hydrochloride 2 mg/1 each oral tablet
+^ESCTPR610934	Product containing benzhexol hydrochloride 5 mg/1 each oral tablet
+^ESCTPR610944	Product containing orphenadrine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR610963	Procyclidine 5mg tablets
+^ESCTPR610964	Product containing procyclidine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR610965	Procyclidine hydrochloride 5 mg oral tablet
+^ESCTPR613408	Product containing tolterodine l-tartrate 1 mg/1 each oral tablet
+^ESCTPR613411	Product containing tolterodine l-tartrate 2 mg/1 each oral tablet
+^ESCTPR613421	Product containing oxybutynin hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR613424	Product containing oxybutynin hydrochloride 5 mg/1 each oral tablet
+^ESCTPR613427	Product containing oxybutynin hydrochloride 3 mg/1 each oral tablet
+^ESCTPR618762	Product containing scopolamine hydrobromide 0.15 milligram/1 each oral tablet
+^ESCTPR618778	Promethazine hydrochloride 20mg tablets
+^ESCTPR618779	Product containing promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR618780	Promethazine hydrochloride 20 mg oral tablet
+^ESCTPR638830	Product containing olanzapine 20 mg/1 each oral tablet
+^ESCTPR640247	Product containing amantadine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR641457	Product containing pimozide 1 mg/1 each oral tablet
+^ESCTPR641493	Product containing olanzapine 15 mg/1 each oral tablet
+^ESCTPR692640	Product containing clozapine 50 mg/1 each oral tablet
+^ESCTPR696498	Product containing paroxetine 10 mg/1 each oral tablet
+^ESCTPR698344	Product containing paroxetine 40 mg/1 each oral tablet
+^ESCTPR710958	Product containing quetiapine 300 mg/1 each oral tablet
+^ESCTPR798567	Promazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR802442	Promazine 50mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTPR802514	Prochlorperazine 5mg tablets (Mylan Ltd)
+^ESCTPR805460	Procyclidine 5mg tablets (Actavis UK Ltd)
+^ESCTPR806720	Prothiaden 25mg capsules (Teofarma)
+^ESCTPR807845	Prochlorperazine 5mg tablets (Actavis UK Ltd)
+^ESCTPR810624	Prepadine 75mg tablets (Teva UK Ltd)
+^ESCTPR810945	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR811390	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPR813501	Prepadine 25mg capsules (Teva UK Ltd)
+^ESCTPR817422	Procyclidine 5mg tablets (Teva UK Ltd)
+^ESCTPR819407	Prochlorperazine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR819964	Promazine 50mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTPR820144	Promazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTPR820678	Procyclidine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR820879	Promazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTPR822441	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR822524	Procyclidine 5mg tablets (Mylan Ltd)
+^ESCTPR822875	Prothiaden 75mg tablets (Teofarma)
+^ESCTPR824549	Prochlorperazine 5mg tablets (Teva UK Ltd)
+^ESCTPR830302	Pro-Banthine 15mg tablets (Kyowa Kirin Ltd)
+^ESCTPR908496	Propantheline bromide 15mg/5ml oral suspension
+^ESCTPR931558	Prochlorperazine 12.5mg/1ml solution for injection ampoules (AMCo)
+^ESCTPR959637	Promazine 50mg/5ml oral suspension
+^ESCTPR979129	Prochlorperazine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTQU1049312	Quetiapine 200mg/5ml oral suspension
+^ESCTQU1151049	Quetiapine 100mg/5ml oral suspension sugar free
+^ESCTQU609454	Quetiapine 25mg tablets
+^ESCTQU609456	Quetiapine 25 mg oral tablet
+^ESCTQU609457	Quetiapine 100mg tablets
+^ESCTQU609459	Quetiapine 100 mg oral tablet
+^ESCTQU609460	Quetiapine 200mg tablets
+^ESCTQU609462	Quetiapine 200 mg oral tablet
+^ESCTQU609464	Quetiapine 150mg tablets
+^ESCTQU609466	Quetiapine 150 mg oral tablet
+^ESCTQU705851	Quetiapine 300mg modified-release tablets
+^ESCTQU705852	Quetiapine 300mg extended release tablet
+^ESCTQU706451	Quetiapine 200mg modified-release tablets
+^ESCTQU706452	Quetiapine 200mg extended release tablet
+^ESCTQU706679	Quetiapine 400mg modified-release tablets
+^ESCTQU706680	Quetiapine 400mg extended release tablet
+^ESCTQU710957	Quetiapine 300mg tablets
+^ESCTQU710959	Quetiapine 300 mg oral tablet
+^ESCTQU957674	Quetiapine 12.5mg/5ml oral suspension
+^ESCTQU957679	Quetiapine 25mg/5ml oral solution
+^ESCTSC609866	Scopolamine hydrobromide 0.3 mg oral tablet
+^ESCTSC618761	Scopolamine hydrobromide 0.15 mg oral tablet
+^ESCTSE797801	Seroquel 150mg tablets (AstraZeneca UK Ltd)
+^ESCTSE800278	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd)
+^ESCTSE810906	Seroquel 100mg tablets (AstraZeneca UK Ltd)
+^ESCTSE818377	Seroquel 200mg tablets (AstraZeneca UK Ltd)
+^ESCTSE818467	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE820329	Seroquel 25mg tablets (AstraZeneca UK Ltd)
+^ESCTSE822914	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE989890	Seroxat 20mg tablets (Lexon (UK) Ltd)
+^ESCTSI808116	Sinequan 10mg capsules (Pfizer Ltd)
+^ESCTSI808287	Sinequan 75mg capsules (Pfizer Ltd)
+^ESCTSI813649	Sinequan 25mg capsules (Pfizer Ltd)
+^ESCTSI820508	Sinequan 50mg capsules (Pfizer Ltd)
+^ESCTST1012279	Stemetil 5mg tablets (DE Pharmaceuticals)
+^ESCTST801725	Stelazine 5mg tablets (Mercury Pharma Group Ltd)
+^ESCTST801755	Stemetil 25mg suppositories (Sanofi)
+^ESCTST803069	Stemetil 5mg tablets (Sanofi)
+^ESCTST806753	Stelazine 10mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST810484	Stelazine 1mg tablets (Mercury Pharma Group Ltd)
+^ESCTST811085	Stemetil 5mg/5ml syrup (Sanofi)
+^ESCTST811877	Stemetil 25mg tablets (Sanofi)
+^ESCTST820306	Stemetil Eff 5mg sachets (Sanofi)
+^ESCTST820496	Stemetil 5mg suppositories (Sanofi)
+^ESCTST820620	Stelazine 1mg/5ml syrup (Mercury Pharma Group Ltd)
+^ESCTST821408	Stelazine 15mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST821581	Stelazine 2mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST823854	Stemetil 12.5mg/1ml solution for injection ampoules (Sanofi)
+^ESCTSU803184	Surmontil 50mg capsules (Sanofi)
+^ESCTSU818904	Surmontil 25mg tablets (Sanofi)
+^ESCTSU832243	Surmontil 10mg tablets (Sanofi)
+^ESCTSY823330	Symmetrel 50mg/5ml syrup (Alliance Pharmaceuticals Ltd)
+^ESCTSY829440	Symmetrel 100mg capsules (Alliance Pharmaceuticals Ltd)
+^ESCTTE1036637	Tenprolide XL 300mg tablets (Actavis UK Ltd)
+^ESCTTH813516	Thaden 25mg capsules (Opus Pharmaceuticals Ltd)
+^ESCTTH821378	Thaden 75mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTTO613407	Tolterodine 1mg tablets
+^ESCTTO613409	Tolterodine l-tartrate 1 mg oral tablet
+^ESCTTO613410	Tolterodine 2mg tablets
+^ESCTTO613412	Tolterodine l-tartrate 2 mg oral tablet
+^ESCTTO801841	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTO806759	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR1042605	Trimipramine 50mg capsules (Waymade Healthcare Plc)
+^ESCTTR608844	Trimeprazine tartrate 10 mg oral tablet
+^ESCTTR609366	Trifluoperazine 5mg/5ml oral solution sugar free
+^ESCTTR609367	Trifluoperazine 5mg/5mL sugar free syrup
+^ESCTTR609368	Trifluoperazine 1mg tablets
+^ESCTTR609370	Trifluoperazine 1 mg oral tablet
+^ESCTTR609371	Trifluoperazine 5mg tablets
+^ESCTTR609373	Trifluoperazine 5 mg oral tablet
+^ESCTTR609705	Trimipramine 50mg capsules
+^ESCTTR609706	Trimipramine 50 mg/1 each oral capsule
+^ESCTTR609708	Trimipramine 10mg tablets
+^ESCTTR609710	Trimipramine 10 mg oral tablet
+^ESCTTR609711	Trimipramine 25mg tablets
+^ESCTTR609713	Trimipramine 25 mg oral tablet
+^ESCTTR610930	Trihexyphenidyl 2mg tablets
+^ESCTTR610933	Trihexyphenidyl 5mg tablets
+^ESCTTR802299	Trifluoperazine 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR804673	Trifluoperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR808221	Trihexyphenidyl 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR820290	Trihexyphenidyl 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR822955	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTTR961734	Trihexyphenidyl 5mg/5ml oral suspension
+^ESCTVA807297	Vallergan Forte 30mg/5ml syrup (Sanofi)
+^ESCTVA816560	Vallergan 7.5mg/5ml syrup (Sanofi)
+^ESCTVA820815	Vallergan 10mg tablets (Sanofi)
+^ESCTZI902234	Ziz 10mg tablets (Chatfield Laboratories)
+^ESCTZY802829	Zyprexa 5mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY810815	Zyprexa 2.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY815987	Zyprexa 15mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY817863	Zyprexa 5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY818613	Zyprexa 10mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY819194	Zyprexa 15mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY824254	Zyprexa 7.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY831634	Zyprexa 10mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY880724	Zyprexa 10mg powder for solution for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997679	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+ALSY17780NEMIS	Alimemazine  Oral solution  30 mg/5 ml
+ALTA17781NEMIS	Alimemazine  Tablets  10 mg
+ALTA3141	Allegron  Tablets  10 mg
+ALTA3142	Allegron  Tablets  25 mg
+AMCA4577	Amantadine Hydrochloride  Capsules  100 mg
+AMSU33715MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Rosemont Pharm)
+AMSU33719MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (Rosemont Pharm)
+AMTA33759MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Kent Pharm)
+AMTA33760MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+AMTA33761MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Unichem)
+AMTA33762MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Alpharma)
+AMTA33763MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+AMTA33764MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Teva UK)
+AMTA33765MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Kent Pharm)
+AMTA33766MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Teva UK)
+AMTA33768MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Alpharma)
+AMTA33769MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+AMTA33770MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Ivax Pharmaceuticals)
+AMTA33771MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Teva UK)
+AMTA33772MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Alpharma)
+AMTA33773MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+AMTA33774MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Kent Pharm)
+AMTA33776MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Unichem)
+AMTA33777MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Ivax Pharmaceuticals)
+AMTA8386EGTON	Amitriptyline Hydrochloride  Tablets  10 mg
+AMTA8388EGTON	Amitriptyline Hydrochloride  Tablets  50 mg
+AMTA8390EGTON	Amitriptyline Hydrochloride  Tablets  25 mg
+ANCA166	Anafranil  Capsules  10 mg
+ANCA167	Anafranil  Capsules  25 mg
+ANCA168	Anafranil  Capsules  50 mg
+ANTA3167	Anafranil Sr  M/R tablets  75 mg
+ARSY3188	Arpicolin  Oral solution  2.5 mg/5 ml
+ARSY3189	Arpicolin  Oral solution  5 mg/5 ml
+ATIN3039NEMIS	Atropine Sulfate  Injection  200 micrograms/ml, 5 ml syringe
+ATM/104983NEMIS	Atrolak Xl  M/R tablets  400 mg
+ATTA3202	Atropine Sulfate  Tablets  600 micrograms
+BETA4633	Benzhexol Hydrochloride  Tablets  2 mg
+BETA6789	Benzhexol Hydrochloride  Tablets  5 mg
+BIEL3247	Biorphen  Oral solution  25mg/5 ml
+BRM/117662NEMIS	Brancico Xl  M/R tablets  200 mg
+BRSY3259	Broflex  Syrup  5mg/5 ml
+BUBU16112NEMIS	Buccastem M  Buccal tablets  3 mg
+BUTA5692	Buccastem  Buccal tablets  3 mg
+CHIN17590NEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule
+CHIN38059MGEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule (Unichem)
+CHIN38060MGEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule (Link Pharm)
+CHIN579	Chlorpheniramine Maleate  Injection  10 mg/ml, 1 ml ampoule
+CHOR34236MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (A.A.H. Pharm)
+CHOR34237MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (Rosemont Pharm)
+CHOR38063MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (A.A.H. Pharm)
+CHOR38064MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (Sandoz)
+CHSU86023NEMIS	Chlorpromazine  Suppositories  25 mg
+CHTA34259MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Teva UK)
+CHTA34261MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Ivax Pharmaceuticals)
+CHTA34267MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Ivax Pharmaceuticals)
+CHTA34268MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+CHTA34269MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Teva UK)
+CHTA34273MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Genus Pharm)
+CHTA34276MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Teva UK)
+CHTA34279MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+CHTA34281MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Genus Pharm)
+CHTA38066MGEMIS	Chlorphenamine  Tablets  4 mg (Alpharma)
+CHTA38067MGEMIS	Chlorphenamine  Tablets  4 mg (Kent Pharm)
+CHTA38068MGEMIS	Chlorphenamine  Tablets  4 mg (Sussex Pharm)
+CHTA38069MGEMIS	Chlorphenamine  Tablets  4 mg (Vantage)
+CHTA38070MGEMIS	Chlorphenamine  Tablets  4 mg (A.A.H. Pharm)
+CHTA38071MGEMIS	Chlorphenamine  Tablets  4 mg (Unichem)
+CHTA38072MGEMIS	Chlorphenamine  Tablets  4 mg (Teva UK)
+CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
+CHTA597	Chlorpromazine Hydrochloride  Tablets  100 mg
+CHTA598	Chlorpromazine Hydrochloride  Tablets  25 mg
+CHTA599	Chlorpromazine Hydrochloride  Tablets  50 mg
+CLCA34378MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Teva UK)
+CLCA34380MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Generics (UK))
+CLCA34381MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Ivax Pharmaceuticals)
+CLCA34384MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (A.A.H. Pharm)
+CLCA34386MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Teva UK)
+CLCA34387MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (A.A.H. Pharm)
+CLCA34388MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Ivax Pharmaceuticals)
+CLCA34394MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Ivax Pharmaceuticals)
+CLCA34395MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Teva UK)
+CLCA34396MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (A.A.H. Pharm)
+CLCA34398MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Kent Pharm)
+CLCA650	Clomipramine Hydrochloride  Capsules  10 mg
+CLCA651	Clomipramine Hydrochloride  Capsules  25 mg
+CLCA652	Clomipramine Hydrochloride  Capsules  50 mg
+CLTA10158BRIDL	Clozaril  Tablets  100 mg
+CLTA36518NEMIS	Clozapine  Tablets  50 mg
+CLTA9311HILLI	Clozapine  Tablets  100 mg
+CLTA9313HILLI	Clozapine  Tablets  25 mg
+CYTA19598EMIS	Cystrin  Tablets  3 mg
+CYTA19599EMIS	Cystrin  Tablets  5 mg
+CYTA4797	Cyproheptadine Hydrochloride  Tablets  4 mg
+DEM/11679NEMIS	Detrusitol Xl  M/R capsules  4 mg
+DETA32245EMIS	Detrusitol  Tablets  1 mg
+DETA32246EMIS	Detrusitol  Tablets  2 mg
+DIOR17626NEMIS	Dicycloverine  Oral solution  10 mg/5 ml
+DITA10374BRIDL	Dicyclomine Hydrochloride  Tablets  20 mg
+DITA10944BRIDL	Ditropan  Tablets  2.5 mg
+DITA17627NEMIS	Dicycloverine  Tablets  10 mg
+DITA17628NEMIS	Dicycloverine  Tablets  20 mg
+DITA23524EMIS	Diphenhydramine Hydrochloride  Tablets  25 mg
+DITA5304NEMIS	Diphenhydramine Hydrochloride  Tablets  50 mg
+DITA889	Dicyclomine Hydrochloride  Tablets  10 mg
+DITA935	Disipal  Tablets  50 mg
+DOCA17635NEMIS	Dosulepin  Capsules  25 mg
+DOCA18846EMIS	Dothapax 25  Capsules  25 mg
+DOCA38082MGEMIS	Dosulepin  Capsules  25 mg (Teva UK)
+DOCA38083MGEMIS	Dosulepin  Capsules  25 mg (A.A.H. Pharm)
+DOCA38084MGEMIS	Dosulepin  Capsules  25 mg (Alpharma)
+DOCA38087MGEMIS	Dosulepin  Capsules  25 mg (Ivax Pharmaceuticals)
+DOCA38088MGEMIS	Dosulepin  Capsules  25 mg (Sandoz)
+DOCA38089MGEMIS	Dosulepin  Capsules  25 mg (Generics (UK))
+DOCA38090MGEMIS	Dosulepin  Capsules  25 mg (Kent Pharm)
+DOCA976	Dothiepin Hydrochloride  Capsules  25 mg
+DOCA979	Doxepin  Capsules  10 mg
+DOCA980	Doxepin  Capsules  25 mg
+DOCA981	Doxepin  Capsules  50 mg
+DOCA982	Doxepin  Capsules  75 mg
+DOTA17636NEMIS	Dosulepin  Tablets  75 mg
+DOTA18848EMIS	Dothapax 75  Tablets  75 mg
+DOTA38091MGEMIS	Dosulepin  Tablets  75 mg (A.A.H. Pharm)
+DOTA38093MGEMIS	Dosulepin  Tablets  75 mg (Teva UK)
+DOTA38094MGEMIS	Dosulepin  Tablets  75 mg (Ivax Pharmaceuticals)
+DOTA38095MGEMIS	Dosulepin  Tablets  75 mg (Sandoz)
+DOTA38097MGEMIS	Dosulepin  Tablets  75 mg (Alpharma)
+DOTA38098MGEMIS	Dosulepin  Tablets  75 mg (Generics (UK))
+DOTA38099MGEMIS	Dosulepin  Tablets  75 mg (Unichem)
+DOTA977	Dothiepin Hydrochloride  Tablets  75 mg
+EBM/94089NEMIS	Ebesque Xl  M/R tablets  50 mg
+HYOR77537NEMIS	Hyoscine Hydrobromide  Oral suspension  300 micrograms/5 ml
+HYOR78960NEMIS	Hyoscine Hydrobromide  Oral suspension  500 micrograms/5 ml
+HYTA1414	Hyoscine Hydrobromide  Tablets  300 micrograms
+HYTA15533NEMIS	Hyoscine Hydrobromide  Tablets  150 micrograms
+IMOR40910NEMIS	Imipramine  Oral Solution, Sugar Free  25 mg/5 ml
+IMTA1443	Imipramine  Tablets  25 mg
+IMTA35537MGEMIS	Imipramine  Tablets  25 mg (A.A.H. Pharm)
+IMTA35538MGEMIS	Imipramine  Tablets  25 mg (Alpharma)
+IMTA35542MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+IMTA35543MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Alpharma)
+IMTA5022	Imipramine Hydrochloride  Tablets  10 mg
+JOCH15535NEMIS	Joy-Rides  Chewable tablets  150 micrograms
+KETA1559	Kemadrin  Tablets  5 mg
+KWTA22722NEMIS	Kwells  Tablets  300 micrograms
+LAIN1610	Largactil  Injection  50 mg/2 ml ampoule
+LASY1616	Largactil  Syrup  25 mg/5 ml
+LATA1618	Largactil  Tablets  10 mg
+LATA1619	Largactil  Tablets  100 mg
+LATA1620	Largactil  Tablets  25 mg
+LATA1621	Largactil  Tablets  50 mg
+LETA17313NEMIS	Levomepromazine  Tablets  25 mg
+LYCA2019NEMIS	Lysovir  Capsules  100 mg
+MESY1777	Merbentyl  Syrup  10 mg/5 ml
+META10038BRIDL	Merbentyl  Tablets  20 mg
+META10491BRIDL	Merbentyl 20  Tablets  20 mg
+META1778	Merbentyl  Tablets  10 mg
+META5138	Methotrimeprazine Maleate  Tablets  25 mg
+MIM/101108NEMIS	Mintreleq Xl  M/R tablets  400 mg
+NYTA4546NEMIS	Nytol One-a-Night  Tablets  50 mg
+OLOR13260NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  15 mg
+OLOR21754NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  20 mg
+OLOR3800NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  5 mg
+OLOR3801NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  10 mg
+OLOR52087NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  5 mg
+OLPR42227NEMIS	Olanzapine  Prolonged release suspension for injection  300 mg vial
+OLTA13258NEMIS	Olanzapine  Tablets  15 mg
+OLTA23534NEMIS	Olanzapine  Tablets  20 mg
+OLTA29729EMIS	Olanzapine  Tablets  10 mg
+OLTA29730EMIS	Olanzapine  Tablets  5 mg
+OLTA29731EMIS	Olanzapine  Tablets  7.5 mg
+OLTA34085EMIS	Olanzapine  Tablets  2.5 mg
+OREL5231	Orphenadrine Hydrochloride  Oral Solution, Sugar Free  25mg/5 ml
+OXOR101985NEMIS	Oxybutynin Hydrochloride  Oral Solution, Sugar Free  2.5 mg/5 ml
+OXTA19601EMIS	Oxybutynin Hydrochloride  Tablets  3 mg
+OXTA36366MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Sterwin Medicines)
+OXTA36367MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Alpharma)
+OXTA36368MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Ivax Pharmaceuticals)
+OXTA36370MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Unichem)
+OXTA36371MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Generics (UK))
+OXTA36372MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (A.A.H. Pharm)
+OXTA36373MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Kent Pharm)
+OXTA36375MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Alpharma)
+OXTA36376MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+OXTA36377MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Kent Pharm)
+OXTA36378MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+OXTA36382MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Sterwin Medicines)
+OXTA8594BRID	Ditropan  Tablets  5 mg
+OXTA9033EMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg
+OXTA9034EMIS	Oxybutynin Hydrochloride  Tablets  5 mg
+PATA117351NEMIS	Paroxetine Hydrochloride  Tablets  40 mg
+PATA36436MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Generics (UK))
+PATA36437MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Ivax Pharmaceuticals)
+PATA36440MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+PATA8972EMIS	Paroxetine Hydrochloride  Tablets  20 mg
+PATA8973EMIS	Paroxetine Hydrochloride  Tablets  30 mg
+PEIN15500NEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule
+PEIN37857MGEMIS	Pethidine  Injection  10 mg/ml, 10 ml ampoule (Unichem)
+PEIN37859MGEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule (A.A.H. Pharm)
+PEIN37863MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (Unichem)
+PEIN37864MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+PEIN37866MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (Wockhardt UK)
+PEIN37867MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (A.A.H. Pharm)
+PEIN37868MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (Martindale)
+PEINEGTON6403	Pethidine  Injection  10 mg/ml
+PETA36477MGEMIS	Pethidine  Tablets  50 mg (Martindale)
+PETA36478MGEMIS	Pethidine  Tablets  50 mg (A.A.H. Pharm)
+PETA36479MGEMIS	Pethidine  Tablets  50 mg (Unichem)
+PETA4136	Periactin  Tablets  4 mg
+PHEL2227	Phenergan  Elixir  5 mg/5 ml
+PHIN15565NEMIS	Phenergan  Injection  25 mg/ml, 1 ml ampoule
+PHIN8972BRIDL	Phenergan  Injection  25mg/ml
+PHTA2228	Phenergan  Tablets  10 mg
+PHTA2229	Phenergan  Tablets  25 mg
+PHTA27062EMIS	Phenergan Nightime  Tablets  25 mg
+PISY2277	Piriton  Syrup  2 mg/5 ml
+PITA2263	Pimozide  Tablets  2 mg
+PITA2264	Pimozide  Tablets  4 mg
+PITA2278	Piriton  Tablets  4 mg
+PRCA2401	Prothiaden  Capsules  25 mg
+PRCA24260EMIS	Prepadine  Capsules  25 mg
+PREF17898NEMIS	Prochlorperazine Mesilate  Effervescent Granules, Sugar Free  5 mg/sachet
+PROR37796MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (Rosemont Pharm)
+PROR37798MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (A.A.H. Pharm)
+PROR48272NEMIS	Propantheline Bromide  Oral suspension  15 mg/5 ml
+PRSU2354	Prochlorperazine Maleate  Suppositories  25 mg
+PRSU2355	Prochlorperazine Maleate  Suppositories  5 mg
+PRSY36637MGEMIS	Promazine Hydrochloride  Syrup  25 mg/5 ml (A.A.H. Pharm)
+PRSY36638MGEMIS	Promazine Hydrochloride  Syrup  25 mg/5 ml (Rosemont Pharm)
+PRTA15466NEMIS	Promethazine Hydrochloride  Tablets  20 mg
+PRTA17910NEMIS	Promethazine Teoclate  Tablets  25 mg
+PRTA18850EMIS	Proziere  Tablets  5 mg
+PRTA2357	Prochlorperazine Maleate  Tablets  25 mg
+PRTA2358	Prochlorperazine Maleate  Tablets  5 mg
+PRTA2363	Procyclidine Hydrochloride  Tablets  5 mg
+PRTA2377	Promazine Hydrochloride  Tablets  25 mg
+PRTA2378	Promazine Hydrochloride  Tablets  50 mg
+PRTA2380	Promethazine Hydrochloride  Tablets  10 mg
+PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
+PRTA2402	Prothiaden  Tablets  75 mg
+PRTA24262EMIS	Prepadine  Tablets  75 mg
+PRTA36694MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Generics (UK))
+PRTA36695MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Alpharma)
+PRTA36696MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (A.A.H. Pharm)
+PRTA36697MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Ivax Pharmaceuticals)
+PRTA36699MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Teva UK)
+PRTA36701MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Alpharma)
+PRTA36703MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Teva UK)
+PRTA36704MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+PRTA36706MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+PRTA36707MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Generics (UK))
+PRTA36710MGEMIS	Promazine Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+PRTA4212	Pro-Banthine  Tablets  15 mg
+PRTA4223	Propantheline  Tablets  15 mg
+PRTA5341	Propantheline Bromide  Tablets  15 mg
+PRTA6825	Prochlorperazine Maleate  Buccal tablets  3 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUOR117028NEMIS	Quetiapine  Oral suspension  200 mg/5 ml
+QUOR117326NEMIS	Quetiapine  Oral Suspension Sugar Free  100 mg/5 ml
+QUOR45612NEMIS	Quetiapine  Oral suspension  12.5 mg/5 ml
+QUOR46522NEMIS	Quetiapine  Oral solution  25 mg/5 ml
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+SELI32613EMIS	Seroxat  Liquid  20 mg/10 ml
+SETA31555EMIS	Seroquel  Tablets  100 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+SETA8968EMIS	Seroxat  Tablets  20 mg
+SETA8969EMIS	Seroxat  Tablets  30 mg
+SETA960NEMIS	Seroquel  Tablets  150 mg
+SICA2575	Sinequan  Capsules  10 mg
+SICA2576	Sinequan  Capsules  25 mg
+SICA2577	Sinequan  Capsules  50 mg
+SICA2578	Sinequan  Capsules  75 mg
+STIN15751NEMIS	Stemetil  Injection  12.5 mg/ml, 1 ml ampoule
+STIN2690	Stemetil  Injection  12.5 mg/ml
+STSA8854BRIDL	Stemetil Eff  Sachets  5 mg/sachet
+STSP2683	Stelazine  Spansules  10 mg
+STSP2684	Stelazine  Spansules  15 mg
+STSP2685	Stelazine  Spansules  2 mg
+STSU2691	Stemetil  Suppositories  25 mg
+STSU2692	Stemetil  Suppositories  5 mg
+STSY2686	Stelazine  Syrup  1 mg/5 ml
+STSYEGTON7190	Stemetil  Syrup  5 mg/5 ml
+STTA2688	Stelazine  Tablets  1 mg
+STTA2689	Stelazine  Tablets  5 mg
+STTA2694	Stemetil  Tablets  25 mg
+STTA2695	Stemetil  Tablets  5 mg
+SUCA2748	Surmontil  Capsules  50 mg
+SUTA2749	Surmontil  Tablets  10 mg
+SUTA2750	Surmontil  Tablets  25 mg
+SYCA4364	Symmetrel  Capsules  100 mg
+SYSY4365	Symmetrel  Syrup  50 mg/5 ml
+TEM/76701NEMIS	Tenprolide Xl  M/R tablets  300 mg
+TOSYEGTON7193	Tofranil  Syrup  25 mg/5 ml
+TOTA2875	Tofranil  Tablets  25 mg
+TOTA32249EMIS	Tolterodine Tartrate  Tablets  1 mg
+TOTA32250EMIS	Tolterodine Tartrate  Tablets  2 mg
+TRCA2940	Trimipramine  Capsules  50 mg
+TROR133091NEMIS	Trihexyphenidyl  Oral suspension  5 mg/5 ml
+TRSY2935	Trimeprazine Tartrate  Syrup forte  30 mg/5 ml
+TRTA17309NEMIS	Trihexyphenidyl  Tablets  2 mg
+TRTA17310NEMIS	Trihexyphenidyl  Tablets  5 mg
+TRTA2936	Trimeprazine Tartrate  Tablets  10 mg
+TRTA2941	Trimipramine  Tablets  10 mg
+TRTA2942	Trimipramine  Tablets  25 mg
+TRTA37313MGEMIS	Trifluoperazine  Tablets  1 mg (A.A.H. Pharm)
+TRTA37316MGEMIS	Trifluoperazine  Tablets  5 mg (A.A.H. Pharm)
+TRTA37875MGEMIS	Trihexyphenidyl  Tablets  2 mg (A.A.H. Pharm)
+TRTA37878MGEMIS	Trihexyphenidyl  Tablets  2 mg (Unichem)
+TRTA37883MGEMIS	Trihexyphenidyl  Tablets  5 mg (Genus Pharm)
+VASY3010	Vallergan  Syrup  7.5 mg/5 ml
+VASY3011	Vallergan  Syrup forte  30 mg/5 ml
+VATA3012	Vallergan  Tablets  10 mg
+VETA3038	Nozinan  Tablets  25 mg
+ZYOR13262NEMIS	Zyprexa Velotab  Orodispersible tablets  15 mg
+ZYOR3803NEMIS	Zyprexa Velotab  Orodispersible tablets  5 mg
+ZYOR3804NEMIS	Zyprexa Velotab  Orodispersible tablets  10 mg
+ZYPO16909NEMIS	Zyprexa  Powder For Solution For Injection  10 mg vial
+ZYPR42085NEMIS	Zypadhera  Prolonged release suspension for injection  405 mg vial
+ZYTA13261NEMIS	Zyprexa  Tablets  15 mg
+ZYTA29723EMIS	Zyprexa  Tablets  10 mg
+ZYTA29724EMIS	Zyprexa  Tablets  5 mg
+ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
+ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg
