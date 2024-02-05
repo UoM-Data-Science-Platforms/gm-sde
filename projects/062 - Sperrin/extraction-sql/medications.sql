@@ -18,7 +18,7 @@ SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2022-03-01'; --- UPDATE !!!!!!!
+SET @StartDate = '2013-09-01'; --- UPDATE !!!!!!!
 SET @EndDate = '2023-08-31';
 
 --┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -706,7 +706,6 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: calcium-channel-blockers v1/beta-blockers v1
 
-
 -- >>> Following code sets injected: statins v1/ace-inhibitor v1/diuretic v1
 -- >>> Following code sets injected: angiotensin-receptor-blockers v1/acetylcholinesterase-inhibitors v1
 
@@ -724,17 +723,46 @@ IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
+		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END,
+		Dosage,
+		Quantity
 INTO #medications_rx
 FROM SharedCare.GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
-WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 	AND 
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
+		(m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
 		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
+		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1))
 
+-- Dosage information *might* contain sensitive information, so let's 
+-- restrict to dosage instructions that occur >= 50 times
+IF OBJECT_ID('tempdb..#SafeDosages') IS NOT NULL DROP TABLE #SafeDosages;
+SELECT Dosage INTO #SafeDosages FROM #medications_rx
+group by Dosage
+having count(*) >= 50;
+
+/*
+select FK_Patient_Link_ID,
+		PrescriptionDate,
+		Concept,
+		Dosage = LEFT(REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' '),50),
+		Quantity
+from #medications_rx m
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
+*/
+
+select FK_Patient_Link_ID,
+	  Concept,
+		YEAR(PrescriptionDate) AS PrescriptionYear,
+		count(*) as Count
+from #medications_rx m
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
+group by FK_Patient_Link_ID,
+		Concept,
+		YEAR(PrescriptionDate)
+order by FK_Patient_Link_ID,
+		Concept,
+		YEAR(PrescriptionDate)

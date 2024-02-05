@@ -18,7 +18,7 @@ SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2022-03-01'; --- UPDATE !!!!!!!
+SET @StartDate = '2013-09-01'; --- UPDATE !!!!!!!
 SET @EndDate = '2023-08-31';
 
 --> EXECUTE query-build-rq062-cohort.sql
@@ -66,11 +66,25 @@ SELECT Dosage INTO #SafeDosages FROM #medications_rx
 group by Dosage
 having count(*) >= 50;
 
-
+/*
 select FK_Patient_Link_ID,
 		PrescriptionDate,
 		Concept,
 		Dosage = LEFT(REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' '),50),
 		Quantity
-from #medications_rx
+from #medications_rx m
 LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
+*/
+
+select FK_Patient_Link_ID,
+	  Concept,
+		YEAR(PrescriptionDate) AS PrescriptionYear,
+		count(*) as Count
+from #medications_rx m
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
+group by FK_Patient_Link_ID,
+		Concept,
+		YEAR(PrescriptionDate)
+order by FK_Patient_Link_ID,
+		Concept,
+		YEAR(PrescriptionDate)
