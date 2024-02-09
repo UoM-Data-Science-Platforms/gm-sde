@@ -604,7 +604,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-09-12 | TPP             | 200590     |    11 (0.00548%) |      425 (0.212%) |
 | 2023-09-12 | Vision          | 332095     |     467 (0.141%) |       498 (0.15%) |
 
-LINK: [https://github.com/rw251/.../patient/long-covid-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/long-covid-referral/1)
+LINK: [https://github.com/rw251/.../referrals/long-covid-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/long-covid-referral/1)
 
 ### Long COVID assessment
 
