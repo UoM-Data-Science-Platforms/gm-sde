@@ -3982,7 +3982,7 @@ LEFT OUTER JOIN #PatientDiagnosisPTSD ptsd ON ptsd.FK_Patient_Link_ID = pat.FK_P
 LEFT OUTER JOIN #PatientDiagnosisRHEUMATOID rheumatoid ON rheumatoid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSLE sle ON sle.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSTROKE stroke ON stroke.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 UNION
 -- The matched cohort
 SELECT 
@@ -4072,4 +4072,4 @@ LEFT OUTER JOIN #PatientDiagnosisPTSD ptsd ON ptsd.FK_Patient_Link_ID = pat.FK_P
 LEFT OUTER JOIN #PatientDiagnosisRHEUMATOID rheumatoid ON rheumatoid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSLE sle ON sle.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSTROKE stroke ON stroke.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = pat.FK_Patient_Link_ID;
