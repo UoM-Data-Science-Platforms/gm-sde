@@ -3944,7 +3944,10 @@ SELECT
   ptsd.DateOfFirstDiagnosis AS DateOfPTSD,
   rheumatoid.DateOfFirstDiagnosis AS DateOfRheumatoidArthritis,
   sle.DateOfFirstDiagnosis AS DateOfSLE,
-  stroke.DateOfFirstDiagnosis AS DateOfStroke
+  stroke.DateOfFirstDiagnosis AS DateOfStroke,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus
 FROM #MainCohort pat
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -3979,6 +3982,7 @@ LEFT OUTER JOIN #PatientDiagnosisPTSD ptsd ON ptsd.FK_Patient_Link_ID = pat.FK_P
 LEFT OUTER JOIN #PatientDiagnosisRHEUMATOID rheumatoid ON rheumatoid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSLE sle ON sle.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSTROKE stroke ON stroke.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 -- The matched cohort
 SELECT 
@@ -4030,7 +4034,10 @@ SELECT
   ptsd.DateOfFirstDiagnosis AS DateOfPTSD,
   rheumatoid.DateOfFirstDiagnosis AS DateOfRheumatoidArthritis,
   sle.DateOfFirstDiagnosis AS DateOfSLE,
-  stroke.DateOfFirstDiagnosis AS DateOfStroke
+  stroke.DateOfFirstDiagnosis AS DateOfStroke,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus
 FROM #MatchedCohort pat
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
@@ -4064,4 +4071,5 @@ LEFT OUTER JOIN #PatientDiagnosisMYOCARDIAL myocardial ON myocardial.FK_Patient_
 LEFT OUTER JOIN #PatientDiagnosisPTSD ptsd ON ptsd.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisRHEUMATOID rheumatoid ON rheumatoid.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosisSLE sle ON sle.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientDiagnosisSTROKE stroke ON stroke.FK_Patient_Link_ID = pat.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientDiagnosisSTROKE stroke ON stroke.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
