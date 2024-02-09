@@ -1,0 +1,22 @@
+^ESCTAG809497	Agreeing on social service care plan
+^ESCTAG809498	Agreeing on social services care plan
+^ESCTAG827756	Agreeing on health and social care plan
+^ESCTHO821710	Hospital Discharge Notification to Social Care
+^ESCTPR809494	Producing social services care plan
+^ESCTRE595351	Referral to SSD services
+^ESCTRE595352	Referral to social services department services
+^ESCTRE595353	Referral to social services department customer services
+^ESCTRE595354	Referral to SSD customer services
+^ESCTRE595355	Referral to social services department duty team
+^ESCTRE595356	Referral to SSD duty team
+^ESCTRE595518	Referral to social services department occupational therapist
+^ESCTRE595519	Referral to SSD occupational therapist
+^ESCTRE595534	Referral to social services department social worker
+^ESCTRE595535	Referral to SSD social worker
+^ESCTRE595537	Referral to SSD care manager
+^ESCTRE729434	Referral to social services for adult protection
+^ESCTSE810845	Sending client copy of social services care plan
+^ESCTSO809493	Social services care planning
+^ESCTSO810544	Social care plan
+EMISNQRE386	Referral to social services department care manager
+ESCTSI80	Signposting to Social Services

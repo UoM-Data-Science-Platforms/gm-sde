@@ -1,0 +1,2635 @@
+^ESCT1174228	Gliclazide 40mg tablets (Teva UK Ltd)
+^ESCT1175396	Gliclazide 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCT1177633	Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pen (Imported (United States))
+^ESCT1177640	Insulin human 500units/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1177717	Product containing only nateglinide 120 mg/1 each oral tablet
+^ESCT1177841	Product containing only nateglinide 60 mg/1 each oral tablet
+^ESCT1178332	Product containing only tolazamide 500 mg/1 each oral tablet
+^ESCT1178596	Product containing only rosiglitazone 1 mg and metformin 500 mg/1 each oral tablet
+^ESCT1178661	Glipizide 5mg tablets (Mylan)
+^ESCT1178731	Product containing only chlorpropamide 250 mg/1 each oral tablet
+^ESCT1178732	Product containing only glipizide 2.5 mg/1 each oral tablet
+^ESCT1178733	Product containing only metformin hydrochloride 500 mg/1 each oral tablet
+^ESCT1178757	Product containing only repaglinide 1 mg/1 each oral tablet
+^ESCT1178758	Product containing only rosiglitazone 4 mg/1 each oral tablet
+^ESCT1178949	Product containing only pioglitazone 15 mg and metformin 850 mg/1 each oral tablet
+^ESCT1179204	Product containing only sitagliptin 100 mg/1 each oral tablet
+^ESCT1179466	Product containing only saxagliptin 5 mg/1 each oral tablet
+^ESCT1179474	Glibenclamide 5mg tablets (Mylan)
+^ESCT1179830	Metformin 500mg tablets (Mylan)
+^ESCT1179996	Dacadis MR 30mg tablets (Mylan)
+^ESCT1180531	Vokanamet 50mg/1000mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1180922	Pioglitazone 45mg tablets (Mylan)
+^ESCT1180944	Repaglinide 500microgram tablets (Mylan)
+^ESCT1180972	Metformin 850mg tablets (Milpharm Ltd)
+^ESCT1181522	Product containing only pioglitazone 45 mg/1 each oral tablet
+^ESCT1181792	Product containing only chlorpropamide 100 mg/1 each oral tablet
+^ESCT1181793	Product containing only glyburide 5 mg/1 each oral tablet
+^ESCT1181794	Product containing only glibenclamide 5 mg/1 each oral tablet
+^ESCT1181795	Product containing only glipizide 5 mg/1 each oral tablet
+^ESCT1181797	Product containing only tolazamide 250 mg/1 each oral tablet
+^ESCT1181798	Product containing only glimepiride 3 mg/1 each oral tablet
+^ESCT1181799	Product containing only glimepiride 4 mg/1 each oral tablet
+^ESCT1181800	Product containing only metformin hydrochloride 850 mg/1 each oral tablet
+^ESCT1181860	Product containing only acarbose 50 mg/1 each oral tablet
+^ESCT1181861	Product containing only acarbose 100 mg/1 each oral tablet
+^ESCT1181863	Product containing only rosiglitazone 8 mg/1 each oral tablet
+^ESCT1181864	Product containing only pioglitazone 15 mg/1 each oral tablet
+^ESCT1182105	Product containing only gliclazide 80 mg/1 each oral tablet
+^ESCT1182159	Product containing only glimepiride 2 mg/1 each oral tablet
+^ESCT1182160	Product containing only glimepiride 1 mg/1 each oral tablet
+^ESCT1182161	Product containing only tolbutamide 500 mg/1 each oral tablet
+^ESCT1182185	Product containing only repaglinide 0.5 milligram/1 each oral tablet
+^ESCT1182249	Product containing only canagliflozin 100 mg/1 each oral tablet
+^ESCT1182659	Product containing only rosiglitazone 2 mg and metformin 500 mg/1 each oral tablet
+^ESCT1184450	Product containing only sitagliptin 25 mg/1 each oral tablet
+^ESCT1184465	Product containing only sitagliptin 50 mg/1 each oral tablet
+^ESCT1184998	Repaglinide 1mg tablets (Mylan)
+^ESCT1185300	Product containing only rosiglitazone 4 mg and metformin 1000 mg/1 each oral tablet
+^ESCT1185347	Glibenclamide 2.5mg tablets (Mylan)
+^ESCT1185893	Product containing only dapagliflozin 5 mg/1 each oral tablet
+^ESCT1185894	Product containing only dapagliflozin 10 mg/1 each oral tablet
+^ESCT1186150	Nazdol MR 30mg tablets (Mylan)
+^ESCT1186366	Gliclazide 80mg tablets (Mylan)
+^ESCT1186384	Metformin 850mg tablets (Mylan)
+^ESCT1186692	Invokana 100mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1186817	Vokanamet 50mg/850mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1186970	Acarbose 100mg tablets (Mylan)
+^ESCT1187010	Pioglitazone 15mg tablets (Mylan)
+^ESCT1187031	Repaglinide 2mg tablets (Mylan)
+^ESCT1187077	Metformin 500mg tablets (Milpharm Ltd)
+^ESCT1187146	Product containing only nateglinide 180 mg/1 each oral tablet
+^ESCT1188063	Product containing only rosiglitazone 2 mg and metformin 1000 mg/1 each oral tablet
+^ESCT1188181	Product containing only glibenclamide 2.5 mg/1 each oral tablet
+^ESCT1188182	Product containing only glyburide 2.5 mg/1 each oral tablet
+^ESCT1188183	Product containing only gliquidone 30 mg/1 each oral tablet
+^ESCT1188208	Product containing only repaglinide 2 mg/1 each oral tablet
+^ESCT1188209	Product containing only pioglitazone 30 mg/1 each oral tablet
+^ESCT1188628	Product containing only saxagliptin 2.5 mg/1 each oral tablet
+^ESCT1189531	Tolbutamide 500mg tablets (Mylan)
+^ESCT1189667	Diagemet XL 500mg tablets (Thornton & Ross Ltd)
+^ESCT1189834	Invokana 300mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1190098	Acarbose 50mg tablets (Mylan)
+^ESCT1190127	Pioglitazone 30mg tablets (Mylan)
+^ESCT1193692	Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCT1194583	Gliclazide 40mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1195698	Yaltormin SR 500mg tablets (Wockhardt UK Ltd)
+^ESCT1195701	Yaltormin SR 750mg tablets (Wockhardt UK Ltd)
+^ESCT1195704	Yaltormin SR 1000mg tablets (Wockhardt UK Ltd)
+^ESCT1196012	Ziclaseg 30mg modified-release tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196396	Gliclazide 40mg tablets (Accord Healthcare Ltd)
+^ESCT1197828	Insulin lispro 100units/ml solution for injection 3ml pre-filled pen (Sanofi Pasteur)
+^ESCT1197830	Insulin lispro 100units/ml solution for injection 3ml cartridges (Sanofi Pasteur)
+^ESCT1197834	Insulin lispro 100units/ml solution for injection 10ml vials (Sanofi Pasteur)
+^ESCT1198111	Metformin 500mg tablets (RX Farma)
+^ESCT1198114	Metformin 850mg tablets (RX Farma)
+^ESCT1198487	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Lexon (UK) Ltd)
+^ESCT1198517	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (Waymade Healthcare Plc)
+^ESCT1198565	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198686	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198704	Gliclazide 40mg tablets (Actavis UK Ltd)
+^ESCT1198755	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1199293	Pioglitazone 15mg / Metformin 850mg tablets (Teva UK Ltd)
+^ESCT1199342	Pioglitazone 15mg / Metformin 850mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1199532	Gliclazide 40mg tablets (Accord Healthcare Ltd)
+^ESCT1199572	Insulin lispro 100units/ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCT1199675	Insulin lispro 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCT1199686	Insulin lispro 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCT1213589	Insulin lispro Sanofi 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCT1213590	Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCT1213593	Insulin lispro Sanofi 100units/ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCT1214219	Metuxtan SR 500mg tablets (Accord Healthcare Ltd)
+^ESCT1215564	Insulin aspart 100units/ml solution for injection 10ml vials
+^ESCT1215565	Insulin glargine 100units/ml solution for injection 10ml vials
+^ESCT1215566	Insulin glulisine 100units/ml solution for injection 10ml vials
+^ESCT1215567	Insulin isophane human 100units/ml suspension for injection 3ml cartridges
+^ESCT1215568	Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCT1215569	Insulin lispro 100units/ml solution for injection 1.5ml cartridges
+^ESCT1215570	Insulin lispro 100units/ml solution for injection 10ml vials
+^ESCT1215571	Insulin lispro 100units/ml solution for injection 3ml cartridges
+^ESCT1215572	Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1215573	Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials
+^ESCT1215574	Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges
+^ESCT1215575	Insulin soluble bovine 100units/ml solution for injection 10ml vials
+^ESCT1215576	Insulin soluble human 100units/ml solution for injection 1.5ml cartridges
+^ESCT1215577	Insulin soluble human 100units/ml solution for injection 10ml vials
+^ESCT1215578	Insulin soluble human 100units/ml solution for injection 3ml cartridges
+^ESCT1215579	Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1215580	Insulin soluble human 100units/ml solution for injection 5ml vials
+^ESCT1215581	Insulin soluble porcine 100units/ml solution for injection 10ml vials
+^ESCT1215582	Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials
+^ESCT1215583	Insulin zinc mixed human 100units/ml suspension for injection 10ml vials
+^ESCT1215856	Semglee 100units/ml solution for injection 3ml pre-filled pen (Mylan)
+^ESCT1221977	Product containing precisely nateglinide 180 milligram/1 each conventional release oral tablet
+^ESCT1221978	Product containing precisely nateglinide 120 milligram/1 each conventional release oral tablet
+^ESCT1221979	Product containing precisely nateglinide 60 milligram/1 each conventional release oral tablet
+^ESCT1224599	Product containing precisely chlorpropamide 100 milligram/1 each conventional release oral tablet
+^ESCT1224600	Product containing precisely chlorpropamide 250 milligram/1 each conventional release oral tablet
+^ESCT1224601	Product containing precisely glibenclamide 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224602	Product containing precisely glibenclamide 5 milligram/1 each conventional release oral tablet
+^ESCT1224608	Product containing precisely gliclazide 80 milligram/1 each conventional release oral tablet
+^ESCT1224609	Product containing precisely glipizide 5 milligram/1 each conventional release oral tablet
+^ESCT1224610	Product containing precisely glipizide 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224613	Product containing precisely gliquidone 30 milligram/1 each conventional release oral tablet
+^ESCT1224618	Product containing precisely tolazamide 250 milligram/1 each conventional release oral tablet
+^ESCT1224619	Product containing precisely glimepiride 2 milligram/1 each conventional release oral tablet
+^ESCT1224620	Product containing precisely glimepiride 1 milligram/1 each conventional release oral tablet
+^ESCT1224621	Product containing precisely glimepiride 3 milligram/1 each conventional release oral tablet
+^ESCT1224622	Product containing precisely glimepiride 4 milligram/1 each conventional release oral tablet
+^ESCT1224623	Product containing precisely tolbutamide 500 milligram/1 each conventional release oral tablet
+^ESCT1224624	Product containing precisely metformin hydrochloride 500 milligram/1 each conventional release oral tablet
+^ESCT1224625	Product containing precisely metformin hydrochloride 850 milligram/1 each conventional release oral tablet
+^ESCT1224787	Product containing precisely acarbose 50 milligram/1 each conventional release oral tablet
+^ESCT1224788	Product containing precisely acarbose 100 milligram/1 each conventional release oral tablet
+^ESCT1224792	Repaglinide 500 microgram oral tablet
+^ESCT1224793	Product containing precisely repaglinide 500 microgram/1 each conventional release oral tablet
+^ESCT1224794	Product containing precisely repaglinide 1 milligram/1 each conventional release oral tablet
+^ESCT1224795	Product containing precisely repaglinide 2 milligram/1 each conventional release oral tablet
+^ESCT1224798	Product containing precisely rosiglitazone (as rosiglitazone maleate) 8 milligram/1 each conventional release oral tablet
+^ESCT1224799	Rosiglitazone (as rosiglitazone maleate) 8 mg oral tablet
+^ESCT1224800	Product containing precisely rosiglitazone (as rosiglitazone maleate) 4 milligram/1 each conventional release oral tablet
+^ESCT1224801	Rosiglitazone (as rosiglitazone maleate) 4 mg oral tablet
+^ESCT1224804	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 30 milligram/1 each conventional release oral tablet
+^ESCT1224805	Pioglitazone (as pioglitazone hydrochloride) 30 mg oral tablet
+^ESCT1224806	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 15 milligram/1 each conventional release oral tablet
+^ESCT1224807	Pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet
+^ESCT1227790	Product containing precisely tolazamide 500 milligram/1 each conventional release oral tablet
+^ESCT1228128	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 45 milligram/1 each conventional release oral tablet
+^ESCT1228129	Pioglitazone (as pioglitazone hydrochloride) 45 mg oral tablet
+^ESCT1230573	Metformin hydrochloride 500 mg and rosiglitazone (as rosiglitazone maleate) 1 mg oral tablet
+^ESCT1230574	Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone (as rosiglitazone maleate) 1 milligram/1 each conventional release oral tablet
+^ESCT1230575	Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone (as rosiglitazone maleate) 2 milligram/1 each conventional release oral tablet
+^ESCT1230576	Metformin hydrochloride 500 mg and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet
+^ESCT1230580	Product containing precisely metformin hydrochloride 1 gram and rosiglitazone (as rosiglitazone maleate) 2 milligram/1 each conventional release oral tablet
+^ESCT1230581	Metformin hydrochloride 1 g and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet
+^ESCT1230582	Metformin hydrochloride 1 g and rosiglitazone (as rosiglitazone maleate) 4 mg oral tablet
+^ESCT1230583	Product containing precisely metformin hydrochloride 1 gram and rosiglitazone (as rosiglitazone maleate) 4 milligram/1 each conventional release oral tablet
+^ESCT1230635	Metformin hydrochloride 100 mg/mL oral solution
+^ESCT1230636	Product containing precisely metformin hydrochloride 100 milligram/1 milliliter conventional release oral solution
+^ESCT1232972	Product containing precisely metformin hydrochloride 850 milligram and pioglitazone (as pioglitazone hydrochloride) 15 milligram/1 each conventional release oral tablet
+^ESCT1232973	Metformin hydrochloride 850 mg and pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet
+^ESCT1234022	Sitagliptin (as sitagliptin phosphate) 25 mg oral tablet
+^ESCT1234023	Product containing precisely sitagliptin (as sitagliptin phosphate) 25 milligram/1 each conventional release oral tablet
+^ESCT1234101	Product containing precisely sitagliptin (as sitagliptin phosphate) 100 milligram/1 each conventional release oral tablet
+^ESCT1234102	Sitagliptin (as sitagliptin phosphate) 100 mg oral tablet
+^ESCT1234135	Product containing precisely sitagliptin (as sitagliptin phosphate) 50 milligram/1 each conventional release oral tablet
+^ESCT1234136	Sitagliptin (as sitagliptin phosphate) 50 mg oral tablet
+^ESCT1235235	Product containing precisely saxagliptin 2.5 milligram/1 each conventional release oral tablet
+^ESCT1235290	Product containing precisely saxagliptin 5 milligram/1 each conventional release oral tablet
+^ESCT1236025	Dapagliflozin propanediol 5 mg oral tablet
+^ESCT1236026	Product containing precisely dapagliflozin propanediol 5 milligram/1 each conventional release oral tablet
+^ESCT1236027	Product containing precisely dapagliflozin propanediol 10 milligram/1 each conventional release oral tablet
+^ESCT1236028	Dapagliflozin propanediol 10 mg oral tablet
+^ESCT1236031	Product containing precisely canagliflozin 100 milligram/1 each conventional release oral tablet
+^ESCT1237521	Metformin 500mg tablets (Zanza Specials International Ltd)
+^ESCT1237525	Metformin 850mg tablets (Zanza Specials International Ltd)
+^ESCT1249943	Pioglitazone 15mg / Metformin 850mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249948	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249951	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249954	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249992	Semaglutide 0.25mg/0.19ml solution for injection 1.5ml pre-filled disposable device
+^ESCT1249993	Semaglutide 0.5mg/0.37ml solution for injection 1.5ml pre-filled disposable device
+^ESCT1249994	Semaglutide 1mg/0.74ml solution for injection 3ml pre-filled disposable device
+^ESCT1250774	Metformin 500mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250776	Vamju 30mg modified-release tablets (Advanz Pharma)
+^ESCT1250778	Vamju 60mg modified-release tablets (Advanz Pharma)
+^ESCT1254504	Steglatro 5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1254507	Steglatro 15mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1254556	Ertugliflozin 15mg tablets
+^ESCT1254557	Ertugliflozin 5mg tablets
+^ESCT1255958	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1255980	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1256015	Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1256016	Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1257580	Gliclazide 40mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257786	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Originalis B.V.)
+^ESCT1258067	Jardiance 10mg tablets (Originalis B.V.)
+^ESCT1258070	Jardiance 25mg tablets (Originalis B.V.)
+^ESCT1259246	Pioglitazone 15mg / Metformin 850mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259482	Pioglitazone 15mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259487	Pioglitazone 30mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259490	Pioglitazone 45mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259792	Januvia 25mg tablets (Pharmaram Ltd)
+^ESCT1259794	Januvia 50mg tablets (Pharmaram Ltd)
+^ESCT1259826	Forxiga 10mg tablets (Pharmaram Ltd)
+^ESCT1259830	Trajenta 5mg tablets (Pharmaram Ltd)
+^ESCT1259934	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Originalis B.V.)
+^ESCT1259953	Vipidia 6.25mg tablets (Originalis B.V.)
+^ESCT1259983	Glydex 160mg tablets (Medreich Plc)
+^ESCT1259991	Toujeo 300units/ml solution for injection 3ml pre-filled DoubleStar pen (Sanofi)
+^ESCT1260018	Gliclazide 160mg tablets
+^ESCT1260108	Gliclazide 80mg tablets (Relonchem Ltd)
+^ESCT1260135	Insulin glargine 300units/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1264086	Glimepiride 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264548	Metformin 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264550	Metformin 850mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265479	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265482	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd)
+^ESCT1265954	Empagliflozin 10mg / Linagliptin 5mg tablets
+^ESCT1265956	Empagliflozin 25mg / Linagliptin 5mg tablets
+^ESCT1266488	Amglidia 0.6mg/ml oral suspension with 1ml oral syringe (Amring Pharmaceuticals Ltd)
+^ESCT1266490	Amglidia 0.6mg/ml oral suspension with 5ml oral syringe (Amring Pharmaceuticals Ltd)
+^ESCT1266493	Amglidia 6mg/ml oral suspension with 1ml oral syringe (Amring Pharmaceuticals Ltd)
+^ESCT1266495	Amglidia 6mg/ml oral suspension with 5ml oral syringe (Amring Pharmaceuticals Ltd)
+^ESCT1266663	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1266955	Gliclazide 40mg tablets (DE Pharmaceuticals)
+^ESCT1267127	Glibenclamide 600micrograms/ml oral suspension sugar free
+^ESCT1267128	Glibenclamide 6mg/ml oral suspension sugar free
+^ESCT1267235	Humulin I 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1267237	Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1267263	Humulin M3 100units/ml suspension for injection 10ml vials (CST Pharma Ltd)
+^ESCT1267267	Humulin I 100units/ml suspension for injection 10ml vials (CST Pharma Ltd)
+^ESCT1267331	Actos 15mg tablets (CST Pharma Ltd)
+^ESCT1267333	Actos 30mg tablets (CST Pharma Ltd)
+^ESCT1267335	Actos 45mg tablets (CST Pharma Ltd)
+^ESCT1267339	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (CST Pharma Ltd)
+^ESCT1267377	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (CST Pharma Ltd)
+^ESCT1267412	Eucreas 50mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1267425	Forxiga 10mg tablets (CST Pharma Ltd)
+^ESCT1267428	Forxiga 5mg tablets (CST Pharma Ltd)
+^ESCT1267434	Galvus 50mg tablets (CST Pharma Ltd)
+^ESCT1267441	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd)
+^ESCT1267444	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd)
+^ESCT1267450	Janumet 50mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1267452	Januvia 100mg tablets (CST Pharma Ltd)
+^ESCT1267454	Januvia 25mg tablets (CST Pharma Ltd)
+^ESCT1267456	Januvia 50mg tablets (CST Pharma Ltd)
+^ESCT1267458	Jardiance 10mg tablets (CST Pharma Ltd)
+^ESCT1267461	Jardiance 25mg tablets (CST Pharma Ltd)
+^ESCT1267504	Metformin 500mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1267826	Glucophage SR 750mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267829	Glucophage 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267831	Glucophage 850mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267861	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1267863	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1267866	Invokana 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267868	Invokana 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267953	Janumet 50mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267957	Januvia 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267959	Januvia 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267963	Jardiance 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267966	Jardiance 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267969	Jentadueto 2.5mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267971	Onglyza 2.5mg tablets (CST Pharma Ltd)
+^ESCT1267973	Onglyza 5mg tablets (CST Pharma Ltd)
+^ESCT1267979	Jentadueto 2.5mg/850mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267983	Komboglyze 2.5mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270855	Trajenta 5mg tablets (CST Pharma Ltd)
+^ESCT1270870	Vipidia 12.5mg tablets (CST Pharma Ltd)
+^ESCT1270872	Vipidia 6.25mg tablets (CST Pharma Ltd)
+^ESCT1270876	Xigduo 5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1270988	Onglyza 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270989	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd)
+^ESCT1270994	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1271173	Apidra 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1271177	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (CST Pharma Ltd)
+^ESCT1274106	Bilxona 60mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1274171	Competact 15mg/850mg tablets (Pilsco Ltd)
+^ESCT1274268	Eucreas 50mg/1000mg tablets (Pilsco Ltd)
+^ESCT1274535	Forxiga 10mg tablets (Pilsco Ltd)
+^ESCT1274541	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd)
+^ESCT1274549	Invokana 100mg tablets (Pilsco Ltd)
+^ESCT1274552	Janumet 50mg/1000mg tablets (Pilsco Ltd)
+^ESCT1274555	Januvia 100mg tablets (Pilsco Ltd)
+^ESCT1274559	Januvia 25mg tablets (Pilsco Ltd)
+^ESCT1274561	Januvia 50mg tablets (Pilsco Ltd)
+^ESCT1274564	Jardiance 10mg tablets (Pilsco Ltd)
+^ESCT1274598	Lantus 100units/ml solution for injection 3ml cartridges (Pilsco Ltd)
+^ESCT1274601	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Pilsco Ltd)
+^ESCT1274809	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pilsco Ltd)
+^ESCT1274811	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd)
+^ESCT1274814	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pilsco Ltd)
+^ESCT1274819	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pilsco Ltd)
+^ESCT1274825	Onglyza 5mg tablets (Pilsco Ltd)
+^ESCT1274934	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Pilsco Ltd)
+^ESCT1274936	Vipidia 12.5mg tablets (Pilsco Ltd)
+^ESCT1274940	Vipidia 25mg tablets (Pilsco Ltd)
+^ESCT1275004	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Pilsco Ltd)
+^ESCT1275036	Humulin M3 100units/ml suspension for injection 10ml vials (Pilsco Ltd)
+^ESCT1275270	Jentadueto 2.5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1275292	Tresiba Penfill 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1275294	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd)
+^ESCT1275493	Pioglitazone 15mg / Metformin 850mg tablets (DE Pharmaceuticals)
+^ESCT1276726	Synjardy 5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1276730	Synjardy 12.5mg/1000mg tablets (CST Pharma Ltd)
+^ESCT1278943	Bilxona 30mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1279661	Humalog 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd)
+^ESCT1279663	Humalog 100units/ml solution for injection 10ml vials (Pharmaram Ltd)
+^ESCT1279665	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd)
+^ESCT1279671	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd)
+^ESCT1279673	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd)
+^ESCT1279678	Vipidia 6.25mg tablets (Pharmaram Ltd)
+^ESCT1279681	Vipidia 12.5mg tablets (Pharmaram Ltd)
+^ESCT1280693	Eucreas 50mg/1000mg tablets (Pharmaram Ltd)
+^ESCT1280695	Forxiga 5mg tablets (Pharmaram Ltd)
+^ESCT1280699	Invokana 100mg tablets (Pharmaram Ltd)
+^ESCT1280702	Janumet 50mg/1000mg tablets (Pharmaram Ltd)
+^ESCT1280705	Januvia 100mg tablets (Pharmaram Ltd)
+^ESCT1280728	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pharmaram Ltd)
+^ESCT1280730	Onglyza 2.5mg tablets (Pharmaram Ltd)
+^ESCT1280732	Onglyza 5mg tablets (Pharmaram Ltd)
+^ESCT1280900	Lamzarin 30mg modified-release tablets (Key Pharmaceuticals Ltd)
+^ESCT1280903	Lamzarin 60mg modified-release tablets (Key Pharmaceuticals Ltd)
+^ESCT1299565	Bydureon 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1299613	Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes (Special Order)
+^ESCT1299619	Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes
+^ESCT1299666	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Pharmaram Ltd)
+^ESCT1299670	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pen (Pharmaram Ltd)
+^ESCT1299672	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd)
+^ESCT1299717	Exenatide 2mg/0.85ml prolonged-release suspension for injection pre-filled disposable devices
+^ESCT1300530	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals)
+^ESCT1300593	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1300595	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1300710	Forxiga 5mg tablets (DE Pharmaceuticals)
+^ESCT1300712	Forxiga 10mg tablets (DE Pharmaceuticals)
+^ESCT1300736	Glucophage SR 750mg tablets (DE Pharmaceuticals)
+^ESCT1300739	Glucophage SR 1000mg tablets (DE Pharmaceuticals)
+^ESCT1300747	Humulin I 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCT1300749	Humulin M3 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCT1300751	Humulin M3 100units/ml suspension for injection 10ml vials (DE Pharmaceuticals)
+^ESCT1300761	Invokana 100mg tablets (DE Pharmaceuticals)
+^ESCT1300767	Janumet 50mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1300769	Januvia 25mg tablets (DE Pharmaceuticals)
+^ESCT1300771	Januvia 50mg tablets (DE Pharmaceuticals)
+^ESCT1300773	Jardiance 10mg tablets (DE Pharmaceuticals)
+^ESCT1300776	Jardiance 25mg tablets (DE Pharmaceuticals)
+^ESCT1300779	Jentadueto 2.5mg/850mg tablets (DE Pharmaceuticals)
+^ESCT1300781	Jentadueto 2.5mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1300787	Komboglyze 2.5mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1300794	Lantus 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCT1300796	Lantus 100units/ml solution for injection 10ml vials (DE Pharmaceuticals)
+^ESCT1300798	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals)
+^ESCT1300913	Onglyza 2.5mg tablets (DE Pharmaceuticals)
+^ESCT1300915	Onglyza 5mg tablets (DE Pharmaceuticals)
+^ESCT1301029	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (DE Pharmaceuticals)
+^ESCT1301031	Trajenta 5mg tablets (DE Pharmaceuticals)
+^ESCT1301036	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1301064	Vipdomet 12.5mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1301066	Vipidia 6.25mg tablets (DE Pharmaceuticals)
+^ESCT1301068	Vipidia 12.5mg tablets (DE Pharmaceuticals)
+^ESCT1301070	Vipidia 25mg tablets (DE Pharmaceuticals)
+^ESCT1301082	Xigduo 5mg/1000mg tablets (DE Pharmaceuticals)
+^ESCT1301134	Repaglinide 1mg tablets (Rivopharm (UK) Ltd)
+^ESCT1301137	Repaglinide 2mg tablets (Rivopharm (UK) Ltd)
+^ESCT1301291	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301292	Insuman Basal 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301294	Humulin I Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301296	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301299	Insuman Comb 15 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301301	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301303	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301305	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301307	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301309	Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301310	Insuman Comb 50 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301313	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301315	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301317	Insuman Rapid 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301335	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301337	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301339	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301357	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301402	Humulin M3 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301416	Apidra 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+^ESCT1301421	Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301423	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301424	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Waymade Healthcare Plc)
+^ESCT1301429	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301431	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301433	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301435	Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301633	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301634	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301638	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1301640	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1301648	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Dowelhurst Ltd)
+^ESCT1301650	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Dowelhurst Ltd)
+^ESCT1301655	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301657	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301659	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301661	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1301663	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1301665	Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1301667	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1301669	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1301671	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sigma Pharmaceuticals Plc)
+^ESCT1301675	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301680	Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301682	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301684	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301686	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301688	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301690	Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1301692	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301694	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301696	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1301698	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Necessity Supplies Ltd)
+^ESCT1301700	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Necessity Supplies Ltd)
+^ESCT1301702	Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1301704	Humulin M3 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302142	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1302144	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1302150	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Necessity Supplies Ltd)
+^ESCT1302152	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Necessity Supplies Ltd)
+^ESCT1302154	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302156	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302158	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302160	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1302269	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1302271	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+^ESCT1302277	Insuman Basal 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1302286	NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302290	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1302292	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1302294	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1302412	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc)
+^ESCT1302427	Tresiba FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302429	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302431	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302434	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302849	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302854	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302861	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1302863	Trulicity 0.75mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302865	Trulicity 1.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302868	Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302886	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Sanofi)
+^ESCT1302888	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Lexon (UK) Ltd)
+^ESCT1302890	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Lexon (UK) Ltd)
+^ESCT1302892	Abasaglar KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302894	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc)
+^ESCT1302896	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302914	Eperzan 30mg powder and solvent for solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+^ESCT1302916	Eperzan 50mg powder and solvent for solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+^ESCT1302935	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302939	Fiasp FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302966	Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pens (Imported (United States))
+^ESCT1302969	Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302992	Insulin lispro Sanofi 100units/ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302998	Semglee 100units/ml solution for injection 3ml pre-filled pens (Mylan)
+^ESCT1303016	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303018	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303020	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303024	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303026	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303028	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Originalis B.V.)
+^ESCT1303030	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Originalis B.V.)
+^ESCT1303032	Toujeo 300units/ml solution for injection 3ml pre-filled DoubleStar pens (Sanofi)
+^ESCT1303034	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1303042	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (CST Pharma Ltd)
+^ESCT1303044	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303046	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303048	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303058	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1303060	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1303065	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303071	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (CST Pharma Ltd)
+^ESCT1303075	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Pilsco Ltd)
+^ESCT1303083	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Pilsco Ltd)
+^ESCT1303085	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Pilsco Ltd)
+^ESCT1303087	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Pilsco Ltd)
+^ESCT1303089	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Pilsco Ltd)
+^ESCT1303099	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303103	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303105	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303107	Bydureon BCise 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1303109	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303111	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303113	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303767	Sukkarto SR 750mg tablets (Morningside Healthcare Ltd)
+^ESCT1304642	Acarbose 50mg tablets (Rivopharm (UK) Ltd)
+^ESCT1304644	Acarbose 100mg tablets (Rivopharm (UK) Ltd)
+^ESCT1304867	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1305259	Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1306264	Metformin 500mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1306290	Metformin 750mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1306350	Metformin 1g modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1370205	Insulin human 1mg inhalation powder blisters
+^ESCT1370206	Insulin human 3mg inhalation powder blisters
+^ESCT1371543	Saxagliptin 5mg tablets
+^ESCT1371874	Dapagliflozin 10mg tablets
+^ESCT1371875	Dapagliflozin 5mg tablets
+^ESCT1371883	Canagliflozin 100mg tablets
+^ESCT1372479	Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCT1372487	Lyumjev 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCT1372571	Lyumjev KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1372696	Lyumjev Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1372864	Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1373898	Gliclazide 80mg tablets (Noumed Life Sciences Ltd)
+^ESCT1374105	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Pharmaram Ltd)
+^ESCT1374107	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Pharmaram Ltd)
+^ESCT1374205	Rybelsus 3mg tablets (Novo Nordisk Ltd)
+^ESCT1374208	Rybelsus 7mg tablets (Novo Nordisk Ltd)
+^ESCT1374211	Rybelsus 14mg tablets (Novo Nordisk Ltd)
+^ESCT1374256	Acarbose 100mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1374259	Acarbose 50mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1374357	Glucorex SR 500mg tablets (GlucoRx Ltd)
+^ESCT1374467	Acarbose 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374470	Acarbose 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374546	Glucophage SR 1000mg tablets (Pilsco Ltd)
+^ESCT1375189	Semaglutide 14mg tablets
+^ESCT1375190	Semaglutide 3mg tablets
+^ESCT1375191	Semaglutide 7mg tablets
+^ESCT1375665	Metformin 1g modified-release tablets
+^ESCT1375666	Metformin 750mg modified-release tablets
+^ESCT1375690	Gliclazide 30mg modified-release tablets
+^ESCT1375697	Insulin glargine 100units/ml solution for injection 3ml cartridges
+^ESCT1375698	Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1375827	Forxiga 5mg tablets (Ethigen Ltd)
+^ESCT1376013	Gliclazide 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376015	Gliclazide 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376018	Glimepiride 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376020	Glimepiride 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376022	Glimepiride 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376024	Glimepiride 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376026	Glipizide 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376200	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Pharmaram Ltd)
+^ESCT1389499	Eucreas 50mg/1000mg tablets (Ethigen Ltd)
+^ESCT1389503	Forxiga 10mg tablets (Ethigen Ltd)
+^ESCT1389506	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Ethigen Ltd)
+^ESCT1389510	Invokana 100mg tablets (Ethigen Ltd)
+^ESCT1389512	Janumet 50mg/1000mg tablets (Ethigen Ltd)
+^ESCT1389514	Januvia 100mg tablets (Ethigen Ltd)
+^ESCT1389516	Januvia 25mg tablets (Ethigen Ltd)
+^ESCT1389518	Januvia 50mg tablets (Ethigen Ltd)
+^ESCT1389520	Jardiance 10mg tablets (Ethigen Ltd)
+^ESCT1389531	Lantus 100units/ml solution for injection 3ml cartridges (Ethigen Ltd)
+^ESCT1389533	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Ethigen Ltd)
+^ESCT1389549	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Ethigen Ltd)
+^ESCT1389551	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Ethigen Ltd)
+^ESCT1389553	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Ethigen Ltd)
+^ESCT1389555	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Ethigen Ltd)
+^ESCT1389557	Onglyza 5mg tablets (Ethigen Ltd)
+^ESCT1389573	Vipidia 12.5mg tablets (Ethigen Ltd)
+^ESCT1389575	Vipidia 25mg tablets (Ethigen Ltd)
+^ESCT1389579	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Ethigen Ltd)
+^ESCT1402207	Metformin 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402211	Metformin 850mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402213	Metformin 850mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402215	Metformin 1g modified-release tablets (Medihealth (Northern) Ltd)
+^ESCT1402217	Metformin 500mg modified-release tablets (Medihealth (Northern) Ltd)
+^ESCT1402219	Metformin 750mg modified-release tablets (Medihealth (Northern) Ltd)
+^ESCT1402230	Metformin 500mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402754	Metformin 850mg tablets (Morningside Healthcare Ltd)
+^ESCT1402774	Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Pilsco Ltd)
+^ESCT1402785	Ristaben 50mg tablets (Ethigen Ltd)
+^ESCT1402787	Xelevia 50mg tablets (Ethigen Ltd)
+^ESCT1402789	Ristaben 100mg tablets (Ethigen Ltd)
+^ESCT1402791	Xelevia 100mg tablets (Ethigen Ltd)
+^ESCT1402895	Metformin 500mg modified-release tablets
+^ESCT1403248	Metformin 500mg modified-release tablets (Consilient Health Ltd)
+^ESCT1403533	Pioglitazone 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403535	Pioglitazone 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403537	Pioglitazone 45mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403628	Semglee 100units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1403793	Repaglinide 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1403795	Repaglinide 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403797	Repaglinide 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403904	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Ethigen Ltd)
+^ESCT1403921	Trulicity 3mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403923	Trulicity 4.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403930	Dulaglutide 3mg/0.5ml solution for injection pre-filled disposable devices
+^ESCT1403931	Dulaglutide 4.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCT1403986	Vipdomet 12.5mg/1000mg tablets (Ethigen Ltd)
+^ESCT1404518	Gliclazide 60mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1405028	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Ethigen Ltd)
+^ESCT1409767	Metformin 500mg tablets (Accord Healthcare Ltd)
+^ESCT1410824	Januvia 100mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411015	Metformin 500mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1411069	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411510	Januvia 50mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411512	Januvia 25mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1412576	Steglatro 5mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1412578	Steglatro 15mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1418313	Metformin 1g tablets (RX Farma)
+^ESCT1418331	Metformin 1g modified-release tablets (Accord Healthcare Ltd)
+^ESCT1418670	Gliclazide 30mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1418719	Metformin 1g tablets
+^ESCT1418893	Gliclazide 40mg tablets (Medreich Plc)
+^ESCT1419037	Glibenclamide 2.5mg tablets (Special Order)
+^ESCT1419040	Glibenclamide 5mg tablets (Special Order)
+^ESCT1419181	Axpinet 500mg tablets (GlucoRx Ltd)
+^ESCT1419183	Axpinet 850mg tablets (GlucoRx Ltd)
+^ESCT1421671	Amaryl 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421677	Amaryl 1mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421681	Amaryl 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421768	Metformin 850mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421778	Metformin 500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421839	Amaryl 2mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422192	Glimepiride 1mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422194	Glimepiride 2mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422196	Glimepiride 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422198	Glimepiride 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422237	Gliclazide 80mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422514	Pioglitazone 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422516	Pioglitazone 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422518	Pioglitazone 45mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422583	Metformin 500mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1424054	Metformin 1g tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424368	Humulin M3 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd)
+^ESCT1424749	Dapagliflozin 10mg tablets
+^ESCT1424750	Dapagliflozin 5mg tablets
+^ESCT1424881	Saxagliptin 2.5mg tablets
+^ESCT1424882	Saxagliptin 5mg tablets
+^ESCT1425186	Canagliflozin 100mg tablets
+^ESCT1425228	Metformin 500mg oral powder sachets sugar free (Morningside Healthcare Ltd)
+^ESCT1425405	Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCT1425407	Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi)
+^ESCT1425453	Repaglinide 500microgram tablets (Rivopharm (UK) Ltd)
+^ESCT1425483	Gliclazide 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425523	Glibenclamide 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425541	Tolbutamide 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425788	Metformin 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425855	Glipizide 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425860	Glibenclamide 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425886	Metformin 850mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427137	Glimepiride 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427139	Glimepiride 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427141	Glimepiride 3mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427143	Glimepiride 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427175	Gliclazide 30mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427224	Metformin 500mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427753	Metformin 1g modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1429331	Metformin 1g/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429385	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1429387	Gliclazide 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1429624	Tolbutamide 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429871	Humulin S 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd)
+^ESCT1430112	Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1430132	Metformin 500mg oral powder sachets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431388	Admelog 100 units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCT1431391	Admelog 100 units/ml solution for injection 10ml vials (Sanofi)
+^ESCT1431396	Admelog 100units/ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1431645	Metformin 500mg tablets (Morningside Healthcare Ltd)
+^ESCT1432367	Metformin 500mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1432372	Metformin 850mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1432968	Gliclazide 160mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1433136	Competact 15mg/850mg tablets (Neon Healthcare Ltd)
+^ESCT1433234	Admelog 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCT1433236	Admelog 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCT1433563	Trurapi 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCT1433876	Actos 15mg tablets (Neon Healthcare Ltd)
+^ESCT1433880	Actos 30mg tablets (Neon Healthcare Ltd)
+^ESCT1433903	Actos 45mg tablets (Neon Healthcare Ltd)
+^ESCT1434096	Gliclazide 160mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1434479	Invokana 300mg tablets (Pilsco Ltd)
+^ESCT1434546	Gliclazide 160mg tablets (Medihealth (Northern) Ltd)
+^ESCT1434561	Pioglitazone 15mg / Metformin 850mg tablets (Medihealth (Northern) Ltd)
+^ESCT1434720	Gliclazide 60mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1434753	Metformin 750mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1435884	Humalog Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1435886	Abasaglar Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1435888	Lyumjev Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1436850	Metformin 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436894	Glibenclamide 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436925	Glipizide 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436949	Gliclazide 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437034	Metformin 850mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437067	Glibenclamide 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437711	Tolbutamide 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438155	Nazdol MR 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438189	Dacadis MR 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438595	Acarbose 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438597	Acarbose 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438721	Pioglitazone 45mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438723	Pioglitazone 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438725	Pioglitazone 15mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438793	Repaglinide 500microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1438796	Repaglinide 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438822	Repaglinide 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439036	Semglee 100units/ml solution for injection 3ml pre-filled pens (Viatris UK Healthcare Ltd)
+^ESCTAB1120477	Abasaglar KwikPen 100units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTAB1120481	Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTAC1002604	Actos 15mg tablets (Necessity Supplies Ltd)
+^ESCTAC1002608	Actos 30mg tablets (Necessity Supplies Ltd)
+^ESCTAC1005673	Actos 45mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC1007085	Actos 15mg tablets (Lexon (UK) Ltd)
+^ESCTAC1009444	Acarbose 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAC1009446	Acarbose 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAC1011631	Actos 45mg tablets (DE Pharmaceuticals)
+^ESCTAC1012368	Acarbose 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1012372	Acarbose 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1020538	Acarbose 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC1020540	Acarbose 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC1020819	Actos 45mg tablets (Waymade Healthcare Plc)
+^ESCTAC1022350	Acarbose 100mg tablets (DE Pharmaceuticals)
+^ESCTAC1022355	Acarbose 50mg tablets (DE Pharmaceuticals)
+^ESCTAC1022596	Actos 45mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC1023821	Actos 45mg tablets (Lexon (UK) Ltd)
+^ESCTAC1034619	Acarbose 50mg tablets (Arrow Generics Ltd)
+^ESCTAC1034621	Acarbose 100mg tablets (Arrow Generics Ltd)
+^ESCTAC1035418	Acarbose 50mg tablets (Actavis UK Ltd)
+^ESCTAC1035429	Acarbose 100mg tablets (Actavis UK Ltd)
+^ESCTAC1041008	Acarbose 50mg tablets (Waymade Healthcare Plc)
+^ESCTAC1041013	Acarbose 100mg tablets (Waymade Healthcare Plc)
+^ESCTAC1063395	Acarbose 50mg tablets (Morningside Healthcare Ltd)
+^ESCTAC1063397	Acarbose 100mg tablets (Morningside Healthcare Ltd)
+^ESCTAC1116724	Acarbose 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC1116729	Acarbose 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC1118845	Acarbose 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC1118847	Acarbose 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC1152521	Acarbose 50mg tablets (Mylan Ltd)
+^ESCTAC1152523	Acarbose 100mg tablets (Mylan Ltd)
+^ESCTAC613052	Acarbose 50mg tablets
+^ESCTAC613054	Acarbose 50 mg oral tablet
+^ESCTAC613055	Acarbose 100mg tablets
+^ESCTAC613057	Acarbose 100 mg oral tablet
+^ESCTAC801885	Actos 15mg tablets (Takeda UK Ltd)
+^ESCTAC816639	Actos 30mg tablets (Takeda UK Ltd)
+^ESCTAC860797	Actrapid NovoLet 100units/ml solution for injection (Novo Nordisk Ltd)
+^ESCTAC860960	Actrapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTAC860975	Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTAC876447	Actos 45mg tablets (Takeda UK Ltd)
+^ESCTAC877506	Actos 15mg tablets (Waymade Healthcare Plc)
+^ESCTAC877516	Actos 30mg tablets (Waymade Healthcare Plc)
+^ESCTAC878536	Acarbose 100mg tablets (Dowelhurst Ltd)
+^ESCTAC878735	Acarbose 50mg tablets (Dowelhurst Ltd)
+^ESCTAC929479	Actos 15mg tablets (Dowelhurst Ltd)
+^ESCTAC929481	Actos 30mg tablets (Dowelhurst Ltd)
+^ESCTAC936599	Actrapid 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTAC966156	Actos 15mg tablets (DE Pharmaceuticals)
+^ESCTAC966158	Actos 30mg tablets (DE Pharmaceuticals)
+^ESCTAC968234	Actos 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC968236	Actos 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC988657	Actos 30mg tablets (Lexon (UK) Ltd)
+^ESCTAC990013	Actos 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC990016	Actos 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAL1058691	Alogliptin 12.5mg / Metformin 1g tablets
+^ESCTAL1058692	Alogliptin 12.5mg tablets
+^ESCTAL1058693	Alogliptin 25mg tablets
+^ESCTAL1058694	Alogliptin 6.25mg tablets
+^ESCTAL1127739	Alogliptin 12.5mg / Metformin 1g tablets (Ennogen Healthcare Ltd)
+^ESCTAL1127741	Alogliptin 12.5mg tablets (Ennogen Healthcare Ltd)
+^ESCTAL1127743	Alogliptin 25mg tablets (Ennogen Healthcare Ltd)
+^ESCTAL1127745	Alogliptin 6.25mg tablets (Ennogen Healthcare Ltd)
+^ESCTAL1128469	Albiglutide 30mg powder and solvent for solution for injection pre-filled disposable devices
+^ESCTAL1128470	Albiglutide 50mg powder and solvent for solution for injection pre-filled disposable devices
+^ESCTAL1131604	Alogliptin 12.5mg / Metformin 1g tablets (J M McGill Ltd)
+^ESCTAL1131606	Alogliptin 12.5mg tablets (J M McGill Ltd)
+^ESCTAL1131608	Alogliptin 25mg tablets (J M McGill Ltd)
+^ESCTAL1131610	Alogliptin 6.25mg tablets (J M McGill Ltd)
+^ESCTAL1139651	Alogliptin 12.5mg / Metformin 1g tablets (Niche Pharma Ltd)
+^ESCTAL1139663	Alogliptin 12.5mg tablets (Niche Pharma Ltd)
+^ESCTAL1139666	Alogliptin 25mg tablets (Niche Pharma Ltd)
+^ESCTAL1139668	Alogliptin 6.25mg tablets (Niche Pharma Ltd)
+^ESCTAL1142085	Alogliptin 12.5mg / Metformin 1g tablets (Colorama Pharmaceuticals Ltd)
+^ESCTAL1142087	Alogliptin 12.5mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTAL1142089	Alogliptin 25mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTAM1002696	Amaryl 1mg tablets (Necessity Supplies Ltd)
+^ESCTAM1002702	Amaryl 2mg tablets (Necessity Supplies Ltd)
+^ESCTAM1002706	Amaryl 3mg tablets (Necessity Supplies Ltd)
+^ESCTAM1002708	Amaryl 4mg tablets (Necessity Supplies Ltd)
+^ESCTAM805005	Amaryl 3mg tablets (Zentiva)
+^ESCTAM807132	Amaryl 1mg tablets (Zentiva)
+^ESCTAM808119	Amaryl 4mg tablets (Zentiva)
+^ESCTAM834073	Amaryl 2mg tablets (Zentiva)
+^ESCTAM877523	Amaryl 2mg tablets (Waymade Healthcare Plc)
+^ESCTAM877524	Amaryl 3mg tablets (Waymade Healthcare Plc)
+^ESCTAM877526	Amaryl 4mg tablets (Waymade Healthcare Plc)
+^ESCTAM877569	Amaryl 1mg tablets (Waymade Healthcare Plc)
+^ESCTAM879114	Amaryl 1mg tablets (Dowelhurst Ltd)
+^ESCTAM879119	Amaryl 2mg tablets (Dowelhurst Ltd)
+^ESCTAM879123	Amaryl 3mg tablets (Dowelhurst Ltd)
+^ESCTAM879127	Amaryl 4mg tablets (Dowelhurst Ltd)
+^ESCTAM968383	Amaryl 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM968387	Amaryl 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM968391	Amaryl 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM968439	Amaryl 3mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM988692	Amaryl 1mg tablets (Lexon (UK) Ltd)
+^ESCTAM988694	Amaryl 2mg tablets (Lexon (UK) Ltd)
+^ESCTAM988696	Amaryl 3mg tablets (Lexon (UK) Ltd)
+^ESCTAM988698	Amaryl 4mg tablets (Lexon (UK) Ltd)
+^ESCTAM990051	Amaryl 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAP1002030	Apidra 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTAP1118592	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Lexon (UK) Ltd)
+^ESCTAP1121390	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Waymade Healthcare Plc)
+^ESCTAP919546	Apidra 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCTAP919553	Apidra 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCTAP926091	Apidra 100units/ml solution for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTAP934039	Apidra 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)
+^ESCTAP946738	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCTAV1002803	Avandamet 2mg/1000mg tablets (Necessity Supplies Ltd)
+^ESCTAV1002806	Avandamet 2mg/500mg tablets (Necessity Supplies Ltd)
+^ESCTAV1002814	Avandamet 4mg/1000mg tablets (Necessity Supplies Ltd)
+^ESCTAV1002819	Avandia 4mg tablets (Necessity Supplies Ltd)
+^ESCTAV1002826	Avandia 8mg tablets (Necessity Supplies Ltd)
+^ESCTAV808205	Avandia 8mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV833134	Avandia 4mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV877340	Avandamet 1mg/500mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV877345	Avandamet 2mg/500mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV877581	Avandia 4mg tablets (Waymade Healthcare Plc)
+^ESCTAV877590	Avandia 8mg tablets (Waymade Healthcare Plc)
+^ESCTAV903739	Avandamet 4mg/1000mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV903750	Avandamet 2mg/1000mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTAV929536	Avandia 4mg tablets (Dowelhurst Ltd)
+^ESCTAV929540	Avandia 8mg tablets (Dowelhurst Ltd)
+^ESCTAV929595	Avandamet 2mg/500mg tablets (Dowelhurst Ltd)
+^ESCTAV929752	Avandamet 1mg/500mg tablets (Waymade Healthcare Plc)
+^ESCTAV929759	Avandamet 2mg/1000mg tablets (Waymade Healthcare Plc)
+^ESCTAV929762	Avandamet 2mg/500mg tablets (Waymade Healthcare Plc)
+^ESCTAV929766	Avandamet 4mg/1000mg tablets (Waymade Healthcare Plc)
+^ESCTAV959187	Avandamet 2mg/1000mg tablets (Dowelhurst Ltd)
+^ESCTAV959189	Avandamet 4mg/1000mg tablets (Dowelhurst Ltd)
+^ESCTAV966250	Avandamet 2mg/500mg tablets (DE Pharmaceuticals)
+^ESCTAV966252	Avandamet 2mg/1000mg tablets (DE Pharmaceuticals)
+^ESCTAV966254	Avandamet 4mg/1000mg tablets (DE Pharmaceuticals)
+^ESCTAV966257	Avandia 4mg tablets (DE Pharmaceuticals)
+^ESCTAV966259	Avandia 8mg tablets (DE Pharmaceuticals)
+^ESCTAV969820	Avandamet 2mg/1000mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAV969822	Avandamet 4mg/1000mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAV969825	Avandamet 2mg/500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAV969829	Avandia 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAV969833	Avandia 8mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAV990170	Avandamet 2mg/500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAV990175	Avandamet 2mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAV990180	Avandamet 4mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAV990187	Avandia 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAV990190	Avandia 8mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1128187	Bilxona 30mg modified-release tablets (Actavis UK Ltd)
+^ESCTBI1128200	Bilxona 60mg modified-release tablets (Actavis UK Ltd)
+^ESCTBO1046363	Bolamyn SR 1000mg tablets (Teva UK Ltd)
+^ESCTBO969664	Bolamyn SR 500mg tablets (Teva UK Ltd)
+^ESCTBY1001900	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (Mawdsley-Brooks & Company Ltd)
+^ESCTBY1018581	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (AstraZeneca UK Ltd)
+^ESCTBY1104362	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (AstraZeneca UK Ltd)
+^ESCTBY1118779	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (Lexon (UK) Ltd)
+^ESCTBY1118787	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (Lexon (UK) Ltd)
+^ESCTBY1121402	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (Waymade Healthcare Plc)
+^ESCTBY940321	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTBY940323	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTCA1063152	Canagliflozin 300mg tablets
+^ESCTCA1100793	Canagliflozin 50mg / Metformin 1g tablets
+^ESCTCA1100794	Canagliflozin 50mg / Metformin 850mg tablets
+^ESCTCA1107725	Canagliflozin 100mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTCA1107727	Canagliflozin 300mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTCA1116235	Canagliflozin 100mg tablets (J M McGill Ltd)
+^ESCTCA1117645	Canagliflozin 100mg tablets (Niche Pharma Ltd)
+^ESCTCA758005	Canagliflozin 100mg tablets
+^ESCTCA758007	Canagliflozin 100 mg oral tablet
+^ESCTCH1097472	Chlorpropamide 100mg tablets (Special Order)
+^ESCTCH612415	Chlorpropamide 100mg tablets
+^ESCTCH612417	Chlorpropamide 100 mg oral tablet
+^ESCTCH612418	Chlorpropamide 250mg tablets
+^ESCTCH612420	Chlorpropamide 250 mg oral tablet
+^ESCTCH865818	Chlorpropamide 100mg tablets (The Boots Company Plc)
+^ESCTCH865826	Chlorpropamide 250mg tablets (The Boots Company Plc)
+^ESCTCH945074	Chlorpropamide 250mg/5ml oral suspension (Special Order)
+^ESCTCH945433	Chlorpropamide 250mg/5ml oral suspension
+^ESCTCO1002267	Competact 15mg/850mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1008688	Competact 15mg/850mg tablets (Necessity Supplies Ltd)
+^ESCTCO1011871	Competact 15mg/850mg tablets (DE Pharmaceuticals)
+^ESCTCO934264	Competact 15mg/850mg tablets (Takeda UK Ltd)
+^ESCTCO980910	Competact 15mg/850mg tablets (Waymade Healthcare Plc)
+^ESCTCO988834	Competact 15mg/850mg tablets (Lexon (UK) Ltd)
+^ESCTCO992703	Competact 15mg/850mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDA1062682	Dapagliflozin 5mg / Metformin 1g tablets
+^ESCTDA1062683	Dapagliflozin 5mg / Metformin 850mg tablets
+^ESCTDA757997	Dapagliflozin 5mg tablets
+^ESCTDA757999	Dapagliflozin 5 mg oral tablet
+^ESCTDA758000	Dapagliflozin 10mg tablets
+^ESCTDA758002	Dapagliflozin 10 mg oral tablet
+^ESCTDA807325	Daonil 5mg tablets (Sanofi)
+^ESCTDA877766	Daonil 5mg tablets (Waymade Healthcare Plc)
+^ESCTDA879236	Daonil 5mg tablets (Dowelhurst Ltd)
+^ESCTDA992883	Dacadis MR 30mg tablets (Mylan Ltd)
+^ESCTDI1008930	Diamicron 30mg MR tablets (Necessity Supplies Ltd)
+^ESCTDI1030066	Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTDI1116638	Diabiom 15mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI1116640	Diabiom 30mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI1116642	Diabiom 45mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI799820	Diabetamide 2.5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI801777	Diaglyk 80mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI808867	Diabetamide 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI822968	Diamicron 80mg tablets (Servier Laboratories Ltd)
+^ESCTDI863202	Diamicron 30mg MR tablets (Servier Laboratories Ltd)
+^ESCTDI930159	Diamicron 30mg MR tablets (Waymade Healthcare Plc)
+^ESCTDI959735	Diamicron 30mg MR tablets (Dowelhurst Ltd)
+^ESCTDI966549	Diamicron 30mg MR tablets (DE Pharmaceuticals)
+^ESCTDI970907	Diamicron 30mg MR tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI988884	Diamicron 30mg MR tablets (Lexon (UK) Ltd)
+^ESCTDI990019	Diamicron 30mg MR tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDU1107846	Dulaglutide 0.75mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTDU1107847	Dulaglutide 1.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTED980669	Edicil MR 30mg tablets (Teva UK Ltd)
+^ESCTEM1074337	Empagliflozin 10mg tablets
+^ESCTEM1074338	Empagliflozin 25mg tablets
+^ESCTEM1121862	Empagliflozin 12.5mg / Metformin 1g tablets
+^ESCTEM1121863	Empagliflozin 12.5mg / Metformin 850mg tablets
+^ESCTEM1121864	Empagliflozin 5mg / Metformin 1g tablets
+^ESCTEM1121865	Empagliflozin 5mg / Metformin 850mg tablets
+^ESCTEN1018870	Enyglid 0.5mg tablets (Consilient Health Ltd)
+^ESCTEN1018872	Enyglid 1mg tablets (Consilient Health Ltd)
+^ESCTEN1018876	Enyglid 2mg tablets (Consilient Health Ltd)
+^ESCTEP1128461	Eperzan 30mg powder and solvent for solution for injection pre-filled pen (GlaxoSmithKline UK Ltd)
+^ESCTEP1128464	Eperzan 50mg powder and solvent for solution for injection pre-filled pen (GlaxoSmithKline UK Ltd)
+^ESCTEU1001970	Eucreas 50mg/1000mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEU1001972	Eucreas 50mg/850mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEU1021545	Eucreas 50mg/850mg tablets (DE Pharmaceuticals)
+^ESCTEU1023916	Eucreas 50mg/1000mg tablets (DE Pharmaceuticals)
+^ESCTEU1120817	Eucreas 50mg/1000mg tablets (Waymade Healthcare Plc)
+^ESCTEU1120819	Eucreas 50mg/850mg tablets (Waymade Healthcare Plc)
+^ESCTEU807312	Euglucon 2.5mg tablets (Aventis Pharma)
+^ESCTEU810327	Euglucon 5mg tablets (Sanofi)
+^ESCTEU962230	Eucreas 50mg/1000mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEU962233	Eucreas 50mg/850mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX1018587	Exenatide 2mg powder and solvent for prolonged-release suspension for injection vials
+^ESCTEX1104496	Exenatide 2mg powder and solvent for prolonged-release suspension for injection pre-filled disposable devices
+^ESCTEX931706	Exubera 1mg inhalation powder blisters (Pfizer Ltd)
+^ESCTEX931709	Exubera 3mg inhalation powder blisters (Pfizer Ltd)
+^ESCTEX940316	Exenatide 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices
+^ESCTEX940317	Exenatide 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices
+^ESCTFI1157052	Fiasp FlexTouch 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTFI1157054	Fiasp Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTFI1157056	Fiasp 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTFO1039919	Forxiga 5mg tablets (AstraZeneca UK Ltd)
+^ESCTFO1039922	Forxiga 10mg tablets (AstraZeneca UK Ltd)
+^ESCTFO1100266	Forxiga 10mg tablets (Waymade Healthcare Plc)
+^ESCTFO1104357	Forxiga 5mg tablets (Waymade Healthcare Plc)
+^ESCTGA1002000	Galvus 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGA1021558	Galvus 50mg tablets (DE Pharmaceuticals)
+^ESCTGA1100268	Galvus 50mg tablets (Waymade Healthcare Plc)
+^ESCTGA962224	Galvus 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTGL1002486	Glucobay 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1005546	Gliclazide 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL1005860	Glibenclamide 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005864	Glibenclamide 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005869	Gliclazide 80mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005876	Glimepiride 1mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005880	Glimepiride 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005884	Glimepiride 3mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005888	Glimepiride 4mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005893	Glipizide 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1006426	Glibenclamide 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL1006430	Glibenclamide 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL1009068	Glucobay 100mg tablets (Necessity Supplies Ltd)
+^ESCTGL1009071	Glucobay 50mg tablets (Necessity Supplies Ltd)
+^ESCTGL1010887	Gliclazide 80mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010890	Glimepiride 1mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010892	Glimepiride 3mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010894	Glimepiride 4mg tablets (Accord Healthcare Ltd)
+^ESCTGL1011952	Glucophage SR 500mg tablets (DE Pharmaceuticals)
+^ESCTGL1018884	Glucient SR 500mg tablets (Consilient Health Ltd)
+^ESCTGL1023437	Glipizide 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL1024467	Glizofar 15mg tablets (Teva UK Ltd)
+^ESCTGL1024469	Glizofar 30mg tablets (Teva UK Ltd)
+^ESCTGL1024471	Glizofar 45mg tablets (Teva UK Ltd)
+^ESCTGL1025080	Glizofar 15mg tablets (Arrow Generics Ltd)
+^ESCTGL1025082	Glizofar 30mg tablets (Arrow Generics Ltd)
+^ESCTGL1025085	Glizofar 45mg tablets (Arrow Generics Ltd)
+^ESCTGL1026438	Glimepiride 2mg tablets (Accord Healthcare Ltd)
+^ESCTGL1033868	Gliclazide 30mg modified-release tablets (Actavis UK Ltd)
+^ESCTGL1037265	Glimepiride 6mg/5ml oral suspension (Special Order)
+^ESCTGL1037675	Glimepiride 6mg/5ml oral suspension
+^ESCTGL1038061	Gliclazide 80mg tablets (Medreich Plc)
+^ESCTGL1038918	Glucophage SR 1000mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043729	Glibenclamide 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043731	Glibenclamide 5mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043733	Gliclazide 40mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043735	Gliclazide 80mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043739	Glimepiride 1mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043742	Glimepiride 2mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043747	Glimepiride 3mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043750	Glimepiride 4mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043752	Glipizide 5mg tablets (Waymade Healthcare Plc)
+^ESCTGL1044250	Gliclazide 30mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTGL1045607	Gliclazide 60mg modified-release tablets
+^ESCTGL1056220	Glidipion 30mg tablets (Actavis UK Ltd)
+^ESCTGL1056244	Glidipion 45mg tablets (Actavis UK Ltd)
+^ESCTGL1061432	Gliclazide 30mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1061644	Glibenclamide 2.5mg tablets (DE Pharmaceuticals)
+^ESCTGL1061646	Glibenclamide 5mg tablets (DE Pharmaceuticals)
+^ESCTGL1061648	Gliclazide 80mg tablets (DE Pharmaceuticals)
+^ESCTGL1063169	Glimepiride 1mg tablets (DE Pharmaceuticals)
+^ESCTGL1063171	Glimepiride 2mg tablets (DE Pharmaceuticals)
+^ESCTGL1063173	Glimepiride 3mg tablets (DE Pharmaceuticals)
+^ESCTGL1063175	Glimepiride 4mg tablets (DE Pharmaceuticals)
+^ESCTGL1109249	Glidipion 15mg tablets (Actavis UK Ltd)
+^ESCTGL1117791	Glibenclamide 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1117793	Glibenclamide 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1117795	Gliclazide 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1117798	Glipizide 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1119060	Glucient SR 750mg tablets (Consilient Health Ltd)
+^ESCTGL1119062	Glucient SR 1000mg tablets (Consilient Health Ltd)
+^ESCTGL1119402	Gliclazide 30mg modified-release tablets (DE Pharmaceuticals)
+^ESCTGL1120124	Glibenclamide 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120126	Glibenclamide 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120128	Gliclazide 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120131	Gliclazide 30mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120155	Glimepiride 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120160	Glimepiride 3mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120162	Glimepiride 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120778	Glipizide 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1141918	Gliclazide 80mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTGL1142658	Glimepiride 1mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142660	Glimepiride 2mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142662	Glimepiride 3mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142664	Glimepiride 4mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142705	Gliclazide 40mg tablets (Actavis UK Ltd)
+^ESCTGL1151385	Gliclazide 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL450879	Gliclazide 30mg modified-release tablets
+^ESCTGL450880	Gliclazide 30mg m/r tablet
+^ESCTGL450881	Gliclazide 30mg modified-release tablet
+^ESCTGL612421	Glibenclamide 2.5mg tablets
+^ESCTGL612424	Glibenclamide 2.5 mg oral tablet
+^ESCTGL612425	Glyburide 2.5 mg oral tablet
+^ESCTGL612426	Glibenclamide 5mg tablets
+^ESCTGL612429	Glibenclamide 5 mg oral tablet
+^ESCTGL612430	Glyburide 5 mg oral tablet
+^ESCTGL612435	Gliclazide 80mg tablets
+^ESCTGL612437	Gliclazide 80 mg oral tablet
+^ESCTGL612438	Glipizide 5mg tablets
+^ESCTGL612440	Glipizide 5 mg oral tablet
+^ESCTGL612441	Glipizide 2.5mg tablets
+^ESCTGL612443	Glipizide 2.5 mg oral tablet
+^ESCTGL612446	Gliquidone 30mg tablets
+^ESCTGL612448	Gliquidone 30 mg oral tablet
+^ESCTGL612455	Glimepiride 2mg tablets
+^ESCTGL612457	Glimepiride 2 mg oral tablet
+^ESCTGL612458	Glimepiride 1mg tablets
+^ESCTGL612460	Glimepiride 1 mg oral tablet
+^ESCTGL612461	Glimepiride 3mg tablets
+^ESCTGL612463	Glimepiride 3 mg oral tablet
+^ESCTGL612464	Glimepiride 4mg tablets
+^ESCTGL612466	Glimepiride 4 mg oral tablet
+^ESCTGL799369	Gliclazide 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL801972	Glimil 80mg tablets (Milpharm Ltd)
+^ESCTGL803360	Glibenclamide 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL803786	Glibenclamide 5mg tablets (Wockhardt UK Ltd)
+^ESCTGL804073	Glipizide 5mg tablets (Pfizer Ltd)
+^ESCTGL805264	Gliclazide 80mg tablets (Sterwin Medicines)
+^ESCTGL811605	Glucophage 500mg tablets (Merck Serono Ltd)
+^ESCTGL811710	Glucophage 850mg tablets (Merck Serono Ltd)
+^ESCTGL812378	Gliclazide 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL812728	Glibenclamide 2.5mg tablets (Mylan Ltd)
+^ESCTGL816465	Glucobay 100mg tablets (Bayer Plc)
+^ESCTGL817694	Glipizide 5mg tablets (Mylan Ltd)
+^ESCTGL818914	Gliclazide 80mg tablets (Actavis UK Ltd)
+^ESCTGL819341	Glibenese 5mg tablets (Pfizer Ltd)
+^ESCTGL819818	Gliclazide 80mg tablets (Mylan Ltd)
+^ESCTGL819840	Glibenclamide 5mg tablets (Teva UK Ltd)
+^ESCTGL819890	Glyformin 500mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL819950	Gliclazide 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL820515	Gliclazide 80mg tablets (Wockhardt UK Ltd)
+^ESCTGL820731	Glibenclamide 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL820803	Glibenclamide 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL821280	Glibenclamide 5mg tablets (Actavis UK Ltd)
+^ESCTGL821296	Glipizide 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL821300	Glipizide 5mg tablets (Sandoz Ltd)
+^ESCTGL821311	Glibenclamide 2.5mg tablets (Actavis UK Ltd)
+^ESCTGL821951	Glibenclamide 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL822860	Glipizide 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL822962	Glibenclamide 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL823314	Glipizide 5mg tablets (Actavis UK Ltd)
+^ESCTGL824352	Glucobay 50mg tablets (Bayer Plc)
+^ESCTGL824793	Glipizide 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL826125	Glipizide 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL827036	Glibenclamide 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL829631	Gliclazide 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL831062	Glibenclamide 5mg tablets (Mylan Ltd)
+^ESCTGL831328	Gliclazide 80mg tablets (Teva UK Ltd)
+^ESCTGL831453	Glibenclamide 2.5mg tablets (Wockhardt UK Ltd)
+^ESCTGL831944	Glibenclamide 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL832923	Glibenclamide 2.5mg tablets (Teva UK Ltd)
+^ESCTGL833238	Glibenclamide 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL833359	Gliclazide 80mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTGL833670	Gliclazide 80mg tablets (Sandoz Ltd)
+^ESCTGL864122	Glurenorm 30mg tablets (Sanofi)
+^ESCTGL877891	Glibenese 5mg tablets (Waymade Healthcare Plc)
+^ESCTGL877907	Glucobay 50mg tablets (Waymade Healthcare Plc)
+^ESCTGL877913	Glucobay 100mg tablets (Waymade Healthcare Plc)
+^ESCTGL878527	Glucobay 100mg tablets (Dowelhurst Ltd)
+^ESCTGL878569	Glimepiride 1mg tablets (Dowelhurst Ltd)
+^ESCTGL878579	Glimepiride 3mg tablets (Dowelhurst Ltd)
+^ESCTGL878643	Glibenclamide 5mg tablets (Dowelhurst Ltd)
+^ESCTGL879387	Glucobay 50mg tablets (Dowelhurst Ltd)
+^ESCTGL903048	Glimepiride 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL903050	Glimepiride 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL906812	Glibenclamide 5mg/5ml oral solution (Special Order)
+^ESCTGL906816	Glibenclamide 7.5mg/5ml oral solution (Special Order)
+^ESCTGL906819	Glibenclamide 5mg/5ml oral suspension (Special Order)
+^ESCTGL906822	Glibenclamide 7.5mg/5ml oral suspension (Special Order)
+^ESCTGL906829	Gliclazide 160mg/5ml oral suspension (Special Order)
+^ESCTGL906830	Gliclazide 80mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTGL906834	Gliclazide 40mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTGL907091	Glibenclamide 5mg/5ml oral solution
+^ESCTGL907092	Glibenclamide 5mg/5ml oral suspension
+^ESCTGL907093	Glibenclamide 7.5mg/5ml oral solution
+^ESCTGL907094	Glibenclamide 7.5mg/5ml oral suspension
+^ESCTGL907095	Gliclazide 160mg/5ml oral suspension
+^ESCTGL907096	Gliclazide 40mg/5ml oral suspension
+^ESCTGL907097	Gliclazide 80mg/5ml oral suspension
+^ESCTGL911686	Glucophage SR 500mg tablets (Merck Serono Ltd)
+^ESCTGL923088	Glipizide 5mg tablets (Teva UK Ltd)
+^ESCTGL923187	Gliclazide 80mg tablets (Milpharm Ltd)
+^ESCTGL923660	Gliclazide 80mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL926759	Glimepiride 1mg tablets (Actavis UK Ltd)
+^ESCTGL926761	Glimepiride 2mg tablets (Actavis UK Ltd)
+^ESCTGL926763	Glimepiride 3mg tablets (Actavis UK Ltd)
+^ESCTGL926765	Glimepiride 4mg tablets (Actavis UK Ltd)
+^ESCTGL927650	Glimepiride 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL927653	Glimepiride 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL927662	Glimepiride 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927664	Glimepiride 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927667	Glimepiride 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927669	Glimepiride 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL928720	Glibenclamide 2.5mg tablets (Arrow Generics Ltd)
+^ESCTGL928724	Glibenclamide 5mg tablets (Arrow Generics Ltd)
+^ESCTGL928728	Gliclazide 80mg tablets (Arrow Generics Ltd)
+^ESCTGL929276	Glimepiride 4mg tablets (Niche Generics Ltd)
+^ESCTGL929351	Glimepiride 1mg tablets (Niche Generics Ltd)
+^ESCTGL929353	Glimepiride 2mg tablets (Niche Generics Ltd)
+^ESCTGL929355	Glimepiride 3mg tablets (Niche Generics Ltd)
+^ESCTGL929964	Glibenese 5mg tablets (Dowelhurst Ltd)
+^ESCTGL930050	Glimepiride 1mg tablets (Zentiva)
+^ESCTGL930052	Glimepiride 2mg tablets (Zentiva)
+^ESCTGL930054	Glimepiride 3mg tablets (Zentiva)
+^ESCTGL930056	Glimepiride 4mg tablets (Zentiva)
+^ESCTGL930258	Glimepiride 1mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTGL930262	Glimepiride 2mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTGL930266	Glimepiride 3mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTGL930271	Glimepiride 4mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTGL930826	Glimepiride 1mg tablets (Somex Pharma)
+^ESCTGL930828	Glimepiride 2mg tablets (Somex Pharma)
+^ESCTGL930831	Glimepiride 3mg tablets (Somex Pharma)
+^ESCTGL930834	Glimepiride 4mg tablets (Somex Pharma)
+^ESCTGL931689	Glimepiride 1mg tablets (PLIVA Pharma Ltd)
+^ESCTGL931691	Glimepiride 2mg tablets (PLIVA Pharma Ltd)
+^ESCTGL931693	Glimepiride 3mg tablets (PLIVA Pharma Ltd)
+^ESCTGL935375	Glimepiride 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935377	Glimepiride 3mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935382	Glimepiride 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935385	Glimepiride 1mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL936750	Glimepiride 1mg tablets (Teva UK Ltd)
+^ESCTGL936752	Glimepiride 2mg tablets (Teva UK Ltd)
+^ESCTGL936754	Glimepiride 3mg tablets (Teva UK Ltd)
+^ESCTGL936756	Glimepiride 4mg tablets (Teva UK Ltd)
+^ESCTGL938745	Glimepiride 1mg tablets (Sandoz Ltd)
+^ESCTGL938749	Glimepiride 2mg tablets (Sandoz Ltd)
+^ESCTGL938752	Glimepiride 3mg tablets (Sandoz Ltd)
+^ESCTGL938757	Glimepiride 4mg tablets (Sandoz Ltd)
+^ESCTGL939398	Gliclazide 80mg tablets (PLIVA Pharma Ltd)
+^ESCTGL940297	Gliclazide 80mg tablets (Zentiva)
+^ESCTGL946371	Glibenclamide 625micrograms/5ml oral suspension (Special Order)
+^ESCTGL946374	Glibenclamide 625micrograms/5ml oral solution (Special Order)
+^ESCTGL946377	Glibenclamide 15mg/5ml oral suspension (Special Order)
+^ESCTGL946380	Glibenclamide 15mg/5ml oral solution (Special Order)
+^ESCTGL946383	Glibenclamide 2.5mg/5ml oral suspension (Special Order)
+^ESCTGL946386	Glibenclamide 2.5mg/5ml oral solution (Special Order)
+^ESCTGL946389	Gliclazide 100mg/5ml oral suspension (Special Order)
+^ESCTGL946392	Gliclazide 120mg/5ml oral suspension (Special Order)
+^ESCTGL946395	Gliclazide 20mg/5ml oral suspension (Special Order)
+^ESCTGL946398	Gliclazide 50mg/5ml oral suspension (Special Order)
+^ESCTGL946401	Gliclazide 60mg/5ml oral suspension (Special Order)
+^ESCTGL946646	Glibenclamide 15mg/5ml oral solution
+^ESCTGL946647	Glibenclamide 15mg/5ml oral suspension
+^ESCTGL946648	Glibenclamide 2.5mg/5ml oral solution
+^ESCTGL946649	Glibenclamide 2.5mg/5ml oral suspension
+^ESCTGL946650	Glibenclamide 625micrograms/5ml oral solution
+^ESCTGL946651	Glibenclamide 625micrograms/5ml oral suspension
+^ESCTGL946652	Gliclazide 100mg/5ml oral suspension
+^ESCTGL946653	Gliclazide 120mg/5ml oral suspension
+^ESCTGL946654	Gliclazide 20mg/5ml oral suspension
+^ESCTGL946655	Gliclazide 50mg/5ml oral suspension
+^ESCTGL946657	Gliclazide 60mg/5ml oral suspension
+^ESCTGL946761	Glimepiride 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946763	Glimepiride 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946766	Glimepiride 3mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946768	Glimepiride 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL962716	Gliclazide 30mg/5ml oral suspension (Special Order)
+^ESCTGL962756	Gliclazide 30mg/5ml oral suspension
+^ESCTGL963556	Gliclazide 30mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL963838	Glipizide 5mg tablets (DE Pharmaceuticals)
+^ESCTGL963943	Gliclazide 30mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL964185	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL965204	Glimepiride 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965208	Glimepiride 3mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965211	Glimepiride 4mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965474	Glucophage SR 750mg tablets (Merck Serono Ltd)
+^ESCTGL965706	Glucophage SR 500mg tablets (Waymade Healthcare Plc)
+^ESCTGL966735	Glucophage 500mg tablets (DE Pharmaceuticals)
+^ESCTGL966739	Glucophage 850mg tablets (DE Pharmaceuticals)
+^ESCTGL969048	Glimepiride 1mg tablets (Consilient Health Ltd)
+^ESCTGL969050	Glimepiride 2mg tablets (Consilient Health Ltd)
+^ESCTGL969052	Glimepiride 3mg tablets (Consilient Health Ltd)
+^ESCTGL969054	Glimepiride 4mg tablets (Consilient Health Ltd)
+^ESCTGL978383	Gliclazide 30mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978386	Glimepiride 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978388	Glimepiride 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978390	Glimepiride 3mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978392	Glimepiride 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL980993	Glucophage SR 1000mg tablets (Merck Serono Ltd)
+^ESCTGL981050	Glucophage 500mg oral powder sachets (Merck Serono Ltd)
+^ESCTGL981055	Glucophage 1000mg oral powder sachets (Merck Serono Ltd)
+^ESCTGL987870	Gliclazide 80mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987873	Glimepiride 1mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987875	Glimepiride 2mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987877	Glimepiride 3mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987879	Glimepiride 4mg tablets (Bristol Laboratories Ltd)
+^ESCTGL988580	Glimepiride 2mg/5ml oral solution (Special Order)
+^ESCTGL988583	Glimepiride 2mg/5ml oral suspension (Special Order)
+^ESCTGL988629	Glimepiride 2mg/5ml oral solution
+^ESCTGL988630	Glimepiride 2mg/5ml oral suspension
+^ESCTGL989158	Glucophage SR 500mg tablets (Lexon (UK) Ltd)
+^ESCTGL989160	Glucophage 850mg tablets (Lexon (UK) Ltd)
+^ESCTGL992564	Glucophage SR 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL994439	Gliclazide 40mg tablets
+^ESCTGL999197	Gliclazide 80mg tablets (Sovereign Medical Ltd)
+^ESCTHU1002032	Humalog 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+^ESCTHU1002487	Humulin I 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTHU1002489	Humulin I 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc)
+^ESCTHU1002956	Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU1002966	Humulin M3 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU1005714	Humulin M3 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTHU1007073	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU1007075	Humulin M3 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc)
+^ESCTHU1009081	Humalog 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd)
+^ESCTHU1009083	Humalog 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd)
+^ESCTHU1009264	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU1011722	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU1011724	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU1011726	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU1013494	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU1013496	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU1021560	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (DE Pharmaceuticals)
+^ESCTHU1021562	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (DE Pharmaceuticals)
+^ESCTHU1021564	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (DE Pharmaceuticals)
+^ESCTHU1021566	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCTHU1021568	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCTHU1021570	Humalog 100units/ml solution for injection 10ml vials (DE Pharmaceuticals)
+^ESCTHU1021572	Humulin I 100units/ml suspension for injection 10ml vials (DE Pharmaceuticals)
+^ESCTHU1109125	Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU860473	Humulin I 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860508	Human Insulatard Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860522	Humulin I Pen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU860550	Humulin M2 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860556	Humulin I 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860592	Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860601	Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860620	Human Mixtard 50 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTHU860624	Humulin M5 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860636	HumaJect M3 Pen 100units/ml suspension for injection (Eli Lilly and Company Ltd)
+^ESCTHU860648	Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860650	Humulin M3 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860662	Humulin M3 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860667	Human Mixtard 30 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860671	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860674	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU860681	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU860697	Humalog Pen 100units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU860713	Humalog 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860730	Humulin Zn 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860739	Humalog 100units/ml solution for injection 1.5ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860755	Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860761	Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU860767	Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860816	HumaJect S Pen 100units/ml solution for injection (Eli Lilly and Company Ltd)
+^ESCTHU860948	Human Actrapid Penfill 100units/ml solution for injection 1.5ml cartridges (Novo Nordisk Ltd)
+^ESCTHU860966	Humulin S 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU860980	Humulin S 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHU877063	Humalog 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU877066	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU877069	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU877071	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU877292	Humalog 100units/ml solution for injection 1.5ml cartridges (Dowelhurst Ltd)
+^ESCTHU877294	Humalog 100units/ml solution for injection 10ml vials (Dowelhurst Ltd)
+^ESCTHU917892	Humulin M3 Pen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU928314	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+^ESCTHU930312	Humalog Pen 100units/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTHU930324	Humalog 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHU936525	Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTHU936531	Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTHU936625	Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTHU936627	Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTHU965708	Humulin I 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU965710	Humulin S 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU966420	Humulin R 100units/ml solution for injection 10ml vials (Imported (United States))
+^ESCTHU966678	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU966746	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU966748	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTHU969726	Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHU969728	Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTHU970262	Humalog 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTHU970264	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTHU970268	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTHU970270	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU970272	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU970274	Humalog Pen 100units/ml solution for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTHU970276	Humalog 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc)
+^ESCTHU973659	Humulin I 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHU983135	Humulin R 500units/ml solution for injection 20ml vials (Imported (United States))
+^ESCTHU992692	Humalog 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992701	Humalog Pen 100units/ml solution for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992706	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992713	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992718	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992725	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992729	Humulin I 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992731	Humulin I 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992733	Humulin M3 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992741	Humulin M3 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992743	Humulin S 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992748	Humulin S 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+^ESCTHU992820	Humalog Mix25 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+^ESCTHY860582	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860613	Hypurin Bovine Protamine Zinc 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860627	Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860654	Hypurin Bovine Neutral 100units/ml solution for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+^ESCTHY860689	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+^ESCTHY860705	Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+^ESCTHY860712	Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860718	Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860738	Hypurin Porcine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+^ESCTHY860746	Hypurin Porcine Neutral 100units/ml solution for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+^ESCTHY860752	Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY860762	Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (Wockhardt UK Ltd)
+^ESCTHY866544	Hypurin Bovine Isophane 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+^ESCTHY866549	Hypurin Bovine Neutral 100units/ml solution for injection 3ml cartridges (Wockhardt UK Ltd)
+^ESCTHY866555	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+^ESCTHY866589	Hypurin Porcine Isophane 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+^ESCTHY866595	Hypurin Porcine Neutral 100units/ml solution for injection 3ml cartridges (Wockhardt UK Ltd)
+^ESCTHY936463	Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHY936467	Hypurin Porcine Neutral 100units/ml solution for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTHY936479	Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHY936484	Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHY936488	Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHY936490	Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTHY936493	Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (Waymade Healthcare Plc)
+^ESCTIN1002034	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTIN1006932	Insuman Infusat 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCTIN1007052	Insuman Infusat 100units/ml solution for injection 3.15ml cartridges (Sanofi)
+^ESCTIN1007404	Insulin human 100units/ml solution for injection 3.15ml cartridges
+^ESCTIN1007998	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCTIN1019317	Insuman Basal 100units/ml suspension for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCTIN1042898	Insulin degludec 100units/ml solution for injection 3ml cartridges
+^ESCTIN1042899	Insulin degludec 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN1042900	Insulin degludec 200units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN1063007	Invokana 300mg tablets (Janssen-Cilag Ltd)
+^ESCTIN1063010	Invokana 100mg tablets (Janssen-Cilag Ltd)
+^ESCTIN1087451	Insulin aspart 100units/ml solution for injection 1.6ml cartridges
+^ESCTIN1100760	Insulin human 500units/ml solution for injection 20ml vials (Special Order)
+^ESCTIN1103030	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN1109717	Insulin lispro 200units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN1118083	Insulin glargine 300units/ml solution for injection 1.5ml pre-filled disposable devices
+^ESCTIN1128285	Insulin soluble human 1unit/ml solution for infusion 50ml pre-filled syringes
+^ESCTIN1128288	Insulin soluble human 1unit/ml solution for infusion 50ml pre-filled syringes (Special Order)
+^ESCTIN612382	Insulin soluble human 100units/ml solution for injection 3ml cartridges
+^ESCTIN612383	Insulin soluble human 100units/mL injection solution 3mL cartridge
+^ESCTIN612384	Insulin soluble human 100units/ml solution for injection 10ml vials
+^ESCTIN612385	Insulin soluble human 100units/mL injection solution 10mL vial
+^ESCTIN612386	Insulin lispro 100units/ml solution for injection 10ml vials
+^ESCTIN612387	Insulin lispro 100units/mL injection solution 10mL vial
+^ESCTIN612388	Insulin lispro 100units/ml solution for injection 3ml cartridges
+^ESCTIN612389	Insulin lispro 100units/mL injection solution 3mL cartridge
+^ESCTIN612390	Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN612391	Insulin lispro 100units/mL injection solution 3mL prefilled pen
+^ESCTIN612394	Insulin aspart 100units/ml solution for injection 10ml vials
+^ESCTIN612395	Insulin aspart 100units/mL injection solution 10mL vial
+^ESCTIN612402	Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials
+^ESCTIN612403	Insulin zinc extended 100units/mL injection 10mL vial
+^ESCTIN612404	Insulin zinc, extended 100units/mL injection 10mL vial
+^ESCTIN612405	Insulin zinc suspension crystalline human 100units/mL injection 10mL vial
+^ESCTIN612406	Insulin zinc extended release 100units/mL injection 10mL vial
+^ESCTIN612407	Insulin isophane human 100units/ml suspension for injection 3ml cartridges
+^ESCTIN612408	Insulin isophane human 100units/mL injection suspension 3mL cartridge
+^ESCTIN612411	Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials
+^ESCTIN612412	Insulin protamine zinc bovine 100units/mL injection 10mL vial
+^ESCTIN612413	Insulin protamine zinc beef 100units/mL injection 10mL vial
+^ESCTIN612414	Insulin protamine zinc beef 100units/mL injection suspension 10mL vial
+^ESCTIN619907	Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN619908	Insulin soluble human 100units/mL injection 3mL prefilled pen
+^ESCTIN619909	Insulin soluble human 100units/mL injection solution 3mL prefilled pen
+^ESCTIN619910	Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN619911	Insulin isophane human 100units/mL injection 3mL prefilled pen
+^ESCTIN619912	Insulin isophane human 100units/mL injection suspension 3mL prefilled pen
+^ESCTIN635418	Insulin soluble bovine 100units/ml solution for injection 10ml vials
+^ESCTIN635419	Insulin soluble bovine 100units/mL injection 10mL vial
+^ESCTIN635420	Insulin soluble beef 100units/mL injection 10mL vial
+^ESCTIN635421	Insulin soluble bovine 100u/mL injection solution 10mL vial
+^ESCTIN635422	Insulin soluble beef 100u/mL injection solution 10mL vial
+^ESCTIN635423	Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges
+^ESCTIN635424	Insulin soluble bovine 100units/mL injection 1.5mL cartridge
+^ESCTIN635425	Insulin soluble beef 100units/mL injection 1.5mL cartridge
+^ESCTIN635426	Insulin soluble bovine 100u/mL injection solution 1.5mL cartridge
+^ESCTIN635427	Insulin soluble beef 100u/mL injection solution 1.5mL cartridge
+^ESCTIN635445	Insulin soluble porcine 100units/ml solution for injection 10ml vials
+^ESCTIN635446	Insulin soluble porcine 100units/mL injection 10mL vial
+^ESCTIN635447	Insulin soluble pork 100units/mL injection 10mL vial
+^ESCTIN635448	Insulin soluble porcine 100u/mL injection solution 10mL vial
+^ESCTIN635449	Insulin soluble pork 100u/mL injection solution 10mL vial
+^ESCTIN635543	Insulin soluble human 100units/ml solution for injection 5ml vials
+^ESCTIN635544	Insulin soluble human 100units/mL injection 5mL vial
+^ESCTIN635545	Insulin soluble human 100u/mL injection solution 5mL vial
+^ESCTIN635547	Insulin soluble human 100units/ml solution for injection 1.5ml cartridges
+^ESCTIN635548	Insulin soluble human 100units/mL injection 1.5mL cartridge
+^ESCTIN635549	Insulin soluble human 100u/mL injection solution 1.5mL cartridge
+^ESCTIN635591	Insulin lispro 100units/ml solution for injection 1.5ml cartridges
+^ESCTIN635592	Insulin lispro 100units/mL injection 1.5mL cartridge
+^ESCTIN635593	Insulin lispro 100u/mL injection solution 1.5mL cartridge
+^ESCTIN664420	Insulin glargine 100units/ml solution for injection 3ml cartridges
+^ESCTIN664421	Insulin glargine (recombinant human insulin analogue) 100units/ml injection 3ml cartridge
+^ESCTIN664422	Insulin glargine 100units/mL injection solution 3mL cartridge
+^ESCTIN664497	Insulin zinc mixed human 100units/ml suspension for injection 10ml vials
+^ESCTIN664498	Insulin zinc suspension mixed human 100units/ml injection 10ml vial
+^ESCTIN664500	Insulin glargine 100units/ml solution for injection 10ml vials
+^ESCTIN664501	Insulin glargine (recombinant human insulin analogue) 100units/ml injection 10ml vial
+^ESCTIN664502	Insulin glargine 100units/mL injection solution 10mL vial
+^ESCTIN664538	Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN664539	Insulin glargine (recombinant human insulin analogue) 100units/ml injection 3ml pre-filled disposable injection device
+^ESCTIN664540	Insulin glargine 100units/mL injection solution 3mL prefilled disposable injection device
+^ESCTIN682665	Insulin glulisine 100units/ml solution for injection 10ml vials
+^ESCTIN682666	Insulin glulisine 100units/mL injection 10mL vial
+^ESCTIN860475	Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTIN860498	Insuman Basal 100units/ml suspension for injection 5ml vials (Sanofi)
+^ESCTIN860512	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTIN860520	Insuman Basal 100units/ml suspension for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTIN860528	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTIN860534	Insulatard FlexPen 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTIN860539	Insulatard NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTIN860544	Insuman Comb 25 100units/ml suspension for injection 5ml vials (Sanofi)
+^ESCTIN860551	Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTIN860555	Insuman Comb 25 100units/ml suspension for injection 3ml cartridges (Sanofi)
+^ESCTIN860564	Insuman Basal 100units/ml suspension for injection 3ml cartridges (Sanofi)
+^ESCTIN860616	Insuman Comb 15 100units/ml suspension for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTIN860631	Insuman Comb 15 100units/ml suspension for injection 5ml vials (Aventis Pharma)
+^ESCTIN860638	Insuman Comb 50 100units/ml suspension for injection 3ml cartridges (Sanofi)
+^ESCTIN860653	Insuman Comb 15 100units/ml suspension for injection 3ml cartridges (Sanofi)
+^ESCTIN860659	Insuman Comb 50 100units/ml suspension for injection 5ml vials (Aventis Pharma)
+^ESCTIN860698	Insuman Comb 50 100units/ml suspension for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTIN860829	Insuman Rapid 100units/ml solution for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTIN860859	Insuman Rapid 100units/ml solution for injection 5ml vials (Aventis Pharma)
+^ESCTIN860969	Insuman Rapid 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCTIN862131	Insulin aspart 100units/ml solution for injection 3ml cartridges
+^ESCTIN862132	Insulin aspart 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN862133	Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862134	Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862135	Insulin isophane biphasic human 10/90 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862136	Insulin isophane biphasic human 10/90 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862137	Insulin isophane biphasic human 10/90 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862138	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862139	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862140	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 5ml vials
+^ESCTIN862141	Insulin isophane biphasic human 20/80 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862142	Insulin isophane biphasic human 20/80 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862143	Insulin isophane biphasic human 20/80 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862144	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862145	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862146	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 5ml vials
+^ESCTIN862147	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862149	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 10ml vials
+^ESCTIN862151	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862152	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862153	Insulin isophane biphasic human 40/60 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862154	Insulin isophane biphasic human 40/60 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862155	Insulin isophane biphasic human 40/60 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862156	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862157	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 10ml vials
+^ESCTIN862158	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862159	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862160	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 5ml vials
+^ESCTIN862161	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862162	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 10ml vials
+^ESCTIN862164	Insulin isophane bovine 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862165	Insulin isophane bovine 100units/ml suspension for injection 10ml vials
+^ESCTIN862166	Insulin isophane human 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862167	Insulin isophane human 100units/ml suspension for injection 10ml vials
+^ESCTIN862168	Insulin isophane human 100units/ml suspension for injection 5ml vials
+^ESCTIN862169	Insulin isophane porcine 100units/ml suspension for injection 1.5ml cartridges
+^ESCTIN862170	Insulin isophane porcine 100units/ml suspension for injection 10ml vials
+^ESCTIN862171	Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862172	Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices
+^ESCTIN862173	Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml cartridges
+^ESCTIN862174	Insulin soluble porcine 100units/ml solution for injection 1.5ml cartridges
+^ESCTIN862175	Insulin zinc mixed bovine 100units/ml suspension for injection 10ml vials
+^ESCTIN866579	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 3ml cartridges
+^ESCTIN866580	Insulin isophane bovine 100units/ml suspension for injection 3ml cartridges
+^ESCTIN866581	Insulin soluble bovine 100units/ml solution for injection 3ml cartridges
+^ESCTIN866776	Insulin isophane porcine 100units/ml suspension for injection 3ml cartridges
+^ESCTIN866777	Insulin soluble porcine 100units/ml solution for injection 3ml cartridges
+^ESCTIN898635	Insulin detemir 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN898657	Insulin detemir 100units/ml solution for injection 3ml cartridges
+^ESCTIN919617	Insulin glulisine 100units/ml solution for injection 3ml cartridges
+^ESCTIN926110	Insulin glulisine 100units/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN928375	Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml cartridges
+^ESCTIN936611	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTIN936613	Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTIN936620	Insulatard 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTIN966499	Insulin human 100units/ml solution for injection 10ml vials
+^ESCTIN983217	Insulin human 500units/ml solution for injection 20ml vials
+^ESCTIN986023	Insulin human 100units/ml solution for injection 10ml vials (Special Order)
+^ESCTIN993014	Insulin lispro biphasic 25/75 100units/ml suspension for injection 10ml vials
+^ESCTJA1002555	Januvia 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTJA1007192	Januvia 100mg tablets (Lexon (UK) Ltd)
+^ESCTJA1012021	Januvia 100mg tablets (DE Pharmaceuticals)
+^ESCTJA1025961	Januvia 50mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA1025964	Januvia 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA1026130	Januvia 100mg tablets (Waymade Healthcare Plc)
+^ESCTJA1034586	Janumet 50mg/1000mg tablets (Waymade Healthcare Plc)
+^ESCTJA1051529	Januvia 50mg tablets (Waymade Healthcare Plc)
+^ESCTJA1059054	Januvia 25mg tablets (Waymade Healthcare Plc)
+^ESCTJA1073847	Jardiance 10mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJA1073856	Jardiance 25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJA940087	Januvia 100mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA959832	Januvia 100mg tablets (Dowelhurst Ltd)
+^ESCTJA992849	Januvia 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTJA997877	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJE1036265	Jentadueto 2.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTJE1036268	Jentadueto 2.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTKO1040776	Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd)
+^ESCTKO1040779	Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd)
+^ESCTLA1002036	Lantus 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1002038	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1008566	Lantus 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1011150	Lantus 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd)
+^ESCTLA1011152	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Necessity Supplies Ltd)
+^ESCTLA1011154	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pen (Necessity Supplies Ltd)
+^ESCTLA1011161	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Necessity Supplies Ltd)
+^ESCTLA1011163	Lantus 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd)
+^ESCTLA1012423	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pen (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1036225	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Waymade Healthcare Plc)
+^ESCTLA1045596	Laaglyda MR 60mg tablets (Consilient Health Ltd)
+^ESCTLA1049377	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Waymade Healthcare Plc)
+^ESCTLA860744	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pen (Sanofi)
+^ESCTLA860754	Lantus 100units/ml solution for injection 3ml cartridges (Sanofi)
+^ESCTLA860791	Lantus 100units/ml solution for injection 10ml vials (Sanofi)
+^ESCTLA927469	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)
+^ESCTLA930433	Lantus 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTLA930441	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pen (Waymade Healthcare Plc)
+^ESCTLA930449	Lantus 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTLA944471	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCTLA975248	Lantus 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTLA975262	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sigma Pharmaceuticals Plc)
+^ESCTLA975278	Lantus 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc)
+^ESCTLA975285	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pen (Sigma Pharmaceuticals Plc)
+^ESCTLE1002040	Levemir Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1002042	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTLE898590	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTLE898595	Levemir Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTLE936441	Levemir Penfill 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTLE936445	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTLE936739	Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTLE994685	Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTLI1020806	Linagliptin 5mg tablets
+^ESCTLI1036594	Linagliptin 2.5mg / Metformin 1g tablets
+^ESCTLI1036595	Linagliptin 2.5mg / Metformin 850mg tablets
+^ESCTLI1043424	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043425	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices and Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043426	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1107733	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices (Colorama Pharmaceuticals Ltd)
+^ESCTLI1116237	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices (J M McGill Ltd)
+^ESCTLI1117655	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices (Niche Pharma Ltd)
+^ESCTLI1127694	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices (DE Pharmaceuticals)
+^ESCTLI985909	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTLY1042911	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1042916	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1043028	Lyxumia 10micrograms/20micrograms treatment initiation pack (Sanofi)
+^ESCTME1006112	Metformin 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006116	Metformin 850mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006399	Metformin 500mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTME1007932	Metabet SR 500mg tablets (Morningside Healthcare Ltd)
+^ESCTME1009928	Metformin 500mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME1014821	Metabet SR 1000mg tablets (Morningside Healthcare Ltd)
+^ESCTME1018825	Metabet SR 1000mg tablets (Actavis UK Ltd)
+^ESCTME1021197	Metformin 1g modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTME1038067	Metabet SR 500mg tablets (Actavis UK Ltd)
+^ESCTME1041563	Metformin 500mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTME1041568	Metformin 1g modified-release tablets (Waymade Healthcare Plc)
+^ESCTME1041572	Metformin 500mg tablets (Waymade Healthcare Plc)
+^ESCTME1041578	Metformin 850mg tablets (Waymade Healthcare Plc)
+^ESCTME1044460	Metformin 500mg/5ml oral solution sugar free (Zentiva)
+^ESCTME1046748	Metformin 500mg tablets (Aurobindo Pharma Ltd)
+^ESCTME1046750	Metformin 850mg tablets (Aurobindo Pharma Ltd)
+^ESCTME1047140	Metformin 500mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTME1065786	Metformin 500mg tablets (DE Pharmaceuticals)
+^ESCTME1065791	Metformin 850mg tablets (DE Pharmaceuticals)
+^ESCTME1065794	Metformin 1g modified-release tablets (DE Pharmaceuticals)
+^ESCTME1065797	Metformin 500mg modified-release tablets (DE Pharmaceuticals)
+^ESCTME1067397	Metformin 500mg modified-release tablets (Actavis UK Ltd)
+^ESCTME1067399	Metformin 1g modified-release tablets (Actavis UK Ltd)
+^ESCTME1099265	Metformin 500mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTME1104301	Metformin 500mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTME1107814	Metformin 1g oral powder sachets sugar free (J M McGill Ltd)
+^ESCTME1117659	Metformin 1g oral powder sachets sugar free (Niche Pharma Ltd)
+^ESCTME1118106	Metformin 500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118110	Metformin 850mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118213	Metformin 500mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTME1126178	Metformin 500mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTME1126763	Metformin 1g modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME1128258	Metformin 500mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1142001	Metformin 1g modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTME1151366	Metformin 750mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTME1152504	Metformin 850mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCTME1152507	Metformin 1g/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCTME1152516	Metformin 500mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCTME1152531	Metformin 1g/5ml oral solution sugar free
+^ESCTME1152532	Metformin 850mg/5ml oral solution sugar free
+^ESCTME1154463	Metformin 850mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1154465	Metformin 1g/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1158406	Metformin 850mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1158408	Metformin 1g/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1159889	Metformin 850mg tablets (Crescent Pharma Ltd)
+^ESCTME1159894	Metformin 500mg tablets (Crescent Pharma Ltd)
+^ESCTME1161747	Meijumet 500mg modified-release tablets (Medreich Plc)
+^ESCTME1161751	Meijumet 750mg modified-release tablets (Medreich Plc)
+^ESCTME1161756	Meijumet 1000mg modified-release tablets (Medreich Plc)
+^ESCTME612472	Metformin 500mg tablets
+^ESCTME612474	Metformin hydrochloride 500 mg oral tablet
+^ESCTME612475	Metformin 850mg tablets
+^ESCTME612477	Metformin hydrochloride 850 mg oral tablet
+^ESCTME644930	Metformin 500mg modified-release tablets
+^ESCTME644931	Metformin hydrochloride 500mg m/r tablet
+^ESCTME677341	Metformin 500mg / Rosiglitazone 1mg tablets
+^ESCTME677345	Metformin 500mg / Rosiglitazone 2mg tablets
+^ESCTME677351	Metformin 1g / Rosiglitazone 2mg tablets
+^ESCTME677355	Metformin 1g / Rosiglitazone 4mg tablets
+^ESCTME677467	Metformin 500mg/5ml oral solution
+^ESCTME677468	Metformin hydrochloride 100mg/mL oral solution
+^ESCTME677735	Metformin 750mg modified-release tablets
+^ESCTME677736	Metformin hydrochloride 750mg m/r tablet
+^ESCTME681162	Metformin 1g modified-release tablets
+^ESCTME681163	Metformin hydrochloride 1g m/r tablet
+^ESCTME681164	Metformin hydrochloride 1000mg m/r tablet
+^ESCTME802559	Metformin 850mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME803638	Metformin 850mg tablets (Actavis UK Ltd)
+^ESCTME804850	Metformin 850mg tablets (Teva UK Ltd)
+^ESCTME805748	Metformin 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME806258	Metformin 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME808098	Metformin 500mg tablets (Mylan Ltd)
+^ESCTME810466	Metformin 850mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME820312	Metformin 500mg tablets (Sandoz Ltd)
+^ESCTME820634	Metformin 850mg tablets (Zentiva)
+^ESCTME821219	Metformin 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME824593	Metformin 500mg tablets (Zentiva)
+^ESCTME825231	Metformin 850mg tablets (Mylan Ltd)
+^ESCTME829617	Metformin 850mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME830859	Metformin 500mg tablets (Actavis UK Ltd)
+^ESCTME831203	Metformin 500mg tablets (Teva UK Ltd)
+^ESCTME832354	Metformin 850mg tablets (Sandoz Ltd)
+^ESCTME893619	Metformin 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME893801	Metformin 850mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME897615	Metformin 500mg tablets (Ranbaxy (UK) Ltd)
+^ESCTME897635	Metformin 850mg tablets (Ranbaxy (UK) Ltd)
+^ESCTME907915	Metformin 425mg/5ml oral solution (Special Order)
+^ESCTME907917	Metformin 250mg/5ml oral solution (Special Order)
+^ESCTME907921	Metformin 425mg/5ml oral suspension (Special Order)
+^ESCTME907929	Metformin 250mg/5ml oral suspension (Special Order)
+^ESCTME907932	Metformin 500mg/5ml oral solution (Special Order)
+^ESCTME907940	Metformin 500mg/5ml oral suspension (Special Order)
+^ESCTME907949	Metformin 850mg/5ml oral solution (Special Order)
+^ESCTME907962	Metformin 850mg/5ml oral suspension (Special Order)
+^ESCTME908413	Metformin 250mg/5ml oral solution
+^ESCTME908414	Metformin 250mg/5ml oral suspension
+^ESCTME908415	Metformin 425mg/5ml oral solution
+^ESCTME908416	Metformin 425mg/5ml oral suspension
+^ESCTME908417	Metformin 500mg/5ml oral suspension
+^ESCTME908419	Metformin 850mg/5ml oral solution
+^ESCTME908420	Metformin 850mg/5ml oral suspension
+^ESCTME909343	Metformin 850mg capsules (Special Order)
+^ESCTME909692	Metformin 850mg capsules
+^ESCTME920046	Metformin 500mg tablets (Wockhardt UK Ltd)
+^ESCTME920049	Metformin 850mg tablets (Wockhardt UK Ltd)
+^ESCTME923276	Metformin 850mg tablets (The Boots Company Plc)
+^ESCTME923614	Metformin 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME923623	Metformin 850mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME927821	Metformin 500mg tablets (Relonchem Ltd)
+^ESCTME927830	Metformin 850mg tablets (Relonchem Ltd)
+^ESCTME928840	Metformin 500mg tablets (Arrow Generics Ltd)
+^ESCTME928846	Metformin 850mg tablets (Arrow Generics Ltd)
+^ESCTME932245	Metsol 500mg/5ml oral solution (Kappin Ltd)
+^ESCTME932378	Metformin 500mg/5ml oral solution sugar free
+^ESCTME933369	Metformin 500mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTME934644	Metformin 500mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME941265	Metformin 500mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTME954370	Metformin 1g/5ml oral solution (Special Order)
+^ESCTME954376	Metformin 5mg/5ml oral solution (Special Order)
+^ESCTME954475	Metformin 1g/5ml oral solution
+^ESCTME954788	Metformin 5mg/5ml oral solution
+^ESCTME965546	Metformin 500mg tablets (Tillomed Laboratories Ltd)
+^ESCTME965559	Metformin 850mg tablets (Tillomed Laboratories Ltd)
+^ESCTME973583	Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTME975394	Metformin 500mg tablets (Boston Healthcare Ltd)
+^ESCTME975399	Metformin 850mg tablets (Boston Healthcare Ltd)
+^ESCTME977697	Metformin 500mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTME981388	Metformin 1g oral powder sachets sugar free
+^ESCTME981389	Metformin 500mg oral powder sachets sugar free
+^ESCTME986980	Metformin 500mg tablets (Zanza Laboratories Ltd)
+^ESCTME986984	Metformin 850mg tablets (Zanza Laboratories Ltd)
+^ESCTME987079	Metformin 500mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTME987951	Metformin 500mg tablets (Bristol Laboratories Ltd)
+^ESCTME987954	Metformin 850mg tablets (Bristol Laboratories Ltd)
+^ESCTME994433	Metformin 500mg tablets (Pfizer Ltd)
+^ESCTME994436	Metformin 850mg tablets (Pfizer Ltd)
+^ESCTME997981	Metformin 1g / Sitagliptin 50mg tablets
+^ESCTMI820764	Minodiab 5mg tablets (Pfizer Ltd)
+^ESCTMI825934	Minodiab 2.5mg tablets (Pfizer Ltd)
+^ESCTMI860558	Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTMI860561	Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTMI860575	Mixtard 20 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTMI860611	Mixtard 10 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTMI860619	Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTMI860630	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTMI860634	Mixtard 40 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTMI860642	Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTMI860645	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTMI860664	Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTMI860695	Mixtard 50 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+^ESCTMI860724	Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTMI878792	Minodiab 5mg tablets (Waymade Healthcare Plc)
+^ESCTMI936521	Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTMI936528	Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTMI936535	Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTMI936537	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTMI936539	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTMI936541	Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTMI936629	Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTMI974779	Minodiab 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI974789	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTMI992727	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTMO860753	Monotard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTNA450897	Nateglinide 180mg tablets
+^ESCTNA450899	Nateglinide 180 mg oral tablet
+^ESCTNA450900	Nateglinide 120mg tablets
+^ESCTNA450902	Nateglinide 120 mg oral tablet
+^ESCTNA450903	Nateglinide 60mg tablets
+^ESCTNA450905	Nateglinide 60 mg oral tablet
+^ESCTNA962658	Nazdol MR 30mg tablets (Consilient Health Ltd)
+^ESCTNA978469	Nazdol MR 30mg tablets (Teva UK Ltd)
+^ESCTNA978472	Nazdol MR 30mg tablets (Mylan Ltd)
+^ESCTNI964294	Niddaryl 1mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964299	Niddaryl 2mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964303	Niddaryl 3mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964306	Niddaryl 4mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNO1002887	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Necessity Supplies Ltd)
+^ESCTNO1002889	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Necessity Supplies Ltd)
+^ESCTNO1002892	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Necessity Supplies Ltd)
+^ESCTNO1002895	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd)
+^ESCTNO1021169	NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTNO1026405	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCTNO1026407	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals)
+^ESCTNO1083104	NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges (Novo Nordisk Ltd)
+^ESCTNO804764	NovoNorm 500microgram tablets (Novo Nordisk Ltd)
+^ESCTNO818762	NovoNorm 1mg tablets (Novo Nordisk Ltd)
+^ESCTNO828239	NovoNorm 2mg tablets (Novo Nordisk Ltd)
+^ESCTNO860684	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTNO860690	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTNO860704	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTNO860719	NovoRapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTNO860728	NovoRapid Novolet 100units/ml solution for injection (Novo Nordisk Ltd)
+^ESCTNO860734	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTNO877083	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTNO877085	NovoRapid Novolet 100units/ml solution for injection (Waymade Healthcare Plc)
+^ESCTNO877179	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTNO878138	NovoNorm 500microgram tablets (Waymade Healthcare Plc)
+^ESCTNO878141	NovoNorm 1mg tablets (Waymade Healthcare Plc)
+^ESCTNO878143	NovoNorm 2mg tablets (Waymade Healthcare Plc)
+^ESCTNO929750	NovoNorm 500microgram tablets (Dowelhurst Ltd)
+^ESCTNO929753	NovoNorm 1mg tablets (Dowelhurst Ltd)
+^ESCTNO929758	NovoNorm 2mg tablets (Dowelhurst Ltd)
+^ESCTNO930212	NovoRapid 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTNO930326	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+^ESCTNO930332	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTNO959947	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Dowelhurst Ltd)
+^ESCTNO959953	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Dowelhurst Ltd)
+^ESCTNO959959	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Dowelhurst Ltd)
+^ESCTNO959967	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Dowelhurst Ltd)
+^ESCTNO971578	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTNO971633	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTNO971672	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Sigma Pharmaceuticals Plc)
+^ESCTNO974356	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+^ESCTNO974362	NovoRapid 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc)
+^ESCTNO992752	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTNO992756	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTNO992761	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCTNO992767	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+^ESCTON1005716	Onglyza 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTON1012101	Onglyza 2.5mg tablets (AstraZeneca UK Ltd)
+^ESCTON1012433	Onglyza 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTON1033690	Onglyza 5mg tablets (Waymade Healthcare Plc)
+^ESCTON1116591	Onglyza 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTON987171	Onglyza 5mg tablets (AstraZeneca UK Ltd)
+^ESCTPI1011836	Pioglitazone 45mg/5ml oral suspension (Special Order)
+^ESCTPI1012096	Pioglitazone 45mg/5ml oral suspension
+^ESCTPI1019378	Pioglitazone 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1019380	Pioglitazone 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1020364	Pioglitazone 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020366	Pioglitazone 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020368	Pioglitazone 45mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020405	Pioglitazone 45mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1020429	Pioglitazone 15mg tablets (Consilient Health Ltd)
+^ESCTPI1020431	Pioglitazone 30mg tablets (Consilient Health Ltd)
+^ESCTPI1020433	Pioglitazone 45mg tablets (Consilient Health Ltd)
+^ESCTPI1021379	Pioglitazone 15mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1021381	Pioglitazone 30mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1021383	Pioglitazone 45mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1027894	Pioglitazone 15mg tablets (Sandoz Ltd)
+^ESCTPI1027900	Pioglitazone 30mg tablets (Sandoz Ltd)
+^ESCTPI1027904	Pioglitazone 45mg tablets (Sandoz Ltd)
+^ESCTPI1028230	Pioglitazone 15mg tablets (Actavis UK Ltd)
+^ESCTPI1028232	Pioglitazone 30mg tablets (Actavis UK Ltd)
+^ESCTPI1028234	Pioglitazone 45mg tablets (Actavis UK Ltd)
+^ESCTPI1033607	Pioglitazone 15mg tablets (Zentiva)
+^ESCTPI1033609	Pioglitazone 30mg tablets (Zentiva)
+^ESCTPI1033611	Pioglitazone 45mg tablets (Zentiva)
+^ESCTPI1041282	Pioglitazone 15mg tablets (Teva UK Ltd)
+^ESCTPI1041291	Pioglitazone 30mg tablets (Teva UK Ltd)
+^ESCTPI1041294	Pioglitazone 45mg tablets (Teva UK Ltd)
+^ESCTPI1042077	Pioglitazone 15mg tablets (Waymade Healthcare Plc)
+^ESCTPI1042079	Pioglitazone 30mg tablets (Waymade Healthcare Plc)
+^ESCTPI1042081	Pioglitazone 45mg tablets (Waymade Healthcare Plc)
+^ESCTPI1052207	Pioglitazone 15mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1052210	Pioglitazone 30mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1052212	Pioglitazone 45mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1057262	Pioglitazone 15mg tablets (Accord Healthcare Ltd)
+^ESCTPI1057264	Pioglitazone 30mg tablets (Accord Healthcare Ltd)
+^ESCTPI1057266	Pioglitazone 45mg tablets (Accord Healthcare Ltd)
+^ESCTPI1063438	Pioglitazone 30mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1063440	Pioglitazone 45mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1063461	Pioglitazone 15mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1118826	Pioglitazone 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1118828	Pioglitazone 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1118830	Pioglitazone 45mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1119591	Pioglitazone 15mg tablets (DE Pharmaceuticals)
+^ESCTPI1119920	Pioglitazone 30mg tablets (DE Pharmaceuticals)
+^ESCTPI1119922	Pioglitazone 45mg tablets (DE Pharmaceuticals)
+^ESCTPI1127043	Pioglitazone 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127045	Pioglitazone 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127047	Pioglitazone 45mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1142652	Pioglitazone 15mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1142654	Pioglitazone 30mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1142656	Pioglitazone 45mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1152953	Pioglitazone 45mg tablets (Mylan Ltd)
+^ESCTPI1152955	Pioglitazone 30mg tablets (Mylan Ltd)
+^ESCTPI1152957	Pioglitazone 15mg tablets (Mylan Ltd)
+^ESCTPI613083	Pioglitazone 30mg tablets
+^ESCTPI613085	Pioglitazone 30 mg oral tablet
+^ESCTPI613086	Pioglitazone 15mg tablets
+^ESCTPI613088	Pioglitazone 15 mg oral tablet
+^ESCTPI639812	Pioglitazone 45mg tablets
+^ESCTPI639814	Pioglitazone 45 mg oral tablet
+^ESCTPI694438	Pioglitazone 15mg / Metformin 850mg tablets
+^ESCTPI694440	Pioglitazone 15 mg and metformin 850 mg oral tablet
+^ESCTPI962445	Pioglitazone 30mg/5ml oral suspension (Special Order)
+^ESCTPI962493	Pioglitazone 30mg/5ml oral suspension
+^ESCTPI987361	Pioglitazone 15mg/5ml oral suspension (Special Order)
+^ESCTPI987705	Pioglitazone 15mg/5ml oral suspension
+^ESCTPO860593	Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTPO860768	Pork Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTPO861128	Pork Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTPO936431	Pork Actrapid 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTPO936439	Pork Insulatard 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTPO936457	Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTPR1001211	Prandin 0.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1003086	Prandin 0.5mg tablets (Necessity Supplies Ltd)
+^ESCTPR1003088	Prandin 1mg tablets (Necessity Supplies Ltd)
+^ESCTPR1003093	Prandin 2mg tablets (Necessity Supplies Ltd)
+^ESCTPR450898	Product containing nateglinide 180 mg/1 each oral tablet
+^ESCTPR450901	Product containing nateglinide 120 mg/1 each oral tablet
+^ESCTPR450904	Product containing nateglinide 60 mg/1 each oral tablet
+^ESCTPR612416	Product containing chlorpropamide 100 mg/1 each oral tablet
+^ESCTPR612419	Product containing chlorpropamide 250 mg/1 each oral tablet
+^ESCTPR612422	Product containing glibenclamide 2.5 mg/1 each oral tablet
+^ESCTPR612423	Product containing glyburide 2.5 mg/1 each oral tablet
+^ESCTPR612427	Product containing glibenclamide 5 mg/1 each oral tablet
+^ESCTPR612428	Product containing glyburide 5 mg/1 each oral tablet
+^ESCTPR612436	Product containing gliclazide 80 mg/1 each oral tablet
+^ESCTPR612439	Product containing glipizide 5 mg/1 each oral tablet
+^ESCTPR612442	Product containing glipizide 2.5 mg/1 each oral tablet
+^ESCTPR612447	Product containing gliquidone 30 mg/1 each oral tablet
+^ESCTPR612453	Product containing tolazamide 250 mg/1 each oral tablet
+^ESCTPR612456	Product containing glimepiride 2 mg/1 each oral tablet
+^ESCTPR612459	Product containing glimepiride 1 mg/1 each oral tablet
+^ESCTPR612462	Product containing glimepiride 3 mg/1 each oral tablet
+^ESCTPR612465	Product containing glimepiride 4 mg/1 each oral tablet
+^ESCTPR612468	Product containing tolbutamide 500 mg/1 each oral tablet
+^ESCTPR612473	Product containing metformin hydrochloride 500 mg/1 each oral tablet
+^ESCTPR612476	Product containing metformin hydrochloride 850 mg/1 each oral tablet
+^ESCTPR613053	Product containing acarbose 50 mg/1 each oral tablet
+^ESCTPR613056	Product containing acarbose 100 mg/1 each oral tablet
+^ESCTPR613066	Product containing repaglinide 0.5 milligram/1 each oral tablet
+^ESCTPR613068	Product containing repaglinide 1 mg/1 each oral tablet
+^ESCTPR613071	Product containing repaglinide 2 mg/1 each oral tablet
+^ESCTPR613076	Product containing rosiglitazone 8 mg/1 each oral tablet
+^ESCTPR613079	Product containing rosiglitazone 4 mg/1 each oral tablet
+^ESCTPR613084	Product containing pioglitazone 30 mg/1 each oral tablet
+^ESCTPR613087	Product containing pioglitazone 15 mg/1 each oral tablet
+^ESCTPR638866	Product containing tolazamide 500 mg/1 each oral tablet
+^ESCTPR639813	Product containing pioglitazone 45 mg/1 each oral tablet
+^ESCTPR677339	Product containing rosiglitazone 1 mg and metformin 500 mg/1 each oral tablet
+^ESCTPR677343	Product containing rosiglitazone 2 mg and metformin 500 mg/1 each oral tablet
+^ESCTPR677349	Product containing rosiglitazone 2 mg and metformin 1000 mg/1 each oral tablet
+^ESCTPR677353	Product containing rosiglitazone 4 mg and metformin 1000 mg/1 each oral tablet
+^ESCTPR694439	Product containing pioglitazone 15 mg and metformin 850 mg/1 each oral tablet
+^ESCTPR701723	Product containing sitagliptin 25 mg/1 each oral tablet
+^ESCTPR702454	Product containing sitagliptin 100 mg/1 each oral tablet
+^ESCTPR702784	Product containing sitagliptin 50 mg/1 each oral tablet
+^ESCTPR727142	Product containing saxagliptin 2.5 mg/1 each oral tablet
+^ESCTPR728186	Product containing saxagliptin 5 mg/1 each oral tablet
+^ESCTPR757998	Product containing dapagliflozin 5 mg/1 each oral tablet
+^ESCTPR758001	Product containing dapagliflozin 10 mg/1 each oral tablet
+^ESCTPR758006	Product containing canagliflozin 100 mg/1 each oral tablet
+^ESCTPR934530	Prandin 0.5mg tablets (Novo Nordisk Ltd)
+^ESCTPR934575	Prandin 1mg tablets (Novo Nordisk Ltd)
+^ESCTPR934584	Prandin 2mg tablets (Novo Nordisk Ltd)
+^ESCTPR942865	Prandin 0.5mg tablets (Waymade Healthcare Plc)
+^ESCTPR942867	Prandin 1mg tablets (Waymade Healthcare Plc)
+^ESCTPR942869	Prandin 2mg tablets (Waymade Healthcare Plc)
+^ESCTPR960012	Prandin 0.5mg tablets (Dowelhurst Ltd)
+^ESCTPR974898	Prandin 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR974900	Prandin 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR975195	Prandin 0.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR989702	Prandin 0.5mg tablets (Lexon (UK) Ltd)
+^ESCTQT1153704	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd)
+^ESCTRE1017677	Repaglinide 500microgram tablets (Teva UK Ltd)
+^ESCTRE1017680	Repaglinide 1mg tablets (Teva UK Ltd)
+^ESCTRE1017683	Repaglinide 2mg tablets (Teva UK Ltd)
+^ESCTRE1018600	Repaglinide 2mg tablets (Aspire Pharma Ltd)
+^ESCTRE1018602	Repaglinide 1mg tablets (Aspire Pharma Ltd)
+^ESCTRE1018604	Repaglinide 500microgram tablets (Aspire Pharma Ltd)
+^ESCTRE1018812	Repaglinide 500microgram tablets (Actavis UK Ltd)
+^ESCTRE1018818	Repaglinide 1mg tablets (Actavis UK Ltd)
+^ESCTRE1018821	Repaglinide 2mg tablets (Actavis UK Ltd)
+^ESCTRE1019368	Repaglinide 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019373	Repaglinide 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019376	Repaglinide 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019382	Repaglinide 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1019385	Repaglinide 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1019388	Repaglinide 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1030188	Repaglinide 500microgram tablets (Creo Pharma Ltd)
+^ESCTRE1030191	Repaglinide 1mg tablets (Creo Pharma Ltd)
+^ESCTRE1030194	Repaglinide 2mg tablets (Creo Pharma Ltd)
+^ESCTRE1032186	Repaglinide 500microgram tablets (Accord Healthcare Ltd)
+^ESCTRE1032226	Repaglinide 1mg tablets (Accord Healthcare Ltd)
+^ESCTRE1032239	Repaglinide 2mg tablets (Accord Healthcare Ltd)
+^ESCTRE1042370	Repaglinide 500microgram tablets (Waymade Healthcare Plc)
+^ESCTRE1042373	Repaglinide 1mg tablets (Waymade Healthcare Plc)
+^ESCTRE1042376	Repaglinide 2mg tablets (Waymade Healthcare Plc)
+^ESCTRE1119702	Repaglinide 1mg tablets (DE Pharmaceuticals)
+^ESCTRE1119707	Repaglinide 2mg tablets (DE Pharmaceuticals)
+^ESCTRE1126774	Repaglinide 500microgram tablets (DE Pharmaceuticals)
+^ESCTRE1127217	Repaglinide 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1127220	Repaglinide 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1127223	Repaglinide 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1153096	Repaglinide 500microgram tablets (Mylan Ltd)
+^ESCTRE1153099	Repaglinide 1mg tablets (Mylan Ltd)
+^ESCTRE1153150	Repaglinide 2mg tablets (Mylan Ltd)
+^ESCTRE613064	Repaglinide 500microgram tablets
+^ESCTRE613065	Repaglinide 0.5 mg oral tablet
+^ESCTRE613067	Repaglinide 1mg tablets
+^ESCTRE613069	Repaglinide 1 mg oral tablet
+^ESCTRE613070	Repaglinide 2mg tablets
+^ESCTRE613072	Repaglinide 2 mg oral tablet
+^ESCTRE947285	Repaglinide 500microgram tablets (Waymade Healthcare Plc)
+^ESCTRE947287	Repaglinide 1mg tablets (Waymade Healthcare Plc)
+^ESCTRE947289	Repaglinide 2mg tablets (Waymade Healthcare Plc)
+^ESCTRO613075	Rosiglitazone 8mg tablets
+^ESCTRO613077	Rosiglitazone 8 mg oral tablet
+^ESCTRO613078	Rosiglitazone 4mg tablets
+^ESCTRO613080	Rosiglitazone 4 mg oral tablet
+^ESCTRO677338	Rosiglitazone 1mg / Metformin 500mg tablets
+^ESCTRO677340	Rosiglitazone 1 mg and metformin 500 mg oral tablet
+^ESCTRO677342	Rosiglitazone 2mg / Metformin 500mg tablets
+^ESCTRO677344	Rosiglitazone 2 mg and metformin 500 mg oral tablet
+^ESCTRO677348	Rosiglitazone 2mg / Metformin 1g tablets
+^ESCTRO677350	Rosiglitazone 2 mg and metformin 1000 mg oral tablet
+^ESCTRO677352	Rosiglitazone 4mg / Metformin 1g tablets
+^ESCTRO677354	Rosiglitazone 4 mg and metformin 1000 mg oral tablet
+^ESCTSA1040826	Saxagliptin 2.5mg / Metformin 1g tablets
+^ESCTSA1040827	Saxagliptin 2.5mg / Metformin 850mg tablets
+^ESCTSA1154285	Saxagliptin 5mg / Dapagliflozin 10mg tablets
+^ESCTSA1154305	Saxenda 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTSA727141	Saxagliptin 2.5mg tablets
+^ESCTSA727143	Saxagliptin 2.5 mg oral tablet
+^ESCTSA728185	Saxagliptin 5mg tablets
+^ESCTSA728187	Saxagliptin 5 mg oral tablet
+^ESCTSE804435	Semi-Daonil 2.5mg tablets (Sanofi)
+^ESCTSI1059062	Sitagliptin 50mg tablets (Waymade Healthcare Plc)
+^ESCTSI1059064	Sitagliptin 100mg tablets (Waymade Healthcare Plc)
+^ESCTSI1116686	Sitagliptin 25mg tablets (Waymade Healthcare Plc)
+^ESCTSI1143891	Sitagliptin 50mg/5ml oral solution (Special Order)
+^ESCTSI1144005	Sitagliptin 50mg/5ml oral solution
+^ESCTSI1146013	Sitagliptin 50mg/5ml oral suspension (Special Order)
+^ESCTSI1146228	Sitagliptin 50mg/5ml oral suspension
+^ESCTSI701722	Sitagliptin 25mg tablets
+^ESCTSI701724	Sitagliptin 25 mg oral tablet
+^ESCTSI702453	Sitagliptin 100mg tablets
+^ESCTSI702455	Sitagliptin 100 mg oral tablet
+^ESCTSI702783	Sitagliptin 50mg tablets
+^ESCTSI702785	Sitagliptin 50 mg oral tablet
+^ESCTST1001520	Starlix 60mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTST1008035	Starlix 120mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTST863112	Starlix 60mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTST863119	Starlix 120mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTST865282	Starlix 180mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTST878320	Starlix 120mg tablets (Waymade Healthcare Plc)
+^ESCTST878324	Starlix 180mg tablets (Waymade Healthcare Plc)
+^ESCTST960198	Starlix 120mg tablets (Dowelhurst Ltd)
+^ESCTST971782	Starlix 120mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTST971786	Starlix 180mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSU1067521	Sukkarto SR 1000mg tablets (Morningside Healthcare Ltd)
+^ESCTSU1067523	Sukkarto SR 500mg tablets (Morningside Healthcare Ltd)
+^ESCTSY1120491	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120498	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120507	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+^ESCTSY1120514	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+^ESCTTO1004989	Tolbutamide 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1042411	Tolbutamide 500mg tablets (Waymade Healthcare Plc)
+^ESCTTO1091924	Tolbutamide 500mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTO1117766	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pen (Sanofi)
+^ESCTTO1119816	Tolbutamide 500mg tablets (DE Pharmaceuticals)
+^ESCTTO1146046	Tolazamide 250mg tablets (Imported (United States))
+^ESCTTO1146049	Tolazamide 500mg tablets (Imported (United States))
+^ESCTTO612452	Tolazamide 250mg tablets
+^ESCTTO612454	Tolazamide 250 mg oral tablet
+^ESCTTO612467	Tolbutamide 500mg tablets
+^ESCTTO612469	Tolbutamide 500 mg oral tablet
+^ESCTTO638865	Tolazamide 500mg tablets
+^ESCTTO638867	Tolazamide 500 mg oral tablet
+^ESCTTO804670	Tolbutamide 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTO813196	Tolbutamide 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO816884	Tolbutamide 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO820646	Tolbutamide 500mg tablets (Teva UK Ltd)
+^ESCTTO829975	Tolbutamide 500mg tablets (Actavis UK Ltd)
+^ESCTTO870146	Tolbutamide 500mg tablets (Mylan Ltd)
+^ESCTTO908890	Tolbutamide 500mg/5ml oral suspension (Special Order)
+^ESCTTO909015	Tolbutamide 500mg/5ml oral suspension
+^ESCTTO923651	Tolbutamide 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTTO961311	Tolbutamide 1g/5ml oral suspension (Special Order)
+^ESCTTO961316	Tolbutamide 250mg/5ml oral suspension (Special Order)
+^ESCTTO961378	Tolbutamide 1g/5ml oral suspension
+^ESCTTO961379	Tolbutamide 250mg/5ml oral suspension
+^ESCTTO999258	Tolbutamide 500mg tablets (Sovereign Medical Ltd)
+^ESCTTR1020563	Trajenta 5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTTR1042801	Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+^ESCTTR1042811	Tresiba FlexTouch 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTTR1042830	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTTR1104686	Trulicity 0.75mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTTR1104698	Trulicity 1.5mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTUL860735	Ultratard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTVA1104327	Vamju 30mg modified-release tablets (AMCo)
+^ESCTVA1104329	Vamju 60mg modified-release tablets (AMCo)
+^ESCTVE860978	Velosulin 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+^ESCTVE936514	Velosulin 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+^ESCTVI1012848	Vitile XL 30mg tablets (Actavis UK Ltd)
+^ESCTVI1058647	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)
+^ESCTVI1058662	Vipidia 6.25mg tablets (Takeda UK Ltd)
+^ESCTVI1058681	Vipidia 12.5mg tablets (Takeda UK Ltd)
+^ESCTVI1058684	Vipidia 25mg tablets (Takeda UK Ltd)
+^ESCTVI1103013	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTVI1120875	Vipdomet 12.5mg/1000mg tablets (Waymade Healthcare Plc)
+^ESCTVI1120877	Vipidia 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTVI1120879	Vipidia 25mg tablets (Waymade Healthcare Plc)
+^ESCTVI830178	Vivazide 80mg tablets (Lexon (UK) Ltd)
+^ESCTVI962235	Vildagliptin 50mg tablets
+^ESCTVI962236	Vildagliptin 50mg / Metformin 1g tablets
+^ESCTVI962237	Vildagliptin 50mg / Metformin 850mg tablets
+^ESCTVI985906	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTVO1100562	Vokanamet 50mg/850mg tablets (Janssen-Cilag Ltd)
+^ESCTVO1100581	Vokanamet 50mg/1000mg tablets (Janssen-Cilag Ltd)
+^ESCTXI1062326	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)
+^ESCTXI1062329	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)
+^ESCTXU1100840	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTZI1099993	Ziclaseg 30mg modified-release tablets (Lupin (Europe) Ltd)
+^ESCTZI1154438	Zicron PR 30mg tablets (Bristol Laboratories Ltd)
+^ESCTZI994219	Zicron 40mg tablets (Bristol Laboratories Ltd)
+ABIN104796NEMIS	Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge
+ABSO104799NEMIS	Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ABSO141543NEMIS	Abasaglar Tempo  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ACIN15879NEMIS	Actrapid  Injection  100 units/ml, 10 ml vial
+ACIN15883NEMIS	Actrapid Penfill  Injection  100 units/ml, 3 ml cartridge
+ACPR15881NEMIS	Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+ACPR24174EMIS	Human Actrapid  Preloaded pen  100 units/ml
+ACTA16489NEMIS	Actos  Tablets  45 mg
+ACTA23754EMIS	Acarbose  Tablets  100 mg
+ACTA23755EMIS	Acarbose  Tablets  50 mg
+ACTA5319NEMIS	Actos  Tablets  15 mg
+ACTA5320NEMIS	Actos  Tablets  30 mg
+ADSO140397NEMIS	Admelog  Solution for injection  100 units/ml, 10 ml vial
+ADSO140398NEMIS	Admelog  Solution for injection  100 units/ml, 3 ml cartridge
+ADSO140399NEMIS	Admelog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ALPO108655NEMIS	Albiglutide  Powder and solvent for solution for injection  30 mg pen
+ALPO108657NEMIS	Albiglutide  Powder and solvent for solution for injection  50 mg pen
+ALTA86900NEMIS	Alogliptin  Tablets  6.25 mg
+ALTA86902NEMIS	Alogliptin  Tablets  12.5 mg
+ALTA86903NEMIS	Alogliptin  Tablets  25 mg
+ALTA86909NEMIS	Alogliptin And Metformin  Tablets  12.5 mg + 1000 mg
+AMOR133174NEMIS	Amglidia  Oral suspension  600 micrograms/ml with 1 ml oral syringe
+AMOR133175NEMIS	Amglidia  Oral suspension  600 micrograms/ml with 5 ml oral syringe
+AMOR133176NEMIS	Amglidia  Oral suspension  6 mg/ml with 1 ml oral syringe
+AMOR133177NEMIS	Amglidia  Oral suspension  6 mg/ml with 5 ml oral syringe
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+APIN21135NEMIS	Apidra  Injection  100 units/ml, 10 ml vial
+APIN21136NEMIS	Apidra  Injection  100 units/ml, 3 ml cartridge
+APIN23125NEMIS	Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge
+APPR26865NEMIS	Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+AVTA16477NEMIS	Avandamet  Tablets  1 mg + 500 mg
+AVTA16478NEMIS	Avandamet  Tablets  2 mg + 500 mg
+AVTA19076NEMIS	Avandamet  Tablets  2 mg + 1 gram
+AVTA19077NEMIS	Avandamet  Tablets  4 mg + 1 gram
+AVTA4766NEMIS	Avandia  Tablets  4 mg
+AVTA4767NEMIS	Avandia  Tablets  8 mg
+AXTA139393NEMIS	Axpinet  Tablets  500 mg
+AXTA139394NEMIS	Axpinet  Tablets  850 mg
+BIM/105983NEMIS	Bilxona  M/R tablets  30 mg
+BIM/105984NEMIS	Bilxona  M/R tablets  60 mg
+BOM/35196NEMIS	Bolamyn Sr  M/R tablets  500 mg
+BOM/79470NEMIS	Bolamyn Sr  M/R tablets  1 gram
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+BYPO135693NEMIS	Bydureon  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled pen
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+BYPR135696NEMIS	Bydureon Bcise  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled pen
+CATA88608NEMIS	Canagliflozin  Tablets  100 mg
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+CHTA34282MGEMIS	Chlorpropamide  Tablets  100 mg (The Boots Company)
+CHTA34283MGEMIS	Chlorpropamide  Tablets  250 mg (The Boots Company)
+CHTA600	Chlorpropamide  Tablets  100 mg
+CHTA601	Chlorpropamide  Tablets  250 mg
+COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
+DAM/40049NEMIS	Dacadis Mr  M/R tablets  30 mg
+DATA77713NEMIS	Dapagliflozin  Tablets  5 mg
+DATA77715NEMIS	Dapagliflozin  Tablets  10 mg
+DATA806	Daonil  Tablets  5 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+DIM/74131NEMIS	Diagemet Xl  M/R tablets  500 mg
+DITA102012NEMIS	Diabiom  Tablets  15 mg
+DITA102013NEMIS	Diabiom  Tablets  30 mg
+DITA102014NEMIS	Diabiom  Tablets  45 mg
+DITA10531BRIDL	Diabetamide  Tablets  2.5 mg
+DITA10533BRIDL	Diabetamide  Tablets  5 mg
+DITA3417	Diamicron  Tablets  80 mg
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+DUSO138406NEMIS	Dulaglutide  Solution for injection  3 mg/0.5 ml pre-filled device
+DUSO138407NEMIS	Dulaglutide  Solution for injection  4.5 mg/0.5 ml pre-filled device
+EDM/44756NEMIS	Edicil  M/R tablets  30 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+EMTA133082NEMIS	Empagliflozin And Linagliptin  Tablets  10 mg + 5 mg
+EMTA133083NEMIS	Empagliflozin And Linagliptin  Tablets  25 mg + 5 mg
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+ENTA51172NEMIS	Enyglid  Tablets  500 micrograms
+ENTA51173NEMIS	Enyglid  Tablets  1 mg
+ENTA51174NEMIS	Enyglid  Tablets  2 mg
+EPPO108669NEMIS	Eperzan  Powder and solvent for solution for injection  30 mg pen
+EPPO108676NEMIS	Eperzan  Powder and solvent for solution for injection  50 mg pen
+ERTA130344NEMIS	Ertugliflozin  Tablets  5 mg
+ERTA130346NEMIS	Ertugliflozin  Tablets  15 mg
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+EUTA3551	Euglucon  Tablets  2.5 mg
+EUTA3552	Euglucon  Tablets  5 mg
+EXIN22882NEMIS	Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister
+EXIN22884NEMIS	Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+EXPO135692NEMIS	Exenatide  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled device
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+EXPR135695NEMIS	Exenatide  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled device
+FISO122084NEMIS	Fiasp  Solution for injection  100 units/ml, 10 ml vial
+FISO122085NEMIS	Fiasp Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+FISO122086NEMIS	Fiasp Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+GATA27037NEMIS	Galvus  Tablets  50 mg
+GLM/104765NEMIS	Glucient Sr  M/R tablets  750 mg
+GLM/104766NEMIS	Glucient Sr  M/R tablets  1000 mg
+GLM/137738NEMIS	Glucorex Sr  M/R tablets  500 mg
+GLM/19422NEMIS	Glucophage Sr  M/R tablets  500 mg
+GLM/30450NEMIS	Glucophage Sr  M/R tablets  750 mg
+GLM/35044NEMIS	Glucophage Sr  M/R tablets  1 gram
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+GLOR133171NEMIS	Glibenclamide  Oral Suspension Sugar Free  600 micrograms/ml
+GLOR133172NEMIS	Glibenclamide  Oral Suspension Sugar Free  6 mg/ml
+GLOR22986NEMIS	Gliclazide  Oral suspension  80 mg/5 ml
+GLOR35742NEMIS	Glucophage  Oral powder sachets  500 mg
+GLOR35743NEMIS	Glucophage  Oral powder sachets  1 gram
+GLOR45373NEMIS	Gliclazide  Oral suspension  40 mg/5 ml
+GLOR46460NEMIS	Glibenclamide  Oral solution  5 mg/5 ml
+GLOR46461NEMIS	Glibenclamide  Oral suspension  5 mg/5 ml
+GLOR76870NEMIS	Glimepiride  Oral suspension  6 mg/5 ml
+GLTA101061NEMIS	Glidipion  Tablets  15 mg
+GLTA1302	Glibenclamide  Tablets  2.5 mg
+GLTA1303	Glibenclamide  Tablets  5 mg
+GLTA1304	Glibenese  Tablets  5 mg
+GLTA1305	Glipizide  Tablets  5 mg
+GLTA1307	Glucophage  Tablets  500 mg
+GLTA1308	Glucophage  Tablets  850 mg
+GLTA131754NEMIS	Gliclazide  Tablets  160 mg
+GLTA131756NEMIS	Glydex  Tablets  160 mg
+GLTA133085NEMIS	Glyxambi  Tablets  10 mg + 5 mg
+GLTA133086NEMIS	Glyxambi  Tablets  25 mg + 5 mg
+GLTA23750EMIS	Glucobay  Tablets  100 mg
+GLTA23751EMIS	Glucobay  Tablets  50 mg
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+GLTA35315MGEMIS	Glibenclamide  Tablets  2.5 mg (Kent Pharm)
+GLTA35316MGEMIS	Glibenclamide  Tablets  2.5 mg (Generics (UK))
+GLTA35317MGEMIS	Glibenclamide  Tablets  2.5 mg (A.A.H. Pharm)
+GLTA35318MGEMIS	Glibenclamide  Tablets  2.5 mg (Unichem)
+GLTA35319MGEMIS	Glibenclamide  Tablets  2.5 mg (Alpharma)
+GLTA35320MGEMIS	Glibenclamide  Tablets  2.5 mg (Wockhardt UK)
+GLTA35321MGEMIS	Glibenclamide  Tablets  2.5 mg (Teva UK)
+GLTA35322MGEMIS	Glibenclamide  Tablets  2.5 mg (Ivax Pharmaceuticals)
+GLTA35323MGEMIS	Glibenclamide  Tablets  5 mg (Wockhardt UK)
+GLTA35324MGEMIS	Glibenclamide  Tablets  5 mg (Teva UK)
+GLTA35325MGEMIS	Glibenclamide  Tablets  5 mg (Alpharma)
+GLTA35326MGEMIS	Glibenclamide  Tablets  5 mg (Unichem)
+GLTA35327MGEMIS	Glibenclamide  Tablets  5 mg (A.A.H. Pharm)
+GLTA35328MGEMIS	Glibenclamide  Tablets  5 mg (Kent Pharm)
+GLTA35329MGEMIS	Glibenclamide  Tablets  5 mg (Generics (UK))
+GLTA35330MGEMIS	Glibenclamide  Tablets  5 mg (Ivax Pharmaceuticals)
+GLTA35331MGEMIS	Glipizide  Tablets  5 mg (Pfizer)
+GLTA35332MGEMIS	Glipizide  Tablets  5 mg (Generics (UK))
+GLTA35333MGEMIS	Glipizide  Tablets  5 mg (Ivax Pharmaceuticals)
+GLTA35334MGEMIS	Glipizide  Tablets  5 mg (Sandoz)
+GLTA35335MGEMIS	Glipizide  Tablets  5 mg (A.A.H. Pharm)
+GLTA35336MGEMIS	Glipizide  Tablets  5 mg (Alpharma)
+GLTA35337MGEMIS	Glipizide  Tablets  5 mg (Unichem)
+GLTA35338MGEMIS	Glipizide  Tablets  5 mg (Kent Pharm)
+GLTA35345MGEMIS	Glimepiride  Tablets  2 mg (Unichem)
+GLTA35346MGEMIS	Glimepiride  Tablets  3 mg (Unichem)
+GLTA35347MGEMIS	Gliclazide  Tablets  80 mg (Kent Pharm)
+GLTA35348MGEMIS	Gliclazide  Tablets  80 mg (Sterwin Medicines)
+GLTA35349MGEMIS	Gliclazide  Tablets  80 mg (A.A.H. Pharm)
+GLTA35350MGEMIS	Gliclazide  Tablets  80 mg (Alpharma)
+GLTA35351MGEMIS	Gliclazide  Tablets  80 mg (Generics (UK))
+GLTA35352MGEMIS	Gliclazide  Tablets  80 mg (Unichem)
+GLTA35353MGEMIS	Gliclazide  Tablets  80 mg (Wockhardt UK)
+GLTA35354MGEMIS	Gliclazide  Tablets  80 mg (Ivax Pharmaceuticals)
+GLTA35355MGEMIS	Gliclazide  Tablets  80 mg (Teva UK)
+GLTA35356MGEMIS	Gliclazide  Tablets  80 mg (Genus Pharm)
+GLTA35357MGEMIS	Gliclazide  Tablets  80 mg (Sandoz)
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+GLTA4961	Glipizide  Tablets  2.5 mg
+GLTA51170NEMIS	Glucient Sr  M/R tablets  500 mg
+GLTA52769NEMIS	Glizofar  Tablets  15 mg
+GLTA52770NEMIS	Glizofar  Tablets  30 mg
+GLTA52771NEMIS	Glizofar  Tablets  45 mg
+GLTA5912	Glurenorm  Tablets  30 mg
+GLTA6910	Gliquidone  Tablets  30 mg
+GLTA85469NEMIS	Glidipion  Tablets  30 mg
+GLTA85470NEMIS	Glidipion  Tablets  45 mg
+HUCA28935EMIS	Humalog  Cartridges (1.5 Ml)  100 units/ml
+HUCA32498EMIS	Humulin I  Cartridges (3 Ml)  100 units/ml
+HUCA32500EMIS	Humulin S  Cartridges (3 Ml)  100 units/ml
+HUCA32506EMIS	Humulin M2  Cartridges (3 Ml)  
+HUCA32509EMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge
+HUCA34841EMIS	Humalog  Cartridges (3 Ml)  100 units/ml
+HUCA35540EMIS	Humalog Mix25  Cartridges (3 Ml)  100 units/ml
+HUCA8384BRID	Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml
+HUIN22574NEMIS	Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+HUIN25811EMIS	Humulin M5  Injection  10 ml vial
+HUIN28933NEMIS	Humulin R  Injection  500 units/ml, 20 ml vial
+HUIN28936EMIS	Humalog  Injection  100 units/ml
+HUIN3718	Humulin I  Suspension For Injection  100 units/ml, 10 ml vial
+HUIN3721	Humulin S  Injection  100 units/ml
+HUIN5904	Humulin Zn  Injection  100 units/ml, 10 ml vial
+HUIN8925BRECO	Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial
+HUINEGTON7136	Humulin Lente  Injection  100 units/ml, 10 ml vial
+HUPE26785EMIS	Human Mixtard 10  Penfill Cartridges (1.5 Ml)  
+HUPE26788EMIS	Human Mixtard 20  Penfill Cartridges (1.5 Ml)  
+HUPE26791EMIS	Human Mixtard 30  Penfill Cartridges (1.5 Ml)  
+HUPE26794EMIS	Human Mixtard 40  Penfill Cartridges (1.5 Ml)  
+HUPE26797EMIS	Human Mixtard 50  Penfill Cartridges (1.5 Ml)  
+HUPE26799EMIS	Human Insulatard Ge  Penfill Cartridges (1.5 Ml)  100 units/ml
+HUPR20905NEMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR24176EMIS	Human Insulatard Ge  Preloaded pen  100 units/ml
+HUPR26715EMIS	Humaject (Humulin S)  Preloaded pen  100 units/ml
+HUPR26724EMIS	Humaject (Humulin M3)  Preloaded pen  
+HUPR31276NEMIS	Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUPR31278NEMIS	Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR31280NEMIS	Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR35541EMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR5189NEMIS	Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR5191NEMIS	Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUPR5192NEMIS	Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSO101078NEMIS	Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+HUSO125757NEMIS	Humulin R Kwikpen  Solution for injection  500 units/ml, 3 ml pre-filled pen
+HUSO125825NEMIS	Humalog Junior Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUSO141568NEMIS	Humalog Tempo  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUSU40341NEMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 10 ml vial
+HUSU45861NEMIS	Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSU45871NEMIS	Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN15399NEMIS	Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge
+HYIN15400NEMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15401NEMIS	Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15402NEMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15403NEMIS	Hypurin Porcine 30/70 Mix  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN30855EMIS	Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial
+HYIN30856EMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml
+HYIN30862EMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml
+HYIN3087NEMIS	Hypurin Porcine 30/70 Mix  Injection  10 ml vial
+HYIN3089NEMIS	Hypurin Porcine 30/70 Mix  Injection (1.5 ml cartridges)  
+HYIN31696EMIS	Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial
+HYIN3742	Hypurin Bovine Isophane  Injection  100 units/ml
+HYIN3743	Hypurin Bovine Lente  Injection  100 units/ml, 10 ml vial
+HYIN3745	Hypurin Bovine Neutral  Injection  100 units/ml, 10 ml vial
+HYIN3746	Hypurin Bovine Pzi  Injection  100 units/ml, 10 ml vial
+INCA1198NEMIS	Insulin Aspart  Cartridges (3 Ml)  100 units/ml
+INCA28939EMIS	Insulin Lispro  Cartridges (1.5 Ml)  100 units/ml
+INCA34843EMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge
+ININ1196NEMIS	Insulin Aspart  Injection  100 units/ml, 10 ml vial
+ININ13807NEMIS	Insulin Glargine  Injection  100 units/ml, 10 ml vial
+ININ13808NEMIS	Insulin Glargine  Injection  100 units/ml, 3 ml cartridge
+ININ15887NEMIS	Insulatard  Injection  100 units/ml, 10 ml vial
+ININ15889NEMIS	Insulatard Penfill  Injection  100 units/ml, 3 ml cartridge
+ININ18217NEMIS	Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ21131NEMIS	Insulin Glulisine  Injection  100 units/ml, 10 ml vial
+ININ21133NEMIS	Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge
+ININ28940EMIS	Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial
+ININ3269NEMIS	Insuman Rapid  Injection  100 units/ml, 5 ml vial
+ININ3272NEMIS	Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3278NEMIS	Insuman Basal  Injection  100 units/ml, 5 ml vial
+ININ3281NEMIS	Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3283NEMIS	Insuman Comb 25  Injection  100 units/ml, 5 ml vial
+ININ3284NEMIS	Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3759	Pork Insulatard  Injection  100 units/ml, 10 ml vial
+ININ4906NEMIS	Insuman Comb 15  Injection  100 units/ml, 5 ml vial
+ININ4907NEMIS	Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4909NEMIS	Insuman Comb 50  Injection  100 units/ml, 5 ml vial
+ININ4910NEMIS	Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR11699NEMIS	Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INPR131751NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 3 ml pen
+INPR13771NEMIS	Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR13809NEMIS	Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR15885NEMIS	Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+INPR18215NEMIS	Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INPR20078NEMIS	Insulin Aspart  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INPR22401NEMIS	Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR46954NEMIS	Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR51153NEMIS	Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR5190NEMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INPR6338NEMIS	Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6340NEMIS	Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6343NEMIS	Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6345NEMIS	Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6347NEMIS	Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO101077NEMIS	Insulin Lispro  Solution for injection  200 units/ml, 3 ml pre-filled device
+INSO103676NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+INSO105697NEMIS	Insulin Human  Solution for injection  100 units/ml, 10 ml vial
+INSO105699NEMIS	Insulin Human  Solution for injection  100 units/ml, 3.15 ml cartridge
+INSO105701NEMIS	Insuman Infusat  Solution for injection  100 units/ml, 10 ml vial
+INSO105703NEMIS	Insuman Infusat  Solution for injection  100 units/ml, 3.15 ml cartridge
+INSO127200NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 10 ml vial
+INSO127201NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 3 ml cartridge
+INSO127202NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INSO127472NEMIS	Insulin Soluble Porcine  Solution for injection  100 units/ml, 10 ml vial
+INSO130642NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml device
+INSO130643NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml device
+INSO78480NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device
+INSO78482NEMIS	Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device
+INSO78486NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge
+INSO94844NEMIS	Insulin Aspart  Solution for injection  100 units/ml, 1.6 ml cartridge
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+INTA88612NEMIS	Invokana  Tablets  100 mg
+INTA88613NEMIS	Invokana  Tablets  300 mg
+ISIN1507	Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial
+ISIN33727EMIS	Isophane Insulin (Human Pyr)  Injection  100 units/ml, 10 ml vial
+ISIN666NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+ISIN668NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ISIN669NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+ISIN671NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+JATA25231NEMIS	Januvia  Tablets  100 mg
+JATA37230NEMIS	Janumet  Tablets  50 mg + 1000 mg
+JATA71612NEMIS	Januvia  Tablets  50 mg
+JATA71614NEMIS	Januvia  Tablets  25 mg
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+JEM/141764NEMIS	Jesacrin  M/R tablets  750 mg
+JEM/141765NEMIS	Jesacrin  M/R tablets  1 gram
+JETA76746NEMIS	Jentadueto  Tablets  2.5 mg + 1000 mg
+JETA76747NEMIS	Jentadueto  Tablets  2.5 mg + 850 mg
+KOTA78214NEMIS	Komboglyze  Tablets  2.5 mg + 850 mg
+KOTA78215NEMIS	Komboglyze  Tablets  2.5 mg + 1000 mg
+LAIN13570NEMIS	Lantus  Injection  100 units/ml, 10 ml vial
+LAIN13572NEMIS	Lantus  Injection  100 units/ml, 3 ml cartridge
+LAIN21795NEMIS	Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge
+LAM/134755NEMIS	Lamzarin  M/R tablets  30 mg
+LAM/134757NEMIS	Lamzarin  M/R tablets  60 mg
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+LAPR13574NEMIS	Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LAPR26863NEMIS	Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LEIN18219NEMIS	Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+LEPR18221NEMIS	Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LEPR25142NEMIS	Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+LITA51797NEMIS	Linagliptin  Tablets  5 mg
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO137705NEMIS	Lyumjev Junior Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LYSO137707NEMIS	Lyumjev Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LYSO137709NEMIS	Lyumjev Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+LYSO137711NEMIS	Lyumjev  Solution for injection  100 units/ml, 3ml cartridge
+LYSO137712NEMIS	Lyumjev  Solution for injection  100 units/ml, 10 ml vial
+LYSO142093NEMIS	Lyumjev Tempo  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+MEM/123710NEMIS	Meijumet  M/R tablets  500 mg
+MEM/123711NEMIS	Meijumet  M/R tablets  750 mg
+MEM/123712NEMIS	Meijumet  M/R tablets  1 gram
+MEM/127976NEMIS	Metuxtan Sr  M/R tablets  500 mg
+MEM/19420NEMIS	Metformin Hydrochloride  M/R tablets  500 mg
+MEM/30449NEMIS	Metformin Hydrochloride  M/R tablets  750 mg
+MEM/35043NEMIS	Metformin Hydrochloride  M/R tablets  1 gram
+MEM/47158NEMIS	Metabet Sr  M/R tablets  500 mg
+MEM/49996NEMIS	Metabet Sr  M/R tablets  1 gram
+MEOR117652NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 1 gram/5 ml
+MEOR117653NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 850 mg/5 ml
+MEOR23336NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 500 mg/5 ml
+MEOR23338NEMIS	Metsol  Oral solution  500 mg/5 ml
+MEOR35740NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  500 mg
+MEOR35741NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  1 gram
+MEOR46782NEMIS	Metformin Hydrochloride  Oral solution  500 mg/5 ml
+MESU11377NEMIS	Metformin Hydrochloride  Suspension  500 mg/5 ml
+META139092NEMIS	Metformin Hydrochloride  Tablets  1 gram
+META1787	Metformin Hydrochloride  Tablets  500 mg
+META1788	Metformin Hydrochloride  Tablets  850 mg
+META29313NEMIS	Metformin And Vildagliptin  Tablets  850 mg + 50 mg
+META29314NEMIS	Metformin And Vildagliptin  Tablets  1 gram + 50 mg
+META35937MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Unichem)
+META35938MGEMIS	Metformin Hydrochloride  Tablets  500 mg (A.A.H. Pharm)
+META35939MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Generics (UK))
+META35940MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Sandoz)
+META35941MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Kent Pharm)
+META35942MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Winthrop Pharmaceuticals )
+META35943MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Alpharma)
+META35944MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Teva UK)
+META35945MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Ivax Pharmaceuticals)
+META35946MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Ranbaxy)
+META35947MGEMIS	Metformin Hydrochloride  Tablets  500 mg (Wockhardt UK)
+META35948MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Unichem)
+META35949MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Alpharma)
+META35950MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Teva UK)
+META35951MGEMIS	Metformin Hydrochloride  Tablets  850 mg (A.A.H. Pharm)
+META35952MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Winthrop Pharmaceuticals )
+META35953MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Generics (UK))
+META35954MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Kent Pharm)
+META35955MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Sandoz)
+META35956MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Ivax Pharmaceuticals)
+META35957MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Ranbaxy)
+META35958MGEMIS	Metformin Hydrochloride  Tablets  850 mg (Wockhardt UK)
+META42230NEMIS	Metformin And Sitagliptin  Tablets  1000 mg + 50 mg
+META76743NEMIS	Metformin And Linagliptin  Tablets  1000 mg + 2.5 mg
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+MIIN15894NEMIS	Mixtard 10 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIIN15898NEMIS	Mixtard 20 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIIN15902NEMIS	Mixtard 30  Injection  100 units/ml, 10 ml vial
+MIIN15904NEMIS	Mixtard 30 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIIN15908NEMIS	Mixtard 40 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIIN15914NEMIS	Mixtard 50 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIINEGTON7152	Pork Mixtard 30  Injection  10 ml vial
+MIPR11701NEMIS	Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+MIPR15892NEMIS	Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15900NEMIS	Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15906NEMIS	Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15910NEMIS	Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MITA3948	Minodiab  Tablets  2.5 mg
+MITA3949	Minodiab  Tablets  5 mg
+MOIN15918NEMIS	Monotard  Injection  100 units/ml, 10 ml vial
+MOSO143018NEMIS	Mounjaro  Solution for injection  2.5 mg/0.5 ml pre-filled pen
+MOSO143019NEMIS	Mounjaro  Solution for injection  5 mg/0.5 ml pre-filled pen
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+NATA6619NEMIS	Nateglinide  Tablets  60 mg
+NATA6621NEMIS	Nateglinide  Tablets  120 mg
+NATA6622NEMIS	Nateglinide  Tablets  180 mg
+NITA30143NEMIS	Niddaryl  Tablets  1 mg
+NITA30144NEMIS	Niddaryl  Tablets  2 mg
+NITA30145NEMIS	Niddaryl  Tablets  3 mg
+NITA30146NEMIS	Niddaryl  Tablets  4 mg
+NOCA1201NEMIS	Novorapid Penfill  Cartridges (3 Ml)  100 units/ml
+NOIN1200NEMIS	Novorapid  Injection  100 units/ml, 10 ml vial
+NOIN12698NEMIS	Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+NOPR1202NEMIS	Novorapid Novolet  Prefilled syringes  100 units/ml
+NOPR12702NEMIS	Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NOPR13769NEMIS	Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NOSO51972NEMIS	Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NOSO94846NEMIS	Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge
+NOTA34153EMIS	Novonorm  Tablets  500 micrograms
+NOTA34156EMIS	Novonorm  Tablets  1 mg
+NOTA34157EMIS	Novonorm  Tablets  2 mg
+ONTA39317NEMIS	Onglyza  Tablets  5 mg
+ONTA48255NEMIS	Onglyza  Tablets  2.5 mg
+OZSO130277NEMIS	Ozempic  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled pen
+OZSO130278NEMIS	Ozempic  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled pen
+OZSO130279NEMIS	Ozempic  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled pen
+PEIN9239BRIDL	Human Mixtard 30  Injection (cartridges)  100 u/ml
+PEPR22308EMIS	Human Mixtard 30  Preloaded pen  
+PEPR23940EMIS	Human Mixtard 10  Preloaded pen  
+PEPR23943EMIS	Human Mixtard 20  Preloaded pen  
+PEPR23946EMIS	Human Mixtard 40  Preloaded pen  
+PEPR23950EMIS	Human Mixtard 50  Preloaded pen  
+PITA16488NEMIS	Pioglitazone Hydrochloride  Tablets  45 mg
+PITA23356NEMIS	Pioglitazone And Metformin  Tablets  15 mg + 850 mg
+PITA5315NEMIS	Pioglitazone Hydrochloride  Tablets  15 mg
+PITA5317NEMIS	Pioglitazone Hydrochloride  Tablets  30 mg
+POIN35125EMIS	Pork Actrapid  Injection  100 units/ml, 10 ml vial
+PRIN5344	Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial
+PRTA23502NEMIS	Prandin  Tablets  500 micrograms
+PRTA23503NEMIS	Prandin  Tablets  1 mg
+PRTA23504NEMIS	Prandin  Tablets  2 mg
+QTTA119016NEMIS	Qtern  Tablets  5 mg + 10 mg
+RETA34161EMIS	Repaglinide  Tablets  1 mg
+RETA34162EMIS	Repaglinide  Tablets  2 mg
+RETA34163EMIS	Repaglinide  Tablets  500 micrograms
+ROTA18929NEMIS	Rosiglitazone And Metformin  Tablets  1 mg + 500 mg
+ROTA18930NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 500 mg
+ROTA19074NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 1 gram
+ROTA19075NEMIS	Rosiglitazone And Metformin  Tablets  4 mg + 1 gram
+ROTA4762NEMIS	Rosiglitazone Maleate  Tablets  4 mg
+ROTA4764NEMIS	Rosiglitazone Maleate  Tablets  8 mg
+RYTA137821NEMIS	Rybelsus  Tablets  3 mg
+RYTA137822NEMIS	Rybelsus  Tablets  7 mg
+RYTA137823NEMIS	Rybelsus  Tablets  14 mg
+SASO119244NEMIS	Saxenda  Solution for injection  6 mg/ml, 3 ml pre-filled pen
+SATA119013NEMIS	Saxagliptin And Dapagliflozin  Tablets  5 mg + 10 mg
+SATA39314NEMIS	Saxagliptin  Tablets  5 mg
+SATA48254NEMIS	Saxagliptin  Tablets  2.5 mg
+SATA78211NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 850 mg
+SATA78212NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 1000 mg
+SESO128258NEMIS	Semglee  Solution for injection  100 units/ml, 3 ml pre-filled pen
+SESO130272NEMIS	Semaglutide  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled device
+SESO130274NEMIS	Semaglutide  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled device
+SESO130275NEMIS	Semaglutide  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled device
+SETA137817NEMIS	Semaglutide  Tablets  3 mg
+SETA137818NEMIS	Semaglutide  Tablets  7 mg
+SETA137819NEMIS	Semaglutide  Tablets  14 mg
+SETA4308	Semi-Daonil  Tablets  2.5 mg
+SIOR143087NEMIS	Sitagliptin  Oral Solution, Sugar Free  100 mg/5 ml
+SIOR144344NEMIS	Sitagliptin  Oral Solution, Sugar Free  125 mg/5 ml
+SITA25228NEMIS	Sitagliptin  Tablets  100 mg
+SITA71611NEMIS	Sitagliptin  Tablets  50 mg
+SITA71613NEMIS	Sitagliptin  Tablets  25 mg
+STTA130348NEMIS	Steglatro  Tablets  5 mg
+STTA130349NEMIS	Steglatro  Tablets  15 mg
+STTA6624NEMIS	Starlix  Tablets  60 mg
+STTA6625NEMIS	Starlix  Tablets  120 mg
+STTA6626NEMIS	Starlix  Tablets  180 mg
+SUM/135718NEMIS	Sukkarto Sr  M/R tablets  750 mg
+SUM/90087NEMIS	Sukkarto Sr  M/R tablets  500 mg
+SUM/90090NEMIS	Sukkarto Sr  M/R tablets  1 gram
+SUSO130639NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml pen
+SUSO130640NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml pen
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+TISO143015NEMIS	Tirzepatide  Solution for injection  2.5 mg/0.5 ml pre-filled device
+TISO143017NEMIS	Tirzepatide  Solution for injection  5 mg/0.5 ml pre-filled device
+TOPR131753NEMIS	Toujeo Doublestar  Pre-filled Disposable Pen  300 units/ml, 3 ml pen
+TOSO103679NEMIS	Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+TOTA2876	Tolbutamide  Tablets  500 mg
+TOTA37262MGEMIS	Tolbutamide  Tablets  500 mg (Kent Pharm)
+TOTA37263MGEMIS	Tolbutamide  Tablets  500 mg (Unichem)
+TOTA37264MGEMIS	Tolbutamide  Tablets  500 mg (A.A.H. Pharm)
+TOTA37265MGEMIS	Tolbutamide  Tablets  500 mg (Teva UK)
+TOTA37266MGEMIS	Tolbutamide  Tablets  500 mg (Alpharma)
+TOTA37267MGEMIS	Tolbutamide  Tablets  500 mg (Generics (UK))
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+TRSO138408NEMIS	Trulicity  Solution for injection  3 mg/0.5 ml pre-filled pen
+TRSO138409NEMIS	Trulicity  Solution for injection  4.5 mg/0.5 ml pre-filled pen
+TRSO139771NEMIS	Trurapi  Solution for injection  100 units/ml, 3 ml cartridge
+TRSO139772NEMIS	Trurapi Solostar  Solution for injection  100 units/ml, 3 ml pre-filled pen
+TRSO140765NEMIS	Trurapi  Solution for injection  100 units/ml, 10 ml vial
+TRSO78484NEMIS	Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+TRSO78485NEMIS	Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen
+TRSO78488NEMIS	Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+TRTA51800NEMIS	Trajenta  Tablets  5 mg
+ULIN15920NEMIS	Ultratard  Injection  100 units/ml, 10 ml vial
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+VEIN15916NEMIS	Velosulin  Injection  100 units/ml, 10 ml vial
+VIM/48410NEMIS	Vitile Xl  M/R tablets  30 mg
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+VITA27033NEMIS	Vildagliptin  Tablets  50 mg
+VITA86905NEMIS	Vipidia  Tablets  6.25 mg
+VITA86906NEMIS	Vipidia  Tablets  12.5 mg
+VITA86907NEMIS	Vipidia  Tablets  25 mg
+VITA86911NEMIS	Vipdomet  Tablets  12.5 mg + 1000 mg
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+YAM/127093NEMIS	Yaltormin Sr  M/R tablets  500 mg
+YAM/127094NEMIS	Yaltormin Sr  M/R tablets  750 mg
+YAM/127095NEMIS	Yaltormin Sr  M/R tablets  1 gram
+ZIM/119242NEMIS	Zicron Pr  M/R tablets  30 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg

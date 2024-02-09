@@ -1,0 +1,7 @@
+# Improving the monitoring and treatment of hypothyroidism
+
+## Summary
+
+Primary hypothyroidism affects about 3% of the general population. In most cases patients are treated with Levothyroxine at a suitable dose. The most recent British Thyroid Association guidance provides advice on the use of levothyroxine, NDT and liothyronine to achieve both symptomatic relief and euthyroid levels in the blood. There are risks associated with higher doses than necessary of thyroid hormones, while continuing symptoms can diminish quality of life substantially.
+
+Levels of thyroid hormones including Free Thyroxine (FT4), Free Thyronine (FT3), and thyroid suppressing hormone (TSH) in the blood vary a number of factors including age, sex, duration with condition, deprivation and ethnicity. Patients have their thyroid hormone levels tested both for diagnostic ie not currently on thyroid hormone treatment and for monitoring to ensure when on thyroid hormone treatment that the treatment is delivering the required hormone levels in the blood. Comparing the laboratory results for those being treated by medication dose to those untreated of similar age and sex, will provide insight into the difference being achieved in the treated population vs the untreated population with a view to adjusting clinical recommendations so that thyroid hormone replacement can be as physiological as possible. Age and sex standardised all cause mortality can also be used to establish the difference in outcomes between the treated, untreated and general population.

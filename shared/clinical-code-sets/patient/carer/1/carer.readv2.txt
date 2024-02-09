@@ -1,0 +1,26 @@
+03Y4.	Other regular care provider
+13HH.00	Looks after chronically sick relative
+13HH.11	Cares for mentally handicapped dependent
+13HH.12	Looks after chronically sick father
+13HH.13	Looks after chronically sick husband
+13HH.14	Looks after chronically sick mother
+13HH.15	Looks after chronically sick spouse
+13HH.16	Looks after chronically sick wife
+13HH.17	Looks after elderly dependent
+13HH.18	Looks after physically handicapped dependent
+918a.	Carer of a person with substance misuse
+918A.	Carer
+918a.00	Carer of a person with substance misuse
+918A0	Cares for a friend
+918A1	Cares for a neighbour
+918A2	Cares for a relative
+918b.	Carer of a person with alcohol misuse
+918c.	Carer of a person with chronic disease
+918d.	Carer of a person with mental health problem
+918G.	Is a carer
+918H.	Primary carer
+918m.	Carer of a person with a terminal illness
+918W.	Carer of a person with learning disability
+918X.	Carer of a person with physical disability
+918y.	Carer of person with dementia
+ZV4F7	[V]Dependent relative needing care at home

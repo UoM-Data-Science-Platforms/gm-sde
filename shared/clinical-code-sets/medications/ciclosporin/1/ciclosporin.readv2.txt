@@ -1,0 +1,27 @@
+h821.	SANDIMMUN 100mg/mL sugar free oral solution
+h822.	SANDIMMUN 50mg/1mL injection
+h823.	SANDIMMUN 250mg/5mL injection
+h824.	SANDIMMUN 25mg capsules
+h825.	SANDIMMUN 100mg capsules
+h826.	CICLOSPORIN 25mg capsules
+h827.	CICLOSPORIN 100mg capsules
+h828.	SANDIMMUN 50mg capsules
+h829.	CICLOSPORIN 50mg capsules
+h82A.	NEORAL 25mg capsules
+h82B.	NEORAL 50mg capsules
+h82C.	NEORAL 100mg capsules
+h82D.	NEORAL 100mg/mL sugar free oral solution
+h82E.	CICLOSPORIN 10mg capsules
+h82F.	NEORAL 10mg capsules
+h82H.	DEXIMUNE 25mg capsules
+h82I.	DEXIMUNE 50mg capsules
+h82J.	DEXIMUNE 100mg capsules
+h82K.	CAPIMUNE 25mg capsules
+h82L.	CAPIMUNE 50mg capsules
+h82M.	CAPIMUNE 100mg capsules
+h82N.	CAPSORIN 25mg capsules
+h82O.	CAPSORIN 50mg capsules
+h82P.	CAPSORIN 100mg capsules
+h82x.	CICLOSPORIN 100mg/mL sugar free oral solution
+h82y.	CICLOSPORIN 50mg/1mL injection
+h82z.	CICLOSPORIN 250mg/5mL injection

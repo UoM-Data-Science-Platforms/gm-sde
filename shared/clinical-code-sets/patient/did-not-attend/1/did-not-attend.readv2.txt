@@ -1,0 +1,112 @@
+68W2900	Bowel scope (flexi-sig) appointment: DNA
+9HB7.00	Did not attend learning disabilities annual health assessmnt
+9HB7.11	Did not attend learning disabilities annual health check
+9kh2.00	Did not attend extended hours clinic - ESA
+9kh2.11	Did not attend extended hours clinic
+9N4..00	Failed encounter
+9N41.00	Did not attend - reason given
+9N42.00	Did not attend - no reason
+9N42.11	Patient defaulted from follow up
+9N43.00	Patient too late
+9N44.00	DNA - appointment mix-up
+9N45.00	Patient walked out
+9N47.00	Appt cancelled by patient
+9N4B.00	Poor attender
+9N4C.00	Failed encounter - no answer when rang back
+9N4D.00	Failed encounter - message left with work place
+9N4E.00	Failed encounter - message left with household member
+9N4f.00	DNA - Did not attend podiatry clinic
+9N4F.00	Failed encounter - message left on answer machine
+9N4g.00	DNA - Did not attend psychiatry clinic
+9N4G.00	Failed encounter - phone number unobtainable
+9N4h.00	DNA - Did not attend peripheral vascular disease clinic
+9N4H.00	DNA hospital appointment
+9N4i.00	DNA - Did not attend substance misuse clinic
+9N4I.00	DNA - Did not attend diabetic clinic
+9N4j.00	DNA - Did not attend community psychiatric nurse review
+9N4J.00	DNA - Did not attend cardiac clinic
+9N4k.00	Failed encounter - practitioner access denied
+9N4K.00	DNA - Did not attend cholesterol clinic
+9N4l.00	Did not attend dietetic clinic
+9N4L.00	DNA - Did not attend hypertension clinic
+9N4m.00	Did not attend vaginal swab
+9N4M.00	DNA - Did not attend smoking cessation clinic
+9N4N.00	Did not attend mental health appointment
+9N4N000	DNA child and adolescent mental health service appointment
+9N4N100	Did not attend CAMHS choice appointment
+9N4N200	Did not attend CAMHS partnership appointment
+9N4N300	Did not attend CAMHS return appointment
+9N4o.00	Did not attend blood test
+9N4p.00	Did not attend diabetic retinopathy clinic
+9N4Q.00	DNA - Did not attend asthma clinic
+9N4r.00	Did not attend cognitive behaviour therapy
+9N4R.00	DNA - Did not attend cryotherapy clinic
+9N4s.00	Did not attend practice nurse heart failure clinic
+9N4S.00	DNA - Did not attend cancer clinic
+9N4t.00	DNA - Did not attend mental health review
+9N4T.00	DNA - Did not attend hyperthyroidism clinic
+9N4u.00	Did not attend community anticoagulation clinic
+9N4v.00	Did not attend weight monitoring clinic
+9N4V.00	DNA - Did not attend epilepsy clinic
+9N4w.00	Did not attend heart failure clinic
+9N4W.00	DNA - Did not attend COPD clinic
+9N4x.00	Did not attend GP chronic disease monitoring clinic
+9N4X.00	DNA - Did not attend stroke clinic
+9N4y.00	Did not attend breast screening clinic
+9N4Y.00	Did not attend physiotherapy appointment
+9N4Z.00	Failed encounter NOS
+9N4z200	DNA diphtheria; tetanus; acellular pertussis and polio vaccn
+9N8C.00	Number of appointments missed
+9NC3200	Letter sent about missed general practitioner appointment
+9NFb100	DNA health visitor 3 to 4 month contact with family
+9NFC.00	Home visit - no reply
+9Ni..00	Did not attend
+9Ni0.00	Did not attend retinal screening
+9Ni1.00	Did not attend renal clinic
+9Ni2.00	Did not attend bowel cancer screening programme nurse clinic
+9Ni3.00	Did not attend bowel cancer screening
+9Ni8.00	DNA cardiology spec interest general practitioner clinic
+9Ni9.00	Did not attend chronic kidney disease monitoring clinic
+9Nia.00	Did not attend psychotherapy appointment
+9NiA.00	Did not attend diabetes structured education programme
+9Nib.00	Did not attend walk in centre
+9Nic.00	Did not attend fast track suspected cancer clinic
+9NiC.00	Did not attend DAFNE diabetes structured education programme
+9Nic000	DNA fast track suspected gynaecological cancer clinic
+9Nid.00	Did not attend abdominal aortic aneurysm screening
+9NiD.00	Did not attend DESMOND diabetes structured education program
+9Nie.00	Did not attend NHS Health Check annual review
+9NiE.00	Did not attend XPERT diabetes structured education programme
+9NiF.00	Did not attend expert patients programme
+9NiG.00	Did not attend minor surgery clinic
+9NiH.00	Did not attend hospital anticoagulation clinic
+9Nij.00	Did not attend postnatal examination
+9NiJ.00	Did not attend general practitioner anticoagulant clinic
+9Nik.00	Did not attend counselling appointment
+9NiK.00	DNA hospital DMARD monitoring clinic
+9Nil.00	Did not attend antenatal appointment
+9NiL.00	DNA GP disease modifying antirheumatic drug monitor clinic
+9Nim.00	Did not attend nurse appointment
+9NiM.00	Did not attend cardiovascular disease risk assessment
+9Nin.00	Did not attend general practitioner appointment
+9NiN.00	DNA cardiovascular disease primary prevention programme
+9Nio.00	Did not attend contraceptive clinic
+9NiP.00	Did not attend genitourinary medicine clinic
+9NiS.00	Did not attend NHS Health Check
+9NiT.00	Did not attend cervical smear
+9NiV.00	Did not attend spirometry clinic
+9NiW.00	Did not attend colposcopy clinic
+9NiY.00	Did not attend congenital heart disease clinic
+9NiZ.00	Did not attend diabetes foot screening
+9Nj..00	Other failed encounter
+9Nj8.00	Failed encounter - SMS text message delivery failure
+9Nj8.11	Failed encounter - SMS text message delivery failure
+9NjA.00	Failed encounter - hospital appointment
+9Oe3.00	Did not attend for community DMARD monitoring
+9Oe3.11	DNA community DMARD monitoring
+9Oq9700	NHSP incomplete as did not attend appointment
+9OqH000	NAAASP initial screening incomplete; did not attend
+9OqH900	NAAASP surveillance screening incomplete; did not attend
+9OWA.00	Did not attend new patient screening
+9Q11.00	MRC coronary screen DNA
+9N45000	Did not wait for treatment

@@ -1,0 +1,126 @@
+c736.	Ketotifen 1mg/5mL elixir
+c832.	Dimotane 2mg/5mL elixir
+c843.	Piriton 4mg tablet
+c845.	Piriton 2mg/5mL syrup
+c84z.	Chlorphenamine maleate 10mg/1mL injection
+c84z.	Chlorpheniramine maleate 10mg/1mL injection
+c861.	Periactin 4mg tablet
+c86y.	Cyproheptadine hydrochloride 4mg tablet
+c883.	Diphenhydramine hydrochloride 25mg tablet
+c886.	Nytol One-A-Night 50mg tablet
+c887.	Diphenhydramine hydrochloride 50mg tablet
+c8i1.	Phenergan 10mg tablet
+c8i2.	Phenergan 25mg tablet
+c8i3.	Phenergan 5mg/5mL elixir
+c8i4.	Phenergan 25mg/1mL injection
+c8i6.	Phenergan Nightime 25mg tablet
+c8iv.	Promethazine hydrochloride 10mg tablet
+c8iw.	Promethazine hydrochloride 25mg tablet
+c8k1.	Vallergan 10mg tablet
+c8k2.	Vallergan 7.5mg/5mL syrup
+c8k3.	Vallergan Forte 30mg/5mL syrup
+c8kx.	Alimemazine tartrate 10mg tablet
+c8kx.	Trimeprazine tartrate 10mg tablet
+c8kz.	Alimemazine tartrate 30mg/5mL syrup
+c8kz.	Trimeprazine tartrate 30mg/5mL syrup
+d151.	Dalmane 15mg capsule
+d15y.	Flurazepam 15mg capsule
+d15z.	Flurazepam 30mg capsule
+d171.	Lormetazepam 500micrograms tablet
+d172.	Lormetazepam 1mg tablet
+d182.	Nitrazepam 5mg tablet
+d184.	Nitrazepam 2.5mg/5mL suspension
+d186.	Mogadon 5mg tablet
+d1a9.	Temazepam 10mg tablet
+d1aa.	Temazepam 20mg tablet
+d1d1.	Zopiclone 7.5mg tablet
+d1d2.	Zimovane 7.5mg tablet
+d1d3.	Zopiclone 3.75mg tablet
+d1d4.	Zimovane LS 3.75mg tablet
+d1f2.	Zolpidem tartrate 5mg tablet
+d1f3.	Zolpidem tartrate 10mg tablet
+d1gy.	Zaleplon 5mg capsule
+d1gz.	Zaleplon 10mg capsule
+d213.	Diazepam 2mg tablet
+d214.	Diazepam 5mg tablet
+d215.	Diazepam 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21A.	Diazepam 5mg/5mL oral solution
+d21k.	Stesolid 5mg rectal solution
+d21k.	Stesolid 5mg/2.5mL rectal solution
+d21l.	Stesolid 10mg rectal solution
+d21l.	Stesolid 10mg/2.5mL rectal solution
+d21z.	Diazepam 10mg suppository
+d22y.	Alprazolam 250micrograms tablet
+d22z.	Alprazolam 500micrograms tablet
+d241.	Chlordiazepoxide 5mg capsule
+d241.	Chlordiazepoxide hydrochloride 5mg capsule
+d242.	Chlordiazepoxide 10mg capsule
+d242.	Chlordiazepoxide hydrochloride 10mg capsule
+d243.	Chlordiazepoxide hydrochloride 5mg tablet
+d244.	Chlordiazepoxide hydrochloride 10mg tablet
+d249.	Librium 5mg capsule
+d24a.	Librium 10mg capsule
+d24f.	Tropium 5mg capsule
+d24h.	Tropium 5mg tablet
+d24i.	Tropium 10mg tablet
+d281.	Atarax 10mg tablet
+d282.	Atarax 25mg tablet
+d284.	Ucerax 25mg tablet
+d285.	Ucerax 10mg/5mL syrup
+d28x.	Hydroxyzine hydrochloride 10mg tablet
+d28y.	Hydroxyzine hydrochloride 25mg tablet
+d2a1.	Lorazepam 1mg tablet
+d2a2.	Lorazepam 2.5mg tablet
+d2d2.	Oxazepam 10mg tablet
+d2d3.	Oxazepam 15mg tablet
+dn4y.	Clonazepam 500micrograms tablet
+dn4z.	Clonazepam 2mg tablet
+do18.	Diazepam 5mg/2.5mL RecTube
+do18.	RecTube 5mg/2.5mL rectal solution
+do19.	Diazepam 10mg/2.5mL RecTube
+do19.	RecTube 10mg/2.5mL rectal solution
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1A.	RecTube 2.5mg/1.25mL rectal solution
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
+o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+x00ft	Promethazine hydrochloride 20mg tablet
+c731.	Zaditen 1mg capsule
+c732.	Zaditen 1mg tablet
+c733.	Zaditen 1mg/5mL s/f elixir
+c822.	Optimine 500micrograms/5mL syrup
+c82z.	Azatadine maleate 500micrograms/5mL syrup
+c83y.	Brompheniramine maleate 2mg/5mL elixir
+c84A.	Allerief 2mg/5mL s/f oral solution
+c84w.	Chlorphenamine maleate 2mg/5mL sugar free syrup
+c84y.	Chlorphenamine maleate 2mg/5mL syrup
+c851.	Tavegil 1mg tablet
+c852.	Tavegil 500micrograms/5mL elixir
+c888.	Nightcalm 25mg tablet
+c88B.	Dreemon 25mg tablet
+c8iy.	Promethazine hydrochloride 25mg/1mL injection
+c8ky.	Alimemazine tartrate 7.5mg/5mL syrup
+ci1e.	Haymine m/r tablet
+d152.	Dalmane 30mg capsule
+d18c.	Somnite 2.5mg/5mL suspension
+d1ao.	Temazepam 10mg/5mL s/f oral solution
+d1f1.	Stilnoct 5mg tablet
+d1f4.	Stilnoct 10mg tablet
+d21d.	Diazemuls 10mg/2mL injection
+d21G.	Valclair 10mg suppository
+d21J.	Diazepam 10mg/5mL suspension
+d21o.	Tensium 10mg tablet
+d221.	Xanax 250mcg tablet
+d222.	Xanax 500mcg tablet
+d28z.	Hydroxyzine hydrochloride 10mg/5mL syrup
+d2a7.	Ativan 4mg/1mL injection
+d2az.	Lorazepam 4mg/1mL injection
+dn4x.	Clonazepam 2mg/5mL s/f oral solution
+o57r.	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o57s.	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57u.	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
+o57w.	Midazolam 50mg/50mL injection
+o57y.	Midazolam 10mg/5mL injection
+o57z.	Midazolam 10mg/2mL injection
+x00g1	Sominex 20mg tablet

@@ -1,0 +1,57 @@
+bu11.	Persantin 25mg tablet
+bu12.	Persantin 100mg tablet
+bu13.	Persantin 10mg/2mL injection
+bu14.	Dipyridamole 25mg tablet
+bu15.	Dipyridamole 100mg tablet
+bu1C.	Dipyridamole 200mg m/r capsule
+bu1D.	Persantin Retard 200mg m/r capsule
+bu1F.	ATTIA 200mg m/r capsules
+bu1G.	OFCRAM PR 200mg m/r capsules
+bu1z.	Dipyridamole 10mg/2mL injection
+bu23.	Aspirin 75mg dispersible tablet
+bu24.	Angettes 75mg tablet
+bu25.	Aspirin 75mg tablet
+bu2a.	Disprin CV 300mg m/r tablet
+bu2A.	Nu-Seals Aspirin 75mg e/c tablet
+bu2b.	Aspirin 300mg m/r tablet
+bu2B.	Aspirin 75mg e/c tablet
+bu2D.	postMI 75mg dispersible tablet
+bu2E.	postMI 75mg e/c tablet
+bu2F.	Caprin 75mg e/c tablet
+bu2H.	Enprin 75mg e/c tablet
+bu2K.	Micropirin 75mg e/c tablet
+bu31.	Abciximab 10mg/5mL injection
+bu32.	ReoPro 10mg/5mL injection
+bu41.	Dipyridamole+aspirin 200mg/25mg m/r capsule
+bu42.	Asasantin Retard m/r capsule
+bu43.	MOLITA 200mg/25mg m/r capsules
+bu51.	Clopidogrel 75mg tablet
+bu52.	Plavix 75mg tablet
+bu53.	PLAVIX 300mg tablets
+bu54.	CLOPIDOGREL 300mg tablets
+bu55.	GREPID 75mg tablets
+bu61.	Ticlopidine hydrochloride 250mg tablet
+bu62.	Ticlid 250mg tablet
+bu71.	Integrilin 20mg/10mL injection
+bu72.	Integrilin 75mg/100mL infusion
+bu7y.	Eptifibatide 20mg/10mL injection
+bu7z.	Eptifibatide 75mg/100mL infusion
+bu82.	Aggrastat 12.5mg/250mL infusion solution
+bu8y.	Tirofiban 12.5mg/250mL infusion solution
+buA1.	EFIENT 5mg tablets
+buA2.	PRASUGREL 5mg tablets
+buA3.	EFIENT 10mg tablets
+buA4.	PRASUGREL 10mg tablets
+buB1.	BRILIQUE 90mg tablets
+buBz.	TICAGRELOR 90mg tablets
+blm1.	IMAZIN XL 60mg/75mg m/r tablet
+blmy.	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+blmz.	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+bu91.	Cilostazol 100mg tablet
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+di1f.	Aspirin 300mg e/c tablet
+di1k.	Caprin 300mg e/c tablet
+di1n.	Aspirin 300mg suppository
+di1o.	Aspirin 150mg suppository
+j111.	Aspirin 300mg tablet
+j112.	Aspirin 300mg dispersible tablet

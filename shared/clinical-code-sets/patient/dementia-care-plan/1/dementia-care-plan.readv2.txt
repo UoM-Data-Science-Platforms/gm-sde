@@ -1,0 +1,17 @@
+8CMe000	Dementia advance care plan
+8CMG200	Review of dementia advance care plan
+8CMZ.00	Dementia care plan
+8CMZ000	Dementia care plan agreed
+8CMZ100	Dementia care plan reviewed
+8CMZ200	Dementia care plan declined
+8CMZ300	Dementia care plan review declined
+8CSA.00	Dementia advance care plan agreed
+8IAe000	Dementia advance care plan declined
+8IAe200	Dementia advance care plan review declined
+9hD0.00	Excepted from dementia quality indicators: Patient unsuitable
+9hD1.00	Excepted from dementia quality indicators: Informed dissent
+9Ou1.00	Dementia monitoring first letter
+9Ou2.00	Dementia monitoring second letter
+9Ou3.00	Dementia monitoring third letter
+9Ou4.00	Dementia monitoring verbal invite
+9Ou5.00	Dementia monitoring telephone invite

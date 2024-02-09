@@ -1,0 +1,26 @@
+^ESCT1307296	Structured medication review
+^ESCTRE471781	Review of medication
+EMISNQAS52	Assessment using STOPP/START prescribing criteria
+EMISNQCA31	Cancer medication review
+EMISNQCO1	COPD medication review
+EMISNQCO285	Controlled drug medication review
+EMISNQDE54	Dementia medication review
+EMISNQDR18	Drug contraindications considered
+EMISNQHY1	Hypothyroidism medication review
+EMISNQHY2	Hypertension medication review
+EMISNQIN123	Insulin passport checked
+EMISNQIN202	Insufficient supply of discharge medication
+EMISNQME1	Medication review done by nurse
+EMISNQME120	Medication review done by clinical pharmacist
+EMISNQME121	Medication stopped by clinical pharmacist
+EMISNQME78	Medication review overdue
+EMISNQNO155	No. of actions recommended by medicines optimisation pharmacist
+EMISNQOP19	Opiate medication review
+EMISNQPO71	Polypharmacy medication review done by clinical pharmacist
+EMISNQPR138	Prescribing for Key Performance Indicator reviewed
+EMISQNE3	Neuroleptic depot injection review
+^ESCT1273681	Medication review done by clinical pharmacist
+^ESCTME845480	Medication review by community nurse
+^ESCTHE748471	Heart failure medication review
+EMISNQNO133	Novel oral anticoagulant medication review
+EMISNQNO134	Novel oral anticoagulant annual review

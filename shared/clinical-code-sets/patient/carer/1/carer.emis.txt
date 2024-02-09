@@ -1,0 +1,24 @@
+^ESCT1248931	Other regular care provider
+^ESCT1378879	Carer
+^ESCT1379156	Caregiver
+^ESCT1382463	Informal caregiver
+^ESCT1382464	Primary caregiver
+^ESCT1383075	Caregiver of person with alcohol misuse
+^ESCT1383076	Caregiver of a person with chronic disease
+^ESCT1383077	Caregiver of a person with learning disability
+^ESCT1383078	Caregiver of a person with mental health problem
+^ESCT1383079	Caregiver of a person with physical disability
+^ESCT1383080	Caregiver of a person with sensory impairment
+^ESCT1383081	Caregiver of a person with substance misuse
+^ESCTCA450527	Caregiver
+^ESCTCA492855	Cares for a neighbor
+^ESCTCA804758	Cares for sick or handicapped family member
+^ESCTCA804759	Care of sick or handicapped person in family
+^ESCTCA808886	Cares for dependent relative at home
+^ESCTDE808887	Dependent relative needing care at home
+^ESCTIN674874	Informal carer
+^ESCTPA492851	Patient themselves providing care
+EMISNQCA66	Carer able to cope
+EMISNQIS11	Is a young carer
+EMISQCA6	Carer needs assessed
+JHCLO9	Looks after someone

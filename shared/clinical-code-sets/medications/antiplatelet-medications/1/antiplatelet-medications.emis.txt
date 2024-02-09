@@ -1,0 +1,1162 @@
+^ESCT1178107	Product containing only clopidogrel 75 mg/1 each oral tablet
+^ESCT1178125	Product containing only aspirin 75 mg/1 each oral tablet
+^ESCT1179493	Dipyridamole 100mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1179565	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1180314	Aspirin 75mg gastro-resistant tablets (Mylan)
+^ESCT1183370	Product containing only prasugrel 10 mg/1 each oral tablet
+^ESCT1183481	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1183969	Tirofiban 12.5mg/250ml infusion bags
+^ESCT1184404	Clopidogrel 75mg tablets (Mylan)
+^ESCT1184405	Clopidogrel 75mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1185105	Product containing only clopidogrel 300 mg/1 each oral tablet
+^ESCT1185554	Product containing only prasugrel 5 mg/1 each oral tablet
+^ESCT1185673	Aspirin 75mg gastro-resistant tablets (Mylan) 56 tablet
+^ESCT1186984	Clopidogrel 75mg tablets (Mylan) 28 tablet
+^ESCT1187236	Product containing only dipyridamole 25 mg/1 each oral tablet
+^ESCT1187237	Product containing only dipyridamole 100 mg/1 each oral tablet
+^ESCT1187240	Product containing only ticlopidine hydrochloride 250 mg/1 each oral tablet
+^ESCT1188441	Product containing only ticagrelor 90 mg/1 each oral tablet
+^ESCT1188674	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCT1189493	Dipyridamole 100mg tablets (Mylan)
+^ESCT1197998	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+^ESCT1197999	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd) 28 tablet 7 x 4 tablets
+^ESCT1198000	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd) 100 tablet 10 x 10 tablets
+^ESCT1214158	Aspirin 75mg tablets (Intrapharm Laboratories Ltd)
+^ESCT1214159	Aspirin 75mg tablets (Intrapharm Laboratories Ltd) 28 tablet
+^ESCT1214593	Abciximab 10mg/5ml solution for injection vials
+^ESCT1215058	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd)
+^ESCT1215059	Eptifibatide 20mg/10ml solution for injection vials (Morningside Healthcare Ltd) 1 vial
+^ESCT1215735	Eptifibatide 20mg/10ml solution for injection vials
+^ESCT1215736	Eptifibatide 75mg/100ml solution for infusion vials
+^ESCT1215787	Dipyridamole 10mg/2ml solution for injection ampoules
+^ESCT1215788	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCT1215789	Dipyridamole 50mg/5ml oral suspension sugar free
+^ESCT1216182	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 60 capsule
+^ESCT1223135	Product containing precisely dipyridamole 25 milligram/1 each conventional release oral tablet
+^ESCT1223136	Product containing precisely dipyridamole 100 milligram/1 each conventional release oral tablet
+^ESCT1223137	Product containing precisely aspirin 75 milligram/1 each conventional release oral tablet
+^ESCT1223138	Aspirin 75 mg gastro-resistant oral tablet
+^ESCT1223139	Product containing precisely aspirin 75 milligram/1 each gastro-resistant oral tablet
+^ESCT1223141	Product containing precisely clopidogrel bisulfate 75 milligram/1 each conventional release oral tablet
+^ESCT1223142	Clopidogrel bisulfate 75 mg oral tablet
+^ESCT1223143	Product containing precisely ticlopidine hydrochloride 250 milligram/1 each conventional release oral tablet
+^ESCT1234790	Product containing precisely clopidogrel (as clopidogrel bisulfate) 300 milligram/1 each conventional release oral tablet
+^ESCT1234791	Clopidogrel (as clopidogrel bisulfate) 300 mg oral tablet
+^ESCT1235236	Product containing precisely prasugrel 5 milligram/1 each conventional release oral tablet
+^ESCT1235267	Product containing precisely prasugrel 10 milligram/1 each conventional release oral tablet
+^ESCT1236181	Product containing precisely ticagrelor 90 milligram/1 each conventional release oral tablet
+^ESCT1237235	Aggrastat 12.5mg/250ml infusion bags (Correvio UK Ltd)
+^ESCT1237475	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+^ESCT1237476	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd) 28 tablet
+^ESCT1237477	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd) 56 tablet 2 x 28 tablets
+^ESCT1249996	Aspirin 75mg tablets (Medreich Plc)
+^ESCT1249997	Aspirin 75mg tablets (Medreich Plc) 28 tablet
+^ESCT1250760	Ofcram PR 200mg capsules (Advanz Pharma)
+^ESCT1250761	Ofcram PR 200mg capsules (Advanz Pharma) 60 capsule
+^ESCT1256455	Aspirin 75mg tablets (Chanelle Medical UK Ltd)
+^ESCT1256456	Aspirin 75mg tablets (Chanelle Medical UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1256758	Prasugrel 10mg tablets (Aristo Pharma Ltd)
+^ESCT1256759	Prasugrel 10mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1256760	Prasugrel 5mg tablets (Aristo Pharma Ltd)
+^ESCT1256761	Prasugrel 5mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257756	Prasugrel 5mg tablets (Consilient Health Ltd)
+^ESCT1257757	Prasugrel 5mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257758	Prasugrel 10mg tablets (Consilient Health Ltd)
+^ESCT1257759	Prasugrel 10mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257920	Prasugrel 10mg tablets (Teva UK Ltd)
+^ESCT1257921	Prasugrel 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1257947	Prasugrel 5mg tablets (Mylan)
+^ESCT1257948	Prasugrel 5mg tablets (Mylan) 28 tablet
+^ESCT1257949	Prasugrel 10mg tablets (Mylan)
+^ESCT1257950	Prasugrel 10mg tablets (Mylan) 28 tablet
+^ESCT1258338	Efient 10mg tablets (Daiichi Sankyo UK Ltd)
+^ESCT1258339	Efient 10mg tablets (Daiichi Sankyo UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258340	Efient 5mg tablets (Daiichi Sankyo UK Ltd)
+^ESCT1258341	Efient 5mg tablets (Daiichi Sankyo UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259176	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1259177	Prasugrel 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1259178	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1259179	Prasugrel 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1259182	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259183	Prasugrel 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1259192	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259193	Prasugrel 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1259617	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259618	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259726	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259727	Prasugrel 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259729	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259730	Prasugrel 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259833	Clopidogrel 5mg/5ml oral solution 1 ml
+^ESCT1259834	Clopidogrel 5mg/5ml oral solution (Special Order)
+^ESCT1259835	Clopidogrel 5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1259924	Clopidogrel 5mg/5ml oral solution
+^ESCT1260027	Prasugrel 10mg tablets (Sovereign Medical Ltd)
+^ESCT1260028	Prasugrel 10mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1260029	Prasugrel 5mg tablets (Sovereign Medical Ltd)
+^ESCT1260030	Prasugrel 5mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1260122	Prasugrel 5mg tablets (Accord Healthcare Ltd)
+^ESCT1260123	Prasugrel 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1260124	Prasugrel 10mg tablets (Accord Healthcare Ltd)
+^ESCT1260125	Prasugrel 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1264529	Prafsia 5mg tablets (Northumbria Pharma Ltd)
+^ESCT1264530	Prafsia 5mg tablets (Northumbria Pharma Ltd) 28 tablet
+^ESCT1264532	Prafsia 10mg tablets (Northumbria Pharma Ltd)
+^ESCT1264533	Prafsia 10mg tablets (Northumbria Pharma Ltd) 28 tablet
+^ESCT1264798	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+^ESCT1264799	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd) 28 tablet
+^ESCT1265844	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1265845	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd) 28 tablet
+^ESCT1265846	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1265847	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd) 28 tablet
+^ESCT1270208	Aspirin 75mg tablets (Healthcare Pharma Ltd)
+^ESCT1270209	Aspirin 75mg tablets (Healthcare Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1275516	Prasugrel 5mg tablets (DE Pharmaceuticals)
+^ESCT1275517	Prasugrel 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275518	Prasugrel 10mg tablets (DE Pharmaceuticals)
+^ESCT1275519	Prasugrel 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1276038	Aspirin 75mg tablets (Accord Healthcare Ltd)
+^ESCT1276039	Aspirin 75mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276297	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1276298	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet
+^ESCT1279558	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCT1279559	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1279560	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCT1303801	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd)
+^ESCT1303804	Eptifibatide 75mg/100ml solution for infusion vials (Kensington Pharma Ltd) 1 vial
+^ESCT1303805	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd)
+^ESCT1303806	Eptifibatide 20mg/10ml solution for injection vials (Kensington Pharma Ltd) 1 vial
+^ESCT1374628	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd) 30 tablet
+^ESCT1374788	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1374789	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374790	Aspirin 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374791	Aspirin 75mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374792	Aspirin 75mg dispersible tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1374795	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1374796	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1374797	Aspirin 75mg gastro-resistant tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375241	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375242	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375499	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375500	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1375501	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375502	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1402054	Dipyridamole 200mg modified-release capsules
+^ESCT1403367	Prasugrel 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403370	Prasugrel 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403374	Prasugrel 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403376	Prasugrel 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1409546	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
+^ESCT1409748	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
+^ESCT1409774	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+^ESCT1409801	Dipyridamole 100mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1409807	Dipyridamole 25mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1409812	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409813	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1409814	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd) 1000 tablet
+^ESCT1422612	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422613	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1424742	Clopidogrel 75mg tablets
+^ESCT1424871	Prasugrel 10mg tablets
+^ESCT1424872	Prasugrel 5mg tablets
+^ESCT1425507	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425554	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425694	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425779	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425954	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1425955	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425977	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1425978	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425988	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1425989	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425990	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd) 1000 tablet
+^ESCT1426239	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426240	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1427243	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427244	Grepid 75mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427245	Grepid 75mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427614	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427615	Aspirin 75mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427654	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427655	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427656	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd) 30 tablet
+^ESCT1430674	Prasugrel 5mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1430675	Prasugrel 10mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431967	Clopidogrel 75mg tablets (Relonchem Ltd)
+^ESCT1431968	Clopidogrel 75mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1434522	Clopidogrel 75mg tablets 14 tablet
+^ESCT1434523	Clopidogrel 75mg tablets (Medreich Plc)
+^ESCT1434524	Clopidogrel 75mg tablets (Medreich Plc) 14 tablet
+^ESCT1434525	Clopidogrel 75mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1434986	Aspirin 75mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434987	Aspirin 75mg tablets (Esteve Pharmaceuticals Ltd) 28 tablet
+^ESCT1435538	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1435539	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1437021	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437035	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1437135	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1437315	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1438187	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438188	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438639	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1439064	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439065	Prasugrel 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1439066	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439067	Prasugrel 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTAB872719	Abciximab 10mg/5ml solution for injection vials 1 vial
+^ESCTAG898681	Aggrastat 12.5mg/250ml infusion bags (Correvio GmbH)
+^ESCTAN825547	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAN852013	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS1001242	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
+^ESCTAS1001244	Aspirin 75mg tablets (Alissa Healthcare Research Ltd) 28 tablet
+^ESCTAS1003158	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS1003159	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTAS1004650	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1004651	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAS1004652	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTAS1004653	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd) 1000 tablet
+^ESCTAS1004654	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1004656	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAS1004658	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTAS1005538	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS1005539	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAS1007394	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1007395	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAS1009156	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd) 32 tablet
+^ESCTAS1020000	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
+^ESCTAS1020001	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS1041409	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTAS1041410	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAS1041411	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTAS1041412	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc) 1000 tablet
+^ESCTAS1041416	Aspirin 75mg tablets (Waymade Healthcare Plc)
+^ESCTAS1041417	Aspirin 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAS1041420	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTAS1041421	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAS1041424	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTAS1049081	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+^ESCTAS1049082	Aspirin 75mg dispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAS1049083	Aspirin 75mg dispersible tablets (DE Pharmaceuticals) 100 tablet
+^ESCTAS1049084	Aspirin 75mg dispersible tablets (DE Pharmaceuticals) 1000 tablet
+^ESCTAS1049087	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTAS1049088	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAS1049089	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals) 56 tablet
+^ESCTAS1049093	Aspirin 75mg tablets (DE Pharmaceuticals)
+^ESCTAS1049094	Aspirin 75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAS1116878	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAS1116879	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc) 1000 tablet
+^ESCTAS1116882	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1116883	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAS1116884	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTAS1116919	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1116920	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAS1118912	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118913	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAS1118914	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTAS1118915	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 1000 tablet
+^ESCTAS1118919	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118920	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAS1118921	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTAS1126428	Aspirin 25mg capsules 1 capsule
+^ESCTAS1126429	Aspirin 25mg capsules (Special Order)
+^ESCTAS1126430	Aspirin 25mg capsules (Special Order) 1 capsule
+^ESCTAS1126488	Aspirin 25mg capsules
+^ESCTAS1141738	Aspirin 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS1141739	Aspirin 75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAS1158293	Aspirin 75mg tablets (Actavis UK Ltd)
+^ESCTAS1158294	Aspirin 75mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS608106	Aspirin 75mg dispersible tablets
+^ESCTAS608107	Aspirin 75mg dispersible tablet
+^ESCTAS608108	Aspirin 75mg tablets
+^ESCTAS608110	Aspirin 75 mg oral tablet
+^ESCTAS608111	Aspirin 75mg gastro-resistant tablets
+^ESCTAS608112	Aspirin 75mg e/c tablet
+^ESCTAS801500	Aspirin 75mg dispersible tablets (Teva UK Ltd)
+^ESCTAS801803	Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS804338	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS804972	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS805157	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS808578	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTAS809119	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTAS809937	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS812078	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+^ESCTAS818402	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTAS820303	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS820317	Aspirin 75mg dispersible tablets (The Boots Company Plc)
+^ESCTAS820322	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS821302	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS823808	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS825251	Aspirin 75mg gastro-resistant tablets (Mylan Ltd)
+^ESCTAS825493	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+^ESCTAS828521	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+^ESCTAS829210	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
+^ESCTAS832912	Aspirin 75mg dispersible tablets (Actavis UK Ltd)
+^ESCTAS835512	Aspirin 75mg dispersible tablets 28 tablet
+^ESCTAS836403	Aspirin 75mg gastro-resistant tablets 56 tablet
+^ESCTAS838600	Aspirin 75mg gastro-resistant tablets 28 tablet
+^ESCTAS841961	Aspirin 75mg tablets 28 tablet
+^ESCTAS846976	Aspirin 75mg dispersible tablets 100 tablet
+^ESCTAS847396	Aspirin 75mg dispersible tablets 32 tablet
+^ESCTAS848123	Aspirin 75mg gastro-resistant tablets 16 tablet
+^ESCTAS848271	Aspirin 75mg gastro-resistant tablets 100 tablet
+^ESCTAS848291	Aspirin 75mg dispersible tablets 1000 tablet
+^ESCTAS849385	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS849388	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTAS849390	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd) 1000 tablet
+^ESCTAS849391	Aspirin 75mg dispersible tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS849392	Aspirin 75mg dispersible tablets (Actavis UK Ltd) 100 tablet
+^ESCTAS849393	Aspirin 75mg dispersible tablets (Actavis UK Ltd) 1000 tablet
+^ESCTAS849394	Aspirin 75mg dispersible tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS849396	Aspirin 75mg dispersible tablets (Teva UK Ltd) 100 tablet
+^ESCTAS849401	Aspirin 75mg dispersible tablets (The Boots Company Plc) 100 tablet
+^ESCTAS849403	Aspirin 75mg dispersible tablets (The Boots Company Plc) 1000 tablet
+^ESCTAS849405	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTAS849407	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS849408	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTAS849410	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd) 1000 tablet
+^ESCTAS849413	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd) 100 tablet
+^ESCTAS849414	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS849417	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTAS849419	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTAS851604	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd) 32 tablet
+^ESCTAS851605	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd) 100 tablet
+^ESCTAS852018	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAS852019	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTAS852022	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS852024	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS852029	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS852034	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS852041	Aspirin 75mg gastro-resistant tablets (Mylan Ltd) 56 tablet
+^ESCTAS852045	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTAS852046	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS852047	Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS852048	Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTAS852049	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd) 56 tablet 2 x 28 tablets
+^ESCTAS852058	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTAS852059	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines) 28 tablet
+^ESCTAS852060	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS852061	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS860837	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+^ESCTAS860848	Asasantin Retard capsules (Boehringer Ingelheim Ltd) 60 capsule
+^ESCTAS870920	Aspirin 300mg modified-release tablets
+^ESCTAS880139	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd) 28 tablet
+^ESCTAS899069	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS904444	Aspirin 225mg/5ml oral solution 1 ml
+^ESCTAS904445	Aspirin 225mg/5ml oral solution (Special Order)
+^ESCTAS904449	Aspirin 225mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS904452	Aspirin 225mg/5ml oral suspension 1 ml
+^ESCTAS904453	Aspirin 225mg/5ml oral suspension (Special Order)
+^ESCTAS904454	Aspirin 225mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS904490	Aspirin 50mg/5ml oral solution 1 ml
+^ESCTAS904492	Aspirin 50mg/5ml oral solution (Special Order)
+^ESCTAS904494	Aspirin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS904497	Aspirin 50mg/5ml oral suspension 1 ml
+^ESCTAS904499	Aspirin 50mg/5ml oral suspension (Special Order)
+^ESCTAS904500	Aspirin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS904760	Aspirin 225mg/5ml oral solution
+^ESCTAS904761	Aspirin 225mg/5ml oral suspension
+^ESCTAS904765	Aspirin 50mg/5ml oral solution
+^ESCTAS904766	Aspirin 50mg/5ml oral suspension
+^ESCTAS923532	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923535	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS923536	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd) 100 tablet
+^ESCTAS923539	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd) 1000 tablet
+^ESCTAS923542	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923543	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS923545	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS925812	Aspirin 75mg effervescent tablets 28 tablet
+^ESCTAS925813	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS925814	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTAS925815	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS925816	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS925827	Aspirin 75mg effervescent tablets
+^ESCTAS927536	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTAS929398	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTAS929399	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd) 56 tablet
+^ESCTAS942030	Aspirin 100mg/5ml oral suspension 1 ml
+^ESCTAS942032	Aspirin 100mg/5ml oral suspension (Special Order)
+^ESCTAS942033	Aspirin 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS942295	Aspirin 100mg/5ml oral suspension
+^ESCTAS944815	Aspirin 100mg/5ml oral solution 1 ml
+^ESCTAS944817	Aspirin 100mg/5ml oral solution (Special Order)
+^ESCTAS944818	Aspirin 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS944863	Aspirin 15mg/5ml oral suspension 1 ml
+^ESCTAS944870	Aspirin 15mg/5ml oral suspension (Special Order)
+^ESCTAS944874	Aspirin 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS944881	Aspirin 15mg/5ml oral solution 1 ml
+^ESCTAS944885	Aspirin 15mg/5ml oral solution (Special Order)
+^ESCTAS944891	Aspirin 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS944893	Aspirin 25mg/5ml oral suspension 1 ml
+^ESCTAS944897	Aspirin 25mg/5ml oral suspension (Special Order)
+^ESCTAS944962	Aspirin 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS944970	Aspirin 25mg/5ml oral solution 1 ml
+^ESCTAS944972	Aspirin 25mg/5ml oral solution (Special Order)
+^ESCTAS944974	Aspirin 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS944980	Aspirin 30mg/5ml oral suspension 1 ml
+^ESCTAS944984	Aspirin 30mg/5ml oral suspension (Special Order)
+^ESCTAS944986	Aspirin 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS944988	Aspirin 30mg/5ml oral solution 1 ml
+^ESCTAS944990	Aspirin 30mg/5ml oral solution (Special Order)
+^ESCTAS944992	Aspirin 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS944994	Aspirin 37.5mg/5ml oral suspension 1 ml
+^ESCTAS944996	Aspirin 37.5mg/5ml oral suspension (Special Order)
+^ESCTAS944998	Aspirin 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS945002	Aspirin 37.5mg/5ml oral solution 1 ml
+^ESCTAS945008	Aspirin 37.5mg/5ml oral solution (Special Order)
+^ESCTAS945010	Aspirin 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS945013	Aspirin 40mg/5ml oral suspension 1 ml
+^ESCTAS945019	Aspirin 40mg/5ml oral suspension (Special Order)
+^ESCTAS945023	Aspirin 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS945030	Aspirin 40mg/5ml oral solution 1 ml
+^ESCTAS945034	Aspirin 40mg/5ml oral solution (Special Order)
+^ESCTAS945038	Aspirin 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS945042	Aspirin 62.5mg/5ml oral suspension 1 ml
+^ESCTAS945045	Aspirin 62.5mg/5ml oral suspension (Special Order)
+^ESCTAS945048	Aspirin 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS945052	Aspirin 62.5mg/5ml oral solution 1 ml
+^ESCTAS945056	Aspirin 62.5mg/5ml oral solution (Special Order)
+^ESCTAS945060	Aspirin 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS945064	Aspirin 75mg/5ml oral suspension 1 ml
+^ESCTAS945066	Aspirin 75mg/5ml oral suspension (Special Order)
+^ESCTAS945069	Aspirin 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAS945070	Aspirin 75mg/5ml oral solution 1 ml
+^ESCTAS945071	Aspirin 75mg/5ml oral solution (Special Order)
+^ESCTAS945072	Aspirin 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTAS945365	Aspirin 100mg/5ml oral solution
+^ESCTAS945366	Aspirin 15mg/5ml oral solution
+^ESCTAS945367	Aspirin 15mg/5ml oral suspension
+^ESCTAS945369	Aspirin 25mg/5ml oral solution
+^ESCTAS945370	Aspirin 25mg/5ml oral suspension
+^ESCTAS945373	Aspirin 30mg/5ml oral solution
+^ESCTAS945374	Aspirin 30mg/5ml oral suspension
+^ESCTAS945376	Aspirin 37.5mg/5ml oral solution
+^ESCTAS945377	Aspirin 37.5mg/5ml oral suspension
+^ESCTAS945379	Aspirin 40mg/5ml oral solution
+^ESCTAS945381	Aspirin 40mg/5ml oral suspension
+^ESCTAS945382	Aspirin 62.5mg/5ml oral solution
+^ESCTAS945383	Aspirin 62.5mg/5ml oral suspension
+^ESCTAS945384	Aspirin 75mg/5ml oral solution
+^ESCTAS945385	Aspirin 75mg/5ml oral suspension
+^ESCTAS949621	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
+^ESCTAS949622	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd) 100 tablet
+^ESCTAS950818	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
+^ESCTAS950819	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd) 56 tablet 2 x 28 tablets
+^ESCTAS964651	Aspirin 75mg dispersible tablets (Numark Ltd)
+^ESCTAS964652	Aspirin 75mg dispersible tablets (Numark Ltd) 100 tablet
+^ESCTAS967675	Aspirin 40mg oral powder sachets 1 sachet
+^ESCTAS967676	Aspirin 40mg oral powder sachets (Special Order)
+^ESCTAS967677	Aspirin 40mg oral powder sachets (Special Order) 1 sachet
+^ESCTAS967972	Aspirin 40mg oral powder sachets
+^ESCTAS978179	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS978180	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTAS986918	Aspirin 75mg gastro-resistant tablets (Zanza Laboratories Ltd)
+^ESCTAS986919	Aspirin 75mg gastro-resistant tablets (Zanza Laboratories Ltd) 28 tablet
+^ESCTAS986920	Aspirin 75mg gastro-resistant tablets (Zanza Laboratories Ltd) 56 tablet 2 x 28 tablets
+^ESCTAS987089	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+^ESCTAS987090	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS987091	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd) 1000 tablet
+^ESCTAS987092	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+^ESCTAS987093	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS987094	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTAS988299	Aspirin 37.5mg oral powder sachets 1 sachet
+^ESCTAS988300	Aspirin 37.5mg oral powder sachets (Special Order)
+^ESCTAS988301	Aspirin 37.5mg oral powder sachets (Special Order) 1 sachet
+^ESCTAS988344	Aspirin 37.5mg oral powder sachets
+^ESCTAS991830	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTAS991831	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAS991900	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTAT1066296	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1066297	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 60 capsule
+^ESCTAT1162252	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+^ESCTAT1162253	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd) 60 capsule
+^ESCTBO1029920	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTBO1029921	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc) 56 tablet
+^ESCTBR1009299	Brilique 90mg tablets (AstraZeneca UK Ltd)
+^ESCTBR1009300	Brilique 90mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTBR1142242	Brilique 60mg tablets (AstraZeneca UK Ltd)
+^ESCTBR1142244	Brilique 60mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTBR1162818	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd)
+^ESCTBR1162819	Brilique 90mg orodispersible tablets (AstraZeneca UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTCA833520	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTCA852054	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTCA852056	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA852057	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd) 100 tablet
+^ESCTCL1002510	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
+^ESCTCL1002511	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL1003424	Clopidogrel 75mg tablets (Arrow Generics Ltd) 30 tablet 3 x 10 tablets
+^ESCTCL1005368	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005370	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCL1005374	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTCL1007045	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+^ESCTCL1007046	Clopidogrel 75mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL1011005	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCL1011006	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTCL1011007	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTCL1011676	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+^ESCTCL1011677	Clopidogrel 75mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL1011845	Clopidogrel 75mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCL1013254	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL1013255	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCL1013440	Clopidogrel 1mg/ml oral suspension 1 ml
+^ESCTCL1013441	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+^ESCTCL1013442	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTCL1013516	Clopidogrel 1mg/ml oral suspension
+^ESCTCL1025495	Clopidogrel 75mg tablets (Aspire Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTCL1040205	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCL1040206	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTCL1042868	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+^ESCTCL1042873	Clopidogrel 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCL1042874	Clopidogrel 75mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCL1045777	Clopidogrel 75mg/5ml oral solution 1 ml
+^ESCTCL1045778	Clopidogrel 75mg/5ml oral solution 150 ml
+^ESCTCL1045779	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTCL1045780	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTCL1045781	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTCL1045782	Clopidogrel 75mg/5ml oral suspension 100 ml
+^ESCTCL1045783	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTCL1046606	Clopidogrel 4mg oral powder sachets 1 sachet
+^ESCTCL1046608	Clopidogrel 4mg oral powder sachets (Special Order)
+^ESCTCL1046613	Clopidogrel 4mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL1046681	Clopidogrel 4mg oral powder sachets
+^ESCTCL1047229	Clopidogrel 75mg/5ml oral solution
+^ESCTCL1049873	Clopidogrel 75mg tablets (Zentiva)
+^ESCTCL1049874	Clopidogrel 75mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTCL1061740	Clopidogrel 75mg tablets (Milpharm Ltd)
+^ESCTCL1061741	Clopidogrel 75mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL1063184	Clopidogrel 75mg tablets (Sandoz Ltd)
+^ESCTCL1063185	Clopidogrel 75mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL1066273	Clopidogrel 1mg/ml oral suspension 100 ml
+^ESCTCL1066274	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTCL1098899	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+^ESCTCL1098900	Clopidogrel 75mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTCL1104214	Clopidogrel 5mg oral powder sachets 1 sachet
+^ESCTCL1104216	Clopidogrel 5mg oral powder sachets (Special Order)
+^ESCTCL1104217	Clopidogrel 5mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL1104293	Clopidogrel 5mg oral powder sachets
+^ESCTCL1115953	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
+^ESCTCL1115954	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTCL1119091	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119092	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCL1120157	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+^ESCTCL1120158	Clopidogrel 75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCL1120159	Clopidogrel 75mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTCL1126361	Clopidogrel 75mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCL1127211	Clopidogrel 6mg oral powder sachets 1 sachet
+^ESCTCL1127212	Clopidogrel 6mg oral powder sachets (Special Order)
+^ESCTCL1127213	Clopidogrel 6mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL1127613	Clopidogrel 6mg oral powder sachets
+^ESCTCL1129562	Clopidogrel 3.5mg oral powder sachets 1 sachet
+^ESCTCL1129563	Clopidogrel 3.5mg oral powder sachets (Special Order)
+^ESCTCL1129564	Clopidogrel 3.5mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL1129603	Clopidogrel 3.5mg oral powder sachets
+^ESCTCL1141187	Clopidogrel 6mg/ml oral suspension 1 ml
+^ESCTCL1141190	Clopidogrel 6mg/ml oral suspension (Special Order)
+^ESCTCL1141191	Clopidogrel 6mg/ml oral suspension (Special Order) 1 ml
+^ESCTCL1141718	Clopidogrel 6mg/ml oral suspension
+^ESCTCL1141780	Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCL1141781	Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTCL1141782	Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd) 30 tablet
+^ESCTCL1152801	Clopidogrel 75mg tablets (Mylan Ltd) 28 tablet
+^ESCTCL1162856	Clopidogrel 7mg/ml oral suspension 1 ml
+^ESCTCL1162857	Clopidogrel 7mg/ml oral suspension (Special Order)
+^ESCTCL1162858	Clopidogrel 7mg/ml oral suspension (Special Order) 1 ml
+^ESCTCL1162909	Clopidogrel 7mg/ml oral suspension
+^ESCTCL608123	Clopidogrel 75mg tablets
+^ESCTCL608125	Clopidogrel 75 mg oral tablet
+^ESCTCL710501	Clopidogrel 300mg tablets
+^ESCTCL710503	Clopidogrel 300 mg oral tablet
+^ESCTCL838531	Clopidogrel 75mg tablets 28 tablet
+^ESCTCL905885	Clopidogrel 75mg/5ml oral suspension 1 ml
+^ESCTCL905887	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCL905888	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTCL906141	Clopidogrel 75mg/5ml oral suspension
+^ESCTCL909763	Clopidogrel 75mg oral powder sachets 1 sachet
+^ESCTCL909764	Clopidogrel 75mg oral powder sachets (Special Order)
+^ESCTCL909766	Clopidogrel 75mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL909833	Clopidogrel 75mg oral powder sachets
+^ESCTCL947120	Clopidogrel 75mg tablets 30 tablet
+^ESCTCL956202	Clopidogrel 75mg tablets 100 tablet
+^ESCTCL964661	Clopidogrel 300mg tablets 30 tablet
+^ESCTCL986488	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+^ESCTCL986489	Clopidogrel 75mg tablets (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL986516	Clopidogrel 75mg tablets (Teva UK Ltd)
+^ESCTCL986517	Clopidogrel 75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL986533	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL986534	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCL986535	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTCL986611	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCL986612	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCL986613	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTCL987050	Clopidogrel 75mg tablets (Actavis UK Ltd)
+^ESCTCL987051	Clopidogrel 75mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCL987935	Clopidogrel 25mg/5ml oral suspension 1 ml
+^ESCTCL987936	Clopidogrel 25mg/5ml oral suspension (Special Order)
+^ESCTCL987937	Clopidogrel 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL988060	Clopidogrel 25mg/5ml oral suspension
+^ESCTCL988197	Clopidogrel 11mg oral powder sachets 1 sachet
+^ESCTCL988199	Clopidogrel 11mg oral powder sachets (Special Order)
+^ESCTCL988200	Clopidogrel 11mg oral powder sachets (Special Order) 1 sachet
+^ESCTCL988226	Clopidogrel 11mg oral powder sachets
+^ESCTCL989930	Clopidogrel 75mg tablets (Mylan Ltd)
+^ESCTCL989931	Clopidogrel 75mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTCL991936	Clopidogrel 75mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL999361	Clopidogrel 75mg tablets (Consilient Health Ltd)
+^ESCTCL999362	Clopidogrel 75mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL999363	Clopidogrel 75mg tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCTDA1146994	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
+^ESCTDA1146995	Danamep 75mg dispersible tablets (Ecogen Europe Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI1005651	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005652	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1005653	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005654	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1006385	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI1006388	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd) 84 tablet
+^ESCTDI1021432	Dipyridamole 100mg/5ml oral suspension 150 ml
+^ESCTDI1021434	Dipyridamole 100mg/5ml oral suspension (Special Order) 150 ml
+^ESCTDI1029246	Dipyridamole 25mg/5ml oral suspension 100 ml
+^ESCTDI1029247	Dipyridamole 25mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDI1042821	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042822	Dipyridamole 25mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTDI1042823	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042824	Dipyridamole 100mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTDI1047131	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTDI1047132	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTDI1055018	Dipyridamole 200mg modified-release / Aspirin 25mg capsules 100 capsule
+^ESCTDI1061015	Dipyridamole 100mg tablets (DE Pharmaceuticals)
+^ESCTDI1061016	Dipyridamole 100mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1061018	Dipyridamole 25mg tablets (DE Pharmaceuticals)
+^ESCTDI1061020	Dipyridamole 25mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1061886	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTDI1061887	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCTDI1066282	Dipyridamole 200mg/5ml oral suspension 100 ml
+^ESCTDI1066283	Dipyridamole 200mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDI1116015	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
+^ESCTDI1116016	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare) 150 ml
+^ESCTDI1117425	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117427	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1117431	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117433	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1137309	Dipyridamole 200mg/5ml oral suspension sugar free 150 ml
+^ESCTDI1137312	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
+^ESCTDI1137319	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTDI1137399	Dipyridamole 200mg/5ml oral suspension sugar free
+^ESCTDI1141968	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1141969	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDI1142734	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI1142735	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDI608093	Dipyridamole 25mg tablets
+^ESCTDI608095	Dipyridamole 25 mg oral tablet
+^ESCTDI608096	Dipyridamole 100mg tablets
+^ESCTDI608098	Dipyridamole 100 mg oral tablet
+^ESCTDI608099	Dipyridamole 200mg modified-release capsules
+^ESCTDI608100	Dipyridamole 200mg m/r capsule
+^ESCTDI803254	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI804749	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI806321	Dipyridamole 25mg tablets (Actavis UK Ltd)
+^ESCTDI810874	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDI818477	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI820752	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI820873	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI823152	Dipyridamole 100mg tablets (Mylan Ltd)
+^ESCTDI824755	Dipyridamole 100mg tablets (Actavis UK Ltd)
+^ESCTDI828819	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI831476	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI834339	Dipyridamole 25mg tablets 84 tablet
+^ESCTDI842599	Dipyridamole 10mg/2ml solution for injection ampoules 5 ampoule
+^ESCTDI843943	Dipyridamole 25mg tablets 100 tablet
+^ESCTDI845187	Dipyridamole 100mg tablets 100 tablet
+^ESCTDI846889	Dipyridamole 100mg tablets 84 tablet
+^ESCTDI847783	Dipyridamole 50mg/5ml oral suspension sugar free 150 ml
+^ESCTDI848111	Dipyridamole 200mg modified-release capsules 60 capsule
+^ESCTDI849113	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849114	Dipyridamole 100mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTDI849116	Dipyridamole 100mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTDI849119	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849120	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTDI849131	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTDI849267	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849274	Dipyridamole 25mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTDI849287	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTDI849288	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTDI849291	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTDI849292	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTDI856391	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDI856392	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDI860824	Dipyridamole 200mg modified-release / Aspirin 25mg capsules 60 capsule
+^ESCTDI866220	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI866221	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDI870683	Disprin CV 300mg modified-release tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI879894	Dipyridamole 200mg modified-release capsules 30 capsule
+^ESCTDI906292	Dipyridamole 100mg/5ml oral solution 1 ml
+^ESCTDI906294	Dipyridamole 100mg/5ml oral solution (Special Order)
+^ESCTDI906295	Dipyridamole 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906296	Dipyridamole 100mg/5ml oral suspension 1 ml
+^ESCTDI906297	Dipyridamole 100mg/5ml oral suspension (Special Order)
+^ESCTDI906299	Dipyridamole 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906315	Dipyridamole 200mg/5ml oral solution 1 ml
+^ESCTDI906317	Dipyridamole 200mg/5ml oral solution (Special Order)
+^ESCTDI906318	Dipyridamole 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906320	Dipyridamole 200mg/5ml oral suspension 1 ml
+^ESCTDI906322	Dipyridamole 200mg/5ml oral suspension (Special Order)
+^ESCTDI906324	Dipyridamole 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906325	Dipyridamole 250mg/5ml oral solution 1 ml
+^ESCTDI906326	Dipyridamole 250mg/5ml oral solution (Special Order)
+^ESCTDI906327	Dipyridamole 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906328	Dipyridamole 50mg/5ml oral solution 1 ml
+^ESCTDI906329	Dipyridamole 50mg/5ml oral solution (Special Order)
+^ESCTDI906330	Dipyridamole 250mg/5ml oral suspension 1 ml
+^ESCTDI906331	Dipyridamole 250mg/5ml oral suspension (Special Order)
+^ESCTDI906332	Dipyridamole 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906333	Dipyridamole 25mg/5ml oral solution 1 ml
+^ESCTDI906334	Dipyridamole 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906335	Dipyridamole 25mg/5ml oral solution (Special Order)
+^ESCTDI906336	Dipyridamole 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906337	Dipyridamole 25mg/5ml oral suspension 1 ml
+^ESCTDI906338	Dipyridamole 25mg/5ml oral suspension (Special Order)
+^ESCTDI906339	Dipyridamole 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906434	Dipyridamole 50mg/5ml oral solution
+^ESCTDI906435	Dipyridamole 25mg/5ml oral suspension
+^ESCTDI906436	Dipyridamole 25mg/5ml oral solution
+^ESCTDI906437	Dipyridamole 250mg/5ml oral suspension
+^ESCTDI906438	Dipyridamole 250mg/5ml oral solution
+^ESCTDI906439	Dipyridamole 200mg/5ml oral suspension
+^ESCTDI906440	Dipyridamole 200mg/5ml oral solution
+^ESCTDI906441	Dipyridamole 100mg/5ml oral suspension
+^ESCTDI906442	Dipyridamole 100mg/5ml oral solution
+^ESCTDI935399	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935400	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 84 tablet
+^ESCTDI935401	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935402	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 84 tablet
+^ESCTDI945346	Dipyridamole 10mg/5ml oral suspension 1 ml
+^ESCTDI945347	Dipyridamole 10mg/5ml oral suspension (Special Order)
+^ESCTDI945348	Dipyridamole 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945353	Dipyridamole 10mg/5ml oral solution 1 ml
+^ESCTDI945356	Dipyridamole 10mg/5ml oral solution (Special Order)
+^ESCTDI945357	Dipyridamole 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945362	Dipyridamole 12.5mg/5ml oral suspension 1 ml
+^ESCTDI945363	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
+^ESCTDI945364	Dipyridamole 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945368	Dipyridamole 12.5mg/5ml oral solution 1 ml
+^ESCTDI945371	Dipyridamole 12.5mg/5ml oral solution (Special Order)
+^ESCTDI945375	Dipyridamole 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945388	Dipyridamole 15mg/5ml oral suspension 1 ml
+^ESCTDI945391	Dipyridamole 15mg/5ml oral suspension (Special Order)
+^ESCTDI945393	Dipyridamole 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945401	Dipyridamole 15mg/5ml oral solution 1 ml
+^ESCTDI945407	Dipyridamole 15mg/5ml oral solution (Special Order)
+^ESCTDI945412	Dipyridamole 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945422	Dipyridamole 20mg/5ml oral suspension 1 ml
+^ESCTDI945423	Dipyridamole 20mg/5ml oral suspension (Special Order)
+^ESCTDI945426	Dipyridamole 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945434	Dipyridamole 20mg/5ml oral solution 1 ml
+^ESCTDI945454	Dipyridamole 20mg/5ml oral solution (Special Order)
+^ESCTDI945457	Dipyridamole 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945474	Dipyridamole 30mg/5ml oral suspension 1 ml
+^ESCTDI945481	Dipyridamole 30mg/5ml oral suspension (Special Order)
+^ESCTDI945484	Dipyridamole 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945495	Dipyridamole 30mg/5ml oral solution 1 ml
+^ESCTDI945497	Dipyridamole 30mg/5ml oral solution (Special Order)
+^ESCTDI945500	Dipyridamole 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945510	Dipyridamole 5mg/5ml oral suspension 1 ml
+^ESCTDI945514	Dipyridamole 5mg/5ml oral suspension (Special Order)
+^ESCTDI945517	Dipyridamole 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945523	Dipyridamole 5mg/5ml oral solution 1 ml
+^ESCTDI945524	Dipyridamole 10mg/5ml oral solution
+^ESCTDI945525	Dipyridamole 10mg/5ml oral suspension
+^ESCTDI945526	Dipyridamole 5mg/5ml oral solution (Special Order)
+^ESCTDI945528	Dipyridamole 12.5mg/5ml oral solution
+^ESCTDI945529	Dipyridamole 12.5mg/5ml oral suspension
+^ESCTDI945530	Dipyridamole 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945531	Dipyridamole 15mg/5ml oral solution
+^ESCTDI945533	Dipyridamole 15mg/5ml oral suspension
+^ESCTDI945534	Dipyridamole 20mg/5ml oral solution
+^ESCTDI945536	Dipyridamole 20mg/5ml oral suspension
+^ESCTDI945537	Dipyridamole 30mg/5ml oral solution
+^ESCTDI945538	Dipyridamole 30mg/5ml oral suspension
+^ESCTDI945539	Dipyridamole 5mg/5ml oral solution
+^ESCTDI945540	Dipyridamole 5mg/5ml oral suspension
+^ESCTDI978307	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDI978308	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTEF979740	Efient 10mg tablets (Eli Lilly and Company Ltd)
+^ESCTEF979741	Efient 10mg tablets (Eli Lilly and Company Ltd) 28 tablet 2 x 14 tablets
+^ESCTEF979749	Efient 5mg tablets (Eli Lilly and Company Ltd)
+^ESCTEF979750	Efient 5mg tablets (Eli Lilly and Company Ltd) 28 tablet 2 x 14 tablets
+^ESCTEN818195	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+^ESCTEN852037	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd) 16 tablet
+^ESCTEN852039	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd) 28 tablet
+^ESCTEN852040	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd) 56 tablet 2 x 28 tablets
+^ESCTEP1163074	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd)
+^ESCTEP1163075	Eptifibatide 75mg/100ml solution for infusion vials (Accord Healthcare Ltd) 1 vial
+^ESCTEP1163076	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
+^ESCTEP1163077	Eptifibatide 20mg/10ml solution for injection vials (Accord Healthcare Ltd) 1 vial
+^ESCTEP873306	Eptifibatide 20mg/10ml solution for injection vials 1 vial
+^ESCTEP873311	Eptifibatide 75mg/100ml solution for infusion vials 1 vial
+^ESCTGE816551	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
+^ESCTGE852042	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGR986339	Grepid 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGR986340	Grepid 75mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTGR988461	Grepid 75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIN873307	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd)
+^ESCTIN873308	Integrilin 20mg/10ml solution for injection vials (GlaxoSmithKline UK Ltd) 1 vial
+^ESCTIN873312	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd)
+^ESCTIN873313	Integrilin 75mg/100ml solution for infusion vials (GlaxoSmithKline UK Ltd) 1 vial
+^ESCTMI808570	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCTMI852036	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCTMI852822	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTMO1055021	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTMO1055022	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 100 capsule 2 x 50 capsules
+^ESCTNU814535	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTNU852053	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTOF1088631	Ofcram PR 200mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTOF1088632	Ofcram PR 200mg capsules (Focus Pharmaceuticals Ltd) 60 capsule
+^ESCTPE1058438	Persantin Retard 200mg capsules (Consilient Health Ltd)
+^ESCTPE1058439	Persantin Retard 200mg capsules (Consilient Health Ltd) 60 capsule
+^ESCTPE817011	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
+^ESCTPE820517	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
+^ESCTPE820609	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTPE820680	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
+^ESCTPE849115	Persantin 100mg tablets (Boehringer Ingelheim Ltd) 84 tablet 7 x 12 tablets
+^ESCTPE849218	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd) 60 capsule
+^ESCTPE849279	Persantin 25mg tablets (Boehringer Ingelheim Ltd) 84 tablet 4 x 21 tablets
+^ESCTPE857042	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd) 5 ampoule
+^ESCTPL817113	Plavix 75mg tablets (Sanofi)
+^ESCTPL854212	Plavix 75mg tablets (Sanofi) 28 tablet
+^ESCTPL947127	Plavix 75mg tablets (Sanofi) 30 tablet
+^ESCTPL964663	Plavix 300mg tablets (Sanofi)
+^ESCTPL964664	Plavix 300mg tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCTPO801605	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPO820615	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPO849397	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTPO852033	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR1036874	Prasugrel 10mg tablets 30 tablet
+^ESCTPR608094	Product containing dipyridamole 25 mg/1 each oral tablet
+^ESCTPR608097	Product containing dipyridamole 100 mg/1 each oral tablet
+^ESCTPR608109	Product containing aspirin 75 mg/1 each oral tablet
+^ESCTPR608124	Product containing clopidogrel 75 mg/1 each oral tablet
+^ESCTPR608127	Product containing ticlopidine hydrochloride 250 mg/1 each oral tablet
+^ESCTPR710502	Product containing clopidogrel 300 mg/1 each oral tablet
+^ESCTPR727184	Prasugrel 5mg tablets
+^ESCTPR727185	Product containing prasugrel 5 mg/1 each oral tablet
+^ESCTPR727186	Prasugrel 5 mg oral tablet
+^ESCTPR727797	Prasugrel 10mg tablets
+^ESCTPR727798	Product containing prasugrel 10 mg/1 each oral tablet
+^ESCTPR727799	Prasugrel 10 mg oral tablet
+^ESCTPR759128	Product containing ticagrelor 90 mg/1 each oral tablet
+^ESCTPR979739	Prasugrel 10mg tablets 28 tablet
+^ESCTPR979748	Prasugrel 5mg tablets 28 tablet
+^ESCTPU999401	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+^ESCTPU999402	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTPU999403	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCTPY808195	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPY820333	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPY851610	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTPY851611	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTRE872720	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd)
+^ESCTRE872721	ReoPro 10mg/5ml solution for injection vials (Janssen-Cilag Ltd) 1 vial
+^ESCTTI1009298	Ticagrelor 90mg tablets 56 tablet
+^ESCTTI1142240	Ticagrelor 60mg tablets 56 tablet
+^ESCTTI1142461	Ticagrelor 60mg tablets
+^ESCTTI1162817	Ticagrelor 90mg orodispersible tablets sugar free 56 tablet
+^ESCTTI1163122	Ticagrelor 90mg orodispersible tablets sugar free
+^ESCTTI608126	Ticlopidine 250mg tablets
+^ESCTTI608128	Ticlopidine hydrochloride 250 mg oral tablet
+^ESCTTI759127	Ticagrelor 90mg tablets
+^ESCTTI759129	Ticagrelor 90 mg oral tablet
+^ESCTTI867366	Ticlopidine 250mg tablets 60 tablet
+^ESCTTI867370	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTTI867372	Ticlid 250mg tablets (Sanofi-Synthelabo Ltd) 60 tablet
+^ESCTTI898679	Tirofiban hydrochloride 12.5mg/250ml infusion bags
+^ESCTTI967693	Ticlopidine 250mg tablets 1 tablet
+^ESCTTI967694	Ticlopidine 250mg tablets (Special Order)
+^ESCTTI967695	Ticlopidine 250mg tablets (Special Order) 1 tablet
+^ESCTTR1158295	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
+^ESCTTR1158296	Trolactin 200mg modified-release capsules (Actavis UK Ltd) 60 capsule
+ABIN26770EMIS	Abciximab  Solution for injection  10 mg/5 ml vial
+AGSO12119NEMIS	Aggrastat  Solution for infusion  0.05 mg/ml, 250 ml bag
+ANTA9568BRIDL	Angettes 75  Tablets  75 mg
+ASDI224	Aspirin  Dispersible tablets  75 mg
+ASDI33803MGEMIS	Aspirin  Dispersible tablets  75 mg (Teva UK)
+ASDI33804MGEMIS	Aspirin  Dispersible tablets  75 mg (Ivax Pharmaceuticals)
+ASDI33805MGEMIS	Aspirin  Dispersible tablets  75 mg (Kent Pharm)
+ASDI33806MGEMIS	Aspirin  Dispersible tablets  75 mg (The Boots Company)
+ASDI33807MGEMIS	Aspirin  Dispersible tablets  75 mg (Unichem)
+ASDI33808MGEMIS	Aspirin  Dispersible tablets  75 mg (Aspar)
+ASDI33809MGEMIS	Aspirin  Dispersible tablets  75 mg (A.A.H. Pharm)
+ASDI33810MGEMIS	Aspirin  Dispersible tablets  75 mg (Thornton & Ross)
+ASDI33811MGEMIS	Aspirin  Dispersible tablets  75 mg (Alpharma)
+ASE/24520EMIS	Aspirin  E/c tablets  75 mg
+ASE/33812MGEMIS	Aspirin  E/c tablets  75 mg (Kent Pharm)
+ASE/33813MGEMIS	Aspirin  E/c tablets  75 mg (A.A.H. Pharm)
+ASE/33814MGEMIS	Aspirin  E/c tablets  75 mg (Alpharma)
+ASE/33815MGEMIS	Aspirin  E/c tablets  75 mg (Teva UK)
+ASE/33816MGEMIS	Aspirin  E/c tablets  75 mg (Unichem)
+ASE/33817MGEMIS	Aspirin  E/c tablets  75 mg (Sterwin Medicines)
+ASE/33818MGEMIS	Aspirin  E/c tablets  75 mg (Sandoz)
+ASE/33819MGEMIS	Aspirin  E/c tablets  75 mg (Ivax Pharmaceuticals)
+ASE/33820MGEMIS	Aspirin  E/c tablets  75 mg (Generics (UK))
+ASE/33821MGEMIS	Aspirin  E/c tablets  75 mg (Cp Pharm)
+ASM/22792EMIS	Aspirin  M/R tablets  100 mg
+ASM/22793EMIS	Aspirin  M/R tablets  300 mg
+ASM/33164EMIS	Asasantin Retard  M/R capsules  
+ASTA4609	Aspirin  Tablets  75 mg
+ASTA5694	Aspirin Dispersible Low Dose  Tablets  75 mg
+ATM/124051NEMIS	Atransipar  M/R capsules  200 mg + 25 mg
+ATM/89303NEMIS	Attia  M/R capsules  200 mg
+BROR124292NEMIS	Brilique  Orodispersible tablets  90 mg
+BRTA113625NEMIS	Brilique  Tablets  60 mg
+BRTA47520NEMIS	Brilique  Tablets  90 mg
+CAE/28376EMIS	Caprin  E/c tablets  75 mg
+CETA10790BRIDL	Cerebrovase 25  Tablets  25 mg
+CETA10792BRIDL	Cerebrovase 100  Tablets  100 mg
+CLOR134003NEMIS	Clopidogrel  Oral suspension  25 mg/5 ml
+CLOR48250NEMIS	Clopidogrel  Oral suspension  75 mg/5 ml
+CLOR75772NEMIS	Clopidogrel  Oral suspension  1 mg/ml
+CLOR78950NEMIS	Clopidogrel  Oral powder sachets  4 mg
+CLOR78956NEMIS	Clopidogrel  Oral solution  75 mg/5 ml
+CLTA30106NEMIS	Clopidogrel  Tablets  300 mg
+CLTA34068EMIS	Clopidogrel  Tablets  75 mg
+DADI116859NEMIS	Danamep  Dispersible tablets  75 mg
+DIIN4852	Dipyridamole  Injection  5 mg/ml, 2 ml ampoule
+DIM/18533NEMIS	Dipyridamole And Aspirin  M/R capsules  200 mg + 25 mg
+DIM/22788EMIS	Disprin Cv  M/R tablets  100 mg
+DIM/22789EMIS	Disprin Cv  M/R tablets  300 mg
+DIM/30709EMIS	Dipyridamole  M/R capsules  200 mg
+DIOR35895NEMIS	Dipyridamole  Oral suspension  200 mg/5 ml
+DIOR36226NEMIS	Dipyridamole  Oral suspension  100 mg/5 ml
+DIOR40308NEMIS	Dipyridamole  Oral solution  250 mg/5 ml
+DIOR45613NEMIS	Dipyridamole  Oral solution  100 mg/5 ml
+DIOR46729NEMIS	Dipyridamole  Oral solution  200 mg/5 ml
+DISU110029NEMIS	Dipyridamole  Sugar-free oral suspension  200 mg/5 ml
+DISU35068EMIS	Dipyridamole  Sugar-free oral suspension  50 mg/5 ml
+DITA34845MGEMIS	Dipyridamole  Tablets  100 mg (A.A.H. Pharm)
+DITA34846MGEMIS	Dipyridamole  Tablets  100 mg (Kent Pharm)
+DITA34847MGEMIS	Dipyridamole  Tablets  100 mg (Unichem)
+DITA34848MGEMIS	Dipyridamole  Tablets  100 mg (Generics (UK))
+DITA34849MGEMIS	Dipyridamole  Tablets  100 mg (Alpharma)
+DITA34850MGEMIS	Dipyridamole  Tablets  25 mg (Alpharma)
+DITA34851MGEMIS	Dipyridamole  Tablets  25 mg (Kent Pharm)
+DITA34852MGEMIS	Dipyridamole  Tablets  25 mg (A.A.H. Pharm)
+DITA34853MGEMIS	Dipyridamole  Tablets  25 mg (Unichem)
+DITA929	Dipyridamole  Tablets  100 mg
+DITA930	Dipyridamole  Tablets  25 mg
+EFTA35182NEMIS	Efient  Tablets  5 mg
+EFTA35183NEMIS	Efient  Tablets  10 mg
+ENE/35388EMIS	Enprin  E/c tablets  75 mg
+EPIN944NEMIS	Eptifibatide  Solution for injection  2 mg/ml, 10 ml vial
+EPIN946NEMIS	Eptifibatide  Solution for infusion  0.75 mg/ml, 100 ml vial
+GRTA38472NEMIS	Grepid  Tablets  75 mg
+ININ947NEMIS	Integrilin  Solution for injection  2 mg/ml, 10 ml vial
+ININ948NEMIS	Integrilin  Solution for infusion  0.75 mg/ml, 100 ml vial
+MADI128230NEMIS	Mandaprin  Dispersible tablets  75 mg
+MIE/6437NEMIS	Micropirin  E/c tablets  75 mg
+MOM/83187NEMIS	Molita  M/R capsules  200 mg + 25 mg
+MOTA24258EMIS	Modaplate  Tablets  100 mg
+MOTA27590EMIS	Modaplate  Tablets  25 mg
+NUE/24518EMIS	Nu-Seals Aspirin  E/c tablets  75 mg
+OFM/101962NEMIS	Ofcram Pr  M/R capsules  200 mg
+PEIN2205	Persantin  Injection  5 mg/ml, 2 ml ampoule
+PEM/30707EMIS	Persantin Retard  M/R capsules  200 mg
+PETA2206	Persantin  Tablets  100 mg
+PETA2207	Persantin  Tablets  25 mg
+PLEF8526EGTON	Platet 300  Effervescent tablets  300 mg
+PLEF8528EGTON	Platet  Effervescent tablets  100 mg
+PLTA30107NEMIS	Plavix  Tablets  300 mg
+PLTA34066EMIS	Plavix  Tablets  75 mg
+PODI27089EMIS	Postmi 75  Dispersible tablets  75 mg
+POE/24317EMIS	Postmi 300  E/c tablets  300 mg
+POE/26999EMIS	Postmi 75  E/c tablets  75 mg
+PRTA132436NEMIS	Prafsia  Tablets  5 mg
+PRTA132438NEMIS	Prafsia  Tablets  10 mg
+PRTA35178NEMIS	Prasugrel  Tablets  5 mg
+PRTA35180NEMIS	Prasugrel  Tablets  10 mg
+PYTA15943NEMIS	Pyridantin  Tablets  25 mg
+PYTA15944NEMIS	Pyridantin  Tablets  100 mg
+REIN26768EMIS	Reopro  Solution for injection  10 mg/5 ml vial
+TIOR124291NEMIS	Ticagrelor  Orodispersible Tablets (Sugar Free)  90 mg
+TISO12118NEMIS	Tirofiban  Solution for infusion  0.05 mg/ml, 250 ml bag
+TITA113622NEMIS	Ticagrelor  Tablets  60 mg
+TITA47517NEMIS	Ticagrelor  Tablets  90 mg
+TITA60NEMIS	Ticlopidine Hydrochloride  Tablets  250 mg
+TITA63NEMIS	Ticlid  Tablets  250 mg
+TRM/122219NEMIS	Trolactin  M/R capsules  200 mg
+^ESCT1178389	Product containing only cilostazol 50 mg/1 each oral tablet
+^ESCT1181538	Product containing only cilostazol 100 mg/1 each oral tablet
+^ESCT1228247	Product containing precisely cilostazol 100 milligram/1 each conventional release oral tablet
+^ESCT1228251	Product containing precisely cilostazol 50 milligram/1 each conventional release oral tablet
+^ESCT1267062	Efient 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1362978	Prasugrel (as prasugrel hydrochloride) 10 mg oral tablet
+^ESCT1362979	Prasugrel (as prasugrel hydrochloride) 5 mg oral tablet
+^ESCT1370656	Prasugrel 10mg tablets
+^ESCT1375117	Cilostazol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1416225	Ticagrelor 60 mg oral tablet
+^ESCTCI1070771	Cilostazol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI640128	Cilostazol 100mg tablets
+^ESCTCI640130	Cilostazol 100 mg oral tablet
+^ESCTCI640133	Cilostazol 50mg tablets
+^ESCTCI640135	Cilostazol 50 mg oral tablet
+^ESCTDI660876	Dipyridamole 50mg/5ml oral suspension sugar free
+^ESCTPR640129	Product containing cilostazol 100 mg/1 each oral tablet
+^ESCTPR640134	Product containing cilostazol 50 mg/1 each oral tablet
+CITA13253NEMIS	Cilostazol  Tablets  100 mg
+CITA21757NEMIS	Cilostazol  Tablets  50 mg
+^ESCT1181956	Product containing only aspirin 300 mg/1 each oral tablet
+^ESCT1186919	Aspirin 300mg gastro-resistant tablets (Mylan)
+^ESCT1214703	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1214704	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1223673	Aspirin 300 mg gastro-resistant oral tablet
+^ESCT1223674	Product containing precisely aspirin 300 milligram/1 each gastro-resistant oral tablet
+^ESCT1223675	Aspirin 300 mg rectal suppository
+^ESCT1223676	Product containing precisely aspirin 300 milligram/1 each conventional release rectal suppository
+^ESCT1223677	Aspirin 150 mg rectal suppository
+^ESCT1223678	Product containing precisely aspirin 150 milligram/1 each conventional release rectal suppository
+^ESCT1225364	Product containing precisely aspirin 300 milligram/1 each conventional release oral tablet
+^ESCT1250353	Aspirin 300mg gastro-resistant tablets (Advanz Pharma)
+^ESCT1374784	Aspirin 300mg dispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1374786	Aspirin 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374793	Aspirin 300mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1409606	Aspirin 300mg dispersible tablets (Accord Healthcare Ltd)
+^ESCT1409688	Aspirin 300mg tablets (Accord Healthcare Ltd)
+^ESCT1424795	Aspirin 300mg dispersible tablets
+^ESCT1425613	Aspirin 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425804	Aspirin 300mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425872	Aspirin 300mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1438065	Aspirin 300mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCTAL873689	Alka Rapid Crystals 500mg granules sachets (Bayer Plc)
+^ESCTAS1004660	Aspirin 300mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1006288	Aspirin 300mg caplets (The Boots Company Plc)
+^ESCTAS1006321	Aspirin 300mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS1014725	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1035400	Aspirin 100mg capsules
+^ESCTAS1035403	Aspirin 100mg capsules (Special Order)
+^ESCTAS1041413	Aspirin 300mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTAS1041418	Aspirin 300mg tablets (Waymade Healthcare Plc)
+^ESCTAS1041425	Aspirin 300mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTAS1049085	Aspirin 300mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTAS1049090	Aspirin 300mg tablets (DE Pharmaceuticals)
+^ESCTAS1051086	Aspirin 150mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1051088	Aspirin 300mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1067662	Aspirin 300mg tablets (Numark Ltd)
+^ESCTAS1092420	Aspirin 300mg caplets (Wockhardt UK Ltd)
+^ESCTAS1116880	Aspirin 300mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1118910	Aspirin 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118916	Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS607672	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS607674	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS609985	Aspirin 300mg gastro-resistant tablets
+^ESCTAS609986	Aspirin 300mg e/c tablet
+^ESCTAS609988	Aspirin 300mg suppositories
+^ESCTAS609989	Aspirin 300mg suppository
+^ESCTAS609990	Aspirin 150mg suppositories
+^ESCTAS609991	Aspirin 150mg suppository
+^ESCTAS614950	Aspirin 300mg tablets
+^ESCTAS614952	Aspirin 300 mg oral tablet
+^ESCTAS614953	Aspirin 300mg dispersible tablets
+^ESCTAS614954	Aspirin 300mg dispersible tablet
+^ESCTAS802093	Aspirin 300mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTAS806736	Aspirin 300mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS809943	Aspirin 300mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS810040	Aspirin 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS814876	Aspirin 300mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS816283	Aspirin 300mg dispersible tablets (Actavis UK Ltd)
+^ESCTAS816399	Aspirin 300mg suppositories (The Boots Company Plc)
+^ESCTAS818750	Aspirin 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820168	Aspirin 300mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTAS820180	Aspirin 150mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820406	Aspirin 300mg tablets (Actavis UK Ltd)
+^ESCTAS820509	Aspirin 300mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTAS821074	Aspirin 300mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS821167	Aspirin 150mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS821290	Aspirin 300mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS821618	Aspirin 300mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS821805	Aspirin 150mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS822408	Aspirin 300mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS824591	Aspirin 300mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS825694	Aspirin 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS828296	Aspirin 300mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS830701	Aspirin 300mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+^ESCTAS831338	Aspirin 300mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS831458	Aspirin 300mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS871669	Aspro Clear 300mg effervescent tablets (Bayer Plc)
+^ESCTAS871684	Aspirin 500mg effervescent tablets sugar free
+^ESCTAS871769	Aspirin 300mg effervescent tablets sugar free
+^ESCTAS873746	Aspirin 500mg granules sachets sugar free
+^ESCTAS874020	Aspirin 300mg orodispersible tablets sugar free
+^ESCTAS874741	Aspirin 300mg tablets (Vantage)
+^ESCTAS877577	Asasantin Retard capsules (Waymade Healthcare Plc)
+^ESCTAS880016	Asasantin Retard capsules (Dowelhurst Ltd)
+^ESCTAS902114	Aspirin 300mg tablets (Lloyds Pharmacy Ltd)
+^ESCTAS904481	Aspirin 300mg/5ml oral solution (Special Order)
+^ESCTAS904487	Aspirin 300mg/5ml oral suspension (Special Order)
+^ESCTAS904763	Aspirin 300mg/5ml oral solution
+^ESCTAS904764	Aspirin 300mg/5ml oral suspension
+^ESCTAS923540	Aspirin 300mg dispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923848	Aspirin 300mg dispersible tablets (Lloyds Pharmacy Ltd)
+^ESCTAS927772	Aspirin 300mg gastro-resistant tablets (Focus Pharmaceuticals Ltd)
+^ESCTAS929400	Aspirin 300mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTAS933268	Aspirin 300mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTAS959330	Aspirin 300mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959335	Aspirin 75mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959923	Aspirin 300mg tablets (Dowelhurst Ltd)
+^ESCTAS959928	Aspirin 75mg dispersible tablets (Dowelhurst Ltd)
+^ESCTAS961918	Aspirin 300mg tablets (Wockhardt UK Ltd)
+^ESCTAS962452	Aspirin 300mg gastro-resistant tablets (Mylan Ltd)
+^ESCTAS963910	Aspirin 300mg dispersible tablets (DE Pharmaceuticals)
+^ESCTAS964649	Aspirin 300mg dispersible tablets (Numark Ltd)
+^ESCTAS978160	Aspirin 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS978181	Aspirin 300mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS987095	Aspirin 300mg tablets (Bristol Laboratories Ltd)
+^ESCTBO1128278	Boots Aspirin 300mg dispersible tablets (The Boots Company Plc)
+^ESCTCA831814	Caprin 300mg gastro-resistant tablets (Pinewood Healthcare)
+^ESCTDI1100041	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDI1119163	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119348	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (DE Pharmaceuticals)
+^ESCTDI608121	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCTDI608122	Dipyridamole+aspirin 200mg/25mg m/r capsule
+^ESCTDI819906	Disprin 300mg dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI873813	Disprin Direct 300mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTIM862063	Imazin XL tablets (Napp Pharmaceuticals Ltd)
+^ESCTIM862069	Imazin XL forte tablets (Napp Pharmaceuticals Ltd)
+^ESCTIS607673	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+^ESCTIS607675	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+^ESCTMA871665	Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc)
+^ESCTNU805251	Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTPR614951	Product containing aspirin 300 mg/1 each oral tablet
+ASDI223	Aspirin  Dispersible tablets  300 mg
+ASDI33798MGEMIS	Aspirin  Dispersible tablets  300 mg (Aspar)
+ASDI33799MGEMIS	Aspirin  Dispersible tablets  300 mg (Alpharma)
+ASDI33800MGEMIS	Aspirin  Dispersible tablets  300 mg (Kent Pharm)
+ASDI33801MGEMIS	Aspirin  Dispersible tablets  300 mg (A.A.H. Pharm)
+ASDI33802MGEMIS	Aspirin  Dispersible tablets  300 mg (Unichem)
+ASE/24522EMIS	Aspirin  E/c tablets  300 mg
+ASE/33822MGEMIS	Aspirin  E/c tablets  300 mg (The Boots Company)
+ASE/33823MGEMIS	Aspirin  E/c tablets  300 mg (A.A.H. Pharm)
+ASE/33824MGEMIS	Aspirin  E/c tablets  300 mg (Sandoz)
+ASE/33825MGEMIS	Aspirin  E/c tablets  300 mg (Unichem)
+ASE/33826MGEMIS	Aspirin  E/c tablets  300 mg (Kent Pharm)
+ASEF29054NEMIS	Aspro Clear  Effervescent tablets  300 mg
+ASEF29056NEMIS	Aspro Clear Maximum Strength  Effervescent tablets  500 mg
+ASSU3023NEMIS	Aspirin  Suppositories  300 mg
+ASSU3024NEMIS	Aspirin  Suppositories  150 mg
+ASSU37686MGEMIS	Aspirin  Suppositories  300 mg (A.A.H. Pharm)
+ASSU37687MGEMIS	Aspirin  Suppositories  300 mg (The Boots Company)
+ASSU37688MGEMIS	Aspirin  Suppositories  300 mg (Unichem)
+ASSU37689MGEMIS	Aspirin  Suppositories  300 mg (Martindale)
+ASSU37690MGEMIS	Aspirin  Suppositories  150 mg (Unichem)
+ASSU37691MGEMIS	Aspirin  Suppositories  150 mg (Martindale)
+ASSU37692MGEMIS	Aspirin  Suppositories  150 mg (A.A.H. Pharm)
+ASTA10221BRIDL	Aspirin E/C  Tablets  300 mg
+ASTA225	Aspirin  Tablets  300 mg
+ASTA33850MGEMIS	Aspirin  Tablets  300 mg (Kent Pharm)
+ASTA33851MGEMIS	Aspirin  Tablets  300 mg (Unichem)
+ASTA33852MGEMIS	Aspirin  Tablets  300 mg (Alpharma)
+ASTA33853MGEMIS	Aspirin  Tablets  300 mg (OBG Pharm)
+ASTA33854MGEMIS	Aspirin  Tablets  300 mg (Aspar)
+ASTA33855MGEMIS	Aspirin  Tablets  300 mg (A.A.H. Pharm)
+ASTA33856MGEMIS	Aspirin  Tablets  300 mg (Vantage)
+ASTA33857MGEMIS	Aspirin  Tablets  300 mg (Lloyds)
+CATA3282	Caprin  E/c tablets  300 mg
+IMM/35359EMIS	Imazin Xl  M/R tablets  
+IMM/35362EMIS	Imazin Xl Forte  M/R tablets  
+ISM/18556NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 75 mg
+ISM/18557NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 150 mg
+NUTA2039	Nu-Seals Aspirin  E/c tablets  300 mg

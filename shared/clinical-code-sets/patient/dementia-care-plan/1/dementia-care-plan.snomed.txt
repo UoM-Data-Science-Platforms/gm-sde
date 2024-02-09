@@ -1,0 +1,23 @@
+736371006	Dementia care plan
+1095121000000102	Dementia advance care plan agreed
+956841000000106	Dementia care plan agreed
+959361000000105	Dementia advance care plan
+1095121000000102	Dementia advance care plan agreed
+1098271000000104	Dementia advance care planning declined (situation)
+956881000000103	Dementia care plan declined
+1095111000000108	Review of dementia advance care plan (procedure)
+956861000000107	Review of dementia advance care plan
+1095101000000106	Offer of dementia advance care planning review declined (situation)
+956901000000100	Dementia care plan review declined
+959461000000102	Dementia advance care plan review declined
+711441000000100	Dementia monitoring invitation (procedure)
+143381000000102	Quality and Outcomes Framework dementia quality indicator-related care invitation using preferred method of communication (procedure)
+1109921000000106	QOF (Quality and Outcomes Framework) quality indicator-related care invitation
+1110901000000109	QOF (Quality and Outcomes Framework) dementia quality indicator-related care invitation
+715821000000107	Dementia monitoring first letter
+717471000000101	Dementia monitoring second letter
+716671000000102	Dementia monitoring third letter
+716221000000104	Dementia monitoring verbal invite
+716991000000108	Dementia monitoring telephone invite
+716131000000105	Excepted from dementia quality indicators: Informed dissent
+716341000000104	Excepted from dementia quality indicators: Patient unsuitabl

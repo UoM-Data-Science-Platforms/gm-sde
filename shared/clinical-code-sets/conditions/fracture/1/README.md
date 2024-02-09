@@ -1,15 +1,13 @@
 # Fracture
 
-Any code indicating a fracture.
+Any code indicating a fracture. Based on read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/84/codelist/res84-fracture-codes/
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-update:
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.6% - 23.2%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-12-07 | EMIS            | 2438760    |   380898 (15.6%) |    374389 (15.4%) |
-| 2022-12-07 | TPP             | 198672     |    33195 (16.7%) |     20238 (10.2%) |
-| 2022-12-07 | Vision          | 327081     |    59414 (18.2%) |       58900 (18%) |
+| 2023-12-13 | EMIS | 2515618 | 521295 (20.7%) | 521373 (20.7%) | 
+| 2023-12-13 | TPP | 201264 | 47617 (23.7%) | 46765 (23.2%) | 
+| 2023-12-13 | Vision | 334040 | 65475 (19.6%) | 65482 (19.6%) | 

@@ -1,0 +1,370 @@
+^ESCT1186029	Lorazepam 1mg tablets (Mylan)
+^ESCT1186119	Allerief 2mg/5ml oral solution (Crescent Pharma Ltd)
+^ESCT1189263	Zolpidem 10mg tablets (Mylan)
+^ESCT1196327	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd)
+^ESCT1196591	Lorazepam 1mg/ml oral solution sugar free
+^ESCT1197963	Hydroxyzine 10mg/5ml oral suspension
+^ESCT1198924	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd)
+^ESCT1199497	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd)
+^ESCT1214643	Alimemazine 7.5mg/5ml oral solution
+^ESCT1214732	Azatadine 500micrograms/5ml oral solution
+^ESCT1214784	Brompheniramine 2mg/5ml oral solution
+^ESCT1214814	Temazepam 10mg/5ml oral solution sugar free
+^ESCT1214963	Promethazine 25mg/1ml solution for injection ampoules
+^ESCT1215499	Lorazepam 4mg/1ml solution for injection ampoules
+^ESCT1215673	Hydroxyzine 10mg/5ml oral solution
+^ESCT1215786	Diphenhydramine 10mg/5ml oral solution
+^ESCT1215897	Diazepam 10mg/2ml emulsion for injection ampoules
+^ESCT1215898	Diazepam 10mg/2ml solution for injection ampoules
+^ESCT1215998	Midazolam 10mg/2ml solution for injection ampoules
+^ESCT1215999	Midazolam 10mg/5ml solution for injection ampoules
+^ESCT1216000	Midazolam 2mg/2ml solution for injection ampoules
+^ESCT1216001	Midazolam 2mg/ml oral solution sugar free
+^ESCT1216002	Midazolam 50mg/10ml solution for injection ampoules
+^ESCT1216003	Midazolam 5mg/5ml solution for injection ampoules
+^ESCT1250228	Zaditen 1mg tablets (CD Pharma Srl)
+^ESCT1250271	Zaditen 1mg/5ml elixir (CD Pharma Srl)
+^ESCT1250396	Midazolam 10mg/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250410	Midazolam 2mg/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250412	Midazolam 5mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250481	Temazepam 10mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1258376	Chlorphenamine 4mg tablets (Strides Pharma UK Ltd)
+^ESCT1264212	Chlorphenamine 2mg/5ml oral solution
+^ESCT1264213	Chlorphenamine 2mg/5ml oral solution sugar free
+^ESCT1268308	Dalmane 30mg capsules (Mylan)
+^ESCT1301329	Xanax 250microgram tablets (Upjohn Ltd)
+^ESCT1301331	Xanax 500microgram tablets (Upjohn Ltd)
+^ESCT1303975	Xanax 250microgram tablets (Upjohn UK Ltd)
+^ESCT1303977	Xanax 500microgram tablets (Upjohn UK Ltd)
+^ESCT1304015	Diazepam 10mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304079	Midazolam 10mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1410147	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410717	Diazepam 2mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1422366	Alimemazine 7.5mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1437723	Dalmane 30mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437725	Xanax 250microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437729	Xanax 500microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437762	Zolpidem 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437951	Lorazepam 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438111	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1440858	Tavegil 1mg tablets (Thornton & Ross Ltd)
+^ESCTAL901871	Allerief 2mg/5ml oral solution (Orbis Consumer Products Ltd)
+^ESCTAL963800	ALLERcalm Allergy Relief 4mg tablets (Actavis UK Ltd)
+^ESCTAL993471	Alimemazine 7.5mg/5ml oral solution (Zentiva)
+^ESCTAT865612	Ativan 4mg/1ml solution for injection ampoules (Pfizer Ltd)
+^ESCTBO1029895	Boots Allergy Relief Antihistamine 4mg tablets (The Boots Company Plc)
+^ESCTBR1045299	Brompheniramine 12mg modified-release capsules
+^ESCTCH1000449	Chlorphenamine 4mg tablets (Strides Shasun (UK) Ltd)
+^ESCTCH1005307	Chlordiazepoxide 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCH1034631	Chlorphenamine 4mg tablets (Bristol Laboratories Ltd)
+^ESCTCH1047662	Chlorphenamine 4mg tablets (Waymade Healthcare Plc)
+^ESCTCH905519	Chlordiazepoxide 5mg/5ml oral suspension
+^ESCTCH906129	Chlordiazepoxide 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH906132	Chlordiazepoxide 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH923594	Chlorphenamine 4mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCH939597	Chlorphenamine 2mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTCH945425	Chlorphenamine 50mg/5ml oral solution
+^ESCTCH978237	Chlorphenamine 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL1005360	Clonazepam 500microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005451	Clonazepam 500microgram orodispersible tablets
+^ESCTCL1006363	Clonazepam 500microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTCL1006668	Clonazepam 500microgram oral lyophilisates sugar free
+^ESCTCL1025042	Clonazepam 500micrograms/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCL1025047	Clonazepam 2mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCL1025496	Clonazepam 2mg/5ml oral solution sugar free
+^ESCTCL1028247	Clonazepam 500micrograms/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL1044245	Clonazepam 2mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTCL1057064	Clonazepam 2.5mg/ml drops
+^ESCTCL868112	Clonazepam 1mg/1ml solution for injection ampoules and diluent
+^ESCTCL905738	Clonazepam 10mg/5ml oral solution
+^ESCTCL905842	Clonazepam 250micrograms/5ml oral solution
+^ESCTCL905843	Clonazepam 250micrograms/5ml oral suspension
+^ESCTCL905844	Clonazepam 2mg/5ml oral solution
+^ESCTCL905845	Clonazepam 2mg/5ml oral suspension
+^ESCTCL905856	Clonazepam 500micrograms/5ml oral solution
+^ESCTCL905857	Clonazepam 500micrograms/5ml oral suspension
+^ESCTCL905859	Clonazepam 5mg/5ml oral suspension
+^ESCTCL944584	Clonazepam 125micrograms/5ml oral solution
+^ESCTCL944585	Clonazepam 125micrograms/5ml oral suspension
+^ESCTCL944691	Clonazepam 312.5micrograms/5ml oral suspension
+^ESCTCL944700	Clonazepam 50micrograms/5ml oral solution
+^ESCTCL964560	Clonazepam 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTCL978253	Clonazepam 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL983376	Clonazepam 500microgram tablets (Teva UK Ltd)
+^ESCTDA871743	Dalmane 30mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTDI1007611	Diazepam 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1021177	Diazepam 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI1022162	Diazepam 2mg/5ml oral suspension
+^ESCTDI1042779	Diazepam 5mg tablets (Waymade Healthcare Plc)
+^ESCTDI1046527	Diazepam 5mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+^ESCTDI1046544	Diazepam 10mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+^ESCTDI1109076	Diazepam 5mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109078	Diazepam 2mg tablets (Crescent Pharma Ltd)
+^ESCTDI1119152	Diazepam 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1126166	Diazepam 2mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTDI1143977	Diazepam 2mg/5ml oral suspension (Sandoz Ltd)
+^ESCTDI1143981	Diazepam 5mg/5ml oral suspension (Sandoz Ltd)
+^ESCTDI1146388	Diazepam 2mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTDI1146390	Diazepam 5mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTDI866000	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd)
+^ESCTDI875343	Diazepam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDI902409	Diphenhydramine 6.25mg/5ml oral solution sugar free
+^ESCTDI909664	Diazepam 10mg/5ml oral solution
+^ESCTDI909666	Diazepam 2.5mg/5ml oral solution
+^ESCTDI923295	Diazepam 2mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTDI923544	Diazepam 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923547	Diazepam 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923549	Diazepam 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI927759	Diazepam 5mg tablets (Relonchem Ltd)
+^ESCTDI928942	Diazepam 5mg tablets (Arrow Generics Ltd)
+^ESCTDI963823	Diazepam 2mg tablets (DE Pharmaceuticals)
+^ESCTDI963825	Diazepam 5mg tablets (DE Pharmaceuticals)
+^ESCTDI966738	Diazepam 10mg/5ml oral suspension (Special Order)
+^ESCTDI966812	Diazepam 2.5mg/5ml oral suspension (Special Order)
+^ESCTDI966823	Diazepam 10mg/5ml oral suspension
+^ESCTDI966824	Diazepam 2.5mg/5ml oral suspension
+^ESCTDI967263	Diazepam 2mg tablets (Wockhardt UK Ltd)
+^ESCTDI967265	Diazepam 5mg tablets (Wockhardt UK Ltd)
+^ESCTDI999171	Diazepam 2mg tablets (Sovereign Medical Ltd)
+^ESCTDI999174	Diazepam 5mg tablets (Sovereign Medical Ltd)
+^ESCTDR861443	Dreemon 25mg tablets (E M Pharma)
+^ESCTEP864153	Ephedrine hydrochloride 15mg / Chlorphenamine 10mg tablets
+^ESCTGA1000146	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd)
+^ESCTHA864088	Haymine tablets (Chemidex Pharma Ltd)
+^ESCTHA901895	Hayleve 4mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTHI861439	Histergan 25mg tablets (Norma Chemicals Ltd)
+^ESCTHI911540	Histergan 10mg/5ml syrup (Norma Chemicals Ltd)
+^ESCTHY1159874	Hydroxyzine 10mg/5ml oral solution (Special Order)
+^ESCTHY907421	Hydroxyzine 5mg/5ml oral solution
+^ESCTHY952084	Hydroxyzine 2.5mg/5ml oral solution
+^ESCTHY952086	Hydroxyzine 20mg/5ml oral solution
+^ESCTLL902108	Lloydspharmacy Allergy Relief 2mg/5ml syrup (Lloyds Pharmacy Ltd)
+^ESCTLO1027943	Lorazepam 1mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLO1059044	Lorazepam 2mg/1ml solution for injection ampoules
+^ESCTLO1163040	Lorazepam 1mg/ml oral solution
+^ESCTLO907795	Lorazepam 500micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTLO908016	Lorazepam 1mg/5ml oral solution
+^ESCTLO908018	Lorazepam 1mg/5ml oral suspension
+^ESCTLO908377	Lorazepam 2mg/5ml oral suspension
+^ESCTLO908378	Lorazepam 500micrograms/5ml oral solution
+^ESCTLO908380	Lorazepam 500micrograms/5ml oral suspension
+^ESCTLO908381	Lorazepam 5mg/5ml oral solution
+^ESCTLO908382	Lorazepam 5mg/5ml oral suspension
+^ESCTLO908385	Lormetazepam 1mg/5ml oral suspension
+^ESCTLO918684	Lorazepam 1mg tablets (Mylan Ltd)
+^ESCTLO928811	Lorazepam 1mg tablets (Arrow Generics Ltd)
+^ESCTLO950805	Lorazepam 1mg tablets (Sandoz Ltd)
+^ESCTLO950807	Lorazepam 2.5mg tablets (Sandoz Ltd)
+^ESCTLO962160	Lorazepam 1mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1012138	Midazolam 7.5mg tablets
+^ESCTMI1022561	Midazolam 10mg/1ml oromucosal solution pre-filled oral syringes
+^ESCTMI1022741	Midazolam 10mg/ml oromucosal solution (Special Order)
+^ESCTMI1022766	Midazolam 10mg/ml oromucosal solution
+^ESCTMI1036979	Midazolam 2.5mg/0.25ml oromucosal solution pre-filled oral syringes
+^ESCTMI1044939	Midazolam 5mg/2ml solution for injection ampoules
+^ESCTMI1049952	Midazolam 10mg/10ml solution for injection pre-filled syringes
+^ESCTMI1049958	Midazolam 2mg/2ml solution for injection pre-filled syringes
+^ESCTMI1049962	Midazolam 5mg/5ml solution for injection pre-filled syringes
+^ESCTMI1144158	Midazolam 10mg/2ml oromucosal solution pre-filled oral syringes sugar free
+^ESCTMI1144159	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes sugar free
+^ESCTMI1144160	Midazolam 5mg/1ml oromucosal solution pre-filled oral syringes sugar free
+^ESCTMI1144161	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes sugar free
+^ESCTMI1161015	Midazolam 10mg/1ml oromucosal solution pre-filled oral syringes sugar free
+^ESCTMI861470	Midazolam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMI861478	Midazolam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTMI870467	Midazolam 50mg/50ml solution for infusion vials
+^ESCTMI875550	Midazolam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTMI875761	Midazolam 90mg/18ml solution for injection ampoules
+^ESCTMI902043	Midazolam 100mg/50ml solution for infusion vials
+^ESCTMI930040	Midazolam 2.5mg/ml oral solution
+^ESCTMI930044	Midazolam 10mg/ml oral solution
+^ESCTMI930046	Midazolam 10mg/ml oral solution (Special Order)
+^ESCTMI931596	Midazolam 10mg/2ml solution for injection ampoules (AMCo)
+^ESCTMI931615	Midazolam 2mg/2ml solution for injection ampoules (AMCo)
+^ESCTMI931617	Midazolam 5mg/5ml solution for injection ampoules (AMCo)
+^ESCTMI957648	Midazolam 10mg/5ml oral solution
+^ESCTMI957649	Midazolam 10mg/5ml oral suspension
+^ESCTMI957652	Midazolam 2.5mg/5ml oral solution
+^ESCTMI957653	Midazolam 2.5mg/5ml oral suspension
+^ESCTMI957660	Midazolam 5mg/5ml oral solution
+^ESCTMI957661	Midazolam 5mg/5ml oral suspension
+^ESCTMI988350	Midazolam 12.5mg/5ml oral suspension
+^ESCTMI997491	Midazolam 5mg/1ml oromucosal solution pre-filled syringes (Special Order)
+^ESCTMI997492	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled syringes (Special Order)
+^ESCTMI997493	Midazolam 10mg/2ml oromucosal solution pre-filled syringes (Special Order)
+^ESCTMI997527	Midazolam 10mg/2ml oromucosal solution pre-filled oral syringes
+^ESCTMI997528	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes
+^ESCTMI997529	Midazolam 5mg/1ml oromucosal solution pre-filled oral syringes
+^ESCTNI1029399	Nitrazepam 5mg tablets (Pharmvit Ltd)
+^ESCTNI1107705	Nitrazepam 2.5mg/5ml oral suspension sugar free
+^ESCTNI861428	Nightcalm 25mg tablets (Galpharm International Ltd)
+^ESCTNI923631	Nitrazepam 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNI946705	Nitrazepam 2mg/5ml oral suspension
+^ESCTNI946733	Nitrazepam 10mg/5ml oral suspension
+^ESCTNU979802	Numark Antihistamine 4mg tablets (Numark Ltd)
+^ESCTNY861434	Nytol 25mg tablets (Omega Pharma Ltd)
+^ESCTOP870712	Optimine 500micrograms/5ml syrup (Schering-Plough Ltd)
+^ESCTPE866528	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules
+^ESCTPH1021620	Phenergan 25mg tablets (DE Pharmaceuticals)
+^ESCTPH1023775	Phenergan 25mg tablets (Lexon (UK) Ltd)
+^ESCTPH866448	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free
+^ESCTPO872369	Pollenase Allergy 2mg/5ml syrup (E M Pharma)
+^ESCTPR959641	Promethazine 25mg/5ml oral solution
+^ESCTPR959643	Promethazine 25mg/5ml oral suspension
+^ESCTPR990721	Promethazine 50mg/2ml solution for injection ampoules
+^ESCTSL1007029	Sleepeaze 25mg tablets (The Boots Company Plc)
+^ESCTSL1161397	Sleep Aid 25mg tablets (Tor Generics Ltd)
+^ESCTSL912694	Sleepeaze 50mg tablets (The Boots Company Plc)
+^ESCTSO859780	Somnite 2.5mg/5ml oral suspension (Norgine Pharmaceuticals Ltd)
+^ESCTSO868081	Sominex 20mg tablets (Teva UK Ltd)
+^ESCTST860046	Stilnoct 10mg tablets (Sanofi)
+^ESCTST860111	Stilnoct 5mg tablets (Sanofi)
+^ESCTTA863108	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTTA863115	Tavegil 500micrograms/5ml elixir (Novartis Consumer Health UK Ltd)
+^ESCTTE1041542	Temazepam 10mg tablets (Ethigen Ltd)
+^ESCTTE1044105	Temazepam 10mg tablets (F.Maltby & Sons Ltd)
+^ESCTTE912711	Tensium 10mg tablets (DDSA Pharmaceuticals Ltd)
+^ESCTTE965390	Temazepam 10mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTVA864708	Valclair 10mg suppositories (Durbin Plc)
+^ESCTVA990783	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd)
+^ESCTXA871750	Xanax 250microgram tablets (Pfizer Ltd)
+^ESCTXA871759	Xanax 500microgram tablets (Pfizer Ltd)
+^ESCTZA864262	Zaditen 1mg tablets (CD Pharma AB)
+^ESCTZA866536	Zaditen 1mg/5ml elixir (CD Pharma AB)
+^ESCTZA870761	Zaditen 1mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTZA975303	Zaditen 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZI1025170	Zimovane 7.5mg tablets (Lexon (UK) Ltd)
+^ESCTZO1005524	Zopiclone 7.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTZO1021526	Zopiclone 3.75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTZO1021534	Zopiclone 3.75mg/5ml oral solution
+^ESCTZO1034741	Zopiclone 3.75mg tablets (Bristol Laboratories Ltd)
+^ESCTZO1049485	Zopiclone 7.5mg tablets (DE Pharmaceuticals)
+^ESCTZO1067001	Zopiclone 7.5mg/5ml oral solution
+^ESCTZO1127853	Zopiclone 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO860053	Zolpidem 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO860060	Zolpidem 10mg tablets (Teva UK Ltd)
+^ESCTZO860119	Zolpidem 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO860127	Zolpidem 5mg tablets (Teva UK Ltd)
+^ESCTZO860154	Zolpidem 5mg tablets (Sandoz Ltd)
+^ESCTZO863198	Zolpidem 5mg tablets (Actavis UK Ltd)
+^ESCTZO868234	Zolpidem 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO868236	Zolpidem 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO877560	Zolpidem 10mg tablets (Mylan Ltd)
+^ESCTZO896836	Zopiclone 7.5mg tablets (Sandoz Ltd)
+^ESCTZO909709	Zopiclone 7.5mg/5ml oral suspension
+^ESCTZO909710	Zopiclone 3.75mg/5ml oral suspension
+^ESCTZO923612	Zopiclone 3.75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTZO939488	Zopiclone 7.5mg tablets (PLIVA Pharma Ltd)
+^ESCTZO979383	Zopiclone 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO985898	Zolpidem 5mg oral powder sachets
+ALOR13557NEMIS	Allerief  Oral Solution, Sugar Free  2 mg/5 ml
+ALSY17779NEMIS	Alimemazine  Oral solution  7.5 mg/5 ml
+ALTA31090NEMIS	Allercalm Allergy Relief  Tablets  4 mg
+ATIN235	Ativan  Injection  4 mg/ml, 1 ml ampoule
+AZSY4618	Azatadine Maleate  Syrup  500 micrograms/5 ml
+BREL4663	Brompheniramine Maleate  Elixir  2 mg/5 ml
+CHOR17591NEMIS	Chlorphenamine  Oral solution  2 mg/5 ml
+CHOR17592NEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml
+CHOR29091NEMIS	Chlordiazepoxide Hydrochloride  Oral suspension  5 mg/5 ml
+CHSY581	Chlorpheniramine Maleate  Syrup  2 mg/5 ml
+CHTA34285MGEMIS	Chlordiazepoxide Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+CHTA34287MGEMIS	Chlordiazepoxide Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+CLOR12623NEMIS	Clonazepam  Oral solution  500 micrograms/5 ml
+CLOR13132NEMIS	Clonazepam  Oral solution  2 mg/5 ml
+CLOR45737NEMIS	Clonazepam  Oral solution  250 micrograms/5 ml
+CLOR45738NEMIS	Clonazepam  Oral suspension  250 micrograms/5 ml
+CLOR46720NEMIS	Clonazepam  Oral suspension  2 mg/5 ml
+CLOR52810NEMIS	Clonazepam  Oral Solution, Sugar Free  2 mg/5 ml
+CLOR85826NEMIS	Clonazepam  Oral drops  2.5 mg/ml
+CLSO115685NEMIS	Clonazepam  Solution For Injection With Diluent  1 mg/1 ml ampoule
+CLSU11625NEMIS	Clonazepam  Suspension  125 micrograms/5 ml
+CLSU12662NEMIS	Clonazepam  Suspension  500 micrograms/5 ml
+CLSU18195NEMIS	Clonazepam  Suspension  5 mg/5 ml
+DACA797	Dalmane  Capsules  30 mg
+DIIN16939NEMIS	Diazepam  Injection (Emulsion)  5 mg/ml, 2 ml ampoule
+DIIN16940NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule
+DIIN3424	Diazemuls  Injection  5 mg/ml, 2 ml ampoule
+DIIN49601NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule (Hameln Pharm Ltd)
+DIOR23498NEMIS	Diazepam  Oral suspension  2 mg/5 ml
+DIOR23829NEMIS	Diphenhydramine Hydrochloride  Oral solution  10 mg/5 ml
+DIOR46723NEMIS	Diazepam  Oral solution  10 mg/5 ml
+DIOR46724NEMIS	Diazepam  Oral solution  2.5 mg/5 ml
+DISU13303NEMIS	Diazepam  Suspension  10 mg/5 ml
+DISU21126NEMIS	Diazepam  Suspension  2.5 mg/5 ml
+DRTA16132NEMIS	Dreemon  Tablets  25 mg
+EPTA130753NEMIS	Ephedrine Hydrochloride And Chlorphenamine  Tablets  15 mg + 10 mg
+HATA25577NEMIS	Hayleve  Tablets  4 mg
+HATA3691	Haymine  Tablets  
+HISY23831NEMIS	Histergan  Syrup  10 mg/5 ml
+HYOR130333NEMIS	Hydroxyzine Hydrochloride  Oral solution  2.5 mg/5 ml
+HYOR133337NEMIS	Hydroxyzine Hydrochloride  Oral suspension  10 mg/5 ml
+HYSY5014	Hydroxyzine Hydrochloride  Oral solution  10 mg/5 ml
+LOIN5097	Lorazepam  Solution for injection  4 mg/ml, 1 ml ampoule
+LOOR126016NEMIS	Lorazepam  Oral Solution, Sugar Free  1 mg/ml
+LOOR138586NEMIS	Lormetazepam  Oral suspension  1 mg/5 ml
+LOOR20510NEMIS	Lorazepam  Oral suspension  500 micrograms/5 ml
+LOOR22593NEMIS	Lorazepam  Oral suspension  1 mg/5 ml
+LOOR45640NEMIS	Lorazepam  Oral solution  500 micrograms/5 ml
+LOOR45641NEMIS	Lorazepam  Oral solution  1 mg/5 ml
+LOTA35834MGEMIS	Lorazepam  Tablets  1 mg (Generics (UK))
+MIIN22663NEMIS	Midazolam  Solution for infusion  2 mg/ml, 50 ml vial
+MIIN23027NEMIS	Midazolam  Injection  1 mg/ml, 5 ml ampoule
+MIIN25460NEMIS	Midazolam  Injection  5 mg/ml, 10 ml ampoule
+MIIN3553NEMIS	Midazolam  Solution for infusion  1 mg/ml, 50 ml vial
+MIIN36052MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (A.A.H. Pharm)
+MIIN36053MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (Wockhardt UK)
+MIIN36055MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (Phoenix)
+MIIN6930	Midazolam  Injection  10 mg/5 ml ampoule
+MIIN6931	Midazolam  Injection  10 mg/2 ml ampoule
+MIOR115070NEMIS	Midazolam  Oromucosal Solution Sugar Free  10 mg/2 ml oral syringe
+MIOR115071NEMIS	Midazolam  Oromucosal Solution Sugar Free  2.5 mg/0.5 ml oral syringe
+MIOR115072NEMIS	Midazolam  Oromucosal Solution Sugar Free  5 mg/1 ml oral syringe
+MIOR115073NEMIS	Midazolam  Oromucosal Solution Sugar Free  7.5 mg/1.5 ml oral syringe
+MIOR123578NEMIS	Midazolam  Oromucosal Solution Sugar Free  10 mg/1 ml oral syringe
+MIOR40606NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 2.5 mg/0.5 ml Oral Syringe
+MIOR40607NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 5 mg/1 ml Oral Syringe
+MIOR40609NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 10 mg/2 ml Oral Syringe
+MIOR46504NEMIS	Midazolam  Oral solution  10 mg/5 ml
+MIOR46505NEMIS	Midazolam  Oral suspension  10 mg/5 ml
+MIOR46507NEMIS	Midazolam  Oral suspension  12.5 mg/5 ml
+MIOR46508NEMIS	Midazolam  Oral solution  5 mg/5 ml
+MIOR46509NEMIS	Midazolam  Oral suspension  5 mg/5 ml
+MIOR46838NEMIS	Midazolam  Oral solution  50 mg/5 ml
+MIOR52200NEMIS	Midazolam  Oromucosal Solution  10 mg/1 ml pre-filled oral syringe
+MISO142554NEMIS	Midazolam  Solution for injection  5 mg/5 ml pre-filled syringe
+MISO36672NEMIS	Midazolam  Solution for injection  1 mg/ml, 2 ml ampoule
+NITA11321NEMIS	Nightcalm  Tablets  25 mg
+NYTA23522EMIS	Nytol  Tablets  25 mg
+OPSY4083	Optimine  Syrup  500 micrograms/5 ml
+PHOR29099NEMIS	Pholcodine And Promethazine  Oral Solution, Sugar Free  1.5 mg/5 ml + 1.5 mg/5 ml
+PRIN15564NEMIS	Promethazine Hydrochloride  Injection  25 mg/ml, 1 ml ampoule
+PRIN34361EMIS	Promethazine Hydrochloride  Injection  25 mg/ml
+SOSU2641	Somnite  Suspension  2.5 mg/5 ml
+SOTA9074BRIDL	Sominex  Tablets  20 mg
+STTA24420EMIS	Stilnoct  Tablets  5 mg
+STTA30022EMIS	Stilnoct  Tablets  10 mg
+TAEL4388	Tavegil  Elixir  500 micrograms/5 ml
+TATA4389	Tavegil  Tablets  1 mg
+TESU33903EMIS	Temazepam  Sugar-free oral solution  10 mg/5 ml
+TETA5674	Tensium  Tablets  10 mg
+TRSY2934	Trimeprazine Tartrate  Syrup  7.5 mg/5 ml
+VASU27036EMIS	Valclair  Suppositories  10 mg
+XATA5679	Xanax  Tablets  250 micrograms
+XATA5680	Xanax  Tablets  500 micrograms
+ZACA3087	Zaditen  Capsules  1 mg
+ZAS/10814BRIDL	Zaditen  S/f elixir  1 mg/5 ml
+ZATA3088	Zaditen  Tablets  1 mg
+ZOOR35190NEMIS	Zopiclone  Oral suspension  3.75 mg/5 ml
+ZOOR46569NEMIS	Zopiclone  Oral suspension  7.5 mg/5 ml
+ZOOR51975NEMIS	Zopiclone  Oral solution  3.75 mg/5 ml
+ZOOR89444NEMIS	Zopiclone  Oral solution  7.5 mg/5 ml
+ZOTA37468MGEMIS	Zolpidem Tartrate  Tablets  5 mg (A.A.H. Pharm)
+ZOTA37469MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Teva UK)
+ZOTA37471MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Sandoz)
+ZOTA37473MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Alpharma)
+ZOTA37474MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Ivax Pharmaceuticals)
+ZOTA37483MGEMIS	Zolpidem Tartrate  Tablets  10 mg (A.A.H. Pharm)
+ZOTA37484MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Teva UK)
+ZOTA37489MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Ivax Pharmaceuticals)
+ZOTA37491MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Generics (UK))
+ZOTA37500MGEMIS	Zopiclone  Tablets  7.5 mg (Sandoz)

@@ -1,0 +1,9 @@
+514331000000104	Referral to safeguarding adults team (procedure)
+909021000000108	Safeguarding report (record artifact)
+909031000000105	Adult safeguarding report (record artifact)
+766561000000109	Adult safeguarding concern
+822341000000108	Liaison with safeguarding adult team (procedure)
+1053881000000102	Safeguarding intervention (regime/therapy)
+836901000000108	Referral to safeguarding coordinator
+782101000000100	Safeguarding vulnerable adult case management (procedure)
+794091000000102	Under care of safeguarding adult team (finding)
