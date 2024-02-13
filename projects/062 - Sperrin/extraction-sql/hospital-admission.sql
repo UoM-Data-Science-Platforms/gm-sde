@@ -242,12 +242,12 @@ DROP TABLE #UnmatchedYobPatients;
 
 
 -- Merge information========================================================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
   gp.GPPracticeCode, 
   yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
-INTO #Table
+INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
@@ -257,9 +257,36 @@ LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
-FROM #Table
+FROM #Cohort
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
+--┌─────────────────────────────────────────┐
+--│ Secondary admissions and length of stay │
+--└─────────────────────────────────────────┘
 
+-- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
+--						the date of admission, the date of discharge, and the length of stay.
+
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+
+-- OUTPUT: Two temp table as follows:
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
+--   on the same day to the same hopsital then it's most likely data duplication rather than two short
+--   hospital stays)
+-- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--	- DischargeDate - date of discharge (YYYY-MM-DD)
+--	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+
+-- Set the temp end date until new legal basis - OLD
+--DECLARE @TEMPAdmissionsEndDate datetime;
+--SET @TEMPAdmissionsEndDate = '2022-06-01';
 
 -- Populate temporary table with admissions
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
@@ -270,15 +297,25 @@ CREATE TABLE #Admissions (
 	AdmissionDate DATE,
 	AcuteProvider NVARCHAR(150)
 );
-
-INSERT INTO #Admissions
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
-FROM [SharedCare].[Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Admission'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND AdmissionDate >= @StartDate;
-
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [SharedCare].[Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND AdmissionDate >= @StartDate
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
+	ELSE
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [SharedCare].[Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND AdmissionDate >= @StartDate
+		--AND AdmissionDate <= @TEMPAdmissionsEndDate;
+END
 
 --┌──────────────────────┐
 --│ Secondary discharges │
@@ -342,11 +379,14 @@ SELECT
 	a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider, 
 	MIN(d.DischargeDate) AS DischargeDate, 
 	1 + DATEDIFF(day,a.AdmissionDate, MIN(d.DischargeDate)) AS LengthOfStay
-INTO #LengthOfStay
+	INTO #LengthOfStay
 FROM #Admissions a
 INNER JOIN #Discharges d ON d.FK_Patient_Link_ID = a.FK_Patient_Link_ID AND d.DischargeDate >= a.AdmissionDate AND d.AcuteProvider = a.AcuteProvider
 GROUP BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider
 ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
+-- 511740 rows	511740 rows	
+-- 00:00:04		00:00:05
+
 
 ----- create anonymised identifier for each hospital
 -- this is included in case PI wants to consider the fact that each hospitalstarted providing complete data on different dates
@@ -367,8 +407,8 @@ SELECT FK_Patient_Link_ID AS PatientID,
  	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate),
 	   LengthOfStayDays = LengthOfStay,
 	   HospitalID 
-FROM #LengthOfStay los
-LEFT JOIN #RandomiseHospital rh ON rh.AcuteProvider = los.AcuteProvider
+FROM #Admissions a
+LEFT JOIN #RandomiseHospital rh ON rh.AcuteProvider = a.AcuteProvider
 ORDER BY FK_Patient_Link_ID, AdmissionDate
 
 

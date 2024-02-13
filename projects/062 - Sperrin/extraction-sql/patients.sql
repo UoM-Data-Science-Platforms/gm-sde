@@ -246,12 +246,12 @@ DROP TABLE #UnmatchedYobPatients;
 
 
 -- Merge information========================================================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
   gp.GPPracticeCode, 
   yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
-INTO #Table
+INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
@@ -261,7 +261,7 @@ LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
-FROM #Table
+FROM #Cohort
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 --┌─────┐
 --│ Sex │

@@ -240,12 +240,12 @@ DROP TABLE #UnmatchedYobPatients;
 
 
 -- Merge information========================================================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
   gp.GPPracticeCode, 
   yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
-INTO #Table
+INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
@@ -255,7 +255,7 @@ LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
-FROM #Table
+FROM #Cohort
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 
 
@@ -264,7 +264,8 @@ IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
 SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, SuppliedCode
 INTO #GPEvents
 FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND SuppliedCode IN (SELECT code FROM #AllCodes);
 
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
@@ -654,7 +655,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Shingles
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -702,7 +703,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PostherpeticNeuralgia
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -750,7 +751,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #CHD
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -798,7 +799,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Stroke
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -846,7 +847,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Dementia
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -894,7 +895,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #COPD
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -942,7 +943,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #LungCancer
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -990,7 +991,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PancreaticCancer
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1038,7 +1039,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #ColorectalCancer
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1086,7 +1087,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BreastCancer
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1134,7 +1135,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Falls
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1182,7 +1183,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BackProblems
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1230,7 +1231,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #Diabetes
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1278,7 +1279,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #FluVaccine
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1326,7 +1327,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #PneumococcalVaccine
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1374,7 +1375,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #BreastCancerScreening
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1422,7 +1423,7 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #ColorectalCancerScreening
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 --┌────────────────────────────────────────────────────────────────────────────┐
 --│ Create listing tables for each GP events - RQ062                           │
 --└────────────────────────────────────────────────────────────────────────────┘
@@ -1470,12 +1471,12 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #RTI
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
 
 
 -- Create the final table==========================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT * INTO # Table FROM #BackProblems
+IF OBJECT_ID('tempdb..#Final') IS NOT NULL DROP TABLE #Final;
+SELECT * INTO #Final FROM #BackProblems
 UNION
 SELECT * FROM #BreastCancer
 UNION
@@ -1511,5 +1512,5 @@ SELECT * FROM #Shingles
 UNION
 SELECT * FROM #Stroke
 
-SELECT * FROM #Table
+SELECT * FROM #Final
 ORDER BY PatientID, EventDate;
