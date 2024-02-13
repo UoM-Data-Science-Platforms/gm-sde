@@ -42,21 +42,13 @@ SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnom
 IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
-		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END,
-		Dosage,
-		Quantity
+	CAST(MedicationDate AS DATE) as PrescriptionDate,
+	Concept
 INTO #medications_rx
 FROM SharedCare.GP_Medications m
-LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
+INNER JOIN #AllCodes a ON a.code = SuppliedCode
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND 
-		(m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
-		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1))
-
+AND m.MedicationDate BETWEEN @StartDate AND @EndDate;
 
 --- create index on meds table
 DROP INDEX IF EXISTS medsdata1 ON #medications_rx;
