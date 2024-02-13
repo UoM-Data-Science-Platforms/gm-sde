@@ -101,7 +101,6 @@ bde4.	*CORGARETIC-80 tablets
 bde5.	*INDERETIC capsules
 bde6.	*INDEREX m/r capsules
 bde7.	KALTEN capsules
-bdea.	*MODUCREN tablets
 bdeA.	METOPROLOL TART+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
 bdeb.	PRESTIM tablets
 bded.	*SECADREX tablets
@@ -148,6 +147,8 @@ bdj1.	CELIPROLOL 200mg tablets
 bdj3.	CELECTOL 200mg tablets
 bdj4.	CELIPROLOL 400mg tablets
 bdj5.	CELECTOL 400mg tablets
+bdk1.	ESMOLOL HCL 2.5g/10mL injection
+bdk3.	BREVIBLOC CONCENTRATE 2.5g/10mL injection
 bdl1.	*EUCARDIC 12.5 tablets
 bdl2.	*EUCARDIC 25 tablets
 bdl3.	CARVEDILOL 12.5mg tablets

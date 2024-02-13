@@ -101,7 +101,6 @@ bde4.	Corgaretic 80mg tablet
 bde5.	Inderetic capsule
 bde6.	Inderex capsule
 bde7.	Kalten capsule
-bdea.	Moducren tablet
 bdeA.	Metoprolol tartrate+hydrochlorothiazide 100mg/12.5mg tablet
 bdeb.	Prestim tablet
 bded.	Secadrex tablet
@@ -110,11 +109,7 @@ bdeG.	Pindolol+clopamide 10mg/5mg tablet
 bdeh.	Tenoretic tablet
 bdej.	Trasidrex tablet
 bdek.	Viskaldix tablet
-bdem.	Atenolol+chlortalidone 50mg/12.5mg tablet
-bdem.	Atenolol+chlorthalidone 50mg/12.5mg tablet
 bdem.	Co-tenidone 50mg/12.5mg tablet
-bden.	Atenolol+chlortalidone 100mg/25mg tablet
-bden.	Atenolol+chlorthalidone 100mg/25mg tablet
 bden.	Co-tenidone 100mg/25mg tablet
 bdeo.	AtenixCo 50mg/12.5mg tablet
 bdep.	AtenixCo 100mg/25mg tablet
@@ -152,6 +147,8 @@ bdj1.	Celiprolol hydrochloride 200mg tablet
 bdj3.	Celectol 200mg tablet
 bdj4.	Celiprolol hydrochloride 400mg tablet
 bdj5.	Celectol 400mg tablet
+bdk1.	Esmolol hydrochloride 2.5g/10mL injection concentrate
+bdk3.	Brevibloc Concentrate 2.5g/10mL injection
 bdl1.	Eucardic 12.5 tablet
 bdl2.	Eucardic 25 tablet
 bdl3.	Carvedilol 12.5mg tablet
