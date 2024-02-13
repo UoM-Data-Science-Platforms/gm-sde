@@ -54,24 +54,6 @@ AND m.MedicationDate BETWEEN @StartDate AND @EndDate;
 DROP INDEX IF EXISTS medsdata1 ON #medications_rx;
 CREATE INDEX medsdata1 ON #medications_rx (Concept) INCLUDE (FK_Patient_Link_ID, PrescriptionDate);
 
-/*
--- Dosage information *might* contain sensitive information, so let's 
--- restrict to dosage instructions that occur >= 50 times
-IF OBJECT_ID('tempdb..#SafeDosages') IS NOT NULL DROP TABLE #SafeDosages;
-SELECT Dosage INTO #SafeDosages FROM #medications_rx
-group by Dosage
-having count(*) >= 50;
-
-select FK_Patient_Link_ID,
-		PrescriptionDate,
-		Concept,
-		Dosage = LEFT(REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' '),50),
-		Quantity
-from #medications_rx m
-LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
-*/
-
-
 ---- Find 70th birthday of each patient (to the closest quarter), for working out closest meds before and after 
 IF OBJECT_ID('tempdb..#70thBirthdayDates') IS NOT NULL DROP TABLE #70thBirthdayDates;
 SELECT p.FK_Patient_Link_ID, 

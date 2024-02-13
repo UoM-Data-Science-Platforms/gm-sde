@@ -107,8 +107,23 @@ INTO #GPEncountersFinal
 FROM #GPEncounters g
 LEFT OUTER JOIN #CodingClassifier c ON g.FK_Reference_Coding_ID = c.PK_Reference_Coding_ID
 
+--SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
+--FROM #GPEncountersFinal
+--ORDER BY FK_Patient_Link_ID, EncounterDate;
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Face2face
+INTO #f2f
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Face2face'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Telephone
+INTO #telephone
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Telephone'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
 
 -- The final table===============================================================================================================================================
-SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
-FROM #GPEncountersFinal
-ORDER BY FK_Patient_Link_ID, EncounterDate;
+
+SELECT f.FK_Patient_Link_ID, f.[Year], GPEncounters_Face2face, GPEncounters_Telephone from #f2f f
+LEFT JOIN #telephone t on t.FK_Patient_Link_ID = f.FK_Patient_Link_ID and t.[Year] = f.[Year]
