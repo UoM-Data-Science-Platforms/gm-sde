@@ -19,10 +19,10 @@
 {endif:verbose}
 
 --> CODESET {param:code-set}:{param:version}
-SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO {param:temp-table-name}
-FROM {param:gp-events-table} p
-INNER JOIN (
+
+-- First we get the date of the nearest {param:code-set} measurement before/after
+-- the index date
+IF OBJECT_ID('tempdb..{param:temp-table-name}TEMP1') IS NOT NULL DROP TABLE {param:temp-table-name}TEMP1;
 {if:comparison=>}
   SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
 {endif:comparison}
@@ -35,20 +35,21 @@ INNER JOIN (
 {if:comparison=<=}
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
 {endif:comparison}
-  FROM {param:gp-events-table}
-  WHERE (
-    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:code-set}' AND Version = {param:version}) OR
-    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:code-set}' AND Version = {param:version})
-  )
-  AND EventDate {param:comparison} '{param:date}'
-  AND [Value] IS NOT NULL
-  AND [Value] != '0'
-  GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:code-set}' AND Version = {param:version}) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:code-set}' AND Version = {param:version})
-)
+INTO {param:temp-table-name}TEMP1
+FROM {param:gp-events-table}
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = '{param:code-set}' AND Version = {param:version}) 
+AND EventDate {param:comparison} '{param:date}'
+AND [Value] IS NOT NULL
+AND [Value] != '0'
+GROUP BY FK_Patient_Link_ID;
+
+-- Then we join to that table in order to get the value of that measurement
+IF OBJECT_ID('tempdb..{param:temp-table-name}') IS NOT NULL DROP TABLE {param:temp-table-name};
+SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
+INTO {param:temp-table-name}
+FROM {param:gp-events-table} p
+INNER JOIN {param:temp-table-name}TEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = '{param:code-set}' AND Version = {param:version}) 
 {if:patients}
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM {param:patients})
 {endif:patients}
