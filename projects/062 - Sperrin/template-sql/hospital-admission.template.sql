@@ -39,7 +39,7 @@ INTO #RandomiseHospital
 FROM #hospitals
 
 -- Create the final table
-SELECT FK_Patient_Link_ID AS PatientID,
+SELECT FK_Patient_Link_ID AS PatientId,
  	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate),
 	   LengthOfStayDays = LengthOfStay,
 	   HospitalID 
