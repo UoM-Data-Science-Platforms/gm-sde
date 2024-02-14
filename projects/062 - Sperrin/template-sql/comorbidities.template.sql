@@ -27,8 +27,7 @@ IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
 SELECT FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, SuppliedCode
 INTO #GPEvents
 FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND SuppliedCode IN (SELECT code FROM #AllCodes);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 --> EXECUTE query-build-rq062-gp-events.sql version:1 conditionname:Shingles condition:shingles
 --> EXECUTE query-build-rq062-gp-events.sql version:1 conditionname:PostherpeticNeuralgia condition:post-herpetic-neuralgia

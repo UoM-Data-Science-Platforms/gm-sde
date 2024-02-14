@@ -43,7 +43,7 @@ SELECT FK_Patient_Link_ID AS PatientID,
  	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate),
 	   LengthOfStayDays = LengthOfStay,
 	   HospitalID 
-FROM #Admissions a
+FROM #LengthOfStay a
 LEFT JOIN #RandomiseHospital rh ON rh.AcuteProvider = a.AcuteProvider
 ORDER BY FK_Patient_Link_ID, AdmissionDate
 
