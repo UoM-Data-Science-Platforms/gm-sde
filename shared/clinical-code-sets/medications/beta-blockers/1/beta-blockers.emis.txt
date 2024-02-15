@@ -1,0 +1,2345 @@
+^ESCT1176984	Bisoprolol 1.25mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176987	Bisoprolol 2.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176989	Bisoprolol 3.75mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176991	Bisoprolol 5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176993	Bisoprolol 7.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1176995	Bisoprolol 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177263	Metoprolol 50mg tablets (Milpharm Ltd)
+^ESCT1177265	Metoprolol 100mg tablets (Milpharm Ltd)
+^ESCT1177392	Sotalol 40mg tablets (Milpharm Ltd)
+^ESCT1177394	Sotalol 80mg tablets (Milpharm Ltd)
+^ESCT1177396	Sotalol 160mg tablets (Milpharm Ltd)
+^ESCT1177883	Product containing only betaxolol hydrochloride 20 mg/1 each oral tablet
+^ESCT1177884	Product containing only labetalol hydrochloride 100 mg/1 each oral tablet
+^ESCT1177885	Product containing only labetalol hydrochloride 400 mg/1 each oral tablet
+^ESCT1177919	Product containing only propranolol hydrochloride 10 mg/1 each oral tablet
+^ESCT1177920	Product containing only acebutolol 100 mg/1 each oral capsule
+^ESCT1177921	Product containing only atenolol 100 mg/1 each oral tablet
+^ESCT1177922	Product containing only atenolol 25 mg/1 each oral tablet
+^ESCT1177923	Product containing only metoprolol tartrate 100 mg/1 each oral tablet
+^ESCT1177924	Product containing only metoprolol tartrate 50 mg/1 each oral tablet
+^ESCT1177985	Product containing only labetalol hydrochloride 50 mg/1 each oral tablet
+^ESCT1177986	Product containing only oxprenolol hydrochloride 20 mg/1 each oral tablet
+^ESCT1177987	Product containing only oxprenolol hydrochloride 40 mg/1 each oral tablet
+^ESCT1177988	Product containing only oxprenolol hydrochloride 80 mg/1 each oral tablet
+^ESCT1177990	Product containing only sotalol hydrochloride 80 mg/1 each oral tablet
+^ESCT1177991	Product containing only sotalol hydrochloride 200 mg/1 each oral tablet
+^ESCT1177992	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1177993	Product containing only nadolol 40 mg and bendroflumethiazide 5 mg/1 each oral tablet
+^ESCT1177994	Product containing only bisoprolol fumarate 5 mg/1 each oral tablet
+^ESCT1177995	Product containing only bisoprolol fumarate 3.75 mg/1 each oral tablet
+^ESCT1177996	Product containing only celiprolol hydrochloride 200 mg/1 each oral tablet
+^ESCT1178076	Product containing only atenolol 50 mg and chlorthalidone 12.5 mg/1 each oral tablet
+^ESCT1178077	Product containing only atenolol 50 mg and chlortalidone 12.5 mg/1 each oral tablet
+^ESCT1178078	Product containing only propranolol hydrochloride 80 mg and bendroflumethiazide 2.5 mg/1 each oral capsule
+^ESCT1178079	Product containing only acebutolol 200 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1178080	Product containing only atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1178081	Product containing only bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCT1178082	Product containing only carvedilol 12.5 mg/1 each oral tablet
+^ESCT1178083	Product containing only carvedilol 3.125 mg/1 each oral tablet
+^ESCT1178650	Propranolol 10mg tablets (Mylan)
+^ESCT1178670	Propranolol 160mg tablets (Mylan)
+^ESCT1178671	Co-tenidone 50mg/12.5mg tablets (Mylan)
+^ESCT1178672	Co-tenidone 100mg/25mg tablets (Mylan)
+^ESCT1178675	Sotalol 160mg tablets (Mylan)
+^ESCT1178683	Propranolol 80mg tablets (Mylan)
+^ESCT1178998	Labetalol 100mg tablets (Mylan)
+^ESCT1179252	Product containing only nebivolol 2.5 mg/1 each oral tablet
+^ESCT1179813	Labetalol 200mg tablets (Mylan)
+^ESCT1179826	Atenolol 50mg tablets (Mylan)
+^ESCT1180480	Nebivolol 5mg tablets (Mylan)
+^ESCT1181187	Product containing only propranolol hydrochloride 40 mg/1 each oral tablet
+^ESCT1181188	Product containing only propranolol hydrochloride 160 mg/1 each oral tablet
+^ESCT1181189	Product containing only acebutolol 400 mg/1 each oral tablet
+^ESCT1181190	Product containing only labetalol hydrochloride 200 mg/1 each oral tablet
+^ESCT1181191	Product containing only nadolol 40 mg/1 each oral tablet
+^ESCT1181192	Product containing only nadolol 80 mg/1 each oral tablet
+^ESCT1181193	Product containing only pindolol 5 mg/1 each oral tablet
+^ESCT1181194	Product containing only pindolol 15 mg/1 each oral tablet
+^ESCT1181195	Product containing only sotalol hydrochloride 40 mg/1 each oral tablet
+^ESCT1181196	Product containing only atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCT1181197	Product containing only bisoprolol fumarate 1.25 mg/1 each oral tablet
+^ESCT1181198	Product containing only bisoprolol fumarate 2.5 mg/1 each oral tablet
+^ESCT1181199	Product containing only celiprolol hydrochloride 400 mg/1 each oral tablet
+^ESCT1181200	Product containing only carvedilol 25 mg/1 each oral tablet
+^ESCT1181201	Product containing only carvedilol 6.25 mg/1 each oral tablet
+^ESCT1181202	Product containing only nebivolol 5 mg/1 each oral tablet
+^ESCT1183179	Product containing only atenolol 100 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCT1183180	Product containing only atenolol 100 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCT1183694	Bisoprolol 2.5mg tablets (Mylan)
+^ESCT1183721	Propranolol 40mg tablets (Mylan)
+^ESCT1183732	Labetalol 400mg tablets (Mylan)
+^ESCT1183746	Celiprolol 200mg tablets (Mylan)
+^ESCT1183991	Carvedilol 6.25mg tablets (Mylan)
+^ESCT1183992	Carvedilol 12.5mg tablets (Mylan)
+^ESCT1183993	Carvedilol 25mg tablets (Mylan)
+^ESCT1184263	Bisoprolol 5mg tablets (Mylan)
+^ESCT1184273	Sotalol 80mg tablets (Mylan)
+^ESCT1184274	Metoprolol 50mg tablets (Mylan)
+^ESCT1184275	Celiprolol 400mg tablets (Mylan)
+^ESCT1184287	Atenolol 25mg tablets (Mylan)
+^ESCT1184957	Bisoprolol 7.5mg tablets (Mylan)
+^ESCT1185946	Slo-Pro 160mg capsules (Mylan)
+^ESCT1186032	Sotalol 40mg tablets (Mylan)
+^ESCT1186361	Metoprolol 100mg tablets (Mylan)
+^ESCT1186362	Bisoprolol 10mg tablets (Mylan)
+^ESCT1187190	Product containing only propranolol hydrochloride 80 mg/1 each oral tablet
+^ESCT1187191	Product containing only acebutolol 200 mg/1 each oral capsule
+^ESCT1187192	Product containing only atenolol 50 mg/1 each oral tablet
+^ESCT1187193	Product containing only sotalol hydrochloride 160 mg/1 each oral tablet
+^ESCT1187194	Product containing only timolol maleate 10 mg/1 each oral tablet
+^ESCT1187195	Product containing only nadolol 80 mg and bendroflumethiazide 5 mg/1 each oral tablet
+^ESCT1187196	Product containing only pindolol 10 mg and clopamide 5 mg/1 each oral tablet
+^ESCT1187197	Product containing only timolol maleate 10 mg and bendroflumethiazide 2.5 mg/1 each oral tablet
+^ESCT1187198	Product containing only bisoprolol fumarate 10 mg/1 each oral tablet
+^ESCT1187199	Product containing only bisoprolol fumarate 7.5 mg/1 each oral tablet
+^ESCT1188731	Product containing only nebivolol 10 mg/1 each oral tablet
+^ESCT1189231	Atenolol 100mg tablets (Mylan)
+^ESCT1189512	Pindolol 5mg tablets (Mylan)
+^ESCT1190039	Bisoprolol 1.25mg tablets (Mylan)
+^ESCT1190107	Bisoprolol 3.75mg tablets (Mylan)
+^ESCT1195956	Nebivolol 5mg tablets (Accord Healthcare Ltd)
+^ESCT1195985	Labetalol 100mg/20ml solution for injection ampoules (RPH Pharmaceuticals AB)
+^ESCT1196072	Trandate 50mg tablets (RPH Pharmaceuticals AB)
+^ESCT1196134	Trandate 200mg tablets (RPH Pharmaceuticals AB)
+^ESCT1196135	Trandate 100mg tablets (RPH Pharmaceuticals AB)
+^ESCT1196136	Trandate 400mg tablets (RPH Pharmaceuticals AB)
+^ESCT1197898	Sotalol 50mg/5ml oral suspension (Special Order)
+^ESCT1197946	Sotalol 50mg/5ml oral suspension
+^ESCT1198099	Atenolol 50mg tablets (RX Farma)
+^ESCT1198101	Atenolol 100mg tablets (RX Farma)
+^ESCT1198103	Co-tenidone 50mg/12.5mg tablets (RX Farma)
+^ESCT1198105	Co-tenidone 100mg/25mg tablets (RX Farma)
+^ESCT1214156	Esmolol 100mg/10ml solution for injection vials (Consilient Health Ltd)
+^ESCT1214608	Esmolol 100mg/10ml solution for injection vials
+^ESCT1214609	Esmolol 2.5g/10ml solution for infusion ampoules
+^ESCT1214705	Atenolol 25mg/5ml oral solution sugar free
+^ESCT1214706	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCT1214707	Atenolol 5mg/10ml solution for injection ampoules
+^ESCT1214713	Atenolol 25mg/5ml oral solution sugar free (Essential Generics Ltd)
+^ESCT1214957	Sotalol 40mg/4ml solution for injection ampoules
+^ESCT1214970	Propranolol 10mg/5ml oral solution sugar free
+^ESCT1214971	Propranolol 160mg modified-release / Bendroflumethiazide 5mg capsules
+^ESCT1214972	Propranolol 1mg/1ml solution for injection ampoules
+^ESCT1214973	Propranolol 50mg/5ml oral solution sugar free
+^ESCT1214974	Propranolol 5mg/5ml oral solution sugar free
+^ESCT1215324	Oxprenolol 160mg modified-release tablets
+^ESCT1215447	Metoprolol 200mg modified-release / Hydrochlorothiazide 25mg tablets
+^ESCT1215448	Metoprolol 200mg modified-release tablets
+^ESCT1215470	Labetalol 100mg/20ml solution for injection ampoules
+^ESCT1215875	Co-prenozide 160mg/0.25mg modified-release tablets
+^ESCT1215919	Bedranol 10mg tablets (Ennogen Pharma Ltd)
+^ESCT1215921	Bedranol 40mg tablets (Ennogen Pharma Ltd)
+^ESCT1215923	Bedranol 80mg tablets (Ennogen Pharma Ltd)
+^ESCT1215927	Bedranol 160mg tablets (Ennogen Pharma Ltd)
+^ESCT1222827	Product containing precisely propranolol hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1222828	Product containing precisely propranolol hydrochloride 40 milligram/1 each conventional release oral tablet
+^ESCT1222829	Product containing precisely propranolol hydrochloride 80 milligram/1 each conventional release oral tablet
+^ESCT1222830	Product containing precisely propranolol hydrochloride 160 milligram/1 each conventional release oral tablet
+^ESCT1222831	Product containing precisely acebutolol 100 milligram/1 each conventional release oral capsule
+^ESCT1222832	Acebutolol 100 mg oral capsule
+^ESCT1222833	Product containing precisely acebutolol 200 milligram/1 each conventional release oral capsule
+^ESCT1222834	Acebutolol 200 mg oral capsule
+^ESCT1222835	Product containing precisely acebutolol 400 milligram/1 each conventional release oral tablet
+^ESCT1222836	Product containing precisely atenolol 50 milligram/1 each conventional release oral tablet
+^ESCT1222837	Product containing precisely atenolol 100 milligram/1 each conventional release oral tablet
+^ESCT1222838	Product containing precisely atenolol 25 milligram/1 each conventional release oral tablet
+^ESCT1222839	Product containing precisely betaxolol hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1222840	Product containing precisely labetalol hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1222841	Product containing precisely labetalol hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1222842	Product containing precisely labetalol hydrochloride 400 milligram/1 each conventional release oral tablet
+^ESCT1222843	Product containing precisely labetalol hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1222844	Product containing precisely metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1222845	Product containing precisely metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1222846	Product containing precisely nadolol 40 milligram/1 each conventional release oral tablet
+^ESCT1222847	Product containing precisely nadolol 80 milligram/1 each conventional release oral tablet
+^ESCT1222848	Product containing precisely oxprenolol hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1222849	Product containing precisely oxprenolol hydrochloride 40 milligram/1 each conventional release oral tablet
+^ESCT1222850	Product containing precisely oxprenolol hydrochloride 80 milligram/1 each conventional release oral tablet
+^ESCT1222852	Product containing precisely pindolol 5 milligram/1 each conventional release oral tablet
+^ESCT1222853	Product containing precisely pindolol 15 milligram/1 each conventional release oral tablet
+^ESCT1222854	Product containing precisely sotalol hydrochloride 40 milligram/1 each conventional release oral tablet
+^ESCT1222855	Product containing precisely sotalol hydrochloride 80 milligram/1 each conventional release oral tablet
+^ESCT1222856	Product containing precisely sotalol hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1222857	Product containing precisely sotalol hydrochloride 160 milligram/1 each conventional release oral tablet
+^ESCT1222858	Product containing precisely timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222859	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1222860	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1222861	Bendroflumethiazide 5 mg and nadolol 40 mg oral tablet
+^ESCT1222862	Product containing precisely bendroflumethiazide 5 milligram and nadolol 40 milligram/1 each conventional release oral tablet
+^ESCT1222863	Bendroflumethiazide 5 mg and nadolol 80 mg oral tablet
+^ESCT1222864	Product containing precisely bendroflumethiazide 5 milligram and nadolol 80 milligram/1 each conventional release oral tablet
+^ESCT1222865	Clopamide 5 mg and pindolol 10 mg oral tablet
+^ESCT1222866	Product containing precisely clopamide 5 milligram and pindolol 10 milligram/1 each conventional release oral tablet
+^ESCT1222869	Product containing precisely bendroflumethiazide 2.5 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222870	Bendroflumethiazide 2.5 mg and timolol maleate 10 mg oral tablet
+^ESCT1222871	Product containing precisely atenolol 25 milligram and bendroflumethiazide 1.25 milligram/1 each conventional release oral capsule
+^ESCT1222872	Atenolol 25 mg and bendroflumethiazide 1.25 mg oral capsule
+^ESCT1222873	Product containing precisely atenolol 50 milligram and chlortalidone 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222874	Product containing precisely bendroflumethiazide 2.5 milligram and propranolol hydrochloride 80 milligram/1 each conventional release oral capsule
+^ESCT1222875	Bendroflumethiazide 2.5 mg and propranolol hydrochloride 80 mg oral capsule
+^ESCT1222876	Product containing precisely acebutolol 200 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222877	Product containing precisely amiloride hydrochloride 2.5 milligram and atenolol 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral capsule
+^ESCT1222878	Amiloride hydrochloride 2.5 mg and atenolol 50 mg and hydrochlorothiazide 25 mg oral capsule
+^ESCT1222879	Product containing precisely bisoprolol fumarate 5 milligram/1 each conventional release oral tablet
+^ESCT1222880	Product containing precisely bisoprolol fumarate 10 milligram/1 each conventional release oral tablet
+^ESCT1222881	Bisoprolol 10 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCT1222882	Product containing precisely bisoprolol 10 milligram and hydrochlorothiazide 6.25 milligram/1 each conventional release oral tablet
+^ESCT1222883	Product containing precisely bisoprolol fumarate 1.25 milligram/1 each conventional release oral tablet
+^ESCT1222884	Product containing precisely bisoprolol fumarate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1222885	Product containing precisely bisoprolol fumarate 3.75 milligram/1 each conventional release oral tablet
+^ESCT1222886	Product containing precisely bisoprolol fumarate 7.5 milligram/1 each conventional release oral tablet
+^ESCT1222887	Product containing precisely celiprolol hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1222888	Product containing precisely celiprolol hydrochloride 400 milligram/1 each conventional release oral tablet
+^ESCT1222889	Product containing precisely carvedilol 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222890	Product containing precisely carvedilol 25 milligram/1 each conventional release oral tablet
+^ESCT1222891	Product containing precisely carvedilol 3.125 milligram/1 each conventional release oral tablet
+^ESCT1222892	Product containing precisely carvedilol 6.25 milligram/1 each conventional release oral tablet
+^ESCT1222895	Product containing precisely nebivolol 5 milligram/1 each conventional release oral tablet
+^ESCT1228961	Product containing precisely atenolol 100 milligram and chlortalidone 25 milligram/1 each conventional release oral tablet
+^ESCT1234903	Product containing precisely nebivolol 2.5 milligram/1 each conventional release oral tablet
+^ESCT1234907	Product containing precisely nebivolol 10 milligram/1 each conventional release oral tablet
+^ESCT1237120	Sotacor 80mg tablets (Cheplapharm Arzneimittel GmbH)
+^ESCT1237478	Atenolol 100mg tablets (Zanza Specials International Ltd)
+^ESCT1237480	Atenolol 25mg tablets (Zanza Specials International Ltd)
+^ESCT1237482	Atenolol 50mg tablets (Zanza Specials International Ltd)
+^ESCT1250037	Beta-Cardone 200mg tablets (Advanz Pharma)
+^ESCT1250039	Slow-Trasicor 160mg tablets (Advanz Pharma)
+^ESCT1250216	Viskaldix tablets (Advanz Pharma)
+^ESCT1250224	Visken 5mg tablets (Advanz Pharma)
+^ESCT1250250	Visken 15mg tablets (Advanz Pharma)
+^ESCT1250616	Oxprenolol 40mg tablets (Advanz Pharma)
+^ESCT1250618	Oxprenolol 20mg tablets (Advanz Pharma)
+^ESCT1250766	Nebivolol 2.5mg tablets (Advanz Pharma)
+^ESCT1255350	Labetalol 100mg tablets (Tillomed Laboratories Ltd)
+^ESCT1255352	Labetalol 200mg tablets (Tillomed Laboratories Ltd)
+^ESCT1255901	Metoprolol 50mg tablets (Bristol Laboratories Ltd)
+^ESCT1255904	Metoprolol 100mg tablets (Bristol Laboratories Ltd)
+^ESCT1257421	Nebivolol 10mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257463	Bisoprolol 2.5mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257465	Bisoprolol 5mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257470	Bisoprolol 10mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257798	Nebivolol 2.5mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257800	Nebivolol 5mg tablets (Macleods Pharma UK Ltd)
+^ESCT1258159	Celectol 400mg tablets (Sanofi)
+^ESCT1258171	Celectol 200mg tablets (Sanofi)
+^ESCT1258379	Atenolol 100mg tablets (Strides Pharma UK Ltd)
+^ESCT1258381	Atenolol 50mg tablets (Strides Pharma UK Ltd)
+^ESCT1258383	Atenolol 25mg tablets (Strides Pharma UK Ltd)
+^ESCT1259282	Nebivolol 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259782	Timolol 10mg tablets (Meda Pharmaceuticals Ltd)
+^ESCT1260076	Propranolol 10mg tablets (Relonchem Ltd)
+^ESCT1260078	Propranolol 80mg tablets (Relonchem Ltd)
+^ESCT1260080	Propranolol 40mg tablets (Relonchem Ltd)
+^ESCT1263914	Carvedilol 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263957	Co-tenidone 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263959	Co-tenidone 100mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264552	Metoprolol 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264554	Metoprolol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264684	Propranolol 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264686	Propranolol 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264688	Propranolol 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264810	Angilol 80mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1264812	Angilol 40mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1264814	Angilol 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1266593	Nebilet 5mg tablets (CST Pharma Ltd)
+^ESCT1266697	Cardicor 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267061	Celectol 200mg tablets (CST Pharma Ltd)
+^ESCT1267073	Celectol 400mg tablets (CST Pharma Ltd)
+^ESCT1267790	Labetalol 50mg/10ml solution for injection ampoules (Synchrony Pharma Ltd)
+^ESCT1267795	Labetalol 50mg/10ml solution for injection ampoules
+^ESCT1268258	Betaloc I.V. 5mg/5ml solution for injection ampoules (Recordati Pharmaceuticals Ltd)
+^ESCT1269527	Bisoprolol 1.25mg tablets (Healthcare Pharma Ltd)
+^ESCT1269529	Bisoprolol 2.5mg tablets (Healthcare Pharma Ltd)
+^ESCT1269531	Bisoprolol 3.75mg tablets (Healthcare Pharma Ltd)
+^ESCT1269621	Atenolol 25mg/5ml oral solution sugar free (Healthcare Pharma Ltd)
+^ESCT1269663	Bisoprolol 7.5mg tablets (Healthcare Pharma Ltd)
+^ESCT1269682	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Mylan)
+^ESCT1270212	Timolol 10mg tablets (Mylan)
+^ESCT1274942	Celiprolol 200mg tablets (CST Pharma Ltd)
+^ESCT1274946	Celiprolol 400mg tablets (CST Pharma Ltd)
+^ESCT1275090	Nebivolol 2.5mg tablets (Pilsco Ltd)
+^ESCT1275543	Propranolol 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275736	Timolol 10mg tablets (DE Pharmaceuticals)
+^ESCT1276295	Labetalol 100mg/20ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+^ESCT1280818	Nebivolol 2.5mg tablets (Medreich Plc)
+^ESCT1280821	Nebivolol 5mg tablets (Medreich Plc)
+^ESCT1280823	Nebivolol 10mg tablets (Medreich Plc)
+^ESCT1299660	Nebivolol 2.5mg tablets (Noumed Life Sciences Ltd)
+^ESCT1299662	Nebivolol 5mg tablets (Noumed Life Sciences Ltd)
+^ESCT1299664	Nebivolol 10mg tablets (Noumed Life Sciences Ltd)
+^ESCT1300302	Carvedilol 6.25mg tablets (Ennogen Healthcare Ltd)
+^ESCT1300304	Carvedilol 12.5mg tablets (Ennogen Healthcare Ltd)
+^ESCT1300306	Carvedilol 25mg tablets (Ennogen Healthcare Ltd)
+^ESCT1300353	Carvedilol 3.125mg tablets (Ennogen Healthcare Ltd)
+^ESCT1300625	Corgard 80mg tablets (DE Pharmaceuticals)
+^ESCT1306770	Propranolol 80mg tablets (Morningside Healthcare Ltd)
+^ESCT1306773	Propranolol 40mg tablets (Morningside Healthcare Ltd)
+^ESCT1306777	Propranolol 10mg tablets (Morningside Healthcare Ltd)
+^ESCT1373377	Nebivolol 1.25mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1373560	Nebivolol 1.25mg tablets
+^ESCT1374293	Nebivolol 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1374371	Propranolol 80mg modified-release capsules
+^ESCT1374372	Propranolol 160mg modified-release capsules
+^ESCT1374799	Atenolol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374801	Atenolol 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374803	Atenolol 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374805	Atenolol 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374909	Bisoprolol 1.25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374911	Bisoprolol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374913	Bisoprolol 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374915	Bisoprolol 7.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374917	Bisoprolol 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374919	Bisoprolol 3.75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375036	Carvedilol 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375038	Carvedilol 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375040	Carvedilol 3.125mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375042	Carvedilol 6.25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375075	Celiprolol 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375244	Bisoprolol 1.25mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375260	Bisoprolol 3.75mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375306	Nebivolol 1.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1375356	Co-tenidone 100mg/25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375359	Co-tenidone 50mg/12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375416	Bisoprolol 2.5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375418	Bisoprolol 5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375420	Bisoprolol 7.5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375422	Bisoprolol 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375600	Propranolol 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1375618	Propranolol 40mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1389295	Esmolol hydrochloride 100mg/10ml solution for injection vials (AOP Orphan Ltd)
+^ESCT1389297	Esmolol hydrochloride 2.5g powder for concentrate for solution for infusion vials (AOP Orphan Ltd)
+^ESCT1389299	Esmolol hydrochloride 2.5g/10ml concentrate for solution for infusion ampoules (AOP Orphan Ltd)
+^ESCT1389338	Bisoprolol 2.5mg tablets (Milpharm Ltd)
+^ESCT1389340	Bisoprolol 3.75mg tablets (Milpharm Ltd)
+^ESCT1389342	Bisoprolol 5mg tablets (Milpharm Ltd)
+^ESCT1389344	Bisoprolol 7.5mg tablets (Milpharm Ltd)
+^ESCT1389346	Bisoprolol 10mg tablets (Milpharm Ltd)
+^ESCT1401584	Carvedilol 3.125mg tablets (Relonchem Ltd)
+^ESCT1401586	Carvedilol 6.25mg tablets (Relonchem Ltd)
+^ESCT1401588	Carvedilol 12.5mg tablets (Relonchem Ltd)
+^ESCT1401590	Carvedilol 25mg tablets (Relonchem Ltd)
+^ESCT1401950	Labetalol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401952	Labetalol 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402007	Nebivolol 5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1402270	Metoprolol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402272	Metoprolol 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402324	Nebivolol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402329	Nebivolol 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402336	Nebivolol 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403613	Propranolol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403616	Propranolol 160mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403619	Propranolol 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403621	Propranolol 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404136	Sotalol 160mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404138	Sotalol 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404141	Sotalol 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1409564	Labetalol 200mg tablets (Accord Healthcare Ltd)
+^ESCT1409569	Labetalol 100mg tablets (Accord Healthcare Ltd)
+^ESCT1409610	Sotacor 80mg tablets (Neon Healthcare Ltd)
+^ESCT1409615	Celectol 400mg tablets (Neon Healthcare Ltd)
+^ESCT1409724	Propranolol 160mg tablets (Accord Healthcare Ltd)
+^ESCT1409763	Celectol 200mg tablets (Neon Healthcare Ltd)
+^ESCT1411271	Beta-Prograne 160mg modified-release capsules (Accord Healthcare Ltd)
+^ESCT1411274	Half Beta-Prograne 80mg modified-release capsules (Accord Healthcare Ltd)
+^ESCT1419191	Atenolol 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1419193	Atenolol 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1419195	Atenolol 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1421690	Sectral 400mg tablets (Neon Healthcare Ltd)
+^ESCT1421767	Sectral 100mg capsules (Neon Healthcare Ltd)
+^ESCT1421836	Sectral 200mg capsules (Neon Healthcare Ltd)
+^ESCT1421996	Corgard 80mg tablets (Neon Healthcare Ltd)
+^ESCT1422066	Carvedilol 3.125mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422068	Carvedilol 6.25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422070	Carvedilol 12.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422072	Carvedilol 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422227	Atenolol 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422229	Atenolol 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422303	Nebivolol 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422468	Bisoprolol 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424853	Nebivolol 10mg tablets
+^ESCT1424854	Nebivolol 2.5mg tablets
+^ESCT1424855	Nebivolol 5mg tablets
+^ESCT1425083	Acebutolol 100mg capsules
+^ESCT1425091	Acebutolol 200mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1425093	Acebutolol 200mg capsules
+^ESCT1425098	Acebutolol 400mg tablets
+^ESCT1425179	Bisoprolol 10mg / Hydrochlorothiazide 6.25mg tablets
+^ESCT1425497	Co-tenidone 50mg/12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425502	Bisoprolol 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425544	Metoprolol 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425548	Propranolol 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425559	Sotalol 160mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425564	Labetalol 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425606	Labetalol 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425622	Celiprolol 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425650	Sotalol 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425651	Propranolol 80mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425652	Bisoprolol 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425739	Propranolol 160mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425743	Propranolol 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425751	Celiprolol 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425770	Co-tenidone 100mg/25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425772	Sotalol 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425801	Propranolol 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425805	Atenolol 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425841	Propranolol 160mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425847	Atenolol 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425877	Labetalol 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425905	Atenolol 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425914	Metoprolol 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426723	Acebutolol 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426725	Acebutolol 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426727	Acebutolol 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426821	Carvedilol 3.125mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426823	Carvedilol 6.25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426825	Carvedilol 12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426827	Carvedilol 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427631	Bisoprolol 1.25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427633	Bisoprolol 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427635	Bisoprolol 3.75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427637	Bisoprolol 7.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427766	Nebivolol 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427768	Nebivolol 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1428960	Metoprolol 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1429050	Celiprolol 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429139	Labetalol 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429616	Timolol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1430145	Metoprolol 25mg tablets
+^ESCT1431932	Bisoprolol 1.25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1431934	Bisoprolol 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1431936	Bisoprolol 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1432970	Metoprolol 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1433587	Carvedilol 25mg tablets (Thame Laboratories Ltd)
+^ESCT1433593	Carvedilol 12.5mg tablets (Thame Laboratories Ltd)
+^ESCT1433728	Propranolol 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1433730	Propranolol 40mg tablets (Bristol Laboratories Ltd)
+^ESCT1433732	Propranolol 80mg tablets (Bristol Laboratories Ltd)
+^ESCT1433734	Propranolol 160mg tablets (Bristol Laboratories Ltd)
+^ESCT1433845	Metoprolol 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1434443	Carvedilol 6.25mg tablets (Thame Laboratories Ltd)
+^ESCT1434445	Carvedilol 3.125mg tablets (Thame Laboratories Ltd)
+^ESCT1434528	Acebutolol 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1434999	Atenolol 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1436756	Labetalol 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436766	Propranolol 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436769	Atenolol 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436790	Labetalol 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436812	Labetalol 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436835	Atenolol 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436843	Slo-Pro 160mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436884	Celiprolol 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436895	Propranolol 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436933	Metoprolol 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436936	Bisoprolol 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436963	Bisoprolol 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436966	Propranolol 160mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436968	Co-tenidone 50mg/12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436969	Co-tenidone 100mg/25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436978	Sotalol 160mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436993	Sotalol 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436995	Metoprolol 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436996	Celiprolol 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437000	Propranolol 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437028	Atenolol 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437636	Pindolol 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437839	Carvedilol 6.25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437841	Carvedilol 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437843	Carvedilol 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437955	Sotalol 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438068	Bisoprolol 1.25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438070	Bisoprolol 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438382	Nebivolol 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438562	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438627	Bisoprolol 3.75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438631	Bisoprolol 7.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439072	Timolol 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439794	Acebutolol 400mg tablets (Milpharm Ltd)
+^ESCT1439984	Atenolol 25mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1439987	Atenolol 50mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1439990	Atenolol 100mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1441122	Nadolol 40mg tablets (Part VIIID Drug Tariff Special Order)
+^ESCTAC1004278	Acebutolol 100mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1004280	Acebutolol 200mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1007049	Acebutolol 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1041015	Acebutolol 100mg capsules (Waymade Healthcare Plc)
+^ESCTAC1041017	Acebutolol 200mg capsules (Waymade Healthcare Plc)
+^ESCTAC1041136	Acebutolol 400mg tablets (Waymade Healthcare Plc)
+^ESCTAC607009	Acebutolol 100mg capsules
+^ESCTAC607011	Acebutolol 100 mg/1 each oral capsule
+^ESCTAC607012	Acebutolol 200mg capsules
+^ESCTAC607013	Acebutolol 200 mg/1 each oral capsule
+^ESCTAC607015	Acebutolol 400mg tablets
+^ESCTAC607017	Acebutolol 400 mg oral tablet
+^ESCTAC607151	Acebutolol 200mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTAC607153	Acebutolol 200 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTAC872991	Acebutolol 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAC872994	Acebutolol 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAC873001	Acebutolol 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAC922551	Acebutolol 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAC922553	Acebutolol 200mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAC922555	Acebutolol 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAC928334	Acebutolol 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC928336	Acebutolol 200mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC928338	Acebutolol 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC978063	Acebutolol 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTAC978068	Acebutolol 200mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTAC978073	Acebutolol 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAN822880	Antipressan 100mg tablets (Teva UK Ltd)
+^ESCTAN830561	Antipressan 50mg tablets (Teva UK Ltd)
+^ESCTAN830612	Antipressan 25mg tablets (Teva UK Ltd)
+^ESCTAT1004663	Atenolol 25mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004672	Atenolol 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004676	Atenolol 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004678	Atenolol 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1006325	Atenolol 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTAT1009205	Atenolol 100mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1009207	Atenolol 50mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1009209	Atenolol 25mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1010853	Atenolol 25mg tablets (Accord Healthcare Ltd)
+^ESCTAT1010855	Atenolol 50mg tablets (Accord Healthcare Ltd)
+^ESCTAT1010857	Atenolol 100mg tablets (Accord Healthcare Ltd)
+^ESCTAT1026170	Atenolol 25mg tablets (Crescent Pharma Ltd)
+^ESCTAT1041427	Atenolol 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAT1041429	Atenolol 25mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041431	Atenolol 50mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041433	Atenolol 100mg tablets (Waymade Healthcare Plc)
+^ESCTAT1048978	Atenolol 25mg/5ml oral solution sugar free (Chanelle Medical UK Ltd)
+^ESCTAT1049095	Atenolol 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAT1049097	Atenolol 100mg tablets (DE Pharmaceuticals)
+^ESCTAT1049099	Atenolol 25mg tablets (DE Pharmaceuticals)
+^ESCTAT1049101	Atenolol 50mg tablets (DE Pharmaceuticals)
+^ESCTAT1109291	Atenolol 50mg tablets (Crescent Pharma Ltd)
+^ESCTAT1109293	Atenolol 100mg tablets (Crescent Pharma Ltd)
+^ESCTAT1116885	Atenolol 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAT1116887	Atenolol 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1118922	Atenolol 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1118924	Atenolol 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1118926	Atenolol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1132091	Atenolol 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAT607018	Atenolol 50mg tablets
+^ESCTAT607020	Atenolol 50 mg oral tablet
+^ESCTAT607021	Atenolol 100mg tablets
+^ESCTAT607023	Atenolol 100 mg oral tablet
+^ESCTAT607024	Atenolol 25mg tablets
+^ESCTAT607026	Atenolol 25 mg oral tablet
+^ESCTAT607027	Atenolol 25mg/5ml oral solution sugar free
+^ESCTAT607028	Atenolol 25mg/5mL syrup
+^ESCTAT607029	Atenolol 5mg/10ml solution for injection ampoules
+^ESCTAT607030	Atenolol 5mg/10mL injection
+^ESCTAT607031	Atenolol 500micrograms/mL injection solution 10mL ampoule
+^ESCTAT607032	Atenolol 500micrograms/mL injection solution 10mL ampule
+^ESCTAT607134	Atenolol 25mg / Bendroflumethiazide 1.25mg capsules
+^ESCTAT607136	Atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCTAT607140	Atenolol 50 mg and chlortalidone 12.5 mg oral tablet
+^ESCTAT607141	Atenolol 50 mg and chlorthalidone 12.5 mg oral tablet
+^ESCTAT607156	Atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTAT607157	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCTAT607158	Atenolol 50mg / nifedipine 20mg m/r capsule
+^ESCTAT641911	Atenolol 100 mg and chlortalidone 25 mg oral tablet
+^ESCTAT641912	Atenolol 100 mg and chlorthalidone 25 mg oral tablet
+^ESCTAT799292	Atenolol 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT801542	Atenolol 100mg tablets (Mylan Ltd)
+^ESCTAT801753	Atenolol 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT801888	Atenolol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT803173	Atenix Co 100 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT805232	Atenix 100 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT807040	Atenolol 50mg tablets (Mylan Ltd)
+^ESCTAT807775	Atenolol 25mg tablets (Actavis UK Ltd)
+^ESCTAT808153	Atenolol 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT808217	Atenix 50 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT808266	Atenolol 100mg tablets (Actavis UK Ltd)
+^ESCTAT808595	Atenolol 100mg tablets (Sandoz Ltd)
+^ESCTAT810744	Atenolol 50mg tablets (Wockhardt UK Ltd)
+^ESCTAT812226	Atenolol 25mg tablets (Wockhardt UK Ltd)
+^ESCTAT813177	Atenolol 25mg tablets (Sandoz Ltd)
+^ESCTAT813713	Atenolol 50mg tablets (Actavis UK Ltd)
+^ESCTAT814724	Atenolol 100mg tablets (Wockhardt UK Ltd)
+^ESCTAT814952	Atenolol 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT818582	Atenix 25 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT819887	Atenolol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT820360	Atenolol 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT820415	Atenolol 25mg tablets (Sterwin Medicines)
+^ESCTAT820524	Atenolol 25mg tablets (Teva UK Ltd)
+^ESCTAT820565	Atenix Co 50 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT820716	Atenolol 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT820851	Atenolol 100mg tablets (Sterwin Medicines)
+^ESCTAT820978	Atenolol 50mg tablets (Teva UK Ltd)
+^ESCTAT821981	Atenolol 50mg tablets (Sterwin Medicines)
+^ESCTAT822290	Atenolol 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT824149	Atenolol 25mg tablets (Mylan Ltd)
+^ESCTAT824961	Atenolol 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT829136	Atenolol 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT829453	Atenolol 100mg tablets (Teva UK Ltd)
+^ESCTAT830895	Atenolol 50mg tablets (Sandoz Ltd)
+^ESCTAT832184	Atenolol 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT847406	Atenolol 100mg tablets 28 tablet
+^ESCTAT879037	Atenolol 100mg tablets (Dowelhurst Ltd)
+^ESCTAT879042	Atenolol 25mg tablets (Dowelhurst Ltd)
+^ESCTAT909262	Atenolol 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT909270	Atenolol 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT911544	Atenolol 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT923551	Atenolol 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT923558	Atenolol 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT928769	Atenolol 25mg tablets (Arrow Generics Ltd)
+^ESCTAT928771	Atenolol 50mg tablets (Arrow Generics Ltd)
+^ESCTAT928773	Atenolol 100mg tablets (Arrow Generics Ltd)
+^ESCTAT937020	Atenolol 25mg tablets (Zentiva)
+^ESCTAT937023	Atenolol 50mg tablets (Zentiva)
+^ESCTAT939330	Atenolol 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT940950	Atenolol 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT941334	Atenolol 25mg/5ml oral solution sugar free (Kappin Ltd)
+^ESCTAT945092	Atenolol 10mg/5ml oral suspension (Special Order)
+^ESCTAT945095	Atenolol 10mg/5ml oral solution (Special Order)
+^ESCTAT945106	Atenolol 12.5mg/5ml oral suspension (Special Order)
+^ESCTAT945109	Atenolol 12.5mg/5ml oral solution (Special Order)
+^ESCTAT945112	Atenolol 25mg/5ml oral suspension (Special Order)
+^ESCTAT945115	Atenolol 25mg/5ml oral solution (Special Order)
+^ESCTAT945386	Atenolol 10mg/5ml oral solution
+^ESCTAT945387	Atenolol 10mg/5ml oral suspension
+^ESCTAT945389	Atenolol 12.5mg/5ml oral solution
+^ESCTAT945390	Atenolol 12.5mg/5ml oral suspension
+^ESCTAT945392	Atenolol 25mg/5ml oral solution
+^ESCTAT945394	Atenolol 25mg/5ml oral suspension
+^ESCTAT945618	Atenolol 3.125mg/5ml oral suspension (Special Order)
+^ESCTAT945622	Atenolol 3.125mg/5ml oral solution (Special Order)
+^ESCTAT945627	Atenolol 3mg/5ml oral suspension (Special Order)
+^ESCTAT945632	Atenolol 3mg/5ml oral solution (Special Order)
+^ESCTAT945637	Atenolol 50mg/5ml oral suspension (Special Order)
+^ESCTAT945642	Atenolol 50mg/5ml oral solution (Special Order)
+^ESCTAT946017	Atenolol 3.125mg/5ml oral solution
+^ESCTAT946018	Atenolol 3.125mg/5ml oral suspension
+^ESCTAT946020	Atenolol 3mg/5ml oral solution
+^ESCTAT946021	Atenolol 3mg/5ml oral suspension
+^ESCTAT946022	Atenolol 50mg/5ml oral solution
+^ESCTAT946023	Atenolol 50mg/5ml oral suspension
+^ESCTAT959932	Atenolol 25mg/5ml oral solution sugar free (Dowelhurst Ltd)
+^ESCTAT965396	Atenolol 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT965398	Atenolol 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT965400	Atenolol 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT975648	Atenolol 25mg tablets (Boston Healthcare Ltd)
+^ESCTAT975650	Atenolol 50mg tablets (Boston Healthcare Ltd)
+^ESCTAT975652	Atenolol 100mg tablets (Boston Healthcare Ltd)
+^ESCTAT978183	Atenolol 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT978185	Atenolol 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT986921	Atenolol 100mg tablets (Zanza Laboratories Ltd)
+^ESCTAT986923	Atenolol 25mg tablets (Zanza Laboratories Ltd)
+^ESCTAT986925	Atenolol 50mg tablets (Zanza Laboratories Ltd)
+^ESCTAT987098	Atenolol 100mg tablets (Bristol Laboratories Ltd)
+^ESCTAT987100	Atenolol 25mg tablets (Bristol Laboratories Ltd)
+^ESCTAT987102	Atenolol 50mg tablets (Bristol Laboratories Ltd)
+^ESCTAT989117	Atenolol 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTBE1002880	Beta-Adalat modified-release capsules (Necessity Supplies Ltd)
+^ESCTBE1007107	Betim 10mg tablets (Lexon (UK) Ltd)
+^ESCTBE1007261	Beta-Prograne 160mg modified-release capsules (Actavis UK Ltd)
+^ESCTBE1013000	Bedranol SR 80mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTBE1013005	Bedranol SR 160mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTBE607035	Betaxolol 20mg tablets
+^ESCTBE607037	Betaxolol hydrochloride 20 mg oral tablet
+^ESCTBE801455	Betaloc 50mg tablets (AstraZeneca UK Ltd)
+^ESCTBE802281	Betim 10mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTBE803247	Beta-Cardone 80mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE805273	Betaloc-SA 200mg tablets (AstraZeneca UK Ltd)
+^ESCTBE805421	Betaloc 100mg tablets (AstraZeneca UK Ltd)
+^ESCTBE816660	Beta-Cardone 200mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE819186	Beta-Prograne 160mg modified-release capsules (Tillomed Laboratories Ltd)
+^ESCTBE819937	Bedranol SR 160mg capsules (Sandoz Ltd)
+^ESCTBE820155	Bedranol SR 80mg capsules (Sandoz Ltd)
+^ESCTBE831803	Beta-Cardone 40mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE859489	Beta-Adalat modified-release capsules (Bayer Plc)
+^ESCTBE862805	Betaloc I.V. 5mg/5ml solution for injection ampoules (AstraZeneca UK Ltd)
+^ESCTBE879174	Beta-Adalat modified-release capsules (Dowelhurst Ltd)
+^ESCTBE929788	Beta-Adalat modified-release capsules (Waymade Healthcare Plc)
+^ESCTBE966277	Beta-Adalat modified-release capsules (DE Pharmaceuticals)
+^ESCTBE969898	Beta-Adalat modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTBE983208	Beta-Prograne 160mg modified-release capsules (Teva UK Ltd)
+^ESCTBE988731	Beta-Adalat modified-release capsules (Lexon (UK) Ltd)
+^ESCTBE990927	Beta-Adalat modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1000364	Bisoprolol 2.5mg tablets (Actavis UK Ltd)
+^ESCTBI1004845	Bisoprolol 1.25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1004849	Bisoprolol 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1004853	Bisoprolol 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1004858	Bisoprolol 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1007412	Bisoprolol 3.75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1011220	Bisoprolol 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011222	Bisoprolol 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011288	Bisoprolol 1.25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011290	Bisoprolol 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011292	Bisoprolol 3.75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011294	Bisoprolol 7.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBI1011716	Bisoprolol 2.5mg tablets (Niche Generics Ltd)
+^ESCTBI1013478	Bisoprolol 3.75mg tablets (Teva UK Ltd)
+^ESCTBI1022422	Bisoprolol 1.25mg tablets (DE Pharmaceuticals)
+^ESCTBI1022424	Bisoprolol 2.5mg tablets (DE Pharmaceuticals)
+^ESCTBI1022426	Bisoprolol 3.75mg tablets (DE Pharmaceuticals)
+^ESCTBI1022428	Bisoprolol 5mg tablets (DE Pharmaceuticals)
+^ESCTBI1022430	Bisoprolol 7.5mg tablets (DE Pharmaceuticals)
+^ESCTBI1022673	Bisoprolol 5mg tablets (Medreich Plc)
+^ESCTBI1022676	Bisoprolol 10mg tablets (Medreich Plc)
+^ESCTBI1027544	Bisoprolol 1.25mg tablets (Sandoz Ltd)
+^ESCTBI1027546	Bisoprolol 2.5mg tablets (Sandoz Ltd)
+^ESCTBI1027548	Bisoprolol 3.75mg tablets (Sandoz Ltd)
+^ESCTBI1027550	Bisoprolol 7.5mg tablets (Sandoz Ltd)
+^ESCTBI1028228	Bisoprolol 3.75mg tablets (Actavis UK Ltd)
+^ESCTBI1028236	Bisoprolol 1.25mg tablets (Actavis UK Ltd)
+^ESCTBI1030299	Bisoprolol 2.5mg tablets (Zentiva)
+^ESCTBI1035361	Bisoprolol 1.25mg tablets (Teva UK Ltd)
+^ESCTBI1035387	Bisoprolol 2.5mg tablets (Teva UK Ltd)
+^ESCTBI1036893	Bisoprolol 2.5mg tablets (Accord Healthcare Ltd)
+^ESCTBI1036895	Bisoprolol 5mg tablets (Accord Healthcare Ltd)
+^ESCTBI1036897	Bisoprolol 10mg tablets (Accord Healthcare Ltd)
+^ESCTBI1041631	Bisoprolol 1.25mg tablets (Waymade Healthcare Plc)
+^ESCTBI1041641	Bisoprolol 5mg tablets (Waymade Healthcare Plc)
+^ESCTBI1041647	Bisoprolol 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTBI1041650	Bisoprolol 3.75mg tablets (Waymade Healthcare Plc)
+^ESCTBI1041654	Bisoprolol 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTBI1041658	Bisoprolol 10mg tablets (Waymade Healthcare Plc)
+^ESCTBI1045410	Bisoprolol 7.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBI1048061	Bisoprolol 3.75mg tablets (Medreich Plc)
+^ESCTBI1048063	Bisoprolol 1.25mg tablets (Medreich Plc)
+^ESCTBI1048065	Bisoprolol 7.5mg tablets (Medreich Plc)
+^ESCTBI1048067	Bisoprolol 2.5mg tablets (Medreich Plc)
+^ESCTBI1049184	Bisoprolol 10mg tablets (DE Pharmaceuticals)
+^ESCTBI1102614	Bisoprolol 7.5mg tablets (Chanelle Medical UK Ltd)
+^ESCTBI1103795	Bisoprolol 5mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103801	Bisoprolol 10mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103812	Bisoprolol 10mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103821	Bisoprolol 5mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103867	Bisoprolol 10mg / Aspirin 100mg capsules
+^ESCTBI1103868	Bisoprolol 10mg / Aspirin 75mg capsules
+^ESCTBI1103870	Bisoprolol 5mg / Aspirin 100mg capsules
+^ESCTBI1103871	Bisoprolol 5mg / Aspirin 75mg capsules
+^ESCTBI1118961	Bisoprolol 1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1118969	Bisoprolol 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1118973	Bisoprolol 3.75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1118977	Bisoprolol 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1118979	Bisoprolol 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBI1141755	Bisoprolol 1.25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI1141757	Bisoprolol 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI1141759	Bisoprolol 3.75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI1141761	Bisoprolol 7.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI1145562	Bisoprolol 7.5mg tablets (Creo Pharma Ltd)
+^ESCTBI1152659	Bisoprolol 3.75mg tablets (Mylan Ltd)
+^ESCTBI1152710	Bisoprolol 7.5mg tablets (Mylan Ltd)
+^ESCTBI607159	Bisoprolol 5mg tablets
+^ESCTBI607161	Bisoprolol fumarate 5 mg oral tablet
+^ESCTBI607162	Bisoprolol 10mg tablets
+^ESCTBI607164	Bisoprolol fumarate 10 mg oral tablet
+^ESCTBI607165	Bisoprolol 10mg / Hydrochlorothiazide 6.25mg tablets
+^ESCTBI607167	Bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg oral tablet
+^ESCTBI607168	Bisoprolol 1.25mg tablets
+^ESCTBI607170	Bisoprolol fumarate 1.25 mg oral tablet
+^ESCTBI607171	Bisoprolol 2.5mg tablets
+^ESCTBI607173	Bisoprolol fumarate 2.5 mg oral tablet
+^ESCTBI607174	Bisoprolol 3.75mg tablets
+^ESCTBI607176	Bisoprolol fumarate 3.75 mg oral tablet
+^ESCTBI607177	Bisoprolol 7.5mg tablets
+^ESCTBI607179	Bisoprolol fumarate 7.5 mg oral tablet
+^ESCTBI799786	Bisoprolol 10mg tablets (Actavis UK Ltd)
+^ESCTBI801693	Bisoprolol 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI802394	Bisoprolol 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTBI802958	Bisoprolol 5mg tablets (Sterwin Medicines)
+^ESCTBI808040	Bisoprolol 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI813106	Bisoprolol 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBI813915	Bipranix 10mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTBI815699	Bisoprolol 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTBI818941	Bipranix 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTBI818966	Bisoprolol 10mg tablets (Mylan Ltd)
+^ESCTBI819994	Bisoprolol 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI820023	Bisoprolol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI820156	Bisoprolol 5mg tablets (Mylan Ltd)
+^ESCTBI820281	Bisoprolol 10mg tablets (C P Pharmaceuticals Ltd)
+^ESCTBI820589	Bisoprolol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI820600	Bisoprolol 10mg tablets (Sterwin Medicines)
+^ESCTBI820780	Bisoprolol 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTBI821352	Bisoprolol 5mg tablets (Actavis UK Ltd)
+^ESCTBI828336	Bisoprolol 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTBI829317	Bisoprolol 5mg tablets (Teva UK Ltd)
+^ESCTBI831137	Bisoprolol 10mg tablets (Teva UK Ltd)
+^ESCTBI832002	Bisoprolol 5mg tablets (C P Pharmaceuticals Ltd)
+^ESCTBI877599	Bisoprolol 10mg tablets (Waymade Healthcare Plc)
+^ESCTBI878608	Bisoprolol 10mg tablets (Dowelhurst Ltd)
+^ESCTBI878687	Bisoprolol 5mg tablets (Dowelhurst Ltd)
+^ESCTBI896820	Bisoprolol 5mg tablets (Sandoz Ltd)
+^ESCTBI896822	Bisoprolol 10mg tablets (Sandoz Ltd)
+^ESCTBI904902	Bisoprolol 1.25mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTBI904904	Bisoprolol 1mg/5ml oral solution (Special Order)
+^ESCTBI904911	Bisoprolol 1mg/5ml oral suspension (Special Order)
+^ESCTBI904915	Bisoprolol 5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTBI904920	Bisoprolol 1.25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTBI904928	Bisoprolol 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTBI905001	Bisoprolol 5mg/5ml oral suspension
+^ESCTBI905002	Bisoprolol 5mg/5ml oral solution
+^ESCTBI905003	Bisoprolol 1mg/5ml oral suspension
+^ESCTBI905004	Bisoprolol 1mg/5ml oral solution
+^ESCTBI905005	Bisoprolol 1.25mg/5ml oral suspension
+^ESCTBI905006	Bisoprolol 1.25mg/5ml oral solution
+^ESCTBI927750	Bisoprolol 10mg tablets (Relonchem Ltd)
+^ESCTBI927754	Bisoprolol 5mg tablets (Relonchem Ltd)
+^ESCTBI927781	Bisoprolol 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTBI927785	Bisoprolol 5mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTBI928791	Bisoprolol 5mg tablets (Arrow Generics Ltd)
+^ESCTBI928793	Bisoprolol 10mg tablets (Arrow Generics Ltd)
+^ESCTBI929282	Bisoprolol 10mg tablets (Niche Generics Ltd)
+^ESCTBI929286	Bisoprolol 5mg tablets (Niche Generics Ltd)
+^ESCTBI929800	Bisoprolol 1.25mg tablets (Waymade Healthcare Plc)
+^ESCTBI929808	Bisoprolol 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTBI929813	Bisoprolol 3.75mg tablets (Waymade Healthcare Plc)
+^ESCTBI929817	Bisoprolol 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTBI932235	Bisoprolol 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI932237	Bisoprolol 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI932239	Bisoprolol 3.75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI932241	Bisoprolol 7.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBI932285	Bisoprolol 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI937758	Bisoprolol 1.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI947746	Bisoprolol 1.667mg/5ml oral suspension (Special Order)
+^ESCTBI947753	Bisoprolol 1.667mg/5ml oral solution (Special Order)
+^ESCTBI947759	Bisoprolol 10mg/5ml oral suspension (Special Order)
+^ESCTBI947765	Bisoprolol 10mg/5ml oral solution (Special Order)
+^ESCTBI947771	Bisoprolol 2.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTBI947778	Bisoprolol 2.5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTBI948388	Bisoprolol 1.667mg/5ml oral solution
+^ESCTBI948389	Bisoprolol 1.667mg/5ml oral suspension
+^ESCTBI948390	Bisoprolol 10mg/5ml oral solution
+^ESCTBI948391	Bisoprolol 10mg/5ml oral suspension
+^ESCTBI948392	Bisoprolol 2.5mg/5ml oral solution
+^ESCTBI948393	Bisoprolol 2.5mg/5ml oral suspension
+^ESCTBI962455	Bisoprolol 1.25mg tablets (Mylan Ltd)
+^ESCTBI962457	Bisoprolol 2.5mg tablets (Mylan Ltd)
+^ESCTBI967079	Bisoprolol 3.75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI967084	Bisoprolol 7.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBI968967	Bisoprolol 5mg tablets (Consilient Health Ltd)
+^ESCTBI968970	Bisoprolol 10mg tablets (Consilient Health Ltd)
+^ESCTBI969395	Bisoprolol 7.5mg/5ml oral solution (Special Order)
+^ESCTBI969398	Bisoprolol 7.5mg/5ml oral suspension (Special Order)
+^ESCTBI969418	Bisoprolol 7.5mg/5ml oral solution
+^ESCTBI969419	Bisoprolol 7.5mg/5ml oral suspension
+^ESCTBI978065	Bisoprolol 1.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978067	Bisoprolol 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978071	Bisoprolol 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978075	Bisoprolol 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978079	Bisoprolol 3.75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978084	Bisoprolol 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBI978953	Bisoprolol 625micrograms/5ml oral solution (Special Order)
+^ESCTBI978956	Bisoprolol 625micrograms/5ml oral suspension (Special Order)
+^ESCTBI978965	Bisoprolol 625micrograms/5ml oral solution
+^ESCTBI978966	Bisoprolol 625micrograms/5ml oral suspension
+^ESCTBI997463	Bisoprolol 1.25mg tablets (Chanelle Medical UK Ltd)
+^ESCTBI997465	Bisoprolol 2.5mg tablets (Chanelle Medical UK Ltd)
+^ESCTBI997467	Bisoprolol 3.75mg tablets (Chanelle Medical UK Ltd)
+^ESCTBR925877	Brevibloc Premixed 100mg/10ml solution for injection vials (Baxter Healthcare Ltd)
+^ESCTBR925878	Brevibloc Concentrate 2.5g/10ml solution for infusion ampoules (Baxter Healthcare Ltd)
+^ESCTBR997633	Brevibloc Premixed 2.5g/250ml infusion bags (Baxter Healthcare Ltd)
+^ESCTCA1003053	Cardicor 1.25mg tablets (Necessity Supplies Ltd)
+^ESCTCA1003065	Cardicor 2.5mg tablets (Necessity Supplies Ltd)
+^ESCTCA1003073	Cardicor 3.75mg tablets (Necessity Supplies Ltd)
+^ESCTCA1003084	Cardicor 7.5mg tablets (Necessity Supplies Ltd)
+^ESCTCA1005031	Carvedilol 3.125mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005033	Carvedilol 6.25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005035	Carvedilol 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005037	Carvedilol 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1006328	Carvedilol 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA1011341	Carvedilol 3.5mg suppositories (Special Order)
+^ESCTCA1011408	Carvedilol 3.5mg suppositories
+^ESCTCA1011748	Carvedilol 3.125mg tablets (Bristol Laboratories Ltd)
+^ESCTCA1011750	Carvedilol 6.25mg tablets (Bristol Laboratories Ltd)
+^ESCTCA1011752	Carvedilol 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCTCA1011754	Carvedilol 25mg tablets (Bristol Laboratories Ltd)
+^ESCTCA1022460	Carvedilol 12.5mg tablets (DE Pharmaceuticals)
+^ESCTCA1022462	Carvedilol 25mg tablets (DE Pharmaceuticals)
+^ESCTCA1022464	Carvedilol 3.125mg tablets (DE Pharmaceuticals)
+^ESCTCA1022466	Carvedilol 6.25mg tablets (DE Pharmaceuticals)
+^ESCTCA1041813	Carvedilol 3.125mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041815	Carvedilol 6.25mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041821	Carvedilol 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041823	Carvedilol 25mg tablets (Waymade Healthcare Plc)
+^ESCTCA1046507	Carvedilol 3.125mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTCA1046509	Carvedilol 6.25mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTCA1046511	Carvedilol 12.5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTCA1046513	Carvedilol 25mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTCA1061781	Carvedilol 3.125mg tablets (Milpharm Ltd)
+^ESCTCA1061784	Carvedilol 6.25mg tablets (Milpharm Ltd)
+^ESCTCA1061787	Carvedilol 12.5mg tablets (Milpharm Ltd)
+^ESCTCA1061790	Carvedilol 25mg tablets (Milpharm Ltd)
+^ESCTCA1119022	Carvedilol 3.125mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1119024	Carvedilol 6.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1119026	Carvedilol 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA607196	Carvedilol 12.5mg tablets
+^ESCTCA607198	Carvedilol 12.5 mg oral tablet
+^ESCTCA607199	Carvedilol 25mg tablets
+^ESCTCA607201	Carvedilol 25 mg oral tablet
+^ESCTCA607202	Carvedilol 3.125mg tablets
+^ESCTCA607204	Carvedilol 3.125 mg oral tablet
+^ESCTCA607208	Carvedilol 6.25mg tablets
+^ESCTCA607210	Carvedilol 6.25 mg oral tablet
+^ESCTCA800746	Cardicor 5mg tablets (Merck Serono Ltd)
+^ESCTCA813861	Cardicor 7.5mg tablets (Merck Serono Ltd)
+^ESCTCA820562	Cardicor 2.5mg tablets (Merck Serono Ltd)
+^ESCTCA821509	Cardicor 1.25mg tablets (Merck Serono Ltd)
+^ESCTCA827058	Cardicor 3.75mg tablets (Merck Serono Ltd)
+^ESCTCA831240	Cardicor 10mg tablets (Merck Serono Ltd)
+^ESCTCA877649	Cardicor 1.25mg tablets (Waymade Healthcare Plc)
+^ESCTCA877654	Cardicor 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTCA877661	Cardicor 3.75mg tablets (Waymade Healthcare Plc)
+^ESCTCA877667	Cardicor 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTCA896466	Carvedilol 6.25mg tablets (Actavis UK Ltd)
+^ESCTCA896468	Carvedilol 12.5mg tablets (Actavis UK Ltd)
+^ESCTCA896470	Carvedilol 25mg tablets (Actavis UK Ltd)
+^ESCTCA896479	Carvedilol 3.125mg tablets (Teva UK Ltd)
+^ESCTCA896481	Carvedilol 6.25mg tablets (Teva UK Ltd)
+^ESCTCA896483	Carvedilol 12.5mg tablets (Teva UK Ltd)
+^ESCTCA896485	Carvedilol 25mg tablets (Teva UK Ltd)
+^ESCTCA896513	Carvedilol 3.125mg tablets (Zentiva)
+^ESCTCA896515	Carvedilol 6.25mg tablets (Zentiva)
+^ESCTCA896517	Carvedilol 12.5mg tablets (Zentiva)
+^ESCTCA896519	Carvedilol 25mg tablets (Zentiva)
+^ESCTCA896824	Carvedilol 3.125mg tablets (Sandoz Ltd)
+^ESCTCA896826	Carvedilol 6.25mg tablets (Sandoz Ltd)
+^ESCTCA896828	Carvedilol 12.5mg tablets (Sandoz Ltd)
+^ESCTCA896830	Carvedilol 25mg tablets (Sandoz Ltd)
+^ESCTCA897002	Carvedilol 3.125mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA897004	Carvedilol 6.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA897006	Carvedilol 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA897008	Carvedilol 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA897013	Carvedilol 3.125mg tablets (Actavis UK Ltd)
+^ESCTCA897037	Carvedilol 3.125mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA897039	Carvedilol 6.25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA897041	Carvedilol 12.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA897043	Carvedilol 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA897685	Carvedilol 3.125mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA897689	Carvedilol 6.25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA897692	Carvedilol 12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA897695	Carvedilol 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA897914	Carvedilol 3.125mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA897916	Carvedilol 6.25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA897920	Carvedilol 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA897922	Carvedilol 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA902007	Carvedilol 6.25mg tablets (Mylan Ltd)
+^ESCTCA902009	Carvedilol 12.5mg tablets (Mylan Ltd)
+^ESCTCA902011	Carvedilol 25mg tablets (Mylan Ltd)
+^ESCTCA905281	Carvedilol 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCA905505	Carvedilol 5mg/5ml oral suspension
+^ESCTCA912038	Carvedilol 3.125mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTCA912042	Carvedilol 6.25mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTCA912047	Carvedilol 12.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTCA912050	Carvedilol 25mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTCA927790	Carvedilol 3.125mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTCA927793	Carvedilol 6.25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTCA927797	Carvedilol 12.5mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTCA927800	Carvedilol 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTCA928817	Carvedilol 3.125mg tablets (Arrow Generics Ltd)
+^ESCTCA928819	Carvedilol 6.25mg tablets (Arrow Generics Ltd)
+^ESCTCA928821	Carvedilol 12.5mg tablets (Arrow Generics Ltd)
+^ESCTCA928823	Carvedilol 25mg tablets (Arrow Generics Ltd)
+^ESCTCA929290	Carvedilol 12.5mg tablets (Niche Generics Ltd)
+^ESCTCA929297	Carvedilol 25mg tablets (Niche Generics Ltd)
+^ESCTCA929300	Carvedilol 3.125mg tablets (Niche Generics Ltd)
+^ESCTCA929304	Carvedilol 6.25mg tablets (Niche Generics Ltd)
+^ESCTCA929613	Cardicor 1.25mg tablets (Dowelhurst Ltd)
+^ESCTCA929618	Cardicor 2.5mg tablets (Dowelhurst Ltd)
+^ESCTCA929623	Cardicor 3.75mg tablets (Dowelhurst Ltd)
+^ESCTCA929626	Cardicor 7.5mg tablets (Dowelhurst Ltd)
+^ESCTCA939328	Carvedilol 12.5mg tablets (PLIVA Pharma Ltd)
+^ESCTCA939331	Carvedilol 3.125mg tablets (PLIVA Pharma Ltd)
+^ESCTCA939334	Carvedilol 6.25mg tablets (PLIVA Pharma Ltd)
+^ESCTCA939349	Carvedilol 3.125mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA939353	Carvedilol 6.25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA939358	Carvedilol 12.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCA949030	Carvedilol 3.125mg/5ml oral suspension (Special Order)
+^ESCTCA949543	Carvedilol 3.125mg/5ml oral suspension
+^ESCTCA960147	Carvedilol 12.5mg tablets (Dowelhurst Ltd)
+^ESCTCA960166	Carvedilol 25mg tablets (Dowelhurst Ltd)
+^ESCTCA960170	Carvedilol 6.25mg tablets (Dowelhurst Ltd)
+^ESCTCA965416	Carvedilol 3.125mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965418	Carvedilol 6.25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965420	Carvedilol 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965422	Carvedilol 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA966349	Cardicor 1.25mg tablets (DE Pharmaceuticals)
+^ESCTCA966352	Cardicor 2.5mg tablets (DE Pharmaceuticals)
+^ESCTCA966354	Cardicor 3.75mg tablets (DE Pharmaceuticals)
+^ESCTCA966356	Cardicor 7.5mg tablets (DE Pharmaceuticals)
+^ESCTCA967614	Carvedilol 1.5mg/5ml oral suspension (Special Order)
+^ESCTCA967973	Carvedilol 1.5mg/5ml oral suspension
+^ESCTCA968975	Carvedilol 3.125mg tablets (Consilient Health Ltd)
+^ESCTCA968979	Carvedilol 6.25mg tablets (Consilient Health Ltd)
+^ESCTCA968983	Carvedilol 12.5mg tablets (Consilient Health Ltd)
+^ESCTCA968985	Carvedilol 25mg tablets (Consilient Health Ltd)
+^ESCTCA971154	Cardicor 1.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971164	Cardicor 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971178	Cardicor 3.75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971186	Cardicor 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978202	Carvedilol 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978204	Carvedilol 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978206	Carvedilol 3.125mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978209	Carvedilol 6.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA988770	Cardicor 1.25mg tablets (Lexon (UK) Ltd)
+^ESCTCA988772	Cardicor 2.5mg tablets (Lexon (UK) Ltd)
+^ESCTCA988776	Cardicor 3.75mg tablets (Lexon (UK) Ltd)
+^ESCTCA988779	Cardicor 7.5mg tablets (Lexon (UK) Ltd)
+^ESCTCA991088	Cardicor 1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA991095	Cardicor 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA991105	Cardicor 3.75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA991109	Cardicor 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCE1005282	Celiprolol 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCE1005284	Celiprolol 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCE1008113	Celiprolol 400mg tablets (Actavis UK Ltd)
+^ESCTCE1041925	Celiprolol 200mg tablets (Waymade Healthcare Plc)
+^ESCTCE1041927	Celiprolol 400mg tablets (Waymade Healthcare Plc)
+^ESCTCE1060132	Celiprolol 200mg tablets (DE Pharmaceuticals)
+^ESCTCE1060143	Celiprolol 400mg tablets (DE Pharmaceuticals)
+^ESCTCE1116998	Celiprolol 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCE1117064	Celiprolol 200mg/5ml oral suspension (Special Order)
+^ESCTCE1117397	Celiprolol 200mg/5ml oral suspension
+^ESCTCE1119065	Celiprolol 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCE607182	Celiprolol 200mg tablets
+^ESCTCE607184	Celiprolol hydrochloride 200 mg oral tablet
+^ESCTCE607185	Celiprolol 400mg tablets
+^ESCTCE607187	Celiprolol hydrochloride 400 mg oral tablet
+^ESCTCE796481	Celiprolol 400mg tablets (Sterwin Medicines)
+^ESCTCE802950	Celiprolol 400mg tablets (Teva UK Ltd)
+^ESCTCE804484	Celiprolol 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCE805008	Celiprolol 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCE810594	Celiprolol 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCE810857	Celiprolol 200mg tablets (Sterwin Medicines)
+^ESCTCE811389	Celiprolol 200mg tablets (Mylan Ltd)
+^ESCTCE818522	Celectol 400mg tablets (Zentiva)
+^ESCTCE820407	Celiprolol 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCE821147	Celiprolol 400mg tablets (Mylan Ltd)
+^ESCTCE822894	Celiprolol 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE822942	Celiprolol 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCE823011	Celiprolol 200mg tablets (Teva UK Ltd)
+^ESCTCE829980	Celectol 200mg tablets (Zentiva)
+^ESCTCE830753	Celiprolol 400mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCE863579	Celiprolol 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE870981	Celiprolol 200mg tablets (Actavis UK Ltd)
+^ESCTCE878632	Celiprolol 200mg tablets (Dowelhurst Ltd)
+^ESCTCE879005	Celiprolol 400mg tablets (Dowelhurst Ltd)
+^ESCTCE879213	Celectol 200mg tablets (Dowelhurst Ltd)
+^ESCTCE897573	Celiprolol 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCE897575	Celiprolol 400mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCE929891	Celiprolol 200mg tablets (Waymade Healthcare Plc)
+^ESCTCE935476	Celectol 200mg tablets (Waymade Healthcare Plc)
+^ESCTCE966393	Celectol 200mg tablets (DE Pharmaceuticals)
+^ESCTCE966395	Celectol 400mg tablets (DE Pharmaceuticals)
+^ESCTCE972700	Celectol 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCE972706	Celectol 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCE988786	Celectol 200mg tablets (Lexon (UK) Ltd)
+^ESCTCE988788	Celectol 400mg tablets (Lexon (UK) Ltd)
+^ESCTCE992138	Celectol 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCE992140	Celectol 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1005611	Co-tenidone 50mg/12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005613	Co-tenidone 100mg/25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1029361	Congescor 1.25mg tablets (Teva UK Ltd)
+^ESCTCO1029363	Congescor 2.5mg tablets (Teva UK Ltd)
+^ESCTCO1029401	Co-tenidone 100mg/25mg tablets (Medreich Plc)
+^ESCTCO1038055	Co-tenidone 50mg/12.5mg tablets (Medreich Plc)
+^ESCTCO1042920	Co-tenidone 50mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO1042922	Co-tenidone 100mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTCO1060817	Co-tenidone 50mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO1060819	Co-tenidone 100mg/25mg tablets (DE Pharmaceuticals)
+^ESCTCO1117136	Co-tenidone 100mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117138	Co-tenidone 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO607137	Co-tenidone 50mg/12.5mg tablets
+^ESCTCO607142	Co-prenozide 160mg/0.25mg modified-release tablets
+^ESCTCO607143	Co-prenozide 160mg/250mcg m/r tablet
+^ESCTCO641908	Co-tenidone 100mg/25mg tablets
+^ESCTCO801458	Co-tenidone 50mg/12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO804222	Co-tenidone 100mg/25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO804562	Co-tenidone 50mg/12.5mg tablets (Teva UK Ltd)
+^ESCTCO808007	Co-tenidone 100mg/25mg tablets (Sandoz Ltd)
+^ESCTCO818605	Co-tenidone 100mg/25mg tablets (Teva UK Ltd)
+^ESCTCO819959	Co-tenidone 50mg/12.5mg tablets (Sandoz Ltd)
+^ESCTCO820178	Co-tenidone 50mg/12.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO820260	Co-tenidone 50mg/12.5mg tablets (Mylan Ltd)
+^ESCTCO820276	Co-tenidone 100mg/25mg tablets (Actavis UK Ltd)
+^ESCTCO820278	Co-tenidone 100mg/25mg tablets (Wockhardt UK Ltd)
+^ESCTCO820314	Co-tenidone 100mg/25mg tablets (Mylan Ltd)
+^ESCTCO820512	Co-tenidone 50mg/12.5mg tablets (Wockhardt UK Ltd)
+^ESCTCO820749	Co-tenidone 100mg/25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO820781	Co-tenidone 50mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCO825162	Co-tenidone 100mg/25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO830922	Co-tenidone 50mg/12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO830972	Co-tenidone 100mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO831947	Co-tenidone 50mg/12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO858469	Co-Betaloc tablets (Pfizer Ltd)
+^ESCTCO863432	Corgard 40mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTCO863441	Corgard 80mg tablets (Sanofi)
+^ESCTCO864999	Co-Betaloc SA tablets (Pfizer Ltd)
+^ESCTCO865298	Corgaretic 40mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTCO866814	Corgaretic 80mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTCO923533	Co-tenidone 50mg/12.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO923537	Co-tenidone 100mg/25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO927409	Congescor 1.25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCO927411	Congescor 2.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTCO928925	Co-tenidone 50mg/12.5mg tablets (Arrow Generics Ltd)
+^ESCTCO928927	Co-tenidone 100mg/25mg tablets (Arrow Generics Ltd)
+^ESCTCO943201	Co-tenidone 100mg/25mg/5ml oral suspension (Special Order)
+^ESCTCO943204	Co-tenidone 100mg/25mg/5ml oral solution (Special Order)
+^ESCTCO943362	Co-tenidone 100mg/25mg/5ml oral solution
+^ESCTCO943363	Co-tenidone 100mg/25mg/5ml oral suspension
+^ESCTCO981435	Corgard 80mg tablets (Waymade Healthcare Plc)
+^ESCTCO988836	Corgard 80mg tablets (Lexon (UK) Ltd)
+^ESCTCO992723	Corgard 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDU812844	Dupromex 10mg tablets (Actavis UK Ltd)
+^ESCTEM803344	Emcor 10mg tablets (Merck Serono Ltd)
+^ESCTEM818592	Emcor LS 5mg tablets (Merck Serono Ltd)
+^ESCTEM879319	Emcor LS 5mg tablets (Dowelhurst Ltd)
+^ESCTES1159224	Esmolol hydrochloride 100mg/10ml solution for injection vials (AOP Orphan Pharmaceuticals AG)
+^ESCTES1159327	Esmolol 2.5g powder for solution for infusion vials
+^ESCTES1159329	Esmolol hydrochloride 2.5g powder for concentrate for solution for infusion vials (AOP Orphan Pharmaceuticals AG)
+^ESCTES1159331	Esmolol hydrochloride 2.5g/10ml concentrate for solution for infusion ampoules (AOP Orphan Pharmaceuticals AG)
+^ESCTES607189	Esmolol 2.5g/10ml solution for infusion ampoules
+^ESCTES607190	Esmolol hydrochloride 2.5g/10mL injection concentrate
+^ESCTES607191	Esmolol hydrochloride 250mg/mL injection concentrate 10mL ampoule
+^ESCTES607192	Esmolol hydrochloride 250mg/mL injection concentrate 10mL ampule
+^ESCTES607193	Esmolol 100mg/10ml solution for injection vials
+^ESCTES607194	Esmolol hydrochloride 100mg/10mL injection 10mL vial
+^ESCTES607195	Esmolol hydrochloride 10mg/mL injection solution 10mL vial
+^ESCTES997631	Esmolol 2.5g/250ml infusion bags
+^ESCTEU810700	Eucardic 12.5mg tablets (Roche Products Ltd)
+^ESCTEU821210	Eucardic 6.25mg tablets (Roche Products Ltd)
+^ESCTEU821384	Eucardic 25mg tablets (Roche Products Ltd)
+^ESCTEU830462	Eucardic 3.125mg tablets (Roche Products Ltd)
+^ESCTEU877852	Eucardic 6.25mg tablets (Waymade Healthcare Plc)
+^ESCTEU877854	Eucardic 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTEU877858	Eucardic 25mg tablets (Waymade Healthcare Plc)
+^ESCTEU877860	Eucardic 3.125mg tablets (Waymade Healthcare Plc)
+^ESCTEU879332	Eucardic 25mg tablets (Dowelhurst Ltd)
+^ESCTEU879336	Eucardic 6.25mg tablets (Dowelhurst Ltd)
+^ESCTEU970084	Eucardic 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEU970086	Eucardic 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEU970088	Eucardic 6.25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEU993307	Eucardic 6.25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGE607154	Generic Kalten capsules
+^ESCTHA1007264	Half Beta-Prograne 80mg modified-release capsules (Actavis UK Ltd)
+^ESCTHA1009076	Half Inderal LA 80mg capsules (Necessity Supplies Ltd)
+^ESCTHA807072	Half Inderal LA 80mg capsules (AstraZeneca UK Ltd)
+^ESCTHA822535	Half Beta-Prograne 80mg modified-release capsules (Tillomed Laboratories Ltd)
+^ESCTHA877932	Half Inderal LA 80mg capsules (Waymade Healthcare Plc)
+^ESCTHA879435	Half Inderal LA 80mg capsules (Dowelhurst Ltd)
+^ESCTHA966742	Half Inderal LA 80mg capsules (DE Pharmaceuticals)
+^ESCTHA970258	Half Inderal LA 80mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTHA983210	Half Beta-Prograne 80mg modified-release capsules (Teva UK Ltd)
+^ESCTHA992635	Half Inderal LA 80mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTHA992983	Half Inderal LA 80mg capsules (Stephar (U.K.) Ltd)
+^ESCTHY981405	Hypoloc 5mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+^ESCTIN1009098	Inderal LA 160mg capsules (Necessity Supplies Ltd)
+^ESCTIN804816	Inderal LA 160mg capsules (AstraZeneca UK Ltd)
+^ESCTIN810666	Inderetic 80mg/2.5mg capsules (AstraZeneca UK Ltd)
+^ESCTIN811270	Inderex 160mg/5mg modified-release capsules (AstraZeneca UK Ltd)
+^ESCTIN820085	Inderal 10mg tablets (AstraZeneca UK Ltd)
+^ESCTIN826863	Inderal 80mg tablets (AstraZeneca UK Ltd)
+^ESCTIN833715	Inderal 40mg tablets (AstraZeneca UK Ltd)
+^ESCTIN869414	Inderal 1mg/1ml solution for injection ampoules (AstraZeneca UK Ltd)
+^ESCTIN877951	Inderal LA 160mg capsules (Waymade Healthcare Plc)
+^ESCTIN879432	Inderal LA 160mg capsules (Dowelhurst Ltd)
+^ESCTIN967046	Inderal LA 160mg capsules (DE Pharmaceuticals)
+^ESCTIN970302	Inderal LA 160mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTIN992631	Inderal LA 160mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTKA807415	Kalten capsules (M & A Pharmachem Ltd)
+^ESCTKA879413	Kalten capsules (Dowelhurst Ltd)
+^ESCTKA970394	Kalten capsules (Sigma Pharmaceuticals Plc)
+^ESCTKE864465	Kerlone 20mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTLA1006007	Labetalol 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1034602	Labetalol 100mg/20ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTLA1036461	Labetalol 100mg/20ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTLA1036485	Labetalol 100mg/20ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA1043999	Labetalol 100mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044001	Labetalol 200mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044003	Labetalol 400mg tablets (Waymade Healthcare Plc)
+^ESCTLA1061723	Labetalol 100mg tablets (DE Pharmaceuticals)
+^ESCTLA1061725	Labetalol 200mg tablets (DE Pharmaceuticals)
+^ESCTLA1061727	Labetalol 400mg tablets (DE Pharmaceuticals)
+^ESCTLA1117909	Labetalol 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA1117911	Labetalol 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA1117913	Labetalol 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA1120901	Labetalol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA607038	Labetalol 100mg tablets
+^ESCTLA607040	Labetalol hydrochloride 100 mg oral tablet
+^ESCTLA607041	Labetalol 200mg tablets
+^ESCTLA607043	Labetalol hydrochloride 200 mg oral tablet
+^ESCTLA607044	Labetalol 400mg tablets
+^ESCTLA607046	Labetalol hydrochloride 400 mg oral tablet
+^ESCTLA607047	Labetalol 50mg tablets
+^ESCTLA607049	Labetalol hydrochloride 50 mg oral tablet
+^ESCTLA607050	Labetalol 100mg/20ml solution for injection ampoules
+^ESCTLA607051	Labetalol hydrochloride 100mg/20mL injection
+^ESCTLA607052	Labetalol hydrochloride 5mg/mL injection solution 20mL ampoule
+^ESCTLA607053	Labetalol hydrochloride 5mg/mL injection solution 20mL ampule
+^ESCTLA797217	Labetalol 100mg tablets (Mylan Ltd)
+^ESCTLA801005	Labetalol 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA801808	Labetalol 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA803127	Labetalol 200mg tablets (Mylan Ltd)
+^ESCTLA805063	Labetalol 400mg tablets (Mylan Ltd)
+^ESCTLA805204	Labetalol 400mg tablets (Actavis UK Ltd)
+^ESCTLA805371	Labetalol 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA806741	Labetalol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA807848	Labetalol 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA808167	Labetalol 200mg tablets (Actavis UK Ltd)
+^ESCTLA808565	Labetalol 100mg tablets (Actavis UK Ltd)
+^ESCTLA809114	Labetalol 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA809273	Labetalol 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA810052	Labetalol 100mg tablets (Sandoz Ltd)
+^ESCTLA810941	Labetalol 200mg tablets (Sandoz Ltd)
+^ESCTLA825855	Labetalol 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA828690	Labetalol 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA833587	Labetalol 400mg tablets (Sandoz Ltd)
+^ESCTLA902048	Labetalol 50mg/10ml solution for injection pre-filled syringes
+^ESCTLA902050	Labetalol 50mg/10ml solution for injection pre-filled syringes (Aurum Pharmaceuticals Ltd)
+^ESCTLA907385	Labetalol 25mg/5ml oral solution (Special Order)
+^ESCTLA907391	Labetalol 25mg/5ml oral suspension (Special Order)
+^ESCTLA907398	Labetalol 200mg/5ml oral solution (Special Order)
+^ESCTLA907401	Labetalol 200mg/5ml oral suspension (Special Order)
+^ESCTLA907455	Labetalol 50mg/5ml oral solution (Special Order)
+^ESCTLA907458	Labetalol 50mg/5ml oral suspension (Special Order)
+^ESCTLA907630	Labetalol 200mg/5ml oral solution
+^ESCTLA907631	Labetalol 200mg/5ml oral suspension
+^ESCTLA907632	Labetalol 25mg/5ml oral solution
+^ESCTLA907633	Labetalol 25mg/5ml oral suspension
+^ESCTLA907634	Labetalol 50mg/5ml oral solution
+^ESCTLA907635	Labetalol 50mg/5ml oral suspension
+^ESCTLA951361	Labetalol 1.5mg/5ml oral suspension (Special Order)
+^ESCTLA951365	Labetalol 1.5mg/5ml oral solution (Special Order)
+^ESCTLA951372	Labetalol 100mg/5ml oral suspension (Special Order)
+^ESCTLA951379	Labetalol 100mg/5ml oral solution (Special Order)
+^ESCTLA951385	Labetalol 10mg/5ml oral suspension (Special Order)
+^ESCTLA951388	Labetalol 10mg/5ml oral solution (Special Order)
+^ESCTLA951394	Labetalol 75mg/5ml oral suspension (Special Order)
+^ESCTLA951400	Labetalol 75mg/5ml oral solution (Special Order)
+^ESCTLA952230	Labetalol 1.5mg/5ml oral solution
+^ESCTLA952232	Labetalol 1.5mg/5ml oral suspension
+^ESCTLA952234	Labetalol 100mg/5ml oral solution
+^ESCTLA952236	Labetalol 100mg/5ml oral suspension
+^ESCTLA952238	Labetalol 10mg/5ml oral solution
+^ESCTLA952240	Labetalol 10mg/5ml oral suspension
+^ESCTLA952242	Labetalol 75mg/5ml oral solution
+^ESCTLA952244	Labetalol 75mg/5ml oral suspension
+^ESCTLA973740	Labetalol 5mg/5ml oral solution (Special Order)
+^ESCTLA973743	Labetalol 5mg/5ml oral suspension (Special Order)
+^ESCTLA973794	Labetalol 5mg/5ml oral solution
+^ESCTLA973795	Labetalol 5mg/5ml oral suspension
+^ESCTLO1008369	Lopresor SR 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1024867	Lopresor SR 200mg tablets (DE Pharmaceuticals)
+^ESCTLO803600	Lopresor 50mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO823332	Lopresor 100mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO832908	Lopresor SR 200mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO944382	Lopresor SR 200mg tablets (Waymade Healthcare Plc)
+^ESCTLO989304	Lopresor SR 200mg tablets (Lexon (UK) Ltd)
+^ESCTME1006127	Metoprolol 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1036942	Metoprolol 50mg tablets (Accord Healthcare Ltd)
+^ESCTME1036944	Metoprolol 100mg tablets (Accord Healthcare Ltd)
+^ESCTME1041613	Metoprolol 50mg tablets (Waymade Healthcare Plc)
+^ESCTME1041619	Metoprolol 100mg tablets (Waymade Healthcare Plc)
+^ESCTME1065821	Metoprolol 100mg tablets (DE Pharmaceuticals)
+^ESCTME1065824	Metoprolol 50mg tablets (DE Pharmaceuticals)
+^ESCTME607054	Metoprolol 100mg tablets
+^ESCTME607056	Metoprolol tartrate 100 mg oral tablet
+^ESCTME607057	Metoprolol 50mg tablets
+^ESCTME607059	Metoprolol tartrate 50 mg oral tablet
+^ESCTME607064	Metoprolol 200mg modified-release tablets
+^ESCTME607065	Metoprolol tartrate 200mg m/r tablet
+^ESCTME607114	Metoprolol 100mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTME607116	Metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME607117	Metoprolol 200mg modified-release / Hydrochlorothiazide 25mg tablets
+^ESCTME607118	Metoprolol tartrate+hydrochlorothiazide 200mg/25mg m/r tablet
+^ESCTME802709	Metoprolol 100mg tablets (Teva UK Ltd)
+^ESCTME803810	Metoprolol 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME803964	Metoprolol 50mg tablets (Teva UK Ltd)
+^ESCTME804870	Metoprolol 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME806389	Metoprolol 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME812351	Metoprolol 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME813210	Metoprolol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME814071	Metoprolol 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME818581	Metoprolol 50mg tablets (The Boots Company Plc)
+^ESCTME818897	Metoprolol 100mg tablets (Mylan Ltd)
+^ESCTME818915	Metoprolol 50mg tablets (Actavis UK Ltd)
+^ESCTME819523	Metoprolol 50mg tablets (Sandoz Ltd)
+^ESCTME820151	Metoprolol 100mg tablets (Sandoz Ltd)
+^ESCTME820425	Metoprolol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME820513	Metoprolol 100mg tablets (The Boots Company Plc)
+^ESCTME821138	Metoprolol 50mg tablets (Mylan Ltd)
+^ESCTME827743	Metoprolol 100mg tablets (Actavis UK Ltd)
+^ESCTME833533	Metoprolol 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME862932	Metoprolol 5mg/5ml solution for injection ampoules
+^ESCTME908093	Metoprolol 10mg/5ml oral solution (Special Order)
+^ESCTME908103	Metoprolol 12.5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME908104	Metoprolol 10mg/5ml oral suspension (Special Order)
+^ESCTME908110	Metoprolol 12.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME908114	Metoprolol 25mg/5ml oral solution (Special Order)
+^ESCTME908119	Metoprolol 25mg/5ml oral suspension (Special Order)
+^ESCTME908122	Metoprolol 20mg/5ml oral solution (Special Order)
+^ESCTME908127	Metoprolol 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME908131	Metoprolol 50mg/5ml oral suspension (Special Order)
+^ESCTME908133	Metoprolol 20mg/5ml oral suspension (Special Order)
+^ESCTME908136	Metoprolol 5mg/5ml oral solution (Special Order)
+^ESCTME908139	Metoprolol 5mg/5ml oral suspension (Special Order)
+^ESCTME908453	Metoprolol 10mg/5ml oral solution
+^ESCTME908454	Metoprolol 10mg/5ml oral suspension
+^ESCTME908455	Metoprolol 12.5mg/5ml oral solution
+^ESCTME908457	Metoprolol 12.5mg/5ml oral suspension
+^ESCTME908458	Metoprolol 20mg/5ml oral solution
+^ESCTME908459	Metoprolol 20mg/5ml oral suspension
+^ESCTME908460	Metoprolol 25mg/5ml oral solution
+^ESCTME908461	Metoprolol 25mg/5ml oral suspension
+^ESCTME908462	Metoprolol 50mg/5ml oral solution
+^ESCTME908464	Metoprolol 50mg/5ml oral suspension
+^ESCTME908465	Metoprolol 5mg/5ml oral solution
+^ESCTME908466	Metoprolol 5mg/5ml oral suspension
+^ESCTME939396	Metoprolol 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME939399	Metoprolol 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME957102	Metoprolol 100mg/5ml oral solution (Special Order)
+^ESCTME957105	Metoprolol 125mg/5ml oral solution (Special Order)
+^ESCTME957108	Metoprolol 15mg/5ml oral solution (Special Order)
+^ESCTME957111	Metoprolol 16mg/5ml oral solution (Special Order)
+^ESCTME957114	Metoprolol 17mg/5ml oral solution (Special Order)
+^ESCTME957117	Metoprolol 2.5mg/5ml oral solution (Special Order)
+^ESCTME957120	Metoprolol 3.33mg/5ml oral solution (Special Order)
+^ESCTME957123	Metoprolol 30mg/5ml oral solution (Special Order)
+^ESCTME957126	Metoprolol 31.25mg/5ml oral solution (Special Order)
+^ESCTME957129	Metoprolol 40mg/5ml oral solution (Special Order)
+^ESCTME957132	Metoprolol 6.25mg/5ml oral solution (Special Order)
+^ESCTME957137	Metoprolol 62.5mg/5ml oral solution (Special Order)
+^ESCTME957143	Metoprolol 8mg/5ml oral solution (Special Order)
+^ESCTME957622	Metoprolol 100mg/5ml oral solution
+^ESCTME957623	Metoprolol 125mg/5ml oral solution
+^ESCTME957624	Metoprolol 15mg/5ml oral solution
+^ESCTME957625	Metoprolol 16mg/5ml oral solution
+^ESCTME957626	Metoprolol 17mg/5ml oral solution
+^ESCTME957627	Metoprolol 2.5mg/5ml oral solution
+^ESCTME957628	Metoprolol 3.33mg/5ml oral solution
+^ESCTME957629	Metoprolol 30mg/5ml oral solution
+^ESCTME957630	Metoprolol 31.25mg/5ml oral solution
+^ESCTME957631	Metoprolol 40mg/5ml oral solution
+^ESCTME957632	Metoprolol 6.25mg/5ml oral solution
+^ESCTME957633	Metoprolol 62.5mg/5ml oral solution
+^ESCTME957634	Metoprolol 8mg/5ml oral solution
+^ESCTME978563	Metoprolol 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978565	Metoprolol 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME993841	Metoprolol 12.5mg capsules (Special Order)
+^ESCTME993844	Metoprolol 12.5mg capsules
+^ESCTMO810625	Monocor 10mg tablets (Wyeth Pharmaceuticals)
+^ESCTMO811246	Monocor 5mg tablets (Wyeth Pharmaceuticals)
+^ESCTMO870785	Monozide 10 tablets (Wyeth Pharmaceuticals)
+^ESCTMO879713	Monocor 10mg tablets (Dowelhurst Ltd)
+^ESCTNA1099278	Nadolol 10mg/5ml oral solution (Special Order)
+^ESCTNA1099281	Nadolol 10mg/5ml oral suspension (Special Order)
+^ESCTNA1099366	Nadolol 10mg/5ml oral solution
+^ESCTNA1099367	Nadolol 10mg/5ml oral suspension
+^ESCTNA1100191	Nadolol 40mg tablets (Special Order)
+^ESCTNA1144675	Nadolol 25mg/5ml oral solution (Special Order)
+^ESCTNA1145077	Nadolol 25mg/5ml oral solution
+^ESCTNA1153976	Nadolol 100mg/5ml oral suspension (Special Order)
+^ESCTNA1154197	Nadolol 100mg/5ml oral suspension
+^ESCTNA607066	Nadolol 40mg tablets
+^ESCTNA607068	Nadolol 40 mg oral tablet
+^ESCTNA607069	Nadolol 80mg tablets
+^ESCTNA607071	Nadolol 80 mg oral tablet
+^ESCTNA607119	Nadolol 40mg / Bendroflumethiazide 5mg tablets
+^ESCTNA607121	Nadolol 40 mg and bendroflumethiazide 5 mg oral tablet
+^ESCTNA607122	Nadolol 80mg / Bendroflumethiazide 5mg tablets
+^ESCTNA607124	Nadolol 80 mg and bendroflumethiazide 5 mg oral tablet
+^ESCTNA947998	Nadolol 40mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNA948012	Nadolol 40mg/5ml oral solution (Special Order)
+^ESCTNA948523	Nadolol 40mg/5ml oral solution
+^ESCTNA948524	Nadolol 40mg/5ml oral suspension
+^ESCTNA979093	Nadolol 80mg/5ml oral solution (Special Order)
+^ESCTNA979096	Nadolol 80mg/5ml oral suspension (Special Order)
+^ESCTNA979618	Nadolol 80mg/5ml oral solution
+^ESCTNA979619	Nadolol 80mg/5ml oral suspension
+^ESCTNA988374	Nadolol 30mg/5ml oral solution (Special Order)
+^ESCTNA988377	Nadolol 30mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNA988430	Nadolol 30mg/5ml oral solution
+^ESCTNA988431	Nadolol 30mg/5ml oral suspension
+^ESCTNA988599	Nadolol 20mg/5ml oral solution (Special Order)
+^ESCTNA988602	Nadolol 20mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNA988632	Nadolol 20mg/5ml oral solution
+^ESCTNA988633	Nadolol 20mg/5ml oral suspension
+^ESCTNE1002800	Nebilet 5mg tablets (Necessity Supplies Ltd)
+^ESCTNE1006170	Nebivolol 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNE1007925	Nebivolol 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNE1023577	Nebivolol 5mg tablets (Mylan Ltd)
+^ESCTNE1027822	Nebivolol 5mg tablets (Sandoz Ltd)
+^ESCTNE1036756	Nebivolol 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNE1041803	Nebivolol 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTNE1041805	Nebivolol 5mg tablets (Waymade Healthcare Plc)
+^ESCTNE1047774	Nebivolol 5mg tablets (Arrow Generics Ltd)
+^ESCTNE1058754	Nebivolol 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTNE1064004	Nebivolol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNE1066132	Nebivolol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNE1066750	Nebivolol 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNE1067572	Nebivolol 2.5mg tablets (Teva UK Ltd)
+^ESCTNE1094089	Nebivolol 2.5mg tablets (AMCo)
+^ESCTNE1118316	Nebivolol 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNE1119460	Nebivolol 2.5mg tablets (DE Pharmaceuticals)
+^ESCTNE1119462	Nebivolol 5mg tablets (DE Pharmaceuticals)
+^ESCTNE1119463	Nebivolol 10mg tablets (DE Pharmaceuticals)
+^ESCTNE1126979	Nebivolol 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1142020	Nebivolol 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE1142024	Nebivolol 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE607213	Nebivolol 5mg tablets
+^ESCTNE607215	Nebivolol 5 mg oral tablet
+^ESCTNE715368	Nebivolol 2.5mg tablets
+^ESCTNE715370	Nebivolol 2.5 mg oral tablet
+^ESCTNE715442	Nebivolol 10mg tablets
+^ESCTNE715444	Nebivolol 10 mg oral tablet
+^ESCTNE822716	Nebilet 5mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+^ESCTNE878116	Nebilet 5mg tablets (Waymade Healthcare Plc)
+^ESCTNE878945	Nebivolol 5mg tablets (Dowelhurst Ltd)
+^ESCTNE879551	Nebilet 5mg tablets (Dowelhurst Ltd)
+^ESCTNE965949	Nebivolol 5mg tablets (PLIVA Pharma Ltd)
+^ESCTNE967244	Nebilet 5mg tablets (DE Pharmaceuticals)
+^ESCTNE968174	Nebivolol 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNE968219	Nebivolol 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNE969520	Nebivolol 5mg tablets (Teva UK Ltd)
+^ESCTNE971069	Nebilet 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNE971821	Nebivolol 5mg tablets (Actavis UK Ltd)
+^ESCTNE979713	Nebivolol 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNE982418	Nebivolol 5mg tablets (Zentiva)
+^ESCTNE983552	Nebivolol 5mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTNE983560	Nebivolol 2.5mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTNE989432	Nebilet 5mg tablets (Lexon (UK) Ltd)
+^ESCTNE993065	Nebivolol 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNE993186	Nebilet 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNE998909	Nebivolol 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX1028253	Oxprenolol 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX1028255	Oxprenolol 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX1028293	Oxprenolol 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX1028295	Oxprenolol 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX1029257	Oxprenolol 80mg tablets (Sovereign Medical Ltd)
+^ESCTOX1029259	Oxprenolol 40mg tablets (AMCo)
+^ESCTOX1029261	Oxprenolol 20mg tablets (AMCo)
+^ESCTOX1030879	Oxprenolol 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX1141410	Oxprenolol 160mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTOX607074	Oxprenolol 20mg tablets
+^ESCTOX607076	Oxprenolol hydrochloride 20 mg oral tablet
+^ESCTOX607077	Oxprenolol 40mg tablets
+^ESCTOX607079	Oxprenolol hydrochloride 40 mg oral tablet
+^ESCTOX607080	Oxprenolol 80mg tablets
+^ESCTOX607082	Oxprenolol hydrochloride 80 mg oral tablet
+^ESCTOX607085	Oxprenolol 160mg modified-release tablets
+^ESCTOX607086	Oxprenolol hydrochloride 160mg m/r tablet
+^ESCTOX607144	Oxprenolol+cyclopenthiazide 160mg/250mcg m/r tablet
+^ESCTOX607145	Oxprenolol+cyclopenthiazide 160mg/0.25mg m/r tablet
+^ESCTOX957411	Oxprenolol 80mg/5ml oral solution (Special Order)
+^ESCTOX957589	Oxprenolol 80mg/5ml oral solution
+^ESCTPI1005528	Pindolol 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPI1042075	Pindolol 5mg tablets (Waymade Healthcare Plc)
+^ESCTPI1118824	Pindolol 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1119589	Pindolol 5mg tablets (DE Pharmaceuticals)
+^ESCTPI607087	Pindolol 5mg tablets
+^ESCTPI607089	Pindolol 5 mg oral tablet
+^ESCTPI607090	Pindolol 15mg tablets
+^ESCTPI607092	Pindolol 15 mg oral tablet
+^ESCTPI607125	Pindolol 10mg / Clopamide 5mg tablets
+^ESCTPI607127	Pindolol 10 mg and clopamide 5 mg oral tablet
+^ESCTPI863610	Pindolol 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI863617	Pindolol 5mg tablets (Mylan Ltd)
+^ESCTPI863623	Pindolol 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1005906	Propranolol 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005910	Propranolol 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1009930	Propranolol 160mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1042199	Propranolol 5mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTPR1042210	Propranolol 50mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTPR1042279	Propranolol 10mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042281	Propranolol 10mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTPR1042283	Propranolol 40mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042285	Propranolol 80mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042287	Propranolol 160mg tablets (Waymade Healthcare Plc)
+^ESCTPR1046778	Propranolol 5mg/5ml oral solution sugar free (AM Distributions (Yorkshire) Ltd)
+^ESCTPR1046785	Propranolol 10mg/5ml oral solution sugar free (AM Distributions (Yorkshire) Ltd)
+^ESCTPR1046787	Propranolol 40mg/5ml oral solution sugar free (AM Distributions (Yorkshire) Ltd)
+^ESCTPR1046789	Propranolol 50mg/5ml oral solution sugar free (AM Distributions (Yorkshire) Ltd)
+^ESCTPR1047654	Propranolol 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTPR1047658	Propranolol 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTPR1049042	Propranolol 5mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1049044	Propranolol 10mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1049046	Propranolol 50mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1049048	Propranolol 40mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1056753	Propranolol 10mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTPR1056755	Propranolol 50mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTPR1057279	Propranolol 10mg tablets (Accord Healthcare Ltd)
+^ESCTPR1057285	Propranolol 40mg tablets (Accord Healthcare Ltd)
+^ESCTPR1057291	Propranolol 80mg tablets (Accord Healthcare Ltd)
+^ESCTPR1058356	Propranolol 160mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTPR1058358	Propranolol 80mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTPR1061801	Propranolol 10mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTPR1061803	Propranolol 50mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTPR1066094	Propranolol 10mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCTPR1066097	Propranolol 5mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCTPR1067558	Propranolol 10mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1067560	Propranolol 50mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1100691	Propranolol 10mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1100693	Propranolol 50mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1100695	Propranolol 5mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1101628	Propranolol 10mg/5ml oral solution sugar free (Pharma-z Ltd)
+^ESCTPR1101630	Propranolol 50mg/5ml oral solution sugar free (Pharma-z Ltd)
+^ESCTPR1109015	Propranolol 5mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTPR1119620	Propranolol 80mg modified-release capsules (DE Pharmaceuticals)
+^ESCTPR1119622	Propranolol 160mg modified-release capsules (DE Pharmaceuticals)
+^ESCTPR1119624	Propranolol 10mg tablets (DE Pharmaceuticals)
+^ESCTPR1119626	Propranolol 40mg tablets (DE Pharmaceuticals)
+^ESCTPR1119628	Propranolol 80mg tablets (DE Pharmaceuticals)
+^ESCTPR1119630	Propranolol 160mg tablets (DE Pharmaceuticals)
+^ESCTPR1126114	Propranolol 5mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTPR1126752	Propranolol 40mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTPR1127073	Propranolol 80mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1137855	Propranolol 40mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1145156	Propranolol 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1145158	Propranolol 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1145160	Propranolol 40mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1145162	Propranolol 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1148591	Propranolol 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1148595	Propranolol 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1148599	Propranolol 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1152600	Propranolol 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1152602	Propranolol 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1152604	Propranolol 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1152606	Propranolol 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1152682	Propranolol 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1158916	Propranolol 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTPR1158918	Propranolol 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTPR1158920	Propranolol 40mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTPR1158940	Propranolol 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTPR451161	Propranolol 5mg/5ml oral solution sugar free
+^ESCTPR451162	Propranolol hydrochloride 5mg/5mL s/f oral solution
+^ESCTPR451163	Propranolol 5mg/5mL oral solution sugar free
+^ESCTPR451164	Propranolol 10mg/5ml oral solution sugar free
+^ESCTPR451165	Propranolol hydrochloride 10mg/5mL s/f oral solution
+^ESCTPR451166	Propranolol 10mg/5mL oral solution sugar free
+^ESCTPR451167	Propranolol 50mg/5ml oral solution sugar free
+^ESCTPR451168	Propranolol hydrochloride 50mg/5mL s/f oral solution
+^ESCTPR451169	Propranolol 50mg/5mL oral solution sugar free
+^ESCTPR606984	Propranolol 10mg tablets
+^ESCTPR606985	Product containing propranolol hydrochloride 10 mg/1 each oral tablet
+^ESCTPR606986	Propranolol hydrochloride 10 mg oral tablet
+^ESCTPR606987	Propranolol 40mg tablets
+^ESCTPR606988	Product containing propranolol hydrochloride 40 mg/1 each oral tablet
+^ESCTPR606989	Propranolol hydrochloride 40 mg oral tablet
+^ESCTPR606990	Propranolol 80mg tablets
+^ESCTPR606991	Product containing propranolol hydrochloride 80 mg/1 each oral tablet
+^ESCTPR606992	Propranolol hydrochloride 80 mg oral tablet
+^ESCTPR606993	Propranolol 160mg tablets
+^ESCTPR606994	Product containing propranolol hydrochloride 160 mg/1 each oral tablet
+^ESCTPR606995	Propranolol hydrochloride 160 mg oral tablet
+^ESCTPR606996	Propranolol 1mg/1ml solution for injection ampoules
+^ESCTPR606997	Propranolol hydrochloride 1mg/1mL injection
+^ESCTPR606998	Propranolol hydrochloride 1mg/mL injection solution 1mL ampoule
+^ESCTPR606999	Propranolol hydrochloride 1mg/mL injection solution 1mL ampule
+^ESCTPR607005	Propranolol 160mg modified-release capsules
+^ESCTPR607006	Propranolol hydrochloride 160mg m/r capsule
+^ESCTPR607007	Propranolol 80mg modified-release capsules
+^ESCTPR607008	Propranolol hydrochloride 80mg m/r capsule
+^ESCTPR607010	Product containing acebutolol 100 mg/1 each oral capsule
+^ESCTPR607014	Product containing acebutolol 200 mg/1 each oral capsule
+^ESCTPR607016	Product containing acebutolol 400 mg/1 each oral tablet
+^ESCTPR607019	Product containing atenolol 50 mg/1 each oral tablet
+^ESCTPR607022	Product containing atenolol 100 mg/1 each oral tablet
+^ESCTPR607025	Product containing atenolol 25 mg/1 each oral tablet
+^ESCTPR607036	Product containing betaxolol hydrochloride 20 mg/1 each oral tablet
+^ESCTPR607039	Product containing labetalol hydrochloride 100 mg/1 each oral tablet
+^ESCTPR607042	Product containing labetalol hydrochloride 200 mg/1 each oral tablet
+^ESCTPR607045	Product containing labetalol hydrochloride 400 mg/1 each oral tablet
+^ESCTPR607048	Product containing labetalol hydrochloride 50 mg/1 each oral tablet
+^ESCTPR607055	Product containing metoprolol tartrate 100 mg/1 each oral tablet
+^ESCTPR607058	Product containing metoprolol tartrate 50 mg/1 each oral tablet
+^ESCTPR607067	Product containing nadolol 40 mg/1 each oral tablet
+^ESCTPR607070	Product containing nadolol 80 mg/1 each oral tablet
+^ESCTPR607075	Product containing oxprenolol hydrochloride 20 mg/1 each oral tablet
+^ESCTPR607078	Product containing oxprenolol hydrochloride 40 mg/1 each oral tablet
+^ESCTPR607081	Product containing oxprenolol hydrochloride 80 mg/1 each oral tablet
+^ESCTPR607088	Product containing pindolol 5 mg/1 each oral tablet
+^ESCTPR607091	Product containing pindolol 15 mg/1 each oral tablet
+^ESCTPR607098	Product containing sotalol hydrochloride 40 mg/1 each oral tablet
+^ESCTPR607101	Product containing sotalol hydrochloride 80 mg/1 each oral tablet
+^ESCTPR607104	Product containing sotalol hydrochloride 200 mg/1 each oral tablet
+^ESCTPR607107	Product containing sotalol hydrochloride 160 mg/1 each oral tablet
+^ESCTPR607110	Product containing timolol maleate 10 mg/1 each oral tablet
+^ESCTPR607115	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607120	Product containing nadolol 40 mg and bendroflumethiazide 5 mg/1 each oral tablet
+^ESCTPR607123	Product containing nadolol 80 mg and bendroflumethiazide 5 mg/1 each oral tablet
+^ESCTPR607126	Product containing pindolol 10 mg and clopamide 5 mg/1 each oral tablet
+^ESCTPR607132	Product containing timolol maleate 10 mg and bendroflumethiazide 2.5 mg/1 each oral tablet
+^ESCTPR607135	Product containing atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCTPR607138	Product containing atenolol 50 mg and chlortalidone 12.5 mg/1 each oral tablet
+^ESCTPR607139	Product containing atenolol 50 mg and chlorthalidone 12.5 mg/1 each oral tablet
+^ESCTPR607146	Propranolol 80mg / Bendroflumethiazide 2.5mg capsules
+^ESCTPR607147	Propranolol hydrochloride 80 mg and bendroflumethiazide 2.5 mg/1 each oral capsule
+^ESCTPR607148	Product containing propranolol hydrochloride 80 mg and bendroflumethiazide 2.5 mg/1 each oral capsule
+^ESCTPR607149	Propranolol 160mg modified-release / Bendroflumethiazide 5mg capsules
+^ESCTPR607150	Propranolol hydrochloride 160mg / bendrofluazide 5mg m/r capsule
+^ESCTPR607152	Product containing acebutolol 200 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607155	Product containing atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTPR607160	Product containing bisoprolol fumarate 5 mg/1 each oral tablet
+^ESCTPR607163	Product containing bisoprolol fumarate 10 mg/1 each oral tablet
+^ESCTPR607166	Product containing bisoprolol fumarate 10 mg and hydrochlorothiazide 6.25 mg/1 each oral tablet
+^ESCTPR607169	Product containing bisoprolol fumarate 1.25 mg/1 each oral tablet
+^ESCTPR607172	Product containing bisoprolol fumarate 2.5 mg/1 each oral tablet
+^ESCTPR607175	Product containing bisoprolol fumarate 3.75 mg/1 each oral tablet
+^ESCTPR607178	Product containing bisoprolol fumarate 7.5 mg/1 each oral tablet
+^ESCTPR607183	Product containing celiprolol hydrochloride 200 mg/1 each oral tablet
+^ESCTPR607186	Product containing celiprolol hydrochloride 400 mg/1 each oral tablet
+^ESCTPR607197	Product containing carvedilol 12.5 mg/1 each oral tablet
+^ESCTPR607200	Product containing carvedilol 25 mg/1 each oral tablet
+^ESCTPR607203	Product containing carvedilol 3.125 mg/1 each oral tablet
+^ESCTPR607209	Product containing carvedilol 6.25 mg/1 each oral tablet
+^ESCTPR607214	Product containing nebivolol 5 mg/1 each oral tablet
+^ESCTPR641909	Product containing atenolol 100 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCTPR641910	Product containing atenolol 100 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCTPR715369	Product containing nebivolol 2.5 mg/1 each oral tablet
+^ESCTPR715443	Product containing nebivolol 10 mg/1 each oral tablet
+^ESCTPR801130	Propranolol 40mg tablets (Mylan Ltd)
+^ESCTPR801509	Propranolol 160mg tablets (Teva UK Ltd)
+^ESCTPR801933	Propranolol 80mg tablets (Teva UK Ltd)
+^ESCTPR802842	Propranolol 40mg tablets (Actavis UK Ltd)
+^ESCTPR803099	Prestim tablets (Meda Pharmaceuticals Ltd)
+^ESCTPR803114	Propranolol 10mg tablets (Actavis UK Ltd)
+^ESCTPR803148	Propranolol 160mg modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR804648	Propranolol 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR804929	Propranolol 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR805109	Propranolol 80mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR805331	Propranolol 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR806747	Propranolol 10mg tablets (Teva UK Ltd)
+^ESCTPR810012	Propranolol 80mg modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR810166	Propranolol 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR812947	Propranolol 80mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR813335	Propranolol 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR813504	Propranolol 10mg tablets (Mylan Ltd)
+^ESCTPR818985	Propranolol 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR820161	Propranolol 160mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR820219	Propranolol 160mg tablets (Mylan Ltd)
+^ESCTPR820263	Propranolol 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR820748	Propranolol 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR821273	Propranolol 80mg tablets (Mylan Ltd)
+^ESCTPR821282	Propranolol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR821283	Propranolol 160mg tablets (Actavis UK Ltd)
+^ESCTPR821385	Propranolol 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR823735	Propranolol 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR824578	Propranolol 160mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR825221	Propranolol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR826149	Propranolol 160mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR829562	Propranolol 40mg tablets (Teva UK Ltd)
+^ESCTPR829637	Propranolol 80mg tablets (Actavis UK Ltd)
+^ESCTPR871077	Propranolol 160mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR905824	Propranolol 80mg modified-release capsules (Teva UK Ltd)
+^ESCTPR905826	Propranolol 160mg modified-release capsules (Teva UK Ltd)
+^ESCTPR908323	Propranolol 40mg/5ml oral solution (Special Order)
+^ESCTPR908329	Propranolol 40mg/5ml oral suspension (Special Order)
+^ESCTPR908339	Propranolol 80mg/5ml oral solution (Special Order)
+^ESCTPR908343	Propranolol 80mg/5ml oral suspension (Special Order)
+^ESCTPR908499	Propranolol 40mg/5ml oral solution
+^ESCTPR908500	Propranolol 40mg/5ml oral suspension
+^ESCTPR908501	Propranolol 80mg/5ml oral solution
+^ESCTPR908502	Propranolol 80mg/5ml oral suspension
+^ESCTPR913144	Propranolol 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR913146	Propranolol 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR913148	Propranolol 80mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR913150	Propranolol 160mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR923724	Propranolol 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR923727	Propranolol 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR959670	Propranolol 1.67mg/5ml oral suspension (Special Order)
+^ESCTPR959673	Propranolol 1.67mg/5ml oral solution (Special Order)
+^ESCTPR959678	Propranolol 10mg/5ml oral suspension (Special Order)
+^ESCTPR959686	Propranolol 10mg/5ml oral solution (Special Order)
+^ESCTPR959692	Propranolol 15mg/5ml oral suspension (Special Order)
+^ESCTPR959698	Propranolol 15mg/5ml oral solution (Special Order)
+^ESCTPR959703	Propranolol 16mg/5ml oral suspension (Special Order)
+^ESCTPR959707	Propranolol 16mg/5ml oral solution (Special Order)
+^ESCTPR959712	Propranolol 2.5mg/5ml oral suspension (Special Order)
+^ESCTPR959716	Propranolol 2.5mg/5ml oral solution (Special Order)
+^ESCTPR959757	Propranolol 1.67mg/5ml oral solution
+^ESCTPR959758	Propranolol 1.67mg/5ml oral suspension
+^ESCTPR959759	Propranolol 10mg/5ml oral solution
+^ESCTPR959760	Propranolol 10mg/5ml oral suspension
+^ESCTPR959761	Propranolol 15mg/5ml oral solution
+^ESCTPR959762	Propranolol 15mg/5ml oral suspension
+^ESCTPR959763	Propranolol 16mg/5ml oral solution
+^ESCTPR959764	Propranolol 16mg/5ml oral suspension
+^ESCTPR959765	Propranolol 2.5mg/5ml oral solution
+^ESCTPR959766	Propranolol 2.5mg/5ml oral suspension
+^ESCTPR959799	Propranolol 2.75mg/5ml oral suspension (Special Order)
+^ESCTPR959802	Propranolol 2.75mg/5ml oral solution (Special Order)
+^ESCTPR959808	Propranolol 20mg/5ml oral suspension (Special Order)
+^ESCTPR959812	Propranolol 20mg/5ml oral solution (Special Order)
+^ESCTPR959815	Propranolol 22.5mg/5ml oral suspension (Special Order)
+^ESCTPR959818	Propranolol 22.5mg/5ml oral solution (Special Order)
+^ESCTPR959822	Propranolol 25mg/5ml oral suspension (Special Order)
+^ESCTPR959827	Propranolol 25mg/5ml oral solution (Special Order)
+^ESCTPR959830	Propranolol 2mg/5ml oral suspension (Special Order)
+^ESCTPR959835	Propranolol 2mg/5ml oral solution (Special Order)
+^ESCTPR959840	Propranolol 3.5mg/5ml oral suspension (Special Order)
+^ESCTPR959843	Propranolol 3.5mg/5ml oral solution (Special Order)
+^ESCTPR959846	Propranolol 32mg/5ml oral suspension (Special Order)
+^ESCTPR959851	Propranolol 32mg/5ml oral solution (Special Order)
+^ESCTPR959856	Propranolol 3mg/5ml oral suspension (Special Order)
+^ESCTPR959860	Propranolol 2.75mg/5ml oral solution
+^ESCTPR959861	Propranolol 3mg/5ml oral suspension
+^ESCTPR959862	Propranolol 32mg/5ml oral suspension
+^ESCTPR959863	Propranolol 2.75mg/5ml oral suspension
+^ESCTPR959864	Propranolol 20mg/5ml oral solution
+^ESCTPR959865	Propranolol 32mg/5ml oral solution
+^ESCTPR959866	Propranolol 3.5mg/5ml oral suspension
+^ESCTPR959868	Propranolol 3.5mg/5ml oral solution
+^ESCTPR959869	Propranolol 2mg/5ml oral suspension
+^ESCTPR959870	Propranolol 2mg/5ml oral solution
+^ESCTPR959872	Propranolol 3mg/5ml oral solution
+^ESCTPR959873	Propranolol 25mg/5ml oral suspension
+^ESCTPR959874	Propranolol 3mg/5ml oral solution (Special Order)
+^ESCTPR959878	Propranolol 20mg/5ml oral suspension
+^ESCTPR959879	Propranolol 22.5mg/5ml oral solution
+^ESCTPR959880	Propranolol 22.5mg/5ml oral suspension
+^ESCTPR959881	Propranolol 25mg/5ml oral solution
+^ESCTPR959883	Propranolol 4mg/5ml oral suspension (Special Order)
+^ESCTPR959886	Propranolol 4mg/5ml oral solution (Special Order)
+^ESCTPR959888	Propranolol 4mg/5ml oral suspension
+^ESCTPR959889	Propranolol 4mg/5ml oral solution
+^ESCTPR960049	Propranolol 50mg/5ml oral suspension (Special Order)
+^ESCTPR960052	Propranolol 5mg/5ml oral suspension (Special Order)
+^ESCTPR960055	Propranolol 6mg/5ml oral suspension (Special Order)
+^ESCTPR960058	Propranolol 50mg/5ml oral solution (Special Order)
+^ESCTPR960061	Propranolol 5mg/5ml oral solution (Special Order)
+^ESCTPR960064	Propranolol 6mg/5ml oral solution (Special Order)
+^ESCTPR960141	Propranolol 50mg/5ml oral solution
+^ESCTPR960142	Propranolol 50mg/5ml oral suspension
+^ESCTPR960143	Propranolol 5mg/5ml oral solution
+^ESCTPR960144	Propranolol 5mg/5ml oral suspension
+^ESCTPR960145	Propranolol 6mg/5ml oral solution
+^ESCTPR960146	Propranolol 6mg/5ml oral suspension
+^ESCTPR960617	Propranolol 10mg tablets (Dowelhurst Ltd)
+^ESCTPR960621	Propranolol 160mg tablets (Dowelhurst Ltd)
+^ESCTPR960623	Propranolol 40mg tablets (Dowelhurst Ltd)
+^ESCTPR960625	Propranolol 80mg tablets (Dowelhurst Ltd)
+^ESCTPR975474	Propranolol 10mg tablets (Boston Healthcare Ltd)
+^ESCTPR975476	Propranolol 40mg tablets (Boston Healthcare Ltd)
+^ESCTPR975478	Propranolol 80mg tablets (Boston Healthcare Ltd)
+^ESCTPR979136	Propranolol 160mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR980886	Propranolol 40mg/5ml oral solution sugar free
+^ESCTRA857870	Rapranol SR 80mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA857872	Rapranol SR 160mg capsules (Ranbaxy (UK) Ltd)
+^ESCTSE1001399	Sectral 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1007241	Sectral 400mg tablets (Lexon (UK) Ltd)
+^ESCTSE1121439	Sectral 400mg tablets (Waymade Healthcare Plc)
+^ESCTSE809379	Sectral 400mg tablets (Sanofi)
+^ESCTSE820594	Sectral 100mg capsules (Sanofi)
+^ESCTSE830674	Secadrex 200mg/12.5mg tablets (Sanofi)
+^ESCTSE833376	Sectral 200mg capsules (Sanofi)
+^ESCTSE974429	Sectral 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSL1002833	Slow-Trasicor 160mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSL807564	Slo-Pro 160mg capsules (Mylan Ltd)
+^ESCTSL818142	Slow-Trasicor 160mg tablets (AMCo)
+^ESCTSL933532	Slow-Trasicor 160mg tablets (Waymade Healthcare Plc)
+^ESCTSL967900	Slow-Trasicor 160mg tablets (DE Pharmaceuticals)
+^ESCTSO1004775	Sotalol 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSO1004781	Sotalol 80mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSO1036967	Sotalol 80mg tablets (Accord Healthcare Ltd)
+^ESCTSO1036969	Sotalol 160mg tablets (Accord Healthcare Ltd)
+^ESCTSO1042559	Sotalol 40mg tablets (Waymade Healthcare Plc)
+^ESCTSO1042561	Sotalol 80mg tablets (Waymade Healthcare Plc)
+^ESCTSO1042563	Sotalol 160mg tablets (Waymade Healthcare Plc)
+^ESCTSO1088694	Sotalol 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTSO1088698	Sotalol 80mg tablets (Tillomed Laboratories Ltd)
+^ESCTSO1088711	Sotalol 160mg tablets (Tillomed Laboratories Ltd)
+^ESCTSO1119800	Sotalol 40mg tablets (DE Pharmaceuticals)
+^ESCTSO1119802	Sotalol 80mg tablets (DE Pharmaceuticals)
+^ESCTSO1119804	Sotalol 160mg tablets (DE Pharmaceuticals)
+^ESCTSO1127589	Sotalol 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSO1127591	Sotalol 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSO1127593	Sotalol 160mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSO607093	Sotalol 40mg/4ml solution for injection ampoules
+^ESCTSO607094	Sotalol hydrochloride 40mg/4mL injection
+^ESCTSO607095	Sotalol hydrochloride 10mg/mL injection solution 4mL ampoule
+^ESCTSO607096	Sotalol hydrochloride 10mg/mL injection solution 4mL ampule
+^ESCTSO607097	Sotalol 40mg tablets
+^ESCTSO607099	Sotalol hydrochloride 40 mg oral tablet
+^ESCTSO607100	Sotalol 80mg tablets
+^ESCTSO607102	Sotalol hydrochloride 80 mg oral tablet
+^ESCTSO607103	Sotalol 200mg tablets
+^ESCTSO607105	Sotalol hydrochloride 200 mg oral tablet
+^ESCTSO607106	Sotalol 160mg tablets
+^ESCTSO607108	Sotalol hydrochloride 160 mg oral tablet
+^ESCTSO805121	Sotalol 80mg tablets (Sandoz Ltd)
+^ESCTSO805134	Sotalol 160mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSO805305	Sotalol 160mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSO811648	Sotalol 160mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO812734	Sotalol 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSO816605	Sotacor 160mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTSO817675	Sotacor 80mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTSO819904	Soloc 10mg tablets (Mercury Pharma Group Ltd)
+^ESCTSO820105	Sotalol 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO820460	Sotalol 160mg tablets (Mylan Ltd)
+^ESCTSO820719	Sotalol 160mg tablets (Sandoz Ltd)
+^ESCTSO820783	Sotalol 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSO821083	Sotalol 80mg tablets (Mylan Ltd)
+^ESCTSO821270	Sotalol 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO821274	Sotacor 40mg/4ml solution for injection ampoules (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTSO829589	Soloc 5mg tablets (Mercury Pharma Group Ltd)
+^ESCTSO832400	Sotalol 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSO834030	Sotalol 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSO863173	Sotalol 160mg tablets (Teva UK Ltd)
+^ESCTSO863181	Sotalol 40mg tablets (Teva UK Ltd)
+^ESCTSO863183	Sotalol 80mg tablets (Teva UK Ltd)
+^ESCTSO868228	Sotalol 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO868230	Sotalol 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO868232	Sotalol 160mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO908793	Sotalol 10mg/5ml oral solution (Special Order)
+^ESCTSO908798	Sotalol 10mg/5ml oral suspension (Special Order)
+^ESCTSO908807	Sotalol 80mg/5ml oral solution (Special Order)
+^ESCTSO908812	Sotalol 40mg/5ml oral solution (Special Order)
+^ESCTSO908816	Sotalol 80mg/5ml oral suspension (Special Order)
+^ESCTSO908819	Sotalol 25mg/5ml oral solution (Special Order)
+^ESCTSO908822	Sotalol 40mg/5ml oral suspension (Special Order)
+^ESCTSO908825	Sotalol 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTSO909041	Sotalol 10mg/5ml oral solution
+^ESCTSO909042	Sotalol 10mg/5ml oral suspension
+^ESCTSO909043	Sotalol 25mg/5ml oral solution
+^ESCTSO909044	Sotalol 25mg/5ml oral suspension
+^ESCTSO909046	Sotalol 40mg/5ml oral solution
+^ESCTSO909047	Sotalol 40mg/5ml oral suspension
+^ESCTSO909049	Sotalol 80mg/5ml oral solution
+^ESCTSO909050	Sotalol 80mg/5ml oral suspension
+^ESCTSO918695	Sotalol 40mg tablets (Mylan Ltd)
+^ESCTSO929095	Sotalol 40mg tablets (Arrow Generics Ltd)
+^ESCTSO929099	Sotalol 80mg tablets (Arrow Generics Ltd)
+^ESCTSO929101	Sotalol 160mg tablets (Arrow Generics Ltd)
+^ESCTSO939571	Sotalol 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSO939575	Sotalol 80mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSO939577	Sotalol 160mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSO961286	Sotalol 20mg/5ml oral solution (Special Order)
+^ESCTSO961289	Sotalol 30mg/5ml oral solution (Special Order)
+^ESCTSO961292	Sotalol 35mg/5ml oral solution (Special Order)
+^ESCTSO961295	Sotalol 50mg/5ml oral solution (Special Order)
+^ESCTSO961298	Sotalol 5mg/5ml oral solution (Special Order)
+^ESCTSO961301	Sotalol 8mg/5ml oral solution (Special Order)
+^ESCTSO961372	Sotalol 20mg/5ml oral solution
+^ESCTSO961373	Sotalol 30mg/5ml oral solution
+^ESCTSO961374	Sotalol 35mg/5ml oral solution
+^ESCTSO961375	Sotalol 50mg/5ml oral solution
+^ESCTSO961376	Sotalol 5mg/5ml oral solution
+^ESCTSO961377	Sotalol 8mg/5ml oral solution
+^ESCTSO965687	Sotalol 160mg tablets (Apotex UK Ltd)
+^ESCTSO965689	Sotalol 80mg tablets (Apotex UK Ltd)
+^ESCTSO988009	Sotalol 40mg tablets (Bristol Laboratories Ltd)
+^ESCTSO988020	Sotalol 80mg tablets (Bristol Laboratories Ltd)
+^ESCTSO988025	Sotalol 160mg tablets (Bristol Laboratories Ltd)
+^ESCTSY801406	Syprol 10mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTSY809204	Syprol 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTSY827069	Syprol 50mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTSY980400	Syprol 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTTE1001569	Tenif 50mg/20mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001571	Tenoret 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1008431	Tenif 50mg/20mg modified-release capsules (Necessity Supplies Ltd)
+^ESCTTE799040	Tenormin 5mg/10ml solution for injection ampoules (AstraZeneca UK Ltd)
+^ESCTTE801737	Tensomex 100mg tablets (Actavis UK Ltd)
+^ESCTTE804891	Tenormin 100mg tablets (AstraZeneca UK Ltd)
+^ESCTTE808929	Tenoretic 100mg/25mg tablets (AstraZeneca UK Ltd)
+^ESCTTE809400	Tenchlor 100mg/25mg tablets (Teva UK Ltd)
+^ESCTTE810168	Tenormin 25mg tablets (AstraZeneca UK Ltd)
+^ESCTTE812147	Tenormin 25mg/5ml syrup (AstraZeneca UK Ltd)
+^ESCTTE815094	Tenormin LS 50mg tablets (AstraZeneca UK Ltd)
+^ESCTTE816068	Tenchlor 50mg/12.5mg tablets (Teva UK Ltd)
+^ESCTTE822257	Tenben 25mg/1.25mg capsules (Galen Ltd)
+^ESCTTE827224	Tenoret 50mg/12.5mg tablets (AstraZeneca UK Ltd)
+^ESCTTE859487	Tenif 50mg/20mg modified-release capsules (AstraZeneca UK Ltd)
+^ESCTTE878347	Tenif 50mg/20mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTTE878350	Tenormin LS 50mg tablets (Waymade Healthcare Plc)
+^ESCTTE878353	Tenormin 25mg tablets (Waymade Healthcare Plc)
+^ESCTTE878356	Tenoretic 100mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTTE879744	Tenif 50mg/20mg modified-release capsules (Dowelhurst Ltd)
+^ESCTTE879770	Tenormin 100mg tablets (Dowelhurst Ltd)
+^ESCTTE879775	Tenormin 25mg tablets (Dowelhurst Ltd)
+^ESCTTE879784	Tenormin LS 50mg tablets (Dowelhurst Ltd)
+^ESCTTE929563	Tenoretic 100mg/25mg tablets (Dowelhurst Ltd)
+^ESCTTE967758	Tenoretic 100mg/25mg tablets (DE Pharmaceuticals)
+^ESCTTE967760	Tenif 50mg/20mg modified-release capsules (DE Pharmaceuticals)
+^ESCTTE967762	Tenormin LS 50mg tablets (DE Pharmaceuticals)
+^ESCTTE973975	Tenif 50mg/20mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTTE973977	Tenoret 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974317	Tenoretic 100mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974321	Tenormin LS 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974323	Tenormin 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTI1054290	Timolol 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTI1057212	Timolol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI1059093	Timolol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTI1128291	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTTI1130597	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTI1130722	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI607109	Timolol 10mg tablets
+^ESCTTI607111	Timolol maleate 10 mg oral tablet
+^ESCTTI607131	Timolol 10mg / Bendroflumethiazide 2.5mg tablets
+^ESCTTI607133	Timolol maleate 10 mg and bendroflumethiazide 2.5 mg oral tablet
+^ESCTTI992131	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Essential Generics Ltd)
+^ESCTTI992148	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets
+^ESCTTI993908	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI994741	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR801687	Trandate 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR802377	Trandate 200mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR820090	Trasicor 80mg tablets (Amdipharm Plc)
+^ESCTTR820304	Trasicor 40mg tablets (Amdipharm Plc)
+^ESCTTR820643	Trandate 100mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR820979	Trandate 400mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR861427	Trasicor 20mg tablets (Amdipharm Plc)
+^ESCTTR861920	Trasidrex modified-release tablets (Mercury Pharma Group Ltd)
+^ESCTTR869741	Trandate 100mg/20ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTTR974532	Trasicor 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR994233	Trasicor 80mg tablets (Stephar (U.K.) Ltd)
+^ESCTVI862996	Viskaldix tablets (AMCo)
+^ESCTVI863614	Visken 5mg tablets (AMCo)
+^ESCTVI865310	Visken 15mg tablets (AMCo)
+^ESCTVI878396	Viskaldix tablets (Waymade Healthcare Plc)
+^ESCTVI912701	Vivacor 5mg tablets (Lexon (UK) Ltd)
+^ESCTVI922971	Vivacor 10mg tablets (Lexon (UK) Ltd)
+^ESCTVI967640	Viskaldix tablets (DE Pharmaceuticals)
+^ESCTVI975239	Viskaldix tablets (Sigma Pharmaceuticals Plc)
+^ESCTVI990795	Viskaldix tablets (Lexon (UK) Ltd)
+ACCA13	Acebutolol  Capsules  100 mg
+ACCA14	Acebutolol  Capsules  200 mg
+ACCA33589MGEMIS	Acebutolol  Capsules  100 mg (Kent Pharm)
+ACCA33590MGEMIS	Acebutolol  Capsules  100 mg (A.A.H. Pharm)
+ACCA33591MGEMIS	Acebutolol  Capsules  200 mg (Kent Pharm)
+ACCA33592MGEMIS	Acebutolol  Capsules  200 mg (A.A.H. Pharm)
+ACTA16	Acebutolol  Tablets  400 mg
+ACTA18570NEMIS	Acebutolol And Hydrochlorothiazide  Tablets  200 mg + 12.5 mg
+ACTA33634MGEMIS	Acebutolol  Tablets  400 mg (Kent Pharm)
+ACTA33635MGEMIS	Acebutolol  Tablets  400 mg (A.A.H. Pharm)
+ANTA24239EMIS	Antipressan  Tablets  25 mg
+ANTA8445EGTON	Antipressan  Tablets  100 mg
+ANTA8446EGTON	Antipressan  Tablets  50 mg
+ATCA19667NEMIS	Atenolol And M/r Nifedipine  Capsules  50 mg + 20 mg
+ATIN4611	Atenolol  Solution for injection  500 micrograms/ml, 10 ml ampoule
+ATSY4612	Atenolol  Oral Solution, Sugar Free  25 mg/5 ml
+ATTA10518BRIDL	Atenix-100  Tablets  100 mg
+ATTA10910BRIDL	Atenolol  Tablets  25 mg
+ATTA10EGTON	Atenixco 100  Tablets  
+ATTA230	Atenolol  Tablets  100 mg
+ATTA231	Atenolol  Tablets  50 mg
+ATTA27489EMIS	Atenix 25  Tablets  25 mg
+ATTA33869MGEMIS	Atenolol  Tablets  25 mg (A.A.H. Pharm)
+ATTA33870MGEMIS	Atenolol  Tablets  25 mg (Unichem)
+ATTA33871MGEMIS	Atenolol  Tablets  25 mg (Alpharma)
+ATTA33872MGEMIS	Atenolol  Tablets  25 mg (Wockhardt UK)
+ATTA33873MGEMIS	Atenolol  Tablets  25 mg (Sandoz)
+ATTA33874MGEMIS	Atenolol  Tablets  25 mg (Ivax Pharmaceuticals)
+ATTA33875MGEMIS	Atenolol  Tablets  25 mg (Sterwin Medicines)
+ATTA33876MGEMIS	Atenolol  Tablets  25 mg (Teva UK)
+ATTA33877MGEMIS	Atenolol  Tablets  25 mg (Generics (UK))
+ATTA33878MGEMIS	Atenolol  Tablets  25 mg (Kent Pharm)
+ATTA33879MGEMIS	Atenolol  Tablets  25 mg (Ranbaxy)
+ATTA33880MGEMIS	Atenolol  Tablets  100 mg (Generics (UK))
+ATTA33881MGEMIS	Atenolol  Tablets  100 mg (Alpharma)
+ATTA33882MGEMIS	Atenolol  Tablets  100 mg (Sandoz)
+ATTA33883MGEMIS	Atenolol  Tablets  100 mg (Wockhardt UK)
+ATTA33884MGEMIS	Atenolol  Tablets  100 mg (A.A.H. Pharm)
+ATTA33885MGEMIS	Atenolol  Tablets  100 mg (Unichem)
+ATTA33886MGEMIS	Atenolol  Tablets  100 mg (Ivax Pharmaceuticals)
+ATTA33887MGEMIS	Atenolol  Tablets  100 mg (Sterwin Medicines)
+ATTA33888MGEMIS	Atenolol  Tablets  100 mg (Kent Pharm)
+ATTA33889MGEMIS	Atenolol  Tablets  100 mg (Teva UK)
+ATTA33890MGEMIS	Atenolol  Tablets  100 mg (Ranbaxy)
+ATTA33891MGEMIS	Atenolol  Tablets  50 mg (A.A.H. Pharm)
+ATTA33892MGEMIS	Atenolol  Tablets  50 mg (Generics (UK))
+ATTA33893MGEMIS	Atenolol  Tablets  50 mg (Unichem)
+ATTA33894MGEMIS	Atenolol  Tablets  50 mg (Wockhardt UK)
+ATTA33895MGEMIS	Atenolol  Tablets  50 mg (Alpharma)
+ATTA33896MGEMIS	Atenolol  Tablets  50 mg (Teva UK)
+ATTA33897MGEMIS	Atenolol  Tablets  50 mg (Sterwin Medicines)
+ATTA33898MGEMIS	Atenolol  Tablets  50 mg (Kent Pharm)
+ATTA33899MGEMIS	Atenolol  Tablets  50 mg (Ivax Pharmaceuticals)
+ATTA33900MGEMIS	Atenolol  Tablets  50 mg (Sandoz)
+ATTA33901MGEMIS	Atenolol  Tablets  50 mg (Ranbaxy)
+ATTA4EGTON	Atenixco 50  Tablets  12.5 mg
+ATTA7EGTON	Atenixco 50  Tablets  
+ATTA9195BRIDL	Atenix-50  Tablets  50 mg
+BECA12523NEMIS	Bedranol Sr  Capsules  80 mg
+BECA8448EGTON	Bedranol Sr  Capsules  160 mg
+BECA8451EGTON	Beta-Adalat  Capsules  
+BEIN8832BRIDL	Betaloc  Solution for injection  1 mg/ml, 5 ml ampoule
+BEM/20658EMIS	Beta-Prograne  M/R capsules  160 mg
+BETA128200NEMIS	Bedranol  Tablets  10 mg
+BETA128201NEMIS	Bedranol  Tablets  40 mg
+BETA128204NEMIS	Bedranol  Tablets  80 mg
+BETA128205NEMIS	Bedranol  Tablets  160 mg
+BETA335	Beta-Cardone  Tablets  200 mg
+BETA336	Beta-Cardone  Tablets  40 mg
+BETA337	Beta-Cardone  Tablets  80 mg
+BETA340	Betaloc  Tablets  100 mg
+BETA341	Betaloc  Tablets  50 mg
+BETA342	Betaloc Sa  M/R tablets  200 mg
+BETA350	Betim  Tablets  10 mg
+BETA4649	Betaxolol Hydrochloride  Tablets  20 mg
+BICA98659NEMIS	Bisoprolol And Aspirin  Capsules  5 mg + 75 mg
+BICA98660NEMIS	Bisoprolol And Aspirin  Capsules  5 mg + 100 mg
+BICA98661NEMIS	Bisoprolol And Aspirin  Capsules  10 mg + 75 mg
+BICA98662NEMIS	Bisoprolol And Aspirin  Capsules  10 mg + 100 mg
+BIOR26989NEMIS	Bisoprolol Fumarate  Oral suspension  7.5 mg/5 ml
+BIOR29965NEMIS	Bisoprolol Fumarate  Oral suspension  2.5 mg/5 ml
+BIOR45705NEMIS	Bisoprolol Fumarate  Oral solution  1.25 mg/5 ml
+BIOR45706NEMIS	Bisoprolol Fumarate  Oral suspension  1.25 mg/5 ml
+BIOR45707NEMIS	Bisoprolol Fumarate  Oral solution  5 mg/5 ml
+BIOR45708NEMIS	Bisoprolol Fumarate  Oral suspension  5 mg/5 ml
+BIOR45709NEMIS	Bisoprolol Fumarate  Oral solution  625 micrograms/5 ml
+BIOR45710NEMIS	Bisoprolol Fumarate  Oral suspension  625 micrograms/5 ml
+BIOR46716NEMIS	Bisoprolol Fumarate  Oral solution  2.5 mg/5 ml
+BIOR82061NEMIS	Bisoprolol Fumarate  Oral suspension  10 mg/5 ml
+BITA10630BRIDL	Bisoprolol Fumarate  Tablets  5 mg
+BITA10632BRIDL	Bisoprolol Fumarate  Tablets  10 mg
+BITA11595NEMIS	Bipranix  Tablets  5 mg
+BITA11596NEMIS	Bipranix  Tablets  10 mg
+BITA2332NEMIS	Bisoprolol Fumarate  Tablets  1.25 mg
+BITA2333NEMIS	Bisoprolol Fumarate  Tablets  2.5 mg
+BITA2334NEMIS	Bisoprolol Fumarate  Tablets  3.75 mg
+BITA2335NEMIS	Bisoprolol Fumarate  Tablets  7.5 mg
+BITA33973MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Sterwin Medicines)
+BITA33974MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (A.A.H. Pharm)
+BITA33975MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Kent Pharm)
+BITA33976MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Ivax Pharmaceuticals)
+BITA33977MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Unichem)
+BITA33978MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Generics (UK))
+BITA33979MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Ranbaxy)
+BITA33980MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Alpharma)
+BITA33981MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Teva UK)
+BITA33982MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Cp Pharm)
+BITA33983MGEMIS	Bisoprolol Fumarate  Tablets  5 mg (Sandoz)
+BITA34901MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Alpharma)
+BITA34902MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Kent Pharm)
+BITA34903MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Ranbaxy)
+BITA34904MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Generics (UK))
+BITA34905MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Unichem)
+BITA34906MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Cp Pharm)
+BITA34907MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (A.A.H. Pharm)
+BITA34908MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Sterwin Medicines)
+BITA34909MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Ivax Pharmaceuticals)
+BITA34910MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Teva UK)
+BITA34911MGEMIS	Bisoprolol Fumarate  Tablets  10 mg (Sandoz)
+BRIN22305EMIS	Brevibloc  Concentrate For Solution For Infusion  250 mg/ml, 10 ml ampoule
+BRSO43071NEMIS	Brevibloc Premixed  Solution for injection  10 mg/ml, 10 ml vial
+BRSO43081NEMIS	Brevibloc Premixed  Solution for infusion  10 mg/ml, 250 ml bag
+CAOR39005NEMIS	Carvedilol  Oral suspension  5 mg/5 ml
+CATA2339NEMIS	Cardicor  Tablets  1.25 mg
+CATA2340NEMIS	Cardicor  Tablets  2.5 mg
+CATA2341NEMIS	Cardicor  Tablets  3.75 mg
+CATA2342NEMIS	Cardicor  Tablets  5 mg
+CATA2343NEMIS	Cardicor  Tablets  7.5 mg
+CATA2345NEMIS	Cardicor  Tablets  10 mg
+CATA25010EMIS	Carvedilol  Tablets  12.5 mg
+CATA25011EMIS	Carvedilol  Tablets  25 mg
+CATA34017EMIS	Carvedilol  Tablets  3.125 mg
+CATA34018EMIS	Carvedilol  Tablets  6.25 mg
+CATA34045MGEMIS	Carvedilol  Tablets  12.5 mg (Alpharma)
+CATA34046MGEMIS	Carvedilol  Tablets  12.5 mg (Teva UK)
+CATA34047MGEMIS	Carvedilol  Tablets  12.5 mg (Winthrop Pharmaceuticals )
+CATA34048MGEMIS	Carvedilol  Tablets  12.5 mg (Sandoz)
+CATA34049MGEMIS	Carvedilol  Tablets  12.5 mg (Unichem)
+CATA34050MGEMIS	Carvedilol  Tablets  12.5 mg (Ivax Pharmaceuticals)
+CATA34051MGEMIS	Carvedilol  Tablets  12.5 mg (Kent Pharm)
+CATA34052MGEMIS	Carvedilol  Tablets  12.5 mg (A.A.H. Pharm)
+CATA34053MGEMIS	Carvedilol  Tablets  12.5 mg (Generics (UK))
+CATA34054MGEMIS	Carvedilol  Tablets  12.5 mg (Genus Pharm)
+CATA34055MGEMIS	Carvedilol  Tablets  25 mg (Alpharma)
+CATA34056MGEMIS	Carvedilol  Tablets  25 mg (Teva UK)
+CATA34057MGEMIS	Carvedilol  Tablets  25 mg (Winthrop Pharmaceuticals )
+CATA34058MGEMIS	Carvedilol  Tablets  25 mg (Sandoz)
+CATA34059MGEMIS	Carvedilol  Tablets  25 mg (Unichem)
+CATA34060MGEMIS	Carvedilol  Tablets  25 mg (Ivax Pharmaceuticals)
+CATA34061MGEMIS	Carvedilol  Tablets  25 mg (Kent Pharm)
+CATA34062MGEMIS	Carvedilol  Tablets  25 mg (A.A.H. Pharm)
+CATA34063MGEMIS	Carvedilol  Tablets  25 mg (Generics (UK))
+CATA34064MGEMIS	Carvedilol  Tablets  25 mg (Genus Pharm)
+CATA37508MGEMIS	Carvedilol  Tablets  3.125 mg (Teva UK)
+CATA37509MGEMIS	Carvedilol  Tablets  3.125 mg (Winthrop Pharmaceuticals )
+CATA37510MGEMIS	Carvedilol  Tablets  3.125 mg (Sandoz)
+CATA37511MGEMIS	Carvedilol  Tablets  3.125 mg (Unichem)
+CATA37512MGEMIS	Carvedilol  Tablets  3.125 mg (Alpharma)
+CATA37513MGEMIS	Carvedilol  Tablets  3.125 mg (Ivax Pharmaceuticals)
+CATA37514MGEMIS	Carvedilol  Tablets  3.125 mg (Kent Pharm)
+CATA37515MGEMIS	Carvedilol  Tablets  3.125 mg (A.A.H. Pharm)
+CATA37516MGEMIS	Carvedilol  Tablets  3.125 mg (Genus Pharm)
+CATA37517MGEMIS	Carvedilol  Tablets  6.25 mg (Alpharma)
+CATA37518MGEMIS	Carvedilol  Tablets  6.25 mg (Teva UK)
+CATA37519MGEMIS	Carvedilol  Tablets  6.25 mg (Winthrop Pharmaceuticals )
+CATA37520MGEMIS	Carvedilol  Tablets  6.25 mg (Sandoz)
+CATA37521MGEMIS	Carvedilol  Tablets  6.25 mg (Unichem)
+CATA37522MGEMIS	Carvedilol  Tablets  6.25 mg (Ivax Pharmaceuticals)
+CATA37523MGEMIS	Carvedilol  Tablets  6.25 mg (Kent Pharm)
+CATA37524MGEMIS	Carvedilol  Tablets  6.25 mg (A.A.H. Pharm)
+CATA37525MGEMIS	Carvedilol  Tablets  6.25 mg (Generics (UK))
+CATA37526MGEMIS	Carvedilol  Tablets  6.25 mg (Genus Pharm)
+CETA23875EMIS	Celectol  Tablets  400 mg
+CETA23877EMIS	Celiprolol Hydrochloride  Tablets  400 mg
+CETA34186MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Sterwin Medicines)
+CETA34187MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Teva UK)
+CETA34188MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (A.A.H. Pharm)
+CETA34189MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Kent Pharm)
+CETA34190MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Generics (UK))
+CETA34191MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Ivax Pharmaceuticals)
+CETA34192MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Unichem)
+CETA34193MGEMIS	Celiprolol Hydrochloride  Tablets  400 mg (Ranbaxy)
+CETA34205MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Ivax Pharmaceuticals)
+CETA34206MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Sterwin Medicines)
+CETA34207MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Generics (UK))
+CETA34208MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Kent Pharm)
+CETA34209MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Unichem)
+CETA34210MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (A.A.H. Pharm)
+CETA34211MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Teva UK)
+CETA34212MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Alpharma)
+CETA34213MGEMIS	Celiprolol Hydrochloride  Tablets  200 mg (Ranbaxy)
+CETA9534EMIS	Celiprolol Hydrochloride  Tablets  200 mg
+CETA9536EMIS	Celectol  Tablets  200 mg
+COTA23372NEMIS	Congescor  Tablets  1.25 mg
+COTA23373NEMIS	Congescor  Tablets  2.5 mg
+COTA34622MGEMIS	Co-Tenidone 50/12.5  Tablets  (Kent Pharm)
+COTA34623MGEMIS	Co-Tenidone 50/12.5  Tablets  (Teva UK)
+COTA34624MGEMIS	Co-Tenidone 50/12.5  Tablets  (Sandoz)
+COTA34625MGEMIS	Co-Tenidone 50/12.5  Tablets  (Ivax Pharmaceuticals)
+COTA34626MGEMIS	Co-Tenidone 50/12.5  Tablets  (Generics (UK))
+COTA34627MGEMIS	Co-Tenidone 50/12.5  Tablets  (Wockhardt UK)
+COTA34628MGEMIS	Co-Tenidone 50/12.5  Tablets  (Alpharma)
+COTA34629MGEMIS	Co-Tenidone 50/12.5  Tablets  (A.A.H. Pharm)
+COTA34630MGEMIS	Co-Tenidone 50/12.5  Tablets  (Unichem)
+COTA34631MGEMIS	Co-Tenidone 100/25  Tablets  (Ivax Pharmaceuticals)
+COTA34632MGEMIS	Co-Tenidone 100/25  Tablets  (Sandoz)
+COTA34633MGEMIS	Co-Tenidone 100/25  Tablets  (Teva UK)
+COTA34634MGEMIS	Co-Tenidone 100/25  Tablets  (Alpharma)
+COTA34635MGEMIS	Co-Tenidone 100/25  Tablets  (Wockhardt UK)
+COTA34636MGEMIS	Co-Tenidone 100/25  Tablets  (Generics (UK))
+COTA34637MGEMIS	Co-Tenidone 100/25  Tablets  (Kent Pharm)
+COTA34638MGEMIS	Co-Tenidone 100/25  Tablets  (A.A.H. Pharm)
+COTA34639MGEMIS	Co-Tenidone 100/25  Tablets  (Unichem)
+COTA682	Co-Betaloc  Tablets  
+COTA683	Co-Betaloc Sa  Tablets  
+COTA735	Corgard  Tablets  40 mg
+COTA736	Corgard  Tablets  80 mg
+COTA737	Corgaretic 40  Tablets  
+COTA738	Corgaretic 80  Tablets  
+COTA8933BRECO	Co-Tenidone 50/12.5  Tablets  
+COTA8936BRECO	Co-Tenidone 100/25  Tablets  
+COTA9355HILLI	Co-Prenozide 160/0.25  Tablets  
+EMTA10350BRIDL	Emcor Ls  Tablets  5 mg
+EMTA10711BRIDL	Emcor  Tablets  10 mg
+EMTA8949BRIDL	Bisoprolol Fumarate  Tablets  10 mg
+ESIN22301EMIS	Esmolol Hydrochloride  Concentrate For Solution For Infusion  250 mg/ml, 10 ml ampoule
+ESIN26239NEMIS	Esmolol Hydrochloride  Solution for injection  10 mg/ml, 10 ml vial
+ESPO122383NEMIS	Esmolol Hydrochloride  Powder for solution for infusion  2.5 gram vial
+ESSO43074NEMIS	Esmolol Hydrochloride  Solution for infusion  10 mg/ml, 250 ml bag
+EUTA25004EMIS	Eucardic  Tablets  12.5 mg
+EUTA25005EMIS	Eucardic  Tablets  25 mg
+EUTA34013EMIS	Eucardic  Tablets  3.125 mg
+EUTA34014EMIS	Eucardic  Tablets  6.25 mg
+HACA1337	Half Inderal La  M/R capsules  80 mg
+HAM/23486EMIS	Half Beta-Prograne  M/R capsules  80 mg
+HYTA36231NEMIS	Hypoloc  Tablets  5 mg
+INCA1454	Inderal La  M/R capsules  160 mg
+INCA1456	Inderetic  Capsules  
+INCA1457	Inderex  Capsules  
+ININ1450	Inderal  Solution for injection  1 mg/ml, 1 ml ampoule
+INTA1451	Inderal  Tablets  10 mg
+INTA1452	Inderal  Tablets  40 mg
+INTA1453	Inderal  Tablets  80 mg
+KACA1539	Kalten  Capsules  
+KETA1563	Kerlone  Tablets  20 mg
+LAIN5068	Labetalol Hydrochloride  Injection  5 mg/ml, 20 ml ampoule
+LAOR52327NEMIS	Labetalol Hydrochloride  Oral solution  50 mg/5 ml
+LASO133316NEMIS	Labetalol Hydrochloride  Solution for injection  50 mg/10 ml ampoule
+LATA1582	Labetalol Hydrochloride  Tablets  100 mg
+LATA35678MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (Generics (UK))
+LATA35679MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (A.A.H. Pharm)
+LATA35680MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (Kent Pharm)
+LATA35681MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (Unichem)
+LATA35682MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (Alpharma)
+LATA35683MGEMIS	Labetalol Hydrochloride  Tablets  100 mg (Sandoz)
+LATA35724MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (A.A.H. Pharm)
+LATA35725MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (Generics (UK))
+LATA35726MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (Alpharma)
+LATA35727MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (Sandoz)
+LATA35728MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (Unichem)
+LATA35729MGEMIS	Labetalol Hydrochloride  Tablets  200 mg (Kent Pharm)
+LATA35730MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (Generics (UK))
+LATA35731MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (Alpharma)
+LATA35732MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (A.A.H. Pharm)
+LATA35733MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (Unichem)
+LATA35734MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (Kent Pharm)
+LATA35735MGEMIS	Labetalol Hydrochloride  Tablets  400 mg (Sandoz)
+LATA6956	Labetalol Hydrochloride  Tablets  200 mg
+LATA6957	Labetalol Hydrochloride  Tablets  400 mg
+LATA7101	Labetalol Hydrochloride  Tablets  50 mg
+LOTA1695	Lopresor  Tablets  100 mg
+LOTA1696	Lopresor  Tablets  50 mg
+LOTA1697	Lopresor Sr  M/R tablets  200 mg
+MEIN8830BRIDL	Metoprolol Tartrate  Solution for injection  1 mg/ml, 5 ml ampoule
+MEOR11311NEMIS	Metoprolol Tartrate  Oral solution  12.5 mg/5 ml
+MEOR33460NEMIS	Metoprolol Tartrate  Oral suspension  12.5 mg/5 ml
+MEOR42223NEMIS	Metoprolol Tartrate  Oral solution  25 mg/5 ml
+MEOR46502NEMIS	Metoprolol Tartrate  Oral solution  50 mg/5 ml
+MEOR46503NEMIS	Metoprolol Tartrate  Oral suspension  50 mg/5 ml
+MESR10445BRIDL	Metoprolol Tartrate  M/R tablets  200 mg
+META140380NEMIS	Metoprolol Tartrate  Tablets  25 mg
+META1806	Metoprolol Tartrate  Tablets  100 mg
+META1807	Metoprolol Tartrate  Tablets  50 mg
+META18543NEMIS	Metoprolol And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
+META35985MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Teva UK)
+META35986MGEMIS	Metoprolol Tartrate  Tablets  100 mg (A.A.H. Pharm)
+META35987MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Ivax Pharmaceuticals)
+META35988MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Generics (UK))
+META35989MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Sandoz)
+META35990MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Unichem)
+META35991MGEMIS	Metoprolol Tartrate  Tablets  100 mg (The Boots Company)
+META35992MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Alpharma)
+META35993MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Kent Pharm)
+META35994MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Teva UK)
+META35995MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Kent Pharm)
+META35996MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Unichem)
+META35997MGEMIS	Metoprolol Tartrate  Tablets  50 mg (A.A.H. Pharm)
+META35998MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Ivax Pharmaceuticals)
+META35999MGEMIS	Metoprolol Tartrate  Tablets  50 mg (The Boots Company)
+META36000MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Alpharma)
+META36001MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Sandoz)
+META36002MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Generics (UK))
+MOTA23853EMIS	Monozide 10  Tablets  
+MOTA8433BRID	Monocor  Tablets  5 mg
+MOTA8435BRID	Monocor  Tablets  10 mg
+NAOR105422NEMIS	Nadolol  Oral suspension  20 mg/5 ml
+NAOR105424NEMIS	Nadolol  Oral suspension  30 mg/5 ml
+NAOR40050NEMIS	Nadolol  Oral suspension  40 mg/5 ml
+NAOR44741NEMIS	Nadolol  Oral solution  20 mg/5 ml
+NAOR74088NEMIS	Nadolol  Oral solution  30 mg/5 ml
+NATA5183	Nadolol  Tablets  40 mg
+NATA6854	Nadolol  Tablets  80 mg
+NETA137379NEMIS	Nebivolol  Tablets  1.25 mg
+NETA42086NEMIS	Nebivolol  Tablets  2.5 mg
+NETA50001EMIS	Nebilet  Tablets  5 mg
+NETA50003EMIS	Nebivolol  Tablets  5 mg
+NETA86933NEMIS	Nebivolol  Tablets  10 mg
+OXTA2140	Oxprenolol Hydrochloride  Sr tablets  160 mg
+OXTA2141	Oxprenolol Hydrochloride  Tablets  20 mg
+OXTA2142	Oxprenolol Hydrochloride  Tablets  40 mg
+OXTA2143	Oxprenolol Hydrochloride  Tablets  80 mg
+PITA18574NEMIS	Pindolol And Clopamide  Tablets  10 mg + 5 mg
+PITA2265	Pindolol  Tablets  15 mg
+PITA2266	Pindolol  Tablets  5 mg
+PITA36594MGEMIS	Pindolol  Tablets  5 mg (Unichem)
+PITA36595MGEMIS	Pindolol  Tablets  5 mg (Generics (UK))
+PITA36596MGEMIS	Pindolol  Tablets  5 mg (A.A.H. Pharm)
+PRCA2392	Propranolol Hydrochloride  Capsules  160 mg
+PRIN5343	Propranolol Hydrochloride  Solution for injection  1 mg/ml, 1 ml ampoule
+PRM/20660EMIS	Propranolol Hydrochloride  M/R capsules  160 mg
+PRM/36630MGEMIS	Propranolol Hydrochloride  M/R capsules  160 mg (Unichem)
+PRM/36631MGEMIS	Propranolol Hydrochloride  M/R capsules  160 mg (Kent Pharm)
+PRM/36632MGEMIS	Propranolol Hydrochloride  M/R capsules  160 mg (A.A.H. Pharm)
+PRM/36633MGEMIS	Propranolol Hydrochloride  M/R capsules  160 mg (Teva UK)
+PRM/36641MGEMIS	Propranolol Hydrochloride  M/R capsules  80 mg (A.A.H. Pharm)
+PRM/36642MGEMIS	Propranolol Hydrochloride  M/R capsules  80 mg (Unichem)
+PRM/36643MGEMIS	Propranolol Hydrochloride  M/R capsules  80 mg (Kent Pharm)
+PRM/36644MGEMIS	Propranolol Hydrochloride  M/R capsules  80 mg (Teva UK)
+PROR26132EMIS	Propranolol Hydrochloride  Oral solution  Sugar Free 10 mg/5 ml
+PROR26133EMIS	Propranolol Hydrochloride  Oral solution  Sugar Free 5 mg/5 ml
+PROR26134EMIS	Propranolol Hydrochloride  Oral solution  Sugar Free 50 mg/5 ml
+PROR34985EMIS	Propranolol Hydrochloride  Oral solution  40 mg/5 ml
+PROR35170NEMIS	Propranolol Hydrochloride  Oral solution  Sugar Free 40 mg/5 ml
+PROR35189NEMIS	Propranolol Hydrochloride  Oral solution  80 mg/5 ml
+PROR46794NEMIS	Propranolol Hydrochloride  Oral suspension  40 mg/5 ml
+PRTA10180BRIDL	Propranolol Hydrochloride  M/R capsules  80 mg
+PRTA2342	Prestim  Tablets  
+PRTA2393	Propranolol Hydrochloride  Tablets  10 mg
+PRTA2394	Propranolol Hydrochloride  Tablets  160 mg
+PRTA2395	Propranolol Hydrochloride  Tablets  40 mg
+PRTA2396	Propranolol Hydrochloride  Tablets  80 mg
+PRTA36718MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Alpharma)
+PRTA36719MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Kent Pharm)
+PRTA36720MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Teva UK)
+PRTA36721MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+PRTA36722MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Generics (UK))
+PRTA36723MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+PRTA36724MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Unichem)
+PRTA36725MGEMIS	Propranolol Hydrochloride  Tablets  10 mg (Ranbaxy)
+PRTA36726MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Teva UK)
+PRTA36727MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Unichem)
+PRTA36728MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Generics (UK))
+PRTA36729MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Alpharma)
+PRTA36730MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Kent Pharm)
+PRTA36731MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (A.A.H. Pharm)
+PRTA36732MGEMIS	Propranolol Hydrochloride  Tablets  160 mg (Ranbaxy)
+PRTA36733MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Generics (UK))
+PRTA36734MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Alpharma)
+PRTA36735MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (A.A.H. Pharm)
+PRTA36736MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Unichem)
+PRTA36737MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Ivax Pharmaceuticals)
+PRTA36738MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Kent Pharm)
+PRTA36739MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Teva UK)
+PRTA36740MGEMIS	Propranolol Hydrochloride  Tablets  40 mg (Ranbaxy)
+PRTA36741MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Teva UK)
+PRTA36742MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Unichem)
+PRTA36743MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Generics (UK))
+PRTA36744MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Kent Pharm)
+PRTA36745MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (A.A.H. Pharm)
+PRTA36746MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Alpharma)
+PRTA36747MGEMIS	Propranolol Hydrochloride  Tablets  80 mg (Ranbaxy)
+RAM/14336NEMIS	Rapranol Sr  M/R capsules  160 mg
+RAM/14337NEMIS	Rapranol Sr  M/R capsules  80 mg
+SECA2511	Sectral  Capsules  100 mg
+SECA2512	Sectral  Capsules  200 mg
+SETA2508	Secadrex  Tablets  
+SETA8589EGTON	Sectral  Tablets  400 mg
+SLM/15558NEMIS	Slo-Pro  M/R capsules  160 mg
+SLTA2586	Slow Trasicor  Tablets  160 mg
+SOIN15281NEMIS	Sotalol Hydrochloride  Injection  10 mg/ml, 4 ml ampoule
+SOIN9918HILLI	Sotacor  Injection  10 mg/ml, 4 ml ampoule
+SOOR22993NEMIS	Sotalol Hydrochloride  Oral solution  25 mg/5 ml
+SOOR95956NEMIS	Sotalol Hydrochloride  Oral suspension  25 mg/5 ml
+SOTA13855NEMIS	Soloc  Tablets  5 mg
+SOTA13856NEMIS	Soloc  Tablets  10 mg
+SOTA2649	Sotacor  Tablets  160 mg
+SOTA2650	Sotacor  Tablets  80 mg
+SOTA37047MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (A.A.H. Pharm)
+SOTA37048MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Kent Pharm)
+SOTA37049MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Unichem)
+SOTA37050MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Generics (UK))
+SOTA37051MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Sandoz)
+SOTA37052MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Teva UK)
+SOTA37053MGEMIS	Sotalol Hydrochloride  Tablets  160 mg (Ivax Pharmaceuticals)
+SOTA37054MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (Kent Pharm)
+SOTA37055MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (Unichem)
+SOTA37056MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (A.A.H. Pharm)
+SOTA37057MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (Teva UK)
+SOTA37058MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (Ivax Pharmaceuticals)
+SOTA37059MGEMIS	Sotalol Hydrochloride  Tablets  40 mg (Generics (UK))
+SOTA37060MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Sandoz)
+SOTA37061MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Unichem)
+SOTA37062MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Kent Pharm)
+SOTA37063MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Generics (UK))
+SOTA37064MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (A.A.H. Pharm)
+SOTA37065MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Teva UK)
+SOTA37066MGEMIS	Sotalol Hydrochloride  Tablets  80 mg (Ivax Pharmaceuticals)
+SOTA5392	Sotalol Hydrochloride  Tablets  160 mg
+SOTA5393	Sotalol Hydrochloride  Tablets  200 mg
+SOTA6816	Sotalol Hydrochloride  Tablets  40 mg
+SOTA6817	Sotalol Hydrochloride  Tablets  80 mg
+SYOR35171NEMIS	Syprol  Oral solution  40 mg/5 ml
+SYOR6350NEMIS	Syprol  Oral solution  5 mg/5 ml
+SYOR6351NEMIS	Syprol  Oral solution  10 mg/5 ml
+SYOR6352NEMIS	Syprol  Oral solution  50 mg/5 ml
+TECA30610EMIS	Tenben  Capsules  
+TECA8555EGTON	Tenif  Capsules  50 mg + 20 mg
+TEIN8847EGTON	Tenormin  Solution for injection  500 micrograms/ml, 10 ml ampoule
+TESY8848EGTON	Tenormin  Syrup  25 mg/5 ml
+TETA24249EMIS	Tenchlor 50/12.5  Tablets  
+TETA24252EMIS	Tenchlor 100/25  Tablets  
+TETA2798	Tenoret 50/12.5  Tablets  
+TETA2799	Tenoretic  Tablets  100 mg + 25 mg
+TETA2800	Tenormin  Tablets  100 mg
+TETA2801	Tenormin Ls  Tablets  50 mg
+TETA9419BRIDL	Tenormin  Tablets  25 mg
+TITA21148NEMIS	Timolol And Bendroflumethiazide  Tablet  10 mg + 2.5 mg
+TITA40027NEMIS	Timolol/Amiloride/Hydrochlorothiazide (Essential Generics)  Tablets  10 mg + 2.5 mg + 25 mg
+TITA5452	Timolol Maleate  Tablets  10 mg
+TRIN8828BRIDL	Trandate  Injection  5 mg/ml, 20 ml ampoule
+TRTA2884	Trandate  Tablets  100 mg
+TRTA2885	Trandate  Tablets  200 mg
+TRTA2886	Trandate  Tablets  400 mg
+TRTA2887	Trandate  Tablets  50 mg
+TRTA2896	Trasicor  Tablets  20 mg
+TRTA2897	Trasicor  Tablets  40 mg
+TRTA2898	Trasicor  Tablets  80 mg
+TRTA2899	Trasidrex  Tablets  
+VITA14685NEMIS	Vivacor  Tablets  5 mg
+VITA14686NEMIS	Vivacor  Tablets  10 mg
+VITA3051	Viskaldix  Tablets  
+VITA3052	Visken  Tablets  5 mg
+VITA8836BRIDL	Visken  Tablets  15 mg

@@ -15,6 +15,12 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
+SET @StartDate = '2011-01-01';
+SET @EndDate = '2023-09-30';
+
+
 
 --> EXECUTE query-build-rq062-cohort.sql
 
@@ -91,7 +97,7 @@ FROM SharedCare.GP_Events
 WHERE 
       FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
       AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-      AND EventDate BETWEEN '2011-01-01' AND @EndDate;
+      AND EventDate BETWEEN @StartDate AND @EndDate;
 
 
 -- Merge with GP encounter types=================================================================================================================================
@@ -101,8 +107,23 @@ INTO #GPEncountersFinal
 FROM #GPEncounters g
 LEFT OUTER JOIN #CodingClassifier c ON g.FK_Reference_Coding_ID = c.PK_Reference_Coding_ID
 
+--SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
+--FROM #GPEncountersFinal
+--ORDER BY FK_Patient_Link_ID, EncounterDate;
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Face2face
+INTO #f2f
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Face2face'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Telephone
+INTO #telephone
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Telephone'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
 
 -- The final table===============================================================================================================================================
-SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
-FROM #GPEncountersFinal
-ORDER BY FK_Patient_Link_ID, EncounterDate;
+
+SELECT f.FK_Patient_Link_ID, f.[Year], GPEncounters_Face2face, GPEncounters_Telephone from #f2f f
+LEFT JOIN #telephone t on t.FK_Patient_Link_ID = f.FK_Patient_Link_ID and t.[Year] = f.[Year]

@@ -50,8 +50,8 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- Create the final table==========================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
-SELECT * INTO # Table FROM #BackProblems
+IF OBJECT_ID('tempdb..#Final') IS NOT NULL DROP TABLE #Final;
+SELECT * INTO #Final FROM #BackProblems
 UNION
 SELECT * FROM #BreastCancer
 UNION
@@ -87,5 +87,5 @@ SELECT * FROM #Shingles
 UNION
 SELECT * FROM #Stroke
 
-SELECT * FROM #Table
+SELECT * FROM #Final
 ORDER BY PatientID, EventDate;

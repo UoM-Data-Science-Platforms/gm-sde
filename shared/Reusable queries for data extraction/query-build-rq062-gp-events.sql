@@ -45,4 +45,4 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 
 UPDATE #{param:conditionname}
 SET EventCodeSystem = 'EMIS'
-WHERE UPPER(EventCode) LIKE 'EMIS' OR UPPER(EventCode) LIKE 'ESCT'
+WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'

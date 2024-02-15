@@ -125,8 +125,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Patient GP encounters</li>
 <li>Lower level super output area</li>
 <li>Index Multiple Deprivation</li>
-<li>Patient GP history</li>
 <li>Sex</li>
+<li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Create listing tables for each GP events - RQ062</li>
 <li>Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013</li>
@@ -195,27 +195,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-patient-imd.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql">https://github.com/rw251/.../query-patient-imd.sql</a></p>
 <hr>
-<h3>Patient GP history</h3>
-<p>To produce a table showing the start and end dates for each practice the patient has been registered at.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea</li>
-<li>Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>No pre-requisites
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
-	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - national GP practice id system
-	- StartDate - date the patient registered at the practice
-	- EndDate - date the patient left the practice
-</code></pre>
-<p><em>File</em>: <code>query-patient-gp-history.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql">https://github.com/rw251/.../query-patient-gp-history.sql</a></p>
-<hr>
 <h3>Sex</h3>
 <p>To get the Sex for each patient.</p>
 <p><em>Assumptions</em></p>
@@ -239,6 +218,31 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-sex.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
+<hr>
+<h3>Secondary admissions and length of stay</h3>
+<p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+</code></pre>
+<p><em>File</em>: <code>query-get-admissions-and-length-of-stay.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql">https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql</a></p>
 <hr>
 <h3>Secondary discharges</h3>
 <p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
@@ -367,6 +371,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>breast-cancer-screening v1</li>
 <li>colorectal-cancer-screening v1</li>
 <li>respiratory-tract-infection v1</li>
+<li>calcium-channel-blockers v1</li>
+<li>beta-blockers v1</li>
+<li>statins v1</li>
+<li>ace-inhibitor v1</li>
+<li>diuretic v1</li>
+<li>angiotensin-receptor-blockers v1</li>
+<li>acetylcholinesterase-inhibitors v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Shingles codes</h3>
@@ -530,10 +541,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/1">https://github.com/rw251/.../conditions/coronary-heart-disease/1</a></p>
 <h3>Stroke</h3>
-<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes.</p>
+<p>Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic strokes. Does not include codes for types of vascular dementia such as multi infarct dementia, which are usually caused by a series of mini strokes. Excludes &quot;history of&quot; codes.</p>
+<p>Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.91% - 1.45%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2023-11-16</strong>: Prevalence now 1.2% - 1.5% when examining codes</em></p>
 <table>
 <thead>
 <tr>
@@ -587,8 +600,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">3098 (0.933%)</td>
 <td style="text-align:right">1699 (0.512%)</td>
 </tr>
+<tr>
+<td>2023-11-16</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">33303 (1.34%)</td>
+<td style="text-align:right">30532 (1.23%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">3195 (1.59%)</td>
+<td style="text-align:right">2963 (1.47%)</td>
+</tr>
+<tr>
+<td>2023-11-16</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">4302 (1.29%)</td>
+<td style="text-align:right">3924 (1.18%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-11-16</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
 <h3>Dementia</h3>
 <p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
@@ -1301,5 +1339,331 @@ and from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/respiratory-tract-infection/1">https://github.com/rw251/.../conditions/respiratory-tract-infection/1</a></p>
+<h3>Calcium Channel Blockers</h3>
+<p>Code set for calcium channel blockers. This code set was created from BNF codes (mapped to SNOMED) starting with 020602.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.7% - 13.3%</code> suggests that this code set is well defined. Potential over-reporting from TPP.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-13</td>
+<td>EMIS</td>
+<td>2482563</td>
+<td style="text-align:right">268522 (10.8%)</td>
+<td style="text-align:right">268563 (10.8%)</td>
+</tr>
+<tr>
+<td>2023-11-13</td>
+<td>TPP</td>
+<td>201030</td>
+<td style="text-align:right">26770 (13.3%)</td>
+<td style="text-align:right">26773 (13.3%)</td>
+</tr>
+<tr>
+<td>2023-11-13</td>
+<td>Vision</td>
+<td>333490</td>
+<td style="text-align:right">35632 (10.7%)</td>
+<td style="text-align:right">35635 (10.7%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/calcium-channel-blockers/1">https://github.com/rw251/.../medications/calcium-channel-blockers/1</a></p>
+<h3>Beta blockers</h3>
+<p>This code set has been generated from the following code sets at https://nhs-drug-refset.pages.dev/ :</p>
+<ul>
+<li>Beta-adrenoceptor blockers for use in heart failure prescribable within general practice</li>
+<li>Beta-adrenoceptor blockers excluding those used in heart failure prescribable within general practice</li>
+<li>Beta-adrenoceptor blockers for use in coronary heart disease prescribable within general practice</li>
+</ul>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>17% - 19.6%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-02-13</td>
+<td>EMIS</td>
+<td>2523129</td>
+<td style="text-align:right">376130 (14.9%)</td>
+<td style="text-align:right">429152 (17%)</td>
+</tr>
+<tr>
+<td>2024-02-13</td>
+<td>TPP</td>
+<td>201711</td>
+<td style="text-align:right">39444 (19.6%)</td>
+<td style="text-align:right">39574 (19.6%)</td>
+</tr>
+<tr>
+<td>2024-02-13</td>
+<td>Vision</td>
+<td>334945</td>
+<td style="text-align:right">49567 (14.8%)</td>
+<td style="text-align:right">55993 (16.7%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/beta-blockers/1">https://github.com/rw251/.../medications/beta-blockers/1</a></p>
+<h3>Statins</h3>
+<p>This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>9.89% - 10.86%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-04-04</td>
+<td>EMIS</td>
+<td>2659647</td>
+<td style="text-align:right">269007 (10.11%)</td>
+<td style="text-align:right">269007 (10.11%)</td>
+</tr>
+<tr>
+<td>2022-04-04</td>
+<td>TPP</td>
+<td>212621</td>
+<td style="text-align:right">23123 (10.86%)</td>
+<td style="text-align:right">23123 (10.86%)</td>
+</tr>
+<tr>
+<td>2022-04-04</td>
+<td>Vision</td>
+<td>341774</td>
+<td style="text-align:right">33781 (9.89%)</td>
+<td style="text-align:right">33781 (9.89%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/statins/1">https://github.com/rw251/.../medications/statins/1</a></p>
+<h3>ACE Inhibitors</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<p><strong><em>NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2.</em></strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>12.36% - 13.02%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">321934 (12.36%)</td>
+<td style="text-align:right">321952 (12.36%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">27450 (13.02%)</td>
+<td style="text-align:right">27450 (13.02%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">41775 (12.48%)</td>
+<td style="text-align:right">41775 (12.48%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/1">https://github.com/rw251/.../medications/ace-inhibitor/1</a></p>
+<h3>Diuretic</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.67% - 5.32%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-02-02</td>
+<td>EMIS</td>
+<td>2652511</td>
+<td style="text-align:right">125074 (4.72%)</td>
+<td style="text-align:right">125097 (4.72%)</td>
+</tr>
+<tr>
+<td>2022-02-02</td>
+<td>TPP</td>
+<td>212213</td>
+<td style="text-align:right">11281 (5.32%)</td>
+<td style="text-align:right">11281 (5.32%)</td>
+</tr>
+<tr>
+<td>2022-02-02</td>
+<td>Vision</td>
+<td>340640</td>
+<td style="text-align:right">15916 (4.67%)</td>
+<td style="text-align:right">15916 (4.67%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/diuretic/1">https://github.com/rw251/.../medications/diuretic/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Angiotensin receptor blockers (ARBs)</h3>
+<p>Any code for a prescription of an angiotensin receptor blocker (ARB).</p>
+<p><strong><em>NB This does not include ACEIs. Please use v1 of the ACEI code set for a combined ACEI/ARB code set</em></strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.43% - 4.80%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2023-10-27</strong>: Prevalence remains at 4.4% and 4.5% in Vision and EMIS practices respectively. Prevalence in TPP practices slightly higher at 5.5%, possibly reflecting a population with higher prevalence</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">117732 (4.49%)</td>
+<td style="text-align:right">117727 (4.49%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">10150 (4.80%)</td>
+<td style="text-align:right">10150 (4.80%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">14934 (4.43%)</td>
+<td style="text-align:right">14934 (4.43%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">111566 (4.51%)</td>
+<td style="text-align:right">111587 (4.51%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">11113 (5.54%)</td>
+<td style="text-align:right">11116 (5.54%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">14726 (4.43%)</td>
+<td style="text-align:right">14727 (4.43%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2023-10-27</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1">https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1</a></p>
+<h3>Acetylcholinesterase inhibitors - medications for Alzheimers/Dementia</h3>
+<p>Codes developed from BNF codes starting with 0411</p>
+<p>Getset was also used to identify codes, using search terms:</p>
+<ul>
+<li>galantamine</li>
+<li>rivastigmine</li>
+<li>donepezil</li>
+<li>memantine</li>
+</ul>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.</p>
+<p>Here is a log for this code set. The prevalence range <code>%0.42 - 0.59%</code> suggests this code set is well defined. Large difference between those identified by code and those by ID - so use code in scripts.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-24</td>
+<td>EMIS</td>
+<td>2513488</td>
+<td style="text-align:right">5971 (0.238%)</td>
+<td style="text-align:right">10668 (0.424%)</td>
+</tr>
+<tr>
+<td>2023-11-24</td>
+<td>TPP</td>
+<td>201173</td>
+<td style="text-align:right">1155 (0.574%)</td>
+<td style="text-align:right">1186 (0.59%)</td>
+</tr>
+<tr>
+<td>2023-11-24</td>
+<td>Vision</td>
+<td>333676</td>
+<td style="text-align:right">687 (0.206%)</td>
+<td style="text-align:right">1587 (0.476%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/acetylcholinesterase-inhibitors/1">https://github.com/rw251/.../medications/acetylcholinesterase-inhibitors/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/062%20-%20Sperrin/clinical-code-sets.csv">https://github.com/rw251/.../062 - Sperrin/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

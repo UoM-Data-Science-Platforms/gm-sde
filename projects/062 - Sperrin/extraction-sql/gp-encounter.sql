@@ -15,6 +15,12 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
+SET @StartDate = '2011-01-01';
+SET @EndDate = '2023-09-30';
+
+
 
 --┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013 │
@@ -237,12 +243,12 @@ DROP TABLE #UnmatchedYobPatients;
 
 
 -- Merge information========================================================================================================================================================
-IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
   gp.GPPracticeCode, 
   yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
-INTO #Table
+INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
@@ -252,11 +258,10 @@ LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT PatientId
-FROM #Table
+FROM #Cohort
 WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 
--- Create a table with all GP encounters ========================================================================================================
-
+-- Create a table with all GP encounters ====================================================================================================================
 IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
 SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #CodingClassifier
@@ -319,12 +324,43 @@ WHERE (
 IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
 CREATE TABLE #GPEncounters (
 	FK_Patient_Link_ID BIGINT,
-	EncounterDate DATE
+	EncounterDate DATE,
+	FK_Reference_Coding_ID INT
 );
 
 INSERT INTO #GPEncounters 
-SELECT DISTINCT FK_Patient_Link_ID AS PatientID, CAST(EventDate AS DATE) AS EncounterDate
-FROM [SharedCare].[GP_Events]
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate, FK_Reference_Coding_ID
+FROM SharedCare.GP_Events
 WHERE 
       FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1);
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN @StartDate AND @EndDate;
+
+
+-- Merge with GP encounter types=================================================================================================================================
+IF OBJECT_ID('tempdb..#GPEncountersFinal') IS NOT NULL DROP TABLE #GPEncountersFinal;
+SELECT FK_Patient_Link_ID, EncounterDate, c.EncounterType
+INTO #GPEncountersFinal
+FROM #GPEncounters g
+LEFT OUTER JOIN #CodingClassifier c ON g.FK_Reference_Coding_ID = c.PK_Reference_Coding_ID
+
+--SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EncounterDate, EncounterType
+--FROM #GPEncountersFinal
+--ORDER BY FK_Patient_Link_ID, EncounterDate;
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Face2face
+INTO #f2f
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Face2face'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
+
+SELECT FK_Patient_Link_ID, YEAR(EncounterDate) as [Year], COUNT(*) AS GPEncounters_Telephone
+INTO #telephone
+FROM #GPEncountersFinal
+WHERE EncounterType = 'Telephone'
+GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
+
+-- The final table===============================================================================================================================================
+
+SELECT f.FK_Patient_Link_ID, f.[Year], GPEncounters_Face2face, GPEncounters_Telephone from #f2f f
+LEFT JOIN #telephone t on t.FK_Patient_Link_ID = f.FK_Patient_Link_ID and t.[Year] = f.[Year]
