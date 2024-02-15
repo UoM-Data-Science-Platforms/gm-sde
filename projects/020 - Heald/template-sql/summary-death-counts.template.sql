@@ -31,10 +31,10 @@ SET @StartDate = '2019-01-01';
 -- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
 -- If we only looked at patients who first registered before July 2022, then
 -- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+/*IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID;*/
 
 -- Get all patients with T1DM and the first diagnosis date
 --> CODESET diabetes-type-i:1
@@ -42,19 +42,19 @@ IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticT
 CREATE TABLE #DiabeticTypeIPatients(FK_Patient_Link_ID BIGINT, FirstT1DiagnosisDate DATE, DeathDate DATE);
 INSERT INTO #DiabeticTypeIPatients
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate, NULL
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+--AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 GROUP BY FK_Patient_Link_ID;
 
 -- Add death date where applicable
 UPDATE d
 SET d.DeathDate = p.DeathDate
 FROM #DiabeticTypeIPatients d
-INNER JOIN [RLS].vw_Patient_Link p ON p.PK_Patient_Link_ID = d.FK_Patient_Link_ID;
+INNER JOIN SharedCare.Patient_Link p ON p.PK_Patient_Link_ID = d.FK_Patient_Link_ID;
 
 -- Get all patients with T2DM and the first diagnosis date
 --> CODESET diabetes-type-ii:1
@@ -62,24 +62,24 @@ IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #Diabetic
 CREATE TABLE #DiabeticTypeIIPatients(FK_Patient_Link_ID BIGINT, FirstT2DiagnosisDate DATE, DeathDate DATE);
 INSERT INTO #DiabeticTypeIIPatients
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate, NULL
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+--AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
 GROUP BY FK_Patient_Link_ID;
 
 -- Add death date where applicable
 UPDATE d
 SET d.DeathDate = p.DeathDate
 FROM #DiabeticTypeIIPatients d
-INNER JOIN [RLS].vw_Patient_Link p ON p.PK_Patient_Link_ID = d.FK_Patient_Link_ID;
+INNER JOIN SharedCare.Patient_Link p ON p.PK_Patient_Link_ID = d.FK_Patient_Link_ID;
 
 -- Get all patients and death dates
 IF OBJECT_ID('tempdb..#AllPatientsForSummaryDeathCount') IS NOT NULL DROP TABLE #AllPatientsForSummaryDeathCount;
-SELECT PK_Patient_Link_ID, DeathDate INTO #AllPatientsForSummaryDeathCount FROM [RLS].vw_Patient_Link
-INNER JOIN [RLS].vw_Patient p ON p.FK_Patient_Link_ID = PK_Patient_Link_ID
+SELECT PK_Patient_Link_ID, DeathDate INTO #AllPatientsForSummaryDeathCount FROM SharedCare.Patient_Link
+INNER JOIN SharedCare.Patient p ON p.FK_Patient_Link_ID = PK_Patient_Link_ID
 WHERE FK_Reference_Tenancy_ID = 2;
 
 --> EXECUTE query-patient-gp-history.sql

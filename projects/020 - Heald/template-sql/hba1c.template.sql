@@ -24,10 +24,11 @@ SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 -- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
 -- If we only looked at patients who first registered before July 2022, then
 -- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+
+/*IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID;*/
 
 --> CODESET hba1c:2
 
@@ -41,7 +42,7 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	[Value] AS hbA1c
 INTO #hba1c
-FROM RLS.vw_GP_Events
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hba1c') AND [Version]=2)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hba1c') AND [Version]=2))
