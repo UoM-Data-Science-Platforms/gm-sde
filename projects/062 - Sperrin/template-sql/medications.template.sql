@@ -18,8 +18,8 @@ SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '1900-09-01'; --- UPDATE !!!!!!!
-SET @EndDate = '2023-08-31';
+SET @StartDate = '1900-09-01'; 
+SET @EndDate = '2023-12-31';
 
 --> EXECUTE query-build-rq062-cohort.sql
 
@@ -28,14 +28,6 @@ SET @EndDate = '2023-08-31';
 --> CODESET calcium-channel-blockers:1 beta-blockers:1
 --> CODESET statins:1 ace-inhibitor:1 diuretic:1
 --> CODESET angiotensin-receptor-blockers:1 acetylcholinesterase-inhibitors:1 
-
--- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
-
-IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
-SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
-
-IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 

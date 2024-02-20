@@ -18,9 +18,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = '2023-09-30';
-
-
+SET @EndDate = '2023-12-31';
 
 --> EXECUTE query-build-rq062-cohort.sql
 
@@ -125,5 +123,12 @@ GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
 
 -- The final table===============================================================================================================================================
 
-SELECT f.FK_Patient_Link_ID, f.[Year], GPEncounters_Face2face, GPEncounters_Telephone from #f2f f
-LEFT JOIN #telephone t on t.FK_Patient_Link_ID = f.FK_Patient_Link_ID and t.[Year] = f.[Year]
+SELECT 
+    PatientId = f.FK_Patient_Link_ID,
+    f.[Year], 
+    f.GPEncounters_Face2face, 
+    t.GPEncounters_Telephone 
+FROM 
+    #f2f f
+LEFT JOIN 
+    #telephone t ON t.FK_Patient_Link_ID = f.FK_Patient_Link_ID AND t.[Year] = f.[Year];

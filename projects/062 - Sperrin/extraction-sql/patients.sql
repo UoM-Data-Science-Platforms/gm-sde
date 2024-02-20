@@ -21,7 +21,6 @@
 -- IMD 
 -- NumberGPEncounterBeforeSept2013
 
-
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
@@ -40,11 +39,36 @@ SET NOCOUNT ON;
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries =========================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
-FROM [SharedCare].[Patient_Link]
+-- Set the start date
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2013-09-01';
 
+--┌───────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP  │
+--└───────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StudyStartDate
+
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StudyStartDate))
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
+where FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode NOT LIKE 'ZZZ%';
+
+-- Make cohort from patients alive at start date and registered with a GP
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+------------------------------------------
+
+-- OUTPUT: #Patients
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
 --└───────────────────────────────────────┘
@@ -254,15 +278,13 @@ SELECT
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
-
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE gp.GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 
 -- Reduce #Patients table to just the cohort patients========================================================================================================================
-TRUNCATE TABLE #Patients;
-INSERT INTO #Patients
-SELECT PatientId
-FROM #Cohort
-WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT PatientId FROM #Cohort)
+
 --┌─────┐
 --│ Sex │
 --└─────┘
@@ -659,7 +681,6 @@ SELECT
   Ethnicity = EthnicCategoryDescription,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
   LSOA_Code AS LSOA,
-  --GPPracticeCode,
   RandomPracticeID,
   NumberGPEncounterBeforeSept2013
 FROM #Patients p

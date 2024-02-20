@@ -44,6 +44,7 @@ This project required the following reusable queries:
 - Year and quarter month of birth
 - GET practice and ccg for each patient
 - CCG lookup table
+- Create table of patients who are registered with a GM GP
 
 Further details for each query can be found below.
 
@@ -327,6 +328,23 @@ A temp table as follows:
 _File_: `query-ccg-lookup.sql`
 
 _Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
+### Create table of patients who are registered with a GM GP
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -444,11 +462,9 @@ Any code indicating a diagnosis of a stroke. Includes ischaemic and haemorrhagic
 Code set derived from https://getset.gq and the Primary Care Domain Reference Set Portal.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.91% - 1.45%` suggests that this code set is well defined.
-
-_Update **2023-11-16**: Prevalence now 1.2% - 1.5% when examining codes_
+_Update **2024-01-19**: Prevalence now 1.2% - 1.5% when examining codes_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -458,12 +474,12 @@ _Update **2023-11-16**: Prevalence now 1.2% - 1.5% when examining codes_
 | 2023-09-12 | EMIS            | 2463856    |   23678 (0.961%) |    11237 (0.456%) |
 | 2023-09-12 | TPP             | 200590     |     2631 (1.31%) |      2593 (1.29%) |
 | 2023-09-12 | Vision          | 332095     |    3098 (0.933%) |     1699 (0.512%) |
-| 2023-11-16 | EMIS            | 2482563    |    33303 (1.34%) |     30532 (1.23%) |
-| 2023-11-16 | TPP             | 201030     |     3195 (1.59%) |      2963 (1.47%) |
-| 2023-11-16 | Vision          | 333490     |     4302 (1.29%) |      3924 (1.18%) |
+| 2024-01-19 | EMIS            | 2519438    |    33873 (1.34%) |     31102 (1.23%) |
+| 2024-01-19 | TPP             | 201469     |      3215 (1.6%) |      2983 (1.48%) |
+| 2024-01-19 | Vision          | 334528     |     4325 (1.29%) |      3950 (1.18%) |
 #### Audit log
 
-- Find_missing_codes last run 2023-11-16
+- Find_missing_codes last run 2024-01-18
 
 LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
 
@@ -489,9 +505,11 @@ LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw
 Any suggestion of a diagnosis of COPD.
 
 Developed from https://getset.ga.
+
+- Includes "obliterative bronchiolitis" as a similar condition to COPD. Might not be required for all studies.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.17% - 2.48%` in 2023 suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.19% - 2.49%` in 2023 suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -501,6 +519,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-09-15 | EMIS            | 2463856    |    53577 (2.17%) |     53551 (2.17%) |
 | 2023-09-15 | TPP             | 200590     |     4959 (2.47%) |      4966 (2.48%) |
 | 2023-09-15 | Vision          | 332095     |     7382 (2.22%) |      7374 (2.22%) |
+| 2024-01-19 | EMIS            | 2519438    |    54964 (2.18%) |     55097 (2.19%) |
+| 2024-01-19 | TPP             | 201469     |     5016 (2.49%) |      5023 (2.49%) |
+| 2024-01-19 | Vision          | 334528     |     7434 (2.22%) |      7444 (2.23%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../conditions/copd/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/copd/1)
 
@@ -874,19 +898,19 @@ Any code for a prescription of an angiotensin receptor blocker (ARB).
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.43% - 4.80%` suggests that this code set is well defined.
 
-_Update **2023-10-27**: Prevalence remains at 4.4% and 4.5% in Vision and EMIS practices respectively. Prevalence in TPP practices slightly higher at 5.5%, possibly reflecting a population with higher prevalence_
+_Update **2023-13/14**: Prevalence remains around 4.5% in Vision and EMIS practices. Prevalence in TPP practices slightly higher at 5.6%, possibly reflecting a population with higher prevalence_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-08-26 | EMIS            | 2623304    |   117732 (4.49%) |    117727 (4.49%) |
 | 2021-08-26 | TPP             | 211610     |    10150 (4.80%) |     10150 (4.80%) |
 | 2021-08-26 | Vision          | 337028     |    14934 (4.43%) |     14934 (4.43%) |
-| 2023-10-27 | EMIS            | 2472595    |   111566 (4.51%) |    111587 (4.51%) |
-| 2023-10-27 | TPP             | 200603     |    11113 (5.54%) |     11116 (5.54%) |
-| 2023-10-27 | Vision          | 332447     |    14726 (4.43%) |     14727 (4.43%) |
+| 2023-12-14 | EMIS            | 2515618    |   113926 (4.53%) |    113947 (4.53%) |
+| 2023-12-14 | TPP             | 201264     |    11190 (5.56%) |     11193 (5.56%) |
+| 2023-12-14 | Vision          | 334040     |    14860 (4.45%) |     14861 (4.45%) |
 #### Audit log
 
-- Find_missing_codes last run 2023-10-27
+- Find_missing_codes last run 2023-12-14
 
 LINK: [https://github.com/rw251/.../medications/angiotensin-receptor-blockers/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/angiotensin-receptor-blockers/1)
 

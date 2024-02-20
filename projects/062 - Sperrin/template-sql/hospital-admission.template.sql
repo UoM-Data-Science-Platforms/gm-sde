@@ -18,8 +18,9 @@ SET NOCOUNT ON;
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2014-01-01';
-
+SET @EndDate = '2023-12-31';
 
 --> EXECUTE query-build-rq062-cohort.sql
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
@@ -40,11 +41,12 @@ FROM #hospitals
 
 -- Create the final table
 SELECT FK_Patient_Link_ID AS PatientId,
- 	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate),
+ 	   YearAndMonthOfAdmission = DATEADD(dd, -( DAY( AdmissionDate) -1 ), AdmissionDate), -- hide the day of the admission by setting to first of the month
 	   LengthOfStayDays = LengthOfStay,
 	   HospitalID 
 FROM #LengthOfStay a
 LEFT JOIN #RandomiseHospital rh ON rh.AcuteProvider = a.AcuteProvider
+WHERE AdmissionDate <= @EndDate
 ORDER BY FK_Patient_Link_ID, AdmissionDate
 
 

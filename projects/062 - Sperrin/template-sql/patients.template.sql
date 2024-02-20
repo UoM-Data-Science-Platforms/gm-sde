@@ -21,7 +21,6 @@
 -- IMD 
 -- NumberGPEncounterBeforeSept2013
 
-
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
@@ -66,7 +65,6 @@ SELECT
   Ethnicity = EthnicCategoryDescription,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
   LSOA_Code AS LSOA,
-  --GPPracticeCode,
   RandomPracticeID,
   NumberGPEncounterBeforeSept2013
 FROM #Patients p

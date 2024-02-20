@@ -87,5 +87,10 @@ SELECT * FROM #Shingles
 UNION
 SELECT * FROM #Stroke
 
-SELECT * FROM #Final
+SELECT PatientId,
+	EventYearAndMonth = DATEADD(dd, -( DAY(EventDate) -1 ), EventDate), -- hide the day of the admission by setting to first of the month,
+	EventCode,
+	EventDescription,
+	EventCodeSystem 
+FROM #Final
 ORDER BY PatientID, EventDate;

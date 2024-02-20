@@ -13,11 +13,11 @@
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 
--- Create table #Patients for the reusable queries =========================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
-FROM [SharedCare].[Patient_Link]
+-- Set the start date
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2013-09-01';
 
+--> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 --> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
 
@@ -31,12 +31,9 @@ SELECT
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
-
+LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE gp.GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
 
 -- Reduce #Patients table to just the cohort patients========================================================================================================================
-TRUNCATE TABLE #Patients;
-INSERT INTO #Patients
-SELECT PatientId
-FROM #Cohort
-WHERE GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT PatientId FROM #Cohort)
