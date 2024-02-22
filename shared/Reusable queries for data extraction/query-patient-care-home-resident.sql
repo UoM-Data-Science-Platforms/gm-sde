@@ -22,7 +22,7 @@ SELECT
 	FK_Patient_Link_ID,
 	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
 INTO #PatientCareHomeStatus
-FROM RLS.vw_Patient p
+FROM SharedCare.Patient p
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND NursingCareHomeFlag IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
