@@ -1,0 +1,322 @@
+^ESCT1177939	Psychosomatic disorder
+^ESCT1191490	[X]Depressive personality disorder
+^ESCT1191874	[X]Neurotic disorder, unspecified
+^ESCT1192089	[X]Phobia NOS
+^ESCT1192488	Neurasthenia
+^ESCT1270383	[X]Organic anxiety disorder
+^ESCT1379655	Obsessional thoughts of causing self harm
+^ESCT1379656	Obsessional thoughts of causing self-harm
+^ESCT1406131	Dysmorphophobia
+^ESCTAB646223	Abnormal fear
+^ESCTAC359265	Acute stress disorder
+^ESCTAC359267	Acute crisis reaction
+^ESCTAC359270	Acute reaction to stress
+^ESCTAC493770	Acknowledging anxiety
+^ESCTAD326581	Adjustment disorder with anxious mood
+^ESCTAD326583	Adjustment disorder with anxiety
+^ESCTAL494898	Alleviating anxiety
+^ESCTAM498154	AMT - Anxiety management training
+^ESCTAN252038	Anancastic personality disorder
+^ESCTAN328774	Anxiety
+^ESCTAN328777	Anxiety reaction
+^ESCTAN378511	Anxious cognitions
+^ESCTAN395038	Anxiety about blushing
+^ESCTAN476486	Anankastic neurosis
+^ESCTAN494440	Anxiety about treatment
+^ESCTAN494441	Anxiety about forced dependence
+^ESCTAN494442	Anxiety about loss of control
+^ESCTAN494450	Anxiety about making mistakes
+^ESCTAN494451	Anxiety about getting it wrong
+^ESCTAN494452	Anxiety about altered body image
+^ESCTAN494900	Anxiety reduction
+^ESCTAN502407	Anxiety depression
+^ESCTAN502410	Anxiety hysteria
+^ESCTAN524899	Anxiety and fear
+^ESCTAN524906	Anxiety about body function or health
+^ESCTAN524907	Anxiety about health
+^ESCTAN524926	Anxiety about behaviour or performance
+^ESCTAN524927	Anxiety about social functioning
+^ESCTAN524928	Anxiety about behavior or performance
+^ESCTAN560519	Anxiety about losing control of bowels
+^ESCTAN560520	Anxiety about wetting self
+^ESCTAN560521	Anxiety about vomiting in public
+^ESCTAN560522	Anxiety about having a fit
+^ESCTAN560523	Anxiety about choking
+^ESCTAN560524	Anxiety about swallowing
+^ESCTAN560525	Anxiety about collapsing
+^ESCTAN560526	Anxiety about shaking
+^ESCTAN560527	Anxiety about sweating
+^ESCTAN560528	Anxiety about dying
+^ESCTAN560529	Anxiety about going crazy
+^ESCTAN560530	Anxiety about going insane
+^ESCTAN560531	Anxiety about going mad
+^ESCTAN560532	Anxiety about losing emotional control
+^ESCTAN560534	Anxiety about becoming fat
+^ESCTAN560535	Anxiety about obesity
+^ESCTAN560537	Anxiety about fainting
+^ESCTAN560538	Anxiety about having a heart attack
+^ESCTAN560541	Anxiety about appearing ridiculous
+^ESCTAN560542	Anxiety about saying the wrong thing
+^ESCTAN571878	Anxious character
+^ESCTAN588647	Anxious parents
+^ESCTAN588648	Anxiety attack
+^ESCTAN593474	Anxious avoidant attachment
+^ESCTAN602552	Anxiety counselling
+^ESCTAN602553	Anxiety counseling
+^ESCTAV354357	Avoidant disorder of childhood
+^ESCTAV354361	Avoidance disorder, childhood
+^ESCTBE250109	Behavioural therapy
+^ESCTBE250110	Behavioral therapy
+^ESCTBE250111	Behavior conditioning therapy
+^ESCTBE250112	Behavior modification
+^ESCTBE250113	Behavior modification psychotherapy
+^ESCTBE250114	Behaviour conditioning therapy
+^ESCTBE250115	Behaviour modification
+^ESCTBE250116	Behaviour modification psychotherapy
+^ESCTBE250117	Behaviour modification technique
+^ESCTBE250118	Behaviour therapy
+^ESCTBE250119	Behavioural psychotherapy
+^ESCTBE250120	Behavior modification technique
+^ESCTBE250121	Behavior therapy
+^ESCTBE250122	Behavioral psychotherapy
+^ESCTBE250123	Behaviour modification treatments and procedures
+^ESCTBE250124	Behavior modification treatments and procedures
+^ESCTBR494437	Brontophobia
+^ESCTBR512868	Bromisodrophobia
+^ESCTCA476630	Cardiovascular disorder, psychogenic
+^ESCTCA593511	Castration anxiety complex
+^ESCTCE476622	Cerebrocardiac neurosis
+^ESCTCE476625	Cerebrocardiac syndrome
+^ESCTCH354359	Childhood avoidant disorder
+^ESCTCH476707	Childhood disorder of conduct and emotion
+^ESCTCH476750	Childhood phobic anxiety disorder
+^ESCTCH571876	Character trait finding of level of anxiety
+^ESCTCH571877	Character trait observations of level of anxiety
+^ESCTCH602709	Chronic post-traumatic stress disorder
+^ESCTCO269864	Compulsive behavior
+^ESCTCO359711	Compulsive ritualistic behavior
+^ESCTCO359712	Compulsive ritualistic behaviour
+^ESCTCO602517	Counselling for phobia
+^ESCTCO602518	Counseling for phobia
+^ESCTCO602554	Counseling for anxiety
+^ESCTCO602555	Counselling for anxiety
+^ESCTCO655010	Complaining of panic attack
+^ESCTCY476481	Cyesiophobia
+^ESCTDA476624	Da Costa's syndrome
+^ESCTDE269423	Defective insight
+^ESCTDE561414	Delusional dysmorphophobia
+^ESCTDE701874	Delusion of pregnancy
+^ESCTDH316370	Dhat
+^ESCTDH316375	Dhat syndrome
+^ESCTDY602765	Dysmorphophobia
+^ESCTEF476623	Effort syndrome
+^ESCTEP635815	Episodic paroxysmal anxiety disorder
+^ESCTEX564559	Examination phobia
+^ESCTFE280960	Fear of insects
+^ESCTFE281560	Fear of confined spaces
+^ESCTFE300737	Fear of school
+^ESCTFE305648	Fear of cancer
+^ESCTFE328776	Feeling anxious
+^ESCTFE345789	Fear of high places
+^ESCTFE364968	Fear of open places
+^ESCTFE395039	Fear of blushing
+^ESCTFE408245	Fear of dying
+^ESCTFE408253	Fear of blood
+^ESCTFE408256	Fear of infection
+^ESCTFE408257	Fear of contracting HIV infection
+^ESCTFE408258	Fear of contracting human immunodeficiency virus infection
+^ESCTFE476479	Fear of crowded places
+^ESCTFE494424	Fear of walking
+^ESCTFE494425	Fear of mobilising
+^ESCTFE494426	Fear of mobilizing
+^ESCTFE494427	Fear of disconnection from ventilator
+^ESCTFE494428	Fear of being left alone during period of dependence
+^ESCTFE494429	Fear of being left alone
+^ESCTFE494430	Fear of dentist
+^ESCTFE494431	Fear of not coping with treatment
+^ESCTFE494432	Fear of lifts
+^ESCTFE494433	Fear of elevators
+^ESCTFE494434	Fear of thunderstorm
+^ESCTFE494436	Fear of thunder
+^ESCTFE494453	Fear of wetting self in public
+^ESCTFE494454	Fear of losing control of bowels in public
+^ESCTFE524908	Fear of losing control of bowels
+^ESCTFE524909	Fear of wetting self
+^ESCTFE524910	Fear of vomiting in public
+^ESCTFE524911	Fear of having a fit
+^ESCTFE524912	Fear of choking
+^ESCTFE524914	Fear of swallowing
+^ESCTFE524915	Fear of collapsing
+^ESCTFE524916	Fear of fainting
+^ESCTFE524917	Fear of having a heart attack
+^ESCTFE524918	Fear of shaking
+^ESCTFE524919	Fear of sweating
+^ESCTFE524920	Fear of going crazy
+^ESCTFE524921	Fear of going mad
+^ESCTFE524922	Fear of going insane
+^ESCTFE524923	Fear of losing emotional control
+^ESCTFE524924	Fear of becoming fat
+^ESCTFE524925	Fear of obesity
+^ESCTFE524929	Fear of appearing ridiculous
+^ESCTFE524930	Fear of appearing foolish
+^ESCTFE524931	Fear of saying the wrong thing
+^ESCTFE524932	Fear of going out
+^ESCTFE524933	Fear of empty streets
+^ESCTFE524934	Fear of open spaces
+^ESCTFE524935	Fear of crossing streets
+^ESCTFE524937	Fear of activities in public
+^ESCTFE524938	Fear of eating in public
+^ESCTFE524939	Fear of public speaking
+^ESCTFE524940	Fear of using public toilets
+^ESCTFE524941	Fear of writing in public
+^ESCTFE524942	Fear of social group activities
+^ESCTFE524943	Fear of being in a small group
+^ESCTFE524944	Fear of social gatherings
+^ESCTFE524945	Fear of speaking on the phone
+^ESCTFE524946	Fear of speaking to people in authority
+^ESCTFE524947	Fear of being laughed at
+^ESCTFE524948	Fear of being watched
+^ESCTFE524952	Fear of natural phenomena
+^ESCTFE524953	Fear of the dark
+^ESCTFE524954	Fear of animals
+^ESCTFE524955	Fear of feathers
+^ESCTFE524956	Fear of enclosed spaces
+^ESCTFE524957	Fear of tunnels
+^ESCTFE524958	Fear of phone boxes
+^ESCTFE524963	Fear of anaesthetic
+^ESCTFE524964	Fear of anesthetic
+^ESCTFE524965	Fear of general anaesthetic
+^ESCTFE524967	Fear of general anesthetic
+^ESCTFE524969	Fear of awareness under general anaesthetic
+^ESCTFE524970	Fear of awareness under general anesthetic
+^ESCTFE524971	Fear of not waking from general anaesthetic
+^ESCTFE524972	Fear of not waking from general anesthetic
+^ESCTFE524975	Fear of local anaesthetic
+^ESCTFE524976	Fear of local anesthetic
+^ESCTFE524977	Fear of problem after anaesthetic
+^ESCTFE524978	Fear of problem after anesthetic
+^ESCTFE524979	Fear of surgical masks
+^ESCTFE524980	Fear of masks
+^ESCTFE524981	Fear of hospitals
+^ESCTFE524982	Fear of contracting disease
+^ESCTFE524984	Fear of contracting venereal disease
+^ESCTFE524985	Fear of contracting radiation sickness
+^ESCTFE524986	Fear of the bogey man
+^ESCTFE524987	Fear of ghosts
+^ESCTFE558255	Fear of heights
+^ESCTFE563241	Fear of needles
+^ESCTFE563242	Fear of injections
+^ESCTFE571626	Fear of birds
+^ESCTFE646222	Fear of
+^ESCTFE659252	Fear of transport
+^ESCTFE659253	Fear of traveling
+^ESCTFE659254	Fear of travelling
+^ESCTGA284830	GAD - Generalized anxiety disorder
+^ESCTGA284831	GAD - Generalised anxiety disorder
+^ESCTGA524966	GA - Fear of general anesthetic
+^ESCTGA524968	GA - Fear of general anaesthetic
+^ESCTGE284829	Generalized anxiety disorder
+^ESCTGR359266	Gross stress reaction
+^ESCTHY272445	Hydrophobia
+^ESCTHY278908	Hypochondriacal neurosis
+^ESCTHY278909	Hypochondria
+^ESCTIN525003	Inability to resist obsessional thoughts
+^ESCTIR476629	Irritable heart syndrome
+^ESCTIS338593	Isolated phobia
+^ESCTJI316371	Jiryan
+^ESCTKR476627	Krishaber's disease
+^ESCTLE571764	Level of anxiety
+^ESCTLY272446	Lyssa
+^ESCTME371464	Mental disease
+^ESCTNO385851	Nondelusional dysmorphophobia
+^ESCTNO419607	Nonpsychotic mental disorder
+^ESCTNO502403	Non-situational panic attack
+^ESCTOB252037	Obsessive compulsive personality disorder
+^ESCTOB269865	Obsessive compulsive behaviour
+^ESCTOB269866	Obsessive compulsive behavior
+^ESCTOB360094	Obsessional ruminations
+^ESCTOB476488	Obsessive compulsive disorder
+^ESCTOB476489	Obsessive compulsive neurosis
+^ESCTOB524988	Obsessional thoughts of harm occurring to property
+^ESCTOB524989	Obsessional thoughts of being robbed
+^ESCTOB524990	Obsessional thoughts of fire
+^ESCTOB524991	Obsessional thoughts of explosions
+^ESCTOB524992	Obsessional thoughts of causing accidents
+^ESCTOB524993	Obsessional thoughts of poisoning
+^ESCTOB524994	Obsessional thoughts of giving others illness
+^ESCTOB524995	Obsessional thoughts of contamination
+^ESCTOB524996	Obsessional thoughts of disease
+^ESCTOB524997	Obsessional thoughts of dirt
+^ESCTOB524998	Obsessional thoughts of germs
+^ESCTOB525000	Obsessional thoughts of incompletion
+^ESCTOB525001	Obsessional thoughts of throwing things away
+^ESCTOB552601	Obsessional thoughts of causing harm to others
+^ESCTOB553191	Obsessional thoughts of causing harm to self
+^ESCTOC476487	OCD - Obsessive-compulsive disorder
+^ESCTON455097	On examination - anxious
+^ESCTON455099	On examination - nervous
+^ESCTON691039	On examination - panic attack
+^ESCTOR277772	Organic anxiety disorder
+^ESCTOV271298	Overanxious disorder of childhood
+^ESCTOV571879	Over-anxious character
+^ESCTPA479202	Parasitophobia
+^ESCTPA588646	Parental anxiety
+^ESCTPE562844	Performance anxiety
+^ESCTPH364969	Phobia of going out
+^ESCTPH524913	Phobia of choking
+^ESCTPH602515	Phobia counselling
+^ESCTPH602516	Phobia counseling
+^ESCTPH602948	Phonophobia
+^ESCTPO326806	Posttraumatic stress disorder
+^ESCTPO326809	Post-traumatic stress syndrome
+^ESCTPS359269	Psychic shock
+^ESCTPS371465	Psychiatric illness
+^ESCTPS371466	Psychiatric disorder
+^ESCTPS476496	Psychasthenia
+^ESCTPS502419	Psychogenic autonomic dysfunction
+^ESCTPS593485	Psychodynamic interventions relating to emotions
+^ESCTPS593486	Psychodynamic interventions relating to feelings
+^ESCTPS701873	Psychological pseudocyesis
+^ESCTPT326808	PTSD - Post-traumatic stress disorder
+^ESCTRE494899	Reducing anxiety
+^ESCTRI359710	Ritual compulsion
+^ESCTSA555868	SASZ - Zung's self-rating anxiety scal
+^ESCTSC553180	School phobia
+^ESCTSE439104	Separation anxiety
+^ESCTSH316373	Shen-k'uei
+^ESCTSH316374	Shenkui
+^ESCTSI502402	Situational panic attack
+^ESCTSO290799	Social anxiety disorder
+^ESCTSP502404	Spontaneous panic attack
+^ESCTST811300	Stranger anxiety
+^ESCTSU316372	Sukra prameha
+^ESCTSY512857	Syphilophobia
+^ESCTTH250125	Therapeutic conditioning
+^ESCTTO494435	Tonitrophobia
+^ESCTTR326807	Traumatic neurosis
+^ESCTTR512854	Trichophobia
+^ESCTUN502405	Unexpected panic attack
+^ESCTUN525002	Unable to resist obsessional thoughts
+^ESCTVE512856	Venereophobia
+^ESCTWI354358	Withdrawing reaction of childhood
+^ESCTWO378509	Worry
+^ESCTWO378510	Worrying
+^ESCTWR476493	Writing block, psychogenic
+^ESCTWR476494	Writers cramp, psychogenic
+^ESCTZO338127	Zoophobia
+^ESCTZU555867	Zung's self-rating anxiety scale
+^ESCTZU555869	Zung self-rating anxiety scale
+EMISICD10|F4530	Somatoform autonomic dysfunction, heart and cardiovascular system
+EMISICD10|F4531	Somatoform autonomic dysfunction, upper gastrointestinal tract
+EMISICD10|F4532	Somatoform autonomic dysfunction, lower gastrointestinal tract
+EMISICD10|F4533	Somatoform autonomic dysfunction, respiratory system
+EMISICD10|F4534	Somatoform autonomic dysfunction, genitourinary system
+EMISICD10|F4538	Somatoform autonomic dysfunction, other organ or system
+EMISICD10|F610	Mixed personality disorders
+EMISICD10|F611	Troublesome personality changes
+EMISNQNO78	Non epilepsy attack disorder
+EMISNQPA155	Panic disorder without agoraphobia
+ESCTFE1	Fear of water
+ESCTSI18	Signposting to Anxiety UK
+ESCTSI21	Signposting to OCD-UK (Obsessive-Compulsive Disorder-UK)
+ESCTSI22	Signposting to OCD (Obsessive-Compulsive Disorder) Action
