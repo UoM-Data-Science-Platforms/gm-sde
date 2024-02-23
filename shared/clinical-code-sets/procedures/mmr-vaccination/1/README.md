@@ -2,9 +2,9 @@
 
 Any code that indicates that the patient has had an MMR vaccine. Based on snomed codes from: https://nhs-drug-refset.pages.dev/
 
-## Prevalence log
+Given that most of the population have had an MMR vaccine - this code set is likely massively under-reporting and should be avoided or revisited.
 
-UPDATE
+## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.38%` suggests potential missing codes.
 
