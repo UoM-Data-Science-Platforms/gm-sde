@@ -1,0 +1,18 @@
+14015211000001108	Measles, Mumps and Rubella vaccine (live) powder and solvent for suspension for injection 0.5ml pre-filled syringes (product)
+3063401000001105	MMR vaccine injection 0.5mL
+13968211000001108	M-M-RVAXPRO vaccine powder and solvent for suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+34925111000001104	Priorix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd) (product)
+1128901000001103	Immravax injection
+1036201000001101	Immravax injection 0.5mL
+4639811000001109	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+9927501000001103	M-M-RVAXPRO powder and solvent for suspension for injection 0.5mL (product)
+1036101000001108	Pluserix MMR vaccine injection 0.5mL
+1129001000001108	Pluserix MMR injection
+34938511000001103	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml pre-filled syringes (product)
+652601000001108	MMR II vaccine injection (pdr for recon)+diluent
+2144301000001109	MMR II vaccine injection 0.5mL
+3403301000001108	Priorix vaccine injection (pdr for recon)+diluent
+4621611000001106	Priorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+3403401000001100	Priorix vaccine injection powder+diluent 0.5mL
+347649008	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+4830211000001107	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)

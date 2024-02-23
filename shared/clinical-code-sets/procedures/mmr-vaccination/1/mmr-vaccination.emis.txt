@@ -1,0 +1,17 @@
+^ESCT1175120	Priorix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+^ESCT1175240	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml pre-filled syringes
+^ESCT1180382	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
+^ESCT1399653	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+^ESCT1410414	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+^ESCT1410923	M-M-RVAXPRO vaccine powder and solvent for suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+^ESCTME618568	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+^ESCTME618569	Measles/mumps/rubella vaccine injection (pdr for recon)+diluent
+^ESCTME618570	Measles/mumps/rubella vaccine powder and solvent for injection solution vial
+^ESCTME967997	Measles, Mumps and Rubella vaccine (live) powder and solvent for suspension for injection 0.5ml pre-filled syringes
+^ESCTMM873138	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (sanofi pasteur MSD Ltd)
+^ESCTMM967559	M-M-RVAXPRO vaccine powder and solvent for suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+^ESCTPR871426	Priorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+M-IN30563NEMIS	M-M-R Vaxpro  Injection  0.5 ml pre-filled syringe
+M-IN8510EGTON	M-M-R II  Injection  0.5 ml vial
+PRIN34077EMIS	Priorix  Powder and solvent for solution for injection  0.5 ml vial
+PRPO125057NEMIS	Priorix  Powder and solvent for solution for injection  0.5 ml pre-filled syringe
