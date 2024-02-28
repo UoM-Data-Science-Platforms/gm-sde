@@ -4,3 +4,6 @@
 868511000000106	Herpes zoster vaccination given by other health care provider
 1326101000000105	Administration of first dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
 1326111000000107	Administration of second dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+20110511000001107	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) (product)
+4639911000001104	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials (product)
+7990711000001108	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials (product)

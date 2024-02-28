@@ -3,3 +3,5 @@ Xaa9g	Herpes zoster vaccination given by other health care provider
 XaZsM	Herpes zoster vaccination
 XaZsM	Herpes zoster vaccination
 XaZsM	Shingles vaccination
+n4v1.	Varicella-zoster live attenuated vaccine injection (pdr for recon)+solvent
+n4v4.	ZOSTAVAX pdr+solvent for suspension for injection pfs 0.65mL
