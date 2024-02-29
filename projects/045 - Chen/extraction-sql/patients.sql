@@ -40,10 +40,10 @@ SET NOCOUNT ON;
 -- - LSOA
 -- - Ethnicity
 
+
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---=========================================================================================================================================================== 
 --┌───────────────────────────────────────────────────────────┐
 --│ Create table of patients who are registered with a GM GP  │
 --└───────────────────────────────────────────────────────────┘
@@ -320,7 +320,6 @@ HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 DROP TABLE #AllPatientLSOAs;
 DROP TABLE #UnmatchedLsoaPatients;
 
-
 -- The cohort table========================================================================================================================================
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
@@ -339,7 +338,7 @@ WHERE y.YearOfBirth IS NOT NULL AND sex.Sex IS NOT NULL AND l.LSOA_Code IS NOT N
 	AND YEAR(GETDATE()) - y.YearOfBirth >= 18;
 
 
--- Change the cohort table name into #Patients to use for other reusable queries===========================================================================
+-- Filter #Patients table to cohort only - for other reusable queries ===========================================================================
 DELETE FROM #Patients
 WHERE FK_Patient_Link_ID NOT IN 
 	(SELECT FK_Patient_Link_ID FROM #Cohort);
@@ -829,19 +828,22 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 -- >>> Ignoring following query as already injected: query-patient-imd.sql
 -- >>> Ignoring following query as already injected: query-patient-care-home-resident.sql
 
+DECLARE @MinDate datetime;
+SET @MinDate = '1900-01-01';
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2023-12-31';
 
-
 -- Create a smaller version of GP event table===========================================================================================================
 IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
+SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
 INTO #GPEvents
-FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-and EventDate <= @IndexDate
-and SuppliedCode in (Select Code from #AllCodes)
+FROM SharedCare.GP_Events gp
+INNER JOIN #AllCodes a on a.Code = gp.SuppliedCode
+WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+and EventDate BETWEEN @MinDate and @IndexDate
+-- 16 mins to run for 1000 patients
 
+-- add index
 
 -- Create cancer table==================================================================================================================================
 IF OBJECT_ID('tempdb..#Cancer') IS NOT NULL DROP TABLE #Cancer;
@@ -893,7 +895,6 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'severe-mental-illness' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'severe-mental-illness' AND Version = 1)
 );
-
 
 
 -- Select ethnicity and death date from PatientLink table================================================================================================================================
@@ -1037,8 +1038,8 @@ SELECT
   p.Ethnicity,
   p.YearOfBirth,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-  FORMAT (p.DeathDate , 'MM-yyyy') AS DeathDate,
-  p.LSOA_Code AS LSOA,
+  DeathYearAndMonth = FORMAT (p.DeathDate , 'MM-yyyy'),
+  LSOA = p.LSOA_Code,
   IsCareHomeResident,
   HO_Cancer = ISNULL(c1.Cancer,0),
   HO_Anxiety = ISNULL(c2.Anxiety,0),

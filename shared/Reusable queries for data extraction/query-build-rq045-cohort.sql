@@ -14,15 +14,14 @@
 -- - LSOA
 -- - Ethnicity
 
+
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---=========================================================================================================================================================== 
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-lsoa.sql
-
 
 -- The cohort table========================================================================================================================================
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
@@ -42,7 +41,7 @@ WHERE y.YearOfBirth IS NOT NULL AND sex.Sex IS NOT NULL AND l.LSOA_Code IS NOT N
 	AND YEAR(GETDATE()) - y.YearOfBirth >= 18;
 
 
--- Change the cohort table name into #Patients to use for other reusable queries===========================================================================
+-- Filter #Patients table to cohort only - for other reusable queries ===========================================================================
 DELETE FROM #Patients
 WHERE FK_Patient_Link_ID NOT IN 
 	(SELECT FK_Patient_Link_ID FROM #Cohort);

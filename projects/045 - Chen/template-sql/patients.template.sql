@@ -37,19 +37,22 @@ SET NOCOUNT ON;
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-care-home-resident.sql
 
+DECLARE @MinDate datetime;
+SET @MinDate = '1900-01-01';
 DECLARE @IndexDate datetime;
 SET @IndexDate = '2023-12-31';
 
-
 -- Create a smaller version of GP event table===========================================================================================================
 IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
+SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
 INTO #GPEvents
-FROM SharedCare.GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-and EventDate <= @IndexDate
-and SuppliedCode in (Select Code from #AllCodes)
+FROM SharedCare.GP_Events gp
+INNER JOIN #AllCodes a on a.Code = gp.SuppliedCode
+WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+and EventDate BETWEEN @MinDate and @IndexDate
+-- 16 mins to run for 1000 patients
 
+-- add index
 
 -- Create cancer table==================================================================================================================================
 IF OBJECT_ID('tempdb..#Cancer') IS NOT NULL DROP TABLE #Cancer;
@@ -103,7 +106,6 @@ WHERE (
 );
 
 
-
 -- Select ethnicity and death date from PatientLink table================================================================================================================================
 IF OBJECT_ID('tempdb..#PatientLinkTable') IS NOT NULL DROP TABLE #PatientLinkTable;
 SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID, EthnicCategoryDescription AS Ethnicity, DeathDate
@@ -123,8 +125,8 @@ SELECT
   p.Ethnicity,
   p.YearOfBirth,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-  FORMAT (p.DeathDate , 'MM-yyyy') AS DeathDate,
-  p.LSOA_Code AS LSOA,
+  DeathYearAndMonth = FORMAT (p.DeathDate , 'MM-yyyy'),
+  LSOA = p.LSOA_Code,
   IsCareHomeResident,
   HO_Cancer = ISNULL(c1.Cancer,0),
   HO_Anxiety = ISNULL(c2.Anxiety,0),
