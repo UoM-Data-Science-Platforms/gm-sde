@@ -384,9 +384,11 @@ GROUP BY FK_Patient_Link_ID, YEAR(EncounterDate)
 -- The final table===============================================================================================================================================
 
 SELECT 
-	PatientId = f.FK_Patient_Link_ID,
-	f.[Year], 
-	GPEncounters_Face2face, 
-	GPEncounters_Telephone 
-from #f2f f
-LEFT JOIN #telephone t on t.FK_Patient_Link_ID = f.FK_Patient_Link_ID and t.[Year] = f.[Year]
+    PatientId = f.FK_Patient_Link_ID,
+    f.[Year], 
+    f.GPEncounters_Face2face, 
+    t.GPEncounters_Telephone 
+FROM 
+    #f2f f
+LEFT JOIN 
+    #telephone t ON t.FK_Patient_Link_ID = f.FK_Patient_Link_ID AND t.[Year] = f.[Year];

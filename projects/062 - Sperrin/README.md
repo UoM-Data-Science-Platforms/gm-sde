@@ -367,6 +367,8 @@ This project required the following clinical code sets:
 - breast-cancer-screening v1
 - colorectal-cancer-screening v1
 - respiratory-tract-infection v1
+- shingles-vaccination v1
+- flu-vaccine v1
 - calcium-channel-blockers v1
 - beta-blockers v1
 - statins v1
@@ -497,7 +499,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-12-20 | EMIS            | 2438146    |   19770 (0.811%) |    21772 (0.893%) |
 | 2022-12-20 | TPP             | 198637     |    1427 (0.718%) |      7445 (3.75%) |
 | 2022-12-20 | Vision          | 327196     |    2244 (0.686%) |     2265 (0.692%) |
-
+| 2024-02-26 | EMIS | 2522441 | 27712 (1.1%) | 27745 (1.1%) | 
+| 2024-02-26 | TPP | 201679 | 2216 (1.1%) | 1872 (0.928%) | 
+| 2024-02-26 | Vision | 334812 | 3169 (0.947%) | 3170 (0.947%) | 
 LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
 
 ### COPD
@@ -698,6 +702,11 @@ LINK: [https://github.com/rw251/.../conditions/diabetes/1](https://github.com/rw
 
 Any code that indicates that the patient has had a flu vaccine. Includes procedure codes and admin codes confirming a vaccination has been administered. **NB it does not include the flu vaccine product - see the `flu-vaccine` code set**
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-02-27 | EMIS | 2525130 | 1269267 (50.3%) | 1269291 (50.3%) | 
+| 2024-02-27 | TPP | 201782 | 91527 (45.4%) | 91540 (45.4%) | 
+| 2024-02-27 | Vision | 335118 | 169002 (50.4%) | 169017 (50.4%) | 
 LINK: [https://github.com/rw251/.../procedures/flu-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/flu-vaccination/1)
 
 ### Pneumococcal vaccination
@@ -805,6 +814,46 @@ update:
 | 2022-12-07 | Vision          | 327081     |   192697 (58.9%) |    192482 (58.8%) |
 
 LINK: [https://github.com/rw251/.../conditions/respiratory-tract-infection/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/respiratory-tract-infection/1)
+
+### Shingles vaccination
+
+Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp1_cod/20211221/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp2_cod/20211221/#full-list 
+
+Also the following codes were added as advised by RQ062 PI: n4v1, n4v4.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence `6.26 - 7.55%` suggests that this code set is well defined.
+
+From GP_Events:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-02-27 | EMIS | 2525130 | 158147 (6.26%) | 159573 (6.32%) | 
+| 2024-02-27 | TPP | 201782 | 15218 (7.54%) | 15232 (7.55%) | 
+| 2024-02-27 | Vision | 335118 | 21409 (6.39%) | 21616 (6.45%) | 
+
+From GP_Medications:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-02-27 | EMIS | 2525130 | 9011 (0.357%) | 9011 (0.357%) | 
+| 2024-02-27 | TPP | 201782 | 145 (0.0719%) | 145 (0.0719%) | 
+| 2024-02-27 | Vision | 335118 | 473 (0.141%) | 473 (0.141%) | 
+LINK: [https://github.com/rw251/.../procedures/shingles-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/shingles-vaccination/1)
+
+### Flu vaccine
+
+Any code for the actual vaccine product. **NB it does not include codes for the flu vaccination procedure - see the `flu-vaccination` code set**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.66% - 9.85%` suggests that this code set should be used alongside flu-vaccination.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-02-27 | EMIS | 2525130 | 248822 (9.85%) | 248825 (9.85%) | 
+| 2024-02-27 | TPP | 201782 | 5362 (2.66%) | 5362 (2.66%) | 
+| 2024-02-27 | Vision | 335118 | 9419 (2.81%) | 9420 (2.81%) | 
+LINK: [https://github.com/rw251/.../medications/flu-vaccine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/flu-vaccine/1)
 
 ### Calcium Channel Blockers
 
