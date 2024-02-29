@@ -23,8 +23,7 @@
 
 IF OBJECT_ID('tempdb..#{param:conditionname}') IS NOT NULL DROP TABLE #{param:conditionname};
 CREATE TABLE #{param:conditionname} (PatientId BIGINT NOT NULL, EventDate DATE, 
-EventCode VARCHAR(255), EventDescription VARCHAR(255), EventCodeSystem VARCHAR(255));
-
+EventCode VARCHAR(255), EventDescription VARCHAR(255) COLLATE Latin1_General_CS_AS /*, EventCodeSystem VARCHAR(255)*/);
 
 INSERT INTO #{param:conditionname} (PatientId, EventDate, EventCode, EventDescription)
 SELECT	FK_Patient_Link_ID, 
@@ -35,7 +34,7 @@ FROM #GPEvents gp
 LEFT OUTER JOIN #AllCodes a ON gp.SuppliedCode = a.Code
 WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = '{param:condition}' AND [Version] = {param:version}))) AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 ORDER BY SuppliedCode;
-
+/*
 UPDATE #{param:conditionname}
 SET EventCodeSystem = 'ReadV2/CTV3'
 
@@ -46,3 +45,4 @@ WHERE UPPER(EventCode) LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]%'
 UPDATE #{param:conditionname}
 SET EventCodeSystem = 'EMIS'
 WHERE UPPER(EventCode) LIKE '%EMIS%' OR UPPER(EventCode) LIKE '%ESCT%'
+*/
