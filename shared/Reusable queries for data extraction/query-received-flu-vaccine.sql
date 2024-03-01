@@ -25,7 +25,7 @@
 IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept{param:id}') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept{param:id};
 SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS FluVaccineDate
 INTO #PatientsWithFluVacConcept{param:id}
-FROM RLS.[vw_GP_Events]
+FROM SharedCare.GP_Events
 WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND [Version] = 1)
@@ -36,7 +36,7 @@ AND EventDate <= '{param:date-to}';
 --> CODESET flu-vaccine:1
 -- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
 INSERT INTO #PatientsWithFluVacConcept{param:id}
-SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM RLS.vw_GP_Medications
+SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM SharedCare.GP_Medications
 WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccine' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccine' AND [Version] = 1)

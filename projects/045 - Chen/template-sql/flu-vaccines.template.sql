@@ -7,24 +7,21 @@
 
 -- OUTPUT: 
 -- 	- FK_Patient_Link_ID - unique patient id
---	- VaccinationDate - date of vaccine administration (YYYY-MM-DD)
+--	- FluVaccineYearAndMonth - date of vaccine administration (YYYY-MM)
 
 -- Set the start date
 DECLARE @EndDate datetime;
 SET @EndDate = '2023-12-31';
 
---> CODESET flu-vaccination:1
+
 --> EXECUTE query-build-rq045-cohort.sql
+
+--> EXECUTE query-received-flu-vaccine.sql date-from:1900-01-01 date-to:2023-12-31 id:1
 
 -- final table of flu vaccinations
 
 SELECT 
-	PatientId = p.FK_Patient_Link_ID, 
-	FluVaccinationYearAndMonth = DATEADD(dd, -( DAY( CAST(p.EventDate AS DATE)) -1 ), CAST(p.EventDate AS DATE))
-FROM SharedCare.GP_Events p
-WHERE (
-    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND Version = 1) OR
-    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND Version = 1)
-  )
-  AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-  AND EventDate <= @EndDate
+	FK_Patient_Link_ID, 
+	FluVaccineYearAndMonth = FORMAT(FluVaccineDate, 'MM-yyyy')
+FROM #PatientsWithFluVacConcept1
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
