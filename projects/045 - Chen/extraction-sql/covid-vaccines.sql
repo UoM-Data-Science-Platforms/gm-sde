@@ -660,13 +660,13 @@ DECLARE @EndDate datetime;
 SET @EndDate = '2023-12-31'
 
 SELECT PatientId = FK_Patient_Link_ID, 
-	VaccineDose1_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose1Date) -1 ), VaccineDose1Date), -- hide the day by setting to first of the month
-	VaccineDose2_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose2Date) -1 ), VaccineDose2Date), -- hide the day by setting to first of the month
-	VaccineDose3_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose3Date) -1 ), VaccineDose3Date), -- hide the day by setting to first of the month
-	VaccineDose4_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose4Date) -1 ), VaccineDose4Date), -- hide the day by setting to first of the month
-	VaccineDose5_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose5Date) -1 ), VaccineDose5Date), -- hide the day by setting to first of the month
-	VaccineDose6_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose6Date) -1 ), VaccineDose6Date), -- hide the day by setting to first of the month
-	VaccineDose7_YearAndMonth = DATEADD(dd, -( DAY( VaccineDose7Date) -1 ), VaccineDose7Date) -- hide the day by setting to first of the month
+	VaccineDose1_YearAndMonth = FORMAT(VaccineDose1Date, 'MM-yyyy'), 
+	VaccineDose2_YearAndMonth = FORMAT(VaccineDose2Date, 'MM-yyyy'), -- hide the day by setting to first of the month
+	VaccineDose3_YearAndMonth = FORMAT(VaccineDose3Date, 'MM-yyyy'), -- hide the day by setting to first of the month
+	VaccineDose4_YearAndMonth = FORMAT(VaccineDose4Date, 'MM-yyyy'), -- hide the day by setting to first of the month
+	VaccineDose5_YearAndMonth = FORMAT(VaccineDose5Date, 'MM-yyyy'), -- hide the day by setting to first of the month
+	VaccineDose6_YearAndMonth = FORMAT(VaccineDose6Date, 'MM-yyyy'), -- hide the day by setting to first of the month
+	VaccineDose7_YearAndMonth = FORMAT(VaccineDose7Date, 'MM-yyyy') -- hide the day by setting to first of the month
 FROM #COVIDVaccinations
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (VaccineDose1Date IS NULL OR VaccineDose1Date <= @EndDate)
