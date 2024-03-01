@@ -400,7 +400,7 @@ AND EventDate <= GETDATE();
 -- FINAL TABLE : ALL COVID TESTS FOR THE STUDY COHORT
 
 SELECT PatientId = FK_Patient_Link_ID, 
-	CovidTestDate,
+	CovidTestYearAndMonth = FORMAT(CovidTestDate , 'MM-yyyy'),
 	CovidTestResult, 
 	ClinicalCode
 FROM #AllCovidTests

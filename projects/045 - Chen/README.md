@@ -37,6 +37,7 @@ This project required the following reusable queries:
 - Find the closest value to a particular date
 - Care home status
 - Index Multiple Deprivation
+- Patient received flu vaccine in a given time period
 - COVID vaccinations
 - Patients with a COVID test result
 - COVID-related secondary admissions
@@ -152,6 +153,36 @@ A temp table as follows:
 _File_: `query-patient-imd.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### Patient received flu vaccine in a given time period
+To find patients who received a flu vaccine in a given time period
+
+_Assumptions_
+
+- We look for codes related to the administration of flu vaccines and codes for the vaccine itself
+
+_Input_
+```
+Takes three parameters
+  - date-from: YYYY-MM-DD - the start date of the time period (inclusive)
+  - date-to: YYYY-MM-DD - the end date of the time period (inclusive)
+ 	- id: string - an id flag to enable multiple temp tables to be created
+ Requires one temp table to exist as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientHadFluVaccine{id} (FK_Patient_Link_ID, FluVaccineDate)
+	- FK_Patient_Link_ID - unique patient id
+	- FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
+```
+_File_: `query-received-flu-vaccine.sql`
+
+_Link_: [https://github.com/rw251/.../query-received-flu-vaccine.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-received-flu-vaccine.sql)
 
 ---
 ### COVID vaccinations
@@ -471,6 +502,7 @@ This project required the following clinical code sets:
 - covid-positive-test-other v1
 - covid-vaccination v1
 - flu-vaccination v1
+- flu-vaccine v1
 - cancer v1
 - asthma v1
 - anxiety v1
@@ -591,6 +623,12 @@ LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://gith
 Any code that indicates that the patient has had a flu vaccine. Includes procedure codes and admin codes confirming a vaccination has been administered. **NB it does not include the flu vaccine product - see the `flu-vaccine` code set**
 
 LINK: [https://github.com/rw251/.../procedures/flu-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/flu-vaccination/1)
+
+### Flu vaccine
+
+Any code for the actual vaccine product. **NB it does not include codes for the flu vaccination procedure - see the `flu-vaccination` code set**
+
+LINK: [https://github.com/rw251/.../medications/flu-vaccine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/flu-vaccine/1)
 
 ### Cancer
 Readv2 codes from code sets published by in:
