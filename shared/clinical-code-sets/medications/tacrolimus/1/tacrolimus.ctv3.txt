@@ -1,0 +1,14 @@
+m5E1.	Tacrolimus monohydrate 0.03% ointment
+m5E2.	Tacrolimus monohydrate 0.1% ointment
+x05cp	Protopic 0.03% ointment
+x05cq	Protopic 0.1% ointment
+h831.	Tacrolimus 1mg capsule
+h832.	Tacrolimus 5mg capsule
+h834.	Prograf 1mg capsule
+h835.	Prograf 5mg capsule
+h837.	Prograf 0.5mg capsule
+h83A.	ADVAGRAF 5mg m/r capsules
+h83E.	ADOPORT 500micrograms capsules
+h83L.	CAPEXION 1mg capsules
+h83S.	ENVARSUS 4mg m/r tablets
+h83z.	Tacrolimus 0.5mg capsule

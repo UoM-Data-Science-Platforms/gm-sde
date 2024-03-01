@@ -1,2 +1,3 @@
 160601007	Non-smoker (& [never smoked tobacco])
 266919005	Never smoked tobacco (life style)
+221000119102	Never smoked any substance (finding)

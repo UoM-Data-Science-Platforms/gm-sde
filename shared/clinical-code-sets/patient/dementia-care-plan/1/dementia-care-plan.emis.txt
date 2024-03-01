@@ -1,0 +1,9 @@
+^ESCT1172375	Offer of dementia advance care planning review declined
+^ESCT1172376	Review of dementia advance care plan
+^ESCT1172377	Dementia advance care plan agreed
+^ESCT1211672	Dementia advance care planning declined
+^ESCT1262510	QOF (Quality and Outcomes Framework) quality indicator-related care invitation
+^ESCT1262632	QOF (Quality and Outcomes Framework) dementia quality indicator-related care invitation
+^ESCT1273432	QOF (Quality and Outcomes Framework) dementia quality indicator-related care invitation using preferred method of communication
+^ESCTDE821473	Dementia monitoring invitation
+EMISNQDE37	Dementia care plan

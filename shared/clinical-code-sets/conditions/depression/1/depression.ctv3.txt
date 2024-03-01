@@ -47,17 +47,8 @@ Eu333	[X]Recurrent severe episodes of reactive depressive psychosis
 Eu334	[X]Recurrent depressive disorder, currently in remission
 Eu33y	[X]Other recurrent depressive disorders
 Eu33z	[X] Monopolar depression NOS
-Eu34.	[X]Persistent mood affective disorders
-Eu34y	[X]Other persistent mood affective disorders
-Eu34z	[X]Persistent mood affective disorder, unspecified
-Eu3y.	[X]Other mood affective disorders
-Eu3y0	[X] Mixed affective episode
-Eu3y1	[X] Recurrent brief depressive episodes
-Eu3yy	[X]Other specified mood affective disorders
 Eu412	[X]Mixed anxiety and depressive disorder
-R007z	[D]Postoperative depression
 Ua18k	Abnormal bereavement reaction
-X00RM	Right hemispheric organic affective disorder
 X00S8	Post-schizophrenic depression
 X00SO	Depressive illness
 X00SQ	Agitated depression
@@ -77,7 +68,6 @@ X761K	Depression worse later in day
 X761L	SAD - Seasonal affective disorder
 XE0re	Sad mood
 XE0uv	Unhappy
-XE1Xy	Mood disorder
 XE1Y0	Single major depressive episode
 XE1Y1	Recurrent major depressive episodes
 XE1YC	Neurotic depression reactive type
@@ -90,9 +80,6 @@ XE1Zc	[X]Recurrent depressive disorder
 XE1Zd	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
 XE1Ze	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
 XE1Zf	[X]Recurrent depressive disorder, unspecified
-XE1Zg	[X]Other single mood affective disorders
-XE1Zh	[X]Other recurrent mood affective disorders
-XE1Zi	[X]Unspecified mood affective disorder
 XE1aY	Reactive (neurotic) depression
 XE1ae	Depressive personality
 XM0CR	C/O - feeling depressed
@@ -113,7 +100,6 @@ XaCIs	[X]Mild depression
 XaCIt	Moderate depression
 XaCIu	Severe depression
 XaImU	Depressive symptoms
-XaIoF	Patient unhappy with medication regime
 XaIpB	Postnatal depression counselling
 XaItx	Depression management programme
 XaJWh	On depression register
@@ -145,3 +131,20 @@ XagLY	Depression monitoring invitation SMS (short message service) text message
 XagO4	Depressive personality disorder
 XagU1	Recurrent reactive depressive episodes, severe, with psychosis
 XagUK	Prolonged single episode of reactive depression
+E0013	Presenile dementia with depression
+E0021	Senile dementia with depression
+E1154	Bipolar affective disorder, currently depressed, severe, with psychosis
+E1156	Bipolar affective disorder, currently depressed, in full remission
+Eu413	[X]Other mixed anxiety disorders
+Eu530	[X]Postnatal depression NOS
+Ua15r	Grieving
+Ua1q5	Bereavement
+Ua1Za	Mourning
+X00SR	Endogenous depression
+XaCHo	[X] Manic-depressive psychosis, depressed type without psychotic symptoms
+XE1aS	Agitated depression
+XE2un	Schizophreniform psychosis, depressive type
+XSKr7	Cotard syndrome
+ZV628	[V]Uncomplicated bereavement
+Ua15q	Grief observations
+XSGp0	Premenstrual dysphoric disorder

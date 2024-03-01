@@ -1,0 +1,8 @@
+h712.	IMURAN 25mg tablets
+h713.	IMURAN 50mg tablets
+h714.	IMURAN 50mg injection (pdr for recon)
+h715.	*IMMUNOPRIN 50mg tablets
+h71A.	AZAPRESS 50mg tablets
+h71x.	AZATHIOPRINE 50mg tablets
+h71y.	AZATHIOPRINE 25mg tablets
+h71z.	AZATHIOPRINE 50mg injection (pdr for recon)

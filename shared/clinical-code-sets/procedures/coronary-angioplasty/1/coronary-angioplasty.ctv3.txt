@@ -17,5 +17,4 @@ XaLgY	Percutaneous coronary balloon angioplasty and 3 or more stents into corona
 XaLgZ	Other specified percutaneous transluminal balloon angioplasty and stenting of coronary artery
 XaLga	Percutaneous transluminal balloon angioplasty and stenting of coronary artery NOS
 XaMKE	Percutaneous transluminal cutting balloon angioplasty of coronary artery
-XaX1p	Coronary angioplasty planned
 ZV458	[V]Presence of coronary angioplasty implant and graft

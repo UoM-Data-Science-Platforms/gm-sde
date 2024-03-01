@@ -59,3 +59,13 @@ Xac33	Asthma-chronic obstructive pulmonary disease overlap syndrom
 X1020	Hay fever with asthma
 Xafdj	Acute severe exacerbation of asthma
 Xafdy	Moderate acute exacerbation of asthma
+663V0	Occasional asthma
+663V1	Mild asthma
+X102G	Asthmatic pulmonary eosinophilia
+XaDvK	Asthma - currently active
+Xafdz	Life threatening acute exacerbation of asthma
+XaIoE	Asthma night-time symptoms
+H440.	Byssinosis
+X102B	Mill fever
+XaEKI	Flax-dressers' disease
+H35y7	Wood pulp workers' lung

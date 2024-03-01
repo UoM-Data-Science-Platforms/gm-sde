@@ -18,7 +18,6 @@ N0002	Drug-induced systemic lupus erythematosus
 N000z	Systemic lupus erythematosus NOS
 Nyu43	[X]Other forms of systemic lupus erythematosus
 X00Dx	Cerebral lupus
-X00Dx	Cerebral lupus
 X30Kn	Lupus nephritis - WHO Class I
 X30Ko	Lupus nephritis - WHO Class II
 X30Kp	Lupus nephritis - WHO Class III
@@ -37,8 +36,9 @@ X704d	Cutaneous lupus erythematosus
 X704g	Neonatal lupus erythematosus
 X704h	Subacute cutaneous lupus erythematosus
 XE0da	Lupus nephritis
-XE0da	Lupus nephritis
 XM197	[EDTA] Lupus erythematosus associated with renal failure
 XaBE1	Renal tubulo-interstitial disord in systemic lupus erythemat
 XaC1J	Systemic lupus erythematosus with pericarditis
-
+X0046	Chorea in systemic lupus erythematosus
+X1038	Lupus pneumonia
+X705w	Lupus vasculitis

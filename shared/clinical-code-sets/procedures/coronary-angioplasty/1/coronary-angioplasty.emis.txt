@@ -1,16 +1,25 @@
 ^ESCTBA267661	Balloon angioplasty of coronary artery
 ^ESCTBA388343	Balloon angioplasty of coronary artery, multiple vessels
 ^ESCTCO272498	Coronary angioplasty by open chest approach
-^ESCTCO298033	Coronary atherectomy by laser
 ^ESCTCO316620	Coronary angioplasty
 ^ESCTHI708760	History of coronary artery disease with stent placement
 ^ESCTLA298034	Laser coronary angioplasty
 ^ESCTPE267662	Percutaneous transluminal coronary balloon angioplasty
 ^ESCTPE267664	Percutaneous angioplasty of coronary artery
-^ESCTPE298035	Percutaneous laser coronary endarterectomy
 ^ESCTPE388342	Percutaneous transluminal coronary angioplasty, multiple vessels
 ^ESCTPE658311	Percutaneous transluminal coronary angioplasty by rotoablation
-^ESCTPE658313	Percutaneous rotational coronary endarterectomy
 ^ESCTPT267663	PTCA - Percutaneous transluminal coronary angioplasty
 ^ESCTRE361414	Removal of coronary artery obstruction by percutaneous transluminal balloon, single vessel
-EMISNQCA1102	Cardiac resynchronisation therapy defibrillator device in situ
+^ESCT1200934	Percutaneous transluminal angioplasty of coronary artery using drug eluting balloon catheter
+^ESCT1200935	Percutaneous transluminal coronary angioplasty using drug eluting balloon catheter
+^ESCT1420033	Fluoroscopy guided angioplasty of coronary artery with contrast
+^ESCT1420034	Angioplasty of coronary artery using fluoroscopic guidance with contrast
+^ESCT1420249	Fluoroscopy guided percutaneous transluminal angioplasty of coronary artery with contrast
+^ESCT1420250	Percutaneous transluminal angioplasty of coronary artery using fluoroscopic guidance with contrast
+^ESCTFL692169	Fluoroscopic angioplasty of coronary artery
+^ESCTFL692170	Fluoroscopy and angioplasty of coronary artery
+^ESCTFL710918	Fluoroscopic percutaneous transluminal angioplasty of coronary artery
+^ESCTIN373178	Infusion of intra-arterial thrombolytic agent with percutaneous transluminal coronary angioplasty
+^ESCTIN381346	Infusion of intra-arterial thrombolytic agent with percutaneous transluminal coronary angioplasty, multiple vessels
+^ESCTIN398400	Infusion of intra-arterial thrombolytic agent with percutaneous transluminal coronary angioplasty, single vessel
+^ESCTPE658678	Percutaneous transluminal coronary angioplasty with rotoablation, single vessel

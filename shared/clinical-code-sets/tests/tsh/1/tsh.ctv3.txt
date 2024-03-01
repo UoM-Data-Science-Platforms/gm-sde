@@ -1,0 +1,4 @@
+442A.	TSH - thyroid stimulating hormone (& level)
+XaELV	Serum TSH level
+XaELW	Plasma TSH level
+XE2wy	Thyroid stimulating hormone level

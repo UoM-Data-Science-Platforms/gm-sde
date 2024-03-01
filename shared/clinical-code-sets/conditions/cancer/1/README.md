@@ -20,3 +20,8 @@ By examining the prevalence of codes (number of patients with the code in their 
 | cancer  | 1         | TPP       | 211345   | 9607	               | 7280                        | 4.5456481109087      | 3.44460479311079             |
 | cancer  | 1         | Vision    | 336528   | 16642               | 11427                       | 4.94520515380592     | 3.39555698188561             |
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-02-22 | EMIS | 2524209 | 123626 (4.9%) | 123152 (4.88%) | 
+| 2024-02-22 | TPP | 201752 | 11008 (5.46%) | 8580 (4.25%) | 
+| 2024-02-22 | Vision | 335007 | 16786 (5.01%) | 16713 (4.99%) | 

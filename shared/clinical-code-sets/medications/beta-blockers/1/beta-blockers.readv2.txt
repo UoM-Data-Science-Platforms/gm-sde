@@ -1,0 +1,169 @@
+bd11.	PROPRANOLOL 10mg tablets
+bd12.	PROPRANOLOL 40mg tablets
+bd13.	PROPRANOLOL 80mg tablets
+bd14.	PROPRANOLOL 160mg tablets
+bd1g.	BEDRANOL SR 160mg m/r capsules
+bd1G.	BETA-PROGRANE 160mg m/r capsules
+bd1H.	PROPRANOLOL 1mg/1mL injection
+bd1I.	PROPRANOLOL 5mg/5mL syrup
+bd1J.	PROPRANOLOL 50mg/5mL syrup
+bd1l.	HALF-INDERAL LA 80mg m/r capsules
+bd1L.	HALF BETA-PROGRANE 80mg m/r capsules
+bd1m.	*INDERAL 10mg tablets
+bd1n.	*INDERAL 40mg tablets
+bd1o.	*INDERAL 80mg tablets
+bd1P.	PROPRANOLOL HYDROCHLORIDE 10mg/5mL syrup
+bd1q.	*INDERAL 1mg/1mL injection
+bd1Q.	PROPRANOLOL HYDROCHLORIDE 40mg/5mL syrup
+bd1r.	*INDERAL-LA 160mg m/r capsules
+bd1x.	PROPRANOLOL 160mg m/r capsules
+bd1y.	PROPRANOLOL 80mg m/r capsules
+bd1z.	SYPROL 10mg/5mL oral solution
+bd1Z.	SYPROL 5mg/5mL oral solution
+bd21.	SECTRAL 100mg capsules
+bd22.	SECTRAL 200mg capsules
+bd23.	SECTRAL 400mg tablets
+bd2w.	ACEBUTOLOL 100mg capsules
+bd2x.	ACEBUTOLOL 200mg capsules
+bd2y.	ACEBUTOLOL 400mg tablets
+bd31.	TENORMIN 100mg tablets
+bd32.	TENORMIN 25mg/5mL syrup
+bd33.	TENORMIN 5mg/10mL injection
+bd34.	TENORMIN LS 50mg tablets
+bd35.	ATENOLOL 50mg tablets
+bd36.	ATENOLOL 100mg tablets
+bd3a.	*ANTIPRESSAN 50mg tablets
+bd3b.	*ANTIPRESSAN 100mg tablets
+bd3c.	*TENORMIN 25 tablets
+bd3f.	ATENIX 50mg tablets
+bd3g.	ATENIX 100mg tablets
+bd3j.	ATENOLOL 25mg tablets
+bd3l.	*ANTIPRESSAN 25mg tablets
+bd3x.	ATENOLOL 25mg/5mL syrup
+bd3y.	ATENOLOL 5mg/10mL injection
+bd3z.	ATENIX 25mg tablets
+bd41.	*KERLONE 20mg tablets
+bd4z.	BETAXOLOL HYDROCHLORIDE 20mg tablets
+bd51.	LABETALOL 100mg tablets
+bd53.	LABETALOL 400mg tablets
+bd57.	TRANDATE 50mg tablets
+bd58.	TRANDATE 100mg tablets
+bd59.	TRANDATE 200mg tablets
+bd5a.	TRANDATE 400mg tablets
+bd5b.	*TRANDATE 100mg/20mL injection
+bd5u.	*LABETALOL 200mg tablets
+bd5v.	LABETALOL 50mg tablets
+bd5z.	LABETALOL 100mg/20mL injection
+bd61.	*BETALOC 50mg tablets
+bd62.	*BETALOC 100mg tablets
+bd63.	BETALOC 5mg/5mL injection
+bd64.	BETALOC-SA DURULES 200mg m/r tablets
+bd65.	LOPRESOR 50mg tablets
+bd66.	LOPRESOR 100mg tablets
+bd6b.	LOPRESOR SR 200mg m/r tablets
+bd6w.	METOPROLOL 100mg tablets
+bd6x.	METOPROLOL 50mg tablets
+bd6y.	METOPROLOL 5mg/5mL injection
+bd6z.	METOPROLOL 200mg m/r tablets
+bd71.	*CORGARD 40mg tablets
+bd72.	CORGARD 80mg tablets
+bd7y.	*NADOLOL 40mg tablets
+bd7z.	NADOLOL 80mg tablets
+bd81.	OXPRENOLOL 20mg tablets
+bd82.	OXPRENOLOL 40mg tablets
+bd83.	OXPRENOLOL 80mg tablets
+bd8e.	SLOW-TRASICOR 160mg m/r tablets
+bd8f.	*TRASICOR 20mg tablets
+bd8g.	*TRASICOR 40mg tablets
+bd8h.	*TRASICOR 80mg tablets
+bd8u.	OXPRENOLOL 160mg m/r tablets
+bda1.	VISKEN 5mg tablets
+bda2.	VISKEN 15mg tablets
+bday.	PINDOLOL 5mg tablets
+bdaz.	PINDOLOL 15mg tablets
+bdc1.	*BETA-CARDONE 40mg tablets
+bdc2.	BETA-CARDONE 80mg tablets
+bdc3.	BETA-CARDONE 200mg tablets
+bdc4.	SOTACOR 80mg tablets
+bdc5.	*SOTACOR 160mg tablets
+bdc8.	*SOTACOR 40mg/4mL injection
+bdcs.	*SOTALOL 40mg/4mL injection
+bdcu.	SOTALOL 40mg tablets
+bdcv.	SOTALOL 80mg tablets
+bdcw.	SOTALOL 200mg tablets
+bdcx.	SOTALOL 160mg tablets
+bdd1.	*BETIM 10mg tablets
+bddz.	TIMOLOL 10mg tablets
+bde1.	*CO-BETALOC tablets
+bde2.	*CO-BETALOC SA m/r tablets
+bde3.	*CORGARETIC-40 tablets
+bde4.	*CORGARETIC-80 tablets
+bde5.	*INDERETIC capsules
+bde6.	*INDEREX m/r capsules
+bde7.	KALTEN capsules
+bdeA.	METOPROLOL TART+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
+bdeb.	PRESTIM tablets
+bded.	*SECADREX tablets
+bdeg.	TENORET-50 tablets
+bdeG.	PINDOLOL+CLOPAMIDE 10mg/5mg tablets
+bdeh.	TENORETIC tablets
+bdej.	*TRASIDREX tablets
+bdek.	VISKALDIX tablets
+bdem.	CO-TENIDONE 50/12.5mg tablets
+bden.	CO-TENIDONE 100/25mg tablets
+bdeo.	ATENIXCO 50/12.5mg tablets
+bdep.	*ATENIXCO 100/25mg tablets
+bdeq.	*TENCHLOR 50/12.5mg tablets
+bdeQ.	*TENBEN capsules
+bder.	*TENCHLOR 100/25mg tablets
+bdes.	*BETA-ADALAT 50/20mg capsules
+bdet.	TENIF 50/20mg capsules
+bdeu.	CO-PRENOZIDE 160/0.25mg m/r tablets
+bdex.	ACEBUTOLOL+HYDROCHLOROTHIAZIDE 200mg/12.5mg tablets
+bdf1.	BISOPROLOL FUMARATE 5mg tablets
+bdf2.	BISOPROLOL FUMARATE 10mg tablets
+bdf3.	*MONOCOR 5mg tablets
+bdf4.	*MONOCOR 10mg tablets
+bdf5.	*EMCOR LS 5mg tablets
+bdf6.	*EMCOR 10mg tablets
+bdf7.	*MONOZIDE-10 tablets
+bdf9.	CARDICOR 1.25mg tablets
+bdfA.	CARDICOR 2.5mg tablets
+bdfB.	CARDICOR 3.75mg tablets
+bdfC.	CARDICOR 5mg tablets
+bdfD.	CARDICOR 7.5mg tablets
+bdfE.	CARDICOR 10mg tablets
+bdfF.	*BIPRANIX 5mg tablets
+bdfG.	*BIPRANIX 10mg tablets
+bdfH.	*SOLOC 5mg tablets
+bdfI.	*SOLOC 10mg tablets
+bdfJ.	VIVACOR 10mg tablets
+bdfK.	VIVACOR 5mg tablets
+bdfw.	BISOPROLOL FUMARATE 1.25mg tablets
+bdfx.	BISOPROLOL FUMARATE 2.5mg tablets
+bdfy.	BISOPROLOL FUMARATE 3.75mg tablets
+bdfz.	BISOPROLOL FUMARATE 7.5mg tablets
+bdj1.	CELIPROLOL 200mg tablets
+bdj3.	CELECTOL 200mg tablets
+bdj4.	CELIPROLOL 400mg tablets
+bdj5.	CELECTOL 400mg tablets
+bdk1.	ESMOLOL HCL 2.5g/10mL injection
+bdk3.	BREVIBLOC CONCENTRATE 2.5g/10mL injection
+bdl1.	*EUCARDIC 12.5 tablets
+bdl2.	*EUCARDIC 25 tablets
+bdl3.	CARVEDILOL 12.5mg tablets
+bdl4.	CARVEDILOL 25mg tablets
+bdl5.	CARVEDILOL 3.125mg tablets
+bdl6.	CARVEDILOL 6.25mg tablets
+bdl7.	*EUCARDIC 3.125 tablets
+bdl8.	*EUCARDIC 6.25 tablets
+bdm1.	NEBILET 5mg tablets
+bdm2.	HYPOLOC 5mg tablets
+bdmy.	NEBIVOLOL 2.5mg tablets
+bdmz.	NEBIVOLOL 5mg tablets
+bdn1.	SYPROL 50mg/5mL oral solution
+bdn2.	BEDRANOL SR 80mg m/r capsules
+bdn3.	*RAPRANOL SR 80mg m/r capsules
+bdn4.	RAPRANOL SR 160mg m/r capsules
+bdn5.	SYPROL 40mg/5mL oral solution
+bdn6.	PROPRANOLOL HYDROCHLORIDE 40mg/5mL sugar free oral solution

@@ -67,7 +67,7 @@ This data is available for the following hospitals within GM:
 | Hospital                                | A&E data from | In-patient from | Out-patient from |
 | --------------------------------------- | ------------- | --------------- | ---------------- |
 | Bolton NHS Foundation Trust             | 2020-11       | 2018-02         | No data          |
-| Central Manchester University Hospitals | 2018-01       | 2017-01         | 2017-01          |
+| Central Manchester University Hospitals | 2018-01       | 2018-01         | 2017-01          |
 | Pennine Acute Hospitals                 | 2018-02       | 2018-02         | 2018-01          |
 | Salford Royal NHS Foundation Trust      | 2020-07       | 2020-07         | 2020-05          |
 | Stockport NHSFT                         | 2020-12       | 2020-05         | 2020-09          |

@@ -34,7 +34,6 @@
 ^ESCTCA504024	CABG x 5 - Coronary artery bypass grafts x 5
 ^ESCTCA504026	CABG >5 - Coronary artery bypass grafts greater than five
 ^ESCTCB504010	CBG - Coronary bypass graft
-^ESCTCO300628	Coronary artery surgery
 ^ESCTCO504011	Coronary artery bypass grafting
 ^ESCTCO504014	Coronary artery bypass graft x 1
 ^ESCTCO504016	Coronary artery bypass grafts x 2
@@ -44,7 +43,151 @@
 ^ESCTCO504025	Coronary artery bypass grafts greater than 5
 ^ESCTCV255542	CVG - Coronary vein graft
 ^ESCTHI661988	History of coronary artery bypass grafting
-^ESCTOP300626	Operative procedure on coronary artery
-^ESCTOP300627	Operative procedure on coronary arteries
 ^ESCTPA661989	Past history of coronary artery bypass grafting
 ^ESCTTR504019	Triple coronary bypass
+^ESCT1167237	Bypass of four or more coronary arteries with prosthesis
+^ESCT1167238	Prosthetic bypass of four or more coronary arteries
+^ESCT1167239	Bypass of one coronary artery with prosthesis
+^ESCT1167240	Prosthetic bypass of one coronary artery
+^ESCT1167241	Bypass of three coronary arteries with prosthesis
+^ESCT1167242	Prosthetic bypass of three coronary arteries
+^ESCT1167243	Bypass of two coronary arteries with prosthesis
+^ESCT1167244	Prosthetic bypass of two coronary arteries
+^ESCT1396148	Coronary artery bypass grafting using radial artery graft
+^ESCT1396149	Coronary artery bypass grafting using gastroepiploic artery graft
+^ESCT1396150	Coronary artery bypass grafting using free right internal thoracic artery graft
+^ESCT1396151	Coronary artery bypass graft using free RIMA (right internal mammary artery) graft
+^ESCT1396152	Coronary artery bypass grafting using free right internal mammary artery graft
+^ESCT1396153	Coronary artery bypass grafting using free left internal thoracic artery graft
+^ESCT1396154	Coronary artery bypass graft using free LIMA (left internal mammary artery) graft
+^ESCT1396155	Coronary artery bypass graft using free left internal mammary artery graft
+^ESCT1396901	Anastomosis of right internal thoracic artery to coronary artery
+^ESCT1396902	Anastomosis of RIMA (right internal mammary artery) to coronary artery
+^ESCT1396903	Anastomosis of left internal thoracic artery to coronary artery
+^ESCT1396904	Anastomosis of LIMA (left internal mammary artery) to coronary artery
+^ESCT1396959	Sequential anastomosis of left internal thoracic artery to coronary artery
+^ESCT1396960	Sequential anastomosis of LIMA (left internal mammary artery) to coronary artery
+^ESCT1396961	Sequential anastomosis of right internal thoracic artery to coronary artery
+^ESCT1396962	Sequential anastomosis of RIMA (right internal mammary artery) to coronary artery
+^ESCT1396963	Sequential anastomosis of free right internal thoracic artery to coronary artery
+^ESCT1396964	Sequential anastomosis of free RIMA (right internal mammary artery) to coronary artery
+^ESCT1405621	ACVG - aortocoronary vein graft
+^ESCT1405622	CAVG - coronary artery vein graft
+^ESCT1405623	CVG - coronary vein graft
+^ESCT1406015	Aortocoronary bypass grafting
+^ESCT1406546	Creation of bypass from mammary artery to coronary artery
+^ESCT1416077	Anastomosis of left internal thoracic artery to left anterior descending coronary artery
+^ESCT1416078	Anastomosis of LIMA (left internal mammary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416079	Anastomosis of LITA (left internal thoracic artery) to LAD (left anterior descending) coronary artery
+^ESCT1416080	Anastomosis of left internal mammary artery to left anterior descending coronary artery
+^ESCT1416255	Sequential anastomosis of left internal thoracic artery from second obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery
+^ESCT1416256	Sequential anastomosis of left internal mammary artery from second obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery
+^ESCT1416257	Sequential anastomosis of LIMA (left internal mammary artery) from OM2 (second obtuse marginal) branch of LCX (left circumflex coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416258	Sequential anastomosis of LITA (left internal thoracic artery) from OM2 (second obtuse marginal) branch of LCX (left circumflex coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416259	Sequential anastomosis of left internal thoracic artery from first obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery
+^ESCT1416260	Sequential anastomosis of LIMA (left internal mammary artery) from OM1 (first obtuse marginal) branch of LCX (left circumflex coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416261	Sequential anastomosis of LITA (left internal thoracic artery) from OM1 (first obtuse marginal) branch of LCX (left circumflex coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416262	Sequential anastomosis of left internal mammary artery from first obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery
+^ESCT1416263	Sequential anastomosis of left internal thoracic artery from ramus intermedius branch of left coronary artery to left anterior descending coronary artery
+^ESCT1416264	Sequential anastomosis of LIMA (left internal mammary artery) from RI (ramus intermedius) branch of LCA (left coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416265	Sequential anastomosis of left internal mammary artery from ramus intermedius branch of left coronary artery to left anterior descending coronary artery
+^ESCT1416266	Sequential anastomosis of LITA (left internal thoracic artery) from RI (ramus intermedius) branch of LCA (left coronary artery) to LAD (left anterior descending) coronary artery
+^ESCT1416414	Anastomosis of left internal thoracic artery to diagonal branch of anterior descending branch of left coronary artery
+^ESCT1416415	Anastomosis of LITA (left internal thoracic artery) to diagonal branch of anterior descending branch of left coronary artery
+^ESCT1416416	Anastomosis of LIMA (left internal mammary artery) to diagonal branch of anterior descending branch of left coronary artery
+^ESCT1416417	Anastomosis of left internal mammary artery to diagonal branch of anterior descending branch of left coronary artery
+^ESCT1416460	Anastomosis of left internal thoracic artery to intermediate artery
+^ESCT1416461	Anastomosis of LIMA (left internal mammary artery) to RI (ramus intermedius) artery
+^ESCT1416462	Anastomosis of left internal mammary artery to ramus intermedius artery
+^ESCT1416463	Anastomosis of LITA (left internal thoracic artery) to RI (ramus intermedius) artery
+^ESCT1416464	Anastomosis of left internal thoracic artery to obtuse marginal branch of circumflex branch of left coronary artery
+^ESCT1416465	Anastomosis of left internal mammary artery to obtuse marginal branch of circumflex branch of left coronary artery
+^ESCT1416466	Anastomosis of LIMA (left internal mammary artery) to OM (obtuse marginal) branch of circumflex branch of left coronary artery
+^ESCT1416467	Anastomosis of LITA (left internal thoracic artery) to OM (obtuse marginal) branch of circumflex branch of left coronary artery
+^ESCT1416495	Sequential anastomosis of left internal thoracic artery from second diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery
+^ESCT1416496	Sequential anastomosis of left internal mammary artery from second diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery
+^ESCT1416497	Sequential anastomosis of LITA (left internal thoracic artery) from D2 (second diagonal) branch of anterior descending branch of left coronary artery to LAD (left anterior descending) artery
+^ESCT1416498	Sequential anastomosis of LIMA (left internal mammary artery) from D2 (second diagonal) branch of anterior descending branch of left coronary artery to LAD (left anterior descending) artery
+^ESCT1416499	Sequential anastomosis of left internal thoracic artery from first diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery
+^ESCT1416500	Sequential anastomosis of LITA (left internal thoracic artery) from D1 (first diagonal) branch of anterior descending branch of left coronary artery to LAD (left anterior descending) artery
+^ESCT1416501	Sequential anastomosis of LIMA (left internal mammary artery) from D1 (first diagonal) branch of anterior descending branch of left coronary artery to LAD (left anterior descending) artery
+^ESCT1416502	Sequential anastomosis of left internal mammary artery from first diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery
+^ESCT1416503	Sequential anastomosis of left internal thoracic artery from proximal portion of anterior descending branch of left coronary artery to mid portion of anterior descending branch of left coronary artery
+^ESCT1416504	Sequential anastomosis of left internal mammary artery from proximal portion of anterior descending branch of left coronary artery to mid portion of anterior descending branch of left coronary artery
+^ESCT1416505	Sequential anastomosis of LITA (left internal thoracic artery) from proximal portion of anterior descending branch of left coronary artery to mid portion of anterior descending branch of left coronary artery
+^ESCT1416506	Sequential anastomosis of LIMA (left internal mammary artery) from proximal portion of anterior descending branch of left coronary artery to mid portion of anterior descending branch of left coronary artery
+^ESCT1416507	Sequential anastomosis of left internal thoracic artery from proximal portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416508	Sequential anastomosis of LIMA (left internal mammary artery) from proximal portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416509	Sequential anastomosis of LITA (left internal thoracic artery) from proximal portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416510	Sequential anastomosis of left internal mammary artery from proximal portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416511	Sequential anastomosis of left internal thoracic artery from mid portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416512	Sequential anastomosis of LIMA (left internal mammary artery) from mid portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416513	Sequential anastomosis of left internal mammary artery from mid portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1416514	Sequential anastomosis of LITA (left internal thoracic artery) from mid portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery
+^ESCT1420968	Fluoroscopic angiography of left ventricle and coronary artery bypass graft with contrast
+^ESCTAC359204	ACB graft
+^ESCTAN299439	Anastomosis of thoracic artery to coronary artery, double
+^ESCTAN313901	Anastomosis of internal mammary artery to coronary artery, double vessel
+^ESCTAN328357	Anastomosis of thoracic artery to coronary artery, single
+^ESCTAN620408	Anastomosis of internal mammary artery to coronary artery, single vessel
+^ESCTAO264179	Aortocoronary artery bypass graft with prosthesis
+^ESCTAO266221	Aortocoronary bypass of four or more coronary arteries
+^ESCTAO272687	Aortocoronary bypass of three coronary arteries
+^ESCTAO277101	Aortocoronary artery bypass graft with vein graft
+^ESCTAO297992	Aortocoronary bypass of one coronary artery
+^ESCTAO359202	Aortocoronary artery bypass graft
+^ESCTAO359203	Aortocoronary bypass for heart revascularization
+^ESCTAO359207	Aortocoronary bypass for heart revascularisation
+^ESCTAO397063	Aortocoronary bypass of two coronary arteries
+^ESCTAO671597	Aortocoronary artery bypass graft with two vein grafts
+^ESCTAO671598	Aortocoronary artery bypass graft with three vein grafts
+^ESCTBY313902	Bypass of internal mammary-coronary artery, double vessel
+^ESCTBY620407	Bypass internal mammary-coronary artery, single
+^ESCTCA266222	Cardiac revascularization with bypass aortocoronary anastomosis of four coronary vessels
+^ESCTCA266223	Cardiac revascularisation with bypass aortocoronary anastomosis of four coronary vessels
+^ESCTCA272688	Cardiac revascularization with bypass aortocoronary anastomosis of three coronary vessels
+^ESCTCA272689	Cardiac revascularisation with bypass aortocoronary anastomosis of three coronary vessels
+^ESCTCA297993	Cardiac revascularization with bypass aortocoronary anastomosis of one coronary vessel
+^ESCTCA297994	Cardiac revascularisation with bypass aortocoronary anastomosis of one coronary vessel
+^ESCTCA299440	Cardiac revascularization with bypass anastomosis of thoracic artery to coronary artery, double vessel
+^ESCTCA299441	Cardiac revascularisation with bypass anastomosis of thoracic artery to coronary artery, double vessel
+^ESCTCA313904	Cardiac revascularization with bypass anastomosis of internal mammary-coronary artery, double vessel
+^ESCTCA313905	Cardiac revascularisation with bypass anastomosis of internal mammary-coronary artery, double vessel
+^ESCTCA328358	Cardiac revascularization with bypass anastomosis of thoracic artery to coronary artery, single vessel
+^ESCTCA328359	Cardiac revascularisation with bypass anastomosis of thoracic artery to coronary artery, single vessel
+^ESCTCA359206	Cardiac revascularization with aortocoronary bypass anastomosis
+^ESCTCA359208	Cardiac revascularisation with aortocoronary bypass anastomosis
+^ESCTCA397064	Cardiac revascularization with bypass aortocoronary anastomosis of two coronary vessels
+^ESCTCA397065	Cardiac revascularisation with bypass aortocoronary anastomosis of two coronary vessels
+^ESCTCA620406	Cardiac revascularization with bypass anastomosis of internal mammary to coronary artery, single vessel
+^ESCTCA620409	Cardiac revascularisation with bypass anastomosis of internal mammary to coronary artery, single vessel
+^ESCTCO266423	Coronary artery bypass with autogenous graft, three grafts
+^ESCTCO313080	Coronary artery bypass with autogenous graft, four grafts
+^ESCTCO370895	Coronary artery bypass with autogenous graft, two grafts
+^ESCTCO383778	Coronary artery bypass with autogenous graft, five grafts
+^ESCTCO431791	Coronary artery bypass graft, anastomosis of artery of thorax to coronary artery
+^ESCTCO620412	Coronary artery bypass with autogenous graft of internal mammary artery, single graft
+^ESCTDO299442	Double anastomosis of thoracic arteries to coronary arteries
+^ESCTDO313903	Double internal mammary-coronary artery bypass
+^ESCTEM685184	Emergency CABG
+^ESCTEM685185	Emergency coronary artery bypass graft
+^ESCTEN827003	Endoscopic robot assisted coronary artery bypass
+^ESCTFL723563	Fluoroscopic angiography of left ventricle and coronary artery bypass graft
+^ESCTFL723564	Fluoroscopic angiogram of left ventricle and CABG (coronary artery bypass graft)
+^ESCTHI804105	History of placement of stent in coronary artery bypass graft
+^ESCTIN431790	Internal mammary-coronary artery bypass graft
+^ESCTLA692303	Laparoscopic coronary artery bypass using robotic assistance
+^ESCTLE557061	Left internal mammary artery (LIMA) single anastomosis
+^ESCTLE557062	Left internal mammary artery single anastomosis
+^ESCTPL787609	Placement of stent in coronary artery bypass graft
+^ESCTRA692302	RACAB - Robot assisted coronary artery bypass
+^ESCTRI557064	Right internal mammary artery (RIMA) single anastomosis
+^ESCTRI557065	Right internal mammary artery single anastomosis
+^ESCTRO692300	Robot assisted laparoscopic coronary artery bypass
+^ESCTRO692301	Robot assisted coronary artery bypass
+^ESCTSI620405	Single internal mammary-coronary artery bypass
+^ESCTVA359205	Vascular aortocoronary bypass
+^ESCTLE557113	Left internal mammary artery (LIMA) sequential anastomosis
+^ESCTLE557114	Left internal mammary artery sequential anastomosis
+^ESCTRI557116	Right internal mammary artery (RIMA) sequential anastomosis
+^ESCTRI557117	Right internal mammary artery sequential anastomosis

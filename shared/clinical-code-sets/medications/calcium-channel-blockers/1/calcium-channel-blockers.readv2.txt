@@ -1,0 +1,211 @@
+bb31.	VERAPAMIL 40mg tablets
+bb32.	VERAPAMIL 80mg tablets
+bb33.	VERAPAMIL 120mg tablets
+bb38.	*CORDILOX 40mg tablets
+bb39.	*CORDILOX 80mg tablets
+bb3a.	CORDILOX 120mg tablets
+bb3A.	VERAPAMIL 240mg m/r tablets
+bb3b.	*CORDILOX 160mg tablets
+bb3B.	HALF SECURON SR 120mg m/r tablets
+bb3C.	VERAPAMIL 120mg m/r tablets
+bb3D.	VERAPAMIL 40mg/5mL sugar free solution
+bb3f.	*SECURON 120mg tablets
+bb3j.	SECURON SR 240mg m/r tablets
+bb3K.	*VERAPRESS MR 240 m/r tablets
+bb3L.	*ETHIMIL MR 240 m/r tablets
+bb3M.	CORDILOX MR 240 m/r tablets
+bb3N.	ZOLVERA 40mg/5mL oral solution
+bb3o.	SECURON IV 5mg/2mL injection
+bb3O.	*RANVERA MR 240mg m/r tablets
+bb3P.	VERA-TIL SR 240mg m/r tablets
+bb3Q.	VERA-TIL SR 120mg m/r tablets
+bb3s.	VERTAB SR 240 m/r tablets
+bb3w.	VERAPAMIL 160mg tablets
+bb3y.	VERAPAMIL 240mg m/r capsules
+bb3z.	VERAPAMIL 180mg m/r capsules
+bkD2.	AMLODIPINE+VALSARTAN 5mg/160mg tablets
+bkD3.	AMLODIPINE+VALSARTAN 10mg/160mg tablets
+bkDx.	EXFORGE 10mg/160mg tablets
+bkDy.	EXFORGE 5mg/160mg tablets
+bkDz.	EXFORGE 5mg/80mg tablets
+bl51.	TILDIEM 60mg tablets
+bl54.	ADIZEM-SR 120mg m/r tablets
+bl55.	DILTIAZEM HYDROCHLORIDE 120mg m/r tablets
+bl56.	*ANGIOZEM 60mg tablets
+bl58.	TILDIEM RETARD 90mg m/r tablets
+bl59.	TILDIEM RETARD 120mg m/r tablets
+bl5a.	DILTIAZEM HYDROCHLORIDE 90mg m/r tablets
+bl5A.	TILDIEM LA 300mg m/r capsules
+bl5b.	DILTIAZEM HYDROCHLORIDE 300mg m/r capsules
+bl5B.	ADIZEM-SR 90mg m/r capsules
+bl5c.	DILTIAZEM HYDROCHLORIDE 90mg m/r capsules
+bl5C.	ADIZEM-SR 120mg m/r capsules
+bl5d.	DILTIAZEM HYDROCHLORIDE 120mg m/r capsules
+bl5D.	ADIZEM-SR 180mg m/r capsules
+bl5e.	DILTIAZEM HYDROCHLORIDE 180mg m/r capsules
+bl5E.	ADIZEM-XL 300mg m/r capsules
+bl5f.	DILTIAZEM HYDROCHLORIDE 60mg m/r capsules
+bl5F.	DILZEM SR 60mg m/r capsules
+bl5g.	DILTIAZEM HYDROCHLORIDE 240mg m/r capsules
+bl5G.	DILZEM SR 90mg m/r capsules
+bl5h.	DILTIAZEM HYDROCHLORIDE 200mg m/r capsules
+bl5H.	DILZEM SR 120mg m/r capsules
+bl5I.	ADIZEM-XL 240mg m/r capsules
+bl5J.	ADIZEM-XL 180mg m/r capsules
+bl5k.	*ANGIOZEM CR 90mg m/r tablets
+bl5K.	ADIZEM-XL 120mg m/r capsules
+bl5l.	DILCARDIA SR 60mg m/r capsules
+bl5L.	DILZEM-XL 120mg m/r capsules
+bl5m.	*ANGIOZEM CR 120mg m/r tablets
+bl5M.	DILZEM-XL 180mg m/r capsules
+bl5n.	ZEMTARD 300 XL m/r capsules
+bl5N.	DILZEM-XL 240mg m/r capsules
+bl5o.	VIAZEM XL 120mg m/r capsules
+bl5O.	SLOZEM 120mg m/r capsules
+bl5p.	VIAZEM XL 180mg m/r capsules
+bl5P.	SLOZEM 180mg m/r capsules
+bl5q.	VIAZEM XL 240mg m/r capsules
+bl5Q.	SLOZEM 240mg m/r capsules
+bl5r.	VIAZEM XL 300mg m/r capsules
+bl5R.	ANGITIL SR 90 m/r capsules
+bl5s.	DILTIAZEM HYDROCHLORIDE 360mg m/r capsules
+bl5S.	ANGITIL SR 120 m/r capsules
+bl5t.	VIAZEM XL 360mg m/r capsules
+bl5U.	ANGITIL SR 180 m/r capsules
+bl5v.	DILCARDIA SR 90mg m/r capsules
+bl5V.	*CALCICARD CR 90mg m/r tablets
+bl5w.	DILCARDIA SR 120mg m/r capsules
+bl5W.	*CALCICARD CR 120mg m/r tabs
+bl5x.	ANGITIL XL 240 m/r capsules
+bl5y.	ANGITIL XL 300 m/r capsules
+bl5Y.	*OPTIL 60mg m/r tablets
+bl5z.	DILTIAZEM HYDROCHLORIDE 60mg m/r tablets
+bl5Z.	TILDIEM LA 200mg m/r capsules
+bl71.	CARDENE 20mg capsules
+bl72.	CARDENE 30mg capsules
+bl73.	CARDENE SR 30mg m/r capsules
+bl74.	CARDENE SR 45mg m/r capsules
+bl7w.	NICARDIPINE 45mg m/r capsules
+bl7x.	NICARDIPINE 30mg m/r capsules
+bl7y.	NICARDIPINE 20mg capsules
+bl7z.	NICARDIPINE 30mg capsules
+bl81.	ADALAT 5mg capsules
+bl82.	ADALAT 10mg capsules
+bl83.	ADALAT RETARD 20mg m/r tablets
+bl84.	ADALAT RETARD 10mg m/r tablets
+bl85.	NIFEDIPINE 5mg capsules
+bl86.	NIFEDIPINE 10mg capsules
+bl8A.	ADIPINE MR 20 m/r tablets
+bl8B.	ADIPINE MR 10 m/r tablets
+bl8e.	CORACTEN SR 20mg m/r capsules
+bl8F.	NIFEDIPINE 40mg m/r tablets
+bl8g.	*ANGIOPINE 10mg capsules
+bl8H.	*CARDILATE MR 10mg m/r tablets
+bl8i.	ADALAT LA 30mg m/r tablets
+bl8j.	ADALAT LA 60mg m/r tablets
+bl8J.	TENSIPINE MR 10 m/r tablets
+bl8k.	CORACTEN SR 10mg m/r capsules
+bl8K.	TENSIPINE MR 20 m/r tablets
+bl8l.	*CARDILATE MR 20mg m/r tablets
+bl8L.	FORTIPINE LA40 m/r tablets
+bl8m.	*ANGIOPINE MR 20mg tablets
+bl8M.	ADALAT LA 20mg m/r tablets
+bl8O.	*SLOFEDIPINE 20mg m/r tablets
+bl8P.	*ANGIOPINE MR 10mg m/r tablets
+bl8q.	*HYPOLAR RETARD 20 m/r tablets
+bl8s.	*CORODAY MR 20mg m/r tablets
+bl8S.	NIFEDIPRESS MR 10 m/r tablets
+bl8t.	NIFOPRESS RETARD 20mg m/r tablets
+bl8u.	NIFEDIPINE 10mg m/r capsules
+bl8U.	NIFEDIPRESS MR 20 m/r tablets
+bl8v.	NIFEDIPINE 20mg m/r capsules
+bl8V.	NIFEDIPINE 30mg m/r capsules
+bl8w.	NIFEDIPINE 10mg m/r tablets
+bl8W.	NIFEDIPINE 60mg m/r capsules
+bl8x.	NIFEDIPINE 30mg m/r tablets
+bl8X.	CORACTEN XL 30mg m/r capsules
+bl8y.	NIFEDIPINE 60mg m/r tablets
+bl8Y.	CORACTEN XL 60mg m/r capsules
+bl8z.	NIFEDIPINE 20mg m/r tablets
+bla1.	ISRADIPINE 2.5mg tablets
+bla2.	*PRESCAL 2.5mg tablets
+blb1.	AMLODIPINE 5mg tablets
+blb2.	AMLODIPINE 10mg tablets
+blb3.	ISTIN 5mg tablets
+blb4.	ISTIN 10mg tablets
+blb5.	*AMLOSTIN 5mg tablets
+blb6.	*AMLOSTIN 10mg tablets
+blb7.	AMLODIPINE 1mg/mL oral solution
+blb8.	AMLODIPINE 2mg/mL oral solution
+blc1.	FELODIPINE 5mg m/r tablets
+blc2.	FELODIPINE 10mg m/r tablets
+blc3.	PLENDIL 5mg m/r tablets
+blc4.	PLENDIL 10mg m/r tablets
+blc5.	FELODIPINE 2.5mg m/r tablets
+blc6.	PLENDIL 2.5mg m/r tablets
+blc7.	CABREN 2.5mg m/r tablets
+blc8.	CABREN 5mg m/r tablets
+blc9.	CABREN 10mg m/r tablets
+blca.	FELOTENS XL 5mg m/r tablets
+blcb.	FELOTENS XL 10mg m/r tablets
+blcc.	FELOGEN XL 5mg m/r tablets
+blch.	FELOGEN XL 10mg m/r tablets
+blci.	VASCALPHA 5mg m/r tablets
+blcj.	VASCALPHA 10mg m/r tablets
+blck.	CARDIOPLEN XL 5mg m/r tablets
+blcl.	CARDIOPLEN XL 10mg m/r tablets
+blcr.	CARDIOPLEN XL 2.5mg m/r tablets
+blct.	FELOTENS XL 2.5mg m/r tablets
+ble1.	LACIDIPINE 2mg tablets
+ble2.	LACIDIPINE 4mg tablets
+ble3.	MOTENS 2mg tablets
+ble4.	MOTENS 4mg tablets
+blg1.	*NISOLDIPINE 10mg m/r tablets
+blg2.	*NISOLDIPINE 20mg m/r tablets
+blg3.	*NISOLDIPINE 30mg m/r tablets
+blg4.	*SYSCOR MR 10mg m/r tablets
+blg5.	*SYSCOR MR 20mg m/r tablets
+blg6.	*SYSCOR MR 30mg m/r tablets
+blh1.	LERCANIDIPINE HYDROCHLORIDE 10mg tablets
+blh2.	ZANIDIP 10mg tablets
+blh3.	LERCANIDIPINE HYDROCHLORIDE 20mg tablets
+blh4.	ZANIDIP 20mg tablets
+blj1.	ZEMTARD 120 XL m/r capsules
+blj2.	ZEMTARD 180 XL m/r capsules
+blj3.	ZEMTARD 240 XL m/r capsules
+bljb.	RETALZEM MR 60mg m/r tablets
+bljC.	BI-CARZEM SR 60mg m/r capsules
+bljD.	BI-CARZEM SR 90mg m/r capsules
+bljE.	BI-CARZEM SR 120mg m/r capsules
+bljF.	*ZILDIL SR 60mg m/r capsules
+bljG.	*ZILDIL SR 90mg m/r capsules
+bljH.	*ZILDIL SR 120mg m/r capsules
+bljJ.	SLOZEM 300mg m/r capsules
+bljM.	ZEMRET 180 XL m/r capsules
+bljN.	ZEMRET 240 XL m/r capsules
+bljO.	ZEMRET 300 XL m/r capsules
+bljP.	ADIZEM-XL 200mg m/r capsules
+bljQ.	*DISOGRAM SR 60mg m/r capsules
+bljR.	*DISOGRAM SR 90mg m/r capsules
+bljS.	DISOGRAM SR 120mg m/r capsules
+bljT.	DISOGRAM SR 180mg m/r capsules
+bljU.	DISOGRAM SR 240mg m/r capsules
+bljV.	DISOGRAM SR 300mg m/r capsules
+bljW.	*HORIZEM SR 90mg m/r capsules
+bljX.	*HORIZEM SR 120mg m/r capsules
+bll1.	SLOFEDIPINE XL 30mg m/r tablets
+bll2.	SLOFEDIPINE XL 60mg m/r tablets
+bll5.	HYPOLAR XL 30 m/r tablets
+bll6.	CALCHAN MR 20mg m/r tablets
+bll7.	CALCHAN MR 10mg m/r tablets
+bllb.	VALNI 20 RETARD 20mg m/r tablets
+bllc.	ADIPINE XL 30mg m/r tablets
+blld.	ADIPINE XL 60mg m/r tablets
+bllg.	VALNI XL 30mg m/r tablets
+bllh.	VALNI XL 60mg m/r tablets
+bllk.	ADANIF XL 30mg m/r tablets
+blll.	ADANIF XL 60mg m/r tablets
+dt11.	NIMODIPINE 200microgram/mL intravenous infusion 50mL
+dt12.	NIMOTOP 200micrograms/mL intravenous infusion 50mL
+dt13.	NIMODIPINE 30mg tablets
+dt14.	NIMOTOP 30mg tablets

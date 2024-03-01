@@ -37,6 +37,50 @@ COSU141037NEMIS	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.
 ^ESCT1348302	2019-nCoV (novel coronavirus) vaccination
 ^ESCT1402904	COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca UK Ltd)
 ^ESCT1402911	COVID-19 mRNA Vaccine Pfizer-BioNTech BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer Ltd)
+^ESCT1402916	Generic COVID-19 mRNA Vaccine Pfizer-BioNTech BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials
+^ESCT1402917	Generic COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1403901	Astute 100,000,000,000 (100 billion) viral particles/0.5ml dose solution for injection multidose vials (Janssen-Cilag Ltd)
+^ESCT1403935	Generic Astute 100,000,000,000 (100 billion) viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1404735	Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials
+^ESCT1404736	COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials (Moderna, Inc)
+^ESCT1404768	COVID-19 vaccine
+^ESCT1405128	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials (Valneva UK Ltd)
+^ESCT1405145	Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials
+^ESCT1416911	Administration of SARS-CoV-2 mRNA vaccine
+^ESCT1416912	COVID-19 mRNA vaccination
+^ESCT1416913	COVID-19 mRNA immunisation
+^ESCT1416914	2019-nCoV mRNA immunisation
+^ESCT1416915	2019-nCoV mRNA vaccination
+^ESCT1416916	SARS-CoV-2 mRNA vaccination
+^ESCT1416917	SARS-CoV-2 mRNA immunisation
+^ESCT1416918	2019 novel coronavirus mRNA immunisation
+^ESCT1416919	Severe acute respiratory syndrome coronavirus 2 mRNA vaccination
+^ESCT1416920	2019 novel coronavirus mRNA vaccination
+^ESCT1416921	Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid
+^ESCT1417030	Administration of first dose of SARS-CoV-2 mRNA vaccine
+^ESCT1417031	First 2019 novel coronavirus mRNA vaccination
+^ESCT1417032	First 2019-nCoV mRNA vaccination
+^ESCT1417033	First SARS-CoV-2 mRNA immunisation
+^ESCT1417034	First COVID-19 mRNA vaccination
+^ESCT1417035	First Severe acute respiratory syndrome coronavirus 2 mRNA vaccination
+^ESCT1417036	First COVID-19 mRNA immunisation
+^ESCT1417037	First 2019 novel coronavirus mRNA immunisation
+^ESCT1417038	Administration of first dose of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid
+^ESCT1417039	First 2019-nCoV mRNA immunisation
+^ESCT1417040	First SARS-CoV-2 mRNA vaccination
+^ESCT1417041	Administration of second dose of SARS-CoV-2 mRNA vaccine
+^ESCT1417042	Second 2019-nCoV mRNA immunisation
+^ESCT1417043	Second COVID-19 mRNA vaccination
+^ESCT1417044	Second Severe acute respiratory syndrome coronavirus 2 mRNA vaccination
+^ESCT1417045	Second 2019-nCoV mRNA vaccination
+^ESCT1417046	Administration of second dose of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid
+^ESCT1417047	Second 2019 novel coronavirus mRNA immunisation
+^ESCT1417048	Second 2019 novel coronavirus mRNA vaccination
+^ESCT1417049	Second SARS-CoV-2 mRNA immunisation
+^ESCT1417050	Second COVID-19 mRNA immunisation
+^ESCT1417051	Second SARS-CoV-2 mRNA vaccination
+^ESCT1418812	COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)
+^ESCT1418854	Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials
 ^ESCT1421492	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination
 ^ESCT1421493	COVID-19 antigen immunisation
 ^ESCT1421494	2019 novel coronavirus antigen immunisation
@@ -45,8 +89,90 @@ COSU141037NEMIS	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.
 ^ESCT1421497	Severe acute respiratory syndrome coronavirus 2 antigen vaccination
 ^ESCT1421498	Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 antigen
 ^ESCT1421499	2019-nCoV (novel coronavirus) antigen vaccination
+^ESCT1423115	Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials
+^ESCT1423116	COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc)
+^ESCT1423124	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)
+^ESCT1423127	Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials
+^ESCT1425452	COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc)
+^ESCT1425457	Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials
+^ESCT1428110	COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials (Janssen-Cilag Ltd)
+^ESCT1428113	Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials
 ^ESCT1428343	Administration of fourth dose of 2019-nCoV (novel coronavirus) vaccine
 ^ESCT1428349	Administration of fifth dose of 2019-nCoV (novel coronavirus) vaccine
 ^ESCT1428355	Administration of third dose of 2019-nCoV (novel coronavirus) vaccine
 ^ESCT1431765	COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
 ^ESCT1431769	Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+^ESCT1431771	Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials
+^ESCT1431772	Generic COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+^ESCT1431777	COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)
+^ESCT1431780	Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials
+^ESCT1431786	Generic Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials
+^ESCT1431787	Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc)
+^ESCT1434508	CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)
+^ESCT1434581	Generic CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials
+^ESCT1434594	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)
+^ESCT1434597	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes (Beijing Institute of Biological Products)
+^ESCT1434601	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd)
+^ESCT1434605	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials (Bharat Biotech International Ltd)
+^ESCT1434622	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials
+^ESCT1434623	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials
+^ESCT1434624	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes
+^ESCT1434625	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials
+^ESCT1434687	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+^ESCT1434739	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials (Serum Institute of India)
+^ESCT1434769	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1434770	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials
+^ESCT1435624	Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+^ESCT1435629	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+^ESCT1435639	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+^ESCT1435642	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+^ESCT1435645	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+^ESCT1435654	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1435655	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+^ESCT1435656	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1435657	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+^ESCT1435658	Generic Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials
+^ESCT1435705	COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca AB)
+^ESCT1435707	Generic COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+^ESCT1436694	COVID-19 Vaccine Covovax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Serum Institute of India)
+^ESCT1439300	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+^ESCT1439303	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+^ESCT1439638	COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials (Sanofi Pasteur)
+^ESCT1439640	Generic COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials
+^ESCT1439753	COVID-19 Vaccine Moderna (mRNA-1273.529) 50micrograms/0.25ml dose solution for injection multidose vials (Moderna, Inc)
+^ESCT1439755	Generic COVID-19 Vaccine Moderna (mRNA-1273.529) 50micrograms/0.25ml dose solution for injection multidose vials
+^ESCT1440075	Comirnaty COVID-19 mRNA Vaccine ready to use 30micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd)
+^ESCT1440078	Generic Comirnaty COVID-19 mRNA Vaccine ready to use 30micrograms/0.3ml dose dispersion for injection multidose vials
+^ESCT1441243	COVID-19 Vaccine Nuvaxovid (recombinant, adjuvanted) 5micrograms/0.5ml dose dispersion for injection multidose vials (Novavax CZ a.s.)
+^ESCT1441246	Generic COVID-19 Vaccine Nuvaxovid (recombinant, adjuvanted) 5micrograms/0.5ml dose dispersion for injection multidose vials
+^ESCTCO397297	Coronavirus vaccination
+COCO143126NEMIS	Comirnaty Children 6 months - 4 years COVID-19 mRNA Vaccine  Concentrate For Dispersion For Injection  3 micrograms/0.2 ml dose, multidose vial
+COCO144437NEMIS	Comirnaty Omicron XBB.1.5 Children 6 months - 4 years Covid-19 mRNA Vaccine  Concentrate For Dispersion For Injection  3 micrograms/0.2 ml dose, multidose vial
+CODI141709NEMIS	Comirnaty Covid-19 mRNA Vaccine Ready to Use  Dispersion for injection  30 micrograms/0.3 ml, multidose vial
+CODI142225NEMIS	Covid-19 Vaccine Spikevax 0 (Zero)/O (Omicron)  Dispersion for injection  0.1 mg/ml multidose vial
+CODI142339NEMIS	Comirnaty Original/Omicron BA.1 Covid-19 mRNA Vaccine  Dispersion for injection  15 microgram + 15 microgram/0.3 ml, multidose vial
+CODI143144NEMIS	Comirnaty Original/Omicron BA.4-5 COVID-19 mRNA Vaccine  Dispersion for injection  15 microgram + 15 microgram/0.3 ml, multidose vial
+CODI143381NEMIS	Covid-19 Vaccine Spikevax Original/Omicron BA.4/BA.5  Dispersion for injection  0.1 mg/ml multidose vial
+CODI144358NEMIS	Comirnaty Omicron XBB.1.5 Covid-19 mRNA Vaccine  Dispersion for injection  30 micrograms/0.3 ml dose, multidose vial
+CODI144435NEMIS	Comirnaty Omicron XBB.1.5 Children 5-11 Years Covid-19 mRNA Vaccine  Dispersion for injection  10 micrograms/0.3 ml dose, multidose vial
+COEM139763NEMIS	Covid-19 Vaccine Medicago (CoVlp)  Emulsion For Injection  3.75 micrograms/0.5 ml dose, multidose vial
+COEM144188NEMIS	Covid-19 Vaccine Bimervax (recombinant, adjuvanted)  Emulsion For Injection  40 micrograms/0.5 ml dose, multidose vial
+COSO141060NEMIS	Covid-19 Vaccine Covishield (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particles/0.5 ml dose vial
+COSO141063NEMIS	Covid-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles)  Solution for injection  100 billion viral particles/0.5 ml multidose vial
+COSO141064NEMIS	Covid-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles)  Solution for injection  100 billion viral particles/0.5 ml dose vial
+COSO141065NEMIS	Covid-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles)  Solution for injection  100 billion viral particles/0.5 ml multidose vial
+COSO141066NEMIS	Covid-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles)  Solution for injection  100 billion viral particles/0.5 ml dose vial
+COSO141294NEMIS	Covid-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19)  Solution for injection  3.5x10billion viral particles/0.5ml multidose vial
+COSO141705NEMIS	Covid-19 Vaccine Moderna (mRNA-1273.529)  Solution for injection  50 micrograms/0.25 ml, multidose vial
+COSO141940NEMIS	Covid-19 Vaccine Moderna (mRNA-1273.214)  Dispersion for injection  50 micrograms/0.5 ml dose vial
+COSO142081NEMIS	Covid-19 Vaccine Convidecia (Adenovirus Type 5 Vector recombinant)  Solution for injection  40 billion viral particles/0.5 ml dose vial
+COSO144193NEMIS	Covid-19 Vaccine Moderna (mRNA-1273.222)  Solution for injection  50 micrograms/0.5 ml dose vial
+COSO144195NEMIS	Covid-19 Vaccine Moderna (mRNA-1283.222)  Solution for injection  10 micrograms/0.2 ml dose vial
+COSU141036NEMIS	Covid-19 Vaccine Sinopharm BIBP (inactivated adjuvanted)  Suspension For Injection  6.5 units/0.5 ml dose, pre-filled syringe
+COSU141068NEMIS	Covid-19 Vaccine Covaxin (NIV-2020-770 inactivated)  Suspension For Injection  6 micrograms/0.5 ml dose, multidose vial
+COSU141069NEMIS	Covid-19 Vaccine Covaxin (NIV-2020-770 inactivated)  Suspension For Injection  6 micrograms/0.5 ml dose, vial
+COSU141317NEMIS	Covid-19 Vaccine Covovax (adjuvanted)  Suspension For Injection  5 micrograms/0.5 ml dose, multidose vial
+COSU141594NEMIS	Covid-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 recombinant)  Suspension For Injection  5 micrograms/0.5 ml dose, multidose vial
+COVA142363NEMIS	Covid-19 Vaccine Sanofi (CoV2 preS dTM bivalent D614+B.1.351 recombinant adjuvanted)  Emulsion For Injection  2.5microgram + 2.5microgram/0.5ml, multidose vial
+COVA142365NEMIS	Covid-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 recombinant adjuv)  Emulsion For Injection  5 micrograms/0.5 ml dose, multidose vial
+SPDI144360NEMIS	Spikevax XBB.1.5 Covid-19 mRNA Vaccine  Dispersion for injection  0.1 mg/1 ml, multidose vial

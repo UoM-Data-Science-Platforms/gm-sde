@@ -12,8 +12,24 @@ X203T	Ischaemic leg
 G73z0	Vascular claudication
 XE0VR	Intermittent claudication
 XSDWB	Venous claudication
-XaVyB	History of peripheral vascular disease
 bn6..	Other drugs for peripheral vascular disease
-X70Cp	Spinal claudication
 XM1Qu	Claudication
 XaZJa	Ischaemic leg pain at rest
+G73y0	Diabetic peripheral angiopathy
+Gyu7A	[X]Peripheral angiopathy in diseases classified elsewhere
+XaFmK	Type I diabetes mellitus with peripheral angiopathy
+XaFn7	Type II diabetes mellitus with peripheral angiopathy
+G73y1	Peripheral angiopathic disease EC NOS
+X203U	Critical lower limb ischaemia
+Xa7lT	Ischaemia of feet
+Xa84U	Ischaemic foot
+XaB5V	Trash foot
+XaB5X	Ischaemic toe
+XabhR	Ischaemic foot pain at rest
+XaE3G	Critical ischaemia of foot
+C107.	Diabetes mellitus with peripheral circulatory disorder
+C1073	IDDM with peripheral circulatory disorder
+C107y	Other specified diabetes mellitus with peripheral circulatory complications
+C107z	Diabetes mellitus NOS with peripheral circulatory disorder
+XE10I	Diabetes mellitus with peripheral circulatory disorder
+

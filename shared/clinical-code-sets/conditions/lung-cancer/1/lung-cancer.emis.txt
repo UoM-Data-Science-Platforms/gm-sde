@@ -1,0 +1,1017 @@
+^ESCT1165464	Primary malignant neuroepitheliomatous neoplasm of nasal cavity
+^ESCT1177722	[X]Malignant neoplasm of respiratory AND/OR intrathoracic organs
+^ESCT1190787	Mesothelioma (malignant, clinical disorder)
+^ESCT1191813	[X]Malignant neoplasm of bronchus or lung, unspecified
+^ESCT1191822	[X]Malignant neoplasm of respiratory and intrathoracic organs
+^ESCT1192588	Malignant tumor of lung
+^ESCT1192589	Malignant neoplasm of accessory sinus NOS
+^ESCT1192603	Malig neop of respiratory tract and intrathoracic organs
+^ESCT1222231	Malignant pleural mesothelioma
+^ESCT1270458	Malignant tumour of posterior margin of nasal septum and choanae
+^ESCT1272352	Malignant neoplasm of larynx NOS
+^ESCT1276213	Malignant tumor of tonsil
+^ESCT1276222	Malignant tumor of base of tongue
+^ESCT1303146	Malignant tumor of tonsil
+^ESCT1303154	Malignant tumor of base of tongue
+^ESCT1384072	Nonsquamous non-small cell neoplasm of lung
+^ESCT1384637	Malignant neoplasm of roof of nasopharynx
+^ESCT1407104	Malignant neoplasm of nasopharyngeal soft palate surface
+^ESCT1407105	Malignant tumour of nasopharyngeal soft palate surface
+^ESCT1407106	Malignant tumour of Waldeyer ring
+^ESCT1407337	Lymphomatoid granulomatosis of lung
+^ESCT1407338	Lymphoid granulomatosis of lung
+^ESCTAC761665	Acinar cell carcinoma of trachea
+^ESCTAC761713	Acinar cell carcinoma of lung
+^ESCTAC762044	Acinar cell carcinoma of oropharynx
+^ESCTAD534693	Adenoid cystic carcinoma of trachea
+^ESCTAD700180	Adenocarcinoma of nasopharynx
+^ESCTAD700538	Adenoid cystic carcinoma of oropharynx
+^ESCTAD761554	Adenocarcinoma of accessory sinus
+^ESCTAD761557	Adenocarcinoma of maxillary sinus
+^ESCTAD761564	Adenocarcinoma of ethmoidal sinus
+^ESCTAD761566	Adenocarcinoma of frontal sinus
+^ESCTAD761568	Adenocarcinoma of sphenoidal sinus
+^ESCTAD761678	Adenosquamous carcinoma of trachea
+^ESCTAD761695	Adenocarcinoma of oropharynx
+^ESCTAD761703	Adenosquamous carcinoma of lung
+^ESCTAD761736	Adenosquamous cell carcinoma of larynx
+^ESCTAD761738	Adenoid squamous cell carcinoma of larynx
+^ESCTAD761793	Adenoid cystic carcinoma of lung
+^ESCTAD761811	Adenocarcinoma of trachea
+^ESCTAD761828	Adenoid squamous cell carcinoma of hypopharynx
+^ESCTAD761830	Adenosquamous carcinoma of hypopharynx
+^ESCTAD761934	Adenoid cystic carcinoma of hypopharynx
+^ESCTAD762030	Adenosquamous carcinoma of oropharynx
+^ESCTAD986809	Adenocarcinoma of right lung
+^ESCTAE699770	Aesthesioneuroblastoma
+^ESCTAL308520	Alveolar adenocarcinoma
+^ESCTAL308521	Alveolar carcinoma
+^ESCTAL421312	Alveolar cell carcinoma
+^ESCTAL638347	Alveolar cell carcinoma
+^ESCTBA666631	Basal cell carcinoma of nasal columella
+^ESCTBA761672	Basaloid squamous cell carcinoma of trachea
+^ESCTBA761685	Basal cell adenocarcinoma of oropharynx
+^ESCTBA761734	Basaloid carcinoma of larynx
+^ESCTBA761774	Basaloid squamous cell carcinoma of lung
+^ESCTBA761822	Basaloid squamous cell carcinoma of hypopharynx
+^ESCTBA761832	Basaloid carcinoma of hypopharynx
+^ESCTBA762022	Basaloid squamous cell carcinoma of oropharynx
+^ESCTBA762024	Basaloid carcinoma of oropharynx
+^ESCTBA762161	Basaloid squamous cell carcinoma of larynx
+^ESCTBA801963	Basal cell carcinoma of naris
+^ESCTBC534702	BC - Bronchogenic carcinoma
+^ESCTBR421310	Bronchiolo-alveolar adenocarcinoma
+^ESCTBR421311	Bronchiolo-alveolar carcinoma
+^ESCTBR421313	Bronchiolar carcinoma
+^ESCTBR421314	Bronchiolar adenocarcinoma
+^ESCTBR534703	Bronchial carcinoma
+^ESCTBR534704	Bronchogenic carcinoma
+^ESCTBR638344	Bronchioloalveolar carcinoma - disorder
+^ESCTBR638345	Bronchiolar adenocarcinoma
+^ESCTBR638346	Bronchiolar carcinoma
+^ESCTBR638348	Bronchioloalveolar carcinoma
+^ESCTBR638349	Bronchoalveolar cancer
+^ESCTCA400745	Carcinoma in situ of lung
+^ESCTCA400746	Cancer in situ of lung
+^ESCTCA403522	Cancer metastatic to lung
+^ESCTCA403785	Cancer metastatic to pleura
+^ESCTCA403838	Cancer metastatic to respiratory tract
+^ESCTCA404147	Cancer metastatic to trachea
+^ESCTCA417085	Cancer of the peritoneum, mesothelioma
+^ESCTCA474617	Cancer of nasopharynx
+^ESCTCA474619	CA - Cancer of nasopharynx
+^ESCTCA534405	Carcinoma of lingual tonsil
+^ESCTCA534428	Carcinoma of soft palate
+^ESCTCA534429	Carcinoma of uvula
+^ESCTCA534700	Carcinoma of bronchus
+^ESCTCA534701	CA - Carcinoma of bronchus
+^ESCTCA534712	Carcinoid tumor of lung
+^ESCTCA534713	Carcinoma of lung parenchyma
+^ESCTCA534735	Carcinoma in situ of lung parenchyma
+^ESCTCA553174	Carcinoma of base of tongue
+^ESCTCA557375	Carcinoma of tongue base - dorsal surface
+^ESCTCA559324	Carcinoma of larynx
+^ESCTCA624326	CA - Lung cancer
+^ESCTCA624441	Cancer of oropharynx
+^ESCTCA624442	CA - Cancer of oropharynx
+^ESCTCA624451	Cancer of tonsil
+^ESCTCA624454	CA - Cancer of tonsil
+^ESCTCA624571	CA - Cancer of larynx
+^ESCTCA624573	Cancer of larynx
+^ESCTCA624582	CA - Cancer of trachea
+^ESCTCA624587	Cancer of pleura
+^ESCTCA624588	CA - Cancer of pleura
+^ESCTCA624717	CA - Cancer of vocal cord
+^ESCTCA624718	Cancer of vocal cord
+^ESCTCA624741	CA - Cancer of bronchus
+^ESCTCA624742	Cancer of bronchus
+^ESCTCA624783	Cancer of pharynx
+^ESCTCA624784	CA - Cancer of pharynx
+^ESCTCA636366	Ca main bronchus
+^ESCTCA636417	Carcinoma of glottis
+^ESCTCA636418	Carcinoma of subglottis
+^ESCTCA636419	Carcinoma of supraglottis
+^ESCTCA636428	Carcinoma of lower lobe, bronchus or lung
+^ESCTCA636430	Carcinoma of middle lobe, bronchus or lung
+^ESCTCA636437	Carcinoma of main bronchus
+^ESCTCA636465	Carcinoma of upper lobe, bronchus or lung
+^ESCTCA636471	Carcinoma of vocal cord
+^ESCTCA671894	Cancer of the larynx, squamous cell
+^ESCTCA676520	Cancer of the pharynx, squamous cell
+^ESCTCA699530	Carcinoma of nasal meatus
+^ESCTCA699531	Carcinoma of meatus nasi
+^ESCTCA699532	Cancer of nasal meatus
+^ESCTCA700796	Cancer of oropharynx, squamous cell
+^ESCTCA736128	Cancer of lateral wall of oropharynx
+^ESCTCA736289	Carcinoma of nasal cavity
+^ESCTCA736295	Carcinoma of lung
+^ESCTCA736416	Cancer of upper respiratory tract
+^ESCTCA736418	Cancer of parietal pleura
+^ESCTCA736466	Cancer of respiratory system
+^ESCTCA736716	Carcinoma of pharynx
+^ESCTCA736808	Cancer of visceral pleura
+^ESCTCA736962	Carcinoma of nasal septum
+^ESCTCA761571	Carcinoma of ethmoidal sinus
+^ESCTCA761574	Carcinoma of sphenoidal sinus
+^ESCTCA761576	Carcinoma of frontal sinus
+^ESCTCA762038	Carcinoma ex pleomorphic adenoma of oropharynx
+^ESCTCA762059	Carcinosarcoma of lung
+^ESCTCA811347	Cancer metastatic to right lung
+^ESCTCA811355	Cancer metastatic to left lung
+^ESCTCL761670	Clear cell squamous cell carcinoma of trachea
+^ESCTCL761693	Clear cell adenocarcinoma of oropharynx
+^ESCTCL761772	Clear cell squamous cell carcinoma of lung
+^ESCTCL761804	Clear cell adenocarcinoma of trachea
+^ESCTCO283907	Combined small cell carcinoma
+^ESCTCO283910	Combined small cell-squamous cell carcinoma
+^ESCTCO283911	Combined small cell-adenocarcinoma
+^ESCTCY534694	Cylindroma of trachea
+^ESCTCY762042	Cystadenocarcinoma of oropharynx
+^ESCTDI735308	Diffuse non-Hodgkin's lymphoma of nasopharynx
+^ESCTDI735309	Diffuse non-Hodgkin lymphoma of nasopharynx
+^ESCTDI736125	Diffuse non-Hodgkin's lymphoma of lung
+^ESCTDI736126	Diffuse non-Hodgkin lymphoma of lung
+^ESCTDI736584	Diffuse non-Hodgkin's lymphoma of tonsil
+^ESCTDI736585	Diffuse non-Hodgkin lymphoma of tonsil
+^ESCTEG706698	EGF-R positive non-small cell lung cancer
+^ESCTEG706699	EGFR positive non-small cell lung cancer
+^ESCTEG706807	EGFR negative non-small cell lung cancer
+^ESCTEG706808	EGF-R negative non-small cell lung cancer
+^ESCTEP534721	Epidermoid carcinoma of lung
+^ESCTEP534723	Epithelioid haemangioendothelioma of lung
+^ESCTEP534726	Epithelioid hemangioendothelioma of lung
+^ESCTEP706696	Epidermal growth factor receptor positive non-small cell lung cancer
+^ESCTEP706805	Epidermal growth factor receptor negative non-small cell lung cancer
+^ESCTEP762040	Epithelial-myoepithelial carcinoma of oropharynx
+^ESCTES699771	Esthesioneuroblastoma
+^ESCTEX821145	Extensive stage primary small cell carcinoma of lung
+^ESCTFE761698	Fetal adenocarcinoma of lung
+^ESCTFO735845	Follicular non-Hodgkin's lymphoma of lung
+^ESCTFO735846	Follicular non-Hodgkin lymphoma of lung
+^ESCTFO736400	Follicular non-Hodgkin's lymphoma of tonsil
+^ESCTFO736401	Follicular non-Hodgkin lymphoma of tonsil
+^ESCTFO736664	Follicular non-Hodgkin's lymphoma of nasopharynx
+^ESCTFO736665	Follicular non-Hodgkin lymphoma of nasopharynx
+^ESCTFO761699	Foetal adenocarcinoma of lung
+^ESCTGI534715	Giant cell carcinoma of lung
+^ESCTGI761676	Giant cell carcinoma of trachea
+^ESCTGI761834	Giant cell carcinoma of hypopharynx
+^ESCTGI762158	Giant cell carcinoma of larynx
+^ESCTIN534725	Intravascular bronchoalveolar tumour
+^ESCTIN534727	Intravascular bronchoalveolar tumor
+^ESCTIN762048	Infiltrating duct carcinoma of oropharynx
+^ESCTIV534724	IVBALT - Intravascular bronchoalveolar tumour
+^ESCTIV534728	IVBALT - Intravascular bronchoalveolar tumor
+^ESCTKA416358	Kaposi's sarcoma of lung
+^ESCTKA416359	Kaposi sarcoma of lung
+^ESCTKE750320	Keratinising squamous cell carcinoma of nasopharynx
+^ESCTKE750321	Keratinizing squamous cell carcinoma of nasopharynx
+^ESCTLA559325	Laryngeal carcinoma
+^ESCTLA624572	Laryngeal cancer
+^ESCTLA700085	Large cell carcinoma of lung, TNM stage 2
+^ESCTLA701048	Large cell carcinoma of lung, TNM stage 4
+^ESCTLA703567	Large cell carcinoma of lung, TNM stage 1
+^ESCTLA703620	Large cell carcinoma of lung, TNM stage 3
+^ESCTLG513315	LG - Lymphomatoid granulomatosis of lung
+^ESCTLO605190	Local recurrence of malignant tumour of lung
+^ESCTLO605191	Local recurrence of malignant tumor of lung
+^ESCTLY513313	Lymphomatoid granulomatosis of the lung
+^ESCTLY513314	Lymphoid granulomatosis of the lung
+^ESCTLY535623	Lymphangitis carcinomatosa
+^ESCTLY761600	Lymphoepithelial carcinoma of larynx
+^ESCTLY761840	Lymphoepithelial carcinoma of hypopharynx
+^ESCTLY761843	Lymphoepithelial carcinoma of trachea
+^ESCTLY762032	Lymphoepithelial carcinoma of oropharynx
+^ESCTMA416337	Malignant mesothelioma
+^ESCTMA416343	Malignant mesothelioma of pericardium
+^ESCTMA417084	Malignant mesothelioma of peritoneum
+^ESCTMA417087	Malignant mesothelioma of parietal peritoneum
+^ESCTMA417089	Malignant mesothelioma of pelvic peritoneum
+^ESCTMA417091	Malignant mesothelioma of mesentery
+^ESCTMA417094	Malignant mesothelioma of omentum
+^ESCTMA474568	Malignant tumour of junctional zone of tongue
+^ESCTMA474569	Malignant tumor of junctional zone of tongue
+^ESCTMA474593	Malignant tumour of tonsillar pillar
+^ESCTMA474594	Malignant tumour of palatopharyngeal arch
+^ESCTMA474595	Malignant tumour of posterior tonsillar pillar
+^ESCTMA474596	Malignant tumour of pharyngopalatine arch
+^ESCTMA474597	Malignant tumour of posterior faucial pillar
+^ESCTMA474598	Malignant tumor of tonsillar pillar
+^ESCTMA474601	Malignant tumor of palatopharyngeal arch
+^ESCTMA474602	Malignant tumor of pharyngopalatine arch
+^ESCTMA474603	Malignant tumor of posterior faucial pillar
+^ESCTMA474604	Malignant tumor of posterior tonsillar pillar
+^ESCTMA474608	Malignant tumour of glossoepiglottic fold
+^ESCTMA474609	Malignant tumor of glossoepiglottic fold
+^ESCTMA474611	Malignant tumour of posterior wall of oropharynx
+^ESCTMA474612	Malignant tumor of posterior wall of oropharynx
+^ESCTMA474615	Malignant tumor of epipharynx
+^ESCTMA474616	Malignant tumor of postnasal space
+^ESCTMA474620	Malignant tumour of epipharynx
+^ESCTMA474621	Malignant tumour of postnasal space
+^ESCTMA474622	Malignant tumor of nasopharynx
+^ESCTMA474625	Malignant tumor of posterior wall of nasopharynx
+^ESCTMA474626	Malignant tumour of adenoid
+^ESCTMA474627	Malignant tumor of adenoid
+^ESCTMA474630	Malignant tumor of nasopharyngeal tonsil
+^ESCTMA474631	Malignant tumor of pharyngeal tonsil
+^ESCTMA474632	Malignant tumour of pharyngeal tonsil
+^ESCTMA474633	Malignant tumour of nasopharyngeal tonsil
+^ESCTMA474634	Malignant tumour of pharyngeal recess
+^ESCTMA474635	Malignant tumour of fossa of Rosenmuller
+^ESCTMA474636	Malignant tumor of pharyngeal recess
+^ESCTMA474637	Malignant tumor of fossa of Rosenmuller
+^ESCTMA474639	Malignant tumour of opening of auditory tube
+^ESCTMA474640	Malignant tumor of opening of auditory tube
+^ESCTMA474643	Malignant tumor of anterior wall of nasopharynx
+^ESCTMA474646	Malignant tumour of nasopharyngeal soft palate surface
+^ESCTMA474647	Malignant tumor of nasopharyngeal soft palate surface
+^ESCTMA474649	Malignant tumour aryepiglottic fold - hypopharyngeal aspect
+^ESCTMA474650	Malignant tumor aryepiglottic fold - hypopharyngeal aspect
+^ESCTMA474654	Malignant tumour of Waldeyer's ring
+^ESCTMA474655	Malignant tumor of Waldeyer's ring
+^ESCTMA474657	Malignant tumor of Waldeyer ring
+^ESCTMA474768	Malignant neoplasm of nasal turbinate
+^ESCTMA474770	Malignant tumour of nasal vestibule
+^ESCTMA474771	Malignant tumor of nasal vestibule
+^ESCTMA474786	Malignant tumour of glottis
+^ESCTMA474787	Malignant tumor of glottis
+^ESCTMA474790	Malignant tumour of supraglottis
+^ESCTMA474792	Malignant tumor of supraglottis
+^ESCTMA474806	Malignant neoplasm of right middle lobe of lung
+^ESCTMA514428	Malignant neoplasm of nasopharyngeal wall
+^ESCTMA534468	Malignant tumor of anterior pillar of fauces
+^ESCTMA534469	Malignant tumour of anterior faucial pillar
+^ESCTMA534470	Malignant tumour of anterior tonsillar pillar
+^ESCTMA534471	Malignant tumour of palatoglossal arch
+^ESCTMA534472	Malignant tumor of palatoglossal arch
+^ESCTMA534473	Malignant tumor of anterior tonsillar pillar
+^ESCTMA534474	Malignant tumor of anterior faucial pillar
+^ESCTMA534507	Malignant tumour of inferior turbinate
+^ESCTMA534508	Malignant tumor of inferior turbinate
+^ESCTMA534517	Malignant tumour of middle turbinate
+^ESCTMA534518	Malignant tumor of middle turbinate
+^ESCTMA534524	Malignant tumor of posterior margin of nasal septum and choanae
+^ESCTMA534544	Malignant tumour of inferior surface of soft palate
+^ESCTMA534545	Malignant tumor of inferior surface of soft palate
+^ESCTMA534557	Malignant tumour of anterior commissure
+^ESCTMA534558	Malignant tumor of anterior commissure
+^ESCTMA534564	Malignant tumour of posterior commissure
+^ESCTMA534565	Malignant tumor of posterior commissure
+^ESCTMA534571	Malignant tumour of suprahyoid epiglottis
+^ESCTMA534572	Malignant tumor of suprahyoid epiglottis
+^ESCTMA534577	Malignant tumour of infrahyoid epiglottis
+^ESCTMA534578	Malignant tumor of infrahyoid epiglottis
+^ESCTMA534585	Malignant tumour of laryngeal ventricle
+^ESCTMA534586	Malignant tumor of laryngeal ventricle
+^ESCTMA534587	Malignant tumor of laryngeal ventricular cavity
+^ESCTMA534588	Malignant tumor of laryngeal ventricular sinus
+^ESCTMA534589	Malignant tumour of laryngeal ventricular sinus
+^ESCTMA534590	Malignant tumour of laryngeal ventricular cavity
+^ESCTMA534601	Malignant tumour of parapharyngeal space
+^ESCTMA534602	Malignant tumor of parapharyngeal space
+^ESCTMA534708	Malignant tumour of lung parenchyma
+^ESCTMA534709	Malignant tumor of lung parenchyma
+^ESCTMA535570	Malignant tumour of nasal cavity and nasopharynx
+^ESCTMA535571	Malignant tumor of nasal cavity and nasopharynx
+^ESCTMA535572	Malignant tumour of lateral nasal wall
+^ESCTMA535573	Malignant tumor of lateral nasal wall
+^ESCTMA591408	Malignant tumour of posterior wall of hypopharynx
+^ESCTMA591409	Malignant tumor of posterior wall of hypopharynx
+^ESCTMA624324	Malignant tumour of lung
+^ESCTMA624367	Malignant tumour of base of tongue
+^ESCTMA624369	Malignant tumour of posterior third of tongue
+^ESCTMA624370	Malignant tumour of fixed part of tongue
+^ESCTMA624371	Malignant tumour of tongue posterior to vallate papillae
+^ESCTMA624372	Malignant tumor of fixed part of tongue
+^ESCTMA624373	Malignant tumor of tongue posterior to vallate papillae
+^ESCTMA624374	Malignant tumor of posterior third of tongue
+^ESCTMA624376	Malignant tumour of lingual tonsil
+^ESCTMA624377	Malignant tumor of lingual tonsil
+^ESCTMA624426	Malignant tumour of soft palate
+^ESCTMA624427	Malignant tumor of soft palate
+^ESCTMA624428	Malignant tumour of uvula
+^ESCTMA624429	Malignant tumor of uvula
+^ESCTMA624440	Malignant tumor of oropharynx
+^ESCTMA624443	Malignant tumour of mesopharynx
+^ESCTMA624444	Malignant tumor of mesopharynx
+^ESCTMA624445	Malignant tumour of tonsil
+^ESCTMA624447	Malignant tumour of palatine tonsil
+^ESCTMA624448	Malignant tumour of faucial tonsil
+^ESCTMA624449	Malignant tumor of faucial tonsil
+^ESCTMA624450	Malignant tumor of palatine tonsil
+^ESCTMA624456	Malignant tumor of tonsillar fossa
+^ESCTMA624457	Malignant tumour of vallecula
+^ESCTMA624458	Malignant tumor of vallecula
+^ESCTMA624461	Malignant tumour of roof of nasopharynx
+^ESCTMA624462	Malignant tumor of roof of nasopharynx
+^ESCTMA624463	Malignant tumour of superior wall of nasopharynx
+^ESCTMA624464	Malignant tumor of superior wall of nasopharynx
+^ESCTMA624467	Malignant tumor of lateral wall of nasopharynx
+^ESCTMA624469	Malignant tumor of hypopharynx
+^ESCTMA624470	Malignant tumour of laryngopharynx
+^ESCTMA624471	Malignant tumor of laryngopharynx
+^ESCTMA624473	Malignant tumour of postcricoid region
+^ESCTMA624474	Malignant tumor of postcricoid region
+^ESCTMA624475	Malignant tumour of pharyngo-oesophageal junction
+^ESCTMA624476	Malignant tumor of pharyngoesophageal junction
+^ESCTMA624477	Malignant tumour of pyriform fossa
+^ESCTMA624478	Malignant tumor of pyriform fossa
+^ESCTMA624479	Malignant tumour of pyriform sinus
+^ESCTMA624480	Malignant tumor of pyriform sinus
+^ESCTMA624551	Malignant tumour of nasal cavity
+^ESCTMA624552	Malignant tumor of nasal cavity
+^ESCTMA624554	Malignant tumour of nasal septum
+^ESCTMA624555	Malignant tumor of nasal septum
+^ESCTMA624558	Malignant tumour of maxillary sinus
+^ESCTMA624559	Malignant tumor of maxillary sinus
+^ESCTMA624560	Malignant tumour of maxillary antrum
+^ESCTMA624561	Malignant tumor of maxillary antrum
+^ESCTMA624562	Malignant tumour of ethmoid sinus
+^ESCTMA624563	Malignant tumor of ethmoid sinus
+^ESCTMA624565	Malignant tumour of frontal sinus
+^ESCTMA624566	Malignant tumor of frontal sinus
+^ESCTMA624567	Malignant tumour of sphenoid sinus
+^ESCTMA624568	Malignant tumor of sphenoid sinus
+^ESCTMA624570	Malignant tumor of larynx
+^ESCTMA624574	Malignant tumour of subglottis
+^ESCTMA624575	Malignant tumor of subglottis
+^ESCTMA624578	Malignant tumor of laryngeal cartilage
+^ESCTMA624579	Malignant tumour of trachea
+^ESCTMA624580	Malignant tumor of trachea
+^ESCTMA624583	Malignant tracheal tumor
+^ESCTMA624584	Malignant tracheal tumour
+^ESCTMA624586	Malignant tumor of pleura
+^ESCTMA624713	Malignant tumour of vocal cord
+^ESCTMA624714	Malignant tumor of vocal cord
+^ESCTMA624715	Malignant tumour of vocal fold
+^ESCTMA624716	Malignant tumor of vocal fold
+^ESCTMA624719	Malignant tumour of aryepiglottic fold - laryngeal aspect
+^ESCTMA624720	Malignant tumor of aryepiglottic fold - laryngeal aspect
+^ESCTMA624721	Malignant neoplasm of laryngeal aspect of interarytenoid fold
+^ESCTMA624722	Malignant tumour of false cord
+^ESCTMA624723	Malignant tumor of false cord
+^ESCTMA624724	Malignant tumour of ventricular band
+^ESCTMA624725	Malignant tumour of vestibular fold
+^ESCTMA624726	Malignant tumor of ventricular band
+^ESCTMA624727	Malignant tumor of vestibular fold
+^ESCTMA624739	Malignant tumour of bronchus
+^ESCTMA624740	Malignant tumor of bronchus
+^ESCTMA624779	Malignant tumour of nasal sinuses
+^ESCTMA624780	Malignant tumor of nasal sinuses
+^ESCTMA624781	Malignant tumour of pharynx
+^ESCTMA624782	Malignant tumor of pharynx
+^ESCTMA624785	Malignant neoplasm of pharynx
+^ESCTMA735155	Malignant epithelial neoplasm of oropharynx
+^ESCTMA735832	Malignant epithelial neoplasm of hypopharynx
+^ESCTMA736290	Malignant epithelial neoplasm of nasal cavity
+^ESCTMA736296	Malignant epithelial neoplasm of lung
+^ESCTMA736415	Malignant neoplasm of upper respiratory tract
+^ESCTMA736717	Malignant epithelial neoplasm of pharynx
+^ESCTMA736963	Malignant epithelial neoplasm of nasal septum
+^ESCTMA750370	Malignant melanoma of nasal cavity
+^ESCTMA750374	Malignant melanoma of palatine arch
+^ESCTMA750375	Malignant melanoma of tonsillar pillar
+^ESCTMA750710	Malignant melanoma of ethmoid sinus
+^ESCTMA750711	Malignant melanoma of ethmoidal sinus
+^ESCTMA750716	Malignant melanoma of maxillary sinus
+^ESCTMA761577	Malignant melanoma of accessory sinus
+^ESCTMA761601	Malignant melanoma of frontal sinus
+^ESCTMA761603	Malignant melanoma of sphenoidal sinus
+^ESCTMA764315	Malignant neoplasm of superior wall of nasopharynx
+^ESCTMA785098	Malignant neoplasm of lower lobe of right lung
+^ESCTMA785099	Malignant neoplasm of upper lobe of left lung
+^ESCTMA785100	Malignant neoplasm of lower lobe of left lung
+^ESCTMA785101	Malignant neoplasm of right upper lobe of lung
+^ESCTMA788124	Malignant carcinoid tumour of bronchus
+^ESCTMA788125	Malignant carcinoid tumor of bronchus
+^ESCTMA795441	Malignant epithelial neoplasm of bronchus
+^ESCTME402966	Metastatic malignant neoplasm to accessory sinus
+^ESCTME402972	Metastatic malignant neoplasm to adenoid
+^ESCTME402991	Metastatic malignant neoplasm to anterior aspect of epiglottis
+^ESCTME402999	Metastatic malignant neoplasm to anterior wall of nasopharynx
+^ESCTME403023	Metastatic malignant neoplasm to base of tongue
+^ESCTME403125	Metastatic malignant neoplasm to bronchus of left lower lobe
+^ESCTME403127	Metastatic malignant neoplasm to bronchus of left upper lobe
+^ESCTME403129	Metastatic malignant neoplasm to bronchus of right lower lobe
+^ESCTME403131	Metastatic malignant neoplasm to bronchus of right middle lobe
+^ESCTME403133	Metastatic malignant neoplasm to bronchus of right upper lobe
+^ESCTME403135	Metastatic malignant neoplasm to bronchus
+^ESCTME403138	Metastasis to bronchus
+^ESCTME403150	Metastatic malignant neoplasm to carina
+^ESCTME403228	Metastatic malignant neoplasm to diaphragm
+^ESCTME403259	Metastatic malignant neoplasm to epiglottis
+^ESCTME403270	Metastatic malignant neoplasm to ethmoidal sinus
+^ESCTME403287	Metastatic malignant neoplasm to false vocal cord
+^ESCTME403289	Metastatic malignant neoplasm to ventricular bands of larynx
+^ESCTME403325	Metastatic malignant neoplasm to frontal sinus
+^ESCTME403344	Metastatic malignant neoplasm to glottis
+^ESCTME403370	Metastatic malignant neoplasm to hilus of lung
+^ESCTME403377	Metastatic malignant neoplasm to hypopharyngeal aspect of aryepiglottic fold
+^ESCTME403379	Metastatic malignant neoplasm to hypopharyngeal aspect of interarytenoid fold
+^ESCTME403381	Metastatic malignant neoplasm to hypopharynx
+^ESCTME403438	Metastatic malignant neoplasm to junctional region of epiglottis
+^ESCTME403440	Metastatic malignant neoplasm to junctional zone of tongue
+^ESCTME403461	Metastatic malignant neoplasm to laryngeal aspect of aryepiglottic fold
+^ESCTME403463	Metastatic malignant neoplasm to laryngeal aspect of interarytenoid fold
+^ESCTME403465	Metastatic malignant neoplasm to laryngeal commissure
+^ESCTME403467	Metastatic malignant neoplasm to laryngeal surface of epiglottis
+^ESCTME403469	Metastatic malignant neoplasm to larynx
+^ESCTME403473	Metastatic malignant neoplasm to lateral wall of nasopharynx
+^ESCTME403475	Metastatic malignant neoplasm to lateral wall of oropharynx
+^ESCTME403479	Metastatic malignant neoplasm to left lower lobe of lung
+^ESCTME403481	Metastatic malignant neoplasm to left upper lobe of lung
+^ESCTME403485	Metastatic malignant neoplasm to lingual tonsil
+^ESCTME403517	Metastatic malignant neoplasm to lung
+^ESCTME403549	Metastatic malignant neoplasm to main bronchus
+^ESCTME403566	Metastatic malignant neoplasm to maxillary sinus
+^ESCTME403636	Metastatic malignant neoplasm to nasal cavity
+^ESCTME403638	Metastatic malignant neoplasm to nasal concha
+^ESCTME403682	Metastatic malignant neoplasm to oropharynx
+^ESCTME403698	Metastatic malignant neoplasm to tonsil
+^ESCTME403699	Metastatic malignant neoplasm to palatine tonsil
+^ESCTME403735	Metastatic malignant neoplasm to parietal pleura
+^ESCTME403768	Metastatic malignant neoplasm to pharynx
+^ESCTME403780	Metastatic malignant neoplasm to pleura
+^ESCTME403784	Metastasis to pleura
+^ESCTME403790	Metastatic malignant neoplasm to postcricoid region
+^ESCTME403792	Metastatic malignant neoplasm to posterior hypopharyngeal wall
+^ESCTME403796	Metastatic malignant neoplasm to posterior wall of nasopharynx
+^ESCTME403798	Metastatic malignant neoplasm to posterior wall of oropharynx
+^ESCTME403818	Metastatic malignant neoplasm to pyriform sinus
+^ESCTME403837	Metastatic malignant neoplasm to respiratory tract
+^ESCTME403855	Metastatic malignant neoplasm to right lower lobe of lung
+^ESCTME403857	Metastatic malignant neoplasm to right middle lobe of lung
+^ESCTME403859	Metastatic malignant neoplasm to right upper lobe of lung
+^ESCTME403883	Metastatic malignant neoplasm to septum of nose
+^ESCTME403982	Metastatic malignant neoplasm to soft palate
+^ESCTME404022	Metastatic malignant neoplasm to sphenoidal sinus
+^ESCTME404053	Metastatic malignant neoplasm to subglottis
+^ESCTME404065	Metastatic malignant neoplasm to superior wall of nasopharynx
+^ESCTME404071	Metastatic malignant neoplasm to supraglottis
+^ESCTME404139	Metastatic malignant neoplasm to tonsillar fossa
+^ESCTME404141	Metastatic malignant neoplasm to tonsillar pillar
+^ESCTME404143	Metastatic malignant neoplasm to trachea
+^ESCTME404146	Metastasis to trachea
+^ESCTME404180	Metastatic malignant neoplasm to upper respiratory tract
+^ESCTME404214	Metastatic malignant neoplasm to uvula
+^ESCTME404224	Metastatic malignant neoplasm to vallecula
+^ESCTME404238	Metastatic malignant neoplasm to vestibule of nose
+^ESCTME404240	Metastatic malignant neoplasm to visceral pleura
+^ESCTME404242	Metastatic malignant neoplasm to vocal cord
+^ESCTME404244	Metastatic malignant neoplasm to vomer
+^ESCTME404250	Metastatic malignant neoplasm to Waldeyer's ring
+^ESCTME417086	Mesothelioma of parietal peritoneum
+^ESCTME417088	Mesothelioma of pelvic peritoneum
+^ESCTME417090	Mesothelioma of mesentery
+^ESCTME417093	Mesothelioma of omentum
+^ESCTME516848	Metastatic malignant neoplasm to nasopharynx
+^ESCTME517964	Metastatic malignant neoplasm to nasopharyngeal wall
+^ESCTME570339	Metastasis to trachea of unknown primary
+^ESCTME570346	Metastasis to bronchus of unknown primary
+^ESCTME570348	Metastasis to lung of unknown primary
+^ESCTME570350	Metastasis to pleura of unknown primary
+^ESCTME605277	Metastasis from malignant tumour of lung
+^ESCTME605278	Metastasis from malignant tumor of lung
+^ESCTME750712	Melanoma of ethmoidal sinus
+^ESCTME750717	Melanoma of maxillary sinus
+^ESCTME761578	Melanoma of accessory sinus
+^ESCTME761602	Melanoma of frontal sinus
+^ESCTME761604	Melanoma of sphenoidal sinus
+^ESCTME796974	Metastasis to lung from adenocarcinoma
+^ESCTMI283909	Mixed small cell carcinoma
+^ESCTMI761701	Mixed subtype adenocarcinoma of lung
+^ESCTMI761798	Mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTMU761652	Mucoepidermoid carcinoma of trachea
+^ESCTMU761659	Mucinous cystadenocarcinoma of trachea
+^ESCTMU761691	Mucinous adenocarcinoma of oropharynx
+^ESCTMU761705	Mucoepidermoid carcinoma of hypopharynx
+^ESCTMU761770	Mucinous adenocarcinoma of lung
+^ESCTMU761791	Mucoepidermoid carcinoma of lung
+^ESCTMU761802	Mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTMU761808	Mucinous adenocarcinoma of trachea
+^ESCTMU762046	Mucoepidermoid carcinoma of oropharynx
+^ESCTMU762057	Mucinous cystadenocarcinoma of lung
+^ESCTMY761650	Myoepithelial carcinoma of trachea
+^ESCTMY761789	Myoepithelial carcinoma of lung
+^ESCTMY762036	Myoepithelial carcinoma of oropharynx
+^ESCTNA699533	Nasal meatus cancer
+^ESCTNA736704	Nasopharyngeal carcinoma
+^ESCTNA750380	Nasopharyngeal carcinoma type 2b
+^ESCTNA750383	Nasopharyngeal carcinoma type 3
+^ESCTNE647862	Neoplasm of soft tissue
+^ESCTNE647867	Neoplasm of soft tissues
+^ESCTNE796113	Neuroendocrine type combined small cell carcinoma
+^ESCTNO699931	Non-small cell carcinoma of lung, TNM stage 3
+^ESCTNO700206	Non-small cell carcinoma of lung, TNM stage 4
+^ESCTNO702042	Non-small cell carcinoma of lung, TNM stage 1
+^ESCTNO703753	Non-small cell carcinoma of lung, TNM stage 2
+^ESCTNO706697	Non-small cell lung cancer, positive for epidermal growth factor receptor expression
+^ESCTNO706806	Non-small cell lung cancer, negative for epidermal growth factor receptor expression
+^ESCTNO723335	Nonsquamous nonsmall cell neoplasm of lung
+^ESCTNO735387	Non-Hodgkin's lymphoma of nasopharynx
+^ESCTNO735388	Non-Hodgkin lymphoma of nasopharynx
+^ESCTNO735389	Non-Hodgkin's lymphoma of lung
+^ESCTNO735390	Non-Hodgkin lymphoma of lung
+^ESCTNO736781	Non-Hodgkin's lymphoma of tonsil
+^ESCTNO736782	Non-Hodgkin lymphoma of tonsil
+^ESCTNO757257	Non-small cell lung cancer with mutation in epidermal growth factor receptor
+^ESCTNO757259	Non-small cell lung cancer without mutation in epidermal growth factor receptor
+^ESCTNO761800	Non-mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTNO762235	Nonkeratinizing carcinoma of the nasopharynx
+^ESCTNS534730	NSCLC - Non-small cell lung cancer
+^ESCTOA534719	Oat cell carcinoma of lung
+^ESCTOL699769	Olfactory neuroblastoma
+^ESCTON761683	Oncocytic carcinoma of oropharynx
+^ESCTOV416319	Overlapping malignant neoplasm of accessory sinuses
+^ESCTOV416320	Overlapping malignant neoplasm of nasopharynx
+^ESCTOV416321	Overlapping malignant neoplasm of nasopharyngeal wall
+^ESCTOV416323	Overlapping malignant neoplasm of hypopharynx
+^ESCTOV416325	Overlapping malignant neoplasm of larynx
+^ESCTOV416328	Overlapping malignant neoplasm of bronchus and lung
+^ESCTOV416332	Overlapping malignant neoplasm of mediastinum and pleura
+^ESCTOV416345	Overlapping malignant neoplasm of heart, mediastinum and pleura
+^ESCTOV417045	Overlapping malignant neoplasm of oropharynx
+^ESCTOV417381	Overlapping malignant neoplasm of palatine tonsil
+^ESCTOV761743	Overlapping squamous cell carcinoma of larynx
+^ESCTOV761744	Overlapping squamous cell carcinoma of laryngeal cartilage
+^ESCTOV761917	Overlapping squamous cell carcinoma of oropharynx
+^ESCTOV762105	Overlapping squamous cell carcinoma of hypopharynx
+^ESCTPA534731	Pancoast tumour
+^ESCTPA534733	Pancoast tumor
+^ESCTPA560827	Pancoast syndrome
+^ESCTPA761674	Papillary squamous cell carcinoma of trachea
+^ESCTPA761689	Papillary adenocarcinoma of oropharynx
+^ESCTPA761717	Papillary adenocarcinoma of lung
+^ESCTPA761740	Papillary squamous cell carcinoma of larynx
+^ESCTPA761776	Papillary squamous cell carcinoma of lung
+^ESCTPA761806	Papillary adenocarcinoma of trachea
+^ESCTPA761824	Papillary squamous cell carcinoma of hypopharynx
+^ESCTPA762026	Papillary squamous cell carcinoma of oropharynx
+^ESCTPL403783	Pleural seedling
+^ESCTPL761782	Pleomorphic carcinoma of lung
+^ESCTPL762170	Pleuropulmonary blastoma
+^ESCTPL762171	Pleuro-pulmonary blastoma
+^ESCTPL762172	Pleuropulmonary blastoma type I
+^ESCTPL762173	Pleuro-pulmonary blastoma type I
+^ESCTPL762174	Pleuropulmonary blastoma type II
+^ESCTPL762175	Pleuro-pulmonary blastoma type II
+^ESCTPL762176	Pleuropulmonary blastoma type III
+^ESCTPL762177	Pleuro-pulmonary blastoma type III
+^ESCTPN319541	Pneumoblastoma
+^ESCTPO761687	Polymorphous low grade adenocarcinoma of oropharynx
+^ESCTPR402448	Primary malignant neoplasm of accessory sinus
+^ESCTPR402452	Primary malignant neoplasm of adenoid
+^ESCTPR402458	Primary malignant neoplasm of anterior aspect of epiglottis
+^ESCTPR402461	Primary malignant neoplasm of anterior wall of nasopharynx
+^ESCTPR402475	Primary malignant neoplasm of base of tongue
+^ESCTPR402513	Primary malignant neoplasm of bronchus of left lower lobe
+^ESCTPR402514	Primary malignant neoplasm of bronchus of left upper lobe
+^ESCTPR402515	Primary malignant neoplasm of bronchus of right lower lobe
+^ESCTPR402516	Primary malignant neoplasm of bronchus of right middle lobe
+^ESCTPR402517	Primary malignant neoplasm of bronchus of right upper lobe
+^ESCTPR402518	Primary malignant neoplasm of bronchus
+^ESCTPR402519	Primary bronchial cancer
+^ESCTPR402522	Primary malignant neoplasm of carina
+^ESCTPR402560	Primary malignant neoplasm of diaphragm
+^ESCTPR402574	Primary malignant neoplasm of epiglottis
+^ESCTPR402577	Primary malignant neoplasm of ethmoidal sinus
+^ESCTPR402596	Primary malignant neoplasm of frontal sinus
+^ESCTPR402602	Primary malignant neoplasm of glottis
+^ESCTPR402611	Primary malignant neoplasm of hilus of lung
+^ESCTPR402614	Primary malignant neoplasm of hypopharyngeal aspect of aryepiglottic fold
+^ESCTPR402615	Primary malignant neoplasm of hypopharyngeal aspect of interarytenoid fold
+^ESCTPR402616	Primary malignant neoplasm of hypopharynx
+^ESCTPR402632	Primary malignant neoplasm of junctional zone of tongue
+^ESCTPR402637	Primary malignant neoplasm of laryngeal commissure
+^ESCTPR402638	Primary malignant neoplasm of laryngeal surface of epiglottis
+^ESCTPR402640	Primary malignant neoplasm of lateral wall of nasopharynx
+^ESCTPR402641	Primary malignant neoplasm of lateral wall of oropharynx
+^ESCTPR402642	Primary malignant neoplasm of lower lobe of left lung
+^ESCTPR402643	Primary malignant neoplasm of left lower lobe of lung
+^ESCTPR402644	Primary malignant neoplasm of left upper lobe of lung
+^ESCTPR402645	Primary malignant neoplasm of upper lobe of left lung
+^ESCTPR402647	Primary malignant neoplasm of lingual tonsil
+^ESCTPR402662	Primary malignant neoplasm of main bronchus
+^ESCTPR402670	Primary malignant neoplasm of maxillary sinus
+^ESCTPR402697	Primary malignant neoplasm of nasal cavity
+^ESCTPR402698	Primary malignant neoplasm of nasal concha
+^ESCTPR402714	Primary malignant neoplasm of oropharynx
+^ESCTPR402728	Primary malignant neoplasm of parietal pleura
+^ESCTPR402743	Primary malignant neoplasm of pharynx
+^ESCTPR402747	Primary malignant neoplasm of pleura
+^ESCTPR402748	Primary malignant neoplasm of postcricoid region
+^ESCTPR402749	Primary malignant neoplasm of posterior hypopharyngeal wall
+^ESCTPR402751	Primary malignant neoplasm of posterior wall of nasopharynx
+^ESCTPR402752	Primary malignant neoplasm of posterior wall of oropharynx
+^ESCTPR402760	Primary malignant neoplasm of pyriform sinus
+^ESCTPR402769	Primary malignant neoplasm of respiratory tract
+^ESCTPR402775	Primary malignant neoplasm of right lower lobe of lung
+^ESCTPR402776	Primary malignant neoplasm of right middle lobe of lung
+^ESCTPR402777	Primary malignant neoplasm of upper lobe of right lung
+^ESCTPR402778	Primary malignant neoplasm of right upper lobe of lung
+^ESCTPR402790	Primary malignant neoplasm of septum of nose
+^ESCTPR402856	Primary malignant neoplasm of soft palate
+^ESCTPR402873	Primary malignant neoplasm of sphenoidal sinus
+^ESCTPR402880	Primary malignant neoplasm of subglottis
+^ESCTPR402883	Primary malignant neoplasm of superior wall of nasopharynx
+^ESCTPR402885	Primary malignant neoplasm of supraglottis
+^ESCTPR402907	Primary malignant neoplasm of tonsillar fossa
+^ESCTPR402908	Primary malignant neoplasm of tonsillar pillar
+^ESCTPR402909	Primary malignant neoplasm of trachea
+^ESCTPR402922	Primary malignant neoplasm of upper respiratory tract
+^ESCTPR402932	Primary malignant neoplasm of uvula
+^ESCTPR402934	Primary malignant neoplasm of vallecula
+^ESCTPR402940	Primary malignant neoplasm of vestibule of nose
+^ESCTPR402941	Primary malignant neoplasm of visceral pleura
+^ESCTPR402942	Primary malignant neoplasm of vomer
+^ESCTPR402945	Primary malignant neoplasm of Waldeyer's ring
+^ESCTPR402946	Primary malignant neoplasm of Waldeyer ring
+^ESCTPR416327	Primary malignant neoplasm of laryngeal cartilage
+^ESCTPR636260	Primary malignant neoplasm of false vocal cord
+^ESCTPR636266	Primary malignant neoplasm of laryngeal aspect of aryepiglottic fold
+^ESCTPR636267	Primary malignant neoplasm of larynx
+^ESCTPR636297	Primary malignant neoplasm of tonsil
+^ESCTPR636308	Primary malignant neoplasm of vocal cord
+^ESCTPR636427	Primary malignant neoplasm of lower lobe, bronchus or lung
+^ESCTPR636429	Primary malignant neoplasm of middle lobe, bronchus or lung
+^ESCTPR636464	Primary malignant neoplasm of upper lobe, bronchus or lung
+^ESCTPR723871	Primary squamous cell carcinoma of naris
+^ESCTPR761553	Primary adenocarcinoma of accessory sinus
+^ESCTPR761556	Primary adenocarcinoma of maxillary sinus
+^ESCTPR761563	Primary adenocarcinoma of ethmoidal sinus
+^ESCTPR761565	Primary adenocarcinoma of frontal sinus
+^ESCTPR761567	Primary adenocarcinoma of sphenoidal sinus
+^ESCTPR761569	Primary carcinoma of accessory sinus
+^ESCTPR761570	Primary carcinoma of ethmoidal sinus
+^ESCTPR761572	Primary carcinoma of maxillary sinus
+^ESCTPR761573	Primary carcinoma of sphenoidal sinus
+^ESCTPR761575	Primary carcinoma of frontal sinus
+^ESCTPR761585	Primary squamous cell carcinoma of accessory sinus
+^ESCTPR761587	Primary squamous cell carcinoma of maxillary sinus
+^ESCTPR761589	Primary squamous cell carcinoma of sphenoidal sinus
+^ESCTPR761591	Primary squamous cell carcinoma of frontal sinus
+^ESCTPR761593	Primary squamous cell carcinoma of laryngeal cartilage
+^ESCTPR761595	Primary squamous cell carcinoma of larynx
+^ESCTPR761597	Primary squamous cell carcinoma of ethmoidal sinus
+^ESCTPR761599	Primary lymphoepithelial carcinoma of larynx
+^ESCTPR761647	Primary signet ring cell carcinoma of trachea
+^ESCTPR761649	Primary myoepithelial carcinoma of trachea
+^ESCTPR761651	Primary mucoepidermoid carcinoma of trachea
+^ESCTPR761653	Primary salivary gland type carcinoma of trachea
+^ESCTPR761658	Primary mucinous cystadenocarcinoma of trachea
+^ESCTPR761660	Primary solid carcinoma of trachea
+^ESCTPR761662	Primary undifferentiated carcinoma of trachea
+^ESCTPR761664	Primary acinar cell carcinoma of trachea
+^ESCTPR761668	Primary squamous cell carcinoma of trachea
+^ESCTPR761669	Primary clear cell squamous cell carcinoma of trachea
+^ESCTPR761671	Primary basaloid squamous cell carcinoma of trachea
+^ESCTPR761673	Primary papillary squamous cell carcinoma of trachea
+^ESCTPR761675	Primary giant cell carcinoma of trachea
+^ESCTPR761677	Primary adenosquamous carcinoma of trachea
+^ESCTPR761679	Primary spindle cell carcinoma of trachea
+^ESCTPR761681	Primary adenocarcinoma of hypopharynx
+^ESCTPR761682	Primary oxyphilic adenocarcinoma of oropharynx
+^ESCTPR761684	Primary basal cell adenocarcinoma of oropharynx
+^ESCTPR761686	Primary polymorphous low grade adenocarcinoma of oropharynx
+^ESCTPR761688	Primary papillary adenocarcinoma of oropharynx
+^ESCTPR761690	Primary mucinous adenocarcinoma of oropharynx
+^ESCTPR761692	Primary clear cell adenocarcinoma of oropharynx
+^ESCTPR761694	Primary adenocarcinoma of oropharynx
+^ESCTPR761696	Primary fetal adenocarcinoma of lung
+^ESCTPR761697	Primary foetal adenocarcinoma of lung
+^ESCTPR761700	Primary mixed subtype adenocarcinoma of lung
+^ESCTPR761702	Primary adenosquamous carcinoma of lung
+^ESCTPR761704	Primary mucoepidermoid carcinoma of hypopharynx
+^ESCTPR761706	Primary signet ring cell carcinoma of lung
+^ESCTPR761708	Primary small cell non-keratinising squamous cell carcinoma of lung
+^ESCTPR761709	Primary small cell non-keratinizing squamous cell carcinoma of lung
+^ESCTPR761712	Primary acinar cell carcinoma of lung
+^ESCTPR761714	Primary solid carcinoma of lung
+^ESCTPR761716	Primary papillary adenocarcinoma of lung
+^ESCTPR761730	Primary undifferentiated carcinoma of larynx
+^ESCTPR761731	Primary spindle cell squamous cell carcinoma of larynx
+^ESCTPR761733	Primary basaloid carcinoma of larynx
+^ESCTPR761735	Primary adenosquamous cell carcinoma of larynx
+^ESCTPR761737	Primary adenoid squamous cell carcinoma of larynx
+^ESCTPR761739	Primary papillary squamous cell carcinoma of larynx
+^ESCTPR761741	Primary verrucous carcinoma of larynx
+^ESCTPR761768	Primary adenocarcinoma of lung
+^ESCTPR761769	Primary mucinous adenocarcinoma of lung
+^ESCTPR761771	Primary clear cell squamous cell carcinoma of lung
+^ESCTPR761773	Primary basaloid squamous cell carcinoma of lung
+^ESCTPR761775	Primary papillary squamous cell carcinoma of lung
+^ESCTPR761777	Primary undifferentiated carcinoma of lung
+^ESCTPR761779	Primary spindle cell carcinoma of lung
+^ESCTPR761781	Primary pleomorphic carcinoma of lung
+^ESCTPR761783	Primary pseudosarcomatous carcinoma of lung
+^ESCTPR761788	Primary myoepithelial carcinoma of lung
+^ESCTPR761790	Primary mucoepidermoid carcinoma of lung
+^ESCTPR761792	Primary adenoid cystic carcinoma of lung
+^ESCTPR761794	Primary salivary gland type carcinoma of lung
+^ESCTPR761797	Primary mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTPR761799	Primary non-mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTPR761801	Primary mucinous bronchiolo-alveolar carcinoma of lung
+^ESCTPR761803	Primary clear cell adenocarcinoma of trachea
+^ESCTPR761805	Primary papillary adenocarcinoma of trachea
+^ESCTPR761807	Primary mucinous adenocarcinoma of trachea
+^ESCTPR761810	Primary adenocarcinoma of trachea
+^ESCTPR761818	Primary adenocarcinoma of subglottis
+^ESCTPR761821	Primary basaloid squamous cell carcinoma of hypopharynx
+^ESCTPR761823	Primary papillary squamous cell carcinoma of hypopharynx
+^ESCTPR761825	Primary undifferentiated carcinoma of hypopharynx
+^ESCTPR761827	Primary adenoid squamous cell carcinoma of hypopharynx
+^ESCTPR761829	Primary adenosquamous carcinoma of hypopharynx
+^ESCTPR761831	Primary basaloid carcinoma of hypopharynx
+^ESCTPR761833	Primary giant cell carcinoma of hypopharynx
+^ESCTPR761835	Primary spindle cell squamous cell carcinoma of hypopharynx
+^ESCTPR761837	Primary verrucous carcinoma of hypopharynx
+^ESCTPR761839	Primary lymphoepithelial carcinoma of hypopharynx
+^ESCTPR761841	Primary squamous cell carcinoma of hypopharynx
+^ESCTPR761842	Primary lymphoepithelial carcinoma of trachea
+^ESCTPR761844	Primary verrucous carcinoma of trachea
+^ESCTPR761846	Primary squamous cell adenoid carcinoma of trachea
+^ESCTPR761916	Primary squamous cell carcinoma of nasopharynx
+^ESCTPR761923	Primary squamous cell carcinoma of posterior wall of oropharynx
+^ESCTPR761926	Primary squamous cell carcinoma of lateral wall of oropharynx
+^ESCTPR761930	Primary squamous cell carcinoma of anterior surface of epiglottis
+^ESCTPR761931	Primary squamous cell carcinoma of vallecula
+^ESCTPR761933	Primary adenoid cystic carcinoma of hypopharynx
+^ESCTPR762013	Primary squamous cell carcinoma of supraglottis
+^ESCTPR762014	Primary squamous cell carcinoma of subglottis
+^ESCTPR762021	Primary basaloid squamous cell carcinoma of oropharynx
+^ESCTPR762023	Primary basaloid carcinoma of oropharynx
+^ESCTPR762025	Primary papillary squamous cell carcinoma of oropharynx
+^ESCTPR762027	Primary spindle cell squamous cell carcinoma of oropharynx
+^ESCTPR762029	Primary adenosquamous carcinoma of oropharynx
+^ESCTPR762031	Primary lymphoepithelial carcinoma of oropharynx
+^ESCTPR762033	Primary squamous cell carcinoma of oropharynx
+^ESCTPR762035	Primary myoepithelial carcinoma of oropharynx
+^ESCTPR762037	Primary carcinoma ex pleomorphic adenoma of oropharynx
+^ESCTPR762039	Primary epithelial-myoepithelial carcinoma of oropharynx
+^ESCTPR762041	Primary cystadenocarcinoma of oropharynx
+^ESCTPR762043	Primary acinar cell carcinoma of oropharynx
+^ESCTPR762045	Primary mucoepidermoid carcinoma of oropharynx
+^ESCTPR762047	Primary infiltrating duct carcinoma of oropharynx
+^ESCTPR762049	Primary salivary gland-type tumour of oropharynx
+^ESCTPR762050	Primary salivary gland-type tumor of oropharynx
+^ESCTPR762056	Primary mucinous cystadenocarcinoma of lung
+^ESCTPR762058	Primary carcinosarcoma of lung
+^ESCTPR762100	Primary salivary gland type carcinoma of hypopharynx
+^ESCTPR762101	Primary salivary gland-type tumour of hypopharynx
+^ESCTPR762103	Primary salivary gland-type tumor of hypopharynx
+^ESCTPR762157	Primary giant cell carcinoma of larynx
+^ESCTPR762160	Primary basaloid squamous cell carcinoma of larynx
+^ESCTPR762163	Primary squamous cell carcinoma of glottis
+^ESCTPR762178	Primary malignant epithelial neoplasm of trachea
+^ESCTPR762179	Primary carcinoma of trachea
+^ESCTPR762201	Primary squamous cell carcinoma of posterior wall of hypopharynx
+^ESCTPR762223	Primary squamous cell carcinoma of hypopharyngeal aspect of aryepiglottic fold
+^ESCTPR762231	Primary squamous cell carcinoma of postcricoid region
+^ESCTPR762233	Primary squamous cell carcinoma of pyriform sinus
+^ESCTPR768805	Primary clear cell adenocarcinoma of lung
+^ESCTPR776905	Primary pulmonary lymphoma
+^ESCTPR781956	Primary adenocarcinoma of nasal cavity
+^ESCTPR782012	Primary squamous cell carcinoma of overlapping lesion of accessory sinuses
+^ESCTPR782013	Primary adenocarcinoma of overlapping lesion of accessory sinuses
+^ESCTPR782014	Primary undifferentiated carcinoma of oropharynx
+^ESCTPR783267	Primary rhabdomyosarcoma of pharynx
+^ESCTPR783268	Primary rhabdomyosarcoma of respiratory organ
+^ESCTPR783287	Primary malignant neuroendocrine neoplasm of bronchus
+^ESCTPR783288	Primary malignant neuroendocrine neoplasm of lung
+^ESCTPR783289	Primary malignant epithelial neoplasm of nasopharynx
+^ESCTPR783290	Primary squamous cell carcinoma of pharyngeal tonsil
+^ESCTPR783291	Primary squamous cell carcinoma of adenoid
+^ESCTPR783505	Primary squamous cell carcinoma of base of tongue
+^ESCTPR783506	Primary squamous cell carcinoma of root of tongue
+^ESCTPR783507	Primary squamous cell carcinoma of lingual tonsil
+^ESCTPR783676	Primary synovial sarcoma of respiratory organ
+^ESCTPR784144	Primary squamous cell carcinoma of nasal cavity
+^ESCTPR795695	Primary squamous cell carcinoma of pharynx
+^ESCTPR795709	Primary squamous cell carcinoma of respiratory system
+^ESCTPR798746	Primary adenoid cystic carcinoma of nasopharynx
+^ESCTPR800552	Primary squamous cell carcinoma of palatine tonsil
+^ESCTPR802133	Primary small cell malignant neoplasm of lung, TNM stage 1
+^ESCTPR802134	Primary small cell malignant neoplasm of lung, TNM stage 2
+^ESCTPR802135	Primary small cell malignant neoplasm of lung, TNM stage 3
+^ESCTPR802136	Primary small cell malignant neoplasm of lung, TNM stage 4
+^ESCTPR845413	Primary adenocarcinoma of upper lobe of left lung
+^ESCTPT642812	pT2: Tumour of lung as per AJCC 6th Edition definition (lung)
+^ESCTPT642813	pT2: Tumor of lung as per AJCC 6th Edition definition (lung)
+^ESCTPT642814	pT2: Tumor of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+^ESCTPT642815	pT2: Tumour of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+^ESCTPT642818	pT4: Tumour of lung as per AJCC 6th Edition definition (lung)
+^ESCTPT642819	pT4: Tumor of lung as per AJCC 6th Edition definition (lung)
+^ESCTPT642820	pT4: Tumor of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+^ESCTPT642821	pT4: Tumour of lung as per American Joint Committee on Cancer 6th Edition definition (lung)
+^ESCTPU319540	Pulmonary blastoma
+^ESCTPU403520	Pulmonary metastasis
+^ESCTPU475714	Pulmonary blastoma
+^ESCTPU505769	Pulmonary tumour embolism
+^ESCTPU505770	Pulmonary tumor embolism
+^ESCTRE783140	Reactive oxygen species 1 positive non-small cell lung cancer
+^ESCTRO783141	ROS1 positive NSCLC - reactive oxygen species 1 positive non-small cell lung cancer
+^ESCTSA761784	Sarcomatoid carcinoma of lung
+^ESCTSA761795	Salivary gland type tumor of lung
+^ESCTSA761796	Salivary gland type tumour of lung
+^ESCTSA762051	Salivary gland-type tumor of oropharynx
+^ESCTSA762052	Salivary gland-type tumour of oropharynx
+^ESCTSA762102	Salivary gland-type tumor of hypopharynx
+^ESCTSA762104	Salivary gland-type tumour of hypopharynx
+^ESCTSC534699	SCC - Squamous cell carcinoma of bronchus
+^ESCTSC534717	SCLC - Small cell lung cancer
+^ESCTSC534722	SCC - Squamous cell carcinoma of lung
+^ESCTSE402965	Secondary malignant neoplasm of accessory sinus
+^ESCTSE402971	Secondary malignant neoplasm of adenoid
+^ESCTSE402990	Secondary malignant neoplasm of anterior aspect of epiglottis
+^ESCTSE402998	Secondary malignant neoplasm of anterior wall of nasopharynx
+^ESCTSE403022	Secondary malignant neoplasm of base of tongue
+^ESCTSE403124	Secondary malignant neoplasm of bronchus of left lower lobe
+^ESCTSE403126	Secondary malignant neoplasm of bronchus of left upper lobe
+^ESCTSE403128	Secondary malignant neoplasm of bronchus of right lower lobe
+^ESCTSE403130	Secondary malignant neoplasm of bronchus of right middle lobe
+^ESCTSE403132	Secondary malignant neoplasm of bronchus of right upper lobe
+^ESCTSE403134	Secondary malignant neoplasm of bronchus
+^ESCTSE403136	Secondary malignant tumour of bronchus
+^ESCTSE403137	Secondary malignant tumor of bronchus
+^ESCTSE403149	Secondary malignant neoplasm of carina
+^ESCTSE403227	Secondary malignant neoplasm of diaphragm
+^ESCTSE403258	Secondary malignant neoplasm of epiglottis
+^ESCTSE403269	Secondary malignant neoplasm of ethmoidal sinus
+^ESCTSE403286	Secondary malignant neoplasm of false vocal cord
+^ESCTSE403288	Secondary malignant neoplasm of ventricular bands of larynx
+^ESCTSE403324	Secondary malignant neoplasm of frontal sinus
+^ESCTSE403343	Secondary malignant neoplasm of glottis
+^ESCTSE403369	Secondary malignant neoplasm of hilus of lung
+^ESCTSE403376	Secondary malignant neoplasm of hypopharyngeal aspect of aryepiglottic fold
+^ESCTSE403378	Secondary malignant neoplasm of hypopharyngeal aspect of interarytenoid fold
+^ESCTSE403380	Secondary malignant neoplasm of hypopharynx
+^ESCTSE403437	Secondary malignant neoplasm of junctional region of epiglottis
+^ESCTSE403439	Secondary malignant neoplasm of junctional zone of tongue
+^ESCTSE403460	Secondary malignant neoplasm of laryngeal aspect of aryepiglottic fold
+^ESCTSE403462	Secondary malignant neoplasm of laryngeal aspect of interarytenoid fold
+^ESCTSE403464	Secondary malignant neoplasm of laryngeal commissure
+^ESCTSE403466	Secondary malignant neoplasm of laryngeal surface of epiglottis
+^ESCTSE403468	Secondary malignant neoplasm of larynx
+^ESCTSE403472	Secondary malignant neoplasm of lateral wall of nasopharynx
+^ESCTSE403474	Secondary malignant neoplasm of lateral wall of oropharynx
+^ESCTSE403478	Secondary malignant neoplasm of left lower lobe of lung
+^ESCTSE403480	Secondary malignant neoplasm of left upper lobe of lung
+^ESCTSE403484	Secondary malignant neoplasm of lingual tonsil
+^ESCTSE403518	Secondary malignant tumour of lung
+^ESCTSE403519	Secondary malignant tumor of lung
+^ESCTSE403521	Secondary cancer of lung
+^ESCTSE403548	Secondary malignant neoplasm of main bronchus
+^ESCTSE403565	Secondary malignant neoplasm of maxillary sinus
+^ESCTSE403635	Secondary malignant neoplasm of nasal cavity
+^ESCTSE403637	Secondary malignant neoplasm of nasal concha
+^ESCTSE403681	Secondary malignant neoplasm of oropharynx
+^ESCTSE403697	Secondary malignant neoplasm of tonsil
+^ESCTSE403700	Secondary malignant neoplasm of palatine tonsil
+^ESCTSE403734	Secondary malignant neoplasm of parietal pleura
+^ESCTSE403767	Secondary malignant neoplasm of pharynx
+^ESCTSE403781	Secondary malignant tumour of pleura
+^ESCTSE403782	Secondary malignant tumor of pleura
+^ESCTSE403789	Secondary malignant neoplasm of postcricoid region
+^ESCTSE403791	Secondary malignant neoplasm of posterior hypopharyngeal wall
+^ESCTSE403795	Secondary malignant neoplasm of posterior wall of nasopharynx
+^ESCTSE403797	Secondary malignant neoplasm of posterior wall of oropharynx
+^ESCTSE403817	Secondary malignant neoplasm of pyriform sinus
+^ESCTSE403854	Secondary malignant neoplasm of right lower lobe of lung
+^ESCTSE403856	Secondary malignant neoplasm of right middle lobe of lung
+^ESCTSE403858	Secondary malignant neoplasm of right upper lobe of lung
+^ESCTSE403882	Secondary malignant neoplasm of septum of nose
+^ESCTSE403981	Secondary malignant neoplasm of soft palate
+^ESCTSE404021	Secondary malignant neoplasm of sphenoidal sinus
+^ESCTSE404052	Secondary malignant neoplasm of subglottis
+^ESCTSE404064	Secondary malignant neoplasm of superior wall of nasopharynx
+^ESCTSE404070	Secondary malignant neoplasm of supraglottis
+^ESCTSE404138	Secondary malignant neoplasm of tonsillar fossa
+^ESCTSE404140	Secondary malignant neoplasm of tonsillar pillar
+^ESCTSE404142	Secondary malignant neoplasm of trachea
+^ESCTSE404144	Secondary malignant tumour of trachea
+^ESCTSE404145	Secondary malignant tumor of trachea
+^ESCTSE404179	Secondary malignant neoplasm of upper respiratory tract
+^ESCTSE404213	Secondary malignant neoplasm of uvula
+^ESCTSE404223	Secondary malignant neoplasm of vallecula
+^ESCTSE404237	Secondary malignant neoplasm of vestibule of nose
+^ESCTSE404239	Secondary malignant neoplasm of visceral pleura
+^ESCTSE404241	Secondary malignant neoplasm of vocal cord
+^ESCTSE404243	Secondary malignant neoplasm of vomer
+^ESCTSE404249	Secondary malignant neoplasm of Waldeyer's ring
+^ESCTSE404251	Secondary malignant neoplasm of Waldeyer ring
+^ESCTSE516849	Secondary malignant neoplasm of nasopharynx
+^ESCTSE517963	Secondary malignant neoplasm of nasopharyngeal wall
+^ESCTSE811346	Secondary malignant neoplasm of right lung
+^ESCTSE811354	Secondary malignant neoplasm of left lung
+^ESCTSI750295	Sinonasal undifferentiated carcinoma
+^ESCTSI761648	Signet ring cell carcinoma of trachea
+^ESCTSI761707	Signet ring cell carcinoma of lung
+^ESCTSM259458	Small cell carcinoma, intermediate cell
+^ESCTSM283908	Small cell-large cell carcinoma
+^ESCTSM370377	Small cell carcinoma, fusiform cell
+^ESCTSM370378	Small cell carcinoma - fusiform cell
+^ESCTSM534716	Small cell carcinoma of lung
+^ESCTSM757776	Small cell carcinoma, hypercalcaemic type
+^ESCTSM757777	Small cell carcinoma, hypercalcemic type
+^ESCTSM761710	Small cell non-keratinizing squamous cell carcinoma of lung
+^ESCTSM761711	Small cell non-keratinising squamous cell carcinoma of lung
+^ESCTSN668915	Snuff dipper's cancer
+^ESCTSN750294	SNUC - sinonasal undifferentiated carcinoma
+^ESCTSO647864	Soft tissue tumour
+^ESCTSO647865	Soft tissue tumor
+^ESCTSO761661	Solid carcinoma of trachea
+^ESCTSO761715	Solid carcinoma of lung
+^ESCTSP761680	Spindle cell carcinoma of trachea
+^ESCTSP761732	Spindle cell squamous cell carcinoma of larynx
+^ESCTSP761780	Spindle cell carcinoma of lung
+^ESCTSP761836	Spindle cell squamous cell carcinoma of hypopharynx
+^ESCTSP762028	Spindle cell squamous cell carcinoma of oropharynx
+^ESCTSQ534695	Squamous cell carcinoma of trachea
+^ESCTSQ534698	Squamous cell carcinoma of bronchus
+^ESCTSQ602914	Squamous cell carcinoma of bronchus in left lower lobe
+^ESCTSQ602915	Squamous cell carcinoma of bronchus in left upper lobe
+^ESCTSQ602916	Squamous cell carcinoma of bronchus in right lower lobe
+^ESCTSQ602917	Squamous cell carcinoma of bronchus in right middle lobe
+^ESCTSQ602918	Squamous cell carcinoma of bronchus in right upper lobe
+^ESCTSQ671893	Squamous cell carcinoma of larynx
+^ESCTSQ676518	Squamous cell carcinoma of epiglottis
+^ESCTSQ676519	Squamous cell carcinoma of pharynx
+^ESCTSQ699426	Squamous cell carcinoma of nasopharynx
+^ESCTSQ700503	Squamous cell carcinoma of lung, TNM stage 1
+^ESCTSQ700795	Squamous cell carcinoma of oropharynx
+^ESCTSQ700801	Squamous cell carcinoma of lung, TNM stage 2
+^ESCTSQ704084	Squamous cell carcinoma of lung, TNM stage 3
+^ESCTSQ704336	Squamous cell carcinoma of lung, TNM stage 4
+^ESCTSQ761586	Squamous cell carcinoma of accessory sinus
+^ESCTSQ761588	Squamous cell carcinoma of maxillary sinus
+^ESCTSQ761590	Squamous cell carcinoma of sphenoidal sinus
+^ESCTSQ761592	Squamous cell carcinoma of frontal sinus
+^ESCTSQ761594	Squamous cell carcinoma of laryngeal cartilage
+^ESCTSQ761596	Squamous cell carcinoma of larynx
+^ESCTSQ761598	Squamous cell carcinoma of ethmoidal sinus
+^ESCTSQ761847	Squamous cell adenoid carcinoma of trachea
+^ESCTSQ761918	Squamous cell carcinoma of overlapping lesion of oropharynx
+^ESCTSQ761924	Squamous cell carcinoma of posterior wall of oropharynx
+^ESCTSQ761927	Squamous cell carcinoma of lateral wall of oropharynx
+^ESCTSQ761932	Squamous cell carcinoma of vallecula
+^ESCTSQ762034	Squamous cell carcinoma of oropharynx
+^ESCTSQ762106	Squamous cell carcinomas of overlapping lesion of hypopharynx
+^ESCTSQ762202	Squamous cell carcinomas of posterior wall of hypopharynx
+^ESCTSQ762224	Squamous cell carcinomas of aryepiglottic fold, hypopharyngeal aspect
+^ESCTSQ762232	Squamous cell carcinomas of postcricoid region
+^ESCTSQ762234	Squamous cell carcinoma of piriform sinus
+^ESCTSQ784236	Squamous non-small cell lung cancer
+^ESCTSQ784237	Squamous NSCLC (non-small cell lung cancer)
+^ESCTSU534732	Superior sulcus tumor
+^ESCTSU534734	Superior sulcus tumour
+^ESCTSU560826	Superior pulmonary sulcus syndrome
+^ESCTTO555999	Tonsil carcinoma
+^ESCTTR624581	Tracheal cancer
+^ESCTTR735605	Transglottic malignant neoplasm of larynx
+^ESCTTR735606	Transglottic cancer of larynx
+^ESCTTU647863	Tumour of soft tissue
+^ESCTTU647866	Tumor of soft tissue
+^ESCTUK570340	UKP - Metastasis to trachea of unknown primary
+^ESCTUK570347	UKP - Metastasis to bronchus of unknown primary
+^ESCTUK570349	UKP - Metastasis to lung of unknown primary
+^ESCTUK570351	UKP - Metastasis to pleura of unknown primary
+^ESCTUN699161	Undifferentiated carcinoma of nasopharynx
+^ESCTUN750293	Undifferentiated carcinoma of nasal sinus
+^ESCTUN750379	Undifferentiated nonkeratinizing carcinoma of nasopharynx
+^ESCTUN750381	Undifferentiated nonkeratinising carcinoma of nasopharynx
+^ESCTUN750382	Undifferentiated nonkeratinizing squamous cell carcinoma of nasopharynx
+^ESCTUN761663	Undifferentiated carcinoma of trachea
+^ESCTUN761778	Undifferentiated carcinoma of lung
+^ESCTUN761826	Undifferentiated carcinoma of hypopharynx
+^ESCTVE668914	Verrucous carcinoma of oral cavity
+^ESCTVE761742	Verrucous carcinoma of larynx
+^ESCTVE761838	Verrucous carcinoma of hypopharynx
+^ESCTVE761845	Verrucous carcinoma of trachea
+EMISNQAD45	Adenocarcinoma of lung
+EMISNQCA85	Carcinoid tumour of lung
+EMISNQLA74	Large cell carcinoma of lung
+EMISNQNO51	Non-small cell lung cancer
+EMISNQPR69	Primary malignant neoplasm of lung
+EMISNQSM10	Small cell lung cancer
+EMISNQSQ1	Squamous cell carcinoma of lung

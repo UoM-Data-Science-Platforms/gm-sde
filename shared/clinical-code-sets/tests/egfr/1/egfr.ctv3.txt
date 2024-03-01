@@ -6,3 +6,4 @@ XaMDA	Glomerular filtration rate calculated by abbreviated Modification of Diet 
 XaZpN	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres
 XacUJ	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
 XacUK	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+XSFyN	Glomerular filtration rate

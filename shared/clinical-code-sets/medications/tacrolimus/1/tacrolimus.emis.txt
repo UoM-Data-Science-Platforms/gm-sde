@@ -1,0 +1,224 @@
+^ESCT1230433	Tacrolimus 0.03% ointment
+^ESCT1230434	Product containing precisely tacrolimus (as tacrolimus monohydrate) 300 microgram/1 gram conventional release cutaneous ointment
+^ESCT1230435	Tacrolimus (as tacrolimus monohydrate) 300 microgram/g cutaneous ointment
+^ESCT1230436	Tacrolimus 0.1% ointment
+^ESCT1230437	Tacrolimus (as tacrolimus monohydrate) 1 mg/g cutaneous ointment
+^ESCT1230438	Product containing precisely tacrolimus (as tacrolimus monohydrate) 1 milligram/1 gram conventional release cutaneous ointment
+^ESCT1249925	Tacrolimus 0.1% ointment (Teva UK Ltd)
+^ESCT1249926	Tacrolimus 0.1% ointment (Teva UK Ltd) 30 gram
+^ESCT1249927	Tacrolimus 0.1% ointment (Teva UK Ltd) 60 gram
+^ESCT1254536	Tacrolimus 0.1% ointment (Accord Healthcare Ltd)
+^ESCT1254537	Tacrolimus 0.1% ointment (Accord Healthcare Ltd) 30 gram
+^ESCT1254538	Tacrolimus 0.1% ointment (Accord Healthcare Ltd) 60 gram
+^ESCT1254558	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd)
+^ESCT1254559	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCT1254563	Tacrolimus 0.1% ointment (A A H Pharmaceuticals Ltd) 60 gram
+^ESCT1256677	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCT1256680	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCT1256684	Tacrolimus 0.1% ointment (Alliance Healthcare (Distribution) Ltd) 60 gram
+^ESCT1275653	Tacrolimus 0.1% ointment (DE Pharmaceuticals)
+^ESCT1275655	Tacrolimus 0.1% ointment (DE Pharmaceuticals) 30 gram
+^ESCT1275657	Tacrolimus 0.1% ointment (DE Pharmaceuticals) 60 gram
+^ESCT1404209	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd)
+^ESCT1404210	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd) 30 gram
+^ESCT1404212	Tacrolimus 0.1% ointment (Medihealth (Northern) Ltd) 60 gram
+^ESCTPR861467	Protopic 0.03% ointment (LEO Pharma)
+^ESCTPR861471	Protopic 0.03% ointment (LEO Pharma) 30 gram
+^ESCTPR861474	Protopic 0.03% ointment (LEO Pharma) 60 gram
+^ESCTPR861486	Protopic 0.1% ointment (LEO Pharma)
+^ESCTPR861487	Protopic 0.1% ointment (LEO Pharma) 30 gram
+^ESCTPR861490	Protopic 0.1% ointment (LEO Pharma) 60 gram
+^ESCTTA675422	Tacrolimus 0.03% ointment
+^ESCTTA675423	Tacrolimus monohydrate 0.03% ointment
+^ESCTTA675424	Tacrolimus 0.1% ointment
+^ESCTTA675425	Tacrolimus monohydrate 0.1% ointment
+^ESCTTA861462	Tacrolimus 0.03% ointment 30 gram
+^ESCTTA861463	Tacrolimus 0.03% ointment 60 gram
+^ESCTTA861483	Tacrolimus 0.1% ointment 30 gram
+^ESCTTA861485	Tacrolimus 0.1% ointment 60 gram
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %
+^ESCT1178789	Product containing only tacrolimus 1 mg/1 each oral capsule
+^ESCT1181933	Product containing only tacrolimus 5 mg/1 each oral capsule
+^ESCT1184416	Capexion 1mg capsules (Mylan)
+^ESCT1188234	Product containing only tacrolimus 0.5 milligram/1 each oral capsule
+^ESCT1225107	Product containing precisely tacrolimus 1 milligram/1 each conventional release oral capsule
+^ESCT1225108	Tacrolimus 1 mg oral capsule
+^ESCT1225109	Tacrolimus 5 mg oral capsule
+^ESCT1225110	Product containing precisely tacrolimus 5 milligram/1 each conventional release oral capsule
+^ESCT1225111	Product containing precisely tacrolimus 500 microgram/1 each conventional release oral capsule
+^ESCT1225112	Tacrolimus 500 microgram oral capsule
+^ESCT1266540	Advagraf 3mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1410621	Tacrolimus 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1438319	Capexion 1mg capsules (Viatris UK Healthcare Ltd)
+^ESCTAD1007043	Adoport 0.5mg capsules (Sandoz Ltd)
+^ESCTAD1119283	Advagraf 3mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTAD941306	Advagraf 5mg modified-release capsules (Astellas Pharma Ltd)
+^ESCTCA1020586	Capexion 1mg capsules (Mylan Ltd)
+^ESCTEN1107870	Envarsus 4mg modified-release tablets (Chiesi Ltd)
+^ESCTPR1001230	Prograf 1mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR613939	Product containing tacrolimus 1 mg/1 each oral capsule
+^ESCTPR613942	Product containing tacrolimus 5 mg/1 each oral capsule
+^ESCTPR613949	Product containing tacrolimus 0.5 milligram/1 each oral capsule
+^ESCTPR806728	Prograf 1mg capsules (Astellas Pharma Ltd)
+^ESCTPR820802	Prograf 500microgram capsules (Astellas Pharma Ltd)
+^ESCTPR823140	Prograf 5mg capsules (Astellas Pharma Ltd)
+^ESCTTA613937	Tacrolimus 1mg capsules
+^ESCTTA613938	Tacrolimus 1 mg/1 each oral capsule
+^ESCTTA613940	Tacrolimus 5mg capsules
+^ESCTTA613941	Tacrolimus 5 mg/1 each oral capsule
+^ESCTTA613943	Tacrolimus 5mg/1ml solution for infusion ampoules
+^ESCTTA613944	Tacrolimus 5mg/1mL infusion concentrate
+^ESCTTA613945	Tacrolimus 5mg/mL infusion concentrate 1mL ampoule
+^ESCTTA613946	Tacrolimus 5mg/mL infusion concentrate 1mL ampule
+^ESCTTA613947	Tacrolimus 500microgram capsules
+^ESCTTA613948	Tacrolimus 0.5 mg oral capsule
+^ESCTTA909894	Tacrolimus 5mg/5ml oral suspension (Special Order)
+^ESCTTA960960	Tacrolimus 2mg/5ml oral suspension (Special Order)
+^ESCTTA963775	Tacrolimus 500micrograms/5ml oral suspension (Special Order)
+^ESCTTA963789	Tacrolimus 500micrograms/5ml oral suspension
+^ESCTTA964513	Tacrolimus 25mg/5ml oral suspension
+ADCA46737NEMIS	Adoport  Capsules  500 micrograms
+ADM/25955NEMIS	Advagraf  M/R capsules  5 mg
+CACA51775NEMIS	Capexion  Capsules  1 mg
+ENM/100581NEMIS	Envarsus  M/R tablets  4 mg
+PRCA25857EMIS	Prograf  Capsules  1 mg
+PRCA25858EMIS	Prograf  Capsules  5 mg
+PRCA4138NEMIS	Prograf  Capsules  500 micrograms
+TACA25863EMIS	Tacrolimus  Capsules  1 mg
+TACA25864EMIS	Tacrolimus  Capsules  5 mg
+TACA4137NEMIS	Tacrolimus  Capsules  500 micrograms
+^ESCT1180453	Capexion 0.5mg capsules (Mylan)
+^ESCT1184417	Capexion 5mg capsules (Mylan)
+^ESCT1214808	Tacrolimus 5mg/1ml solution for infusion ampoules
+^ESCT1258114	Prograf 1mg capsules (Pharmaram Ltd)
+^ESCT1259144	Prograf 1mg capsules (Originalis B.V.)
+^ESCT1266554	Prograf 500microgram capsules (CST Pharma Ltd)
+^ESCT1266582	Prograf 1mg capsules (CST Pharma Ltd)
+^ESCT1274845	Prograf 500microgram capsules (Pilsco Ltd)
+^ESCT1274847	Prograf 1mg capsules (Pilsco Ltd)
+^ESCT1279597	Dailiport 0.5mg modified-release capsules (Sandoz Ltd)
+^ESCT1279599	Dailiport 1mg modified-release capsules (Sandoz Ltd)
+^ESCT1279602	Dailiport 3mg modified-release capsules (Sandoz Ltd)
+^ESCT1279604	Dailiport 5mg modified-release capsules (Sandoz Ltd)
+^ESCT1279610	Dailiport 2mg modified-release capsules (Sandoz Ltd)
+^ESCT1279641	Tacrolimus 2mg modified-release capsules
+^ESCT1280738	Prograf 500microgram capsules (Pharmaram Ltd)
+^ESCT1280740	Prograf 5mg capsules (Pharmaram Ltd)
+^ESCT1438317	Capexion 0.5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438322	Capexion 5mg capsules (Viatris UK Healthcare Ltd)
+^ESCTAD1001832	Advagraf 1mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAD1001834	Advagraf 0.5mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAD1002660	Advagraf 1mg modified-release capsules (Necessity Supplies Ltd)
+^ESCTAD1002667	Advagraf 5mg modified-release capsules (Necessity Supplies Ltd)
+^ESCTAD1007038	Adoport 5mg capsules (Sandoz Ltd)
+^ESCTAD1007040	Adoport 1mg capsules (Sandoz Ltd)
+^ESCTAD1107947	Adoport 0.75mg capsules (Sandoz Ltd)
+^ESCTAD1107950	Adoport 2mg capsules (Sandoz Ltd)
+^ESCTAD1118554	Adoport 1mg capsules (Lexon (UK) Ltd)
+^ESCTAD1119223	Advagraf 1mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTAD941298	Advagraf 0.5mg modified-release capsules (Astellas Pharma Ltd)
+^ESCTAD941302	Advagraf 1mg modified-release capsules (Astellas Pharma Ltd)
+^ESCTAD968337	Advagraf 1mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTAD968342	Advagraf 5mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTAD983142	Advagraf 3mg modified-release capsules (Astellas Pharma Ltd)
+^ESCTAD988679	Advagraf 1mg modified-release capsules (Lexon (UK) Ltd)
+^ESCTCA1020584	Capexion 0.5mg capsules (Mylan Ltd)
+^ESCTCA1020589	Capexion 5mg capsules (Mylan Ltd)
+^ESCTEN1107864	Envarsus 1mg modified-release tablets (Chiesi Ltd)
+^ESCTEN1107867	Envarsus 750microgram modified-release tablets (Chiesi Ltd)
+^ESCTMO994053	Modigraf 0.2mg granules sachets (Astellas Pharma Ltd)
+^ESCTMO994057	Modigraf 1mg granules sachets (Astellas Pharma Ltd)
+^ESCTPE1057999	Perixis 0.5mg capsules (Accord Healthcare Ltd)
+^ESCTPE1058002	Perixis 1mg capsules (Accord Healthcare Ltd)
+^ESCTPE1058008	Perixis 5mg capsules (Accord Healthcare Ltd)
+^ESCTPR1001226	Prograf 500microgram capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001232	Prograf 5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1003114	Prograf 500microgram capsules (Necessity Supplies Ltd)
+^ESCTPR1003116	Prograf 1mg capsules (Necessity Supplies Ltd)
+^ESCTPR1007228	Prograf 1mg capsules (Lexon (UK) Ltd)
+^ESCTPR1058397	Prograf 5mg capsules (Waymade Healthcare Plc)
+^ESCTPR869605	Prograf 5mg/1ml solution for infusion ampoules (Astellas Pharma Ltd)
+^ESCTPR878836	Prograf 1mg capsules (Waymade Healthcare Plc)
+^ESCTPR879602	Prograf 1mg capsules (Dowelhurst Ltd)
+^ESCTPR936855	Prograf 500microgram capsules (Waymade Healthcare Plc)
+^ESCTPR967358	Prograf 500microgram capsules (DE Pharmaceuticals)
+^ESCTPR967361	Prograf 1mg capsules (DE Pharmaceuticals)
+^ESCTPR974946	Prograf 500microgram capsules (Sigma Pharmaceuticals Plc)
+^ESCTPR974948	Prograf 1mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTA1012538	Tacrolimus 500microgram capsules (A A H Pharmaceuticals Ltd)
+^ESCTTA1012541	Tacrolimus 1mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTA1012551	Tacrolimus 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTA1018751	Tacni 0.5mg capsules (Teva UK Ltd)
+^ESCTTA1018753	Tacni 1mg capsules (Teva UK Ltd)
+^ESCTTA1018755	Tacni 5mg capsules (Teva UK Ltd)
+^ESCTTA1037090	Tacrolimus 800micrograms/5ml oral solution (Special Order)
+^ESCTTA1037112	Tacrolimus 800micrograms/5ml oral solution
+^ESCTTA1058436	Tacrolimus 900micrograms/5ml oral suspension (Special Order)
+^ESCTTA1058453	Tacrolimus 900micrograms/5ml oral suspension
+^ESCTTA1108019	Tacrolimus 1mg modified-release tablets
+^ESCTTA1108020	Tacrolimus 4mg modified-release tablets
+^ESCTTA1108021	Tacrolimus 750microgram modified-release tablets
+^ESCTTA1109314	Tacrolimus 2mg capsules
+^ESCTTA1109315	Tacrolimus 750microgram capsules
+^ESCTTA908852	Tacrolimus 2.5mg/5ml oral solution (Special Order)
+^ESCTTA908858	Tacrolimus 2.5mg/5ml oral suspension (Special Order)
+^ESCTTA909035	Tacrolimus 2.5mg/5ml oral suspension
+^ESCTTA909037	Tacrolimus 2.5mg/5ml oral solution
+^ESCTTA909897	Tacrolimus 5mg/5ml oral suspension
+^ESCTTA941598	Tacrolimus 1mg modified-release capsules
+^ESCTTA941599	Tacrolimus 500microgram modified-release capsules
+^ESCTTA941600	Tacrolimus 5mg modified-release capsules
+^ESCTTA961173	Tacrolimus 2mg/5ml oral suspension
+^ESCTTA964483	Tacrolimus 25mg/5ml oral solution (Special Order)
+^ESCTTA964486	Tacrolimus 25mg/5ml oral suspension (Special Order)
+^ESCTTA964512	Tacrolimus 25mg/5ml oral solution
+^ESCTTA983248	Tacrolimus 3mg modified-release capsules
+^ESCTTA994051	Tacrolimus 200microgram granules sachets sugar free
+^ESCTTA994055	Tacrolimus 1mg granules sachets sugar free
+^ESCTVI1012304	Vivadex 1mg capsules (Dexcel-Pharma Ltd)
+^ESCTVI1012307	Vivadex 0.5mg capsules (Dexcel-Pharma Ltd)
+^ESCTVI1012309	Vivadex 5mg capsules (Dexcel-Pharma Ltd)
+ADCA101089NEMIS	Adoport  Capsules  2 mg
+ADCA101090NEMIS	Adoport  Capsules  750 micrograms
+ADCA46738NEMIS	Adoport  Capsules  1 mg
+ADCA46739NEMIS	Adoport  Capsules  5 mg
+ADM/25953NEMIS	Advagraf  M/R capsules  500 micrograms
+ADM/25954NEMIS	Advagraf  M/R capsules  1 mg
+ADM/37225NEMIS	Advagraf  M/R capsules  3 mg
+CACA51776NEMIS	Capexion  Capsules  500 micrograms
+CACA51777NEMIS	Capexion  Capsules  5 mg
+DAM/134448NEMIS	Dailiport  M/R capsules  500 micrograms
+DAM/134449NEMIS	Dailiport  M/R capsules  1 mg
+DAM/134450NEMIS	Dailiport  M/R capsules  2 mg
+DAM/134451NEMIS	Dailiport  M/R capsules  3 mg
+DAM/134452NEMIS	Dailiport  M/R capsules  5 mg
+ENM/100577NEMIS	Envarsus  M/R tablets  750 micrograms
+ENM/100578NEMIS	Envarsus  M/R tablets  1 mg
+MOGR40457NEMIS	Modigraf  Granules for Oral Suspension  200 micrograms/sachet
+MOGR40458NEMIS	Modigraf  Granules for Oral Suspension  1 mg/sachet
+PRIN25859EMIS	Prograf  Solution for infusion  5 mg/1 ml ampoule
+TACA101087NEMIS	Tacrolimus  Capsules  2 mg
+TACA101088NEMIS	Tacrolimus  Capsules  750 micrograms
+TACA51108NEMIS	Tacni  Capsules  500 micrograms
+TACA51109NEMIS	Tacni  Capsules  1 mg
+TACA51110NEMIS	Tacni  Capsules  5 mg
+TAGR40454NEMIS	Tacrolimus  Granules for Oral Suspension  Sugar Free, 200 micrograms/sachet
+TAGR40455NEMIS	Tacrolimus  Granules for Oral Suspension  Sugar Free, 1 mg/sachet
+TAIN25865EMIS	Tacrolimus  Solution for infusion  5 mg/1 ml ampoule
+TAM/100571NEMIS	Tacrolimus  M/R tablets  750 micrograms
+TAM/100572NEMIS	Tacrolimus  M/R tablets  1 mg
+TAM/100575NEMIS	Tacrolimus  M/R tablets  4 mg
+TAM/134446NEMIS	Tacrolimus  M/R capsules  2 mg
+TAM/25949NEMIS	Tacrolimus  M/R capsules  500 micrograms
+TAM/25950NEMIS	Tacrolimus  M/R capsules  1 mg
+TAM/25951NEMIS	Tacrolimus  M/R capsules  5 mg
+TAM/37224NEMIS	Tacrolimus  M/R capsules  3 mg
+TAOR18410NEMIS	Tacrolimus  Oral suspension  5 mg/5 ml
+TAOR19247NEMIS	Tacrolimus  Oral suspension  2.5 mg/5 ml
+TAOR46812NEMIS	Tacrolimus  Oral solution  2.5 mg/5 ml
+VICA48274NEMIS	Vivadex  Capsules  1 mg
+VICA48275NEMIS	Vivadex  Capsules  5 mg
+VICA48276NEMIS	Vivadex  Capsules  500 micrograms

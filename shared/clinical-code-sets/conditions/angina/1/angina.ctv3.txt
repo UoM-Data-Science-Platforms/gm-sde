@@ -20,3 +20,4 @@ G33z1	Stenocardia
 G33z2	Syncope anginosa
 Ua1eH	Ischaemic chest pain
 XE0Ui	Pre-infarction syndrome
+G31y0	Acute coronary insufficiency

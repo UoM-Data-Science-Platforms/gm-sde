@@ -21,11 +21,18 @@
 446226005	Diastolic blood pressure on admission
 716632005	Baseline diastolic blood pressure
 198091000000104	Ambulatory diastolic blood pressure
-814081000000101	Diastolic blood pressure centile
 1091811000000102	Diastolic arterial pressure (observable entity)
 1036571000000105	Non-invasive central diastolic blood pressure
-23154005	Increased diastolic arterial pressure (finding)
-42689008	Decreased diastolic arterial pressure (finding)
-49844009	Abnormal diastolic arterial pressure (finding)
-53813002	Normal diastolic arterial pressure (finding)
 163031004	On examination - Diastolic BP reading
+100181000000103	Lying diastolic blood pressure
+1162735000	Self reported diastolic blood pressure (observable entity)	
+213051000000103	Ambulatory diastolic blood pressure
+213061000000100	Ambulatory diastolic blood pressure	
+75141000000102	Standing diastolic blood pressure
+945851000000103	Baseline diastolic blood pressure (observable entity)
+945861000000100	Baseline diastolic blood pressure
+95291000000106	Sitting diastolic blood pressure
+95311000000107	Lying diastolic blood pressure
+100161000000107	Sitting diastolic blood pressure
+67726005	Diastolic arterial pressure (observable entity)	
+79411000000108	Standing diastolic blood pressure

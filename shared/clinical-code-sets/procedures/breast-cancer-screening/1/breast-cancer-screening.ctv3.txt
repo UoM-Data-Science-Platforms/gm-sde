@@ -1,1 +1,28 @@
 XaJU6	Breast cancer detected by national screening programme
+537..	Mammogram
+537..	Mammogram
+537..	Mammography
+5372.	Mammography normal
+5372.	Mammography normal
+5373.	Mammography abnormal
+5373.	Mammography abnormal
+537Z.	Soft tissue X-ray breast NOS
+537Z.	Soft tissue X-ray breast NOS
+6862.	Breast neoplasm screen
+6862.	Breast neoplasm screen (& [mammography])
+6862.	Mammography - screening
+68620	Breast neoplasm screening normal
+68620	Breast neoplasm screening normal
+68621	Breast neoplasm screening abnormal
+68621	Breast neoplasm screening abnormal
+9OH9.	Breast screening abnormal - told patient
+9OH9.	Breast screening abnormal - told patient
+R1380	[D]Mammogram abnormal
+R1380	[D]Mammogram abnormal
+X70ds	Mammogram - screening
+X70ds	Mammogram - screening
+X70ds	Mammography - screening
+XE1TY	Breast neoplasm screening
+XE1TY	Breast neoplasm screening
+ZV761	[V]Screening for malignant neoplasm of breast
+ZV761	[V]Screening for malignant neoplasm of breast

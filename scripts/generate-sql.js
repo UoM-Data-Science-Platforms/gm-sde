@@ -1,4 +1,4 @@
-const { readFileSync, readdirSync, writeFileSync, existsSync } = require('fs');
+const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } = require('fs');
 const { join, basename } = require('path');
 const { createCodeSetSQL, createNationalCodeSetSQL, theCodeSetExists } = require('./code-sets');
 const { generateProjectSupplementaryReadme, generateCodeSetCsv } = require('./docs');
@@ -22,7 +22,11 @@ const stitch = async (projectDirectory) => {
     join(SHARED_DIRECTORY, 'documents', 'analyst-guidance.md'),
     'utf8'
   );
-  writeFileSync(join(projectDirectory, 'scripts', 'analyst-guidance.md'), readmeFirstFile);
+  const localScriptsDir = join(projectDirectory, 'scripts');
+  if (!existsSync(localScriptsDir)) {
+    mkdirSync(localScriptsDir);
+  }
+  writeFileSync(join(localScriptsDir, 'analyst-guidance.md'), readmeFirstFile);
 
   console.log('Moving main js file...');
   const mainJsFile = readFileSync(join(SCRIPTS_DIRECTORY, 'main-data-extract.js'), 'utf8');
@@ -46,10 +50,26 @@ const stitch = async (projectDirectory) => {
 ${projectName} is of the form "XXX - Name" so I'm assuming it's a project directory.`
     );
   } else {
-    console.log(
-      `
+    isProjectDirectory = projectName.match(/^SDE Lighthouse [0-9]+ *-/);
+    if (isProjectDirectory) {
+      console.log(
+        `
+${projectName} is of the form "SDE Lighthouse XX - Name" so I'm assuming it's a project directory.`
+      );
+    } else {
+      isProjectDirectory = projectName.match(/^Industry - [0-9]+ *-/);
+      if (isProjectDirectory) {
+        console.log(
+          `
+${projectName} is of the form "Industry - XXX - Name" so I'm assuming it's a project directory.`
+        );
+      } else {
+        console.log(
+          `
 ${projectName} is NOT of the form "XXX - Name" so I'm assuming it's a non-project directory e.g. the _example or the Reports directories.`
-    );
+        );
+      }
+    }
   }
 
   // Warning if no templates found

@@ -1,0 +1,14 @@
+h841.	MYCOPHENOLATE MOFETIL 250mg capsules
+h842.	CELLCEPT 250mg capsules
+h843.	MYCOPHENOLATE MOFETIL 500mg tablets
+h844.	CELLCEPT 500mg tablets
+h845.	CELLCEPT 500mg infusion concentrate (pdr for recon)
+h846.	MYCOPHENOLATE MOFETIL 1g/5mL oral suspension
+h847.	CELLCEPT 1g/5mL oral suspension
+h84a.	ARZIP 250mg capsules
+h84b.	ARZIP 500mg tablets
+h84z.	MYCOPHENOLATE MOFETIL 500mg infusion concentrate (pdr for recon)
+h84y.	MYCOPHENOLIC ACID 360mg gastro-resistant tablets
+h848.	MYFORTIC 180mg gastro-resistant tablets
+h849.	MYFORTIC 360mg gastro-resistant tablets
+h84x.	MYCOPHENOLIC ACID 180mg gastro-resistant tablets

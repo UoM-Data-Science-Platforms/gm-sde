@@ -1,6 +1,5 @@
 137P.00	Cigarette smoker
 137P.11	Smoker
-13p3.00	Smoking status at 52 weeks
 1374.00	Moderate smoker - 10-19 cigs/d
 137G.00	Trying to give up smoking
 137R.00	Current smoker
@@ -27,3 +26,5 @@
 137V.00	Smoking reduced
 137Q.00	Smoking started
 137Q.11	Smoking restarted
+137D.00	Admitted tobacco cons untrue ?
+137n.00	Total time smoked

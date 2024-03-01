@@ -1,0 +1,32 @@
+^ESCT1167355	Administration of varicella zoster vaccine
+^ESCT1167356	Administration of chickenpox vaccine
+^ESCT1185651	Administration of shingles vaccine
+^ESCT1409061	Administration of Varicella-zoster vaccine for shingles
+^ESCT1409062	Varicella-zoster immunisation for shingles
+^ESCT1409063	Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+^ESCT1409064	Varicella-zoster vaccination for shingles
+^ESCT1409065	Administration of vaccine product containing only Varicella-zoster virus antigen for shingles
+^ESCT1409163	Administration of Varicella-zoster vaccine for chickenpox
+^ESCT1409164	Administration of vaccine product containing only Varicella-zoster virus antigen for chickenpox
+^ESCT1409165	Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox
+^ESCT1409166	Varicella-zoster vaccination for chickenpox
+^ESCT1409167	Varicella-zoster immunisation for chickenpox
+^ESCT1417622	Administration of first dose of Varicella-zoster vaccine for shingles
+^ESCT1417623	Administration of first dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+^ESCT1417624	Administration of first dose of shingles vaccine
+^ESCT1417625	Administration of second dose of Varicella-zoster vaccine for shingles
+^ESCT1417626	Administration of second dose of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles
+^ESCT1417627	Administration of second dose of shingles vaccine
+^ESCTAD782872	Administration of herpes zoster vaccine
+^ESCTCH782873	Chickenpox vaccination
+^ESCTVA782874	Varicella vaccination
+EMISNQHE68	Herpes zoster vaccination
+^ESCT1411505	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+^ESCTVA871593	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+^ESCTVA902154	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+^ESCTVA871593	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+^ESCTVA902154	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+^ESCTZO1025920	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+VAPO13759NEMIS	Varicella-Zoster  Powder and solvent for solution for injection  0.5 ml vial
+VAPO19997NEMIS	Varicella-Zoster  Powder and solvent for suspension for injection  0.5 ml vial
+ZOPO52946NEMIS	Zostavax  Powder and solvent for injection  0.65 ml pre-filled syringe

@@ -7,10 +7,8 @@
 3235.	ECG: subendocardial infarct
 3236.	ECG: lateral infarction
 323Z.	ECG: myocardial infarct NOS
-32B..	Q wave
 32B2.	ECG: Q wave abnormal
 32B3.	Pathological Q wave
-32BZ.	ECG: Q wave NOS
 79291	Percut transluminal coronary thrombolysis with streptokinase
 G30..	(Myocard inf (& [ac][silent][card rupt])) or (coron thromb)
 G300.	Acute anterolateral myocardial infarction
@@ -74,3 +72,7 @@ G383.00	Postoperative transmural myocardial infarction of unspecified site
 G384.00	Postoperative subendocardial myocardial infarction
 G38z.00	Postoperative myocardial infarction, unspecified
 G501.00	Post infarction pericarditis
+9hM..00	Exception reporting: myocardial infarction quality indicators
+9hM0.00	Excepted from myocardial infarction quality indicators: informed dissent
+9hM1.00	Excepted from myocardial infarction quality indicators: patient unsuitable
+G311500	Acute coronary syndrome

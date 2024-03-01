@@ -1,0 +1,21 @@
+^ESCTAN821231	Anaemia in chronic kidney disease stage 4
+^ESCTAN821232	Anemia co-occurrent and due to chronic kidney disease stage 4
+^ESCTAN821233	Anemia in chronic kidney disease stage 4
+^ESCTAN821234	Anaemia co-occurrent and due to chronic kidney disease stage 4
+^ESCTCH796664	Chronic kidney disease stage 4 due to type 2 diabetes mellitus
+^ESCTCH796666	Chronic kidney disease stage 4 due to type II diabetes mellitus
+^ESCTCH802747	Chronic kidney disease stage 4 due to type 1 diabetes mellitus
+^ESCTCH802748	Chronic kidney disease stage 4 due to type I diabetes mellitus
+^ESCTCH804066	Chronic kidney disease stage 4 due to hypertension
+^ESCTCH808708	Chronic kidney disease stage 4 due to benign hypertension
+^ESCTCH834610	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+^ESCTCH834612	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+^ESCTCH834615	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+^ESCTCK714778	CKD stage 4
+^ESCTCK810445	CKD (chronic kidney disease) stage 4 with proteinuria
+^ESCTCK810448	CKD (chronic kidney disease) stage 4 without proteinuria
+^ESCTDI796665	Diabetic stage 4 chronic renal impairment due to type 2 diabetes mellitus
+^ESCTHY803042	Hypertensive heart AND chronic kidney disease stage 4
+^ESCTHY804404	Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus
+^ESCTHY804405	Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus
+^ESCTMA808770	Malignant hypertensive chronic kidney disease stage 4

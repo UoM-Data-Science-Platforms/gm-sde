@@ -1,0 +1,10 @@
+^ESCT1365554	Ankylosing spondylitis co-occurrent with anterior uveitis
+^ESCTAN513956	Ankylosing spondylitis with organ / system involvement
+^ESCTAN513957	Ankylosing spondylitis with multisystem involvement
+^ESCTAS265343	AS - Ankylosing spondylitis
+^ESCTAS513950	AS - Juvenile ankylosing spondylitis
+^ESCTID265342	Idiopathic ankylosing spondylitis
+^ESCTJU513951	Juvenile spondyloarthropathy
+^ESCTMA265336	Marie Str?mpell spondylitis
+^ESCTMA265341	Marie-Strumpell spondylitis
+^ESCTRH265337	Rheumatoid spondylitis

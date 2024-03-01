@@ -1,0 +1,17 @@
+XaaBZ	Dementia care plan
+XabEi	Dementia advance care plan declined
+XabEk	Dementia advance care plan agreed
+XabEl	Review of dementia advance care plan
+XacIx	Dementia care plan agreed
+XacIy	Dementia care plan reviewed
+XacIz	Dementia care plan declined
+XacJ0	Dementia care plan review declined
+XacLx	Dementia advance care plan
+XacM2	Dementia advance care plan review declined
+XaLFo	Excepted from dementia quality indicators: Patient unsuitable
+XaLFp	Excepted from dementia quality indicators: Informed dissent
+XaMG0	Dementia monitoring first letter
+XaMGG	Dementia monitoring second letter
+XaMGI	Dementia monitoring third letter
+XaMGJ	Dementia monitoring verbal invite
+XaMGK	Dementia monitoring telephone invite

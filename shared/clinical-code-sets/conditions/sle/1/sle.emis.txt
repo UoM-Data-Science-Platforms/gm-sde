@@ -1,0 +1,134 @@
+^ESCTBU514089	Bullous systemic lupus erythematosus
+^ESCTCD512809	CDLE - Chronic discoid lupus erythematosus
+^ESCTCE406029	Cerebral systemic lupus erythematosus
+^ESCTCH512808	Chronic discoid lupus erythematosus
+^ESCTCH512810	Chilblain lupus erythematosus
+^ESCTDI378949	Discoid lupus erythematosus of eyelid
+^ESCTDI378950	Discoid lupus erythematosus eyelid
+^ESCTDI378951	Discoid lupus eyelid
+^ESCTDL480563	DLE - Discoid lupus erythematosus
+^ESCTLE480559	LE - Lupus erythematosus
+^ESCTLE480564	LE - Discoid lupus erythematosus
+^ESCTLI514085	Limited lupus erythematosus
+^ESCTLU257360	Lupus nephritis - WHO Class II
+^ESCTLU267516	Lupus with glomerular sclerosis
+^ESCTLU267517	Lupus nephritis - WHO Class VI
+^ESCTLU273907	Lupus profundus
+^ESCTLU308669	Lupus nephritis - WHO Class IV
+^ESCTLU334360	Lupus nephritis - WHO Class V
+^ESCTLU369178	Lupus nephritis - WHO Class I
+^ESCTLU374466	Lupus nephritis - WHO Class III
+^ESCTLU406027	Lupus encephalopathy
+^ESCTLU480560	Lupus
+^ESCTLU512806	Lupus erythematosus and erythema multiforme-like syndrome
+^ESCTLU514088	Lupus panniculitis
+^ESCTME334359	Membranous lupus glomerulonephritis
+^ESCTNE405966	Neonatal lupus
+^ESCTRO512807	Rowell's syndrome
+^ESCTSA514093	SACLE - Subacute cutaneous lupus erythematosus
+^ESCTSC514092	SCLE - Subacute cutaneous lupus erythematosus
+^ESCTSK514086	Skin and joint lupus
+^ESCTSL257358	SLE glomerulonephritis syndrome, WHO class II
+^ESCTSL257359	SLE with mesangial proliferative glomerulonephritis
+^ESCTSL267514	SLE glomerulonephritis syndrome, WHO class VI
+^ESCTSL267515	SLE with advanced sclerosing glomerulonephritis
+^ESCTSL308667	SLE glomerulonephritis syndrome, WHO class IV
+^ESCTSL308668	SLE with diffuse proliferative glomerulonephritis
+^ESCTSL334357	SLE glomerulonephritis syndrome, WHO class V
+^ESCTSL334358	SLE with membranous glomerulonephritis
+^ESCTSL340060	SLE - Systemic lupus erythematosus
+^ESCTSL361922	SLE glomerulonephritis syndrome
+^ESCTSL369176	SLE glomerulonephritis syndrome, WHO class I
+^ESCTSL369177	SLE with normal kidneys
+^ESCTSL374464	SLE glomerulonephritis syndrome, WHO class III
+^ESCTSL374465	SLE with focal AND segmental proliferative glomerulonephritis
+^ESCTSY257361	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class II
+^ESCTSY257362	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class II
+^ESCTSY257363	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class II
+^ESCTSY267518	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class VI
+^ESCTSY267519	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class VI
+^ESCTSY267520	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class VI
+^ESCTSY308670	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class IV
+^ESCTSY308671	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class IV
+^ESCTSY308672	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class IV
+^ESCTSY334361	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class V
+^ESCTSY334362	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class V
+^ESCTSY334363	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class V
+^ESCTSY361924	Systemic lupus erythematosus glomerulonephritis syndrome
+^ESCTSY369179	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class I
+^ESCTSY369180	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class I
+^ESCTSY369181	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class I
+^ESCTSY374467	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class III
+^ESCTSY374468	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class III
+^ESCTSY374469	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III
+^ESCTSY514090	Systemic lupus erythematosus with multisystem involvement
+EMISNQSY6	Systemic lupus erythematosus encephalitis
+^ESCT1185132	Pericarditis co-occurrent and due to systemic lupus erythematosus
+^ESCT1352191	Autosomal systemic lupus erythematosus
+^ESCT1352192	Autosomal SLE (systemic lupus erythematosus)
+^ESCT1352193	Familial systemic lupus erythematosus
+^ESCT1406104	Lupus-like syndrome
+^ESCTAC668182	Acute systemic lupus erythematosus
+^ESCTAN668204	Anetoderma secondary to lupus erythematosus
+^ESCTBU405493	Butterfly rash associated with systemic lupus
+^ESCTCA668207	Calcinosis secondary to lupus erythematosus
+^ESCTCH500611	Chorea in systemic lupus erythematosus
+^ESCTCH786098	Chorea co-occurrent and due to systemic lupus erythematosus
+^ESCTCH786099	Chorea with systemic lupus erythematosus
+^ESCTCH815523	Cheilitis due to lupus erythematosus
+^ESCTDE786120	Demyelination of central nervous system co-occurrent and due to systemic lupus erythematosus
+^ESCTDE786121	Demyelination with systemic lupus erythematosus
+^ESCTDI308784	Dilated cardiomyopathy secondary to systemic lupus erythematosus
+^ESCTDR380552	Drug-induced lupus erythematosus
+^ESCTEN802262	Endocarditis due to systemic lupus erythematosus
+^ESCTFU668183	Fulminating systemic lupus erythematosus
+^ESCTGI770137	Gingival disease co-occurrent and due to lupus erythematosus
+^ESCTGL809990	Glomerular disease due to systemic lupus erythematosus
+^ESCTGL809991	Glomerular disease due to SLE (systemic lupus erythematosus)
+^ESCTHA795184	Haemolytic anaemia associated with systemic lupus erythematosus
+^ESCTHE795185	Hemolytic anemia associated with systemic lupus erythematosus
+^ESCTHY668210	Hypermelanosis due to lupus erythematosus
+^ESCTLU281251	Lupus hepatitis
+^ESCTLU281252	Lupoid hepatitis
+^ESCTLU376503	Lupus disease of the lung
+^ESCTLU505500	Lupus pneumonia
+^ESCTLU505501	Lupoid pneumonia
+^ESCTLU514173	Lupus vasculitis
+^ESCTLU514175	Lupus erythematosus-associated vasculitis
+^ESCTLU666906	Lupus erythematosus overlap syndrome
+^ESCTLU668203	Lupus erythematosus-associated anetoderma
+^ESCTLU668206	Lupus erythematosus-associated calcinosis
+^ESCTLU668208	Lupus erythematosus-associated papulonodular mucinosis
+^ESCTLU668209	Lupus erythematosus-associated hypermelanosis
+^ESCTLU668211	Lupus erythematosus-associated nailfold telangiectasia
+^ESCTLU668213	Lupus erythematosus-associated urticarial vasculitis
+^ESCTLU668215	Lupus erythematosus-associated necrotising vasculitis
+^ESCTLU668216	Lupus erythematosus-associated necrotizing vasculitis
+^ESCTLU668219	Lupus erythematosus-associated poikiloderma
+^ESCTLU668221	Lupus erythematosus-associated nail dystrophy
+^ESCTLU761502	Lupus erythematosus of oral mucous membrane
+^ESCTLU761503	Lupus erythematosus of oral mucosa
+^ESCTLU815524	Lupus cheilitis
+^ESCTNA668222	Nail dystrophy due to lupus erythematosus
+^ESCTNE668217	Necrotising vasculitis due to lupus erythematosus
+^ESCTNE668218	Necrotizing vasculitis due to lupus erythematosus
+^ESCTNE809113	Nephropathy co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809115	Nephrotic syndrome co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809116	Nephrosis co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809117	Nephrosis with systemic lupus erythematosus
+^ESCTPE290594	Pericarditis secondary to systemic lupus erythematosus
+^ESCTPO668220	Poikiloderma due to lupus erythematosus
+^ESCTRA405492	Rash of systemic lupus erythematosus
+^ESCTRE690505	Retinal vasculitis due to systemic lupus erythematosus
+^ESCTSE795182	Secondary autoimmune haemolytic anaemia co-occurrent and due to systemic lupus erythematosus
+^ESCTSE795183	Secondary autoimmune hemolytic anemia co-occurrent and due to systemic lupus erythematosus
+^ESCTSL659382	SLE - Systemic lupus erythematosus-related syndrome
+^ESCTSY405618	Systemic lupus erythematosus arthritis
+^ESCTSY659381	Systemic lupus erythematosus-related syndrome
+^ESCTSY667099	Systemic lupus erythematosus-associated antiphospholipid syndrome
+^ESCTSY668184	Systemic lupus erythematosus of childhood
+^ESCTSY751150	Systemic lupus erythematosus in remission
+^ESCTSY832077	Systemic lupus erythematosus/Sjogren's overlap syndrome
+^ESCTTE668212	Telangiectasia of nailfolds due to lupus erythematosus
+^ESCTUR668214	Urticarial vasculitis due to lupus erythematosus
+^ESCTVA514174	Vasculitis due to lupus erythematosus

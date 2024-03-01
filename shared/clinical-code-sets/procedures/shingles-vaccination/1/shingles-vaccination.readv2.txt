@@ -1,0 +1,7 @@
+65FY.	Herpes zoster vaccination
+65FY.00	Herpes zoster vaccination
+65FY.11	Shingles vaccination
+65FY0	Herpes zoster vaccination given by other health care provider
+65FY000	Herpes zoster vaccination given by other health care provider
+n4v1.	VARICELLA-ZOSTER live attenuated vaccine injection(pdr for recon)+solvent
+n4v4.	ZOSTAVAX pdr+solvent for suspension for injection pfs 0.65mL

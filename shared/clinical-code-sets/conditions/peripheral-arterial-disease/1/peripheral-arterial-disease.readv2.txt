@@ -11,3 +11,22 @@ G73y.00	Other specified peripheral vascular disease
 G73yz00	Other specified peripheral vascular disease NOS
 G734.00	Peripheral arterial disease
 Gyu7400	[X]Other specified peripheral vascular diseases
+1M11000	Ischaemic foot pain at rest
+2G63.00	Ischaemic toe
+C108G00	Type I diabetes mellitus with peripheral angiopathy
+C108G11	Type I diabetes mellitus with peripheral angiopathy
+C109F00	Non-insulin-dependent diabetes mellitus with peripheral angiopathy
+C109F11	Type II diabetes mellitus with peripheral angiopathy
+C109F12	Type 2 diabetes mellitus with peripheral angiopathy
+C10EG00	Type 1 diabetes mellitus with peripheral angiopathy
+C10EG11	Type I diabetes mellitus with peripheral angiopathy
+C10FF00	Type 2 diabetes mellitus with peripheral angiopathy
+C10FF11	Type II diabetes mellitus with peripheral angiopathy
+G733.00	Ischaemic foot
+G73y000	Diabetic peripheral angiopathy
+G73y100	Peripheral angiopathic disease EC NOS
+Gyu7A00	[X]Peripheral angiopathy in diseases classified elsewhere
+C107.00	Diabetes mellitus with peripheral circulatory disorder
+C107300	IDDM with peripheral circulatory disorder
+C107y00	Other specified diabetes mellitus with peripheral circulatory complications
+C107z00	Diabetes mellitus NOS with peripheral circulatory disorder

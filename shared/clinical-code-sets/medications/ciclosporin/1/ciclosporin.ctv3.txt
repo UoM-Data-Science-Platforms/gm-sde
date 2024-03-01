@@ -1,0 +1,34 @@
+h821.	Sandimmun 100mg/mL s/f oral solution
+h822.	Sandimmun 50mg/1mL oily infusion concentrate
+h823.	Sandimmun 250mg/5mL oily infusion concentrate
+h824.	Sandimmun 25mg capsule
+h825.	Sandimmun 100mg capsule
+h826.	Ciclosporin 25mg capsule
+h826.	Cyclosporin 25mg capsule
+h827.	Ciclosporin 100mg capsule
+h827.	Cyclosporin 100mg capsule
+h828.	Sandimmun 50mg capsule
+h829.	Ciclosporin 50mg capsule
+h829.	Cyclosporin 50mg capsule
+h82A.	Neoral 25mg capsule
+h82B.	Neoral 50mg capsule
+h82C.	Neoral 100mg capsule
+h82D.	Neoral 100mg/mL s/f oral solution
+h82E.	Ciclosporin 10mg capsule
+h82E.	Cyclosporin 10mg capsule
+h82F.	Neoral 10mg capsule
+h82H.	DEXIMUNE 25mg capsules
+h82I.	DEXIMUNE 50mg capsules
+h82J.	DEXIMUNE 100mg capsules
+h82K.	CAPIMUNE 25mg capsules
+h82L.	CAPIMUNE 50mg capsules
+h82M.	CAPIMUNE 100mg capsules
+h82N.	CAPSORIN 25mg capsules
+h82O.	CAPSORIN 50mg capsules
+h82P.	CAPSORIN 100mg capsules
+h82x.	Ciclosporin 100mg/mL s/f oral solution
+h82x.	Cyclosporin 100mg/mL s/f oral solution
+h82y.	Ciclosporin 50mg/1mL oily infusion concentrate
+h82y.	Cyclosporin 50mg/1mL oily infusion concentrate
+h82z.	Ciclosporin 250mg/5mL oily infusion concentrate
+h82z.	Cyclosporin 250mg/5mL oily infusion concentrate

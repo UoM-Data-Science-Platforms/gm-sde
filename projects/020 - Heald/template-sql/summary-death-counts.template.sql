@@ -23,10 +23,6 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ020EndDate datetime;
-SET @TEMPRQ020EndDate = '2022-06-01';
-
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2019-01-01';
@@ -38,8 +34,7 @@ SET @StartDate = '2019-01-01';
 IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
 SELECT FK_Patient_Link_ID INTO #PatientsToInclude
 FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ020EndDate;
+GROUP BY FK_Patient_Link_ID;
 
 -- Get all patients with T1DM and the first diagnosis date
 --> CODESET diabetes-type-i:1
@@ -53,7 +48,6 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Add death date where applicable
@@ -74,7 +68,6 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-AND EventDate < @TEMPRQ020EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Add death date where applicable
@@ -95,7 +88,7 @@ WHERE FK_Reference_Tenancy_ID = 2;
 IF OBJECT_ID('tempdb..#DatesFrom2019') IS NOT NULL DROP TABLE #DatesFrom2019;
 CREATE TABLE #DatesFrom2019 ([date] date);
 declare @dt datetime = '2019-01-01'
-declare @dtEnd datetime = @TEMPRQ020EndDate;
+declare @dtEnd datetime = GETDATE();
 WHILE (@dt <= @dtEnd) BEGIN
     insert into #DatesFrom2019([date])
         values(@dt)
@@ -200,6 +193,4 @@ LEFT OUTER JOIN #T1PopPerMonth t1 on t1.Year = YEAR(d.date) and t1.Month = MONTH
 LEFT OUTER JOIN #T2DeathsPerMonth t2d on t2d.Year = YEAR(d.date) and t2d.Month = MONTH(d.date)
 LEFT OUTER JOIN #T2PopPerMonth t2 on t2.Year = YEAR(d.date) and t2.Month = MONTH(d.date)
 LEFT OUTER JOIN #ALLDeathsPerMonth ad on ad.Year = YEAR(d.date) and ad.Month = MONTH(d.date)
-LEFT OUTER JOIN #ALLPopPerMonth a on a.Year = YEAR(d.date) and a.Month = MONTH(d.date)
-WHERE YEAR(d.date) < YEAR(@TEMPRQ020EndDate)
-OR MONTH(d.date) < MONTH(@TEMPRQ020EndDate); -- No deaths in "current" month so no point returning
+LEFT OUTER JOIN #ALLPopPerMonth a on a.Year = YEAR(d.date) and a.Month = MONTH(d.date);

@@ -17,7 +17,6 @@ G6400	Cerebral infarction due to thrombosis of cerebral arteries
 G641.	Cerebral embolism
 G6410	Cerebral infarction due to embolism of cerebral arteries
 G64z.	Cerebral infarction NOS
-G650.	Basilar artery syndrome
 G66..	Stroke unspecified
 G660.	Middle cerebral artery syndrome
 G661.	Anterior cerebral artery syndrome
@@ -94,3 +93,23 @@ XE0Wy	Cerebral haemorrhage NOS
 XE0X2	Stroke/CVA - undefined
 XE2aB	Stroke and cerebrovascular accident unspecified
 XM0rV	Cerebral haemorrhage
+G60z.	Subarachnoid haemorrhage NOS
+G617.	Intracerebral haemorrhage, intraventricular
+Gyu60	[X]Subarachnoid haemorrhage from other intracranial arteries
+Gyu61	[X]Other subarachnoid haemorrhage
+Gyu6E	[X]Subarachnoid haemorrhage from intracranial artery, unspecified
+L440.	Stroke in the puerperium
+X0096	Infarction of optic tract
+X009B	Infarction of optic radiation
+Xa1uW	Subarachnoid haemorrhage
+Xa3fV	Cerebral artery occlusion NOS
+Xa9Bf	Infarction of optic chiasm
+Xa9Bg	Infarction of visual cortex
+XM1PL	Stroke in the puerperium
+G63y.	Other precerebral artery occlusion
+G63z.	Precerebral artery occlusion NOS
+L4400	Puerperal cerebrovascular disorder unspecified
+L440z	Puerperal cerebrovascular disorder NOS
+X203V	Stenosis of precerebral arteries
+XE0VG	Precerebral arterial occlusion
+XE2sl	Cerebrovascular disorders in the puerperium

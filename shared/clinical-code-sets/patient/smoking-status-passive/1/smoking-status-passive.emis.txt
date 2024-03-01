@@ -1,0 +1,13 @@
+^ESCT1261859	Ex-smoker in household
+^ESCTAT770016	At risk from passive smoking
+^ESCTET319901	ETS - Exposed to tobacco smoke
+^ESCTEX319902	Exposed to environmental tobacco smoke
+^ESCTEX319903	Exposed to tobacco smoke
+^ESCTEX319905	Exposed to second hand tobacco smoke
+^ESCTEX498098	Exposed to tobacco smoke at work
+^ESCTEX498100	Exposed to tobacco smoke in public places
+^ESCTIN319904	Involuntary smoker
+^ESCTPA822363	Passive smoking
+^ESCTSM802991	Smoker in home
+^ESCTSM802992	Smoker in household
+^ESCTSM802993	Smoker in home environment

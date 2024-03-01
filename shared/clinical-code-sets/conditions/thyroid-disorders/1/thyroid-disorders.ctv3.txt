@@ -1,0 +1,269 @@
+A175.	Tuberculosis of thyroid gland
+AC22.	Thyroid echinococcus granulosus
+B53..	Malignant tumour of thyroid gland
+B7G..	Benign neoplasm of thyroid gland
+B8yy0	Carcinoma in situ of thyroid
+B9240	Neoplasm of uncertain behaviour of thyroid gland
+C0...	Struma - goitre
+C00..	Simple and unspecified goitre
+C000.	Retrosternal thyroid goitre
+C00z.	Thyroid enlargement
+C01..	Non-toxic nodular goitre
+C010.	Non-toxic uninodular goitre
+C011.	Non-toxic multinodular goitre
+C01z.	Goitre: [nodular NOS] or [adenomatous]
+C02..	Hyperthyroidism
+C020.	Graves' disease
+C0200	Toxic diffuse goitre with no crisis
+C0201	Toxic diffuse goitre with crisis
+C020z	Toxic diffuse goitre NOS
+C021.	Thyrotoxicosis with toxic single thyroid nodule
+C0210	Toxic uninodular goitre with no crisis
+C0211	Toxic uninodular goitre with crisis
+C021z	Toxic uninodular goitre NOS
+C022.	Thyrotoxicosis with toxic multinodular goitre
+C0220	Toxic multinodular goitre with no crisis
+C0221	Toxic multinodular goitre with crisis
+C022z	Toxic multinodular goitre NOS
+C023.	Toxic nodular goitre unspecified
+C0230	Toxic nodular goitre unspecified with no crisis
+C0231	Toxic nodular goitre unspecified with crisis
+C023z	Toxic nodular goitre NOS
+C024.	Thyrotoxicosis from ectopic thyroid nodule
+C0240	Thyrotoxicosis from ectopic thyroid nodule with no crisis
+C0241	Thyrotoxicosis from ectopic thyroid nodule with crisis
+C024z	Thyrotoxicosis from ectopic thyroid nodule NOS
+C02y.	Thyrotoxicosis of other specified origin
+C02y0	Thyrotoxicosis of other specified origin with no crisis
+C02y1	Thyrotoxicosis of other specified origin with crisis
+C02yz	Thyrotoxicosis of other specified origin NOS
+C02z.	Thyrotoxicosis without mention of goitre or other cause
+C02z0	Thyrotoxicosis without mention of goitre or other cause with no crisis
+C02z1	Thyrotoxicosis without mention of goitre or other cause with crisis
+C02zz	Thyrotoxicosis NOS
+C03..	Congenital hypothyroidism
+C030.	Pendred's syndrome
+C03y.	Other specified congenital hypothyroidism
+C03z.	Congenital hypothyroidism: [cretinism] or [NOS]
+C04..	Hypothyroidism
+C040.	Postsurgical hypothyroidism
+C041.	Other postablative hypothyroidism
+C0410	Irradiation hypothyroidism
+C041z	Postablative hypothyroidism NOS
+C042.	Iodine hypothyroidism
+C043.	Other iatrogenic hypothyroidism
+C0430	Hypothyroidism resulting from para-aminosalicylic acid
+C0431	Hypothyroidism resulting from phenylbutazone
+C0432	Hypothyroidism resulting from resorcinol
+C043z	Iatrogenic hypothyroidism NOS
+C04y.	Other acquired hypothyroidism
+C04z.	Hypothyroid (& [pretibial myxoedema] or [acquired goitre] or [NOS] or [thyroid insufficiency])
+C05..	Thyroiditis
+C050.	Acute thyroiditis
+C0500	Acute non-suppurative thyroiditis
+C0501	Acute suppurative thyroiditis
+C0502	Abscess of thyroid
+C050z	Acute thyroiditis NOS
+C051.	De Quervain's thyroiditis
+C052.	Chronic lymphocytic thyroiditis
+C053.	Riedel's thyroiditis
+C054.	Iatrogenic thyroiditis
+C05y.	Other and unspecified chronic thyroiditis
+C05z.	Thyroiditis NOS
+C06..	Other disorders of thyroid
+C060.	Disorder of thyrocalcitonin secretion
+C061.	Dyshormonogenic goitre
+C062.	Thyroid cyst
+C0630	Thyroid haemorrhage
+C0631	Thyroid infarction
+C06y.	Other specified thyroid disorders
+C06y0	Thyroid-binding globulin abnormality
+C06y1	Thyroid atrophy
+C06yz	Other specified thyroid disorder NOS
+C06z.	Thyroid disorder NOS
+C1343	TSH - Thyroid stimulating hormone deficiency
+Cyu10	[X]Other iodine-deficiency related thyroid disorders and allied conditions
+Cyu11	[X]Other specified hypothyroidism
+Cyu12	[X]Other specified non-toxic goitre
+Cyu13	[X]Other thyrotoxicosis
+Cyu14	[X]Other chronic thyroiditis
+Cyu15	[X]Other specified disorders of thyroid
+Cyu4J	[X]Disorders of thyroid gland in diseases classified elsewhere
+L181.	Thyroid dysfunction during pregnancy, childbirth and the puerperium
+L1810	Thyroid dysfunction - unspecified whether during pregnancy or the puerperium
+L181z	Thyroid dysfunction durin pregnancy, childbirth or the puerperium NOS
+PK21.	Accessory thyroid gland
+PK25.	Anomalies of thyroid gland NEC
+PK250	Retrosternal thyroid gland
+PK251	Congenital thyroid aplasia
+PK25z	Anomaly of thyroid gland NEC NOS
+Q4337	Neonatal jaundice with congenital hypothyroidism
+Q443.	Neonatal thyrotoxicosis
+Qyu64	[X]Other transitory neonatal disorders of thyroid function, not elsewhere classified
+Qyu6A	[X]Neonatal goitre, not elsewhere classified
+S842.	Open wound of thyroid
+S843.	Open wound of thyroid with complication
+X40Dj	Postpartum thyroiditis
+X40Ge	Diffuse goitre
+X40Gf	Colloid goitre
+X40Gg	Thyroid nodule
+X40Gi	Adenomatous goitre
+X40Gj	Toxic goitre
+X40Gk	Thyrotoxicosis due to Graves' disease
+X40Gl	Thyrotoxicosis due to Hashimoto's thyroiditis
+X40Gm	Hashitoxicosis - transient
+X40Gn	Thyrotoxicosis due to acute thyroiditis
+X40Go	Toxic nodular goitre
+X40Gq	Toxic thyroid nodule
+X40Gs	T3 toxicosis
+X40Gt	Borderline thyrotoxicosis
+X40Gu	Autonomous thyroid function
+X40Gv	Apathetic thyrotoxicosis
+X40Gw	Thyrotoxicosis in pregnancy
+X40Gx	HCG-induced thyrotoxicosis
+X40Gy	Factitia thyrotoxicosis
+X40Gz	Iatrogenic thyrotoxicosis
+X40H0	Thyrotoxicosis on thyroxine therapy
+X40H1	Iodine-induced thyrotoxicosis
+X40H2	Amiodarone-induced thyrotoxicosis
+X40H3	Thyroid crisis
+X40H4	Thyrotoxicosis due to inappropriate TSH secretion
+X40H5	Thyrotoxicosis due to TSHoma
+X40H7	Thyrotoxicosis due to struma ovarii
+X40H8	Congenital hypothyroidism without goitre
+X40Ha	Struma lymphomatosis
+X40HB	Congenital atrophy of thyroid
+X40Hc	Chronic thyroiditis
+X40Hd	Chronic thyroiditis with transient thyrotoxicosis
+X40He	Riedel's thyroiditis
+X40Hf	Drug-induced thyroiditis
+X40Hg	Ligneous thyroiditis
+X40Hh	Silent thyroiditis
+X40Hi	Sick-euthyroid syndrome
+X40Hj	Thyroid hormone binding abnormality
+X40Hk	Thyroid-binding globulin deficiency
+X40Hl	Drug interference with thyroid-binding globulin
+X40Hm	Thyroid-binding globulin high
+X40Hn	Familial dysalbuminaemic hyperthyroxinaemia
+X40Ho	Thyroid pre-albumin binding abnormality
+X40Hp	Dysprealbuminaemic euthyroidal hyperthyroxinaemia
+X40Hq	Euthyroid hypothyroxinaemia
+X40Hr	Euthyroid hyperthyroxinamia
+X40Hs	C-cell hyperplasia of thyroid
+X40Ht	Hypersecretion of thyrocalcitonin
+X40Hu	Familial dyshormonogenetic goitre
+X40Hv	Hypothyroidism due to iodide trapping defect
+X40Hw	Hypothyroidism due to iodide organification defect
+X40Hx	Hypothyroidism due to coupling defect
+X40Hy	Hypothyroidism due to deiodase defect
+X40Hz	Hypothyroidism due to thyroglobulin synthesis defect
+X40I1	Atrophy of thyroid - acquired
+X40I2	Thyroid hormone resistance syndrome
+X40I3	Generalised thyroid hormone resistance
+X40I4	Pituitary thyroid hormone resistance
+X40I5	Iodine deficiency syndrome
+X40I6	Congenital iodine deficiency syndrome
+X40I7	Congenital iodine deficiency hypothyroidism
+X40I8	Congenital iodine deficiency syndrome - myxoedematous type
+X40I9	Congenital iodine deficiency syndrome - mixed type
+X40Ia	Tumour of thyroid gland
+X40Ib	Injury of thyroid gland
+X40IE	Uninodular goitre
+X40IG	Multinodular goitre
+X40II	Iodine-deficiency-related multinodular endemic goitre
+X40IJ	Retrosternal goitre
+X40IQ	Hypothyroidism
+X40LB	Isolated TSH deficiency
+X40LC	Idiopathic TSH deficiency
+X40OI	Graves' disease
+X40OK	Juvenile Graves' disease
+X40OR	Exophthalmic goitre
+X76FB	Goitre
+X78cP	Follicular thyroid carcinoma
+X78cQ	Papillary thyroid carcinoma
+X78cR	Mixed follicular and papillary thyroid carcinoma
+X78cS	Anaplastic thyroid carcinoma
+X78cT	Medullary thyroid carcinoma
+X78cV	Thyroid adenoma
+X78cW	Thyroid follicular adenoma
+X78EV	Congenital malformation of thyroid gland
+X78l5	Metastasis to thyroid
+XA06a	Contusion of thyroid gland
+XA06b	Fragmentation of thyroid gland
+XA06Z	Thyroid gland haematoma
+Xa08e	Perinatal thyroid disorder
+Xa08f	Neonatal goitre
+Xa08g	Transient neonatal hypothyroidism
+Xa09v	Transient neonatal hyperthyroidism
+Xa09w	Transient hypothyroxinaemia
+Xa09x	Transient hypothyrotropinaemia
+Xa0bR	Malignant lymphoma of thyroid gland
+Xa0l7	Congenital hypothyroidism with diffuse goitre
+Xa3ea	Goitre, non-toxic NOS
+Xa3eb	Thyrotoxicosis with or without goitre
+Xa3ec	Hypothyroidism - congenital and acquired
+Xa3ed	Acquired hypothyroidism NOS
+Xa6bK	Retrosternal thyroid gland
+Xa6bL	Sublingual thyroid gland
+Xa9Am	Hypersecretion of calcitonin
+Xa9DE	Laceration of thyroid gland
+XaDuT	Thyroid infection
+XaFr6	Local recurrence of malignant tumour of thyroid gland
+XaJ9F	Subclinical hypothyroidism
+XaQ8R	Allgrove syndrome
+XaZtG	Subclinical hyperthyroidism
+XC0fX	Thyroid dysfunction
+XE100	Disorder of thyroid gland
+XE101	Non-toxic simple goitre
+XE102	Goitre NOS
+XE103	Non-toxic nodular goitre NOS
+XE104	Thyrotoxicosis
+XE105	Toxic diffuse goitre
+XE106	Thyrotoxicosis of other specified origin
+XE107	Congenital hypothyroidism NOS
+XE108	Acquired hypothyroidism
+XE109	Post-surgical hypothyroidism
+XE10A	Hypothyroidism NOS
+XE10B	Subacute thyroiditis
+XE10C	Autoimmune thyroiditis
+XE10D	Chronic fibrous thyroiditis
+XE120	Non-toxic goitre
+XE122	Graves' disease
+XE124	Hypothyroidism
+XE126	Hashimoto's disease
+XE1Mj	Aberrant thyroid gland
+XE1wD	Benign tumour of thyroid gland
+XE20r	Benign thyroid tumour
+XM0tJ	Thyroid disease in pregnancy
+C063.	Thyroid haemorrhage and infarction
+C063z	Thyroid haemorrhage or infarction NOS
+Cyu16	[X]Iodine-deficiency-related (endemic) goitre, unspecified
+F3816	Myasthenic syndrome due to thyrotoxicosis
+F3954	Myopathy due to thyrotoxicosis
+X40OO	Thyroid-associated dermopathy
+XM0Ap	Iodine-deficiency-related endemic goitre
+X40HA	Congenital thyroid hypoplasia
+X40HC	Congenital hypothyroidism with ectopic thyroid
+X40HD	Hypothyroid goitre, acquired
+X40HE	Autoimmune hypothyroidism
+X40HF	Hypothyroidism due to Hashimoto's thyroiditis
+X40HG	Hypothyroidism due to TSH receptor blocking antibody
+X40HH	Borderline hypothyroidism
+X40HK	Euthyroid with thyroid antibodies
+X40HL	Iatrogenic hypothyroidism
+X40HM	Postablative hypothyroidism
+X40HN	Radioactive iodine-induced hypothyroidism
+X40HO	Drug-induced hypothyroidism
+X40HP	Post-infectious hypothyroidism
+X40HR	Acute viral thyroiditis
+X40HS	De Quervain's thyroiditis
+X40HT	Giant-cell thyroiditis
+X40HU	Granulomatous thyroiditis
+X40HV	Non-suppurative subacute thyroiditis
+X40HW	Hashimoto's thyroiditis
+X40IA	Congenital iodine deficiency syndrome - neurological type
+X40IB	Subclinical iodine deficiency hypothyroidism
+X005I	Hypothyroid coma
+X005I	Myxoedema coma
+X40HI	Compensated hypothyroidism
+X40HJ	Compensated euthyroidism

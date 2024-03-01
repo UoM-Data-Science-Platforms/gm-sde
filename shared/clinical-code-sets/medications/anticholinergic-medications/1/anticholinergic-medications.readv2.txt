@@ -1,0 +1,176 @@
+a411.	ATROPINE SULFATE 600micrograms tablets
+a453.	*MERBENTYL 10mg tablets
+a454.	*MERBENTYL 10mg/5mL syrup
+a455.	*MERBENTYL-20 20mg tablets
+a45x.	DICYCLOVERINE HYDROCHLORIDE 20mg tablets
+a45y.	DICYCLOVERINE HYDROCHLORIDE 10mg tablets
+a45z.	DICYCLOVERINE HYDROCHLORIDE 10mg/5mL syrup
+a4c1.	PROPANTHELINE 15mg tablets
+a4c2.	PRO-BANTHINE 15mg tablets
+bb2C.	ATROPINE SULFATE 1mg/5mL prefilled syringe
+c843.	PIRITON 4mg tablets
+c845.	PIRITON 2mg/5mL syrup
+c84z.	CHLORPHENAMINE MALEATE 10mg/1mL injection
+c861.	PERIACTIN 4mg tablets
+c86y.	CYPROHEPTADINE HCL 4mg tablets
+c883.	DIPHENHYDRAMINE HCL 25mg tablets
+c886.	NYTOL ONE-A-NIGHT 50mg tablets
+c887.	DIPHENHYDRAMINE HYDROCHLORIDE 50mg tablets
+c8i1.	PHENERGAN 10mg tablets
+c8i2.	PHENERGAN 25mg tablets
+c8i3.	PHENERGAN 5mg/5mL elixir
+c8i4.	PHENERGAN 25mg/1mL injection
+c8i6.	PHENERGAN NIGHTIME 25mg tablets
+c8iv.	PROMETHAZINE 10mg tablets
+c8iw.	PROMETHAZINE 25mg tablets
+c8k1.	*VALLERGAN 10mg tablets
+c8k2.	*VALLERGAN 7.5mg/5mL syrup
+c8k3.	*VALLERGAN FORTE 30mg/5mL syrp
+c8kx.	ALIMEMAZINE 10mg tablets
+c8kz.	ALIMEMAZINE 30mg/5mL syrup
+d411.	CHLORPROMAZINE 10mg tablets
+d412.	CHLORPROMAZINE 25mg tablets
+d413.	CHLORPROMAZINE 50mg tablets
+d414.	CHLORPROMAZINE 100mg tablets
+d41a.	*LARGACTIL 10mg tablets
+d41b.	*LARGACTIL 25mg tablets
+d41c.	*LARGACTIL 50mg tablets
+d41d.	*LARGACTIL 100mg tablets
+d41e.	*LARGACTIL 25mg/5mL syrup
+d41g.	*LARGACTIL 25mg/mL injection
+d483.	NOZINAN 25mg tablets
+d48z.	LEVOMEPROMAZINE 25mg tablets
+d4cx.	*PIMOZIDE 2mg tablets
+d4cy.	PIMOZIDE 4mg tablets
+d4e4.	PROMAZINE 25mg tablets
+d4e5.	PROMAZINE 50mg tablets
+d4h1.	*STELAZINE 1mg tablets
+d4h2.	*STELAZINE 5mg tablets
+d4h3.	*STELAZINE 2mg m/r capsules
+d4h4.	*STELAZINE 10mg m/r capsules
+d4h5.	*STELAZINE 15mg m/r capsules
+d4h6.	*STELAZINE 1mg/5mL syrup
+d4l1.	CLOZAPINE 25mg tablets
+d4l2.	CLOZAPINE 100mg tablets
+d4lE.	CLOZAPINE 50mg tablets
+d4r1.	OLANZAPINE 5mg tablets
+d4r2.	OLANZAPINE 7.5mg tablets
+d4r3.	OLANZAPINE 10mg tablets
+d4r4.	ZYPREXA 5mg tablets
+d4r5.	ZYPREXA 7.5mg tablets
+d4r6.	ZYPREXA 10mg tablets
+d4r7.	OLANZAPINE 2.5mg tablets
+d4r8.	ZYPREXA 2.5mg tablets
+d4r9.	ZYPREXA VELOTAB 5mg dispersible tablets
+d4rA.	ZYPREXA VELOTAB 10mg dispersible tablets
+d4rB.	ZYPREXA 15mg tablets
+d4rC.	ZYPREXA VELOTAB 15mg dispersible tablets
+d4rD.	ZYPREXA 10mg injection (pdr for recon)
+d4ru.	OLANZAPINE 20mg dispersible tablets
+d4rw.	OLANZAPINE 15mg dispersible tablets
+d4rx.	OLANZAPINE 15mg tablets
+d4ry.	OLANZAPINE 5mg dispersible tablets
+d4rz.	OLANZAPINE 10mg dispersible tablets
+d4s1.	QUETIAPINE 25mg tablets
+d4s2.	QUETIAPINE 100mg tablets
+d4s3.	QUETIAPINE 200mg tablets
+d4s5.	SEROQUEL 25mg tablets
+d4s6.	SEROQUEL 100mg tablets
+d4s7.	SEROQUEL 200mg tablets
+d4s9.	SEROQUEL 150mg tablets
+d4sk.	MINTRELEQ XL 400mg m/r tablets
+d4sS.	EBESQUE XL 50mg m/r tablets
+d4st.	QUETIAPINE 400mg m/r tablets
+d4su.	QUETIAPINE 300mg m/r tablets
+d4sv.	QUETIAPINE 200mg m/r tablets
+d4sx.	QUETIAPINE 300mg tablets
+d583.	ZYPADHERA 405mg powder+solvent for suspension for injection
+d58y.	OLANZAPINE 300mg powder+solvent for suspension for injection
+d711.	AMITRIPTYLINE 10mg tablets
+d712.	AMITRIPTYLINE 25mg tablets
+d713.	AMITRIPTYLINE 50mg tablets
+d731.	*ANAFRANIL 10mg capsules
+d732.	*ANAFRANIL 25mg capsules
+d733.	*ANAFRANIL 50mg capsules
+d736.	*ANAFRANIL SR 75mg m/r tablets
+d73u.	CLOMIPRAMINE HCL 10mg capsules
+d73v.	CLOMIPRAMINE HCL 25mg capsules
+d73w.	CLOMIPRAMINE HCL 50mg capsules
+d751.	PROTHIADEN 25mg capsules
+d752.	PROTHIADEN 75mg tablets
+d753.	*PREPADINE 25mg capsules
+d754.	*PREPADINE 75mg tablets
+d755.	*DOTHAPAX 25mg capsules
+d756.	*DOTHAPAX 75mg tablets
+d75y.	DOSULEPIN HYDROCHLORIDE 25mg capsules
+d75z.	DOSULEPIN HYDROCHLORIDE 75mg tablets
+d761.	*SINEQUAN 10mg capsules x56CP
+d762.	*SINEQUAN 25mg capsules x28CP
+d763.	*SINEQUAN 50mg capsules x28CP
+d764.	*SINEQUAN 75mg capsules x28CP
+d76w.	*DOXEPIN 10mg capsules
+d76x.	DOXEPIN 25mg capsules
+d76y.	DOXEPIN 50mg capsules
+d76z.	*DOXEPIN 75mg capsules
+d771.	IMIPRAMINE 10mg tabs
+d772.	IMIPRAMINE 25mg tablets
+d776.	*TOFRANIL 25mg tablets
+d777.	*TOFRANIL 25mg/5mL syrup
+d7c1.	*ALLEGRON 10mg tablets
+d7c2.	*ALLEGRON 25mg tablets
+d7f1.	*SURMONTIL 50mg capsules x28CP
+d7f2.	*SURMONTIL 10mg tablets
+d7f3.	*SURMONTIL 25mg tablets
+d7fx.	TRIMIPRAMINE 50mg capsules
+d7fy.	TRIMIPRAMINE 10mg tablets
+d7fz.	TRIMIPRAMINE 25mg tablets
+da61.	PAROXETINE 20mg tablets
+da62.	SEROXAT 20mg tablets x30
+da63.	PAROXETINE 30mg tablets
+da64.	SEROXAT 30mg tablets x30
+da66.	SEROXAT 10mg/5mL sugar free liquid
+dh81.	HYOSCINE 300microgram tablets
+dh89.	KWELLS 300micrograms tablets
+dh8C.	JOY-RIDES 150micrograms chewable tablets
+dhe1.	STEMETIL 5mg tablets
+dhe2.	*STEMETIL 25mg tablets
+dhe3.	STEMETIL 5mg/5mL syrup
+dhe4.	STEMETIL 12.5mg/1mL injection
+dhe6.	*STEMETIL 5mg suppositories
+dhe7.	*STEMETIL 25mg suppositories
+dhea.	BUCCASTEM 3mg buccal tablets
+dheA.	*PROZIERE 5mg tablets
+dheb.	STEMETIL EFF 5mg/sachet granules
+dheB.	BUCCASTEM M 3mg buccal tablets
+dhed.	PROCHLORPERAZINE 3mg bucc.tabs
+dher.	PROCHLORPERAZINE 5mg tablets
+dhes.	*PROCHLORPERAZINE 25mg tablets
+dhew.	PROCHLORPERAZINE 5mg suppositories
+dhex.	PROCHLORPERAZINE 25mg suppositories
+dq4z.	AMANTADINE HYDROCHLORIDE 100mg capsules
+dr19.	*BROFLEX 5mg/5mL syrup
+dr1w.	TRIHEXYPHENIDYL HYDROCHLORIDE 2mg tablets
+dr1x.	TRIHEXYPHENIDYL HYDROCHLORIDE 5mg tablets
+dr21.	BIORPHEN 25mg/5mL oral solution
+dr22.	DISIPAL 50mg tablets
+dr2x.	ORPHENADRINE 25mg/5mL oral solution
+dr61.	ARPICOLIN 2.5mg/5mL syrup
+dr62.	ARPICOLIN 5mg/5mL syrup
+dr63.	KEMADRIN 5mg tablets
+dr6y.	PROCYCLIDINE 5mg tablets
+ei21.	*SYMMETREL 100mg capsules
+ei22.	*SYMMETREL 50mg/5mL syrup
+ei25.	*LYSOVIR 100mg capsules
+gda1.	OXYBUTYNIN HYDROCHLORIDE 2.5mg tablets
+gdA1.	TOLTERODINE L-TARTRATE 1mg tablets
+gda2.	DITROPAN 2.5mg tablets
+gdA2.	TOLTERODINE L-TARTRATE 2mg tablets
+gda3.	OXYBUTYNIN HYDROCHLORIDE 5mg tablets
+gdA3.	DETRUSITOL 1mg tablets
+gda4.	DITROPAN 5mg tablets
+gdA4.	DETRUSITOL 2mg tablets
+gda5.	OXYBUTYNIN HYDROCHLORIDE 3mg tablets
+gda6.	CYSTRIN 3mg tablets
+gdA6.	DETRUSITOL XL 4mg m/r capsules
+gda7.	CYSTRIN 5mg tablets
+o481.	PETHIDINE 50mg/5mL injection

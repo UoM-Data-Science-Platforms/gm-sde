@@ -45,3 +45,12 @@ H47y0	Detergent asthma
 173c.	Occupational asthma
 663V2	Moderate asthma
 663V3	Severe asthma
+173A.00	Exercise induced asthma
+1780.00	Aspirin induced asthma
+663j.00	Asthma - currently active
+663V000	Occasional asthma
+663V100	Mild asthma
+66YP.00	Asthma night-time symptoms
+H440.00	Byssinosis
+H442.00	Flax-dressers' disease
+H35y700	Wood asthma

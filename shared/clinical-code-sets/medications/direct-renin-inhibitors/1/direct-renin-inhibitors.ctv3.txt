@@ -1,0 +1,4 @@
+bkF1.	RASILEZ 150mg tablets
+bkF2.	RASILEZ 300mg tablets
+bkFy.	ALISKIREN 300mg tablets
+bkFz.	ALISKIREN 150mg tablets

@@ -1,0 +1,14 @@
+306238000	Referral to Social Services (procedure)
+306239008	Referral to social services department customer services (procedure)
+306240005	Referral to social services department duty team (procedure)
+444543005	Referral to social services for adult protection
+299761000000104	Producing social services care plan
+299791000000105	Agreeing on social services care plan
+306366006	Referral to social services department social worker (procedure)
+306367002	Referral to social services department care manager (procedure)
+835181000000106	Agreeing on health and social care plan (procedure)
+306356003	Referral to social services department occupational therapist (procedure)
+326321000000103	Social care plan (record artifact)
+811871000000107	Health and social care plan agreed (finding)
+715591000000108	Hospital Discharge Notification to Social Care (record artifact)
+1084431000000106	Signposting to Social Services (procedure)

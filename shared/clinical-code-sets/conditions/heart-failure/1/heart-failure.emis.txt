@@ -1,0 +1,95 @@
+^ESCT1249006	Admit heart failure emergency
+^ESCT1391067	Heart failure with mid range ejection fraction
+^ESCT1401505	Acute on chronic right-sided congestive heart failure
+^ESCT1401506	Acute exacerbation of chronic right ventricular failure
+^ESCT1407918	Right heart failure
+^ESCTAC250433	Acute left-sided heart failure
+^ESCTAC250434	Acute left heart failure
+^ESCTAC371870	Acute left-sided congestive heart failure
+^ESCTAC380900	Acute right-sided congestive heart failure
+^ESCTAC620438	Acute right-sided heart failure
+^ESCTAC727456	Acute on chronic systolic heart failure
+^ESCTAC727457	Acute systolic heart failure
+^ESCTAC727595	Acute diastolic heart failure
+^ESCTAC727596	Acute on chronic diastolic heart failure
+^ESCTAC750730	Acute exacerbation of chronic congestive heart failure
+^ESCTAC750731	Acute on chronic congestive heart failure
+^ESCTAC804805	Acute combined systolic and diastolic heart failure
+^ESCTAC804807	Acute on chronic combined systolic and diastolic heart failure
+^ESCTAS366942	Asthma - cardiac
+^ESCTRE604376	Refractory heart failure
+^ESCTRI271940	Right ventricular obstruction - failure syndrome
+^ESCTRI321383	Right heart failure secondary to left heart failure
+^ESCTRI385541	Right heart failure due to disorder of lung
+^ESCTRI385542	Right heart failure due to pulmonary disease
+^ESCTRI705281	Right heart failure due to pulmonary hypertension
+^ESCTSY691419	Systolic heart failure
+^ESCTSY751034	Symptomatic congestive heart failure
+^ESCTSY803789	Systolic heart failure stage D
+^ESCTSY803790	Systolic heart failure, stage D
+^ESCTSY803791	Systolic heart failure stage C
+^ESCTSY803792	Systolic heart failure, stage C
+^ESCTSY983405	Systolic heart failure stage C due to ischaemic cardiomyopathy
+^ESCTSY983406	Systolic heart failure stage C due to ischemic cardiomyopathy
+^ESCTWE386832	Weak heart
+^ESCTLV388607	LVF - Left ventricular failure
+^ESCTMA385250	Malignant hypertensive heart disease with congestive heart failure
+^ESCTMY386831	Myocardial failure
+^ESCTDE702569	Decompensated chronic heart failure
+^ESCTDI691919	Diastolic heart failure
+^ESCTDI803794	Diastolic heart failure stage D
+^ESCTDI803795	Diastolic heart failure, stage D
+^ESCTDI803796	Diastolic heart failure stage C
+^ESCTDI803797	Diastolic heart failure, stage C
+^ESCTEM689565	Emergency hospital admission for heart failure
+^ESCTEX803031	Exacerbation of congestive heart failure
+^ESCTHE732112	Heart failure with preserved ejection fraction
+^ESCTHE747572	Heart failure due to end stage congenital heart disease
+^ESCTHE757317	Heart failure with reduced ejection fraction
+^ESCTHE757318	Heart failure with reduced ejection fraction due to coronary artery disease
+^ESCTHE757319	Heart failure with reduced ejection fraction due to myocarditis
+^ESCTHE757320	Heart failure with reduced ejection fraction due to cardiomyopathy
+^ESCTHE757321	Heart failure with reduced ejection fraction due to heart valve disease
+^ESCTHF386834	HF - Heart failure
+^ESCTHI266088	High output heart failure
+^ESCTHY258186	Hypertensive heart disease with congestive heart failure
+^ESCTHY324476	Hypertensive heart failure
+^ESCTHY800163	Hypertensive heart AND chronic kidney disease with congestive heart failure
+^ESCTIM557399	Impaired left ventricular func
+^ESCTLE388604	Left heart failure
+^ESCTLE388606	Left-sided heart failure
+^ESCTLO290865	Low output heart failure
+^ESCTCC318255	CCF - Congestive cardiac failure
+^ESCTCH258543	Chronic left-sided congestive heart failure
+^ESCTCH266435	Chronic right-sided heart failure
+^ESCTCH318256	CHF - Congestive heart failure
+^ESCTCH328387	Chronic heart failure
+^ESCTCH358924	Chronic right-sided congestive heart failure
+^ESCTCH419336	Chronic left-sided heart failure
+^ESCTCH725057	Chronic systolic heart failure
+^ESCTCH725129	Chronic diastolic heart failure
+^ESCTCH804806	Chronic combined systolic and diastolic heart failure
+^ESCTCO318253	Congestive heart disease
+^ESCTCO318254	Congestive cardiac failure
+^ESCTCO384242	Congestive rheumatic heart failure
+^ESCTCO705628	Congestive heart failure due to left ventricular systolic dysfunction
+^ESCTCO776322	Congestive heart failure stage B
+^ESCTCO801111	Congestive heart failure with right heart failure
+^ESCTCO802121	Congestive heart failure stage D
+^ESCTCO802122	Congestive heart failure stage C
+^ESCTCO803166	Congestive heart failure due to cardiomyopathy
+^ESCTCO983397	Congestive heart failure stage C due to ischaemic cardiomyopathy
+^ESCTCO983398	Congestive heart failure stage C due to Ischemic cardiomyopathy
+^ESCTCO983399	Congestive heart failure stage B due to ischaemic cardiomyopathy
+^ESCTCO983400	Congestive heart failure stage B due to ischemic cardiomyopathy
+^ESCTCA386835	Cardiac insufficiency
+^ESCTAY378237	Ayerza's syndrome
+^ESCTAY378239	Ayerza syndrome
+^ESCTBE271939	Bernheim's syndrome
+^ESCTBE271941	Bernheim syndrome
+^ESCTBI400530	Biventricular failure
+^ESCTCA378238	Cardiopathia nigra
+^ESCT1397130	Low output heart failure due to and following Fontan operation
+^ESCT1397131	Failure of Fontan type circulation
+^ESCT1415115	Heart failure due to thyrotoxicosis
+^ESCT1415116	Thyrotoxic heart failure

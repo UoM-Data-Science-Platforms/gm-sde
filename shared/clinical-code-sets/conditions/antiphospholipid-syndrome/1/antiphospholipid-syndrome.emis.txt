@@ -1,0 +1,22 @@
+^ESCTAN292984	Anticardiolipin syndrome
+^ESCTAP292983	APS - Antiphospholipid syndrome
+^ESCTAP292985	APL - Antiphospholipid syndrome
+^ESCTPR514094	Primary antiphospholipid syndrome
+^ESCTPR514095	Primary antiphospholipid syndrome with organ/system involvement
+^ESCTPR514096	Primary antiphospholipid syndrome with multisystem involvement
+^ESCTSE514097	Secondary antiphospholipid syndrome
+^ESCTSE514098	Secondary antiphospholipid syndrome with organ/system involvement
+^ESCTSE514099	Secondary antiphospholipid syndrome with multisystem involvement
+^ESCT1353026	Neonatal antiphospholipid syndrome
+^ESCT1353027	Neonatal Hughes syndrome
+^ESCT1353028	Neonatal antiphospholipid antibody syndrome
+^ESCTAN802261	Antiphospholipid syndrome in pregnancy
+^ESCTAS749642	Asherson's syndrome
+^ESCTCA749641	Catastrophic antiphospholipid syndrome
+^ESCTLU280595	Lupus anticoagulant disorder
+^ESCTLU280596	Lupus anticoagulant inhibitor syndrome
+^ESCTLU280598	Lupus anticoagulant
+^ESCTSL280597	SLE inhibitor syndrome
+^ESCTSY667099	Systemic lupus erythematosus-associated antiphospholipid syndrome
+^ESCTTH724546	Thrombophilia due to antiphospholipid antibody
+EMISNQLU11	Lupus anticoagulant positive

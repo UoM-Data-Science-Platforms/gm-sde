@@ -1,0 +1,7 @@
+^ESCT1192336	Finding of body mass index
+^ESCTBA828699	Baseline BMI (body mass index)
+^ESCTBM348480	BMI - Body mass index
+^ESCTBO348478	Body mass index
+^ESCTFI589221	Finding of BMI (body mass index)
+^ESCTOB589220	Observation of body mass index
+^ESCTQU348481	Quetelet index
