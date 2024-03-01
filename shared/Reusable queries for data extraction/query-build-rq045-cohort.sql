@@ -15,8 +15,8 @@
 -- - Ethnicity
 
 
-DECLARE @StartDate datetime;
-SET @StartDate = '2020-01-01';
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2020-01-01';
 
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-sex.sql

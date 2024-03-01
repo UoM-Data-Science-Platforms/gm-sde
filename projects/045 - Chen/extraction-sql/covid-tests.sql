@@ -36,25 +36,26 @@ SET NOCOUNT ON;
 -- - Ethnicity
 
 
-DECLARE @StartDate datetime;
-SET @StartDate = '2020-01-01';
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2020-01-01';
 
 --┌───────────────────────────────────────────────────────────┐
 --│ Create table of patients who are registered with a GM GP  │
 --└───────────────────────────────────────────────────────────┘
 
--- INPUT REQUIREMENTS: @StartDate
+-- INPUT REQUIREMENTS: @StudyStartDate
 
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate))
+	(DeathDate IS NULL OR (DeathDate >= @StudyStartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
 SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
-where FK_Reference_Tenancy_ID = 2;
+where FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode NOT LIKE 'ZZZ%';
 
 -- Make cohort from patients alive at start date and registered with a GP
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
