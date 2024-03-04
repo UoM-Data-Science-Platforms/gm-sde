@@ -6,7 +6,7 @@
 -- OBJECTIVE: To obtain a table with all flu vaccinations for each patient.
 
 -- OUTPUT: 
--- 	- FK_Patient_Link_ID - unique patient id
+-- 	- PatientId - unique patient id
 --	- FluVaccineYearAndMonth - date of vaccine administration (YYYY-MM)
 
 -- Set the start date
@@ -575,7 +575,7 @@ GROUP BY FK_Patient_Link_ID;
 -- final table of flu vaccinations
 
 SELECT 
-	FK_Patient_Link_ID, 
+	PatientId = FK_Patient_Link_ID, 
 	FluVaccineYearAndMonth = FORMAT(FluVaccineDate, 'MM-yyyy')
 FROM #PatientsWithFluVacConcept1
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)

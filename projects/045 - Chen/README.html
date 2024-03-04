@@ -146,7 +146,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>BMI</li>
-<li>Find the closest value to a particular date</li>
+<li>height and weight, standardised in centimetres</li>
 <li>Care home status</li>
 <li>Index Multiple Deprivation</li>
 <li>Patient received flu vaccine in a given time period</li>
@@ -187,24 +187,22 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-patient-bmi.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql">https://github.com/rw251/.../query-patient-bmi.sql</a></p>
 <hr>
-<h3>Find the closest value to a particular date</h3>
-<p>To find the first diagnosis for a particular disease for every patient.</p>
+<h3>height and weight, standardised in centimetres</h3>
+<p>To find the height and weight for every patient, closest to the date provided, standardised in centimetres.</p>
 <p><em>Input</em></p>
 <pre><code>A variable:
   - date: date - (YYYY-MM-DD) the date to look around
   - comparison: inequality sign (&gt;, &lt;, &gt;= or &lt;=) e.g. if '&gt;' then will look for the first value strictly after the date
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;SharedCare.GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-  - code-set: string - the name of the code set to be used. Must be one from the repository.
-  - version: number - the code set version
-  - temp-table-name: string - the name of the temp table that this will produce
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Temp tables as follows:
- #Patients - list of patient ids of the cohort
+ #PatientHeightStandardised (FK_Patient_Link_ID, DateOfFirstValue, Value, HeightInCm)
+ #PatientWeight (FK_Patient_Link_ID, DateOfFirstValue, Value)
 </code></pre>
-<p><em>File</em>: <code>query-get-closest-value-to-date.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-closest-value-to-date.sql">https://github.com/rw251/.../query-get-closest-value-to-date.sql</a></p>
+<p><em>File</em>: <code>query-patient-height-weight.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-height-weight.sql">https://github.com/rw251/.../query-patient-height-weight.sql</a></p>
 <hr>
 <h3>Care home status</h3>
 <p>To get the care home status for each patient.</p>

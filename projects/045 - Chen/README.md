@@ -61,7 +61,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - BMI
-- Find the closest value to a particular date
+- height and weight, standardised in centimetres
 - Care home status
 - Index Multiple Deprivation
 - Patient received flu vaccine in a given time period
@@ -109,29 +109,27 @@ _File_: `query-patient-bmi.sql`
 _Link_: [https://github.com/rw251/.../query-patient-bmi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql)
 
 ---
-### Find the closest value to a particular date
-To find the first diagnosis for a particular disease for every patient.
+### height and weight, standardised in centimetres
+To find the height and weight for every patient, closest to the date provided, standardised in centimetres.
 
 _Input_
 ```
 A variable:
   - date: date - (YYYY-MM-DD) the date to look around
   - comparison: inequality sign (>, <, >= or <=) e.g. if '>' then will look for the first value strictly after the date
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-  - code-set: string - the name of the code set to be used. Must be one from the repository.
-  - version: number - the code set version
-  - temp-table-name: string - the name of the temp table that this will produce
 ```
 
 _Output_
 ```
 Temp tables as follows:
- #Patients - list of patient ids of the cohort
+ #PatientHeightStandardised (FK_Patient_Link_ID, DateOfFirstValue, Value, HeightInCm)
+ #PatientWeight (FK_Patient_Link_ID, DateOfFirstValue, Value)
 ```
-_File_: `query-get-closest-value-to-date.sql`
+_File_: `query-patient-height-weight.sql`
 
-_Link_: [https://github.com/rw251/.../query-get-closest-value-to-date.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-closest-value-to-date.sql)
+_Link_: [https://github.com/rw251/.../query-patient-height-weight.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-height-weight.sql)
 
 ---
 ### Care home status

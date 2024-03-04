@@ -904,11 +904,11 @@ WHERE (
 
 -- >>> Following code sets injected: height v1
 
--- First we get the date of the nearest height measurement before/after
--- the index date
-IF OBJECT_ID('tempdb..#PatientHeightTEMP1') IS NOT NULL DROP TABLE #PatientHeightTEMP1;
+-- First we get the date of the nearest height measurement before/after the index date
+
+IF OBJECT_ID('tempdb..#HEIGHT_TEMP1') IS NOT NULL DROP TABLE #HEIGHT_TEMP1;
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
-INTO #PatientHeightTEMP1
+INTO #HEIGHT_TEMP1
 FROM #GPEvents
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
 AND EventDate <= '2023-12-31'
@@ -919,20 +919,33 @@ GROUP BY FK_Patient_Link_ID;
 -- Then we join to that table in order to get the value of that measurement
 IF OBJECT_ID('tempdb..#PatientHeight') IS NOT NULL DROP TABLE #PatientHeight;
 SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO #PatientHeight
+INTO #PatientHeight 
 FROM #GPEvents p
-INNER JOIN #PatientHeightTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+INNER JOIN #HEIGHT_TEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 
+
+-- standardise height values by converting to numeric, then converting to CM where the measurement is in M
+IF OBJECT_ID('tempdb..#PatientHeightStandardised') IS NOT NULL DROP TABLE #PatientHeightStandardised;
+SELECT p.FK_Patient_Link_ID, h.DateOfFirstValue, h.[Value],
+	HeightInCm = CASE WHEN (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, ''))) BETWEEN 0.1 AND 3 
+		THEN (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, ''))) * 100 
+		ELSE (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')))
+		END
+INTO #PatientHeightStandardised 
+FROM #Cohort p
+LEFT OUTER JOIN #PatientHeight h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+WHERE (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, ''))) BETWEEN 0.1 AND 300 -- filter out unreasonable values
+
+-- repeat all of the above but for weight (no need for the standardisation, as always in KG)
+
 -- >>> Following code sets injected: weight v1
 
--- First we get the date of the nearest weight measurement before/after
--- the index date
-IF OBJECT_ID('tempdb..#PatientWeightTEMP1') IS NOT NULL DROP TABLE #PatientWeightTEMP1;
+IF OBJECT_ID('tempdb..#WEIGHT_TEMP1') IS NOT NULL DROP TABLE #WEIGHT_TEMP1;
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
-INTO #PatientWeightTEMP1
+INTO #WEIGHT_TEMP1
 FROM #GPEvents
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 AND EventDate <= '2023-12-31'
@@ -943,12 +956,13 @@ GROUP BY FK_Patient_Link_ID;
 -- Then we join to that table in order to get the value of that measurement
 IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
 SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO #PatientWeight
+INTO #PatientWeight 
 FROM #GPEvents p
-INNER JOIN #PatientWeightTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+INNER JOIN #WEIGHT_TEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+
 --┌─────┐
 --│ BMI │
 --└─────┘
@@ -1044,7 +1058,7 @@ SELECT
   HO_Asthma = ISNULL(c3.Asthma,0),
   HO_LongCovid = ISNULL(c4.LongCovid,0),
   HO_SevereMentalIllness = ISNULL(c5.SevereMental,0),
-  Height = h.Value,
+  Height = h.HeightInCm,
   DateOfHeightMeasurement = h.DateOfFirstValue,
   Weight = w.Value,
   DateOfWeightMeasurement = w.DateOfFirstValue,
@@ -1058,6 +1072,6 @@ LEFT OUTER JOIN #Anxiety c2 ON c2.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #Asthma c3 ON c3.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #LongCovid c4 ON c4.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #SevereMental c5 ON c5.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHeight h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+LEFT OUTER JOIN #PatientHeightStandardised h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
 LEFT OUTER JOIN #PatientWeight w ON w.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
 LEFT OUTER JOIN #PatientBMI b ON b.FK_Patient_Link_ID = p.FK_Patient_Link_ID 

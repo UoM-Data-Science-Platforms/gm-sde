@@ -99,8 +99,7 @@ WHERE (
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'severe-mental-illness' AND Version = 1)
 );
 
---> EXECUTE query-get-closest-value-to-date.sql date:2023-12-31 comparison:<= all-patients:false gp-events-table:#GPEvents code-set:height version:1 temp-table-name:#PatientHeight
---> EXECUTE query-get-closest-value-to-date.sql date:2023-12-31 comparison:<= all-patients:false gp-events-table:#GPEvents code-set:weight version:1 temp-table-name:#PatientWeight
+--> EXECUTE query-patient-height-weight.sql date:2023-12-31 comparison:<= all-patients:false gp-events-table:#GPEvents
 --> EXECUTE query-patient-bmi.sql gp-events-table:#GPEvents
 
 -- The final table==========================================================================
@@ -118,7 +117,7 @@ SELECT
   HO_Asthma = ISNULL(c3.Asthma,0),
   HO_LongCovid = ISNULL(c4.LongCovid,0),
   HO_SevereMentalIllness = ISNULL(c5.SevereMental,0),
-  Height = h.Value,
+  Height = h.HeightInCm,
   DateOfHeightMeasurement = h.DateOfFirstValue,
   Weight = w.Value,
   DateOfWeightMeasurement = w.DateOfFirstValue,
@@ -132,6 +131,6 @@ LEFT OUTER JOIN #Anxiety c2 ON c2.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #Asthma c3 ON c3.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #LongCovid c4 ON c4.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #SevereMental c5 ON c5.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHeight h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+LEFT OUTER JOIN #PatientHeightStandardised h ON h.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
 LEFT OUTER JOIN #PatientWeight w ON w.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
 LEFT OUTER JOIN #PatientBMI b ON b.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
