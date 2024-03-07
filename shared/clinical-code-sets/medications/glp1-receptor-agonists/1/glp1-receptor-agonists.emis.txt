@@ -40,3 +40,217 @@ EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose
 INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
 TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
 XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+^ESCT1178633	Product containing liraglutide
+^ESCT1182152	Product containing exenatide
+^ESCT1185904	Product containing albiglutide
+^ESCT1188652	Insulin degludec + Liraglutide
+^ESCT1198487	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Lexon (UK) Ltd)
+^ESCT1198517	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (Waymade Healthcare Plc)
+^ESCT1198565	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198686	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198755	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1200705	Lixisenatide product
+^ESCT1200706	Product containing lixisenatide
+^ESCT1201426	Semaglutide product
+^ESCT1201427	Product containing semaglutide
+^ESCT1201428	Semaglutide in oral dosage form
+^ESCT1201429	Product containing semaglutide in oral dosage form
+^ESCT1201493	Lixisenatide in parenteral dosage form
+^ESCT1201494	Product containing lixisenatide in parenteral dosage form
+^ESCT1203984	Albiglutide 30mg powder for conventional release solution for injection in prefilled pen
+^ESCT1203985	Albiglutide 50mg powder for conventional release solution for injection in prefilled pen
+^ESCT1232563	Product containing incretin mimetic
+^ESCT1232695	Exenatide
+^ESCT1232696	Exenatide product
+^ESCT1235348	Liraglutide
+^ESCT1235349	Liraglutide product
+^ESCT1236128	Albiglutide
+^ESCT1236129	Albiglutide product
+^ESCT1236409	Dulaglutide
+^ESCT1236410	Product containing dulaglutide
+^ESCT1236411	Dulaglutide product
+^ESCT1236796	Product containing insulin degludec and liraglutide
+^ESCT1236797	Insulin degludec and liraglutide product
+^ESCT1249948	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249951	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249954	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCT1249992	Semaglutide 0.25mg/0.19ml solution for injection 1.5ml pre-filled disposable device
+^ESCT1249993	Semaglutide 0.5mg/0.37ml solution for injection 1.5ml pre-filled disposable device
+^ESCT1249994	Semaglutide 1mg/0.74ml solution for injection 3ml pre-filled disposable device
+^ESCT1255958	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1255980	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1256015	Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1256016	Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1256018	Insulin glargine + Lixisenatide
+^ESCT1257786	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Originalis B.V.)
+^ESCT1259934	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Originalis B.V.)
+^ESCT1266663	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1267377	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (CST Pharma Ltd)
+^ESCT1267863	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Mawdsley-Brooks & Company Ltd)
+^ESCT1271177	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (CST Pharma Ltd)
+^ESCT1274934	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Pilsco Ltd)
+^ESCT1275004	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Pilsco Ltd)
+^ESCT1299565	Bydureon 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1299666	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (Pharmaram Ltd)
+^ESCT1299670	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pen (Pharmaram Ltd)
+^ESCT1299717	Exenatide 2mg/0.85ml prolonged-release suspension for injection pre-filled disposable devices
+^ESCT1300593	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1300595	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (DE Pharmaceuticals)
+^ESCT1301633	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301634	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301675	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301692	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1302431	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302434	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302849	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302854	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302861	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1302863	Trulicity 0.75mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302865	Trulicity 1.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302890	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Lexon (UK) Ltd)
+^ESCT1302896	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (Waymade Healthcare Plc)
+^ESCT1302914	Eperzan 30mg powder and solvent for solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+^ESCT1302916	Eperzan 50mg powder and solvent for solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+^ESCT1302935	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303016	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303018	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303020	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1303024	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303026	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303028	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Originalis B.V.)
+^ESCT1303030	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Originalis B.V.)
+^ESCT1303034	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1303044	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (CST Pharma Ltd)
+^ESCT1303060	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+^ESCT1303071	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (CST Pharma Ltd)
+^ESCT1303087	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Pilsco Ltd)
+^ESCT1303089	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Pilsco Ltd)
+^ESCT1303107	Bydureon BCise 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1303109	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Pharmaram Ltd)
+^ESCT1303111	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pens (Pharmaram Ltd)
+^ESCT1304867	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+^ESCT1349522	Semaglutide-containing product in parenteral dose form
+^ESCT1353342	Albiglutide only product
+^ESCT1354752	Dulaglutide only product
+^ESCT1354989	Exenatide only product
+^ESCT1355442	Insulin degludec and liraglutide only product
+^ESCT1355662	Liraglutide only product
+^ESCT1355675	Lixisenatide only product
+^ESCT1356708	Semaglutide only product
+^ESCT1358872	Insulin degludec and liraglutide only product in parenteral dose form
+^ESCT1359050	Lixisenatide only product in parenteral dose form
+^ESCT1359832	Semaglutide only product in oral dose form
+^ESCT1359833	Semaglutide only product in parenteral dose form
+^ESCT1361293	Semaglutide 1.34 mg/mL solution for injection
+^ESCT1365769	Albiglutide-containing product in parenteral dose form
+^ESCT1365848	Albiglutide only product in parenteral dose form
+^ESCT1374105	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Pharmaram Ltd)
+^ESCT1374107	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Pharmaram Ltd)
+^ESCT1374205	Rybelsus 3mg tablets (Novo Nordisk Ltd)
+^ESCT1374208	Rybelsus 7mg tablets (Novo Nordisk Ltd)
+^ESCT1374211	Rybelsus 14mg tablets (Novo Nordisk Ltd)
+^ESCT1375189	Semaglutide 14mg tablets
+^ESCT1375190	Semaglutide 3mg tablets
+^ESCT1375191	Semaglutide 7mg tablets
+^ESCT1383163	Glucagon-like peptide 1 receptor agonist-containing product
+^ESCT1385230	Insulin degludec- and liraglutide-containing product in parenteral dose form
+^ESCT1385574	Lixisenatide-containing product
+^ESCT1385674	Semaglutide-containing product
+^ESCT1385675	Semaglutide-containing product in oral dose form
+^ESCT1385702	Lixisenatide-containing product in parenteral dose form
+^ESCT1385874	Albiglutide 30 mg powder for solution for injection pen
+^ESCT1385875	Albiglutide 50 mg powder for solution for injection pen
+^ESCT1389579	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (Ethigen Ltd)
+^ESCT1391551	Liraglutide-containing product in parenteral dose form
+^ESCT1391552	Liraglutide only product in parenteral dose form
+^ESCT1403921	Trulicity 3mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403923	Trulicity 4.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403930	Dulaglutide 3mg/0.5ml solution for injection pre-filled disposable devices
+^ESCT1403931	Dulaglutide 4.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCT1415524	Semaglutide 3 mg oral tablet
+^ESCT1415525	Semaglutide 7 mg oral tablet
+^ESCT1415526	Semaglutide 14 mg oral tablet
+^ESCT1416219	Dulaglutide 1.5 mg/mL solution for injection
+^ESCT1416220	Dulaglutide 3 mg/mL solution for injection
+^ESCT1416221	Dulaglutide 6 mg/mL solution for injection
+^ESCT1416222	Dulaglutide 9 mg/mL solution for injection
+^ESCT1416223	Dulaglutide-containing product in parenteral dose form
+^ESCT1416224	Dulaglutide only product in parenteral dose form
+^ESCTAL1128469	Albiglutide 30mg powder and solvent for solution for injection pre-filled disposable devices
+^ESCTAL1128470	Albiglutide 50mg powder and solvent for solution for injection pre-filled disposable devices
+^ESCTAL758370	Albiglutide
+^ESCTBY1001900	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (Mawdsley-Brooks & Company Ltd)
+^ESCTBY1018581	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (AstraZeneca UK Ltd)
+^ESCTBY1104362	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (AstraZeneca UK Ltd)
+^ESCTBY1118779	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (Lexon (UK) Ltd)
+^ESCTBY1118787	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (Lexon (UK) Ltd)
+^ESCTBY1121402	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (Waymade Healthcare Plc)
+^ESCTBY940321	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTBY940323	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTDU1107846	Dulaglutide 0.75mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTDU1107847	Dulaglutide 1.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTDU771374	Dulaglutide
+^ESCTEP1128461	Eperzan 30mg powder and solvent for solution for injection pre-filled pen (GlaxoSmithKline UK Ltd)
+^ESCTEP1128464	Eperzan 50mg powder and solvent for solution for injection pre-filled pen (GlaxoSmithKline UK Ltd)
+^ESCTEX1018587	Exenatide 2mg powder and solvent for prolonged-release suspension for injection vials
+^ESCTEX1104496	Exenatide 2mg powder and solvent for prolonged-release suspension for injection pre-filled disposable devices
+^ESCTEX691113	Exenatide
+^ESCTEX940316	Exenatide 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices
+^ESCTEX940317	Exenatide 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices
+^ESCTIN1103030	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN689504	Incretin mimetic product
+^ESCTIN773752	Insulin degludec + liraglutide
+^ESCTIN773753	Insulin degludec and liraglutide in parenteral dosage form
+^ESCTLI1043424	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043425	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices and Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043426	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI729985	Liraglutide
+^ESCTLI985909	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTLY1042911	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1042916	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1043028	Lyxumia 10micrograms/20micrograms treatment initiation pack (Sanofi)
+^ESCTPR773754	Product containing insulin degludec and liraglutide in parenteral dosage form
+^ESCTSA1154305	Saxenda 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTTR1104686	Trulicity 0.75mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTTR1104698	Trulicity 1.5mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTVI1103013	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Waymade Healthcare Plc)
+^ESCTVI985906	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTXU1100840	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+ALPO108655NEMIS	Albiglutide  Powder and solvent for solution for injection  30 mg pen
+ALPO108657NEMIS	Albiglutide  Powder and solvent for solution for injection  50 mg pen
+BYPO135693NEMIS	Bydureon  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled pen
+BYPR135696NEMIS	Bydureon Bcise  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled pen
+DUSO138406NEMIS	Dulaglutide  Solution for injection  3 mg/0.5 ml pre-filled device
+DUSO138407NEMIS	Dulaglutide  Solution for injection  4.5 mg/0.5 ml pre-filled device
+EPPO108669NEMIS	Eperzan  Powder and solvent for solution for injection  30 mg pen
+EPPO108676NEMIS	Eperzan  Powder and solvent for solution for injection  50 mg pen
+EXPO135692NEMIS	Exenatide  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled device
+EXPR135695NEMIS	Exenatide  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled device
+INSO130642NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml device
+INSO130643NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml device
+OZSO130277NEMIS	Ozempic  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled pen
+OZSO130278NEMIS	Ozempic  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled pen
+OZSO130279NEMIS	Ozempic  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled pen
+RYTA137821NEMIS	Rybelsus  Tablets  3 mg
+RYTA137822NEMIS	Rybelsus  Tablets  7 mg
+RYTA137823NEMIS	Rybelsus  Tablets  14 mg
+SASO119244NEMIS	Saxenda  Solution for injection  6 mg/ml, 3 ml pre-filled pen
+SESO130272NEMIS	Semaglutide  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled device
+SESO130274NEMIS	Semaglutide  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled device
+SESO130275NEMIS	Semaglutide  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled device
+SESO144592NEMIS	Semaglutide  Solution for injection  0.25 mg/0.37 ml, 1.5 ml pre-filled device
+SESO144593NEMIS	Semaglutide  Solution for injection  1.7 mg/0.75 ml, 3 ml pre-filled device
+SESO144594NEMIS	Semaglutide  Solution for injection  2.4 mg/0.75 ml, 3 ml pre-filled device
+SESO144605NEMIS	Semaglutide  Solution for injection  1 mg/0.75 ml, 3 ml pre-filled device
+SETA137817NEMIS	Semaglutide  Tablets  3 mg
+SETA137818NEMIS	Semaglutide  Tablets  7 mg
+SETA137819NEMIS	Semaglutide  Tablets  14 mg
+SUSO130639NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml pen
+SUSO130640NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml pen
+TRSO138408NEMIS	Trulicity  Solution for injection  3 mg/0.5 ml pre-filled pen
+TRSO138409NEMIS	Trulicity  Solution for injection  4.5 mg/0.5 ml pre-filled pen
+WESO144596NEMIS	Wegovy FlexTouch  Solution for injection  0.25 mg/0.37 ml, 1.5 ml pre-filled pen
+WESO144597NEMIS	Wegovy FlexTouch  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled pen
+WESO144598NEMIS	Wegovy FlexTouch  Solution for injection  1.7 mg/0.75 ml, 3 ml pre-filled pen
+WESO144599NEMIS	Wegovy FlexTouch  Solution for injection  1 mg/0.75 ml, 3 ml pre-filled pen
+WESO144600NEMIS	Wegovy FlexTouch  Solution for injection  2.4 mg/0.75 ml, 3 ml pre-filled pen
