@@ -2,3 +2,5 @@
 44PZ.00	Serum cholesterol NOS
 44PJ.00	Serum total cholesterol level
 44PH.00	Total cholesterol measurement
+44OE.00	Plasma total cholesterol level
+44PK.00	Serum fasting total cholesterol

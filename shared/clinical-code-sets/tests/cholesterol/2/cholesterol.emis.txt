@@ -1,0 +1,12 @@
+^ESCT1192820	Serum fasting total cholesterol
+^ESCT1262075	Cholesterol substance concentration in plasma
+^ESCT1262076	Cholesterol molar concentration in plasma
+^ESCT1262077	Cholesterol substance concentration in serum
+^ESCT1262078	Cholesterol molar concentration in serum
+^ESCTCH829038	Cholesterol level
+^ESCTFA605293	Fasting cholesterol level
+^ESCTSE683159	Serum total cholesterol measurement
+^ESCTSE683160	Serum total cholesterol level
+^ESCTSE846047	Serum fasting total cholesterol level
+^ESCTTO829294	Total cholesterol level
+EGTON456	Fasting serum cholesterol

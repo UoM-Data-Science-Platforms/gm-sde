@@ -2,3 +2,7 @@
 44Q4.00	Serum fasting triglyceride level
 44Q5.00	Serum random triglyceride level
 44QZ.00	Serum triglycerides NOS
+44e..00	Plasma triglyceride level
+44e0.00	Plasma random triglyceride level
+44e1.00	Plasma fasting triglyceride level
+4QA1.00	Triglyceride level

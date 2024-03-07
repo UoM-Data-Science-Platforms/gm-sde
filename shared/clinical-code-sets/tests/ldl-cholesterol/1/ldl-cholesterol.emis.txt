@@ -1,0 +1,5 @@
+^ESCT1262339	LDL-C (low density lipoprotein cholesterol) substance concentration in plasma
+^ESCT1262340	LDL-C (low density lipoprotein cholesterol) molar concentration in plasma
+^ESCT1262341	LDL-C (low density lipoprotein cholesterol) substance concentration in serum
+^ESCT1262342	LDL-C (low density lipoprotein cholesterol) molar concentration in serum
+^ESCTSE840392	Serum LDL (low density lipoprotein) cholesterol level

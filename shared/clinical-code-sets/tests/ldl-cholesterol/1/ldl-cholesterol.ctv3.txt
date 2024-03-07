@@ -1,3 +1,7 @@
 44P6.	Serum LDL cholesterol level
 XaIp4	Calculated LDL cholesterol lev
 XaEVs	Plasma LDL cholesterol level
+44d4.	Plasma random LDL cholesterol levell
+44d5.	Plasma fasting LDL cholesterol level
+44PD.	Serum fasting LDL cholesterol level
+44PE.	Serum random LDL cholesterol level

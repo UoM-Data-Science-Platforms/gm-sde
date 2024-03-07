@@ -1,0 +1,8 @@
+^ESCT1262496	Triglyceride substance concentration in plasma
+^ESCT1262497	Triglyceride molar concentration in plasma
+^ESCT1262498	Triglyceride substance concentration in serum
+^ESCT1262499	Triglyceride molar concentration in serum
+^ESCTFI627911	Finding of serum triglyceride levels
+^ESCTSE627910	Serum triglyceride levels
+^ESCTME552241	Measurement of serum triglyceride level
+^ESCTSE552242	Serum triglyceride levels

@@ -2,3 +2,9 @@ XE2q9	Serum triglycerides
 XE2q9	Serum triglyceride levels
 44Q4.	Serum fasting triglyceride level
 44QZ.	Serum triglycerides NOS
+44e..	Plasma triglyceride level
+44e0.	Plasma random triglyceride level
+44e1.	Plasma fasting triglyceride level
+44Q..	Serum triglycerides
+44Q5.	Serum random triglyceride level
+X772O	Triglyceride level
