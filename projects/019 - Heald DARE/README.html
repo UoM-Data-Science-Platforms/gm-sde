@@ -520,6 +520,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><strong>NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.</strong></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>44.93% - 50.88%</code> suggests that this code set is likely well defined.</p>
+<p><em>Update <strong>2024/03/01</strong>: prevalence now <code>50 - 53%</code>.</em></p>
 <table>
 <thead>
 <tr>
@@ -552,8 +553,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">170245 (50.88%)</td>
 <td style="text-align:right">170245 (50.88%)</td>
 </tr>
+<tr>
+<td>2024-03-01</td>
+<td>EMIS</td>
+<td>2525130</td>
+<td style="text-align:right">1265760 (50.1%)</td>
+<td style="text-align:right">1265887 (50.1%)</td>
+</tr>
+<tr>
+<td>2024-03-01</td>
+<td>TPP</td>
+<td>201782</td>
+<td style="text-align:right">101663 (50.4%)</td>
+<td style="text-align:right">101673 (50.4%)</td>
+</tr>
+<tr>
+<td>2024-03-01</td>
+<td>Vision</td>
+<td>335118</td>
+<td style="text-align:right">177455 (53%)</td>
+<td style="text-align:right">177464 (53%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-01</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2">https://github.com/rw251/.../tests/hba1c/2</a></p>
 <h3>Cholesterol</h3>
 <p>A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P.. Serum cholesterol</code>). It does not include codes that indicate a patient's BMI (<code>44P3. - Serum cholesterol raised</code>) without giving the actual value.</p>
@@ -756,6 +782,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>A patient's vitamin D level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P6.00 - Serum LDL cholesterol level</code>). This only includes codes for total vitamin D level and does not use codes that measure a patient's D2 or D3 levels.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.30% - 14.10%</code> suggests that this code set is not well defined and there are TPP codes that are missing.</p>
+<p><em>Update <strong>2024-03-06</strong>: prevalence now <code>16% - 18.6%</code> for EMIS and VISION. TPP much lower at 3.4% suggesting a potential issue.</em></p>
 <table>
 <thead>
 <tr>
@@ -788,13 +815,39 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">47198 (14.10%)</td>
 <td style="text-align:right">47198 (14.10%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">404510 (16%)</td>
+<td style="text-align:right">404532 (16%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">6837 (3.39%)</td>
+<td style="text-align:right">6836 (3.39%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">62329 (18.6%)</td>
+<td style="text-align:right">62334 (18.6%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1">https://github.com/rw251/.../tests/vitamin-d/1</a></p>
 <h3>Testosterone (level)</h3>
 <p>A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>4473.00 - Serum testosterone</code>). It does not include codes that indicate a patient's testosterone level (<code>4473100 - Serum testosterone level abnormal</code>) without giving the actual value.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.91% - 6.24%</code> suggests that this code set is likely well defined.</p>
+<p><em>Update <strong>2024-03-06</strong>: prevalence now <code>6.1% - 7.4%</code> for EMIS and VISION.</em></p>
 <table>
 <thead>
 <tr>
@@ -827,13 +880,39 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">20903 (6.24%)</td>
 <td style="text-align:right">20903 (6.24%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">164555 (6.51%)</td>
+<td style="text-align:right">164615 (6.52%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">12294 (6.09%)</td>
+<td style="text-align:right">12298 (6.1%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">24684 (7.37%)</td>
+<td style="text-align:right">24687 (7.37%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/testosterone/1">https://github.com/rw251/.../tests/testosterone/1</a></p>
 <h3>SHBG (sex hormone binding globin)</h3>
 <p>A patient's SHBG level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44CD.00 - Serum sex hormone binding globulin level</code>).</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.57% - 3.72%</code> suggests that this code set is perhaps not well defined.</p>
+<p><em>Update <strong>2024-03-06</strong>: prevalence now <code>2.6% - 4.6%</code>.</em></p>
 <table>
 <thead>
 <tr>
@@ -866,8 +945,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">12465 (3.72%)</td>
 <td style="text-align:right">12465 (3.72%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">104472 (4.14%)</td>
+<td style="text-align:right">104515 (4.14%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">5183 (2.57%)</td>
+<td style="text-align:right">5184 (2.57%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">15260 (4.55%)</td>
+<td style="text-align:right">15259 (4.55%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/sex-hormone-binding-globulin/1">https://github.com/rw251/.../tests/sex-hormone-binding-globulin/1</a></p>
 <h3>Glomerular filtration rate (GFR)</h3>
 <p>Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).</p>
@@ -1198,10 +1302,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1">https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1</a></p>
 <h3>SGLT2 inhibitors (gliflozins)</h3>
-<p>Any prescription of a SGLT2 inhibitor (gliflozin).</p>
+<p>Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.25% - 1.25%</code> for EMIS and Vision suggests that this code set is well defined. The figure of <code>0.90%</code> for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.</p>
 <p><em>Update <strong>2023-10-27</strong>: Prevalence is now in the range <code>2.07% - 2.19%</code> which suggests this code set is now more consistent.</em></p>
+<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>2.2% - 2.4%</code>.</em></p>
 <table>
 <thead>
 <tr>
@@ -1255,17 +1360,39 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">6960 (2.09%)</td>
 <td style="text-align:right">6961 (2.09%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">56629 (2.24%)</td>
+<td style="text-align:right">56634 (2.24%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">4879 (2.42%)</td>
+<td style="text-align:right">4880 (2.42%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">7604 (2.27%)</td>
+<td style="text-align:right">7605 (2.27%)</td>
+</tr>
 </tbody>
 </table>
 <h4>Audit log</h4>
 <ul>
-<li>Find_missing_codes last run 2023-10-27</li>
+<li>Find_missing_codes last run 2024-03-06</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1">https://github.com/rw251/.../medications/sglt2-inhibitors/1</a></p>
 <h3>Metformin</h3>
-<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.75% - 5.19%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>5.4% - 6.1%</code>.</em></p>
 <table>
 <thead>
 <tr>
@@ -1298,8 +1425,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">16809 (5.02%)</td>
 <td style="text-align:right">16809 (5.02%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">141124 (5.59%)</td>
+<td style="text-align:right">141146 (5.59%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">12294 (6.09%)</td>
+<td style="text-align:right">12296 (6.09%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">17914 (5.35%)</td>
+<td style="text-align:right">17917 (5.35%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1">https://github.com/rw251/.../medications/metformin/1</a></p>
 <h3>Diabetes mellitus</h3>
 <p>Code set for any diagnosis of diabetes mellitus (type I/type II/other).</p>
@@ -3351,9 +3503,10 @@ This list only includes CKD diagnosis codes (<code>XaNbn. - Chronic kidney disea
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cataract/1">https://github.com/rw251/.../conditions/cataract/1</a></p>
 <h3>GLP-1 receptor agonists</h3>
-<p>Any prescription of a GLP-1 receptor agonist.</p>
+<p>Any prescription of a GLP-1 receptor agonist. Code set developed from children of the SNOMED code <code>416636000 Product containing glucagon-like peptide 1 receptor agonist (product)</code>.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.45% - 0.46%</code> for EMIS and Vision suggests that this code set is well defined. The figure of <code>0.35%</code> for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.</p>
+<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>0.83% - 0.83%</code> for EMIS and Vision practices. TPP lower at <code>0.48%.</code></em></p>
 <table>
 <thead>
 <tr>
@@ -3386,8 +3539,33 @@ This list only includes CKD diagnosis codes (<code>XaNbn. - Chronic kidney disea
 <td style="text-align:right">1553 (0.46%)</td>
 <td style="text-align:right">1553 (0.46%)</td>
 </tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">21060 (0.834%)</td>
+<td style="text-align:right">21061 (0.834%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">974 (0.483%)</td>
+<td style="text-align:right">974 (0.483%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">2768 (0.826%)</td>
+<td style="text-align:right">2768 (0.826%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/glp1-receptor-agonists/1">https://github.com/rw251/.../medications/glp1-receptor-agonists/1</a></p>
 <h3>Insulin</h3>
 <p>Any code representing a prescription (or drug) of insulin.</p>

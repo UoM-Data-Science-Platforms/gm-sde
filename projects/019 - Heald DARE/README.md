@@ -440,11 +440,19 @@ A patient's HbA1c as recorded via clinical code and value. This code set only in
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `44.93% - 50.88%` suggests that this code set is likely well defined.
 
+_Update **2024/03/01**: prevalence now `50 - 53%`._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    | 1170688 (44.93%) |  1170688 (44.93%) |
 | 2021-05-07 | TPP             | 210817     |   98972 (46.95%) |    98972 (46.95%) |
 | 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
+| 2024-03-01 | EMIS            | 2525130    |  1265760 (50.1%) |   1265887 (50.1%) |
+| 2024-03-01 | TPP             | 201782     |   101663 (50.4%) |    101673 (50.4%) |
+| 2024-03-01 | Vision          | 335118     |     177455 (53%) |      177464 (53%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-01
 
 LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
 
@@ -528,11 +536,19 @@ A patient's vitamin D level as recorded via clinical code and value. This code s
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.30% - 14.10%` suggests that this code set is not well defined and there are TPP codes that are missing.
 
+_Update **2024-03-06**: prevalence now `16% - 18.6%` for EMIS and VISION. TPP much lower at 3.4% suggesting a potential issue._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-11 | EMIS            | 2606497    |  282971 (10.86%) |   282971 (10.86%) |
 | 2021-05-11 | TPP             | 210810     |     9056 (4.30%) |      9056 (4.30%) |
 | 2021-05-11 | Vision          | 334784     |   47198 (14.10%) |    47198 (14.10%) |
+| 2024-03-06 | EMIS            | 2525894    |     404510 (16%) |      404532 (16%) |
+| 2024-03-06 | TPP             | 201753     |     6837 (3.39%) |      6836 (3.39%) |
+| 2024-03-06 | Vision          | 335117     |    62329 (18.6%) |     62334 (18.6%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
 
@@ -543,11 +559,19 @@ A patient's testosterone level as recorded via clinical code and value. This cod
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
 
+_Update **2024-03-06**: prevalence now `6.1% - 7.4%` for EMIS and VISION._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-11 | EMIS            | 2606497    |   137971 (5.29%) |    137971 (5.29%) |
 | 2021-05-11 | TPP             | 210810     |    10359 (4.91%) |     10359 (4.91%) |
 | 2021-05-11 | Vision          | 334784     |    20903 (6.24%) |     20903 (6.24%) |
+| 2024-03-06 | EMIS            | 2525894    |   164555 (6.51%) |    164615 (6.52%) |
+| 2024-03-06 | TPP             | 201753     |    12294 (6.09%) |      12298 (6.1%) |
+| 2024-03-06 | Vision          | 335117     |    24684 (7.37%) |     24687 (7.37%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../tests/testosterone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/testosterone/1)
 
@@ -558,11 +582,19 @@ A patient's SHBG level as recorded via clinical code and value. This code set on
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.57% - 3.72%` suggests that this code set is perhaps not well defined.
 
+_Update **2024-03-06**: prevalence now `2.6% - 4.6%`._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2606497    |    87601 (3.36%) |     87601 (3.36%) |
 | 2021-05-07 | TPP             | 210810     |     5424 (2.57%) |      5424 (2.57%) |
 | 2021-05-07 | Vision          | 334784     |    12465 (3.72%) |     12465 (3.72%) |
+| 2024-03-06 | EMIS            | 2525894    |   104472 (4.14%) |    104515 (4.14%) |
+| 2024-03-06 | TPP             | 201753     |     5183 (2.57%) |      5184 (2.57%) |
+| 2024-03-06 | Vision          | 335117     |    15260 (4.55%) |     15259 (4.55%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../tests/sex-hormone-binding-globulin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/sex-hormone-binding-globulin/1)
 
@@ -689,12 +721,14 @@ LINK: [https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1](ht
 
 ### SGLT2 inhibitors (gliflozins)
 
-Any prescription of a SGLT2 inhibitor (gliflozin).
+Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
 
 _Update **2023-10-27**: Prevalence is now in the range `2.07% - 2.19%` which suggests this code set is now more consistent._
+
+_Update **2024-03-06**: Prevalence is now in the range `2.2% - 2.4%`._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -704,24 +738,35 @@ _Update **2023-10-27**: Prevalence is now in the range `2.07% - 2.19%` which sug
 | 2023-10-27 | EMIS            | 2472595    |    51233 (2.07%) |     51239 (2.07%) |
 | 2023-10-27 | TPP             | 200603     |     4387 (2.19%) |      4387 (2.19%) |
 | 2023-10-27 | Vision          | 332447     |     6960 (2.09%) |      6961 (2.09%) |
+| 2024-03-06 | EMIS            | 2525894    |    56629 (2.24%) |     56634 (2.24%) |
+| 2024-03-06 | TPP             | 201753     |     4879 (2.42%) |      4880 (2.42%) |
+| 2024-03-06 | Vision          | 335117     |     7604 (2.27%) |      7605 (2.27%) |
 #### Audit log
 
-- Find_missing_codes last run 2023-10-27
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
 
 ### Metformin
 
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.75% - 5.19%` suggests that this code set is well defined.
+
+_Update **2024-03-06**: Prevalence is now in the range `5.4% - 6.1%`._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    |   135082 (5.18%) |    135136 (5.19%) |
 | 2021-05-07 | TPP             | 210817     |    10016 (4.75%) |     10016 (4.75%) |
 | 2021-05-07 | Vision          | 334632     |    16809 (5.02%) |     16809 (5.02%) |
+| 2024-03-06 | EMIS            | 2525894    |   141124 (5.59%) |    141146 (5.59%) |
+| 2024-03-06 | TPP             | 201753     |    12294 (6.09%) |     12296 (6.09%) |
+| 2024-03-06 | Vision          | 335117     |    17914 (5.35%) |     17917 (5.35%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../medications/metformin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1)
 
@@ -1460,16 +1505,24 @@ LINK: [https://github.com/rw251/.../conditions/cataract/1](https://github.com/rw
 
 ### GLP-1 receptor agonists
 
-Any prescription of a GLP-1 receptor agonist.
+Any prescription of a GLP-1 receptor agonist. Code set developed from children of the SNOMED code `416636000 Product containing glucagon-like peptide 1 receptor agonist (product)`.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.45% - 0.46%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.35%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
+
+_Update **2024-03-06**: Prevalence is now in the range `0.83% - 0.83%` for EMIS and Vision practices. TPP lower at `0.48%.`_
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-08-26 | EMIS            | 2623304    |    11708 (0.45%) |     11708 (0.45%) |
 | 2021-08-26 | TPP             | 211610     |      751 (0.35%) |       751 (0.35%) |
 | 2021-08-26 | Vision          | 337028     |     1553 (0.46%) |      1553 (0.46%) |
+| 2024-03-06 | EMIS            | 2525894    |   21060 (0.834%) |    21061 (0.834%) |
+| 2024-03-06 | TPP             | 201753     |     974 (0.483%) |      974 (0.483%) |
+| 2024-03-06 | Vision          | 335117     |    2768 (0.826%) |     2768 (0.826%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-06
 
 LINK: [https://github.com/rw251/.../medications/glp1-receptor-agonists/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/glp1-receptor-agonists/1)
 
