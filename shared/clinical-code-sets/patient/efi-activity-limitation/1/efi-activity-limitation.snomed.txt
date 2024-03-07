@@ -1,0 +1,6 @@
+21134002	Disability (finding)
+160983005	Attendance allowance (qualifier value)
+161041005	Has orange disabled driver badge (finding)
+183361009	Blind rehabilitation (regime/therapy)
+266742006	Specific disability rehabilitation (regime/therapy)
+514591000000108	Completion of DS1500 terminal illness medical report (procedure)
