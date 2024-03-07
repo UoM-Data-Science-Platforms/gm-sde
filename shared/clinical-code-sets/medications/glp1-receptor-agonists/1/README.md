@@ -1,6 +1,6 @@
 # GLP-1 receptor agonists
 
-Any prescription of a GLP-1 receptor agonist.
+Any prescription of a GLP-1 receptor agonist. Code set developed from children of the SNOMED code `416636000 Product containing glucagon-like peptide 1 receptor agonist (product)`.
 
 ## Prevalence log
 

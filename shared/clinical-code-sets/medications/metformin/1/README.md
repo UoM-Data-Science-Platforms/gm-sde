@@ -1,6 +1,6 @@
 # Metformin
 
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.
 
 ## Prevalence log
 

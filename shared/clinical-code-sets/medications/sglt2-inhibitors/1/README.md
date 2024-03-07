@@ -1,6 +1,6 @@
 # SGLT2 inhibitors (gliflozins)
 
-Any prescription of a SGLT2 inhibitor (gliflozin).
+Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.
 
 ## Prevalence log
 
