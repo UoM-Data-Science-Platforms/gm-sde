@@ -385,8 +385,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>systolic-blood-pressure v1</li>
 <li>triglycerides v1</li>
 <li>urinary-albumin-creatinine-ratio v1</li>
-<li>sglt2-inhibitors v1</li>
-<li>metformin v1</li>
 <li>diabetes v1</li>
 <li>diabetes-type-i v1</li>
 <li>diabetes-type-ii v1</li>
@@ -419,8 +417,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>acute-conjunctivitis v1</li>
 <li>diabetic-retinopathy v1</li>
 <li>cataract v1</li>
+<li>metformin v1</li>
 <li>glp1-receptor-agonists v1</li>
 <li>insulin v1</li>
+<li>sglt2-inhibitors v1</li>
 <li>sulphonylureas v1</li>
 <li>ace-inhibitor v1</li>
 <li>aspirin v1</li>
@@ -1301,158 +1301,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Find_missing_codes last run 2023-11-01</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1">https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1</a></p>
-<h3>SGLT2 inhibitors (gliflozins)</h3>
-<p>Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.25% - 1.25%</code> for EMIS and Vision suggests that this code set is well defined. The figure of <code>0.90%</code> for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.</p>
-<p><em>Update <strong>2023-10-27</strong>: Prevalence is now in the range <code>2.07% - 2.19%</code> which suggests this code set is now more consistent.</em></p>
-<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>2.2% - 2.4%</code>.</em></p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-08-26</td>
-<td>EMIS</td>
-<td>2623304</td>
-<td style="text-align:right">32817 (1.25%)</td>
-<td style="text-align:right">32817 (1.25%)</td>
-</tr>
-<tr>
-<td>2021-08-26</td>
-<td>TPP</td>
-<td>211610</td>
-<td style="text-align:right">1899 (0.90%)</td>
-<td style="text-align:right">1899 (0.90%)</td>
-</tr>
-<tr>
-<td>2021-08-26</td>
-<td>Vision</td>
-<td>337028</td>
-<td style="text-align:right">4211 (1.25%)</td>
-<td style="text-align:right">4211 (1.25%)</td>
-</tr>
-<tr>
-<td>2023-10-27</td>
-<td>EMIS</td>
-<td>2472595</td>
-<td style="text-align:right">51233 (2.07%)</td>
-<td style="text-align:right">51239 (2.07%)</td>
-</tr>
-<tr>
-<td>2023-10-27</td>
-<td>TPP</td>
-<td>200603</td>
-<td style="text-align:right">4387 (2.19%)</td>
-<td style="text-align:right">4387 (2.19%)</td>
-</tr>
-<tr>
-<td>2023-10-27</td>
-<td>Vision</td>
-<td>332447</td>
-<td style="text-align:right">6960 (2.09%)</td>
-<td style="text-align:right">6961 (2.09%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>EMIS</td>
-<td>2525894</td>
-<td style="text-align:right">56629 (2.24%)</td>
-<td style="text-align:right">56634 (2.24%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>TPP</td>
-<td>201753</td>
-<td style="text-align:right">4879 (2.42%)</td>
-<td style="text-align:right">4880 (2.42%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>Vision</td>
-<td>335117</td>
-<td style="text-align:right">7604 (2.27%)</td>
-<td style="text-align:right">7605 (2.27%)</td>
-</tr>
-</tbody>
-</table>
-<h4>Audit log</h4>
-<ul>
-<li>Find_missing_codes last run 2024-03-06</li>
-</ul>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1">https://github.com/rw251/.../medications/sglt2-inhibitors/1</a></p>
-<h3>Metformin</h3>
-<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.75% - 5.19%</code> suggests that this code set is well defined.</p>
-<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>5.4% - 6.1%</code>.</em></p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-05-07</td>
-<td>EMIS</td>
-<td>2605681</td>
-<td style="text-align:right">135082 (5.18%)</td>
-<td style="text-align:right">135136 (5.19%)</td>
-</tr>
-<tr>
-<td>2021-05-07</td>
-<td>TPP</td>
-<td>210817</td>
-<td style="text-align:right">10016 (4.75%)</td>
-<td style="text-align:right">10016 (4.75%)</td>
-</tr>
-<tr>
-<td>2021-05-07</td>
-<td>Vision</td>
-<td>334632</td>
-<td style="text-align:right">16809 (5.02%)</td>
-<td style="text-align:right">16809 (5.02%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>EMIS</td>
-<td>2525894</td>
-<td style="text-align:right">141124 (5.59%)</td>
-<td style="text-align:right">141146 (5.59%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>TPP</td>
-<td>201753</td>
-<td style="text-align:right">12294 (6.09%)</td>
-<td style="text-align:right">12296 (6.09%)</td>
-</tr>
-<tr>
-<td>2024-03-06</td>
-<td>Vision</td>
-<td>335117</td>
-<td style="text-align:right">17914 (5.35%)</td>
-<td style="text-align:right">17917 (5.35%)</td>
-</tr>
-</tbody>
-</table>
-<h4>Audit log</h4>
-<ul>
-<li>Find_missing_codes last run 2024-03-06</li>
-</ul>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1">https://github.com/rw251/.../medications/metformin/1</a></p>
 <h3>Diabetes mellitus</h3>
 <p>Code set for any diagnosis of diabetes mellitus (type I/type II/other).</p>
 <p>Developed from https://getset.ga.</p>
@@ -3502,6 +3350,71 @@ This list only includes CKD diagnosis codes (<code>XaNbn. - Chronic kidney disea
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cataract/1">https://github.com/rw251/.../conditions/cataract/1</a></p>
+<h3>Metformin</h3>
+<p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.75% - 5.19%</code> suggests that this code set is well defined.</p>
+<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>5.4% - 6.1%</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">135082 (5.18%)</td>
+<td style="text-align:right">135136 (5.19%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">10016 (4.75%)</td>
+<td style="text-align:right">10016 (4.75%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">16809 (5.02%)</td>
+<td style="text-align:right">16809 (5.02%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">141124 (5.59%)</td>
+<td style="text-align:right">141146 (5.59%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">12294 (6.09%)</td>
+<td style="text-align:right">12296 (6.09%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">17914 (5.35%)</td>
+<td style="text-align:right">17917 (5.35%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1">https://github.com/rw251/.../medications/metformin/1</a></p>
 <h3>GLP-1 receptor agonists</h3>
 <p>Any prescription of a GLP-1 receptor agonist. Code set developed from children of the SNOMED code <code>416636000 Product containing glucagon-like peptide 1 receptor agonist (product)</code>.</p>
 <h4>Prevalence log</h4>
@@ -3606,6 +3519,93 @@ This list only includes CKD diagnosis codes (<code>XaNbn. - Chronic kidney disea
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/insulin/1">https://github.com/rw251/.../medications/insulin/1</a></p>
+<h3>SGLT2 inhibitors (gliflozins)</h3>
+<p>Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.25% - 1.25%</code> for EMIS and Vision suggests that this code set is well defined. The figure of <code>0.90%</code> for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.</p>
+<p><em>Update <strong>2023-10-27</strong>: Prevalence is now in the range <code>2.07% - 2.19%</code> which suggests this code set is now more consistent.</em></p>
+<p><em>Update <strong>2024-03-06</strong>: Prevalence is now in the range <code>2.2% - 2.4%</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-08-26</td>
+<td>EMIS</td>
+<td>2623304</td>
+<td style="text-align:right">32817 (1.25%)</td>
+<td style="text-align:right">32817 (1.25%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>TPP</td>
+<td>211610</td>
+<td style="text-align:right">1899 (0.90%)</td>
+<td style="text-align:right">1899 (0.90%)</td>
+</tr>
+<tr>
+<td>2021-08-26</td>
+<td>Vision</td>
+<td>337028</td>
+<td style="text-align:right">4211 (1.25%)</td>
+<td style="text-align:right">4211 (1.25%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">51233 (2.07%)</td>
+<td style="text-align:right">51239 (2.07%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">4387 (2.19%)</td>
+<td style="text-align:right">4387 (2.19%)</td>
+</tr>
+<tr>
+<td>2023-10-27</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">6960 (2.09%)</td>
+<td style="text-align:right">6961 (2.09%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>EMIS</td>
+<td>2525894</td>
+<td style="text-align:right">56629 (2.24%)</td>
+<td style="text-align:right">56634 (2.24%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>TPP</td>
+<td>201753</td>
+<td style="text-align:right">4879 (2.42%)</td>
+<td style="text-align:right">4880 (2.42%)</td>
+</tr>
+<tr>
+<td>2024-03-06</td>
+<td>Vision</td>
+<td>335117</td>
+<td style="text-align:right">7604 (2.27%)</td>
+<td style="text-align:right">7605 (2.27%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-06</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1">https://github.com/rw251/.../medications/sglt2-inhibitors/1</a></p>
 <h3>Sulphonylureas</h3>
 <p>Any prescription of a sulphonylurea.</p>
 <h4>Prevalence log</h4>
