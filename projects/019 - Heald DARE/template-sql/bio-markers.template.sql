@@ -20,9 +20,6 @@
 -- We assume that a temporary table will exist as follows:
 -- CREATE TABLE #DAREPatients (NhsNo NVARCHAR(30));
 
--- For each patient in the DARE cohort, this produces all biomarker readings
--- since 2018-01-01.
-
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
