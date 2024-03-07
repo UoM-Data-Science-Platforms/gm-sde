@@ -1,0 +1,5 @@
+48724000	Mitral valve regurgitation (disorder)
+60573004	Aortic valve stenosis (disorder)
+76267008	Pulmonary valve disorder (disorder)
+194977007	Mitral valve: [regurgitation] or [prolapse] (disorder)
+409712001	Mitral valve prolapse (disorder)
