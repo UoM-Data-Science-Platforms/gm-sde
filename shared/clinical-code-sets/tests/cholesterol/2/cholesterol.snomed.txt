@@ -2,3 +2,11 @@
 412808005	Serum total cholesterol level
 121868005	Total cholesterol measurement (procedure)
 994351000000103	Serum total cholesterol level
+1106531000000105	Substance concentration of cholesterol in plasma (observable entity)
+853681000000104	Total cholesterol level (observable entity)
+850981000000101	Cholesterol level (observable entity)
+1017161000000104	Plasma total cholesterol level (observable entity)
+1106541000000101	Substance concentration of cholesterol in serum (observable entity)
+1083761000000106	Serum fasting total cholesterol level (observable entity)
+315017003	Fasting cholesterol level (procedure)
+247801000000106	Serum fasting total cholesterol (procedure)

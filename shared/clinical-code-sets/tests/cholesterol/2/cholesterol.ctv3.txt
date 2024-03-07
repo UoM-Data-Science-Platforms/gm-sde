@@ -5,3 +5,7 @@ XSK14	Total cholesterol measurement
 44PZ.	Serum cholesterol NOS
 XE2eD	Serum cholesterol
 XaJe9	Serum total cholesterol level
+X772L	Cholesterol level
+XaFs9	Fasting cholesterol level
+XaIRd	Plasma total cholesterol level
+XaLux	Serum fasting total cholesterol

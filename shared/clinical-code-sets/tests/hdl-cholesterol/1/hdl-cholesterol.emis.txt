@@ -1,0 +1,5 @@
+^ESCT1262229	HDL (high density lipoprotein) cholesterol substance concentration in plasma
+^ESCT1262230	HDL (high density lipoprotein) cholesterol molar concentration in plasma
+^ESCT1262232	HDL (high density lipoprotein) cholesterol substance concentration in serum
+^ESCT1262233	HDL (high density lipoprotein) cholesterol molar concentration in serum
+^ESCTSE838573	Serum HDL (high density lipoprotein) cholesterol level

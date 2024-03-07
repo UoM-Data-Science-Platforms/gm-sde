@@ -1,3 +1,6 @@
 44PC.00	Serum random HDL cholesterol level
 44P5.00	Serum HDL cholesterol level
 44dA.00	Plasma HDL cholesterol level
+44d2.00	Plasma random HDL cholesterol level
+44d3.00	Plasma fasting HDL cholesterol level
+44PB.00	Serum fasting HDL cholesterol level
