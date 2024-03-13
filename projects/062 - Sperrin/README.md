@@ -33,6 +33,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Care home status
 - Patient GP encounters
 - Lower level super output area
 - Index Multiple Deprivation
@@ -48,6 +49,32 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Care home status
+To get the care home status for each patient.
+
+_Assumptions_
+
+- If any of the patient records suggests the patients lives in a care home we will assume that they do
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IsCareHomeResident - Y/N
+```
+_File_: `query-patient-care-home-resident.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-care-home-resident.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-care-home-resident.sql)
+
+---
 ### Patient GP encounters
 To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
 
