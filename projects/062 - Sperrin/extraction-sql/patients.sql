@@ -647,6 +647,35 @@ BEGIN
       AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
       AND EventDate BETWEEN '1800-01-01' AND '2013-09-01'
   END
+--┌──────────────────┐
+--│ Care home status │
+--└──────────────────┘
+
+-- OBJECTIVE: To get the care home status for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IsCareHomeResident - Y/N
+
+-- ASSUMPTIONS:
+--	-	If any of the patient records suggests the patients lives in a care home we will assume that they do
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
+SELECT 
+	FK_Patient_Link_ID,
+	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
+INTO #PatientCareHomeStatus
+FROM SharedCare.Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND NursingCareHomeFlag IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
+
 
 
 -- Count GP encouters========================================================================================================================================
@@ -676,13 +705,14 @@ FROM #UniquePractices
 SELECT
   p.FK_Patient_Link_ID as PatientId,
   YearAndQuarterMonthOfBirth,
-  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath, -- remind study team that any patients who died prior to 2019 will not be in their dataset
+  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath,
   Sex,
   Ethnicity = EthnicCategoryDescription,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
   LSOA_Code AS LSOA,
   RandomPracticeID,
-  NumberGPEncounterBeforeSept2013
+  NumberGPEncounterBeforeSept2013,
+  IsCareHomeResident
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -691,4 +721,5 @@ LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #GPEncounterCount c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #RandomisePractice gpr ON gp.GPPracticeCode = gpr.GPPracticeCode
-LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID;
+LEFT OUTER JOIN [SharedCare].[Patient_Link] link ON p.FK_Patient_Link_ID = link.PK_Patient_Link_ID
+LEFT OUTER JOIN #PatientCareHomeStatus ch ON p.FK_Patient_Link_ID = ch.FK_Patient_Link_ID;

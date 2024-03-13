@@ -122,6 +122,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
+<li>Care home status</li>
 <li>Patient GP encounters</li>
 <li>Lower level super output area</li>
 <li>Index Multiple Deprivation</li>
@@ -136,6 +137,26 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Create table of patients who are registered with a GM GP</li>
 </ul>
 <p>Further details for each query can be found below.</p>
+<h3>Care home status</h3>
+<p>To get the care home status for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>If any of the patient records suggests the patients lives in a care home we will assume that they do</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IsCareHomeResident - Y/N
+</code></pre>
+<p><em>File</em>: <code>query-patient-care-home-resident.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-care-home-resident.sql">https://github.com/rw251/.../query-patient-care-home-resident.sql</a></p>
+<hr>
 <h3>Patient GP encounters</h3>
 <p>To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.</p>
 <p><em>Assumptions</em></p>
