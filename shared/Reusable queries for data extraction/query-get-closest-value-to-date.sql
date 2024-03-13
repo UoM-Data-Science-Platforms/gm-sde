@@ -3,7 +3,7 @@
 --│ Find the closest value to a particular date   │
 --└───────────────────────────────────────────────┘
 
--- OBJECTIVE: To find the first diagnosis for a particular disease for every patient.
+-- OBJECTIVE: To find the closest value for a particular test to a given date.
 
 -- INPUT: A variable:
 --  - min-value: number - the smallest permitted value. Values lower than this will be disregarded.

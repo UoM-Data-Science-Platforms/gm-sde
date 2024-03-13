@@ -1,9 +1,9 @@
 {if:verbose}
---┌───────────────────────────────────────────────┐
---│ Find the closest value to a particular date   │
---└───────────────────────────────────────────────┘
+--┌───────────────────────────────────────────────────┐
+--│ Find the closest diagnosis to a particular date   │
+--└───────────────────────────────────────────────────┘
 
--- OBJECTIVE: To find the first diagnosis for a particular disease for every patient.
+-- OBJECTIVE: To find the closest diagnosis for a particular disease and a given date.
 
 -- INPUT: A variable:
 --  - date: date - (YYYY-MM-DD) the date to look around
