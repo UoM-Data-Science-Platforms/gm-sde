@@ -16,18 +16,6 @@
 --	-	WeightDate - date (YYYY/MM/DD) - the date of the most recent Weight measurement before the specified date
 {endif:verbose}
 
---> CODESET weight:1 
--- this code set also gets added in lines 32 and 35, but doing it here allows us to create the #GPEvents table directly below
-
--- Create a smaller version of GP event table===========================================================================================================
-IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value], Units
-INTO #GPEvents
-FROM SharedCare.GP_Events gp
-	WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
-	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-
-
 -- Weight is almost always recorded in kilograms, so
 -- first we get the most recent value for Weight where the unit is 'kg'
 --> EXECUTE query-get-closest-value-to-date.sql all-patients:false min-value:0.1 max-value:500 unit:kg date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:weight version:1 temp-table-name:#PatientWeightInKilograms
@@ -66,9 +54,7 @@ AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 {endif:all-patients}
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 
--- Create the output PatientWeight temp table. We combine the m and cm tables from above
--- to find the most recent Weight for each person. We multiply the Weight in metres by 100
--- to standardise the output to Kilograms.
+-- Create the output PatientWeight temp table, with vlaues in kg. We combine the kg and 'no unit' tables from above.
 IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
 SELECT 
 	wkg.FK_Patient_Link_ID,

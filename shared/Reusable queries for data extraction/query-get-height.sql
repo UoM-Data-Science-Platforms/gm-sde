@@ -16,17 +16,6 @@
 --	-	HeightDate - date (YYYY/MM/DD) - the date of the most recent height measurement before the specified date
 {endif:verbose}
 
---> CODESET height:1    -- this code set also gets added in lines 32 and 35, but doing it here allows us to create the #GPEvents table directly below
-
--- Create a smaller version of GP event table===========================================================================================================
-IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value], Units
-INTO #GPEvents
-FROM SharedCare.GP_Events gp
-	WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
-	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-
-
 -- Height is almost always recorded in either metres or centimetres, so
 -- first we get the most recent value for height where the unit is 'm'
 --> EXECUTE query-get-closest-value-to-date.sql all-patients:false min-value:0.01 max-value:2.5 unit:m date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:height version:1 temp-table-name:#PatientHeightInMetres
