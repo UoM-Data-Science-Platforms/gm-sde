@@ -58,7 +58,7 @@ GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
 SELECT 
 	wkg.FK_Patient_Link_ID,
-	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wno.[Value]),
+	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wkg.[Value]),
 	WeightDate = wkg.DateOfFirstValue 
 INTO #PatientWeight
 FROM #PatientWeightInKilograms wkg
