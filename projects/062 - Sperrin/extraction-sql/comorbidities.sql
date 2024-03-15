@@ -1659,7 +1659,7 @@ SELECT PatientId,
 	EventYearAndMonth = DATEADD(dd, -( DAY(EventDate) -1 ), EventDate), -- hide the day of the event by setting to first of the month,
 	EventCode,
 	EventCategory = Condition,
-	EventDescription
+	EventDescription = REPLACE(EventDescription, ',',  '|') -- remove commas so they don't mess up CSV files
 	--EventCodeSystem 
 FROM #Final
 ORDER BY PatientID, EventDate;
