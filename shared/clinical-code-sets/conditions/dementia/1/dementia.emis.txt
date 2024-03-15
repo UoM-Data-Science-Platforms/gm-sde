@@ -197,4 +197,194 @@ EMISNQVA13	Variant Creutzfeldt-Jakob disease
 ^ESCTSU396465	Subcortical arteriosclerotic encephalopathy
 ^ESCTTR500574	Traumatic encephalopathy
 ^ESCTWE363009	Wernicke-Korsakoff syndrome
+^ESCT1164104	Dementia following injury caused by exposure to ionising radiation
+^ESCT1164105	Postradiation dementia
+^ESCT1164106	Dementia following injury caused by exposure to ionizing radiation
+^ESCT1169048	Dementia due to prion disease
+^ESCT1169049	Dementia due to and following injury of head
+^ESCT1169441	Subcortical dementia
+^ESCT1171771	Presenile dementia with psychosis
+^ESCT1171774	Predominantly cortical vascular dementia
+^ESCT1191489	[X]Dementia in Alzheimer's dis, atypical or mixed type
+^ESCT1237064	Dementia with mixed etiology
+^ESCT1237065	MVAD - Mixed vascular Alzheimer dementia
+^ESCT1237066	Dementia with mixed aetiology
+^ESCT1353008	PRKAR1B-related neurodegenerative dementia with intermediate filaments
+^ESCT1353009	Protein kinase cAMP-dependent type I regulatory subunit beta-related neurodegenerative dementia with intermediate filaments
+^ESCT1362778	Familial dementia British type
+^ESCT1362879	Familial dementia Danish type
+^ESCT1390962	Aggression due to dementia
+^ESCT1390963	Aggression in dementia
+^ESCT1390964	Agitation due to dementia
+^ESCT1390965	Agitation in dementia
+^ESCT1391007	Dementia caused by volatile inhalant
+^ESCT1391008	Dementia due to pellagra
+^ESCT1391306	Disinhibited behaviour due to dementia
+^ESCT1393438	Cortical vascular dementia
+^ESCT1393718	Amyotrophic lateral sclerosis, parkinsonism, dementia complex
+^ESCT1393719	Amyotrophic lateral sclerosis, parkinsonism, dementia of Guam syndrome
+^ESCT1393722	PDALS (parkinsonism, dementia, amyotrophic lateral sclerosis) complex
+^ESCT1394318	Classical sporadic Creutzfeldt-Jakob disease
+^ESCT1394341	Dementia due to carbon monoxide poisoning
+^ESCT1394342	Dementia due to iron deficiency
+^ESCT1395118	Creutzfeldt-Jakob Disease caused by human growth hormone
+^ESCT1395119	Human-growth hormone ingestion-related Creutzfeldt-Jakob Disease
+^ESCT1409128	Dementia with progressive multifocal leucoencephalopathy
+^ESCT1409129	Dementia co-occurrent and due to progressive multifocal leucoencephalopathy
+^ESCT1409378	Familial British dementia with amyloid angiopathy
+^ESCTAC781444	Acquired prion disease
+^ESCTAG324065	Age-related degeneration of brain
+^ESCTAL266745	Alzheimers dementia, early onset, with depressed mood
+^ESCTAL292995	Alzheimers dementia, late onset, with depressive mood
+^ESCTAL339290	Alzheimers dementia, late onset, with delusions
+^ESCTAL802462	Altered behaviour co-occurrent and due to Pick's disease
+^ESCTAL802463	Altered behavior co-occurrent and due to Pick's disease
+^ESCTAL802464	Altered behaviour in Huntington's dementia
+^ESCTAL802465	Altered behavior in Huntington's dementia
+^ESCTAL802466	Altered behavior in dementia due to Huntington chorea
+^ESCTAL803079	Altered behaviour in Alzheimer's disease
+^ESCTAL803080	Altered behavior in Alzheimer's disease
+^ESCTAL803081	Altered behavior in Alzheimer disease
+^ESCTAL803082	Altered behavior in Alzheimers disease
+^ESCTAL804495	Alzheimers dementia with depressed mood
+^ESCTAL804498	Alzheimer's disease co-occurrent with delirium
+^ESCTAM416492	Amelocerebrohypohidrotic syndrome
+^ESCTBE775512	Behavioural variant of frontotemporal dementia
+^ESCTBE775513	Behavioral variant of frontotemporal dementia
+^ESCTBE989613	Behavioural disturbance co-occurrent and due to late onset Alzheimer dementia
+^ESCTBE989614	Behavioral disturbance co-occurrent and due to late onset Alzheimer dementia
+^ESCTCH755962	CHMP2B-related frontotemporal dementia
+^ESCTCH755964	Chromosome 3-linked frontotemporal dementia
+^ESCTDE257574	Dementia of the Alzheimer's type, with late onset, with delirium
+^ESCTDE257575	Dementia Alzheimers type, late onset with delirium
+^ESCTDE260328	Dementia of the Alzheimer's type, with early onset, uncomplicated
+^ESCTDE266744	Dementia of the Alzheimer's type, with early onset, with depressive mood
+^ESCTDE292994	Dementia of the Alzheimer's type, with late onset, with depressive mood
+^ESCTDE338438	Dementia of the Alzheimer's type, with early onset, with delusions
+^ESCTDE339289	Dementia of the Alzheimer's type, with late onset, with delusions
+^ESCTDE355841	Dementia of the Alzheimer's type, with early onset, with delirium
+^ESCTDE357505	Dementia of the Alzheimer's type, with late onset, uncomplicated
+^ESCTDE384966	Dementia paralytica juvenilis
+^ESCTDE751072	Dementia associated with cerebral lipidosis
+^ESCTDE751073	Dementia associated with normal pressure hydrocephalus
+^ESCTDE751074	Dementia associated with multiple sclerosis
+^ESCTDE751196	Dementia associated with neurosyphilis
+^ESCTDE751197	Dementia associated with viral encephalitis
+^ESCTDE751279	Dementia associated with cerebral anoxia
+^ESCTDE751507	Dementia in remission
+^ESCTDE771038	Dementia co-occurrent with human immunodeficiency virus infection
+^ESCTDE783882	Dementia co-occurrent and due to neurocysticercosis
+^ESCTDE783883	Dementia caused by toxin
+^ESCTDE783884	Dementia due to metabolic abnormality
+^ESCTDE783885	Dementia due to chromosomal anomaly
+^ESCTDE786113	Dementia due to disorder of central nervous system
+^ESCTDE786114	Dementia due to infectious disease
+^ESCTDE787476	Delirium co-occurrent with dementia
+^ESCTDE787477	Delirium superimposed on dementia
+^ESCTDE795509	Dementia caused by heavy metal exposure
+^ESCTDE795510	Dementia due to primary malignant neoplasm of brain
+^ESCTDE795511	Dementia due to chronic subdural haematoma
+^ESCTDE795512	Dementia due to chronic subdural hematoma
+^ESCTDE795513	Dementia due to herpes encephalitis
+^ESCTDE795514	Dementia with progressive multifocal leukoencephalopathy
+^ESCTDE795515	Dementia co-occurrent and due to progressive multifocal leukoencephalopathy
+^ESCTDE795516	Dementia with Down syndrome
+^ESCTDE795517	Dementia co-occurrent and due to Down syndrome
+^ESCTDE796928	Dementia of the Alzheimer type with behavioural disturbance
+^ESCTDE796929	Dementia of the Alzheimer type with behavioral disturbance
+^ESCTDE796937	Dementia with behavioural disturbance
+^ESCTDE796938	Dementia with behavioral disturbance
+^ESCTDE802467	Dementia due to multiple sclerosis with altered behaviour
+^ESCTDE802468	Dementia due to multiple sclerosis with altered behavior
+^ESCTDE803175	Dementia due to Parkinson's disease
+^ESCTDE803176	Dementia due to Parkinsons disease
+^ESCTDE803177	Dementia due to Parkinson disease
+^ESCTDE804101	Dementia due to Rett's syndrome
+^ESCTDE804491	Delusions in Alzheimer's disease
+^ESCTDE804492	Delusions in Alzheimers disease
+^ESCTDE804493	Delusions in Alzheimer disease
+^ESCTDE804494	Depressed mood in Alzheimer's disease
+^ESCTDE804496	Depressed mood in Alzheimer disease
+^ESCTDI264906	Dialysis dementia
+^ESCTDI264907	Dialysis encephalopathy syndrome
+^ESCTDI264908	Dialysis encephalopathy
+^ESCTEA801440	Early onset dementia with delusions
+^ESCTEA803291	Early onset Alzheimer's disease with behavioural disturbance
+^ESCTEA803292	Early onset Alzheimer's disease with behavioral disturbance
+^ESCTEA803293	Early onset Alzheimers disease with behavioral disturbance
+^ESCTEA803294	Early onset Alzheimer disease with behavioral disturbance
+^ESCTEP416490	Epilepsy, dementia and amelogenesis imperfecta
+^ESCTEP416491	Epilepsy, mental deterioration and yellow teeth
+^ESCTEP802469	Epileptic dementia with behavioural disturbance
+^ESCTEP802470	Epileptic dementia with behavioral disturbance
+^ESCTFA385338	Fatal familial insomnia
+^ESCTFA385340	Familial fatal insomnia
+^ESCTFA756028	Familial encephalopathy with neuroserpin inclusion bodies
+^ESCTFA756029	Familial dementia with neuroserpin inclusion bodies
+^ESCTFA756054	Familial Pick's disease
+^ESCTFA773790	Familial Creutzfeldt-Jakob
+^ESCTFA781383	Familial Alzheimer-like prion disease
+^ESCTFC773791	fCJD (Familial Creutzfeldt-Jakob disease)
+^ESCTFF385339	FFI - Familial fatal insomnia
+^ESCTFR755963	Frontotemporal dementia with gene located on 3p11
+^ESCTFR756041	Frontotemporal lobar degeneration
+^ESCTFR756053	Frontotemporal dementia with parkinsonism-17
+^ESCTFT756057	FTDP-17 - Frontotemporal dementia with parkinsonism 17
+^ESCTGR756039	GRN-related frontotemporal dementia
+^ESCTHA797312	Hallucinations co-occurrent and due to late onset dementia
+^ESCTHE756040	Hereditary dysphasic disinhibition dementia
+^ESCTIA773559	Iatrogenic Jakob-Creutzfeldt disease
+^ESCTIA773560	Iatrogenic Creutzfeldt-Jakob disease
+^ESCTIB757762	IBMPFD - Inclusion body myopathy with early onset Paget disease and frontotemporal dementia
+^ESCTIN302942	Inhalant-induced persisting dementia
+^ESCTIN757757	Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia
+^ESCTIN773792	Inherited Creutzfeldt-Jakob disease
+^ESCTIS784063	Ischaemic vascular dementia
+^ESCTIS784064	Ischemic vascular dementia
+^ESCTMI802420	Mixed dementia
+^ESCTMU266460	Multi-infarct dementia with delirium
+^ESCTMU266462	Multi infarct dementia with delirium
+^ESCTMU272293	Multi-infarct dementia with depression
+^ESCTMU291232	Multi-infarct dementia with delusions
+^ESCTMU291234	Multi infarct dementia with delusions
+^ESCTMU365367	Multi-infarct dementia, uncomplicated
+^ESCTMU365369	Multi infarct dementia, uncomplicated
+^ESCTMU803324	Multi-infarct dementia due to atherosclerosis
+^ESCTMU803325	Multi infarct dementia with atherosclerosis
+^ESCTNO783407	Non-amnestic Alzheimer disease
+^ESCTOR695730	Organic dementia associated with AIDS
+^ESCTOR695731	Organic dementia associated with acquired immunodeficiency syndrome
+^ESCTPA773701	Parkinsonism with dementia of Guadeloupe
+^ESCTPA773702	Parkinsonism co-occurrent with dementia of Guadeloupe
+^ESCTPO751142	Post-traumatic dementia with behavioural change
+^ESCTPO751143	Post-traumatic dementia with behavioral change
+^ESCTPR257573	Primary degenerative dementia of the Alzheimer type, senile onset, with delirium
+^ESCTPR260327	Primary degenerative dementia of the Alzheimer type, presenile onset, uncomplicated
+^ESCTPR266743	Primary degenerative dementia of the Alzheimer type, presenile onset, with depression
+^ESCTPR292993	Primary degenerative dementia of the Alzheimer type, senile onset, with depression
+^ESCTPR338437	Primary degenerative dementia of the Alzheimer type, presenile onset, with delusions
+^ESCTPR339288	Primary degenerative dementia of the Alzheimer type, senile onset, with delusions
+^ESCTPR355840	Primary degenerative dementia of the Alzheimer type, presenile onset, with delirium
+^ESCTPR357504	Primary degenerative dementia of the Alzheimer type, senile onset, uncomplicated
+^ESCTPR696469	Presenile dementia associated with AIDS
+^ESCTPR696470	Presenile dementia associated with acquired immunodeficiency syndrome
+^ESCTPR751512	Primary degenerative dementia of the Alzheimer type, senile onset in remission
+^ESCTPR751513	Primary degenerative dementia of the Alzheimer type, presenile onset in remission
+^ESCTPR770469	Presenile dementia co-occurrent with human immunodeficiency virus infection
+^ESCTPR801439	Presenile dementia with delusions
+^ESCTPS419613	Psychoactive substance-induced organic dementia
+^ESCTPS419614	Psychoactive substance induced dementia
+^ESCTRA784352	Rapidly progressive dementia
+^ESCTRI775042	Right temporal atrophy variant frontotemporal dementia
+^ESCTSE634803	Senile dementia with delusion
+^ESCTSE634804	Senile delusion
+^ESCTVA266461	Vascular dementia, with delirium
+^ESCTVA272294	Vascular dementia, with depressive mood
+^ESCTVA291233	Vascular dementia, with delusions
+^ESCTVA365368	Vascular dementia, uncomplicated
+^ESCTVA751506	Vascular dementia in remission
+^ESCTVA808923	Vascular dementia with behavioural disturbance
+^ESCTVA808924	Vascular dementia with behavioral disturbance
+^ESCTVA990225	Vascular dementia without behavioural disturbance
+^ESCTVA990226	Vascular dementia without behavioral disturbance
 

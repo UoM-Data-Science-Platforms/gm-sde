@@ -104,3 +104,8 @@ F11x800	Cerebral degeneration due to progressive multifocal leucoencephalopathy
 F21y200	Binswanger's disease
 F21y211	Binswanger's encephalopathy
 Fyu3000	[X]Other Alzheimer's disease
+A941.00	General paresis - neurosyphilis
+E02y100	Drug-induced dementia
+E2A2.00	Post-concussion syndrome
+Eu06200	[X]Postconcussional syndrome
+F112.00	Senile degeneration of brain
