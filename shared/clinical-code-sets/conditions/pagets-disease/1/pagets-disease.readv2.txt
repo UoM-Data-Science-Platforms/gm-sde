@@ -25,3 +25,10 @@ N310A00	Paget's disease-carpal bone
 N311000	Osteitis deformans in neoplastic disease
 N310L00	Paget's disease-other tarsal bone
 NyuCD00	[X]Osteitis deformans in neoplastic diseases classified elsewhere
+N310400	Paget's disease-coccyx
+N310B00	Paget's disease-metacarpal
+N310C00	Paget's disease-phalanx of finger or thumb
+N310J00	Paget's disease-calcaneum
+N310K00	Paget's disease-talus
+N310M00	Paget's disease-metatarsal
+N310N00	Paget's disease-phalanx of toe

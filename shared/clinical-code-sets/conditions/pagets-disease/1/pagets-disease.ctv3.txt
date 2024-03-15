@@ -25,3 +25,12 @@ N310z	Paget's disease NOS
 N311.	Osteitis deformans associated with diseases EC
 N3110	Osteitis deformans in neoplastic disease
 NyuCD	[X]Osteitis deformans in neoplastic diseases classified elsewhere
+N3104	Paget's disease-coccyx
+N310B	Paget's disease-metacarpal
+N310C	Paget's disease-phalanx of finger or thumb
+N310J	Paget's disease-calcaneum
+N310K	Paget's disease-talus
+N310M	Paget's disease-metatarsal
+N310N	Paget's disease-phalanx of toe
+X20Sp	Paget's disease of jaw
+Xa7ns	Pagets disease - hip
