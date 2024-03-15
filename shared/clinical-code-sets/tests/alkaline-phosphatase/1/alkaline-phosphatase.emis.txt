@@ -1,0 +1,2 @@
+^ESCTSE552220	Serum alkaline phosphatase measurement
+^ESCTSE552222	Serum alkal phosphatase level

@@ -2,3 +2,4 @@ XE2px	Serum alkaline phosphatase
 XE2px	Serum alkaline phosphatase level
 44F3.	Alkaline phosphatase level
 44FZ.	Serum alkaline phosphatase NOS
+44F..	Serum alkaline phosphatase

@@ -3,3 +3,6 @@
 ^ESCTHB551922	Hb estimation
 ^ESCTHE551919	Hemoglobin estimation level
 ^ESCTHE551920	Hemoglobin level estimation
+^ESCT1262208	Haemoglobin mass concentration in blood
+^ESCT1262211	Haemoglobin substance concentration in blood
+^ESCT1262212	Haemoglobin molar concentration in blood
