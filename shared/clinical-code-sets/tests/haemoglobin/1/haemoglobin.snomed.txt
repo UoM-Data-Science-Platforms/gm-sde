@@ -1,2 +1,4 @@
 1022431000000105	Haemoglobin estimation (observable entity)
 271026005	Hemoglobin level estimation (procedure)
+1107511000000100	Mass concentration of haemoglobin in blood (observable entity)
+1107531000000108	Substance concentration of haemoglobin in blood (observable entity)

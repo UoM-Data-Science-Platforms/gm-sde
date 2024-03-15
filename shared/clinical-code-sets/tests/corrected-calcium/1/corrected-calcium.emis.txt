@@ -1,1 +1,9 @@
 ^ESCTPL833969	Plasma corrected calcium concentration
+^ESCT1262172	Calcium substance concentration in serum adjusted for albumin
+^ESCT1262173	Calcium molar concentration in serum adjusted for albumin
+^ESCTAD459968	Adjusted serum calcium level
+^ESCTAD728326	Adjusted calcium level
+^ESCTCO459966	Corrected serum calcium measurement
+^ESCTCO459967	Corrected serum calcium level
+^ESCTCO728325	Corrected measurement of calcium
+^ESCTPL651694	Plasma corrected calcium level
