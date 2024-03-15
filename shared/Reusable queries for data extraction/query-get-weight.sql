@@ -32,7 +32,6 @@ WHERE Units IS NULL
 	AND Value IS NOT NULL
 	AND Value <> ''
 	AND TRY_CONVERT(DECIMAL(10,3), [Value]) BETWEEN 0.1 AND 500
-	AND TRY_CONVERT(DECIMAL(10,3), [Value]) != 0
 	AND EventDate <= '{param:date}'
 	AND SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 {if:all-patients=false}
@@ -46,12 +45,6 @@ INTO #PatientWeightNoUnits
 FROM {param:gp-events-table} p
 INNER JOIN #PatientWeightNoUnitsTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
-{if:patients}
-AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM {param:patients})
-{endif:patients}
-{if:all-patients=false}
-AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-{endif:all-patients}
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 
 -- Create the output PatientWeight temp table, with vlaues in kg. We combine the kg and 'no unit' tables from above.

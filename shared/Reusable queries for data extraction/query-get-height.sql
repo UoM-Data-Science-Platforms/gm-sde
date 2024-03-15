@@ -18,10 +18,10 @@
 
 -- Height is almost always recorded in either metres or centimetres, so
 -- first we get the most recent value for height where the unit is 'm'
---> EXECUTE query-get-closest-value-to-date.sql all-patients:false min-value:0.01 max-value:2.5 unit:m date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:height version:1 temp-table-name:#PatientHeightInMetres
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:{param:all-patients} min-value:0.01 max-value:2.5 unit:m date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:height version:1 temp-table-name:#PatientHeightInMetres
 
 -- Now we do the same but for 'cm'
---> EXECUTE query-get-closest-value-to-date.sql all-patients:false min-value:10 max-value:250 unit:cm date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:height version:1 temp-table-name:#PatientHeightInCentimetres
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:{param:all-patients} min-value:10 max-value:250 unit:cm date:{param:date} comparison:<= gp-events-table:{param:gp-events-table} code-set:height version:1 temp-table-name:#PatientHeightInCentimetres
 -- NB the units are standardised so 'm' and 'cm' dominate. You do not get units like 'metres'.
 
 -- now include records that don't have a unit value but have a height recording (there are only useful records with NULL for unit, not a blank value)
@@ -47,12 +47,6 @@ INTO #PatientHeightNoUnits
 FROM {param:gp-events-table} p
 INNER JOIN #PatientHeightNoUnitsTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
-{if:patients}
-AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM {param:patients})
-{endif:patients}
-{if:all-patients=false}
-AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-{endif:all-patients}
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 
 -- Create the output PatientHeight temp table. We combine the m and cm tables from above

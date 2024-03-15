@@ -15,14 +15,14 @@
 --  - temp-table-name: string - the name of the temp table that this will produce
 
 -- OUTPUT: Temp tables as follows:
--- #Patients - list of patient ids of the cohort
+-- (temp table name specified in parameter) FK_Patient_Link_ID, EventDate
 {endif:verbose}
 
 --> CODESET {param:code-set}:{param:version}
 
--- First we get the date of the nearest {param:code-set} measurement before/after
--- the index date
-IF OBJECT_ID('tempdb..{param:temp-table-name}TEMP1') IS NOT NULL DROP TABLE {param:temp-table-name}TEMP1;
+-- First we get the date of the nearest {param:code-set} diagnosis before/after the specified date
+
+IF OBJECT_ID('tempdb..{param:temp-table-name}') IS NOT NULL DROP TABLE {param:temp-table-name};
 {if:comparison=>}
   SELECT FK_Patient_Link_ID, MIN(EventDate) AS EventDate
 {endif:comparison}
@@ -35,23 +35,14 @@ IF OBJECT_ID('tempdb..{param:temp-table-name}TEMP1') IS NOT NULL DROP TABLE {par
 {if:comparison=<=}
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
 {endif:comparison}
-INTO {param:temp-table-name}TEMP1
+INTO {param:temp-table-name}
 FROM {param:gp-events-table}
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = '{param:code-set}' AND Version = {param:version}) 
 AND EventDate {param:comparison} '{param:date}'
-GROUP BY FK_Patient_Link_ID;
-
--- Then we join to that table in order to get the value of that measurement
-IF OBJECT_ID('tempdb..{param:temp-table-name}') IS NOT NULL DROP TABLE {param:temp-table-name};
-SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO {param:temp-table-name}
-FROM {param:gp-events-table} p
-INNER JOIN {param:temp-table-name}TEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
-WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = '{param:code-set}' AND Version = {param:version}) 
 {if:patients}
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM {param:patients})
 {endif:patients}
 {if:all-patients=false}
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 {endif:all-patients}
-GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+GROUP BY FK_Patient_Link_ID;
