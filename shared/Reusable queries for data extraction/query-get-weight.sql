@@ -31,8 +31,8 @@ FROM {param:gp-events-table}
 WHERE Units IS NULL 
 	AND Value IS NOT NULL
 	AND Value <> ''
-	AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) BETWEEN 0.1 AND 500
-	AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) != 0
+	AND TRY_CONVERT(DECIMAL(10,3), [Value]) BETWEEN 0.1 AND 500
+	AND TRY_CONVERT(DECIMAL(10,3), [Value]) != 0
 	AND EventDate <= '{param:date}'
 	AND SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 {if:all-patients=false}
@@ -58,13 +58,13 @@ GROUP BY p.FK_Patient_Link_ID, p.EventDate;
 IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
 SELECT 
 	wkg.FK_Patient_Link_ID,
-	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3), stuff(wkg.[Value], 1, patindex('%[0-9]%', wkg.[Value])-1, '')),
+	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wno.[Value]),
 	WeightDate = wkg.DateOfFirstValue 
 INTO #PatientWeight
 FROM #PatientWeightInKilograms wkg
 UNION ALL
 SELECT 
 	wno.FK_Patient_Link_ID,
-	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')),
+	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wno.[Value]),
 	WeightDate = DateOfFirstValue
 FROM #PatientWeightNoUnits wno

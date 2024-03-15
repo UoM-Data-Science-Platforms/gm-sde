@@ -33,7 +33,7 @@ FROM {param:gp-events-table}
 WHERE Units IS NULL 
 	AND Value IS NOT NULL
 	AND Value <> ''
-	AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) != 0
+	AND TRY_CONVERT(DECIMAL(10,3), [Value]) != 0
 	AND EventDate <= '{param:date}'
 	AND SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
 {if:all-patients=false}
@@ -62,10 +62,10 @@ IF OBJECT_ID('tempdb..#PatientHeight') IS NOT NULL DROP TABLE #PatientHeight;
 SELECT 
 	CASE WHEN hm.FK_Patient_Link_ID IS NULL THEN hcm.FK_Patient_Link_ID ELSE hm.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
 	CASE
-		WHEN hm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), stuff(hcm.[Value], 1, patindex('%[0-9]%', hcm.[Value])-1, ''))
-		WHEN hcm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), stuff(hm.[Value], 1, patindex('%[0-9]%', hm.[Value])-1, '')) * 100
-		WHEN hm.DateOfFirstValue > hcm.DateOfFirstValue THEN TRY_CONVERT(DECIMAL(10,3), stuff(hm.[Value], 1, patindex('%[0-9]%', hm.[Value])-1, '')) * 100
-		ELSE TRY_CONVERT(DECIMAL(10,3), stuff(hcm.[Value], 1, patindex('%[0-9]%', hcm.[Value])-1, ''))
+		WHEN hm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), hcm.[Value])
+		WHEN hcm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), hm.[Value]) * 100
+		WHEN hm.DateOfFirstValue > hcm.DateOfFirstValue THEN TRY_CONVERT(DECIMAL(10,3), hm.[Value]) * 100
+		ELSE TRY_CONVERT(DECIMAL(10,3), hcm.[Value])
 	END AS HeightInCentimetres,
 	CASE
 		WHEN hm.FK_Patient_Link_ID IS NULL THEN hcm.DateOfFirstValue
@@ -79,9 +79,9 @@ FULL JOIN #PatientHeightInMetres hm ON hm.FK_Patient_Link_ID = hcm.FK_Patient_Li
 UNION ALL
 SELECT 
 	hno.FK_Patient_Link_ID,
-	CASE WHEN (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, ''))) BETWEEN 0.01 AND 2.5 
-	THEN (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, ''))) * 100 
-		ELSE (TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')))
+	CASE WHEN (TRY_CONVERT(DECIMAL(10,3), [Value])) BETWEEN 0.01 AND 2.5 
+	THEN (TRY_CONVERT(DECIMAL(10,3), [Value])) * 100 
+		ELSE (TRY_CONVERT(DECIMAL(10,3), [Value]))
 		END,
 	HeightDate = DateOfFirstValue
 FROM #PatientHeightNoUnits hno

@@ -46,9 +46,9 @@ AND [Value] IS NOT NULL
 AND [Value] != '0'
 AND Units LIKE '{param:unit}'
 -- as these are all tests, we can ignore values of zero and values outside the specified range
-AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) != 0
-AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) >= {param:min-value}
-AND TRY_CONVERT(DECIMAL(10,3), stuff([Value], 1, patindex('%[0-9]%', [Value])-1, '')) <= {param:max-value}
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) != 0
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) >= {param:min-value}
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) <= {param:max-value}
 GROUP BY FK_Patient_Link_ID;
 
 -- Then we join to that table in order to get the value of that measurement
