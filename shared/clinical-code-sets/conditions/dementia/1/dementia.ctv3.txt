@@ -135,5 +135,10 @@ Y9086	Senile dementia - simple type
 Y9087	Senile dementia-acute confused
 Eu106	[X]Korsakov's psychosis, alcohol-induced
 Eu107	[X]Alcoholic dementia NOS
-XE17j	Alzheimer's disease
-XE1aI	Korsakov psychosis
+E02y1	Drug-induced dementia
+F112.	Senile degeneration of brain
+X003N	Familial fatal insomnia
+X005A	Dialysis encephalopathy
+X50Hu	Amelocerebrohypohidrotic syndrome
+X70MA	Juvenile general paresis
+XE2b7	Post-concussional syndrome
