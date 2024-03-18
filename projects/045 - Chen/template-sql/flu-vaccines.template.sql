@@ -21,7 +21,7 @@ SET @EndDate = '2023-12-31';
 -- final table of flu vaccinations
 
 SELECT 
-	FK_Patient_Link_ID, 
+	PatientId = FK_Patient_Link_ID, 
 	FluVaccineYearAndMonth = FORMAT(FluVaccineDate, 'MM-yyyy')
 FROM #PatientsWithFluVacConcept1
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)

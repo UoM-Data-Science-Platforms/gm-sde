@@ -10,6 +10,8 @@
 -- YearOfBirth
 -- Ethnicity
 -- BMI
+-- Height
+-- Weight
 -- LSOA
 -- IMD
 -- DeathTime
@@ -830,11 +832,9 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 --#endregion
 
--- >>> Following code sets injected: cancer v1
--- >>> Following code sets injected: asthma v1
--- >>> Following code sets injected: anxiety v1
--- >>> Following code sets injected: long-covid v1
--- >>> Following code sets injected: severe-mental-illness v1
+-- >>> Following code sets injected: height v1/weight v1
+-- >>> Following code sets injected: cancer v1/asthma v1/anxiety v1/long-covid v1/severe-mental-illness v1
+
 
 DECLARE @MinDate datetime;
 SET @MinDate = '1900-01-01';
@@ -843,7 +843,7 @@ SET @IndexDate = '2023-12-31';
 
 -- Create a smaller version of GP event table===========================================================================================================
 IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
+SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value], Units
 INTO #GPEvents
 FROM SharedCare.GP_Events gp
 WHERE gp.SuppliedCode IN (SELECT Code FROM #AllCodes)
@@ -902,53 +902,194 @@ WHERE (
 );
 
 
+
+-- Height is almost always recorded in either metres or centimetres, so
+-- first we get the most recent value for height where the unit is 'm'
+
 -- >>> Following code sets injected: height v1
 
 -- First we get the date of the nearest height measurement before/after
 -- the index date
-IF OBJECT_ID('tempdb..#PatientHeightTEMP1') IS NOT NULL DROP TABLE #PatientHeightTEMP1;
+IF OBJECT_ID('tempdb..#PatientHeightInMetresTEMP1') IS NOT NULL DROP TABLE #PatientHeightInMetresTEMP1;
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
-INTO #PatientHeightTEMP1
+INTO #PatientHeightInMetresTEMP1
 FROM #GPEvents
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
 AND EventDate <= '2023-12-31'
 AND [Value] IS NOT NULL
 AND [Value] != '0'
+AND Units LIKE 'm'
+-- as these are all tests, we can ignore values values outside the specified range
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) >= 0.01
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) <= 2.5
 GROUP BY FK_Patient_Link_ID;
 
 -- Then we join to that table in order to get the value of that measurement
-IF OBJECT_ID('tempdb..#PatientHeight') IS NOT NULL DROP TABLE #PatientHeight;
+IF OBJECT_ID('tempdb..#PatientHeightInMetres') IS NOT NULL DROP TABLE #PatientHeightInMetres;
 SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO #PatientHeight
+INTO #PatientHeightInMetres
 FROM #GPEvents p
-INNER JOIN #PatientHeightTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+INNER JOIN #PatientHeightInMetresTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+
+-- Now we do the same but for 'cm'
+
+-- >>> Following code sets injected: height v1
+
+-- First we get the date of the nearest height measurement before/after
+-- the index date
+IF OBJECT_ID('tempdb..#PatientHeightInCentimetresTEMP1') IS NOT NULL DROP TABLE #PatientHeightInCentimetresTEMP1;
+  SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
+INTO #PatientHeightInCentimetresTEMP1
+FROM #GPEvents
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
+AND EventDate <= '2023-12-31'
+AND [Value] IS NOT NULL
+AND [Value] != '0'
+AND Units LIKE 'cm'
+-- as these are all tests, we can ignore values values outside the specified range
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) >= 10
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) <= 250
+GROUP BY FK_Patient_Link_ID;
+
+-- Then we join to that table in order to get the value of that measurement
+IF OBJECT_ID('tempdb..#PatientHeightInCentimetres') IS NOT NULL DROP TABLE #PatientHeightInCentimetres;
+SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
+INTO #PatientHeightInCentimetres
+FROM #GPEvents p
+INNER JOIN #PatientHeightInCentimetresTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
+AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+-- NB the units are standardised so 'm' and 'cm' dominate. You do not get units like 'metres'.
+
+-- now include records that don't have a unit value but have a height recording (there are only useful records with NULL for unit, not a blank value)
+
+IF OBJECT_ID('tempdb..#PatientHeightNoUnitsTEMP1') IS NOT NULL DROP TABLE #PatientHeightNoUnitsTEMP1;
+SELECT  FK_Patient_Link_ID, MAX(EventDate) AS EventDate
+INTO #PatientHeightNoUnitsTEMP1
+FROM #GPEvents 
+WHERE Units IS NULL 
+	AND Value IS NOT NULL
+	AND Value <> ''
+	AND TRY_CONVERT(DECIMAL(10,3), [Value]) != 0
+	AND EventDate <= '2023-12-31'
+	AND SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#PatientHeightNoUnits') IS NOT NULL DROP TABLE #PatientHeightNoUnits;
+SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
+INTO #PatientHeightNoUnits
+FROM #GPEvents p
+INNER JOIN #PatientHeightNoUnitsTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'height' AND Version = 1) 
+GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+
+-- Create the output PatientHeight temp table. We combine the m and cm tables from above
+-- to find the most recent height for each person. We multiply the height in metres by 100
+-- to standardise the output to centimetres.
+IF OBJECT_ID('tempdb..#PatientHeight') IS NOT NULL DROP TABLE #PatientHeight;
+SELECT 
+	CASE WHEN hm.FK_Patient_Link_ID IS NULL THEN hcm.FK_Patient_Link_ID ELSE hm.FK_Patient_Link_ID END AS FK_Patient_Link_ID,
+	CASE
+		WHEN hm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), hcm.[Value])
+		WHEN hcm.FK_Patient_Link_ID IS NULL THEN TRY_CONVERT(DECIMAL(10,3), hm.[Value]) * 100
+		WHEN hm.DateOfFirstValue > hcm.DateOfFirstValue THEN TRY_CONVERT(DECIMAL(10,3), hm.[Value]) * 100
+		ELSE TRY_CONVERT(DECIMAL(10,3), hcm.[Value])
+	END AS HeightInCentimetres,
+	CASE
+		WHEN hm.FK_Patient_Link_ID IS NULL THEN hcm.DateOfFirstValue
+		WHEN hcm.FK_Patient_Link_ID IS NULL THEN hm.DateOfFirstValue
+		WHEN hm.DateOfFirstValue > hcm.DateOfFirstValue THEN hm.DateOfFirstValue
+		ELSE hcm.DateOfFirstValue
+	END AS HeightDate
+INTO #PatientHeight
+FROM #PatientHeightInCentimetres hcm
+FULL JOIN #PatientHeightInMetres hm ON hm.FK_Patient_Link_ID = hcm.FK_Patient_Link_ID
+UNION ALL
+SELECT 
+	hno.FK_Patient_Link_ID,
+	CASE WHEN (TRY_CONVERT(DECIMAL(10,3), [Value])) BETWEEN 0.01 AND 2.5 
+	THEN (TRY_CONVERT(DECIMAL(10,3), [Value])) * 100 
+		ELSE (TRY_CONVERT(DECIMAL(10,3), [Value]))
+		END,
+	HeightDate = DateOfFirstValue
+FROM #PatientHeightNoUnits hno
+
+
+-- Weight is almost always recorded in kilograms, so
+-- first we get the most recent value for Weight where the unit is 'kg'
 
 -- >>> Following code sets injected: weight v1
 
 -- First we get the date of the nearest weight measurement before/after
 -- the index date
-IF OBJECT_ID('tempdb..#PatientWeightTEMP1') IS NOT NULL DROP TABLE #PatientWeightTEMP1;
+IF OBJECT_ID('tempdb..#PatientWeightInKilogramsTEMP1') IS NOT NULL DROP TABLE #PatientWeightInKilogramsTEMP1;
   SELECT FK_Patient_Link_ID, MAX(EventDate) AS EventDate
-INTO #PatientWeightTEMP1
+INTO #PatientWeightInKilogramsTEMP1
 FROM #GPEvents
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 AND EventDate <= '2023-12-31'
 AND [Value] IS NOT NULL
 AND [Value] != '0'
+AND Units LIKE 'kg'
+-- as these are all tests, we can ignore values values outside the specified range
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) >= 0.1
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) <= 500
 GROUP BY FK_Patient_Link_ID;
 
 -- Then we join to that table in order to get the value of that measurement
-IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
+IF OBJECT_ID('tempdb..#PatientWeightInKilograms') IS NOT NULL DROP TABLE #PatientWeightInKilograms;
 SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
-INTO #PatientWeight
+INTO #PatientWeightInKilograms
 FROM #GPEvents p
-INNER JOIN #PatientWeightTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+INNER JOIN #PatientWeightInKilogramsTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
 WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
 AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+
+-- NB the units are standardised so 'kg' dominates. You do not get units like 'kilograms'.
+
+-- now include records that don't have a unit value but have a Weight recording (there are only useful records with NULL for unit, not a blank value)
+
+IF OBJECT_ID('tempdb..#PatientWeightNoUnitsTEMP1') IS NOT NULL DROP TABLE #PatientWeightNoUnitsTEMP1;
+SELECT  FK_Patient_Link_ID, MAX(EventDate) AS EventDate
+INTO #PatientWeightNoUnitsTEMP1
+FROM #GPEvents 
+WHERE Units IS NULL 
+	AND Value IS NOT NULL
+	AND Value <> ''
+	AND TRY_CONVERT(DECIMAL(10,3), [Value]) BETWEEN 0.1 AND 500
+	AND EventDate <= '2023-12-31'
+	AND SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#PatientWeightNoUnits') IS NOT NULL DROP TABLE #PatientWeightNoUnits;
+SELECT p.FK_Patient_Link_ID, p.EventDate AS DateOfFirstValue, MAX(p.Value) AS [Value]
+INTO #PatientWeightNoUnits
+FROM #GPEvents p
+INNER JOIN #PatientWeightNoUnitsTEMP1 sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.EventDate = p.EventDate
+WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = 'weight' AND Version = 1) 
+GROUP BY p.FK_Patient_Link_ID, p.EventDate;
+
+-- Create the output PatientWeight temp table, with vlaues in kg. We combine the kg and 'no unit' tables from above.
+IF OBJECT_ID('tempdb..#PatientWeight') IS NOT NULL DROP TABLE #PatientWeight;
+SELECT 
+	wkg.FK_Patient_Link_ID,
+	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wkg.[Value]),
+	WeightDate = wkg.DateOfFirstValue 
+INTO #PatientWeight
+FROM #PatientWeightInKilograms wkg
+UNION ALL
+SELECT 
+	wno.FK_Patient_Link_ID,
+	WeightInKilograms = TRY_CONVERT(DECIMAL(10,3),wno.[Value]),
+	WeightDate = DateOfFirstValue
+FROM #PatientWeightNoUnits wno
 --┌─────┐
 --│ BMI │
 --└─────┘
@@ -1044,10 +1185,10 @@ SELECT
   HO_Asthma = ISNULL(c3.Asthma,0),
   HO_LongCovid = ISNULL(c4.LongCovid,0),
   HO_SevereMentalIllness = ISNULL(c5.SevereMental,0),
-  Height = h.Value,
-  DateOfHeightMeasurement = h.DateOfFirstValue,
-  Weight = w.Value,
-  DateOfWeightMeasurement = w.DateOfFirstValue,
+  h.HeightInCentimetres,
+  DateOfHeightMeasurement = h.HeightDate,
+  WeightInKilograms,
+  DateOfWeightMeasurement = w.WeightDate,
   BMI,
   DateOfBMIMeasurement
 FROM #Cohort p
