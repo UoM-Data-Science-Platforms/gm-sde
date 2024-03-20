@@ -1,6 +1,6 @@
---┌─────────────┐
---│ Medications │
---└─────────────┘
+--┌──────────────────────────────┐
+--│ Medications for LH006 cohort │
+--└──────────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 -- 
@@ -10,8 +10,9 @@
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
---	-	MedicationDescription
---	-	MostRecentPrescriptionDate (YYYY-MM-DD)
+--	-	MedicationCategory
+--  -   Quantity
+--  -   Dosage
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -19,24 +20,27 @@ SET NOCOUNT ON;
 -- Set the start date
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = 'CHANGE';
-SET @EndDate = 'CHANGE';
+SET @StartDate = '2017-01-01';
+SET @EndDate = '2023-12-31';
 
---> EXECUTE query-build-lh003-cohort.sql
+--> EXECUTE query-build-lh006-cohort.sql
 
---> CODESET antipsychotics:1
 
--- DEMENTIA PATIENTS WITH RX OF PSYCHOTROPIC MEDS SINCE 31.07.19
+-- codesets already added (from cohort sql file): opioids-analgesics, nsaids, benzodiazepines, gabapentinoid
 
-IF OBJECT_ID('tempdb..#SMI_antipsychotics') IS NOT NULL DROP TABLE #SMI_antipsychotics;
+--> CODESET 
+
+--  PATIENTS WITH RX OF SELECTED MEDS SINCE 31.07.19
+
+IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		[description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
-INTO #SMI_antipsychotics
-FROM RLS.vw_GP_Medications m
-LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
+INTO #meds
+FROM SharedCare.GP_Medications m
+--LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
+--LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND m.MedicationDate BETWEEN @StartDate AND @EndDate
 AND (
