@@ -29,10 +29,6 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2019-01-01';
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ038EndDate datetime;
-SET @TEMPRQ038EndDate = '2022-06-01';
-
 -- Build the main cohort
 --> EXECUTE query-build-rq038-cohort.sql
 
@@ -57,7 +53,8 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  Units
 INTO #PatientEventData1
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -74,7 +71,8 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  Units
 INTO #PatientEventData2
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -91,7 +89,8 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  Units
 INTO #PatientEventData3
 FROM [SharedCare].GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -121,8 +120,7 @@ SELECT
 INTO #PatientMedicationData1
 FROM [SharedCare].GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	SuppliedCode IN (SELECT Code FROM #AllCodes)
-AND MedicationDate < @TEMPRQ038EndDate;
+AND	SuppliedCode IN (SELECT Code FROM #AllCodes);
 -- 1m
 
 -- 2. Patients with a FK_Patient_Link_ID in our list
@@ -136,8 +134,7 @@ SELECT
 INTO #PatientMedicationData2
 FROM [SharedCare].GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-AND MedicationDate < @TEMPRQ038EndDate;
+AND	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets);
 --29s
 
 -- 3. Patients with a FK_Reference_SnomedCT_ID in our list
@@ -151,8 +148,7 @@ SELECT
 INTO #PatientMedicationData3
 FROM [SharedCare].GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets)
-AND MedicationDate < @TEMPRQ038EndDate;
+AND	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets);
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT * INTO #PatientMedicationData FROM #PatientMedicationData1
@@ -184,31 +180,33 @@ CREATE INDEX medData ON #PatientMedicationData (SuppliedCode) INCLUDE (FK_Patien
 
 
 
---> EXECUTE query-get-closest-value-to-date.sql code-set:bmi version:2 temp-table-name:#PostStartBMI date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:bmi version:2 temp-table-name:#PreStartBMI date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:systolic-blood-pressure version:1 temp-table-name:#PostStartSBP date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:systolic-blood-pressure version:1 temp-table-name:#PreStartSBP date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:diastolic-blood-pressure version:1 temp-table-name:#PostStartDBP date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:diastolic-blood-pressure version:1 temp-table-name:#PreStartDBP date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:egfr version:1 temp-table-name:#PostStartEGFR date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:egfr version:1 temp-table-name:#PreStartEGFR date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:hba1c version:2 temp-table-name:#PostStartHBA1C date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:hba1c version:2 temp-table-name:#PreStartHBA1C date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PostStartVitD date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:vitamin-d version:1 temp-table-name:#PreStartVitD date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:bmi version:2 temp-table-name:#PostStartBMI date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:bmi version:2 temp-table-name:#PreStartBMI date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:systolic-blood-pressure version:1 temp-table-name:#PostStartSBP date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:systolic-blood-pressure version:1 temp-table-name:#PreStartSBP date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:diastolic-blood-pressure version:1 temp-table-name:#PostStartDBP date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:diastolic-blood-pressure version:1 temp-table-name:#PreStartDBP date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:egfr version:1 temp-table-name:#PostStartEGFR date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:egfr version:1 temp-table-name:#PreStartEGFR date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:hba1c version:2 temp-table-name:#PostStartHBA1C date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:hba1c version:2 temp-table-name:#PreStartHBA1C date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:vitamin-d version:1 temp-table-name:#PostStartVitD date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:vitamin-d version:1 temp-table-name:#PreStartVitD date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
---> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PostStartHb date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:haemoglobin version:1 temp-table-name:#PreStartHb date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PostStartWBC date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PostStartAlkalinePhosphatase date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:alkaline-phosphatase version:1 temp-table-name:#PreStartAlkalinePhosphatase date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
---> EXECUTE query-get-closest-value-to-date.sql code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:haemoglobin version:1 temp-table-name:#PostStartHb date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:haemoglobin version:1 temp-table-name:#PreStartHb date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:white-blood-cells version:1 temp-table-name:#PostStartWBC date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:white-blood-cells version:1 temp-table-name:#PreStartWBC date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:platelets version:1 temp-table-name:#PostStartPlatelets date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:platelets version:1 temp-table-name:#PreStartPlatelets date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:alkaline-phosphatase version:1 temp-table-name:#PostStartAlkalinePhosphatase date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:alkaline-phosphatase version:1 temp-table-name:#PreStartAlkalinePhosphatase date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:corrected-calcium version:1 temp-table-name:#PostStartCorrectedCalcium date:2020-01-01 comparison:>= all-patients:false gp-events-table:#PatientEventData
+--> EXECUTE query-get-closest-value-to-date.sql unit:% min-value:0 max-value:100000 code-set:corrected-calcium version:1 temp-table-name:#PreStartCorrectedCalcium date:2020-01-01 comparison:< all-patients:false gp-events-table:#PatientEventData
 
 --> EXECUTE query-patient-number-of-records.sql
+
+--> EXECUTE query-patient-practice-and-ccg.sql
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
@@ -230,8 +228,9 @@ SELECT
   town.TownsendScoreHigherIsMoreDeprived,
   town.TownsendQuintileHigherIsMoreDeprived,
   lsoa.LSOA_Code AS LSOA,
-  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
-  CASE WHEN pl.DeathDate < @TEMPRQ038EndDate THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
+  practice.GPPracticeCode,
+  CASE WHEN pl.DeathDate IS NOT NULL THEN YEAR(pl.DeathDate) ELSE NULL END AS YearOfDeath,
+  CASE WHEN pl.DeathDate IS NOT NULL THEN MONTH(pl.DeathDate) ELSE NULL END AS MonthOfDeath,
   covid.FirstCovidPositiveDate, admission.FirstAdmissionPost1stCOVIDTest, los.LengthOfStay1stAdmission1stCOVIDTest,
   covid.SecondCovidPositiveDate, admission.FirstAdmissionPost2ndCOVIDTest, los.LengthOfStay1stAdmission2ndCOVIDTest,
   covid.ThirdCovidPositiveDate, admission.FirstAdmissionPost3rdCOVIDTest, los.LengthOfStay1stAdmission3rdCOVIDTest,
@@ -353,3 +352,4 @@ LEFT OUTER JOIN #PreStartAlkalinePhosphatase phosphatase ON phosphatase.FK_Patie
 LEFT OUTER JOIN #PostStartCorrectedCalcium calciumPost ON calciumPost.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #PreStartCorrectedCalcium calcium ON calcium.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
 LEFT OUTER JOIN #GPRecordCount gpRecord ON gpRecord.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPractice practice ON practice.FK_Patient_Link_ID = pat.FK_Patient_Link_ID
