@@ -28,6 +28,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dementia' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dementia' AND Version = 1)
 )
+AND EventDate >= '2006-01-01' -- when dementia was added to QOF
 GROUP BY FK_Patient_Link_ID, EventDate
 
 -- create cohort of patients with a dementia diagnosis in the study period

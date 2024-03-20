@@ -28,8 +28,8 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,LSOA_Code
 		,EthnicGroupDescription
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate = CONVERT(DATE,DeathDate)
-		,FirstDementiaDiagnosis = CONVERT(DATE,fdd.FirstDiagnosis)
+		,YearAndMonthOfDeath = FORMAT(DeathDate, 'yyyy-MM')
+		,FirstDementiaDiagnosisSince2006 = CONVERT(DATE,fdd.FirstDiagnosis)
 FROM #Cohort m
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
