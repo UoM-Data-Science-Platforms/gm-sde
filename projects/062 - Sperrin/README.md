@@ -42,7 +42,7 @@ This project required the following reusable queries:
 - Secondary discharges
 - Create listing tables for each GP events - RQ062
 - Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013
-- Year, month and week of birth
+- Year, month, week, and day of birth
 - GET practice and ccg for each patient
 - CCG lookup table
 - Create table of patients who are registered with a GM GP
@@ -281,16 +281,16 @@ _File_: `query-build-rq062-cohort.sql`
 _Link_: [https://github.com/rw251/.../query-build-rq062-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq062-cohort.sql)
 
 ---
-### Year, month and week of birth
-To get the week of birth for each patient.
+### Year, month, week, and day of birth
+To get the date of birth for each patient, in various formats.
 
 _Assumptions_
 
-- Patient data is obtained from multiple sources. Where patients have multiple WeekOfBirths we determine the WeekOfBirth as follows:
-- If the patients has a WeekOfBirth in their primary care data feed we use that as most likely to be up to date
-- If every WeekOfBirth for a patient is the same, then we use that
-- If there is a single most recently updated WeekOfBirth in the database then we use that
-- Otherwise we take the highest WeekOfBirth for the patient that is not in the future
+- Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:
+- If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date
+- If every DateOfBirth for a patient is the same, then we use that
+- If there is a single most recently updated DateOfBirth in the database then we use that
+- Otherwise we take the highest DateOfBirth for the patient that is not in the future
 
 _Input_
 ```
@@ -304,13 +304,15 @@ _Output_
 A temp table as follows:
  #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- WeekOfBirth (Number of the week within a year, e.g. from 1 to 52)
-  - MonthOfBirth (mm)
+  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
+  - DayOfBirth (dd) (1 to 31)
+	- WeekOfBirth (ww) (1 to 52)
+  - MonthOfBirth (mm) (1 to 12)
   - YearOfBirth (yyyy)
 ```
-_File_: `query-patient-week-of-birth.sql`
+_File_: `query-patient-date-of-birth.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-week-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-week-of-birth.sql)
+_Link_: [https://github.com/rw251/.../query-patient-date-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql)
 
 ---
 ### GET practice and ccg for each patient

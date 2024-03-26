@@ -131,7 +131,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Secondary discharges</li>
 <li>Create listing tables for each GP events - RQ062</li>
 <li>Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013</li>
-<li>Year, month and week of birth</li>
+<li>Year, month, week, and day of birth</li>
 <li>GET practice and ccg for each patient</li>
 <li>CCG lookup table</li>
 <li>Create table of patients who are registered with a GM GP</li>
@@ -315,15 +315,15 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-build-rq062-cohort.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq062-cohort.sql">https://github.com/rw251/.../query-build-rq062-cohort.sql</a></p>
 <hr>
-<h3>Year, month and week of birth</h3>
-<p>To get the week of birth for each patient.</p>
+<h3>Year, month, week, and day of birth</h3>
+<p>To get the date of birth for each patient, in various formats.</p>
 <p><em>Assumptions</em></p>
 <ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple WeekOfBirths we determine the WeekOfBirth as follows:</li>
-<li>If the patients has a WeekOfBirth in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every WeekOfBirth for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated WeekOfBirth in the database then we use that</li>
-<li>Otherwise we take the highest WeekOfBirth for the patient that is not in the future</li>
+<li>Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:</li>
+<li>If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every DateOfBirth for a patient is the same, then we use that</li>
+<li>If there is a single most recently updated DateOfBirth in the database then we use that</li>
+<li>Otherwise we take the highest DateOfBirth for the patient that is not in the future</li>
 </ul>
 <p><em>Input</em></p>
 <pre><code>Assumes there exists a temp table as follows:
@@ -334,12 +334,14 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>A temp table as follows:
  #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- WeekOfBirth (Number of the week within a year, e.g. from 1 to 52)
-  - MonthOfBirth (mm)
+  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
+  - DayOfBirth (dd) (1 to 31)
+	- WeekOfBirth (ww) (1 to 52)
+  - MonthOfBirth (mm) (1 to 12)
   - YearOfBirth (yyyy)
 </code></pre>
-<p><em>File</em>: <code>query-patient-week-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-week-of-birth.sql">https://github.com/rw251/.../query-patient-week-of-birth.sql</a></p>
+<p><em>File</em>: <code>query-patient-date-of-birth.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql">https://github.com/rw251/.../query-patient-date-of-birth.sql</a></p>
 <hr>
 <h3>GET practice and ccg for each patient</h3>
 <p>For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.</p>

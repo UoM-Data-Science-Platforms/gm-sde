@@ -49,10 +49,10 @@ CREATE INDEX medsdata1 ON #medications_rx (Concept) INCLUDE (FK_Patient_Link_ID,
 ---- Find 70th birthday of each patient (to the closest quarter), for working out closest meds before and after 
 IF OBJECT_ID('tempdb..#70thBirthdayDates') IS NOT NULL DROP TABLE #70thBirthdayDates;
 SELECT p.FK_Patient_Link_ID, 
-		[70thBirthday] = DATEADD(year,70,CONVERT(Date, wob.DateOfBirthPID))
+		[70thBirthday] = DATEADD(year,70,CONVERT(Date, dob.DateOfBirthPID))
 INTO #70thBirthdayDates
 FROM #Patients p
-LEFT OUTER JOIN #PatientWeekOfBirth wob ON wob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientDateOfBirth dob ON dob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 -- Last Prescriptions before 2013-09-01
 IF OBJECT_ID('tempdb..#last_rx_before_2013_09_01') IS NOT NULL DROP TABLE #last_rx_before_2013_09_01;
