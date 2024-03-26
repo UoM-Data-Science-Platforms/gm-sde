@@ -19,20 +19,19 @@ SET @StudyStartDate = '2013-09-01';
 
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
---> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
-
+--> EXECUTE query-patient-week-of-birth.sql
 
 -- Merge information========================================================================================================================================================
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT
   p.FK_Patient_Link_ID as PatientId, 
-  gp.GPPracticeCode, 
-  yob.YearAndQuarterMonthOfBirth, DATEDIFF(year, yob.YearAndQuarterMonthOfBirth, '2013-09-01') AS [Time]
+  gp.GPPracticeCode
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE gp.GPPracticeCode IS NOT NULL AND YearAndQuarterMonthOfBirth < '1963-09-01'
+LEFT OUTER JOIN #PatientWeekOfBirth wob ON wob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE gp.GPPracticeCode IS NOT NULL 
+AND wob.DateOfBirthPID < '2063-09-01' -- limit to over 50s in Sept 2013
 
 -- Reduce #Patients table to just the cohort patients========================================================================================================================
 DELETE FROM #Patients

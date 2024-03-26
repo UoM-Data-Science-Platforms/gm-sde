@@ -49,11 +49,10 @@ CREATE INDEX medsdata1 ON #medications_rx (Concept) INCLUDE (FK_Patient_Link_ID,
 ---- Find 70th birthday of each patient (to the closest quarter), for working out closest meds before and after 
 IF OBJECT_ID('tempdb..#70thBirthdayDates') IS NOT NULL DROP TABLE #70thBirthdayDates;
 SELECT p.FK_Patient_Link_ID, 
-			Age = YEAR(GETDATE()) - YEAR(yob.YearAndQuarterMonthOfBirth),
-		[70thBirthday] = CONVERT(DATE,CAST(YEAR(YearAndQuarterMonthOfBirth) + 70 AS VARCHAR(4))+'-'+ CAST(MONTH(YearAndQuarterMonthOfBirth) AS VARCHAR(2))+'-'+'01')
+		[70thBirthday] = DATEADD(year,70,CONVERT(Date, wob.DateOfBirthPID))
 INTO #70thBirthdayDates
 FROM #Patients p
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientWeekOfBirth wob ON wob.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 -- Last Prescriptions before 2013-09-01
 IF OBJECT_ID('tempdb..#last_rx_before_2013_09_01') IS NOT NULL DROP TABLE #last_rx_before_2013_09_01;
@@ -94,10 +93,10 @@ GROUP BY m.FK_Patient_Link_ID, Concept
 SELECT PatientId = m.FK_Patient_Link_ID,
 	m.Concept,
 	FirstRx = MIN(PrescriptionDate), 
-	LastRxBefore2013_09_01= MAX(LastRxBefore2013_09_01),
-	FirstRxAfter2013_09_01 = MIN(FirstRxAfter2013_09_01),
-	LastRxBefore70thBirthday = MAX(LastRxBefore70thBirthday), --inform PI that this is only accurate to the nearest quarter
-	FirstRxAfter70thBirthday = MIN(FirstRxAfter70thBirthday) -- --inform PI that this is only accurate to the nearest quarter
+	LastRxBefore2013_09_01= CONVERT(Date, MAX(DATEADD(m, DATEDIFF(m, 0, LastRxBefore2013_09_01), 0))), -- inform PI that these are set to first of the month
+	FirstRxAfter2013_09_01 = CONVERT(Date, MAX(DATEADD(m, DATEDIFF(m, 0, FirstRxAfter2013_09_01), 0))),
+	LastRxBefore70thBirthday = CONVERT(Date, MAX(DATEADD(m, DATEDIFF(m, 0, LastRxBefore70thBirthday), 0))), 
+	FirstRxAfter70thBirthday = CONVERT(Date, MAX(DATEADD(m, DATEDIFF(m, 0, FirstRxAfter70thBirthday), 0)))
 FROM #medications_rx m
 LEFT JOIN #last_rx_before_2013_09_01 t1 ON t1.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND t1.Concept = m.Concept
 LEFT JOIN #first_rx_after_2013_09_01 t2 ON t2.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND t2.Concept = m.Concept

@@ -26,7 +26,6 @@ SET NOCOUNT ON;
 
 --> EXECUTE query-build-rq062-cohort.sql
 --> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
@@ -60,8 +59,9 @@ FROM #UniquePractices
 -- The final table===========================================================================================================================================
 SELECT
   p.FK_Patient_Link_ID as PatientId,
-  YearAndQuarterMonthOfBirth,
-  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath,
+  WeekOfBirth,
+  MonthOfBirth,
+  YearOfBirth, 
   Sex,
   Ethnicity = EthnicCategoryDescription,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
@@ -70,7 +70,7 @@ SELECT
   NumberGPEncounterBeforeSept2013,
   IsCareHomeResident
 FROM #Patients p
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientWeekOfBirth wob ON wob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
