@@ -291,7 +291,7 @@ FROM #Patients p
 LEFT OUTER JOIN #PatientPractice gp ON gp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDateOfBirth dob ON dob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE gp.GPPracticeCode IS NOT NULL 
-AND dob.DateOfBirthPID < '2063-09-01' -- limit to over 50s in Sept 2013
+AND dob.DateOfBirthPID < '1963-09-01' -- limit to over 50s in Sept 2013
 
 -- Reduce #Patients table to just the cohort patients========================================================================================================================
 DELETE FROM #Patients
