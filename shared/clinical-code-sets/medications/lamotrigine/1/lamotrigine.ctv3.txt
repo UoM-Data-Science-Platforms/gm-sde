@@ -1,0 +1,16 @@
+dnf1.	Lamotrigine 50mg tablet
+dnf2.	Lamotrigine 100mg tablet
+dnf3.	Lamictal 50mg tablet
+dnf4.	Lamictal 100mg tablet
+dnf5.	Lamotrigine 25mg tablet
+dnf6.	Lamictal 25mg tablet
+dnf7.	Lamictal 5mg dispersible tablet
+dnf8.	Lamictal 25mg dispersible tablet
+dnf9.	Lamictal 100mg dispersible tablet
+dnfA.	Lamotrigine 5mg dispersible tablet
+dnfB.	Lamotrigine 25mg dispersible tablet
+dnfC.	Lamotrigine 100mg dispersible tablet
+dnfD.	Lamictal 200mg tablet
+dnfE.	Lamotrigine 200mg tablet
+dnfJ.	Lamictal 2mg dispersible tablet
+dnfz.	Lamotrigine 2mg dispersible tablet

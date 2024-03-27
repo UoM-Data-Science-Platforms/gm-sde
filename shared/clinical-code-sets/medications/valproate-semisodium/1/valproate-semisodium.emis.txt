@@ -1,0 +1,63 @@
+^ESCT1221949	Product containing precisely valproic acid (as valproate semisodium) 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1221950	Valproic acid (as valproate semisodium) 500 mg gastro-resistant oral tablet
+^ESCT1221953	Product containing precisely valproic acid (as valproate semisodium) 250 milligram/1 each gastro-resistant oral tablet
+^ESCT1221954	Valproic acid (as valproate semisodium) 250 mg gastro-resistant oral tablet
+^ESCT1364246	Valproic acid (as valproate semisodium) 125 mg gastro-resistant oral tablet
+^ESCT1221951	Valproic acid (as divalproex sodium) 500 mg gastro-resistant oral tablet
+^ESCT1221952	Valproic acid (as divalproex sodium) 250 mg gastro-resistant oral tablet
+^ESCT1364247	Valproic acid (as divalproex sodium) 125 mg gastro-resistant oral tablet
+^ESCT1271129	Belvo 250mg gastro-resistant tablets (Consilient Health Ltd)
+^ESCT1271132	Belvo 250mg gastro-resistant tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCT1271133	Belvo 500mg gastro-resistant tablets (Consilient Health Ltd)
+^ESCT1271134	Belvo 500mg gastro-resistant tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+BEGA133545NEMIS	Belvo  Gastro-resistant Tablets  250 mg
+BEGA133546NEMIS	Belvo  Gastro-resistant Tablets  500 mg
+^ESCT1249733	Depakote 250mg gastro-resistant tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249735	Depakote 500mg gastro-resistant tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1266798	Depakote 250mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266799	Depakote 250mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCT1266800	Depakote 500mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266801	Depakote 500mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCT1267098	Depakote 250mg gastro-resistant tablets (CST Pharma Ltd)
+^ESCT1267099	Depakote 250mg gastro-resistant tablets (CST Pharma Ltd) 90 tablet
+^ESCT1274208	Depakote 250mg gastro-resistant tablets (Pilsco Ltd)
+^ESCT1274209	Depakote 250mg gastro-resistant tablets (Pilsco Ltd) 90 tablet
+^ESCT1274210	Depakote 500mg gastro-resistant tablets (Pilsco Ltd)
+^ESCT1274211	Depakote 500mg gastro-resistant tablets (Pilsco Ltd) 90 tablet
+^ESCT1276840	Depakote 500mg gastro-resistant tablets (CST Pharma Ltd)
+^ESCT1276841	Depakote 500mg gastro-resistant tablets (CST Pharma Ltd) 30 tablet
+^ESCT1299687	Depakote 250mg gastro-resistant tablets (CST Pharma Ltd) 30 tablet
+^ESCT1300631	Depakote 250mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCT1300632	Depakote 250mg gastro-resistant tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300633	Depakote 500mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCT1300634	Depakote 500mg gastro-resistant tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300635	Depakote 500mg gastro-resistant tablets (DE Pharmaceuticals) 90 tablet
+^ESCTDE1049372	Depakote 250mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTDE1049373	Depakote 250mg gastro-resistant tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTDE864927	Depakote 250mg gastro-resistant tablets (Sanofi)
+^ESCTDE864929	Depakote 250mg gastro-resistant tablets (Sanofi) 90 tablet 9 x 10 tablets
+^ESCTDE864934	Depakote 500mg gastro-resistant tablets (Sanofi)
+^ESCTDE864938	Depakote 500mg gastro-resistant tablets (Sanofi) 90 tablet 9 x 10 tablets
+^ESCTDE929825	Depakote 250mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTDE929827	Depakote 250mg gastro-resistant tablets (Dowelhurst Ltd) 90 tablet
+^ESCTDE929833	Depakote 500mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTDE929835	Depakote 500mg gastro-resistant tablets (Dowelhurst Ltd) 90 tablet
+^ESCTDE930086	Depakote 500mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTDE930088	Depakote 500mg gastro-resistant tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTDE936676	Depakote 125mg sprinkle gastro-resistant capsules (Imported (United States))
+^ESCTDE936677	Depakote 125mg sprinkle gastro-resistant capsules (Imported (United States)) 100 capsule
+DETA6400NEMIS	Depakote  E/c tablets  250 mg
+DETA6402NEMIS	Depakote  E/c tablets  500 mg
+^ESCT1280668	Syonell 500mg gastro-resistant tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1280669	Syonell 500mg gastro-resistant tablets (Lupin Healthcare (UK) Ltd) 30 tablet 5 x 6 tablets
+^ESCT1280670	Syonell 250mg gastro-resistant tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1280671	Syonell 250mg gastro-resistant tablets (Lupin Healthcare (UK) Ltd) 30 tablet 5 x 6 tablets
+SYE/134803NEMIS	Syonell  Gastro-resistant Tablets  250 mg
+SYE/134810NEMIS	Syonell  Gastro-resistant Tablets  500 mg
+VAE/12513NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  250 mg
+VAE/12514NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  500 mg
+^ESCT1203534	Divalproex sodium 500mg prolonged-release oral tablet
+^ESCTDI640916	Divalproex sodium 125mg capsule sprinkle
+^ESCTDI640918	Divalproex sodium 125mg tablet delayed release
+^ESCTDI640919	Divalproex sodium 250mg tablet delayed release
+^ESCTDI640920	Divalproex sodium 500mg m/r tablet

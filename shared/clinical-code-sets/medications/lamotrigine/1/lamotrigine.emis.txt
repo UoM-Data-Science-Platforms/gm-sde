@@ -1,0 +1,910 @@
+^ESCT1177219	Lamotrigine 25mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177220	Lamotrigine 25mg tablets (Aurobindo Pharma Ltd) 56 tablet
+^ESCT1177221	Lamotrigine 50mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177222	Lamotrigine 50mg tablets (Aurobindo Pharma Ltd) 56 tablet
+^ESCT1177223	Lamotrigine 100mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177224	Lamotrigine 100mg tablets (Aurobindo Pharma Ltd) 56 tablet
+^ESCT1177225	Lamotrigine 200mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177226	Lamotrigine 200mg tablets (Aurobindo Pharma Ltd) 56 tablet
+^ESCT1178205	Product containing only lamotrigine 100 mg/1 each oral tablet
+^ESCT1178206	Product containing only lamotrigine 200 mg/1 each oral tablet
+^ESCT1179804	Lamotrigine 100mg dispersible tablets sugar free (Mylan) 56 tablet
+^ESCT1179941	Lamotrigine 50mg tablets (Mylan)
+^ESCT1179942	Lamotrigine 100mg tablets (Mylan)
+^ESCT1181983	Product containing only lamotrigine 25 mg/1 each oral tablet
+^ESCT1183696	Lamotrigine 25mg dispersible tablets sugar free (Mylan)
+^ESCT1183697	Lamotrigine 25mg dispersible tablets sugar free (Mylan) 56 tablet
+^ESCT1183698	Lamotrigine 100mg dispersible tablets sugar free (Mylan)
+^ESCT1183833	Lamotrigine 25mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1183834	Lamotrigine 200mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1183850	Lamotrigine 100mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCT1186021	Lamotrigine 200mg tablets (Mylan)
+^ESCT1186025	Lamotrigine 5mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1187320	Product containing only lamotrigine 50 mg/1 each oral tablet
+^ESCT1188498	Product containing only lamotrigine 150 mg/1 each oral tablet
+^ESCT1188499	Product containing only lamotrigine 2 mg/1 each oral tablet
+^ESCT1189328	Lamotrigine 25mg tablets (Mylan)
+^ESCT1189329	Lamotrigine 50mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1189330	Lamotrigine 100mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1203946	Lamotrigine 2mg tablet for conventional release oral suspension
+^ESCT1203949	Lamotrigine 5mg tablet for conventional release oral suspension
+^ESCT1203950	Lamotrigine 5mg chewable tablet
+^ESCT1212382	Lamotrigine 5mg dispersible tablets sugar free
+^ESCT1215471	Lamotrigine 2mg dispersible tablets sugar free
+^ESCT1220614	Lamotrigine
+^ESCT1220615	Lamotrigine product
+^ESCT1223925	Product containing precisely lamotrigine 50 milligram/1 each conventional release oral tablet
+^ESCT1223926	Product containing precisely lamotrigine 100 milligram/1 each conventional release oral tablet
+^ESCT1223927	Product containing precisely lamotrigine 25 milligram/1 each conventional release oral tablet
+^ESCT1223928	Product containing precisely lamotrigine 200 milligram/1 each conventional release oral tablet
+^ESCT1228844	Product containing precisely lamotrigine 150 milligram/1 each conventional release oral tablet
+^ESCT1228847	Product containing precisely lamotrigine 2 milligram/1 each conventional release oral tablet
+^ESCT1255512	Lamotrigine 5mg dispersible tablets sugar free
+^ESCT1259056	Lamotrigine 25mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259058	Lamotrigine 25mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259060	Lamotrigine 50mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259062	Lamotrigine 50mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259065	Lamotrigine 100mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259067	Lamotrigine 100mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259069	Lamotrigine 200mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259071	Lamotrigine 200mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1264271	Lamotrigine 200mg tablets (Relonchem Ltd)
+^ESCT1264272	Lamotrigine 200mg tablets 28 tablet
+^ESCT1264273	Lamotrigine 200mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1264274	Lamotrigine 200mg tablets (Relonchem Ltd) 56 tablet
+^ESCT1264276	Lamotrigine 50mg tablets 28 tablet
+^ESCT1264277	Lamotrigine 50mg tablets (Relonchem Ltd)
+^ESCT1264278	Lamotrigine 50mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1264281	Lamotrigine 50mg tablets (Relonchem Ltd) 56 tablet
+^ESCT1264291	Lamotrigine 25mg tablets 28 tablet
+^ESCT1264294	Lamotrigine 25mg tablets (Relonchem Ltd)
+^ESCT1264296	Lamotrigine 25mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1264297	Lamotrigine 25mg tablets (Relonchem Ltd) 56 tablet
+^ESCT1264298	Lamotrigine 100mg tablets 28 tablet
+^ESCT1264299	Lamotrigine 100mg tablets (Relonchem Ltd)
+^ESCT1264301	Lamotrigine 100mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1264303	Lamotrigine 100mg tablets (Relonchem Ltd) 56 tablet
+^ESCT1264325	Lamotrigine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264326	Lamotrigine 50mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1264328	Lamotrigine 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264330	Lamotrigine 100mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1264331	Lamotrigine 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264333	Lamotrigine 200mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1267184	Lamictal 5mg dispersible tablets (CST Pharma Ltd)
+^ESCT1267186	Lamictal 5mg dispersible tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267212	Lamictal 25mg dispersible tablets (CST Pharma Ltd)
+^ESCT1267213	Lamictal 25mg dispersible tablets (CST Pharma Ltd) 56 tablet
+^ESCT1267992	Lamictal 100mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267997	Lamictal 100mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1274581	Lamictal 100mg tablets (Pilsco Ltd)
+^ESCT1274582	Lamictal 100mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1274587	Lamictal 25mg tablets (Pilsco Ltd)
+^ESCT1274589	Lamictal 25mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1274591	Lamictal 50mg tablets (Pilsco Ltd)
+^ESCT1274593	Lamictal 50mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1275352	Lamotrigine 5mg dispersible tablets sugar free 60 tablet
+^ESCT1275353	Lamictal 5mg dispersible tablets (CST Pharma Ltd) 60 tablet
+^ESCT1299684	Lamictal 100mg tablets (Pharmaram Ltd)
+^ESCT1299685	Lamictal 100mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1299686	Lamotrigine 100mg tablets 60 tablet
+^ESCT1299688	Lamictal 100mg tablets (Pharmaram Ltd) 60 tablet
+^ESCT1299689	Lamictal 200mg tablets (Pharmaram Ltd)
+^ESCT1299690	Lamotrigine 200mg tablets 60 tablet
+^ESCT1299692	Lamictal 200mg tablets (Pharmaram Ltd) 60 tablet
+^ESCT1299693	Lamictal 200mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1299695	Lamictal 100mg dispersible tablets (Pharmaram Ltd)
+^ESCT1299696	Lamictal 100mg dispersible tablets (Pharmaram Ltd) 56 tablet
+^ESCT1300789	Lamictal 5mg dispersible tablets (DE Pharmaceuticals)
+^ESCT1300790	Lamictal 5mg dispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300791	Lamictal 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300792	Lamictal 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1300793	Lamictal 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1351494	Lamotrigine-containing product in oral dose form
+^ESCT1355580	Lamotrigine only product
+^ESCT1358971	Lamotrigine only product in oral dose form
+^ESCT1364413	Lamotrigine 200 mg orodispersible tablet
+^ESCT1364414	Lamotrigine 50 mg orodispersible tablet
+^ESCT1364415	Lamotrigine 5 mg chewable tablet
+^ESCT1364929	Lamotrigine-containing product in oromucosal dose form
+^ESCT1365718	Lamotrigine only product in oromucosal dose form
+^ESCT1374541	Lamotrigine 25mg dispersible tablets sugar free (NorthStar Healthcare Unlimited Company)
+^ESCT1374543	Lamotrigine 25mg dispersible tablets sugar free (NorthStar Healthcare Unlimited Company) 56 tablet 4 x 14 tablets
+^ESCT1374544	Lamotrigine 100mg dispersible tablets sugar free (NorthStar Healthcare Unlimited Company)
+^ESCT1374545	Lamotrigine 100mg dispersible tablets sugar free (NorthStar Healthcare Unlimited Company) 56 tablet 4 x 14 tablets
+^ESCT1374561	Lamotrigine 50mg tablets 84 tablet
+^ESCT1374591	Lamictal 50mg tablets (Pilsco Ltd) 84 tablet
+^ESCT1389362	Lamotrigine 25mg tablets (Milpharm Ltd)
+^ESCT1389363	Lamotrigine 25mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1389364	Lamotrigine 50mg tablets (Milpharm Ltd)
+^ESCT1389365	Lamotrigine 50mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1389366	Lamotrigine 100mg tablets (Milpharm Ltd)
+^ESCT1389367	Lamotrigine 100mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1389368	Lamotrigine 200mg tablets (Milpharm Ltd)
+^ESCT1389369	Lamotrigine 200mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1401930	Lamotrigine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401931	Lamotrigine 100mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401932	Lamotrigine 100mg dispersible tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1401936	Lamotrigine 100mg dispersible tablets sugar free (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401938	Lamotrigine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401940	Lamotrigine 200mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401942	Lamotrigine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401944	Lamotrigine 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401947	Lamotrigine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401949	Lamotrigine 50mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402565	Lamictal 50mg tablets (Pharmaram Ltd)
+^ESCT1402566	Lamictal 50mg tablets (Pharmaram Ltd) 56 tablet
+^ESCT1402567	Lamictal 50mg tablets (Pharmaram Ltd) 84 tablet
+^ESCT1402684	Lamictal 200mg tablets (Pilsco Ltd)
+^ESCT1402685	Lamictal 200mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1403633	Lamictal 100mg tablets (CST Pharma Ltd)
+^ESCT1403634	Lamictal 100mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1404710	Lamotrigine 50mg/5ml oral suspension 100 ml
+^ESCT1404711	Lamotrigine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1405278	Lamictal 100mg dispersible tablets (Pilsco Ltd)
+^ESCT1405279	Lamictal 100mg dispersible tablets (Pilsco Ltd) 56 tablet
+^ESCT1410619	Lamotrigine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1410620	Lamotrigine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1411298	Lamotrigine 25mg tablets (Fannin (UK) Ltd)
+^ESCT1411299	Lamotrigine 25mg tablets (Fannin (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1411300	Lamotrigine 50mg tablets (Fannin (UK) Ltd)
+^ESCT1411301	Lamotrigine 50mg tablets (Fannin (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1411302	Lamotrigine 100mg tablets (Fannin (UK) Ltd)
+^ESCT1411303	Lamotrigine 100mg tablets (Fannin (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1411304	Lamotrigine 200mg tablets (Fannin (UK) Ltd)
+^ESCT1411305	Lamotrigine 200mg tablets (Fannin (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1419151	Lamotrigine 25mg tablets (Aristo Pharma Ltd)
+^ESCT1419152	Lamotrigine 25mg tablets (Aristo Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCT1419153	Lamotrigine 100mg tablets (Aristo Pharma Ltd)
+^ESCT1419154	Lamotrigine 100mg tablets (Aristo Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCT1419155	Lamotrigine 50mg tablets (Aristo Pharma Ltd)
+^ESCT1419156	Lamotrigine 50mg tablets (Aristo Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCT1422143	Lamotrigine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422144	Lamotrigine 25mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1422145	Lamotrigine 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422146	Lamotrigine 50mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1422147	Lamotrigine 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422148	Lamotrigine 100mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1422149	Lamotrigine 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422150	Lamotrigine 200mg tablets (Zentiva Pharma UK Ltd) 56 tablet
+^ESCT1422163	Lamotrigine 25mg dispersible tablets sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422164	Lamotrigine 25mg dispersible tablets sugar free (Zentiva Pharma UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1422165	Lamotrigine 100mg dispersible tablets sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422166	Lamotrigine 100mg dispersible tablets sugar free (Zentiva Pharma UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1424362	Lamotrigine 200mg tablets (Aristo Pharma Ltd)
+^ESCT1424363	Lamotrigine 200mg tablets (Aristo Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCT1424370	Lamictal 25mg tablets (Pharmaram Ltd)
+^ESCT1424371	Lamictal 25mg tablets (Pharmaram Ltd) 56 tablet
+^ESCT1424443	Lamictal 100mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1427001	Lamotrigine 5mg dispersible tablets sugar free (Kent Pharma (UK) Ltd)
+^ESCT1427002	Lamotrigine 5mg dispersible tablets sugar free (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427003	Lamotrigine 25mg dispersible tablets sugar free (Kent Pharma (UK) Ltd)
+^ESCT1427004	Lamotrigine 25mg dispersible tablets sugar free (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1427005	Lamotrigine 100mg dispersible tablets sugar free (Kent Pharma (UK) Ltd)
+^ESCT1427006	Lamotrigine 100mg dispersible tablets sugar free (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1427007	Lamotrigine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427008	Lamotrigine 25mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1427009	Lamotrigine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427010	Lamotrigine 50mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1427011	Lamotrigine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427012	Lamotrigine 100mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1427013	Lamotrigine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427014	Lamotrigine 200mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1428939	Lamictal 5mg dispersible tablets (GlaxoSmithKline UK Ltd) 30 tablet
+^ESCT1428943	Lamictal 50mg tablets (CST Pharma Ltd)
+^ESCT1428944	Lamictal 50mg tablets (CST Pharma Ltd) 56 tablet
+^ESCT1428947	Lamictal 100mg tablets (CST Pharma Ltd) 56 tablet
+^ESCT1429150	Lamictal 200mg tablets (CST Pharma Ltd)
+^ESCT1429151	Lamictal 200mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1433820	Lamictal 100mg tablets (Pharmaram Ltd) 56 tablet
+^ESCT1436509	Lamictal 50mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1437934	Lamotrigine 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437935	Lamotrigine 25mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437936	Lamotrigine 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437937	Lamotrigine 50mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437938	Lamotrigine 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437939	Lamotrigine 100mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437940	Lamotrigine 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437941	Lamotrigine 200mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438074	Lamotrigine 25mg dispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438075	Lamotrigine 25mg dispersible tablets sugar free (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1438076	Lamotrigine 100mg dispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438077	Lamotrigine 100mg dispersible tablets sugar free (Viatris UK Healthcare Ltd) 56 tablet
+^ESCTLA1002058	Lamictal 200mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTLA1006009	Lamotrigine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1006010	Lamotrigine 25mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1006011	Lamotrigine 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1006012	Lamotrigine 50mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1006013	Lamotrigine 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1006014	Lamotrigine 200mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1007355	Lamotrigine 25mg tablets (Fannin UK Ltd)
+^ESCTLA1007356	Lamotrigine 25mg tablets (Fannin UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA1007357	Lamotrigine 50mg tablets (Fannin UK Ltd)
+^ESCTLA1007358	Lamotrigine 50mg tablets (Fannin UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA1007359	Lamotrigine 100mg tablets (Fannin UK Ltd)
+^ESCTLA1007360	Lamotrigine 100mg tablets (Fannin UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA1007361	Lamotrigine 200mg tablets (Fannin UK Ltd)
+^ESCTLA1007362	Lamotrigine 200mg tablets (Fannin UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA1007831	Lamotrigine 5mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1007837	Lamotrigine 5mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTLA1007839	Lamotrigine 25mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1007840	Lamotrigine 25mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1007841	Lamotrigine 100mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1007842	Lamotrigine 100mg dispersible tablets sugar free (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1009133	Lamictal 100mg tablets (Necessity Supplies Ltd)
+^ESCTLA1009134	Lamictal 100mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTLA1009135	Lamictal 100mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTLA1009136	Lamictal 200mg tablets (Necessity Supplies Ltd)
+^ESCTLA1009137	Lamictal 200mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTLA1009138	Lamictal 25mg tablets (Necessity Supplies Ltd)
+^ESCTLA1009139	Lamictal 25mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTLA1009141	Lamictal 50mg tablets (Necessity Supplies Ltd)
+^ESCTLA1009143	Lamictal 50mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTLA1009144	Lamictal 50mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTLA1009331	Lamictal 25mg dispersible tablets (Stephar (U.K.) Ltd)
+^ESCTLA1009332	Lamictal 25mg dispersible tablets (Stephar (U.K.) Ltd) 28 tablet
+^ESCTLA1009334	Lamictal 25mg dispersible tablets (Stephar (U.K.) Ltd) 56 tablet
+^ESCTLA1011016	Lamotrigine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1011019	Lamotrigine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 56 tablet
+^ESCTLA1011020	Lamotrigine 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1011021	Lamotrigine 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 56 tablet
+^ESCTLA1011022	Lamotrigine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1011023	Lamotrigine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 56 tablet
+^ESCTLA1011024	Lamotrigine 200mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTLA1011101	Lamotrigine 200mg tablets (Dr Reddy's Laboratories (UK) Ltd) 56 tablet
+^ESCTLA1012030	Lamictal 100mg dispersible tablets (DE Pharmaceuticals)
+^ESCTLA1012031	Lamictal 100mg dispersible tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1012032	Lamictal 25mg dispersible tablets (DE Pharmaceuticals)
+^ESCTLA1012033	Lamictal 25mg dispersible tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1012388	Lamotrigine 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLA1012389	Lamotrigine 100mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTLA1013503	Lamictal 25mg dispersible tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA1021585	Lamictal 100mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1021586	Lamictal 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1021587	Lamictal 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1021643	Lamictal 200mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1024545	Lamictal 25mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA1026440	Lamotrigine 25mg tablets (Accord Healthcare Ltd)
+^ESCTLA1026441	Lamotrigine 25mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCTLA1026442	Lamotrigine 50mg tablets (Accord Healthcare Ltd)
+^ESCTLA1026443	Lamotrigine 50mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCTLA1026444	Lamotrigine 100mg tablets (Accord Healthcare Ltd)
+^ESCTLA1026445	Lamotrigine 100mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCTLA1026446	Lamotrigine 200mg tablets (Accord Healthcare Ltd)
+^ESCTLA1026447	Lamotrigine 200mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCTLA1044014	Lamotrigine 5mg dispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTLA1044015	Lamotrigine 5mg dispersible tablets sugar free (Waymade Healthcare Plc) 28 tablet
+^ESCTLA1044019	Lamotrigine 25mg dispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTLA1044022	Lamotrigine 25mg dispersible tablets sugar free (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1044025	Lamotrigine 100mg dispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTLA1044032	Lamotrigine 100mg dispersible tablets sugar free (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1044034	Lamotrigine 25mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044035	Lamotrigine 25mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1044043	Lamotrigine 50mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044044	Lamotrigine 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1044045	Lamotrigine 100mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044046	Lamotrigine 100mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1044047	Lamotrigine 200mg tablets (Waymade Healthcare Plc)
+^ESCTLA1044048	Lamotrigine 200mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA1065542	Lamotrigine 100mg tablets (DE Pharmaceuticals)
+^ESCTLA1065543	Lamotrigine 100mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1065544	Lamotrigine 200mg tablets (DE Pharmaceuticals)
+^ESCTLA1065545	Lamotrigine 200mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1065546	Lamotrigine 25mg tablets (DE Pharmaceuticals)
+^ESCTLA1065547	Lamotrigine 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1065548	Lamotrigine 50mg tablets (DE Pharmaceuticals)
+^ESCTLA1065549	Lamotrigine 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTLA1119432	Lamotrigine 5mg dispersible tablets sugar free (DE Pharmaceuticals)
+^ESCTLA1119433	Lamotrigine 5mg dispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCTLA1119434	Lamotrigine 25mg dispersible tablets sugar free (DE Pharmaceuticals)
+^ESCTLA1119435	Lamotrigine 25mg dispersible tablets sugar free (DE Pharmaceuticals) 56 tablet
+^ESCTLA1119436	Lamotrigine 100mg dispersible tablets sugar free (DE Pharmaceuticals)
+^ESCTLA1119437	Lamotrigine 100mg dispersible tablets sugar free (DE Pharmaceuticals) 56 tablet
+^ESCTLA1120904	Lamotrigine 5mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1120906	Lamotrigine 5mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLA1120907	Lamotrigine 25mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1120908	Lamotrigine 25mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA1120909	Lamotrigine 100mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1120910	Lamotrigine 100mg dispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA1120911	Lamotrigine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1120912	Lamotrigine 25mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA1146060	Lamotrigine 70mg/5ml oral suspension 1 ml
+^ESCTLA1146061	Lamotrigine 70mg/5ml oral suspension (Special Order)
+^ESCTLA1146062	Lamotrigine 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA1146063	Lamotrigine 10mg/5ml oral suspension 1 ml
+^ESCTLA1146064	Lamotrigine 10mg/5ml oral suspension (Special Order)
+^ESCTLA1146065	Lamotrigine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA1146205	Lamotrigine 10mg/5ml oral suspension
+^ESCTLA1146206	Lamotrigine 70mg/5ml oral suspension
+^ESCTLA406853	Lamotrigine
+^ESCTLA450827	Lamotrigine 2mg dispersible tablets sugar free
+^ESCTLA450828	Lamotrigine 2mg chewable dispersible tablet
+^ESCTLA450829	Lamotrigine 2mg chewable tablet
+^ESCTLA610708	Lamotrigine 50mg tablets
+^ESCTLA610710	Lamotrigine 50 mg oral tablet
+^ESCTLA610711	Lamotrigine 100mg tablets
+^ESCTLA610713	Lamotrigine 100 mg oral tablet
+^ESCTLA610714	Lamotrigine 25mg tablets
+^ESCTLA610716	Lamotrigine 25 mg oral tablet
+^ESCTLA610717	Lamotrigine 5mg dispersible tablets sugar free
+^ESCTLA610718	Lamotrigine 5mg chewable dispersible tablet
+^ESCTLA610719	Lamotrigine 5mg chewable tablet
+^ESCTLA610720	Lamotrigine 25mg dispersible tablets sugar free
+^ESCTLA610721	Lamotrigine 25mg dispersible tablet
+^ESCTLA610722	Lamotrigine 100mg dispersible tablets sugar free
+^ESCTLA610723	Lamotrigine 100mg dispersible tablet
+^ESCTLA610724	Lamotrigine 200mg tablets
+^ESCTLA610726	Lamotrigine 200 mg oral tablet
+^ESCTLA635380	Lamotrigine 25mg chewable dispersible tablet
+^ESCTLA635381	Lamotrigine 25mg dispersible tablet
+^ESCTLA641620	Lamotrigine 5mg tablet
+^ESCTLA641623	Lamotrigine 150 mg oral tablet
+^ESCTLA641633	Lamotrigine 2 mg oral tablet
+^ESCTLA726849	Lamotrigine 200mg dispersible tablet
+^ESCTLA726878	Lamotrigine 50mg dispersible tablet
+^ESCTLA858061	Lamotrigine 25mg tablets 21 tablet
+^ESCTLA858063	Lamotrigine 25mg tablets 42 tablet
+^ESCTLA858064	Lamotrigine 25mg tablets 56 tablet
+^ESCTLA858066	Lamictal 25mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA858069	Lamictal 25mg tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA858070	Lamictal 25mg tablets (GlaxoSmithKline UK Ltd) 21 tablet 3 x 7 tablets
+^ESCTLA858071	Lamictal 25mg tablets (GlaxoSmithKline UK Ltd) 42 tablet 3 x 14 tablets
+^ESCTLA858073	Lamotrigine 50mg tablets 56 tablet
+^ESCTLA858075	Lamotrigine 50mg tablets 42 tablet
+^ESCTLA858079	Lamictal 50mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA858081	Lamictal 50mg tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA858082	Lamictal 50mg tablets (GlaxoSmithKline UK Ltd) 42 tablet 3 x 14 tablets
+^ESCTLA858088	Lamotrigine 100mg tablets 56 tablet
+^ESCTLA858090	Lamictal 100mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA858091	Lamictal 100mg tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA859516	Lamotrigine 200mg tablets 56 tablet
+^ESCTLA859521	Lamictal 200mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859523	Lamictal 200mg tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA859527	Lamotrigine 5mg dispersible tablets sugar free 28 tablet
+^ESCTLA859533	Lamictal 5mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859540	Lamictal 5mg dispersible tablets (GlaxoSmithKline UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA859542	Lamotrigine 25mg dispersible tablets sugar free 56 tablet
+^ESCTLA859546	Lamictal 25mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859551	Lamictal 25mg dispersible tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 X 14 tablets
+^ESCTLA859560	Lamotrigine 100mg dispersible tablets sugar free 56 tablet
+^ESCTLA859566	Lamictal 100mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA859570	Lamictal 100mg dispersible tablets (GlaxoSmithKline UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA866473	Lamotrigine 2mg dispersible tablets sugar free 30 tablet
+^ESCTLA866476	Lamictal 2mg dispersible tablets (GlaxoSmithKline UK Ltd)
+^ESCTLA866478	Lamictal 2mg dispersible tablets (GlaxoSmithKline UK Ltd) 30 tablet
+^ESCTLA877978	Lamotrigine 200mg tablets 30 tablet
+^ESCTLA877980	Lamictal 200mg tablets (Waymade Healthcare Plc)
+^ESCTLA877983	Lamictal 200mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA877985	Lamotrigine 50mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTLA877986	Lamotrigine 5mg dispersible tablets sugar free 30 tablet
+^ESCTLA877987	Lamotrigine 50mg tablets (PI) (Waymade Healthcare Plc) 56 tablet
+^ESCTLA877988	Lamictal 5mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTLA877989	Lamotrigine 100mg tablets (PI) (Waymade Healthcare Plc)
+^ESCTLA877990	Lamotrigine 100mg tablets (PI) (Waymade Healthcare Plc) 56 tablet
+^ESCTLA877991	Lamictal 5mg dispersible tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLA877992	Lamictal 5mg dispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA877997	Lamotrigine 25mg dispersible tablets sugar free 28 tablet
+^ESCTLA877998	Lamotrigine 25mg dispersible tablets sugar free 30 tablet
+^ESCTLA878000	Lamictal 25mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTLA878001	Lamictal 25mg dispersible tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLA878002	Lamictal 25mg dispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA878003	Lamictal 25mg dispersible tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA878023	Lamotrigine 100mg dispersible tablets sugar free 30 tablet
+^ESCTLA878025	Lamictal 100mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTLA878027	Lamictal 100mg dispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA878031	Lamictal 100mg dispersible tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA878760	Lamotrigine 25mg tablets (Dowelhurst Ltd)
+^ESCTLA878762	Lamotrigine 25mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA878775	Lamotrigine 50mg tablets (Dowelhurst Ltd)
+^ESCTLA878776	Lamotrigine 50mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA878778	Lamotrigine 100mg tablets (Dowelhurst Ltd)
+^ESCTLA878780	Lamotrigine 100mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA878783	Lamotrigine 200mg tablets (Dowelhurst Ltd)
+^ESCTLA878784	Lamotrigine 200mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879448	Lamictal 200mg tablets (Dowelhurst Ltd)
+^ESCTLA879452	Lamictal 100mg dispersible tablets (Dowelhurst Ltd)
+^ESCTLA879453	Lamictal 200mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879454	Lamictal 100mg dispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879455	Lamotrigine 100mg tablets 30 tablet
+^ESCTLA879456	Lamictal 100mg tablets (Dowelhurst Ltd)
+^ESCTLA879457	Lamictal 100mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879458	Lamictal 100mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA879460	Lamictal 25mg dispersible tablets (Dowelhurst Ltd)
+^ESCTLA879463	Lamictal 25mg dispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879464	Lamictal 25mg dispersible tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA879467	Lamotrigine 25mg tablets 30 tablet
+^ESCTLA879469	Lamotrigine 25mg tablets 14 tablet
+^ESCTLA879471	Lamotrigine 25mg tablets 60 tablet
+^ESCTLA879473	Lamictal 25mg tablets (Dowelhurst Ltd)
+^ESCTLA879483	Lamictal 25mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879486	Lamictal 25mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTLA879489	Lamictal 25mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTLA879500	Lamotrigine 50mg tablets 30 tablet
+^ESCTLA879502	Lamotrigine 50mg tablets 14 tablet
+^ESCTLA879506	Lamictal 50mg tablets (Dowelhurst Ltd)
+^ESCTLA879511	Lamictal 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA879514	Lamictal 50mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTLA879515	Lamictal 50mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA879538	Lamictal 5mg dispersible tablets (Dowelhurst Ltd)
+^ESCTLA879546	Lamictal 5mg dispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA880021	Lamotrigine 100mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA880027	Lamotrigine 25mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTLA880035	Lamotrigine 25mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLA880037	Lamotrigine 50mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTLA880082	Lamotrigine 200mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA907460	Lamotrigine 20mg/5ml oral suspension 1 ml
+^ESCTLA907461	Lamotrigine 20mg/5ml oral suspension (Special Order)
+^ESCTLA907462	Lamotrigine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA907466	Lamotrigine 50mg/5ml oral suspension 1 ml
+^ESCTLA907467	Lamotrigine 50mg/5ml oral suspension (Special Order)
+^ESCTLA907469	Lamotrigine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA907636	Lamotrigine 20mg/5ml oral suspension
+^ESCTLA907637	Lamotrigine 50mg/5ml oral suspension
+^ESCTLA915996	Lamotrigine 25mg tablets (Mylan Ltd)
+^ESCTLA915998	Lamotrigine 25mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916000	Lamotrigine 50mg tablets (Mylan Ltd)
+^ESCTLA916002	Lamotrigine 50mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916004	Lamotrigine 100mg tablets (Mylan Ltd)
+^ESCTLA916006	Lamotrigine 100mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916008	Lamotrigine 200mg tablets (Mylan Ltd)
+^ESCTLA916010	Lamotrigine 200mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916012	Lamotrigine 25mg tablets (Actavis UK Ltd)
+^ESCTLA916014	Lamotrigine 25mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916016	Lamotrigine 50mg tablets (Actavis UK Ltd)
+^ESCTLA916018	Lamotrigine 50mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916020	Lamotrigine 100mg tablets (Actavis UK Ltd)
+^ESCTLA916022	Lamotrigine 100mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916024	Lamotrigine 200mg tablets (Actavis UK Ltd)
+^ESCTLA916026	Lamotrigine 200mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLA916028	Lamotrigine 200mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916037	Lamotrigine 5mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd)
+^ESCTLA916039	Lamotrigine 5mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA916041	Lamotrigine 25mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd)
+^ESCTLA916042	Lamotrigine 25mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916043	Lamotrigine 100mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd)
+^ESCTLA916045	Lamotrigine 100mg dispersible tablets sugar free (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916047	Lamotrigine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA916049	Lamotrigine 25mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916051	Lamotrigine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA916053	Lamotrigine 50mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916055	Lamotrigine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA916057	Lamotrigine 100mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916059	Lamotrigine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLA916061	Lamotrigine 200mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916619	Lamotrigine 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLA916621	Lamotrigine 25mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916623	Lamotrigine 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLA916625	Lamotrigine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916626	Lamotrigine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLA916628	Lamotrigine 100mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916630	Lamotrigine 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTLA916632	Lamotrigine 200mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916936	Lamotrigine 25mg tablets (PLIVA Pharma Ltd)
+^ESCTLA916938	Lamotrigine 25mg tablets (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916940	Lamotrigine 50mg tablets (PLIVA Pharma Ltd)
+^ESCTLA916942	Lamotrigine 50mg tablets (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916954	Lamotrigine 100mg tablets (PLIVA Pharma Ltd)
+^ESCTLA916956	Lamotrigine 100mg tablets (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916958	Lamotrigine 200mg tablets (PLIVA Pharma Ltd)
+^ESCTLA916960	Lamotrigine 200mg tablets (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916966	Lamotrigine 5mg dispersible tablets sugar free (PLIVA Pharma Ltd)
+^ESCTLA916968	Lamotrigine 5mg dispersible tablets sugar free (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA916970	Lamotrigine 25mg dispersible tablets sugar free (PLIVA Pharma Ltd)
+^ESCTLA916972	Lamotrigine 25mg dispersible tablets sugar free (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA916974	Lamotrigine 100mg dispersible tablets sugar free (PLIVA Pharma Ltd)
+^ESCTLA916976	Lamotrigine 100mg dispersible tablets sugar free (PLIVA Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA918144	Lamotrigine 25mg tablets (Teva UK Ltd)
+^ESCTLA918146	Lamotrigine 25mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918148	Lamotrigine 50mg tablets (Teva UK Ltd)
+^ESCTLA918150	Lamotrigine 50mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918154	Lamotrigine 100mg tablets (Teva UK Ltd)
+^ESCTLA918156	Lamotrigine 100mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918158	Lamotrigine 200mg tablets (Teva UK Ltd)
+^ESCTLA918160	Lamotrigine 200mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918166	Lamotrigine 25mg dispersible tablets sugar free (Teva UK Ltd)
+^ESCTLA918168	Lamotrigine 25mg dispersible tablets sugar free (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918170	Lamotrigine 100mg dispersible tablets sugar free (Teva UK Ltd)
+^ESCTLA918174	Lamotrigine 100mg dispersible tablets sugar free (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918211	Lamotrigine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918217	Lamotrigine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918219	Lamotrigine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918221	Lamotrigine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918223	Lamotrigine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918225	Lamotrigine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918229	Lamotrigine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918231	Lamotrigine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918237	Lamotrigine 2mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918239	Lamotrigine 2mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTLA918242	Lamotrigine 5mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918244	Lamotrigine 5mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTLA918248	Lamotrigine 25mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918252	Lamotrigine 25mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTLA918254	Lamotrigine 100mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA918256	Lamotrigine 100mg dispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTLA918295	Lamotrigine 5mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLA918297	Lamotrigine 5mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTLA918299	Lamotrigine 25mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLA918301	Lamotrigine 25mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918303	Lamotrigine 100mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTLA918305	Lamotrigine 100mg dispersible tablets sugar free (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918307	Lamotrigine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA918309	Lamotrigine 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTLA918315	Lamotrigine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA918318	Lamotrigine 50mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTLA918326	Lamotrigine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA918328	Lamotrigine 100mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTLA918330	Lamotrigine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLA918332	Lamotrigine 200mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTLA918333	Lamotrigine 200mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTLA918543	Lamotrigine 25mg tablets (Sandoz Ltd)
+^ESCTLA918545	Lamotrigine 25mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA918547	Lamotrigine 50mg tablets (Sandoz Ltd)
+^ESCTLA918549	Lamotrigine 50mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA918550	Lamotrigine 100mg tablets (Sandoz Ltd)
+^ESCTLA918551	Lamotrigine 100mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA918552	Lamotrigine 200mg tablets (Sandoz Ltd)
+^ESCTLA918554	Lamotrigine 200mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA920096	Lamotrigine 25mg tablets (Zentiva)
+^ESCTLA920098	Lamotrigine 25mg tablets (Zentiva) 56 tablet
+^ESCTLA920100	Lamotrigine 50mg tablets (Zentiva)
+^ESCTLA920102	Lamotrigine 50mg tablets (Zentiva) 56 tablet
+^ESCTLA920104	Lamotrigine 100mg tablets (Zentiva)
+^ESCTLA920106	Lamotrigine 100mg tablets (Zentiva) 56 tablet
+^ESCTLA920108	Lamotrigine 200mg tablets (Zentiva)
+^ESCTLA920109	Lamotrigine 200mg tablets (Zentiva) 56 tablet
+^ESCTLA923208	Lamotrigine 2mg dispersible tablets sugar free (Somex Pharma)
+^ESCTLA923209	Lamotrigine 2mg dispersible tablets sugar free (Somex Pharma) 30 tablet
+^ESCTLA923210	Lamotrigine 5mg dispersible tablets sugar free (Somex Pharma)
+^ESCTLA923211	Lamotrigine 5mg dispersible tablets sugar free (Somex Pharma) 28 tablet 2 x 14 tablets
+^ESCTLA923212	Lamotrigine 25mg dispersible tablets sugar free (Somex Pharma)
+^ESCTLA923214	Lamotrigine 25mg dispersible tablets sugar free (Somex Pharma) 56 tablet 4 x 14 tablets
+^ESCTLA923215	Lamotrigine 100mg dispersible tablets sugar free (Somex Pharma)
+^ESCTLA923216	Lamotrigine 100mg dispersible tablets sugar free (Somex Pharma) 56 tablet 4 x 14 tablets
+^ESCTLA924133	Lamotrigine 25mg dispersible tablets sugar free (Zentiva)
+^ESCTLA924135	Lamotrigine 25mg dispersible tablets sugar free (Zentiva) 56 tablet 4 x 14 tablets
+^ESCTLA924142	Lamotrigine 100mg dispersible tablets sugar free (Zentiva)
+^ESCTLA924143	Lamotrigine 100mg dispersible tablets sugar free (Zentiva) 56 tablet 4 x 14 tablets
+^ESCTLA927011	Lamotrigine 5mg dispersible tablets sugar free (Dexcel-Pharma Ltd)
+^ESCTLA927012	Lamotrigine 5mg dispersible tablets sugar free (Dexcel-Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTLA927013	Lamotrigine 25mg dispersible tablets sugar free (Dexcel-Pharma Ltd)
+^ESCTLA927014	Lamotrigine 25mg dispersible tablets sugar free (Dexcel-Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA927015	Lamotrigine 100mg dispersible tablets sugar free (Dexcel-Pharma Ltd)
+^ESCTLA927016	Lamotrigine 100mg dispersible tablets sugar free (Dexcel-Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA927064	Lamotrigine 200mg dispersible tablets sugar free 56 tablet
+^ESCTLA927066	Lamotrigine 200mg dispersible tablets sugar free (Dexcel-Pharma Ltd)
+^ESCTLA927069	Lamotrigine 200mg dispersible tablets sugar free (Dexcel-Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA927070	Lamotrigine 50mg dispersible tablets sugar free 56 tablet
+^ESCTLA927071	Lamotrigine 50mg dispersible tablets sugar free (Dexcel-Pharma Ltd)
+^ESCTLA927072	Lamotrigine 50mg dispersible tablets sugar free (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA927268	Lamotrigine 200mg dispersible tablets sugar free
+^ESCTLA927269	Lamotrigine 50mg dispersible tablets sugar free
+^ESCTLA927752	Lamotrigine 100mg tablets (Consilient Health Ltd)
+^ESCTLA927756	Lamotrigine 100mg tablets (Consilient Health Ltd) 56 tablet
+^ESCTLA927758	Lamotrigine 200mg tablets (Consilient Health Ltd)
+^ESCTLA927760	Lamotrigine 200mg tablets (Consilient Health Ltd) 56 tablet
+^ESCTLA927766	Lamotrigine 25mg tablets (Consilient Health Ltd)
+^ESCTLA927768	Lamotrigine 25mg tablets (Consilient Health Ltd) 56 tablet
+^ESCTLA927771	Lamotrigine 50mg tablets (Consilient Health Ltd)
+^ESCTLA927773	Lamotrigine 50mg tablets (Consilient Health Ltd) 56 tablet
+^ESCTLA927891	Lamotrigine 100mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTLA927892	Lamotrigine 100mg tablets (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA927893	Lamotrigine 200mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTLA927895	Lamotrigine 200mg tablets (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA927897	Lamotrigine 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTLA927898	Lamotrigine 25mg tablets (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA927900	Lamotrigine 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTLA927902	Lamotrigine 50mg tablets (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA927978	Lamotrigine 5mg dispersible tablets sugar free (Teva UK Ltd)
+^ESCTLA927979	Lamotrigine 5mg dispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA928127	Lamotrigine 5mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd)
+^ESCTLA928128	Lamotrigine 5mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTLA928129	Lamotrigine 100mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd)
+^ESCTLA928130	Lamotrigine 100mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA928131	Lamotrigine 25mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd)
+^ESCTLA928132	Lamotrigine 25mg dispersible tablets sugar free (Focus Pharmaceuticals Ltd) 56 tablet
+^ESCTLA929404	Lamotrigine 25mg tablets (Arrow Generics Ltd)
+^ESCTLA929405	Lamotrigine 25mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLA929406	Lamotrigine 50mg tablets (Arrow Generics Ltd)
+^ESCTLA929407	Lamotrigine 50mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLA929408	Lamotrigine 100mg tablets (Arrow Generics Ltd)
+^ESCTLA929409	Lamotrigine 100mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLA929410	Lamotrigine 200mg tablets (Arrow Generics Ltd)
+^ESCTLA929411	Lamotrigine 200mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTLA929412	Lamotrigine 5mg dispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTLA929413	Lamotrigine 5mg dispersible tablets sugar free (Arrow Generics Ltd) 28 tablet
+^ESCTLA929414	Lamotrigine 25mg dispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTLA929415	Lamotrigine 25mg dispersible tablets sugar free (Arrow Generics Ltd) 56 tablet
+^ESCTLA929416	Lamotrigine 100mg dispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTLA929417	Lamotrigine 100mg dispersible tablets sugar free (Arrow Generics Ltd) 56 tablet
+^ESCTLA929855	Lamotrigine 5mg dispersible tablets sugar free 56 tablet
+^ESCTLA929856	Lamictal 5mg dispersible tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA929861	Lamictal 25mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA929865	Lamictal 100mg dispersible tablets (Dowelhurst Ltd) 56 tablet
+^ESCTLA930461	Lamotrigine 5mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc)
+^ESCTLA930462	Lamotrigine 5mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc) 28 tablet
+^ESCTLA930466	Lamotrigine 25mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc)
+^ESCTLA930468	Lamotrigine 25mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc) 56 tablet
+^ESCTLA930475	Lamotrigine 100mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc)
+^ESCTLA930481	Lamotrigine 100mg dispersible tablets sugar free (PI) (Waymade Healthcare Plc) 56 tablet
+^ESCTLA930485	Lamictal 5mg dispersible tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA930564	Lamotrigine 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLA930565	Lamotrigine 25mg tablets (Ranbaxy (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA930566	Lamotrigine 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLA930567	Lamotrigine 50mg tablets (Ranbaxy (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA930568	Lamotrigine 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLA930569	Lamotrigine 100mg tablets (Ranbaxy (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA930570	Lamotrigine 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTLA930571	Lamotrigine 200mg tablets (Ranbaxy (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTLA933387	Lamictal 25mg tablets (Waymade Healthcare Plc)
+^ESCTLA933388	Lamictal 25mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA933389	Lamictal 50mg tablets (Waymade Healthcare Plc)
+^ESCTLA933390	Lamictal 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA933391	Lamictal 100mg tablets (Waymade Healthcare Plc)
+^ESCTLA933392	Lamictal 100mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA933393	Lamictal 200mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTLA940374	Lamotrigine 5mg dispersible tablets sugar free (Actavis UK Ltd)
+^ESCTLA940375	Lamotrigine 5mg dispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA940376	Lamotrigine 25mg dispersible tablets sugar free (Actavis UK Ltd)
+^ESCTLA940377	Lamotrigine 25mg dispersible tablets sugar free (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA940378	Lamotrigine 100mg dispersible tablets sugar free (Actavis UK Ltd)
+^ESCTLA940379	Lamotrigine 100mg dispersible tablets sugar free (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA940682	Lamotrigine 5mg dispersible tablets sugar free (Sandoz Ltd)
+^ESCTLA940683	Lamotrigine 25mg dispersible tablets sugar free (Sandoz Ltd)
+^ESCTLA940684	Lamotrigine 25mg dispersible tablets sugar free (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA940685	Lamotrigine 100mg dispersible tablets sugar free (Sandoz Ltd)
+^ESCTLA940686	Lamotrigine 100mg dispersible tablets sugar free (Sandoz Ltd) 56 tablet
+^ESCTLA940706	Lamotrigine 5mg dispersible tablets sugar free (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA951406	Lamotrigine 1.5mg/5ml oral suspension 1 ml
+^ESCTLA951407	Lamotrigine 1.5mg/5ml oral suspension (Special Order)
+^ESCTLA951410	Lamotrigine 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951411	Lamotrigine 1.5mg/5ml oral solution 1 ml
+^ESCTLA951418	Lamotrigine 1.5mg/5ml oral solution (Special Order)
+^ESCTLA951419	Lamotrigine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA951471	Lamotrigine 15mg/5ml oral suspension 1 ml
+^ESCTLA951472	Lamotrigine 15mg/5ml oral suspension (Special Order)
+^ESCTLA951473	Lamotrigine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951475	Lamotrigine 15mg/5ml oral solution 1 ml
+^ESCTLA951477	Lamotrigine 15mg/5ml oral solution (Special Order)
+^ESCTLA951480	Lamotrigine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA951483	Lamotrigine 200mg/5ml oral suspension 1 ml
+^ESCTLA951484	Lamotrigine 200mg/5ml oral suspension (Special Order)
+^ESCTLA951485	Lamotrigine 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951486	Lamotrigine 200mg/5ml oral solution 1 ml
+^ESCTLA951487	Lamotrigine 200mg/5ml oral solution (Special Order)
+^ESCTLA951488	Lamotrigine 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA951513	Lamotrigine 37.5mg/5ml oral suspension 1 ml
+^ESCTLA951514	Lamotrigine 37.5mg/5ml oral suspension (Special Order)
+^ESCTLA951515	Lamotrigine 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951516	Lamotrigine 37.5mg/5ml oral solution 1 ml
+^ESCTLA951517	Lamotrigine 37.5mg/5ml oral solution (Special Order)
+^ESCTLA951518	Lamotrigine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA951519	Lamotrigine 5.5mg/5ml oral suspension 1 ml
+^ESCTLA951520	Lamotrigine 5.5mg/5ml oral suspension (Special Order)
+^ESCTLA951521	Lamotrigine 5.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951522	Lamotrigine 5.5mg/5ml oral solution 1 ml
+^ESCTLA951523	Lamotrigine 5.5mg/5ml oral solution (Special Order)
+^ESCTLA951524	Lamotrigine 5.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA951525	Lamotrigine 5mg/5ml oral suspension 1 ml
+^ESCTLA951526	Lamotrigine 5mg/5ml oral suspension (Special Order)
+^ESCTLA951528	Lamotrigine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA951530	Lamotrigine 5mg/5ml oral solution 1 ml
+^ESCTLA951532	Lamotrigine 5mg/5ml oral solution (Special Order)
+^ESCTLA951534	Lamotrigine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA952246	Lamotrigine 1.5mg/5ml oral solution
+^ESCTLA952248	Lamotrigine 1.5mg/5ml oral suspension
+^ESCTLA952250	Lamotrigine 15mg/5ml oral solution
+^ESCTLA952252	Lamotrigine 15mg/5ml oral suspension
+^ESCTLA952254	Lamotrigine 200mg/5ml oral solution
+^ESCTLA952256	Lamotrigine 200mg/5ml oral suspension
+^ESCTLA952258	Lamotrigine 37.5mg/5ml oral solution
+^ESCTLA952260	Lamotrigine 37.5mg/5ml oral suspension
+^ESCTLA952262	Lamotrigine 5.5mg/5ml oral solution
+^ESCTLA952264	Lamotrigine 5.5mg/5ml oral suspension
+^ESCTLA952266	Lamotrigine 5mg/5ml oral solution
+^ESCTLA952268	Lamotrigine 5mg/5ml oral suspension
+^ESCTLA962461	Lamotrigine 25mg dispersible tablets sugar free (Mylan Ltd)
+^ESCTLA962462	Lamotrigine 25mg dispersible tablets sugar free (Mylan Ltd) 56 tablet
+^ESCTLA962463	Lamotrigine 100mg dispersible tablets sugar free (Mylan Ltd)
+^ESCTLA962464	Lamotrigine 100mg dispersible tablets sugar free (Mylan Ltd) 56 tablet
+^ESCTLA965515	Lamotrigine 5mg dispersible tablets sugar free (Tillomed Laboratories Ltd)
+^ESCTLA965516	Lamotrigine 5mg dispersible tablets sugar free (Tillomed Laboratories Ltd) 28 tablet
+^ESCTLA965517	Lamotrigine 25mg dispersible tablets sugar free (Tillomed Laboratories Ltd)
+^ESCTLA965518	Lamotrigine 25mg dispersible tablets sugar free (Tillomed Laboratories Ltd) 56 tablet
+^ESCTLA965519	Lamotrigine 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTLA965520	Lamotrigine 25mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTLA965640	Lamotrigine 100mg tablets (Apotex UK Ltd)
+^ESCTLA965641	Lamotrigine 100mg tablets (Apotex UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA965642	Lamotrigine 200mg tablets (Apotex UK Ltd)
+^ESCTLA965643	Lamotrigine 200mg tablets (Apotex UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA965644	Lamotrigine 25mg tablets (Apotex UK Ltd)
+^ESCTLA965645	Lamotrigine 25mg tablets (Apotex UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA965646	Lamotrigine 50mg tablets (Apotex UK Ltd)
+^ESCTLA965647	Lamotrigine 50mg tablets (Apotex UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA967064	Lamictal 25mg tablets (DE Pharmaceuticals)
+^ESCTLA967065	Lamictal 25mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLA967066	Lamictal 50mg tablets (DE Pharmaceuticals)
+^ESCTLA967067	Lamictal 50mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLA967069	Lamictal 100mg tablets (DE Pharmaceuticals)
+^ESCTLA967071	Lamictal 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLA967072	Lamictal 200mg tablets (DE Pharmaceuticals)
+^ESCTLA967074	Lamictal 200mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLA968117	Lamotrigine 25mg/5ml oral solution 1 ml
+^ESCTLA968118	Lamotrigine 25mg/5ml oral solution (Special Order)
+^ESCTLA968119	Lamotrigine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA968120	Lamotrigine 25mg/5ml oral suspension 1 ml
+^ESCTLA968121	Lamotrigine 25mg/5ml oral suspension (Special Order)
+^ESCTLA968122	Lamotrigine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA968382	Lamotrigine 25mg/5ml oral solution
+^ESCTLA968384	Lamotrigine 25mg/5ml oral suspension
+^ESCTLA975038	Lamictal 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975039	Lamictal 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975041	Lamictal 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975043	Lamictal 200mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975050	Lamictal 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975052	Lamictal 25mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975054	Lamictal 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975059	Lamictal 50mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975063	Lamictal 100mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975064	Lamictal 100mg dispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975067	Lamictal 100mg dispersible tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA975069	Lamictal 25mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975070	Lamictal 25mg dispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLA975073	Lamictal 5mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975074	Lamictal 5mg dispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975075	Lamictal 5mg dispersible tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA975082	Lamictal 2mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA975084	Lamictal 2mg dispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLA975226	Lamotrigine 5mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLA975229	Lamotrigine 5mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA975238	Lamotrigine 100mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLA975240	Lamotrigine 100mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978051	Lamotrigine 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA978052	Lamotrigine 100mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978506	Lamotrigine 100mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLA978507	Lamotrigine 100mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978508	Lamotrigine 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA978510	Lamotrigine 200mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978512	Lamotrigine 25mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLA978514	Lamotrigine 25mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978516	Lamotrigine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA978518	Lamotrigine 25mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978519	Lamotrigine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLA978521	Lamotrigine 50mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTLA978523	Lamotrigine 5mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTLA978525	Lamotrigine 5mg dispersible tablets sugar free (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLA981366	Lamotrigine 60mg/5ml oral solution 1 ml
+^ESCTLA981367	Lamotrigine 60mg/5ml oral solution (Special Order)
+^ESCTLA981368	Lamotrigine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA981369	Lamotrigine 60mg/5ml oral suspension 1 ml
+^ESCTLA981370	Lamotrigine 60mg/5ml oral suspension (Special Order)
+^ESCTLA981371	Lamotrigine 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA981385	Lamotrigine 60mg/5ml oral solution
+^ESCTLA981386	Lamotrigine 60mg/5ml oral suspension
+^ESCTLA987793	Lamotrigine 1.7mg/5ml oral solution 1 ml
+^ESCTLA987796	Lamotrigine 1.7mg/5ml oral solution (Special Order)
+^ESCTLA987799	Lamotrigine 1.7mg/5ml oral solution (Special Order) 1 ml
+^ESCTLA987802	Lamotrigine 1.7mg/5ml oral suspension 1 ml
+^ESCTLA987804	Lamotrigine 1.7mg/5ml oral suspension (Special Order)
+^ESCTLA987807	Lamotrigine 1.7mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLA987920	Lamotrigine 25mg tablets (Bristol Laboratories Ltd)
+^ESCTLA987922	Lamotrigine 25mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA987925	Lamotrigine 50mg tablets (Bristol Laboratories Ltd)
+^ESCTLA987926	Lamotrigine 50mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA987927	Lamotrigine 100mg tablets (Bristol Laboratories Ltd)
+^ESCTLA987929	Lamotrigine 100mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA987933	Lamotrigine 200mg tablets (Bristol Laboratories Ltd)
+^ESCTLA987934	Lamotrigine 200mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTLA988076	Lamotrigine 1.7mg/5ml oral solution
+^ESCTLA988077	Lamotrigine 1.7mg/5ml oral suspension
+^ESCTLA989227	Lamictal 25mg tablets (Lexon (UK) Ltd)
+^ESCTLA989228	Lamictal 25mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTLA989229	Lamictal 50mg tablets (Lexon (UK) Ltd)
+^ESCTLA989230	Lamictal 50mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA989231	Lamictal 100mg tablets (Lexon (UK) Ltd)
+^ESCTLA989232	Lamictal 100mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTLA989233	Lamictal 100mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA989234	Lamictal 200mg tablets (Lexon (UK) Ltd)
+^ESCTLA989235	Lamictal 200mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTLA989236	Lamictal 200mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA989237	Lamictal 25mg dispersible tablets (Lexon (UK) Ltd)
+^ESCTLA989238	Lamictal 25mg dispersible tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTLA989239	Lamictal 25mg dispersible tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA989240	Lamictal 100mg dispersible tablets (Lexon (UK) Ltd)
+^ESCTLA989241	Lamictal 100mg dispersible tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTLA989293	Lamictal 25mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA989294	Lamictal 50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLA992857	Lamictal 5mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992858	Lamictal 5mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLA992861	Lamictal 25mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992864	Lamictal 25mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA992865	Lamictal 25mg dispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLA992868	Lamictal 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992869	Lamictal 25mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA992870	Lamictal 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992871	Lamictal 50mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA992872	Lamictal 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992873	Lamictal 100mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA992874	Lamictal 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992875	Lamictal 200mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTLA993073	Lamictal 5mg dispersible tablets (Stephar (U.K.) Ltd)
+^ESCTLA993074	Lamictal 5mg dispersible tablets (Stephar (U.K.) Ltd) 28 tablet
+^ESCTLA993075	Lamictal 5mg dispersible tablets (Stephar (U.K.) Ltd) 56 tablet
+^ESCTPR406854	Product containing lamotrigine
+^ESCTPR610709	Product containing lamotrigine 50 mg/1 each oral tablet
+^ESCTPR610712	Product containing lamotrigine 100 mg/1 each oral tablet
+^ESCTPR610715	Product containing lamotrigine 25 mg/1 each oral tablet
+^ESCTPR610725	Product containing lamotrigine 200 mg/1 each oral tablet
+^ESCTPR641624	Product containing lamotrigine 150 mg/1 each oral tablet
+^ESCTPR641634	Product containing lamotrigine 2 mg/1 each oral tablet
+LADI10804NEMIS	Lamotrigine  Dispersible tablets  Sugar Free 2 mg
+LADI10805NEMIS	Lamictal  Dispersible tablets  2 mg
+LADI143866NEMIS	Lamotrigine (Imported)  Dispersible Tablets Sugar Free  5 mg
+LADI24489EMIS	Lamictal  Dispersible tablets  100 mg
+LADI24490EMIS	Lamictal  Dispersible tablets  25 mg
+LADI24491EMIS	Lamictal  Dispersible tablets  5 mg
+LADI24495EMIS	Lamotrigine  Dispersible tablets  Sugar Free 100 mg
+LADI24496EMIS	Lamotrigine  Dispersible tablets  Sugar Free 25 mg
+LADI24497EMIS	Lamotrigine  Dispersible tablets  Sugar Free 5 mg
+LADI35654MGEMIS	Lamotrigine  Dispersible tablets  100 mg (Kent Pharm)
+LADI35655MGEMIS	Lamotrigine  Dispersible tablets  100 mg (PLIVA Pharma Ltd)
+LADI35656MGEMIS	Lamotrigine  Dispersible tablets  100 mg (Teva UK)
+LADI35657MGEMIS	Lamotrigine  Dispersible tablets  100 mg (Unichem)
+LADI35658MGEMIS	Lamotrigine  Dispersible tablets  100 mg (A.A.H. Pharm)
+LADI35659MGEMIS	Lamotrigine  Dispersible tablets  25 mg (Kent Pharm)
+LADI35660MGEMIS	Lamotrigine  Dispersible tablets  25 mg (PLIVA Pharma Ltd)
+LADI35661MGEMIS	Lamotrigine  Dispersible tablets  25 mg (Teva UK)
+LADI35662MGEMIS	Lamotrigine  Dispersible tablets  25 mg (Unichem)
+LADI35663MGEMIS	Lamotrigine  Dispersible tablets  25 mg (A.A.H. Pharm)
+LADI35664MGEMIS	Lamotrigine  Dispersible tablets  5 mg (Kent Pharm)
+LADI35665MGEMIS	Lamotrigine  Dispersible tablets  5 mg (PLIVA Pharma Ltd)
+LADI35666MGEMIS	Lamotrigine  Dispersible tablets  5 mg (Unichem)
+LADI35667MGEMIS	Lamotrigine  Dispersible tablets  5 mg (A.A.H. Pharm)
+LADI37790MGEMIS	Lamotrigine  Dispersible tablets  2 mg (Unichem)
+LAOR82062NEMIS	Lamotrigine  Oral suspension  50 mg/5 ml
+LATA17992EMIS	Lamictal  Tablets  100 mg
+LATA17993EMIS	Lamictal  Tablets  50 mg
+LATA17996EMIS	Lamotrigine  Tablets  100 mg
+LATA17997EMIS	Lamotrigine  Tablets  50 mg
+LATA22479EMIS	Lamictal  Tablets  25 mg
+LATA22481EMIS	Lamotrigine  Tablets  25 mg
+LATA27768EMIS	Lamictal  Tablets  200 mg
+LATA27770EMIS	Lamotrigine  Tablets  200 mg
+LATA35684MGEMIS	Lamotrigine  Tablets  100 mg (Generics (UK))
+LATA35685MGEMIS	Lamotrigine  Tablets  100 mg (Alpharma)
+LATA35686MGEMIS	Lamotrigine  Tablets  100 mg (Kent Pharm)
+LATA35687MGEMIS	Lamotrigine  Tablets  100 mg (Ivax Pharmaceuticals)
+LATA35688MGEMIS	Lamotrigine  Tablets  100 mg (PLIVA Pharma Ltd)
+LATA35689MGEMIS	Lamotrigine  Tablets  100 mg (Teva UK)
+LATA35690MGEMIS	Lamotrigine  Tablets  100 mg (Unichem)
+LATA35691MGEMIS	Lamotrigine  Tablets  100 mg (A.A.H. Pharm)
+LATA35692MGEMIS	Lamotrigine  Tablets  100 mg (Sandoz)
+LATA35693MGEMIS	Lamotrigine  Tablets  100 mg (Winthrop Pharmaceuticals )
+LATA35694MGEMIS	Lamotrigine  Tablets  50 mg (Generics (UK))
+LATA35695MGEMIS	Lamotrigine  Tablets  50 mg (Alpharma)
+LATA35696MGEMIS	Lamotrigine  Tablets  50 mg (Kent Pharm)
+LATA35697MGEMIS	Lamotrigine  Tablets  50 mg (Ivax Pharmaceuticals)
+LATA35698MGEMIS	Lamotrigine  Tablets  50 mg (PLIVA Pharma Ltd)
+LATA35699MGEMIS	Lamotrigine  Tablets  50 mg (Teva UK)
+LATA35700MGEMIS	Lamotrigine  Tablets  50 mg (Unichem)
+LATA35701MGEMIS	Lamotrigine  Tablets  50 mg (A.A.H. Pharm)
+LATA35702MGEMIS	Lamotrigine  Tablets  50 mg (Sandoz)
+LATA35703MGEMIS	Lamotrigine  Tablets  50 mg (Winthrop Pharmaceuticals )
+LATA35704MGEMIS	Lamotrigine  Tablets  25 mg (Generics (UK))
+LATA35705MGEMIS	Lamotrigine  Tablets  25 mg (Alpharma)
+LATA35706MGEMIS	Lamotrigine  Tablets  25 mg (Kent Pharm)
+LATA35707MGEMIS	Lamotrigine  Tablets  25 mg (Ivax Pharmaceuticals)
+LATA35708MGEMIS	Lamotrigine  Tablets  25 mg (PLIVA Pharma Ltd)
+LATA35709MGEMIS	Lamotrigine  Tablets  25 mg (Teva UK)
+LATA35710MGEMIS	Lamotrigine  Tablets  25 mg (Unichem)
+LATA35711MGEMIS	Lamotrigine  Tablets  25 mg (A.A.H. Pharm)
+LATA35712MGEMIS	Lamotrigine  Tablets  25 mg (Sandoz)
+LATA35713MGEMIS	Lamotrigine  Tablets  25 mg (Winthrop Pharmaceuticals )
+LATA35714MGEMIS	Lamotrigine  Tablets  200 mg (Generics (UK))
+LATA35715MGEMIS	Lamotrigine  Tablets  200 mg (Alpharma)
+LATA35716MGEMIS	Lamotrigine  Tablets  200 mg (Kent Pharm)
+LATA35717MGEMIS	Lamotrigine  Tablets  200 mg (Ivax Pharmaceuticals)
+LATA35718MGEMIS	Lamotrigine  Tablets  200 mg (PLIVA Pharma Ltd)
+LATA35719MGEMIS	Lamotrigine  Tablets  200 mg (Teva UK)
+LATA35720MGEMIS	Lamotrigine  Tablets  200 mg (Unichem)
+LATA35721MGEMIS	Lamotrigine  Tablets  200 mg (A.A.H. Pharm)
+LATA35722MGEMIS	Lamotrigine  Tablets  200 mg (Sandoz)
+LATA35723MGEMIS	Lamotrigine  Tablets  200 mg (Winthrop Pharmaceuticals )

@@ -4,3 +4,5 @@ dnh3.	Convulex 500mg e/c capsule
 dnh4.	Valproic acid 150mg e/c capsule
 dnh5.	Valproic acid 300mg e/c capsule
 dnh6.	Valproic acid 500mg e/c capsule
+dnhy.	Valproic acid 500mg e/c tablet
+dnhz.	Valproic acid 250mg e/c tablet
