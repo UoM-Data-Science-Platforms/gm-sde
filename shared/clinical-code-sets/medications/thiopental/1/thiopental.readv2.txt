@@ -1,0 +1,24 @@
+o11..00	THIOPENTAL SODIUM
+o111.00	*INTRAVAL 500mg injection
+o112.00	INTRAVAL SODIUM 500mg injection
+o113.00	INTRAVAL 2.5g injection multidose
+o114.00	*INTRAVAL 1g injection
+o115.00	*INTRAVAL + WATER 1g injection
+o116.00	ADD-A-MED THIOPENTONE 2.5g injection
+o117.00	ADD-A-MED THIOPENTONE 5g injection
+o118.00	THIOPENTONE SODIUM 2.5% injection
+o119.00	INTRAVAL + WATER 500mg injection
+o11a.00	INTRAVAL + WATER 2.5g injection
+o11b.00	THIOPENTONE SODIUM 5% injection
+o11c.00	THIOPENTONE SODIUM 25% injection
+o11d.00	*INTRAVAL 5g injection
+o11e.00	*INTRAVAL + WATER 5g injection
+o11f.00	INTRAVAL + WATER 500mg injection
+o11g.00	THIOPENTAL SODIUM 500mg injection (pdr for recon)
+o11h.00	THIOPENTONE SODIUM 500mg injection+diluent
+o11j.00	THIOPENTONE SODIUM 2.5g injection (pdr for recon)
+o11k.00	THIOPENTONE SODIUM 2.5g injection+diluent
+o11m.00	THIOPENTONE SODIUM 5g injection +diluent
+o11n.00	INTRAVAL SODIUM 2.5g injection (pdr for recon)
+o11o.00	INTRAVAL SODIUM 2.5g injection (pdr for recon)+diluent
+o11p.00	INTRAVAL SODIUM 500mg injection (pdr for recon)+diluent

@@ -1,0 +1,97 @@
+^ESCT1179417	Product containing only amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1188547	Product containing only amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCT1206216	Amobarbital and secobarbital in oral dosage form
+^ESCT1206217	Product containing amobarbital and secobarbital in oral dosage form
+^ESCT1206231	Amobarbital in oral dosage form
+^ESCT1206232	Product containing amobarbital in oral dosage form
+^ESCT1219630	Amobarbital
+^ESCT1219631	Amobarbital product
+^ESCT1223380	Product containing precisely amobarbital sodium 200 milligram/1 each conventional release oral capsule
+^ESCT1223381	Amobarbital sodium 200 mg oral capsule
+^ESCT1223382	Product containing precisely amobarbital 50 milligram/1 each conventional release oral tablet
+^ESCT1223383	Amobarbital 50 mg oral tablet
+^ESCT1223386	Amobarbital sodium 60 mg oral capsule
+^ESCT1223387	Product containing precisely amobarbital sodium 60 milligram/1 each conventional release oral capsule
+^ESCT1227858	Amobarbital sodium 500 mg powder for solution for injection vial
+^ESCT1227859	Product containing precisely amobarbital sodium 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1229263	Amobarbital sodium 50 mg and secobarbital sodium 50 mg oral capsule
+^ESCT1229264	Product containing precisely amobarbital sodium 50 milligram and secobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1229467	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1229468	Amobarbital sodium 100 mg and secobarbital sodium 100 mg oral capsule
+^ESCT1229469	Product containing precisely amobarbital sodium 100 milligram and secobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1233732	Amobarbital and secobarbital product
+^ESCT1351234	Amobarbital-containing product in parenteral dose form
+^ESCT1353484	Amobarbital only product
+^ESCT1353485	Amobarbital and secobarbital only product
+^ESCT1357476	Amobarbital and secobarbital only product in oral dose form
+^ESCT1357477	Amobarbital only product in oral dose form
+^ESCT1357478	Amobarbital only product in parenteral dose form
+^ESCT1386166	Amobarbital- and secobarbital-containing product in oral dose form
+^ESCT1386174	Amobarbital-containing product in oral dose form
+^ESCTAM1158527	Amobarbital sodium 500mg powder for solution for injection vials 1 vial
+^ESCTAM349319	Amobarbital sodium
+^ESCTAM369911	Amobarbital
+^ESCTAM609193	Amobarbital 50mg tablets
+^ESCTAM609199	Amobarbital sodium 60mg capsules
+^ESCTAM639075	Amobarbital sodium 500mg powder for solution for injection vials
+^ESCTAM639076	Amobarbital sodium 500mg/vial injection
+^ESCTAM639077	Amobarbital sodium 500mg powder for injection solution vial
+^ESCTAM642572	Amobarbital 50mg / Secobarbital sodium 50mg capsules
+^ESCTAM642573	Amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTAM643137	Amobarbital sodium 250mg injection solution vial
+^ESCTAM646058	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTAM698776	Amobarbital + Secobarbital
+^ESCTAM698777	Amobarbital + secobarbital
+^ESCTAM863391	Amobarbital sodium 200mg capsules 100 capsule
+^ESCTAM863399	Amobarbital sodium 200mg capsules
+^ESCTAM863648	Amobarbital 50mg tablets 500 tablet
+^ESCTAM863722	Amobarbital 50mg / Secobarbital sodium 50mg capsules 100 capsule
+^ESCTAM864442	Amobarbital sodium 60mg capsules 100 capsule
+^ESCTAM979785	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order)
+^ESCTAM979786	Amobarbital 50mg / Secobarbital sodium 50mg capsules 1 capsule
+^ESCTAM979787	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order) 1 capsule
+^ESCTAM981061	Amobarbital 50mg / Secobarbital sodium 50mg capsules
+^ESCTPR369912	Product containing amobarbital
+^ESCTPR642574	Product containing amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTPR646059	Product containing amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTPR698778	Product containing amobarbital and secobarbital
+AMCA17522NEMIS	Amobarbital Sodium  Capsules  60 mg
+AMCA17523NEMIS	Amobarbital Sodium  Capsules  200 mg
+AMTA17306NEMIS	Amobarbital  Tablets  50 mg
+SECA18791NEMIS	Secobarbital And Amobarbital  Capsules  50 mg + 50 mg
+^ESCT1181071	Product containing only amylobarbitone 50 mg/1 each oral tablet
+^ESCT1181072	Product containing only amylobarbitone sodium 60 mg/1 each oral capsule
+^ESCT1181369	Product containing only amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCT1223379	Amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCTAM349320	Amylobarbitone sodium
+^ESCTAM609190	Amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCTAM609192	Amylobarbitone sodium 500mg injection
+^ESCTAM609195	Amylobarbitone 50 mg oral tablet
+^ESCTAM609200	Amylobarbitone sodium 60 mg/1 each oral capsule
+^ESCTPR609191	Product containing amylobarbitone sodium 200 mg/1 each oral capsule
+^ESCTPR609194	Product containing amylobarbitone 50 mg/1 each oral tablet
+^ESCTPR609201	Product containing amylobarbitone sodium 60 mg/1 each oral capsule
+AMCA7069	Amylobarbitone Sodium  Capsules  60 mg
+AMTA156	Amylobarbitone  Tablets  50 mg
+^ESCT1387213	Sodium Amytal 200mg capsules (Special Order)
+^ESCT1387214	Sodium Amytal 200mg capsules (Special Order) 100 capsule
+^ESCT1387217	Sodium Amytal 60mg capsules (Special Order)
+^ESCT1387218	Sodium Amytal 60mg capsules (Special Order) 100 capsule
+^ESCTAM1158528	Amytal sodium 500mg powder for solution for injection vials (Imported (United States))
+^ESCTAM1158529	Amytal sodium 500mg powder for solution for injection vials (Imported (United States)) 1 vial
+^ESCTAM863649	Amytal 50mg tablets (Flynn Pharma Ltd)
+^ESCTAM863651	Amytal 50mg tablets (Flynn Pharma Ltd) 500 tablet
+^ESCTAM913802	Amytal
+^ESCTSO863392	Sodium Amytal 200mg capsules (Flynn Pharma Ltd)
+^ESCTSO863393	Sodium Amytal 200mg capsules (Flynn Pharma Ltd) 100 capsule
+^ESCTSO864445	Sodium Amytal 60mg capsules (Flynn Pharma Ltd)
+^ESCTSO864446	Sodium Amytal 60mg capsules (Flynn Pharma Ltd) 100 capsule
+AMTA163	Amytal  Tablets  50 mg
+SOCA2595	Sodium Amytal  Capsules  200 mg
+SOCA2596	Sodium Amytal  Capsules  60 mg
+^ESCT1387215	Tuinal 100mg Pulvules (Special Order)
+^ESCT1387216	Tuinal 100mg Pulvules (Special Order) 100 capsule
+^ESCTTU863724	Tuinal 100mg Pulvules (Flynn Pharma Ltd)
+^ESCTTU863726	Tuinal 100mg Pulvules (Flynn Pharma Ltd) 100 capsule
+TUCA2972	Tuinal  Capsules  
+AMCA4599	Amylobarbitone Sodium  Capsules  200 mg	1	AMCA17523NEMIS(EMIS), d31j.(CTV3)

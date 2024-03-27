@@ -1,0 +1,7 @@
+d313.	Amytal 50mg tablet
+d319.	Sodium Amytal 60mg capsule
+d31a.	Sodium Amytal 200mg capsule
+d31g.	Tuinal 100mg capsule
+d31j.	Amobarbital sodium 200mg capsule
+d31q.	Amylobarbitone 50mg tablet
+d31t.	Amobarbital sodium 60mg capsule

@@ -1,0 +1,24 @@
+^ESCT1178494	Product containing butobarbital
+^ESCT1181073	Product containing only butobarbital 100 mg/1 each oral tablet
+^ESCT1206531	Butobarbital in oral dosage form
+^ESCT1206532	Product containing butobarbital in oral dosage form
+^ESCT1223388	Product containing precisely butobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1226437	Butobarbital
+^ESCT1226438	Butobarbital product
+^ESCT1353890	Butobarbital only product
+^ESCT1357773	Butobarbital only product in oral dose form
+^ESCT1386324	Butobarbital-containing product in oral dose form
+^ESCTBU609202	Butobarbital 100mg tablets
+^ESCTBU609204	Butobarbital 100 mg oral tablet
+^ESCTBU617649	Butobarbital
+^ESCTBU863385	Butobarbital 100mg tablets 56 tablet
+^ESCTPR609203	Product containing butobarbital 100 mg/1 each oral tablet
+BUTA17565NEMIS	Butobarbital  Tablets  100 mg
+^ESCT1387211	Soneryl 100mg tablets (Special Order)
+^ESCT1387212	Soneryl 100mg tablets (Special Order) 56 tablet
+^ESCTSO863386	Soneryl 100mg tablets (Flynn Pharma Ltd)
+^ESCTSO863387	Soneryl 100mg tablets (Flynn Pharma Ltd) 56 tablet 2 x 28 tablets
+SOTA2642	Soneryl  Tablets  100 mg
+^ESCTBU617650	Butobarbitone
+^ESCTBU617651	Butethal
+BUTA449	Butobarbitone  Tablets  100 mg
