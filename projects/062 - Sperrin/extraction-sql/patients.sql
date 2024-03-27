@@ -721,6 +721,7 @@ SELECT
   WeekOfBirth,
   MonthOfBirth,
   YearOfBirth, 
+  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath,
   Sex,
   Ethnicity = EthnicCategoryDescription,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived,
