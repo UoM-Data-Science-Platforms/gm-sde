@@ -131,7 +131,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Secondary discharges</li>
 <li>Create listing tables for each GP events - RQ062</li>
 <li>Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013</li>
-<li>Year and quarter month of birth</li>
+<li>Year, month, week, and day of birth</li>
 <li>GET practice and ccg for each patient</li>
 <li>CCG lookup table</li>
 <li>Create table of patients who are registered with a GM GP</li>
@@ -315,15 +315,15 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-build-rq062-cohort.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq062-cohort.sql">https://github.com/rw251/.../query-build-rq062-cohort.sql</a></p>
 <hr>
-<h3>Year and quarter month of birth</h3>
-<p>To get the year of birth for each patient.</p>
+<h3>Year, month, week, and day of birth</h3>
+<p>To get the date of birth for each patient, in various formats.</p>
 <p><em>Assumptions</em></p>
 <ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple YearAndQuarterMonthOfBirths we determine the YearAndQuarterMonthOfBirth as follows:</li>
-<li>If the patients has a YearAndQuarterMonthOfBirth in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every YearAndQuarterMonthOfBirth for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated YearAndQuarterMonthOfBirth in the database then we use that</li>
-<li>Otherwise we take the highest YearAndQuarterMonthOfBirth for the patient that is not in the future</li>
+<li>Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:</li>
+<li>If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every DateOfBirth for a patient is the same, then we use that</li>
+<li>If there is a single most recently updated DateOfBirth in the database then we use that</li>
+<li>Otherwise we take the highest DateOfBirth for the patient that is not in the future</li>
 </ul>
 <p><em>Input</em></p>
 <pre><code>Assumes there exists a temp table as follows:
@@ -332,12 +332,16 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>A temp table as follows:
- #PatientYearAndQuarterMonthOfBirth (FK_Patient_Link_ID, YearAndQuarterMonthOfBirth)
+ #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- YearAndQuarterMonthOfBirth - (YYYY-MM-01)
+  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
+  - DayOfBirth (dd) (1 to 31)
+	- WeekOfBirth (ww) (1 to 52)
+  - MonthOfBirth (mm) (1 to 12)
+  - YearOfBirth (yyyy)
 </code></pre>
-<p><em>File</em>: <code>query-patient-year-and-quarter-month-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-and-quarter-month-of-birth.sql">https://github.com/rw251/.../query-patient-year-and-quarter-month-of-birth.sql</a></p>
+<p><em>File</em>: <code>query-patient-date-of-birth.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql">https://github.com/rw251/.../query-patient-date-of-birth.sql</a></p>
 <hr>
 <h3>GET practice and ccg for each patient</h3>
 <p>For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.</p>
@@ -664,9 +668,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
 <h3>Dementia</h3>
 <p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
-<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/</p>
+<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/ supplemented with codes from the NHS PCD refsets.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.67% - 0.81%</code> suggests that this code set is likely well defined.</p>
+<p><em>Update <strong>2024-03-15</strong>: Prevalence now 0.83% - 0.99%.</em></p>
 <table>
 <thead>
 <tr>
@@ -721,14 +726,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td style="text-align:right">3170 (0.947%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-03-15</td>
+<td>EMIS</td>
+<td>2526522</td>
+<td style="text-align:right">24910 (0.986%)</td>
+<td style="text-align:right">24994 (0.989%)</td>
+</tr>
+<tr>
+<td>2024-03-15</td>
+<td>TPP</td>
+<td>201758</td>
+<td style="text-align:right">1928 (0.956%)</td>
+<td style="text-align:right">1948 (0.966%)</td>
+</tr>
+<tr>
+<td>2024-03-15</td>
+<td>Vision</td>
+<td>335186</td>
+<td style="text-align:right">2772 (0.827%)</td>
+<td style="text-align:right">2780 (0.829%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-15</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></p>
 <h3>COPD</h3>
 <p>Any suggestion of a diagnosis of COPD.</p>
 <p>Developed from https://getset.ga.</p>
