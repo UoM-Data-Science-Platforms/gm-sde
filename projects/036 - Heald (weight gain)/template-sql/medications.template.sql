@@ -529,7 +529,7 @@ WHERE FK_Reference_Coding_ID IN (
 );
 
 -- Mood stabilizers
---> CODESET carbamazepine:1 lithium:1 valproic-acid:1 sodium-valproate:1
+--> CODESET carbamazepine:1 lithium:1 valproic-acid:1 sodium-valproate:1 valproate-semisodium:1
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'mood-stabilizer', 'carbamazepine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
@@ -557,6 +557,13 @@ SELECT FK_Patient_Link_ID, 'mood-stabilizer', 'sodium-valproate' AS Label, Descr
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
 	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'sodium-valproate' AND [Version] = 1)
+);
+
+INSERT INTO #medications
+SELECT FK_Patient_Link_ID, 'mood-stabilizer', 'valproate-semisodium' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
+FROM #allMedications 
+WHERE FK_Reference_Coding_ID IN (
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'valproate-semisodium' AND [Version] = 1)
 );
 
 -- Antihistamines
