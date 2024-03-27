@@ -1,6 +1,6 @@
 # Methylphenobarbital
 
-Any code for a prescription of Methylphenobarbital. Other names: Mephobarbital/Mephobarbitone.
+Any code for a prescription of Methylphenobarbital. Other names: Mephobarbital/Mephobarbitone. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 

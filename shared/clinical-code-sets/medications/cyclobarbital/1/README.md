@@ -1,6 +1,8 @@
-# Pentobarbital
+# Cyclobarbital
 
-Any code for a prescription of Pentobarbital. Other names: Pentobarbitone. Not used in the UK. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+Any code for a prescription of Cyclobarbital. Other names: Cyclobarbitone. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+
+This drug is not prescribed in the UK.
 
 ## Prevalence log
 

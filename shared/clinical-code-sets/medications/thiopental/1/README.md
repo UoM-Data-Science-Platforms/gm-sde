@@ -1,6 +1,6 @@
 # Thiopental
 
-Any code for a prescription of Thiopental. Other names: Thiopentone
+Any code for a prescription of Thiopental. Other names: Thiopentone. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 

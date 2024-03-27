@@ -1,6 +1,6 @@
 # Butobarbital
 
-Any code for a prescription of Butobarbital. Other names: Butobarbitone/Butethal/Soneryl.
+Any code for a prescription of Butobarbital. Other names: Butobarbitone/Butethal/Soneryl. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 

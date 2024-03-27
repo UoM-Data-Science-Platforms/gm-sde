@@ -1,6 +1,6 @@
 # Phenobarbital
 
-Any code for a prescription of Phenobarbital. Other names: Phenobarbitone/Gardenal.
+Any code for a prescription of Phenobarbital. Other names: Phenobarbitone/Gardenal. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 
