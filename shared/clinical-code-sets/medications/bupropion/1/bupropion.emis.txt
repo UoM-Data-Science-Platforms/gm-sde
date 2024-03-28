@@ -1,0 +1,82 @@
+^ESCT1179307	Product containing only bupropion hydrochloride 75 mg/1 each oral tablet
+^ESCT1185530	Product containing only bupropion hydrochloride 100 mg/1 each oral tablet
+^ESCT1203230	Bupropion hydrochloride 100mg prolonged-release oral tablet
+^ESCT1203333	Bupropion hydrochloride 200mg prolonged-release oral tablet
+^ESCT1203403	Bupropion hydrochloride 50mg prolonged-release oral tablet
+^ESCT1203482	Bupropion hydrochloride 300mg prolonged-release oral tablet
+^ESCT1203491	Bupropion hydrochloride 150 mg prolonged-release oral tablet
+^ESCT1203492	Product containing precisely bupropion hydrochloride 150 milligram/1 each prolonged-release oral tablet
+^ESCT1206527	Bupropion in oral dosage form
+^ESCT1206528	Product containing bupropion in oral dosage form
+^ESCT1214804	Bupropion 150mg modified-release tablets
+^ESCT1220618	Bupropion
+^ESCT1220619	Bupropion product
+^ESCT1228829	Product containing precisely bupropion hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1229455	Product containing precisely bupropion hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1236779	Product containing bupropion and naltrexone
+^ESCT1236780	Bupropion and naltrexone product
+^ESCT1353874	Bupropion only product
+^ESCT1353875	Bupropion and naltrexone only product
+^ESCT1357759	Bupropion and naltrexone only product in oral dose form
+^ESCT1357760	Bupropion only product in oral dose form
+^ESCT1376137	Bupropion 150mg modified-release tablets (Imported)
+^ESCT1376138	Bupropion 150mg modified-release tablets (Imported) 60 tablet
+^ESCT1383870	Bupropion hydrobromide 174 mg prolonged-release oral tablet
+^ESCT1383887	Bupropion hydrobromide 348 mg prolonged-release oral tablet
+^ESCT1383888	Bupropion hydrobromide 522 mg prolonged-release oral tablet
+^ESCT1385217	Bupropion- and naltrexone-containing product in oral dose form
+^ESCT1386322	Bupropion-containing product in oral dose form
+^ESCTBU406860	Bupropion
+^ESCTBU611023	Bupropion 150mg modified-release tablets
+^ESCTBU611025	Bupropion hydrochloride 150mg m/r tablet
+^ESCTBU641589	Bupropion hydrochloride 75 mg oral tablet
+^ESCTBU641591	Bupropion hydrochloride 100mg m/r tablet
+^ESCTBU645765	Bupropion m/r tablet
+^ESCTBU645766	Bupropion hydrochloride 100 mg oral tablet
+^ESCTBU677706	Bupropion hydrochloride 300mg m/r tablet
+^ESCTBU682899	Bupropion hydrochloride
+^ESCTBU683020	Bupropion hydrochloride 200mg m/r tablet
+^ESCTBU683021	Bupropion hydrochloride 50mg m/r tablet
+^ESCTBU713729	Bupropion hydrobromide 174mg extended release tablet
+^ESCTBU715140	Bupropion hydrobromide 348mg extended release tablet
+^ESCTBU715141	Bupropion hydrobromide 522mg extended release tablet
+^ESCTBU773664	Bupropion + naltrexone
+^ESCTBU773665	Bupropion and naltrexone in oral dosage form
+^ESCTBU847237	Bupropion 150mg modified-release tablets 60 tablet
+^ESCTBU879943	Bupropion 150mg modified-release tablets 100 tablet
+^ESCTNA1161771	Naltrexone 8mg / Bupropion 90mg modified-release tablets 112 tablet
+^ESCTNA1161789	Naltrexone 8mg / Bupropion 90mg modified-release tablets
+^ESCTNA773663	Naltrexone + Bupropion
+^ESCTPR406862	Product containing bupropion
+^ESCTPR641590	Product containing bupropion hydrochloride 75 mg/1 each oral tablet
+^ESCTPR645767	Product containing bupropion hydrochloride 100 mg/1 each oral tablet
+^ESCTPR682900	Product containing bupropion hydrochloride
+^ESCTPR773666	Product containing bupropion and naltrexone in oral dosage form
+BUM/138189NEMIS	Bupropion Hydrochloride (Imported)  M/R tablets  150 mg
+BUTA4575NEMIS	Bupropion Hydrochloride  M/R tablets  150 mg
+NAM/123800NEMIS	Naltrexone And Bupropion  M/R tablets  8 mg + 90 mg
+^ESCT1250888	Mysimba 8mg/90mg modified-release tablets (Orexigen Therapeutics Ireland Ltd)
+^ESCT1250889	Mysimba 8mg/90mg modified-release tablets (Orexigen Therapeutics Ireland Ltd) 112 tablet 4 x 28 tablets
+^ESCTMY1161772	Mysimba 8mg/90mg modified-release tablets (Consilient Health Ltd)
+^ESCTMY1161773	Mysimba 8mg/90mg modified-release tablets (Consilient Health Ltd) 112 tablet 4 x 28 tablets
+MYM/123801NEMIS	Mysimba  M/R tablets  8 mg + 90 mg
+^ESCT1266590	Zyban 150mg modified-release tablets (CST Pharma Ltd)
+^ESCT1266591	Zyban 150mg modified-release tablets (CST Pharma Ltd) 60 tablet
+^ESCTZY1001789	Zyban 150mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001790	Zyban 150mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTZY821334	Zyban 150mg modified-release tablets (GlaxoSmithKline UK Ltd)
+^ESCTZY853962	Zyban 150mg modified-release tablets (GlaxoSmithKline UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTZY878484	Zyban 150mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTZY878486	Zyban 150mg modified-release tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTZY879945	Zyban 150mg modified-release tablets (Dowelhurst Ltd)
+^ESCTZY879947	Zyban 150mg modified-release tablets (Dowelhurst Ltd) 60 tablet
+^ESCTZY879949	Zyban 150mg modified-release tablets (Dowelhurst Ltd) 100 tablet
+^ESCTZY967855	Zyban 150mg modified-release tablets (DE Pharmaceuticals)
+^ESCTZY967857	Zyban 150mg modified-release tablets (DE Pharmaceuticals) 60 tablet
+^ESCTZY975121	Zyban 150mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975122	Zyban 150mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTZY992080	Zyban 150mg modified-release tablets (Lexon (UK) Ltd)
+^ESCTZY992081	Zyban 150mg modified-release tablets (Lexon (UK) Ltd) 60 tablet
+ZYTA4578NEMIS	Zyban  M/R tablets  150 mg
+^ESCTAM406861	Amfebutamone
+^ESCTAM611024	Amfebutamone hydrochloride 150mg m/r tablet

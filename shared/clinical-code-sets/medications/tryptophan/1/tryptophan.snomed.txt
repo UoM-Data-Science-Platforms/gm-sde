@@ -1,0 +1,21 @@
+321941009	Product containing precisely tryptophan 500 milligram/1 each conventional release oral tablet (clinical drug)
+768325003	Product containing tryptophan in oral dose form (medicinal product form)
+777880003	Tryptophan (product)
+780730005	Product containing only tryptophan in oral dose form (medicinal product form)
+21781311000001109	Tryptophan 500mg capsules (product)
+13573711000001106	Tryptophan 50mg capsules (product)
+13572311000001102	Tryptophan 50mg capsules (Special Order) (product)
+41989911000001101	Tryptophan 500mg tablets (product)
+3708711000001105	Tryptophan 500mg tablets 84 tablet (product)
+13572211000001105	Tryptophan 50mg capsules 1 capsule (product)
+13572411000001109	Tryptophan 50mg capsules (Special Order) 1 capsule (product)
+21757011000001109	Tryptophan 500mg capsules 84 capsule (product)
+1955301000001108	Tryptophan 1g/6g powder
+1955201000001104	Tryptophan 500mg tablet - product
+21757111000001105	Optimax 500mg capsules (Special Order) (product)
+41966611000001102	Optimax 500mg capsules (Esteve Pharmaceuticals Ltd) (product)
+3708811000001102	Optimax 500mg tablets (Esteve Pharmaceuticals Ltd) (product)
+3708911000001107	Optimax 500mg tablets (Esteve Pharmaceuticals Ltd) 84 tablet (product)
+21757311000001107	Optimax 500mg capsules (Special Order) 84 capsule (product)
+41966711000001106	Optimax 500mg capsules (Esteve Pharmaceuticals Ltd) 84 capsule (product)
+1955101000001106	Pacitron 500mg tablet
