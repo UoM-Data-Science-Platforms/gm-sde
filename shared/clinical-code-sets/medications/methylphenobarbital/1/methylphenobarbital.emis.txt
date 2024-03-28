@@ -1,0 +1,45 @@
+^ESCT1178357	Product containing only methylphenobarbital 100 mg/1 each oral tablet
+^ESCT1187497	Product containing only methylphenobarbital 32 mg/1 each oral tablet
+^ESCT1187499	Product containing only methylphenobarbital 50 mg/1 each oral tablet
+^ESCT1218412	Methylphenobarbital
+^ESCT1218414	Methylphenobarbital product
+^ESCT1227981	Product containing precisely methylphenobarbital 32 milligram/1 each conventional release oral tablet
+^ESCT1227982	Product containing precisely methylphenobarbital 50 milligram/1 each conventional release oral tablet
+^ESCT1227983	Product containing precisely methylphenobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1351571	Methylphenobarbital-containing product in oral dose form
+^ESCT1355889	Methylphenobarbital only product
+^ESCT1359204	Methylphenobarbital only product in oral dose form
+^ESCT1377209	Methylphenobarbital-containing product
+^ESCTME325452	Methylphenobarbital
+^ESCTME639342	Methylphenobarbital 32 mg oral tablet
+^ESCTME639347	Methylphenobarbital 50 mg oral tablet
+^ESCTME639353	Methylphenobarbital 100 mg oral tablet
+^ESCTPR325454	Product containing methylphenobarbital
+^ESCTPR639341	Product containing methylphenobarbital 32 mg/1 each oral tablet
+^ESCTPR639346	Product containing methylphenobarbital 50 mg/1 each oral tablet
+^ESCTPR639351	Product containing methylphenobarbital 100 mg/1 each oral tablet
+^ESCT1178358	Product containing only mephobarbital 100 mg/1 each oral tablet
+^ESCT1187498	Product containing only mephobarbital 32 mg/1 each oral tablet
+^ESCT1187500	Product containing only mephobarbital 50 mg/1 each oral tablet
+^ESCT1218413	Mephobarbital product
+^ESCT1351572	Mephobarbital-containing product in oral dose form
+^ESCT1355890	Mephobarbital only product
+^ESCT1359205	Mephobarbital only product in oral dose form
+^ESCT1377210	Mephobarbital-containing product
+^ESCTME325453	Mephobarbital
+^ESCTME639339	Mephobarbital 32mg tablet
+^ESCTME639343	Mephobarbital 32 mg oral tablet
+^ESCTME639344	Mephobarbital 50mg tablet
+^ESCTME639348	Mephobarbital 50 mg oral tablet
+^ESCTME639349	Mephobarbital 100mg tablet
+^ESCTME639352	Mephobarbital 100 mg oral tablet
+^ESCTPR325455	Product containing mephobarbital
+^ESCTPR639340	Product containing mephobarbital 32 mg/1 each oral tablet
+^ESCTPR639345	Product containing mephobarbital 50 mg/1 each oral tablet
+^ESCTPR639350	Product containing mephobarbital 100 mg/1 each oral tablet
+META5146	Methylphenobarbitone  Tablets  200 mg
+META7048	Methylphenobarbitone  Tablets  30 mg
+META7049	Methylphenobarbitone  Tablets  60 mg
+PRTA4216	Prominal  Tablets  200 mg
+PRTA4217	Prominal  Tablets  30 mg
+PRTA4218	Prominal  Tablets  60 mg

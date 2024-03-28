@@ -1,0 +1,6 @@
+dna1.00	*MYSOLINE 250mg tablets
+dna2.00	MYSOLINE 250mg/5mL oral suspension
+dna3.00	*MYSOLINE 50mg tablets
+dnax.00	PRIMIDONE 50mg tablets
+dnay.00	PRIMIDONE 250mg tablets
+dnaz.00	PRIMIDONE 250mg/5mL oral suspension

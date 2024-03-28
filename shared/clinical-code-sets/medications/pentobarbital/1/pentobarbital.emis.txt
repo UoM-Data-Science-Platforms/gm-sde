@@ -1,0 +1,47 @@
+^ESCT1178294	Product containing only pentobarbital sodium 100 mg/1 each oral capsule
+^ESCT1187579	Product containing only pentobarbital sodium 50 mg/1 each oral capsule
+^ESCT1217840	Pentobarbital
+^ESCT1217841	Pentobarbital product
+^ESCT1227485	Pentobarbital sodium 100 mg/1 each oral capsule
+^ESCT1227486	Product containing precisely pentobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1227487	Pentobarbital sodium 100 mg oral capsule
+^ESCT1228470	Pentobarbital sodium 50 mg/1 each oral capsule
+^ESCT1228471	Pentobarbital sodium 50 mg oral capsule
+^ESCT1228472	Product containing precisely pentobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1356289	Pentobarbital only product
+^ESCT1359527	Pentobarbital only product in oral dose form
+^ESCT1359528	Pentobarbital only product in parenteral dose form
+^ESCT1359529	Pentobarbital only product in rectal dose form
+^ESCT1364568	Pentobarbital sodium 3.64 mg/mL oral solution
+^ESCT1364569	Pentobarbital sodium 4 mg/mL oral solution
+^ESCT1376966	Pentobarbital-containing product
+^ESCT1381686	Pentobarbital sodium 50 mg/mL oral solution
+^ESCT1381687	Pentobarbital sodium 60 mg rectal suppository
+^ESCT1381688	Pentobarbital sodium 120 mg rectal suppository
+^ESCT1381689	Pentobarbital sodium 200 mg rectal suppository
+^ESCT1381907	Pentobarbital sodium 30 mg rectal suppository
+^ESCT1382078	Pentobarbital-containing product in oral dose form
+^ESCT1382079	Pentobarbital-containing product in rectal dose form
+^ESCT1382080	Pentobarbital-containing product in parenteral dose form
+^ESCTPE303486	Pentobarbital
+^ESCTPE635017	Pentobarbital sodium 100 mg/1 each oral capsule
+^ESCTPE635019	Pentobarbital sodium 50mg/ml solution
+^ESCTPE635020	Pentobarbital sodium 18.2mg/5ml elixir
+^ESCTPE635021	Pentobarbital sodium 60mg suppository
+^ESCTPE635022	Pentobarbital sodium 120mg suppository
+^ESCTPE635023	Pentobarbital sodium 200mg suppository
+^ESCTPE640701	Pentobarbital sodium 50 mg/1 each oral capsule
+^ESCTPE640718	Pentobarbital sodium 30mg suppository
+^ESCTPE640755	Pentobarbital sodium 50mg/mL injection solution ampoule
+^ESCTPE640756	Pentobarbital sodium 50mg/mL injection solution ampule
+^ESCTPE640757	Pentobarbital sodium 50mg/mL injection
+^ESCTPE645077	Pentobarbital sodium 20mg/5ml elixir
+^ESCTPE646061	Pentobarbital in oral dosage form
+^ESCTPE646063	Pentobarbital in rectal dosage form
+^ESCTPE646067	Pentobarbital in parenteral dosage form
+^ESCTPR303487	Product containing pentobarbital
+^ESCTPR635018	Product containing pentobarbital sodium 100 mg/1 each oral capsule
+^ESCTPR640702	Product containing pentobarbital sodium 50 mg/1 each oral capsule
+^ESCTPR646062	Product containing pentobarbital in oral dosage form
+^ESCTPR646064	Product containing pentobarbital in rectal dosage form
+^ESCTPR646068	Product containing pentobarbital in parenteral dosage form

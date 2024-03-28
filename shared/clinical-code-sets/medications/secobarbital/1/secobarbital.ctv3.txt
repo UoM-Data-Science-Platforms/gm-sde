@@ -1,0 +1,5 @@
+d317.	Seconal Sodium 50mg capsule
+d318.	Seconal Sodium 100mg capsule
+d31g.	Tuinal 100mg capsule
+d31h.	Secobarbital sodium 50mg capsule
+d31s.	Secobarbital sodium 100mg capsule

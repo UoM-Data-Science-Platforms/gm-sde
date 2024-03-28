@@ -1,0 +1,146 @@
+^ESCT1181147	Product containing only primidone 250 mg/1 each oral tablet
+^ESCT1181530	Product containing only primidone 50 mg/1 each oral tablet
+^ESCT1194780	Primidone 250mg/5ml oral suspension 150 ml
+^ESCT1194783	Primidone 250mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCT1196002	Primidone 250mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1196425	Primidone 250mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1218430	Primidone
+^ESCT1218431	Primidone product
+^ESCT1223914	Product containing precisely primidone 250 milligram/1 each conventional release oral tablet
+^ESCT1227492	Primidone 50 mg/mL oral suspension
+^ESCT1227493	Product containing precisely primidone 50 milligram/1 milliliter conventional release oral suspension
+^ESCT1228192	Product containing precisely primidone 50 milligram/1 each conventional release oral tablet
+^ESCT1264680	Primidone 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264681	Primidone 50mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1264682	Primidone 250mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264683	Primidone 250mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1275533	Primidone 50mg tablets (DE Pharmaceuticals)
+^ESCT1275534	Primidone 50mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1300959	Primidone 250mg tablets (DE Pharmaceuticals) 90 tablet
+^ESCT1300960	Primidone 250mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1300966	Primidone 250mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1351670	Primidone-containing product in oral dose form
+^ESCT1356501	Primidone only product
+^ESCT1359665	Primidone only product in oral dose form
+^ESCT1403472	Primidone 250mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403473	Primidone 250mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1403474	Primidone 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403475	Primidone 50mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1404529	Primidone 250mg tablets (Medihealth (Northern) Ltd) 90 tablet
+^ESCTPR1003222	Primidone 250mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR1003223	Primidone 250mg tablets 30 tablet
+^ESCTPR1003224	Primidone 250mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPR1003229	Primidone 250mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPR1010824	Primidone 50mg tablets 100 tablet
+^ESCTPR1012203	Primidone 250mg tablets (DE Pharmaceuticals)
+^ESCTPR1012204	Primidone 250mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPR1021480	Primidone 50mg/5ml oral suspension 100 ml
+^ESCTPR1021481	Primidone 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTPR1024262	Primidone 50mg/5ml oral suspension 150 ml
+^ESCTPR1024263	Primidone 50mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTPR1037165	Primidone 62.5mg/5ml oral suspension 100 ml
+^ESCTPR1037166	Primidone 62.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTPR1054427	Primidone 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1054428	Primidone 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTPR1054429	Primidone 250mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1054432	Primidone 250mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTPR1055613	Primidone 250mg tablets (SERB)
+^ESCTPR1055614	Primidone 250mg tablets (SERB) 100 tablet
+^ESCTPR1055615	Primidone 50mg tablets (SERB)
+^ESCTPR1055616	Primidone 50mg tablets (SERB) 100 tablet
+^ESCTPR1057197	Primidone 250mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1057198	Primidone 250mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTPR1058354	Primidone 250mg tablets (Waymade Healthcare Plc)
+^ESCTPR1058355	Primidone 250mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTPR1058396	Primidone 250mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTPR1058721	Primidone 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1058722	Primidone 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTPR1110323	Primidone 250mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTPR1127015	Primidone 50mg tablets (Teva UK Ltd)
+^ESCTPR1127016	Primidone 50mg tablets (Teva UK Ltd) 100 tablet
+^ESCTPR1127017	Primidone 250mg tablets (Teva UK Ltd)
+^ESCTPR1127018	Primidone 250mg tablets (Teva UK Ltd) 100 tablet
+^ESCTPR326193	Primidone
+^ESCTPR326194	Product containing primidone
+^ESCTPR610676	Primidone 250mg tablets
+^ESCTPR610677	Product containing primidone 250 mg/1 each oral tablet
+^ESCTPR610678	Primidone 250 mg oral tablet
+^ESCTPR635041	Primidone 250mg/5ml oral suspension
+^ESCTPR635042	Primidone 250mg/5ml suspension
+^ESCTPR640007	Primidone 50mg tablets
+^ESCTPR640008	Product containing primidone 50 mg/1 each oral tablet
+^ESCTPR640009	Primidone 50 mg oral tablet
+^ESCTPR646846	Primidone
+^ESCTPR848543	Primidone 250mg tablets 100 tablet
+^ESCTPR870835	Primidone 250mg/5ml oral suspension 250 ml
+^ESCTPR909430	Primidone 50mg capsules 1 capsule
+^ESCTPR909431	Primidone 50mg capsules (Special Order)
+^ESCTPR909432	Primidone 50mg capsules (Special Order) 1 capsule
+^ESCTPR909722	Primidone 50mg capsules
+^ESCTPR909750	Primidone 200mg/5ml oral suspension 1 ml
+^ESCTPR909751	Primidone 200mg/5ml oral suspension (Special Order)
+^ESCTPR909752	Primidone 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR909757	Primidone 25mg/5ml oral suspension 1 ml
+^ESCTPR909759	Primidone 25mg/5ml oral suspension (Special Order)
+^ESCTPR909761	Primidone 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR909767	Primidone 50mg/5ml oral suspension 1 ml
+^ESCTPR909769	Primidone 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTPR909773	Primidone 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTPR909776	Primidone 62.5mg/5ml oral suspension 1 ml
+^ESCTPR909777	Primidone 62.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTPR909779	Primidone 62.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTPR909849	Primidone 200mg/5ml oral suspension
+^ESCTPR909850	Primidone 25mg/5ml oral suspension
+^ESCTPR909851	Primidone 50mg/5ml oral suspension
+^ESCTPR909852	Primidone 62.5mg/5ml oral suspension
+^ESCTPR939188	Primidone 125mg/5ml oral suspension
+^ESCTPR939189	Primidone 125mg/5ml oral suspension 250 ml
+^ESCTPR940234	Primidone 250mg/5ml oral suspension 1 ml
+^ESCTPR940235	Primidone 250mg/5ml oral suspension (Special Order)
+^ESCTPR940236	Primidone 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR981728	Primidone 100mg/5ml oral suspension 1 ml
+^ESCTPR981729	Primidone 100mg/5ml oral suspension (Special Order)
+^ESCTPR981730	Primidone 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR981765	Primidone 100mg/5ml oral suspension
+^ESCTPR987521	Primidone 30mg/5ml oral suspension 1 ml
+^ESCTPR987524	Primidone 30mg/5ml oral suspension (Special Order)
+^ESCTPR987525	Primidone 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR987708	Primidone 30mg/5ml oral suspension
+^ESCTPR989371	Primidone 250mg tablets 60 tablet
+^ESCTPR993266	Primidone 250mg tablets 90 tablet
+^ESCTPR993267	Primidone 250mg tablets (Waymade Healthcare Plc)
+^ESCTPR993268	Primidone 250mg tablets (Waymade Healthcare Plc) 90 tablet
+PRSU13238NEMIS	Primidone  Suspension  50 mg/5 ml
+PRSU40894NEMIS	Primidone  Suspension  62.5 mg/5 ml
+PRSU5331	Primidone  Suspension  250 mg/5 ml
+PRTA143998NEMIS	Primidone  Tablets  125 mg
+PRTA47630NEMIS	Primidone  Tablets  50 mg
+PRTA5332	Primidone  Tablets  250 mg
+ENTA144000NEMIS	Enodama  Tablets  125 mg
+ENTA144001NEMIS	Enodama  Tablets  250 mg
+ENTA144002NEMIS	Enodama  Tablets  50 mg
+^ESCTLI939190	Liskantin Saft 125mg/5ml oral suspension (Imported (Germany))
+^ESCTLI939191	Liskantin Saft 125mg/5ml oral suspension (Imported (Germany)) 250 ml
+^ESCTMY1002591	Mysoline 250mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMY1002592	Mysoline 250mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTMY1010825	Mysoline 50mg tablets (SERB)
+^ESCTMY1010826	Mysoline 50mg tablets (SERB) 100 tablet
+^ESCTMY1021604	Mysoline 250mg tablets (DE Pharmaceuticals)
+^ESCTMY1021605	Mysoline 250mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTMY1024597	Mysoline 250mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTMY802614	Mysoline 250mg tablets (SERB)
+^ESCTMY854255	Mysoline 250mg tablets (SERB) 100 tablet
+^ESCTMY870839	Mysoline 250mg/5ml oral suspension (Zeneca Pharma)
+^ESCTMY870840	Mysoline 250mg/5ml oral suspension (Zeneca Pharma) 250 ml
+^ESCTMY977972	Mysoline 250mg tablets (Waymade Healthcare Plc)
+^ESCTMY977973	Mysoline 250mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTMY989370	Mysoline 250mg tablets (Lexon (UK) Ltd)
+^ESCTMY989372	Mysoline 250mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTMY993147	Mysoline 250mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMY993148	Mysoline 250mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTMY993149	Mysoline 250mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+MYSU4005	Mysoline  Suspension  250mg/5 ml
+MYTA4006	Mysoline  Tablets  250 mg
+MYTA47631NEMIS	Mysoline  Tablets  50 mg
+^ESCTDE646847	Desoxyphenobarbital
+^ESCTPR646848	Primaclone

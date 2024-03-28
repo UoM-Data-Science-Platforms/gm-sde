@@ -1,0 +1,6 @@
+dn71.00	PHENOBARBITAL 15mg tablets
+dn72.00	PHENOBARBITAL 30mg tablets
+dn73.00	PHENOBARBITAL 60mg tablets
+dn78.00	PHENOBARBITAL 200mg/1mL injection
+dn79.00	*GARDENAL 200mg/1mL injection
+dn7d.00	PHENOBARBITAL 15mg/5mL elixir

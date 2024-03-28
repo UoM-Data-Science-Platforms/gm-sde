@@ -1,0 +1,73 @@
+61123001	Amobarbital sodium (product)
+73756003	Product containing amobarbital (medicinal product)
+321349004	Product containing precisely amobarbital sodium 200 milligram/1 each conventional release oral capsule (clinical drug)
+321355009	Product containing precisely amobarbital 50 milligram/1 each conventional release oral tablet (clinical drug)
+321358006	Product containing precisely amobarbital sodium 60 milligram/1 each conventional release oral capsule (clinical drug)
+371198000	Amobarbital+secobarbital 100mg/100mg capsule (product)
+374284001	Product containing precisely amobarbital sodium 500 milligram/1 vial powder for conventional release solution for injection (clinical drug)
+377595001	Product containing precisely amobarbital sodium 50 milligram and secobarbital sodium 50 milligram/1 each conventional release oral capsule (clinical drug)
+384945009	Amobarbital sodium 250mg injection solution vial (product)
+386737009	Product containing precisely amobarbital sodium 100 milligram and secobarbital sodium 100 milligram/1 each conventional release oral capsule (clinical drug)
+398820003	Amobarbital sodium + secobarbital sodium (product)
+422319002	Product containing amobarbital and secobarbital (medicinal product)
+767877000	Product containing amobarbital and secobarbital in oral dose form (medicinal product form)
+767884008	Product containing amobarbital in oral dose form (medicinal product form)
+772311007	Product containing amobarbital in parenteral dose form (medicinal product form)
+774579001	Amobarbital (product)
+774580003	Amobarbital + Secobarbital (product)
+778308004	Product containing only amobarbital and secobarbital in oral dose form (medicinal product form)
+778309007	Product containing only amobarbital in oral dose form (medicinal product form)
+778310002	Product containing only amobarbital in parenteral dose form (medicinal product form)
+3682911000001100	Amobarbital sodium 200mg capsules (product)
+42125311000001108	Amobarbital 50mg tablets (product)
+42125411000001101	Amobarbital sodium 60mg capsules (product)
+41871811000001108	Amobarbital sodium 500mg powder for solution for injection vials (product)
+15244711000001109	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order) (product)
+15374911000001100	Amobarbital 50mg / Secobarbital sodium 50mg capsules (product)
+3797111000001105	Amobarbital sodium 60mg capsules 100 capsule (product)
+3717411000001101	Amobarbital 50mg / Secobarbital sodium 50mg capsules 100 capsule (product)
+3709511000001106	Amobarbital 50mg tablets 500 tablet (product)
+3681811000001101	Amobarbital sodium 200mg capsules 100 capsule (product)
+9812211000001102	Amobarbital + Secobarbital (product)
+15244811000001101	Amobarbital 50mg / Secobarbital sodium 50mg capsules 1 capsule (product)
+15244911000001106	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order) 1 capsule (product)
+34200811000001107	Amobarbital sodium 500mg powder for solution for injection vials 1 vial (product)
+875501000001105	Amobarbital 15mg tablet
+875601000001109	Amobarbital sodium 200mg tablet
+1951301000001106	Amobarbital 100mg tablet
+1951401000001103	Amobarbital sodium 250mg injection
+1951601000001100	Amobarbital 30mg tablet
+1951701000001105	Amobarbital 200mg tablet
+1951801000001101	Amobarbital sodium 60mg tablet
+15401000001100	Amobarbital sodium 60mg capsule - product
+68601000001108	Amobarbital 50mg tablet - product
+497001000001105	Amobarbital sodium 500mg injection - product
+727701000001107	Amobarbital sodium 200mg capsule - product
+321351000	Amylobarbitone sodium 500mg injection (product)
+321361007	Amylobarbitone sodium+quinalbarbitone sodium 50mg/50mg capsule (product)
+398658002	Amylobarbitone sodium+quinalbarbitone sodium (product)
+657601000001106	Amylobarbitone sodium+quinalbarbitone sodium 50mg/50mg capsule - product
+3681911000001106	Sodium Amytal 200mg capsules (Special Order) (product)
+3709611000001105	Amytal 50mg tablets (Flynn Pharma) (product)
+3797411000001100	Sodium Amytal 60mg capsules (Special Order) (product)
+34200911000001102	Amytal sodium 500mg powder for solution for injection vials (Imported (United States)) (product)
+3797511000001101	Sodium Amytal 60mg capsules (Special Order) 100 capsule (product)
+3709811000001109	Amytal 50mg tablets (Flynn Pharma) 500 tablet (product)
+3682011000001104	Sodium Amytal 200mg capsules (Special Order) 100 capsule (product)
+34201011000001105	Amytal sodium 500mg powder for solution for injection vials (Imported (United States)) 1 vial (product)
+9207001000001104	Amytal (product)
+79501000001109	Sodium Amytal 500mg injection (pdr for recon)
+143501000001104	Amytal 50mg tablet
+530601000001103	Sodium Amytal 60mg capsule
+600301000001108	Sodium Amytal 200mg capsule
+875301000001103	Amytal 30mg tablet
+875401000001106	Sodium Amytal 200mg tablet
+1950701000001101	Amytal 15mg tablet
+1950801000001105	Amytal 100mg tablet
+1950901000001104	Amytal 200mg tablet
+1951101000001109	Sodium Amytal 60mg tablet
+1951201000001102	Sodium Amytal 250mg injection
+1951501000001104	Sodium Amytal 100mg tablet
+3717611000001103	Tuinal 100mg Pulvules (Special Order) (product)
+3717811000001104	Tuinal 100mg Pulvules (Special Order) 100 capsule (product)
+741901000001102	Tuinal 100mg capsule

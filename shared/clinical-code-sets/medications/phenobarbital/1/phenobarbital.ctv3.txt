@@ -1,0 +1,6 @@
+dn71.	Phenobarbital 15mg tablet
+dn72.	Phenobarbital 30mg tablet
+dn73.	Phenobarbital 60mg tablet
+dn78.	Phenobarbital sodium 200mg/1mL injection
+dn79.	Gardenal Sodium 200mg/1mL injection
+dn7d.	Phenobarbital 15mg/5mL elixir

@@ -1,0 +1,7 @@
+46709004	Product containing methylphenobarbital (medicinal product)
+374514008	Product containing precisely methylphenobarbital 32 milligram/1 each conventional release oral tablet (clinical drug)
+374515009	Product containing precisely methylphenobarbital 50 milligram/1 each conventional release oral tablet (clinical drug)
+374516005	Product containing precisely methylphenobarbital 100 milligram/1 each conventional release oral tablet (clinical drug)
+772615005	Product containing methylphenobarbital in oral dose form (medicinal product form)
+776753009	Product containing only methylphenobarbital (medicinal product)
+779864004	Product containing only methylphenobarbital in oral dose form (medicinal product form)

@@ -1,0 +1,48 @@
+^ESCT1182527	Product containing thiopental
+^ESCT1185143	Product containing thiopental sodium
+^ESCT1219835	Thiopental sodium
+^ESCT1219836	Thiopental sodium product
+^ESCT1226375	Thiopental sodium 500 mg powder for solution for injection vial
+^ESCT1226376	Product containing precisely thiopental sodium 500 milligram/1 vial powder for conventional release solution for injection
+^ESCT1226732	Thiopental
+^ESCT1226733	Thiopental product
+^ESCT1266769	Thiopental 500mg powder for solution for injection vials (Advanz Pharma)
+^ESCT1266770	Thiopental 500mg powder for solution for injection vials (Advanz Pharma) 10 vial
+^ESCT1306363	Thiopental 500mg powder for solution for injection vials (Panpharma UK Ltd)
+^ESCT1306366	Thiopental 500mg powder for solution for injection vials (Panpharma UK Ltd) 10 vial
+^ESCT1351730	Thiopental-containing product in parenteral dose form
+^ESCT1356951	Thiopental only product
+^ESCT1360026	Thiopental only product in parenteral dose form
+^ESCTTH1034052	Thiopental 500mg/20ml solution for injection pre-filled syringes
+^ESCTTH1034053	Thiopental 500mg/20ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTTH1034054	Thiopental 500mg/20ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTTH1034055	Thiopental 500mg/20ml solution for injection pre-filled syringes (Special Order)
+^ESCTTH1034056	Thiopental 500mg/20ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTTH1034057	Thiopental 500mg/20ml solution for injection pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTTH1034058	Thiopental 500mg/20ml solution for injection pre-filled syringes 5 pre-filled disposable injection
+^ESCTTH1034059	Thiopental 500mg/20ml solution for injection pre-filled syringes (Special Order) 5 pre-filled disposable injection
+^ESCTTH1162829	Thiopental 500mg powder for solution for injection vials 10 vial
+^ESCTTH1162830	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd) 10 vial
+^ESCTTH377551	Thiopental sodium
+^ESCTTH616791	Thiopental 500mg powder for solution for injection vials
+^ESCTTH616793	Thiopental sodium 500mg injection (pdr for recon)
+^ESCTTH616794	Thiopental sodium 500mg powder for injection solution vial
+^ESCTTH618891	Thiopental
+^ESCTTH633940	Thiopental sodium 20mg/mL injection
+^ESCTTH892158	Thiopental 500mg powder for solution for injection vials 25 vial
+^ESCTTH892160	Thiopental 500mg powder for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTTH892162	Thiopental 500mg powder for solution for injection vials (A A H Pharmaceuticals Ltd) 25 vial
+^ESCTTH941293	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd)
+^ESCTTH941294	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd) 25 vial
+THPO24298NEMIS	Thiopental Powder For Solution For Injection 500 mg vial
+^ESCTTH377552	Thiopentone sodium
+^ESCTTH616792	Thiopentone sodium 500mg injection (pdr for recon)
+^ESCTTH616795	Thiopentone sodium 500mg powder for injection solution vial
+^ESCTTH618892	Thiopentone
+ADIN10050HILLI	Add-A-Med Thiopentone Sodium  Injection  5 g/vial
+ININ3765	Intraval Sodium  Injection  500 mg
+ININEGTON6356	Intraval Sodium  Injection  2.5 g vial
+THIN5440	Thiopentone Sodium  Injection  500 mg
+THIN6936	Thiopentone Sodium  Injection  2.5 g/vial
+THIN9427EMIS	Thiopentone Sodium  Injection  5 g/vial
+
