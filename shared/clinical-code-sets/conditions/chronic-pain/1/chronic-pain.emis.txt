@@ -1,0 +1,816 @@
+^ESCT1177680	CRPS - complex regional pain syndrome
+^ESCT1177683	Sudek atrophy
+^ESCT1178242	Traumatic injury of spinal cord and/or vertebral column
+^ESCT1178243	Traumatic injury of spine
+^ESCT1190225	Other symptoms - ankle
+^ESCT1190226	Metacarpophalangeal joint pain
+^ESCT1190227	First metatarsophalangeal joint pain
+^ESCT1190229	Interphalangeal joint of toe pain
+^ESCT1190230	Proximal interphalangeal joint of finger pain
+^ESCT1190231	Sacroiliac joint pain
+^ESCT1190232	Subtalar joint pain
+^ESCT1190233	Talonavicular joint pain
+^ESCT1190391	Seropositive errosive rheumatoid arthritis
+^ESCT1190544	Generalized aches and pains
+^ESCT1191394	[X]Arthritis+polyarthritis due/other specfd bacterial agents
+^ESCT1191956	[X]Other injury of lumbar spinal cord
+^ESCT1192317	Arthropathy associated with a hematological disorder
+^ESCT1192489	Nerve and spinal cord injuries
+^ESCT1192504	Morton neuroma
+^ESCT1193198	Multiple joint pain
+^ESCT1217236	Arthritis co-occurrent and due to rubella
+^ESCT1218542	Polyneuropathy due to diabetes mellitus
+^ESCT1218543	Polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222060	Lipoma of spinal epidural space
+^ESCT1222064	Mononeuritis multiplex co-occurrent and due to diabetes mellitus
+^ESCT1222065	Mononeuritis multiplex with diabetes mellitus
+^ESCT1222066	Asymptomatic neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222067	Asymptomatic neuropathy with diabetes mellitus
+^ESCT1222111	Neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222115	Mononeuropathy co-occurrent and due to diabetes mellitus
+^ESCT1233105	Mononeuropathy with type 2 diabetes mellitus
+^ESCT1233106	Mononeuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1233275	Mononeuropathy with type 1 diabetes mellitus
+^ESCT1233276	Mononeuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236372	Polyneuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236373	Polyneuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1236386	nr-axSpA - non-radiographic axial spondylitis
+^ESCT1245138	Spine or spinal cord injury due to birth trauma
+^ESCT1245169	Revision to open reduction spinal fracture and collar stabilisation
+^ESCT1245180	Revision to collar stabilisation of spinal fracture
+^ESCT1245185	Revision to closed reduction spinal fracture and collar stabilisation
+^ESCT1245243	Primary open reduction spinal fracture and collar stabilisation
+^ESCT1245246	Primary closed reduction spinal fracture and collar stabilisation
+^ESCT1245247	Primary collar stabilisation of spinal fracture
+^ESCT1245527	[D]Musculoskeletal symptoms
+^ESCT1245529	[D]Nervous system symptoms
+^ESCT1246984	[X]Inflammatory polyarthropathies
+^ESCT1248317	C/O - pain in toes
+^ESCT1248872	Fracture of spine with spinal cord lesion
+^ESCT1248873	Fracture of spine with spinal cord lesion NOS
+^ESCT1248874	Fracture of vertebra with spinal cord lesion
+^ESCT1249155	Radiculoplexoneuropathy due to diabetes mellitus
+^ESCT1249156	Diabetic radiculoplexus neuropathy
+^ESCT1270237	Mononeuropathy associated with type 1 diabetes mellitus
+^ESCT1270240	Mononeuropathy associated with type 2 diabetes mellitus
+^ESCT1270385	Post-dysenteric arthropathy
+^ESCT1271701	Mononeuritis of upper limb and mononeuritis multiplex
+^ESCT1271734	Arthritis associated with other disease, knee
+^ESCT1271742	Rheumatism and fibrositis unspecified
+^ESCT1271743	Rheumatism or fibrositis NOS
+^ESCT1271744	Myalgia and myositis unspecified
+^ESCT1271745	Myalgia or myositis NOS
+^ESCT1271765	[D]Other nervous and musculoskeletal symptoms
+^ESCT1271818	[D]Nervous or musculoskeletal symptoms NOS
+^ESCT1271999	Injury of spinal plexus
+^ESCT1272016	Localised osteoarthritis, unspecified, of the pelvic region and thigh
+^ESCT1272224	Joint ankylosis of the upper arm
+^ESCT1272225	Ankylosis of joint of forearm
+^ESCT1272226	Joint ankylosis of the lower leg
+^ESCT1272230	Certain congenital musculoskeletal deformities
+^ESCT1272236	Nerve roots and spinal plexus injuries
+^ESCT1275848	Localized osteoarthritis, unspecified, of the pelvic region and thigh
+^ESCT1275851	Ankylosis of joint of upper arm
+^ESCT1275852	Joint ankylosis of the forearm
+^ESCT1275853	Ankylosis of joint of lower leg
+^ESCT1377295	Calcific periarthritis
+^ESCT1377629	Reactive arthritis triad
+^ESCT1377630	Decreased stability of joint
+^ESCT1378155	Spinal cord syndrome
+^ESCT1379006	Neuropathic ulcer of foot due to diabetes mellitus
+^ESCT1379007	Neuropathic arthropathy due to diabetes mellitus
+^ESCT1379019	Palindromic rheumatism of shoulder region
+^ESCT1379020	Palindromic rheumatism of hand
+^ESCT1379021	Palindromic rheumatism of pelvic region and thigh
+^ESCT1379022	Palindromic rheumatism of ankle and/or foot
+^ESCT1379023	Instability of atlantooccipital joint
+^ESCT1379035	Cauda equina lesion co-occurrent and due to closed spinal fracture
+^ESCT1379036	Cauda equina lesion co-occurrent and due to open spinal fracture
+^ESCT1379239	Coxae malum senilis
+^ESCT1407131	Mononeuritis multiplex due to diabetes mellitus
+^ESCT1407132	Acute painful neuropathy due to diabetes mellitus
+^ESCT1407133	Chronic painful neuropathy due to diabetes mellitus
+^ESCT1407134	Asymptomatic neuropathy due to diabetes mellitus
+^ESCT1407135	Polyneuropathy due to amyloidosis
+^ESCT1407156	Cheiroarthropathy due to diabetes mellitus
+^ESCT1407192	Pain due to internal prosthetic device
+^ESCT1407242	Persistent post traumatic headache
+^ESCT1407243	PPTH - persistent post-traumatic headache
+^ESCT1407246	Neuropathy due to diabetes mellitus
+^ESCT1407250	Mononeuropathy due to diabetes mellitus
+^ESCT1407838	Arthropathy due to type 1 diabetes mellitus
+^ESCT1407840	Arthropathy due to type 2 diabetes mellitus
+^ESCT1408376	Mononeuropathy due to type 2 diabetes mellitus
+^ESCT1408386	Mononeuropathy due to type 1 diabetes mellitus
+^ESCT1419656	Charcot-Marie-Tooth disease type 3
+^ESCTAC314126	Acceleration-deceleration injury of neck
+^ESCTAC318261	Acquired polyneuropathy
+^ESCTAC373289	Acute juvenile rheumatoid arthritis
+^ESCTAC481405	Acromioclavicular joint pain
+^ESCTAF318164	AF type amyloidosis
+^ESCTAK513859	AKP - Anterior knee pain
+^ESCTAL262614	Alcoholic polyneuropathy
+^ESCTAL262616	Alcoholic peripheral neuropathy
+^ESCTAL481047	Allergic arthritis of the ankle and/or foot
+^ESCTAM256994	Amyloidosis, Indiana-Maryland type
+^ESCTAM477053	Amyloid polyneuropathy
+^ESCTAM511371	Amyloid arthritis
+^ESCTAM660013	Amyloidosis, type I
+^ESCTAN275476	Ankylosis of sacroiliac joint
+^ESCTAN288736	Ankylosis of hip joint
+^ESCTAN288737	Ankylosis of joint of thigh
+^ESCTAN326066	Ankylosis of vertebral column
+^ESCTAN342454	Ankylosis of hand
+^ESCTAN342455	Ankylosis of hand joint
+^ESCTAN392733	Ankylosis of lumbosacral joint
+^ESCTAN396697	Ankylosis of multiple sites
+^ESCTAN481258	Ankylosis of joint of shoulder region
+^ESCTAN481259	Ankylosis of shoulder
+^ESCTAN550241	Ankylosis of joint of pelvis and/or hip
+^ESCTAN550243	Ankylosis of joint of ankle AND/OR foot
+^ESCTAN550258	Ankle and/or foot joint pain
+^ESCTAN590358	Ankylosis of upper limb joint
+^ESCTAN590360	Ankylosis of lower limb joint
+^ESCTAN660015	Andrade syndrome
+^ESCTAP284225	AP - Abdominal pain
+^ESCTAP513648	Application of spinal traction system
+^ESCTAR254286	Articular crepitation
+^ESCTAR288235	Arthropathy associated with a haematological disorder
+^ESCTAR313876	Arthropathy associated with an endocrine AND/OR metabolic disorder
+^ESCTAR336509	Arthropathy associated with a hypersensitivity reaction
+^ESCTAR343730	Articular pain
+^ESCTAR352280	Arthropathy in Behcet syndrome
+^ESCTAR359861	Arthropathy associated with a neurological disorder
+^ESCTAR381424	Arthropathy in haemophilia
+^ESCTAR381425	Arthropathy in hemophilia
+^ESCTAR419268	Arthropathy associated with a mycosis
+^ESCTAR475938	Arthritis caused by Mycobacterium tuberculosis
+^ESCTAR480805	Arthropathy in Behcet syndrome of the shoulder region
+^ESCTAR480807	Arthropathy in Behcet syndrome of the hand
+^ESCTAR480809	Arthropathy in Behcet syndrome of the pelvic region and thigh
+^ESCTAR480810	Arthropathy in Behcet's syndrome of the ankle and/or foot
+^ESCTAR480812	Arthropathy in Behcet syndrome of the ankle and/or foot
+^ESCTAR480814	Arthropathy in Behcet syndrome of multiple sites
+^ESCTAR480830	Arthropathy associated with mycoses, of the ankle and/or foot
+^ESCTAR480894	Arthropathy associated with non-infective gastrointestinal disorder
+^ESCTAR480898	Arthropathy in Crohn disease
+^ESCTAR480899	Arthropathy associated with dermatological disorder
+^ESCTAR480901	Arthropathy associated with respiratory disorder
+^ESCTAR481410	Arthralgia of distal radioulnar joint
+^ESCTAR481422	Arthralgia of tibiofibular joint
+^ESCTAR511369	Arthritis secondary to amyloidosis
+^ESCTAR513907	Arthritis due to viral infection
+^ESCTAR513909	Arthritis caused by viral infection
+^ESCTAR513915	Arthritis due to parasitic infection
+^ESCTAR513919	Arthritis occurring after infection
+^ESCTAR513930	Arthritis following intestinal bypass
+^ESCTAR556045	Arthritis/arthrosis
+^ESCTAR726175	Arthropathy of ankle and/or foot
+^ESCTAS265343	AS - Ankylosing spondylitis
+^ESCTAS513950	AS - Juvenile ankylosing spondylitis
+^ESCTAT363651	Atrophic arthritis
+^ESCTAT481594	Atlantoaxial ankylosis
+^ESCTAT485162	Atlantoaxial joint sprain
+^ESCTAX770947	Axial spondyloarthritis without radiographic evidence of ankylosing spondylitis
+^ESCTBA385648	Basilar artery migraine
+^ESCTBA454511	Back ache
+^ESCTBE265339	Bekhterev's disease
+^ESCTBE379106	Beriberi neuropathy
+^ESCTBE408424	Benign exertional headache
+^ESCTBI385649	Bickerstaff's migraine
+^ESCTBO282161	Bouchard node
+^ESCTBR294912	Brown-S?quard syndrome
+^ESCTBU562078	Buttock pain
+^ESCTCA376342	Carcinomatous peripheral neuropathy
+^ESCTCA376343	Carcinomatous neuropathy
+^ESCTCE290032	Cephalalgia
+^ESCTCE290034	Cephalodynia
+^ESCTCE382831	Cervical pain
+^ESCTCE481596	Cervicothoracic ankylosis
+^ESCTCE485160	Cervical sprain
+^ESCTCE550268	Cervical neuritis
+^ESCTCE647809	Cervical osteoarthritis
+^ESCTCE647812	Cervical spondylarthritis
+^ESCTCE647813	Cervical spine degeneration
+^ESCTCH363652	Chronic rheumatic arthritis
+^ESCTCH387921	Chronic postrheumatic arthropathy
+^ESCTCH387924	Chronic post - rheumatic arthropathy
+^ESCTCH620348	Charcot's joint
+^ESCTCH620349	Charcot arthropathy
+^ESCTCH659674	Charcot-Marie-Tooth disease, type I
+^ESCTCH659679	Charcot-Marie-Tooth disease of demyelinating type
+^ESCTCH659681	Charcot Marie Tooth disease, type 1
+^ESCTCH659929	Charcot-Marie-Tooth disease, type II
+^ESCTCH659933	Charcot Marie Tooth disease, type 2
+^ESCTCL257016	Classical migraine
+^ESCTCL268768	Closed fracture of axis without spinal cord injury
+^ESCTCL330638	Closed traumatic dislocation of sacroiliac joint
+^ESCTCL476983	Cluster headache
+^ESCTCL481054	Climacteric arthritis of the ankle and/or foot
+^ESCTCL484062	Closed spinal fracture with central cervical cord lesion, C1-4
+^ESCTCL561833	CLBP - Chronic low back pain
+^ESCTCO306026	Coccyalgia
+^ESCTCO306027	Coccydynia
+^ESCTCO306028	Coccygalgia
+^ESCTCO306029	Coccyodynia
+^ESCTCO307464	Complication of medical care
+^ESCTCO369617	Congenital deformity of musculoskeletal system
+^ESCTCO369618	Congenital musculoskeletal abnormality
+^ESCTCO369619	Congenital malformation and deformation of the musculoskeletal system
+^ESCTCO369620	Congenital abnormality of musculoskeletal system
+^ESCTCO369621	Congenital malformation of musculoskeletal system
+^ESCTCO440542	Complex regional pain syndromes
+^ESCTCO440543	Complex regional pain syndrome (CRPS)
+^ESCTCO454518	Complaining of low back pain
+^ESCTCO454520	Complaining of upper back ache
+^ESCTCO454687	Complaining of pelvic pain
+^ESCTCO454689	Complaining of perineal pain
+^ESCTCO476993	Complex migraine
+^ESCTCO549862	Complaining of a pain
+^ESCTCO551912	Congenital unstable hip
+^ESCTCO553251	Complaining of a neck symptom
+^ESCTCO553280	Complaining of a headache
+^ESCTCO553313	Complaining of loin pain
+^ESCTCO600045	C/O - pain in toe
+^ESCTCO600047	Complaining of pain in toe
+^ESCTCO600050	Complaining of pain in hallux
+^ESCTCO660016	Corino de Andrade paramyloidosis
+^ESCTCO676643	Complex regional pain syndrome, type II
+^ESCTCP559704	CPSP - Central post-stroke pain
+^ESCTCR440545	CRPS - complex regional pain syndrome
+^ESCTCR500983	Critical illness-associated polyneuropathy
+^ESCTCR676645	CRPS - Complex regional pain syndrome type II
+^ESCTCS647811	CS - Cervical spondylosis
+^ESCTD?419639	D?j?rine-Sottas disease
+^ESCTDE373383	Decapitated migraine
+^ESCTDE514032	Degenerative joint disease of spinal facet joint
+^ESCTDE514033	Degenerative arthropathy of spinal facet joint
+^ESCTDE514036	Degenerative joint disease of acromioclavicular joint
+^ESCTDE514039	Degenerative joint disease of elbow
+^ESCTDE514042	Degenerative joint disease of wrist
+^ESCTDE514045	Degenerative joint disease of finger
+^ESCTDE514048	Degenerative joint disease of distal interphalangeal joint
+^ESCTDE514050	Degenerative joint disease of proximal interphalangeal joint
+^ESCTDE514055	Degenerative joint disease of hip
+^ESCTDE514058	Degenerative joint disease of knee
+^ESCTDE514063	Degenerative joint disease of ankle
+^ESCTDE514067	Degenerative joint disease of subtalar joint
+^ESCTDE514070	Degenerative joint disease of first metatarsophalangeal joint
+^ESCTDE514074	Degenerative joint disease of toe joint
+^ESCTDE557212	Degenerative joint disease of metacarpophalangeal joint
+^ESCTDE598651	Degenerative joint disease of foot
+^ESCTDE656677	Degenerative arthritis
+^ESCTDE656680	Degenerative joint disease
+^ESCTDE656683	Degenerative arthropathy
+^ESCTDE676644	Deafferentation pain
+^ESCTDI267034	Diffuse interstitial rheumatoid disease of lung
+^ESCTDI412567	Disorder of connective tissue
+^ESCTDI480888	Diabetic hand syndrome
+^ESCTDI480889	Diabetic cheirarthropathy
+^ESCTDI480892	Diabetic neuropathic arthropathy
+^ESCTDI481409	Distal radioulnar joint pain
+^ESCTDI481417	Distal interphalangeal joint of finger pain
+^ESCTDI500985	Diphtheritic neuropathy
+^ESCTDI553235	Disorders of musculoskeletal implants and repairs
+^ESCTDI553236	Disorders of musculoskeletal prostheses, implants or repairs
+^ESCTDI662001	Disorder of joint
+^ESCTDI708735	Disorder of joint of hand
+^ESCTDI786158	Diabetic radiculoplexus neuropathy
+^ESCTDI802246	Diabetic neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTDI802247	Diabetes mellitus type 1 with diabetic Charcot's arthropathy
+^ESCTDN818852	[D]Nervous and musculoskeletal symptoms
+^ESCTDO285453	Dolor
+^ESCTDP834330	DPNP - diabetic peripheral neuropathic pain
+^ESCTDR261682	Drug-related polyneuropathy
+^ESCTDU661757	Duplay's periarthritis syndrome
+^ESCTEA341836	EARA - Enteric acquired reactive arthritis
+^ESCTEN341834	Enteric reactive arthritis
+^ESCTEN341835	Enteric acquired reactive arthritis
+^ESCTEN551733	Endemic polyarthritis
+^ESCTER341837	ERA - Enteric reactive arthritis
+^ESCTEX408425	Exertion-induced headache
+^ESCTFA254287	False crepitus
+^ESCTFA256991	Familial amyloid polyneuropathy, type II
+^ESCTFA256992	Familial amyloid polyneuropathy, 84 Ser-for-Ile
+^ESCTFA256993	Familial amyloid polyneuropathy, Indiana-Swiss type
+^ESCTFA318163	Familial amyloid polyneuropathy
+^ESCTFA318165	Familial polyneuropathic amyloidosis
+^ESCTFA318166	Familial neuropathic amyloidosis
+^ESCTFA524320	Facet joint pain
+^ESCTFA660006	Familial amyloid neuropathy, Andrade type
+^ESCTFA660008	Familial amyloid polyneuropathy, 30 Met-for-Val
+^ESCTFA660009	Familial amyloid neuropathy, Portuguese type
+^ESCTFI362587	Fistula into joint
+^ESCTFL477018	FLS - Phantom limb syndrome
+^ESCTFO301029	Fothergill's neuralgia
+^ESCTFO356199	Forestier-Certonciny syndrome
+^ESCTFR252608	Fracture of vertebral column with spinal cord injury
+^ESCTFR437885	Fracture of cervical vertebra
+^ESCTFR484055	Fracture of lumbar spine and/or pelvis
+^ESCTFR550979	Fracture of spine without spinal cord injury
+^ESCTFR556067	Fracture of cervical spine with cord lesion
+^ESCTFR556068	Fracture of thoracic spine with cord lesion
+^ESCTFR556069	Fracture of lumbar spine with cord lesion
+^ESCTGE256998	German type amyloid polyneuropathy
+^ESCTGE385030	Generalized body aches
+^ESCTGE385031	Generalized pain
+^ESCTGE385032	Generalised pain
+^ESCTGE385034	Generalised body aches
+^ESCTGE454766	Generalized headache
+^ESCTGE480942	Generalized osteoarthritis
+^ESCTGE480943	Generalized osteoarthrosis
+^ESCTGE480944	Generalised osteoarthrosis
+^ESCTGE481086	Generalized arthritis
+^ESCTGE550226	Generalized osteoarthritis of the hand
+^ESCTGO299971	Gonalgia
+^ESCTGO480941	GOA - Generalized osteoarthritis
+^ESCTGO480946	GOA - Generalised osteoarthritis
+^ESCTGO514059	Gonarthrosis
+^ESCTHA290035	HA - Headache
+^ESCTHA381423	Haemophilic arthritis
+^ESCTHE256995	Hereditary neuropathic amyloidosis, type II
+^ESCTHE290031	Head pain
+^ESCTHE290554	Heredopathia atactica polyneuritiformis
+^ESCTHE290556	Heredoataxia hemeralopica polyneuritiformis
+^ESCTHE290558	Hereditary sensory-motor neuropathy, type IV
+^ESCTHE290560	Hereditary motor and sensory neuropathy, type IV
+^ESCTHE290563	Heredoataxic atactica polyneuritiformis
+^ESCTHE290564	Heredoataxic hemeralopica polyneuritiformis
+^ESCTHE331684	Hench-Rosenberg syndrome
+^ESCTHE381422	Hemophilic arthropathy
+^ESCTHE381426	Hemophilic arthritis
+^ESCTHE419640	Hereditary sensory-motor neuropathy, type III
+^ESCTHE419641	Hereditary hypertrophic neuropathy
+^ESCTHE419644	Hereditary motor and sensory neuropathy, type III
+^ESCTHE635761	Heberden node
+^ESCTHE659675	Hereditary sensory-motor neuropathy, type I
+^ESCTHE659771	Hereditary sensory and motor neuropathy
+^ESCTHE659772	Hereditary sensory-motor neuropathy
+^ESCTHE659777	Hereditary sensorimotor neuropathy
+^ESCTHE660007	Hereditary amyloid polyneuropathy Portuguese type
+^ESCTHE660010	Hereditary neuropathic amyloidosis, type I
+^ESCTHI476988	Histamine cephalgia
+^ESCTHI476990	Histamine headache
+^ESCTHM419646	HMSN III
+^ESCTHM659774	HMSN
+^ESCTHM659775	HMSN - Hereditary motor and sensory neuropathy
+^ESCTHO308579	Hot pain
+^ESCTHO476986	Horton's headache
+^ESCTHO476991	Horton's neuralgia
+^ESCTHO482036	HOA - Hypertrophic osteoarthropathy
+^ESCTHP482040	HPOA - Hypertrophic pulmonary osteoarthropathy
+^ESCTHS290561	HSMN IV
+^ESCTHS419645	HSMN III
+^ESCTHS659680	HSMN, type I
+^ESCTHS659773	HSMN
+^ESCTHS659776	HSMN - Hereditary sensory and motor neuropathy
+^ESCTHY419647	Hypertrophic hereditary neuropathy
+^ESCTHY419649	Hypertrophic demyelinative neuropathy of infancy
+^ESCTHY656679	Hypertrophic arthritis
+^ESCTHY656681	Hypertrophic polyarthritis
+^ESCTID265342	Idiopathic ankylosing spondylitis
+^ESCTIL701525	Iliotibial band syndrome
+^ESCTIN255827	Inflammatory arthritis
+^ESCTIN256996	Indiana-Maryland type amyloid polyneuropathy
+^ESCTIN298420	Interdigital neuralgia
+^ESCTIN298421	Interdigital neuroma
+^ESCTIN311610	Instability of lumbosacral joint
+^ESCTIN361381	Inflammation of hip joint
+^ESCTIN528060	Instability of knee joint
+^ESCTIN528062	Instability of knee
+^ESCTIN605117	Insulin dependent diabetes mellitus with arthropathy
+^ESCTIN659677	Inherited dominant hypertrophic neuropathy
+^ESCTIN659930	Inherited neuronal peroneal muscular atrophy
+^ESCTIN690590	Inflammatory arthritis of multiple joints
+^ESCTIN728329	Inflammation of joint of shoulder region
+^ESCTIN735430	Inflammation of joint of foot
+^ESCTIN735725	Inflammation of joint of hand
+^ESCTIN768624	Intermittent effusion of joint
+^ESCTIN783483	Injury of lumbar spinal cord
+^ESCTIO264567	Iowa type amyloidosis
+^ESCTIO264572	Iowa type amyloid polyneuropathy
+^ESCTJA387922	Jaccoud's arthritis
+^ESCTJA387923	Jaccoud's disease
+^ESCTJA387925	Jaccoud syndrome
+^ESCTJA660019	Japanese type amyloid polyneuropathy
+^ESCTJC370926	JCA - Pauciarticular onset juvenile chronic arthritis
+^ESCTJC513938	JCA - Juvenile chronic arthritis
+^ESCTJO254288	Joint crackle
+^ESCTJO254289	Joint crepitation
+^ESCTJO255829	Joint inflammation
+^ESCTJO359611	Joint unsteady
+^ESCTJO359612	Joint gives way
+^ESCTJO431391	Joint observation
+^ESCTJO437892	Joint injury
+^ESCTJO550245	Joint ankylosis of the ankle AND/OR foot
+^ESCTJO662000	Joint disease
+^ESCTJR680258	JRA - Juvenile rheumatoid arthritis
+^ESCTJU480935	Juvenile arthritis in Crohn disease
+^ESCTJU513936	Juvenile chronic arthritis
+^ESCTJU513946	Juvenile psoriatic arthritis with psoriasis
+^ESCTJU680265	Juvenile chronic arthritis, polyarticular seronegative
+^ESCTJU680266	Juvenile idiopathic arthritis, polyarthritis, rheumatoid factor negative
+^ESCTKA551729	Kashin-Bek disease
+^ESCTKA551730	Kaschin-Beck disease
+^ESCTKA551732	Kashin-Beck disease
+^ESCTKN514060	Knee DJD (degenerative joint disease)
+^ESCTKO476314	Korsakov alcoholic psychosis with peripheral neuritis
+^ESCTLB562068	LBP - Low back pain
+^ESCTLE481432	Lesser metatarsophalangeal joint pain
+^ESCTLI397618	Limb pain
+^ESCTLO304644	Localised osteoarthrosis
+^ESCTLO304645	Localized osteoarthrosis
+^ESCTLO304646	Localized osteoarthritis
+^ESCTLO304647	Localized osteoarthropathy
+^ESCTLO304648	Localised osteoarthropathy
+^ESCTLO480952	Localized, primary osteoarthritis
+^ESCTLO480956	Localized, primary osteoarthritis of the shoulder region
+^ESCTLO480960	Localized, primary osteoarthritis of the hand
+^ESCTLO480964	Localized, primary osteoarthritis of the pelvic region and thigh
+^ESCTLO480966	Localized, primary osteoarthritis of the ankle and foot
+^ESCTLO480968	Localized, primary osteoarthritis of the ankle and/or foot
+^ESCTLO480976	Localized, secondary osteoarthritis
+^ESCTLO480980	Localized, secondary osteoarthritis of the shoulder region
+^ESCTLO480984	Localized, secondary osteoarthritis of the hand
+^ESCTLO480987	Localised, secondary osteoarthritis of the ankle and/or foot
+^ESCTLO480988	Localized, secondary osteoarthritis of the ankle and foot
+^ESCTLO480990	Localized, secondary osteoarthritis of the ankle and/or foot
+^ESCTLO550228	Localized, secondary osteoarthritis of the pelvic region and thigh
+^ESCTLO562069	Low back syndrome
+^ESCTLO602802	Localized, primary osteoarthritis of the wrist
+^ESCTLO602804	Localized, primary osteoarthritis of toe
+^ESCTLO602806	Localized, primary osteoarthritis of elbow
+^ESCTLO656787	Locomotor pain disorder
+^ESCTLU562070	Lumbalgia
+^ESCTLU562072	Lumbar pain
+^ESCTMA265336	Marie Str?mpell spondylitis
+^ESCTMA265341	Marie-Strumpell spondylitis
+^ESCTMA468488	Manipulation of spinal fracture
+^ESCTMA482039	Marie Bamberger disease
+^ESCTMA561299	Managing pain
+^ESCTME307465	Medical care complication
+^ESCTMO298415	Morton's neuroma
+^ESCTMO298416	Morton's metatarsalgia
+^ESCTMO298418	Morton's toe
+^ESCTMO298419	Morton's disease
+^ESCTMO298424	Mortons neuroma
+^ESCTMO480934	Monoarticular juvenile rheumatoid arthritis
+^ESCTMO695412	Mononeuropathy associated with type II diabetes mellitus
+^ESCTMO696275	Mononeuropathy associated with type I diabetes mellitus
+^ESCTMU308319	Multiple joint disease
+^ESCTMU362158	Muscle ache
+^ESCTMU387045	Multicentric reticulohistiocytosis
+^ESCTMU476934	Multiple sclerosis (MS) exacerbation
+^ESCTMU484057	Multiple fractures of lumbar spine and/or pelvis
+^ESCTMU484167	Multiple fracture of thoracic vertebrae
+^ESCTMU656788	Musculoskeletal pain disorder
+^ESCTMU659830	Muscle contraction headache
+^ESCTMU704528	Multiple sclerosis (MS) secondary progressive
+^ESCTMU709235	Multiple sclerosis (MS) primary progressive
+^ESCTMY362159	Myodynia
+^ESCTMY362160	Myosalgia
+^ESCTMY362161	Myoneuralgia
+^ESCTNE286761	Neuralgia-neuritis of sciatic nerve
+^ESCTNE318167	Neuropathic heredofamilial amyloidosis
+^ESCTNE338445	Neuropathy due to nutritional factors
+^ESCTNE338446	Neuropathy due to deficiency syndrome
+^ESCTNE346615	Neurotrophic ulcer of the foot
+^ESCTNE374382	Nerve pain from shingles
+^ESCTNE379109	Neuropathic beriberi
+^ESCTNE379110	Neuropathy due to vitamin B1 deficiency
+^ESCTNE382832	Neck ache
+^ESCTNE397032	Neck injury
+^ESCTNE454504	Neck stiffness
+^ESCTNE476989	Neuralgic migraine
+^ESCTNE477043	Neuropathy in vasculitis and connective tissue disease
+^ESCTNE477057	Neuropathy associated with hypoglycaemia
+^ESCTNE477059	Neuropathy associated with hypoglycemia
+^ESCTNE486783	Neurological injury of neck
+^ESCTNE500951	Neuropathy associated with endocrine disorder
+^ESCTNE500984	Neuropathy due to infection
+^ESCTNE644909	Neuropathy (nerve damage)
+^ESCTNE802244	Neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTNI387047	Nicolau-Balus syndrome
+^ESCTNO382830	Nonspecific pain in the neck region
+^ESCTNO387926	Non-deforming erosive arthropathy
+^ESCTNO562073	Nonspecific pain in the lumbar region
+^ESCTNO770949	non-radiographic axial spondylitis
+^ESCTNR770948	nr-axSpA
+^ESCTNS454503	NS - Neck stiffness
+^ESCTOA264120	OA - Osteoarthritis of the spine
+^ESCTOA264121	OA - Osteoarthritis of spine
+^ESCTOA359494	OA - Osteoarthritis of shoulder
+^ESCTOA514035	OA - Osteoarthritis of acromioclavicular joint
+^ESCTOA514038	OA - Osteoarthritis of elbow
+^ESCTOA514041	OA - Osteoarthritis of wrist
+^ESCTOA514044	OA - Osteoarthritis of joint of finger
+^ESCTOA514054	OA - Osteoarthritis of hip
+^ESCTOA514057	OA - Osteoarthritis of knee
+^ESCTOA514062	OA - Osteoarthritis of ankle
+^ESCTOA514066	OA - Osteoarthritis of subtalar joint
+^ESCTOA514069	OA - Osteoarthritis of first metatarsophalangeal joint
+^ESCTOA514073	OA - Osteoarthritis of toe joint
+^ESCTOA656676	OA - Osteoarthritis
+^ESCTOA656678	OA - Osteoarthrosis
+^ESCTOB590518	Observation of limb structure
+^ESCTOB590519	Observation of the extremities
+^ESCTOC314101	Ochronotic arthritis
+^ESCTOC406038	Ocular migraine
+^ESCTON358552	ON - Optic neuritis
+^ESCTON408417	One sided headache
+^ESCTOP281262	Open reduction of spinal fracture
+^ESCTOP513646	Operation for spinal trauma
+^ESCTOP546185	Open fracture of first cervical vertebra without spinal cord lesion
+^ESCTOP546188	Open fracture of second cervical vertebra without spinal cord lesion
+^ESCTOS270029	Osteodynia
+^ESCTOS285346	Osteoarthritis - hand joint
+^ESCTOS285347	Osteoarthrosis of hand
+^ESCTOS311035	Osteoarthritis of first carpometacarpal joint
+^ESCTOS311036	Osteoarthritis basilar joint of thumb
+^ESCTOS359495	Osteoarthritis of shoulder joint
+^ESCTOS359497	Osteoarthritis of shoulder region
+^ESCTOS514043	Osteoarthritis of finger joint
+^ESCTOS514071	Osteoarthritis of first MTPJ (metatarsophalangeal joint)
+^ESCTOS656682	Osteoarthrosis
+^ESCTOS730877	Osteoarthritis of pelvis
+^ESCTOS738000	Osteoarthritis of patellofemoral joint
+^ESCTOT514079	Otto pelvis
+^ESCTPA266075	Pain in ball of foot
+^ESCTPA275801	Paroxysmal nerve pain
+^ESCTPA279967	Pain in finger
+^ESCTPA285454	Painful
+^ESCTPA285455	Part hurts
+^ESCTPA285456	Pain observations
+^ESCTPA306024	Pain in the coccyx
+^ESCTPA336034	Painful hand
+^ESCTPA343729	Painful joint
+^ESCTPA370925	Pauciarticular juvenile rheumatoid arthritis
+^ESCTPA370927	Pauciarticular onset juvenile arthritis
+^ESCTPA376344	Paraneoplastic polyneuropathy
+^ESCTPA382828	Painful neck
+^ESCTPA406062	Pain of face
+^ESCTPA407689	Pain of upper limb
+^ESCTPA454512	Pain in back
+^ESCTPA481398	Palindromic rheumatism of the ankle and/or foot
+^ESCTPA482038	Pachydermoperiostitis acquired
+^ESCTPA570037	Pain in toe
+^ESCTPA572183	Pain in left lower limb
+^ESCTPA572184	Pain in left leg
+^ESCTPA572185	Pain in right lower limb
+^ESCTPA572186	Pain in right leg
+^ESCTPA573082	Pain in limb - multiple
+^ESCTPA588713	Pain in calf
+^ESCTPE346613	Perforating ulcer of the foot
+^ESCTPE346614	Perforating neurotrophic ulcer of the foot
+^ESCTPE659676	Peroneal muscular atrophy of demyelinating type
+^ESCTPE659932	Peroneal muscular atrophy of neuronal type
+^ESCTPE661758	Pericapsulitis of shoulder
+^ESCTPH253365	PHN - Post-herpetic neuralgia
+^ESCTPH290552	Phytanic acid storage disease
+^ESCTPH477016	Phantom limb
+^ESCTPL477019	PLS - Phantom limb syndrome
+^ESCTPM356202	PMR - Polymyalgia rheumatica
+^ESCTPO261681	Polyneuropathy due to drug
+^ESCTPO261683	Polyneuropathy caused by drug
+^ESCTPO268225	Posterior sensory radicular neuropathy
+^ESCTPO307451	Polyarthralgia
+^ESCTPO318262	Polyneuropathy (multiple nerve disorder)
+^ESCTPO323617	Polyneuropathy due to toxic agents
+^ESCTPO344532	Posttraumatic arthropathy
+^ESCTPO374381	Postherpetic polyneuropathy
+^ESCTPO375016	Polyneuritis
+^ESCTPO442851	Porphyric polyneuropathy
+^ESCTPO477041	Post-infectious polyneuritis
+^ESCTPO477050	Polyneuropathy associated with another disorder
+^ESCTPO477054	Polyneuropathy due to vitamin B deficiency
+^ESCTPO477060	Polyneuropathy in hypoglycemia
+^ESCTPO480816	Post-dysenteric reactive arthropathy of the shoulder region
+^ESCTPO480817	Post-dysenteric reactive arthropathy of the hand
+^ESCTPO480818	Post-dysenteric reactive arthropathy of the pelvic region and thigh
+^ESCTPO480819	Post-dysenteric reactive arthropathy of the ankle and/or foot
+^ESCTPO480820	Post-dysenteric reactive arthropathy of the ankle and foot
+^ESCTPO480821	Post-dysenteric reactive arthropathy of multiple sites
+^ESCTPO480903	Post-infective arthropathy in syphilis
+^ESCTPO500845	Post-traumatic headache
+^ESCTPO513918	Post-infective arthropathy
+^ESCTPO513926	Post-immunisation arthritis
+^ESCTPO513927	Post-immunization arthritis
+^ESCTPO513928	Post-immunisation arthropathy
+^ESCTPO513929	Post-immunization arthropathy
+^ESCTPO550222	Post-genitourinary infection reactive arthritis
+^ESCTPO660011	Portuguese polyneuritic amyloidosis
+^ESCTPO660018	Portuguese type amyloid polyneuropathy
+^ESCTPO687077	Post-genitourinary infection Reiter's disease
+^ESCTPO687078	Post-genitourinary infection Reiter disease
+^ESCTPO770809	Polyneuropathy due to type 1 diabetes mellitus
+^ESCTPO770812	Polyneuropathy due to diabetes mellitus type II
+^ESCTPR363657	Proliferative arthritis
+^ESCTPR419643	Progressive hypertrophic interstitial neuropathy
+^ESCTPR468492	Primary bedrest stabilization of spinal fracture
+^ESCTPR468493	Primary collar stabilisation of cervical spine fracture
+^ESCTPR468495	Primary collar stabilization of cervical spine fracture
+^ESCTPR468497	Primary skull traction stabilization of spinal fracture
+^ESCTPR468499	Primary cast stabilization of spinal fracture
+^ESCTPR468501	Primary external fixation stabilization of spinal fracture
+^ESCTPR468513	Primary closed reduction cervical spine fracture and collar stabilisation
+^ESCTPR468515	Primary closed reduction cervical spine fracture and collar stabilization
+^ESCTPR468517	Primary closed reduction spinal fracture and bedrest stabilization
+^ESCTPR468519	Primary closed reduction spinal fracture and skull traction stabilization
+^ESCTPR468521	Primary closed reduction spinal fracture and cast stabilization
+^ESCTPR468533	Primary open reduction of cervical spine fracture and collar stabilisation
+^ESCTPR468535	Primary open reduction of cervical spine fracture and collar stabilization
+^ESCTPR468537	Primary open reduction spinal fracture and bedrest stabilization
+^ESCTPR468539	Primary open reduction spinal fracture and skull traction stabilization
+^ESCTPR468541	Primary open reduction spinal fracture and cast stabilization
+^ESCTPR480953	Primary localised osteoarthrosis
+^ESCTPR480954	Primary localized osteoarthrosis
+^ESCTPR480957	Primary localised osteoarthrosis of shoulder region
+^ESCTPR480958	Primary localized osteoarthrosis of shoulder region
+^ESCTPR480961	Primary localized osteoarthrosis of hand
+^ESCTPR480962	Primary localised osteoarthrosis of hand
+^ESCTPR480969	Primary localized osteoarthrosis of ankle AND/OR foot
+^ESCTPR480970	Primary localised osteoarthrosis of ankle AND/OR foot
+^ESCTPR600616	Primary closed reduction of spinal fracture
+^ESCTPR600618	Primary open reduction of spinal fracture
+^ESCTPS513958	Psoriatic arthritis with distal interphalangeal joint involvement
+^ESCTPY562079	Pygalgia
+^ESCTRA257000	Rakavina type amyloidosis
+^ESCTRA267571	Radicular syndrome of upper limbs
+^ESCTRA363654	RA - Rheumatoid arthritis
+^ESCTRA786157	Radiculoplexoneuropathy due to diabetes mellitus
+^ESCTRE290555	Refsum syndrome
+^ESCTRE290557	Refsum-Thi?baut disease
+^ESCTRE290559	Refsum-Thiebaut disease
+^ESCTRE359322	Reiter's syndrome
+^ESCTRE359324	Reiter disease
+^ESCTRE468503	Revision to bedrest stabilization of spinal fracture
+^ESCTRE468504	Revision to collar stabilisation of cervical spine fracture
+^ESCTRE468506	Revision to collar stabilization of cervical spine fracture
+^ESCTRE468508	Revision to skull traction stabilization of spinal fracture
+^ESCTRE468510	Revision to cast stabilization of spinal fracture
+^ESCTRE468512	Revision to external fixation stabilization of spinal fracture
+^ESCTRE468523	Revision to closed reduction of cervical spine fracture and collar stabilisation
+^ESCTRE468525	Revision to closed reduction of cervical spine fracture and collar stabilization
+^ESCTRE468527	Revision to closed reduction spinal fracture and bedrest stabilization
+^ESCTRE468529	Revision to closed reduction spinal fracture and skull traction stabilization
+^ESCTRE468531	Revision to closed reduction spinal fracture and cast stabilization
+^ESCTRE468543	Revision to open reduction of cervical spine fracture and collar stabilisation
+^ESCTRE468545	Revision to open reduction of cervical spine fracture and collar stabilization
+^ESCTRE468547	Revision to open reduction spinal fracture and bedrest stabilization
+^ESCTRE468549	Revision to open reduction spinal fracture and skull traction stabilization
+^ESCTRE468551	Revision to open reduction spinal fracture and cast stabilization
+^ESCTRE480848	Reactive arthropathy of distal radioulnar joint
+^ESCTRE480854	Reactive arthropathy of sacroiliac joint
+^ESCTRE480856	Reactive arthropathy of tibiofibular joint
+^ESCTRE480861	Reactive arthropathy of first metatarsophalangeal joint
+^ESCTRE513920	Reactive arthritis
+^ESCTRE600617	Revision closed reduction of spinal fracture
+^ESCTRE600619	Revision open reduction of spinal fracture
+^ESCTRH265337	Rheumatoid spondylitis
+^ESCTRH356200	Rhizomelic pseudopolyarthritis
+^ESCTRH363653	Rheumatic gout
+^ESCTRH363655	Rheumatoid disease
+^ESCTRH363656	RhA - Rheumatoid arthritis
+^ESCTRH480910	Rheumatoid arthritis of distal radioulnar joint
+^ESCTRH480918	Rheumatoid arthritis of tibiofibular joint
+^ESCTRH480922	Rheumatoid arthritis of first metatarsophalangeal joint
+^ESCTRH572143	Rheumatoid arthritis of multiple joints
+^ESCTRH709964	Rheumatoid arthritis of foot
+^ESCTRU280839	Rubella arthritis
+^ESCTSA339520	Sacroiliac joint inflamed
+^ESCTSA339521	Sacroiliac joint active
+^ESCTSA477062	Sarcoid neuropathy
+^ESCTSA550223	SARA - Sexually acquired reactive arthritis
+^ESCTSC286762	Sciatic neuralgia
+^ESCTSC286763	Sciatica neuralgia
+^ESCTSC397208	SCI - Spinal cord injury
+^ESCTSE352279	Seronegative arthritis secondary to Behcet's syndrome
+^ESCTSE356201	Senile arthritis
+^ESCTSE480801	Sexually acquired reactive arthropathy of the ankle and/or foot
+^ESCTSE480823	Seronegative arthritis secondary to Whipple's disease
+^ESCTSE480826	Seronegative arthritis secondary to Whipple disease
+^ESCTSE480977	Secondary localized osteoarthrosis
+^ESCTSE480978	Secondary localised osteoarthrosis
+^ESCTSE480981	Secondary localized osteoarthrosis of shoulder region
+^ESCTSE480982	Secondary localised osteoarthrosis of shoulder region
+^ESCTSE480985	Secondary localised osteoarthrosis of hand
+^ESCTSE480986	Secondary localized osteoarthrosis of hand
+^ESCTSE480991	Secondary localised osteoarthrosis of ankle AND/OR foot
+^ESCTSE480992	Secondary localized osteoarthrosis of ankle AND/OR foot
+^ESCTSE513904	Septic arthritis of wrist
+^ESCTSE513906	Septic arthritis of elbow
+^ESCTSE513972	Secondary inflammatory arthritis
+^ESCTSE550224	Sexually acquired reactive arthritis
+^ESCTSH323126	Shoulder region pain
+^ESCTSI257870	Sinus pain
+^ESCTSI269926	SIJ - Sprain of sacroiliac joint
+^ESCTSI269928	SIJ - Sprain of ligament of sacroiliac joint
+^ESCTSI545386	SI - Spinal injury
+^ESCTSP264118	Spondylarthrosis
+^ESCTSP264122	Spondarthropathy
+^ESCTSP265338	Spondylosis deformans
+^ESCTSP269923	Sprain of sacroiliac ligament
+^ESCTSP269927	Sprain of sacroiliac joint
+^ESCTSP279162	Spinal stenosis of lumbar region
+^ESCTSP316622	Spinal stenosis of thoracic region
+^ESCTSP385963	Spinal stenosis in cervical region
+^ESCTSP386925	Spondarthritis
+^ESCTSP485151	Sprain of ligament of lumbosacral joint
+^ESCTSP546107	Sprain of ligament of elbow
+^ESCTSP546108	Sprain of elbow joint
+^ESCTSP546109	Sprain of elbow
+^ESCTSP750916	Spine injury due to birth trauma
+^ESCTSS373805	SS - Spinal stenosis
+^ESCTST481403	Sternoclavicular joint pain
+^ESCTST527821	Stiff back
+^ESCTSU567208	Superficial injury of head and neck
+^ESCTTA254238	Talalgia
+^ESCTTH379107	Thiamine deficiency neuropathy
+^ESCTTH647818	Thoracic spondylarthritis
+^ESCTTH647819	Thoracic osteoarthritis
+^ESCTTI481421	Tibiofibular joint pain
+^ESCTTN301030	TN - Trigeminal neuralgia
+^ESCTTO323615	Toxic polyneuropathy
+^ESCTTR301028	Trifacial neuralgia
+^ESCTTR344533	Traumatic arthritis
+^ESCTTR481016	Traumatic arthropathy of the ankle and/or foot
+^ESCTTR481023	Traumatic arthropathy of elbow
+^ESCTTR481024	Traumatic arthropathy of distal radioulnar joint
+^ESCTTR481026	Traumatic arthropathy of wrist
+^ESCTTR481031	Traumatic arthropathy of hip
+^ESCTTR481032	Traumatic arthropathy of sacroiliac joint
+^ESCTTR481034	Traumatic arthropathy of knee
+^ESCTTR481035	Traumatic arthropathy of tibiofibular joint
+^ESCTTR481037	Traumatic arthropathy of ankle
+^ESCTTR481041	Traumatic arthropathy of first metatarsophalangeal joint
+^ESCTTR638282	Traumatic arthropathy of lower extremity
+^ESCTTU475936	Tuberculous arthropathy
+^ESCTTU475937	Tuberculous rheumatism
+^ESCTUN359610	Unstable joint
+^ESCTUR359321	Urethrooculoarticular syndrome
+^ESCTUR477064	Uraemic polyneuropathy
+^ESCTUR477065	Uremic polyneuropathy
+^ESCTUR551731	Urov disease
+^ESCTVA264568	van Allen type amyloidosis
+^ESCTVA476987	Vasomotor headache
+^ESCTVE385650	Vertebrobasilar migraine
+^ESCTVI338444	Vitamin deficiency related neuropathy
+^ESCTVI379108	Vitamin B>1< deficiency neuropathy
+^ESCTVI513908	Viral arthritis
+^ESCTWH314125	Whiplash injury to neck
+^ESCTWH480824	Whipple's arthralgia
+^ESCTWO660017	Wohlwill-Corino Andrade syndrome
+EGTON444	Gluteal muscle injury
+EMISLO2	Loss of concentration
+EMISNQAR8	Arthropathy in Cystic Fibrosis
+EMISNQAX1	Axonal sensorimotor neuropathy
+EMISNQAX2	Axial spondyloarthritis
+EMISNQBO1	Bone pain absent
+EMISNQBO2	Bone pain present
+EMISNQBO3	Bone pain control
+EMISNQBR27	Brown-Sequard syndrome
+EMISNQCE10	Central post-stroke pain
+EMISNQCH136	Chronic pain review
+EMISNQCH43	Chronic headache disorder
+EMISNQCH57	Chronic Paroxysmal Hemicrania
+EMISNQCO32	Coital headache
+EMISNQCO72	Complex regional pain syndrome NOS
+EMISNQCR9	Critical illness polyneuropathy
+EMISNQEA2	Early warning sign of possible relapse
+EMISNQMI188	Mixed connective tissue disease
+EMISNQMU1	Musculoskeletal pain absent
+EMISNQMU15	Musculoskeletal symptom
+EMISNQMU2	Musculoskeletal pain present
+EMISNQMU3	Musculoskeletal pain mild
+EMISNQMU4	Musculoskeletal pain moderate
+EMISNQMU5	Musculoskeletal pain severe
+EMISNQMU6	Musculoskeletal pain very severe
+EMISNQMU7	Musculoskeletal pain control
+EMISNQNE5	Nerve root pain present
+EMISNQNE6	Nerve root pain absent
+EMISNQNE7	Nerve root pain control
+EMISNQNO10	Non-mechanical back pain
+EMISNQNO128	Non-radiographic axial spondyloarthritis
+EMISNQOS6	Osteoarthritis of spinal facet joint
+EMISNQPA154	Pain provoked by light
+EMISNQPA156	Pain management
+EMISNQPA382	Pain provoked by sleeping position
+EMISNQPA383	Pain improving
+EMISNQPA384	Pain level static
+EMISNQPE36	Perceived lack of control over life
+EMISNQRE122	Remitting seronegative symmetrical synovitis with pitting oedema
+EMISNQRE619	Responds to pain
+EMISNQSP15	Spondylothoracic dysplasia
+EMISNQTH14	Thoracic back pain
+EMISNQWO10	Worsening pain
+ESCTCR2	Crushing injury of skull and intracranial contents
+ESCTDE4	Degloving injury of neck
+ESCTHE7	Hemicrania continua
+ESCTOS1	Osteoarthritis of knee
+ESCTPA22	Pain characterised by relieving factor
+ESCTPA23	Pain relief by medication
+ESCTPE5	Persistent wound pain
+ESCTST11	Strain of tendon of adductor longus
+ESCTST12	Strain of quadriceps tendon
+ESCTTE4	Tendon strain
+ESCTUN6	Undifferentiated inflammatory arthritis
