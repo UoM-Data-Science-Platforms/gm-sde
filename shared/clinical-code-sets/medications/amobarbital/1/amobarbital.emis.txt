@@ -94,4 +94,4 @@ SOCA2596	Sodium Amytal  Capsules  60 mg
 ^ESCTTU863724	Tuinal 100mg Pulvules (Flynn Pharma Ltd)
 ^ESCTTU863726	Tuinal 100mg Pulvules (Flynn Pharma Ltd) 100 capsule
 TUCA2972	Tuinal  Capsules  
-AMCA4599	Amylobarbitone Sodium  Capsules  200 mg	1	AMCA17523NEMIS(EMIS), d31j.(CTV3)
+AMCA4599	Amylobarbitone Sodium  Capsules  200 mg
