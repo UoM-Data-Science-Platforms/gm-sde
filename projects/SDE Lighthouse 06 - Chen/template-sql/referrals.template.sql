@@ -13,7 +13,6 @@ SET @EndDate = '2023-12-31';
 --> EXECUTE query-build-lh006-cohort.sql
 
 
---> CODESET 
 
 
 --bring together for final output

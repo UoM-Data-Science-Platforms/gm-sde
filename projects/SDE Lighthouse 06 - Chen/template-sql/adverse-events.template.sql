@@ -13,7 +13,7 @@ SET @EndDate = '2023-12-31';
 --> EXECUTE query-build-lh006-cohort.sql
 
 
---> CODESET fracture:1 suicide:1
+-- CODESET fracture:1 suicide:1
 
 
 --bring together for final output
