@@ -2,6 +2,10 @@
 --│ Dates of GP Encounters for dementia cohort        │
 --└───────────────────────────────────────────────────┘
 
+-- this sscript uses a reusable query to estimate gp encounters based on in-person events like 'blood pressure taken' 
+-- and telephone/virtual events like phone calls 
+
+
 ---- RESEARCH DATA ENGINEER CHECK ----
 
 --------------------------------------

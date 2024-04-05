@@ -24,7 +24,8 @@ SET @EndDate = '2023-10-31';
 
 --> EXECUTE query-build-lh003-cohort.sql
 
---> CODESET antipsychotics:1 acetylcholinesterase-inhibitors:1 anticholinergic-medications:1 drowsy-medications:3
+--> CODESET antipsychotics:1 
+-- acetylcholinesterase-inhibitors:1 anticholinergic-medications:1 drowsy-medications:3
 
 -- DEMENTIA PATIENTS WITH RX OF CERTAIN MEDS SINCE 31.07.19
 

@@ -330,6 +330,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dementia' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dementia' AND Version = 1)
 )
+AND EventDate >= '2006-01-01' -- when dementia was added to QOF
 GROUP BY FK_Patient_Link_ID, EventDate
 
 -- create cohort of patients with a dementia diagnosis in the study period
@@ -610,14 +611,14 @@ FROM #DementiaCodes
 GROUP BY PatientId
 
 --bring together for final output
-SELECT	 PatientId = FK_Patient_Link_ID
+SELECT	 PatientId = m.FK_Patient_Link_ID
 		,YearOfBirth
 		,Sex
 		,LSOA_Code
 		,EthnicGroupDescription
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate = CONVERT(DATE,DeathDate)
-		,FirstDementiaDiagnosis = CONVERT(DATE,fdd.FirstDiagnosis)
+		,YearAndMonthOfDeath = FORMAT(DeathDate, 'yyyy-MM')
+		,FirstDementiaDiagnosisSince2006 = FORMAT(CONVERT(DATE,fdd.FirstDiagnosis), 'yyyy-MM')
 FROM #Cohort m
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
