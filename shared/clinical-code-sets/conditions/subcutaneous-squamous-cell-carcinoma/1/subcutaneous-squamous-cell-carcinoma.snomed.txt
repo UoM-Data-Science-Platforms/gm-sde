@@ -1,0 +1,74 @@
+231831002	Squamous cell carcinoma of eyelid (disorder)
+254651007	Squamous cell carcinoma of skin (disorder)
+254652000	Clear cell squamous cell carcinoma of skin (disorder)
+254653005	Spindle cell squamous carcinoma of skin (disorder)
+254654004	Acantholytic squamous cell carcinoma of skin (disorder)
+255071008	Squamous cell carcinoma of lip (disorder)
+276860003	Squamous cell carcinoma of scrotum (disorder)
+285307007	Squamous cell carcinoma of skin of upper lip (disorder)
+285308002	Squamous cell carcinoma of skin of lower lip (disorder)
+285309005	Squamous cell carcinoma of skin of cheek (disorder)
+402815007	Squamous cell carcinoma
+402816008	Squamous cell carcinoma of anogenital area
+402817004	Squamous cell carcinoma of nail apparatus
+403713003	Psoralen and long-wave ultraviolet radiation therapy-associated squamous cell carcinoma
+403890009	Squamous cell carcinoma of vulva due to lichen sclerosus
+403891008	Cancer of the scalp, squamous cell
+403892001	Squamous cell cancer of skin of face
+403893006	Cancer of the forehead, squamous cell
+403894000	Squamous cell cancer of skin of ear
+403895004	Squamous cell carcinoma of foot
+403896003	Squamous cell carcinoma of hand
+403897007	Squamous cell carcinoma of upper extremity
+403898002	Squamous cell cancer of skin of lower limb
+403899005	Squamous cell carcinoma of skin of trunk
+403901001	Acantholytic squamous cell carcinoma
+403903003	Signet ring squamous cell carcinoma
+403906006	Metastatic squamous cell carcinoma
+422378004	Cancer of the bridge of nose, squamous cell
+422572002	Squamous cell carcinoma of chin
+422599000	Cancer of the back, squamous cell
+422676009	Squamous cell carcinoma of ala nasi
+423284006	Cancer of skin of neck, squamous cell
+423506005	Squamous cell carcinoma of external auditory canal
+423700001	Squamous cell carcinoma of auricle
+423896007	Cancer of tip of nose, squamous cell
+424260006	Cancer of nasolabial fold, squamous cell
+425148008	Cancer of temple, squamous cell
+440527006	Primary squamous cell carcinoma of naris
+448165009	Squamous cell carcinoma arising in chronic ulcer
+448930008	Squamous cell carcinoma of nose
+448931007	Squamous cell carcinoma of shoulder
+716274007	Nodular basal cell carcinoma of skin
+716659002	Squamous cell carcinoma of head and neck
+719052006	Recurrent squamous cell carcinoma
+722112006	Primary squamous cell carcinoma of ear
+733344004	Primary squamous cell carcinoma of lip
+24111000119105	Primary squamous cell carcinoma of upper limb (disorder)
+1082101000119106	Primary squamous cell carcinoma of skin of left lower limb
+1082221000119106	Primary squamous cell carcinoma of skin of right lower limb
+242951000119108	Primary squamous cell carcinoma of vermilion border of lip (disorder)
+91151000119103	Primary squamous cell carcinoma of chest wall (disorder)
+1082071000119102	Primary squamous cell carcinoma of left ear
+1082191000119100	Primary squamous cell carcinoma of right ear
+1671000119100	Metastasis to lymph node from squamous cell carcinoma
+10288008	Squamous cell carcinoma - spindle cell
+12478003	Microinvasive squamous cell carcinoma
+21326004	Combined small cell carcinoma (morphologic abnormality)
+28899001	Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality)
+39056008	Papillary squamous cell carcinoma (morphologic abnormality)
+64204000	Metastatic squamous cell carcinoma
+65692009	Polypoid squamous cell carcinoma
+89906000	SCC - Verrucous squamous cell carcinoma
+128633003	Squamous cell carcinoma with horn formation (morphologic abnormality)
+128635005	Squamous cell carcinoma, clear cell type (morphologic abnormality)
+399494004	Squamous cell carcinoma in post-traumatic skin lesion
+399582005	Squamous cell carcinoma, nonkeratinizing, differentiated
+399694008	Squamous cell carcinoma, nonkeratinizing, mixed differentiated and undifferentiated
+399739006	Carcinosarcomatous squamous cell carcinoma
+400155002	Squamous cell carcinoma - category
+448406002	Grade III squamous intraepithelial neoplasia with microinvasive squamous cell carcinoma
+449778005	Undifferentiated nonkeratinizing squamous cell carcinoma
+733897002	Pseudovascular squamous cell carcinoma
+128647004	Papillary squamous cell carcinoma, non-invasive (morphologic abnormality)
+300987004	Disseminated squamous cell carcinoma (morphologic abnormality)

@@ -1,0 +1,23 @@
+BB1D.	Spindle cell carcinoma
+BB24.	[M]Verrucous carcinoma NOS
+BB26.	Papillary squamous cell carcinoma
+BB2A.	[M]Squamous cell carcinoma NOS
+BB2B.	[M]Squamous cell carcinoma, metastatic NOS
+BB2F.	Squamous cell carcinoma - spindle cell
+BB2J.	Microinvasive squamous cell carcinoma
+X00Z8	Squamous cell carcinoma of eyelid
+X70Lc	Giant condyloma acuminata
+X77mw	Small cell - large cell carcinoma
+X77n0	Metastatic squamous cell carcinoma
+X78el	Squamous cell carcinoma of lip
+X78RR	Squamous cell carcinoma of skin
+X78RS	Clear cell squamous cell carcinoma of skin
+X78RT	Spindle cell squamous carcinoma of skin
+X78RU	Acantholytic squamous cell carcinoma of skin
+Xa0EY	Squamous cell carcinoma of scrotum
+Xa34C	Squamous cell carcinoma of skin of upper lip
+Xa34D	Squamous cell carcinoma of skin of lower lip
+Xa34E	Squamous cell carcinoma of skin of cheek
+Xa7n8	Disseminated squamous cell carcinoma
+Xa98B	Verrucous carcinoma
+Xa98E	Squamous cell carcinoma
