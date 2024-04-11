@@ -1,0 +1,7 @@
+M160.00	Psoriatic arthropathy
+M160000	Psoriasis spondylitica
+M160100	Distal interphalangeal psoriatic arthropathy
+M160.11	Psoriatic arthritis
+M160200	Arthritis mutilans
+M160z00	Psoriatic arthropathy NOS
+Nyu1300	[X]Other psoriatic arthropathies
