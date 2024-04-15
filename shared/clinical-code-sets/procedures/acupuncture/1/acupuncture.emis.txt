@@ -1,0 +1,96 @@
+^ESCTAC322386	ACP - Acupuncture
+^ESCTAC347704	Acupuncture needle
+^ESCTAC347705	Acupuncture needle, device
+^ESCTAC471613	Acupuncture for anaesthesia
+^ESCTAC471614	Acupuncture for anesthesia
+^ESCTAC501623	Acupuncture and allied techniques
+^ESCTAC501656	Acupuncture-like transcutaneous electrical nerve stimulation
+^ESCTAC501658	Acutens
+^ESCTAC510134	Acupuncture for induction of labour
+^ESCTAC510135	Acupuncture for induction of labor
+^ESCTAC554132	Acupuncture point
+^ESCTCO554523	Conception vessel acupuncture points
+^ESCTCV554524	CV - Conception vessel acupuncture points
+^ESCTDR501624	Dry needle acupuncture
+^ESCTDR501625	Dry needling
+^ESCTEA501638	EAV - Electroacupuncture after Voll
+^ESCTEL501637	Electroacupuncture after Voll
+^ESCTEL501646	Electrical stimulation of acupuncture needle
+^ESCTGO554493	Governing vessel acupuncture points
+^ESCTGV554494	GV - Governing vessel acupuncture points
+^ESCTIN501649	Infiltration of acupuncture point
+^ESCTKI554362	Kidney acupuncture points
+^ESCTKI554363	KI - Kidney acupuncture points
+^ESCTLA501631	Laser acupuncture
+^ESCTLA501632	Laser acupuncture therapy
+^ESCTLU554134	Lung acupuncture points
+^ESCTLU554135	LU - Lung acupuncture points
+^ESCTMA501645	Manual stimulation of acupuncture needle
+^ESCTRE501648	Removal of acupuncture needle
+^ESCTSP554587	Spinal acupuncture points
+^ESCTSP554588	Spinal acupuncture C1
+^ESCTSP554589	Spinal acupuncture C2
+^ESCTSP554590	Spinal acupuncture C3
+^ESCTSP554591	Spinal acupuncture C4
+^ESCTSP554592	Spinal acupuncture C5
+^ESCTSP554593	Spinal acupuncture C6
+^ESCTSP554594	Spinal acupuncture C7
+^ESCTSP554595	Spinal acupuncture C8
+^ESCTSP554596	Spinal acupuncture T1
+^ESCTSP554597	Spinal acupuncture T2
+^ESCTSP554598	Spinal acupuncture T3
+^ESCTSP554599	Spinal acupuncture T4
+^ESCTSP554600	Spinal acupuncture T5
+^ESCTSP554601	Spinal acupuncture T6
+^ESCTSP554602	Spinal acupuncture T7
+^ESCTSP554603	Spinal acupuncture T8
+^ESCTSP554604	Spinal acupuncture T9
+^ESCTSP554605	Spinal acupuncture T10
+^ESCTSP554606	Spinal acupuncture T11
+^ESCTSP554607	Spinal acupuncture T12
+^ESCTSP554608	Spinal acupuncture L1
+^ESCTSP554609	Spinal acupuncture L2
+^ESCTSP554610	Spinal acupuncture L3
+^ESCTSP554611	Spinal acupuncture L4
+^ESCTSP554612	Spinal acupuncture L5
+^ESCTSP554613	Spinal acupuncture S1
+^ESCTSP554614	Spinal acupuncture S2
+^ESCTSP554615	Spinal acupuncture S3
+^ESCTSP554616	Spinal acupuncture S4
+^ESCTST501644	Stimulation of acupuncture needle
+^ESCTTE501657	TENS - Acupuncture-like transcutaneous electrical nerve stimulation
+^ESCTTE554403	TE - Triple energiser acupuncture points
+^ESCTTE554404	TE - Triple energizer acupuncture points
+^ESCTTH501647	Thermal stimulation of acupuncture needle
+^ESCTTR554402	Triple energiser acupuncture points
+^ESCTTR554405	Triple energizer acupuncture points
+^ESCTVE501641	VEGA electroacupuncture therapy
+EMISNQAC835	Acupuncture side effect
+EMISNQFA51	Facial acupuncture point
+EMISNQIN159	Internal practice referral for acupuncture
+EMISNQPE52	Periosteal acupuncture
+EMISNQPE53	Periosteal pecking of coracoid process
+EMISNQPE54	Periosteal pecking of cervical articular pillar
+EMISNQPE55	Periosteal pecking of anterior superior iliac spine
+ESCTBL1	Bladder acupuncture points
+ESCTBL2	BL57
+ESCTCH7	Chinese scalp
+ESCTCH8	Chinese auricular points
+ESCTGA1	Gallbladder acupuncture points
+ESCTGB1	GB40
+ESCTGB2	GB30
+ESCTHE5	Heart acupuncture points
+ESCTHT1	HT7
+ESCTLA1	Large intestine acupuncture points
+ESCTLI5	LI4
+ESCTLI6	Liver acupuncture points
+ESCTLR1	LR3
+ESCTPC1	PC6
+ESCTPE2	Pericardium acupuncture points
+ESCTSI1	SI11
+ESCTSI2	SI3
+ESCTSM1	Small intestine acupuncture points
+ESCTSP1	Spleen acupuncture points
+ESCTSP2	SP6
+ESCTST3	Stomach acupuncture points
+ESCTST4	ST36

@@ -1,0 +1,19 @@
+705B6	Electroacupuncture
+705B7	Acupuncture NEC
+7M0N0	Acupuncture of organ NOC
+856..	Acupuncture
+8561.	Acupunture for anaesthesia
+8562.	Acupuncture for analgesia
+856Z.	Acupuncture NOS
+8H7Y.	Refer to acupuncture
+8HlJ3	Internal practice referral for acupuncture
+8K0..	Acupuncture point
+8K00.	Bladder acupuncture points
+8K03.	Gallbladder acupuncture points
+8K04.	Heart acupuncture points
+8K05.	Small intestine acupuncture points
+8K06.	Stomach acupuncture points
+8K07.	Spleen acupuncture points
+8K08.	Pericardium acupuncture points
+8K09.	Large intestine acupuncture points
+8K0A.	Liver acupuncture points

@@ -1,0 +1,12 @@
+44868003	Acupuncture
+182615005	Acupuncture for analgesia   
+182614009	Acupuncture for anesthesia
+236969007	Acupuncture for induction of labor
+231082000	Dry needle acupuncture
+231093003	Electroacupuncture after Voll
+231105002	Infiltration of acupuncture point
+231100007	Stimulation of acupuncture needle  
+231102004	Electrical stimulation of acupuncture needle 
+231101006	Manual stimulation of acupuncture needle 
+231103009	Thermal stimulation of acupuncture needle
+231095005	VEGA electroacupuncture therapy
