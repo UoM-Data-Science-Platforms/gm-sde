@@ -17,3 +17,14 @@
 8K08.	Pericardium acupuncture points
 8K09.	Large intestine acupuncture points
 8K0A.	Liver acupuncture points
+8K000	BL57
+8K01.	Chinese auricular points
+8K02.	Chinese scalp
+8K030	GB40
+8K031	GB30
+8K040	HT7
+8K050	SI11
+8K060	ST36
+8K070	SP6
+8K080	PC6
+8K0A0	LR3

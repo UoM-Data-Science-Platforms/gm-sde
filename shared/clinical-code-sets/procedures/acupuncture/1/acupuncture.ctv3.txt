@@ -70,3 +70,17 @@ X00Kq	Removal of acupuncture needle
 X00Kr	Infiltration of acupuncture point
 X00Ks	Application of laser acupuncture
 X00Ky	Acupuncture-like transcutaneous electrical nerve stimulation
+XaQyE	Internal practice referral
+XM0SD	LI4
+XM0T4	ST36
+XM0Th	HT7
+XM0TK	SP6
+XM0Tn	SI3
+XM0Tv	SI11
+XM0Uz	BL57
+XM0Vg	PC6
+XM0Wb	GB30
+XM0Wl	GB40
+XM0Wt	LR3
+XM0Yz	Chinese auricular points
+XM0Zv	Chinese scalp
