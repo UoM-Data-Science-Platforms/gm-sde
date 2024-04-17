@@ -1,5 +1,7 @@
 # Neuropathic pain
 
+Neuropathic pain is nerve pain that can happen if your nervous system malfunctions or gets damaged. You can feel pain from any of the various levels of your nervous system, including your peripheral nerves, your spinal cord and your brain. Damaged nerve fibers send the wrong signals to pain centers in your body, resulting in neuropathic pain.
+
 Readcodes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-neuropathic-pain/
 
 ## Prevalence log
