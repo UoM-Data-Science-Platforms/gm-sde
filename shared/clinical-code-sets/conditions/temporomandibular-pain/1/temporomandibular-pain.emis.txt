@@ -6,3 +6,11 @@
 ^ESCTTE645157	Temporomandibular joint-pain-dysfunction syndrome
 ^ESCTTM645158	TMJ syndrome
 ^ESCTTM645164	TMJPDS - Temporomandibular joint pain dysfunction syndrome
+^ESCT1172799	Bilateral temporomandibular joint pain
+^ESCT1172800	Pain in bilateral temporomandibular joints
+^ESCT1172801	Bilateral TMJ (temporomandibular joint) pain
+^ESCT1172802	Pain in both temporomandibular joints
+^ESCT1370713	Right temporomandibular joint pain dysfunction syndrome
+^ESCT1370714	Left temporomandibular joint pain dysfunction syndrome
+^ESCT1370715	Bilateral temporomandibular joint pain dysfunction syndrome
+^ESCT1370716	Dysfunction syndrome pain of both temporomandibular joints

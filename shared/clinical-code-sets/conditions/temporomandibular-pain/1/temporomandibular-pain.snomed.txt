@@ -1,2 +1,7 @@
 298376001	Temporomandibular joint painful on movement (finding)
 386207004	Temporomandibular joint-pain-dysfunction syndrome (disorder)
+15639721000119105	Pain in bilateral temporomandibular joints (finding)
+15632491000119107	Left temporomandibular joint pain dysfunction syndrome (disorder)
+15632451000119102	Right temporomandibular joint pain dysfunction syndrome (disorder)
+15632531000119107	Bilateral temporomandibular joint pain dysfunction syndrome (disorder)
+39721000087109	Chronic orofacial pain due to temporomandibular joint disorder (finding)
