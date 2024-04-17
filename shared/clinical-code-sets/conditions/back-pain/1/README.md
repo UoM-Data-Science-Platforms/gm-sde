@@ -1,9 +1,8 @@
-# Back problems (pain only)
+# Back pain
 
 Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/6/codelist/back-pain/ 
 
-this code set is for back pain only - for broader back problems, see version 1.
-
+This code set is for back pain - for broader back problems, see back-problems code set.
 
 ## Prevalence log
 
