@@ -1,2 +1,5 @@
 ^ESCTPS480576	Psoriatic arthritis with spine involvement
 ^ESCTPS513958	Psoriatic arthritis with distal interphalangeal joint involvement
+^ESCTPA451526	PA (Psoriatic arthritis)
+^ESCTPS451524	Psoriatic arthritis
+^ESCTPS451525	PsA (Psoriatic arthritis)
