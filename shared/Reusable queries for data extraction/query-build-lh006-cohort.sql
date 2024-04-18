@@ -22,7 +22,7 @@ SET @StudyEndDate = '2023-12-31'
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-date-of-birth.sql
 
---> CODESET cancer:1 chronic-pain:1
+--> CODESET cancer:1 
 
 --> CODESET opioid-analgesics:1      
 
@@ -114,8 +114,9 @@ SELECT
 	 i.FK_Patient_Link_ID,
 	 EthnicMainGroup, 
 	 EthnicGroupDescription, 
-	 DeathYearAndMonth = FORMAT(DeathDate, 'yyyy-MM'),
-	 dob.DateOfBirthPID
+	 DeathDate, 		 -- REMEMBER TO MASK THIS IN THE FINAL FILES
+	 dob.DateOfBirthPID, -- REMEMBER TO MASK THIS IN THE FINAL FILES
+	 i.IndexDate
 INTO #Cohort
 FROM #IndexDates i
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = i.FK_Patient_Link_ID
