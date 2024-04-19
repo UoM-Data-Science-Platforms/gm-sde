@@ -1,4 +1,3 @@
-B33..	Basal cell carcinoma
 BB31.	[M]Basal cell carcinoma NOS
 BB32.	Multicentric basal cell carcinoma
 BB33.	Basal cell carcinoma - morphoeic

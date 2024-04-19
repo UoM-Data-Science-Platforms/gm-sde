@@ -44,3 +44,16 @@
 ^ESCTRO502812	Rodent ulcer of eyelid
 ^ESCTRU534854	RU - Rodent ulcer
 ^ESCTSU668949	Superficial basal cell carcinoma
+^ESCT1392463	Basal cell carcinoma with sarcomatoid differentiation
+^ESCTAD441218	Adenoid basal carcinoma
+^ESCTBA662332	Basal cell carcinoma with eccrine differentiation
+^ESCTBA662362	Basal cell carcinoma with adnexal differentiation
+^ESCTBA662490	Basal cell carcinoma in basal cell naevus syndrome
+^ESCTBA662491	Basal cell carcinoma in basal cell nevus syndrome
+^ESCTBA662766	Basal cell carcinoma with follicular differentiation
+^ESCTBA663228	Basal cell carcinoma with matrical differentiation
+^ESCTBA663437	Basal cell carcinoma with sebaceous differentiation
+^ESCTEC662333	Eccrine basal cell carcinoma
+^ESCTFO662768	Follicular basal cell carcinoma
+^ESCTIN662767	Infundibulocystic basal cell carcinoma
+^ESCTKE662457	Keratotic basal cell carcinoma
