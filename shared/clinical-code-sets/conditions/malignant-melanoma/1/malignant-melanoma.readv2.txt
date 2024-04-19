@@ -1,3 +1,13 @@
+Byu40	[X]Malignant melanoma of other and unspecified parts of face
+Byu41	[X]Malignant melanoma of skin, unspecified
+B3276	Malignant melanoma of heel
+B3277	Malignant melanoma of foot
+B3278	Malignant melanoma of toe
+B3279	Malignant melanoma of great toe
+B327z	Malignant melanoma of lower limb or hip NOS
+B32y.	Malignant melanoma of other specified skin site
+B32y0	Overlapping malignant melanoma of skin
+B32z.	Malignant melanoma of skin NOS
 B32..	Malignant melanoma of skin
 B320.	Malignant melanoma of lip
 B321.	Malignant melanoma of eyelid including canthus
@@ -41,15 +51,6 @@ B3272	Malignant melanoma of knee
 B3273	Malignant melanoma of popliteal fossa area
 B3274	Malignant melanoma of lower leg
 B3275	Malignant melanoma of ankle
-B3276	Malignant melanoma of heel
-B3277	Malignant melanoma of foot
-B3278	Malignant melanoma of toe
-B3279	Malignant melanoma of great toe
-B327z	Malignant melanoma of lower limb or hip NOS
-B32y.	Malignant melanoma of other specified skin site
-B32y0	Overlapping malignant melanoma of skin
-B32z.	Malignant melanoma of skin NOS
-Byu41	[X]Malignant melanoma of skin, unspecified
-X00ZB	Malignant melanoma of eyelid
-XE1yn	Malignant melanoma of trunk
-XE1yp	Malignant melanoma of upper limb
+B3257	Malignant melanoma of back
+B3258	Malignant melanoma of chest wall
+B509.	Malignant melanoma of eye

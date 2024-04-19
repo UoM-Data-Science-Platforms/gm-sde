@@ -1,13 +1,3 @@
-Byu40	[X]Malignant melanoma of other and unspecified parts of face
-Byu41	[X]Malignant melanoma of skin, unspecified
-B3276	Malignant melanoma of heel
-B3277	Malignant melanoma of foot
-B3278	Malignant melanoma of toe
-B3279	Malignant melanoma of great toe
-B327z	Malignant melanoma of lower limb or hip NOS
-B32y.	Malignant melanoma of other specified skin site
-B32y0	Overlapping malignant melanoma of skin
-B32z.	Malignant melanoma of skin NOS
 B32..	Malignant melanoma of skin
 B320.	Malignant melanoma of lip
 B321.	Malignant melanoma of eyelid including canthus
@@ -51,3 +41,38 @@ B3272	Malignant melanoma of knee
 B3273	Malignant melanoma of popliteal fossa area
 B3274	Malignant melanoma of lower leg
 B3275	Malignant melanoma of ankle
+B3276	Malignant melanoma of heel
+B3277	Malignant melanoma of foot
+B3278	Malignant melanoma of toe
+B3279	Malignant melanoma of great toe
+B327z	Malignant melanoma of lower limb or hip NOS
+B32y.	Malignant melanoma of other specified skin site
+B32y0	Overlapping malignant melanoma of skin
+B32z.	Malignant melanoma of skin NOS
+Byu41	[X]Malignant melanoma of skin, unspecified
+X00ZB	Malignant melanoma of eyelid
+XE1yn	Malignant melanoma of trunk
+XE1yp	Malignant melanoma of upper limb
+X78bc	Malignant melanoma of iris
+X78bk	Malignant melanoma of ciliary body
+X78bN	Malignant melanoma of conjunctiva
+X78bV	Malignant melanoma of cornea
+X78bw	Malignant melanoma of choroid
+X78TC	Superficial spreading malignant melanoma of skin
+X78TD	Nodular malignant melanoma of skin
+X78TE	Acral lentiginous malignant melanoma of skin
+X78TF	Malignant melanoma arising in intradermal naevus
+X78TG	Malignant melanoma arising in congenital naevus
+X78Xx	Malignant melanoma of vulva
+Xa0CE	Amelanotic malignant melanoma of skin
+Xa0Di	Malignant melanoma of anus
+Xa0Dj	Malignant melanoma of rectum
+Xa0RU	Malignant melanoma of meninges
+Xa99Y	Lentigo maligna melanoma
+XaBAw	Malignant blue naevus of skin
+XaCIv	Malignant melanoma of back
+XaEGU	Malignant melanoma of chest wall
+XaFrT	Local recurrence of malignant melanoma of skin
+XE1yl	Malignant melanoma of head and neck
+XE1yr	Malignant melanoma of lower limb
+XM0ps	Malignant melanoma of eye

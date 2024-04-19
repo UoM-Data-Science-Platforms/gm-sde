@@ -1,9 +1,0 @@
-^ESCTCU402444	Cutaneous malignant melanoma
-^ESCTMA401665	Malignant melanoma of skin of cheek
-^ESCTMA401672	Malignant melanoma of skin of eyebrow
-^ESCTMA402429	Malignant melanoma of skin of nose
-^ESCTMA474896	Malignant melanoma of ear and/or external auditory canal
-^ESCTMA474898	Malignant melanoma of ear and/or external auricular canal
-^ESCTMA474917	Malignant melanoma of forearm
-^ESCTME402445	Melanoma of skin
-^ESCTMM402443	MM - Malignant melanoma of skin
