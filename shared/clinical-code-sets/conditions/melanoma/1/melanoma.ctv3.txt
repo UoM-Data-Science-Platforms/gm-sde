@@ -1,0 +1,55 @@
+B32..	Malignant melanoma of skin
+B320.	Malignant melanoma of lip
+B321.	Malignant melanoma of eyelid including canthus
+B322.	Malignant melanoma of ear and external auricular canal
+B3220	Malignant melanoma of auricle (ear)
+B3221	Malignant melanoma of external auditory meatus
+B322z	Malignant melanoma of ear and external auricular canal NOS
+B323.	Malignant melanoma of other and unspecified parts of face
+B3230	Malignant melanoma of external surface of cheek
+B3231	Malignant melanoma of chin
+B3232	Malignant melanoma of eyebrow
+B3233	Malignant melanoma of forehead
+B3234	Malignant melanoma of external surface of nose
+B3235	Malignant melanoma of temple
+B323z	Malignant melanoma of face NOS
+B324.	Malignant melanoma of scalp and neck
+B3240	Malignant melanoma of scalp
+B3241	Malignant melanoma of neck
+B324z	Malignant melanoma of scalp and neck NOS
+B325.	Malignant melanoma of trunk (excluding scrotum)
+B3250	Malignant melanoma of axilla
+B3251	Malignant melanoma of breast
+B3252	Malignant melanoma of buttock
+B3253	Malignant melanoma of groin
+B3254	Malignant melanoma of perianal skin
+B3255	Malignant melanoma of perineum
+B3256	Malignant melanoma of umbilicus
+B325z	Malignant melanoma of trunk, excluding scrotum, NOS
+B326.	Malignant melanoma of upper limb and shoulder
+B3260	Malignant melanoma of shoulder
+B3261	Malignant melanoma of upper arm
+B3262	Malignant melanoma of fore-arm
+B3263	Malignant melanoma of hand
+B3264	Malignant melanoma of finger
+B3265	Malignant melanoma of thumb
+B326z	Malignant melanoma of upper limb or shoulder NOS
+B327.	Malignant melanoma of lower limb and hip
+B3270	Malignant melanoma of hip
+B3271	Malignant melanoma of thigh
+B3272	Malignant melanoma of knee
+B3273	Malignant melanoma of popliteal fossa area
+B3274	Malignant melanoma of lower leg
+B3275	Malignant melanoma of ankle
+B3276	Malignant melanoma of heel
+B3277	Malignant melanoma of foot
+B3278	Malignant melanoma of toe
+B3279	Malignant melanoma of great toe
+B327z	Malignant melanoma of lower limb or hip NOS
+B32y.	Malignant melanoma of other specified skin site
+B32y0	Overlapping malignant melanoma of skin
+B32z.	Malignant melanoma of skin NOS
+Byu41	[X]Malignant melanoma of skin, unspecified
+X00ZB	Malignant melanoma of eyelid
+XE1yn	Malignant melanoma of trunk
+XE1yp	Malignant melanoma of upper limb
