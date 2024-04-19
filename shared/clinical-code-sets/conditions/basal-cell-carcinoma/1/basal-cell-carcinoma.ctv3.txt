@@ -1,0 +1,20 @@
+B33..	Basal cell carcinoma
+BB31.	[M]Basal cell carcinoma NOS
+BB32.	Multicentric basal cell carcinoma
+BB33.	Basal cell carcinoma - morphoeic
+BB34.	Fibroepithelial basal cell carcinoma
+X00Z9	Basal cell carcinoma of eyelid
+X78Sg	Basal cell carcinoma with eccrine differentiation
+X78SS	Basal cell carcinoma of skin
+X78ST	Metatypical basal cell carcinoma of skin
+X78VL	Naevoid basal cell carcinoma syndrome
+Xa7OT	Excision of basal cell carcinoma
+Xa7OU	Cryotherapy of basal cell carcinoma
+Xa98G	Basal cell carcinoma
+Xa98H	Basal cell carcinoma - sclerosing type
+XaXCZ	Superficial basal cell carcinoma
+XaXD8	Basal cell carcinoma, infiltrative
+XaXDB	Basal cell carcinoma, micronodular
+XaXXU	Pigmented basal cell carcinoma
+XE1yv	Basal cell carcinoma
+XSN4O	Basal cell carcinoma, nodular

@@ -1,0 +1,46 @@
+^ESCTBA251974	Basal cell epithelioma
+^ESCTBA251977	Basiloma
+^ESCTBA319878	Basal cell carcinoma, fibroepithelial
+^ESCTBA342052	Basal cell carcinoma, morpheic
+^ESCTBA342053	Basal cell carcinoma, desmoplastic type
+^ESCTBA362872	Basal cell carcinoma syndrome
+^ESCTBA362874	Basal cell nevus syndrome
+^ESCTBA450548	Basal cell carcinoma - morpheic
+^ESCTBA502811	Basal cell carcinoma of eyelid
+^ESCTBA534852	Basalioma
+^ESCTBA534856	Basosquamous carcinoma of skin
+^ESCTBA534878	Basal cell carcinoma with eccrine differentiation
+^ESCTBA591153	Basal cell carcinoma - sclerosing type
+^ESCTBA591154	Basal cell carcinoma, sclerosing type
+^ESCTBA663415	Basal cell carcinoma, micronodular
+^ESCTBC251978	BCC - Basal cell carcinoma
+^ESCTBC362877	BCNS - Basal cell naevus syndrome
+^ESCTBC362880	BCNS - Basal cell nevus syndrome
+^ESCTBC534853	BCC - Basal cell carcinoma of skin
+^ESCTBC534857	BCC - Metatypical basal cell carcinoma of skin
+^ESCTCA534855	Cancer of skin, basal cell
+^ESCTCR587396	Cryotherapy of basal cell carcinoma
+^ESCTEX587395	Excision of basal cell carcinoma
+^ESCTFI319880	Fibroepithelioma
+^ESCTFI319881	Fibroepithelioma of Pinkus type
+^ESCTFI319882	Fibroepithelial basal cell carcinoma, Pinkus type
+^ESCTGO362870	Gorlin syndrome
+^ESCTGO362873	Gorlin-Goltz syndrome
+^ESCTGO362881	Gorlin's syndrome
+^ESCTIN342050	Infiltrating basal cell carcinoma, sclerosing
+^ESCTIN342051	Infiltrating basal cell carcinoma, non-sclerosing
+^ESCTME534858	Metatypical basal cell carcinoma of skin
+^ESCTMO450549	Morpheaform basal cell carcinoma
+^ESCTMU349282	Multicentric basal cell carcinoma
+^ESCTMU668950	Multifocal basal cell carcinoma
+^ESCTNB362878	NBCCS - Naevoid basal cell carcinoma syndrome
+^ESCTNB362879	NBCCS - Nevoid basal cell carcinoma syndrome
+^ESCTNE362871	Nevoid basal cell carcinoma syndrome
+^ESCTPI251975	Pigmented basal cell carcinoma
+^ESCTPI319879	Pinkus tumor
+^ESCTPI319883	Pinkus tumour
+^ESCTPI662516	Pigmented basal cell carcinoma
+^ESCTRO251976	Rodent ulcer
+^ESCTRO502812	Rodent ulcer of eyelid
+^ESCTRU534854	RU - Rodent ulcer
+^ESCTSU668949	Superficial basal cell carcinoma

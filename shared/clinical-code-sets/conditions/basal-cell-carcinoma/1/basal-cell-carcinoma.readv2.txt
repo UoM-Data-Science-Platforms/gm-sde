@@ -1,0 +1,11 @@
+B33..11	Basal cell carcinoma
+B33z1	Naevoid basal cell carcinoma syndrome
+BB31.	[M]Basal cell carcinoma NOS
+BB32.	[M]Multicentric basal cell carcinoma
+BB33.	[M]Basal cell carcinoma, morphoea type
+BB34.	[M]Basal cell carcinoma, fibroepithelial type
+BB3C.	[M]Superficial basal cell carcinoma
+BB3D.	[M]Basal cell carcinoma, nodular
+BB3E.	[M]Basal cell carcinoma, micronodular
+BB3F.	[M]Basal cell carcinoma, infiltrative
+BB3G.	[M]Pigmented basal cell carcinoma
