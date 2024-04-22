@@ -23,7 +23,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = GETDATE();
+SET @EndDate = '2023-09-22';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -62,7 +62,7 @@ WHERE PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SkinCohort)
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-year-and-quarter-month-of-birth.sql
+--> EXECUTE query-patient-date-of-birth.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 --> EXECUTE query-patient-lsoa.sql
 
@@ -90,15 +90,15 @@ FROM #PatientIMDDecile;
 -- The final table========================================================================================================================================
 SELECT
   p.FK_Patient_Link_ID as PatientId,
-  YearAndQuarterMonthOfBirth,
+  YearAndQuarterMonthOfBirth = FORMAT(dob.DateOfBirthPID, 'yyyy-MM'),
   Sex,
   Ethnicity,
   IMDGroup,
   LSOA_Code AS LSOA,
-  FORMAT(link.DeathDate, 'yyyy-MM') AS YearAndMonthOfDeath
+  YearAndMonthOfDeath = FORMAT(link.DeathDate, 'yyyy-MM')
 FROM #Patients p
 LEFT OUTER JOIN #Ethnic e ON e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearAndQuarterMonthOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDateOfBirth dob ON dob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #IMDGroup imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID

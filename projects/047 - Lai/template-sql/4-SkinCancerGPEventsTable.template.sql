@@ -12,13 +12,13 @@
 
 
 --> CODESET skin-cancer:1
-
+--> CODESET subcutaneous-squamous-cell-carcinoma:1 basal-cell-carcinoma:1 malignant-melanoma:1
 
 -- Set the start date
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = GETDATE();
+SET @EndDate = '2023-09-22';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -51,18 +51,18 @@ SELECT DISTINCT FK_Patient_Link_ID AS PatientId,
 INTO #Table
 FROM SharedCare.GP_Events
 WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'skin-cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'skin-cancer' AND Version = 1)
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept in ('skin-cancer', 'subcutaneous-squamous-cell-carcinoma', 'basal-cell-carcinoma', 'melanoma') AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept in ('skin-cancer', 'subcutaneous-squamous-cell-carcinoma', 'basal-cell-carcinoma', 'melanoma') AND Version = 1)
 )     AND EventDate < @EndDate
       AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 SELECT DISTINCT PatientId, 
 	            EventDate, 
-		    CASE
-		    WHEN c.MainCode IS NOT NULL THEN c.MainCode
-		    ELSE s.ConceptID
-		    END AS SkinCancerRelatedClinicalCode
+		    	SkinCancerRelatedClinicalCode = CASE WHEN c.MainCode IS NOT NULL THEN c.MainCode ELSE s.ConceptID END,
+				Concept = CASE WHEN vc.Concept IS NOT NULL THEN vc.Concept ELSE vs.Concept END
 FROM #Table t
+LEFT OUTER JOIN #VersionedCodeSets vc ON vc.FK_Reference_Coding_ID = t.FK_Reference_Coding_ID
+LEFT OUTER JOIN #VersionedSnomedSets vs ON vs.FK_Reference_SnomedCT_ID = t.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN SharedCare.Reference_Coding c ON c.PK_Reference_Coding_ID = t.FK_Reference_Coding_ID
 LEFT OUTER JOIN SharedCare.Reference_SnomedCT s ON s.PK_Reference_SnomedCT_ID = t.FK_Reference_SnomedCT_ID
 ORDER BY PatientId, EventDate;
