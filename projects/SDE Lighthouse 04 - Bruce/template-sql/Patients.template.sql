@@ -26,9 +26,20 @@ SET @IndexDate = '2023-10-31';
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-bmi.sql gp-events-table:SharedCare.GP_Events
---> EXECUTE query-patient-alcohol-intake.sql gp-events-table:SharedCare.GP_Events
---> EXECUTE query-patient-smoking-status.sql gp-events-table:SharedCare.GP_Events
+
+-- CREATE COPY OF GP EVENTS TABLE, FILTERED TO COHORT FOR THIS STUDY
+
+IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
+SELECT FK_Patient_Link_ID, EventDate, 
+		FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, SuppliedCode,
+		[Value],[Units]
+INTO #GPEvents
+FROM SharedCare.GP_Events gp
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+
+--> EXECUTE query-patient-bmi.sql gp-events-table:#GPEvents
+--> EXECUTE query-patient-alcohol-intake.sql gp-events-table:#GPEvents
+--> EXECUTE query-patient-smoking-status.sql gp-events-table:#GPEvents
 --> CODESET chronic-kidney-disease:1 ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1
 --> CODESET creatinine:1 egfr:1
 
@@ -47,16 +58,12 @@ IF OBJECT_ID('tempdb..#ckd') IS NOT NULL DROP TABLE #ckd;
 SELECT 
 	gp.FK_Patient_Link_ID,
 	EventDate = CONVERT(DATE, gp.EventDate),
-	[concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END
+	a.Concept
 INTO #ckd
-FROM SharedCare.GP_Events gp
-LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
-	AND (
-		gp.FK_Reference_Coding_ID in (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept  IN ('chronic-kidney-disease', 'ckd-stage-1', 'ckd-stage-2', 'ckd-stage-3', 'ckd-stage-4', 'ckd-stage-5'))
-		OR gp.FK_Reference_SnomedCT_ID in (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept  IN ('chronic-kidney-disease', 'ckd-stage-1', 'ckd-stage-2', 'ckd-stage-3', 'ckd-stage-4', 'ckd-stage-5'))
-	)
+FROM #GPEvents gp
+INNER JOIN #AllCodes a ON a.Code = gp.SuppliedCode
+WHERE Concept IN 
+	('chronic-kidney-disease', 'ckd-stage-1', 'ckd-stage-2', 'ckd-stage-3', 'ckd-stage-4', 'ckd-stage-5')
 
 SELECT FK_Patient_Link_ID,
 		CKDStage = CASE WHEN concept = 'ckd-stage-1' then 1
@@ -76,8 +83,14 @@ GROUP BY FK_Patient_Link_ID
 
 ----------- GET MOST RECENT EGFR AND CREATININE MEASUREMENT FOR EACH PATIENT
 
--- GET VALUES FOR OBSERVATIONS OF INTEREST
+--> EXECUTE query-get-most-recent-value-before-index-date.sql min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:egfr max-or-min:min temp-table-name:#egfr 
 
+
+
+
+
+-- GET VALUES FOR OBSERVATIONS OF INTEREST
+/*
 IF OBJECT_ID('tempdb..#egfr_creat') IS NOT NULL DROP TABLE #egfr_creat;
 SELECT 
 	FK_Patient_Link_ID,
@@ -145,7 +158,7 @@ FROM #Cohort p
 LEFT OUTER JOIN #TempCurrentEgfr e on e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempCurrentCreatinine c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 GROUP BY p.FK_Patient_Link_ID
-
+*/
 
 --bring together for final output
 SELECT	 PatientId = m.FK_Patient_Link_ID

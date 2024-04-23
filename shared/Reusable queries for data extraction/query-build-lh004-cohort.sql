@@ -2,13 +2,11 @@
 --│ Define Cohort for LH004: patients that had an SLE diagnosis   │
 --└───────────────────────────────────────────────────────────────┘
 
--- OBJECTIVE: To build the cohort of patients needed for LH003. This reduces duplication of code in the template scripts.
+-- OBJECTIVE: To build the cohort of patients needed for LH004. This reduces duplication of code in the template scripts.
 
 -- COHORT: Any patient with a SLE diagnosis between start and end date.
 
--- INPUT: assumes there exists one temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- INPUT: None
 
 -- OUTPUT: Temp tables as follows:
 -- #Cohort
@@ -34,7 +32,6 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID, EventDate
 
-
 -- table of patients that meet the exclusion criteria: turberculosis, lupus pernio, drug-induced lupus, neonatal lupus
 /*
 IF OBJECT_ID('tempdb..#Exclusions') IS NOT NULL DROP TABLE #Exclusions;
@@ -47,7 +44,6 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID, EventDate
 */
-
 
 -- create cohort of patients with an SLE diagnosis in the study period
 
@@ -65,7 +61,6 @@ WHERE
 	--AND 
 	--p.FK_Patient_Link_ID NOT IN (SELECT DISTINCT FK_Patient_Link_ID FROM #Exclusions)
 AND YEAR(@StartDate) - YearOfBirth > 18
-
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
