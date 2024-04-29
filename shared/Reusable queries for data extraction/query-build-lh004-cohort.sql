@@ -17,8 +17,8 @@
 --> CODESET sle:1 
 
 ----
--- TO DO: CODESETS for exclusion conditions ------
-----
+-- TO DO: CODESETS for exclusion conditions ------ (turberculosis, lupus pernio, drug-induced lupus, neonatal lupus)
+---- 
 
 -- table of sle coding events
 

@@ -1188,3 +1188,94 @@ UTTA4483	Utovlan  Tablets  5 mg
 UTVA82060NEMIS	Utrogestan  Vaginal Capsules With Applicators  200 mg
 ZUTA20666EMIS	Zumenon  Tablets  2 mg
 ZUTA29671EMIS	Zumenon  Tablets  1 mg
+^ESCT1214827	Testosterone 2.5mg/24hours transdermal patches
+^ESCT1214828	Testosterone 5mg/24hours transdermal patches
+^ESCT1214829	Testosterone 6mg/24hours transdermal patches
+^ESCT1214830	Testosterone enantate 250mg/1ml solution for injection ampoules
+^ESCT1214831	Testosterone propionate 100mg/2ml solution for injection ampoules
+^ESCT1214832	Testosterone undecanoate 1g/4ml solution for injection ampoules
+^ESCT1299791	Testim 50mg/5g gel (Endo Ventures Ltd)
+^ESCT1410898	Restandol 40mg Testocaps (Organon Pharma (UK) Ltd)
+^ESCT1433412	Estradiol 1mg / Progesterone 100mg capsules 84 capsule
+^ESCT1433413	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd) 84 capsule 6 x 14 capsules
+^ESCT1436941	Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437461	Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437498	Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437499	Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437500	Zumenon 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437501	Zumenon 2mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437502	Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437503	Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437504	Zumenon 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437505	Zumenon 1mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437512	Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1437513	Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd) 8 patch
+^ESCT1437514	Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1437515	Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd) 8 patch
+^ESCT1437539	Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)
+^ESCT1437540	Elleste Duet Conti tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437576	Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437577	Femoston 1/10mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCT1437578	Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437579	Femoston 2/10mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x (14 tablets + 14 tablets)
+^ESCT1437580	Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437581	Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd) 11 tablet
+^ESCT1437584	Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437585	Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd) 21 tablet 1 x (11 tablets + 10 tablets)
+^ESCT1437586	Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437587	Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd) 11 tablet
+^ESCT1437592	Estradiol 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437593	Estradiol 1mg tablets (Viatris UK Healthcare Ltd) 48 tablet
+^ESCT1437594	Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437595	Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCT1437610	Estradiol 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437611	Estradiol 2mg tablets (Viatris UK Healthcare Ltd) 48 tablet
+^ESCT1437612	Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437613	Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd) 36 tablet
+^ESCT1437614	Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437615	Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x (16 tablets + 12 tablets )
+^ESCT1438444	Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438445	Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCTAN863600	Andropatch 5mg/24hours patches (GlaxoSmithKline UK Ltd)
+^ESCTAN863618	Andropatch 2.5mg/24hours patches (GlaxoSmithKline UK Ltd)
+^ESCTIN939260	Intrinsa 300micrograms/24hours transdermal patches (HFA Healthcare Products Ltd)
+^ESCTNE909604	Nebido 1000mg/4ml solution for injection ampoules (Bayer Plc)
+^ESCTRE812848	Restandol 40mg capsules (Organon Laboratories Ltd)
+^ESCTRE961402	Restandol 40mg Testocaps (Merck Sharp & Dohme Ltd)
+^ESCTST897973	Striant SR 30mg muco-adhesive buccal tablets (The Urology Company Ltd)
+^ESCTSU831248	Sustanon 250mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+^ESCTSU864802	Sustanon 100 solution for injection 1ml ampoules (Organon Laboratories Ltd)
+^ESCTTE870856	Testoderm 6mg/24hours patches (Ferring Pharmaceuticals Ltd)
+^ESCTTE871303	Testogel 50mg/5g gel sachets (Besins Healthcare (UK) Ltd)
+^ESCTTE898008	Testosterone 30mg modified-release muco-adhesive buccal tablets
+^ESCTTE913406	Testim 50mg/5g gel (Ferring Pharmaceuticals Ltd)
+^ESCTTE913457	Testosterone 50mg/5g gel unit dose tube
+^ESCTTE939257	Testosterone 300micrograms/24hours transdermal patches
+^ESCTVI867351	Virormone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+ANTR29512EMIS	Andropatch  Transdermal patches  2.5 mg/24 hrs
+ANTR31981EMIS	Andropatch  Transdermal patches  5 mg/24 hrs
+INTR25122NEMIS	Intrinsa  Transdermal patches  300 micrograms/24 hours
+NEIN19654NEMIS	Nebido  Injection  250 mg/ml, 4 ml ampoule
+RECA29114NEMIS	Restandol Testocaps  Capsules  40 mg
+RECA4267	Restandol  Capsules  40 mg
+STM/18224NEMIS	Striant Sr  M/R Muco-adhesive Buccal Tablet  30 mg
+SUIN4360	Sustanon 100  Injection  1 ml ampoule
+SUIN4361	Sustanon 250  Injection  1 ml ampoule
+TECA5418	Testosterone Undecanoate  Capsules  40 mg
+TEGE15748NEMIS	Testogel  Gel  50 mg/5 gram sachet
+TEGE19999NEMIS	Testosterone  Gel  50 mg/5 gram tube
+TEGE20002NEMIS	Testim  Gel  50 mg/5 gram tube
+TEIM4405	Testosterone  Implant  100 mg
+TEIM4406	Testosterone  Implant  200 mg
+TEIN17877NEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule
+TEIN19652NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml ampoule
+TEIN25437EMIS	Testosterone Propionate  Solution for injection  100 mg/2 ml ampoule
+TEIN7046	Testosterone Enanthate  Injection  250 mg/ml, 1 ml ampoule
+TEIN7114	Testosterone Propionate  Injection  50 mg/ml
+TEM/18222NEMIS	Testosterone  M/R Muco-adhesive Buccal Tablet  30 mg
+TETR1673NEMIS	Testosterone  Transdermal patches  6 mg/24 hrs
+TETR1675NEMIS	Testoderm  Transdermal patches  6 mg/24 hrs
+TETR25120NEMIS	Testosterone  Transdermal patches  300 micrograms/24 hours
+TETR29514EMIS	Testosterone  Transdermal patches  2.5 mg/24 hrs
+TETR31983EMIS	Testosterone  Transdermal patches  5 mg/24 hrs
+VIIN25435EMIS	Virormone  Solution for injection  100 mg/2 ml ampoule

@@ -108,3 +108,700 @@ COTA3323	Co-Codaprin Dispersible  Tablets
 DADI116859NEMIS	Danamep  Dispersible tablets  75 mg
 MADI128230NEMIS	Mandaprin  Dispersible tablets  75 mg
 MISA3939NEMIS	Migramax  Oral powder sachets  
+^ESCT1178091	Product containing only perindopril erbumine 2 mg/1 each oral tablet
+^ESCT1178092	Product containing only perindopril erbumine 4 mg/1 each oral tablet
+^ESCT1178125	Product containing only aspirin 75 mg/1 each oral tablet
+^ESCT1178611	Product containing only aspirin 81 mg and pravastatin 40 mg/1 each oral tablet
+^ESCT1178877	Product containing only aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCT1179112	Product containing aspirin and glycine
+^ESCT1179113	Aspirin and glycine
+^ESCT1179323	Product containing only aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCT1179324	Product containing only aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg/1 each oral tablet
+^ESCT1179325	Product containing only aspirin 325 mg and carisoprodol 200 mg/1 each oral tablet
+^ESCT1179326	Product containing only aspirin 500 mg and hydrocodone bitartrate 5 mg/1 each oral tablet
+^ESCT1179327	Product containing only aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg/1 each oral tablet
+^ESCT1179328	Product containing only aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg/1 each oral tablet
+^ESCT1180314	Aspirin 75mg gastro-resistant tablets (Mylan)
+^ESCT1181262	Product containing only aspirin 325 mg/1 each oral tablet
+^ESCT1181682	Product containing only aspirin 975 mg/1 each oral tablet
+^ESCT1181735	Product containing only perindopril erbumine 8 mg/1 each oral tablet
+^ESCT1181743	Product containing only aspirin 800 mg/1 each oral tablet
+^ESCT1181956	Product containing only aspirin 300 mg/1 each oral tablet
+^ESCT1182046	Product containing only aspirin 325 mg and codeine 60 mg/1 each oral tablet
+^ESCT1182055	Product containing only aspirin 250 mg and acetaminophen 250 mg and caffeine 65 mg/1 each oral tablet
+^ESCT1182056	Product containing only aspirin 250 mg and paracetamol 250 mg and caffeine 65 mg/1 each oral tablet
+^ESCT1182469	Product containing only aspirin 325 mg and codeine 30 mg/1 each oral tablet
+^ESCT1182740	Product containing only aspirin 325 mg and pravastatin 40 mg/1 each oral tablet
+^ESCT1182741	Product containing only aspirin 325 mg and pravastatin 20 mg/1 each oral tablet
+^ESCT1183175	Product containing only aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral tablet
+^ESCT1183176	Product containing only aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCT1183177	Product containing only aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCT1183178	Product containing only aspirin 325 mg and meprobamate 200 mg/1 each oral tablet
+^ESCT1185261	Product containing only aspirin 300 mg and codeine 8 mg/1 each oral tablet
+^ESCT1185311	Product containing only aspirin 325 mg and pravastatin 80 mg/1 each oral tablet
+^ESCT1185428	Product containing only aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule
+^ESCT1185431	Product containing only aspirin 325 mg and methocarbamol 400 mg/1 each oral tablet
+^ESCT1186919	Aspirin 300mg gastro-resistant tablets (Mylan)
+^ESCT1187424	Product containing only aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1188076	Product containing only aspirin 81 mg and pravastatin 20 mg/1 each oral tablet
+^ESCT1188077	Product containing only aspirin 81 mg and pravastatin 80 mg/1 each oral tablet
+^ESCT1188509	Product containing only aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule
+^ESCT1188510	Product containing only aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCT1188511	Product containing only aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCT1197998	Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)
+^ESCT1200821	Aspirin and omeprazole product
+^ESCT1200822	Product containing aspirin and omeprazole
+^ESCT1201569	Aspirin and omeprazole in oral dosage form
+^ESCT1201570	Product containing aspirin and omeprazole in oral dosage form
+^ESCT1201808	Aspirin and pentazocine product
+^ESCT1201809	Product containing aspirin and pentazocine
+^ESCT1201864	Aspirin and cyclizine product
+^ESCT1201865	Product containing aspirin and cyclizine
+^ESCT1203290	Aspirin 975mg gastro-resistant oral tablet
+^ESCT1203305	Aspirin 81mg gastro-resistant oral tablet
+^ESCT1203395	Aspirin 800mg gastro-resistant oral tablet
+^ESCT1203468	Aspirin 650mg gastro-resistant oral tablet
+^ESCT1203858	Aspirin 25 mg and dipyridamole 200 mg prolonged-release oral capsule
+^ESCT1203859	Product containing precisely aspirin 25 milligram and dipyridamole 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203968	Aspirin 227.5mg prolonged-release oral gum
+^ESCT1206025	Aspirin and dipyridamole in oral dosage form
+^ESCT1206026	Product containing aspirin and dipyridamole in oral dosage form
+^ESCT1206254	Aspirin and caffeine and paracetamol in oral dosage form
+^ESCT1206255	Product containing aspirin and caffeine and paracetamol in oral dosage form
+^ESCT1206256	Acetaminophen and aspirin and caffeine in oral dosage form
+^ESCT1206257	Aspirin and hydrocodone in oral dosage form
+^ESCT1206258	Product containing aspirin and hydrocodone in oral dosage form
+^ESCT1206259	Aspirin and pravastatin in oral dosage form
+^ESCT1206260	Product containing aspirin and pravastatin in oral dosage form
+^ESCT1206261	Aspirin and carisoprodol in oral dosage form
+^ESCT1206262	Product containing aspirin and carisoprodol in oral dosage form
+^ESCT1206263	Aspirin and meprobamate in oral dosage form
+^ESCT1206264	Product containing aspirin and meprobamate in oral dosage form
+^ESCT1206265	Aspirin and methocarbamol in oral dosage form
+^ESCT1206266	Product containing aspirin and methocarbamol in oral dosage form
+^ESCT1206302	Aspirin and butalbital and caffeine in oral dosage form
+^ESCT1206303	Product containing aspirin and butalbital and caffeine in oral dosage form
+^ESCT1206304	Aspirin and butalbital and caffeine and codeine product
+^ESCT1206305	Product containing aspirin and butalbital and caffeine and codeine
+^ESCT1206307	Aspirin and butalbital and caffeine and codeine in oral dosage form
+^ESCT1206308	Product containing aspirin and butalbital and caffeine and codeine in oral dosage form
+^ESCT1206309	Aspirin and oxycodone product
+^ESCT1206310	Product containing aspirin and oxycodone
+^ESCT1206311	Aspirin and oxycodone in oral dosage form
+^ESCT1206312	Product containing aspirin and oxycodone in oral dosage form
+^ESCT1206313	Aspirin and carisoprodol and codeine product
+^ESCT1206314	Product containing aspirin and carisoprodol and codeine
+^ESCT1206315	Aspirin and carisoprodol and codeine in oral dosage form
+^ESCT1206316	Product containing aspirin and carisoprodol and codeine in oral dosage form
+^ESCT1206317	Aspirin and caffeine and orphenadrine in oral dosage form
+^ESCT1206318	Product containing aspirin and caffeine and orphenadrine in oral dosage form
+^ESCT1206320	Aspirin and caffeine and dihydrocodeine product
+^ESCT1206321	Product containing aspirin and caffeine and dihydrocodeine
+^ESCT1206322	Aspirin and caffeine and dihydrocodeine in oral dosage form
+^ESCT1206323	Product containing aspirin and caffeine and dihydrocodeine in oral dosage form
+^ESCT1207230	Aspirin and hydrocodone product
+^ESCT1207231	Product containing aspirin and hydrocodone
+^ESCT1214158	Aspirin 75mg tablets (Intrapharm Laboratories Ltd)
+^ESCT1214703	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1214704	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1215788	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCT1222983	Product containing precisely perindopril erbumine 2 milligram/1 each conventional release oral tablet
+^ESCT1222984	Product containing precisely perindopril erbumine 4 milligram/1 each conventional release oral tablet
+^ESCT1223137	Product containing precisely aspirin 75 milligram/1 each conventional release oral tablet
+^ESCT1223138	Aspirin 75 mg gastro-resistant oral tablet
+^ESCT1223139	Product containing precisely aspirin 75 milligram/1 each gastro-resistant oral tablet
+^ESCT1223673	Aspirin 300 mg gastro-resistant oral tablet
+^ESCT1223674	Product containing precisely aspirin 300 milligram/1 each gastro-resistant oral tablet
+^ESCT1223675	Aspirin 300 mg rectal suppository
+^ESCT1223676	Product containing precisely aspirin 300 milligram/1 each conventional release rectal suppository
+^ESCT1223677	Aspirin 150 mg rectal suppository
+^ESCT1223678	Product containing precisely aspirin 150 milligram/1 each conventional release rectal suppository
+^ESCT1223829	Product containing precisely aspirin DL-lysine 900 milligram and metoclopramide hydrochloride 10 milligram/1 sachet conventional release oral powder
+^ESCT1223830	Aspirin DL-lysine 900 mg and metoclopramide hydrochloride 10 mg oral powder sachet
+^ESCT1225364	Product containing precisely aspirin 300 milligram/1 each conventional release oral tablet
+^ESCT1227387	Product containing precisely aspirin 325 milligram/1 each conventional release oral tablet
+^ESCT1227508	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1227509	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg oral capsule
+^ESCT1227510	Product containing precisely aspirin 325 milligram and butalbital 50 milligram and caffeine 40 milligram and codeine phosphate 30 milligram/1 each conventional release oral capsule
+^ESCT1228042	Product containing precisely perindopril erbumine 8 milligram/1 each conventional release oral tablet
+^ESCT1228098	Product containing precisely aspirin 800 milligram/1 each conventional release oral tablet
+^ESCT1228566	Product containing precisely aspirin 975 milligram/1 each conventional release oral tablet
+^ESCT1228932	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule
+^ESCT1228933	Product containing precisely aspirin 325 milligram and butalbital 50 milligram and caffeine 40 milligram/1 each conventional release oral capsule
+^ESCT1228934	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg oral capsule
+^ESCT1228935	Product containing precisely aspirin 325 milligram and butalbital 50 milligram and caffeine 40 milligram/1 each conventional release oral tablet
+^ESCT1228936	Aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule
+^ESCT1228937	Product containing precisely aspirin 356.4 milligram and caffeine 30 milligram and dihydrocodeine tartrate 16 milligram/1 each conventional release oral capsule
+^ESCT1228938	Aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine tartrate 16 mg oral capsule
+^ESCT1228939	Product containing precisely aspirin 385 milligram and caffeine 30 milligram and orphenadrine citrate 25 milligram/1 each conventional release oral tablet
+^ESCT1228940	Product containing precisely aspirin 428 milligram and caffeine 30 milligram and orphenadrine citrate 25 milligram/1 each conventional release oral tablet
+^ESCT1228944	Product containing precisely aspirin 770 milligram and caffeine 60 milligram and orphenadrine citrate 50 milligram/1 each conventional release oral tablet
+^ESCT1228945	Product containing precisely aspirin 856 milligram and caffeine 60 milligram and orphenadrine citrate 50 milligram/1 each conventional release oral tablet
+^ESCT1228946	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCT1228947	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg oral capsule
+^ESCT1228948	Aspirin 389 mg and caffeine 32.4 mg and dextropropoxyphene hydrochloride 65 mg oral capsule
+^ESCT1228949	Product containing precisely aspirin 389 milligram and caffeine 32.4 milligram and dextropropoxyphene hydrochloride 65 milligram/1 each conventional release oral capsule
+^ESCT1228950	Product containing precisely aspirin 325 milligram and carisoprodol 200 milligram and codeine phosphate 16 milligram/1 each conventional release oral tablet
+^ESCT1228951	Product containing precisely aspirin 325 milligram and carisoprodol 200 milligram/1 each conventional release oral tablet
+^ESCT1228952	Product containing precisely aspirin 500 milligram and hydrocodone bitartrate 5 milligram/1 each conventional release oral tablet
+^ESCT1228953	Product containing precisely aspirin 325 milligram and meprobamate 200 milligram/1 each conventional release oral tablet
+^ESCT1228954	Product containing precisely aspirin 325 milligram and methocarbamol 400 milligram/1 each conventional release oral tablet
+^ESCT1228955	Aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg oral tablet
+^ESCT1228956	Product containing precisely aspirin 325 milligram and oxycodone hydrochloride 2.25 milligram and oxycodone terephthalate 190 microgram/1 each conventional release oral tablet
+^ESCT1228957	Aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 190 microgram oral tablet
+^ESCT1228958	Aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg oral tablet
+^ESCT1228959	Aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 380 microgram oral tablet
+^ESCT1228960	Product containing precisely aspirin 325 milligram and oxycodone hydrochloride 4.5 milligram and oxycodone terephthalate 380 microgram/1 each conventional release oral tablet
+^ESCT1229773	Aspirin + carisoprodol
+^ESCT1229774	Aspirin and carisoprodol product
+^ESCT1229794	Aspirin + meprobamate
+^ESCT1229795	Aspirin and meprobamate product
+^ESCT1229864	Aspirin and glycine
+^ESCT1229865	Aspirin and glycine product
+^ESCT1230030	Aspirin + butalbital + caffeine
+^ESCT1230031	Aspirin and butalbital and caffeine product
+^ESCT1230100	Aspirin + methocarbamol
+^ESCT1230101	Aspirin and methocarbamol product
+^ESCT1230211	Product containing precisely aspirin 300 milligram and codeine 8 milligram/1 each conventional release oral tablet
+^ESCT1230695	Aspirin+pravastatin
+^ESCT1230696	Aspirin and pravastatin product
+^ESCT1230697	Product containing precisely aspirin 81 milligram and pravastatin 20 milligram/1 each conventional release oral tablet
+^ESCT1230698	Product containing precisely aspirin 81 milligram and pravastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1230699	Product containing precisely aspirin 81 milligram and pravastatin 80 milligram/1 each conventional release oral tablet
+^ESCT1230700	Product containing precisely aspirin 325 milligram and pravastatin 80 milligram/1 each conventional release oral tablet
+^ESCT1230701	Product containing precisely aspirin 325 milligram and pravastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1230702	Product containing precisely aspirin 325 milligram and pravastatin 20 milligram/1 each conventional release oral tablet
+^ESCT1231756	Aspirin + cinnamedrine + caffeine
+^ESCT1231757	Product containing aspirin and caffeine and cinnamedrine
+^ESCT1231758	Aspirin and caffeine and cinnamedrine product
+^ESCT1232033	Orphenadrine + aspirin + caffeine
+^ESCT1232034	Aspirin and caffeine and orphenadrine product
+^ESCT1232137	Buffered aspirin
+^ESCT1232138	Product containing buffered aspirin
+^ESCT1232139	Buffered aspirin product
+^ESCT1232140	Buffered aspirin + caffeine
+^ESCT1232141	Product containing buffered aspirin and caffeine
+^ESCT1232142	Buffered aspirin and caffeine product
+^ESCT1232143	Aspirin + caffeine + paracetamol
+^ESCT1232144	Acetaminophen and aspirin and caffeine product
+^ESCT1232145	Aspirin and caffeine and paracetamol product
+^ESCT1232164	Product containing precisely aspirin 325 milligram and codeine 30 milligram/1 each conventional release oral tablet
+^ESCT1232165	Product containing precisely aspirin 325 milligram and codeine 60 milligram/1 each conventional release oral tablet
+^ESCT1232185	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCT1232186	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg oral capsule
+^ESCT1232187	Product containing precisely aspirin 389 milligram and caffeine 32.4 milligram and dextropropoxyphene hydrochloride 32 milligram/1 each conventional release oral capsule
+^ESCT1232188	Aspirin 389 mg and caffeine 32.4 mg and dextropropoxyphene hydrochloride 32 mg oral capsule
+^ESCT1232232	Acetaminophen 250 mg and aspirin 250 mg and caffeine 65 mg oral tablet
+^ESCT1232233	Aspirin 250 mg and caffeine 65 mg and paracetamol 250 mg oral tablet
+^ESCT1232234	Product containing precisely aspirin 250 milligram and caffeine 65 milligram and paracetamol 250 milligram/1 each conventional release oral tablet
+^ESCT1237475	Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)
+^ESCT1249996	Aspirin 75mg tablets (Medreich Plc)
+^ESCT1250353	Aspirin 300mg gastro-resistant tablets (Advanz Pharma)
+^ESCT1256455	Aspirin 75mg tablets (Chanelle Medical UK Ltd)
+^ESCT1264798	Aspirin 75mg dispersible tablets (M & A Pharmachem Ltd)
+^ESCT1270208	Aspirin 75mg tablets (Healthcare Pharma Ltd)
+^ESCT1276038	Aspirin 75mg tablets (Accord Healthcare Ltd)
+^ESCT1276297	Aspirin 75mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1279558	Aspirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCT1381257	Aspirin 500 mg and glycine 133 mg orodispersible tablet
+^ESCT1381425	Aspirin-containing product in rectal dose form
+^ESCT1381542	Aspirin-containing product in oral dose form
+^ESCT1381616	Aspirin 81 mg chewable tablet
+^ESCT1381617	Aspirin 165 mg gastro-resistant oral tablet
+^ESCT1381618	Aspirin 325 mg gastro-resistant oral tablet
+^ESCT1381619	Aspirin 120 mg rectal suppository
+^ESCT1381620	Aspirin 200 mg rectal suppository
+^ESCT1381621	Aspirin 600 mg rectal suppository
+^ESCT1382035	Aspirin 500 mg gastro-resistant oral tablet
+^ESCT1382266	Aspirin- and carisoprodol-containing product
+^ESCT1382272	Aspirin- and meprobamate-containing product
+^ESCT1382289	Aspirin- and glycine-containing product
+^ESCT1382337	Aspirin- and butalbital- and caffeine-containing product
+^ESCT1382353	Aspirin- and methocarbamol-containing product
+^ESCT1382561	Aspirin- and pravastatin-containing product
+^ESCT1382915	Aspirin- and caffeine- and cinnamedrine-containing product
+^ESCT1383013	Aspirin- and caffeine- and orphenadrine-containing product
+^ESCT1383042	Buffered aspirin-containing product
+^ESCT1383043	Buffered aspirin- and caffeine-containing product
+^ESCT1383044	Aspirin- and caffeine- and paracetamol-containing product
+^ESCT1383045	Acetaminophen- and aspirin- and caffeine-containing product
+^ESCT1385606	Aspirin- and omeprazole-containing product
+^ESCT1385739	Aspirin- and omeprazole-containing product in oral dose form
+^ESCT1385754	Aspirin- and pentazocine-containing product
+^ESCT1385757	Aspirin- and cyclizine-containing product
+^ESCT1385836	Aspirin 975 mg gastro-resistant oral tablet
+^ESCT1385837	Aspirin 81 mg gastro-resistant oral tablet
+^ESCT1385841	Aspirin 650 mg gastro-resistant oral tablet
+^ESCT1386090	Aspirin- and dipyridamole-containing product in oral dose form
+^ESCT1386186	Aspirin- and caffeine- and paracetamol-containing product in oral dose form
+^ESCT1386187	Acetaminophen- and aspirin- and caffeine-containing product in oral dose form
+^ESCT1386188	Aspirin- and hydrocodone-containing product in oral dose form
+^ESCT1386189	Aspirin- and pravastatin-containing product in oral dose form
+^ESCT1386190	Aspirin- and carisoprodol-containing product in oral dose form
+^ESCT1386191	Aspirin- and meprobamate-containing product in oral dose form
+^ESCT1386192	Aspirin- and methocarbamol-containing product in oral dose form
+^ESCT1386210	Aspirin- and butalbital- and caffeine-containing product in oral dose form
+^ESCT1386211	Aspirin- and butalbital- and caffeine- and codeine-containing product
+^ESCT1386212	Aspirin- and butalbital- and caffeine- and codeine-containing product in oral dose form
+^ESCT1386213	Aspirin- and oxycodone-containing product
+^ESCT1386214	Aspirin- and oxycodone-containing product in oral dose form
+^ESCT1386215	Aspirin- and carisoprodol- and codeine-containing product
+^ESCT1386216	Aspirin- and carisoprodol- and codeine-containing product in oral dose form
+^ESCT1386217	Aspirin- and caffeine- and orphenadrine-containing product in oral dose form
+^ESCT1386218	Aspirin- and caffeine- and dihydrocodeine-containing product
+^ESCT1386219	Aspirin- and caffeine- and dihydrocodeine-containing product in oral dose form
+^ESCT1386656	Aspirin- and hydrocodone-containing product
+^ESCT1409606	Aspirin 300mg dispersible tablets (Accord Healthcare Ltd)
+^ESCT1409688	Aspirin 300mg tablets (Accord Healthcare Ltd)
+^ESCT1409774	Aspirin 75mg dispersible tablets (Accord Healthcare Ltd)
+^ESCT1410427	Anadin Extra soluble tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410430	Anadin Extra tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410451	Beechams Powders oral powder sachets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410628	Anadin Original tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1421993	MigraMax oral powder sachets (Zentiva Pharma UK Ltd)
+^ESCT1424703	Cilazapril 1mg tablets
+^ESCT1424704	Cilazapril 2.5mg tablets
+^ESCT1424710	Cilazapril 5mg tablets
+^ESCT1424711	Cilazapril 500microgram tablets
+^ESCT1424764	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1424777	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+^ESCT1424794	Co-codaprin 8mg/400mg dispersible tablets
+^ESCT1424795	Aspirin 300mg dispersible tablets
+^ESCT1424796	Aspirin 500mg / Papaveretum 7.71mg dispersible tablets sugar free
+^ESCT1425507	Aspirin 75mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425554	Aspirin 75mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425613	Aspirin 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425804	Aspirin 300mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425872	Aspirin 300mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1427614	Aspirin 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1434986	Aspirin 75mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1437035	Aspirin 75mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1438065	Aspirin 300mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCTAL873689	Alka Rapid Crystals 500mg granules sachets (Bayer Plc)
+^ESCTAL873970	Alka-Seltzer effervescent tablets original (Bayer Plc)
+^ESCTAL873973	Alka-Seltzer effervescent tablets lemon (Bayer Plc)
+^ESCTAL902618	Alka-Seltzer XS effervescent tablets (Bayer Plc)
+^ESCTAN825547	Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAN873875	Anadin Extra soluble tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAN873882	Anadin Extra tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAN911638	Anadin Original tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAS1001242	Aspirin 75mg tablets (Alissa Healthcare Research Ltd)
+^ESCTAS1003158	Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS1004650	Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1004654	Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1004660	Aspirin 300mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1005538	Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS1006288	Aspirin 300mg caplets (The Boots Company Plc)
+^ESCTAS1006321	Aspirin 300mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS1007394	Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAS1014725	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1020000	Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)
+^ESCTAS1035400	Aspirin 100mg capsules
+^ESCTAS1035403	Aspirin 100mg capsules (Special Order)
+^ESCTAS1041409	Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTAS1041413	Aspirin 300mg dispersible tablets (Waymade Healthcare Plc)
+^ESCTAS1041416	Aspirin 75mg tablets (Waymade Healthcare Plc)
+^ESCTAS1041418	Aspirin 300mg tablets (Waymade Healthcare Plc)
+^ESCTAS1041420	Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTAS1041425	Aspirin 300mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTAS1046571	Aspirin 4% in Chloroform solution
+^ESCTAS1046574	Aspirin 4% in Chloroform solution (Special Order)
+^ESCTAS1049081	Aspirin 75mg dispersible tablets (DE Pharmaceuticals)
+^ESCTAS1049085	Aspirin 300mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTAS1049087	Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTAS1049090	Aspirin 300mg tablets (DE Pharmaceuticals)
+^ESCTAS1049093	Aspirin 75mg tablets (DE Pharmaceuticals)
+^ESCTAS1051086	Aspirin 150mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1051088	Aspirin 300mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTAS1067662	Aspirin 300mg tablets (Numark Ltd)
+^ESCTAS1092420	Aspirin 300mg caplets (Wockhardt UK Ltd)
+^ESCTAS1116880	Aspirin 300mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1116882	Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1116919	Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS1118910	Aspirin 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118912	Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118916	Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1118919	Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1126429	Aspirin 25mg capsules (Special Order)
+^ESCTAS1126488	Aspirin 25mg capsules
+^ESCTAS1141738	Aspirin 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS1158293	Aspirin 75mg tablets (Actavis UK Ltd)
+^ESCTAS608106	Aspirin 75mg dispersible tablets
+^ESCTAS608107	Aspirin 75mg dispersible tablet
+^ESCTAS608108	Aspirin 75mg tablets
+^ESCTAS608110	Aspirin 75 mg oral tablet
+^ESCTAS608111	Aspirin 75mg gastro-resistant tablets
+^ESCTAS608112	Aspirin 75mg e/c tablet
+^ESCTAS608113	Aspirin 75mg soluble tablet
+^ESCTAS609985	Aspirin 300mg gastro-resistant tablets
+^ESCTAS609986	Aspirin 300mg e/c tablet
+^ESCTAS609987	Aspirin 300mg soluble tablet
+^ESCTAS609988	Aspirin 300mg suppositories
+^ESCTAS609989	Aspirin 300mg suppository
+^ESCTAS609990	Aspirin 150mg suppositories
+^ESCTAS609991	Aspirin 150mg suppository
+^ESCTAS609992	Aspirin 500mg soluble tablet
+^ESCTAS610079	Aspirin + codeine 400mg/8mg dispersible tablet
+^ESCTAS610090	Aspirin 500mg / Papaveretum 7.71mg dispersible tablets sugar free
+^ESCTAS610091	Aspirin+papaveretum 500mg/7.71mg dispersible tablet
+^ESCTAS610514	Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free
+^ESCTAS610515	Aspirin+metoclopramide 900mg/10mg/sachet powder
+^ESCTAS614950	Aspirin 300mg tablets
+^ESCTAS614952	Aspirin 300 mg oral tablet
+^ESCTAS614953	Aspirin 300mg dispersible tablets
+^ESCTAS614954	Aspirin 300mg dispersible tablet
+^ESCTAS618048	Aspirin+glycine 500mg/133mg dispersible tablet
+^ESCTAS619339	Aspirin in rectal dosage form
+^ESCTAS620247	Aspirin in oral dosage form
+^ESCTAS633806	Aspirin 81mg chewable tablet
+^ESCTAS633808	Aspirin 325 mg oral tablet
+^ESCTAS633810	Aspirin 81mg e/c tablet
+^ESCTAS633811	Aspirin 165mg e/c tablet
+^ESCTAS633812	Aspirin 325mg e/c tablet
+^ESCTAS633813	Aspirin 650mg e/c tablet
+^ESCTAS633814	Aspirin 975mg e/c tablet
+^ESCTAS633820	Aspirin 120mg suppository
+^ESCTAS633821	Aspirin 200mg suppository
+^ESCTAS633822	Aspirin 600mg suppository
+^ESCTAS635088	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTAS639622	Aspirin 800 mg oral tablet
+^ESCTAS640983	Aspirin 975 mg oral tablet
+^ESCTAS641869	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule
+^ESCTAS641871	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg oral tablet
+^ESCTAS641873	Aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule
+^ESCTAS641875	Aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+^ESCTAS641877	Aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+^ESCTAS641884	Aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+^ESCTAS641886	Aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+^ESCTAS641888	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTAS641890	Aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg oral tablet
+^ESCTAS641892	Aspirin 325 mg and carisoprodol 200 mg oral tablet
+^ESCTAS641894	Aspirin 500 mg and hydrocodone bitartrate 5 mg oral tablet
+^ESCTAS641896	Aspirin 325 mg and meprobamate 200 mg oral tablet
+^ESCTAS641898	Aspirin 325 mg and methocarbamol 400 mg oral tablet
+^ESCTAS641900	Aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg oral tablet
+^ESCTAS641904	Aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg oral tablet
+^ESCTAS644914	Aspirin 500mg e/c tablet
+^ESCTAS660891	Aspirin + carisoprodol
+^ESCTAS660966	Aspirin + meprobamate
+^ESCTAS661139	Aspirin+glycine
+^ESCTAS661543	Aspirin + butalbital + caffeine
+^ESCTAS664018	Aspirin + methocarbamol
+^ESCTAS670357	Aspirin 300 mg and codeine 8 mg oral tablet
+^ESCTAS675455	Aspirin + codeine 500mg/8mg dispersible tablet
+^ESCTAS677656	Aspirin+pravastatin
+^ESCTAS677658	Aspirin 81 mg and pravastatin 20 mg oral tablet
+^ESCTAS677660	Aspirin 81 mg and pravastatin 40 mg oral tablet
+^ESCTAS677662	Aspirin 81 mg and pravastatin 80 mg oral tablet
+^ESCTAS677664	Aspirin 325 mg and pravastatin 80 mg oral tablet
+^ESCTAS677666	Aspirin 325 mg and pravastatin 40 mg oral tablet
+^ESCTAS677668	Aspirin 325 mg and pravastatin 20 mg oral tablet
+^ESCTAS682181	Aspirin + cinnamedrine + caffeine
+^ESCTAS682849	Aspirin, buffered
+^ESCTAS682851	Aspirin + caffeine + paracetamol
+^ESCTAS682852	Aspirin + acetaminophen + caffeine
+^ESCTAS682866	Aspirin 325 mg and codeine 30 mg oral tablet
+^ESCTAS682868	Aspirin 325 mg and codeine 60 mg oral tablet
+^ESCTAS683024	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCTAS684366	Aspirin 250mg/paracetamol 250mg/caffeine 65mg tablet
+^ESCTAS684369	Aspirin 250 mg and acetaminophen 250 mg and caffeine 65 mg oral tablet
+^ESCTAS684370	Aspirin 250 mg and paracetamol 250 mg and caffeine 65 mg oral tablet
+^ESCTAS801500	Aspirin 75mg dispersible tablets (Teva UK Ltd)
+^ESCTAS801803	Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS802093	Aspirin 300mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTAS804338	Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS804972	Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS805157	Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS806736	Aspirin 300mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS808578	Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTAS809119	Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTAS809937	Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS809943	Aspirin 300mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS810040	Aspirin 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS812078	Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)
+^ESCTAS814876	Aspirin 300mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS816283	Aspirin 300mg dispersible tablets (Actavis UK Ltd)
+^ESCTAS816399	Aspirin 300mg suppositories (The Boots Company Plc)
+^ESCTAS818402	Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTAS818750	Aspirin 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820168	Aspirin 300mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTAS820180	Aspirin 150mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820303	Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS820317	Aspirin 75mg dispersible tablets (The Boots Company Plc)
+^ESCTAS820322	Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS820406	Aspirin 300mg tablets (Actavis UK Ltd)
+^ESCTAS820509	Aspirin 300mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTAS821074	Aspirin 300mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS821167	Aspirin 150mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS821290	Aspirin 300mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS821302	Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)
+^ESCTAS821618	Aspirin 300mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS821805	Aspirin 150mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTAS822408	Aspirin 300mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS823808	Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS824591	Aspirin 300mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS825251	Aspirin 75mg gastro-resistant tablets (Mylan Ltd)
+^ESCTAS825493	Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)
+^ESCTAS825694	Aspirin 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS828296	Aspirin 300mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTAS828521	Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+^ESCTAS829210	Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)
+^ESCTAS830701	Aspirin 300mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)
+^ESCTAS831338	Aspirin 300mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTAS831458	Aspirin 300mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAS832912	Aspirin 75mg dispersible tablets (Actavis UK Ltd)
+^ESCTAS860837	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+^ESCTAS863467	Aspav dispersible tablets (Actavis UK Ltd)
+^ESCTAS870920	Aspirin 300mg modified-release tablets
+^ESCTAS871669	Aspro Clear 300mg effervescent tablets (Bayer Plc)
+^ESCTAS871684	Aspirin 500mg effervescent tablets sugar free
+^ESCTAS871769	Aspirin 300mg effervescent tablets sugar free
+^ESCTAS873746	Aspirin 500mg granules sachets sugar free
+^ESCTAS874019	Aspirin 300mg / Paracetamol 200mg dispersible tablets sugar free
+^ESCTAS874020	Aspirin 300mg orodispersible tablets sugar free
+^ESCTAS874101	Aspirin 600mg / Caffeine 50mg oral powder sachets sugar free
+^ESCTAS874256	Aspirin 500mg / Codeine 8mg dispersible tablets sugar free
+^ESCTAS874741	Aspirin 300mg tablets (Vantage)
+^ESCTAS875827	Aspirin powder (A A H Pharmaceuticals Ltd)
+^ESCTAS875829	Aspirin powder (J M Loveridge Ltd)
+^ESCTAS875926	Aspirin powder
+^ESCTAS877026	Aspirin 325mg / Caffeine 22mg tablets
+^ESCTAS877577	Asasantin Retard capsules (Waymade Healthcare Plc)
+^ESCTAS880016	Asasantin Retard capsules (Dowelhurst Ltd)
+^ESCTAS902114	Aspirin 300mg tablets (Lloyds Pharmacy Ltd)
+^ESCTAS902978	Askit oral powder sachets (Bayer Plc)
+^ESCTAS904445	Aspirin 225mg/5ml oral solution (Special Order)
+^ESCTAS904453	Aspirin 225mg/5ml oral suspension (Special Order)
+^ESCTAS904481	Aspirin 300mg/5ml oral solution (Special Order)
+^ESCTAS904487	Aspirin 300mg/5ml oral suspension (Special Order)
+^ESCTAS904492	Aspirin 50mg/5ml oral solution (Special Order)
+^ESCTAS904499	Aspirin 50mg/5ml oral suspension (Special Order)
+^ESCTAS904760	Aspirin 225mg/5ml oral solution
+^ESCTAS904761	Aspirin 225mg/5ml oral suspension
+^ESCTAS904763	Aspirin 300mg/5ml oral solution
+^ESCTAS904764	Aspirin 300mg/5ml oral suspension
+^ESCTAS904765	Aspirin 50mg/5ml oral solution
+^ESCTAS904766	Aspirin 50mg/5ml oral suspension
+^ESCTAS911649	Aspirin 325mg / Caffeine 15mg tablets
+^ESCTAS923532	Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923540	Aspirin 300mg dispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923542	Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTAS923848	Aspirin 300mg dispersible tablets (Lloyds Pharmacy Ltd)
+^ESCTAS925813	Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAS925815	Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTAS925827	Aspirin 75mg effervescent tablets
+^ESCTAS927772	Aspirin 300mg gastro-resistant tablets (Focus Pharmaceuticals Ltd)
+^ESCTAS929398	Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTAS929400	Aspirin 300mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTAS933268	Aspirin 300mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTAS937801	Aspirin 500mg powder and solvent for solution for injection vials
+^ESCTAS937804	Aspegic Injectable 500mg powder and solvent for solution for injection vials (Imported (France))
+^ESCTAS937807	Aspirin 1g powder and solvent for solution for injection vials
+^ESCTAS937810	Aspegic Injectable 1g powder and solvent for solution for injection vials (Imported (France))
+^ESCTAS942032	Aspirin 100mg/5ml oral suspension (Special Order)
+^ESCTAS942295	Aspirin 100mg/5ml oral suspension
+^ESCTAS944817	Aspirin 100mg/5ml oral solution (Special Order)
+^ESCTAS944870	Aspirin 15mg/5ml oral suspension (Special Order)
+^ESCTAS944885	Aspirin 15mg/5ml oral solution (Special Order)
+^ESCTAS944897	Aspirin 25mg/5ml oral suspension (Special Order)
+^ESCTAS944972	Aspirin 25mg/5ml oral solution (Special Order)
+^ESCTAS944984	Aspirin 30mg/5ml oral suspension (Special Order)
+^ESCTAS944990	Aspirin 30mg/5ml oral solution (Special Order)
+^ESCTAS944996	Aspirin 37.5mg/5ml oral suspension (Special Order)
+^ESCTAS945008	Aspirin 37.5mg/5ml oral solution (Special Order)
+^ESCTAS945019	Aspirin 40mg/5ml oral suspension (Special Order)
+^ESCTAS945034	Aspirin 40mg/5ml oral solution (Special Order)
+^ESCTAS945045	Aspirin 62.5mg/5ml oral suspension (Special Order)
+^ESCTAS945056	Aspirin 62.5mg/5ml oral solution (Special Order)
+^ESCTAS945066	Aspirin 75mg/5ml oral suspension (Special Order)
+^ESCTAS945071	Aspirin 75mg/5ml oral solution (Special Order)
+^ESCTAS945365	Aspirin 100mg/5ml oral solution
+^ESCTAS945366	Aspirin 15mg/5ml oral solution
+^ESCTAS945367	Aspirin 15mg/5ml oral suspension
+^ESCTAS945369	Aspirin 25mg/5ml oral solution
+^ESCTAS945370	Aspirin 25mg/5ml oral suspension
+^ESCTAS945373	Aspirin 30mg/5ml oral solution
+^ESCTAS945374	Aspirin 30mg/5ml oral suspension
+^ESCTAS945376	Aspirin 37.5mg/5ml oral solution
+^ESCTAS945377	Aspirin 37.5mg/5ml oral suspension
+^ESCTAS945379	Aspirin 40mg/5ml oral solution
+^ESCTAS945381	Aspirin 40mg/5ml oral suspension
+^ESCTAS945382	Aspirin 62.5mg/5ml oral solution
+^ESCTAS945383	Aspirin 62.5mg/5ml oral suspension
+^ESCTAS945384	Aspirin 75mg/5ml oral solution
+^ESCTAS945385	Aspirin 75mg/5ml oral suspension
+^ESCTAS949621	Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)
+^ESCTAS950815	Aspirin Extra tablets (Lloyds Pharmacy Ltd)
+^ESCTAS950818	Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)
+^ESCTAS959330	Aspirin 300mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959335	Aspirin 75mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTAS959923	Aspirin 300mg tablets (Dowelhurst Ltd)
+^ESCTAS959928	Aspirin 75mg dispersible tablets (Dowelhurst Ltd)
+^ESCTAS961918	Aspirin 300mg tablets (Wockhardt UK Ltd)
+^ESCTAS962452	Aspirin 300mg gastro-resistant tablets (Mylan Ltd)
+^ESCTAS963910	Aspirin 300mg dispersible tablets (DE Pharmaceuticals)
+^ESCTAS964649	Aspirin 300mg dispersible tablets (Numark Ltd)
+^ESCTAS964651	Aspirin 75mg dispersible tablets (Numark Ltd)
+^ESCTAS967676	Aspirin 40mg oral powder sachets (Special Order)
+^ESCTAS967972	Aspirin 40mg oral powder sachets
+^ESCTAS978160	Aspirin 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS978179	Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS978181	Aspirin 300mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAS986918	Aspirin 75mg gastro-resistant tablets (Zanza Laboratories Ltd)
+^ESCTAS987089	Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)
+^ESCTAS987092	Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)
+^ESCTAS987095	Aspirin 300mg tablets (Bristol Laboratories Ltd)
+^ESCTAS988300	Aspirin 37.5mg oral powder sachets (Special Order)
+^ESCTAS988344	Aspirin 37.5mg oral powder sachets
+^ESCTAS991830	Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTAT1162252	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+^ESCTBE874085	Beechams Powders oral powder sachets (GlaxoSmithKline Consumer Healthcare)
+^ESCTBI1103795	Bisoprolol 5mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103801	Bisoprolol 10mg / Aspirin 75mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103812	Bisoprolol 10mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103821	Bisoprolol 5mg / Aspirin 100mg capsules (Aspire Pharma Ltd)
+^ESCTBI1103867	Bisoprolol 10mg / Aspirin 100mg capsules
+^ESCTBI1103868	Bisoprolol 10mg / Aspirin 75mg capsules
+^ESCTBI1103870	Bisoprolol 5mg / Aspirin 100mg capsules
+^ESCTBI1103871	Bisoprolol 5mg / Aspirin 75mg capsules
+^ESCTBO1029920	Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTBO1030040	Boots Aspirin and Codeine tablets (The Boots Company Plc)
+^ESCTBO1128084	Boots Aspirin Extra tablets (The Boots Company Plc)
+^ESCTBO1128278	Boots Aspirin 300mg dispersible tablets (The Boots Company Plc)
+^ESCTBU682848	Buffered aspirin
+^ESCTBU682850	Buffered aspirin + caffeine
+^ESCTCA831814	Caprin 300mg gastro-resistant tablets (Pinewood Healthcare)
+^ESCTCA833520	Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTCO1006995	Co-codaprin
+^ESCTCO1117112	Co-codaprin 8mg/400mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO610077	Co-codaprin 8mg/400mg dispersible tablets
+^ESCTCO610078	Co-codaprin 8mg/400mg dispersible tablet
+^ESCTCO675454	Co-codaprin 8mg/500mg dispersible tablet
+^ESCTCO801758	Coversyl 2mg tablets (Servier Laboratories Ltd)
+^ESCTCO831885	Coversyl 4mg tablets (Servier Laboratories Ltd)
+^ESCTCO863370	Co-codaprin 8mg/400mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO863374	Co-codaprin 8mg/400mg dispersible tablets (Actavis UK Ltd)
+^ESCTCO863379	Co-codaprin 8mg/400mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO864508	Coversyl 8mg tablets (Servier Laboratories Ltd)
+^ESCTCO874219	Codis 500 dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTCO942705	Co-codaprin 8mg/400mg tablets (The Boots Company Plc)
+^ESCTCO942831	Co-codaprin 8mg/400mg tablets
+^ESCTDA1146994	Danamep 75mg dispersible tablets (Ecogen Europe Ltd)
+^ESCTDI819906	Disprin 300mg dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI870683	Disprin CV 300mg modified-release tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI873813	Disprin Direct 300mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTDI873847	Disprin Extra dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTEN818195	Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)
+^ESCTGE816551	Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)
+^ESCTGE874034	Generic Alka-Seltzer effervescent tablets sugar free
+^ESCTGE874035	Generic Anadin Extra soluble tablets sugar free
+^ESCTGE874036	Generic Anadin Extra tablets
+^ESCTGE902230	Generic Nurse Sykes oral powder sachets
+^ESCTGE902615	Generic Alka-Seltzer XS effervescent tablets
+^ESCTGE903003	Generic Askit oral powder sachets sugar free
+^ESCTIM862063	Imazin XL tablets (Napp Pharmaceuticals Ltd)
+^ESCTIM862069	Imazin XL forte tablets (Napp Pharmaceuticals Ltd)
+^ESCTLL901748	Lloydspharmacy Extra Power Pain Reliever tablets (Lloyds Pharmacy Ltd)
+^ESCTMA871665	Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc)
+^ESCTMI808570	Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCTMI862991	MigraMax oral powder sachets (Zentiva)
+^ESCTMO1055021	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTNU1067564	Numark Extra Power Pain Reliever tablets (Numark Ltd)
+^ESCTNU805251	Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTNU814535	Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTNU902235	Nurse Sykes oral powder sachets (Crescent Pharma OTC Ltd)
+^ESCTOR682683	Orphenadrine + aspirin + caffeine
+^ESCTOR876929	Original Phensic Aspirin tablets (Merck Consumer Health Products)
+^ESCTPA964332	Paramed Extra Power Pain Control tablets (Galpharm International Ltd)
+^ESCTPE607406	Perindopril erbumine 2mg tablets
+^ESCTPE607408	Perindopril erbumine 2 mg oral tablet
+^ESCTPE607409	Perindopril erbumine 4mg tablets
+^ESCTPE607411	Perindopril erbumine 4 mg oral tablet
+^ESCTPE639506	Perindopril erbumine 8mg tablets
+^ESCTPE639508	Perindopril erbumine 8 mg oral tablet
+^ESCTPO801605	PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPO820615	PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPR607407	Product containing perindopril erbumine 2 mg/1 each oral tablet
+^ESCTPR607410	Product containing perindopril erbumine 4 mg/1 each oral tablet
+^ESCTPR608109	Product containing aspirin 75 mg/1 each oral tablet
+^ESCTPR614951	Product containing aspirin 300 mg/1 each oral tablet
+^ESCTPR619340	Product containing aspirin in rectal dosage form
+^ESCTPR620248	Product containing aspirin in oral dosage form
+^ESCTPR633809	Product containing aspirin 325 mg/1 each oral tablet
+^ESCTPR635089	Product containing aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR639507	Product containing perindopril erbumine 8 mg/1 each oral tablet
+^ESCTPR639623	Product containing aspirin 800 mg/1 each oral tablet
+^ESCTPR640984	Product containing aspirin 975 mg/1 each oral tablet
+^ESCTPR641870	Product containing aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule
+^ESCTPR641872	Product containing aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral tablet
+^ESCTPR641874	Product containing aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule
+^ESCTPR641876	Product containing aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCTPR641878	Product containing aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCTPR641885	Product containing aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCTPR641887	Product containing aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCTPR641889	Product containing aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTPR641891	Product containing aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg/1 each oral tablet
+^ESCTPR641893	Product containing aspirin 325 mg and carisoprodol 200 mg/1 each oral tablet
+^ESCTPR641895	Product containing aspirin 500 mg and hydrocodone bitartrate 5 mg/1 each oral tablet
+^ESCTPR641897	Product containing aspirin 325 mg and meprobamate 200 mg/1 each oral tablet
+^ESCTPR641899	Product containing aspirin 325 mg and methocarbamol 400 mg/1 each oral tablet
+^ESCTPR641901	Product containing aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg/1 each oral tablet
+^ESCTPR641905	Product containing aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg/1 each oral tablet
+^ESCTPR660892	Product containing aspirin and carisoprodol
+^ESCTPR660967	Product containing aspirin and meprobamate
+^ESCTPR661544	Product containing aspirin and butalbital and caffeine
+^ESCTPR664019	Product containing aspirin and methocarbamol
+^ESCTPR670358	Product containing aspirin 300 mg and codeine 8 mg/1 each oral tablet
+^ESCTPR677657	Product containing aspirin and pravastatin
+^ESCTPR677659	Product containing aspirin 81 mg and pravastatin 20 mg/1 each oral tablet
+^ESCTPR677661	Product containing aspirin 81 mg and pravastatin 40 mg/1 each oral tablet
+^ESCTPR677663	Product containing aspirin 81 mg and pravastatin 80 mg/1 each oral tablet
+^ESCTPR677665	Product containing aspirin 325 mg and pravastatin 80 mg/1 each oral tablet
+^ESCTPR677667	Product containing aspirin 325 mg and pravastatin 40 mg/1 each oral tablet
+^ESCTPR677669	Product containing aspirin 325 mg and pravastatin 20 mg/1 each oral tablet
+^ESCTPR682684	Product containing aspirin and caffeine and orphenadrine
+^ESCTPR682853	Product containing acetaminophen and aspirin and caffeine
+^ESCTPR682854	Product containing aspirin and caffeine and paracetamol
+^ESCTPR682867	Product containing aspirin 325 mg and codeine 30 mg/1 each oral tablet
+^ESCTPR682869	Product containing aspirin 325 mg and codeine 60 mg/1 each oral tablet
+^ESCTPR683025	Product containing aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCTPR684367	Product containing aspirin 250 mg and paracetamol 250 mg and caffeine 65 mg/1 each oral tablet
+^ESCTPR684368	Product containing aspirin 250 mg and acetaminophen 250 mg and caffeine 65 mg/1 each oral tablet
+^ESCTPU999401	Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)
+^ESCTVE901769	Veganin tablets (Omega Pharma Ltd)
+ANDI9260HILLI	Antoin  Dispersible tablets
+ASEF29056NEMIS	Aspro Clear Maximum Strength  Effervescent tablets  500 mg
+ASSU37690MGEMIS	Aspirin  Suppositories  150 mg (Unichem)
+ASSU37691MGEMIS	Aspirin  Suppositories  150 mg (Martindale)
+ASSU37692MGEMIS	Aspirin  Suppositories  150 mg (A.A.H. Pharm)
+ASTA139786NEMIS	Aspirin And Caffeine  Tablets  325 mg + 15 mg
+ASTA3199	Aspirin Paracetamol And Codeine  Tablets
+ATM/124051NEMIS	Atransipar  M/R capsules  200 mg + 25 mg
+AZTA72358NEMIS	Azilsartan Medoxomil  Tablets  40 mg
+AZTA72359NEMIS	Azilsartan Medoxomil  Tablets  80 mg
+BICA98659NEMIS	Bisoprolol And Aspirin  Capsules  5 mg + 75 mg
+BICA98661NEMIS	Bisoprolol And Aspirin  Capsules  10 mg + 75 mg
+BICA98662NEMIS	Bisoprolol And Aspirin  Capsules  10 mg + 100 mg
+CITA18897EMIS	Cilazapril  Tablets  1 mg
+CITA18898EMIS	Cilazapril  Tablets  2.5 mg
+CITA18900EMIS	Cilazapril  Tablets  500 micrograms
+CITA21966EMIS	Cilazapril  Tablets  5 mg
+COTA14418NEMIS	Coversyl  Tablets  8 mg
+COTA34549MGEMIS	Co-Codaprin Dispersible  Tablets  (A.A.H. Pharm)
+COTA34550MGEMIS	Co-Codaprin Dispersible  Tablets  (Alpharma)
+COTA34551MGEMIS	Co-Codaprin Dispersible  Tablets  (Unichem)
+COTA9937BRIDL	Coversyl  Tablets  2 mg
+COTA9939BRIDL	Coversyl  Tablets  4 mg
+DOCA9432HILLI	Doloxene Compound  Capsules
+ENTA18559NEMIS	Enalapril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+FOTA9320EMIS	Fosinopril Sodium  Tablets  10 mg
+FOTA9321EMIS	Fosinopril Sodium  Tablets  20 mg
+HYTA9618HILLI	Hypon  Tablets
+IMTA35377EMIS	Imidapril Hydrochloride  Tablets  10 mg
+LITA18535NEMIS	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+MOM/83187NEMIS	Molita  M/R capsules  200 mg + 25 mg
+PETA14419NEMIS	Perindopril Erbumine  Tablets  8 mg
+PETA9809HILLI	Perindopril Erbumine  Tablets  2 mg
+PETA9810HILLI	Perindopril Erbumine  Tablets  4 mg
+QUTA18531NEMIS	Quinapril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+VETA10602BRIDL	Veganin  Tablets  

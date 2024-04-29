@@ -67,3 +67,5 @@
 14721411000001102	Plavix 75mg tablets (Sigma Pharmaceuticals Plc)
 5400911000001107	Plavix 75mg tablets (Waymade Healthcare Plc)
 15907411000001101	Grepid 75mg tablets (Kent Pharmaceuticals Ltd)
+39689111000001106	Clopidogrel 75mg tablets (product)
+42293111000001103	Clopidogrel 300mg tablets (product)
