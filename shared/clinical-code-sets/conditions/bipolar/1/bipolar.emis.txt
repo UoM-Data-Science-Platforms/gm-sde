@@ -1,2 +1,44 @@
 EMISICD10|F3131	Bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome
 EMISICD10|F3130	Bipolar affect disorder cur epi mild or moderate depressn, without somatic syndrome
+^ESCT1205920	Bipolar disorder, most recent episode depression
+^ESCT1205921	Bipolar disorder, most recent episode manic
+^ESCT1205922	Bipolar affective disorder, most recent episode mixed
+^ESCT1205924	Bipolar I disorder, most recent episode manic
+^ESCT1205925	Bipolar I disorder, most recent episode depression
+^ESCT1246336	Bipolar affective disorder, currently depressed, severe, with psychosis
+^ESCT1371603	Bipolar disorder caused by drug
+^ESCT1391195	Rapid cycling bipolar II disorder
+^ESCT1407128	Severe manic bipolar affective disorder, with psychosis
+^ESCTBI252228	Bipolar I disorder, single manic episode with postpartum onset
+^ESCTBI264898	Bipolar I disorder, single manic episode
+^ESCTBI264899	Bipolar 1 disorder, single manic episode
+^ESCTBI276168	Bipolar I disorder, most recent episode mixed
+^ESCTBI278205	Bipolar I disorder, most recent episode manic with catatonic features
+^ESCTBI300667	Bipolar I disorder, most recent episode hypomanic
+^ESCTBI340150	Bipolar I disorder, most recent episode manic with postpartum onset
+^ESCTBI361577	Bipolar I disorder, most recent episode manic
+^ESCTBI385440	Bipolar 2 disorder
+^ESCTBI392916	Bipolar I disorder, single manic episode with catatonic features
+^ESCTBI476731	Bipolar affective disorder, current episode mixed
+^ESCTBI538756	Bipolar diathermy
+^ESCTBI543590	Bipolar
+^ESCTBI635757	Bipolar 1 disorder
+^ESCTMA361576	Manic bipolar I disorder
+^ESCTMI367104	Mild manic bipolar I disorder
+^ESCTMI367105	Mild bipolar I disorder, most recent episode manic
+^ESCTMI371384	Mild depressed bipolar I disorder
+^ESCTMI371385	Mild bipolar I disorder, most recent episode depressed
+^ESCTOR502345	Organic bipolar disorder
+^ESCTPR593370	Profile of mood states, bipolar
+^ESCTSC311804	Schizoaffective disorder, bipolar type
+^ESCTSE250101	Severe bipolar I disorder, most recent episode manic, without psychotic features
+^ESCTSE296049	Severe manic bipolar I disorder with psychotic features
+^ESCTSE296050	Severe bipolar I disorder, most recent episode manic, with psychotic features
+^ESCTSE349764	Severe bipolar I disorder, most recent episode depressed without psychotic features
+^ESCTSE635762	Severe bipolar I disorder
+ESCTSI17	Signposting to Bipolar UK
+E1155	Bipolar affective disorder, currently depressed, in partial or unspecified remission
+^ESCTBI259051	Bipolar disorder, partial remission
+^ESCTBI330133	Bipolar I disorder, most recent episode depressed, in partial remission
+^ESCTBI352868	Bipolar I disorder, most recent episode manic, in partial remission
+^ESCTMI823516	Mixed bipolar affective disorder, in partial remission
