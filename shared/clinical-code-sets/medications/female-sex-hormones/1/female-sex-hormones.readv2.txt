@@ -159,28 +159,3 @@ fh1y.	ANGELIQ 2mg/1mg tablets
 fh1Y.	FEMSEVEN SEQUI patches
 fh1z.	CLINORETTE tablets
 fh1Z.	FEMOSTON-CONTI 0.5mg/2.5mg tablets
-fi41.	TESTOSTERONE 100mg implant 30 week
-fi42.	TESTOSTERONE 200mg implant 34 week
-fi45.	TESTOSTERONE 2.5mg/24hours transdermal patches
-fi46.	ANDROPATCH 2.5mg/24hours transdermal patches
-fi47.	TESTOSTERONE 5mg/24hours transdermal patches
-fi48.	ANDROPATCH 5mg/24hours transdermal patches
-fi49.	TESTODERM 6mg/24hours transdermal patches
-fi4B.	TESTOSTERONE 50mg/5g gel
-fi4C.	TESTOGEL 50mg gel 5g sachet
-fi4D.	STRIANT SR 30mg muco-adhesive buccal tablets
-fi4E.	NEBIDO 1000mg/4mL solution for injection
-fi4F.	TESTIM gel 50mg/5g tube
-fi4G.	INTRINSA 300micrograms/24hours transdermal patches
-fi4w.	TESTOSTERONE 300micrograms/24hours transdermal patches
-fi4x.	TESTOSTERONE UNDECANOATE 1000mg/4mL solution for injection
-fi4y.	TESTOSTERONE 30mg muco-adhesive buccal tablets
-fi4z.	TESTOSTERONE 6mg/24hours transdermal patches
-fi52.	*RESTANDOL 40mg capsules
-fi53.	*SUSTANON-100 injection
-fi54.	SUSTANON-250 injection
-fi57.	*VIRORMONE 50mg/1mL injection
-fi59.	TESTOSTERONE 250mg/1mL injection
-fi5a.	TESTOSTERONE UNDECANOATE 40mg capsules
-fi5g.	TESTOSTERONE 100mg injection 2mL
-fi5l.	RESTANDOL TESTOCAPS 40mg capsules

@@ -1,28 +1,3 @@
-fi41.	Testosterone 100mg implant 30 week
-fi42.	Testosterone 200mg implant 34 week
-fi45.	Testosterone 2.5mg/24hours transdermal patch
-fi46.	Andropatch 2.5mg/24hours transdermal patch
-fi47.	Testosterone 5mg/24hours transdermal patch
-fi48.	Andropatch 5mg/24hours transdermal patch
-fi49.	Testoderm 6mg/24hours transdermal patch
-fi4B.	Testosterone 50mg/5g gel
-fi4C.	Testogel 50mg gel 5g sachet
-fi4D.	Striant SR 30mg muco-adhesive buccal tablet
-fi4E.	Nebido 1000mg/4mL solution for injection
-fi4F.	Testim gel 50mg/5g tube
-fi4G.	INTRINSA 300micrograms/24hours transdermal patches
-fi4w.	TESTOSTERONE 300micrograms/24hours transdermal patches
-fi4x.	Testosterone undecanoate 1000mg/4mL solution for injection
-fi4y.	Testosterone 30mg muco-adhesive buccal tablet
-fi4z.	Testosterone 6mg/24hours transdermal patch
-fi52.	Restandol 40mg capsule
-fi53.	Sustanon 100 oily injection
-fi54.	Sustanon 250 oily injection
-fi57.	Virormone 50mg/1mL injection
-fi59.	Testosterone 250mg/1mL injection
-fi5a.	Testosterone undecanoate 40mg capsule
-fi5g.	Testosterone 100mg injection 2mL
-fi5l.	RESTANDOL TESTOCAPS 40mg capsules
 ff11.	Ethinylestradiol 10micrograms tablet
 ff12.	Ethinylestradiol 50micrograms tablet
 ff13.	Ethinylestradiol 1mg tablet
