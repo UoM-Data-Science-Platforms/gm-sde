@@ -839,8 +839,3 @@
 4172411000001103	Rosuvastatin 10mg tablets (product)
 32170911000001100	Cholib 145mg/20mg tablets (Viatris UK Healthcare Ltd) (product)
 32234211000001101	Fenofibrate 145mg / Simvastatin 20mg tablets (product)
-42209911000001100	Fenofibrate micronised 160mg tablets (product)
-42210011000001105	Fenofibrate micronised 200mg capsules (product)
-42210111000001106	Fenofibrate micronised 267mg capsules (product)
-42210211000001100	Fenofibrate micronised 67mg capsules (product)
-9843611000001100	Fenofibrate 200mg capsules (product)
