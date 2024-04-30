@@ -83,20 +83,3 @@ dibq.	*TRANCOPRIN tablets
 dibs.	VEGANIN tablets
 dicH.	PHENSIC tablets
 dl1C.	MIGRAMAX sachet powder
-bi2b.	ENALAPRIL MALEATE+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
-bi3t.	LISINOPRIL+HYDROCHLOROTHIAZIDE 10mg/12.5mg tablets
-bi48.	QUINAPRIL+HYDROCHLOROTHIAZIDE 10/12.5mg tablets
-bi51.	PERINDOPRIL ERBUMINE 2mg tablets
-bi52.	PERINDOPRIL ERBUMINE 4mg tablets
-bi53.	*COVERSYL 2mg tablets
-bi54.	*COVERSYL 4mg tablets
-bi58.	*COVERSYL 8mg tablets
-bi71.	FOSINOPRIL 10mg tablets
-bi72.	FOSINOPRIL 20mg tablets
-bi82.	CILAZAPRIL 500micrograms tablets
-bi83.	*CILAZAPRIL 1mg tablets
-bi84.	*CILAZAPRIL 2.5mg tablets
-bi8a.	CILAZAPRIL 5mg tablets
-biBz.	IMIDAPRIL HYDROCHLORIDE 10mg tablets
-bkJ4.	AZILSARTAN MEDOXOMIL 40mg tablets
-bkJ6.	AZILSARTAN MEDOXOMIL 80mg tablets

@@ -121,21 +121,4 @@ dia1.	Aspirin/paracetamol/codeine tablets
 diat.	Aspirin+papaveretum 500mg/10mg dispersible tablet
 di1..	Aspirin [central nervous system use]
 j11..	Aspirin [musculoskeletal use]
-bi2b.	Enalapril maleate+hydrochlorothiazide 20mg/12.5mg tablet
-bi3t.	Lisinopril+hydrochlorothiazide 10mg/12.5mg tablet
-bi48.	Quinalapril+hydrochlorothiazide 10mg/12.5mg tablet
-bi51.	Perindopril erbumine 2mg tablet
-bi52.	Perindopril erbumine 4mg tablet
-bi53.	Coversyl 2mg tablet
-bi54.	Coversyl 4mg tablet
-bi58.	Coversyl 8mg tablet
-bi71.	Fosinopril sodium 10mg tablet
-bi72.	Fosinopril sodium 20mg tablet
-bi82.	Cilazapril 500micrograms tablet
-bi83.	Cilazapril 1mg tablet
-bi84.	Cilazapril 2.5mg tablet
-bi8a.	Cilazapril 5mg tablet
-biBz.	Imidapril hydrochloride 10mg tablet
-bkJ4.	AZILSARTAN MEDOXOMIL 40mg tablets
-bkJ6.	AZILSARTAN MEDOXOMIL 80mg tablets
 x02LX	Aspirin
