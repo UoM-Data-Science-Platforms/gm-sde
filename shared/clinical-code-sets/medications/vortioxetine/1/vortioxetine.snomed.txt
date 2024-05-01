@@ -10,3 +10,36 @@
 30247711000001105	Vortioxetine 20mg tablets
 30247811000001102	Brintellix 20mg tablets
 30247911000001107	Brintellix 20mg tablets
+768282000	Product containing vortioxetine (medicinal product)
+768283005	Product containing vortioxetine in oral dose form (medicinal product form)
+768284004	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 5 milligram/1 each conventional release oral tablet (clinical drug)
+768285003	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 10 milligram/1 each conventional release oral tablet (clinical drug)
+768286002	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 15 milligram/1 each conventional release oral tablet (clinical drug)
+768287006	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 20 milligram/1 each conventional release oral tablet (clinical drug)
+777946002	Vortioxetine (product)
+780774007	Product containing only vortioxetine in oral dose form (medicinal product form)
+38121811000001107	Brintellix 5mg tablets (DE Pharmaceuticals) (product)
+37431211000001104	Brintellix 5mg tablets (CST Pharma Ltd) (product)
+37351811000001108	Brintellix 5mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+37622311000001104	Brintellix 5mg tablets (Ethigen Ltd) (product)
+38122011000001109	Brintellix 10mg tablets (DE Pharmaceuticals) (product)
+37431011000001109	Brintellix 10mg tablets (CST Pharma Ltd) (product)
+37352011000001105	Brintellix 10mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+37622111000001101	Brintellix 10mg tablets (Ethigen Ltd) (product)
+30730111000001104	Vortioxetine (product)
+38122111000001105	Brintellix 10mg tablets (DE Pharmaceuticals) 28 tablet (product)
+37431111000001105	Brintellix 10mg tablets (CST Pharma Ltd) 28 tablet (product)
+37352211000001100	Brintellix 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet (product)
+37622211000001107	Brintellix 10mg tablets (Ethigen Ltd) 28 tablet (product)
+38121911000001102	Brintellix 5mg tablets (DE Pharmaceuticals) 28 tablet (product)
+37431311000001107	Brintellix 5mg tablets (CST Pharma Ltd) 28 tablet (product)
+37351911000001103	Brintellix 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet (product)
+37622411000001106	Brintellix 5mg tablets (Ethigen Ltd) 28 tablet (product)
+12659501000001104	VORTIOXETINE
+12659701000001105	VORTIOXETINE 5mg tablets
+12659901000001107	VORTIOXETINE 10mg tablets
+12660101000001105	VORTIOXETINE 20mg tablets
+12613401000001107	Brintellix (product)
+12659601000001100	BRINTELLIX 5mg tablets
+12659801000001101	BRINTELLIX 10mg tablets
+12660001000001109	BRINTELLIX 20mg tablets
