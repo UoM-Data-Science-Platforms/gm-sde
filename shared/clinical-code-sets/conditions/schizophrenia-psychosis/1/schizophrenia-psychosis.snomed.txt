@@ -1,4 +1,3 @@
-SnomedCT_ConceptID	FullDescription
 162313000	Morbid jealousy
 5510009	Organic delusional disorder
 5510009	Paranoid organic state
@@ -102,7 +101,7 @@ SnomedCT_ConceptID	FullDescription
 58214004	[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)
 191577003	[X]Cenesthopathic schizophrenia
 58214004	[X]Other schizophrenia
-58214004	"[X]Schizophrenia, unspecified"
+58214004	[X]Schizophrenia, unspecified
 274952002	[X]Borderline schizophrenia
 191559008	[X]Latent schizophrenia
 191559008	[X]Latent schizophrenic reaction
@@ -122,7 +121,7 @@ SnomedCT_ConceptID	FullDescription
 41189006	Sensitiver Beziehungswahm
 231487004	[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)
 231487004	[X]Other persistent delusional disorders
-231487004	"[X]Persistent delusional disorder, unspecified"
+231487004	[X]Persistent delusional disorder, unspecified
 712824002	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 63204009	[X]Bouffee delirante
 307417003	[X]Cycloid psychosis
@@ -134,8 +133,8 @@ SnomedCT_ConceptID	FullDescription
 231489001	[X]Other acute predominantly delusional psychotic disorders
 191680007	[X]Psychogenic paranoid psychosis
 231489001	[X]Other acute and transient psychotic disorders
-231489001	"[X]Acute and transient psychotic disorder, unspecified"
-231437006	"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"
+231489001	[X]Acute and transient psychotic disorder, unspecified
+231437006	[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])
 231437006	[X]Reactive psychosis
 231437006	Reactive psychoses
 61831009	Induced delusional disorder
@@ -143,12 +142,12 @@ SnomedCT_ConceptID	FullDescription
 61831009	Induced psychosis
 61831009	Symbiotic psychosis
 68890003	Schizoaffective disorder
-270901009	"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"
+270901009	[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)
 191567000	[X]Cyclic schizophrenia
 270901009	[X]Mixed schizophrenic and affective psychosis
-270901009	"[X]Schizoaffective disorder, mixed type"
+270901009	[X]Schizoaffective disorder, mixed type
 68890003	[X]Other schizoaffective disorders
-68890003	"[X]Schizoaffective disorder, unspecified"
+68890003	[X]Schizoaffective disorder, unspecified
 480111000000107	[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)
 480111000000107	[X] Chronic hallucinatory psychosis
 480111000000107	[X]Chronic hallucinatory psychosis
@@ -202,16 +201,16 @@ SnomedCT_ConceptID	FullDescription
 231487004	[X]Other persistent delusional disorders
 712824002	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 231489001	[X]Other acute predominantly delusional psychotic disorders
-231489001	"[X]Acute and transient psychotic disorder, unspecified"
+231489001	[X]Acute and transient psychotic disorder, unspecified
 191525009	[X]Other non-organic psychotic disorders
 191525009	[X] Psychosis NOS
 191525009	[X]Unspecified nonorganic psychosis
 270901009	Mixed schizophrenic and affective pschosis
-270901009	"Schizoaffective disorder, mixed type"
-84760002	"Schizoaffective disorder, depressive type"
-84760002	"Schizophreniform psychosis, depressive type"
-271428004	"Schizoaffective disorder, manic type"
-271428004	"Schizophreniform psychosis, manic type"
+270901009	Schizoaffective disorder, mixed type
+84760002	Schizoaffective disorder, depressive type
+84760002	Schizophreniform psychosis, depressive type
+271428004	Schizoaffective disorder, manic type
+271428004	Schizophreniform psychosis, manic type
 274952002	Borderline schizophrenia
 5510009	Organic delusional [schizophrenia-like] disorder
 64905009	Paranoid schizophrenia
@@ -222,21 +221,21 @@ SnomedCT_ConceptID	FullDescription
 26025008	Residual schizophrenia
 191527001	Simple schizophrenia
 268691004	Other schizophrenia
-58214004	"Schizophrenia, unspecified"
+58214004	Schizophrenia, unspecified
 2073000	Delusional disorder
 268693001	Other persistent delusional disorders
-8330006	"Persistent delusional disorder, unspecified"
+8330006	Persistent delusional disorder, unspecified
 307417003	Acute polymorphic psychotic disorder without symptoms of schizop
 192335000	Acute polymorphic psychotic disorder with symptoms of schizophre
 307504004	Acute schizophrenia-like psychotic disorder
 268695008	Other acute predominantly delusional psychotic disorders
 470311000000103	Other acute and transient psychotic disorders
-231437006	"Acute and transient psychotic disorder, unspecified"
-271428004	"Schizoaffective disorder, manic type"
-84760002	"Schizoaffective disorder, depressive type"
-270901009	"Schizoaffective disorder, mixed type"
+231437006	Acute and transient psychotic disorder, unspecified
+271428004	Schizoaffective disorder, manic type
+84760002	Schizoaffective disorder, depressive type
+270901009	Schizoaffective disorder, mixed type
 410341000000107	Other schizoaffective disorders
-68890003	"Schizoaffective disorder, unspecified"
+68890003	Schizoaffective disorder, unspecified
 162313000	Morbid jealousy
 2073000	Delusion
 2073000	Delusions
@@ -345,7 +344,7 @@ SnomedCT_ConceptID	FullDescription
 58214004	[X]Other schizophrenia
 58214004	[X]Schizophreniform disord NOS
 58214004	[X]Schizophrenifrm psychos NOS
-58214004	"[X]Schizophrenia, unspecified"
+58214004	[X]Schizophrenia, unspecified
 274952002	[X]Borderline schizophrenia
 191559008	[X]Latent schizophrenia
 191559008	[X]Latent schizophrenic reaction
@@ -366,7 +365,7 @@ SnomedCT_ConceptID	FullDescription
 231487004	[X]Involutional paranoid state
 231487004	[X]Other persistent delusional disorders
 231487004	[X]Paranoia querulans
-231487004	"[X]Persistent delusional disorder, unspecified"
+231487004	[X]Persistent delusional disorder, unspecified
 231489001	[X]Acute and transient psychotic disorders
 712824002	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 63204009	[X]Bouffee delirante
@@ -382,7 +381,7 @@ SnomedCT_ConceptID	FullDescription
 231489001	[X]Other acute predominantly delusional psychotic disorders
 191680007	[X]Psychogenic paranoid psychosis
 231489001	[X]Other acute and transient psychotic disorders
-231489001	"[X]Acute and transient psychotic disorder, unspecified"
+231489001	[X]Acute and transient psychotic disorder, unspecified
 231489001	[X]Brief reactive psychosis NOS
 231437006	[X]Reactive psychosis
 191670008	[X]Folie a deux
@@ -390,19 +389,139 @@ SnomedCT_ConceptID	FullDescription
 61831009	[X]Induced paranoid disorder
 61831009	[X]Induced psychotic disorder
 68890003	[X]Schizoaffective disorders
-271428004	"[X]Schizoaffective disorder, manic type"
-271428004	"[X]Schizoaffective psychosis, manic type"
-271428004	"[X]Schizophreniform psychosis, manic type"
-84760002	"[X]Schizoaffective disorder, depressive type"
-84760002	"[X]Schizoaffective psychosis, depressive type"
-84760002	"[X]Schizophreniform psychosis, depressive type"
+271428004	[X]Schizoaffective disorder, manic type
+271428004	[X]Schizoaffective psychosis, manic type
+271428004	[X]Schizophreniform psychosis, manic type
+84760002	[X]Schizoaffective disorder, depressive type
+84760002	[X]Schizoaffective psychosis, depressive type
+84760002	[X]Schizophreniform psychosis, depressive type
 270901009	[X]Cyclic schizophrenia
 270901009	[X]Mixed schizophrenic and affective psychosis
-270901009	"[X]Schizoaffective disorder, mixed type"
+270901009	[X]Schizoaffective disorder, mixed type
 68890003	[X]Other schizoaffective disorders
-68890003	"[X]Schizoaffective disorder, unspecified"
+68890003	[X]Schizoaffective disorder, unspecified
 68890003	[X]Schizoaffective psychosis NOS
 480111000000107	[X]Chronic hallucinatory psychosis
 191525009	[X]Other nonorganic psychotic disorders
 69322001	[X]Psychosis NOS
 191525009	[X]Unspecified nonorganic psychosis
+191604000	Single major depressive episode, severe, with psychosis (disorder)
+5464005	Brief reactive psychosis (disorder)
+191676002	Reactive depressive psychosis (disorder)
+191595000	Recurrent manic episodes, severe, with psychosis (disorder)
+1086471000000103	Recurrent reactive depressive episodes, severe, with psychosis (disorder)
+755331000000108	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission (disorder)
+238972008	Cutaneous monosymptomatic delusional psychosis (disorder)
+191586008	Single manic episode, severe, with psychosis (disorder)
+60401000119104	Postpartum psychosis in remission (disorder)
+268622001	Chronic paranoid psychosis (disorder)
+441704009	Affective psychosis (disorder)
+231449007	Epileptic psychosis (disorder)
+191677006	Acute hysterical psychosis (disorder)
+191613003	Recurrent major depressive episodes, severe, with psychosis (disorder)
+65971000052100	Acute psychosis (disorder)
+1127191000000108	First episode psychosis (finding)
+755321000000106	Single major depressive episode, severe, with psychosis, psychosis in remission (disorder)
+755311000000100	Non-organic psychosis in remission (disorder)
+268617001	Acute schizophrenic episode (disorder)
+51133006	Residual schizophrenia in remission (disorder)
+30336007	Chronic residual schizophrenia with acute exacerbations (disorder)
+70814008	Subchronic residual schizophrenia with acute exacerbations (disorder)
+417601000000102	[X]Schizophrenia, schizotypal and delusional disorders (disorder)
+1089481000000106	Cataleptic schizophrenia (disorder)
+191538001	Acute exacerbation of subchronic hebephrenic schizophrenia (disorder)
+191530008	Acute exacerbation of subchronic schizophrenia (disorder)
+85861002	Subchronic undifferentiated schizophrenia (disorder)
+88975006	Schizophreniform disorder (disorder)
+83746006	Chronic schizophrenia (disorder)
+71103003	Chronic residual schizophrenia (disorder)
+191526005	Schizophrenic disorders (disorder)
+7025000	Subchronic undifferentiated schizophrenia with acute exacerbations (disorder)
+1204417003	Early onset schizophrenia (disorder)
+35218008	Chronic disorganized schizophrenia with acute exacerbation (disorder)
+76566000	Subchronic residual schizophrenia (disorder)
+79204003	Chronic undifferentiated schizophrenia with acute exacerbations (disorder)
+29599000	Chronic undifferentiated schizophrenia (disorder)
+39610001	Undifferentiated schizophrenia in remission (disorder)
+416340002	Late onset schizophrenia (disorder)
+1089691000000105	Acute predominantly delusional psychotic disorder (disorder)
+33323008	Somatic delusion disorder (disorder)
+63395003	Folie à trois (disorder)
+238977002	Delusional hyperhidrosis (disorder)
+238973003	Delusions of parasitosis (disorder)
+268624000	Acute paranoid reaction (disorder)
+1231503005	Psychotic disorder with insight present (disorder)
+1089511000000100	Recurrent depression with current severe episode and psychotic features (disorder)
+238974009	Delusions of infestation (disorder)
+191672000	Paranoia querulans (disorder)
+28475009	Severe recurrent major depression with psychotic features (disorder)
+191683009	Psychogenic stupor (disorder)
+274953007	Acute polymorphic psychotic disorder (disorder)
+41932008	Amok (disorder)
+1231336007	Psychostimulant dependence continuous (disorder)
+397711000000100	[X]Severe depressive episode with psychotic symptoms (disorder)
+73867007	Severe major depression with psychotic features (disorder)
+77475008	Jealous delusion disorder (disorder)
+278508007	Delusional dysmorphophobia (disorder)
+1231333004	Psychostimulant dependence episodic (disorder)
+278506006	Involutional paranoid state (disorder)
+238975005	Delusion of foul odor (disorder)
+17262008	Non-alcoholic Korsakoff's psychosis (disorder)
+18260003	Postpartum psychosis (disorder)
+191447007	Organic psychotic condition (disorder)
+191448002	Senile and presenile organic psychotic conditions (& dementia)
+191471000	Korsakov's alcoholic psychosis with peripheral neuritis (disorder)
+191483003	Drug-induced psychosis (disorder)
+191499009	Transient organic psychoses (disorder)
+191623007	Bipolar affective disorder, currently manic, severe, with psychosis (disorder)
+191641004	Mixed bipolar affective disorder, severe, with psychosis (disorder)
+191687005	Psychoses with origin in childhood (disorder)
+191692007	Active disintegrative psychoses (disorder)
+191693002	Residual disintegrative psychoses (disorder)
+191696005	Atypical childhood psychoses (disorder)
+191697001	Borderline psychosis of childhood (disorder)
+192330005	[X] Delusional disorder (& [paranoia] or [paranoid psychosis] or [paranoid state] or [paraphrenia - late] or [sensitiver Beziehungswahn]
+198991000000103	H/O: psychosis (context-dependent category)
+199191000000109	Referral to psychosis early intervention service (procedure)
+231438001	Presbyophrenic psychosis (disorder)
+231450007	Psychosis associated with intensive care (disorder)
+237351003	Mild postnatal psychosis (disorder)
+237352005	Severe postnatal psychosis (disorder)
+268745002	(Alcoholic psychosis: [Korsakov's] or [other]) or (withdrawal syndrome - alcohol)
+268749008	Affective psychoses: [manic depressive] or [involutional melancholia]
+278852008	Paranoid-hallucinatory epileptic psychosis (disorder)
+280427006	Psychotic symptom present (finding)
+36474008	Severe recurrent major depression without psychotic features (disorder)
+390815004	Early intervention in psychosis (regime/therapy)
+391183008	Early intervention in psychosis - 24 hour intensive (regime/therapy)
+391184002	Early intervention in psychosis - 24 hour not intensive (regime/therapy)
+391185001	Early intervention in psychosis - Part day : day care (regime/therapy)
+391186000	Early intervention in psychosis - Daily intensive (regime/therapy)
+391187009	Early intervention in psychosis - 3-5 contacts/week (regime/therapy)
+391188004	Early intervention in psychosis - 1-2 contacts/week (regime/therapy)
+391189007	Early intervention in psychosis - 1-3 contacts/month (regime/therapy)
+391190003	Early intervention in psychosis - <1 contact/month (regime/therapy)
+391269001	Early intervention in psychosis HRGs (regime/therapy)
+408858002	Infantile psychosis (disorder)
+42344001	Alcohol-induced psychosis (disorder)
+443791000000100	[X] Schizotypal disorder (& [latent] or [latent schizophrenic reaction] or [borderline] or [prepsychotic] or [prodromal] or [pseudoneurotic] or [pseudopsychopathic] (disorder)
+4441000	Severe bipolar disorder with psychotic features (disorder)
+455831000000106	[X] (Acute/subacute brain syndrome: [& named variants]) or (delirium, not induced by alcohol and other psychoactive subs) (disorder)
+69482004	Korsakoff's psychosis (disorder)
+718026005	Cognitive behavioral therapy for psychosis (regime/therapy)
+762325009	Psychotic disorder caused by stimulant (disorder)
+765176007	Psychosis and severe depression co-occurrent and due to bipolar affective disorder (disorder)
+91388009	Psychoactive substance abuse (disorder)
+92191000000105	Early intervention in psychosis team (qualifier value)
+943071000000104	Opioid-induced psychosis (disorder)
+943081000000102	Cannabis-induced psychosis (disorder)
+943091000000100	Sedative-induced psychosis (disorder)
+943101000000108	Cocaine-induced psychosis (disorder)
+95439001	Psychogenic aphonia (disorder)
+102940002	Schizophrenic reaction (finding)
+161103001	Schizophrenia association member (finding)
+191558000	Acute schizophrenic episode (& [oneirophrenia])
+268748000	(Paranoid schizophrenia) or (paraphrenia)
+286686003	Schizoid fantasy - mental defense mechanism (finding)
+52954000	Schizoid personality disorder (disorder)
+70630002	Schizoid character (finding)

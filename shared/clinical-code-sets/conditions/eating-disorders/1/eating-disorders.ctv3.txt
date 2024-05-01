@@ -16,3 +16,18 @@ XE1Yk	Bulimia nervosa
 XE24f	Appetite loss - anorexia
 XM0D2	Polyphagia symptom
 XM0bR	Bulimia test
+1467.	H/O: anorexia nervosa
+E275.	Other and unspecified non-organic eating disorders
+E2750	Unspecified non-organic eating disorder
+E275y	Other specified non-organic eating disorder
+E275z	Non-organic eating disorder NOS
+Eu50.	[X]Eating disorders
+Eu50z	[X]Eating disorder, unspecified
+X00Sx	Eating disorder
+X767S	Self-induced vomiting to lose weight
+X767Z	Binge eating
+XaBZ9	Attempts to counteract effects of bingeing
+XafjT	Eating disorder co-occurrent with diabetes mellitus type 1
+XE1Zq	[X]Other eating disorders
+XM07d	Always eating
+XM1Q4	Psychogenic overeating

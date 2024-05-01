@@ -1,5 +1,1521 @@
 ^ESCTNO581524	Non-steroidal anti-inflammatory overdose
 EMISNQSU33	Suspected drug overdose
-EMISNQSU33	Suspected drug overdose
-
-
+^ESCT1177660	Self-harm
+^ESCT1177661	Self damage
+^ESCT1191730	Self-destructive behavior
+^ESCT1272735	Suicide and self inflicted poisoning by drug or medicine NOS
+^ESCT1272759	Suicide and self inflicted injury NOS
+^ESCTBI525260	Biting self
+^ESCTBI525261	Bites self
+^ESCTBU569203	Burning self
+^ESCTCO786202	Compulsive self-biting behaviour
+^ESCTCO786203	Compulsive self-biting behavior
+^ESCTCU525262	Cutting self
+^ESCTCU525263	Cuts self
+^ESCTDE525243	Deliberate self-harm
+^ESCTDR493569	Drowning self
+^ESCTFO708835	Found hanging self
+^ESCTHA493568	Hanging self
+^ESCTHI569217	Hitting self
+^ESCTHI604726	History of deliberate self harm
+^ESCTLA491239	Late effect of self inflicted injury
+^ESCTNI569226	Nipping self
+^ESCTPI569227	Pinching self
+^ESCTPU569218	Punching self
+^ESCTSC525259	Scratches self
+^ESCTSE445208	Self mutilation
+^ESCTSE491204	Self poisoning by corrosive or caustic substance
+^ESCTSE491205	Self poisoning by arsenic or its compounds
+^ESCTSE491206	Self poisoning caused by arsenic or its compounds
+^ESCTSE491210	Self poisoning by motor vehicle exhaust gas
+^ESCTSE491211	Self poisoning caused by motor vehicle exhaust gas
+^ESCTSE493432	Self-incineration
+^ESCTSE493433	Setting fire to self
+^ESCTSE493434	Setting self alight
+^ESCTSE493435	Self-electrocution
+^ESCTSE493570	Self-strangulation
+^ESCTSE493571	Self-asphyxiation
+^ESCTSE517934	Self poisoning by paraquat
+^ESCTSE517936	Self poisoning by gas
+^ESCTSE525244	Self-abusive behaviour
+^ESCTSE525245	Self-destructive behaviour
+^ESCTSE525247	Self-abusive behavior
+^ESCTSE525250	Self-injurious behavior
+^ESCTSE525251	Self-mutilation of hands
+^ESCTSE525252	Self-mutilation of penis
+^ESCTSE525253	Self-mutilation of eyes
+^ESCTSE525254	Self-mutilation of ears
+^ESCTSE525255	Self-inflicted skin problems
+^ESCTSE556762	Self poisoning by agricultural chemical
+^ESCTSE556764	Self poisoning with weedkiller
+^ESCTSE559142	Self inflicted injury
+^ESCTSE569123	Self-mutilation of genitalia
+^ESCTSE569126	Self-inducing a prolapse
+^ESCTSE569754	Self-scalding
+^ESCTSE668333	Self-inflicted caustic burn
+^ESCTSH493436	Shooting self
+^ESCTSI525246	SIB - Self-injurious behaviour
+^ESCTSI525249	SIB - Self-injurious behavior
+^ESCTSL569219	Slapping self
+^ESCTST569220	Stabbing self
+^ESCTSU491191	Suicide and selfinflicted poisoning by analgesics, antipyretics and anti-rheumatics
+^ESCTSU491207	Suicide and selfinflicted poisoning by gases in domestic use
+^ESCTSU491215	Suicide and selfinflicted injury by drowning
+^ESCTSU491216	Suicide or selfinflicted injury by firearms and explosives
+^ESCTSU491218	Suicide or selfinflicted injury by shotgun
+^ESCTSU491222	Suicide or selfinflicted injury by cutting and stabbing
+^ESCTSU491223	Suicide or selfinflicted injury by cutting
+^ESCTSU491225	Suicide or selfinflicted injury by stabbing
+^ESCTSU491226	Suicide or self injury by jumping from a height
+^ESCTSU491235	Suicide or self injury by electric current
+^ESCTSU551313	Suicide and selfinflicted injury
+^ESCTSU551314	Suicide and self harm
+^ESCTSU551315	Suicide and selfinflicted injury by suffocation by plastic bag
+^ESCTTH493437	Throwing self in front of vehicle
+^ESCTTH493439	Throwing self in front of train
+^ESCTTH569202	Throwing self onto floor
+^ESCT1191727	[X]Intentional self harm by jumping from a high place, occurrence at unspecified place
+^ESCT1191742	[X]Intentional self harm by sharp object, occurrence at industrial and construction area
+^ESCT1191743	[X]Intentional self harm by sharp object, occurrence in residential institution
+^ESCT1191744	[X]Intentional self harm by sharp object, occurrence at sports and athletics area
+^ESCT1191745	[X]Intentional self harm by sharp object, occurrence at trade and service area
+^ESCT1191754	[X]Intentional self harm by sharp object, occurrence at school, other institution and public administrative area
+^ESCT1191760	[X]Intentional self harm by sharp object, occurrence at other specified place
+^ESCT1191761	[X]Intentional self harm by sharp object, occurrence on street and highway
+^ESCT1191765	[X]Intentional self harm by sharp object, occurrence at unspecified place
+^ESCT1191766	[X]Intentional self harm by sharp object, occurrence at home
+^ESCT1191767	[X]Intentional self harm by sharp object, occurrence on farm
+^ESCT1247024	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence in residential institution
+^ESCT1247025	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on street and highway
+^ESCT1247026	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at unspecified place
+^ESCT1247027	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at other specified place
+^ESCT1247028	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area
+^ESCT1247029	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at trade and service area
+^ESCT1247033	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at industrial and construction area
+^ESCT1247034	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area
+^ESCT1247039	[X]Intentional self poisoning by and exposure to pesticides, occurrence at industrial and construction area
+^ESCT1247052	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at sports and athletics area
+^ESCT1247053	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place
+^ESCT1247054	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at school, other institution and public administrative area
+^ESCT1247055	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area
+^ESCT1247056	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area
+^ESCT1247057	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at other specified place
+^ESCT1247067	[X]Intentional self poisoning by and exposure to pesticides, occurrence at sports and athletics area
+^ESCT1247068	[X]Intentional self poisoning by and exposure to pesticides, occurrence at other specified place
+^ESCT1247069	[X]Intentional self poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area
+^ESCT1247084	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at home
+^ESCT1247085	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on farm
+^ESCT1247086	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home
+^ESCT1247087	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on farm
+^ESCT1247090	[X]Intentional self poisoning by and exposure to pesticides, occurrence at home
+^ESCT1247091	[X]Intentional self poisoning by and exposure to pesticides, occurrence on farm
+^ESCT1247098	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area
+^ESCT1247099	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at industrial and construction area
+^ESCT1247100	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at sports and athletics area
+^ESCT1247113	[X]Intentional self harm by drowning and submersion, occurrence at industrial and construction area
+^ESCT1247114	[X]Intentional self harm by drowning and submersion, occurrence at other specified place
+^ESCT1247115	[X]Intentional self harm by drowning and submersion, occurrence at sports and athletics area
+^ESCT1247116	[X]Intentional self harm by drowning and submersion, occurrence at trade and service area
+^ESCT1247117	[X]Intentional self harm by drowning and submersion, occurrence at unspecified place
+^ESCT1247118	[X]Intentional self harm by drowning and submersion, occurrence at home
+^ESCT1247119	[X]Intentional self harm by drowning and submersion, occurrence on farm
+^ESCT1247120	[X]Intentional self harm by drowning and submersion, occurrence in residential institution
+^ESCT1247121	[X]Intentional self harm by drowning and submersion, occurrence on street and highway
+^ESCT1247128	[X]Intentional self harm by handgun discharge, occurrence at other specified place
+^ESCT1247129	[X]Intentional self harm by handgun discharge, occurrence at unspecified place
+^ESCT1247130	[X]Intentional self harm by handgun discharge, occurrence in residential institution
+^ESCT1247131	[X]Intentional self harm by handgun discharge, occurrence at industrial and construction area
+^ESCT1247132	[X]Intentional self harm by handgun discharge, occurrence on street and highway
+^ESCT1247133	[X]Intentional self harm by handgun discharge, occurrence at sports and athletics area
+^ESCT1247134	[X]Intentional self harm by handgun discharge, occurrence at trade and service area
+^ESCT1247138	[X]Intentional self harm by other and unspecified firearm discharge
+^ESCT1247139	[X]Intentional self harm by rifle, shotgun and larger firearm discharge
+^ESCT1247156	[X]Intentional self harm by drowning and submersion, occurrence at school, other institution and public administrative area
+^ESCT1247157	[X]Intentional self harm by handgun discharge, occurrence at school, other institution and public administrative area
+^ESCT1247158	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at trade and service area
+^ESCT1247159	[X]Intentional self harm by other and unspecified firearm discharge, occurrence in residential institution
+^ESCT1247160	[X]Intentional self harm by other and unspecified firearm discharge, occurrence on street and highway
+^ESCT1247161	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at unspecified place
+^ESCT1247162	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at other specified place
+^ESCT1247163	[X]Intentional self harm by other and unspecified firearm discharge, occurrence at home
+^ESCT1247164	[X]Intentional self harm by other and unspecified firearm discharge, occurrence on farm
+^ESCT1247165	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on farm
+^ESCT1247166	[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at home
+^ESCT1247175	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on street and highway
+^ESCT1247176	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at trade and service area
+^ESCT1247178	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on street and highway
+^ESCT1247179	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area
+^ESCT1247183	[X]Intentional self poisoning by and exposure to pesticides, occurrence on street and highway
+^ESCT1247184	[X]Intentional self poisoning by and exposure to pesticides, occurrence at trade and service area
+^ESCT1247198	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence in residential institution
+^ESCT1247199	[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at unspecified place
+^ESCT1247200	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence in residential institution
+^ESCT1247201	[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place
+^ESCT1247204	[X]Intentional self poisoning by and exposure to pesticides, occurrence in residential institution
+^ESCT1247205	[X]Intentional self poisoning by and exposure to pesticides, occurrence at unspecified place
+^ESCT1247214	[X]Intentional self poisoning by and exposure to nonopioid analgesics
+^ESCT1247216	[X]Intentional self poisoning by and exposure to pesticides
+^ESCT1247225	[X]Intentional self harm by handgun discharge, occurrence at home
+^ESCT1247226	[X]Intentional self harm by handgun discharge, occurrence on farm
+^ESCT1247234	[X]Intentional self harm by drowning and submersion
+^ESCT1247236	[X]Intentional self harm by handgun discharge
+^ESCT1247241	[X]Intentional self poisoning by and exposure to noxious substances
+^ESCT1270375	Self-administered intentional poisoning by analgesic
+^ESCT1271614	[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place
+^ESCT1271826	[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution
+^ESCT1271934	[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home
+^ESCTIN692102	Intentionally harming self
+^ESCTSE553227	Self-administered intentional poisoning
+^ESCTSE721732	Self-administered intentional poisoning by analgesic
+^ESCTSE721733	Self-administered intentional poisoning caused by analgesic
+^ESCT1394028	Intentional overdose of methylenedioxymethamphetamine
+^ESCT1394029	Intentional overdose of MDMA (methylenedioxymethamphetamine)
+^ESCT1394038	Intentional poisoning caused by methylenedioxymethamphetamine
+^ESCT1394039	Intentional poisoning caused by MDMA (methylenedioxymethamphetamine)
+^ESCTIN517919	Intentional non-opiate analgesic overdose
+^ESCTIN517920	Intentional paracetamol overdose
+^ESCTIN517921	Intentional aspirin overdose
+^ESCTIN517924	Intentional opiate analgesic overdose
+^ESCTIN517925	Intentional diamorphine overdose
+^ESCTIN517926	Intentional heroin overdose
+^ESCTIN517927	Intentional dihydrocodeine overdose
+^ESCTIN517928	Intentional methadone overdose
+^ESCTIN517929	Intentional benzodiazepine overdose
+^ESCTIN517930	Intentional diazepam overdose
+^ESCTIN517931	Intentional chlordiazepoxide overdose
+^ESCTIN517932	Intentional temazepam overdose
+^ESCTIN559503	Intentional non-steroidal anti-inflammatory agent overdose
+^ESCTIN575628	Intentional paracetamol poisoning
+^ESCTIN575635	Intentional paracetamol and dextropropoxyphene poisoning
+^ESCTIN575636	Intentional acetaminophen and dextropropoxyphene poisoning
+^ESCTIN575639	Intentional aspirin poisoning
+^ESCTIN575642	Intentional salicylic acid salt poisoning
+^ESCTIN575644	Intentional pentazocine poisoning
+^ESCTIN575648	Intentional phenazocine poisoning
+^ESCTIN575654	Intentional dextromoramide poisoning
+^ESCTIN575658	Intentional dextropropoxyphene poisoning
+^ESCTIN575662	Intentional dipipanone poisoning
+^ESCTIN575664	Intentional methadone poisoning
+^ESCTIN575669	Intentional buprenorphine poisoning
+^ESCTIN575671	Intentional poisoning by codeine
+^ESCTIN575672	Intentional poisoning caused by codeine
+^ESCTIN575675	Intentional heroin poisoning
+^ESCTIN575679	Intentional poisoning by dihydrocodeine
+^ESCTIN575680	Intentional poisoning caused by dihydrocodeine
+^ESCTIN575686	Intentional nalbuphine poisoning
+^ESCTIN575688	Intentional morphine poisoning
+^ESCTIN575695	Intentional alfentanil poisoning
+^ESCTIN575699	Intentional fentanyl poisoning
+^ESCTIN575701	Intentional pethidine poisoning
+^ESCTIN575705	Intentional phenoperidine poisoning
+^ESCTIN575709	Intentional meptazinol poisoning
+^ESCTIN575713	Intentional levorphanol poisoning
+^ESCTIN575726	Intentional acemetacin poisoning
+^ESCTIN575730	Intentional azapropazone poisoning
+^ESCTIN575734	Intentional diclofenac poisoning
+^ESCTIN575738	Intentional etodolac poisoning
+^ESCTIN575742	Intentional felbinac poisoning
+^ESCTIN575748	Intentional fenbufen poisoning
+^ESCTIN575752	Intentional fenoprofen poisoning
+^ESCTIN575756	Intentional flurbiprofen poisoning
+^ESCTIN575758	Intentional ibuprofen poisoning
+^ESCTIN575760	Intentional indomethacin poisoning
+^ESCTIN575761	Intentional indometacin poisoning
+^ESCTIN575765	Intentional ketoprofen poisoning
+^ESCTIN575769	Intentional ketorolac poisoning
+^ESCTIN575773	Intentional mefenamic acid poisoning
+^ESCTIN575777	Intentional nabumetone poisoning
+^ESCTIN575779	Intentional naproxen poisoning
+^ESCTIN575783	Intentional nefopam poisoning
+^ESCTIN575787	Intentional oxyphenbutazone poisoning
+^ESCTIN575789	Intentional phenylbutazone poisoning
+^ESCTIN575794	Intentional piroxicam poisoning
+^ESCTIN575798	Intentional sulindac poisoning
+^ESCTIN575802	Intentional tenoxicam poisoning
+^ESCTIN575806	Intentional tiaprofenic acid poisoning
+^ESCTIN575810	Intentional tolmetin poisoning
+^ESCTIN575815	Intentional radiopharmaceutical poisoning
+^ESCTIN575823	Intentional magnetic resonance imaging contrast media poisoning
+^ESCTIN575831	Intentional diagnostic dye poisoning
+^ESCTIN575835	Intentional bismuth compound poisoning
+^ESCTIN575839	Intentional sucralfate poisoning
+^ESCTIN575843	Intentional misoprostol poisoning
+^ESCTIN575847	Intentional cimetidine poisoning
+^ESCTIN575851	Intentional famotidine poisoning
+^ESCTIN575855	Intentional nizatidine poisoning
+^ESCTIN575859	Intentional ranitidine poisoning
+^ESCTIN575864	Intentional omeprazole poisoning
+^ESCTIN575868	Intentional lansoprazole poisoning
+^ESCTIN575872	Intentional carbenoxolone poisoning
+^ESCTIN575876	Intentional pirenzepine poisoning
+^ESCTIN575880	Intentional 5-aminosalicylic acid poisoning
+^ESCTIN575884	Intentional aluminium hydroxide poisoning
+^ESCTIN575885	Intentional aluminum hydroxide poisoning
+^ESCTIN575889	Intentional magnesium trisilicate poisoning
+^ESCTIN575892	Intentional loperamide poisoning
+^ESCTIN575895	Intentional kaolin poisoning
+^ESCTIN575898	Intentional pectin poisoning
+^ESCTIN575903	Intentional cisapride poisoning
+^ESCTIN575908	Intentional nabilone poisoning
+^ESCTIN575912	Intentional domperidone poisoning
+^ESCTIN575916	Intentional metoclopramide poisoning
+^ESCTIN575922	Intentional 5-HT3-receptor antagonist poisoning
+^ESCTIN575927	Intentional bisacodyl poisoning
+^ESCTIN575933	Intentional danthron poisoning
+^ESCTIN575934	Intentional dantron poisoning
+^ESCTIN575941	Intentional sodium picosulphate poisoning
+^ESCTIN575942	Intentional sodium picosulfate poisoning
+^ESCTIN575948	Intentional lactulose poisoning
+^ESCTIN575952	Intentional magnesium sulphate poisoning
+^ESCTIN575953	Intentional magnesium sulfate poisoning
+^ESCTIN575958	Intentional bulk-forming laxative poisoning
+^ESCTIN575963	Intentional cascara poisoning
+^ESCTIN575967	Intentional senna poisoning
+^ESCTIN575971	Intentional docusate poisoning
+^ESCTIN575974	Intentional castor oil poisoning
+^ESCTIN575977	Intentional phenolphthalein poisoning
+^ESCTIN575982	Intentional antispasmodic poisoning
+^ESCTIN575986	Intentional bile agent poisoning
+^ESCTIN575989	Intentional nitrous oxide poisoning
+^ESCTIN575995	Intentional etomidate poisoning
+^ESCTIN575998	Intentional ketamine poisoning
+^ESCTIN576002	Intentional propofol poisoning
+^ESCTIN576005	Intentional thiopental sodium poisoning
+^ESCTIN576008	Intentional methohexitone poisoning
+^ESCTIN576012	Intentional enflurane poisoning
+^ESCTIN576014	Intentional ether poisoning
+^ESCTIN576017	Intentional halothane poisoning
+^ESCTIN576021	Intentional isoflurane poisoning
+^ESCTIN576025	Intentional trichloroethylene poisoning
+^ESCTIN576029	Intentional desflurane poisoning
+^ESCTIN576033	Intentional bupivacaine poisoning
+^ESCTIN576037	Intentional cinchocaine poisoning
+^ESCTIN576041	Intentional prilocaine poisoning
+^ESCTIN576043	Intentional lidocaine poisoning
+^ESCTIN576044	Intentional lignocaine poisoning
+^ESCTIN576047	Intentional cocaine poisoning
+^ESCTIN576051	Intentional benzocaine poisoning
+^ESCTIN576055	Intentional oxybuprocaine poisoning
+^ESCTIN576057	Intentional procaine poisoning
+^ESCTIN576061	Intentional proxymetacaine poisoning
+^ESCTIN576065	Intentional peripheral nerve and plexus-blocking anaesthetic poisoning
+^ESCTIN576066	Intentional peripheral nerve and plexus-blocking anesthetic poisoning
+^ESCTIN576071	Intentional spinal anaesthetic poisoning
+^ESCTIN576072	Intentional spinal anesthetic poisoning
+^ESCTIN576075	Intentional tetracaine poisoning
+^ESCTIN576079	Intentional poisoning by therapeutic gases
+^ESCTIN576080	Intentional poisoning caused by therapeutic gases
+^ESCTIN576086	Intentional immunostimulant poisoning
+^ESCTIN576092	Intentional mitobronitol poisoning
+^ESCTIN576096	Intentional busulphan poisoning
+^ESCTIN576097	Intentional busulfan poisoning
+^ESCTIN576104	Intentional treosulphan poisoning
+^ESCTIN576105	Intentional treosulfan poisoning
+^ESCTIN576110	Intentional thio-TEPA poisoning
+^ESCTIN576111	Intentional triethylene thiophosphoramide poisoning
+^ESCTIN576116	Intentional chlorambucil poisoning
+^ESCTIN576119	Intentional cyclophosphamide poisoning
+^ESCTIN576124	Intentional ethoglucid poisoning
+^ESCTIN576128	Intentional ifosfamide poisoning
+^ESCTIN576132	Intentional melphalan poisoning
+^ESCTIN576136	Intentional estramustine poisoning
+^ESCTIN576144	Intentional chlormethine poisoning
+^ESCTIN576145	Intentional mustine poisoning
+^ESCTIN576146	Intentional mechlorethamine poisoning
+^ESCTIN576153	Intentional carmustine poisoning
+^ESCTIN576157	Intentional lomustine poisoning
+^ESCTIN576162	Intentional dacarbazine poisoning
+^ESCTIN576166	Intentional dactinomycin poisoning
+^ESCTIN576169	Intentional bleomycin poisoning
+^ESCTIN576172	Intentional mitomycin poisoning
+^ESCTIN576176	Intentional plicamycin poisoning
+^ESCTIN576182	Intentional aclarubicin poisoning
+^ESCTIN576188	Intentional mitoxantrone poisoning
+^ESCTIN576189	Intentional mitozantrone poisoning
+^ESCTIN576194	Intentional doxorubicin poisoning
+^ESCTIN576198	Intentional epirubicin poisoning
+^ESCTIN576202	Intentional idarubicin poisoning
+^ESCTIN576205	Intentional daunorubicin poisoning
+^ESCTIN576210	Intentional mercuric oxide poisoning
+^ESCTIN576215	Intentional methotrexate poisoning
+^ESCTIN576218	Intentional mercaptopurine poisoning
+^ESCTIN576224	Intentional thioguanine poisoning
+^ESCTIN576225	Intentional tioguanine poisoning
+^ESCTIN576231	Intentional pentostatin poisoning
+^ESCTIN576234	Intentional cytarabine poisoning
+^ESCTIN576237	Intentional fluorouracil poisoning
+^ESCTIN576242	Intentional etoposide poisoning
+^ESCTIN576246	Intentional amsacrine poisoning
+^ESCTIN576250	Intentional carboplatin poisoning
+^ESCTIN576254	Intentional cisplatin poisoning
+^ESCTIN576260	Intentional hydroxycarbamide poisoning
+^ESCTIN576261	Intentional hydroxyurea poisoning
+^ESCTIN576267	Intentional procarbazine poisoning
+^ESCTIN576271	Intentional razoxane poisoning
+^ESCTIN576275	Intentional crisantaspase poisoning
+^ESCTIN576279	Intentional paclitaxel poisoning
+^ESCTIN576283	Intentional fludarabine poisoning
+^ESCTIN576287	Intentional aminoglutethimide poisoning
+^ESCTIN576293	Intentional trilostane poisoning
+^ESCTIN576297	Intentional tamoxifen poisoning
+^ESCTIN576301	Intentional formestane poisoning
+^ESCTIN576306	Intentional vinblastine poisoning
+^ESCTIN576310	Intentional vincristine poisoning
+^ESCTIN576314	Intentional vindesine poisoning
+^ESCTIN576321	Intentional cyclosporin poisoning
+^ESCTIN576322	Intentional ciclosporin poisoning
+^ESCTIN576326	Intentional azathioprine poisoning
+^ESCTIN576328	Intentional central appetite depressant poisoning
+^ESCTIN576331	Intentional levodopa poisoning
+^ESCTIN576333	Intentional amantadine poisoning
+^ESCTIN576339	Intentional lysuride poisoning
+^ESCTIN576340	Intentional lisuride poisoning
+^ESCTIN576345	Intentional bromocriptine poisoning
+^ESCTIN576348	Intentional ethopropazine poisoning
+^ESCTIN576352	Intentional lithium poisoning
+^ESCTIN576355	Intentional amitriptyline poisoning
+^ESCTIN576359	Intentional amoxapine poisoning
+^ESCTIN576363	Intentional butriptyline poisoning
+^ESCTIN576367	Intentional clomipramine poisoning
+^ESCTIN576371	Intentional desipramine poisoning
+^ESCTIN576377	Intentional dosulepin poisoning
+^ESCTIN576378	Intentional dothiepin poisoning
+^ESCTIN576383	Intentional doxepin poisoning
+^ESCTIN576385	Intentional imipramine poisoning
+^ESCTIN576389	Intentional iprindole poisoning
+^ESCTIN576393	Intentional lofepramine poisoning
+^ESCTIN576397	Intentional nortriptyline poisoning
+^ESCTIN576401	Intentional protriptyline poisoning
+^ESCTIN576405	Intentional trimipramine poisoning
+^ESCTIN576408	Intentional tricyclic antidepressant poisoning
+^ESCTIN576412	Intentional phenelzine poisoning
+^ESCTIN576416	Intentional iproniazid poisoning
+^ESCTIN576420	Intentional isocarboxazid poisoning
+^ESCTIN576424	Intentional tranylcypromine poisoning
+^ESCTIN576428	Intentional moclobemide poisoning
+^ESCTIN576432	Intentional tryptophan poisoning
+^ESCTIN576436	Intentional venlafaxine poisoning
+^ESCTIN576441	Intentional sertraline poisoning
+^ESCTIN576445	Intentional paroxetine poisoning
+^ESCTIN576449	Intentional nefazodone poisoning
+^ESCTIN576453	Intentional citalopram poisoning
+^ESCTIN576458	Intentional fluoxetine poisoning
+^ESCTIN576462	Intentional fluvoxamine poisoning
+^ESCTIN576467	Intentional maprotiline poisoning
+^ESCTIN576471	Intentional mianserin poisoning
+^ESCTIN576475	Intentional trazodone poisoning
+^ESCTIN576479	Intentional viloxazine poisoning
+^ESCTIN576483	Intentional beclamide poisoning
+^ESCTIN576487	Intentional lamotrigine poisoning
+^ESCTIN576491	Intentional piracetam poisoning
+^ESCTIN576495	Intentional gabapentin poisoning
+^ESCTIN576499	Intentional poisoning by sodium valproate
+^ESCTIN576500	Intentional poisoning caused by sodium valproate
+^ESCTIN576508	Intentional methylphenobarbitone poisoning
+^ESCTIN576509	Intentional methylphenobarbital poisoning
+^ESCTIN576512	Intentional phenobarbitone poisoning
+^ESCTIN576513	Intentional phenobarbital poisoning
+^ESCTIN576517	Intentional primidone poisoning
+^ESCTIN576521	Intentional poisoning by carbamazepine
+^ESCTIN576522	Intentional poisoning caused by carbamazepine
+^ESCTIN576527	Intentional vigabatrin poisoning
+^ESCTIN576530	Intentional phenytoin poisoning
+^ESCTIN576532	Intentional succinimide poisoning
+^ESCTIN576535	Intentional ethosuximide poisoning
+^ESCTIN576538	Intentional phensuximide poisoning
+^ESCTIN576542	Intentional clonazepam poisoning
+^ESCTIN576546	Intentional zopiclone poisoning
+^ESCTIN576550	Intentional zolpidem poisoning
+^ESCTIN576554	Intentional chlormezanone poisoning
+^ESCTIN576558	Intentional methyprylone poisoning
+^ESCTIN576560	Intentional paraldehyde poisoning
+^ESCTIN576562	Intentional amylobarbitone poisoning
+^ESCTIN576563	Intentional amobarbital poisoning
+^ESCTIN576567	Intentional butabarbitone poisoning
+^ESCTIN576577	Intentional cyclobarbitone poisoning
+^ESCTIN576579	Intentional quinalbarbitone poisoning
+^ESCTIN576580	Intentional secobarbital poisoning
+^ESCTIN576583	Intentional barbitone poisoning
+^ESCTIN576585	Intentional pentobarbitone poisoning
+^ESCTIN576589	Intentional flunitrazepam poisoning
+^ESCTIN576591	Intentional flurazepam poisoning
+^ESCTIN576595	Intentional loprazolam poisoning
+^ESCTIN576599	Intentional lormetazepam poisoning
+^ESCTIN576601	Intentional nitrazepam poisoning
+^ESCTIN576605	Intentional triazolam poisoning
+^ESCTIN576609	Intentional alprazolam poisoning
+^ESCTIN576613	Intentional bromazepam poisoning
+^ESCTIN576615	Intentional chlordiazepoxide poisoning
+^ESCTIN576619	Intentional clobazam poisoning
+^ESCTIN576625	Intentional potassium clorazepate poisoning
+^ESCTIN576626	Intentional dipotassium clorazepate poisoning
+^ESCTIN576631	Intentional ketazolam poisoning
+^ESCTIN576633	Intentional medazepam poisoning
+^ESCTIN576637	Intentional oxazepam poisoning
+^ESCTIN576641	Intentional prazepam poisoning
+^ESCTIN576645	Intentional midazolam poisoning
+^ESCTIN576647	Intentional diazepam poisoning
+^ESCTIN576649	Intentional lorazepam poisoning
+^ESCTIN576653	Intentional poisoning by temazepam
+^ESCTIN576654	Intentional poisoning caused by temazepam
+^ESCTIN576657	Intentional meprobamate poisoning
+^ESCTIN576660	Intentional chloral hydrate poisoning
+^ESCTIN576664	Intentional dichloralphenazone poisoning
+^ESCTIN576669	Intentional triclofos sodium poisoning
+^ESCTIN576673	Intentional buspirone poisoning
+^ESCTIN576679	Intentional chlormethiazole poisoning
+^ESCTIN576680	Intentional clomethiazole poisoning
+^ESCTIN576687	Intentional sulpiride poisoning
+^ESCTIN576691	Intentional loxapine poisoning
+^ESCTIN576695	Intentional clozapine poisoning
+^ESCTIN576699	Intentional risperidone poisoning
+^ESCTIN576703	Intentional tetrabenazine poisoning
+^ESCTIN576707	Intentional benperidol poisoning
+^ESCTIN576709	Intentional trifluperidol poisoning
+^ESCTIN576711	Intentional haloperidol poisoning
+^ESCTIN576715	Intentional droperidol poisoning
+^ESCTIN576720	Intentional pimozide poisoning
+^ESCTIN576724	Intentional fluspirilene poisoning
+^ESCTIN576731	Intentional levomeprazine poisoning
+^ESCTIN576732	Intentional methotrimeprazine poisoning
+^ESCTIN576733	Intentional levomepromazine poisoning
+^ESCTIN576739	Intentional pericyazine poisoning
+^ESCTIN576741	Intentional fluphenazine poisoning
+^ESCTIN576745	Intentional thiethylperazine poisoning
+^ESCTIN576747	Intentional chlorpromazine poisoning
+^ESCTIN576753	Intentional pipothiazine poisoning
+^ESCTIN576754	Intentional pipotiazine poisoning
+^ESCTIN576757	Intentional promazine poisoning
+^ESCTIN576761	Intentional thioridazine poisoning
+^ESCTIN576765	Intentional perphenazine poisoning
+^ESCTIN576767	Intentional prochlorperazine poisoning
+^ESCTIN576771	Intentional trifluoperazine poisoning
+^ESCTIN576776	Intentional chlorprothixene poisoning
+^ESCTIN576783	Intentional flupenthixol decanoate poisoning
+^ESCTIN576784	Intentional flupentixol decanoate poisoning
+^ESCTIN576789	Intentional zuclopenthixol decanoate poisoning
+^ESCTIN576793	Intentional zuclopenthixol poisoning
+^ESCTIN576799	Intentional flupenthixol poisoning
+^ESCTIN576800	Intentional flupentixol poisoning
+^ESCTIN576805	Intentional oxypertine poisoning
+^ESCTIN576809	Intentional remoxipride poisoning
+^ESCTIN576814	Intentional selegiline poisoning
+^ESCTIN576816	Intentional amphetamine poisoning
+^ESCTIN576817	Intentional amfetamine poisoning
+^ESCTIN576821	Intentional cannabis poisoning
+^ESCTIN576824	Intentional poisoning by lysergic acid
+^ESCTIN576826	Intentional psilocybin poisoning
+^ESCTIN576828	Intentional mescaline poisoning
+^ESCTIN576839	Intentional poisoning by crack cocaine
+^ESCTIN576840	Intentional poisoning caused by crack cocaine
+^ESCTIN576843	Intentional caffeine poisoning
+^ESCTIN576847	Intentional atenolol poisoning
+^ESCTIN576850	Intentional propranolol poisoning
+^ESCTIN576853	Intentional practolol poisoning
+^ESCTIN576855	Intentional tolazoline hydrochloride poisoning
+^ESCTIN576857	Intentional phenoxybenzamine poisoning
+^ESCTIN576860	Intentional nicotine poisoning
+^ESCTIN576864	Intentional poisoning by calcium-channel blocker
+^ESCTIN576865	Intentional poisoning caused by calcium-channel blocker
+^ESCTIN576868	Intentional pilocarpine poisoning
+^ESCTIN576870	Intentional acetylcholine poisoning
+^ESCTIN576872	Intentional anticholinesterase poisoning
+^ESCTIN576876	Intentional metaraminol poisoning
+^ESCTIN576881	Intentional salbutamol poisoning
+^ESCTIN576884	Intentional orciprenaline poisoning
+^ESCTIN576889	Intentional clonidine poisoning
+^ESCTIN576891	Intentional adrenalin poisoning
+^ESCTIN576893	Intentional noradrenaline poisoning
+^ESCTIN576894	Intentional norepinephrine poisoning
+^ESCTIN576897	Intentional hyoscine poisoning
+^ESCTIN576899	Intentional atropine poisoning
+^ESCTIN576901	Intentional homatropine poisoning
+^ESCTIN576904	Intentional acetylcysteine poisoning
+^ESCTIN576908	Intentional nikethamide poisoning
+^ESCTIN576913	Intentional chlorphenamine poisoning
+^ESCTIN576914	Intentional chlorpheniramine poisoning
+^ESCTIN576918	Intentional diphenhydramine poisoning
+^ESCTIN576921	Intentional diphenylpyraline poisoning
+^ESCTIN576924	Intentional dextromethorphan poisoning
+^ESCTIN576927	Intentional guaifenesin poisoning
+^ESCTIN576930	Intentional terpin hydrate poisoning
+^ESCTIN576934	Intentional poisoning by bronchodilator drug
+^ESCTIN576935	Intentional poisoning caused by bronchodilator drug
+^ESCTIN576939	Intentional aminophylline poisoning
+^ESCTIN576942	Intentional theophylline poisoning
+^ESCTIN576946	Intentional poisoning by herbal asthma mixture
+^ESCTIN576947	Intentional poisoning caused by herbal asthma mixture
+^ESCTIN576951	Intentional anti-common cold drug poisoning
+^ESCTIN576954	Intentional local antipruritic poisoning
+^ESCTIN576957	Intentional local astringent and detergent poisoning
+^ESCTIN576960	Intentional hair treatment poisoning
+^ESCTIN576965	Intentional allopurinol poisoning
+^ESCTIN576968	Intentional colchicine poisoning
+^ESCTIN576971	Intentional probenecid poisoning
+^ESCTIN576973	Intentional gold salt poisoning
+^ESCTIN576975	Intentional antirheumatic poisoning
+^ESCTIN576980	Intentional prostaglandin poisoning
+^ESCTIN576984	Intentional naloxone poisoning
+^ESCTIN576987	Intentional levallorphan poisoning
+^ESCTIN576990	Intentional nalorphine poisoning
+^ESCTIN576995	Intentional protamine sulphate poisoning
+^ESCTIN576996	Intentional protamine sulfate poisoning
+^ESCTIN577000	Intentional chelating agent poisoning
+^ESCTIN577008	Intentional flucytosine poisoning
+^ESCTIN577011	Intentional griseofulvin poisoning
+^ESCTIN577014	Intentional amphotericin B poisoning
+^ESCTIN577017	Intentional nystatin poisoning
+^ESCTIN577020	Intentional trichomycin poisoning
+^ESCTIN577023	Intentional idoxuridine poisoning
+^ESCTIN577026	Intentional pyrimethamine poisoning
+^ESCTIN577029	Intentional chloroquine poisoning
+^ESCTIN577032	Intentional primaquine poisoning
+^ESCTIN577035	Intentional quinine poisoning
+^ESCTIN577039	Intentional mefloquine poisoning
+^ESCTIN577042	Intentional proguanil poisoning
+^ESCTIN577045	Intentional cycloguanil poisoning
+^ESCTIN577048	Intentional piperazine poisoning
+^ESCTIN577052	Intentional thiabendazole poisoning
+^ESCTIN577053	Intentional tiabendazole poisoning
+^ESCTIN577057	Intentional hexylresorcinol poisoning
+^ESCTIN577061	Intentional kanamycin poisoning
+^ESCTIN577064	Intentional streptomycin poisoning
+^ESCTIN577068	Intentional gentamicin poisoning
+^ESCTIN577072	Intentional tobramycin poisoning
+^ESCTIN577076	Intentional netilmicin poisoning
+^ESCTIN577079	Intentional erythromycin poisoning
+^ESCTIN577083	Intentional azithromycin poisoning
+^ESCTIN577087	Intentional clarithromycin poisoning
+^ESCTIN577090	Intentional oleandomycin poisoning
+^ESCTIN577093	Intentional spiramycin poisoning
+^ESCTIN577098	Intentional sodium fusidate poisoning
+^ESCTIN577102	Intentional spectinomycin poisoning
+^ESCTIN577106	Intentional vancomycin poisoning
+^ESCTIN577110	Intentional trimethoprim poisoning
+^ESCTIN577113	Intentional nitrofuran derivative poisoning
+^ESCTIN577117	Intentional fusidic acid poisoning
+^ESCTIN577121	Intentional 4-quinolones poisoning
+^ESCTIN577124	Intentional ampicillin poisoning
+^ESCTIN577127	Intentional cloxacillin poisoning
+^ESCTIN577130	Intentional carbenicillin poisoning
+^ESCTIN577133	Intentional penicillin G poisoning
+^ESCTIN577137	Intentional flucloxacillin poisoning
+^ESCTIN577141	Intentional piperacillin poisoning
+^ESCTIN577146	Intentional cefadroxil poisoning
+^ESCTIN577150	Intentional cephalexin poisoning
+^ESCTIN577151	Intentional cefalexin poisoning
+^ESCTIN577155	Intentional cephalothin poisoning
+^ESCTIN577161	Intentional cephazolin poisoning
+^ESCTIN577162	Intentional cefazolin poisoning
+^ESCTIN577169	Intentional cephradine poisoning
+^ESCTIN577170	Intentional cefradine poisoning
+^ESCTIN577175	Intentional latamoxef poisoning
+^ESCTIN577180	Intentional cefaclor poisoning
+^ESCTIN577184	Intentional cefuroxime poisoning
+^ESCTIN577188	Intentional cephamandole poisoning
+^ESCTIN577193	Intentional cefotaxime poisoning
+^ESCTIN577197	Intentional ceftazidime poisoning
+^ESCTIN577201	Intentional ceftizoxime poisoning
+^ESCTIN577205	Intentional cefixime poisoning
+^ESCTIN577210	Intentional cefodizime poisoning
+^ESCTIN577214	Intentional cefpodoxime poisoning
+^ESCTIN577218	Intentional ceftriaxone poisoning
+^ESCTIN577222	Intentional ceftibuten poisoning
+^ESCTIN577226	Intentional cefsulodin poisoning
+^ESCTIN577231	Intentional cefpirome poisoning
+^ESCTIN577234	Intentional cephaloridine poisoning
+^ESCTIN577238	Intentional sulphadiazine poisoning
+^ESCTIN577239	Intentional sulfadiazine poisoning
+^ESCTIN577244	Intentional sulphafurazole poisoning
+^ESCTIN577245	Intentional sulfafurazole poisoning
+^ESCTIN577250	Intentional sulphamethoxazole poisoning
+^ESCTIN577251	Intentional sulfamethoxazole poisoning
+^ESCTIN577255	Intentional doxycycline poisoning
+^ESCTIN577258	Intentional minocycline poisoning
+^ESCTIN577261	Intentional oxytetracycline poisoning
+^ESCTIN577264	Intentional tetracycline poisoning
+^ESCTIN577268	Intentional chloramphenicol poisoning
+^ESCTIN577276	Intentional co-trimoxazole poisoning
+^ESCTIN577277	Intentional sulfamethoxazole and trimethoprim poisoning
+^ESCTIN577282	Intentional hydroxyquinoline poisoning
+^ESCTIN577285	Intentional diiodohydroxyquinoline poisoning
+^ESCTIN577288	Intentional rifampin poisoning
+^ESCTIN577291	Intentional isoniazid poisoning
+^ESCTIN577294	Intentional ethambutol poisoning
+^ESCTIN577297	Intentional cycloserine poisoning
+^ESCTIN577301	Intentional antileprotic drug poisoning
+^ESCTIN577304	Intentional ethionamide poisoning
+^ESCTIN577307	Intentional para-aminosalicylic acid poisoning
+^ESCTIN577311	Intentional sulphone poisoning
+^ESCTIN577312	Intentional sulfone poisoning
+^ESCTIN577319	Intentional pesticide product poisoning
+^ESCTIN577403	Intentional thiouracil poisoning
+^ESCTIN577407	Intentional carbimazole poisoning
+^ESCTIN577412	Intentional cortisone derivative poisoning
+^ESCTIN577415	Intentional desoxycorticosterone derivative poisoning
+^ESCTIN577418	Intentional fluorinated corticosteroid poisoning
+^ESCTIN577421	Intentional glucagon poisoning
+^ESCTIN577424	Intentional insulin poisoning
+^ESCTIN577429	Intentional acetohexamide poisoning
+^ESCTIN577432	Intentional chlorpropamide poisoning
+^ESCTIN577435	Intentional tolbutamide poisoning
+^ESCTIN577441	Intentional poisoning by glibenclamide
+^ESCTIN577442	Intentional poisoning caused by glibenclamide
+^ESCTIN577447	Intentional poisoning by metformin
+^ESCTIN577448	Intentional poisoning caused by metformin
+^ESCTIN577452	Intentional phenformin poisoning
+^ESCTIN577456	Intentional progestogen poisoning
+^ESCTIN577459	Intentional oral contraceptive poisoning
+^ESCTIN577463	Intentional oestrogen poisoning
+^ESCTIN577464	Intentional estrogen poisoning
+^ESCTIN577469	Intentional combined oestrogen and progesterone poisoning
+^ESCTIN577470	Intentional combined estrogen and progesterone poisoning
+^ESCTIN577475	Intentional testosterone poisoning
+^ESCTIN577479	Intentional nandrolone poisoning
+^ESCTIN577482	Intentional oxymetholone poisoning
+^ESCTIN577485	Intentional methandriol poisoning
+^ESCTIN577488	Intentional liothyronine poisoning
+^ESCTIN577491	Intentional thyroxin poisoning
+^ESCTIN577495	Intentional laevothyroxine sodium poisoning
+^ESCTIN577496	Intentional levothyroxine sodium poisoning
+^ESCTIN577500	Intentional thyroglobulin poisoning
+^ESCTIN577505	Intentional corticotropin poisoning
+^ESCTIN577506	Intentional corticotrophin poisoning
+^ESCTIN577510	Intentional gonadotrophin poisoning
+^ESCTIN577511	Intentional gonadotropin poisoning
+^ESCTIN577515	Intentional oxytocin poisoning
+^ESCTIN577518	Intentional somatotrophin poisoning
+^ESCTIN577522	Intentional thyrotrophic hormone poisoning
+^ESCTIN577525	Intentional vasopressin poisoning
+^ESCTIN577528	Intentional parathyroid hormone poisoning
+^ESCTIN577531	Intentional macromolecular blood substitute poisoning
+^ESCTIN577534	Intentional blood plasma poisoning
+^ESCTIN577537	Intentional human fibrinogen poisoning
+^ESCTIN577540	Intentional warfarin sodium poisoning
+^ESCTIN577543	Intentional coumarin poisoning
+^ESCTIN577546	Intentional heparin poisoning
+^ESCTIN577549	Intentional phenindione poisoning
+^ESCTIN577552	Intentional aminocaproic acid poisoning
+^ESCTIN577557	Intentional ferrous sulphate poisoning
+^ESCTIN577558	Intentional ferrous sulfate poisoning
+^ESCTIN577562	Intentional ferric salt poisoning
+^ESCTIN577566	Intentional iodide poisoning
+^ESCTIN577569	Intentional vitamin A poisoning
+^ESCTIN577572	Intentional vitamin D poisoning
+^ESCTIN577575	Intentional vitamin K poisoning
+^ESCTIN577579	Intentional folic acid poisoning
+^ESCTIN577582	Intentional nicotinic acid derivative poisoning
+^ESCTIN577585	Intentional electrolyte agent poisoning
+^ESCTIN577588	Intentional clofibrate poisoning
+^ESCTIN577592	Intentional disopyramide poisoning
+^ESCTIN577595	Intentional quinidine poisoning
+^ESCTIN577598	Intentional procainamide poisoning
+^ESCTIN577602	Intentional amiodarone poisoning
+^ESCTIN577609	Intentional bendroflumethiazide poisoning
+^ESCTIN577610	Intentional bendrofluazide poisoning
+^ESCTIN577614	Intentional chlorothiazide poisoning
+^ESCTIN577617	Intentional saluretic poisoning
+^ESCTIN577622	Intentional frusemide poisoning
+^ESCTIN577623	Intentional furosemide poisoning
+^ESCTIN577628	Intentional potassium sparing diuretic poisoning
+^ESCTIN577632	Intentional osmotic diuretic poisoning
+^ESCTIN577635	Intentional acetazolamide poisoning
+^ESCTIN577639	Intentional guanethidine poisoning
+^ESCTIN577643	Intentional poisoning by angiotensin-converting enzyme inhibitor
+^ESCTIN577644	Intentional poisoning caused by angiotensin-converting enzyme inhibitor
+^ESCTIN577649	Intentional digoxin poisoning
+^ESCTIN577653	Intentional phosphodiesterase inhibitor poisoning
+^ESCTIN577657	Intentional ergot alkaloid poisoning
+^ESCTIN577661	Intentional diazoxide poisoning
+^ESCTIN577665	Intentional hydralazine poisoning
+^ESCTIN577668	Intentional dipyridamole poisoning
+^ESCTIN577671	Intentional nitrate poisoning
+^ESCTIN577676	Intentional nitrite poisoning
+^ESCTIN577679	Intentional streptodornase poisoning
+^ESCTIN577682	Intentional streptokinase poisoning
+^ESCTIN577685	Intentional urokinase poisoning
+^ESCTIN577688	Intentional penicillinase poisoning
+^ESCTIN577691	Intentional spermicide poisoning
+^ESCTIN581432	Intentional paracetamol and dextropropoxyphene overdose
+^ESCTIN581433	Intentional acetaminophen and dextropropoxyphene overdose
+^ESCTIN581444	Intentional pentazocine overdose
+^ESCTIN581448	Intentional phenazocine overdose
+^ESCTIN581454	Intentional dextromoramide overdose
+^ESCTIN581458	Intentional dextropropoxyphene overdose
+^ESCTIN581462	Intentional dipipanone overdose
+^ESCTIN581472	Intentional buprenorphine overdose
+^ESCTIN581476	Intentional overdose by codeine
+^ESCTIN581488	Intentional nalbuphine overdose
+^ESCTIN581492	Intentional morphine overdose
+^ESCTIN581498	Intentional alfentanil overdose
+^ESCTIN581502	Intentional fentanyl overdose
+^ESCTIN581506	Intentional pethidine overdose
+^ESCTIN581510	Intentional phenoperidine overdose
+^ESCTIN581514	Intentional meptazinol overdose
+^ESCTIN581518	Intentional levorphanol overdose
+^ESCTIN581528	Intentional acemetacin overdose
+^ESCTIN581532	Intentional azapropazone overdose
+^ESCTIN581536	Intentional diclofenac overdose
+^ESCTIN581540	Intentional etodolac overdose
+^ESCTIN581544	Intentional felbinac overdose
+^ESCTIN581548	Intentional fenbufen overdose
+^ESCTIN581552	Intentional fenoprofen overdose
+^ESCTIN581556	Intentional flurbiprofen overdose
+^ESCTIN581560	Intentional ibuprofen overdose
+^ESCTIN581566	Intentional indomethacin overdose
+^ESCTIN581567	Intentional indometacin overdose
+^ESCTIN581572	Intentional ketoprofen overdose
+^ESCTIN581579	Intentional ketorolac overdose
+^ESCTIN581583	Intentional mefenamic acid overdose
+^ESCTIN581587	Intentional nabumetone overdose
+^ESCTIN581591	Intentional naproxen overdose
+^ESCTIN581595	Intentional nefopam overdose
+^ESCTIN581599	Intentional oxyphenbutazone overdose
+^ESCTIN581603	Intentional phenylbutazone overdose
+^ESCTIN581607	Intentional piroxicam overdose
+^ESCTIN581611	Intentional sulindac overdose
+^ESCTIN581615	Intentional tenoxicam overdose
+^ESCTIN581619	Intentional tiaprofenic acid overdose
+^ESCTIN581623	Intentional tolmetin overdose
+^ESCTIN581632	Intentional radiopharmaceutical overdose
+^ESCTIN581635	Intentional X-ray diagnostic contrast media overdose
+^ESCTIN581644	Intentional magnetic resonance imaging contrast media overdose
+^ESCTIN581651	Intentional bismuth compound overdose
+^ESCTIN581655	Intentional sucralfate overdose
+^ESCTIN581659	Intentional liquorice overdose
+^ESCTIN581663	Intentional misoprostol overdose
+^ESCTIN581668	Intentional cimetidine overdose
+^ESCTIN581672	Intentional famotidine overdose
+^ESCTIN581677	Intentional nizatidine overdose
+^ESCTIN581684	Intentional ranitidine overdose
+^ESCTIN581686	Intentional overdose of H2 antagonist
+^ESCTIN581691	Intentional omeprazole overdose
+^ESCTIN581695	Intentional lansoprazole overdose
+^ESCTIN581699	Intentional carbenoxolone overdose
+^ESCTIN581703	Intentional pirenzepine overdose
+^ESCTIN581707	Intentional 5-aminosalicylic acid overdose
+^ESCTIN581715	Intentional aluminium hydroxide overdose
+^ESCTIN581716	Intentional aluminum hydroxide overdose
+^ESCTIN581721	Intentional magnesium trisilicate overdose
+^ESCTIN581726	Intentional loperamide overdose
+^ESCTIN581730	Intentional kaolin overdose
+^ESCTIN581735	Intentional cisapride overdose
+^ESCTIN581740	Intentional nabilone overdose
+^ESCTIN581744	Intentional domperidone overdose
+^ESCTIN581748	Intentional metoclopramide overdose
+^ESCTIN581754	Intentional 5-HT3-receptor antagonist overdose
+^ESCTIN581755	Intentional 5-hydroxytryptamine-3-receptor antagonist overdose
+^ESCTIN581761	Intentional bisacodyl overdose
+^ESCTIN581767	Intentional danthron overdose
+^ESCTIN581768	Intentional dantron overdose
+^ESCTIN581775	Intentional sodium picosulphate overdose
+^ESCTIN581776	Intentional sodium picosulfate overdose
+^ESCTIN581781	Intentional lactulose overdose
+^ESCTIN581787	Intentional magnesium sulphate overdose
+^ESCTIN581788	Intentional magnesium sulfate overdose
+^ESCTIN581793	Intentional bulk-forming laxative overdose
+^ESCTIN581797	Intentional anthraquinone laxative overdose
+^ESCTIN581801	Intentional cascara overdose
+^ESCTIN581805	Intentional senna overdose
+^ESCTIN581812	Intentional docusate overdose
+^ESCTIN581817	Intentional castor oil overdose
+^ESCTIN581821	Intentional phenolphthalein overdose
+^ESCTIN581828	Intentional dioctyl sulphosuccinate overdose
+^ESCTIN581829	Intentional dioctyl sulfosuccinate overdose
+^ESCTIN581834	Intentional antispasmodic overdose
+^ESCTIN581838	Intentional bile agent overdose
+^ESCTIN581844	Intentional nitrous oxide overdose
+^ESCTIN581852	Intentional etomidate overdose
+^ESCTIN581857	Intentional ketamine overdose
+^ESCTIN581861	Intentional propofol overdose
+^ESCTIN581865	Intentional thiopental sodium overdose
+^ESCTIN581869	Intentional methohexitone overdose
+^ESCTIN581875	Intentional enflurane overdose
+^ESCTIN581879	Intentional ether overdose
+^ESCTIN581883	Intentional halothane overdose
+^ESCTIN581887	Intentional isoflurane overdose
+^ESCTIN581891	Intentional trichloroethylene overdose
+^ESCTIN581895	Intentional desflurane overdose
+^ESCTIN581901	Intentional bupivacaine overdose
+^ESCTIN581905	Intentional cinchocaine overdose
+^ESCTIN581909	Intentional prilocaine overdose
+^ESCTIN581915	Intentional lidocaine overdose
+^ESCTIN581916	Intentional lignocaine overdose
+^ESCTIN581921	Intentional local cocaine overdose
+^ESCTIN581928	Intentional benzocaine overdose
+^ESCTIN581932	Intentional oxybuprocaine overdose
+^ESCTIN581936	Intentional procaine overdose
+^ESCTIN581940	Intentional proxymetacaine overdose
+^ESCTIN581944	Intentional overdose by therapeutic gas
+^ESCTIN581949	Intentional immunostimulant overdose
+^ESCTIN581955	Intentional mitobronitol overdose
+^ESCTIN581961	Intentional busulphan overdose
+^ESCTIN581962	Intentional busulfan overdose
+^ESCTIN581969	Intentional treosulphan overdose
+^ESCTIN581970	Intentional treosulfan overdose
+^ESCTIN581975	Intentional thiotepa overdose
+^ESCTIN581980	Intentional chlorambucil overdose
+^ESCTIN581984	Intentional cyclophosphamide overdose
+^ESCTIN581988	Intentional ethoglucid overdose
+^ESCTIN581992	Intentional ifosfamide overdose
+^ESCTIN581996	Intentional melphalan overdose
+^ESCTIN582000	Intentional estramustine overdose
+^ESCTIN582008	Intentional chlormethine overdose
+^ESCTIN582009	Intentional mustine overdose
+^ESCTIN582010	Intentional mechlorethamine overdose
+^ESCTIN582017	Intentional carmustine overdose
+^ESCTIN582021	Intentional lomustine overdose
+^ESCTIN582026	Intentional dacarbazine overdose
+^ESCTIN582032	Intentional dactinomycin overdose
+^ESCTIN582036	Intentional bleomycin overdose
+^ESCTIN582040	Intentional mitomycin overdose
+^ESCTIN582046	Intentional plicamycin overdose
+^ESCTIN582050	Intentional aclarubicin overdose
+^ESCTIN582056	Intentional mitoxantrone overdose
+^ESCTIN582057	Intentional mitozantrone overdose
+^ESCTIN582062	Intentional doxorubicin overdose
+^ESCTIN582066	Intentional epirubicin overdose
+^ESCTIN582070	Intentional idarubicin overdose
+^ESCTIN582075	Intentional mercuric oxide overdose
+^ESCTIN582079	Intentional methotrexate overdose
+^ESCTIN582083	Intentional mercaptopurine overdose
+^ESCTIN582089	Intentional thioguanine overdose
+^ESCTIN582090	Intentional tioguanine overdose
+^ESCTIN582095	Intentional pentostatin overdose
+^ESCTIN582099	Intentional cytarabine overdose
+^ESCTIN582104	Intentional fluorouracil overdose
+^ESCTIN582108	Intentional etoposide overdose
+^ESCTIN582112	Intentional amsacrine overdose
+^ESCTIN582116	Intentional carboplatin overdose
+^ESCTIN582120	Intentional cisplatin overdose
+^ESCTIN582126	Intentional hydroxycarbamide overdose
+^ESCTIN582127	Intentional hydroxyurea overdose
+^ESCTIN582132	Intentional procarbazine overdose
+^ESCTIN582136	Intentional razoxane overdose
+^ESCTIN582140	Intentional crisantaspase overdose
+^ESCTIN582145	Intentional paclitaxel overdose
+^ESCTIN582149	Intentional fludarabine overdose
+^ESCTIN582153	Intentional aminoglutethimide overdose
+^ESCTIN582161	Intentional trilostane overdose
+^ESCTIN582165	Intentional tamoxifen overdose
+^ESCTIN582169	Intentional formestane overdose
+^ESCTIN582174	Intentional vinblastine overdose
+^ESCTIN582178	Intentional vincristine overdose
+^ESCTIN582182	Intentional vindesine overdose
+^ESCTIN582189	Intentional cyclosporin overdose
+^ESCTIN582190	Intentional ciclosporin overdose
+^ESCTIN582195	Intentional azathioprine overdose
+^ESCTIN582200	Intentional central appetite depressant overdose
+^ESCTIN582205	Intentional levodopa overdose
+^ESCTIN582209	Intentional amantadine overdose
+^ESCTIN582215	Intentional lysuride overdose
+^ESCTIN582216	Intentional lisuride overdose
+^ESCTIN582221	Intentional bromocriptine overdose
+^ESCTIN582226	Intentional lithium overdose
+^ESCTIN582230	Intentional amitriptyline overdose
+^ESCTIN582234	Intentional amoxapine overdose
+^ESCTIN582238	Intentional butriptyline overdose
+^ESCTIN582242	Intentional clomipramine overdose
+^ESCTIN582247	Intentional desipramine overdose
+^ESCTIN582253	Intentional dosulepin overdose
+^ESCTIN582254	Intentional dothiepin overdose
+^ESCTIN582259	Intentional doxepin overdose
+^ESCTIN582263	Intentional imipramine overdose
+^ESCTIN582267	Intentional iprindole overdose
+^ESCTIN582271	Intentional lofepramine overdose
+^ESCTIN582278	Intentional nortriptyline overdose
+^ESCTIN582282	Intentional protriptyline overdose
+^ESCTIN582286	Intentional trimipramine overdose
+^ESCTIN582292	Intentional phenelzine overdose
+^ESCTIN582296	Intentional iproniazid overdose
+^ESCTIN582300	Intentional isocarboxazid overdose
+^ESCTIN582304	Intentional tranylcypromine overdose
+^ESCTIN582308	Intentional moclobemide overdose
+^ESCTIN582312	Intentional tryptophan overdose
+^ESCTIN582316	Intentional venlafaxine overdose
+^ESCTIN582321	Intentional sertraline overdose
+^ESCTIN582325	Intentional paroxetine overdose
+^ESCTIN582329	Intentional nefazodone overdose
+^ESCTIN582333	Intentional citalopram overdose
+^ESCTIN582337	Intentional fluoxetine overdose
+^ESCTIN582341	Intentional fluvoxamine overdose
+^ESCTIN582346	Intentional maprotiline overdose
+^ESCTIN582350	Intentional mianserin overdose
+^ESCTIN582354	Intentional trazodone overdose
+^ESCTIN582358	Intentional viloxazine overdose
+^ESCTIN582364	Intentional beclamide overdose
+^ESCTIN582368	Intentional lamotrigine overdose
+^ESCTIN582372	Intentional piracetam overdose
+^ESCTIN582376	Intentional gabapentin overdose
+^ESCTIN582382	Intentional overdose by sodium valproate
+^ESCTIN582389	Intentional methylphenobarbitone overdose
+^ESCTIN582390	Intentional methylphenobarbital overdose
+^ESCTIN582398	Intentional phenobarbitone overdose
+^ESCTIN582399	Intentional phenobarbital overdose
+^ESCTIN582404	Intentional primidone overdose
+^ESCTIN582408	Intentional overdose by carbamazepine
+^ESCTIN582412	Intentional vigabatrin overdose
+^ESCTIN582415	Intentional phenytoin overdose
+^ESCTIN582419	Intentional ethosuximide overdose
+^ESCTIN582423	Intentional clonazepam overdose
+^ESCTIN582428	Intentional zopiclone overdose
+^ESCTIN582432	Intentional zolpidem overdose
+^ESCTIN582436	Intentional chlormezanone overdose
+^ESCTIN582440	Intentional methyprylone overdose
+^ESCTIN582444	Intentional paraldehyde overdose
+^ESCTIN582451	Intentional amylobarbitone overdose
+^ESCTIN582452	Intentional amobarbital overdose
+^ESCTIN582457	Intentional butabarbitone overdose
+^ESCTIN582461	Intentional cyclobarbitone overdose
+^ESCTIN582467	Intentional quinalbarbitone overdose
+^ESCTIN582468	Intentional secobarbital overdose
+^ESCTIN582474	Intentional flunitrazepam overdose
+^ESCTIN582478	Intentional flurazepam overdose
+^ESCTIN582482	Intentional loprazolam overdose
+^ESCTIN582486	Intentional lormetazepam overdose
+^ESCTIN582490	Intentional nitrazepam overdose
+^ESCTIN582494	Intentional triazolam overdose
+^ESCTIN582500	Intentional alprazolam overdose
+^ESCTIN582504	Intentional bromazepam overdose
+^ESCTIN582511	Intentional clobazam overdose
+^ESCTIN582517	Intentional potassium clorazepate overdose
+^ESCTIN582518	Intentional dipotassium clorazepate overdose
+^ESCTIN582523	Intentional ketazolam overdose
+^ESCTIN582527	Intentional medazepam overdose
+^ESCTIN582531	Intentional oxazepam overdose
+^ESCTIN582535	Intentional prazepam overdose
+^ESCTIN582539	Intentional midazolam overdose
+^ESCTIN582546	Intentional lorazepam overdose
+^ESCTIN582556	Intentional meprobamate overdose
+^ESCTIN582561	Intentional chloral hydrate overdose
+^ESCTIN582565	Intentional dichloralphenazone overdose
+^ESCTIN582569	Intentional triclofos sodium overdose
+^ESCTIN582573	Intentional buspirone overdose
+^ESCTIN582579	Intentional chlormethiazole overdose
+^ESCTIN582580	Intentional clomethiazole overdose
+^ESCTIN582586	Intentional sulpiride overdose
+^ESCTIN582590	Intentional loxapine overdose
+^ESCTIN582594	Intentional clozapine overdose
+^ESCTIN582598	Intentional risperidone overdose
+^ESCTIN582602	Intentional tetrabenazine overdose
+^ESCTIN582608	Intentional benperidol overdose
+^ESCTIN582612	Intentional trifluperidol overdose
+^ESCTIN582616	Intentional haloperidol overdose
+^ESCTIN582620	Intentional droperidol overdose
+^ESCTIN582625	Intentional pimozide overdose
+^ESCTIN582629	Intentional fluspirilene overdose
+^ESCTIN582637	Intentional levomepromazine overdose
+^ESCTIN582638	Intentional methotrimeprazine overdose
+^ESCTIN582644	Intentional pericyazine overdose
+^ESCTIN582648	Intentional fluphenazine decanoate overdose
+^ESCTIN582652	Intentional fluphenazine enanthate overdose
+^ESCTIN582656	Intentional thiethylperazine overdose
+^ESCTIN582660	Intentional chlorpromazine overdose
+^ESCTIN582666	Intentional pipothiazine overdose
+^ESCTIN582667	Intentional pipotiazine overdose
+^ESCTIN582672	Intentional promazine overdose
+^ESCTIN582676	Intentional thioridazine overdose
+^ESCTIN582680	Intentional perphenazine overdose
+^ESCTIN582684	Intentional prochlorperazine overdose
+^ESCTIN582688	Intentional trifluoperazine overdose
+^ESCTIN582695	Intentional flupenthixol decanoate overdose
+^ESCTIN582696	Intentional flupentixol decanoate overdose
+^ESCTIN582701	Intentional zuclopenthixol decanoate overdose
+^ESCTIN582707	Intentional flupenthixol overdose
+^ESCTIN582708	Intentional flupentixol overdose
+^ESCTIN582713	Intentional oxypertine overdose
+^ESCTIN582718	Intentional remoxipride overdose
+^ESCTIN582720	Intentional overdose of non-barbiturate hypnotic
+^ESCTIN582725	Intentional selegiline overdose
+^ESCTIN582732	Intentional amphetamine overdose
+^ESCTIN582733	Intentional amfetamine overdose
+^ESCTIN582743	Intentional cannabis overdose
+^ESCTIN582748	Intentional overdose by lysergic acid
+^ESCTIN582752	Intentional psilocybin overdose
+^ESCTIN582756	Intentional mescaline overdose
+^ESCTIN582765	Intentional overdose by cocaine
+^ESCTIN582769	Intentional overdose by crack cocaine
+^ESCTIN582773	Intentional caffeine overdose
+^ESCTIN582781	Intentional atenolol overdose
+^ESCTIN582785	Intentional propranolol overdose
+^ESCTIN582787	Intentional overdose of beta-adrenergic blocking drug
+^ESCTIN582792	Intentional phenoxybenzamine overdose
+^ESCTIN582796	Intentional nicotine overdose
+^ESCTIN582800	Intentional overdose by calcium-channel blocker
+^ESCTIN582806	Intentional pilocarpine overdose
+^ESCTIN582810	Intentional acetylcholine overdose
+^ESCTIN582814	Intentional anticholinesterase overdose
+^ESCTIN582823	Intentional metaraminol overdose
+^ESCTIN582828	Intentional salbutamol overdose
+^ESCTIN582834	Intentional overdose of isoprenaline
+^ESCTIN582839	Intentional clonidine overdose
+^ESCTIN582844	Intentional hyoscine overdose
+^ESCTIN582848	Intentional atropine overdose
+^ESCTIN582853	Intentional acetylcysteine overdose
+^ESCTIN582858	Intentional nikethamide overdose
+^ESCTIN582865	Intentional chlorphenamine overdose
+^ESCTIN582866	Intentional chlorpheniramine overdose
+^ESCTIN582871	Intentional diphenhydramine overdose
+^ESCTIN582875	Intentional diphenylpyraline overdose
+^ESCTIN582879	Intentional thonzylamine overdose
+^ESCTIN582883	Intentional tripelennamine overdose
+^ESCTIN582887	Intentional hydroxyzine overdose
+^ESCTIN582892	Intentional aminophylline overdose
+^ESCTIN582896	Intentional theophylline overdose
+^ESCTIN582900	Intentional bronchodilator preparations overdose
+^ESCTIN582906	Intentional dithranol overdose
+^ESCTIN582911	Intentional gamolenic acid overdose
+^ESCTIN582916	Intentional etretinate overdose
+^ESCTIN582920	Intentional acitretin overdose
+^ESCTIN582924	Intentional tretinoin overdose
+^ESCTIN582928	Intentional isotretinoin overdose
+^ESCTIN582935	Intentional allopurinol overdose
+^ESCTIN582942	Intentional colchicine overdose
+^ESCTIN582948	Intentional baclofen overdose
+^ESCTIN582952	Intentional methocarbamol overdose
+^ESCTIN582956	Intentional gold salt overdose
+^ESCTIN582961	Intentional papaverine overdose
+^ESCTIN582967	Intentional prostaglandin overdose
+^ESCTIN582974	Intentional naloxone overdose
+^ESCTIN582980	Intentional protamine sulphate overdose
+^ESCTIN582981	Intentional protamine sulfate overdose
+^ESCTIN582993	Intentional flucytosine overdose
+^ESCTIN582997	Intentional griseofulvin overdose
+^ESCTIN583002	Intentional amphotericin B overdose
+^ESCTIN583006	Intentional nystatin overdose
+^ESCTIN583011	Intentional idoxuridine overdose
+^ESCTIN583016	Intentional pyrimethamine overdose
+^ESCTIN583020	Intentional chloroquine overdose
+^ESCTIN583024	Intentional primaquine overdose
+^ESCTIN583028	Intentional quinine overdose
+^ESCTIN583032	Intentional mefloquine overdose
+^ESCTIN583036	Intentional proguanil overdose
+^ESCTIN583041	Intentional piperazine overdose
+^ESCTIN583047	Intentional thiabendazole overdose
+^ESCTIN583048	Intentional tiabendazole overdose
+^ESCTIN583057	Intentional kanamycin overdose
+^ESCTIN583061	Intentional streptomycin overdose
+^ESCTIN583065	Intentional gentamicin overdose
+^ESCTIN583069	Intentional tobramycin overdose
+^ESCTIN583073	Intentional netilmicin overdose
+^ESCTIN583078	Intentional erythromycin overdose
+^ESCTIN583082	Intentional azithromycin overdose
+^ESCTIN583086	Intentional clarithromycin overdose
+^ESCTIN583090	Intentional sodium fusidate overdose
+^ESCTIN583094	Intentional spectinomycin overdose
+^ESCTIN583098	Intentional vancomycin overdose
+^ESCTIN583102	Intentional trimethoprim overdose
+^ESCTIN583106	Intentional nitrofuran derivative overdose
+^ESCTIN583110	Intentional fusidic acid overdose
+^ESCTIN583114	Intentional 4-quinolones overdose
+^ESCTIN583119	Intentional ampicillin overdose
+^ESCTIN583125	Intentional cloxacillin overdose
+^ESCTIN583129	Intentional carbenicillin overdose
+^ESCTIN583133	Intentional flucloxacillin overdose
+^ESCTIN583139	Intentional cefadroxil overdose
+^ESCTIN583145	Intentional cephalexin overdose
+^ESCTIN583146	Intentional cefalexin overdose
+^ESCTIN583151	Intentional cephalothin overdose
+^ESCTIN583157	Intentional cephazolin overdose
+^ESCTIN583158	Intentional cefazolin overdose
+^ESCTIN583168	Intentional cephradine overdose
+^ESCTIN583169	Intentional cefradine overdose
+^ESCTIN583174	Intentional latamoxef overdose
+^ESCTIN583179	Intentional cefaclor overdose
+^ESCTIN583183	Intentional cefuroxime overdose
+^ESCTIN583187	Intentional cephamandole overdose
+^ESCTIN583192	Intentional cefotaxime overdose
+^ESCTIN583196	Intentional ceftazidime overdose
+^ESCTIN583200	Intentional ceftizoxime overdose
+^ESCTIN583204	Intentional cefixime overdose
+^ESCTIN583208	Intentional cefodizime overdose
+^ESCTIN583212	Intentional cefpodoxime overdose
+^ESCTIN583216	Intentional ceftriaxone overdose
+^ESCTIN583221	Intentional ceftibuten overdose
+^ESCTIN583225	Intentional cefsulodin overdose
+^ESCTIN583230	Intentional cefpirome overdose
+^ESCTIN583237	Intentional doxycycline overdose
+^ESCTIN583241	Intentional minocycline overdose
+^ESCTIN583245	Intentional oxytetracycline overdose
+^ESCTIN583249	Intentional tetracycline overdose
+^ESCTIN583253	Intentional chloramphenicol overdose
+^ESCTIN583259	Intentional co-trimoxazole overdose
+^ESCTIN583260	Intentional sulfamethoxazole and trimethoprim overdose
+^ESCTIN583267	Intentional antimony compound overdose
+^ESCTIN583271	Intentional hydroxyquinoline overdose
+^ESCTIN583281	Intentional rifampin overdose
+^ESCTIN583285	Intentional isoniazid overdose
+^ESCTIN583289	Intentional ethambutol overdose
+^ESCTIN583293	Intentional antileprotic drug overdose
+^ESCTIN583312	Intentional glucagon overdose
+^ESCTIN583318	Intentional carbimazole overdose
+^ESCTIN583322	Intentional thiouracil overdose
+^ESCTIN583327	Intentional prednisone overdose
+^ESCTIN583331	Intentional dexamethasone overdose
+^ESCTIN583335	Intentional insulin overdose
+^ESCTIN583343	Intentional acetohexamide overdose
+^ESCTIN583347	Intentional chlorpropamide overdose
+^ESCTIN583351	Intentional overdose by glibenclamide
+^ESCTIN583357	Intentional tolbutamide overdose
+^ESCTIN583362	Intentional overdose by metformin
+^ESCTIN583367	Intentional progestogen overdose
+^ESCTIN583372	Intentional nandrolone overdose
+^ESCTIN583376	Intentional oxymetholone overdose
+^ESCTIN583384	Intentional methandriol overdose
+^ESCTIN583388	Intentional oral contraceptive overdose
+^ESCTIN583393	Intentional testosterone overdose
+^ESCTIN583399	Intentional oestrogen overdose
+^ESCTIN583400	Intentional estrogen overdose
+^ESCTIN583406	Intentional liothyronine overdose
+^ESCTIN583411	Intentional thyroxin overdose
+^ESCTIN583424	Intentional heparin overdose
+^ESCTIN583428	Intentional coumarin overdose
+^ESCTIN583431	Intentional warfarin sodium overdose
+^ESCTIN583439	Intentional ferrous sulphate overdose
+^ESCTIN583440	Intentional ferrous sulfate overdose
+^ESCTIN583446	Intentional iodide overdose
+^ESCTIN583451	Intentional vitamin A overdose
+^ESCTIN583455	Intentional vitamin D overdose
+^ESCTIN583459	Intentional vitamin K overdose
+^ESCTIN583464	Intentional nicotinic acid derivative overdose
+^ESCTIN583468	Intentional folic acid overdose
+^ESCTIN583472	Intentional potassium overdose
+^ESCTIN583478	Intentional clofibrate overdose
+^ESCTIN583484	Intentional disopyramide overdose
+^ESCTIN583488	Intentional quinidine overdose
+^ESCTIN583495	Intentional procainamide overdose
+^ESCTIN583500	Intentional bretylium overdose
+^ESCTIN583505	Intentional amiodarone overdose
+^ESCTIN583514	Intentional bendroflumethiazide overdose
+^ESCTIN583515	Intentional bendrofluazide overdose
+^ESCTIN583520	Intentional chlorothiazide overdose
+^ESCTIN583527	Intentional frusemide overdose
+^ESCTIN583528	Intentional furosemide overdose
+^ESCTIN583533	Intentional bumetanide overdose
+^ESCTIN583539	Intentional ethacrynic acid overdose
+^ESCTIN583540	Intentional etacrynic acid overdose
+^ESCTIN583545	Intentional potassium sparing diuretic overdose
+^ESCTIN583549	Intentional osmotic diuretic overdose
+^ESCTIN583554	Intentional mersalyl overdose
+^ESCTIN583559	Intentional acetazolamide overdose
+^ESCTIN583565	Intentional guanethidine overdose
+^ESCTIN583569	Intentional overdose by angiotensin-converting enzyme inhibitor
+^ESCTIN583572	Intentional antihypertensive overdose
+^ESCTIN583577	Intentional digoxin overdose
+^ESCTIN583581	Intentional phosphodiesterase inhibitor overdose
+^ESCTIN583586	Intentional ergot alkaloid overdose
+^ESCTIN583591	Intentional diazoxide overdose
+^ESCTIN583595	Intentional hydralazine overdose
+^ESCTIN583599	Intentional dipyridamole overdose
+^ESCTIN583616	Intentional streptokinase overdose
+^ESCTIN583620	Intentional urokinase overdose
+^ESCTIN583753	Intentional overdose of tricyclic antidepressant
+^ESCTIN678906	Intentional poisoning
+^ESCTIN705680	Intentional X-ray contrast media poisoning
+^ESCTIN705926	Intentional chlorprothixene overdose
+^ESCTIN713498	Intentional poisoning caused by drug
+^ESCTIN768978	Intentional drug overdose by tablet
+^ESCTIN768979	Intentional drug overdose by injectable substance
+^ESCTIN772931	Intentional disulfiram poisoning
+^ESCTIN772986	Intentional disulfiram overdose
+^ESCTIN807527	Intentional drug overdose - drug paraphernalia
+^ESCTIN807528	Intentional drug overdose - tablets
+^ESCT1177667	Toxic effect of noxious inhalation
+^ESCT1192092	Poisoning by anesthetic agent
+^ESCT1192094	General anesthetic drug poisoning
+^ESCT1248000	[X]Poisoning by other antiepileptic and sedative-hypnotic drugs
+^ESCT1248268	Anticonvulsant poisoning NOS
+^ESCT1270424	Cause of overdose - accidental
+^ESCT1271982	Other analgesic and antipyretic poisoning
+^ESCT1271983	Other analgesic or antipyretic poisoning NOS
+^ESCT1272636	Drug and medicament poisoning NOS
+^ESCT1379669	Poisoning caused by biological substance
+^ESCT1381572	Residual
+^ESCT1419814	Lithium toxicity
+^ESCTAC364284	Acetaminophen poisoning
+^ESCTAC551271	Accidental poisoning caused by drugs, medicines and biologicals
+^ESCTAC581424	Acetaminophen overdose
+^ESCTAF623898	Aftereffect
+^ESCTAM576357	Amoxapine poisoning
+^ESCTAM582447	Amylobarbitone overdose
+^ESCTAN257614	Antiparkinsonian drug poisoning
+^ESCTAT551351	Attempt suicide - car exhaust
+^ESCTAT572279	Attempted suicide - suffocation
+^ESCTAT572280	Attempted suicide - drowning
+^ESCTAT572281	Attempted suicide - firearms
+^ESCTAT572282	Attempted suicide - cut/stab
+^ESCTAT572283	Attempted suicide - jumping from a high place
+^ESCTAT573148	Attempt suicide - domestic gas
+^ESCTBA569140	Banging own head against object
+^ESCTBA569141	Banging own head against own body parts
+^ESCTBE516710	Beta-blocker poisoning
+^ESCTBI525256	Biting own hand
+^ESCTBI569142	Biting own arm
+^ESCTBI569143	Biting own tongue
+^ESCTBI569144	Biting sides of own cheeks
+^ESCTBI569747	Biting own fingers
+^ESCTBI569748	Biting own toes
+^ESCTBR569127	Breaking own bones
+^ESCTBU576361	Butriptyline poisoning
+^ESCTCA487332	Causes of injury and poisoning
+^ESCTCE551119	Central nervous system depressants and anesthetic agent poisoning
+^ESCTCI576451	Citalopram poisoning
+^ESCTCL576365	Clomipramine poisoning
+^ESCTCO786200	Compulsive scratching behaviour
+^ESCTCO786201	Compulsive scratching behavior
+^ESCTCU493564	Cutting own throat
+^ESCTCU597004	Cutting own wrists
+^ESCTDA569213	Damaging own wounds
+^ESCTDE576369	Desipramine poisoning
+^ESCTDE668334	Dermatitis artefacta due to application of caustic to skin
+^ESCTDE678907	Deliberate poisoning
+^ESCTDE819489	Deliberate overdose of prescribed medication
+^ESCTDI581480	Diamorphine overdose
+^ESCTDO576373	Dosulepin poisoning
+^ESCTDO576374	Dothiepin poisoning
+^ESCTDO576381	Doxepin poisoning
+^ESCTDR262571	Drug toxicity
+^ESCTDR340427	Drug overdose
+^ESCTDR573129	Drug groups primarily affecting the central nervous system poisoning
+^ESCTEA569132	Eating own flesh
+^ESCTEN569124	Enucleation of own eyes
+^ESCTEX569130	Extracting own teeth
+^ESCTFI308262	First known suicide attempt
+^ESCTFL576455	Fluoxetine poisoning
+^ESCTFL576460	Fluvoxamine poisoning
+^ESCTGA343173	Gas poisoning
+^ESCTGA343174	Gases, fumes or vapours causing toxic effect
+^ESCTGE575991	General anaesthetic drug poisoning
+^ESCTGO466213	Gouging own eyes
+^ESCTGO569137	Gouging own body parts
+^ESCTGO569138	Gouging own flesh
+^ESCTGO569139	Gouging own rectum
+^ESCTGO569767	Gouging own vagina
+^ESCTHA491322	Hanging, strangulation or suffocation of unknown intent
+^ESCTHA525257	Hand biting
+^ESCTHE320774	Head banging
+^ESCTHE525258	Head-hitting
+^ESCTHI454008	History of attempted suicide
+^ESCTHI454171	History of poisoning
+^ESCTHI651563	History of repeated overdose
+^ESCTIN262574	Intoxication by drug
+^ESCTIN262577	Intoxication caused by drug
+^ESCTIN315614	Intravenous anaesthetic agent poisoning
+^ESCTIN315615	Intravenous anesthetic agent poisoning
+^ESCTIN372739	Intoxication
+^ESCTIN491326	Injury of unknown intent by firearms and explosives
+^ESCTIN491328	Injury of unknown intent by shotgun
+^ESCTIN491329	Injury of unknown intent by hunting rifle
+^ESCTIN491330	Injury of unknown intent by military firearm
+^ESCTIN491331	Injury of unknown intent by explosive
+^ESCTIN491332	Injury of unknown intent by sharp instrument
+^ESCTIN491333	Injury of unknown intent by cutting instrument
+^ESCTIN491335	Injury of unknown intent due to fall from height
+^ESCTIN551326	Injury of undetermined intent
+^ESCTIN569201	Inserting foreign bodies into own orifices
+^ESCTIN596374	Inserting objects into wound
+^ESCTIP576387	Iprindole poisoning
+^ESCTIP576414	Iproniazid poisoning
+^ESCTIS576418	Isocarboxazid poisoning
+^ESCTJU493438	Jumping in front of vehicle
+^ESCTJU493440	Jumping under train
+^ESCTJU493441	Jumping from cliff
+^ESCTJU493565	Jumping from bridge
+^ESCTJU493566	Jumping from building
+^ESCTJU493567	Jumping from height
+^ESCTLA623896	Late effect of
+^ESCTLA623897	Late effect
+^ESCTLI576350	Lithium poisoning
+^ESCTLO576391	Lofepramine poisoning
+^ESCTMA576465	Maprotiline poisoning
+^ESCTMI576469	Mianserin poisoning
+^ESCTMO576426	Moclobemide poisoning
+^ESCTNE576447	Nefazodone poisoning
+^ESCTNE576684	Neuroleptic poisoning
+^ESCTNO576395	Nortriptyline poisoning
+^ESCTNS581525	NSAID - Non-steroidal anti-inflammatory overdose
+^ESCTOV340428	Overdose
+^ESCTOV581479	Overdose of heroin
+^ESCTPA340213	Parasuicide
+^ESCTPA576443	Paroxetine poisoning
+^ESCTPE278659	Pethidine poisoning
+^ESCTPE309809	Pesticide toxicity
+^ESCTPE309810	Pesticide product poisoning
+^ESCTPH576410	Phenelzine poisoning
+^ESCTPI569221	Picking own skin
+^ESCTPO257613	Poisoning by anti-parkinsonism drug
+^ESCTPO257615	Poisoning caused by anti-parkinsonism drug
+^ESCTPO259571	Poisoning by nitrazepam
+^ESCTPO259573	Poisoning caused by nitrazepam
+^ESCTPO261531	Poisoning caused by salicylate
+^ESCTPO262576	Poisoning by drug or medicinal substance
+^ESCTPO262578	Poisoning caused by drug or medicinal substance
+^ESCTPO262579	Poisoning caused by drug AND/OR medicinal substance
+^ESCTPO264824	Poisoning by monoamine oxidase inhibitor
+^ESCTPO264825	Poisoning by MAO inhibitor
+^ESCTPO264826	Poisoning by monoamine oxidase inhibitor antidepressant drug
+^ESCTPO264828	Poisoning caused by monoamine oxidase inhibitor antidepressant drug
+^ESCTPO264829	Poisoning caused by MAO inhibitor
+^ESCTPO264830	Poisoning caused by monoamine oxidase inhibitor
+^ESCTPO266676	Poisoning by medazepam
+^ESCTPO266678	Poisoning caused by medazepam
+^ESCTPO270489	Poisoning by pentazocine
+^ESCTPO270491	Poisoning caused by pentazocine
+^ESCTPO275766	Poisoning by butyrophenone-based tranquilliser
+^ESCTPO275767	Poisoning by butyrophenone-based tranquilizer
+^ESCTPO275769	Poisoning caused by butyrophenone-based tranquilliser
+^ESCTPO275770	Poisoning caused by butyrophenone-based tranquilizer
+^ESCTPO278657	Poisoning by meperidine
+^ESCTPO278658	Poisoning by pethidine
+^ESCTPO278660	Poisoning caused by meperidine
+^ESCTPO278661	Poisoning caused by pethidine
+^ESCTPO282190	Poisoning caused by psychostimulant
+^ESCTPO291573	Poisoning by secobarbital
+^ESCTPO291574	Poisoning by quinalbarbitone
+^ESCTPO291577	Poisoning caused by quinalbarbitone
+^ESCTPO291578	Poisoning caused by secobarbital
+^ESCTPO302853	Poisoning caused by autonomous nervous system drug
+^ESCTPO309288	Poisoning by flurazepam
+^ESCTPO309290	Poisoning caused by flurazepam
+^ESCTPO315613	Poisoning by intravenous anesthetic
+^ESCTPO315616	Poisoning caused by intravenous anesthetic
+^ESCTPO315617	Poisoning caused by intravenous anaesthetic
+^ESCTPO317412	Poisoning by thiopental sodium
+^ESCTPO317414	Poisoning caused by thiopental sodium
+^ESCTPO318312	Poisoning caused by anticonvulsant
+^ESCTPO320866	Poisoning caused by barbiturate
+^ESCTPO327382	Poisoning by morphine
+^ESCTPO327384	Poisoning caused by morphine
+^ESCTPO328532	Poisoning by phenothiazine-based tranquilliser
+^ESCTPO328533	Poisoning by phenothiazine-based tranquilizer
+^ESCTPO328534	Poisoning caused by phenothiazine-based tranquilizer
+^ESCTPO328535	Poisoning caused by phenothiazine-based tranquilliser
+^ESCTPO335453	Poisoning by propranolol
+^ESCTPO335455	Poisoning caused by propranolol
+^ESCTPO349768	Poisoning by diazepam
+^ESCTPO349770	Poisoning caused by diazepam
+^ESCTPO349817	Poisoning caused by psychotropic agent
+^ESCTPO350409	Poisoning by analeptic
+^ESCTPO350411	Poisoning caused by analeptic
+^ESCTPO350412	Poisoning caused by central nervous system stimulant
+^ESCTPO355602	Poisoning by phenobarbital
+^ESCTPO355603	Poisoning by phenobarbitone
+^ESCTPO355606	Poisoning caused by phenobarbitone
+^ESCTPO355607	Poisoning caused by phenobarbital
+^ESCTPO356383	Poisoning by imipramine
+^ESCTPO356385	Poisoning caused by imipramine
+^ESCTPO362924	Poisoning by tricyclic antidepressant drug
+^ESCTPO364281	Poisoning by paracetamol
+^ESCTPO364282	Poisoning by acetaminophen
+^ESCTPO364285	Poisoning caused by paracetamol
+^ESCTPO364286	Poisoning caused by acetaminophen
+^ESCTPO364373	Poisoning by lorazepam
+^ESCTPO364375	Poisoning caused by lorazepam
+^ESCTPO368908	Poisoning by trifluperidol
+^ESCTPO368910	Poisoning caused by trifluperidol
+^ESCTPO372736	Poisoning by
+^ESCTPO372738	Poisoning syndrome
+^ESCTPO378003	Poisoning by amitriptyline
+^ESCTPO378005	Poisoning caused by amitriptyline
+^ESCTPO383192	Poisoning by benzodiazepine-based tranquilliser
+^ESCTPO383193	Poisoning by benzodiazepine-based tranquilizer
+^ESCTPO383195	Poisoning caused by benzodiazepine-based tranquilizer
+^ESCTPO383196	Poisoning caused by benzodiazepine-based tranquilliser
+^ESCTPO383838	Poisoning by antidepressant drug
+^ESCTPO383839	Poisoning caused by antidepressant
+^ESCTPO383840	Poisoning caused by antidepressant drug
+^ESCTPO387437	Poisoning by chlordiazepoxide
+^ESCTPO387439	Poisoning caused by chlordiazepoxide
+^ESCTPO388744	Poisoning by sleeping tablet
+^ESCTPO388745	Poisoning by sleeping drug
+^ESCTPO388746	Poisoning by sleeping pill
+^ESCTPO388747	Poisoning caused by sleeping drug
+^ESCTPO388748	Poisoning caused by sleeping tablet
+^ESCTPO388749	Poisoning caused by sleeping pill
+^ESCTPO388750	Poisoning caused by sedative AND/OR hypnotic
+^ESCTPO389742	Poisoning by hallucinogen
+^ESCTPO389743	Poisoning by hallucinogenic drug
+^ESCTPO389744	Poisoning caused by hallucinogenic drug
+^ESCTPO389745	Poisoning caused by hallucinogen
+^ESCTPO389746	Poisoning caused by psychodysleptic
+^ESCTPO392025	Poisoning by promazine
+^ESCTPO392027	Poisoning caused by promazine
+^ESCTPO392082	Poisoning by chlorpromazine
+^ESCTPO392084	Poisoning caused by chlorpromazine
+^ESCTPO394640	Poisoning by haloperidol
+^ESCTPO394642	Poisoning caused by haloperidol
+^ESCTPO395836	Poisoning by phenylbutazone
+^ESCTPO395838	Poisoning caused by phenylbutazone
+^ESCTPO398298	Poisoning by fluphenazine
+^ESCTPO398300	Poisoning caused by fluphenazine
+^ESCTPO412129	Poisoning by analgesic, antipyretic AND/OR antirheumatic
+^ESCTPO412130	Poisoning caused by analgesic, antipyretic AND/OR antirheumatic
+^ESCTPO419928	Poisoning by mixed sedative
+^ESCTPO419929	Poisoning caused by mixed sedative
+^ESCTPO419938	Poisoning by prochlorperazine
+^ESCTPO419940	Poisoning caused by prochlorperazine
+^ESCTPO419941	Poisoning by tranquilliser
+^ESCTPO419942	Poisoning by tranquilizer
+^ESCTPO419943	Poisoning caused by tranquilliser
+^ESCTPO419944	Poisoning caused by tranquilizer
+^ESCTPO465600	Poking own eyes
+^ESCTPO486889	Poisoning by phenacetin
+^ESCTPO486925	Poisoning by spiperone
+^ESCTPO486927	Poisoning by hydroxyzine
+^ESCTPO516684	Poisoning caused by analgesic drug
+^ESCTPO516687	Poisoning by dihydrocodeine
+^ESCTPO516689	Poisoning caused by dihydrocodeine
+^ESCTPO516694	Poisoning by sodium valproate
+^ESCTPO516695	Poisoning caused by sodium valproate
+^ESCTPO516698	Poisoning by anaesthetic agent
+^ESCTPO516700	Poisoning caused by anaesthetic agent
+^ESCTPO516701	Poisoning caused by anesthetic agent
+^ESCTPO516703	Poisoning caused by temazepam
+^ESCTPO516709	Poisoning by beta-adrenergic blocking drug
+^ESCTPO516711	Poisoning caused by beta-adrenergic blocking drug
+^ESCTPO569216	Poking fingers into wound
+^ESCTPO573127	Poisoning by CNS drug
+^ESCTPO573128	Poisoning by CNS drugs
+^ESCTPO573130	Poisoning by central nervous system drug
+^ESCTPO573131	Poisoning caused by central nervous system drug
+^ESCTPO573132	Poisoning caused by CNS drugs
+^ESCTPO573133	Poisoning caused by CNS drug
+^ESCTPO575625	Poisoning caused by nonopioid analgesic
+^ESCTPO576683	Poisoning by anti-psychotic agent
+^ESCTPR576399	Protriptyline poisoning
+^ESCTPU569129	Pulling own teeth out
+^ESCTPU569215	Pulling out sutures
+^ESCTRE569131	Removing own nails
+^ESCTRE569214	Reopening scars
+^ESCTRU569222	Rubbing own skin
+^ESCTSA261527	Salicylism
+^ESCTSE576438	Selective serotonin re-uptake inhibitor poisoning
+^ESCTSE576439	Sertraline poisoning
+^ESCTSE623895	Sequela
+^ESCTSN569128	Snapping own bones
+^ESCTST569134	Stripping own skin
+^ESCTSU337321	Suicide attempt by adequate means
+^ESCTSU340210	Suicide attempt by inadequate means
+^ESCTSU340211	Suicide gesture
+^ESCTSU491214	Suicide or attempted suicide by hanging
+^ESCTSU551316	Suicide or attempted suicide by suffocation with plastic bag
+^ESCTSU576685	Sulpiride poisoning
+^ESCTSW525264	Swallowing objects
+^ESCTSW569200	Swallowing substances
+^ESCTTE576464	Tetracyclic antidepressant drug poisoning
+^ESCTTH262570	Therapeutic agent toxicity
+^ESCTTO343172	Toxic effect of gas, fumes AND/OR vapors
+^ESCTTO372737	Toxicosis
+^ESCTTO372740	Toxicity
+^ESCTTO372741	Toxic effect
+^ESCTTO372742	Toxic effect of
+^ESCTTR362923	Tricyclic antidepressant poisoning
+^ESCTTR576403	Trimipramine poisoning
+^ESCTTR576422	Tranylcypromine poisoning
+^ESCTUN340212	Unsuccessful suicide attempt
+^ESCTVE576434	Venlafaxine poisoning
+^ESCTVI576477	Viloxazine poisoning
+^ESCTXO816650	[X]Overdose - ibuprofen
+^ESCTZU576787	Zuclopenthixol decanoate poisoning
+^ESCTZU576791	Zuclopenthixol poisoning
+EGTON59	Alcohol overdose
