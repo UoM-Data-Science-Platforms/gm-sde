@@ -1,0 +1,12 @@
+d7a..	Maprotiline hydrochloride
+d7aw.	Maprotiline hydrochloride 10mg tablet
+d7a1.	Ludiomil 10mg tablet
+d7ax.	Maprotiline hydrochloride 25mg tablet
+d7a2.	Ludiomil 25mg tablet
+d7ay.	Maprotiline hydrochloride 50mg tablet
+d7a3.	Ludiomil 50mg tablet
+d7az.	Maprotiline hydrochloride 75mg tablet
+x00fX	Ludiomil 75mg tablet
+d7a4.	Ludiomil 75mg tablets x28CP
+x01Au	Maprotiline
+x02i0	Ludiomil

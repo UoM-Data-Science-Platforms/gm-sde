@@ -1,10 +1,11 @@
-daB1.	MIRTAZAPINE 30mg tablets
-daB2.	*ZISPIN 30mg tablets
-daB3.	MIRTAZAPINE 30mg oro-dispersible tablets
-daB4.	ZISPIN SOLTAB 30mg oro-dispersible tablets
-daB5.	MIRTAZAPINE 15mg oro-dispersible tablets
-daB6.	ZISPIN SOLTAB 15mg oro-dispersible tablets
-daB7.	MIRTAZAPINE 45mg oro-dispersible tablets
-daB8.	ZISPIN SOLTAB 45mg oro-dispersible tablets
-daBy.	MIRTAZAPINE 45mg tablets
-daBz.	MIRTAZAPINE 15mg tablets
+daB1.00	MIRTAZAPINE 30mg tablets
+daB2.00	*ZISPIN 30mg tablets
+daB3.00	MIRTAZAPINE 30mg oro-dispersible tablets
+daB4.00	ZISPIN SOLTAB 30mg oro-dispersible tablets
+daB5.00	MIRTAZAPINE 15mg oro-dispersible tablets
+daB6.00	ZISPIN SOLTAB 15mg oro-dispersible tablets
+daB7.00	MIRTAZAPINE 45mg oro-dispersible tablets
+daB8.00	ZISPIN SOLTAB 45mg oro-dispersible tablets
+daBy.00	MIRTAZAPINE 45mg tablets
+daBz.00	MIRTAZAPINE 15mg tablets
+daB..00	MIRTAZAPINE
