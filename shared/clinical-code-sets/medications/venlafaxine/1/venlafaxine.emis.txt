@@ -491,3 +491,233 @@ VITA34421NEMIS	Viepax  Tablets  75 mg
 VITA34422NEMIS	Viepax  Tablets  37.5 mg
 WIM/33596NEMIS	Winfex Xl  M/R capsules  150 mg
 WIM/33597NEMIS	Winfex Xl  M/R capsules  75 mg
+^ESCT1178181	Product containing only venlafaxine 75 mg/1 each oral tablet
+^ESCT1181110	Product containing only venlafaxine 37.5 mg/1 each oral tablet
+^ESCT1181111	Product containing only venlafaxine 50 mg/1 each oral tablet
+^ESCT1181344	Product containing only venlafaxine hydrochloride 100 mg/1 each oral tablet
+^ESCT1187473	Product containing only venlafaxine hydrochloride 25 mg/1 each oral tablet
+^ESCT1203623	Venlafaxine hydrochloride 37.5mg prolonged-release oral capsule
+^ESCT1203725	Venlafaxine (as venlafaxine hydrochloride) 150 mg prolonged-release oral capsule
+^ESCT1203726	Product containing precisely venlafaxine (as venlafaxine hydrochloride) 150 milligram/1 each prolonged-release oral capsule
+^ESCT1203767	Venlafaxine (as venlafaxine hydrochloride) 75 mg prolonged-release oral capsule
+^ESCT1203768	Product containing precisely venlafaxine (as venlafaxine hydrochloride) 75 milligram/1 each prolonged-release oral capsule
+^ESCT1206071	Venlafaxine in oral dosage form
+^ESCT1206072	Product containing venlafaxine in oral dosage form
+^ESCT1212360	Venlafaxine 75mg modified-release capsules
+^ESCT1212361	Venlafaxine 150mg modified-release capsules
+^ESCT1212497	Venzip XL
+^ESCT1220832	Venlafaxine
+^ESCT1220833	Venlafaxine product
+^ESCT1223596	Product containing precisely venlafaxine 37.5 milligram/1 each conventional release oral tablet
+^ESCT1223597	Product containing precisely venlafaxine 75 milligram/1 each conventional release oral tablet
+^ESCT1223598	Product containing precisely venlafaxine 50 milligram/1 each conventional release oral tablet
+^ESCT1227717	Product containing precisely venlafaxine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1227718	Product containing precisely venlafaxine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1255189	Majoven XL
+^ESCT1258944	Apclaven XL
+^ESCT1267059	Efexor XL 150mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCT1280892	Venlalic XL 225mg tablets (Pilsco Ltd)
+^ESCT1280893	Venlalic XL 225mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1357141	Venlafaxine only product
+^ESCT1360166	Venlafaxine only product in oral dose form
+^ESCT1362996	Venlafaxine (as venlafaxine hydrochloride) 37.5 mg oral tablet
+^ESCT1362997	Venlafaxine (as venlafaxine hydrochloride) 50 mg oral tablet
+^ESCT1362998	Venlafaxine (as venlafaxine hydrochloride) 75 mg oral tablet
+^ESCT1367277	Venlafaxine 75mg tablets
+^ESCT1367288	Venlafaxine 37.5mg tablets
+^ESCT1367386	Venlafaxine 50mg tablets
+^ESCT1386109	Venlafaxine-containing product in oral dose form
+^ESCT1431940	Venlafaxine 37.5mg/5ml oral solution sugar free 150 ml
+^ESCT1431941	Venlafaxine 37.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1431942	Venlafaxine 37.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1431943	Venlafaxine 75mg/5ml oral solution sugar free 150 ml
+^ESCT1431944	Venlafaxine 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1431945	Venlafaxine 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1432390	Venlafaxine 37.5mg/5ml oral solution sugar free
+^ESCT1432391	Venlafaxine 75mg/5ml oral solution sugar free
+^ESCT1433014	Venlafaxine 37.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1433015	Venlafaxine 37.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1433016	Venlafaxine 75mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1433017	Venlafaxine 75mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1433907	Venlafaxine 37.5mg/5ml oral suspension (Special Order)
+^ESCT1433908	Venlafaxine 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1433926	Venlafaxine 75mg/5ml oral solution (Special Order)
+^ESCT1433927	Venlafaxine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCT1433928	Venlafaxine 75mg/5ml oral suspension (Special Order)
+^ESCT1433929	Venlafaxine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1433930	Venlafaxine 37.5mg/5ml oral solution (Special Order)
+^ESCT1433931	Venlafaxine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1433947	Venlafaxine 37.5mg/5ml oral solution (Special Order) 150 ml
+^ESCT1433948	Venlafaxine 37.5mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1433949	Venlafaxine 75mg/5ml oral solution (Special Order) 150 ml
+^ESCT1433950	Venlafaxine 75mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1436905	Efexor XL 150mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436988	Efexor XL 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437362	Efexor XL 75mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437363	Efexor XL 150mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438049	Efexor XL 75mg capsules (Viatris UK Healthcare Ltd) 14 capsule 2 x 7 capsules
+^ESCT1438050	Efexor XL 150mg capsules (Viatris UK Healthcare Ltd) 14 capsule 2 x 7 capsules
+^ESCT1438148	Vexarin XL 150mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438149	Vexarin XL 150mg capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1438150	Vexarin XL 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438151	Vexarin XL 75mg capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1438152	Vexarin XL 75mg capsules (Viatris UK Healthcare Ltd) 14 capsule 2 x 7 capsules
+^ESCT1438529	Amphero XL 150mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438530	Amphero XL 150mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438531	Amphero XL 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438532	Amphero XL 75mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438560	Efexor XL 225mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438561	Efexor XL 225mg capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCTAL928628	Alventa XL
+^ESCTAM946248	Amphero XL
+^ESCTBO942183	Bonilux XL
+^ESCTDE931818	Depefex XL
+^ESCTEF1008963	Efexor XL 150mg capsules (Necessity Supplies Ltd)
+^ESCTEF1008964	Efexor XL 150mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEF1008965	Efexor XL 150mg capsules (Necessity Supplies Ltd) 30 capsule
+^ESCTEF1008975	Efexor XL 75mg capsules (Necessity Supplies Ltd)
+^ESCTEF1008976	Efexor XL 75mg capsules (Necessity Supplies Ltd) 14 capsule
+^ESCTEF1008977	Efexor XL 75mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEF1008978	Efexor XL 75mg capsules (Necessity Supplies Ltd) 30 capsule
+^ESCTEF1024520	Efexor XL 150mg capsules (Lexon (UK) Ltd)
+^ESCTEF1024521	Efexor XL 150mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEF1038911	Efexor XL 150mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEF877810	Efexor 37.5mg tablets (Waymade Healthcare Plc)
+^ESCTEF877813	Efexor 37.5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEF877816	Efexor 75mg tablets (Waymade Healthcare Plc)
+^ESCTEF877817	Efexor 75mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEF877820	Efexor XL 75mg capsules (Waymade Healthcare Plc)
+^ESCTEF877821	Efexor XL 75mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEF877823	Efexor XL 75mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEF877824	Efexor XL 150mg capsules (Waymade Healthcare Plc)
+^ESCTEF877826	Efexor XL 150mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEF879297	Efexor XL 150mg capsules (Dowelhurst Ltd)
+^ESCTEF879298	Efexor XL 150mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTEF879299	Efexor XL 150mg capsules (Dowelhurst Ltd) 14 capsule
+^ESCTEF879301	Efexor XL 75mg capsules (Dowelhurst Ltd)
+^ESCTEF879303	Efexor XL 75mg capsules (Dowelhurst Ltd) 14 capsule
+^ESCTEF879304	Efexor XL 75mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTEF879306	Efexor 37.5mg tablets (Dowelhurst Ltd)
+^ESCTEF879308	Efexor 37.5mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTEF879309	Efexor 37.5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTEF879311	Efexor 50mg tablets (Dowelhurst Ltd)
+^ESCTEF879312	Efexor 50mg tablets (Dowelhurst Ltd) 42 tablet
+^ESCTEF879316	Efexor 75mg tablets (Dowelhurst Ltd)
+^ESCTEF879317	Efexor 75mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTEF879318	Efexor 75mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTEF915007	Efexor
+^ESCTEF915009	Efexor XL
+^ESCTEF929983	Efexor XL 150mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEF929985	Efexor XL 75mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEF966593	Efexor 37.5mg tablets (DE Pharmaceuticals)
+^ESCTEF966594	Efexor 37.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTEF966595	Efexor 37.5mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTEF966596	Efexor 75mg tablets (DE Pharmaceuticals)
+^ESCTEF966597	Efexor 75mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTEF966598	Efexor XL 75mg capsules (DE Pharmaceuticals)
+^ESCTEF966599	Efexor XL 75mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEF966600	Efexor XL 75mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEF966601	Efexor XL 150mg capsules (DE Pharmaceuticals)
+^ESCTEF966602	Efexor XL 150mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEF966603	Efexor XL 150mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEF969963	Efexor 37.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEF969965	Efexor XL 75mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEF969966	Efexor XL 150mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEF969969	Efexor XL 150mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTEF969970	Efexor XL 75mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTEF969973	Efexor 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEF969974	Efexor 75mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTEF969975	Efexor XL 150mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEF969976	Efexor XL 75mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEF970048	Efexor 37.5mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTEF988990	Efexor 37.5mg tablets (Lexon (UK) Ltd)
+^ESCTEF988991	Efexor 37.5mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTEF988992	Efexor 75mg tablets (Lexon (UK) Ltd)
+^ESCTEF988993	Efexor 75mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTEF988994	Efexor XL 75mg capsules (Lexon (UK) Ltd)
+^ESCTEF988995	Efexor XL 75mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEF988996	Efexor XL 75mg capsules (Lexon (UK) Ltd) 30 capsule
+^ESCTEF993250	Efexor XL 75mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEF993251	Efexor XL 75mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTEF993252	Efexor XL 75mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEF993253	Efexor XL 150mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEF993254	Efexor XL 150mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTFO926248	Foraven XL
+^ESCTME931796	Mentaven XL
+^ESCTPO926151	Politid XL
+^ESCTPR415419	Product containing venlafaxine
+^ESCTPR609794	Product containing venlafaxine 37.5 mg/1 each oral tablet
+^ESCTPR609797	Product containing venlafaxine 75 mg/1 each oral tablet
+^ESCTPR609800	Product containing venlafaxine 50 mg/1 each oral tablet
+^ESCTPR638705	Product containing venlafaxine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR638707	Product containing venlafaxine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR682778	Product containing venlafaxine hydrochloride
+^ESCTRA928600	Ranfaxine XL
+^ESCTRO924411	Rodomel XL
+^ESCTSU942203	Sunveniz XL
+^ESCTTA924415	Tardcaps XL
+^ESCTTI924480	Tifaxin XL
+^ESCTTO928621	Tonpular XL
+^ESCTTR924405	Trixat XL
+^ESCTVA924509	Vaxalin XL
+^ESCTVE1109114	Venlalic XL 150mg tablets (Waymade Healthcare Plc)
+^ESCTVE1109115	Venlalic XL 150mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1109116	Venlalic XL 225mg tablets (Waymade Healthcare Plc)
+^ESCTVE1109117	Venlalic XL 225mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1109118	Venlalic XL 37.5mg tablets (Waymade Healthcare Plc)
+^ESCTVE1109119	Venlalic XL 37.5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1116597	Venlalic XL 75mg tablets (Waymade Healthcare Plc)
+^ESCTVE1116598	Venlalic XL 75mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1119904	Venlafaxine 75mg modified-release capsules (DE Pharmaceuticals)
+^ESCTVE1119905	Venlafaxine 75mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTVE1119906	Venlafaxine 150mg modified-release capsules (DE Pharmaceuticals)
+^ESCTVE1119907	Venlafaxine 150mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTVE1127825	Venlafaxine 75mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTVE1127826	Venlafaxine 75mg modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTVE1127827	Venlafaxine 150mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTVE1127828	Venlafaxine 150mg modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTVE415418	Venlafaxine
+^ESCTVE609793	Venlafaxine 37.5mg tablets
+^ESCTVE609795	Venlafaxine 37.5 mg oral tablet
+^ESCTVE609796	Venlafaxine 75mg tablets
+^ESCTVE609798	Venlafaxine 75 mg oral tablet
+^ESCTVE609799	Venlafaxine 50mg tablets
+^ESCTVE609801	Venlafaxine 50 mg oral tablet
+^ESCTVE609802	Venlafaxine 75mg modified-release capsules
+^ESCTVE609803	Venlafaxine 75mg m/r capsule
+^ESCTVE609804	Venlafaxine 150mg modified-release capsules
+^ESCTVE609805	Venlafaxine 150mg m/r capsule
+^ESCTVE638704	Venlafaxine hydrochloride 25 mg oral tablet
+^ESCTVE638706	Venlafaxine hydrochloride 100 mg oral tablet
+^ESCTVE638711	Venlafaxine hydrochloride 37.5mg m/r capsule
+^ESCTVE645963	Venlafaxine m/r capsule
+^ESCTVE645966	Venlafaxine tablet
+^ESCTVE682777	Venlafaxine hydrochloride
+^ESCTVE878690	Venlafaxine 50mg tablets (Dowelhurst Ltd)
+^ESCTVE878692	Venlafaxine 50mg tablets (Dowelhurst Ltd) 42 tablet
+^ESCTVE879056	Venlafaxine 37.5mg tablets (Dowelhurst Ltd)
+^ESCTVE879071	Venlafaxine 37.5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTVE879076	Venlafaxine 75mg tablets (Dowelhurst Ltd)
+^ESCTVE879080	Venlafaxine 75mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTVE880018	Venlafaxine 37.5mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTVE880019	Venlafaxine 75mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTVE924463	Vexarin XL
+^ESCTVE924465	Vensir XL
+^ESCTVE926149	Venaxx XL
+^ESCTVE926240	Venlalic XL
+^ESCTVE928598	Venlablue XL
+^ESCTVE931887	Venlaneo XL
+^ESCTVE932758	Venlafaxine 75mg tablets (Waymade Healthcare Plc)
+^ESCTVE932759	Venlafaxine 75mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTVE941124	Venlafaxine 37.5mg tablets (Waymade Healthcare Plc)
+^ESCTVE941125	Venlafaxine 37.5mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTVE944928	Venladex XL
+^ESCTVE958024	Vencarm XL
+^ESCTVE958971	Venlasov XL
+^ESCTVE969743	Venlafaxine 75mg modified-release capsules (DE Pharmaceuticals)
+^ESCTVE969744	Venlafaxine 75mg modified-release capsules (DE Pharmaceuticals) 30 capsule
+^ESCTVE975167	Venlafaxine 150mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTVE975169	Venlafaxine 150mg modified-release capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTVI924473	ViePax
+^ESCTVI924474	ViePax XL
+^ESCTWI924408	Winfex XL
