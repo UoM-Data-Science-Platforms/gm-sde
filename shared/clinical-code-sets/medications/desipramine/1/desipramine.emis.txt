@@ -1,0 +1,35 @@
+^ESCT1178406	Product containing only desipramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1178407	Product containing only desipramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181825	Product containing only desipramine hydrochloride 75 mg/1 each oral tablet
+^ESCT1181826	Product containing only desipramine hydrochloride 100 mg/1 each oral tablet
+^ESCT1187566	Product containing only desipramine hydrochloride 10 mg/1 each oral tablet
+^ESCT1187567	Product containing only desipramine hydrochloride 150 mg/1 each oral tablet
+^ESCT1206413	Desipramine in oral dosage form
+^ESCT1206414	Product containing desipramine in oral dosage form
+^ESCT1217849	Desipramine
+^ESCT1217850	Desipramine product
+^ESCT1228361	Product containing precisely desipramine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1228362	Product containing precisely desipramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1228363	Product containing precisely desipramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228364	Product containing precisely desipramine hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1228365	Product containing precisely desipramine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228366	Product containing precisely desipramine hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1354495	Desipramine only product
+^ESCT1358173	Desipramine only product in oral dose form
+^ESCT1376970	Desipramine-containing product
+^ESCT1386266	Desipramine-containing product in oral dose form
+^ESCTDE303703	Desipramine
+^ESCTDE640384	Desipramine hydrochloride 10 mg oral tablet
+^ESCTDE640386	Desipramine hydrochloride 25 mg oral tablet
+^ESCTDE640388	Desipramine hydrochloride 50 mg oral tablet
+^ESCTDE640390	Desipramine hydrochloride 75 mg oral tablet
+^ESCTDE640392	Desipramine hydrochloride 100 mg oral tablet
+^ESCTDE640394	Desipramine hydrochloride 150 mg oral tablet
+^ESCTPR303704	Product containing desipramine
+^ESCTPR640385	Product containing desipramine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR640387	Product containing desipramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR640389	Product containing desipramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR640391	Product containing desipramine hydrochloride 75 mg/1 each oral tablet
+^ESCTPR640393	Product containing desipramine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR640395	Product containing desipramine hydrochloride 150 mg/1 each oral tablet
+PETA4137	Pertofran  Tablets  25 mg

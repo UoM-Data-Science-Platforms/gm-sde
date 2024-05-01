@@ -1,0 +1,5 @@
+d78..00	IPRINDOLE
+d78z.00	*IPRINDOLE 30mg tablets
+d78y.00	*IPRINDOLE 15mg tablets
+d782.00	*PRONDOL 30mg tablets
+d781.00	*PRONDOL 15mg tablets

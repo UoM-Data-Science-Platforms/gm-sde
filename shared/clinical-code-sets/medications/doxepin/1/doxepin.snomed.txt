@@ -72,3 +72,61 @@
 8461111000001107	Doxepin 50mg/5ml oral liquid
 8461311000001109	Doxepin 50mg/5ml oral liquid
 8461611000001104	Doxepin 50mg/5ml oral liquid
+11841005	Product containing doxepin (medicinal product)
+96203001	Doxepin metabolite (product)
+331642007	Doxepin hydrochloride [antipruritic] (product)
+374538007	Doxepin hydrochloride 10mg/mL oral solution (product)
+374539004	Doxepin hydrochloride 10mg capsule (product)
+374540002	Doxepin hydrochloride 25mg capsule (product)
+374541003	Doxepin hydrochloride 50mg capsule (product)
+374542005	Product containing precisely doxepin hydrochloride 150 milligram/1 each conventional release oral capsule (clinical drug)
+374543000	Doxepin hydrochloride 75mg capsule (product)
+375307001	Product containing precisely doxepin hydrochloride 100 milligram/1 each conventional release oral capsule (clinical drug)
+412378003	Doxepin hydrochloride (product)
+438407008	Product containing doxepin in oral dose form (medicinal product form)
+439257008	Product containing doxepin in topical dosage form (medicinal product form)
+444789000	Product containing precisely doxepin 3 milligram/1 each conventional release oral tablet (clinical drug)
+444790009	Product containing precisely doxepin 6 milligram/1 each conventional release oral tablet (clinical drug)
+771967008	Product containing doxepin in cutaneous dose form (medicinal product form)
+775696004	Doxepin (product)
+779066003	Product containing only doxepin in cutaneous dose form (medicinal product form)
+779067007	Product containing only doxepin in oral dose form (medicinal product form)
+784767008	Product containing precisely doxepin (as doxepin hydrochloride) 10 milligram/1 milliliter conventional release oral solution (clinical drug)
+1156028003	Product containing precisely doxepin (as doxepin hydrochloride) 100 milligram/1 each conventional release oral capsule (clinical drug)
+1156030001	Product containing precisely doxepin (as doxepin hydrochloride) 150 milligram/1 each conventional release oral capsule (clinical drug)
+42270811000001106	Doxepin 10mg capsules (product)
+40607611000001107	Doxepin 10mg capsules (A A H Pharmaceuticals Ltd) (product)
+40721911000001105	Doxepin 10mg capsules (Alliance Healthcare (Distribution) Ltd) (product)
+42271111000001105	Doxepin 75mg capsules (product)
+42270911000001101	Doxepin 25mg capsules (product)
+41925211000001102	Doxepin 25mg capsules (Rivopharm (UK) Ltd) (product)
+41106111000001108	Doxepin 25mg capsules (Accord-UK Ltd) (product)
+24669011000001109	Doxepin 25mg capsules (Waymade Healthcare Plc) (product)
+42271011000001109	Doxepin 50mg capsules (product)
+24668811000001105	Doxepin 50mg capsules (Waymade Healthcare Plc) (product)
+41106311000001105	Doxepin 50mg capsules (Accord-UK Ltd) (product)
+41925711000001109	Doxepin 50mg capsules (Rivopharm (UK) Ltd) (product)
+40607711000001103	Doxepin 10mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules (product)
+40722011000001103	Doxepin 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules (product)
+41106211000001102	Doxepin 25mg capsules (Accord-UK Ltd) 28 capsule (product)
+41106411000001103	Doxepin 50mg capsules (Accord-UK Ltd) 28 capsule (product)
+41926011000001103	Doxepin 50mg capsules (Rivopharm (UK) Ltd) 28 capsule 2 x 14 capsules (product)
+41925611000001100	Doxepin 25mg capsules (Rivopharm (UK) Ltd) 28 capsule 4 x 7 capsules (product)
+19201000001101	Doxepin 25mg capsule - product
+89901000001108	Doxepin 50mg capsule - product
+167301000001109	Doxepin 75mg capsule - product
+790601000001108	Doxepin 10mg capsule - product
+24668911000001100	Doxepin 50mg capsules (Waymade Healthcare Plc) 28 capsule (product)
+24669111000001105	Doxepin 25mg capsules (Waymade Healthcare Plc) 28 capsule (product)
+8961901000001106	SINEPIN 25mg capsules
+8962001000001103	SINEPIN 50mg capsules
+9341601000001103	Sinepin (product)
+249301000001106	Sinequan 10mg capsule
+319901000001108	Sinequan 25mg capsule
+390301000001103	Sinequan 50mg capsule
+460501000001102	Sinequan 75mg capsule
+876901000001105	Sinequan 25mg capsules x28CP
+877001000001109	Sinequan 50mg capsules x28CP
+877101000001105	Sinequan 75mg capsules x28CP
+2100301000001105	Sinequan 10mg capsules x56CP
+9341701000001108	Sinequan (product)

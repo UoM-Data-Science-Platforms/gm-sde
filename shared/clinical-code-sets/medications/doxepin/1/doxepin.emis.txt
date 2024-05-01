@@ -92,3 +92,56 @@ SICA2575	Sinequan  Capsules  10 mg
 SICA2576	Sinequan  Capsules  25 mg
 SICA2577	Sinequan  Capsules  50 mg
 SICA2578	Sinequan  Capsules  75 mg
+^ESCT1178631	Product containing only doxepin 6 mg/1 each oral tablet
+^ESCT1181543	Product containing only doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCT1187502	Product containing only doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCT1188096	Product containing only doxepin 3 mg/1 each oral tablet
+^ESCT1216923	Doxepin
+^ESCT1216924	Doxepin product
+^ESCT1227991	Doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCT1227992	Doxepin hydrochloride 150 mg oral capsule
+^ESCT1227993	Product containing precisely doxepin hydrochloride 150 milligram/1 each conventional release oral capsule
+^ESCT1228272	Doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCT1228273	Doxepin hydrochloride 100 mg oral capsule
+^ESCT1228274	Product containing precisely doxepin hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1235343	Product containing precisely doxepin 3 milligram/1 each conventional release oral tablet
+^ESCT1235344	Product containing precisely doxepin 6 milligram/1 each conventional release oral tablet
+^ESCT1350887	Doxepin-containing product in cutaneous dose form
+^ESCT1354734	Doxepin only product
+^ESCT1358324	Doxepin only product in cutaneous dose form
+^ESCT1358325	Doxepin only product in oral dose form
+^ESCT1364140	Doxepin (as doxepin hydrochloride) 10 mg/mL oral solution
+^ESCT1384019	Doxepin-containing product in oral dose form
+^ESCT1432354	Doxepin 25mg capsules (Dexcel-Pharma Ltd)
+^ESCT1432355	Doxepin 25mg capsules (Dexcel-Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1432356	Doxepin 50mg capsules (Dexcel-Pharma Ltd)
+^ESCT1432357	Doxepin 50mg capsules (Dexcel-Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1440000	Doxepin 10mg capsules (Morningside Healthcare Ltd)
+^ESCT1440001	Doxepin 10mg capsules 28 capsule
+^ESCT1440002	Doxepin 10mg capsules (Morningside Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1440003	Doxepin 25mg capsules (Morningside Healthcare Ltd)
+^ESCT1440004	Doxepin 25mg capsules (Morningside Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1440005	Doxepin 50mg capsules (Morningside Healthcare Ltd)
+^ESCT1440006	Doxepin 50mg capsules (Morningside Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1068397	Doxepin 50mg capsules (Waymade Healthcare Plc)
+^ESCTDO1068398	Doxepin 50mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDO1068399	Doxepin 25mg capsules (Waymade Healthcare Plc)
+^ESCTDO1068400	Doxepin 25mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDO268854	Doxepin
+^ESCTDO639388	Doxepin hydrochloride 10mg/mL oral solution
+^ESCTDO639389	Doxepin hydrochloride 10mg/mL
+^ESCTDO639390	Doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCTDO640173	Doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCTDO720864	Doxepin in oral dosage form
+^ESCTDO722063	Doxepin in topical dosage form
+^ESCTDO729787	Doxepin 3 mg oral tablet
+^ESCTDO729789	Doxepin 6 mg oral tablet
+^ESCTPR268855	Product containing doxepin
+^ESCTPR639391	Product containing doxepin hydrochloride 150 mg/1 each oral capsule
+^ESCTPR640174	Product containing doxepin hydrochloride 100 mg/1 each oral capsule
+^ESCTPR720865	Product containing doxepin in oral dosage form
+^ESCTPR722064	Product containing doxepin in topical dosage form
+^ESCTPR729788	Product containing doxepin 3 mg/1 each oral tablet
+^ESCTPR729790	Product containing doxepin 6 mg/1 each oral tablet
+^ESCTSI916274	Sinepin
+^ESCTSI916276	Sinequan

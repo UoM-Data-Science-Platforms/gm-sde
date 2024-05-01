@@ -236,3 +236,82 @@ CLCA652	Clomipramine Hydrochloride  Capsules  50 mg
 CLOR29049NEMIS	Clomipramine Hydrochloride  Oral suspension  50 mg/5 ml
 CLSY653	Clomipramine Hydrochloride  Syrup  25 mg/5 ml
 CLTA4749	Clomipramine Hydrochloride  M/R tablets  75 mg
+^ESCT1179275	Product containing only clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCT1203346	Clomipramine hydrochloride 75 mg prolonged-release oral tablet
+^ESCT1203347	Product containing precisely clomipramine hydrochloride 75 milligram/1 each prolonged-release oral tablet
+^ESCT1208078	Clomipramine in parenteral dosage form
+^ESCT1208079	Product containing clomipramine in parenteral dosage form
+^ESCT1209173	Clomipramine hydrochloride 25 mg/2 mL solution for injection ampoule
+^ESCT1209174	Clomipramine hydrochloride 25 mg/2 mL solution for injection ampule
+^ESCT1209175	Product containing precisely clomipramine hydrochloride 25 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1220623	Clomipramine
+^ESCT1220624	Clomipramine product
+^ESCT1228637	Clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCT1228638	Product containing precisely clomipramine hydrochloride 75 milligram/1 each conventional release oral capsule
+^ESCT1228639	Clomipramine hydrochloride 75 mg oral capsule
+^ESCT1354301	Clomipramine only product
+^ESCT1358032	Clomipramine only product in oral dose form
+^ESCT1358033	Clomipramine only product in parenteral dose form
+^ESCT1360970	Clomipramine hydrochloride 12.5 mg/mL solution for injection
+^ESCT1384918	Clomipramine-containing product in oral dose form
+^ESCT1386982	Clomipramine-containing product in parenteral dose form
+^ESCT1436784	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436816	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436863	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437281	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437282	Clomipramine 10mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437283	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437284	Clomipramine 25mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437285	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437286	Clomipramine 50mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCTAN1002730	Anafranil SR 75mg tablets (Necessity Supplies Ltd)
+^ESCTAN1002731	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 20 tablet
+^ESCTAN1002735	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAN1011442	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 20 tablet
+^ESCTAN1022277	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAN877555	Anafranil SR 75mg tablets (Waymade Healthcare Plc)
+^ESCTAN877556	Anafranil SR 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAN880030	Anafranil SR 75mg tablets (Dowelhurst Ltd)
+^ESCTAN880032	Anafranil SR 75mg tablets (Dowelhurst Ltd) 20 tablet
+^ESCTAN880033	Anafranil SR 75mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAN880034	Anafranil SR 75mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTAN913809	Anafranil
+^ESCTAN913811	Anafranil SR
+^ESCTAN964223	Anafranil SR 75mg tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTAN966200	Anafranil SR 75mg tablets (DE Pharmaceuticals)
+^ESCTAN966201	Anafranil SR 75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAN969756	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAN969757	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTAN988702	Anafranil SR 75mg tablets (Lexon (UK) Ltd)
+^ESCTAN988703	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 20 tablet
+^ESCTAN988704	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAN990078	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAN990080	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAN992925	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd)
+^ESCTAN992927	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd) 20 tablet
+^ESCTCL406874	Clomipramine
+^ESCTCL427342	Clomipramine hydrochloride
+^ESCTCL609612	Clomipramine 25mg/2ml solution for injection ampoules
+^ESCTCL609613	Clomipramine hydrochloride 25mg/2mL injection
+^ESCTCL609614	Clomipramine hydrochloride 12.5mg/mL injection solution 2mL ampoule
+^ESCTCL609615	Clomipramine hydrochloride 12.5mg/mL injection solution 2mL ampule
+^ESCTCL609616	Clomipramine 75mg modified-release tablets
+^ESCTCL609617	Clomipramine hydrochloride 75mg m/r tablet
+^ESCTCL641191	Clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCTCL771471	Clomipramine in oral dosage form
+^ESCTCL960419	Clomipramine 10mg capsules (Dowelhurst Ltd)
+^ESCTCL960421	Clomipramine 10mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTCL960424	Clomipramine 25mg capsules (Dowelhurst Ltd)
+^ESCTCL960425	Clomipramine 25mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTCL960429	Clomipramine 25mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTCL960433	Clomipramine 50mg capsules (Dowelhurst Ltd)
+^ESCTCL960436	Clomipramine 50mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTPR406875	Product containing clomipramine
+^ESCTPR427343	Product containing clomipramine hydrochloride
+^ESCTPR641192	Product containing clomipramine hydrochloride 75 mg/1 each oral capsule
+^ESCTPR771472	Product containing clomipramine in oral dosage form
+ANIN3166	Anafranil  Injection  12.5mg/ml
+CLIN4748	Clomipramine Hydrochloride  Injection  12.5mg/ml
+TRCA4508NEMIS	Tranquax  Capsules  10 mg
+TRCA4509NEMIS	Tranquax  Capsules  25 mg
+TRCA4510NEMIS	Tranquax  Capsules  50 mg

@@ -125,19 +125,6 @@ d717.	Elavil 10mg tablet
 d714.	Domical 10mg tablet
 d71..	Amitriptyline hydrochloride [antidepressant]
 d71j.	AMITRIPTYLINE 10mg/5mL sugar free oral solution
-x02LS	Perphenazine
-o58z.	Perphenazine 5mg/1mL injection
-d4b4.	Fentazin 5mg/1mL injection
-o58..	Perphenazine [anaesthesia]
-d4bz.	Perphenazine 8mg tablet
-d4b3.	Fentazin 8mg tablet
-d4by.	Perphenazine 4mg tablet
-d4b2.	Fentazin 4mg tablet
-d4bx.	Perphenazine 2mg tablet
-d4b1.	Fentazin 2mg tablet
-d4b6.	Perphenazine 4mg/5mL s/f oral solution
-d4b5.	Perphenazine 2mg/5mL s/f oral solution
-d4b..	Perphenazine [central nervous system use]
 d91A.	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet
 d914.	Motival tablet
 d919.	Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet
@@ -149,14 +136,9 @@ d91C.	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet
 d916.	Triptafen tablet
 d918.	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
 d911.	Limbitrol-5 capsule
-m351.	Doxepin hydrochloride 5% cream
-x04u9	Xepin 5% cream
-m352.	Xepin 5% cream 30g
-m35..	Doxepin hydrochloride [antipruritic]
 x02tO	Triptafen
 x02tP	Triptafen-M
 x02t2	Tranquax
-x02cS	Fentazin
 x05Db	Feprapax
 x02aM	Domical
 x02aS	Dothapax
@@ -184,53 +166,4 @@ d72z.	Butriptyline 50mg tablet
 d722.	Evadyne 50mg tablet
 d72y.	Butriptyline 25mg tablet
 d721.	Evadyne 25mg tablet
-d7a1.	Ludiomil 10mg tablet
-d7a1.	Ludiomil 10mg tablet
-d7a2.	Ludiomil 25mg tablet
-d7a2.	Ludiomil 25mg tablet
-d7a3.	Ludiomil 50mg tablet
-d7a3.	Ludiomil 50mg tablet
-d7a4.	Ludiomil 75mg tablets x28CP
-d7a4.	Ludiomil 75mg tablets x28CP
-d7aw.	Maprotiline hydrochloride 10mg tablet
-d7aw.	Maprotiline hydrochloride 10mg tablet
-d7ax.	Maprotiline hydrochloride 25mg tablet
-d7ax.	Maprotiline hydrochloride 25mg tablet
-d7ay.	Maprotiline hydrochloride 50mg tablet
-d7ay.	Maprotiline hydrochloride 50mg tablet
-d7az.	Maprotiline hydrochloride 75mg tablet
-d7az.	Maprotiline hydrochloride 75mg tablet
-d7b1.	Mianserin hydrochloride 10mg tablet
-d7b1.	Mianserin hydrochloride 10mg tablet
-d7b2.	Mianserin hydrochloride 20mg tablet
-d7b2.	Mianserin hydrochloride 20mg tablet
-d7b3.	Mianserin hydrochloride 30mg tablet
-d7b3.	Mianserin hydrochloride 30mg tablet
-d7e1.	Molipaxin 50mg capsules x84CP
-d7e1.	Molipaxin 50mg capsules x84CP
-d7e2.	Molipaxin 100mg capsules x56CP
-d7e2.	Molipaxin 100mg capsules x56CP
-d7e3.	Molipaxin 50mg/5mL liquid
-d7e3.	Molipaxin 50mg/5mL liquid
-d7e4.	Molipaxin 150mg tablets x28CP
-d7e4.	Molipaxin 150mg tablets x28CP
-d7e5.	Trazodone hydrochloride 150mg tablet
-d7e5.	Trazodone hydrochloride 150mg tablet
-d7e6.	Molipaxin CR 150mg m/r tablets x28
-d7e6.	Molipaxin CR 150mg m/r tablets x28
-d7e7.	Trazodone hydrochloride 150mg m/r tablet
-d7e7.	Trazodone hydrochloride 150mg m/r tablet
-d7ew.	Trazodone hydrochloride 100mg capsule
-d7ew.	Trazodone hydrochloride 100mg capsule
-d7ex.	Trazodone hydrochloride 50mg capsule
-d7ex.	Trazodone hydrochloride 50mg capsule
-d7ez.	Trazodone hydrochloride 50mg/5mL liquid
-d7ez.	Trazodone hydrochloride 50mg/5mL liquid
-d7h2.	Amoxapine 50mg tablet
-d7h2.	Amoxapine 50mg tablet
-d7h3.	Amoxapine 100mg tablet
-d7h3.	Amoxapine 100mg tablet
-d7h6.	Asendis 50mg tablet
-d7h6.	Asendis 50mg tablet
-d7h7.	Asendis 100mg tablet
-d7h7.	Asendis 100mg tablet
+d912.	Limbitrol 10 capsule

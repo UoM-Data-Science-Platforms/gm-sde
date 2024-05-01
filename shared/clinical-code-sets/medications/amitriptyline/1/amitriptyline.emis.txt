@@ -328,3 +328,145 @@ LECA1645	Lentizol  Capsules  25 mg
 LECA1646	Lentizol  Capsules  50 mg
 TRTA4462	Triptafen  Tablets  
 TRTA4463	Triptafen-M  Tablets  
+^ESCT1178328	Product containing only amitriptyline hydrochloride 100 mg/1 each oral tablet
+^ESCT1178329	Product containing only amitriptyline hydrochloride 150 mg/1 each oral tablet
+^ESCT1179244	Product containing only amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCT1179414	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1181106	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1181894	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1183319	Product containing only amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1185477	Product containing only amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCT1187478	Product containing only amitriptyline hydrochloride 75 mg/1 each oral tablet
+^ESCT1188546	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1203897	Amitriptyline hydrochloride 50 mg prolonged-release oral capsule
+^ESCT1203898	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each prolonged-release oral capsule
+^ESCT1203947	Amitriptyline hydrochloride 25 mg prolonged-release oral capsule
+^ESCT1203948	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each prolonged-release oral capsule
+^ESCT1204469	Amitriptyline hydrochloride 5 mg/mL oral solution
+^ESCT1204470	Product containing precisely amitriptyline hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1204471	Amitriptyline hydrochloride 10 mg/mL oral solution
+^ESCT1204472	Product containing precisely amitriptyline hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1206203	Amitriptyline and chlordiazepoxide product
+^ESCT1206204	Product containing amitriptyline and chlordiazepoxide
+^ESCT1206205	Amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206206	Product containing amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206207	Amitriptyline and perphenazine in oral dosage form
+^ESCT1206208	Product containing amitriptyline and perphenazine in oral dosage form
+^ESCT1218158	Amitriptyline
+^ESCT1218159	Amitriptyline product
+^ESCT1223571	Product containing precisely amitriptyline 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223572	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
+^ESCT1223573	Product containing precisely amitriptyline 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223574	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
+^ESCT1227772	Product containing precisely amitriptyline hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1227774	Product containing precisely amitriptyline hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1227775	Product containing precisely amitriptyline hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1229245	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet
+^ESCT1229246	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229247	Product containing precisely amitriptyline 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229248	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229447	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229448	Amitriptyline 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229449	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229450	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229451	Amitriptyline 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229452	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1233412	Amitriptyline and perphenazine product
+^ESCT1234738	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234739	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234740	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet
+^ESCT1353458	Amitriptyline only product
+^ESCT1353459	Amitriptyline and chlordiazepoxide only product
+^ESCT1353460	Amitriptyline and perphenazine only product
+^ESCT1357467	Amitriptyline and chlordiazepoxide only product in oral dose form
+^ESCT1357468	Amitriptyline and perphenazine only product in oral dose form
+^ESCT1357469	Amitriptyline only product in oral dose form
+^ESCT1357470	Amitriptyline only product in parenteral dose form
+^ESCT1362591	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCT1362592	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCT1367176	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCT1367281	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1382069	Amitriptyline-containing product in oral dose form
+^ESCT1382070	Amitriptyline-containing product in parenteral dose form
+^ESCT1386159	Amitriptyline- and chlordiazepoxide-containing product
+^ESCT1386160	Amitriptyline- and chlordiazepoxide-containing product in oral dose form
+^ESCT1386161	Amitriptyline- and perphenazine-containing product in oral dose form
+^ESCT1431591	Amitriptyline 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431592	Amitriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431593	Amitriptyline 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431594	Amitriptyline 50mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1028962	Amitriptyline 2% / Ketamine 1% cream 1 gram
+^ESCTAM1028963	Amitriptyline 2% / Ketamine 1% cream (Special Order)
+^ESCTAM1028964	Amitriptyline 2% / Ketamine 1% cream (Special Order) 1 gram
+^ESCTAM1029108	Amitriptyline + Ketamine
+^ESCTAM1029152	Amitriptyline 2% / Ketamine 1% cream
+^ESCTAM315339	Amitriptyline
+^ESCTAM609594	Amitriptyline 25mg/5ml oral solution sugar free
+^ESCTAM609595	Amitriptyline 25mg/5mL s/f oral solution
+^ESCTAM609596	Amitriptyline 50mg/5ml oral solution sugar free
+^ESCTAM609597	Amitriptyline 50mg/5mL s/f oral solution
+^ESCTAM609598	Amitriptyline 25mg modified-release capsules
+^ESCTAM609599	Amitriptyline hydrochloride 25mg m/r capsule
+^ESCTAM609601	Amitriptyline 50mg modified-release capsules
+^ESCTAM609602	Amitriptyline hydrochloride 50mg m/r capsule
+^ESCTAM609744	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCTAM609746	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCTAM609747	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCTAM609749	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCTAM638806	Amitriptyline hydrochloride 75 mg oral tablet
+^ESCTAM638813	Amitriptyline hydrochloride 100 mg oral tablet
+^ESCTAM638815	Amitriptyline hydrochloride 150 mg oral tablet
+^ESCTAM642556	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg oral tablet
+^ESCTAM642559	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCTAM645166	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCTAM645168	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCTAM645785	Amitriptyline in oral dosage form
+^ESCTAM645787	Amitriptyline in parenteral dosage form
+^ESCTAM660908	Amitriptyline hydrochloride + chlordiazepoxide
+^ESCTAM696985	Amitriptyline + Perphenazine
+^ESCTAM696986	Amitriptyline + perphenazine
+^ESCTAM710152	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCTAM959270	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd)
+^ESCTAM959272	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml
+^ESCTAM959275	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd)
+^ESCTAM959276	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml
+^ESCTAM959277	Amitriptyline 10mg tablets (Dowelhurst Ltd)
+^ESCTAM959278	Amitriptyline 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAM959279	Amitriptyline 25mg tablets (Dowelhurst Ltd)
+^ESCTAM959280	Amitriptyline 25mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAM959283	Amitriptyline 50mg tablets (Dowelhurst Ltd)
+^ESCTAM959285	Amitriptyline 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTLE918991	Lentizol
+^ESCTPR315340	Product containing amitriptyline
+^ESCTPR609745	Product containing amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR609748	Product containing amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR638807	Product containing amitriptyline hydrochloride 75 mg/1 each oral tablet
+^ESCTPR638814	Product containing amitriptyline hydrochloride 100 mg/1 each oral tablet
+^ESCTPR638816	Product containing amitriptyline hydrochloride 150 mg/1 each oral tablet
+^ESCTPR642557	Product containing amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCTPR642560	Product containing amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645167	Product containing amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645169	Product containing amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645786	Product containing amitriptyline in oral dosage form
+^ESCTPR645788	Product containing amitriptyline in parenteral dosage form
+^ESCTPR660909	Product containing amitriptyline hydrochloride and chlordiazepoxide
+^ESCTPR696987	Product containing amitriptyline and perphenazine
+^ESCTPR710153	Product containing amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCTTR916865	Triptafen
+^ESCTTR916867	Triptafen-M
+AMIN4586	Amitriptyline Hydrochloride  Injection  10mg/ml
+AMMI117	Amitriptyline Hydrochloride  Mixture  Sugar Free 10 mg/5 ml
+AMMI33700MGEMIS	Amitriptyline Hydrochloride  Mixture  Sugar Free 10 mg/5 ml (Rosemont Pharm)
+DOTA3462	Domical  Tablets  10 mg
+DOTA3463	Domical  Tablets  25 mg
+DOTA3464	Domical  Tablets  50 mg
+ELTA3500	Elavil  Tablets  10 mg
+ELTA3501	Elavil  Tablets  25 mg
+LICA1662	Limbitrol 10  Capsules
+LICA5690	Limbitrol 5  Capsules
+TRCA2948	Tryptizol  Capsules  75 mg
+TRIN4466	Tryptizol  Injection  10mg/ml
+TRMI2949	Tryptizol  Mixture  10 mg/5 ml
+TRTA2950	Tryptizol  Tablets  10 mg
+TRTA2951	Tryptizol  Tablets  25 mg
+TRTA2952	Tryptizol  Tablets  50 mg

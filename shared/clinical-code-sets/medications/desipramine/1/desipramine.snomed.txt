@@ -1,0 +1,12 @@
+33378002	Product containing desipramine (medicinal product)
+375528006	Product containing precisely desipramine hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+375529003	Product containing precisely desipramine hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+375530008	Product containing precisely desipramine hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+375531007	Product containing precisely desipramine hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+375532000	Product containing precisely desipramine hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+375533005	Product containing precisely desipramine hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
+767974008	Product containing desipramine in oral dose form (medicinal product form)
+775486003	Product containing only desipramine (medicinal product)
+778938000	Product containing only desipramine in oral dose form (medicinal product form)
+579101000001104	Desipramine hydrochloride 25mg tablet
+102701000001107	Pertofran 25mg tablet

@@ -1,0 +1,18 @@
+49299006	Product containing protriptyline (medicinal product)
+376650009	Product containing precisely protriptyline hydrochloride 5 milligram/1 each conventional release oral tablet (clinical drug)
+376651008	Product containing precisely protriptyline hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+768906006	Product containing protriptyline in oral dose form (medicinal product form)
+777354006	Protriptyline (product)
+780319009	Product containing only protriptyline in oral dose form (medicinal product form)
+42277911000001100	Protriptyline 5mg tablets (product)
+11498511000001104	Vivactil 5mg tablets (Odyssey Pharmaceuticals Inc) (product)
+42277811000001105	Protriptyline 10mg tablets (product)
+11498211000001102	Vivactil 10mg tablets (Odyssey Pharmaceuticals Inc) (product)
+396701000001101	Protriptyline hydrochloride 5mg tablet
+466501000001100	Protriptyline hydrochloride 10mg tablet
+11498411000001103	Protriptyline 5mg tablets 100 tablet (product)
+11498611000001100	Vivactil 5mg tablets (Odyssey Pharmaceuticals Inc) 100 tablet (product)
+11498111000001108	Protriptyline 10mg tablets 100 tablet (product)
+11498311000001105	Vivactil 10mg tablets (Odyssey Pharmaceuticals Inc) 100 tablet (product)
+367301000001100	Concordin 5mg tablet
+437801000001108	Concordin 10mg tablet

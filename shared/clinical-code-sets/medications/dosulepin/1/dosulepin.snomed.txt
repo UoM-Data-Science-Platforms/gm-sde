@@ -172,3 +172,65 @@
 12061611000001100	Dosulepin 5mg/5ml oral solution
 12061711000001109	Dosulepin 5mg/5ml oral solution
 12061811000001101	Dosulepin 5mg/5ml oral solution
+321794007	Product containing dosulepin hydrochloride (medicinal product)
+321801004	Dothiepin hydrochloride 25mg/5mL s/f elixir (product)
+321802006	Dothiepin hydrochloride 75mg/5mL s/f elixir (product)
+349856007	Product containing dosulepin (medicinal product)
+766449009	Dothiepin hydrochloride 25mg/5mL conventional release oral elixir (product)
+766450009	Dothiepin hydrochloride 75mg/5mL conventional release oral elixir (product)
+767948002	Product containing dosulepin in oral dose form (medicinal product form)
+775693007	Dosulepin (product)
+779064000	Product containing only dosulepin in oral dose form (medicinal product form)
+785110003	Product containing precisely dosulepin 5 milligram/1 milliliter conventional release oral solution (clinical drug)
+785111004	Product containing precisely dosulepin 15 milligram/1 milliliter conventional release oral solution (clinical drug)
+42270611000001107	Dosulepin 25mg capsules (product)
+42301811000001101	Dosulepin 25mg capsules (Medreich Plc) (product)
+10528711000001102	Prothiaden 25mg capsules (PI) (Waymade Ltd) (product)
+14344411000001102	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) (product)
+16228611000001105	Prothiaden 25mg capsules (Lexon (UK) Ltd) (product)
+16586411000001105	Prothiaden 25mg capsules (Stephar (U.K.) Ltd) (product)
+42270711000001103	Dosulepin 75mg tablets (product)
+41745711000001101	Dosulepin 75mg tablets (Medreich Plc) (product)
+5403111000001102	Prothiaden 75mg tablets (PI) (Waymade Ltd) (product)
+5575311000001101	Prothiaden 75mg tablets (PI) (Dowelhurst Ltd) (product)
+5503211000001103	Dosulepin 75mg tablets (PI) (Dowelhurst Ltd) (product)
+41745811000001109	Dosulepin 75mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets (product)
+42302011000001104	Dosulepin 25mg capsules (Medreich Plc) 28 capsule 2 x 14 capsules (product)
+5503311000001106	Dosulepin 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+5403311000001100	Prothiaden 75mg tablets (PI) (Waymade Ltd) 28 tablet 2 x 14 tablets (product)
+5575411000001108	Prothiaden 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+16586511000001109	Prothiaden 25mg capsules (Stephar (U.K.) Ltd) 100 capsule (product)
+16228711000001101	Prothiaden 25mg capsules (Lexon (UK) Ltd) 100 capsule (product)
+14344511000001103	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 100 capsule (product)
+10528911000001100	Prothiaden 25mg capsules (PI) (Waymade Ltd) 100 capsule (product)
+17589611000001101	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule (product)
+11612211000001103	Dosulepin 25mg/5ml oral solution sugar free (product)
+11612311000001106	Dosulepin 75mg/5ml oral solution sugar free (product)
+11598211000001109	Dosulepin 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+11598511000001107	Dosulepin 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+11603211000001106	Dosulepin 25mg/5ml oral solution sugar free (Special Order) (product)
+11603511000001109	Dosulepin 75mg/5ml oral solution sugar free (Special Order) (product)
+11603411000001105	Dosulepin 75mg/5ml oral solution sugar free 1 ml (product)
+11603111000001100	Dosulepin 25mg/5ml oral solution sugar free 1 ml (product)
+11598411000001108	Dosulepin 75mg/5ml oral solution sugar free 500 ml (product)
+11598111000001103	Dosulepin 25mg/5ml oral solution sugar free 500 ml (product)
+11598311000001101	Dosulepin 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 500 ml (product)
+11598611000001106	Dosulepin 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 500 ml (product)
+11603311000001103	Dosulepin 25mg/5ml oral solution sugar free (Special Order) 1 ml (product)
+11603611000001108	Dosulepin 75mg/5ml oral solution sugar free (Special Order) 1 ml (product)
+309001000001107	Dothiepin hydrochloride 25mg capsule - product
+370601000001103	Dothiepin hydrochloride 75mg tablet - product
+2335701000001100	Dothiepin hydrochloride 25mg/5mL s/f elixir - product
+2335801000001109	Dothiepin hydrochloride 75mg/5mL s/f elixir - product
+3814401000001106	Thaden 25mg capsule
+3814501000001105	Thaden 75mg tablet
+9365101000001101	Thaden (product)
+300701000001101	Dothapax 75mg tablet
+731401000001107	Dothapax 25mg capsule
+9267001000001100	Dothapax (product)
+104901000001104	Prepadine 75mg tablet
+459301000001108	Prepadine 25mg capsule
+9310501000001104	Prepadine (product)
+326201000001102	Prothiaden 75mg tablet
+669401000001105	Prothiaden 25mg capsule
+9316001000001106	Prothiaden (product)

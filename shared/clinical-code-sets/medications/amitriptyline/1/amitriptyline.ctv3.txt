@@ -12,3 +12,30 @@ d916.	Triptafen tablet
 d917.	Triptafen-M tablet
 d91C.	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet
 d91D.	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet
+d71..	Amitriptyline hydrochloride [antidepressant]
+d71c.	Tryptizol 10mg tablet
+d717.	Elavil 10mg tablet
+d714.	Domical 10mg tablet
+d71d.	Tryptizol 25mg tablet
+d718.	Elavil 25mg tablet
+d715.	Domical 25mg tablet
+d71e.	Tryptizol 50mg tablet
+d716.	Domical 50mg tablet
+d71w.	Amitriptyline hydrochloride 75mg m/r capsule
+d71b.	Tryptizol 75mg m/r capsule
+d71y.	Amitriptyline 10mg/5mL oral suspension
+d71f.	Tryptizol 10mg/5mL mixture
+d71z.	Amitriptyline hydrochloride 100mg/10mL injection
+d71g.	Tryptizol 100mg/10mL injection
+d918.	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
+d911.	Limbitrol-5 capsule
+x01Aw	Amitriptyline
+x05Kv	Amitriptyline hydrochloride - chemical
+x02tX	Tryptizol
+x02b4	Elavil
+x02hL	Lentizol
+x02aM	Domical
+x02tO	Triptafen
+x02tP	Triptafen-M
+d911.	Limbitrol-5 capsule
+d912.	Limbitrol 10 capsule
