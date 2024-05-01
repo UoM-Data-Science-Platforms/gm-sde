@@ -80,3 +80,12 @@ daCA.	ESCITALOPRAM 20mg/mL oral drops
 daCA.	ESCITALOPRAM 20mg/mL oral drops
 x054r	Cipramil 40mg/mL oral drops
 x054r	Cipramil 40mg/mL oral drops
+da9..	Citalopram
+da97.	Cipramil 40mg/mL oral drops 15mL
+da9A.	Paxoran 40mg tablet
+da98.	Paxoran 10mg tablet
+da99.	Paxoran 20mg tablet
+x05vF	Paxoran
+x02XO	Cipramil
+daC..	Escitalopram
+x05dY	Cipralex

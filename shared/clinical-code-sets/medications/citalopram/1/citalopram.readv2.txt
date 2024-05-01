@@ -1,0 +1,12 @@
+da9..00	CITALOPRAM
+da9z.00	CITALOPRAM 40mg/mL oral drops
+da9A.00	*PAXORAN 40mg tablets
+da99.00	*PAXORAN 20mg tablets
+da98.00	*PAXORAN 10mg tablets
+da97.00	CIPRAMIL 40mg/mL oral drops 15mL
+da96.00	*CIPRAMIL 40mg tablets
+da95.00	CITALOPRAM 40mg tablets
+da94.00	*CIPRAMIL 10mg tablets
+da93.00	CITALOPRAM 10mg tablets
+da92.00	CIPRAMIL 20mg tablets
+da91.00	CITALOPRAM 20mg tablets

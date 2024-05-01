@@ -1,0 +1,15 @@
+da9..	Citalopram
+da9z.	Citalopram 40mg/mL oral drops
+x054r	Cipramil 40mg/mL oral drops
+da97.	Cipramil 40mg/mL oral drops 15mL
+da95.	Citalopram 40mg tablet
+da9A.	Paxoran 40mg tablet
+da96.	Cipramil 40mg tablet
+da93.	Citalopram 10mg tablet
+da98.	Paxoran 10mg tablet
+da94.	Cipramil 10mg tablet
+da91.	Citalopram 20mg tablet
+da99.	Paxoran 20mg tablet
+da92.	Cipramil 20mg tablet
+x05vF	Paxoran
+x02XO	Cipramil

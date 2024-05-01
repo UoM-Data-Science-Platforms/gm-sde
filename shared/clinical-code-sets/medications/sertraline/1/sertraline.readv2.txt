@@ -1,4 +1,5 @@
-da51.	SERTRALINE 50mg tablets
-da52.	SERTRALINE 100mg tablets
-da53.	LUSTRAL 50mg tablets
-da54.	LUSTRAL 100mg tablets
+da5..00	SERTRALINE HYDROCHLORIDE
+da51.00	SERTRALINE 50mg tablets
+da52.00	SERTRALINE 100mg tablets
+da53.00	LUSTRAL 50mg tablets
+da54.00	LUSTRAL 100mg tablets
