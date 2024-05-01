@@ -1,4 +1,3 @@
-CTV3Code	Description
 1B17.	C/O - feeling unhappy
 2257.	O/E - depressed
 62T1.	Postnatal depressive disorder

@@ -551,3 +551,4 @@ o4a3.	*KETOROLAC TROMETAMOL 10mg tab
 o4a4.	*TORADOL 10mg tablets
 diau.	Feminax Express 342mg tablets (Bayer Plc)
 dl64.	CLOTAM RAPID 200mg tablets
+j2ev.	*PIROXICAM 20mg/1mL injection
