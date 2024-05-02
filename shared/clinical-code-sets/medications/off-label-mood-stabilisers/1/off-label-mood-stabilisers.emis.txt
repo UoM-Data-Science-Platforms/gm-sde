@@ -180,3 +180,1382 @@ TROR14324NEMIS	Trileptal  Oral suspension  60 mg/ml
 TRTA3258NEMIS	Trileptal  Tablets  150 mg
 TRTA3259NEMIS	Trileptal  Tablets  300 mg
 TRTA3260NEMIS	Trileptal  Tablets  600 mg
+^ESCT1175192	Gabapentin 400mg capsules (Accord Healthcare Ltd)
+^ESCT1175193	Gabapentin 400mg capsules (Accord Healthcare Ltd) 100 capsule
+^ESCT1175194	Gabapentin 300mg capsules (Accord Healthcare Ltd)
+^ESCT1175195	Gabapentin 300mg capsules (Accord Healthcare Ltd) 100 capsule
+^ESCT1175196	Gabapentin 100mg capsules (Accord Healthcare Ltd)
+^ESCT1175197	Gabapentin 100mg capsules (Accord Healthcare Ltd) 100 capsule
+^ESCT1175871	Gabapentin 6% gel 45 gram
+^ESCT1175872	Gabapentin 6% gel (Special Order) 45 gram
+^ESCT1176547	Topiramate 200mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1176548	Topiramate 200mg tablets (Glenmark Pharmaceuticals Europe Ltd) 60 tablet
+^ESCT1177207	Gabapentin 100mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177208	Gabapentin 100mg capsules (Aurobindo Pharma Ltd) 100 capsule
+^ESCT1177209	Gabapentin 300mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177210	Gabapentin 300mg capsules (Aurobindo Pharma Ltd) 100 capsule
+^ESCT1177211	Gabapentin 400mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177212	Gabapentin 400mg capsules (Aurobindo Pharma Ltd) 100 capsule
+^ESCT1177406	Topiramate 25mg tablets (Milpharm Ltd)
+^ESCT1177407	Topiramate 25mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177408	Topiramate 50mg tablets (Milpharm Ltd)
+^ESCT1177409	Topiramate 50mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177410	Topiramate 100mg tablets (Milpharm Ltd)
+^ESCT1177411	Topiramate 100mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177412	Topiramate 200mg tablets (Milpharm Ltd)
+^ESCT1177413	Topiramate 200mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177448	Gabapentin 10% gel
+^ESCT1177449	Gabapentin 10% gel (Special Order)
+^ESCT1177450	Gabapentin 10% gel 1 gram
+^ESCT1177451	Gabapentin 10% gel 45 gram
+^ESCT1177452	Gabapentin 10% gel (Special Order) 1 gram
+^ESCT1177453	Gabapentin 10% gel (Special Order) 45 gram
+^ESCT1179806	Oxcarbazepine 150mg tablets (Mylan) 50 tablet
+^ESCT1179807	Oxcarbazepine 600mg tablets (Mylan) 50 tablet
+^ESCT1179850	Gabapentin 100mg capsules (A A H Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCT1179900	Gabapentin 300mg capsules (Mylan)
+^ESCT1179998	Topiramate 25mg tablets (Mylan)
+^ESCT1180000	Topiramate 50mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1183700	Oxcarbazepine 150mg tablets (Mylan)
+^ESCT1183786	Gabapentin 100mg capsules (Mylan) 100 capsule
+^ESCT1183787	Gabapentin 400mg capsules (Mylan) 100 capsule
+^ESCT1183898	Topiramate 200mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1183899	Topiramate 50mg tablets (Mylan)
+^ESCT1184893	Oxcarbazepine 300mg tablets (Mylan) 50 tablet
+^ESCT1184894	Oxcarbazepine 600mg tablets (Mylan)
+^ESCT1185999	Gabapentin 100mg capsules (Mylan)
+^ESCT1186080	Topiramate 100mg tablets (Mylan)
+^ESCT1186922	Oxcarbazepine 300mg tablets (Mylan)
+^ESCT1189296	Gabapentin 300mg capsules (Mylan) 100 capsule
+^ESCT1189297	Gabapentin 400mg capsules (Mylan)
+^ESCT1189384	Topiramate 100mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1189387	Topiramate 200mg tablets (Mylan)
+^ESCT1189388	Topiramate 25mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1197711	Gabapentin 50mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCT1197712	Gabapentin 50mg/ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCT1199361	Topiramate 100mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1199373	Gabapentin 100mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199374	Gabapentin 100mg capsules (Tillomed Laboratories Ltd) 100 capsule
+^ESCT1199375	Gabapentin 300mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199376	Gabapentin 300mg capsules (Tillomed Laboratories Ltd) 100 capsule
+^ESCT1199377	Gabapentin 400mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199378	Gabapentin 400mg capsules (Tillomed Laboratories Ltd) 100 capsule
+^ESCT1199638	Topiramate 100mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1212467	Oxcarbazepine 60mg/ml oral suspension sugar free
+^ESCT1215069	Topiramate 25mg tablets (Morningside Healthcare Ltd)
+^ESCT1215070	Topiramate 25mg tablets (Morningside Healthcare Ltd) 60 tablet
+^ESCT1215071	Topiramate 50mg tablets (Morningside Healthcare Ltd)
+^ESCT1215072	Topiramate 50mg tablets (Morningside Healthcare Ltd) 60 tablet
+^ESCT1215073	Topiramate 100mg tablets (Morningside Healthcare Ltd)
+^ESCT1215074	Topiramate 100mg tablets (Morningside Healthcare Ltd) 60 tablet
+^ESCT1216227	Topiramate 50mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1237617	Topiramate 50mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1254535	Topiramate 200mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1254539	Topiramate 25mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1254776	Topiramate 200mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1254777	Topiramate 25mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1256447	Topiramate 50mg/5ml oral suspension sugar free 150 ml
+^ESCT1256448	Topiramate 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1256449	Topiramate 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1256450	Topiramate 100mg/5ml oral suspension sugar free 280 ml
+^ESCT1256451	Topiramate 100mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1256452	Topiramate 100mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 280 ml
+^ESCT1257716	Topiramate 100mg/5ml oral suspension sugar free
+^ESCT1257717	Topiramate 50mg/5ml oral suspension sugar free
+^ESCT1258096	Oxcarbazepine 600mg tablets (Sandoz Ltd)
+^ESCT1258097	Oxcarbazepine 600mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1258098	Oxcarbazepine 300mg tablets (Sandoz Ltd)
+^ESCT1258099	Oxcarbazepine 300mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1258101	Oxcarbazepine 150mg tablets (Sandoz Ltd)
+^ESCT1258103	Oxcarbazepine 150mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1258259	Topiramate 50mg/5ml oral suspension (Special Order)
+^ESCT1258260	Topiramate 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1258334	Topiramate 100mg/5ml oral suspension (Special Order)
+^ESCT1258335	Topiramate 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1258445	Topiramate 50mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1258511	Topiramate 100mg/5ml oral suspension (Special Order) 200 ml
+^ESCT1259701	Topiramate 25mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259703	Topiramate 25mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259705	Topiramate 50mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259706	Topiramate 50mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259707	Topiramate 100mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259709	Topiramate 100mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259711	Topiramate 200mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259712	Topiramate 200mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259784	Gabapentin 50mg/ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1259785	Gabapentin 50mg/ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCT1259907	Topamax 100mg tablets (Originalis B.V.)
+^ESCT1259908	Topamax 100mg tablets (Originalis B.V.) 60 tablet
+^ESCT1259909	Topamax 200mg tablets (Originalis B.V.)
+^ESCT1259910	Topamax 200mg tablets (Originalis B.V.) 60 tablet
+^ESCT1259911	Trileptal 60mg/ml oral suspension (Originalis B.V.)
+^ESCT1259912	Trileptal 60mg/ml oral suspension (Originalis B.V.) 250 ml
+^ESCT1259913	Trileptal 300mg tablets (Originalis B.V.)
+^ESCT1259914	Trileptal 300mg tablets (Originalis B.V.) 50 tablet
+^ESCT1262879	Topiramate 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1262880	Topiramate 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1262881	Topiramate 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1262882	Topiramate 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 280 ml
+^ESCT1264239	Gabapentin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264240	Gabapentin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264241	Gabapentin 100mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCT1264243	Gabapentin 400mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264244	Gabapentin 400mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCT1264246	Gabapentin 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264247	Gabapentin 600mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1264502	Gabapentin 300mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCT1264774	Topiramate 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264775	Topiramate 25mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCT1266505	Topiramate 50mg tablets (Ennogen Healthcare Ltd)
+^ESCT1266506	Topiramate 50mg tablets (Ennogen Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1266507	Topiramate 100mg tablets (Ennogen Healthcare Ltd)
+^ESCT1266508	Topiramate 100mg tablets (Ennogen Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1266509	Topiramate 200mg tablets (Ennogen Healthcare Ltd)
+^ESCT1266510	Topiramate 200mg tablets (Ennogen Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1266620	Topamax 15mg sprinkle capsules (CST Pharma Ltd)
+^ESCT1266622	Topamax 15mg sprinkle capsules (CST Pharma Ltd) 60 capsule
+^ESCT1266623	Topamax 25mg sprinkle capsules (CST Pharma Ltd)
+^ESCT1266624	Topamax 25mg sprinkle capsules (CST Pharma Ltd) 60 capsule
+^ESCT1266633	Topamax 25mg tablets (CST Pharma Ltd)
+^ESCT1266635	Topamax 25mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1266637	Topamax 50mg tablets (CST Pharma Ltd)
+^ESCT1266639	Topamax 50mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1266641	Topamax 100mg tablets (CST Pharma Ltd)
+^ESCT1266642	Topamax 100mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1266910	Topiramate 25mg tablets (Ennogen Healthcare Ltd)
+^ESCT1266911	Topiramate 25mg tablets (Ennogen Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1266916	Topamax 200mg tablets (CST Pharma Ltd)
+^ESCT1266917	Topamax 200mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1267153	Trileptal 60mg/ml oral suspension (CST Pharma Ltd)
+^ESCT1267154	Trileptal 60mg/ml oral suspension (CST Pharma Ltd) 250 ml
+^ESCT1267214	Topamax 50mg sprinkle capsules (CST Pharma Ltd)
+^ESCT1267215	Topamax 50mg sprinkle capsules (CST Pharma Ltd) 60 capsule
+^ESCT1267810	Gabapentin 100mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267811	Gabapentin 100mg capsules (Noumed Life Sciences Ltd) 100 capsule 10 x 10 capsules
+^ESCT1267812	Gabapentin 300mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267813	Gabapentin 300mg capsules (Noumed Life Sciences Ltd) 100 capsule 10 x 10 capsules
+^ESCT1267814	Gabapentin 400mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267815	Gabapentin 400mg capsules (Noumed Life Sciences Ltd) 100 capsule 10 x 10 capsules
+^ESCT1274907	Topamax 25mg sprinkle capsules (Pilsco Ltd)
+^ESCT1274908	Topamax 25mg sprinkle capsules (Pilsco Ltd) 60 capsule
+^ESCT1275131	Topiramate 100mg tablets 56 tablet
+^ESCT1275132	Topamax 100mg tablets (Pilsco Ltd)
+^ESCT1275133	Topamax 100mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1275134	Topiramate 200mg tablets 56 tablet
+^ESCT1275135	Topamax 200mg tablets (Pilsco Ltd)
+^ESCT1275136	Topamax 200mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1275137	Topiramate 50mg tablets 56 tablet
+^ESCT1275138	Topamax 50mg tablets (Pilsco Ltd)
+^ESCT1275139	Topamax 50mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1275747	Topiramate 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1275748	Topiramate 50mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1275749	Topiramate 100mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1275750	Topiramate 100mg/5ml oral suspension sugar free (DE Pharmaceuticals) 280 ml
+^ESCT1280180	Gabapentin 300mg capsules (Accord Healthcare Ltd) 100 capsule 10 x 10 capsules
+^ESCT1299818	Gabapentin 400mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1299819	Gabapentin 400mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1299867	Gabapentin 400mg/5ml oral suspension (Drug Tariff Special Order) 200 ml
+^ESCT1300323	Topiramate 100mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1300324	Topiramate 100mg tablets (Glenmark Pharmaceuticals Europe Ltd) 60 tablet 3 x 20 tablets
+^ESCT1300889	Neurontin 100mg capsules (DE Pharmaceuticals)
+^ESCT1300890	Neurontin 100mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCT1300891	Neurontin 300mg capsules (DE Pharmaceuticals)
+^ESCT1300892	Neurontin 300mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCT1301038	Trileptal 60mg/ml oral suspension (DE Pharmaceuticals)
+^ESCT1301039	Trileptal 60mg/ml oral suspension (DE Pharmaceuticals) 250 ml
+^ESCT1301282	Neurontin 100mg capsules (Upjohn Ltd) 100 capsule
+^ESCT1301283	Neurontin 300mg capsules (Upjohn Ltd) 100 capsule
+^ESCT1301284	Neurontin 400mg capsules (Upjohn Ltd) 100 capsule
+^ESCT1301285	Neurontin 600mg tablets (Upjohn Ltd) 100 tablet
+^ESCT1301286	Neurontin 800mg tablets (Upjohn Ltd) 100 tablet
+^ESCT1301327	Neurontin 300mg capsules (Upjohn Ltd) 40 capsule
+^ESCT1301328	Neurontin 600mg tablets (Upjohn Ltd) 10 tablet
+^ESCT1303960	Neurontin 100mg capsules (Upjohn UK Ltd) 100 capsule
+^ESCT1303961	Neurontin 300mg capsules (Upjohn UK Ltd) 100 capsule
+^ESCT1303962	Neurontin 400mg capsules (Upjohn UK Ltd) 100 capsule
+^ESCT1303963	Neurontin 600mg tablets (Upjohn UK Ltd) 100 tablet
+^ESCT1303964	Neurontin 800mg tablets (Upjohn UK Ltd) 100 tablet
+^ESCT1303973	Neurontin 300mg capsules (Upjohn UK Ltd) 40 capsule
+^ESCT1303974	Neurontin 600mg tablets (Upjohn UK Ltd) 10 tablet
+^ESCT1304732	Oxcarbazepine 600mg tablets (Morningside Healthcare Ltd)
+^ESCT1304733	Oxcarbazepine 600mg tablets (Morningside Healthcare Ltd) 50 tablet 5 x 10 tablets
+^ESCT1304744	Oxcarbazepine 300mg tablets (Morningside Healthcare Ltd)
+^ESCT1304745	Oxcarbazepine 300mg tablets (Morningside Healthcare Ltd) 50 tablet 10 x 5 tablets
+^ESCT1304908	Topiramate 50mg tablets (Crescent Pharma Ltd)
+^ESCT1304909	Topiramate 50mg tablets (Crescent Pharma Ltd) 60 tablet 6 X 10 tablets
+^ESCT1304941	Topiramate 200mg tablets (Crescent Pharma Ltd)
+^ESCT1304942	Topiramate 200mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1304943	Topiramate 25 mg tablets (Crescent Pharma Ltd)
+^ESCT1304944	Topiramate 25 mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1304948	Topiramate 100mg tablets (Crescent Pharma Ltd)
+^ESCT1304949	Topiramate 100mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1307188	Topiramate 25mg tablets (Crescent Pharma Ltd)
+^ESCT1307189	Topiramate 25mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1351618	Oxcarbazepine-containing product in oral dose form
+^ESCT1355140	Gabapentin only product
+^ESCT1356175	Oxcarbazepine only product
+^ESCT1357017	Topiramate only product
+^ESCT1358637	Gabapentin only product in oral dose form
+^ESCT1359441	Oxcarbazepine only product in oral dose form
+^ESCT1360073	Topiramate only product in oral dose form
+^ESCT1374316	Topiramate 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1374317	Topiramate 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1375971	Gabapentin 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375972	Gabapentin 100mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1375973	Gabapentin 300mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375974	Gabapentin 300mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1375975	Gabapentin 400mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375976	Gabapentin 400mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1375977	Gabapentin 600mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375978	Gabapentin 600mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1375979	Gabapentin 800mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375980	Gabapentin 800mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1375981	Gabapentin 50mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375982	Gabapentin 50mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1376104	Topiramate 200mg tablets (Morningside Healthcare Ltd)
+^ESCT1376105	Topiramate 200mg tablets (Morningside Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1389036	Gabapentin 600mg tablets (Milpharm Ltd)
+^ESCT1389037	Gabapentin 600mg tablets (Milpharm Ltd) 100 tablet 10 x 10 tablets
+^ESCT1389038	Gabapentin 800mg tablets (Milpharm Ltd)
+^ESCT1389039	Gabapentin 800mg tablets (Milpharm Ltd) 100 tablet 10 x 10 tablets
+^ESCT1389356	Gabapentin 100mg capsules (Milpharm Ltd)
+^ESCT1389357	Gabapentin 100mg capsules (Milpharm Ltd) 100 capsule
+^ESCT1389358	Gabapentin 300mg capsules (Milpharm Ltd)
+^ESCT1389359	Gabapentin 300mg capsules (Milpharm Ltd) 100 capsule
+^ESCT1389360	Gabapentin 400mg capsules (Milpharm Ltd)
+^ESCT1389361	Gabapentin 400mg capsules (Milpharm Ltd) 100 capsule
+^ESCT1402491	Oxcarbazepine 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402495	Oxcarbazepine 150mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1402497	Oxcarbazepine 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402498	Oxcarbazepine 300mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1402499	Oxcarbazepine 600mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402500	Oxcarbazepine 600mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1405433	Trileptal 60mg/ml oral suspension (Pilsco Ltd)
+^ESCT1405434	Trileptal 60mg/ml oral suspension (Pilsco Ltd) 250 ml
+^ESCT1412440	Gabapentin 50mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412441	Gabapentin 50mg/ml oral solution sugar free (Accord Healthcare Ltd) 150 ml
+^ESCT1422135	Gabapentin 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422136	Gabapentin 100mg capsules (Zentiva Pharma UK Ltd) 100 capsule
+^ESCT1422137	Gabapentin 300mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422138	Gabapentin 300mg capsules (Zentiva Pharma UK Ltd) 100 capsule
+^ESCT1422139	Gabapentin 400mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422140	Gabapentin 400mg capsules (Zentiva Pharma UK Ltd) 100 capsule
+^ESCT1422295	Gabapentin 600mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422296	Gabapentin 600mg tablets (Zentiva Pharma UK Ltd) 100 tablet
+^ESCT1422297	Gabapentin 800mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422298	Gabapentin 800mg tablets (Zentiva Pharma UK Ltd) 100 tablet
+^ESCT1422323	Topiramate 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422324	Topiramate 25mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422325	Topiramate 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422326	Topiramate 50mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422327	Topiramate 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422328	Topiramate 100mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422329	Topiramate 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422330	Topiramate 200mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1426760	Gabapentin 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426761	Gabapentin 100mg capsules (Kent Pharma (UK) Ltd) 100 capsule 10 x 10 capsules
+^ESCT1426762	Gabapentin 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426763	Gabapentin 300mg capsules (Kent Pharma (UK) Ltd) 100 capsule 10 x 10 capsules
+^ESCT1426764	Gabapentin 400mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426765	Gabapentin 400mg capsules (Kent Pharma (UK) Ltd) 100 capsule 10 x 10 capsules
+^ESCT1426766	Gabapentin 600mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426767	Gabapentin 600mg tablets (Kent Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1426768	Gabapentin 800mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426769	Gabapentin 800mg tablets (Kent Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1427825	Topiramate 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427826	Topiramate 100mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1427827	Topiramate 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427828	Topiramate 200mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1429647	Topiramate 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429648	Topiramate 100mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1429649	Topiramate 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429650	Topiramate 200mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1429651	Topiramate 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429652	Topiramate 25mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1429653	Topiramate 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429654	Topiramate 50mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1433591	Topiramate 100mg tablets (Thame Laboratories Ltd)
+^ESCT1433592	Topiramate 100mg tablets (Thame Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1434437	Topiramate 25mg tablets (Thame Laboratories Ltd)
+^ESCT1434438	Topiramate 25mg tablets (Thame Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1434439	Topiramate 50mg tablets (Thame Laboratories Ltd)
+^ESCT1434440	Topiramate 50mg tablets (Thame Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1434441	Topiramate 200mg tablets (Thame Laboratories Ltd)
+^ESCT1434442	Topiramate 200mg tablets (Thame Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1436641	Topamax 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCT1437400	Neurontin 100mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437401	Neurontin 300mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437402	Neurontin 400mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437403	Neurontin 600mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437404	Neurontin 800mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437713	Neurontin 300mg capsules (Viatris UK Healthcare Ltd) 40 capsule
+^ESCT1437714	Neurontin 600mg tablets (Viatris UK Healthcare Ltd) 10 tablet
+^ESCT1437886	Gabapentin 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437887	Gabapentin 100mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437888	Gabapentin 300mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437889	Gabapentin 300mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437890	Gabapentin 400mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437891	Gabapentin 400mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1438081	Oxcarbazepine 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438082	Oxcarbazepine 150mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1438083	Oxcarbazepine 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438084	Oxcarbazepine 300mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1438085	Oxcarbazepine 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438086	Oxcarbazepine 600mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1438192	Topiramate 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438193	Topiramate 100mg tablets (Viatris UK Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1438198	Topiramate 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438199	Topiramate 200mg tablets (Viatris UK Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1438200	Topiramate 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438201	Topiramate 25mg tablets (Viatris UK Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1438204	Topiramate 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438205	Topiramate 50mg tablets (Viatris UK Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1439700	Trileptal 300mg tablets (Pharmaram Ltd)
+^ESCT1439701	Trileptal 300mg tablets (Pharmaram Ltd) 50 tablet
+^ESCTGA1002987	Gabapentin 100mg capsules 90 capsule
+^ESCTGA1003326	Gabapentin 6% gel 1 gram
+^ESCTGA1003327	Gabapentin 6% gel (Special Order)
+^ESCTGA1003328	Gabapentin 6% gel (Special Order) 1 gram
+^ESCTGA1003356	Gabapentin 6% gel
+^ESCTGA1005833	Gabapentin 100mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1005834	Gabapentin 100mg capsules (Phoenix Healthcare Distribution Ltd) 100 capsule
+^ESCTGA1005851	Gabapentin 300mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1005852	Gabapentin 300mg capsules (Phoenix Healthcare Distribution Ltd) 100 capsule
+^ESCTGA1005853	Gabapentin 400mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1005854	Gabapentin 400mg capsules (Phoenix Healthcare Distribution Ltd) 100 capsule
+^ESCTGA1006408	Gabapentin 100mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006410	Gabapentin 100mg capsules (Almus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA1006412	Gabapentin 300mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006414	Gabapentin 300mg capsules (Almus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA1006416	Gabapentin 400mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006418	Gabapentin 400mg capsules (Almus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA1006419	Gabapentin 600mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGA1006420	Gabapentin 600mg tablets (Almus Pharmaceuticals Ltd) 100 tablet
+^ESCTGA1006422	Gabapentin 800mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGA1006424	Gabapentin 800mg tablets (Almus Pharmaceuticals Ltd) 100 tablet
+^ESCTGA1007624	Gabapentin 600mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1007625	Gabapentin 600mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTGA1021444	Gabapentin 250mg/5ml oral solution 150 ml
+^ESCTGA1021445	Gabapentin 250mg/5ml oral solution (Special Order) 150 ml
+^ESCTGA1021446	Gabapentin 250mg/5ml oral suspension 100 ml
+^ESCTGA1021448	Gabapentin 250mg/5ml oral suspension (Special Order) 100 ml
+^ESCTGA1024258	Gabapentin 250mg/5ml oral suspension 300 ml
+^ESCTGA1024259	Gabapentin 250mg/5ml oral suspension (Special Order) 300 ml
+^ESCTGA1028936	Gabapentin 400mg/5ml oral solution 200 ml
+^ESCTGA1028937	Gabapentin 400mg/5ml oral solution (Special Order) 200 ml
+^ESCTGA1028938	Gabapentin 400mg/5ml oral suspension 200 ml
+^ESCTGA1028939	Gabapentin 400mg/5ml oral suspension (Special Order) 200 ml
+^ESCTGA1034668	Gabapentin 100mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1034669	Gabapentin 100mg capsules (Bristol Laboratories Ltd) 100 capsule
+^ESCTGA1034670	Gabapentin 300mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1034671	Gabapentin 300mg capsules (Bristol Laboratories Ltd) 100 capsule
+^ESCTGA1034672	Gabapentin 400mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1034673	Gabapentin 400mg capsules (Bristol Laboratories Ltd) 100 capsule
+^ESCTGA1034923	Gabapentin 250mg/5ml oral solution 470 ml
+^ESCTGA1036907	Gabapentin 600mg tablets (Accord Healthcare Ltd)
+^ESCTGA1036909	Gabapentin 600mg tablets (Accord Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1036919	Gabapentin 800mg tablets (Accord Healthcare Ltd)
+^ESCTGA1036920	Gabapentin 800mg tablets (Accord Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1040345	Gabapentin 50mg/ml oral solution sugar free 150 ml
+^ESCTGA1040352	Gabapentin 50mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTGA1040357	Gabapentin 50mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTGA1040366	Gabapentin 50mg/ml oral solution sugar free
+^ESCTGA1040707	Gabapentin 50mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1040708	Gabapentin 50mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTGA1040992	Gabapentin 50mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTGA1040993	Gabapentin 50mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTGA1043662	Gabapentin 100mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043663	Gabapentin 100mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTGA1043664	Gabapentin 300mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043665	Gabapentin 300mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTGA1043666	Gabapentin 400mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043667	Gabapentin 400mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTGA1043668	Gabapentin 600mg tablets (Waymade Healthcare Plc)
+^ESCTGA1043669	Gabapentin 600mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTGA1043715	Gabapentin 800mg tablets (Waymade Healthcare Plc)
+^ESCTGA1043716	Gabapentin 800mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTGA1046744	Gabapentin 600mg tablets (Aurobindo Pharma Ltd)
+^ESCTGA1046745	Gabapentin 600mg tablets (Aurobindo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1046746	Gabapentin 800mg tablets (Aurobindo Pharma Ltd)
+^ESCTGA1046747	Gabapentin 800mg tablets (Aurobindo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1047606	Gabapentin 6% gel 50 gram
+^ESCTGA1047633	Gabapentin 6% gel 100 gram
+^ESCTGA1047634	Gabapentin 6% gel (Special Order) 50 gram
+^ESCTGA1047635	Gabapentin 6% gel (Special Order) 100 gram
+^ESCTGA1049004	Gabapentin 600mg tablets (Creo Pharma Ltd)
+^ESCTGA1049006	Gabapentin 600mg tablets (Creo Pharma Ltd) 100 tablet
+^ESCTGA1049007	Gabapentin 800mg tablets (Creo Pharma Ltd)
+^ESCTGA1049008	Gabapentin 800mg tablets (Creo Pharma Ltd) 100 tablet
+^ESCTGA1056561	Gabapentin 100mg capsules (Medreich Plc)
+^ESCTGA1056562	Gabapentin 100mg capsules (Medreich Plc) 100 capsule 10 x 10 capsules
+^ESCTGA1056563	Gabapentin 300mg capsules (Medreich Plc)
+^ESCTGA1056564	Gabapentin 300mg capsules (Medreich Plc) 100 capsule 10 x 10 capsules
+^ESCTGA1056565	Gabapentin 400mg capsules (Medreich Plc)
+^ESCTGA1056566	Gabapentin 400mg capsules (Medreich Plc) 100 capsule 10 x 10 capsules
+^ESCTGA1058472	Gabapentin 100mg capsules (Creo Pharma Ltd)
+^ESCTGA1058473	Gabapentin 100mg capsules (Creo Pharma Ltd) 100 capsule
+^ESCTGA1058474	Gabapentin 300mg capsules (Creo Pharma Ltd)
+^ESCTGA1058475	Gabapentin 300mg capsules (Creo Pharma Ltd) 100 capsule
+^ESCTGA1058476	Gabapentin 400mg capsules (Creo Pharma Ltd)
+^ESCTGA1058477	Gabapentin 400mg capsules (Creo Pharma Ltd) 100 capsule
+^ESCTGA1063153	Gabapentin 100mg capsules (DE Pharmaceuticals)
+^ESCTGA1063154	Gabapentin 100mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCTGA1063155	Gabapentin 300mg capsules (DE Pharmaceuticals)
+^ESCTGA1063156	Gabapentin 300mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCTGA1063157	Gabapentin 400mg capsules (DE Pharmaceuticals)
+^ESCTGA1063158	Gabapentin 400mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCTGA1063159	Gabapentin 50mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTGA1063160	Gabapentin 50mg/ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTGA1063161	Gabapentin 600mg tablets (DE Pharmaceuticals)
+^ESCTGA1063162	Gabapentin 600mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTGA1063163	Gabapentin 800mg tablets (DE Pharmaceuticals)
+^ESCTGA1063164	Gabapentin 800mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTGA1063416	Gabapentin 100mg capsules (Morningside Healthcare Ltd)
+^ESCTGA1063417	Gabapentin 100mg capsules (Morningside Healthcare Ltd) 100 capsule
+^ESCTGA1063418	Gabapentin 300mg capsules (Morningside Healthcare Ltd)
+^ESCTGA1063419	Gabapentin 300mg capsules (Morningside Healthcare Ltd) 100 capsule
+^ESCTGA1063420	Gabapentin 600mg tablets (Morningside Healthcare Ltd)
+^ESCTGA1063421	Gabapentin 600mg tablets (Morningside Healthcare Ltd) 100 tablet
+^ESCTGA1063424	Gabapentin 800mg tablets (Morningside Healthcare Ltd)
+^ESCTGA1063425	Gabapentin 800mg tablets (Morningside Healthcare Ltd) 100 tablet
+^ESCTGA1106948	Gabapentin 100mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1106949	Gabapentin 100mg capsules (Rivopharm (UK) Ltd) 100 capsule
+^ESCTGA1106951	Gabapentin 300mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1106952	Gabapentin 300mg capsules (Rivopharm (UK) Ltd) 100 capsule
+^ESCTGA1106954	Gabapentin 400mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1106955	Gabapentin 400mg capsules (Rivopharm (UK) Ltd) 100 capsule
+^ESCTGA1117780	Gabapentin 50mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTGA1117781	Gabapentin 50mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTGA1117968	Gabapentin 100mg capsules (Wockhardt UK Ltd)
+^ESCTGA1117969	Gabapentin 100mg capsules (Wockhardt UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1117970	Gabapentin 300mg capsules (Wockhardt UK Ltd)
+^ESCTGA1117971	Gabapentin 300mg capsules (Wockhardt UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1117972	Gabapentin 400mg capsules (Wockhardt UK Ltd)
+^ESCTGA1117973	Gabapentin 400mg capsules (Wockhardt UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1120120	Gabapentin 800mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGA1120121	Gabapentin 800mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTGA1142626	Gabapentin 100mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142627	Gabapentin 100mg capsules (Brown & Burk UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1142628	Gabapentin 300mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142629	Gabapentin 300mg capsules (Brown & Burk UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1142630	Gabapentin 400mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142631	Gabapentin 400mg capsules (Brown & Burk UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA1142633	Gabapentin 600mg tablets (Brown & Burk UK Ltd)
+^ESCTGA1142634	Gabapentin 600mg tablets (Brown & Burk UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1142635	Gabapentin 800mg tablets (Brown & Burk UK Ltd)
+^ESCTGA1142636	Gabapentin 800mg tablets (Brown & Burk UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA1144825	Gabapentin 6% cream 1 gram
+^ESCTGA1144826	Gabapentin 6% cream (Special Order)
+^ESCTGA1144827	Gabapentin 6% cream (Special Order) 1 gram
+^ESCTGA1145066	Gabapentin 6% cream
+^ESCTGA1159206	Gabapentin 50mg/ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCTGA1159207	Gabapentin 50mg/ml oral solution sugar free (Colonis Pharma Ltd) 150 ml
+^ESCTGA1160978	Gabapentin 50mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCTGA1160979	Gabapentin 50mg/ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTGA675675	Gabapentin 600mg tablets and Gabapentin 300mg capsules
+^ESCTGA675676	Gabapentin 300mg capsule and 600mg tablet titration pack
+^ESCTGA834212	Gabapentin 100mg capsules 100 capsule
+^ESCTGA842752	Gabapentin 800mg tablets 100 tablet
+^ESCTGA847166	Gabapentin 600mg tablets 100 tablet
+^ESCTGA847849	Gabapentin 400mg capsules 100 capsule
+^ESCTGA847948	Gabapentin 300mg capsules 100 capsule
+^ESCTGA870884	Gabapentin 300mg capsules 40 capsule
+^ESCTGA870885	Gabapentin 600mg tablets 10 tablet
+^ESCTGA870888	Gabapentin 600mg tablets and Gabapentin 300mg capsules 1 pack
+^ESCTGA878722	Gabapentin 300mg capsules (Dowelhurst Ltd)
+^ESCTGA878724	Gabapentin 300mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTGA878728	Gabapentin 400mg capsules (Dowelhurst Ltd)
+^ESCTGA878730	Gabapentin 400mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTGA878763	Gabapentin 100mg capsules (Teva UK Ltd)
+^ESCTGA878764	Gabapentin 100mg capsules (Teva UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA878765	Gabapentin 300mg capsules (Teva UK Ltd)
+^ESCTGA878768	Gabapentin 300mg capsules (Teva UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA878771	Gabapentin 400mg capsules (Teva UK Ltd)
+^ESCTGA878772	Gabapentin 400mg capsules (Teva UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA878773	Gabapentin 600mg tablets (Teva UK Ltd)
+^ESCTGA878774	Gabapentin 600mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA878779	Gabapentin 800mg tablets (Teva UK Ltd)
+^ESCTGA878781	Gabapentin 800mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA878957	Gabapentin 100mg capsules 50 capsule
+^ESCTGA878959	Gabapentin 100mg capsules (Dowelhurst Ltd)
+^ESCTGA878960	Gabapentin 100mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTGA878961	Gabapentin 100mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTGA878967	Gabapentin 300mg capsules 50 capsule
+^ESCTGA878969	Gabapentin 300mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTGA878973	Gabapentin 400mg capsules 30 capsule
+^ESCTGA878974	Gabapentin 400mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTGA879397	Gabapentin 400mg capsules 50 capsule
+^ESCTGA879561	Gabapentin 300mg capsules 90 capsule
+^ESCTGA879564	Gabapentin 400mg capsules 90 capsule
+^ESCTGA879578	Gabapentin 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879581	Gabapentin 100mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTGA879589	Gabapentin 300mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879590	Gabapentin 300mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTGA879591	Gabapentin 400mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879594	Gabapentin 400mg capsules (A A H Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA879598	Gabapentin 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA879601	Gabapentin 600mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTGA879603	Gabapentin 800mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA879607	Gabapentin 800mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA880150	Gabapentin 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880151	Gabapentin 100mg capsules (Kent Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA880152	Gabapentin 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880153	Gabapentin 300mg capsules (Kent Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA880154	Gabapentin 400mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880157	Gabapentin 400mg capsules (Kent Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA880161	Gabapentin 600mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGA880162	Gabapentin 600mg tablets (Kent Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA880165	Gabapentin 800mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGA880168	Gabapentin 800mg tablets (Kent Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA900827	Gabapentin 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900828	Gabapentin 100mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTGA900829	Gabapentin 300mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900830	Gabapentin 300mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTGA900831	Gabapentin 400mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900832	Gabapentin 400mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTGA900833	Gabapentin 800mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900835	Gabapentin 800mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTGA906774	Gabapentin 100mg/5ml oral solution 1 ml
+^ESCTGA906775	Gabapentin 100mg/5ml oral solution (Special Order)
+^ESCTGA906777	Gabapentin 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA906781	Gabapentin 100mg/5ml oral suspension 1 ml
+^ESCTGA906783	Gabapentin 100mg/5ml oral suspension (Special Order)
+^ESCTGA906784	Gabapentin 250mg/5ml oral solution 1 ml
+^ESCTGA906785	Gabapentin 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA906786	Gabapentin 250mg/5ml oral solution (Special Order)
+^ESCTGA906787	Gabapentin 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA906789	Gabapentin 250mg/5ml oral suspension 1 ml
+^ESCTGA906791	Gabapentin 250mg/5ml oral suspension (Special Order)
+^ESCTGA906793	Gabapentin 450mg/5ml oral solution 1 ml
+^ESCTGA906794	Gabapentin 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA906795	Gabapentin 450mg/5ml oral solution (Special Order)
+^ESCTGA906796	Gabapentin 300mg/5ml oral solution 1 ml
+^ESCTGA906797	Gabapentin 450mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA906798	Gabapentin 300mg/5ml oral solution (Special Order)
+^ESCTGA906799	Gabapentin 300mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA906800	Gabapentin 450mg/5ml oral suspension 1 ml
+^ESCTGA906801	Gabapentin 450mg/5ml oral suspension (Special Order)
+^ESCTGA906802	Gabapentin 450mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA906805	Gabapentin 300mg/5ml oral suspension 1 ml
+^ESCTGA906807	Gabapentin 300mg/5ml oral suspension (Special Order)
+^ESCTGA906808	Gabapentin 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA906809	Gabapentin 50mg/5ml oral solution 1 ml
+^ESCTGA906811	Gabapentin 50mg/5ml oral solution (Special Order)
+^ESCTGA906815	Gabapentin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA906823	Gabapentin 50mg/5ml oral suspension 1 ml
+^ESCTGA906826	Gabapentin 50mg/5ml oral suspension (Special Order)
+^ESCTGA906827	Gabapentin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA907056	Gabapentin 100mg/5ml oral solution
+^ESCTGA907057	Gabapentin 100mg/5ml oral suspension
+^ESCTGA907058	Gabapentin 250mg/5ml oral suspension
+^ESCTGA907059	Gabapentin 300mg/5ml oral solution
+^ESCTGA907085	Gabapentin 300mg/5ml oral suspension
+^ESCTGA907086	Gabapentin 450mg/5ml oral solution
+^ESCTGA907087	Gabapentin 450mg/5ml oral suspension
+^ESCTGA907088	Gabapentin 50mg/5ml oral solution
+^ESCTGA907089	Gabapentin 50mg/5ml oral suspension
+^ESCTGA910819	Gabapentin 100mg capsules (Mylan Ltd)
+^ESCTGA910822	Gabapentin 100mg capsules (Mylan Ltd) 100 capsule
+^ESCTGA910823	Gabapentin 300mg capsules (Mylan Ltd)
+^ESCTGA910825	Gabapentin 300mg capsules (Mylan Ltd) 100 capsule
+^ESCTGA910826	Gabapentin 400mg capsules (Mylan Ltd)
+^ESCTGA910827	Gabapentin 400mg capsules (Mylan Ltd) 100 capsule
+^ESCTGA915491	Gabapentin 100mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915493	Gabapentin 100mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA915495	Gabapentin 300mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915497	Gabapentin 300mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA915500	Gabapentin 400mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915502	Gabapentin 400mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA915684	Gabapentin 300mg capsules (Sandoz Ltd)
+^ESCTGA915686	Gabapentin 300mg capsules (Sandoz Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA920079	Gabapentin 100mg capsules (Zentiva)
+^ESCTGA920081	Gabapentin 100mg capsules (Zentiva) 100 capsule
+^ESCTGA920083	Gabapentin 300mg capsules (Zentiva)
+^ESCTGA920085	Gabapentin 300mg capsules (Zentiva) 100 capsule
+^ESCTGA920087	Gabapentin 400mg capsules (Zentiva)
+^ESCTGA920089	Gabapentin 400mg capsules (Zentiva) 100 capsule
+^ESCTGA926868	Gabapentin 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA926869	Gabapentin 600mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTGA927876	Gabapentin 100mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA927878	Gabapentin 100mg capsules (Focus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA927880	Gabapentin 300mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA927881	Gabapentin 300mg capsules (Focus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA927883	Gabapentin 400mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA927885	Gabapentin 400mg capsules (Focus Pharmaceuticals Ltd) 100 capsule
+^ESCTGA940678	Gabapentin 100mg capsules (Sandoz Ltd)
+^ESCTGA940679	Gabapentin 100mg capsules (Sandoz Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA940680	Gabapentin 400mg capsules (Sandoz Ltd)
+^ESCTGA940681	Gabapentin 400mg capsules (Sandoz Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA945901	Gabapentin 150mg/5ml oral suspension 1 ml
+^ESCTGA945903	Gabapentin 150mg/5ml oral suspension (Special Order)
+^ESCTGA945907	Gabapentin 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA945915	Gabapentin 150mg/5ml oral solution 1 ml
+^ESCTGA945916	Gabapentin 150mg/5ml oral solution (Special Order)
+^ESCTGA945918	Gabapentin 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA945924	Gabapentin 200mg/5ml oral suspension 1 ml
+^ESCTGA945927	Gabapentin 200mg/5ml oral suspension (Special Order)
+^ESCTGA945929	Gabapentin 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA945933	Gabapentin 200mg/5ml oral solution 1 ml
+^ESCTGA945937	Gabapentin 200mg/5ml oral solution (Special Order)
+^ESCTGA945938	Gabapentin 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA945950	Gabapentin 500mg/5ml oral suspension 1 ml
+^ESCTGA945954	Gabapentin 500mg/5ml oral suspension (Special Order)
+^ESCTGA945955	Gabapentin 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA945959	Gabapentin 500mg/5ml oral solution 1 ml
+^ESCTGA945960	Gabapentin 500mg/5ml oral solution (Special Order)
+^ESCTGA945961	Gabapentin 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA946149	Gabapentin 150mg/5ml oral solution
+^ESCTGA946151	Gabapentin 150mg/5ml oral suspension
+^ESCTGA946153	Gabapentin 200mg/5ml oral solution
+^ESCTGA946155	Gabapentin 200mg/5ml oral suspension
+^ESCTGA946157	Gabapentin 500mg/5ml oral solution
+^ESCTGA946159	Gabapentin 500mg/5ml oral suspension
+^ESCTGA957049	Gabapentin 100mg capsules (Actavis UK Ltd)
+^ESCTGA957050	Gabapentin 100mg capsules (Actavis UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA957054	Gabapentin 300mg capsules (Actavis UK Ltd)
+^ESCTGA957055	Gabapentin 400mg capsules (Actavis UK Ltd)
+^ESCTGA957056	Gabapentin 300mg capsules (Actavis UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA957057	Gabapentin 400mg capsules (Actavis UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTGA961998	Gabapentin 100mg capsules (Arrow Generics Ltd)
+^ESCTGA961999	Gabapentin 100mg capsules (Arrow Generics Ltd) 100 capsule
+^ESCTGA962000	Gabapentin 300mg capsules (Arrow Generics Ltd)
+^ESCTGA962001	Gabapentin 300mg capsules (Arrow Generics Ltd) 100 capsule
+^ESCTGA962002	Gabapentin 400mg capsules (Arrow Generics Ltd)
+^ESCTGA962003	Gabapentin 400mg capsules (Arrow Generics Ltd) 100 capsule
+^ESCTGA963694	Gabapentin 600mg/5ml oral solution 1 ml
+^ESCTGA963695	Gabapentin 600mg/5ml oral solution (Special Order)
+^ESCTGA963696	Gabapentin 600mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA963697	Gabapentin 600mg/5ml oral suspension 1 ml
+^ESCTGA963698	Gabapentin 600mg/5ml oral suspension (Special Order)
+^ESCTGA963699	Gabapentin 600mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA963712	Gabapentin 600mg/5ml oral solution
+^ESCTGA963714	Gabapentin 600mg/5ml oral suspension
+^ESCTGA965201	Gabapentin 800mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGA965202	Gabapentin 800mg tablets (Ranbaxy (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA965222	Gabapentin 100mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965224	Gabapentin 100mg capsules (Ranbaxy (UK) Ltd) 100 capsule
+^ESCTGA965225	Gabapentin 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965226	Gabapentin 300mg capsules (Ranbaxy (UK) Ltd) 100 capsule
+^ESCTGA965227	Gabapentin 400mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965228	Gabapentin 400mg capsules (Ranbaxy (UK) Ltd) 100 capsule
+^ESCTGA965229	Gabapentin 600mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGA965230	Gabapentin 600mg tablets (Ranbaxy (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA967575	Gabapentin 400mg/5ml oral suspension 1 ml
+^ESCTGA967576	Gabapentin 400mg/5ml oral suspension (Special Order)
+^ESCTGA967578	Gabapentin 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA967580	Gabapentin 400mg/5ml oral solution 1 ml
+^ESCTGA967581	Gabapentin 400mg/5ml oral solution (Special Order)
+^ESCTGA967582	Gabapentin 400mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA967959	Gabapentin 400mg/5ml oral solution
+^ESCTGA967987	Gabapentin 400mg/5ml oral suspension
+^ESCTGA969038	Gabapentin 100mg capsules (Consilient Health Ltd)
+^ESCTGA969039	Gabapentin 100mg capsules (Consilient Health Ltd) 100 capsule
+^ESCTGA969040	Gabapentin 300mg capsules (Consilient Health Ltd)
+^ESCTGA969041	Gabapentin 300mg capsules (Consilient Health Ltd) 100 capsule
+^ESCTGA969042	Gabapentin 400mg capsules (Consilient Health Ltd)
+^ESCTGA969043	Gabapentin 400mg capsules (Consilient Health Ltd) 100 capsule
+^ESCTGA969044	Gabapentin 600mg tablets (Consilient Health Ltd)
+^ESCTGA969045	Gabapentin 600mg tablets (Consilient Health Ltd) 100 tablet
+^ESCTGA969046	Gabapentin 800mg tablets (Consilient Health Ltd)
+^ESCTGA969047	Gabapentin 800mg tablets (Consilient Health Ltd) 100 tablet
+^ESCTGA969977	Gabapentin 800mg/5ml oral solution 1 ml
+^ESCTGA969978	Gabapentin 800mg/5ml oral solution (Special Order)
+^ESCTGA969980	Gabapentin 800mg/5ml oral solution (Special Order) 1 ml
+^ESCTGA969984	Gabapentin 800mg/5ml oral suspension 1 ml
+^ESCTGA969985	Gabapentin 800mg/5ml oral suspension (Special Order)
+^ESCTGA969986	Gabapentin 800mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGA970305	Gabapentin 800mg/5ml oral solution
+^ESCTGA970306	Gabapentin 800mg/5ml oral suspension
+^ESCTGA978371	Gabapentin 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978372	Gabapentin 100mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTGA978373	Gabapentin 300mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978374	Gabapentin 300mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTGA978375	Gabapentin 400mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978376	Gabapentin 400mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTGA978377	Gabapentin 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGA978378	Gabapentin 600mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTGA978379	Gabapentin 800mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGA978380	Gabapentin 800mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTGA978675	Gabapentin 800mg tablets (PLIVA Pharma Ltd)
+^ESCTGA978676	Gabapentin 800mg tablets (PLIVA Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA978677	Gabapentin 600mg tablets (PLIVA Pharma Ltd)
+^ESCTGA978678	Gabapentin 600mg tablets (PLIVA Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA979010	Gabapentin 600mg tablets (Actavis UK Ltd)
+^ESCTGA979011	Gabapentin 600mg tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA979012	Gabapentin 800mg tablets (Actavis UK Ltd)
+^ESCTGA979013	Gabapentin 800mg tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTGA980892	Gabapentin 600mg tablets (Zentiva)
+^ESCTGA980893	Gabapentin 600mg tablets (Zentiva) 100 tablet
+^ESCTGA980894	Gabapentin 800mg tablets (Zentiva)
+^ESCTGA980895	Gabapentin 800mg tablets (Zentiva) 100 tablet
+^ESCTNE1002111	Neurontin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1002112	Neurontin 100mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCTNE1002113	Neurontin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1002114	Neurontin 300mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCTNE1002829	Neurontin 100mg capsules (Necessity Supplies Ltd)
+^ESCTNE1002831	Neurontin 100mg capsules (Necessity Supplies Ltd) 100 capsule
+^ESCTNE1002843	Neurontin 300mg capsules (Necessity Supplies Ltd)
+^ESCTNE1002854	Neurontin 300mg capsules (Necessity Supplies Ltd) 100 capsule
+^ESCTNE1002993	Neurontin 100mg capsules (Necessity Supplies Ltd) 90 capsule
+^ESCTNE1002997	Neurontin 400mg capsules (Necessity Supplies Ltd)
+^ESCTNE1002998	Neurontin 400mg capsules (Necessity Supplies Ltd) 30 capsule
+^ESCTNE1002999	Neurontin 400mg capsules (Necessity Supplies Ltd) 50 capsule
+^ESCTNE1003001	Neurontin 600mg tablets (Necessity Supplies Ltd)
+^ESCTNE1003003	Neurontin 600mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTNE1003005	Neurontin 800mg tablets (Necessity Supplies Ltd)
+^ESCTNE1003006	Neurontin 800mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTNE1005567	Neurontin 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE1005568	Neurontin 100mg capsules (Sigma Pharmaceuticals Plc) 90 capsule
+^ESCTNE1007165	Neurontin 300mg capsules (Sigma Pharmaceuticals Plc) 90 capsule
+^ESCTNE1008020	Neurontin 400mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1008021	Neurontin 400mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCTNE1034924	Neurontin 250mg/5ml oral solution (Imported (United States))
+^ESCTNE1034925	Neurontin 250mg/5ml oral solution (Imported (United States)) 470 ml
+^ESCTNE854931	Neurontin 100mg capsules (Pfizer Ltd) 100 capsule
+^ESCTNE854934	Neurontin 300mg capsules (Pfizer Ltd) 100 capsule
+^ESCTNE854937	Neurontin 400mg capsules (Pfizer Ltd) 100 capsule
+^ESCTNE854945	Neurontin 600mg tablets (Pfizer Ltd) 100 tablet
+^ESCTNE854947	Neurontin 800mg tablets (Pfizer Ltd) 100 tablet
+^ESCTNE870886	Neurontin 300mg capsules (Pfizer Ltd) 40 capsule
+^ESCTNE870887	Neurontin 600mg tablets (Pfizer Ltd) 10 tablet
+^ESCTNE870894	Neurontin titration pack (Pfizer Ltd) 1 pack 1x (40 capsules + 10 tablets)
+^ESCTNE878160	Neurontin 100mg capsules (Waymade Healthcare Plc)
+^ESCTNE878161	Neurontin 100mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTNE878162	Neurontin 300mg capsules (Waymade Healthcare Plc)
+^ESCTNE878163	Neurontin 300mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTNE878164	Neurontin 400mg capsules (Waymade Healthcare Plc)
+^ESCTNE878165	Neurontin 400mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTNE878178	Neurontin 600mg tablets (Waymade Healthcare Plc)
+^ESCTNE878179	Neurontin 600mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTNE878180	Neurontin 800mg tablets (Waymade Healthcare Plc)
+^ESCTNE878187	Neurontin 800mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTNE879386	Neurontin 300mg capsules (Dowelhurst Ltd)
+^ESCTNE879388	Neurontin 300mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTNE879390	Neurontin 300mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTNE879393	Neurontin 400mg capsules (Dowelhurst Ltd)
+^ESCTNE879399	Neurontin 400mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTNE879400	Neurontin 400mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTNE879558	Neurontin 100mg capsules (Dowelhurst Ltd)
+^ESCTNE879559	Neurontin 100mg capsules (Dowelhurst Ltd) 100 capsule
+^ESCTNE879560	Neurontin 100mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTNE879562	Neurontin 300mg capsules (Dowelhurst Ltd) 90 capsule
+^ESCTNE879565	Neurontin 400mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTNE879566	Neurontin 400mg capsules (Dowelhurst Ltd) 90 capsule
+^ESCTNE879568	Neurontin 600mg tablets (Dowelhurst Ltd)
+^ESCTNE879571	Neurontin 600mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTNE879574	Neurontin 800mg tablets (Dowelhurst Ltd)
+^ESCTNE879575	Neurontin 800mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTNE918350	Neurontin
+^ESCTNE971451	Neurontin 300mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE971453	Neurontin 300mg capsules (Sigma Pharmaceuticals Plc) 50 capsule
+^ESCTNE971457	Neurontin 400mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE971459	Neurontin 400mg capsules (Sigma Pharmaceuticals Plc) 50 capsule
+^ESCTOX1119519	Oxcarbazepine 150mg tablets (DE Pharmaceuticals)
+^ESCTOX1119520	Oxcarbazepine 150mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1119521	Oxcarbazepine 300mg tablets (DE Pharmaceuticals)
+^ESCTOX1119522	Oxcarbazepine 300mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1119523	Oxcarbazepine 600mg tablets (DE Pharmaceuticals)
+^ESCTOX1119524	Oxcarbazepine 600mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1121447	Oxcarbazepine 600mg tablets 100 tablet
+^ESCTOX1126914	Oxcarbazepine 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126915	Oxcarbazepine 150mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX1126916	Oxcarbazepine 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126917	Oxcarbazepine 300mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX1126918	Oxcarbazepine 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126919	Oxcarbazepine 600mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX675345	Oxcarbazepine 60mg/ml oral suspension sugar free
+^ESCTOX675346	Oxcarbazepine 60mg/mL s/f oral suspension
+^ESCTOX675347	Oxcarbazepine 300mg/5mL oral suspension
+^ESCTOX863291	Oxcarbazepine 300mg tablets 50 tablet
+^ESCTOX864327	Oxcarbazepine 600mg tablets 50 tablet
+^ESCTOX864859	Oxcarbazepine 150mg tablets 50 tablet
+^ESCTOX896323	Oxcarbazepine 60mg/ml oral suspension sugar free 250 ml
+^ESCTOX944404	Oxcarbazepine 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944405	Oxcarbazepine 150mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX944406	Oxcarbazepine 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944407	Oxcarbazepine 300mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX944408	Oxcarbazepine 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944409	Oxcarbazepine 600mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX957389	Oxcarbazepine 400mg/5ml oral suspension 1 ml
+^ESCTOX957390	Oxcarbazepine 400mg/5ml oral suspension (Special Order)
+^ESCTOX957392	Oxcarbazepine 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOX957588	Oxcarbazepine 400mg/5ml oral suspension
+^ESCTOX962468	Oxcarbazepine 150mg tablets (Mylan Ltd)
+^ESCTOX962469	Oxcarbazepine 150mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX962470	Oxcarbazepine 300mg tablets (Mylan Ltd)
+^ESCTOX962471	Oxcarbazepine 300mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX962472	Oxcarbazepine 600mg tablets (Mylan Ltd)
+^ESCTOX962473	Oxcarbazepine 600mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX964561	Oxcarbazepine 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964562	Oxcarbazepine 150mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX964566	Oxcarbazepine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964567	Oxcarbazepine 300mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX964568	Oxcarbazepine 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964569	Oxcarbazepine 600mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX978597	Oxcarbazepine 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978598	Oxcarbazepine 150mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX978599	Oxcarbazepine 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978600	Oxcarbazepine 300mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX978601	Oxcarbazepine 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978603	Oxcarbazepine 600mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX979023	Oxcarbazepine 150mg tablets (Actavis UK Ltd)
+^ESCTOX979024	Oxcarbazepine 150mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX979025	Oxcarbazepine 600mg tablets (Actavis UK Ltd)
+^ESCTOX979026	Oxcarbazepine 600mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX979027	Oxcarbazepine 300mg tablets (Actavis UK Ltd)
+^ESCTOX979028	Oxcarbazepine 300mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX985827	Oxcarbazepine 150mg tablets (Teva UK Ltd)
+^ESCTOX985828	Oxcarbazepine 150mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTOX985829	Oxcarbazepine 300mg tablets (Teva UK Ltd)
+^ESCTOX985830	Oxcarbazepine 300mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTOX985831	Oxcarbazepine 600mg tablets (Teva UK Ltd)
+^ESCTOX985832	Oxcarbazepine 600mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTTO1001616	Topamax 15mg sprinkle capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1001617	Topamax 15mg sprinkle capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCTTO1001618	Topamax 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1001619	Topamax 100mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1001620	Topamax 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1001622	Topamax 200mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1002633	Topiramate 15mg capsules (Actavis UK Ltd)
+^ESCTTO1002634	Topiramate 15mg capsules (Actavis UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO1002637	Topiramate 25mg capsules (Actavis UK Ltd)
+^ESCTTO1002638	Topiramate 25mg capsules (Actavis UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO1002639	Topiramate 50mg capsules (Actavis UK Ltd)
+^ESCTTO1002640	Topiramate 50mg capsules (Actavis UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO1002641	Topiramate 25mg tablets (Arrow Generics Ltd)
+^ESCTTO1002642	Topiramate 25mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO1002643	Topiramate 50mg tablets (Arrow Generics Ltd)
+^ESCTTO1002644	Topiramate 50mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO1002645	Topiramate 100mg tablets (Arrow Generics Ltd)
+^ESCTTO1002647	Topiramate 100mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO1002648	Topiramate 200mg tablets (Arrow Generics Ltd)
+^ESCTTO1002649	Topiramate 200mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO1002835	Topamax 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTO1002836	Topiramate 25mg tablets 28 tablet
+^ESCTTO1002837	Topamax 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTO1002840	Topamax 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTO1004996	Topiramate 15mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1004998	Topiramate 15mg capsules (Phoenix Healthcare Distribution Ltd) 60 capsule
+^ESCTTO1005002	Topiramate 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005003	Topiramate 25mg capsules (Phoenix Healthcare Distribution Ltd) 60 capsule
+^ESCTTO1005005	Topiramate 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005006	Topiramate 50mg capsules (Phoenix Healthcare Distribution Ltd) 60 capsule
+^ESCTTO1005008	Topiramate 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005009	Topiramate 25mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTTO1005010	Topiramate 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005011	Topiramate 50mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTTO1005012	Topiramate 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005014	Topiramate 100mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTTO1005028	Topiramate 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1005030	Topiramate 200mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTTO1008033	Topamax 25mg sprinkle capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1008034	Topamax 25mg sprinkle capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCTTO1008054	Topamax 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1008055	Topamax 50mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1008458	Topamax 100mg tablets (Necessity Supplies Ltd)
+^ESCTTO1008459	Topamax 100mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTTO1008460	Topamax 200mg tablets (Necessity Supplies Ltd)
+^ESCTTO1008462	Topamax 200mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTTO1008464	Topamax 25mg tablets (Necessity Supplies Ltd)
+^ESCTTO1008465	Topamax 25mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTTO1008466	Topamax 15mg sprinkle capsules (Necessity Supplies Ltd)
+^ESCTTO1008468	Topamax 15mg sprinkle capsules (Necessity Supplies Ltd) 60 capsule
+^ESCTTO1008470	Topamax 25mg sprinkle capsules (Necessity Supplies Ltd)
+^ESCTTO1008471	Topamax 25mg sprinkle capsules (Necessity Supplies Ltd) 60 capsule
+^ESCTTO1010956	Topiramate 100mg tablets (Accord Healthcare Ltd)
+^ESCTTO1010957	Topiramate 100mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTTO1010958	Topiramate 200mg tablets (Accord Healthcare Ltd)
+^ESCTTO1010959	Topiramate 200mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTTO1010960	Topiramate 25mg tablets (Accord Healthcare Ltd)
+^ESCTTO1010961	Topiramate 25mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTTO1010962	Topiramate 50mg tablets (Accord Healthcare Ltd)
+^ESCTTO1010963	Topiramate 50mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTTO1013469	Topiramate 15mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTO1013470	Topiramate 15mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTTO1013471	Topiramate 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTO1013472	Topiramate 25mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTTO1017634	Topamax 15mg sprinkle capsules (Waymade Healthcare Plc)
+^ESCTTO1017635	Topamax 15mg sprinkle capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1017636	Topamax 25mg sprinkle capsules (Waymade Healthcare Plc)
+^ESCTTO1017637	Topamax 25mg sprinkle capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1021458	Topiramate 25mg/5ml oral suspension 100 ml
+^ESCTTO1021459	Topiramate 25mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTTO1024910	Topiramate 25mg tablets (Pfizer Ltd)
+^ESCTTO1024911	Topiramate 25mg tablets (Pfizer Ltd) 60 tablet
+^ESCTTO1024912	Topiramate 50mg tablets (Pfizer Ltd)
+^ESCTTO1024913	Topiramate 50mg tablets (Pfizer Ltd) 60 tablet
+^ESCTTO1024914	Topiramate 100mg tablets (Pfizer Ltd)
+^ESCTTO1024915	Topiramate 100mg tablets (Pfizer Ltd) 60 tablet
+^ESCTTO1024916	Topiramate 200mg tablets (Pfizer Ltd)
+^ESCTTO1024917	Topiramate 200mg tablets (Pfizer Ltd) 60 tablet
+^ESCTTO1025136	Topamax 50mg sprinkle capsules (Lexon (UK) Ltd)
+^ESCTTO1025137	Topamax 50mg sprinkle capsules (Lexon (UK) Ltd) 60 capsule
+^ESCTTO1028960	Topiramate 50mg/5ml oral suspension 100 ml
+^ESCTTO1028961	Topiramate 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTTO1029996	Topiramate 250mg/5ml oral suspension 1 ml
+^ESCTTO1029997	Topiramate 250mg/5ml oral suspension (Special Order)
+^ESCTTO1029998	Topiramate 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO1030099	Topiramate 250mg/5ml oral suspension
+^ESCTTO1033457	Topiramate 25mg tablets (Sandoz Ltd)
+^ESCTTO1033458	Topiramate 25mg tablets (Sandoz Ltd) 60 tablet
+^ESCTTO1033463	Topiramate 50mg tablets (Sandoz Ltd)
+^ESCTTO1033465	Topiramate 50mg tablets (Sandoz Ltd) 60 tablet
+^ESCTTO1033491	Topiramate 100mg tablets (Sandoz Ltd)
+^ESCTTO1033492	Topiramate 100mg tablets (Sandoz Ltd) 60 tablet
+^ESCTTO1033541	Topiramate 200mg tablets (Sandoz Ltd)
+^ESCTTO1033542	Topiramate 200mg tablets (Sandoz Ltd) 60 tablet
+^ESCTTO1033543	Topiramate 15mg capsules (Sandoz Ltd)
+^ESCTTO1033544	Topiramate 15mg capsules (Sandoz Ltd) 60 capsule
+^ESCTTO1033545	Topiramate 25mg capsules (Sandoz Ltd)
+^ESCTTO1033546	Topiramate 25mg capsules (Sandoz Ltd) 60 capsule
+^ESCTTO1033547	Topiramate 50mg capsules (Sandoz Ltd)
+^ESCTTO1033548	Topiramate 50mg capsules (Sandoz Ltd) 60 capsule
+^ESCTTO1042417	Topiramate 15mg capsules (Waymade Healthcare Plc)
+^ESCTTO1042418	Topiramate 15mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1042419	Topiramate 25mg capsules (Waymade Healthcare Plc)
+^ESCTTO1042420	Topiramate 25mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1042421	Topiramate 50mg capsules (Waymade Healthcare Plc)
+^ESCTTO1042422	Topiramate 50mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1042472	Topiramate 25mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042473	Topiramate 25mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO1042474	Topiramate 50mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042475	Topiramate 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO1042476	Topiramate 100mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042477	Topiramate 100mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO1042478	Topiramate 200mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042479	Topiramate 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO1066886	Topamax 50mg sprinkle capsules (Waymade Healthcare Plc)
+^ESCTTO1066887	Topamax 50mg sprinkle capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTTO1099292	Topiramate 100mg/5ml oral solution 200 ml
+^ESCTTO1099293	Topiramate 100mg/5ml oral solution (Special Order) 200 ml
+^ESCTTO1118408	Topiramate 100mg/5ml oral suspension 200 ml
+^ESCTTO1118409	Topiramate 100mg/5ml oral suspension (Drug Tariff Special Order) 200 ml
+^ESCTTO1119822	Topiramate 15mg capsules (DE Pharmaceuticals)
+^ESCTTO1119823	Topiramate 15mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO1119824	Topiramate 25mg capsules (DE Pharmaceuticals)
+^ESCTTO1119827	Topiramate 50mg capsules (DE Pharmaceuticals)
+^ESCTTO1119828	Topiramate 50mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO1119831	Topiramate 25mg tablets (DE Pharmaceuticals)
+^ESCTTO1119832	Topiramate 25mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO1119833	Topiramate 50mg tablets (DE Pharmaceuticals)
+^ESCTTO1119834	Topiramate 50mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO1119835	Topiramate 100mg tablets (DE Pharmaceuticals)
+^ESCTTO1119836	Topiramate 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO1119841	Topiramate 200mg tablets (DE Pharmaceuticals)
+^ESCTTO1119845	Topiramate 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO1119891	Topiramate 25mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO1127651	Topiramate 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1127652	Topiramate 50mg capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCTTO1127653	Topiramate 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1127654	Topiramate 50mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1127655	Topiramate 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1127656	Topiramate 100mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1127657	Topiramate 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1127658	Topiramate 200mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTO1142249	Topiramate 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTO1142251	Topiramate 100mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTTO1142252	Topiramate 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTO1142253	Topiramate 200mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTTO1143862	Topiramate 62.5mg/5ml oral suspension 1 ml
+^ESCTTO1143863	Topiramate 62.5mg/5ml oral suspension (Special Order)
+^ESCTTO1143864	Topiramate 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO1144008	Topiramate 62.5mg/5ml oral suspension
+^ESCTTO1145910	Topiramate 25mg/5ml oral solution 1 ml
+^ESCTTO1145911	Topiramate 25mg/5ml oral solution (Special Order)
+^ESCTTO1145912	Topiramate 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO1146008	Topiramate 8mg/5ml oral suspension 1 ml
+^ESCTTO1146009	Topiramate 8mg/5ml oral suspension (Special Order)
+^ESCTTO1146010	Topiramate 8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO1146233	Topiramate 25mg/5ml oral solution
+^ESCTTO1146234	Topiramate 8mg/5ml oral suspension
+^ESCTTO450836	Topiramate 50mg capsules
+^ESCTTO450837	Topiramate 50mg beads in capsule
+^ESCTTO450838	Topiramate 50mg capsule
+^ESCTTO610774	Topiramate 15mg capsules
+^ESCTTO610775	Topiramate 15mg beads in capsule
+^ESCTTO610776	Topiramate 15mg sprinkle capsule
+^ESCTTO610777	Topiramate 25mg capsules
+^ESCTTO610778	Topiramate 25mg beads in capsule
+^ESCTTO610779	Topiramate 25mg sprinkle capsule
+^ESCTTO839116	Topiramate 200mg tablets 60 tablet
+^ESCTTO847152	Topiramate 25mg tablets 60 tablet
+^ESCTTO847772	Topiramate 100mg tablets 60 tablet
+^ESCTTO848274	Topiramate 50mg tablets 60 tablet
+^ESCTTO854973	Topamax 25mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTTO854974	Topamax 50mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTTO854977	Topamax 100mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTTO854978	Topamax 200mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTTO867990	Topiramate 15mg capsules 60 capsule
+^ESCTTO867999	Topamax 15mg sprinkle capsules (Janssen-Cilag Ltd) 60 capsule
+^ESCTTO868002	Topiramate 25mg capsules 60 capsule
+^ESCTTO868005	Topamax 25mg sprinkle capsules (Janssen-Cilag Ltd) 60 capsule
+^ESCTTO868006	Topiramate 50mg capsules 60 capsule
+^ESCTTO868010	Topamax 50mg sprinkle capsules (Janssen-Cilag Ltd) 60 capsule
+^ESCTTO878373	Topamax 50mg tablets (Waymade Healthcare Plc)
+^ESCTTO878377	Topamax 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO878378	Topamax 100mg tablets (Waymade Healthcare Plc)
+^ESCTTO878379	Topamax 100mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO878380	Topamax 200mg tablets (Waymade Healthcare Plc)
+^ESCTTO878381	Topamax 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO878670	Topiramate 50mg tablets 28 tablet
+^ESCTTO878674	Topiramate 50mg tablets (Dowelhurst Ltd)
+^ESCTTO878676	Topiramate 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO878680	Topiramate 100mg tablets 28 tablet
+^ESCTTO878682	Topiramate 100mg tablets (Dowelhurst Ltd)
+^ESCTTO878683	Topiramate 100mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO878694	Topiramate 200mg tablets 28 tablet
+^ESCTTO878696	Topiramate 200mg tablets (Dowelhurst Ltd)
+^ESCTTO878697	Topiramate 200mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO878807	Topamax 25mg tablets (Waymade Healthcare Plc)
+^ESCTTO878809	Topamax 25mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTO879763	Topamax 100mg tablets (Dowelhurst Ltd)
+^ESCTTO879766	Topamax 100mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTTO879773	Topamax 15mg sprinkle capsules (Dowelhurst Ltd)
+^ESCTTO879778	Topamax 15mg sprinkle capsules (Dowelhurst Ltd) 60 capsule
+^ESCTTO879795	Topamax 25mg sprinkle capsules (Dowelhurst Ltd)
+^ESCTTO879798	Topamax 25mg sprinkle capsules (Dowelhurst Ltd) 60 capsule
+^ESCTTO879817	Topamax 25mg tablets (Dowelhurst Ltd)
+^ESCTTO879818	Topamax 25mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTTO879828	Topamax 50mg tablets (Dowelhurst Ltd)
+^ESCTTO879829	Topamax 50mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTTO908902	Topiramate 25mg/5ml oral suspension 1 ml
+^ESCTTO908904	Topiramate 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTTO908906	Topiramate 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTTO908907	Topiramate 50mg/5ml oral suspension 1 ml
+^ESCTTO908908	Topiramate 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTTO908909	Topiramate 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTTO909013	Topiramate 50mg/5ml oral suspension
+^ESCTTO909014	Topiramate 25mg/5ml oral suspension
+^ESCTTO916786	Topamax
+^ESCTTO929625	Topamax 100mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO960238	Topamax 200mg tablets (Dowelhurst Ltd)
+^ESCTTO960239	Topamax 200mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTTO961319	Topiramate 100mg/5ml oral suspension 1 ml
+^ESCTTO961321	Topiramate 100mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTTO961323	Topiramate 100mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTTO961324	Topiramate 10mg/5ml oral suspension 1 ml
+^ESCTTO961326	Topiramate 10mg/5ml oral suspension (Special Order)
+^ESCTTO961327	Topiramate 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961328	Topiramate 12.5mg/5ml oral suspension 1 ml
+^ESCTTO961329	Topiramate 12.5mg/5ml oral suspension (Special Order)
+^ESCTTO961330	Topiramate 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961333	Topiramate 125mg/5ml oral suspension 1 ml
+^ESCTTO961334	Topiramate 125mg/5ml oral suspension (Special Order)
+^ESCTTO961339	Topiramate 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961380	Topiramate 100mg/5ml oral suspension
+^ESCTTO961381	Topiramate 10mg/5ml oral suspension
+^ESCTTO961382	Topiramate 12.5mg/5ml oral suspension
+^ESCTTO961383	Topiramate 125mg/5ml oral suspension
+^ESCTTO961448	Topiramate 12mg/5ml oral suspension 1 ml
+^ESCTTO961449	Topiramate 12mg/5ml oral suspension (Special Order)
+^ESCTTO961450	Topiramate 12mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961451	Topiramate 200mg/5ml oral suspension 1 ml
+^ESCTTO961452	Topiramate 200mg/5ml oral suspension (Special Order)
+^ESCTTO961453	Topiramate 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961454	Topiramate 20mg/5ml oral suspension 1 ml
+^ESCTTO961455	Topiramate 20mg/5ml oral suspension (Special Order)
+^ESCTTO961456	Topiramate 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961457	Topiramate 30mg/5ml oral suspension 1 ml
+^ESCTTO961458	Topiramate 30mg/5ml oral suspension (Special Order)
+^ESCTTO961459	Topiramate 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961460	Topiramate 5mg/5ml oral suspension 1 ml
+^ESCTTO961461	Topiramate 5mg/5ml oral suspension (Special Order)
+^ESCTTO961462	Topiramate 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961463	Topiramate 6.25mg/5ml oral suspension 1 ml
+^ESCTTO961464	Topiramate 6.25mg/5ml oral suspension (Special Order)
+^ESCTTO961465	Topiramate 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961466	Topiramate 75mg/5ml oral suspension 1 ml
+^ESCTTO961467	Topiramate 75mg/5ml oral suspension (Special Order)
+^ESCTTO961468	Topiramate 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961469	Topiramate 100mg/5ml oral solution 1 ml
+^ESCTTO961470	Topiramate 100mg/5ml oral solution (Special Order)
+^ESCTTO961471	Topiramate 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961472	Topiramate 10mg/5ml oral solution 1 ml
+^ESCTTO961473	Topiramate 10mg/5ml oral solution (Special Order)
+^ESCTTO961474	Topiramate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961475	Topiramate 12.5mg/5ml oral solution 1 ml
+^ESCTTO961476	Topiramate 12.5mg/5ml oral solution (Special Order)
+^ESCTTO961477	Topiramate 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961478	Topiramate 125mg/5ml oral solution 1 ml
+^ESCTTO961479	Topiramate 125mg/5ml oral solution (Special Order)
+^ESCTTO961480	Topiramate 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961481	Topiramate 12mg/5ml oral solution 1 ml
+^ESCTTO961482	Topiramate 12mg/5ml oral solution (Special Order)
+^ESCTTO961483	Topiramate 12mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961484	Topiramate 200mg/5ml oral solution 1 ml
+^ESCTTO961485	Topiramate 200mg/5ml oral solution (Special Order)
+^ESCTTO961486	Topiramate 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961487	Topiramate 20mg/5ml oral solution 1 ml
+^ESCTTO961488	Topiramate 20mg/5ml oral solution (Special Order)
+^ESCTTO961490	Topiramate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961493	Topiramate 30mg/5ml oral solution 1 ml
+^ESCTTO961494	Topiramate 30mg/5ml oral solution (Special Order)
+^ESCTTO961496	Topiramate 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961499	Topiramate 5mg/5ml oral solution 1 ml
+^ESCTTO961500	Topiramate 5mg/5ml oral solution (Special Order)
+^ESCTTO961501	Topiramate 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961502	Topiramate 6.25mg/5ml oral solution 1 ml
+^ESCTTO961503	Topiramate 6.25mg/5ml oral solution (Special Order)
+^ESCTTO961504	Topiramate 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961505	Topiramate 75mg/5ml oral solution 1 ml
+^ESCTTO961506	Topiramate 75mg/5ml oral solution (Special Order)
+^ESCTTO961507	Topiramate 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO961681	Topiramate 100mg/5ml oral solution
+^ESCTTO961683	Topiramate 10mg/5ml oral solution
+^ESCTTO961684	Topiramate 12.5mg/5ml oral solution
+^ESCTTO961685	Topiramate 125mg/5ml oral solution
+^ESCTTO961686	Topiramate 12mg/5ml oral solution
+^ESCTTO961688	Topiramate 12mg/5ml oral suspension
+^ESCTTO961689	Topiramate 200mg/5ml oral solution
+^ESCTTO961690	Topiramate 200mg/5ml oral suspension
+^ESCTTO961693	Topiramate 20mg/5ml oral solution
+^ESCTTO961695	Topiramate 20mg/5ml oral suspension
+^ESCTTO961696	Topiramate 30mg/5ml oral solution
+^ESCTTO961697	Topiramate 30mg/5ml oral suspension
+^ESCTTO961698	Topiramate 5mg/5ml oral solution
+^ESCTTO961699	Topiramate 5mg/5ml oral suspension
+^ESCTTO961700	Topiramate 6.25mg/5ml oral solution
+^ESCTTO961701	Topiramate 6.25mg/5ml oral suspension
+^ESCTTO961702	Topiramate 75mg/5ml oral solution
+^ESCTTO961703	Topiramate 75mg/5ml oral suspension
+^ESCTTO967924	Topamax 15mg sprinkle capsules (DE Pharmaceuticals)
+^ESCTTO967925	Topamax 15mg sprinkle capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO967926	Topamax 25mg sprinkle capsules (DE Pharmaceuticals)
+^ESCTTO967927	Topamax 25mg sprinkle capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO967928	Topamax 50mg sprinkle capsules (DE Pharmaceuticals)
+^ESCTTO967929	Topamax 50mg sprinkle capsules (DE Pharmaceuticals) 60 capsule
+^ESCTTO967930	Topamax 25mg tablets (DE Pharmaceuticals)
+^ESCTTO967931	Topamax 25mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO967932	Topamax 50mg tablets (DE Pharmaceuticals)
+^ESCTTO967933	Topamax 50mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO967934	Topamax 100mg tablets (DE Pharmaceuticals)
+^ESCTTO967935	Topamax 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO967936	Topamax 200mg tablets (DE Pharmaceuticals)
+^ESCTTO967937	Topamax 200mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTO967938	Topamax 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTO967939	Topiramate 100mg tablets (DE Pharmaceuticals)
+^ESCTTO967940	Topiramate 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTO974425	Topamax 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTO974427	Topamax 100mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTO974431	Topamax 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTO974433	Topamax 200mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTO974434	Topamax 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTO974435	Topamax 25mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTO974436	Topamax 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTO974438	Topamax 50mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTO974442	Topiramate 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTO974443	Topiramate 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTO977337	Topiramate 35mg/5ml oral solution 1 ml
+^ESCTTO977338	Topiramate 35mg/5ml oral solution (Special Order)
+^ESCTTO977339	Topiramate 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO977341	Topiramate 35mg/5ml oral suspension 1 ml
+^ESCTTO977342	Topiramate 35mg/5ml oral suspension (Special Order)
+^ESCTTO977344	Topiramate 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO977362	Topiramate 35mg/5ml oral solution
+^ESCTTO977363	Topiramate 35mg/5ml oral suspension
+^ESCTTO981103	Topiramate 150mg/5ml oral solution 1 ml
+^ESCTTO981104	Topiramate 150mg/5ml oral solution (Special Order)
+^ESCTTO981105	Topiramate 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO981106	Topiramate 150mg/5ml oral suspension 1 ml
+^ESCTTO981107	Topiramate 150mg/5ml oral suspension (Special Order)
+^ESCTTO981108	Topiramate 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO981112	Topiramate 150mg/5ml oral solution
+^ESCTTO981113	Topiramate 150mg/5ml oral suspension
+^ESCTTO987753	Topiramate 16mg/5ml oral solution 1 ml
+^ESCTTO987754	Topiramate 16mg/5ml oral solution (Special Order)
+^ESCTTO987755	Topiramate 16mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO987758	Topiramate 16mg/5ml oral suspension 1 ml
+^ESCTTO987760	Topiramate 16mg/5ml oral suspension (Special Order)
+^ESCTTO987761	Topiramate 16mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO988088	Topiramate 16mg/5ml oral solution
+^ESCTTO988089	Topiramate 16mg/5ml oral suspension
+^ESCTTO988149	Topiramate 67.5mg/5ml oral solution 1 ml
+^ESCTTO988150	Topiramate 67.5mg/5ml oral solution (Special Order)
+^ESCTTO988151	Topiramate 67.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO988152	Topiramate 67.5mg/5ml oral suspension 1 ml
+^ESCTTO988153	Topiramate 67.5mg/5ml oral suspension (Special Order)
+^ESCTTO988154	Topiramate 67.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO988178	Topiramate 25mg tablets (Actavis UK Ltd)
+^ESCTTO988179	Topiramate 25mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTTO988183	Topiramate 50mg tablets (Actavis UK Ltd)
+^ESCTTO988184	Topiramate 50mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTTO988185	Topiramate 100mg tablets (Actavis UK Ltd)
+^ESCTTO988186	Topiramate 100mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTTO988187	Topiramate 200mg tablets (Actavis UK Ltd)
+^ESCTTO988188	Topiramate 200mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTTO988205	Topiramate 15mg/5ml oral solution 1 ml
+^ESCTTO988208	Topiramate 15mg/5ml oral solution (Special Order)
+^ESCTTO988209	Topiramate 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO988211	Topiramate 15mg/5ml oral suspension 1 ml
+^ESCTTO988213	Topiramate 15mg/5ml oral suspension (Special Order)
+^ESCTTO988215	Topiramate 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO988247	Topiramate 15mg/5ml oral solution
+^ESCTTO988248	Topiramate 15mg/5ml oral suspension
+^ESCTTO988249	Topiramate 67.5mg/5ml oral solution
+^ESCTTO988250	Topiramate 67.5mg/5ml oral suspension
+^ESCTTO988957	Topiramate 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988958	Topiramate 25mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO988960	Topiramate 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988962	Topiramate 50mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO988963	Topiramate 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988964	Topiramate 100mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO988965	Topiramate 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988966	Topiramate 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO988969	Topiramate 15mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988970	Topiramate 15mg capsules (Alliance Healthcare (Distribution) Ltd) 60 capsule
+^ESCTTO988972	Topiramate 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988973	Topiramate 25mg capsules (Alliance Healthcare (Distribution) Ltd) 60 capsule
+^ESCTTO988974	Topiramate 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO988975	Topiramate 50mg capsules (Alliance Healthcare (Distribution) Ltd) 60 capsule
+^ESCTTO989054	Topiramate 15mg capsules (Teva UK Ltd)
+^ESCTTO989055	Topiramate 15mg capsules (Teva UK Ltd) 60 capsule
+^ESCTTO989056	Topiramate 25mg capsules (Teva UK Ltd)
+^ESCTTO989057	Topiramate 25mg capsules (Teva UK Ltd) 60 capsule
+^ESCTTO989058	Topiramate 50mg capsules (Teva UK Ltd)
+^ESCTTO989059	Topiramate 50mg capsules (Teva UK Ltd) 60 capsule
+^ESCTTO989060	Topiramate 25mg tablets (Teva UK Ltd)
+^ESCTTO989061	Topiramate 25mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO989062	Topiramate 50mg tablets (Teva UK Ltd)
+^ESCTTO989063	Topiramate 50mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO989064	Topiramate 100mg tablets (Teva UK Ltd)
+^ESCTTO989065	Topiramate 100mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO989066	Topiramate 200mg tablets (Teva UK Ltd)
+^ESCTTO989067	Topiramate 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO989141	Topiramate 15mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTO989142	Topiramate 15mg capsules (A A H Pharmaceuticals Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO989143	Topiramate 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTO989144	Topiramate 25mg capsules (A A H Pharmaceuticals Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO989145	Topiramate 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTO989146	Topiramate 50mg capsules (A A H Pharmaceuticals Ltd) 60 capsule 6 x 10 capsules
+^ESCTTO989147	Topiramate 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO989148	Topiramate 25mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTTO989149	Topiramate 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO989150	Topiramate 50mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTTO989151	Topiramate 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO989152	Topiramate 100mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTTO989153	Topiramate 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO989154	Topiramate 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTTO989164	Topiramate 25mg tablets (Zentiva)
+^ESCTTO989166	Topiramate 25mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTTO989172	Topiramate 50mg tablets (Zentiva)
+^ESCTTO989173	Topiramate 50mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTTO989178	Topiramate 100mg tablets (Zentiva)
+^ESCTTO989179	Topiramate 100mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTTO989191	Topiramate 200mg tablets (Zentiva)
+^ESCTTO989193	Topiramate 200mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTTO989531	Topiramate 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTTO989535	Topiramate 25mg tablets (Ranbaxy (UK) Ltd) 60 tablet
+^ESCTTO989540	Topiramate 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTTO989542	Topiramate 50mg tablets (Ranbaxy (UK) Ltd) 60 tablet
+^ESCTTO989546	Topiramate 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTTO989549	Topiramate 100mg tablets (Ranbaxy (UK) Ltd) 60 tablet
+^ESCTTO989553	Topiramate 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTTO989556	Topiramate 200mg tablets (Ranbaxy (UK) Ltd) 60 tablet
+^ESCTTO990230	Topamax 100mg tablets (Lexon (UK) Ltd)
+^ESCTTO990231	Topamax 100mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTTO990234	Topamax 15mg sprinkle capsules (Lexon (UK) Ltd)
+^ESCTTO990236	Topamax 15mg sprinkle capsules (Lexon (UK) Ltd) 60 capsule
+^ESCTTO990238	Topamax 25mg sprinkle capsules (Lexon (UK) Ltd)
+^ESCTTO990239	Topamax 25mg sprinkle capsules (Lexon (UK) Ltd) 60 capsule
+^ESCTTO993762	Topiramate 100mg tablets (Mylan Ltd)
+^ESCTTO993763	Topiramate 100mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO993780	Topiramate 200mg tablets (Mylan Ltd)
+^ESCTTO993783	Topiramate 200mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO993792	Topiramate 25mg tablets (Mylan Ltd)
+^ESCTTO993795	Topiramate 25mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO993803	Topiramate 50mg tablets (Mylan Ltd)
+^ESCTTO993805	Topiramate 50mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTTO994231	Topamax 200mg tablets (Stephar (U.K.) Ltd)
+^ESCTTO994232	Topamax 200mg tablets (Stephar (U.K.) Ltd) 60 tablet
+^ESCTTR1001640	Trileptal 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1001641	Trileptal 300mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTTR1001642	Trileptal 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1001643	Trileptal 600mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTTR1008479	Trileptal 300mg tablets (Necessity Supplies Ltd)
+^ESCTTR1008480	Trileptal 300mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTR1008483	Trileptal 600mg tablets (Necessity Supplies Ltd)
+^ESCTTR1008484	Trileptal 600mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTR1012302	Trileptal 600mg tablets (DE Pharmaceuticals)
+^ESCTTR1012303	Trileptal 600mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTTR1049383	Trileptal 60mg/ml oral suspension (Waymade Healthcare Plc)
+^ESCTTR1049384	Trileptal 60mg/ml oral suspension (Waymade Healthcare Plc) 250 ml
+^ESCTTR1121448	Trileptal 600mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTTR863310	Trileptal 300mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR864329	Trileptal 600mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR864862	Trileptal 150mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR896325	Trileptal 60mg/ml oral suspension (Novartis Pharmaceuticals UK Ltd) 250 ml
+^ESCTTR916855	Trileptal
+^ESCTTR929557	Trileptal 300mg tablets (Dowelhurst Ltd)
+^ESCTTR929558	Trileptal 300mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR929559	Trileptal 600mg tablets (Dowelhurst Ltd)
+^ESCTTR929560	Trileptal 600mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR929867	Trileptal 600mg tablets (Waymade Healthcare Plc)
+^ESCTTR929869	Trileptal 600mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR929874	Trileptal 300mg tablets (Waymade Healthcare Plc)
+^ESCTTR929875	Trileptal 300mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR929880	Trileptal 150mg tablets (Waymade Healthcare Plc)
+^ESCTTR929881	Trileptal 150mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR960242	Trileptal 150mg tablets (Dowelhurst Ltd)
+^ESCTTR960243	Trileptal 150mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR967967	Trileptal 300mg tablets (DE Pharmaceuticals)
+^ESCTTR967968	Trileptal 300mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTTR974541	Trileptal 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974542	Trileptal 150mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR974543	Trileptal 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974544	Trileptal 300mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR974545	Trileptal 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974546	Trileptal 600mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR990261	Trileptal 300mg tablets (Lexon (UK) Ltd)
+^ESCTTR990262	Trileptal 300mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTTR990263	Trileptal 600mg tablets (Lexon (UK) Ltd)
+^ESCTTR990264	Trileptal 600mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTTR994235	Trileptal 300mg tablets (Stephar (U.K.) Ltd)
+^ESCTTR994236	Trileptal 300mg tablets (Stephar (U.K.) Ltd) 50 tablet
+GACA35251MGEMIS	Gabapentin  Capsules  100 mg (Teva UK)
+GACA35252MGEMIS	Gabapentin  Capsules  100 mg (A.A.H. Pharm)
+GACA35253MGEMIS	Gabapentin  Capsules  100 mg (Kent Pharm)
+GACA35254MGEMIS	Gabapentin  Capsules  100 mg (Unichem)
+GACA35255MGEMIS	Gabapentin  Capsules  100 mg (Generics (UK))
+GACA35256MGEMIS	Gabapentin  Capsules  100 mg (Ivax Pharmaceuticals)
+GACA35257MGEMIS	Gabapentin  Capsules  100 mg (Winthrop Pharmaceuticals )
+GACA35258MGEMIS	Gabapentin  Capsules  300 mg (Teva UK)
+GACA35259MGEMIS	Gabapentin  Capsules  300 mg (A.A.H. Pharm)
+GACA35260MGEMIS	Gabapentin  Capsules  300 mg (Kent Pharm)
+GACA35261MGEMIS	Gabapentin  Capsules  300 mg (Unichem)
+GACA35262MGEMIS	Gabapentin  Capsules  300 mg (Generics (UK))
+GACA35263MGEMIS	Gabapentin  Capsules  300 mg (Ivax Pharmaceuticals)
+GACA35264MGEMIS	Gabapentin  Capsules  300 mg (Sandoz)
+GACA35265MGEMIS	Gabapentin  Capsules  300 mg (Winthrop Pharmaceuticals )
+GACA35266MGEMIS	Gabapentin  Capsules  400 mg (Teva UK)
+GACA35267MGEMIS	Gabapentin  Capsules  400 mg (A.A.H. Pharm)
+GACA35268MGEMIS	Gabapentin  Capsules  400 mg (Kent Pharm)
+GACA35269MGEMIS	Gabapentin  Capsules  400 mg (Unichem)
+GACA35270MGEMIS	Gabapentin  Capsules  400 mg (Generics (UK))
+GACA35271MGEMIS	Gabapentin  Capsules  400 mg (Ivax Pharmaceuticals)
+GACA35272MGEMIS	Gabapentin  Capsules  400 mg (Winthrop Pharmaceuticals )
+GAGE95171NEMIS	Gabapentin  Gel  6 %
+GAOR36800NEMIS	Gabapentin  Oral solution  400 mg/5 ml
+GAOR45622NEMIS	Gabapentin  Oral suspension  250 mg/5 ml
+GAOR46454NEMIS	Gabapentin  Oral solution  100 mg/5 ml
+GAOR46455NEMIS	Gabapentin  Oral suspension  100 mg/5 ml
+GAOR46456NEMIS	Gabapentin  Oral suspension  200 mg/5 ml
+GAOR46457NEMIS	Gabapentin  Oral solution  200 mg/5 ml
+GAOR46458NEMIS	Gabapentin  Oral solution  300 mg/5 ml
+GAOR46459NEMIS	Gabapentin  Oral suspension  300 mg/5 ml
+GAOR46744NEMIS	Gabapentin  Oral suspension  400 mg/5 ml
+GAOR76871NEMIS	Gabapentin  Oral suspension  500 mg/5 ml
+GAOR78151NEMIS	Gabapentin  Oral Solution, Sugar Free  250 mg/5 ml (50 mg/ml)
+GATA37731MGEMIS	Gabapentin  Tablets  600 mg (Teva UK)
+GATA37732MGEMIS	Gabapentin  Tablets  600 mg (A.A.H. Pharm)
+GATA37733MGEMIS	Gabapentin  Tablets  600 mg (Kent Pharm)
+GATA37734MGEMIS	Gabapentin  Tablets  800 mg (Teva UK)
+GATA37735MGEMIS	Gabapentin  Tablets  800 mg (A.A.H. Pharm)
+GATA37736MGEMIS	Gabapentin  Tablets  800 mg (Kent Pharm)
+GATA37737MGEMIS	Gabapentin  Tablets  800 mg (Unichem)
+NEOR13765NEMIS	Neurontin  Oral solution  250 mg/5 ml
+TOOR130761NEMIS	Topiramate  Oral Suspension Sugar Free  50 mg/5 ml
+TOOR130762NEMIS	Topiramate  Oral Suspension Sugar Free  100 mg/5 ml
+TOOR40038NEMIS	Topiramate  Oral suspension  100 mg/5 ml
+TOOR95959NEMIS	Topiramate  Oral solution  100 mg/5 ml
+TOSU16181NEMIS	Topiramate  Suspension  25 mg/5 ml
+TOSU17461NEMIS	Topiramate  Suspension  50 mg/5 ml

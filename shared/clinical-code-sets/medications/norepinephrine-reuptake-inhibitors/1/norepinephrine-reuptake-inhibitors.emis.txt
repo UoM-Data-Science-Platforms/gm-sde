@@ -67,3 +67,428 @@ EDTA31120EMIS	Edronax  Tablets  4 mg
 RETA31122EMIS	Reboxetine  Tablets  4 mg
 VITA4527	Vivalan  Tablets  50 mg
 VITA5499	Viloxazine Hydrochloride  Tablets  50 mg
+^ESCT1174100	Atomoxetine 36mg/5ml oral suspension 1 ml
+^ESCT1174101	Atomoxetine 36mg/5ml oral suspension (Special Order)
+^ESCT1174102	Atomoxetine 36mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1174177	Atomoxetine 36mg/5ml oral suspension
+^ESCT1174702	Atomoxetine 10mg/5ml oral solution 1 ml
+^ESCT1174703	Atomoxetine 10mg/5ml oral solution (Special Order)
+^ESCT1174704	Atomoxetine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCT1174706	Atomoxetine 10mg/5ml oral solution
+^ESCT1184698	Atomoxetine 4mg/ml oral solution sugar free
+^ESCT1189847	Atomoxetine 4mg/ml oral solution sugar free 300 ml
+^ESCT1206246	Atomoxetine in oral dosage form
+^ESCT1206247	Product containing atomoxetine in oral dosage form
+^ESCT1226766	Viloxazine
+^ESCT1226767	Product containing viloxazine
+^ESCT1226768	Viloxazine product
+^ESCT1230332	Atomoxetine
+^ESCT1230333	Atomoxetine product
+^ESCT1262850	Atomoxetine 10mg capsules (Mylan)
+^ESCT1262851	Atomoxetine 10mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262853	Atomoxetine 18mg capsules (Mylan)
+^ESCT1262854	Atomoxetine 18mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262858	Atomoxetine 25mg capsules (Mylan)
+^ESCT1262861	Atomoxetine 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262862	Atomoxetine 40mg capsules (Mylan)
+^ESCT1262863	Atomoxetine 40mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262864	Atomoxetine 60mg capsules (Mylan)
+^ESCT1262865	Atomoxetine 60mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262866	Atomoxetine 80mg capsules (Mylan)
+^ESCT1262867	Atomoxetine 80mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262868	Atomoxetine 100mg capsules (Mylan)
+^ESCT1262869	Atomoxetine 100mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1264635	Atomoxetine 10mg capsules (Sandoz Ltd)
+^ESCT1264636	Atomoxetine 10mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264638	Atomoxetine 10mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264640	Atomoxetine 18mg capsules (Sandoz Ltd)
+^ESCT1264642	Atomoxetine 18mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264644	Atomoxetine 18mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264656	Atomoxetine 40mg capsules (Sandoz Ltd)
+^ESCT1264657	Atomoxetine 40mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264659	Atomoxetine 40mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264661	Atomoxetine 25mg capsules (Sandoz Ltd)
+^ESCT1264663	Atomoxetine 25mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264665	Atomoxetine 25mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264667	Atomoxetine 60mg capsules (Sandoz Ltd)
+^ESCT1264669	Atomoxetine 60mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264671	Atomoxetine 80mg capsules (Sandoz Ltd)
+^ESCT1264673	Atomoxetine 80mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264675	Atomoxetine 100mg capsules (Sandoz Ltd)
+^ESCT1264676	Atomoxetine 100mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265646	Atomoxetine 10mg capsules (Aspire Pharma Ltd)
+^ESCT1265647	Atomoxetine 10mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265648	Atomoxetine 18mg capsules (Aspire Pharma Ltd)
+^ESCT1265649	Atomoxetine 18mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265650	Atomoxetine 25mg capsules (Aspire Pharma Ltd)
+^ESCT1265651	Atomoxetine 25mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265652	Atomoxetine 40mg capsules (Aspire Pharma Ltd)
+^ESCT1265653	Atomoxetine 40mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265654	Atomoxetine 60mg capsules (Aspire Pharma Ltd)
+^ESCT1265655	Atomoxetine 60mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265656	Atomoxetine 80mg capsules (Aspire Pharma Ltd)
+^ESCT1265657	Atomoxetine 80mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265658	Atomoxetine 100mg capsules (Aspire Pharma Ltd)
+^ESCT1265659	Atomoxetine 100mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265724	Atomoxetine 10mg capsules (Zentiva)
+^ESCT1265725	Atomoxetine 10mg capsules (Zentiva) 7 capsule
+^ESCT1265726	Atomoxetine 10mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265727	Atomoxetine 18mg capsules (Zentiva)
+^ESCT1265728	Atomoxetine 18mg capsules (Zentiva) 7 capsule
+^ESCT1265729	Atomoxetine 18mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265730	Atomoxetine 25mg capsules (Zentiva)
+^ESCT1265731	Atomoxetine 25mg capsules (Zentiva) 7 capsule
+^ESCT1265732	Atomoxetine 25mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265733	Atomoxetine 40mg capsules (Zentiva)
+^ESCT1265734	Atomoxetine 40mg capsules (Zentiva) 7 capsule
+^ESCT1265735	Atomoxetine 40mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265736	Atomoxetine 60mg capsules (Zentiva)
+^ESCT1265737	Atomoxetine 60mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265738	Atomoxetine 80mg capsules (Zentiva)
+^ESCT1265739	Atomoxetine 80mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265740	Atomoxetine 100mg capsules (Zentiva)
+^ESCT1265741	Atomoxetine 100mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265913	Atomoxetine 80mg capsules (Accord Healthcare Ltd)
+^ESCT1265914	Atomoxetine 80mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265915	Atomoxetine 100mg capsules (Accord Healthcare Ltd)
+^ESCT1265916	Atomoxetine 100mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265917	Atomoxetine 60mg capsules (Accord Healthcare Ltd)
+^ESCT1265918	Atomoxetine 60mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265919	Atomoxetine 18mg capsules (Accord Healthcare Ltd)
+^ESCT1265920	Atomoxetine 18mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265921	Atomoxetine 18mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265922	Atomoxetine 25mg capsules (Accord Healthcare Ltd)
+^ESCT1265923	Atomoxetine 25mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265924	Atomoxetine 25mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265925	Atomoxetine 40mg capsules (Accord Healthcare Ltd)
+^ESCT1265926	Atomoxetine 40mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265927	Atomoxetine 40mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265928	Atomoxetine 10mg capsules (Accord Healthcare Ltd)
+^ESCT1265929	Atomoxetine 10mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265930	Atomoxetine 10mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266159	Atomoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266160	Atomoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266161	Atomoxetine 18mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266162	Atomoxetine 18mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266163	Atomoxetine 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266164	Atomoxetine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266165	Atomoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266166	Atomoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266167	Atomoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266168	Atomoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266169	Atomoxetine 80mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266170	Atomoxetine 80mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266171	Atomoxetine 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266172	Atomoxetine 100mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266182	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266183	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266184	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266185	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266186	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266187	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266188	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266189	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266190	Atomoxetine 60mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266191	Atomoxetine 60mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266192	Atomoxetine 80mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266193	Atomoxetine 80mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266194	Atomoxetine 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266195	Atomoxetine 100mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266342	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1266344	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1266408	Atomoxetine 10mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266409	Atomoxetine 10mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266410	Atomoxetine 18mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266411	Atomoxetine 18mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266414	Atomoxetine 25mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266415	Atomoxetine 25mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266416	Atomoxetine 40mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266417	Atomoxetine 40mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266418	Atomoxetine 60mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266419	Atomoxetine 60mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266421	Atomoxetine 80mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266422	Atomoxetine 80mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266423	Atomoxetine 100mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266424	Atomoxetine 100mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266884	Edronax 4mg tablets (CST Pharma Ltd)
+^ESCT1266885	Edronax 4mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1267104	Atomoxetine 10mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267105	Atomoxetine 10mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267106	Atomoxetine 18mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267107	Atomoxetine 18mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267108	Atomoxetine 25mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267109	Atomoxetine 25mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267113	Atomoxetine 40mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267120	Atomoxetine 40mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267125	Atomoxetine 60mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267126	Atomoxetine 60mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267132	Atomoxetine 80mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267134	Atomoxetine 80mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267144	Atomoxetine 100mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267147	Atomoxetine 100mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267628	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1267629	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1270813	Atomoxetine 25mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270815	Atomoxetine 25mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270819	Atomoxetine 60mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270821	Atomoxetine 60mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270827	Atomoxetine 80mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270828	Atomoxetine 80mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270832	Atomoxetine 100mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270833	Atomoxetine 100mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270837	Atomoxetine 10mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270844	Atomoxetine 10mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270847	Atomoxetine 18mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270848	Atomoxetine 18mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270849	Atomoxetine 40mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270850	Atomoxetine 40mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1271203	Atomoxetine 10mg capsules (DE Pharmaceuticals)
+^ESCT1271204	Atomoxetine 10mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271206	Atomoxetine 18mg capsules (DE Pharmaceuticals)
+^ESCT1271208	Atomoxetine 18mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271209	Atomoxetine 25mg capsules (DE Pharmaceuticals)
+^ESCT1271210	Atomoxetine 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271211	Atomoxetine 40mg capsules (DE Pharmaceuticals)
+^ESCT1271212	Atomoxetine 40mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271214	Atomoxetine 60mg capsules (DE Pharmaceuticals)
+^ESCT1271216	Atomoxetine 60mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271218	Atomoxetine 80mg capsules (DE Pharmaceuticals)
+^ESCT1271219	Atomoxetine 80mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271220	Atomoxetine 100mg capsules (DE Pharmaceuticals)
+^ESCT1271221	Atomoxetine 100mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1274239	Edronax 4mg tablets (Pilsco Ltd)
+^ESCT1274240	Edronax 4mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1276759	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276760	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1276761	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276762	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1276763	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276764	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279351	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279352	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279353	Atomoxetine 60mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279354	Atomoxetine 60mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279370	Atomoxetine 80mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279371	Atomoxetine 80mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279372	Atomoxetine 100mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279373	Atomoxetine 100mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1306682	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306683	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306684	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306685	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1353604	Atomoxetine only product
+^ESCT1356591	Reboxetine only product
+^ESCT1357150	Viloxazine only product
+^ESCT1357561	Atomoxetine only product in oral dose form
+^ESCT1359731	Reboxetine only product in oral dose form
+^ESCT1363088	Reboxetine (as reboxetine mesilate) 4 mg oral tablet
+^ESCT1363089	Reboxetine (as reboxetine mesylate) 4 mg oral tablet
+^ESCT1367106	Reboxetine 4mg tablets
+^ESCT1374807	Atomoxetine 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374808	Atomoxetine 100mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374809	Atomoxetine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374810	Atomoxetine 10mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374812	Atomoxetine 18mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374813	Atomoxetine 18mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374814	Atomoxetine 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374815	Atomoxetine 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374816	Atomoxetine 40mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374817	Atomoxetine 40mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374818	Atomoxetine 60mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374819	Atomoxetine 60mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374820	Atomoxetine 80mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374821	Atomoxetine 80mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1381289	Viloxazine-containing product
+^ESCT1386182	Atomoxetine-containing product in oral dose form
+^ESCT1422925	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422926	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422927	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422928	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422929	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422930	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422931	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422932	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422933	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422934	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422935	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422936	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422937	Atomoxetine 60mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422938	Atomoxetine 60mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422939	Atomoxetine 80mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422940	Atomoxetine 80mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422941	Atomoxetine 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422942	Atomoxetine 100mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423007	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423008	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423009	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423010	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423011	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423012	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423013	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423014	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423015	Atomoxetine 60mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423016	Atomoxetine 60mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423017	Atomoxetine 80mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423018	Atomoxetine 80mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423019	Atomoxetine 100mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423020	Atomoxetine 100mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423071	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423072	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423073	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423074	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423224	ATOMAID
+^ESCT1424460	Atomoxetine 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424461	Atomoxetine 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424462	Atomoxetine 80mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424463	Atomoxetine 80mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424464	Atomoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424465	Atomoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424466	Atomoxetine 40mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424467	Atomoxetine 40mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424468	Atomoxetine 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424469	Atomoxetine 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424470	Atomoxetine 18mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424471	Atomoxetine 18mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424472	Atomoxetine 10mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424473	Atomoxetine 10mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424474	ATOMAID 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424475	ATOMAID 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424476	ATOMAID 80mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424477	ATOMAID 80mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424478	ATOMAID 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424479	ATOMAID 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424480	ATOMAID 40mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424481	ATOMAID 40mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424482	ATOMAID 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424483	ATOMAID 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424484	ATOMAID 18mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424485	ATOMAID 18mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424486	ATOMAID 10mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424487	ATOMAID 10mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1434611	Atomoxetine 10mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434612	Atomoxetine 18mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434613	Atomoxetine 25mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434614	Atomoxetine 40mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1439092	Atomoxetine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439093	Atomoxetine 10mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439094	Atomoxetine 18mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439095	Atomoxetine 18mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439096	Atomoxetine 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439097	Atomoxetine 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439098	Atomoxetine 40mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439099	Atomoxetine 40mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439100	Atomoxetine 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439101	Atomoxetine 60mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439102	Atomoxetine 80mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439103	Atomoxetine 80mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439104	Atomoxetine 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439105	Atomoxetine 100mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTAT1030283	Atomoxetine 5mg/5ml oral solution 1 ml
+^ESCTAT1030284	Atomoxetine 5mg/5ml oral solution (Special Order)
+^ESCTAT1030285	Atomoxetine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1030371	Atomoxetine 5mg/5ml oral solution
+^ESCTAT1040767	Atomoxetine 100mg capsules 28 capsule
+^ESCTAT1058608	Atomoxetine 25mg/5ml oral solution 1 ml
+^ESCTAT1058609	Atomoxetine 25mg/5ml oral solution (Special Order)
+^ESCTAT1058610	Atomoxetine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1058695	Atomoxetine 25mg/5ml oral solution
+^ESCTAT1094436	Atomoxetine 25mg/5ml oral suspension 1 ml
+^ESCTAT1094438	Atomoxetine 25mg/5ml oral suspension (Special Order)
+^ESCTAT1094439	Atomoxetine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1095085	Atomoxetine 25mg/5ml oral suspension
+^ESCTAT1095963	Atomoxetine 40mg/5ml oral suspension 1 ml
+^ESCTAT1095964	Atomoxetine 40mg/5ml oral suspension (Special Order)
+^ESCTAT1095965	Atomoxetine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1096884	Atomoxetine 40mg/5ml oral suspension
+^ESCTAT1120443	Atomoxetine 4mg/1ml oral solution sugar free 300 ml
+^ESCTAT1120711	Atomoxetine 4mg/1ml oral solution sugar free
+^ESCTAT1128339	Atomoxetine 20mg/5ml oral suspension 1 ml
+^ESCTAT1128340	Atomoxetine 20mg/5ml oral suspension (Special Order)
+^ESCTAT1128341	Atomoxetine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1128342	Atomoxetine 5mg/5ml oral suspension 1 ml
+^ESCTAT1128343	Atomoxetine 5mg/5ml oral suspension (Special Order)
+^ESCTAT1128344	Atomoxetine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1128362	Atomoxetine 20mg/5ml oral suspension
+^ESCTAT1128363	Atomoxetine 5mg/5ml oral suspension
+^ESCTAT1129122	Atomoxetine 60mg/5ml oral solution 1 ml
+^ESCTAT1129123	Atomoxetine 60mg/5ml oral solution (Special Order)
+^ESCTAT1129124	Atomoxetine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1129598	Atomoxetine 60mg/5ml oral solution
+^ESCTAT1162628	Atomoxetine 30mg/5ml oral suspension 1 ml
+^ESCTAT1162629	Atomoxetine 30mg/5ml oral suspension (Special Order)
+^ESCTAT1162630	Atomoxetine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1162754	Atomoxetine 30mg/5ml oral suspension
+^ESCTAT673863	Atomoxetine
+^ESCTAT899028	Atomoxetine 10mg capsules 7 capsule
+^ESCTAT899029	Atomoxetine 10mg capsules 28 capsule
+^ESCTAT899078	Atomoxetine 18mg capsules 7 capsule
+^ESCTAT899079	Atomoxetine 18mg capsules 28 capsule
+^ESCTAT899083	Atomoxetine 25mg capsules 7 capsule
+^ESCTAT899084	Atomoxetine 25mg capsules 28 capsule
+^ESCTAT899088	Atomoxetine 40mg capsules 7 capsule
+^ESCTAT899089	Atomoxetine 40mg capsules 28 capsule
+^ESCTAT899093	Atomoxetine 60mg capsules 28 capsule
+^ESCTAT966586	Atomoxetine 80mg capsules 28 capsule
+^ESCTED1002316	Edronax 4mg tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTED1008961	Edronax 4mg tablets (Necessity Supplies Ltd)
+^ESCTED1008962	Edronax 4mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTED855005	Edronax 4mg tablets (Pfizer Ltd) 60 tablet 3 x 20 tablets
+^ESCTED877802	Edronax 4mg tablets (Waymade Healthcare Plc)
+^ESCTED877803	Edronax 4mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTED879293	Edronax 4mg tablets (Dowelhurst Ltd)
+^ESCTED879295	Edronax 4mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTED914997	Edronax
+^ESCTED966591	Edronax 4mg tablets (DE Pharmaceuticals)
+^ESCTED966592	Edronax 4mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTED969962	Edronax 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTED969964	Edronax 4mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTED988988	Edronax 4mg tablets (Lexon (UK) Ltd)
+^ESCTED988989	Edronax 4mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTED993248	Edronax 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTED993249	Edronax 4mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTPR673864	Product containing atomoxetine
+^ESCTRE1002315	Reboxetine 4mg tablets 20 tablet
+^ESCTRE848409	Reboxetine 4mg tablets 60 tablet
+^ESCTST1040768	Strattera 100mg capsules (Eli Lilly and Company Ltd)
+^ESCTST1040769	Strattera 100mg capsules (Eli Lilly and Company Ltd) 28 capsule 4 x 7 capsules
+^ESCTST1120444	Strattera 4mg/1ml oral solution (Eli Lilly and Company Ltd)
+^ESCTST1120445	Strattera 4mg/1ml oral solution (Eli Lilly and Company Ltd) 300 ml 3 x 100ml bottles
+^ESCTST899030	Strattera 10mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899031	Strattera 10mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899033	Strattera 10mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899080	Strattera 18mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899081	Strattera 18mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899082	Strattera 18mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899085	Strattera 25mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899086	Strattera 25mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899087	Strattera 25mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899090	Strattera 40mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899091	Strattera 40mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899092	Strattera 40mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899094	Strattera 60mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899095	Strattera 60mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST916440	Strattera
+^ESCTST966587	Strattera 80mg capsules (Eli Lilly and Company Ltd)
+^ESCTST966588	Strattera 80mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTVI618928	Viloxazine
+ATCA139681NEMIS	Atomaid  Capsules  10 mg
+ATCA139682NEMIS	Atomaid  Capsules  18 mg
+ATCA139685NEMIS	Atomaid  Capsules  25 mg
+ATCA139687NEMIS	Atomaid  Capsules  40 mg
+ATCA139688NEMIS	Atomaid  Capsules  60 mg
+ATCA139689NEMIS	Atomaid  Capsules  80 mg
+ATCA139690NEMIS	Atomaid  Capsules  100 mg
+ATCA144441NEMIS	Atomoxetine (Imported)  Capsules  40 mg
+ATCA144442NEMIS	Atomoxetine (Imported)  Capsules  60 mg
+ATOR104777NEMIS	Atomoxetine  Oral Solution, Sugar Free  4 mg/ml
+ATOR94964NEMIS	Atomoxetine  Oral solution  25 mg/5 ml
+ATOR95044NEMIS	Atomoxetine  Oral suspension  25 mg/5 ml
+RETA144472NEMIS	Reboxetine (Imported)  Tablets  4 mg
+STCA18459NEMIS	Strattera  Capsules  10 mg
+STCA18460NEMIS	Strattera  Capsules  18 mg
+STCA18461NEMIS	Strattera  Capsules  25 mg
+STCA18462NEMIS	Strattera  Capsules  40 mg
+STCA18463NEMIS	Strattera  Capsules  60 mg
+STCA31797NEMIS	Strattera  Capsules  80 mg
+STCA78105NEMIS	Strattera  Capsules  100 mg
+STOR104778NEMIS	Strattera  Oral solution  4 mg/ml

@@ -17,3 +17,18 @@ dw2y.	Atomoxetine 18mg capsule
 dw2y.	Atomoxetine 18mg capsule
 dw2z.	Atomoxetine 10mg capsule
 dw2z.	Atomoxetine 10mg capsule
+d7gz.	Viloxazine 50mg tablet
+d7g1.	Vivalan 50mg tablet
+x01B3	Viloxazine
+x02uS	Vivalan
+dw2..	Atomoxetine	
+dw21.	Strattera 10mg capsule	
+dw22.	Strattera 18mg capsule	
+dw23.	Strattera 25mg capsule	
+dw24.	Strattera 40mg capsule	
+dw25.	Strattera 60mg capsule
+dw2s.	ATOMOXETINE 4mg/mL oral solution
+dw28.	STRATTERA 4mg/mL oral solution
+dw27.	STRATTERA 100mg capsules
+dw26.	STRATTERA 80mg capsules
+x05ti	Strattera

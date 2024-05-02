@@ -4,10 +4,20 @@ d7g1.00	*VIVALAN 50mg tablets
 daA..00	REBOXETINE
 daA1.00	REBOXETINE 4mg tablets
 daA2.00	EDRONAX 4mg tablets
-dw2t.	ATOMOXETINE 100mg capsules
-dw2u.	ATOMOXETINE 80mg capsules
-dw2v.	ATOMOXETINE 60mg capsules
-dw2w.	ATOMOXETINE 40mg capsules
-dw2x.	ATOMOXETINE 25mg capsules
-dw2y.	ATOMOXETINE 18mg capsules
-dw2z.	ATOMOXETINE 10mg capsules
+dw2t.00	ATOMOXETINE 100mg capsules
+dw2u.00	ATOMOXETINE 80mg capsules
+dw2v.00	ATOMOXETINE 60mg capsules
+dw2w.00	ATOMOXETINE 40mg capsules
+dw2x.00	ATOMOXETINE 25mg capsules
+dw2y.00	ATOMOXETINE 18mg capsules
+dw2z.00	ATOMOXETINE 10mg capsules
+dw2..00	ATOMOXETINE
+dw2s.00	ATOMOXETINE 4mg/mL oral solution
+dw28.00	STRATTERA 4mg/mL oral solution
+dw27.00	STRATTERA 100mg capsules
+dw26.00	STRATTERA 80mg capsules
+dw25.00	STRATTERA 60mg capsules
+dw24.00	STRATTERA 40mg capsules
+dw23.00	STRATTERA 25mg capsules
+dw22.00	STRATTERA 18mg capsules
+dw21.00	STRATTERA 10mg capsules
