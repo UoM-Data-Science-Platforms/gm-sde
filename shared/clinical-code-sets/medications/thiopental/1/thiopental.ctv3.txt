@@ -18,3 +18,5 @@ o11..	Thiopental sodium
 o118.	Thiopentone sodium 2.5% injection
 o11b.	Thiopentone sodium 5% injection
 o11c.	Thiopentone sodium 25% injection
+x01A8	Thiopental
+x02fo	Intraval Sodium

@@ -5,3 +5,9 @@
 772615005	Product containing methylphenobarbital in oral dose form (medicinal product form)
 776753009	Product containing only methylphenobarbital (medicinal product)
 779864004	Product containing only methylphenobarbital in oral dose form (medicinal product form)
+315401000001102	Methylphenobarbitone 30mg tablet
+385701000001106	Methylphenobarbitone 60mg tablet
+455901000001107	Methylphenobarbitone 200mg tablet
+466101000001105	Prominal 30mg tablet
+536201000001103	Prominal 60mg tablet
+605801000001105	Prominal 200mg tablet

@@ -1,7 +1,24 @@
-d313.	*AMYTAL 50mg tablets
-d319.	SODIUM AMYTAL 60mg capsules
-d31a.	SODIUM AMYTAL 200mg capsules
-d31g.	TUINAL 100mg capsules
-d31j.	AMOBARBITAL SODIUM 200mg capsules
-d31q.	*AMOBARBITAL 50mg tablets
-d31t.	AMOBARBITAL SODIUM 60mg capsules
+d311.00	*AMYTAL 15mg tablets
+d312.00	*AMYTAL 30mg tablets
+d313.00	*AMYTAL 50mg tablets
+d314.00	*AMYTAL 100mg tablets
+d315.00	*AMYTAL 200mg tablets
+d319.00	SODIUM AMYTAL 60mg capsules
+d31a.00	SODIUM AMYTAL 200mg capsules
+d31b.00	*SODIUM AMYTAL 60mg tablets
+d31c.00	*SODIUM AMYTAL 200mg tablets
+d31d.00	*SODIUM AMYTAL 250mg injection
+d31e.00	SODIUM AMYTAL 500mg injection
+d31g.00	TUINAL 100mg capsules
+d31i.00	*AMYLOBARBITONE 100mg tablets
+d31j.00	AMOBARBITAL SODIUM 200mg capsules
+d31k.00	AMYLOBARBITONE SODIUM 250mg injection
+d31l.00	AMOBARBITAL SODIUM 500mg injection
+d31m.00	*SODIUM AMYTAL 100mg tablets
+d31o.00	*AMYLOBARBITONE 15mg tablets
+d31p.00	*AMYLOBARBITONE 30mg tablets
+d31q.00	*AMOBARBITAL 50mg tablets
+d31t.00	AMOBARBITAL SODIUM 60mg capsules
+d31u.00	*AMYLOBARBITONE 200mg tablets
+d31v.00	AMYLOBARBITONE SODIUM 60mg tablets
+d31z.00	AMYLOBARBITONE SODIUM 200mg tablets

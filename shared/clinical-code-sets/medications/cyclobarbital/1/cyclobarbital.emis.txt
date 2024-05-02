@@ -1,0 +1,6 @@
+^ESCT1226467	Cyclobarbitone
+^ESCT1226468	Product containing cyclobarbital
+^ESCT1226469	Cyclobarbital product
+^ESCT1354418	Cyclobarbital only product
+^ESCT1381220	Cyclobarbital-containing product
+^ESCTCY617690	Cyclobarbitone

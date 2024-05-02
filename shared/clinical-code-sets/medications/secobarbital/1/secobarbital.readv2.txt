@@ -3,3 +3,5 @@ d318.00	SECONAL SODIUM 100mg capsules
 d31g.00	TUINAL 100mg capsules
 d31h.00	SECOBARBITAL 50mg capsules
 d31s.00	SECOBARBITAL 100mg capsules
+d31h.11	QUINALBARBITONE 50mg capsules
+d31s.11	QUINALBARBITONE 100mg capsules
