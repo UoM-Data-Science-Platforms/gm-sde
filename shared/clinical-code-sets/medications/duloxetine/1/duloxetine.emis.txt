@@ -130,3 +130,169 @@ DUGA140220NEMIS	NULL
 DUGA140224NEMIS	NULL
 DUGA19397NEMIS	Duloxetine  Gastro-resistant Capsules  30 mg
 DUGA19398NEMIS	Duloxetine  Gastro-resistant Capsules  60 mg
+^ESCT1172622	Depalta
+^ESCT1173688	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd)
+^ESCT1173689	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1173709	Duloxetine 40mg gastro-resistant capsules (Wockhardt UK Ltd)
+^ESCT1173710	Duloxetine 40mg gastro-resistant capsules (Wockhardt UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1177031	Duloxetine 20mg gastro-resistant capsules (Milpharm Ltd)
+^ESCT1177032	Duloxetine 20mg gastro-resistant capsules (Milpharm Ltd) 28 capsule
+^ESCT1177035	Duloxetine 40mg gastro-resistant capsules (Milpharm Ltd)
+^ESCT1177036	Duloxetine 40mg gastro-resistant capsules (Milpharm Ltd) 56 capsule
+^ESCT1185273	Product containing duloxetine
+^ESCT1203648	Duloxetine 40mg gastro-resistant oral capsule
+^ESCT1203841	Duloxetine 20mg gastro-resistant oral capsule
+^ESCT1206017	Duloxetine in oral dosage form
+^ESCT1206018	Product containing duloxetine in oral dosage form
+^ESCT1214094	Duloxetine 60mg/5ml oral suspension 1 ml
+^ESCT1214095	Duloxetine 60mg/5ml oral suspension (Special Order)
+^ESCT1214096	Duloxetine 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1214097	Duloxetine 30mg/5ml oral suspension (Special Order)
+^ESCT1214098	Duloxetine 30mg/5ml oral suspension 1 ml
+^ESCT1214099	Duloxetine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1214137	Duloxetine 30mg/5ml oral suspension
+^ESCT1214138	Duloxetine 60mg/5ml oral suspension
+^ESCT1216381	Quality and Outcomes Framework general practice extraction - duloxetine medication prescribable within general practice simple reference set
+^ESCT1216382	QOF (Quality and Outcomes Framework) general practice extraction - duloxetine medication prescribable within general practice simple reference set
+^ESCT1230327	Duloxetine
+^ESCT1230328	Duloxetine product
+^ESCT1258948	Dutor
+^ESCT1259623	Dutor 20mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259624	Dutor 20mg gastro-resistant capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259627	Dutor 40mg gastro-resistant capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259628	Dutor 40mg gastro-resistant capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1264022	Duloxetine 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264024	Duloxetine 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCT1264025	Duloxetine 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264027	Duloxetine 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1267389	Cymbalta 30mg gastro-resistant capsules (CST Pharma Ltd)
+^ESCT1267390	Cymbalta 30mg gastro-resistant capsules (CST Pharma Ltd) 28 capsule
+^ESCT1267391	Cymbalta 60mg gastro-resistant capsules (CST Pharma Ltd)
+^ESCT1267392	Cymbalta 60mg gastro-resistant capsules (CST Pharma Ltd) 28 capsule
+^ESCT1274187	Cymbalta 30mg gastro-resistant capsules (Pilsco Ltd)
+^ESCT1274188	Cymbalta 30mg gastro-resistant capsules (Pilsco Ltd) 28 capsule
+^ESCT1274189	Cymbalta 60mg gastro-resistant capsules (Pilsco Ltd)
+^ESCT1274190	Cymbalta 60mg gastro-resistant capsules (Pilsco Ltd) 28 capsule
+^ESCT1280158	Duloxetine 40mg gastro-resistant capsules (Accord Healthcare Ltd)
+^ESCT1280159	Duloxetine 40mg gastro-resistant capsules (Accord Healthcare Ltd) 56 capsule
+^ESCT1354753	Duloxetine only product
+^ESCT1358343	Duloxetine only product in oral dose form
+^ESCT1375533	Duloxetine 20mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+^ESCT1375534	Duloxetine 20mg gastro-resistant capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375537	Duloxetine 40mg gastro-resistant capsules (Medihealth (Northern) Ltd)
+^ESCT1375538	Duloxetine 40mg gastro-resistant capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1385851	Duloxetine (as duloxetine hydrochloride) 40 mg gastro-resistant oral capsule
+^ESCT1385863	Duloxetine (as duloxetine hydrochloride) 20 mg gastro-resistant oral capsule
+^ESCT1386086	Duloxetine-containing product in oral dose form
+^ESCT1412180	Duloxetine 20mg gastro-resistant capsules (Accord Healthcare Ltd)
+^ESCT1412181	Duloxetine 20mg gastro-resistant capsules (Accord Healthcare Ltd) 28 capsule
+^ESCT1422738	Duloxetine 40mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+^ESCT1422739	Duloxetine 40mg gastro-resistant capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422740	Duloxetine 20mg gastro-resistant capsules (Zentiva Pharma UK Ltd)
+^ESCT1422741	Duloxetine 20mg gastro-resistant capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1431539	Duloxetine 90mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+^ESCT1431540	Duloxetine 90mg gastro-resistant capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCT1431541	Duloxetine 120mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+^ESCT1431542	Duloxetine 120mg gastro-resistant capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCT1433004	Duloxetine 120mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1433005	Duloxetine 120mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1433006	Duloxetine 90mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1433007	Duloxetine 90mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439150	Duloxetine 30mg gastro-resistant capsules (Viatris UK Healthcare Ltd)
+^ESCT1439151	Duloxetine 30mg gastro-resistant capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1439314	Duloxetine 60mg gastro-resistant capsules (Viatris UK Healthcare Ltd)
+^ESCT1439315	Duloxetine 60mg gastro-resistant capsules (Viatris UK Healthcare Ltd) 28 capsule
+^ESCTCY1000465	Cymbalta 30mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCY1000466	Cymbalta 30mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCY1000467	Cymbalta 60mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCY1000468	Cymbalta 60mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCY1008749	Cymbalta 30mg gastro-resistant capsules (Necessity Supplies Ltd)
+^ESCTCY1008750	Cymbalta 30mg gastro-resistant capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTCY1008892	Cymbalta 60mg gastro-resistant capsules (Necessity Supplies Ltd)
+^ESCTCY1008893	Cymbalta 60mg gastro-resistant capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTCY914622	Cymbalta
+^ESCTCY930071	Cymbalta 30mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTCY930072	Cymbalta 30mg gastro-resistant capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCY932913	Cymbalta 60mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTCY932914	Cymbalta 60mg gastro-resistant capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCY966494	Cymbalta 30mg gastro-resistant capsules (DE Pharmaceuticals)
+^ESCTCY966495	Cymbalta 30mg gastro-resistant capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCY966496	Cymbalta 60mg gastro-resistant capsules (DE Pharmaceuticals)
+^ESCTCY966497	Cymbalta 60mg gastro-resistant capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCY969938	Cymbalta 30mg gastro-resistant capsules (Sigma Pharmaceuticals Plc)
+^ESCTCY969939	Cymbalta 30mg gastro-resistant capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCY969940	Cymbalta 60mg gastro-resistant capsules (Sigma Pharmaceuticals Plc)
+^ESCTCY969941	Cymbalta 60mg gastro-resistant capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDU1005565	Duloxetine 60mg gastro-resistant capsules (Sigma Pharmaceuticals Plc)
+^ESCTDU1005566	Duloxetine 60mg gastro-resistant capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDU1011908	Duloxetine 30mg gastro-resistant capsules (DE Pharmaceuticals)
+^ESCTDU1011909	Duloxetine 30mg gastro-resistant capsules (DE Pharmaceuticals) 28 capsule
+^ESCTDU1111986	Duloxetine 20mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+^ESCTDU1111988	Duloxetine 20mg gastro-resistant capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTDU1111994	Duloxetine 40mg gastro-resistant capsules (A A H Pharmaceuticals Ltd)
+^ESCTDU1111996	Duloxetine 40mg gastro-resistant capsules (A A H Pharmaceuticals Ltd) 56 capsule
+^ESCTDU1112594	Duloxetine 20mg gastro-resistant capsules (Actavis UK Ltd)
+^ESCTDU1112596	Duloxetine 20mg gastro-resistant capsules (Actavis UK Ltd) 28 capsule
+^ESCTDU1112603	Duloxetine 40mg gastro-resistant capsules (Actavis UK Ltd)
+^ESCTDU1112605	Duloxetine 40mg gastro-resistant capsules (Actavis UK Ltd) 56 capsule
+^ESCTDU1117359	Duloxetine 20mg gastro-resistant capsules (Teva UK Ltd)
+^ESCTDU1117361	Duloxetine 20mg gastro-resistant capsules (Teva UK Ltd) 28 capsule 4 x 7 capsules
+^ESCTDU1117376	Duloxetine 40mg gastro-resistant capsules (Teva UK Ltd)
+^ESCTDU1117378	Duloxetine 40mg gastro-resistant capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTDU1119357	Duloxetine 20mg gastro-resistant capsules (DE Pharmaceuticals)
+^ESCTDU1119358	Duloxetine 20mg gastro-resistant capsules (DE Pharmaceuticals) 28 capsule
+^ESCTDU1119361	Duloxetine 40mg gastro-resistant capsules (DE Pharmaceuticals)
+^ESCTDU1119362	Duloxetine 40mg gastro-resistant capsules (DE Pharmaceuticals) 56 capsule
+^ESCTDU1129033	Duloxetine 40mg gastro-resistant capsules (Zentiva)
+^ESCTDU1129034	Duloxetine 40mg gastro-resistant capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTDU1129044	Duloxetine 20mg gastro-resistant capsules (Zentiva)
+^ESCTDU1129045	Duloxetine 20mg gastro-resistant capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCTDU1136867	Duloxetine 20mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDU1136868	Duloxetine 20mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTDU1136876	Duloxetine 40mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDU1136879	Duloxetine 40mg gastro-resistant capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTDU1153623	Duloxetine 20mg gastro-resistant capsules (Consilient Health Ltd)
+^ESCTDU1153625	Duloxetine 20mg gastro-resistant capsules (Consilient Health Ltd) 28 capsule
+^ESCTDU1153629	Duloxetine 40mg gastro-resistant capsules (Consilient Health Ltd)
+^ESCTDU1153630	Duloxetine 40mg gastro-resistant capsules (Consilient Health Ltd) 56 capsule
+^ESCTDU1161322	Duloxetine 20mg gastro-resistant capsules (Aspire Pharma Ltd)
+^ESCTDU1161323	Duloxetine 20mg gastro-resistant capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTDU1161326	Duloxetine 40mg gastro-resistant capsules (Aspire Pharma Ltd)
+^ESCTDU1161327	Duloxetine 40mg gastro-resistant capsules (Aspire Pharma Ltd) 56 capsule 8 x 7 capsules
+^ESCTDU673842	Duloxetine
+^ESCTDU685143	Duloxetine 20mg m/r capsule
+^ESCTDU685144	Duloxetine 40mg m/r capsule
+^ESCTDU902351	Duloxetine 20mg gastro-resistant capsules
+^ESCTDU902352	Duloxetine 40mg gastro-resistant capsules
+^ESCTDU902666	Duloxetine 20mg gastro-resistant capsules 56 capsule
+^ESCTDU902669	Duloxetine 40mg gastro-resistant capsules 56 capsule
+^ESCTDU921557	Duloxetine 20mg gastro-resistant capsules 28 capsule
+^ESCTDU932915	Duloxetine 20mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTDU932916	Duloxetine 20mg gastro-resistant capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTDU932917	Duloxetine 40mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTDU932918	Duloxetine 40mg gastro-resistant capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTDU947267	Duloxetine 30mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTDU947268	Duloxetine 30mg gastro-resistant capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDU947269	Duloxetine 60mg gastro-resistant capsules (Waymade Healthcare Plc)
+^ESCTDU947270	Duloxetine 60mg gastro-resistant capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDU951999	Duciltia
+^ESCTDU969942	Duloxetine 30mg gastro-resistant capsules (Sigma Pharmaceuticals Plc)
+^ESCTDU969944	Duloxetine 30mg gastro-resistant capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDU993221	Duloxetine 30mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993223	Duloxetine 30mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTYE1001723	Yentreve 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTYE1001724	Yentreve 20mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTYE1001726	Yentreve 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTYE1001729	Yentreve 40mg gastro-resistant capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTYE902667	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+^ESCTYE902668	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd) 56 capsule 4 x 14 capsules
+^ESCTYE902670	Yentreve 40mg gastro-resistant capsules (Eli Lilly and Company Ltd)
+^ESCTYE902675	Yentreve 40mg gastro-resistant capsules (Eli Lilly and Company Ltd) 56 capsule 4 x 14 capsules
+^ESCTYE917301	Yentreve
+^ESCTYE921559	Yentreve 20mg gastro-resistant capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+DUGA131624NEMIS	Dutor  Gastro-resistant Capsules  20 mg
+DUGA131625NEMIS	Dutor  Gastro-resistant Capsules  40 mg
+DUGA18736NEMIS	Duloxetine  Gastro-resistant Capsules  20 mg
+DUGA18738NEMIS	Duloxetine  Gastro-resistant Capsules  40 mg
+YEGA18740NEMIS	Yentreve  Gastro-resistant Capsules  20 mg
+YEGA18741NEMIS	Yentreve  Gastro-resistant Capsules  40 mg
