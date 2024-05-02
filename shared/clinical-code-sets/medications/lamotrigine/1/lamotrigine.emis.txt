@@ -908,3 +908,4 @@ LATA35720MGEMIS	Lamotrigine  Tablets  200 mg (Unichem)
 LATA35721MGEMIS	Lamotrigine  Tablets  200 mg (A.A.H. Pharm)
 LATA35722MGEMIS	Lamotrigine  Tablets  200 mg (Sandoz)
 LATA35723MGEMIS	Lamotrigine  Tablets  200 mg (Winthrop Pharmaceuticals )
+^ESCTLA918584	Lamictal

@@ -779,3 +779,6 @@
 2494001000001102	Lamictal Valproate Add-On 25mg starter pack
 2494101000001101	Lamictal Non-Valproate Add-On 50mg starter pack
 3906201000001105	Lamictal 2mg dispersible tablet
+42686611000001101	Lamotrigine 25mg dispersible tablets sugar free (AAH Hillcross) (product)
+42686711000001105	Lamotrigine 25mg dispersible tablets sugar free (AAH Hillcross) 56 tablet (product)
+9474101000001100	Lamictal (product)

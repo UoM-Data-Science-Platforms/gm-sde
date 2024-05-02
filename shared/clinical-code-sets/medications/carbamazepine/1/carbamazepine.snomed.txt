@@ -450,3 +450,16 @@
 739201000001109	Tegretol Retard 400mg m/r tablet
 1066701000001100	Tegretol 125mg suppository
 1081801000001101	Tegretol 250mg suppository
+9212801000001105	Arbil MR (product)
+501991000001100	Curatil Prolonged Release (product)
+9278101000001106	Epimaz (product)
+9278201000001104	Epimaz Retard (product)
+3350701000001100	Timonil Retard 200mg m/r tablet
+3350801000001109	Timonil Retard 400mg m/r tablet
+9363801000001105	Teril Retard (product)
+9234001000001102	Carbagen SR (product)
+12087101000001101	Carbagen (product)
+9361901000001100	Tegretol (product)
+9362001000001108	Tegretol Chewtabs (product)
+9362101000001109	Tegretol Retard (product)
+9555401000001103	Tegretol Retard (product)
