@@ -584,3 +584,1907 @@ TREL2919	Triclofos Sodium  Elixir  500 mg/5 ml
 TRTA2936	Trimeprazine Tartrate  Tablets  10 mg
 TRSY2934	Trimeprazine Tartrate  Syrup  7.5 mg/5 ml
 TRSY2935	Trimeprazine Tartrate  Syrup forte  30 mg/5 ml
+^ESCT1173922	Hydroxyzine 10mg tablets (Bluefish Pharmaceuticals AB)
+^ESCT1173923	Hydroxyzine 10mg tablets (Bluefish Pharmaceuticals AB) 84 tablet 6 x 14 tablets
+^ESCT1173924	Hydroxyzine 25mg tablets (Bluefish Pharmaceuticals AB)
+^ESCT1173925	Hydroxyzine 25mg tablets (Bluefish Pharmaceuticals AB) 28 tablet 2 x 14 tablets
+^ESCT1174037	Melatonin 1mg capsules 1 capsule
+^ESCT1174038	Melatonin 1mg capsules (Special Order)
+^ESCT1174039	Melatonin 1mg capsules (Special Order) 1 capsule
+^ESCT1174040	Melatonin 1mg tablets 1 tablet
+^ESCT1174041	Melatonin 1mg tablets (Special Order)
+^ESCT1174042	Melatonin 1mg tablets (Special Order) 1 tablet
+^ESCT1174043	Melatonin 2.5mg capsules 1 capsule
+^ESCT1174044	Melatonin 2.5mg capsules (Special Order)
+^ESCT1174045	Melatonin 2.5mg capsules (Special Order) 1 capsule
+^ESCT1174046	Melatonin 3mg lozenges sugar free 1 lozenge
+^ESCT1174047	Melatonin 3mg lozenges sugar free (Special Order)
+^ESCT1174048	Melatonin 3mg lozenges sugar free (Special Order) 1 lozenge
+^ESCT1174049	Melatonin 3mg modified-release capsules 1 capsule
+^ESCT1174050	Melatonin 3mg modified-release capsules (Special Order)
+^ESCT1174051	Melatonin 3mg modified-release capsules (Special Order) 1 capsule
+^ESCT1174052	Melatonin 3mg modified-release tablets 1 tablet
+^ESCT1174053	Melatonin 3mg modified-release tablets (Special Order)
+^ESCT1174054	Melatonin 3mg modified-release tablets (Special Order) 1 tablet
+^ESCT1174055	Melatonin 500microgram capsules 1 capsule
+^ESCT1174056	Melatonin 500microgram capsules (Special Order)
+^ESCT1174057	Melatonin 500microgram capsules (Special Order) 1 capsule
+^ESCT1174058	Melatonin 5mg capsules 1 capsule
+^ESCT1174059	Melatonin 5mg capsules (Special Order)
+^ESCT1174060	Melatonin 5mg capsules (Special Order) 1 capsule
+^ESCT1174187	Buspirone 10mg tablets (Teva UK Ltd)
+^ESCT1174188	Buspirone 10mg tablets (Teva UK Ltd) 30 tablet
+^ESCT1174446	Icenia Melatonin 2mg capsules (Imported (Bulgaria))
+^ESCT1174447	Icenia Melatonin 2mg capsules (Imported (Bulgaria)) 60 capsule
+^ESCT1174448	Icenia Melatonin 5mg capsules (Imported (Bulgaria))
+^ESCT1174449	Melatonin 5mg capsules 60 capsule
+^ESCT1174450	Icenia Melatonin 5mg capsules (Imported (Bulgaria)) 60 capsule
+^ESCT1174833	Hydroxyzine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174834	Hydroxyzine 10mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCT1174835	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174836	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1174942	Hydroxyzine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174943	Hydroxyzine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1174944	Hydroxyzine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174945	Hydroxyzine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1179999	Buspirone 10mg tablets (Mylan)
+^ESCT1180324	Meprobamate 400mg tablets (Thornton & Ross Ltd)
+^ESCT1181005	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCT1182584	Product containing only ramelteon 8 mg/1 each oral tablet
+^ESCT1182967	Ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1182968	Product containing ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1183885	Melatonin 3mg tablets (Special Order)
+^ESCT1183900	Buspirone 5mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1185052	Icenia Melatonin 3mg capsules (Imported (Bulgaria))
+^ESCT1185053	Icenia Melatonin 3mg capsules (Imported (Bulgaria)) 60 capsule
+^ESCT1185909	Product containing only tasimelteon 20 mg/1 each oral capsule
+^ESCT1186082	Buspirone 5mg tablets (Mylan)
+^ESCT1186405	Meprobamate 400mg tablets (Thornton & Ross Ltd) 84 tablet
+^ESCT1187699	Acetaminophen and promethazine hydrochloride
+^ESCT1187700	Product containing acetaminophen and promethazine hydrochloride
+^ESCT1187701	Product containing paracetamol and promethazine hydrochloride
+^ESCT1187702	Paracetamol and promethazine hydrochloride
+^ESCT1189362	Melatonin 3mg tablets (Special Order) 1 tablet
+^ESCT1189389	Buspirone 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1195384	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1195385	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCT1196031	Hydroxyzine 25mg tablets (Creo Pharma Ltd)
+^ESCT1196193	Hydroxyzine 25mg tablets (Creo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196315	Hydroxyzine 10mg tablets (Creo Pharma Ltd)
+^ESCT1196317	Hydroxyzine 10mg tablets (Creo Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCT1196492	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCT1197878	Melatonin 6mg tablets 1 tablet
+^ESCT1197879	Melatonin 6mg tablets (Special Order)
+^ESCT1197880	Melatonin 6mg tablets (Special Order) 1 tablet
+^ESCT1197894	Hydroxyzine 10mg/5ml oral suspension 1 ml
+^ESCT1197895	Hydroxyzine 10mg/5ml oral suspension (Special Order)
+^ESCT1197896	Hydroxyzine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1197936	Melatonin 6mg tablets
+^ESCT1197963	Hydroxyzine 10mg/5ml oral suspension
+^ESCT1199413	Alimemazine 7.5mg/5ml oral solution (Thame Laboratories Ltd)
+^ESCT1199414	Alimemazine 7.5mg/5ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCT1199415	Alimemazine 30mg/5ml oral solution (Thame Laboratories Ltd)
+^ESCT1199416	Alimemazine 30mg/5ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCT1199692	Sodium DL-3-hydroxybutyrate powder (Veriton Pharma Ltd) 25 gram
+^ESCT1199695	Sodium DL-3-hydroxybutyrate powder (Veriton Pharma Ltd)
+^ESCT1204640	Chlorhexidine gluconate 1 mg/mL and chlorobutanol 5 mg/mL oromucosal solution
+^ESCT1204641	Product containing precisely chlorhexidine gluconate 1 milligram/1 milliliter and chlorobutanol 5 milligram/1 milliliter conventional release oromucosal solution
+^ESCT1206854	Tasimelteon in oral dosage form
+^ESCT1206855	Product containing tasimelteon in oral dosage form
+^ESCT1206891	Ramelteon in oral dosage form
+^ESCT1206892	Product containing ramelteon in oral dosage form
+^ESCT1212344	Promethazine 5mg/5ml oral solution sugar free
+^ESCT1212487	Vertigon
+^ESCT1213524	Vertigon 25mg tablets (Manx Healthcare Ltd)
+^ESCT1213526	Vertigon 25mg tablets (Manx Healthcare Ltd) 28 tablet
+^ESCT1213527	Vertigon 25mg tablets (Manx Healthcare Ltd) 10 tablet
+^ESCT1213565	Promethazine hydrochloride 25mg tablets (Teva UK Ltd)
+^ESCT1213566	Promethazine hydrochloride 25mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCT1214025	Sodium DL-3-hydroxybutyrate powder 1 gram
+^ESCT1214026	Sodium DL-3-hydroxybutyrate powder (Special Order)
+^ESCT1214027	Sodium DL-3-hydroxybutyrate powder (Special Order) 1 gram
+^ESCT1214078	Melatonin 2.5mg tablets 1 tablet
+^ESCT1214079	Melatonin 2.5mg tablets (Special Order)
+^ESCT1214080	Melatonin 2.5mg tablets (Special Order) 1 tablet
+^ESCT1214140	Melatonin 2.5mg tablets
+^ESCT1215530	Hydroxyzine 25mg tablets (Medreich Plc)
+^ESCT1215531	Hydroxyzine 25mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1215786	Diphenhydramine 10mg/5ml oral solution
+^ESCT1216070	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free
+^ESCT1232813	Product containing precisely ramelteon 8 milligram/1 each conventional release oral tablet
+^ESCT1232939	Ramelteon
+^ESCT1232940	Ramelteon product
+^ESCT1232981	Chlorhexidine + Chlorobutanol
+^ESCT1232982	Product containing chlorhexidine and chlorobutanol
+^ESCT1232983	Chlorhexidine and chlorobutanol product
+^ESCT1233124	Chlorobutanol
+^ESCT1233125	Product containing chlorobutanol
+^ESCT1233126	Chlorobutanol product
+^ESCT1234109	Product containing chlorobutanol and clove oil
+^ESCT1234110	Chlorobutanol and clove oil product
+^ESCT1235906	Agomelatine
+^ESCT1235907	Product containing agomelatine
+^ESCT1235908	Agomelatine product
+^ESCT1236185	Tasimelteon
+^ESCT1236186	Tasimelteon product
+^ESCT1236187	Tasimelteon 20 mg/1 each oral capsule
+^ESCT1236188	Tasimelteon 20 mg oral capsule
+^ESCT1236189	Product containing precisely tasimelteon 20 milligram/1 each conventional release oral capsule
+^ESCT1237302	Sodium DL-3-hydroxybutyrate powder
+^ESCT1237304	Sodium DL-3-hydroxybutyrate
+^ESCT1237637	Clomethiazole 192mg capsules (Cheplapharm Arzneimittel GmbH)
+^ESCT1237638	Clomethiazole 192mg capsules (Cheplapharm Arzneimittel GmbH) 60 capsule
+^ESCT1237677	Clomethiazole 31.5mg/ml oral solution sugar free (Cheplapharm Arzneimittel GmbH)
+^ESCT1237678	Clomethiazole 31.5mg/ml oral solution sugar free (Cheplapharm Arzneimittel GmbH) 300 ml
+^ESCT1244953	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCT1249832	Melatonin 8mg/5ml oral solution 1 ml
+^ESCT1249833	Melatonin 8mg/5ml oral solution (Special Order)
+^ESCT1249834	Melatonin 8mg/5ml oral solution (Special Order) 1 ml
+^ESCT1249835	Melatonin 1mg/ml oral drops 1 ml
+^ESCT1249836	Melatonin 1mg/ml oral drops (Special Order)
+^ESCT1249837	Melatonin 1mg/ml oral drops (Special Order) 1 ml
+^ESCT1249885	Melatonin 1mg/ml oral drops
+^ESCT1249886	Melatonin 8mg/5ml oral solution
+^ESCT1249945	Promethazine hydrochloride 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249946	Promethazine hydrochloride 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCT1255654	Alimemazine 5mg/5ml oral suspension 1 ml
+^ESCT1255655	Alimemazine 5mg/5ml oral suspension (Special Order)
+^ESCT1255656	Alimemazine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1255663	Alimemazine 1.5mg/5ml oral solution 1 ml
+^ESCT1255664	Alimemazine 1.5mg/5ml oral solution (Special Order)
+^ESCT1255665	Alimemazine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1255766	Alimemazine 1.5mg/5ml oral solution
+^ESCT1255767	Alimemazine 5mg/5ml oral suspension
+^ESCT1256324	Slenyto
+^ESCT1256453	Agomelatine 25mg tablets (Aristo Pharma Ltd)
+^ESCT1256454	Agomelatine 25mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257910	Agomelatine 25mg tablets (Teva UK Ltd)
+^ESCT1257911	Agomelatine 25mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1258005	Agomelatine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1258006	Agomelatine 25mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258031	Melatonin 1mg modified-release tablets 60 tablet
+^ESCT1258032	Slenyto 1mg modified-release tablets (Flynn Pharma Ltd)
+^ESCT1258033	Slenyto 1mg modified-release tablets (Flynn Pharma Ltd) 60 tablet 2 x 30 tablets
+^ESCT1258034	Melatonin 5mg modified-release tablets 30 tablet
+^ESCT1258035	Slenyto 5mg modified-release tablets (Flynn Pharma Ltd)
+^ESCT1258036	Slenyto 5mg modified-release tablets (Flynn Pharma Ltd) 30 tablet
+^ESCT1258137	Melatonin 1mg modified-release tablets
+^ESCT1258139	Melatonin 5mg modified-release tablets
+^ESCT1259165	Agomelatine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1259166	Agomelatine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1259180	Agomelatine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259181	Agomelatine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1259808	Melatonin 9mg capsules 1 capsule
+^ESCT1259810	Melatonin 9mg capsules (Special Order)
+^ESCT1259811	Melatonin 9mg capsules (Special Order) 1 capsule
+^ESCT1259813	Melatonin 6mg modified-release capsules 1 capsule
+^ESCT1259814	Melatonin 6mg modified-release capsules (Special Order)
+^ESCT1259815	Melatonin 6mg modified-release capsules (Special Order) 1 capsule
+^ESCT1259935	Melatonin 6mg modified-release capsules
+^ESCT1259936	Melatonin 9mg capsules
+^ESCT1260167	Phenergan 25mg tablets (Sanofi) 56 tablet 7 x 8 tablets
+^ESCT1262895	Alimemazine 30mg/5ml oral solution (Advanz Pharma)
+^ESCT1262896	Alimemazine 30mg/5ml oral solution (Advanz Pharma) 100 ml
+^ESCT1262897	Alimemazine 7.5mg/5ml oral solution (Advanz Pharma)
+^ESCT1262898	Alimemazine 7.5mg/5ml oral solution (Advanz Pharma) 100 ml
+^ESCT1263526	Melatonin 3mg tablets 30 tablet
+^ESCT1263552	Melatonin 3mg tablets (Colonis Pharma Ltd)
+^ESCT1263553	Melatonin 3mg tablets (Colonis Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1263723	Alimemazine 7.5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCT1263724	Alimemazine 7.5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1263726	Alimemazine 30mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCT1263728	Alimemazine 30mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1264401	Agomelatine 25mg tablets (DE Pharmaceuticals)
+^ESCT1264402	Agomelatine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1264943	Chloral hydrate 143.3mg/5ml oral solution BP (DE Pharmaceuticals)
+^ESCT1264944	Chloral hydrate 143.3mg/5ml oral solution BP (DE Pharmaceuticals) 150 ml
+^ESCT1265499	Cloral betaine 707mg tablets (DE Pharmaceuticals)
+^ESCT1265500	Cloral betaine 707mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1265501	Buspirone 7.5mg tablets 30 tablet
+^ESCT1265502	Buspirone 7.5mg tablets (Strides Pharma UK Ltd)
+^ESCT1265503	Buspirone 7.5mg tablets (Strides Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1265577	Buspirone 7.5mg tablets
+^ESCT1265637	Agomelatine 25mg tablets (Zentiva)
+^ESCT1265638	Agomelatine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1266497	Alimemazine 10mg tablets (Advanz Pharma)
+^ESCT1266498	Alimemazine 10mg tablets (Advanz Pharma) 28 tablet
+^ESCT1266552	Melatonin 1mg/ml oral solution sugar free 150 ml
+^ESCT1266559	Melatonin 1mg/ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1266561	Melatonin 1mg/ml oral solution sugar free (Colonis Pharma Ltd) 150 ml
+^ESCT1266701	Circadin 2mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1266974	Hydroxyzine 10mg tablets (DE Pharmaceuticals)
+^ESCT1266976	Hydroxyzine 10mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1266977	Hydroxyzine 25mg tablets (DE Pharmaceuticals)
+^ESCT1266979	Hydroxyzine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1267129	Melatonin 1mg/ml oral solution sugar free
+^ESCT1267650	Melatonin 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1267651	Melatonin 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1267652	Melatonin 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1267653	Melatonin 3mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267711	Melatonin 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267712	Melatonin 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1267713	Melatonin 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267714	Melatonin 3mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1268452	Melatonin 5mg/5ml oral solution (Special Order)
+^ESCT1268453	Melatonin 5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1268454	Melatonin 5mg/5ml oral suspension (Special Order)
+^ESCT1268455	Melatonin 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1269562	Melatonin 5mg/5ml oral solution (Special Order) 200 ml
+^ESCT1269563	Melatonin 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1270109	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1270802	Hydroxyzine 10mg/5ml oral suspension 100 ml
+^ESCT1270803	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1270858	Valdoxan 25mg tablets (CST Pharma Ltd)
+^ESCT1270859	Valdoxan 25mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1271524	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1271525	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1274158	Circadin 2mg modified-release tablets (Pilsco Ltd)
+^ESCT1274159	Circadin 2mg modified-release tablets (Pilsco Ltd) 30 tablet
+^ESCT1274794	Phenergan 25mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1274837	Phenergan 25mg tablets (Pilsco Ltd)
+^ESCT1274990	Alimemazine 10mg tablets (Pilsco Ltd)
+^ESCT1274991	Alimemazine 10mg tablets (Pilsco Ltd) 25 tablet
+^ESCT1274992	Alimemazine 10mg tablets 50 tablet
+^ESCT1274993	Alimemazine 10mg tablets (Pilsco Ltd) 50 tablet
+^ESCT1276438	Melatonin 4mg/5ml oral suspension 150 ml
+^ESCT1276439	Melatonin 4mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCT1276442	Melatonin 5mg/5ml oral solution 100 ml
+^ESCT1276443	Melatonin 5mg/5ml oral solution alcohol free (Drug Tariff Special Order)
+^ESCT1276444	Melatonin 5mg/5ml oral solution alcohol free (Drug Tariff Special Order) 1 ml
+^ESCT1276445	Melatonin 5mg/5ml oral solution alcohol free (Drug Tariff Special Order) 100 ml
+^ESCT1276446	Melatonin 5mg/5ml oral suspension alcohol free (Drug Tariff Special Order)
+^ESCT1276447	Melatonin 5mg/5ml oral suspension alcohol free (Drug Tariff Special Order) 1 ml
+^ESCT1276448	Melatonin 5mg/5ml oral suspension alcohol free (Drug Tariff Special Order) 100 ml
+^ESCT1276599	Sodium oxybate 500mg/ml oral solution sugar free (Reig Jofre UK Ltd)
+^ESCT1276600	Sodium oxybate 500mg/ml oral solution sugar free (Reig Jofre UK Ltd) 180 ml
+^ESCT1276756	Agomelatine 25mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276758	Agomelatine 25mg tablets (Neuraxpharm Arzneimittal GmbH) 28 tablet 2 x 14 tablets
+^ESCT1277156	Melatonin 4mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1277157	Melatonin 4mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1279003	Hydroxyzine 10mg tablets (Zentiva)
+^ESCT1279004	Hydroxyzine 10mg tablets (Zentiva) 84 tablet 6 x 14 tablets
+^ESCT1279005	Hydroxyzine 25mg tablets (Zentiva)
+^ESCT1279006	Hydroxyzine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1280716	Melatonin 3mg tablets (Pharma Nord (UK) Ltd)
+^ESCT1280717	Melatonin 3mg tablets (Pharma Nord (UK) Ltd) 30 tablet
+^ESCT1300610	Circadin 2mg modified-release tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300613	Clomethiazole 192mg capsules (DE Pharmaceuticals)
+^ESCT1300614	Clomethiazole 192mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCT1300754	Sodium oxybate 500mg/ml oral solution sugar free (AS Kalceks)
+^ESCT1300759	Sodium oxybate 500mg/ml oral solution sugar free (AS Kalceks) 180 ml
+^ESCT1301048	Valdoxan 25mg tablets (DE Pharmaceuticals)
+^ESCT1301049	Valdoxan 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1304508	Learning Disabilities Observatory - melatonin medication simple reference set
+^ESCT1350896	Diphenhydramine-containing product in cutaneous dose form
+^ESCT1351313	Chlorhexidine- and chlorobutanol-containing product in oromucosal dose form
+^ESCT1351352	Dichloralphenazone- and isometheptene- and paracetamol-containing product in oral dose form
+^ESCT1351353	Acetaminophen- and dichloralphenazone- and isometheptene-containing product in oral dose form
+^ESCT1351358	Diphenhydramine- and paracetamol-containing product in oral dose form
+^ESCT1351359	Acetaminophen- and diphenhydramine-containing product in oral dose form
+^ESCT1351543	Meprobamate-containing product in oral dose form
+^ESCT1351646	Pethidine- and promethazine-containing product in oral dose form
+^ESCT1351647	Meperidine- and promethazine-containing product in oral dose form
+^ESCT1351707	Sodium oxybate-containing product in oral dose form
+^ESCT1351734	Triclofos-containing product in oral dose form
+^ESCT1352740	Chloral derivative-containing product
+^ESCT1353339	Agomelatine only product
+^ESCT1353366	Alimemazine only product
+^ESCT1353367	Trimeprazine only product
+^ESCT1353479	Ammonium chloride and diphenhydramine only product
+^ESCT1353585	Aspirin and meprobamate only product
+^ESCT1353879	Buspirone only product
+^ESCT1354116	Chloral hydrate only product
+^ESCT1354123	Chlorhexidine and chlorobutanol only product
+^ESCT1354135	Chlormezanone only product
+^ESCT1354136	Chlormezanone and paracetamol only product
+^ESCT1354137	Acetaminophen and chlormezanone only product
+^ESCT1354139	Chlorobutanol only product
+^ESCT1354140	Chlorobutanol and clove oil only product
+^ESCT1354297	Clomethiazole only product
+^ESCT1354298	Chlormethiazole only product
+^ESCT1354309	Cloral betaine only product
+^ESCT1354310	Chloral betaine only product
+^ESCT1354359	Codeine and phenylephrine and promethazine only product
+^ESCT1354537	Dextromethorphan and diphenhydramine only product
+^ESCT1354538	Dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine only product
+^ESCT1354539	Acetaminophen and dextromethorphan and diphenhydramine and pseudoephedrine only product
+^ESCT1354549	Dextromethorphan and promethazine only product
+^ESCT1354575	Dichloralphenazone only product
+^ESCT1354576	Dichloralphenazone and isometheptene and paracetamol only product
+^ESCT1354577	Acetaminophen and dichloralphenazone and isometheptene only product
+^ESCT1354655	Diphenhydramine only product
+^ESCT1354656	Diphenhydramine and ibuprofen only product
+^ESCT1354657	Diphenhydramine and levomenthol only product
+^ESCT1354658	Diphenhydramine and paracetamol only product
+^ESCT1354659	Acetaminophen and diphenhydramine only product
+^ESCT1354660	Diphenhydramine and pholcodine only product
+^ESCT1354661	Diphenhydramine and pseudoephedrine only product
+^ESCT1354662	Diphenhydramine and zinc acetate only product
+^ESCT1355376	Hydroxyzine only product
+^ESCT1355787	Melatonin only product
+^ESCT1355804	Meprobamate only product
+^ESCT1356323	Pethidine and promethazine only product
+^ESCT1356324	Meperidine and promethazine only product
+^ESCT1356362	Phenylephrine and promethazine only product
+^ESCT1356454	Potassium bromide only product
+^ESCT1356518	Promethazine only product
+^ESCT1356580	Ramelteon only product
+^ESCT1356769	Sodium oxybate only product
+^ESCT1356882	Tasimelteon only product
+^ESCT1357052	Triclofos only product
+^ESCT1357406	Alimemazine only product in oral dose form
+^ESCT1357407	Trimeprazine only product in oral dose form
+^ESCT1357543	Aspirin and meprobamate only product in oral dose form
+^ESCT1357764	Buspirone only product in oral dose form
+^ESCT1357915	Chloral hydrate only product in oral dose form
+^ESCT1357916	Chloral hydrate only product in rectal dose form
+^ESCT1357926	Chlorhexidine and chlorobutanol only product in oromucosal dose form
+^ESCT1358026	Clomethiazole only product in oral dose form
+^ESCT1358027	Chlormethiazole only product in oral dose form
+^ESCT1358028	Clomethiazole only product in parenteral dose form
+^ESCT1358029	Chlormethiazole only product in parenteral dose form
+^ESCT1358224	Dichloralphenazone and isometheptene and paracetamol only product in oral dose form
+^ESCT1358225	Acetaminophen and dichloralphenazone and isometheptene only product in oral dose form
+^ESCT1358276	Diphenhydramine and ibuprofen only product in oral dose form
+^ESCT1358277	Diphenhydramine and paracetamol only product in oral dose form
+^ESCT1358278	Acetaminophen and diphenhydramine only product in oral dose form
+^ESCT1358279	Diphenhydramine only product in cutaneous dose form
+^ESCT1358280	Diphenhydramine only product in oral dose form
+^ESCT1358281	Diphenhydramine only product in parenteral dose form
+^ESCT1358822	Hydroxyzine only product in oral dose form
+^ESCT1358823	Hydroxyzine only product in parenteral dose form
+^ESCT1359130	Meprobamate only product in oral dose form
+^ESCT1359542	Pethidine and promethazine only product in oral dose form
+^ESCT1359543	Meperidine and promethazine only product in oral dose form
+^ESCT1359684	Promethazine only product in oral dose form
+^ESCT1359685	Promethazine only product in parenteral dose form
+^ESCT1359686	Promethazine only product in rectal dose form
+^ESCT1359722	Ramelteon only product in oral dose form
+^ESCT1359885	Sodium oxybate only product in oral dose form
+^ESCT1359965	Tasimelteon only product in oral dose form
+^ESCT1360109	Triclofos only product in oral dose form
+^ESCT1361268	Promethazine hydrochloride 25 mg/mL solution for injection
+^ESCT1362643	Diphenhydramine (as diphenhydramine hydrochloride) 25 mg and paracetamol 500 mg oral tablet
+^ESCT1362644	Acetaminophen 500 mg and diphenhydramine (as diphenhydramine hydrochloride) 25 mg oral tablet
+^ESCT1362655	Buspirone hydrochloride 10 mg oral tablet
+^ESCT1362656	Buspirone hydrochloride 5 mg oral tablet
+^ESCT1363620	Melatonin-containing product in oral dose form
+^ESCT1363621	Melatonin only product in oral dose form
+^ESCT1364063	Promethazine hydrochloride 5 mg/mL oral solution
+^ESCT1364064	Promethazine hydrochloride 50 mg/mL solution for injection
+^ESCT1364065	Promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364066	Codeine phosphate 2 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364067	Codeine phosphate 2 mg/mL and phenylephrine hydrochloride 1 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364068	Dextromethorphan hydrobromide 3 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364076	Diphenhydramine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364077	Diphenhydramine hydrochloride 20 mg/mL and zinc acetate 1 mg/mL cutaneous cream
+^ESCT1364105	Chloral hydrate 50 mg/mL oral solution
+^ESCT1364725	Chloral only product
+^ESCT1364726	Chloral-containing product
+^ESCT1364827	Chloral-containing product in rectal dose form
+^ESCT1364828	Chloral-containing product in oral dose form
+^ESCT1364850	Codeine- and phenylephrine- and promethazine-containing product in oral dose form
+^ESCT1364851	Codeine- and promethazine-containing product in oral dose form
+^ESCT1364866	Dextromethorphan- and promethazine-containing product in oral dose form
+^ESCT1364873	Diphenhydramine- and zinc acetate-containing product in cutaneous dose form
+^ESCT1364958	Paracetamol- and promethazine-containing product in oral dose form
+^ESCT1364959	Acetaminophen- and promethazine-containing product in oral dose form
+^ESCT1365623	Chloral only product in oral dose form
+^ESCT1365624	Chloral only product in rectal dose form
+^ESCT1365645	Codeine and phenylephrine and promethazine only product in oral dose form
+^ESCT1365646	Codeine- and promethazine-containing product
+^ESCT1365661	Dextromethorphan and promethazine only product in oral dose form
+^ESCT1365669	Diphenhydramine and zinc acetate only product in cutaneous dose form
+^ESCT1365752	Paracetamol- and promethazine-containing product
+^ESCT1365753	Acetaminophen- and promethazine-containing product
+^ESCT1365885	Codeine and promethazine only product
+^ESCT1365886	Codeine and promethazine only product in oral dose form
+^ESCT1365921	Paracetamol and promethazine only product
+^ESCT1365922	Acetaminophen and promethazine only product
+^ESCT1365923	Paracetamol and promethazine only product in oral dose form
+^ESCT1365924	Acetaminophen and promethazine only product in oral dose form
+^ESCT1367095	Buspirone 5mg tablets
+^ESCT1367319	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCT1367328	Buspirone 10mg tablets
+^ESCT1367524	Alfresed
+^ESCT1367528	Syncrodin
+^ESCT1373957	Diphenhydramine 10mg/5ml oral solution 300 ml
+^ESCT1373958	Nytol Liquid Caramel Flavour 10mg/5ml oral solution (Omega Pharma Ltd)
+^ESCT1373959	Nytol Liquid Caramel Flavour 10mg/5ml oral solution (Omega Pharma Ltd) 300 ml
+^ESCT1374478	Agomelatine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374479	Agomelatine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374518	Melatonin 3mg capsules 30 capsule
+^ESCT1374519	Melatonin 3mg capsules (Colonis Pharma Ltd)
+^ESCT1374520	Melatonin 3mg capsules (Colonis Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCT1374521	Melatonin 2mg capsules 30 capsule
+^ESCT1374524	Melatonin 2mg capsules (Colonis Pharma Ltd)
+^ESCT1374525	Melatonin 2mg capsules (Colonis Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCT1374538	Melatonin 5mg capsules 30 capsule
+^ESCT1374539	Melatonin 5mg capsules (Colonis Pharma Ltd)
+^ESCT1374540	Melatonin 5mg capsules (Colonis Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCT1374576	Alimemazine 30mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1374577	Alimemazine 30mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1374578	Alimemazine 7.5mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1374579	Alimemazine 7.5mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1374580	Alimemazine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374581	Alimemazine 10mg tablets (Medihealth (Northern) Ltd) 25 tablet
+^ESCT1374944	Buspirone 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374945	Buspirone 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1374946	Buspirone 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374947	Buspirone 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375080	Chloral hydrate 143.3mg/5ml oral solution BP (Medihealth (Northern) Ltd)
+^ESCT1375081	Chloral hydrate 143.3mg/5ml oral solution BP (Medihealth (Northern) Ltd) 150 ml
+^ESCT1375097	Syncrodin 3mg tablets (Pharma Nord (UK) Ltd)
+^ESCT1375098	Syncrodin 3mg tablets (Pharma Nord (UK) Ltd) 30 tablet
+^ESCT1375493	Diphenhydramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375495	Diphenhydramine 25mg tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1375496	Diphenhydramine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375497	Diphenhydramine 50mg tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1375586	Alfresed 30mg/5ml syrup (Thame Laboratories Ltd)
+^ESCT1375596	Alfresed 30mg/5ml syrup (Thame Laboratories Ltd) 100 ml
+^ESCT1375603	Alfresed 7.5mg/5ml syrup (Thame Laboratories Ltd)
+^ESCT1375604	Alfresed 7.5mg/5ml syrup (Thame Laboratories Ltd) 100 ml
+^ESCT1375892	Hydroxyzine 10mg tablets (Morningside Healthcare Ltd)
+^ESCT1375893	Hydroxyzine 10mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1375894	Hydroxyzine 25mg tablets (Morningside Healthcare Ltd)
+^ESCT1375895	Hydroxyzine 25mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376079	Hydroxyzine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376080	Hydroxyzine 10mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1376081	Hydroxyzine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376082	Hydroxyzine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1383246	Ramelteon-containing product
+^ESCT1384444	Tasimelteon-containing product
+^ESCT1386474	Tasimelteon-containing product in oral dose form
+^ESCT1386492	Ramelteon-containing product in oral dose form
+^ESCT1389483	Circadin 2mg modified-release tablets (Ethigen Ltd)
+^ESCT1389484	Circadin 2mg modified-release tablets (Ethigen Ltd) 30 tablet
+^ESCT1399654	Sodium oxybate
+^ESCT1401553	Melatonin 2mg modified-release tablets (Mylan)
+^ESCT1401554	Melatonin 2mg modified-release tablets (Mylan) 30 tablet 2 x 15 tablets
+^ESCT1402192	Melatonin 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402193	Melatonin 3mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402440	Hydroxyzine 10mg tablets (DHP Healthcare Ltd)
+^ESCT1402441	Hydroxyzine 10mg tablets (DHP Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1402445	Hydroxyzine 25mg tablets (DHP Healthcare Ltd)
+^ESCT1402447	Hydroxyzine 25mg tablets (DHP Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1402501	Cloral betaine 707mg tablets (Imported)
+^ESCT1402502	Cloral betaine 707mg tablets (Imported) 30 tablet
+^ESCT1402600	Melatonin 2mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402602	Melatonin 2mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1402606	Melatonin 3mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402607	Melatonin 3mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1402608	Melatonin 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402609	Melatonin 5mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1403609	Promethazine hydrochloride 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403610	Promethazine hydrochloride 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1403611	Promethazine hydrochloride 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403612	Promethazine hydrochloride 10mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1404144	Alimemazine 7.5mg/5ml oral solution sugar free 100 ml
+^ESCT1404145	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva)
+^ESCT1404147	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva) 100 ml
+^ESCT1404151	Alimemazine 30mg/5ml oral solution sugar free 100 ml
+^ESCT1404154	Alimemazine 30mg/5ml oral solution sugar free (Zentiva)
+^ESCT1404157	Alimemazine 30mg/5ml oral solution sugar free (Zentiva) 100 ml
+^ESCT1404679	Melatonin 3mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1404680	Melatonin 3mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCT1404681	Melatonin 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1404682	Melatonin 5mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCT1404981	Alimemazine 30mg/5ml oral solution sugar free
+^ESCT1404982	Alimemazine 7.5mg/5ml oral solution sugar free
+^ESCT1405056	Melatonin 2mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1405057	Melatonin 2mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCT1409369	Diphenhydramine hydrochloride 25 mg and paracetamol 500 mg oral tablet
+^ESCT1409370	Acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCT1409481	Buspirone 10mg tablets (Accord Healthcare Ltd)
+^ESCT1409736	Buspirone 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409940	Buspirone 5mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1409941	Buspirone 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1410352	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410353	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 10 tablet
+^ESCT1410354	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 20 tablet
+^ESCT1410439	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410440	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 10 capsule
+^ESCT1410572	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410573	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare UK Ltd) 160 ml
+^ESCT1410595	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 6 capsule
+^ESCT1410596	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410597	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 24 capsule 1 x (18 capsules + 6 capsules)
+^ESCT1410625	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410626	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare UK Ltd) 150 ml
+^ESCT1411447	Clomethiazole 192mg capsules (Neon Healthcare Ltd)
+^ESCT1411448	Clomethiazole 192mg capsules (Neon Healthcare Ltd) 60 capsule
+^ESCT1411476	Night Nurse Hot Lemon Menthol oral powder sachets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1411477	Night Nurse Hot Lemon Menthol oral powder sachets (GlaxoSmithKline Consumer Healthcare UK Ltd) 5 sachet
+^ESCT1411591	Clomethiazole 31.5mg/ml oral solution sugar free (Neon Healthcare Ltd)
+^ESCT1411592	Clomethiazole 31.5mg/ml oral solution sugar free (Neon Healthcare Ltd) 300 ml
+^ESCT1414257	Agomelatine 25 mg oral tablet
+^ESCT1414261	Agomelatine-containing product in oral dose form
+^ESCT1414262	Agomelatine only product in oral dose form
+^ESCT1416282	Calcium oxybate 500 mg/mL and magnesium oxybate 500 mg/mL and potassium oxybate 500 mg/mL and sodium oxybate 500 mg/mL oral solution
+^ESCT1416286	Calcium oxybate- and magnesium oxybate- and potassium oxybate- and sodium oxybate-containing product
+^ESCT1416287	Calcium oxybate and magnesium oxybate and potassium oxybate and sodium oxybate only product
+^ESCT1416288	Calcium oxybate- and magnesium oxybate- and potassium oxybate- and sodium oxybate-containing product in oral dose form
+^ESCT1416289	Calcium oxybate and magnesium oxybate and potassium oxybate and sodium oxybate only product in oral dose form
+^ESCT1416694	Agomelatine (as agomelatine citric acid) 25 mg oral tablet
+^ESCT1419033	Chloral hydrate 143.3mg/5ml oral solution BP 1 ml
+^ESCT1419034	Chloral hydrate 143.3mg/5ml oral solution BP (Special Order)
+^ESCT1419035	Chloral hydrate 143.3mg/5ml oral solution BP (Special Order) 1 ml
+^ESCT1419117	Alimemazine 30mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1419118	Alimemazine 30mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1419121	Alimemazine 7.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1419122	Alimemazine 7.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1419125	Melatonin 2mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1419126	Melatonin 2mg modified-release tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1422306	Alimemazine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422307	Alimemazine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422364	Alimemazine 30mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422365	Alimemazine 30mg/5ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1422366	Alimemazine 7.5mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422367	Alimemazine 7.5mg/5ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1422814	Hydroxyzine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422815	Hydroxyzine 10mg tablets (Zentiva Pharma UK Ltd) 84 tablet 6 x 14 tablets
+^ESCT1422816	Hydroxyzine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422817	Hydroxyzine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422904	Agomelatine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422905	Agomelatine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1423005	Agomelatine 25mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423006	Agomelatine 25mg tablets (Neuraxpharm UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1423088	Alfresed 30mg/5ml syrup (Syri Ltd)
+^ESCT1423089	Alfresed 30mg/5ml syrup (Syri Ltd) 100 ml
+^ESCT1423090	Alfresed 7.5mg/5ml syrup (Syri Ltd)
+^ESCT1423091	Alfresed 7.5mg/5ml syrup (Syri Ltd) 100 ml
+^ESCT1423110	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1423111	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1423112	Alimemazine 30mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1423113	Alimemazine 30mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1423421	Alimemazine 7.5mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423422	Alimemazine 7.5mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1423423	Alimemazine 10mg/5ml oral solution sugar free 100 ml
+^ESCT1423424	Alimemazine 10mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423425	Alimemazine 10mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1423426	Alimemazine 30mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423427	Alimemazine 30mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1424031	Alimemazine 10mg/5ml oral solution sugar free
+^ESCT1424041	Alimemazine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424042	Alimemazine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1424043	Alimemazine 30mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424044	Alimemazine 30mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1424045	Alimemazine 7.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424046	Alimemazine 7.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1424755	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCT1425682	Buspirone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425811	Buspirone 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426330	Buspirone 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426331	Buspirone 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426620	Meprobamate 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426621	Meprobamate 400mg tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1428984	Diphenhydramine 25mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1428985	Diphenhydramine 25mg tablets (Flamingo Pharma (UK) Ltd) 20 tablet
+^ESCT1428986	Diphenhydramine 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1428987	Diphenhydramine 50mg tablets (Flamingo Pharma (UK) Ltd) 20 tablet
+^ESCT1429010	Alimemazine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429058	Clomethiazole 192mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429059	Clomethiazole 192mg capsules (Medihealth (Northern) Ltd) 60 capsule
+^ESCT1430793	Ceyesto
+^ESCT1431385	Ceyesto 3mg tablets (Alturix Ltd)
+^ESCT1431389	Ceyesto 3mg tablets (Alturix Ltd) 30 tablet
+^ESCT1431533	Alimemazine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1431534	Alimemazine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1432400	Sodium oxybate 500mg/ml oral solution sugar free (Aristo Pharma Ltd)
+^ESCT1432401	Sodium oxybate 500mg/ml oral solution sugar free (Aristo Pharma Ltd) 180 ml
+^ESCT1432787	Melatonin 2mg modified-release tablets (Teva UK Ltd)
+^ESCT1432788	Melatonin 2mg modified-release tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1433403	Melatonin 1mg/ml oral solution sugar free 60 ml
+^ESCT1433404	Melatonin 1mg/ml oral solution sugar free (Colonis Pharma Ltd) 60 ml
+^ESCT1433717	Hydroxyzine 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1433718	Hydroxyzine 10mg tablets (Bristol Laboratories Ltd) 84 tablet 6 x 14 tablets
+^ESCT1433719	Hydroxyzine 25mg tablets (Bristol Laboratories Ltd)
+^ESCT1433720	Hydroxyzine 25mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433905	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order)
+^ESCT1433906	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order) 1 ml
+^ESCT1433941	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order) 50 ml
+^ESCT1433942	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order) 100 ml
+^ESCT1433943	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order) 200 ml
+^ESCT1433944	Chloral hydrate 200mg/5ml oral solution BP (Drug Tariff Special Order) 500 ml
+^ESCT1434548	Melatonin 2mg capsules (Medihealth (Northern) Ltd)
+^ESCT1434549	Melatonin 2mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1434732	Melatonin 1mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1434733	Melatonin 1mg/ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1434734	Melatonin 2mg capsules (DE Pharmaceuticals)
+^ESCT1434735	Melatonin 2mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1434736	Melatonin 3mg capsules (DE Pharmaceuticals)
+^ESCT1434738	Melatonin 3mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1434741	Melatonin 5mg capsules (DE Pharmaceuticals)
+^ESCT1434744	Melatonin 5mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1434746	Melatonin 2mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1434748	Melatonin 2mg modified-release tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1434749	Melatonin 3mg tablets (DE Pharmaceuticals)
+^ESCT1434750	Melatonin 3mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1435730	Adaflex
+^ESCT1436707	Adaflex 1mg tablets (AGB-Pharma)
+^ESCT1436708	Melatonin 1mg tablets 30 tablet
+^ESCT1436709	Adaflex 1mg tablets (AGB-Pharma) 30 tablet
+^ESCT1436710	Melatonin 2mg tablets 30 tablet
+^ESCT1436711	Adaflex 2mg tablets (AGB-Pharma)
+^ESCT1436712	Adaflex 2mg tablets (AGB-Pharma) 30 tablet
+^ESCT1436713	Adaflex 3mg tablets (AGB-Pharma)
+^ESCT1436714	Adaflex 3mg tablets (AGB-Pharma) 30 tablet
+^ESCT1436715	Melatonin 4mg tablets 30 tablet
+^ESCT1436716	Adaflex 4mg tablets (AGB-Pharma)
+^ESCT1436717	Adaflex 4mg tablets (AGB-Pharma) 30 tablet
+^ESCT1436718	Melatonin 5mg tablets 30 tablet
+^ESCT1436719	Adaflex 5mg tablets (AGB-Pharma)
+^ESCT1436720	Adaflex 5mg tablets (AGB-Pharma) 30 tablet
+^ESCT1438202	Buspirone 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438203	Buspirone 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438207	Buspirone 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438208	Buspirone 5mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438497	Chloral hydrate 200mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1438499	Chloral hydrate 200mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1438500	Chloral hydrate 200mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1439260	Melatonin 2mg modified-release tablets (Viatris UK Healthcare Ltd)
+^ESCT1439261	Melatonin 2mg modified-release tablets (Viatris UK Healthcare Ltd) 30 tablet 2 x 15 tablets
+^ESCT1439440	Buspirone 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1439441	Buspirone 5mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439442	Buspirone 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1439443	Buspirone 10mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439444	Buspirone 15mg tablets 30 tablet
+^ESCT1439445	Buspirone 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1439446	Buspirone 15mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439447	Buspirone 30mg tablets 30 tablet
+^ESCT1439448	Buspirone 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1439449	Buspirone 30mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439807	Chloral hydrate 500mg/5ml oral solution 150 ml
+^ESCT1439809	Chloral hydrate 500mg/5ml oral solution (Marlborough Pharmaceuticals Ltd)
+^ESCT1439811	Chloral hydrate 500mg/5ml oral solution (Marlborough Pharmaceuticals Ltd) 150 ml
+^ESCT1439823	Melatonin 3mg modified-release capsules (Part VIIID Drug Tariff Special Order) 60 capsule
+^ESCT1439830	Melatonin 1mg/ml oral solution sugar free 1 ml
+^ESCT1439831	Melatonin 1mg/ml oral solution alcohol free sugar free (Special Order)
+^ESCT1439832	Melatonin 1mg/ml oral solution alcohol free sugar free (Special Order) 1 ml
+^ESCT1439880	Melatonin 10mg capsules 30 capsule
+^ESCT1439881	Melatonin 10mg capsules (Part VIIID Drug Tariff Special Order) 30 capsule
+^ESCT1439882	Melatonin 10mg capsules (Part VIIID Drug Tariff Special Order) 60 capsule
+^ESCT1439883	Melatonin 1mg capsules (Part VIIID Drug Tariff Special Order) 60 capsule
+^ESCT1439884	Melatonin 2.5mg capsules (Part VIIID Drug Tariff Special Order) 60 capsule
+^ESCT1440010	Buspirone 30mg tablets
+^ESCT1440011	Buspirone 15mg tablets
+^ESCT1440071	Promethazine hydrochloride 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1440072	Promethazine hydrochloride 25mg tablets (Genesis Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1440971	Melatonin 10mg capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1440972	Melatonin 10mg capsules (Part VIIID Drug Tariff Special Order) 1 capsule
+^ESCT1441183	Melatonin 1mg capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1441184	Melatonin 1mg capsules (Part VIIID Drug Tariff Special Order) 1 capsule
+^ESCT1441185	Melatonin 2.5mg capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1441186	Melatonin 2.5mg capsules (Part VIIID Drug Tariff Special Order) 1 capsule
+^ESCT1441187	Melatonin 3mg modified-release capsules (Part VIIID Drug Tariff Special Order)
+^ESCT1441188	Melatonin 3mg modified-release capsules (Part VIIID Drug Tariff Special Order) 1 capsule
+^ESCTAC610150	Acetaminophen+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+^ESCTAC610152	Acetaminophen+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+^ESCTAC661542	Acetaminophen+promethazine hydrochloride
+^ESCTAG756866	Agomelatine
+^ESCTAG981818	Agomelatine 25mg tablets 28 tablet
+^ESCTAG982175	Agomelatine 25mg tablets
+^ESCTAL1022375	Alimemazine 10mg tablets (DE Pharmaceuticals)
+^ESCTAL1022376	Alimemazine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAL1036723	Alimemazine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAL1036724	Alimemazine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAL1038978	Alimemazine 10mg tablets 25 tablet
+^ESCTAL1038979	Alimemazine 10mg tablets (Waymade Healthcare Plc)
+^ESCTAL1038980	Alimemazine 10mg tablets (Waymade Healthcare Plc) 25 tablet
+^ESCTAL1041985	Alimemazine 10mg tablets (Cubic Pharmaceuticals Ltd)
+^ESCTAL1041986	Alimemazine 10mg tablets (Cubic Pharmaceuticals Ltd) 28 tablet
+^ESCTAL1045379	Alimemazine 7.5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045380	Alimemazine 7.5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTAL1045381	Alimemazine 30mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045382	Alimemazine 30mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTAL1045383	Alimemazine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045384	Alimemazine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAL1048867	Alimemazine 7.5mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTAL1048868	Alimemazine 7.5mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTAL1048869	Alimemazine 10mg tablets (DE Pharmaceuticals) 25 tablet
+^ESCTAL1119175	Alimemazine 30mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTAL1119176	Alimemazine 30mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTAL1128327	Alimemazine 10mg/5ml oral solution 1 ml
+^ESCTAL1128328	Alimemazine 10mg/5ml oral solution (Special Order)
+^ESCTAL1128329	Alimemazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL1128361	Alimemazine 10mg/5ml oral solution
+^ESCTAL608845	Alimemazine 7.5mg/5ml oral solution
+^ESCTAL608846	Alimemazine tartrate 7.5mg/5mL syrup
+^ESCTAL608848	Alimemazine 30mg/5ml oral solution
+^ESCTAL608850	Alimemazine tartrate 30mg/5mL syrup
+^ESCTAL847779	Alimemazine 30mg/5ml oral solution 100 ml
+^ESCTAL848376	Alimemazine 7.5mg/5ml oral solution 100 ml
+^ESCTAL848531	Alimemazine 10mg tablets 28 tablet
+^ESCTAL941538	Alimemazine 15mg/5ml oral solution 1 ml
+^ESCTAL941539	Alimemazine 15mg/5ml oral solution (Special Order)
+^ESCTAL941541	Alimemazine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL941544	Alimemazine 5mg/5ml oral solution 1 ml
+^ESCTAL941545	Alimemazine 5mg/5ml oral solution (Special Order)
+^ESCTAL941546	Alimemazine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL941665	Alimemazine 15mg/5ml oral solution
+^ESCTAL941666	Alimemazine 5mg/5ml oral solution
+^ESCTAL987656	Alimemazine 10mg tablets (Zentiva)
+^ESCTAL987657	Alimemazine 10mg tablets (Zentiva) 28 tablet
+^ESCTAL988942	Alimemazine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL988943	Alimemazine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTAL991939	Alimemazine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAL991940	Alimemazine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAL993469	Alimemazine 30mg/5ml oral solution (Zentiva)
+^ESCTAL993470	Alimemazine 30mg/5ml oral solution (Zentiva) 100 ml
+^ESCTAL993471	Alimemazine 7.5mg/5ml oral solution (Zentiva)
+^ESCTAL993472	Alimemazine 7.5mg/5ml oral solution (Zentiva) 100 ml
+^ESCTAL994656	Alimemazine 7.5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL994657	Alimemazine 7.5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTAL994658	Alimemazine 30mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL994659	Alimemazine 30mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTAL994700	Alimemazine 7.5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTAL994701	Alimemazine 7.5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTAL994702	Alimemazine 30mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTAL994703	Alimemazine 30mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTAM1007058	Ammonium bromide 400mg/5ml / Potassium bromide 400mg/5ml / Sodium bromide 400mg/5ml oral solution
+^ESCTAM1007060	Ammonium bromide 400mg/5ml / Potassium bromide 400mg/5ml / Sodium bromide 400mg/5ml oral solution 1 ml
+^ESCTAM1007062	Ammonium bromide + Potassium bromide + Sodium bromide
+^ESCTAM902383	Ammonium chloride 100mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free
+^ESCTAM902396	Ammonium chloride 100mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free 125 ml
+^ESCTAM902499	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution
+^ESCTAM902506	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution 150 ml
+^ESCTAM964697	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution 200 ml
+^ESCTAT816072	Atarax 25mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTAT819163	Atarax 10mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTAT855795	Atarax 10mg tablets (Alliance Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTAT855802	Atarax 25mg tablets (Alliance Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT913976	Atarax
+^ESCTAV860304	Avomine 25mg tablets (Manx Healthcare Ltd)
+^ESCTAV860306	Avomine 25mg tablets (Manx Healthcare Ltd) 10 tablet
+^ESCTAV860309	Avomine 25mg tablets (Manx Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAV914021	Avomine
+^ESCTBE870900	Benylin Children's Night Coughs oral solution (McNeil Products Ltd)
+^ESCTBE870901	Benylin Children's Night Coughs oral solution (McNeil Products Ltd) 125 ml
+^ESCTBE873831	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd)
+^ESCTBE873832	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 125 ml
+^ESCTBE873834	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 300 ml
+^ESCTBE957092	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 150 ml
+^ESCTBI896291	Bio-Melatonin 3mg tablets (Imported (Denmark))
+^ESCTBI896337	Bio-Melatonin 3mg tablets (Imported (Denmark)) 60 tablet
+^ESCTBO1020880	Boots Sleepeaze Herbal tablets (The Boots Company Plc)
+^ESCTBO1020881	Boots Sleepeaze Herbal tablets (The Boots Company Plc) 30 tablet
+^ESCTBO1128454	Boots Night Cough Relief oral solution (The Boots Company Plc)
+^ESCTBO1128455	Boots Night Cough Relief oral solution (The Boots Company Plc) 150 ml
+^ESCTBO1128986	Boots Skin Allergy Relief 2% cream (The Boots Company Plc)
+^ESCTBO1128988	Boots Skin Allergy Relief 2% cream (The Boots Company Plc) 25 gram
+^ESCTBU1005681	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU1005682	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTBU1011669	Buspar 10mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTBU1023422	Buspirone 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBU1023423	Buspirone 10mg tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTBU1023424	Buspirone 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBU1023425	Buspirone 5mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU1041689	Buspirone 5mg tablets (Waymade Healthcare Plc)
+^ESCTBU1041691	Buspirone 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTBU1041698	Buspirone 10mg tablets (Waymade Healthcare Plc)
+^ESCTBU1041700	Buspirone 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTBU1045414	Buspirone 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBU1045415	Buspirone 5mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTBU1045416	Buspirone 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBU1045417	Buspirone 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTBU1049211	Buspirone 10mg tablets (DE Pharmaceuticals)
+^ESCTBU1049212	Buspirone 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTBU1049213	Buspirone 5mg tablets (DE Pharmaceuticals)
+^ESCTBU1049214	Buspirone 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTBU1118993	Buspirone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU1118994	Buspirone 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTBU1119003	Buspirone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU1119004	Buspirone 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTBU1144667	Buspirone 5mg tablets (Alissa Healthcare Research Ltd)
+^ESCTBU1144686	Buspirone 5mg tablets (Alissa Healthcare Research Ltd) 30 tablet
+^ESCTBU1144687	Buspirone 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTBU1144688	Buspirone 10mg tablets (Alissa Healthcare Research Ltd) 30 tablet
+^ESCTBU1161849	Buspirone 5mg tablets (Teva UK Ltd)
+^ESCTBU1161850	Buspirone 5mg tablets (Teva UK Ltd) 30 tablet
+^ESCTBU609173	Buspirone hydrochloride
+^ESCTBU641370	Buspirone hydrochloride dividose 15 mg oral tablet
+^ESCTBU641372	Buspirone hydrochloride dividose 30 mg oral tablet
+^ESCTBU802124	Buspirone 10mg tablets (Actavis UK Ltd)
+^ESCTBU808134	Buspirone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBU808993	Buspirone 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBU809598	Buspirone 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBU811725	Buspar 5mg tablets (IXL Pharma Ltd)
+^ESCTBU816489	Buspirone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBU822906	Buspar 10mg tablets (IXL Pharma Ltd)
+^ESCTBU822907	Buspirone 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBU822937	Buspirone 5mg tablets (Actavis UK Ltd)
+^ESCTBU822940	Buspirone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBU835840	Buspirone 10mg tablets 30 tablet
+^ESCTBU841839	Buspirone 10mg tablets 90 tablet
+^ESCTBU846876	Buspirone 5mg tablets 30 tablet
+^ESCTBU847658	Buspirone 5mg tablets 90 tablet
+^ESCTBU854051	Buspirone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854053	Buspirone 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854055	Buspar 5mg tablets (IXL Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTBU854058	Buspirone 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854061	Buspirone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTBU854063	Buspirone 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854064	Buspirone 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854065	Buspar 10mg tablets (IXL Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTBU854068	Buspirone 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854069	Buspirone 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTBU875582	Buspirone 10mg tablets 100 tablet
+^ESCTBU875587	Buspar 10mg tablets (IXL Pharma Ltd) 100 tablet
+^ESCTBU877604	Buspar 10mg tablets (Waymade Healthcare Plc)
+^ESCTBU877605	Buspar 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTBU877606	Buspirone 5mg tablets 60 tablet
+^ESCTBU877608	Buspar 5mg tablets (Waymade Healthcare Plc)
+^ESCTBU877609	Buspar 5mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTBU879173	Buspar 10mg tablets (Dowelhurst Ltd)
+^ESCTBU879175	Buspar 10mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTBU879178	Buspar 10mg tablets (Dowelhurst Ltd) 90 tablet
+^ESCTBU879179	Buspar 5mg tablets (Dowelhurst Ltd)
+^ESCTBU879180	Buspar 5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTBU904943	Buspirone 5mg/5ml oral solution 1 ml
+^ESCTBU904945	Buspirone 5mg/5ml oral solution (Special Order)
+^ESCTBU904948	Buspirone 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTBU904952	Buspirone 5mg/5ml oral suspension 1 ml
+^ESCTBU904955	Buspirone 5mg/5ml oral suspension (Special Order)
+^ESCTBU904956	Buspirone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTBU904996	Buspirone 5mg/5ml oral suspension
+^ESCTBU904997	Buspirone 5mg/5ml oral solution
+^ESCTBU914185	Buspar
+^ESCTBU933455	Buspirone 10mg tablets 20 tablet
+^ESCTBU933456	Buspar 10mg tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTBU960033	Buspirone 10mg tablets (Dowelhurst Ltd)
+^ESCTBU960034	Buspirone 10mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTBU960037	Buspirone 5mg tablets (Dowelhurst Ltd)
+^ESCTBU960038	Buspirone 5mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTBU966306	Buspar 10mg tablets (DE Pharmaceuticals)
+^ESCTBU966311	Buspar 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTBU970780	Buspar 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU970786	Buspar 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTBU970790	Buspar 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU970793	Buspar 5mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTBU975194	Buspar 10mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTBU975196	Buspar 5mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTBU978107	Buspirone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU978108	Buspirone 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTBU978109	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU978110	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTBU988750	Buspar 5mg tablets (Lexon (UK) Ltd)
+^ESCTBU988751	Buspar 5mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTBU988752	Buspar 10mg tablets (Lexon (UK) Ltd)
+^ESCTBU988753	Buspar 10mg tablets (Lexon (UK) Ltd) 20 tablet
+^ESCTBU988754	Buspar 10mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTBU991005	Buspar 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU991007	Buspar 5mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTBU991009	Buspar 5mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTBU991017	Buspar 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU991019	Buspar 10mg tablets (Mawdsley-Brooks & Company Ltd) 20 tablet
+^ESCTBU991021	Buspar 10mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTBU993799	Buspirone 10mg tablets (Mylan Ltd)
+^ESCTBU993801	Buspirone 10mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU993822	Buspirone 5mg tablets (Mylan Ltd)
+^ESCTBU993823	Buspirone 5mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTCA921112	Care Night Time Sleep Aid 25mg tablets (Thornton & Ross Ltd)
+^ESCTCA921114	Care Night Time Sleep Aid 25mg tablets (Thornton & Ross Ltd) 16 tablet 4 x 4 tablets
+^ESCTCA944457	CalCold Six Plus oral solution (McNeil Products Ltd)
+^ESCTCA944458	CalCold Six Plus oral solution (McNeil Products Ltd) 100 ml
+^ESCTCA944461	Calpol Night oral solution (McNeil Products Ltd)
+^ESCTCA944462	Calpol Night oral solution (McNeil Products Ltd) 100 ml
+^ESCTCH1026350	Chloral hydrate 1g/5ml oral solution BP 100 ml
+^ESCTCH1026351	Chloral hydrate 1g/5ml oral solution BP 200 ml
+^ESCTCH1026352	Chloral hydrate 1g/5ml oral solution BP (Drug Tariff Special Order) 100 ml
+^ESCTCH1026353	Chloral hydrate 1g/5ml oral solution BP (Drug Tariff Special Order) 200 ml
+^ESCTCH1026354	Chloral hydrate 200mg/5ml oral solution BP 50 ml
+^ESCTCH1026355	Chloral hydrate 200mg/5ml oral solution BP 100 ml
+^ESCTCH1026356	Chloral hydrate 200mg/5ml oral solution BP 200 ml
+^ESCTCH1026357	Chloral hydrate 200mg/5ml oral solution BP 500 ml
+^ESCTCH1026358	Chloral hydrate 200mg/5ml oral solution BP (Special Order) 50 ml
+^ESCTCH1026359	Chloral hydrate 200mg/5ml oral solution BP (Special Order) 100 ml
+^ESCTCH1026360	Chloral hydrate 200mg/5ml oral solution BP (Special Order) 200 ml
+^ESCTCH1026361	Chloral hydrate 200mg/5ml oral solution BP (Special Order) 500 ml
+^ESCTCH1026362	Chloral hydrate 300mg/5ml oral solution BP 50 ml
+^ESCTCH1026363	Chloral hydrate 300mg/5ml oral solution BP 200 ml
+^ESCTCH1026364	Chloral hydrate 300mg/5ml oral solution BP (Special Order) 50 ml
+^ESCTCH1026365	Chloral hydrate 300mg/5ml oral solution BP (Special Order) 200 ml
+^ESCTCH1026392	Chloral hydrate 50mg suppositories 10 suppository
+^ESCTCH1026395	Chloral hydrate 50mg suppositories (Special Order) 10 suppository
+^ESCTCH1026624	Chloral hydrate 250mg suppositories
+^ESCTCH1026625	Chloral hydrate 250mg suppositories 1 suppository
+^ESCTCH1026626	Chloral hydrate 250mg suppositories 12 suppository
+^ESCTCH1026627	Chloral hydrate 250mg suppositories (Special Order)
+^ESCTCH1026628	Chloral hydrate 250mg suppositories (Special Order) 1 suppository
+^ESCTCH1026629	Chloral hydrate 250mg suppositories (Special Order) 12 suppository
+^ESCTCH1026630	Chloral hydrate 750mg suppositories
+^ESCTCH1026631	Chloral hydrate 750mg suppositories 1 suppository
+^ESCTCH1026632	Chloral hydrate 750mg suppositories 6 suppository
+^ESCTCH1026633	Chloral hydrate 750mg suppositories (Special Order)
+^ESCTCH1026634	Chloral hydrate 750mg suppositories (Special Order) 6 suppository
+^ESCTCH1026635	Chloral hydrate 750mg suppositories (Special Order) 1 suppository
+^ESCTCH1026636	Chloral hydrate 25mg suppositories 10 suppository
+^ESCTCH1026637	Chloral hydrate 25mg suppositories (Special Order) 10 suppository
+^ESCTCH1033696	Chloral hydrate 500mg suppositories 12 suppository
+^ESCTCH1033697	Chloral hydrate 500mg suppositories (Special Order) 12 suppository
+^ESCTCH1047048	Chloral hydrate 200mg/1ml rectal solution
+^ESCTCH1047049	Chloral hydrate 200mg/1ml rectal solution 1 ml
+^ESCTCH1047050	Chloral hydrate 200mg/1ml rectal solution 100 ml
+^ESCTCH1047051	Chloral hydrate 200mg/1ml rectal solution (Special Order)
+^ESCTCH1047052	Chloral hydrate 200mg/1ml rectal solution (Special Order) 1 ml
+^ESCTCH1047053	Chloral hydrate 200mg/1ml rectal solution (Special Order) 100 ml
+^ESCTCH1063389	Chloral hydrate 500mg/5ml oral solution sugar free 1 ml
+^ESCTCH1063390	Chloral hydrate 500mg/5ml oral solution sugar free (Special Order)
+^ESCTCH1063391	Chloral hydrate 500mg/5ml oral solution sugar free (Special Order) 1 ml
+^ESCTCH1064227	Chloral hydrate 500mg/5ml oral solution sugar free
+^ESCTCH1066266	Chloral hydrate 200mg/5ml oral suspension 1 ml
+^ESCTCH1066267	Chloral hydrate 200mg/5ml oral suspension 100 ml
+^ESCTCH1066269	Chloral hydrate 200mg/5ml oral suspension (Special Order)
+^ESCTCH1066271	Chloral hydrate 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH1066272	Chloral hydrate 200mg/5ml oral suspension (Special Order) 100 ml
+^ESCTCH1066986	Chloral hydrate 200mg/5ml oral suspension
+^ESCTCH1069426	Chloral hydrate 143.3mg/5ml oral solution BP (Marlborough Pharmaceuticals Ltd)
+^ESCTCH1069427	Chloral hydrate 143.3mg/5ml oral solution BP (Marlborough Pharmaceuticals Ltd) 150 ml
+^ESCTCH1079361	Chloral hydrate 143.3mg/5ml oral solution BP (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH1079363	Chloral hydrate 143.3mg/5ml oral solution BP (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTCH1079776	Chloral hydrate 143.3mg/5ml oral solution BP (A A H Pharmaceuticals Ltd)
+^ESCTCH1079778	Chloral hydrate 143.3mg/5ml oral solution BP (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTCH1097816	Chloral hydrate 143.3mg/5ml oral solution BP (Waymade Healthcare Plc)
+^ESCTCH1097817	Chloral hydrate 143.3mg/5ml oral solution BP (Waymade Healthcare Plc) 150 ml
+^ESCTCH1108625	Chloral hydrate 200mg suppositories 1 suppository
+^ESCTCH1108626	Chloral hydrate 200mg suppositories (Special Order)
+^ESCTCH1108627	Chloral hydrate 200mg suppositories (Special Order) 1 suppository
+^ESCTCH1108700	Chloral hydrate 200mg suppositories
+^ESCTCH1127783	Chloral hydrate 500mg/5ml oral solution 100 ml
+^ESCTCH1127784	Chloral hydrate 500mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTCH1139953	Chloral hydrate 100mg suppositories 1 suppository
+^ESCTCH1139955	Chloral hydrate 100mg suppositories (Special Order)
+^ESCTCH1139957	Chloral hydrate 100mg suppositories (Special Order) 1 suppository
+^ESCTCH1141714	Chloral hydrate 100mg suppositories
+^ESCTCH1153672	Chloral hydrate 500mg/5ml mixture BP 2000 (Drug Tariff Special Order)
+^ESCTCH1153673	Chloral hydrate 500mg/5ml mixture BP 2000 (Drug Tariff Special Order) 1 ml
+^ESCTCH1153674	Chloral hydrate 500mg/5ml mixture BP 2000 (Drug Tariff Special Order) 100 ml
+^ESCTCH609020	Chloral hydrate 143.3mg/5ml oral solution BP
+^ESCTCH609021	Chloral hydrate 143mg/5mL elixir
+^ESCTCH609022	Chloral hydrate 143mg/5ml oral solution
+^ESCTCH609023	Chloral hydrate 143.3mg/5ml oral solution
+^ESCTCH609024	Chloral hydrate 500mg/5ml mixture BP 2000
+^ESCTCH609025	Chloral hydrate 500mg/5mL syrup
+^ESCTCH609030	Chlormethiazole edisylate 250mg/5mL syrup
+^ESCTCH618943	Chloral sedative
+^ESCTCH641068	Chloral hydrate suppositories 5gr
+^ESCTCH641069	Chloral hydrate suppositories 10gr
+^ESCTCH694528	Chlorhexidine + Chlorobutanol
+^ESCTCH694529	Chlorhexidine + chlorobutanol
+^ESCTCH695514	Chlorobutanol
+^ESCTCH702497	Chlorobutanol + clove oil
+^ESCTCH702498	Chlorobutanol + Clove oil
+^ESCTCH839138	Chloral hydrate 143.3mg/5ml oral solution BP 150 ml
+^ESCTCH865043	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free 90 ml
+^ESCTCH865044	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free 250 ml
+^ESCTCH865045	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free 500 ml
+^ESCTCH865847	Chlorobutanol 1% tincture 3.5 ml
+^ESCTCH865886	Chlorobutanol 1% tincture
+^ESCTCH868705	Chloral hydrate crystals 100 gram
+^ESCTCH868707	Chloral hydrate crystals 250 gram
+^ESCTCH868708	Chloral hydrate crystals 500 gram
+^ESCTCH868710	Chloral hydrate crystals (A A H Pharmaceuticals Ltd)
+^ESCTCH868714	Chloral hydrate crystals (A A H Pharmaceuticals Ltd) 100 gram
+^ESCTCH868717	Chloral hydrate crystals (A A H Pharmaceuticals Ltd) 250 gram
+^ESCTCH868720	Chloral hydrate crystals (J M Loveridge Ltd)
+^ESCTCH868723	Chloral hydrate crystals (J M Loveridge Ltd) 100 gram
+^ESCTCH868726	Chloral hydrate crystals (J M Loveridge Ltd) 500 gram
+^ESCTCH868728	Chloral hydrate crystals (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH868731	Chloral hydrate crystals (Alliance Healthcare (Distribution) Ltd) 100 gram
+^ESCTCH868942	Chloral hydrate crystals
+^ESCTCH905280	Chloral hydrate 1g/5ml oral solution BP 1 ml
+^ESCTCH905284	Chloral hydrate 1g/5ml oral solution BP (Drug Tariff Special Order)
+^ESCTCH905286	Chloral hydrate 1g/5ml oral solution BP (Drug Tariff Special Order) 1 ml
+^ESCTCH905287	Chloral hydrate 200mg/5ml oral solution BP 1 ml
+^ESCTCH905288	Chloral hydrate 100mg/5ml oral solution BP 1 ml
+^ESCTCH905289	Chloral hydrate 200mg/5ml oral solution BP (Special Order)
+^ESCTCH905290	Chloral hydrate 200mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905292	Chloral hydrate 100mg/5ml oral solution BP (Special Order)
+^ESCTCH905293	Chloral hydrate 100mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905295	Chloral hydrate 5g/5ml oral solution BP 1 ml
+^ESCTCH905296	Chloral hydrate 5g/5ml oral solution BP (Special Order)
+^ESCTCH905297	Chloral hydrate 5g/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905299	Chloral hydrate 250mg/5ml oral solution BP 1 ml
+^ESCTCH905302	Chloral hydrate 600mg/5ml oral solution BP 1 ml
+^ESCTCH905303	Chloral hydrate 600mg/5ml oral solution BP (Special Order)
+^ESCTCH905304	Chloral hydrate 600mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905305	Chloral hydrate 250mg/5ml oral solution BP (Special Order)
+^ESCTCH905306	Chloral hydrate 250mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905307	Chloral hydrate 300mg/5ml oral solution BP 1 ml
+^ESCTCH905309	Chloral hydrate 300mg/5ml oral solution BP (Special Order)
+^ESCTCH905311	Chloral hydrate 300mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905314	Chloral hydrate 500mg/5ml oral solution 1 ml
+^ESCTCH905316	Chloral hydrate 500mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTCH905318	Chloral hydrate 500mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTCH905320	Chloral hydrate 50mg/5ml oral solution BP 1 ml
+^ESCTCH905322	Chloral hydrate 50mg/5ml oral solution BP (Special Order)
+^ESCTCH905324	Chloral hydrate 50mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH905508	Chloral hydrate 100mg/5ml oral solution BP
+^ESCTCH905510	Chloral hydrate 1g/5ml oral solution BP
+^ESCTCH905511	Chloral hydrate 200mg/5ml oral solution BP
+^ESCTCH905512	Chloral hydrate 250mg/5ml oral solution BP
+^ESCTCH905513	Chloral hydrate 300mg/5ml oral solution BP
+^ESCTCH905514	Chloral hydrate 500mg/5ml oral solution
+^ESCTCH905516	Chloral hydrate 50mg/5ml oral solution BP
+^ESCTCH905517	Chloral hydrate 5g/5ml oral solution BP
+^ESCTCH905518	Chloral hydrate 600mg/5ml oral solution BP
+^ESCTCH909563	Chloral hydrate 500mg suppositories 1 suppository
+^ESCTCH909565	Chloral hydrate 500mg suppositories (Special Order)
+^ESCTCH909566	Chloral hydrate 500mg suppositories (Special Order) 1 suppository
+^ESCTCH909657	Chloral hydrate 500mg suppositories
+^ESCTCH949072	Chloral hydrate 1.25g/5ml oral solution BP 1 ml
+^ESCTCH949077	Chloral hydrate 1.25g/5ml oral solution BP (Special Order)
+^ESCTCH949078	Chloral hydrate 1.25g/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949085	Chloral hydrate 1.5g/5ml oral solution BP 1 ml
+^ESCTCH949091	Chloral hydrate 1.5g/5ml oral solution BP (Special Order)
+^ESCTCH949092	Chloral hydrate 1.5g/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949279	Chloral hydrate 145mg/5ml oral solution BP 1 ml
+^ESCTCH949282	Chloral hydrate 145mg/5ml oral solution BP (Special Order)
+^ESCTCH949285	Chloral hydrate 145mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949288	Chloral hydrate 1mg/5ml oral solution BP 1 ml
+^ESCTCH949289	Chloral hydrate 1mg/5ml oral solution BP (Special Order)
+^ESCTCH949291	Chloral hydrate 1mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949298	Chloral hydrate 325mg/5ml oral solution BP 1 ml
+^ESCTCH949300	Chloral hydrate 325mg/5ml oral solution BP (Special Order)
+^ESCTCH949301	Chloral hydrate 325mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949304	Chloral hydrate 400mg/5ml oral solution BP 1 ml
+^ESCTCH949306	Chloral hydrate 400mg/5ml oral solution BP (Special Order)
+^ESCTCH949310	Chloral hydrate 400mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949328	Chloral hydrate 40mg/5ml oral solution BP 1 ml
+^ESCTCH949329	Chloral hydrate 40mg/5ml oral solution BP (Special Order)
+^ESCTCH949330	Chloral hydrate 40mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949333	Chloral hydrate 70mg/5ml oral solution BP 1 ml
+^ESCTCH949334	Chloral hydrate 70mg/5ml oral solution BP (Special Order)
+^ESCTCH949335	Chloral hydrate 70mg/5ml oral solution BP (Special Order) 1 ml
+^ESCTCH949544	Chloral hydrate 1.25g/5ml oral solution BP
+^ESCTCH949545	Chloral hydrate 1.5g/5ml oral solution BP
+^ESCTCH949546	Chloral hydrate 145mg/5ml oral solution BP
+^ESCTCH949547	Chloral hydrate 1mg/5ml oral solution BP
+^ESCTCH949548	Chloral hydrate 325mg/5ml oral solution BP
+^ESCTCH949549	Chloral hydrate 400mg/5ml oral solution BP
+^ESCTCH949550	Chloral hydrate 40mg/5ml oral solution BP
+^ESCTCH949551	Chloral hydrate 70mg/5ml oral solution BP
+^ESCTCH966680	Chloral hydrate 25mg suppositories
+^ESCTCH966682	Chloral hydrate 25mg suppositories 1 suppository
+^ESCTCH966686	Chloral hydrate 25mg suppositories (Special Order)
+^ESCTCH966688	Chloral hydrate 25mg suppositories (Special Order) 1 suppository
+^ESCTCH966693	Chloral hydrate 50mg suppositories
+^ESCTCH966694	Chloral hydrate 50mg suppositories 1 suppository
+^ESCTCH966696	Chloral hydrate 50mg suppositories (Special Order)
+^ESCTCH966698	Chloral hydrate 50mg suppositories (Special Order) 1 suppository
+^ESCTCI1002258	Circadin 2mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1002259	Circadin 2mg modified-release tablets (Sigma Pharmaceuticals Plc) 21 tablet
+^ESCTCI1011141	Circadin 2mg modified-release tablets (Necessity Supplies Ltd)
+^ESCTCI1011142	Circadin 2mg modified-release tablets (Necessity Supplies Ltd) 21 tablet
+^ESCTCI1011853	Circadin 2mg modified-release tablets (DE Pharmaceuticals)
+^ESCTCI1011854	Circadin 2mg modified-release tablets (DE Pharmaceuticals) 21 tablet
+^ESCTCI1022217	Circadin 2mg modified-release tablets (Flynn Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTCI1049911	Circadin 2mg modified-release tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCI922246	Circadin
+^ESCTCI963137	Circadin 2mg modified-release tablets (Flynn Pharma Ltd)
+^ESCTCI963138	Circadin 2mg modified-release tablets (Flynn Pharma Ltd) 21 tablet
+^ESCTCI988810	Circadin 2mg modified-release tablets (Lexon (UK) Ltd)
+^ESCTCI988811	Circadin 2mg modified-release tablets (Lexon (UK) Ltd) 21 tablet
+^ESCTCI989289	Circadin 2mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTCI989290	Circadin 2mg modified-release tablets (Waymade Healthcare Plc) 21 tablet
+^ESCTCI992562	Circadin 2mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992563	Circadin 2mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 21 tablet
+^ESCTCL1018895	Clomethiazole 192mg capsules (Intrapharm Laboratories Ltd)
+^ESCTCL1018896	Clomethiazole 192mg capsules (Intrapharm Laboratories Ltd) 60 capsule
+^ESCTCL1020387	Clomethiazole 192mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL1020388	Clomethiazole 192mg capsules (A A H Pharmaceuticals Ltd) 60 capsule
+^ESCTCL1020542	Clomethiazole 192mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL1020543	Clomethiazole 192mg capsules (Alliance Healthcare (Distribution) Ltd) 60 capsule
+^ESCTCL1028903	Clomethiazole 250mg/5ml oral solution 1 ml
+^ESCTCL1028904	Clomethiazole 250mg/5ml oral solution (Special Order)
+^ESCTCL1028905	Clomethiazole 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL1029155	Clomethiazole 250mg/5ml oral solution
+^ESCTCL1034584	Clomethiazole 192mg capsules (Waymade Healthcare Plc)
+^ESCTCL1034585	Clomethiazole 192mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTCL1047864	Clomethiazole 31.5mg/ml oral solution sugar free (Intrapharm Laboratories Ltd)
+^ESCTCL1047865	Clomethiazole 31.5mg/ml oral solution sugar free (Intrapharm Laboratories Ltd) 300 ml
+^ESCTCL1048811	Clomethiazole 31.5mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL1048812	Clomethiazole 31.5mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTCL1048816	Clomethiazole 31.5mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCL1048818	Clomethiazole 31.5mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTCL1069421	Cloral betaine 707mg tablets (Marlborough Pharmaceuticals Ltd)
+^ESCTCL1069423	Cloral betaine 707mg tablets (Marlborough Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCL1079350	Cloral betaine 707mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL1079356	Cloral betaine 707mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTCL1079769	Cloral betaine 707mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCL1079771	Cloral betaine 707mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTCL1087952	Cloral betaine 707mg tablets (Waymade Healthcare Plc)
+^ESCTCL1087953	Cloral betaine 707mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCL1117040	Clomethiazole 192mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117041	Clomethiazole 192mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTCL609029	Clomethiazole 157.5mg/5ml oral solution sugar free
+^ESCTCL609031	Clomethiazole 250mg/5ml oral solution sugar free
+^ESCTCL702496	Clove oil + Chlorobutanol
+^ESCTCL838422	Clomethiazole 192mg capsules 60 capsule
+^ESCTCL847761	Clomethiazole 157.5mg/5ml oral solution sugar free 300 ml
+^ESCTCL857934	Cloral betaine 707mg tablets 30 tablet
+^ESCTCL902814	Clove oil 21% / Chlorobutanol 7% dental gel sugar free
+^ESCTCL902815	Clove oil 21% / Chlorobutanol 7% dental gel sugar free 5 gram
+^ESCTCO1160824	Covonia Hot Dose Cough & Cold syrup (Thornton & Ross Ltd)
+^ESCTCO1160825	Covonia Hot Dose Cough & Cold syrup (Thornton & Ross Ltd) 150 ml
+^ESCTCO663681	Codeine phosphate + promethazine hydrochloride
+^ESCTCO870267	Covonia night time formula oral solution (Thornton & Ross Ltd)
+^ESCTCO870268	Covonia night time formula oral solution (Thornton & Ross Ltd) 150 ml
+^ESCTCO910236	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare)
+^ESCTCO910237	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare) 150 ml
+^ESCTDA903069	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare)
+^ESCTDA903071	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare) 24 capsule 1 x (18 capsules + 6 capsules)
+^ESCTDA920309	Day & Night Nurse
+^ESCTDE680294	Dextromethorphan hydrobromide+promethazine hydrochloride
+^ESCTDE680295	Dextromethorphan+promethazine
+^ESCTDI1097435	Diphenhydramine 10mg/5ml oral solution 1 ml
+^ESCTDI1097437	Diphenhydramine 10mg/5ml oral solution (Special Order)
+^ESCTDI1097440	Diphenhydramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI1100238	Dibro-Be mono 850mg tablets (Imported (Germany))
+^ESCTDI1100240	Dibro-Be mono 850mg tablets (Imported (Germany)) 60 tablet
+^ESCTDI1109815	Diphenhydramine 25mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTDI1109816	Diphenhydramine 25mg tablets (Colorama Pharmaceuticals Ltd) 20 tablet
+^ESCTDI1109817	Diphenhydramine 50mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTDI1109818	Diphenhydramine 50mg tablets (Colorama Pharmaceuticals Ltd) 20 tablet
+^ESCTDI1109835	Diphenhydramine 25mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109836	Diphenhydramine 25mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTDI1109837	Diphenhydramine 50mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109838	Diphenhydramine 50mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTDI1127682	Diphenhydramine 25mg tablets (DE Pharmaceuticals)
+^ESCTDI1127683	Diphenhydramine 25mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTDI1127684	Diphenhydramine 50mg tablets (DE Pharmaceuticals)
+^ESCTDI1127685	Diphenhydramine 50mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTDI1137802	Diphenhydramine 25mg tablets (Ennogen Healthcare Ltd)
+^ESCTDI1137803	Diphenhydramine 25mg tablets (Ennogen Healthcare Ltd) 20 tablet
+^ESCTDI1137807	Diphenhydramine 50mg tablets (Ennogen Healthcare Ltd)
+^ESCTDI1137808	Diphenhydramine 50mg tablets (Ennogen Healthcare Ltd) 20 tablet
+^ESCTDI608809	Diphenhydramine 10mg/5ml oral solution
+^ESCTDI608810	Diphenhydramine hydrochloride 10mg/5mL syrup
+^ESCTDI654345	Diphenhydramine hydrochloride 12.5mg/5mL liquid
+^ESCTDI654352	Diphenhydramine hydrochloride 50mg/mL injection
+^ESCTDI847233	Diphenhydramine 50mg tablets 16 tablet
+^ESCTDI861423	Diphenhydramine 25mg tablets 20 tablet
+^ESCTDI861424	Diphenhydramine 25mg tablets 16 tablet
+^ESCTDI861426	Diphenhydramine 25mg tablets 50 tablet
+^ESCTDI870266	Diphenhydramine 10mg/5ml / Dextromethorphan 6.65mg/5ml oral solution sugar free 150 ml
+^ESCTDI870432	Diphenhydramine 10mg/5ml / Dextromethorphan 6.65mg/5ml oral solution sugar free
+^ESCTDI870898	Diphenhydramine 7mg/5ml / Levomenthol 550micrograms/5ml oral solution sugar free 125 ml
+^ESCTDI870931	Diphenhydramine 7mg/5ml / Levomenthol 550micrograms/5ml oral solution sugar free
+^ESCTDI871058	Diphenhydramine 2% cream 25 gram
+^ESCTDI873829	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 125 ml
+^ESCTDI873830	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 300 ml
+^ESCTDI874032	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution
+^ESCTDI875122	Diphenhydramine 10mg/5ml oral solution 150 ml
+^ESCTDI901404	Diphenhydramine 50mg tablets 20 tablet
+^ESCTDI902409	Diphenhydramine 6.25mg/5ml oral solution sugar free
+^ESCTDI902412	Diphenhydramine 6.25mg/5ml oral solution sugar free 125 ml
+^ESCTDI910235	Diphenhydramine 12.5mg/5ml / Pholcodine 3.75mg/5ml oral solution 150 ml
+^ESCTDI910545	Diphenhydramine 12.5mg/5ml / Pholcodine 3.75mg/5ml oral solution
+^ESCTDI957091	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 150 ml
+^ESCTDO866412	Dozol liquid (M & A Pharmachem Ltd)
+^ESCTDO866433	Dozol liquid (M & A Pharmachem Ltd) 100 ml
+^ESCTDR861443	Dreemon 25mg tablets (E M Pharma)
+^ESCTDR861444	Dreemon 25mg tablets (E M Pharma) 20 tablet 2 x 10 tablets
+^ESCTDR875127	Dreemon 10mg/5ml syrup (E M Pharma)
+^ESCTDR875132	Dreemon 10mg/5ml syrup (E M Pharma) 150 ml
+^ESCTEL865047	Eludril mouthwash (Pierre Fabre Ltd)
+^ESCTEL865048	Eludril mouthwash (Pierre Fabre Ltd) 90 ml
+^ESCTEL865049	Eludril mouthwash (Pierre Fabre Ltd) 250 ml
+^ESCTEL865050	Eludril mouthwash (Pierre Fabre Ltd) 500 ml
+^ESCTEL865858	Eludril spray (Pierre Fabre Ltd)
+^ESCTEL865859	Eludril spray (Pierre Fabre Ltd) 55 ml
+^ESCTEL923151	Eludril
+^ESCTEP642206	Ephedrine sulfate+hydroxyzine hydrochloride+theophylline 6.25mg/2.5mg/32.5mg syrup
+^ESCTEP661301	Ephedrine sulphate + hydroxyzine hydrochloride + theophylline
+^ESCTEP661302	Ephedrine sulfate + hydroxyzine hydrochloride + theophylline
+^ESCTFE903208	Fedril Paediatric 6.25mg/5ml elixir (Pinewood Healthcare)
+^ESCTFE903209	Fedril Paediatric 6.25mg/5ml elixir (Pinewood Healthcare) 125 ml
+^ESCTFE903210	Fedril Expectorant oral solution (Pinewood Healthcare)
+^ESCTFE903211	Fedril Expectorant oral solution (Pinewood Healthcare) 125 ml
+^ESCTFR865849	Frador 1% tincture (Fenton Pharmaceuticals Ltd)
+^ESCTFR865850	Frador 1% tincture (Fenton Pharmaceuticals Ltd) 3.5 ml
+^ESCTGA1000146	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd)
+^ESCTGA1000148	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd) 20 tablet
+^ESCTGE1023248	Generic Night Nurse Hot Lemon Menthol oral powder sachets sugar free 5 sachet
+^ESCTGE1023337	Generic Night Nurse Hot Lemon Menthol oral powder sachets sugar free
+^ESCTGE873947	Generic Night Nurse capsules 10 capsule
+^ESCTGE874053	Generic Night Nurse capsules
+^ESCTGE902240	Generic Night Nurse oral solution
+^ESCTGE902273	Generic Night Nurse oral solution 160 ml
+^ESCTGE903061	Generic Night Nurse capsules 6 capsule
+^ESCTGE903067	Generic Day & Night Nurse capsules 24 capsule
+^ESCTGE903110	Generic Day & Night Nurse capsules
+^ESCTGE903225	Generic Sominex Herbal tablets 30 tablet
+^ESCTGE903243	Generic Sominex Herbal tablets
+^ESCTHE809329	Heminevrin 192mg capsules (AstraZeneca UK Ltd)
+^ESCTHE820358	Heminevrin 250mg/5ml syrup (AstraZeneca UK Ltd)
+^ESCTHE855531	Heminevrin 192mg capsules (AstraZeneca UK Ltd) 60 capsule
+^ESCTHE855532	Heminevrin 250mg/5ml syrup (AstraZeneca UK Ltd) 300 ml
+^ESCTHE901052	HealthAid Melatonin 3mg tablets (Imported (United States))
+^ESCTHE901055	HealthAid Melatonin 3mg tablets (Imported (United States)) 60 tablet
+^ESCTHE918847	Heminevrin
+^ESCTHE930300	Heminevrin 192mg capsules (Waymade Healthcare Plc)
+^ESCTHE930303	Heminevrin 192mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTHI861439	Histergan 25mg tablets (Norma Chemicals Ltd)
+^ESCTHI861440	Histergan 25mg tablets (Norma Chemicals Ltd) 50 tablet
+^ESCTHI871060	Histergan 2% cream (Norma Chemicals Ltd)
+^ESCTHI871061	Histergan 2% cream (Norma Chemicals Ltd) 25 gram
+^ESCTHI911453	Histergan 25mg tablets (Norma Chemicals Ltd) 20 tablet
+^ESCTHI911540	Histergan 10mg/5ml syrup (Norma Chemicals Ltd)
+^ESCTHI911541	Histergan 10mg/5ml syrup (Norma Chemicals Ltd) 150 ml
+^ESCTHY1159873	Hydroxyzine 10mg/5ml oral solution 1 ml
+^ESCTHY1159874	Hydroxyzine 10mg/5ml oral solution (Special Order)
+^ESCTHY1159875	Hydroxyzine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY1160731	Hydroxyzine 15mg/5ml oral suspension 1 ml
+^ESCTHY1160732	Hydroxyzine 15mg/5ml oral suspension (Special Order)
+^ESCTHY1160734	Hydroxyzine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY1160839	Hydroxyzine 15mg/5ml oral suspension
+^ESCTHY609150	Hydroxyzine 10mg/5ml oral solution
+^ESCTHY609151	Hydroxyzine hydrochloride 10mg/5mL syrup
+^ESCTHY609152	Hydroxyzine hydrochloride 10mg/5ml syrup
+^ESCTHY663913	Hydroxyzine hydrochloride 50mg/1mL injection solution 25mL vial
+^ESCTHY664060	Hydroxyzine hydrochloride 50mg/1mL injection solution 50mL vial
+^ESCTHY664369	Hydroxyzine hydrochloride 50mg/mL injection solution 1mL vial
+^ESCTHY664370	Hydroxyzine hydrochloride 50mg/mL injection
+^ESCTHY664473	Hydroxyzine hydrochloride 50mg/1mL injection solution 2mL vial
+^ESCTHY664526	Hydroxyzine hydrochloride 50mg/1mL injection solution 10mL vial
+^ESCTHY664527	Hydroxyzine hydrochloride 500mg/10mL injection
+^ESCTHY835382	Hydroxyzine 10mg/5ml oral solution 200 ml
+^ESCTHY847301	Hydroxyzine 25mg tablets 28 tablet
+^ESCTHY847572	Hydroxyzine 10mg tablets 84 tablet
+^ESCTHY848043	Hydroxyzine 25mg tablets 25 tablet
+^ESCTHY907210	Hydroxyzine 5mg/5ml oral solution 1 ml
+^ESCTHY907213	Hydroxyzine 5mg/5ml oral solution (Special Order)
+^ESCTHY907214	Hydroxyzine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907218	Hydroxyzine 5mg/5ml oral suspension 1 ml
+^ESCTHY907219	Hydroxyzine 5mg/5ml oral suspension (Special Order)
+^ESCTHY907221	Hydroxyzine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907421	Hydroxyzine 5mg/5ml oral solution
+^ESCTHY907422	Hydroxyzine 5mg/5ml oral suspension
+^ESCTHY951238	Hydroxyzine 2.5mg/5ml oral solution 1 ml
+^ESCTHY951239	Hydroxyzine 2.5mg/5ml oral solution (Special Order)
+^ESCTHY951240	Hydroxyzine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951244	Hydroxyzine 20mg/5ml oral solution 1 ml
+^ESCTHY951245	Hydroxyzine 20mg/5ml oral solution (Special Order)
+^ESCTHY951246	Hydroxyzine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951251	Hydroxyzine 25mg/5ml oral solution 1 ml
+^ESCTHY951252	Hydroxyzine 25mg/5ml oral solution (Special Order)
+^ESCTHY951253	Hydroxyzine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY952084	Hydroxyzine 2.5mg/5ml oral solution
+^ESCTHY952086	Hydroxyzine 20mg/5ml oral solution
+^ESCTHY952088	Hydroxyzine 25mg/5ml oral solution
+^ESCTIC1104275	Icenia Melatonin 3mg capsules (Imported (United States))
+^ESCTIC1104276	Icenia Melatonin 3mg capsules (Imported (United States)) 60 capsule
+^ESCTKI902507	Kilkof Expectorant oral solution (Bell,Sons & Co (Druggists) Ltd)
+^ESCTKI902508	Kilkof Expectorant oral solution (Bell,Sons & Co (Druggists) Ltd) 150 ml
+^ESCTLL901367	Lloydspharmacy Antihistamine 2% cream (Lloyds Pharmacy Ltd)
+^ESCTLL901368	Lloydspharmacy Antihistamine 2% cream (Lloyds Pharmacy Ltd) 25 gram
+^ESCTLL901409	Lloydspharmacy Extra Strength Sleep Aid 50mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901411	Lloydspharmacy Extra Strength Sleep Aid 50mg tablets (Lloyds Pharmacy Ltd) 20 tablet
+^ESCTLU1158154	Lunox Sleep Aid 25mg tablets (Crescent Pharma Ltd)
+^ESCTLU1158155	Lunox Sleep Aid 25mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTLU1162835	Lunox Max Strength Sleep Aid 50mg tablets (Crescent Pharma Ltd)
+^ESCTLU1162838	Lunox Max Strength Sleep Aid 50mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTMA902399	Mandalyn Expectorant oral solution (M & A Pharmachem Ltd)
+^ESCTMA902400	Mandalyn Expectorant oral solution (M & A Pharmachem Ltd) 125 ml
+^ESCTMA902415	Mandalyn Paediatric 6.25mg/5ml oral solution (M & A Pharmachem Ltd)
+^ESCTMA902416	Mandalyn Paediatric 6.25mg/5ml oral solution (M & A Pharmachem Ltd) 125 ml
+^ESCTME1021447	Melatonin 5mg/5ml oral solution 200 ml
+^ESCTME1021449	Melatonin 5mg/5ml oral solution (Drug Tariff Special Order) 200 ml
+^ESCTME1021451	Melatonin 5mg/5ml oral suspension 100 ml
+^ESCTME1021454	Melatonin 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1022216	Melatonin 2mg modified-release tablets 30 tablet
+^ESCTME1048209	Melatonin 2mg capsules 60 capsule
+^ESCTME1056438	Melatonin 2mg/5ml oral solution 100 ml
+^ESCTME1056439	Melatonin 2mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTME1056440	Melatonin 2mg/5ml oral suspension 100 ml
+^ESCTME1056441	Melatonin 2mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1056442	Melatonin 3mg/5ml oral solution 100 ml
+^ESCTME1056443	Melatonin 3mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTME1056444	Melatonin 3mg/5ml oral suspension 100 ml
+^ESCTME1056445	Melatonin 3mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1058445	Melatonin 3mg capsules (Special Order)
+^ESCTME1058446	Melatonin 3mg capsules (Special Order) 1 capsule
+^ESCTME1058993	Melatonin 3mg orodispersible tablets 1 tablet
+^ESCTME1058994	Melatonin 3mg orodispersible tablets (Special Order)
+^ESCTME1058995	Melatonin 3mg orodispersible tablets (Special Order) 1 tablet
+^ESCTME1059045	Melatonin 3mg orodispersible tablets
+^ESCTME1062303	Melatonin 2mg capsules (Imported (Denmark))
+^ESCTME1062304	Melatonin 2mg capsules (Imported (Denmark)) 60 capsule
+^ESCTME1062305	Melatonin 3mg capsules (Imported (Denmark))
+^ESCTME1062306	Melatonin 3mg capsules (Imported (Denmark)) 60 capsule
+^ESCTME1066325	Melatonin 10mg/5ml oral solution 100 ml
+^ESCTME1066326	Melatonin 10mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTME1066327	Melatonin 10mg/5ml oral suspension 100 ml
+^ESCTME1066328	Melatonin 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1099247	Melatonin 2.5mg/5ml oral solution 1 ml
+^ESCTME1099248	Melatonin 2.5mg/5ml oral solution 100 ml
+^ESCTME1099249	Melatonin 2.5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME1099250	Melatonin 2.5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME1099251	Melatonin 2.5mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTME1099252	Melatonin 2.5mg/5ml oral suspension 100 ml
+^ESCTME1099253	Melatonin 2.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1100467	Melatonin 2.5mg/5ml oral solution
+^ESCTME1107030	Melatonin 2mg modified-release capsules 1 capsule
+^ESCTME1107031	Melatonin 2mg modified-release capsules (Special Order)
+^ESCTME1107032	Melatonin 2mg modified-release capsules (Special Order) 1 capsule
+^ESCTME1107704	Melatonin 2mg modified-release capsules
+^ESCTME1115940	Melatonin 8mg capsules 1 capsule
+^ESCTME1115941	Melatonin 8mg capsules (Special Order)
+^ESCTME1115942	Melatonin 8mg capsules (Special Order) 1 capsule
+^ESCTME1115972	Melatonin 8mg capsules
+^ESCTME1118104	Meprobamate 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118105	Meprobamate 400mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTME1119341	Melatonin 3mg modified-release tablets 120 tablet
+^ESCTME1119342	Melatonin 3mg modified-release tablets (Imported (United States))
+^ESCTME1119343	Melatonin 3mg modified-release tablets (Imported (United States)) 120 tablet
+^ESCTME1119344	Melatonin Extra Strength 5mg tablets (Imported (United States))
+^ESCTME1119345	Melatonin 5mg tablets 60 tablet
+^ESCTME1119346	Melatonin Extra Strength 5mg tablets (Imported (United States)) 60 tablet
+^ESCTME1119846	Melatonin 3mg modified-release tablets
+^ESCTME1144679	Melatonin 15mg/5ml oral suspension 1 ml
+^ESCTME1144680	Melatonin 15mg/5ml oral suspension (Special Order)
+^ESCTME1144681	Melatonin 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME1144831	Melatonin 7mg/5ml oral solution 1 ml
+^ESCTME1144832	Melatonin 7mg/5ml oral solution (Special Order)
+^ESCTME1144833	Melatonin 7mg/5ml oral solution (Special Order) 1 ml
+^ESCTME1144844	Melatonin 7.5mg capsules 1 capsule
+^ESCTME1144845	Melatonin 7.5mg capsules (Special Order)
+^ESCTME1144846	Melatonin 7.5mg capsules (Special Order) 1 capsule
+^ESCTME1145072	Melatonin 15mg/5ml oral suspension
+^ESCTME1145073	Melatonin 7.5mg capsules
+^ESCTME1145074	Melatonin 7mg/5ml oral solution
+^ESCTME1146075	Melatonin 7mg/5ml oral suspension 1 ml
+^ESCTME1146076	Melatonin 7mg/5ml oral suspension (Special Order)
+^ESCTME1146077	Melatonin 7mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME1146209	Melatonin 7mg/5ml oral suspension
+^ESCTME1159905	Melatonin 7mg capsules 1 capsule
+^ESCTME1159906	Melatonin 7mg capsules (Special Order)
+^ESCTME1159907	Melatonin 7mg capsules (Special Order) 1 capsule
+^ESCTME1159962	Melatonin 10mg tablets 1 tablet
+^ESCTME1159963	Melatonin 10mg tablets (Special Order)
+^ESCTME1159964	Melatonin 10mg tablets (Special Order) 1 tablet
+^ESCTME1160182	Melatonin 10mg tablets
+^ESCTME1160183	Melatonin 7mg capsules
+^ESCTME1160698	Melatonin 4mg tablets 1 tablet
+^ESCTME1160700	Melatonin 4mg tablets (Special Order)
+^ESCTME1160702	Melatonin 4mg tablets (Special Order) 1 tablet
+^ESCTME1160841	Melatonin 4mg tablets
+^ESCTME610343	Meperidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTME863016	Meprobamate 400mg tablets 84 tablet
+^ESCTME863027	Meprobamate 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME863029	Meprobamate 400mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTME863030	Meprobamate 400mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTME863031	Meprobamate 400mg tablets (Genus Pharmaceuticals Ltd) 84 tablet
+^ESCTME863035	Meprobamate 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME863038	Meprobamate 400mg tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTME863039	Meprobamate 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME863042	Meprobamate 400mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTME866471	Medised For Children oral solution (SSL International Plc)
+^ESCTME866475	Medised For Children oral solution (SSL International Plc) 100 ml
+^ESCTME896287	Melatonin 3mg tablets 60 tablet
+^ESCTME897202	Medised For Children oral solution (SSL International Plc) 200 ml
+^ESCTME899672	Melatonin 10mg capsules 60 capsule
+^ESCTME899673	Melatonin 10mg capsules (Imported (United States))
+^ESCTME899674	Melatonin 10mg capsules (Imported (United States)) 60 capsule
+^ESCTME899690	Melatonin 1mg capsules 60 capsule
+^ESCTME899691	Melatonin 1mg capsules (Imported (United States))
+^ESCTME899692	Melatonin 1mg capsules (Imported (United States)) 60 capsule
+^ESCTME899717	Melatonin 10mg capsules
+^ESCTME899718	Melatonin 1mg capsules
+^ESCTME899731	Melatonin 3mg modified-release capsules 60 capsule
+^ESCTME899732	Melatonin 3mg modified-release capsules (Imported (United States))
+^ESCTME899733	Melatonin 3mg modified-release capsules (Imported (United States)) 60 capsule
+^ESCTME899734	Melatonin 2.5mg capsules 60 capsule
+^ESCTME899735	Melatonin 3mg capsules 60 capsule
+^ESCTME899736	Melatonin 2.5mg capsules (Imported (United States))
+^ESCTME899737	Melatonin 2.5mg capsules (Imported (United States)) 60 capsule
+^ESCTME899738	Melatonin 500microgram capsules 200 capsule
+^ESCTME899742	Melatonin 500microgram capsules (Imported (United States))
+^ESCTME899743	Melatonin 500microgram capsules (Imported (United States)) 200 capsule
+^ESCTME899744	Melatonin 20mg capsules 60 capsule
+^ESCTME900649	Melatonin 2.5mg capsules
+^ESCTME900650	Melatonin 20mg capsules
+^ESCTME900651	Melatonin 3mg capsules
+^ESCTME900652	Melatonin 3mg modified-release capsules
+^ESCTME900653	Melatonin 500microgram capsules
+^ESCTME900773	Melatonin 1mg tablets 60 tablet
+^ESCTME900774	Melatonin 1mg tablets 90 tablet
+^ESCTME900776	Melatonin 1mg tablets 100 tablet
+^ESCTME900782	Melatonin 1mg tablets (Imported (United States))
+^ESCTME900784	Melatonin 1mg tablets (Imported (United States)) 90 tablet
+^ESCTME900870	Melatonin 5mg capsules 100 capsule
+^ESCTME900878	Melatonin 5mg capsules (Imported (United States))
+^ESCTME900879	Melatonin 5mg capsules (Imported (United States)) 100 capsule
+^ESCTME901093	Melatonin 1mg tablets
+^ESCTME901094	Melatonin 5mg capsules
+^ESCTME901111	Melatonin 3mg tablets
+^ESCTME901173	Melatonin 3mg capsules 100 capsule
+^ESCTME901174	Melatonin 3mg capsules (Imported (United States))
+^ESCTME901175	Melatonin 3mg capsules (Imported (United States)) 100 capsule
+^ESCTME902458	Melatonin 2mg modified-release tablets 120 tablet
+^ESCTME902474	Melatonin 500microgram tablets
+^ESCTME902476	Melatonin 500microgram tablets 1000 tablet
+^ESCTME907865	Melatonin 2.5mg/5ml oral suspension 1 ml
+^ESCTME907866	Melatonin 2.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME907874	Melatonin 2.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME908403	Melatonin 2.5mg/5ml oral suspension
+^ESCTME932963	Melatonin 3mg lozenges sugar free
+^ESCTME932964	Melatonin 3mg lozenges sugar free 60 lozenge
+^ESCTME932965	Melatonin 3mg lozenges sugar free (Imported (United States))
+^ESCTME932966	Melatonin 3mg lozenges sugar free (Imported (United States)) 60 lozenge
+^ESCTME940187	Melatonin 2mg capsules 1 capsule
+^ESCTME940188	Melatonin 2mg capsules (Special Order)
+^ESCTME940189	Melatonin 2mg capsules (Special Order) 1 capsule
+^ESCTME940240	Melatonin 3mg capsules 1 capsule
+^ESCTME940285	Melatonin 2mg capsules
+^ESCTME944494	Melatonin 3mg capsules (Imported (United States)) 60 capsule
+^ESCTME952714	Melatonin 2mg/5ml oral suspension 1 ml
+^ESCTME952715	Melatonin 2mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME952716	Melatonin 2mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME952720	Melatonin 2mg/5ml oral solution 1 ml
+^ESCTME952721	Melatonin 2mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME952722	Melatonin 2mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME952723	Melatonin 3mg/5ml oral suspension 1 ml
+^ESCTME952724	Melatonin 3mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME952725	Melatonin 3mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME952726	Melatonin 3mg/5ml oral solution 1 ml
+^ESCTME952727	Melatonin 3mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME952728	Melatonin 3mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME952729	Melatonin 4mg/5ml oral suspension 1 ml
+^ESCTME952730	Melatonin 4mg/5ml oral suspension (Special Order)
+^ESCTME952731	Melatonin 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME952732	Melatonin 4mg/5ml oral solution 1 ml
+^ESCTME952733	Melatonin 4mg/5ml oral solution (Special Order)
+^ESCTME952734	Melatonin 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTME952774	Meprobamate 5mg/5ml oral suspension 1 ml
+^ESCTME952775	Meprobamate 5mg/5ml oral suspension (Special Order)
+^ESCTME952777	Meprobamate 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME952780	Meprobamate 5mg/5ml oral solution 1 ml
+^ESCTME952781	Meprobamate 5mg/5ml oral solution (Special Order)
+^ESCTME952782	Meprobamate 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME952835	Melatonin 2mg/5ml oral solution
+^ESCTME952836	Melatonin 2mg/5ml oral suspension
+^ESCTME952837	Melatonin 3mg/5ml oral solution
+^ESCTME952838	Melatonin 3mg/5ml oral suspension
+^ESCTME952839	Melatonin 4mg/5ml oral solution
+^ESCTME952840	Melatonin 4mg/5ml oral suspension
+^ESCTME952847	Meprobamate 5mg/5ml oral solution
+^ESCTME952848	Meprobamate 5mg/5ml oral suspension
+^ESCTME963136	Melatonin 2mg modified-release tablets 21 tablet
+^ESCTME968111	Melatonin 5mg/5ml oral solution 1 ml
+^ESCTME968112	Melatonin 5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME968113	Melatonin 5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME968114	Melatonin 5mg/5ml oral suspension 1 ml
+^ESCTME968115	Melatonin 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME968116	Melatonin 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME968179	Melatonin 3mg tablets 1 tablet
+^ESCTME968180	Melatonin 3mg tablets (Imported (United States))
+^ESCTME968181	Melatonin 3mg tablets (Imported (United States)) 1 tablet
+^ESCTME968393	Melatonin 5mg/5ml oral solution
+^ESCTME968395	Melatonin 5mg/5ml oral suspension
+^ESCTME970186	Melatonin 10mg capsules 1 capsule
+^ESCTME970187	Melatonin 10mg capsules (Special Order)
+^ESCTME970188	Melatonin 10mg capsules (Special Order) 1 capsule
+^ESCTME973101	Melatonin 4mg capsules 1 capsule
+^ESCTME973102	Melatonin 4mg capsules (Special Order)
+^ESCTME973103	Melatonin 4mg capsules (Special Order) 1 capsule
+^ESCTME973507	Melatonin 4mg capsules
+^ESCTME979676	Melatonin 1mg/5ml oral solution 1 ml
+^ESCTME979677	Melatonin 1mg/5ml oral solution (Special Order)
+^ESCTME979678	Melatonin 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTME979679	Melatonin 1mg/5ml oral suspension 1 ml
+^ESCTME979680	Melatonin 1mg/5ml oral suspension (Special Order)
+^ESCTME979681	Melatonin 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME979754	Melatonin 10mg/5ml oral solution 1 ml
+^ESCTME979755	Melatonin 10mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME979756	Melatonin 10mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME979757	Melatonin 10mg/5ml oral suspension 1 ml
+^ESCTME979758	Melatonin 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME979759	Melatonin 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME979767	Melatonin 10mg/5ml oral solution
+^ESCTME979768	Melatonin 10mg/5ml oral suspension
+^ESCTME979769	Melatonin 1mg/5ml oral solution
+^ESCTME979770	Melatonin 1mg/5ml oral suspension
+^ESCTME983607	Melatonin 6mg capsules 1 capsule
+^ESCTME983608	Melatonin 6mg capsules (Special Order)
+^ESCTME983609	Melatonin 6mg capsules (Special Order) 1 capsule
+^ESCTME983696	Melatonin 6mg capsules
+^ESCTME985884	Melatonin 6mg/5ml oral solution 1 ml
+^ESCTME985885	Melatonin 6mg/5ml oral solution (Special Order)
+^ESCTME985886	Melatonin 6mg/5ml oral solution (Special Order) 1 ml
+^ESCTME985887	Melatonin 6mg/5ml oral suspension 1 ml
+^ESCTME985888	Melatonin 6mg/5ml oral suspension (Special Order)
+^ESCTME985889	Melatonin 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME985894	Melatonin 6mg/5ml oral solution
+^ESCTME985895	Melatonin 6mg/5ml oral suspension
+^ESCTME986058	Melatonin 20mg capsules 1 capsule
+^ESCTME986060	Melatonin 20mg capsules (Special Order)
+^ESCTME986061	Melatonin 20mg capsules (Special Order) 1 capsule
+^ESCTME986063	Melatonin 500microgram tablets 1 tablet
+^ESCTME986064	Melatonin 500microgram tablets (Special Order)
+^ESCTME986065	Melatonin 500microgram tablets (Special Order) 1 tablet
+^ESCTME986133	Melatonin 2mg tablets 1 tablet
+^ESCTME986134	Melatonin 2mg tablets (Special Order)
+^ESCTME986135	Melatonin 2mg tablets (Special Order) 1 tablet
+^ESCTME986136	Melatonin 5mg tablets 1 tablet
+^ESCTME986137	Melatonin 5mg tablets (Special Order)
+^ESCTME986138	Melatonin 5mg tablets (Special Order) 1 tablet
+^ESCTME986401	Melatonin 2mg tablets
+^ESCTME986402	Melatonin 5mg tablets
+^ESCTNI1023249	Night Nurse Hot Lemon Menthol oral powder sachets (GlaxoSmithKline Consumer Healthcare)
+^ESCTNI1023251	Night Nurse Hot Lemon Menthol oral powder sachets (GlaxoSmithKline Consumer Healthcare) 5 sachet
+^ESCTNI861428	Nightcalm 25mg tablets (Galpharm International Ltd)
+^ESCTNI861430	Nightcalm 25mg tablets (Galpharm International Ltd) 20 tablet
+^ESCTNI873948	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare)
+^ESCTNI873949	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare) 10 capsule
+^ESCTNI902274	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare)
+^ESCTNI902276	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare) 160 ml
+^ESCTNI903063	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare) 6 capsule
+^ESCTNI920425	Night Nurse
+^ESCTNI936059	Night Nurse Hot Lemon Menthol
+^ESCTNI942784	Nirolex Night Time Coughs oral solution (The Boots Company Plc)
+^ESCTNI942785	Nirolex Night Time Coughs oral solution (The Boots Company Plc) 150 ml
+^ESCTNI967255	Night Nurse capsules (DE Pharmaceuticals)
+^ESCTNI967256	Night Nurse capsules (DE Pharmaceuticals) 10 capsule
+^ESCTNI967257	Night Nurse oral solution (DE Pharmaceuticals)
+^ESCTNI967258	Night Nurse oral solution (DE Pharmaceuticals) 160 ml
+^ESCTNU1067688	Numark Night Time Sleep Aid 50mg tablets (Numark Ltd)
+^ESCTNU1067689	Numark Night Time Sleep Aid 50mg tablets (Numark Ltd) 20 tablet
+^ESCTNU926898	Numark Night Time Sleep Aid 25mg tablets (Numark Ltd)
+^ESCTNU926899	Numark Night Time Sleep Aid 25mg tablets (Numark Ltd) 20 tablet
+^ESCTNU964698	Numark Chesty Cough Expectorant oral solution (Numark Ltd)
+^ESCTNU964699	Numark Chesty Cough Expectorant oral solution (Numark Ltd) 200 ml
+^ESCTNY1012857	Nytol Herbal tablets (Omega Pharma Ltd)
+^ESCTNY1012858	Nytol Herbal tablets (Omega Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTNY1059425	Nytol 25mg tablets (Omega Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTNY1059426	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTNY825447	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd)
+^ESCTNY856384	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd) 16 tablet 2 x 8 tablets
+^ESCTNY861434	Nytol 25mg tablets (Omega Pharma Ltd)
+^ESCTNY861435	Nytol 25mg tablets (Omega Pharma Ltd) 16 tablet 2 x 8 tablets
+^ESCTPA610149	Paracetamol+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+^ESCTPA610151	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+^ESCTPA610153	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL color free s/f suspension
+^ESCTPA661541	Paracetamol+promethazine hydrochloride
+^ESCTPA866141	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPA866142	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPA866410	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution 100 ml
+^ESCTPA866563	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution
+^ESCTPA870305	Paracetamol 500mg / Diphenhydramine 25mg tablets 10 tablet
+^ESCTPA870306	Paracetamol 500mg / Diphenhydramine 25mg tablets 20 tablet
+^ESCTPA870307	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPA870308	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare) 10 tablet
+^ESCTPA870309	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare) 20 tablet
+^ESCTPA873799	Paracetamol 500mg / Diphenhydramine 25mg tablets 5 tablet
+^ESCTPA873800	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd)
+^ESCTPA873801	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd) 5 tablet
+^ESCTPA874660	Paracetamol 120mg/5ml / Diphenhydramine 7mg/5ml oral suspension sugar free 100 ml
+^ESCTPA874709	Paracetamol 120mg/5ml / Diphenhydramine 7mg/5ml oral suspension sugar free
+^ESCTPA897201	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution 200 ml
+^ESCTPA915478	Pamergan P100
+^ESCTPA963505	Paracetamol 500mg / Diphenhydramine 25mg tablets 4 tablet
+^ESCTPA963518	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd) 4 tablet
+^ESCTPA980964	Paxidorm 25mg tablets (Norma Chemicals Ltd)
+^ESCTPA980965	Paxidorm 25mg tablets (Norma Chemicals Ltd) 20 tablet
+^ESCTPE610342	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTPE866138	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPE866528	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules
+^ESCTPH1021620	Phenergan 25mg tablets (DE Pharmaceuticals)
+^ESCTPH1021621	Phenergan 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTPH1023775	Phenergan 25mg tablets (Lexon (UK) Ltd)
+^ESCTPH1023776	Phenergan 25mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTPH642526	Phenylephrine hydrochloride+promethazine hydrochloride 5mg/6.25mg syrup
+^ESCTPH801946	Phenergan 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTPH804227	Phenergan 5mg/5ml elixir (Sanofi)
+^ESCTPH807102	Phenergan Nightime 25mg tablets (Sanofi)
+^ESCTPH811299	Phenergan 25mg tablets (Sanofi)
+^ESCTPH819919	Phenergan 10mg tablets (Sanofi)
+^ESCTPH855534	Phenergan 5mg/5ml elixir (Sanofi) 100 ml
+^ESCTPH855553	Phenergan 10mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTPH855554	Phenergan Nightime 25mg tablets (Sanofi) 14 tablet
+^ESCTPH855555	Phenergan 25mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTPH857101	Phenergan 25mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTPH866129	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free 100 ml
+^ESCTPH866448	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free
+^ESCTPH915603	Phenergan
+^ESCTPH925719	Pholcodine + Promethazine
+^ESCTPO1100237	Potassium bromide 850mg tablets
+^ESCTPO1100239	Potassium bromide 850mg tablets 60 tablet
+^ESCTPO876401	Potassium bromide powder 500 gram
+^ESCTPO876402	Potassium bromide powder (J M Loveridge Ltd)
+^ESCTPO876403	Potassium bromide powder (J M Loveridge Ltd) 500 gram
+^ESCTPO876404	Potassium bromide powder (Alliance Healthcare (Distribution) Ltd)
+^ESCTPO876407	Potassium bromide powder (Alliance Healthcare (Distribution) Ltd) 500 gram
+^ESCTPO876562	Potassium bromide powder
+^ESCTPO876640	Potassium bromide mixture 200 ml
+^ESCTPO876815	Potassium bromide mixture
+^ESCTPO903838	Potassium bromide mixture (Extemp Order)
+^ESCTPO903840	Potassium bromide mixture (Extemp Order) 200 ml
+^ESCTPO939516	Potassium bromide mixture 1 ml
+^ESCTPO939517	Potassium bromide mixture (Special Order)
+^ESCTPO939519	Potassium bromide mixture (Special Order) 1 ml
+^ESCTPR1040711	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1040712	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd) 16 tablet
+^ESCTPR1104000	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1104001	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTPR1104711	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTPR1119616	Promethazine hydrochloride 10mg tablets (DE Pharmaceuticals)
+^ESCTPR1119617	Promethazine hydrochloride 10mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTPR1145573	Promethazine hydrochloride 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTPR1145574	Promethazine hydrochloride 10mg tablets (Genesis Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTPR608825	Promethazine 5mg/5ml oral solution sugar free
+^ESCTPR608826	Promethazine hydrochloride 5mg/5mL elixir
+^ESCTPR608827	Promethazine 25mg/1ml solution for injection ampoules
+^ESCTPR608828	Promethazine hydrochloride 25mg/1mL injection
+^ESCTPR608829	Promethazine hydrochloride 25mg/mL injection solution 1mL ampoule
+^ESCTPR608830	Promethazine hydrochloride 25mg/mL injection solution 1mL ampule
+^ESCTPR608831	Promethazine hydrochloride 25mg/mL injection solution 2mL ampoule
+^ESCTPR608832	Promethazine hydrochloride 50mg/2mL injection
+^ESCTPR608833	Promethazine hydrochloride 25mg/mL injection solution 2mL ampule
+^ESCTPR609174	Product containing buspirone hydrochloride
+^ESCTPR641371	Product containing buspirone hydrochloride dividose 15 mg/1 each oral tablet
+^ESCTPR641373	Product containing buspirone hydrochloride dividose 30 mg/1 each oral tablet
+^ESCTPR641809	Promethazine hydrochloride 25mg/mL injection ampoule
+^ESCTPR641810	Promethazine hydrochloride 25mg/mL injection
+^ESCTPR641811	Promethazine hydrochloride 25mg/mL injection ampule
+^ESCTPR692491	Product containing ramelteon 8 mg/1 each oral tablet
+^ESCTPR693969	Product containing ramelteon
+^ESCTPR759136	Product containing tasimelteon
+^ESCTPR759138	Product containing tasimelteon 20 mg/1 each oral capsule
+^ESCTPR847299	Promethazine hydrochloride 25mg tablets 56 tablet
+^ESCTPR848007	Promethazine 5mg/5ml oral solution sugar free 100 ml
+^ESCTPR848382	Promethazine hydrochloride 25mg tablets 14 tablet
+^ESCTPR848383	Promethazine hydrochloride 10mg tablets 56 tablet
+^ESCTPR848777	Promethazine 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPR860301	Promethazine teoclate 25mg tablets 10 tablet
+^ESCTPR860302	Promethazine teoclate 25mg tablets 28 tablet
+^ESCTPR868080	Promethazine hydrochloride 20mg tablets 8 tablet
+^ESCTPR902226	Promethazine hydrochloride 10mg tablets 16 tablet
+^ESCTPR902244	Promethazine hydrochloride 25mg tablets 10 tablet
+^ESCTPR902245	Promethazine hydrochloride 25mg tablets 30 tablet
+^ESCTPR922687	Promethazine hydrochloride
+^ESCTPR934051	Promethazine hydrochloride 20mg tablets 16 tablet
+^ESCTPR959575	Promethazine 25mg/5ml oral suspension 1 ml
+^ESCTPR959576	Promethazine 25mg/5ml oral suspension (Special Order)
+^ESCTPR959577	Promethazine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959578	Promethazine 25mg/5ml oral solution 1 ml
+^ESCTPR959580	Promethazine 25mg/5ml oral solution (Special Order)
+^ESCTPR959582	Promethazine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959641	Promethazine 25mg/5ml oral solution
+^ESCTPR959643	Promethazine 25mg/5ml oral suspension
+^ESCTPR966585	Promethazine teoclate
+^ESCTPR990276	Promethazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTPR990277	Promethazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTPR990292	Promethazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPR990293	Promethazine 50mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTPR990296	Promethazine 50mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTPR990721	Promethazine 50mg/2ml solution for injection ampoules
+^ESCTPS870437	Pseudoephedrine 22.5mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free 100 ml
+^ESCTPS870468	Pseudoephedrine 22.5mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free
+^ESCTRA692490	Ramelteon 8 mg oral tablet
+^ESCTRA693968	Ramelteon
+^ESCTSG899745	S.Gard 20mg capsules (Imported (United States))
+^ESCTSG899746	S.Gard 20mg capsules (Imported (United States)) 60 capsule
+^ESCTSL1007029	Sleepeaze 25mg tablets (The Boots Company Plc)
+^ESCTSL1007030	Sleepeaze 25mg tablets (The Boots Company Plc) 20 tablet
+^ESCTSL1161397	Sleep Aid 25mg tablets (Tor Generics Ltd)
+^ESCTSL1161398	Sleep Aid 25mg tablets (Tor Generics Ltd) 20 tablet
+^ESCTSL912694	Sleepeaze 50mg tablets (The Boots Company Plc)
+^ESCTSL912695	Sleepeaze 50mg tablets (The Boots Company Plc) 20 tablet
+^ESCTSO1108849	Sodium acetate 3mmol/50ml / Sodium oxybate 2mmol/50ml / Sodium propionate 1.5mmol/50ml enema
+^ESCTSO1108850	Sodium acetate 3mmol/50ml / Sodium oxybate 2mmol/50ml / Sodium propionate 1.5mmol/50ml enema 1 enema
+^ESCTSO1108851	Sodium acetate 3mmol/50ml / Sodium oxybate 2mmol/50ml / Sodium propionate 1.5mmol/50ml enema (Special Order)
+^ESCTSO1108852	Sodium acetate 3mmol/50ml / Sodium oxybate 2mmol/50ml / Sodium propionate 1.5mmol/50ml enema (Special Order) 1 enema
+^ESCTSO1108853	Sodium acetate + Sodium oxybate + Sodium propionate
+^ESCTSO868081	Sominex 20mg tablets (Teva UK Ltd)
+^ESCTSO868082	Sominex 20mg tablets (Teva UK Ltd) 8 tablet
+^ESCTSO902816	Soothake dental gel (Optima Consumer Health Ltd)
+^ESCTSO902817	Soothake dental gel (Optima Consumer Health Ltd) 5 gram
+^ESCTSO903226	Sominex Herbal tablets (Teva UK Ltd)
+^ESCTSO903227	Sominex Herbal tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTSO916350	Sominex
+^ESCTSO916352	Sominex Herbal
+^ESCTSO925881	Sodium oxybate 500mg/ml oral solution sugar free 180 ml
+^ESCTSO930685	Sodium hydroxybutyrate powder
+^ESCTSO930687	Sodium hydroxybutyrate powder 25 gram
+^ESCTSO930688	Sodium DL-3-hydroxybutyrate powder (Special Products Ltd)
+^ESCTSO930689	Sodium DL-3-hydroxybutyrate powder (Special Products Ltd) 25 gram
+^ESCTSO930690	Sodium hydroxybutyrate
+^ESCTSO934052	Sominex 20mg tablets (Teva UK Ltd) 16 tablet 2 x 8 tablets
+^ESCTTA759135	Tasimelteon
+^ESCTTA759137	Tasimelteon 20 mg/1 each oral capsule
+^ESCTTI866133	Tixylix Night Cough oral solution (Novartis Consumer Health UK Ltd)
+^ESCTTI866140	Tixylix Night Cough oral solution (Novartis Consumer Health UK Ltd) 100 ml
+^ESCTTI870438	Tixycolds syrup sugar free (Novartis Consumer Health UK Ltd)
+^ESCTTI870439	Tixycolds syrup sugar free (Novartis Consumer Health UK Ltd) 100 ml
+^ESCTTR1007059	Triple Bromide 1.2g/5ml oral solution (Special Order)
+^ESCTTR1007061	Triple Bromide 1.2g/5ml oral solution (Special Order) 1 ml
+^ESCTTR608847	Trimeprazine tartrate 7.5mg/5mL syrup
+^ESCTTR608849	Trimeprazine tartrate 30mg/5mL syrup
+^ESCTTR863957	Triclofos 500mg/5ml oral solution 300 ml
+^ESCTTR863958	Triclofos 500mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTTR863960	Triclofos 500mg/5ml oral solution (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTTR863961	Triclofos 500mg/5ml oral solution (Focus Pharmaceuticals Ltd)
+^ESCTTR863962	Triclofos 500mg/5ml oral solution (Focus Pharmaceuticals Ltd) 300 ml
+^ESCTTR863963	Triclofos 500mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR863964	Triclofos 500mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTTW902465	Twinlab Melatonin 2mg modified-release tablets (Tree of Life UK Ltd)
+^ESCTTW902466	Twinlab Melatonin 2mg modified-release tablets (Tree of Life UK Ltd) 120 tablet
+^ESCTUC829956	Ucerax 25mg tablets (UCB Pharma Ltd)
+^ESCTUC833413	Ucerax 10mg/5ml syrup (UCB Pharma Ltd)
+^ESCTUC855805	Ucerax 25mg tablets (UCB Pharma Ltd) 25 tablet
+^ESCTUC855810	Ucerax 10mg/5ml syrup (UCB Pharma Ltd) 200 ml
+^ESCTUC916908	Ucerax
+^ESCTVA1001655	Valdoxan 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1001656	Valdoxan 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTVA1001657	Vallergan Forte 30mg/5ml syrup (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1001658	Vallergan Forte 30mg/5ml syrup (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTVA1025149	Valdoxan 25mg tablets (Lexon (UK) Ltd)
+^ESCTVA1025150	Valdoxan 25mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTVA807297	Vallergan Forte 30mg/5ml syrup (Sanofi)
+^ESCTVA816560	Vallergan 7.5mg/5ml syrup (Sanofi)
+^ESCTVA820815	Vallergan 10mg tablets (Sanofi)
+^ESCTVA855828	Vallergan 10mg tablets (Sanofi) 28 tablet
+^ESCTVA855829	Vallergan Forte 30mg/5ml syrup (Sanofi) 100 ml
+^ESCTVA855836	Vallergan 7.5mg/5ml syrup (Sanofi) 100 ml
+^ESCTVA916985	Vallergan
+^ESCTVA926284	Valdoxan
+^ESCTVA981819	Valdoxan 25mg tablets (Servier Laboratories Ltd)
+^ESCTVA981820	Valdoxan 25mg tablets (Servier Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTVA990783	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd)
+^ESCTVA990784	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd) 100 ml
+^ESCTVE902480	VesPro Melatonin 500microgram tablets (Imported (United States))
+^ESCTVE902481	VesPro Melatonin 500microgram tablets (Imported (United States)) 1000 tablet
+^ESCTWE805207	Welldorm 143.3mg/5ml elixir (Marlborough Pharmaceuticals Ltd)
+^ESCTWE856982	Welldorm 143.3mg/5ml elixir (Marlborough Pharmaceuticals Ltd) 150 ml
+^ESCTWE857936	Welldorm 707mg tablets (Marlborough Pharmaceuticals Ltd)
+^ESCTWE857937	Welldorm 707mg tablets (Marlborough Pharmaceuticals Ltd) 30 tablet
+^ESCTWE924444	Welldorm (Chloral hydrate)
+^ESCTWE924446	Welldorm (Cloral betaine)
+^ESCTXY925882	Xyrem 500mg/ml oral solution (UCB Pharma Ltd)
+^ESCTXY925883	Xyrem 500mg/ml oral solution (UCB Pharma Ltd) 180 ml
+^ESCTZI902234	Ziz 10mg tablets (Chatfield Laboratories)
+^ESCTZI902236	Ziz 10mg tablets (Chatfield Laboratories) 16 tablet
+^ESCTZI902254	Ziz Forte 25mg tablets (Chatfield Laboratories)
+^ESCTZI902257	Ziz Forte 25mg tablets (Chatfield Laboratories) 10 tablet
+^ESCTZI902258	Ziz Forte 25mg tablets (Chatfield Laboratories) 30 tablet
+^ESCTZI917409	Ziz
+ADTA141574NEMIS	Adaflex  Tablets  1 mg
+ADTA141575NEMIS	Adaflex  Tablets  2 mg
+ADTA141576NEMIS	Adaflex  Tablets  3 mg
+ADTA141577NEMIS	Adaflex  Tablets  4 mg
+ADTA141578NEMIS	Adaflex  Tablets  5 mg
+AGTA36504NEMIS	Agomelatine  Tablets  25 mg
+ALOR138781NEMIS	Alimemazine  Oral Solution, Sugar Free  30 mg/5 ml
+ALOR138782NEMIS	Alimemazine  Oral Solution, Sugar Free  7.5 mg/5 ml
+ALOR139535NEMIS	Alimemazine  Oral Solution, Sugar Free  10 mg/5 ml
+ALSY137909NEMIS	Alfresed  Syrup  7.5 mg/5 ml
+ALSY137910NEMIS	Alfresed  Syrup  30 mg/5 ml
+ATSY227	Atarax  Syrup  10 mg/5 ml
+ATTA228	Atarax  Tablets  10 mg
+ATTA229	Atarax  Tablets  25 mg
+AVTA261	Avomine  Tablets  25 mg
+BITA45546NEMIS	Bio-Melatonin  Tablets  3 mg
+BUOR128152NEMIS	Buspirone Hydrochloride  Oral solution  5 mg/5 ml
+BUTA10623BRIDL	Buspar  Tablets  10 mg
+BUTA132441NEMIS	Buspirone Hydrochloride  Tablets  7.5 mg
+BUTA141729NEMIS	Buspirone Hydrochloride  Tablets  15 mg
+BUTA141730NEMIS	Buspirone Hydrochloride  Tablets  30 mg
+BUTA34003MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Unichem)
+BUTA34004MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Kent Pharm)
+BUTA34005MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Alpharma)
+BUTA34006MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+BUTA34007MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Alpharma)
+BUTA34008MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Unichem)
+BUTA34009MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+BUTA34010MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Kent Pharm)
+BUTA8469BRID	Buspar  Tablets  5 mg
+CEOR144638NEMIS	Ceyesto  Oral solution  1 mg/ml
+CETA140429NEMIS	Ceyesto  Tablets  3 mg
+CHCR3924NEMIS	Chloral Hydrate  Crystals  BP
+CHIN4721	Chlormethiazole Edisylate  Intravenous infusion  8 mg/ml
+CHMO21505NEMIS	Chlorhexidine Gluconate And Chlorobutanol  Mouthwash (Sugar Free)  0.1 % + 0.5 %
+CHOR105704NEMIS	Chloral Hydrate  Oral solution  500 mg/5 ml
+CHOR139195NEMIS	Chloral Hydrate (Special Order)  Oral solution  BP 143.3 mg/5 ml
+CHOR23303NEMIS	Chloral Hydrate  Oral solution  1 gram/5 ml
+CHOR45697NEMIS	Chloral Hydrate  Oral solution  200 mg/5 ml
+CHOR89387NEMIS	Chloral Hydrate  Oral suspension  200 mg/5 ml
+CHSU23289NEMIS	Chloral Hydrate  Suppositories  500 mg
+CHSU72196NEMIS	Chloral Hydrate  Suppositories  250 mg
+CIM/30088NEMIS	Circadin  M/R tablets  2 mg
+CLTA138261NEMIS	Cloral Betaine (Imported)  Tablets  707 mg
+COOR11266NEMIS	Covonia Night Time Formula  Oral solution  
+DIOR23829NEMIS	Diphenhydramine Hydrochloride  Oral solution  10 mg/5 ml
+DIOR38709NEMIS	Diphenhydramine And Dextromethorphan  Oral Solution, Sugar Free  10 mg/5 ml + 6.65 mg/5 ml
+DRTA16132NEMIS	Dreemon  Tablets  25 mg
+ELAE9460HILLI	Eludril  Aerosol spray  
+ELMO9249BRIDL	Eludril  Mouth wash  
+EQTA1094	Equanil  Tablets  200 mg
+EQTA1095	Equanil  Tablets  400 mg
+FRTI25519EMIS	Frador  Tincture  
+HECA1351	Heminevrin  Capsules  192 mg
+HEIN1352	Heminevrin  Intravenous infusion  8 mg/ml
+HESY1353	Heminevrin  Syrup  250 mg/5 ml
+HISY23831NEMIS	Histergan  Syrup  10 mg/5 ml
+HYOR130333NEMIS	Hydroxyzine Hydrochloride  Oral solution  2.5 mg/5 ml
+HYOR133337NEMIS	Hydroxyzine Hydrochloride  Oral suspension  10 mg/5 ml
+ICCA116878NEMIS	Icenia Melatonin  Capsules  3 mg
+ICCA131864NEMIS	Icenia Melatonin  Capsules  2 mg
+ICCA131866NEMIS	Icenia Melatonin  Capsules  5 mg
+ITOR141862NEMIS	Itzenal  Oral Solution, Sugar Free  30 mg/5 ml
+ITOR141863NEMIS	Itzenal  Oral Solution, Sugar Free  7.5 mg/5 ml
+MECA1054NEMIS	Melatonin  Capsules  3 mg
+MECA13228NEMIS	Melatonin  Capsules  1 mg
+MECA30217EMIS	Melatonin  Capsules  2 mg
+MECA30218EMIS	Melatonin  Capsules  5 mg
+MECA42924NEMIS	Melatonin  Capsules  10 mg
+MECA5308NEMIS	Melatonin  Capsules  2.5 mg
+MEM/127306NEMIS	Melatonin  M/R tablets  3 mg
+MEM/128277NEMIS	Melatonin  M/R capsules  2 mg
+MEM/131770NEMIS	Melatonin  M/R tablets  1 mg
+MEM/131771NEMIS	Melatonin  M/R tablets  5 mg
+MEM/19026NEMIS	Melatonin  M/R capsules  3 mg
+MEOR133169NEMIS	Melatonin  Oral Solution, Sugar Free  1 mg/ml
+MEOR134020NEMIS	Melatonin  Oral suspension  4 mg/5 ml
+MEOR134108NEMIS	Melatonin  Oral Solution (alcohol free)  5 mg/5 ml
+MEOR134109NEMIS	Melatonin  Oral Suspension, Alcohol Free  5 mg/5 ml
+MEOR141606NEMIS	Melatonin  Oral Solution, Alcohol free, Sugar Free  1 mg/ml
+MEOR143197NEMIS	Melatonin (Consilient Health Ltd)  Oral Solution, Sugar Free  1 mg/ml
+MEOR46495NEMIS	Melatonin  Oral solution  10 mg/5 ml
+MEOR46496NEMIS	Melatonin  Oral suspension  10 mg/5 ml
+MEOR46497NEMIS	Melatonin  Oral suspension  2.5 mg/5 ml
+MEOR46498NEMIS	Melatonin  Oral solution  2 mg/5 ml
+MEOR46499NEMIS	Melatonin  Oral suspension  2 mg/5 ml
+MEOR46500NEMIS	Melatonin  Oral solution  3 mg/5 ml
+MEOR46501NEMIS	Melatonin  Oral suspension  3 mg/5 ml
+MEOR46557NEMIS	Melatonin  Oral solution  1 mg/ml
+MEOR46839NEMIS	Melatonin  Oral suspension  5 mg/5 ml
+MEOR95953NEMIS	Melatonin  Oral solution  2.5 mg/5 ml
+META141571NEMIS	Melatonin  Tablets  2 mg
+META141572NEMIS	Melatonin  Tablets  4 mg
+META24100NEMIS	Melatonin  Tablets  1 mg
+META36037MGEMIS	Meprobamate  Tablets  400 mg (A.A.H. Pharm)
+META36038MGEMIS	Meprobamate  Tablets  400 mg (Genus Pharm)
+META36039MGEMIS	Meprobamate  Tablets  400 mg (Kent Pharm)
+META36040MGEMIS	Meprobamate  Tablets  400 mg (Unichem)
+META46800NEMIS	Melatonin  Tablets  5 mg
+META5307NEMIS	Melatonin  Tablets  3 mg
+NITA11321NEMIS	Nightcalm  Tablets  25 mg
+NYTA23522EMIS	Nytol  Tablets  25 mg
+NYTA33308NEMIS	Nytol Herbal  Tablets  
+NYTA4546NEMIS	Nytol One-a-Night  Tablets  50 mg
+PAIN4112	Pamergan P100  Injection  2 ml ampoule
+PATA135310NEMIS	Paracetamol And Diphenhydramine  Tablets  500 mg + 25 mg
+PATA42244NEMIS	Panadol Night Pain  Tablets  
+PHEL2227	Phenergan  Elixir  5 mg/5 ml
+PHIN15565NEMIS	Phenergan  Injection  25 mg/ml, 1 ml ampoule
+PHIN8972BRIDL	Phenergan  Injection  25mg/ml
+PHOR29099NEMIS	Pholcodine And Promethazine  Oral Solution, Sugar Free  1.5 mg/5 ml + 1.5 mg/5 ml
+PHTA2228	Phenergan  Tablets  10 mg
+PHTA2229	Phenergan  Tablets  25 mg
+PHTA27062EMIS	Phenergan Nightime  Tablets  25 mg
+POCR4033NEMIS	Potassium Bromide  Crystals  BP
+PROR143871NEMIS	Promethazine Hydrochloride  Oral suspension  5 mg/5 ml
+PROR143872NEMIS	Promethazine Hydrochloride  Oral solution  5 mg/5 ml
+PRTA142239NEMIS	Promethazine Hydrochloride (Imported)  Tablets  25 mg
+SLM/131773NEMIS	Slenyto  M/R tablets  1 mg
+SLM/131774NEMIS	Slenyto  M/R tablets  5 mg
+SOTA9074BRIDL	Sominex  Tablets  20 mg
+SYTA137885NEMIS	Syncrodin  Tablets  3 mg
+TIOR29101NEMIS	Tixylix Night Cough  Oral solution  
+TREL37297MGEMIS	Triclofos Sodium  Elixir  500 mg/5 ml (A.A.H. Pharm)
+TREL37298MGEMIS	Triclofos Sodium  Elixir  500 mg/5 ml (Ucb Pharma)
+TREL37299MGEMIS	Triclofos Sodium  Elixir  500 mg/5 ml (Unichem)
+TROR46819NEMIS	Triple Bromide  Oral solution  1.2 grams/5 ml
+UCSY19792EMIS	Ucerax  Syrup  10 mg/5 ml
+UCTA19793EMIS	Ucerax  Tablets  25 mg
+VASY3010	Vallergan  Syrup  7.5 mg/5 ml
+VASY3011	Vallergan  Syrup forte  30 mg/5 ml
+VATA3012	Vallergan  Tablets  10 mg
+VATA36507NEMIS	Valdoxan  Tablets  25 mg
+VESP4500	Vertigon  Spansules  10 mg
+VESP4501	Vertigon  Spansules  15 mg
+WEEL3074	Welldorm  Elixir  143.3 mg/5 ml
+WETA3075	Welldorm  Tablets  707 mg
+XYOR22279NEMIS	Xyrem  Oral solution  500 mg/ml
