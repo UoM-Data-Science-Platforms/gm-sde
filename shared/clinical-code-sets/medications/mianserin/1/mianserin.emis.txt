@@ -141,3 +141,28 @@ MITA36073MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Unichem)
 MITA36074MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Kent Pharm)
 MITA36075MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Alpharma)
 MITA36076MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Generics (UK))
+^ESCT1207141	Mianserin in oral dosage form
+^ESCT1207142	Product containing mianserin in oral dosage form
+^ESCT1220620	Mianserin
+^ESCT1220621	Mianserin product
+^ESCT1355921	Mianserin only product
+^ESCT1359232	Mianserin only product in oral dose form
+^ESCT1386615	Mianserin-containing product in oral dose form
+^ESCT1436844	Mianserin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437002	Mianserin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437075	Mianserin 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437476	Mianserin 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437477	Mianserin 10mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437479	Mianserin 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437480	Mianserin 20mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437481	Mianserin 30mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI406863	Mianserin
+^ESCTMI609675	Mianserin hydrochloride
+^ESCTPR406864	Product containing mianserin
+^ESCTPR609676	Product containing mianserin hydrochloride
+BOTA390	Bolvidon  Tablets  10 mg
+BOTA391	Bolvidon  Tablets  20 mg
+BOTA392	Bolvidon  Tablets  30 mg
+NOTA2035	Norval  Tablets  10 mg
+NOTA2036	Norval  Tablets  20 mg
+NOTA2037	Norval  Tablets  30 mg

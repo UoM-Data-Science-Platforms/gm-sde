@@ -1,3 +1,10 @@
-d7b1.	MIANSERIN 10mg tablets
-d7b2.	MIANSERIN 20mg tablets
-d7b3.	MIANSERIN 30mg tablets
+d7b1.00	MIANSERIN 10mg tablets
+d7b2.00	MIANSERIN 20mg tablets
+d7b3.00	MIANSERIN 30mg tablets
+d7b..00	MIANSERIN HYDROCHLORIDE
+d7b9.00	*NORVAL 30mg tablets
+d7b8.00	*NORVAL 20mg tablets
+d7b7.00	*NORVAL 10mg tablets
+d7b6.00	*BOLVIDON 30mg tablets
+d7b5.00	*BOLVIDON 20mg tablets
+d7b4.00	*BOLVIDON 10mg tablets

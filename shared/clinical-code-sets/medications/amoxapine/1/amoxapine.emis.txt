@@ -1,0 +1,48 @@
+^ESCT1181103	Product containing only amoxapine 50 mg/1 each oral tablet
+^ESCT1181394	Product containing only amoxapine 100 mg/1 each oral tablet
+^ESCT1183320	Product containing only amoxapine 150 mg/1 each oral tablet
+^ESCT1183321	Product containing only amoxapine 25 mg/1 each oral tablet
+^ESCT1206209	Amoxapine in oral dosage form
+^ESCT1206210	Product containing amoxapine in oral dosage form
+^ESCT1217695	Amoxapine
+^ESCT1217696	Amoxapine product
+^ESCT1223558	Product containing precisely amoxapine 50 milligram/1 each conventional release oral tablet
+^ESCT1223559	Product containing precisely amoxapine 100 milligram/1 each conventional release oral tablet
+^ESCT1229459	Product containing precisely amoxapine 150 milligram/1 each conventional release oral tablet
+^ESCT1229460	Product containing precisely amoxapine 25 milligram/1 each conventional release oral tablet
+^ESCT1353490	Amoxapine only product
+^ESCT1357482	Amoxapine only product in oral dose form
+^ESCT1386162	Amoxapine-containing product in oral dose form
+^ESCTAM1107816	Amoxapine 100mg tablets 30 tablet
+^ESCTAM1140305	Amoxapine 100mg tablets 1 tablet
+^ESCTAM1140306	Amoxapine 100mg tablets (Special Order)
+^ESCTAM1140307	Amoxapine 100mg tablets (Special Order) 1 tablet
+^ESCTAM298028	Amoxapine
+^ESCTAM609714	Amoxapine 50mg tablets
+^ESCTAM609716	Amoxapine 50 mg oral tablet
+^ESCTAM609717	Amoxapine 100mg tablets
+^ESCTAM609719	Amoxapine 100 mg oral tablet
+^ESCTAM645789	Amoxapine 150 mg oral tablet
+^ESCTAM645791	Amoxapine 25 mg oral tablet
+^ESCTAM864456	Amoxapine 50mg tablets 84 tablet
+^ESCTAM865691	Amoxapine 100mg tablets 56 tablet
+^ESCTAS864457	Asendis 50mg tablets (Mercury Pharma Group Ltd)
+^ESCTAS864458	Asendis 50mg tablets (Mercury Pharma Group Ltd) 84 tablet
+^ESCTAS865695	Asendis 100mg tablets (Mercury Pharma Group Ltd)
+^ESCTAS865697	Asendis 100mg tablets (Mercury Pharma Group Ltd) 56 tablet
+^ESCTAS913956	Asendis
+^ESCTDE1107959	Defanyl 100mg tablets (Imported (France))
+^ESCTDE1107960	Defanyl 100mg tablets (Imported (France)) 30 tablet
+^ESCTPR298029	Product containing amoxapine
+^ESCTPR609715	Product containing amoxapine 50 mg/1 each oral tablet
+^ESCTPR609718	Product containing amoxapine 100 mg/1 each oral tablet
+^ESCTPR645790	Product containing amoxapine 150 mg/1 each oral tablet
+^ESCTPR645792	Product containing amoxapine 25 mg/1 each oral tablet
+AMTA9130HILLI	Amoxapine  Tablets  25 mg
+AMTA9132HILLI	Amoxapine  Tablets  50 mg
+AMTA9134HILLI	Amoxapine  Tablets  100 mg
+AMTA9136HILLI	Amoxapine  Tablets  150 mg
+ASTA8892EGTON	Asendis  Tablets  100 mg
+ASTA8893EGTON	Asendis  Tablets  150 mg
+ASTA8894EGTON	Asendis  Tablets  25 mg
+ASTA8895EGTON	Asendis  Tablets  50 mg

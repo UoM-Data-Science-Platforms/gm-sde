@@ -8,3 +8,5 @@ daB7.	Mirtazapine 45mg oro-dispersible tablet
 daB8.	Zispin SolTab 45mg oro-dispersible tablet
 daBy.	Mirtazapine 45mg tablet
 daBz.	Mirtazapine 15mg tablet
+daB..	Mirtazapine
+x03q9	Zispin
