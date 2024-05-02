@@ -235,3 +235,84 @@ SELI32613EMIS	Seroxat  Liquid  20 mg/10 ml
 SETA24527NEMIS	Seroxat  Tablets  10 mg
 SETA8968EMIS	Seroxat  Tablets  20 mg
 SETA8969EMIS	Seroxat  Tablets  30 mg
+^ESCT1183000	Product containing only paroxetine 10 mg/1 each oral tablet
+^ESCT1203971	Paroxetine 12.5mg gastro-resistant and prolonged-release oral tablet
+^ESCT1203972	Paroxetine 25mg gastro-resistant and prolonged-release oral tablet
+^ESCT1203973	Paroxetine 37.5mg gastro-resistant and prolonged-release oral tablet
+^ESCT1204590	Paroxetine (as paroxetine hydrochloride) 2 mg/mL oral suspension
+^ESCT1204591	Product containing precisely paroxetine (as paroxetine hydrochloride) 2 milligram/1 milliliter conventional release oral suspension
+^ESCT1212359	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCT1223592	Paroxetine
+^ESCT1223593	Paroxetine product
+^ESCT1233310	Product containing precisely paroxetine 10 milligram/1 each conventional release oral tablet
+^ESCT1271224	Seroxat 20mg/10ml liquid (CST Pharma Ltd)
+^ESCT1271225	Seroxat 20mg/10ml liquid (CST Pharma Ltd) 150 ml
+^ESCT1356256	Paroxetine only product
+^ESCT1359505	Paroxetine only product in oral dose form
+^ESCT1363184	Paroxetine (as paroxetine hydrochloride) 10 mg oral tablet
+^ESCT1367276	Paroxetine 10mg tablets
+^ESCT1382068	Paroxetine-containing product in oral dose form
+^ESCT1433865	Paroxetine 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1433866	Paroxetine 20mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1434585	Paroxetine 30mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1434586	Paroxetine 30mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1436765	Paroxetine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437366	Paroxetine 20mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437853	Paroxetine 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437854	Paroxetine 30mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCTPA609783	Paroxetine
+^ESCTPA609791	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCTPA609792	Paroxetine 10mg/5mL s/f liquid
+^ESCTPA645779	Paroxetine in oral dosage form
+^ESCTPA645781	Paroxetine 12.5mg tablet controlled-release
+^ESCTPA645782	Paroxetine 25mg tablet controlled-release
+^ESCTPA645783	Paroxetine 37.5mg tablet controlled-release
+^ESCTPA696497	Paroxetine 10mg tablets
+^ESCTPA696499	Paroxetine 10 mg oral tablet
+^ESCTPA877373	Paroxetine 10mg/5ml oral suspension sugar free (Dowelhurst Ltd)
+^ESCTPA877375	Paroxetine 10mg/5ml oral suspension sugar free (Dowelhurst Ltd) 150 ml
+^ESCTPA960492	Paroxetine 20mg tablets (Dowelhurst Ltd)
+^ESCTPA960493	Paroxetine 20mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPA960494	Paroxetine 30mg tablets (Dowelhurst Ltd)
+^ESCTPA960496	Paroxetine 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPA974752	Paroxetine 10mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTPA974753	Paroxetine 10mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTPR609784	Product containing paroxetine
+^ESCTPR645780	Product containing paroxetine in oral dosage form
+^ESCTPR696498	Product containing paroxetine 10 mg/1 each oral tablet
+^ESCTSE1001474	Seroxat 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1001475	Seroxat 20mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSE1001476	Seroxat 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1001477	Seroxat 30mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSE1002827	Seroxat 20mg/10ml liquid (Sigma Pharmaceuticals Plc)
+^ESCTSE1002830	Seroxat 20mg/10ml liquid (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTSE1008328	Seroxat 20mg/10ml liquid (Necessity Supplies Ltd)
+^ESCTSE1008331	Seroxat 20mg/10ml liquid (Necessity Supplies Ltd) 150 ml
+^ESCTSE1012260	Seroxat 20mg tablets (DE Pharmaceuticals)
+^ESCTSE1012261	Seroxat 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTSE1100276	Seroxat 10mg tablets (Waymade Healthcare Plc)
+^ESCTSE1100277	Seroxat 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE877426	Seroxat 20mg/10ml liquid (Dowelhurst Ltd)
+^ESCTSE877427	Seroxat 20mg/10ml liquid (Dowelhurst Ltd) 150 ml
+^ESCTSE878256	Seroxat 20mg tablets (Waymade Healthcare Plc)
+^ESCTSE878268	Seroxat 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE878288	Seroxat 20mg/10ml liquid (Waymade Healthcare Plc)
+^ESCTSE878290	Seroxat 20mg/10ml liquid (Waymade Healthcare Plc) 150 ml
+^ESCTSE879243	Seroxat 20mg tablets (Dowelhurst Ltd)
+^ESCTSE879247	Seroxat 20mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTSE879249	Seroxat 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTSE916249	Seroxat
+^ESCTSE935762	Seroxat 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE951085	Seroxat 30mg tablets (Waymade Healthcare Plc)
+^ESCTSE951086	Seroxat 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE960185	Seroxat 20mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE960186	Seroxat 30mg tablets (Dowelhurst Ltd)
+^ESCTSE960187	Seroxat 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE967871	Seroxat 20mg/10ml liquid (DE Pharmaceuticals)
+^ESCTSE967872	Seroxat 20mg/10ml liquid (DE Pharmaceuticals) 150 ml
+^ESCTSE989888	Seroxat 20mg/10ml liquid (Lexon (UK) Ltd)
+^ESCTSE989889	Seroxat 20mg/10ml liquid (Lexon (UK) Ltd) 150 ml
+^ESCTSE989890	Seroxat 20mg tablets (Lexon (UK) Ltd)
+^ESCTSE989891	Seroxat 20mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTSE989892	Seroxat 30mg tablets (Lexon (UK) Ltd)
+^ESCTSE989893	Seroxat 30mg tablets (Lexon (UK) Ltd) 30 tablet
